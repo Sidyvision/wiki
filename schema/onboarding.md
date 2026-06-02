@@ -74,23 +74,27 @@ Obsidian récupère donc seul les changements poussés par Claude Code, sans `Gi
 
 ## Comment démarrer une session Claude Code
 
-Dans Termius, connectez-vous au serveur puis tapez :
+Dans Termius, connectez-vous au serveur puis lancez simplement :
 
 ```bash
-ANTHROPIC_API_KEY=votre-clé-api claude
+claude
 ```
 
-⚠️ La clé API doit être entrée à chaque session (pas encore sauvegardée de façon permanente).
+✅ La clé API est désormais persistée dans `~/.bashrc` — plus besoin de la retaper à chaque session.
 
-### Sauvegarder la clé API définitivement
+### Clé API persistée (2026-06-02)
 
-Pour ne plus avoir à la retaper, exécuter dans le terminal Linux (pas dans Claude Code) :
+La clé est définie en bas de `~/.bashrc` :
 
 ```bash
-echo 'export ANTHROPIC_API_KEY=votre-clé' >> ~/.bashrc && source ~/.bashrc
+export ANTHROPIC_API_KEY='sk-ant-...'
 ```
 
-Note : les tentatives précédentes ont échoué à cause du clavier iPad qui ajoutait des caractères invalides. Essayer depuis le clavier physique ou via SSH depuis un autre appareil si possible.
+Elle se charge automatiquement à chaque shell interactif (sessions Termius).
+
+Historique : les tentatives précédentes avaient laissé **plusieurs lignes `export` cassées** dans `~/.bashrc` (espace après `=`, clé coupée sur plusieurs lignes, caractères `l`→`1` / `O`→`0` introduits par le clavier iPad). Les lignes fautives s'annulaient entre elles → la clé n'était jamais chargée. Nettoyé le 2026-06-02 pour ne conserver qu'une seule ligne correcte (entre quotes simples).
+
+> Note clavier iPad : pour toute future édition de la clé, attention aux substitutions `l`↔`1` et `O`↔`0`, et toujours entourer la valeur de quotes simples sans espace après `=`.
 
 ---
 
@@ -104,7 +108,7 @@ Note : les tentatives précédentes ont échoué à cause du clavier iPad qui aj
 
 ## Prochaines étapes suggérées
 
-1. Régler la sauvegarde permanente de la clé API
+1. ~~Régler la sauvegarde permanente de la clé API~~ ✅ fait le 2026-06-02
 2. ~~Activer le pull automatique dans Obsidian Git~~ ✅ fait le 2026-06-02
 3. Alimenter `raw/` avec les premières sources
 4. Lancer le premier INGEST

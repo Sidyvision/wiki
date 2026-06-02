@@ -32,6 +32,6 @@ Distinct de `wiki/logs/` qui stocke des pages de type `log` (événements datés
 - **Opération** : maintenance méta (hors INGEST/QUERY/LINT/COMPARTIMENTALISER)
 - **Domaine(s)** : —
 - **Créé** : —
-- **Modifié** : `schema/onboarding.md` (section Obsidian → résolue, auto-pull activé ; table infra ; prochaines étapes)
+- **Modifié** : `schema/onboarding.md` (Obsidian → résolu ; clé API → persistée ; table infra ; prochaines étapes)
 - **Supprimé / déprécié** : —
-- **Notes** : synchro Obsidian iPad désormais automatique (pull on startup + intervalle). Reste à faire : persister `ANTHROPIC_API_KEY`, alimenter `raw/`, premier INGEST.
+- **Notes** : (1) synchro Obsidian iPad désormais automatique (pull on startup + intervalle). (2) `ANTHROPIC_API_KEY` persistée dans `~/.bashrc` — nettoyage de 4 lignes `export` cassées, une seule conservée ; clé hors repo. Reste à faire : alimenter `raw/`, premier INGEST.
