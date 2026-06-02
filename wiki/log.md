@@ -26,3 +26,12 @@ Distinct de `wiki/logs/` qui stocke des pages de type `log` (événements datés
 ---
 
 <!-- entrées ci-dessous, plus récente en premier -->
+
+## 2026-06-02 — mise à jour onboarding
+
+- **Opération** : maintenance méta (hors INGEST/QUERY/LINT/COMPARTIMENTALISER)
+- **Domaine(s)** : —
+- **Créé** : —
+- **Modifié** : `schema/onboarding.md` (section Obsidian → résolue, auto-pull activé ; table infra ; prochaines étapes)
+- **Supprimé / déprécié** : —
+- **Notes** : synchro Obsidian iPad désormais automatique (pull on startup + intervalle). Reste à faire : persister `ANTHROPIC_API_KEY`, alimenter `raw/`, premier INGEST.

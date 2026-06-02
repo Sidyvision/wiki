@@ -20,7 +20,7 @@ Accès via Termius (iPad). Navigation via Obsidian (iPad).
 | Serveur Hetzner | ✅ Opérationnel           | IP : 178.105.125.156                                    |
 | Claude Code     | ✅ Installé               | v2.1.150, dossier `~/wiki`                              |
 | GitHub          | ✅ Connecté               | `git@github.com:Sidyvision/wiki.git` (SSH)              |
-| Obsidian Git    | ⚠️ Partiellement configuré | Voir problème ci-dessous                                |
+| Obsidian Git    | ✅ Configuré (auto-pull)   | Pull automatique activé — voir section ci-dessous       |
 
 ---
 
@@ -47,36 +47,28 @@ Accès via Termius (iPad). Navigation via Obsidian (iPad).
 
 ---
 
-## Problème en cours : Obsidian pas dans la boucle
+## Synchronisation Obsidian : ✅ résolue (auto-pull activé)
 
-### Symptôme
+### Historique
 
-Obsidian sur iPad ne reçoit pas automatiquement les mises à jour quand Claude Code modifie des fichiers et fait un `git push`.
+Obsidian sur iPad ne recevait pas automatiquement les mises à jour quand Claude Code modifiait des fichiers et faisait un `git push` : il fallait déclencher un `Git: Pull` **manuellement** après chaque push.
 
-### Ce qui a été fait
+### Résolution (2026-06-02)
 
-- Obsidian Git (plugin) installé dans Obsidian
-- Token GitHub configuré dans Obsidian Git
-- Nom et email auteur configurés (Sidyvision)
-- Clone du repo effectué via `Git: Clone an existing remote repo`
-- Un `Git: Pull` manuel a fonctionné une fois (« Everything is up-to-date »)
+La synchronisation automatique est désormais activée dans Obsidian Git :
 
-### Ce qui manque probablement
+- Paramètres → Obsidian Git → « Pull updates on startup » → **activé**
+- Paramètres → Obsidian Git → « Auto pull interval » → **réglé**
 
-Le `Git: Pull` dans Obsidian doit être déclenché **manuellement** après chaque `git push` de Claude Code. Il n'y a pas de synchronisation automatique.
+Obsidian récupère donc seul les changements poussés par Claude Code, sans `Git: Pull` manuel.
 
-### Solution immédiate (workflow manuel)
+### Workflow courant
 
 1. Claude Code modifie les fichiers et fait `git push`
-2. Dans Obsidian → Palette de commandes → `Git: Pull`
-3. Les fichiers apparaissent dans Obsidian
+2. Obsidian (iPad) pull automatiquement (au démarrage + à intervalle régulier)
+3. Les fichiers apparaissent sans action manuelle
 
-### Solution idéale (à configurer)
-
-Activer la synchronisation automatique dans Obsidian Git :
-
-- Paramètres → Obsidian Git → « Pull updates on startup » → activer
-- Paramètres → Obsidian Git → « Auto pull interval » → régler à 5 minutes
+> En cas de doute (changement attendu non visible), un `Git: Pull` manuel via la palette de commandes reste possible pour forcer la synchro.
 
 ---
 
@@ -113,7 +105,7 @@ Note : les tentatives précédentes ont échoué à cause du clavier iPad qui aj
 ## Prochaines étapes suggérées
 
 1. Régler la sauvegarde permanente de la clé API
-2. Activer le pull automatique dans Obsidian Git
+2. ~~Activer le pull automatique dans Obsidian Git~~ ✅ fait le 2026-06-02
 3. Alimenter `raw/` avec les premières sources
 4. Lancer le premier INGEST
 
