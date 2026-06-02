@@ -1,7 +1,7 @@
 ---
 title: Index
 type: meta
-updated: 2026-05-24
+updated: 2026-06-02
 ---
 
 # Index
@@ -24,10 +24,12 @@ Index global du wiki, organisé par domaine puis par type. À tenir synchronisé
 ## perso
 
 ### Entités
+- [[sidy]] — profil de l'utilisateur principal (identité, orientation spirituelle, préférences).
 
 ### Concepts
 
 ### Sources
+- [[chatgpt-export-2026-05-10]] — export de données ChatGPT, source du profil.
 
 ### Analyses
 
@@ -60,8 +62,15 @@ Index global du wiki, organisé par domaine puis par type. À tenir synchronisé
 ## general
 
 ### Entités
+- [[ibn-arabi]] — maître soufi andalou (stub).
+- [[al-ghazali]] — théologien/soufi, frères al-Ghazālī (stub).
+- [[rene-guenon]] — métaphysicien, traditionaliste (stub).
+- [[platon]] — philosophe grec (stub).
 
 ### Concepts
+- [[sanatana-dharma]] — « ordre éternel », hindouisme (stub).
+- [[ahl-al-sunnah-wa-l-jamaa]] — sunnisme orthodoxe (stub).
+- [[tasawwuf]] — soufisme, degré de l'iḥsān (stub).
 
 ### Sources
 

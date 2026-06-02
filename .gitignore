@@ -1,0 +1,7 @@
+# Sources brutes en attente d'INGEST — JAMAIS versionnées
+# (peuvent contenir des données personnelles + fichiers volumineux)
+# Seule la structure de dossiers est conservée via les .gitkeep.
+/raw/*
+!/raw/assets/
+/raw/assets/*
+!/raw/assets/.gitkeep
