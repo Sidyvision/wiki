@@ -83,11 +83,13 @@ Index global du wiki, organisé par domaine puis par type. À tenir synchronisé
 - [[ilm-al-huruf]] — science islamique des lettres, correspondances lettres/planètes/nombres.
 - [[asma-al-husna]] — les 99 Noms divins, propriétés contemplatives et opératives.
 - [[talisman-sihr]] — talismans et carrés magiques islamiques (stub).
+- [[ilm-al-nujum]] — astrologie traditionnelle islamique, science des sept planètes et des signes.
 
 ### Sources
 - [[awrad-ibn-arabi]] — litanies d'Ibn ʿArabī, compilées et traduites par Dr. Ali Hussain (ISCA, 2022).
 - [[jesus-and-enoch-in-ibn-arabi]] — article académique de Dr. Ali Hussain, JMIAS Vol. 60, 2016.
 - [[shams-al-maarif]] — Shams al-Maʿārif al-Kubrā, traduction française partielle par Ouattara Brahima (2025).
+- [[ilm-al-nujum-astrologie-traditionnelle]] — cours sur les bases de l'ʿilm al-nujûm, lafindestempsmodernes.blogspot.com, 24 avril 2024.
 
 ### Analyses
 

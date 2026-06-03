@@ -4,9 +4,9 @@ type: entity
 domain: general
 tags: [soufisme, metaphysique, andalousie, akbarisme]
 created: 2026-06-02
-updated: 2026-06-02
-sources: ["[[awrad-ibn-arabi]]", "[[jesus-and-enoch-in-ibn-arabi]]"]
-links: ["[[tasawwuf]]", "[[walaya]]", "[[salawat]]", "[[wird-awrad]]", "[[ali-hussain]]", "[[barzakh]]", "[[wahdat-al-wujud]]", "[[idris]]"]
+updated: 2026-06-03
+sources: ["[[awrad-ibn-arabi]]", "[[jesus-and-enoch-in-ibn-arabi]]", "[[ilm-al-nujum-astrologie-traditionnelle]]"]
+links: ["[[tasawwuf]]", "[[walaya]]", "[[salawat]]", "[[wird-awrad]]", "[[ali-hussain]]", "[[barzakh]]", "[[wahdat-al-wujud]]", "[[idris]]", "[[ilm-al-nujum]]"]
 ---
 
 # Ibn ʿArabī
@@ -28,6 +28,7 @@ Muḥyīddīn Abū ʿAbd Allāh Muḥammad ibn ʿAlī ibn Muḥammad ibn al-ʿAr
 - Identifie Idrīs à Élie (Ilyas) et à Hermès Trismégiste ; Idrīs réside dans le quatrième ciel (orbite du soleil) et représente la *tanzīh* (transcendance) pure — source : [[jesus-and-enoch-in-ibn-arabi]]
 - Utilise l'étymologie arabe comme méthode herméneutique centrale : *ʿālam* (monde) dérive de *ʿalāma* (signe) ; *kalima* (parole) contient *kalm* (blessure) ; *durūs* (extinction) contient *durūs* (leçons) — source : [[jesus-and-enoch-in-ibn-arabi]]
 - Sacralise le cosmos entier comme matrice de signes (*ʿalāmāt*) renvoyant à Dieu, fondement de sa doctrine de la [[wahdat-al-wujud]] — source : [[jesus-and-enoch-in-ibn-arabi]]
+- Cité dans un cours d'*[[ilm-al-nujum]]* pour sa conception de l'existence comme voyage (*riḥla*), dont les aspects astrologiques permettent de percevoir les modalités — source : [[ilm-al-nujum-astrologie-traditionnelle]]
 
 ## Concepts associés
 
@@ -46,6 +47,7 @@ Muḥyīddīn Abū ʿAbd Allāh Muḥammad ibn ʿAlī ibn Muḥammad ibn al-ʿAr
 - [[walaya]] — il est considéré comme le *khatm al-walāya al-muḥammadiyya*
 - [[idris]] — figure du *quṭb* et du guérisseur dans sa cosmologie ; complémentaire de Jésus
 - [[barzakh]] — concept central de sa métaphysique ; Jésus en est l'archétype
+- [[ilm-al-nujum]] — sa conception du cosmos comme voyage est citée dans la tradition astrologique
 
 ## Notes
 

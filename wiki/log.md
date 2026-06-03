@@ -27,6 +27,18 @@ Distinct de `wiki/logs/` qui stocke des pages de type `log` (événements datés
 
 <!-- entrées ci-dessous, plus récente en premier -->
 
+## 2026-06-03 — INGEST ʿIlm al-Nujûm (astrologie traditionnelle)
+
+- **Opération** : INGEST
+- **Domaine(s)** : `general`
+- **Créé** :
+  - sources : [[ilm-al-nujum-astrologie-traditionnelle]]
+  - concepts : [[ilm-al-nujum]]
+- **Modifié** : [[ibn-arabi]] (enrichi — l'existence comme voyage, contexte astrologique), `wiki/index.md`
+- **Supprimé / déprécié** : —
+- **Source brute** : `raw/LA FIN DES TEMPS MODERNES ‘ILM AL-NUJÛM - ASTROLOGIQUE TRADITIONNELLE.pdf` — cours astrologique, <https://lafindestempsmodernes.blogspot.com>, 24 avril 2024, auteur anonyme
+- **Notes** : Quatrième INGEST PDF (réalisé via l'app iPad Claude AI, intégré et frontmatter réparé côté serveur). Lien établi entre [[ilm-al-nujum]] et [[ilm-al-huruf]] (même système de correspondances planétaires).
+
 ## 2026-06-02 — INGEST Shams al-Maʿārif al-Kubrā (traduction française)
 
 - **Opération** : INGEST
