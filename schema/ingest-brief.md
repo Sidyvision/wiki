@@ -19,6 +19,17 @@ DÉTAILLÉE / EXHAUSTIVE (pas un simple résumé : restitue le contenu utile,
 réglage par réglage pour les manuels, chapitre par chapitre pour les textes).
 NE traite PAS l'export « ChatGPT historique » pour l'instant (phase ultérieure).
 
+## Format de sortie (IMPÉRATIF — sinon le travail doit être refait à la main)
+
+- **Écris chaque page directement à son emplacement final** : `wiki/sources/<slug>.md`,
+  `wiki/entities/<slug>.md`, `wiki/concepts/<slug>.md`. JAMAIS dans `raw/`
+  (gitignoré, donc perdu pour git), JAMAIS à plat dans un dossier unique.
+- **UNE seule version par page.** Ne produis pas de copies, de variantes
+  numérotées, ni de fichiers « UPDATES / à appliquer manuellement » : applique
+  toi-même les changements à `wiki/index.md` et `wiki/log.md`.
+- **Commite toi-même** (voir Méthode de travail). Le résultat doit être
+  récupérable par un simple `git pull`, sans aucune manipulation manuelle.
+
 ## Méthode de travail (impérative, à cause des limites d'usage Pro)
 
 1. Travaille UN document à la fois.
@@ -38,18 +49,46 @@ NE traite PAS l'export « ChatGPT historique » pour l'instant (phase ultérieur
 - Crée/enrichis les pages `entity` et `concept` que le contenu justifie
   (`wiki/entities/`, `wiki/concepts/`), une page par sujet, frontmatter complet.
 - Lie tout via `[[slug]]`. Si une cible manque, crée un stub minimal
-  (frontmatter + tag `#stub` + `sources: [to-source]`) plutôt qu'un lien mort.
+  (frontmatter + tag `#stub` + `sources: ["to-source"]`) plutôt qu'un lien mort.
 - Cite toute affirmation factuelle dans `sources` (la fiche source du doc).
 - Mets à jour `wiki/index.md` et ajoute UNE entrée datée à `wiki/log.md`.
 
+### Format EXACT du frontmatter (respecte-le au caractère près)
+
+Les champs `sources` et `links` sont des **listes YAML de chaînes entre
+guillemets**, chaque wikilink étant un `"[[slug]]"` complet :
+
+```yaml
+sources: ["[[slug-source]]"]
+links: ["[[autre-page]]", "[[encore-une]]"]
+tags: [soufisme, metaphysique]   # mots-clés nus, sans guillemets ni accents
+```
+
+- Liste vide = `[]`. Source absente = `["to-source"]` (+ tag `#stub`).
+- N'écris JAMAIS `links: [[a], [b]]` ni `links: [a, b]` : c'est non conforme.
+
 ## Pages DÉJÀ existantes — à ENRICHIR, jamais à recréer
 
-- Entités : `sidy`, `ibn-arabi`, `al-ghazali`, `rene-guenon`, `platon`
-- Concepts : `tasawwuf`, `sanatana-dharma`, `ahl-al-sunnah-wa-l-jamaa`
-- Source : `chatgpt-export-2026-05-10`
+> Vérifie TOUJOURS `wiki/index.md` au démarrage : cette liste est un instantané,
+> l'index fait foi.
+
+- Entités : `sidy`, `ibn-arabi`, `al-ghazali`, `rene-guenon`, `platon`,
+  `ali-hussain`, `idris`, `ahmad-al-buni`, `ouattara-brahima`
+- Concepts : `tasawwuf`, `sanatana-dharma`, `ahl-al-sunnah-wa-l-jamaa`,
+  `wird-awrad`, `salawat`, `walaya`, `barzakh`, `wahdat-al-wujud`,
+  `ilm-al-huruf`, `asma-al-husna`, `talisman-sihr`
+- Sources : `chatgpt-export-2026-05-10`, `awrad-ibn-arabi`,
+  `jesus-and-enoch-in-ibn-arabi`, `shams-al-maarif`
 
 Quand un PDF concerne l'un d'eux, complète la page existante et retire son
 tag `#stub` une fois qu'elle est sourcée. Ne crée pas de doublon.
+
+## Documents DÉJÀ traités (ne pas refaire)
+
+- ✅ `Awrad_Ibn_Arabi.pdf`, `Jesus_And_Enoch_In_Ibn_'arabi.pdf`,
+  `shams-al-maarif-traduit-complet.pdf` (cluster soufisme/Ibn Arabi — 2026-06-02).
+- Restent : les manuels audio, la logique, l'astrologie, l'académique divers,
+  les prières/awrâd arabes, et l'export ChatGPT (phase ultérieure).
 
 ## Domaines (rappel CLAUDE.md : recherche | perso | business | lecture | general)
 
