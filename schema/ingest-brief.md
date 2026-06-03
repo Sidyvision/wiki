@@ -19,16 +19,31 @@ DÉTAILLÉE / EXHAUSTIVE (pas un simple résumé : restitue le contenu utile,
 réglage par réglage pour les manuels, chapitre par chapitre pour les textes).
 NE traite PAS l'export « ChatGPT historique » pour l'instant (phase ultérieure).
 
-## Format de sortie (IMPÉRATIF — sinon le travail doit être refait à la main)
+## Workflow réel (app iPad Claude AI → intégration serveur)
 
-- **Écris chaque page directement à son emplacement final** : `wiki/sources/<slug>.md`,
-  `wiki/entities/<slug>.md`, `wiki/concepts/<slug>.md`. JAMAIS dans `raw/`
-  (gitignoré, donc perdu pour git), JAMAIS à plat dans un dossier unique.
-- **UNE seule version par page.** Ne produis pas de copies, de variantes
-  numérotées, ni de fichiers « UPDATES / à appliquer manuellement » : applique
-  toi-même les changements à `wiki/index.md` et `wiki/log.md`.
-- **Commite toi-même** (voir Méthode de travail). Le résultat doit être
-  récupérable par un simple `git pull`, sans aucune manipulation manuelle.
+L'app iPad ne peut PAS éditer le dépôt à la source ni committer. Le travail se
+fait donc en deux temps :
+
+1. **Toi (app iPad)** : tu lis le PDF et tu produis le CONTENU — une page par
+   sujet + un fichier d'instructions `UPDATES` (voir plus bas). C'est l'étape
+   coûteuse en lecture ; elle est gratuite sur le forfait Pro.
+2. **Session serveur (Claude Code / API)** : récupère tes fichiers, applique les
+   UPDATES à `index.md`/`log.md`, **normalise et répare le frontmatter**, range
+   les pages, puis commit/push. C'est elle qui garantit la conformité.
+
+### Ce que tu dois produire (app iPad)
+
+- **Une page par sujet**, nommée `<slug>.md` (slug kebab-case ASCII), avec le
+  frontmatter et le corps complets. Indique le dossier cible dans le nom ou en
+  tête (`type:` suffit : entity→entities, concept→concepts, source→sources).
+- **UN seul fichier `UPDATES-index-log.md`** par lot, contenant : (1) les lignes
+  à ajouter à `wiki/index.md` par section, (2) l'entrée datée pour `wiki/log.md`,
+  (3) la liste des fichiers existants à remplacer (pages enrichies).
+- **UNE seule version par page** : ne génère pas de copies ni de variantes.
+
+> ⚠️ Le transfert iPad altère souvent le frontmatter (`---` → `-----`, titres
+> transformés en `## title:`, guillemets droits → courbes). Ce n'est pas grave :
+> l'étape 2 le répare. Mais vise le format ci-dessous au plus près.
 
 ## Méthode de travail (impérative, à cause des limites d'usage Pro)
 
@@ -76,9 +91,10 @@ tags: [soufisme, metaphysique]   # mots-clés nus, sans guillemets ni accents
   `ali-hussain`, `idris`, `ahmad-al-buni`, `ouattara-brahima`
 - Concepts : `tasawwuf`, `sanatana-dharma`, `ahl-al-sunnah-wa-l-jamaa`,
   `wird-awrad`, `salawat`, `walaya`, `barzakh`, `wahdat-al-wujud`,
-  `ilm-al-huruf`, `asma-al-husna`, `talisman-sihr`
+  `ilm-al-huruf`, `asma-al-husna`, `talisman-sihr`, `ilm-al-nujum`
 - Sources : `chatgpt-export-2026-05-10`, `awrad-ibn-arabi`,
-  `jesus-and-enoch-in-ibn-arabi`, `shams-al-maarif`
+  `jesus-and-enoch-in-ibn-arabi`, `shams-al-maarif`,
+  `ilm-al-nujum-astrologie-traditionnelle`
 
 Quand un PDF concerne l'un d'eux, complète la page existante et retire son
 tag `#stub` une fois qu'elle est sourcée. Ne crée pas de doublon.
@@ -87,7 +103,8 @@ tag `#stub` une fois qu'elle est sourcée. Ne crée pas de doublon.
 
 - ✅ `Awrad_Ibn_Arabi.pdf`, `Jesus_And_Enoch_In_Ibn_'arabi.pdf`,
   `shams-al-maarif-traduit-complet.pdf` (cluster soufisme/Ibn Arabi — 2026-06-02).
-- Restent : les manuels audio, la logique, l'astrologie, l'académique divers,
+- ✅ `LA FIN DES TEMPS MODERNES ‘ILM AL-NUJÛM … .pdf` (astrologie — 2026-06-03).
+- Restent : les manuels audio, la logique, l'académique divers,
   les prières/awrâd arabes, et l'export ChatGPT (phase ultérieure).
 
 ## Domaines (rappel CLAUDE.md : recherche | perso | business | lecture | general)
