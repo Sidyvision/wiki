@@ -114,11 +114,15 @@ tag `#stub` une fois qu'elle est sourcée. Ne crée pas de doublon.
 - DEUX EXCEPTIONS à traiter avec soin :
   - **(a)** `Isaghuji logic full Notes ne pas partager.pdf` → domaine `lecture`,
     ajoute le tag `#ne-pas-partager`, et NE le lie depuis aucune page neutre.
-  - **(b)** Les deux fichiers إجازة (ijâza) et le Mawlid → une ijâza nomme souvent
-    son DESTINATAIRE. Repère tout nom de destinataire. Si c'est le propriétaire
-    du wiki (Sidy / Sidyvision), classe la fiche en `perso` (domaine sensible)
-    et SIGNALE-le explicitement dans ton compte-rendu au lieu de classer
-    d'office. Sinon → `general`.
+  - **(b)** Les deux fichiers إجازة (ijâza) → **domaine `perso` (sensible)**.
+    DÉCIDÉ (2026-06-03) : Sidy / Sidyvision est le destinataire de ces ijâza.
+    Les fiches `source` des ijâza vont donc en `perso`. Elles PEUVENT pointer
+    vers des entités `general` (le cheikh qui transmet, la *silsila*, la
+    *tarîqa*…), mais n'inscris JAMAIS « a délivré une ijâza à Sidy » dans une
+    page `general` (remontée perso→neutre interdite — signale tout croisement).
+  - **(c)** Le `Mawlid` → `general` par défaut (texte dévotionnel public). Si en
+    le traitant tu trouves une dédicace nominale à Sidy, bascule en `perso` et
+    signale-le.
 
 ## Carte des slugs proposés (adapte si le contenu le justifie)
 
