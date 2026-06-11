@@ -1,9 +1,0 @@
----
-title: Annales du Secrétariat Doctrinal
-type: meta
-updated: 2026-06-11
----
-
-# Annales du Secrétariat Doctrinal
-
-- **2026-06-11** : Réforme structurelle complète du dépôt. Abandon des nomenclatures profanes (`recherche`, `business`, `ingest`). Passage à l'architecture doctrinale (Principes, Symboles, Autorités, Déviations) selon les directives de René Guénon. Migration des fiches existantes du bloc Soufisme et Astrologie sans perte de données. Synchronisation Obsidian Git validée.
