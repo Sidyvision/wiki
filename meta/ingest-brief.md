@@ -1,179 +1,208 @@
-# Mission : INGEST exhaustif des PDF de raw/ dans le wiki
+---
+title: "Brief d'archivage des PDF de raw/ (post-réforme doctrinale)"
+type: meta
+updated: 2026-06-11
+---
 
-> Fiche d'instruction destinée à une session **Claude Code** lancée sur le
-> serveur (abonnement Pro/Max), dans le dépôt `/root/wiki`. Rédigée le
-> 2026-06-02. Objectif : déporter le gros du travail de lecture des PDF hors
-> de l'API payante au token.
+# Mission : archivage des PDF de `raw/` dans le wiki réformé
 
-Tu es dans le dépôt d'un wiki personnel en français situé à `/root/wiki`.
-AVANT TOUT : lis `/root/wiki/CLAUDE.md` et applique ses règles À LA LETTRE
-(les 4 opérations, le frontmatter obligatoire, slugs kebab-case ASCII sans
-accents, dates ISO, « une page = un sujet », source obligatoire pour tout fait,
-étanchéité des domaines, journalisation). En cas de doute sur une règle,
-c'est `CLAUDE.md` qui tranche.
+> Fiche d'instruction pour la session **app iPad Claude AI** (lecture des PDF,
+> gratuite sur forfait) qui produit le contenu, intégré ensuite par la session
+> **Claude Code** du serveur. Rédigée le 2026-06-02, **refondue le 2026-06-11**
+> après la réforme doctrinale (« Guénon V1 »). Voir aussi
+> [[protocole-archivage-claude-ai]] (briefing court) et le `CLAUDE.md` du dépôt
+> (protocole complet).
+
+Tu es dans `/root/wiki`. AVANT TOUT : lis `CLAUDE.md` et applique-le à la lettre
+(protocoles ARCHIVAGE & MAILLAGE / MÉDITATION & SYNTHÈSE / VIGILANCE, Sceau
+Recteur, slugs ASCII, « une page = un sujet », source pour tout fait, les 3
+Commandements). En cas de doute, c'est `CLAUDE.md` qui tranche.
+
+## Deux circuits distincts
+
+Le dépôt a **deux circuits** depuis la réforme :
+
+1. **Doctrinal** (`doctrinal/…`) — métaphysique, traditions, autorités, symboles,
+   sciences traditionnelles (y compris la **logique**), déviations, études. Frontmatter
+   « Sceau Recteur » obligatoire (voir plus bas).
+2. **Atelier** (`atelier/…`) — circuit **NON-doctrinal** pour le métier audio/studio
+   (manuels de matériel, entretiens). Hors Sceau Recteur, frontmatter allégé. Ne
+   JAMAIS mélanger les deux circuits ni lier de l'un vers l'autre.
 
 ## Opération demandée
 
-INGEST de TOUS les fichiers de `/root/wiki/raw/*.pdf`, en profondeur
-DÉTAILLÉE / EXHAUSTIVE (pas un simple résumé : restitue le contenu utile,
-réglage par réglage pour les manuels, chapitre par chapitre pour les textes).
-NE traite PAS l'export « ChatGPT historique » pour l'instant (phase ultérieure).
+Archivage de TOUS les PDF de `/root/wiki/raw/*.pdf`, en profondeur EXHAUSTIVE
+(restitue le contenu utile : chapitre par chapitre pour les textes, réglage par
+réglage pour les manuels audio). NE traite PAS l'export « ChatGPT historique »
+(phase ultérieure).
 
-## Workflow réel (app iPad Claude AI → intégration serveur)
+## Workflow réel (app iPad → intégration serveur)
 
-L'app iPad ne peut PAS éditer le dépôt à la source ni committer. Le travail se
-fait donc en deux temps :
+L'app iPad ne peut PAS éditer le dépôt ni committer. En deux temps :
 
 1. **Toi (app iPad)** : tu lis le PDF et tu produis le CONTENU — une page par
-   sujet + un fichier d'instructions `UPDATES` (voir plus bas). C'est l'étape
-   coûteuse en lecture ; elle est gratuite sur le forfait Pro.
-2. **Session serveur (Claude Code / API)** : récupère tes fichiers, applique les
-   UPDATES à `index.md`/`log.md`, **normalise et répare le frontmatter**, range
-   les pages, puis commit/push. C'est elle qui garantit la conformité.
+   sujet + un fichier `UPDATES.md` (voir « Sortie attendue »).
+2. **Session serveur (Claude Code)** : range les pages dans le bon dossier,
+   **répare ton frontmatter**, applique les UPDATES à `doctrinal/index.md` et
+   `doctrinal/annales.md`, lance le LINT, commit/push. C'est elle qui garantit la
+   conformité.
 
-### Ce que tu dois produire (app iPad)
+> ⚠️ Le transfert iPad altère souvent le frontmatter (`---` → `-----`, `title:`
+> → `## title:`, guillemets droits `"` → courbes `« » " "`). Vise le format exact
+> ci-dessous : produis du **YAML strict** (trois tirets, guillemets droits, pas
+> de `#` dans le frontmatter). La session serveur répare au besoin.
 
-- **Une page par sujet**, nommée `<slug>.md` (slug kebab-case ASCII), avec le
-  frontmatter et le corps complets. Indique le dossier cible dans le nom ou en
-  tête (`type:` suffit : entity→entities, concept→concepts, source→sources).
-- **UN seul fichier `UPDATES-index-log.md`** par lot, contenant : (1) les lignes
-  à ajouter à `wiki/index.md` par section, (2) l'entrée datée pour `wiki/log.md`,
-  (3) la liste des fichiers existants à remplacer (pages enrichies).
-- **UNE seule version par page** : ne génère pas de copies ni de variantes.
-
-> ⚠️ Le transfert iPad altère souvent le frontmatter (`---` → `-----`, titres
-> transformés en `## title:`, guillemets droits → courbes). Ce n'est pas grave :
-> l'étape 2 le répare. Mais vise le format ci-dessous au plus près.
-
-## Méthode de travail (impérative, à cause des limites d'usage Pro)
-
-1. Travaille UN document à la fois.
-2. Après chaque document terminé : `git add -A && git commit` avec un message
-   clair (`INGEST: <sujet>`), puis `git push` si un remote est configuré.
-3. Tiens une checklist de progression (coche les docs faits) pour pouvoir
-   reprendre après une coupure. Au démarrage, relis `wiki/log.md` et l'index
-   pour savoir ce qui est déjà fait et NE PAS le refaire.
-4. Garde les GROS SCANS pour la fin : `shams-al-maarif` (57 Mo), `REVOX
-   multilingue`, `logic-pro-ipad` (1100 p), `Model12`. Lis-les en plusieurs
-   passes si besoin.
-
-## Procédure par document
-
-- Lis le document en entier.
-- Crée UNE fiche `source` pour le document (`wiki/sources/<slug>.md`).
-- Crée/enrichis les pages `entity` et `concept` que le contenu justifie
-  (`wiki/entities/`, `wiki/concepts/`), une page par sujet, frontmatter complet.
-- Lie tout via `[[slug]]`. Si une cible manque, crée un stub minimal
-  (frontmatter + tag `#stub` + `sources: ["to-source"]`) plutôt qu'un lien mort.
-- Cite toute affirmation factuelle dans `sources` (la fiche source du doc).
-- Mets à jour `wiki/index.md` et ajoute UNE entrée datée à `wiki/log.md`.
-
-### Format EXACT du frontmatter (respecte-le au caractère près)
-
-Les champs `sources` et `links` sont des **listes YAML de chaînes entre
-guillemets**, chaque wikilink étant un `"[[slug]]"` complet :
+## Sceau Recteur — frontmatter EXACT des pages doctrinales
 
 ```yaml
-sources: ["[[slug-source]]"]
-links: ["[[autre-page]]", "[[encore-une]]"]
-tags: [soufisme, metaphysique]   # mots-clés nus, sans guillemets ni accents
+---
+title: "Titre exact (accents FR autorisés)"
+type: doctrine | tradition | symbole | autorite | deviation | etude | source
+status: traditionnel | academique | profane | contre-traditionnel
+tradition_cadre: "islam"        # ou "hindouisme", "hellenisme", "universel", "none"
+tags: [metaphysique, logique, cosmologie]   # mots nus, ASCII, sans guillemets
+created: 2026-06-11             # date du jour, ISO
+updated: 2026-06-11
+sources_count: 1                # nombre de sources réelles citées
+cross_links: ["[[autre-slug]]"] # liste de [[slug]] vers d'autres pages
+---
 ```
 
-- Liste vide = `[]`. Source absente = `["to-source"]` (+ tag `#stub`).
-- N'écris JAMAIS `links: [[a], [b]]` ni `links: [a, b]` : c'est non conforme.
+- `cross_links` : liste YAML de chaînes `"[[slug]]"`. Liste vide = `[]`.
+- `sources_count` : un entier. Toute affirmation factuelle doit être sourcée dans
+  le corps (`— source : [[…]]`) ; si la source manque, signale la page comme à
+  compléter dans `UPDATES.md`.
+- Choix du `status` : `traditionnel` (sacré, maîtres authentiques) ·
+  `academique` (érudition) · `profane` (moderne, matérialiste) ·
+  `contre-traditionnel` (occultisme, pseudo-religion).
+
+## Où classer (circuit doctrinal)
+
+| Nature | Dossier | type |
+|---|---|---|
+| Forme traditionnelle (voie, école, dharma) | `doctrinal/traditions/` | tradition |
+| Principe, symbole, **science traditionnelle (logique, ʿilm al-ḥurūf…)** | `doctrinal/symboles/` | symbole |
+| Personne-autorité (maître, auteur, érudit) | `doctrinal/autorites/` | autorite |
+| Erreur moderne / occultisme / pseudo-religion | `doctrinal/deviations/` | deviation |
+| Analyse transversale / réponse fixée | `doctrinal/etudes/` (préfixe `YYYY-MM-DD_`) | etude |
+| Fiche de lecture (le document source lui-même) | `doctrinal/sources/` | source |
+
+## Méthode de travail (impérative — limites d'usage)
+
+1. UN document à la fois.
+2. Au démarrage, relis `doctrinal/index.md` (Catalogue) et `doctrinal/annales.md`
+   pour savoir ce qui est déjà fait et NE PAS le refaire.
+3. Tiens une checklist de progression pour reprendre après coupure.
+4. Garde les GROS SCANS pour la fin : `shams-al-maarif` (57 Mo, déjà fait),
+   `REVOX multilingue`, `logic-pro-ipad` (1100 p), `Model12`.
+
+## Procédure par document (doctrinal)
+
+- Lis le document en entier.
+- Crée UNE fiche `source` (`doctrinal/sources/<slug>.md`).
+- Crée/enrichis les pages `autorite` / `symbole` / `tradition` que le contenu
+  justifie — une page par sujet, Sceau Recteur complet.
+- Lie via `[[slug]]` ou `[[doctrinal/chemin/slug|Nom]]`. Cible manquante : signale-la
+  dans `UPDATES.md` plutôt que de créer un lien mort.
+- Utilise les blocs normalisés si besoin :
+  `> 🌐 **Forme Traditionnelle Divergente** : …` / `> ⚠️ **Déviation Profane** : …`
+
+## Sortie attendue : `UPDATES.md`
+
+```markdown
+# UPDATES — <source>, <date>
+
+## Pages créées
+- doctrinal/<dossier>/<slug>.md — <une ligne>
+
+## Pages modifiées
+- doctrinal/<dossier>/<slug>.md — <quoi>
+
+## Fiches personnelles (→ meta/, étanchéité)
+- <slug> — <raison>
+
+## Ajouts au Catalogue (doctrinal/index.md)
+- §<section> : [[doctrinal/<dossier>/<slug>|Nom]]
+
+## Entrée pour les Annales (doctrinal/annales.md, en tête)
+## <YYYY-MM-DD> — Archivage : <titre>
+- **Opération** : ARCHIVAGE & MAILLAGE
+- **Cadre** : <tradition_cadre> (<status>)
+- **Créé** : [[…]]
+- **Modifié** : [[…]]
+- **Source brute** : raw/<fichier.pdf>
+- **Notes** : …
+```
 
 ## Pages DÉJÀ existantes — à ENRICHIR, jamais à recréer
 
-> Vérifie TOUJOURS `wiki/index.md` au démarrage : cette liste est un instantané,
-> l'index fait foi.
+> L'index (`doctrinal/index.md`) fait foi ; cette liste est un instantané.
 
-- Entités : `sidy`, `ibn-arabi`, `al-ghazali`, `rene-guenon`, `platon`,
-  `ali-hussain`, `idris`, `ahmad-al-buni`, `ouattara-brahima`
-- Concepts : `tasawwuf`, `sanatana-dharma`, `ahl-al-sunnah-wa-l-jamaa`,
-  `wird-awrad`, `salawat`, `walaya`, `barzakh`, `wahdat-al-wujud`,
+- **autorites/** : `ibn-arabi`, `al-ghazali`, `rene-guenon`, `platon`,
+  `ali-hussain`, `idris`, `ahmad-al-buni`, `ouattara-brahima`, `ibn-sina`,
+  `al-jazari`, `al-khwarizmi`, `yaqub-chaudhary`
+- **traditions/** : `tasawwuf`, `sanatana-dharma`, `ahl-al-sunnah-wa-l-jamaa`
+- **symboles/** : `wird-awrad`, `salawat`, `walaya`, `barzakh`, `wahdat-al-wujud`,
   `ilm-al-huruf`, `asma-al-husna`, `talisman-sihr`, `ilm-al-nujum`
-- Sources : `chatgpt-export-2026-05-10`, `awrad-ibn-arabi`,
-  `jesus-and-enoch-in-ibn-arabi`, `shams-al-maarif`,
-  `ilm-al-nujum-astrologie-traditionnelle`
-
-Quand un PDF concerne l'un d'eux, complète la page existante et retire son
-tag `#stub` une fois qu'elle est sourcée. Ne crée pas de doublon.
+- **sources/** : `awrad-ibn-arabi`, `jesus-and-enoch-in-ibn-arabi`,
+  `shams-al-maarif`, `ilm-al-nujum-astrologie-traditionnelle`,
+  `islam-and-artificial-intelligence`
+- **etudes/** : `2026-06-04_islam-et-ia`
+- **meta/** (hors doctrine) : `sidy`, `chatgpt-export-2026-05-10`
 
 ## Documents DÉJÀ traités (ne pas refaire)
 
 - ✅ `Awrad_Ibn_Arabi.pdf`, `Jesus_And_Enoch_In_Ibn_'arabi.pdf`,
-  `shams-al-maarif-traduit-complet.pdf` (cluster soufisme/Ibn Arabi — 2026-06-02).
-- ✅ `LA FIN DES TEMPS MODERNES ‘ILM AL-NUJÛM … .pdf` (astrologie — 2026-06-03).
-- Restent : les manuels audio, la logique, l'académique divers,
-  les prières/awrâd arabes, et l'export ChatGPT (phase ultérieure).
+  `shams-al-maarif-traduit-complet.pdf` (cluster soufisme — 2026-06-02)
+- ✅ `LA FIN DES TEMPS MODERNES ‘ILM AL-NUJÛM…pdf` (astrologie — 2026-06-03)
+- ✅ `islam-and-artificial-intelligence.pdf` (Islam & IA — 2026-06-04)
 
-## Domaines (rappel CLAUDE.md : recherche | perso | business | lecture | general)
+## Carte des slugs proposés (adapte selon le contenu réel)
 
-- TOUS les manuels audio, textes de logique, soufisme, articles académiques,
-  astrologie, prières → `general`.
-- DEUX EXCEPTIONS à traiter avec soin :
-  - **(a)** `Isaghuji logic full Notes ne pas partager.pdf` → domaine `lecture`,
-    ajoute le tag `#ne-pas-partager`, et NE le lie depuis aucune page neutre.
-  - **(b)** Les deux fichiers إجازة (ijâza) → **domaine `perso` (sensible)**.
-    DÉCIDÉ (2026-06-03) : Sidy / Sidyvision est le destinataire de ces ijâza.
-    Les fiches `source` des ijâza vont donc en `perso`. Elles PEUVENT pointer
-    vers des entités `general` (le cheikh qui transmet, la *silsila*, la
-    *tarîqa*…), mais n'inscris JAMAIS « a délivré une ijâza à Sidy » dans une
-    page `general` (remontée perso→neutre interdite — signale tout croisement).
-  - **(c)** Le `Mawlid` → `general` par défaut (texte dévotionnel public). Si en
-    le traitant tu trouves une dédicace nominale à Sidy, bascule en `perso` et
-    signale-le.
+### SOUFISME / MÉTAPHYSIQUE (doctrinal ; cadre islam, traditionnel)
+- `universal-man.pdf` → source `universal-man-jili` ; autorite `abd-al-karim-al-jili` ; symbole `al-insan-al-kamil`
 
-## Carte des slugs proposés (adapte si le contenu le justifie)
+### LOGIQUE — science traditionnelle (doctrinal ; cadre islam/universel)
+- `Intro_to_Logic-FULL-(Zaytuna_College).pdf` → source `intro-to-logic-zaytuna` (status academique) ; symboles : `al-mantiq` (la logique), `universaux`, `proposition`…
+- `Isaghuji_logique_traditionnelle_FR.pdf` → source `isaghuji-logique-traditionnelle-fr` ; symbole `isagoge` ; autorite `al-abhari`
+- `Isaghuji logic full Notes ne pas partager .pdf` → source `isaghuji-notes` ⚠️ **ajoute le tag `ne-pas-partager` et NE le lie depuis aucune page** (note privée).
 
-**AUDIO (general)**
-- `distressor_manual.pdf` → `sources/distressor-manual` ; entity `empirical-labs-distressor` ; concept `compression-audio`
-- Revox-A-77 Owners → `sources/revox-a77-owners-manual` ; entity `revox-a77`
-- Revox-A-77 Service → `sources/revox-a77-service-manual`
-- REVOX A77 multilingue → `sources/revox-a77-notice-multilingue`
-- `Model12_OM_EFS` → `sources/tascam-model-12-manual` ; entity `tascam-model-12`
-- `1073SPX` → `sources/neve-1073spx-manual` ; entity `neve-1073spx`
-- `logic-pro-ipad` → `sources/logic-pro-ipad-guide` ; entity `logic-pro`
-- Interview Russell Elevado → `sources/russell-elevado-interview` ; entity `russell-elevado`
+### PRIÈRES / AWRÂD (doctrinal ; cadre islam, traditionnel)
+- `Dua of Laylatul Qadr.pdf` → source `dua-laylatul-qadr`
+- `Prayer-on-the-Fifteenth-Night-of-Shabān.pdf` → source `prayer-15th-shaban`
+- `Salat-al-Kaffarat-adh-Dhunub-20200629.pdf` → source `salat-al-kaffarat`
+- `Wazifa.pdf` → source `wazifa`
+- `مولد الرسول الأعظم…pdf` (Mawlid) → source `mawlid-al-rasul` (general/traditionnel) ⚠️ si dédicace nominale à Sidy → bascule en `meta/` et signale.
 
-**LOGIQUE**
-- Intro_to_Logic (Zaytuna) → `sources/intro-to-logic-zaytuna` ; concepts (universaux, propositions…)
-- Isaghuji_traditionnelle_FR → `sources/isaghuji-logique-traditionnelle-fr` ; concept `isagoge` ; entity `al-abhari`
-- Isaghuji notes « ne pas partager » → `sources/isaghuji-notes` (domaine `lecture`, `#ne-pas-partager`)
+### ACADÉMIQUE / FIGURES (doctrinal ; identifie le titre exact en lisant)
+- `Al-Hadj-Cheikh-Belmadi-2017.pdf` → autorite `<cheikh>` + source `al-hadj-cheikh-belmadi-2017`
+- `religions-16-00549-with-cover.pdf` → source `<titre-réel>` (status academique)
+- `grr-academix-2026.pdf` → source `grr-academix-2026` (identifie le sujet ; circuit selon contenu)
 
-**SOUFISME (general ; enrichit `ibn-arabi`, `tasawwuf`)**
-- `Awrad_Ibn_Arabi` → `sources/awrad-ibn-arabi` ; concept `wird-awrad`
-- `Jesus_And_Enoch_In_Ibn_Arabi` → `sources/jesus-and-enoch-in-ibn-arabi`
-- `universal-man` → `sources/universal-man-jili` ; concept `al-insan-al-kamil` ; entity `abd-al-karim-al-jili`
-- `shams-al-maarif` → `sources/shams-al-maarif` ; entity `ahmad-al-buni` ; concept `ilm-al-huruf`
+### ⚠️ IJÂZA — domaine personnel (→ `meta/`, PAS doctrinal)
+- `إجازة-94.pdf` / `إجازة-95.pdf` → fiches `meta/ijaza-94`, `meta/ijaza-95`.
+  **Sidy est le destinataire** (décidé 2026-06-03). Ces fiches PEUVENT pointer
+  vers des `autorites/` (le cheikh transmetteur, la *silsila*, la *tarîqa*), mais
+  n'inscris JAMAIS « a délivré une ijâza à Sidy » dans une page doctrinale
+  (remontée perso → doctrinal interdite, Commandement Non-Syncrétisme). Signale
+  tout croisement dans `UPDATES.md`.
 
-**ACADÉMIQUE (general — identifie le titre exact en lisant)**
-- `religions-16-00549` → `sources/<titre-réel>`
-- `islam-and-artificial-intelligence` → `sources/islam-and-artificial-intelligence` ; concept `islam-et-ia`
-- `Al-Hadj-Cheikh-Belmadi-2017` → `sources/al-hadj-cheikh-belmadi-2017` ; entity si pertinent
-- `grr-academix-2026` → `sources/grr-academix-2026` (identifie le sujet)
-- `Body_Types_Book` → `sources/body-types` ; concept `morphopsychologie`
-
-**ASTROLOGIE (general)**
-- ‘ILM AL-NUJÛM → `sources/ilm-al-nujum-astrologie-traditionnelle` ; concept `ilm-al-nujum`
-
-**PRIÈRES / AWRÂD (general sauf signalement ijâza/Mawlid)**
-- Dua of Laylatul Qadr → `sources/dua-laylatul-qadr`
-- Prayer 15th Night of Shaʿbān → `sources/prayer-15th-shaban`
-- Salat al-Kaffârât → `sources/salat-al-kaffarat`
-- Wazifa → `sources/wazifa`
-- إجازة-94 / إجازة-95 → `sources/ijaza-94` / `sources/ijaza-95` ⚠️ voir règle destinataire
-- Mawlid al-Rasûl → `sources/mawlid-al-rasul` ⚠️ voir règle destinataire
-
-## Étanchéité des domaines (CLAUDE.md COMPARTIMENTALISER)
-
-- Une page = exactement un domaine.
-- Liens autorisés : d'un domaine sensible (`perso`, `business`) VERS un domaine
-  neutre (`general`, `lecture`). L'inverse doit t'être SIGNALÉ avant.
-- Ne copie jamais de contenu `perso`/`business` dans une page neutre.
+### ATELIER — circuit NON-doctrinal (audio/studio ; PAS de Sceau Recteur)
+> Range ces fiches sous `atelier/` avec un frontmatter allégé
+> (`title`, `type: materiel|manuel|entretien`, `tags`, `created`, `updated`).
+> Ne les lie depuis aucune page doctrinale.
+- `distressor_manual.pdf` → `atelier/empirical-labs-distressor`
+- `Revox-A-77-…Owners-Manual.pdf` / `…Service-Manual.pdf` / `REVOX A77 NOTICE MULTILINGUE.pdf` → `atelier/revox-a77-*`
+- `Model12_OM_EFS_RevH3.pdf` → `atelier/tascam-model-12`
+- `1073SPX_1.1_User_Manual…pdf` → `atelier/neve-1073spx`
+- `logic-pro-ipad-user-guide.pdf` → `atelier/logic-pro-ipad`
+- `Interview with Russell Elevado - Gearspace.pdf` → `atelier/russell-elevado-entretien`
+- `Body_Types_Book.pdf` → **cas ambigu** (morphopsychologie moderne) : soit
+  `atelier/` (référence métier), soit `doctrinal/deviations/` si traité
+  critiquement comme pseudo-science. **Demande avant de trancher.**
 
 ## Compte-rendu attendu
 
-À la fin (ou à chaque coupure), résume : docs traités, pages créées/enrichies
-(par slug), stubs restants, et TOUT point de domaine signalé (notamment les
-ijâza/Mawlid). C'est ce compte-rendu qui sera rapporté.
+À la fin (ou à chaque coupure) : docs traités, pages créées/enrichies (par slug
+et dossier), pages à compléter restantes, et TOUT point sensible signalé
+(ijâza, `ne-pas-partager`, Mawlid, Body_Types, croisements d'étanchéité).
