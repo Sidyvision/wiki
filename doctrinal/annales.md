@@ -1,7 +1,7 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 # Annales du Secrétariat Doctrinal
@@ -10,9 +10,19 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
-## 2026-06-11 — Réforme structurelle complète
+## [2026-06-12] restauration | Révision du protocole CLAUDE.md
+- **Opération** : RESTAURATION (protocole)
+- **Modifié** : CLAUDE.md (workflow iPad/serveur documenté, circuit atelier + projets,
+  doctrinal/sources/ ajouté, meta/ clarifié, Sceau Recteur enrichi du champ sources,
+  procédure post-ingest pédagogique, vocabulaire « restauration »)
+- **Créé** : atelier/{materiel,entretiens,projets}/, doctrinal/sources/
+- **Notes** : le mot « réforme » est banni du dépôt ; MIGRATION.md archivé en meta/.
 
-- **2026-06-11** : Réforme structurelle complète du dépôt. Abandon des nomenclatures profanes (`recherche`, `business`, `ingest`, `lint`). Passage à l'architecture doctrinale (`doctrinal/{doctrines,traditions,symboles,autorites,deviations,etudes}` + `meta/`) selon le nouveau `CLAUDE.md`. Migration sans perte des fiches existantes (Soufisme, Astrologie, Islam & IA). Frontmatters convertis au Sceau Recteur (`type`/`status`/`tradition_cadre`/`sources_count`/`cross_links`). Frontmatters corrompus (iPad) réparés : al-jazari, al-khwarizmi, ibn-sina, yaqub-chaudhary, islam-et-ia, islam-and-artificial-intelligence, al-ghazali. `UPDATE al-ghazali.md` fusionné dans `autorites/al-ghazali.md` ; `UPDATES-index-log.md` appliqué puis retiré. Fiches à mention personnelle (`sidy`, export ChatGPT) maintenues hors `doctrinal/` (dossier `meta/`, étanchéité). `talisman-sihr` classé en `symboles/` (science traditionnelle) avec bloc de distinction du *siḥr* (contre-traditionnel). Snapshot de sauvegarde réalisé avant migration. Synchronisation Obsidian Git validée.
+---
+
+## 2026-06-11 — Restauration structurelle complète
+
+- **2026-06-11** : Restauration structurelle complète du dépôt. Abandon des nomenclatures profanes (`recherche`, `business`, `ingest`, `lint`). Passage à l'architecture doctrinale (`doctrinal/{doctrines,traditions,symboles,autorites,deviations,etudes}` + `meta/`) selon le nouveau `CLAUDE.md`. Migration sans perte des fiches existantes (Soufisme, Astrologie, Islam & IA). Frontmatters convertis au Sceau Recteur (`type`/`status`/`tradition_cadre`/`sources_count`/`cross_links`). Frontmatters corrompus (iPad) réparés : al-jazari, al-khwarizmi, ibn-sina, yaqub-chaudhary, islam-et-ia, islam-and-artificial-intelligence, al-ghazali. `UPDATE al-ghazali.md` fusionné dans `autorites/al-ghazali.md` ; `UPDATES-index-log.md` appliqué puis retiré. Fiches à mention personnelle (`sidy`, export ChatGPT) maintenues hors `doctrinal/` (dossier `meta/`, étanchéité). `talisman-sihr` classé en `symboles/` (science traditionnelle) avec bloc de distinction du *siḥr* (contre-traditionnel). Snapshot de sauvegarde réalisé avant migration. Synchronisation Obsidian Git validée.
 
 ---
 
@@ -23,7 +33,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Créé** : source [[doctrinal/sources/islam-and-artificial-intelligence]] ; autorités [[doctrinal/autorites/yaqub-chaudhary]], [[doctrinal/autorites/ibn-sina]], [[doctrinal/autorites/al-jazari]], [[doctrinal/autorites/al-khwarizmi]] ; étude [[doctrinal/etudes/2026-06-04_islam-et-ia]]
 - **Modifié** : [[doctrinal/autorites/al-ghazali]] (enrichi)
 - **Source brute** : `raw/islam-and-artificial-intelligence.pdf` — chapitre académique, Cambridge UP, Yaqub Chaudhary, pp. 109–128
-- **Notes** : Ingéré via l'app iPad ; frontmatters réparés et fiches reclassées lors de la réforme du 2026-06-11.
+- **Notes** : Ingéré via l'app iPad ; frontmatters réparés et fiches reclassées lors de la restauration du 2026-06-11.
 
 ---
 

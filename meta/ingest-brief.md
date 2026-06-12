@@ -1,15 +1,15 @@
 ---
-title: "Brief d'archivage des PDF de raw/ (post-réforme doctrinale)"
+title: "Brief d'archivage des PDF de raw/ (post-Restauration doctrinale)"
 type: meta
 updated: 2026-06-11
 ---
 
-# Mission : archivage des PDF de `raw/` dans le wiki réformé
+# Mission : archivage des PDF de `raw/` dans le wiki restauré
 
 > Fiche d'instruction pour la session **app iPad Claude AI** (lecture des PDF,
 > gratuite sur forfait) qui produit le contenu, intégré ensuite par la session
 > **Claude Code** du serveur. Rédigée le 2026-06-02, **refondue le 2026-06-11**
-> après la réforme doctrinale (« Guénon V1 »). Voir aussi
+> après la Restauration doctrinale (« Guénon V1 »). Voir aussi
 > [[protocole-archivage-claude-ai]] (briefing court) et le `CLAUDE.md` du dépôt
 > (protocole complet).
 
@@ -20,7 +20,7 @@ Commandements). En cas de doute, c'est `CLAUDE.md` qui tranche.
 
 ## Deux circuits distincts
 
-Le dépôt a **deux circuits** depuis la réforme :
+Le dépôt a **deux circuits** depuis la Restauration :
 
 1. **Doctrinal** (`doctrinal/…`) — métaphysique, traditions, autorités, symboles,
    sciences traditionnelles (y compris la **logique**), déviations, études. Frontmatter

@@ -8,7 +8,7 @@ updated: 2026-06-11
 
 > À coller en tête de session, ou à pointer (« Suis `meta/protocole-archivage-claude-ai.md` »), avant tout traitement de source.
 
-Le wiki a été **réformé le 2026-06-11** (réforme « Guénon V1 »). Il a abandonné l'ancien modèle profane (opérations *Ingest/Query/Lint*, domaines `recherche/perso/business/general`, dossiers `wiki/entities|concepts|sources`) au profit d'une **architecture doctrinale traditionnelle**. Ce document décrit ce que tu dois produire pour que la session Claude Code du serveur puisse l'intégrer sans friction.
+Le wiki a été **restauré le 2026-06-11** (Restauration « Guénon V1 »). Il a abandonné l'ancien modèle profane (opérations *Ingest/Query/Lint*, domaines `recherche/perso/business/general`, dossiers `wiki/entities|concepts|sources`) au profit d'une **architecture doctrinale traditionnelle**. Ce document décrit ce que tu dois produire pour que la session Claude Code du serveur puisse l'intégrer sans friction.
 
 ---
 

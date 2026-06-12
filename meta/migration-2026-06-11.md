@@ -1,6 +1,8 @@
-# MIGRATION.md — Protocole de Réforme Traditionnelle du Wiki
+# Protocole de Restauration Traditionnelle du Wiki
 
-Ce fichier sert d'instruction impérative à Claude Code pour migrer l'ancien formalisme profane vers le nouveau modèle traditionnel décrit dans le nouveau `CLAUDE.md`. L'objectif est d'exécuter la restructuration par manipulation de fichiers, sans ré-analyse textuelle coûteuse en tokens.
+> ⚠️ **Document d'archive (Restauration « Guénon V1 », 2026-06-11). Ne plus exécuter.** Conservé pour mémoire des opérations passées.
+
+Ce fichier a servi d'instruction impérative à Claude Code pour migrer l'ancien formalisme profane vers le nouveau modèle traditionnel décrit dans le nouveau `CLAUDE.md`. L'objectif est d'exécuter la restructuration par manipulation de fichiers, sans ré-analyse textuelle coûteuse en tokens.
 
 ---
 
@@ -44,11 +46,11 @@ Pour chaque fichier déplacé, Claude Code doit modifier le frontmatter SANS tou
 
 ## Étape 4 : Initialisation des Méta-Pages
 1. Écrase `wiki/index.md` (qui devient `doctrinal/index.md`) par le nouveau modèle de catalogue.
-2. Nettoie `wiki/log.md` (qui devient `doctrinal/annales.md`) en actant la grande réforme.
+2. Nettoie `wiki/log.md` (qui devient `doctrinal/annales.md`) en actant la grande Restauration.
 3. Supprime définitivement l'ancien dossier `wiki/` une fois vide pour éviter les doublons dans Obsidian.
 
 ---
 
 ## Étape 5 : Clôture et Validation
 Exécute un `LINT` selon les règles du nouveau `CLAUDE.md` pour vérifier qu'aucun lien vertical n'est brisé. Effectue le commit :
-`git add -A && git commit -m "CHG: Réforme doctrinale globale (Guénon V1)" && git push`
+`git add -A && git commit -m "CHG: Restauration doctrinale globale (Guénon V1)" && git push`
