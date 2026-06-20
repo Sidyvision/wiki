@@ -219,3 +219,4 @@ Après chaque ingest produit par l’app iPad, la session Claude AI DOIT détail
 1. **Journaliser dans les annales** à chaque session (préfixe greppable).
 1. **Pas de suppression sans confirmation** : préférer le tag `deprecated`.
 1. **Vocabulaire** : « restauration », jamais « réforme ».
+1. **L’IA est *upakarana* (instrument subordonné)** : la machine documente la généalogie des idées, signale les tensions formelles et cite les positions orthodoxes existantes — mais elle ne tranche JAMAIS elle-même la validité métaphysique d’une spéculation. Le verdict (`validée` / `invalidée`) appartient à l’utilisateur ou à une autorité textuelle citée, jamais à l’IA.
