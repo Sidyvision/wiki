@@ -10,6 +10,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-06-20] session ChatGPT-export | Traitement de 37 conversations (catégorie A+C + lot courtes)
+- **Opération** : EXAMEN DE DISCERNEMENT (7 cas) + ARCHIVAGE & MAILLAGE (reste du lot).
+- **Créé** : 7 fiches discernement, 24 symboles, 2 autorités (ibn-sirin, al-nabulusi), 2 déviations, 15 fiches meta perso (50 fichiers) — déposés via zip dans `_inbox/`, déjà au Sceau Recteur (YAML propre), aucune collision.
+- **Source brute** : export ChatGPT (2025-05-10) — voir [[meta/chatgpt-export-2026-05-10]].
+- **Points sensibles signalés** :
+  - Discernement #62 (epreuve-tariqa) : question d'autorité spirituelle (dépassement de la modalité confrérique) — vérifier auprès du Cheikh vivant, ne pas trancher par IA.
+  - Discernement #100 (triptyque-medine) : risque de *taṭayyur* (divination superstitieuse prohibée) — à distinguer du *fal* légitime.
+  - meta/reve-leila : personnes réelles nommées + rapprochement étymologique douteux avec Guénon, signalé comme à ne jamais resservir.
+- **Motif transversal** : citations non vérifiables attribuées à Ibn ʿArabī, al-Ghazālī, Guénon, Cheikh Nazim — à ne jamais réutiliser sans vérification dans une édition fiable.
+- **Non-syncrétisme signalé (2 cas)** : istiʿdād akbarien / tülku Vajrayāna ([[doctrinal/symboles/istidad]]) ; Gaṇeśa-Hanumān / maẓāhir akbariens ([[doctrinal/symboles/animaux-en-reve-comparatisme]]).
+- **VIGILANCE — à arbitrer (étanchéité)** : 5 liens neutre→discernement détectés — 3 symboles-stubs (tarbiyya-rabbaniyya, waqia, fal-wa-tatayyur) et 2 déviations (reincarnation, technologisation) pointent vers des discernements `en cours`. Cadrage défensif/généalogique (mise en garde, non endossement), mais contraire à la lettre de l'étanchéité inversée (symbole→discernement non tranché, Cmd 12). À confirmer (exception « validation explicite ») ou ajuster.
+- **Notes** : reste à traiter de l'export — catégories A (39), B (13), C (~25), B+C (4).
+
+---
+
 ## [2026-06-20] archivage | Intégration massive _inbox/ (Wazifa, al-Jīlī, Hasbiyallah, upakarana, discernement LLM, déviations)
 - **Opération** : ARCHIVAGE & MAILLAGE — lot mixte (~4 ingests étalés 2026-06-05 → 06-20) déposé en vrac dans `_inbox/`.
 - **Créé (doctrinal)** : traditions/naqshbandiyya ; symboles/{al-insan-al-kamil, tibb-e-nabawi, khatm-al-khawajakan, tawakkul, futuwwa, shukr, ghafla} ; autorites/{abd-al-karim-al-jili, abd-al-qadir-al-jilani, ibn-qayyim, muhammad-nazim-al-haqqani, abdullah-daghestani, faraz-rabbani} ; deviations/{morphopsychologie, body-types} ; sources/{hasbiyallah-rabbani, universal-man-jili, wazifa, mawlid-al-rasul, conversation-llm-intellect-2026-06-11} ; etudes/2026-06-20_etre-psyche-intellect-raison-upakarana ; discernement/{2026-06-11_llm-wiki-modalite-intellect, 2026-06-11_llm-wiki-correction-doctrinale}.
