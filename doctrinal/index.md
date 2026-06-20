@@ -18,6 +18,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa|Ahl al-Sunnah wa-l-Jamāʿa (l'orthodoxie sunnite)]]
 - [[doctrinal/traditions/sanatana-dharma|Le Sanātana Dharma (hindouisme)]]
 - [[doctrinal/traditions/naqshbandiyya|La Naqshbandiyya (ṭarīqa au dhikr silencieux)]]
+- [[doctrinal/traditions/shinto|Le Shintō (神道)]]
 
 ---
 
@@ -35,6 +36,10 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/asma-al-husna|Les Asmāʾ al-Ḥusnā (les Noms divins)]]
 - [[doctrinal/symboles/talisman-sihr|Talisman / Simiyāʾ (science opérative des lettres)]]
 - [[doctrinal/symboles/tibb-e-nabawi|Tibb-e-Nabawī (médecine prophétique)]]
+- [[doctrinal/symboles/ilm-al-awfaq|ʿIlm al-Awfāq (les carrés magiques) et la métaphysique du Nombre]]
+- [[doctrinal/symboles/imams-noms-divins|Les Imams des Noms divins (hiérarchie opérative des Asmāʾ)]]
+- [[doctrinal/symboles/muqarnas|Muqarnas — géométrie sacrée de l'art islamique]]
+- [[doctrinal/symboles/jinns-classification-couleur|Classification populaire des jinns par couleur]] — ⚠️ statut contre-traditionnel (croyance populaire, conservée pour discernement)
 
 ### Pratiques rituelles
 - [[doctrinal/symboles/wird-awrad|Wird et Awrād (litanies assignées)]]
@@ -55,6 +60,11 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/tarbiyya-rabbaniyya|Tarbiyya Rabbāniyya (l'éducation divine directe)]]
 - [[doctrinal/symboles/habl-allah|Ḥabl Allāh (la corde/lien d'Allah)]]
 - [[doctrinal/symboles/influx-spirituel-sommet-cranien|L'influx spirituel au sommet du crâne (comparatisme)]]
+- [[doctrinal/symboles/coeurs-subtils|Les cœurs subtils (laṭāʾif) et le « deuxième cœur »]]
+- [[doctrinal/symboles/desir-theophanie|Désir et théophanie selon Ibn ʿArabī (ʿishq majāzī / ḥaqīqī)]]
+- [[doctrinal/symboles/walaya-fath-adab|Demander la Walāya, le savoir et al-Fatḥ — l'adab de l'invocation]]
+- [[doctrinal/symboles/voiles-naqshbandiyya|Les voiles dans la Naqshbandiyya — descente du Principe (tanzīl)]]
+- [[doctrinal/symboles/chercheur-manifestant-akbarien|Le chercheur-manifestant (al-sālik comme lieu de tajallī)]] — ⚠️ citations à vérifier (cas le plus sensible du corpus)
 
 ### Sciences du discernement et du rêve (firāsa, taʿbīr)
 - [[doctrinal/symboles/taabir-al-ruya|Taʿbīr al-Ruʾyā (interprétation des rêves)]]
@@ -80,6 +90,33 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 ### Catalogues géographiques sacrés
 - [[doctrinal/symboles/lieux-saints-france|Sites saints et sacrés de France]]
 - [[doctrinal/symboles/maqamat-meknes|Maqām et zaouïas de Meknès]]
+
+### Stations et lieux sacrés de l'Islam
+- [[doctrinal/symboles/pierre-noire-mecque|La Pierre Noire de la Mecque (al-Ḥajar al-Aswad)]]
+- [[doctrinal/symboles/rawda-sharif|Al-Rawḍa al-Sharīfa (le Jardin Béni de Médine)]]
+- [[doctrinal/symboles/priere-mosquee-prophete|La prière à la Mosquée du Prophète (réelle et onirique)]]
+
+### Métaphysique et symbolisme hindous (comparatisme guénonien)
+- [[doctrinal/symboles/atma-gita-guenon|L'Ātma-Gītā et le commentaire de René Guénon]]
+- [[doctrinal/symboles/bindu|Bindu (बिंदु) — le point primordial]]
+- [[doctrinal/symboles/nada|Nāda (नाद) — le son primordial]]
+- [[doctrinal/symboles/soma-vedique|Le Soma védique]]
+
+### Formes traditionnelles d'Extrême-Orient (Shintō, Taoïsme)
+- [[doctrinal/symboles/espace-sacre-shinto|Sacralité et désacralisation d'un espace shintoïste]]
+- [[doctrinal/symboles/furin|Furin (風鈴) — le carillon à vent japonais]]
+- [[doctrinal/symboles/lignees-celestes-taoisme|Lignées célestes dans le taoïsme]]
+
+### Symbolisme comparé des formes, du seuil et des figures
+- [[doctrinal/symboles/mihrab-torii|Le Miḥrāb et le Torii — comparatisme guénonien du Seuil sacré]]
+- [[doctrinal/symboles/outil-faculte-objectivee|L'outil comme faculté objectivée (islamo-platonico-védantin)]]
+- [[doctrinal/symboles/noblesse-spirituelle|La noblesse spirituelle et sociale (comparatisme)]]
+- [[doctrinal/symboles/voilette|Le voile du visage — hijab/niqab et voilette occidentale]]
+- [[doctrinal/symboles/scarabee-egyptien|Le scarabée dans l'Égypte antique]]
+- [[doctrinal/symboles/poseidon|Poséidon — lecture mythologique et philosophique]]
+- [[doctrinal/symboles/ashhab|Ashhab (أشهب) — le cheval gris-blanc dans la poésie arabe]]
+- [[doctrinal/symboles/merkavah-muraqaba|Merkavah et Muraqaba — comparatisme étymologique]] — ⚠️ mise en garde (syncrétisme gématrique)
+- [[doctrinal/symboles/tapisserie-navajo|Tapisserie Navajo (Yei) — lecture comparative]] — ⚠️ mise en garde (syncrétisme)
 
 ---
 
@@ -156,6 +193,9 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya|Épreuve post-khalwa, modalité confrérique et tarbiyya rabbaniyya]]
 - [[doctrinal/discernement/2026-06-20_signaletique-spirituelle-kiswa|La « signalétique spirituelle » — couleur de la Kiswa]]
 - [[doctrinal/discernement/2026-06-20_pierres-astres-barzakh|Pierres, astres et Barzakh]]
+- [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra|Fajr/Vajra/Indra/Vritra — système initiatique unifié]]
+- [[doctrinal/discernement/2026-06-20_mythe-personnel-unifie|Le mythe personnel unifié]]
+- [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard|Astrologie akbarienne et auto-identification Fard]]
 
 ---
 

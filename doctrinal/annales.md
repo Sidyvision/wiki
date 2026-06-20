@@ -10,6 +10,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-06-20] session ChatGPT-export, catégorie A | Traitement de 39 conversations doctrinales
+- **Opération** : ARCHIVAGE & MAILLAGE (35 conversations) + EXAMEN DE DISCERNEMENT (3 reclassées + recoupements croisés).
+- **Créé** : 1 nouvelle tradition ([[doctrinal/traditions/shinto|Shintō]]), 28 symboles, 3 fiches discernement (fajr-vajra-indra-vritra, mythe-personnel-unifie, astrologie-akbarienne-fard), 3 fiches meta perso — déposés via `_inbox/session-categorieA-2026-06-20.zip`, déjà au Sceau Recteur (YAML validé), aucune collision.
+- **Modifié** : 2 fiches discernement déjà existantes enrichies par recoupement — #48 ([[doctrinal/discernement/2026-06-20_visions-centre-nocturne|visions-centre-nocturne]], +3 expériences pré-khalwa) et #62 ([[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya|epreuve-tariqa]], précision chronologique + analogie Rōnin/Afrad).
+- **Vérifié sans modification** : la version enrichie de [[doctrinal/deviations/reincarnation-vies-anterieures]] fournie dans le zip est **identique** à celle déjà sur le serveur (note 2e occurrence istiʿdād/tülku déjà présente) — aucun écrasement nécessaire.
+- **Source brute** : export ChatGPT (39 conversations, catégorie A du triage) — voir [[meta/chatgpt-export-2026-05-10]].
+- **Reclassements** : #31 et #50 (split classique → discernement), confirmant la nécessité de lire intégralement chaque conversation avant classement définitif.
+- **Point sensible majeur** : conv. #106 = cas le plus grave de fabrication de citations relevé dans tout le corpus (références bibliographiques précises mais non vérifiables, Ibn ʿArabī) — voir [[doctrinal/symboles/chercheur-manifestant-akbarien]].
+- **Motif transversal confirmé** : statut Fard/Afrad (sainteté solitaire, hors modalité confrérique) apparaît de façon indépendante dans 3 conversations distinctes (#62, #50, #116) par des méthodes différentes (introspection, analogie vidéoludique, astrologie) — pattern à signaler à Sidy, sans préjuger de sa validité, dont la vérification relève d'une autorité spirituelle vivante.
+- **VIGILANCE — étanchéité inversée (conforme au précédent tranché par Sidy le 2026-06-20)** : le lien [[doctrinal/deviations/reincarnation-vies-anterieures]] → discernement `en cours` [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]] est **conservé** au titre de l'exception *défensive/généalogique* : il souligne le caractère sensible du discernement et y maintient la vigilance, sans endosser la spéculation. La situation se résoudra à la clôture du discernement (reclassement définitif du cas).
+- **Données personnelles sensibles non reproduites** : thème astrologique complet de Sidy (conv. #50, #116) volontairement omis des fiches doctrinales/discernement.
+- **Triage des 140 conversations de l'export ChatGPT désormais intégralement traité** (catégories A et A+C). Restent, hors de ce triage initial : catégories B (atelier, 13 conv.), C (perso pur, restant), B+C (4 conv.), D (exclu).
+
+---
+
 ## [2026-06-20] session ChatGPT-export | Traitement de 37 conversations (catégorie A+C + lot courtes)
 - **Opération** : EXAMEN DE DISCERNEMENT (7 cas) + ARCHIVAGE & MAILLAGE (reste du lot).
 - **Créé** : 7 fiches discernement, 24 symboles, 2 autorités (ibn-sirin, al-nabulusi), 2 déviations, 15 fiches meta perso (50 fichiers) — déposés via zip dans `_inbox/`, déjà au Sceau Recteur (YAML propre), aucune collision.
