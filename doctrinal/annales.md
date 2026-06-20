@@ -20,7 +20,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   - meta/reve-leila : personnes réelles nommées + rapprochement étymologique douteux avec Guénon, signalé comme à ne jamais resservir.
 - **Motif transversal** : citations non vérifiables attribuées à Ibn ʿArabī, al-Ghazālī, Guénon, Cheikh Nazim — à ne jamais réutiliser sans vérification dans une édition fiable.
 - **Non-syncrétisme signalé (2 cas)** : istiʿdād akbarien / tülku Vajrayāna ([[doctrinal/symboles/istidad]]) ; Gaṇeśa-Hanumān / maẓāhir akbariens ([[doctrinal/symboles/animaux-en-reve-comparatisme]]).
-- **VIGILANCE — à arbitrer (étanchéité)** : 5 liens neutre→discernement détectés — 3 symboles-stubs (tarbiyya-rabbaniyya, waqia, fal-wa-tatayyur) et 2 déviations (reincarnation, technologisation) pointent vers des discernements `en cours`. Cadrage défensif/généalogique (mise en garde, non endossement), mais contraire à la lettre de l'étanchéité inversée (symbole→discernement non tranché, Cmd 12). À confirmer (exception « validation explicite ») ou ajuster.
+- **VIGILANCE — étanchéité (TRANCHÉ par Sidy, 2026-06-20)** : 5 liens neutre→discernement (3 symboles-stubs : tarbiyya-rabbaniyya, waqia, fal-wa-tatayyur ; 2 déviations : reincarnation, technologisation) pointant vers des discernements `en cours` — **conservés au titre de l'exception « validation explicite »** : ces liens mettent en garde contre la spéculation (non endossement) ou documentent la généalogie d'une déviation ; l'esprit de l'étanchéité inversée est respecté. Précédent : un lien neutre→discernement *défensif/généalogique* est admis, contrairement à un lien d'endossement.
 - **Notes** : reste à traiter de l'export — catégories A (39), B (13), C (~25), B+C (4).
 
 ---
