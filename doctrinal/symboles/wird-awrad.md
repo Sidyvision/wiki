@@ -5,9 +5,9 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, pratique-spirituelle, litanie, wird]
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-06-20
 sources_count: 1
-cross_links: ["[[ibn-arabi]]", "[[salawat]]", "[[walaya]]", "[[tasawwuf]]"]
+cross_links: ["[[ibn-arabi]]", "[[salawat]]", "[[walaya]]", "[[tasawwuf]]", "[[wazifa]]", "[[khatm-al-khawajakan]]", "[[naqshbandiyya]]", "[[tawakkul]]", "[[hasbiyallah-rabbani]]"]
 ---
 
 # Wird / Awrād
@@ -34,6 +34,9 @@ La relation entre le *wird* et la [[walaya]] est directe dans la tradition akbar
 - [[salawat]] — composante principale des awrād akbariens
 - [[walaya]] — finalité spirituelle visée par la pratique du wird
 - [[tasawwuf]] — cadre global dont le wird est une pratique centrale
+- [[wazifa]] — recueil d'awrād de la Naqshbandiyya (manuel haqqani)
+- [[khatm-al-khawajakan]] — wird collectif naqshbandi codifié
+- [[tawakkul]] — le dhikr quotidien de *Ḥasbiyallāh* (7× matin et soir, cf. [[hasbiyallah-rabbani]]) comme wird de la confiance
 
 ## Sources
 

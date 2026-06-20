@@ -5,8 +5,9 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [tawakkul, hasb, asbab, tasawwuf, adab, fiqh-du-coeur]
 created: 2026-06-18
-updated: 2026-06-18
-sources_count: 3
+updated: 2026-06-20
+sources: ["[[hasbiyallah-rabbani]]"]
+sources_count: 1
 cross_links: ["[[hasbiyallah-rabbani]]", "[[futuwwa]]", "[[shukr]]", "[[ghafla]]", "[[wird-awrad]]", "[[tasawwuf]]", "[[walaya]]", "[[platon]]"]
 ---
 

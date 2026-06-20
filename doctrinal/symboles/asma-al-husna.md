@@ -5,9 +5,9 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [noms-divins, islam, soufisme, dhikr, al-buni]
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-06-20
 sources_count: 1
-cross_links: ["[[ahmad-al-buni]]", "[[ilm-al-huruf]]", "[[talisman-sihr]]", "[[tasawwuf]]", "[[wird-awrad]]", "[[wahdat-al-wujud]]"]
+cross_links: ["[[ahmad-al-buni]]", "[[ilm-al-huruf]]", "[[talisman-sihr]]", "[[tasawwuf]]", "[[wird-awrad]]", "[[wahdat-al-wujud]]", "[[tawakkul]]", "[[hasbiyallah-rabbani]]"]
 ---
 
 # Asmāʾ al-Ḥusnā
@@ -58,6 +58,7 @@ Al-Būnī note que le Prophète n'a pas compté le nom *Muḥammad* parmi les 99
 - [[talisman-sihr]] — application pratique des propriétés des Noms
 - [[wird-awrad]] — les Noms sont récités dans le cadre des litanies quotidiennes
 - [[tasawwuf]] — cadre général de la dimension contemplative des Noms
+- [[tawakkul]] — le Nom *al-Wakīl* (le Garant) fonde la confiance en Dieu ; développé dans [[hasbiyallah-rabbani]]
 
 ## Sources
 

@@ -54,7 +54,7 @@ La médecine islamique est présentée comme supérieure car d’origine révél
 
 ## Concepts liés
 
-- [[morphopsychologie]] — les types humoraux s’inscrivent dans le cadre du Tibb-e-Nabawi.
+- [[morphopsychologie]] — les types humoraux s’inscrivent dans le cadre du Tibb-e-Nabawi. ⚠️ *Leur reformulation moderne (« body types ») est classée [[doctrinal/deviations/morphopsychologie|déviation profane]] : le fond Unani traditionnel ne valide pas l’habillage « wellness » contemporain.*
 - [[ibn-qayyim]] — *Guérir avec la médecine du Prophète* : source classique du Tibb-e-Nabawi.
 - [[ibn-sina]] — médecine islamique post-prophétique, complémentaire.
 

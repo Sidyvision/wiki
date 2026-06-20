@@ -5,8 +5,9 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [tawakkul, dhikr, futuwwa, shukr, soufisme, adab]
 created: 2026-06-18
-updated: 2026-06-18
-sources_count: 8
+updated: 2026-06-20
+sources: ["to-source"]
+sources_count: 0
 cross_links: ["[[faraz-rabbani]]", "[[tawakkul]]", "[[futuwwa]]", "[[shukr]]", "[[ghafla]]", "[[asma-al-husna]]", "[[wird-awrad]]", "[[platon]]"]
 ---
 

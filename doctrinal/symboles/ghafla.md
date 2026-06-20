@@ -5,7 +5,8 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ghafla, nafs, tasawwuf, dhikr, dunya]
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-06-20
+sources: ["[[hasbiyallah-rabbani]]"]
 sources_count: 1
 cross_links: ["[[tawakkul]]", "[[shukr]]", "[[wird-awrad]]", "[[tasawwuf]]"]
 ---

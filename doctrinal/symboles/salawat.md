@@ -5,9 +5,9 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, pratique-spirituelle, benediction-prophetique, salawat]
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-06-20
 sources_count: 1
-cross_links: ["[[ibn-arabi]]", "[[wird-awrad]]", "[[walaya]]", "[[tasawwuf]]"]
+cross_links: ["[[ibn-arabi]]", "[[wird-awrad]]", "[[walaya]]", "[[tasawwuf]]", "[[wazifa]]", "[[mawlid-al-rasul]]"]
 ---
 
 # Ṣalawāt
@@ -32,6 +32,8 @@ La tradition soufie affirme que la ṣalāt sur le Prophète est toujours exauc�
 - [[wird-awrad]] — les ṣalawāt sont une composante majeure des awrād
 - [[walaya]] — les ṣalawāt akbariennes visent l'union spirituelle avec le Prophète
 - [[tasawwuf]] — cadre d'interprétation et de pratique
+- [[wazifa]] — multiples formules de ṣalawāt (formule du Khatm, ibrāhīmiyya…)
+- [[mawlid-al-rasul]] — composition dévotionnelle saturée de ṣalawāt
 
 ## Sources
 
