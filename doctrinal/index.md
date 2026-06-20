@@ -72,6 +72,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/autorites/ali-hussain|Ali Hussain (chercheur, traducteur)]]
 - [[doctrinal/autorites/yaqub-chaudhary|Yaqub Chaudhary (philosophie islamique, IA)]]
 - [[doctrinal/autorites/faraz-rabbani|Faraz Rabbani (SeekersGuidance, fiqh hanafite)]]
+- [[doctrinal/autorites/hamza-yusuf|Hamza Yusuf (Zaytuna College)]] — stub
 
 ---
 
