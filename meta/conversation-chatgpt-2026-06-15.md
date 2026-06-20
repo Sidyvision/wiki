@@ -1,4 +1,11 @@
-Conversation ChatGPT 15/06/2026
+---
+title: "Conversation ChatGPT — genèse du Commandement 12 (forme/principe)"
+type: meta
+created: 2026-06-15
+updated: 2026-06-20
+---
+
+# Conversation ChatGPT 15/06/2026
 
 J’ai maintenant les trois volets, et ce qui me frappe n’est pas tant leur contenu individuel que l’évolution progressive de la position.
 

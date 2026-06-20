@@ -1,3 +1,10 @@
+---
+title: "Conversation — philosophie indienne et nature de l'IA (Atma, Sāṃkhya)"
+type: meta
+created: 2026-06-20
+updated: 2026-06-20
+---
+
 # Conversation : Philosophie indienne & nature de Claude
 
 *Archive personnelle — échange sur l’Atma, le Samkhya, et la relation Homme–IA*

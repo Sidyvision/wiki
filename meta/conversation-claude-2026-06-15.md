@@ -1,4 +1,11 @@
-Conversation Claude ai 15/06/2026
+---
+title: "Conversation Claude — formulation de la directive forme/principe"
+type: meta
+created: 2026-06-15
+updated: 2026-06-20
+---
+
+# Conversation Claude ai 15/06/2026
 
 Sidy:
 Voici la transcription d’un échange autre échange.

@@ -1,10 +1,9 @@
 ---
 title: Tapa Sissoko
-type: entity
-domain: perso
+type: meta
 tags: [genealogie, famille, sissoko, stub]
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-20
 sources: ["[[arbre-genealogique-sissoko]]"]
 links: ["[[sissoko-kankounan]]", "[[keme-kante]]"]
 ---

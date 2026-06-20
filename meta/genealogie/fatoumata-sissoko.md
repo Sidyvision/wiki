@@ -1,10 +1,9 @@
 ---
 title: Fatoumata Sissoko
-type: entity
-domain: perso
+type: meta
 tags: [genealogie, famille, sissoko, mere, fouta]
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-20
 sources: ["[[arbre-genealogique-sissoko]]"]
 links: ["[[mamadou-doudou-sissoko]]", "[[hawa-kante]]", "[[sissoko-kankounan]]", "[[keme-kante]]", "[[sidy]]"]
 ---

@@ -1,10 +1,9 @@
 ---
 title: Arbre généalogique Sissoko (côté maternel)
-type: source
-domain: perso
+type: meta
 tags: [genealogie, famille, sissoko, kante]
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-20
 sources: []
 links: ["[[sissoko-kankounan]]", "[[keme-kante]]", "[[mamadou-doudou-sissoko]]", "[[hawa-kante]]", "[[fatoumata-sissoko]]", "[[sidy]]"]
 ---
