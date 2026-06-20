@@ -10,6 +10,17 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-06-20] archivage | Intégration massive _inbox/ (Wazifa, al-Jīlī, Hasbiyallah, upakarana, discernement LLM, déviations)
+- **Opération** : ARCHIVAGE & MAILLAGE — lot mixte (~4 ingests étalés 2026-06-05 → 06-20) déposé en vrac dans `_inbox/`.
+- **Créé (doctrinal)** : traditions/naqshbandiyya ; symboles/{al-insan-al-kamil, tibb-e-nabawi, khatm-al-khawajakan, tawakkul, futuwwa, shukr, ghafla} ; autorites/{abd-al-karim-al-jili, abd-al-qadir-al-jilani, ibn-qayyim, muhammad-nazim-al-haqqani, abdullah-daghestani, faraz-rabbani} ; deviations/{morphopsychologie, body-types} ; sources/{hasbiyallah-rabbani, universal-man-jili, wazifa, mawlid-al-rasul, conversation-llm-intellect-2026-06-11} ; etudes/2026-06-20_etre-psyche-intellect-raison-upakarana ; discernement/{2026-06-11_llm-wiki-modalite-intellect, 2026-06-11_llm-wiki-correction-doctrinale}.
+- **Modifié** : CLAUDE.md (Commandement 12 fusionné : discernement forme/principe + upakarana + renvoi directive) ; doctrinal/index.md (toutes sections concernées).
+- **Recartographie** : lot Wazifa (ancien `concept`/`entity`/`domain: general` → `symbole`/`autorite`/`tradition`, `tradition_cadre: islam`) ; frontmatters mangés par l'iPad réparés (`-----`, `## title:`, guillemets courbes).
+- **REJETÉ (obsolète, non intégré)** : `_inbox/CLAUDE.md` (corrompu — aurait écrasé le protocole d'aujourd'hui), `index.md.txt`, `log.md.txt`, `MIGRATION.md.txt`, `onboarding.md`, `ingest-brief.md`, `protocole-archivage-claude-ai.md` ; ~25 re-exports de pages déjà canoniques (non écrasées).
+- **EN ATTENTE (signalé, à trancher)** : lot `meta/` (généalogie Sissoko/Kanté, journal du 18-06, directive-discernement-domaines, échange Éléonore) ; `aiman-attar` (autrice « wellness » — circuit à décider) ; `.txt` de conversations brutes ; champ `sources:` à compléter sur 6 fiches Hasbiyallah ; `tibb-e-nabawi` endosse la morphopsychologie dans son corps (tension symbole↔déviation à arbitrer) ; fichiers `UPDATES*.md` à retirer après confirmation (Commandement 10).
+- **Notes** : intégration menée malgré des coupures de crédit (sessions parallèles interrompues), reprise en session principale.
+
+---
+
 ## [2026-06-20] extension protocolaire | Intégration du Circuit Discernement
 - **Modifié** : CLAUDE.md (Architecture du Dépôt, Nomenclature, Sceau Recteur, Protocoles d’Exécution — ajout du type `discernement`, du statut `speculatif`, et de l’action EXAMEN DE DISCERNEMENT) ; doctrinal/index.md (nouvelle section « Le Registre du Discernement », renumérotation Atelier→VIII, Domaine Réservé→IX)
 - **Créé** : doctrinal/discernement/ (répertoire, placeholder `.gitkeep`)
