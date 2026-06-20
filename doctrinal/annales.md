@@ -1,12 +1,19 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-06-12
+updated: 2026-06-20
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
+
+---
+
+## [2026-06-20] extension protocolaire | Intégration du Circuit Discernement
+- **Modifié** : CLAUDE.md (Architecture du Dépôt, Nomenclature, Sceau Recteur, Protocoles d’Exécution — ajout du type `discernement`, du statut `speculatif`, et de l’action EXAMEN DE DISCERNEMENT) ; doctrinal/index.md (nouvelle section « Le Registre du Discernement », renumérotation Atelier→VIII, Domaine Réservé→IX)
+- **Créé** : doctrinal/discernement/ (répertoire, placeholder `.gitkeep`)
+- **Notes** : permet le traitement rigoureux des conversations de l’export ChatGPT mêlant expérience personnelle et portée métaphysique (catégorie A+C du triage), sans contaminer les pages de référence orthodoxes par une hypothèse encore instable. Recalages de forme sur l’UPDATES (établi sur un état antérieur du protocole) : références de section ramenées au CLAUDE.md réel (9 sections, I–IX) ; type `source` préservé dans l’énumération `type`. **À clarifier (VIGILANCE)** : le bloc EXAMEN renvoie au « Commandement 12 (upakarana) » alors que la Section IX n’en compte que 11.
 
 ---
 

@@ -42,6 +42,7 @@ wiki/  (= /root/wiki)
 │   ├── autorites/         ← Maîtres autorisés, commentateurs orthodoxes, érudits
 │   ├── deviations/        ← Profanité, occultisme, pseudo-tradition
 │   ├── etudes/            ← Réponses fixées, analyses transversales (préfixe YYYY-MM-DD_)
+│   ├── discernement/      ← Spéculations personnelles datées, en cours de discernement
 │   └── sources/           ← Fiches de lecture (le document source lui-même)
 ├── atelier/               ← Circuit NON-doctrinal : le métier audio et la création
 │   ├── materiel/          ← Manuels d'équipement, fiches machines
@@ -61,6 +62,7 @@ wiki/  (= /root/wiki)
 - **Autorités** : `doctrinal/autorites/nom-auteur.md` (ex : `ibn-arabi.md`)
 - **Déviations** : `doctrinal/deviations/nom-sujet.md`
 - **Études** : `doctrinal/etudes/YYYY-MM-DD_titre-court.md`
+- **Discernements** : `doctrinal/discernement/YYYY-MM-DD_titre-court.md`
 - **Sources** : `doctrinal/sources/slug-du-document.md`
 - **Atelier** : `atelier/materiel/<slug>.md`, `atelier/entretiens/<slug>.md`, `atelier/projets/<slug>.md`
 
@@ -75,8 +77,8 @@ Chaque page de `doctrinal/` s’ouvre impérativement par ce cartouche :
 ```yaml
 ---
 title: "Titre exact de la page"
-type: doctrine | tradition | symbole | autorite | deviation | etude | source
-status: traditionnel | academique | profane | contre-traditionnel
+type: doctrine | tradition | symbole | autorite | deviation | etude | source | discernement
+status: traditionnel | academique | profane | contre-traditionnel | speculatif
 tradition_cadre: "islam"   # ou "hindouisme", "hellenisme", "universel", "none"
 tags: [metaphysique, cosmologie, symbolisme]
 created: YYYY-MM-DD
@@ -96,6 +98,7 @@ cross_links: ["[[autre-slug]]"]
 1. `academique` : travaux d’érudition universitaire. (Utiles pour les faits, aveugles pour l’esprit)
 1. `profane` : philosophie moderne, science matérialiste. (Symptômes de la crise moderne)
 1. `contre-traditionnel` : occultisme, spiritisme, théosophisme, Nouvel Âge. (Sévérité et discernement)
+1. `speculatif` : Hypothèse métaphysique personnelle de l’utilisateur, en attente de validation par une autorité textuelle ou par l’examen traditionnel. Statut transitoire — doit évoluer vers un statut définitif à la clôture du discernement.
 
 -----
 
@@ -166,6 +169,21 @@ Quand une nouvelle source est déposée dans `raw/` (lue par l’app iPad) :
 - Infiltrations de vocabulaire profane ou « New Age » dans les pages de Symboles.
 - Violations d’étanchéité entre circuits (§V, §VI).
 - Rapporter sans corriger automatiquement ; demander avant d’éditer.
+
+### Action : EXAMEN DE DISCERNEMENT (spéculations personnelles)
+
+Lorsqu’une page `type: discernement` est créée ou enrichie, insérer/maintenir impérativement ce bloc normalisé :
+
+> 🔍 **Discernement — Spéculation Personnelle**
+> **Statut** : en cours | validée | invalidée
+> **Hypothèse initiale** (datée, reformulée fidèlement) : …
+> **Généalogie des idées** :
+>   - *Filiation orthodoxe possible* : [[doctrinal/symboles-ou-autorites/slug]] — nature du rapprochement.
+>   - *Parenté hétérodoxe possible* : [[doctrinal/deviations/slug]] — nature du rapprochement.
+> **Examen formel** (cohérence logique/terminologique — jamais le principe) : …
+> **Conclusion** : attribuée par l’utilisateur ou par une autorité textuelle citée, jamais auto-décrétée par l’IA.
+
+Rappel (Commandement 12, *upakarana*) : l’IA documente la généalogie et signale les tensions formelles ; elle ne tranche jamais elle-même la validité métaphysique d’une spéculation. Étanchéité inversée : une page `symbole/` ou `autorite/` orthodoxe ne doit jamais pointer vers une page `discernement` non tranchée (statut `en cours`).
 
 ### Action : RESTAURATION (normalisation de l’existant)
 

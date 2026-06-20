@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-06-12
+updated: 2026-06-20
 ---
 
 # Le Catalogue Universel
@@ -81,7 +81,13 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ---
 
-## VII. L'Atelier (hors doctrine — `atelier/`)
+## VII. Le Registre du Discernement (`discernement/`)
+
+*À renseigner au fil des examens de spéculations métaphysiques personnelles.*
+
+---
+
+## VIII. L'Atelier (hors doctrine — `atelier/`)
 
 *Circuit non-doctrinal : métier audio et création artistique. Hors Sceau Recteur. À renseigner au fil des archivages.*
 
@@ -96,7 +102,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ---
 
-## VIII. Domaine Réservé (hors corps doctrinal — `meta/`)
+## IX. Domaine Réservé (hors corps doctrinal — `meta/`)
 
 *Fiches à mentions personnelles (transmission, profil). Maintenues hors de `doctrinal/` par étanchéité.*
 
