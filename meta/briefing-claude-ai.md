@@ -261,6 +261,7 @@ Instantané indicatif (l'index est la liste exacte) :
 
 ---
 
-*Ce briefing remplace, pour l'usage iPad, les anciens `meta/ingest-brief.md` et
-`meta/protocole-archivage-claude-ai.md` (antérieurs au circuit Discernement et au sas `_inbox/`).
-Tiens-le à jour à chaque évolution du protocole.*
+*Ce briefing est la fiche de référence unique pour l'usage iPad. Les anciens
+`meta/ingest-brief.md` et `meta/protocole-archivage-claude-ai.md` sont désormais des redirections
+`deprecated` qui pointent ici (antérieurs au circuit Discernement et au sas `_inbox/`).
+Tiens ce briefing à jour à chaque évolution du protocole.*

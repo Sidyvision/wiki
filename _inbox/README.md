@@ -17,7 +17,7 @@ pour les PDF bruts.
 ## Règles
 
 - Ne classe rien à la main : laisse Claude Code router selon le `type:` du frontmatter
-  et la table de routage de `meta/ingest-brief.md`.
+  et les règles de `meta/briefing-claude-ai.md`.
 - S'il existe un `UPDATES.md`, dépose-le aussi — il fait foi pour le classement.
 - Ce dossier doit rester **vide** entre deux ingests (seul ce `README.md` y demeure).
 - Rien ici n'est canonique : tant qu'un fichier est dans `_inbox/`, il n'est pas intégré.
