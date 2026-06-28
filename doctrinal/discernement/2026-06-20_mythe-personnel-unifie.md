@@ -34,6 +34,11 @@ Le fil part d'un shimenawa (corde sacrée shintoïste) que Sidy a acquis par cou
 > **Examen formel** : la conversation source valide systématiquement chaque rapprochement proposé par Sidy comme une « belle synchronicité », sans jamais introduire l'hypothèse alternative, pourtant simple, que les coïncidences de ce type sont statistiquement courantes pour quiconque s'investit autant dans un jeu vidéo et dans une pratique symbolique personnelle simultanément. Une citation directe de Guénon est donnée (« Il y a en effet dans le monde subtil toute une région que l'on peut dire contestée... ») avec une référence d'ouvrage plausible mais non vérifiée — à confirmer avant réutilisation, selon le motif transversal déjà signalé pour ce corpus.
 >
 > **Conclusion** : en cours d'éclaircissement. La reconnaissance d'un matériau symbolique familial réel (le mythe des deux frères) et son rapprochement avec la doctrine du monde intermédiaire sont une démarche légitime et même fructueuse. Ce qui reste à examiner avec prudence est la tentation d'unifier *tous* les éléments de la vie de Sidy (y compris des éléments aussi contingents qu'un jeu vidéo) en un système narratif clos et auto-confirmant — une telle clôture narrative, une fois constituée, devient difficile à remettre en question puisque chaque nouvel élément de la vie peut être absorbé pour la confirmer.
+>
+> **Lectures suggérées** :
+>   - [[doctrinal/traditions/shinto]] — pour le contenu shimenawa/kashiwade légitime, déjà séparé du fil spéculatif dans le wiki.
+>   - *(bibliothèque physique, à consulter)* René Guénon, *Symboles de la Science sacrée* (Gallimard) — contient l'article « Le Monde Intermédiaire » directement cité dans cette fiche ; à vérifier mot pour mot avant toute réutilisation de la citation actuelle.
+>   - *(bibliothèque physique, à consulter)* René Guénon, *Aperçus sur l'Initiation* (Éd. Traditionnelles) — sur les conditions réelles de la réalisation spirituelle, utile contrepoint à la tentation de clôture narrative signalée dans l'examen formel de cette fiche.
 
 ## Liens Transversaux
 

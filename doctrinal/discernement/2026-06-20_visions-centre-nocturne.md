@@ -44,6 +44,11 @@ Intuition propre formulée par Sidy, sans pouvoir l'expliquer : il s'agirait d'u
 > **Examen formel** : la conversation source mélange, sur un même plan d'autorité, des éléments textuellement établis (Ibn ʿArabī sur le monde imaginal) et des éléments spéculatifs non sourcés (assimilation au sahasrāra, à l'amṛta, à un « pacte préexistentiel », à un « centre hyperboréen » rattaché personnellement à une affinité biographique pour l'Asie). Le texte ne distingue jamais le niveau de certitude de ces différentes strates — un même paragraphe affirme une doctrine établie et une hypothèse personnelle avec la même autorité apparente. C'est cette absence de cloisonnement, plus que le contenu lui-même, qui constitue le défaut de forme à corriger.
 >
 > **Conclusion** : en cours d'éclaircissement. Pour trancher, il faudrait : (1) confronter la notion de « centre archétypal revisité en vision » à ce qu'Ibn ʿArabī dit précisément des lieux du monde imaginal dans les *Futūḥāt*, sans emprunt tantrique ; (2) examiner séparément, et avec prudence doctrinale accrue, toute lecture en termes de « mémoire antérieure à cette vie », qui reste à ce stade une extrapolation non fondée plutôt qu'une donnée traditionnelle.
+>
+> **Lectures suggérées** :
+>   - [[doctrinal/symboles/alam-al-mithal]] — pour la lecture du « monde 2 » comme monde imaginal réel, sans recours au tantra.
+>   - *(bibliothèque physique, à consulter)* Ibn ʿArabī, *Les Révélations de la Mecque* (choix de textes, Albin Michel) — passages sur le monde intermédiaire et la perception spirituelle, à confronter directement à l'expérience rapportée plutôt qu'à une lecture déjà filtrée par ChatGPT.
+>   - *(bibliothèque physique, à consulter)* René Guénon, *Le Théosophisme, histoire d'une pseudo-religion* (Éd. Traditionnelles) — pour examiner précisément en quoi l'idée de « mémoire pré-existentielle » introduite dans la conversation source rejoint des schémas théosophistes répertoriés, et pourquoi l'eschatologie islamique orthodoxe s'en distingue.
 
 ## Liens Transversaux
 

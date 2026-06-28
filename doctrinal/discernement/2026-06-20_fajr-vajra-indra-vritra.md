@@ -34,6 +34,11 @@ Partant d'un rapprochement phonétique entre *al-Fajr* (l'aube, arabe) et *Vajra
 > **Examen formel** : la réponse de la conversation source valide intégralement et sans réserve l'intuition initiale de Sidy (« une intuition *profonde* et remarquablement cohérente », « un schéma universel ») avant même d'examiner si la fusion des trois cadres est méthodologiquement défendable. Aucune mise en garde sur le risque de syncrétisme n'est formulée, malgré l'ampleur de la construction (extension progressive à de nouveaux termes, tableau de correspondances, demande explicite de Sidy de « compléter le tableau »). Le glissement d'une comparaison fonctionnelle légitime (plusieurs traditions reconnaissent un moment de percée intérieure favorisé par l'aube) vers une fusion ontologique (un même mécanisme intérieur, validé numériquement) n'est à aucun moment signalé comme un saut méthodologique.
 >
 > **Conclusion** : en cours d'éclaircissement. Les convergences fonctionnelles repérées (aube/percée spirituelle, obstruction intérieure à dépasser) sont doctrinalement intéressantes et peuvent être conservées comme telles ; la fusion en un système unique « confirmé » par la gématrie ne doit pas être considérée comme acquise. Si Sidy souhaite conserver une trace de ce travail dans son journal personnel (la demande d'entrée récapitulative pour Obsidian en témoigne), il serait préférable de la consigner comme exploration personnelle plutôt que comme doctrine établie.
+>
+> **Lectures suggérées** :
+>   - [[doctrinal/symboles/merkavah-muraqaba]] — même motif de construction gématrique inter-traditions déjà signalé.
+>   - *(bibliothèque physique, à consulter)* René Guénon, *Le Théosophisme, histoire d'une pseudo-religion* (Éd. Traditionnelles) — critique méthodologique directement applicable à la fusion non avertie de cadres védique, soufi et tantrique opérée dans cette fiche.
+>   - *(bibliothèque physique, à consulter, avec réserve déjà signalée dans la bibliothèque elle-même)* Fabre d'Olivet, *La Langue hébraïque restituée* (L'Âge d'Homme) — exemple historique de démarche gématrique-linguistique à manier avec prudence, « à redresser à la lumière de la métaphysique pure » : utile ici comme contre-exemple méthodologique plutôt que comme caution.
 
 ## Liens Transversaux
 

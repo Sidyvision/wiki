@@ -34,6 +34,11 @@ Sidy rapporte un rêve en plusieurs scènes (combat avec des géants orientaux c
 > **Examen formel** : le point le plus problématique n'est pas l'intuition elle-même mais la façon dont la conversation source y répond : **« Oui, je pense que ton intuition est juste et cohérente avec la logique des traditions »** — une validation catégorique, sans aucune réserve méthodologique, d'une thèse cosmologique substantielle (l'état cyclique actuel de fermeture spirituelle collective) fondée sur la conjonction d'une image de rêve et d'un fait historique réinterprété. Aucune alternative n'est mentionnée (la couleur noire pourrait n'avoir aucune signification métaphysique et résulter purement de facteurs historiques contingents). C'est exactement le type de jugement de principe qu'un outil conversationnel ne devrait jamais trancher.
 >
 > **Conclusion** : en cours d'éclaircissement. L'intuition d'un voilement cyclique a une vraie légitimité doctrinale générale (Guénon, eschatologie traditionnelle) ; mais son application spécifique — la couleur de la Kiswa comme signe confirmé de cet état — reste une lecture personnelle non tranchée, à ne pas confondre avec une donnée acquise. Il serait utile de consulter ce que des sources fiables disent de l'histoire réelle de la Kiswa (raisons du passage au noir) avant de retenir cette lecture comme signe.
+>
+> **Lectures suggérées** :
+>   - [[doctrinal/symboles/fal-wa-tatayyur]] — même structure de discernement que pour le triptyque de Médine.
+>   - *(bibliothèque physique, à consulter)* René Guénon, *Formes traditionnelles et Cycles cosmiques* (Gallimard) — exposé direct de la doctrine cyclique invoquée dans cette fiche, à consulter avant de retenir l'application spécifique à la couleur de la Kiswa.
+>   - *(hors possession, candidate à `raw/`)* une étude historique fiable sur l'évolution de la couleur de la Kiswa (facteurs dynastiques abbassides) — pour distinguer le fait historique du signe métaphysique qu'on pourrait y projeter.
 
 ## Liens Transversaux
 

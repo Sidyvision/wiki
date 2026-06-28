@@ -20,6 +20,10 @@ Question sur l'existence de témoignages de personnes percevant un son (bourdonn
 
 Ce symptôme est survenu à la suite d'une khalwa — c'est ce lien qui justifie le classement de cette fiche en regard du symbole [[doctrinal/symboles/khalwa]], plutôt qu'en simple question de santé isolée.
 
+## Troisième occurrence (2026-06-20, source : conversation « Bourdonnement tempe droite », #77, 2025-09-09)
+
+Une description quasiment identique réapparaît dans une conversation distincte et postérieure : bourdonnement/ressenti « digital » à la tempe droite. La conversation source propose deux lectures en parallèle — physiologique (tension artérielle, acouphène, tension nerveuse, fatigue/déshydratation) et symbolique/spirituelle — sans donner la priorité à l'une sur l'autre, bonne pratique méthodologique à noter (contrairement à d'autres cas du corpus où la lecture physiologique est absente, cf. la réserve déjà formulée pour [[doctrinal/discernement/2026-06-20_experience-lefke-materia-secunda]]).
+
 ## Note
 
 Recommandation médicale reçue dans la conversation source (consultation professionnelle) — point factuel à ne pas réinterpréter doctrinalement ici.

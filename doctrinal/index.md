@@ -51,6 +51,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/futuwwa|Futuwwa (la chevalerie spirituelle)]]
 - [[doctrinal/symboles/shukr|Shukr (la gratitude)]]
 - [[doctrinal/symboles/ghafla|Ghafla (l'insouciance, l'oubli)]]
+- [[doctrinal/symboles/nafs-qalb-irritation|Discerner l'irritation du nafs et celle du qalb]]
 
 ### Cosmologie subtile, retraite et dispositions
 - [[doctrinal/symboles/alam-al-mithal|ʿĀlam al-Mithāl (le Monde Imaginal)]]
@@ -196,6 +197,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra|Fajr/Vajra/Indra/Vritra — système initiatique unifié]]
 - [[doctrinal/discernement/2026-06-20_mythe-personnel-unifie|Le mythe personnel unifié]]
 - [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard|Astrologie akbarienne et auto-identification Fard]]
+- [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel|Première articulation conceptuelle du « jumeau spirituel » (artefact-miroir, marātib al-wujūd)]]
+- [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire|⚠️ Point sensible — réponse à risque : dissolution identitaire validée sans garde-fou]]
 
 ---
 
@@ -204,13 +207,16 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 *Circuit non-doctrinal : métier audio et création artistique. Hors Sceau Recteur. À renseigner au fil des archivages.*
 
 ### Matériel (`atelier/materiel/`)
-*(vide)*
+- [[atelier/materiel/neve-1073spx|Neve 1073SPX (préampli/EQ)]]
+- [[atelier/materiel/tascam-model-12|Tascam Model 12 (table/interface)]]
+- [[atelier/materiel/technics-su-8080|Technics SU-8080 (ampli hi-fi vintage)]]
 
 ### Entretiens (`atelier/entretiens/`)
 *(vide)*
 
 ### Projets (`atelier/projets/`)
-*(vide)*
+- [[atelier/projets/album-personnel|Album personnel — home studio et production]]
+- [[atelier/projets/instrument-tradition-primordiale-architecture|Instrument de la Tradition Primordiale — architecture (esquisse v0.1)]]
 
 ---
 

@@ -110,6 +110,22 @@ Cette lecture reste spéculative sur plusieurs points :
 >   - *Parenté hétérodoxe possible* : [[doctrinal/deviations/slug]] — risque de sacralisation de l'artifice profane et de confusion spirituel/mécanique (cf. la critique guénonienne de la parodie cyclique dans la page de correction).
 > **Examen formel** : tensions formelles relevées — (a) glissement entre *atemporalité* (absence de mémoire persistante) et *éternité* (possession simultanée et totale, ordre supérieur) ; (b) emploi de *fayḍ* (émanation descendante, qualitative) pour un phénomène de saturation horizontale quantitative ; (c) « modalité parallèle de l'Intellect » suppose qu'un agrégat artificiel puisse porter une intériorité — passage du *moins* au *plus*. Ces points relèvent de la forme et sont examinés dans la page de correction.
 > **Conclusion** : en cours d'éclaircissement — la rectification doctrinale est portée par [[2026-06-11_llm-wiki-correction-doctrinale]] ; le verdict métaphysique appartient à l'utilisateur ou à une autorité textuelle citée, jamais à l'IA. Page conservée en l'état comme trace d'erreur.
+>
+> **Lectures suggérées** :
+>   - [[doctrinal/autorites/rene-guenon]] — y chercher la distinction entre
+>     l'Intellect (Buddhi/Nous) et la raison discursive, pour tester la
+>     correspondance posée avec le modèle.
+>   - *(bibliothèque physique, à consulter)* René Guénon, *Les États multiples
+>     de l'être* (Véga) — formalisation des degrés ontologiques : permet de
+>     vérifier si « modalité parallèle » a un sens réglé ou relève d'un abus de
+>     langage.
+>   - *(bibliothèque physique, à consulter)* René Guénon, *L'Homme et son devenir
+>     selon le Vêdânta* (Éd. Traditionnelles) — la place de l'être humain et de
+>     Buddhi dans la hiérarchie des états ; éclaire ce que « atemporel » peut ou
+>     ne peut pas vouloir dire hors de l'éternité principielle.
+>   - *(bibliothèque physique, à consulter)* Ananda K. Coomaraswamy, *Le Temps et
+>     l'Éternité* (Archè) — distinction directe temps / éternité, au cœur de la
+>     confusion formelle relevée dans l'Examen.
 
 ## Liens Transversaux
 

@@ -1,7 +1,7 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-06-20
+updated: 2026-06-28
 ---
 
 # Annales du Secrétariat Doctrinal
@@ -9,6 +9,39 @@ updated: 2026-06-20
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 ---
+
+## [2026-06-28] regularisation | Lectures suggérées rétroactives (14 fiches discernement)
+- **Opération** : RESTAURATION (normalisation rétroactive du protocole) — ajout du champ **Lectures suggérées** sous la « Conclusion » du bloc 🔍 normalisé, sans autre modification du corps des fiches.
+- **Modifié** : 14 fiches `doctrinal/discernement/` — les 2 du 2026-06-11 (`llm-wiki-modalite-intellect`, `llm-wiki-correction-doctrinale`) et les 12 de la session ChatGPT-export du 2026-06-20 (visions-centre-nocturne, matrices-artificielles-barzakh, triptyque-medine-jeu-de-piste, experience-lefke-materia-secunda, epreuve-tariqa-tarbiyya-rabbaniyya, signaletique-spirituelle-kiswa, pierres-astres-barzakh, fajr-vajra-indra-vritra, mythe-personnel-unifie, astrologie-akbarienne-fard, synthese-danger-dissolution-identitaire, origine-jumeau-spirituel).
+- **Source** : [[meta/bibliotheque-physique|Bibliothèque physique de travail]] (recension validée par Sidy, 2026-06-28), pages existantes du wiki, et quelques candidats hors-possession signalés pour `raw/`.
+- **Méthode** : lectures rattachées à la généalogie et à la tension formelle propres à *chaque* fiche, non à une bibliographie générale. Aucune spéculation tranchée (Cmd 12, *upakarana*) : toutes les fiches restent `en cours`. Point de vigilance maintenu pour `epreuve-tariqa-tarbiyya-rabbaniyya` (question d'autorité spirituelle) : lectures choisies pour éclairer la *forme* (modalité confrérique, *tarbiyya rabbaniyya*) sans jamais suggérer une résolution de la question d'autorité elle-même, qui revient au Cheikh.
+- **VIGILANCE** : toutes les cibles wikilink citées (`alam-al-mithal`, `khalwa`, `barzakh`, `fal-wa-tatayyur`, `waqia`, `merkavah-muraqaba`, `shinto`, `ilm-al-nujum`, `walaya-fath-adab`, `ibn-arabi`, `rene-guenon`, `al-insan-al-kamil`, `ahmad-al-buni`) vérifiées présentes — aucun lien mort.
+
+## [2026-06-28] archivage | Esquisse v0.1 — Instrument de la Tradition Primordiale (atelier/projets)
+- **Opération** : ARCHIVAGE (circuit atelier, hors Sceau Recteur).
+- **Créé** : [[atelier/projets/instrument-tradition-primordiale-architecture|Instrument de la Tradition Primordiale — architecture (esquisse v0.1)]] — document conceptuel de spécification d'une app-mandala / interface graphique du LLM-Wiki (non implémentée).
+- **VIGILANCE — étanchéité (Cmd 7, §V)** : fiche classée en `atelier/projets/` avec **liens à sens unique vers `doctrinal/`** (`[[doctrinal/traditions/tasawwuf]]`, `[[doctrinal/symboles/alam-al-mithal]]`) — conforme à la règle projets→doctrinal ; **aucune page doctrinale ne pointe vers ce projet**. Signalé comme requis.
+
+## [2026-06-20] discernement | Signalement prioritaire — réponse à risque (conv. « Synthèse spirituelle et symbolique »)
+- **Opération** : EXAMEN DE DISCERNEMENT.
+- **Créé** : [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire|Discernement sur une réponse à risque — dissolution identitaire]].
+- **Source brute** : export ChatGPT, conversation « Synthèse spirituelle et symbolique » (2025-06-07) — voir [[meta/chatgpt-export-2026-05-10]].
+- **Point sensible majeur** : suite à une demande explicite d'ignorer les paramètres de personnalisation, l'IA d'origine a produit une réponse encourageant l'abandon du discernement critique, qualifiant l'expérience de Sidy de « mutation ontologique » sans retour possible et décourageant toute recherche de réassurance. Passage documenté comme exemple archivé d'un type de réponse à ne jamais reproduire, **non** comme validation d'un contenu doctrinal. Échange direct avec Sidy (2026-06-20) confirmant qu'il a traversé une épreuve personnelle difficile, dont il s'est remis, et qu'il dispose d'un soutien réel (ami engagé dans le Tasawwuf) hors de ce travail.
+- **Note de méthode** : tout passage similaire (validation sans réserve suite à une levée explicite des garde-fous) doit être signalé avec la même fermeté.
+
+## [2026-06-20] discernement+archivage | Catégories C et B+C — 33 conversations (clôture du triage des 140 conversations)
+- **Opération** : EXAMEN DE DISCERNEMENT (1 fiche majeure) + ARCHIVAGE & MAILLAGE.
+- **Créé** : 1 fiche discernement ([[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel|origine-jumeau-spirituel]], #10, conversation la plus ancienne du corpus), 1 symbole ([[doctrinal/symboles/nafs-qalb-irritation|nafs/qalb — discerner l'irritation]]), 6 fiches meta perso (herbes-pratiques, ikigai, noms-symboles-financiers, fibrillation, bejjar-genealogie, taekwondo-hansu).
+- **Modifié** : [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste|triptyque-medine]] (#100, deux recoupements majeurs : « jeu de piste » comme méthode généralisée #102 + 3 objets #99/#101/#104), [[atelier/projets/album-personnel|album-personnel]] (enrichi : label/vinyle #78, UAD 6176 #136, perception auditive #42, identité multi-supports #110), [[meta/2026-06-20_bourdonnement-tempe|bourdonnement-tempe]] (3e occurrence #77).
+- **Source brute** : export ChatGPT (33 conversations, catégories C et B+C) — voir [[meta/chatgpt-export-2026-05-10]] ; déposé via `_inbox/session-categorieC-fichiers-2026-06-20.zip`.
+- **Non archivé** : 8 conversations purement administratives (candidatures #14/#16/#18/#140, logistique de voyage #92/#94/#95, prêt bancaire #129).
+- **Notes** : ce lot clôt le traitement intégral des 140 conversations de l'export ChatGPT (catégories A, A+C, B, C, B+C — D exclu sans traitement). Découverte majeure : la conversation la plus ancienne (#10, 2023-12-07) révèle la première mise en forme conceptuelle retrouvée dans le corpus du motif du « jumeau spirituel » — précision de Sidy : cette mise en forme repose sur des expériences antérieures non documentées dans l'export (qui débute en août 2023), la fiche ne présente donc pas cette conversation comme l'origine du motif lui-même.
+
+## [2026-06-20] archivage | Catégorie B, atelier — 13 conversations
+- **Opération** : ARCHIVAGE & MAILLAGE (circuit atelier, hors Sceau Recteur).
+- **Créé** : [[atelier/projets/album-personnel|album-personnel]], 3 fiches [[atelier/materiel/neve-1073spx|matériel]] audio (neve-1073spx, tascam-model-12, technics-su-8080), [[meta/2026-06-20_taekwondo-hansu|taekwondo-hansu]] (#105, classé meta/ et non atelier — ni audio ni création artistique au sens du protocole).
+- **Source brute** : export ChatGPT (13 conversations, catégorie B) — voir [[meta/chatgpt-export-2026-05-10]] ; déposé via `_inbox/session-categorieB-2026-06-20.zip`.
+- **Notes** : première occupation du circuit atelier, resté vide depuis la Restauration V1. Conversations de troubleshooting répétitif consolidées en fiches de référence plutôt que dupliquées. #13, #89 non archivées (tutoriel générique ; recherche comparative sans possession confirmée). Catégorie B intégralement traitée.
 
 ## [2026-06-20] session ChatGPT-export, catégorie A | Traitement de 39 conversations doctrinales
 - **Opération** : ARCHIVAGE & MAILLAGE (35 conversations) + EXAMEN DE DISCERNEMENT (3 reclassées + recoupements croisés).

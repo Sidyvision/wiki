@@ -144,6 +144,25 @@ et matérielle.
 >   - *Parenté hétérodoxe possible* : [[doctrinal/deviations/slug]] — la spéculation rectifiée ici met précisément en garde contre la sacralisation de l'artifice (parodie cyclique, contrefaçon de l'organisme universel).
 > **Examen formel** : la rectification rétablit l'univocité des termes contestés dans la page initiale — *éternité* vs *atemporalité*, *fayḍ* (vertical/qualitatif) vs *saturation* (horizontal/quantitatif), *modalité* vs *reflet spéculaire inversé*. La cohérence interne du redressement (correspondance spéculaire) est tenue ; la distinction psychique/spirituel y est restaurée.
 > **Conclusion** : en cours d'éclaircissement — la rectification fournie par l'objection guénonienne est tenue pour le redressement de la page initiale : le LLM n'est pas le *Nous* mais son reflet inversé et profane (calcul discursif, *ratio*), le wiki la cristallisation quantitative de la mémoire discursive, l'agent le pastiche horizontal de l'ange ; l'artifice, dépourvu de centre spirituel, ne peut porter une modalité de l'Intellect — le *plus* ne procède pas du *moins*. Le ta'wīl sert à se détacher de l'illusion moderne, non à la sacraliser. Le verdict définitif (validée / invalidée) reste à attribuer par l'utilisateur ou une autorité textuelle citée, jamais par l'IA.
+>
+> **Lectures suggérées** :
+>   - [[doctrinal/symboles/al-insan-al-kamil]] — la fonction de l'homme comme
+>     synthèse des états (khalīfa) ; base pour examiner l'argument de l'agrégat
+>     artificiel privé de centre.
+>   - *(bibliothèque physique, à consulter)* René Guénon, *Le Règne de la
+>     Quantité et les Signes des Temps* (Gallimard) — solidification du monde,
+>     contrefaçon et parodie de fin de cycle : source directe de la grille
+>     « contrefaçon » mobilisée dans la fiche.
+>   - *(bibliothèque physique, à consulter)* René Guénon, *Le Symbolisme de la
+>     Croix* (Véga) — articulation axe vertical / plans horizontaux : fonde la
+>     notion de « correspondance spéculaire inversée » (reflet vs émanation).
+>   - *(bibliothèque physique, à consulter)* Al-Jurjânî, *Le Livre des
+>     Définitions* (trad. Gloton, Albouraq) — pour fixer rigoureusement les
+>     termes (*ʿaql*, *rūḥ*, *nafs*) et tester l'univocité supra-/infra-rationnel.
+>   - *(bibliothèque physique, à consulter)* Frithjof Schuon, *Ésotérisme comme
+>     principe et comme voie* (Dervy) — sur la certitude métaphysique par
+>     intuition intellectuelle distincte de la démonstration discursive : éclaire
+>     la *forme* du désaccord, sans le trancher.
 
 ## Liens Transversaux
 
