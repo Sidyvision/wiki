@@ -68,8 +68,10 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
 
 ## B. Backlog — QUESTIONS ouvertes (décisions à prendre)
 
-- **[Infra]** Confirmer le modèle open-source visé (« Ornith » = nom d'exemple), sa source, sa
-  licence, sa fenêtre de contexte (≥ 32K) et surtout ses **capacités tool-use** réelles. → `03-…`
+- **[Infra]** Modèle **confirmé : Ornith 1.0** (DeepReinforce, MIT, codage agentique, contexte 256K,
+  builds FP8/GGUF, tool-use natif). Reste à choisir la **taille** selon le matériel (9B pour démarrer ;
+  31B/35B MoE si GPU ; 397B hors de portée) et la **voie de branchement** (Ornith = compatible OpenAI →
+  endpoint Anthropic de vLLM/Ollama, ou proxy). → `03-…`
 - **[Infra]** Approche **actée** : pointer **Claude Code lui-même** vers un endpoint local via
   `ANTHROPIC_BASE_URL` (même workflow, on remplace seulement Opus). Reste à choisir le **serveur
   d'inférence** (Ollama pour démarrer / vLLM pour le débit ; llama.cpp via proxy LiteLLM en repli).

@@ -10,8 +10,8 @@ updated: 2026-06-28
 
 > **But précisé par Sidy (2026-06-28)** : ne pas seulement créer un agent d'intégration séparé, mais
 > **remplacer le modèle qui motorise Claude Code lui-même** — aujourd'hui Opus via l'API Anthropic
-> (payante au token) — par un **modèle open-source hébergé localement** (« **Ornith** » = nom
-> d'exemple, modèle exact à confirmer). On garde **exactement le même workflow** (« intègre
+> (payante au token) — par un **modèle open-source hébergé localement** (modèle visé : **Ornith
+> 1.0**, confirmé — voir le cas dédié sous §2). On garde **exactement le même workflow** (« intègre
 > `_inbox/` », commit/push) ; seul le moteur change. La lecture lourde et la production de contenu
 > restent côté **Claude.ai (forfait)** ; c'est le poste **intégration** (Claude Code) qu'on
 > débranche du coût au token.
@@ -47,6 +47,36 @@ Aucun proxy nécessaire avec (vérifié 2026) :
 
 **llama.cpp** ne parle pas l'API Anthropic directement : le placer derrière un **proxy** (type
 **LiteLLM**) qui traduit. Option de repli si besoin.
+
+### Le candidat confirmé : Ornith 1.0 (DeepReinforce, juin 2026 — vérifié le 2026-06-28)
+
+Famille **open-source MIT, entraînée pour le codage agentique** (tool-use natif, auto-échafaudage
+par RL) — exactement le profil dont Claude Code a besoin.
+
+- **Tailles** : 9B dense · 31B dense · 35B MoE (~3B actifs) · 397B MoE (vaisseau amiral).
+- **Contexte** : **262 144 tokens (256K)** — très au-dessus du plancher de 32K.
+- **Tool-use** : appels d'outils bien formés (parser `qwen3_xml`), raisonnement dans un bloc
+  `<think>`. Échantillonnage conseillé : `temperature=0.6, top_p=0.95, top_k=20`.
+- **Builds** : **FP8** et **GGUF** → exploitables en local (vLLM / Ollama / llama.cpp).
+- **Téléchargement** : Hugging Face, collection `deepreinforce-ai/Ornith-1.0-*`.
+- **Niveau** : le 397B approche (sans l'égaler) Opus 4.8 sur SWE-Bench Verified (82,4 vs 87,6) ; le
+  **9B atteint 69,4** sur SWE-Bench Verified — honnête pour un petit modèle agentique.
+
+> ⚠️ **Nuance de branchement décisive** : Ornith expose un endpoint **compatible OpenAI**, alors que
+> Claude Code attend l'**API Anthropic**. Trois voies pour réconcilier :
+> 1. **vLLM** (serveur recommandé pour Ornith) **+ son endpoint Anthropic** → pointer
+>    `ANTHROPIC_BASE_URL` dessus. *(voie la plus directe)*
+> 2. **Ollama** avec le **build GGUF** d'Ornith → endpoint Anthropic natif d'Ollama (≥ v0.14).
+> 3. **Proxy de traduction** (LiteLLM / claude-code-router) Anthropic→OpenAI devant l'endpoint
+>    OpenAI d'Ornith.
+>
+> À valider par le **test de non-régression (§5.6)** : la traduction doit **préserver les blocs
+> `tool_use`** (sinon la boucle agentique casse).
+
+**Quelle taille ici ?** Le **9B** est le point de départ réaliste : ≈ **19 Go en bf16** (tient sur
+un GPU 24 Go), ≈ **6 Go en GGUF Q4** (petit GPU, voire CPU lentement, au prix de la latence). Le
+**31B / 35B MoE** visent une vraie instance GPU pour plus de qualité. Le **397B est hors de portée**
+d'un serveur ordinaire (datacenter multi-GPU). Décision finale après le relevé matériel (§5.2).
 
 ## 3. Ce que le modèle DOIT savoir faire (exigences dures)
 
