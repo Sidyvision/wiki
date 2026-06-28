@@ -37,6 +37,14 @@ updated: 2026-06-28
 4. **Ouvrir une session par fonction** (voir `04-…`) plutôt qu'une grande session fourre-tout :
    c'est ce qui a fait dériver l'ancien projet.
 
+## Outils opérationnels (à NE PAS charger dans Claude.ai)
+
+- `05-runbook-test-ornith-gpu-cloud.md` — procédure pas à pas du test du modèle local.
+- `ornith-test.sh` — harnais de **test de non-régression** (bac à sable isolé sous
+  `/root/ornith-test`, jamais le vrai dépôt). Sous-commandes : `prepare` (avant le test) ·
+  `compare` (après l'intégration par Ornith) · `selftest` (validation du harnais) · `clean`.
+  Ces fichiers servent côté serveur (Claude Code), pas dans le projet Claude.ai.
+
 ## Hiérarchie d'autorité des documents
 
 1. `CLAUDE.md` (dépôt) — **protocole invariant**, prime sur tout le reste.
