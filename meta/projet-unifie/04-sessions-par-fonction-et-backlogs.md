@@ -68,11 +68,16 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
 
 ## B. Backlog — QUESTIONS ouvertes (décisions à prendre)
 
-- **[Infra]** Confirmer le modèle open-source visé (le nom « Ornithpar » est à vérifier), sa licence
-  et ses capacités tool-use réelles. → `03-…`
-- **[Infra]** Où héberger le modèle (serveur actuel / instance GPU dédiée / appareil futur) ? Budget
-  comparé à l'usage API.
-- **[Infra]** Brancher via agent maison (Option A) ou harnais Claude Code pointé local (Option B) ?
+- **[Infra]** Confirmer le modèle open-source visé (« Ornith » = nom d'exemple), sa source, sa
+  licence, sa fenêtre de contexte (≥ 32K) et surtout ses **capacités tool-use** réelles. → `03-…`
+- **[Infra]** Approche **actée** : pointer **Claude Code lui-même** vers un endpoint local via
+  `ANTHROPIC_BASE_URL` (même workflow, on remplace seulement Opus). Reste à choisir le **serveur
+  d'inférence** (Ollama pour démarrer / vLLM pour le débit ; llama.cpp via proxy LiteLLM en repli).
+- **[Infra]** Où héberger (instance GPU Hetzner / serveur GPU dédié / appareil futur) ? Dimensionner :
+  ~70B ≈ 44 Go VRAM quantifié / 80 Go FP16 ; 8–14B sur matériel modeste mais moins fiable. Budget GPU
+  comparé honnêtement à l'usage API.
+- **[Infra]** Stratégie **hybride** retenue : local pour la mécanique régulière, Opus/API pour les cas
+  difficiles (jugement doctrinal, Discernement, rédaction sensible) ; scripter le déterministe au max.
 - **[App]** Moteur de rendu : Three.js/WebGL (recommandé pour iPad) confirmé ?
 - **[App]** Spécifier le format `wiki-manifest` (schéma des nœuds, versionnage, granularité) — **prérequis** au reste.
 - **[App]** Cible : web mobile d'abord ou natif ?

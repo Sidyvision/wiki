@@ -40,7 +40,7 @@ d'abord **économique** :
 |---|---|---|
 | **Claude.ai (toi, ce projet)** | LECTURE lourde (PDF, longs textes), PRODUCTION du contenu (pages `.md` + `UPDATES.md`), CONCEPTION de l'instrument. **Tu ne peux PAS écrire dans le dépôt.** | forfait (≈ gratuit à l'usage) |
 | **Claude Code (serveur, API)** | INTÉGRATION mécanique : rangement, réparation du frontmatter, MAJ `index.md`/`annales.md`, LINT, commit/push. Développement de l'app. | **payant au token** |
-| **Modèle open-source local** *(en préparation — voir `03-…`)* | Vocation : **reprendre le rôle mécanique d'intégration** de Claude Code pour contourner le coût au token. | matériel only |
+| **Modèle open-source local** *(en préparation — voir `03-…`)* | Vocation : **motoriser Claude Code à la place d'Opus** (endpoint local via `ANTHROPIC_BASE_URL`, **même workflow**) pour contourner le coût au token. | matériel seul |
 | **Obsidian (iPad)** | CONSULTATION du dépôt (auto-pull). | — |
 
 **Règle économique absolue** :
