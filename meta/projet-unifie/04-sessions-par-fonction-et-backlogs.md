@@ -75,9 +75,12 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
 - **[Infra]** Approche **actée** : pointer **Claude Code lui-même** vers un endpoint local via
   `ANTHROPIC_BASE_URL` (même workflow, on remplace seulement Opus). Reste à choisir le **serveur
   d'inférence** (Ollama pour démarrer / vLLM pour le débit ; llama.cpp via proxy LiteLLM en repli).
-- **[Infra]** Où héberger (instance GPU Hetzner / serveur GPU dédié / appareil futur) ? Dimensionner :
-  ~70B ≈ 44 Go VRAM quantifié / 80 Go FP16 ; 8–14B sur matériel modeste mais moins fiable. Budget GPU
-  comparé honnêtement à l'usage API.
+- **[Infra]** **Relevé 2026-06-28** : le serveur actuel (2 vCPU, 3,7 Go RAM, pas de GPU) **ne peut
+  pas** héberger Ornith → il reste l'hôte d'orchestration/dépôt ; l'inférence doit aller sur une
+  **machine GPU séparée**. Décision à prendre : (a) **GPU cloud à l'heure** (RunPod/Vast/Lambda) pour
+  le **premier test** sans engagement ; (b) **serveur GPU dédié** (Hetzner ou autre) si le volume le
+  justifie ; (c) machine GPU perso à la maison exposant l'endpoint. Dimensionner : Ornith 9B ≈ 19 Go
+  bf16 (GPU 24 Go) / ~6 Go GGUF Q4 ; 31B/35B MoE → GPU plus gros. Comparer honnêtement au coût API.
 - **[Infra]** Stratégie **hybride** retenue : local pour la mécanique régulière, Opus/API pour les cas
   difficiles (jugement doctrinal, Discernement, rédaction sensible) ; scripter le déterministe au max.
 - **[App]** Moteur de rendu : Three.js/WebGL (recommandé pour iPad) confirmé ?

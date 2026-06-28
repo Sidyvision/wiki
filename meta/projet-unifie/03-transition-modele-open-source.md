@@ -96,6 +96,12 @@ agentique sur _notre_ workflow** — à tester sur un vrai lot `_inbox/`.
 
 ## 4. Matériel (le poste réellement contraignant)
 
+> 🔧 **Relevé du serveur actuel (Hetzner, 2026-06-28)** : 2 vCPU (AMD EPYC-Rome @ 2 GHz),
+> **3,7 Go de RAM** (≈ 2,4 Go libres, pas de swap), 38 Go de disque (32 libres), **aucun GPU**
+> (affichage virtio seulement). **Verdict : ce serveur NE PEUT PAS héberger Ornith** — même le 9B
+> quantifié (~6 Go) dépasse la RAM totale. Il reste parfait comme **hôte d'orchestration et du dépôt**
+> (git, scripts, client Claude Code). **L'inférence doit vivre sur une machine GPU séparée.**
+
 L'iPad ne fait pas tourner le modèle ; il tourne sur le serveur. Ordres de grandeur (vérifiés) :
 
 - **Modèle ~70B** : ≈ **44 Go de VRAM quantifié**, ≈ **80 Go en FP16** → une **instance GPU** dédiée.
