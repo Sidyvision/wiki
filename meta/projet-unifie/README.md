@@ -30,6 +30,7 @@ updated: 2026-06-28
    - `02-instrument-feuille-de-route.md` (l'app) ;
    - `03-transition-modele-open-source.md` (la bascule hors-token) ;
    - `04-sessions-par-fonction-et-backlogs.md` (le mode de travail + les listes à traiter) ;
+   - `05-runbook-test-ornith-gpu-cloud.md` (procédure de test du modèle local Ornith) ;
    - la fiche `atelier/projets/instrument-tradition-primordiale-architecture.md` (architecture détaillée) ;
    - `doctrinal/index.md` (le Catalogue Universel — inventaire vivant) ;
    - quelques fiches exemplaires pour le style (1 symbole, 1 discernement avec bloc 🔍, 1 fiche atelier).
