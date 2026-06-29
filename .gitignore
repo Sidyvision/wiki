@@ -5,3 +5,5 @@
 !/raw/assets/
 /raw/assets/*
 !/raw/assets/.gitkeep
+# Configuration locale Obsidian (par appareil, jamais versionnée)
+/.obsidian/
