@@ -16,6 +16,19 @@ updated: 2026-06-28
 > **Mode pédagogique** : chaque étape dit *quoi faire, pourquoi, et ce qui se passe derrière*.
 > Détaillé exprès pour ne pas avoir à le redemander.
 
+> 🔧 **Corrections issues du 1er test réel (2026-06-29)** — voir le compte-rendu complet
+> `06-compte-rendu-test-ornith-gpu-cloud-2026-06-29.md`. À retenir avant de recommencer :
+> 1. **RunPod : choisir Pods → Deploy a Pod, PAS Serverless** (le Serverless n'offre pas d'accès
+>    SSH/tunnel).
+> 2. **Authentification** : Claude Code envoie `x-api-key`, mais vLLM n'accepte que
+>    `Authorization: Bearer <clé>` → 401 systématique. **Correctif : `ANTHROPIC_CUSTOM_HEADERS`**
+>    (cf. Phase 5).
+> 3. **Contexte** : `32768` est **trop petit** (le prompt système de Claude Code ≈ 27K tokens, des
+>    tours réels atteignent ~143K) → **utiliser `--max-model-len 131072`** (cf. Phase 3).
+> 4. L'image `vllm/vllm-openai` **n'a pas de serveur SSH** : l'installer après chaque (re)démarrage ;
+>    le **port SSH externe change à chaque restart** ; **ne jamais faire `pkill -f vllm`** (tue le
+>    PID 1 → redémarre le conteneur). Détails dans le compte-rendu §3–4.
+
 ## Vue d'ensemble de l'architecture du test
 
 ```
@@ -40,7 +53,9 @@ updated: 2026-06-28
 
 **Fournisseurs « à l'heure », facturés à la seconde/minute, sans engagement** :
 - **RunPod** — le plus simple (images prêtes, accès SSH, volumes persistants). Recommandé pour un
-  premier test.
+  premier test. **Choisir « Pods → Deploy a Pod », PAS « Serverless »** (le Serverless n'offre pas
+  l'accès SSH/tunnel ; vérifié 2026-06-29). Setup validé : 1× RTX A6000 48 Go, image
+  `vllm/vllm-openai:latest`, volume 50 Go sur `/workspace`, ≈ 0,50 $/h.
 - **Vast.ai** — souvent le moins cher (marché d'instances), un peu plus brut.
 - **Lambda Cloud** — propre, parfois en rupture de stock.
 
@@ -101,7 +116,7 @@ Commande de service **recommandée par l'auteur du modèle** (adaptée pour le t
 vllm serve deepreinforce-ai/Ornith-1.0-9B \
   --served-model-name Ornith-1.0-9B \
   --host 127.0.0.1 --port 8000 \
-  --max-model-len 32768 \
+  --max-model-len 131072 \
   --gpu-memory-utilization 0.90 \
   --enable-prefix-caching \
   --enable-auto-tool-choice \
@@ -114,8 +129,10 @@ Explication des options clés :
 - `--served-model-name Ornith-1.0-9B` : le nom que Claude Code devra utiliser (`ANTHROPIC_MODEL`).
 - `--host 127.0.0.1` : **n'écoute qu'en local** sur le GPU → on y accède **uniquement** par le
   tunnel SSH (sécurité). (L'auteur met `0.0.0.0` ; on reste plus prudent.)
-- `--max-model-len 32768` : on **réduit** le contexte (le modèle peut 262 144) pour économiser la
-  VRAM du cache KV ; 32K suffit largement à l'intégration `_inbox/`.
+- `--max-model-len 131072` : **corrigé après le test du 2026-06-29.** 32K et 64K sont
+  **insuffisants** — le seul prompt système de Claude Code pèse ≈ 27K tokens, et des tours réels ont
+  atteint ~143K tokens en entrée (→ erreur 500). **128K est le plancher réaliste** ; à 0.90 de
+  `gpu-memory-utilization`, ça tient sur un GPU 48 Go avec le 9B. (Le modèle accepte jusqu'à 262 144.)
 - `--enable-auto-tool-choice --tool-call-parser qwen3_xml` : **le point critique** — active et
   parse correctement les appels d'outils d'Ornith (sans ça, la boucle agentique de Claude Code casse).
 - `--reasoning-parser qwen3` : gère le bloc de raisonnement `<think>` du modèle.
@@ -148,12 +165,18 @@ GPU. Laisser ce terminal ouvert pendant le test (ou ajouter `-f` pour le passer 
 Dans le shell où tu lanceras `claude` :
 ```bash
 export ANTHROPIC_BASE_URL=http://localhost:8000
-export ANTHROPIC_AUTH_TOKEN=dummy          # vLLM ne vérifie pas le jeton, mais Claude Code en exige un
-export ANTHROPIC_API_KEY=dummy
 export ANTHROPIC_MODEL=Ornith-1.0-9B
-export ANTHROPIC_SMALL_FAST_MODEL=Ornith-1.0-9B   # IMPORTANT : sinon les tâches de fond appellent un modèle Haiku inexistant
+export ANTHROPIC_SMALL_FAST_MODEL=Ornith-1.0-9B    # sinon les tâches de fond appellent un Haiku inexistant
 export ANTHROPIC_DEFAULT_HAIKU_MODEL=Ornith-1.0-9B
-export DISABLE_PROMPT_CACHING=1            # le cache de prompt est imprévisible hors Anthropic
+export DISABLE_PROMPT_CACHING=1                     # le cache de prompt est imprévisible hors Anthropic
+# --- Authentification (CORRIGÉ après le test du 2026-06-29) ---
+# vLLM n'authentifie QUE via le header "Authorization: Bearer <clé>".
+# Or Claude Code envoie nativement "x-api-key" → 401 systématique.
+# Correctif : injecter le bon header via ANTHROPIC_CUSTOM_HEADERS.
+export VLLM_API_KEY="sk-..."                        # clé fournie par le serveur (auto-générée par RunPod)
+export ANTHROPIC_API_KEY="$VLLM_API_KEY"
+export ANTHROPIC_AUTH_TOKEN="$VLLM_API_KEY"
+export ANTHROPIC_CUSTOM_HEADERS="Authorization: Bearer ${VLLM_API_KEY}"   # ← LE point qui débloque le 401
 # NE PAS activer ENABLE_TOOL_SEARCH (recherche d'outils MCP) pour ce test
 ```
 Puis :
@@ -208,14 +231,25 @@ format `qwen3_xml`). À réserver si le coût prime ; sinon, la voie vLLM ci-des
 
 ## Récapitulatif des pièges (déjà rencontrés / vérifiés)
 
-- **Sécurité** : `--host 127.0.0.1` + tunnel SSH ; ne jamais exposer le port 8000 (vLLM = sans auth).
+- **RunPod** : **Pods**, pas Serverless (sinon pas de SSH/tunnel). *(test 2026-06-29)*
+- **Authentification** : Claude Code envoie `x-api-key`, vLLM exige `Authorization: Bearer` →
+  injecter `ANTHROPIC_CUSTOM_HEADERS="Authorization: Bearer <clé>"`. *(test 2026-06-29)*
+- **Contexte** : `--max-model-len 131072` (128K) est le plancher réaliste pour Claude Code ; 32K/64K
+  échouent (erreur 500). *(test 2026-06-29)*
+- **SSH sur l'image vLLM** : pas de `sshd` par défaut → l'installer après chaque (re)démarrage ; le
+  port SSH externe **change à chaque restart** ; **ne jamais `pkill -f vllm`** (tue le PID 1 →
+  redémarre le conteneur). Clé SSH dans **Settings → SSH public keys** (compte, pas le Pod). *(test 2026-06-29)*
+- **Sécurité** : `--host 127.0.0.1` + tunnel SSH ; ne jamais exposer le port 8000 publiquement.
 - **Modèle de fond** : fixer `ANTHROPIC_SMALL_FAST_MODEL` (et `ANTHROPIC_DEFAULT_HAIKU_MODEL`) sur
   Ornith, sinon erreurs sur un modèle Haiku absent.
 - **Tool-use** : `--enable-auto-tool-choice --tool-call-parser qwen3_xml` obligatoires.
 - **Cache** : `DISABLE_PROMPT_CACHING=1`.
-- **Contexte** : réduire `--max-model-len` à la VRAM disponible.
 - **Secrets** : rien de sensible sur le GPU tiers.
 - **Coût** : éteindre l'instance ; volume persistant pour ne pas re-télécharger.
+- **Variables non persistantes** : réexporter les `ANTHROPIC_*` dans chaque nouveau shell.
+- **Anomalie à reproduire** (test 2026-06-29) : réponse incohérente d'Ornith en fin de session
+  longue (fragments russes, fuite `</think>`) → relancer `prepare → compare` en **session neuve**
+  pour isoler si c'est l'accumulation de contexte ou une limite du 9B.
 
 ## Sources (vérifiées le 2026-06-28)
 

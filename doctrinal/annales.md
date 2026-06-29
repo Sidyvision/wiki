@@ -1,7 +1,7 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-06-28
+updated: 2026-06-29
 ---
 
 # Annales du Secrétariat Doctrinal
@@ -9,6 +9,13 @@ updated: 2026-06-28
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 ---
+
+## [2026-06-29] infra | Premier test GPU cloud Ornith-1.0-9B (RunPod) — selftest PASS, prepare/compare à reproduire
+- **Opération** : INFRASTRUCTURE (session A6 — transition modèle open-source).
+- **Rangé** : [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29|compte-rendu du 1er test]] (via `_inbox/`, frontmatter meta conforme — aucune correction).
+- **Résultat** : architecture validée (RunPod Pod RTX A6000 48 Go, vLLM, Ornith-1.0-9B) ; tunnel SSH Hetzner↔GPU OK ; Claude Code branché sur Ornith ; boucle agentique fonctionnelle ; `ornith-test.sh selftest` **PASS (8/0)**. Cycle `prepare → compare` **interrompu** sur une anomalie de cohérence d'Ornith (fin de session longue) — non tranchée, à reproduire en session neuve.
+- **Correctifs intégrés** au runbook [[meta/projet-unifie/05-runbook-test-ornith-gpu-cloud|05]] et à [[meta/projet-unifie/03-transition-modele-open-source|03]]/[[meta/projet-unifie/04-sessions-par-fonction-et-backlogs|04]] : RunPod **Pod** (pas Serverless), authentification via `ANTHROPIC_CUSTOM_HEADERS` (vLLM exige `Authorization: Bearer`), `--max-model-len 131072` (plancher réaliste), pièges sshd/port/`pkill`.
+- **Note** : rien issu de la session de test elle-même n'a touché le vrai dépôt (tout sur le Pod distant + bac à sable isolé). Seul le compte-rendu est archivé ici. Lot *archéomètre* du sas non traité (intégration séparée).
 
 ## [2026-06-28] regularisation | Lectures suggérées rétroactives (14 fiches discernement)
 - **Opération** : RESTAURATION (normalisation rétroactive du protocole) — ajout du champ **Lectures suggérées** sous la « Conclusion » du bloc 🔍 normalisé, sans autre modification du corps des fiches.

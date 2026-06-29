@@ -169,6 +169,22 @@ GPU coûteux.
 - **Étanchéité du rôle** : le moteur local **applique, ne rédige pas** de doctrine (même règle
   économique qu'aujourd'hui).
 
+## 8bis. Résultats du 1er test GPU cloud (2026-06-29)
+
+> Compte-rendu complet : `06-compte-rendu-test-ornith-gpu-cloud-2026-06-29.md`.
+
+- ✅ **Architecture validée** : RunPod **Pod** RTX A6000 48 Go, image `vllm/vllm-openai`,
+  Ornith-1.0-9B chargé ; tunnel SSH Hetzner ↔ GPU fonctionnel ; Claude Code branché sur Ornith.
+- ✅ **Boucle agentique fonctionnelle** : lecture de fichiers, recherche, commandes shell,
+  compréhension de documents longs ; **`ornith-test.sh selftest` PASS (8/0)**.
+- ⚠️ **Cycle `prepare → compare` interrompu** : réponse incohérente d'Ornith en fin de session
+  longue (fragments russes, fuite de balise `</think>`) — **non tranché** (accumulation de contexte
+  vs limite du 9B). À reproduire en **session neuve**.
+- 🔧 **Correctifs intégrés au runbook (`05-…`)** : RunPod **Pod** (pas Serverless) ;
+  `ANTHROPIC_CUSTOM_HEADERS` pour l'authentification (vLLM exige `Authorization: Bearer`) ;
+  `--max-model-len 131072` (plancher réaliste, 32K/64K échouent) ; pièges sshd/port/`pkill`.
+- 💸 Coût observé ≈ 0,50 $/h — penser à éteindre le Pod entre les tests.
+
 ## 9. Sources (vérifiées le 2026-06-28)
 
 - Claude Code — Settings (`ANTHROPIC_BASE_URL`, `ANTHROPIC_AUTH_TOKEN`, `ANTHROPIC_MODEL`,
