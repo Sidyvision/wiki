@@ -40,6 +40,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/imams-noms-divins|Les Imams des Noms divins (hiérarchie opérative des Asmāʾ)]]
 - [[doctrinal/symboles/muqarnas|Muqarnas — géométrie sacrée de l'art islamique]]
 - [[doctrinal/symboles/jinns-classification-couleur|Classification populaire des jinns par couleur]] — ⚠️ statut contre-traditionnel (croyance populaire, conservée pour discernement)
+- [[doctrinal/symboles/archeometre|L'Archéomètre (Saint-Yves d'Alveydre) et sa réception guénonienne]] — ⚠️ statut contre-traditionnel, mise en garde non-syncrétisme
 
 ### Pratiques rituelles
 - [[doctrinal/symboles/wird-awrad|Wird et Awrād (litanies assignées)]]
@@ -180,6 +181,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/wazifa|Kitāb al-Awrād wa-l-Wazāʾif (manuel naqshbandi)]]
 - [[doctrinal/sources/mawlid-al-rasul|Mawlid al-Rasūl al-Aʿẓam (ʿAbd al-Qādir al-Jīlānī)]]
 - [[doctrinal/sources/conversation-llm-intellect-2026-06-11|Conversation LLM/Intellect (Sidy–Claude + Gem Guénon)]]
+- [[doctrinal/sources/figure-archeometre-islamise-mahdi-rouge|La figure de l'Archéomètre — version islamisée (Mahdi Rouge)]]
+- [[doctrinal/sources/archeometre-saint-yves-papus-1911|L'Archéomètre (Saint-Yves d'Alveydre, éd. Papus 1911)]]
 
 ---
 

@@ -10,6 +10,24 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-06-29] archivage | Archéomètre (Saint-Yves d'Alveydre / version islamisée) — source + symbole, mise en garde non-syncrétisme
+- **Opération** : ARCHIVAGE & MAILLAGE (circuit doctrinal).
+- **Créé** : [[doctrinal/symboles/archeometre|L'Archéomètre]] (`contre-traditionnel`, bloc ⚠️ non-syncrétisme Cmd 3), [[doctrinal/sources/figure-archeometre-islamise-mahdi-rouge|figure islamisée (Mahdi Rouge)]] (`academique`, `sources: ["to-source"]`), [[doctrinal/sources/archeometre-saint-yves-papus-1911|édition Papus 1911]] (`contre-traditionnel`).
+- **Source brute** : image du blog *La fin des temps modernes* (« Mahdi Rouge ») + édition physique Papus 1911 (recensée en bibliothèque physique).
+- **Point retenu** : commentaire favorable du jeune Guénon (pseudonyme Palingénius, *La Gnose*, documents transmis par Charles Barlet) puis « déception » à la relecture — précédent méthodologique cité dans la fiche symbole.
+- **VIGILANCE** :
+  1. **Étanchéité §VI corrigée (signalée, non silencieuse — Cmd 7)** : la fiche-source `archeometre-saint-yves-papus-1911` mentionnait « bibliothèque de Sidy » + un lien `[[meta/bibliotheque-physique]]` (fait personnel + lien neutre→sensible, interdit) → **neutralisé** ; l'appartenance/édition est enregistrée côté [[meta/bibliotheque-physique]] (sens autorisé meta→doctrinal).
+  2. URL exacte de l'article-blog non confirmée → `sources: ["to-source"]` sur la fiche-figure, signalé.
+  3. **Non-syncrétisme** ajouté au backlog `meta/projet-unifie/04-…` §C : Archéomètre vs ʿilm al-ḥurūf / zodiaque islamique — jamais d'équivalence akbarienne établie.
+- **Cibles `cross_links` vérifiées présentes** : rene-guenon, wahdat-al-wujud, ilm-al-huruf, ilm-al-nujum, talisman-sihr.
+- **Répercuté** : `index.md` §II (Sciences Traditionnelles) + §VI (Sources) ; bibliothèque physique enrichie (édition Papus 1911).
+
+## [2026-06-29] infra | Test Ornith cas DOCTRINAL — VERDICT 12 ✓ / 0 ✗ (consigne resserrée fiche par fiche)
+- **Opération** : INFRASTRUCTURE (session A6 — suite du test atelier `07-…`).
+- **Rangé** : [[meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29|résultats du test doctrinal]].
+- **Résultat** : cas doctrinal (Sceau Recteur + réparation du frontmatter corrompu) **12 ✓ / 0 ✗** au 2ᵉ run. **Échec total au 1er run** (consigne large « intègre _inbox/ ») : discours halluciné ET aucune action. **Succès** avec consigne **resserrée à une seule fiche**. Incident corrigé en cours : tentative de `Write` global sur `annales.md` (append-only) **refusée manuellement**.
+- **Leçon** : la **largeur de la consigne** est un facteur décisif (en plus de la durée de session) → découper les lots doctrinaux **fiche par fiche** pour Ornith. Backlog `04-…` [Infra] mis à jour (substitution validée par Sidy).
+
 ## [2026-06-29] infra | Cycle complet prepare/compare Ornith-1.0-9B (RunPod) — VERDICT 8 ✓ / 0 ✗, viable sous supervision humaine stricte
 - **Opération** : INFRASTRUCTURE (session A6 — suite directe du test précédent, en session Claude Code neuve).
 - **Rangé** : [[meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29|résultats finaux]] (via `_inbox/`, frontmatter meta conforme) ; lié à [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29|06]].
