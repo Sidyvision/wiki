@@ -42,6 +42,8 @@ updated: 2026-06-28
 - `05-runbook-test-ornith-gpu-cloud.md` — procédure pas à pas du test du modèle local.
 - `06-compte-rendu-test-ornith-gpu-cloud-2026-06-29.md` — compte-rendu du 1er test réel (résultats,
   correctifs, anomalie à reproduire).
+- `07-resultats-finaux-test-ornith-prepare-compare-2026-06-29.md` — résultat final du cycle complet
+  (VERDICT 8 ✓ / 0 ✗) et la nuance *fiabilité d'action ≠ fiabilité narrative*.
 - `ornith-test.sh` — harnais de **test de non-régression** (bac à sable isolé sous
   `/root/ornith-test`, jamais le vrai dépôt). Sous-commandes : `prepare` (avant le test) ·
   `compare` (après l'intégration par Ornith) · `selftest` (validation du harnais) · `clean`.

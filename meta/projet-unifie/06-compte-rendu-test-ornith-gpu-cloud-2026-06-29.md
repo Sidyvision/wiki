@@ -12,6 +12,9 @@ updated: 2026-06-29
 > **réussi** (mécanisme de comparaison validé, selftest PASS), mais s'est arrêté avant la
 > conclusion du cycle complet `prepare → compare` sur une anomalie de cohérence observée
 > chez Ornith, à reproduire et investiguer. Document à lire avant de reprendre le test.
+>
+> **Suite (résultat final)** : `07-resultats-finaux-test-ornith-prepare-compare-2026-06-29.md` —
+> cycle `prepare → compare` conclu (VERDICT 8 ✓ / 0 ✗).
 
 ## 1. Résumé exécutif
 

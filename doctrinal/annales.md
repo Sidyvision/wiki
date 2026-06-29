@@ -10,6 +10,14 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-06-29] infra | Cycle complet prepare/compare Ornith-1.0-9B (RunPod) — VERDICT 8 ✓ / 0 ✗, viable sous supervision humaine stricte
+- **Opération** : INFRASTRUCTURE (session A6 — suite directe du test précédent, en session Claude Code neuve).
+- **Rangé** : [[meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29|résultats finaux]] (via `_inbox/`, frontmatter meta conforme) ; lié à [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29|06]].
+- **Verdict** : cycle `prepare → compare` **8 ✓ / 0 ✗** — Ornith équivaut à Opus sur le lot témoin (contenu byte-identique, index/annales corrects, zéro effet de bord). Rôle d'intégration **viable sous supervision humaine stricte**.
+- **Enseignement central** : *fiabilité d'action ≠ fiabilité narrative* — en session longue (~30-40 min), le discours d'Ornith se dégrade (termes inventés, langues mêlées, fuite `</think>`, contradiction sur l'état du travail) **alors que ses écritures restent correctes**. Règles fermes adoptées : **jamais d'auto-accept**, **toujours clore par une vérification mécanique indépendante** (`ornith-test.sh compare`), **limiter la durée des sessions**.
+- **Reste à tester** : intégration **doctrinale** (Sceau Recteur, Discernement, étanchéité), plus risquée que le cas atelier/meta couvert ici.
+- **Mises à jour** : runbook [[meta/projet-unifie/05-runbook-test-ornith-gpu-cloud|05]], [[meta/projet-unifie/03-transition-modele-open-source|03]] et [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs|04]] complétés. Rien de la session de test n'a touché le vrai dépôt (bac à sable isolé). Lot *archéomètre* du sas toujours non traité.
+
 ## [2026-06-29] infra | Premier test GPU cloud Ornith-1.0-9B (RunPod) — selftest PASS, prepare/compare à reproduire
 - **Opération** : INFRASTRUCTURE (session A6 — transition modèle open-source).
 - **Rangé** : [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29|compte-rendu du 1er test]] (via `_inbox/`, frontmatter meta conforme — aucune correction).

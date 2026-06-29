@@ -247,9 +247,15 @@ format `qwen3_xml`). À réserver si le coût prime ; sinon, la voie vLLM ci-des
 - **Secrets** : rien de sensible sur le GPU tiers.
 - **Coût** : éteindre l'instance ; volume persistant pour ne pas re-télécharger.
 - **Variables non persistantes** : réexporter les `ANTHROPIC_*` dans chaque nouveau shell.
-- **Anomalie à reproduire** (test 2026-06-29) : réponse incohérente d'Ornith en fin de session
-  longue (fragments russes, fuite `</think>`) → relancer `prepare → compare` en **session neuve**
-  pour isoler si c'est l'accumulation de contexte ou une limite du 9B.
+- **Fiabilité narrative (test 2026-06-29, conclu : VERDICT 8 ✓ / 0 ✗)** : en session longue, le
+  *discours* d'Ornith se dégrade (langues mêlées, fuite `</think>`, contradictions) **mais ses
+  écritures restent correctes** — *fiabilité d'action ≠ fiabilité narrative*. Donc, règles fermes :
+  - **JAMAIS d'auto-accept** des modifications avec Ornith (relire chaque `Write`/`Update`/Bash).
+  - **Toujours clore par `ornith-test.sh compare`** (juge mécanique indépendant), **jamais** par
+    l'auto-évaluation du modèle (« as-tu bien intégré ? » n'est pas fiable).
+  - **Limiter la durée des sessions** (dégradation observée après ~30-40 min de raisonnement continu).
+  - Cas **doctrinal** (Sceau Recteur, Discernement, étanchéité) **pas encore testé** → enjeu plus
+    élevé, à valider spécifiquement avant d'y confier Ornith.
 
 ## Sources (vérifiées le 2026-06-28)
 

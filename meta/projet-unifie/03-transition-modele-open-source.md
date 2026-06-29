@@ -177,9 +177,15 @@ GPU coûteux.
   Ornith-1.0-9B chargé ; tunnel SSH Hetzner ↔ GPU fonctionnel ; Claude Code branché sur Ornith.
 - ✅ **Boucle agentique fonctionnelle** : lecture de fichiers, recherche, commandes shell,
   compréhension de documents longs ; **`ornith-test.sh selftest` PASS (8/0)**.
-- ⚠️ **Cycle `prepare → compare` interrompu** : réponse incohérente d'Ornith en fin de session
-  longue (fragments russes, fuite de balise `</think>`) — **non tranché** (accumulation de contexte
-  vs limite du 9B). À reproduire en **session neuve**.
+- ✅ **Cycle `prepare → compare` conclu (session neuve, 2026-06-29) : VERDICT 8 ✓ / 0 ✗** — Ornith
+  équivaut à Opus sur ce lot (contenu byte-identique, index/annales corrects, zéro effet de bord).
+  Rôle d'intégration **viable sous supervision humaine stricte**.
+- ⚠️ **Nuance centrale : fiabilité d'action ≠ fiabilité narrative.** En session longue (~30-40 min),
+  le *discours* d'Ornith se dégrade (termes inventés, langues mêlées, fuite `</think>`, contradiction
+  sur l'état du travail) **alors que ses écritures restent correctes**. Conséquences fermes :
+  **ne jamais activer l'auto-accept** des modifications avec Ornith ; **ne jamais se fier à son
+  auto-rapport** — le seul juge est une **vérification mécanique indépendante** (script `compare`).
+  Voir `07-resultats-finaux-test-ornith-prepare-compare-2026-06-29.md`.
 - 🔧 **Correctifs intégrés au runbook (`05-…`)** : RunPod **Pod** (pas Serverless) ;
   `ANTHROPIC_CUSTOM_HEADERS` pour l'authentification (vLLM exige `Authorization: Bearer`) ;
   `--max-model-len 131072` (plancher réaliste, 32K/64K échouent) ; pièges sshd/port/`pkill`.

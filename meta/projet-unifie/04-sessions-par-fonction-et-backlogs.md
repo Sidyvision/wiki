@@ -83,11 +83,14 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
   bf16 (GPU 24 Go) / ~6 Go GGUF Q4 ; 31B/35B MoE → GPU plus gros. Comparer honnêtement au coût API.
 - **[Infra]** Stratégie **hybride** retenue : local pour la mécanique régulière, Opus/API pour les cas
   difficiles (jugement doctrinal, Discernement, rédaction sensible) ; scripter le déterministe au max.
-- **[Infra] État 2026-06-29** : **1er test RunPod partiellement concluant** — branchement validé,
-  boucle agentique OK, `selftest` PASS (8/0) ; **`prepare → compare` à reproduire en session neuve**
-  (anomalie de cohérence d'Ornith non tranchée : contexte accumulé vs limite du 9B). Correctifs
-  intégrés au runbook (auth `ANTHROPIC_CUSTOM_HEADERS`, contexte 131072, Pod≠Serverless). →
-  `06-compte-rendu-test-ornith-gpu-cloud-2026-06-29.md`.
+- **[Infra] État 2026-06-29 — CLÔTURÉ (test concluant)** : cycle `prepare → compare` **8 ✓ / 0 ✗** ;
+  Ornith **viable pour l'intégration sous supervision humaine stricte**. Règles fermes : **jamais
+  d'auto-accept** des modifications ; **toujours clore par une vérification mécanique indépendante**
+  (`ornith-test.sh compare`), l'auto-rapport du modèle étant non fiable en session longue
+  (*fiabilité d'action ≠ fiabilité narrative*) ; **limiter la durée des sessions**. Correctifs runbook
+  intégrés (auth `ANTHROPIC_CUSTOM_HEADERS`, contexte 131072, Pod≠Serverless). **Reste à tester** :
+  intégration **doctrinale** (Sceau Recteur, Discernement, étanchéité), plus risquée. → `06-…` et
+  `07-resultats-finaux-…`.
 - **[App]** Moteur de rendu : Three.js/WebGL (recommandé pour iPad) confirmé ?
 - **[App]** Spécifier le format `wiki-manifest` (schéma des nœuds, versionnage, granularité) — **prérequis** au reste.
 - **[App]** Cible : web mobile d'abord ou natif ?
