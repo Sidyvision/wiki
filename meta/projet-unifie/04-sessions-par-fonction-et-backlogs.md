@@ -83,14 +83,7 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
   bf16 (GPU 24 Go) / ~6 Go GGUF Q4 ; 31B/35B MoE → GPU plus gros. Comparer honnêtement au coût API.
 - **[Infra]** Stratégie **hybride** retenue : local pour la mécanique régulière, Opus/API pour les cas
   difficiles (jugement doctrinal, Discernement, rédaction sensible) ; scripter le déterministe au max.
-- **[Infra] État 2026-06-29 — CLÔTURÉ (test concluant)** : cycle `prepare → compare` **8 ✓ / 0 ✗** ;
-  Ornith **viable pour l'intégration sous supervision humaine stricte**. Règles fermes : **jamais
-  d'auto-accept** des modifications ; **toujours clore par une vérification mécanique indépendante**
-  (`ornith-test.sh compare`), l'auto-rapport du modèle étant non fiable en session longue
-  (*fiabilité d'action ≠ fiabilité narrative*) ; **limiter la durée des sessions**. Correctifs runbook
-  intégrés (auth `ANTHROPIC_CUSTOM_HEADERS`, contexte 131072, Pod≠Serverless). **Reste à tester** :
-  intégration **doctrinale** (Sceau Recteur, Discernement, étanchéité), plus risquée. → `06-…` et
-  `07-resultats-finaux-…`.
+- **[Infra] État 2026-06-29 — CLÔTURÉ (atelier + doctrinal testés)** : cycle `prepare → compare` cas atelier **8 ✓ / 0 ✗** ; cas doctrinal **12 ✓ / 0 ✗** (après un premier run en échec total avec la consigne large, résolu par une consigne resserrée à une seule fiche). Ornith **viable pour l'intégration sous supervision humaine stricte**, à condition de **découper les lots doctrinaux fiche par fiche** plutôt qu'en consigne large. Règles fermes : **jamais d'auto-accept** des modifications (incident observé : tentative de `Write` global sur `annales.md`, append-only — refusé manuellement) ; **toujours clore par une vérification mécanique indépendante** (`ornith-test.sh compare` / `ornith-test-doctrinal.sh compare`), l'auto-rapport du modèle étant non fiable en session longue ou sur consigne large (*fiabilité d'action ≠ fiabilité narrative*) ; **limiter la durée des sessions**. Correctifs runbook intégrés (auth `ANTHROPIC_CUSTOM_HEADERS`, contexte 131072, Pod≠Serverless). **Reste à tester** : lot doctrinal multi-fiches (2-3 fiches), pour valider si le découpage fin tient à plus grande échelle. → `06-…`, `07-resultats-finaux-…` et `08-resultats-test-ornith-cas-doctrinal-…`.
 - **[App]** Moteur de rendu : Three.js/WebGL (recommandé pour iPad) confirmé ?
 - **[App]** Spécifier le format `wiki-manifest` (schéma des nœuds, versionnage, granularité) — **prérequis** au reste.
 - **[App]** Cible : web mobile d'abord ou natif ?
@@ -110,6 +103,9 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
   signalé avec la même fermeté, jamais reproduit.
 - **Non-syncrétismes signalés** : ex. istiʿdād akbarien vs tülku vajrayāna, Qliphoth vs Asuras/djinns
   — ne jamais forcer d'équivalence ; garder chaque concept dans son cadre propre.
+  **Archéomètre** (instrument occidental rosicrucien, Saint-Yves d'Alveydre) vs ʿilm al-ḥurūf /
+  zodiaque islamique — ne jamais présenter les correspondances de l'Archéomètre comme des
+  équivalences akbariennes établies (cf. `doctrinal/symboles/archeometre`).
 - **Clôture narrative** : motif récurrent (jeu de piste, mythe personnel unifié) où chaque événement
   est absorbé pour confirmer un récit déjà écrit — vigilance épistémique maintenue, sans psychologisme.
 - **Étanchéité inversée** : une page `symbole/`/`autorite/` orthodoxe ne pointe pas vers un

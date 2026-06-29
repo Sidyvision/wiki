@@ -126,7 +126,7 @@ déviations modernes.*
 
 - **Oliver Byrne** — *The Elements of Euclid* (Taschen) — inspiration plastique pour la géométrie sacrée en 3D.
 - **Louis Charbonneau-Lassay** — *Le Bestiaire du Christ* (Albin Michel) — symbolisme animal chrétien, hermétisme occidental.
-- **Alexandre Saint-Yves d'Alveydre** — *L'Archéomètre* — ⚠️ **note de vigilance** : synthèse visuelle brillante (correspondances couleurs/lettres/notes) mais entachée par l'occultisme du XIXe siècle ; candidat naturel pour un rapport VIGILANCE, pas une source à citer sans réserve.
+- **Alexandre Saint-Yves d'Alveydre** — *L'Archéomètre, Clef de toutes les religions et de toutes les sciences de l'Antiquité* (éd. posthume Papus, 1911) — ⚠️ **note de vigilance** : synthèse visuelle brillante (correspondances couleurs/lettres/notes) mais entachée par l'occultisme du XIXe siècle ; candidat naturel pour un rapport VIGILANCE, pas une source à citer sans réserve. Fiché côté doctrinal : [[doctrinal/sources/archeometre-saint-yves-papus-1911]], [[doctrinal/symboles/archeometre]].
 - **Ibn Khaldûn** — *Discours sur l'Histoire Universelle (Al-Muqaddima)* (trad. Vincent Monteil, 3 vol., Sindbad) — cosmologie des cycles de civilisation.
 - **Fabre d'Olivet** — *La Langue hébraïque restituée* / *Les Vers dorés de Pythagore* (L'Âge d'Homme) — ⚠️ **même réserve** que Saint-Yves : intuitions linguistiques à redresser à la lumière de la métaphysique pure.
 - **Guillaume Denis** — *Origami*
