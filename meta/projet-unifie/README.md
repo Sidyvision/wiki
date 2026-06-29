@@ -47,6 +47,9 @@ updated: 2026-06-28
 - `ornith-test.sh` — harnais de **test de non-régression** (bac à sable isolé sous
   `/root/ornith-test`, jamais le vrai dépôt). Sous-commandes : `prepare` (avant le test) ·
   `compare` (après l'intégration par Ornith) · `selftest` (validation du harnais) · `clean`.
+- `ornith-test-doctrinal.sh` — harnais jumeau pour le **cas doctrinal** (Sceau Recteur +
+  **réparation du frontmatter corrompu** `-----`/`## title:`/guillemets courbes + étanchéité +
+  index §II + annales). Mêmes sous-commandes. Bac à sable : `/root/ornith-test-doctrinal`.
   Ces fichiers servent côté serveur (Claude Code), pas dans le projet Claude.ai.
 
 ## Hiérarchie d'autorité des documents
