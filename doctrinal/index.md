@@ -33,6 +33,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/manvantara|Manvantara — les cycles cosmiques (Yuga) selon René Guénon]]
 - [[doctrinal/symboles/atlantide|Atlantide — l'île-continent et le cycle atlantéen]]
 - [[doctrinal/symboles/table-28-degres-nafas-rahman|La table des 28/38 degrés du Nafas al-Raḥmān]]
+- [[doctrinal/symboles/nafas-rahmani|Nafas al-Raḥmān (le Souffle du Miséricordieux)]] — stub
+- [[doctrinal/symboles/eschatologie|Eschatologie (la doctrine des fins dernières)]] — stub
 
 ### Sciences Traditionnelles
 - [[doctrinal/symboles/ilm-al-huruf|ʿIlm al-Ḥurūf (la science des lettres)]]
@@ -153,6 +155,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/autorites/ali-hussain|Ali Hussain (chercheur, traducteur)]]
 - [[doctrinal/autorites/yaqub-chaudhary|Yaqub Chaudhary (philosophie islamique, IA)]]
 - [[doctrinal/autorites/aiman-attar|Aiman Attar (auteure, herbaliste — médecine prophétique)]]
+- [[doctrinal/autorites/titus-burckhardt|Titus Burckhardt (pérennialiste, commentateur d'Ibn ʿArabī)]] — stub
 - [[doctrinal/autorites/faraz-rabbani|Faraz Rabbani (SeekersGuidance, fiqh hanafite)]]
 - [[doctrinal/autorites/hamza-yusuf|Hamza Yusuf (Zaytuna College)]] — stub
 

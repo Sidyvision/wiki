@@ -19,6 +19,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Autorité** : [[doctrinal/autorites/aiman-attar]] normalisée au Sceau Recteur (ancien export `type: entity` jamais migré à la Restauration).
 - **Atelier** (`projets/`) : architecture Instrument v0.2, feuille-de-route v2, [[atelier/projets/spec-technique-axe-38-degres|spec technique axe 38°]] et 4 échanges `soumission-gem-*`.
 - **meta/** : [[meta/bibliotheque-physique]] enrichie (Gaston Georgel, Platon *Œuvres complètes* Flammarion/Brisson, Burckhardt *Clés spirituelles de l'astrologie musulmane*, Meftah Albouraq, Ibn ʿArabī *De la mort à la résurrection*).
+- **Amorces créées** (feu vert Sidy, résolution des liens morts) : [[doctrinal/symboles/nafas-rahmani]], [[doctrinal/autorites/titus-burckhardt]], [[doctrinal/symboles/eschatologie]] (`#stub` ; `eschatologie` en `to-source` jusqu'au dépôt d'Ibn ʿArabī *De la mort à la résurrection*).
 - **VIGILANCE / signalements** (voir §fin de session) : (1) source primaire `ibn-arabi-de-la-mort-a-la-resurrection-gloton.md` référencée mais **non déposée** → liens `to-source` ; (2) [[doctrinal/symboles/hadarat-khams]] pointe vers la fiche discernement `tension-hadarat` non tranchée (étanchéité inversée §Discernement) — **signalé, non corrigé** ; (3) tensions doctrinales walāya (*quṭbiyya*/*khatm*) et recoupement wahdat/hadarat laissées à l'arbitrage de Sidy.
 
 ## [2026-06-29] archivage | Archéomètre (Saint-Yves d'Alveydre / version islamisée) — source + symbole, mise en garde non-syncrétisme
