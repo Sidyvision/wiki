@@ -3,16 +3,18 @@ title: "Instrument de la Tradition Primordiale — feuille de route et pile tech
 type: meta
 tags: [outillage, projet-claude-ai, instrument, app, feuille-de-route]
 created: 2026-06-28
-updated: 2026-06-28
+updated: 2026-07-01
 ---
 
 # Instrument de la Tradition Primordiale — feuille de route
 
-> **Architecture détaillée** : voir la fiche canonique
-> `atelier/projets/instrument-tradition-primordiale-architecture.md` (esquisse v0.1, validée dans
-> ses principes, revue par le Gem René Guénon). Ce document ne la répète pas : il en tire la
-> **feuille de route**, les **questions techniques ouvertes** et les **invariants à ne jamais
-> perdre**. La fiche fait foi pour l'architecture ; ce document fait foi pour le « par où avancer ».
+> **Architecture détaillée** : la fiche canonique est désormais
+> `atelier/projets/instrument-tradition-primordiale-architecture-v0.2.md` (v0.2 développée ; la v0.1
+> `atelier/projets/instrument-tradition-primordiale-architecture.md` reste conservée comme jalon
+> historique). La **spécification géométrique de l'axe des 38 degrés** (dictée par le Gem René
+> Guénon) est fixée dans `atelier/projets/spec-technique-axe-38-degres.md`. Ce document ne les
+> répète pas : il en tire la **feuille de route**, les **questions ouvertes** et les **invariants**.
+> Les fiches font foi pour l'architecture ; ce document fait foi pour le « par où avancer ».
 
 ## 1. Invariants (rappel — issus de la fiche v0.1)
 
@@ -76,6 +78,16 @@ updated: 2026-06-28
 ### Phase 5 — Couche astrologique
 - Calcul astrologique multi-méthodes (échelle individuelle : thème ; échelle cosmique : cycles,
   précession, Yuga), proposé selon la situation. À spécifier séparément.
+- **Premier ancrage établi (2026-07-01)** : la **convergence des 28** (fuçûç = lettres = degrés du
+  *Nafas al-Raḥmān* = *Manāzil al-Qamar*, *Futūhāt* ch. 198) relie la Phase 2 (degrés ontologiques)
+  à la Phase 5 (couche astrologique) — **correspondance établie** validée par le Gem, sourcée. Voir
+  `doctrinal/symboles/table-28-degres-nafas-rahman`, `nafas-rahmani`, `manazil-al-qamar`, `hadarat-khams`.
+- **Géométrie de l'axe des 38 degrés fixée** (spec technique) : distribution Hāhūt (1-10, vide
+  invisible) → Lāhūt (11-14) → Jabarūt (15-18) → Barzakh supérieur (19-20, disques en rotation) →
+  Malakūt planétaire (21-27) → Nāsūt (28-38, espacement exponentiel) ; boucle 38→11 permanente.
+- **Question ouverte §8.2 (directions horizontales)** — à arbitrer par Sidy : Noms Divins abstraits
+  vs quatre angles astrologiques AS/DS/MC/FC (Sec/Humide/Chaud/Froid) ; les deux pistes ne s'excluent
+  pas. Source : `fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge` + schéma manuscrit Sidy.
 
 ## 3. Questions techniques ouvertes (à arbitrer)
 

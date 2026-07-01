@@ -3,7 +3,7 @@ title: "Dossier d'amorçage — Projet unifié « LLM-Wiki & Instrument de la Tr
 type: meta
 tags: [outillage, projet-claude-ai, amorcage, onboarding]
 created: 2026-06-28
-updated: 2026-06-28
+updated: 2026-07-01
 ---
 
 # Dossier d'amorçage du projet unifié
@@ -31,7 +31,8 @@ updated: 2026-06-28
    - `03-transition-modele-open-source.md` (la bascule hors-token) ;
    - `04-sessions-par-fonction-et-backlogs.md` (le mode de travail + les listes à traiter) ;
    - `05-runbook-test-ornith-gpu-cloud.md` (procédure de test du modèle local Ornith) ;
-   - la fiche `atelier/projets/instrument-tradition-primordiale-architecture.md` (architecture détaillée) ;
+   - la fiche `atelier/projets/instrument-tradition-primordiale-architecture-v0.2.md` (architecture
+     détaillée courante ; la v0.1 reste au dépôt comme jalon) + `spec-technique-axe-38-degres.md` (géométrie de l'axe) ;
    - `doctrinal/index.md` (le Catalogue Universel — inventaire vivant) ;
    - quelques fiches exemplaires pour le style (1 symbole, 1 discernement avec bloc 🔍, 1 fiche atelier).
 4. **Ouvrir une session par fonction** (voir `04-…`) plutôt qu'une grande session fourre-tout :

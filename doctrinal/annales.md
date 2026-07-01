@@ -10,6 +10,14 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-01] maintenance | Mise à jour des fiches de contexte pour Claude.ai
+- **Opération** : RESTAURATION/MAINTENANCE (fiches meta d'outillage — pas de contenu doctrinal).
+- **Actualisé au 2026-07-01** l'ensemble du contexte lu par la session Claude.ai (iPad) après le grand ingest :
+  [[meta/briefing-claude-ai]] (§11 état + §12 inventaire), [[meta/projet-unifie/01-contexte-demarche-etat]] (snapshot),
+  [[meta/projet-unifie/02-instrument-feuille-de-route]] (v0.2, convergence des 28 établie, spec axe 38°, question §8.2),
+  [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]] (backlogs questions/vigilance/discernement + nouveau §E ingests à venir ; 14→15 discernements), [[meta/projet-unifie/README]].
+- **Instrument** : fiche architecture v0.1 marquée « jalon historique » avec renvoi vers v0.2 (Cmd 10, pas de suppression).
+
 ## [2026-07-01] archivage | Ménage & intégration du sas `_inbox/` — lots al-Jurjānī, Manvantara/Mahdi-Rouge/28-degrés, enrichissements akbariens
 - **Opération** : ARCHIVAGE & MAILLAGE + apurement du sas `_inbox/` (144 fichiers déposés ; doublons Obsidian « Copy of » et exports pré-Restauration écartés, contenu déjà au dépôt).
 - **Lot al-Jurjānī** (UPDATES 2026-06-30) : créé [[doctrinal/autorites/al-jurjani|Sayyid al-Sharīf al-Jurjānī]] (`traditionnel`), [[doctrinal/sources/kitab-al-tarifat-jurjani|Kitāb al-Taʿrīfāt]] et sa transcription intégrale d'annexes/index [[doctrinal/sources/kitab-tarifat-index-transcription]] (88 pages : translittération, prosodie, index coranique/noms/termes arabes, lexique français, table des matières). Corps des ~1862 définitions non ingéré (session ultérieure).

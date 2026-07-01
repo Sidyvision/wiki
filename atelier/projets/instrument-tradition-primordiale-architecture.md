@@ -10,6 +10,11 @@ links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/alam-al-mitha
 
 # Instrument de la Tradition Primordiale — Architecture Fondamentale
 
+> ⤴️ **Version courante : v0.2** — cette esquisse v0.1 est **conservée comme jalon historique**.
+> L'architecture développée fait désormais foi dans
+> `atelier/projets/instrument-tradition-primordiale-architecture-v0.2.md`, complétée par la
+> spécification géométrique `atelier/projets/spec-technique-axe-38-degres.md`.
+
 > *Document conceptuel issu d'une session de spécification (2026-06-28), à destination de
 > Claude Code (implémentation future) et du Gem René Guénon (revue doctrinale). Statut :
 > esquisse fondamentale validée dans ses principes, non encore implémentée. Révisée le

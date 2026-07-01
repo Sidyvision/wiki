@@ -2,7 +2,7 @@
 title: "Briefing Claude.ai — Projet Wiki (handoff serveur → iPad)"
 type: meta
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-01
 ---
 
 # Briefing Claude.ai — Projet Wiki
@@ -10,7 +10,7 @@ updated: 2026-06-20
 > **À déposer dans le projet Claude.ai (app iPad).** Ce document consolide, en une
 > seule pièce, ce que la session **Claude Code** (serveur Hetzner) sait et applique :
 > protocole `CLAUDE.md`, mémoire de travail, stratégie d'ingest, état des travaux au
-> **2026-06-20**. Objectif : que tu (Claude.ai) produises du contenu déjà conforme,
+> **2026-07-01**. Objectif : que tu (Claude.ai) produises du contenu déjà conforme,
 > intégrable sans friction. En cas de conflit, le `CLAUDE.md` du dépôt fait foi.
 
 ---
@@ -219,19 +219,31 @@ Le **format idéal** (rodé le 2026-06-20, intégration parfaite) :
 
 ---
 
-## 11. État des travaux (au 2026-06-20)
+## 11. État des travaux (au 2026-07-01)
 
-**Acquis** : protocole restauré « Guénon V1 » (2026-06-11/12) ; circuit Discernement + Commandement 12
-intégrés ; sas `_inbox/` opérationnel. Lots intégrés : cluster soufisme/Ibn ʿArabī, astrologie, Islam &
-IA, Wazifa, al-Jīlī, Hasbiyallah, étude upakarana, dossier discernement LLM, **session ChatGPT-export
-(50 fichiers, 37 conversations, catégorie A+C)**.
+**Acquis** : protocole restauré « Guénon V1 » (2026-06-11/12) ; circuit Discernement + Commandement 12 ;
+sas `_inbox/` opérationnel ; **triage de l'export ChatGPT (140 conversations) intégralement clos**
+(2026-06-28) ; Atelier ouvert (matériel audio + projet Instrument + album). Corps doctrinal : ≈ 5
+traditions, ≈ 78 symboles, ≈ 25 autorités, déviations/études/sources, **15 fiches de discernement**.
 
-**Reste à traiter de l'export ChatGPT** (triage des 140 conversations) : **catégorie A ≈ 39 · B ≈ 13 ·
-C ≈ 25 · B+C ≈ 4**. Continuer par lots, format ZIP + `MASTER-UPDATES.md`.
+**Grand ingest 2026-06-29 → 07-01 intégré** (sas apuré de 144 fichiers, ~112 doublons/exports
+pré-Restauration écartés) : **lot al-Jurjānī** (`al-jurjani` + `kitab-al-tarifat-jurjani` +
+`kitab-tarifat-index-transcription`) ; **cluster Manvantara / Mahdi-Rouge / 28-degrés** (`manvantara`,
+`atlantide`, `manazil-al-qamar`, `table-28-degres-nafas-rahman`, `hadarat-khams` ; sources
+`platon…brisson`, `meftah…albouraq`, `transcription-anneau-28-lettres`, `fin-des-temps…` ×3,
+`barzakh-nur-lh`, `introduction…burckhardt`) ; **enrichissement Jurjānī** des 4 symboles akbariens
+(`al-insan-al-kamil`, `wahdat-al-wujud`, `barzakh`, `walaya`). ⭐ **Convergence des 28 ÉTABLIE** (Gem
+René Guénon, *Futūhāt* ch. 198) : premier pont sourcé Phase 2 ↔ Phase 5 de l'Instrument.
 
-**PDF de `raw/` restants** (non lus) : matériel audio (Revox, Tascam, Neve, Distressor, Logic Pro →
-`atelier/`), logique (Isaghuji, Zaytuna → `symboles/`, Isaghuji-notes `#ne-pas-partager`), académique
-divers, prières/awrâd arabes, ijâza-94/95 (→ `meta/`).
+**Instrument** : architecture **v0.2** + **spec technique de l'axe des 38 degrés** fixées ; question
+§8.2 (directions horizontales) ouverte. **Infra** : Ornith-1.0 testé et viable (2026-06-29). Détails
+et backlogs vivants : dossier `meta/projet-unifie/` (`01-` état, `02-` Instrument, `04-` backlogs).
+
+**Backlog d'ingest** (voir `projet-unifie/04-` §E) : déposer Ibn ʿArabī *De la mort à la résurrection*
+(Gloton — lève des `to-source`) ; fiche `lune-noire` ; enrichir `ilm-al-nujum` ; sources primaires à
+localiser (*ʿUqlat al-mustawfiz*, *Inshāʾ al-Dawāʾir*, Meftah Arma Artis) ; images IMG modélisation 3D
+→ `atelier/projets/`. **PDF `raw/` restants** : matériel audio (Revox, Distressor, Logic Pro →
+`atelier/`), logique (Isaghuji `#ne-pas-partager`, Zaytuna → `symboles/`), prières/awrâd, ijâza-94/95 (→ `meta/`).
 
 ---
 
@@ -242,22 +254,31 @@ Instantané indicatif (l'index est la liste exacte) :
 - **autorites** : ibn-arabi, al-ghazali, rene-guenon, platon, ibn-sina, idris, ahmad-al-buni,
   al-jazari, al-khwarizmi, ouattara-brahima, ali-hussain, yaqub-chaudhary, abd-al-karim-al-jili,
   abd-al-qadir-al-jilani, ibn-qayyim, muhammad-nazim-al-haqqani, abdullah-daghestani, faraz-rabbani,
-  hamza-yusuf (stub), ibn-sirin, al-nabulusi
+  hamza-yusuf (stub), ibn-sirin, al-nabulusi, **al-jurjani**, **aiman-attar**, **titus-burckhardt** (stub)
 - **symboles** : wahdat-al-wujud, barzakh, walaya, al-insan-al-kamil, ilm-al-huruf, ilm-al-nujum,
   asma-al-husna, talisman-sihr, wird-awrad, salawat, khatm-al-khawajakan, tawakkul, futuwwa, shukr,
   ghafla, tibb-e-nabawi, tibb-yunani, alam-al-mithal, khalwa, waqia, istidad, tarbiyya-rabbaniyya,
   habl-allah, influx-spirituel-sommet-cranien, taabir-al-ruya, firasa, taawil-par-le-nom,
   fal-wa-tatayyur + motifs oniriques (vol/uriner/marcher-sur-eau/cheveux-blancs/elephant/chat/
-  homme-pieux/chaussure/axe-corde/animaux-en-reve-comparatisme), lieux-saints-france, maqamat-meknes
+  homme-pieux/chaussure/axe-corde/animaux-en-reve-comparatisme), lieux-saints-france, maqamat-meknes,
+  **hadarat-khams, manvantara, atlantide, manazil-al-qamar, table-28-degres-nafas-rahman,
+  nafas-rahmani (stub), eschatologie (stub)**
 - **deviations** : morphopsychologie, body-types, reincarnation-vies-anterieures, technologisation-pseudo-scientifique
 - **etudes** : 2026-06-04_islam-et-ia, 2026-06-20_etre-psyche-intellect-raison-upakarana
 - **sources** : awrad-ibn-arabi, jesus-and-enoch-in-ibn-arabi, shams-al-maarif,
   ilm-al-nujum-astrologie-traditionnelle, islam-and-artificial-intelligence, hasbiyallah-rabbani,
-  universal-man-jili, wazifa, mawlid-al-rasul, conversation-llm-intellect-2026-06-11
+  universal-man-jili, wazifa, mawlid-al-rasul, conversation-llm-intellect-2026-06-11,
+  archeometre-saint-yves-papus-1911, figure-archeometre-islamise-mahdi-rouge,
+  **kitab-al-tarifat-jurjani, kitab-tarifat-index-transcription, platon-oeuvres-completes-brisson-2011,
+  meftah-symbolisme-universel-chatons-albouraq, transcription-anneau-28-lettres-figure4, barzakh-nur-lh,
+  introduction-doctrines-esoteriques-islam-burckhardt, fin-des-temps-modernes-manvantara-mahdi-rouge,
+  fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge, fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge**
 - **discernement** : 2026-06-11_llm-wiki-modalite-intellect, 2026-06-11_llm-wiki-correction-doctrinale,
-  + 7 fiches du 2026-06-20 (visions-centre-nocturne, matrices-artificielles-barzakh,
+  9 fiches du 2026-06-20 (visions-centre-nocturne, matrices-artificielles-barzakh,
   triptyque-medine-jeu-de-piste, experience-lefke-materia-secunda, epreuve-tariqa-tarbiyya-rabbaniyya,
-  signaletique-spirituelle-kiswa, pierres-astres-barzakh)
+  signaletique-spirituelle-kiswa, pierres-astres-barzakh, fajr-vajra-indra-vritra, mythe-personnel-unifie,
+  astrologie-akbarienne-fard, origine-jumeau-spirituel, synthese-danger-dissolution-identitaire),
+  **tension-hadarat-burckhardt-jurjani** (2026-06-29, tension résolue par Sidy)
 
 ---
 

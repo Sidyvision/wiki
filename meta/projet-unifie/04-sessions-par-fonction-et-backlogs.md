@@ -3,7 +3,7 @@ title: "Sessions par fonction + backlogs (questions / vigilance / discernement)"
 type: meta
 tags: [outillage, projet-claude-ai, sessions, backlog, vigilance, discernement, questions]
 created: 2026-06-28
-updated: 2026-06-28
+updated: 2026-07-01
 ---
 
 # Sessions par fonction + backlogs
@@ -88,6 +88,13 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
 - **[App]** Spécifier le format `wiki-manifest` (schéma des nœuds, versionnage, granularité) — **prérequis** au reste.
 - **[App]** Cible : web mobile d'abord ou natif ?
 - **[App]** Génération du manifeste : pur script déterministe + LLM seulement pour les suggestions ?
+- **[App/Doctrine] Convergence des 28 — ÉTABLIE (2026-07-01)** : 28 fuçûç = lettres = degrés du
+  *Nafas al-Raḥmān* = *Manāzil* (Gem René Guénon, *Futūhāt* ch. 198). Premier pont sourcé Phase 2 ↔
+  Phase 5. Géométrie de l'axe des 38 degrés fixée (`spec-technique-axe-38-degres`). **Reste** :
+  inscrire la correspondance dans le futur `wiki-manifest` (v0.2.1) ; compléter les colonnes
+  Lettre/Nom Divin/Façç/Manzil (degrés 21-23, 25-27) de `table-28-degres-nafas-rahman`.
+- **[App] Question §8.2 (directions horizontales)** — à trancher : Noms Divins abstraits **vs** quatre
+  angles astrologiques AS/DS/MC/FC + qualités élémentaires. Les deux pistes ne s'excluent pas.
 - **[Process]** Faut-il faire évoluer `CLAUDE.md` vers une « V2 » actant la fusion wiki+instrument et
   le 4e poste (modèle local) ? (Recommandation : oui, à un jalon stable.)
 - **[Process]** Conserver une seule entrée d'annales par passe d'intégration groupée (préférence
@@ -115,10 +122,10 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
 - **Transition modèle local** : risque de dégradation du frontmatter/des liens → tests de
   non-régression + VIGILANCE après chaque lot.
 
-## D. Backlog — DISCERNEMENTS (14 fiches `en cours`)
+## D. Backlog — DISCERNEMENTS (15 fiches)
 
-> Toutes au statut `en cours` : le verdict appartient à Sidy ou à une autorité textuelle (Cmd 12).
-> Chacune porte désormais des **Lectures suggérées**. Source vivante : §VII de `doctrinal/index.md`.
+> Le verdict appartient à Sidy ou à une autorité textuelle (Cmd 12).
+> Chacune porte des **Lectures suggérées**. Source vivante : §VII de `doctrinal/index.md`.
 
 - `2026-06-11_llm-wiki-modalite-intellect` — triade Nous/Psyché/Corps ↔ architecture LLM (tension
   atemporalité/éternité, analogie/identité).
@@ -140,6 +147,24 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
   (voir Vigilance).
 - `2026-06-20_origine-jumeau-spirituel` — première mise en forme conceptuelle du « jumeau spirituel »
   (artefact-miroir, *marātib al-wujūd*) ; non l'origine du motif, antérieur et non documenté.
+- `tension-hadarat-burckhardt-jurjani` (2026-06-29) — tension terminologique sur les Cinq Présences
+  (nomenclature Burckhardt vs définition Jurjānī, déf. 0631). **Tension considérée résolue par Sidy**
+  (d'où le renvoi assumé depuis `symboles/hadarat-khams`) ; verdict formel à consigner dans la fiche.
+
+## E. Backlog — INGESTS À VENIR (documentés, non urgents)
+
+- **Déposer** dans `raw/` : Ibn ʿArabī *De la mort à la résurrection* (Gloton) — lève le `to-source`
+  de `table-28-degres-nafas-rahman` et de `symboles/eschatologie`, et permet de créer la fiche source
+  `ibn-arabi-de-la-mort-a-la-resurrection-gloton` (déjà référencée par des liens en attente).
+- **Fiche symbole `lune-noire`** : second foyer de l'ellipse lunaire, connexion au
+  *barzakh* — Guénon (*RQST* ch. XX) + Dom Neroman.
+- **Enrichir `ilm-al-nujum`** : tables complètes signes/planètes/dignités/maisons (matière dans les
+  sources Mahdi Rouge).
+- **Sources primaires à localiser** : *ʿUqlat al-mustawfiz*, *Kitāb al-Inshāʾ al-Dawāʾir* (Ibn
+  ʿArabī) ; Meftah *Arma Artis 2011* (pagination des citations p. 115-116, 144).
+- **Images de modélisation 3D** (IMG_0950/0951/0952) → `atelier/projets/` (frontmatter atelier, liens
+  vers la source), références pour la Phase 5.
+- **Amorces à développer** : `symboles/nafas-rahmani`, `symboles/eschatologie`, `autorites/titus-burckhardt` (`#stub`).
 
 ### Motif transversal à porter à la connaissance de Sidy
 Le statut **Fard/Afrad** (sainteté solitaire, hors modalité confrérique) apparaît de façon
