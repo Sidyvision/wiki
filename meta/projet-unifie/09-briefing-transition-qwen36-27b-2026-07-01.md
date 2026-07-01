@@ -264,8 +264,8 @@ Test trivial d'abord (valider la boucle d'outils avant l'intégration réelle) :
 - Demander à Claude Code de lire un fichier, faire une petite édition, `git status`.
 
 Test de non-régression ensuite :
-- Reprendre le protocole `prepare → compare` (script `ornith-test.sh`, ou son équivalent)
-  sur un lot témoin déjà intégré par Opus.
+- Reprendre le protocole `prepare → compare` (scripts `regression-test.sh` /
+  `regression-test-doctrinal.sh`, paramétrés par `MODEL_LABEL`) sur un lot témoin déjà intégré par Opus.
 - **Règles de supervision identiques à celles d'Ornith** : jamais d'auto-accept, relire chaque
   Write/Update/Bash avant validation, clore par le script `compare` (jamais par l'auto-rapport
   du modèle).

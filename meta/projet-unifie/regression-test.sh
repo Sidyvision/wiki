@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # =============================================================================
-# ornith-test.sh — Test de non-régression de l'intégration _inbox/
+# regression-test.sh — Test de non-régression de l'intégration _inbox/
 #   But : vérifier qu'un modèle local motorisant Claude Code intègre un
 #   lot témoin aussi proprement qu'Opus (la référence = l'état committé du dépôt).
 #
 #   Modèle sous test : neutre. Fixe l'étiquette d'affichage via MODEL_LABEL, p. ex.
-#     MODEL_LABEL="Qwen3.6-27B-FP8" bash ornith-test.sh prepare
+#     MODEL_LABEL="Qwen3.6-27B-FP8" bash regression-test.sh prepare
 #   (MODEL_LABEL ne change QUE l'affichage ; le modèle réel est celui pointé par les
 #    variables ANTHROPIC_* du shell qui lance `claude`.)
 #
@@ -26,7 +26,7 @@
 set -euo pipefail
 
 WIKI=/root/wiki
-ROOT=/root/ornith-test
+ROOT=/root/regression-test
 SANDBOX="$ROOT/sandbox"
 GOLDEN="$ROOT/golden"
 MODEL_LABEL="${MODEL_LABEL:-le modèle local}"   # étiquette d'affichage, surchargeable
@@ -120,7 +120,7 @@ PROCHAINE ÉTAPE (test réel avec $MODEL_LABEL) :
   2) Dans un shell, pose les variables ANTHROPIC_* pour $MODEL_LABEL (runbook §5).
   3) cd $SANDBOX && claude
      puis : « intègre _inbox/ selon UPDATES.md et CLAUDE.md » (NE PAS committer/pusher)
-  4) Reviens ici et lance :  bash $WIKI/meta/projet-unifie/ornith-test.sh compare
+  4) Reviens ici et lance :  bash $WIKI/meta/projet-unifie/regression-test.sh compare
 EOF
 }
 

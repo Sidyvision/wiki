@@ -251,7 +251,7 @@ format `qwen3_xml`). À réserver si le coût prime ; sinon, la voie vLLM ci-des
   *discours* d'Ornith se dégrade (langues mêlées, fuite `</think>`, contradictions) **mais ses
   écritures restent correctes** — *fiabilité d'action ≠ fiabilité narrative*. Donc, règles fermes :
   - **JAMAIS d'auto-accept** des modifications avec Ornith (relire chaque `Write`/`Update`/Bash).
-  - **Toujours clore par `ornith-test.sh compare`** (juge mécanique indépendant), **jamais** par
+  - **Toujours clore par `regression-test.sh compare`** (juge mécanique indépendant), **jamais** par
     l'auto-évaluation du modèle (« as-tu bien intégré ? » n'est pas fiable).
   - **Limiter la durée des sessions** (dégradation observée après ~30-40 min de raisonnement continu).
   - Cas **doctrinal** (Sceau Recteur, Discernement, étanchéité) **pas encore testé** → enjeu plus

@@ -10,6 +10,13 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-01] maintenance | Harnais de test renommés en neutre (`regression-test*.sh`)
+- **Opération** : outillage (`meta/projet-unifie/`) — suite du rendu agnostique au modèle.
+- `git mv` : `ornith-test.sh` → **`regression-test.sh`**, `ornith-test-doctrinal.sh` → **`regression-test-doctrinal.sh`** (sandbox internes `/root/regression-test*`). Historique git préservé.
+- **Références vivantes répercutées** : le README du dossier (inventaire + note de correspondance ancien→nouveau nom), `03` (état), `04` (règle « clore par … compare »), `05-runbook` (§clôture), `09-briefing` (§5-H).
+- **Non touché (historique, non-révisionnisme — Cmd 11 « restauration, jamais réforme »)** : comptes-rendus datés `06-`/`07-`/`08-` (exécutions réelles du 2026-06-29 sous l'ancien nom) et entrées d'annales passées. La note du README fait le pont.
+- **Validé** : `selftest` des deux harnais renommés → **8 ✓ / 0 ✗** (atelier) et **12 ✓ / 0 ✗** (doctrinal). Bacs à sable supprimés.
+
 ## [2026-07-01] maintenance | Harnais de test rendus agnostiques au modèle (`MODEL_LABEL`)
 - **Opération** : outillage (`meta/projet-unifie/`) — préparation de la transition vers Qwen3.6-27B-FP8.
 - Les deux harnais de non-régression `ornith-test.sh` (cas atelier) et `ornith-test-doctrinal.sh` (cas doctrinal, Sceau Recteur + réparation frontmatter) sont désormais **agnostiques au modèle** : variable d'affichage `MODEL_LABEL` (surchargeable, ex. `MODEL_LABEL="Qwen3.6-27B-FP8" bash …`), défaut « le modèle local ». Aucune logique de test modifiée — seuls les libellés « Ornith » deviennent dynamiques.

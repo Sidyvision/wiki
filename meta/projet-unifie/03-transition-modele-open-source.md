@@ -176,7 +176,7 @@ GPU coûteux.
 - ✅ **Architecture validée** : RunPod **Pod** RTX A6000 48 Go, image `vllm/vllm-openai`,
   Ornith-1.0-9B chargé ; tunnel SSH Hetzner ↔ GPU fonctionnel ; Claude Code branché sur Ornith.
 - ✅ **Boucle agentique fonctionnelle** : lecture de fichiers, recherche, commandes shell,
-  compréhension de documents longs ; **`ornith-test.sh selftest` PASS (8/0)**.
+  compréhension de documents longs ; **`regression-test.sh selftest` PASS (8/0)**.
 - ✅ **Cycle `prepare → compare` conclu (session neuve, 2026-06-29) : VERDICT 8 ✓ / 0 ✗** — Ornith
   équivaut à Opus sur ce lot (contenu byte-identique, index/annales corrects, zéro effet de bord).
   Rôle d'intégration **viable sous supervision humaine stricte**.

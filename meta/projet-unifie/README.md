@@ -47,17 +47,20 @@ updated: 2026-07-01
   (VERDICT 8 ✓ / 0 ✗) et la nuance *fiabilité d'action ≠ fiabilité narrative*.
 - `08-resultats-test-ornith-cas-doctrinal-2026-06-29.md` — test du **cas doctrinal** (Sceau Recteur) :
   VERDICT 12 ✓ / 0 ✗ au 2ᵉ run ; leçon = **découper les lots doctrinaux fiche par fiche**.
-- `ornith-test.sh` — harnais de **test de non-régression** (bac à sable isolé sous
-  `/root/ornith-test`, jamais le vrai dépôt). Sous-commandes : `prepare` (avant le test) ·
-  `compare` (après l'intégration par Ornith) · `selftest` (validation du harnais) · `clean`.
+- `regression-test.sh` — harnais de **test de non-régression** (bac à sable isolé sous
+  `/root/regression-test`, jamais le vrai dépôt). Sous-commandes : `prepare` (avant le test) ·
+  `compare` (après l'intégration par le modèle testé) · `selftest` (validation du harnais) · `clean`.
+  **Agnostique au modèle** : `MODEL_LABEL="Qwen3.6-27B-FP8" bash regression-test.sh prepare`.
 - `09-briefing-transition-qwen36-27b-2026-07-01.md` — briefing de **transition du modèle local**
   Ornith-1.0-9B → **Qwen3.6-27B-FP8** : bilan des tests Ornith, justification du choix, les 3 seuls
   changements du runbook (§3.2), état du Pod RunPod au 2026-07-01, actions A→H à mener. À lire avant
   toute manipulation du Pod / de vLLM. Prolonge `05-runbook-…`.
-- `ornith-test-doctrinal.sh` — harnais jumeau pour le **cas doctrinal** (Sceau Recteur +
+- `regression-test-doctrinal.sh` — harnais jumeau pour le **cas doctrinal** (Sceau Recteur +
   **réparation du frontmatter corrompu** `-----`/`## title:`/guillemets courbes + étanchéité +
-  index §II + annales). Mêmes sous-commandes. Bac à sable : `/root/ornith-test-doctrinal`.
+  index §II + annales). Mêmes sous-commandes et même `MODEL_LABEL`. Bac à sable : `/root/regression-test-doctrinal`.
   Ces fichiers servent côté serveur (Claude Code), pas dans le projet Claude.ai.
+  > Renommés le 2026-07-01 (ex-`ornith-test.sh` / `ornith-test-doctrinal.sh`) pour être neutres
+  > vis-à-vis du modèle ; les comptes-rendus datés `06-`/`07-`/`08-` citent l'ancien nom (historique préservé).
 
 ## Hiérarchie d'autorité des documents
 

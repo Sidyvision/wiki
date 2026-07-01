@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
-# ornith-test-doctrinal.sh — Test de non-régression du CAS DOCTRINAL.
-#   Jumeau de ornith-test.sh, mais sur le circuit doctrinal/ (Sceau Recteur).
+# regression-test-doctrinal.sh — Test de non-régression du CAS DOCTRINAL.
+#   Jumeau de regression-test.sh, mais sur le circuit doctrinal/ (Sceau Recteur).
 #   Exige plus qu'une copie : RÉPARATION du frontmatter « mangé » (-----,
 #   ## title:, guillemets courbes) + conformité au Sceau Recteur + maillage.
 #
@@ -11,7 +11,7 @@
 #   Bac à sable ISOLÉ (copie du dépôt sans remote) → aucun risque de push.
 #
 #   Modèle sous test : neutre. Étiquette d'affichage via MODEL_LABEL, p. ex.
-#     MODEL_LABEL="Qwen3.6-27B-FP8" bash ornith-test-doctrinal.sh prepare
+#     MODEL_LABEL="Qwen3.6-27B-FP8" bash regression-test-doctrinal.sh prepare
 #   (n'affecte QUE l'affichage ; le modèle réel est celui des variables ANTHROPIC_*.)
 #
 #   Sous-commandes : prepare | compare | selftest | clean
@@ -19,7 +19,7 @@
 set -euo pipefail
 
 WIKI=/root/wiki
-ROOT=/root/ornith-test-doctrinal
+ROOT=/root/regression-test-doctrinal
 SANDBOX="$ROOT/sandbox"
 GOLDEN="$ROOT/golden"
 MODEL_LABEL="${MODEL_LABEL:-le modèle local}"   # étiquette d'affichage, surchargeable
@@ -104,7 +104,7 @@ PROCHAINE ÉTAPE (test réel avec $MODEL_LABEL, en session FRAÎCHE) :
   2) cd $SANDBOX && claude
      puis : « intègre _inbox/ selon UPDATES.md et CLAUDE.md » (NE PAS committer/pusher)
      ⚠️ relire chaque écriture (PAS d'auto-accept) ; ne pas se fier à l'auto-rapport du modèle.
-  3) bash $WIKI/meta/projet-unifie/ornith-test-doctrinal.sh compare
+  3) bash $WIKI/meta/projet-unifie/regression-test-doctrinal.sh compare
 EOF
 }
 
