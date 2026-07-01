@@ -153,9 +153,21 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
 
 ## E. Backlog — INGESTS À VENIR (documentés, non urgents)
 
-- **Déposer** dans `raw/` : Ibn ʿArabī *De la mort à la résurrection* (Gloton) — lève le `to-source`
-  de `table-28-degres-nafas-rahman` et de `symboles/eschatologie`, et permet de créer la fiche source
-  `ibn-arabi-de-la-mort-a-la-resurrection-gloton` (déjà référencée par des liens en attente).
+- ~~**Déposer** dans `raw/` : Ibn ʿArabī *De la mort à la résurrection* (Gloton)~~ — **FAIT (2026-07-01)** :
+  fiche source [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] créée, `to-source` de
+  `table-28-degres-nafas-rahman` et `symboles/eschatologie` levés.
+- **Compléter le récit eschatologique** (ingest de lecture, poste Claude.ai) : la fiche source actuelle
+  ne transcrit que la **table cosmologique** du chapitre 198 (degrés 1-38, 28 Manāzil ; pp. 35-48).
+  Reste à transcrire, pour développer pleinement [[doctrinal/symboles/eschatologie]] et [[doctrinal/symboles/barzakh]] :
+  1. **Le texte discursif du chapitre 198** (*De la mort à la résurrection*, sections 11-38) au-delà des
+     tableaux de degrés — les passages narrant l'itinéraire **mort → barzakh → Résurrection → Jugement →
+     Jardin** (états du barzakh, modalités de la Résurrection), non captés par la fiche cosmologique.
+  2. **L'introduction et les annotations de Gloton** (cadre eschatologique de sa traduction).
+  3. **Renvoi croisé** (note 13, p. 35) : Gloton, *Jésus, le Fils de Marie dans le Coran et selon
+     l'enseignement d'Ibn ʿArabī* (Albouraq, 2006), **pp. 466-470** — autre traduction partielle du ch. 198.
+  4. **Parallèle** (note 15, p. 40) : *ʿUqlat al-mustawfiz* (5 Trônes / 5 dénominations coraniques),
+     éd. Nyberg, *Kleinere Schriften des Ibn Al-ʿArabī*, Leiden 1919, **pp. 39-99** — déjà listé ci-dessous
+     dans « Sources primaires à localiser ».
 - **Fiche symbole `lune-noire`** : second foyer de l'ellipse lunaire, connexion au
   *barzakh* — Guénon (*RQST* ch. XX) + Dom Neroman.
 - **Enrichir `ilm-al-nujum`** : tables complètes signes/planètes/dignités/maisons (matière dans les
@@ -164,7 +176,8 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
   ʿArabī) ; Meftah *Arma Artis 2011* (pagination des citations p. 115-116, 144).
 - **Images de modélisation 3D** (IMG_0950/0951/0952) → `atelier/projets/` (frontmatter atelier, liens
   vers la source), références pour la Phase 5.
-- **Amorces à développer** : `symboles/nafas-rahmani`, `symboles/eschatologie`, `autorites/titus-burckhardt` (`#stub`).
+- **Amorces à développer** : `symboles/nafas-rahmani`, `autorites/titus-burckhardt` (`#stub`).
+  (`symboles/eschatologie` développée le 2026-07-01 — reste son récit eschatologique, voir 1er item ci-dessus.)
 
 ### Motif transversal à porter à la connaissance de Sidy
 Le statut **Fard/Afrad** (sainteté solitaire, hors modalité confrérique) apparaît de façon

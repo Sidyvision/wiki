@@ -8,7 +8,7 @@ created: 2026-07-01
 updated: 2026-07-01
 sources: []
 sources_count: 0
-cross_links: ["[[table-28-degres-nafas-rahman]]", "[[nafas-rahmani]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "[[ilm-al-huruf]]", "[[asma-al-husna]]", "[[al-insan-al-kamil]]", "[[barzakh]]"]
+cross_links: ["[[table-28-degres-nafas-rahman]]", "[[nafas-rahmani]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "[[ilm-al-huruf]]", "[[asma-al-husna]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[eschatologie]]"]
 ---
 
 # De la mort à la résurrection — Ibn ʿArabī (trad. Maurice Gloton, Albouraq)
@@ -142,3 +142,17 @@ les directives d'inscription dans le wiki-manifest v0.2.1.
 - [[asma-al-husna]] — les Noms divins, un par degré
 - [[al-insan-al-kamil]] — degré 38, boucle de rétroaction
 - [[barzakh]] — degrés 19-20 comme Barzakh supérieur
+
+## À transcrire (complément eschatologique — ingest ultérieur)
+
+La présente fiche ne restitue que la **table cosmologique** du chapitre 198 (degrés 1-38,
+28 Manāzil, pp. 35-48). Pour développer pleinement [[eschatologie]] et [[barzakh]], reste
+à transcrire lors d'une prochaine lecture (poste Claude.ai) :
+
+1. Le **texte discursif** du ch. 198 (sections 11-38), au-delà des tableaux : l'itinéraire
+   **mort → barzakh → Résurrection → Jugement → Jardin** (états du barzakh, modalités de la
+   Résurrection), non capté ici.
+2. L'**introduction et les annotations** de Gloton (cadre eschatologique).
+3. Renvoi croisé (note 13, p. 35) : Gloton, *Jésus, le Fils de Marie… selon Ibn ʿArabī*
+   (Albouraq, 2006), **pp. 466-470** — autre traduction partielle du ch. 198.
+4. Parallèle (note 15, p. 40) : *ʿUqlat al-mustawfiz*, éd. Nyberg, Leiden 1919, **pp. 39-99**.
