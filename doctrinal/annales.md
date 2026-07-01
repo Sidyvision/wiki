@@ -1,7 +1,7 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-06-29
+updated: 2026-07-01
 ---
 
 # Annales du Secrétariat Doctrinal
@@ -9,6 +9,17 @@ updated: 2026-06-29
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 ---
+
+## [2026-07-01] archivage | Ménage & intégration du sas `_inbox/` — lots al-Jurjānī, Manvantara/Mahdi-Rouge/28-degrés, enrichissements akbariens
+- **Opération** : ARCHIVAGE & MAILLAGE + apurement du sas `_inbox/` (144 fichiers déposés ; doublons Obsidian « Copy of » et exports pré-Restauration écartés, contenu déjà au dépôt).
+- **Lot al-Jurjānī** (UPDATES 2026-06-30) : créé [[doctrinal/autorites/al-jurjani|Sayyid al-Sharīf al-Jurjānī]] (`traditionnel`), [[doctrinal/sources/kitab-al-tarifat-jurjani|Kitāb al-Taʿrīfāt]] et sa transcription intégrale d'annexes/index [[doctrinal/sources/kitab-tarifat-index-transcription]] (88 pages : translittération, prosodie, index coranique/noms/termes arabes, lexique français, table des matières). Corps des ~1862 définitions non ingéré (session ultérieure).
+- **Lot Manvantara / Mahdi-Rouge / 28-degrés** (UPDATES 2026-06-30 → 07-01, 5 sous-lots + validations Gem) : symboles [[doctrinal/symboles/manvantara]], [[doctrinal/symboles/atlantide]], [[doctrinal/symboles/manazil-al-qamar]], [[doctrinal/symboles/table-28-degres-nafas-rahman]] ; sources [[doctrinal/sources/platon-oeuvres-completes-brisson-2011]], [[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq]], [[doctrinal/sources/transcription-anneau-28-lettres-figure4]], et la trilogie [[doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge]] / [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]] / [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]]. Convergence quadruple 28 fuçûç = 28 lettres = 28 degrés du nafas al-raḥmān = 28 Manāzil (Ibn ʿArabī, *Futūhāt* ch. 198 ; *De la mort à la résurrection*, trad. Gloton).
+- **Enrichissements akbariens Jurjānī** : remplacement des 4 fiches symboles par leurs versions développées (addenda *Taʿrīfāt* déjà fusionnés, superset vérifié — aucun contenu perdu) : [[doctrinal/symboles/al-insan-al-kamil]] (dédoublonnée), [[doctrinal/symboles/wahdat-al-wujud]], [[doctrinal/symboles/barzakh]], [[doctrinal/symboles/walaya]] ; nouveaux [[doctrinal/symboles/hadarat-khams|Cinq Présences]], sources [[doctrinal/sources/barzakh-nur-lh]] et [[doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt]].
+- **Discernement** : créé [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] (`speculatif`) — tension terminologique Cinq Présences (Burckhardt vs Jurjānī), non tranchée (Cmd 12, *upakarana*).
+- **Autorité** : [[doctrinal/autorites/aiman-attar]] normalisée au Sceau Recteur (ancien export `type: entity` jamais migré à la Restauration).
+- **Atelier** (`projets/`) : architecture Instrument v0.2, feuille-de-route v2, [[atelier/projets/spec-technique-axe-38-degres|spec technique axe 38°]] et 4 échanges `soumission-gem-*`.
+- **meta/** : [[meta/bibliotheque-physique]] enrichie (Gaston Georgel, Platon *Œuvres complètes* Flammarion/Brisson, Burckhardt *Clés spirituelles de l'astrologie musulmane*, Meftah Albouraq, Ibn ʿArabī *De la mort à la résurrection*).
+- **VIGILANCE / signalements** (voir §fin de session) : (1) source primaire `ibn-arabi-de-la-mort-a-la-resurrection-gloton.md` référencée mais **non déposée** → liens `to-source` ; (2) [[doctrinal/symboles/hadarat-khams]] pointe vers la fiche discernement `tension-hadarat` non tranchée (étanchéité inversée §Discernement) — **signalé, non corrigé** ; (3) tensions doctrinales walāya (*quṭbiyya*/*khatm*) et recoupement wahdat/hadarat laissées à l'arbitrage de Sidy.
 
 ## [2026-06-29] archivage | Archéomètre (Saint-Yves d'Alveydre / version islamisée) — source + symbole, mise en garde non-syncrétisme
 - **Opération** : ARCHIVAGE & MAILLAGE (circuit doctrinal).

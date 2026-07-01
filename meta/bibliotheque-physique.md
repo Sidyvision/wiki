@@ -3,7 +3,7 @@ title: "Bibliothèque physique de travail"
 type: meta
 tags: [bibliotheque, lectures-suggerees, ressource]
 created: 2026-06-28
-updated: 2026-06-28
+updated: 2026-07-01
 sources: []
 links: []
 ---
@@ -40,6 +40,10 @@ déviations modernes.*
 - *La Crise du monde moderne* (Gallimard) — diagnostic du Kali-Yuga.
 - *Formes traditionnelles et Cycles cosmiques* (Gallimard) — directement lié aux calculs cycliques de l'app.
 - *Comptes Rendus* (Éditions Traditionnelles) — modèle méthodologique pour VIGILANCE.
+
+### Gaston Georgel (disciple guénonien, doctrine des cycles appliquée à l'histoire)
+- *Les Quatre Âges de l'Humanité* (Archè Milano) — application chiffrée de la doctrine guénonienne des cycles cosmiques à l'histoire.
+- *Rythmes dans l'histoire* (Archè Milano) — approfondit les lois rythmiques des cycles dans le déroulement historique.
 - *L'Erreur spirite* (Éditions Traditionnelles) — déviations pseudo-spirituelles.
 - *Le Théosophisme, histoire d'une pseudo-religion* (Éditions Traditionnelles) — syncrétisme contrefait, cf. Commandement III.
 - *Les Principes du Calcul infinitésimal* (Gallimard) — principes métaphysiques appliqués à la quantité continue.
@@ -67,6 +71,7 @@ déviations modernes.*
 - **Al-Jurjânî** (trad. M. Gloton) — *Le Livre des Définitions* (Albouraq) — dictionnaire technique de référence pour valider les termes du Tasawwuf.
 
 ### Ibn ʿArabî et son école
+- *De la mort à la résurrection* (trad., introduction et annotation Maurice Gloton, Albouraq, coll. « Héritage Spirituel ») — CONFIRMÉ (2026-07-01). Texte primaire d'Ibn ʿArabî ; le diagramme de couverture présente la table des 28 degrés cosmologiques (lettres arabes × degrés de manifestation) — source primaire directe pour [[doctrinal/symboles/table-28-degres-nafas-rahman]].
 - *Les Révélations de la Mecque* (*Al-Futûhât al-Makkiyyah*, choix de textes, Albin Michel)
 - *Le Livre des Chatons des Sagesses* (*Fusûs al-Hikam*, trad. et comm. Charles-André Gilis, Éd. de l'Œuvre, Tomes I & II) `#a-revoir`
 - *Le Livre des Haltes* (*Kitâb al-Mawâqif*, Émir Abd el-Kader, trad. Michel Chodkiewicz et Charles-André Gilis, Seuil/Dervy) — Tome I ; Tome II (haltes 20–66) ; Tome III (haltes 67–99) `#a-revoir`
@@ -79,6 +84,10 @@ déviations modernes.*
 - **Al-Râzî** — *Traité sur les Noms Divins* (*Lawâmiʿ al-bayyinât*)
 - **Ibn ʿAtâ' Allâh al-Iskandarî** — *Hikâm (Paroles de sagesse / Traité sur le nom Allâh)* ; *La clef de la réalisation spirituelle et l'illumination des âmes*
 - **Shaykh al-Dabbâgh** (trad. Zakaria Sîddîqî) — *Paroles d'or* (*Al-Ibrîz*, Tasnim) — transmission directe, *fatḥ*.
+- **Titus Burckhardt** — *Clés spirituelles de l'astrologie musulmane* (Archè Milano, 1983) — commentaire d'Ibn ʿArabî sur les 12 Anges zodiacaux, les trois modalités de signes (Fixes/Cardinaux/Mutables) et leur correspondance avec les trois mondes (barzakh inclus) ; source directe pour [[doctrinal/symboles/manazil-al-qamar]].
+
+### Abdel-Bâqî Meftah
+- *Le Symbolisme Universel des Châtons des Sagesses* — Exposé complet des clés de compréhension des *Fuçûç al-hikam* d'Ibn al-ʿArabî (trad. intégrale et notes D. Tournepiche), Éditions Albouraq, coll. « Héritage Spirituel » — CONFIRMÉ en bibliothèque physique (2026-07-01). Mandala concentrique des 28 fuçûç sur la couverture — pertinent pour la modélisation visuelle de l'Instrument. NB : distinct de *Les Clés ontologiques et coraniques des Fuṣūṣ al-Ḥikam* (Éd. Arma Artis, 2011) du même auteur, cité dans les articles Mahdi Rouge mais NON possédé — les citations Meftah p. 115-116 et p. 144 des fiches sources en proviennent.
 
 ### L'école d'Abû Hâmid al-Ghazâlî
 - *Revivification de la Spiritualité Musulmane* (*Ihyâ ʿUlûm al-Dîn*, Iqra)
@@ -130,7 +139,7 @@ déviations modernes.*
 - **Ibn Khaldûn** — *Discours sur l'Histoire Universelle (Al-Muqaddima)* (trad. Vincent Monteil, 3 vol., Sindbad) — cosmologie des cycles de civilisation.
 - **Fabre d'Olivet** — *La Langue hébraïque restituée* / *Les Vers dorés de Pythagore* (L'Âge d'Homme) — ⚠️ **même réserve** que Saint-Yves : intuitions linguistiques à redresser à la lumière de la métaphysique pure.
 - **Guillaume Denis** — *Origami*
-- **Platon** — *Œuvres Complètes* (éd. reliée)
+- **Platon** — *Œuvres complètes* (Flammarion, 2011, dir. Luc Brisson) — intégrale ; passages ingérés : Timée (24e–25d) et Critias (113b–114a) sur l'Atlantide. Source primaire de la tradition hellénique sur les cycles, reçue par Guénon. Fiché : [[doctrinal/sources/platon-oeuvres-completes-brisson-2011]], [[doctrinal/symboles/atlantide]].
 - **Simone Weil** — *La Pesanteur et la Grâce* / *L'Enracinement* / *Réflexions sur les causes de la liberté...*
 - **Titus Burckhardt** — *Alchimie : Science et Sagesse* (Archè) — exposé régulier sur l'hermétisme cosmologique.
 - **Cheikh Anta Diop** — *Nations nègres et culture*

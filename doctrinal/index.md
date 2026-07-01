@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-06-20
+updated: 2026-07-01
 ---
 
 # Le Catalogue Universel
@@ -29,10 +29,15 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/barzakh|Le Barzakh (l'isthme ontologique)]]
 - [[doctrinal/symboles/walaya|La Walāya (la sainteté, proximité divine)]]
 - [[doctrinal/symboles/al-insan-al-kamil|Al-Insān al-Kāmil (l'Homme Universel)]]
+- [[doctrinal/symboles/hadarat-khams|Les Cinq Présences divines (al-Ḥaḍarât al-Ilāhiyya al-Khams)]]
+- [[doctrinal/symboles/manvantara|Manvantara — les cycles cosmiques (Yuga) selon René Guénon]]
+- [[doctrinal/symboles/atlantide|Atlantide — l'île-continent et le cycle atlantéen]]
+- [[doctrinal/symboles/table-28-degres-nafas-rahman|La table des 28/38 degrés du Nafas al-Raḥmān]]
 
 ### Sciences Traditionnelles
 - [[doctrinal/symboles/ilm-al-huruf|ʿIlm al-Ḥurūf (la science des lettres)]]
 - [[doctrinal/symboles/ilm-al-nujum|ʿIlm al-Nujûm (l'astrologie traditionnelle)]]
+- [[doctrinal/symboles/manazil-al-qamar|Manāzil al-Qamar — les 28 Demeures lunaires]]
 - [[doctrinal/symboles/asma-al-husna|Les Asmāʾ al-Ḥusnā (les Noms divins)]]
 - [[doctrinal/symboles/talisman-sihr|Talisman / Simiyāʾ (science opérative des lettres)]]
 - [[doctrinal/symboles/tibb-e-nabawi|Tibb-e-Nabawī (médecine prophétique)]]
@@ -130,6 +135,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/autorites/al-ghazali|Imām al-Ghazālī]]
 - [[doctrinal/autorites/ahmad-al-buni|Cheikh Aḥmad al-Būnī]]
 - [[doctrinal/autorites/idris|Le Prophète Idrīs (Hénoch / Hermès)]]
+- [[doctrinal/autorites/al-jurjani|Sayyid al-Sharīf al-Jurjānī (lexicographe, théologien ashʿarite)]]
 - [[doctrinal/autorites/platon|Platon]]
 - [[doctrinal/autorites/ibn-sina|Ibn Sīnā (Avicenne)]]
 - [[doctrinal/autorites/al-jazari|Al-Jazarī]]
@@ -146,6 +152,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 ### Érudition académique
 - [[doctrinal/autorites/ali-hussain|Ali Hussain (chercheur, traducteur)]]
 - [[doctrinal/autorites/yaqub-chaudhary|Yaqub Chaudhary (philosophie islamique, IA)]]
+- [[doctrinal/autorites/aiman-attar|Aiman Attar (auteure, herbaliste — médecine prophétique)]]
 - [[doctrinal/autorites/faraz-rabbani|Faraz Rabbani (SeekersGuidance, fiqh hanafite)]]
 - [[doctrinal/autorites/hamza-yusuf|Hamza Yusuf (Zaytuna College)]] — stub
 
@@ -183,6 +190,16 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/conversation-llm-intellect-2026-06-11|Conversation LLM/Intellect (Sidy–Claude + Gem Guénon)]]
 - [[doctrinal/sources/figure-archeometre-islamise-mahdi-rouge|La figure de l'Archéomètre — version islamisée (Mahdi Rouge)]]
 - [[doctrinal/sources/archeometre-saint-yves-papus-1911|L'Archéomètre (Saint-Yves d'Alveydre, éd. Papus 1911)]]
+- [[doctrinal/sources/kitab-al-tarifat-jurjani|Kitāb al-Taʿrīfāt — Le Livre des définitions (trad. Maurice Gloton)]]
+- [[doctrinal/sources/kitab-tarifat-index-transcription|Kitāb al-Taʿrīfāt — Annexes et index (transcription intégrale)]]
+- [[doctrinal/sources/platon-oeuvres-completes-brisson-2011|Œuvres complètes — Platon (Flammarion, 2011, dir. Luc Brisson)]]
+- [[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq|Le Symbolisme Universel des Châtons des Sagesses (Meftah / Albouraq)]]
+- [[doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt|Introduction aux doctrines ésotériques de l'Islam (Burckhardt, ch. II)]]
+- [[doctrinal/sources/barzakh-nur-lh|Rapports symboliques entre Nûr et Barzakh]]
+- [[doctrinal/sources/transcription-anneau-28-lettres-figure4|Transcription de l'anneau des 28 lettres (Figure 4, De la mort à la résurrection)]]
+- [[doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge|Notre Manvantara (Graphiques) — La fin des temps modernes (Mahdi Rouge)]]
+- [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge|L'axe équinoxial, le zodiaque islamique et les Demeures lunaires (Mahdi Rouge)]]
+- [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge|Les bases de la science astrologique traditionnelle — ʿIlm al-Nujūm (Mahdi Rouge)]]
 
 ---
 
@@ -202,6 +219,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard|Astrologie akbarienne et auto-identification Fard]]
 - [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel|Première articulation conceptuelle du « jumeau spirituel » (artefact-miroir, marātib al-wujūd)]]
 - [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire|⚠️ Point sensible — réponse à risque : dissolution identitaire validée sans garde-fou]]
+- [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani|Tension terminologique — Cinq Présences divines : Burckhardt vs Jurjānī]] — statut spéculatif, non tranché
 
 ---
 
@@ -220,6 +238,13 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 ### Projets (`atelier/projets/`)
 - [[atelier/projets/album-personnel|Album personnel — home studio et production]]
 - [[atelier/projets/instrument-tradition-primordiale-architecture|Instrument de la Tradition Primordiale — architecture (esquisse v0.1)]]
+- [[atelier/projets/instrument-tradition-primordiale-architecture-v0.2|Instrument — architecture v0.2 (développée)]]
+- [[atelier/projets/instrument-feuille-de-route-v2|Instrument — feuille de route et pile technique (v2)]]
+- [[atelier/projets/spec-technique-axe-38-degres|Spécification technique — Axe des 38 degrés du Nafas al-Raḥmān]]
+- [[atelier/projets/soumission-gem-convergence-28|Soumission au Gem — Convergence des 28]]
+- [[atelier/projets/soumission-gem-reponse-geometrie-3d|Réponse au Gem — Directives géométriques de l'axe]]
+- [[atelier/projets/soumission-gem-reponse-gloton|Réponse au Gem — source primaire Gloton]]
+- [[atelier/projets/soumission-gem-reponse-visuelle-28|Réponse au Gem — intégration visuelle de la pulsation à 28 degrés]]
 
 ---
 
