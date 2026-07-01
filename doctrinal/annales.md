@@ -10,6 +10,13 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-01] archivage | Intégration du sas `_inbox/` — source Ibn ʿArabī *De la mort à la résurrection* (Gloton) + briefing transition Qwen3.6-27B
+- **Opération** : ARCHIVAGE & MAILLAGE + apurement du sas `_inbox/` (2 fichiers loose, sans `UPDATES.md` ; routage déduit du `type:`).
+- **Doctrinal** : créé la fiche source primaire [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton|De la mort à la résurrection — Ibn ʿArabī (trad. M. Gloton, Albouraq)]] (`source`, `traditionnel`, islam) — chapitre 198 des *Futūhāt* (nafas al-raḥmān, 28+10 degrés, table lettre × Nom × Manzil × signe). Ajoutée à l'index §VI (regroupée avec [[doctrinal/sources/transcription-anneau-28-lettres-figure4]], même ouvrage).
+- **Réparation frontmatter** : lien `[[table-28-degres-nafas-rahmân]]` (circonflexe) recartographié en `[[table-28-degres-nafas-rahman]]` (slug ASCII réel), 3 occurrences.
+- **Clôture de signalement** : ce dépôt **résout le point VIGILANCE (1)** de l'entrée « Ménage & intégration du sas `_inbox/` » (2026-07-01) — la source était « référencée mais non déposée → liens `to-source` ». Les liens de [[doctrinal/symboles/table-28-degres-nafas-rahman]] (pré-câblés) ne sont plus morts ; [[doctrinal/symboles/eschatologie]] passe de `to-source` à la source déposée (`#stub` maintenu, corps à développer côté Claude.ai).
+- **meta/ (outillage)** : classé [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01]] (briefing transition modèle local Ornith-1.0-9B → **Qwen3.6-27B-FP8** : bilan tests Ornith, justification, 3 changements du runbook §3.2, état Pod RunPod, actions A→H). Nom normalisé en minuscules (§III). Référencé dans [[meta/projet-unifie/README]] (Outils opérationnels). Confiné à `meta/` — aucun croisement d'étanchéité.
+
 ## [2026-07-01] maintenance | Mise à jour des fiches de contexte pour Claude.ai
 - **Opération** : RESTAURATION/MAINTENANCE (fiches meta d'outillage — pas de contenu doctrinal).
 - **Actualisé au 2026-07-01** l'ensemble du contexte lu par la session Claude.ai (iPad) après le grand ingest :

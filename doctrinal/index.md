@@ -200,6 +200,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt|Introduction aux doctrines ésotériques de l'Islam (Burckhardt, ch. II)]]
 - [[doctrinal/sources/barzakh-nur-lh|Rapports symboliques entre Nûr et Barzakh]]
 - [[doctrinal/sources/transcription-anneau-28-lettres-figure4|Transcription de l'anneau des 28 lettres (Figure 4, De la mort à la résurrection)]]
+- [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton|De la mort à la résurrection — Ibn ʿArabī (trad. Maurice Gloton, Albouraq)]]
 - [[doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge|Notre Manvantara (Graphiques) — La fin des temps modernes (Mahdi Rouge)]]
 - [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge|L'axe équinoxial, le zodiaque islamique et les Demeures lunaires (Mahdi Rouge)]]
 - [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge|Les bases de la science astrologique traditionnelle — ʿIlm al-Nujūm (Mahdi Rouge)]]

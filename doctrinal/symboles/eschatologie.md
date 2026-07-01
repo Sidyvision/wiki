@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [eschatologie, fin-des-temps, resurrection, cycles, ibn-arabi, stub]
 created: 2026-07-01
 updated: 2026-07-01
-sources: ["to-source"]
+sources: ["[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"]
 sources_count: 1
 cross_links: ["[[walaya]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[manvantara]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]"]
 ---
@@ -14,9 +14,9 @@ cross_links: ["[[walaya]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[manvantar
 # Eschatologie (la doctrine des fins dernières)
 
 > #stub — amorce à développer. Créée pour recevoir le lien de
-> [[doctrinal/symboles/table-28-degres-nafas-rahman]].
-> ⚠️ `sources: ["to-source"]` — fiche à sourcer (Ibn ʿArabī, *De la mort à la
-> résurrection*, non encore déposée ; cf. signalement des annales 2026-07-01).
+> [[doctrinal/symboles/table-28-degres-nafas-rahman]]. Source de rattachement
+> déposée le 2026-07-01 : [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]
+> (résout le `to-source` signalé aux annales 2026-07-01) ; corps de la fiche restant à développer.
 
 ## Définition
 
@@ -39,4 +39,4 @@ du [[manvantara|Manvantara]].
 
 ## Sources
 
-- `to-source` — à compléter.
+- [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton|De la mort à la résurrection — Ibn ʿArabī (trad. Gloton)]] — source primaire de rattachement.

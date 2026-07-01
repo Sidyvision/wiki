@@ -50,6 +50,10 @@ updated: 2026-07-01
 - `ornith-test.sh` — harnais de **test de non-régression** (bac à sable isolé sous
   `/root/ornith-test`, jamais le vrai dépôt). Sous-commandes : `prepare` (avant le test) ·
   `compare` (après l'intégration par Ornith) · `selftest` (validation du harnais) · `clean`.
+- `09-briefing-transition-qwen36-27b-2026-07-01.md` — briefing de **transition du modèle local**
+  Ornith-1.0-9B → **Qwen3.6-27B-FP8** : bilan des tests Ornith, justification du choix, les 3 seuls
+  changements du runbook (§3.2), état du Pod RunPod au 2026-07-01, actions A→H à mener. À lire avant
+  toute manipulation du Pod / de vLLM. Prolonge `05-runbook-…`.
 - `ornith-test-doctrinal.sh` — harnais jumeau pour le **cas doctrinal** (Sceau Recteur +
   **réparation du frontmatter corrompu** `-----`/`## title:`/guillemets courbes + étanchéité +
   index §II + annales). Mêmes sous-commandes. Bac à sable : `/root/ornith-test-doctrinal`.
