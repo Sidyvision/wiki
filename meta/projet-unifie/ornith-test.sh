@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
 # =============================================================================
 # ornith-test.sh — Test de non-régression de l'intégration _inbox/
-#   But : vérifier qu'un modèle local (Ornith) motorisant Claude Code intègre un
+#   But : vérifier qu'un modèle local motorisant Claude Code intègre un
 #   lot témoin aussi proprement qu'Opus (la référence = l'état committé du dépôt).
+#
+#   Modèle sous test : neutre. Fixe l'étiquette d'affichage via MODEL_LABEL, p. ex.
+#     MODEL_LABEL="Qwen3.6-27B-FP8" bash ornith-test.sh prepare
+#   (MODEL_LABEL ne change QUE l'affichage ; le modèle réel est celui pointé par les
+#    variables ANTHROPIC_* du shell qui lance `claude`.)
 #
 #   Bac à sable ISOLÉ : copie du dépôt SANS .git (réinitialisé sans remote) ⇒
 #   même si le modèle suit le protocole et fait `git push`, il ne peut PAS
@@ -24,6 +29,7 @@ WIKI=/root/wiki
 ROOT=/root/ornith-test
 SANDBOX="$ROOT/sandbox"
 GOLDEN="$ROOT/golden"
+MODEL_LABEL="${MODEL_LABEL:-le modèle local}"   # étiquette d'affichage, surchargeable
 
 WITNESS=(
   "atelier/materiel/neve-1073spx.md"
@@ -109,9 +115,9 @@ UP
   say "[5/5] Bac à sable prêt : $SANDBOX"
   cat <<EOF
 
-PROCHAINE ÉTAPE (test réel avec Ornith) :
+PROCHAINE ÉTAPE (test réel avec $MODEL_LABEL) :
   1) Ouvre le tunnel SSH vers le GPU (cf. runbook §4).
-  2) Dans un shell, pose les variables ANTHROPIC_* sur Ornith (runbook §5).
+  2) Dans un shell, pose les variables ANTHROPIC_* pour $MODEL_LABEL (runbook §5).
   3) cd $SANDBOX && claude
      puis : « intègre _inbox/ selon UPDATES.md et CLAUDE.md » (NE PAS committer/pusher)
   4) Reviens ici et lance :  bash $WIKI/meta/projet-unifie/ornith-test.sh compare
@@ -162,7 +168,7 @@ cmd_compare() {
 
   say "VERDICT : $pass ✓ / $fail ✗"
   if [ "$fail" -eq 0 ]; then
-    echo "  ✅ Ornith équivaut à Opus sur ce lot — rôle d'intégration VIABLE."
+    echo "  ✅ $MODEL_LABEL équivaut à Opus sur ce lot — rôle d'intégration VIABLE."
   else
     echo "  ⚠️  Écarts détectés — renforcer les scripts déterministes / garder l'hybride, puis re-tester."
   fi

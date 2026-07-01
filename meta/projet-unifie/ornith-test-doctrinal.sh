@@ -10,6 +10,10 @@
 #
 #   Bac à sable ISOLÉ (copie du dépôt sans remote) → aucun risque de push.
 #
+#   Modèle sous test : neutre. Étiquette d'affichage via MODEL_LABEL, p. ex.
+#     MODEL_LABEL="Qwen3.6-27B-FP8" bash ornith-test-doctrinal.sh prepare
+#   (n'affecte QUE l'affichage ; le modèle réel est celui des variables ANTHROPIC_*.)
+#
 #   Sous-commandes : prepare | compare | selftest | clean
 # =============================================================================
 set -euo pipefail
@@ -18,6 +22,7 @@ WIKI=/root/wiki
 ROOT=/root/ornith-test-doctrinal
 SANDBOX="$ROOT/sandbox"
 GOLDEN="$ROOT/golden"
+MODEL_LABEL="${MODEL_LABEL:-le modèle local}"   # étiquette d'affichage, surchargeable
 
 WITNESS="doctrinal/symboles/nafs-qalb-irritation.md"
 SLUG="doctrinal/symboles/nafs-qalb-irritation"
@@ -94,8 +99,8 @@ UP
   say "[5/5] Bac à sable doctrinal prêt : $SANDBOX"
   cat <<EOF
 
-PROCHAINE ÉTAPE (test réel avec Ornith, en session FRAÎCHE) :
-  1) Tunnel SSH + variables ANTHROPIC_* sur Ornith (cf. 05-runbook §4-5).
+PROCHAINE ÉTAPE (test réel avec $MODEL_LABEL, en session FRAÎCHE) :
+  1) Tunnel SSH + variables ANTHROPIC_* pour $MODEL_LABEL (cf. 05-runbook §4-5).
   2) cd $SANDBOX && claude
      puis : « intègre _inbox/ selon UPDATES.md et CLAUDE.md » (NE PAS committer/pusher)
      ⚠️ relire chaque écriture (PAS d'auto-accept) ; ne pas se fier à l'auto-rapport du modèle.
@@ -106,9 +111,9 @@ EOF
 # ---------------------------------------------------------------------------
 cmd_compare() {
   [ -d "$SANDBOX" ] || { echo "Pas de bac à sable. Lance 'prepare' d'abord."; exit 1; }
-  python3 - "$SANDBOX" "$GOLDEN" "$WITNESS" "$SLUG" <<'PY'
+  python3 - "$SANDBOX" "$GOLDEN" "$WITNESS" "$SLUG" "$MODEL_LABEL" <<'PY'
 import sys,subprocess,re,os
-SANDBOX,GOLDEN,WITNESS,SLUG=sys.argv[1:5]
+SANDBOX,GOLDEN,WITNESS,SLUG,LABEL=sys.argv[1:6]
 P=os.path.join(SANDBOX,WITNESS); G=os.path.join(GOLDEN,WITNESS)
 pas=[0]; fail=[0]
 def ok(m): print("  ✓",m); pas[0]+=1
@@ -191,9 +196,9 @@ print("    (attendu : 1 fiche créée + index.md + annales.md + _inbox vidé)")
 
 head("VERDICT : %d ✓ / %d ✗"%(pas[0],fail[0]))
 if fail[0]==0:
-    print("  ✅ Ornith gère le cas DOCTRINAL (Sceau Recteur + réparation) — équivalent Opus sur ce lot.")
+    print("  ✅ %s gère le cas DOCTRINAL (Sceau Recteur + réparation) — équivalent Opus sur ce lot."%LABEL)
 else:
-    print("  ⚠️  Écarts sur le cas doctrinal — supervision humaine renforcée requise ; ne pas confier l'intégration doctrinale à Ornith en autonomie.")
+    print("  ⚠️  Écarts sur le cas doctrinal — supervision humaine renforcée requise ; ne pas confier l'intégration doctrinale à %s en autonomie."%LABEL)
 PY
 }
 

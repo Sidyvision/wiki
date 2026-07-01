@@ -10,6 +10,12 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-01] maintenance | Harnais de test rendus agnostiques au modèle (`MODEL_LABEL`)
+- **Opération** : outillage (`meta/projet-unifie/`) — préparation de la transition vers Qwen3.6-27B-FP8.
+- Les deux harnais de non-régression `ornith-test.sh` (cas atelier) et `ornith-test-doctrinal.sh` (cas doctrinal, Sceau Recteur + réparation frontmatter) sont désormais **agnostiques au modèle** : variable d'affichage `MODEL_LABEL` (surchargeable, ex. `MODEL_LABEL="Qwen3.6-27B-FP8" bash …`), défaut « le modèle local ». Aucune logique de test modifiée — seuls les libellés « Ornith » deviennent dynamiques.
+- Subtilité technique : dans le harnais doctrinal, les verdicts sont dans un heredoc Python `<<'PY'` (non interpolé) → `MODEL_LABEL` passé en `argv`, pas par interpolation shell.
+- **Validé** : `selftest` des deux harnais rejoué avec `MODEL_LABEL="Qwen3.6-27B-FP8"` → **8 ✓ / 0 ✗** (atelier) et **12 ✓ / 0 ✗** (doctrinal), étiquette correctement propagée. Bacs à sable isolés (`/root/ornith-test*`) supprimés après validation. Réponse à la transition Qwen : cf. [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01]] §5-H (même protocole `prepare → compare` qu'Ornith).
+
 ## [2026-07-01] developpement | Fiche [[doctrinal/symboles/eschatologie]] développée à partir de la source Gloton
 - **Opération** : développement doctrinal d'une fiche `symbole` (sortie de l'état `#stub`).
 - **⚠️ Dérogation actée** : la rédaction doctrinale relève normalement du poste Claude.ai (`CLAUDE.md` §I, règle « absolue »). Développement effectué **sur ordre humain explicite** de Sidy (le protocole est « invariant sauf ordre humain »). Signalé conformément au Cmd 7.
