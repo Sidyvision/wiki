@@ -10,6 +10,13 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-01] developpement | Fiche [[doctrinal/symboles/eschatologie]] développée à partir de la source Gloton
+- **Opération** : développement doctrinal d'une fiche `symbole` (sortie de l'état `#stub`).
+- **⚠️ Dérogation actée** : la rédaction doctrinale relève normalement du poste Claude.ai (`CLAUDE.md` §I, règle « absolue »). Développement effectué **sur ordre humain explicite** de Sidy (le protocole est « invariant sauf ordre humain »). Signalé conformément au Cmd 7.
+- **Contenu** : synthèse strictement adossée à [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] (chap. 198 des *Futūhāt*), avec renvois de page — arc descente/retour (*maʿād*), *barzakh* supérieur (degrés 19-20), Miʿrāj comme paradigme de la remontée (degrés 21-27), Homme parfait comme terme (degré 38), distinction d'avec l'eschatologie cyclique [[manvantara]]. Aucune affirmation hors source (Cmd 5).
+- **Limites signalées dans la fiche** : le récit eschatologique détaillé (états du barzakh, Jugement, Jardin) n'est pas dans la fiche source (ch. 198 cosmologique) → reste à sourcer lors d'un ingest ultérieur.
+- **VIGILANCE** : `#stub` retiré des tags ; 7 `cross_links` vérifiés présents ; aucun lien mort ; aucune étanchéité inversée (aucun renvoi vers une fiche `discernement`).
+
 ## [2026-07-01] archivage | Intégration du sas `_inbox/` — source Ibn ʿArabī *De la mort à la résurrection* (Gloton) + briefing transition Qwen3.6-27B
 - **Opération** : ARCHIVAGE & MAILLAGE + apurement du sas `_inbox/` (2 fichiers loose, sans `UPDATES.md` ; routage déduit du `type:`).
 - **Doctrinal** : créé la fiche source primaire [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton|De la mort à la résurrection — Ibn ʿArabī (trad. M. Gloton, Albouraq)]] (`source`, `traditionnel`, islam) — chapitre 198 des *Futūhāt* (nafas al-raḥmān, 28+10 degrés, table lettre × Nom × Manzil × signe). Ajoutée à l'index §VI (regroupée avec [[doctrinal/sources/transcription-anneau-28-lettres-figure4]], même ouvrage).
