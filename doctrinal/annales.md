@@ -1,7 +1,7 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-07-01
+updated: 2026-07-03
 ---
 
 # Annales du Secrétariat Doctrinal
@@ -9,6 +9,13 @@ updated: 2026-07-01
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 ---
+
+## [2026-07-03] infrastructure | Déploiement Qwen3.6-27B-FP8 mené à terme (circuit `meta/projet-unifie/`)
+- **Opération** : intégration du lot documentaire infrastructure Qwen/Hermes (manifeste `UPDATES.md`, 2026-07-03). Aucune écriture doctrinale — circuit `meta/` uniquement, hors Sceau Recteur.
+- **Déploiement** : Qwen3.6-27B-FP8 opérationnel sur RunPod (A100 PCIe, vLLM 0.19.1, déploiement Custom). Double test de non-régression réussi : atelier **8✓/0✗**, doctrinal **12✓/0✗** (verdicts par scripts `regression-test*.sh compare`, pas d'auto-rapport).
+- **Fichiers intégrés** : `11-resultats-qwen36-27b-2026-07-03.md` (compte-rendu), `09-briefing-transition-qwen36-27B-v3-2026-07-03.md` (briefing révisé, corrige `sleep infinity` + régression Claude Code ≥ 2.1.154), `note-optimisation-hermes-2026-07-03.md` (3 décisions ouvertes : GPU, hébergement, timing).
+- **Supersession** : la v2 (`09-…v2-2026-07-02.md`) marquée SUPERSEDED par bandeau ciblé (2 règles erronées signalées, corps non modifié).
+- **Phase 0** du briefing 10 (infrastructure Hermes) : critère de sortie **atteint**.
 
 ## [2026-07-01] maintenance | Harnais de test renommés en neutre (`regression-test*.sh`)
 - **Opération** : outillage (`meta/projet-unifie/`) — suite du rendu agnostique au modèle.
