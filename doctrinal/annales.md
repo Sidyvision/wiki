@@ -10,6 +10,27 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-03] ingest | Ouverture du pôle Gizeh (science traditionnelle antédiluvienne) — lot v2
+Lot de 6 fiches (1 source + 4 discernement + 1 étude) + addendum bibliothèque physique.
+Texte de référence du pôle : Guénon, « Le Tombeau d'Hermès » (FTCC) — filiation
+orthodoxe directe de la spéculation-mère et du symbolisme pyramide/Montagne sacrée/Pôle.
+Aucun ancrage YAML instrument-donnees.yaml proposé à ce stade ; tous les candidats
+(Qâf/apex/Rafîʿ ad-Darajât, convergence 28/coudée, conduits stellaires) restent en
+discernement `en cours`. Arbitrage d'ancrage : Sidy exclusivement, le critère de double
+ancrage servant de signal de vigilance.
+- **Créé** : [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]] (`source`, `traditionnel`) ; [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] (`etude`, `academique`, `to-source`) ; [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]], [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]], [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28]], [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence]] (4 × `discernement`, `speculatif`, `en cours`).
+- **Noms de fichiers** : les 5 fichiers du lot Gizeh portaient un « 2 » traînant (artefact de téléchargement iPad) — nettoyé à l'intégration.
+- **Addendum** : [[meta/bibliotheque-physique]] enrichi (section VI, 9 ouvrages — texte de référence + fondations + garde-fou + sources primaires).
+- **Index** : index.md mis à jour (§V étude, §VI source, §VII 4 discernements, sous-sections « Gizeh / science traditionnelle antédiluvienne »).
+- **VIGILANCE** :
+  1. Les 4 cibles `cross_links` de la fiche source vérifiées présentes (3 discernement + 1 étude du lot).
+  2. La fiche `coudee-royale-convergence-28` pointe vers [[doctrinal/symboles/table-28-degres-nafas-rahman]] (fiche existante, vérifiée).
+  3. Aucune étanchéité inversée : aucune fiche orthodoxe existante ne pointe vers les nouveaux discernements `en cours`.
+  4. `donnees-geometriques-gizeh` : `sources: ["to-source"]` — toutes les données nécessitent vérification en édition imprimée par Sidy.
+- **Actions en attente (Sidy)** : voir UPDATES 2.md §« Actions manuelles » — 4 candidats d'ancrage au dossier, passage au statut définitif réservé.
+
+---
+
 ## [2026-07-03] infrastructure | Déploiement Qwen3.6-27B-FP8 mené à terme (circuit `meta/projet-unifie/`)
 - **Opération** : intégration du lot documentaire infrastructure Qwen/Hermes (manifeste `UPDATES.md`, 2026-07-03). Aucune écriture doctrinale — circuit `meta/` uniquement, hors Sceau Recteur.
 - **Déploiement** : Qwen3.6-27B-FP8 opérationnel sur RunPod (A100 PCIe, vLLM 0.19.1, déploiement Custom). Double test de non-régression réussi : atelier **8✓/0✗**, doctrinal **12✓/0✗** (verdicts par scripts `regression-test*.sh compare`, pas d'auto-rapport).

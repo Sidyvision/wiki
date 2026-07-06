@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-07-01
+updated: 2026-07-03
 ---
 
 # Le Catalogue Universel
@@ -177,6 +177,9 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/etudes/2026-06-04_islam-et-ia|Islam et Intelligence Artificielle]]
 - [[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana|Être et psyché, Intellect et raison discursive (upakarana)]]
 
+### Gizeh / science traditionnelle antédiluvienne
+- [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh|Données géométriques, géodésiques et métrologiques de la Grande Pyramide]] — relevé comparatif brut, `to-source`
+
 ---
 
 ## VI. Les Sources (`sources/`)
@@ -204,6 +207,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge|Notre Manvantara (Graphiques) — La fin des temps modernes (Mahdi Rouge)]]
 - [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge|L'axe équinoxial, le zodiaque islamique et les Demeures lunaires (Mahdi Rouge)]]
 - [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge|Les bases de la science astrologique traditionnelle — ʿIlm al-Nujūm (Mahdi Rouge)]]
+- [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes|René Guénon — « Le Tombeau d'Hermès » (FTCC)]] — texte de référence du pôle Gizeh
 
 ---
 
@@ -224,6 +228,12 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel|Première articulation conceptuelle du « jumeau spirituel » (artefact-miroir, marātib al-wujūd)]]
 - [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire|⚠️ Point sensible — réponse à risque : dissolution identitaire validée sans garde-fou]]
 - [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani|Tension terminologique — Cinq Présences divines : Burckhardt vs Jurjānī]] — statut spéculatif, non tranché
+
+### Gizeh / science traditionnelle antédiluvienne
+- [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien|Gizeh comme pôle de science traditionnelle antédiluvienne]] — spéculation-mère, filiation guénonienne attestée
+- [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex|Topologie du basculement plan/sphère : Mont Qâf, Mont Meru et l'apex pyramidal]]
+- [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28|Candidat de double ancrage : coudée royale / convergence 28]] — `to-source`, réserve catégorielle
+- [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence|L'écart d'orientation comme marqueur temporel : note 7 de Guénon et Spence (2000)]] — convergence de fonction angle→temps
 
 ---
 

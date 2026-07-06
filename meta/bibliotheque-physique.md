@@ -3,7 +3,7 @@ title: "Bibliothèque physique de travail"
 type: meta
 tags: [bibliotheque, lectures-suggerees, ressource]
 created: 2026-06-28
-updated: 2026-07-01
+updated: 2026-07-03
 sources: []
 links: []
 ---
@@ -156,6 +156,32 @@ déviations modernes.*
 - **Céline** — *Voyage au bout de la nuit* / *Nord* (Folio)
 - **Edward Snowden** — *Mémoires vives*
 - **Dan Brown** — *Le Secret des Secrets*
+
+---
+
+## VI. Pôle Gizeh — à acquérir / à consulter (append 2026-07-03)
+
+*Liste issue de l'ouverture du pôle Gizeh (science traditionnelle antédiluvienne). Priorité
+donnée au texte de référence et aux fondations ; garde-fou méthodologique (Adam)
+dépriorisé, non bloquant.*
+
+- **René Guénon**, *Formes traditionnelles et Cycles cosmiques*, chap. « Le Tombeau
+  d'Hermès » — texte de référence permanent du pôle Gizeh. DÉJÀ possédé (§I), à
+  recroiser avec les fiches du lot.
+- **R.A. Schwaller de Lubicz**, *Le Temple de l'Homme* (ou *Le Miracle Égyptien*, version
+  résumée).
+- **Matila Ghyka**, *Le Nombre d'Or : Rites et rythmes pythagoriciens dans le développement de
+  la civilisation occidentale*.
+- **Ananda K. Coomaraswamy**, *La Transformation de la Nature en Art*.
+- **Sylvain Tristan**, *Les Lignes d'Or* — DÉJÀ en bibliothèque (point de départ initial de
+  Sidy sur ce sujet).
+- **Jean-Pierre Adam**, *Le Passé Recomposé : Chroniques d'archéologie fantasque* — garde-fou
+  méthodologique, acquisition quand l'occasion se présente.
+- **Graham Hancock et Robert Bauval**, *Le Mystère d'Orion* — lecture de discussion
+  uniquement, hypothèse minoritaire, jamais à citer comme fait établi.
+- **J. H. Cole**, *Determination of the Exact Size and Orientation of the Great Pyramid of
+  Giza*, Survey of Egypt Paper n°39, 1925 — texte disponible en ligne, déjà consulté.
+- **W. M. Flinders Petrie**, *The Pyramids and Temples of Gizeh*, 1883 — à consulter.
 
 ---
 
