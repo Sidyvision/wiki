@@ -10,6 +10,25 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-01] archivage complet | Fichiers atelier/discernement + infrastructure Instrument (Phase 1-2)
+
+Intégration complète des contenus produits par Claude.ai le 2026-07-01 (trois ingest : infrastructure Qwen, pôle Gizeh, instrument & discernement) :
+
+**Circuit atelier/projets/** (6 fichiers) :
+- `angles-de-l-espace.md` — schéma manuscrit Sidy, appariement qualités élémentaires ↔ angles AS/DS/MC/FC
+- `instrument-tradition-primordiale-architecture-v0.3.md` — architecture fondamentale validée (Phase 0 clôturée)
+- `references-visuelles-astronomiques-phase-5.md` — catalogue images (demeures lunaires, horizon/équateur/écliptique, sphère céleste)
+- `spec-generateur-manifeste.md` — spécification script Phase 1 (wiki → wiki-manifest.json)
+- `instrument-donnees.yaml` — données déclaratives (nœuds Tasawwuf, ancrages établis : convergence 28)
+- `generer-manifeste.py` — générateur Phase 1 (déterministe, zéro LLM, validations bloquantes)
+
+**Circuit doctrinal/discernement/** (1 fiche) :
+- `2026-07-01_rafi-ad-darajat-fonction-traversante.md` — discernement : Nom Divin degré 38 comme fonction traversante d'al-Insān al-Kāmil (sourcé Gloton pp. 38-41 + hadarat-khams)
+
+**État** : Phase 0 (Instrument) clôturée, Phase 1 (générateur) livrée. Premiers ancrages établis : convergence 28 (*Futūḥāt* ch. 198, Gem 2026-07-01). Vigilance apophatique en continu dès maintenant (fiche v0.3 §5, arbitrage validé 2026-07-01).
+
+---
+
 ## [2026-07-01] enrichissement | Transcription Gloton complète ch. 198 — degrés 11-38 + modes 39-50
 
 Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection*, trad. M. Gloton, Albouraq).
