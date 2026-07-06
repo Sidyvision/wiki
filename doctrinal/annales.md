@@ -10,6 +10,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-01] enrichissement | Transcription Gloton complète ch. 198 — degrés 11-38 + modes 39-50
+
+Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection*, trad. M. Gloton, Albouraq).
+**Lot en trois addenda, appendus à la fiche source** [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] :
+- **Addendum 1** (pp. 38-41) : degrés 17-38 + modes 39-50 (12 modes du Souffle).
+- **Addendum 2** (pp. 46-47) : **Noms Divins et Manāzils, degrés 18-31** — lève complètement le to-source de la table (y compris degrés 21-27 : Nom Divin/Manzil désormais sourcés).
+- **Addendum 3** (pp. 44-45 et 48) : degrés 11-17 et 32-38 — tableau synoptique complet Gloton.
+
+**État final** : les degrés **11-38 sont intégralement sourcés** (28 degrés lettrés). Confirmation textuelle : verbe « y siège » établit distinction prophète siégeant vs Faṣṣ (manifestation structurelle). Remarque de cohérence : Nom Divin du degré 38, *Rafîʿ ad-Darajât* (l'Élévateur des degrés), pour l'Homme parfait — convergence avec l'architecture de l'Instrument (nœud traversant).
+
+**Matière neuve** : les 12 modes du Souffle (items 39-50, p. 41) — amorce pour [[doctrinal/symboles/nafas-rahmani]].
+**Pointeurs de complément** : ch. 198 Futūhāt (édition Dar al-Kotob al-Ilmiyah, Beyrouth, 1420/1999, tome 4, pp. 29-32) ; Gloton *Jésus, le Fils de Marie* pp. 466-470 ; *ʿUqlat al-mustawfiz* (5 Trônes / 5 dénominations coraniques) pour parallèle ; citations discursives du ch. 198 (mort → barzakh → Résurrection → Jugement) — au backlog ingest eschatologique.
+
+---
+
 ## [2026-07-03] ingest | Ouverture du pôle Gizeh (science traditionnelle antédiluvienne) — lot v2
 Lot de 6 fiches (1 source + 4 discernement + 1 étude) + addendum bibliothèque physique.
 Texte de référence du pôle : Guénon, « Le Tombeau d'Hermès » (FTCC) — filiation

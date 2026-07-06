@@ -143,16 +143,234 @@ les directives d'inscription dans le wiki-manifest v0.2.1.
 - [[al-insan-al-kamil]] — degré 38, boucle de rétroaction
 - [[barzakh]] — degrés 19-20 comme Barzakh supérieur
 
-## À transcrire (complément eschatologique — ingest ultérieur)
+## Transcription — chapitre 198, degrés 17 à 38 (pp. 38-41) et modes 39-50
 
-La présente fiche ne restitue que la **table cosmologique** du chapitre 198 (degrés 1-38,
-28 Manāzil, pp. 35-48). Pour développer pleinement [[eschatologie]] et [[barzakh]], reste
-à transcrire lors d'une prochaine lecture (poste Claude.ai) :
+**Transcription établie le 2026-07-01 d'après photographies des pages fournies par Sidy.** Les lectures incertaines sont marquées [?].
 
-1. Le **texte discursif** du ch. 198 (sections 11-38), au-delà des tableaux : l'itinéraire
-   **mort → barzakh → Résurrection → Jugement → Jardin** (états du barzakh, modalités de la
-   Résurrection), non capté ici.
-2. L'**introduction et les annotations** de Gloton (cadre eschatologique).
-3. Renvoi croisé (note 13, p. 35) : Gloton, *Jésus, le Fils de Marie… selon Ibn ʿArabī*
+### Degré 17 — ق (qâf) — le Trône divin (ʿarsh)
+
+Le Souffle produit le Trône (al-ʿarsh) qui, dans sa réalité sphérique symbolique
+(istidâra), enveloppe le Cosmos entier, c'est-à-dire toute la manifestation formelle
+et informelle, donc spirituelle, subtile et grossière, et ce que celui-ci contient
+entièrement. « *Le Tout Rayonnant d'Amour se maintient homogène sur le Trône* »
+(Qurʾân 20-5). Il est au-delà de la spatialité et de la temporalité, de la condition
+et du conditionné, du mouvement et du repos. Il repose sur l'Eau indifférenciée de la
+Toute Possibilité divine selon cet élément de verset : « *…et Son Trône se trouvait
+sur l'Eau…* » (Qurʾân 11-7), cette Eau dont Allâh dit : « *Nous avons fait procéder
+toute chose vivante de l'Eau* » (Qurʾân 21-30). Ce Trône est entouré par des Anges :
+« *Tu vois les Anges entourant le Trône, ils chantent la Gloire de leur Enseigneur en
+Le louangeant…* » (Qurʾân 39-75).
+
+### Degré 18 — ك (kâf) — le Piédestal (kursî)
+
+Il produit le Piédestal (kursî) et les deux « Pieds » ou les deux polarités
+(qadamân) s'y « posent » provenant du Trône divin. Dieu dit : « *…Son Piédestal
+s'étend aux cieux et à la terre…* » (Qurʾân 2-255). C'est un Corps sensible (jism
+mahsûs) qui contient en lui tous les aspects : perceptibles, subtils et spirituels,
+comme le corps humain vivant inclut en lui ces trois aspects. Il est dans le Trône
+comme l'anneau jeté dans le désert. Sur lui « reposent » les « deux Pieds » (qadamân)
+de Celui qui a établi Son Assise homogène sur le Trône. Il symbolise la première
+polarisation ou distinctivité pour que la manifestation formelle se produise. C'est à
+partir de lui que l'ordre (amr) et la défense (nahy) interviennent.
+
+### 4 - Les sphères célestes
+
+### Degré 19 — ج (jîm) — la Sphère sans étoiles du Zodiaque ou abyssale (falak al-atlas) ou Sphère des Tours (falak al-burûj)
+
+Le Respir miséricordieux produit la Sphère sans étoiles ou Sphère abyssale
+(al-falak al-atlas). C'est la Sphère symbolique des Tours ou Sphère du Zodiaque
+(falak al-burûj) avec ses douze signes repères virtuels. On assigne à son mouvement
+interne (haraka) ni commencement ni terme, ainsi qu'à l'Avènement des Jours (hudûth
+al-ayyâm) qui se fait par l'existence de son mouvement interne et de sa gestion ou
+assistance (wujûd harakati-hi wa istiʿânati-hi) par le Nom « le Temps pur »
+(ad-dahr) indifférencié, sans durée et sans partition effective. De l'évaluation, la
+révolution ou la détermination virtuelle de ce Temps pur, les Jours cosmiques
+(ayyâm) sont estimés ainsi que les mois et les années qui s'actualisent dans la
+Sphère symbolique suivante. Cette sphère constitue le **Toit ou Voûte du Jardin
+paradisiaque** et non pas sa terre.
+
+### Degré 20 — ش (shîn) — la Sphère des étoiles fixes (falak al-kawâkib)
+
+Il donne l'existence à la Sphère des Étoiles fixes (falak al-kawâkib al-thâbita).
+La **Terre des Jardins paradisiaques** (al-jannât) se situe à la partie supérieure de
+cette sphère symbolique et les **Feux infernaux** sont dans sa concavité jusqu'à son
+fondement ultime ou soubassement.
+
+### Degrés 21-27 — le Malakūt planétaire (les sept cieux)
+
+| Degré | Lettre | Nom | Ciel / planète | Jour régi | Prophète siégeant |
+|---|---|---|---|---|---|
+| 21 | ي | yâʾ | Saturne (zuhal) — 1er ciel | samedi | Abraham |
+| 22 | ض | dâd | Jupiter (mushtarî) — 2e ciel | jeudi | Moïse |
+| 23 | ل | lâm | Mars (mirîkh) — 3e ciel | mardi | Aaron |
+| 24 | ن | nûn | Soleil (shams) — 4e ciel | dimanche | Idrîs (Enoch) |
+| 25 | ر | râʾ | Vénus (zuhra) — 5e ciel | vendredi | Joseph |
+| 26 | ط | tâʾ | Mercure (ʿutârid) — 6e ciel | mercredi | Jésus |
+| 27 | د | dâl | Lune (qamar) — 7e et dernier ciel | lundi | Adam |
+
+Notice du degré 21 (vaut pour la série) : « Ce degré concerne le premier ciel qui
+est celui de la planète Saturne. Il régit le jour de samedi. Abraham y siège. Cette
+planète, et les suivantes, comprennent aussi bien la sphère physique que l'aspect
+subtil qui y est attaché. »
+
+> Le verbe employé par Gloton est systématiquement « **y siège** » — confirmation
+> textuelle de la catégorie *prophète siégeant* (permanence sphérique, registre du
+> Miʿrāj), distincte du *prophète faṣṣ* (manifestation structurelle du degré).
+
+### 5 - Le domaine des quatre éléments
+
+| Degré | Lettre | Nom | Réalité |
+|---|---|---|---|
+| 28 | ت | tâʾ | le Feu (nâr) |
+| 29 | ز | zây | l'Air (hawâʾ) |
+| 30 | س | sîn | l'Eau (mâʾ) |
+| 31 | ص | sâd | la Terre (ʿard) |
+
+### 6 - Les trois règnes
+
+| Degré | Lettre | Nom | Réalité |
+|---|---|---|---|
+| 32 | ظ | zhâʾ | les Minéraux (maʿâdin) |
+| 33 | ث | thâʾ | les Végétaux (nabât) |
+| 34 | ذ | dhâʾ | les Animaux (hayawân) |
+
+### 7 - Les autres sortes d'êtres
+
+| Degré | Lettre | Nom | Réalité |
+|---|---|---|---|
+| 35 | ف | fâʾ | les Anges (malâʾika) |
+| 36 | ب | bâʾ | les Djins (jinn) |
+| 37 | م | mîm | l'Homme (insân) |
+| 38 | و | wâw | l'Homme universel ou parfait (insân kâmil) |
+
+Sous le degré 38 : « L'Homme parfait — synthèse de tous les degrés antérieurs »
+(note 15).
+
+**Note 15 (p. 40, verbatim utile)** : Ibn ʿArabî a rédigé un autre traité, intitulé
+*ʿUqlat al-mustawfizh* (« L'entrave qui retient le partant »), dans lequel il
+commente cette même hiérarchisation de manière différente — par exemple, il y assigne
+cinq Trônes, en fonction de cinq dénominations coraniques de ce terme, correspondant
+à des « plans » métacosmiques et cosmiques différents. Édité par H. S. Nyberg,
+*Kleinere Schriften des Ibn Al-ʿArabî*, Leiden, 1919, pages 39 à 99.
+
+### 8 - Des modes d'intervention du Souffle (items 39-50, p. 41)
+
+Après le degré 38, l'énumération se poursuit — non plus des degrés ontologiques,
+mais des **modes d'intervention du Souffle** :
+
+39. Du transfert d'une réalité à l'autre (naql).
+40. De la manifestation et de l'occultation provenant des souffles.
+41. De l'équilibre (iʿtidâl) et de l'infléchissement (inhirâf).
+42. De l'appui (iʿtimâd) sur l'imperfection (nâqis) et le fait d'y être attiré
+    (al-mayl ilay-hi).
+43. Du renouvellement (ou réitération = iʿâda).
+44. Du subtil (latîf) et du grossier (kathîf).
+45. De l'appui (iʿtimâd) sur le fondement des réalités contingentes
+    (asl al-muhdathât).
+46. De l'appui sur le monde à partir de sa génération : c'est le Livre tracé (kitâb
+    mastûr) dans le Parchemin de l'Existence déployée (raqq al-wujûd al-manshûr)
+    dans le monde des corps générés, en relation avec le nom d'Allâh l'Extérieur ou
+    le Manifeste (zhâhir). Ces termes techniques sont tous coraniques.
+47. De l'appui sur la promesse (waʿd) avant qu'elle n'intervienne, c'est-à-dire
+    s'appuyer sur le non manifesté en raison de la véracité de celle-ci.
+48. De l'appui sur les réalités générées (kanîyât [?]) et des ouvertures
+    spirituelles (futûh) qui en résultent.
+49. Des œuvres surérogatoires qui s'ajoutent aux prescriptions obligatoires, qui se
+    manifestent ou non.
+50. Des principes qui se manifestent à travers le souffle de celui qui respire.
+
+---
+
+**Portée exacte de cette transcription** : ces pages sourcent les colonnes Lettre / ciel /
+jour / prophète siégeant des degrés 21-27 (levée partielle du to-source) et
+confirment les degrés 17-20 et 28-38. Elles ne donnent PAS, pour ces degrés, les
+colonnes Nom Divin, Faṣṣ, Manzil — qui restent `to-source` (à confronter aux tables
+correspondantes du ch. 198 / Meftah).
+
+## À transcrire ultérieurement
+
+Pour développer pleinement [[eschatologie]] et [[barzakh]], reste à transcrire lors
+d'une prochaine lecture (poste Claude.ai) :
+
+1. L'**introduction et les annotations** de Gloton (cadre eschatologique complet).
+2. Renvoi croisé (note 13, p. 35) : Gloton, *Jésus, le Fils de Marie… selon Ibn ʿArabī*
    (Albouraq, 2006), **pp. 466-470** — autre traduction partielle du ch. 198.
-4. Parallèle (note 15, p. 40) : *ʿUqlat al-mustawfiz*, éd. Nyberg, Leiden 1919, **pp. 39-99**.
+3. Les pages du **chapitre 198** portant les colonnes Nom Divin / Faṣṣ / Manzil des degrés 21-27
+   (sources présumées : tables du ch. 198, Meftah ou édition primaire).
+
+---
+
+## Transcription — tableau des correspondances (pp. 46-47), degrés 18 à 31
+
+**Transcription établie le 2026-07-01 d'après photographies des pages fournies par Sidy.**
+
+Ce tableau croise, pour chaque degré lettré : le **Nom Divin**, la réalité cosmologique, la **Demeure lunaire (manzil)** avec sa racine, et la **portion de signe zodiacal** correspondante.
+
+| Degré | Lettre | Nom Divin | Réalité (rappel) | Manzil (Demeure lunaire) | Signe (portion) |
+|---|---|---|---|---|---|
+| 18 | ك kâf | **ash-Shakûr** le Reconnaissant | le Piédestal (al-kursî) | **Nathra** نثرة (racine N.TH.R. : répandre) — le Nez du Lion, « milieu du nez » | ♋ cancer (1) (al-Saratân) — 21/6 à 20/7 |
+| 19 | ج jîm | **al-Ghaniyy** le Suffisant par Soi | la Sphère sans étoile, abyssale (falak al-burûj) | **Tarf** طرف (racine T.R.F. : toucher à l'œil) — l'Œil du Lion | ♋ cancer (1) |
+| 20 | ش shîn | **al-Muqaddir** l'Évaluateur | la Sphère des étoiles fixes (falak al-kawâkib) | **Jabha** جبهة (racine J.B.H. : frapper au front) — le Front du Lion | ♋ cancer (1/3) ; ♌ lion (2/3) (al-ʾAsad) — 21/7 à 20/8 |
+| 21 | ي yâʾ | **ar-Rabb** le Maître, l'Enseigneur | Saturne (zuhal) — Abraham | **Khurthân** خرثان (racine KH.R.TH. : être démuni) — la Crinière du Lion | ♌ lion (1) |
+| 22 | ض dâd | **al-ʿAlîm** le Savant | Jupiter (mushtarî) — Moïse | **Sarfa** صرفة (racine S.R.F. : tourner) — le Cœur du Lion | ♌ lion (2/3) ; ♍ vierge (1/3) (al-ʿAdhrâʾ) — 21/8 à 20/9 |
+| 23 | ل lâm | **al-Qâhir** le Contraigneur | Mars (mirîkh) — Aaron | **ʿAwwâ** عوّا (racine ʿA.W.W. : hurler) — constellation du Bootès ou du Bouvier | ♍ vierge (1) |
+| 24 | ن nûn | **an-Nûr** la Lumière | Soleil (shams) — Idrîs | **Simâk ʿaʿzal** سماك أعزل (racines S.M.K. : être haut ; ʿA.Z.L. : éloigner qqch) — l'Épi | ♍ vierge (1) |
+| 25 | ر râʾ | **al-Musawwir** le Formateur | Vénus (zuhra) — Joseph | **Ghafr** غفر (racine GH.F.R. : couvrir) — 3 petites étoiles | ♎ balance (al-Mîzân) (1) — 21/9 à 20/10 |
+| 26 | ط tâʾ | **al-Muhsî** Celui qui garde en compte | Mercure (ʿutârid) — Jésus | **Zubbân** زُبّان (racine Z.B.N. : ruer, pincer) — les Pinces du Scorpion | ♎ balance (1) |
+| 27 | د dâl | **al-Mubîn** l'Explicite, l'Évident | Lune (qamar) — Adam | **Iklîl** إكليل (racine K.L.L. : couronner) — la Couronne | ♎ balance (1/3) ; ♏ scorpion (2/3) (al-ʿAqrab) — 21/10 à 20/11 |
+| 28 | ت tâʾ | **al-Qabîd** l'Oppresseur | le Feu (nâr) | **Qalb** قلب (racine Q.L.B. : retourner) — le Cœur du Scorpion | ♏ scorpion (1) |
+| 29 | ز zây | **al-Hayy** le Vivant | l'Air (hawâʾ) | **Shawla** شولة (racine SH.W.L. : dresser la queue) — la Queue du Scorpion (Shaula) | ♏ scorpion (2/3) ; ♐ sagittaire (1/3) (Samâwiyya [?]) — 21/11 à 20/12 |
+| 30 | س sîn | **al-Muhyî** le Vivificateur | l'Eau (mâʾ) | **Naʿâʾim** نعائم (racine N.ʿA.M. : prospérer, convenir) — huit étoiles | ♐ sagittaire (1) |
+| 31 | ص sâd | **al-Mumît** le Mortificateur | la Terre (ʿard) | **Balda** بلدة (racine B.L.D. : demeurer, se fixer) — 3 étoiles de l'arc | ♐ sagittaire (1) |
+
+**Structure remarquable du tableau (constat de forme)** : la colonne des signes procède par fractions — chaque signe zodiacal couvre 2⅓ demeures (28 demeures / 12 signes), d'où les mentions (1), (1/3), (2/3) et les chevauchements de signe en fin de série (degrés 20, 22, 27, 29). Les dates données par Gloton suivent le découpage 21 du mois à 20 du mois suivant.
+
+> **Portée exacte** : ces pages sourcent les colonnes **Nom Divin** et **Manzil** (avec racines et portions zodiacales) des degrés 18 à 31 — dont les degrés 21-27, dernier reliquat du to-source de `table-28-degres-nafas-rahman`.
+
+---
+
+## Transcription synoptique complète (pp. 44-45 et 48), degrés 11-17 et 32-38
+
+**Transcription établie le 2026-07-01 d'après photographies des pages fournies par Sidy.**
+
+### En-tête du tableau (p. 45)
+
+**Titre** : « Les 12 signes du Zodiaque, les 28 Mansions cosmiques, les 28 lettres de l'alphabet arabe et les Noms divins correspondants ».
+
+**Encadré introductif** : « Les 28 lettres de l'alphabet ont été classées, par Ibn ʿArabî, selon l'ordre naturel de leur point d'émission dans l'appareil phonatoire, en correspondance avec les 28 mansions cosmiques. Aux 12 signes du Zodiaque correspondent 28 mansions, soit 2 mansions 1/3 par signe. »
+
+**Contexte** (p. 44) : ce tableau synoptique a été élaboré par Gloton pour faciliter la lecture des sections 18, 19 et 20 du chapitre 198, permettant de situer Paradis et Enfers dans l'analyse d'Ibn ʿArabî (en particulier à la section 20).
+
+### Degrés 11-17 (p. 45)
+
+| Degré | Lettre | Nom Divin | Réalité cosmique | Manzil (Demeure lunaire) | Signe (portion) |
+|---|---|---|---|---|---|
+| 11 | ء hamza | **al-Badîʿ** l'Innovateur | le Qalam suprême ou Intellect Premier (al-ʿaql al-awwal) | **Nattih** نطح (racine N.T.H. : donner un coup de corne) — la Corne du Bélier | ♈ bélier (1) (al-Hamal) — 21/3 à 20/4 |
+| 12 | ه hâʾ | **al-Bâʿith** l'Éveilleur | la Table Gardée ou Âme universelle (al-nafs al-kulliyya) | **Batîn** بطين (racine B.T.N. : frapper au ventre, être intérieur) — le Ventre du Bélier | ♈ bélier (1) |
+| 13 | ع ʿayn | **al-Bâtin** l'Intérieur | la Nature universelle (at-tabîʿa) | **Thuryyâ** ثريّا (racine TH.R.Y. : être nombreux, riche) — les Pléiades | ♈ bélier (1/3) ; ♉ taureau (2/3) (al-Thawr) — 21/4 à 20/5 |
+| 14 | ح hâʾ | **al-Âkhir** le Dernier | la Substance primordiale indifférenciée (al-habâʾ) | **Dabarân** دبران (racine D.B.R. : se trouver derrière) — l'Œil du Taureau, Al-Dâbaran | ♉ taureau (1) |
+| 15 | غ ghayn | **azh-Zhâhir** l'Extérieur | le Corps universel (al-jism al-kullî) | **Haqʿa** هقعة (racine H.Q.ʿA. : cautériser) — la Tête de l'Orion | ♉ taureau (2/3) ; ♊ gémeaux (1/3) |
+| 16 | خ khâʾ | **al-Hakîm** le Sage | la Conformation cosmique (al-shakl) | **Nahiyya** (racine N.H.Y. : baratter) ou **Hanʿa** (H.N.ʿA. : marquer au cou) (alhena) — le Bras gauche de l'Orion | (al-Jawzâʾ) — 21/5 à 20/6 ; ♊ gémeaux (1) |
+| 17 | ق qâf | **al-Muhît** l'Enveloppant | le Trône (ʿarsh) | **Dhirâʿ** ذراع (racine DH.R.ʿA. : mesurer avec l'avant-bras) — le Bras de l'Orion | ♊ gémeaux (1) |
+
+### Degrés 32-38 (p. 48)
+
+| Degré | Lettre | Nom Divin | Réalité cosmique | Manzil (Demeure lunaire) | Signe (portion) |
+|---|---|---|---|---|---|
+| 32 | ظ zhâʾ | **al-ʿAzîz** l'Inaccessible | les Minéraux | **Dhâbih** ذابح (racine DH.B.H. : immoler) — 2 étoiles, Dabih | ♑ capricorne (al-Jady) (1) — 21/12 à 20/01 |
+| 33 | ث thâʾ | **ar-Razzâq** le Pourvoyeur | les Végétaux | **Bulaʿ** بلع (racine B.L.ʿA. : avaler, absorber) — 2 étoiles proches | ♑ capricorne (1) |
+| 34 | ذ dhâl | **al-Mudhdhil** l'Avilissant | les Animaux | **Suʿûd** سعود (racine S.ʿA.D. : être heureux) — 4 étoiles, Suud | ♑ capricorne (1/3) ; ♒ verseau (2/3) (al-Dalw) — 21/01 à 20/02 |
+| 35 | ف fâʾ | **al-Qawiyy** le Fort | les Anges | **ʿAkhbiya** أخبية (racine KH.B.Y. : dresser une tente) — les Tentes, Achbia | ♒ verseau (1) |
+| 36 | ب bâʾ | **al-Latîf** le Subtil | les Djinns | **Muqaddam** مقدّم (racine Q.D.M. : donner la priorité) — groupe d'étoiles antérieures, Pégase | ♒ verseau (2/3) ; ♓ poisson (1/3) |
+| 37 | م mîm | **al-Jâmiʿ** le Synthétiseur | l'Homme | **Muʾakhkhar** مؤخّر (racine ʾA.KH.R. : rester en arrière) — groupes d'étoiles postérieures, Andromède | (al-Hût al-Samaka) — 21/2 à 20/3 ; ♓ poisson (1) |
+| 38 | و wâw | **Rafîʿ ad-Darajât** l'Élévateur des degrés | l'Homme parfait | **Rishâ** رشا (racine R.SH. : faire un cadeau, munir un seau d'une corde) — le Nez du Poisson, al-risha | ♓ poisson (1) |
+
+> **Remarque de cohérence (constat de forme)** : le Nom Divin du degré 38 — *Rafîʿ ad-Darajât*, « l'Élévateur des degrés » — pour l'Homme parfait, synthèse de tous les degrés antérieurs, et convergence remarquable avec la fonction du nœud traversant dans l'architecture de l'Instrument. Constat de forme, pas d'interprétation.
+
+### Note d'édition capitale (p. 49, note 16)
+
+L'édition arabe des *Futūḥāt* utilisée par Gloton pour les citations du chapitre 198 : **Tome 4, pages 29 à 32/9 — Éditions Dar al-Kotob al-Ilmiyah, Beyrouth, Liban, 1420/1999**. (Note 17 : références aux versets 18-109 et 31-27 pour les « Paroles de Dieu qui ne s'épuisent pas ».)
+
+La p. 49 amorce en outre les citations discursives du ch. 198 (les réalités existenciées comme Paroles de Dieu, la Réalité de Jésus, Qurʾân 4-171) — matière pour l'ingest du récit eschatologique déjà au backlog, hors du périmètre de ces addenda.
+
+> **Portée finale** : avec les addenda des pp. 38-41, 46-47 et 44-45 & 48, les degrés **11 à 38** sont **intégralement sourcés** (Lettre, Nom Divin, réalité, Manzil, signe). Le tableau synoptique des 28 degrés lettrés est complètement transcrit. Les degrés 1-10 (Hāhūt, formules divines pré-lettrées) relèvent d'une autre section, déjà transcrite dans la fiche.

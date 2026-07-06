@@ -177,8 +177,10 @@ Les sept cieux planétaires — séjours des fonctions spirituelles et des types
 | 23 | 5ème ciel | Mars (*mirīkh*) | Lām (ل) | Aaron | Mardi | p. 39 ✓ |
 | 24 | 4ème ciel — Cœur du Monde | Soleil (*shams*) / Idrīs | Nūn (ن) | Idrīs (Enoch) | Dimanche | p. 39 ✓ |
 | 25 | 3ème ciel | Vénus (*zuhra*) | Rāʾ (ر) | Joseph | Vendredi | p. 39 ✓ |
-| 26 | 2ème ciel | Mercure | — | — | — | à compléter |
-| 27 | 1er ciel | Lune | — | — | — | à compléter |
+| 26 | 2ème ciel | Mercure (*ʿutârid*) | Tāʾ (ط) | Jésus | Mercredi | p. 39 ✓ |
+| 27 | 1er ciel | Lune (*qamar*) | Dāl (د) | Adam | Lundi | p. 39 ✓ |
+
+> **Sourçage degrés 21-27** — Source : [[ibn-arabi-de-la-mort-a-la-resurrection-gloton]], pp. 39-40 (transcription du 2026-07-01). Les colonnes Nom Divin, Façç, Manzil pour ces degrés restent `to-source` (non couvertes par ces pages).
 
 ### Nāsūt / Mulk — degrés 20–28 (Figure 4, p. 94)
 

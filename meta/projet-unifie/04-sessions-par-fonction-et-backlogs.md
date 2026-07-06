@@ -92,7 +92,9 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
   *Nafas al-Raḥmān* = *Manāzil* (Gem René Guénon, *Futūhāt* ch. 198). Premier pont sourcé Phase 2 ↔
   Phase 5. Géométrie de l'axe des 38 degrés fixée (`spec-technique-axe-38-degres`). **Reste** :
   inscrire la correspondance dans le futur `wiki-manifest` (v0.2.1) ; compléter les colonnes
-  Lettre/Nom Divin/Façç/Manzil (degrés 21-23, 25-27) de `table-28-degres-nafas-rahman`.
+  Lettre/Nom Divin/Façç/Manzil (degrés 21-27) de `table-28-degres-nafas-rahman` — **partiellement FAIT (2026-07-01)** :
+  Lettre/ciel/jour/prophète siégeant sourcés des pp. 38-41 (Gloton, transcription 2026-07-01) ; **reste** : Nom Divin / Faṣṣ / Manzil
+  de ces degrés (sources : ch. 198, Meftah).
 - **[App] Question §8.2 (directions horizontales)** — à trancher : Noms Divins abstraits **vs** quatre
   angles astrologiques AS/DS/MC/FC + qualités élémentaires. Les deux pistes ne s'excluent pas.
 - **[Process]** Faut-il faire évoluer `CLAUDE.md` vers une « V2 » actant la fusion wiki+instrument et
@@ -156,6 +158,9 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
 - ~~**Déposer** dans `raw/` : Ibn ʿArabī *De la mort à la résurrection* (Gloton)~~ — **FAIT (2026-07-01)** :
   fiche source [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] créée, `to-source` de
   `table-28-degres-nafas-rahman` et `symboles/eschatologie` levés.
+- **Amorce possible `modes-du-souffle` (items 39-50, p. 41 Gloton)** (2026-07-01) : matière neuve pour développer
+  [[doctrinal/symboles/nafas-rahmani]] (stub) — la liste des **12 modes d'intervention du Souffle** est transcrite
+  dans l'addendum Gloton pp. 38-41 (transcription 2026-07-01) ; à développer lors d'un ingest de lecture dédié.
 - **Compléter le récit eschatologique** (ingest de lecture, poste Claude.ai) : la fiche source actuelle
   ne transcrit que la **table cosmologique** du chapitre 198 (degrés 1-38, 28 Manāzil ; pp. 35-48).
   Reste à transcrire, pour développer pleinement [[doctrinal/symboles/eschatologie]] et [[doctrinal/symboles/barzakh]] :
