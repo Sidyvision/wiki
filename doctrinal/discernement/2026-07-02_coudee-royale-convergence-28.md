@@ -7,7 +7,7 @@ tags: [coudee-royale, metrologie, 28, double-ancrage, discernement]
 created: 2026-07-02
 updated: 2026-07-03
 sources: ["to-source"]
-sources_count: 1
+sources_count: 0
 cross_links: ["[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]"]
 ---
 

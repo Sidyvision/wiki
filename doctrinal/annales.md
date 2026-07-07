@@ -1,12 +1,31 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-07-03
+updated: 2026-07-07
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
+
+---
+
+## [2026-07-07] ingest | Ouverture du pôle Gizeh (science traditionnelle antédiluvienne) — lot complet v2
+
+Lot de 6 fiches (1 source + 4 discernement + 1 étude) + addendum bibliothèque physique.
+Texte de référence du pôle : Guénon, « Le Tombeau d'Hermès » (*Formes traditionnelles et Cycles cosmiques*) — filiation orthodoxe directe de la spéculation-mère et du symbolisme pyramide/Montagne sacrée/Pôle.
+
+**Fiches intégrées** :
+- `doctrinal/sources/2026-07-03_guenon-tombeau-hermes.md` — texte de référence permanent du pôle, statut traditionnel
+- `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien.md` — spéculation-mère, filiation guénonienne attestée
+- `doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh.md` — relevé comparatif brut, to-source
+- `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex.md` — topologie basculement plan/sphère
+- `doctrinal/discernement/2026-07-02_coudee-royale-convergence-28.md` — candidat double ancrage, réserve catégorielle
+- `doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence.md` — convergence fonction angle→temps
+
+**Addenda bibliothèque** : contenu fusionné dans `meta/bibliotheque-physique.md` section « Pôle Gizeh » (2026-07-03).
+
+**Aucun ancrage YAML instrument-donnees.yaml** proposé à ce stade ; tous les candidats (Qâf/apex/Rafîʿ ad-Darajât, convergence 28/coudée, conduits stellaires) restent en discernement `en cours`. Arbitrage d'ancrage : Sidy exclusivement, le critère de double ancrage servant de signal de vigilance.
 
 ---
 
