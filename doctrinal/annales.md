@@ -10,6 +10,106 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-05] integration | Lot final — protocole du don, équipe 12 agents Hermes, économie, fanzine, merchandising
+
+**Lot multi-circuits volumineux** : intégration complète de 11 fiches label + 1 discernement doctrinal + 12 hermes-prompts en anglais. Traitement fiche par fiche selon MASTER-UPDATE.md.
+
+**Lot décomposé en six séquences** :
+
+**Séquence A — Doctrinal** (1 fiche) :
+- `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise.md` — correspondances 5↔5 (archétypes ↔ Cinq Présences) et 12↔duodénaire. Hypothèse en cours, verdict réservé à l'utilisateur (Cmd 12).
+
+**Séquence B — Ossature label** (2 updates) :
+- `label/index.md` — création (circuit n'existait pas) ; index des fiches par secteur.
+- `label/annales.md` — création ; entrée initiale consignant le lot.
+
+**Séquence C — Distribution** (4 fiches) :
+- `label/distribution/doctrine-du-don.md` — principe unifié issu de la conversation fondatrice.
+- `label/distribution/strategie-vinyle-300-depositaires.md` — tirage offert, dépositaires internationaux.
+- `label/distribution/protocole-cercles-token.md` — registre numérique long terme, Soulbound, non-transférable.
+- `label/distribution/merchandising.md` — objets de collection, éditoriaux, sobres.
+
+**Séquence D — Direction artistique** (2 amorçages) :
+- `label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs.md` — Nen (Togashi), ruche, échecs ; imaginaire structurant (`en-gestation`).
+- `label/direction-artistique/amorcage/generation-non-cumulative.md` — valeur par interaction, jamais accumulation ; cinq archétypes, `en-gestation`.
+
+**Séquence E — Production & communication** (3 fiches) :
+- `label/production/modele-economique.md` — tension voulue Gardien ↔ Commerce ; flux revenus.
+- `label/marketing-communication/fanzine.md` — *Dans l'Absolu* (nom confirmé) : site/papier/expo, un seul organe, trois formes.
+- `label/production/equipe-agents-hermes.md` — 12 agents (plan horizontal) × 5 archétypes (plan vertical) ; Hermes Phase 1 en attente (budget).
+
+**Séquence F — Meta** (12 hermes-prompts, anglais) :
+- `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction.md` (Dépositaire, Peanut Butter Wolf)
+- `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction.md` (Faiseur, Vaughan Oliver/4AD)
+- `meta/projet-unifie/hermes-prompts/03-production-manager.md` (Tisseur, label manager indé)
+- `meta/projet-unifie/hermes-prompts/04-administration-legal.md` (Gardien, Passman adapté FR)
+- `meta/projet-unifie/hermes-prompts/05-accounting-management.md` (Gardien, CNM/régimes FR)
+- `meta/projet-unifie/hermes-prompts/06-distribution.md` (Transmetteur, Bandcamp-first/Rough Trade)
+- `meta/projet-unifie/hermes-prompts/07-marketing-communication.md` (Transmetteur, NTS Radio)
+- `meta/projet-unifie/hermes-prompts/08-publication-site.md` (Transmetteur, manifeste déterministe)
+- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md` (Faiseur, Russell Elevado/Bob Power)
+- `meta/projet-unifie/hermes-prompts/10-protocol-guardian.md` (Gardien, l'archétype incarné)
+- `meta/projet-unifie/hermes-prompts/11-fanzine-editor.md` (Faiseur, Wax Poetics)
+- `meta/projet-unifie/hermes-prompts/12-commerce-profitability.md` (Faiseur, Sacred Bones/Stones Throw)
+
+Tous : anglais, pas d'accès `meta/` personnel, référence à archetypes et doctrine (Cmd 12 étendu). Installation Hermes Phase 1 différée (budget).
+
+**Statut** : tous les liens label ↔ doctrinal restent suggérés (🔍) ; correspondances 5/12 non validées ; verdicts en attente. Lot termine la structuration opérative du label.
+
+---
+
+## [2026-07-07] restoration | Convention Sashimono — philosophie d'assemblage et six articles normatifs
+
+**Fiches intégrées** (2) :
+- `meta/philosophie-sashimono.md` — Directive Sashimono : analogie opératoire (jamais doctrinale) de la menuiserie japonaise sans clou ni vis comme philosophie d'assemblage du dépôt (quatre circuits, six articles normatifs, lexique conventionnel avec termes techniques japonais). Statut : outillage formalisé, validé par l'utilisateur le 2026-07-07.
+- `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md` — Question distincte (doctrinale) : le sashimono relève-t-il de la catégorie des métiers traditionnels au sens guénonien ? Instruction de la portée initiatique et sacrée possible du métier. Verdict réservé à l'utilisateur (Cmd 12) ; textes d'appui (Guénon, Coomaraswamy) en bibliothèque physique, levée du `to-source` requise.
+
+**Amendement CLAUDE.md** : 
+- Édition 1 (révision d'en-tête) : ajout de la ligne « **Révisé le 2026-07-07** : adoption de la philosophie et de la convention terminologique Sashimono (§VII, « Convention Sashimono » ; directive détaillée : `meta/philosophie-sashimono.md`). »
+- Édition 2 (§VII) : insertion de la sous-section « Convention Sashimono (philosophie d'assemblage — validée 2026-07-07) » avec les six articles, le lexique conventionnel (kigumi, hozo, kumiko, kari-kumi, sumi-tsuke, ki-dori) et les exclusions doctrinales.
+
+**Mise à jour doctrinal/index.md** : ajout de la nouvelle subsection « Sashimono et métiers traditionnels » au registre du discernement (§VII), avec lien à la fiche discernement et marqueur 🔍.
+
+**Statut doctrinal** : l'analogie opératoire demeure immédiatement applicable (Art. 1-6 du kigumi) ; la correspondance traditionnelle reste à trancher (fiche `discernement` en statut `speculatif`).
+
+---
+
+## [2026-07-07] integration | Framework d'étude de cas — master template + première étude (Stones Throw Records)
+
+**Fiches intégrées** (2) :
+- `meta/projet-unifie/framework-etude-de-cas.md` — Master Framework : grille systématique d'analyse pour entreprises/marques/maisons (10 modules + bloc Transposition 🔍), destinée à l'ingestion par tout moteur IA pour produire des études comparables.
+- `atelier/etudes-de-cas/stones-throw.md` — Cas d'école : Stones Throw Records (label de musique indépendant, fondation 1996, 30 ans, archétype de cohérence long-terme via curation institutionnalisée, survival via diversification revenue sans dilution du propos). Application complète du framework : 10 modules (identity/genesis, thesis & positioning, art direction, product/catalog, business model, production/logistics, distribution, marketing, culture/governance, trajectory) + Analysis et Signaux pour chaque ; Transposition bloc final avec 3 principes transposables (institutionalize one ear, name the chain/own flagship, build slow editorial objects), 2 garde-fous (no critical function without books, revenue diversification must not diversify propos), 1 expérimentation concrète (chain-of-custody block on release fiche).
+
+**Infrastructure atelier** : création `/atelier/index.md` — index synthétique du circuit (matériels, entretiens, projets, études de cas + lien au framework).
+
+**Statut du framework** : type confirmé `etude-de-cas` (déjà en CLAUDE.md §V.a) ; master template demeure suggéré 🔍 pour futures études ; sourçage des cas d'étude discipliné par le barème de crédibilité (A/B/C/D) du framework lui-même.
+
+---
+
+## [2026-07-06] archivage | Ouverture du pôle Fiqh — madhhab mālikite (préséance), Imam Mālik, science du fiqh, ressource ḥanbalite ; amendement protocolaire §V.c.6 + bloc ⚖️
+
+**Fiches doctrinales intégrées** (4) :
+- `doctrinal/traditions/madhhab-maliki.md` — école mālikite, fondements (ʿamal ahl al-Madīna), chaîne textuelle (Muwaṭṭaʾ, Risāla, Akhḍarī, Khalīl), préséance du pôle
+- `doctrinal/autorites/imam-malik.md` — Imam Mālik b. Anas (m. 179 H.), fondateur, référence du pôle
+- `doctrinal/symboles/fiqh.md` — science des statuts (aḥkām ʿamaliyya), divisions (ʿibādāt / muʿāmalāt), rôle opératoire du dépôt (§V.c)
+- `doctrinal/sources/al-madrasah-al-hanbaliyyah.md` — ressource ḥanbalite (recours subsidiaire), cursus de fiqh ḥanbalite
+
+Tous : `to-source` confirmés ; levée conditionnée à l'acquisition des textes mālikites de base (Akhḍarī, Khalīl, Risāla).
+
+**Systématisation fiqh du label** : double face du Gardien du Protocole (agents 04 & 10, Hermes v2) : 04 instruit les questions de droit traditionnel (⚖️ fiches, sources attribuées, pas de talfīq), 10 harmonise label ↔ doctrine (signaux ✅/⚠️/❓). Rapport du matin formalisé (§VII du CLAUDE.md V2). Proposition et prompts v2 archivés.
+
+**Amendement CLAUDE.md** : §V.c.6 (Alignement Fiqh, préséance mālikite, école subsidiaire documentée, pas de talfīq) ; action « EXAMEN DE FIQH » (bloc ⚖️ normalisé, §VII). Protocole demeure V2 rév. 2026-07-06 (les amend. Fiqh y étaient déjà intégrés au Lot 1).
+
+**Addendum bibliothèque physique** : section « À acquérir — pôle Fiqh » listant les 4 textes prioritaires ; acquisitions commandées dès validation de l'approvisionnement.
+
+---
+
+## [2026-07-06] restauration | Protocole V2 rév. — basmala, auto-suffisance, discipline des sources, ancrage éthique du label, supervision étendue
+
+Remplacement intégral du protocole `CLAUDE.md` : Restauration V2 (2026-07-06). Basmala en ouverture ; réintégration in extenso des protocoles d'exécution (auto-suffisance du protocole) ; discipline des sources (bibliothèque physique d'abord, levée du `to-source` par vérification primaire humaine, persona IA flagués) ; règle commune des manifestes (Instrument et site, script déterministe, flux à sens unique) ; ancrage éthique des actes contractuels et commerciaux du label (doctrine du don, tension Commerce ↔ Gardien, porte humaine Cmd 13, compétence qualifiée pour questions juridiques/fiscales) ; ouverture du pôle Fiqh (préséance mālikite, école subsidiaire documentée, action « EXAMEN DE FIQH » bloc ⚖️) ; supervision étendue des agents (§VIII.1-10) ; vigilance documentaire en clôture de session. Documents dérivés alignés : `00-instructions-projet.md`, `briefing-claude-ai.md` (V2, 2026-07-06).
+
+---
+
 ## [2026-07-07] ingest | Ouverture du pôle Gizeh (science traditionnelle antédiluvienne) — lot complet v2
 
 Lot de 6 fiches (1 source + 4 discernement + 1 étude) + addendum bibliothèque physique.

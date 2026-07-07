@@ -185,6 +185,19 @@ dépriorisé, non bloquant.*
 
 ---
 
+## À acquérir — pôle Fiqh (validé 2026-07-06)
+
+*Aucun manuel de fiqh mālikite en bibliothèque à ce jour — acquisition prioritaire
+pour lever les `to-source` du pôle.*
+
+- **Mukhtaṣar al-Akhḍarī** — texte de base de l'école (ʿibādāt). Confirmé par Sidy.
+- **Mukhtaṣar Khalīl** (Khalīl b. Isḥāq) — référence de l'école, niveau avancé ;
+  texte opératoire pour les muʿāmalāt (questions du label). Confirmé par Sidy.
+- *al-Risāla* (Ibn Abī Zayd al-Qayrawānī) — exposé classique, appui suggéré.
+- *al-Muwaṭṭaʾ* (Imam Mālik) — ouvrage fondateur, appui suggéré.
+
+---
+
 *Usage : cette page est le réservoir prioritaire pour le champ **Lectures suggérées** des
 fiches `doctrinal/discernement/` et des rapports VIGILANCE — à consulter avant toute
 suggestion externe non possédée. Les entrées `#a-revoir` restent utilisables immédiatement ;

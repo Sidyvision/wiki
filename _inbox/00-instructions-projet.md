@@ -101,7 +101,7 @@ cross_links: ["[[autre-slug]]"]
 ---
 ```
 
-Atelier (allégé) : `title, type (materiel|manuel|entretien|projet|etude-de-cas), tags, created,
+Atelier (allégé) : `title, type (materiel|manuel|entretien|projet), tags, created,
 updated, sources, links`. Label : voir CLAUDE.md §V.b (champs `bpm`, `tonalite`,
 `signature`, `daw` recommandés en `musique/ingenierie/`).
 

@@ -17,11 +17,7 @@ la dispersion mentale.
 > agents (mémoire, skills, canaux, extension `raw/`), vigilance documentaire, et
 > **ancrage éthique des actes contractuels et commerciaux du label** (§V.c) et
 > **ouverture du pôle Fiqh** (préséance mālikite, bloc ⚖️, double face du Gardien —
-> §V.c.6 et §VII).
-> **Révisé le 2026-07-07** : adoption de la philosophie et de la convention
-> terminologique Sashimono (§VII, « Convention Sashimono » ; directive détaillée :
-> `meta/philosophie-sashimono.md`).
-> On ne
+> §V.c.6 et §VII). On ne
 > parle jamais de « réforme » : une réforme prétend corriger le principe, une
 > restauration rétablit l'ordre normal. Le mot « réforme » est banni du dépôt.
 >
@@ -159,7 +155,7 @@ cross_links: ["[[autre-slug]]"]
 ```yaml
 ---
 title: "Titre exact"
-type: materiel | manuel | entretien | projet | etude-de-cas
+type: materiel | manuel | entretien | projet
 tags: []
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -417,41 +413,6 @@ briefs `meta/projet-unifie/`, fiches doctrinales liées, et le présent protocol
 doivent être mis à jour à la lumière des décisions prises. Proactif, jamais sur
 demande seulement. Toute divergence constatée entre ce protocole et un document
 d'instructions dérivé est signalée : **CLAUDE.md fait foi**.
-
-### Convention Sashimono (philosophie d'assemblage — validée 2026-07-07)
-
-Le dépôt adopte le **sashimono** (menuiserie japonaise assemblée sans clou : la
-solidité vient de la justesse du joint, jamais d'un fixateur étranger) comme
-philosophie d'assemblage et convention terminologique. Directive détaillée :
-`meta/philosophie-sashimono.md`. Statut : **analogie opératoire, jamais
-doctrinale** (la question doctrinale est instruite dans
-`doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md`, verdict
-réservé). Lettre des six articles :
-
-1. **Aucune pièce ne tient par colle** : ce qui ne repose que sur une assertion de
-   modèle (ni source primaire, ni script déterministe) se démonte ou se marque
-   🔍/`to-source`.
-2. **La coupe avant l'assemblage** : normaliser avant d'intégrer ; un lot mal
-   taillé retourne au sas, il ne s'ajuste jamais au marteau côté intégration.
-3. **Jamais de joint forcé** : toute résistance formelle suspend l'assemblage ; on
-   documente et on pose les pièces côte à côte.
-4. **Tout assemblage se présente à blanc** : 🔍, bac à sable, préversion — rien de
-   définitif sans validation humaine.
-5. **L'assemblage reste démontable** : réversibilité de chaque phase, `deprecated`
-   plutôt que suppression, traçabilité intégrale.
-6. **Le joint parfait est invisible, jamais secret** : l'interface masque la
-   jointure ; le dépôt (git, annales) la documente intégralement.
-
-**Lexique conventionnel** (orthographes `to-source`, valides comme convention
-interne) : **kigumi** = la philosophie elle-même (Art. 1) ; **hozo** (tenon-
-mortaise) = ancrage d'équivalence ; **kumiko** (treillis en plan) = ancrage de
-complémentarité ; **kari-kumi** (montage à blanc) = tout état suggéré 🔍 — l'onglet
-apophatique est la *vue kari-kumi du chantier* (les joints non taillés et les
-pièces manquantes s'y voient) ; **sumi-tsuke** (traçage à l'encre) = la fiche
-discernement, le trait précède la coupe ; **ki-dori** (choix de la pièce dans le
-bois brut) = VIGILANCE et travail sur `raw/`, la recherche de la pièce manquante.
-Termes esthétiques à charge doctrinale propre (*ma*, *wabi-sabi*...) : **exclus**
-de la convention sans fiche `discernement` préalable (Cmd 3).
 
 -----
 

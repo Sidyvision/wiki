@@ -16,6 +16,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 - [[doctrinal/traditions/tasawwuf|Le Taṣawwuf (soufisme, degré de l'iḥsān)]]
 - [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa|Ahl al-Sunnah wa-l-Jamāʿa (l'orthodoxie sunnite)]]
+- [[doctrinal/traditions/madhhab-maliki|Le madhhab mālikite (école de l'Imam Mālik)]]
 - [[doctrinal/traditions/sanatana-dharma|Le Sanātana Dharma (hindouisme)]]
 - [[doctrinal/traditions/naqshbandiyya|La Naqshbandiyya (ṭarīqa au dhikr silencieux)]]
 - [[doctrinal/traditions/shinto|Le Shintō (神道)]]
@@ -37,6 +38,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/eschatologie|Eschatologie (la doctrine des fins dernières)]] — stub
 
 ### Sciences Traditionnelles
+- [[doctrinal/symboles/fiqh|Le Fiqh (la science des statuts de la Loi)]]
 - [[doctrinal/symboles/ilm-al-huruf|ʿIlm al-Ḥurūf (la science des lettres)]]
 - [[doctrinal/symboles/ilm-al-nujum|ʿIlm al-Nujûm (l'astrologie traditionnelle)]]
 - [[doctrinal/symboles/manazil-al-qamar|Manāzil al-Qamar — les 28 Demeures lunaires]]
@@ -133,6 +135,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ### Maîtres et autorités traditionnels
 - [[doctrinal/autorites/rene-guenon|René Guénon (Cheikh ʿAbd al-Wāḥid Yaḥyā)]]
+- [[doctrinal/autorites/imam-malik|L'Imam Mālik b. Anas]]
 - [[doctrinal/autorites/ibn-arabi|Cheikh al-Akbar Ibn ʿArabī]]
 - [[doctrinal/autorites/al-ghazali|Imām al-Ghazālī]]
 - [[doctrinal/autorites/ahmad-al-buni|Cheikh Aḥmad al-Būnī]]
@@ -184,6 +187,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ## VI. Les Sources (`sources/`)
 
+- [[doctrinal/sources/al-madrasah-al-hanbaliyyah|Al-Madrasah Al-Hanbaliyyah (institut d'enseignement traditionnel ḥanbalite)]]
 - [[doctrinal/sources/awrad-ibn-arabi|Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)]]
 - [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi|Jesus and Enoch in the Barzakh of Ibn al-ʿArabī]]
 - [[doctrinal/sources/shams-al-maarif|Shams al-Maʿārif al-Kubrā (trad. française)]]
@@ -234,6 +238,12 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex|Topologie du basculement plan/sphère : Mont Qâf, Mont Meru et l'apex pyramidal]]
 - [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28|Candidat de double ancrage : coudée royale / convergence 28]] — `to-source`, réserve catégorielle
 - [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence|L'écart d'orientation comme marqueur temporel : note 7 de Guénon et Spence (2000)]] — convergence de fonction angle→temps
+
+### Sashimono et métiers traditionnels
+- [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel|Le sashimono comme métier traditionnel — fondement doctrinal de l'analogie opératoire]] 🔍 (verdict réservé)
+
+### Archétypes et organisation d'entreprise
+- [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise|Correspondances entre fonctions initiatiques et organisation d'entreprise (label)]] 🔍 (Cinq Présences ↔ cinq archétypes, duodénaire ↔ douze fonctions opératives ; verdict en cours)
 
 ---
 

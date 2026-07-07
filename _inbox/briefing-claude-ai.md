@@ -139,7 +139,7 @@ une porte automatique vers l'inscription.
 ```yaml
 ---
 title: "Titre exact"
-type: materiel | manuel | entretien | projet | etude-de-cas
+type: materiel | manuel | entretien | projet
 tags: [audio, compression]
 created: 2026-07-06
 updated: 2026-07-06
