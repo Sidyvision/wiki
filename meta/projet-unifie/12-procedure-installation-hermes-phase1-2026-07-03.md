@@ -1,10 +1,14 @@
 ---
 title: "12 — Procédure Phase 1 : Installation Hermes Agent + validation CLI (2026-07-03)"
 type: meta
-tags: [outillage, projet-claude-ai, infrastructure, hermes, qwen, runbook]
+tags: [outillage, projet-claude-ai, infrastructure, hermes, qwen, runbook, deprecated]
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-07
 ---
+
+> ⚠️ **Déprécié** : remplacé par
+> `13-pivot-haiku-installation-hermes-phase1-2026-07-07.md` (Hermes → API Anthropic
+> Haiku, plus de dépendance RunPod/vLLM). Conservé pour traçabilité (Cmd 10).
 
 # 12 — Procédure Phase 1 : Installation Hermes Agent + validation CLI
 

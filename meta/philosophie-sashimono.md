@@ -3,7 +3,7 @@ title: "Directive Sashimono — philosophie d'assemblage du dépôt"
 type: meta
 tags: [outillage, methode, protocole, sashimono, assemblage]
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-08
 ---
 
 # Directive Sashimono — philosophie d'assemblage du dépôt
@@ -123,7 +123,55 @@ joint forcé que l'Art. 3 interdit (ex. : rapprocher *ma* du *barzakh* serait un
 correspondance inter-traditionnelle relevant du Cmd 3, jamais d'une convention de
 vocabulaire).
 
-## 7. Limites et garde-fou
+## 7. Table canonique des pièces et des gestes
+
+Chaque fiche du dépôt s'identifie à sa pièce ou à son geste sashimono. **Règle
+d'implémentation (Art. 1 et 2)** : cette identité est **dérivée du champ `type` du
+Sceau Recteur** par la présente table — aucun champ nouveau n'est ajouté au
+frontmatter, aucune fiche existante n'est rééditée pour cela. Le Sceau est déjà la
+coupe de la pièce ; la table est la lecture, jamais un second marquage.
+
+### Les pièces (le bois — circuit des contenus)
+
+| `type` / lieu | Pièce | Lecture |
+|---|---|---|
+| `raw/` | **La grume** | Bois brut, non débité — rien n'en sort sans ki-dori. |
+| `source` | **Le bois débité** | Stock d'atelier vérifié (ki-dori accompli) ; seul bois dont on taille des pièces. |
+| `tradition` | **L'essence** | Chaque tradition est une essence au fil propre ; respecter le fil = respecter sa géométrie native. |
+| `symbole` | **La pièce taillée** | Membre destiné à l'assemblage, prêt à recevoir ses joints. |
+| `autorite` | **La main du maître** (*tōryō* `to-source`) | Celui dont la coupe fait foi ; la pièce porte la marque de sa main. |
+| `doctrine` | **L'ouvrage porteur** | Assemblage de pièces constituant une structure qui porte d'autres pièces. |
+| `etude` | **L'épure** | Le trait d'ensemble (*kiku-jutsu* `to-source`) : dessin qui étudie l'ouvrage sans être l'ouvrage. |
+| `deviation` | **Le bois vicié** | Nœud caché, fibre viciée — identifié précisément pour ne jamais entrer dans l'assemblage. Le contre-traditionnel est le clou déguisé en tenon. |
+| `discernement` | *(geste, non pièce)* | Sumi-tsuke — voir §6. |
+
+### Les gestes (protocoles et états)
+
+| Mécanisme | Geste | Déjà établi §6 |
+|---|---|---|
+| ARCHIVAGE & MAILLAGE | La taille et l'assemblage | — |
+| Fiche `discernement` | Sumi-tsuke (le trait avant la coupe) | ✓ |
+| État 🔍 / `speculatif` / préversion | Kari-kumi (montage à blanc) | ✓ |
+| VIGILANCE / travail sur `raw/` | Ki-dori (la recherche de la pièce manquante) | ✓ |
+| Ancrage d'équivalence | Hozo (tenon-mortaise) | ✓ |
+| Ancrage de complémentarité | Kumiko (treillis en plan) | ✓ |
+| `doctrinal/annales.md` | Le registre d'atelier | — |
+| `doctrinal/index.md` / manifestes | Le plan d'assemblage (nomenclature des pièces) | — |
+| `to-source` | Le gabarit en attente de son bois | — |
+| `deprecated` | La pièce déposée, conservée à l'atelier | — |
+
+### Les joints entre fiches (qualification prospective)
+
+Les correspondances entre fiches — la cible réelle de la lisibilité d'assemblage —
+sont les **joints** : `cross_links` et ancrages. Convention **prospective et
+facultative** : dans le corps d'une fiche (jamais dans le frontmatter), un lien
+significatif peut être qualifié en clair — *hozo* (équivalence établie), *kumiko*
+(complémentarité), *kari-kumi* (suggéré, redondant avec 🔍 qui reste le marqueur
+normatif). Application : fiches nouvelles, ou fiches existantes **au moment où on
+les touche pour une autre raison** — jamais de campagne de réédition en masse
+(Art. 2 : un lot mal motivé ne s'ajuste pas au marteau).
+
+## 8. Limites et garde-fou
 
 L'analogie est **opératoire, non doctrinale**. Elle ne fonde aucune équivalence
 entre le sashimono et un concept du Tasawwuf, de la métaphysique guénonienne ou de

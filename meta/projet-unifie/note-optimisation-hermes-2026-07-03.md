@@ -3,7 +3,7 @@ title: "Note d'optimisation — préparation de l'intégration Hermes Agent (202
 type: meta
 tags: [outillage, projet-claude-ai, infrastructure, hermes, qwen, decisions]
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-08
 ---
 
 # Note d'optimisation — vers l'intégration Hermes
@@ -47,8 +47,12 @@ hypothèse qui s'est révélée fausse (le coupable était le template, cf. `11-
   entre sessions.
 - Pour Hermes en **gateway** : le choix du GPU pèse directement sur le coût récurrent (voir 3.2).
 
-**Recommandation** : revenir à l'**A6000** dès que le diagnostic n'impose plus l'A100 — sauf si un
-gain de latence mesurable sur nos tâches justifie le surcoût, à évaluer en Phase 1.
+**RECOMMANDATION INFIRME** (2026-07-08) : le compte-rendu
+`14-compte-rendu-redeploiement-qwen-2026-07-08.md` §1.3 a démontré que l'A6000 (48 Go)
+ne convient pas à Qwen3.6-27B-FP8 dans une configuration utilisable en production
+(OOM même à `--max-model-len 65536`). **L'A100 (80 Go) reste la seule carte validée.**
+Piste de repli non testée : quantifier le cache KV (`--kv-cache-dtype fp8`) pour réduire
+l'empreinte mémoire sur A6000.
 
 ### 3.2 Mode d'hébergement : Pod à la demande vs Pod permanent vs Serverless
 
