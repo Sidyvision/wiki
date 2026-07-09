@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-07-03
+updated: 2026-07-09
 ---
 
 # Le Catalogue Universel
@@ -29,6 +29,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/wahdat-al-wujud|Waḥdat al-Wujūd (l'Unicité de l'Être)]]
 - [[doctrinal/symboles/barzakh|Le Barzakh (l'isthme ontologique)]]
 - [[doctrinal/symboles/walaya|La Walāya (la sainteté, proximité divine)]]
+- [[doctrinal/symboles/malamatiyya|Al-Malāmatiyya (les « gens du blâme ») et les Afrâd]]
 - [[doctrinal/symboles/al-insan-al-kamil|Al-Insān al-Kāmil (l'Homme Universel)]]
 - [[doctrinal/symboles/hadarat-khams|Les Cinq Présences divines (al-Ḥaḍarât al-Ilāhiyya al-Khams)]]
 - [[doctrinal/symboles/manvantara|Manvantara — les cycles cosmiques (Yuga) selon René Guénon]]
@@ -212,6 +213,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge|L'axe équinoxial, le zodiaque islamique et les Demeures lunaires (Mahdi Rouge)]]
 - [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge|Les bases de la science astrologique traditionnelle — ʿIlm al-Nujūm (Mahdi Rouge)]]
 - [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes|René Guénon — « Le Tombeau d'Hermès » (FTCC)]] — texte de référence du pôle Gizeh
+- [[doctrinal/sources/malamatiyah-futuhat-ch23|Ibn ʿArabī — Des pôles préservés à l'abri des regards (Futūḥāt ch. 23, trad. Penot) + annexes Guénon]]
+- [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription|Les Révélations de La Mecque — sommaire, notice, bibliographie, index et lexique (transcription intégrale)]]
 
 ---
 

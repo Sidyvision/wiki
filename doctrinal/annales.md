@@ -1,12 +1,28 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-07-07
+updated: 2026-07-09
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
+
+---
+
+## [2026-07-09] archivage | Malâmatiyah/Afrâd (Ibn ʿArabī, Futūḥāt ch. 23) — doctrine, corroboration Guénon, correction bibliothèque physique
+
+- **Opération** : ARCHIVAGE & MAILLAGE — lot Malâmatiyah selon UPDATES.md (traitement fiche par fiche).
+- **Créé** :
+  - [[doctrinal/sources/malamatiyah-futuhat-ch23]] (`source`, `traditionnel`, islam) — texte du chapitre 23 des Futūḥāt + notes Penot + annexes Guénon (chs. XXVIII-XXIX).
+  - [[doctrinal/symboles/malamatiyya]] (`symbole`, `traditionnel`, islam) — fiche doctrinale des Malâmatiyya et des Afrâd.
+  - [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] (`source`, `traditionnel`, islam) — transcription intégrale des annexes de l'anthologie Penot (sommaire, notice, bibliographie, index, lexique).
+- **Enrichi** :
+  - [[doctrinal/autorites/ibn-arabi]] — ajout section « La doctrine des Malâmatiyah / Afrâd ».
+  - [[doctrinal/autorites/rene-guenon]] — ajout section « Corroboration de la doctrine akbarienne des Malâmatiyah ».
+- **Corrigé** : [[meta/bibliotheque-physique.md]] — remplacement « Albin Michel, choix de textes » par édition Penot/Entrelacs 2009 confirmée (ISBN 978-2-908606-60-7).
+- **Index** : répercution en §II (Symboles : malâmatiyya sous Walāya) et §VI (Sources : deux entrées ajoutées).
+- **Note** : transcription des annexes close après recoupement intégral par Sidy sur le texte physique (deux erreurs de transcription corrigées : plage 321-333 pour Muhammad dans l'Index, doublon « 128 » sur *badal* dans le Lexique ; une erreur de structure corrigée : *al-Wâlî* dupliquée en tête de la lettre Y, repositionnée entre *walî* et *warîth*).
 
 ---
 

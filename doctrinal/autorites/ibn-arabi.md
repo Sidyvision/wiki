@@ -5,9 +5,9 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, andalousie, akbarisme]
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-07-09
 sources_count: 3
-cross_links: ["[[tasawwuf]]", "[[walaya]]", "[[salawat]]", "[[wird-awrad]]", "[[ali-hussain]]", "[[barzakh]]", "[[wahdat-al-wujud]]", "[[idris]]", "[[ilm-al-nujum]]"]
+cross_links: ["[[tasawwuf]]", "[[walaya]]", "[[salawat]]", "[[wird-awrad]]", "[[ali-hussain]]", "[[barzakh]]", "[[wahdat-al-wujud]]", "[[idris]]", "[[ilm-al-nujum]]", "[[doctrinal/symboles/malamatiyya]]", "[[doctrinal/sources/malamatiyah-futuhat-ch23]]"]
 ---
 
 # Ibn ʿArabī
@@ -49,6 +49,12 @@ Muḥyīddīn Abū ʿAbd Allāh Muḥammad ibn ʿAlī ibn Muḥammad ibn al-ʿAr
 - [[idris]] — figure du *quṭb* et du guérisseur dans sa cosmologie ; complémentaire de Jésus
 - [[barzakh]] — concept central de sa métaphysique ; Jésus en est l'archétype
 - [[ilm-al-nujum]] — sa conception du cosmos comme voyage est citée dans la tradition astrologique
+
+## Doctrine
+
+### La doctrine des Malâmatiyah / Afrâd (*Futūḥāt*, ch. 23)
+
+Dans le chapitre 23 des *Futūḥāt al-Makkiyya* — « Des pôles préservés à l'abri des regards » —, Ibn ʿArabī expose la doctrine des *malâmiyya* (« gens du blâme »), également nommés *afrâd* (« esseulés ») : une catégorie de saints parvenus à la proximité la plus haute de la *wilâya*, que seule la prophétie surpasse, et qui dissimulent volontairement leur degré spirituel. Il y distingue la *taswîd* (mise en avant, seigneurie) — perfection requise du prophète-législateur — du défaut qu'elle constituerait chez le saint, dont la vocation est inverse : se fondre dans la foule, éviter la notoriété sauf décision divine contraire. Voir [[doctrinal/symboles/malamatiyya]] pour le traitement doctrinal complet, sourcé sur [[doctrinal/sources/malamatiyah-futuhat-ch23]] (trad. A. Penot, Entrelacs 2009, confirmée en bibliothèque physique).
 
 ## Notes
 

@@ -3,7 +3,7 @@ title: "Bibliothèque physique de travail"
 type: meta
 tags: [bibliotheque, lectures-suggerees, ressource]
 created: 2026-06-28
-updated: 2026-07-03
+updated: 2026-07-09
 sources: []
 links: []
 ---
@@ -72,7 +72,7 @@ déviations modernes.*
 
 ### Ibn ʿArabî et son école
 - *De la mort à la résurrection* (trad., introduction et annotation Maurice Gloton, Albouraq, coll. « Héritage Spirituel ») — CONFIRMÉ (2026-07-01). Texte primaire d'Ibn ʿArabî ; le diagramme de couverture présente la table des 28 degrés cosmologiques (lettres arabes × degrés de manifestation) — source primaire directe pour [[doctrinal/symboles/table-28-degres-nafas-rahman]].
-- *Les Révélations de la Mecque* (*Al-Futûhât al-Makkiyyah*, choix de textes, Albin Michel)
+- *Les Révélations de la Mecque* — anthologie traduite, commentée et annotée par ʻAbd Allâh Penot (Entrelacs, 2009, ISBN 978-2-908606-60-7), anthologie de la première section des *Futûhât* — CONFIRMÉ en bibliothèque physique (2026-07-09).
 - *Le Livre des Chatons des Sagesses* (*Fusûs al-Hikam*, trad. et comm. Charles-André Gilis, Éd. de l'Œuvre, Tomes I & II) `#a-revoir`
 - *Le Livre des Haltes* (*Kitâb al-Mawâqif*, Émir Abd el-Kader, trad. Michel Chodkiewicz et Charles-André Gilis, Seuil/Dervy) — Tome I ; Tome II (haltes 20–66) ; Tome III (haltes 67–99) `#a-revoir`
 - *Le Livre de l'ascension* (*Kitâb al-Isfrâ*, trad. C.-A. Gilis)
