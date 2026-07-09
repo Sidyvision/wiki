@@ -10,6 +10,16 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-09] archivage | Transcription Meftah — préliminaires, tableau récapitulatif, annexe, index, chapitre V
+
+- **Opération** : ARCHIVAGE & MAILLAGE — enrichissement de [[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq]].
+- **Créé** : [[doctrinal/sources/meftah-chatons-sagesses-transcription]] (`source`, `traditionnel`, islam) — transcription intégrale (photographies haute résolution de l'exemplaire physique) : couverture, présentation du traducteur, introduction, préface, extraits Première Partie (pp. 6-7, 10-11), table des matières complète, tableau récapitulatif des 28 degrés (pp. 409-411), annexe des 4 computs alphabétiques (p. 403), index (pp. 405-407), chapitre V « Le rapport des Fuçûç avec les nombres : 6, 12, 36, 360, 365 » (pp. 394-401) in extenso.
+- **Non transcrit (signalé dans la fiche)** : corps des 28 sections de la Deuxième Partie (pp. 63-352, développement doctrinal détaillé par degré), sections I-IX de la Première Partie, sections I-IV de la Troisième Partie, pp. 353-358.
+- **Pertinence** : renforce la source primaire de [[doctrinal/symboles/table-28-degres-nafas-rahman]] (convergence 28 fuçûç / 28 lettres / 28 degrés du nafas al-rahmân / 28 Manāzil).
+- **Lien retour** : ajouté dans [[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq]] (symétrie avec le doublet Jurjānī).
+
+---
+
 ## [2026-07-09] archivage | Malâmatiyah/Afrâd (Ibn ʿArabī, Futūḥāt ch. 23) — doctrine, corroboration Guénon, correction bibliothèque physique
 
 - **Opération** : ARCHIVAGE & MAILLAGE — lot Malâmatiyah selon UPDATES.md (traitement fiche par fiche).

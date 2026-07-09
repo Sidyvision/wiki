@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ibn-arabi, fusus-al-hikam, nafas-rahmani, maratib-al-wujud, barzakh, al-insan-al-kamil, alam-al-huruf, manazil-al-qamar, meftah, albouraq]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-09
 sources: []
 sources_count: 0
-cross_links: ["[[ibn-arabi]]", "[[nafas-rahmani]]", "[[barzakh]]", "[[al-insan-al-kamil]]", "[[ilm-al-huruf]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]"]
+cross_links: ["[[ibn-arabi]]", "[[nafas-rahmani]]", "[[barzakh]]", "[[al-insan-al-kamil]]", "[[ilm-al-huruf]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "[[meftah-chatons-sagesses-transcription]]"]
 ---
 
 # Le Symbolisme Universel des Châtons des Sagesses — Abdel-Bâqî Meftah (Albouraq)
