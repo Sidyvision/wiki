@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [fuçûç-al-hikam, ibn-arabi, meftah, transcription, nombres-symboliques, abjad, tableau-recapitulatif, nafas-al-rahman]
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-10
 sources: ["[[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/hadarat-khams]]"]
@@ -256,3 +256,80 @@ La somme des valeurs numériques de toutes les lettres = 5995 (somme des chiffre
 - **Sections I-IV de la Troisième Partie** (pp. 368-393) : pourquoi 28 degrés, les nombres-pivots 406 et 1572, rapport de 28 aux chiffres 4 et 7 et aux « sourates lumineuses », indications relatives au serviteur parfait et aux degrés des paradis/enfers.
 - **La station du sceau dans le Coran** et **la fonction de sceau du *sheikh al-akbar*** (pp. 353-357).
 - **Correspondance prophètes / tours zodiacales / *wilâya* / mois / *al-fâtiha*** (p. 358).
+
+---
+
+## Compléments de transcription v3 — notes de bas de page et précisions méthodologiques
+
+*Renforcement par 8 photographies complémentaires haute résolution (2026-07-09, v3). Les notes ci-dessous ont été perdues dans la synthèse initiale (v1 fautive corrigée en v2) et sont restituées ici fidèlement aux photographies.*
+
+### Notes de bas de page — Présentation du traducteur (p. 5)
+
+1. Sauf indication contraire, les notes sont du traducteur.
+2. Sur cette question, voir M. Chodkiewicz, *Un océan sans rivage* (Paris, 1992) et C.-A. Gilis, *Les clés des demeures spirituelles dans les futûhât d'Ibn Arabi* (dans *René Guénon et l'avènement du troisième sceau*, Paris, 1991).
+3. La doctrine des états multiples de l'Être a été exposée par R. Guénon dans ses deux ouvrages *Le symbolisme de la croix* et *Les états multiples de l'Être*.
+4. Les « clés ontologiques (*mafâtîh wujûdiyya*) » sont les Noms divins qui régissent la production des états multiples de l'Être.
+
+### Notes de bas de page — Pages 6-7 (suite introduction)
+
+2. Appelé habituellement : « l'expir du Tout-Miséricordieux », c'est une désignation de la manifestation universelle et l'expression de la « Grâce universelle (*al-rahmâniyya*) », al-rahmân, la personne divine qui « siège sur le Trône », étant proprement « celui qui est doué de la puissance matricielle (*al-rahma*) ». Cet expir rahmanien correspond à la phase descendante de « l'action de la double force cosmique », c'est-à-dire « la sortie dans le manifesté » (voir R. Guénon, *La grande triade*, chap. V). Dans la présente traduction, le mot *rahmân* (et l'expression *nafas al-rahmân*) n'est pas systématiquement rendu en français, afin d'éviter la traduction courante, d'inspiration religieuse chrétienne, par : « Tout-Miséricordieux ». Le mot « miséricorde » vient du bas latin *misericordia* qui signifie précisément : « sensibilité du cœur [latin : *cor, cordis*] à la détresse [latin : *miseria*] ».
+3. C'est-à-dire, précisément ici : *al-rahmân*, principe de la manifestation, ou encore l'Être pur et « première détermination principielle », pour reprendre une expression de R. Guénon. *Al-rahmân* représente ainsi l'aspect principiel du Verbe divin, ou verbe « non-proféré » (*ma'nâ al-fahwâniyya*), comprenant l'ensemble des possibilités de manifestation actualisées ensuite par le Souffle rahmânien, ou verbe « proféré » (*fahwâniyya*) [sur *al-fahwâniyya* (litt. : « profération ») de *fâha* : « dire, prononcer » et *fâh* : « bouche »] voir Ibn Arabi, *Le livre du Mîm du Wâw et du Nûn*, § 18 (édition et traduction C.-A. Gilis, Paris, 2002). Ces deux aspects du verbe sont, respectivement, *cit* (l'Intellect universel) et *vac* (la parole) dans la tradition hindoue.
+4. Appelé aussi le « calame suprême (*al-qalam al-a'lâ*) », ou l'*alif*, symbole de l'axe du monde (*sutrâtmâ* dans la doctrine hindoue), qui sont autant de désignations de la « Réalité muhammadienne (*al-haqîqa al-muhammadiyya*) », polarisée dans les deux faces du *barzakh* muhammadien qui sont *al-rahmân* et *al-rûh* (l'esprit) (correspondant encore dans la doctrine hindoue à *âtmâ* et *buddhi*).
+5. Voir sur cette question : la *basmala* est le nom de la formule de sacralisation : *bismillâh al-rahmân al-rahîm*.
+
+Note sur le nombre 314 (page 11) : valeur numérique du nom *muhammad*, de l'expression *al-insân al-kâmil* (« l'Homme Universel »), du nom hébraïque *shaddaï* (Guénon, *Le roi du monde*, chap. III), et du nom *Metatron* (arabe : *mitatrûn*) — Metatron étant identifié à Hénoch, lui-même identifié en Islam à Idrîs, « le pôle du monde humain ». Il s'agit en fait d'autant de désignations de l'Intellect universel, qui s'identifie lui-même à sa projection axiale dans les différents degrés de la manifestation universelle et de « l'être total », et de sa réalisation synthétique dans l'Homme universel (voir sur cette question : R. Guénon, *Esprit et Intellect*, où cette identification est envisagée d'un point de vue hindou comme étant celle d'*âtmâ* et *buddhi*, et correspond, d'un point de vue islamique, aux deux aspects du *barzakh* muhammadien ; voir sur ce dernier aspect et ses rapports avec le symbolisme de Metatron, l'article de R. Guénon, *Er-Rûh*).
+
+### Notes de bas de page — Préface (pp. 13-16)
+
+1. Les 3 degrés dans la voie muhammadienne, tant d'un point de vue exotérique qu'ésotérique. (*islâm, îmân, ihsân*) Correspondent notamment à la distinction entre *sharî'a*, *tarîqa*, *haqîqa* (voir R. Guénon, *L'écorce et le noyau*), à celle entre les 3 degrés d'extinction dans la « servitude spirituelle » : *'ibâda*, *'ubûdiyya*, *'ubûda*, aux 3 degrés de la « certitude Intellectuelle » (*yaqîn*) : *'ilm al-yaqîn*, *'ayn al-yaqîn*, *haqq al-yaqîn*, ou encore à 3 catégories dans la communauté (*umma*) musulmane : *al-'âmma* (ceux qui suivent l'islam exotérique), *al-khâçça* (l'élite des initiés), *khâçça al-khâçça* (l'élite de l'élite, comprenant les êtres réalisés). Ces 3 degrés islamiques correspondent respectivement aux trois « voies » (*mârga*) selon la tradition hindoue (voir R. Guénon, *Les trois voies et les formes initiatiques*).
+2. Litt. : « qualitativement et quantitativement » (*kayfan wa kamman*).
+3. *hadra* : litt. : « présence », désigne en général dans les écrits d'Ibn Arabi un état de l'Être, en tant qu'actualisation du Principe divin qui s'y trouve nécessairement « présent » sous un aspect particulier, ou un degré de connaissance ou de contemplation, dans un sens proche de la *parousia* néo-platonicienne.
+97. Référence croisée avec la note 3 ci-dessus.
+1. *futûhât*, chap. 366 [éd. classique (Dar sader, Le Caire, 1329 H), III, p. 334]. Sauf indication contraire, les références au texte arabe des *futûhât* renvoient à l'édition Dar sader.
+2. Expression d'origine coranique (Cor. XLI, 53) : « Nous leur ferons voir nos signes (*ayâtinâ*) aux horizons et dans leurs âmes » qui s'applique aux êtres manifestés dans le monde comme étant des signes divins extérieurs et auxquels correspondent, à l'intérieur, dans l'âme, les signes divins d'essence Intellectuelle comme les pensées et les idées.
+3. Othman Yahyâ, *Histoire et classification de l'œuvre d'Ibn Arabi*, Damas, 1964.
+1. Les verbes *alqâ* (« jeter, projeter ») et *anzala* (« faire descendre ») sont des termes coraniques. Employés ici par Ibn Arabi pour décrire les modalités selon lesquelles il a reçu, écrit, et transmis le livre des *fuçûç al-hikam*.
+2. Trad. C.-A. Gilis, *Le livre des châtons des sagesses*, Beyrouth, 1997 ; p. 28.
+3. M. Jandî, *sharh fuçûç al-hikam*, Mashhad U.P., Iran, 1982 ; p. 5.
+4. *fuçûç al-hikam*, édition et commentaire par A. A. 'Afîfî, Beyrouth, 1980.
+5. S. Qûnawî, *al-fukûk fî asrâr mustanadât hikam al-fuçûç*.
+
+### Notes de bas de page — Chapitre V (pp. 394-401)
+
+1. « Est maintenant claire pour toi la signification du chiffre 8, qui totalise la royauté (*al-mulk*) symbolisée par le Trône divin… Ce chiffre 8 se rapporte aux 8 rapports (*nisab*) par lesquels est qualifié le Vrai principiel (*al-haqq*) : la Vie, la Science, la Puissance, la Volonté, le Verbe, l'Audition, la Vision, et la Perception du goût, de l'odeur, et du toucher… C'est pourquoi la royauté est comprise en huit : quatre sont manifestes dans ce bas-monde : la forme (*al-çûra*), la nourriture, et les deux degrés. Au jour de la Résurrection, le huit apparaîtra par leur union dans la vision intuitive (*'iyân*), selon Sa parole : "…ce jour-là, huit porteront le Trône de ton Seigneur au-dessus d'eux" (Cor. LXIX, 17). Et [le prophète Muhammad] a dit : "Aujourd'hui, ils sont quatre". Quant au Trône en tant que Siège (*sarîr*), *Allâh* a des anges qui le portent sur leurs épaules : aujourd'hui ils sont quatre, et demain ils seront huit… Ce que la tradition rapporte sur les formes de ces quatre Porteurs est conforme au propos d'Ibn Massarra : le premier est selon la forme humaine, le deuxième selon celle du lion, le troisième selon celle de l'aigle, et le quatrième selon celle du taureau… » (*fut.*, chap. 13).
+2. Soit les deux parties de la profession de foi (*shahâda*) islamique.
+3. Le *tahlîl* est l'énonciation de la formule *lâ ilâha illâ Allâh*.
+1. cf. la traduction de cette 9e section du chapitre 198 des *futûhât* par M. Gilis dans *Le Coran et la fonction d'Hermès*, Paris, 1984.
+2. Cor. LXXXVII, 1.
+3. Ou « la dîme » (litt. : l'impôt du dixième) qui est un autre sens du mot *'ushr* compris ici comme un équivalent de *zakât*.
+4. Ibn Arabi établit (dans ce chapitre 348 des *fut.*) la correspondance du Temps transcendant (*al-dahr*) avec les Noms divins. Le Temps transcendant est essentiellement « un jour unique… qui ne contient ni jour ni nuit… Quand les Noms divins Le saisissent, ils déterminent leurs statuts (*ahkâm*) dans ce jour éternel sans fin ni commencement qui est le principe du Temps transcendant des jours divins… Puis *Allâh* a disposé ces jours, dont nous avons la connaissance, et que le mouvement de la sphère sans étoiles a produit, ainsi que le jour et la nuit, produits par le mouvement du cœur, je veux dire le Soleil, afin de déterminer les statuts (*ahkâm*) des jours divins appartenant aux Noms… ».
+1. Un nombre complet (*'adad tâmm*) est celui qui est égal à la somme de ses parties (cf. *supra* section II).
+
+### Note de prudence méthodologique — Tableau récapitulatif (colonne « Lettre »)
+
+Malgré la nette amélioration de résolution (v3, photos complémentaires haute résolution), la lecture de lettres arabes isolées de petite taille sur photo reste un exercice où subsistent des risques de confusion entre lettres graphiquement proches (ex. ح/ج/خ, د/ذ, ر/ز, س/ش, ص/ض, ط/ظ, ع/غ). La colonne « Lettre » du tableau récapitulatif est donc à vérifier directement sur l'original imprimé avant tout usage doctrinal (ex. fiche sur l'ordre *nafassî* des lettres). Le tableau des quatre computs alphabétiques (p. 403, 28 lignes) est en revanche confirmé intégralement.
+
+---
+
+## Index alphabétique complet (pp. 405-407, restitutions v3)
+
+*L'index ci-dessous complète l'extrait A-Z synthétisé plus haut par les entrées absentes :*
+
+*Ahmad* 56, 74, 95, 226, 228, 260, 332-333, 342, 346 · *'âlam, 'âlam al-mithâl* 136, 161, 164, 238 · *'amâ'* 66, 81, 111, 191, 260, 328, 371 · *'amal* 88, 274, 380 · *'aql* 70, 72, 172, 251, 255, 275, 282, 285, 299, 339 · *âtmâ, sutrâtmâ* 6, 11, 144, 287 · *'ayn, a'yân* 13, 20, 26, 30, 37, 43, 47, 51, 53-54, 69, 73-75, 92-96, 103, 105, 108, 113-114, 124, 155, 168, 185, 195, 203, 207, 209, 247, 272, 275, 294, 332, 343, 351, 371, 385 · *baqâ'* 46, 294, 312, 388 · *bast* 156, 253, 263, 313 · *bâtin* 52, 67, 93, 143, 370 · *brahma, brahman* 248 · *çadr* 89-91 · *çamad* 321 · chiffres 5 et 6 129 · *çifa* 64, 104, 166, 253 · *çûra* 18, 20, 26, 46, 55-56, 65, 90, 113-115, 129, 135, 140, 147, 150, 164, 178, 184, 194, 207, 223, 249, 271-272, 285, 327-328, 344, 385, 396 · *dhikr* 254, 256, 263, 267, 314, 342 · *dîn* 141-142, 153, 156-157, 190, 250-251, 302, 322, 337, 365 · *fanâ'* 46, 67, 131 · *fard, fardiyya* 20, 76, 97, 102, 167, 186, 188, 189, 327, 328, 330, 347 · *fatâ* 359 · *ghayb* 20, 67-68, 104, 108, 153, 225, 257, 259, 363 · *habâ'* 114 · *hadra* 13, 16, 23, 26, 52-53, 93, 121, 129, 164-165, 174, 178, 202, 223, 227, 233, 299, 308, 318, 334, 353, 394 · *hâl* 19, 67, 220, 222, 276, 369 · *hanîf, hanîfiyya* 133 · *hayûlâ* 46, 113, 116-117, 176-177 · *hikma* 18, 20, 112, 189, 281, 286, 290 · *Hiranyagarbha* 161, 287 · *huwa* 78-79, 106, 129-131, 171, 188, 357 · 'ibâda, 'ubûda, 'ubûdiyya 13, 122, 191, 361 · *'ilm* 13, 37, 99, 105, 195, 197, 202-203, 213-214, 274, 284, 310, 364, 380, 397 · Imâm, Imâm mubîn 15, 35, 71, 83, 95, 162, 173, 175, 216, 233, 301, 303-304, 352, 359, 386, 399 · *inniyya* 105-106 · intercession 22, 266, 330, 351 · *irâda* 68, 113, 191, 207 · *istihâla, istihâlât* 313 · *jawâmi' al-kalim* 20, 271, 350 · *kalâm* 45, 57, 183, 213, 351 · *kharq al-'awâ'id* 151, 284 · *khayâl* 16, 49, 94, 137, 161, 226, 238, 267 · *kursî* 60 · *lafzî* 53, 345 · lettres isolées 163, 186, 249, 348, 363, 375 · *majlâ* 24, 115, 323, 326 · *malk* 205 · *ma'nâ, ma'ânî* 6, 54 · *maqâm, maqâm mahmûd* 13, 18, 21, 54, 67, 84, 112, 128, 153, 187, 189, 191, 219, 225, 234, 239, 247, 332, 335, 347, 350-352 · *maqûlât* 135, 369, 371 · *mashî'a* 247 · *mathal, mithâl* 63, 64, 67, 284 · *mitatrûn* (Metatron) — · *mizân* 140 · *mutlaq, itlâq* 143, 257, 277 · *nafassî* 53, 55-57, 181, 375, 380-381, 383 · *nafs, nafs kulliyya, nafs nâtiqa* 30, 78, 80, 85, 105, 143, 255, 258, 310 · *nisab (nisba)* 53, 96, 283, 343, 351, 371, 394 · *nubuwwa* 196, 219, 221, 261 · *nuqta al-açliyya* 144, 287 · *nûr* 218 · *qabd* 156, 252-254, 263 · *qabda* 252, 331 · *qalb, qalbiyya* 56, 89, 126, 190, 252, 264, 380-381 · *qudra* 222, 307 · *rabb, rabbânî* 26, 147, 180, 315, 399 · *risâla* 65, 80, 89, 184, 196, 221, 245, 321 · *sakîna* (shekina) 126 · *shakl* 46, 114, 127, 129, 135-136, 138-140, 147, 150, 153, 226, 249 · *siyâda* 272, 351, 375 · *tabî'a* 46, 101, 104, 109 · *tadbîr* 107, 284 · *tannûr* 99, 287 · *tanzîh* 16, 46, 94-95, 104, 112, 153, 170, 230, 277, 376 · *taqyîd* 152-153 · *thubût* 16, 127-128, 295, 333 · *umma* 13, 301, 334-335 · *ummahât* 37-38, 167, 184, 350, 384, 398 · *umm, ummî, umm al-kitâb* 71, 141, 209, 301, 335, 341, 344, 360 · *wahda* 16 · *zâhir* 52, 67, 120-121, 130-131, 143, 230, 370
+
+---
+
+## État de la transcription v3
+
+**Fin de la transcription v3** — statut : partielle mais renforcée, fidèle aux 21 photographies initiales + 8 photographies complémentaires haute résolution.
+
+*Corrections apportées par rapport à la v1 (fautive) :*
+- *Suppression de tous les passages fabriqués/corrompus (répétitions incohérentes, phrases inventées).*
+- *Retranscription verbatim des pages effectivement lisibles, avec structure de notes de bas de page fidèle à l'original.*
+- *Ajout d'une section explicite « lacunes identifiées » (ci-dessus « Reste à transcrire ») pour éviter toute confusion entre ce qui a été photographié et ce qui ne l'a pas été.*
+
+*Améliorations apportées en v3 (photos complémentaires) :*
+- *Pages 6-7 et 10-11 : confirmées intégralement, le bleed-through ne masquait aucun contenu doctrinal supplémentaire.*
+- *Tableau des computs alphabétiques (p. 403) : confirmé intégralement, 28 lignes.*
+- *Tableau récapitulatif (pp. 409-411) : fusionné en une table unique complète (28 degrés), lettres arabes de la colonne « Lettre » relues sur photos nettes — avec réserve méthodologique (voir plus haut).*
+- *Les autres lacunes listées ci-dessus (corps des 28 sections de la Deuxième Partie, sections I-IX de la Première Partie, sections I-IV de la Troisième Partie) demeurent non photographiées à ce stade.*

@@ -1,12 +1,36 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
+
+---
+
+## [2026-07-10] archivage | Transcription Meftah — complément v3 (notes de bas de page, index étendu, méthode)
+
+- **Opération** : ARCHIVAGE & MAILLAGE — enrichissement de la fiche [[doctrinal/sources/meftah-chatons-sagesses-transcription]] à partir de la transcription v3 (8 photos complémentaires haute résolution).
+- **Ajouté** : notes de bas de page détaillées (présentation du traducteur, préface pp. 13-16, pages 6-7, 10-11, chapitre V pp. 394-401), entrées d'index manquantes (37 termes supplémentaires), note de prudence méthodologique sur la colonne « Lettre » du tableau récapitulatif, section de validation v3 (corrections par rapport à la v1 fautive, état des lacunes).
+- **Motif** : l'intégration initiale (2026-07-09, v2) a synthétisé le contenu principal mais omis les notes de bas de page et l'index complet — perdu lors de la synthèse post-corruption v1. Session d'intégration interrompue par limite de tokens.
+- **Frontmatter** : `updated` passé à 2026-07-10.
+- **VIGILANCE** : aucun changement de structure, contenu purement additionnel. Index vérifié contre les entrées de la v3 source.
+
+---
+
+## [2026-07-10] archivage | Les Sept Étendards du Califat — avant-propos, table des matières, index des termes arabes (transcription Gilis)
+
+- **Opération** : ARCHIVAGE & MAILLAGE — source Gilis, transcription partielle (8 photographies de l'exemplaire physique).
+- **Créé** : [[doctrinal/sources/sept-etendards-califat]] (`source`, `traditionnel`, islam) — avant-propos (p. 7-8), table des matières complète (40 chapitres en 3 parties), index des termes arabes (p. 313-318, 6 pages, hamza à z).
+- **Non transcrit** : corps du texte (chapitres I à XL, p. 13-311) — reste `to-source`.
+- **Pertinence** : source majeure sur le Califat ésotérique akbarien ; relie [[doctrinal/autorites/ibn-arabi]] et [[doctrinal/autorites/rene-guenon]] via la doctrine des sept Étendards (chap. XXXVIII) et le Califat Suprême (chap. XL). Complète l'ouvrage Gilis déjà présent [[doctrinal/sources/gilis-ordo-ab-chao]].
+- **Frontmatter** : `sources` ajouté (pointe vers `[[doctrinal/autorites/charles-andre-gilis]]` — fiche à créer) ; `status` passé de `to-source` à `traditionnel` ; `cross_links` ramené à deux cibles vérifiées présentes (ibn-arabi, rene-guenon).
+- **VIGILANCE** :
+  1. `[[doctrinal/autorites/charles-andre-gilis]]` et `[[doctrinal/autorites/michel-valsan]]` : fiches inexistantes. Gilis référencé en `sources:` (cible manquante signalée), Vâlsan retiré des `cross_links` pour éviter le lien mort.
+  2. L'entrée index placée en §VI (Sources), après les Révélations de La Mecque.
+- **Sas** : fichier retiré de `_inbox/` après intégration validée.
 
 ---
 

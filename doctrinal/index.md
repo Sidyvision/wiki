@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 # Le Catalogue Universel
@@ -216,6 +216,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes|René Guénon — « Le Tombeau d'Hermès » (FTCC)]] — texte de référence du pôle Gizeh
 - [[doctrinal/sources/malamatiyah-futuhat-ch23|Ibn ʿArabī — Des pôles préservés à l'abri des regards (Futūḥāt ch. 23, trad. Penot) + annexes Guénon]]
 - [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription|Les Révélations de La Mecque — sommaire, notice, bibliographie, index et lexique (transcription intégrale)]]
+- [[doctrinal/sources/sept-etendards-califat|Les Sept Étendards du Califat — avant-propos, table des matières, index des termes arabes (transcription, Gilis)]]
 
 ---
 
