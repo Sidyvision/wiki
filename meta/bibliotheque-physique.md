@@ -3,7 +3,7 @@ title: "Bibliothèque physique de travail"
 type: meta
 tags: [bibliotheque, lectures-suggerees, ressource]
 created: 2026-06-28
-updated: 2026-07-09
+updated: 2026-07-10
 sources: []
 links: []
 ---
@@ -85,6 +85,7 @@ déviations modernes.*
 - **Ibn ʿAtâ' Allâh al-Iskandarî** — *Hikâm (Paroles de sagesse / Traité sur le nom Allâh)* ; *La clef de la réalisation spirituelle et l'illumination des âmes*
 - **Shaykh al-Dabbâgh** (trad. Zakaria Sîddîqî) — *Paroles d'or* (*Al-Ibrîz*, Tasnim) — transmission directe, *fatḥ*.
 - **Titus Burckhardt** — *Clés spirituelles de l'astrologie musulmane* (Archè Milano, 1983) — commentaire d'Ibn ʿArabî sur les 12 Anges zodiacaux, les trois modalités de signes (Fixes/Cardinaux/Mutables) et leur correspondance avec les trois mondes (barzakh inclus) ; source directe pour [[doctrinal/symboles/manazil-al-qamar]].
+- **Titus Burckhardt** — *Introduction aux doctrines ésotériques de l'Islam* (Dervy, coll. « l'Être et l'Esprit ») — p. 111-114 : Union, cinq Présences (texte intégral), wilâyah, Sceau de la Sainteté ; p. 114 note 2 : nomenclature Nâsût/Malakût/Jabarût/Lâhût/Hâhût (Omission de recension initiale, ajouté 2026-07-10).
 
 ### Abdel-Bâqî Meftah
 - *Le Symbolisme Universel des Châtons des Sagesses* — Exposé complet des clés de compréhension des *Fuçûç al-hikam* d'Ibn al-ʿArabî (trad. intégrale et notes D. Tournepiche), Éditions Albouraq, coll. « Héritage Spirituel » — CONFIRMÉ en bibliothèque physique (2026-07-01). Mandala concentrique des 28 fuçûç sur la couverture — pertinent pour la modélisation visuelle de l'Instrument. NB : distinct de *Les Clés ontologiques et coraniques des Fuṣūṣ al-Ḥikam* (Éd. Arma Artis, 2011) du même auteur, cité dans les articles Mahdi Rouge mais NON possédé — les citations Meftah p. 115-116 et p. 144 des fiches sources en proviennent.
@@ -99,7 +100,9 @@ déviations modernes.*
 
 ### Études, filiations contemporaines, commentateurs occidentaux
 - **Michel Vâlsan** (*Mustafâ ʿAbd al-ʿAzîz*) — *L'Islam et la fonction de Michel Vâlsan* (Science Sacrée) `#a-revoir` — régularité de la greffe du Tasawwuf en Occident.
-- **Charles-André Gilis** (*ʿAbd ar-Razzâq Yahyâ*) — *L'Arbre de Lumière* ; *Métaphysique de la Zakât* (coll. Le Turban Noir) ; *Les Sept étendards du Califat* ; *La profanation d'un texte sacré*
+- **Charles-André Gilis** (*ʿAbd ar-Razzâq Yahyâ*) — *L'Arbre de Lumière* ; *Métaphysique de la Zakât* (coll. Le Turban Noir) ; *Les Sept étendards du Califat* (Paris, 1993) ; *La profanation d'un texte sacré*
+- **Charles-André Gilis** — *Ordo ab Chao — La Franc-Maçonnerie dans la lumière du Prophète* (Albouraq, ISBN 2-84161-222-8, 9 chapitres) — chap. VIII « La Disgrâce du Pharaon » (p. 99-105) : Pharaon/*fard*, nombre 28, 406=*Firʿawn* (Omission de recension initiale, ajouté 2026-07-10)
+- **Charles-André Gilis** — *Études complémentaires sur le Califat* (Paris, 1994) — extrait Fard/Afrâd (Ibn ʿArabī *Futūḥāt* ch. 30, pagination p. 63-66 à confirmer sur l'exemplaire) (Omission de recension initiale, ajouté 2026-07-10)
 - **Claude Addas** — *Ibn ʿArabi ou la quête du Soufre Rouge* (Gallimard) ; *La Maison Mohammadienne* (Gallimard)
 - **Michel Chodkiewicz** — *Le Sceau des saints* (Gallimard) ; *Un Océan sans rivage* (Seuil)
 - **Martin Lings** — *Un saint soufi du XXe siècle : Ahmad al-Alawî* (Seuil) ; *Symbole & Archétype* (Tasnim)

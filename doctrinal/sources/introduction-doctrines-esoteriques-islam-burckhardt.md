@@ -3,6 +3,8 @@ title: "Introduction aux doctrines ésotériques de l'Islam — ch. II, Fondemen
 type: source
 status: traditionnel
 tradition_cadre: "islam"
+deprecated: true
+note: "Superseded by [[burckhardt-introduction-doctrines-esoteriques-islam]] (2026-07-10, intégration v2 avec transcription fidèle)"
 tags: [soufisme, metaphysique, cosmologie, hadarat, burckhardt, doctrines-esoteriques]
 created: 2026-06-29
 updated: 2026-06-29

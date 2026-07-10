@@ -5,8 +5,8 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [discernement, hadarat, jurjani, burckhardt, terminologie, vigilance]
 created: 2026-06-29
-updated: 2026-06-29
-sources: ["[[hadarat-khams]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[introduction-doctrines-esoteriques-islam-burckhardt]]"]
+updated: 2026-07-10
+sources: ["[[hadarat-khams]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]]"]
 sources_count: 3
 cross_links: ["[[hadarat-khams]]", "[[al-insan-al-kamil]]"]
 ---
@@ -21,7 +21,9 @@ toutes deux attestées dans le corpus du wiki, ne se recouvrent pas terme à ter
 ### Exposition retenue dans [[hadarat-khams]] (Burckhardt)
 
 Cinq degrés séquentiels, du Non-Manifesté vers le manifesté :
-*Hāhūt → Lāhūt → Jabarūt → Malakūt → Nāsūt*.
+*Hāhūt → Lâhût → Jabarût → Malakût → Nâsût*.
+
+Selon Burckhardt (*Introduction aux doctrines ésotériques de l'Islam*, Dervy, p. 114 note 2) : « Par "Présences" divines, on entend les degrés de la Réalité divine en tant qu'états contemplatifs ; on parle de cinq Présences principales » — **an-Nâsût** (forme corporelle humaine), **al-Malakût** (monde des Lumières subtiles), **al-Jabarût** (existence supra-formelle), **al-Lâhût** (Nature divine se révélant dans les Qualités parfaites), **al-Hâhût** (Essence pure). Burckhardt ajoute qu'« il existe encore d'autres distinctions des Présences ».
 
 ### Exposition de Jurjānī (*Taʿrīfāt*, déf. 0631)
 
@@ -55,6 +57,10 @@ quatre autres.
 chez Jurjānī, l'Homme synthétique semble constituer un *degré du schéma lui-même*,
 non un être extérieur qui les parcourt toutes. Ces deux lectures ne sont pas
 immédiatement superposables.
+
+### Point d'examen formel
+
+Les deux nomenclatures ne se recouvrent pas terme à terme : Jurjânî ne nomme littéralement ni *Lâhût* ni *Hâhût* dans la définition 0631. Chez lui, *Malakût* et *Jabarût* apparaissent seulement comme qualificatifs des degrés 3 et 4 (esperts *jabarūtiyya*/*malakūtiyya*, monde de *ʿālam al-malakût*), pas comme les cinq têtes de série de Burckhardt. C'est la tension elle-même, à documenter, pas à trancher — la question de savoir quelle nomenclature rend le plus fidèlement le schéma d'Ibn ʿArabī reste réservée à l'arbitrage humain (Cmd 12).
 
 ## Traitement retenu (provisoire)
 

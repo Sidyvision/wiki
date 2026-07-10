@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [perennialisme, tradition, ibn-arabi, art-sacre, cosmologie, astrologie, stub]
 created: 2026-07-01
 updated: 2026-07-01
-sources: ["[[doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt]]"]
+sources: ["[[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]]"]
 sources_count: 1
 cross_links: ["[[rene-guenon]]", "[[ibn-arabi]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]"]
 ---
@@ -14,7 +14,7 @@ cross_links: ["[[rene-guenon]]", "[[ibn-arabi]]", "[[hadarat-khams]]", "[[manazi
 # Titus Burckhardt (Ibrāhīm ʿIzz al-Dīn)
 
 > #stub — amorce à développer. Créée pour recevoir les liens des fiches
-> [[doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt]] et
+> [[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]] et
 > [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]].
 
 ## Identité
@@ -28,7 +28,7 @@ de l'art sacré, de la cosmologie et de l'astrologie traditionnelles.
 
 - *Introduction aux doctrines ésotériques de l'Islam* — source de la nomenclature des
   Cinq Présences retenue dans [[hadarat-khams]] (voir
-  [[doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt]]).
+  [[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]]).
 - *Clés spirituelles de l'astrologie musulmane* (Archè Milano, 1983) — commentaire
   d'Ibn ʿArabī sur le zodiaque et les Demeures lunaires ([[manazil-al-qamar]]).
 

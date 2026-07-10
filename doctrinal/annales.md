@@ -10,6 +10,30 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-09] discernement | Enrichissement de 10 fiches discernement (session PRODUCTION)
+
+- **Opération** : EXAMEN DE DISCERNEMENT (lot).
+- **Créé/Modifié** : 5 fiches `doctrinal/sources/` créées
+  ([[doctrinal/sources/gilis-ordo-ab-chao]],
+  [[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]],
+  [[doctrinal/sources/ibn-arabi-fard-afrad-gilis]],
+  [[doctrinal/sources/bukhari-5754-tiyara-fal]],
+  [[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]) ; complément versé à
+  [[doctrinal/sources/sept-etendards-du-califat]] ; 10 fiches
+  `doctrinal/discernement/` enrichies (Généalogie des idées / Lectures suggérées) —
+  voir MASTER-UPDATE pour le détail par fiche.
+- **Source brute** : bibliothèque physique de Sidy (photographies), session Claude.ai
+  du 2026-07-08/09.
+- **Point sensible** : `astrologie-akbarienne-fard` touche à l'auto-identification
+  spirituelle de Sidy — matériaux formels versés uniquement (critère akbarien de
+  reconnaissance + cas-limite de contrefaçon Pharaon/Vâlsan), aucune conclusion
+  rédigée. Aucun champ `Statut` de bloc 🔍 modifié dans tout le lot.
+- **Note de méthode** : catalogue `bibliotheque-physique.md` mis à jour (omissions de
+  recension constatées deux fois cette session — Burckhardt puis Gilis — le catalogue
+  n'est pas exhaustif, vigilance à reconduire).
+
+---
+
 ## [2026-07-10] archivage | Transcription Meftah — complément v3 (notes de bas de page, index étendu, méthode)
 
 - **Opération** : ARCHIVAGE & MAILLAGE — enrichissement de la fiche [[doctrinal/sources/meftah-chatons-sagesses-transcription]] à partir de la transcription v3 (8 photos complémentaires haute résolution).

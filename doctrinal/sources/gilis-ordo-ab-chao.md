@@ -129,7 +129,7 @@ avant sa noyade, le Pharaon meurt dans les meilleures conditions spirituelles).
 Michel Vâlsan a précisé qu'il "constituait un cas de *fard* monstrueusement retourné
 sur son moi individuel" (note 62 : *Études Traditionnelles*, 1963, p. 40 ; rappel :
 *fard* est le singulier d'*afrâd*). » L'analogie repose sur cette notion de « moi
-individuel » qui correspond, au point de vue initiatque, à la perfection de l'état
+individuel » qui correspond, au point de vue initiatique, à la perfection de l'état
 humain.
 
 ### Les deux paroles coraniques (p. 101)

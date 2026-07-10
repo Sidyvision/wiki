@@ -5,9 +5,9 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [discernement, monde-imaginal, en-cours, syncretisme-a-surveiller]
 created: 2026-06-20
-updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
-sources_count: 1
+updated: 2026-07-10
+sources: ["[[chatgpt-export-2026-05-10]]", "[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]"]
+sources_count: 2
 cross_links: ["[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/deviations/reincarnation-vies-anterieures]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]", "[[doctrinal/discernement/2026-06-20_pierres-astres-barzakh]]"]
 ---
 
@@ -39,6 +39,7 @@ Intuition propre formulée par Sidy, sans pouvoir l'expliquer : il s'agirait d'u
 >
 > **Généalogie des idées** :
 > - *Filiation orthodoxe possible* : [[doctrinal/symboles/alam-al-mithal]] — le rattachement au *ʿālam al-mithāl* d'Ibn ʿArabī (monde imaginal comme monde réel et autonome, intermédiaire entre *mulk* et *jabarūt*) est une lecture doctrinalement reconnue, attestée dans les *Futūḥāt al-Makkiyya*. Voir aussi [[doctrinal/symboles/barzakh]] pour la notion d'intermonde.
+> - Al-Jurjânî, *Le Livre des Définitions* — triade **756-757-758** (*ḏū al-ʿaql* / *ḏū al-ʿayn* / *ḏū al-ʿaql wa al-ʿayn*) : cadre lexical du motif « voir avec les yeux d'un autre » (logique du miroir inversé, citée à Ibn ʿArabī) ; *barzakh* **295-296** (Isthme, Intervalle totalisateur) ; *firāsa* **1193** (discernement intuitif) ; *ruʾya* **762** et *shuhūd* **912** (vision sensible vs contemplation par le Vrai) ; *khayāl* **724** et *mutakhayyila* **1431** (faculté imaginative psycho-physiologique, à distinguer du monde imaginal métaphysique, Cmd 3).
 > - *Parenté hétérodoxe possible* : [[doctrinal/deviations/reincarnation-vies-anterieures]] — l'idée d'un « séjour de l'âme avant l'incarnation actuelle » ou d'une « mémoire pré-existentielle » n'a pas de statut orthodoxe stable en sunnisme ; elle se rapproche davantage de doctrines réincarnationnistes étrangères au cadre déclaré (*Ahl al-Sunnah wa-l-Jamāʿah*). Le rapprochement avec le *sahasrāra* et l'*amṛta* tantriques, fait sans cloison explicite entre les deux cadres doctrinaux, constitue une **fusion non avertie** plutôt qu'une convergence métaphysique montrée (cf. Commandement Non-Syncrétisme).
 >
 > **Examen formel** : la conversation source mélange, sur un même plan d'autorité, des éléments textuellement établis (Ibn ʿArabī sur le monde imaginal) et des éléments spéculatifs non sourcés (assimilation au sahasrāra, à l'amṛta, à un « pacte préexistentiel », à un « centre hyperboréen » rattaché personnellement à une affinité biographique pour l'Asie). Le texte ne distingue jamais le niveau de certitude de ces différentes strates — un même paragraphe affirme une doctrine établie et une hypothèse personnelle avec la même autorité apparente. C'est cette absence de cloisonnement, plus que le contenu lui-même, qui constitue le défaut de forme à corriger.
@@ -49,6 +50,7 @@ Intuition propre formulée par Sidy, sans pouvoir l'expliquer : il s'agirait d'u
 >   - [[doctrinal/symboles/alam-al-mithal]] — pour la lecture du « monde 2 » comme monde imaginal réel, sans recours au tantra.
 >   - *(bibliothèque physique, à consulter)* Ibn ʿArabī, *Les Révélations de la Mecque* (choix de textes, Albin Michel) — passages sur le monde intermédiaire et la perception spirituelle, à confronter directement à l'expérience rapportée plutôt qu'à une lecture déjà filtrée par ChatGPT.
 >   - *(bibliothèque physique, à consulter)* René Guénon, *Le Théosophisme, histoire d'une pseudo-religion* (Éd. Traditionnelles) — pour examiner précisément en quoi l'idée de « mémoire pré-existentielle » introduite dans la conversation source rejoint des schémas théosophistes répertoriés, et pourquoi l'eschatologie islamique orthodoxe s'en distingue.
+>   - [[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]] — lettre Guénon à Coomaraswamy, 5 nov. 1936 : « la mémoire, au sens ordinaire, est quelque chose qui appartient exclusivement à *ce* monde et qui ne peut pas suivre l'être dans un autre état » ; distingue la mémoire temporelle/psychologique de ce qui, dans un autre état, correspond « intemporellement » — cadre précis pour examiner le motif de « mémoire pré-existentielle » sans juger du contenu de l'expérience.
 
 ## Liens Transversaux
 

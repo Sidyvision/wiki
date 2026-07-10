@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [discernement, asma-al-husna, insan-kamil, degres, nafas-rahmani, en-cours]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-10
 sources: ["[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/hadarat-khams]]"]
@@ -61,7 +61,11 @@ al-Kāmil vis-à-vis de l'axe entier.
 
 Filiation régulière, interne à l'école akbarienne : Ibn ʿArabī (*Futūḥāt*,
 ch. 198 ; nomenclature du tableau synoptique de Gloton), doctrine de l'Homme
-Universel (al-Jīlī), définitions d'al-Jurjānī. Aucune parenté hétérodoxe
+Universel (al-Jīlī), définitions d'al-Jurjānī. Al-Jurjânî donne un appui
+lexical précis pour situer *Rafîʿ ad-Darajât* dans la même famille que le
+Souffle et les degrés de l'Homme parfait : *nafas raḥmânî* (**553, 1333,
+1763**), *wâqiʿa ʿalâ al-nafas* (**1333**), *rang ou degré de l'Homme parfait*
+(**1503**), *rang divin* (**1504**). Aucune parenté hétérodoxe
 identifiée à ce stade.
 
 ## 5. Lectures suggérées (instruction)

@@ -5,10 +5,10 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [discernement, cinq-presences, duodenaire, entreprise, label, archetypes]
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-07-10
 sources: []
 sources_count: 0
-cross_links: ["[[hadarat-khams]]", "[[ilm-al-nujum]]", "[[manazil-al-qamar]]"]
+cross_links: ["[[hadarat-khams]]", "[[ilm-al-nujum]]", "[[manazil-al-qamar]]", "[[tension-hadarat-burckhardt-jurjani]]"]
 ---
 
 # Correspondances entre fonctions initiatiques et organisation d'entreprise
@@ -33,7 +33,12 @@ non une construction cherchant le chiffre.
 
 **Généalogie des idées** :
 - *Filiation orthodoxe possible* : les Cinq Présences akbariennes ([[hadarat-khams]]) ;
-  le duodénaire et ses fondements ([[ilm-al-nujum]], [[manazil-al-qamar]]) ; la
+  al-Jurjânî déf. **0631** (*al-ḥaḍarât al-khams al-ilāhiyya*) donne l'exposition
+  structurée par dichotomies emboîtées (voir [[tension-hadarat-burckhardt-jurjani]]).
+  Pour le volet archétype/fonction individuelle : *insân kâmil* chez Jurjânî (**246,
+  879, 1018, 1370**) — l'Homme universel comme totalisation des domaines divins,
+  utile si les archétypes sont pensés comme des facettes de l'Homme universel.
+  Le duodénaire et ses fondements ([[ilm-al-nujum]], [[manazil-al-qamar]]) ; la
   doctrine guénonienne des états multiples de l'Être (verticalité/horizontalité).
 - *Parenté hétérodoxe possible* : l'imaginaire ludique de Togashi (Nen, Greed Island —
   contrainte volontaire conditionnant la puissance, règle antérieure au jeu), consigné

@@ -1,6 +1,7 @@
 ---
 title: "Proposition — Circuit Discernement (spéculations personnelles)"
 type: meta
+status: deprecated
 updated: 2026-06-20
 ---
 

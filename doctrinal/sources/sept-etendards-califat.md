@@ -1,5 +1,5 @@
 ---
-title: "Les Sept Étendards du Califat — Avant-propos, Table des matières et Index des termes arabes (transcription)"
+title: "Les Sept Étendards du Califat — Transcription (Avant-propos, Table des matières, Index, Chap. XV, XX, XXVII-XXVIII, XXXIII)"
 type: source
 status: traditionnel
 tradition_cadre: "islam"
@@ -131,10 +131,179 @@ N° d'imprimeur : 7942 — Dépôt légal : juin 1993 — Imprimé en C.E.E.
 
 ---
 
+## Chapitres XV, XX, XXVII-XXVIII, XXXIII — Complément de transcription (p. 115-121, 150, 208-211, 249-251)
+
+> Transcrit à partir de 9 photographies fournies le 2026-07-09. Statut des pages couvertes ci-dessous : `sourced` (texte vérifié sur l'exemplaire physique). Le reste du corps du texte demeure `to-source`.
+
+### Chapitre XV — Califat et réalisation descendante (p. 115-121)
+
+**p. 115** — « La fonction polaire du Califat ésotérique établit sa primauté sur les
+quatre fonctions cardinales correspondant aux Angles du Temple de la Tradition
+primordiale. Il en est la synthèse et, par là même, il est aussi le gardien du "Culte
+axial" et de la Religion immuable (*ad-Dîn al-ḥanîfî*) (1). » Ibn ʿArabī, cité :
+« L'Envoyé (*rasûl*) n'a pas à consulter (les autres) du point de vue de sa fonction
+propre. Toutefois, si s'ajoute à cette dernière la qualification synthétique
+constitutive de la Station califale (*maqâm al-khalîfa*), la consultation
+(*mushâwara*) s'impose [...]. Il importe que tu connaisses la différence entre le
+Califat et la *risâla* (2). » Note (1) : *Futûhât*, chap. 73, partie introductive.
+Note (2) : *Ibid.*, chap. 159.
+
+**p. 116** — Sur la distinction Califat extérieur/intérieur (notes 3-4) : le Califat
+« extérieur », à laquelle appartient l'épée, peut être intégré à un enseignement
+métaphysique et initiatique — mais le Calife n'est pas forcément souverain juge
+(*ḥakam*) ; il ne possède la perfection (*al-kamâl*) que s'il reçoit l'épée et passe à
+l'action. Il se manifeste par le pouvoir des Noms divins : « il donne et il refuse ; il
+fait mourir et il donne la vie ; il élève et il abaisse [...] » — en vertu d'une
+qualification prophétique (*nubuwwa*, note 5).
+
+**p. 117** — « [S]'il se manifeste par le pouvoir autonome, il est roi (*malik*) et non
+pas Calife. Ne peut être Calife que celui que Dieu a institué à Sa place (*istakhlafa*)
+pour Ses serviteurs, non celui que les hommes ont suscité [...]. Tel est le degré
+de la perfection. » Et : « La possession de la Forme (divine) appartient
+exclusivement aux Califes, qu'ils soient ou non des Envoyés (divins). En effet, la
+*risâla* n'est nullement une qualification divine [...] : l'Envoyé est "Calife" et
+"représentant" uniquement sous cet aspect. La perfection du Califat et de la
+"lieutenance" comporte, en revanche, l'exercice de l'autorité (*ḥukm*) au moyen de ce
+qu'impliquent les essences principielles (*ḥaqâʾiq*) des Noms divins [...] (8). » Michel
+Vâlsan établit que la « réalisation descendante » s'applique non seulement à la
+prophétie légiférante mais aussi à la sainteté (*wilâya*) : « le "saint" (*walî*),
+lorsqu'il s'agit d'un être ayant réalisé l'Union [...] peut être "renvoyé vers la
+création" pour accomplir une "mission" divine ; cette "mission" n'est pas prophétique
+(*nubuwwa*) (5). »
+
+**p. 118** — Michel Vâlsan (suite) : « Le "saint" [...] défendrait jalousement (les
+droits divins) à Lui-même. Quant au Calife, à certains moments il dit : "Je le ferai
+plus de soixante-dix fois" (14) [...] Les états sont changeants (15) pour le Calife,
+non pour le Saint. Le Saint ne lance jamais d'accusations [...] » — note (15) :
+*Takhtalifu ʿalay-hi* ; la racine verbale du terme *khalīfa* comporte une « huitième
+forme » qui a le sens de « différer », « être variable ». Note (16) : cette précision
+établit la supériorité du Calife sur le Saint, comparée implicitement à celle d'Adam
+sur les Anges.
+
+**p. 118-119** — Sur les « manières des saints » comparées aux « esprits angéliques » :
+« Le signe des Saints d'Allâh (*awliyâ Allâh*) est que l'on se souvient d'Allâh par le
+simple fait de les voir ; c'est là un effet de leur réalisation divine, qui est la pure
+servitude (*ʿubûdiyya*) qu'aucune seigneurie ne dépare [...] En revanche, tout
+caractère qui, chez eux, comporte quelque trace de seigneurie relève des règles de
+convenance du Califat, non de celles qui concernent la Sainteté. » Le Saint aide autrui
+mais ne recherche pas la victoire pour lui-même ; le Calife réunit les deux aspects.
+
+**p. 119** — Convenances propres aux Saints vs aux Califes : les Saints témoignent
+« sans recours » de la colère divine et « sans repentir » de la satisfaction divine ;
+les Califes, à l'inverse, peuvent pardonner à ceux sur lesquels est la Colère et se
+mettre en colère contre ceux qui sont l'objet de la Satisfaction — d'où l'épisode
+coranique où le Calife (Abraham) intercède : « Mon Seigneur, ne laisse à la surface de
+la terre pas un seul d'entre les mécréants... » (Cor. 71:26), comparé au « Calife
+suprême », Muhammad, dont l'intercession diffère (note 19).
+
+**p. 120** — « Le Califat apparaît ainsi comme la fonction suprême et synthétique aussi
+bien du point de vue du symbolisme polaire que dans la perspective de la réalisation
+descendante. » Note 22 (p. 120, rattachée à la note 12 p.118) : « Rappelons qu'Ibn
+Arabî considère *al-Khalîfa* comme un Nom divin au même titre que *al-Walî*. »
+
+**p. 121** — « De cette dernière [la *wilâya*] explique que la *wilâya* soit parfois
+considérée comme "plus élevée" (*aʿlâ*), préférable pour la réalisation personnelle de
+l'être (*sulûk*), au moins dans le cas où celui-ci peut "choisir", c'est-à-dire en
+l'absence d'un Ordre divin exprès (26) [...] Pour le croyant, la perfection réside dans
+le Califat, là où se manifeste la perfection de la Forme qui implique le pouvoir
+effectif d'agir pour le monde [...]. Cette possibilité n'existe pas dans le Paradis, qui
+n'est pas une "demeure califale" (*dâr khilâfa*) mais une "demeure de sainteté" (*dâr
+wilâya*) (29). [...] C'est pourquoi (le Très-Haut) a dit : "En vérité, Je vais établir
+un Calife *sur la Terre*" et non pas "*dans le monde*" (30). » Notes : (25) *Kitâb
+at-Tajalliyyât*, *tajallî* 47 ; (26) *Futûhât*, chap. 177 ; (27) Cor. 87:17 ; (30)
+*Futûhât*, chap. 341.
+
+---
+
+### Chapitre XX — Le Dépôt de Confiance (p. 150)
+
+« [...] de la manifester en ce monde, l'oblige à assumer le "Dépôt de Confiance"
+(*amâna*) dont il est question au verset 72 de la sourate "Les Factions" : "Nous avons
+présenté le Dépôt de Confiance aux Cieux, à la Terre et aux Montagnes (3) mais ils ont
+refusé de s'en charger et ont été saisis d'appréhension. L'homme s'en est chargé alors :
+il est, en vérité, parfaitement injuste et ignorant." Le Cheikh al-Akbar commente ce
+verset en soulignant la relation entre l'acceptation du Dépôt de Confiance et
+l'excellence de la "Forme adamique" totale [...] : "Allâh a conféré l'excellence à la
+Forme adamique parce qu'Il a créé Adam selon Sa Forme et qu'Il lui a appliqué l'ensemble
+des Noms Excellents. Par les vertus de ces Noms, Adam a pu prendre en charge le Dépôt de
+Confiance qui lui était présenté [...]" » Note (3) : c'est-à-dire aux « trois mondes ».
+
+Au chapitre 167 des *Futûhât*, Ibn ʿArabī attribue à *sayyidnâ Hârûn* (Aaron), préposé
+au Cinquième Ciel (Mars) : « Ceci est le Ciel du Califat de l'espèce humaine (*khilâfat
+al-bashar*). » Il ordonne les effusions de sang rituelles (holocaustes) pour que les
+animaux soient rattachés au degré des hommes, « car ce degré possède la perfection
+inhérente au Dépôt de Confiance ». Le fait de verser le sang est aussi une
+disqualification pour la fonction califale — objection des Anges : « Vas-Tu y établir
+quelqu'un qui y sèmera la corruption et répandra le sang ? » (Cor. 2:30).
+
+---
+
+### Chapitres XXVII-XXVIII — Dâwûd ou le Califat intermédiaire ; Le nom de Dâwûd (p. 208-211)
+
+**p. 208-209** — Le Califat « intermédiaire » de Dâwûd est structurellement inférieur
+au Califat totalisateur muhammadien : « Toutefois, le récit traditionnel [...] présente
+aussi le "père des hommes" dans une position axiale. Tout comme le Califat muhammadien,
+le Califat adamique comporte un aspect synthétique et totalisateur qui ne se retrouve
+pas dans le Califat "intermédiaire" de Dâwûd, qui est celui de la succession et de la
+séparation. » Le récit de la disgrâce (reniement d'Adam envers Dâwûd, note 19-20) noue
+le Califat adamique/axial au Califat davidique/successoral. Note (17) : « les Califes du
+Calife Suprême (*al-khalîfat as-sayyid*) », i.e. de Muhammad.
+
+**p. 210** — Ibn ʿArabī sur le désir de Dâwûd de bâtir le Temple de Jérusalem
+(*al-bayt al-muqaddas*), interrompu à plusieurs reprises, jusqu'à ce qu'Allâh lui
+révèle : « Cette Maison qui est Mienne ne sera pas érigée par quelqu'un dont les mains
+ont versé le sang. » Dâwûd : « Ô Seigneur, [ceux que tu as tués] n'étaient-ils pas Mes
+serviteurs ? » Allâh : « Certes ! Mais [Je veux] que je le construise par quelqu'un de
+ma descendance. » Révélé : « C'est ton fils Sulaymân qui le construira. » But de
+l'histoire : les égards dus à « cette constitution humaine » (*hâdhihi-n-nashʾat
+al-insâniyya*) — allusion à la constitution corporelle (« Terre d'Allâh ») qui vaut à
+l'homme de recevoir le Dépôt de Confiance, à la fois privilège et source d'épreuves.
+
+**Chap. XXVIII, p. 211** — « Selon le Cheikh al-Akbar, "la première grâce qu'Allâh
+accorda à Dâwûd [...] fût de lui donner un nom composé des lettres *dâl*, *alif* et
+*wâw*, parmi lesquelles ne figure aucune de celles qui se lient (à la suivante dans
+l'écriture) (1)..." » Ces trois lettres appartiennent au groupe des six lettres
+non-liantes de l'écriture arabe (*alif*, *dâl*, *dhâl*, *râ*, *zâ*, *wâw*), dites
+« monde sanctifié » (*ʿâlam at-taqdîs*), « clés du non-manifesté » (*mafâtiḥ al-ghayb*),
+faisant partie du Nom Suprême (*al-Ism al-Aʿẓam*).
+
+---
+
+### Chapitre XXXIII — Muhammad ou le Califat spirituel (p. 249-251)
+
+**p. 249** — « Le cycle du Califat ésotérique s'achève avec le Prophète Muhammad [...]
+dont l'emblème, dans le *Triangle de l'Androgyne*, est le *mîm* final du nom Adam.
+Tout comme le Califat adamique, le Califat muhammadien comporte à la fois un aspect
+cyclique et un aspect axial. » Muhammad est fils d'Adam selon la chair et héritier de
+Dâwûd par l'occultation de sa qualité califale ; mais il est aussi essentiellement
+spirituel : « J'étais Prophète (*nabîyyan*) alors qu'Adam était entre l'eau et
+l'argile. » Note 2 (**la distinction structurante**) : « L'opposition des deux
+dimensions est indiquée dans le texte par celle des expressions *khalîfatun ʿan Allâhi*
+et *khalîfatun ʿamman salafa*. »
+
+**p. 250** — « [I]ls surent alors qu'il [Adam] était le Calife d'Allâh sur Sa Terre en
+mode axial, et non un simple successeur. » Ibn ʿArabī, en réponse à Tirmidhî sur
+l'« Étendard de la Louange » : « Adam et ceux qui sont inférieurs à lui sont sous mon
+Étendard [...] » — Muhammad, ayant reçu dès l'origine les Paroles Synthétiques, est le
+Calife suprême et le plus grand des Imâms.
+
+**p. 251** — « Selon sa signification véritable, la doctrine akbarienne muhammadienne
+se rapporte à la fonction du Califat muhammadien, détenteur de la Science divine
+primordiale, dont procèdent l'ensemble des Législations sacrées et des Sagesses. En
+tant que Calife régissant l'ordre temporel, le Prophète est la source ultime de toute
+autorité traditionnelle. » Le plus grand des Maîtres [Ibn ʿArabī] appelle les Califes
+ultérieurs « les Califes du Calife-Seigneur » (*khulafâ al-khalîfat as-sayyid*). « Le
+Califat muhammadien est celui de l'Esprit universel [...] Tous les Prophètes, tous les
+détenteurs du Sacerdoce ésotérique [...] ont reçu leur investiture de l'unique Esprit
+muhammadien dont ils sont les représentants terrestres. »
+
+---
+
 ## État d'avancement et points de vigilance
 
-- ✅ **Avant-propos** (p. 7-8) : transcrit intégralement, à l'exception de la dernière phrase visible qui se poursuit hors-cadre photo (« La doctrine du Califat ésotérique, qui permet d'intégrer la notion guénonienne du « Roi du Monde » à la conception islamique de l'« Homme Universel »… ») — suite `to-source`.
-- ✅ **Table des matières** : transcrite intégralement (p. 319 et page suivante non numérotée sur la photo), 40 chapitres + index, répartis en 3 parties nommées (Métaphysique du Califat, chap. I-VIII / Le Califat axial, chap. IX-XXIV / Le Cycle du Califat, chap. XXV-XL). Confirmé par Sidy : les chapitres IX à XXIV appartiennent tous à la Deuxième partie « Le Califat axial ». L'intitulé « LES SEPT ÉTENDARDS DU CALIFAT » visible au-dessus des chapitres XVII-XXIV sur la photo est donc un titre courant (répétition du titre de l'ouvrage), non un intitulé de partie.
-- ✅ **Index des termes arabes** (p. 313-318) : transcrit intégralement, six pages, ordre alphabétique complet de ' (hamza) à z.
-- ❌ **Corps du texte** (chapitres I à XL, p. 13-311) : non photographié, reste entièrement `to-source`. Seul l'incipit du chapitre I n'a pas été vu.
-- Conformément à la discipline de source (`meta/bibliotheque-physique.md`), cette fiche constitue un jalon d'ingestion, pas une fiche doctrinale : aucun contenu ici n'appelle de verdict de Sidy à ce stade, sauf la question mineure de l'intitulé de partie signalée plus haut.
+- ✅ **Avant-propos** (p. 7-8) : transcrit intégralement (jalon initial, 2026-07-09). Dernière phrase hors-cadre photo, suite `to-source`.
+- ✅ **Table des matières** : transcrite intégralement, 40 chapitres + index, 3 parties (2026-07-09).
+- ✅ **Index des termes arabes** (p. 313-318) : transcrit intégralement, six pages (2026-07-09).
+- ✅ **Chap. XV** (p. 115-121), **chap. XX** (p. 150), **chap. XXVII-XXVIII** (p. 208-211), **chap. XXXIII** (p. 249-251) — transcrits ci-dessus (complément, 2026-07-09).
+- ❌ **Reste du corps du texte** (chapitres I-XIV, XVI-XIX, XXI-XXVI, XXIX-XXXII, XXXIV-XL) — non photographié, `to-source`.
+- Conformément à la discipline de source, cette fiche constitue un jalon d'ingestion ; le contenu a été mobilisé pour instruire `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale.md` (voir annales du 2026-07-09).

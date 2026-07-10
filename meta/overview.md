@@ -1,6 +1,7 @@
 ---
 title: Vue d'ensemble
 type: meta
+status: deprecated
 updated: 2026-05-24
 ---
 

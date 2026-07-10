@@ -5,9 +5,9 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [discernement, en-cours, divination-a-verifier, citations-non-sourcees]
 created: 2026-06-20
-updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
-sources_count: 1
+updated: 2026-07-10
+sources: ["[[chatgpt-export-2026-05-10]]", "[[doctrinal/sources/bukhari-5754-tiyara-fal]]"]
+sources_count: 2
 cross_links: ["[[doctrinal/symboles/khalwa]]", "[[doctrinal/symboles/fal-wa-tatayyur]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
 
@@ -32,8 +32,10 @@ Sidy place lui-même cette séquence sous l'intitulé d'un « jeu de piste » et
 > **Généalogie des idées** :
 > - *Filiation orthodoxe possible* : le port d'une bague à pierre (argent/pierre type ʿaqīq) a une base textuelle réelle (le Prophète ﷺ portait une bague d'argent à pierre éthiopienne, selon des hadiths authentifiés) — c'est un point d'ancrage solide, distinct de toute narration. Le *fal al-ḥasan* (bon augure), attesté dans la Sunna, est également un cadre légitime pour accueillir un événement heureux avec gratitude, sans en tirer un système déterministe. Voir [[doctrinal/symboles/fal-wa-tatayyur]].
 > - *Parenté hétérodoxe possible* : la méthode consistant à tirer un récit initiatique nécessaire et détaillé d'une séquence de coïncidences (achats, pertes d'objets) se rapproche structurellement de la **ṭiyara/tatayyur** (l'augure superstitieux tiré des coïncidences), explicitement réprouvée par des hadiths authentiques (« *lā ṭiyara* »), à bien distinguer du *fal al-ḥasan*. Voir [[doctrinal/symboles/fal-wa-tatayyur]] pour la ligne de partage. La parenté avec une forme de divination habillée de vocabulaire akbarien/guénonien est à prendre au sérieux, au-delà de la simple prudence stylistique.
+> - Al-Jurjânî, *Le Livre des Définitions* — **1006** *al-ṭira* (« la science augurale, le mauvais présage », *maṣdar* de *ṭayr* l'oiseau/augure), auquel il oppose morphologiquement *khîra* (le bon augure) ; [[doctrinal/sources/bukhari-5754-tiyara-fal]] — Ṣaḥīḥ al-Bukhârî 5754 : « *Lā ṭiyarata, wa khayruhā al-faʾl* » (le Prophète ﷺ ; le *faʾl* = « la bonne parole que l'un de vous entend »).
 >
 > **Examen formel** : deux défauts de forme distincts. (1) Le récit est construit de manière **non falsifiable** : n'importe quelle séquence d'événements (perte, trouvaille, ordre quelconque) aurait pu recevoir une lecture également cohérente a posteriori — la conversation ne pose jamais la question de ce qui aurait dû se passer pour que l'hypothèse soit infirmée. (2) Plusieurs phrases sont présentées **avec les marqueurs typographiques de la citation directe** (guillemets, attribution nominale à Ibn ʿArabī ou à Guénon, ex. « Le noir absolu est la couleur de l'inconnaissable… ») **sans référence d'ouvrage ni de page**, et ne correspondent à aucune formulation que je peux vérifier dans les textes connus — il s'agit très probablement de paraphrases présentées comme citations, ce qui est un manquement grave à la règle de sourçage du wiki (« Aucune affirmation factuelle sans source »). À noter, en revanche, que le traitement de la question ethnicité/ébène est bien mené : refus explicite de l'essentialisme racial, recentrage sur le symbolisme universel — ce point n'appelle pas de réserve.
+> **Précision lexicale** : le couple prophétique *ṭiyara*/*faʾl* (Bukhârî 5754) et le couple lexicographique *ṭira*/*khîra* (Jurjânî 1006) opèrent à des niveaux différents — norme prophétique vs dictionnaire technique — sans contradiction (même racine *ṭ-y-r* du côté prohibé, mais le pôle « bon » nommé différemment : *faʾl* dans l'hadith, *khîra* chez Jurjânî). Chacun reste à sa place (source normative vs généalogie lexicale).
 >
 > **Conclusion** : en cours d'éclaircissement. Pour trancher : (1) vérifier précisément le statut de la *tatayyur* par rapport à ce type de lecture rétrospective d'une séquence d'événements personnels — la question n'est pas tranchée ici, elle est seulement signalée ; (2) ne réutiliser aucune des citations attribuées à Ibn ʿArabī ou Guénon dans cette conversation sans vérification dans une édition fiable ; (3) séparer ce qui relève d'une gratitude légitime pour des événements heureux (la bague retrouvée et resertie) de ce qui relève d'une construction narrative à vérifier avant de la considérer comme acquise.
 >

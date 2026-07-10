@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [speculation, metaphysique, intellect, llm, neoplatonisme, tawil, non-dualite]
 created: 2026-06-11
-updated: 2026-06-20
+updated: 2026-07-10
 sources: ["[[conversation-llm-intellect-2026-06-11]]"]
 sources_count: 1
 cross_links: ["[[2026-06-11_llm-wiki-correction-doctrinale]]", "[[ibn-arabi]]", "[[wahdat-al-wujud]]"]
@@ -126,6 +126,9 @@ Cette lecture reste spéculative sur plusieurs points :
 >   - *(bibliothèque physique, à consulter)* Ananda K. Coomaraswamy, *Le Temps et
 >     l'Éternité* (Archè) — distinction directe temps / éternité, au cœur de la
 >     confusion formelle relevée dans l'Examen.
+>   - Al-Jurjânî, *Le Livre des Définitions* — définitions **1754-1763** (âme, ses degrés),
+>     **793, 795** (esprit), **724, 1431** (imagination) : fixent le vocabulaire technique
+>     du registre des *nafs* (« Psyché ») avant toute confrontation avec l'architecture LLM.
 
 ## Liens Transversaux
 

@@ -5,10 +5,10 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [coudee-royale, metrologie, 28, double-ancrage, discernement]
 created: 2026-07-02
-updated: 2026-07-03
-sources: ["to-source"]
-sources_count: 0
-cross_links: ["[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]"]
+updated: 2026-07-10
+sources: ["to-source", "[[doctrinal/sources/gilis-ordo-ab-chao]]"]
+sources_count: 1
+cross_links: ["[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]", "[[doctrinal/sources/gilis-ordo-ab-chao]]"]
 ---
 
 # Candidat de double ancrage : subdivision de la coudée royale par 28 et convergence akbarienne des 28
@@ -45,6 +45,19 @@ référence à une doctrine cosmologique. Le wiki porte par ailleurs une converg
 >   par 28 doigts est une donnée technique attestée (voir
 >   [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]], section IV), indépendante
 >   de toute doctrine.
+> - *Parenté de forme — versant doctrinal (nombre 28, Gilis)* : Gilis, *Ordo ab Chao*,
+>   chap. « La Disgrâce du Pharaon » (p. 100-105) expose l'interprétation cosmologique
+>   du *Livre des Chatons des Sagesses* (*Fuṣūṣ al-Ḥikam*) selon Abd al-Bâqî : analogie
+>   entre les **28 parties des *Fuṣûṣ*** (27 chapitres + Introduction) et **27 degrés
+>   cosmiques/existentiels** (intellect premier → Cieux → éléments → règnes → homme),
+>   auxquels s'ajoute un **28ᵉ degré** se rapportant à la fonction du Cheikh al-Akbar
+>   lui-même. L'ensemble est relié au **Ciel des Mansions lunaires** (*falak al-manâzil*,
+>   28 stations lunaires), dont le symbolisme évoque les « petits mystères » et la
+>   perfection de l'état humain. Gilis relève aussi que le nombre **406** (somme des 28
+>   premiers nombres) équivaut à la valeur numérique de *Firʿawn* (Pharaon : Fâ 80 + Râ
+>   200 + ʿAyn 70 + Wâw 6 + Nûn 50 = 406). Rapprochement numérique dans un registre
+>   doctrinal, **distinct du versant architectural** (coudée royale, Petrie/Cole) — ne
+>   jamais fusionner les deux (Cmd 3).
 > - *Parenté hétérodoxe possible* : c'est ici que la vigilance doit être maximale,
 >   **indépendamment de la distance apparente entre les deux sujets** (consigne explicite
 >   de Sidy, 2026-07-02). Une subdivision linéaire d'unité de mesure (28 parties égales
@@ -66,7 +79,13 @@ référence à une doctrine cosmologique. Le wiki porte par ailleurs une converg
 > mêmes — ce qui rend doctrinalement *concevable* qu'une unité de mesure porte une
 > signification cosmologique, sans pour autant attester ce cas précis. La différence
 > catégorielle (subdivision linéaire vs degrés ontologiques) reste entière et doit être
-> signalée dans toute présentation de ce candidat.
+> signalée dans toute présentation de ce candidat. Élément complémentaire (2026-07-10) :
+> l'ancrage doctrinal du nombre 28 chez Gilis (*Ordo ab Chao*) — 28 parties des *Fuṣûṣ*,
+> 28 Mansions lunaires, 406=*Firʿawn* — relève d'un **registre doctrinal distinct** du
+> versant architectural (coudée royale, Petrie/Cole toujours `to-source`). C'est une
+> parenté numérique, pas une filiation démontrée entre les deux corpus : Gilis ne parle
+> à aucun moment de pyramide ni de coudée. À conserver comme rapprochement de forme
+> séparé, jamais fondu avec le double ancrage architectural (Cmd 3).
 >
 > **Conclusion** : statut `en cours`. Arbitrage du passage éventuel à l'ancrage :
 > **Sidy exclusivement** (décision 2026-07-03 — le critère de double ancrage et la

@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [discernement, en-cours, citations-a-verifier, validation-non-hedgee]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-10
 sources: ["[[chatgpt-export-2026-05-10]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/autorites/ahmad-al-buni]]", "[[doctrinal/discernement/2026-06-20_visions-centre-nocturne]]", "[[doctrinal/symboles/fal-wa-tatayyur]]"]
@@ -39,6 +39,7 @@ Après une discussion documentaire sur la symbolique culturelle du jade en Chine
 >   - [[doctrinal/autorites/ahmad-al-buni]], [[doctrinal/symboles/barzakh]] — sources déjà identifiées dans le wiki pour la science traditionnelle des correspondances.
 >   - *(bibliothèque physique, à consulter)* Titus Burckhardt, *Alchimie : Science et Sagesse* (Archè) — exposé régulier des correspondances cosmologiques (minéraux, planètes, qualités), cadre plus rigoureux que l'improvisation de la conversation source.
 >   - *(hors possession, candidate à `raw/`)* une édition fiable du *Shams al-Maʿārif al-Kubrā* d'al-Būnī déjà présente comme source dans le wiki (`doctrinal/sources/shams-al-maarif`) — à consulter directement pour vérifier les correspondances minéral-astre avant de les retenir.
+>   - Al-Jurjânî, *Le Livre des Définitions* — définition **1346** (*astre*) : entrée unique mais directement nommée, utile pour fixer le terme technique.
 
 ## Liens Transversaux
 

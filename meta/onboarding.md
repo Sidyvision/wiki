@@ -1,6 +1,7 @@
 ---
 title: Onboarding — État du Wiki
 type: meta
+status: deprecated
 updated: 2026-06-02
 ---
 

@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [soufisme, metaphysique, cosmologie, hadarat, degres-ontologiques, axe-vertical, ibn-arabi]
 created: 2026-06-29
 updated: 2026-06-29
-sources: ["[[introduction-doctrines-esoteriques-islam-burckhardt]]", "[[awrad-ibn-arabi]]", "[[barzakh-nur-lh]]"]
+sources: ["[[burckhardt-introduction-doctrines-esoteriques-islam]]", "[[awrad-ibn-arabi]]", "[[barzakh-nur-lh]]"]
 sources_count: 3
 cross_links: ["[[barzakh]]", "[[al-insan-al-kamil]]", "[[wahdat-al-wujud]]", "[[tasawwuf]]"]
 ---
@@ -42,7 +42,7 @@ chaque degré "enveloppant" le suivant comme principe :
    corporelle humaine et au monde matériel. Base de l'axe — degré de la
    sédimentation la plus complète.
 
-— source : [[introduction-doctrines-esoteriques-islam-burckhardt]]
+— source : [[burckhardt-introduction-doctrines-esoteriques-islam]]
 
 Ce déploiement vertical est lui-même de nature doctrinale, non un artifice de
 représentation : c'est la Réalité divine qui se révèle par degrés, et non une
@@ -104,7 +104,7 @@ inférence directe, non une citation littérale.
 
 ## Sources
 
-- [[introduction-doctrines-esoteriques-islam-burckhardt]]
+- [[burckhardt-introduction-doctrines-esoteriques-islam]]
 - [[awrad-ibn-arabi]]
 - [[barzakh-nur-lh]]
 
