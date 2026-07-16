@@ -217,6 +217,11 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/malamatiyah-futuhat-ch23|Ibn ʿArabī — Des pôles préservés à l'abri des regards (Futūḥāt ch. 23, trad. Penot) + annexes Guénon]]
 - [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription|Les Révélations de La Mecque — sommaire, notice, bibliographie, index et lexique (transcription intégrale)]]
 - [[doctrinal/sources/sept-etendards-califat|Les Sept Étendards du Califat — avant-propos, table des matières, index des termes arabes (transcription, Gilis)]]
+- [[doctrinal/sources/guenon-etats-multiples-ch4-fondement|Les États multiples de l'être, ch. IV : Fondement — René Guénon]]
+- [[doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes|Les États multiples de l'être, ch. IX : Hiérarchie des facultés — René Guénon]]
+- [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles|Les États multiples de l'être, ch. XIII : Hiérarchies spirituelles — René Guénon]]
+- [[doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot|Ibn ʿArabī — Futūḥāt, ch. 36 : Héritiers des prophètes (trad. Penot)]]
+- [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi|Ibn ʿArabī — Tartîbut-Taçawwuf (trad. Abdul-Hâdî, *La Gnose* 1911)]] (incomplet)
 
 ---
 
@@ -241,6 +246,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 ### Gizeh / science traditionnelle antédiluvienne
 - [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien|Gizeh comme pôle de science traditionnelle antédiluvienne]] — spéculation-mère, filiation guénonienne attestée
 - [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex|Topologie du basculement plan/sphère : Mont Qâf, Mont Meru et l'apex pyramidal]]
+- [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire|Les sept Pôles/Aqtâb et le Malakūt planétaire]] — close (traditionnel) : identité Quṭb=Meru confirmée par trois sources guénoniennes indépendantes + une source akbarienne antérieure (1911) ; volet wirātha↔pôles réservé (to-source partiel)
 - [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28|Candidat de double ancrage : coudée royale / convergence 28]] — `to-source`, réserve catégorielle
 - [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence|L'écart d'orientation comme marqueur temporel : note 7 de Guénon et Spence (2000)]] — convergence de fonction angle→temps
 

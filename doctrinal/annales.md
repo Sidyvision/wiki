@@ -499,3 +499,43 @@ ancrage servant de signal de vigilance.
 - **Créé** : profil [[meta/sidy]], source [[meta/chatgpt-export-2026-05-10]] ; stubs d'autorités/formes : [[doctrinal/autorites/ibn-arabi]], [[doctrinal/autorites/al-ghazali]], [[doctrinal/autorites/rene-guenon]], [[doctrinal/autorites/platon]], [[doctrinal/traditions/sanatana-dharma]], [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]], [[doctrinal/traditions/tasawwuf]]
 - **Étanchéité** : fiches personnelles tenues hors `doctrinal/`.
 - **Notes** : 140 conversations de l'export non ingérées (réserve). PII (téléphone, e-mail) volontairement exclue ; export brut protégé par `.gitignore`.
+
+---
+
+## [2026-07-16] discernement | Ouverture et clôture de sept-poles-aqtab-malakut-planetaire (verdict Sidy)
+
+- **Opération** : EXAMEN DE DISCERNEMENT — ouverture et clôture en une session.
+- **Créé** : [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] ;
+  cinq fiches source — [[doctrinal/sources/guenon-etats-multiples-ch4-fondement]],
+  [[doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes]],
+  [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]],
+  [[doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot]],
+  [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]].
+- **Verdict de Sidy (2026-07-16)** : l'identité entre les sept Pôles/Aqtâb guénoniens
+  et le Malakūt planétaire de la table akbarienne (degrés 21-27) est confirmée —
+  identité doctrinale reçue par une autorité qualifiée des deux côtés (filiation
+  akbarienne-shādhilite de Guénon, relation à al-Khiḍr), non un rapprochement
+  syncrétiste construit par ce dépôt. Quatre convergences textuelles indépendantes
+  réunies : (1) Guénon, *cycles cosmiques* — sept Pôles célestes/sept cieux
+  planétaires ; (2) lettre à Coomaraswamy — Idrīs au Ciel du Soleil, degré 24 déjà
+  sourcé ; (3) *Mystères de la lettre Nûn* — *nûn* comme lettre planétaire du Soleil ;
+  (4) **Abdul-Hâdî, *Tartîbut-Taçawwuf* (1911)** — comparaison Quṭb/Mérou
+  **antérieure de 26 ans** à l'article guénonien de 1937, dans le milieu
+  shādhilite-akbarien qui a directement formé Guénon.
+- **Point sensible / réserve résiduelle** : la doctrine de la *wirātha* (héritage
+  prophétique) est confirmée sur texte primaire (Futūḥāt ch. 36, moine Ibn Barthamlâ,
+  catégorie des *afrâd*), mais le lien explicite *wirātha*↔*pôles* annoncé par le
+  titre du même chapitre n'a pas été localisé dans l'extrait transmis — à rechercher
+  avant de considérer ce volet aussi robuste que les trois confirmations guénoniennes.
+  Le traité *Tartîbut-Taçawwuf* reste par ailleurs inachevé dans ce dépôt (catégories
+  I-V sur IX ; Sidy indique qu'aucune suite n'aurait jamais été publiée).
+- **Source brute** : recoupement de clippings web (index-rene-guenon.org,
+  esprit-universel.over-blog.com) et de photographies de l'exemplaire physique de
+  Sidy (*La Gnose*, collection intégrale ; *Les Révélations de la Mecque*, trad.
+  Penot), session claude.ai du 2026-07-16.
+- **Note de méthode** : précédent sur la qualité d'autorité — quand une identité
+  traditionnelle est signalée par une figure elle-même qualifiée dans les deux
+  traditions rapprochées (ici Guénon, akbarien-shādhilite en relation avec al-Khiḍr,
+  et versé dans le Sanātana Dharma), le rapprochement relève de l'identité reçue et
+  non du syncrétisme construit — distinction à conserver pour tout discernement
+  comparable futur (cf. Commandement 3).
