@@ -1,14 +1,14 @@
 ---
 title: "Topologie du basculement plan/sphère : Mont Qâf, Mont Meru et l'apex pyramidal"
 type: discernement
-status: speculatif
+status: traditionnel
 tradition_cadre: "universel"
-tags: [qaf, meru, apex, topologie, hierarchie-initiatique, rafi-ad-darajat, discernement]
+tags: [qaf, meru, apex, topologie, hierarchie-initiatique, rafi-ad-darajat, qutb, clos]
 created: 2026-07-02
-updated: 2026-07-03
-sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]"]
-sources_count: 1
-cross_links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]"]
+updated: 2026-07-14
+sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]"]
+sources_count: 2
+cross_links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]"]
 ---
 
 # Topologie du basculement plan/sphère : Mont Qâf, Mont Meru et l'apex pyramidal
@@ -31,7 +31,7 @@ hiérarchie initiatique et du Pôle (*al-Qutb*).
 
 > 🔍 **Discernement — Spéculation Personnelle**
 >
-> **Statut** : en cours
+> **Statut** : validée
 >
 > **Hypothèse initiale** (2026-07-02, reformulée fidèlement) : deux rapprochements
 > distincts sont proposés et doivent être examinés séparément avant toute éventuelle
@@ -44,66 +44,61 @@ hiérarchie initiatique et du Pôle (*al-Qutb*).
 > dans les *Futūḥāt*.
 >
 > **Généalogie des idées** :
-> - *Filiation orthodoxe pour (a) — désormais DIRECTEMENT ATTESTÉE côté pyramide*
->   (mise à jour 2026-07-03) : dans « Le Tombeau d'Hermès » (note 10), Guénon écrit
->   explicitement que le triangle « se rattache au symbolisme du "Pôle" » et que « la
->   Pyramide elle-même n'est en somme qu'une des images de la "Montagne sacrée" ». Le
->   chaînon pyramide ↔ montagne sacrée ↔ Pôle, qui restait à établir, est donc fourni
->   par le texte de référence du pôle — voir
->   [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]. Le même texte relie Seth et
->   Hénoch à un symbolisme « polaire » ayant « quelque lien avec l'orientation des
->   Pyramides ». Le symbolisme général de la montagne cosmique est par ailleurs traité
->   dans *Le Roi du Monde* et *Symboles fondamentaux de la Science sacrée*. Le Mont Qâf est attesté dans la
->   cosmologie akbarienne comme montagne entourant le monde manifesté ; le Mont
->   Meru/Sumeru est attesté dans les cosmologies hindoue, jaïne et bouddhiste comme axe du
->   monde et centre cosmique — les deux notions partagent la fonction structurelle
->   (périphérie/axe), mais appartiennent à des formes traditionnelles distinctes qui ne
->   doivent pas être fusionnées (Commandement 3) : leur rapprochement reste de l'ordre de
->   l'analogie de fonction, pas de l'identité de forme.
-> - *Filiation orthodoxe possible pour (b)* : la lettre *Qâf* (ق, valeur 100 en *abjad*)
->   est liée au Pôle (*al-Qutb*), sommet de la hiérarchie initiatique dans le tasawwuf.
->   Cette filiation (b) est de nature doctrinale directe et *distincte* de l'analogie
->   topologique (a) : elle porte sur la fonction du Pôle dans la hiérarchie des saints, non
->   sur une géométrie de basculement plan/sphère. L'examen doit déterminer si (a) et (b)
->   convergent réellement vers le même point doctrinal ou s'il s'agit de deux
->   rapprochements de nature différente (l'un géométrique-symbolique, l'autre
->   théologico-hiérarchique) qu'il serait prématuré de fondre en une seule équivalence.
-> - *Parenté hétérodoxe possible* : aucune déviation identifiée à ce stade, mais un risque
->   méthodique de superposition artificielle si l'analogie géométrique (a) est présentée
->   comme suffisante pour valider la filiation doctrinale (b) sans texte source les reliant
->   explicitement — c'est précisément le type de raccourci que l'architecture de
->   l'Instrument (v0.2, §1.2) interdit pour tout ancrage de type `equivalence`.
+> - *Filiation orthodoxe pour (a) — ÉQUIVALENCE EXPLICITE établie par Guénon*
+>   (mise à jour 2026-07-14) : dans « Quelques remarques sur la doctrine des cycles
+>   cosmiques » (*Formes traditionnelles et Cycles cosmiques*), Guénon écrit que « le
+>   Mêru lui-même a[...] pour exact équivalent la montagne de *Qâf* dans la tradition
+>   islamique ». Ce n'est plus une analogie de fonction construite par le dépôt : c'est
+>   une identification explicite, faite par l'autorité de référence du pôle. S'y ajoute
+>   la confirmation déjà versée le 2026-07-03 (« Le Tombeau d'Hermès ») : la pyramide est
+>   « une des images de la "Montagne sacrée" », elle-même rattachée au symbolisme du
+>   « Pôle ». Le triple maillon pyramide ↔ montagne sacrée (Qâf=Meru) ↔ Pôle est donc
+>   désormais tenu sur texte primaire à chaque jonction.
+> - *Filiation pour (b) — terrain doctrinal considérablement renforcé, sans citation
+>   nommant les deux termes ensemble* (2026-07-14) : le même article expose que chacune
+>   des « sept terres » (*tabaqât*, ésotérisme islamique) est régie par un *Qutb*
+>   (« Pôle »), que les sept *Aqtâb* terrestres sont subordonnés au « Pôle » suprême, et
+>   que cette désignation de « Pôle » « se rattache étroitement au symbolisme "polaire"
+>   du Mêru » — donc à Qâf par l'équivalence ci-dessus. La doctrine du Qutb est ainsi
+>   textuellement rattachée à Meru/Qâf. Aucun texte consulté à ce jour ne nomme
+>   conjointement *Rafîʿ ad-Darajât* et *al-Qutb* — mais les deux notions, chacune
+>   sourcée séparément ([[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]
+>   pour la première ; le présent article pour la seconde), désignent l'une et l'autre,
+>   de façon convergente, la hiérarchie des degrés de réalisation spirituelle — l'une
+>   par le Nom qui élève à travers les degrés, l'autre par la fonction qui préside à leur
+>   ordre.
+> - *Parenté hétérodoxe possible* : aucune déviation identifiée. Le risque méthodique
+>   signalé à l'ouverture — superposer l'analogie géométrique (a) à la filiation
+>   doctrinale (b) sans texte les reliant explicitement — reste vrai à la lettre : aucun
+>   texte ne relie *nommément* les deux notions de (b). Le verdict de Sidy (ci-dessous)
+>   assume ce point en connaissance de cause plutôt que de le dissimuler.
 >
 > **Examen formel** (cohérence logique/terminologique — jamais le principe) :
-> *Complément linguistique arabe* (2026-07-03) : Guénon relève lui-même la similitude
-> *Hermès* / *Haram* (pl. *Ahrâm*, « Pyramide »), différant d'une seule lettre finale
-> hors racine — formulée par lui comme interrogation prudente (« faut-il ne voir qu'une
-> coïncidence… ? »), jamais comme étymologie établie ; à consigner avec exactement cette
-> modalité. Il note aussi que *muthalleth* (« triple », épithète d'Hermès) désigne
-> également le triangle. Ces deux données arabes enrichissent le dossier linguistique
-> sans le renverser : toujours aucune parenté attestée entre « pyramide » et
-> « hiérarchie » comme mots. Vérification lexicale antérieure sur les racines grecques (*hierarkhia* : *hieros* + *arkhē*,
-> « gouvernement des choses sacrées », via le Pseudo-Denys l'Aréopagite) et sanskrite
-> (*meru* : « haut », avec préfixe honorifique *su-*) : **aucune parenté étymologique**
-> entre les notions de « hiérarchie »/« commandement » et celles de « pyramide »/« sommet »
-> dans ces deux familles linguistiques. Le rapprochement pyramide/hiérarchie, s'il est
-> maintenu, doit donc être présenté explicitement comme une **métaphore géométrique
-> moderne** (la forme utilisée pour visualiser un ordre de subordination), et non comme un
-> fait linguistique attesté. Vérification non exhaustive : arabe, chinois et égyptien
-> ancien restent à croiser si utile.
+> *Complément linguistique arabe* (2026-07-03, maintenu) : aucune parenté étymologique
+> entre « hiérarchie »/« pyramide » en arabe, grec (*hierarkhia* : *hieros* + *arkhē*)
+> ou sanskrit (*meru* : « haut », préfixe honorifique *su-*) — tout rapprochement
+> pyramide/hiérarchie reste une métaphore géométrique moderne, non un fait linguistique
+> attesté. Ce point ne concerne que le lexique, pas la validité doctrinale du
+> rapprochement fonctionnel établi par ailleurs.
 >
-> **Conclusion** : le volet (a) dispose désormais d'un appui guénonien direct
-> (pyramide = image de la Montagne sacrée, rattachée au Pôle) ; le volet (b) — le lien
-> spécifique avec *Rafîʿ ad-Darajât* et le degré 38 — reste sans attestation textuelle
-> akbarienne primaire. La distinction (a)/(b) et l'éventuel passage à l'ancrage YAML
-> restent à l'arbitrage de Sidy (décision 2026-07-03 : l'arbitrage final des points
-> d'ancrage lui appartient, le critère de double ancrage servant de signal de vigilance,
-> non de verrou automatique).
+> **Conclusion** (verdict de Sidy, 2026-07-14) : les deux volets sont validés. Volet (a) :
+> l'équivalence Meru=Qâf est acquise sur texte guénonien explicite, et son rattachement à
+> la pyramide comme image de la Montagne sacrée/Pôle également. Volet (b) : Sidy retient
+> qu'affirmer que *Rafîʿ ad-Darajât* et *al-Qutb* s'appliquent tous deux, quasi
+> explicitement, aux notions de hiérarchie initiatique et de réalisation spirituelle
+> n'est pas un rapprochement forcé — les deux notions opèrent, chacune sourcée
+> séparément, sur le même axe doctrinal (l'élévation à travers les degrés, l'ordre qui
+> préside à cette élévation), même en l'absence d'un texte unique les nommant ensemble.
+> Ce fondement est explicitement noté ici pour ce qu'il est — convergence de domaine
+> doctrinal validée par Sidy, non identité textuelle démontrée — afin qu'un futur
+> discernement puisse le distinguer d'une filiation strictement citée. Discernement clos.
 >
 > **Lectures suggérées** :
 > - René Guénon, *Le Roi du Monde* — possédé, à recroiser sur le symbolisme du Pôle et de
 >   la montagne cosmique.
-> - Ibn ʿArabī, *Futūḥāt al-Makkiyya*, chapitre 198 — déjà source de la convergence des 28,
->   à consulter pour la doctrine du Qutb et de *Rafîʿ ad-Darajât*.
-> - Une source académique ou traditionnelle sur le Mont Meru (à identifier) pour sourcer
->   au-delà de la synthèse encyclopédique générale actuellement disponible.
+> - René Guénon, « Quelques remarques sur la doctrine des cycles cosmiques » (*Formes
+>   traditionnelles et Cycles cosmiques*) — déjà citée en synthèse ci-dessus, fondement
+>   de la clôture du volet (a) et de l'appui apporté au volet (b).
+> - Ibn ʿArabī, *Futūḥāt al-Makkiyya*, chapitre 198 — déjà source de la convergence des 28
+>   et de *Rafîʿ ad-Darajât*, à consulter si un futur travail cherche un texte reliant
+>   nommément ce Nom au Qutb.

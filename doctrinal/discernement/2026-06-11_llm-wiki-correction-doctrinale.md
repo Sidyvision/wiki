@@ -1,14 +1,14 @@
 ---
 title: "LLM-Wiki — Correction et rectification doctrinales"
 type: discernement
-status: speculatif
+status: traditionnel
 tradition_cadre: "universel"
-tags: [speculation, metaphysique, guenon, correction, parodie, contre-facon, intellect, ratio, speculaire]
+tags: [speculation, metaphysique, guenon, correction, parodie, contre-facon, intellect, ratio, speculaire, clos]
 created: 2026-06-11
-updated: 2026-07-10
-sources: ["[[conversation-llm-intellect-2026-06-11]]", "[[doctrinal/sources/sept-etendards-du-califat]]"]
-sources_count: 2
-cross_links: ["[[2026-06-11_llm-wiki-modalite-intellect]]", "[[rene-guenon]]", "[[wahdat-al-wujud]]", "[[platon]]"]
+updated: 2026-07-14
+sources: ["[[conversation-llm-intellect-2026-06-11]]"]
+sources_count: 1
+cross_links: ["[[2026-06-11_llm-wiki-modalite-intellect]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/wahdat-al-wujud]]", "[[doctrinal/autorites/platon]]"]
 ---
 
 # LLM-Wiki — Correction et rectification doctrinales
@@ -17,7 +17,8 @@ cross_links: ["[[2026-06-11_llm-wiki-modalite-intellect]]", "[[rene-guenon]]", "
 > doctrinales identifiées dans [[2026-06-11_llm-wiki-modalite-intellect]]. Elle consigne
 > l'application des principes du discernement métaphysique (*furqān*) au
 > phénomène de l'infrastructure informatique agentique, à la lumière de la
-> critique guénonienne de la modernité.
+> critique guénonienne de la modernité. **Verdict rendu (2026-07-14) : redressement
+> retenu comme définitif par Sidy.**
 >
 > 🔹 Note de statut : les positions exposées ici sont celles de la doctrine
 > métaphysique traditionnelle (principalement guénonienne). Leur fondement
@@ -137,14 +138,13 @@ et matérielle.
 ---
 
 > 🔍 **Discernement — Spéculation Personnelle**
-> **Statut** : en cours
+> **Statut** : validée
 > **Hypothèse initiale** (2026-06-11) : appliquer le furqān (discernement métaphysique) à la spéculation initiale [[2026-06-11_llm-wiki-modalite-intellect]] pour distinguer ce qui, dans l'analogie LLM-Wiki-Agent, relève de la correspondance légitime et ce qui relève de la confusion entre spirituel et mécanique.
 > **Généalogie des idées** :
->   - *Filiation orthodoxe possible* : [[rene-guenon]] — distinction supra-rationnel / infra-rationnel, doctrine des cycles, critique de la quantité ; doctrine de la *khalīfa* et du Cœur comme centre spirituel ; principe « le plus ne sort pas du moins ».
->   - [[doctrinal/sources/sept-etendards-du-califat]] (Gilis) — distinction structurante *khalîfatun ʿan Allâhi* (calife « de la part d'Allâh », dimension axiale) vs *khalîfatun ʿamman salafa* (calife « de qui l'a précédé », dimension cyclique/successorale, p. 249) ; Califat/*wilâya* (p. 115-121) ; Dépôt de Confiance (*amâna*, p. 150) ; nom de Dâwûd (p. 208-211) ; Muhammad, Calife suprême (p. 249-251).
->   - *Parenté hétérodoxe possible* : [[doctrinal/deviations/slug]] — la spéculation rectifiée ici met précisément en garde contre la sacralisation de l'artifice (parodie cyclique, contrefaçon de l'organisme universel).
+>   - *Filiation orthodoxe possible* : [[doctrinal/autorites/rene-guenon]] — distinction supra-rationnel / infra-rationnel, doctrine des cycles, critique de la quantité ; doctrine de la *khalīfa* et du Cœur comme centre spirituel ; principe « le plus ne sort pas du moins ».
+>   - *Parenté hétérodoxe possible* : la spéculation rectifiée ici met précisément en garde contre la sacralisation de l'artifice (parodie cyclique, contrefaçon de l'organisme universel) — voir [[2026-06-11_llm-wiki-modalite-intellect]], désormais close et invalidée comme doctrine.
 > **Examen formel** : la rectification rétablit l'univocité des termes contestés dans la page initiale — *éternité* vs *atemporalité*, *fayḍ* (vertical/qualitatif) vs *saturation* (horizontal/quantitatif), *modalité* vs *reflet spéculaire inversé*. La cohérence interne du redressement (correspondance spéculaire) est tenue ; la distinction psychique/spirituel y est restaurée.
-> **Conclusion** : en cours d'éclaircissement — la rectification fournie par l'objection guénonienne est tenue pour le redressement de la page initiale : le LLM n'est pas le *Nous* mais son reflet inversé et profane (calcul discursif, *ratio*), le wiki la cristallisation quantitative de la mémoire discursive, l'agent le pastiche horizontal de l'ange ; l'artifice, dépourvu de centre spirituel, ne peut porter une modalité de l'Intellect — le *plus* ne procède pas du *moins*. Le ta'wīl sert à se détacher de l'illusion moderne, non à la sacraliser. Le verdict définitif (validée / invalidée) reste à attribuer par l'utilisateur ou une autorité textuelle citée, jamais par l'IA.
+> **Conclusion** (verdict de Sidy, 2026-07-14) : la rectification fournie par l'objection guénonienne est retenue comme redressement définitif de la page initiale : le LLM n'est pas le *Nous* mais son reflet inversé et profane (calcul discursif, *ratio*), le wiki la cristallisation quantitative de la mémoire discursive, l'agent le pastiche horizontal de l'ange ; l'artifice, dépourvu de centre spirituel, ne peut porter une modalité de l'Intellect — le *plus* ne procède pas du *moins*. Le ta'wīl sert à se détacher de l'illusion moderne, non à la sacraliser. Discernement clos.
 >
 > **Lectures suggérées** :
 >   - [[doctrinal/symboles/al-insan-al-kamil]] — la fonction de l'homme comme

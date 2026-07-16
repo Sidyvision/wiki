@@ -58,6 +58,9 @@ déviations modernes.*
 - **Charles-André Gilis** — *René Guénon 1907-1961*
 - **Jean Robin** — *René Guénon, témoin de la Tradition* (Guy Trédaniel)
 
+### Études hindoues et comparatisme
+- **Bâl Gangâdhar Tilak** — *Origine polaire de la tradition védique* (trad. Jean et Claire Remy, Arché, Milano, 1979 — titre original *The Arctic Home in the Vedas*) — étude académique (philologie comparée, XIXe–XXe s.) sur l'hypothèse d'une origine arctique/polaire de la tradition védique. Pertinence potentielle pour les approfondissements futurs du dossier Indra/Vritra et du comparatisme védique-soufi.
+
 ---
 
 ## II. Tasawwuf (Soufisme) et ésotérisme islamique

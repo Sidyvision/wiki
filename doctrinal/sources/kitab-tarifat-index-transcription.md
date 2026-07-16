@@ -6824,6 +6824,52 @@ Lexique français ... 579
 
 ---
 
+## Définitions complètes — Lots additionnels (2026-07-14)
+
+### Lettre Ḥ (ḥ)
+
+**0628 ḥaṣr al-kullî fî juzʾîyyâti-hi**  
+**حصر الكلّي في جزئياته**  
+La limitation d'un ensemble rapportée à ses éléments particuliers.  
+C'est celle dont la notion générale s'applique à chacun de ses éléments particuliers,
+par exemple : dans le prologue (*muqaddima*), c'est préciser la nature (*mâhiyya*), la
+nécessité (*bayân al-ḥâja*) et l'objet (*mawḍûʿ*) du propos (*manṭiq*).
+
+**0629 al-ḥaṣr ʿalâ ṭalâṭat al-aqsâm**  
+**الحصر على ثلاثة الأقسام**  
+La précision ou limitation portant sur trois classifications.  
+Il s'agit :
+1 - de la détermination rationnelle (*ʿaqlî*) précise, comme celle du nombre en pair
+(*zawjiyya*) et impair (*fardaniyya*) [et de l'unité, qui n'est ni paire ni impaire] ;
+2 - de la distinction effective (*wuqûʿî*), comme celle du vocable (*kalima*) en trois
+catégories [le nom, le verbe et la particule] ;
+3 - de la distinction conventionnelle (*jaʿlî*), comme l'épître (*risâla*) divisée en
+préface ou prologue (*muqaddima*), en trois chapitres thématiques (*maqâlât*) et une
+conclusion ou épilogue (*ḫâtim*).
+
+- La détermination ou précision rationnelle est celle qui porte sur la négation (*nafy*)
+et l'affirmation (*iṯbât*). La possibilité ou probabilité rationnelle (*iḥtimâl ʿaqlî*)
+s'oppose à elle et, à plus forte raison, à la distinction positive ou réelle (*wujûdî*).
+Par exemple, quand nous précisons que la démonstration (*dalâla*) doit être soit verbale
+(*lafẓî*) soit non verbale (*ġayr lafẓî*).
+- La détermination induite (*istiqrâʾî*) est celle qui ne porte pas sur la négation et
+l'affirmation mais qui résulte de l'induction (*istiqrâʾ*) et de l'investigation
+(*tatabbuʿ*) et qui, de plus, n'est pas en opposition avec la probabilité rationnelle
+mais avec la probabilité effective. Par exemple, quand nous précisons que la
+démonstration verbale est soit de l'ordre du postulat ou principe admis (*waḍʿiyya*),
+soit du fait de la nature des choses (*ṭabʿiyya*).
+
+### Lettre K (k)
+
+**1346 al-kawâkib**  
+**الكَواكِب**  
+Les astres.  
+Ce sont des corps simples (*ajsâm basîṭa*) fixés dans les sphères célestes (*aflâk*)
+comme l'est le châton (*faṣṣ*) dans le sceau (*ḫâtim*) et qui émettent de la lumière,
+exception faite de la lune (*qamar*).
+
+---
+
 ## État d'avancement final (2026-06-30)
 
 - ✅ **Fichier 1 (24 pages) entièrement transcrit**

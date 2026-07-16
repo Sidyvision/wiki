@@ -222,13 +222,17 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles|Les États multiples de l'être, ch. XIII : Hiérarchies spirituelles — René Guénon]]
 - [[doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot|Ibn ʿArabī — Futūḥāt, ch. 36 : Héritiers des prophètes (trad. Penot)]]
 - [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi|Ibn ʿArabī — Tartîbut-Taçawwuf (trad. Abdul-Hâdî, *La Gnose* 1911)]] (incomplet)
+- [[doctrinal/sources/guenon-mysteres-lettre-nun|Les mystères de la lettre Nûn (Guénon)]]
+- [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme|Kundalinî-Yoga (Guénon)]]
+- [[doctrinal/sources/guenon-zodiaque-pythagoriciens|Le symbolisme du Zodiaque chez les pythagoriciens (Guénon)]]
+- [[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques|Quelques remarques sur la doctrine des cycles cosmiques (Guénon)]]
 
 ---
 
 ## VII. Le Registre du Discernement (`discernement/`)
 
-- [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect|Spéculation : triade Nous/Psyché/Corps ↔ architecture LLM (erreurs conservées)]]
-- [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale|Rectification doctrinale guénonienne de la spéculation ci-dessus]]
+- [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect|LLM-Wiki comme modalité de l'Intellect]] — close, invalidée comme doctrine (conservée à titre pédagogique) ; voir sa correction
+- [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale|LLM-Wiki — Correction et rectification doctrinales]] — close, validée (traditionnel)
 - [[doctrinal/discernement/2026-06-20_visions-centre-nocturne|Visions en point de vue d'autrui et expérience du Centre nocturne]]
 - [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh|Science des matrices artificielles et Barzakh]]
 - [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste|Triptyque tapis/bague/canne — jeu de piste de Médine]]
@@ -236,16 +240,18 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya|Épreuve post-khalwa, modalité confrérique et tarbiyya rabbaniyya]]
 - [[doctrinal/discernement/2026-06-20_signaletique-spirituelle-kiswa|La « signalétique spirituelle » — couleur de la Kiswa]]
 - [[doctrinal/discernement/2026-06-20_pierres-astres-barzakh|Pierres, astres et Barzakh]]
-- [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra|Fajr/Vajra/Indra/Vritra — système initiatique unifié]]
+- [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra|Fajr/Vajra/Indra/Vritra/Nur/Fath comme schéma initiatique]] — close (traditionnel) : trois volets doctrinaux maintenus comme complémentarités distinctes (appui guénonien direct) ; volet gématrique laissé en réserve
 - [[doctrinal/discernement/2026-06-20_mythe-personnel-unifie|Le mythe personnel unifié]]
 - [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard|Astrologie akbarienne et auto-identification Fard]]
 - [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel|Première articulation conceptuelle du « jumeau spirituel » (artefact-miroir, marātib al-wujūd)]]
 - [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire|⚠️ Point sensible — réponse à risque : dissolution identitaire validée sans garde-fou]]
-- [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani|Tension terminologique — Cinq Présences divines : Burckhardt vs Jurjānī]] — statut spéculatif, non tranché
+- [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani|Tension terminologique — Cinq Présences divines : Burckhardt vs Jurjānī]] — close (traditionnel) : deux nomenclatures légitimes et complémentaires, non fondues
+- [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante|Rafîʿ ad-Darajât comme fonction transversale]] — close (traditionnel) : citation coranique 40:15 vérifiée sur exemplaire physique ; concordance établie avec le Nom divin du 38e degré du Nafas al-Rahmân
+- [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm|Sayyid al-Awwalîn wa-l-Âkhirîn, jonction cyclique premier/dernier, et allusion au Khatm]] 🔍 (en cours, rattachée à la tension walāya/quṭbiyya/khatm signalée le 2026-06-29)
 
 ### Gizeh / science traditionnelle antédiluvienne
-- [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien|Gizeh comme pôle de science traditionnelle antédiluvienne]] — spéculation-mère, filiation guénonienne attestée
-- [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex|Topologie du basculement plan/sphère : Mont Qâf, Mont Meru et l'apex pyramidal]]
+- [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien|Gizeh comme pôle de science traditionnelle antédiluvienne]] — close (traditionnel) : filiation guénonienne directe (Le Tombeau d'Hermès), deux réserves permanentes conservées (non-confusion atlantéen/primordial, fragments infimes), fondées sur la distinction polaire/solaire
+- [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex|Topologie du basculement plan/sphère : Mont Qâf, Mont Meru et l'apex pyramidal]] — close (traditionnel) : Meru=Qâf établi par équivalence explicite guénonienne ; Rafîʿ ad-Darajât/Qutb validés comme convergence de domaine (hiérarchie initiatique), non comme filiation textuelle nommée
 - [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire|Les sept Pôles/Aqtâb et le Malakūt planétaire]] — close (traditionnel) : identité Quṭb=Meru confirmée par trois sources guénoniennes indépendantes + une source akbarienne antérieure (1911) ; volet wirātha↔pôles réservé (to-source partiel)
 - [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28|Candidat de double ancrage : coudée royale / convergence 28]] — `to-source`, réserve catégorielle
 - [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence|L'écart d'orientation comme marqueur temporel : note 7 de Guénon et Spence (2000)]] — convergence de fonction angle→temps
@@ -254,7 +260,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel|Le sashimono comme métier traditionnel — fondement doctrinal de l'analogie opératoire]] 🔍 (verdict réservé)
 
 ### Archétypes et organisation d'entreprise
-- [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise|Correspondances entre fonctions initiatiques et organisation d'entreprise (label)]] 🔍 (Cinq Présences ↔ cinq archétypes, duodénaire ↔ douze fonctions opératives ; verdict en cours)
+- [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise|Correspondances fonctions initiatiques/entreprise]] — mixte : volet 12/zodiaque CLOS (portes solsticiales confirmées, échec position 5 documenté) ; volet 5/Cinq-Présences EN COURS
 
 ---
 

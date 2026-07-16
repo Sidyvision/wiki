@@ -539,3 +539,153 @@ ancrage servant de signal de vigilance.
   et versé dans le Sanātana Dharma), le rapprochement relève de l'identité reçue et
   non du syncrétisme construit — distinction à conserver pour tout discernement
   comparable futur (cf. Commandement 3).
+
+---
+
+## [2026-07-09] discernement | Clôture de tension-hadarat-burckhardt-jurjani (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
+- **Modifié** : [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] —
+  reformatée au bloc 🔍 normalisé (l'ancienne version utilisait un format ad hoc non
+  conforme au Sceau Recteur) ; textes intégraux versés (Jurjānī déf. 631, Burckhardt
+  *Introduction aux doctrines ésotériques de l'Islam* p. 111-114) ; `Statut` →
+  `validée` ; `status` frontmatter `speculatif` → `traditionnel` ; `Conclusion`
+  rédigée et attribuée à Sidy (2026-07-09) : verdict (a) — les deux nomenclatures
+  (Burckhardt/hadarat-khams et Jurjānī/Taʿrīfāt 631) sont traitées comme deux
+  découpages légitimes et complémentaires d'une même doctrine, chacun dans son
+  contexte d'auteur, non fondus (Cmd 3). [[doctrinal/symboles/hadarat-khams]] reste
+  la nomenclature de référence du wiki, sans que cela invalide Jurjānī.
+- **Source brute** : lot `_inbox/inbox-discernement-2026-07-09.zip` (session
+  PRODUCTION du 2026-07-08/09) pour les textes intégraux ; verdict recueilli en
+  session Claude.ai directe du 2026-07-09 (postérieur au lot, non prévu par son
+  `MASTER-UPDATE.md`).
+- **Point sensible** : aucun — question de forme interne à une seule tradition
+  (islam), pas de non-syncrétisme en jeu, pas d'autorité vivante à consulter.
+- **Note de méthode** : l'ancienne fiche n'était pas au format Sceau Recteur
+  (bloc « 🌐 Forme traditionnelle divergente » au lieu du bloc 🔍) — corrigé à
+  l'occasion de cette clôture. Étanchéité inversée avec `hadarat-khams` levée de
+  fait par la clôture, aucune action requise sur `hadarat-khams`.
+
+---
+
+## [2026-07-14] discernement | Clôture de rafi-ad-darajat-fonction-traversante (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
+- **Modifié** : [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]] —
+  `to-source` levé sur la citation Qurʾân 40:15 (vérifiée sur photographie de
+  l'exemplaire physique de Sidy — *Le Coran*, trad. Gloton, Albouraq, p. 468,
+  déjà catalogué) ; `Statut` → `validée` ; `status` frontmatter `speculatif` →
+  `traditionnel` ; `Conclusion` rédigée et attribuée à Sidy (2026-07-14) : « la
+  concordance est explicite » — le Nom *Rafîʿ ad-Darajât* du degré 38 désigne la
+  fonction transversale d'al-Insān al-Kāmil à travers les degrés du *Nafas
+  al-Raḥmān*, corroborée par l'usage scripturaire du même Nom en 40:15.
+- **Source brute** : photographies de l'exemplaire physique de Sidy (2026-07-14,
+  session Claude.ai directe) ; matière initiale du lot `_inbox/inbox-discernement-2026-07-09.zip`
+  (session du 2026-07-08/09) pour la généalogie akbarienne de fond.
+- **Point sensible** : aucun.
+- **Note de méthode** : le verdict humain (Sidy) prime sur la consigne de prudence
+  du `MASTER-UPDATE.md` d'origine, qui n'anticipait pas de verdict à cette étape
+  (Cmd 12/13). Définitions Jurjānī complémentaires (*nafas raḥmânî*, *rang de
+  l'Homme parfait*) de l'étape 10 originale non reversées, faute de texte en main
+  cette session — ajout possible ultérieurement sans rouvrir le discernement.
+
+---
+
+## [2026-07-14] catalogue | Deux ouvrages physiques ajoutés + upgrade sourçage
+- **Opération** : DISCIPLINE DES SOURCES — catalogue.
+- **Créé** : [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]].
+- **Modifié** : [[doctrinal/sources/guenon-mysteres-lettre-nun]],
+  [[doctrinal/sources/guenon-zodiaque-pythagoriciens]] — statut de fiabilité
+  amélioré (présence confirmée sur exemplaire physique via table des matières ;
+  texte intégral encore à vérifier page par page).
+- **Point sensible** : aucun.
+- **Note de méthode** : *Symboles de la Science sacrée* contient aussi le ch. XXXV
+  « Les Portes solsticiales », non encore exploité — à consulter en priorité si le
+  dossier Gizeh ou le motif des portes solsticiales est repris.
+
+
+---
+
+## [2026-07-14] discernement | Clôture de llm-wiki — couple pédagogique (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture (pair pédagogique).
+- **Modifié** : [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect]],
+  [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] — réformation
+  au format Sceau Recteur ; `Statut` → `validée` + `invalidée` ; `status` → `speculatif` +
+  `traditionnel` ; `Conclusion` attribuée à Sidy (2026-07-14).
+- **Verdict** : la première fiche (modalité-intellect) est invalidée comme doctrine
+  (conservation pédagogique : montre le chemin de l'erreur) ; la seconde (correction-doctrinale)
+  est validée (traditionnel).
+- **Point sensible** : aucun.
+- **Note de méthode** : les deux fiches forment un couple indissociable (erreur + correction).
+
+---
+
+## [2026-07-14] discernement | Clôture de fajr-vajra-indra-vritra (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture partielle.
+- **Modifié** : [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]] —
+  enrichissement matériel (citations Guénon *Etudes sur l'Hindouisme*) ; `Statut` →
+  `validée` ; `status` `speculatif` → `traditionnel` ; volet gématrique laissé en réserve
+  (`status` partiel) ; `Conclusion` attribuée à Sidy (2026-07-14) : trois volets doctrinaux
+  maintenu comme complémentarités distinctes (Indra/Vritra ↔ Nafs-Qalb ; Kundalinî/Vajrayāna ;
+  Brahmamuhurta/al-Fajr), appui guénonien direct.
+- **Point sensible** : le volet gématrique (correspondances numériques) demeure en attente
+  (Sidy indique position 5 du zodiaque pose problème — réserve documentée, non fermeture).
+- **Lecture suggérée** : [[doctrinal/sources/guenon-mysteres-lettre-nun]],
+  [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]].
+
+---
+
+## [2026-07-14] discernement | Clôture partielle de correspondances-entreprise
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture partielle (volet 12/zodiaque).
+- **Modifié** : [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]] —
+  volet (b) 12/zodiaque → CLOS (portes solsticiales confirmées, position 5 génère un
+  conflit logique documenté) ; volet (a) 5/Cinq-Présences → EN COURS ; textes intégraux
+  Guénon *Symbolisme de la Croix* ch. XXXVI.
+- **Verdict partiel** : le duodénaire (12 fonctions/12 signes) est établi ; les Cinq
+  Présences ne correspondent pas en 1-1 avec une fonction simple d'entreprise (volet
+  réservé).
+- **Point sensible** : conflit identifié et documenté sur position 5 (Gémeaux/Hermès) du
+  cycle zodiacal — à approfondir comme piste ouverte.
+
+---
+
+## [2026-07-14] discernement | Clôture de mont-qaf-meru-topologie-apex (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
+- **Modifié** : [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]] —
+  enrichissement matériel (Guénon *Remarques sur la doctrine des cycles cosmiques*) ;
+  `Statut` → `validée` ; `status` `speculatif` → `traditionnel` ; `Conclusion` attribuée
+  à Sidy (2026-07-14) : Meru=Qâf établi par équivalence explicite guénonienne ; Rafîʿ
+  ad-Darajât/Qutb comme convergence de domaine initiatique (non filiation textuelle nommée).
+- **Point sensible** : aucun.
+- **Note de méthode** : lien établi avec [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]
+  (domaine initiatique partagé).
+
+---
+
+## [2026-07-14] discernement | Clôture de gizeh-pole-scientifique-antediluvien (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
+- **Modifié** : [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] —
+  enrichissement matériel (Guénon *Remarques sur les cycles cosmiques*, distinction
+  polaire/solaire) ; `Statut` → `validée` ; `status` `speculatif` → `traditionnel` ;
+  `Conclusion` rédigée et attribuée à Sidy (2026-07-14) : filiation guénonienne directe
+  (*Le Tombeau d'Hermès*), deux réserves permanentes conservées (non-confusion
+  atlantéen/primordial, fragments infimes), fondées sur la distinction polaire/solaire
+  (Tradition primordiale = polaire ; atlantéenne = solaire/secondaire).
+- **Point sensible** : distinction polaire/solaire identifiée comme VIGILANCE transversale
+  pour l'ensemble du pôle Gizeh — à rappeler dans tout futur discernement/ancrage
+  touchant Gizeh, la Grande Pyramide, ou sources « atlantéennes » au sens guénonien.
+- **Note de méthode** : principe « maintenu sauf invalidation explicite » corrigé en
+  clôture — c'est un principe de persistance de la recherche, pas une présomption de vérité.
+
+---
+
+## [2026-07-14] discernement | Ouverture de sayyid-al-awwalin-wal-akhirin-khatm
+- **Opération** : EXAMEN DE DISCERNEMENT — ouverture.
+- **Créé** : [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]].
+- **Contexte** : fiche nouvellement ouverte le 2026-07-14, rattachée à la tension
+  walāya/quṭbiyya/khatm signalée le 2026-06-29 ; examen du concept *Sayyid al-Awwalîn
+  wa-l-Âkhirîn* (Seigneur du premier et du dernier) comme jonction cyclique
+  (premier/dernier degrés, ouverture/fermeture du Nafas al-Raḥmān) et possible allusion
+  au Khatm (Sceau).
+- **Statut** : en cours — verdict en attente d'approfondissement doctrinal.
+- **Point sensible** : Khatm = fonction d'autorité spirituelle vivante (Al-Khaḍir) — aucune
+  auto-proclamation, renvoi toujours ouvert aux savants qualifiés (Cmd 12).
+
