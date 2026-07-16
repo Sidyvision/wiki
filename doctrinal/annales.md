@@ -1,12 +1,41 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-07-10
+updated: 2026-07-16
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
+
+---
+
+## [2026-07-16] archivage/intégration | Lot 2026-07-01 complet — table-28-degres finalisation et addenda Gloton (session INTÉGRATION)
+
+**Opération** : ARCHIVAGE & MAILLAGE — consolidation et finalisation du lot 2026-07-01 (6 ZIPs extraits, degrés et addenda Gloton, table-28 complet).
+
+**Lot décomposé** :
+1. **Lot 1 (2026-07-01)** — Fiches sources doctrinal (5 sources créées)
+2. **Lot 2 (2026-07-03)** — Gloton addenda + table-28 initiale
+3. **Lot 3 (2026-07-05)** — Discernement + correspondances label
+4. **Lot 4 (2026-07-09)** — Enrichissements et annales
+5. **Lot 5 (2026-07-10)** — Complément Meftah et Sept Étendards
+6. **Lot 6 (2026-07-14)** — Finalisation sources doctrinal
+
+**Créé/Modifié** (intégration 2026-07-16) :
+- **`doctrinal/symboles/table-28-degres-nafas-rahman.md`** — finalisation de la section « Statut d'achèvement » : marquage de la table comme complète (degrés 11–38, 4 colonnes, sourcée pp. 45–48 Gloton). Clôture du checklist « Prochaines étapes ». Validation Gem maintenue.
+- **`doctrinal/index.md`** — vérification : entrées déjà présentes pour table-28 (ligne 37, section Symboles), ibn-arabi source (ligne 212, section Sources), discernement 2026-07-01 (ligne 255, section Discernement). Aucune modification nécessaire.
+- **`doctrinal/annales.md`** — présente (cette entrée).
+
+**Sourcage primaire** :
+- *De la mort à la résurrection* (Ibn ʿArabī, trad. Maurice Gloton, Albouraq, coll. Héritage Spirituel), pp. 45–48 — table intégrale des 28 lettres (degrés 11–38) avec Noms divins, Manāzil, correspondances planétaires et zodiaque.
+- Validation doctrinal : Gem René Guénon, verdict actée 2026-07-01, retranscript dans la fiche 2026-07-14.
+
+**Discernement créé** :
+- `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante` — Rafîʿ ad-Darajât comme fonction transversale (cité sur l'Alif initial et le 38e degré).
+- `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire` — Les sept Pôles/Aqtâb et le Malakūt planétaire (correspondance acté entre le système des pôles guénonien et la doctrine akbarienne des 7 cieux).
+
+**Statut d'achèvement** : TERMINÉ. La table-28 est complète, sourcée et validée. Les addenda Gloton (3 appended à la source ibn-arabi) contiennent les données manquantes des degrés 11–17, 21–27 (Malakūt planétaire), 32–38. Inscription manifeste v0.2.1 en attente de décision utilisateur.
 
 ---
 

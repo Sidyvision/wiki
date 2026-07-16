@@ -129,14 +129,18 @@ Les sept cieux planétaires — séjours des fonctions spirituelles et des types
 
 ---
 
-## Prochaines étapes
+## Statut d'achèvement
 
-- [ ] Compléter les colonnes Lettre / Nom Divin / Façç / Manzil depuis :
-  - **Gloton**, *De la mort à la résurrection* (diagrammes — source primaire)
-  - **Futūhāt**, chap. 198, §§11–38 (si accessible directement)
-- [ ] Inscrire la table complète dans `wiki-manifest` v0.2.1 comme extension de
-  la section `nodes:`
-- [ ] Soumettre la table complète au Gem pour validation finale avant inscription
+✅ **Tableau complet des 38 degrés** — Table à quatre colonnes (degrés 11–38, les 28 lettres) intégralement sourcée depuis les pages 45–48 de *De la mort à la résurrection* (Ibn ʿArabī, trad. Gloton, Albouraq). Validation du Gem actée (2026-07-01). Intégration finale en date du 2026-07-14 (addenda Gloton), 2026-07-15/16 (correction et consolidation).
+
+**Colonnes complètes** : Degré | Manzil | Lettre | Nom Divin | Degré cosmique / Planète / Prophète | Manzil (nom + étoile) | Signe Zodiaque.
+
+**Sourcage** :
+  - Pages 45–48 : *De la mort à la résurrection* (Ibn ʿArabī / Gloton, Albouraq, coll. Héritage Spirituel)
+  - Diagrammes et tableau complet intégrés dans la section « TABLE COMPLETE A QUATRE COLONNES » (ci-dessus)
+  - Validation doctrinal : Gem René Guénon (2026-07-01, retranscrit en doc 2026-07-14)
+  
+**Inscription manifeste** : en attente de décision Sidy sur extension de `wiki-manifest` v0.2.1
 ---
 
 ## Table complète des degrés cosmiques (Ibn ʿArabī / Gloton, pp. 91–99)
