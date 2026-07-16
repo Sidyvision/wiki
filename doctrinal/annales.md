@@ -689,3 +689,30 @@ ancrage servant de signal de vigilance.
 - **Point sensible** : Khatm = fonction d'autorité spirituelle vivante (Al-Khaḍir) — aucune
   auto-proclamation, renvoi toujours ouvert aux savants qualifiés (Cmd 12).
 
+
+---
+
+## [2026-07-16] enrichissement | Socle métaphysique universel — trilogie guénonienne + matière kabbalistique
+- **Opération** : CONSTITUTION DE SOCLE — lecture et mise en fiches de chapitres
+  structurants de la trilogie de métaphysique pure de Guénon, sur décision de Sidy
+  (pivot : fonder les bases universelles sur lesquelles les traditions s'articulent,
+  avant d'ouvrir le versant Sanātana Dharma).
+- **Créé** : 6 fiches source trilogie (Symbolisme de la Croix ch. II-III, IV, XI-XIII,
+  XXIII+XXIX ; Homme et son devenir ch. X/XV/XVI) + 1 fiche de consolidation
+  kabbalistique + 1 note d'impact atelier.
+- **Acquis majeurs** : (a) théorie géométrique formelle de l'Instrument sourcée
+  (degré = plan horizontal, axe = lieu des centres, succession/simultanéité) ;
+  (b) couple ampleur/exaltation déclaré par Guénon lui-même d'origine islamique ;
+  (c) Adam Qadmôn = al-Insān al-Kāmil posé par Guénon (ch. II, note 1) ;
+  (d) deux équivalences terminologiques Vêdânta↔arabe posées par Guénon
+  (Risâlatul-Ahadiyah ; El-Aqlu/El-Âqil/El-Maqûl ↔ Sat-Chit-Ânanda) ;
+  (e) dédicace du Symbolisme de la Croix à Sheikh ʿAbd ar-Raḥmân ʿIlaysh al-Kabîr —
+  confirmation sur pièce du rattachement shādhilite de Guénon.
+- **Vigilances** : matière kabbalistique en médiation Vulliaud (`to-source`) ; six
+  directions (ch. IV) ≠ quatre Angles astrologiques — ne jamais fusionner sans
+  discernement ; échelle védantique à 4 états ≠ 38 degrés akbariens — pas de
+  superposition terme à terme ; aucun élément de la session n'entre dans
+  instrument-donnees.yaml sans fiche discernement + verdict + session dédiée.
+- **Source brute** : transcriptions index-rene-guenon.org transmises par Sidy +
+  recherches web (classiques.uqam.ca pour tables des matières), session claude.ai.
+

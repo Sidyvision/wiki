@@ -226,6 +226,12 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme|Kundalinî-Yoga (Guénon)]]
 - [[doctrinal/sources/guenon-zodiaque-pythagoriciens|Le symbolisme du Zodiaque chez les pythagoriciens (Guénon)]]
 - [[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques|Quelques remarques sur la doctrine des cycles cosmiques (Guénon)]]
+- [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel|Le Symbolisme de la Croix, ch. II-III : L'Homme universel (Guénon)]]
+- [[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace|Le Symbolisme de la Croix, ch. IV : Les quatre directions de l'espace (Guénon)]]
+- [[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques|Le Symbolisme de la Croix, ch. XI-XIII : Représentations géométriques (Guénon)]]
+- [[doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference|Le Symbolisme de la Croix, ch. XXIII + XXIX : Axe vertical et Centre-Circonférence (Guénon)]]
+- [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya|L'Homme et son devenir selon le Vêdânta, ch. X/XV/XVI : Brahma et Turîya (Guénon)]]
+- [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne|La Qabbale dans la trilogie guénonienne (consolidation kabbalistique)]]
 
 ---
 
