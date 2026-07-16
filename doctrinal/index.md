@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-07-10
+updated: 2026-07-16
 ---
 
 # Le Catalogue Universel
