@@ -1,6 +1,14 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.3)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.3.1)
 #
+#   v0.3.1 (2026-07-17) : ajout d'un troisième ancrage établi — sept Pôles/Aqtâb
+#     guénoniens ↔ Malakūt planétaire (degrés 21-27), verdict Sidy du 2026-07-16
+#     (fiche doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire).
+#     ⚠ Cible non déclarée : aucun nœud « Aqtâb » n'existe encore dans ce fichier
+#     (la tradition guénonienne/métaphysique générale n'est pas modélisée — Phase 3
+#     « multi-traditions » non ouverte). L'ancrage est donc porté par le nœud
+#     structurant table-28-degres-nafas-rahman, cible: null, jusqu'à déclaration
+#     d'un nœud réciproque. Point à confirmer par Sidy avant intégration.
 #   v0.3 (2026-07-01) : LES 28 NŒUDS-DEGRÉS (11-38) déclarés, la table étant
 #     intégralement sourcée (addenda Gloton pp. 44-48 du 2026-07-01). Chaque
 #     nœud-degré porte un `id` et un `label` déclarés (tous sourcent la même
@@ -166,3 +174,12 @@ ancrages:
     cible: tasawwuf/nafas-rahmani
     source: "[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"
     note: "Les degrés 11-38 de la table SONT les 28 degrés lettrés du Nafas al-Raḥmān (même convergence, Futūḥāt ch. 198)."
+
+  # --- ⭐ Sept Pôles/Aqtâb (guénonien) ↔ Malakūt planétaire (établi, verdict Sidy 2026-07-16) ---
+  - noeud: tasawwuf/table-28-degres-nafas-rahman
+    type: equivalence
+    etat: etabli
+    directionnalite: none
+    cible: null   # ⚠ aucun nœud « Aqtâb » déclaré (tradition guénonienne non modélisée — Phase 3 non ouverte)
+    source: "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"
+    note: "Identité entre les sept Pôles/Aqtâb guénoniens et le Malakūt planétaire akbarien (degrés 21-27, ar-Rabb/Saturne/Abraham → al-Mubîn/Lune/Adam). Identité doctrinale reçue (non syncrétisme construit), confirmée par quatre convergences textuelles indépendantes : Guénon, cycles cosmiques (sept Pôles/sept cieux) ; lettre à Coomaraswamy (Idrîs/Soleil, degré 24) ; Mystères de la lettre Nûn (nûn = lettre planétaire du Soleil) ; Abdul-Hâdî, Tartîbut-Taçawwuf (1911, antérieur de 26 ans à Guénon 1937). Réserve résiduelle : lien explicite wirātha/aqtāb (Futūḥāt ch. 36) non localisé dans l'extrait transmis — à rechercher. Cible non déclarée : correspondance à rattacher à un nœud Aqtâb formel lors de l'ouverture de la Phase 3 (multi-traditions)."

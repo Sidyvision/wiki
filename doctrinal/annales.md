@@ -10,6 +10,26 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-17] archivage | Fiche sept-poles-aqtab-malakut-planetaire déposée (orpheline 2026-07-16)
+
+- **Opération** : ARCHIVAGE — intégration d'une fiche doctrinal/discernement orpheline.
+- **Créé** : `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire.md` — fiche
+  rédigée et close le 2026-07-16, verdict Sidy : `validée`. Produite en session claude.ai
+  mais jamais déposée jusqu'à l'audit du 2026-07-17.
+- **Frontmatter** : Sceau Recteur conforme (`type: discernement`, `status: traditionnel`,
+  `tradition_cadre: universel`, bloc 🔍 complet, 6 sources + 5 cross_links).
+- **Sources** : toutes présentes au dépôt (confirmé Sidy) — aucune fiche source à créer.
+- **Contenu** : identité doctrinale (non-syncrétiste) entre sept Pôles/Aqtâb guénoniens
+  et Malakūt planétaire akbarien (degrés 21-27) ; **hozo** (tenon-mortaise en sashimono) ;
+  deux confirmations guénoniennes indépendantes (lettre à Coomaraswamy 1936, Mystères
+  de la lettre Nûn) + source akbarienne antérieure (Abdul-Hâdî 1911). Réserve résiduelle
+  sur lien wirātha↔pôles (to-source partiel, à localiser Futūḥāt ch. 36).
+- **Relation à instrument-donnees.yaml** : cette fiche documente l'ancrage établi (c)
+  du YAML v0.3.1 — voir annales atelier pour le lot appairé.
+- **Point sensible** : aucun — verdict Sidy rendu, fiche close.
+
+---
+
 ## [2026-07-16] protocole | Double contrôle systématique (sashimono + Gizeh) inscrit dans CLAUDE.md
 
 - **Opération** : AMENDEMENT PROTOCOLE — sur ordre explicite de Sidy.
