@@ -10,6 +10,33 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-16] correctif | Qualification sashimono appliquée a posteriori (5 fiches)
+
+- **Opération** : CORRECTIF DE FORME — application rétroactive de la convention
+  sashimono (Art. 7, `philosophie-sashimono.md`), omise lors du dépôt initial des
+  fiches du socle métaphysique universel.
+- **Modifié** : [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]],
+  [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]],
+  [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]],
+  [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]],
+  [[atelier/projets/note-impact-instrument-socle-universel-2026-07-16]] — insertion
+  de paragraphes de qualification sashimono dans le corps de chaque fiche (jamais en
+  frontmatter, conforme à la convention prospective de l'Art. 7).
+- **Six *hozo* qualifiés** : Meru=Qâf ; Quṭb=Mérou (Abdul-Hâdî 1911) ; Adam
+  Qadmôn=al-Insān al-Kāmil=Wang ; ampleur/exaltation (voile akbarien d'une structure
+  universelle) ; Risâlatul-Ahadiyah↔non-dualité de *Brahma* ; *El-Aqlu/El-Âqil/
+  El-Maqûl*↔*Sat-Chit-Ānanda*. Déclaration d'ensemble **kari-kumi** ajoutée à la note
+  d'impact atelier — aucun joint n'est taillé dans `instrument-donnees.yaml`.
+- **Point sensible** : aucun — correctif de forme, ne rouvre aucun verdict de
+  discernement (Sidy a signalé l'omission le 2026-07-16, en session claude.ai
+  postérieure au dépôt initial).
+- **Note de méthode** : rappel pour toute session future — la qualification
+  sashimono des joints (hozo/kumiko) doit être appliquée **au moment de la
+  rédaction** des fiches nouvelles comportant une identité ou complémentarité
+  inter-traditionnelle, pas ajoutée après coup.
+
+---
+
 ## [2026-07-16] archivage/intégration | Lot 2026-07-01 complet — table-28-degres finalisation et addenda Gloton (session INTÉGRATION)
 
 **Opération** : ARCHIVAGE & MAILLAGE — consolidation et finalisation du lot 2026-07-01 (6 ZIPs extraits, degrés et addenda Gloton, table-28 complet).

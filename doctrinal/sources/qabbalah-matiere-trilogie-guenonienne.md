@@ -77,6 +77,19 @@ comme « surface réverbérante » (ésotérisme islamique), *Kether*/*Aïn-Soph
 
 ## ⚠️ Vigilance d'utilisation
 
+**Qualification sashimono des joints** (convention, cf. `philosophie-sashimono.md`
+§6-7) : les points 1 et 3 de cette fiche sont des **hozo** (tenon-mortaise —
+équivalence établie par autorité qualifiée) : Adam Qadmôn = al-Insān al-Kāmil = Wang
+(§1), et le triptyque Kether/Aïn-Soph = Asrâr rabbâniyah = Mâyā/Shakti de Brahma
+(§3) — trois voiles traditionnels (Kabbale, Islam, Vêdânta) d'un même point. Le
+point 2 (cosmogonie du *iod*, Palais intérieur, six directions) n'est pas encore
+qualifié en joint — c'est une pièce de bois débitée (`source`) en attente de son
+tenon, non un ancrage : rien n'indique encore à quel nœud akbarien ou védantique
+elle s'articulerait précisément. **L'ensemble de cette fiche est en état
+*kari-kumi*** (montage à blanc) — aucun joint n'est taillé dans
+`instrument-donnees.yaml` tant que le regard du maître (Sidy) n'a pas validé chaque
+hozo proposé via une fiche discernement dédiée.
+
 Toutes ces identités inter-traditionnelles sont **posées par Guénon lui-même** — elles
 relèvent donc du régime « identité reçue par autorité qualifiée » établi par
 [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] (point de

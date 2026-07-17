@@ -72,6 +72,13 @@ affranchi des conditions de la manifestation.
 
 ## Résonance directe avec l'Instrument (note d'utilisation, non un ajout doctrinal)
 
+**Qualification sashimono** (convention, cf. `philosophie-sashimono.md` §6-7) : les
+deux équivalences relevées ci-dessus se qualifient en **hozo** — Risâlatul-Ahadiyah
+d'Ibn ʿArabī ↔ non-dualité de *Brahma* (même réalité, deux voiles) ; *El-Aqlu/El-Âqil/
+El-Maqûl* ↔ *Sat-Chit-Ānanda* (même triade, deux voiles). Toutes deux posées par
+Guénon, non construites par ce dépôt. **État : kari-kumi** — proposées à blanc, aucun
+joint taillé dans le YAML.
+
 - Deux équivalences terminologiques posées par Guénon lui-même (non construites par ce
   dépôt) entre vocabulaire védantique et vocabulaire arabe/akbarien : *Risâlatul-Ahadiyah*
   d'Ibn ʿArabī ↔ non-dualité de *Brahma* ; *El-Aqlu/El-Âqil/El-Maqûl* ↔ *Sat-Chit-Ānanda*.

@@ -1,14 +1,64 @@
 ---
 title: "Atelier — Ressources & Études de Cas"
 type: index
-tags: [atelier, ressources, index]
+tags: [atelier, ressources, index, instrument]
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-16
 ---
 
 # Atelier — Index
 
 Ressources opératoires, matériaux de travail, études de cas et documentation pratique.
+
+---
+
+## Instrument de la Tradition Primordiale
+
+Application web 3D contemplative (Three.js/WebGL) visualisant l'arbre ontologique
+akbarien sur l'axe des 38 degrés du *Nafas al-Raḥmān*. Voir
+[[meta/projet-unifie/02-instrument-feuille-de-route|feuille de route et pile
+technique]] pour l'état d'avancement par phase.
+
+**Architecture** :
+- [[atelier/projets/instrument-tradition-primordiale-architecture-v0_3|Architecture
+  v0.3]] — arbitrages actés (Phase 0 close, convention `degre_vertical`, lentille
+  barzakh, quatre Angles de l'Espace) ; v0.1 et v0.2 conservées comme jalons
+- [[atelier/projets/spec-generateur-manifeste|Spécification du générateur de
+  manifeste]]
+
+**Données et génération** (Phase 1, livrée) :
+- [[atelier/projets/instrument-donnees|instrument-donnees.yaml]] — v0.3, 36 nœuds
+  (8 notionnels/structurants + 28 nœuds-degrés)
+- [[atelier/projets/generer-manifeste|generer-manifeste.py]] — générateur
+  déterministe, validations bloquantes, zéro LLM dans la boucle
+- [[atelier/projets/angles-de-l-espace|Angles de l'Espace]] — les quatre Angles
+  astrologiques (AS/DS/MC/FC), relectures tranchées
+
+**Prototype** :
+- [[atelier/projets/instrument-prototype|instrument-prototype.html]] — prototype
+  Three.js v0.1, axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil,
+  boucle 38→11, anneau des nœuds notionnels
+
+**Socle métaphysique universel** (en cours, 2026-07-16) — fondations de la trilogie
+guénonienne (*Le Symbolisme de la Croix*, *Les États multiples de l'être*,
+*L'Homme et son devenir selon le Vêdânta*) sur lesquelles les traditions multiples
+de l'Arbre unique s'articulent :
+- [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire|Les sept
+  Pôles/Aqtâb et le Malakūt planétaire]] — close (traditionnel)
+- Fiches source associées : ch. II-III, IV, XI-XIII, XXIII+XXIX du *Symbolisme de la
+  Croix* ; ch. IV, IX, XIII des *États multiples de l'être* ; ch. X, XV, XVI de
+  *L'Homme et son devenir* ; *Tartîbut-Taçawwuf* (Abdul-Hâdî, 1911) ; *Futūḥāt* ch. 36
+  — voir `doctrinal/index.md` §VI pour la liste complète
+- [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne|Matière kabbalistique
+  consolidée]] — `to-source` partiel, aucun ancrage YAML sans discernement dédié
+- [[atelier/projets/note-impact-instrument-socle-universel-2026-07-16|Note d'impact]]
+  — état *kari-kumi*, six *hozo* proposés (non taillés), chantiers ouverts (branche
+  Kabbale, versant Sanātana Dharma, six directions de l'espace)
+
+**Chantiers ouverts, non traités** : bandeau zodiacal horizontal (données déjà
+sourcées, rendu manquant) ; versant Sanātana Dharma (fondation védantique désormais
+disponible via ch. X/XV/XVI, structure à 4 états non encore ancrée) ; lien
+wirātha↔pôles (*Futūḥāt* ch. 36, réserve résiduelle).
 
 ---
 
@@ -30,7 +80,8 @@ Enregistrements, retranscriptions, dialogues avec praticiens.
 
 ## Projets & Expériences
 
-Expériences menées, projets en cours, documentation d'essais.
+Expériences menées, projets en cours, documentation d'essais — hors chantier
+Instrument (voir section dédiée ci-dessus).
 
 - `/atelier/projets/` — expériences, carnets, essais pratiques
 

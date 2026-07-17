@@ -5,6 +5,19 @@
 > soit à un mandat explicite de Sidy. Aucune modification de `instrument-donnees.yaml`
 > n'est effectuée par cette note.
 
+> **Déclaration sashimono d'ensemble** (convention, `philosophie-sashimono.md` §6-7) :
+> **l'intégralité de la production de cette session est en état *kari-kumi*** —
+> montage à blanc. Six *hozo* (ancrages d'équivalence) ont été identifiés et qualifiés
+> dans le corps des fiches concernées : Meru=Qâf (Guénon 1937), Quṭb=Mérou
+> (Abdul-Hâdî 1911), Adam Qadmôn=al-Insān al-Kāmil=Wang, ampleur/exaltation comme
+> voile akbarien d'une structure universelle, Risâlatul-Ahadiyah↔non-dualité de
+> *Brahma*, *El-Aqlu/El-Âqil/El-Maqûl*↔*Sat-Chit-Ānanda*. Aucun n'est taillé
+> (aucune modification de `instrument-donnees.yaml`) : chacun attend soit sa fiche
+> discernement dédiée (Adam Qadmôn=al-Insān al-Kāmil, candidat le plus mûr), soit,
+> pour les cinq autres, une décision explicite de Sidy sur l'opportunité même d'un
+> ancrage YAML (certains, comme la structure ampleur/exaltation, sont peut-être
+> destinés à rester des pièces de fondation théorique plutôt que des nœuds visibles).
+
 ## A. Ce qui est CONFORTÉ (aucune modification à faire, assise renforcée)
 
 1. **Axe vertical + plans horizontaux des degrés** — la structure entière de

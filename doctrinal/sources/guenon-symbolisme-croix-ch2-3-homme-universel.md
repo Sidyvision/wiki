@@ -68,6 +68,17 @@ déjà une réalisation virtuelle, l'état de « communication directe avec les 
 
 ## Résonance directe avec l'Instrument (note d'utilisation, non un ajout doctrinal)
 
+**Qualification sashimono** (convention, cf. `philosophie-sashimono.md` §6-7) : le
+couple ampleur/exaltation, que Guénon attribue lui-même à l'ésotérisme islamique tout
+en l'employant comme structure universelle, se qualifie en **hozo** — un même rapport
+horizontal/vertical sous le voile terminologique akbarien et sous le voile de
+l'exposé métaphysique général de Guénon. De même pour la mention nommée d'Ibn ʿArabī/
+al-Jīlī comme sources d'*El-Insânul-kâmil* : **hozo** avec l'Homme Universel guénonien
+lui-même déjà posé en équivalence avec *Adam Qadmôn* (Kabbale) et *Wang* (Extrême-
+Orient) — trois voiles d'un même point, déjà relevé dans
+[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]. **État : kari-kumi** —
+ces joints sont proposés à blanc, non taillés dans le YAML.
+
 - L'attribution par Guénon lui-même du couple ampleur/exaltation à l'ésotérisme
   islamique **confirme, dans ses propres mots**, que l'architecture horizontale
   (degrés)/verticale (axe) déjà construite pour l'Instrument suit la même structure que

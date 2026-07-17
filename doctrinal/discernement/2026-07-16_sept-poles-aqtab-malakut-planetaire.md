@@ -145,6 +145,16 @@ un prophète « siégeant ». L'hypothèse rapproche ces deux structures septén
 > signaler à l'occasion dans les fiches concernées, sans qu'il soit nécessaire d'en
 > faire un point d'ancrage séparé.
 >
+> **Qualification sashimono des joints** (convention, cf. `philosophie-sashimono.md`
+> §6-7) : le joint Meru=Qâf/Aqtâb=Malakūt planétaire est un **hozo** (tenon-mortaise —
+> équivalence établie, même degré ontologique sous deux voiles traditionnels), trait
+> plein rouge dans l'Instrument. Il en va de même du joint Quṭb=Mérou d'Abdul-Hâdî
+> (1911) — second hozo, indépendant et antérieur. Le cas d'Idrīs/degré 24/Ciel du
+> Soleil n'est pas un joint inter-traditionnel mais une **confirmation externe** d'un
+> point déjà interne à la table akbarienne — ne se qualifie pas en hozo/kumiko. Le
+> volet wirātha↔pôles, encore `to-source`, reste en **kari-kumi** (montage à blanc,
+> rien à tailler tant que le passage du ch. 36 n'est pas localisé).
+>
 > **Lectures suggérées** :
 > 1. René Guénon, « Quelques remarques sur la doctrine des cycles cosmiques » (*Formes
 >    traditionnelles et Cycles cosmiques*) — déjà source de la clôture de
