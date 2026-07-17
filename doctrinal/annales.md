@@ -10,6 +10,36 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-07-16] protocole | Double contrôle systématique (sashimono + Gizeh) inscrit dans CLAUDE.md
+
+- **Opération** : AMENDEMENT PROTOCOLE — sur ordre explicite de Sidy.
+- **Modifié** : `CLAUDE.md` §VII — ajout de la sous-section « Double contrôle
+  systématique (transversal) » à la Discipline des sources.
+- **Contenu** : deux gestes désormais obligatoires à la production (non plus
+  ponctuels) — (1) qualification sashimono des joints (hozo/kumiko/kari-kumi) au
+  moment de la rédaction ; (2) confrontation de toute matière nouvelle au pôle Gizeh
+  et à sa vigilance polaire/solaire, avec attention particulière aux matières
+  polaire/axiale/septénaire/métrologique (chiffre 28), résultat consigné même négatif.
+- **Motivation** : l'omission de la qualification sashimono lors du dépôt du socle
+  métaphysique universel (2026-07-16) a montré que la convention, bien qu'établie,
+  n'était pas inscrite comme geste systématique de production. Symétriquement, la
+  confrontation Gizeh — jusque-là faite sur demande — est érigée en contrôle
+  transversal, la matière polaire s'étant considérablement enrichie (Meru=Qâf, axe
+  polaire, sept Aqtâb) et augmentant d'autant le risque de conflation avec le dossier
+  Gizeh (présumé solaire).
+- **Confrontation Gizeh de la présente session (consignée)** : le socle métaphysique
+  universel a été confronté aux données Gizeh — **aucun ancrage établi**. Vigilance
+  polaire/solaire réaffirmée (renforcée par l'enrichissement de la matière polaire).
+  Une seule piste candidate notée et NON tranchée : les conduits de la Chambre de la
+  Reine visant les « Impérissables » circumpolaires (Thuban/Kochab, hypothèse
+  Badawy/Trimble contestée) touchent au thème polaire guénonien — à surveiller si le
+  dossier Gizeh évolue, sans ancrage à ce stade.
+- **Point sensible** : aucun — amendement de méthode.
+- **Note de méthode** : ces deux gestes sont des contrôles de relevé (signalement +
+  qualification), jamais des décisions doctrinales (Cmd 12).
+
+---
+
 ## [2026-07-16] correctif | Qualification sashimono appliquée a posteriori (5 fiches)
 
 - **Opération** : CORRECTIF DE FORME — application rétroactive de la convention

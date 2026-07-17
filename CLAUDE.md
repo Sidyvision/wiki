@@ -21,6 +21,8 @@ la dispersion mentale.
 > **Révisé le 2026-07-07** : adoption de la philosophie et de la convention
 > terminologique Sashimono (§VII, « Convention Sashimono » ; directive détaillée :
 > `meta/philosophie-sashimono.md`).
+> **Révisé le 2026-07-16** : double contrôle systématique (sashimono + confrontation
+> Gizeh) inscrit au §VII.
 > On ne
 > parle jamais de « réforme » : une réforme prétend corriger le principe, une
 > restauration rétablit l'ordre normal. Le mot « réforme » est banni du dépôt.
@@ -289,6 +291,33 @@ quatre circuits, chacun avec son Sceau propre.)*
 4. **Stratification de crédibilité** : pour les données factuelles disputées
    (mesures, datations), compiler en tableau comparatif avec marges, crédibilité
    flaguée **par item**, jamais en jugement global.
+
+### Double contrôle systématique (transversal — ajouté 2026-07-16)
+
+Deux gestes s'appliquent à TOUTE production doctrinale ou d'Instrument comportant une
+correspondance, une identité, ou une matière traditionnelle nouvelle — au moment de la
+production, non après coup ni seulement sur demande :
+
+1. **Qualification sashimono des joints** : tout lien inter-traditionnel ou
+   inter-fiches significatif est qualifié dans le corps de la fiche (jamais en
+   frontmatter, cf. convention §VII 2026-07-07) — **hozo** (équivalence établie),
+   **kumiko** (complémentarité), ou **kari-kumi** (suggéré/non tranché, redondant avec
+   🔍). L'état d'ensemble d'un lot non intégré est déclaré *kari-kumi* (montage à
+   blanc). Ce geste n'établit aucun ancrage : il nomme la nature du joint pressenti,
+   le verdict restant à Sidy (Cmd 12).
+
+2. **Confrontation aux données Gizeh** : toute matière nouvelle est testée contre le
+   pôle Gizeh et sa **vigilance polaire/solaire** permanente
+   ([[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]). En
+   particulier, toute matière à caractère **polaire, axial, septénaire, ou
+   métrologique (chiffre 28)** doit être examinée pour : (a) un éventuel ancrage
+   sourcé ; (b) une éventuelle tension à documenter ; (c) le risque de conflation
+   polaire/solaire (ex. la précision géodésique de Gizeh vers le pôle céleste NE fait
+   PAS de Gizeh un objet « polaire » au sens traditionnel — erreur de catégorie à
+   écarter). Résultat consigné même quand il est négatif (« confronté, aucun ancrage »).
+
+Ces deux gestes sont des **contrôles de relevé**, pas des décisions : ils signalent
+et qualifient, ils ne tranchent jamais la validité métaphysique (Cmd 12).
 
 ### Action : ARCHIVAGE & MAILLAGE (intégration d'une source)
 
