@@ -1,12 +1,39 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-07-16
+updated: 2026-07-22
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
+
+---
+
+## [2026-07-22] intégration | Manifeste UPDATES.md — corrections de frontmatter (audit cartographie LOT A/B/C)
+
+- **Opération** : INTÉGRATION — manifeste `UPDATES.md` datée du 2026-07-22, passe mécanique sans rédaction.
+- **Périmètre** : `doctrinal/` et `atelier/` circuits.
+- **LOT A** — 27 fiches (sources_count sous-évalué → recalculé) :
+  - `doctrinal/autorites/` : abdullah-daghestani, al-nabulusi, hamza-yusuf, ibn-qayyim, ibn-sirin
+  - `doctrinal/deviations/` : body-types, reincarnation-vies-anterieures, technologisation-pseudo-scientifique
+  - `doctrinal/discernement/` : 2026-07-02_coudee-royale-convergence-28, _template
+  - `doctrinal/etudes/` : 2026-07-02_donnees-geometriques-gizeh
+  - `doctrinal/sources/` : conversation-llm-intellect-2026-06-11, hasbiyallah-rabbani, mawlid-al-rasul, universal-man-jili, wazifa
+  - `doctrinal/symboles/` : alam-al-mithal, fal-wa-tatayyur, influx-spirituel-sommet-cranien, khalwa, lieux-saints-france, maqamat-meknes, taabir-al-ruya, taawil-par-le-nom, tarbiyya-rabbaniyya, tibb-e-nabawi, waqia
+- **LOT B** — 17 fiches (sources: manquant → ajout ["to-source"]) :
+  - `doctrinal/autorites/` : ibn-arabi, ali-hussain, ahmad-al-buni, al-ghazali, al-jazari, al-khwarizmi, ibn-sina, idris, ouattara-brahima, yaqub-chaudhary
+  - `doctrinal/symboles/` : ilm-al-huruf, asma-al-husna, ilm-al-nujum, salawat, talisman-sihr, wird-awrad
+  - `doctrinal/etudes/` : 2026-06-04_islam-et-ia
+- **LOT C** — 2 fiches (coquille slug → correction) :
+  - `atelier/projets/spec-technique-axe-38-degres.md` : `[[table-28-degres-nafas-rahmân]]` → `[[doctrinal/symboles/table-28-degres-nafas-rahman]]`
+  - `doctrinal/sources/transcription-anneau-28-lettres-figure4.md` : idem dans cross_links
+- **LOT D** — 3 fiches sans frontmatter (signalement seul, aucune modification) :
+  - `doctrinal/sources/transcription-index-tilak-origine-polaire.md`
+  - `doctrinal/sources/transcription-table-matieres-symboles-science-sacree.md`
+  - `atelier/projets/note-impact-instrument-socle-universel-2026-07-16.md`
+- **Point sensible** : aucun — passe mécanique, aucun jugement doctrinal requis.
+- **Vérification** : `git diff --stat` montrant 46 fichiers modifiés (45 corrections frontmatter + 1 slug correction), aucune modification de contenu.
 
 ---
 

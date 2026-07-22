@@ -6,6 +6,7 @@ tradition_cadre: "islam"
 tags: [islam, intelligence-artificielle, metaphysique, tawhid, ame, epistemologie]
 created: 2026-06-04
 updated: 2026-06-11
+sources: ["to-source"]
 sources_count: 1
 cross_links: ["[[yaqub-chaudhary]]", "[[ibn-sina]]", "[[al-ghazali]]", "[[al-jazari]]", "[[al-khwarizmi]]", "[[wahdat-al-wujud]]", "[[asma-al-husna]]", "[[tasawwuf]]"]
 ---

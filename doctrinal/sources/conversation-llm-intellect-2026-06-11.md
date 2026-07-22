@@ -7,7 +7,7 @@ tags: [source, transcription, metaphysique, intellect, llm, tawil, guenon, disce
 created: 2026-06-11
 updated: 2026-06-20
 sources: ["to-source"]
-sources_count: 0
+sources_count: 1
 cross_links: ["[[2026-06-11_llm-wiki-modalite-intellect]]", "[[2026-06-11_llm-wiki-correction-doctrinale]]"]
 ---
 

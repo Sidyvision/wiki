@@ -7,7 +7,7 @@ tags: [medecine-islamique, fiqh, theologie, stub]
 created: 2026-06-05
 updated: 2026-06-20
 sources: ["to-source"]
-sources_count: 0
+sources_count: 1
 cross_links: ["[[tibb-e-nabawi]]", "[[morphopsychologie]]"]
 ---
 

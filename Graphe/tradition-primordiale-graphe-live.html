@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Tradition Primordiale — Cartographie du dépôt</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<style>
+  :root{
+    --ink:#0B0E14;
+    --ink-2:#12161F;
+    --panel:#161B26;
+    --line:#242B3A;
+    --gold:#C9A24B;
+    --gold-dim:#7A6636;
+    --text:#E7E3D8;
+    --text-dim:#8E93A3;
+    --doctrinal:#5E8FD6;
+    --atelier:#B5543F;
+    --label-c:#4FA69C;
+    --meta:#8B6FB3;
+    --serif: Iowan Old Style, Palatino Linotype, Georgia, "Times New Roman", serif;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{margin:0; padding:0; height:100%; background:var(--ink); color:var(--text); font-family:var(--sans); overflow:hidden;}
+  #app{position:relative; width:100vw; height:100vh; height:100dvh;}
+  #app::before{
+    content:""; position:absolute; inset:0; pointer-events:none; z-index:1;
+    background: radial-gradient(ellipse at 50% 38%, rgba(201,162,75,0.06), transparent 55%),
+                radial-gradient(ellipse at 50% 100%, rgba(0,0,0,0.55), transparent 60%);
+  }
+  svg{display:block; width:100%; height:100%;}
+
+  .link{ stroke-linecap:round; }
+  .link-etabli{ stroke:#2B3242; stroke-width:1; }
+  .link-suggere{ stroke:var(--gold-dim); stroke-width:1; stroke-dasharray:1,4; }
+  .link-dim{ opacity:0.06; }
+  .link-highlight{ opacity:0.95; stroke:var(--gold); }
+
+  .node circle{ stroke:var(--ink); stroke-width:1.2; cursor:pointer; }
+  .node.dim{ opacity:0.12; }
+  .node text{
+    fill:var(--text-dim); font-family:var(--sans); font-size:9px; pointer-events:none;
+    paint-order:stroke; stroke:var(--ink); stroke-width:3px; stroke-linejoin:round;
+  }
+  .node.selected circle{ stroke:var(--gold); stroke-width:2.5; }
+
+  /* ---------- Toolbar ---------- */
+  #toolbar{
+    position:absolute; top:0; left:0; right:0; z-index:5;
+    padding: max(12px, env(safe-area-inset-top)) 14px 10px 14px;
+    background: linear-gradient(to bottom, rgba(11,14,20,0.96), rgba(11,14,20,0.75) 70%, transparent);
+    pointer-events:none;
+  }
+  #toolbar > *{ pointer-events:auto; }
+  #title{ font-family:var(--serif); font-size:15px; color:var(--gold); letter-spacing:0.03em; margin:2px 2px 10px 4px; opacity:0.9; }
+  #title .count{ color:var(--text-dim); font-family:var(--sans); font-size:11px; margin-left:8px; }
+  .row{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  #search{ flex:1 1 auto; min-width:150px; background:var(--panel); border:1px solid var(--line); border-radius:20px; padding:9px 14px; color:var(--text); font-size:14px; outline:none; }
+  #search::placeholder{ color:var(--text-dim); }
+  .chip{ background:var(--panel); border:1px solid var(--line); color:var(--text-dim); border-radius:20px; padding:8px 14px; font-size:13px; white-space:nowrap; display:flex; align-items:center; gap:6px; user-select:none; }
+  .chip .dot{ width:7px; height:7px; border-radius:50%; }
+  .chip.active{ color:var(--text); border-color:var(--gold-dim); background:#1C2130; }
+  .chip.all.active{ background:var(--text); color:var(--ink); border-color:var(--text); }
+  .chip.all.active .dot{ display:none; }
+
+  /* ---------- Zoom ---------- */
+  #zoom-controls{ position:absolute; right:14px; bottom:max(18px, env(safe-area-inset-bottom)); z-index:5; display:flex; flex-direction:column; gap:8px; }
+  .zbtn{ width:42px; height:42px; border-radius:50%; background:var(--panel); border:1px solid var(--line); color:var(--text); font-size:19px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 14px rgba(0,0,0,0.4); }
+
+  /* ---------- Side panel ---------- */
+  #panel{ position:absolute; top:0; right:0; height:100%; width:min(340px, 86vw); z-index:8; background:var(--panel); border-left:1px solid var(--line); transform:translateX(100%); transition:transform 0.28s ease; padding:max(20px, env(safe-area-inset-top)) 20px 20px 20px; overflow-y:auto; box-shadow:-20px 0 40px rgba(0,0,0,0.35); }
+  #panel.open{ transform:translateX(0); }
+  #panel-close{ position:absolute; top:16px; right:16px; width:30px; height:30px; border-radius:50%; background:var(--ink-2); border:1px solid var(--line); color:var(--text-dim); display:flex; align-items:center; justify-content:center; font-size:16px; }
+  #panel .eyebrow{ font-size:11px; letter-spacing:0.08em; text-transform:uppercase; margin-bottom:6px; }
+  #panel .eyebrow.doctrinal{ color:var(--doctrinal); }
+  #panel .eyebrow.atelier{ color:var(--atelier); }
+  #panel .eyebrow.label{ color:var(--label-c); }
+  #panel .eyebrow.meta{ color:var(--meta); }
+  #panel h2{ font-family:var(--serif); font-size:21px; margin:0 0 10px 0; color:var(--text); line-height:1.25; }
+  #panel .meta-row{ display:flex; flex-wrap:wrap; gap:6px 10px; font-size:12px; color:var(--text-dim); margin-bottom:4px; }
+  #panel .meta-row b{ color:var(--text); font-weight:500; }
+  #panel .chemin{ font-size:11px; color:var(--text-dim); margin-top:10px; word-break:break-all; opacity:0.7; }
+  #panel .badge-lacune{ display:inline-block; margin-top:10px; font-size:11px; color:var(--gold); border:1px solid var(--gold-dim); border-radius:12px; padding:3px 10px; }
+  #panel .block-title{ font-size:11px; letter-spacing:0.06em; text-transform:uppercase; color:var(--text-dim); margin:18px 0 10px 0; border-top:1px solid var(--line); padding-top:16px; }
+  #panel .link-item{ display:flex; align-items:center; gap:9px; padding:8px 0; font-size:14px; color:var(--text); cursor:pointer; border-bottom:1px solid rgba(255,255,255,0.03); }
+  #panel .link-item .dot{ width:7px; height:7px; border-radius:50%; flex:none; }
+  #panel .link-item .tag{ margin-left:auto; font-size:10px; color:var(--text-dim); }
+  #panel .link-item.suggere .tag{ color:var(--gold); }
+  #panel .empty{ color:var(--text-dim); font-size:13px; font-style:italic; }
+
+  #hint{ position:absolute; left:14px; bottom:max(18px, env(safe-area-inset-bottom)); z-index:5; color:var(--text-dim); font-size:11px; max-width:200px; line-height:1.4; opacity:0.6; }
+
+  /* ---------- États de chargement / erreur ---------- */
+  #status{ position:absolute; inset:0; z-index:20; display:flex; align-items:center; justify-content:center; padding:24px; text-align:center; }
+  #status-box{ max-width:380px; }
+  #status .icon{ font-size:28px; margin-bottom:14px; opacity:0.8; }
+  #status h3{ font-family:var(--serif); font-size:19px; margin:0 0 10px 0; color:var(--text); }
+  #status p{ font-size:13px; color:var(--text-dim); line-height:1.6; margin:0 0 8px 0; }
+  #status code{ background:var(--panel); border:1px solid var(--line); border-radius:6px; padding:2px 6px; font-size:12px; color:var(--gold); }
+  #status pre{ background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 14px; font-size:11px; color:var(--text-dim); text-align:left; overflow-x:auto; margin-top:14px; }
+
+  ::-webkit-scrollbar{ width:0; height:0; }
+</style>
+</head>
+<body>
+<div id="app">
+  <svg id="canvas"></svg>
+
+  <div id="toolbar" style="display:none;">
+    <div id="title">Tradition Primordiale <span class="count"></span></div>
+    <div class="row"><input id="search" type="text" placeholder="Rechercher une fiche…" autocomplete="off" autocapitalize="off" spellcheck="false"></div>
+    <div class="row" id="filter-row" style="margin-top:8px;"></div>
+  </div>
+
+  <div id="hint" style="display:none;">Pincer pour zoomer · glisser pour déplacer · toucher un nœud pour ses liens</div>
+
+  <div id="zoom-controls" style="display:none;">
+    <div class="zbtn" id="zoom-in">+</div>
+    <div class="zbtn" id="zoom-out">−</div>
+    <div class="zbtn" id="zoom-reset" style="font-size:15px;">⟲</div>
+  </div>
+
+  <div id="panel"><div id="panel-close">✕</div><div id="panel-body"></div></div>
+
+  <div id="status">
+    <div id="status-box">
+      <div class="icon">◌</div>
+      <h3>Chargement du manifeste…</h3>
+      <p>Lecture de <code id="status-path">./graphe-cartographie.json</code></p>
+    </div>
+  </div>
+</div>
+
+<script>
+// ==========================================================================
+// CONFIGURATION — chemin du manifeste, relatif à ce fichier HTML.
+// Les deux doivent être servis depuis le même dossier HTTP (Hetzner statique,
+// ou un `python3 -m http.server` en local pour tester). Un simple double-clic
+// sur ce fichier (protocole file://) ne pourra PAS charger le JSON : c'est une
+// restriction du navigateur, sans rapport avec le dépôt.
+// ==========================================================================
+const CHEMIN_MANIFESTE = './graphe-cartographie.json';
+document.getElementById('status-path').textContent = CHEMIN_MANIFESTE;
+
+const CIRCUIT_COULEUR = {
+  doctrinal: getComputedStyle(document.documentElement).getPropertyValue('--doctrinal').trim(),
+  atelier:   getComputedStyle(document.documentElement).getPropertyValue('--atelier').trim(),
+  label:     getComputedStyle(document.documentElement).getPropertyValue('--label-c').trim(),
+  meta:      getComputedStyle(document.documentElement).getPropertyValue('--meta').trim(),
+};
+const CIRCUIT_NOM = { doctrinal:'Doctrinal', atelier:'Atelier', label:'Label', meta:'Domaine réservé' };
+
+function afficherErreur(titre, detail, aide){
+  const box = document.getElementById('status-box');
+  box.innerHTML = `
+    <div class="icon">⚠</div>
+    <h3>${titre}</h3>
+    <p>${detail}</p>
+    ${aide ? `<pre>${aide}</pre>` : ''}
+  `;
+}
+
+fetch(CHEMIN_MANIFESTE, { cache: 'no-store' })
+  .then(res => {
+    if(!res.ok) throw { type: 'http', status: res.status };
+    return res.json();
+  })
+  .then(data => {
+    if(!data || !Array.isArray(data.nodes) || !Array.isArray(data.edges)){
+      throw { type: 'schema' };
+    }
+    document.getElementById('status').remove();
+    demarrer(data);
+  })
+  .catch(err => {
+    if(err && err.type === 'http'){
+      afficherErreur(
+        `Manifeste introuvable (HTTP ${err.status})`,
+        `Le fichier <code>graphe-cartographie.json</code> n'est pas accessible à côté de cette page.`,
+        `Génère-le d'abord :\npython3 generer-cartographie.py --depot /root/wiki \\\n  --sortie <même dossier que ce .html>/graphe-cartographie.json`
+      );
+    } else if(err && err.type === 'schema'){
+      afficherErreur('Manifeste mal formé', `Le JSON chargé ne contient pas les clés attendues (<code>nodes</code>, <code>edges</code>).`);
+    } else {
+      afficherErreur(
+        'Impossible de charger le manifeste',
+        `Le navigateur bloque probablement le chargement local (protocole <code>file://</code>).`,
+        `Sers ce dossier en HTTP pour tester, par exemple :\ncd <dossier contenant ce .html et le .json>\npython3 -m http.server 8080\n\npuis ouvre http://localhost:8080/`
+      );
+    }
+  });
+
+// ==========================================================================
+// RENDU — n'est appelé qu'une fois le manifeste chargé et validé.
+// ==========================================================================
+function demarrer(DATA){
+  document.getElementById('toolbar').style.display = '';
+  document.getElementById('hint').style.display = '';
+  document.getElementById('zoom-controls').style.display = '';
+
+  const nodesById = new Map(DATA.nodes.map(n => [n.id, n]));
+
+  // Degré (nombre de connexions) — sert de rayon et de force de répulsion.
+  const degre = new Map(DATA.nodes.map(n => [n.id, 0]));
+  const neighbors = new Map(DATA.nodes.map(n => [n.id, []]));
+  DATA.edges.forEach(e => {
+    if(nodesById.has(e.source) && nodesById.has(e.target)){
+      degre.set(e.source, (degre.get(e.source)||0) + 1);
+      degre.set(e.target, (degre.get(e.target)||0) + 1);
+      neighbors.get(e.source).push({ id: e.target, assise: e.assise, nature: e.nature });
+      neighbors.get(e.target).push({ id: e.source, assise: e.assise, nature: e.nature });
+    }
+  });
+
+  const circuitsPresents = Array.from(new Set(DATA.nodes.map(n => n.circuit)))
+    .filter(c => CIRCUIT_NOM[c]);
+
+  document.querySelector('#title .count').textContent =
+    `· ${DATA.nodes.length} fiches · ${DATA.edges.length} liens`;
+
+  // Chips de filtre construites dynamiquement selon les circuits présents.
+  const filterRow = document.getElementById('filter-row');
+  filterRow.innerHTML = `<div class="chip all active" data-filter="all">Tous</div>` +
+    circuitsPresents.map(c => `
+      <div class="chip" data-filter="${c}">
+        <span class="dot" style="background:${CIRCUIT_COULEUR[c]}"></span>${CIRCUIT_NOM[c]}
+      </div>`).join('');
+
+  const svg = d3.select('#canvas');
+  const g = svg.append('g');
+  const linkLayer = g.append('g').attr('class', 'links');
+  const nodeLayer = g.append('g').attr('class', 'nodes');
+
+  let width = window.innerWidth, height = window.innerHeight;
+
+  const zoom = d3.zoom().scaleExtent([0.15, 6]).on('zoom', ev => g.attr('transform', ev.transform));
+  svg.call(zoom);
+
+  function colorOf(n){ return CIRCUIT_COULEUR[n.circuit] || '#7A8699'; }
+  function radiusOf(n){ return 3.5 + Math.min(9, Math.sqrt((degre.get(n.id)||0)) * 2.4); }
+
+  // Centres approximatifs par circuit, pour un regroupement visuel doux
+  // (pas de hiérarchie dans le manifeste : ce ne sont que des repères).
+  const angle = (i, total) => (i / Math.max(total,1)) * 2 * Math.PI;
+  const centres = {};
+  circuitsPresents.forEach((c, i) => {
+    const a = angle(i, circuitsPresents.length);
+    centres[c] = {
+      x: width/2 + Math.cos(a) * width * 0.22,
+      y: height/2 + Math.sin(a) * height * 0.22,
+    };
+  });
+
+  const simulation = d3.forceSimulation(DATA.nodes)
+    .force('link', d3.forceLink(DATA.edges).id(d => d.id)
+      .distance(d => d.nature === 'source' ? 42 : 60)
+      .strength(d => d.assise === 'etabli' ? 0.25 : 0.05))
+    .force('charge', d3.forceManyBody().strength(d => -60 - (degre.get(d.id)||0) * 8))
+    .force('collide', d3.forceCollide().radius(d => radiusOf(d) + 3))
+    .force('x', d3.forceX(d => (centres[d.circuit]||{x:width/2}).x).strength(0.05))
+    .force('y', d3.forceY(d => (centres[d.circuit]||{y:height/2}).y).strength(0.05));
+
+  const link = linkLayer.selectAll('line')
+    .data(DATA.edges)
+    .join('line')
+    .attr('class', d => 'link ' + (d.assise === 'etabli' ? 'link-etabli' : 'link-suggere'));
+
+  const node = nodeLayer.selectAll('g.node')
+    .data(DATA.nodes)
+    .join('g')
+    .attr('class', 'node')
+    .attr('data-circuit', d => d.circuit)
+    .call(drag(simulation));
+
+  node.append('circle')
+    .attr('r', d => radiusOf(d))
+    .attr('fill', d => colorOf(d))
+    .attr('fill-opacity', 0.85);
+
+  node.append('text')
+    .attr('x', d => radiusOf(d) + 5)
+    .attr('y', 3)
+    .text(d => d.label);
+
+  node.on('click', (ev, d) => { ev.stopPropagation(); selectNode(d); });
+  svg.on('click', () => clearSelection());
+
+  simulation.on('tick', () => {
+    link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    node.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+
+  function drag(sim){
+    function started(ev, d){ if(!ev.active) sim.alphaTarget(0.25).restart(); d.fx = d.x; d.fy = d.y; }
+    function dragged(ev, d){ d.fx = ev.x; d.fy = ev.y; }
+    function ended(ev, d){ if(!ev.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }
+    return d3.drag().on('start', started).on('drag', dragged).on('end', ended);
+  }
+
+  // ---------- Sélection ----------
+  function selectNode(d){
+    const nb = new Set((neighbors.get(d.id)||[]).map(x => x.id));
+    node.classed('dim', o => o.id !== d.id && !nb.has(o.id));
+    node.classed('selected', o => o.id === d.id);
+    link.classed('link-dim', e => e.source.id !== d.id && e.target.id !== d.id);
+    link.classed('link-highlight', e => e.source.id === d.id || e.target.id === d.id);
+    openPanel(d);
+  }
+  function clearSelection(){
+    node.classed('dim', false).classed('selected', false);
+    link.classed('link-dim', false).classed('link-highlight', false);
+    closePanel();
+  }
+
+  // ---------- Panneau ----------
+  const panel = document.getElementById('panel');
+  const panelBody = document.getElementById('panel-body');
+
+  function openPanel(d){
+    const nb = (neighbors.get(d.id)||[])
+      .map(x => ({ ...x, node: nodesById.get(x.id) }))
+      .filter(x => x.node)
+      .sort((a,b) => a.node.label.localeCompare(b.node.label, 'fr'));
+
+    let html = `<div class="eyebrow ${d.circuit}">${CIRCUIT_NOM[d.circuit] || d.circuit}</div>`;
+    html += `<h2>${d.label}</h2>`;
+    html += `<div class="meta-row">`;
+    if(d.type) html += `<span><b>${d.type}</b></span>`;
+    if(d.status) html += `<span>${d.status}</span>`;
+    if(d.tradition_cadre) html += `<span>${d.tradition_cadre}</span>`;
+    html += `</div>`;
+    if(d.tags && d.tags.length) html += `<div class="meta-row">${d.tags.map(t=>`#${t}`).join('  ')}</div>`;
+    if(d.updated) html += `<div class="meta-row">mis à jour ${d.updated}</div>`;
+    if(d.lacunes_to_source) html += `<div class="badge-lacune">${d.lacunes_to_source} source(s) to-source</div>`;
+    html += `<div class="chemin">${d.chemin}</div>`;
+
+    if(nb.length){
+      html += `<div class="block-title">Liens (${nb.length})</div>`;
+      nb.forEach(x => {
+        html += `<div class="link-item ${x.assise}" data-goto="${x.id}">
+          <span class="dot" style="background:${colorOf(x.node)}"></span>
+          <span>${x.node.label}</span>
+          <span class="tag">${x.assise === 'suggere' ? '🔍 suggéré' : x.nature}</span>
+        </div>`;
+      });
+    } else {
+      html += `<div class="block-title">Liens</div><div class="empty">Aucun lien enregistré.</div>`;
+    }
+    panelBody.innerHTML = html;
+    panelBody.querySelectorAll('.link-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const t = nodesById.get(el.getAttribute('data-goto'));
+        if(t) selectNode(t);
+      });
+    });
+    panel.classList.add('open');
+  }
+  function closePanel(){ panel.classList.remove('open'); }
+  document.getElementById('panel-close').addEventListener('click', ev => { ev.stopPropagation(); clearSelection(); });
+
+  // ---------- Recherche ----------
+  const searchInput = document.getElementById('search');
+  searchInput.addEventListener('input', () => {
+    const q = searchInput.value.trim().toLowerCase();
+    if(!q){ applyFilter(); return; }
+    node.classed('dim', d => !d.label.toLowerCase().includes(q));
+    link.classed('link-dim', true).classed('link-highlight', false);
+  });
+  searchInput.addEventListener('focus', clearSelection);
+
+  // ---------- Filtres de circuit ----------
+  let activeFilter = 'all';
+  filterRow.querySelectorAll('.chip[data-filter]').forEach(chip => {
+    chip.addEventListener('click', () => {
+      activeFilter = chip.getAttribute('data-filter');
+      filterRow.querySelectorAll('.chip[data-filter]').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      searchInput.value = '';
+      applyFilter();
+    });
+  });
+  function applyFilter(){
+    node.classed('dim', d => activeFilter !== 'all' && d.circuit !== activeFilter);
+    link.classed('link-dim', false).classed('link-highlight', false);
+  }
+
+  // ---------- Zoom ----------
+  document.getElementById('zoom-in').addEventListener('click', () => svg.transition().duration(200).call(zoom.scaleBy, 1.4));
+  document.getElementById('zoom-out').addEventListener('click', () => svg.transition().duration(200).call(zoom.scaleBy, 0.7));
+  document.getElementById('zoom-reset').addEventListener('click', () => svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity));
+
+  setTimeout(() => {
+    svg.call(zoom.transform, d3.zoomIdentity.translate(width*0.05, height*0.05).scale(0.62));
+  }, 300);
+
+  window.addEventListener('resize', () => {
+    width = window.innerWidth; height = window.innerHeight;
+    simulation.alpha(0.1).restart();
+  });
+}
+</script>
+</body>
+</html>

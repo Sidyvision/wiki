@@ -6,6 +6,7 @@ tradition_cadre: "islam"
 tags: [soufisme, pratique-spirituelle, litanie, wird]
 created: 2026-06-02
 updated: 2026-06-20
+sources: ["to-source"]
 sources_count: 1
 cross_links: ["[[ibn-arabi]]", "[[salawat]]", "[[walaya]]", "[[tasawwuf]]", "[[wazifa]]", "[[khatm-al-khawajakan]]", "[[naqshbandiyya]]", "[[tawakkul]]", "[[hasbiyallah-rabbani]]"]
 ---

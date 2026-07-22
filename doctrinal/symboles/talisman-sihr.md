@@ -6,6 +6,7 @@ tradition_cadre: "islam"
 tags: [occultisme-islamique, talisman, sihr, simiya, awfaq, al-buni]
 created: 2026-06-02
 updated: 2026-06-11
+sources: ["to-source"]
 sources_count: 1
 cross_links: ["[[ahmad-al-buni]]", "[[ilm-al-huruf]]", "[[asma-al-husna]]"]
 ---

@@ -7,7 +7,7 @@ tags: [naqshbandiyya, wird-awrad, dhikr, salat, tasawwuf, tariqa, manuel-devotio
 created: 2026-06-05
 updated: 2026-06-20
 sources: ["to-source"]
-sources_count: 0
+sources_count: 1
 cross_links: ["[[naqshbandiyya]]", "[[muhammad-nazim-al-haqqani]]", "[[abdullah-daghestani]]", "[[khatm-al-khawajakan]]", "[[wird-awrad]]", "[[tasawwuf]]", "[[salawat]]", "[[asma-al-husna]]"]
 ---
 

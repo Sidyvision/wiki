@@ -7,7 +7,7 @@ tags: [soufisme, metaphysique, insan-al-kamil, jili, ibn-arabi, burckhardt, wahd
 created: 2026-06-05
 updated: 2026-06-20
 sources: ["to-source"]
-sources_count: 0
+sources_count: 1
 cross_links: ["[[abd-al-karim-al-jili]]", "[[ibn-arabi]]", "[[al-insan-al-kamil]]", "[[wahdat-al-wujud]]", "[[barzakh]]", "[[tasawwuf]]", "[[walaya]]"]
 ---
 

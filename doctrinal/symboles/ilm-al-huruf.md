@@ -6,6 +6,7 @@ tradition_cadre: "islam"
 tags: [occultisme-islamique, lettres, abjad, cosmologie, al-buni]
 created: 2026-06-02
 updated: 2026-06-11
+sources: ["to-source"]
 sources_count: 2
 cross_links: ["[[ahmad-al-buni]]", "[[asma-al-husna]]", "[[talisman-sihr]]", "[[tasawwuf]]", "[[ibn-arabi]]"]
 ---

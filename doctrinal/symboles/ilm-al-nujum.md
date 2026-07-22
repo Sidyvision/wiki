@@ -6,6 +6,7 @@ tradition_cadre: "islam"
 tags: [astrologie, islam, planetes, signes, maisons, tradition]
 created: 2026-06-03
 updated: 2026-06-11
+sources: ["to-source"]
 sources_count: 1
 cross_links: ["[[ilm-al-huruf]]", "[[asma-al-husna]]", "[[tasawwuf]]", "[[ahmad-al-buni]]"]
 ---

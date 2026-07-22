@@ -8,7 +8,7 @@ created: 2026-07-01
 updated: 2026-07-01
 sources: ["[[ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"]
 sources_count: 1
-cross_links: ["[[table-28-degres-nafas-rahmân]]", "[[ilm-al-huruf]]", "[[manazil-al-qamar]]"]
+cross_links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[ilm-al-huruf]]", "[[manazil-al-qamar]]"]
 ---
 
 # Transcription — Anneau des 28 lettres (Figure 4, p. 94)

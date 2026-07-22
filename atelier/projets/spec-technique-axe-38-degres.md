@@ -4,7 +4,7 @@ type: projet
 tags: [instrument, three-js, architecture-3D, nafas-rahmani, axe-vertical]
 created: 2026-07-01
 updated: 2026-07-01
-sources: ["[[table-28-degres-nafas-rahmân]]"]
+sources: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]"]
 ---
 
 # Spécification technique — Axe des 38 degrés du Nafas al-Raḥmān
