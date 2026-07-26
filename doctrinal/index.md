@@ -232,6 +232,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference|Le Symbolisme de la Croix, ch. XXIII + XXIX : Axe vertical et Centre-Circonférence (Guénon)]]
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya|L'Homme et son devenir selon le Vêdânta, ch. X/XV/XVI : Brahma et Turîya (Guénon)]]
 - [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne|La Qabbale dans la trilogie guénonienne (consolidation kabbalistique)]]
+- [[doctrinal/sources/nezami-pavillon-sept-princesses-barry|Nezâmî — Le Pavillon des Sept Princesses (trad. Michael Barry)]]
 
 ---
 
@@ -261,9 +262,13 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire|Les sept Pôles/Aqtâb et le Malakūt planétaire]] — close (traditionnel) : identité Quṭb=Meru confirmée par trois sources guénoniennes indépendantes + une source akbarienne antérieure (1911) ; volet wirātha↔pôles réservé (to-source partiel)
 - [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28|Candidat de double ancrage : coudée royale / convergence 28]] — `to-source`, réserve catégorielle
 - [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence|L'écart d'orientation comme marqueur temporel : note 7 de Guénon et Spence (2000)]] — convergence de fonction angle→temps
+- [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa|Les sept climats (haft eqlim) du Pavillon des Sept Princesses et le socle Meru/Qâf/Dwipa]] — en cours
 
 ### Sashimono et métiers traditionnels
 - [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel|Le sashimono comme métier traditionnel — fondement doctrinal de l'analogie opératoire]] 🔍 (verdict réservé)
+
+### L'Homme Universel à travers les traditions
+- [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara|Adam Qadmôn, al-Insān al-Kāmil, Wang, Vaishwânara — l'Homme Universel à travers quatre voiles traditionnels]] — close (traditionnel) : identité verdictée par Sidy (2026-07-26), extension du hozo Adam Qadmôn=al-Insān al-Kāmil=Wang à Vaishwânara/Virâj ; vigilance signalée sur la non-conflation avec le septénaire des sept Aqtâb/Malakūt planétaire
 
 ### Archétypes et organisation d'entreprise
 - [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise|Correspondances fonctions initiatiques/entreprise]] — mixte : volet 12/zodiaque CLOS (portes solsticiales confirmées, échec position 5 documenté) ; volet 5/Cinq-Présences EN COURS

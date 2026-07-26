@@ -849,3 +849,25 @@ ancrage servant de signal de vigilance.
 - **Source brute** : transcriptions index-rene-guenon.org transmises par Sidy +
   recherches web (classiques.uqam.ca pour tables des matières), session claude.ai.
 
+---
+
+## [2026-07-24] ingest | Ouverture du dossier Nezâmî/Haft Peykar (haft eqlim, sept climats)
+
+- **Opération** : ARCHIVAGE ET DISCERNEMENT — inscription du dossier Nezâmî/Haft Peykar (fiche source + discernement haft eqlim).
+- **Créé** : [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]], [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]].
+- **Enrichi** : [[doctrinal/index.md]] (§VI sources + §VII discernement), [[meta/bibliotheque-physique.md]] (section III).
+- **Contexte** : extension du discernement Meru/Qâf/Dwipa (déjà clos 2026-07-14/16) par matière nezâmienne : *haft eqlim*/*haft keshvar* (sept climats ptolémaïques + *karshvar* avestique), recoupement direct chiite duodécimaine (Ibn Bâbûya — Qâf associé aux sept terres/sept climats) ; piste tertiaire Avesta↔Purâṇas (*Jambudvīpa*) documentée comme *kari-kumi* (montage à blanc, source non qualifiée).
+- **Vigilances** : Nezâmî n'est pas une autorité doctrinale du canon (poète persan XIIe, lecture mystique à confirmer sur pp. 612-660 de l'édition Barry) ; rapprochement Avesta↔Purâṇas reste *kari-kumi* strict, ne doit pas alimenter `instrument-donnees.yaml`. Qualification sashimono : lien Qâf↔sept-climats candidat *kumiko* (filiation islamique chiite, renforcement du même invariant), lien Avesta↔Purâṇas resté *kari-kumi*.
+- **Prochaine étape** : transcription directe des pp. 612-660 (« Les Sept Princesses stellaires et l'Ascension mystique ») + glose des sept contes (pp. 661-708) avant tout ancrage ou clôture (Cmd 6).
+
+---
+
+## [2026-07-26] discernement | Clôture — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara/Virâj
+
+- **Opération** : EXAMEN DE DISCERNEMENT — ouverture et clôture dans la même session.
+- **Créé** : [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]].
+- **Enrichi** : [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] (ajout ch. XII — cadre des quatre états d'Âtmâ — et ch. XIII — Vaishwânara/Virâj, sept membres, renvoi adamique note 5) ; [[atelier/projets/note-impact-instrument-socle-universel-2026-07-16]] (hozo étendu, six → sept).
+- **Contexte** : extension du hozo Adam Qadmôn=al-Insān al-Kāmil=Wang (2026-07-16) à Vaishwânara/Virâj, sur verdict explicite de Sidy (2026-07-26) résolvant la réserve de degré identifiée à l'examen formel (SC ch. II vs HDV ch. XIII) : les diverses désignations de l'Homme Universel restent restrictives dans la perspective métaphysique en tant qu'elles se réfèrent à l'homme et à son archétype dans le cadre de la réalisation spirituelle, sans que l'existence elle-même s'y arrête — variation de degré relevant de la commodité dialectique, non d'une tension doctrinale.
+- **Point sensible** : structure septénaire du corps macrocosmique de Vaishwânara/Virâj (HDV ch. XIII) signalée comme distincte du septénaire des sept Aqtâb/Malakūt planétaire déjà ancré — non-conflation à rappeler dans toute session future touchant l'un ou l'autre.
+- **Note de méthode** : double contrôle systématique appliqué au moment de la rédaction (sashimono + confrontation Gizeh, §VII) — aucun ancrage établi côté Gizeh. Aucun ancrage inscrit dans `instrument-donnees.yaml` (nœuds Vêdânta/Kabbale inexistants avant Phase 3) ; la doctrine est close, le rendu attend l'ouverture de Phase 3.
+

@@ -130,6 +130,7 @@ déviations modernes.*
 - **Jean Emmanuelli** — *Propos sur le Tantra* (Cahiers de l'Unicorn-11, Archè Milano)
 - **Molla Sadra Shirazi** — *Le Livre des pénétrations métaphysiques* (Verdier) — sommet de la philosophie islamique chiite d'Ispahan.
 - *Le Livre des Rois* (Ferdowsi, Sindbad/Actes Sud)
+- **Nezâmî** — *Le Pavillon des Sept Princesses* (*Haft Peykar*, trad. du persan, présenté et annoté par Michael Barry, Gallimard, coll. « Connaissance de l'Orient ») — CONFIRMÉ en bibliothèque physique (2026-07-24, photographie couverture + table des matières). Sept contes emboîtés dans le cadre des sept climats/planètes/couleurs (*haft eqlim*) — matière non encore lue en profondeur. Fiché côté doctrinal : [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]], [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]].
 - **P. D. Ouspensky** — *Fragments d'un enseignement inconnu* (école de Gurdjieff)
 - **G. I. Gurdjieff** — *Rencontres avec des hommes remarquables* (Le Rocher)
 

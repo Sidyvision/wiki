@@ -1,11 +1,11 @@
 ---
-title: "Guénon — L'Homme et son devenir selon le Vêdânta, ch. X, XV, XVI : Brahma, les trois états et le Quatrième (Turīya)"
+title: "Guénon — L'Homme et son devenir selon le Vêdânta, ch. X/XII/XIII/XV/XVI : États d'Âtmâ, Vaishwânara et Brahma-Turîya"
 type: source
 status: traditionnel
 tradition_cadre: "universel"
-tags: [guenon, homme-devenir-vedanta, brahma, atma, turiya, sat-chit-ananda, ibn-arabi, risalatul-ahadiyah, prajna, echelle-ontologique]
+tags: [guenon, homme-devenir-vedanta, brahma, atma, turiya, vaishvanara, viraj, sat-chit-ananda, ibn-arabi, risalatul-ahadiyah, prajna, echelle-ontologique]
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-26
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]", "[[atelier/projets/instrument-tradition-primordiale-architecture-v0_3]]"]
@@ -41,6 +41,54 @@ l'ésotérisme islamique. »
 les *Asrâr rabbâniyah* comme « surface réverbérante à innombrables facettes » —
 rapprochée ici de *Mâyâ* comme *Shakti* de *Brahma*, et de *Kether* comme « vêtement »
 d'*Aïn-Soph* dans la Qabbalah.
+
+## Ch. XII — Les différentes conditions d'Âtmâ dans l'être humain
+
+Pose le cadre des quatre états (*pâdas*) d'Âtmâ, d'après la *Māṇḍūkya Upaniṣad* : état
+de veille (manifestation grossière), état de rêve (manifestation subtile), sommeil
+profond (état « causal », *kārana-śarīra*, extra-individuel, informel), et un quatrième
+état principiel absolument inconditionné, au-delà même de l'Être. Formule retenue pour
+le socle universel : « les états de l'être... ne représentent rien d'autre que des
+possibilités d'Âtmâ » — Âtmâ lui-même n'étant affecté par aucun d'eux, ne devenant
+jamais manifesté, tout en étant le principe essentiel de la manifestation sous tous ses
+modes. Ce chapitre ne nomme pas encore *Vaishwânara* — il annonce l'exposé successif des
+quatre conditions, développé aux chapitres suivants.
+
+## Ch. XIII — L'état de veille ou la condition de Vaishwânara
+
+Première des quatre conditions d'Âtmâ. Citation du texte de la *Māṇḍūkya Upaniṣad*,
+śruti 3 : *Vaishwânara* a son siège dans l'état de veille, connaît les objets externes,
+« a sept membres et dix-neuf bouches », et son domaine est le monde de la manifestation
+grossière.
+
+**Identité avec l'Homme Universel** — posée explicitement par Guénon : *Vaishwânara*
+est ce qu'il a appelé l'« Homme Universel », envisagé dans le développement complet de
+ses états de manifestation. Dans ce chapitre, l'extension du terme est restreinte à
+l'état le plus extérieur (manifestation grossière), pris comme symbole de l'ensemble —
+« il suffira... d'effectuer les transpositions convenables suivant les degrés auxquels
+la conception devra s'appliquer ». *Vaishwânara* est aussi identifié à *Virâj*,
+l'Intelligence cosmique régissant le monde corporel, et signifie encore « ce qui est
+commun à tous les hommes » (le « génie de l'espèce »).
+
+**Les sept membres du corps macrocosmique** : 1) sphères lumineuses supérieures (tête/
+cerveau) ; 2) Soleil et Lune (les deux yeux) ; 3) principe igné (la bouche) ; 4)
+directions de l'espace (les oreilles) ; 5) atmosphère/*prāṇa* (les poumons) ; 6) région
+intermédiaire *Antariksha* (l'estomac) ; 7) Terre (les pieds). Absence remarquée du
+cœur : sa relation directe avec l'Intelligence universelle le place hors du domaine des
+fonctions individuelles — « séjour de Brahma », point central de l'ordre cosmique comme
+de l'ordre humain.
+
+**Les dix-neuf « bouches »** (organes/facultés de connaissance) : cinq organes de
+sensation, cinq organes d'action, cinq souffles vitaux (*vāyus*), le mental (*manas*),
+l'intellect (*buddhi*), la pensée (*citta*), la conscience individuelle (*ahaṅkāra*).
+
+**Renvoi à la tradition adamique** (note 5) — Guénon signale, sans le développer : « Il
+conviendrait encore d'établir des rapprochements avec la conception de la nature
+"adamique" dans les traditions judaïque et islamique, conception qui, elle aussi,
+s'applique à des degrés divers et en des sens hiérarchiquement superposés ; mais cela
+nous entraînerait beaucoup trop loin de notre sujet, et nous devons présentement nous
+borner à cette simple indication. » — Ce renvoi est l'ancrage textuel du discernement
+[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]].
 
 ## Ch. XV — synthèse fidèle, paraphrase
 

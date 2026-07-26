@@ -7,9 +7,9 @@
 
 > **Déclaration sashimono d'ensemble** (convention, `philosophie-sashimono.md` §6-7) :
 > **l'intégralité de la production de cette session est en état *kari-kumi*** —
-> montage à blanc. Six *hozo* (ancrages d'équivalence) ont été identifiés et qualifiés
+> montage à blanc. Sept *hozo* (ancrages d'équivalence) ont été identifiés et qualifiés
 > dans le corps des fiches concernées : Meru=Qâf (Guénon 1937), Quṭb=Mérou
-> (Abdul-Hâdî 1911), Adam Qadmôn=al-Insān al-Kāmil=Wang, ampleur/exaltation comme
+> (Abdul-Hâdî 1911), Adam Qadmôn=al-Insān al-Kāmil=Wang=Vaishwânara/Virâj (extension verdictée le 2026-07-26, cf. [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]), ampleur/exaltation comme
 > voile akbarien d'une structure universelle, Risâlatul-Ahadiyah↔non-dualité de
 > *Brahma*, *El-Aqlu/El-Âqil/El-Maqûl*↔*Sat-Chit-Ānanda*. Aucun n'est taillé
 > (aucune modification de `instrument-donnees.yaml`) : chacun attend soit sa fiche
