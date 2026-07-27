@@ -183,3 +183,67 @@ ancrages:
     cible: null   # ⚠ aucun nœud « Aqtâb » déclaré (tradition guénonienne non modélisée — Phase 3 non ouverte)
     source: "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"
     note: "Identité entre les sept Pôles/Aqtâb guénoniens et le Malakūt planétaire akbarien (degrés 21-27, ar-Rabb/Saturne/Abraham → al-Mubîn/Lune/Adam). Identité doctrinale reçue (non syncrétisme construit), confirmée par quatre convergences textuelles indépendantes : Guénon, cycles cosmiques (sept Pôles/sept cieux) ; lettre à Coomaraswamy (Idrîs/Soleil, degré 24) ; Mystères de la lettre Nûn (nûn = lettre planétaire du Soleil) ; Abdul-Hâdî, Tartîbut-Taçawwuf (1911, antérieur de 26 ans à Guénon 1937). Réserve résiduelle : lien explicite wirātha/aqtāb (Futūḥāt ch. 36) non localisé dans l'extrait transmis — à rechercher. Cible non déclarée : correspondance à rattacher à un nœud Aqtâb formel lors de l'ouverture de la Phase 3 (multi-traditions)."
+
+  # --- ⭐ Sept Prophètes des sept Cieux (degrés 21-27) — établi, verdict Sidy 2026-07-27 ---
+  # Source : Gloton, pp. 39-40 ; Mahdi Rouge articles I-II ; triple convergence numérique (manzil, septénaire, Meftah)
+  - degre: 21
+    prophete: Ibrahim (Abraham)
+    planete: Zuḥal (Saturne)
+    rang_ciel: premier
+    jour: samedi
+    source: "[[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]]"
+    etat: etabli
+
+  - degre: 22
+    prophete: Moussa (Moïse)
+    planete: Mushtarî (Jupiter)
+    rang_ciel: deuxième
+    jour: jeudi
+    source: "[[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]]"
+    etat: etabli
+
+  - degre: 23
+    prophete: Hârûn (Aaron)
+    planete: Mirrīkh (Mars)
+    rang_ciel: troisième
+    jour: mardi
+    source: "[[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]]"
+    etat: etabli
+
+  - degre: 24
+    prophete: Idrîs (Énoch/Hermès)
+    planete: Shams (Soleil)
+    rang_ciel: quatrième (Cœur des Sphères)
+    jour: dimanche
+    source: "[[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]]"
+    etat: etabli
+
+  - degre: 25
+    prophete: Yusuf (Joseph)
+    planete: Zuhra (Vénus)
+    rang_ciel: cinquième
+    jour: vendredi
+    source: "[[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]]"
+    etat: etabli
+
+  - degre: 26
+    prophete: ʿIsâ (Jésus)
+    planete: ʿUtârid (Mercure)
+    rang_ciel: sixième
+    jour: mercredi
+    source: "[[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]]"
+    etat: etabli
+
+  - degre: 27
+    prophete: Âdam (Adam)
+    planete: Qamar (Lune)
+    rang_ciel: septième (dernier)
+    jour: lundi
+    source: "[[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]]"
+    etat: etabli
+
+zodiaque:
+  degre_falak_al_buruj: 19       # 12 signes (Toit du Jardin paradisiaque)
+  degre_falak_al_manazil: 20     # 28 Demeures lunaires (Terre des Jardins)
+  obliquite_deg: 23.44            # inclinaison de l'écliptique (variable à l'échelle des cycles)
+  epoque_reference: null          # à paramétrer en Phase 5 (époque de calcul astrologique)

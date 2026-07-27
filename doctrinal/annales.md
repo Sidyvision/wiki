@@ -871,3 +871,32 @@ ancrage servant de signal de vigilance.
 - **Point sensible** : structure septénaire du corps macrocosmique de Vaishwânara/Virâj (HDV ch. XIII) signalée comme distincte du septénaire des sept Aqtâb/Malakūt planétaire déjà ancré — non-conflation à rappeler dans toute session future touchant l'un ou l'autre.
 - **Note de méthode** : double contrôle systématique appliqué au moment de la rédaction (sashimono + confrontation Gizeh, §VII) — aucun ancrage établi côté Gizeh. Aucun ancrage inscrit dans `instrument-donnees.yaml` (nœuds Vêdânta/Kabbale inexistants avant Phase 3) ; la doctrine est close, le rendu attend l'ouverture de Phase 3.
 
+---
+
+## [2026-07-26] discernement | Clôture — Le zodiaque comme fonction de Barzakh
+
+- **Opération** : EXAMEN DE DISCERNEMENT — ouverture et clôture dans la même session.
+- **Créé** : [[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]].
+- **Contexte** : né du rendu de l'Instrument — l'anneau zodiacal, fixé au degré 19 (falak al-burūj, cf. lot atelier spec-anneau-zodiacal.md), se pose au contact de la zone Barzakh supérieur (degrés 19-20). Signalée d'abord comme simple observation géométrique, l'adjacence a été reconnue par Sidy comme structurellement significative.
+- **Verdict** : le zodiaque remplit, à son degré propre, une fonction de *barzakh* — il conduit et traduit l'influence spirituelle vers les degrés inférieurs de la manifestation, conformément au principe général déjà établi ([[doctrinal/symboles/barzakh]]). Réserve maintenue, identique au précédent hadarat-khams : l'application nommée est un discernement de l'autorité qualifiée, non une citation textuelle isolée.
+- **Point sensible** : aucun — lien intra-traditionnel (islam), pas de non-syncrétisme en jeu.
+- **Confrontation Gizeh** : consignée dans la fiche — matière axiale et métrologique (28 manāzil), aucun ancrage établi. Non-conflation polaire/solaire rappelée.
+- **Note de méthode** : précédent de statut à retenir — une application nommée d'un principe général déjà sourcé peut être close par verdict direct de Sidy (Cmd 12) sans citation textuelle indépendante, à condition que la réserve soit explicitement maintenue dans la Conclusion (cf. déjà hadarat-khams, désormais aussi ce cas).
+
+---
+
+## [2026-07-27] ingest | Lot Référentiels stellaires — Vérifications Gloton, 7 Prophètes, Anneau zodiacal (dédoublement 19/20)
+
+- **Opération** : session complète d'intégration, suite des passes 2 et 2.1 du même jour. Six verdicts de Sidy enregistrés et appliqués. Fiches source crées, spécification amend, YAML updat.
+- **Créé** (fiches source) :
+  - [[doctrinal/sources/guenon-roi-du-monde-ch10]] (trois notes capitales : Balance de jade, remplacement fonctionnel Ourse→Pléiades, Égypte/Mêru)
+  - [[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]] (14ᵉ Demeure, triple convergence numérique degré 24)
+  - [[doctrinal/sources/mahdi-rouge-islam-signe-balance-II]] (Balance comme commencement cyclique, cycles Ibn ʿArabī)
+- **Créé** (fiche discernement) : 🔍 [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] — statut `en cours`, plan consigné en [[meta/plan-fiche-discernement-septenaire-transversal-2026-07-27]], rédaction déléguée session suivante
+- **Modifié** (spécification) : [[atelier/projets/spec-anneau-zodiacal.md]] — quatre amendements applicables (dédoublement 19/20, paramètre époque validé, confirmation degré 19, non-alignement renforcé)
+- **Modifié** (manifeste Instrument) : [[atelier/projets/instrument-donnees.yaml]] — ajout de 7 ancrages prophètes planétaires (degrés 21-27, source Gloton/Mahdi Rouge, statut établi) + paramètres zodiaque (degre_falak_al_buruj: 19 + degre_falak_al_manazil: 20, obliquite_deg, epoque_reference)
+- **Contexte** : vérification textuelle Gloton pp. 39-40 par Sidy (2026-07-27) ferme trois points en suspens et valide six décisions : dédoublement 19/20, paramètre époque, règle dossier égyptien, non-conflation polaire/solaire, fiche discernement unique, révision sept ancrages. Triple convergence numérique (manzil 14/degré 24, ordre cieux, Meftah) confirme Idrîs au Soleil au degré 24. Hiérarchie cosmogonique islamique (falak al-burūj/falak al-manāzil) justifie doctrinalement le dédoublement et la règle non-alignement 12/28 manāzil.
+- **Vigilances** : Hermès=Idrîs reste à sourcer sur texte primaire attesté (pas supposée) ; passage Hermès→localisation Gizeh resté `kari-kumi` (pièces s'emboîtent, non collées) ; résonance *al-Bāṭin* 13/*al-Ẓāhir* 15 signalée, non instruite ; conflit position 5 (Gémeaux/Hermès) peut rouvrir si deux éléments nouveaux l'affectent. Confrontation Gizeh consignée : aucun ancrage établi côté Gizeh, non-conflation polaire/solaire réaffirmée (c'est le Pôle *dans* le solaire).
+- **Prochaine étape** : rédaction fiche discernement septénaire transversal (plan fourni, ~1000 lignes, 6 sections) ; fermeture `doctrinal/annales.md` d'entrées Mahdi Rouge I-II et Guénon RdM dans la section « sources » (preuves historiques) ; validation par Sidy du verdict final de la fiche discernement ; fermeture possible du lot B en `statut: close (traditionnel)` ou report en attente d'instruction supplémentaire.
+- **Note de méthode** : dédoublement anneau (19/20) n'est pas simple correction ergonomique — il rend visible une articulation doctrinale que la source énonce (Toit/Terre du Jardin). Ancrage prophètes planétaires porte sur le rapport identité prophète↔ciel↔degré (akbarien pur, interne à l'islam) ; rapport Aqtâb guénonien↔Malakūt akbarien reste (déjà au dépôt 2026-07-16) hors domaine de ce lot. Statut des Sept Prophètes : **établi** (source Gloton + triple convergence numérique), exempt de non-syncrétisme (voie islamique seule). Aucun élément n'entre dans `instrument-donnees.yaml` pour la fiche discernement tant qu'elle n'est pas close.
+
