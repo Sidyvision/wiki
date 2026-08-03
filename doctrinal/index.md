@@ -167,6 +167,14 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ## IV. L'Analyse des Déviations Modernes (`deviations/`)
 
+- [[doctrinal/deviations/contre-initiation|La contre-initiation]]
+- [[doctrinal/deviations/pseudo-initiation-et-syncretisme|La pseudo-initiation et le syncrétisme comme procédé]]
+- [[doctrinal/deviations/deviation-et-subversion|Déviation et subversion — les deux phases de l'action antitraditionnelle]]
+- [[doctrinal/deviations/renversement-des-symboles|Le renversement des symboles]]
+- [[doctrinal/deviations/confusion-psychique-spirituel|La confusion du psychique et du spirituel]]
+- [[doctrinal/deviations/antitradition-et-contre-tradition|De l'antitradition à la contre-tradition, et la spiritualité à rebours]]
+- [[doctrinal/deviations/sept-tours-du-diable|Les sept tours du diable]]
+
 - [[doctrinal/deviations/morphopsychologie|Morphopsychologie et types constitutionnels (humeurs)]] — pseudo-science « wellness » moderne
 - [[doctrinal/deviations/body-types|Islamic Medicine's Guide to the Body Types (A. Attar, 2022)]] — source profane
 - [[doctrinal/deviations/reincarnation-vies-anterieures|Réincarnation et mémoire pré-existentielle de l'âme]]
@@ -233,6 +241,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya|L'Homme et son devenir selon le Vêdânta, ch. X/XV/XVI : Brahma et Turîya (Guénon)]]
 - [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne|La Qabbale dans la trilogie guénonienne (consolidation kabbalistique)]]
 - [[doctrinal/sources/nezami-pavillon-sept-princesses-barry|Nezâmî — Le Pavillon des Sept Princesses (trad. Michael Barry)]]
+- [[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation|Le Règne de la Quantité, ch. XXVIII-XL : déviation, subversion et contre-initiation (Guénon)]]
+- [[doctrinal/sources/guenon-recension-seabrook-aventures-arabie|Recension de Seabrook, Aventures en Arabie — les sept tours du diable (Guénon, E.T. 1935)]]
 
 ---
 
@@ -265,6 +275,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa|Les sept climats (haft eqlim) du Pavillon des Sept Princesses et le socle Meru/Qâf/Dwipa]] — en cours
 - [[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh|Le zodiaque comme fonction de Barzakh — interface conductrice des influences spirituelles]] — close (traditionnel) : application du principe général du Barzakh (déjà établi) au zodiaque, verdictée par Sidy, au même régime que l'application précédente entre deux Présences (hadarat-khams) — inférence qualifiée, non citation littérale isolée
 - [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil|Le septénaire transversal, la Balance et le degré du Soleil — référentiels stellaires et états d'une même fonction]] — close (traditionnel) : trois états d'une même fonction septénaire (polaire Grande Ourse circumpolaire, écliptique Pléiades lever héliaque, planétaire sept Cieux errance ordonnée), chantier Guénon sur la Balance polaire/zodiacale, convergence quadruple sur degré 24 (Idrîs/Soleil/Hermès/Gizeh) ; volets *hozo* (Ourse→Pléiades, septénaire transversal confirmé Sidy) et *kari-kumi* (Balance, degré 24 documenté sans fermeture ultérieure)
+- [[doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance|Les marques de la contrefaçon — grille de vigilance opératoire]] 🔍 (en cours)
+- [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra|L'ombre septénaire : sept tours du diable et Sitra Aḥra]] 🔍 (en cours, kari-kumi)
 
 ### Sashimono et métiers traditionnels
 - [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel|Le sashimono comme métier traditionnel — fondement doctrinal de l'analogie opératoire]] 🔍 (verdict réservé)

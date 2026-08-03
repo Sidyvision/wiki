@@ -925,3 +925,23 @@ ancrage servant de signal de vigilance.
 - **Point sensible** : aucun — lien universel (métaphysique transversale), pas de non-syncrétisme en jeu. Hermès=Idrîs reste à confirmer sur texte primaire isolé. Gizeh↔degré 24 reste montage blanc (route doctrinale Guénon/Idrîs converge, route stellaire Orion écartée par règle dossier égyptien). H5 (comportement du support comme mode de présence de fonction) retenue et souscrite.
 - **Prochaine étape** : validation manifeste v0.3.2 (generer-manifeste.py, sans erreur, zéro anomalies cartographie, aucun ancrage YAML pour fiche close — tous ancrages prophètes planétaires degrés 21-27 issus des sept Prophètes siégeant aux cieux, matière akbarienne pure, déjà validée et intégrée 2026-07-27).
 
+---
+
+## [2026-07-28] amendement | CLAUDE.md §IV — précision du statut pour type: deviation
+
+- **Opération** : AMENDEMENT DE PROTOCOLE. Verdict de Sidy sur point réservé (UPDATES.md §3.4.a du lot « Contre-initiation »).
+- **Portée** : ajout d'un paragraphe de précision au §IV (Définition des Statuts), sans renumérotation ni suppression. Aucune fiche existante n'est affectée. Amendement porte distinction : fiche `type: deviation` qui reproduit l'analyse d'une autorité traditionnelle portant sur un phénomène contre-traditionnel reçoit `status: traditionnel` (doctrine reçue) ; fiche qui expose pour elle-même une matière contre-traditionnelle sans autorité sourcée reçoit `status: contre-traditionnel`.
+
+---
+
+## [2026-07-28] archivage | Bloc contre-initiation — RQST ch. XXVIII-XL et recension Seabrook
+
+- **Opération** : ARCHIVAGE & MAILLAGE. Plan validé par Sidy avant écriture (Cmd 6).
+- **Sources créées** : 2 fiches (RQST ch. XXVIII-XL ; recension Seabrook E.T. 1935 pp. 42-43).
+- **Déviations créées** : 7 fiches notionnelles (contre-initiation mère ; pseudo-initiation et syncrétisme ; déviation et subversion ; renversement des symboles ; confusion psychique/spirituel ; antitradition et contre-tradition ; sept tours du diable).
+- **Discernement ouvert** : 2 fiches, statut « en cours » — grille de vigilance opératoire ; hypothèse Sitra Aḥra (*kari-kumi*, Sidy 2026-07-28).
+- **Fondements protocolaires explicités** : Cmd 3 (non-syncrétisme) ancré à source RQST ch. XXXVI (syncrétisme comme procédé pseudo-traditionnel) ; Cmd 2 (rigueur termes) ancré à RQST ch. XXXV (confusion psychique/spirituel).
+- **Vigilance Gizeh** : matière septénaire/polaire confrontée ; résultat **négatif**, consigné dans `sept-tours-du-diable.md` et fiche discernement `2026-07-28_sept-tours-sitra-ahra.md`.
+- **Instrument** : aucune modification de `instrument-donnees.yaml`.
+- **Signalements rapportés** (action VIGILANCE : rapporter sans corriger, demander avant d'éditer) : (1) reclassement erroné dans `meta/bibliotheque-physique.md` — quatre titres Guénon classés sous Georgel ; (2) acquisitions manquantes aux sections Guénon de la bibliothèque ; (3) pagination à-source (index-rene-guenon.org non retenu comme source primaire, marqueurs `⚠️ Pagination to-source` levables sur exemplaire physique uniquement) ; (4) point d'arbitrage sur `sources:` des fiches `type: source` (retenu ici : `sources: []`, fiche `source` est nœud terminal).
+

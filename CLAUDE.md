@@ -152,6 +152,17 @@ cross_links: ["[[autre-slug]]"]
    validation par une autorité textuelle ou par l'examen traditionnel. Statut
    transitoire — doit évoluer vers un statut définitif à la clôture du discernement.
 
+> **Précision pour `type: deviation`** (amendement du 2026-07-28, verdict Sidy) : le
+> `status` qualifie la **nature du contenu reproduit**, non le sujet traité. Une fiche
+> `deviation` qui reproduit l'analyse d'une **autorité traditionnelle** portant sur un
+> phénomène contre-traditionnel reçoit `status: traditionnel` — c'est la doctrine reçue
+> qui est en jeu, non le phénomène qu'elle décrit. Une fiche `deviation` qui **expose
+> pour elle-même** une matière contre-traditionnelle, sans qu'une autorité
+> traditionnelle sourcée en fasse l'objet d'un jugement, reçoit
+> `status: contre-traditionnel`. Exemples : [[doctrinal/deviations/contre-initiation]]
+> (Guénon analyse) = `traditionnel` ; [[doctrinal/symboles/archeometre]] (l'objet
+> lui-même est exposé, reçu et discuté comme tel) = `contre-traditionnel`.
+
 -----
 
 ## V. Les Sceaux des circuits non-doctrinaux
