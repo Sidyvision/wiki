@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [discernement, monde-imaginal, en-cours, syncretisme-a-surveiller]
 created: 2026-06-20
 updated: 2026-07-10
-sources: ["[[chatgpt-export-2026-05-10]]", "[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]"]
+sources: ["[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/deviations/reincarnation-vies-anterieures]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]", "[[doctrinal/discernement/2026-06-20_pierres-astres-barzakh]]"]
 ---

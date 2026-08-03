@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [soufisme, nafs, qalb, pratique]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/autorites/ibn-arabi]]"]
 ---
@@ -40,4 +40,3 @@ Pratique recommandée : suspendre immédiatement la réaction extérieure dès l
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Irritation et ego » (2025-08-27). Citation attribuée non vérifiée ; le reste du contenu reste général et bien dans la ligne classique de la psychologie spirituelle soufie.

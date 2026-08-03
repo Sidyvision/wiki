@@ -6,7 +6,7 @@ tradition_cadre: "shintoisme"
 tags: [shinto, japon, purete-rituelle]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/espace-sacre-shinto]]"]
 ---
@@ -47,4 +47,3 @@ Salutation rituelle dans un sanctuaire ou un espace sacré : inclinaison profond
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversations « Chaîne de transmission Shinto », « Règles espace sacré Shintō », « Croyance du sanctuaire », « Symbole Shintoïste expliqué » (2025). À enrichir avec une source secondaire fiable sur le Shintō (cette tradition n'avait pas encore de page malgré plusieurs conversations s'y rapportant).

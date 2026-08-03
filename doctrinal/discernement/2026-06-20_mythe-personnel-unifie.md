@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [discernement, en-cours, mythe-personnel, synchronicite, validation-non-hedgee]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/traditions/shinto]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]]", "[[meta/2026-06-20_oiseau-serpent-jumeau]]"]
 ---

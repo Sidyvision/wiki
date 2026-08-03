@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [jinn, occultisme-populaire, distinction-doctrinale]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/talisman-sihr]]", "[[doctrinal/autorites/ibn-arabi]]"]
 ---
@@ -30,4 +30,3 @@ Le sens premier, non contestable, du terme : *akhmar* signifie simplement « rou
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Signification d'Akhmar » (2025-06-08). Aucune référence scripturaire ou bibliographique précise donnée pour la classification par couleur des jinns — à traiter avec la plus grande prudence.

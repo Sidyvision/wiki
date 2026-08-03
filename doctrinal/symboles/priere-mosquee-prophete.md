@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [medine, oniromancie, hadith]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/rawda-sharif]]", "[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/autorites/ibn-arabi]]"]
 ---
@@ -32,4 +32,3 @@ Dans le *taʿbīr al-ruʾyā* classique (Ibn Sīrīn, al-Nābulusī), rêver de 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Signification prière Mosquée Prophète » (2026-03-11).

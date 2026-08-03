@@ -319,4 +319,3 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 *Fiches à mentions personnelles (transmission, profil). Maintenues hors de `doctrinal/` par étanchéité.*
 
 - [[meta/sidy|Profil : Sidy]]
-- [[meta/chatgpt-export-2026-05-10|Source personnelle : export ChatGPT]]

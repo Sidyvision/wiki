@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [discernement, en-cours, divination-a-verifier, citations-non-sourcees]
 created: 2026-06-20
 updated: 2026-07-10
-sources: ["[[chatgpt-export-2026-05-10]]", "[[doctrinal/sources/bukhari-5754-tiyara-fal]]"]
+sources: ["[[doctrinal/sources/bukhari-5754-tiyara-fal]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/symboles/khalwa]]", "[[doctrinal/symboles/fal-wa-tatayyur]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---

@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [oniromancie, soufisme, citations-a-verifier]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/autorites/ibn-sirin]]", "[[doctrinal/autorites/al-nabulusi]]", "[[doctrinal/autorites/ibn-arabi]]"]
 ---
@@ -32,4 +32,3 @@ Lectures rapportées dans la conversation source (citations précises non vérif
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Interprétations rêves cheveux blancs » (2025-11-13). **Réserve importante** : plusieurs citations arabes précises attribuées à Ibn Sīrīn, al-Nābulusī et Ibn ʿArabī ne sont pas vérifiées dans une édition fiable — seul le hadith sur Sourate Hūd (Tirmidhī) est une référence largement attestée par ailleurs.

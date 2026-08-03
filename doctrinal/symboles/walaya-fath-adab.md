@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [walaya, fath, adab, soufisme]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/autorites/ibn-arabi]]"]
 ---
@@ -32,4 +32,3 @@ Examen doctrinal de la licéité et des conditions d'une invocation demandant à
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Prière à la Kaaba » (2025-12-30). Plusieurs citations attribuées à Ibn ʿArabī, al-Ghazālī, Ibn ʿAṭāʾ Allāh, al-Junayd — formulations plausibles mais non vérifiées individuellement, motif transversal déjà signalé ailleurs dans ce corpus.

@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [ibn-arabi, asma-al-husna, cosmologie, citations-a-verifier]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/autorites/ibn-arabi]]"]
 ---
@@ -49,4 +49,3 @@ Les relations obliques montrent l'« entrelacement des jugements » (*tashābuk 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Commentaire métaphysique akbarien » (2026-01-13), portant sur un diagramme image fourni par Sidy (non reproduit ici). Plusieurs citations attribuées à Ibn ʿArabī non vérifiées individuellement.

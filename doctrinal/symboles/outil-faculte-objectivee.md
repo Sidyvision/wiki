@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [comparatisme, metaphysique, instrument]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/autorites/platon]]", "[[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana]]"]
 ---
@@ -41,4 +41,3 @@ Le *samāʿ* (audition soufie) n'est pas un divertissement mais une réceptivit�
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Outils et facultés intérieures » (2025-12-17). Plusieurs citations attribuées à Ibn ʿArabī et al-Ghazālī non vérifiées individuellement.

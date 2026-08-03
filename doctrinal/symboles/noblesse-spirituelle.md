@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [comparatisme, futuwwa]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/rene-guenon]]"]
 ---
@@ -32,4 +32,3 @@ Ce thème recoupe directement [[doctrinal/symboles/futuwwa]] (déjà documentée
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Noblesse spirituelle et sociale » (2025-07-08).

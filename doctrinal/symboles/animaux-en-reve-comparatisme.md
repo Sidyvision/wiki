@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [oniromancie, comparatisme, non-syncretisme]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/taabir-al-ruya]]"]
 ---
@@ -33,4 +33,3 @@ Correspondances rapportées dans la conversation source :
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Interprétation des rêves animaliers » (2025-04-11).

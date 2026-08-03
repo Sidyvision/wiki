@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [ibn-arabi, metaphysique, non-syncretisme]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/firasa]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/deviations/reincarnation-vies-anterieures]]"]
 ---
@@ -30,4 +30,3 @@ Pour Ibn ʿArabī, l'être humain ne choisit pas arbitrairement : il manifeste, 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Physiognomonie et choix » (2026-02-16).

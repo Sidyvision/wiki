@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [discernement, gematrie, non-syncretisme, complementarite-investiguee, clos]
 created: 2026-06-20
 updated: 2026-07-14
-sources: ["[[chatgpt-export-2026-05-10]]", "[[doctrinal/sources/guenon-mysteres-lettre-nun]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]"]
+sources: ["[[doctrinal/sources/guenon-mysteres-lettre-nun]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/symboles/merkavah-muraqaba]]", "[[doctrinal/deviations/reincarnation-vies-anterieures]]"]
 ---

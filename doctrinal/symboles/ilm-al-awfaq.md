@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [ilm-al-huruf, nombre, ibn-arabi]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/autorites/ahmad-al-buni]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/sources/shams-al-maarif]]"]
 ---
@@ -33,4 +33,3 @@ Point de rectification donné par la conversation source elle-même : Ibn ʿArab
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Science des carrés magiques » (2026-01-10). Citation attribuée à Ibn ʿArabī donnée « en sens rapproché » (paraphrase explicitement signalée comme telle par la conversation source elle-même) plutôt que comme citation verbatim — bonne pratique méthodologique à noter.

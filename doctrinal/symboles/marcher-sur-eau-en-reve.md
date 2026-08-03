@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [oniromancie, stub]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/autorites/ibn-sirin]]"]
 ---
@@ -32,4 +32,3 @@ Lectures rapportées dans la conversation source :
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Marcher sur l'eau rêve » (2024-11-14). Attribution à Ibn Sīrīn non vérifiée dans une édition fiable.

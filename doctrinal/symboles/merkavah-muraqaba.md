@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [comparatisme, kabbale, soufisme, non-syncretisme, gematrie]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/khalwa]]"]
 ---
@@ -34,4 +34,3 @@ Les deux termes désignent, chacun dans son cadre propre, une modalité de l'asc
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Merkavah et Muraqaba » (2025-03-23).

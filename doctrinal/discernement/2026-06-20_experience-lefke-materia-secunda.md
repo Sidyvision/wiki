@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [discernement, waqia, en-cours, citations-a-verifier]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/waqia]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]"]
 ---

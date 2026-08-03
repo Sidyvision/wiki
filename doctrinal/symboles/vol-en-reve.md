@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [oniromancie, stub]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]"]
 ---
@@ -27,4 +27,3 @@ Interprétation rapportée de façon générale (sans précision d'auteur classi
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Flying in Dreams: Islamic Interpretation » (2024-04-17). Interprétation générale, sans attribution précise à un auteur classique — à enrichir avec une source primaire.

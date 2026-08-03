@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [art-islamique, geometrie-sacree, stub]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: []
 ---
@@ -23,4 +23,3 @@ Décorations tridimensionnelles composées de formes géométriques répétées 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Nom motif géométrique » (2026-01-05).

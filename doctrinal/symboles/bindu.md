@@ -6,7 +6,7 @@ tradition_cadre: "hindouisme"
 tags: [tantra, vedanta, comparatisme]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/nada]]", "[[doctrinal/traditions/sanatana-dharma]]"]
 ---
@@ -33,4 +33,3 @@ Point primordial (*bindu-mātra*) à partir duquel toute manifestation émerge �
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Signification du Bindu » (2025-06-01).

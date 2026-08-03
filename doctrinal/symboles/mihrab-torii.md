@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [comparatisme, seuil, shinto, rene-guenon]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/traditions/shinto]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
@@ -38,4 +38,3 @@ Le Seuil (*bāb*, *janua*, *toraṇa*) est présenté comme une structure métap
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Mirhab et Torii » (2025-10-12).

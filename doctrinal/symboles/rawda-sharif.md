@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [medine, hadith, geographie-sacree]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/maqamat-meknes]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]"]
 ---
@@ -37,4 +37,3 @@ Espace situé entre la Tombe du Prophète ﷺ et son minbar, à l'intérieur de 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Rawda Sharif Hadiths » (2025-12-04). Références de hadiths données avec numérotation précise — la conversation source signale elle-même la rareté des hadiths traitant spécifiquement de la Rawḍa, distincte des nombreux textes sur la Mosquée du Prophète en général ; bonne pratique méthodologique à noter, contrairement à d'autres fiches de ce corpus.

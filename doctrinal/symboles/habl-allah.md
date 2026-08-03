@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [coran, soufisme]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/axe-corde-en-reve]]"]
 ---
@@ -27,4 +27,3 @@ Verset authentique et largement attesté (à la différence de plusieurs autres 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Récit de rêves et réflexions » (2025-08-24). Verset 3:103 vérifiable directement dans le texte coranique — référence fiable.

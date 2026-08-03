@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [oniromancie, comparatisme]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/habl-allah]]"]
 ---
@@ -27,4 +27,3 @@ Lecture rapportée pour un rêve personnel (capture d'une figure titanesque à l
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Récit de rêves et réflexions » (2025-08-24). Le mythe d'Indra/Vṛtra est un fait mythologique bien attesté par ailleurs ; pas de citation directe fabriquée relevée dans ce passage.

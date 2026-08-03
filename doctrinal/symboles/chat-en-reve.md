@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [oniromancie, comparatisme, citations-a-verifier]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/autorites/ibn-sirin]]", "[[doctrinal/autorites/al-nabulusi]]"]
 ---
@@ -31,4 +31,3 @@ Repères rapportés dans la conversation source (citations à vérifier, attribu
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Symbolisme du chat rêve » (2025-03-30). Attributions à Ibn Sīrīn et al-Nābulusī non vérifiées dans une édition fiable — voir réserve transversale sur [[doctrinal/symboles/taabir-al-ruya]].

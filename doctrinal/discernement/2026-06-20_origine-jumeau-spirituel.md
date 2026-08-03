@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [discernement, en-cours, jumeau-spirituel, genealogie-des-idees]
 created: 2026-06-20
 updated: 2026-07-10
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]]", "[[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]", "[[meta/2026-06-20_oiseau-serpent-jumeau]]", "[[doctrinal/autorites/ibn-arabi]]"]
 ---

@@ -6,7 +6,7 @@ tradition_cadre: "hindouisme"
 tags: [advaita, rene-guenon, metaphysique-comparee]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/symboles/wahdat-al-wujud]]"]
 ---
@@ -36,4 +36,3 @@ Cette comparaison, bien qu'établissant des passerelles entre traditions, reste 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Ātma-Gītā et Advaita » (2025-05-03). Référence vérifiable : Guénon, « L'Atma-Gîta », *Le Voile d'Isis*, 1926 — à confirmer directement dans une édition fiable des écrits de Guénon avant citation précise.

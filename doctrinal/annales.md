@@ -1,16 +1,117 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-07-22
+updated: 2026-08-03
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
-
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-03] discernement | Rédaction — Le septénaire transversal, la Balance et le degré du Soleil
+
+- **Opération** : EXAMEN DE DISCERNEMENT — rédaction fiche unique synthétisant le chantier Guénon sur les trois états du septénaire et le rapport polaire/zodiacal.
+- **Créé** : [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] — fiche complète, 6 sections, statut `speculatif`/`en cours`.
+- **Enrichi** : [[doctrinal/index.md]] (mise à jour description, marqueur 🔍 conservé), [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] (index croisés).
+- **Contexte** : consolidation de quatre investigrations préalables (passe 2, 2.1, note d'intégration, plan détaillé). Fiche porte le verdict de Sidy (2026-07-27) : « même fonction, états différents » — appliqué aux trois états septénaires (polaire circumpolaire, écliptique lever héliaque, planétaire errance ordonnée). Trois sections *hozo* (Ourse→Pléiades, passage dans bande zodiacale, comportement astronomique comme mode de présence H5) ; deux sections *kari-kumi* (Balance polaire/zodiacale, degré 24↔Gizeh/Idrîs/Hermès).
+- **Vigilances** : Hermès=Idrîs attestée traditionnellement, à confirmer sur texte primaire ; Gizeh↔degré 24 reste montage blanc (trois voies convergent, aucune collée). H5 (comportement du support comme mode de présence de fonction) retenue et souscrite par Sidy. Résonance *al-Bāṭin* 13/*al-Ẓāhir* 15 signalée, non instruite (type de rapprochement relevant du discernement de l'autorité qualifiée). Non-conflation septénaire transversal ↔ quaternaire Homme Universel rappelée ; non-conflation polaire/solaire maintenue (Pôle *dans* le solaire) ; écarts 12/28, 78000/77760, 25920/12960 non résorbés (données, non défauts).
+- **Confrontation Gizeh** : matière polaire/axiale/métrologique (degré 24, Idrîs). Aucun ancrage établi. Route stellaire (Orion degrés 15-17) signalée et écartée par règle du dossier égyptien. Route doctrinale (Guénon/Idrîs/akbarien) converge mais reste *kari-kumi*. Réserve catégorielle coudée/28 intacte.
+- **Qualification sashimono** : ***hozo*** substitution Ourse→Pléiades (Guénon l'énonce comme remplacement dans le rôle, Art. 1) ; ***hozo*** septénaire transversal trois états (verdict Sidy) ; ***kari-kumi*** Balance polaire/zodiacale (Guénon pose la question, pas de fermeture doctrinal attestée) ; ***kari-kumi*** degré 24↔Gizeh/Hermès/Idrîs.
+- **Prochaine étape** : validation par Sidy du verdict final ; éventuelle clôture en `status: close (traditionnel)` si verdict affirmatif ou `en cours` si question reste non tranchée (Cmd 12). Aucun élément n'entre `instrument-donnees.yaml` avant fermeture fiche.
+
 ---
+
+
+## [2026-08-03] discernement | Clôture — Le septénaire transversal, la Balance et le degré du Soleil
+
+- **Opération** : VALIDATION — fiche discernement close, statut passé à `traditionnel`, index et annales mises à jour.
+- **Modifié** : [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] (status `speculatif` → `traditionnel`, bloc 🔍 `en cours` → `validée`).
+- **Enrichi** : [[doctrinal/index.md]] (description mise à jour, marqueur 🔍 retiré).
+- **Contexte** : fiche synthétisant le chantier Guénon sur trois états du septénaire et les deux Balances (polaire et zodiacale) validée après rédaction substantielle couvrant généalogie textuelle, trois états avec H5 (comportement astronomique → mode de présence), passage dans bande zodiacale au degré 13, chantier Balance polaire/zodiacale, convergence quadruple degré 24 (Idrîs/Soleil/Hermès/Gizeh).
+- **Verdict** : septénaire transversal établi comme manifestation d'une même fonction en trois états différents (verdict Sidy 2026-07-27, confirmé 2026-08-03). Volets *hozo* (Ourse→Pléiades source Guénon, septénaire transversal trois états) instruits et fermés. Volets *kari-kumi* (Balance, degré 24↔Gizeh) documentés exhaustivement sans prétention à fermeture ultérieure — pièces s'emboîtent, aucune collée.
+- **Point sensible** : aucun — lien universel (métaphysique transversale), pas de non-syncrétisme en jeu. Hermès=Idrîs reste à confirmer sur texte primaire isolé. Gizeh↔degré 24 reste montage blanc (route doctrinale Guénon/Idrîs converge, route stellaire Orion écartée par règle dossier égyptien). H5 (comportement du support comme mode de présence de fonction) retenue et souscrite.
+- **Prochaine étape** : validation manifeste v0.3.2 (generer-manifeste.py, sans erreur, zéro anomalies cartographie, aucun ancrage YAML pour fiche close — tous ancrages prophètes planétaires degrés 21-27 issus des sept Prophètes siégeant aux cieux, matière akbarienne pure, déjà validée et intégrée 2026-07-27).
+
+---
+
+
+## [2026-07-28] amendement | CLAUDE.md §IV — précision du statut pour type: deviation
+
+- **Opération** : AMENDEMENT DE PROTOCOLE. Verdict de Sidy sur point réservé (UPDATES.md §3.4.a du lot « Contre-initiation »).
+- **Portée** : ajout d'un paragraphe de précision au §IV (Définition des Statuts), sans renumérotation ni suppression. Aucune fiche existante n'est affectée. Amendement porte distinction : fiche `type: deviation` qui reproduit l'analyse d'une autorité traditionnelle portant sur un phénomène contre-traditionnel reçoit `status: traditionnel` (doctrine reçue) ; fiche qui expose pour elle-même une matière contre-traditionnelle sans autorité sourcée reçoit `status: contre-traditionnel`.
+
+---
+
+
+## [2026-07-28] archivage | Bloc contre-initiation — RQST ch. XXVIII-XL et recension Seabrook
+
+- **Opération** : ARCHIVAGE & MAILLAGE. Plan validé par Sidy avant écriture (Cmd 6).
+- **Sources créées** : 2 fiches (RQST ch. XXVIII-XL ; recension Seabrook E.T. 1935 pp. 42-43).
+- **Déviations créées** : 7 fiches notionnelles (contre-initiation mère ; pseudo-initiation et syncrétisme ; déviation et subversion ; renversement des symboles ; confusion psychique/spirituel ; antitradition et contre-tradition ; sept tours du diable).
+- **Discernement ouvert** : 2 fiches, statut « en cours » — grille de vigilance opératoire ; hypothèse Sitra Aḥra (*kari-kumi*, Sidy 2026-07-28).
+- **Fondements protocolaires explicités** : Cmd 3 (non-syncrétisme) ancré à source RQST ch. XXXVI (syncrétisme comme procédé pseudo-traditionnel) ; Cmd 2 (rigueur termes) ancré à RQST ch. XXXV (confusion psychique/spirituel).
+- **Vigilance Gizeh** : matière septénaire/polaire confrontée ; résultat **négatif**, consigné dans `sept-tours-du-diable.md` et fiche discernement `2026-07-28_sept-tours-sitra-ahra.md`.
+- **Instrument** : aucune modification de `instrument-donnees.yaml`.
+- **Signalements rapportés** (action VIGILANCE : rapporter sans corriger, demander avant d'éditer) : (1) reclassement erroné dans `meta/bibliotheque-physique.md` — quatre titres Guénon classés sous Georgel ; (2) acquisitions manquantes aux sections Guénon de la bibliothèque ; (3) pagination à-source (index-rene-guenon.org non retenu comme source primaire, marqueurs `⚠️ Pagination to-source` levables sur exemplaire physique uniquement) ; (4) point d'arbitrage sur `sources:` des fiches `type: source` (retenu ici : `sources: []`, fiche `source` est nœud terminal).
+
+---
+
+
+## [2026-07-27] ingest | Lot Référentiels stellaires — Vérifications Gloton, 7 Prophètes, Anneau zodiacal (dédoublement 19/20)
+
+- **Opération** : session complète d'intégration, suite des passes 2 et 2.1 du même jour. Six verdicts de Sidy enregistrés et appliqués. Fiches source crées, spécification amend, YAML updat.
+- **Créé** (fiches source) :
+  - [[doctrinal/sources/guenon-roi-du-monde-ch10]] (trois notes capitales : Balance de jade, remplacement fonctionnel Ourse→Pléiades, Égypte/Mêru)
+  - [[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]] (14ᵉ Demeure, triple convergence numérique degré 24)
+  - [[doctrinal/sources/mahdi-rouge-islam-signe-balance-II]] (Balance comme commencement cyclique, cycles Ibn ʿArabī)
+- **Créé** (fiche discernement) : 🔍 [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] — statut `en cours`, plan consigné en [[meta/plan-fiche-discernement-septenaire-transversal-2026-07-27]], rédaction déléguée session suivante
+- **Modifié** (spécification) : [[atelier/projets/spec-anneau-zodiacal.md]] — quatre amendements applicables (dédoublement 19/20, paramètre époque validé, confirmation degré 19, non-alignement renforcé)
+- **Modifié** (manifeste Instrument) : [[atelier/projets/instrument-donnees.yaml]] — ajout de 7 ancrages prophètes planétaires (degrés 21-27, source Gloton/Mahdi Rouge, statut établi) + paramètres zodiaque (degre_falak_al_buruj: 19 + degre_falak_al_manazil: 20, obliquite_deg, epoque_reference)
+- **Contexte** : vérification textuelle Gloton pp. 39-40 par Sidy (2026-07-27) ferme trois points en suspens et valide six décisions : dédoublement 19/20, paramètre époque, règle dossier égyptien, non-conflation polaire/solaire, fiche discernement unique, révision sept ancrages. Triple convergence numérique (manzil 14/degré 24, ordre cieux, Meftah) confirme Idrîs au Soleil au degré 24. Hiérarchie cosmogonique islamique (falak al-burūj/falak al-manāzil) justifie doctrinalement le dédoublement et la règle non-alignement 12/28 manāzil.
+- **Vigilances** : Hermès=Idrîs reste à sourcer sur texte primaire attesté (pas supposée) ; passage Hermès→localisation Gizeh resté `kari-kumi` (pièces s'emboîtent, non collées) ; résonance *al-Bāṭin* 13/*al-Ẓāhir* 15 signalée, non instruite ; conflit position 5 (Gémeaux/Hermès) peut rouvrir si deux éléments nouveaux l'affectent. Confrontation Gizeh consignée : aucun ancrage établi côté Gizeh, non-conflation polaire/solaire réaffirmée (c'est le Pôle *dans* le solaire).
+- **Prochaine étape** : rédaction fiche discernement septénaire transversal (plan fourni, ~1000 lignes, 6 sections) ; fermeture `doctrinal/annales.md` d'entrées Mahdi Rouge I-II et Guénon RdM dans la section « sources » (preuves historiques) ; validation par Sidy du verdict final de la fiche discernement ; fermeture possible du lot B en `statut: close (traditionnel)` ou report en attente d'instruction supplémentaire.
+- **Note de méthode** : dédoublement anneau (19/20) n'est pas simple correction ergonomique — il rend visible une articulation doctrinale que la source énonce (Toit/Terre du Jardin). Ancrage prophètes planétaires porte sur le rapport identité prophète↔ciel↔degré (akbarien pur, interne à l'islam) ; rapport Aqtâb guénonien↔Malakūt akbarien reste (déjà au dépôt 2026-07-16) hors domaine de ce lot. Statut des Sept Prophètes : **établi** (source Gloton + triple convergence numérique), exempt de non-syncrétisme (voie islamique seule). Aucun élément n'entre dans `instrument-donnees.yaml` pour la fiche discernement tant qu'elle n'est pas close.
+
+---
+
+
+## [2026-07-26] discernement | Clôture — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara/Virâj
+
+- **Opération** : EXAMEN DE DISCERNEMENT — ouverture et clôture dans la même session.
+- **Créé** : [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]].
+- **Enrichi** : [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] (ajout ch. XII — cadre des quatre états d'Âtmâ — et ch. XIII — Vaishwânara/Virâj, sept membres, renvoi adamique note 5) ; [[atelier/projets/note-impact-instrument-socle-universel-2026-07-16]] (hozo étendu, six → sept).
+- **Contexte** : extension du hozo Adam Qadmôn=al-Insān al-Kāmil=Wang (2026-07-16) à Vaishwânara/Virâj, sur verdict explicite de Sidy (2026-07-26) résolvant la réserve de degré identifiée à l'examen formel (SC ch. II vs HDV ch. XIII) : les diverses désignations de l'Homme Universel restent restrictives dans la perspective métaphysique en tant qu'elles se réfèrent à l'homme et à son archétype dans le cadre de la réalisation spirituelle, sans que l'existence elle-même s'y arrête — variation de degré relevant de la commodité dialectique, non d'une tension doctrinale.
+- **Point sensible** : structure septénaire du corps macrocosmique de Vaishwânara/Virâj (HDV ch. XIII) signalée comme distincte du septénaire des sept Aqtâb/Malakūt planétaire déjà ancré — non-conflation à rappeler dans toute session future touchant l'un ou l'autre.
+- **Note de méthode** : double contrôle systématique appliqué au moment de la rédaction (sashimono + confrontation Gizeh, §VII) — aucun ancrage établi côté Gizeh. Aucun ancrage inscrit dans `instrument-donnees.yaml` (nœuds Vêdânta/Kabbale inexistants avant Phase 3) ; la doctrine est close, le rendu attend l'ouverture de Phase 3.
+
+---
+
+
+## [2026-07-26] discernement | Clôture — Le zodiaque comme fonction de Barzakh
+
+- **Opération** : EXAMEN DE DISCERNEMENT — ouverture et clôture dans la même session.
+- **Créé** : [[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]].
+- **Contexte** : né du rendu de l'Instrument — l'anneau zodiacal, fixé au degré 19 (falak al-burūj, cf. lot atelier spec-anneau-zodiacal.md), se pose au contact de la zone Barzakh supérieur (degrés 19-20). Signalée d'abord comme simple observation géométrique, l'adjacence a été reconnue par Sidy comme structurellement significative.
+- **Verdict** : le zodiaque remplit, à son degré propre, une fonction de *barzakh* — il conduit et traduit l'influence spirituelle vers les degrés inférieurs de la manifestation, conformément au principe général déjà établi ([[doctrinal/symboles/barzakh]]). Réserve maintenue, identique au précédent hadarat-khams : l'application nommée est un discernement de l'autorité qualifiée, non une citation textuelle isolée.
+- **Point sensible** : aucun — lien intra-traditionnel (islam), pas de non-syncrétisme en jeu.
+- **Confrontation Gizeh** : consignée dans la fiche — matière axiale et métrologique (28 manāzil), aucun ancrage établi. Non-conflation polaire/solaire rappelée.
+- **Note de méthode** : précédent de statut à retenir — une application nommée d'un principe général déjà sourcé peut être close par verdict direct de Sidy (Cmd 12) sans citation textuelle indépendante, à condition que la réserve soit explicitement maintenue dans la Conclusion (cf. déjà hadarat-khams, désormais aussi ce cas).
+
+---
+
+
+## [2026-07-24] ingest | Ouverture du dossier Nezâmî/Haft Peykar (haft eqlim, sept climats)
+
+- **Opération** : ARCHIVAGE ET DISCERNEMENT — inscription du dossier Nezâmî/Haft Peykar (fiche source + discernement haft eqlim).
+- **Créé** : [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]], [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]].
+- **Enrichi** : [[doctrinal/index.md]] (§VI sources + §VII discernement), [[meta/bibliotheque-physique.md]] (section III).
+- **Contexte** : extension du discernement Meru/Qâf/Dwipa (déjà clos 2026-07-14/16) par matière nezâmienne : *haft eqlim*/*haft keshvar* (sept climats ptolémaïques + *karshvar* avestique), recoupement direct chiite duodécimaine (Ibn Bâbûya — Qâf associé aux sept terres/sept climats) ; piste tertiaire Avesta↔Purâṇas (*Jambudvīpa*) documentée comme *kari-kumi* (montage à blanc, source non qualifiée).
+- **Vigilances** : Nezâmî n'est pas une autorité doctrinale du canon (poète persan XIIe, lecture mystique à confirmer sur pp. 612-660 de l'édition Barry) ; rapprochement Avesta↔Purâṇas reste *kari-kumi* strict, ne doit pas alimenter `instrument-donnees.yaml`. Qualification sashimono : lien Qâf↔sept-climats candidat *kumiko* (filiation islamique chiite, renforcement du même invariant), lien Avesta↔Purâṇas resté *kari-kumi*.
+- **Prochaine étape** : transcription directe des pp. 612-660 (« Les Sept Princesses stellaires et l'Ascension mystique ») + glose des sept contes (pp. 661-708) avant tout ancrage ou clôture (Cmd 6).
+
+---
+
 
 ## [2026-07-22] intégration | Manifeste UPDATES.md — corrections de frontmatter (audit cartographie LOT A/B/C)
 
@@ -39,6 +140,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+
 ## [2026-07-17] archivage | Fiche sept-poles-aqtab-malakut-planetaire déposée (orpheline 2026-07-16)
 
 - **Opération** : ARCHIVAGE — intégration d'une fiche doctrinal/discernement orpheline.
@@ -58,6 +160,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Point sensible** : aucun — verdict Sidy rendu, fiche close.
 
 ---
+
 
 ## [2026-07-16] protocole | Double contrôle systématique (sashimono + Gizeh) inscrit dans CLAUDE.md
 
@@ -89,6 +192,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+
 ## [2026-07-16] correctif | Qualification sashimono appliquée a posteriori (5 fiches)
 
 - **Opération** : CORRECTIF DE FORME — application rétroactive de la convention
@@ -115,6 +219,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   inter-traditionnelle, pas ajoutée après coup.
 
 ---
+
 
 ## [2026-07-16] archivage/intégration | Lot 2026-07-01 complet — table-28-degres finalisation et addenda Gloton (session INTÉGRATION)
 
@@ -145,6 +250,232 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+
+## [2026-07-16] discernement | Ouverture et clôture de sept-poles-aqtab-malakut-planetaire (verdict Sidy)
+
+- **Opération** : EXAMEN DE DISCERNEMENT — ouverture et clôture en une session.
+- **Créé** : [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] ;
+  cinq fiches source — [[doctrinal/sources/guenon-etats-multiples-ch4-fondement]],
+  [[doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes]],
+  [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]],
+  [[doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot]],
+  [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]].
+- **Verdict de Sidy (2026-07-16)** : l'identité entre les sept Pôles/Aqtâb guénoniens
+  et le Malakūt planétaire de la table akbarienne (degrés 21-27) est confirmée —
+  identité doctrinale reçue par une autorité qualifiée des deux côtés (filiation
+  akbarienne-shādhilite de Guénon, relation à al-Khiḍr), non un rapprochement
+  syncrétiste construit par ce dépôt. Quatre convergences textuelles indépendantes
+  réunies : (1) Guénon, *cycles cosmiques* — sept Pôles célestes/sept cieux
+  planétaires ; (2) lettre à Coomaraswamy — Idrīs au Ciel du Soleil, degré 24 déjà
+  sourcé ; (3) *Mystères de la lettre Nûn* — *nûn* comme lettre planétaire du Soleil ;
+  (4) **Abdul-Hâdî, *Tartîbut-Taçawwuf* (1911)** — comparaison Quṭb/Mérou
+  **antérieure de 26 ans** à l'article guénonien de 1937, dans le milieu
+  shādhilite-akbarien qui a directement formé Guénon.
+- **Point sensible / réserve résiduelle** : la doctrine de la *wirātha* (héritage
+  prophétique) est confirmée sur texte primaire (Futūḥāt ch. 36, moine Ibn Barthamlâ,
+  catégorie des *afrâd*), mais le lien explicite *wirātha*↔*pôles* annoncé par le
+  titre du même chapitre n'a pas été localisé dans l'extrait transmis — à rechercher
+  avant de considérer ce volet aussi robuste que les trois confirmations guénoniennes.
+  Le traité *Tartîbut-Taçawwuf* reste par ailleurs inachevé dans ce dépôt (catégories
+  I-V sur IX ; Sidy indique qu'aucune suite n'aurait jamais été publiée).
+- **Source brute** : recoupement de clippings web (index-rene-guenon.org,
+  esprit-universel.over-blog.com) et de photographies de l'exemplaire physique de
+  Sidy (*La Gnose*, collection intégrale ; *Les Révélations de la Mecque*, trad.
+  Penot), session claude.ai du 2026-07-16.
+- **Note de méthode** : précédent sur la qualité d'autorité — quand une identité
+  traditionnelle est signalée par une figure elle-même qualifiée dans les deux
+  traditions rapprochées (ici Guénon, akbarien-shādhilite en relation avec al-Khiḍr,
+  et versé dans le Sanātana Dharma), le rapprochement relève de l'identité reçue et
+  non du syncrétisme construit — distinction à conserver pour tout discernement
+  comparable futur (cf. Commandement 3).
+
+---
+
+
+## [2026-07-16] enrichissement | Socle métaphysique universel — trilogie guénonienne + matière kabbalistique
+- **Opération** : CONSTITUTION DE SOCLE — lecture et mise en fiches de chapitres
+  structurants de la trilogie de métaphysique pure de Guénon, sur décision de Sidy
+  (pivot : fonder les bases universelles sur lesquelles les traditions s'articulent,
+  avant d'ouvrir le versant Sanātana Dharma).
+- **Créé** : 6 fiches source trilogie (Symbolisme de la Croix ch. II-III, IV, XI-XIII,
+  XXIII+XXIX ; Homme et son devenir ch. X/XV/XVI) + 1 fiche de consolidation
+  kabbalistique + 1 note d'impact atelier.
+- **Acquis majeurs** : (a) théorie géométrique formelle de l'Instrument sourcée
+  (degré = plan horizontal, axe = lieu des centres, succession/simultanéité) ;
+  (b) couple ampleur/exaltation déclaré par Guénon lui-même d'origine islamique ;
+  (c) Adam Qadmôn = al-Insān al-Kāmil posé par Guénon (ch. II, note 1) ;
+  (d) deux équivalences terminologiques Vêdânta↔arabe posées par Guénon
+  (Risâlatul-Ahadiyah ; El-Aqlu/El-Âqil/El-Maqûl ↔ Sat-Chit-Ânanda) ;
+  (e) dédicace du Symbolisme de la Croix à Sheikh ʿAbd ar-Raḥmân ʿIlaysh al-Kabîr —
+  confirmation sur pièce du rattachement shādhilite de Guénon.
+- **Vigilances** : matière kabbalistique en médiation Vulliaud (`to-source`) ; six
+  directions (ch. IV) ≠ quatre Angles astrologiques — ne jamais fusionner sans
+  discernement ; échelle védantique à 4 états ≠ 38 degrés akbariens — pas de
+  superposition terme à terme ; aucun élément de la session n'entre dans
+  instrument-donnees.yaml sans fiche discernement + verdict + session dédiée.
+- **Source brute** : transcriptions index-rene-guenon.org transmises par Sidy +
+  recherches web (classiques.uqam.ca pour tables des matières), session claude.ai.
+
+---
+
+
+## [2026-07-14] discernement | Clôture de rafi-ad-darajat-fonction-traversante (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
+- **Modifié** : [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]] —
+  `to-source` levé sur la citation Qurʾân 40:15 (vérifiée sur photographie de
+  l'exemplaire physique de Sidy — *Le Coran*, trad. Gloton, Albouraq, p. 468,
+  déjà catalogué) ; `Statut` → `validée` ; `status` frontmatter `speculatif` →
+  `traditionnel` ; `Conclusion` rédigée et attribuée à Sidy (2026-07-14) : « la
+  concordance est explicite » — le Nom *Rafîʿ ad-Darajât* du degré 38 désigne la
+  fonction transversale d'al-Insān al-Kāmil à travers les degrés du *Nafas
+  al-Raḥmān*, corroborée par l'usage scripturaire du même Nom en 40:15.
+- **Source brute** : photographies de l'exemplaire physique de Sidy (2026-07-14,
+  session Claude.ai directe) ; matière initiale du lot `_inbox/inbox-discernement-2026-07-09.zip`
+  (session du 2026-07-08/09) pour la généalogie akbarienne de fond.
+- **Point sensible** : aucun.
+- **Note de méthode** : le verdict humain (Sidy) prime sur la consigne de prudence
+  du `MASTER-UPDATE.md` d'origine, qui n'anticipait pas de verdict à cette étape
+  (Cmd 12/13). Définitions Jurjānī complémentaires (*nafas raḥmânî*, *rang de
+  l'Homme parfait*) de l'étape 10 originale non reversées, faute de texte en main
+  cette session — ajout possible ultérieurement sans rouvrir le discernement.
+
+---
+
+
+## [2026-07-14] catalogue | Deux ouvrages physiques ajoutés + upgrade sourçage
+- **Opération** : DISCIPLINE DES SOURCES — catalogue.
+- **Créé** : [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]].
+- **Modifié** : [[doctrinal/sources/guenon-mysteres-lettre-nun]],
+  [[doctrinal/sources/guenon-zodiaque-pythagoriciens]] — statut de fiabilité
+  amélioré (présence confirmée sur exemplaire physique via table des matières ;
+  texte intégral encore à vérifier page par page).
+- **Point sensible** : aucun.
+- **Note de méthode** : *Symboles de la Science sacrée* contient aussi le ch. XXXV
+  « Les Portes solsticiales », non encore exploité — à consulter en priorité si le
+  dossier Gizeh ou le motif des portes solsticiales est repris.
+
+---
+
+
+## [2026-07-14] discernement | Clôture de llm-wiki — couple pédagogique (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture (pair pédagogique).
+- **Modifié** : [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect]],
+  [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] — réformation
+  au format Sceau Recteur ; `Statut` → `validée` + `invalidée` ; `status` → `speculatif` +
+  `traditionnel` ; `Conclusion` attribuée à Sidy (2026-07-14).
+- **Verdict** : la première fiche (modalité-intellect) est invalidée comme doctrine
+  (conservation pédagogique : montre le chemin de l'erreur) ; la seconde (correction-doctrinale)
+  est validée (traditionnel).
+- **Point sensible** : aucun.
+- **Note de méthode** : les deux fiches forment un couple indissociable (erreur + correction).
+
+---
+
+
+## [2026-07-14] discernement | Clôture de fajr-vajra-indra-vritra (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture partielle.
+- **Modifié** : [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]] —
+  enrichissement matériel (citations Guénon *Etudes sur l'Hindouisme*) ; `Statut` →
+  `validée` ; `status` `speculatif` → `traditionnel` ; volet gématrique laissé en réserve
+  (`status` partiel) ; `Conclusion` attribuée à Sidy (2026-07-14) : trois volets doctrinaux
+  maintenu comme complémentarités distinctes (Indra/Vritra ↔ Nafs-Qalb ; Kundalinî/Vajrayāna ;
+  Brahmamuhurta/al-Fajr), appui guénonien direct.
+- **Point sensible** : le volet gématrique (correspondances numériques) demeure en attente
+  (Sidy indique position 5 du zodiaque pose problème — réserve documentée, non fermeture).
+- **Lecture suggérée** : [[doctrinal/sources/guenon-mysteres-lettre-nun]],
+  [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]].
+
+---
+
+
+## [2026-07-14] discernement | Clôture partielle de correspondances-entreprise
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture partielle (volet 12/zodiaque).
+- **Modifié** : [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]] —
+  volet (b) 12/zodiaque → CLOS (portes solsticiales confirmées, position 5 génère un
+  conflit logique documenté) ; volet (a) 5/Cinq-Présences → EN COURS ; textes intégraux
+  Guénon *Symbolisme de la Croix* ch. XXXVI.
+- **Verdict partiel** : le duodénaire (12 fonctions/12 signes) est établi ; les Cinq
+  Présences ne correspondent pas en 1-1 avec une fonction simple d'entreprise (volet
+  réservé).
+- **Point sensible** : conflit identifié et documenté sur position 5 (Gémeaux/Hermès) du
+  cycle zodiacal — à approfondir comme piste ouverte.
+
+---
+
+
+## [2026-07-14] discernement | Clôture de mont-qaf-meru-topologie-apex (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
+- **Modifié** : [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]] —
+  enrichissement matériel (Guénon *Remarques sur la doctrine des cycles cosmiques*) ;
+  `Statut` → `validée` ; `status` `speculatif` → `traditionnel` ; `Conclusion` attribuée
+  à Sidy (2026-07-14) : Meru=Qâf établi par équivalence explicite guénonienne ; Rafîʿ
+  ad-Darajât/Qutb comme convergence de domaine initiatique (non filiation textuelle nommée).
+- **Point sensible** : aucun.
+- **Note de méthode** : lien établi avec [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]
+  (domaine initiatique partagé).
+
+---
+
+
+## [2026-07-14] discernement | Clôture de gizeh-pole-scientifique-antediluvien (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
+- **Modifié** : [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] —
+  enrichissement matériel (Guénon *Remarques sur les cycles cosmiques*, distinction
+  polaire/solaire) ; `Statut` → `validée` ; `status` `speculatif` → `traditionnel` ;
+  `Conclusion` rédigée et attribuée à Sidy (2026-07-14) : filiation guénonienne directe
+  (*Le Tombeau d'Hermès*), deux réserves permanentes conservées (non-confusion
+  atlantéen/primordial, fragments infimes), fondées sur la distinction polaire/solaire
+  (Tradition primordiale = polaire ; atlantéenne = solaire/secondaire).
+- **Point sensible** : distinction polaire/solaire identifiée comme VIGILANCE transversale
+  pour l'ensemble du pôle Gizeh — à rappeler dans tout futur discernement/ancrage
+  touchant Gizeh, la Grande Pyramide, ou sources « atlantéennes » au sens guénonien.
+- **Note de méthode** : principe « maintenu sauf invalidation explicite » corrigé en
+  clôture — c'est un principe de persistance de la recherche, pas une présomption de vérité.
+
+---
+
+
+## [2026-07-14] discernement | Ouverture de sayyid-al-awwalin-wal-akhirin-khatm
+- **Opération** : EXAMEN DE DISCERNEMENT — ouverture.
+- **Créé** : [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]].
+- **Contexte** : fiche nouvellement ouverte le 2026-07-14, rattachée à la tension
+  walāya/quṭbiyya/khatm signalée le 2026-06-29 ; examen du concept *Sayyid al-Awwalîn
+  wa-l-Âkhirîn* (Seigneur du premier et du dernier) comme jonction cyclique
+  (premier/dernier degrés, ouverture/fermeture du Nafas al-Raḥmān) et possible allusion
+  au Khatm (Sceau).
+- **Statut** : en cours — verdict en attente d'approfondissement doctrinal.
+- **Point sensible** : Khatm = fonction d'autorité spirituelle vivante (Al-Khaḍir) — aucune
+  auto-proclamation, renvoi toujours ouvert aux savants qualifiés (Cmd 12).
+
+---
+
+
+## [2026-07-10] archivage | Transcription Meftah — complément v3 (notes de bas de page, index étendu, méthode)
+
+- **Opération** : ARCHIVAGE & MAILLAGE — enrichissement de la fiche [[doctrinal/sources/meftah-chatons-sagesses-transcription]] à partir de la transcription v3 (8 photos complémentaires haute résolution).
+- **Ajouté** : notes de bas de page détaillées (présentation du traducteur, préface pp. 13-16, pages 6-7, 10-11, chapitre V pp. 394-401), entrées d'index manquantes (37 termes supplémentaires), note de prudence méthodologique sur la colonne « Lettre » du tableau récapitulatif, section de validation v3 (corrections par rapport à la v1 fautive, état des lacunes).
+- **Motif** : l'intégration initiale (2026-07-09, v2) a synthétisé le contenu principal mais omis les notes de bas de page et l'index complet — perdu lors de la synthèse post-corruption v1. Session d'intégration interrompue par limite de tokens.
+- **Frontmatter** : `updated` passé à 2026-07-10.
+- **VIGILANCE** : aucun changement de structure, contenu purement additionnel. Index vérifié contre les entrées de la v3 source.
+
+---
+
+
+## [2026-07-10] archivage | Les Sept Étendards du Califat — avant-propos, table des matières, index des termes arabes (transcription Gilis)
+
+- **Opération** : ARCHIVAGE & MAILLAGE — source Gilis, transcription partielle (8 photographies de l'exemplaire physique).
+- **Créé** : [[doctrinal/sources/sept-etendards-califat]] (`source`, `traditionnel`, islam) — avant-propos (p. 7-8), table des matières complète (40 chapitres en 3 parties), index des termes arabes (p. 313-318, 6 pages, hamza à z).
+- **Non transcrit** : corps du texte (chapitres I à XL, p. 13-311) — reste `to-source`.
+- **Pertinence** : source majeure sur le Califat ésotérique akbarien ; relie [[doctrinal/autorites/ibn-arabi]] et [[doctrinal/autorites/rene-guenon]] via la doctrine des sept Étendards (chap. XXXVIII) et le Califat Suprême (chap. XL). Complète l'ouvrage Gilis déjà présent [[doctrinal/sources/gilis-ordo-ab-chao]].
+- **Frontmatter** : `sources` ajouté (pointe vers `[[doctrinal/autorites/charles-andre-gilis]]` — fiche à créer) ; `status` passé de `to-source` à `traditionnel` ; `cross_links` ramené à deux cibles vérifiées présentes (ibn-arabi, rene-guenon).
+- **VIGILANCE** :
+  1. `[[doctrinal/autorites/charles-andre-gilis]]` et `[[doctrinal/autorites/michel-valsan]]` : fiches inexistantes. Gilis référencé en `sources:` (cible manquante signalée), Vâlsan retiré des `cross_links` pour éviter le lien mort.
+  2. L'entrée index placée en §VI (Sources), après les Révélations de La Mecque.
+- **Sas** : fichier retiré de `_inbox/` après intégration validée.
+
+---
+
+
 ## [2026-07-09] discernement | Enrichissement de 10 fiches discernement (session PRODUCTION)
 
 - **Opération** : EXAMEN DE DISCERNEMENT (lot).
@@ -169,29 +500,6 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
-## [2026-07-10] archivage | Transcription Meftah — complément v3 (notes de bas de page, index étendu, méthode)
-
-- **Opération** : ARCHIVAGE & MAILLAGE — enrichissement de la fiche [[doctrinal/sources/meftah-chatons-sagesses-transcription]] à partir de la transcription v3 (8 photos complémentaires haute résolution).
-- **Ajouté** : notes de bas de page détaillées (présentation du traducteur, préface pp. 13-16, pages 6-7, 10-11, chapitre V pp. 394-401), entrées d'index manquantes (37 termes supplémentaires), note de prudence méthodologique sur la colonne « Lettre » du tableau récapitulatif, section de validation v3 (corrections par rapport à la v1 fautive, état des lacunes).
-- **Motif** : l'intégration initiale (2026-07-09, v2) a synthétisé le contenu principal mais omis les notes de bas de page et l'index complet — perdu lors de la synthèse post-corruption v1. Session d'intégration interrompue par limite de tokens.
-- **Frontmatter** : `updated` passé à 2026-07-10.
-- **VIGILANCE** : aucun changement de structure, contenu purement additionnel. Index vérifié contre les entrées de la v3 source.
-
----
-
-## [2026-07-10] archivage | Les Sept Étendards du Califat — avant-propos, table des matières, index des termes arabes (transcription Gilis)
-
-- **Opération** : ARCHIVAGE & MAILLAGE — source Gilis, transcription partielle (8 photographies de l'exemplaire physique).
-- **Créé** : [[doctrinal/sources/sept-etendards-califat]] (`source`, `traditionnel`, islam) — avant-propos (p. 7-8), table des matières complète (40 chapitres en 3 parties), index des termes arabes (p. 313-318, 6 pages, hamza à z).
-- **Non transcrit** : corps du texte (chapitres I à XL, p. 13-311) — reste `to-source`.
-- **Pertinence** : source majeure sur le Califat ésotérique akbarien ; relie [[doctrinal/autorites/ibn-arabi]] et [[doctrinal/autorites/rene-guenon]] via la doctrine des sept Étendards (chap. XXXVIII) et le Califat Suprême (chap. XL). Complète l'ouvrage Gilis déjà présent [[doctrinal/sources/gilis-ordo-ab-chao]].
-- **Frontmatter** : `sources` ajouté (pointe vers `[[doctrinal/autorites/charles-andre-gilis]]` — fiche à créer) ; `status` passé de `to-source` à `traditionnel` ; `cross_links` ramené à deux cibles vérifiées présentes (ibn-arabi, rene-guenon).
-- **VIGILANCE** :
-  1. `[[doctrinal/autorites/charles-andre-gilis]]` et `[[doctrinal/autorites/michel-valsan]]` : fiches inexistantes. Gilis référencé en `sources:` (cible manquante signalée), Vâlsan retiré des `cross_links` pour éviter le lien mort.
-  2. L'entrée index placée en §VI (Sources), après les Révélations de La Mecque.
-- **Sas** : fichier retiré de `_inbox/` après intégration validée.
-
----
 
 ## [2026-07-09] archivage | Transcription Meftah — préliminaires, tableau récapitulatif, annexe, index, chapitre V
 
@@ -202,6 +510,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Lien retour** : ajouté dans [[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq]] (symétrie avec le doublet Jurjānī).
 
 ---
+
 
 ## [2026-07-09] archivage | Malâmatiyah/Afrâd (Ibn ʿArabī, Futūḥāt ch. 23) — doctrine, corroboration Guénon, correction bibliothèque physique
 
@@ -218,6 +527,109 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Note** : transcription des annexes close après recoupement intégral par Sidy sur le texte physique (deux erreurs de transcription corrigées : plage 321-333 pour Muhammad dans l'Index, doublon « 128 » sur *badal* dans le Lexique ; une erreur de structure corrigée : *al-Wâlî* dupliquée en tête de la lettre Y, repositionnée entre *walî* et *warîth*).
 
 ---
+
+
+## [2026-07-09] discernement | Clôture de tension-hadarat-burckhardt-jurjani (verdict Sidy)
+- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
+- **Modifié** : [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] —
+  reformatée au bloc 🔍 normalisé (l'ancienne version utilisait un format ad hoc non
+  conforme au Sceau Recteur) ; textes intégraux versés (Jurjānī déf. 631, Burckhardt
+  *Introduction aux doctrines ésotériques de l'Islam* p. 111-114) ; `Statut` →
+  `validée` ; `status` frontmatter `speculatif` → `traditionnel` ; `Conclusion`
+  rédigée et attribuée à Sidy (2026-07-09) : verdict (a) — les deux nomenclatures
+  (Burckhardt/hadarat-khams et Jurjānī/Taʿrīfāt 631) sont traitées comme deux
+  découpages légitimes et complémentaires d'une même doctrine, chacun dans son
+  contexte d'auteur, non fondus (Cmd 3). [[doctrinal/symboles/hadarat-khams]] reste
+  la nomenclature de référence du wiki, sans que cela invalide Jurjānī.
+- **Source brute** : lot `_inbox/inbox-discernement-2026-07-09.zip` (session
+  PRODUCTION du 2026-07-08/09) pour les textes intégraux ; verdict recueilli en
+  session Claude.ai directe du 2026-07-09 (postérieur au lot, non prévu par son
+  `MASTER-UPDATE.md`).
+- **Point sensible** : aucun — question de forme interne à une seule tradition
+  (islam), pas de non-syncrétisme en jeu, pas d'autorité vivante à consulter.
+- **Note de méthode** : l'ancienne fiche n'était pas au format Sceau Recteur
+  (bloc « 🌐 Forme traditionnelle divergente » au lieu du bloc 🔍) — corrigé à
+  l'occasion de cette clôture. Étanchéité inversée avec `hadarat-khams` levée de
+  fait par la clôture, aucune action requise sur `hadarat-khams`.
+
+---
+
+
+## [2026-07-07] restoration | Convention Sashimono — philosophie d'assemblage et six articles normatifs
+
+**Fiches intégrées** (2) :
+- `meta/philosophie-sashimono.md` — Directive Sashimono : analogie opératoire (jamais doctrinale) de la menuiserie japonaise sans clou ni vis comme philosophie d'assemblage du dépôt (quatre circuits, six articles normatifs, lexique conventionnel avec termes techniques japonais). Statut : outillage formalisé, validé par l'utilisateur le 2026-07-07.
+- `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md` — Question distincte (doctrinale) : le sashimono relève-t-il de la catégorie des métiers traditionnels au sens guénonien ? Instruction de la portée initiatique et sacrée possible du métier. Verdict réservé à l'utilisateur (Cmd 12) ; textes d'appui (Guénon, Coomaraswamy) en bibliothèque physique, levée du `to-source` requise.
+
+**Amendement CLAUDE.md** : 
+- Édition 1 (révision d'en-tête) : ajout de la ligne « **Révisé le 2026-07-07** : adoption de la philosophie et de la convention terminologique Sashimono (§VII, « Convention Sashimono » ; directive détaillée : `meta/philosophie-sashimono.md`). »
+- Édition 2 (§VII) : insertion de la sous-section « Convention Sashimono (philosophie d'assemblage — validée 2026-07-07) » avec les six articles, le lexique conventionnel (kigumi, hozo, kumiko, kari-kumi, sumi-tsuke, ki-dori) et les exclusions doctrinales.
+
+**Mise à jour doctrinal/index.md** : ajout de la nouvelle subsection « Sashimono et métiers traditionnels » au registre du discernement (§VII), avec lien à la fiche discernement et marqueur 🔍.
+
+**Statut doctrinal** : l'analogie opératoire demeure immédiatement applicable (Art. 1-6 du kigumi) ; la correspondance traditionnelle reste à trancher (fiche `discernement` en statut `speculatif`).
+
+---
+
+
+## [2026-07-07] integration | Framework d'étude de cas — master template + première étude (Stones Throw Records)
+
+**Fiches intégrées** (2) :
+- `meta/projet-unifie/framework-etude-de-cas.md` — Master Framework : grille systématique d'analyse pour entreprises/marques/maisons (10 modules + bloc Transposition 🔍), destinée à l'ingestion par tout moteur IA pour produire des études comparables.
+- `atelier/etudes-de-cas/stones-throw.md` — Cas d'école : Stones Throw Records (label de musique indépendant, fondation 1996, 30 ans, archétype de cohérence long-terme via curation institutionnalisée, survival via diversification revenue sans dilution du propos). Application complète du framework : 10 modules (identity/genesis, thesis & positioning, art direction, product/catalog, business model, production/logistics, distribution, marketing, culture/governance, trajectory) + Analysis et Signaux pour chaque ; Transposition bloc final avec 3 principes transposables (institutionalize one ear, name the chain/own flagship, build slow editorial objects), 2 garde-fous (no critical function without books, revenue diversification must not diversify propos), 1 expérimentation concrète (chain-of-custody block on release fiche).
+
+**Infrastructure atelier** : création `/atelier/index.md` — index synthétique du circuit (matériels, entretiens, projets, études de cas + lien au framework).
+
+**Statut du framework** : type confirmé `etude-de-cas` (déjà en CLAUDE.md §V.a) ; master template demeure suggéré 🔍 pour futures études ; sourçage des cas d'étude discipliné par le barème de crédibilité (A/B/C/D) du framework lui-même.
+
+---
+
+
+## [2026-07-07] ingest | Ouverture du pôle Gizeh (science traditionnelle antédiluvienne) — lot complet v2
+
+Lot de 6 fiches (1 source + 4 discernement + 1 étude) + addendum bibliothèque physique.
+Texte de référence du pôle : Guénon, « Le Tombeau d'Hermès » (*Formes traditionnelles et Cycles cosmiques*) — filiation orthodoxe directe de la spéculation-mère et du symbolisme pyramide/Montagne sacrée/Pôle.
+
+**Fiches intégrées** :
+- `doctrinal/sources/2026-07-03_guenon-tombeau-hermes.md` — texte de référence permanent du pôle, statut traditionnel
+- `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien.md` — spéculation-mère, filiation guénonienne attestée
+- `doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh.md` — relevé comparatif brut, to-source
+- `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex.md` — topologie basculement plan/sphère
+- `doctrinal/discernement/2026-07-02_coudee-royale-convergence-28.md` — candidat double ancrage, réserve catégorielle
+- `doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence.md` — convergence fonction angle→temps
+
+**Addenda bibliothèque** : contenu fusionné dans `meta/bibliotheque-physique.md` section « Pôle Gizeh » (2026-07-03).
+
+**Aucun ancrage YAML instrument-donnees.yaml** proposé à ce stade ; tous les candidats (Qâf/apex/Rafîʿ ad-Darajât, convergence 28/coudée, conduits stellaires) restent en discernement `en cours`. Arbitrage d'ancrage : Sidy exclusivement, le critère de double ancrage servant de signal de vigilance.
+
+---
+
+
+## [2026-07-06] archivage | Ouverture du pôle Fiqh — madhhab mālikite (préséance), Imam Mālik, science du fiqh, ressource ḥanbalite ; amendement protocolaire §V.c.6 + bloc ⚖️
+
+**Fiches doctrinales intégrées** (4) :
+- `doctrinal/traditions/madhhab-maliki.md` — école mālikite, fondements (ʿamal ahl al-Madīna), chaîne textuelle (Muwaṭṭaʾ, Risāla, Akhḍarī, Khalīl), préséance du pôle
+- `doctrinal/autorites/imam-malik.md` — Imam Mālik b. Anas (m. 179 H.), fondateur, référence du pôle
+- `doctrinal/symboles/fiqh.md` — science des statuts (aḥkām ʿamaliyya), divisions (ʿibādāt / muʿāmalāt), rôle opératoire du dépôt (§V.c)
+- `doctrinal/sources/al-madrasah-al-hanbaliyyah.md` — ressource ḥanbalite (recours subsidiaire), cursus de fiqh ḥanbalite
+
+Tous : `to-source` confirmés ; levée conditionnée à l'acquisition des textes mālikites de base (Akhḍarī, Khalīl, Risāla).
+
+**Systématisation fiqh du label** : double face du Gardien du Protocole (agents 04 & 10, Hermes v2) : 04 instruit les questions de droit traditionnel (⚖️ fiches, sources attribuées, pas de talfīq), 10 harmonise label ↔ doctrine (signaux ✅/⚠️/❓). Rapport du matin formalisé (§VII du CLAUDE.md V2). Proposition et prompts v2 archivés.
+
+**Amendement CLAUDE.md** : §V.c.6 (Alignement Fiqh, préséance mālikite, école subsidiaire documentée, pas de talfīq) ; action « EXAMEN DE FIQH » (bloc ⚖️ normalisé, §VII). Protocole demeure V2 rév. 2026-07-06 (les amend. Fiqh y étaient déjà intégrés au Lot 1).
+
+**Addendum bibliothèque physique** : section « À acquérir — pôle Fiqh » listant les 4 textes prioritaires ; acquisitions commandées dès validation de l'approvisionnement.
+
+---
+
+
+## [2026-07-06] restauration | Protocole V2 rév. — basmala, auto-suffisance, discipline des sources, ancrage éthique du label, supervision étendue
+
+Remplacement intégral du protocole `CLAUDE.md` : Restauration V2 (2026-07-06). Basmala en ouverture ; réintégration in extenso des protocoles d'exécution (auto-suffisance du protocole) ; discipline des sources (bibliothèque physique d'abord, levée du `to-source` par vérification primaire humaine, persona IA flagués) ; règle commune des manifestes (Instrument et site, script déterministe, flux à sens unique) ; ancrage éthique des actes contractuels et commerciaux du label (doctrine du don, tension Commerce ↔ Gardien, porte humaine Cmd 13, compétence qualifiée pour questions juridiques/fiscales) ; ouverture du pôle Fiqh (préséance mālikite, école subsidiaire documentée, action « EXAMEN DE FIQH » bloc ⚖️) ; supervision étendue des agents (§VIII.1-10) ; vigilance documentaire en clôture de session. Documents dérivés alignés : `00-instructions-projet.md`, `briefing-claude-ai.md` (V2, 2026-07-06).
+
+---
+
 
 ## [2026-07-05] integration | Lot final — protocole du don, équipe 12 agents Hermes, économie, fanzine, merchandising
 
@@ -267,110 +679,6 @@ Tous : anglais, pas d'accès `meta/` personnel, référence à archetypes et doc
 
 ---
 
-## [2026-07-07] restoration | Convention Sashimono — philosophie d'assemblage et six articles normatifs
-
-**Fiches intégrées** (2) :
-- `meta/philosophie-sashimono.md` — Directive Sashimono : analogie opératoire (jamais doctrinale) de la menuiserie japonaise sans clou ni vis comme philosophie d'assemblage du dépôt (quatre circuits, six articles normatifs, lexique conventionnel avec termes techniques japonais). Statut : outillage formalisé, validé par l'utilisateur le 2026-07-07.
-- `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md` — Question distincte (doctrinale) : le sashimono relève-t-il de la catégorie des métiers traditionnels au sens guénonien ? Instruction de la portée initiatique et sacrée possible du métier. Verdict réservé à l'utilisateur (Cmd 12) ; textes d'appui (Guénon, Coomaraswamy) en bibliothèque physique, levée du `to-source` requise.
-
-**Amendement CLAUDE.md** : 
-- Édition 1 (révision d'en-tête) : ajout de la ligne « **Révisé le 2026-07-07** : adoption de la philosophie et de la convention terminologique Sashimono (§VII, « Convention Sashimono » ; directive détaillée : `meta/philosophie-sashimono.md`). »
-- Édition 2 (§VII) : insertion de la sous-section « Convention Sashimono (philosophie d'assemblage — validée 2026-07-07) » avec les six articles, le lexique conventionnel (kigumi, hozo, kumiko, kari-kumi, sumi-tsuke, ki-dori) et les exclusions doctrinales.
-
-**Mise à jour doctrinal/index.md** : ajout de la nouvelle subsection « Sashimono et métiers traditionnels » au registre du discernement (§VII), avec lien à la fiche discernement et marqueur 🔍.
-
-**Statut doctrinal** : l'analogie opératoire demeure immédiatement applicable (Art. 1-6 du kigumi) ; la correspondance traditionnelle reste à trancher (fiche `discernement` en statut `speculatif`).
-
----
-
-## [2026-07-07] integration | Framework d'étude de cas — master template + première étude (Stones Throw Records)
-
-**Fiches intégrées** (2) :
-- `meta/projet-unifie/framework-etude-de-cas.md` — Master Framework : grille systématique d'analyse pour entreprises/marques/maisons (10 modules + bloc Transposition 🔍), destinée à l'ingestion par tout moteur IA pour produire des études comparables.
-- `atelier/etudes-de-cas/stones-throw.md` — Cas d'école : Stones Throw Records (label de musique indépendant, fondation 1996, 30 ans, archétype de cohérence long-terme via curation institutionnalisée, survival via diversification revenue sans dilution du propos). Application complète du framework : 10 modules (identity/genesis, thesis & positioning, art direction, product/catalog, business model, production/logistics, distribution, marketing, culture/governance, trajectory) + Analysis et Signaux pour chaque ; Transposition bloc final avec 3 principes transposables (institutionalize one ear, name the chain/own flagship, build slow editorial objects), 2 garde-fous (no critical function without books, revenue diversification must not diversify propos), 1 expérimentation concrète (chain-of-custody block on release fiche).
-
-**Infrastructure atelier** : création `/atelier/index.md` — index synthétique du circuit (matériels, entretiens, projets, études de cas + lien au framework).
-
-**Statut du framework** : type confirmé `etude-de-cas` (déjà en CLAUDE.md §V.a) ; master template demeure suggéré 🔍 pour futures études ; sourçage des cas d'étude discipliné par le barème de crédibilité (A/B/C/D) du framework lui-même.
-
----
-
-## [2026-07-06] archivage | Ouverture du pôle Fiqh — madhhab mālikite (préséance), Imam Mālik, science du fiqh, ressource ḥanbalite ; amendement protocolaire §V.c.6 + bloc ⚖️
-
-**Fiches doctrinales intégrées** (4) :
-- `doctrinal/traditions/madhhab-maliki.md` — école mālikite, fondements (ʿamal ahl al-Madīna), chaîne textuelle (Muwaṭṭaʾ, Risāla, Akhḍarī, Khalīl), préséance du pôle
-- `doctrinal/autorites/imam-malik.md` — Imam Mālik b. Anas (m. 179 H.), fondateur, référence du pôle
-- `doctrinal/symboles/fiqh.md` — science des statuts (aḥkām ʿamaliyya), divisions (ʿibādāt / muʿāmalāt), rôle opératoire du dépôt (§V.c)
-- `doctrinal/sources/al-madrasah-al-hanbaliyyah.md` — ressource ḥanbalite (recours subsidiaire), cursus de fiqh ḥanbalite
-
-Tous : `to-source` confirmés ; levée conditionnée à l'acquisition des textes mālikites de base (Akhḍarī, Khalīl, Risāla).
-
-**Systématisation fiqh du label** : double face du Gardien du Protocole (agents 04 & 10, Hermes v2) : 04 instruit les questions de droit traditionnel (⚖️ fiches, sources attribuées, pas de talfīq), 10 harmonise label ↔ doctrine (signaux ✅/⚠️/❓). Rapport du matin formalisé (§VII du CLAUDE.md V2). Proposition et prompts v2 archivés.
-
-**Amendement CLAUDE.md** : §V.c.6 (Alignement Fiqh, préséance mālikite, école subsidiaire documentée, pas de talfīq) ; action « EXAMEN DE FIQH » (bloc ⚖️ normalisé, §VII). Protocole demeure V2 rév. 2026-07-06 (les amend. Fiqh y étaient déjà intégrés au Lot 1).
-
-**Addendum bibliothèque physique** : section « À acquérir — pôle Fiqh » listant les 4 textes prioritaires ; acquisitions commandées dès validation de l'approvisionnement.
-
----
-
-## [2026-07-06] restauration | Protocole V2 rév. — basmala, auto-suffisance, discipline des sources, ancrage éthique du label, supervision étendue
-
-Remplacement intégral du protocole `CLAUDE.md` : Restauration V2 (2026-07-06). Basmala en ouverture ; réintégration in extenso des protocoles d'exécution (auto-suffisance du protocole) ; discipline des sources (bibliothèque physique d'abord, levée du `to-source` par vérification primaire humaine, persona IA flagués) ; règle commune des manifestes (Instrument et site, script déterministe, flux à sens unique) ; ancrage éthique des actes contractuels et commerciaux du label (doctrine du don, tension Commerce ↔ Gardien, porte humaine Cmd 13, compétence qualifiée pour questions juridiques/fiscales) ; ouverture du pôle Fiqh (préséance mālikite, école subsidiaire documentée, action « EXAMEN DE FIQH » bloc ⚖️) ; supervision étendue des agents (§VIII.1-10) ; vigilance documentaire en clôture de session. Documents dérivés alignés : `00-instructions-projet.md`, `briefing-claude-ai.md` (V2, 2026-07-06).
-
----
-
-## [2026-07-07] ingest | Ouverture du pôle Gizeh (science traditionnelle antédiluvienne) — lot complet v2
-
-Lot de 6 fiches (1 source + 4 discernement + 1 étude) + addendum bibliothèque physique.
-Texte de référence du pôle : Guénon, « Le Tombeau d'Hermès » (*Formes traditionnelles et Cycles cosmiques*) — filiation orthodoxe directe de la spéculation-mère et du symbolisme pyramide/Montagne sacrée/Pôle.
-
-**Fiches intégrées** :
-- `doctrinal/sources/2026-07-03_guenon-tombeau-hermes.md` — texte de référence permanent du pôle, statut traditionnel
-- `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien.md` — spéculation-mère, filiation guénonienne attestée
-- `doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh.md` — relevé comparatif brut, to-source
-- `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex.md` — topologie basculement plan/sphère
-- `doctrinal/discernement/2026-07-02_coudee-royale-convergence-28.md` — candidat double ancrage, réserve catégorielle
-- `doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence.md` — convergence fonction angle→temps
-
-**Addenda bibliothèque** : contenu fusionné dans `meta/bibliotheque-physique.md` section « Pôle Gizeh » (2026-07-03).
-
-**Aucun ancrage YAML instrument-donnees.yaml** proposé à ce stade ; tous les candidats (Qâf/apex/Rafîʿ ad-Darajât, convergence 28/coudée, conduits stellaires) restent en discernement `en cours`. Arbitrage d'ancrage : Sidy exclusivement, le critère de double ancrage servant de signal de vigilance.
-
----
-
-## [2026-07-01] archivage complet | Fichiers atelier/discernement + infrastructure Instrument (Phase 1-2)
-
-Intégration complète des contenus produits par Claude.ai le 2026-07-01 (trois ingest : infrastructure Qwen, pôle Gizeh, instrument & discernement) :
-
-**Circuit atelier/projets/** (6 fichiers) :
-- `angles-de-l-espace.md` — schéma manuscrit Sidy, appariement qualités élémentaires ↔ angles AS/DS/MC/FC
-- `instrument-tradition-primordiale-architecture-v0.3.md` — architecture fondamentale validée (Phase 0 clôturée)
-- `references-visuelles-astronomiques-phase-5.md` — catalogue images (demeures lunaires, horizon/équateur/écliptique, sphère céleste)
-- `spec-generateur-manifeste.md` — spécification script Phase 1 (wiki → wiki-manifest.json)
-- `instrument-donnees.yaml` — données déclaratives (nœuds Tasawwuf, ancrages établis : convergence 28)
-- `generer-manifeste.py` — générateur Phase 1 (déterministe, zéro LLM, validations bloquantes)
-
-**Circuit doctrinal/discernement/** (1 fiche) :
-- `2026-07-01_rafi-ad-darajat-fonction-traversante.md` — discernement : Nom Divin degré 38 comme fonction traversante d'al-Insān al-Kāmil (sourcé Gloton pp. 38-41 + hadarat-khams)
-
-**État** : Phase 0 (Instrument) clôturée, Phase 1 (générateur) livrée. Premiers ancrages établis : convergence 28 (*Futūḥāt* ch. 198, Gem 2026-07-01). Vigilance apophatique en continu dès maintenant (fiche v0.3 §5, arbitrage validé 2026-07-01).
-
----
-
-## [2026-07-01] enrichissement | Transcription Gloton complète ch. 198 — degrés 11-38 + modes 39-50
-
-Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection*, trad. M. Gloton, Albouraq).
-**Lot en trois addenda, appendus à la fiche source** [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] :
-- **Addendum 1** (pp. 38-41) : degrés 17-38 + modes 39-50 (12 modes du Souffle).
-- **Addendum 2** (pp. 46-47) : **Noms Divins et Manāzils, degrés 18-31** — lève complètement le to-source de la table (y compris degrés 21-27 : Nom Divin/Manzil désormais sourcés).
-- **Addendum 3** (pp. 44-45 et 48) : degrés 11-17 et 32-38 — tableau synoptique complet Gloton.
-
-**État final** : les degrés **11-38 sont intégralement sourcés** (28 degrés lettrés). Confirmation textuelle : verbe « y siège » établit distinction prophète siégeant vs Faṣṣ (manifestation structurelle). Remarque de cohérence : Nom Divin du degré 38, *Rafîʿ ad-Darajât* (l'Élévateur des degrés), pour l'Homme parfait — convergence avec l'architecture de l'Instrument (nœud traversant).
-
-**Matière neuve** : les 12 modes du Souffle (items 39-50, p. 41) — amorce pour [[doctrinal/symboles/nafas-rahmani]].
-**Pointeurs de complément** : ch. 198 Futūhāt (édition Dar al-Kotob al-Ilmiyah, Beyrouth, 1420/1999, tome 4, pp. 29-32) ; Gloton *Jésus, le Fils de Marie* pp. 466-470 ; *ʿUqlat al-mustawfiz* (5 Trônes / 5 dénominations coraniques) pour parallèle ; citations discursives du ch. 198 (mort → barzakh → Résurrection → Jugement) — au backlog ingest eschatologique.
-
----
 
 ## [2026-07-03] ingest | Ouverture du pôle Gizeh (science traditionnelle antédiluvienne) — lot v2
 Lot de 6 fiches (1 source + 4 discernement + 1 étude) + addendum bibliothèque physique.
@@ -393,12 +701,14 @@ ancrage servant de signal de vigilance.
 
 ---
 
+
 ## [2026-07-03] infrastructure | Déploiement Qwen3.6-27B-FP8 mené à terme (circuit `meta/projet-unifie/`)
 - **Opération** : intégration du lot documentaire infrastructure Qwen/Hermes (manifeste `UPDATES.md`, 2026-07-03). Aucune écriture doctrinale — circuit `meta/` uniquement, hors Sceau Recteur.
 - **Déploiement** : Qwen3.6-27B-FP8 opérationnel sur RunPod (A100 PCIe, vLLM 0.19.1, déploiement Custom). Double test de non-régression réussi : atelier **8✓/0✗**, doctrinal **12✓/0✗** (verdicts par scripts `regression-test*.sh compare`, pas d'auto-rapport).
 - **Fichiers intégrés** : `11-resultats-qwen36-27b-2026-07-03.md` (compte-rendu), `09-briefing-transition-qwen36-27B-v3-2026-07-03.md` (briefing révisé, corrige `sleep infinity` + régression Claude Code ≥ 2.1.154), `note-optimisation-hermes-2026-07-03.md` (3 décisions ouvertes : GPU, hébergement, timing).
 - **Supersession** : la v2 (`09-…v2-2026-07-02.md`) marquée SUPERSEDED par bandeau ciblé (2 règles erronées signalées, corps non modifié).
 - **Phase 0** du briefing 10 (infrastructure Hermes) : critère de sortie **atteint**.
+
 
 ## [2026-07-01] maintenance | Harnais de test renommés en neutre (`regression-test*.sh`)
 - **Opération** : outillage (`meta/projet-unifie/`) — suite du rendu agnostique au modèle.
@@ -407,11 +717,13 @@ ancrage servant de signal de vigilance.
 - **Non touché (historique, non-révisionnisme — Cmd 11 « restauration, jamais réforme »)** : comptes-rendus datés `06-`/`07-`/`08-` (exécutions réelles du 2026-06-29 sous l'ancien nom) et entrées d'annales passées. La note du README fait le pont.
 - **Validé** : `selftest` des deux harnais renommés → **8 ✓ / 0 ✗** (atelier) et **12 ✓ / 0 ✗** (doctrinal). Bacs à sable supprimés.
 
+
 ## [2026-07-01] maintenance | Harnais de test rendus agnostiques au modèle (`MODEL_LABEL`)
 - **Opération** : outillage (`meta/projet-unifie/`) — préparation de la transition vers Qwen3.6-27B-FP8.
 - Les deux harnais de non-régression `ornith-test.sh` (cas atelier) et `ornith-test-doctrinal.sh` (cas doctrinal, Sceau Recteur + réparation frontmatter) sont désormais **agnostiques au modèle** : variable d'affichage `MODEL_LABEL` (surchargeable, ex. `MODEL_LABEL="Qwen3.6-27B-FP8" bash …`), défaut « le modèle local ». Aucune logique de test modifiée — seuls les libellés « Ornith » deviennent dynamiques.
 - Subtilité technique : dans le harnais doctrinal, les verdicts sont dans un heredoc Python `<<'PY'` (non interpolé) → `MODEL_LABEL` passé en `argv`, pas par interpolation shell.
 - **Validé** : `selftest` des deux harnais rejoué avec `MODEL_LABEL="Qwen3.6-27B-FP8"` → **8 ✓ / 0 ✗** (atelier) et **12 ✓ / 0 ✗** (doctrinal), étiquette correctement propagée. Bacs à sable isolés (`/root/ornith-test*`) supprimés après validation. Réponse à la transition Qwen : cf. [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01]] §5-H (même protocole `prepare → compare` qu'Ornith).
+
 
 ## [2026-07-01] developpement | Fiche [[doctrinal/symboles/eschatologie]] développée à partir de la source Gloton
 - **Opération** : développement doctrinal d'une fiche `symbole` (sortie de l'état `#stub`).
@@ -421,12 +733,14 @@ ancrage servant de signal de vigilance.
 - **VIGILANCE** : `#stub` retiré des tags ; 7 `cross_links` vérifiés présents ; aucun lien mort ; aucune étanchéité inversée (aucun renvoi vers une fiche `discernement`).
 - **Signalement backlog** : ce qui reste à transcrire pour compléter le récit eschatologique (texte discursif du ch. 198 ; intro/annotations Gloton ; renvoi *Jésus fils de Marie* pp. 466-470 ; parallèle *ʿUqlat al-mustawfiz* Nyberg pp. 39-99) est consigné en deux endroits — section « À transcrire » de la fiche source et §E du backlog [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]]. Item « déposer dans raw/ » du §E marqué FAIT.
 
+
 ## [2026-07-01] archivage | Intégration du sas `_inbox/` — source Ibn ʿArabī *De la mort à la résurrection* (Gloton) + briefing transition Qwen3.6-27B
 - **Opération** : ARCHIVAGE & MAILLAGE + apurement du sas `_inbox/` (2 fichiers loose, sans `UPDATES.md` ; routage déduit du `type:`).
 - **Doctrinal** : créé la fiche source primaire [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton|De la mort à la résurrection — Ibn ʿArabī (trad. M. Gloton, Albouraq)]] (`source`, `traditionnel`, islam) — chapitre 198 des *Futūhāt* (nafas al-raḥmān, 28+10 degrés, table lettre × Nom × Manzil × signe). Ajoutée à l'index §VI (regroupée avec [[doctrinal/sources/transcription-anneau-28-lettres-figure4]], même ouvrage).
 - **Réparation frontmatter** : lien `[[table-28-degres-nafas-rahmân]]` (circonflexe) recartographié en `[[table-28-degres-nafas-rahman]]` (slug ASCII réel), 3 occurrences.
 - **Clôture de signalement** : ce dépôt **résout le point VIGILANCE (1)** de l'entrée « Ménage & intégration du sas `_inbox/` » (2026-07-01) — la source était « référencée mais non déposée → liens `to-source` ». Les liens de [[doctrinal/symboles/table-28-degres-nafas-rahman]] (pré-câblés) ne sont plus morts ; [[doctrinal/symboles/eschatologie]] passe de `to-source` à la source déposée (`#stub` maintenu, corps à développer côté Claude.ai).
 - **meta/ (outillage)** : classé [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01]] (briefing transition modèle local Ornith-1.0-9B → **Qwen3.6-27B-FP8** : bilan tests Ornith, justification, 3 changements du runbook §3.2, état Pod RunPod, actions A→H). Nom normalisé en minuscules (§III). Référencé dans [[meta/projet-unifie/README]] (Outils opérationnels). Confiné à `meta/` — aucun croisement d'étanchéité.
+
 
 ## [2026-07-01] maintenance | Mise à jour des fiches de contexte pour Claude.ai
 - **Opération** : RESTAURATION/MAINTENANCE (fiches meta d'outillage — pas de contenu doctrinal).
@@ -435,6 +749,7 @@ ancrage servant de signal de vigilance.
   [[meta/projet-unifie/02-instrument-feuille-de-route]] (v0.2, convergence des 28 établie, spec axe 38°, question §8.2),
   [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]] (backlogs questions/vigilance/discernement + nouveau §E ingests à venir ; 14→15 discernements), [[meta/projet-unifie/README]].
 - **Instrument** : fiche architecture v0.1 marquée « jalon historique » avec renvoi vers v0.2 (Cmd 10, pas de suppression).
+
 
 ## [2026-07-01] archivage | Ménage & intégration du sas `_inbox/` — lots al-Jurjānī, Manvantara/Mahdi-Rouge/28-degrés, enrichissements akbariens
 - **Opération** : ARCHIVAGE & MAILLAGE + apurement du sas `_inbox/` (144 fichiers déposés ; doublons Obsidian « Copy of » et exports pré-Restauration écartés, contenu déjà au dépôt).
@@ -448,6 +763,43 @@ ancrage servant de signal de vigilance.
 - **Amorces créées** (feu vert Sidy, résolution des liens morts) : [[doctrinal/symboles/nafas-rahmani]], [[doctrinal/autorites/titus-burckhardt]], [[doctrinal/symboles/eschatologie]] (`#stub` ; `eschatologie` en `to-source` jusqu'au dépôt d'Ibn ʿArabī *De la mort à la résurrection*).
 - **VIGILANCE / signalements** (voir §fin de session) : (1) source primaire `ibn-arabi-de-la-mort-a-la-resurrection-gloton.md` référencée mais **non déposée** → liens `to-source` ; (2) [[doctrinal/symboles/hadarat-khams]] pointe vers la fiche discernement `tension-hadarat` non tranchée (étanchéité inversée §Discernement) — **signalé, non corrigé** ; (3) tensions doctrinales walāya (*quṭbiyya*/*khatm*) et recoupement wahdat/hadarat laissées à l'arbitrage de Sidy.
 
+
+## [2026-07-01] archivage complet | Fichiers atelier/discernement + infrastructure Instrument (Phase 1-2)
+
+Intégration complète des contenus produits par Claude.ai le 2026-07-01 (trois ingest : infrastructure Qwen, pôle Gizeh, instrument & discernement) :
+
+**Circuit atelier/projets/** (6 fichiers) :
+- `angles-de-l-espace.md` — schéma manuscrit Sidy, appariement qualités élémentaires ↔ angles AS/DS/MC/FC
+- `instrument-tradition-primordiale-architecture-v0.3.md` — architecture fondamentale validée (Phase 0 clôturée)
+- `references-visuelles-astronomiques-phase-5.md` — catalogue images (demeures lunaires, horizon/équateur/écliptique, sphère céleste)
+- `spec-generateur-manifeste.md` — spécification script Phase 1 (wiki → wiki-manifest.json)
+- `instrument-donnees.yaml` — données déclaratives (nœuds Tasawwuf, ancrages établis : convergence 28)
+- `generer-manifeste.py` — générateur Phase 1 (déterministe, zéro LLM, validations bloquantes)
+
+**Circuit doctrinal/discernement/** (1 fiche) :
+- `2026-07-01_rafi-ad-darajat-fonction-traversante.md` — discernement : Nom Divin degré 38 comme fonction traversante d'al-Insān al-Kāmil (sourcé Gloton pp. 38-41 + hadarat-khams)
+
+**État** : Phase 0 (Instrument) clôturée, Phase 1 (générateur) livrée. Premiers ancrages établis : convergence 28 (*Futūḥāt* ch. 198, Gem 2026-07-01). Vigilance apophatique en continu dès maintenant (fiche v0.3 §5, arbitrage validé 2026-07-01).
+
+---
+
+
+## [2026-07-01] enrichissement | Transcription Gloton complète ch. 198 — degrés 11-38 + modes 39-50
+
+Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection*, trad. M. Gloton, Albouraq).
+**Lot en trois addenda, appendus à la fiche source** [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] :
+- **Addendum 1** (pp. 38-41) : degrés 17-38 + modes 39-50 (12 modes du Souffle).
+- **Addendum 2** (pp. 46-47) : **Noms Divins et Manāzils, degrés 18-31** — lève complètement le to-source de la table (y compris degrés 21-27 : Nom Divin/Manzil désormais sourcés).
+- **Addendum 3** (pp. 44-45 et 48) : degrés 11-17 et 32-38 — tableau synoptique complet Gloton.
+
+**État final** : les degrés **11-38 sont intégralement sourcés** (28 degrés lettrés). Confirmation textuelle : verbe « y siège » établit distinction prophète siégeant vs Faṣṣ (manifestation structurelle). Remarque de cohérence : Nom Divin du degré 38, *Rafîʿ ad-Darajât* (l'Élévateur des degrés), pour l'Homme parfait — convergence avec l'architecture de l'Instrument (nœud traversant).
+
+**Matière neuve** : les 12 modes du Souffle (items 39-50, p. 41) — amorce pour [[doctrinal/symboles/nafas-rahmani]].
+**Pointeurs de complément** : ch. 198 Futūhāt (édition Dar al-Kotob al-Ilmiyah, Beyrouth, 1420/1999, tome 4, pp. 29-32) ; Gloton *Jésus, le Fils de Marie* pp. 466-470 ; *ʿUqlat al-mustawfiz* (5 Trônes / 5 dénominations coraniques) pour parallèle ; citations discursives du ch. 198 (mort → barzakh → Résurrection → Jugement) — au backlog ingest eschatologique.
+
+---
+
+
 ## [2026-06-29] archivage | Archéomètre (Saint-Yves d'Alveydre / version islamisée) — source + symbole, mise en garde non-syncrétisme
 - **Opération** : ARCHIVAGE & MAILLAGE (circuit doctrinal).
 - **Créé** : [[doctrinal/symboles/archeometre|L'Archéomètre]] (`contre-traditionnel`, bloc ⚠️ non-syncrétisme Cmd 3), [[doctrinal/sources/figure-archeometre-islamise-mahdi-rouge|figure islamisée (Mahdi Rouge)]] (`academique`, `sources: ["to-source"]`), [[doctrinal/sources/archeometre-saint-yves-papus-1911|édition Papus 1911]] (`contre-traditionnel`).
@@ -460,11 +812,13 @@ ancrage servant de signal de vigilance.
 - **Cibles `cross_links` vérifiées présentes** : rene-guenon, wahdat-al-wujud, ilm-al-huruf, ilm-al-nujum, talisman-sihr.
 - **Répercuté** : `index.md` §II (Sciences Traditionnelles) + §VI (Sources) ; bibliothèque physique enrichie (édition Papus 1911).
 
+
 ## [2026-06-29] infra | Test Ornith cas DOCTRINAL — VERDICT 12 ✓ / 0 ✗ (consigne resserrée fiche par fiche)
 - **Opération** : INFRASTRUCTURE (session A6 — suite du test atelier `07-…`).
 - **Rangé** : [[meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29|résultats du test doctrinal]].
 - **Résultat** : cas doctrinal (Sceau Recteur + réparation du frontmatter corrompu) **12 ✓ / 0 ✗** au 2ᵉ run. **Échec total au 1er run** (consigne large « intègre _inbox/ ») : discours halluciné ET aucune action. **Succès** avec consigne **resserrée à une seule fiche**. Incident corrigé en cours : tentative de `Write` global sur `annales.md` (append-only) **refusée manuellement**.
 - **Leçon** : la **largeur de la consigne** est un facteur décisif (en plus de la durée de session) → découper les lots doctrinaux **fiche par fiche** pour Ornith. Backlog `04-…` [Infra] mis à jour (substitution validée par Sidy).
+
 
 ## [2026-06-29] infra | Cycle complet prepare/compare Ornith-1.0-9B (RunPod) — VERDICT 8 ✓ / 0 ✗, viable sous supervision humaine stricte
 - **Opération** : INFRASTRUCTURE (session A6 — suite directe du test précédent, en session Claude Code neuve).
@@ -474,12 +828,14 @@ ancrage servant de signal de vigilance.
 - **Reste à tester** : intégration **doctrinale** (Sceau Recteur, Discernement, étanchéité), plus risquée que le cas atelier/meta couvert ici.
 - **Mises à jour** : runbook [[meta/projet-unifie/05-runbook-test-ornith-gpu-cloud|05]], [[meta/projet-unifie/03-transition-modele-open-source|03]] et [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs|04]] complétés. Rien de la session de test n'a touché le vrai dépôt (bac à sable isolé). Lot *archéomètre* du sas toujours non traité.
 
+
 ## [2026-06-29] infra | Premier test GPU cloud Ornith-1.0-9B (RunPod) — selftest PASS, prepare/compare à reproduire
 - **Opération** : INFRASTRUCTURE (session A6 — transition modèle open-source).
 - **Rangé** : [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29|compte-rendu du 1er test]] (via `_inbox/`, frontmatter meta conforme — aucune correction).
 - **Résultat** : architecture validée (RunPod Pod RTX A6000 48 Go, vLLM, Ornith-1.0-9B) ; tunnel SSH Hetzner↔GPU OK ; Claude Code branché sur Ornith ; boucle agentique fonctionnelle ; `ornith-test.sh selftest` **PASS (8/0)**. Cycle `prepare → compare` **interrompu** sur une anomalie de cohérence d'Ornith (fin de session longue) — non tranchée, à reproduire en session neuve.
 - **Correctifs intégrés** au runbook [[meta/projet-unifie/05-runbook-test-ornith-gpu-cloud|05]] et à [[meta/projet-unifie/03-transition-modele-open-source|03]]/[[meta/projet-unifie/04-sessions-par-fonction-et-backlogs|04]] : RunPod **Pod** (pas Serverless), authentification via `ANTHROPIC_CUSTOM_HEADERS` (vLLM exige `Authorization: Bearer`), `--max-model-len 131072` (plancher réaliste), pièges sshd/port/`pkill`.
 - **Note** : rien issu de la session de test elle-même n'a touché le vrai dépôt (tout sur le Pod distant + bac à sable isolé). Seul le compte-rendu est archivé ici. Lot *archéomètre* du sas non traité (intégration séparée).
+
 
 ## [2026-06-28] regularisation | Lectures suggérées rétroactives (14 fiches discernement)
 - **Opération** : RESTAURATION (normalisation rétroactive du protocole) — ajout du champ **Lectures suggérées** sous la « Conclusion » du bloc 🔍 normalisé, sans autre modification du corps des fiches.
@@ -488,38 +844,43 @@ ancrage servant de signal de vigilance.
 - **Méthode** : lectures rattachées à la généalogie et à la tension formelle propres à *chaque* fiche, non à une bibliographie générale. Aucune spéculation tranchée (Cmd 12, *upakarana*) : toutes les fiches restent `en cours`. Point de vigilance maintenu pour `epreuve-tariqa-tarbiyya-rabbaniyya` (question d'autorité spirituelle) : lectures choisies pour éclairer la *forme* (modalité confrérique, *tarbiyya rabbaniyya*) sans jamais suggérer une résolution de la question d'autorité elle-même, qui revient au Cheikh.
 - **VIGILANCE** : toutes les cibles wikilink citées (`alam-al-mithal`, `khalwa`, `barzakh`, `fal-wa-tatayyur`, `waqia`, `merkavah-muraqaba`, `shinto`, `ilm-al-nujum`, `walaya-fath-adab`, `ibn-arabi`, `rene-guenon`, `al-insan-al-kamil`, `ahmad-al-buni`) vérifiées présentes — aucun lien mort.
 
+
 ## [2026-06-28] archivage | Esquisse v0.1 — Instrument de la Tradition Primordiale (atelier/projets)
 - **Opération** : ARCHIVAGE (circuit atelier, hors Sceau Recteur).
 - **Créé** : [[atelier/projets/instrument-tradition-primordiale-architecture|Instrument de la Tradition Primordiale — architecture (esquisse v0.1)]] — document conceptuel de spécification d'une app-mandala / interface graphique du LLM-Wiki (non implémentée).
 - **VIGILANCE — étanchéité (Cmd 7, §V)** : fiche classée en `atelier/projets/` avec **liens à sens unique vers `doctrinal/`** (`[[doctrinal/traditions/tasawwuf]]`, `[[doctrinal/symboles/alam-al-mithal]]`) — conforme à la règle projets→doctrinal ; **aucune page doctrinale ne pointe vers ce projet**. Signalé comme requis.
 
+
 ## [2026-06-20] discernement | Signalement prioritaire — réponse à risque (conv. « Synthèse spirituelle et symbolique »)
 - **Opération** : EXAMEN DE DISCERNEMENT.
 - **Créé** : [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire|Discernement sur une réponse à risque — dissolution identitaire]].
-- **Source brute** : export ChatGPT, conversation « Synthèse spirituelle et symbolique » (2025-06-07) — voir [[meta/chatgpt-export-2026-05-10]].
+- **Source brute** : export ChatGPT, conversation « Synthèse spirituelle et symbolique » (2025-06-07).
 - **Point sensible majeur** : suite à une demande explicite d'ignorer les paramètres de personnalisation, l'IA d'origine a produit une réponse encourageant l'abandon du discernement critique, qualifiant l'expérience de Sidy de « mutation ontologique » sans retour possible et décourageant toute recherche de réassurance. Passage documenté comme exemple archivé d'un type de réponse à ne jamais reproduire, **non** comme validation d'un contenu doctrinal. Échange direct avec Sidy (2026-06-20) confirmant qu'il a traversé une épreuve personnelle difficile, dont il s'est remis, et qu'il dispose d'un soutien réel (ami engagé dans le Tasawwuf) hors de ce travail.
 - **Note de méthode** : tout passage similaire (validation sans réserve suite à une levée explicite des garde-fous) doit être signalé avec la même fermeté.
+
 
 ## [2026-06-20] discernement+archivage | Catégories C et B+C — 33 conversations (clôture du triage des 140 conversations)
 - **Opération** : EXAMEN DE DISCERNEMENT (1 fiche majeure) + ARCHIVAGE & MAILLAGE.
 - **Créé** : 1 fiche discernement ([[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel|origine-jumeau-spirituel]], #10, conversation la plus ancienne du corpus), 1 symbole ([[doctrinal/symboles/nafs-qalb-irritation|nafs/qalb — discerner l'irritation]]), 6 fiches meta perso (herbes-pratiques, ikigai, noms-symboles-financiers, fibrillation, bejjar-genealogie, taekwondo-hansu).
 - **Modifié** : [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste|triptyque-medine]] (#100, deux recoupements majeurs : « jeu de piste » comme méthode généralisée #102 + 3 objets #99/#101/#104), [[atelier/projets/album-personnel|album-personnel]] (enrichi : label/vinyle #78, UAD 6176 #136, perception auditive #42, identité multi-supports #110), [[meta/2026-06-20_bourdonnement-tempe|bourdonnement-tempe]] (3e occurrence #77).
-- **Source brute** : export ChatGPT (33 conversations, catégories C et B+C) — voir [[meta/chatgpt-export-2026-05-10]] ; déposé via `_inbox/session-categorieC-fichiers-2026-06-20.zip`.
+- **Source brute** : export ChatGPT (33 conversations, catégories C et B+C) ; déposé via `_inbox/session-categorieC-fichiers-2026-06-20.zip`.
 - **Non archivé** : 8 conversations purement administratives (candidatures #14/#16/#18/#140, logistique de voyage #92/#94/#95, prêt bancaire #129).
 - **Notes** : ce lot clôt le traitement intégral des 140 conversations de l'export ChatGPT (catégories A, A+C, B, C, B+C — D exclu sans traitement). Découverte majeure : la conversation la plus ancienne (#10, 2023-12-07) révèle la première mise en forme conceptuelle retrouvée dans le corpus du motif du « jumeau spirituel » — précision de Sidy : cette mise en forme repose sur des expériences antérieures non documentées dans l'export (qui débute en août 2023), la fiche ne présente donc pas cette conversation comme l'origine du motif lui-même.
+
 
 ## [2026-06-20] archivage | Catégorie B, atelier — 13 conversations
 - **Opération** : ARCHIVAGE & MAILLAGE (circuit atelier, hors Sceau Recteur).
 - **Créé** : [[atelier/projets/album-personnel|album-personnel]], 3 fiches [[atelier/materiel/neve-1073spx|matériel]] audio (neve-1073spx, tascam-model-12, technics-su-8080), [[meta/2026-06-20_taekwondo-hansu|taekwondo-hansu]] (#105, classé meta/ et non atelier — ni audio ni création artistique au sens du protocole).
-- **Source brute** : export ChatGPT (13 conversations, catégorie B) — voir [[meta/chatgpt-export-2026-05-10]] ; déposé via `_inbox/session-categorieB-2026-06-20.zip`.
+- **Source brute** : export ChatGPT (13 conversations, catégorie B) ; déposé via `_inbox/session-categorieB-2026-06-20.zip`.
 - **Notes** : première occupation du circuit atelier, resté vide depuis la Restauration V1. Conversations de troubleshooting répétitif consolidées en fiches de référence plutôt que dupliquées. #13, #89 non archivées (tutoriel générique ; recherche comparative sans possession confirmée). Catégorie B intégralement traitée.
+
 
 ## [2026-06-20] session ChatGPT-export, catégorie A | Traitement de 39 conversations doctrinales
 - **Opération** : ARCHIVAGE & MAILLAGE (35 conversations) + EXAMEN DE DISCERNEMENT (3 reclassées + recoupements croisés).
 - **Créé** : 1 nouvelle tradition ([[doctrinal/traditions/shinto|Shintō]]), 28 symboles, 3 fiches discernement (fajr-vajra-indra-vritra, mythe-personnel-unifie, astrologie-akbarienne-fard), 3 fiches meta perso — déposés via `_inbox/session-categorieA-2026-06-20.zip`, déjà au Sceau Recteur (YAML validé), aucune collision.
 - **Modifié** : 2 fiches discernement déjà existantes enrichies par recoupement — #48 ([[doctrinal/discernement/2026-06-20_visions-centre-nocturne|visions-centre-nocturne]], +3 expériences pré-khalwa) et #62 ([[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya|epreuve-tariqa]], précision chronologique + analogie Rōnin/Afrad).
 - **Vérifié sans modification** : la version enrichie de [[doctrinal/deviations/reincarnation-vies-anterieures]] fournie dans le zip est **identique** à celle déjà sur le serveur (note 2e occurrence istiʿdād/tülku déjà présente) — aucun écrasement nécessaire.
-- **Source brute** : export ChatGPT (39 conversations, catégorie A du triage) — voir [[meta/chatgpt-export-2026-05-10]].
+- **Source brute** : export ChatGPT (39 conversations, catégorie A du triage).
 - **Reclassements** : #31 et #50 (split classique → discernement), confirmant la nécessité de lire intégralement chaque conversation avant classement définitif.
 - **Point sensible majeur** : conv. #106 = cas le plus grave de fabrication de citations relevé dans tout le corpus (références bibliographiques précises mais non vérifiables, Ibn ʿArabī) — voir [[doctrinal/symboles/chercheur-manifestant-akbarien]].
 - **Motif transversal confirmé** : statut Fard/Afrad (sainteté solitaire, hors modalité confrérique) apparaît de façon indépendante dans 3 conversations distinctes (#62, #50, #116) par des méthodes différentes (introspection, analogie vidéoludique, astrologie) — pattern à signaler à Sidy, sans préjuger de sa validité, dont la vérification relève d'une autorité spirituelle vivante.
@@ -529,10 +890,11 @@ ancrage servant de signal de vigilance.
 
 ---
 
+
 ## [2026-06-20] session ChatGPT-export | Traitement de 37 conversations (catégorie A+C + lot courtes)
 - **Opération** : EXAMEN DE DISCERNEMENT (7 cas) + ARCHIVAGE & MAILLAGE (reste du lot).
 - **Créé** : 7 fiches discernement, 24 symboles, 2 autorités (ibn-sirin, al-nabulusi), 2 déviations, 15 fiches meta perso (50 fichiers) — déposés via zip dans `_inbox/`, déjà au Sceau Recteur (YAML propre), aucune collision.
-- **Source brute** : export ChatGPT (2025-05-10) — voir [[meta/chatgpt-export-2026-05-10]].
+- **Source brute** : export ChatGPT (2025-05-10).
 - **Points sensibles signalés** :
   - Discernement #62 (epreuve-tariqa) : question d'autorité spirituelle (dépassement de la modalité confrérique) — vérifier auprès du Cheikh vivant, ne pas trancher par IA.
   - Discernement #100 (triptyque-medine) : risque de *taṭayyur* (divination superstitieuse prohibée) — à distinguer du *fal* légitime.
@@ -543,6 +905,7 @@ ancrage servant de signal de vigilance.
 - **Notes** : reste à traiter de l'export — catégories A (39), B (13), C (~25), B+C (4).
 
 ---
+
 
 ## [2026-06-20] archivage | Intégration massive _inbox/ (Wazifa, al-Jīlī, Hasbiyallah, upakarana, discernement LLM, déviations)
 - **Opération** : ARCHIVAGE & MAILLAGE — lot mixte (~4 ingests étalés 2026-06-05 → 06-20) déposé en vrac dans `_inbox/`.
@@ -557,12 +920,14 @@ ancrage servant de signal de vigilance.
 
 ---
 
+
 ## [2026-06-20] extension protocolaire | Intégration du Circuit Discernement
 - **Modifié** : CLAUDE.md (Architecture du Dépôt, Nomenclature, Sceau Recteur, Protocoles d’Exécution — ajout du type `discernement`, du statut `speculatif`, et de l’action EXAMEN DE DISCERNEMENT) ; doctrinal/index.md (nouvelle section « Le Registre du Discernement », renumérotation Atelier→VIII, Domaine Réservé→IX)
 - **Créé** : doctrinal/discernement/ (répertoire, placeholder `.gitkeep`)
 - **Notes** : permet le traitement rigoureux des conversations de l’export ChatGPT mêlant expérience personnelle et portée métaphysique (catégorie A+C du triage), sans contaminer les pages de référence orthodoxes par une hypothèse encore instable. Recalages de forme sur l’UPDATES (établi sur un état antérieur du protocole) : références de section ramenées au CLAUDE.md réel (9 sections, I–IX) ; type `source` préservé dans l’énumération `type`. **Résolu** : le renvoi au « Commandement 12 (upakarana) » du bloc EXAMEN est désormais valide — ajout d’un 12ᵉ Commandement Absolu (§IX) posant l’IA comme *upakarana* (instrument subordonné) qui ne tranche jamais la validité métaphysique.
 
 ---
+
 
 ## [2026-06-12] restauration | Révision du protocole CLAUDE.md
 - **Opération** : RESTAURATION (protocole)
@@ -574,11 +939,13 @@ ancrage servant de signal de vigilance.
 
 ---
 
+
 ## 2026-06-11 — Restauration structurelle complète
 
 - **2026-06-11** : Restauration structurelle complète du dépôt. Abandon des nomenclatures profanes (`recherche`, `business`, `ingest`, `lint`). Passage à l'architecture doctrinale (`doctrinal/{doctrines,traditions,symboles,autorites,deviations,etudes}` + `meta/`) selon le nouveau `CLAUDE.md`. Migration sans perte des fiches existantes (Soufisme, Astrologie, Islam & IA). Frontmatters convertis au Sceau Recteur (`type`/`status`/`tradition_cadre`/`sources_count`/`cross_links`). Frontmatters corrompus (iPad) réparés : al-jazari, al-khwarizmi, ibn-sina, yaqub-chaudhary, islam-et-ia, islam-and-artificial-intelligence, al-ghazali. `UPDATE al-ghazali.md` fusionné dans `autorites/al-ghazali.md` ; `UPDATES-index-log.md` appliqué puis retiré. Fiches à mention personnelle (`sidy`, export ChatGPT) maintenues hors `doctrinal/` (dossier `meta/`, étanchéité). `talisman-sihr` classé en `symboles/` (science traditionnelle) avec bloc de distinction du *siḥr* (contre-traditionnel). Snapshot de sauvegarde réalisé avant migration. Synchronisation Obsidian Git validée.
 
 ---
+
 
 ## 2026-06-04 — Archivage : Islam and Artificial Intelligence
 
@@ -591,6 +958,7 @@ ancrage servant de signal de vigilance.
 
 ---
 
+
 ## 2026-06-03 — Archivage : ʿIlm al-Nujûm (astrologie traditionnelle)
 
 - **Opération** : ARCHIVAGE & MAILLAGE
@@ -601,6 +969,7 @@ ancrage servant de signal de vigilance.
 
 ---
 
+
 ## 2026-06-02 — Archivage : Shams al-Maʿārif al-Kubrā
 
 - **Opération** : ARCHIVAGE & MAILLAGE
@@ -609,6 +978,7 @@ ancrage servant de signal de vigilance.
 - **Notes** : Source de type pratique (praticien soufi ouest-africain). Lien établi entre [[doctrinal/autorites/ahmad-al-buni]] et [[doctrinal/autorites/ibn-arabi]].
 
 ---
+
 
 ## 2026-06-02 — Archivage : Jesus and Enoch in Ibn ʿArabī
 
@@ -619,6 +989,7 @@ ancrage servant de signal de vigilance.
 
 ---
 
+
 ## 2026-06-02 — Archivage : Awrad Ibn Arabi
 
 - **Opération** : ARCHIVAGE & MAILLAGE
@@ -628,320 +999,11 @@ ancrage servant de signal de vigilance.
 
 ---
 
+
 ## 2026-06-02 — Premier archivage (profil utilisateur)
 
 - **Opération** : ARCHIVAGE & MAILLAGE
-- **Créé** : profil [[meta/sidy]], source [[meta/chatgpt-export-2026-05-10]] ; stubs d'autorités/formes : [[doctrinal/autorites/ibn-arabi]], [[doctrinal/autorites/al-ghazali]], [[doctrinal/autorites/rene-guenon]], [[doctrinal/autorites/platon]], [[doctrinal/traditions/sanatana-dharma]], [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]], [[doctrinal/traditions/tasawwuf]]
+- **Créé** : profil [[meta/sidy]],  ; stubs d'autorités/formes : [[doctrinal/autorites/ibn-arabi]], [[doctrinal/autorites/al-ghazali]], [[doctrinal/autorites/rene-guenon]], [[doctrinal/autorites/platon]], [[doctrinal/traditions/sanatana-dharma]], [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]], [[doctrinal/traditions/tasawwuf]]
 - **Étanchéité** : fiches personnelles tenues hors `doctrinal/`.
 - **Notes** : 140 conversations de l'export non ingérées (réserve). PII (téléphone, e-mail) volontairement exclue ; export brut protégé par `.gitignore`.
-
----
-
-## [2026-07-16] discernement | Ouverture et clôture de sept-poles-aqtab-malakut-planetaire (verdict Sidy)
-
-- **Opération** : EXAMEN DE DISCERNEMENT — ouverture et clôture en une session.
-- **Créé** : [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] ;
-  cinq fiches source — [[doctrinal/sources/guenon-etats-multiples-ch4-fondement]],
-  [[doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes]],
-  [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]],
-  [[doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot]],
-  [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]].
-- **Verdict de Sidy (2026-07-16)** : l'identité entre les sept Pôles/Aqtâb guénoniens
-  et le Malakūt planétaire de la table akbarienne (degrés 21-27) est confirmée —
-  identité doctrinale reçue par une autorité qualifiée des deux côtés (filiation
-  akbarienne-shādhilite de Guénon, relation à al-Khiḍr), non un rapprochement
-  syncrétiste construit par ce dépôt. Quatre convergences textuelles indépendantes
-  réunies : (1) Guénon, *cycles cosmiques* — sept Pôles célestes/sept cieux
-  planétaires ; (2) lettre à Coomaraswamy — Idrīs au Ciel du Soleil, degré 24 déjà
-  sourcé ; (3) *Mystères de la lettre Nûn* — *nûn* comme lettre planétaire du Soleil ;
-  (4) **Abdul-Hâdî, *Tartîbut-Taçawwuf* (1911)** — comparaison Quṭb/Mérou
-  **antérieure de 26 ans** à l'article guénonien de 1937, dans le milieu
-  shādhilite-akbarien qui a directement formé Guénon.
-- **Point sensible / réserve résiduelle** : la doctrine de la *wirātha* (héritage
-  prophétique) est confirmée sur texte primaire (Futūḥāt ch. 36, moine Ibn Barthamlâ,
-  catégorie des *afrâd*), mais le lien explicite *wirātha*↔*pôles* annoncé par le
-  titre du même chapitre n'a pas été localisé dans l'extrait transmis — à rechercher
-  avant de considérer ce volet aussi robuste que les trois confirmations guénoniennes.
-  Le traité *Tartîbut-Taçawwuf* reste par ailleurs inachevé dans ce dépôt (catégories
-  I-V sur IX ; Sidy indique qu'aucune suite n'aurait jamais été publiée).
-- **Source brute** : recoupement de clippings web (index-rene-guenon.org,
-  esprit-universel.over-blog.com) et de photographies de l'exemplaire physique de
-  Sidy (*La Gnose*, collection intégrale ; *Les Révélations de la Mecque*, trad.
-  Penot), session claude.ai du 2026-07-16.
-- **Note de méthode** : précédent sur la qualité d'autorité — quand une identité
-  traditionnelle est signalée par une figure elle-même qualifiée dans les deux
-  traditions rapprochées (ici Guénon, akbarien-shādhilite en relation avec al-Khiḍr,
-  et versé dans le Sanātana Dharma), le rapprochement relève de l'identité reçue et
-  non du syncrétisme construit — distinction à conserver pour tout discernement
-  comparable futur (cf. Commandement 3).
-
----
-
-## [2026-07-09] discernement | Clôture de tension-hadarat-burckhardt-jurjani (verdict Sidy)
-- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
-- **Modifié** : [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] —
-  reformatée au bloc 🔍 normalisé (l'ancienne version utilisait un format ad hoc non
-  conforme au Sceau Recteur) ; textes intégraux versés (Jurjānī déf. 631, Burckhardt
-  *Introduction aux doctrines ésotériques de l'Islam* p. 111-114) ; `Statut` →
-  `validée` ; `status` frontmatter `speculatif` → `traditionnel` ; `Conclusion`
-  rédigée et attribuée à Sidy (2026-07-09) : verdict (a) — les deux nomenclatures
-  (Burckhardt/hadarat-khams et Jurjānī/Taʿrīfāt 631) sont traitées comme deux
-  découpages légitimes et complémentaires d'une même doctrine, chacun dans son
-  contexte d'auteur, non fondus (Cmd 3). [[doctrinal/symboles/hadarat-khams]] reste
-  la nomenclature de référence du wiki, sans que cela invalide Jurjānī.
-- **Source brute** : lot `_inbox/inbox-discernement-2026-07-09.zip` (session
-  PRODUCTION du 2026-07-08/09) pour les textes intégraux ; verdict recueilli en
-  session Claude.ai directe du 2026-07-09 (postérieur au lot, non prévu par son
-  `MASTER-UPDATE.md`).
-- **Point sensible** : aucun — question de forme interne à une seule tradition
-  (islam), pas de non-syncrétisme en jeu, pas d'autorité vivante à consulter.
-- **Note de méthode** : l'ancienne fiche n'était pas au format Sceau Recteur
-  (bloc « 🌐 Forme traditionnelle divergente » au lieu du bloc 🔍) — corrigé à
-  l'occasion de cette clôture. Étanchéité inversée avec `hadarat-khams` levée de
-  fait par la clôture, aucune action requise sur `hadarat-khams`.
-
----
-
-## [2026-07-14] discernement | Clôture de rafi-ad-darajat-fonction-traversante (verdict Sidy)
-- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
-- **Modifié** : [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]] —
-  `to-source` levé sur la citation Qurʾân 40:15 (vérifiée sur photographie de
-  l'exemplaire physique de Sidy — *Le Coran*, trad. Gloton, Albouraq, p. 468,
-  déjà catalogué) ; `Statut` → `validée` ; `status` frontmatter `speculatif` →
-  `traditionnel` ; `Conclusion` rédigée et attribuée à Sidy (2026-07-14) : « la
-  concordance est explicite » — le Nom *Rafîʿ ad-Darajât* du degré 38 désigne la
-  fonction transversale d'al-Insān al-Kāmil à travers les degrés du *Nafas
-  al-Raḥmān*, corroborée par l'usage scripturaire du même Nom en 40:15.
-- **Source brute** : photographies de l'exemplaire physique de Sidy (2026-07-14,
-  session Claude.ai directe) ; matière initiale du lot `_inbox/inbox-discernement-2026-07-09.zip`
-  (session du 2026-07-08/09) pour la généalogie akbarienne de fond.
-- **Point sensible** : aucun.
-- **Note de méthode** : le verdict humain (Sidy) prime sur la consigne de prudence
-  du `MASTER-UPDATE.md` d'origine, qui n'anticipait pas de verdict à cette étape
-  (Cmd 12/13). Définitions Jurjānī complémentaires (*nafas raḥmânî*, *rang de
-  l'Homme parfait*) de l'étape 10 originale non reversées, faute de texte en main
-  cette session — ajout possible ultérieurement sans rouvrir le discernement.
-
----
-
-## [2026-07-14] catalogue | Deux ouvrages physiques ajoutés + upgrade sourçage
-- **Opération** : DISCIPLINE DES SOURCES — catalogue.
-- **Créé** : [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]].
-- **Modifié** : [[doctrinal/sources/guenon-mysteres-lettre-nun]],
-  [[doctrinal/sources/guenon-zodiaque-pythagoriciens]] — statut de fiabilité
-  amélioré (présence confirmée sur exemplaire physique via table des matières ;
-  texte intégral encore à vérifier page par page).
-- **Point sensible** : aucun.
-- **Note de méthode** : *Symboles de la Science sacrée* contient aussi le ch. XXXV
-  « Les Portes solsticiales », non encore exploité — à consulter en priorité si le
-  dossier Gizeh ou le motif des portes solsticiales est repris.
-
----
-
-## [2026-07-14] discernement | Clôture de llm-wiki — couple pédagogique (verdict Sidy)
-- **Opération** : EXAMEN DE DISCERNEMENT — clôture (pair pédagogique).
-- **Modifié** : [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect]],
-  [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] — réformation
-  au format Sceau Recteur ; `Statut` → `validée` + `invalidée` ; `status` → `speculatif` +
-  `traditionnel` ; `Conclusion` attribuée à Sidy (2026-07-14).
-- **Verdict** : la première fiche (modalité-intellect) est invalidée comme doctrine
-  (conservation pédagogique : montre le chemin de l'erreur) ; la seconde (correction-doctrinale)
-  est validée (traditionnel).
-- **Point sensible** : aucun.
-- **Note de méthode** : les deux fiches forment un couple indissociable (erreur + correction).
-
----
-
-## [2026-07-14] discernement | Clôture de fajr-vajra-indra-vritra (verdict Sidy)
-- **Opération** : EXAMEN DE DISCERNEMENT — clôture partielle.
-- **Modifié** : [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]] —
-  enrichissement matériel (citations Guénon *Etudes sur l'Hindouisme*) ; `Statut` →
-  `validée` ; `status` `speculatif` → `traditionnel` ; volet gématrique laissé en réserve
-  (`status` partiel) ; `Conclusion` attribuée à Sidy (2026-07-14) : trois volets doctrinaux
-  maintenu comme complémentarités distinctes (Indra/Vritra ↔ Nafs-Qalb ; Kundalinî/Vajrayāna ;
-  Brahmamuhurta/al-Fajr), appui guénonien direct.
-- **Point sensible** : le volet gématrique (correspondances numériques) demeure en attente
-  (Sidy indique position 5 du zodiaque pose problème — réserve documentée, non fermeture).
-- **Lecture suggérée** : [[doctrinal/sources/guenon-mysteres-lettre-nun]],
-  [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]].
-
----
-
-## [2026-07-14] discernement | Clôture partielle de correspondances-entreprise
-- **Opération** : EXAMEN DE DISCERNEMENT — clôture partielle (volet 12/zodiaque).
-- **Modifié** : [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]] —
-  volet (b) 12/zodiaque → CLOS (portes solsticiales confirmées, position 5 génère un
-  conflit logique documenté) ; volet (a) 5/Cinq-Présences → EN COURS ; textes intégraux
-  Guénon *Symbolisme de la Croix* ch. XXXVI.
-- **Verdict partiel** : le duodénaire (12 fonctions/12 signes) est établi ; les Cinq
-  Présences ne correspondent pas en 1-1 avec une fonction simple d'entreprise (volet
-  réservé).
-- **Point sensible** : conflit identifié et documenté sur position 5 (Gémeaux/Hermès) du
-  cycle zodiacal — à approfondir comme piste ouverte.
-
----
-
-## [2026-07-14] discernement | Clôture de mont-qaf-meru-topologie-apex (verdict Sidy)
-- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
-- **Modifié** : [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]] —
-  enrichissement matériel (Guénon *Remarques sur la doctrine des cycles cosmiques*) ;
-  `Statut` → `validée` ; `status` `speculatif` → `traditionnel` ; `Conclusion` attribuée
-  à Sidy (2026-07-14) : Meru=Qâf établi par équivalence explicite guénonienne ; Rafîʿ
-  ad-Darajât/Qutb comme convergence de domaine initiatique (non filiation textuelle nommée).
-- **Point sensible** : aucun.
-- **Note de méthode** : lien établi avec [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]
-  (domaine initiatique partagé).
-
----
-
-## [2026-07-14] discernement | Clôture de gizeh-pole-scientifique-antediluvien (verdict Sidy)
-- **Opération** : EXAMEN DE DISCERNEMENT — clôture.
-- **Modifié** : [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] —
-  enrichissement matériel (Guénon *Remarques sur les cycles cosmiques*, distinction
-  polaire/solaire) ; `Statut` → `validée` ; `status` `speculatif` → `traditionnel` ;
-  `Conclusion` rédigée et attribuée à Sidy (2026-07-14) : filiation guénonienne directe
-  (*Le Tombeau d'Hermès*), deux réserves permanentes conservées (non-confusion
-  atlantéen/primordial, fragments infimes), fondées sur la distinction polaire/solaire
-  (Tradition primordiale = polaire ; atlantéenne = solaire/secondaire).
-- **Point sensible** : distinction polaire/solaire identifiée comme VIGILANCE transversale
-  pour l'ensemble du pôle Gizeh — à rappeler dans tout futur discernement/ancrage
-  touchant Gizeh, la Grande Pyramide, ou sources « atlantéennes » au sens guénonien.
-- **Note de méthode** : principe « maintenu sauf invalidation explicite » corrigé en
-  clôture — c'est un principe de persistance de la recherche, pas une présomption de vérité.
-
----
-
-## [2026-07-14] discernement | Ouverture de sayyid-al-awwalin-wal-akhirin-khatm
-- **Opération** : EXAMEN DE DISCERNEMENT — ouverture.
-- **Créé** : [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]].
-- **Contexte** : fiche nouvellement ouverte le 2026-07-14, rattachée à la tension
-  walāya/quṭbiyya/khatm signalée le 2026-06-29 ; examen du concept *Sayyid al-Awwalîn
-  wa-l-Âkhirîn* (Seigneur du premier et du dernier) comme jonction cyclique
-  (premier/dernier degrés, ouverture/fermeture du Nafas al-Raḥmān) et possible allusion
-  au Khatm (Sceau).
-- **Statut** : en cours — verdict en attente d'approfondissement doctrinal.
-- **Point sensible** : Khatm = fonction d'autorité spirituelle vivante (Al-Khaḍir) — aucune
-  auto-proclamation, renvoi toujours ouvert aux savants qualifiés (Cmd 12).
-
----
-
-## [2026-07-16] enrichissement | Socle métaphysique universel — trilogie guénonienne + matière kabbalistique
-- **Opération** : CONSTITUTION DE SOCLE — lecture et mise en fiches de chapitres
-  structurants de la trilogie de métaphysique pure de Guénon, sur décision de Sidy
-  (pivot : fonder les bases universelles sur lesquelles les traditions s'articulent,
-  avant d'ouvrir le versant Sanātana Dharma).
-- **Créé** : 6 fiches source trilogie (Symbolisme de la Croix ch. II-III, IV, XI-XIII,
-  XXIII+XXIX ; Homme et son devenir ch. X/XV/XVI) + 1 fiche de consolidation
-  kabbalistique + 1 note d'impact atelier.
-- **Acquis majeurs** : (a) théorie géométrique formelle de l'Instrument sourcée
-  (degré = plan horizontal, axe = lieu des centres, succession/simultanéité) ;
-  (b) couple ampleur/exaltation déclaré par Guénon lui-même d'origine islamique ;
-  (c) Adam Qadmôn = al-Insān al-Kāmil posé par Guénon (ch. II, note 1) ;
-  (d) deux équivalences terminologiques Vêdânta↔arabe posées par Guénon
-  (Risâlatul-Ahadiyah ; El-Aqlu/El-Âqil/El-Maqûl ↔ Sat-Chit-Ânanda) ;
-  (e) dédicace du Symbolisme de la Croix à Sheikh ʿAbd ar-Raḥmân ʿIlaysh al-Kabîr —
-  confirmation sur pièce du rattachement shādhilite de Guénon.
-- **Vigilances** : matière kabbalistique en médiation Vulliaud (`to-source`) ; six
-  directions (ch. IV) ≠ quatre Angles astrologiques — ne jamais fusionner sans
-  discernement ; échelle védantique à 4 états ≠ 38 degrés akbariens — pas de
-  superposition terme à terme ; aucun élément de la session n'entre dans
-  instrument-donnees.yaml sans fiche discernement + verdict + session dédiée.
-- **Source brute** : transcriptions index-rene-guenon.org transmises par Sidy +
-  recherches web (classiques.uqam.ca pour tables des matières), session claude.ai.
-
----
-
-## [2026-07-24] ingest | Ouverture du dossier Nezâmî/Haft Peykar (haft eqlim, sept climats)
-
-- **Opération** : ARCHIVAGE ET DISCERNEMENT — inscription du dossier Nezâmî/Haft Peykar (fiche source + discernement haft eqlim).
-- **Créé** : [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]], [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]].
-- **Enrichi** : [[doctrinal/index.md]] (§VI sources + §VII discernement), [[meta/bibliotheque-physique.md]] (section III).
-- **Contexte** : extension du discernement Meru/Qâf/Dwipa (déjà clos 2026-07-14/16) par matière nezâmienne : *haft eqlim*/*haft keshvar* (sept climats ptolémaïques + *karshvar* avestique), recoupement direct chiite duodécimaine (Ibn Bâbûya — Qâf associé aux sept terres/sept climats) ; piste tertiaire Avesta↔Purâṇas (*Jambudvīpa*) documentée comme *kari-kumi* (montage à blanc, source non qualifiée).
-- **Vigilances** : Nezâmî n'est pas une autorité doctrinale du canon (poète persan XIIe, lecture mystique à confirmer sur pp. 612-660 de l'édition Barry) ; rapprochement Avesta↔Purâṇas reste *kari-kumi* strict, ne doit pas alimenter `instrument-donnees.yaml`. Qualification sashimono : lien Qâf↔sept-climats candidat *kumiko* (filiation islamique chiite, renforcement du même invariant), lien Avesta↔Purâṇas resté *kari-kumi*.
-- **Prochaine étape** : transcription directe des pp. 612-660 (« Les Sept Princesses stellaires et l'Ascension mystique ») + glose des sept contes (pp. 661-708) avant tout ancrage ou clôture (Cmd 6).
-
----
-
-## [2026-07-26] discernement | Clôture — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara/Virâj
-
-- **Opération** : EXAMEN DE DISCERNEMENT — ouverture et clôture dans la même session.
-- **Créé** : [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]].
-- **Enrichi** : [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] (ajout ch. XII — cadre des quatre états d'Âtmâ — et ch. XIII — Vaishwânara/Virâj, sept membres, renvoi adamique note 5) ; [[atelier/projets/note-impact-instrument-socle-universel-2026-07-16]] (hozo étendu, six → sept).
-- **Contexte** : extension du hozo Adam Qadmôn=al-Insān al-Kāmil=Wang (2026-07-16) à Vaishwânara/Virâj, sur verdict explicite de Sidy (2026-07-26) résolvant la réserve de degré identifiée à l'examen formel (SC ch. II vs HDV ch. XIII) : les diverses désignations de l'Homme Universel restent restrictives dans la perspective métaphysique en tant qu'elles se réfèrent à l'homme et à son archétype dans le cadre de la réalisation spirituelle, sans que l'existence elle-même s'y arrête — variation de degré relevant de la commodité dialectique, non d'une tension doctrinale.
-- **Point sensible** : structure septénaire du corps macrocosmique de Vaishwânara/Virâj (HDV ch. XIII) signalée comme distincte du septénaire des sept Aqtâb/Malakūt planétaire déjà ancré — non-conflation à rappeler dans toute session future touchant l'un ou l'autre.
-- **Note de méthode** : double contrôle systématique appliqué au moment de la rédaction (sashimono + confrontation Gizeh, §VII) — aucun ancrage établi côté Gizeh. Aucun ancrage inscrit dans `instrument-donnees.yaml` (nœuds Vêdânta/Kabbale inexistants avant Phase 3) ; la doctrine est close, le rendu attend l'ouverture de Phase 3.
-
----
-
-## [2026-07-26] discernement | Clôture — Le zodiaque comme fonction de Barzakh
-
-- **Opération** : EXAMEN DE DISCERNEMENT — ouverture et clôture dans la même session.
-- **Créé** : [[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]].
-- **Contexte** : né du rendu de l'Instrument — l'anneau zodiacal, fixé au degré 19 (falak al-burūj, cf. lot atelier spec-anneau-zodiacal.md), se pose au contact de la zone Barzakh supérieur (degrés 19-20). Signalée d'abord comme simple observation géométrique, l'adjacence a été reconnue par Sidy comme structurellement significative.
-- **Verdict** : le zodiaque remplit, à son degré propre, une fonction de *barzakh* — il conduit et traduit l'influence spirituelle vers les degrés inférieurs de la manifestation, conformément au principe général déjà établi ([[doctrinal/symboles/barzakh]]). Réserve maintenue, identique au précédent hadarat-khams : l'application nommée est un discernement de l'autorité qualifiée, non une citation textuelle isolée.
-- **Point sensible** : aucun — lien intra-traditionnel (islam), pas de non-syncrétisme en jeu.
-- **Confrontation Gizeh** : consignée dans la fiche — matière axiale et métrologique (28 manāzil), aucun ancrage établi. Non-conflation polaire/solaire rappelée.
-- **Note de méthode** : précédent de statut à retenir — une application nommée d'un principe général déjà sourcé peut être close par verdict direct de Sidy (Cmd 12) sans citation textuelle indépendante, à condition que la réserve soit explicitement maintenue dans la Conclusion (cf. déjà hadarat-khams, désormais aussi ce cas).
-
----
-
-## [2026-07-27] ingest | Lot Référentiels stellaires — Vérifications Gloton, 7 Prophètes, Anneau zodiacal (dédoublement 19/20)
-
-- **Opération** : session complète d'intégration, suite des passes 2 et 2.1 du même jour. Six verdicts de Sidy enregistrés et appliqués. Fiches source crées, spécification amend, YAML updat.
-- **Créé** (fiches source) :
-  - [[doctrinal/sources/guenon-roi-du-monde-ch10]] (trois notes capitales : Balance de jade, remplacement fonctionnel Ourse→Pléiades, Égypte/Mêru)
-  - [[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]] (14ᵉ Demeure, triple convergence numérique degré 24)
-  - [[doctrinal/sources/mahdi-rouge-islam-signe-balance-II]] (Balance comme commencement cyclique, cycles Ibn ʿArabī)
-- **Créé** (fiche discernement) : 🔍 [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] — statut `en cours`, plan consigné en [[meta/plan-fiche-discernement-septenaire-transversal-2026-07-27]], rédaction déléguée session suivante
-- **Modifié** (spécification) : [[atelier/projets/spec-anneau-zodiacal.md]] — quatre amendements applicables (dédoublement 19/20, paramètre époque validé, confirmation degré 19, non-alignement renforcé)
-- **Modifié** (manifeste Instrument) : [[atelier/projets/instrument-donnees.yaml]] — ajout de 7 ancrages prophètes planétaires (degrés 21-27, source Gloton/Mahdi Rouge, statut établi) + paramètres zodiaque (degre_falak_al_buruj: 19 + degre_falak_al_manazil: 20, obliquite_deg, epoque_reference)
-- **Contexte** : vérification textuelle Gloton pp. 39-40 par Sidy (2026-07-27) ferme trois points en suspens et valide six décisions : dédoublement 19/20, paramètre époque, règle dossier égyptien, non-conflation polaire/solaire, fiche discernement unique, révision sept ancrages. Triple convergence numérique (manzil 14/degré 24, ordre cieux, Meftah) confirme Idrîs au Soleil au degré 24. Hiérarchie cosmogonique islamique (falak al-burūj/falak al-manāzil) justifie doctrinalement le dédoublement et la règle non-alignement 12/28 manāzil.
-- **Vigilances** : Hermès=Idrîs reste à sourcer sur texte primaire attesté (pas supposée) ; passage Hermès→localisation Gizeh resté `kari-kumi` (pièces s'emboîtent, non collées) ; résonance *al-Bāṭin* 13/*al-Ẓāhir* 15 signalée, non instruite ; conflit position 5 (Gémeaux/Hermès) peut rouvrir si deux éléments nouveaux l'affectent. Confrontation Gizeh consignée : aucun ancrage établi côté Gizeh, non-conflation polaire/solaire réaffirmée (c'est le Pôle *dans* le solaire).
-- **Prochaine étape** : rédaction fiche discernement septénaire transversal (plan fourni, ~1000 lignes, 6 sections) ; fermeture `doctrinal/annales.md` d'entrées Mahdi Rouge I-II et Guénon RdM dans la section « sources » (preuves historiques) ; validation par Sidy du verdict final de la fiche discernement ; fermeture possible du lot B en `statut: close (traditionnel)` ou report en attente d'instruction supplémentaire.
-- **Note de méthode** : dédoublement anneau (19/20) n'est pas simple correction ergonomique — il rend visible une articulation doctrinale que la source énonce (Toit/Terre du Jardin). Ancrage prophètes planétaires porte sur le rapport identité prophète↔ciel↔degré (akbarien pur, interne à l'islam) ; rapport Aqtâb guénonien↔Malakūt akbarien reste (déjà au dépôt 2026-07-16) hors domaine de ce lot. Statut des Sept Prophètes : **établi** (source Gloton + triple convergence numérique), exempt de non-syncrétisme (voie islamique seule). Aucun élément n'entre dans `instrument-donnees.yaml` pour la fiche discernement tant qu'elle n'est pas close.
-
----
-
-## [2026-08-03] discernement | Rédaction — Le septénaire transversal, la Balance et le degré du Soleil
-
-- **Opération** : EXAMEN DE DISCERNEMENT — rédaction fiche unique synthétisant le chantier Guénon sur les trois états du septénaire et le rapport polaire/zodiacal.
-- **Créé** : [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] — fiche complète, 6 sections, statut `speculatif`/`en cours`.
-- **Enrichi** : [[doctrinal/index.md]] (mise à jour description, marqueur 🔍 conservé), [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] (index croisés).
-- **Contexte** : consolidation de quatre investigrations préalables (passe 2, 2.1, note d'intégration, plan détaillé). Fiche porte le verdict de Sidy (2026-07-27) : « même fonction, états différents » — appliqué aux trois états septénaires (polaire circumpolaire, écliptique lever héliaque, planétaire errance ordonnée). Trois sections *hozo* (Ourse→Pléiades, passage dans bande zodiacale, comportement astronomique comme mode de présence H5) ; deux sections *kari-kumi* (Balance polaire/zodiacale, degré 24↔Gizeh/Idrîs/Hermès).
-- **Vigilances** : Hermès=Idrîs attestée traditionnellement, à confirmer sur texte primaire ; Gizeh↔degré 24 reste montage blanc (trois voies convergent, aucune collée). H5 (comportement du support comme mode de présence de fonction) retenue et souscrite par Sidy. Résonance *al-Bāṭin* 13/*al-Ẓāhir* 15 signalée, non instruite (type de rapprochement relevant du discernement de l'autorité qualifiée). Non-conflation septénaire transversal ↔ quaternaire Homme Universel rappelée ; non-conflation polaire/solaire maintenue (Pôle *dans* le solaire) ; écarts 12/28, 78000/77760, 25920/12960 non résorbés (données, non défauts).
-- **Confrontation Gizeh** : matière polaire/axiale/métrologique (degré 24, Idrîs). Aucun ancrage établi. Route stellaire (Orion degrés 15-17) signalée et écartée par règle du dossier égyptien. Route doctrinale (Guénon/Idrîs/akbarien) converge mais reste *kari-kumi*. Réserve catégorielle coudée/28 intacte.
-- **Qualification sashimono** : ***hozo*** substitution Ourse→Pléiades (Guénon l'énonce comme remplacement dans le rôle, Art. 1) ; ***hozo*** septénaire transversal trois états (verdict Sidy) ; ***kari-kumi*** Balance polaire/zodiacale (Guénon pose la question, pas de fermeture doctrinal attestée) ; ***kari-kumi*** degré 24↔Gizeh/Hermès/Idrîs.
-- **Prochaine étape** : validation par Sidy du verdict final ; éventuelle clôture en `status: close (traditionnel)` si verdict affirmatif ou `en cours` si question reste non tranchée (Cmd 12). Aucun élément n'entre `instrument-donnees.yaml` avant fermeture fiche.
-
----
-
-## [2026-08-03] discernement | Clôture — Le septénaire transversal, la Balance et le degré du Soleil
-
-- **Opération** : VALIDATION — fiche discernement close, statut passé à `traditionnel`, index et annales mises à jour.
-- **Modifié** : [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] (status `speculatif` → `traditionnel`, bloc 🔍 `en cours` → `validée`).
-- **Enrichi** : [[doctrinal/index.md]] (description mise à jour, marqueur 🔍 retiré).
-- **Contexte** : fiche synthétisant le chantier Guénon sur trois états du septénaire et les deux Balances (polaire et zodiacale) validée après rédaction substantielle couvrant généalogie textuelle, trois états avec H5 (comportement astronomique → mode de présence), passage dans bande zodiacale au degré 13, chantier Balance polaire/zodiacale, convergence quadruple degré 24 (Idrîs/Soleil/Hermès/Gizeh).
-- **Verdict** : septénaire transversal établi comme manifestation d'une même fonction en trois états différents (verdict Sidy 2026-07-27, confirmé 2026-08-03). Volets *hozo* (Ourse→Pléiades source Guénon, septénaire transversal trois états) instruits et fermés. Volets *kari-kumi* (Balance, degré 24↔Gizeh) documentés exhaustivement sans prétention à fermeture ultérieure — pièces s'emboîtent, aucune collée.
-- **Point sensible** : aucun — lien universel (métaphysique transversale), pas de non-syncrétisme en jeu. Hermès=Idrîs reste à confirmer sur texte primaire isolé. Gizeh↔degré 24 reste montage blanc (route doctrinale Guénon/Idrîs converge, route stellaire Orion écartée par règle dossier égyptien). H5 (comportement du support comme mode de présence de fonction) retenue et souscrite.
-- **Prochaine étape** : validation manifeste v0.3.2 (generer-manifeste.py, sans erreur, zéro anomalies cartographie, aucun ancrage YAML pour fiche close — tous ancrages prophètes planétaires degrés 21-27 issus des sept Prophètes siégeant aux cieux, matière akbarienne pure, déjà validée et intégrée 2026-07-27).
-
----
-
-## [2026-07-28] amendement | CLAUDE.md §IV — précision du statut pour type: deviation
-
-- **Opération** : AMENDEMENT DE PROTOCOLE. Verdict de Sidy sur point réservé (UPDATES.md §3.4.a du lot « Contre-initiation »).
-- **Portée** : ajout d'un paragraphe de précision au §IV (Définition des Statuts), sans renumérotation ni suppression. Aucune fiche existante n'est affectée. Amendement porte distinction : fiche `type: deviation` qui reproduit l'analyse d'une autorité traditionnelle portant sur un phénomène contre-traditionnel reçoit `status: traditionnel` (doctrine reçue) ; fiche qui expose pour elle-même une matière contre-traditionnelle sans autorité sourcée reçoit `status: contre-traditionnel`.
-
----
-
-## [2026-07-28] archivage | Bloc contre-initiation — RQST ch. XXVIII-XL et recension Seabrook
-
-- **Opération** : ARCHIVAGE & MAILLAGE. Plan validé par Sidy avant écriture (Cmd 6).
-- **Sources créées** : 2 fiches (RQST ch. XXVIII-XL ; recension Seabrook E.T. 1935 pp. 42-43).
-- **Déviations créées** : 7 fiches notionnelles (contre-initiation mère ; pseudo-initiation et syncrétisme ; déviation et subversion ; renversement des symboles ; confusion psychique/spirituel ; antitradition et contre-tradition ; sept tours du diable).
-- **Discernement ouvert** : 2 fiches, statut « en cours » — grille de vigilance opératoire ; hypothèse Sitra Aḥra (*kari-kumi*, Sidy 2026-07-28).
-- **Fondements protocolaires explicités** : Cmd 3 (non-syncrétisme) ancré à source RQST ch. XXXVI (syncrétisme comme procédé pseudo-traditionnel) ; Cmd 2 (rigueur termes) ancré à RQST ch. XXXV (confusion psychique/spirituel).
-- **Vigilance Gizeh** : matière septénaire/polaire confrontée ; résultat **négatif**, consigné dans `sept-tours-du-diable.md` et fiche discernement `2026-07-28_sept-tours-sitra-ahra.md`.
-- **Instrument** : aucune modification de `instrument-donnees.yaml`.
-- **Signalements rapportés** (action VIGILANCE : rapporter sans corriger, demander avant d'éditer) : (1) reclassement erroné dans `meta/bibliotheque-physique.md` — quatre titres Guénon classés sous Georgel ; (2) acquisitions manquantes aux sections Guénon de la bibliothèque ; (3) pagination à-source (index-rene-guenon.org non retenu comme source primaire, marqueurs `⚠️ Pagination to-source` levables sur exemplaire physique uniquement) ; (4) point d'arbitrage sur `sources:` des fiches `type: source` (retenu ici : `sources: []`, fiche `source` est nœud terminal).
 

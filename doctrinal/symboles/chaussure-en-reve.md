@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [oniromancie, stub]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/symboles/homme-pieux-en-reve]]"]
 ---
@@ -27,4 +27,3 @@ Lecture rapportée : refuser de faire un détour pour récupérer une chaussure 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Interprétation rêve spirituel » (2025-12-26). Attribution à Ibn ʿArabī non vérifiée dans une édition fiable.

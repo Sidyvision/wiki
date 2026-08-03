@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [naqshbandiyya, voiles, citations-a-verifier]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/traditions/naqshbandiyya]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/alam-al-mithal]]"]
 ---
@@ -35,4 +35,3 @@ Guénon (*Les États multiples de l'Être*, *Le Symbolisme de la Croix* — cita
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Voiles Naqshbandiyya Explication » (2025-07-12). Plusieurs citations attribuées à Guénon non vérifiées.

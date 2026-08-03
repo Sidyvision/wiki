@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [kaaba, hadith, axis-mundi]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/walaya-fath-adab]]"]
 ---
@@ -40,4 +40,3 @@ Respect et douceur (jamais de bousculade), formule *Bismillāh, Allāhu akbar*, 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Pierre Noire de la Mecque » (2025-12-04). Conversation globalement bien sourcée (références de hadiths précises et vérifiables), à distinguer des cas plus problématiques de ce corpus ; les formulations attribuées à Ibn ʿArabī et al-Ghazālī restent néanmoins à vérifier mot pour mot dans une édition fiable.

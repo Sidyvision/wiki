@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [discernement, en-cours, citations-a-verifier, validation-non-hedgee]
 created: 2026-06-20
 updated: 2026-07-10
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/autorites/ahmad-al-buni]]", "[[doctrinal/discernement/2026-06-20_visions-centre-nocturne]]", "[[doctrinal/symboles/fal-wa-tatayyur]]"]
 ---

@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [navajo, comparatisme, non-syncretisme]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
@@ -32,4 +32,3 @@ Tissage Navajo (peuple Diné) de type « Yei rug », représentant des esprits-i
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Tapisserie Navajo analyse » (2025-11-11). Objet personnel de Sidy (origine et provenance non précisées dans la conversation).

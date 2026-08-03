@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [voile, comparatisme, rite-de-passage, citations-a-verifier]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
@@ -36,4 +36,3 @@ Le visage (*wajh*) comme manifestation de l'âme ; le voile comme expression du 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Signification de la voilette » (2025-10-22).

@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [oniromancie, comparatisme, stub]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
@@ -27,4 +27,3 @@ Lecture rapportée dans la conversation source : être porté par un éléphant 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Interprétation rêve éléphant » (2025-11-01). Lecture générale, sans citation textuelle précise à vérifier (contrairement à d'autres pages de ce lot).

@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [ibn-arabi, tajalli, noms-divins]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/asma-al-husna]]"]
 ---
@@ -39,4 +39,3 @@ Ce n'est ni le désir, ni l'attirance, ni son intensité, mais l'oubli de la th�
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Désir et théophanie akbarienne » (2026-01-29). Plusieurs citations attribuées aux *Futūḥāt* non vérifiées individuellement — motif transversal déjà signalé ailleurs dans ce corpus.

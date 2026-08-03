@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [ibn-arabi, tajalli, citations-fabriquees]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
@@ -31,4 +31,3 @@ Des échos doctrinaux secondaires, plus généraux et donc moins risqués, sont 
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Auteur spirituel probable » (2025-12-21). **Aucune des trois citations précises avec référence de chapitre données dans cette conversation ne doit être considérée comme vérifiée.**

@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [discernement, barzakh, khalwa, en-cours, pseudo-science-a-surveiller]
 created: 2026-06-20
 updated: 2026-07-10
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/khalwa]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/technologisation-pseudo-scientifique]]"]
 ---

@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [firasa, discernement]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/istidad]]", "[[doctrinal/autorites/ibn-arabi]]"]
 ---
@@ -27,4 +27,3 @@ Le choix spontané d'un objet parmi plusieurs y est compris comme une inclinatio
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Physiognomonie et choix » (2026-02-16). Auteurs mentionnés (Ibn Qayyim al-Jawziyya, Fakhr al-Din al-Razi) sans citation directe vérifiable.

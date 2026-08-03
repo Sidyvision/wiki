@@ -6,7 +6,7 @@ tradition_cadre: "hindouisme"
 tags: [vedas, comparatisme, citations-a-verifier]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
@@ -40,4 +40,3 @@ Une hypothèse académique (« Somahuasca ») rapproche le Soma de l'ayahuasca s
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Soma védique et symbolisme » (2025-05-10). Citation attribuée à Guénon non vérifiée ; étude académique de Matthew Clark (*The Tawny One*, 2017) mentionnée pour l'hypothèse Somahuasca.

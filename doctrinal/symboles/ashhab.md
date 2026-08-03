@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [philologie, poesie-arabe, stub]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: []
 ---
@@ -25,4 +25,3 @@ Usage classique attesté chez ʿAntara ibn Shaddād pour décrire sa monture. La
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « كلمة عربية لحصان أبيض » (2024-09-02).

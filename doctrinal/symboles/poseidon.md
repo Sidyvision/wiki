@@ -6,7 +6,7 @@ tradition_cadre: "hellenisme"
 tags: [mythologie-grecque, platon, comparatisme]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/platon]]"]
 ---
@@ -33,4 +33,3 @@ Chez Platon (*Phèdre*), le cheval ailé devient image de l'âme humaine, les ai
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Qui est Poséïdon » (2025-08-30).

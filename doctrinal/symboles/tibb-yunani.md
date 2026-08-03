@@ -6,7 +6,7 @@ tradition_cadre: "islam"
 tags: [medecine-traditionnelle, temperament]
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["[[chatgpt-export-2026-05-10]]"]
+sources: []
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/ibn-sina]]"]
 ---
@@ -35,4 +35,3 @@ Le tempérament a une racine constitutionnelle (*jibilla*) mais peut évoluer so
 
 ## Sources
 
-[[chatgpt-export-2026-05-10]] — conversation « Identification Tempérament Médical » (2025-06-05). Pas de citation directe fabriquée relevée dans cette conversation (contrairement à d'autres fiches de ce corpus) — contenu présenté de façon explicative, sans attribution verbatim à un auteur classique.
