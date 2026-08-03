@@ -1,12 +1,14 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-07-17
+updated: 2026-07-27
 ---
 
 # Annales de l'Atelier
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
+
+<!-- INSERTION: EN-TÊTE -->
 
 ---
 

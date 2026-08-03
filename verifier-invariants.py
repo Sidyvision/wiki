@@ -35,6 +35,30 @@ NOMS_ANNALES = {"annales.md"}
 # Circuits et leurs racines relatives.
 CIRCUITS = ["doctrinal", "atelier", "label", "meta"]
 
+# Fichiers légitimement sans frontmatter YAML (protocole, README, prompts Hermes…).
+# Ne pas leur appliquer B0.
+FICHIERS_SANS_FM = {
+    "CLAUDE.md", "README.md",
+}
+PREFIXES_SANS_FM = (
+    "meta/projet-unifie/hermes-prompts/",
+)
+
+# Fichiers dont les liens sortants ne sont PAS soumis au contrôle C3 d'étanchéité
+# (les annales peuvent citer d'autres circuits pour situer les passes).
+FICHIERS_EXEMPTS_C3 = NOMS_ANNALES | {"index.md"}
+
+# Patterns de liens considérés comme placeholders/exemples — ignorés en C1.
+RE_LIEN_PLACEHOLDER = re.compile(
+    r"^(\.\.\.|slug(-source)?|chemin(/relatif)?|autre-slug"
+    r"|atelier/\.\.\.|doctrinal/\.\.\.|doctrinal/vigilance/\.\.\."
+    r"|doctrinal/discernement/slug|doctrinal/deviations/slug"
+    r"|doctrinal/symboles-ou-autorites/slug|doctrinal/sources/inexistante"
+    r"|doctrinal/etudes/YYYY-MM-DD_synthese-si-existante"
+    r"|symbole/autorite-x|deviation-y"
+    r"|[A-Z]{4}-MM-DD_.*)$"
+)
+
 # Clés de frontmatter attendues par circuit (Sceau Recteur pour doctrinal).
 CLES_REQUISES = {
     "doctrinal": ["title", "type", "status", "tradition_cadre", "created", "updated", "sources"],
@@ -231,8 +255,16 @@ def controler_annales(chemin_abs, chemin_rel, rap):
 
 def controler_frontmatter(chemin_rel, fm, rap):
     circ = circuit_de(chemin_rel)
+    nom = os.path.basename(chemin_rel)
+    rel_unix = chemin_rel.replace(os.sep, "/")
+    # Exemption B0 : fichiers légitimement sans frontmatter.
+    sans_fm_legitime = (
+        nom in FICHIERS_SANS_FM
+        or any(rel_unix.startswith(p) for p in PREFIXES_SANS_FM)
+    )
     if fm is None:
-        rap.erreur(chemin_rel, "B0", "aucun frontmatter délimité par `---`")
+        if not sans_fm_legitime:
+            rap.erreur(chemin_rel, "B0", "aucun frontmatter délimité par `---`")
         return
     # Les fichiers de service (annales, index) sont `type: meta` quel que soit
     # leur circuit : ils ne relèvent pas du Sceau Recteur doctrinal.
@@ -298,11 +330,16 @@ def collecter_cibles(racine):
 
 def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
     circ = circuit_de(chemin_rel)
-    interdits = ETANCHEITE_INTERDITE.get(circ, set())
+    nom = os.path.basename(chemin_rel)
+    # Les annales et index sont exempts du contrôle C3 (liens contextuels légitimes).
+    interdits = set() if nom in FICHIERS_EXEMPTS_C3 else ETANCHEITE_INTERDITE.get(circ, set())
     for brut in RE_WIKILINK.findall(corps):
         cible = brut.strip().replace("\\", "/")
         if cible.endswith(".md"):
             cible = cible[:-3]
+        # Ignorer les placeholders/exemples.
+        if RE_LIEN_PLACEHOLDER.match(cible):
+            continue
         # C1 — résolution.
         if cible not in par_chemin:
             candidats = par_slug.get(os.path.basename(cible), [])

@@ -8,6 +8,8 @@ updated: 2026-07-05
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
+<!-- INSERTION: EN-TÊTE -->
+
 ---
 
 ## [2026-07-05] grand-lot | Protocole du don, équipe 12 agents, économie, fanzine, merchandising

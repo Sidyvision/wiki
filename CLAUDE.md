@@ -363,6 +363,14 @@ Quand une nouvelle source est déposée dans `raw/` (lue côté PRODUCTION) :
 - **Rapporter sans corriger d'office** ; demander avant d'éditer.
 - Les annales sont **append-only** : un `Update` d'annales qui échoue ne doit JAMAIS
   être suivi d'un `Write` global.
+- **Convention d'insertion** (amendement 2026-07-27, verdict Sidy) : tout fichier
+  append-only déclare sa convention dans son propre en-tête via un marqueur HTML :
+  - `<!-- INSERTION: EN-TÊTE -->` — nouvelle entrée insérée immédiatement après le
+    bloc d'introduction (chronologique inverse). Cas des `annales.md`.
+  - `<!-- INSERTION: QUEUE -->` — nouvelle entrée ajoutée en fin de fichier
+    (chronologique direct). Cas des registres de chaîne.
+  Un agent qui écrit dans un fichier append-only **lit d'abord ce marqueur**. Absence
+  de marqueur = écriture interdite, signalement à Sidy.
 
 ### Action : EXAMEN DE DISCERNEMENT (spéculations personnelles)
 
@@ -457,6 +465,17 @@ briefs `meta/projet-unifie/`, fiches doctrinales liées, et le présent protocol
 doivent être mis à jour à la lumière des décisions prises. Proactif, jamais sur
 demande seulement. Toute divergence constatée entre ce protocole et un document
 d'instructions dérivé est signalée : **CLAUDE.md fait foi**.
+
+**Vérification structurelle obligatoire** (amendement 2026-07-27, verdict Sidy) :
+exécuter `python3 verifier-invariants.py --racine /root/wiki` et consigner le
+résultat brut dans l'entrée d'annales de la session. Cette étape ne doit pas être
+sautée. Phase actuelle : **calibrage** (non-bloquant) — les erreurs sont investiguées
+et rapportées, pas bloquantes. Passage en mode `--strict` après calibrage confirmé.
+
+**Statut des documents d'investigation** (amendement 2026-07-27) : les documents
+produits en session claude.ai portent un statut explicite — `brouillon` (en
+discussion) ou `vise` (revu par Sidy). Claude Code ne consigne dans les annales
+que des opérations issues de documents `vise`.
 
 ### Convention Sashimono (philosophie d'assemblage — validée 2026-07-07)
 
@@ -571,10 +590,15 @@ Trame de référence — chaque notion réexpliquée jusqu'à maîtrise confirm�
    vérification primaire humaine, dires de persona IA flagués).
 6. **Pas d'écriture sans plan validé** lors d'un archivage.
 7. **Étanchéité des circuits** (désormais quatre) : jamais enfreinte silencieusement.
-8. **`created` immuable ; `updated` à chaque édition de fond.**
+8. **`created` immuable ; `updated` à chaque édition de fond.** Toute écriture
+   sur un fichier remonte son `updated:` à la date du jour — une écriture sans
+   mise à jour de `updated:` est une écriture incomplète.
 9. **Journaliser dans les annales** à chaque session (préfixe greppable
    `## [YYYY-MM-DD] op | Titre` ; une seule entrée par passe groupée ;
    `doctrinal/annales.md` pour le doctrinal, `label/annales.md` pour le label).
+   Chaque entrée porte le **SHA court du commit** qu'elle décrit en dernière ligne :
+   `- **Commit** : abc1234`. L'entrée est rédigée **après** le commit, jamais avant.
+   Une entrée décrivant une opération planifiée mais non exécutée est interdite.
 10. **Pas de suppression sans confirmation** : préférer `deprecated`.
 11. **Vocabulaire** : « restauration », jamais « réforme ».
 12. **Discernement des domaines (forme / principe) — la machine *upakarana*** : sur la

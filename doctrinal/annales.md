@@ -8,6 +8,8 @@ updated: 2026-07-22
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
+<!-- INSERTION: EN-TÊTE -->
+
 ---
 
 ## [2026-07-22] intégration | Manifeste UPDATES.md — corrections de frontmatter (audit cartographie LOT A/B/C)
@@ -734,7 +736,6 @@ ancrage servant de signal de vigilance.
   « Les Portes solsticiales », non encore exploité — à consulter en priorité si le
   dossier Gizeh ou le motif des portes solsticiales est repris.
 
-
 ---
 
 ## [2026-07-14] discernement | Clôture de llm-wiki — couple pédagogique (verdict Sidy)
@@ -821,7 +822,6 @@ ancrage servant de signal de vigilance.
 - **Statut** : en cours — verdict en attente d'approfondissement doctrinal.
 - **Point sensible** : Khatm = fonction d'autorité spirituelle vivante (Al-Khaḍir) — aucune
   auto-proclamation, renvoi toujours ouvert aux savants qualifiés (Cmd 12).
-
 
 ---
 
