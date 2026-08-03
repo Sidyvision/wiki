@@ -913,3 +913,15 @@ ancrage servant de signal de vigilance.
 - **Qualification sashimono** : ***hozo*** substitution Ourse→Pléiades (Guénon l'énonce comme remplacement dans le rôle, Art. 1) ; ***hozo*** septénaire transversal trois états (verdict Sidy) ; ***kari-kumi*** Balance polaire/zodiacale (Guénon pose la question, pas de fermeture doctrinal attestée) ; ***kari-kumi*** degré 24↔Gizeh/Hermès/Idrîs.
 - **Prochaine étape** : validation par Sidy du verdict final ; éventuelle clôture en `status: close (traditionnel)` si verdict affirmatif ou `en cours` si question reste non tranchée (Cmd 12). Aucun élément n'entre `instrument-donnees.yaml` avant fermeture fiche.
 
+---
+
+## [2026-08-03] discernement | Clôture — Le septénaire transversal, la Balance et le degré du Soleil
+
+- **Opération** : VALIDATION — fiche discernement close, statut passé à `traditionnel`, index et annales mises à jour.
+- **Modifié** : [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] (status `speculatif` → `traditionnel`, bloc 🔍 `en cours` → `validée`).
+- **Enrichi** : [[doctrinal/index.md]] (description mise à jour, marqueur 🔍 retiré).
+- **Contexte** : fiche synthétisant le chantier Guénon sur trois états du septénaire et les deux Balances (polaire et zodiacale) validée après rédaction substantielle couvrant généalogie textuelle, trois états avec H5 (comportement astronomique → mode de présence), passage dans bande zodiacale au degré 13, chantier Balance polaire/zodiacale, convergence quadruple degré 24 (Idrîs/Soleil/Hermès/Gizeh).
+- **Verdict** : septénaire transversal établi comme manifestation d'une même fonction en trois états différents (verdict Sidy 2026-07-27, confirmé 2026-08-03). Volets *hozo* (Ourse→Pléiades source Guénon, septénaire transversal trois états) instruits et fermés. Volets *kari-kumi* (Balance, degré 24↔Gizeh) documentés exhaustivement sans prétention à fermeture ultérieure — pièces s'emboîtent, aucune collée.
+- **Point sensible** : aucun — lien universel (métaphysique transversale), pas de non-syncrétisme en jeu. Hermès=Idrîs reste à confirmer sur texte primaire isolé. Gizeh↔degré 24 reste montage blanc (route doctrinale Guénon/Idrîs converge, route stellaire Orion écartée par règle dossier égyptien). H5 (comportement du support comme mode de présence de fonction) retenue et souscrite.
+- **Prochaine étape** : validation manifeste v0.3.2 (generer-manifeste.py, sans erreur, zéro anomalies cartographie, aucun ancrage YAML pour fiche close — tous ancrages prophètes planétaires degrés 21-27 issus des sept Prophètes siégeant aux cieux, matière akbarienne pure, déjà validée et intégrée 2026-07-27).
+

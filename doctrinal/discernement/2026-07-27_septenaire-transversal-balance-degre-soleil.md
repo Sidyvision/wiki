@@ -1,7 +1,7 @@
 ---
 title: "Le septénaire transversal, la Balance et le degré du Soleil — référentiels stellaires et états d'une même fonction"
 type: discernement
-status: speculatif
+status: traditionnel
 tradition_cadre: "universel"
 tags: [grande-ourse, pleiades, septenaire, balance, mizan, degre-24, idrîs, gizeh, polaire-solaire, cycles]
 created: 2026-07-27
@@ -25,7 +25,7 @@ cross_links: [
 
 ## 🔍 Bloc de discernement
 
-**Statut** : en cours
+**Statut** : validée
 
 **Hypothèse initiale** (Sidy, 2026-07-27) : le dépôt possède trois formulations du même septénaire — Grande Ourse (polaire), Pléiades (écliptique), sept Cieux planétaires (islamique) — et Guénon lui-même désigne l'examen du rapport entre les deux Balances comme chantier ouvert. Instruire ce rapport en tant qu'instance d'une même fonction transversale incarnée en trois états/courants.
 
@@ -41,7 +41,7 @@ cross_links: [
 - Hermès = Idrîs : tradition islamique attestée ; passage Hermès → localisation Gizeh reste *kari-kumi*.
 - Aucune conflation polaire/solaire : c'est le Pôle *dans* le solaire (degré 24 comme interface), distinction maintenue.
 
-**Conclusion** : portée par le verdict de Sidy en session présente (2026-07-27). Les pièces sont en état *hozo* (Ourse→Pléiades, septénaire transversal) pour la partie instruite, *kari-kumi* (Balance, degré 24) pour la partie restée à l'assemblage blanc.
+**Conclusion** : validée par l'utilisateur (2026-08-03). Le septénaire transversal est établi comme manifestation d'une même fonction en trois états (polaire, écliptique, planétaire) — verdict de Sidy confirmé. Les pièces sont en état *hozo* (Ourse→Pléiades, septénaire transversal) pour la partie instruite, *kari-kumi* (Balance, degré 24) documentée sans prétention à fermeture ultérieure.
 
 **Lectures suggérées** :
 1. [[doctrinal/symboles/table-28-degres-nafas-rahman]] — table de base des degrés et planètes.
