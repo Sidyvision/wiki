@@ -1,14 +1,25 @@
 ---
-title: "Ahmad al-Būnī"
+title: Ahmad al-Būnī
 type: autorite
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, occultisme-islamique, ilm-al-huruf, maghreb, medieval]
+tradition_cadre: islam
+tags:
+- soufisme
+- occultisme-islamique
+- ilm-al-huruf
+- maghreb
+- medieval
 created: 2026-06-02
 updated: 2026-06-11
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[ilm-al-huruf]]", "[[asma-al-husna]]", "[[talisman-sihr]]", "[[tasawwuf]]", "[[ibn-arabi]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[ilm-al-huruf]]'
+- '[[asma-al-husna]]'
+- '[[talisman-sihr]]'
+- '[[tasawwuf]]'
+- '[[ibn-arabi]]'
 ---
 
 # Ahmad al-Būnī

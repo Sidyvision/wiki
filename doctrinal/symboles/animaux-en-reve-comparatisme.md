@@ -1,14 +1,20 @@
 ---
-title: "Animaux médiateurs en rêve — comparatisme islamo-hindou"
+title: Animaux médiateurs en rêve — comparatisme islamo-hindou
 type: symbole
 status: academique
-tradition_cadre: "universel"
-tags: [oniromancie, comparatisme, non-syncretisme]
+tradition_cadre: universel
+tags:
+- oniromancie
+- comparatisme
+- non-syncretisme
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/taabir-al-ruya]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/traditions/sanatana-dharma]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/symboles/taabir-al-ruya]]'
 ---
 
 # Animaux médiateurs en rêve — comparatisme islamo-hindou

@@ -1,14 +1,23 @@
 ---
-title: "Al-Madrasah Al-Hanbaliyyah (institut d'enseignement traditionnel ḥanbalite)"
+title: Al-Madrasah Al-Hanbaliyyah (institut d'enseignement traditionnel ḥanbalite)
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [fiqh, hanbali, madrasa, ressource, ijaza, asanid]
+tradition_cadre: islam
+tags:
+- fiqh
+- hanbali
+- madrasa
+- ressource
+- ijaza
+- asanid
 created: 2026-07-06
 updated: 2026-07-06
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[fiqh]]", "[[madhhab-maliki]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[fiqh]]'
+- '[[madhhab-maliki]]'
 ---
 
 # Al-Madrasah Al-Hanbaliyyah

@@ -34,4 +34,4 @@ de l'art sacré, de la cosmologie et de l'astrologie traditionnelles.
 
 ## Notes
 
-*(À compléter — bibliographie complète en [[meta/bibliotheque-physique]].)*
+*(À compléter — bibliographie complète en .)*

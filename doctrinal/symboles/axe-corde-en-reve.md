@@ -1,14 +1,17 @@
 ---
-title: "Lier par la corde enroulée sur l'axe (motif onirique comparatif)"
+title: Lier par la corde enroulée sur l'axe (motif onirique comparatif)
 type: symbole
 status: academique
-tradition_cadre: "universel"
-tags: [oniromancie, comparatisme]
+tradition_cadre: universel
+tags:
+- oniromancie
+- comparatisme
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/habl-allah]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/habl-allah]]'
 ---
 
 # Lier par la corde enroulée sur l'axe (motif onirique comparatif)

@@ -1,13 +1,15 @@
 ---
-title: "Le scarabée dans l'Égypte antique"
+title: Le scarabée dans l'Égypte antique
 type: symbole
 status: traditionnel
-tradition_cadre: "universel"
-tags: [egypte-antique, comparatisme]
+tradition_cadre: universel
+tags:
+- egypte-antique
+- comparatisme
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
+sources_count: 0
 cross_links: []
 ---
 

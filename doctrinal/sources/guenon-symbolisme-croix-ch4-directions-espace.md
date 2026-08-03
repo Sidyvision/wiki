@@ -8,7 +8,7 @@ created: 2026-07-16
 updated: 2026-07-16
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", "[[atelier/projets/angles-de-l-espace]]"]
+cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", ""]
 ---
 
 # Guénon — Le Symbolisme de la Croix, ch. IV : Les directions de l'espace
@@ -54,7 +54,7 @@ est l'**axe solsticial**, l'axe Est-Ouest l'**axe équinoxial**.
 Ce système à **six directions** (Zénith/Nadir, Nord/Sud, Est/Ouest) + centre = septénaire
 est un cadre **cosmologique/géographique** (pôles célestes, solstices, équinoxes),
 distinct du système des **quatre Angles de l'Espace** (AS/DS/MC/FC) déjà présent dans
-[[atelier/projets/angles-de-l-espace]] — cadre **astrologique** (angles d'un thème
+ — cadre **astrologique** (angles d'un thème
 natal, conceptuellement situés sur un même cercle de l'horizon/méridien, non les six
 directions spatiales de ce chapitre). Les deux partagent un vocabulaire (« directions de
 l'espace ») mais relèvent de doctrines distinctes — à ne jamais fusionner sans

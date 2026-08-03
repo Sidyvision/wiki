@@ -1,13 +1,16 @@
 ---
-title: "Ashhab (أشهب) — le cheval gris-blanc dans la poésie arabe classique"
+title: Ashhab (أشهب) — le cheval gris-blanc dans la poésie arabe classique
 type: symbole
 status: academique
-tradition_cadre: "islam"
-tags: [philologie, poesie-arabe, stub]
+tradition_cadre: islam
+tags:
+- philologie
+- poesie-arabe
+- stub
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
+sources_count: 0
 cross_links: []
 ---
 

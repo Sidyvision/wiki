@@ -1,14 +1,29 @@
 ---
-title: "Islam et Intelligence Artificielle"
+title: Islam et Intelligence Artificielle
 type: etude
 status: academique
-tradition_cadre: "islam"
-tags: [islam, intelligence-artificielle, metaphysique, tawhid, ame, epistemologie]
+tradition_cadre: islam
+tags:
+- islam
+- intelligence-artificielle
+- metaphysique
+- tawhid
+- ame
+- epistemologie
 created: 2026-06-04
 updated: 2026-06-11
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[yaqub-chaudhary]]", "[[ibn-sina]]", "[[al-ghazali]]", "[[al-jazari]]", "[[al-khwarizmi]]", "[[wahdat-al-wujud]]", "[[asma-al-husna]]", "[[tasawwuf]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[yaqub-chaudhary]]'
+- '[[ibn-sina]]'
+- '[[al-ghazali]]'
+- '[[al-jazari]]'
+- '[[al-khwarizmi]]'
+- '[[wahdat-al-wujud]]'
+- '[[asma-al-husna]]'
+- '[[tasawwuf]]'
 ---
 
 # Islam et Intelligence Artificielle
@@ -45,7 +60,7 @@ L’IA réorganise la société de sorte que les individus doivent se soumettre 
 
 ### Automata islamiques comme précédent
 
-Contrairement à la tradition occidentale qui a mécanisé la nature humaine, les automata islamiques ([[al-jazari]]) expriment l’automatisation comme soumission à la volonté divine — « conduits permettant aux forces divines de se déployer » (Nadarajan). [[Al-ghazali]] utilise l’horloge à eau pour expliquer la cosmologie sans mécaniser l’esprit.
+Contrairement à la tradition occidentale qui a mécanisé la nature humaine, les automata islamiques ([[al-jazari]]) expriment l’automatisation comme soumission à la volonté divine — « conduits permettant aux forces divines de se déployer » (Nadarajan). [[al-ghazali]] utilise l’horloge à eau pour expliquer la cosmologie sans mécaniser l’esprit.
 
 ### Applications contemporaines
 
@@ -55,8 +70,8 @@ Contrairement à la tradition occidentale qui a mécanisé la nature humaine, le
 
 ### Héritage islamique dans l’histoire de l’IA
 
-- [[Al-khwarizmi]] : fondateur de l’algèbre ; le mot « algorithme » dérive de son nom ; ses mathématiques servaient la jurisprudence islamique
-- [[Al-jazari]] : automata médiévaux, précurseurs de la cybernétique
+- [[al-khwarizmi]] : fondateur de l’algèbre ; le mot « algorithme » dérive de son nom ; ses mathématiques servaient la jurisprudence islamique
+- [[al-jazari]] : automata médiévaux, précurseurs de la cybernétique
 - Ibn al-Haytham : géométrie et optique
 
 ## Concepts liés

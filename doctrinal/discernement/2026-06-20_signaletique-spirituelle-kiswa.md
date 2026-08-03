@@ -1,14 +1,21 @@
 ---
-title: "Spéculation sur la « signalétique spirituelle » — la couleur de la Kiswa comme signe cyclique"
+title: Spéculation sur la « signalétique spirituelle » — la couleur de la Kiswa comme
+  signe cyclique
 type: discernement
 status: speculatif
-tradition_cadre: "islam"
-tags: [discernement, en-cours, validation-non-hedgee]
+tradition_cadre: islam
+tags:
+- discernement
+- en-cours
+- validation-non-hedgee
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/fal-wa-tatayyur]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/rene-guenon]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/symboles/fal-wa-tatayyur]]'
 ---
 
 # Spéculation sur la « signalétique spirituelle » — la couleur de la Kiswa comme signe cyclique

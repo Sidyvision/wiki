@@ -1,14 +1,25 @@
 ---
-title: "ʿIlm al-Ḥurūf"
+title: ʿIlm al-Ḥurūf
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [occultisme-islamique, lettres, abjad, cosmologie, al-buni]
+tradition_cadre: islam
+tags:
+- occultisme-islamique
+- lettres
+- abjad
+- cosmologie
+- al-buni
 created: 2026-06-02
 updated: 2026-06-11
-sources: ["to-source"]
-sources_count: 2
-cross_links: ["[[ahmad-al-buni]]", "[[asma-al-husna]]", "[[talisman-sihr]]", "[[tasawwuf]]", "[[ibn-arabi]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[ahmad-al-buni]]'
+- '[[asma-al-husna]]'
+- '[[talisman-sihr]]'
+- '[[tasawwuf]]'
+- '[[ibn-arabi]]'
 ---
 
 # ʿIlm al-Ḥurūf
@@ -51,7 +62,7 @@ Exemple : la lettre *dāl* (د, valeur 4) — associée au Trône, à la permane
 Chaque lettre et chaque Nom divin génère un *wafq* (carré magique) dont les cases contiennent des nombres dont la somme est identique sur toutes les lignes, colonnes et diagonales. Ces carrés sont des outils centraux de la pratique al-būnienne, gravés sur métaux, soies ou parchemins.
 
 ### Lien avec la science des lettres chez Ibn ʿArabī
-[[Ibn-arabi]] mobilise également la science des lettres, notamment dans le deuxième ciel de son *miʿrāj* (ciel de Jésus/Jean-Baptiste), associé à la *sīmiyāʾ* (science des lettres et des noms). Mais là où al-Būnī développe une pratique talismanique élaborée, Ibn ʿArabī l'intègre à sa métaphysique de la Parole divine créatrice — source : [[jesus-and-enoch-in-ibn-arabi]].
+[[ibn-arabi]] mobilise également la science des lettres, notamment dans le deuxième ciel de son *miʿrāj* (ciel de Jésus/Jean-Baptiste), associé à la *sīmiyāʾ* (science des lettres et des noms). Mais là où al-Būnī développe une pratique talismanique élaborée, Ibn ʿArabī l'intègre à sa métaphysique de la Parole divine créatrice — source : [[jesus-and-enoch-in-ibn-arabi]].
 
 ## Concepts liés
 

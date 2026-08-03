@@ -1,13 +1,18 @@
 ---
-title: "Ahl al-Sunnah wa-l-Jamāʿa"
+title: Ahl al-Sunnah wa-l-Jamāʿa
 type: tradition
 status: traditionnel
-tradition_cadre: "islam"
-tags: [islam, theologie, orthodoxie]
+tradition_cadre: islam
+tags:
+- islam
+- theologie
+- orthodoxie
 created: 2026-06-02
 updated: 2026-06-11
 sources_count: 0
-cross_links: ["[[tasawwuf]]"]
+cross_links:
+- '[[tasawwuf]]'
+sources: []
 ---
 
 # Ahl al-Sunnah wa-l-Jamāʿa

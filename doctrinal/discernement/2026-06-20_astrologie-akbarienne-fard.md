@@ -1,14 +1,27 @@
 ---
-title: "Spéculation sur l'astrologie akbarienne personnelle et l'auto-identification au type Fard"
+title: Spéculation sur l'astrologie akbarienne personnelle et l'auto-identification
+  au type Fard
 type: discernement
 status: speculatif
-tradition_cadre: "islam"
-tags: [discernement, en-cours, fard, autorite-spirituelle, citations-a-verifier]
+tradition_cadre: islam
+tags:
+- discernement
+- en-cours
+- fard
+- autorite-spirituelle
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-07-10
-sources: ["[[doctrinal/sources/ibn-arabi-fard-afrad-gilis]]", "[[doctrinal/sources/gilis-ordo-ab-chao]]", "[[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]]"]
-sources_count: 4
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]]", "[[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]]", "[[doctrinal/symboles/ilm-al-nujum]]"]
+sources:
+- '[[doctrinal/sources/ibn-arabi-fard-afrad-gilis]]'
+- '[[doctrinal/sources/gilis-ordo-ab-chao]]'
+- '[[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]]'
+sources_count: 3
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]]'
+- '[[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]]'
+- '[[doctrinal/symboles/ilm-al-nujum]]'
 ---
 
 # Spéculation sur l'astrologie akbarienne personnelle et l'auto-identification au type Fard

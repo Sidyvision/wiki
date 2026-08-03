@@ -1,14 +1,21 @@
 ---
-title: "L'Ātma-Gītā et le commentaire de René Guénon"
+title: L'Ātma-Gītā et le commentaire de René Guénon
 type: symbole
 status: traditionnel
-tradition_cadre: "hindouisme"
-tags: [advaita, rene-guenon, metaphysique-comparee]
+tradition_cadre: hindouisme
+tags:
+- advaita
+- rene-guenon
+- metaphysique-comparee
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/symboles/wahdat-al-wujud]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/rene-guenon]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/traditions/sanatana-dharma]]'
+- '[[doctrinal/symboles/wahdat-al-wujud]]'
 ---
 
 # L'Ātma-Gītā et le commentaire de René Guénon

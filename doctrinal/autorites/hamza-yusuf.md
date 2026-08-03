@@ -1,14 +1,21 @@
 ---
-title: "Hamza Yusuf"
+title: Hamza Yusuf
 type: autorite
 status: academique
-tradition_cadre: "islam"
-tags: [zaytuna, dawa, contemporain, stub]
+tradition_cadre: islam
+tags:
+- zaytuna
+- dawa
+- contemporain
+- stub
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[shukr]]", "[[faraz-rabbani]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[shukr]]'
+- '[[faraz-rabbani]]'
 ---
 
 # Hamza Yusuf

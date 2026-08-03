@@ -1,14 +1,19 @@
 ---
-title: "Bindu (बिंदु) — le point primordial"
+title: Bindu (बिंदु) — le point primordial
 type: symbole
 status: traditionnel
-tradition_cadre: "hindouisme"
-tags: [tantra, vedanta, comparatisme]
+tradition_cadre: hindouisme
+tags:
+- tantra
+- vedanta
+- comparatisme
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/nada]]", "[[doctrinal/traditions/sanatana-dharma]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/nada]]'
+- '[[doctrinal/traditions/sanatana-dharma]]'
 ---
 
 # Bindu (बिंदु) — le point primordial

@@ -1,14 +1,21 @@
 ---
-title: "Ibn Qayyim al-Jawziyya"
+title: Ibn Qayyim al-Jawziyya
 type: autorite
 status: traditionnel
-tradition_cadre: "islam"
-tags: [medecine-islamique, fiqh, theologie, stub]
+tradition_cadre: islam
+tags:
+- medecine-islamique
+- fiqh
+- theologie
+- stub
 created: 2026-06-05
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[tibb-e-nabawi]]", "[[morphopsychologie]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[tibb-e-nabawi]]'
+- '[[morphopsychologie]]'
 ---
 
 # Ibn Qayyim al-Jawziyya

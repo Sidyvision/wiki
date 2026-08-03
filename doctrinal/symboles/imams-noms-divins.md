@@ -1,14 +1,21 @@
 ---
-title: "Les Imams des Noms divins — hiérarchie opérative selon la science des Asmāʾ al-Ḥusnā"
+title: Les Imams des Noms divins — hiérarchie opérative selon la science des Asmāʾ
+  al-Ḥusnā
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [ibn-arabi, asma-al-husna, cosmologie, citations-a-verifier]
+tradition_cadre: islam
+tags:
+- ibn-arabi
+- asma-al-husna
+- cosmologie
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/autorites/ibn-arabi]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/asma-al-husna]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
 ---
 
 # Les Imams des Noms divins — hiérarchie opérative

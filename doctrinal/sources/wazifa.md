@@ -1,14 +1,30 @@
 ---
-title: "Kitāb al-Awrād wa-l-Wazā'if fi-l-Ṭarīqa al-Naqshbandiyya al-'Aliyya"
+title: Kitāb al-Awrād wa-l-Wazā'if fi-l-Ṭarīqa al-Naqshbandiyya al-'Aliyya
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [naqshbandiyya, wird-awrad, dhikr, salat, tasawwuf, tariqa, manuel-devotionnel]
+tradition_cadre: islam
+tags:
+- naqshbandiyya
+- wird-awrad
+- dhikr
+- salat
+- tasawwuf
+- tariqa
+- manuel-devotionnel
 created: 2026-06-05
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[naqshbandiyya]]", "[[muhammad-nazim-al-haqqani]]", "[[abdullah-daghestani]]", "[[khatm-al-khawajakan]]", "[[wird-awrad]]", "[[tasawwuf]]", "[[salawat]]", "[[asma-al-husna]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[naqshbandiyya]]'
+- '[[muhammad-nazim-al-haqqani]]'
+- '[[abdullah-daghestani]]'
+- '[[khatm-al-khawajakan]]'
+- '[[wird-awrad]]'
+- '[[tasawwuf]]'
+- '[[salawat]]'
+- '[[asma-al-husna]]'
 ---
 
 # Kitāb al-Awrād wa-l-Wazā'if fi-l-Ṭarīqa al-Naqshbandiyya al-'Aliyya

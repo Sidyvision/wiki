@@ -1,14 +1,29 @@
 ---
-title: "Hasbiyallah — Allah est notre Suffisance"
+title: Hasbiyallah — Allah est notre Suffisance
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [tawakkul, dhikr, futuwwa, shukr, soufisme, adab]
+tradition_cadre: islam
+tags:
+- tawakkul
+- dhikr
+- futuwwa
+- shukr
+- soufisme
+- adab
 created: 2026-06-18
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[faraz-rabbani]]", "[[tawakkul]]", "[[futuwwa]]", "[[shukr]]", "[[ghafla]]", "[[asma-al-husna]]", "[[wird-awrad]]", "[[platon]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[faraz-rabbani]]'
+- '[[tawakkul]]'
+- '[[futuwwa]]'
+- '[[shukr]]'
+- '[[ghafla]]'
+- '[[asma-al-husna]]'
+- '[[wird-awrad]]'
+- '[[platon]]'
 ---
 
 # Hasbiyallah — Allah est notre Suffisance

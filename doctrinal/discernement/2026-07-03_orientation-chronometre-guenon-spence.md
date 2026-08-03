@@ -1,14 +1,28 @@
 ---
-title: "L'écart d'orientation comme marqueur temporel : note 7 du « Tombeau d'Hermès » et le chronomètre précessionnel de Spence (Nature, 2000)"
+title: 'L''écart d''orientation comme marqueur temporel : note 7 du « Tombeau d''Hermès
+  » et le chronomètre précessionnel de Spence (Nature, 2000)'
 type: discernement
 status: speculatif
-tradition_cadre: "universel"
-tags: [gizeh, orientation, precession, cycles, spence, guenon, chronometre, discernement]
+tradition_cadre: universel
+tags:
+- gizeh
+- orientation
+- precession
+- cycles
+- spence
+- guenon
+- chronometre
+- discernement
 created: 2026-07-03
 updated: 2026-07-03
-sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "Spence, K., « Ancient Egyptian chronology and the astronomical orientation of pyramids », Nature 408, 320–324 (16 nov. 2000)"]
+sources:
+- '[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]'
+- Spence, K., « Ancient Egyptian chronology and the astronomical orientation of pyramids
+  », Nature 408, 320–324 (16 nov. 2000)
 sources_count: 2
-cross_links: ["[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]"]
+cross_links:
+- '[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]'
+- '[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]'
 ---
 
 # L'écart d'orientation comme marqueur temporel : note 7 de Guénon et le chronomètre précessionnel de Spence

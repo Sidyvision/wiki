@@ -1,14 +1,20 @@
 ---
-title: "Discerner l'irritation du nafs et celle du qalb"
+title: Discerner l'irritation du nafs et celle du qalb
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, nafs, qalb, pratique]
+tradition_cadre: islam
+tags:
+- soufisme
+- nafs
+- qalb
+- pratique
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/autorites/ibn-arabi]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/al-ghazali]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
 ---
 
 # Discerner l'irritation du nafs et celle du qalb

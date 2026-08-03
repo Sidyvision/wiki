@@ -1,13 +1,27 @@
 ---
-title: "Jesus and Enoch in the Barzakh of Ibn al-ʿArabī"
+title: Jesus and Enoch in the Barzakh of Ibn al-ʿArabī
 type: source
 status: academique
-tradition_cadre: "islam"
-tags: [soufisme, metaphysique, prophetologie, ibn-arabi, academique, jmias]
+tradition_cadre: islam
+tags:
+- soufisme
+- metaphysique
+- prophetologie
+- ibn-arabi
+- academique
+- jmias
 created: 2026-06-02
 updated: 2026-06-11
 sources_count: 0
-cross_links: ["[[ibn-arabi]]", "[[ali-hussain]]", "[[barzakh]]", "[[wahdat-al-wujud]]", "[[idris]]", "[[walaya]]", "[[tasawwuf]]"]
+cross_links:
+- '[[ibn-arabi]]'
+- '[[ali-hussain]]'
+- '[[barzakh]]'
+- '[[wahdat-al-wujud]]'
+- '[[idris]]'
+- '[[walaya]]'
+- '[[tasawwuf]]'
+sources: []
 ---
 
 # Jesus and Enoch in the Barzakh of Ibn al-ʿArabī
@@ -38,7 +52,7 @@ Jésus réside dans le **deuxième ciel** lors du *miʿrāj* d'Ibn ʿArabī — 
 Le *barzakh* qu'il incarne est triple : entre *lāhūt* (divin) et *nāsūt* (humain), entre existence et non-existence, entre transcendance (*tanzīh*) et immanence (*tashbīh*).
 
 ### 3. Idrīs/Énoch et la suprématie du rôle cosmique
-[[Idris]] (Énoch biblique, identifié à Hermès Trismégiste et au prophète Élie/Ilyas dans la tradition d'Ibn ʿArabī) est le *quṭb* (pôle) résidant dans le **quatrième ciel** (orbite du soleil). Il représente la voie de la transcendance (*tanzīh*) pure, tandis que son alter ego Ilyas/Élie représente l'immanence (*tashbīh*) sur terre.
+[[idris]] (Énoch biblique, identifié à Hermès Trismégiste et au prophète Élie/Ilyas dans la tradition d'Ibn ʿArabī) est le *quṭb* (pôle) résidant dans le **quatrième ciel** (orbite du soleil). Il représente la voie de la transcendance (*tanzīh*) pure, tandis que son alter ego Ilyas/Élie représente l'immanence (*tashbīh*) sur terre.
 
 Ibn ʿArabī identifie Idrīs à *mudāwī al-kulūm* (le guérisseur des blessures) — titre du pôle suprême de la hiérarchie des saints. Ces « blessures » ne sont pas physiques mais épistémiques : le *quṭb* cache une partie de la connaissance secrète à ses disciples par bienveillance, et c'est en cela qu'il les guérit.
 

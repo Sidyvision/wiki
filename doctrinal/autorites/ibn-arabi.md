@@ -1,14 +1,30 @@
 ---
-title: "Ibn ʿArabī"
+title: Ibn ʿArabī
 type: autorite
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, metaphysique, andalousie, akbarisme]
+tradition_cadre: islam
+tags:
+- soufisme
+- metaphysique
+- andalousie
+- akbarisme
 created: 2026-06-02
 updated: 2026-07-09
-sources: ["to-source"]
-sources_count: 3
-cross_links: ["[[tasawwuf]]", "[[walaya]]", "[[salawat]]", "[[wird-awrad]]", "[[ali-hussain]]", "[[barzakh]]", "[[wahdat-al-wujud]]", "[[idris]]", "[[ilm-al-nujum]]", "[[doctrinal/symboles/malamatiyya]]", "[[doctrinal/sources/malamatiyah-futuhat-ch23]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[tasawwuf]]'
+- '[[walaya]]'
+- '[[salawat]]'
+- '[[wird-awrad]]'
+- '[[ali-hussain]]'
+- '[[barzakh]]'
+- '[[wahdat-al-wujud]]'
+- '[[idris]]'
+- '[[ilm-al-nujum]]'
+- '[[doctrinal/symboles/malamatiyya]]'
+- '[[doctrinal/sources/malamatiyah-futuhat-ch23]]'
 ---
 
 # Ibn ʿArabī

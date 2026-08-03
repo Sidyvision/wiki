@@ -1,14 +1,24 @@
 ---
-title: "Islamic Medicine's Guide to the Body Types"
+title: Islamic Medicine's Guide to the Body Types
 type: source
 status: profane
-tradition_cadre: "islam"
-tags: [medecine-islamique, tibb, types-humoraux, deviation, herbalism]
+tradition_cadre: islam
+tags:
+- medecine-islamique
+- tibb
+- types-humoraux
+- deviation
+- herbalism
 created: 2026-06-05
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[morphopsychologie]]", "[[tibb-e-nabawi]]", "[[ibn-sina]]", "[[ibn-qayyim]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[morphopsychologie]]'
+- '[[tibb-e-nabawi]]'
+- '[[ibn-sina]]'
+- '[[ibn-qayyim]]'
 ---
 
 # Islamic Medicine’s Guide to the Body Types

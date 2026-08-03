@@ -1,14 +1,18 @@
 ---
-title: "Le Shintō (神道) — la voie des kami"
+title: Le Shintō (神道) — la voie des kami
 type: tradition
 status: traditionnel
-tradition_cadre: "shintoisme"
-tags: [shinto, japon, purete-rituelle]
+tradition_cadre: shintoisme
+tags:
+- shinto
+- japon
+- purete-rituelle
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/espace-sacre-shinto]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/espace-sacre-shinto]]'
 ---
 
 # Le Shintō (神道) — la voie des kami

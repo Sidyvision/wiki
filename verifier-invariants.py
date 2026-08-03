@@ -39,6 +39,12 @@ CIRCUITS = ["doctrinal", "atelier", "label", "meta"]
 # Ne pas leur appliquer B0.
 FICHIERS_SANS_FM = {
     "CLAUDE.md", "README.md",
+    "migration-2026-06-11.md",
+    "echange-eleonore-g.md",
+    "2026-06-18-entretien-integral.md",
+    "10-briefing-infrastructure-hermes-agent-2026-07-03.md",
+    "transcription-index-tilak-origine-polaire.md",
+    "transcription-table-matieres-symboles-science-sacree.md",
 }
 PREFIXES_SANS_FM = (
     "meta/projet-unifie/hermes-prompts/",
@@ -50,13 +56,13 @@ FICHIERS_EXEMPTS_C3 = NOMS_ANNALES | {"index.md"}
 
 # Patterns de liens considérés comme placeholders/exemples — ignorés en C1.
 RE_LIEN_PLACEHOLDER = re.compile(
-    r"^(\.\.\.|slug(-source)?|chemin(/relatif)?|autre-slug"
+    r"^(\.\.\.|…|slug(-source)?|chemin(/relatif)?|autre-slug"
     r"|atelier/\.\.\.|doctrinal/\.\.\.|doctrinal/vigilance/\.\.\."
     r"|doctrinal/discernement/slug|doctrinal/deviations/slug"
     r"|doctrinal/symboles-ou-autorites/slug|doctrinal/sources/inexistante"
-    r"|doctrinal/etudes/YYYY-MM-DD_synthese-si-existante"
-    r"|symbole/autorite-x|deviation-y"
-    r"|[A-Z]{4}-MM-DD_.*)$"
+    r"|doctrinal/sources/\.\.\.|doctrinal/etudes/YYYY-MM-DD_synthese-si-existante"
+    r"|symbole/autorite-x|deviation-y|symbole-ou-autorite|deviation"
+    r"|[A-Z]{4}-MM-DD_.*|atelier/…|doctrinal/symboles/slug)$"
 )
 
 # Clés de frontmatter attendues par circuit (Sceau Recteur pour doctrinal).

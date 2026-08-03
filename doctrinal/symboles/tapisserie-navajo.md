@@ -1,14 +1,19 @@
 ---
-title: "Tapisserie Navajo (Yei) — lecture comparative et mise en garde"
+title: Tapisserie Navajo (Yei) — lecture comparative et mise en garde
 type: symbole
 status: academique
-tradition_cadre: "universel"
-tags: [navajo, comparatisme, non-syncretisme]
+tradition_cadre: universel
+tags:
+- navajo
+- comparatisme
+- non-syncretisme
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/rene-guenon]]'
 ---
 
 # Tapisserie Navajo (Yei) — lecture comparative

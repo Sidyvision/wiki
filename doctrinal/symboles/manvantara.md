@@ -24,7 +24,7 @@ D'après les indications de Guénon rapportées par la source, le Manvantara act
 | Repère | Position dans le cycle |
 |---|---|
 | Adam | origine du Manvantara |
-| [[atlantide\|Atlantide]] | civilisation dont la disparition (~7 200 ans avant le *Kali-Yuga*) s'étend sur les 6 480 ans du *Trêtâ-Yuga* et sur une période équivalente au début du *Dwâpara-Yuga* |
+| [[atlantide|Atlantide]] | civilisation dont la disparition (~7 200 ans avant le *Kali-Yuga*) s'étend sur les 6 480 ans du *Trêtâ-Yuga* et sur une période équivalente au début du *Dwâpara-Yuga* |
 | Noé | repère intermédiaire (distinct du commencement du Manvantara, malgré une lecture biblique superficielle qui les ferait coïncider) |
 | Tour de Babel | inauguration du *Kali-Yuga* (Âge de fer) |
 | Naissance de Muhammad | repère final du schéma graphique de la source |

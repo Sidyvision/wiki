@@ -1,14 +1,20 @@
 ---
-title: "Al-Rawḍa al-Sharīfa (le Jardin Béni de Médine)"
+title: Al-Rawḍa al-Sharīfa (le Jardin Béni de Médine)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [medine, hadith, geographie-sacree]
+tradition_cadre: islam
+tags:
+- medine
+- hadith
+- geographie-sacree
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/maqamat-meknes]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/maqamat-meknes]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/al-ghazali]]'
 ---
 
 # Al-Rawḍa al-Sharīfa (le Jardin Béni de Médine)

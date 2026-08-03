@@ -1,14 +1,17 @@
 ---
-title: "Tibb Yūnānī — la médecine des quatre humeurs"
+title: Tibb Yūnānī — la médecine des quatre humeurs
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [medecine-traditionnelle, temperament]
+tradition_cadre: islam
+tags:
+- medecine-traditionnelle
+- temperament
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-sina]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-sina]]'
 ---
 
 # Tibb Yūnānī — la médecine des quatre humeurs

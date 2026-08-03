@@ -1,14 +1,27 @@
 ---
-title: "Être et psyché, Intellect et raison discursive : retour sur l'upakarana"
+title: 'Être et psyché, Intellect et raison discursive : retour sur l''upakarana'
 type: etude
 status: traditionnel
-tradition_cadre: "universel"
-tags: [etre, psyche, intellect, raison-discursive, upakarana, rene-guenon, platon, barzakh]
+tradition_cadre: universel
+tags:
+- etre
+- psyche
+- intellect
+- raison-discursive
+- upakarana
+- rene-guenon
+- platon
+- barzakh
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/platon]]", "[[doctrinal/autorites/ibn-arabi]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/barzakh]]'
+- '[[doctrinal/autorites/rene-guenon]]'
+- '[[doctrinal/autorites/platon]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
 ---
 
 # Être et psyché, Intellect et raison discursive : retour sur l'upakarana

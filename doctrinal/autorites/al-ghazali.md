@@ -1,14 +1,24 @@
 ---
-title: "Al-Ghazālī"
+title: Al-Ghazālī
 type: autorite
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, theologie, philosophie-islamique, asharisme, medieval]
+tradition_cadre: islam
+tags:
+- soufisme
+- theologie
+- philosophie-islamique
+- asharisme
+- medieval
 created: 2026-06-02
 updated: 2026-06-11
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[tasawwuf]]", "[[ibn-sina]]", "[[2026-06-04_islam-et-ia]]", "[[ahl-al-sunnah-wa-l-jamaa]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[tasawwuf]]'
+- '[[ibn-sina]]'
+- '[[2026-06-04_islam-et-ia]]'
+- '[[ahl-al-sunnah-wa-l-jamaa]]'
 ---
 
 # Al-Ghazālī

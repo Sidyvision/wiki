@@ -1,14 +1,20 @@
 ---
-title: "Taʾwīl par le nom (ism) en oniromancie"
+title: Taʾwīl par le nom (ism) en oniromancie
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [oniromancie, etymologie, stub]
+tradition_cadre: islam
+tags:
+- oniromancie
+- etymologie
+- stub
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/autorites/ibn-sirin]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/taabir-al-ruya]]'
+- '[[doctrinal/autorites/ibn-sirin]]'
 ---
 
 # Taʾwīl par le nom (ism) en oniromancie

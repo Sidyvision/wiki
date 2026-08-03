@@ -1,14 +1,17 @@
 ---
-title: "La noblesse spirituelle et sociale (comparatisme)"
+title: La noblesse spirituelle et sociale (comparatisme)
 type: symbole
 status: traditionnel
-tradition_cadre: "universel"
-tags: [comparatisme, futuwwa]
+tradition_cadre: universel
+tags:
+- comparatisme
+- futuwwa
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/rene-guenon]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/rene-guenon]]'
 ---
 
 # La noblesse spirituelle et sociale (comparatisme)

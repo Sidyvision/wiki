@@ -1,14 +1,19 @@
 ---
-title: "Furin (風鈴) — le carillon à vent japonais"
+title: Furin (風鈴) — le carillon à vent japonais
 type: symbole
 status: traditionnel
-tradition_cadre: "shintoisme"
-tags: [shinto, comparatisme, son]
+tradition_cadre: shintoisme
+tags:
+- shinto
+- comparatisme
+- son
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/traditions/shinto]]", "[[doctrinal/symboles/alam-al-mithal]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/traditions/shinto]]'
+- '[[doctrinal/symboles/alam-al-mithal]]'
 ---
 
 # Furin (風鈴) — le carillon à vent japonais

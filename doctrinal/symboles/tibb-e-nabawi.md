@@ -1,14 +1,23 @@
 ---
-title: "Tibb-e-Nabawi (médecine prophétique)"
+title: Tibb-e-Nabawi (médecine prophétique)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [medecine-islamique, tibb, prophetic-medicine, sunnah, nutrition, hijama]
+tradition_cadre: islam
+tags:
+- medecine-islamique
+- tibb
+- prophetic-medicine
+- sunnah
+- nutrition
+- hijama
 created: 2026-06-05
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[ibn-qayyim]]", "[[ibn-sina]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[ibn-qayyim]]'
+- '[[ibn-sina]]'
 ---
 
 # Tibb-e-Nabawi (médecine prophétique)

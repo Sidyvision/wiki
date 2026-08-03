@@ -1,14 +1,22 @@
 ---
-title: "Al-Jazarī"
+title: Al-Jazarī
 type: autorite
 status: traditionnel
-tradition_cadre: "islam"
-tags: [ingenierie, automates, mecanique, islam-medieval, cybernétique]
+tradition_cadre: islam
+tags:
+- ingenierie
+- automates
+- mecanique
+- islam-medieval
+- cybernétique
 created: 2026-06-04
 updated: 2026-06-11
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[2026-06-04_islam-et-ia]]", "[[al-khwarizmi]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[2026-06-04_islam-et-ia]]'
+- '[[al-khwarizmi]]'
 ---
 
 # Al-Jazarī

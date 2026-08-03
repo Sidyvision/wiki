@@ -1,14 +1,28 @@
 ---
-title: "Asmāʾ al-Ḥusnā"
+title: Asmāʾ al-Ḥusnā
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [noms-divins, islam, soufisme, dhikr, al-buni]
+tradition_cadre: islam
+tags:
+- noms-divins
+- islam
+- soufisme
+- dhikr
+- al-buni
 created: 2026-06-02
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[ahmad-al-buni]]", "[[ilm-al-huruf]]", "[[talisman-sihr]]", "[[tasawwuf]]", "[[wird-awrad]]", "[[wahdat-al-wujud]]", "[[tawakkul]]", "[[hasbiyallah-rabbani]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[ahmad-al-buni]]'
+- '[[ilm-al-huruf]]'
+- '[[talisman-sihr]]'
+- '[[tasawwuf]]'
+- '[[wird-awrad]]'
+- '[[wahdat-al-wujud]]'
+- '[[tawakkul]]'
+- '[[hasbiyallah-rabbani]]'
 ---
 
 # Asmāʾ al-Ḥusnā

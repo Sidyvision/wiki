@@ -1,14 +1,20 @@
 ---
-title: "Les cœurs subtils (laṭāʾif) et le motif du « deuxième cœur »"
+title: Les cœurs subtils (laṭāʾif) et le motif du « deuxième cœur »
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, lataif, comparatisme, folklore]
+tradition_cadre: islam
+tags:
+- soufisme
+- lataif
+- comparatisme
+- folklore
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/autorites/ibn-arabi]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/al-ghazali]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
 ---
 
 # Les cœurs subtils (laṭāʾif) et le motif du « deuxième cœur »

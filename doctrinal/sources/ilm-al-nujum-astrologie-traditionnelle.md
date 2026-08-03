@@ -1,13 +1,23 @@
 ---
-title: "ʿIlm al-Nujûm — Les Bases de la Science Astrologique Traditionnelle"
+title: ʿIlm al-Nujûm — Les Bases de la Science Astrologique Traditionnelle
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [astrologie, ilm-al-nujum, planetes, signes, maisons, aspects]
+tradition_cadre: islam
+tags:
+- astrologie
+- ilm-al-nujum
+- planetes
+- signes
+- maisons
+- aspects
 created: 2026-06-03
 updated: 2026-06-11
 sources_count: 0
-cross_links: ["[[ilm-al-nujum]]", "[[ibn-arabi]]", "[[ilm-al-huruf]]"]
+cross_links:
+- '[[ilm-al-nujum]]'
+- '[[ibn-arabi]]'
+- '[[ilm-al-huruf]]'
+sources: []
 ---
 
 # ʿIlm al-Nujûm — Les Bases de la Science Astrologique Traditionnelle

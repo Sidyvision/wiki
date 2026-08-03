@@ -1,24 +1,33 @@
 ---
-title: "Le septénaire transversal, la Balance et le degré du Soleil — référentiels stellaires et états d'une même fonction"
+title: Le septénaire transversal, la Balance et le degré du Soleil — référentiels
+  stellaires et états d'une même fonction
 type: discernement
 status: traditionnel
-tradition_cadre: "universel"
-tags: [grande-ourse, pleiades, septenaire, balance, mizan, degre-24, idrîs, gizeh, polaire-solaire, cycles]
+tradition_cadre: universel
+tags:
+- grande-ourse
+- pleiades
+- septenaire
+- balance
+- mizan
+- degre-24
+- idrîs
+- gizeh
+- polaire-solaire
+- cycles
 created: 2026-07-27
 updated: 2026-07-27
-sources: [
-  "[[doctrinal/sources/guenon-roi-du-monde-ch10]]",
-  "[[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]]",
-  "[[doctrinal/sources/mahdi-rouge-islam-signe-balance-II]]",
-  "[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"
-]
+sources:
+- '[[doctrinal/sources/guenon-roi-du-monde-ch10]]'
+- '[[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]]'
+- '[[doctrinal/sources/mahdi-rouge-islam-signe-balance-II]]'
+- '[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]'
 sources_count: 4
-cross_links: [
-  "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]",
-  "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
-  "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]",
-  "[[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]]"
-]
+cross_links:
+- '[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]'
+- '[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]'
+- '[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]'
+- '[[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]]'
 ---
 
 # Le septénaire transversal, la Balance et le degré du Soleil — référentiels stellaires et états d'une même fonction

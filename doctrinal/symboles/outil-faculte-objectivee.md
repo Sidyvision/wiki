@@ -1,14 +1,21 @@
 ---
-title: "L'outil comme faculté objectivée — comparatisme islamo-platonico-védantin"
+title: L'outil comme faculté objectivée — comparatisme islamo-platonico-védantin
 type: symbole
 status: traditionnel
-tradition_cadre: "universel"
-tags: [comparatisme, metaphysique, instrument]
+tradition_cadre: universel
+tags:
+- comparatisme
+- metaphysique
+- instrument
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/autorites/platon]]", "[[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/al-ghazali]]'
+- '[[doctrinal/autorites/platon]]'
+- '[[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana]]'
 ---
 
 # L'outil comme faculté objectivée

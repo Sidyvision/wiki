@@ -1,13 +1,26 @@
 ---
-title: "Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)"
+title: Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, litanies, salawat, awrad, ibn-arabi, traduction]
+tradition_cadre: islam
+tags:
+- soufisme
+- litanies
+- salawat
+- awrad
+- ibn-arabi
+- traduction
 created: 2026-06-02
 updated: 2026-06-11
 sources_count: 0
-cross_links: ["[[ibn-arabi]]", "[[ali-hussain]]", "[[wird-awrad]]", "[[salawat]]", "[[walaya]]", "[[tasawwuf]]"]
+cross_links:
+- '[[ibn-arabi]]'
+- '[[ali-hussain]]'
+- '[[wird-awrad]]'
+- '[[salawat]]'
+- '[[walaya]]'
+- '[[tasawwuf]]'
+sources: []
 ---
 
 # Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)

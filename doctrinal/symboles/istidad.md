@@ -1,14 +1,20 @@
 ---
-title: "Al-Istiʿdād (la disposition réceptive de l'être)"
+title: Al-Istiʿdād (la disposition réceptive de l'être)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [ibn-arabi, metaphysique, non-syncretisme]
+tradition_cadre: islam
+tags:
+- ibn-arabi
+- metaphysique
+- non-syncretisme
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/firasa]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/deviations/reincarnation-vies-anterieures]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/firasa]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/deviations/reincarnation-vies-anterieures]]'
 ---
 
 # Al-Istiʿdād (la disposition réceptive de l'être)

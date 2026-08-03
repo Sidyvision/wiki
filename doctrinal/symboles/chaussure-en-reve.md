@@ -1,14 +1,18 @@
 ---
-title: "Chaussure (naʿl) en rêve"
+title: Chaussure (naʿl) en rêve
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [oniromancie, stub]
+tradition_cadre: islam
+tags:
+- oniromancie
+- stub
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/symboles/homme-pieux-en-reve]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/taabir-al-ruya]]'
+- '[[doctrinal/symboles/homme-pieux-en-reve]]'
 ---
 
 # Chaussure (naʿl) en rêve

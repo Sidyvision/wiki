@@ -1,13 +1,17 @@
 ---
-title: "Spéculation sur [Sujet de la réflexion]"
+title: Spéculation sur [Sujet de la réflexion]
 type: discernement
 status: speculatif
-tradition_cadre: "universel"
-tags: [speculation, en-cours, stub]
+tradition_cadre: universel
+tags:
+- speculation
+- en-cours
+- stub
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
+sources:
+- to-source
+sources_count: 0
 cross_links: []
 ---
 

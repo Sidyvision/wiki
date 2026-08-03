@@ -1,13 +1,16 @@
 ---
-title: "Muqarnas — géométrie sacrée de l'art islamique"
+title: Muqarnas — géométrie sacrée de l'art islamique
 type: symbole
 status: academique
-tradition_cadre: "islam"
-tags: [art-islamique, geometrie-sacree, stub]
+tradition_cadre: islam
+tags:
+- art-islamique
+- geometrie-sacree
+- stub
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
+sources_count: 0
 cross_links: []
 ---
 

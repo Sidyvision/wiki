@@ -1,14 +1,20 @@
 ---
-title: "Waqiʿa (l'irruption intérieure) et al-Wāqiʿa (l'Heure)"
+title: Waqiʿa (l'irruption intérieure) et al-Wāqiʿa (l'Heure)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, terminologie, stub, citations-a-verifier]
+tradition_cadre: islam
+tags:
+- soufisme
+- terminologie
+- stub
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
 ---
 
 # Waqiʿa (l'irruption intérieure) et al-Wāqiʿa (l'Heure)

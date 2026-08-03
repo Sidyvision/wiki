@@ -1,14 +1,26 @@
 ---
-title: "Spéculation sur la science des matrices artificielles et le Barzakh comme lieu de poursuite spirituelle"
+title: Spéculation sur la science des matrices artificielles et le Barzakh comme lieu
+  de poursuite spirituelle
 type: discernement
 status: speculatif
-tradition_cadre: "islam"
-tags: [discernement, barzakh, khalwa, en-cours, pseudo-science-a-surveiller]
+tradition_cadre: islam
+tags:
+- discernement
+- barzakh
+- khalwa
+- en-cours
+- pseudo-science-a-surveiller
 created: 2026-06-20
 updated: 2026-07-10
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/khalwa]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/technologisation-pseudo-scientifique]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/barzakh]]'
+- '[[doctrinal/symboles/khalwa]]'
+- '[[doctrinal/symboles/alam-al-mithal]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/rene-guenon]]'
+- '[[doctrinal/deviations/technologisation-pseudo-scientifique]]'
 ---
 
 # Spéculation sur la science des matrices artificielles et le Barzakh comme lieu de poursuite spirituelle

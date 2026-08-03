@@ -1,14 +1,21 @@
 ---
-title: "La Pierre Noire de la Mecque (al-Ḥajar al-Aswad)"
+title: La Pierre Noire de la Mecque (al-Ḥajar al-Aswad)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [kaaba, hadith, axis-mundi]
+tradition_cadre: islam
+tags:
+- kaaba
+- hadith
+- axis-mundi
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/walaya-fath-adab]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/al-ghazali]]'
+- '[[doctrinal/autorites/rene-guenon]]'
+- '[[doctrinal/symboles/walaya-fath-adab]]'
 ---
 
 # La Pierre Noire de la Mecque (al-Ḥajar al-Aswad)

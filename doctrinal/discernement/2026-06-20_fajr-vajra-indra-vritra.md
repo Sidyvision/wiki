@@ -1,14 +1,27 @@
 ---
-title: "Spéculation sur le système Fajr/Vajra/Indra/Vritra/Nur/Fath comme schéma initiatique intérieur unifié"
+title: Spéculation sur le système Fajr/Vajra/Indra/Vritra/Nur/Fath comme schéma initiatique
+  intérieur unifié
 type: discernement
 status: traditionnel
-tradition_cadre: "universel"
-tags: [discernement, gematrie, non-syncretisme, complementarite-investiguee, clos]
+tradition_cadre: universel
+tags:
+- discernement
+- gematrie
+- non-syncretisme
+- complementarite-investiguee
+- clos
 created: 2026-06-20
 updated: 2026-07-14
-sources: ["[[doctrinal/sources/guenon-mysteres-lettre-nun]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]"]
-sources_count: 3
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/symboles/merkavah-muraqaba]]", "[[doctrinal/deviations/reincarnation-vies-anterieures]]"]
+sources:
+- '[[doctrinal/sources/guenon-mysteres-lettre-nun]]'
+- '[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]'
+sources_count: 2
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/traditions/sanatana-dharma]]'
+- '[[doctrinal/symboles/asma-al-husna]]'
+- '[[doctrinal/symboles/merkavah-muraqaba]]'
+- '[[doctrinal/deviations/reincarnation-vies-anterieures]]'
 ---
 
 # Spéculation sur le système Fajr/Vajra/Indra/Vritra/Nur/Fath

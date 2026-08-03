@@ -1,14 +1,17 @@
 ---
-title: "Sacralité et désacralisation d'un espace shintoïste"
+title: Sacralité et désacralisation d'un espace shintoïste
 type: symbole
 status: traditionnel
-tradition_cadre: "shintoisme"
-tags: [shinto, purete-rituelle]
+tradition_cadre: shintoisme
+tags:
+- shinto
+- purete-rituelle
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/traditions/shinto]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/traditions/shinto]]'
 ---
 
 # Sacralité et désacralisation d'un espace shintoïste

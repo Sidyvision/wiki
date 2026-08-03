@@ -27,17 +27,12 @@ technique]] pour l'état d'avancement par phase.
   manifeste]]
 
 **Données et génération** (Phase 1, livrée) :
-- [[atelier/projets/instrument-donnees|instrument-donnees.yaml]] — v0.3, 36 nœuds
-  (8 notionnels/structurants + 28 nœuds-degrés)
-- [[atelier/projets/generer-manifeste|generer-manifeste.py]] — générateur
-  déterministe, validations bloquantes, zéro LLM dans la boucle
-- [[atelier/projets/angles-de-l-espace|Angles de l'Espace]] — les quatre Angles
-  astrologiques (AS/DS/MC/FC), relectures tranchées
+- `instrument-donnees.yaml` — v0.3, 36 nœuds (8 notionnels/structurants + 28 nœuds-degrés)
+- `generer-manifeste.py` — générateur déterministe, validations bloquantes, zéro LLM dans la boucle
+- [[angles-de-l-espace|Angles de l'Espace]] — les quatre Angles astrologiques (AS/DS/MC/FC), relectures tranchées
 
 **Prototype** :
-- [[atelier/projets/instrument-prototype|instrument-prototype.html]] — prototype
-  Three.js v0.1, axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil,
-  boucle 38→11, anneau des nœuds notionnels
+- `instrument-prototype.html` — prototype Three.js v0.1, axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels
 
 **Socle métaphysique universel** (en cours, 2026-07-16) — fondations de la trilogie
 guénonienne (*Le Symbolisme de la Croix*, *Les États multiples de l'être*,

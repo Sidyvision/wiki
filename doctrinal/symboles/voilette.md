@@ -1,14 +1,20 @@
 ---
-title: "Le voile du visage — hijab/niqab islamique et voilette occidentale en résille"
+title: Le voile du visage — hijab/niqab islamique et voilette occidentale en résille
 type: symbole
 status: traditionnel
-tradition_cadre: "universel"
-tags: [voile, comparatisme, rite-de-passage, citations-a-verifier]
+tradition_cadre: universel
+tags:
+- voile
+- comparatisme
+- rite-de-passage
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/rene-guenon]]'
 ---
 
 # Le voile du visage — hijab/niqab islamique et voilette occidentale en résille

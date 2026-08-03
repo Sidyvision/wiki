@@ -1,14 +1,22 @@
 ---
-title: "L'Imam Mālik b. Anas"
+title: L'Imam Mālik b. Anas
 type: autorite
 status: traditionnel
-tradition_cadre: "islam"
-tags: [fiqh, maliki, imam, medine, hadith]
+tradition_cadre: islam
+tags:
+- fiqh
+- maliki
+- imam
+- medine
+- hadith
 created: 2026-07-06
 updated: 2026-07-06
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[madhhab-maliki]]", "[[fiqh]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[madhhab-maliki]]'
+- '[[fiqh]]'
 ---
 
 # L'Imam Mālik b. Anas

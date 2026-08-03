@@ -6,8 +6,8 @@ tradition_cadre: "universel"
 tags: [discernement, cinq-presences, duodenaire, entreprise, label, archetypes, en-cours]
 created: 2026-07-05
 updated: 2026-07-14
-sources: ["[[doctrinal/sources/guenon-zodiaque-pythagoriciens]]", "[[meta/projet-unifie/hermes-prompts]]"]
-sources_count: 2
+sources: ["[[doctrinal/sources/guenon-zodiaque-pythagoriciens]]"]
+sources_count: 1
 cross_links: ["[[hadarat-khams]]", "[[ilm-al-nujum]]", "[[manazil-al-qamar]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]"]
 ---
 

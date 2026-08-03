@@ -1,14 +1,20 @@
 ---
-title: "Nāda (नाद) — le son primordial"
+title: Nāda (नाद) — le son primordial
 type: symbole
 status: traditionnel
-tradition_cadre: "hindouisme"
-tags: [vedanta, tantra, son, comparatisme]
+tradition_cadre: hindouisme
+tags:
+- vedanta
+- tantra
+- son
+- comparatisme
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/symboles/bindu]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/traditions/sanatana-dharma]]'
+- '[[doctrinal/symboles/bindu]]'
 ---
 
 # Nāda (नाद) — le son primordial

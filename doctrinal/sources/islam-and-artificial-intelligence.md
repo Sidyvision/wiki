@@ -1,13 +1,28 @@
 ---
-title: "Islam and Artificial Intelligence"
+title: Islam and Artificial Intelligence
 type: source
 status: academique
-tradition_cadre: "islam"
-tags: [islam, intelligence-artificielle, metaphysique, theologie, academique, cambridge]
+tradition_cadre: islam
+tags:
+- islam
+- intelligence-artificielle
+- metaphysique
+- theologie
+- academique
+- cambridge
 created: 2026-06-04
 updated: 2026-06-11
 sources_count: 0
-cross_links: ["[[yaqub-chaudhary]]", "[[2026-06-04_islam-et-ia]]", "[[ibn-sina]]", "[[al-ghazali]]", "[[al-jazari]]", "[[al-khwarizmi]]", "[[tasawwuf]]", "[[wahdat-al-wujud]]"]
+cross_links:
+- '[[yaqub-chaudhary]]'
+- '[[2026-06-04_islam-et-ia]]'
+- '[[ibn-sina]]'
+- '[[al-ghazali]]'
+- '[[al-jazari]]'
+- '[[al-khwarizmi]]'
+- '[[tasawwuf]]'
+- '[[wahdat-al-wujud]]'
+sources: []
 ---
 
 # Islam and Artificial Intelligence

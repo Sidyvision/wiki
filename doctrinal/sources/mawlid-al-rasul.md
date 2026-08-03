@@ -1,14 +1,26 @@
 ---
-title: "Mawlid al-Rasūl al-Aʿẓam"
+title: Mawlid al-Rasūl al-Aʿẓam
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [mawlid, salawat, soufisme, abd-al-qadir-al-jilani, hanbalisme, devotionnel]
+tradition_cadre: islam
+tags:
+- mawlid
+- salawat
+- soufisme
+- abd-al-qadir-al-jilani
+- hanbalisme
+- devotionnel
 created: 2026-06-05
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[abd-al-qadir-al-jilani]]", "[[salawat]]", "[[walaya]]", "[[tasawwuf]]", "[[wird-awrad]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[abd-al-qadir-al-jilani]]'
+- '[[salawat]]'
+- '[[walaya]]'
+- '[[tasawwuf]]'
+- '[[wird-awrad]]'
 ---
 
 # Mawlid al-Rasūl al-Aʿẓam

@@ -1,13 +1,27 @@
 ---
-title: "Shams al-Maʿārif al-Kubrā — Traduction française (Tomes 1 & 2)"
+title: Shams al-Maʿārif al-Kubrā — Traduction française (Tomes 1 & 2)
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, ilm-al-huruf, astrologie, noms-divins, talismans, al-buni, traduction]
+tradition_cadre: islam
+tags:
+- soufisme
+- ilm-al-huruf
+- astrologie
+- noms-divins
+- talismans
+- al-buni
+- traduction
 created: 2026-06-02
 updated: 2026-06-11
 sources_count: 0
-cross_links: ["[[ahmad-al-buni]]", "[[ouattara-brahima]]", "[[ilm-al-huruf]]", "[[asma-al-husna]]", "[[talisman-sihr]]", "[[tasawwuf]]"]
+cross_links:
+- '[[ahmad-al-buni]]'
+- '[[ouattara-brahima]]'
+- '[[ilm-al-huruf]]'
+- '[[asma-al-husna]]'
+- '[[talisman-sihr]]'
+- '[[tasawwuf]]'
+sources: []
 ---
 
 # Shams al-Maʿārif al-Kubrā — Traduction française (Tomes 1 & 2)

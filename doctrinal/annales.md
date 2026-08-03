@@ -67,7 +67,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   - [[doctrinal/sources/mahdi-rouge-islam-signe-balance-II]] (Balance comme commencement cyclique, cycles Ibn ʿArabī)
 - **Créé** (fiche discernement) : 🔍 [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] — statut `en cours`, plan consigné en [[meta/plan-fiche-discernement-septenaire-transversal-2026-07-27]], rédaction déléguée session suivante
 - **Modifié** (spécification) : [[atelier/projets/spec-anneau-zodiacal.md]] — quatre amendements applicables (dédoublement 19/20, paramètre époque validé, confirmation degré 19, non-alignement renforcé)
-- **Modifié** (manifeste Instrument) : [[atelier/projets/instrument-donnees.yaml]] — ajout de 7 ancrages prophètes planétaires (degrés 21-27, source Gloton/Mahdi Rouge, statut établi) + paramètres zodiaque (degre_falak_al_buruj: 19 + degre_falak_al_manazil: 20, obliquite_deg, epoque_reference)
+- **Modifié** (manifeste Instrument) :  — ajout de 7 ancrages prophètes planétaires (degrés 21-27, source Gloton/Mahdi Rouge, statut établi) + paramètres zodiaque (degre_falak_al_buruj: 19 + degre_falak_al_manazil: 20, obliquite_deg, epoque_reference)
 - **Contexte** : vérification textuelle Gloton pp. 39-40 par Sidy (2026-07-27) ferme trois points en suspens et valide six décisions : dédoublement 19/20, paramètre époque, règle dossier égyptien, non-conflation polaire/solaire, fiche discernement unique, révision sept ancrages. Triple convergence numérique (manzil 14/degré 24, ordre cieux, Meftah) confirme Idrîs au Soleil au degré 24. Hiérarchie cosmogonique islamique (falak al-burūj/falak al-manāzil) justifie doctrinalement le dédoublement et la règle non-alignement 12/28 manāzil.
 - **Vigilances** : Hermès=Idrîs reste à sourcer sur texte primaire attesté (pas supposée) ; passage Hermès→localisation Gizeh resté `kari-kumi` (pièces s'emboîtent, non collées) ; résonance *al-Bāṭin* 13/*al-Ẓāhir* 15 signalée, non instruite ; conflit position 5 (Gémeaux/Hermès) peut rouvrir si deux éléments nouveaux l'affectent. Confrontation Gizeh consignée : aucun ancrage établi côté Gizeh, non-conflation polaire/solaire réaffirmée (c'est le Pôle *dans* le solaire).
 - **Prochaine étape** : rédaction fiche discernement septénaire transversal (plan fourni, ~1000 lignes, 6 sections) ; fermeture `doctrinal/annales.md` d'entrées Mahdi Rouge I-II et Guénon RdM dans la section « sources » (preuves historiques) ; validation par Sidy du verdict final de la fiche discernement ; fermeture possible du lot B en `statut: close (traditionnel)` ou report en attente d'instruction supplémentaire.
@@ -129,7 +129,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   - `doctrinal/symboles/` : ilm-al-huruf, asma-al-husna, ilm-al-nujum, salawat, talisman-sihr, wird-awrad
   - `doctrinal/etudes/` : 2026-06-04_islam-et-ia
 - **LOT C** — 2 fiches (coquille slug → correction) :
-  - `atelier/projets/spec-technique-axe-38-degres.md` : `[[table-28-degres-nafas-rahmân]]` → `[[doctrinal/symboles/table-28-degres-nafas-rahman]]`
+  - `atelier/projets/spec-technique-axe-38-degres.md` : `[[table-28-degres-nafas-rahman]]` → `[[doctrinal/symboles/table-28-degres-nafas-rahman]]`
   - `doctrinal/sources/transcription-anneau-28-lettres-figure4.md` : idem dans cross_links
 - **LOT D** — 3 fiches sans frontmatter (signalement seul, aucune modification) :
   - `doctrinal/sources/transcription-index-tilak-origine-polaire.md`
@@ -467,9 +467,9 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Créé** : [[doctrinal/sources/sept-etendards-califat]] (`source`, `traditionnel`, islam) — avant-propos (p. 7-8), table des matières complète (40 chapitres en 3 parties), index des termes arabes (p. 313-318, 6 pages, hamza à z).
 - **Non transcrit** : corps du texte (chapitres I à XL, p. 13-311) — reste `to-source`.
 - **Pertinence** : source majeure sur le Califat ésotérique akbarien ; relie [[doctrinal/autorites/ibn-arabi]] et [[doctrinal/autorites/rene-guenon]] via la doctrine des sept Étendards (chap. XXXVIII) et le Califat Suprême (chap. XL). Complète l'ouvrage Gilis déjà présent [[doctrinal/sources/gilis-ordo-ab-chao]].
-- **Frontmatter** : `sources` ajouté (pointe vers `[[doctrinal/autorites/charles-andre-gilis]]` — fiche à créer) ; `status` passé de `to-source` à `traditionnel` ; `cross_links` ramené à deux cibles vérifiées présentes (ibn-arabi, rene-guenon).
+- **Frontmatter** : `sources` ajouté (pointe vers `` — fiche à créer) ; `status` passé de `to-source` à `traditionnel` ; `cross_links` ramené à deux cibles vérifiées présentes (ibn-arabi, rene-guenon).
 - **VIGILANCE** :
-  1. `[[doctrinal/autorites/charles-andre-gilis]]` et `[[doctrinal/autorites/michel-valsan]]` : fiches inexistantes. Gilis référencé en `sources:` (cible manquante signalée), Vâlsan retiré des `cross_links` pour éviter le lien mort.
+  1. `` et `` : fiches inexistantes. Gilis référencé en `sources:` (cible manquante signalée), Vâlsan retiré des `cross_links` pour éviter le lien mort.
   2. L'entrée index placée en §VI (Sources), après les Révélations de La Mecque.
 - **Sas** : fichier retiré de `_inbox/` après intégration validée.
 
@@ -485,7 +485,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   [[doctrinal/sources/ibn-arabi-fard-afrad-gilis]],
   [[doctrinal/sources/bukhari-5754-tiyara-fal]],
   [[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]) ; complément versé à
-  [[doctrinal/sources/sept-etendards-du-califat]] ; 10 fiches
+   ; 10 fiches
   `doctrinal/discernement/` enrichies (Généalogie des idées / Lectures suggérées) —
   voir MASTER-UPDATE pour le détail par fiche.
 - **Source brute** : bibliothèque physique de Sidy (photographies), session Claude.ai
@@ -737,7 +737,7 @@ ancrage servant de signal de vigilance.
 ## [2026-07-01] archivage | Intégration du sas `_inbox/` — source Ibn ʿArabī *De la mort à la résurrection* (Gloton) + briefing transition Qwen3.6-27B
 - **Opération** : ARCHIVAGE & MAILLAGE + apurement du sas `_inbox/` (2 fichiers loose, sans `UPDATES.md` ; routage déduit du `type:`).
 - **Doctrinal** : créé la fiche source primaire [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton|De la mort à la résurrection — Ibn ʿArabī (trad. M. Gloton, Albouraq)]] (`source`, `traditionnel`, islam) — chapitre 198 des *Futūhāt* (nafas al-raḥmān, 28+10 degrés, table lettre × Nom × Manzil × signe). Ajoutée à l'index §VI (regroupée avec [[doctrinal/sources/transcription-anneau-28-lettres-figure4]], même ouvrage).
-- **Réparation frontmatter** : lien `[[table-28-degres-nafas-rahmân]]` (circonflexe) recartographié en `[[table-28-degres-nafas-rahman]]` (slug ASCII réel), 3 occurrences.
+- **Réparation frontmatter** : lien `[[table-28-degres-nafas-rahman]]` (circonflexe) recartographié en `[[table-28-degres-nafas-rahman]]` (slug ASCII réel), 3 occurrences.
 - **Clôture de signalement** : ce dépôt **résout le point VIGILANCE (1)** de l'entrée « Ménage & intégration du sas `_inbox/` » (2026-07-01) — la source était « référencée mais non déposée → liens `to-source` ». Les liens de [[doctrinal/symboles/table-28-degres-nafas-rahman]] (pré-câblés) ne sont plus morts ; [[doctrinal/symboles/eschatologie]] passe de `to-source` à la source déposée (`#stub` maintenu, corps à développer côté Claude.ai).
 - **meta/ (outillage)** : classé [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01]] (briefing transition modèle local Ornith-1.0-9B → **Qwen3.6-27B-FP8** : bilan tests Ornith, justification, 3 changements du runbook §3.2, état Pod RunPod, actions A→H). Nom normalisé en minuscules (§III). Référencé dans [[meta/projet-unifie/README]] (Outils opérationnels). Confiné à `meta/` — aucun croisement d'étanchéité.
 

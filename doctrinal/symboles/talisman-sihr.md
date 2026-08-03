@@ -1,14 +1,24 @@
 ---
-title: "Talisman / Simiyāʾ"
+title: Talisman / Simiyāʾ
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [occultisme-islamique, talisman, sihr, simiya, awfaq, al-buni]
+tradition_cadre: islam
+tags:
+- occultisme-islamique
+- talisman
+- sihr
+- simiya
+- awfaq
+- al-buni
 created: 2026-06-02
 updated: 2026-06-11
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[ahmad-al-buni]]", "[[ilm-al-huruf]]", "[[asma-al-husna]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[ahmad-al-buni]]'
+- '[[ilm-al-huruf]]'
+- '[[asma-al-husna]]'
 ---
 
 # Talisman / Simiyāʾ

@@ -1,14 +1,25 @@
 ---
-title: "Données géométriques, géodésiques et métrologiques de la Grande Pyramide de Gizeh"
+title: Données géométriques, géodésiques et métrologiques de la Grande Pyramide de
+  Gizeh
 type: etude
 status: academique
-tradition_cadre: "none"
-tags: [gizeh, geodesie, metrologie, mathematiques, pi, phi, coudee]
+tradition_cadre: none
+tags:
+- gizeh
+- geodesie
+- metrologie
+- mathematiques
+- pi
+- phi
+- coudee
 created: 2026-07-02
 updated: 2026-07-03
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]'
+- '[[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28]]'
 ---
 
 # Données géométriques, géodésiques et métrologiques de la Grande Pyramide de Gizeh

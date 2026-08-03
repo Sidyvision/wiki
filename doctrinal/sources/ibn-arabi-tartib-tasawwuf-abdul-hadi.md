@@ -1,14 +1,35 @@
 ---
-title: "Ibn ʿArabī (trad. Abdul-Hâdî/Ivan Aguéli) — Tartîbut-Taçawwuf, les catégories de l'initiation"
+title: Ibn ʿArabī (trad. Abdul-Hâdî/Ivan Aguéli) — Tartîbut-Taçawwuf, les catégories
+  de l'initiation
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [ibn-arabi, tartib-tasawwuf, abdul-hadi, ivan-agueli, la-gnose, hierarchie-initiatique, naqib, awliya, maqamat, afrad, abdal, malamatiyah, khidr, qutb-meru-1911, incomplete]
+tradition_cadre: islam
+tags:
+- ibn-arabi
+- tartib-tasawwuf
+- abdul-hadi
+- ivan-agueli
+- la-gnose
+- hierarchie-initiatique
+- naqib
+- awliya
+- maqamat
+- afrad
+- abdal
+- malamatiyah
+- khidr
+- qutb-meru-1911
+- incomplete
 created: 2026-07-16
 updated: 2026-07-16
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/symboles/walaya]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/rene-guenon]]'
+- '[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]'
+- '[[doctrinal/symboles/walaya]]'
 ---
 
 # Ibn ʿArabī — Tartîbut-Taçawwuf, les catégories de l'initiation (trad. Abdul-Hâdî)

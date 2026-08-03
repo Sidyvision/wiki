@@ -1,14 +1,21 @@
 ---
-title: "Khalwa (la retraite spirituelle)"
+title: Khalwa (la retraite spirituelle)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, pratique, retraite, stub]
+tradition_cadre: islam
+tags:
+- soufisme
+- pratique
+- retraite
+- stub
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/alam-al-mithal]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/barzakh]]'
+- '[[doctrinal/symboles/alam-al-mithal]]'
 ---
 
 # Khalwa (la retraite spirituelle)

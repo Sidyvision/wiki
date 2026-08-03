@@ -1,14 +1,23 @@
 ---
-title: "Burckhardt — Introduction aux doctrines ésotériques de l'Islam"
+title: Burckhardt — Introduction aux doctrines ésotériques de l'Islam
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [burckhardt, ibn-arabi, cinq-presences, hadarat, wilaya, akbarien]
+tradition_cadre: islam
+tags:
+- burckhardt
+- ibn-arabi
+- cinq-presences
+- hadarat
+- wilaya
+- akbarien
 created: 2026-07-09
 updated: 2026-07-09
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]]", "[[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]]'
+- '[[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]'
 ---
 
 # Burckhardt — *Introduction aux doctrines ésotériques de l'Islam*

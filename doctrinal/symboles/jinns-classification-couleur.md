@@ -1,14 +1,19 @@
 ---
-title: "Classification populaire des jinns par couleur (Akhmar et autres)"
+title: Classification populaire des jinns par couleur (Akhmar et autres)
 type: symbole
 status: contre-traditionnel
-tradition_cadre: "islam"
-tags: [jinn, occultisme-populaire, distinction-doctrinale]
+tradition_cadre: islam
+tags:
+- jinn
+- occultisme-populaire
+- distinction-doctrinale
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/talisman-sihr]]", "[[doctrinal/autorites/ibn-arabi]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/talisman-sihr]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
 ---
 
 # Classification populaire des jinns par couleur (Akhmar et autres)

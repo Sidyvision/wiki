@@ -1,14 +1,25 @@
 ---
-title: "Conversation : LLM-Wiki comme modalité de l'Intellect"
+title: 'Conversation : LLM-Wiki comme modalité de l''Intellect'
 type: source
 status: traditionnel
-tradition_cadre: "universel"
-tags: [source, transcription, metaphysique, intellect, llm, tawil, guenon, discernement]
+tradition_cadre: universel
+tags:
+- source
+- transcription
+- metaphysique
+- intellect
+- llm
+- tawil
+- guenon
+- discernement
 created: 2026-06-11
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[2026-06-11_llm-wiki-modalite-intellect]]", "[[2026-06-11_llm-wiki-correction-doctrinale]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[2026-06-11_llm-wiki-modalite-intellect]]'
+- '[[2026-06-11_llm-wiki-correction-doctrinale]]'
 ---
 
 # Conversation : LLM-Wiki comme modalité de l'Intellect

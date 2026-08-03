@@ -1,14 +1,23 @@
 ---
-title: "Le madhhab mālikite (école de l'Imam Mālik)"
+title: Le madhhab mālikite (école de l'Imam Mālik)
 type: tradition
 status: traditionnel
-tradition_cadre: "islam"
-tags: [fiqh, madhhab, maliki, droit, ecole]
+tradition_cadre: islam
+tags:
+- fiqh
+- madhhab
+- maliki
+- droit
+- ecole
 created: 2026-07-06
 updated: 2026-07-06
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[imam-malik]]", "[[fiqh]]", "[[ahl-al-sunnah-wa-l-jamaa]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[imam-malik]]'
+- '[[fiqh]]'
+- '[[ahl-al-sunnah-wa-l-jamaa]]'
 ---
 
 # Le madhhab mālikite (école de l'Imam Mālik)

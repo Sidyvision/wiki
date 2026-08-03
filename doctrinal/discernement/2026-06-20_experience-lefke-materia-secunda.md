@@ -1,14 +1,23 @@
 ---
-title: "Spéculation sur l'expérience du cordon dorsal, de la « Mère » et des petites entités (materia secunda)"
+title: Spéculation sur l'expérience du cordon dorsal, de la « Mère » et des petites
+  entités (materia secunda)
 type: discernement
 status: speculatif
-tradition_cadre: "islam"
-tags: [discernement, waqia, en-cours, citations-a-verifier]
+tradition_cadre: islam
+tags:
+- discernement
+- waqia
+- en-cours
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/waqia]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/waqia]]'
+- '[[doctrinal/symboles/alam-al-mithal]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/al-ghazali]]'
 ---
 
 # Spéculation sur l'expérience du cordon dorsal, de la « Mère » et des petites entités (materia secunda)

@@ -1,14 +1,23 @@
 ---
-title: "Ibn ʿArabī sur les Afrâd (via Gilis) — statut du Fard et hiérarchie sainte"
+title: Ibn ʿArabī sur les Afrâd (via Gilis) — statut du Fard et hiérarchie sainte
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [ibn-arabi, gilis, fard, afrad, wilaya, pole, hierarchie-sainte]
+tradition_cadre: islam
+tags:
+- ibn-arabi
+- gilis
+- fard
+- afrad
+- wilaya
+- pole
+- hierarchie-sainte
 created: 2026-07-09
 updated: 2026-07-09
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]'
 ---
 
 # Ibn ʿArabī sur les *Afrâd* (via Gilis) — statut du *Fard*

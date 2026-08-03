@@ -1,14 +1,21 @@
 ---
-title: "Taʿbīr al-Ruʾyā (la science d'interprétation des rêves)"
+title: Taʿbīr al-Ruʾyā (la science d'interprétation des rêves)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [oniromancie, soufisme, citations-a-verifier]
+tradition_cadre: islam
+tags:
+- oniromancie
+- soufisme
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-sirin]]", "[[doctrinal/autorites/al-nabulusi]]", "[[doctrinal/autorites/ibn-arabi]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-sirin]]'
+- '[[doctrinal/autorites/al-nabulusi]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
 ---
 
 # Taʿbīr al-Ruʾyā (la science d'interprétation des rêves)

@@ -1,14 +1,24 @@
 ---
-title: "Gilis — Ordo ab Chao : la Franc-Maçonnerie dans la lumière du Prophète"
+title: 'Gilis — Ordo ab Chao : la Franc-Maçonnerie dans la lumière du Prophète'
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [gilis, ibn-arabi, franc-maconnerie, pharaon, fard, nombre-28, califat]
+tradition_cadre: islam
+tags:
+- gilis
+- ibn-arabi
+- franc-maconnerie
+- pharaon
+- fard
+- nombre-28
+- califat
 created: 2026-07-09
 updated: 2026-07-09
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]", "[[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]'
+- '[[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28]]'
 ---
 
 # Gilis — *Ordo ab Chao*

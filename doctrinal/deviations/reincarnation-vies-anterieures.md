@@ -1,13 +1,17 @@
 ---
-title: "Réincarnation et mémoire pré-existentielle de l'âme"
+title: Réincarnation et mémoire pré-existentielle de l'âme
 type: deviation
 status: contre-traditionnel
-tradition_cadre: "universel"
-tags: [reincarnation, eschatologie, stub]
+tradition_cadre: universel
+tags:
+- reincarnation
+- eschatologie
+- stub
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
+sources:
+- to-source
+sources_count: 0
 cross_links: []
 ---
 

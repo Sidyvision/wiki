@@ -1,14 +1,21 @@
 ---
-title: "Guénon — Lettre à A.K. Coomaraswamy (Le Caire, 5 novembre 1936) : sur la mémoire"
+title: 'Guénon — Lettre à A.K. Coomaraswamy (Le Caire, 5 novembre 1936) : sur la mémoire'
 type: source
 status: traditionnel
-tradition_cadre: "universel"
-tags: [guenon, coomaraswamy, memoire, etats-multiples, correspondance]
+tradition_cadre: universel
+tags:
+- guenon
+- coomaraswamy
+- memoire
+- etats-multiples
+- correspondance
 created: 2026-07-09
 updated: 2026-07-09
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/discernement/2026-06-20_visions-centre-nocturne]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/discernement/2026-06-20_visions-centre-nocturne]]'
 ---
 
 # Guénon — Lettre à Coomaraswamy (5 novembre 1936) : la mémoire

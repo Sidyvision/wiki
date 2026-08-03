@@ -1,14 +1,24 @@
 ---
-title: "Le Fiqh (la science des statuts de la Loi)"
+title: Le Fiqh (la science des statuts de la Loi)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [fiqh, droit, sciences-traditionnelles, sharia, muamalat]
+tradition_cadre: islam
+tags:
+- fiqh
+- droit
+- sciences-traditionnelles
+- sharia
+- muamalat
 created: 2026-07-06
 updated: 2026-07-06
-sources: ["[[kitab-al-tarifat-jurjani]]", "to-source"]
-sources_count: 2
-cross_links: ["[[madhhab-maliki]]", "[[imam-malik]]", "[[ahl-al-sunnah-wa-l-jamaa]]"]
+sources:
+- '[[kitab-al-tarifat-jurjani]]'
+- to-source
+sources_count: 1
+cross_links:
+- '[[madhhab-maliki]]'
+- '[[imam-malik]]'
+- '[[ahl-al-sunnah-wa-l-jamaa]]'
 ---
 
 # Le Fiqh (la science des statuts de la Loi)

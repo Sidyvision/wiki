@@ -1,14 +1,26 @@
 ---
-title: "La figure de l'Archéomètre — version islamisée (blog La fin des temps modernes, Mahdi Rouge)"
+title: La figure de l'Archéomètre — version islamisée (blog La fin des temps modernes,
+  Mahdi Rouge)
 type: source
 status: academique
-tradition_cadre: "universel"
-tags: [archeometre, saint-yves-dalveydre, rene-guenon, ilm-al-huruf, comparatisme, source-secondaire]
+tradition_cadre: universel
+tags:
+- archeometre
+- saint-yves-dalveydre
+- rene-guenon
+- ilm-al-huruf
+- comparatisme
+- source-secondaire
 created: 2026-06-29
 updated: 2026-06-29
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/archeometre]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/symboles/wahdat-al-wujud]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/archeometre]]'
+- '[[doctrinal/autorites/rene-guenon]]'
+- '[[doctrinal/symboles/ilm-al-huruf]]'
+- '[[doctrinal/symboles/wahdat-al-wujud]]'
 ---
 
 # La figure de l'Archéomètre — version islamisée

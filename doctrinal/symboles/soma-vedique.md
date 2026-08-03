@@ -1,14 +1,19 @@
 ---
-title: "Le Soma védique"
+title: Le Soma védique
 type: symbole
 status: traditionnel
-tradition_cadre: "hindouisme"
-tags: [vedas, comparatisme, citations-a-verifier]
+tradition_cadre: hindouisme
+tags:
+- vedas
+- comparatisme
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/traditions/sanatana-dharma]]", "[[doctrinal/autorites/rene-guenon]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/traditions/sanatana-dharma]]'
+- '[[doctrinal/autorites/rene-guenon]]'
 ---
 
 # Le Soma védique

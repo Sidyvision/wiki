@@ -1,14 +1,20 @@
 ---
-title: "Chat en rêve"
+title: Chat en rêve
 type: symbole
 status: traditionnel
-tradition_cadre: "universel"
-tags: [oniromancie, comparatisme, citations-a-verifier]
+tradition_cadre: universel
+tags:
+- oniromancie
+- comparatisme
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/autorites/ibn-sirin]]", "[[doctrinal/autorites/al-nabulusi]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/taabir-al-ruya]]'
+- '[[doctrinal/autorites/ibn-sirin]]'
+- '[[doctrinal/autorites/al-nabulusi]]'
 ---
 
 # Chat en rêve

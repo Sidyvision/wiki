@@ -1,14 +1,24 @@
 ---
-title: "Ali Hussain"
+title: Ali Hussain
 type: autorite
 status: academique
-tradition_cadre: "islam"
-tags: [traducteur, chercheur, soufisme, isca, jmias]
+tradition_cadre: islam
+tags:
+- traducteur
+- chercheur
+- soufisme
+- isca
+- jmias
 created: 2026-06-02
 updated: 2026-06-11
-sources: ["to-source"]
-sources_count: 2
-cross_links: ["[[ibn-arabi]]", "[[wird-awrad]]", "[[salawat]]", "[[barzakh]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[ibn-arabi]]'
+- '[[wird-awrad]]'
+- '[[salawat]]'
+- '[[barzakh]]'
 ---
 
 # Ali Hussain

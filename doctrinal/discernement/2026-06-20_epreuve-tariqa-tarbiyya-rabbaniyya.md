@@ -1,14 +1,25 @@
 ---
-title: "Spéculation sur l'épreuve post-khalwa, le dépassement de la modalité confrérique et la tarbiyya rabbaniyya"
+title: Spéculation sur l'épreuve post-khalwa, le dépassement de la modalité confrérique
+  et la tarbiyya rabbaniyya
 type: discernement
 status: speculatif
-tradition_cadre: "islam"
-tags: [discernement, naqshbandi-haqqani, en-cours, autorite-spirituelle, citations-a-verifier]
+tradition_cadre: islam
+tags:
+- discernement
+- naqshbandi-haqqani
+- en-cours
+- autorite-spirituelle
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/khalwa]]", "[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/symboles/tarbiyya-rabbaniyya]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/khalwa]]'
+- '[[doctrinal/traditions/tasawwuf]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/al-ghazali]]'
+- '[[doctrinal/symboles/tarbiyya-rabbaniyya]]'
 ---
 
 # Spéculation sur l'épreuve post-khalwa, le dépassement de la modalité confrérique et la tarbiyya rabbaniyya

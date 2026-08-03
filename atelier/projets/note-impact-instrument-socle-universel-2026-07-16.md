@@ -1,3 +1,10 @@
+---
+title: "Note d'impact — Instrument et socle métaphysique universel"
+type: meta
+created: 2026-07-16
+updated: 2026-07-16
+---
+
 # Note d'impact — Actualisation de l'Instrument à la lumière du socle métaphysique universel (session 2026-07-16)
 
 > **Circuit** : atelier/projets/ — propositions d'architecture, AUCUN verdict doctrinal.

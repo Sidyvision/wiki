@@ -1,14 +1,21 @@
 ---
-title: "Le Miḥrāb et le Torii — comparatisme guénonien du Seuil sacré"
+title: Le Miḥrāb et le Torii — comparatisme guénonien du Seuil sacré
 type: symbole
 status: traditionnel
-tradition_cadre: "universel"
-tags: [comparatisme, seuil, shinto, rene-guenon]
+tradition_cadre: universel
+tags:
+- comparatisme
+- seuil
+- shinto
+- rene-guenon
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/traditions/shinto]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/traditions/shinto]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/rene-guenon]]'
 ---
 
 # Le Miḥrāb et le Torii — comparatisme guénonien du Seuil sacré

@@ -1,14 +1,22 @@
 ---
-title: "Ṣaḥīḥ al-Bukhârî 5754 — Pas de ṭiyara, le meilleur augure est le faʾl"
+title: Ṣaḥīḥ al-Bukhârî 5754 — Pas de ṭiyara, le meilleur augure est le faʾl
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [hadith, bukhari, tiyara, fal, augure, divination]
+tradition_cadre: islam
+tags:
+- hadith
+- bukhari
+- tiyara
+- fal
+- augure
+- divination
 created: 2026-07-09
 updated: 2026-07-09
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]]'
 ---
 
 # Ṣaḥīḥ al-Bukhârî 5754 — *ṭiyara* / *faʾl*

@@ -1,14 +1,18 @@
 ---
-title: "Poséidon — lecture mythologique et philosophique"
+title: Poséidon — lecture mythologique et philosophique
 type: symbole
 status: academique
-tradition_cadre: "hellenisme"
-tags: [mythologie-grecque, platon, comparatisme]
+tradition_cadre: hellenisme
+tags:
+- mythologie-grecque
+- platon
+- comparatisme
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/platon]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/platon]]'
 ---
 
 # Poséidon — lecture mythologique et philosophique

@@ -1,13 +1,17 @@
 ---
-title: "Platon"
+title: Platon
 type: autorite
 status: traditionnel
-tradition_cadre: "hellenisme"
-tags: [philosophie, antiquite, metaphysique]
+tradition_cadre: hellenisme
+tags:
+- philosophie
+- antiquite
+- metaphysique
 created: 2026-06-02
 updated: 2026-06-11
 sources_count: 0
 cross_links: []
+sources: []
 ---
 
 # Platon

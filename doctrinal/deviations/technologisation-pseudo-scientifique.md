@@ -1,13 +1,17 @@
 ---
-title: "La technologisation pseudo-scientifique du sacré"
+title: La technologisation pseudo-scientifique du sacré
 type: deviation
 status: contre-traditionnel
-tradition_cadre: "universel"
-tags: [pseudo-science, new-age, stub]
+tradition_cadre: universel
+tags:
+- pseudo-science
+- new-age
+- stub
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
+sources:
+- to-source
+sources_count: 0
 cross_links: []
 ---
 

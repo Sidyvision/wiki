@@ -1,14 +1,21 @@
 ---
-title: "L'influx spirituel au sommet du crâne — comparatisme traditionnel"
+title: L'influx spirituel au sommet du crâne — comparatisme traditionnel
 type: symbole
 status: academique
-tradition_cadre: "universel"
-tags: [comparatisme, cosmologie, stub, citations-a-verifier]
+tradition_cadre: universel
+tags:
+- comparatisme
+- cosmologie
+- stub
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/alam-al-mithal]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/symboles/alam-al-mithal]]'
 ---
 
 # L'influx spirituel au sommet du crâne — comparatisme traditionnel

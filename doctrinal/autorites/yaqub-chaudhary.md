@@ -1,14 +1,21 @@
 ---
-title: "Yaqub Chaudhary"
+title: Yaqub Chaudhary
 type: autorite
 status: academique
-tradition_cadre: "islam"
-tags: [chercheur, philosophie-islamique, intelligence-artificielle, ethique-numerique]
+tradition_cadre: islam
+tags:
+- chercheur
+- philosophie-islamique
+- intelligence-artificielle
+- ethique-numerique
 created: 2026-06-04
 updated: 2026-06-11
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[2026-06-04_islam-et-ia]]", "[[ibn-sina]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[2026-06-04_islam-et-ia]]'
+- '[[ibn-sina]]'
 ---
 
 # Yaqub Chaudhary

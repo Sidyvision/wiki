@@ -1,14 +1,24 @@
 ---
-title: "Candidat de double ancrage : subdivision de la coudée royale par 28 et convergence akbarienne des 28"
+title: 'Candidat de double ancrage : subdivision de la coudée royale par 28 et convergence
+  akbarienne des 28'
 type: discernement
 status: speculatif
-tradition_cadre: "universel"
-tags: [coudee-royale, metrologie, 28, double-ancrage, discernement]
+tradition_cadre: universel
+tags:
+- coudee-royale
+- metrologie
+- 28
+- double-ancrage
+- discernement
 created: 2026-07-02
 updated: 2026-07-10
-sources: ["to-source", "[[doctrinal/sources/gilis-ordo-ab-chao]]"]
-sources_count: 2
-cross_links: ["[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]", "[[doctrinal/sources/gilis-ordo-ab-chao]]"]
+sources:
+- to-source
+- '[[doctrinal/sources/gilis-ordo-ab-chao]]'
+sources_count: 1
+cross_links:
+- '[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]'
+- '[[doctrinal/sources/gilis-ordo-ab-chao]]'
 ---
 
 # Candidat de double ancrage : subdivision de la coudée royale par 28 et convergence akbarienne des 28

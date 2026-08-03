@@ -1,13 +1,18 @@
 ---
-title: "Al-Fal wa-l-Taṭayyur (le bon augure et la divination superstitieuse)"
+title: Al-Fal wa-l-Taṭayyur (le bon augure et la divination superstitieuse)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [eschatologie, pratique, divination, stub]
+tradition_cadre: islam
+tags:
+- eschatologie
+- pratique
+- divination
+- stub
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
+sources:
+- to-source
+sources_count: 0
 cross_links: []
 ---
 

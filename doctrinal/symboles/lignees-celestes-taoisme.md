@@ -1,13 +1,16 @@
 ---
-title: "Lignées célestes dans le taoïsme"
+title: Lignées célestes dans le taoïsme
 type: symbole
 status: academique
-tradition_cadre: "taoisme"
-tags: [taoisme, transmission, stub]
+tradition_cadre: taoisme
+tags:
+- taoisme
+- transmission
+- stub
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
+sources_count: 0
 cross_links: []
 ---
 

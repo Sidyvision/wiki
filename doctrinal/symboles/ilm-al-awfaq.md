@@ -1,14 +1,21 @@
 ---
-title: "ʿIlm al-Awfāq (les carrés magiques) et la métaphysique du Nombre chez Ibn ʿArabī"
+title: ʿIlm al-Awfāq (les carrés magiques) et la métaphysique du Nombre chez Ibn ʿArabī
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [ilm-al-huruf, nombre, ibn-arabi]
+tradition_cadre: islam
+tags:
+- ilm-al-huruf
+- nombre
+- ibn-arabi
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/autorites/ahmad-al-buni]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/sources/shams-al-maarif]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/ilm-al-huruf]]'
+- '[[doctrinal/autorites/ahmad-al-buni]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/sources/shams-al-maarif]]'
 ---
 
 # ʿIlm al-Awfāq (les carrés magiques) et la métaphysique du Nombre

@@ -1,14 +1,25 @@
 ---
-title: "Nezâmî — Le Pavillon des Sept Princesses (trad. Michael Barry)"
+title: Nezâmî — Le Pavillon des Sept Princesses (trad. Michael Barry)
 type: source
 status: academique
-tradition_cadre: "islam"
-tags: [nezami, haft-peykar, sept-princesses, haft-eqlim, sept-climats, bahram-gur, litterature-persane, to-source]
+tradition_cadre: islam
+tags:
+- nezami
+- haft-peykar
+- sept-princesses
+- haft-eqlim
+- sept-climats
+- bahram-gur
+- litterature-persane
+- to-source
 created: 2026-07-24
 updated: 2026-07-24
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]'
+- '[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]'
 ---
 
 # Nezâmî — Le Pavillon des Sept Princesses (trad. Michael Barry)

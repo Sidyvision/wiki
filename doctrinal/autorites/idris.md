@@ -1,14 +1,25 @@
 ---
-title: "Idrīs"
+title: Idrīs
 type: autorite
 status: traditionnel
-tradition_cadre: "islam"
-tags: [prophetologie, soufisme, gnose, hermes, enoch, qutb]
+tradition_cadre: islam
+tags:
+- prophetologie
+- soufisme
+- gnose
+- hermes
+- enoch
+- qutb
 created: 2026-06-02
 updated: 2026-06-11
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[ibn-arabi]]", "[[barzakh]]", "[[walaya]]", "[[tasawwuf]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[ibn-arabi]]'
+- '[[barzakh]]'
+- '[[walaya]]'
+- '[[tasawwuf]]'
 ---
 
 # Idrīs

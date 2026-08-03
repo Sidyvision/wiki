@@ -1,14 +1,19 @@
 ---
-title: "Désir et théophanie selon Ibn ʿArabī (ʿishq majāzī et ʿishq ḥaqīqī)"
+title: Désir et théophanie selon Ibn ʿArabī (ʿishq majāzī et ʿishq ḥaqīqī)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [ibn-arabi, tajalli, noms-divins]
+tradition_cadre: islam
+tags:
+- ibn-arabi
+- tajalli
+- noms-divins
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/asma-al-husna]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/symboles/asma-al-husna]]'
 ---
 
 # Désir et théophanie selon Ibn ʿArabī

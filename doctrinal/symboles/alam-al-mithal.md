@@ -1,14 +1,21 @@
 ---
-title: "ʿĀlam al-Mithāl (le Monde Imaginal)"
+title: ʿĀlam al-Mithāl (le Monde Imaginal)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, cosmologie, ibn-arabi, stub]
+tradition_cadre: islam
+tags:
+- soufisme
+- cosmologie
+- ibn-arabi
+- stub
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/barzakh]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/symboles/barzakh]]'
 ---
 
 # ʿĀlam al-Mithāl (le Monde Imaginal)

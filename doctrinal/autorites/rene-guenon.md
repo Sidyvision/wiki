@@ -1,13 +1,19 @@
 ---
-title: "René Guénon"
+title: René Guénon
 type: autorite
 status: traditionnel
-tradition_cadre: "universel"
-tags: [metaphysique, tradition, perennialisme]
+tradition_cadre: universel
+tags:
+- metaphysique
+- tradition
+- perennialisme
 created: 2026-06-02
 updated: 2026-07-09
 sources_count: 0
-cross_links: ["[[doctrinal/symboles/malamatiyya]]", "[[doctrinal/sources/malamatiyah-futuhat-ch23]]"]
+cross_links:
+- '[[doctrinal/symboles/malamatiyya]]'
+- '[[doctrinal/sources/malamatiyah-futuhat-ch23]]'
+sources: []
 ---
 
 # René Guénon

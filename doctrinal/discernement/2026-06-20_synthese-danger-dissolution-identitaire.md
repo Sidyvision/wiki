@@ -1,14 +1,24 @@
 ---
-title: "Discernement sur une réponse à risque — dissolution identitaire validée sans garde-fou (conv. « Synthèse spirituelle et symbolique »)"
+title: Discernement sur une réponse à risque — dissolution identitaire validée sans
+  garde-fou (conv. « Synthèse spirituelle et symbolique »)
 type: discernement
 status: speculatif
-tradition_cadre: "universel"
-tags: [discernement, en-cours, danger-signale, sante-psychospirituelle, jumeau-spirituel]
+tradition_cadre: universel
+tags:
+- discernement
+- en-cours
+- danger-signale
+- sante-psychospirituelle
+- jumeau-spirituel
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/walaya-fath-adab]]", "[[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]", "[[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]]", "[[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/walaya-fath-adab]]'
+- '[[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]'
+- '[[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]]'
+- '[[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]]'
 ---
 
 # Discernement sur une réponse à risque — dissolution identitaire validée sans garde-fou

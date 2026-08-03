@@ -1,14 +1,22 @@
 ---
-title: "Merkavah (מרכבה) et Muraqaba (مراقبة) — comparatisme étymologique et mise en garde"
+title: Merkavah (מרכבה) et Muraqaba (مراقبة) — comparatisme étymologique et mise en
+  garde
 type: symbole
 status: academique
-tradition_cadre: "universel"
-tags: [comparatisme, kabbale, soufisme, non-syncretisme, gematrie]
+tradition_cadre: universel
+tags:
+- comparatisme
+- kabbale
+- soufisme
+- non-syncretisme
+- gematrie
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/khalwa]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/autorites/rene-guenon]]'
+- '[[doctrinal/symboles/khalwa]]'
 ---
 
 # Merkavah (מרכבה) et Muraqaba (مراقبة) — comparatisme étymologique

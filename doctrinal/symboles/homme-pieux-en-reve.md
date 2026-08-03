@@ -1,14 +1,21 @@
 ---
-title: "Voir un homme pieux vivant en rêve"
+title: Voir un homme pieux vivant en rêve
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [oniromancie, soufisme, citations-a-verifier]
+tradition_cadre: islam
+tags:
+- oniromancie
+- soufisme
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/autorites/ibn-sirin]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/al-ghazali]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/taabir-al-ruya]]'
+- '[[doctrinal/autorites/ibn-sirin]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
+- '[[doctrinal/autorites/al-ghazali]]'
 ---
 
 # Voir un homme pieux vivant en rêve

@@ -1,13 +1,21 @@
 ---
-title: "Taṣawwuf"
+title: Taṣawwuf
 type: tradition
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, islam, spiritualite]
+tradition_cadre: islam
+tags:
+- soufisme
+- islam
+- spiritualite
 created: 2026-06-02
 updated: 2026-06-20
 sources_count: 0
-cross_links: ["[[ahl-al-sunnah-wa-l-jamaa]]", "[[naqshbandiyya]]", "[[tawakkul]]", "[[futuwwa]]"]
+cross_links:
+- '[[ahl-al-sunnah-wa-l-jamaa]]'
+- '[[naqshbandiyya]]'
+- '[[tawakkul]]'
+- '[[futuwwa]]'
+sources: []
 ---
 
 # Taṣawwuf

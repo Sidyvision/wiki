@@ -1,14 +1,27 @@
 ---
-title: "René Guénon — « Le Tombeau d'Hermès » (Formes traditionnelles et Cycles cosmiques)"
+title: René Guénon — « Le Tombeau d'Hermès » (Formes traditionnelles et Cycles cosmiques)
 type: source
 status: traditionnel
-tradition_cadre: "universel"
-tags: [guenon, gizeh, hermes, idris, henoch, seth, science-sacree, source-primaire]
+tradition_cadre: universel
+tags:
+- guenon
+- gizeh
+- hermes
+- idris
+- henoch
+- seth
+- science-sacree
+- source-primaire
 created: 2026-07-03
 updated: 2026-07-03
-sources: ["Guénon, Formes traditionnelles et Cycles cosmiques, « Le Tombeau d'Hermès » (texte intégral consulté, index-rene-guenon.org)"]
+sources:
+- Guénon, Formes traditionnelles et Cycles cosmiques, « Le Tombeau d'Hermès » (texte
+  intégral consulté, index-rene-guenon.org)
 sources_count: 1
-cross_links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]", "[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]"]
+cross_links:
+- '[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]'
+- '[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]'
+- '[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]'
 ---
 
 # René Guénon — « Le Tombeau d'Hermès »

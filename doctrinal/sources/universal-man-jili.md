@@ -1,14 +1,29 @@
 ---
-title: "Universal Man (al-Insān al-Kāmil) — extraits traduits"
+title: Universal Man (al-Insān al-Kāmil) — extraits traduits
 type: source
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, metaphysique, insan-al-kamil, jili, ibn-arabi, burckhardt, wahdat-al-wujud]
+tradition_cadre: islam
+tags:
+- soufisme
+- metaphysique
+- insan-al-kamil
+- jili
+- ibn-arabi
+- burckhardt
+- wahdat-al-wujud
 created: 2026-06-05
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[abd-al-karim-al-jili]]", "[[ibn-arabi]]", "[[al-insan-al-kamil]]", "[[wahdat-al-wujud]]", "[[barzakh]]", "[[tasawwuf]]", "[[walaya]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[abd-al-karim-al-jili]]'
+- '[[ibn-arabi]]'
+- '[[al-insan-al-kamil]]'
+- '[[wahdat-al-wujud]]'
+- '[[barzakh]]'
+- '[[tasawwuf]]'
+- '[[walaya]]'
 ---
 
 # Universal Man (al-Insān al-Kāmil) — extraits traduits

@@ -1,14 +1,19 @@
 ---
-title: "Tarbiyya Rabbāniyya (l'éducation divine directe)"
+title: Tarbiyya Rabbāniyya (l'éducation divine directe)
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [soufisme, autorite-spirituelle, stub]
+tradition_cadre: islam
+tags:
+- soufisme
+- autorite-spirituelle
+- stub
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/khalwa]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/khalwa]]'
 ---
 
 # Tarbiyya Rabbāniyya (l'éducation divine directe)

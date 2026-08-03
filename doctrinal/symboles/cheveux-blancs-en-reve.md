@@ -1,14 +1,21 @@
 ---
-title: "Cheveux ou poils blancs en rêve"
+title: Cheveux ou poils blancs en rêve
 type: symbole
 status: traditionnel
-tradition_cadre: "islam"
-tags: [oniromancie, soufisme, citations-a-verifier]
+tradition_cadre: islam
+tags:
+- oniromancie
+- soufisme
+- citations-a-verifier
 created: 2026-06-20
 updated: 2026-06-20
 sources: []
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]", "[[doctrinal/autorites/ibn-sirin]]", "[[doctrinal/autorites/al-nabulusi]]", "[[doctrinal/autorites/ibn-arabi]]"]
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/taabir-al-ruya]]'
+- '[[doctrinal/autorites/ibn-sirin]]'
+- '[[doctrinal/autorites/al-nabulusi]]'
+- '[[doctrinal/autorites/ibn-arabi]]'
 ---
 
 # Cheveux ou poils blancs en rêve

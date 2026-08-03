@@ -1,14 +1,19 @@
 ---
-title: "ʿAbd al-Ghanī al-Nābulusī"
+title: ʿAbd al-Ghanī al-Nābulusī
 type: autorite
 status: traditionnel
-tradition_cadre: "islam"
-tags: [oniromancie, soufisme, stub]
+tradition_cadre: islam
+tags:
+- oniromancie
+- soufisme
+- stub
 created: 2026-06-20
 updated: 2026-06-20
-sources: ["to-source"]
-sources_count: 1
-cross_links: ["[[doctrinal/symboles/taabir-al-ruya]]"]
+sources:
+- to-source
+sources_count: 0
+cross_links:
+- '[[doctrinal/symboles/taabir-al-ruya]]'
 ---
 
 # ʿAbd al-Ghanī al-Nābulusī
