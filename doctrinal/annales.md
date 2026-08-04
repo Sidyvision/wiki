@@ -1,13 +1,28 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-04] protocole | Ouverture du cinquième circuit `hermeneutique/` (navigation du domaine intermédiaire)
+
+- **Opération** : AMENDEMENT PROTOCOLE — sur validation explicite de Sidy.
+- **Modifié** : `CLAUDE.md` §II (diagramme + compte des circuits), §V (nouvelle sous-section V.d), §VI (hiérarchie d'étanchéité), Cmd 3 (hozo exclu par défaut), Cmd 7 (compte des circuits), Cmd 9 (annales du circuit), Cmd 12 (une fiche `expression` ne clôt aucun discernement), §VII (double contrôle étendu au circuit).
+- **Créé** : `hermeneutique/index.md`, `hermeneutique/annales.md` (squelettes — architecture ouverte sans contenu, sur demande explicite de Sidy).
+- **Objet du circuit** : les médiums de fiction (jeu vidéo, manga, anime, théâtre, série…) y sont tenus pour des **interfaces** vers un ordre de possibilités subtiles, non pour des objets culturels à commenter. Deux registres : `analyse` (lecture d'une œuvre) et `expression` (idées propres à Sidy, notamment issues d'expériences post-khalwa déjà versées en `doctrinal/discernement/`, dont la formulation emprunte au vocabulaire de ces œuvres). Double fonction assumée avec le bureau de Direction Artistique du label.
+- **Étanchéité** : `hermeneutique/` → `doctrinal/` en sens unique et suggéré (🔍) ; `hermeneutique/` → `label/direction-artistique/` en sens unique ; `doctrinal/` → `hermeneutique/` **jamais**, y compris depuis les fiches de discernement dont une fiche `expression` développerait la matière. Position dans la hiérarchie : entre `meta/` et `label/`.
+- **Point sensible** : le circuit est explicitement conçu comme plus flexible, sans qu'aucun garde-fou ne soit levé — précision demandée et confirmée par Sidy. La clause de plasticité inscrite en §V.d fixe le principe : une idée peut y exister et mûrir *parce qu'*elle n'engage rien doctrinalement, non parce que les outils y seraient suspendus (grille des 11 marqueurs disponible en référence, sashimono obligatoire, Gizeh applicable, verdicts réservés). Renvoi explicite au précédent du 2026-06-20 (signalement dissolution identitaire) comme régime de vigilance maintenu dans le circuit.
+- **Nom du circuit** : *Herméneutique* ; la convergence avec la fonction psychopompe d'Hermès (passage entre les mondes) est retenue en **kari-kumi** comme justification du nom seulement, sans valeur de correspondance doctrinale (Cmd 3).
+- **Premières œuvres visées** (non déposées) : Death Stranding, Evangelion.
+- **Note de méthode** : circuit ouvert vide sur demande explicite — le contenu suivra par ingest classique (`_inbox/`, fiche par fiche).
+
+---
+
 
 ## [2026-08-03] discernement | Rédaction — Le septénaire transversal, la Balance et le degré du Soleil
 

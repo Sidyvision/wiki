@@ -23,6 +23,10 @@ la dispersion mentale.
 > `meta/philosophie-sashimono.md`).
 > **Révisé le 2026-07-16** : double contrôle systématique (sashimono + confrontation
 > Gizeh) inscrit au §VII.
+> **Révisé le 2026-08-04** : ouverture du cinquième circuit `hermeneutique/`
+> (§II, §V.d, §VI) — navigation du domaine intermédiaire via les médiums de fiction
+> tenus pour interfaces, clés doctrinales suggérées, registres `analyse` et
+> `expression`, double fonction avec le bureau de Direction Artistique du label.
 > On ne
 > parle jamais de « réforme » : une réforme prétend corriger le principe, une
 > restauration rétablit l'ordre normal. Le mot « réforme » est banni du dépôt.
@@ -64,7 +68,7 @@ position physique des contrôles, pas seulement leurs noms.
 
 -----
 
-## II. Architecture du Dépôt — QUATRE circuits étanches
+## II. Architecture du Dépôt — CINQ circuits étanches
 
 ```
 wiki/  (= /root/wiki)
@@ -88,14 +92,19 @@ wiki/  (= /root/wiki)
 │   ├── film/creation/ · film/technique/
 │   ├── photographie/creation/ · photographie/technique/
 │   ├── production/ · administratif/ · distribution/ · marketing-communication/
+├── hermeneutique/          ← Circuit NON-doctrinal : navigation du domaine intermédiaire
+│   ├── index.md · annales.md
+│   ├── <slug-oeuvre>/      ← un sous-dossier par œuvre (death-stranding/, evangelion/…)
+│   └── expression/         ← idées personnelles hors œuvre unique (registre: expression)
 └── meta/                  ← Domaine réservé : outillage, personnel, transmissions
     ├── bibliotheque-physique.md  ← Catalogue de la bibliothèque (voir §VII, sources)
     └── projet-unifie/     ← Briefs d'infrastructure, hermes-prompts/, propositions
 ```
 
-**Quatre circuits étanches** : `doctrinal/` (la doctrine), `atelier/` (le métier et les
-références), `label/` (la maison de création et le label), `meta/` (le personnel et
-l'outillage). Règles de liens : §VI.
+**Cinq circuits étanches** : `doctrinal/` (la doctrine), `atelier/` (le métier et les
+références), `label/` (la maison de création et le label), `hermeneutique/` (la
+navigation du domaine intermédiaire et le bureau de Direction Artistique), `meta/`
+(le personnel et l'outillage). Règles de liens : §VI.
 
 -----
 
@@ -260,6 +269,78 @@ structure :
    (Cmd 13), le renvoi au savant qualifié restant toujours ouvert pour les cas
    nouveaux.
 
+### V.d — Herméneutique (Sceau du circuit `hermeneutique/`)
+
+**Objet du circuit.** Espace de traitement et de navigation de ce qui relève du
+**domaine intermédiaire**. Les médiums de fiction (jeu vidéo, manga, anime, théâtre,
+série, film, roman…) y sont considérés comme des **interfaces** offertes à un ordre
+de possibilités subtiles, non comme de simples objets culturels. Double fonction
+assumée : lecture herméneutique, et bureau de Direction Artistique en amont de
+`label/direction-artistique/`.
+
+Le circuit accueille en outre l'**expression** d'idées et intuitions personnelles —
+notamment issues d'expériences post-khalwa déjà versées en `doctrinal/discernement/`
+— dont la formulation emprunte au vocabulaire de ces œuvres et qui ne peuvent, à ce
+titre, être portées par le circuit doctrinal. Les y accueillir, c'est les situer à
+leur état propre pour en apprécier la juste portée : **ce n'est jamais lever un
+garde-fou.**
+
+```yaml
+---
+title: "Titre exact"
+type: oeuvre | personnage | concept | analyse
+registre: analyse | expression
+medium: jeu-video | anime | manga | theatre | serie | film | roman
+oeuvre: "slug-de-loeuvre-parente"   # vide sur la fiche oeuvre et sur expression/ hors-œuvre
+createur: "Nom du créateur"          # surtout renseigné sur la fiche oeuvre
+statut_analyse: brouillon | en-cours | developpe
+tags: []
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+sources: []
+liens: []                            # internes au circuit
+cles_doctrinales: []                 # sens unique vers doctrinal/, suggéré 🔍 par défaut
+discernement: []                     # sens unique vers doctrinal/discernement/ (obligatoire si registre: expression et matière issue d'un discernement existant)
+liens_label: []                      # sens unique optionnel vers label/direction-artistique/
+---
+```
+
+- `type: oeuvre` = fiche-hub d'une œuvre (une par œuvre, porte `createur`) ; les
+  autres types portent `oeuvre:` (slug de la fiche-hub).
+- **`registre`** distingue les deux régimes de production du circuit :
+  - `analyse` — lecture d'une œuvre ou d'un de ses éléments ;
+  - `expression` — formulation d'une idée propre à l'utilisateur, l'œuvre servant de
+    langage et non d'objet. Ces fiches vont en `hermeneutique/expression/` quand
+    elles ne relèvent d'aucune œuvre unique.
+- **`discernement`** : toute fiche `registre: expression` dont la matière provient
+  d'une expérience déjà versée au dépôt **doit** pointer vers la ou les fiches
+  `doctrinal/discernement/` correspondantes (sens unique). La fiche du circuit
+  **ne clôt jamais** un discernement et n'en modifie pas le statut : elle en
+  développe une expression, sans effet doctrinal (Cmd 12, verdicts réservés).
+- `statut_analyse` qualifie la **maturité du travail** — distinct du `status`
+  doctrinal, qui juge une valeur de vérité traditionnelle (sans objet ici).
+- `cles_doctrinales` : wikilinks vers `doctrinal/`, **sens unique**, **suggérés (🔍)
+  par défaut**. Une clé ne devient « établie » qu'après une fiche `discernement/`
+  tranchée par l'utilisateur (Cmd 3, Cmd 12).
+- **Garde-fou renforcé (Cmd 3)** : le **hozo** (équivalence établie, §VII) n'a
+  normalement pas sa place ici — une œuvre profane n'a pas l'autorité d'une
+  tradition reçue. Au mieux *kumiko*, le plus souvent *kari-kumi*. Qualification
+  sashimono obligatoire dès qu'une `cle_doctrinale` est invoquée, et confrontation
+  Gizeh si la matière touche au polaire/axial/septénaire/métrologique (§VII).
+- **Clause de plasticité (structurelle).** La souplesse de ce circuit tient à ce
+  qu'une idée peut y exister et mûrir *sans rien engager doctrinalement* — non à ce
+  que les outils de discernement y soient suspendus. Le domaine intermédiaire est
+  par nature ambivalent : la grille des 11 marqueurs de contre-initiation reste
+  disponible en référence, et tout passage où une production (humaine ou IA)
+  encouragerait l'abandon du discernement critique, ou présenterait une expérience
+  comme irréversible et soustraite à toute vérification, doit être signalé avec la
+  même fermeté qu'ailleurs (précédent : `doctrinal/annales.md` [2026-06-20],
+  signalement dissolution identitaire).
+- `liens_label` : sens unique optionnel vers `label/direction-artistique/`, quand une
+  idée germée ici se concrétise en fiche label.
+- `doctrinal/` → `hermeneutique/` : **jamais**. Aucune fiche doctrinale, y compris de
+  discernement, ne pointe vers ce circuit.
+
 -----
 
 ## VI. Le Domaine Réservé (`meta/`) et l'étanchéité
@@ -270,7 +351,8 @@ l'identité publique), les configurations d'agents (`hermes-prompts/`), et le ca
 de la bibliothèque physique.
 
 **Hiérarchie d'étanchéité** (du plus sensible au plus neutre) :
-`meta/` → **`label/`** → `atelier/projets/` → `doctrinal/` et `atelier/` (neutres).
+`meta/` → **`hermeneutique/`** → `label/` → `atelier/projets/` → `doctrinal/` et
+`atelier/` (neutres).
 
 - Liens autorisés : du sensible VERS le neutre uniquement.
 - INTERDIT : inscrire un fait personnel dans une page neutre. Les fiches `label/` ne
@@ -305,9 +387,10 @@ quatre circuits, chacun avec son Sceau propre.)*
 
 ### Double contrôle systématique (transversal — ajouté 2026-07-16)
 
-Deux gestes s'appliquent à TOUTE production doctrinale ou d'Instrument comportant une
-correspondance, une identité, ou une matière traditionnelle nouvelle — au moment de la
-production, non après coup ni seulement sur demande :
+Deux gestes s'appliquent à TOUTE production doctrinale, d'Instrument, ou du circuit
+`hermeneutique/` comportant une correspondance, une identité, ou une matière
+traditionnelle nouvelle — au moment de la production, non après coup ni seulement sur
+demande :
 
 1. **Qualification sashimono des joints** : tout lien inter-traditionnel ou
    inter-fiches significatif est qualifié dans le corps de la fiche (jamais en
@@ -584,18 +667,22 @@ Trame de référence — chaque notion réexpliquée jusqu'à maîtrise confirm�
    correspondance — jamais supposé ni importé d'office. S'applique aussi aux
    correspondances entreprise/tradition du label et à l'ancrage éthique de ses actes
    contractuels et commerciaux (§V.b) : **suggérés (🔍) tant que non tranchés**.
+   S'applique avec une rigueur accrue au circuit `hermeneutique/` (§V.d) : le hozo y est
+   **exclu par défaut**, une œuvre profane n'ayant pas l'autorité d'une tradition reçue —
+   y compris lorsque la fiche relève du registre `expression`.
 4. **Une page = un sujet.**
 5. **Aucune affirmation factuelle sans source** (sinon `to-source` + signalement) ;
    discipline des sources du §VII (bibliothèque physique, levée du marqueur par
    vérification primaire humaine, dires de persona IA flagués).
 6. **Pas d'écriture sans plan validé** lors d'un archivage.
-7. **Étanchéité des circuits** (désormais quatre) : jamais enfreinte silencieusement.
+7. **Étanchéité des circuits** (désormais cinq) : jamais enfreinte silencieusement.
 8. **`created` immuable ; `updated` à chaque édition de fond.** Toute écriture
    sur un fichier remonte son `updated:` à la date du jour — une écriture sans
    mise à jour de `updated:` est une écriture incomplète.
 9. **Journaliser dans les annales** à chaque session (préfixe greppable
    `## [YYYY-MM-DD] op | Titre` ; une seule entrée par passe groupée ;
-   `doctrinal/annales.md` pour le doctrinal, `label/annales.md` pour le label).
+   `doctrinal/annales.md` pour le doctrinal, `label/annales.md` pour le label,
+   `hermeneutique/annales.md` pour l'herméneutique).
    Chaque entrée porte le **SHA court du commit** qu'elle décrit en dernière ligne :
    `- **Commit** : abc1234`. L'entrée est rédigée **après** le commit, jamais avant.
    Une entrée décrivant une opération planifiée mais non exécutée est interdite.
@@ -607,7 +694,9 @@ Trame de référence — chaque notion réexpliquée jusqu'à maîtrise confirm�
     qui requiert la perception directe d'un principe métaphysique, il ne statue pas et
     renvoie à l'autorité qualifiée. Le verdict d'une spéculation appartient à
     l'utilisateur ou à une autorité textuelle citée, **jamais à l'IA** — quel que soit
-    le moteur. Voir `meta/directive-discernement-domaines.md`.
+    le moteur. Voir `meta/directive-discernement-domaines.md`. Vaut identiquement pour
+    le circuit `hermeneutique/` : une fiche `registre: expression` développe une
+    intuition, elle ne la valide pas et ne clôt aucun discernement ouvert.
 13. **Porte humaine sur tout ce qui engage** : dépense, contrat, tracklist, envoi aux
     dépositaires, publication en production, verdict de discernement — préparés par la
     machine, tranchés par l'humain. (Extension V2 du Cmd 12 au domaine opératif.)
