@@ -21,6 +21,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Portée pour la suite de la Phase 3** : ce joint sert de gabarit pour tout futur rattachement Vedanta/Kabbale — un concept universel (non fondateur d'arbre) prend `tradition: universel` avec `degre_vertical` fixe si son identité de degré est établie ; un concept propre à une tradition non encore modélisée (ex. une doctrine spécifiquement védantique) ouvrirait, elle, un arbre-tradition distinct le moment venu.
 - **Point sensible** : aucun non-syncrétisme en jeu — identité doctrinale reçue d'une autorité qualifiée des deux côtés (cf. fiche discernement, généalogie), non un rapprochement construit par ce dépôt (Cmd 3 respecté par construction).
 - **Prochaine étape** : validation du manifeste régénéré (`generer-manifeste.py`), zéro anomalie de cartographie attendue.
+- **Commit** : c73cd88
 
 ---
 
