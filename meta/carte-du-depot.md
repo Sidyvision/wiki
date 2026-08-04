@@ -12,7 +12,7 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-04 06:01 UTC, sur `/root/wiki`.
+> aucun réseau) le 2026-08-04 14:35 UTC, sur `/root/wiki`.
 > Portée : dépôt complet. 349 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
@@ -1377,7 +1377,7 @@ links: []
 - `atelier/projets/spec-anneau-zodiacal` (1)
   - L57 : Levée du `to-source` : vérification du texte primaire (Gloton pp. 39-40) par l'utilisateur lui-même (CLAUDE.md §VII, discipline des sources, rè…
 - `doctrinal/annales` (21)
-  - L13 : - **Enrichi** : [[doctrinal/symboles/malamatiyya]] (juridiction des Afrâd, guidance d'al-Khiḍr, `to-source`) ; [[doctrinal/sources/guenon-regel…
+  - L13 : - **Enrichi** : [[doctrinal/symboles/malamatiyya]] (juridiction des Afrâd, guidance d'al-Khiḍr, `to-source`) ; [[doctrinal/sources/guenon-regne…
   - L18 : - **to-source ouverts** : pagination de tous les chapitres Guénon (authenticité attestée par Sidy, pagination non urgente) ; médiation Scribd d…
   - L107 : - **Signalements rapportés** (action VIGILANCE : rapporter sans corriger, demander avant d'éditer) : (1) reclassement erroné dans `meta/biblio…
   - L178 : - **LOT B** — 17 fiches (sources: manquant → ajout ["to-source"]) :
@@ -1571,11 +1571,10 @@ links: []
 - `atelier/projets/instrument-tradition-primordiale-architecture-v0.2` → `doctrinal/...`, `doctrinal/discernement/slug`, `doctrinal/vigilance/...`
 - `atelier/projets/instrument-tradition-primordiale-architecture-v0.3` → `doctrinal/...`, `doctrinal/discernement/slug`, `doctrinal/vigilance/...`
 - `atelier/projets/instrument-tradition-primordiale-architecture-v0_3` → `doctrinal/...`, `doctrinal/discernement/slug`, `doctrinal/vigilance/...`
-- `doctrinal/annales` → `atelier/projets/spec-anneau-zodiacal.md`, `doctrinal/index.md`, `doctrinal/sources/guenon-regel-quantite-ch28-40-contre-init…`, `meta/2026-06-20_bourdonnement-tempe`, `meta/2026-06-20_taekwondo-hansu`, `meta/bibliotheque-physique.md`, `meta/briefing-claude-ai`, `meta/sidy`
+- `doctrinal/annales` → `atelier/projets/spec-anneau-zodiacal.md`, `doctrinal/index.md`, `meta/2026-06-20_bourdonnement-tempe`, `meta/2026-06-20_taekwondo-hansu`, `meta/bibliotheque-physique.md`, `meta/briefing-claude-ai`, `meta/sidy`
 - `doctrinal/autorites/aiman-attar` → `doctrinal/sources/body-types`
 - `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante` → `doctrinal/sources/coran-essai-traduction-gloton`
 - `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel` → `apercus-sur-l-initiation`, `principes-et-methodes-de-l-art-sacre`
-- `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle` → `doctrinal/sources/guenon-regel-quantite-ch28-40-contre-init…`
 - `doctrinal/discernement/_template` → `doctrinal/deviations/slug`, `doctrinal/etudes/YYYY-MM-DD_synthese-si-existante`, `doctrinal/symboles/slug`
 - `doctrinal/index` → `meta/sidy`
 - `doctrinal/sources/sept-etendards-califat` → `doctrinal/autorites/charles-andre-gilis`
