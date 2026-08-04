@@ -1,23 +1,23 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.3.2)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.3.3)
 #
-#   v0.3.2 (2026-07-27) : bloc `zodiaque:` ajouté (degre_falak_al_buruj: 19,
-#     degre_falak_al_manazil: 20, obliquite_deg, epoque_reference: null) ;
-#     confirmation explicite que les sept Prophètes planétaires (degrés 21-27)
-#     ne constituent PAS des ancrages au sens de ce fichier (Cmd 13 — porte
-#     humaine ; documentés dans doctrinal/discernement/2026-07-27_septenaire-
-#     transversal-balance-degre-soleil, non dans le YAML du rendu Instrument).
-#     Version corrigée le 2026-08-04 : l'en-tête indiquait encore v0.3.1
-#     alors que le contenu reflétait déjà ces changements (cf. annales
-#     2026-08-04, signalement séquence ajout/retrait ancrages prophètes).
+#   v0.3.3 (2026-08-04) : PHASE 3 OUVERTE. Premier nœud/ancrage transversal
+#     (hors arbre-tradition) : sept Pôles/Aqtâb — hiérarchie initiatique
+#     universelle, non rattachée à une tradition-arbre distincte (Guénon fait
+#     autorité universelle, non fondateur d'un arbre propre — verdict Sidy
+#     2026-08-04). 7 nœuds `universel/aqtab-*` (degrés 21-27) + 7 ancrages
+#     equivalence/hozo vers les nœuds-degrés tasawwuf correspondants,
+#     remplaçant l'ancrage placeholder à cible: null (v0.3.1). Voir
+#     doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire
+#     (clos, enrichi 2026-08-04) et architecture v0.3 §3.5 (nœud universel).
+#     Corrige au passage la dérive de version constatée le 2026-08-04 :
+#     l'en-tête indiquait encore v0.3.1 alors que le contenu (bloc zodiaque,
+#     révision sept prophètes) reflétait déjà la révision du 2026-07-27 —
+#     cf. doctrinal/annales.md, entrée [2026-08-04] signalement.
 #   v0.3.1 (2026-07-17) : ajout d'un troisième ancrage établi — sept Pôles/Aqtâb
 #     guénoniens ↔ Malakūt planétaire (degrés 21-27), verdict Sidy du 2026-07-16
 #     (fiche doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire).
-#     ⚠ Cible non déclarée : aucun nœud « Aqtâb » n'existe encore dans ce fichier
-#     (la tradition guénonienne/métaphysique générale n'est pas modélisée — Phase 3
-#     « multi-traditions » non ouverte). L'ancrage est donc porté par le nœud
-#     structurant table-28-degres-nafas-rahman, cible: null, jusqu'à déclaration
-#     d'un nœud réciproque. Point à confirmer par Sidy avant intégration.
+#     Cible laissée à null jusqu'à déclaration formelle (résolu en v0.3.3).
 #   v0.3 (2026-07-01) : LES 28 NŒUDS-DEGRÉS (11-38) déclarés, la table étant
 #     intégralement sourcée (addenda Gloton pp. 44-48 du 2026-07-01). Chaque
 #     nœud-degré porte un `id` et un `label` déclarés (tous sourcent la même
@@ -166,6 +166,25 @@ noeuds:
      id: tasawwuf/degre-38, degre_vertical: 38,
      label: "38 · wâw — Rafîʿ ad-Darajât (l'Homme parfait)"}                   # Rishâ, poisson
 
+  # ============ Les sept Aqtâb (hiérarchie initiatique universelle) ============
+  # Nœuds UNIVERSELS (hors arbre-tradition) — voir architecture v0.3 §3.5.
+  # Identité établie avec le Malakūt planétaire akbarien — verdict Sidy 2026-07-16/08-04
+  # (doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire)
+  - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
+     id: universel/aqtab-saturne, degre_vertical: 21, label: "Pôle de Saturne (Abraham y siège)"}
+  - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
+     id: universel/aqtab-jupiter, degre_vertical: 22, label: "Pôle de Jupiter (Moïse y siège)"}
+  - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
+     id: universel/aqtab-mars, degre_vertical: 23, label: "Pôle de Mars (Aaron y siège)"}
+  - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
+     id: universel/aqtab-soleil, degre_vertical: 24, label: "Pôle du Soleil (Idrîs y siège)"}
+  - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
+     id: universel/aqtab-venus, degre_vertical: 25, label: "Pôle de Vénus (Joseph y siège)"}
+  - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
+     id: universel/aqtab-mercure, degre_vertical: 26, label: "Pôle de Mercure (Jésus y siège)"}
+  - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
+     id: universel/aqtab-lune, degre_vertical: 27, label: "Pôle de la Lune (Adam y siège)"}
+
 ancrages:
   # --- ⭐ Convergence des 28 (établie, Gem 2026-07-01, Futūḥāt ch. 198) ---
   - noeud: tasawwuf/table-28-degres-nafas-rahman
@@ -184,14 +203,22 @@ ancrages:
     source: "[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"
     note: "Les degrés 11-38 de la table SONT les 28 degrés lettrés du Nafas al-Raḥmān (même convergence, Futūḥāt ch. 198)."
 
-  # --- ⭐ Sept Pôles/Aqtâb (guénonien) ↔ Malakūt planétaire (établi, verdict Sidy 2026-07-16) ---
-  - noeud: tasawwuf/table-28-degres-nafas-rahman
-    type: equivalence
-    etat: etabli
-    directionnalite: none
-    cible: null   # ⚠ aucun nœud « Aqtâb » déclaré (tradition guénonienne non modélisée — Phase 3 non ouverte)
-    source: "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"
-    note: "Identité entre les sept Pôles/Aqtâb guénoniens et le Malakūt planétaire akbarien (degrés 21-27, ar-Rabb/Saturne/Abraham → al-Mubîn/Lune/Adam). Identité doctrinale reçue (non syncrétisme construit), confirmée par quatre convergences textuelles indépendantes : Guénon, cycles cosmiques (sept Pôles/sept cieux) ; lettre à Coomaraswamy (Idrîs/Soleil, degré 24) ; Mystères de la lettre Nûn (nûn = lettre planétaire du Soleil) ; Abdul-Hâdî, Tartîbut-Taçawwuf (1911, antérieur de 26 ans à Guénon 1937). Réserve résiduelle : lien explicite wirātha/aqtāb (Futūḥāt ch. 36) non localisé dans l'extrait transmis — à rechercher. Cible non déclarée : correspondance à rattacher à un nœud Aqtâb formel lors de l'ouverture de la Phase 3 (multi-traditions)."
+  # --- ⭐ Sept Aqtâb (universel) ↔ Malakūt planétaire akbarien (établi, hozo, verdict Sidy 2026-07-16/08-04) ---
+  - {noeud: universel/aqtab-saturne, type: equivalence, etat: etabli, directionnalite: none,
+     cible: tasawwuf/degre-21, source: "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"}
+  - {noeud: universel/aqtab-jupiter, type: equivalence, etat: etabli, directionnalite: none,
+     cible: tasawwuf/degre-22, source: "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"}
+  - {noeud: universel/aqtab-mars, type: equivalence, etat: etabli, directionnalite: none,
+     cible: tasawwuf/degre-23, source: "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"}
+  - {noeud: universel/aqtab-soleil, type: equivalence, etat: etabli, directionnalite: none,
+     cible: tasawwuf/degre-24, source: "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+     note: "Point de contrôle nommé : Guénon situe Idrîs au Ciel du Soleil (lettre à Coomaraswamy, 1936) — convergence directe, non construite, avec le degré 24 akbarien."}
+  - {noeud: universel/aqtab-venus, type: equivalence, etat: etabli, directionnalite: none,
+     cible: tasawwuf/degre-25, source: "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"}
+  - {noeud: universel/aqtab-mercure, type: equivalence, etat: etabli, directionnalite: none,
+     cible: tasawwuf/degre-26, source: "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"}
+  - {noeud: universel/aqtab-lune, type: equivalence, etat: etabli, directionnalite: none,
+     cible: tasawwuf/degre-27, source: "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"}
 
   # NOTE: Les sept Prophètes siégeant aux cieux planétaires (degrés 21-27) sont DOCUMENTÉS
   # dans la fiche discernement [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]].

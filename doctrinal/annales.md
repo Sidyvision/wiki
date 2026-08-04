@@ -9,6 +9,21 @@ updated: 2026-08-04
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-04] protocole | Ouverture de la Phase 3 — premier nœud transversal (sept Aqtâb, hiérarchie initiatique universelle)
+
+- **Opération** : STRUCTURE — première entrée de la Phase 3 (multi-tradition) de la feuille de route de l'Instrument, sur verdict de Sidy.
+- **Créé** (`instrument-donnees.yaml` v0.3.3) : 7 nœuds `universel/aqtab-{saturne,jupiter,mars,soleil,venus,mercure,lune}` (degrés 21-27, fiche source [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]) ; 7 ancrages `equivalence`/`etabli` vers les nœuds-degrés `tasawwuf/degre-21` à `27`, qualification **hozo** (tenon-mortaise).
+- **Supprimé** : l'ancrage placeholder à `cible: null` (v0.3.1, 2026-07-17), désormais concrétisé par les 7 ancrages ci-dessus (Cmd 10 — suppression confirmée par Sidy, remplacement documenté, non silencieuse).
+- **Décision d'architecture actée (Sidy, 2026-08-04)** : la doctrine des Aqtâb n'ouvre **pas** un arbre-tradition distinct (« guénonien »). Deux points de doctrine établis à cette occasion :
+  1. Guénon fait autorité *universelle* pour toutes les traditions dont il traite — non par construction analogique de ce dépôt, mais parce qu'il a été mandaté à s'exprimer selon les modalités de plusieurs traditions, à la différence d'Ibn ʿArabī ou Śaṅkara qui n'ont pas eu à formuler leur doctrine hors de la tradition où ils étaient installés (conditions exceptionnelles du monde moderne cosmopolite).
+  2. La hiérarchie initiatique des Aqtâb est elle-même universelle, non spécifique à une tradition — elle *traverse* les arbres plutôt que d'en fonder un. Traduction structurelle : nœuds `tradition: universel`, `degre_vertical` fixe (21-27, même point de l'axe du Principe qu'occupent les degrés tasawwuf correspondants), sur le modèle des nœuds TRAVERSANT déjà présents (`walaya`, `al-insan-al-kamil`), mais ici avec position fixe plutôt que `null`, puisque le verdict porte une identité de degré et non une simple fonction diffuse.
+- **Point de contrôle nommé** : Idrîs/Ciel du Soleil/degré 24 — convergence textuelle directe (lettre Guénon-Coomaraswamy, 1936) avec le degré 24 akbarien, portée en note sur l'ancrage `universel/aqtab-soleil`.
+- **Portée pour la suite de la Phase 3** : ce joint sert de gabarit pour tout futur rattachement Vedanta/Kabbale — un concept universel (non fondateur d'arbre) prend `tradition: universel` avec `degre_vertical` fixe si son identité de degré est établie ; un concept propre à une tradition non encore modélisée (ex. une doctrine spécifiquement védantique) ouvrirait, elle, un arbre-tradition distinct le moment venu.
+- **Point sensible** : aucun non-syncrétisme en jeu — identité doctrinale reçue d'une autorité qualifiée des deux côtés (cf. fiche discernement, généalogie), non un rapprochement construit par ce dépôt (Cmd 3 respecté par construction).
+- **Prochaine étape** : validation du manifeste régénéré (`generer-manifeste.py`), zéro anomalie de cartographie attendue.
+
+---
+
 ## [2026-08-04] signalement | Clarification — séquence ancrages prophètes planétaires (session du 2026-07-27)
 
 - **Opération** : SIGNALEMENT — précision apportée à l'entrée du 2026-07-27 (« Lot Référentiels stellaires »), sans réécriture de celle-ci (Cmd 9, 10).

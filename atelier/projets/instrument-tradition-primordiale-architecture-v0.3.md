@@ -3,7 +3,7 @@ title: "Instrument de la Tradition Primordiale — Architecture Fondamentale (v0
 type: projet
 tags: [architecture, mandala, tradition-primordiale, tasawwuf, kabbale, conceptuel]
 created: 2026-06-28
-updated: 2026-07-01
+updated: 2026-08-04
 sources: []
 links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/barzakh]]"]
 ---
@@ -82,6 +82,8 @@ L'ancrage s'applique :
   Principe) ;
 - **et aux plans horizontaux** (proximité spatiale dans la scène 3D, au-delà du seul
   positionnement sur l'axe).
+
+*(Cas particulier — nœud universel hors arbre : voir §3.5.)*
 
 ### 1.3 Deux types de correspondance établie — distinction impérative
 
@@ -191,6 +193,40 @@ dans son principe (validée par Sidy, 2026-07-01)** : le *barzakh* est rendu com
 nœud ordinaire de la chaîne verticale. Le détail du rendu (effet optique exact,
 articulation avec les disques en rotation du Barzakh supérieur, degrés 19-20 de la
 spec technique de l'axe) relève de la phase technique.
+
+### 3.5 Nœuds universels/transversaux (hors arbre-tradition)
+
+L'axe du Principe (§3.1) n'appartient à aucun arbre : il est la seule dimension commune
+par construction. Il en découle une **troisième catégorie de nœud**, distincte des deux
+prévues jusqu'ici (nœud propre à un arbre-tradition ; nœud structurant/traversant interne
+à un arbre, ex. Al-Insān al-Kāmil en §3.4) : le **nœud universel**, porté directement par
+l'axe, hors de tout arbre-tradition.
+
+Un nœud universel s'applique lorsqu'une doctrine est reçue, par une autorité qualifiée,
+comme **transversale à plusieurs traditions plutôt que fondatrice d'une tradition propre**
+(cf. Cmd 3 — distinction impérative entre identité reçue et analogie construite, §1.3).
+Le cas fondateur (verdict Sidy, 2026-08-04) : la doctrine des sept Pôles/Aqtâb, où René
+Guénon fait autorité *universelle* — non parce que ce dépôt construirait un rapprochement,
+mais parce que Guénon a été mandaté à exprimer la doctrine selon les modalités de langage
+de plusieurs traditions (conditions du monde moderne cosmopolite), à la différence d'Ibn
+ʿArabī ou de Śaṅkara, qui n'ont pas eu à formuler leur doctrine hors de la tradition où ils
+étaient installés. Guénon lui-même n'ouvre donc pas un arbre-tradition « guénonien » : il
+énonce une doctrine qui traverse les arbres existants et à venir.
+
+**Traduction technique** : `tradition: universel` dans `instrument-donnees.yaml`, avec un
+`degre_vertical` **fixe** (et non `null`) lorsque l'identité de degré ontologique est
+elle-même établie — c'est ce qui distingue le nœud universel du nœud traversant classique
+(Al-Insān al-Kāmil, `degre_vertical: null`, dont la fonction diffuse *sur* toute la chaîne
+verticale, sans occuper un point précis). Chaque nœud universel s'ancre ensuite, comme tout
+nœud, par un ancrage `equivalence` sourcé vers le ou les nœuds d'arbre-tradition auxquels il
+correspond (ex. les sept nœuds `universel/aqtab-*`, degrés 21-27, ancrés en *hozo* vers les
+sept degrés `tasawwuf/degre-21` à `27` du Malakūt planétaire — voir
+[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]).
+
+Ce gabarit sert de référence pour la Phase 3 : toute future doctrine reçue comme
+transversale par une autorité qualifiée (et seulement à cette condition — jamais par
+construction analogique de ce dépôt) suit ce même patron, plutôt que d'ouvrir par défaut un
+arbre-tradition supplémentaire à chaque nouvelle correspondance.
 
 ---
 

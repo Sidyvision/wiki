@@ -3,7 +3,7 @@ title: "Instrument de la Tradition Primordiale — feuille de route et pile tech
 type: projet
 tags: [outillage, projet-claude-ai, instrument, app, feuille-de-route]
 created: 2026-06-28
-updated: 2026-06-29
+updated: 2026-08-04
 ---
 
 # Instrument de la Tradition Primordiale — feuille de route
@@ -85,8 +85,15 @@ updated: 2026-06-29
 ### Phase 3 — Multi-traditions et ancrages
 - Charger d'autres traditions en transparence ; afficher équivalences/complémentarités **établies**.
 - Cas particulier Kabbale/Sitra Ahra dans son expression dialectique propre (pas de transposition
-  générique de l'« ombre », et pas de réceptacle structurel pour les déviations des autres
-  traditions — cf. correctif *waswâs*, architecture §2).
+  générique de l'« ombre »).
+- **Ouverte le 2026-08-04.** Premier jalon : nœuds universels (§3.5 de l'architecture v0.3) —
+  sept Pôles/Aqtâb (hiérarchie initiatique universelle, autorité Guénon), ancrés en *hozo* vers
+  les degrés 21-27 (Malakūt planétaire, tasawwuf). Sert de gabarit : nœud universel (`tradition:
+  universel`, degré fixe sur l'axe du Principe) vs futur arbre-tradition dédié (Vedanta, Kabbale),
+  selon que la doctrine rencontrée est reçue comme transversale ou comme propre à une tradition
+  non encore modélisée.
+- Kabbale/Vedanta : arbres-traditions encore non ouverts — restent soumis à la même règle que le
+  Tasawwuf en Phase 2 (ancrage uniquement si correspondance établie et sourcée).
 
 ### Phase 4 — Onglet apophatique (implémentation applicative) + pipeline de suggestion
 - Vue du travail inachevé ; marquage qualifié des suggestions (§1) ; pipeline « suggestion →
