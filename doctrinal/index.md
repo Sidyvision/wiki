@@ -29,6 +29,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/wahdat-al-wujud|Waḥdat al-Wujūd (l'Unicité de l'Être)]]
 - [[doctrinal/symboles/barzakh|Le Barzakh (l'isthme ontologique)]]
 - [[doctrinal/symboles/walaya|La Walāya (la sainteté, proximité divine)]]
+- [[doctrinal/symboles/khatm|Al-Khatm — les Sceaux (Prophétie, Sainteté universelle, Sainteté muhammadienne) et leur distinction d'avec la Quṭbiyya]]
 - [[doctrinal/symboles/malamatiyya|Al-Malāmatiyya (les « gens du blâme ») et les Afrâd]]
 - [[doctrinal/symboles/al-insan-al-kamil|Al-Insān al-Kāmil (l'Homme Universel)]]
 - [[doctrinal/symboles/hadarat-khams|Les Cinq Présences divines (al-Ḥaḍarât al-Ilāhiyya al-Khams)]]

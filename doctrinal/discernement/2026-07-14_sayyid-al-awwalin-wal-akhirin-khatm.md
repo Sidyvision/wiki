@@ -5,10 +5,10 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [discernement, khatm, walaya, insan-kamil, asma-al-husna, rafi-ad-darajat, en-cours]
 created: 2026-07-14
-updated: 2026-07-14
-sources: ["[[doctrinal/sources/dalail-al-khayrat-jazuli]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]"]
-sources_count: 3
-cross_links: ["[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/walaya]]"]
+updated: 2026-08-04
+sources: ["[[doctrinal/sources/dalail-al-khayrat-jazuli]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]", "[[doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh]]", "[[doctrinal/sources/valsan-investiture-cheikh-al-akbar]]"]
+sources_count: 5
+cross_links: ["[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/symboles/khatm]]"]
 ---
 
 # Sayyid al-Awwalîn wa-l-Âkhirîn, jonction cyclique premier/dernier, et allusion au *Khatm*
@@ -66,6 +66,25 @@ cross_links: ["[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-trav
 >   le wiki — signalé, non créé d'office. Existe seulement
 >   [[doctrinal/symboles/khatm-al-khawajakan]], qui désigne une **cérémonie naqshbandie**,
 >   sens homonyme sans rapport direct — à ne pas confondre.
+> - *Pièce Guénon (déposée 2026-08-04)* : [[doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh]]
+>   établit dans un même paragraphe en akbarien technique les deux premiers des trois liens
+>   laissés ouverts par l'Examen formel : titre dévotionnel (*sayyid al-awwalîn wa-l-âkhirîn*)
+>   = Sceau des prophètes (*Khâtam el-anbiâï wa'l-mursalîn*) = titres de l'Homme Universel.
+>   ⚠️ Précision d'actualité (Cmd 2) : la chaîne comporte **trois maillons**, jamais deux —
+>   Metatron/*Er-Rûh el-mohammediyah* (principe) → Sceau des prophètes (monde d'en-bas) → 
+>   titres de l'Insān al-Kāmil. Ne pas contracter.
+> - *Pièce Vâlsan (déposée 2026-08-04)* : [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]]
+>   corrobore sur texte akbarien primaire la distinction de Jurjānī entre Pôle et Sceau de la
+>   Sainteté. Elle découvre en outre une **quatrième notion** : la distinction entre *Khatm
+>   al-Wilāya al-ʿĀmma* (universelle, Jésus) et *Khatm al-Wilāya al-Muḥammadiyya* (muhammadienne,
+>   Ibn ʿArabī). Jurjānī (déf. 0215) nomme seulement la première sous le nom générique *ḫâtim
+>   al-awliyâʾ*.
+> - 🔭 **Verdict de Sidy (2026-08-04)** sur la question de précision laissée ouverte le 2026-07-14 :
+>   le Khatm visé par l'hypothèse est ***Khātim al-Nubuwwa*** (Sceau de la Prophétie), suivant la
+>   formulation de Guénon, et non *Khātim al-Walāya*. Cette précision lève l'objection formelle
+>   correspondante ; elle ne clôt pas le dossier.
+> - *Cible manquante comblée (2026-08-04)* : [[doctrinal/symboles/khatm]], ouverte sur demande de
+>   Sidy ce jour, documente les quatre notions distinctes et leur séparation d'avec la Quṭbiyya.
 >
 > **Examen formel** (cohérence logique/terminologique — jamais le principe) :
 > l'hypothèse assemble trois éléments chacun individuellement attesté sur texte primaire
@@ -78,6 +97,18 @@ cross_links: ["[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-trav
 > « le Khatm » au singulier sans préciser lequel des trois sens distingués par Jurjānī
 > (Khātim al-Nubuwwa / Khātim al-Walāya / Quṭbiyya al-Kubrā) est visé — précision qui
 > conditionnerait tout examen ultérieur plus poussé.
+>
+> ⚠️ **Ce qui reste ouvert (2026-08-04)** : le maillon *Rafîʿ ad-Darajât* / degré 38 demeure
+> non établi par une source externe. Ni Guénon ni Vâlsan ne le nomment en rapport avec le titre
+> *sayyid al-awwalîn wa-l-âkhirîn*. C'est le cœur original de l'hypothèse et il reste une
+> lecture personnelle de rapprochements textuels réels, exactement comme l'Examen formel le
+> qualifiait. Le rapport exact entre *Khatm al-Wilāya al-ʿĀmma* (universelle) et *Khatm
+> al-Wilāya al-Muḥammadiyya* (muhammadienne) demeure `to-source`.
+>
+> ⚠️ **Distinct du chantier polaire (2026-08-04)** : ce dossier (Khatm) et le discernement
+> [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]
+> (Quṭbiyya/Pôle) sont contigus mais ne se confondent pas. Jurjānī et Vâlsan le posent tous deux
+> clairement : le Pôle n'est pas le Sceau. Les deux fiches doivent le rester.
 >
 > **Conclusion** : en attente — réservée à Sidy.
 >
