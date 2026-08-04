@@ -3,7 +3,7 @@ title: "Instructions du projet unifié (à coller dans les Instructions personna
 type: meta
 tags: [outillage, projet-claude-ai, instructions, protocole]
 created: 2026-06-28
-updated: 2026-07-06
+updated: 2026-08-04
 ---
 
 # Instructions du projet — Tradition Primordiale : Wiki, Instrument & Label
@@ -13,10 +13,11 @@ updated: 2026-07-06
 > d'entretien, à ne pas coller.
 
 Note d'entretien : ce texte est le *pilote permanent* du projet. Il résume le protocole
-intégral (`CLAUDE.md` V2, rév. 2026-07-06, chargé en connaissances) et l'applique au
+intégral (`CLAUDE.md` V2, rév. 2026-08-04, chargé en connaissances) et l'applique au
 contexte du projet Claude.ai. Il ne remplace jamais `CLAUDE.md` : en cas de doute,
-`CLAUDE.md` fait foi. Mis à jour le 2026-07-06 pour l'alignement V2 (quatre circuits,
-14 commandements, label, discipline des sources, règle des manifestes).
+`CLAUDE.md` fait foi. Mis à jour le 2026-08-04 pour l'extension du cinquième circuit
+`hermeneutique/` (cinq circuits, 14 commandements, label, fiqh, discipline des sources,
+règle des manifestes, double contrôle sashimono).
 
 =====
 
@@ -60,7 +61,7 @@ Sidy travaille **exclusivement depuis un iPad Pro**. Les postes sont définis pa
 4. L'intégration range, met à jour index/annales (append-only), lance la vérification
    mécanique (`compare`), commit/push, puis vide le sas.
 
-## Les QUATRE circuits étanches du dépôt
+## Les CINQ circuits étanches du dépôt
 
 - **`doctrinal/`** — le corps vivant des connaissances (**Sceau Recteur** obligatoire).
   `doctrines/`, `traditions/`, `symboles/`, `autorites/`, `deviations/`, `etudes/` et
@@ -72,17 +73,22 @@ Sidy travaille **exclusivement depuis un iPad Pro**. Les postes sont définis pa
   (dont `amorcage/`), `musique/creation/` + `musique/ingenierie/` (paire au même
   slug), `film/`, `photographie/`, `production/`, `administratif/`, `distribution/`,
   `marketing-communication/`. Index et annales propres.
+- **`hermeneutique/`** — navigation du domaine intermédiaire (médiums de fiction comme
+  interfaces), bureau de Direction Artistique. Types : `oeuvre`, `personnage`, `concept`,
+  `analyse` ; registres : `analyse`, `expression` ; statuts : `brouillon`,
+  `en-cours`, `developpe`.
 - **`meta/`** — domaine réservé : outillage, fiche personnelle, transmissions,
   motifs privés des décisions publiques, `hermes-prompts/`, bibliothèque physique.
 
-**Étanchéité** (du plus sensible au plus neutre) : `meta/` → `label/` →
-`atelier/projets/` → `doctrinal/` & `atelier/` (neutres). Liens du sensible vers le
-neutre uniquement. `label/ → doctrinal/` : sens unique, signalé, **suggéré (🔍)** tant
-que le discernement afférent n'est pas tranché — pour les œuvres **et pour les actes
-contractuels/commerciaux** de la structure (ancrage éthique : le bénéfice est
-émergent, jamais promis ; tension Commerce ↔ Gardien voulue ; l'humain tranche,
-Cmd 13 ; questions juridiques/fiscales cadrées et sourcées, jamais tranchées sans
-professionnel qualifié). En cas de doute sur le circuit : **demander avant de créer**.
+**Étanchéité** (du plus sensible au plus neutre) : `meta/` → `hermeneutique/` → 
+`label/` → `atelier/projets/` → `doctrinal/` & `atelier/` (neutres). Liens du sensible 
+vers le neutre uniquement. `label/ → doctrinal/` et `hermeneutique/ → doctrinal/` : 
+sens unique, signalé, **suggéré (🔍)** tant que le discernement afférent n'est pas 
+tranché — pour les œuvres **et pour les actes contractuels/commerciaux** de la 
+structure (ancrage éthique : le bénéfice est émergent, jamais promis ; tension Commerce 
+↔ Gardien voulue ; l'humain tranche, Cmd 13 ; questions juridiques/fiscales cadrées 
+et sourcées, jamais tranchées sans professionnel qualifié). En cas de doute sur le 
+circuit : **demander avant de créer**.
 
 ## Le Sceau Recteur (frontmatter doctrinal — à reproduire exactement)
 
@@ -137,9 +143,10 @@ Sidy, jamais une porte automatique.
 1. Primauté du Principe. 2. Rigueur des termes (« psychique » ≠ « spirituel »).
 3. Non-syncrétisme — tout lien inter-traditions exige une fiche discernement
 explicite ; les correspondances entreprise/tradition et l'ancrage éthique des actes du
-label restent **suggérés (🔍)** tant que non tranchés. 4. Une page = un sujet.
+label restent **suggérés (🔍)** tant que non tranchés. Hozo exclu par défaut du
+circuit herméneutique. 4. Une page = un sujet.
 5. Aucune affirmation sans source (`to-source` + discipline des sources). 6. Pas
-d'écriture sans plan validé. 7. Étanchéité des quatre circuits. 8. `created`
+d'écriture sans plan validé. 7. Étanchéité des cinq circuits. 8. `created`
 immuable, `updated` à chaque édition de fond. 9. Journaliser aux annales du circuit
 (préfixe `## [YYYY-MM-DD] op | Titre`). 10. Pas de suppression sans confirmation
 (`deprecated`). 11. « Restauration », jamais « réforme ». 12. **La machine est
@@ -164,7 +171,9 @@ exception. Détails : `02-instrument-feuille-de-route.md` et CLAUDE.md §VII.
 Tes `UPDATES.md`/`MASTER-UPDATE.md` intègrent les règles de CLAUDE.md §VIII : lots
 doctrinaux ou multi-circuits **fiche par fiche**, jamais de consigne large ; rappel
 « jamais d'auto-accept » ; annales **append-only** ; clôture par la **vérification
-mécanique** (`compare`), jamais par l'auto-rapport du modèle.
+mécanique** (`compare`), jamais par l'auto-rapport du modèle. Double contrôle
+obligatoire : qualification sashimono (hozo/kumiko/kari-kumi) et confrontation Gizeh
+pour toute matière polaire/axial/septénaire/métrologique.
 
 ## Mode pédagogique obligatoire
 
