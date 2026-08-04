@@ -9,6 +9,21 @@ updated: 2026-08-04
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-04] ingest | Fonction polaire universelle et socle védantique — Roi du Monde, Er-Rûh, Vâlsan, HDV intégral
+
+- **Opération** : ARCHIVAGE & MAILLAGE + EXAMEN DE DISCERNEMENT (ouverture). Lot multi-circuits traité fiche par fiche selon MASTER-UPDATES.md.
+- **Créé (sources, 9)** : Roi du Monde ch. III, IV, VI ; Aperçus ch. V (Er-Rûh) ; Vâlsan, Investiture du Cheikh al-Akbar ; L'Homme et son devenir selon le Vêdânta ch. I-VII, IX-XIV, XV-XXI, VIII+XXII-XXVI.
+- **Créé (discernement, 1)** : 🔍 [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] — statut `en cours`, verdict réservé à Sidy.
+- **Enrichi** : [[doctrinal/symboles/malamatiyya]] (juridiction des Afrâd, guidance d'al-Khiḍr, `to-source`) ; [[doctrinal/sources/guenon-regel-quantite-ch28-40-contre-initiation]] (ch. XXXIX note 7, double face de Metatron) ; [[doctrinal/deviations/reincarnation-vies-anterieures]] (appui primaire HDV ch. XXII) ; [[doctrinal/symboles/wahdat-al-wujud]] (irréciprocité Brahma/Monde, HDV ch. XXVI) ; [[doctrinal/index.md]].
+- **Acquis majeurs** : (a) identité *Er-Rûh* = Metatron posée sans détour par Guénon (Aperçus ch. V) ; (b) Manu = Melki-Tsedeq posée sans détour (RdM ch. VI), confirmée indépendamment par Vâlsan sur texte akbarien primaire ; (c) **l'arbre inversé sourcé** sur texte primaire (*ashwattha*, HDV ch. V note 2, application macrocosmique) ; (d) premier **joint Vêdânta↔Kabbale** posé par Guénon (*Tribhuvana* ↔ Beriah/Ietsirah/Asiah, Atsiluth au-dessus, HDV ch. V note 7) ; (e) couverture intégrale de HDV (26 chapitres).
+- **Vigilances** : cinq séries quinaires distinctes non superposables (koshas, ḥaḍarāt, tanmātras, bhūtas, conditions de l'existence corporelle) ; trois latéralités droite/gauche non alignées (pingalā/iḍā, Imâms akbariens avec inversion, colonnes séphirothiques) ; quatre mondes kabbalistiques ≠ cinq ḥaḍarāt ; ternaire ≠ quinaire ; deux chapitres de HDV retirés par l'auteur (XI, XXV) ; homologie Rayon solaire ↔ filament traversant signalée, non qualifiée ; l'Être n'est pas le Principe Suprême (HDV ch. XXIII) — conséquence signalée pour l'axe, non instruite.
+- **Instrument** : **aucune modification de `instrument-donnees.yaml`**. Aucun nœud, aucun ancrage.
+- **Verdicts en attente de Sidy** : statut des ch. XI et XXV retirés ; question des deux septénaires (expressément non tranchée) ; extension du hozo 2026-07-26 à *Purusha-Prakriti* (androgyne primordial, pièce à localiser).
+- **to-source ouverts** : pagination de tous les chapitres Guénon (authenticité attestée par Sidy, pagination non urgente) ; médiation Scribd de la pièce Vâlsan ; référence guénonienne de l'androgyne primordial ; référence exacte du point Afrâd/juridiction.
+- **Commit** : 54ce2e4
+
+---
+
 ## [2026-08-04] protocole | Ouverture de la Phase 3 — premier nœud transversal (sept Aqtâb, hiérarchie initiatique universelle)
 
 - **Opération** : STRUCTURE — première entrée de la Phase 3 (multi-tradition) de la feuille de route de l'Instrument, sur verdict de Sidy.
