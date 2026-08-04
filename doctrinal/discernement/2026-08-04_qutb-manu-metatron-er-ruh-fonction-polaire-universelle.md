@@ -184,7 +184,7 @@ vers un rattachement védantique (*Manu*) et kabbalistique (*Metatron*).
 > pièce complémentaire, le discernement distinct et toujours ouvert
 > [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] (*kari-kumi*,
 > `en cours`) — voir l'addendum versé à
-> [[doctrinal/sources/guenon-regel-quantite-ch28-40-contre-initiation]].
+> [[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]].
 > Guénon n'emploie à aucun moment le terme *Sitra Ahra* : le rapprochement
 > terminologique précis avec cette doctrine kabbalistique reste à instruire sur
 > source kabbalistique primaire (*Sepher Yetsirah*, désormais en bibliothèque).
