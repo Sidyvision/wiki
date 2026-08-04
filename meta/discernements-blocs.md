@@ -12,7 +12,7 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-04 15:26 UTC, sur `/root/wiki`.
+> aucun réseau) le 2026-08-04 15:30 UTC, sur `/root/wiki`.
 > Portée : blocs de discernement seuls. 349 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
