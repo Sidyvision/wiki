@@ -1,6 +1,15 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.3.1)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.3.2)
 #
+#   v0.3.2 (2026-07-27) : bloc `zodiaque:` ajouté (degre_falak_al_buruj: 19,
+#     degre_falak_al_manazil: 20, obliquite_deg, epoque_reference: null) ;
+#     confirmation explicite que les sept Prophètes planétaires (degrés 21-27)
+#     ne constituent PAS des ancrages au sens de ce fichier (Cmd 13 — porte
+#     humaine ; documentés dans doctrinal/discernement/2026-07-27_septenaire-
+#     transversal-balance-degre-soleil, non dans le YAML du rendu Instrument).
+#     Version corrigée le 2026-08-04 : l'en-tête indiquait encore v0.3.1
+#     alors que le contenu reflétait déjà ces changements (cf. annales
+#     2026-08-04, signalement séquence ajout/retrait ancrages prophètes).
 #   v0.3.1 (2026-07-17) : ajout d'un troisième ancrage établi — sept Pôles/Aqtâb
 #     guénoniens ↔ Malakūt planétaire (degrés 21-27), verdict Sidy du 2026-07-16
 #     (fiche doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire).

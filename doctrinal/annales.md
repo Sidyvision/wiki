@@ -9,6 +9,15 @@ updated: 2026-08-04
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-04] signalement | Clarification — séquence ancrages prophètes planétaires (session du 2026-07-27)
+
+- **Opération** : SIGNALEMENT — précision apportée à l'entrée du 2026-07-27 (« Lot Référentiels stellaires »), sans réécriture de celle-ci (Cmd 9, 10).
+- **Contexte** : l'entrée du 2026-07-27 mentionne l'« ajout de 7 ancrages prophètes planétaires (degrés 21-27) » au manifeste. Confirmé par Sidy (2026-08-04) : dans la même session, Claude Code a d'abord ajouté ces ancrages, puis les a retirés après lecture de la note du fichier stipulant que les sept prophètes ne constituent pas des ancrages au sens du manifeste (Cmd 13 — porte humaine ; rapport Aqtâb↔Prophètes porté par le verdict discernement, non par le YAML).
+- **État réel confirmé** : `instrument-donnees.yaml` ne porte aujourd'hui aucun ancrage pour les sept prophètes planétaires ; seule la NOTE explicative est présente (lignes suivant la section `ancrages:`). Aucune divergence entre annales et YAML — l'entrée du 27 juillet décrivait une étape intermédiaire de la session, non l'état final committé.
+- **Point sensible** : aucun — clarification factuelle, aucune décision doctrinale engagée.
+
+---
+
 ## [2026-08-04] protocole | Ouverture du cinquième circuit `hermeneutique/` (navigation du domaine intermédiaire)
 
 - **Opération** : AMENDEMENT PROTOCOLE — sur validation explicite de Sidy.
