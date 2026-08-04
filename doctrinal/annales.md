@@ -41,7 +41,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   directement pertinente à un volet résiduel d'un autre discernement. Signal pour de
   futures sessions : consulter systématiquement les fiches source déjà déposées avant
   de considérer un point comme bloqué faute de matière.
-- **Commit** : (à déterminer)
+- **Commit** : 7c2f91f
 
 ---
 
