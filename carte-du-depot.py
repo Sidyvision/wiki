@@ -28,12 +28,26 @@ USAGE
     python3 carte-du-depot.py --repo /root/wiki --sortie meta/carte-du-depot.md
     python3 carte-du-depot.py --par-circuit        # un fichier par circuit
     python3 carte-du-depot.py --max-titres 12      # plafond d'en-têtes H2/fiche
+    python3 carte-du-depot.py --blocs-seuls        # blocs 🔍 dans un fichier dédié
+    python3 carte-du-depot.py --blocs              # blocs ajoutés à la carte
+    python3 carte-du-depot.py --blocs-seuls --blocs-integraux   # blocs entiers
 
 SORTIE
     Un fichier Markdown (ou un par circuit avec --par-circuit), structuré en
     sections : inventaire par circuit, index des tags, index des en-têtes,
-    discernements ouverts, marqueurs to-source, liens morts, fiches orphelines,
-    statistiques.
+    discernements et leur statut, marqueurs to-source, liens morts, fiches
+    orphelines, statistiques.
+
+    Avec --blocs, une section IV-bis reproduit le contenu des blocs de
+    discernement eux-memes — statut, hypothese, conclusion, points sensibles
+    et lignes de vigilance — groupes par etat (ouverts / clos). Avec
+    --blocs-seuls, ce contenu part dans un fichier dedie
+    `discernements-blocs.md`, plus leger a deposer comme fichier de projet
+    que la carte entiere.
+
+    La reproduction est LITTERALE : des lignes sont omises, jamais
+    reformulees. Le mode par defaut ecarte Genealogie des idees, Examen
+    formel et Lectures suggerees (volumineux) ; --blocs-integraux les inclut.
 
 CE QUE LE SCRIPT NE FAIT PAS
     Il ne vérifie aucun invariant structurel : c'est le rôle de
@@ -150,6 +164,97 @@ RE_DISCERNEMENT_STATUT = re.compile(
     r'\*\*Statut\*\*\s*:\s*([^\n\r|]+)', re.IGNORECASE)
 
 
+# Sous-sections du bloc 🔍 reproduites par défaut. Les autres (Généalogie des
+# idées, Examen formel, Lectures suggérées) sont volumineuses et écartées sauf
+# --blocs-integraux : ce sont l'hypothèse, le verdict et les vigilances qui
+# fixent l'état doctrinal d'un dossier.
+SOUS_SECTIONS_RETENUES = [
+    "statut", "hypothèse", "hypothese", "conclusion", "verdict",
+    "qualification", "point sensible", "portée", "portee",
+]
+
+# Lignes hors sous-section reproduites quel que soit le mode : marqueurs de
+# vigilance et de piste ouverte, qui portent les réserves non tranchées.
+PREFIXES_VIGILANCE = ("⚠️", "🔭", "⭐")
+
+RE_SOUS_SECTION = re.compile(r'^\s*\*\*([^*]+)\*\*\s*:?')
+
+
+def extraire_bloc_discernement(corps):
+    """
+    Extrait le bloc de citation contenant le marqueur 🔍, reproduit
+    littéralement (préfixes `> ` retirés). Retourne "" si absent.
+    Aucune reformulation : recopie stricte.
+    """
+    lignes = corps.splitlines()
+    debut = None
+    for i, l in enumerate(lignes):
+        if l.lstrip().startswith(">") and "🔍" in l:
+            debut = i
+            break
+    if debut is None:
+        return ""
+    # remonter aux lignes de citation qui précèdent immédiatement
+    while debut > 0 and lignes[debut - 1].lstrip().startswith(">"):
+        debut -= 1
+    fin = debut
+    vides = 0
+    for j in range(debut, len(lignes)):
+        l = lignes[j]
+        if l.lstrip().startswith(">"):
+            fin = j
+            vides = 0
+        elif l.strip() == "":
+            vides += 1
+            if vides > 1:
+                break
+        else:
+            break
+    brut = []
+    for l in lignes[debut:fin + 1]:
+        s = l.lstrip()
+        if s.startswith(">"):
+            s = s[1:]
+            if s.startswith(" "):
+                s = s[1:]
+        brut.append(s.rstrip())
+    return "\n".join(brut).strip()
+
+
+def filtrer_bloc(bloc, integral):
+    """
+    Réduit un bloc 🔍 à ses sous-sections décisives, sauf mode intégral.
+    Recopie littérale : aucune ligne n'est reformulée, seulement omise.
+    """
+    if integral or not bloc:
+        return bloc
+    sortie, garder = [], False
+    for ligne in bloc.splitlines():
+        m = RE_SOUS_SECTION.match(ligne)
+        if m:
+            etiquette = m.group(1).strip().lower()
+            garder = any(k in etiquette for k in SOUS_SECTIONS_RETENUES)
+            if garder:
+                sortie.append(ligne)
+            continue
+        if ligne.lstrip().startswith(PREFIXES_VIGILANCE):
+            sortie.append(ligne)
+            sortie.append("")
+            garder = False
+            continue
+        if garder:
+            sortie.append(ligne)
+    # compactage des lignes vides consécutives
+    net, precedente_vide = [], False
+    for l in sortie:
+        vide = (l.strip() == "")
+        if vide and precedente_vide:
+            continue
+        net.append(l)
+        precedente_vide = vide
+    return "\n".join(net).strip()
+
+
 def analyser_fiche(racine, chemin_abs):
     """Retourne un dict décrivant une fiche, sans aucun jugement."""
     rel = os.path.relpath(chemin_abs, racine).replace(os.sep, "/")
@@ -184,10 +289,11 @@ def analyser_fiche(racine, chemin_abs):
             to_source.append("L%d : %s" % (i, extrait))
 
     statut_discernement = ""
-    if valeur_nue(fm.get("type", "")) == "discernement":
-        m = RE_DISCERNEMENT_STATUT.search(corps)
-        if m:
-            statut_discernement = m.group(1).strip()
+    m = RE_DISCERNEMENT_STATUT.search(corps)
+    if m:
+        statut_discernement = m.group(1).strip()
+
+    bloc = extraire_bloc_discernement(corps)
 
     return {
         "slug": slug,
@@ -200,6 +306,7 @@ def analyser_fiche(racine, chemin_abs):
         "cibles_corps": cibles_corps,
         "to_source": to_source,
         "statut_discernement": statut_discernement,
+        "bloc": bloc,
         "octets": len(texte.encode("utf-8")),
         "lignes": texte.count("\n") + 1,
     }
@@ -371,6 +478,59 @@ def rendre_discernements(fiches):
     return "\n".join(out)
 
 
+def rendre_blocs(fiches, integral):
+    """
+    Reproduit les blocs 🔍 eux-mêmes, groupés par statut. C'est le contenu
+    doctrinal réel des dossiers — ce que l'inventaire et les en-têtes ne
+    donnent pas.
+    """
+    titre = "## IV-bis. Blocs de discernement (contenu%s)\n" % (
+        " intégral" if integral else " — sous-sections décisives")
+    out = [titre,
+           "*Recopie littérale, sans reformulation. Les dossiers `en cours` "
+           "portent les questions non tranchées ; les dossiers clos portent les "
+           "verdicts et leurs réserves conservées.*\n"]
+    if not integral:
+        out.append("*Sous-sections reproduites : statut, hypothèse, "
+                   "conclusion/verdict, qualification, points sensibles, plus "
+                   "toute ligne ⚠️ 🔭 ⭐. Généalogie, examen formel et lectures "
+                   "suggérées sont omis — relire la fiche pour ceux-ci.*\n")
+
+    lot = [f for f in fiches if f["bloc"]]
+    if not lot:
+        out.append("*(aucun bloc 🔍 relevé)*\n")
+        return "\n".join(out)
+
+    def rang(f):
+        s = (f["statut_discernement"] or "").lower()
+        if "cours" in s or "ouvert" in s:
+            return 0
+        if not s:
+            return 2
+        return 1
+
+    groupes = {0: "Dossiers ouverts (`en cours`)",
+               1: "Dossiers clos ou validés",
+               2: "Statut non renseigné"}
+    for cle in (0, 1, 2):
+        sous_lot = sorted((f for f in lot if rang(f) == cle),
+                          key=lambda x: x["slug"])
+        if not sous_lot:
+            continue
+        out.append("### %s — %d\n" % (groupes[cle], len(sous_lot)))
+        for f in sous_lot:
+            contenu = filtrer_bloc(f["bloc"], integral)
+            if not contenu:
+                continue
+            out.append("#### `%s`\n" % f["slug"])
+            titre_fiche = valeur_nue(f["fm"].get("title", ""))
+            if titre_fiche:
+                out.append("*%s*\n" % titre_fiche)
+            out.append(contenu)
+            out.append("")
+    return "\n".join(out)
+
+
 def rendre_to_source(fiches):
     out = ["## V. Marqueurs `to-source` en attente\n",
            "*Chaque ligne est une affirmation non encore vérifiée sur source "
@@ -485,13 +645,17 @@ def rendre_stats(fiches):
 # ---------------------------------------------------------------------------
 
 
-def construire(fiches, racine, portee, max_titres):
+def construire(fiches, racine, portee, max_titres, blocs=False, integral=False):
     parties = [
         rendre_entete(racine, len(fiches), portee),
         rendre_inventaire(fiches),
         rendre_tags(fiches),
         rendre_titres(fiches, max_titres),
         rendre_discernements(fiches),
+    ]
+    if blocs:
+        parties.append(rendre_blocs(fiches, integral))
+    parties += [
         rendre_to_source(fiches),
         rendre_liens(fiches),
         rendre_stats(fiches),
@@ -511,6 +675,14 @@ def main():
                    help="un fichier par circuit, suffixé par le nom du circuit")
     p.add_argument("--max-titres", type=int, default=15,
                    help="plafond d'en-têtes H2 listés par fiche (0 = illimité)")
+    p.add_argument("--blocs", action="store_true",
+                   help="reproduire les blocs de discernement (section IV-bis)")
+    p.add_argument("--blocs-integraux", action="store_true",
+                   help="avec --blocs : reproduire le bloc entier plutôt que "
+                        "ses seules sous-sections décisives")
+    p.add_argument("--blocs-seuls", action="store_true",
+                   help="n'écrire que les blocs de discernement, dans un "
+                        "fichier dédié (implique --blocs)")
     args = p.parse_args()
 
     racine = os.path.abspath(args.repo)
@@ -525,6 +697,25 @@ def main():
         return 1
 
     ecrits = []
+    if args.blocs_seuls:
+        args.blocs = True
+        chemin = os.path.join(racine, os.path.dirname(args.sortie) or ".",
+                              "discernements-blocs.md")
+        os.makedirs(os.path.dirname(chemin), exist_ok=True)
+        with open(chemin, "w", encoding="utf-8") as fh:
+            fh.write(rendre_entete(racine, len(fiches),
+                                   "blocs de discernement seuls"))
+            fh.write(rendre_discernements(fiches))
+            fh.write("\n")
+            fh.write(rendre_blocs(fiches, args.blocs_integraux))
+            fh.write("\n---\n\n*Fin. Régénérer par "
+                     "`python3 carte-du-depot.py --blocs-seuls`.*\n")
+        taille = os.path.getsize(chemin)
+        print("Écrit : %s (%d fiches parcourues, %d octets)"
+              % (chemin, len(fiches), taille))
+        print("Rappel : artefact dérivé. Le dépôt fait foi.")
+        return 0
+
     if args.par_circuit:
         base, ext = os.path.splitext(args.sortie)
         par_circuit = defaultdict(list)
@@ -538,13 +729,16 @@ def main():
             os.makedirs(os.path.dirname(chemin), exist_ok=True)
             with open(chemin, "w", encoding="utf-8") as fh:
                 fh.write(construire(lot, racine, "circuit `%s/`" % circuit,
-                                    args.max_titres))
+                                    args.max_titres, args.blocs,
+                                    args.blocs_integraux))
             ecrits.append((chemin, len(lot)))
     else:
         chemin = os.path.join(racine, args.sortie)
         os.makedirs(os.path.dirname(chemin), exist_ok=True)
         with open(chemin, "w", encoding="utf-8") as fh:
-            fh.write(construire(fiches, racine, "dépôt complet", args.max_titres))
+            fh.write(construire(fiches, racine, "dépôt complet",
+                                args.max_titres, args.blocs,
+                                args.blocs_integraux))
         ecrits.append((chemin, len(fiches)))
 
     for chemin, n in ecrits:
