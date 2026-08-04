@@ -3,12 +3,12 @@ title: "Les sept Pôles/Aqtâb et le Malakūt planétaire : identité guénonien
 type: discernement
 status: traditionnel
 tradition_cadre: "universel"
-tags: [guenon, qutb, aqtab, meru-qaf, malakut-planetaire, khidr, idris, sept-cieux, clos]
+tags: [guenon, qutb, aqtab, meru-qaf, malakut-planetaire, khidr, idris, sept-cieux, wiratha, afrad, clos]
 created: 2026-07-16
-updated: 2026-07-16
-sources: ["[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]", "[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]", "[[doctrinal/sources/guenon-mysteres-lettre-nun]]", "[[doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot]]", "[[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]]"]
-sources_count: 6
-cross_links: ["[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]"]
+updated: 2026-08-04
+sources: ["[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]", "[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]", "[[doctrinal/sources/guenon-mysteres-lettre-nun]]", "[[doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot]]", "[[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]]", "[[doctrinal/sources/malamatiyah-futuhat-ch23]]"]
+sources_count: 7
+cross_links: ["[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]", "[[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]"]
 ---
 
 # Les sept Pôles/Aqtâb et le Malakūt planétaire
@@ -92,16 +92,6 @@ un prophète « siégeant ». L'hypothèse rapproche ces deux structures septén
 >   chapitres akbariens à recouper, pas un seul. La doctrine de la *wirātha* (chaque
 >   saint comme héritier d'un prophète) est donc désormais **confirmée sur texte
 >   primaire** : `to-source` levé sur ce point précis.
->   ⚠️ **Réserve résiduelle** : l'extrait transmis ne contient pas encore le
->   développement explicite « de leurs pôles » annoncé par le titre du chapitre — le
->   lien direct *wirātha*↔*Qutb* reste donc à localiser plus précisément dans le même
->   chapitre avant d'être tenu pour aussi établi que la doctrine de l'héritage
->   elle-même. Appliquée aux Aqtâb *sous cette réserve*, cette doctrine fournirait une
->   explication proprement akbarienne — non plus seulement guénonienne — au lien entre
->   chaque Pôle et son archétype céleste : si chaque Qutb hérite d'un prophète, et que
->   chaque prophète siège à l'un des sept degrés planétaires de la table (21-27), le
->   lien Pôle/ciel planétaire trouverait une assise interne à la doctrine akbarienne
->   elle-même, en plus de son assise guénonienne externe.
 >   Troisième apparition d'al-Khiḍr dans la généalogie de cette fiche (après la lettre
 >   à Coomaraswamy et le rattachement de Guénon lui-même) — convergence notée, non
 >   sur-interprétée.
@@ -114,6 +104,30 @@ un prophète « siégeant ». L'hypothèse rapproche ces deux structures septén
 >   seulement une identité posée par Guénon : c'est une comparaison Quṭb/Meru attestée
 >   dans le milieu shādhilite-akbarien dont Guénon a directement hérité, antérieure à
 >   sa propre formulation. Renforce substantiellement le volet (a).
+> - *Localisation du volet wirātha↔pôles — pièce apportée par Sidy (2026-08-03/04),
+>   `doctrinal/sources/malamatiyah-futuhat-ch23`* : le chapitre 23 des *Futūḥāt*
+>   (« *fī maʿrifat al-aqṭāb al-maṣūnīn wa asrār ṣūnihim* » — « De la connaissance des
+>   Pôles préservés à l'abri des regards »), déjà au dépôt depuis le 2026-07-09, désigne
+>   nommément dans son propre titre la catégorie des *mulâmiyya*/*afrâd* comme
+>   **al-aqṭāb al-maṣūnīn** (« les Pôles préservés »). Son « honorable complément » (fin
+>   de chapitre) énonce : « c'est à partir de cette "présence" que sont envoyés les
+>   prophètes... [les *mulâmiyya*] sont leurs suivants qui exécutent les ordres qu'ils
+>   reçoivent de la même source... ils sont donc bien les "suivants" mais en
+>   connaissance de cause... Ils connaissent... les demeures des envoyés, les méthodes
+>   des différentes voies procédant de Dieu, ainsi que leurs valeurs au regard de
+>   Dieu. » C'est, sous un vocabulaire distinct de celui du ch. 36 (« suivants »,
+>   *at-tâbiʿûn*, plutôt que *wirātha*), la même structure de filiation — source
+>   commune aux prophètes et aux saints, statut de suivant conscient — mais nommément
+>   rattachée cette fois au mot même d'**aqtâb**, ce que ne faisait pas le ch. 36.
+>   ⚠️ **Réserve formelle conservée malgré la clôture** : le terme *aqtâb* n'est pas
+>   univoque chez Ibn ʿArabī — il désigne tantôt le Qutb unique de l'époque, tantôt une
+>   fonction hiérarchique précise, tantôt, comme ici, une classe honorifique de saints
+>   cachés (*mulâmiyya*/*afrâd*). Rien dans le ch. 23 ne prouve à lui seul que cette
+>   classe est techniquement identique aux sept Pôles cosmiques/planétaires de la
+>   doctrine guénonienne des *cycles cosmiques* — le rapprochement reste, sur ce point
+>   précis, de l'ordre de la vraisemblance doctrinale forte plutôt que de l'identité
+>   démontrée terme à terme. Cette réserve n'empêche pas la clôture du volet (verdict de
+>   Sidy ci-dessous), mais elle doit rester visible pour tout usage futur de cette pièce.
 > - Aucune parenté hétérodoxe identifiée.
 >
 > **Examen formel** (cohérence logique/terminologique — jamais le principe) : la
@@ -145,6 +159,14 @@ un prophète « siégeant ». L'hypothèse rapproche ces deux structures septén
 > signaler à l'occasion dans les fiches concernées, sans qu'il soit nécessaire d'en
 > faire un point d'ancrage séparé.
 >
+> **Addendum (verdict de Sidy, 2026-08-04)** : sur présentation du ch. 23 des *Futūḥāt*
+> (« Des Pôles préservés à l'abri des regards ») et de son rattachement nommé du terme
+> *aqtâb* à la doctrine de filiation prophétique, Sidy valide le passage du volet
+> *wirātha*↔*pôles* de *kari-kumi* à **hozo**. La réserve terminologique sur
+> l'univocité du mot *aqtâb* chez Ibn ʿArabī (ci-dessus) est conservée dans la fiche à
+> titre de vigilance méthodologique, mais ne fait plus obstacle à la clôture de ce
+> volet.
+>
 > **Qualification sashimono des joints** (convention, cf. `philosophie-sashimono.md`
 > §6-7) : le joint Meru=Qâf/Aqtâb=Malakūt planétaire est un **hozo** (tenon-mortaise —
 > équivalence établie, même degré ontologique sous deux voiles traditionnels), trait
@@ -152,8 +174,9 @@ un prophète « siégeant ». L'hypothèse rapproche ces deux structures septén
 > (1911) — second hozo, indépendant et antérieur. Le cas d'Idrīs/degré 24/Ciel du
 > Soleil n'est pas un joint inter-traditionnel mais une **confirmation externe** d'un
 > point déjà interne à la table akbarienne — ne se qualifie pas en hozo/kumiko. Le
-> volet wirātha↔pôles, encore `to-source`, reste en **kari-kumi** (montage à blanc,
-> rien à tailler tant que le passage du ch. 36 n'est pas localisé).
+> volet wirātha↔pôles, **désormais hozo** (verdict Sidy, 2026-08-04, sur pièce ch. 23),
+> porte une réserve terminologique documentée en vigilance permanente (univocité du mot
+> *aqtâb*), sans que celle-ci ne rouvre le joint.
 >
 > **Lectures suggérées** :
 > 1. René Guénon, « Quelques remarques sur la doctrine des cycles cosmiques » (*Formes
@@ -171,14 +194,19 @@ un prophète « siégeant ». L'hypothèse rapproche ces deux structures septén
 >    Malakūt.
 > 5. Michel Chodkiewicz, *Le Sceau des saints : Prophétie et sainteté dans la
 >    doctrine d'Ibn ʿArabī* (Gallimard) — étude académique de référence sur la
->    doctrine de l'héritage prophétique (*wirātha*) ; à consulter pour sourcer le
->    lien Qutb/prophète hérité avant tout ancrage `etabli`.
+>    doctrine de l'héritage prophétique (*wirātha*) ; utile pour tout approfondissement
+>    futur du rapprochement ch. 23/ch. 36, au-delà de ce qui est ici tenu pour établi.
 > 6. Ibn ʿArabī, *Futūḥāt*, ch. 36, « De la connaissance des saints de nature
 >    "christique" (*ʿîsâwiyyûn*), de leurs pôles et de leurs principes » (trad. A.
 >    Penot, *Les Révélations de la Mecque*, Entrelacs, p. 356-360) — chapitre
->    primaire traitant conjointement de l'héritage prophétique et des pôles ; piste
->    la plus directe pour sourcer le point encore `to-source` ci-dessus.
+>    primaire traitant de l'héritage prophétique par le vocabulaire de la *wirātha*.
+> 7. Ibn ʿArabī, *Futūḥāt*, ch. 23, « Des Pôles préservés à l'abri des regards »
+>    (trad. A. Penot, *Les Révélations de la Mecque*, Entrelacs, p. 303-309) — pièce
+>    ayant permis la clôture du 2026-08-04 ; source du rattachement nommé *aqtâb*/
+>    filiation prophétique.
 
 ---
 
-*Fiche ouverte et close le 2026-07-16 sur verdict de Sidy, en session claude.ai.*
+*Fiche ouverte et close le 2026-07-16 sur verdict de Sidy, en session claude.ai.
+Enrichie et volet résiduel clos le 2026-08-04 sur nouvelle pièce (ch. 23 des
+Futūḥāt) et verdict de Sidy.*

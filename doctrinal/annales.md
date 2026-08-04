@@ -9,6 +9,42 @@ updated: 2026-08-04
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-04] discernement | Clôture du volet résiduel wirātha↔pôles — sept-poles-aqtab-malakut-planetaire (verdict Sidy)
+
+- **Opération** : EXAMEN DE DISCERNEMENT — enrichissement d'une fiche déjà close.
+- **Modifié** : [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]
+  — ajout d'une pièce à la Généalogie des idées, résolution de la réserve résiduelle
+  documentée le 2026-07-16, mise à jour de la Qualification sashimono, addendum daté à
+  la Conclusion. Frontmatter : `updated` → 2026-08-04, source
+  [[doctrinal/sources/malamatiyah-futuhat-ch23]] ajoutée (sources_count 6 → 7), tags
+  `wiratha` et `afrad` ajoutés, cross-link ajouté vers
+  [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]
+  (déjà présent en sens inverse — cross-link complété pour cohérence bidirectionnelle).
+- **Pièce apportée** : `doctrinal/sources/malamatiyah-futuhat-ch23` (Ibn ʿArabī,
+  *Futūḥāt* ch. 23, « Des Pôles préservés à l'abri des regards », trad. Penot),
+  déjà au dépôt depuis le 2026-07-09 — aucune fiche source à créer. Le titre même du
+  chapitre désigne les *mulâmiyya*/*afrâd* comme *al-aqṭāb al-maṣūnīn* ; son
+  « honorable complément » énonce une filiation source-commune/suivant-conscient
+  envers les prophètes, distincte en vocabulaire (*at-tâbiʿûn*) mais structurellement
+  proche du *wirātha* déjà confirmé (ch. 36).
+- **Verdict de Sidy (2026-08-04)** : passage du volet *wirātha*↔*pôles* de *kari-kumi*
+  à **hozo**, sur la base de cette pièce.
+- **Point sensible / réserve conservée** : univocité du mot *aqtâb* chez Ibn ʿArabī non
+  démontrée entre son emploi au ch. 23 (classe honorifique de saints cachés) et la
+  doctrine guénonienne des sept Pôles cosmiques/planétaires. Réserve documentée dans la
+  fiche comme vigilance méthodologique permanente, sans qu'elle rouvre le joint — geste
+  volontairement distinct d'une clôture sans réserve, pour que tout usage futur de
+  cette pièce hérite de la même prudence.
+- **Note de méthode** : deuxième précédent (après celui du 2026-07-16 sur la qualité
+  d'autorité) où une pièce déjà présente au dépôt, classée sous un intitulé différent
+  du chantier en cours (ici « Malâmatiyah/Afrâd », lot du 2026-07-09), s'avère
+  directement pertinente à un volet résiduel d'un autre discernement. Signal pour de
+  futures sessions : consulter systématiquement les fiches source déjà déposées avant
+  de considérer un point comme bloqué faute de matière.
+- **Commit** : (à déterminer)
+
+---
+
 ## [2026-08-04] ingest | Fonction polaire universelle et socle védantique — Roi du Monde, Er-Rûh, Vâlsan, HDV intégral
 
 - **Opération** : ARCHIVAGE & MAILLAGE + EXAMEN DE DISCERNEMENT (ouverture). Lot multi-circuits traité fiche par fiche selon MASTER-UPDATES.md.
