@@ -243,6 +243,15 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/nezami-pavillon-sept-princesses-barry|Nezâmî — Le Pavillon des Sept Princesses (trad. Michael Barry)]]
 - [[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation|Le Règne de la Quantité, ch. XXVIII-XL : déviation, subversion et contre-initiation (Guénon)]]
 - [[doctrinal/sources/guenon-recension-seabrook-aventures-arabie|Recension de Seabrook, Aventures en Arabie — les sept tours du diable (Guénon, E.T. 1935)]]
+- [[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron|Le Roi du Monde, ch. III : La « Shekinah » et « Metatron » (Guénon)]]
+- [[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes|Le Roi du Monde, ch. IV : Les trois fonctions suprêmes (Guénon)]]
+- [[doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq|Le Roi du Monde, ch. VI : « Melki-Tsedeq » (Guénon)]]
+- [[doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh|Aperçus sur l'Ésotérisme islamique et le Taoïsme, ch. V : Er-Rûh (Guénon)]]
+- [[doctrinal/sources/valsan-investiture-cheikh-al-akbar|Michel Vâlsan — L'investiture du Cheikh al-Akbar au Centre Suprême]]
+- [[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7|L'Homme et son devenir selon le Vêdânta, ch. I-VII (Guénon)]]
+- [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14|L'Homme et son devenir selon le Vêdânta, ch. IX-XIV (Guénon)]]
+- [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21|L'Homme et son devenir selon le Vêdânta, ch. XV-XXI (Guénon)]]
+- [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26|L'Homme et son devenir selon le Vêdânta, ch. VIII et XXII-XXVI (Guénon)]]
 
 ---
 
@@ -277,6 +286,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil|Le septénaire transversal, la Balance et le degré du Soleil — référentiels stellaires et états d'une même fonction]] — close (traditionnel) : trois états d'une même fonction septénaire (polaire Grande Ourse circumpolaire, écliptique Pléiades lever héliaque, planétaire sept Cieux errance ordonnée), chantier Guénon sur la Balance polaire/zodiacale, convergence quadruple sur degré 24 (Idrîs/Soleil/Hermès/Gizeh) ; volets *hozo* (Ourse→Pléiades, septénaire transversal confirmé Sidy) et *kari-kumi* (Balance, degré 24 documenté sans fermeture ultérieure)
 - [[doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance|Les marques de la contrefaçon — grille de vigilance opératoire]] 🔍 (en cours)
 - [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra|L'ombre septénaire : sept tours du diable et Sitra Aḥra]] 🔍 (en cours, kari-kumi)
+- [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle|Qutb, Manu, Metatron, Er-Rûh : la fonction polaire universelle à travers quatre voiles traditionnels]] 🔍 (en cours)
 
 ### Sashimono et métiers traditionnels
 - [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel|Le sashimono comme métier traditionnel — fondement doctrinal de l'analogie opératoire]] 🔍 (verdict réservé)

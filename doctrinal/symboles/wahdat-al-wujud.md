@@ -5,9 +5,9 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, ontologie, ibn-arabi, unite-de-letre]
 created: 2026-06-02
-updated: 2026-06-30
-sources: ["[[jesus-and-enoch-in-ibn-arabi]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
-sources_count: 2
+updated: 2026-08-04
+sources: ["[[jesus-and-enoch-in-ibn-arabi]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]]"]
+sources_count: 3
 cross_links: ["[[ibn-arabi]]", "[[barzakh]]", "[[tasawwuf]]", "[[walaya]]", "[[hadarat-khams]]"]
 ---
 
@@ -24,6 +24,10 @@ Le terme *waḥdat al-wujūd* n'est pas d'Ibn ʿArabī lui-même mais de ses com
 Le fondement en est le *ḥadīth qudsī* : « J'étais un trésor caché et j'aimais être connu, alors j'ai créé la création afin d'être connu d'eux. » La création est ainsi un acte d'auto-révélation divine dans le miroir de l'autre. Le monde (*ʿālam*) est nommé ainsi parce qu'il est *ʿalāma* (signe) du Créateur.
 
 Cette doctrine ne doit pas être confondue avec le panthéisme : Ibn ʿArabī maintient la distinction entre le Créateur et la créature tout en affirmant que l'Être de la créature est un emprunt (*iʿāra*) de l'Être divin. Le *[[barzakh]]* est la catégorie qui rend compte de cette tension entre identité et distinction.
+
+### Réfutation védantique de la lecture panthéiste : argument transposable
+
+René Guénon, dans *L'Homme et son devenir selon le Vêdânta* ch. XXVI (« L'Identité Suprême »), établit que le panthéisme est une **mauvaise lecture** des doctrines non-dualistes — au moins autant pour le Vedānta que pour le *waḥdat al-wujūd*. Son argument (notes 8 et 10) : *Brahma* (l'Être pur au sens du Principe) est « **absolument distinct de ce qu'Il pénètre** » ; le monde manifesté ne s'en distingue qu'en **mode illusoire** (*māyā*). Cette **irréciprocité de la relation** implique la condamnation formelle du panthéisme « ainsi que de l'"immanentisme" sous toutes ses formes ». La structure logique de cet argument vaut identiquement du côté akbarien, dont la lecture panthéiste relève du **contresens occidental symétrique** — Guénon l'établit directement, ce qui fait de ce chapitre une source de clarification pour le présent symbole.
 
 ### Le vocabulaire technique de l'Unité (Jurjānī)
 

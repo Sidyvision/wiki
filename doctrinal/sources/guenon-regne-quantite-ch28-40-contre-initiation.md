@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [contre-initiation, subversion, cycles, eschatologie, symbolisme, methodologie]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-04
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/antitradition-et-contre-tradition]]", "[[doctrinal/deviations/deviation-et-subversion]]", "[[doctrinal/deviations/renversement-des-symboles]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]", "[[doctrinal/symboles/manvantara]]"]
+cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/antitradition-et-contre-tradition]]", "[[doctrinal/deviations/deviation-et-subversion]]", "[[doctrinal/deviations/renversement-des-symboles]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]", "[[doctrinal/symboles/manvantara]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]"]
 ---
 
 # Le Règne de la Quantité, ch. XXVIII–XL — le bloc de la contre-initiation

@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [malamatiyya, afrad, walaya, sainteté, dissimulation, tasawwuf]
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-08-04
 sources: ["[[doctrinal/sources/malamatiyah-futuhat-ch23]]"]
 sources_count: 1
-cross_links: ["[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/al-insan-al-kamil]]"]
+cross_links: ["[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"]
 ---
 
 # Al-Malāmatiyya (les « gens du blâme ») et les Afrâd
@@ -36,6 +36,12 @@ Le chapitre 23 des *Futūḥāt* détaille les moyens concrets par lesquels ces 
 ## Corroboration par René Guénon
 
 Guénon reprend et prolonge cette doctrine dans *Initiation et Réalisation spirituelle* (chs. XXVIII-XXIX), sous l'angle du « masque populaire » : les *Malâmatiyah* prennent un extérieur d'autant plus ordinaire que leur état intérieur est plus élevé, créant ainsi le « maximum d'intervalle » entre l'apparence et la réalité — intervalle qui, au terme de la réalisation, se résorbe dans le Principe où « il n'y a plus ni intérieur ni extérieur ». Ce rapprochement Ibn ʿArabī/Guénon constitue un **ancrage d'équivalence** (au sens *hozo* de la convention Sashimono, §VII CLAUDE.md) : même doctrine, même cadre traditionnel islamique — Guénon commente et prolonge Ibn ʿArabī sans qu'aucune correspondance inter-traditions ne soit ici en jeu (Cmd 3 non concerné).
+
+## Juridiction des Afrâd et guidance spirituelle directe
+
+⚠️ **`to-source`** — le point suivant est signalé par Sidy (2026-08-04) sans référence précise ; le chapitre 23 des *Futūḥāt* (source établie de cette fiche) est le candidat le plus probable.
+
+Contrairement aux autres saints, les *afrâd* agissent **hors juridiction et supervision directe du Pôle**. Leur guide spirituel direct est traditionnellement considéré comme étant **Sayyidnā al-Khiḍr**. Ce point renforce, sans la clore, la réserve d'univocité déjà consignée dans [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] : si les *afrâd* sont nommés *aqtâb* (« pôles », les « Pôles préservés »), ce titre qualifie une dignité propre, non une insertion dans la chaîne hiérarchique que le Qutb régit. C'est un troisième front, indépendant du ternaire suprême (Qutb/Imâm de droite/Imâm de gauche) d'une part et du septénaire des sept cieux planétaires d'autre part, qui confirme la même prudence : le mot *aqtâb* n'est pas univoque chez Ibn ʿArabī.
 
 ## Distinction avec les autres catégories de la hiérarchie initiatique
 
