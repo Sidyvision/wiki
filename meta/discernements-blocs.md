@@ -12,7 +12,7 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-04 15:15 UTC, sur `/root/wiki`.
+> aucun réseau) le 2026-08-04 15:26 UTC, sur `/root/wiki`.
 > Portée : blocs de discernement seuls. 349 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
@@ -278,18 +278,66 @@ donné), reçue sous ces trois voiles par une autorité qualifiée dans chacun
 d'eux — et non rapprochée par ce dépôt.
 
 ⚠️ **Point de vigilance à ne pas confondre** : la chaîne Qutb/Manu/Metatron
+(fonction du Pôle, agent de manifestation cyclique) est **distincte** de la
+chaîne déjà close Adam Qadmôn/al-Insān al-Kāmil/Wang/Vaishwânara (fonction de
+l'Homme Universel, totalisation de tous les degrés). Le texte d'*Er-Rûh*
+(ch. V des *Aperçus*) touche aux deux : Metatron/Er-Rûh el-mohammediyah est
+la fonction polaire-principielle, et **son expression ultime dans le monde
+d'en-bas** (le Sceau des prophètes) porte les titres d'Al-Insān al-Kāmil.
+Ce sont donc deux fonctions liées par une relation de principe à expression,
+non une seule fonction sous deux noms — à formuler avec cette précision dans
+toute conclusion future (Cmd 2).
 
 ⚠️ **Alif ≠ degré 11** : la note 3 de la fiche Er-Rûh pose *alif* = *qutb* =
+111, l'*alif* étant hors série, principe premier de l'axe. Le degré 11 de la
+table akbarienne porte le *hamza*, non l'*alif*. Ne jamais loger l'alif-axe
+à une position numérotée de la table.
 
 ⚠️ **Ternaire védantique ≠ cinq Présences** : *Brahâtmâ/Mahâtmâ/Mahânga*
+(= *Ishwara/Hiranyagarbha/Virâj*) est un découpage ternaire ; les *ḥaḍarāt
+khams* akbariennes sont quintuples. Deux déploiements distincts d'un même
+principe de hiérarchisation, non superposables terme à terme sans instruction
+séparée.
 
 🔭 **Piste ouverte, non instruite** : le triple parallèle des septénaires —
+les sept terres kabbalistiques (« Terre des Vivants »), les sept *dwîpas*
+hindous autour du Mêru, et les sept *tabaqāt*/Aqtâb islamiques — mentionné
+par Guénon lui-même au ch. VI du *Roi du Monde*. Rejoint directement le
+chantier déjà clos des sept Aqtâb, mais mériterait une fiche propre s'il est
+approfondi.
 
 🔭 **Signal *kari-kumi*, non ancrage** : note 26 du ch. VI — *Tsedeq* est le
+nom hébreu de la planète Jupiter (*Tsadquiel-Melek* ; *Brihaspati* côté
+hindou). Jupiter est le degré 22 de la table akbarienne, où **Moïse siège** —
+Moïse que le ch. IV désigne comme Qutb. Trois pièces qui s'orientent vers un
+même point sans que Guénon les relie explicitement lui-même à cet endroit.
+Retenu en montage blanc, aucun ancrage.
 
 🔭 **Afrâd/al-Khiḍr — retire une piste sans trancher** : contrairement aux
+autres saints, les *afrâd* agissent hors juridiction et supervision directe
+du Pôle ; leur guide direct est traditionnellement al-Khiḍr. Ce point retire
+une piste au discernement encore ouvert des deux septénaires : les *afrâd*
+peuvent être exclus des deux séries en présence (ternaire suprême et Awtâd
+d'une part, sept cieux planétaires d'autre part), l'une et l'autre relevant
+par nature de la juridiction du Pôle dont les *afrâd* échappent. Ne tranche
+pas la question, mais retire une piste possible. C'est la cinquième occurrence
+d'al-Khiḍr dans ce chantier (convergence notée, non sur-interprétée, même
+règle que les occurrences antérieures).
 
 ⚠️ **Volet Sitra Ahra — signal, pas parenté hétérodoxe de l'hypothèse
+centrale** : le ch. XXXIX du *Règne de la Quantité* (« La grande parodie »)
+renvoie, en note, à la double face lumineuse/obscure de Metatron déjà exposée
+au ch. III du *Roi du Monde* (Mikaël/Samaël), pour expliquer la parenté
+symbolique Messie/Antéchrist. Ce lien est de Guénon lui-même, non construit
+ici. Il **n'affecte pas** l'hypothèse centrale de cette fiche (qui porte sur
+la face établie, traditionnelle, de Metatron) mais **appuie**, à titre de
+pièce complémentaire, le discernement distinct et toujours ouvert
+[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] (*kari-kumi*,
+`en cours`) — voir l'addendum versé à
+[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]].
+Guénon n'emploie à aucun moment le terme *Sitra Ahra* : le rapprochement
+terminologique précis avec cette doctrine kabbalistique reste à instruire sur
+source kabbalistique primaire (*Sepher Yetsirah*, désormais en bibliothèque).
 
 **Conclusion** : *verdict réservé à Sidy*. Les deux identités intégrales
 (Er-Rûh=Metatron ; Manu=Melki-Tsedeq) paraissent, en l'état de l'examen
@@ -461,10 +509,30 @@ ciel/planète) désignent la même structure septénaire, sous deux formulations
 seule doctrine plutôt que sous deux doctrines distinctes rapprochées par analogie.
 
   ⚠️ **Réserve formelle conservée malgré la clôture** : le terme *aqtâb* n'est pas
+  univoque chez Ibn ʿArabī — il désigne tantôt le Qutb unique de l'époque, tantôt une
+  fonction hiérarchique précise, tantôt, comme ici, une classe honorifique de saints
+  cachés (*mulâmiyya*/*afrâd*). Rien dans le ch. 23 ne prouve à lui seul que cette
+  classe est techniquement identique aux sept Pôles cosmiques/planétaires de la
+  doctrine guénonienne des *cycles cosmiques* — le rapprochement reste, sur ce point
+  précis, de l'ordre de la vraisemblance doctrinale forte plutôt que de l'identité
+  démontrée terme à terme. Cette réserve n'empêche pas la clôture du volet (verdict de
+  Sidy ci-dessous), mais elle doit rester visible pour tout usage futur de cette pièce.
+- Aucune parenté hétérodoxe identifiée.
 
 ⚠️ **Point de vigilance à ne pas confondre dans un futur usage** : le ch. XXIII
-
+précise que le *nûn* a le **rang 14** dans l'ordre alphabétique arabe standard
+(valeur numérique 50, charnière des 28 lettres). Ce rang 14 est **distinct** du
+degré **24** de la table akbarienne, qui suit l'ordre phonatoire propre à Ibn ʿArabī
+(point d'émission dans l'appareil vocal), non l'ordre alphabétique standard. Les deux
+nombres (14 et 24) numérotent la même lettre dans deux systèmes différents ; rien ne
+les contredit, mais ils ne doivent jamais être présentés comme se répondant l'un à
+l'autre.
 🔭 **Piste ouverte (Sidy, à suivre)** : il se pourrait que l'ordre alphabétique
+standard (rang 14, commun aux abjads arabe et hébreu) soit précisément ce qui rend
+possible un exercice de correspondance *inter-traditions*, tandis que l'ordre
+phonatoire d'Ibn ʿArabī (degré 24) sert un usage *interne* propre à sa table
+cosmologique — deux systèmes adaptés chacun à sa fonction plutôt qu'en concurrence.
+Non instruit ici ; à reprendre dans une fiche dédiée si approfondi.
 
 **Conclusion** (verdict de Sidy, 2026-07-16) : les points d'ancrage sont confirmés.
 L'identité entre les sept Pôles/Aqtâb guénoniens et le Malakūt planétaire de la table
@@ -521,6 +589,11 @@ valide, ici même. Discernement clos.
 *Équipe d'agents Hermes — 12 fonctions, 5 archétypes*
 
 ⚠️ La correspondance des deux plans avec la doctrine (5 archétypes ↔ Cinq Présences
+*hadarat khams* ; 12 fonctions ↔ duodénaire zodiacal) est **suggérée, non validée** :
+elle fait l'objet d'une fiche `discernement/` côté doctrinal
+(`2026-07-05_correspondances-fonctions-initiatiques-entreprise`), dont le verdict
+appartient à Sidy (Cmd 12). Tant qu'elle n'est pas validée, la traiter comme une
+piste (🔍), jamais comme un fait établi.
 
 ---
 

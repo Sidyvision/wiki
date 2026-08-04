@@ -225,11 +225,28 @@ def filtrer_bloc(bloc, integral):
     """
     Réduit un bloc 🔍 à ses sous-sections décisives, sauf mode intégral.
     Recopie littérale : aucune ligne n'est reformulée, seulement omise.
+
+    Une puce ⚠️/🔭/⭐ s'étale souvent sur plusieurs lignes physiques dans le
+    markdown source (retour à la ligne sans rapport avec la phrase). Ces
+    lignes de continuation ne portent pas le préfixe : elles doivent être
+    suivies jusqu'à la ligne vide qui clôt la puce, sous peine de tronquer
+    la phrase en plein milieu — une perte d'information, pas une omission
+    propre.
     """
     if integral or not bloc:
         return bloc
-    sortie, garder = [], False
+    sortie, garder, dans_vigilance = [], False, False
     for ligne in bloc.splitlines():
+        vide = (ligne.strip() == "")
+
+        if dans_vigilance:
+            if vide:
+                sortie.append("")
+                dans_vigilance = False
+            else:
+                sortie.append(ligne)
+            continue
+
         m = RE_SOUS_SECTION.match(ligne)
         if m:
             etiquette = m.group(1).strip().lower()
@@ -239,7 +256,7 @@ def filtrer_bloc(bloc, integral):
             continue
         if ligne.lstrip().startswith(PREFIXES_VIGILANCE):
             sortie.append(ligne)
-            sortie.append("")
+            dans_vigilance = True
             garder = False
             continue
         if garder:
