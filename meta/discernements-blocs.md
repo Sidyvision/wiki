@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-04 15:30 UTC, sur `/root/wiki`.
-> Portée : blocs de discernement seuls. 349 fiches parcourues.
+> aucun réseau) le 2026-08-04 16:05 UTC, sur `/root/wiki`.
+> Portée : blocs de discernement seuls. 355 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -50,7 +50,7 @@ links: []
 | `doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence` | speculatif | en cours | 2026-07-03 | 2026-07-03 |
 | `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise` | speculatif | en cours (mixte — volet b clos, volet a… | 2026-07-05 | 2026-07-14 |
 | `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel` | speculatif | — | 2026-07-07 | 2026-07-07 |
-| `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm` | speculatif | en cours | 2026-07-14 | 2026-07-14 |
+| `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm` | speculatif | en cours | 2026-07-14 | 2026-08-04 |
 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire` | traditionnel | validée | 2026-07-16 | 2026-08-04 |
 | `doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa` | speculatif | en cours | 2026-07-24 | 2026-07-24 |
 | `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara` | traditionnel | validée | 2026-07-26 | 2026-07-26 |
@@ -231,6 +231,34 @@ et récapitule tous les états de la manifestation par sa réalisation effective
 il conviendrait d'envisager le « premier » et le « dernier » point du développement d'un
 cycle se joignant/concluant en un seul — motif pouvant faire allusion à la notion de
 *Khatm*.
+
+  ⚠️ Précision d'actualité (Cmd 2) : la chaîne comporte **trois maillons**, jamais deux —
+  Metatron/*Er-Rûh el-mohammediyah* (principe) → Sceau des prophètes (monde d'en-bas) →
+  titres de l'Insān al-Kāmil. Ne pas contracter.
+- *Pièce Vâlsan (déposée 2026-08-04)* : [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]]
+  corrobore sur texte akbarien primaire la distinction de Jurjānī entre Pôle et Sceau de la
+  Sainteté. Elle découvre en outre une **quatrième notion** : la distinction entre *Khatm
+  al-Wilāya al-ʿĀmma* (universelle, Jésus) et *Khatm al-Wilāya al-Muḥammadiyya* (muhammadienne,
+  Ibn ʿArabī). Jurjānī (déf. 0215) nomme seulement la première sous le nom générique *ḫâtim
+  al-awliyâʾ*.
+- 🔭 **Verdict de Sidy (2026-08-04)** sur la question de précision laissée ouverte le 2026-07-14 :
+  le Khatm visé par l'hypothèse est ***Khātim al-Nubuwwa*** (Sceau de la Prophétie), suivant la
+  formulation de Guénon, et non *Khātim al-Walāya*. Cette précision lève l'objection formelle
+  correspondante ; elle ne clôt pas le dossier.
+- *Cible manquante comblée (2026-08-04)* : [[doctrinal/symboles/khatm]], ouverte sur demande de
+  Sidy ce jour, documente les quatre notions distinctes et leur séparation d'avec la Quṭbiyya.
+
+⚠️ **Ce qui reste ouvert (2026-08-04)** : le maillon *Rafîʿ ad-Darajât* / degré 38 demeure
+non établi par une source externe. Ni Guénon ni Vâlsan ne le nomment en rapport avec le titre
+*sayyid al-awwalîn wa-l-âkhirîn*. C'est le cœur original de l'hypothèse et il reste une
+lecture personnelle de rapprochements textuels réels, exactement comme l'Examen formel le
+qualifiait. Le rapport exact entre *Khatm al-Wilāya al-ʿĀmma* (universelle) et *Khatm
+al-Wilāya al-Muḥammadiyya* (muhammadienne) demeure `to-source`.
+
+⚠️ **Distinct du chantier polaire (2026-08-04)** : ce dossier (Khatm) et le discernement
+[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]
+(Quṭbiyya/Pôle) sont contigus mais ne se confondent pas. Jurjānī et Vâlsan le posent tous deux
+clairement : le Pôle n'est pas le Sceau. Les deux fiches doivent le rester.
 
 **Conclusion** : en attente — réservée à Sidy.
 
