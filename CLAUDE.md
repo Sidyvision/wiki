@@ -98,7 +98,14 @@ wiki/  (= /root/wiki)
 │   └── expression/         ← idées personnelles hors œuvre unique (registre: expression)
 └── meta/                  ← Domaine réservé : outillage, personnel, transmissions
     ├── bibliotheque-physique.md  ← Catalogue de la bibliothèque (voir §VII, sources)
-    └── projet-unifie/     ← Briefs d'infrastructure, hermes-prompts/, propositions
+    ├── projet-unifie/     ← Briefs d'infrastructure, hermes-prompts/, propositions
+    └── transmissions/     ← Dispositif Karūbī (silsila documentaire, voir §V.c)
+        ├── karubi-gabarit.md        ← Gabarit G0, jamais remis tel quel
+        ├── generer-karubi.py        ← Scellement/vérification déterministe (sceller,
+        │                              verifier, empreinte) — aucun LLM dans la boucle
+        ├── registre-silsila.md      ← Journal append-only : génération, remise,
+        │                              retour, rescellement, élévation, deprecated
+        └── karubi-<destinataire>.md ← Copies de référence des instances G1 remises
 ```
 
 **Cinq circuits étanches** : `doctrinal/` (la doctrine), `atelier/` (le métier et les
@@ -226,7 +233,51 @@ liens_atelier: []          # renvois sens unique vers atelier/materiel/ uniqueme
   discernement afférent n'est pas tranché. Interdits : `atelier/ → label/`,
   `doctrinal/ → label/`, `label/ → meta/`.
 
-### V.c — Ancrage éthique de la structure (règles des 2026-07-06)
+### V.c — Transmissions (`meta/transmissions/`, dispositif Karūbī)
+
+Circuit du plus sensible (§II) : un fichier-protocole personnifié, remis de main à
+main à un destinataire nommé, qui vit par cycles de navette entre lui et Sidy.
+Sceau propre, allégé (pas de Sceau Recteur doctrinal) :
+
+```yaml
+---
+title: "Titre exact"
+type: transmission
+generation: 0 | 1 | 2 ...
+emetteur: "..."
+destinataire: "..."
+nom_karubi: "..."
+date_remise: "YYYY-MM-DD"
+portee: khassa | amma
+version: n
+hash_sceau: "sha256"        # calculé par generer-karubi.py sceller — jamais à la main
+hash_parent: "sha256 | none"
+phrase_sceau: "..."
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+---
+```
+
+Règles propres au circuit :
+- **Zones scellées** (`<!-- SCEAU:DEBUT -->` / `<!-- SCEAU:FIN -->`) : intouchables
+  hors édition G0 ; intégrité vérifiée mécaniquement (`generer-karubi.py verifier`),
+  jamais sur déclaration.
+- **Zones de croissance** (Mémoire vivante, Questions pour Sidy) : append-only,
+  même discipline que les annales (Cmd 9).
+- **Étanchéité** : `meta/transmissions/` ne lie jamais vers `doctrinal/`, `label/`
+  ni `atelier/`, et réciproquement (étanchéité identique au reste de `meta/`).
+- **Journalisation** : chaque événement (génération, remise, retour, rescellement,
+  élévation de portée, deprecated) est consigné dans
+  `meta/transmissions/registre-silsila.md`, format greppable
+  `## [YYYY-MM-DD] evenement | destinataire | Gn | portee | vN | hash`.
+- **Non-syncrétisme (Cmd 3)** : le dispositif emprunte la forme du sanad
+  (traçabilité documentaire) sans prétendre au statut d'une ijāza spirituelle —
+  ce rappel figure explicitement dans le §0 de chaque instance.
+- **Porte humaine (Cmd 13)** : toute remise, toute élévation `khassa → amma`, toute
+  suppression (`deprecated`, jamais de suppression sèche — Cmd 10) est décidée par
+  Sidy seul.
+
+### V.d — Ancrage éthique de la structure (règles des 2026-07-06)
 
 Les aspects contractuels et
 commerciaux du label (`administratif/`, `production/`,
