@@ -9,6 +9,20 @@ updated: 2026-08-04
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-04] ingest | Khatm — page orthodoxe des Sceaux et enrichissement du discernement sayyid al-awwalîn
+
+- **Opération** : ARCHIVAGE & MAILLAGE + EXAMEN DE DISCERNEMENT (enrichissement, non clôture).
+- **Créé** : [[doctrinal/symboles/khatm]] — cible manquante signalée le 2026-07-14, ouverte sur demande de Sidy. Distingue quatre notions : Khātim al-Nubuwwa (Muhammad), Khatm al-Wilāya al-ʿĀmma (ʿĪsā), Khatm al-Wilāya al-Muḥammadiyya (Ibn ʿArabī), et la Quṭbiyya al-Kubrā qui n'est pas un Sceau (Jurjānī 1281 : « Le Pôle n'est pas le Sceau de la Sainteté »).
+- **Enrichi** : [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] — pièces Guénon (*Aperçus* ch. V) et Vâlsan versées à la Généalogie ; `sources_count` 3 → 5 ; statut **inchangé** (`speculatif`).
+- **Verdict de Sidy (2026-08-04), portée limitée** : le Khatm visé par l'hypothèse du 2026-07-14 est ***Khâtam el-anbiâï wa'l-mursalîn*** = **Khātim al-Nubuwwa**, suivant la formulation de Guénon. Lève l'objection de précision de l'Examen formel ; ne clôt pas le dossier.
+- **Acquis** : Guénon (*Aperçus* ch. V) pose lui-même la chaîne titre dévotionnel → Sceau des prophètes → titres d'al-Insān al-Kāmil, comblant deux des trois liens que l'Examen formel du 2026-07-14 signalait comme absents.
+- **Reste ouvert** : le maillon *Rafîʿ ad-Darajât*/degré 38 demeure non établi par source externe — cœur original de l'hypothèse, toujours lecture personnelle. Rapport entre les deux Sceaux de la Sainteté : `to-source`. Tension *walāya* (*quṭbiyya*/*khatm*) des annales du 2026-06-29 : toujours à l'arbitrage de Sidy.
+- **Vigilance** : le Pôle et le Sceau sont tenus distincts par Jurjānī comme par Vâlsan — les dossiers portant sur la fonction polaire et sur le Sceau ne doivent pas être fusionnés.
+- **Index** : lien ajouté au §II de [[doctrinal/index.md]].
+- **Commit** : ee89de7
+
+---
+
 ## [2026-08-04] discernement | Clôture du volet résiduel wirātha↔pôles — sept-poles-aqtab-malakut-planetaire (verdict Sidy)
 
 - **Opération** : EXAMEN DE DISCERNEMENT — enrichissement d'une fiche déjà close.
