@@ -2,7 +2,7 @@
 title: "Registre Silsila — dispositif Karubi (domaine reserve, meta/transmissions/)"
 type: transmission
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-08-06
 ---
 
 # Registre Silsila — Karūbī
