@@ -83,3 +83,11 @@ en tête de fichier (hors zone scellée, donc hors hash_sceau — aucun
 rescellement nécessaire), invitant le destinataire à écrire une phrase
 d'accompagnement avant de coller le fichier. Appliqué aux trois instances et
 au gabarit G0 pour les générations futures.
+
+## [2026-08-06] finalisation | Jean-Marc Bastareaud | G1 | khassa | v1 | 041466d921fe2d538970186e935dda55ba594e90f39038e8b5d0c9b21235d99c
+Karūbī nommé Yahya. Phrase-sceau : « J-Flexxx, BBOY légendaire ». §4 validé
+sans modification. §6bis (spécialisation atelier d'auteur, méthode de
+rangement pour un scénariste menant plusieurs histoires en parallèle)
+conservé tel que produit en session claude.ai. Reste en attente : remise en
+main propre à Jean-Marc — événement `remise` séparé à journaliser ensuite,
+pas maintenant.
