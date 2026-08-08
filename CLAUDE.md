@@ -30,6 +30,11 @@ la dispersion mentale.
 > On ne
 > parle jamais de « réforme » : une réforme prétend corriger le principe, une
 > restauration rétablit l'ordre normal. Le mot « réforme » est banni du dépôt.
+> **Révisé le 2026-08-08** : taxonomie élargie du circuit `hermeneutique/`
+> (types `auteur`, `figure`, `dispositif` ; dossiers `hermeneutique/auteurs/`
+> et `atelier/etudes-de-cas/`) et introduction de l'axe de **portance**
+> (*jikugumi*/*zōsaku*) et de l'axe de **nature** (*restitution*/*homologie*)
+> des joints — §II, §III, §V.d, §VII (convention Sashimono). Visé par Sidy.
 >
 > *Note technique* : le nom de fichier `CLAUDE.md` est une convention lue par l'outil
 > d'intégration en ligne de commande ; il ne désigne pas un modèle particulier. Le
@@ -83,6 +88,7 @@ wiki/  (= /root/wiki)
 ├── atelier/               ← Circuit NON-doctrinal : métier et références
 │   ├── materiel/          ← Manuels, fiches machines, fiches routing (référence générique)
 │   ├── entretiens/        ← Interviews de métier
+│   ├── etudes-de-cas/      ← études de maisons/marques/structures
 │   └── projets/           ← Projets transverses (dont l'Instrument) ; les projets du
 │                             label ont MIGRÉ vers label/ (fiches marquées deprecated)
 ├── label/                 ← Circuit NON-doctrinal : la maison de création et le label
@@ -94,8 +100,9 @@ wiki/  (= /root/wiki)
 │   ├── production/ · administratif/ · distribution/ · marketing-communication/
 ├── hermeneutique/          ← Circuit NON-doctrinal : navigation du domaine intermédiaire
 │   ├── index.md · annales.md
-│   ├── <slug-oeuvre>/      ← un sous-dossier par œuvre (death-stranding/, evangelion/…)
-│   └── expression/         ← idées personnelles hors œuvre unique (registre: expression)
+│   ├── auteurs/            ← créateurs, transverses aux œuvres
+│   ├── <slug-oeuvre>/      ← un sous-dossier par œuvre ou saga
+│   └── expression/         ← idées personnelles hors œuvre unique
 └── meta/                  ← Domaine réservé : outillage, personnel, transmissions
     ├── bibliotheque-physique.md  ← Catalogue de la bibliothèque (voir §VII, sources)
     ├── projet-unifie/     ← Briefs d'infrastructure, hermes-prompts/, propositions
@@ -126,6 +133,13 @@ navigation du domaine intermédiaire et le bureau de Direction Artistique), `met
   `label/musique/creation/<slug>.md` + `label/musique/ingenierie/<slug>.md` — la paire
   partage le **même slug**. Le suffixe d'export `.ex` des titres de travail est
   **toujours retiré** des slugs et des titres définitifs.
+- **Herméneutique** : `hermeneutique/auteurs/<slug>.md` ;
+  `hermeneutique/<slug-oeuvre>/<slug-oeuvre>.md` pour la fiche-hub (nom du
+  dossier redoublé) ; `hermeneutique/<slug-oeuvre>/<slug>.md` pour les figures,
+  dispositifs et analyses ; `hermeneutique/expression/<slug>.md`.
+  `index.md` est **réservé** à l'index du circuit.
+- **Atelier, études de cas** : `atelier/etudes-de-cas/<slug>.md`, langue selon le
+  framework.
 - **Table des slugs de l'album 01** : figée dans `label/production/album-01.md` — toute
   fiche morceau s'y conforme.
 
@@ -339,7 +353,7 @@ garde-fou.**
 ```yaml
 ---
 title: "Titre exact"
-type: oeuvre | personnage | concept | analyse
+type: oeuvre | auteur | figure | dispositif | concept | analyse
 registre: analyse | expression
 medium: jeu-video | anime | manga | theatre | serie | film | roman
 oeuvre: "slug-de-loeuvre-parente"   # vide sur la fiche oeuvre et sur expression/ hors-œuvre
@@ -353,11 +367,24 @@ liens: []                            # internes au circuit
 cles_doctrinales: []                 # sens unique vers doctrinal/, suggéré 🔍 par défaut
 discernement: []                     # sens unique vers doctrinal/discernement/ (obligatoire si registre: expression et matière issue d'un discernement existant)
 liens_label: []                      # sens unique optionnel vers label/direction-artistique/
+liens_atelier: []                    # sens unique vers atelier/etudes-de-cas/ uniquement
 ---
 ```
 
 - `type: oeuvre` = fiche-hub d'une œuvre (une par œuvre, porte `createur`) ; les
   autres types portent `oeuvre:` (slug de la fiche-hub).
+- **`type: auteur`** — créateur réel, transverse à plusieurs œuvres ; vit en
+  `hermeneutique/auteurs/`, porte `oeuvre: ""`, liste ses œuvres dans `liens:`.
+  Emprunte la **forme d'archivage** de `doctrinal/autorites/` sans en partager
+  la fonction : aucun statut d'autorité conféré ni supposé (Cmd 3).
+- **`type: figure`** — remplace `personnage` ; couvre aussi les entités non
+  personnelles fonctionnant comme telles. Substitution réversible (Art. 5).
+- **`type: dispositif`** — lieu, vaisseau, appareil, système, interface ou
+  institution de l'œuvre, tenu pour support opératoire de sa thèse.
+- **Sagas** — un continuum de plusieurs opus reçoit **une seule fiche-hub**
+  `type: oeuvre` ; le détachement d'un opus relève du Cmd 4, au cas par cas.
+- **`liens_atelier`** — sens unique vers `atelier/etudes-de-cas/` seulement
+  (§VI). L'inverse est interdit : aucune étude de cas ne pointe ici.
 - **`registre`** distingue les deux régimes de production du circuit :
   - `analyse` — lecture d'une œuvre ou d'un de ses éléments ;
   - `expression` — formulation d'une idée propre à l'utilisateur, l'œuvre servant de
@@ -373,11 +400,16 @@ liens_label: []                      # sens unique optionnel vers label/directio
 - `cles_doctrinales` : wikilinks vers `doctrinal/`, **sens unique**, **suggérés (🔍)
   par défaut**. Une clé ne devient « établie » qu'après une fiche `discernement/`
   tranchée par l'utilisateur (Cmd 3, Cmd 12).
-- **Garde-fou renforcé (Cmd 3)** : le **hozo** (équivalence établie, §VII) n'a
-  normalement pas sa place ici — une œuvre profane n'a pas l'autorité d'une
-  tradition reçue. Au mieux *kumiko*, le plus souvent *kari-kumi*. Qualification
-  sashimono obligatoire dès qu'une `cle_doctrinale` est invoquée, et confrontation
-  Gizeh si la matière touche au polaire/axial/septénaire/métrologique (§VII).
+- **Portance et garde-fou (Cmd 3).** Tout joint de ce circuit est de portance
+  ***zōsaku*** : il ne porte rien, et sa dépose ne touche pas l'ossature. Le
+  ***hozo*** y est **exclu en toute circonstance** ; le *kumiko* exige une
+  fiche `discernement` validante ; le *kari-kumi* est l'état ordinaire.
+  Toute `cle_doctrinale` invoquée est **obligatoirement** accompagnée, dans le
+  corps de la fiche, d'un bloc 🪵 **Restitution** complet — dont le champ
+  « ce que le joint n'établit pas » est **non facultatif** : une restitution
+  sans limite déclarée est invalide et doit être retirée au contrôle VIGILANCE.
+  Confrontation Gizeh requise si la matière touche au polaire, à l'axial, au
+  septénaire ou au métrologique (§VII).
 - **Clause de plasticité (structurelle).** La souplesse de ce circuit tient à ce
   qu'une idée peut y exister et mûrir *sans rien engager doctrinalement* — non à ce
   que les outils de discernement y soient suspendus. Le domaine intermédiaire est
@@ -645,6 +677,13 @@ discernement, le trait précède la coupe ; **ki-dori** (choix de la pièce dans
 bois brut) = VIGILANCE et travail sur `raw/`, la recherche de la pièce manquante.
 Termes esthétiques à charge doctrinale propre (*ma*, *wabi-sabi*...) : **exclus**
 de la convention sans fiche `discernement` préalable (Cmd 3).
+
+**jikugumi** (ossature) = joint entre termes de dignité comparable, qui porte
+la charge ; **zōsaku** (second œuvre) = joint dont une extrémité est
+contingente, réel mais ne portant rien. La **portance** est un axe distinct de
+l'état du joint : un même joint se qualifie sur les deux (ex. *zōsaku*
+× *kari-kumi*). **restitution** / **homologie** qualifient sa nature :
+généalogie alléguée, ou simple ressemblance de forme.
 
 -----
 
