@@ -27,9 +27,16 @@ l'atelier]] (brouillon visé pour son architecture par le verdict).
 > à cette tâche spécifique. »
 
 Le pôle est donc un **lieu de consignation systématique** : tout travail
-d'ingénierie — technique, musicale, matérielle, logicielle, outillage,
-infrastructure — a vocation à y laisser trace. Horizon : que le dépôt devienne
+d'ingénierie — technique, matérielle, logicielle, outillage, infrastructure —
+a vocation à y laisser trace. Horizon : que le dépôt devienne
 un véritable laboratoire ; visée : la souveraineté des moyens.
+
+**Nature du pôle** (précision Sidy, 2026-08-08) : `rd/` est dédié aux aspects
+**ingénierie / technique / mécanique** de l'infrastructure — informatique,
+studio audio, etc. Ce n'est **pas un département d'expression créative** au
+sens strict ; la créativité n'y existe que sous sa forme ingénieriale (la
+résolution de problème). Les œuvres, leur écriture, leur direction artistique
+relèvent du label — jamais de `rd/`.
 
 ## Arborescence
 
@@ -59,6 +66,7 @@ atelier/rd/
 | Architecture générique du serveur et des agents, bancs, mesures | `rd/infrastructure/` |
 | Motifs des décisions, credentials, prompts d'agents | **reste en `meta/projet-unifie/`** (sensible — §VI) |
 | Ingénierie d'une œuvre, par morceau | **reste au label** (`label/musique/ingenierie/`) |
+| Expression créative : œuvre, écriture, direction artistique | **label** (direction-artistique / production) — jamais `rd/` |
 | Fiches machines, manuels, routing | **reste en `atelier/materiel/`** (référence) |
 | Scripts déterministes du dépôt et leur documentation | `rd/outillage/` |
 
