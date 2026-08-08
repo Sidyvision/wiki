@@ -2,8 +2,8 @@
 title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
-created: 2026-08-04
-updated: 2026-08-04
+created: 2026-08-08
+updated: 2026-08-08
 sources: []
 links: []
 ---
@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-04 16:05 UTC, sur `/root/wiki`.
-> Portée : blocs de discernement seuls. 355 fiches parcourues.
+> aucun réseau) le 2026-08-08 08:15 UTC, sur `/root/wiki`.
+> Portée : blocs de discernement seuls. 367 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -610,7 +610,7 @@ conserve la nomenclature de Burckhardt comme structure de référence dans
 de l'Instrument) tout en documentant celle de Jurjānī comme exposition parallèle
 valide, ici même. Discernement clos.
 
-### Statut non renseigné — 8
+### Statut non renseigné — 9
 
 #### `label/production/equipe-agents-hermes`
 
