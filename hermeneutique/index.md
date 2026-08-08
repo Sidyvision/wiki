@@ -2,8 +2,9 @@
 title: Index du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-08
 ---
+
 
 # Index du circuit Herméneutique
 
@@ -50,10 +51,23 @@ mondes. La convergence est retenue comme **justification du nom du circuit**, en
 
 ---
 
+## Auteurs
+
+- [[hermeneutique/auteurs/hideo-kojima|Hideo Kojima (小島秀夫)]] — *auteur*, `to-source`. Thèses exécutées par l'acte du joueur ; motif du bâton et de la corde (Kōbō Abe, `to-source`).
+- [[hermeneutique/auteurs/yoji-shinkawa|Yoji Shinkawa (新川洋司)]] — *auteur*, `to-source`. Direction artistique ; le trait comme argument (harnachement, mécanique en anatomie) ; figure Ludens.
+
 ## Œuvres
 
-*(vide — aucune œuvre intégrée à ce jour. Premières visées, non encore déposées :
-Death Stranding, Evangelion.)*
+### Metal Gear
+
+- [[hermeneutique/metal-gear/metal-gear|Metal Gear (saga)]] — *oeuvre*, fiche-hub, `en-cours`. La dissuasion produit ce qu'elle prétend écarter ; fil doctrinal interne d'une volonté transmise de travers.
+- [[hermeneutique/metal-gear/big-boss|Big Boss]] — *figure*, `en-cours`. Un nom porté par plusieurs corps ; le disciple qui institue son malentendu.
+- [[hermeneutique/metal-gear/mother-base|Mother Base]] — *dispositif*, `en-cours`. Base flottante, recrutement par extraction ; module de transposition d'infrastructure 🔧 suggéré.
+
+### Death Stranding
+
+- [[hermeneutique/death-stranding/death-stranding|Death Stranding]] — *oeuvre*, fiche-hub, `brouillon` (corpus manquants). Le lien n'est pas donné, il est porté.
+- [[hermeneutique/death-stranding/dhv-magellan|DHV Magellan]] — *dispositif*, `brouillon` (Corpus manquant). Vaisseau mobile succédant à Mother Base ; vigilance sur le Corpus comme faux-lexique.
 
 ## Expression
 

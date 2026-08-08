@@ -3,7 +3,7 @@ title: "Atelier — Ressources & Études de Cas"
 type: index
 tags: [atelier, ressources, index, instrument]
 created: 2026-07-07
-updated: 2026-07-16
+updated: 2026-08-08
 ---
 
 # Atelier — Index
@@ -92,5 +92,6 @@ Chaque étude sépare strictement : **Faits** (sourcés), **Analyse** (interpré
 
 **Études disponibles** :
 - [[etudes-de-cas/stones-throw|Stones Throw Records]] — cas d'école : indépendance, curation, longévité, diversification revenue sans dilution du propos (musique/vinyle, 1996–)
+- [[etudes-de-cas/kojima-productions|Kojima Productions]] — studio-auteur, indépendance financée projet par projet, absence de backlist propre, dépendance structurelle à deux individus (jeu vidéo, 2015–), en anglais
 
 ---
