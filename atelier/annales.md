@@ -12,6 +12,46 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-08] migration | `atelier/projets/` → `rd/` — 16 fiches migrées (proposition §IV exécutée)
+
+- **Opération** : migration fiche par fiche du dossier `projets/` vers le pôle
+  `rd/` (verdict Sidy 2026-08-08, proposition §IV : « le dossier devient rd/
+  par migration fiche à fiche ; chaque fiche migrée garde son slug, l'ancienne
+  reçoit deprecated avec pointeur »).
+- **Migrées vers `rd/instrument/` (15 fiches)** : architecture v0.1, v0.2,
+  v0.3, v0_3 ; feuille-de-route-v2 ; spec-technique-axe-38-degres ;
+  spec-anneau-zodiacal ; angles-de-l-espace ;
+  references-visuelles-astronomiques-phase-5 ; soumission-gem-convergence-28 ;
+  soumission-gem-reponse-geometrie-3d ; soumission-gem-reponse-gloton ;
+  soumission-gem-reponse-visuelle-28 ;
+  2026-07-26_investigation-referentiels-stellaires-cycles ;
+  note-impact-instrument-socle-universel-2026-07-16.
+- **Migrée vers `rd/outillage/` (1 fiche)** : spec-generateur-manifeste.
+- **Cmd 10 respecté** : aucune suppression — chaque ancienne fiche reste en
+  `projets/` comme stub `type: deprecated` avec pointeur vers la fiche
+  canonique ; contenu des fiches inchangé, dates conservées, bandeau de
+  migration inséré.
+- **Assets et outillage déplacés avec les fiches** (git mv) :
+  `assets-instrument/` (4 images), `instrument-donnees.yaml`,
+  `wiki-manifest.json`, `instrument-prototype.html`, `generer-manifeste.py`
+  (chemins par défaut du script mis à jour).
+- **Scripts mis à jour** : `generer-manifeste.py` (chemins données/sortie →
+  `rd/instrument/`) ; `Graphe/generer-cartographie.py` (rang d'étanchéité
+  `atelier/rd` = 1, hérité de projets/, CLAUDE.md §VI).
+- **Liens repointés** : 15 wikilinks entrants (atelier/index, doctrinal/index,
+  4 fiches doctrinal/sources) + références textuelles (meta/projet-unifie/02,
+  README, doctrinal/symboles/manvantara — pointait une version `v0_2`
+  inexistante, corrigé vers v0.3 ; doctrinal/discernement/zodiaque-barzakh).
+  Les annales et les cartes générées ne sont pas repointées (documents
+  historiques / artefacts dérivés).
+- **Non migré** : `album-personnel.md` — arbitrage `rd/` vs `label/` requis
+  (proposition §IV : « à trancher fiche par fiche » ; verdict Sidy en attente).
+- **Vérifications** : invariants (0 erreur), cartographie (0 nouvelle anomalie
+  vs baseline : 9 anomalies d'étanchéité pré-existantes, identiques avant/après),
+  manifeste régénéré (43 nœuds, 9 ancrages).
+
+---
+
 ## [2026-08-08] restauration | Ouverture du pôle R&D `atelier/rd/` (verdict Sidy : Option C, phase 1 partielle)
 
 - **Verdict consigné** : « Option C, nom `rd/`, phase 1 partielle. Tout ce qui

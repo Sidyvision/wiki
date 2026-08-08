@@ -31,7 +31,7 @@ updated: 2026-07-01
    - `03-transition-modele-open-source.md` (la bascule hors-token) ;
    - `04-sessions-par-fonction-et-backlogs.md` (le mode de travail + les listes à traiter) ;
    - `05-runbook-test-ornith-gpu-cloud.md` (procédure de test du modèle local Ornith) ;
-   - la fiche `atelier/projets/instrument-tradition-primordiale-architecture-v0.2.md` (architecture
+   - la fiche `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2.md` (architecture
      détaillée courante ; la v0.1 reste au dépôt comme jalon) + `spec-technique-axe-38-degres.md` (géométrie de l'axe) ;
    - `doctrinal/index.md` (le Catalogue Universel — inventaire vivant) ;
    - quelques fiches exemplaires pour le style (1 symbole, 1 discernement avec bloc 🔍, 1 fiche atelier).

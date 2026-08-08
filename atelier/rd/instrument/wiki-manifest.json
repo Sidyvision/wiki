@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.1",
-  "generated_at": "2026-07-22T08:57:21+00:00",
-  "source_commit": "0baa674159f2abe5a2c35621a0f832d364bdf9ae",
+  "generated_at": "2026-08-08T13:21:50+00:00",
+  "source_commit": "d3cfa557d0b595505f8e4b38cee515028abfffac",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -54,7 +54,7 @@
       "label": "Table des 28 degrés du Nafas al-Raḥmān — distribution dans les Ḥaḍarāt al-Khams",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": null,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": [
         {
           "type": "equivalence",
@@ -71,14 +71,6 @@
           "cible": "tasawwuf/nafas-rahmani",
           "source": "[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]",
           "note": "Les degrés 11-38 de la table SONT les 28 degrés lettrés du Nafas al-Raḥmān (même convergence, Futūḥāt ch. 198)."
-        },
-        {
-          "type": "equivalence",
-          "etat": "etabli",
-          "directionnalite": "none",
-          "cible": null,
-          "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
-          "note": "Identité entre les sept Pôles/Aqtâb guénoniens et le Malakūt planétaire akbarien (degrés 21-27, ar-Rabb/Saturne/Abraham → al-Mubîn/Lune/Adam). Identité doctrinale reçue (non syncrétisme construit), confirmée par quatre convergences textuelles indépendantes : Guénon, cycles cosmiques (sept Pôles/sept cieux) ; lettre à Coomaraswamy (Idrîs/Soleil, degré 24) ; Mystères de la lettre Nûn (nûn = lettre planétaire du Soleil) ; Abdul-Hâdî, Tartîbut-Taçawwuf (1911, antérieur de 26 ans à Guénon 1937). Réserve résiduelle : lien explicite wirātha/aqtāb (Futūḥāt ch. 36) non localisé dans l'extrait transmis — à rechercher. Cible non déclarée : correspondance à rattacher à un nœud Aqtâb formel lors de l'ouverture de la Phase 3 (multi-traditions)."
         }
       ]
     },
@@ -106,7 +98,7 @@
       "label": "11 · hamza — al-Badîʿ (le Qalam suprême / Intellect Premier)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 11,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -115,7 +107,7 @@
       "label": "12 · hâʾ — al-Bâʿith (la Table Gardée / Âme universelle)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 12,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -124,7 +116,7 @@
       "label": "13 · ʿayn — al-Bâtin (la Nature universelle)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 13,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -133,7 +125,7 @@
       "label": "14 · hâʾ — al-Âkhir (la Substance primordiale, al-habâʾ)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 14,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -142,7 +134,7 @@
       "label": "15 · ghayn — azh-Zhâhir (le Corps universel)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 15,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -151,7 +143,7 @@
       "label": "16 · khâʾ — al-Hakîm (la Conformation cosmique, al-shakl)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 16,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -160,7 +152,7 @@
       "label": "17 · qâf — al-Muhît (le Trône, ʿarsh)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 17,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -169,7 +161,7 @@
       "label": "18 · kâf — ash-Shakûr (le Piédestal, kursî)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 18,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -178,7 +170,7 @@
       "label": "19 · jîm — al-Ghaniyy (la Sphère sans étoiles, falak al-burûj)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 19,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -187,7 +179,7 @@
       "label": "20 · shîn — al-Muqaddir (la Sphère des étoiles fixes)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 20,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -196,7 +188,7 @@
       "label": "21 · yâʾ — ar-Rabb (Saturne — Abraham y siège)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 21,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -205,7 +197,7 @@
       "label": "22 · dâd — al-ʿAlîm (Jupiter — Moïse y siège)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 22,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -214,7 +206,7 @@
       "label": "23 · lâm — al-Qâhir (Mars — Aaron y siège)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 23,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -223,7 +215,7 @@
       "label": "24 · nûn — an-Nûr (Soleil — Idrîs y siège)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 24,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -232,7 +224,7 @@
       "label": "25 · râʾ — al-Musawwir (Vénus — Joseph y siège)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 25,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -241,7 +233,7 @@
       "label": "26 · tâʾ (ط) — al-Muhsî (Mercure — Jésus y siège)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 26,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -250,7 +242,7 @@
       "label": "27 · dâl — al-Mubîn (Lune — Adam y siège)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 27,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -259,7 +251,7 @@
       "label": "28 · tâʾ (ت) — al-Qabîd (le Feu)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 28,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -268,7 +260,7 @@
       "label": "29 · zây — al-Hayy (l'Air)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 29,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -277,7 +269,7 @@
       "label": "30 · sîn — al-Muhyî (l'Eau)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 30,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -286,7 +278,7 @@
       "label": "31 · sâd — al-Mumît (la Terre)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 31,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -295,7 +287,7 @@
       "label": "32 · zhâʾ — al-ʿAzîz (les Minéraux)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 32,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -304,7 +296,7 @@
       "label": "33 · thâʾ — ar-Razzâq (les Végétaux)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 33,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -313,7 +305,7 @@
       "label": "34 · dhâl — al-Mudhdhil (les Animaux)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 34,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -322,7 +314,7 @@
       "label": "35 · fâʾ — al-Qawiyy (les Anges)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 35,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -331,7 +323,7 @@
       "label": "36 · bâʾ — al-Latîf (les Djinns)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 36,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -340,7 +332,7 @@
       "label": "37 · mîm — al-Jâmiʿ (l'Homme)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 37,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
     },
     {
@@ -349,8 +341,134 @@
       "label": "38 · wâw — Rafîʿ ad-Darajât (l'Homme parfait)",
       "source": "[[doctrinal/symboles/table-28-degres-nafas-rahman]]",
       "degre_vertical": 38,
-      "question_ouverte": false,
+      "question_ouverte": "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]",
       "ancrages": []
+    },
+    {
+      "id": "universel/aqtab-saturne",
+      "tradition": "universel",
+      "label": "Pôle de Saturne (Abraham y siège)",
+      "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+      "degre_vertical": 21,
+      "question_ouverte": "[[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]]",
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "tasawwuf/degre-21",
+          "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "universel/aqtab-jupiter",
+      "tradition": "universel",
+      "label": "Pôle de Jupiter (Moïse y siège)",
+      "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+      "degre_vertical": 22,
+      "question_ouverte": "[[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]]",
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "tasawwuf/degre-22",
+          "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "universel/aqtab-mars",
+      "tradition": "universel",
+      "label": "Pôle de Mars (Aaron y siège)",
+      "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+      "degre_vertical": 23,
+      "question_ouverte": "[[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]]",
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "tasawwuf/degre-23",
+          "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "universel/aqtab-soleil",
+      "tradition": "universel",
+      "label": "Pôle du Soleil (Idrîs y siège)",
+      "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+      "degre_vertical": 24,
+      "question_ouverte": "[[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]]",
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "tasawwuf/degre-24",
+          "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+          "note": "Point de contrôle nommé : Guénon situe Idrîs au Ciel du Soleil (lettre à Coomaraswamy, 1936) — convergence directe, non construite, avec le degré 24 akbarien."
+        }
+      ]
+    },
+    {
+      "id": "universel/aqtab-venus",
+      "tradition": "universel",
+      "label": "Pôle de Vénus (Joseph y siège)",
+      "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+      "degre_vertical": 25,
+      "question_ouverte": "[[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]]",
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "tasawwuf/degre-25",
+          "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "universel/aqtab-mercure",
+      "tradition": "universel",
+      "label": "Pôle de Mercure (Jésus y siège)",
+      "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+      "degre_vertical": 26,
+      "question_ouverte": "[[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]]",
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "tasawwuf/degre-26",
+          "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "universel/aqtab-lune",
+      "tradition": "universel",
+      "label": "Pôle de la Lune (Adam y siège)",
+      "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+      "degre_vertical": 27,
+      "question_ouverte": "[[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]]",
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "tasawwuf/degre-27",
+          "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+          "note": ""
+        }
+      ]
     }
   ]
 }

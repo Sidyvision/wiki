@@ -107,7 +107,7 @@ qui s'y articule — non-conflation à maintenir.
 ## Conséquence pour l'Instrument (atelier — non répercutée ici)
 
 Cette clôture confirme, plutôt qu'elle ne modifie, la spécification de rendu déjà
-produite (`atelier/projets/spec-anneau-zodiacal.md`) : la coexistence visuelle de
+produite (`atelier/rd/instrument/spec-anneau-zodiacal.md`) : la coexistence visuelle de
 l'anneau et de la lentille du Barzakh peut être assumée comme signifiante. Aucune
 modification de rendu n'est requise par cette seule clôture — signalé pour mémoire,
 lien à sens unique atelier → doctrinal déjà en place, pas l'inverse.

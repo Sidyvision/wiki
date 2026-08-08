@@ -9,10 +9,10 @@ updated: 2026-08-07
 # Instrument de la Tradition Primordiale — feuille de route
 
 > **Architecture détaillée** : la fiche canonique est désormais
-> `atelier/projets/instrument-tradition-primordiale-architecture-v0.2.md` (v0.2 développée ; la v0.1
-> `atelier/projets/instrument-tradition-primordiale-architecture.md` reste conservée comme jalon
+> `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2.md` (v0.2 développée ; la v0.1
+> `atelier/rd/instrument/instrument-tradition-primordiale-architecture.md` reste conservée comme jalon
 > historique). La **spécification géométrique de l'axe des 38 degrés** (dictée par le Gem René
-> Guénon) est fixée dans `atelier/projets/spec-technique-axe-38-degres.md`. Ce document ne les
+> Guénon) est fixée dans `atelier/rd/instrument/spec-technique-axe-38-degres.md`. Ce document ne les
 > répète pas : il en tire la **feuille de route**, les **questions ouvertes** et les **invariants**.
 > Les fiches font foi pour l'architecture ; ce document fait foi pour le « par où avancer ».
 >

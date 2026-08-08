@@ -25,7 +25,9 @@ développement qualitatif, l'optimisation à mesure de l'infrastructure globale
 hardware/software, et l'émancipation progressive de tout intermédiaire de service
 tiers. Charte et arborescence : [[atelier/rd/index|charte du pôle R&D]].
 
-- `rd/instrument/` — l'Instrument (migration depuis `projets/` à venir, fiche par fiche)
+- `rd/instrument/` — l'Instrument (migration depuis `projets/` effectuée le
+  2026-08-08, fiche par fiche ; les anciennes fiches restent en `projets/` comme
+  stubs `deprecated` avec pointeur — Cmd 10)
 - `rd/infrastructure/` — serveur, agents, hardware/software
 - `rd/audio/` — ingénierie son générique
 - `rd/outillage/` — scripts et bancs de test
@@ -41,16 +43,16 @@ akbarien sur l'axe des 38 degrés du *Nafas al-Raḥmān*. Voir
 technique]] pour l'état d'avancement par phase.
 
 **Architecture** :
-- [[atelier/projets/instrument-tradition-primordiale-architecture-v0_3|Architecture
+- [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3|Architecture
   v0.3]] — arbitrages actés (Phase 0 close, convention `degre_vertical`, lentille
   barzakh, quatre Angles de l'Espace) ; v0.1 et v0.2 conservées comme jalons
-- [[atelier/projets/spec-generateur-manifeste|Spécification du générateur de
+- [[atelier/rd/outillage/spec-generateur-manifeste|Spécification du générateur de
   manifeste]]
 
 **Données et génération** (Phase 1, livrée) :
 - `instrument-donnees.yaml` — v0.3, 36 nœuds (8 notionnels/structurants + 28 nœuds-degrés)
 - `generer-manifeste.py` — générateur déterministe, validations bloquantes, zéro LLM dans la boucle
-- [[angles-de-l-espace|Angles de l'Espace]] — les quatre Angles astrologiques (AS/DS/MC/FC), relectures tranchées
+- [[atelier/rd/instrument/angles-de-l-espace|Angles de l'Espace]] — les quatre Angles astrologiques (AS/DS/MC/FC), relectures tranchées
 
 **Prototype** :
 - `instrument-prototype.html` — prototype Three.js v0.1, axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels
@@ -67,7 +69,7 @@ de l'Arbre unique s'articulent :
   — voir `doctrinal/index.md` §VI pour la liste complète
 - [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne|Matière kabbalistique
   consolidée]] — `to-source` partiel, aucun ancrage YAML sans discernement dédié
-- [[atelier/projets/note-impact-instrument-socle-universel-2026-07-16|Note d'impact]]
+- [[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16|Note d'impact]]
   — état *kari-kumi*, six *hozo* proposés (non taillés), chantiers ouverts (branche
   Kabbale, versant Sanātana Dharma, six directions de l'espace)
 
@@ -96,13 +98,16 @@ Enregistrements, retranscriptions, dialogues avec praticiens.
 
 ---
 
-## Projets & Expériences
+## Projets & Expériences (résiduel)
 
-Expériences menées, projets en cours, documentation d'essais — hors chantier
-Instrument (voir section dédiée ci-dessus). Destination de migration : `rd/`
-(fiche par fiche, anciennes fiches marquées `deprecated` avec pointeur — Cmd 10).
+Le dossier `atelier/projets/` a été migré vers `rd/` le 2026-08-08 (ouverture du
+pôle R&D, verdict Sidy). Il ne contient plus que :
+- les **stubs `deprecated`** des 16 fiches migrées (chacun pointe vers sa fiche
+  canonique en `rd/` — Cmd 10, jamais de suppression sèche) ;
+- `album-personnel.md` — en attente d'arbitrage `rd/` vs `label/` (proposition §IV :
+  à trancher fiche par fiche, verdict Sidy requis).
 
-- `/atelier/projets/` — expériences, carnets, essais pratiques
+Les expériences nouvelles ont vocation à être consignées directement en `rd/`.
 
 ---
 

@@ -8,7 +8,7 @@ created: 2026-07-16
 updated: 2026-07-16
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-etats-multiples-ch4-fondement]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "[[atelier/projets/instrument-tradition-primordiale-architecture-v0_3]]"]
+cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-etats-multiples-ch4-fondement]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3]]"]
 ---
 
 # Guénon — Le Symbolisme de la Croix, ch. XI-XIII : le triptyque des représentations géométriques

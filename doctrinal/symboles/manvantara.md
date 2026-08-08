@@ -41,7 +41,7 @@ Dans cette représentation, l'apparition du monde moderne ne peut être figurée
 
 ## Pertinence pour l'Instrument
 
-Cette fiche fournit une base doctrinale directement exploitable pour la **Phase 5 (couche astrologique)** de `atelier/projets/instrument-tradition-primordiale-architecture-v0_2.md` — calcul cosmique des cycles et des Yuga, à distinguer du calcul du thème individuel. Lien à sens unique uniquement (doctrinal → projet), jamais l'inverse.
+Cette fiche fournit une base doctrinale directement exploitable pour la **Phase 5 (couche astrologique)** de `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md` — calcul cosmique des cycles et des Yuga, à distinguer du calcul du thème individuel. Lien à sens unique uniquement (doctrinal → projet), jamais l'inverse.
 
 ## Lectures suggérées (bibliothèque physique)
 

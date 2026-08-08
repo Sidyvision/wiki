@@ -72,9 +72,15 @@ dans le dépôt.
   `statut_experience`), le régime de liens (§VI : `rd/` hérite du régime de
   `projets/`), l'élargissement de `liens_atelier` (§V.d), les annales de
   l'atelier au Cmd 9.
-- **Non inclus dans la phase 1 partielle** (viennent ensuite, fiche par fiche) :
-  la migration de `atelier/projets/` vers `rd/instrument/` et `rd/outillage/`
-  (chaque fiche migrée garde son slug ; l'ancienne reçoit `deprecated` avec
-  pointeur — Cmd 10) ; la discipline de laboratoire (bloc 🧪 Expérience, cahiers
+- **Migration effectuée le 2026-08-08** (fiche par fiche, §IV) : 16 fiches de
+  `atelier/projets/` migrées vers `rd/instrument/` (15) et `rd/outillage/` (1),
+  slugs conservés ; chaque ancienne fiche subsiste en stub `deprecated` avec
+  pointeur (Cmd 10) ; assets (`assets-instrument/`), données
+  (`instrument-donnees.yaml`, `wiki-manifest.json`), prototype et script
+  `generer-manifeste.py` déplacés avec les fiches ; liens entrants repointés.
+  Reste en `projets/` : `album-personnel.md` (arbitrage `rd/` vs `label/`, §IV —
+  à trancher, verdict Sidy).
+- **Non inclus dans la phase 1 partielle** (viennent ensuite) :
+  la discipline de laboratoire (bloc 🧪 Expérience, cahiers
   d'expérience, règle de reproduction) — phase 2 ; l'agent de veille
   infrastructure (phase 3, sur désignation de Sidy).

@@ -43,7 +43,7 @@ L'option --strict rétablit le comportement v1.0 (tout bloque) pour un audit.
 --------------------------------------------------------------------------------
 ÉTANCHÉITÉ (CLAUDE.md §VI)
 --------------------------------------------------------------------------------
-    meta/  →  label/  →  atelier/projets/  →  doctrinal/ et atelier/  (neutres)
+    meta/  →  label/  →  atelier/projets/ et atelier/rd/  →  doctrinal/ et atelier/  (neutres)
 
 Les liens ne descendent que du sensible vers le neutre. Un lien remontant est
 une violation BLOQUANTE.
@@ -97,6 +97,7 @@ RANG_ETANCHEITE = {
     "meta": 3,
     "label": 2,
     "atelier/projets": 1,
+    "atelier/rd": 1,       # rd/ hérite du régime de projets/ (CLAUDE.md §VI)
     "atelier": 0,
     "doctrinal": 0,
 }

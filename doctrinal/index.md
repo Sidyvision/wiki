@@ -314,14 +314,14 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ### Projets (`atelier/projets/`)
 - [[atelier/projets/album-personnel|Album personnel — home studio et production]]
-- [[atelier/projets/instrument-tradition-primordiale-architecture|Instrument de la Tradition Primordiale — architecture (esquisse v0.1)]]
-- [[atelier/projets/instrument-tradition-primordiale-architecture-v0.2|Instrument — architecture v0.2 (développée)]]
-- [[atelier/projets/instrument-feuille-de-route-v2|Instrument — feuille de route et pile technique (v2)]]
-- [[atelier/projets/spec-technique-axe-38-degres|Spécification technique — Axe des 38 degrés du Nafas al-Raḥmān]]
-- [[atelier/projets/soumission-gem-convergence-28|Soumission au Gem — Convergence des 28]]
-- [[atelier/projets/soumission-gem-reponse-geometrie-3d|Réponse au Gem — Directives géométriques de l'axe]]
-- [[atelier/projets/soumission-gem-reponse-gloton|Réponse au Gem — source primaire Gloton]]
-- [[atelier/projets/soumission-gem-reponse-visuelle-28|Réponse au Gem — intégration visuelle de la pulsation à 28 degrés]]
+- [[atelier/rd/instrument/instrument-tradition-primordiale-architecture|Instrument de la Tradition Primordiale — architecture (esquisse v0.1)]]
+- [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2|Instrument — architecture v0.2 (développée)]]
+- [[atelier/rd/instrument/instrument-feuille-de-route-v2|Instrument — feuille de route et pile technique (v2)]]
+- [[atelier/rd/instrument/spec-technique-axe-38-degres|Spécification technique — Axe des 38 degrés du Nafas al-Raḥmān]]
+- [[atelier/rd/instrument/soumission-gem-convergence-28|Soumission au Gem — Convergence des 28]]
+- [[atelier/rd/instrument/soumission-gem-reponse-geometrie-3d|Réponse au Gem — Directives géométriques de l'axe]]
+- [[atelier/rd/instrument/soumission-gem-reponse-gloton|Réponse au Gem — source primaire Gloton]]
+- [[atelier/rd/instrument/soumission-gem-reponse-visuelle-28|Réponse au Gem — intégration visuelle de la pulsation à 28 degrés]]
 
 ---
 

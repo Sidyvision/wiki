@@ -44,6 +44,12 @@ la dispersion mentale.
 > l'émancipation progressive de tout intermédiaire de service tiers. Sceau
 > atelier étendu (§V.a), régime de liens de `projets/` hérité par `rd/` (§VI),
 > `liens_atelier` élargi (§V.d), annales de l'atelier inscrites au Cmd 9.
+> **Le 2026-08-08 (exécution)** : migration de `atelier/projets/` vers `rd/`
+> effectuée fiche par fiche (§IV de la proposition) : 16 fiches migrées (slugs
+> conservés), anciennes fiches conservées en stubs `deprecated` avec pointeur
+> (Cmd 10), assets et scripts déplacés avec les fiches. §II mis à jour
+> (`projets/` désormais résiduel). `album-personnel.md` en attente d'arbitrage
+> `rd/` vs `label/`.
 >
 > *Note technique* : le nom de fichier `CLAUDE.md` est une convention lue par l'outil
 > d'intégration en ligne de commande ; il ne désigne pas un modèle particulier. Le
@@ -99,9 +105,9 @@ wiki/  (= /root/wiki)
 │   ├── materiel/          ← Manuels, fiches machines, fiches routing (RÉFÉRENCE)
 │   ├── entretiens/        ← Interviews de métier (RÉFÉRENCE)
 │   ├── etudes-de-cas/     ← études de maisons/marques/structures (RECHERCHE comparative)
-│   ├── projets/           ← Projets transverses (dont l'Instrument) — destination de
-│   │                         migration : rd/ (fiche par fiche, anciennes deprecated) ;
-│   │                         les projets du label ont MIGRÉ vers label/
+│   ├── projets/           ← Résiduel : stubs `deprecated` des 16 fiches migrées
+│   │                         vers rd/ (2026-08-08) + album-personnel.md (arbitrage
+│   │                         rd/ vs label/ en attente) ; ne plus y créer de fiches
 │   └── rd/                ← RECHERCHE & DÉVELOPPEMENT (pôle ouvert 2026-08-08) :
 │                             instrument/ · infrastructure/ · audio/ · outillage/ ·
 │                             cahiers/ — charte : rd/index.md ; finalité de

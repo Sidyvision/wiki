@@ -8,7 +8,7 @@ created: 2026-07-16
 updated: 2026-07-26
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]", "[[atelier/projets/instrument-tradition-primordiale-architecture-v0_3]]"]
+cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3]]"]
 ---
 
 # Guénon — L'Homme et son devenir selon le Vêdânta, ch. X, XV, XVI

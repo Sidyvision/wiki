@@ -6,9 +6,9 @@
 #   Croise deux couches :
 #     1. la vérité doctrinale : les fiches de doctrinal/ (labels, existence,
 #        discernements « en cours ») — LECTURE SEULE ;
-#     2. la déclaration applicative : atelier/projets/instrument-donnees.yaml
+#     2. la déclaration applicative : atelier/rd/instrument/instrument-donnees.yaml
 #        (nœuds, degrés verticaux, ancrages).
-#   Produit : atelier/projets/wiki-manifest.json
+#   Produit : atelier/rd/instrument/wiki-manifest.json
 #
 #   AUCUN LLM dans la boucle. Parse mécanique uniquement.
 #   Validations bloquantes : voir la spec (spec-generateur-manifeste.md §5).
@@ -248,16 +248,16 @@ def main():
     p = argparse.ArgumentParser(description="Générateur du wiki-manifest (v0.2.1), déterministe.")
     p.add_argument("--repo", default="/root/wiki", help="racine du dépôt wiki")
     p.add_argument("--donnees", default=None,
-                   help="fichier déclaratif (défaut : <repo>/atelier/projets/instrument-donnees.yaml)")
+                   help="fichier déclaratif (défaut : <repo>/atelier/rd/instrument/instrument-donnees.yaml)")
     p.add_argument("--sortie", default=None,
-                   help="manifeste produit (défaut : <repo>/atelier/projets/wiki-manifest.json)")
+                   help="manifeste produit (défaut : <repo>/atelier/rd/instrument/wiki-manifest.json)")
     args = p.parse_args()
 
     repo = Path(args.repo).resolve()
     if not (repo / "doctrinal").is_dir():
         sys.exit(f"ERREUR : {repo} ne ressemble pas au dépôt (doctrinal/ absent).")
-    donnees = Path(args.donnees) if args.donnees else repo / "atelier/projets/instrument-donnees.yaml"
-    sortie = Path(args.sortie) if args.sortie else repo / "atelier/projets/wiki-manifest.json"
+    donnees = Path(args.donnees) if args.donnees else repo / "atelier/rd/instrument/instrument-donnees.yaml"
+    sortie = Path(args.sortie) if args.sortie else repo / "atelier/rd/instrument/wiki-manifest.json"
 
     sys.exit(generer(repo, donnees, sortie))
 
