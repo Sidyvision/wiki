@@ -3,7 +3,7 @@ title: "Instrument de la Tradition Primordiale — feuille de route et pile tech
 type: meta
 tags: [outillage, projet-claude-ai, instrument, app, feuille-de-route]
 created: 2026-06-28
-updated: 2026-07-01
+updated: 2026-08-07
 ---
 
 # Instrument de la Tradition Primordiale — feuille de route
@@ -15,6 +15,11 @@ updated: 2026-07-01
 > Guénon) est fixée dans `atelier/projets/spec-technique-axe-38-degres.md`. Ce document ne les
 > répète pas : il en tire la **feuille de route**, les **questions ouvertes** et les **invariants**.
 > Les fiches font foi pour l'architecture ; ce document fait foi pour le « par où avancer ».
+>
+> **Contexte au 2026-08-07** : en parallèle, les agents H‍ermes et le circuit Discord ont été
+> déployés avec succès (voir fiches 13-14-15). L'Instrument lui-même reste en Phase 0-1 (spec
+> format manifeste, pas encore de code généré). Cette feuille de route reste valable dans son
+> cadre ; les deux chantiers (Instrument et H‍ermes/Discord) avancent indépendamment.
 
 ## 1. Invariants (rappel — issus de la fiche v0.1)
 

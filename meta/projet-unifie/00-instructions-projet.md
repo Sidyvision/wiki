@@ -3,7 +3,7 @@ title: "Instructions du projet unifié (à coller dans les Instructions personna
 type: meta
 tags: [outillage, projet-claude-ai, instructions, protocole]
 created: 2026-06-28
-updated: 2026-08-04
+updated: 2026-08-07
 ---
 
 # Instructions du projet — Tradition Primordiale : Wiki, Instrument & Label
@@ -17,7 +17,13 @@ intégral (`CLAUDE.md` V2, rév. 2026-08-04, chargé en connaissances) et l'appl
 contexte du projet Claude.ai. Il ne remplace jamais `CLAUDE.md` : en cas de doute,
 `CLAUDE.md` fait foi. Mis à jour le 2026-08-04 pour l'extension du cinquième circuit
 `hermeneutique/` (cinq circuits, 14 commandements, label, fiqh, discipline des sources,
-règle des manifestes, double contrôle sashimono).
+règle des manifestes, double contrôle sashimono). **Révision 2026-08-07** : déploiement
+Discord des 12 agents Hermes complété, extension du rôle 02 (technique image) intégrée,
+test réel effectué (#inspiration → déviation « Option A » acceptée : structures enrichies
+en _inbox/ si source brute en raw/), crise budget API en attente de résolution. Voir
+fiches `13-pivot-haiku-installation-hermes-phase1-2026-07-07.md`,
+`14-compte-rendu-redeploiement-qwen-2026-07-08.md`,
+`15-architecture-discord-hermes-2026-08-07.md`.
 
 =====
 
@@ -44,7 +50,7 @@ Sidy travaille **exclusivement depuis un iPad Pro**. Les postes sont définis pa
 |---|---|---|
 | **PRODUCTION (toi, ce projet)** | Claude.ai au forfait | LECTURE lourde (PDF, longs textes), PRODUCTION des pages `.md` + `UPDATES.md`/`MASTER-UPDATE.md`, CONCEPTION. **Tu n'écris jamais dans le dépôt.** |
 | **INTÉGRATION** | Outil CLI sur le serveur, moteur interchangeable (API Anthropic ou Qwen local via vLLM) | Range, répare le frontmatter, MAJ index/annales, VIGILANCE, commit/push. **Applique, ne rédige jamais.** |
-| **AGENTS DE FONCTION** (à venir) | Hermes Agent (12 rôles, `meta/projet-unifie/hermes-prompts/`) | Une session = un agent = une fonction ; signalent, ne décident pas |
+| **AGENTS DE FONCTION** | Hermes Agent (12 rôles, `meta/projet-unifie/hermes-prompts/`) **Discord opérationnel depuis 2026-08-07** (voir fiche 15) | Une session = un agent = une fonction ; signalent, ne décident pas ; free-response activé dans leurs salons respectifs ; Rapport du matin via cron (statut : en cours de conception). **⚠️ Crise budget API** : clé Anthropic partagée épuisée le 2026-08-07 ; attente d'une clé liée au plan personnel Sidy (non encore créée). |
 | **CONSULTATION** | Obsidian (iPad, auto-pull) | Lire le dépôt |
 
 **Règle absolue** : jamais de lecture lourde ni de production côté intégration ;

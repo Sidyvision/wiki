@@ -3,7 +3,7 @@ title: "Sessions par fonction + backlogs (questions / vigilance / discernement)"
 type: meta
 tags: [outillage, projet-claude-ai, sessions, backlog, vigilance, discernement, questions]
 created: 2026-06-28
-updated: 2026-07-01
+updated: 2026-08-07
 ---
 
 # Sessions par fonction + backlogs
@@ -58,11 +58,12 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
   mémoire)** → réponse impersonnelle, axée Principes → citer `[[chemin|Nom]]` → proposer de fixer en
   `etudes/` si utile.
 
-### A6. INFRASTRUCTURE (modèle local, hébergement)
-- **Objectif** : préparer/installer la bascule open-source (`03-…`).
+### A6. INFRASTRUCTURE (modèle local, hébergement, agents H‍ermes)
+- **Objectif** : préparer/installer la bascule open-source (`03-…`) ET maintenir les agents H‍ermes Discord (fiches 13-14-15).
 - **Poste** : Claude Code (serveur) + Sidy.
 - **Mini-protocole** : étapes pédagogiques expliquées une à une ; tester sur lot réel ; ne pas
-  dégrader la qualité d'intégration.
+  dégrader la qualité d'intégration. Pour H‍ermes : configuration des `.env` (jamais `gateway setup`
+  automatique), vérification des logs de connexion, vigilance sur la clé API Anthropic partagée.
 
 ---
 
@@ -101,6 +102,15 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
   le 4e poste (modèle local) ? (Recommandation : oui, à un jalon stable.)
 - **[Process]** Conserver une seule entrée d'annales par passe d'intégration groupée (préférence
   Sidy, 2026-06-28) — acté.
+- **[H‍ermes Discord]** 12 agents déployés, Discord actif (2026-08-07) → voir fiches 13-14-15.
+  Extension rôle 02 (technique image) intégrée (commit `0d96231`). **Crise API crédit** : clé partagée
+  épuisée le 2026-08-07 ; attente clé nouvelle liée au plan personnel Sidy (non créée).
+- **[H‍ermes Discord / raw/]** Test réel #inspiration (2026-08-07/08) → agent marketing a produit une
+  fiche structurée en `_inbox/` (studio-principal.md) à partir d'une description verbale, au lieu d'un
+  dépôt passif brut dans `raw/`. **Déviation acceptée « Option A »** : enrichissement en `_inbox/`
+  autorisé si la source brute (photo) reste déposée séparément en `raw/assets/` après validation
+  humaine. Protocole `raw/` → analyse → `_inbox/` → validation → intégration conservé en esprit.
+- **[H‍ermes Discord]** Rapport du matin (cron journalier) : architecture à formaliser (voir `meta/projet-unifie/hermes-prompts/10-protocol-guardian.md` pour la Vigie ; extension à tous les agents à définir).
 
 ## C. Backlog — POINTS DE VIGILANCE (à surveiller en continu)
 
