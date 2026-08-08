@@ -10,6 +10,27 @@ updated: 2026-08-08
 
 Ressources opératoires, matériaux de travail, études de cas et documentation pratique.
 
+**Deux régimes** (depuis le verdict du 2026-08-08) :
+- **référence** — `materiel/`, `entretiens/` : ce qu'on consulte ;
+- **recherche** — `rd/` (nouveau) et `etudes-de-cas/` : ce qu'on instruit.
+
+---
+
+## R&D — Recherche & Développement (`rd/`)
+
+Pôle ouvert le 2026-08-08 (verdict Sidy : Option C, phase 1 partielle). Consigne
+systématiquement tout ce qui relève de l'ingénierie — technique, musicale,
+matérielle, logicielle, outillage, infrastructure — avec pour but l'entretien, le
+développement qualitatif, l'optimisation à mesure de l'infrastructure globale
+hardware/software, et l'émancipation progressive de tout intermédiaire de service
+tiers. Charte et arborescence : [[atelier/rd/index|charte du pôle R&D]].
+
+- `rd/instrument/` — l'Instrument (migration depuis `projets/` à venir, fiche par fiche)
+- `rd/infrastructure/` — serveur, agents, hardware/software
+- `rd/audio/` — ingénierie son générique
+- `rd/outillage/` — scripts et bancs de test
+- `rd/cahiers/` — cahiers d'expérience (phase 2)
+
 ---
 
 ## Instrument de la Tradition Primordiale
@@ -78,7 +99,8 @@ Enregistrements, retranscriptions, dialogues avec praticiens.
 ## Projets & Expériences
 
 Expériences menées, projets en cours, documentation d'essais — hors chantier
-Instrument (voir section dédiée ci-dessus).
+Instrument (voir section dédiée ci-dessus). Destination de migration : `rd/`
+(fiche par fiche, anciennes fiches marquées `deprecated` avec pointeur — Cmd 10).
 
 - `/atelier/projets/` — expériences, carnets, essais pratiques
 

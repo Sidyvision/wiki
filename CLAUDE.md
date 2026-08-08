@@ -35,6 +35,15 @@ la dispersion mentale.
 > et `atelier/etudes-de-cas/`) et introduction de l'axe de **portance**
 > (*jikugumi*/*zōsaku*) et de l'axe de **nature** (*restitution*/*homologie*)
 > des joints — §II, §III, §V.d, §VII (convention Sashimono). Visé par Sidy.
+> **Révisé le 2026-08-08 (second amendement)** : ouverture du pôle **R&D** de
+> l'atelier — `atelier/rd/`, pôle interne au circuit existant (verdict Sidy :
+> Option C, nom `rd/`, phase 1 partielle). Cinq circuits, inchangés. Le pôle
+> reçoit la finalité de **souveraineté** : consignation systématique de tout ce
+> qui relève de l'infrastructure globale hardware/software, en vue de son
+> entretien, développement qualitatif, optimisation à mesure, et de
+> l'émancipation progressive de tout intermédiaire de service tiers. Sceau
+> atelier étendu (§V.a), régime de liens de `projets/` hérité par `rd/` (§VI),
+> `liens_atelier` élargi (§V.d), annales de l'atelier inscrites au Cmd 9.
 >
 > *Note technique* : le nom de fichier `CLAUDE.md` est une convention lue par l'outil
 > d'intégration en ligne de commande ; il ne désigne pas un modèle particulier. Le
@@ -86,11 +95,18 @@ wiki/  (= /root/wiki)
 │   ├── doctrines/ · traditions/ · symboles/ · autorites/ · deviations/
 │   ├── etudes/ (YYYY-MM-DD_) · discernement/ (YYYY-MM-DD_) · sources/
 ├── atelier/               ← Circuit NON-doctrinal : métier et références
-│   ├── materiel/          ← Manuels, fiches machines, fiches routing (référence générique)
-│   ├── entretiens/        ← Interviews de métier
-│   ├── etudes-de-cas/      ← études de maisons/marques/structures
-│   └── projets/           ← Projets transverses (dont l'Instrument) ; les projets du
-│                             label ont MIGRÉ vers label/ (fiches marquées deprecated)
+│   ├── index.md · annales.md
+│   ├── materiel/          ← Manuels, fiches machines, fiches routing (RÉFÉRENCE)
+│   ├── entretiens/        ← Interviews de métier (RÉFÉRENCE)
+│   ├── etudes-de-cas/     ← études de maisons/marques/structures (RECHERCHE comparative)
+│   ├── projets/           ← Projets transverses (dont l'Instrument) — destination de
+│   │                         migration : rd/ (fiche par fiche, anciennes deprecated) ;
+│   │                         les projets du label ont MIGRÉ vers label/
+│   └── rd/                ← RECHERCHE & DÉVELOPPEMENT (pôle ouvert 2026-08-08) :
+│                             instrument/ · infrastructure/ · audio/ · outillage/ ·
+│                             cahiers/ — charte : rd/index.md ; finalité de
+│                             souveraineté (entretien, optimisation, émancipation
+│                             des intermédiaires de service tiers)
 ├── label/                 ← Circuit NON-doctrinal : la maison de création et le label
 │   ├── index.md · annales.md
 │   ├── direction-artistique/   (dont amorcage/ : idées en gestation)
@@ -202,7 +218,7 @@ cross_links: ["[[autre-slug]]"]
 ```yaml
 ---
 title: "Titre exact"
-type: materiel | manuel | entretien | projet | etude-de-cas
+type: materiel | manuel | entretien | projet | etude-de-cas | experience | infrastructure | outillage
 tags: []
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -212,9 +228,15 @@ links: []
 ```
 
 - `materiel/` et `entretiens/` ne lient JAMAIS vers `doctrinal/` (ni l'inverse).
-- `projets/` PEUT pointer vers `doctrinal/` en **sens unique**, tout lien signalé.
-  L'inverse est INTERDIT : aucune page doctrinale ne mentionne jamais un projet
-  (l'Instrument inclus).
+- `projets/` et `rd/` PEUVENT pointer vers `doctrinal/` en **sens unique**, tout
+  lien signalé. L'inverse est INTERDIT : aucune page doctrinale ne mentionne jamais
+  un projet ni une fiche `rd/` (l'Instrument inclus).
+- **`rd/` (pôle R&D, ouvert 2026-08-08)** : pour les fiches de régime
+  expérimental, champ optionnel `statut_experience: exploratoire | reproduit |
+  adopte | abandonne` — la discipline de laboratoire complète (bloc 🧪
+  Expérience, reproduction, cahiers) est ouverte en phase 2 ; charte du lieu :
+  `atelier/rd/index.md`. Les types `experience | infrastructure | outillage`
+  vivent en `rd/`.
 
 ### V.b — Label (Sceau du circuit Label)
 
@@ -367,7 +389,7 @@ liens: []                            # internes au circuit
 cles_doctrinales: []                 # sens unique vers doctrinal/, suggéré 🔍 par défaut
 discernement: []                     # sens unique vers doctrinal/discernement/ (obligatoire si registre: expression et matière issue d'un discernement existant)
 liens_label: []                      # sens unique optionnel vers label/direction-artistique/
-liens_atelier: []                    # sens unique vers atelier/etudes-de-cas/ uniquement
+liens_atelier: []                    # sens unique vers atelier/etudes-de-cas/ et atelier/rd/
 ---
 ```
 
@@ -383,8 +405,9 @@ liens_atelier: []                    # sens unique vers atelier/etudes-de-cas/ u
   institution de l'œuvre, tenu pour support opératoire de sa thèse.
 - **Sagas** — un continuum de plusieurs opus reçoit **une seule fiche-hub**
   `type: oeuvre` ; le détachement d'un opus relève du Cmd 4, au cas par cas.
-- **`liens_atelier`** — sens unique vers `atelier/etudes-de-cas/` seulement
-  (§VI). L'inverse est interdit : aucune étude de cas ne pointe ici.
+- **`liens_atelier`** — sens unique vers `atelier/etudes-de-cas/` et
+  `atelier/rd/` seulement (§VI). L'inverse est interdit : aucune étude de cas ni
+  fiche `rd/` ne pointe ici.
 - **`registre`** distingue les deux régimes de production du circuit :
   - `analyse` — lecture d'une œuvre ou d'un de ses éléments ;
   - `expression` — formulation d'une idée propre à l'utilisateur, l'œuvre servant de
@@ -434,10 +457,16 @@ l'identité publique), les configurations d'agents (`hermes-prompts/`), et le ca
 de la bibliothèque physique.
 
 **Hiérarchie d'étanchéité** (du plus sensible au plus neutre) :
-`meta/` → **`hermeneutique/`** → `label/` → `atelier/projets/` → `doctrinal/` et
-`atelier/` (neutres).
+`meta/` → **`hermeneutique/`** → `label/` → `atelier/projets/` et `atelier/rd/`
+→ `doctrinal/` et `atelier/` (neutres).
 
 - Liens autorisés : du sensible VERS le neutre uniquement.
+- **`rd/` hérite du régime de `atelier/projets/`** qu'il a vocation à remplacer :
+  lien vers `doctrinal/` en sens unique, signalé. `meta/projet-unifie/` garde ce
+  qui est **sensible** (motifs, credentials, prompts d'agents) ;
+  `rd/infrastructure/` reçoit ce qui est **publiable dans le dépôt**
+  (architecture générique, bancs, mesures). Jamais de fait personnel dans une
+  page neutre.
 - INTERDIT : inscrire un fait personnel dans une page neutre. Les fiches `label/` ne
   contiennent que les **conséquences de design** des décisions personnelles, jamais
   leurs motifs (qui restent en `meta/`). Les prompts d'agents ne citent jamais le
@@ -772,7 +801,8 @@ Trame de référence — chaque notion réexpliquée jusqu'à maîtrise confirm�
 9. **Journaliser dans les annales** à chaque session (préfixe greppable
    `## [YYYY-MM-DD] op | Titre` ; une seule entrée par passe groupée ;
    `doctrinal/annales.md` pour le doctrinal, `label/annales.md` pour le label,
-   `hermeneutique/annales.md` pour l'herméneutique).
+   `hermeneutique/annales.md` pour l'herméneutique, `atelier/annales.md` pour
+   l'atelier — y compris le pôle `rd/`).
    Chaque entrée porte le **SHA court du commit** qu'elle décrit en dernière ligne :
    `- **Commit** : abc1234`. L'entrée est rédigée **après** le commit, jamais avant.
    Une entrée décrivant une opération planifiée mais non exécutée est interdite.
