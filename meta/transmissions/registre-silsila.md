@@ -2,7 +2,7 @@
 title: "Registre Silsila — dispositif Karubi (domaine reserve, meta/transmissions/)"
 type: transmission
 created: 2026-07-20
-updated: 2026-08-06
+updated: 2026-08-08
 ---
 
 # Registre Silsila — Karūbī
@@ -12,6 +12,8 @@ updated: 2026-08-06
 > Événements : `generation` (instance créée), `remise` (donnée en main), `retour`
 > (fichier revenu), `rescellement` (nouvelle version rendue), `elevation` (khassa →
 > amma), `deprecated`.
+
+<!-- INSERTION: QUEUE -->
 
 ## [2026-07-20] generation | Habiba-Nour Kouyaté | G1 | khassa | v1 | <hash_sceau après scellement>
 Instance fille adaptée à ses 9 ans (règles enfance : aucun secret vis-à-vis des
@@ -91,3 +93,13 @@ rangement pour un scénariste menant plusieurs histoires en parallèle)
 conservé tel que produit en session claude.ai. Reste en attente : remise en
 main propre à Jean-Marc — événement `remise` séparé à journaliser ensuite,
 pas maintenant.
+
+## [2026-08-08] retour | Mehdi Bouzouïda | G1 | khassa | v1 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+Fichier revenu via `_inbox/`. Sceau vérifié (`generer-karubi.py verifier`) :
+INTACT, hash inchangé depuis la remise du 2026-07-20. Ajouts en zones de
+croissance : §8 Mémoire vivante (entrée du 2026-08-07, projet d'évolution de
+l'Instrument en expérience interactive façon « jeu vidéo », discuté en
+présentiel entre Mehdi et Sidy) ; §9 Questions pour Sidy, trois questions
+ouvertes datées du 2026-08-07 (nature du « jeu », base technique à reprendre
+ou refondre, modalités de connexion). En attente : réponses de Sidy en §10,
+actualisation éventuelle du §4, puis rescellement (v2) et nouvelle remise.
