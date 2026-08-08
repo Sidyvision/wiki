@@ -313,7 +313,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 *(vide)*
 
 ### Projets (`atelier/projets/`)
-- [[atelier/projets/album-personnel|Album personnel — home studio et production]]
+- [[label/production/album-personnel|Album personnel — home studio et production]] (déplacé vers `label/` le 2026-08-08, verdict Sidy)
 - [[atelier/rd/instrument/instrument-tradition-primordiale-architecture|Instrument de la Tradition Primordiale — architecture (esquisse v0.1)]]
 - [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2|Instrument — architecture v0.2 (développée)]]
 - [[atelier/rd/instrument/instrument-feuille-de-route-v2|Instrument — feuille de route et pile technique (v2)]]

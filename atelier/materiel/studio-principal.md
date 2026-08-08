@@ -5,7 +5,7 @@ tags: [synthese, enregistrement-analogique, composition, monitoring, hub]
 created: 2026-08-08
 updated: 2026-08-08
 sources: ["to-source"]
-links: ["[[atelier/materiel/neve-1073spx]]", "[[atelier/materiel/tascam-model-12]]", "[[atelier/projets/album-personnel]]"]
+links: ["[[atelier/materiel/neve-1073spx]]", "[[atelier/materiel/tascam-model-12]]"]
 ---
 
 # Studio Principal — Espace d'Atelier

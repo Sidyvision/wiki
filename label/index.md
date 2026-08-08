@@ -3,7 +3,7 @@ title: "Index — Circuit Label (Dans l'Absolu)"
 type: index
 tags: [label, index, entreprise]
 created: 2026-07-05
-updated: 2026-07-05
+updated: 2026-08-08
 ---
 
 # Circuit Label — Index
@@ -37,6 +37,9 @@ Direction artistique, production, distribution, et communication du label.
 ### Modèle économique et équipe
 - [[label/production/modele-economique|Modèle économique — don, rentabilité, équilibre]] (principes)
 - [[label/production/equipe-agents-hermes|Équipe d'agents (Hermes) — les douze fonctions]] (infrastructure)
+
+### Œuvre
+- [[label/production/album-personnel|Album personnel — home studio et production]] (`en-cours`)
 
 ---
 

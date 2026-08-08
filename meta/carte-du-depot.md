@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-08 13:24 UTC, sur `/root/wiki`.
-> Portée : dépôt complet. 386 fiches parcourues.
+> aucun réseau) le 2026-08-08 14:39 UTC, sur `/root/wiki`.
+> Portée : dépôt complet. 388 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -272,7 +272,7 @@ links: []
 | `hermeneutique/metal-gear/metal-gear` | oeuvre | — | 2026-08-08 | — | Metal Gear (saga) |
 | `hermeneutique/metal-gear/mother-base` | dispositif | — | 2026-08-08 | — | Mother Base |
 
-### `atelier/` — 42 fiches
+### `atelier/` — 43 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
@@ -280,12 +280,12 @@ links: []
 | `atelier/etudes-de-cas/kojima-productions` | etude-de-cas | — | 2026-08-08 | — | Case Study — Kojima Productions |
 | `atelier/etudes-de-cas/stones-throw` | etude-de-cas | — | 2026-07-06 | — | Case Study — Stones Throw Records |
 | `atelier/index` | index | — | 2026-08-08 | — | Atelier — Ressources & Études de Cas |
-| `atelier/materiel/neve-1073spx` | materiel | — | 2026-06-20 | — | Neve 1073SPX — préampli/EQ analogique |
+| `atelier/materiel/neve-1073spx` | materiel | — | 2026-08-08 | — | Neve 1073SPX — préampli/EQ analogique |
 | `atelier/materiel/studio-principal` | materiel | — | 2026-08-08 | — | Studio Principal — Espace d'Atelier |
-| `atelier/materiel/tascam-model-12` | materiel | — | 2026-06-20 | — | Tascam Model 12 — table/interface centrale |
-| `atelier/materiel/technics-su-8080` | materiel | — | 2026-06-20 | — | Technics SU-8080 — ampli hi-fi vintage hérité |
+| `atelier/materiel/tascam-model-12` | materiel | — | 2026-08-08 | — | Tascam Model 12 — table/interface centrale |
+| `atelier/materiel/technics-su-8080` | materiel | — | 2026-08-08 | — | Technics SU-8080 — ampli hi-fi vintage hérité |
 | `atelier/projets/2026-07-26_investigation-referentiels-stellaires-cycles` | deprecated | — | 2026-08-08 | — | 2026-07-26_investigation-referentiels-stellaires-cycles (fiche déplacée) |
-| `atelier/projets/album-personnel` | projet | — | 2026-06-20 | — | Album personnel — home studio et production |
+| `atelier/projets/album-personnel` | deprecated | — | 2026-08-08 | — | album-personnel (fiche déplacée) |
 | `atelier/projets/angles-de-l-espace` | deprecated | — | 2026-08-08 | — | angles-de-l-espace (fiche déplacée) |
 | `atelier/projets/instrument-feuille-de-route-v2` | deprecated | — | 2026-08-08 | — | instrument-feuille-de-route-v2 (fiche déplacée) |
 | `atelier/projets/instrument-tradition-primordiale-architecture` | deprecated | — | 2026-08-08 | — | instrument-tradition-primordiale-architecture (fiche déplacée) |
@@ -301,6 +301,7 @@ links: []
 | `atelier/projets/spec-anneau-zodiacal` | deprecated | — | 2026-08-08 | — | spec-anneau-zodiacal (fiche déplacée) |
 | `atelier/projets/spec-generateur-manifeste` | deprecated | — | 2026-08-08 | — | spec-generateur-manifeste (fiche déplacée) |
 | `atelier/projets/spec-technique-axe-38-degres` | deprecated | — | 2026-08-08 | — | spec-technique-axe-38-degres (fiche déplacée) |
+| `atelier/rd/cahiers/registre-problemes` | meta | — | 2026-08-08 | — | Registre des problèmes — pôle R&D (cahier append-only) |
 | `atelier/rd/index` | index | — | 2026-08-08 | — | Pôle R&D de l'atelier — charte du lieu |
 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` | investigation | speculatif | 2026-07-26 | — | Investigation — Référentiels stellaires polaire/solaire, Gizeh et doctrine des cycles |
 | `atelier/rd/instrument/angles-de-l-espace` | projet | — | 2026-07-01 | — | Les Angles de l'Espace — schéma manuscrit (directions horizontales de l'Instrument) |
@@ -319,19 +320,20 @@ links: []
 | `atelier/rd/instrument/spec-technique-axe-38-degres` | projet | — | 2026-07-01 | — | Spécification technique — Axe des 38 degrés du Nafas al-Raḥmān (v1.0) |
 | `atelier/rd/outillage/spec-generateur-manifeste` | projet | — | 2026-07-01 | — | Spécification — Générateur de manifeste (wiki → wiki-manifest.json) |
 
-### `label/` — 11 fiches
+### `label/` — 12 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
-| `label/annales` | meta | — | 2026-07-05 | — | Annales du Circuit Label |
+| `label/annales` | meta | — | 2026-08-08 | — | Annales du Circuit Label |
 | `label/direction-artistique/amorcage/generation-non-cumulative` | amorcage | — | 2026-07-05 | — | Génération non-cumulative — principe ontologique du protocole |
 | `label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs` | amorcage | — | 2026-07-05 | — | Imaginaire structurant — Nen, la ruche, les échecs |
 | `label/distribution/doctrine-du-don` | distribution | — | 2026-07-05 | — | Doctrine du don — principe de circulation des œuvres |
 | `label/distribution/merchandising` | distribution | — | 2026-07-05 | — | Merchandising — principes et catalogue candidat |
 | `label/distribution/protocole-cercles-token` | distribution | — | 2026-07-05 | — | Protocole des cercles — registre de transmission numérique |
 | `label/distribution/strategie-vinyle-300-depositaires` | distribution | — | 2026-07-05 | — | Stratégie vinyle — 300 exemplaires aux dépositaires |
-| `label/index` | index | — | 2026-07-05 | — | Index — Circuit Label (Dans l'Absolu) |
+| `label/index` | index | — | 2026-08-08 | — | Index — Circuit Label (Dans l'Absolu) |
 | `label/marketing-communication/fanzine` | marketing-communication | — | 2026-07-05 | — | Fanzine — Dans l'Absolu (organe imprimé) |
+| `label/production/album-personnel` | production | — | 2026-08-08 | — | Album personnel — home studio et production |
 | `label/production/equipe-agents-hermes` | production | — | 2026-07-05 | — | Équipe d'agents Hermes — 12 fonctions, 5 archétypes |
 | `label/production/modele-economique` | production | — | 2026-07-05 | — | Modèle économique — le contrepoids de la rentabilité |
 
@@ -515,6 +517,7 @@ links: []
 | `archetypes` | 3 | `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise`, `label/direction-artistique/amorcage/generation-non-cumulative`, `label/production/equipe-agents-hermes` |
 | `asma-al-husna` | 3 | `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton` |
 | `astrologie` | 3 | `atelier/rd/instrument/angles-de-l-espace`, `doctrinal/autorites/titus-burckhardt`, `meta/personnel/2026-06-20_theme-astrologique` |
+| `atelier` | 3 | `atelier/index`, `atelier/rd/cahiers/registre-problemes`, `atelier/rd/index` |
 | `atma` | 3 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14` |
 | `audio` | 3 | `atelier/materiel/neve-1073spx`, `atelier/materiel/tascam-model-12`, `atelier/materiel/technics-su-8080` |
 | `balance` | 3 | `doctrinal/sources/guenon-roi-du-monde-ch10`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-I`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-II` |
@@ -546,6 +549,7 @@ links: []
 | `tawakkul` | 3 | `doctrinal/symboles/shukr`, `doctrinal/symboles/tawakkul`, `meta/journal/2026-06-18-tawakkul-transition` |
 | `terminologie` | 3 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-index-transcription` |
 | `vigilance` | 3 | `doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance`, `doctrinal/symboles/archeometre`, `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` |
+| `vinyle` | 3 | `atelier/etudes-de-cas/stones-throw`, `label/distribution/strategie-vinyle-300-depositaires`, `label/production/album-personnel` |
 | `adam-qadmon` | 2 | `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `akbarisme` | 2 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/autorites/al-jurjani` |
 | `alam-al-huruf` | 2 | `doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq`, `doctrinal/symboles/nafas-rahmani` |
@@ -553,14 +557,13 @@ links: []
 | `app` | 2 | `atelier/rd/instrument/instrument-feuille-de-route-v2`, `meta/projet-unifie/02-instrument-feuille-de-route` |
 | `archeometre` | 2 | `doctrinal/sources/archeometre-saint-yves-papus-1911`, `doctrinal/symboles/archeometre` |
 | `art-sacre` | 2 | `doctrinal/autorites/titus-burckhardt`, `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel` |
-| `atelier` | 2 | `atelier/index`, `atelier/rd/index` |
 | `atlantide` | 2 | `doctrinal/sources/platon-oeuvres-completes-brisson-2011`, `doctrinal/symboles/atlantide` |
 | `auteur` | 2 | `hermeneutique/auteurs/hideo-kojima`, `hermeneutique/auteurs/yoji-shinkawa` |
 | `awliya-shaytan` | 2 | `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/sept-tours-du-diable` |
 | `axe-du-monde` | 2 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron` |
 | `cercles` | 2 | `label/distribution/doctrine-du-don`, `label/distribution/protocole-cercles-token` |
 | `claude-code` | 2 | `meta/2026-07-27_correctif-etendu-invariants-depot`, `meta/projet-unifie/03-transition-modele-open-source` |
-| `composition` | 2 | `atelier/materiel/studio-principal`, `atelier/projets/album-personnel` |
+| `composition` | 2 | `atelier/materiel/studio-principal`, `label/production/album-personnel` |
 | `confidentiel` | 2 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/personnel/2026-06-20_reve-leila` |
 | `creation-personnelle` | 2 | `meta/genealogie/2026-06-20_signature-kouyate`, `meta/personnel/2026-06-20_bouton-de-rose` |
 | `death-stranding` | 2 | `hermeneutique/death-stranding/death-stranding`, `hermeneutique/death-stranding/dhv-magellan` |
@@ -606,7 +609,7 @@ links: []
 | `meru-qaf` | 2 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques` |
 | `methode` | 2 | `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel`, `meta/philosophie-sashimono` |
 | `mizan` | 2 | `doctrinal/sources/mahdi-rouge-islam-signe-balance-I`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-II` |
-| `musique` | 2 | `atelier/etudes-de-cas/stones-throw`, `atelier/projets/album-personnel` |
+| `musique` | 2 | `atelier/etudes-de-cas/stones-throw`, `label/production/album-personnel` |
 | `nadis` | 2 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14` |
 | `nafs` | 2 | `doctrinal/symboles/ghafla`, `meta/journal/2026-06-18-tawakkul-transition` |
 | `neo-spiritualisme` | 2 | `doctrinal/deviations/confusion-psychique-spirituel`, `doctrinal/deviations/pseudo-initiation-et-syncretisme` |
@@ -624,7 +627,9 @@ links: []
 | `qabbalah` | 2 | `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `qaf` | 2 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa` |
 | `rafi-ad-darajat` | 2 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm` |
+| `rd` | 2 | `atelier/rd/cahiers/registre-problemes`, `atelier/rd/index` |
 | `recurrent` | 2 | `meta/personnel/2026-06-20_reve-chat`, `meta/personnel/2026-06-20_reve-geants-paris` |
+| `registre` | 2 | `atelier/rd/cahiers/registre-problemes`, `label/distribution/protocole-cercles-token` |
 | `rene-guenon` | 2 | `doctrinal/sources/malamatiyah-futuhat-ch23`, `doctrinal/symboles/archeometre` |
 | `rentabilite` | 2 | `label/distribution/merchandising`, `label/production/modele-economique` |
 | `rose-croix` | 2 | `doctrinal/sources/archeometre-saint-yves-papus-1911`, `doctrinal/symboles/archeometre` |
@@ -647,7 +652,6 @@ links: []
 | `transmissions` | 2 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes`, `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` |
 | `tribhuvana` | 2 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes` |
 | `vaishvanara` | 2 | `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya` |
-| `vinyle` | 2 | `atelier/etudes-de-cas/stones-throw`, `label/distribution/strategie-vinyle-300-depositaires` |
 | `viraj` | 2 | `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya` |
 | `wiki-manifest` | 2 | `doctrinal/sources/transcription-anneau-28-lettres-figure4`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
 | `wiratha` | 2 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot` |
@@ -701,6 +705,7 @@ links: []
 | `brahma` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya` |
 | `buddhi` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7` |
 | `buruj` | 1 | `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge` |
+| `cahier` | 1 | `atelier/rd/cahiers/registre-problemes` |
 | `califat` | 1 | `doctrinal/sources/sept-etendards-califat` |
 | `calligraphie` | 1 | `meta/genealogie/2026-06-20_signature-kouyate` |
 | `centre-circonference` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference` |
@@ -808,7 +813,7 @@ links: []
 | `hierarchie-inversee` | 1 | `doctrinal/deviations/contre-initiation` |
 | `hierarchies-spirituelles` | 1 | `doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles` |
 | `hindouisme` | 1 | `doctrinal/symboles/manvantara` |
-| `home-studio` | 1 | `atelier/projets/album-personnel` |
+| `home-studio` | 1 | `label/production/album-personnel` |
 | `homme-devenir-vedanta` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya` |
 | `hub` | 1 | `atelier/materiel/studio-principal` |
 | `hyperboréen` | 1 | `doctrinal/sources/guenon-roi-du-monde-ch10` |
@@ -847,6 +852,7 @@ links: []
 | `kundalini` | 1 | `doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme` |
 | `kursî` | 1 | `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge` |
 | `label-independant` | 1 | `atelier/etudes-de-cas/stones-throw` |
+| `laboratoire` | 1 | `atelier/rd/cahiers/registre-problemes` |
 | `lectures-suggerees` | 1 | `meta/bibliotheque-physique` |
 | `lettre-nun` | 1 | `doctrinal/sources/guenon-mysteres-lettre-nun` |
 | `lexique` | 1 | `doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription` |
@@ -943,10 +949,8 @@ links: []
 | `qutbiyya` | 1 | `doctrinal/symboles/khatm` |
 | `ratio` | 1 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale` |
 | `rayon-solaire` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21` |
-| `rd` | 1 | `atelier/rd/index` |
 | `references-visuelles` | 1 | `atelier/rd/instrument/references-visuelles-astronomiques-phase-5` |
 | `reflexion-personnelle` | 1 | `meta/personnel/2026-06-20_desir-personnel` |
-| `registre` | 1 | `label/distribution/protocole-cercles-token` |
 | `relations` | 1 | `meta/personnel/2026-06-20_reve-leila` |
 | `rendu` | 1 | `atelier/rd/instrument/spec-anneau-zodiacal` |
 | `ressource` | 1 | `meta/bibliotheque-physique` |
@@ -1040,15 +1044,15 @@ links: []
 
 *Reproduits littéralement. Donne le contenu réel de chaque fiche sans passer par un résumé.*
 
-- `atelier/annales` — [2026-08-08] migration | `atelier/projets/` → `rd/` — 16 fiches migré… · [2026-08-08] restauration | Ouverture du pôle R&D `atelier/rd/` (verd… · [2026-08-08] archivage | Studio Principal — fiche-hub de l'espace d'a… · [2026-07-27] spec-anneau + instrument-donnees.yaml | Dédoublement 19/… · [2026-07-17] archivage | instrument-donnees.yaml v0.3.1 + ancrage Aqt…
+- `atelier/annales` — [2026-08-08] arbitrage | `album-personnel.md` déplacé vers `label/pro… · [2026-08-08] restauration | Ouverture du registre des problèmes du pô… · [2026-08-08] migration | `atelier/projets/` → `rd/` — 16 fiches migré… · [2026-08-08] restauration | Ouverture du pôle R&D `atelier/rd/` (verd… · [2026-08-08] archivage | Studio Principal — fiche-hub de l'espace d'a… · [2026-07-27] spec-anneau + instrument-donnees.yaml | Dédoublement 19/… · [2026-07-17] archivage | instrument-donnees.yaml v0.3.1 + ancrage Aqt…
 - `atelier/etudes-de-cas/kojima-productions` — MODULE 1 — Identity and origin · MODULE 2 — Thesis and positioning · MODULE 3 — Art direction and brand · MODULE 4 — Product and catalogue · MODULE 5 — Economic model · MODULE 6 — Production and logistics · MODULE 7 — Distribution · MODULE 8 — Marketing and communication · MODULE 9 — Culture, community, governance · MODULE 10 — Trajectory and inflection points · FINAL BLOCK — Transposition 🔍 (suggested) · Note on watertightness (§VI) · Appendix — Source credibility
 - `atelier/etudes-de-cas/stones-throw` — MODULE 1 — Identity & genesis · MODULE 2 — Thesis & positioning · MODULE 3 — Art direction & brand · MODULE 4 — Product & catalog · MODULE 5 — Business model · MODULE 6 — Production & logistics · MODULE 7 — Distribution · MODULE 8 — Marketing & communication · MODULE 9 — Culture, community & governance · MODULE 10 — Trajectory & inflection points · BLOC FINAL — Transposition 🔍 (suggéré — décision humaine requise, Cmd…
 - `atelier/index` — R&D — Recherche & Développement (`rd/`) · Instrument de la Tradition Primordiale · Matériels & Techniques · Entretiens & Témoignages · Projets & Expériences (résiduel) · Études de Cas
 - `atelier/materiel/neve-1073spx` — Nature de l'appareil · Points d'usage retenus des conversations sources · Comparatif mentionné · Liens
 - `atelier/materiel/studio-principal` — Nature de la fiche · Configuration générale · Pôle Synthèse & Composition · Pôle Enregistrement Analogique · Pôle Monitoring & Traitements · Rangement et plan de travail · Environnement `to-source` · Workflow — DAW · Chaîne de capture · Points à confirmer avant levée du `to-source` · Sources à déposer
 - `atelier/materiel/tascam-model-12` — Nature de l'appareil · Points d'usage retenus des conversations sources · Liens
-- `atelier/materiel/technics-su-8080` — Nature de l'appareil · Usages détournés envisagés (production audio) · Note · Liens
-- `atelier/projets/album-personnel` — Le projet · Particularité personnelle notée · Projet de label et pressage vinyle · Instrumentarium et chaîne de production · Philosophie de production (telle qu'exprimée par Sidy et reformulée p… · Note méthodologique
+- `atelier/materiel/technics-su-8080` — Nature de l'appareil · Usages détournés envisagés (production audio) · Note
+- `atelier/rd/cahiers/registre-problemes` — [2026-08-08] resolu-partiel | 4 anomalies d'étanchéité `materiel → al… · [2026-08-08] ouvert | `graphe-cartographie.json` jamais régénéré (blo… · [2026-08-08] ouvert | 10 anomalies bloquantes du graphe (8 étanchéité… · [2026-08-08] resolu | Lien mort `manvantara → v0_2` (version inexista…
 - `atelier/rd/index` — Mission (verdict du 2026-08-08) · Arborescence · Régime des deux sous-régimes de l'atelier · Ce qui vit où (frontières) · État de la phase 1 partielle
 - `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` — 0. Reformulation de l'intuition de départ · 1. Le versant polaire (matière guénonienne et connexe) · 2. Le versant solaire-stellaire (Égypte / Gizeh) · 3. La doctrine des cycles — matière quantitative · 4. Confrontation Gizeh de la présente investigation (consignée, §VII) · 5. Pistes d'intégration à l'Instrument (Phase 5, toutes pilotées par … · 6. Hypothèses d'interprétation — le « quelque chose d'autre » (propos… · 7. Bibliothèque à constituer (par ordre de priorité) · 8. Questions posées au discernement de Sidy (aucune tranchée ici) · 9. Consignes de relais pour le modèle suivant
 - `atelier/rd/instrument/angles-de-l-espace` — 1. Transcription du schéma · 2. Appariement acté (lève le to-source de la v0.3 §8) · 3. Garde-fou · 4. Images associées
@@ -1296,7 +1300,7 @@ links: []
 - `hermeneutique/metal-gear/big-boss` — 1. Ce que la figure est, formellement · 2. Chronologie de la figure `to-source` · 3. La structure : une volonté reçue de travers · 4. Le double, et ce que la mécanique en fait · 5. Le membre fantôme · 6. Confrontation Gizeh · 7. Sources à lever
 - `hermeneutique/metal-gear/metal-gear` — 1. Le corpus `to-source` · 2. La thèse · 3. Le fil doctrinal interne : de la volonté au contresens · 4. Les opus, par ce qu'ils ajoutent · 5. Ce qui, dans la saga, relève du domaine intermédiaire · 6. Confrontation Gizeh · 7. Sources à lever
 - `hermeneutique/metal-gear/mother-base` — 1. Ce que c'est · 2. Contexte narratif · 3. Architecture · 4. Fonctions et boucle de jeu · 5. Menus et interface `to-source` · 5 bis. Lecture pragmatique — infrastructure transposable · 5 ter. Une extrapolation — dissuasion et distillation · 6. Ce que le dispositif propose comme thèse · 6 bis. Aucune restitution · 7. Confrontation Gizeh · 8. Sources à lever
-- `label/annales` — [2026-07-05] grand-lot | Protocole du don, équipe 12 agents, économie…
+- `label/annales` — [2026-08-08] arbitrage | album-personnel — tranché, intégration en `l… · [2026-07-05] grand-lot | Protocole du don, équipe 12 agents, économie…
 - `label/direction-artistique/amorcage/generation-non-cumulative` — I. Énoncé · II. La constellation des cinq archétypes · III. Exemple d'interaction génératrice · IV. Applications déjà vivantes
 - `label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs` — I. Le Nen et Greed Island (Togashi, Hunter × Hunter) · II. La ruche · III. Les échecs · IV. Statut de ces résonances
 - `label/distribution/doctrine-du-don` — I. Intention · II. Le don initiatique vs la marchandise · III. Les cercles · IV. Le bénéfice : émergent, jamais promis · V. Deux implémentations d'un même geste
@@ -1305,6 +1309,7 @@ links: []
 - `label/distribution/strategie-vinyle-300-depositaires` — I. Principe · II. La distance comme levier · III. Critères de sélection des dépositaires · IV. Liste cible (amorcée, à compléter) · V. Le rituel d'envoi · VI. ⚠️ Rappel SDRM
 - `label/index` — I. Direction Artistique · II. Distribution · III. Production · IV. Marketing & Communication · X. Backlog & Décisions en Attente
 - `label/marketing-communication/fanzine` — I. Nature et nom · II. Référence et registre · III. Articulation avec le vinyle · IV. Contenu candidat (n°1) · V. Économie
+- `label/production/album-personnel` — Le projet · Particularité personnelle notée · Projet de label et pressage vinyle · Instrumentarium et chaîne de production · Philosophie de production (telle qu'exprimée par Sidy et reformulée p… · Note méthodologique
 - `label/production/equipe-agents-hermes` — I. Principe structurant : deux plans · II. Les 5 archétypes (plan vertical) · III. Les 12 fonctions opératives (plan horizontal) · IV. Tensions voulues par design · V. Garde-fous transversaux (dans chaque system prompt) · VI. État
 - `label/production/modele-economique` — I. Constat fondateur · II. La tension voulue · III. Flux de revenus (par ordre de maturité) · IV. Principe d'arbitrage · V. À chiffrer (backlog)
 - `meta/2026-07-27_correctif-etendu-invariants-depot` — 1. Reclassement : ce n'est pas un bug d'ordre · 2. Second constat, plus grave : l'annales est un auto-rapport non vér… · 3. Troisième constat : une erreur de ma part a été inscrite au dépôt · 4. Pourquoi personne n'a rien vu — moi compris · 5. Balayage du dépôt — inventaire des invariants · 6. Le contrôle mécanique — `verifier-invariants.py` (livré) · 7. Amendements `CLAUDE.md` proposés · 8. Ordre de remédiation · 9. Ce que ce document ne prétend pas
@@ -1446,7 +1451,7 @@ links: []
 **Total : 252 marqueurs sur 90 fiches.**
 
 - `atelier/annales` (1)
-  - L85 : analogique, monitoring). `sources: ["to-source"]`, plusieurs points marqués
+  - L129 : analogique, monitoring). `sources: ["to-source"]`, plusieurs points marqués
 - `atelier/etudes-de-cas/kojima-productions` (21)
   - frontmatter sources: to-source
   - L12 : > remain unrecouped are marked `to-source` and are **not affirmable**.
@@ -1771,7 +1776,7 @@ links: []
 - `meta/proposition-discernement` → `deviation-y`, `symbole/autorite-x`
 - `meta/protocole-archivage-claude-ai` → `meta/briefing-claude-ai`
 
-### Fiches sans lien entrant (88)
+### Fiches sans lien entrant (89)
 
 - `atelier/etudes-de-cas/stones-throw`
 - `atelier/projets/2026-07-26_investigation-referentiels-stellaires-cycles`
@@ -1787,6 +1792,7 @@ links: []
 - `atelier/projets/soumission-gem-reponse-visuelle-28`
 - `atelier/projets/spec-anneau-zodiacal`
 - `atelier/projets/spec-generateur-manifeste`
+- `atelier/rd/cahiers/registre-problemes`
 - `doctrinal/discernement/_template`
 - `meta/2026-07-27_correctif-etendu-invariants-depot`
 - `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`
@@ -1868,22 +1874,22 @@ links: []
 |---|---|
 | `doctrinal/` | 227 |
 | `hermeneutique/` | 9 |
-| `atelier/` | 42 |
-| `label/` | 11 |
+| `atelier/` | 43 |
+| `label/` | 12 |
 | `meta/` | 97 |
-| **total** | **386** |
+| **total** | **388** |
 
 | type | n |
 |---|---|
 | `symbole` | 80 |
 | `source` | 68 |
-| `meta` | 51 |
+| `meta` | 52 |
 | `discernement` | 32 |
 | `autorite` | 25 |
 | `perso` | 24 |
 | `(absent)` | 18 |
-| `deprecated` | 16 |
-| `projet` | 16 |
+| `deprecated` | 17 |
+| `projet` | 15 |
 | `deviation` | 10 |
 | `tradition` | 6 |
 | `transmission` | 6 |
@@ -1891,12 +1897,12 @@ links: []
 | `etude` | 4 |
 | `materiel` | 4 |
 | `index` | 3 |
+| `production` | 3 |
 | `amorcage` | 2 |
 | `auteur` | 2 |
 | `dispositif` | 2 |
 | `etude-de-cas` | 2 |
 | `oeuvre` | 2 |
-| `production` | 2 |
 | `correctif` | 1 |
 | `entity` | 1 |
 | `figure` | 1 |
@@ -1908,7 +1914,7 @@ links: []
 | status | n |
 |---|---|
 | `traditionnel` | 169 |
-| `(absent)` | 154 |
+| `(absent)` | 156 |
 | `academique` | 26 |
 | `speculatif` | 22 |
 | `contre-traditionnel` | 6 |

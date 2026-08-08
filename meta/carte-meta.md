@@ -2,8 +2,8 @@
 title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
-created: 2026-08-04
-updated: 2026-08-04
+created: 2026-08-08
+updated: 2026-08-08
 sources: []
 links: []
 ---
@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-04 15:15 UTC, sur `/root/wiki`.
-> Portée : circuit `meta/`. 87 fiches parcourues.
+> aucun réseau) le 2026-08-08 14:40 UTC, sur `/root/wiki`.
+> Portée : circuit `meta/`. 97 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -26,7 +26,7 @@ links: []
 
 ## I. Inventaire par circuit
 
-### `meta/` — 87 fiches
+### `meta/` — 97 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
@@ -78,11 +78,11 @@ links: []
 | `meta/personnel/sidy` | entity | — | 2026-06-02 | — | Sidy |
 | `meta/philosophie-sashimono` | meta | — | 2026-07-08 | — | Directive Sashimono — philosophie d'assemblage du dépôt |
 | `meta/plan-fiche-discernement-septenaire-transversal-2026-07-27` | projet | operationnel | 2026-07-27 | — | Plan de fiche — Septénaire transversal, Balance et degré du Soleil |
-| `meta/projet-unifie/00-instructions-projet` | meta | — | 2026-08-04 | — | Instructions du projet unifié (à coller dans les Instructions personnalisées Claude.ai) |
-| `meta/projet-unifie/01-contexte-demarche-etat` | meta | — | 2026-07-01 | — | Contexte, démarche et état des travaux (snapshot 2026-07-01) |
-| `meta/projet-unifie/02-instrument-feuille-de-route` | meta | — | 2026-07-01 | — | Instrument de la Tradition Primordiale — feuille de route et pile technique |
-| `meta/projet-unifie/03-transition-modele-open-source` | meta | — | 2026-06-28 | — | Transition vers un modèle open-source local (remplacer Opus dans Claude Code) |
-| `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` | meta | — | 2026-07-01 | — | Sessions par fonction + backlogs (questions / vigilance / discernement) |
+| `meta/projet-unifie/00-instructions-projet` | meta | — | 2026-08-07 | — | Instructions du projet unifié (à coller dans les Instructions personnalisées Claude.ai) |
+| `meta/projet-unifie/01-contexte-demarche-etat` | meta | — | 2026-08-07 | — | Contexte, démarche et état des travaux (snapshot 2026-08-07) |
+| `meta/projet-unifie/02-instrument-feuille-de-route` | meta | — | 2026-08-07 | — | Instrument de la Tradition Primordiale — feuille de route et pile technique |
+| `meta/projet-unifie/03-transition-modele-open-source` | meta | — | 2026-08-07 | — | Transition vers un modèle open-source local (remplacer Opus dans Claude Code) |
+| `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` | meta | — | 2026-08-07 | — | Sessions par fonction + backlogs (questions / vigilance / discernement) |
 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud` | meta | — | 2026-06-28 | — | Runbook — Test d'Ornith 1.0 sur GPU cloud à l'heure (motoriser Claude Code) |
 | `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29` | meta | — | 2026-06-29 | — | Compte-rendu — Premier test GPU cloud d'Ornith-1.0-9B (RunPod, 2026-06-29) |
 | `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29` | meta | — | 2026-06-29 | — | Résultats finaux — cycle prepare/compare avec Ornith-1.0-9B (2026-06-29) |
@@ -95,6 +95,7 @@ links: []
 | `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03` | meta | — | 2026-07-07 | — | 12 — Procédure Phase 1 : Installation Hermes Agent + validation CLI (2026-07-03) |
 | `meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07` | meta | — | 2026-07-07 | — | 13 — Pivot Haiku & Procédure Phase 1 révisée : Installation Hermes Agent (2026-07-07) |
 | `meta/projet-unifie/14-compte-rendu-redeploiement-qwen-2026-07-08` | meta | — | 2026-07-08 | — | 14 — Compte-rendu : Re-déploiement Qwen3.6-27B-FP8 sur RunPod (2026-07-08) |
+| `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` | meta | — | 2026-08-07 | — | 15 — Architecture Discord des 12 agents H‍ermes (2026-08-07) |
 | `meta/projet-unifie/README` | meta | — | 2026-07-01 | — | Dossier d'amorçage — Projet unifié « LLM-Wiki & Instrument de la Tradition Primordiale » |
 | `meta/projet-unifie/briefing-claude-ai` | meta | — | 2026-07-06 | — | Briefing Claude.ai — Projet Wiki & Label (handoff serveur → iPad) |
 | `meta/projet-unifie/chatgpt-export-2026-05-10` | source | — | 2026-06-02 | — | Export de données ChatGPT (2026-05-10) |
@@ -113,10 +114,19 @@ links: []
 | `meta/projet-unifie/hermes-prompts/11-fanzine-editor` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/hermes-prompts/12-commerce-profitability` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03` | meta | — | 2026-07-08 | — | Note d'optimisation — préparation de l'intégration Hermes Agent (2026-07-03) |
+| `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes` | meta | — | 2026-08-06 | — | Spécification — skill Hermes KARUBI |
+| `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` | meta | — | 2026-08-06 | — | Proposition — Articulation Karūbī / Agent 10 (Gardien), et administration agentique par H… |
 | `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` | meta | — | 2026-07-06 | — | Proposition — Pôle Fiqh, double face du Gardien du Protocole, Rapport du matin |
+| `meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08` | proposition-structure | — | 2026-08-08 | — | Proposition — le pôle R&D de l'atelier (vers le dépôt-laboratoire) |
 | `meta/projet-unifie/triage-chatgpt-export` | meta | — | 2026-06-20 | — | Triage export ChatGPT (140 conversations) — proposition de classement |
 | `meta/proposition-discernement` | meta | deprecated | 2026-06-20 | — | Proposition — Circuit Discernement (spéculations personnelles) |
 | `meta/protocole-archivage-claude-ai` | meta | deprecated | 2026-06-20 | — | Protocole d'archivage Claude AI (DÉPRÉCIÉ) |
+| `meta/transmissions/karubi-gabarit` | transmission | — | 2026-07-20 | — | Karubi — GABARIT G0 (ne jamais remettre tel quel) |
+| `meta/transmissions/karubi-habiba-nour` | transmission | — | 2026-07-20 | — | Karubi — instance remise a Habiba-Nour |
+| `meta/transmissions/karubi-jean-marc` | transmission | — | 2026-08-06 | — | Karubi — Jean-Marc Bastareaud (G1) |
+| `meta/transmissions/karubi-mehdi` | transmission | — | 2026-07-20 | — | Karubi — instance remise a Mehdi Bouzouida |
+| `meta/transmissions/karubi-mikael` | transmission | — | 2026-07-20 | — | Karubi — instance remise a Mikael Heaudebourg |
+| `meta/transmissions/registre-silsila` | transmission | — | 2026-08-08 | — | Registre Silsila — dispositif Karubi (domaine reserve, meta/transmissions/) |
 
 ## II. Index des tags
 
@@ -124,23 +134,24 @@ links: []
 
 | tag | n | fiches |
 |---|---|---|
-| `outillage` | 20 | `meta/philosophie-sashimono`, `meta/projet-unifie/00-instructions-projet`, `meta/projet-unifie/01-contexte-demarche-etat`, `meta/projet-unifie/02-instrument-feuille-de-route`, `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/04-sessions-par-fonction-et-backlogs`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, … (+12) |
-| `projet-claude-ai` | 19 | `meta/projet-unifie/00-instructions-projet`, `meta/projet-unifie/01-contexte-demarche-etat`, `meta/projet-unifie/02-instrument-feuille-de-route`, `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/04-sessions-par-fonction-et-backlogs`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, … (+11) |
-| `infrastructure` | 13 | `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, … (+5) |
+| `outillage` | 23 | `meta/philosophie-sashimono`, `meta/projet-unifie/00-instructions-projet`, `meta/projet-unifie/01-contexte-demarche-etat`, `meta/projet-unifie/02-instrument-feuille-de-route`, `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/04-sessions-par-fonction-et-backlogs`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, … (+15) |
+| `projet-claude-ai` | 21 | `meta/projet-unifie/00-instructions-projet`, `meta/projet-unifie/01-contexte-demarche-etat`, `meta/projet-unifie/02-instrument-feuille-de-route`, `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/04-sessions-par-fonction-et-backlogs`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, … (+13) |
+| `infrastructure` | 14 | `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, … (+6) |
+| `runbook` | 12 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03`, … (+4) |
 | `genealogie` | 11 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante`, `meta/genealogie/mamadou-doudou-sissoko`, `meta/genealogie/moussa-sissoko`, … (+3) |
-| `runbook` | 11 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03`, … (+3) |
 | `famille` | 10 | `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante`, `meta/genealogie/mamadou-doudou-sissoko`, `meta/genealogie/moussa-sissoko`, `meta/genealogie/sissoko-kankounan`, `meta/genealogie/tapa-sissoko`, `meta/personnel/2026-06-20_reve-fille-elephant` |
 | `gpu-cloud` | 9 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03`, … (+1) |
 | `reve` | 9 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/personnel/2026-06-20_gene-buccale-reve-recurrent`, `meta/personnel/2026-06-20_reve-chat`, `meta/personnel/2026-06-20_reve-fille-elephant`, `meta/personnel/2026-06-20_reve-geants-paris`, `meta/personnel/2026-06-20_reve-leila`, `meta/personnel/2026-06-20_reve-savant-vivant`, `meta/personnel/2026-06-20_reve-urine`, … (+1) |
 | `vllm` | 9 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03`, … (+1) |
+| `hermes` | 7 | `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03`, `meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07`, `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07`, `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03`, `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes`, `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06`, `meta/projet-unifie/proposition-pole-fiqh-2026-07-06`, … (+-1) |
 | `qwen` | 7 | `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03`, `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03`, `meta/projet-unifie/14-compte-rendu-redeploiement-qwen-2026-07-08`, `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03`, … (+-1) |
 | `sissoko` | 7 | `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/mamadou-doudou-sissoko`, `meta/genealogie/moussa-sissoko`, `meta/genealogie/sissoko-kankounan`, `meta/genealogie/tapa-sissoko` |
 | `sante` | 5 | `meta/personnel/2026-06-20_bourdonnement-tempe`, `meta/personnel/2026-06-20_fibrillation`, `meta/personnel/2026-06-20_gene-buccale-reve-recurrent`, `meta/personnel/2026-06-20_herbes-pratiques`, `meta/personnel/2026-06-20_temperament` |
-| `hermes` | 4 | `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03`, `meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07`, `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03`, `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` |
 | `ornith` | 4 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29` |
 | `resultats` | 4 | `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03` |
 | `transition` | 4 | `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01` |
 | `kante` | 3 | `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante` |
+| `proposition` | 3 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes`, `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06`, `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` |
 | `stub` | 3 | `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/moussa-sissoko`, `meta/genealogie/tapa-sissoko` |
 | `suivi` | 3 | `meta/personnel/2026-06-20_bourdonnement-tempe`, `meta/personnel/2026-06-20_gene-buccale-reve-recurrent`, `meta/personnel/2026-06-20_gout-sucre-priere` |
 | `claude-code` | 2 | `meta/2026-07-27_correctif-etendu-invariants-depot`, `meta/projet-unifie/03-transition-modele-open-source` |
@@ -149,13 +160,16 @@ links: []
 | `decisions` | 2 | `meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07`, `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03` |
 | `diagnostic` | 2 | `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03` |
 | `futuwwa` | 2 | `meta/journal/2026-06-18-tawakkul-transition`, `meta/personnel/2026-06-20_bouton-de-rose` |
+| `gardien` | 2 | `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06`, `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` |
 | `journal-spirituel` | 2 | `meta/personnel/2026-06-20_gout-sucre-priere`, `meta/personnel/2026-06-20_triptyque-animaux` |
 | `jumeau-spirituel` | 2 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/genealogie/2026-06-20_signature-kouyate` |
+| `karubi` | 2 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes`, `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` |
 | `khalwa` | 2 | `meta/personnel/2026-06-20_bourdonnement-tempe`, `meta/personnel/2026-06-20_temperament` |
 | `label` | 2 | `meta/projet-unifie/framework-etude-de-cas`, `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` |
 | `objet-personnel` | 2 | `meta/personnel/2026-06-20_identification-bague`, `meta/personnel/2026-06-20_pierres-personnelles` |
 | `protocole` | 2 | `meta/philosophie-sashimono`, `meta/projet-unifie/00-instructions-projet` |
 | `recurrent` | 2 | `meta/personnel/2026-06-20_reve-chat`, `meta/personnel/2026-06-20_reve-geants-paris` |
+| `transmissions` | 2 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes`, `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` |
 | `agartha` | 1 | `meta/personnel/2026-06-20_gout-sucre-priere` |
 | `amorcage` | 1 | `meta/projet-unifie/README` |
 | `annales` | 1 | `meta/2026-07-27_correctif-etendu-invariants-depot` |
@@ -173,6 +187,7 @@ links: []
 | `deprecated` | 1 | `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03` |
 | `developpement-personnel` | 1 | `meta/personnel/2026-06-20_ikigai` |
 | `discernement` | 1 | `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` |
+| `discord` | 1 | `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` |
 | `doctrinal` | 1 | `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29` |
 | `donnees-personnelles` | 1 | `meta/projet-unifie/chatgpt-export-2026-05-10` |
 | `dunya` | 1 | `meta/journal/2026-06-18-tawakkul-transition` |
@@ -184,7 +199,6 @@ links: []
 | `fouta` | 1 | `meta/genealogie/fatoumata-sissoko` |
 | `framework` | 1 | `meta/projet-unifie/framework-etude-de-cas` |
 | `gani` | 1 | `meta/personnel/2026-06-20_triptyque-animaux` |
-| `gardien` | 1 | `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` |
 | `ghafla` | 1 | `meta/journal/2026-06-18-tawakkul-transition` |
 | `grand-mere-maternelle` | 1 | `meta/genealogie/hawa-kante` |
 | `grand-pere-maternel` | 1 | `meta/genealogie/mamadou-doudou-sissoko` |
@@ -211,7 +225,6 @@ links: []
 | `pratiques-personnelles` | 1 | `meta/personnel/2026-06-20_herbes-pratiques` |
 | `profil` | 1 | `meta/personnel/sidy` |
 | `profil-personnel` | 1 | `meta/personnel/2026-06-20_theme-astrologique` |
-| `proposition` | 1 | `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` |
 | `questions` | 1 | `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` |
 | `reflexion-personnelle` | 1 | `meta/personnel/2026-06-20_desir-personnel` |
 | `relations` | 1 | `meta/personnel/2026-06-20_reve-leila` |
@@ -220,6 +233,7 @@ links: []
 | `sashimono` | 1 | `meta/philosophie-sashimono` |
 | `sessions` | 1 | `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` |
 | `shukr` | 1 | `meta/journal/2026-06-18-tawakkul-transition` |
+| `skill` | 1 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes` |
 | `spiritualite` | 1 | `meta/personnel/sidy` |
 | `strategie` | 1 | `meta/projet-unifie/framework-etude-de-cas` |
 | `symbolisme` | 1 | `meta/personnel/2026-06-20_taekwondo-hansu` |
@@ -285,7 +299,7 @@ links: []
 - `meta/projet-unifie/00-instructions-projet` — Qui tu es, ce que tu sers · Les postes de travail (architecture par FONCTION, agnostique au modèl… · Ce que tu produis, et comment il arrive au dépôt (workflow `_inbox/`) · Les CINQ circuits étanches du dépôt · Le Sceau Recteur (frontmatter doctrinal — à reproduire exactement) · Discipline des sources (transversale) · Le circuit Discernement (spéculations personnelles de Sidy) · Les 14 Commandements résumés · L'Instrument et le site (règle commune des manifestes) · Supervision des moteurs (rappels pour tes livrables) · Mode pédagogique obligatoire · Travailler par fonction — et vigilance documentaire
 - `meta/projet-unifie/01-contexte-demarche-etat` — 1. Contexte et esprit du projet · 2. Démarche de travail (le « comment », stable) · 3. État des travaux — snapshot daté du 2026-07-01 · 4. Repères chronologiques
 - `meta/projet-unifie/02-instrument-feuille-de-route` — 1. Invariants (rappel — issus de la fiche v0.1) · 2. Feuille de route par phases · 3. Questions techniques ouvertes (à arbitrer) · 4. Garde-fous doctrinaux propres à l'app
-- `meta/projet-unifie/03-transition-modele-open-source` — 1. Le mécanisme exact (officiellement supporté) · 2. Serveurs d'inférence qui exposent nativement l'API Anthropic · 3. Ce que le modèle DOIT savoir faire (exigences dures) · 4. Matériel (le poste réellement contraignant) · 5. Plan d'installation par étapes (session « Infrastructure », pédago… · 6. Pièges concrets propres à Claude Code sur endpoint non-Anthropic (… · 7. Stratégie recommandée : scripter d'abord, hybride ensuite · 8. Points de vigilance de la transition · 8bis. Résultats du 1er test GPU cloud (2026-06-29) · 9. Sources (vérifiées le 2026-06-28)
+- `meta/projet-unifie/03-transition-modele-open-source` — 1. Le mécanisme exact (officiellement supporté) · 2. Serveurs d'inférence qui exposent nativement l'API Anthropic · 3. Ce que le modèle DOIT savoir faire (exigences dures) · 4. Matériel (le poste réellement contraignant) · 5. Plan d'installation par étapes (session « Infrastructure », pédago… · 6. Pièges concrets propres à Claude Code sur endpoint non-Anthropic (… · 7. Stratégie recommandée : scripter d'abord, hybride ensuite · 8. Points de vigilance de la transition · 8bis. Résultats du 1er test GPU cloud (2026-06-29 → 2026-07-08) · 9. Sources (vérifiées le 2026-06-28)
 - `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` — A. Les sessions par fonction · B. Backlog — QUESTIONS ouvertes (décisions à prendre) · C. Backlog — POINTS DE VIGILANCE (à surveiller en continu) · D. Backlog — DISCERNEMENTS (15 fiches) · E. Backlog — INGESTS À VENIR (documentés, non urgents)
 - `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud` — Vue d'ensemble de l'architecture du test · Phase 0 — Choisir le fournisseur et le GPU · Phase 1 — Lancer l'instance GPU · Phase 2 — Installer vLLM et télécharger Ornith (sur le GPU) · Phase 3 — Démarrer le serveur d'inférence vLLM (sur le GPU) · Phase 4 — Ouvrir le tunnel SSH (depuis le serveur Hetzner) · Phase 5 — Brancher Claude Code sur Ornith (sur le serveur Hetzner) · Phase 6 — Test de non-régression (le vrai juge) · Phase 7 — Éteindre (arrêter la facturation) · Annexe — Variante économique (GPU 24 Go via Ollama + GGUF) · Récapitulatif des pièges (déjà rencontrés / vérifiés) · Sources (vérifiées le 2026-06-28)
 - `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29` — 1. Résumé exécutif · 2. Architecture finale validée · 3. Procédure de connexion (à refaire après chaque redémarrage du Pod) · 4. Écarts par rapport au runbook initial (`05-…`) — à corriger pour l… · 5. Résultats des tests fonctionnels · 6. Anomalie observée (à signaler, sans surinterpréter) · 7. Recommandations pour la suite
@@ -299,6 +313,7 @@ links: []
 - `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03` — 0. Décisions prises pour cette phase · 1. Étape A — Vérifier / redémarrer le Pod RunPod · 2. Étape B — Créer le script de tunnel paramétrable · 3. Étape C — Installer Hermes Agent · 4. Étape D — Configurer le modèle (endpoint Qwen via le tunnel) · 5. Étape E — Première conversation CLI · 6. Étape F — Diagnostic final · 7. Étape G — Extinction propre · 8. Critère de sortie de la Phase 1 · 9. Vigilance documentaire
 - `meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07` — 1. Ce que ce pivot change · 2. Procédure Phase 1 révisée · 3. Critère de sortie (inchangé) · 4. Ce qui est mis de côté, pas abandonné · 5. Ce qui ne change pas
 - `meta/projet-unifie/14-compte-rendu-redeploiement-qwen-2026-07-08` — 1. Chronologie des incidents · 2. Verdicts finaux (identiques au 2026-07-03) · 3. Mise à jour des décisions ouvertes (`note-optimisation-hermes-2026… · 4. État à la clôture de session · 5. Sources
+- `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` — 1. Ce qui est versionné vs. ce qui ne l'est pas · 2. Les 12 profils et leur salon Discord · 3. Salon `#inspiration` — mécanisme de dépôt vers `raw/` · 4. Procédure de configuration (pour toute reprise/dépannage futur) · 5. État connu au 2026-08-07 (pour référence, peut devenir obsolète) · 6. À mettre à jour
 - `meta/projet-unifie/README` — Comment amorcer le nouveau projet Claude.ai · Outils opérationnels (à NE PAS charger dans Claude.ai) · Hiérarchie d'autorité des documents · Entretien de ce dossier
 - `meta/projet-unifie/briefing-claude-ai` — 0. Qui fait quoi (architecture par fonction, agnostique au modèle) · 1. Architecture du dépôt (`/root/wiki`) — QUATRE circuits étanches · 2. Le Sceau Recteur — frontmatter EXACT des pages `doctrinal/` · 3. Les statuts (`status`) · 4. Circuit Discernement (`doctrinal/discernement/`) · 5. Circuit Atelier (`atelier/`) — frontmatter allégé · 5 bis. Circuit Label (`label/`) — Sceau propre · 6. Domaine réservé `meta/` + étanchéité · 7. Les 14 Commandements Absolus (résumé) · 8. Nomenclature · 9. Ce que tu PRODUIS et comment le livrer (format de sortie) · 10. Points de vigilance récurrents · 11. État des travaux (au 2026-07-06) · 12. Pages existantes — NE PAS recréer (les `index.md` font foi)
 - `meta/projet-unifie/chatgpt-export-2026-05-10` — Référence · Accès · Données extraites lors de l'INGEST du 2026-06-02 · Notes
@@ -317,9 +332,18 @@ links: []
 - `meta/projet-unifie/hermes-prompts/11-fanzine-editor` — Mission · Archetype served · Scope · Reference & standards · Guardrails · Typical commands · Handoffs
 - `meta/projet-unifie/hermes-prompts/12-commerce-profitability` — Mission · Archetype served · Scope · Reference & standards · Guardrails — SPECIFIC BEHAVIORAL DIRECTIVE · Typical commands · Handoffs
 - `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03` — 1. Phase 0 : critère de sortie atteint · 2. Point structurel favorable : Hermes échappe au bug Claude Code · 3. Trois décisions ouvertes avant la Phase 1 · 4. Optimisation concrète immédiate : script de tunnel · 5. Ce qui ne change pas
+- `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes` — Déclencheur · Étape 0 — porte mécanique (Agent 10) · Étape 1 — lancement du sub-agent isolé · Étape 2 — comportement en session · Étape 3 — clôture de session · Ce que la skill ne fait jamais · Prérequis de mise en service (bloquants)
+- `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` — 1. Origine de la question · 2. Ce qui empêche la filiation littérale · 3. Proposition — deux volets cumulables (A + B), validés en principe … · 4. Volet C — administration agentique par Hermes (nouveau, suite à la… · 5. Garde-fous rappelés pour toute animation Hermes du Karūbī (prérequ… · 6. Questions ouvertes pour Sidy (à trancher, pas à déduire) · 7. Amendements suggérés (texte prêt, non appliqué — attend le verdict)
 - `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` — 1. Principe et périmètre · 2. Fiches d'amorçage du pôle (lot Fiqh 2026-07-06) · 3. Double face du Gardien (Hermes 04 & 10) · 4. Pipeline d'étude ⚖️ · 5. Acquisition prioritaire · 6. Chronologie d'intégration · 7. Alertes récurrentes
+- `meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08` — I. La demande, reformulée fidèlement · II. État des lieux (ce qui existe déjà, dispersé) · III. Trois options d'architecture, et la recommandation · IV. Arborescence proposée · V. La discipline de laboratoire (le cœur de la proposition) · VI. Impacts sur le protocole (amendements à viser) · VII. Trajectoire vers le laboratoire (suggérée, par phases réversible… · VIII. Ce que la proposition ne fait pas · IX. À l'arbitrage de Sidy
 - `meta/projet-unifie/triage-chatgpt-export` — Récapitulatif
 - `meta/proposition-discernement` — 1. Nouveau dossier · 2. Sceau Recteur — 5e valeur de `status` · 3. Le bloc normalisé — à ajouter en IV (Protocoles d'Exécution) du CL… · 4. Articulation avec `etudes/` · 5. Impact sur le triage des 140 conversations
+- `meta/transmissions/karubi-gabarit` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte du destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 4. État des travaux de Sidy (zone d'actualisation — instantané au YYY… · 5. Méthode transmise (le cœur) · 6. Protocole d'accompagnement (mission du Karūbī) · 7. Clause de retour et de transmission · 8. Mémoire vivante (zone de croissance — append-only, entrées datées … · 9. Questions pour Sidy (zone de croissance — append-only) · 10. Réponses de Sidy (zone d'actualisation — réservée à G0)
+- `meta/transmissions/karubi-habiba-nour` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte de la destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 3ter. Le regard subtil sur ses passions (pop-culture) · 4. Ce que fait Papa (zone d'actualisation — instantané au 2026-07-20,… · 5. Les règles du jardin (la méthode, version enfant) · 6. Le petit jardin de connaissances (mission du Karūbī) · 7. La navette · 8. Mémoire vivante (append-only — entrées datées et signées) · 9. Questions pour Papa (append-only) · 10. Réponses de Papa (réservée à Sidy)
+- `meta/transmissions/karubi-jean-marc` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte du destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 4. État des travaux de Sidy (zone d'actualisation — instantané au 202… · 5. Méthode transmise (le cœur) · 6. Protocole d'accompagnement (mission du Karūbī) · 6bis. Spécialisation — l'atelier d'un auteur qui mène plusieurs histo… · 7. Clause de retour et de transmission · 8. Mémoire vivante (zone de croissance — append-only, entrées datées … · 9. Questions pour Sidy (zone de croissance — append-only) · 10. Réponses de Sidy (zone d'actualisation — réservée à G0)
+- `meta/transmissions/karubi-mehdi` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte du destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 4. État des travaux de Sidy (zone d'actualisation — instantané au 202… · 5. Méthode transmise (le cœur) · 6. Protocole d'accompagnement (mission du Karūbī — si Mehdi le souhai… · 7. Clause de retour et de transmission · 8. Mémoire vivante (append-only — entrées datées et signées) · 9. Questions pour Sidy (append-only) · 10. Réponses de Sidy (réservée à G0)
+- `meta/transmissions/karubi-mikael` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte du destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 4. État des travaux de Sidy (zone d'actualisation — instantané au 202… · 5. Méthode transmise (le cœur) · 6. Protocole d'accompagnement (mission du Karūbī — si Mikael le souha… · 7. Clause de retour et de transmission · 8. Mémoire vivante (append-only — entrées datées et signées) · 9. Questions pour Sidy (append-only) · 10. Réponses de Sidy (réservée à G0)
+- `meta/transmissions/registre-silsila` — [2026-07-20] generation | Habiba-Nour Kouyaté | G1 | khassa | v1 | <h… · [2026-07-20] generation | Mehdi Bouzouïda | G1 | khassa | v1 | <hash_… · [2026-07-20] generation | Mikael Heaudebourg | G1 | khassa | v1 | <ha… · [2026-07-20] finalisation | Habiba-Nour Kouyaté | G1 | khassa | v1 | … · [2026-07-20] finalisation | Mehdi Bouzouïda | G1 | khassa | v1 | 1b75… · [2026-07-20] finalisation | Mikael Heaudebourg | G1 | khassa | v1 | f… · [2026-07-20] remise | Habiba-Nour Kouyaté | G1 | khassa | v1 | a6f891… · [2026-07-20] remise | Mehdi Bouzouïda | G1 | khassa | v1 | 22782cf677… · [2026-07-20] remise | Mikael Heaudebourg | G1 | khassa | v1 | 312689a… · [2026-07-20] correction-outillage | dispositif | G0 | — | — | — · [2026-07-20] incident-usage | Mehdi Bouzouïda | G1 | khassa | v1 | 22… · [2026-08-06] finalisation | Jean-Marc Bastareaud | G1 | khassa | v1 |… · [2026-08-08] retour | Mehdi Bouzouïda | G1 | khassa | v1 | 22782cf677…
 
 ## IV. Discernements
 
@@ -331,7 +355,7 @@ links: []
 
 *Chaque ligne est une affirmation non encore vérifiée sur source primaire (Cmd 5). Leur levée est humaine et manuelle.*
 
-**Total : 32 marqueurs sur 11 fiches.**
+**Total : 40 marqueurs sur 17 fiches.**
 
 - `meta/2026-07-27_correctif-etendu-invariants-depot` (1)
   - L175 : | B2 | `sources_count` cohérent avec `sources` (gère le marqueur `to-source`) | erreur |
@@ -346,16 +370,16 @@ links: []
   - L136 : | `autorite` | **La main du maître** (*tōryō* `to-source`) | Celui dont la coupe fait foi ; la pièce porte la marque de sa main. |
   - … (+2)
 - `meta/projet-unifie/00-instructions-projet` (2)
-  - L117 : - **`to-source`** : marqueur posé pour tout fait sans source ; levé uniquement après
-  - L142 : 5. Aucune affirmation sans source (`to-source` + discipline des sources). 6. Pas
+  - L123 : - **`to-source`** : marqueur posé pour tout fait sans source ; levé uniquement après
+  - L148 : 5. Aucune affirmation sans source (`to-source` + discipline des sources). 6. Pas
 - `meta/projet-unifie/01-contexte-demarche-etat` (2)
   - L99 : possédé — à déposer dans `raw/` ; source de `table-28-degres`, actuellement `to-source`) ;
   - L102 : - **Sources à compléter** : citations `to-source` ou « non vérifiée » à confronter aux textes réels
 - `meta/projet-unifie/02-instrument-feuille-de-route` (1)
-  - L34 : (discernements `en cours`, tensions 🌐, liens `to-source`, non-syncrétismes signalés). Aussi
+  - L39 : (discernements `en cours`, tensions 🌐, liens `to-source`, non-syncrétismes signalés). Aussi
 - `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` (2)
-  - L102 : al-Ghazālī, le Cheikh) marquées non vérifiées ou `to-source` — à confronter aux textes réels
-  - L153 : fiche source [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] créée, `to-source` de
+  - L112 : al-Ghazālī, le Cheikh) marquées non vérifiées ou `to-source` — à confronter aux textes réels
+  - L163 : fiche source [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] créée, `to-source` de
 - `meta/projet-unifie/10-briefing-infrastructure-hermes-agent-2026-07-03` (1)
   - L222 : - **Le wiki** reste l'unique source de vérité doctrinale ; Commandement 3, vigilance apophatique, discipline `to-source`, consultation de la b…
 - `meta/projet-unifie/briefing-claude-ai` (6)
@@ -368,6 +392,8 @@ links: []
 - `meta/projet-unifie/framework-etude-de-cas` (2)
   - L23 : crédibilité flaguée **par item** ; à défaut de source → `to-source`.
   - L261 : Un fait de niveau D jamais recoupé reste `to-source`.
+- `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` (1)
+  - L58 : (primauté du Principe, `to-source`, une page = un sujet, append-only, verdicts à
 - `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` (6)
   - L11 : >    `to-source` jusqu'à vérification sur texte. Note opérative : l'Akhḍarī couvre
   - L40 : Ce tableau est un **amorçage** : chaque ligne appelle sa fiche sourcée (`to-source`
@@ -375,6 +401,18 @@ links: []
   - L59 : - **Instruction du fiqh** : instruit les questions de droit traditionnel (quelle école, quelles sources, commentaires de position), output : ⚖️…
   - L93 : Acquisition = **condition de levée des marqueurs `to-source`** de l'ensemble du pôle.
   - L112 : - **to-source** : tous les faits du pôle demeurent marqués jusqu'à vérification sur texte malikite physique
+- `meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08` (2)
+  - L94 : | `to-source` (fait non vérifié) | `non-reproduit` (résultat obtenu une fois, jamais reproduit) |
+  - L95 : | Levée du `to-source` par vérification primaire humaine | Levée du `non-reproduit` par **reproduction indépendante** (autre session, autre mot…
+- `meta/transmissions/karubi-gabarit` (1)
+  - L99 : 2. **Aucune affirmation sans source** ; marqueur `to-source` sinon, levé uniquement
+- `meta/transmissions/karubi-jean-marc` (1)
+  - L161 : 2. **Aucune affirmation sans source** ; marqueur `to-source` sinon, levé uniquement
+- `meta/transmissions/karubi-mehdi` (2)
+  - L125 : aucune affirmation sans source, marqueur « to-source » tant que le texte
+  - L155 : 2. **Aucune affirmation sans source** ; marqueur `to-source` sinon, levé uniquement
+- `meta/transmissions/karubi-mikael` (1)
+  - L154 : 2. **Aucune affirmation sans source** ; marqueur `to-source` sinon — pour un
 
 ## VI. Liens morts et fiches orphelines
 
@@ -416,7 +454,7 @@ links: []
 - `meta/proposition-discernement` → `deviation-y`, `symbole/autorite-x`
 - `meta/protocole-archivage-claude-ai` → `meta/briefing-claude-ai`
 
-### Fiches sans lien entrant (77)
+### Fiches sans lien entrant (87)
 
 - `meta/2026-07-27_correctif-etendu-invariants-depot`
 - `meta/bibliotheque-physique`
@@ -474,6 +512,7 @@ links: []
 - `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03`
 - `meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07`
 - `meta/projet-unifie/14-compte-rendu-redeploiement-qwen-2026-07-08`
+- `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07`
 - `meta/projet-unifie/README`
 - `meta/projet-unifie/briefing-claude-ai`
 - `meta/projet-unifie/directive-discernement-domaines`
@@ -491,33 +530,44 @@ links: []
 - `meta/projet-unifie/hermes-prompts/11-fanzine-editor`
 - `meta/projet-unifie/hermes-prompts/12-commerce-profitability`
 - `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03`
+- `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes`
+- `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06`
 - `meta/projet-unifie/proposition-pole-fiqh-2026-07-06`
+- `meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08`
 - `meta/projet-unifie/triage-chatgpt-export`
 - `meta/proposition-discernement`
 - `meta/protocole-archivage-claude-ai`
+- `meta/transmissions/karubi-gabarit`
+- `meta/transmissions/karubi-habiba-nour`
+- `meta/transmissions/karubi-jean-marc`
+- `meta/transmissions/karubi-mehdi`
+- `meta/transmissions/karubi-mikael`
+- `meta/transmissions/registre-silsila`
 
 ## VII. Statistiques
 
 | circuit | fiches |
 |---|---|
-| `meta/` | 87 |
-| **total** | **87** |
+| `meta/` | 97 |
+| **total** | **97** |
 
 | type | n |
 |---|---|
-| `meta` | 41 |
+| `meta` | 44 |
 | `perso` | 24 |
 | `(absent)` | 16 |
+| `transmission` | 6 |
 | `correctif` | 1 |
 | `entity` | 1 |
 | `etude` | 1 |
 | `outillage` | 1 |
 | `projet` | 1 |
+| `proposition-structure` | 1 |
 | `source` | 1 |
 
 | status | n |
 |---|---|
-| `(absent)` | 79 |
+| `(absent)` | 89 |
 | `deprecated` | 5 |
 | `operationnel` | 2 |
 | `traditionnel` | 1 |

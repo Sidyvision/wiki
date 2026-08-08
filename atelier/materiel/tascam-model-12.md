@@ -3,9 +3,9 @@ title: "Tascam Model 12 — table/interface centrale"
 type: materiel
 tags: [audio, interface, tascam, mastering]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-08-08
 sources: ["[[chatgpt-export-2026-05-10]]"]
-links: ["[[atelier/projets/album-personnel]]", "[[atelier/materiel/neve-1073spx]]"]
+links: ["[[atelier/materiel/neve-1073spx]]"]
 ---
 
 # Tascam Model 12 — table/interface centrale
@@ -22,5 +22,4 @@ Table de mixage/enregistreur numérique avec interface audio USB, utilisée comm
 
 ## Liens
 
-- [[atelier/projets/album-personnel]] — projet dans lequel cet appareil est utilisé.
 - [[atelier/materiel/neve-1073spx]] — appareil inséré via cette table.

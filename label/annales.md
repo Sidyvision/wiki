@@ -1,7 +1,7 @@
 ---
 title: Annales du Circuit Label
 type: meta
-updated: 2026-07-05
+updated: 2026-08-08
 ---
 
 # Annales du Circuit Label
@@ -9,6 +9,36 @@ updated: 2026-07-05
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-08] arbitrage | album-personnel — tranché, intégration en `label/production/`
+
+**Arbitrage `rd/` vs `label/` tranché** (verdict Sidy) : l'album personnel relève
+de la **création artistique** — œuvre et production — et non du pôle R&D de
+l'atelier.
+
+**Opérations** :
+- Fiche canonique : `label/production/album-personnel.md` (Sceau Recteur §V.b :
+  `type: production`, `medium: musique`, `projet: label`, `statut: en-cours`) ;
+  contenu transféré à l'identique depuis `atelier/projets/`, note de gouvernance
+  ajoutée.
+- Stub `deprecated` conservé en `atelier/projets/` avec pointeur (Cmd 10 — jamais
+  de suppression sèche).
+- 4 liens entrants `atelier/materiel/*` → album coupés (étanchéité §VI : le
+  neutre ne pointe pas vers le plus sensible) ; les fiches materiel restent
+  référencées depuis la fiche label via `liens_atelier` (§V.b, sens licite).
+- Index mis à jour : `label/index.md` (§III Production, nouvelle sous-section
+  « Œuvre »), `atelier/index.md`, `atelier/rd/index.md`, arborescence §II et
+  journal CLAUDE.md.
+
+**Statut** : fiche `en-cours` ; sources `chatgpt-export-2026-05-10` (meta/,
+signalée lien mort au graphe par construction — exclusion meta/ du manifeste).
+
+**Vérification mécanique** : `verifier-invariants.py --racine /root/wiki` →
+**0 erreur(s), 0 avertissement(s)** ; `generer-cartographie.py --verifier` →
+6 anomalies bloquantes préexistantes (4 doctrinal/sources → v0_3, 2 frontmatter
+doctrinal/sources) — hors périmètre de cet arbitrage, registre à jour.
 
 ---
 

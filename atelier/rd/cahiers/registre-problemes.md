@@ -32,6 +32,32 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-08] resolu-partiel | 4 anomalies d'étanchéité `materiel → album-personnel` coupées
+
+- **Symptôme** : 4 des 10 anomalies bloquantes du graphe (entrée ci-dessous) :
+  `atelier/materiel/{neve-1073spx, studio-principal, tascam-model-12,
+  technics-su-8080}.md` (neutre, rang 0) → `atelier/projets/album-personnel.md`
+  (rang 1) — liens remontants, interdits (§VI).
+- **Diagnostic** : liens historiques hérités de la création des fiches materiel
+  (2026-06-20), antérieurs à la formalisation de l'étanchéité. Devenus sans
+  objet légal après le déplacement d'`album-personnel` vers `label/` (rang 2) :
+  le sens licite est label → materiel, porté par `liens_atelier` (§V.b) de la
+  fiche canonique.
+- **Résolution** : les 4 liens coupés le 2026-08-08 — frontmatter (`links`) et
+  corps de texte — lors de l'exécution du verdict d'arbitrage. Aucune fiche
+  supprimée ; l'information de contexte (« projet dans lequel cet appareil est
+  utilisé ») subsiste côté label.
+- **Compréhension tirée** : un arbitrage de circuit est l'occasion naturelle de
+  purger les violations d'étanchéité qui pointaient vers la fiche arbitrée —
+  le déplacement change le rang de la cible et rend caducs les liens entrants
+  du neutre.
+- **Liens** : entrée ci-dessous (10 anomalies) ; [[label/production/album-personnel]] ;
+  [[atelier/projets/album-personnel]] (stub) ; `CLAUDE.md` §VI.
+- **Statut** : `resolu` pour les 4 liens ; l'entrée « 10 anomalies » passe à
+  6 anomalies restantes (4 doctrinal → v0_3 + 2 frontmatter).
+
+---
+
 ## [2026-08-08] ouvert | `graphe-cartographie.json` jamais régénéré (bloqué par les anomalies du graphe)
 
 - **Symptôme** : `generer-cartographie.py` refuse d'écrire
@@ -77,8 +103,10 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
   et isolé un passif ancien. Le registre doit consigner les anomalies dès leur
   découverte, pas seulement celles qu'on introduit.
 - **Liens** : `Graphe/generer-cartographie.py` ; arbitrage `album-personnel.md`
-  (verdict Sidy attendu) ; `CLAUDE.md` §VI.
-- **Statut** : `ouvert`.
+  (verdict Sidy rendu le 2026-08-08 : `label/`) ; `CLAUDE.md` §VI.
+- **Statut** : `partiellement-resolu` — 4/10 levées le 2026-08-08 (liens
+  `materiel → album-personnel` coupés, voir entrée ci-dessus) ; restent
+  4 `étanchéité` doctrinal → v0_3 et 2 `frontmatter`.
 
 ---
 

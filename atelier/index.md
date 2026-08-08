@@ -101,11 +101,12 @@ Enregistrements, retranscriptions, dialogues avec praticiens.
 ## Projets & Expériences (résiduel)
 
 Le dossier `atelier/projets/` a été migré vers `rd/` le 2026-08-08 (ouverture du
-pôle R&D, verdict Sidy). Il ne contient plus que :
-- les **stubs `deprecated`** des 16 fiches migrées (chacun pointe vers sa fiche
-  canonique en `rd/` — Cmd 10, jamais de suppression sèche) ;
-- `album-personnel.md` — en attente d'arbitrage `rd/` vs `label/` (proposition §IV :
-  à trancher fiche par fiche, verdict Sidy requis).
+pôle R&D, verdict Sidy). Il ne contient plus que des **stubs `deprecated`** :
+- ceux des 16 fiches migrées (chacun pointe vers sa fiche canonique en `rd/` —
+  Cmd 10, jamais de suppression sèche) ;
+- celui d'`album-personnel.md`, déplacé le 2026-08-08 vers
+  [[label/production/album-personnel]] (verdict Sidy : l'album relève de la
+  création artistique — circuit `label/`, arbitrage `rd/` vs `label/` tranché).
 
 Les expériences nouvelles ont vocation à être consignées directement en `rd/`.
 

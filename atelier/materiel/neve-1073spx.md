@@ -3,9 +3,9 @@ title: "Neve 1073SPX — préampli/EQ analogique"
 type: materiel
 tags: [audio, preampli, neve]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-08-08
 sources: ["[[chatgpt-export-2026-05-10]]"]
-links: ["[[atelier/projets/album-personnel]]", "[[atelier/materiel/tascam-model-12]]"]
+links: ["[[atelier/materiel/tascam-model-12]]"]
 ---
 
 # Neve 1073SPX — préampli/EQ analogique
@@ -27,5 +27,4 @@ Face à une solution intégrée comme la Manley VoxBox (préampli tube + compres
 
 ## Liens
 
-- [[atelier/projets/album-personnel]] — projet dans lequel cet appareil est utilisé.
 - [[atelier/materiel/tascam-model-12]] — interface centrale à laquelle il est relié.

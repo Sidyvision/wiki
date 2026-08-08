@@ -48,8 +48,10 @@ la dispersion mentale.
 > effectuée fiche par fiche (§IV de la proposition) : 16 fiches migrées (slugs
 > conservés), anciennes fiches conservées en stubs `deprecated` avec pointeur
 > (Cmd 10), assets et scripts déplacés avec les fiches. §II mis à jour
-> (`projets/` désormais résiduel). `album-personnel.md` en attente d'arbitrage
-> `rd/` vs `label/`.
+> (`projets/` désormais résiduel). `album-personnel.md` déplacé le même jour
+> vers `label/production/` (verdict Sidy : relève de la création artistique,
+> non du pôle R&D) — stub `deprecated` conservé, liens entrants `materiel/`
+> coupés (§VI).
 >
 > *Note technique* : le nom de fichier `CLAUDE.md` est une convention lue par l'outil
 > d'intégration en ligne de commande ; il ne désigne pas un modèle particulier. Le
@@ -105,9 +107,9 @@ wiki/  (= /root/wiki)
 │   ├── materiel/          ← Manuels, fiches machines, fiches routing (RÉFÉRENCE)
 │   ├── entretiens/        ← Interviews de métier (RÉFÉRENCE)
 │   ├── etudes-de-cas/     ← études de maisons/marques/structures (RECHERCHE comparative)
-│   ├── projets/           ← Résiduel : stubs `deprecated` des 16 fiches migrées
-│   │                         vers rd/ (2026-08-08) + album-personnel.md (arbitrage
-│   │                         rd/ vs label/ en attente) ; ne plus y créer de fiches
+│   ├── projets/           ← Résiduel : stubs `deprecated` uniquement — 16 fiches
+│   │                         migrées vers rd/ + album-personnel (vers label/),
+│   │                         2026-08-08 ; ne plus y créer de fiches
 │   └── rd/                ← RECHERCHE & DÉVELOPPEMENT (pôle ouvert 2026-08-08) :
 │                             instrument/ · infrastructure/ · audio/ · outillage/ ·
 │                             cahiers/ — charte : rd/index.md ; finalité de

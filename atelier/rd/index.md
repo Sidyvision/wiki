@@ -87,8 +87,9 @@ dans le dépôt.
   pointeur (Cmd 10) ; assets (`assets-instrument/`), données
   (`instrument-donnees.yaml`, `wiki-manifest.json`), prototype et script
   `generer-manifeste.py` déplacés avec les fiches ; liens entrants repointés.
-  Reste en `projets/` : `album-personnel.md` (arbitrage `rd/` vs `label/`, §IV —
-  à trancher, verdict Sidy).
+  `album-personnel.md` resté en `projets/` a été déplacé le même jour vers
+  `label/production/` (verdict Sidy : création artistique, non R&D) — stub
+  `deprecated` avec pointeur, 4 liens entrants `materiel/` coupés (étanchéité).
 - **Non inclus dans la phase 1 partielle** (viennent ensuite) :
   la discipline de laboratoire complète (bloc 🧪 Expérience, règle de
   reproduction) — phase 2 ; l'agent de veille

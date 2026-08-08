@@ -12,6 +12,32 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-08] arbitrage | `album-personnel.md` déplacé vers `label/production/` (verdict Sidy)
+
+- **Verdict Sidy** : l'album personnel relève de la **création artistique**
+  (œuvre et production) — circuit `label/`, non le pôle R&D. Arbitrage
+  `rd/` vs `label/` (proposition §IV) tranché en faveur de `label/`.
+- **Déplacement** : `atelier/projets/album-personnel.md` →
+  `label/production/album-personnel.md` ; contenu transféré à l'identique,
+  Sceau Recteur §V.b appliqué (`type: production`, `medium: musique`,
+  `projet: label`, `statut: en-cours`), note de gouvernance ajoutée.
+- **Cmd 10 respecté** : stub `deprecated` avec pointeur conservé en `projets/`.
+- **4 liens entrants coupés** (étanchéité §VI) :
+  `materiel/{neve-1073spx, studio-principal, tascam-model-12, technics-su-8080}`
+  pointaient vers la fiche (neutre → plus sensible, interdit) ; frontmatter et
+  corps purgés, `updated` bumped. La référence légitime vit désormais côté
+  label (`liens_atelier`, §V.b, sens licite label → materiel).
+- **Index mis à jour** : `label/index.md` (§III, nouvelle sous-section
+  « Œuvre »), `atelier/index.md`, `rd/index.md`, `doctrinal/index.md` §VIII
+  (repointé), arborescence §II et journal CLAUDE.md.
+- **Registre des problèmes** : nouvelle entrée consignée ; entrée
+  « 10 anomalies » → `partiellement-resolu` (4/10 levées).
+- **Vérification mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  **0 erreur(s), 0 avertissement(s)** ; graphe → 6 anomalies préexistantes
+  hors périmètre (consignées au registre).
+
+---
+
 ## [2026-08-08] restauration | Ouverture du registre des problèmes du pôle `rd/` (phase 2 — discipline de laboratoire)
 
 - **Verdict Sidy** : mécanisme approuvé, avec amorçage rétroactif depuis la
