@@ -62,6 +62,8 @@ wirātha↔pôles (*Futūḥāt* ch. 36, réserve résiduelle).
 Ressources de fabrication, spécifications techniques, catalogues de matériaux.
 
 - `/atelier/materiel/` — fiches matériaux, spécifications, sourcing
+- [[atelier/materiel/studio-principal|Studio Principal]] — fiche-hub de l'espace
+  d'atelier audio, `to-source`
 
 ---
 

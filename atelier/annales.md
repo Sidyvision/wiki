@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-07-27
+updated: 2026-08-08
 ---
 
 # Annales de l'Atelier
@@ -11,6 +11,26 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 <!-- INSERTION: EN-TÊTE -->
 
 ---
+
+## [2026-08-08] archivage | Studio Principal — fiche-hub de l'espace d'atelier
+
+- **Créé** : `atelier/materiel/studio-principal.md` (depuis `_inbox/studio-principal.md`) —
+  fiche-hub de l'espace audio (trois pôles : synthèse/composition, enregistrement
+  analogique, monitoring). `sources: ["to-source"]`, plusieurs points marqués
+  incertains dans le corps (placement Yamaha H5, sync Tascam/Logic, configuration
+  rack, acoustique).
+- **Chevauchement traité** : deux appareils décrits dans la source
+  (Neve 1073SPX, Tascam Model 12) avaient déjà leur fiche propre, sourcée
+  (`chatgpt-export-2026-05-10`) — `atelier/materiel/neve-1073spx.md` et
+  `atelier/materiel/tascam-model-12.md`. Décision (Sidy) : fiche-hub sans
+  duplication — les deux fiches existantes sont référencées par wikilink et non
+  redécrites ; seuls les éléments nouveaux (Moog Voyager, Fender Rhodes, Revox A77,
+  micros, Yamaha H5, Distressor EL8x, chaîne de capture) sont documentés en propre.
+- **Deux fichiers déjà déposés à l'appui, non encore confrontés au texte** :
+  `raw/assets/studio-principal-vue-generale.jpeg`, `raw/assets/routing-schema.html`
+  — signalés en §« Sources à déposer » de la fiche.
+- **`atelier/index.md`** : ajout d'une entrée sous « Matériels & Techniques ».
+- `verifier-invariants.py --racine /root/wiki` : à exécuter avant commit.
 
 ## [2026-07-27] spec-anneau + instrument-donnees.yaml | Dédoublement 19/20, 7 prophètes planétaires
 
