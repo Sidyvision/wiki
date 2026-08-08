@@ -12,6 +12,36 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-08] restauration | Ouverture du pôle R&D `atelier/rd/` (verdict Sidy : Option C, phase 1 partielle)
+
+- **Verdict consigné** : « Option C, nom `rd/`, phase 1 partielle. Tout ce qui
+  en relève doit systématiquement y être consigné avec comme but l'entretien,
+  le développement qualitatif, l'optimisation à mesure de l'infrastructure
+  globale hardware/software, l'émancipation progressive de tout intermédiaire
+  de service tiers par souveraineté des moyens de production/déploiement/
+  information. Un des agents sera chargé de veiller à cette tâche spécifique. »
+  Cinq circuits, inchangés (pas de sixième circuit).
+- **Créé** : `atelier/rd/index.md` (charte du lieu, mission verbatim,
+  frontières, état de phase) ; arborescence `rd/{instrument,infrastructure,
+  audio,outillage,cahiers}/` (.gitkeep).
+- **Amendements CLAUDE.md** : note de révision (second amendement 2026-08-08) ;
+  §II arborescence atelier ; §V.a Sceau atelier étendu (types
+  `experience | infrastructure | outillage`, `statut_experience` optionnel,
+  `projets/` et `rd/` même régime de lien) ; §V.d `liens_atelier` élargi à
+  `atelier/etudes-de-cas/` et `atelier/rd/` ; §VI hiérarchie d'étanchéité
+  (rd/ hérite du régime de projets/, frontière meta/rd précisée) ; Cmd 9
+  (annales de l'atelier inscrites à la liste).
+- **Amendé** : `atelier/index.md` — régimes référence/recherche, section R&D,
+  destination de migration de `projets/` signalée.
+- **Déposé** : `meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08.md`
+  (proposition d'origine, brouillon, commitée avec l'opération qu'elle a fondée).
+- **Non inclus dans la phase 1 partielle** : migration de `atelier/projets/`
+  (fiche par fiche, Cmd 10), discipline de laboratoire (phase 2), agent de
+  veille infrastructure (phase 3, sur désignation de Sidy).
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s).` (exécuté avant le commit).
+- **Commit** : 3c1b3d8
+
 ## [2026-08-08] archivage | Studio Principal — fiche-hub de l'espace d'atelier
 
 - **Créé** : `atelier/materiel/studio-principal.md` (depuis `_inbox/studio-principal.md`) —
