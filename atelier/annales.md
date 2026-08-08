@@ -12,6 +12,27 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-08] restauration | Ouverture du registre des problèmes du pôle `rd/` (phase 2 — discipline de laboratoire)
+
+- **Verdict Sidy** : mécanisme approuvé, avec amorçage rétroactif depuis la
+  session de migration (3 entrées).
+- **Fichier créé** : `atelier/rd/cahiers/registre-problemes.md` — cahier
+  append-only, premier cahier ouvert du pôle ; format miroir du bloc 🧪
+  Expérience appliqué à l'erreur (Symptôme brut / Diagnostic / Résolution /
+  Compréhension tirée / Liens / Statut).
+- **Amorçage rétroactif (3 entrées)** :
+  1. `graphe-cartographie.json` jamais régénéré (bloqué par les anomalies du
+     graphe) — ouvert ;
+  2. 10 anomalies bloquantes du graphe (8 étanchéité + 2 frontmatter),
+     pré-existantes, vérifiées contre la baseline HEAD — ouvert ;
+  3. lien mort `manvantara → v0_2` (version inexistante), corrigé vers `v0.3`
+     lors de la migration — résolu.
+- **Index** : `rd/index.md` mis à jour (le registre entre dans l'arborescence).
+- **Rien d'autre** : pas de modification de CLAUDE.md (Sceau et type `meta`
+  suffisent), aucun nouveau circuit, aucune règle de lien nouvelle.
+
+---
+
 ## [2026-08-08] migration | `atelier/projets/` → `rd/` — 16 fiches migrées (proposition §IV exécutée)
 
 - **Opération** : migration fiche par fiche du dossier `projets/` vers le pôle

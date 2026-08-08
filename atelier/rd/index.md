@@ -42,7 +42,8 @@ atelier/rd/
 ├── audio/             ← ingénierie son GÉNÉRIQUE (bancs d'essai, chaînes, mesures) ;
 │                         l'ingénierie PAR MORCEAU reste au label
 ├── outillage/         ← scripts, leur documentation, leurs bancs de test
-└── cahiers/           ← cahiers d'expérience, append-only (ouverts en phase 2)
+└── cahiers/           ← cahiers append-only : registre-problemes.md (ouvert
+                          2026-08-08), cahiers d'expérience à venir (phase 2)
 ```
 
 ## Régime des deux sous-régimes de l'atelier
@@ -81,6 +82,12 @@ dans le dépôt.
   Reste en `projets/` : `album-personnel.md` (arbitrage `rd/` vs `label/`, §IV —
   à trancher, verdict Sidy).
 - **Non inclus dans la phase 1 partielle** (viennent ensuite) :
-  la discipline de laboratoire (bloc 🧪 Expérience, cahiers
-  d'expérience, règle de reproduction) — phase 2 ; l'agent de veille
+  la discipline de laboratoire complète (bloc 🧪 Expérience, règle de
+  reproduction) — phase 2 ; l'agent de veille
   infrastructure (phase 3, sur désignation de Sidy).
+- **Registre des problèmes ouvert le 2026-08-08** (verdict Sidy, premier cahier
+  concret de la phase 2) : `cahiers/registre-problemes.md` — append-only, format
+  Symptôme brut / Diagnostic / Résolution / Compréhension tirée / Liens / Statut ;
+  amorcé rétroactivement avec 3 entrées de la session de migration. Tout problème,
+  erreur ou blocage rencontré dans les travaux du pôle doit y être consigné ; un
+  échec se consigne comme un succès (règle 3 du laboratoire).
