@@ -119,3 +119,9 @@ Hash inchangé (zones scellées non touchées, §4/§10 sont hors sceau).
 `version: 2`. **En attente : remise à Mehdi — événement `remise` séparé à
 journaliser ensuite, pas maintenant** (fichier laissé en `_inbox/` dans
 l'intervalle).
+
+## [2026-08-09] remise | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+Instance v2 rendue à Mehdi (confirmation Sidy). Fichier retiré du sas
+`_inbox/` — le cycle repart en navette : prochain retour attendu au gré de
+Mehdi, avec ses ajouts en §8/§9 (récit de la rencontre encore attendu,
+retour éventuel sur le chantier Mother Base/DHV Magellan).
