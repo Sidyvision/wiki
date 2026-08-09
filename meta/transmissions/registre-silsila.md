@@ -2,7 +2,7 @@
 title: "Registre Silsila — dispositif Karubi (domaine reserve, meta/transmissions/)"
 type: transmission
 created: 2026-07-20
-updated: 2026-08-08
+updated: 2026-08-09
 ---
 
 # Registre Silsila — Karūbī
@@ -103,3 +103,19 @@ présentiel entre Mehdi et Sidy) ; §9 Questions pour Sidy, trois questions
 ouvertes datées du 2026-08-07 (nature du « jeu », base technique à reprendre
 ou refondre, modalités de connexion). En attente : réponses de Sidy en §10,
 actualisation éventuelle du §4, puis rescellement (v2) et nouvelle remise.
+
+## [2026-08-09] rescellement | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+Réponses de Sidy consignées en §10 aux trois questions du 2026-08-07 :
+chantier Mother Base/DHV Magellan confirmé (interface représentant
+l'infrastructure du dépôt, carte s'étendant avec l'avancement de
+l'Instrument et du corpus), on enrichit l'Instrument existant plutôt que de
+repartir de zéro, suivi conjoint par partage des mêmes conventions
+(sashimono, fiche discernement, Sceaux) — accès serveur proposé à Mehdi,
+modalités à préciser en direct. §4 actualisé dans son ensemble sur l'état
+structurel réel du dépôt (cinq circuits, pôle R&D ouvert le 2026-08-08,
+circuit herméneutique ouvert le 2026-08-04, hub meta-index/meta-annales) —
+la version tenue par Mehdi datait du 2026-07-20 et ne les mentionnait pas.
+Hash inchangé (zones scellées non touchées, §4/§10 sont hors sceau).
+`version: 2`. **En attente : remise à Mehdi — événement `remise` séparé à
+journaliser ensuite, pas maintenant** (fichier laissé en `_inbox/` dans
+l'intervalle).
