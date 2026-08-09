@@ -15,6 +15,24 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 ---
 
+## [2026-08-09] archivage | intégration de l'image du thème natal depuis le sas
+
+- **Constat** : `_inbox/image.jpeg` (carte natale Astrodienst, déposée par
+  Sidy le 2026-08-08) était déjà **citée** comme source par deux fiches
+  (`meta/personnel/2026-06-20_theme-astrologique.md`,
+  `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08.md`)
+  sans jamais avoir quitté le sas — intégration restée incomplète.
+- **Action** : fichier déplacé vers son domicile naturel
+  `raw/assets/theme-natal-sidy-astrodienst-2026-08-08.jpeg` (§II) ; les deux
+  références corrigées vers ce chemin ; `updated:` remonté à 2026-08-09 sur
+  les deux fiches.
+- **Sas** : `_inbox/` ne contient plus désormais que `karubi-mehdi.md`
+  (cycle Karūbī ouvert, préservé intentionnellement — voir
+  `meta/transmissions/registre-silsila.md`).
+- **Commit** : (à inscrire après commit)
+
+---
+
 ## [2026-08-09] tranché | signalement `doctrinal/ → meta/personnel/` (sens interdit) résolu
 
 - **Rappel** : entrée précédente signalait 4 fiches `meta/personnel/`

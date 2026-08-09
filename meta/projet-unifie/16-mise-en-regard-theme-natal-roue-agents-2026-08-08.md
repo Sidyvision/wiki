@@ -3,7 +3,7 @@ title: "Mise en regard du thème natal vérifié avec la roue zodiacale des agen
 type: meta
 tags: [zodiaque, agents, label, astrologie, discernement, harmonisation, en-cours]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-09
 sources:
   - "[[doctrinal/symboles/ilm-al-nujum]]"
   - "[[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]]"
@@ -151,7 +151,8 @@ Chantier proposé (à verdict avant toute modification des prompts) :
 ## VI. Sources et méthode
 
 - Références premières : fiches doctrinales citées en §I (statuts établi/validé).
-- Thème vérifié : `_inbox/image.jpeg` (Astrodienst) + calcul indépendant Swiss
+- Thème vérifié : `raw/assets/theme-natal-sidy-astrodienst-2026-08-08.jpeg`
+  (Astrodienst) + calcul indépendant Swiss
   Ephemeris (concordance à la minute d'arc pour Mars 21°46 Capricorne) — moyens de
   vérification seulement, non références.
 - Conversations ChatGPT : `raw/ChatGPT historique`, conversations « Analyse thème

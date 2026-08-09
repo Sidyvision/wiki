@@ -3,7 +3,7 @@ title: "Thème astrologique personnel (astrologie occidentale)"
 type: perso
 tags: [astrologie, profil-personnel]
 created: 2026-06-20
-updated: 2026-08-08
+updated: 2026-08-09
 sources: ["[[chatgpt-export-2026-05-10]]"]
 links: ["[[doctrinal/symboles/ilm-al-nujum]]", "[[meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08]]"]
 ---
@@ -20,7 +20,8 @@ links: ["[[doctrinal/symboles/ilm-al-nujum]]", "[[meta/projet-unifie/16-mise-en-
 Les placements rapportés le 2026-06-20 (Lune Verseau, Mercure Lion, Vénus Taureau,
 Mars Vierge, Saturne Bélier, Jupiter Vierge) provenaient de la conversation ChatGPT
 de 2025 et se sont révélés **erronés** : ils ne concordent ni avec la carte natale
-Astrodienst fournie par Sidy le 2026-08-08 (`_inbox/image.jpeg`), ni avec un calcul
+Astrodienst fournie par Sidy le 2026-08-08
+(`raw/assets/theme-natal-sidy-astrodienst-2026-08-08.jpeg`), ni avec un calcul
 indépendant par éphémérides (Swiss Ephemeris). Les positions vérifiées, concordantes
 entre les deux sources à la minute d'arc près, sont :
 
