@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-09
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,30 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-09] resolu | Contenu du sas `_inbox/` poussé par erreur sur le dépôt
+
+- **Symptôme** : le commit `d73cdb6` (intégration de la fiche synchro
+  Obsidian) contient les fichiers `_inbox/karubi-mehdi.md` et
+  `_inbox/image.jpeg`, ajoutés par un `git add -A` trop large.
+- **Diagnostic** : faute d'opérateur — le sas `_inbox/` est par définition
+  non versionné tant que l'intégration n'a pas eu lieu (cf. entrée
+  [2026-08-09] ci-dessous, vault désynchronisé : « laissé non versionné — ne
+  doit pas partir sur le dépôt sans passage par le circuit d'intégration »).
+  `git add -A` à la racine ramasse tout, sas compris.
+- **Résolution** : commit correctif immédiat `87ca442`
+  (`git rm --cached` sur les deux fichiers + push). Les fichiers ne sont plus
+  suivis ; l'historique du remote conserve toutefois le blob du commit fautif
+  (dépôt privé — pas de réécriture d'historique sans verdict Sidy).
+- **Compréhension tirée** : dans ce dépôt, ne jamais committer par
+  `git add -A` depuis la racine ; ajouter nommément les fichiers intégrés
+  (ou utiliser `git add -A -- <chemins>` hors `_inbox/`). Le sas est
+  intouchable par Git tant que l'intégration n'est pas faite.
+- **Liens** : commits `d73cdb6`, `87ca442` ; entrée ci-dessous
+  (vault désynchronisé).
+- **Statut** : `resolu`.
 
 ---
 
