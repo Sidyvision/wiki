@@ -37,6 +37,11 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 - **Détail complet** : voir `atelier/rd/cahiers/registre-problemes.md`,
   entrée `[2026-08-09] resolu | Tranché — signalement doctrinal/ →
   meta/personnel/`.
+- **Commit** : fc0e1c6
+
+---
+
+## [2026-08-09] ouverture | création du hub `meta-index.md` / `meta-annales.md`
 
 - **Constat** : le comptage mécanique des liens entrants (`carte-du-depot.py`,
   bug de résolution corrigé le même jour) faisait apparaître 80 fiches sans
@@ -65,3 +70,4 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 - **14 fiches restant orphelines hors `meta/`** (13 stubs `deprecated` de
   `atelier/projets/` + `doctrinal/discernement/_template.md`) : acceptées par
   conception, non traitées par lien artificiel — voir registre.
+- **Commit** : fc0e1c6
