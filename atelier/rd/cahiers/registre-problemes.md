@@ -32,6 +32,89 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-09] resolu | Écriture directe hors protocole dans `doctrinal/` par un agent Hermes en session terminal
+
+- **Symptôme** : au contrôle `verifier-invariants.py` déclenché lors de
+  l'intégration d'un lot du sas (`_inbox/amendement-claude-md-2026-08-09.md`
+  + `_inbox/2026-08-09_hierarchie-principe-determination-individuelle.md`),
+  un fichier tiers est apparu dans la liste d'erreurs bloquantes :
+  `doctrinal/discernement/compte-rendu-12-agents-2026-08-09.md`. Ce fichier
+  n'était mentionné dans aucune consigne reçue, ne figurait dans aucun
+  `UPDATES.md`, et n'était **pas suivi par git** (`git status` : `??`).
+  Son propre texte s'auto-décrivait comme « rédigé... session terminal » par
+  « Hermes Agent », daté du même jour.
+- **Diagnostic** : le fichier est un **compte rendu opérationnel** destiné à
+  un avis extérieur (état de l'infrastructure des 12 agents Discord,
+  chronologie de la calibration zodiacale, points ouverts soumis à avis) —
+  pas une fiche de discernement (aucun statut de vérité traditionnelle en
+  jeu, pas de bloc 🔍 normalisé). Son frontmatter ne portait que
+  `title/date/auteur/objet`, aucune des clés du Sceau Recteur doctrinal
+  (`type`, `status`, `tradition_cadre`, `created`, `updated`, `sources`) —
+  `verifier-invariants.py` l'a signalé par ricochet (contrôle B1, clés
+  manquantes), ce qui a permis de le repérer, mais le contrôle B1 n'est pas
+  ce qui aurait dû l'empêcher d'exister à cet endroit : l'écriture même,
+  directe dans un circuit, sans passer par `_inbox/` ni présenter de plan,
+  est la faute — violation du **Cmd 6** (« pas d'écriture sans plan
+  validé ») et de la chaîne d'intégration du **§I** (« l'intégration
+  travaille à partir des fichiers du sas `_inbox/` »). Le fait que ce soit
+  un agent Hermes — motorisé par un modèle distinct, opérant hors de cette
+  session — qui ait produit l'écriture ne change rien à l'exigence : le
+  protocole `CLAUDE.md` est **agnostique au moteur** (§I, Cmd 14), la règle
+  vaut identiquement pour tout exécutant.
+- **Résolution** : signalé à Sidy (Cmd 7, jamais corrigé d'office) ; verdict
+  reçu : déplacer le fichier vers son domicile naturel hors circuit
+  doctrinal — [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]],
+  avec Sceau `meta` conforme (`type: meta`) et note de provenance en tête,
+  contenu intact. Fichier d'origine supprimé (jamais tracké git, aucune
+  perte d'historique — Cmd 10 non engagé, rien n'était versionné). Journalisé
+  dans `doctrinal/annales.md` et `meta/meta-annales.md` le même jour.
+- **Compréhension tirée** (valeur pour le pôle R&D et pour tout agent,
+  Hermes compris — c'est l'objet même de cette entrée) :
+  1. **Le sas n'est pas une formalité de transport, c'est le seul point
+     d'entrée légitime dans un circuit.** Un agent qui a un accès
+     filesystem direct au dépôt (ce qui est le cas de tout agent Hermes
+     tournant sur le même serveur) peut techniquement écrire n'importe où —
+     rien au niveau OS ne l'en empêche. La discipline `raw/` → analyse →
+     `_inbox/` → validation humaine → intégration (§I, §VIII.9) n'est pas
+     une contrainte technique, c'est une **contrainte de protocole** que
+     chaque agent doit s'imposer lui-même, quel que soit son moteur.
+  2. **Produire un artefact utile n'excuse pas de le déposer au mauvais
+     endroit.** Le contenu du compte rendu était de bonne facture, factuel,
+     avec sources et distinction établi/spéculatif — le problème n'était pas
+     la qualité, c'était l'emplacement et l'absence de porte humaine avant
+     l'écriture. Un bon contenu au mauvais endroit reste une violation.
+  3. **`verifier-invariants.py` n'a détecté cet incident que par ricochet**
+     (frontmatter incomplet, contrôle B1) — pas par un contrôle dédié à
+     « fichier non tracké dans un circuit ». Piste d'amélioration pour le
+     pôle R&D, non implémentée à ce stade : un contrôle qui croise
+     `git status --porcelain` avec l'arborescence des cinq circuits, pour
+     signaler spécifiquement tout fichier `??` (non suivi) présent dans
+     `doctrinal/`, `atelier/`, `label/`, ou `hermeneutique/` — hors `_inbox/`
+     et `raw/assets/`, qui sont délibérément non versionnés. Ce contrôle
+     aurait nommé l'anomalie exactement pour ce qu'elle était, au lieu de la
+     révéler indirectement par une clé de frontmatter manquante.
+  4. **Pour Hermes et tout agent de fonction (§I, tableau « AGENTS DE
+     FONCTION ») : une session d'agent qui produit un livrable destiné au
+     dépôt doit le déposer en `_inbox/` (ou signaler son emplacement via le
+     canal prévu), jamais l'écrire directement dans un circuit** — même
+     lorsque la session tourne sur le même serveur que le dépôt, même
+     lorsque rien ne bloque techniquement l'écriture directe. La règle
+     §VIII.1 (« jamais d'auto-accept ») et Cmd 6 s'appliquent à l'identique
+     à un agent Hermes qu'à une session d'intégration : la seule différence
+     légitime entre les deux est la fonction assignée, jamais le niveau de
+     rigueur du protocole.
+- **Liens** : `CLAUDE.md` §I (postes de travail, chaîne `_inbox/`), Cmd 6,
+  Cmd 14 (agnosticisme du moteur) ; `doctrinal/annales.md` [2026-08-09]
+  (entrée d'intégration où l'incident a été découvert et journalisé) ;
+  `meta/meta-annales.md` [2026-08-09] (reclassement) ;
+  [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]]
+  (fichier reclassé, note de provenance en tête) ; commit `d16189b`.
+- **Statut** : `resolu` — fichier reclassé, incident journalisé pour valeur
+  pédagogique transversale à tout agent du dépôt. La piste d'amélioration du
+  point 3 reste `reporte`, en attente d'arbitrage Sidy sur l'implémentation.
+
+---
+
 ## [2026-08-09] reporte | Angle mort structurel de `verifier-invariants.py` — le contrôle C3 d'étanchéité n'existe pas pour les fichiers `annales.md`/`index.md`
 
 - **Symptôme** : en tranchant le signalement `doctrinal/ → meta/personnel/`
