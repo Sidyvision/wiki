@@ -1,7 +1,7 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-04
+updated: 2026-08-09
 ---
 
 # Annales du Secrétariat Doctrinal
@@ -9,7 +9,14 @@ updated: 2026-08-04
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
-## [2026-08-04] ingest | Khatm — page orthodoxe des Sceaux et enrichissement du discernement sayyid al-awwalîn
+## [2026-08-09] ingest | Intégration du sas — amendement CLAUDE.md et discernement hiérarchie principe/individuel
+
+- **Opération** : ARCHIVAGE & MAILLAGE, depuis `_inbox/` (`amendement-claude-md-2026-08-09.md` + `2026-08-09_hierarchie-principe-determination-individuelle.md`).
+- **Créé** : [[doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle]], `status: speculatif` — reformatée au gabarit normalisé du §VII (le fichier du sas suivait une structure libre). Établit que le joint entre un principe zodiacal et sa détermination individuelle dans le thème natal de Sidy est de portance *zōsaku* (sashimono §VII) ; conséquence opératoire pour les prompts d'agents Hermes (trois éléments obligatoires : principe seul, coloration individuelle, clause négative). `to-source` sur la parenté conceptuelle universel/individuel évoquée en Généalogie.
+- **`CLAUDE.md`** : trois insertions appliquées telles que rédigées dans le fichier du sas — entrée de changelog (tête de fichier), corollaire agentique au §VI (l'étanchéité `meta/` ne s'applique plus telle quelle à la couche agentique Hermes, contrepartie non-négociable : hiérarchie ontologique explicite dans tout prompt portant une donnée personnelle), cross-référence en fin de §VIII.
+- **Écart corrigé au contrôle** : la fiche telle que rédigée dans le sas liait `doctrinal → meta/personnel/...` (sens interdit, §VI) — corrigé avant intégration (référence reformulée sans lien).
+- **Fichier orphelin constaté** : `doctrinal/discernement/compte-rendu-12-agents-2026-08-09.md`, non tracké git, jamais passé par `_inbox/`, frontmatter incomplet — écrit directement dans le circuit doctrinal par un agent Hermes en session terminal, hors protocole. Signalé à Sidy, déplacé (verdict Sidy) vers [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]] avec Sceau `meta` conforme, contenu intact.
+- **Vérification** : `verifier-invariants.py` — 0 erreur, 0 avertissement après correction.
 
 - **Opération** : ARCHIVAGE & MAILLAGE + EXAMEN DE DISCERNEMENT (enrichissement, non clôture).
 - **Créé** : [[doctrinal/symboles/khatm]] — cible manquante signalée le 2026-07-14, ouverte sur demande de Sidy. Distingue quatre notions : Khātim al-Nubuwwa (Muhammad), Khatm al-Wilāya al-ʿĀmma (ʿĪsā), Khatm al-Wilāya al-Muḥammadiyya (Ibn ʿArabī), et la Quṭbiyya al-Kubrā qui n'est pas un Sceau (Jurjānī 1281 : « Le Pôle n'est pas le Sceau de la Sainteté »).

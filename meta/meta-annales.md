@@ -15,6 +15,26 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 ---
 
+## [2026-08-09] archivage | reclassement du compte rendu 12-agents hors circuit doctrinal
+
+- **Constat** : au contrôle `verifier-invariants.py` déclenché par l'intégration du
+  sas (voir `doctrinal/annales.md`), un fichier
+  `doctrinal/discernement/compte-rendu-12-agents-2026-08-09.md` a été trouvé sur le
+  disque — non tracké git, jamais passé par `_inbox/`, frontmatter incomplet.
+  Écrit directement dans le circuit doctrinal par un agent Hermes en session
+  terminal, hors protocole (Cmd 6 : pas d'écriture sans plan validé).
+- **Nature réelle** : un compte rendu opérationnel destiné à un avis extérieur (état
+  de l'infrastructure des 12 agents, chronologie de la calibration zodiacale,
+  points ouverts), non une fiche de discernement — pas de statut de vérité
+  traditionnelle en jeu.
+- **Action** (verdict Sidy) : déplacé vers
+  [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]],
+  Sceau `meta` conforme (`type: meta`), contenu intact, note de provenance ajoutée
+  en tête. Fichier d'origine supprimé (jamais tracké git, aucune perte d'historique).
+- **Commit** : à consigner après commit.
+
+---
+
 ## [2026-08-09] archivage | intégration de l'image du thème natal depuis le sas
 
 - **Constat** : `_inbox/image.jpeg` (carte natale Astrodienst, déposée par

@@ -96,6 +96,7 @@ updated: 2026-08-09
 - [[meta/projet-unifie/14-compte-rendu-redeploiement-qwen-2026-07-08|Compte-rendu — re-déploiement Qwen3.6-27B-FP8]]
 - [[meta/projet-unifie/15-architecture-discord-hermes-2026-08-07|Architecture Discord des 12 agents Hermes]]
 - [[meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08|Mise en regard du thème natal et de la roue zodiacale des agents]]
+- [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09|Compte rendu — chantier des 12 agents Hermes et calibration zodiacale]]
 - [[meta/projet-unifie/briefing-claude-ai|Briefing Claude.ai — Projet Wiki & Label]]
 - [[meta/projet-unifie/chatgpt-export-2026-05-10|Export de données ChatGPT (2026-05-10)]]
 - [[meta/projet-unifie/directive-discernement-domaines|Directive de discernement des domaines (forme / principe)]]

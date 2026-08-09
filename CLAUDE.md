@@ -44,6 +44,17 @@ la dispersion mentale.
 > l'émancipation progressive de tout intermédiaire de service tiers. Sceau
 > atelier étendu (§V.a), régime de liens de `projets/` hérité par `rd/` (§VI),
 > `liens_atelier` élargi (§V.d), annales de l'atelier inscrites au Cmd 9.
+> **Révisé le 2026-08-09** : ouverture d'un régime propre à la **couche agentique
+> opérative** (Hermes) au sein du Domaine Réservé — §VI, corollaire agentique.
+> L'étanchéité `meta/` continue de régir les cinq circuits du dépôt à l'identique ;
+> elle ne s'applique plus telle quelle aux agents Hermes, dont la fonction inclut
+> par construction l'usage du contexte personnel de Sidy. Contrepartie
+> non-négociable : toute donnée personnelle injectée dans un prompt d'agent porte
+> sa propre hiérarchie ontologique explicite (clause `## Ontological order`), pour
+> distinguer le principe (précédant, structurant) de la détermination individuelle
+> (contingente, ne portant rien — *zōsaku*, §VII). Point de méthode, non de
+> doctrine : ne rouvre aucune correspondance déjà tranchée. Voir fiche
+> `doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle.md`.
 > **Le 2026-08-08 (exécution)** : migration de `atelier/projets/` vers `rd/`
 > effectuée fiche par fiche (§IV de la proposition) : 16 fiches migrées (slugs
 > conservés), anciennes fiches conservées en stubs `deprecated` avec pointeur
@@ -507,6 +518,42 @@ de la bibliothèque physique.
   `meta-annales.md` suit la même discipline append-only que les annales de
   circuit (Cmd 9, marqueur `<!-- INSERTION: EN-TÊTE -->`).
 
+**Corollaire agentique (2026-08-09).** L'étanchéité ci-dessus régit les **circuits
+du dépôt** (doctrinal, atelier, hermeneutique, label) : elle continue d'interdire
+qu'un fait personnel migre dans une fiche neutre, et qu'un motif privé s'y
+substitue à une conséquence de design déclarée — rien de cela ne change. Elle **ne
+s'applique pas telle quelle à la couche agentique** (Hermes, §I, §VIII) : la
+fonction de ces agents est précisément de servir Sidy dans le concret d'un
+quotidien difficile, ce qui suppose l'usage de son contexte personnel — l'en
+isoler par principe le priverait de sa raison d'être. Ce point a été assumé
+explicitement par Sidy (verdict Cmd 12, 2026-08-09) : la confrontation entre
+l'outil en développement et le protocole existant, y compris `CLAUDE.md`
+lui-même, fait partie de la méthode et non de sa violation.
+
+Contrepartie non-négociable, pour que cette ouverture ne devienne pas un canal de
+contamination doctrinale par un autre chemin :
+
+1. Toute donnée personnelle (thème natal, situation, préférence) injectée dans un
+   prompt d'agent porte sa hiérarchie ontologique **en clair, dans le texte du
+   prompt** — pas seulement dans l'intention de celui qui l'a rédigé. Le principe
+   invoqué **précède et structure** le rôle ; la détermination individuelle de
+   Sidy le **colore sans le redéfinir** et n'engage personne d'autre.
+   Qualification *zōsaku* explicite (§VII) — une extrémité du joint est
+   contingente et ne porte rien — jamais une mention à plat qui laisserait le
+   principe et l'individuel de rang égal.
+2. La donnée personnelle reste **lue en session par l'agent** ; elle n'est
+   **jamais versée** dans une fiche `doctrinal/`, `label/` ou `hermeneutique/` —
+   l'étanchéité de ces trois circuits reste pleine et entière.
+3. §VIII.5 (aucun secret du dépôt sur machine d'inférence tierce) s'apprécie **au
+   cas par cas** pour toute donnée personnelle selon le moteur qui la reçoit —
+   signalé à chaque nouvel usage, jamais tranché une fois pour toutes.
+4. Le registre **spirituel** reste hors champ de ce corollaire et hors champ des
+   agents en général (Cmd 2, distinction psychique/spirituel) : un agent
+   documente et organise le contexte personnel, il n'interprète ni ne conseille
+   sur ce plan — la note Fard/Afrad (`04-sessions-par-fonction-et-backlogs.md`)
+   rappelle que ce registre relève d'une autorité spirituelle vivante, non d'un
+   modèle.
+
 -----
 
 ## VII. Protocoles d'Exécution
@@ -786,6 +833,10 @@ prudentes pour tous :
     phase de **double exécution comparée** (ancien ∥ nouveau sur les mêmes lots, verdict
     au `compare`) avant retrait de l'ancien. Chaque phase d'infrastructure est
     indépendamment réversible.
+
+**Cf. aussi** §VI, corollaire agentique (2026-08-09) : régime propre à l'usage du
+contexte personnel de Sidy dans les prompts d'agents — hiérarchie ontologique
+explicite obligatoire, étanchéité des circuits du dépôt inchangée.
 
 -----
 
