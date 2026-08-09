@@ -593,7 +593,13 @@ def rendre_liens(fiches):
             elif c in par_nom and len(par_nom[c]) == 1:
                 entrants[par_nom[c][0]] += 1  # lien par nom court, résolvable
             else:
-                morts[f["slug"]].append(c)
+                # préfixe de répertoire partiel/obsolète : repli sur le nom de
+                # fichier final, résolvable si un seul candidat correspond
+                base = c.rsplit("/", 1)[-1]
+                if base in par_nom and len(par_nom[base]) == 1:
+                    entrants[par_nom[base][0]] += 1
+                else:
+                    morts[f["slug"]].append(c)
 
     if morts:
         out.append("### Liens non résolus\n")
@@ -608,7 +614,8 @@ def rendre_liens(fiches):
 
     orphelines = sorted(s for s in connus
                         if entrants[s] == 0 and not s.endswith("/index")
-                        and not s.endswith("/annales"))
+                        and not s.endswith("/annales")
+                        and s not in ("meta/meta-index", "meta/meta-annales"))
     out.append("### Fiches sans lien entrant (%d)\n" % len(orphelines))
     if orphelines:
         for s in orphelines:

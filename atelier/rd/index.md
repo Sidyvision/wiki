@@ -63,7 +63,7 @@ atelier/rd/
 | Matière | Destination |
 |---|---|
 | Specs, itérations, notes d'impact de l'Instrument | `rd/instrument/` (migration de `projets/`) |
-| Architecture générique du serveur et des agents, bancs, mesures | `rd/infrastructure/` |
+| Architecture générique du serveur et des agents, bancs, mesures | `rd/infrastructure/` (ex. [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]]) |
 | Motifs des décisions, credentials, prompts d'agents | **reste en `meta/projet-unifie/`** (sensible — §VI) |
 | Ingénierie d'une œuvre, par morceau | **reste au label** (`label/musique/ingenierie/`) |
 | Expression créative : œuvre, écriture, direction artistique | **label** (direction-artistique / production) — jamais `rd/` |
@@ -95,7 +95,7 @@ dans le dépôt.
   reproduction) — phase 2 ; l'agent de veille
   infrastructure (phase 3, sur désignation de Sidy).
 - **Registre des problèmes ouvert le 2026-08-08** (verdict Sidy, premier cahier
-  concret de la phase 2) : `cahiers/registre-problemes.md` — append-only, format
+  concret de la phase 2) : [[atelier/rd/cahiers/registre-problemes]] — append-only, format
   Symptôme brut / Diagnostic / Résolution / Compréhension tirée / Liens / Statut ;
   amorcé rétroactivement avec 3 entrées de la session de migration. Tout problème,
   erreur ou blocage rencontré dans les travaux du pôle doit y être consigné ; un

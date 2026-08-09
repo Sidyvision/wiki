@@ -30,7 +30,9 @@ from datetime import date
 # --------------------------------------------------------------------------
 
 # Fichiers d'annales connus (chronologique inverse strict, append-only).
-NOMS_ANNALES = {"annales.md"}
+# `meta-annales.md` : journal propre au Domaine Réservé meta/ (ouvert 2026-08-09,
+# nom préfixé pour ne jamais se confondre avec les annales.md des circuits).
+NOMS_ANNALES = {"annales.md", "meta-annales.md"}
 
 # Circuits et leurs racines relatives.
 CIRCUITS = ["doctrinal", "atelier", "label", "meta"]
@@ -52,7 +54,8 @@ PREFIXES_SANS_FM = (
 
 # Fichiers dont les liens sortants ne sont PAS soumis au contrôle C3 d'étanchéité
 # (les annales peuvent citer d'autres circuits pour situer les passes).
-FICHIERS_EXEMPTS_C3 = NOMS_ANNALES | {"index.md"}
+# `meta-index.md` : hub propre au Domaine Réservé meta/ (ouvert 2026-08-09).
+FICHIERS_EXEMPTS_C3 = NOMS_ANNALES | {"index.md", "meta-index.md"}
 
 # Patterns de liens considérés comme placeholders/exemples — ignorés en C1.
 RE_LIEN_PLACEHOLDER = re.compile(
@@ -275,7 +278,7 @@ def controler_frontmatter(chemin_rel, fm, rap):
     # Les fichiers de service (annales, index) sont `type: meta` quel que soit
     # leur circuit : ils ne relèvent pas du Sceau Recteur doctrinal.
     fichier_de_service = (os.path.basename(chemin_rel) in NOMS_ANNALES
-                          or os.path.basename(chemin_rel) == "index.md"
+                          or os.path.basename(chemin_rel) in ("index.md", "meta-index.md")
                           or str(fm.get("type", "")).strip() == "meta")
     if circ and not fichier_de_service:
         for cle in CLES_REQUISES.get(circ, []):

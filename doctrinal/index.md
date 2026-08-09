@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-07-16
+updated: 2026-08-09
 ---
 
 # Le Catalogue Universel
@@ -327,6 +327,5 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ## IX. Domaine Réservé (hors corps doctrinal — `meta/`)
 
-*Fiches à mentions personnelles (transmission, profil). Maintenues hors de `doctrinal/` par étanchéité.*
-
-- [[meta/sidy|Profil : Sidy]]
+*Fiches à mentions personnelles (transmission, profil). Maintenues hors de `doctrinal/` par
+étanchéité — hub propre au domaine : [[meta/meta-index|meta-index]].*

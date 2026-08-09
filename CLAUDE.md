@@ -52,6 +52,16 @@ la dispersion mentale.
 > vers `label/production/` (verdict Sidy : relève de la création artistique,
 > non du pôle R&D) — stub `deprecated` conservé, liens entrants `materiel/`
 > coupés (§VI).
+> **Révisé le 2026-08-09** : ouverture du hub propre à `meta/` —
+> `meta/meta-index.md` et `meta/meta-annales.md` (verdict Sidy : nommage
+> préfixé `meta-` pour écarter tout risque de lecture comme sixième circuit ;
+> `meta/` reste le Domaine Réservé, non un circuit). Motif : le comptage
+> mécanique des liens entrants (`carte-du-depot.py`, bug de résolution
+> corrigé le même jour) faisait apparaître 66 fiches de `meta/`
+> (`personnel/`, `genealogie/`, `journal/`, `transmissions/`,
+> `projet-unifie/`) sans aucun lien entrant, faute de hub interne au domaine
+> — les quatre circuits en ont un (`index.md`/`annales.md`), `meta/` n'en
+> avait aucun. §II, §VI et §X (Cmd 9) mis à jour.
 >
 > *Note technique* : le nom de fichier `CLAUDE.md` est une convention lue par l'outil
 > d'intégration en ligne de commande ; il ne désigne pas un modèle particulier. Le
@@ -128,6 +138,10 @@ wiki/  (= /root/wiki)
 │   ├── <slug-oeuvre>/      ← un sous-dossier par œuvre ou saga
 │   └── expression/         ← idées personnelles hors œuvre unique
 └── meta/                  ← Domaine réservé : outillage, personnel, transmissions
+    ├── meta-index.md · meta-annales.md  ← Hub et journal propres au domaine
+    │                         (nommage préfixé `meta-`, jamais `index.md`/`annales.md`
+    │                         nus : `meta/` reste un Domaine Réservé, pas un sixième
+    │                         circuit — ouvert 2026-08-09)
     ├── bibliotheque-physique.md  ← Catalogue de la bibliothèque (voir §VII, sources)
     ├── projet-unifie/     ← Briefs d'infrastructure, hermes-prompts/, propositions
     └── transmissions/     ← Dispositif Karūbī (silsila documentaire, voir §V.c)
@@ -481,6 +495,17 @@ de la bibliothèque physique.
   contexte personnel.
 - Ne jamais copier de contenu `meta/` ailleurs sans demande explicite.
 - En cas de doute sur le circuit d'une nouvelle page : demander avant de créer.
+- **Hub interne (`meta-index.md` / `meta-annales.md`, ouvert 2026-08-09)** :
+  `meta/` dispose de son propre hub et de son propre journal, nommés avec le
+  préfixe `meta-` pour ne jamais être confondus avec les `index.md`/`annales.md`
+  des circuits (verdict Sidy : `meta/` reste un Domaine Réservé, pas un
+  sixième circuit). `meta-index.md` recense par sous-dossier
+  (`personnel/`, `genealogie/`, `journal/`, `transmissions/`,
+  `projet-unifie/`) les fiches du domaine, chacune reçoit ainsi un lien
+  entrant légitime, **intra-`meta/`** exclusivement — jamais un lien depuis
+  un circuit vers `meta/` (sens interdit, cf. hiérarchie ci-dessus).
+  `meta-annales.md` suit la même discipline append-only que les annales de
+  circuit (Cmd 9, marqueur `<!-- INSERTION: EN-TÊTE -->`).
 
 -----
 
@@ -810,7 +835,9 @@ Trame de référence — chaque notion réexpliquée jusqu'à maîtrise confirm�
    `## [YYYY-MM-DD] op | Titre` ; une seule entrée par passe groupée ;
    `doctrinal/annales.md` pour le doctrinal, `label/annales.md` pour le label,
    `hermeneutique/annales.md` pour l'herméneutique, `atelier/annales.md` pour
-   l'atelier — y compris le pôle `rd/`).
+   l'atelier — y compris le pôle `rd/` — et `meta/meta-annales.md` pour le
+   Domaine Réservé (ouvert 2026-08-09, même discipline append-only, nom
+   préfixé pour ne pas se confondre avec les annales de circuit).
    Chaque entrée porte le **SHA court du commit** qu'elle décrit en dernière ligne :
    `- **Commit** : abc1234`. L'entrée est rédigée **après** le commit, jamais avant.
    Une entrée décrivant une opération planifiée mais non exécutée est interdite.
