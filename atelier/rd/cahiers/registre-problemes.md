@@ -32,6 +32,72 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-09] resolu | Vault Obsidian (iPad) désynchronisé — 6 commits serveur jamais poussés
+
+- **Symptôme** : le vault Obsidian sur l'iPad de Sidy n'est « plus du tout à
+  jour » depuis un certain temps. Le vault = le dépôt wiki lui-même, consulté
+  sur iPad via Obsidian en auto-pull depuis GitHub (`Sidyvision/wiki`,
+  `CLAUDE.md` §postes : CONSULTATION).
+- **Diagnostic** : aucun problème de configuration Obsidian côté serveur —
+  l'auto-pull de l'iPad tire `origin/main`, or le serveur était en avance de
+  6 commits non poussés (ouverture du pôle rd/, migration `projets/ → rd/`,
+  arbitrage `album-personnel`, annales) plus 3 fichiers de travail non
+  commités (registre des problèmes, thème natal corrigé, mise en regard
+  roue/thème). La « connexion cassée » était simplement une chaîne de push
+  interrompue côté serveur.
+- **Résolution** : commit des 3 fichiers en attente puis `git push origin main`
+  (7 commits au total). L'auto-pull de l'iPad récupérera l'état complet au
+  prochain cycle. `_inbox/` (sas en attente d'intégration, contient des PDF
+  bancaires) laissé non versionné — ne doit pas partir sur le dépôt sans
+  passage par le circuit d'intégration.
+- **Compréhension tirée** : un vault « cassé » peut n'être qu'un dépôt local en
+  avance sur son remote. Avant d'incriminer l'outil de consultation (Obsidian,
+  ses plugins, sa synchro), vérifier l'état git (`git status -sb`,
+  `rev-list --left-right --count origin/main...HEAD`) : c'est le maillon serveur
+  qui portait le retard.
+- **Liens** : `CLAUDE.md` §postes (CONSULTATION = Obsidian iPad auto-pull) ;
+  remote `git@github.com:Sidyvision/wiki.git`.
+- **Statut** : `resolu`.
+
+---
+
+## [2026-08-08] resolu | Vision Hermes en 404 sur l'endpoint Qwen (auto-détection auxiliaire mal routée)
+
+- **Symptôme** : l'outil `vision_analyze` échoue systématiquement avec
+  `Error code: 404` ; mêmes échecs consignés pour les tâches auxiliaires
+  `compression` et `title_generation` dans `~/.hermes/logs/agent.log` et
+  `errors.log`. La conversation principale fonctionne normalement par ailleurs.
+- **Diagnostic** : les tâches auxiliaires sont par défaut en `provider: auto`.
+  L'auto-détection réécrit l'URL de base
+  `https://token-plan.ap-southeast-1.maas.aliyuncs.com/apps/anthropic` →
+  `.../apps/v1` (règle générique pour les endpoints « anthropic-compatibles »),
+  puis le SDK Anthropic ajoute `/v1/messages` : l'appel arrive sur
+  `.../apps/v1/v1/messages`, qui n'existe pas. L'endpoint Qwen n'expose que la
+  surface `anthropic_messages` sur `/apps/anthropic/v1/messages` (vérifié :
+  le fil OpenAI `/apps/v1/chat/completions` renvoie lui aussi 404). Test
+  discriminant : le même appel épinglé sur `custom:qwen` réussit (réponse
+  correcte à l'analyse d'image), l'appel auto-détecté échoue en 404.
+- **Résolution** : épinglage
+  `auxiliary.{vision,compression,title_generation,web_extract}.provider: custom:qwen`
+  via `hermes config set` sur le profil principal ET les 12 profils Discord
+  (ar-music, visual-da, production, admin-legal, accounting, distribution,
+  marketing, publication, studio, gardien, fanzine, commerce). Vérification en
+  direct après coup : `vision_analyze` répond correctement (test carré rouge →
+  « Red »).
+- **Compréhension tirée** : quand le provider principal est un endpoint
+  Anthropic-compatible qui n'expose QUE cette surface, l'auto-détection
+  auxiliaire (`auto`) est trompeuse — elle présuppose que l'endpoint parle aussi
+  OpenAI. Il faut épingler explicitement toutes les tâches auxiliaires sur le
+  provider nommé. Un échec « vision » peut donc être un problème de routage
+  auxiliaire, pas du modèle.
+- **Liens** : `~/.hermes/config.yaml` (profil `default` + 12 profils) ;
+  `~/.hermes/logs/agent.log` ; code Hermes `agent/auxiliary_client.py`
+  (`_to_openai_base_url`, `resolve_vision_provider_client`) ;
+  [[meta/projet-unifie/15-architecture-discord-hermes-2026-08-07]].
+- **Statut** : `resolu`.
+
+---
+
 ## [2026-08-08] resolu-partiel | 4 anomalies d'étanchéité `materiel → album-personnel` coupées
 
 - **Symptôme** : 4 des 10 anomalies bloquantes du graphe (entrée ci-dessous) :
