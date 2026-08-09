@@ -31,7 +31,7 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
   [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]],
   Sceau `meta` conforme (`type: meta`), contenu intact, note de provenance ajoutée
   en tête. Fichier d'origine supprimé (jamais tracké git, aucune perte d'historique).
-- **Commit** : à consigner après commit.
+- **Commit** : d16189b
 
 ---
 

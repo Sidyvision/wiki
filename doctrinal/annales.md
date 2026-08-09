@@ -17,6 +17,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Écart corrigé au contrôle** : la fiche telle que rédigée dans le sas liait `doctrinal → meta/personnel/...` (sens interdit, §VI) — corrigé avant intégration (référence reformulée sans lien).
 - **Fichier orphelin constaté** : `doctrinal/discernement/compte-rendu-12-agents-2026-08-09.md`, non tracké git, jamais passé par `_inbox/`, frontmatter incomplet — écrit directement dans le circuit doctrinal par un agent Hermes en session terminal, hors protocole. Signalé à Sidy, déplacé (verdict Sidy) vers [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]] avec Sceau `meta` conforme, contenu intact.
 - **Vérification** : `verifier-invariants.py` — 0 erreur, 0 avertissement après correction.
+- **Commit** : d16189b
 
 - **Opération** : ARCHIVAGE & MAILLAGE + EXAMEN DE DISCERNEMENT (enrichissement, non clôture).
 - **Créé** : [[doctrinal/symboles/khatm]] — cible manquante signalée le 2026-07-14, ouverte sur demande de Sidy. Distingue quatre notions : Khātim al-Nubuwwa (Muhammad), Khatm al-Wilāya al-ʿĀmma (ʿĪsā), Khatm al-Wilāya al-Muḥammadiyya (Ibn ʿArabī), et la Quṭbiyya al-Kubrā qui n'est pas un Sceau (Jurjānī 1281 : « Le Pôle n'est pas le Sceau de la Sainteté »).
