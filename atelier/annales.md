@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-08
+updated: 2026-08-09
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,23 @@ updated: 2026-08-08
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-09] integration | fiche Obsidian/Working Copy/GitHub du sas → `rd/infrastructure/`
+
+- **Directive Sidy** : tout ce qui relève de l'infrastructure se consigne au
+  pôle R&D (« tu n'oublieras pas de tout rapporter au R&D »).
+- **Fiche intégrée** : `_inbox/fiche-setup-obsidian-git-sync.md` (rédigée
+  2026-06-29, dépannage de la synchro iPad) →
+  `atelier/rd/infrastructure/synchro-obsidian-working-copy-github.md`
+  (`type: infrastructure`, dates conservées/bumpées, contenu repris avec
+  l'avis technique Hermes du 2026-08-09 sur la décision SSH/PAT — verdict
+  Sidy toujours attendu).
+- **Sas vidé** : la fiche originale est retirée de `_inbox/` après
+  intégration ; `karubi-mehdi.md` et `image.jpeg` restent au sas.
+- **Rappel connexe** : entrée registre des problèmes [2026-08-09]
+  (vault désynchronisé = 6 commits serveur non poussés, `resolu`).
 
 ---
 
