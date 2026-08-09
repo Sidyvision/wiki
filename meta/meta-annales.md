@@ -29,7 +29,7 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 - **Sas** : `_inbox/` ne contient plus désormais que `karubi-mehdi.md`
   (cycle Karūbī ouvert, préservé intentionnellement — voir
   `meta/transmissions/registre-silsila.md`).
-- **Commit** : (à inscrire après commit)
+- **Commit** : ef57ba4
 
 ---
 
