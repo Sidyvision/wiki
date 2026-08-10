@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-09
+updated: 2026-08-10
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,28 @@ updated: 2026-08-09
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-10] outillage | Méthode de croisement des fiches `discernement/`
+
+- **Directive Sidy** : instruire le pôle R&D d'un rapport des moyens et méthode
+  utilisés pour croiser les 33 fiches `doctrinal/discernement/` entre elles et
+  avec le reste du circuit doctrinal (demande formulée sans accès serveur
+  possible côté Claude.ai — angle mort visé par la présence d'un agent côté
+  dépôt).
+- **Créé** : [[atelier/rd/outillage/2026-08-10_methode-croisement-discernement]]
+  — documente le passage déterministe (script bash d'extraction frontmatter/
+  wikilinks/`to-source`/termes sashimono, exécuté avant toute lecture par le
+  modèle) et la logique de clustering (partition par statut, graphe de
+  co-citation, contrôle de complétude du double contrôle Gizeh, détection
+  d'artefacts, isolement des blocs mono-session). Rapport d'ingénierie pur —
+  aucun contenu doctrinal.
+- **Vérification** : `verifier-invariants.py` → 0 erreur, 1 avertissement
+  (`[C1] lien non résolu : [[^]]` — faux positif : le motif regex bash cité en
+  exemple dans le corps de la fiche contient la séquence `[[^]]`, lue à tort
+  comme un wikilink par le scanner mécanique ; aucun lien réellement cassé).
+- **Commit** : `3e2f6c7` — OUTILLAGE: Méthode de croisement des fiches discernement (rapport R&D)
 
 ---
 
