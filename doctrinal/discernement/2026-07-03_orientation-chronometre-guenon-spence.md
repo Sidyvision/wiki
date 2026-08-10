@@ -14,7 +14,7 @@ tags:
 - chronometre
 - discernement
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-08-10
 sources:
 - '[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]'
 - Spence, K., « Ancient Egyptian chronology and the astronomical orientation of pyramids
@@ -23,6 +23,7 @@ sources_count: 2
 cross_links:
 - '[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]'
 - '[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]'
+- '[[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]'
 ---
 
 # L'écart d'orientation comme marqueur temporel : note 7 de Guénon et le chronomètre précessionnel de Spence
@@ -119,3 +120,12 @@ tout l'Ancien Empire.
 >   (arXiv, 2004) — synthèse équilibrée, accès libre.
 > - Gaston Georgel, *Les Quatre Âges de l'Humanité* — en bibliothèque, pour tout
 >   prolongement cyclique ultérieur (discernement séparé requis).
+>
+> **Signalement de péremption (2026-08-10, constat factuel, aucun contenu ajouté)** :
+> cette fiche n'a pas été retouchée depuis son ouverture (2026-07-03). Depuis,
+> [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]
+> a été instruite et close (`traditionnel`, 2026-07-27) sur une matière voisine
+> (référentiels stellaires, polaire/solaire, Gizeh). Ce n'est pas une convergence
+> établie ici, seulement un signal que le matériau environnant a changé de statut
+> depuis l'ouverture de ce dossier — à Sidy de décider s'il y a lieu de rouvrir
+> l'examen à la lumière de cette fiche.

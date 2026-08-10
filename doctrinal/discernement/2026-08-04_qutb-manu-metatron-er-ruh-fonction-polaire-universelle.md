@@ -5,10 +5,10 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [qutb, manu, metatron, er-ruh, melki-tsedeq, shekinah, axe-du-monde, aqtab, kabbale, vedanta]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-10
 sources: ["[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]", "[[doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq]]", "[[doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh]]", "[[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]", "[[doctrinal/sources/valsan-investiture-cheikh-al-akbar]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]]"]
 sources_count: 10
-cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]"]
+cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]"]
 ---
 
 # Qutb, Manu, Metatron, Er-Rûh : la fonction polaire universelle à travers quatre voiles traditionnels
@@ -188,6 +188,22 @@ vers un rattachement védantique (*Manu*) et kabbalistique (*Metatron*).
 > Guénon n'emploie à aucun moment le terme *Sitra Ahra* : le rapprochement
 > terminologique précis avec cette doctrine kabbalistique reste à instruire sur
 > source kabbalistique primaire (*Sepher Yetsirah*, désormais en bibliothèque).
+>
+> 🧭 **Confrontation Gizeh (§VII, double contrôle systématique, 2026-08-10)** :
+> matière relevant explicitement de l'axe polaire (« Pôle céleste »/« Pôle
+> terrestre », ch. III du *Roi du Monde*, §ci-dessus). Confrontée à
+> [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] :
+> **aucun ancrage textuel direct trouvé** dans les sources actuelles de cette
+> fiche — la relation à Gizeh ne passe que par les deux discernements déjà
+> clos qui, eux, ont été confrontés à Gizeh en leur temps
+> ([[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]],
+> [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]).
+> Risque de conflation (c) examiné et écarté : la fonction polaire ici traitée
+> (Qutb/Manu/Metatron/Er-Rûh, agent principiel) est d'ordre métaphysique, non
+> l'ancrage géodésique de Gizeh vers le pôle céleste — les deux ne se
+> superposent pas sans instruction séparée. Résultat consigné, geste de
+> relevé uniquement : ne préjuge pas de la qualification finale des joints
+> ci-dessus, qui reste, comme le reste de la fiche, réservée à Sidy.
 >
 > **Conclusion** : *verdict réservé à Sidy*. Les deux identités intégrales
 > (Er-Rûh=Metatron ; Manu=Melki-Tsedeq) paraissent, en l'état de l'examen

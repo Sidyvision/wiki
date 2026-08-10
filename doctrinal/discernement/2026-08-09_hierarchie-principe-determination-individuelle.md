@@ -5,10 +5,10 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [agents, hermes, zodiaque, individuel, universel, sashimono, zosaku]
 created: 2026-08-09
-updated: 2026-08-09
+updated: 2026-08-10
 sources: ["to-source", "[[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]]"]
 sources_count: 2
-cross_links: ["[[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]]", "[[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]]"]
+cross_links: ["[[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]]", "[[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]]", "[[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]]"]
 ---
 
 # Hiérarchie du principe et de la détermination individuelle — application à la couche agentique
@@ -125,6 +125,18 @@ Matière touchant au zodiaque (déjà qualifiée axiale/métrologique dans
 nouveau propre à la présente fiche — confronté, aucun ancrage nouveau à signaler ;
 la réserve polaire/solaire déjà actée dans la fiche du 2026-07-26 est reconduite
 sans modification.
+
+## Piste de vérification signalée (2026-08-10, kari-kumi, non tranchée)
+
+[[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] (clos,
+`validée`, `traditionnel`) instruit un cas voisin de non-conflation entre deux
+ordres de réalité distincts appliqué à la couche technique/agentique : là,
+spirituel (supra-rationnel) vs mécanique (infra-rationnel) ; ici, principe vs
+détermination individuelle. Les deux fiches partagent le même geste
+méthodologique — refuser qu'une couche inférieure ou contingente redéfinisse
+ce qui la précède — sans que la présente fiche prétende en tirer un ancrage
+supplémentaire : le rapprochement est de méthode, pas de doctrine, et ne
+rouvre ni ne modifie le verdict déjà rendu (2026-07-14) sur l'autre fiche.
 
 ## Statut et portée
 

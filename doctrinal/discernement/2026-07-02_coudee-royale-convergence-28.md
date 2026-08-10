@@ -11,7 +11,7 @@ tags:
 - double-ancrage
 - discernement
 created: 2026-07-02
-updated: 2026-07-10
+updated: 2026-08-10
 sources:
 - to-source
 - '[[doctrinal/sources/gilis-ordo-ab-chao]]'
@@ -19,6 +19,7 @@ sources_count: 1
 cross_links:
 - '[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]'
 - '[[doctrinal/sources/gilis-ordo-ab-chao]]'
+- '[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]'
 ---
 
 # Candidat de double ancrage : subdivision de la coudée royale par 28 et convergence akbarienne des 28
@@ -102,6 +103,20 @@ référence à une doctrine cosmologique. Le wiki porte par ailleurs une converg
 > réserve catégorielle sont des signaux de vigilance versés au dossier, non des
 > conditions bloquantes). Ce candidat reste un cas d'école de vigilance méthodologique
 > pour tout futur travail d'ancrage, y compris hors du pôle Gizeh.
+>
+> 🧭 **Confrontation Gizeh (§VII, double contrôle systématique, 2026-08-10)** :
+> matière **métrologique (28)** portant directement sur une donnée géométrique de
+> Gizeh (subdivision de la coudée royale) — le double contrôle exige la
+> confrontation directe au pôle
+> [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]], que
+> cette fiche ne citait jusqu'ici que via l'étude géométrique dérivée
+> ([[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]), sans lien direct.
+> **Résultat** : aucun ancrage supplémentaire ne s'ajoute à ceux déjà consignés
+> ci-dessus (Gilis, *Futūḥāt* ch. 198) ; la vigilance polaire/solaire propre au
+> pôle Gizeh ne s'applique pas telle quelle ici, la convergence examinée dans
+> cette fiche étant de nature **métrologique-numérique**, non polaire/axiale —
+> aucune conflation de catégorie identifiée. Geste de relevé : ne préjuge en
+> rien de l'arbitrage réservé à Sidy sur le double ancrage.
 >
 > **Lectures suggérées** :
 > - Jean-Pierre Adam, *Le Passé Recomposé : Chroniques d'archéologie fantasque* — déjà

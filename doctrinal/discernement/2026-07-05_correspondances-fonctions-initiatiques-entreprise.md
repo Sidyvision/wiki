@@ -5,10 +5,10 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [discernement, cinq-presences, duodenaire, entreprise, label, archetypes, en-cours]
 created: 2026-07-05
-updated: 2026-07-14
+updated: 2026-08-10
 sources: ["[[doctrinal/sources/guenon-zodiaque-pythagoriciens]]"]
 sources_count: 1
-cross_links: ["[[hadarat-khams]]", "[[ilm-al-nujum]]", "[[manazil-al-qamar]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]"]
+cross_links: ["[[hadarat-khams]]", "[[ilm-al-nujum]]", "[[manazil-al-qamar]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]", "[[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]]"]
 ---
 
 # Correspondances entre fonctions initiatiques et organisation d'entreprise
@@ -57,6 +57,19 @@ fixé.
 généalogie de sources primaires n'a encore été versée spécifiquement pour ce volet
 (au-delà de ce qui existe déjà pour [[hadarat-khams]] et
 [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]).
+
+**Piste de vérification signalée (2026-08-10, kari-kumi, non tranchée)** : le
+discernement [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] (clos,
+`validée`) documente que la hiérarchie séquentielle Hâhût→Lâhût→Jabarût→Malakût→Nâsût
+retenue ci-dessus n'est qu'**une** des deux structurations attestées des Cinq
+Présences — Jurjānī en propose une seconde, par dichotomies emboîchées, où le degré
+« Homme synthétique » ne parcourt pas la série mais **la totalise depuis l'intérieur
+du schéma**. Si la piste du Gardien comme « fonction transversale » (ci-dessus) était
+reprise, ce précédent terminologique serait à consulter avant toute conclusion : il
+ne répond pas à la question ontologique posée dans ce volet, il signale seulement
+qu'un même vocabulaire (« Cinq Présences ») recouvre déjà, dans le corpus doctrinal
+lui-même, plusieurs structurations non superposables — donc qu'aucune ne doit être
+présumée « la » référence sans le dire explicitement.
 
 ---
 

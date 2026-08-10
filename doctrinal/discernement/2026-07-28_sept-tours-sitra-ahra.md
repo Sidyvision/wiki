@@ -5,10 +5,10 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [contre-initiation, septenaire, sitra-ahra, qabbale, aqtab, non-syncretisme, kari-kumi]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-08-10
 sources: ["[[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]]", "[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]"]
 sources_count: 3
-cross_links: ["[[doctrinal/deviations/sept-tours-du-diable]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/antitradition-et-contre-tradition]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"]
+cross_links: ["[[doctrinal/deviations/sept-tours-du-diable]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/antitradition-et-contre-tradition]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]"]
 ---
 
 # L'ombre septénaire — sept tours et Sitra Aḥra
@@ -107,7 +107,8 @@ cross_links: ["[[doctrinal/deviations/sept-tours-du-diable]]", "[[doctrinal/devi
 > **généalogiques et défensifs**, signalés comme tels au titre de l'exception prévue.
 
 > ⚠️ **Vigilance Gizeh (§VII)** — matière **septénaire** : confrontée au pôle de données
-> Gizeh le 2026-07-28. **Résultat : aucun ancrage.** Aucun caractère métrologique
+> [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] le
+> 2026-07-28. **Résultat : aucun ancrage.** Aucun caractère métrologique
 > (chiffre 28) ni géodésique n'intervient ; le risque de conflation polaire/solaire ne
 > se présente pas dans cette matière, qui est psychique et non cosmologique.
 
