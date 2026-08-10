@@ -10,7 +10,7 @@ tags:
 - jumeau-spirituel
 - genealogie-des-idees
 created: 2026-06-20
-updated: 2026-07-10
+updated: 2026-08-10
 sources: []
 sources_count: 0
 cross_links:
@@ -42,6 +42,13 @@ Sidy propose, comme exercice explicite de test de « rigueur logique » d'une id
 > **Examen formel** : ce point reste important malgré la précision apportée. Le fait qu'un cadre conceptuel ait été délibérément formulé et travaillé dès 2023 (quelle que soit l'antériorité de l'expérience qu'il met en forme) signifie que les expériences ultérieures sont nécessairement lues *à travers* ce cadre déjà disponible. Cela ne les rend pas fausses, mais invite à distinguer, dans chaque expérience nouvelle, ce qui est donnée brute et ce qui est déjà une interprétation orientée par le cadre conceptuel préexistant — exercice de discernement que Sidy est le mieux placé pour mener, connaissant les expériences antérieures que ce wiki ne documente pas.
 >
 > **Conclusion** : en cours d'éclaircissement. Cette fiche n'invite pas à minimiser les expériences de Sidy, mais à resituer cette conversation précisément pour ce qu'elle est : la première mise en forme conceptuelle retrouvée dans ce corpus, non l'origine du motif lui-même. À rapprocher de la tradition familiale du « frère-serpent » (), qui constitue une autre source antérieure (transmission orale familiale), distincte de cette mise en forme philosophique personnelle.
+>
+> **Qualification sashimono (2026-08-10, ajout formel, aucun contenu de fond)** :
+> le rapprochement entre le motif du « jumeau spirituel »/des « stations » et la
+> doctrine akbarienne des *marātib al-wujūd* est un joint *kari-kumi* — suggéré,
+> non tranché. Il n'établit pas que l'élaboration personnelle de 2023 soit une
+> doctrine reçue : il documente une structure formelle observée, dont le verdict
+> reste réservé à Sidy (Cmd 12).
 >
 > **Lectures suggérées** :
 >   - [[doctrinal/autorites/ibn-arabi]] — pour le cadre akbarien des degrés de l'Être déjà mobilisé dans cette fiche.

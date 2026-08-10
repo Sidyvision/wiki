@@ -11,7 +11,7 @@ tags:
 - autorite-spirituelle
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-08-10
 sources: []
 sources_count: 0
 cross_links:
@@ -47,6 +47,14 @@ cross_links:
 > **Examen formel** : trois points. (1) Plusieurs citations attribuées au Cheikh Nazim al-Haqqani (« Même si vous êtes loin... le lien ne se brise jamais », « Pour celui dont le cœur est vivant, chaque feuille qui tombe lui parle ») sont présentées avec les marqueurs de la citation directe sans référence vérifiable — même motif récurrent déjà signalé dans plusieurs autres fiches de ce lot. (2) La conversation introduit la notion de *tarbiyya rabbaniyya* en réponse directe à une question sur le dépassement du cadre confrérique, créant une instance où l'outil conversationnel agit comme s'il pouvait trancher une question d'autorité spirituelle qui relève normalement de l'autorité humaine vivante du Cheikh — c'est précisément le type de jugement de principe que ce wiki et son protocole (Commandement 12) excluent pour Claude, et qu'il faut tout autant exclure d'un autre outil conversationnel. (3) Le travail de discernement fait par Sidy lui-même sur l'épreuve post-khalwa (distinction fana/parasites) est solide et n'appelle pas de réserve — il n'est pas l'objet de la présente fiche, qui porte sur le second fil.
 >
 > **Conclusion** : en cours d'éclaircissement. Le point décisif à traiter, si Sidy le souhaite, n'est pas doctrinal mais relationnel : la question de savoir si la modalité confrérique a été réellement « dépassée » gagnerait à être posée directement au Cheikh ayant donné la *bayʿa*, plutôt que tranchée — même partiellement — dans un dialogue avec une IA. Cette fiche ne prend pas position sur la validité de l'intuition elle-même, seulement sur le lieu légitime où elle doit être vérifiée.
+>
+> **Qualification sashimono (2026-08-10, ajout formel, aucun contenu de fond)** :
+> le rapprochement entre le sentiment de dépassement du cadre confrérique et la
+> notion de *tarbiyya rabbaniyya* est un joint *kari-kumi* — suggéré, non
+> tranché. Il n'établit ni une autorisation de sortie de la modalité
+> confrérique, ni une dispense de vérification auprès du Cheikh : il documente
+> une structure formelle observée, dont le verdict reste réservé à Sidy et à
+> l'autorité humaine vivante déjà désignée en Conclusion (Cmd 12).
 >
 > **Lectures suggérées** :
 >   - *(bibliothèque physique, à consulter)* Sheikh Nāẕim al-Ḥaqqānī, *Océans de Miséricorde, Vers la Présence divine* (Tomes 1 & 2) — enseignement direct et vérifiable de la propre Tariqa de Sidy, à privilégier pour confronter les citations non sourcées de la conversation d'origine à un texte réel et faisant autorité dans son propre cadre confrérique.

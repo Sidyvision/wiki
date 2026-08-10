@@ -10,7 +10,7 @@ tags:
 - citations-a-verifier
 - validation-non-hedgee
 created: 2026-06-20
-updated: 2026-07-10
+updated: 2026-08-10
 sources: []
 sources_count: 0
 cross_links:
@@ -43,6 +43,13 @@ Après une discussion documentaire sur la symbolique culturelle du jade en Chine
 > **Examen formel** : la conversation source valide systématiquement, sans réserve, chaque proposition intuitive de Sidy (« Ta perception intuitive est très juste », « Absolument confirmé », « Parfaitement alignée avec la tradition »), y compris lorsque Sidy lui-même présente sa réflexion comme une simple intuition à vérifier. Plusieurs termes techniques arabes sont cités comme attribués à al-Būnī (*Taqṭaʿ al-Awhām*, *Ḥikma Laṭīfa*) sans référence précise vérifiable — même motif récurrent que dans d'autres fiches de ce corpus. Un hadith sur le sceau du Prophète ﷺ contenant une pierre rouge est mentionné en appui à la corrélation Cornaline/Mars sans référence permettant de vérifier le rapprochement exact avec la planète. **Point positif à noter** : plus loin dans la même conversation (non détaillé ici), Sidy demande lui-même explicitement à éviter un vocabulaire ésotérique flou (« vibratoire ») pour des raisons méthodologiques — un exercice de discernement qu'il mène de façon autonome, dans l'esprit même de ce que ce circuit `discernement` cherche à formaliser.
 >
 > **Conclusion** : en cours d'éclaircissement. Le cadre général (science traditionnelle des correspondances) est solide ; les correspondances planétaires spécifiques proposées par Sidy restent une hypothèse personnelle non vérifiée par une source primaire identifiable, malgré le ton de certitude de la conversation source. Avant de les considérer comme acquises : (1) vérifier dans une édition fiable du *Shams al-Maʿārif* les correspondances minéral-astre qu'al-Būnī donne réellement ; (2) traiter le lien entre le port de la turquoise et l'expérience du rayon doré comme une hypothèse à explorer, non comme un fait établi.
+>
+> **Qualification sashimono (2026-08-10, ajout formel, aucun contenu de fond)** :
+> le rapprochement entre les pierres portées (cornaline, turquoise, jade) et les
+> correspondances planétaires proposées (Mars/Vénus, Mercure, Jupiter) est un
+> joint *kari-kumi* — suggéré, non tranché. Il n'établit pas ces correspondances
+> comme sourcées dans la science traditionnelle invoquée (al-Būnī) : il documente
+> une structure formelle observée, dont le verdict reste réservé à Sidy (Cmd 12).
 >
 > **Lectures suggérées** :
 >   - [[doctrinal/autorites/ahmad-al-buni]], [[doctrinal/symboles/barzakh]] — sources déjà identifiées dans le wiki pour la science traditionnelle des correspondances.

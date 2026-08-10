@@ -11,7 +11,7 @@ tags:
 - autorite-spirituelle
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-07-10
+updated: 2026-08-10
 sources:
 - '[[doctrinal/sources/ibn-arabi-fard-afrad-gilis]]'
 - '[[doctrinal/sources/gilis-ordo-ab-chao]]'
@@ -51,6 +51,14 @@ Sidy demande un exposé d'astrologie akbarienne suffisamment complet pour deveni
 > **Examen formel** : deux remarques contrastées. (1) **Point positif notable** : à la différence de plusieurs autres fiches de ce corpus, la conversation source ne valide pas purement et simplement l'auto-perception de Sidy — elle la nuance explicitement (« ton thème n'indique pas un Fard absolu »), introduit une mise en garde citée (« Celui qui se croit Fard alors qu'il ne l'est pas se ferme toute assistance ») et conclut par une formule délibérément modeste (« Tu n'es pas appelé à être Fard, mais à marcher assez seul... »). La réponse sur la « pauvreté » du thème est également démystifiante plutôt que valorisante (« pas de sainteté programmée, pas de charisme transmissible, pas de mission reconnue »). Ce mode de réponse devrait servir de référence positive pour la suite du corpus. (2) **Réserve persistante** : plusieurs citations attribuées à Ibn ʿArabī restent données « paraphrasées fidèlement » sans référence précise vérifiable — même motif transversal déjà signalé ailleurs.
 >
 > **Conclusion** : en cours d'éclaircissement. La récurrence du motif Fard/Afrad à travers trois conversations indépendantes (#62, #50, #116) constitue en elle-même une donnée à ne pas ignorer dans le cheminement de Sidy, mais sa signification réelle reste, comme indiqué ici même par la conversation source, à laisser « gérer par Dieu » plutôt qu'à conclure soi-même — et, le cas échéant, à vérifier auprès d'une autorité spirituelle vivante plutôt que par cumul de lectures (jeu vidéo, astrologie, introspection) menées avec une IA.
+>
+> **Qualification sashimono (2026-08-10, ajout formel, aucun contenu de fond)** :
+> le rapprochement entre la station akbarienne du *Fard* et la configuration
+> astrale personnelle de Sidy est un joint *kari-kumi* — suggéré, non tranché.
+> Il n'établit ni un statut spirituel réel, ni une lecture akbarienne du thème
+> astral qui ferait autorité (l'anachronisme Uranus/Pluton déjà signalé le
+> rappelle) : il documente une structure formelle observée, dont le verdict
+> reste réservé à Sidy ou à une autorité spirituelle vivante (Cmd 12).
 >
 > **Lectures suggérées** :
 >   - [[doctrinal/symboles/ilm-al-nujum]] — cadre traditionnel de l'astrologie islamique, à compléter de la réserve sur les planètes modernes déjà notée dans cette fiche.

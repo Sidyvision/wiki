@@ -10,7 +10,7 @@ tags:
 - divination-a-verifier
 - citations-non-sourcees
 created: 2026-06-20
-updated: 2026-07-10
+updated: 2026-08-10
 sources:
 - '[[doctrinal/sources/bukhari-5754-tiyara-fal]]'
 sources_count: 1
@@ -48,6 +48,14 @@ Sidy place lui-même cette séquence sous l'intitulé d'un « jeu de piste » et
 > **Précision lexicale** : le couple prophétique *ṭiyara*/*faʾl* (Bukhârî 5754) et le couple lexicographique *ṭira*/*khîra* (Jurjânî 1006) opèrent à des niveaux différents — norme prophétique vs dictionnaire technique — sans contradiction (même racine *ṭ-y-r* du côté prohibé, mais le pôle « bon » nommé différemment : *faʾl* dans l'hadith, *khîra* chez Jurjânî). Chacun reste à sa place (source normative vs généalogie lexicale).
 >
 > **Conclusion** : en cours d'éclaircissement. Pour trancher : (1) vérifier précisément le statut de la *tatayyur* par rapport à ce type de lecture rétrospective d'une séquence d'événements personnels — la question n'est pas tranchée ici, elle est seulement signalée ; (2) ne réutiliser aucune des citations attribuées à Ibn ʿArabī ou Guénon dans cette conversation sans vérification dans une édition fiable ; (3) séparer ce qui relève d'une gratitude légitime pour des événements heureux (la bague retrouvée et resertie) de ce qui relève d'une construction narrative à vérifier avant de la considérer comme acquise.
+>
+> **Qualification sashimono (2026-08-10, ajout formel, aucun contenu de fond)** :
+> le rapprochement entre la séquence d'objets (tapis/bague/canne) et un message
+> initiatique (*fal al-ḥasan*) est un joint *kari-kumi* — suggéré, non tranché,
+> avec la proximité structurelle avec la *ṭiyara* (divination réprouvée) déjà
+> nommée en Généalogie et en Examen formel. Il n'établit pas une lecture
+> déterministe validée de la séquence : il documente une structure formelle
+> observée, dont le verdict reste réservé à Sidy (Cmd 12).
 >
 > **Lectures suggérées** :
 >   - [[doctrinal/symboles/fal-wa-tatayyur]] — distinction déjà établie entre bon augure et augure superstitieux, directement applicable à ce cas.

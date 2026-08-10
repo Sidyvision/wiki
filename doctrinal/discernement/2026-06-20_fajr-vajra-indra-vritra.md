@@ -11,7 +11,7 @@ tags:
 - complementarite-investiguee
 - clos
 created: 2026-06-20
-updated: 2026-07-14
+updated: 2026-08-10
 sources:
 - '[[doctrinal/sources/guenon-mysteres-lettre-nun]]'
 - '[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]'
@@ -88,6 +88,15 @@ Partant d'un rapprochement phonétique entre *al-Fajr* (l'aube, arabe) et *Vajra
 > d'un travail méthodologique dédié plutôt que retenue comme preuve de la fusion des
 > cadres. Discernement clos sur les trois volets doctrinaux ; le volet gématrique reste un
 > chantier ouvert distinct.
+>
+> **Note de traçabilité (2026-08-10, ajout formel, aucune réouverture)** : cette
+> fiche est close depuis le 2026-07-14, avant l'adoption du double contrôle
+> systématique (§VII, 2026-07-16). À la lumière de la règle actuelle, les trois
+> rapprochements qu'elle documente (Indra/Vritra védique ↔ *qalb*/*nafs
+> ammāra*/*al-Fatḥ* soufi ; Kundalinî/Vajrayāna ↔ Tantra hindou ; *al-Fajr*/
+> *Brahmamuhurta*) ne portent pas de qualification sashimono explicite dans le
+> corps. Fait consigné pour traçabilité — aucune réouverture du discernement,
+> aucune modification du `Statut` ni de la `Conclusion` déjà rendus par Sidy.
 >
 > **Lectures suggérées** :
 >   - [[doctrinal/symboles/merkavah-muraqaba]] — même motif de construction gématrique inter-traditions déjà signalé, à retraiter à la lumière du même principe (complémentarité investiguée, jamais fusion).

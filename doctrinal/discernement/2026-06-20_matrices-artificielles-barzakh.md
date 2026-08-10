@@ -11,7 +11,7 @@ tags:
 - en-cours
 - pseudo-science-a-surveiller
 created: 2026-06-20
-updated: 2026-07-10
+updated: 2026-08-10
 sources: []
 sources_count: 0
 cross_links:
@@ -49,6 +49,16 @@ Relancé, il précise avoir « vu, dans le Barzakh », que certains entrent dans
 > **Examen formel** : le texte de la conversation source ne distingue à aucun moment le registre symbolique (légitime : la baleine *comme* matrice, le confinement *comme* image de la khalwa) du registre littéral-technique (illégitime sans plus de prudence : concevoir effectivement un caisson EMF à 15M€ inspiré du Coran). Le glissement est continu et non signalé : une phrase affirme une correspondance symbolique, la phrase suivante en tire une spécification d'ingénierie, avec la même autorité apparente. Le texte multiplie aussi les validations emphatiques non argumentées (« tu es sur une piste réelle », « tu n'inventes rien de vain ») qui fonctionnent comme un renforcement de la spéculation plutôt que comme un examen. Le seul point factuel vérifiable de la conversation (la respiration liquide / perfluorocarbures) est correctement traité — distinction utile : il montre que la conversation sait produire un examen rigoureux quand le sujet est purement scientifique, et le perd dès que le registre devient symbolique-spirituel.
 >
 > **Conclusion** : en cours d'éclaircissement. L'intuition de fond (confinement/isolement comme seuil vers un état subtil, résonance avec la khalwa) est doctrinalement défendable et mérite d'être conservée comme piste de réflexion spirituelle — mais strictement séparée de toute traduction en dispositif technologique. Pour trancher : (1) consulter ce que les commentateurs classiques (tafsīr) disent de l'alternance posturale des Gens de la Caverne et du séjour de Yûnus — très probablement des signes de la toute-puissance divine (āyāt), non des descriptions de mécanisme ; (2) ne pas poursuivre la piste « dispositif individuel » sous une forme technique sans avoir d'abord clarifié ce point auprès d'une autorité textuelle.
+>
+> **Qualification sashimono (2026-08-10, ajout formel, aucun contenu de fond)** :
+> le rapprochement entre le Barzakh et le projet de « matrices artificielles » est
+> un joint *kari-kumi* — suggéré, non tranché — sur son volet symbolique. Sur son
+> volet technique (capteurs EEG/EMF, ondes scalaires, budget d'ingénierie), le
+> joint est en outre ***zōsaku*** : le symbolisme barzakhique n'y porte aucune
+> conséquence technique, cette extrémité du joint étant purement contingente et
+> ne portant rien. Ni l'un ni l'autre n'établit qu'un dispositif technologique
+> corresponde au Barzakh décrit par la doctrine ; le verdict reste réservé à
+> Sidy (Cmd 12).
 >
 > **Lectures suggérées** :
 >   - [[doctrinal/symboles/khalwa]], [[doctrinal/symboles/barzakh]] — pour le cadre doctrinal déjà établi du Barzakh comme degré ontologique, sans glissement technologique.
