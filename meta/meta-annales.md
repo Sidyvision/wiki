@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-09
+updated: 2026-08-10
 ---
 
 # Annales du Domaine Réservé (`meta/`)
@@ -14,6 +14,28 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 <!-- INSERTION: EN-TÊTE -->
 
 ---
+
+## [2026-08-10] archivage | création lignée Kouyaté et fiche Sidy-Lamine Kouyaté
+
+- **Directive Sidy** : demande explicite de créer des fiches cibles pour
+  combler des liens à référent vide relevés dans le bloc
+  `doctrinal/discernement/2026-06-20_*`, dont au minimum une fiche
+  « Kouyaté » et une fiche sur Sidy sous son nom complet.
+- **`meta/genealogie/kouyate.md`** — hub généalogique du côté paternel
+  (nom mandingue, lignée de griots, tradition orale du « frère-serpent »
+  déjà documentée dans `2026-06-20_oiseau-serpent-jumeau.md`), en miroir
+  de `arbre-genealogique-sissoko.md`. Absence d'ascendants nommés côté
+  Kouyaté signalée comme lacune, non comblée artificiellement.
+- **`meta/genealogie/sidy-lamine-kouyate.md`** — nœud de convergence des
+  deux lignées (Kouyaté paternel, Sissoko maternel) sous le nom complet ;
+  strictement généalogique, aucun contenu spirituel ou biographique
+  au-delà de la position dans l'arbre (Cmd 4 : ce registre reste dans
+  `meta/personnel/sidy.md`, une page = un sujet).
+- **Lien effectif vers `doctrinal/`** porté par `kouyate.md` (sens
+  autorisé, §VI) vers `mythe-personnel-unifie` et `origine-jumeau-spirituel`
+  — voir l'entrée correspondante du même jour dans `doctrinal/annales.md`
+  pour le détail de la correction côté fiches discernement.
+- **Commit** : 211d8e9
 
 ## [2026-08-09] archivage | reclassement du compte rendu 12-agents hors circuit doctrinal
 

@@ -9,6 +9,32 @@ updated: 2026-08-10
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-10] discernement | Correction des 5 liens à référent vide du bloc 2026-06-20
+
+- **Directive Sidy** : « pour les 4 liens à référent vide, crée les fiches
+  cibles que tu considère approprié dont une "Kouyaté" et une autre sur
+  moi-même "Sidy-Lamine kouyaté" ». Un recomptage mécanique après le
+  premier passage du lot (voir entrée précédente) a montré 5 liens à
+  référent vide, non 4 : deux dans `mythe-personnel-unifie` (l.41, l.65),
+  deux dans `origine-jumeau-spirituel` (l.44, l.61), un dans
+  `triptyque-medine-jeu-de-piste` (l.71).
+- **Fiches cibles créées** dans `meta/genealogie/` : `kouyate.md` (hub
+  généalogique côté paternel) et `sidy-lamine-kouyate.md` (nœud de
+  convergence sous le nom complet), voir entrée du même jour dans
+  `meta/meta-annales.md`.
+- **Correction appliquée sans lien direct** : un premier essai de lien
+  `doctrinal/ -> meta/genealogie/kouyate` a été détecté et annulé avant
+  commit — cette direction est interdite par §VI (liens autorisés du
+  sensible vers le neutre uniquement ; `meta/` est le domaine le plus
+  sensible de la hiérarchie, `doctrinal/` un domaine neutre). Les 5
+  parenthèses/tirets vides ont donc été remplacés par de la prose non liée,
+  nommant explicitement l'étanchéité de circuit (§VI) comme motif de
+  l'absence de lien. Le lien effectif, dans le sens autorisé
+  (`meta/` -> `doctrinal/`), est porté par `kouyate.md`.
+- **Aucun `Statut` ni `Conclusion` de discernement modifié** — geste
+  purement mécanique de réparation de prose (Cmd 12).
+- **Commit** : 211d8e9
+
 ## [2026-08-10] discernement | Qualification sashimono du bloc 2026-06-20 (11 fiches)
 
 - **Directive Sidy** : « Traite le bloc du 2026-06-20 » — les 11 fiches
