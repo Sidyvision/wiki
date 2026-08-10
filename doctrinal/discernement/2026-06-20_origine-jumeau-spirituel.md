@@ -41,7 +41,7 @@ Sidy propose, comme exercice explicite de test de « rigueur logique » d'une id
 >
 > **Examen formel** : ce point reste important malgré la précision apportée. Le fait qu'un cadre conceptuel ait été délibérément formulé et travaillé dès 2023 (quelle que soit l'antériorité de l'expérience qu'il met en forme) signifie que les expériences ultérieures sont nécessairement lues *à travers* ce cadre déjà disponible. Cela ne les rend pas fausses, mais invite à distinguer, dans chaque expérience nouvelle, ce qui est donnée brute et ce qui est déjà une interprétation orientée par le cadre conceptuel préexistant — exercice de discernement que Sidy est le mieux placé pour mener, connaissant les expériences antérieures que ce wiki ne documente pas.
 >
-> **Conclusion** : en cours d'éclaircissement. Cette fiche n'invite pas à minimiser les expériences de Sidy, mais à resituer cette conversation précisément pour ce qu'elle est : la première mise en forme conceptuelle retrouvée dans ce corpus, non l'origine du motif lui-même. À rapprocher de la tradition familiale du « frère-serpent » (), qui constitue une autre source antérieure (transmission orale familiale), distincte de cette mise en forme philosophique personnelle.
+> **Conclusion** : en cours d'éclaircissement. Cette fiche n'invite pas à minimiser les expériences de Sidy, mais à resituer cette conversation précisément pour ce qu'elle est : la première mise en forme conceptuelle retrouvée dans ce corpus, non l'origine du motif lui-même. À rapprocher de la tradition familiale du « frère-serpent » (matériau familial documenté séparément en `meta/genealogie/`, non lié ici par étanchéité de circuit, §VI), qui constitue une autre source antérieure (transmission orale familiale), distincte de cette mise en forme philosophique personnelle.
 >
 > **Qualification sashimono (2026-08-10, ajout formel, aucun contenu de fond)** :
 > le rapprochement entre le motif du « jumeau spirituel »/des « stations » et la
@@ -58,5 +58,5 @@ Sidy propose, comme exercice explicite de test de « rigueur logique » d'une id
 ## Liens Transversaux
 
 - [[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]], [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]] — occurrences ultérieures du même motif.
--  — source familiale indépendante et antérieure (transmission orale), distincte de cette origine philosophique personnelle.
+- **Matériau familial (non lié)** : source familiale indépendante et antérieure (transmission orale du « frère-serpent », lignée Kouyaté), distincte de cette origine philosophique personnelle — documentée séparément en `meta/genealogie/`, non liée ici par étanchéité de circuit (§VI).
 - [[doctrinal/autorites/ibn-arabi]] — cadre doctrinal des *marātib al-wujūd*.
