@@ -189,6 +189,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 - [[doctrinal/etudes/2026-06-04_islam-et-ia|Islam et Intelligence Artificielle]]
 - [[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana|Être et psyché, Intellect et raison discursive (upakarana)]]
+- [[doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi|LLM et ontologie islamique automatisée — cas d'école de dérive kari-kumi]] — méthodologie du contrôle qualité vs. automatisation de correspondances
 
 ### Gizeh / science traditionnelle antédiluvienne
 - [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh|Données géométriques, géodésiques et métrologiques de la Grande Pyramide]] — relevé comparatif brut, `to-source`
@@ -199,6 +200,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 - [[doctrinal/sources/al-madrasah-al-hanbaliyyah|Al-Madrasah Al-Hanbaliyyah (institut d'enseignement traditionnel ḥanbalite)]]
 - [[doctrinal/sources/awrad-ibn-arabi|Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)]]
+- [[doctrinal/sources/histoire-wahhabis-corancez-redissi|L'Histoire des Wahabis et la naissance du Royaume Saoudien]] — Corancez (consul de France, XIXe s.) avec préface Redissi ; transcription depuis photographies, `#a-revoir`
 - [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi|Jesus and Enoch in the Barzakh of Ibn al-ʿArabī]]
 - [[doctrinal/sources/shams-al-maarif|Shams al-Maʿārif al-Kubrā (trad. française)]]
 - [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle|ʿIlm al-Nujûm — bases de l'astrologie traditionnelle]]
@@ -275,6 +277,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani|Tension terminologique — Cinq Présences divines : Burckhardt vs Jurjānī]] — close (traditionnel) : deux nomenclatures légitimes et complémentaires, non fondues
 - [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante|Rafîʿ ad-Darajât comme fonction transversale]] — close (traditionnel) : citation coranique 40:15 vérifiée sur exemplaire physique ; concordance établie avec le Nom divin du 38e degré du Nafas al-Rahmân
 - [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm|Sayyid al-Awwalîn wa-l-Âkhirîn, jonction cyclique premier/dernier, et allusion au Khatm]] 🔍 (en cours, rattachée à la tension walāya/quṭbiyya/khatm signalée le 2026-06-29)
+- [[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion|Wahhabisme et effondrement du Califat — hypothèse de la Grande Subversion et de la révolte des Kshatriya]] 🔍 (en cours, speculatif) — dynamique subversive unique, agents multiples, rapprochement Wahhabisme/Protestantisme, vérification bibliothèque physique requise
 
 ### Gizeh / science traditionnelle antédiluvienne
 - [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien|Gizeh comme pôle de science traditionnelle antédiluvienne]] — close (traditionnel) : filiation guénonienne directe (Le Tombeau d'Hermès), deux réserves permanentes conservées (non-confusion atlantéen/primordial, fragments infimes), fondées sur la distinction polaire/solaire

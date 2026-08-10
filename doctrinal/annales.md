@@ -1,13 +1,24 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-09
+updated: 2026-08-10
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-10] archivage | Trois fiches depuis `_inbox/` — études, discernement, sources
+
+- **Opération** : ARCHIVAGE & MAILLAGE — 3 fiches `vise` versées aux circuits.
+- **Créé** :
+  1. [[doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi]] (`status: academique`) — analyse méthodologique : dérive kari-kumi dans ontologie automatisée (Alshammari et al. 2026). Fiche de référence pour contrôle qualité. `to-source` sur PDF source en `raw/`.
+  2. [[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion]] (`status: speculatif`, bloc 🔍 complet) — hypothèse Grande Subversion (1924-1927) ; rapprochement Wahhabisme/Protestantisme ; kshatriya guénonienne `to-source`. Généalogie, examen formel, lectures suggérées au gabarit normatif.
+  3. [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] (`status: academique`) — Corancez (XIXe s.) + préface Redissi ; transcription photographies `#a-revoir`. Notice, table, avant-propos (p. 21-23) et notes de lecture liant au discernement (littéralisme, al-Ġazālī/Ibn Taymiyya).
+- **Maillage** : `discernement/wahhabisme` pointe `sources/corancez` en Notes de lecture ; `index.md` mise à jour (3 entrées). Aucun lien mort après correction cross_link `contre-tradition` → `antitradition-et-contre-tradition`.
+- **Vérification** : `verifier-invariants.py --racine /root/wiki` ✓ 0 erreur, 0 avertissement.
+- **Commit** : ARCHIVAGE: Trois fiches — étude LLM/ontologie, discernement Wahhabisme, source Corancez
 
 ## [2026-08-09] ingest | Intégration du sas — amendement CLAUDE.md et discernement hiérarchie principe/individuel
 
