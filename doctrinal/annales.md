@@ -9,6 +9,56 @@ updated: 2026-08-10
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-10] discernement | Qualification sashimono du bloc 2026-06-20 (11 fiches)
+
+- **Directive Sidy** : « Traite le bloc du 2026-06-20 » — les 11 fiches
+  `doctrinal/discernement/2026-06-20_*.md` (une même séance de khalwa),
+  explicitement exclues du croisement précédent (une co-occurrence de même
+  séance n'est pas une corroboration). Reconnaissance intégrale (corps de
+  fiche, pas seulement frontmatter) menée par agent avant tout plan, puis plan
+  soumis et approuvé par Sidy avant écriture (Cmd 6).
+- **Geste retenu** (Cmd 12, upakarana — purement formel, aucun commentaire sur
+  la validité spirituelle des expériences, Cmd 2) : qualification sashimono
+  *kari-kumi* des joints inter-traditionnels/inter-corpus déjà présents dans
+  chaque fiche, nommant explicitement ce que chaque joint n'établit pas.
+  9 fiches concernées :
+  [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]],
+  [[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]],
+  [[doctrinal/discernement/2026-06-20_experience-lefke-materia-secunda]],
+  [[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]],
+  [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]],
+  [[doctrinal/discernement/2026-06-20_pierres-astres-barzakh]],
+  [[doctrinal/discernement/2026-06-20_signaletique-spirituelle-kiswa]],
+  [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]].
+  [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] reçoit
+  en outre une qualification *zōsaku* explicite sur son volet technique (le
+  symbolisme barzakhique n'y porte aucune conséquence technique).
+- **Traitement distinct pour la fiche close** :
+  [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]] (verdict rendu
+  2026-07-14, antérieur au double contrôle du 2026-07-16) reçoit une note
+  factuelle de traçabilité — pas de qualification kari-kumi, aucune
+  réouverture, `Statut` et `Conclusion` inchangés.
+- **Fiche exclue du geste** :
+  [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire]]
+  — nature différente (alerte sur un danger, précédent déjà cité en
+  `CLAUDE.md` §V.d), aucune modification.
+- **Bornes respectées** (Cmd 12, règle « une séance = une source ») : aucun
+  `Statut` modifié, aucune `Conclusion` réécrite sur les 9 fiches ouvertes
+  (hors la note factuelle ci-dessus) ; aucune fusion ni corroboration mutuelle
+  créée entre les 11 fiches ; aucun `to-source` levé (aucun n'existe
+  littéralement dans ce lot) ; confrontation Gizeh jugée non requise (aucune
+  matière strictement polaire/axiale/septénaire/métrologique-28 dans ce bloc).
+- **Constats mécaniques signalés, non corrigés** (arbitrage réservé à Sidy) :
+  4 liens à référent vide en prose — `mythe-personnel-unifie` l.41 et l.57,
+  `origine-jumeau-spirituel` l.44 et l.54, `triptyque-medine-jeu-de-piste`
+  l.63 ; manquement de sourçage qualifié « grave » par la fiche elle-même dans
+  `triptyque-medine-jeu-de-piste` (citations attribuées à Ibn ʿArabī/Guénon
+  sans référence, présentées avec les marqueurs de la citation directe).
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+  0 erreur, 4 avertissements (liens `[[^]]` pré-existants, sans rapport avec
+  ce lot).
+- **Commit** : 25904b2
+
 ## [2026-08-10] discernement | Actualisations et correspondances signalées (croisement)
 
 - **Directive Sidy** : suite au rapport de méthode remis au pôle R&D
