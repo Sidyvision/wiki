@@ -12,6 +12,22 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-10] outillage | Méthode de traitement d'un lot mono-séance `discernement/` (qualification sashimono)
+
+- Consignation R&D (demande explicite de Sidy : « rapporte tout ce que tu
+  considères instructif au R&D ») du traitement du bloc
+  `doctrinal/discernement/2026-06-20_*` (11 fiches) —
+  [[atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono]].
+  Aucun contenu doctrinal reproduit ; méthode d'ingénierie uniquement
+  (reconnaissance intégrale avant plan, distinguo ouverte/close/hors-catégorie,
+  vérification mécanique indépendante de l'outil d'édition, séquence en deux
+  commits substantif→annales). Complète
+  [[atelier/rd/outillage/2026-08-10_methode-croisement-discernement]] pour le
+  cas d'un lot mono-séance, hors périmètre de la méthode de croisement
+  général.
+
+---
+
 ## [2026-08-10] outillage | Méthode de croisement des fiches `discernement/`
 
 - **Directive Sidy** : instruire le pôle R&D d'un rapport des moyens et méthode
