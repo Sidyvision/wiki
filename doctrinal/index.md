@@ -200,6 +200,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 - [[doctrinal/sources/al-madrasah-al-hanbaliyyah|Al-Madrasah Al-Hanbaliyyah (institut d'enseignement traditionnel ḥanbalite)]]
 - [[doctrinal/sources/awrad-ibn-arabi|Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)]]
+- [[doctrinal/sources/alshammari-llm-ontologie-hadith-2026|Large Language Models for Automated Islamic Ontology Construction]] — Alshammari, Atwell, Alsalka (2026) ; GPT-4 + corpus Hadith LK (39k aḥādīth) → ontologie OWL ; cas de rupture méthodologique (Table 2, kari-kumi)
 - [[doctrinal/sources/histoire-wahhabis-corancez-redissi|L'Histoire des Wahabis et la naissance du Royaume Saoudien]] — Corancez (consul de France, XIXe s.) avec préface Redissi ; transcription depuis photographies, `#a-revoir`
 - [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi|Jesus and Enoch in the Barzakh of Ibn al-ʿArabī]]
 - [[doctrinal/sources/shams-al-maarif|Shams al-Maʿārif al-Kubrā (trad. française)]]

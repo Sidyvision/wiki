@@ -5,17 +5,16 @@ status: academique
 tradition_cadre: "islam"
 tags: [ia, ontologie, epistemologie, kari-kumi, methodologie, gpt-4, correspondances]
 created: 2026-08-09
-updated: 2026-08-09
-sources: ["to-source"]
+updated: 2026-08-10
+sources: ["[[doctrinal/sources/alshammari-llm-ontologie-hadith-2026]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion]]"]
 ---
 
 # LLM et ontologie islamique automatisée — cas d'école de dérive kari-kumi
 
-> Note d'ingest : le PDF source est déposé par Sidy dans `raw/` pour fiche `sources/`
-> à part entière (`sources: ["to-source"]` levé une fois le texte primaire vérifié). Cette
-> étude analyse la méthodologie de l'article, non son contenu islamologique — elle est
+> Note d'ingest : fiche `sources/` créée (2026-08-10) — [[doctrinal/sources/alshammari-llm-ontologie-hadith-2026]].
+> Cette étude analyse la méthodologie de l'article, non son contenu islamologique — elle est
 > transversale à la discipline du dépôt, pas une fiche de lecture doctrinale.
 
 **Référence** : Alshammari IK, Atwell E, Alsalka MA. « Large language models for automated

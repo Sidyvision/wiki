@@ -9,6 +9,15 @@ updated: 2026-08-10
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-10] sources | Création fiche Alshammari — ontologie LLM/Hadith
+
+- **Opération** : PRODUCTION + ARCHIVAGE — fiche `sources/` intégrée suite à levée `to-source` de l'étude LLM du même jour.
+- **Créé** : [[doctrinal/sources/alshammari-llm-ontologie-hadith-2026]] — `status: academique` — article *Academia AI and Applications* 2026;2 (Alshammari, Atwell, Alsalka) ; notice bibliographique complète, méthodologie (GPT-4 sur corpus LK-Hadith 39k aḥādīth → dataset HTT bilingue → ontologie OWL), résultats (validation humaine deux phases), cas de rupture methodologique Table 2 (score 0.53 verset/hadith = exemple kari-kumi), enjeux fiabilité en domaine religieux.
+- **Maillage** : `sources/alshammari` liée bilatéralement via `cross_links` à [[doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi]]. Étude mise à jour (`sources_count` 1, frontmatter `updated` 2026-08-10, note d'ingest corrigée). `index.md` : fiche source listée.
+- **Vigilance** : Aucun `to-source` résiduel (article lui-même est source primaire). Bloc normalisé absent (fiche source, pas discernement).
+- **Vérification** : `verifier-invariants.py` ✓ 0 erreur, 0 avertissement.
+- **Commit** : SOURCES: Fiche Alshammari — LLM et ontologie islamique automatisée
+
 ## [2026-08-10] archivage | Trois fiches depuis `_inbox/` — études, discernement, sources
 
 - **Opération** : ARCHIVAGE & MAILLAGE — 3 fiches `vise` versées aux circuits.
