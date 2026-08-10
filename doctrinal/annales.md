@@ -9,6 +9,43 @@ updated: 2026-08-10
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-10] discernement | Actualisations et correspondances signalées (croisement)
+
+- **Directive Sidy** : suite au rapport de méthode remis au pôle R&D
+  ([[atelier/rd/outillage/2026-08-10_methode-croisement-discernement]]), réalisation
+  des actualisations et correspondances signalées lors du croisement des 33 fiches
+  `doctrinal/discernement/`. Traitement fiche par fiche (§VIII).
+- **Confrontation Gizeh ajoutée** (§VII, double contrôle) :
+  [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]
+  (matière polaire ; aucun ancrage direct trouvé, relation uniquement via deux
+  discernements déjà clos) et
+  [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28]] (matière
+  métrologique 28 ; lien direct manquant vers le pôle Gizeh ajouté, aucun ancrage
+  supplémentaire).
+- **Correction de faux positif** : [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]
+  portait déjà sa confrontation Gizeh (2026-07-28) — non détectée par l'extraction
+  déterministe car logée en corps de fiche, hors frontmatter. Lien direct vers
+  [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] ajouté
+  pour traçabilité mécanique future ; aucune duplication du geste.
+- **Cross-links candidats signalés** (kari-kumi, non tranchés, aucune réponse à la
+  question ontologique posée dans les fiches concernées) :
+  [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]]
+  → [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] ;
+  [[doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle]]
+  → [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]].
+- **Signalement de péremption** (constat factuel, aucun contenu de fond) :
+  [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence]] non
+  retouchée depuis 2026-07-03 alors que
+  [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]
+  (matière voisine) a été close depuis — invitation explicite à Sidy pour décision
+  de réouverture, aucune n'a été prise ici.
+- **Aucun `Statut` modifié, aucune `Conclusion` réécrite ou tranchée** (Cmd 12) — six
+  fiches enrichies en corps et frontmatter (`cross_links`, `updated:`) uniquement.
+- **Vérification** : `verifier-invariants.py` → 0 erreur, 3 avertissements — tous
+  faux positifs (`[[^]]`, motif regex cité en exemple dans le rapport R&D et repris
+  dans ces annales, mécaniquement lu comme wikilink par le scanner C1).
+- **Commit** : `871cb20`
+
 ## [2026-08-10] sources | Création fiche Alshammari — ontologie LLM/Hadith
 
 - **Opération** : PRODUCTION + ARCHIVAGE — fiche `sources/` intégrée suite à levée `to-source` de l'étude LLM du même jour.
