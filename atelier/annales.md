@@ -12,6 +12,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-10] outillage | Registre des problèmes R&D — near-miss étanchéité + récidive du piège de chiffre
+
+- Consignation R&D (demande explicite de Sidy : « instruit le R&D s'il a
+  quoi que ce soit de pertinent ») à la suite de la réparation des liens à
+  référent vide du bloc `discernement/2026-06-20_*` (voir
+  `doctrinal/annales.md` et `meta/meta-annales.md`, même jour) : une
+  tentative de lien `doctrinal/ -> meta/` a été insérée puis interceptée et
+  annulée **avant tout commit** (aucune trace dans l'historique git), et le
+  chiffre de consigne (« 4 liens ») s'est révélé erroné à la revérification
+  directe (5 réels) — troisième occurrence du même motif déjà consigné à
+  deux reprises le 2026-08-09 dans ce registre. Entrée complète :
+  [[atelier/rd/cahiers/registre-problemes]].
+- **Commit** : 8e7dc07 (annales substantives de l'opération elle-même) — la
+  présente entrée journalise séparément la mise à jour du cahier R&D.
+
+---
+
 ## [2026-08-10] outillage | Méthode de traitement d'un lot mono-séance `discernement/` (qualification sashimono)
 
 - Consignation R&D (demande explicite de Sidy : « rapporte tout ce que tu

@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-09
+updated: 2026-08-10
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,69 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-10] resolu | Tentative de lien `doctrinal/ -> meta/` interceptée avant commit, + reconfirmation du piège du chiffre non revérifié
+
+- **Symptôme** : à la demande de Sidy de créer des fiches cibles pour 4 liens
+  à référent vide du bloc `discernement/2026-06-20_*` (dont une fiche
+  « Kouyaté »), le premier geste d'édition a inséré
+  `[[meta/genealogie/kouyate|Kouyaté]]` **dans**
+  `doctrinal/discernement/2026-06-20_mythe-personnel-unifie.md` — un lien
+  `doctrinal/ -> meta/`. Séparément, le chiffre repris de la consigne
+  (« 4 liens ») ne correspondait pas au compte réel une fois les 3 fiches
+  concernées relues après leur passage sashimono antérieur : **5** liens à
+  référent vide, pas 4 (2 dans `mythe-personnel-unifie`, 2 dans
+  `origine-jumeau-spirituel`, 1 dans `triptyque-medine-jeu-de-piste`).
+- **Diagnostic** : le lien inséré violait directement §VI CLAUDE.md — « liens
+  autorisés : du sensible vers le neutre uniquement » ; `meta/` est le
+  domaine le plus sensible de la hiérarchie, `doctrinal/` un domaine neutre,
+  donc `doctrinal/ -> meta/` est structurellement le sens interdit, quel que
+  soit le contenu ou l'intention (ici, une simple réparation de lien mort,
+  geste en apparence anodin). L'erreur a été repérée par relecture du
+  résultat de l'édition dans le fil de travail lui-même, **avant** tout
+  `git add`/commit — aucune trace n'a donc atteint l'historique git. Sur le
+  second point, le chiffre « 4 » provenait de la formulation de la consigne
+  utilisateur elle-même (reprenant vraisemblablement une annale antérieure),
+  non revérifié par grep avant d'être pris pour argent comptant.
+- **Résolution** : le lien fautif annulé par un second `Edit` restaurant la
+  prose d'origine avant tout commit. Les 5 parenthèses/tirets vides
+  (recomptés par relecture directe des 3 fichiers) remplacés par de la prose
+  non liée nommant explicitement l'étanchéité de circuit comme motif de
+  l'absence de lien. Le lien effectif, dans le sens autorisé
+  (`meta/ -> doctrinal/`), porté par la nouvelle fiche
+  `meta/genealogie/kouyate.md` vers les deux fiches discernement concernées.
+  Commits `211d8e9` (substantif) et `8e7dc07` (annales).
+- **Compréhension tirée** :
+  1. **Un lien de réparation (\"combler un référent vide\") n'est pas exempté
+     de l'étanchéité par sa nature réparatrice.** L'intention corrective
+     abaisse la vigilance exactement au moment où elle devrait rester
+     entière — le geste le plus anodin en apparence (remplir une parenthèse
+     vide) est celui où une règle structurelle se contourne le plus
+     facilement par inattention.
+  2. **La direction d'un lien doit être vérifiée AVANT l'édition, pas après
+     relecture du diff.** Ici la vérification est arrivée à temps (avant
+     commit), mais seulement par relecture du résultat affiché par l'outil —
+     un contrôle explicite (\"circuit source vs circuit cible, lequel est le
+     plus sensible ?\") avant chaque `Edit` insérant un wikilink inter-circuit
+     aurait évité le geste plutôt que de le corriger après coup.
+  3. **Troisième occurrence du même piège de chiffre non revérifié dans ce
+     registre** (cf. entrées [2026-08-09] \"Bug de résolution... 89
+     annoncées, 81 réelles\" et \"self-report H‍ermes... 317 vs 89\") : un
+     chiffre porté par une consigne, une annale ou un rapport antérieur ne
+     doit jamais être pris comme fiable sans reconfirmation directe
+     (`grep`/relecture) au moment de l'exécution — la dérive de comptage
+     n'est pas un incident isolé mais un motif récurrent de ce dépôt à
+     surveiller systématiquement.
+- **Liens** : `CLAUDE.md` §VI (hiérarchie d'étanchéité) ;
+  `doctrinal/annales.md` [2026-08-10] et `meta/meta-annales.md` [2026-08-10]
+  (entrées de l'opération) ; `meta/genealogie/kouyate.md` ;
+  `meta/genealogie/sidy-lamine-kouyate.md` ; commits `211d8e9`, `8e7dc07` ;
+  entrées [2026-08-09] de ce même registre pour les deux occurrences
+  antérieures du piège de chiffre.
+- **Statut** : `resolu` — aucune trace du lien fautif dans l'historique git ;
+  motif consigné pour vigilance transversale future.
 
 ---
 
