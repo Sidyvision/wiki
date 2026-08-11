@@ -32,6 +32,35 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — heure du cron et nature du rapport tranchées
+
+- **Symptôme** : le §VI de la note laissait ouverts l'heure précise du cron
+  et le contenu exact du rapport envoyé.
+- **Diagnostic** : Sidy précise l'heure (12:00, midi) et la nature du rapport
+  — un rapport de **suggestion, révision, développement**, plus riche qu'un
+  simple constat brut des 3 scripts déterministes. Ce caractère suggestif
+  crée une tension apparente avec le §III.3 (« signalement Discord, jamais
+  d'écriture directe dans le registre ») : un rapport qui *suggère* des
+  pistes se rapproche d'un jugement, pas d'un simple fait.
+- **Résolution** : Sidy referme lui-même la tension dans le même énoncé —
+  toute suggestion du rapport **doit être validée avant journalisation**. Le
+  rapport Discord reste donc un projet soumis (comme tout signal du §III.3),
+  jamais une écriture actée ; la validation humaine s'étend du fait brut à la
+  suggestion, sans exception nouvelle à la porte humaine (Cmd 13). Heure
+  12:00 et nature du rapport consignées dans la note
+  (`_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`,
+  §VI).
+- **Compréhension tirée** : un rapport plus riche qu'un simple constat
+  (suggestion, révision, développement) n'affaiblit pas la porte humaine
+  déjà tranchée — elle l'étend mécaniquement, du fait à l'interprétation.
+  Pas de nouvelle dérogation à instruire.
+- **Liens** : [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|proposition phase 3]]
+- **Statut** : `resolu` — heure et nature du rapport tranchées ; format
+  précis (champs, structure) et mécanisme de post restent hors périmètre
+  (§VI de la note).
+
+---
+
 ## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — fréquence du cron tranchée
 
 - **Symptôme** : le §VI de la note laissait ouverte la fréquence exacte du

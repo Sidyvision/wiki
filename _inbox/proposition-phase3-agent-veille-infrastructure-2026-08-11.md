@@ -121,12 +121,19 @@ instruire séparément, avant toute écriture (Cmd 6) :
   ici, par cohérence avec `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`
   qui ne fixe que les noms lisibles — l'identifiant vit dans la configuration
   d'exécution locale (`.env`/`config.yaml`), jamais dans le dépôt versionné.
-- ~~la fréquence exacte du cron~~ — **tranchée (2026-08-11)** : **quotidienne**,
-  par analogie assumée avec le « Rapport du matin » déjà envisagé côté
-  H‍ermes/gardien (cf. `meta/projet-unifie/04-sessions-par-fonction-et-backlogs.md`).
-  Reste à instruire : l'heure précise, laissée à l'écriture du script cron ;
-- le **contenu exact** du rapport envoyé (format du signal : quels champs des
-  3 scripts déterministes, sous quelle forme condensée) ;
+- ~~la fréquence exacte du cron~~ — **tranchée (2026-08-11)** : **quotidienne,
+  12:00 (midi)**, par analogie assumée avec le « Rapport du matin » déjà
+  envisagé côté H‍ermes/gardien (cf.
+  `meta/projet-unifie/04-sessions-par-fonction-et-backlogs.md`).
+- ~~le contenu exact du rapport~~ — **tranché en nature (2026-08-11)** : un
+  rapport de **suggestion, révision, développement** — au-delà du simple
+  constat brut des 3 scripts déterministes, la routine peut proposer des
+  pistes (ce qui mérite révision, ce qui pourrait être développé). Ce
+  caractère suggestif **renforce**, plutôt qu'il n'assouplit, la règle déjà
+  tranchée au §III.3 : aucune suggestion n'est journalisée d'office — **toute
+  entrée du registre passe par la validation de Sidy avant consignation**, le
+  rapport Discord restant un projet soumis, jamais une écriture actée.
+  Reste à instruire : le format précis (champs exacts, longueur, structure) ;
 - le **mécanisme technique de post** vers Discord depuis un job cron
   côté-serveur ne passant pas par un agent H‍ermes (webhook Discord simple ?
   script Python dédié ? — à trancher, hors périmètre H‍ermes par construction

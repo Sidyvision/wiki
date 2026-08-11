@@ -12,6 +12,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — heure et nature du rapport tranchées
+
+- **Opération** : Sidy fixe l'heure du cron (12:00, midi) et la nature du
+  rapport (suggestion, révision, développement — au-delà du simple constat
+  brut). Tension identifiée et refermée dans le même énoncé : le caractère
+  suggestif du rapport ne crée aucune dérogation à la porte humaine (§III.3,
+  Cmd 13) — toute suggestion est validée par Sidy avant journalisation.
+  Détail au registre : [[atelier/rd/cahiers/registre-problemes]].
+- **Fichiers modifiés** :
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md` (§VI,
+  toujours `brouillon`), `atelier/rd/cahiers/registre-problemes.md` (nouvelle
+  entrée).
+- **Validation** : *(à compléter après vérification)*
+- **Commit** : *(SHA à ajouter après commit)*
+
+---
+
 ## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — fréquence quotidienne tranchée
 
 - **Opération** : Sidy confirme la fréquence du cron proposée au §VI —
