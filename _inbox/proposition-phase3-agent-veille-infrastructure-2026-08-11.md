@@ -9,10 +9,12 @@ updated: 2026-08-11
 
 # Proposition — Phase 3 : agent de veille infrastructure
 
-> **Statut** : `brouillon`, non visé. Rien de ce qui suit n'est exécuté ; c'est
-> un plan présenté avant toute écriture (Cmd 6), intégralement réversible.
-> Le verdict d'ouverture et de désignation appartient à Sidy (Cmd 13, et la
-> charte du pôle elle-même : « phase 3, sur désignation de Sidy »).
+> **Statut** : `brouillon`, non visé. Les trois questions du §III sont
+> tranchées (verdicts Sidy du 2026-08-11, ci-dessous) ; ouverture effective
+> (désignation de l'agent, écriture du prompt/de la routine) non encore
+> exécutée — c'est un plan présenté avant toute écriture (Cmd 6),
+> intégralement réversible. Le verdict d'ouverture définitive appartient à
+> Sidy (charte du pôle : « phase 3, sur désignation de Sidy »).
 
 ---
 
@@ -43,26 +45,33 @@ nouveaux capteurs — elle a à décider **qui** relit leurs sorties, **quand**,
 et **comment** un signal devient une entrée du registre plutôt qu'un
 avertissement silencieux perdu entre deux sessions.
 
-## III. Ce que « veiller » signifierait concrètement (à trancher)
+## III. Ce que « veiller » signifierait concrètement (tranché, 2026-08-11)
 
-Trois questions distinctes, à ne pas confondre dans un seul verdict :
+Trois questions distinctes, tranchées séparément — verdicts Sidy du
+2026-08-11 :
 
-1. **Qui** — un agent H‍ermes existant (profil dédié ?) ou une routine
-   Claude Code côté poste INTÉGRATION (session périodique, pas un agent
-   Discord) ? Les deux natures sont très différentes : un agent H‍ermes tourne
-   en continu et peut réagir à un événement (ex. commit) ; une routine
-   INTÉGRATION suppose une session lancée par Sidy ou planifiée.
-2. **Quoi** — périmètre exact de la veille : uniquement les 3 scripts
-   déterministes ci-dessus (structure/liens/staging), ou aussi la mesure
-   d'empreinte serveur (cf.
+1. **Qui** — **routine côté poste INTÉGRATION** (session Claude Code
+   périodique/planifiée sur le serveur), **pas un agent H‍ermes dédié**.
+   Motif retenu : cohérent avec le statu quo du cloisonnement technique
+   H‍ermes (accès FS restreint, retour d'expérience en cours — cf. mémoire
+   « Cloisonnement technique H‍ermes ») ; réutilise un poste déjà cadré par le
+   protocole plutôt que d'ouvrir une nouvelle couche à superviser.
+2. **Quoi** — les 3 scripts déterministes **et** la mesure d'empreinte
+   serveur (cf.
    [[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]], instantané
-   ponctuel actuellement, jamais répété) ?
-3. **Quand un signal devient-il une entrée du registre** — automatique
-   (l'agent écrit lui-même dans `registre-problemes.md`) ou l'agent
-   *signale*, un humain ou une session INTÉGRATION *consigne* ? La deuxième
-   option est plus conforme à Cmd 13 (porte humaine) et à la nature actuelle
-   du registre (écriture manuelle réfléchie, pas un flux de logs bruts) —
-   mais c'est un arbitrage, pas une évidence.
+   ponctuel actuellement). **Point resté ouvert** : rendre cette mesure
+   récurrente est un chantier à part (fréquence de prise, stockage des
+   séries, seuils d'alerte) — non instruit par cette note, à traiter avant
+   que la veille ne l'inclue effectivement.
+3. **Quand un signal devient-il une entrée du registre** — **signalement via
+   Discord**, jamais d'écriture directe dans `registre-problemes.md`. La
+   routine rapporte le signal sur un canal Discord existant (allowlist
+   stricte, §VIII.8 de CLAUDE.md) ; c'est Sidy, ou une session INTÉGRATION
+   sur sa demande, qui rédige et consigne l'entrée. Écarte du même geste la
+   question du push non supervisé (une consignation automatique aurait
+   obligé à trancher si la routine committe/pousse sans relecture — §IX.5,
+   Cmd 13) : le signalement Discord ne touche jamais au dépôt lui-même,
+   aucune dérogation à la porte humaine n'est nécessaire.
 
 ## IV. Risque à nommer si la veille est confiée à un agent H‍ermes
 
@@ -75,9 +84,18 @@ ou fichier de sortie relu manuellement) évite cette extension de surface ;
 une veille en écriture directe au registre la crée délibérément. Point à
 trancher explicitement, pas par défaut.
 
-## V. Ce que cette note ne fait pas
+## V. Ce que cette note ne fait pas (et ce qui reste à faire)
 
-Elle ne désigne aucun agent, ne code aucun automatisme, ne modifie aucun
-fichier hors `_inbox/`. Elle pose les trois questions (§III) et le risque
-(§IV) pour que le verdict de Sidy porte sur des options nommées plutôt que
-sur une intention encore vague.
+Le §III est tranché, mais cette note ne désigne encore aucun agent, ne code
+aucun automatisme, ne modifie aucun fichier hors `_inbox/`. Restent à
+instruire séparément, avant toute écriture (Cmd 6) :
+
+- la formulation exacte de la routine INTÉGRATION (fréquence, déclencheur —
+  planifiée ou lancée par Sidy, contenu du rapport) ;
+- le canal Discord de signalement (lequel, allowlist — §VIII.8) ;
+- le chantier laissé ouvert au §III.2 (récurrence de la mesure d'empreinte
+  serveur) avant qu'il n'entre effectivement dans le périmètre de veille.
+
+Le risque nommé au §IV (surface d'écriture d'un agent H‍ermes) reste sans
+objet tant que le §III.1 (routine INTÉGRATION, pas d'agent H‍ermes dédié)
+n'est pas rouvert.

@@ -12,6 +12,29 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — §III tranché
+
+- **Opération** : discussion des trois questions du §III de
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
+  (qui, quoi, comment consigner). Détail complet, y compris le retour en
+  arrière sur la question 3, au registre :
+  [[atelier/rd/cahiers/registre-problemes]].
+- **Verdicts Sidy (2026-08-11)** : (1) routine côté poste INTÉGRATION, pas
+  d'agent H‍ermes dédié ; (2) périmètre = 3 scripts déterministes + mesure
+  d'empreinte serveur (récurrence de la mesure laissée en chantier séparé) ;
+  (3) signalement via un canal Discord existant, aucune écriture
+  automatique dans `registre-problemes.md`.
+- **Fichiers modifiés** :
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
+  (§III et §V mis à jour, toujours `brouillon` — désignation effective non
+  exécutée, Cmd 6), `atelier/rd/cahiers/registre-problemes.md` (nouvelle
+  entrée).
+- **Validation** : `verifier-invariants.py --racine /root/wiki` : `0 erreur(s),
+  40 avertissement(s)` (baseline inchangée).
+- **Commit** : *(SHA à ajouter après commit)*
+
+---
+
 ## [2026-08-11] outillage/proposition | Session R&D (suite) — détecteur non-trackés, statu quo SSH, proposition phase 3
 
 - **Opération** : suite de la session R&D du jour (voir entrée précédente pour

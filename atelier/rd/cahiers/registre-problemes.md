@@ -32,6 +32,38 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — §III de la proposition tranché
+
+- **Symptôme** : `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
+  posait trois questions ouvertes (qui veille, quel périmètre, comment un
+  signal devient une entrée du registre) sans verdict.
+- **Diagnostic** : les trois questions ont été discutées séparément avec
+  Sidy pour éviter qu'un seul verdict global ne masque des arbitrages
+  distincts. Premier passage sur la question 3 (« consignation automatique »)
+  révélait une tension avec Cmd 13/§IX.5 (porte humaine) — signalée avant
+  d'écrire, sans trancher à la place de Sidy — qui a motivé une reprise du
+  verdict.
+- **Résolution** : verdicts Sidy du 2026-08-11 — (1) routine côté poste
+  INTÉGRATION, pas d'agent H‍ermes dédié ; (2) périmètre = les 3 scripts
+  déterministes **et** la mesure d'empreinte serveur (récurrence de la
+  mesure laissée en chantier séparé) ; (3) signalement via un canal Discord
+  existant, jamais d'écriture directe dans ce registre — écarte du même
+  geste la question du push non supervisé. Note mise à jour en conséquence,
+  toujours `brouillon` (aucune écriture hors `_inbox/`, Cmd 6) : la
+  désignation effective (routine, canal, prompt) reste à instruire.
+- **Compréhension tirée** : sur une question à plusieurs volets, poser les
+  arbitrages un par un (plutôt qu'un verdict global) laisse la place à un
+  retour en arrière sur un seul volet sans remettre en cause les autres —
+  ici, Sidy est revenu sur la question 3 seule après qu'une tension avec
+  Cmd 13 a été nommée, sans rouvrir les questions 1 et 2 déjà tranchées.
+- **Liens** : `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
+  §III, §V ; `CLAUDE.md` §IX.5, Cmd 13.
+- **Statut** : `resolu` — arbitrage des trois questions clos ; la désignation
+  effective (routine, canal, prompt) reste hors périmètre, à instruire
+  séparément.
+
+---
+
 ## [2026-08-11] resolu | Piste outillage D — décision statu quo SSH consignée
 
 - **Symptôme** : `atelier/rd/infrastructure/synchro-obsidian-working-copy-github.md`
