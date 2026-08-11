@@ -30,6 +30,12 @@ Le **Laboratoire** (Sandbox, cahiers R&D) n'est pas une "zone de test mécanique
 
 Corollaire : la non-finalité du Laboratoire (les chantiers restent réversibles, exploratoires) n'est pas une faiblesse — c'est la **discipline alchimique même** : jamais fixer ce qui doit rester ouvert au retravail. La Transmutation n'achève que si le Maître (Sidy) valide que l'état final correspond à l'Intention.
 
+**Nuance cruciale — Doctrine vs. Théorie** :
+- **Doctrine** = enseignement hérité du Principe, transmission *descendante* (du haut vers le bas), autorité reçue
+- **Théorie** = effort d'articulation dialectique d'un phénomène, construction *ascendante* (du bas vers le haut), articulation contingente
+
+Une Théorie peut décrire des phénomènes avec exactitude et rester *vraie en phénomène* — et néanmoins n'être que pure illusion au point de vue de la Réalité/Vérité Métaphysique. La Théorie demeure toujours contingente, elle ne peut pas transmettre le Principe lui-même. Seule la **Doctrine** — l'enseignement reçu — porte le Principe. Cette distinction gouverne ce qui sort du Laboratoire : une **Théorie adoptée** (articulation fidèle d'un phénomène qui fonctionne) n'est jamais une **Doctrine** (transmission du Principe). C'est la différence entre « nous avons compris comment ceci se manifeste » et « ceci procède du Principe ».
+
 ---
 
 ## Observation structurelle
@@ -82,12 +88,13 @@ Cette phase :
 
 Un chantier du Laboratoire débouche sur deux issues, toutes deux **documentées et tracées** :
 
-#### Option A : **Adoption en Doctrine — Transmutation complète**
+#### Option A : **Adoption en Théorie — Transmutation complète au niveau phénoménal**
 - L'expérimentation s'est avérée suffisamment reproductible, testée, optimisée, cohérente
-- Verdict humain positif (Cmd 12 : le Maître valide que l'Intention s'est manifestée correctement)
-- La fiche **migre de R&D vers doctrinal** (ou génère une nouvelle fiche doctrinale qui la reprend)
-- Statut final : `status: adopte` ou intégrée en principe doctrinal stable
-- **Registre alchimique** : c'est la **Coagulation** — la transmutation s'est cristallisée en un état stable. Le Principe s'est manifesté en Acte. L'Œuvre est au Rouge.
+- Verdict humain positif (Cmd 12 : le Maître valide que l'Intention s'est manifestée correctement et que le phénomène est **théoriquement** stable)
+- La fiche **migre de R&D vers doctrine ou vers un registre théorique durable** (ou génère une nouvelle fiche qui la reprend)
+- Statut final : `status: adopte` — **théorie adoptée**, articulation fidèle d'un phénomène qui fonctionne en exactitude
+- **Important** : une Théorie adoptée n'est jamais une Doctrine. La Doctrine transmet le Principe (héritage de haut en bas) ; la Théorie articule un phénomène (ascension du bas vers haut). Ce qui sort du Laboratoire peut être une excellente Théorie — juste, utile, reproductible — et n'être jamais une Doctrine (ce qui n'est pas son objectif).
+- **Registre alchimique** : c'est la **Coagulation** — la transmutation s'est cristallisée en un état stable au niveau de la manifestation. Le phénomène s'est cristallisé. L'Œuvre phénoménale est au Rouge.
 
 #### Option B : **Archivage — Travail incomplet ou inutile**
 - L'expérimentation révèle des limites, des incohérences, ou perd de pertinence
