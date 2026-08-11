@@ -12,6 +12,25 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] structure | Hypothèse méthodologique : Sandbox comme dépendance structurelle du R&D
+
+- **Contexte** : réflexion sur la relation entre Discernement (spéculation personnelle),
+  R&D (exploration exploratoire), et le Sandbox (espace de travail). Fiche de
+  discernement rédigée (voir annales doctrinal du même jour).
+- **Proposition** : expliciter que le Sandbox (`atelier/rd/cahiers/`) est la **poche
+  de travail du R&D**, c'est-à-dire l'espace de non-finalité programmée — tout
+  chantier en phase `exploratoire` y vit par défaut, demeure réversible jusqu'à
+  validation explicite (Cmd 6, Cmd 13), et sort du Sandbox soit vers doctrine
+  adoptée, soit vers archivage.
+- **Impact sur rd/** : aucun changement immédiat au structure ni aux scripts. Change
+  seulement la **clarté architecturale** et le régime de navigation entre chantiers.
+- **Statut** : en attente de verdict (Cmd 12) sur l'opportunité de formaliser cette
+  explicitation en CLAUDE.md.
+- **Aucune écriture au registre rd/** : reste une hypothèse documentée ailleurs
+  (discernement), non encore actionnable.
+
+---
+
 ## [2026-08-11] archivage | Chantier 12 agents (zodiacal) — brouillons d'extension principielle versionnés en atelier/rd/
 
 - **Opération** : déplacement de `/root/brouillons-prompts-zodiaque/` vers
