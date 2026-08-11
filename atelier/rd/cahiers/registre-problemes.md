@@ -32,6 +32,48 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Cartographie infrastructure serveur/Hermes/omniroute — documentation d'architecture
+
+- **Symptôme** : l'infrastructure Hetzner (matériel, services, agents, synchronisation) était 
+  connue par fragments (mesures brutes, documents de synchronisation, décisions isolées) mais 
+  manquait d'une vue globale cohésive documentant topologie, services, empreinte mémoire, 
+  points de défaillance, et points ouverts pour investigation.
+- **Diagnostic** : 
+  - Mesures brutes éxistent (`etat-serveur-hermes-2026-08-11.md` : 2 vCPU, 3.7 GB RAM, 
+    omniroute 1 GB, 12 Hermes agents 639 MB)
+  - Synchronisation documentée (`synchro-obsidian-working-copy-github.md`)
+  - Décisions d'infrastructure isolées (`infrastructure-ssh-statu-quo.md`)
+  - Manquait : architecture globale, empreinte mémoire récapitulative, topologie réseau, 
+    circuits informatiques, SPoF (single points of failure), questions ouvertes
+- **Résolution** : créé `atelier/rd/infrastructure/infrastructure-architecture-globale-2026-08-11.md` — 
+  document cartographique couvrant :
+  1. Topologie réseau (GitHub → Hetzner ← iPad)
+  2. Couche applicative détaillée (12 profils Hermes avec RAM, omniroute critique 1 GB)
+  3. Workflow consultation → intégration (CLAUDE.md Cmd 6)
+  4. Empreinte mémoire récapitulative (17% Hermes, 28% omniroute, 54% système)
+  5. Ressources stockage et uptime
+  6. Circuits informatiques (Git SSH, Discord HTTPS, API HTTPS)
+  7. SPoF analysis (clé API Anthropic, omniroute, Hetzner SSH, uptime)
+  8. Points ouverts : omniroute fonction exacte, clé API Anthropic impasse Sidy, 
+     Qwen clause No API automation, Hermes accès meta/, monitoring absent
+- **Compréhension tirée** : une cartographie infrastructure n'est pas une recommandation 
+  d'optimisation — c'est une photographie du système à un moment (2026-08-11), observation 
+  brute sans jugement (§VIII.2). Elle sert deux fonctions : (1) compréhension globale du 
+  système pour onboarding futurs ; (2) base de diagnostic lors de pannes ou dégradations 
+  (comparaison avant/après). Points ouverts explicités = invitations à instruire (registre 
+  pour suivis futurs).
+- **Liens** :
+  - [[atelier/rd/infrastructure/infrastructure-architecture-globale-2026-08-11]]
+  - [[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]]
+  - [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]]
+  - [[atelier/rd/infrastructure/infrastructure-ssh-statu-quo]]
+  - Mesures : Hetzner 2 vCPU, 3.7 GB RAM, 38 GB disk (51% libre), omniroute 1040 MB RSS, 
+    Hermes 12 profils 639.5 MB, uptime 78j 18h, load avg <0.1
+- **Statut** : `resolu` — cartographie créée et structurée ; base stable pour diagnostics futurs
+- **Commit** : (à venir)
+
+---
+
 ## [2026-08-11] resolu | Implémentation des 4 pistes outillage instruites (pistes A, B, C, D) — documentation et verification
 
 - **Symptôme** : les quatre pistes outillage identifiées en session R&D avaient été 

@@ -12,6 +12,43 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] infrastructure | Cartographie architecture infrastructure serveur/Hermes/omniroute
+
+- **Opération** : création de document cartographique global unifiant mesures brutes, topologie 
+  réseau, description des services (12 profils Hermes + omniroute), empreinte mémoire consolidée, 
+  et identification des points de défaillance critiques pour diagnostic et audit. Document 
+  d'architecture destiné à l'onboarding et à la base de comparaison historique.
+- **Fichiers créés** :
+  - `atelier/rd/infrastructure/infrastructure-architecture-globale-2026-08-11.md` : cartographie 
+    complète (topologie, services, mémoire, uptime, circuits réseau, SPoF, points ouverts)
+- **Fichiers modifiés** :
+  - `atelier/rd/cahiers/registre-problemes.md` : nouvelle entrée documentant la cartographie 
+    comme résolution du point ouvert « infrastructure documentation globale »
+- **Mesures et observations** :
+  - Topologie : GitHub (SSH origin) ↔ Hetzner (2 vCPU, 3.7 GB RAM, 38 GB disk 51% libre) 
+    ↔ iPad (Obsidian via Working Copy)
+  - Services : 12 profils Hermes (639.5 MB total), omniroute 1040 MB (28% RAM, critique), 
+    hermes-webui 9.8 MB
+  - Uptime : 78j 18h ; load avg < 0.1
+  - Swap utilisé : 1 GB / 2 GB (signal d'alerte mémoire au moment de la mesure)
+  - SPoF identifiés : clé API Anthropic (11 agents paralysés), omniroute (fonction inconnue), 
+    Hetzner SSH key (écriture dépôt), uptime Hetzner (tous les services)
+- **Points ouverts à instruire** :
+  1. omniroute : fonction exacte, dépendances, optimisation RAM ?
+  2. Clé API Anthropic : impasse à Sidy (budget), en attente résolution
+  3. Qwen sur gardien : clause « No API automation » — risque révocation à respecter
+  4. Hermes accès meta/ : cloisonnement technique statu quo (retour d'expérience en cours)
+  5. Historique de charge : aucune série temporelle (monitoring à installer)
+- **Vérification** :
+  - `verifier-invariants.py --racine /root/wiki` : 5 erreurs, 45 avertissements (baseline 
+    stable +2 pour nouvelle fiche avec liens meta)
+  - Aucune anomalie de structure ou de liens dans la cartographie créée
+- **État** : cartographie complète, observation brute sans recommandations d'optimisation 
+  (distinction §VIII.2 maintenue) ; base solide pour diagnostics et onboarding futurs
+- **Commit** : (à venir)
+
+---
+
 ## [2026-08-11] outillage | Implémentation des 4 pistes outillage instruites (pistes A, B, C, D) — documentation fiches et verification
 
 - **Opération** : finalisation de la documentation et vérification des quatre pistes 
