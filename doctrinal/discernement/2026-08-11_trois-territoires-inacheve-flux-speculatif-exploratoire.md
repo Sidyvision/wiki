@@ -1,7 +1,8 @@
 ---
 title: "Trois territoires de l'inachevé — flux spéculatif → exploratoire → finalisé"
 type: discernement
-status: speculatif
+status: adopte
+verdict_date: 2026-08-11
 description: >
   Hypothèse méthodologique sur la parenté entre Discernement, R&D et Herméneutique (registre expression),
   leur nature commune (non-finalité, portance zōsaku, validation humanelle), et le flux programmé

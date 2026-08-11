@@ -9,25 +9,27 @@ updated: 2026-08-10
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
-## [2026-08-11] discernement | Hypothèse méthodologique : trois territoires de l'inachevé et flux spéculatif→exploratoire→finalisé
+## [2026-08-11] discernement | Hypothèse méthodologique : trois territoires de l'inachevé — verdict d'adoption
 
-- **Fiche créée** : `2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md`
-  - **Contenu** : spéculation sur la parenté entre Discernement (status: speculatif),
-    R&D (statut_experience: exploratoire), et Herméneutique registre:expression
-    (registre: expression) — nature commune (non-finalité, portance *zōsaku*,
-    validation humanelle requise avant acte), flux programmé documenté (spéculation
-    → chantier exploratoire → doctrine adoptée ou archivée), Sandbox comme
-    dépendance structurelle du R&D.
-  - **Portée** : hypothèse architecturale en attente de verdict (Cmd 12) ; documente
-    un mécanisme existant en practice, propre à clarifier les trajectoires
-    Discernement↔R&D↔Doctrine déjà observées (ex. : extension zodiacale des 12
-    agents H‍ermes).
-  - **Statut** : `status: speculatif`, régime `statut_experience: exploratoire` pour
-    la fiche elle-même (test de sa pertinence).
-  - **Aucun changement à CLAUDE.md** : reste à valider (Cmd 6, Cmd 12).
-- **Fichiers créés** : 1 fichier.
-- **Validation** : `verifier-invariants.py --racine /root/wiki` : en attente de passage
-  (spéculation nouvelle, inerte jusqu'à adoption ou archivage).
+- **Fiche** : `2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md`
+  - **Contenu** : architecture de flux reliant Discernement (status: speculatif),
+    R&D (statut_experience: exploratoire), et Herméneutique registre:expression —
+    nature commune (non-finalité, portance *zōsaku*, validation humanelle requise),
+    flux spéculatif→exploratoire→théorie adoptée/archivage, légitimité théurgique
+    (Laboratoire comme Athanor de Transmutation), distinction Doctrine (transmission
+    du Principe, descendante) vs. Théorie (articulation phénoménale, ascendante,
+    contingente).
+  - **Portée** : hypothèse architecturale validée par Sidy (verdict 2026-08-11) ;
+    documente un mécanisme existant en practice, clarifie les trajectoires
+    Discernement↔R&D↔Doctrine (ex. : extension zodiacale des 12 agents H‍ermes,
+    phase 3 veille infra).
+  - **Statut** : `status: adopte` (verdict 2026-08-11). Fiche reste en Discernement
+    (c'est une théorie adoptée, non une Doctrine — articulation stable du flux,
+    pas transmission du Principe).
+  - **Enrichissements** : 3 commits tracés — création initiale, enrichissement
+    théurgique/alchimique, nuance Doctrine/Théorie.
+- **Validation** : `verifier-invariants.py --racine /root/wiki` : 5 erreur(s)
+  pré-existantes, 40 avertissement(s) baseline (inchangé).
 
 ## [2026-08-10] discernement | Correction des 5 liens à référent vide du bloc 2026-06-20
 
