@@ -12,6 +12,26 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — format et mécanisme proposés par délégation
+
+- **Opération** : Sidy délègue explicitement le format précis du rapport et
+  le mécanisme technique de post (« je me fie à ta suggestion le temps d'en
+  faire l'expérience directe et j'optimiserai au besoin »). Proposition
+  consignée au §VI de la note : format en 5 sections, mécanisme = webhook
+  Discord simple (canal `#infrastructure`) + script Python dédié
+  (`atelier/rd/outillage/`, à écrire), régime `statut_experience:
+  exploratoire` (§V.a) invoqué explicitement. Écriture effective toujours
+  hors périmètre (Cmd 6). Détail au registre :
+  [[atelier/rd/cahiers/registre-problemes]].
+- **Fichiers modifiés** :
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
+  (blockquote de tête + §VI, toujours `brouillon`),
+  `atelier/rd/cahiers/registre-problemes.md` (nouvelle entrée).
+- **Validation** : *(à compléter après vérification)*
+- **Commit** : *(SHA à ajouter après commit)*
+
+---
+
 ## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — heure et nature du rapport tranchées
 
 - **Opération** : Sidy fixe l'heure du cron (12:00, midi) et la nature du

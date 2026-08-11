@@ -32,6 +32,41 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — format et mécanisme proposés par délégation
+
+- **Symptôme** : le §VI de la note laissait ouverts le format précis du
+  rapport (champs, structure) et le mécanisme technique de post vers
+  Discord.
+- **Diagnostic** : Sidy délègue explicitement ces deux points (« je me fie à
+  ta suggestion le temps d'en faire l'expérience directe et j'optimiserai au
+  besoin ») — premier cas de cette session où l'arbitrage n'est pas rendu par
+  Sidy lui-même mais confié à la proposition machine, sous réserve
+  d'ajustement après expérience directe.
+- **Résolution** : proposition consignée dans la note
+  (`_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`,
+  §VI) — format en 5 sections (en-tête, résumé `verifier-invariants.py`,
+  résumé `Graphe/generer-cartographie.py --verifier`,
+  `detecter-non-tracke.py`, empreinte serveur, suggestions) ; mécanisme =
+  webhook Discord simple (pas de bot/agent H‍ermes, cohérent §III.1) + script
+  Python dédié, URL du webhook en configuration locale hors dépôt (§VIII.5).
+  Régime `statut_experience: exploratoire` (§V.a de CLAUDE.md) explicitement
+  invoqué pour qualifier cette proposition — non un choix figé. Écriture
+  effective (script, webhook, crontab) toujours hors périmètre de cette note
+  (Cmd 6).
+- **Compréhension tirée** : une délégation de Sidy à la machine reste, dans
+  ce dépôt, une délégation de **proposition** — la porte humaine ne se
+  déplace pas d'un cran plus loin (Cmd 13 : le verdict d'écriture effective
+  reste distinct de l'acceptation du plan). Le régime `exploratoire` du pôle
+  `rd/` est l'outil adapté pour qualifier une décision assumée comme
+  provisoire.
+- **Liens** : [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|proposition phase 3]]
+- **Statut** : `resolu` — format et mécanisme proposés ; reste hors
+  périmètre : l'écriture du script, la création du webhook, l'inscription au
+  crontab et à l'allowlist (§VIII.8), et le chantier de récurrence de la
+  mesure d'empreinte serveur (§III.2).
+
+---
+
 ## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — heure du cron et nature du rapport tranchées
 
 - **Symptôme** : le §VI de la note laissait ouverts l'heure précise du cron

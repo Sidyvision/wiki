@@ -9,14 +9,16 @@ updated: 2026-08-11
 
 # Proposition — Phase 3 : agent de veille infrastructure
 
-> **Statut** : `brouillon`, non visé. Les trois questions du §III et les deux
-> volets de désignation effective du §V (déclencheur cron, nouveau canal
-> Discord dédié) sont tranchés en principe (verdicts Sidy du 2026-08-11,
-> ci-dessous) ; l'écriture elle-même (nom du canal, script cron, mécanisme de
-> post Discord) reste hors périmètre de cette note (§VI) — un plan présenté
-> avant toute écriture (Cmd 6), intégralement réversible. Le verdict
-> d'ouverture définitive appartient à Sidy (charte du pôle : « phase 3, sur
-> désignation de Sidy »).
+> **Statut** : `brouillon`, non visé. Le §III et le §V (canal, fréquence,
+> heure, nature du rapport) sont tranchés par Sidy ; le format précis du
+> rapport et le mécanisme technique (webhook Discord + script dédié) sont
+> **proposés** ici par délégation explicite de Sidy (« je me fie à ta
+> suggestion le temps d'en faire l'expérience directe et j'optimiserai au
+> besoin » — régime `statut_experience: exploratoire`, §V.a de CLAUDE.md).
+> L'écriture elle-même (script, webhook, crontab) reste hors périmètre de
+> cette note (§VI) — un plan présenté avant toute écriture (Cmd 6),
+> intégralement réversible. Le verdict d'ouverture définitive (passage à
+> l'écriture) appartient à Sidy.
 
 ---
 
@@ -133,11 +135,34 @@ instruire séparément, avant toute écriture (Cmd 6) :
   tranchée au §III.3 : aucune suggestion n'est journalisée d'office — **toute
   entrée du registre passe par la validation de Sidy avant consignation**, le
   rapport Discord restant un projet soumis, jamais une écriture actée.
-  Reste à instruire : le format précis (champs exacts, longueur, structure) ;
-- le **mécanisme technique de post** vers Discord depuis un job cron
-  côté-serveur ne passant pas par un agent H‍ermes (webhook Discord simple ?
-  script Python dédié ? — à trancher, hors périmètre H‍ermes par construction
-  du §III.1) ;
+- ~~format précis et mécanisme technique de post~~ — **tranchés par
+  délégation (2026-08-11)** : Sidy s'en remet à la proposition ci-dessous, à
+  charge d'optimiser après une première expérience directe (`statut_experience:
+  exploratoire`, régime propre à `rd/`, §V.a de CLAUDE.md) :
+  - **Format** — en-tête (date, heure d'exécution) ; section 1 résumé
+    `verifier-invariants.py` (erreurs/avertissements, delta vs baseline
+    connue) ; section 2 résumé `Graphe/generer-cartographie.py --verifier`
+    (anomalies bloquantes/avertissements, delta) ; section 3
+    `detecter-non-tracke.py` (décompte par circuit, alerte si
+    `hors-circuit-inconnu`) ; section 4 empreinte serveur (RAM/disque/swap,
+    snapshot simple — la récurrence formelle de cette mesure reste le
+    chantier ouvert ci-dessous) ; section 5 « Suggestions » (1 à 3 pistes de
+    révision/développement en texte libre, explicitement marquées comme
+    propositions non actées, jamais comme constats).
+  - **Mécanisme** — **webhook Discord simple** sur le canal
+    `#infrastructure`, et non un agent H‍ermes ni un bot dédié : un webhook
+    est spécifique au canal, ne nécessite ni token de bot ni gateway, et
+    n'ouvre donc aucune surface côté H‍ermes (cohérent avec le §III.1). Un
+    script Python dédié (`atelier/rd/outillage/`, à nommer) orchestre les 3
+    scripts déterministes + le relevé serveur, compose le texte, et poste au
+    webhook ; l'URL du webhook est un secret et vit en configuration locale
+    hors dépôt (même régime que les identifiants Discord, §VIII.5), inscrite
+    à l'allowlist du canal au moment de l'écriture (§VIII.8).
+  - **Ce que cette proposition ne fait pas encore** : elle n'est qu'une
+    proposition consignée ici — l'écriture du script, la création du webhook
+    et l'inscription au crontab restent un acte séparé, non exécuté par cette
+    note (Cmd 6), à confirmer explicitement avant tout `Write`/commande
+    système.
 - le chantier laissé ouvert au §III.2 (récurrence de la mesure d'empreinte
   serveur) avant qu'il n'entre effectivement dans le périmètre de veille.
 
