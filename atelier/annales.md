@@ -12,6 +12,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — fréquence quotidienne tranchée
+
+- **Opération** : Sidy confirme la fréquence du cron proposée au §VI —
+  **quotidienne**, cohérente avec le « Rapport du matin » déjà envisagé côté
+  H‍ermes/gardien. Note mise à jour. Détail au registre :
+  [[atelier/rd/cahiers/registre-problemes]].
+- **Fichiers modifiés** :
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md` (§VI,
+  toujours `brouillon`), `atelier/rd/cahiers/registre-problemes.md` (nouvelle
+  entrée).
+- **Validation** : *(à compléter après vérification)*
+- **Commit** : *(SHA à ajouter après commit)*
+
+---
+
 ## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — canal Discord `#infrastructure` créé
 
 - **Opération** : Sidy communique en session le nom et l'identifiant du canal

@@ -121,9 +121,10 @@ instruire séparément, avant toute écriture (Cmd 6) :
   ici, par cohérence avec `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`
   qui ne fixe que les noms lisibles — l'identifiant vit dans la configuration
   d'exécution locale (`.env`/`config.yaml`), jamais dans le dépôt versionné.
-- la **fréquence exacte** du cron (proposition à confirmer : quotidienne, par
-  analogie avec le « Rapport du matin » déjà envisagé côté H‍ermes/gardien —
-  cf. `meta/projet-unifie/04-sessions-par-fonction-et-backlogs.md`) et l'heure ;
+- ~~la fréquence exacte du cron~~ — **tranchée (2026-08-11)** : **quotidienne**,
+  par analogie assumée avec le « Rapport du matin » déjà envisagé côté
+  H‍ermes/gardien (cf. `meta/projet-unifie/04-sessions-par-fonction-et-backlogs.md`).
+  Reste à instruire : l'heure précise, laissée à l'écriture du script cron ;
 - le **contenu exact** du rapport envoyé (format du signal : quels champs des
   3 scripts déterministes, sous quelle forme condensée) ;
 - le **mécanisme technique de post** vers Discord depuis un job cron

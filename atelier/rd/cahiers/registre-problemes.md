@@ -32,6 +32,27 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — fréquence du cron tranchée
+
+- **Symptôme** : le §VI de la note laissait ouverte la fréquence exacte du
+  cron, avec une proposition à confirmer (quotidienne, par analogie avec le
+  « Rapport du matin »).
+- **Diagnostic** : aucun élément nouveau — confirmation directe de la
+  proposition par Sidy.
+- **Résolution** : fréquence **quotidienne** consignée dans la note
+  (`_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`,
+  §VI), cohérente avec le « Rapport du matin » déjà envisagé côté
+  H‍ermes/gardien (`meta/projet-unifie/04-sessions-par-fonction-et-backlogs.md`).
+  L'heure précise reste à instruire à l'écriture du script cron.
+- **Compréhension tirée** : néant — décision directe, sans tension à
+  documenter.
+- **Liens** : [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|proposition phase 3]]
+- **Statut** : `resolu` — fréquence tranchée ; heure précise, contenu du
+  rapport, mécanisme de post et inscription à l'allowlist restent hors
+  périmètre (§VI de la note).
+
+---
+
 ## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — canal Discord créé
 
 - **Symptôme** : le §VI de la note laissait ouvert le nom exact du nouveau
