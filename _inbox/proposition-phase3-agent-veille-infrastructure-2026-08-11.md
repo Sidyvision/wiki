@@ -90,13 +90,16 @@ Trois questions distinctes, tranchées séparément — verdicts Sidy du
    (`/root/brouillons-prompts-zodiaque/09-studio-sagittarius.md`) —
    l'extension effective du mandat est un acte séparé, à confirmer
    explicitement (Cmd 6), et conditionnée par le chantier nommé ci-dessous.
-   **Chantier resté ouvert, hors périmètre de cette note** : pour exécuter
-   effectivement les scripts déterministes de veille, le Studio Sound
-   Engineer a besoin d'un accès FS/exécution que le cloisonnement H‍ermes
-   actuel (statu quo, retour d'expérience en cours — mémoire « Cloisonnement
-   technique H‍ermes ») ne lui accorde pas nécessairement — ce point
-   conditionne la mise en œuvre technique, pas la désignation elle-même, et
-   reste à instruire séparément avant toute écriture de prompt.
+   **Accès FS/exécution — tranché (2026-08-11)** : l'accès du Studio Sound
+   Engineer aux scripts déterministes (`verifier-invariants.py`,
+   `Graphe/generer-cartographie.py --verifier`, `detecter-non-tracke.py`,
+   relevé serveur) est désormais accordé — le cloisonnement technique
+   H‍ermes ne bloque plus ce chantier (statu quo levé). Gouvernance : par défaut
+   régime strict (demande Discord → validation Sidy → exécution) ; auto-accept
+   mode optionnel, activable ad hoc par Sidy pour une période donnée
+   (similaire au mode auto-accept du plan de Claude Code), qui se désactive
+   automatiquement après — cohérent avec Cmd 13 (porte humaine), traçabilité
+   Discord intégrale.
 2. **Quoi** — les 3 scripts déterministes **et** la mesure d'empreinte
    serveur (cf.
    [[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]], instantané
@@ -204,23 +207,25 @@ instruire séparément, avant toute écriture (Cmd 6) :
     hors dépôt (même régime que les identifiants Discord, §VIII.5), inscrite
     à l'allowlist du canal au moment de l'écriture (§VIII.8).~~
 
-    **Mécanisme — rouvert (2026-08-11)** : ce mécanisme était motivé
-    explicitement par l'ancien verdict §III.1 (« cohérent avec le §III.1 » —
-    éviter toute surface côté H‍ermes). Le §III.1 étant rouvert et
-    réattribué au Studio Sound Engineer, ce motif ne tient plus tel quel :
-    si l'exécutant est désormais un agent H‍ermes, un simple webhook porté
-    par un script tiers n'a plus de sens (l'agent composerait et posterait
-    lui-même le rapport, probablement via le canal Discord déjà utilisé par
-    la couche agentique — cf. `DISCORD_HOME_CHANNEL`,
-    `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`). Le
-    format en 5 sections ci-dessus reste une cible valable (indépendante de
-    l'exécutant) ; le mécanisme de post est **à réinstruire séparément**,
-    une fois le chantier FS/accès du §III.1 résolu — non tranché ici.
-  - **Ce que cette proposition ne fait pas encore** : elle n'est qu'une
-    proposition consignée ici — l'écriture du script, la création du webhook
-    et l'inscription au crontab restent un acte séparé, non exécuté par cette
-    note (Cmd 6), à confirmer explicitement avant tout `Write`/commande
-    système.
+    **Mécanisme — tranché (2026-08-11)** : le webhook+script tiers proposé
+    initialement pour le poste INTÉGRATION n'a plus lieu d'être — l'agent
+    Studio Sound Engineer compose et poste le rapport lui-même via le canal
+    `#infrastructure` (pas de tiers, traçabilité agent natives via les
+    empreintes H‍ermes). Flux : l'agent orchestre les 3 scripts déterministes
+    + relevé serveur, compose le texte selon le format en 5 sections
+    ci-dessus, puis demande via Discord : « Rapport de veille — validez ? »
+    (ou directe si auto-accept mode actif). Sidy valide (ou auto-accept
+    exécute), l'agent poste au canal. Toute action est tracée Discord (audit
+    trail intégrale, natif agent H‍ermes). Pas d'écriture au registre par
+    l'agent (inchangé, §III.3) — le rapport Discord est le signalement ;
+    Sidy (ou session INTÉGRATION) opère la consignation au registre si
+    actionnable. Le format en 5 sections demeure la cible de contenu
+    (indépendant du mécanisme).
+  - **Ce que cette transition ne fait pas encore** : elle n'est qu'une
+    documentation du changement — l'extension effective du prompt du Studio
+    Sound Engineer (`hermes-prompts/09-studio-sound-engineer.md`) reste un
+    acte séparé, non exécuté par cette note (Cmd 6), à confirmer explicitement
+    avant toute modification du prompt d'agent en production.
 - le chantier laissé ouvert au §III.2 (récurrence de la mesure d'empreinte
   serveur) avant qu'il n'entre effectivement dans le périmètre de veille.
 

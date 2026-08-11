@@ -32,6 +32,41 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — accès FS accordé, gouvernance Discord-validation, mécanisme de post tranché
+
+- **Symptôme** : l'accès FS/exécution du Studio Sound Engineer aux scripts
+  déterministes de veille était le chantier nommé mais non résolu lors de la
+  réouverture du §III.1. Reste à définir la gouvernance de cet accès et le
+  mécanisme de post du rapport composé par l'agent.
+- **Diagnostic** : Sidy accorde explicitement l'accès FS (cloisonnement
+  H‍ermes levé sur ce point, statu quo rompu) ; définit la gouvernance :
+  régime strict par défaut (demande Discord → validation Sidy → exécution),
+  auto-accept mode optionnel activable ad hoc par Sidy pour une période
+  donnée (similaire au mode auto-accept du plan de Claude Code), qui se
+  désactive automatiquement après. Mécanisme de post : c'est l'agent
+  lui-même qui compose le rapport selon le format des 5 sections, demande
+  via Discord « Rapport de veille — validez ? » (ou exécution directe si
+  auto-accept), Sidy valide, l'agent poste au canal `#infrastructure` —
+  aucun webhook tiers ni script porté par poste INTÉGRATION n'est nécessaire
+  (remplacement complet du mécanisme proposé au §VI initial).
+- **Résolution** : §III.1 complété (bloc « Accès FS/exécution — tranché »),
+  §VI mécanisme réécrit (agent lui-même, Discord, format des 5 sections
+  inchangé). Note phase 3 mise à jour, reste `brouillon`.
+- **Compréhension tirée** : une décision en cascade (réouverture du §III.1)
+  se concrétise progressivement avec trois points de résolution : (a)
+  désignation de l'agent (tranché : pos. 9), (b) accès technique +
+  gouvernance (tranché ce jour), (c) extension du prompt en production
+  (restant, acte séparé). Tracer chaque point plutôt que les fondre en une
+  seule « Réouverture » aide à identifier ce qui est exécutable et ce qui
+  attend.
+- **Liens** : [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|proposition phase 3]]
+- **Statut** : `resolu` — accès FS, gouvernance, et mécanisme de post tous
+  tranchés par Sidy ; reste hors périmètre : extension du prompt
+  `hermes-prompts/09-studio-sound-engineer.md`, aucun acte non exécuté ici
+  (Cmd 6).
+
+---
+
 ## [2026-08-11] ouvert | Phase 3 (agent de veille infrastructure) — §III.1 rouvert, veille réattribuée au Studio Sound Engineer
 
 - **Symptôme** : Sidy relie explicitement le chantier phase 3 (déjà tranché

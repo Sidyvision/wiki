@@ -12,6 +12,25 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — accès FS accordé, gouvernance Discord-validation tranché, mécanisme de post tranché
+
+- **Opération** : suite de la réouverture du §III.1 : Sidy accorde l'accès FS
+  du Studio Sound Engineer aux scripts déterministes, définit la gouvernance
+  (strict par défaut + auto-accept ad hoc), et fixe le mécanisme de post
+  (l'agent compose et poste le rapport lui-même via Discord, plus de webhook
+  tiers). Format des 5 sections conservé. Note mise à jour, blockquote de
+  tête et §III.1 complétés, §VI mécanisme réécrit (pas de webhook, pas de
+  crontab — c'est l'agent). Détail au registre :
+  [[atelier/rd/cahiers/registre-problemes]].
+- **Fichiers modifiés** :
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
+  (toujours `brouillon`), `atelier/rd/cahiers/registre-problemes.md`
+  (nouvelle entrée).
+- **Validation** : *(à compléter après vérification)*
+- **Commit** : *(SHA à ajouter après commit)*
+
+---
+
 ## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — §III.1 rouvert, veille réattribuée au Studio Sound Engineer
 
 - **Opération** : Sidy rouvre le §III.1 (déjà tranché : routine poste
