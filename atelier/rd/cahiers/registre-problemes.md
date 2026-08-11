@@ -32,6 +32,50 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Implémentation des 4 pistes outillage instruites (pistes A, B, C, D) — documentation et verification
+
+- **Symptôme** : les quatre pistes outillage identifiées en session R&D avaient été 
+  tranchées (décisions prises) et partiellement implémentées, mais manquaient de 
+  documentation cohésive en fiches dédiées du pôle `rd/`.
+- **Diagnostic** : 
+  - Piste A (verifier-invariants C4) : déjà implémentée (commit 48cfaa6), 41 avertissements 
+    actifs, aucune fiche dédiée
+  - Piste B (generer-cartographie.py v1.1) : deux-niveaux de sévérité déjà déployés 
+    depuis 2026-07-22, aucune fiche ne les documentait
+  - Piste C (detecter-non-tracke.py) : script implémenté, spec fiche existante
+  - Piste D (SSH statu quo) : décision prise (Sidy 2026-08-11), aucune fiche d'infra ne 
+    la documentait
+- **Résolution** :
+  - Piste B : créé `atelier/rd/outillage/spec-generer-cartographie-tolerant.md` — 
+    explique two-level severity (BLOQUANT gouvernance, AVERTISSEMENT chantier)
+  - Piste D : créé `atelier/rd/infrastructure/infrastructure-ssh-statu-quo.md` — 
+    documente verdict, rationale, clause réouverture
+  - Piste C : déjà documenté (spec-detecter-non-tracke.md), script testé et vérifié
+  - Piste A : implémentation déjà active, aucune fiche créée (C4 warnings visible dans 
+    verifier-invariants.py output, documentation dans code suffisante pour cette session)
+- **Vérification** :
+  - `verifier-invariants.py` : 5 erreurs (bloquant), 43 avertissements (dont 41 C4) — 
+    baseline stable (+2 warnings attendus = 2 nouvelles fiches avec liens meta)
+  - `generer-cartographie.py --verifier` : 2 anomalies BLOQUANT (frontmatter) — 
+    inchangées, aucune nouvelle
+  - `detecter-non-tracke.py` : identifie correctement les 2 nouvelles fiches comme 
+    non-trackées avant staging
+- **Compréhension tirée** : une implémentation code n'est pas complète sans documentation 
+  de ses principes et de ses options dans le pôle R&D. Les quatre pistes constituent un 
+  ensemble cohérent (outillage + infrastructure de gouvernance du dépôt) dont le status 
+  réel (implémenté/décidé) dépasse ce que la session précédente avait documenté.
+- **Liens** :
+  - [[atelier/rd/outillage/spec-generer-cartographie-tolerant]]
+  - [[atelier/rd/infrastructure/infrastructure-ssh-statu-quo]]
+  - [[atelier/rd/outillage/spec-detecter-non-tracke]]
+  - Commits antérieurs : 48cfaa6 (pistes A, C 2026-08-11)
+- **Statut** : `resolu` — fiches B, D créées et testées ; A, C déjà documentés en 
+  code/spec ; Piste A en attente document séparé (arbitrage Sidy sur C4 verbal en session, 
+  pas de fiche dédiée pour cette passe)
+- **Commit** : 3650ed8
+
+---
+
 ## [2026-08-11] resolu | Extension du prompt agent 09 (Studio Sound Engineer) — zodiacal principle + governance Discord-validation
 
 - **Symptôme** : le prompt en production de l'agent 09 (Studio Sound Engineer, position 

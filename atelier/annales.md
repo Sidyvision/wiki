@@ -12,6 +12,37 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] outillage | Implémentation des 4 pistes outillage instruites (pistes A, B, C, D) — documentation fiches et verification
+
+- **Opération** : finalisation de la documentation et vérification des quatre pistes 
+  d'outillage du pôle R&D (session 2026-08-11). Pistes A (C4 verifier-invariants) et C 
+  (detecter-non-tracke.py) déjà implémentées en code et en spec, pistes B et D manquaient 
+  de fiches dédiées.
+- **Fichiers créés** :
+  - `atelier/rd/outillage/spec-generer-cartographie-tolerant.md` : documentation de la 
+    sévérité à deux niveaux du script v1.1 (BLOQUANT gouvernance, AVERTISSEMENT chantier) 
+    — distinct d'un « mode tolérant », c'est une hiérarchisation des anomalies
+  - `atelier/rd/infrastructure/infrastructure-ssh-statu-quo.md` : documentation du verdict 
+    (statu quo SSH, pas de migration HTTPS+PAT), rationale (gestion de secret + coût 
+    détour Working Copy) et clause de réouverture
+- **Fichiers modifiés** :
+  - `atelier/rd/cahiers/registre-problemes.md` : nouvelle entrée documentant la complétude 
+    de l'implémentation des quatre pistes (A, B, C, D tous en statut resolu) et les 
+    résultats de vérification (baseline stable)
+- **Vérification** : 
+  - `verifier-invariants.py --racine /root/wiki` : 5 erreur(s), 43 avertissement(s) — 
+    baseline stable (+2 warnings attendus pour les 2 nouvelles fiches avec liens meta)
+  - `generer-cartographie.py --depot /root/wiki --verifier` : 2 anomalies BLOQUANT 
+    (frontmatter absent) — inchangées
+  - `detecter-non-tracke.py --racine /root/wiki` : identifie 2 fichiers non-trackés 
+    (les 2 nouvelles fiches), aucune anomalie
+- **État** : pistes B et D documentées. Piste A (C4 verifier-invariants) reste sans fiche 
+  dédiée à ce stade (implémentation active en code, arbitrage verbal de Sidy en session 
+  jugé suffisant pour cette passe). Piste C (spec existante et script testé) complète.
+- **Commit** : 3650ed8
+
+---
+
 ## [2026-08-11] agents-h‍ermes | Extension du prompt agent 09 (Studio Sound Engineer, pos. 9 Sagittaire) — zodiacal + governance
 
 - **Opération** : intégration au prompt en production des sections zodiacales 
