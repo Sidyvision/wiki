@@ -12,6 +12,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] archivage | Chantier 12 agents (zodiacal) — brouillons d'extension principielle versionnés en atelier/rd/
+
+- **Opération** : déplacement de `/root/brouillons-prompts-zodiaque/` vers
+  `atelier/rd/cahiers/brouillons-extension-zodiacale/` — 9 brouillons (pos.
+  1, 2, 3, 4, 6, 7, 9, 10, 11) + README, avec frontmatter + clause
+  d'étanchéité explicite (CLAUDE.md §VI). Positions 5, 8, 12 marquées en
+  attente. Reste hors écriture : application en production, reste
+  exploratoire (statut_experience). Détail au registre rd/:
+  [[atelier/rd/cahiers/registre-problemes]].
+- **Fichiers modifiés** : 9 fichiers créés/modifiés en
+  `atelier/rd/cahiers/brouillons-extension-zodiacale/` (all with frontmatter +
+  clause), README inclus.
+- **Validation** : *(à compléter après vérification)*
+- **Commit** : *(SHA à ajouter après commit)*
+
+---
+
 ## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — accès FS accordé, gouvernance Discord-validation tranché, mécanisme de post tranché
 
 - **Opération** : suite de la réouverture du §III.1 : Sidy accorde l'accès FS

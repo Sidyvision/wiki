@@ -32,6 +32,38 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Chantier 12 agents (zodiacal) — brouillons d'extension principielle versionnés en atelier/rd/
+
+- **Symptôme** : les 9 brouillons de prompts zodiacaux (positions 1, 2, 3, 4,
+  6, 7, 9, 10, 11) existaient en `/root/brouillons-prompts-zodiaque/`, hors du
+  dépôt versionné — invisibles à la traçabilité git, loin du flux R&D, 3
+  positions en attente (5, 8, 12) non documentées explicitement.
+- **Diagnostic** : le chantier d'extension zodiacale est une R&D (statut
+  exploratoire, en cours de finalisation) — logiquement à proximité du pôle
+  `atelier/rd/`, qui accueille aussi la phase 3 (veille infra, agent pos. 9).
+  Déplacement vers `atelier/rd/cahiers/brouillons-extension-zodiacale/` améliore
+  la traçabilité, le versioning, et l'organisation — tout en respectant
+  l'étanchéité (clause explicite : les données personnelles du thème natal
+  portent leur propre hiérarchie ontologique, per CLAUDE.md §VI corollaire
+  agentique).
+- **Résolution** : 9 brouillons + README copiés/intégrés en `atelier/rd/cahiers/brouillons-extension-zodiacale/`.
+  Chaque brouillon reçoit frontmatter minimal (type: outillage,
+  statut_experience: exploratoire, created/updated, tags) + bloc d'étanchéité
+  explicite rappelant CLAUDE.md §VI et la nature sensible du thème natal.
+  Positions 5, 8, 12 marquées hors périmètre du lot (attente de verdict).
+- **Compréhension tirée** : versioner les brouillons d'agents en R&D ne les
+  « finalise » pas — le frontmatter `statut_experience: exploratoire` et la
+  clause explicite les maintiennent dans un état non-appliqué, conforme à Cmd
+  6 (pas d'écriture sans plan validé). Étanchéité et traçabilité ne
+  s'opposent pas quand les données sensibles sont marquées en clair.
+- **Liens** :
+  [[atelier/rd/cahiers/brouillons-extension-zodiacale/README|chantier 12 agents — zodiacal]]
+- **Statut** : `resolu` — brouillons déplacés et documentés ; reste hors
+  périmètre : application aux prompts en production (positions 1-4, 6-7,
+  9-11), intégration de positions 5, 8, 12 (en attente de verdict).
+
+---
+
 ## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — accès FS accordé, gouvernance Discord-validation, mécanisme de post tranché
 
 - **Symptôme** : l'accès FS/exécution du Studio Sound Engineer aux scripts
