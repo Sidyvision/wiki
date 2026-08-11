@@ -39,9 +39,11 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Fichiers créés** : `atelier/rd/outillage/detecter-non-tracke.py`,
   `atelier/rd/outillage/spec-detecter-non-tracke.md`,
   `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`.
-- **Validation** : *(à consigner après exécution de
-  `verifier-invariants.py --racine /root/wiki` et `Graphe/generer-cartographie.py --verifier`)*.
-- **Commit** : *(SHA à ajouter après commit)*
+- **Validation** : `verifier-invariants.py --racine /root/wiki` : `0 erreur(s),
+  40 avertissement(s)` (baseline inchangée). `Graphe/generer-cartographie.py
+  --verifier` : 2 anomalies bloquantes (les 2 `frontmatter` pré-existantes,
+  hors périmètre — inchangé).
+- **Commit** : 37e6023
 
 ---
 
