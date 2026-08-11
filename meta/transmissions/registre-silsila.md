@@ -125,3 +125,23 @@ Instance v2 rendue à Mehdi (confirmation Sidy). Fichier retiré du sas
 `_inbox/` — le cycle repart en navette : prochain retour attendu au gré de
 Mehdi, avec ses ajouts en §8/§9 (récit de la rencontre encore attendu,
 retour éventuel sur le chantier Mother Base/DHV Magellan).
+
+## [2026-08-11] retour | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+Fichier revenu via `_inbox/` (`karubi-mehdi-navette-20260809.md`). Sceau
+vérifié : INTACT, hash inchangé depuis la remise de la v2. Écart corrigé au
+passage : la v2 (§4 actualisé cinq circuits/pôle R&D/herméneutique, §10
+réponses de Sidy du 2026-08-09) était journalisée mais n'avait jamais été
+réellement écrite dans le fichier canonique `meta/transmissions/karubi-mehdi.md`
+(resté en v1/2026-07-20) — corrigé à cette occasion, contenu désormais
+conforme au registre. Ajout en zone de croissance §8 : entrée du Karūbī
+confirmant la remise de la v2, et nouvelle sous-section « Corpus Isaghuji —
+cours de logique (Mehdi) » — Mehdi commence à consigner, cours par cours, sa
+traduction personnelle de la série Isaghuji (Shaykh Ahmed El Azhary, logique
+traditionnelle d'al-Abharî). Cours 1 (Introduction) reçu en pièce jointe
+(PDF encodé en base64 dans le markdown, ~400 Ko) — extrait et consigné au
+dépôt sur consigne de Sidy : PDF source dans
+`raw/Isaghuji_Cours01_Introduction_Pedagogique-Mehdi.pdf`, transcription
+`raw/isaghuji-cours01-introduction-transcription.md` (`type: source`,
+`status: to-source` — transcription IA d'un cours oral, non recoupée avec
+l'audio original). §9/§10 : aucune nouvelle question, inchangés. Sas `_inbox/`
+vidé après intégration.

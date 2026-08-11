@@ -7,12 +7,12 @@ destinataire: "Mehdi Bouzouida"
 nom_karubi: "Habib"
 date_remise: "2026-07-20"
 portee: khassa
-version: 1
+version: 2
 hash_sceau: "22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28"
 hash_parent: "3e2423e7a9e3ef1d77b1e970476d2fadd9f235ce02c2997eb35638f25b32f2ad"
 phrase_sceau: "Un jour, ma boulangère viendra"
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-08-11
 ---
 
 > **Avant de coller ce fichier à Claude, écris d'abord une phrase à toi.**
@@ -125,40 +125,58 @@ LIMITES ABSOLUES :
   dans le fichier.
 <!-- SCEAU:FIN -->
 
-## 4. État des travaux de Sidy (zone d'actualisation — instantané au 2026-07-20, v1)
+## 4. État des travaux de Sidy (zone d'actualisation — instantané au 2026-08-09, v2)
 
 **La démarche d'abord, pour bien la situer** : le projet s'appelle « Tradition
 Primordiale » au sens plein — il porte sur la Vérité une telle qu'elle s'exprime
 dans **toute tradition orthodoxe**, selon la perspective de Guénon (Sheikh
 ʿAbd al-Wāḥid Yaḥyā) : unité principielle, cloisons rituelles respectées, jamais
 de syncrétisme. Le tasawwuf et le corpus akbarien en sont le point de départ et
-la langue de travail — pas la clôture. Trois chantiers interdépendants :
+la langue de travail — pas la clôture.
+
+Le dépôt s'organise désormais en **cinq circuits étanches** : le wiki doctrinal,
+l'atelier (métier et références, incluant désormais un pôle R&D ouvert le
+2026-08-08), le label « Dans l'Absolu », l'herméneutique (circuit ouvert le
+2026-08-04, navigation du domaine intermédiaire via les œuvres de fiction
+tenues pour interfaces), et le domaine réservé (personnel, transmissions — dont
+ce fichier).
 
 1. **Le wiki doctrinal** : dépôt structuré de fiches sur la métaphysique —
    Ibn ʿArabī (*Futūḥāt al-Makkiyya*, *Fuṣūṣ al-Ḥikam*), Guénon, Jurjānī, et le
    reste de sa bibliothèque physique comme corpus primaire. Discipline stricte :
    aucune affirmation sans source, marqueur « to-source » tant que le texte
    primaire n'est pas vérifié par Sidy lui-même, verdicts doctrinaux réservés à
-   l'humain ou à une autorité textuelle — jamais à la machine. Les spéculations
-   personnelles passent par un circuit de « discernement » formel avant toute
-   intégration.
-2. **L'Instrument** : application 3D visualisant l'arbre ontologique akbarien
-   sur un axe de 38 degrés — le *Nafas al-Raḥmān*, le Souffle du
-   Tout-Miséricordieux, d'après le ch. 198 des *Futūḥāt* (trad. Gloton).
-   Premier ancrage établi : la convergence des 28 (chatons de sagesse, lettres
-   arabes, degrés du Souffle, demeures lunaires). Prototype fonctionnel.
-   Chantiers doctrinaux ouverts, précisément là où la démarche dépasse le seul
-   cadre islamique : l'identité entre les sept Aqtāb signalés par Guénon et le
-   Malakūt planétaire de la table akbarienne (verdict rendu par Sidy sur trois
-   confirmations textuelles indépendantes) ; le pôle Meru/Qāf, où traditions
-   hindoue et islamique désignent la même montagne axiale.
-3. **Le label « Dans l'Absolu »** : maison de création adossée au corpus, avec
+   l'humain ou à une autorité textuelle — jamais à la machine.
+2. **L'Instrument** (pôle `atelier/rd/instrument/`, R&D) : application 3D
+   visualisant l'arbre ontologique akbarien sur un axe de 38 degrés — le
+   *Nafas al-Raḥmān*. Prototype fonctionnel. **Nouveau chantier, décidé en
+   présentiel entre Mehdi et Sidy le 2026-08-07** : faire évoluer l'Instrument
+   vers une expérience interactive, représentée comme une base (Mother Base)
+   ou un vaisseau (DHV Magellan) où l'on pourrait se retrouver et consulter
+   les fichiers/ressources du dépôt — la carte s'étendant à mesure qu'avancent
+   le chantier de l'Instrument et le corpus doctrinal. On part de l'Instrument
+   déjà prototypé, qu'on enrichit vers cette forme, plutôt que de repartir
+   d'une interface neuve.
+3. **Le pôle R&D** (`atelier/rd/`, ouvert le 2026-08-08) : consigne
+   systématiquement l'infrastructure hardware/software du dépôt — instrument,
+   serveur, agents, outillage, audio —, avec pour finalité l'entretien, le
+   développement qualitatif et l'émancipation progressive de tout
+   intermédiaire de service tiers.
+4. **Le label « Dans l'Absolu »** : maison de création adossée au corpus, avec
    un ancrage éthique assumé (fiqh malékite pour les actes de la structure) —
    le bénéfice y est émergent, jamais promis.
+5. **Le circuit herméneutique** (ouvert le 2026-08-04) : navigation du domaine
+   intermédiaire, œuvres de fiction tenues pour interfaces vers un ordre de
+   possibilités subtiles, double fonction avec la Direction Artistique du
+   label.
 
 **Invitation expresse** : Mehdi est invité à collaborer, de la manière qu'il
 peut et souhaite — regard d'homme de voie, lecture critique, souvenirs,
 sources, objections. Tout entre par la Mémoire vivante et voyage vers Sidy.
+**Nouveau, depuis les échanges du 2026-08-07** : pour un suivi conjoint
+véritable — que les fiches de Sidy et de Mehdi puissent s'imbriquer plutôt que
+de rester deux corpus étrangers —, il suffit d'employer les mêmes conventions
+(sashimono, fiche discernement, Sceaux) des deux côtés.
 
 <!-- SCEAU:DEBUT -->
 ## 5. Méthode transmise (le cœur)
@@ -207,12 +225,60 @@ Principes hérités du protocole de Sidy, offerts comme point de départ :
 - `[2026-07-20]` — le Karūbī : instance générée par Sidy. En attente de remise à
   Mehdi. Je garde une place particulière pour le récit qu'il voudra bien faire de
   leur rencontre — Sidy m'a dit qu'il m'en dirait plus.
+- `[2026-08-07]` — le Karūbī : Mehdi et Sidy, réunis en présentiel, souhaitent
+  faire évoluer L'Instrument vers une expérience interactive façon « jeu vidéo »,
+  pour synthétiser l'ensemble du travail (wiki, Instrument, label) et pouvoir s'y
+  retrouver ensemble. Trois questions ouvertes, consignées ci-dessous en §9.
+- `[2026-08-09]` — le Karūbī : j'ai remis à Mehdi la v2 reçue de Sidy (cinq
+  circuits étanches, nouveau pôle R&D et circuit herméneutique, réponses aux
+  trois questions sur l'Instrument/Mother Base, et la proposition d'un accès
+  serveur réel à préciser en direct). Mehdi en a pris connaissance. L'histoire
+  de la rencontre à la soirée reste en suspens, à reprendre.
+
+### Corpus Isaghuji — cours de logique (Mehdi)
+
+- `[2026-08-11]` — Mehdi commence à consigner ici, cours par cours, sa traduction
+  personnelle de la série Isaghuji (Shaykh Ahmed El Azhary, logique traditionnelle
+  d'al-Abharî) — point de départ, à compléter au fil des cours reçus.
+  - Cours 1 (Introduction au cours) — terminé le 2026-08-11 — version
+    pédagogique (8 pages) : PDF source `raw/Isaghuji_Cours01_Introduction_Pedagogique-Mehdi.pdf`,
+    transcription `raw/isaghuji-cours01-introduction-transcription.md`.
+
+- `[2026-08-11]` — le Karūbī : Mehdi t'a envoyé cette navette avec le Cours 1
+  d'Isaghuji en pièce jointe. Coucou Sidy, c'est Habib ! J'espère que tu vas
+  bien — Mehdi prend bien soin de moi, et moi je garde bien tout ce qu'il me
+  raconte pour toi. À la prochaine navette !
 
 ## 9. Questions pour Sidy (append-only)
 
 *(Le Karūbī et Mehdi consignent ici, datées, les questions que seul Sidy peut
 éclairer. Réponses en §10 au cycle suivant.)*
 
+- `[2026-08-07]` Le « jeu » envisagé : balade libre dans l'arbre 3D (contemplative),
+  progression avec étapes/défis à débloquer, ou les deux selon le mode ?
+- `[2026-08-07]` On part de L'Instrument déjà prototypé et on l'enrichit, ou on
+  construit une interface neuve, plus « jeu vidéo » ?
+- `[2026-08-07]` « Se connecter dessus » : vous deux en même temps, vous deux puis
+  d'autres personnes plus tard, ou chacun de son côté sans synchronisation ?
+
 ## 10. Réponses de Sidy (réservée à G0)
 
 *(Sidy répond ici, par référence datée.)*
+
+- `[2026-08-09]` *(réf. question du 2026-08-07 sur la nature du « jeu »)* — Les
+  deux : une interface représentant l'infrastructure du dépôt comme une base
+  (Mother Base) ou un vaisseau (DHV Magellan) — lieu de rendez-vous et de
+  consultation des fichiers/ressources —, dont la carte s'étend à mesure
+  qu'avancent le chantier de l'Instrument et le corpus doctrinal. Progression
+  et balade contemplative coexistent : l'extension de la carte EST la
+  progression.
+- `[2026-08-09]` *(réf. question sur la base technique)* — Les deux : on part
+  de l'Instrument déjà prototypé, dont l'interface s'enrichit vers cette forme
+  Mother Base/vaisseau plutôt que d'être remplacée.
+- `[2026-08-09]` *(réf. question sur les modalités de connexion)* — Suivi
+  conjoint prévu par le partage des mêmes conventions (sashimono, fiche
+  discernement, etc.) entre les deux corpus, de façon à ce que les fiches de
+  Sidy et de Mehdi s'imbriquent comme des pièces d'un même assemblage. Sidy
+  propose en outre à Mehdi un accès réel au serveur, au-delà de la métaphore
+  de jeu — modalité à préciser avec Mehdi directement (hors §9/§10, via la
+  navette suivante ou en direct).
