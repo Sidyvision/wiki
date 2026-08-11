@@ -32,8 +32,12 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   `brouillon` — nom du canal, fréquence exacte, contenu du rapport et
   mécanisme de post restent à instruire, Cmd 6),
   `atelier/rd/cahiers/registre-problemes.md` (nouvelle entrée).
-- **Validation** : *(à compléter après vérification)*
-- **Commit** : *(SHA à ajouter après commit)*
+- **Validation** : `verifier-invariants.py --racine /root/wiki` : `0 erreur(s),
+  40 avertissement(s)` (baseline inchangée, après correction d'un lien mal
+  formé — ZWJ intempestif dans deux chemins `meta/projet-unifie/`).
+  `Graphe/generer-cartographie.py --verifier` : 2 anomalies bloquantes
+  (les 2 `frontmatter` pré-existantes, hors périmètre — inchangé).
+- **Commit** : 34bc9a2
 
 ---
 
