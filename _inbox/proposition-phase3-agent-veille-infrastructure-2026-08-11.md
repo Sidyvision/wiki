@@ -9,16 +9,19 @@ updated: 2026-08-11
 
 # Proposition — Phase 3 : agent de veille infrastructure
 
-> **Statut** : `brouillon`, non visé. Le §III et le §V (canal, fréquence,
-> heure, nature du rapport) sont tranchés par Sidy ; le format précis du
-> rapport et le mécanisme technique (webhook Discord + script dédié) sont
-> **proposés** ici par délégation explicite de Sidy (« je me fie à ta
-> suggestion le temps d'en faire l'expérience directe et j'optimiserai au
-> besoin » — régime `statut_experience: exploratoire`, §V.a de CLAUDE.md).
-> L'écriture elle-même (script, webhook, crontab) reste hors périmètre de
-> cette note (§VI) — un plan présenté avant toute écriture (Cmd 6),
-> intégralement réversible. Le verdict d'ouverture définitive (passage à
-> l'écriture) appartient à Sidy.
+> **Statut** : `brouillon`, non visé. Le §V (canal, fréquence, heure, nature
+> du rapport) est tranché par Sidy. Le §III.1 (qui porte la veille), tranché
+> une première fois le 2026-08-11 pour le poste INTÉGRATION, a été **rouvert
+> le même jour** : la veille est réattribuée au **Studio Sound Engineer**
+> (agent H‍ermes, position 9 de la roue zodiacale) — voir §III.1
+> « Réouverture ». Cette réattribution **rouvre à son tour** le mécanisme
+> technique proposé au §VI (conçu pour l'ancien verdict), sans rouvrir le
+> §III.3 (signalement Discord seul, jamais d'écriture directe — inchangé
+> quel que soit l'exécutant). L'écriture elle-même (script, webhook,
+> crontab, extension du prompt d'agent) reste hors périmètre de cette note
+> (§VI) — un plan présenté avant toute écriture (Cmd 6), intégralement
+> réversible. Le verdict d'ouverture définitive (passage à l'écriture)
+> appartient à Sidy.
 
 ---
 
@@ -54,12 +57,46 @@ avertissement silencieux perdu entre deux sessions.
 Trois questions distinctes, tranchées séparément — verdicts Sidy du
 2026-08-11 :
 
-1. **Qui** — **routine côté poste INTÉGRATION** (session Claude Code
+1. **Qui** — ~~**routine côté poste INTÉGRATION** (session Claude Code
    périodique/planifiée sur le serveur), **pas un agent H‍ermes dédié**.
    Motif retenu : cohérent avec le statu quo du cloisonnement technique
    H‍ermes (accès FS restreint, retour d'expérience en cours — cf. mémoire
    « Cloisonnement technique H‍ermes ») ; réutilise un poste déjà cadré par le
-   protocole plutôt que d'ouvrir une nouvelle couche à superviser.
+   protocole plutôt que d'ouvrir une nouvelle couche à superviser.~~
+
+   **Réouverture (2026-08-11, même jour)** : Sidy relie explicitement ce
+   chantier à l'extension de rôle des 12 agents H‍ermes sur calibrage
+   zodiacal (fiches `meta/projet-unifie/16-...` et `17-...`) et attribue la
+   veille infrastructure à **l'agent le plus approprié** de la roue.
+   Cartographie effectuée (les 12 positions et leur force de correspondance,
+   cf. `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise.md`,
+   clos 2026-07-14) : aucun des 12 rôles n'est dédié à l'infrastructure
+   informatique — les deux correspondances solides (position 4 Cancer,
+   Administration & Legal ; position 10 Capricorne, Protocol Guardian) sont
+   des registres gouvernance/conformité, pas infrastructure matérielle ou
+   logicielle. Le seul rôle de registre technique/matériel est la
+   **position 9 (Sagittaire), Studio Sound Engineer**
+   (`meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md`,
+   correspondance « cohérente, non prouvée », archétype Faiseur) — c'est
+   celui-ci que Sidy désigne. Motif retenu : extension d'un mandat déjà
+   technique/pédagogique existant, plutôt que création d'une 13e position
+   hors roue — cohérent avec la règle de gouvernance déjà posée (fiche 16 :
+   « la roue zodiacale est l'étage principiel, les rôles en dérivent, jamais
+   l'inverse ») puisqu'aucun nouveau rôle n'est créé, un rôle existant est
+   étendu. **Ce que cette réouverture ne fait pas encore** : elle ne touche
+   ni le prompt d'agent en production
+   (`hermes-prompts/09-studio-sound-engineer.md`) ni le brouillon
+   d'extension zodiacale hors dépôt
+   (`/root/brouillons-prompts-zodiaque/09-studio-sagittarius.md`) —
+   l'extension effective du mandat est un acte séparé, à confirmer
+   explicitement (Cmd 6), et conditionnée par le chantier nommé ci-dessous.
+   **Chantier resté ouvert, hors périmètre de cette note** : pour exécuter
+   effectivement les scripts déterministes de veille, le Studio Sound
+   Engineer a besoin d'un accès FS/exécution que le cloisonnement H‍ermes
+   actuel (statu quo, retour d'expérience en cours — mémoire « Cloisonnement
+   technique H‍ermes ») ne lui accorde pas nécessairement — ce point
+   conditionne la mise en œuvre technique, pas la désignation elle-même, et
+   reste à instruire séparément avant toute écriture de prompt.
 2. **Quoi** — les 3 scripts déterministes **et** la mesure d'empreinte
    serveur (cf.
    [[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]], instantané
@@ -87,6 +124,14 @@ d'expérience en cours). Une veille en lecture seule + signalement (Discord,
 ou fichier de sortie relu manuellement) évite cette extension de surface ;
 une veille en écriture directe au registre la crée délibérément. Point à
 trancher explicitement, pas par défaut.
+
+**Clause (2026-08-11, réouverture du §III.1)** : la réattribution de la
+veille au Studio Sound Engineer (position 9) ne rouvre PAS ce risque tel
+quel — elle ne rouvre pas non plus le §III.3, resté intact : le
+signalement passe toujours et uniquement par Discord, jamais par une
+écriture directe au registre, quel que soit l'exécutant (poste INTÉGRATION
+ou agent H‍ermes). C'est cette règle inchangée, et non l'identité de
+l'exécutant, qui continue de contenir le risque nommé ici.
 
 ## V. Désignation effective (tranchée, 2026-08-11)
 
@@ -149,7 +194,7 @@ instruire séparément, avant toute écriture (Cmd 6) :
     chantier ouvert ci-dessous) ; section 5 « Suggestions » (1 à 3 pistes de
     révision/développement en texte libre, explicitement marquées comme
     propositions non actées, jamais comme constats).
-  - **Mécanisme** — **webhook Discord simple** sur le canal
+  - ~~**Mécanisme** — **webhook Discord simple** sur le canal
     `#infrastructure`, et non un agent H‍ermes ni un bot dédié : un webhook
     est spécifique au canal, ne nécessite ni token de bot ni gateway, et
     n'ouvre donc aucune surface côté H‍ermes (cohérent avec le §III.1). Un
@@ -157,7 +202,20 @@ instruire séparément, avant toute écriture (Cmd 6) :
     scripts déterministes + le relevé serveur, compose le texte, et poste au
     webhook ; l'URL du webhook est un secret et vit en configuration locale
     hors dépôt (même régime que les identifiants Discord, §VIII.5), inscrite
-    à l'allowlist du canal au moment de l'écriture (§VIII.8).
+    à l'allowlist du canal au moment de l'écriture (§VIII.8).~~
+
+    **Mécanisme — rouvert (2026-08-11)** : ce mécanisme était motivé
+    explicitement par l'ancien verdict §III.1 (« cohérent avec le §III.1 » —
+    éviter toute surface côté H‍ermes). Le §III.1 étant rouvert et
+    réattribué au Studio Sound Engineer, ce motif ne tient plus tel quel :
+    si l'exécutant est désormais un agent H‍ermes, un simple webhook porté
+    par un script tiers n'a plus de sens (l'agent composerait et posterait
+    lui-même le rapport, probablement via le canal Discord déjà utilisé par
+    la couche agentique — cf. `DISCORD_HOME_CHANNEL`,
+    `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`). Le
+    format en 5 sections ci-dessus reste une cible valable (indépendante de
+    l'exécutant) ; le mécanisme de post est **à réinstruire séparément**,
+    une fois le chantier FS/accès du §III.1 résolu — non tranché ici.
   - **Ce que cette proposition ne fait pas encore** : elle n'est qu'une
     proposition consignée ici — l'écriture du script, la création du webhook
     et l'inscription au crontab restent un acte séparé, non exécuté par cette

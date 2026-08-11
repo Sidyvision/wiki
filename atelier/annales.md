@@ -12,6 +12,28 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — §III.1 rouvert, veille réattribuée au Studio Sound Engineer
+
+- **Opération** : Sidy rouvre le §III.1 (déjà tranché : routine poste
+  INTÉGRATION) en le reliant explicitement au chantier de l'extension de
+  rôle des 12 agents H‍ermes sur calibrage zodiacal (fiches
+  `meta/projet-unifie/16-...`, `17-...`) et attribue la veille
+  infrastructure à la **position 9 (Sagittaire), Studio Sound Engineer** —
+  seul rôle des 12 de registre technique/matériel, après cartographie
+  complète des 12 positions confirmant l'absence d'autre candidat naturel.
+  Ancien verdict conservé barré (sashimono, réversibilité), cascade
+  documentée sur le mécanisme du §VI (rouvert à son tour), §III.3 et §IV
+  inchangés. Chantier FS/accès H‍ermes nommé, non résolu, hors périmètre.
+  Détail au registre : [[atelier/rd/cahiers/registre-problemes]].
+- **Fichiers modifiés** :
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
+  (blockquote de tête, §III.1, §IV, §VI, toujours `brouillon`),
+  `atelier/rd/cahiers/registre-problemes.md` (nouvelle entrée).
+- **Validation** : *(à compléter après vérification)*
+- **Commit** : *(SHA à ajouter après commit)*
+
+---
+
 ## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — format et mécanisme proposés par délégation
 
 - **Opération** : Sidy délègue explicitement le format précis du rapport et

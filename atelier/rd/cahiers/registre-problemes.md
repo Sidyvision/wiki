@@ -32,6 +32,51 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] ouvert | Phase 3 (agent de veille infrastructure) — §III.1 rouvert, veille réattribuée au Studio Sound Engineer
+
+- **Symptôme** : Sidy relie explicitement le chantier phase 3 (déjà tranché
+  §III.1 : routine poste INTÉGRATION, pas d'agent H‍ermes dédié) au chantier
+  distinct de l'extension de rôle des 12 agents H‍ermes sur calibrage
+  zodiacal (fiches `meta/projet-unifie/16-...`, `17-...`) et demande que la
+  veille infrastructure soit attribuée à « l'agent le plus approprié » de la
+  roue — rouvrant de fait un point déjà consigné comme tranché.
+- **Diagnostic** : cartographie effectuée (agent Explore) des 12 positions
+  et de leur force de correspondance
+  (`doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise.md`,
+  clos 2026-07-14) : aucun des 12 rôles n'est dédié à l'infrastructure
+  informatique — les deux correspondances solides (pos. 4 Cancer,
+  Administration & Legal ; pos. 10 Capricorne, Protocol Guardian) sont des
+  registres gouvernance/conformité, non infrastructure matérielle/logicielle.
+  Seul candidat de registre technique : **position 9, Sagittaire, Studio
+  Sound Engineer** (correspondance « cohérente, non prouvée », archétype
+  Faiseur) — limité à ce jour au matériel audio (chaîne Neve/Distressor/
+  tape), pas à l'infrastructure serveur.
+- **Résolution** : Sidy tranche pour la position 9. §III.1 de la note phase 3
+  rouvert (ancien texte conservé barré, discipline sashimono — jamais
+  supprimé sèchement), nouveau verdict consigné, cascade documentée sur le
+  §VI (le mécanisme webhook+script proposé pour l'ancien verdict est à son
+  tour rouvert, motivé explicitement par l'ancien §III.1). §III.3
+  (signalement Discord seul, jamais d'écriture directe) et le §IV (risque
+  d'un agent H‍ermes en écriture) restent inchangés — la réattribution ne les
+  rouvre pas.
+- **Compréhension tirée** : une réouverture explicite d'un point déjà tranché
+  doit être *tracée* à côté de l'ancien verdict, jamais silencieusement
+  remplacée (sashimono Art. 5 — réversibilité et traçabilité intégrale) ; et
+  une décision qui rouvre un point en entraîne d'autres en cascade (ici, le
+  mécanisme du §VI) qu'il faut nommer explicitement plutôt que laisser
+  incohérents. Point technique non résolu : le Studio Sound Engineer a
+  besoin d'un accès FS/exécution que le cloisonnement H‍ermes actuel (statu
+  quo, retour d'expérience en cours) ne lui accorde pas nécessairement —
+  chantier distinct, à instruire séparément avant toute écriture de prompt.
+- **Liens** : [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|proposition phase 3]]
+- **Statut** : `ouvert` — désignation de l'agent tranchée par Sidy ; restent
+  à instruire séparément : le chantier FS/accès H‍ermes, le nouveau mécanisme
+  technique de post, et l'extension effective du prompt
+  (`hermes-prompts/09-studio-sound-engineer.md`), aucun acte non exécuté ici
+  (Cmd 6).
+
+---
+
 ## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — format et mécanisme proposés par délégation
 
 - **Symptôme** : le §VI de la note laissait ouverts le format précis du
