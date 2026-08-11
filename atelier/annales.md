@@ -31,7 +31,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   entrée).
 - **Validation** : `verifier-invariants.py --racine /root/wiki` : `0 erreur(s),
   40 avertissement(s)` (baseline inchangée).
-- **Commit** : *(SHA à ajouter après commit)*
+- **Commit** : 380595a
 
 ---
 
