@@ -100,3 +100,7 @@ dans le dépôt.
   amorcé rétroactivement avec 3 entrées de la session de migration. Tout problème,
   erreur ou blocage rencontré dans les travaux du pôle doit y être consigné ; un
   échec se consigne comme un succès (règle 3 du laboratoire).
+- **Outillage déterministe (session du 2026-08-11)** :
+  [[atelier/rd/outillage/spec-detecter-non-tracke|detecter-non-tracke.py]] —
+  constat des fichiers non trackés par git, classé par circuit (même famille
+  que `verifier-invariants.py`, ni LLM ni réseau).

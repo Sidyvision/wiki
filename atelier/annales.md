@@ -12,6 +12,39 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] outillage/proposition | Session R&D (suite) — détecteur non-trackés, statu quo SSH, proposition phase 3
+
+- **Opération** : suite de la session R&D du jour (voir entrée précédente pour
+  la première passe C4/cartographie/fourche Instrument). Trois volets restants
+  du plan validé, traités ici.
+- **Piste outillage C** : création de
+  `atelier/rd/outillage/detecter-non-tracke.py` (+ fiche
+  [[atelier/rd/outillage/spec-detecter-non-tracke]]) — constat déterministe des
+  fichiers non trackés par git, classé par circuit. Lié depuis
+  [[atelier/rd/index]]. Détail au registre :
+  [[atelier/rd/cahiers/registre-problemes]].
+- **Piste outillage D** : décision statu quo SSH (question posée le
+  2026-08-09) consignée — verdict Sidy, aucune migration HTTPS+PAT du remote
+  `origin`. `atelier/rd/infrastructure/synchro-obsidian-working-copy-github.md`
+  §5 réécrite. Détail au registre.
+- **Phase 3 (agent de veille infrastructure)** : note d'instruction déposée en
+  sas — `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`,
+  statut `brouillon`, non visée. Ne désigne aucun agent ; pose trois questions
+  (qui, quoi, quand un signal devient une entrée du registre) et un risque
+  (surface d'écriture si confiée à un agent H‍ermes) pour verdict de Sidy.
+  Aucune écriture hors `_inbox/` pour ce volet (Cmd 6).
+- **Fichiers modifiés** : `atelier/rd/index.md`,
+  `atelier/rd/cahiers/registre-problemes.md` (2 nouvelles entrées),
+  `atelier/rd/infrastructure/synchro-obsidian-working-copy-github.md`.
+- **Fichiers créés** : `atelier/rd/outillage/detecter-non-tracke.py`,
+  `atelier/rd/outillage/spec-detecter-non-tracke.md`,
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`.
+- **Validation** : *(à consigner après exécution de
+  `verifier-invariants.py --racine /root/wiki` et `Graphe/generer-cartographie.py --verifier`)*.
+- **Commit** : *(SHA à ajouter après commit)*
+
+---
+
 ## [2026-08-11] outillage/correction | Session R&D — C4 (verifier-invariants.py), cartographie serveur, fourche Instrument v0_3/v0.3
 
 - **Opération** : session R&D instruite sur les 3 priorités validées (outillage,

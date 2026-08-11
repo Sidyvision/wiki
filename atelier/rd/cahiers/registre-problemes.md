@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-10
+updated: 2026-08-11
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,56 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-11] resolu | Piste outillage D — décision statu quo SSH consignée
+
+- **Symptôme** : `atelier/rd/infrastructure/synchro-obsidian-working-copy-github.md`
+  §5 portait une « décision ouverte — non tranchée à ce jour » (migration du
+  remote `origin` en HTTPS+PAT, pour permettre à Obsidian Git de push/pull en
+  autonomie sans détour par Working Copy) — question posée le 2026-08-09 sans
+  verdict consigné.
+- **Diagnostic** : l'avis technique H‍ermes du 2026-08-09 (déjà rapporté dans
+  la fiche) penchait pour le statu quo — clé SSH déjà en place des deux côtés,
+  n'expirant pas, contre un PAT qui introduit un secret supplémentaire à créer
+  et renouveler. Aucun élément nouveau ne renversait cet avis.
+- **Résolution** : verdict Sidy 2026-08-11 — statu quo, le remote reste en SSH.
+  Aucune modification de `git@github.com:Sidyvision/wiki.git`. §5 de la fiche
+  réécrite pour consigner le verdict (au lieu de la question ouverte),
+  réouverture explicitement laissée possible si le détour Working Copy devient
+  un point de friction réel et répété.
+- **Compréhension tirée** : une question technique posée et documentée avec un
+  avis motivé peut rester des semaines en statut « ouvert » faute d'un geste de
+  clôture explicite — la session R&D est l'occasion de reprendre ces questions
+  en attente plutôt que d'en ouvrir seulement de nouvelles.
+- **Liens** : [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]] §5.
+- **Statut** : `resolu`.
+
+---
+
+## [2026-08-11] resolu | Piste outillage C — détecteur de fichiers non trackés par circuit
+
+- **Symptôme** : aucun des trois scripts déterministes du dépôt
+  (`verifier-invariants.py`, `generer-cartographie.py`) ne couvre l'état de
+  staging git — un fichier jamais ajouté ou modifié non commité reste
+  invisible d'une session à l'autre, faute d'un `git status` systématique.
+- **Diagnostic** : lacune d'outillage plutôt qu'anomalie de contenu — les
+  scripts existants contrôlent la structure et les liens du dépôt intégré, pas
+  ce qui n'y est pas encore entré.
+- **Résolution** : création de
+  [[atelier/rd/outillage/spec-detecter-non-tracke|detecter-non-tracke.py]] —
+  classe les fichiers non trackés par circuit (`doctrinal`, `atelier`,
+  `label`, `hermeneutique`, `meta`, ou `hors-circuit`/`hors-circuit-inconnu`),
+  déterministe, ne stage ni ne corrige rien. Testé sur le dépôt réel : s'est
+  correctement auto-détecté comme non tracké à son premier essai.
+- **Compréhension tirée** : ce script couvre les cinq circuits du protocole
+  (`hermeneutique/` inclus), à la différence de `verifier-invariants.py` qui
+  n'en connaît que quatre — écart volontaire documenté dans la fiche de spec,
+  pour ne pas reproduire cet angle mort connu.
+- **Liens** : [[atelier/rd/outillage/spec-detecter-non-tracke]] ;
+  `atelier/rd/outillage/detecter-non-tracke.py`.
+- **Statut** : `resolu`.
 
 ---
 

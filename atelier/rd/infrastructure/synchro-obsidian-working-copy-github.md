@@ -3,7 +3,7 @@ title: "Synchronisation Obsidian / Working Copy / GitHub (circuit CONSULTATION)"
 type: infrastructure
 tags: [atelier, rd, infrastructure, obsidian, git, ipad, synchronisation]
 created: 2026-06-29
-updated: 2026-08-09
+updated: 2026-08-11
 sources: []
 links: []
 ---
@@ -94,27 +94,26 @@ client Git iOS utilisé en complément.
 2. Basculer vers **Working Copy** pour Fetch → Pull → Push (jamais de
    push/pull réseau depuis Obsidian directement).
 
-## 5. Décision ouverte — non tranchée à ce jour
+## 5. Décision — statu quo SSH (verdict Sidy, 2026-08-11)
 
-**Faut-il migrer le remote `origin` de SSH vers HTTPS + Personal Access
-Token (PAT) ?**
+**Question posée** : fallait-il migrer le remote `origin` de SSH vers HTTPS +
+Personal Access Token (PAT), pour permettre à Obsidian Git de push/pull en
+autonomie complète sans repasser par Working Copy ?
 
-- **Avantage potentiel** : permettrait à Obsidian Git de push/pull en
-  autonomie complète, sans repasser par Working Copy (un seul geste, tout dans
-  l'app Obsidian).
-- **Inconvénient / coût** : introduit un secret supplémentaire à gérer (PAT
-  GitHub, à créer, stocker dans les réglages du plugin, renouveler à
-  expiration), alors que la clé SSH actuelle est déjà en place des deux côtés
-  (Hetzner + Working Copy) et n'expire pas.
-- **Changement technique si adopté** : modifier l'URL du remote `origin` de
-  `git@github.com:Sidyvision/wiki.git` vers
-  `https://github.com/Sidyvision/wiki.git`, une seule fois (le même `.git`
-  étant partagé par Working Copy et Obsidian Git via le Folder Sync).
-- **Statut** : non décidé — à trancher par Sidy avant toute action. Aucune
-  modification du protocole remote n'a été effectuée ; le remote reste en SSH.
-- **Avis technique Hermes (2026-08-09)** : recommandation de conserver SSH
-  (zéro secret à gérer, clé n'expirant pas, détour Working Copy = 3 touchers).
-  Verdict humain attendu.
+- **Avantage potentiel écarté** : un seul geste, tout dans l'app Obsidian,
+  contre le détour actuel par Working Copy (3 touchers).
+- **Inconvénient déterminant** : un PAT introduit un secret supplémentaire à
+  créer, stocker dans les réglages du plugin et renouveler à expiration, alors
+  que la clé SSH actuelle est déjà en place des deux côtés (Hetzner + Working
+  Copy) et n'expire pas.
+- **Verdict (2026-08-11)** : **statu quo — le remote reste en SSH.** Suit
+  l'avis technique Hermes du 2026-08-09 (zéro secret à gérer, clé
+  n'expirant pas ; le coût du détour Working Copy est jugé inférieur au coût
+  de gestion d'un secret supplémentaire). Aucune modification du remote
+  `origin` (`git@github.com:Sidyvision/wiki.git`) n'est à effectuer.
+- **Réouverture** : cette décision n'est pas figée dans l'absolu — à
+  rouvrir seulement si la routine §4 (détour Working Copy) devient un
+  point de friction réel et répété, pas par principe.
 
 ## 6. Points de vigilance
 
