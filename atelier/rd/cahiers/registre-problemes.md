@@ -32,6 +32,47 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] ouvert | Phase 3 veille infrastructure — réouverture §III.1 : réattribution au Studio Sound Engineer (position 9)
+
+- **Symptôme** : le §III.1 de `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md` 
+  avait tranché (2026-08-11 séance) que la veille infrastructure serait portée par une 
+  routine côté poste INTÉGRATION (cohérent avec le statu quo du cloisonnement H‍ermes, 
+  accès FS restreint). Une proposition de mécanisme (webhook Discord + script Python 
+  orchestré par poste INTÉGRATION) a été rédigée sur cette base. Sidy a demandé la 
+  même journée de rouvrir ce point.
+- **Diagnostic** : Sidy relie ce chantier à l'extension de rôle des 12 agents H‍ermes 
+  sur calibrage zodiacal et demande que la veille soit portée par « l'agent le plus 
+  approprié » de la roue. Cartographie effectuée (agent Explore) : aucun des 12 rôles 
+  n'est dédié à l'infrastructure informatique. Le seul rôle à registre technique/matériel 
+  est la **position 9 (Sagittaire), Studio Sound Engineer** (correspondance « cohérente, 
+  non prouvée », archétype Faiseur) — Sidy désigne celui-ci. Motif : extension d'un 
+  mandat déjà technique/pédagogique existant, plutôt que création d'une 13e position 
+  hors roue (cohérent avec la règle de gouvernance : « la roue est l'étage principiel, 
+  les rôles en dérivent »).
+- **Résolution** : §III.1 rouvert et redocumenté dans la proposition. L'ancien verdict 
+  (poste INTÉGRATION) reste barré (discipline sashimono : traçabilité, réversibilité). 
+  Nouveau verdict inscrit sous bloc « Réouverture (2026-08-11) ». Accès FS/exécution 
+  accordé au Studio Sound Engineer pour les scripts déterministes 
+  (`verifier-invariants.py`, `Graphe/generer-cartographie.py --verifier`, 
+  `detecter-non-tracke.py`, relevé serveur) — le cloisonnement H‍ermes ne bloque plus 
+  ce chantier (statu quo levé). Le mécanisme technique proposé au §VI (webhook+script 
+  poste INTÉGRATION) devient obsolète ; un nouveau mécanisme doit être instruit 
+  séparément (dépend de la résolution du chantier d'accès FS). Règle du §III.3 
+  inchangée : signalement Discord uniquement, jamais d'écriture directe au registre, 
+  quel que soit l'exécutant.
+- **Compréhension tirée** : une réouverture explicite d'un point tranché doit être 
+  *tracée* en clair, jamais silencieusement remplacée. La discipline sashimono (pièces 
+  côte à côte, marquées et non forcées) s'applique aussi aux décisions qui se chevauchent 
+  en temps — l'ancien verdict reste visible, le nouveau commenté explicitement. Cela 
+  préserve la compréhension du flux de décision et des cascades de conséquence.
+- **Liens** :
+  - [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|Proposition phase 3 mise à jour]]
+  - [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer|Studio Sound Engineer, position 9]]
+  - [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise|Correspondances zodiacales, clos 2026-07-14]]
+- **Statut** : `ouvert` (chantier d'accès FS et mécanisme technique à instruire)
+
+---
+
 ## [2026-08-11] resolu | Chantier 12 agents (zodiacal) — brouillons d'extension principielle versionnés en atelier/rd/
 
 - **Symptôme** : les 9 brouillons de prompts zodiacaux (positions 1, 2, 3, 4,

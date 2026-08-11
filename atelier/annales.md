@@ -12,6 +12,28 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] phase-3 | Réouverture §III.1 : réattribution veille infrastructure au Studio Sound Engineer (position 9)
+
+- **Opération** : documentation de la réouverture du §III.1 de la proposition phase 3. 
+  L'ancien verdict (poste INTÉGRATION) tranché en séance a été rouvert le même jour 
+  (2026-08-11) ; réattribution à l'agent Studio Sound Engineer (position 9 Sagittaire).
+- **Fichiers modifiés** : 
+  - `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md` : bloc de tête 
+    mis à jour, §III.1 documentant l'ancien et nouveau verdict (discipline sashimono), 
+    §IV confirmant que la réouverture ne rouvre PAS le §III.3, §VI récapitulatif des 
+    chantiers ouverts après la réouverture
+  - `atelier/rd/cahiers/registre-problemes.md` : nouvelle entrée documentant la réouverture, 
+    le diagnostic (cartographie des 12 rôles), la résolution (accès FS accordé), la 
+    compréhension tirée (traçabilité des décisions qui se chevauchent)
+- **Validation** : `verifier-invariants.py --racine /root/wiki` : baseline inchangée
+  (5 erreur(s) pré-existantes, 40 avertissement(s))
+- **État** : `_inbox/` reste à traiter selon flux normal (INTÉGRATION, Cmd 8). 
+  Registre-problemes consigné et tracé. Phase 3 ouverte en principe, chantiers 
+  spécifiques (accès FS, mécanisme technique, récurrence empreinte) restent à 
+  instruire avant écriture effective (Cmd 6).
+
+---
+
 ## [2026-08-11] structure | Hypothèse méthodologique : Sandbox comme dépendance structurelle du R&D
 
 - **Contexte** : réflexion sur la relation entre Discernement (spéculation personnelle),

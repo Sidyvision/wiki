@@ -226,9 +226,29 @@ instruire séparément, avant toute écriture (Cmd 6) :
     Sound Engineer (`hermes-prompts/09-studio-sound-engineer.md`) reste un
     acte séparé, non exécuté par cette note (Cmd 6), à confirmer explicitement
     avant toute modification du prompt d'agent en production.
-- le chantier laissé ouvert au §III.2 (récurrence de la mesure d'empreinte
-  serveur) avant qu'il n'entre effectivement dans le périmètre de veille.
+- **le chantier laissé ouvert au §III.2** (récurrence de la mesure d'empreinte
+  serveur : fréquence de prise, stockage des séries, seuils d'alerte) avant
+  qu'il n'entre effectivement dans le périmètre de veille. **Point resté 
+  dépendant** : après la réouverture du §III.1, ce chantier ne peut s'instruire
+  que si le nouveau mécanisme (agent Studio Sound Engineer) a d'abord été mis
+  en place — l'intégration de la mesure récurrente dépend de son exécutant.
 
-Le risque nommé au §IV (surface d'écriture d'un agent H‍ermes) reste sans
-objet tant que le §III.1 (routine INTÉGRATION, pas d'agent H‍ermes dédié)
-n'est pas rouvert.
+---
+
+## Récapitulatif — Chantiers ouverts après la réouverture (2026-08-11)
+
+Le §III et le §V sont maintenant tranchés en principe (voir tableaux ci-dessous).
+Restent à instruire séparément, avant toute écriture effective du mécanisme
+(Cmd 6) :
+
+| Chantier | Bloqage | Responsable | Statut |
+|---|---|---|---|
+| **Extension prompt agent 09** | Cmd 6 : plan avant modification | Sidy (validation) | À instruire |
+| **Accès FS/exécution agent 09** | Déf. du cloisonnement H‍ermes | Décision architecturale | À trancher |
+| **Nouveau mécanisme d'éxécution** | Dépend du cloisonnement ↑ | Conception R&D | À instruire |
+| **Récurrence empreinte serveur** | Dépend du mécanisme ↑ | R&D + choix opérationnel | À instruire |
+
+Le risque nommé au §IV (surface d'écriture d'un agent H‍ermes) est désormais 
+contenu par le §III.3 (signalement Discord uniquement, jamais d'écriture 
+directe au registre), quel que soit l'exécutant. Ce n'est pas une dérogation 
+à la porte humaine, c'est sa réaffirmation.
