@@ -48,7 +48,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   bloquantes (restent 2 `frontmatter` pré-existantes, hors périmètre — contenu
   doctrinal, cf. registre). `verifier-invariants.py --racine /root/wiki` :
   `0 erreur(s), 40 avertissement(s)` (avertissements C4 attendus).
-- **Commit** : *(SHA à ajouter après commit)*
+- **Commit** : 48cfaa6
 - **Reste de la session validée** : piste outillage C (détection de fichiers non
   trackés), consignation du statu quo SSH
   (`atelier/rd/infrastructure/synchro-obsidian-working-copy-github.md` §5),
