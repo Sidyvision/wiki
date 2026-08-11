@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, symbolisme-croix, axe-vertical, invariable-milieu, volonte-du-ciel, centre-circonference, voie-verite-vie, tchoung-young]
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-08-11
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3]]"]
+cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]"]
 ---
 
 # Guénon — Le Symbolisme de la Croix, ch. XXIII et XXIX

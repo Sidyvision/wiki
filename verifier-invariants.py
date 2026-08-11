@@ -340,8 +340,12 @@ def collecter_cibles(racine):
 def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
     circ = circuit_de(chemin_rel)
     nom = os.path.basename(chemin_rel)
-    # Les annales et index sont exempts du contrôle C3 (liens contextuels légitimes).
-    interdits = set() if nom in FICHIERS_EXEMPTS_C3 else ETANCHEITE_INTERDITE.get(circ, set())
+    # Les annales et index sont exempts du contrôle C3 bloquant (liens contextuels
+    # légitimes vers les circuits neutres). Cette exemption reste TOTALE pour les
+    # cibles neutres (doctrinal/atelier/label) — voir C4 ci-dessous pour la seule
+    # cible qui ne doit structurellement jamais y apparaître : meta/.
+    exempt_c3 = nom in FICHIERS_EXEMPTS_C3
+    interdits = set() if exempt_c3 else ETANCHEITE_INTERDITE.get(circ, set())
     for brut in RE_WIKILINK.findall(corps):
         cible = brut.strip().replace("\\", "/")
         if cible.endswith(".md"):
@@ -359,11 +363,21 @@ def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
                 rap.avertir(chemin_rel, "C2",
                             f"slug ambigu [[{brut}]] → {len(candidats)} cibles possibles")
             cible = candidats[0]
-        # C3 — étanchéité des circuits.
+        # C3 — étanchéité des circuits (fichiers ordinaires, hors annales/index).
         tete = cible.split("/")[0]
         if tete in interdits:
             rap.erreur(chemin_rel, "C3",
                        f"étanchéité rompue : `{circ}` pointe vers `{tete}` — [[{brut}]]")
+        # C4 — angle mort connu de l'exemption C3 (registre R&D, 2026-08-09,
+        # "reporte") : un `annales.md`/`index.md` de circuit neutre qui pointe
+        # vers `meta/` n'est jamais visible par C3. Avertissement non bloquant,
+        # pour ne pas casser rétroactivement l'append-only des annales déjà
+        # publiées (Cmd 9/Cmd 10) — signale sans jamais forcer de correction.
+        elif exempt_c3 and tete == "meta" and circ is not None and circ != "meta":
+            rap.avertir(chemin_rel, "C4",
+                        f"lien `{circ}` (neutre, fichier de service) → `meta/` "
+                        f"— sens interdit par §VI, hors périmètre bloquant de "
+                        f"l'exemption C3 — [[{brut}]]")
 
 
 # --------------------------------------------------------------------------

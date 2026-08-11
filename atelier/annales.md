@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,50 @@ updated: 2026-08-10
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-11] outillage/correction | Session R&D — C4 (verifier-invariants.py), cartographie serveur, fourche Instrument v0_3/v0.3
+
+- **Opération** : session R&D instruite sur les 3 priorités validées (outillage,
+  cartographie infra, phase 3) — voir [[atelier/rd/index]] et
+  [[atelier/rd/cahiers/registre-problemes]] pour le détail des entrées.
+- **`verifier-invariants.py`** : ajout du contrôle C4 (non bloquant) — signale
+  un `annales.md`/`index.md` de circuit neutre pointant vers `meta/`, angle mort
+  de l'exemption C3 consigné au registre le 2026-08-09. Non bloquant, cohérent
+  avec la phase de calibrage en cours (CLAUDE.md, amendement 2026-07-27).
+- **Créé** : `atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11.md` —
+  relevé factuel matériel + empreinte mémoire (12 profils H‍ermes, `omniroute`),
+  sans interprétation ni recommandation. Lié depuis [[atelier/rd/index]].
+- **Piste outillage « générateur tolérant »** : constat que
+  `Graphe/generer-cartographie.py` est déjà en v1.1 (2026-07-22, antérieure au
+  diagnostic du registre) avec deux niveaux de sévérité — aucun correctif
+  nécessaire. En instruisant les 4 anomalies d'étanchéité résiduelles, découverte
+  d'une fourche non documentée :
+  `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3.md`
+  (tiret bas) et `...v0.3.md` (point) coexistaient comme deux fiches
+  indépendantes depuis la migration `projets/ → rd/` du 2026-08-08 (les deux
+  fourches existaient déjà séparément côté `projets/`). Comparaison confirmant
+  `v0.3` (point) à jour et strict superset de `v0_3` (tiret bas, figée au
+  2026-07-01) : `v0_3.md` repassée `deprecated` (Cmd 10, fusion sans perte) ;
+  les 4 liens `doctrinal/sources/guenon-*` (sens interdit §VI vers `v0_3`)
+  retirés côté `doctrinal/` et reportés en sens licite dans `v0.3.md` ;
+  `atelier/index.md` repointé.
+- **Fichiers modifiés** : `verifier-invariants.py`, `atelier/index.md`,
+  `atelier/rd/index.md`, `atelier/rd/cahiers/registre-problemes.md` (2 entrées
+  mises à jour en place + 1 nouvelle entrée `resolu`),
+  `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3.md`,
+  `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md`,
+  4 fiches `doctrinal/sources/guenon-*`.
+- **Validation** : `Graphe/generer-cartographie.py --verifier` : 6 → 2 anomalies
+  bloquantes (restent 2 `frontmatter` pré-existantes, hors périmètre — contenu
+  doctrinal, cf. registre). `verifier-invariants.py --racine /root/wiki` :
+  `0 erreur(s), 40 avertissement(s)` (avertissements C4 attendus).
+- **Commit** : *(SHA à ajouter après commit)*
+- **Reste de la session validée** : piste outillage C (détection de fichiers non
+  trackés), consignation du statu quo SSH
+  (`atelier/rd/infrastructure/synchro-obsidian-working-copy-github.md` §5),
+  ouverture phase 3 (agent de veille infrastructure) — à traiter à la suite.
 
 ---
 

@@ -3,7 +3,7 @@ title: "Pôle R&D de l'atelier — charte du lieu"
 type: index
 tags: [atelier, rd, infrastructure, souverainete]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-11
 sources: []
 links: []
 ---
@@ -63,7 +63,7 @@ atelier/rd/
 | Matière | Destination |
 |---|---|
 | Specs, itérations, notes d'impact de l'Instrument | `rd/instrument/` (migration de `projets/`) |
-| Architecture générique du serveur et des agents, bancs, mesures | `rd/infrastructure/` (ex. [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]]) |
+| Architecture générique du serveur et des agents, bancs, mesures | `rd/infrastructure/` (ex. [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]], [[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]]) |
 | Motifs des décisions, credentials, prompts d'agents | **reste en `meta/projet-unifie/`** (sensible — §VI) |
 | Ingénierie d'une œuvre, par morceau | **reste au label** (`label/musique/ingenierie/`) |
 | Expression créative : œuvre, écriture, direction artistique | **label** (direction-artistique / production) — jamais `rd/` |

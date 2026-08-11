@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, homme-devenir-vedanta, brahma, atma, turiya, vaishvanara, viraj, sat-chit-ananda, ibn-arabi, risalatul-ahadiyah, prajna, echelle-ontologique]
 created: 2026-07-16
-updated: 2026-07-26
+updated: 2026-08-11
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3]]"]
+cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]"]
 ---
 
 # Guénon — L'Homme et son devenir selon le Vêdânta, ch. X, XV, XVI

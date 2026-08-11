@@ -3,9 +3,9 @@ title: "Instrument de la Tradition Primordiale — Architecture Fondamentale (v0
 type: projet
 tags: [architecture, mandala, tradition-primordiale, tasawwuf, kabbale, conceptuel]
 created: 2026-06-28
-updated: 2026-08-04
+updated: 2026-08-11
 sources: []
-links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/barzakh]]"]
+links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference]]"]
 ---
 
 # Instrument de la Tradition Primordiale — Architecture Fondamentale
@@ -15,6 +15,14 @@ links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/alam-al-mitha
 > verdict Sidy 2026-08-08 — proposition §IV). L'ancienne fiche subsiste
 > comme stub `deprecated` avec pointeur (Cmd 10). Contenu inchangé,
 > dates `created`/`updated` conservées.
+
+> **Correction du 2026-08-11** : cette fiche avait une fourche parallèle
+> (`instrument-tradition-primordiale-architecture-v0_3.md`, slug tiret-bas), migrée
+> séparément le 2026-08-08 et restée sans mise à jour depuis le 2026-07-01 — désormais
+> `deprecated`, pointeur ici. Par ailleurs, 4 fiches `doctrinal/sources/guenon-*`
+> pointaient vers cette fourche obsolète en sens interdit par §VI (`doctrinal` neutre →
+> `rd/` plus sensible) ; les liens ont été retirés côté `doctrinal/` et reportés ici en
+> sens licite (`links`, ci-dessus) — voir [[atelier/rd/cahiers/registre-problemes]].
 
 
 > *Document conceptuel issu d'une session de spécification (2026-06-28), à destination de

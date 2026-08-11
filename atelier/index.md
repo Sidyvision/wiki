@@ -3,7 +3,7 @@ title: "Atelier — Ressources & Études de Cas"
 type: index
 tags: [atelier, ressources, index, instrument]
 created: 2026-07-07
-updated: 2026-08-08
+updated: 2026-08-11
 ---
 
 # Atelier — Index
@@ -43,7 +43,7 @@ akbarien sur l'axe des 38 degrés du *Nafas al-Raḥmān*. Voir
 technique]] pour l'état d'avancement par phase.
 
 **Architecture** :
-- [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3|Architecture
+- [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3|Architecture
   v0.3]] — arbitrages actés (Phase 0 close, convention `degre_vertical`, lentille
   barzakh, quatre Angles de l'Espace) ; v0.1 et v0.2 conservées comme jalons
 - [[atelier/rd/outillage/spec-generateur-manifeste|Spécification du générateur de

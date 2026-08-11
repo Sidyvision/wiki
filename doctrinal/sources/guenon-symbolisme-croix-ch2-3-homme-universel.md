@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, symbolisme-croix, homme-universel, insan-al-kamil, ibn-arabi, jili, ampleur-exaltation, identite-supreme, macrocosme-microcosme]
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-08-11
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3]]"]
+cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]]"]
 ---
 
 # Guénon — Le Symbolisme de la Croix, ch. II-III

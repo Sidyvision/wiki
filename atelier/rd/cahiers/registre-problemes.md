@@ -656,20 +656,34 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 - **Symptôme** : `generer-cartographie.py` refuse d'écrire
   `graphe-cartographie.json` en présence d'anomalie bloquante ; le JSON de
   cartographie est absent du dépôt (jamais régénéré depuis son introduction).
-- **Diagnostic** : conséquence directe de l'entrée suivante — le générateur est
-  strict par conception (une anomalie = échec). Tant que les 10 anomalies
-  pré-existantes ne sont pas traitées, l'artefact dérivé ne peut pas être produit.
-- **Résolution** : aucune pour l'instant — le fichier n'a jamais été tracké ; la
-  migration `projets/ → rd/` n'est pas en cause (vérifié par comparaison avec la
-  baseline HEAD).
-- **Compréhension tirée** : un générateur strict bloque tous les artefacts dérivés
-  dès qu'une anomalie pré-existe. Deux issues possibles : soit traiter les
-  anomalies à la source, soit doter le script d'un mode tolérant qui écrit
-  l'artefact en signalant les anomalies plutôt que d'échouer. À arbitrer (verdict
-  Sidy).
-- **Liens** : entrée suivante ; `Graphe/generer-cartographie.py` ;
+- **Diagnostic** : conséquence directe de l'entrée suivante. **Correction du
+  2026-08-11** : le diagnostic initial (« strict par conception ») était déjà
+  obsolète au moment où il a été écrit — `generer-cartographie.py` est en v1.1
+  depuis le 2026-07-22 (antérieure à cette entrée) et distingue déjà BLOQUANT
+  (frontmatter absent, étanchéité — gouvernance du dépôt, non contournable par
+  design) et AVERTISSEMENT (lien mort/ambigu, `sources_count` incohérent — la
+  fiche reste dans le graphe). Le script n'a jamais eu besoin d'un mode tolérant :
+  il l'a déjà. Ce qui bloque encore l'écriture du JSON n'est pas un défaut
+  d'outillage mais des anomalies de contenu réelles, volontairement classées
+  BLOQUANT par le script (voir entrée suivante).
+- **Résolution** : 4/6 anomalies bloquantes restantes levées le 2026-08-11
+  (fourche `v0_3`/`v0.3` + liens `doctrinal → v0_3`, entrée dédiée ci-dessous) ;
+  restent 2 `frontmatter`. Le JSON reste donc non régénéré tant que ces 2
+  dernières anomalies (contenu doctrinal, hors périmètre de cette session) ne
+  sont pas traitées — comportement voulu du script, pas un blocage à lever côté
+  outillage.
+- **Compréhension tirée** : vérifier l'état réel du code avant de reconduire un
+  diagnostic d'une entrée antérieure — un script peut évoluer plus vite que le
+  registre qui le décrit. Un générateur à deux niveaux de sévérité (BLOQUANT vs
+  AVERTISSEMENT) répond structurellement à la question « faut-il un mode
+  tolérant ? » sans qu'il soit besoin de rouvrir l'arbitrage à chaque anomalie
+  bloquante résiduelle — ces dernières relèvent du contenu, pas du script.
+- **Liens** : entrée suivante ; `Graphe/generer-cartographie.py` (docstring v1.1,
+  2026-07-22) ; entrée fourche `v0_3`/`v0.3` ci-dessous ;
   [[meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08|proposition de pôle]].
-- **Statut** : `ouvert`.
+- **Statut** : `partiellement-resolu` — le générateur n'a jamais nécessité de
+  correctif ; 4/6 anomalies de contenu restantes levées, 2 `frontmatter` ouvertes
+  (hors périmètre R&D/outillage).
 
 ---
 
@@ -687,19 +701,24 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 - **Diagnostic** : toutes pré-existantes à la migration `projets/ → rd/` — vérifié
   point par point contre un export `git archive` de HEAD (mêmes 10 anomalies avant
   et après). La migration n'en introduit aucune.
-- **Résolution** : aucune pour l'instant. Les 4 liens `materiel → album-personnel`
-  dépendent du verdict d'arbitrage `album-personnel` (`rd/` vs `label/`) ; les
-  4 liens `doctrinal/sources → v0_3` sont un sens de lien interdit par §VI (le
-  neutre ne pointe pas vers le plus sensible), à traiter fiche par fiche.
+- **Résolution** : les 4 liens `materiel → album-personnel` dépendaient du verdict
+  d'arbitrage `album-personnel` (`rd/` vs `label/`), rendu le 2026-08-08 (`label/`).
+  Les 4 liens `doctrinal/sources → v0_3` : traités fiche par fiche le 2026-08-11 —
+  retirés côté `doctrinal/` (sens interdit par §VI) et reportés en sens licite dans
+  `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md`
+  (voir entrée dédiée ci-dessous, fourche `v0_3`/`v0.3`).
 - **Compréhension tirée** : avant d'attribuer une régression à une opération,
   comparer contre la baseline (HEAD) — ici la comparaison a innocenté la migration
   et isolé un passif ancien. Le registre doit consigner les anomalies dès leur
   découverte, pas seulement celles qu'on introduit.
 - **Liens** : `Graphe/generer-cartographie.py` ; arbitrage `album-personnel.md`
-  (verdict Sidy rendu le 2026-08-08 : `label/`) ; `CLAUDE.md` §VI.
-- **Statut** : `partiellement-resolu` — 4/10 levées le 2026-08-08 (liens
-  `materiel → album-personnel` coupés, voir entrée ci-dessus) ; restent
-  4 `étanchéité` doctrinal → v0_3 et 2 `frontmatter`.
+  (verdict Sidy rendu le 2026-08-08 : `label/`) ; `CLAUDE.md` §VI ; entrée
+  fourche `v0_3`/`v0.3` ci-dessous.
+- **Statut** : `partiellement-resolu` — 8/10 levées (4 `materiel → album-personnel`
+  le 2026-08-08, 4 `doctrinal → v0_3` le 2026-08-11) ; restent 2 `frontmatter`
+  (`transcription-index-tilak-origine-polaire.md`,
+  `transcription-table-matieres-symboles-science-sacree.md`), non traités cette
+  session (hors périmètre outillage/rd — contenu doctrinal).
 
 ---
 
@@ -717,4 +736,39 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
   entrants (ou le manifeste) devrait signaler toute cible inexistante.
 - **Liens** : `doctrinal/symboles/manvantara.md` ;
   `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md`.
+- **Statut** : `resolu`.
+
+---
+
+## [2026-08-11] resolu | Fourche `v0_3`/`v0.3` de l'Instrument + 4 liens `doctrinal → v0_3` en sens interdit
+
+- **Symptôme** : en instruisant les 4 anomalies d'étanchéité `doctrinal/sources →
+  v0_3` (entrée « 10 anomalies » ci-dessus), découverte que
+  `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3.md`
+  (tiret bas) et `...v0.3.md` (point) coexistaient comme deux fiches indépendantes
+  — même exact avertissement déjà consigné dans l'entrée `manvantara → v0_2`
+  ci-dessus (« slugs de versions proches, faciles à confondre »), non appliqué à
+  cette paire au moment de la migration `projets/ → rd/` du 2026-08-08 (les deux
+  fourches existaient déjà côté `projets/`, migrées chacune séparément).
+- **Diagnostic** : comparaison ligne à ligne des deux fiches — contenu identique
+  jusqu'au §3.4 ; `v0.3` (point) porte en plus le §3.5 (nœud universel, verdict
+  Sidy 2026-08-04) et une date `updated` plus récente. `v0_3` (tiret bas) est une
+  version figée du 2026-07-01, jamais mise à jour depuis. Les 4 liens
+  `doctrinal/sources/guenon-*` pointaient tous vers la fourche obsolète, en plus
+  d'être dans le sens interdit par §VI (`doctrinal` neutre → `rd/` plus sensible).
+- **Résolution** : `v0_3.md` repassée `deprecated` avec pointeur vers `v0.3.md`
+  (Cmd 10, fusion sans perte confirmée) ; `atelier/index.md` repointé vers
+  `v0.3.md` ; les 4 `cross_links` illicites retirés des fiches
+  `doctrinal/sources/guenon-*` ; liens reportés en sens licite dans le champ
+  `links` de `v0.3.md`.
+- **Compréhension tirée** : une migration fiche-par-fiche (Cmd 10) qui déplace
+  deux fourches d'un même document sans les comparer d'abord propage la
+  confusion au lieu de la résoudre — le repérage `v0.3`/`v0_3` aurait dû se faire
+  une fois pour toutes lors de la migration du 2026-08-08, pas fiche par fiche à
+  chaque anomalie découverte ensuite. Un contrôle de similarité de slugs (au-delà
+  du seul contrôle de liens morts) serait pertinent en amont d'une prochaine
+  migration.
+- **Liens** : entrée « 10 anomalies » ci-dessus ; entrée `manvantara → v0_2` ;
+  [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]] ;
+  `CLAUDE.md` §VI, Cmd 10.
 - **Statut** : `resolu`.
