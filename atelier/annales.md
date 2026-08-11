@@ -24,8 +24,11 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Fichiers modifiés** : 9 fichiers créés/modifiés en
   `atelier/rd/cahiers/brouillons-extension-zodiacale/` (all with frontmatter +
   clause), README inclus.
-- **Validation** : *(à compléter après vérification)*
-- **Commit** : *(SHA à ajouter après commit)*
+- **Validation** : `verifier-invariants.py --racine /root/wiki` : `0 erreur(s),
+  40 avertissement(s)` (baseline inchangée) ; `Graphe/generer-cartographie.py
+  --verifier` : 2 anomalies bloquantes pré-existantes (hors périmètre),
+  inchangées.
+- **Commit** : c156226
 
 ---
 
