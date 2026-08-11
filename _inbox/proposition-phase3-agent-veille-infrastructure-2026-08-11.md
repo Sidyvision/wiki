@@ -9,12 +9,14 @@ updated: 2026-08-11
 
 # Proposition — Phase 3 : agent de veille infrastructure
 
-> **Statut** : `brouillon`, non visé. Les trois questions du §III sont
-> tranchées (verdicts Sidy du 2026-08-11, ci-dessous) ; ouverture effective
-> (désignation de l'agent, écriture du prompt/de la routine) non encore
-> exécutée — c'est un plan présenté avant toute écriture (Cmd 6),
-> intégralement réversible. Le verdict d'ouverture définitive appartient à
-> Sidy (charte du pôle : « phase 3, sur désignation de Sidy »).
+> **Statut** : `brouillon`, non visé. Les trois questions du §III et les deux
+> volets de désignation effective du §V (déclencheur cron, nouveau canal
+> Discord dédié) sont tranchés en principe (verdicts Sidy du 2026-08-11,
+> ci-dessous) ; l'écriture elle-même (nom du canal, script cron, mécanisme de
+> post Discord) reste hors périmètre de cette note (§VI) — un plan présenté
+> avant toute écriture (Cmd 6), intégralement réversible. Le verdict
+> d'ouverture définitive appartient à Sidy (charte du pôle : « phase 3, sur
+> désignation de Sidy »).
 
 ---
 
@@ -84,15 +86,46 @@ ou fichier de sortie relu manuellement) évite cette extension de surface ;
 une veille en écriture directe au registre la crée délibérément. Point à
 trancher explicitement, pas par défaut.
 
-## V. Ce que cette note ne fait pas (et ce qui reste à faire)
+## V. Désignation effective (tranchée, 2026-08-11)
 
-Le §III est tranché, mais cette note ne désigne encore aucun agent, ne code
-aucun automatisme, ne modifie aucun fichier hors `_inbox/`. Restent à
-instruire séparément, avant toute écriture (Cmd 6) :
+Deux points instruits avec Sidy en séance, sur les deux volets laissés ouverts
+par le §III :
 
-- la formulation exacte de la routine INTÉGRATION (fréquence, déclencheur —
-  planifiée ou lancée par Sidy, contenu du rapport) ;
-- le canal Discord de signalement (lequel, allowlist — §VIII.8) ;
+1. **Déclencheur de la routine** — **planifiée par cron**, et non lancée à la
+   demande. Choix assumé malgré le coût nommé lors de l'arbitrage (nouvelle
+   surface : un job headless sur le serveur, hors session supervisée,
+   précédent jusqu'ici réservé au gateway H‍ermes via `DISCORD_HOME_CHANNEL`).
+   Le risque « qui relit si personne n'est en session au moment où le cron
+   tourne » se referme de lui-même par construction du §III.3 : la routine ne
+   touche jamais au dépôt, elle **signale sur Discord** — la lecture différée
+   par Sidy (ou une session INTÉGRATION sur sa demande) est le mode de
+   fonctionnement prévu, pas un angle mort.
+2. **Canal Discord** — **nouveau canal dédié**, plutôt que de réutiliser
+   `#gardien` (dont le mandat réel, vérifié dans son prompt
+   `meta/projet-unifie/hermes-prompts/10-protocol-guardian.md`, est la
+   conformité doctrinale/éthique des actes commerciaux du label — doctrine du
+   don, anti-accumulation — et non la veille technique). Garde l'étanchéité de
+   sens entre vigie doctrinale et vigie infrastructure plutôt que de la
+   dissoudre par économie d'un canal.
+
+## VI. Ce que cette note ne fait pas encore (et ce qui reste à faire)
+
+Le §III et le §V sont tranchés en principe, mais cette note ne désigne encore
+aucun agent, ne code aucun automatisme, ne crée aucun canal Discord, ne
+modifie aucun fichier hors `_inbox/`. Restent à instruire séparément, avant
+toute écriture (Cmd 6) :
+
+- le **nom exact** du nouveau canal (proposition à confirmer : `#veille-infra`
+  ou `#infra-veille`) et son inscription à l'allowlist (§VIII.8) ;
+- la **fréquence exacte** du cron (proposition à confirmer : quotidienne, par
+  analogie avec le « Rapport du matin » déjà envisagé côté H‍ermes/gardien —
+  cf. `meta/projet-unifie/04-sessions-par-fonction-et-backlogs.md`) et l'heure ;
+- le **contenu exact** du rapport envoyé (format du signal : quels champs des
+  3 scripts déterministes, sous quelle forme condensée) ;
+- le **mécanisme technique de post** vers Discord depuis un job cron
+  côté-serveur ne passant pas par un agent H‍ermes (webhook Discord simple ?
+  script Python dédié ? — à trancher, hors périmètre H‍ermes par construction
+  du §III.1) ;
 - le chantier laissé ouvert au §III.2 (récurrence de la mesure d'empreinte
   serveur) avant qu'il n'entre effectivement dans le périmètre de veille.
 

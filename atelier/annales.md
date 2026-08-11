@@ -12,6 +12,31 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — désignation effective (§V) instruite
+
+- **Opération** : instruction des deux volets laissés ouverts par le §III
+  (déclencheur de la routine, canal Discord de signalement). Recherche menée
+  sur l'architecture Discord H‍ermes (`meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`)
+  et le prompt réel du profil `gardien`
+  (`meta/projet-unifie/hermes-prompts/10-protocol-guardian.md`), révélant que
+  ce dernier a un mandat doctrinal/éthique et non technique malgré son
+  étiquette « Vigie transversale ». Détail complet au registre :
+  [[atelier/rd/cahiers/registre-problemes]].
+- **Verdicts Sidy (2026-08-11)** : (1) déclencheur = **planifié par cron**
+  (nouvelle surface assumée, refermée par construction puisque la routine ne
+  fait que signaler sur Discord, jamais écrire au dépôt) ; (2) canal =
+  **nouveau canal dédié**, pas de réutilisation de `#gardien`.
+- **Fichiers modifiés** :
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
+  (nouveau §V « Désignation effective » et §VI « reste à faire », toujours
+  `brouillon` — nom du canal, fréquence exacte, contenu du rapport et
+  mécanisme de post restent à instruire, Cmd 6),
+  `atelier/rd/cahiers/registre-problemes.md` (nouvelle entrée).
+- **Validation** : *(à compléter après vérification)*
+- **Commit** : *(SHA à ajouter après commit)*
+
+---
+
 ## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — §III tranché
 
 - **Opération** : discussion des trois questions du §III de

@@ -32,6 +32,43 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — désignation effective (§V) instruite
+
+- **Symptôme** : le §III tranché laissait deux volets ouverts pour la
+  désignation effective de la routine INTÉGRATION : son déclencheur
+  (planifiée ou lancée par Sidy) et le canal Discord de signalement.
+- **Diagnostic** : la recherche du canal a révélé un décalage de sens —
+  `#gardien`, seul canal étiqueté « Vigie transversale » dans le tableau des
+  12 profils H‍ermes, a en réalité un mandat doctrinal/éthique (conformité
+  des actes commerciaux du label à la doctrine du don, vérifié dans
+  `meta/projet-unifie/hermes-prompts/10-protocol-guardian.md`) et non
+  technique — aucun des 5 canaux Discord actifs n'a de mandat infrastructure.
+  Aucun mécanisme de cron n'existe aujourd'hui côté INTÉGRATION (seul le
+  gateway H‍ermes en a un, via `DISCORD_HOME_CHANNEL`).
+- **Résolution** : arbitrage Sidy — déclencheur **planifié par cron** (assumé
+  malgré la nouvelle surface ouverte, close par construction puisque la
+  routine ne fait que signaler sur Discord, jamais écrire au dépôt) ; canal
+  **nouveau, dédié**, plutôt que réutiliser `#gardien` malgré l'économie —
+  garde l'étanchéité de sens entre vigie doctrinale et vigie technique. Note
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md` mise à
+  jour (nouveau §V « Désignation effective », §VI « reste à faire » listant
+  nom de canal, fréquence, contenu du rapport et mécanisme de post comme
+  points encore ouverts).
+- **Compréhension tirée** : une étiquette de tableau (« Vigie transversale »)
+  ne vaut pas mandat vérifié — le prompt réel d'un agent H‍ermes fait foi,
+  pas sa description sommaire dans une fiche d'architecture. À vérifier
+  systématiquement avant de réutiliser un canal ou un agent existant pour un
+  usage nouveau.
+- **Liens** : [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|proposition phase 3]],
+  [[meta/projet-unifie/15-architecture-discord-hermes-2026-08-07]],
+  [[meta/projet-unifie/hermes-prompts/10-protocol-guardian]]
+- **Statut** : `resolu` — les deux volets sont tranchés en principe ; le
+  nom du canal, la fréquence exacte du cron, le contenu du rapport et le
+  mécanisme technique de post restent hors périmètre, à instruire séparément
+  (§VI de la note).
+
+---
+
 ## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — §III de la proposition tranché
 
 - **Symptôme** : `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
