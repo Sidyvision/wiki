@@ -12,6 +12,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — canal Discord `#infrastructure` créé
+
+- **Opération** : Sidy communique en session le nom et l'identifiant du canal
+  Discord dédié tranché au §V (`#infrastructure`). Note mise à jour (§VI) :
+  nom consigné, identifiant numérique volontairement **non** consigné dans le
+  dépôt (même régime que les secrets de configuration — cf.
+  `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`). Détail
+  au registre : [[atelier/rd/cahiers/registre-problemes]].
+- **Fichiers modifiés** :
+  `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md` (§VI,
+  toujours `brouillon`), `atelier/rd/cahiers/registre-problemes.md` (nouvelle
+  entrée).
+- **Validation** : *(à compléter après vérification)*
+- **Commit** : *(SHA à ajouter après commit)*
+
+---
+
 ## [2026-08-11] proposition/arbitrage | Phase 3 (agent de veille infrastructure) — désignation effective (§V) instruite
 
 - **Opération** : instruction des deux volets laissés ouverts par le §III

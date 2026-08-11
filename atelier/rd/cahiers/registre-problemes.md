@@ -32,6 +32,32 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — canal Discord créé
+
+- **Symptôme** : le §VI de la note laissait ouvert le nom exact du nouveau
+  canal Discord dédié tranché au §V (proposition à confirmer :
+  `#veille-infra` ou `#infra-veille`).
+- **Diagnostic** : Sidy a créé le canal côté Discord (nom `#infrastructure`,
+  identifiant numérique communiqué en session) avant que la note ne le
+  propose formellement — devance l'instruction plutôt que de la clore.
+- **Résolution** : nom `#infrastructure` consigné dans la note
+  (`_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`,
+  §VI). L'identifiant numérique du canal n'est **pas** consigné dans le
+  dépôt — cohérent avec `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`,
+  qui ne fixe que les noms lisibles des canaux, jamais leurs identifiants
+  numériques ni les secrets de configuration (règle déjà en vigueur : la
+  configuration d'exécution vit hors dépôt, jamais commitée).
+- **Compréhension tirée** : un identifiant Discord (snowflake numérique)
+  suit le même régime que les tokens et l'état de service — hors dépôt par
+  défaut, même quand le nom du canal lui-même est publiable. Distinction à
+  refaire à chaque nouvelle donnée Discord communiquée en session.
+- **Liens** : [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|proposition phase 3]]
+- **Statut** : `resolu` — nom de canal tranché ; fréquence exacte, contenu
+  du rapport, mécanisme de post et inscription à l'allowlist restent hors
+  périmètre (§VI de la note).
+
+---
+
 ## [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — désignation effective (§V) instruite
 
 - **Symptôme** : le §III tranché laissait deux volets ouverts pour la

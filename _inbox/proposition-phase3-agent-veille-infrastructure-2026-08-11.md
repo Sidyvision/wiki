@@ -110,13 +110,17 @@ par le §III :
 
 ## VI. Ce que cette note ne fait pas encore (et ce qui reste à faire)
 
-Le §III et le §V sont tranchés en principe, mais cette note ne désigne encore
-aucun agent, ne code aucun automatisme, ne crée aucun canal Discord, ne
-modifie aucun fichier hors `_inbox/`. Restent à instruire séparément, avant
-toute écriture (Cmd 6) :
+Le §III et le §V sont tranchés en principe, mais cette note ne code encore
+aucun automatisme et ne modifie aucun fichier hors `_inbox/`. Restent à
+instruire séparément, avant toute écriture (Cmd 6) :
 
-- le **nom exact** du nouveau canal (proposition à confirmer : `#veille-infra`
-  ou `#infra-veille`) et son inscription à l'allowlist (§VIII.8) ;
+- ~~le nom exact du nouveau canal~~ — **tranché (2026-08-11)** : canal
+  `#infrastructure` créé par Sidy côté Discord. Reste à inscrire à
+  l'allowlist (§VIII.8) au moment de l'écriture du mécanisme de post ;
+  l'identifiant numérique du canal (snowflake Discord) n'est **pas** consigné
+  ici, par cohérence avec `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`
+  qui ne fixe que les noms lisibles — l'identifiant vit dans la configuration
+  d'exécution locale (`.env`/`config.yaml`), jamais dans le dépôt versionné.
 - la **fréquence exacte** du cron (proposition à confirmer : quotidienne, par
   analogie avec le « Rapport du matin » déjà envisagé côté H‍ermes/gardien —
   cf. `meta/projet-unifie/04-sessions-par-fonction-et-backlogs.md`) et l'heure ;
