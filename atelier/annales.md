@@ -29,8 +29,11 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
   (blockquote de tête, §III.1, §IV, §VI, toujours `brouillon`),
   `atelier/rd/cahiers/registre-problemes.md` (nouvelle entrée).
-- **Validation** : *(à compléter après vérification)*
-- **Commit** : *(SHA à ajouter après commit)*
+- **Validation** : `verifier-invariants.py --racine /root/wiki` : `0 erreur(s),
+  40 avertissement(s)` (baseline inchangée) ; `Graphe/generer-cartographie.py
+  --verifier` : 2 anomalies bloquantes pré-existantes (hors périmètre),
+  inchangées.
+- **Commit** : bd64d60
 
 ---
 
