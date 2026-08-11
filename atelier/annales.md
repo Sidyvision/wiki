@@ -33,6 +33,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **État** : prompt agent 09 étendu, reste en régime exploratoire (statut_experience non 
   formalisé en frontmatter, déjà documenté par le registre) ; accès FS/gouvernance résolus 
   séparément ; déploiement effectif de la veille infrastructure reste un acte distinct (Cmd 6).
+- **Commit** : 29cb5cc
 
 ---
 
@@ -58,6 +59,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   Aucun changement aux chantiers énumérés (accès FS, mécanisme technique, extension 
   du prompt) — leurs exécutions restent des actes séparés. Transition conceptuelle 
   maintenant explicite.
+- **Commit** : 29cb5cc
 
 ---
 

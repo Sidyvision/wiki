@@ -67,6 +67,7 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 - **Statut** : `resolu` — sections zodiacales et gouvernance intégrées au prompt en 
   production ; reste hors périmètre : déploiement effectif de la veille (accès FS 
   résolu séparément, chantier d'exécution à venir).
+- **Commit** : 29cb5cc
 
 ---
 
@@ -105,6 +106,7 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 - **Statut** : `resolu` — transition explicitement documentée, note phase 3 enrichie 
   de cette dimension ; reste hors périmètre : execution de la veille elle-même 
   (extension du prompt, déploiement du mécanisme).
+- **Commit** : 29cb5cc
 
 ---
 
