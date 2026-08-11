@@ -22,6 +22,15 @@ updated: 2026-08-11
 > (§VI) — un plan présenté avant toute écriture (Cmd 6), intégralement
 > réversible. Le verdict d'ouverture définitive (passage à l'écriture)
 > appartient à Sidy.
+>
+> **Note architecturale (2026-08-11)** : Cette note documente une transition 
+> du flux alchimique/théurgique adopté 
+> ([[doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire|trois 
+> territoires]]). Le Discernement (fiches 16/17 sur extension zodiacale des 
+> 12 agents) devient R&D/Laboratoire en attente d'exécution : un chantier 
+> exploratoire (statut_experience: exploratoire) sous supervision de Sidy. 
+> La transition ne sera complète — passage en Théorie adoptée ou Archivage — 
+> que quand le Maître valide l'exécution effective et ses résultats.
 
 ---
 
@@ -100,6 +109,14 @@ Trois questions distinctes, tranchées séparément — verdicts Sidy du
    (similaire au mode auto-accept du plan de Claude Code), qui se désactive
    automatiquement après — cohérent avec Cmd 13 (porte humaine), traçabilité
    Discord intégrale.
+
+   **Registre alchimique** (transition Discernement → R&D) : 
+   Cette désignation du Studio Sound Engineer incarne le passage du Plan théurgique 
+   (hypothèse : extension zodiacale du rôle) à la mise en œuvre concrète 
+   (Laboratoire : exécution du prompt étendu). L'agent du Sagittaire reçoit 
+   l'Intention (pédagogie + veille infrastructure) et y répond par l'Acte — 
+   reste sous régime de non-finalité (exploratoire) jusqu'à verdict de Sidy 
+   sur l'adéquation du résultat.
 2. **Quoi** — les 3 scripts déterministes **et** la mesure d'empreinte
    serveur (cf.
    [[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]], instantané

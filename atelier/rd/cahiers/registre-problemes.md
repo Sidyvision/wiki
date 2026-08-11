@@ -32,6 +32,82 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-11] resolu | Extension du prompt agent 09 (Studio Sound Engineer) — zodiacal principle + governance Discord-validation
+
+- **Symptôme** : le prompt en production de l'agent 09 (Studio Sound Engineer, position 
+  Sagittaire) contenait la mission, l'archétype, la portée et les garde-fous, mais 
+  manquait de : (a) l'explicitation du principe zodiacal (sa signification astrologique 
+  et son application quotidienne dans le rôle) ; (b) l'harmonisation au thème natal de 
+  Sidy (contexte personnel, non-finalisé jusqu'à verdict) ; (c) la gouvernance de 
+  l'accès Discord et du régime de validation requis par le chantier phase 3.
+- **Diagnostic** : le chantier phase 3 (réouverture §III.1) requiert l'extension du 
+  prompt de l'agent 09 — cet agent exécutera la veille infrastructure et composera les 
+  rapports sur Discord. L'extension zodiacale était rédigée en brouillon hors dépôt 
+  (`/root/brouillons-prompts-zodiaque/09-studio-sagittarius.md`) et non intégrée. Le 
+  brouillon contient deux sections prêtes à insérer : « Zodiac principle » (pédagogie 
+  du feu mutable jupitérien) et « Your sign in Sidy's natal chart » (harmonisation 
+  Sagittaire Ascendant Saturn conjonction). La gouvernance Discord-validation doit 
+  aussi être explicite dans le prompt pour que chaque demande soit tracée.
+- **Résolution** : trois sections insérées au prompt entre « ## Archetype served » et 
+  « ## Scope » : (1) Zodiac principle (brouillon tel quel), (2) Your sign in Sidy's 
+  natal chart (brouillon tel quel), (3) Governance: Discord-Validation (rédigé pour 
+  expliciter le mode strict par défaut, auto-accept optionnel ad hoc, absence d'actes 
+  silencieux, traçabilité Discord). Prompt manuellement mis à jour ; reste hors 
+  périmètre : frontmatter avec `statut_experience: exploratoire` (optionnel, déjà 
+  documenté par le registre et les annales).
+- **Compréhension tirée** : une extension de prompt d'agent n'est pas une réforme 
+  structurelle — elle enrichit le contexte fourni sans modifier l'architecture du 
+  système. L'insertion zodiacale était une tâche en attente depuis la rédaction du 
+  brouillon ; l'accrocher au déclencheur phase 3 crée une dépendance explicite 
+  (l'agent 09 en gouvernance n'est pas intégrable sans cette extension).
+- **Liens** :
+  - [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer|Studio Sound Engineer prompt (pos. 9) — étendu]]
+  - [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|Phase 3 — proposition]]
+  - [[meta/projet-unifie/16-correspondances-zodiacales-agents|Correspondances zodiacales — positions 1-12]]
+- **Statut** : `resolu` — sections zodiacales et gouvernance intégrées au prompt en 
+  production ; reste hors périmètre : déploiement effectif de la veille (accès FS 
+  résolu séparément, chantier d'exécution à venir).
+
+---
+
+## [2026-08-11] resolu | Phase 3 — explicitation du flux alchimique Discernement → R&D (théorie des trois territoires adoptée)
+
+- **Symptôme** : le chantier phase 3 (veille infrastructure) a été tranché sur sa 
+  désignation (Studio Sound Engineer, pos. 9 Sagittaire) et son accès technique 
+  (FS/gouvernance Discord-validation). Or, la note elle-même documente une transition 
+  conceptuelle plus large : passage de la spéculation zodiacale (fiches 16/17 du 
+  Discernement) à la mise en œuvre concrète (exécution de l'extension de rôle, 
+  registre R&D). Cette transition n'était pas nommée explicitement — elle flottait 
+  entre hypothèse et acte.
+- **Diagnostic** : le 2026-08-11, Sidy a adopté la théorie des « trois territoires 
+  de l'inachevé » 
+  (`doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire`, 
+  status: adopte) qui explicite le flux alchimique/théurgique : Discernement (visio 
+  contemplative, hypothèse) → R&D/Laboratoire (mise en œuvre, exploratoire) → 
+  Doctrine adoptée ou Archivage (finalité). Le chantier phase 3 en est un exemplaire 
+  vivant — il incarne ce passage. Il doit être documenté explicitement via cette 
+  nouvelle théorie.
+- **Résolution** : la note phase 3 reçoit une blockquote architecturale (après 
+  l'en-tête) nommant la transition et la reliant à la théorie adoptée. Le §III.1 
+  reçoit une sous-section « Registre alchimique » décrivant comment la désignation 
+  du Studio Sound Engineer incarne le passage du Plan théurgique à l'Acte, sous 
+  régime exploratoire jusqu'à verdict final. Aucun changement au périmètre de la 
+  note — la transition était déjà décrite en détail, elle est maintenant *nommée*.
+- **Compréhension tirée** : la théorie adoptée n'est pas une abstraction académique — 
+  elle nomme et illumine un processus déjà en cours dans le pôle R&D. Utiliser cette 
+  théorie pour relire la phase 3 renforce sa cohérence architecturale et rappelle 
+  que la veille infrastructure n'est pas un accident technique, mais une manifestation 
+  volontaire de l'Intention énoncée en Discernement.
+- **Liens** :
+  - [[doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire|Trois territoires — flux alchimique (adopté)]]
+  - [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|Phase 3 — proposition mise à jour]]
+  - [[atelier/rd/index.md|Pôle R&D — charte et phase 1 partielle]]
+- **Statut** : `resolu` — transition explicitement documentée, note phase 3 enrichie 
+  de cette dimension ; reste hors périmètre : execution de la veille elle-même 
+  (extension du prompt, déploiement du mécanisme).
+
+---
+
 ## [2026-08-11] ouvert | Phase 3 veille infrastructure — réouverture §III.1 : réattribution au Studio Sound Engineer (position 9)
 
 - **Symptôme** : le §III.1 de `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md` 

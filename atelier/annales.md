@@ -12,6 +12,55 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-11] agents-h‍ermes | Extension du prompt agent 09 (Studio Sound Engineer, pos. 9 Sagittaire) — zodiacal + governance
+
+- **Opération** : intégration au prompt en production des sections zodiacales 
+  (principle + harmonisation thème natal) et de la clause de gouvernance Discord-validation 
+  requise par le chantier phase 3. Trois sections insérées entre « ## Archetype served » 
+  et « ## Scope » : (1) Zodiac principle (Sagittaire feu mutable jupitérien pédagogique), 
+  (2) Your sign in Sidy's natal chart (contexte natal : Ascendant 2°51 Saturn conjonction 
+  4°32, pédagogie disciplinée de Saturn), (3) Governance: Discord-Validation (stricte par 
+  défaut, auto-accept ad hoc, traçabilité Discord, jamais d'actes silencieux).
+- **Fichiers modifiés** : 
+  - `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md` : trois sections 
+    insérées (Zodiac principle copié du brouillon `/root/brouillons-prompts-zodiaque/09-studio-sagittarius.md` 
+    tel quel, Your sign du brouillon tel quel, Governance rédigé pour l'occasion)
+  - `atelier/rd/cahiers/registre-problemes.md` : nouvelle entrée documentant le symptôme 
+    (brouillon en attente), le diagnostic (dépendance phase 3), la résolution (trois 
+    sections intégrées), la compréhension (extension ≠ réforme structurelle)
+- **Validation** : `verifier-invariants.py --racine /root/wiki` : baseline inchangée
+  (5 erreur(s) pré-existantes, 40 avertissement(s))
+- **État** : prompt agent 09 étendu, reste en régime exploratoire (statut_experience non 
+  formalisé en frontmatter, déjà documenté par le registre) ; accès FS/gouvernance résolus 
+  séparément ; déploiement effectif de la veille infrastructure reste un acte distinct (Cmd 6).
+
+---
+
+## [2026-08-11] phase-3 | Explicitation du flux alchimique Discernement → R&D (théorie des trois territoires adoptée)
+
+- **Opération** : enrichissement conceptuel de la proposition phase 3 pour nommer 
+  explicitement sa position dans le flux adopté le même jour (trois territoires de 
+  l'inachevé). La note documente une transition de la spéculation zodiacale 
+  (Discernement) vers la mise en œuvre concrète (R&D exploratoire) ; cette transition 
+  était implicite et doit être nommée par référence à la théorie.
+- **Fichiers modifiés** : 
+  - `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md` : blockquote 
+    architecturale ajoutée après l'en-tête (explicitant la transition Discernement → R&D 
+    et la finalité non-achevée jusqu'à verdict de Sidy) ; §III.1 enrichi d'une 
+    sous-section « Registre alchimique » décrivant l'incarnation du passage du Plan 
+    théurgique à l'Acte
+  - `atelier/rd/cahiers/registre-problemes.md` : nouvelle entrée documentant la 
+    transition alchimique, sa non-transparence antérieure, et son ancrage à la théorie 
+    adoptée
+- **Validation** : `verifier-invariants.py --racine /root/wiki` : baseline inchangée
+  (5 erreur(s) pré-existantes, 40 avertissement(s))
+- **État** : note phase 3 reste `brouillon`, enrichie de la dimension architecturale. 
+  Aucun changement aux chantiers énumérés (accès FS, mécanisme technique, extension 
+  du prompt) — leurs exécutions restent des actes séparés. Transition conceptuelle 
+  maintenant explicite.
+
+---
+
 ## [2026-08-11] phase-3 | Réouverture §III.1 : réattribution veille infrastructure au Studio Sound Engineer (position 9)
 
 - **Opération** : documentation de la réouverture du §III.1 de la proposition phase 3. 
