@@ -2,6 +2,7 @@
 title: "Trois territoires de l'inachevé — flux spéculatif → exploratoire → finalisé"
 type: discernement
 status: adopte
+tradition_cadre: "universel"
 verdict_date: 2026-08-11
 description: >
   Hypothèse méthodologique sur la parenté entre Discernement, R&D et Herméneutique (registre expression),
@@ -10,6 +11,8 @@ description: >
   Sandbox comme dépendance structurelle du R&D.
 created: 2026-08-11
 updated: 2026-08-12
+sources: ["to-source"]
+sources_count: 1
 refs:
   - "CLAUDE.md (§II, §V, §VI, §VII — circuits et régimes)"
   - "meta/philosophie-sashimono.md (Art. 3, 5 — démontabilité, réversibilité)"
@@ -158,8 +161,11 @@ Cette hypothèse elle-même est un **travail du Laboratoire** : elle énonce une
 Cette hypothèse enrichit :
 - **Protocole du dépôt wiki** (mémoire utilisateur) — gouvernance générale du dépôt
 - **Cloisonnement technique H‍ermes** (mémoire utilisateur) — accès FS des agents, hors champ mais connexe à la phase 2 d'une spéculation d'extension
-- [[meta/philosophie-sashimono.md]] (art. 3 et 5 : démontabilité, réversibilité)
-- [[atelier/rd/index.md]] (charte du pôle R&D, phase 1 partielle)
+- `meta/philosophie-sashimono.md` (art. 3 et 5 : démontabilité, réversibilité) — mention
+  non liée : étanchéité §VI, `doctrinal/` ne pointe jamais vers `meta/`
+- `atelier/rd/index.md` (charte du pôle R&D, phase 1 partielle) — mention non liée :
+  étanchéité §VI, `doctrinal/` ne pointe jamais vers `atelier/rd/` (sens réservé à
+  `rd/ → doctrinal/`, jamais l'inverse)
 
 ---
 
