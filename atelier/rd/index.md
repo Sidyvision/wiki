@@ -3,7 +3,7 @@ title: "Pôle R&D de l'atelier — charte du lieu"
 type: index
 tags: [atelier, rd, infrastructure, souverainete]
 created: 2026-08-08
-updated: 2026-08-11
+updated: 2026-08-12
 sources: []
 links: []
 ---
@@ -93,7 +93,13 @@ dans le dépôt.
 - **Non inclus dans la phase 1 partielle** (viennent ensuite) :
   la discipline de laboratoire complète (bloc 🧪 Expérience, règle de
   reproduction) — phase 2 ; l'agent de veille
-  infrastructure (phase 3, sur désignation de Sidy).
+  infrastructure (phase 3, sur désignation de Sidy) — voir
+  [[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11|proposition
+  phase 3]] (archivée 2026-08-12, `brouillon`) : désignation de principe
+  tranchée (Studio Sound Engineer, position 9, canal `#infrastructure`, cron
+  quotidien midi, rapport en 5 sections), mais **aucune écriture
+  d'automatisme effectuée** — extension du prompt d'agent, accès FS/exécution
+  et mécanisme technique restent à instruire séparément (Cmd 6).
 - **Registre des problèmes ouvert le 2026-08-08** (verdict Sidy, premier cahier
   concret de la phase 2) : [[atelier/rd/cahiers/registre-problemes]] — append-only, format
   Symptôme brut / Diagnostic / Résolution / Compréhension tirée / Liens / Statut ;

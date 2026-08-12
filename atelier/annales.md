@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 # Annales de l'Atelier
@@ -11,6 +11,31 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 <!-- INSERTION: EN-TÊTE -->
 
 ---
+
+## [2026-08-12] archivage | Proposition phase 3 (agent de veille infrastructure) archivée dans rd/cahiers
+
+- **Fiche créée** : `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
+  — `type: meta` (précédent : `registre-problemes.md`, même dossier), statut
+  `brouillon` conservé tel quel (contenu non ré-écrit, seule une section
+  « Intégration (2026-08-12) » ajoutée en queue de fiche).
+- **Provenance** : déposée en `_inbox/` le 2026-08-11 ; le document
+  s'auto-déclarait sans écriture hors `_inbox/` (« cette note ne code encore
+  aucun automatisme »). Archivage décidé le 2026-08-12 sur consigne explicite
+  de Sidy (« intègre le reste »), question de placement posée et tranchée :
+  destination `atelier/rd/index.md` telle qu'indiquée par le `cible:` du
+  document lui-même.
+- **Portée de l'archivage** : documente des décisions de principe déjà
+  tranchées par Sidy le 2026-08-11 (agent désigné : Studio Sound Engineer,
+  poste 9 ; canal `#infrastructure` ; cron quotidien midi ; rapport en 5
+  sections). **N'exécute aucun automatisme** — le tableau récapitulatif de la
+  fiche (extension du prompt d'agent, accès FS/exécution, mécanisme
+  technique, récurrence de l'empreinte serveur) reste explicitement « à
+  instruire »/« à trancher », conformément au Cmd 6.
+- **Mise à jour de renvoi** : `atelier/rd/index.md`, §« État de la phase 1
+  partielle » → « Non inclus », pointeur ajouté vers la fiche archivée.
+- `python3 verifier-invariants.py --racine /root/wiki` : (résultat à
+  consigner après exécution, voir suite de cette entrée avant commit).
+- **Commit** : (en attente)
 
 ## [2026-08-11] infrastructure | Cartographie architecture infrastructure serveur/Hermes/omniroute
 

@@ -64,6 +64,7 @@ mondes. La convergence est retenue comme **justification du nom du circuit**, en
 - [[hermeneutique/metal-gear/metal-gear|Metal Gear (saga)]] — *oeuvre*, fiche-hub, `en-cours`. La dissuasion produit ce qu'elle prétend écarter ; fil doctrinal interne d'une volonté transmise de travers.
 - [[hermeneutique/metal-gear/big-boss|Big Boss]] — *figure*, `en-cours`. Un nom porté par plusieurs corps ; le disciple qui institue son malentendu.
 - [[hermeneutique/metal-gear/mother-base|Mother Base]] — *dispositif*, `en-cours`. Base flottante, recrutement par extraction ; module de transposition d'infrastructure 🔧 suggéré.
+- [[hermeneutique/metal-gear/idroid|iDroid]] — *dispositif*, `brouillon`, `to-source`. Interface individuelle de Venom Snake, membrane entre le corps isolé et Mother Base ; dispositif satellite.
 
 ### Death Stranding
 

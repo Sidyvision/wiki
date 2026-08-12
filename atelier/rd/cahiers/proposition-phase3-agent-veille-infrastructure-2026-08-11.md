@@ -1,10 +1,13 @@
 ---
 title: "Proposition — Phase 3 du pôle R&D : agent de veille infrastructure"
-type: proposition-structure
+type: meta
 statut: brouillon
 cible: "atelier/rd/index.md — État de la phase 1 partielle, §« Non inclus »"
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-08-12
+tags: [atelier, rd, phase3, hermes, veille, infrastructure]
+sources: []
+links: ["[[atelier/rd/index]]"]
 ---
 
 # Proposition — Phase 3 : agent de veille infrastructure
@@ -269,3 +272,14 @@ Le risque nommé au §IV (surface d'écriture d'un agent H‍ermes) est désorma
 contenu par le §III.3 (signalement Discord uniquement, jamais d'écriture 
 directe au registre), quel que soit l'exécutant. Ce n'est pas une dérogation 
 à la porte humaine, c'est sa réaffirmation.
+
+## Intégration (2026-08-12)
+
+Archivée telle quelle dans `atelier/rd/cahiers/` sur consigne explicite de
+Sidy (« intègre le reste »). Aucune écriture d'automatisme effectuée par ce
+geste d'archivage — conformément au §VI ci-dessus, tout ce qui reste
+« à instruire » ou « à trancher » dans le tableau récapitulatif demeure
+non exécuté. Seul le renvoi depuis `atelier/rd/index.md` (§« Non inclus »)
+est mis à jour pour pointer ici. Statut de la note laissé à `brouillon` :
+son intégration au dépôt documente une décision déjà tranchée en principe,
+elle n'achève pas les chantiers restants du tableau ci-dessus.

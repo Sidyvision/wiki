@@ -13,6 +13,25 @@ entrées insérées **après ce header**.
 
 ---
 
+## [2026-08-12] archivage | iDroid — dispositif satellite de Mother Base
+
+- **Fiche créée** : `hermeneutique/metal-gear/idroid.md` — `type: dispositif`,
+  `registre: analyse`, `statut_analyse: brouillon`, `sources: ["to-source"]`.
+- **Provenance** : déposée en `_inbox/` le 2026-08-11, statut d'origine
+  « kari-kumi / brouillon — en attente du visa de Sidy ». Visa donné le
+  2026-08-12 par consigne explicite d'intégrer le reste du sas.
+- **Anomalie corrigée avant intégration** : le Sceau livré portait
+  `oeuvre: "metal-gear-solid"` et `liens: ["hermeneutique/metal-gear-solid/mother-base"]`
+  — slug incohérent avec le dossier réel `hermeneutique/metal-gear/` (ouvert
+  2026-08-08, lot Kojima). Corrigé en `oeuvre: "metal-gear"` et
+  `liens: ["[[hermeneutique/metal-gear/mother-base]]"]` (wikilink complet,
+  convention §IV). Corps de la fiche inchangé.
+- Aucune clé doctrinale invoquée (§4 de la fiche, piste non retenue) —
+  hozo/kumiko/kari-kumi sans objet ici.
+- `verifier-invariants.py --racine /root/wiki` : voir entrée groupée
+  `atelier/annales.md` du même jour pour le résultat brut consolidé.
+- **Commit** : (en attente)
+
 ## [2026-08-12] archivage | Marqueur d'insertion ajouté (mise en conformité)
 
 - Ajout du marqueur `<!-- INSERTION: EN-TÊTE -->` (absent jusqu'ici, seul journal
