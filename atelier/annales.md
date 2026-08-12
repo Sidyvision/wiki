@@ -12,6 +12,19 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-12] archivage | Audit de santé Claude Code (`/doctor`) versé dans rd/infrastructure
+
+- **Fiche créée** : `atelier/rd/infrastructure/claude-code-health-check-2026-08-11.md`
+  — `type: infrastructure`, `statut_experience: exploratoire`. Rapport brut
+  (anglais d'origine) produit par Sidy le 2026-08-11 via `/doctor`,
+  conservé tel quel — diagnostic mécanique de l'installation, non un
+  jugement sur le contenu doctrinal.
+- **Non exécuté** : les recommandations du rapport (notamment « trimmer
+  `CLAUDE.md` », devenue sans objet après l'éclatement en protocoles
+  locaux du 2026-08-12) restent hors périmètre, aucun plan validé ne les
+  couvre (Cmd 6).
+- **Commit** : 036635b
+
 ## [2026-08-12] archivage | Proposition phase 3 (agent de veille infrastructure) archivée dans rd/cahiers
 
 - **Fiche créée** : `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`

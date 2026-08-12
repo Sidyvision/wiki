@@ -9,6 +9,18 @@ updated: 2026-08-12
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-12] vigilance | Correction d'étanchéité — fiche trois-territoires-inacheve
+
+- **Fiche corrigée** : `discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md`.
+- **Anomalies** : Sceau Recteur incomplet (`tradition_cadre`, `sources`,
+  `sources_count` manquants) — complété. Deux wikilinks actifs
+  `[[meta/philosophie-sashimono.md]]` et `[[atelier/rd/index.md]]` violaient
+  l'étanchéité `doctrinal/ → meta/`/`doctrinal/ → atelier/rd/` (sens interdit,
+  CLAUDE.md racine §VI, doctrinal/CLAUDE.md) — convertis en mentions texte
+  non liées, annotées de la règle d'étanchéité applicable. Corps de fiche
+  inchangé pour le reste.
+- **Commit** : 036635b
+
 ## [2026-08-12] discernement | Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction volontaire
 
 - **Fiche** : `discernement/2026-08-12_nen-pacte-restriction-ascetique.md`
