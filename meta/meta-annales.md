@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-10
+updated: 2026-08-12
 ---
 
 # Annales du Domaine Réservé (`meta/`)
@@ -12,6 +12,42 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-12] amendement | éclatement expérimental du CLAUDE.md en protocoles locaux
+
+- **Directive Sidy** : `CLAUDE.md` racine (912 lignes) devenu lourd à naviguer ;
+  demande d'éclatement en un `CLAUDE.md` par circuit, de sorte qu'un agent
+  travaillant dans un seul dossier n'ait sous les yeux que le protocole qui le
+  concerne (Claude Code charge le `CLAUDE.md` racine en toute circonstance, et
+  charge en plus celui d'un sous-dossier quand un agent y travaille).
+- **Tension résolue** : l'ancien Cmd 14 (Corollaire d'auto-suffisance) imposait la
+  lettre intégrale de toute règle dans le fichier unique, sans aucun renvoi.
+  Verdict Sidy (verbatim) : *« on change la règle mais on note dans le fichier
+  même que nous testons une méthode alternative le temps d'être fixé sur son
+  efficacité, tout en archivant l'original impérativement »* — amendement
+  explicite, qualifié de méthode à l'essai (réversible, non tranchée
+  définitivement), pas une doctrine d'organisation figée.
+- **Action** : contenu transversal (postes de travail, carte des circuits,
+  étanchéité, protocoles d'exécution communs, supervision des agents, procédure
+  d'intégration, commandements absolus) conservé à la racine, révisé avec une
+  nouvelle entrée de révision et une section « II bis. Carte des protocoles
+  locaux ». Contenu propre à un seul circuit (Sceau, nomenclature, actions
+  d'exécution locales) migré vers `doctrinal/CLAUDE.md`, `atelier/CLAUDE.md`,
+  `label/CLAUDE.md`, `hermeneutique/CLAUDE.md`, `meta/CLAUDE.md` — lettre
+  complète, pas de résumé. Archive intégrale et non modifiée de la version
+  pré-éclatement conservée (Cmd 10) :
+  `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12.md`.
+- **Complément (même jour)** : sur nouvelle directive Sidy, `Protocole.md`
+  créé à la racine du dépôt comme copie fidèle et non modifiée du protocole
+  intégral d'avant découpage (même contenu que l'archive, replacé au niveau
+  racine pour consultation directe) ; `CLAUDE.md` (racine + cinq locaux) reste
+  la version en vigueur, effectivement chargée par l'outil d'intégration.
+- **Vérification** : `verifier-invariants.py --racine /root/wiki` exécuté —
+  aucune des erreurs/avertissements relevés ne concerne un fichier touché par
+  cet éclatement (toutes préexistantes, traitées ailleurs).
+- **Commit** : <à compléter après commit>
 
 ---
 

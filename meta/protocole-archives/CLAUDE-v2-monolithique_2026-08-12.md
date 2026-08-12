@@ -1,6 +1,28 @@
+---
+title: "CLAUDE.md — Protocole du Dépôt V2 (version monolithique, archivée)"
+type: meta
+status: deprecated
+created: 2026-06-11
+updated: 2026-08-12
+---
+
+# ⚠️ Version archivée — pré-éclatement (2026-08-12)
+
+Copie intégrale et non modifiée du `CLAUDE.md` racine tel qu'il se présentait
+**avant** l'éclatement expérimental en protocoles locaux par circuit
+(`doctrinal/CLAUDE.md`, `atelier/CLAUDE.md`, `label/CLAUDE.md`,
+`hermeneutique/CLAUDE.md`, `meta/CLAUDE.md`, et un `CLAUDE.md` racine allégé).
+
+Conservée intégralement pour rollback (Commandement 10 : jamais de suppression
+sèche) et pour trace de la lettre exacte des règles au moment de la bascule. En
+cas de retour arrière, ce fichier fait à nouveau foi tel quel comme `CLAUDE.md`
+racine.
+
+-----
+
 بسم الله الرحمن الرحيم
 
-# CLAUDE.md — Protocole du Dépôt (V2, Restauration étendue — rév. 2026-08-12)
+# CLAUDE.md — Protocole du Dépôt (V2, Restauration étendue — rév. 2026-07-06)
 
 Tu es le greffier et le mainteneur de ce dépôt de transmission, d'étude et de création.
 L'Intellect humain (Sidy) dirige, ordonne et contemple ; toi, machine — **quel que soit
@@ -73,27 +95,13 @@ la dispersion mentale.
 > `projet-unifie/`) sans aucun lien entrant, faute de hub interne au domaine
 > — les quatre circuits en ont un (`index.md`/`annales.md`), `meta/` n'en
 > avait aucun. §II, §VI et §X (Cmd 9) mis à jour.
-> **Révisé le 2026-08-12 : éclatement expérimental en protocoles locaux
-> (verdict Sidy — méthode à l'essai, non tranchée définitivement).** Le présent
-> fichier ne porte plus, seul, la lettre intégrale de toute règle : les Sceaux,
-> nomenclatures et actions d'exécution **propres à un seul circuit** vivent
-> désormais dans un `CLAUDE.md` local (`doctrinal/`, `atelier/`, `label/`,
-> `hermeneutique/`, `meta/` — carte au §II bis). Motif : réduire ce que doit lire
-> un agent travaillant dans un seul circuit, sans rien perdre pour un agent
-> travaillant depuis la racine (chargée par construction en toute circonstance).
-> Ce qui reste ici : tout ce qui est transversal (postes de travail, carte des
-> circuits, étanchéité inter-circuits, protocoles d'exécution communs,
-> supervision des agents, procédure d'intégration, commandements absolus). Le
-> **Corollaire d'auto-suffisance** (ancien Cmd 14) est amendé en conséquence — sa
-> nouvelle lettre figure au §X. **Archive intégrale** de la version
-> pré-éclatement, non modifiée, conservée pour rollback :
-> `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12.md` (Cmd 10 : jamais
-> de suppression sèche). Réversible sur simple verdict de Sidy.
 >
 > *Note technique* : le nom de fichier `CLAUDE.md` est une convention lue par l'outil
 > d'intégration en ligne de commande ; il ne désigne pas un modèle particulier. Le
 > protocole s'applique identiquement quel que soit le moteur (Anthropic, Qwen
-> auto-hébergé, agents Hermes, ou tout successeur).
+> auto-hébergé, agents Hermes, ou tout successeur). **Corollaire d'auto-suffisance** :
+> tout ce qu'un moteur doit savoir pour opérer figure dans ce fichier — aucun renvoi à
+> une version antérieure ne dispense de reproduire la lettre d'une règle en vigueur.
 
 -----
 
@@ -129,17 +137,15 @@ position physique des contrôles, pas seulement leurs noms.
 
 ```
 wiki/  (= /root/wiki)
-├── CLAUDE.md              ← Le présent protocole (transversal, invariant sauf ordre humain)
+├── CLAUDE.md              ← Le présent protocole (invariant sauf ordre humain)
 ├── _inbox/                ← Sas de déchargement (vidé après chaque intégration)
 ├── raw/                   ← Sources brutes IMMUABLES
 │   └── assets/            ← Iconographie, schémas, scans (dessins inclus)
 ├── doctrinal/             ← Le corps vivant des connaissances (Sceau Recteur)
-│   ├── CLAUDE.md          ← Protocole local (Sceau, nomenclature, actions propres)
 │   ├── index.md · annales.md
 │   ├── doctrines/ · traditions/ · symboles/ · autorites/ · deviations/
 │   ├── etudes/ (YYYY-MM-DD_) · discernement/ (YYYY-MM-DD_) · sources/
 ├── atelier/               ← Circuit NON-doctrinal : métier et références
-│   ├── CLAUDE.md          ← Protocole local
 │   ├── index.md · annales.md
 │   ├── materiel/          ← Manuels, fiches machines, fiches routing (RÉFÉRENCE)
 │   ├── entretiens/        ← Interviews de métier (RÉFÉRENCE)
@@ -153,7 +159,6 @@ wiki/  (= /root/wiki)
 │                             souveraineté (entretien, optimisation, émancipation
 │                             des intermédiaires de service tiers)
 ├── label/                 ← Circuit NON-doctrinal : la maison de création et le label
-│   ├── CLAUDE.md          ← Protocole local
 │   ├── index.md · annales.md
 │   ├── direction-artistique/   (dont amorcage/ : idées en gestation)
 │   ├── musique/creation/ · musique/ingenierie/   (une paire par morceau, même slug)
@@ -161,21 +166,18 @@ wiki/  (= /root/wiki)
 │   ├── photographie/creation/ · photographie/technique/
 │   ├── production/ · administratif/ · distribution/ · marketing-communication/
 ├── hermeneutique/          ← Circuit NON-doctrinal : navigation du domaine intermédiaire
-│   ├── CLAUDE.md          ← Protocole local
 │   ├── index.md · annales.md
 │   ├── auteurs/            ← créateurs, transverses aux œuvres
 │   ├── <slug-oeuvre>/      ← un sous-dossier par œuvre ou saga
 │   └── expression/         ← idées personnelles hors œuvre unique
 └── meta/                  ← Domaine réservé : outillage, personnel, transmissions
-    ├── CLAUDE.md          ← Protocole local (Sceau Transmissions, corollaire agentique)
     ├── meta-index.md · meta-annales.md  ← Hub et journal propres au domaine
     │                         (nommage préfixé `meta-`, jamais `index.md`/`annales.md`
     │                         nus : `meta/` reste un Domaine Réservé, pas un sixième
     │                         circuit — ouvert 2026-08-09)
     ├── bibliotheque-physique.md  ← Catalogue de la bibliothèque (voir §VII, sources)
-    ├── protocole-archives/       ← Versions archivées du protocole (Cmd 10)
     ├── projet-unifie/     ← Briefs d'infrastructure, hermes-prompts/, propositions
-    └── transmissions/     ← Dispositif Karūbī (silsila documentaire, voir meta/CLAUDE.md)
+    └── transmissions/     ← Dispositif Karūbī (silsila documentaire, voir §V.c)
         ├── karubi-gabarit.md        ← Gabarit G0, jamais remis tel quel
         ├── generer-karubi.py        ← Scellement/vérification déterministe (sceller,
         │                              verifier, empreinte) — aucun LLM dans la boucle
@@ -187,63 +189,318 @@ wiki/  (= /root/wiki)
 **Cinq circuits étanches** : `doctrinal/` (la doctrine), `atelier/` (le métier et les
 références), `label/` (la maison de création et le label), `hermeneutique/` (la
 navigation du domaine intermédiaire et le bureau de Direction Artistique), `meta/`
-(le personnel et l'outillage, Domaine Réservé). Règles de liens : §VI.
-
-## II bis. Carte des protocoles locaux (ouverture 2026-08-12, méthode à l'essai)
-
-Chaque circuit porte, à sa racine, un `CLAUDE.md` propre — chargé par l'outil
-d'intégration en plus du présent fichier dès qu'un agent travaille dans ce dossier
-(le présent fichier reste, lui, chargé en toute circonstance). Répartition :
-
-| Fichier | Périmètre |
-|---|---|
-| `doctrinal/CLAUDE.md` | Sceau Recteur (frontmatter + statuts), nomenclature doctrinale, Examen de Discernement, Examen de Fiqh, Action Restauration |
-| `atelier/CLAUDE.md` | Sceau atelier, nomenclature, spécificités `rd/` |
-| `label/CLAUDE.md` | Sceau label, ancrage éthique de la structure, nomenclature, Action Publication |
-| `hermeneutique/CLAUDE.md` | Sceau herméneutique, nomenclature, clause de plasticité |
-| `meta/CLAUDE.md` | Sceau Transmissions/Karūbī, rappel d'étanchéité, corollaire agentique H‍ermes |
-
-Ce qui reste **exclusivement ici** (transversal, s'applique identiquement aux cinq
-circuits) : §I, §II, §VI (étanchéité inter-circuits), §VII (protocoles d'exécution
-communs), §VIII (supervision des moteurs et agents), §IX (procédure d'intégration),
-§X (Commandements Absolus). En cas de silence d'un `CLAUDE.md` local sur un point,
-ou de doute, **ce fichier fait foi**.
+(le personnel et l'outillage). Règles de liens : §VI.
 
 -----
 
-## III. Nomenclature — règle commune
+## III. Nomenclature et Règles de Nommage
 
-*Règle stricte, valable pour les cinq circuits* : fichiers en minuscules, ASCII,
-sans accents, tirets `-`. Les titres internes (H1) respectent l'orthographe
-française. **Une page = un sujet.**
+- **Doctrinal** : `doctrinal/traditions/<slug>.md`, `symboles/<slug>.md`,
+  `autorites/<slug>.md`, `deviations/<slug>.md`, `sources/<slug>.md` ;
+  `etudes/YYYY-MM-DD_titre-court.md` et `discernement/YYYY-MM-DD_titre-court.md`
+  (préfixe daté obligatoire).
+- **Atelier** : `atelier/<sous-dossier>/<slug>.md`.
+- **Label** : `label/<pole>/<slug>.md`. Morceaux :
+  `label/musique/creation/<slug>.md` + `label/musique/ingenierie/<slug>.md` — la paire
+  partage le **même slug**. Le suffixe d'export `.ex` des titres de travail est
+  **toujours retiré** des slugs et des titres définitifs.
+- **Herméneutique** : `hermeneutique/auteurs/<slug>.md` ;
+  `hermeneutique/<slug-oeuvre>/<slug-oeuvre>.md` pour la fiche-hub (nom du
+  dossier redoublé) ; `hermeneutique/<slug-oeuvre>/<slug>.md` pour les figures,
+  dispositifs et analyses ; `hermeneutique/expression/<slug>.md`.
+  `index.md` est **réservé** à l'index du circuit.
+- **Atelier, études de cas** : `atelier/etudes-de-cas/<slug>.md`, langue selon le
+  framework.
+- **Table des slugs de l'album 01** : figée dans `label/production/album-01.md` — toute
+  fiche morceau s'y conforme.
 
-Le détail de la nomenclature propre à chaque circuit (préfixes datés, sous-dossiers,
-règles de slug) vit désormais dans le `CLAUDE.md` local du circuit concerné (§II bis).
+*Règle stricte* : fichiers en minuscules, ASCII, sans accents, tirets `-`. Les titres
+internes (H1) respectent l'orthographe française. **Une page = un sujet.**
 
 -----
 
-## IV. Les Sceaux de circuit
+## IV. Le Sceau Recteur (frontmatter doctrinal)
 
-Chaque circuit s'ouvre sur un frontmatter propre (le « Sceau »), dont la lettre
-complète — champs, types, statuts — vit désormais dans le `CLAUDE.md` local du
-circuit (§II bis) : Sceau Recteur → `doctrinal/CLAUDE.md` ; Sceau atelier →
-`atelier/CLAUDE.md` ; Sceau label → `label/CLAUDE.md` ; Sceau herméneutique →
-`hermeneutique/CLAUDE.md` ; Sceau Transmissions → `meta/CLAUDE.md`.
+Chaque page de `doctrinal/` s'ouvre impérativement par ce cartouche :
 
-Règle transversale, valable pour tout Sceau comportant `sources`/`cross_links`/
-`liens*` : listes YAML de chaînes entre guillemets droits, wikilink complet
-(`"[[slug]]"`), liste vide = `[]`, jamais `[[a], [b]]` ni `[a, b]`. Fait sans
-source → `sources: ["to-source"]` + signalement (§VII, discipline des sources).
+```yaml
+---
+title: "Titre exact de la page"
+type: doctrine | tradition | symbole | autorite | deviation | etude | source | discernement
+status: traditionnel | academique | profane | contre-traditionnel | speculatif
+tradition_cadre: "islam"   # ou "hindouisme", "hellenisme", "universel", "none"
+tags: [metaphysique, cosmologie, symbolisme]
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+sources: ["[[slug-source]]"]   # liste de "[[slug]]" — traçabilité machine-lisible
+sources_count: 1               # entier = longueur de la liste ci-dessus
+cross_links: ["[[autre-slug]]"]
+---
+```
+
+- `sources` et `cross_links` : listes YAML de chaînes entre guillemets droits, chaque
+  wikilink complet (`"[[slug]]"`). Liste vide = `[]`. JAMAIS `[[a], [b]]` ni `[a, b]`.
+- Fait sans source → `sources: ["to-source"]` + signalement (levée du marqueur : §VII,
+  discipline des sources).
+
+### Définition des Statuts (`status`)
+
+1. `traditionnel` : écrits sacrés ou maîtres spirituels authentiques. (Autorité suprême)
+2. `academique` : travaux d'érudition universitaire. (Utiles pour les faits, aveugles pour l'esprit)
+3. `profane` : philosophie moderne, science matérialiste. (Symptômes de la crise moderne)
+4. `contre-traditionnel` : occultisme, spiritisme, théosophisme, Nouvel Âge. (Sévérité et discernement)
+5. `speculatif` : hypothèse métaphysique personnelle de l'utilisateur, en attente de
+   validation par une autorité textuelle ou par l'examen traditionnel. Statut
+   transitoire — doit évoluer vers un statut définitif à la clôture du discernement.
+
+> **Précision pour `type: deviation`** (amendement du 2026-07-28, verdict Sidy) : le
+> `status` qualifie la **nature du contenu reproduit**, non le sujet traité. Une fiche
+> `deviation` qui reproduit l'analyse d'une **autorité traditionnelle** portant sur un
+> phénomène contre-traditionnel reçoit `status: traditionnel` — c'est la doctrine reçue
+> qui est en jeu, non le phénomène qu'elle décrit. Une fiche `deviation` qui **expose
+> pour elle-même** une matière contre-traditionnelle, sans qu'une autorité
+> traditionnelle sourcée en fasse l'objet d'un jugement, reçoit
+> `status: contre-traditionnel`. Exemples : [[doctrinal/deviations/contre-initiation]]
+> (Guénon analyse) = `traditionnel` ; [[doctrinal/symboles/archeometre]] (l'objet
+> lui-même est exposé, reçu et discuté comme tel) = `contre-traditionnel`.
 
 -----
 
-## V. (retiré — contenu migré)
+## V. Les Sceaux des circuits non-doctrinaux
 
-Les anciennes sections V.a (Atelier), V.b (Label), V.c (Transmissions), V.d
-(Ancrage éthique, Herméneutique) sont désormais réparties dans les `CLAUDE.md`
-locaux correspondants (§II bis). La numérotation romaine n'est pas recomposée,
-pour laisser une trace de la migration et faciliter le rapprochement avec la
-version archivée (`meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12.md`).
+### V.a — Atelier
+
+```yaml
+---
+title: "Titre exact"
+type: materiel | manuel | entretien | projet | etude-de-cas | experience | infrastructure | outillage
+tags: []
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+sources: []
+links: []
+---
+```
+
+- `materiel/` et `entretiens/` ne lient JAMAIS vers `doctrinal/` (ni l'inverse).
+- `projets/` et `rd/` PEUVENT pointer vers `doctrinal/` en **sens unique**, tout
+  lien signalé. L'inverse est INTERDIT : aucune page doctrinale ne mentionne jamais
+  un projet ni une fiche `rd/` (l'Instrument inclus).
+- **`rd/` (pôle R&D, ouvert 2026-08-08)** : pour les fiches de régime
+  expérimental, champ optionnel `statut_experience: exploratoire | reproduit |
+  adopte | abandonne` — la discipline de laboratoire complète (bloc 🧪
+  Expérience, reproduction, cahiers) est ouverte en phase 2 ; charte du lieu :
+  `atelier/rd/index.md`. Les types `experience | infrastructure | outillage`
+  vivent en `rd/`.
+
+### V.b — Label (Sceau du circuit Label)
+
+```yaml
+---
+title: "Titre exact"
+type: direction-artistique | amorcage | creation | technique | ingenierie | production | administratif | distribution | marketing-communication
+medium: musique | film | photographie | transversal
+projet: "album-01"        # album-01 | album-02 | hors-album | label
+statut: idee | en-cours | valide | sorti | archive
+tags: []
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+sources: []
+liens: []                  # liens internes au circuit label
+liens_atelier: []          # renvois sens unique vers atelier/materiel/ uniquement
+---
+```
+
+- **`amorcage/`** : `statut` prend `en-gestation | concretise` ; à la concrétisation,
+  `liens` pointe la fiche née. Une fiche amorçage n'est jamais supprimée : elle
+  documente la généalogie de l'œuvre.
+- **`musique/ingenierie/`** : champs additionnels recommandés `bpm`, `tonalite`,
+  `signature`, `daw` (données objectives ; les captures d'écran du DAW sont une source
+  valide pour les renseigner).
+- **Règles de liens** : `label/ → atelier/materiel/` autorisé (sens unique, via
+  `liens_atelier`) ; `label/ → doctrinal/` pour une œuvre s'inspirant d'un principe
+  **ou pour un acte de structure réglant sa conduite sur un principe** (même régime
+  que `atelier/projets/`), **signalé**, et **marqué suggéré (🔍)** tant qu'un
+  discernement afférent n'est pas tranché. Interdits : `atelier/ → label/`,
+  `doctrinal/ → label/`, `label/ → meta/`.
+
+### V.c — Transmissions (`meta/transmissions/`, dispositif Karūbī)
+
+Circuit du plus sensible (§II) : un fichier-protocole personnifié, remis de main à
+main à un destinataire nommé, qui vit par cycles de navette entre lui et Sidy.
+Sceau propre, allégé (pas de Sceau Recteur doctrinal) :
+
+```yaml
+---
+title: "Titre exact"
+type: transmission
+generation: 0 | 1 | 2 ...
+emetteur: "..."
+destinataire: "..."
+nom_karubi: "..."
+date_remise: "YYYY-MM-DD"
+portee: khassa | amma
+version: n
+hash_sceau: "sha256"        # calculé par generer-karubi.py sceller — jamais à la main
+hash_parent: "sha256 | none"
+phrase_sceau: "..."
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+---
+```
+
+Règles propres au circuit :
+- **Zones scellées** (`<!-- SCEAU:DEBUT -->` / `<!-- SCEAU:FIN -->`) : intouchables
+  hors édition G0 ; intégrité vérifiée mécaniquement (`generer-karubi.py verifier`),
+  jamais sur déclaration.
+- **Zones de croissance** (Mémoire vivante, Questions pour Sidy) : append-only,
+  même discipline que les annales (Cmd 9).
+- **Étanchéité** : `meta/transmissions/` ne lie jamais vers `doctrinal/`, `label/`
+  ni `atelier/`, et réciproquement (étanchéité identique au reste de `meta/`).
+- **Journalisation** : chaque événement (génération, remise, retour, rescellement,
+  élévation de portée, deprecated) est consigné dans
+  `meta/transmissions/registre-silsila.md`, format greppable
+  `## [YYYY-MM-DD] evenement | destinataire | Gn | portee | vN | hash`.
+- **Non-syncrétisme (Cmd 3)** : le dispositif emprunte la forme du sanad
+  (traçabilité documentaire) sans prétendre au statut d'une ijāza spirituelle —
+  ce rappel figure explicitement dans le §0 de chaque instance.
+- **Porte humaine (Cmd 13)** : toute remise, toute élévation `khassa → amma`, toute
+  suppression (`deprecated`, jamais de suppression sèche — Cmd 10) est décidée par
+  Sidy seul.
+
+### V.d — Ancrage éthique de la structure (règles des 2026-07-06)
+
+Les aspects contractuels et
+commerciaux du label (`administratif/`, `production/`,
+`distribution/`, `marketing-communication/`) sont soumis à la **même logique d'ancrage
+et d'alignement doctrinal que les œuvres**, afin d'assurer une conduite éthique de la
+structure :
+
+1. Tout engagement de la structure (contrat, prix, produit, campagne, texte public)
+   est **examinable contre les principes ancrés** dans le dépôt — au premier chef la
+   doctrine du don : le bénéfice est **émergent, jamais promis** (frontière à la fois
+   doctrinale et légale — refus de l'accumulation, de la spéculation, du bénéfice
+   contractuellement promis).
+2. Cet examen s'incarne dans la **tension conçue** des fonctions : le Commerce assure
+   le contrepoids de rentabilité (la maison doit tenir), le Gardien du Protocole
+   **signale** toute dérive contre l'intention ; ni l'un ni l'autre ne tranche —
+   **l'humain décide** (Cmd 13). La tension entre eux est voulue, pas un
+   dysfonctionnement.
+3. L'alignement ne transforme jamais une fiche commerciale en page doctrinale : la
+   fiche `label/` ne porte que les **conséquences de conduite** ; les principes
+   restent en `doctrinal/`, les correspondances non tranchées en `discernement/`
+   (statut `speculatif`), les motifs personnels en `meta/`.
+4. Tant que la correspondance doctrine ↔ organisation n'est pas tranchée par
+   l'utilisateur, elle demeure **suggérée (🔍)** — l'examen éthique des actes n'attend
+   pas, lui, le verdict : la doctrine du don gouverne la distribution dès à présent.
+5. **Compétence qualifiée** : les questions juridiques, fiscales et réglementaires
+   sont cadrées et sourcées par la machine, **jamais tranchées sans professionnel
+   qualifié** ; les sujets à risque réglementaire (registre numérique, fiscalité du
+   don, droits mécaniques même pour un tirage offert) sont **flagués**, jamais
+   validés d'office.
+6. **Alignement Fiqh** : pour les activités relevant de son cadre (transactions,
+   dons, contrats), la structure règle sa conduite sur le **fiqh**, école
+   **mālikite** en préséance ; à défaut de ressource malikite, recours subsidiaire
+   documenté aux écoles shāfiʿite, ḥanafite ou ḥanbalite — question par question,
+   **jamais de talfīq silencieux** (composition d'un même acte à partir de positions
+   d'écoles différentes choisies par commodité). Chaque question instruite = une
+   étude datée `doctrinal/etudes/` portant le bloc ⚖️ (§VII), générale et neutre —
+   l'application au cas concret vit en `label/` avec lien à sens unique. Le Gardien
+   du Protocole harmonise (une face vers le label, une face vers le corpus fiqh
+   doctrinal) en **signalant** ; le verdict d'adoption appartient à l'humain
+   (Cmd 13), le renvoi au savant qualifié restant toujours ouvert pour les cas
+   nouveaux.
+
+### V.d — Herméneutique (Sceau du circuit `hermeneutique/`)
+
+**Objet du circuit.** Espace de traitement et de navigation de ce qui relève du
+**domaine intermédiaire**. Les médiums de fiction (jeu vidéo, manga, anime, théâtre,
+série, film, roman…) y sont considérés comme des **interfaces** offertes à un ordre
+de possibilités subtiles, non comme de simples objets culturels. Double fonction
+assumée : lecture herméneutique, et bureau de Direction Artistique en amont de
+`label/direction-artistique/`.
+
+Le circuit accueille en outre l'**expression** d'idées et intuitions personnelles —
+notamment issues d'expériences post-khalwa déjà versées en `doctrinal/discernement/`
+— dont la formulation emprunte au vocabulaire de ces œuvres et qui ne peuvent, à ce
+titre, être portées par le circuit doctrinal. Les y accueillir, c'est les situer à
+leur état propre pour en apprécier la juste portée : **ce n'est jamais lever un
+garde-fou.**
+
+```yaml
+---
+title: "Titre exact"
+type: oeuvre | auteur | figure | dispositif | concept | analyse
+registre: analyse | expression
+medium: jeu-video | anime | manga | theatre | serie | film | roman
+oeuvre: "slug-de-loeuvre-parente"   # vide sur la fiche oeuvre et sur expression/ hors-œuvre
+createur: "Nom du créateur"          # surtout renseigné sur la fiche oeuvre
+statut_analyse: brouillon | en-cours | developpe
+tags: []
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+sources: []
+liens: []                            # internes au circuit
+cles_doctrinales: []                 # sens unique vers doctrinal/, suggéré 🔍 par défaut
+discernement: []                     # sens unique vers doctrinal/discernement/ (obligatoire si registre: expression et matière issue d'un discernement existant)
+liens_label: []                      # sens unique optionnel vers label/direction-artistique/
+liens_atelier: []                    # sens unique vers atelier/etudes-de-cas/ et atelier/rd/
+---
+```
+
+- `type: oeuvre` = fiche-hub d'une œuvre (une par œuvre, porte `createur`) ; les
+  autres types portent `oeuvre:` (slug de la fiche-hub).
+- **`type: auteur`** — créateur réel, transverse à plusieurs œuvres ; vit en
+  `hermeneutique/auteurs/`, porte `oeuvre: ""`, liste ses œuvres dans `liens:`.
+  Emprunte la **forme d'archivage** de `doctrinal/autorites/` sans en partager
+  la fonction : aucun statut d'autorité conféré ni supposé (Cmd 3).
+- **`type: figure`** — remplace `personnage` ; couvre aussi les entités non
+  personnelles fonctionnant comme telles. Substitution réversible (Art. 5).
+- **`type: dispositif`** — lieu, vaisseau, appareil, système, interface ou
+  institution de l'œuvre, tenu pour support opératoire de sa thèse.
+- **Sagas** — un continuum de plusieurs opus reçoit **une seule fiche-hub**
+  `type: oeuvre` ; le détachement d'un opus relève du Cmd 4, au cas par cas.
+- **`liens_atelier`** — sens unique vers `atelier/etudes-de-cas/` et
+  `atelier/rd/` seulement (§VI). L'inverse est interdit : aucune étude de cas ni
+  fiche `rd/` ne pointe ici.
+- **`registre`** distingue les deux régimes de production du circuit :
+  - `analyse` — lecture d'une œuvre ou d'un de ses éléments ;
+  - `expression` — formulation d'une idée propre à l'utilisateur, l'œuvre servant de
+    langage et non d'objet. Ces fiches vont en `hermeneutique/expression/` quand
+    elles ne relèvent d'aucune œuvre unique.
+- **`discernement`** : toute fiche `registre: expression` dont la matière provient
+  d'une expérience déjà versée au dépôt **doit** pointer vers la ou les fiches
+  `doctrinal/discernement/` correspondantes (sens unique). La fiche du circuit
+  **ne clôt jamais** un discernement et n'en modifie pas le statut : elle en
+  développe une expression, sans effet doctrinal (Cmd 12, verdicts réservés).
+- `statut_analyse` qualifie la **maturité du travail** — distinct du `status`
+  doctrinal, qui juge une valeur de vérité traditionnelle (sans objet ici).
+- `cles_doctrinales` : wikilinks vers `doctrinal/`, **sens unique**, **suggérés (🔍)
+  par défaut**. Une clé ne devient « établie » qu'après une fiche `discernement/`
+  tranchée par l'utilisateur (Cmd 3, Cmd 12).
+- **Portance et garde-fou (Cmd 3).** Tout joint de ce circuit est de portance
+  ***zōsaku*** : il ne porte rien, et sa dépose ne touche pas l'ossature. Le
+  ***hozo*** y est **exclu en toute circonstance** ; le *kumiko* exige une
+  fiche `discernement` validante ; le *kari-kumi* est l'état ordinaire.
+  Toute `cle_doctrinale` invoquée est **obligatoirement** accompagnée, dans le
+  corps de la fiche, d'un bloc 🪵 **Restitution** complet — dont le champ
+  « ce que le joint n'établit pas » est **non facultatif** : une restitution
+  sans limite déclarée est invalide et doit être retirée au contrôle VIGILANCE.
+  Confrontation Gizeh requise si la matière touche au polaire, à l'axial, au
+  septénaire ou au métrologique (§VII).
+- **Clause de plasticité (structurelle).** La souplesse de ce circuit tient à ce
+  qu'une idée peut y exister et mûrir *sans rien engager doctrinalement* — non à ce
+  que les outils de discernement y soient suspendus. Le domaine intermédiaire est
+  par nature ambivalent : la grille des 11 marqueurs de contre-initiation reste
+  disponible en référence, et tout passage où une production (humaine ou IA)
+  encouragerait l'abandon du discernement critique, ou présenterait une expérience
+  comme irréversible et soustraite à toute vérification, doit être signalé avec la
+  même fermeté qu'ailleurs (précédent : `doctrinal/annales.md` [2026-06-20],
+  signalement dissolution identitaire).
+- `liens_label` : sens unique optionnel vers `label/direction-artistique/`, quand une
+  idée germée ici se concrétise en fiche label.
+- `doctrinal/` → `hermeneutique/` : **jamais**. Aucune fiche doctrinale, y compris de
+  discernement, ne pointe vers ce circuit.
 
 -----
 
@@ -283,21 +540,48 @@ de la bibliothèque physique.
   `meta-annales.md` suit la même discipline append-only que les annales de
   circuit (Cmd 9, marqueur `<!-- INSERTION: EN-TÊTE -->`).
 
-**Corollaire agentique (2026-08-09) — lettre complète dans `meta/CLAUDE.md`.**
-L'étanchéité ci-dessus régit les **circuits du dépôt** (doctrinal, atelier,
-hermeneutique, label) : elle continue d'interdire qu'un fait personnel migre dans
-une fiche neutre. Elle **ne s'applique pas telle quelle à la couche agentique**
-(Hermes, §I, §VIII), moyennant la contrepartie non-négociable détaillée dans
-`meta/CLAUDE.md` (hiérarchie ontologique explicite dans tout prompt injectant du
-contexte personnel).
+**Corollaire agentique (2026-08-09).** L'étanchéité ci-dessus régit les **circuits
+du dépôt** (doctrinal, atelier, hermeneutique, label) : elle continue d'interdire
+qu'un fait personnel migre dans une fiche neutre, et qu'un motif privé s'y
+substitue à une conséquence de design déclarée — rien de cela ne change. Elle **ne
+s'applique pas telle quelle à la couche agentique** (Hermes, §I, §VIII) : la
+fonction de ces agents est précisément de servir Sidy dans le concret d'un
+quotidien difficile, ce qui suppose l'usage de son contexte personnel — l'en
+isoler par principe le priverait de sa raison d'être. Ce point a été assumé
+explicitement par Sidy (verdict Cmd 12, 2026-08-09) : la confrontation entre
+l'outil en développement et le protocole existant, y compris `CLAUDE.md`
+lui-même, fait partie de la méthode et non de sa violation.
+
+Contrepartie non-négociable, pour que cette ouverture ne devienne pas un canal de
+contamination doctrinale par un autre chemin :
+
+1. Toute donnée personnelle (thème natal, situation, préférence) injectée dans un
+   prompt d'agent porte sa hiérarchie ontologique **en clair, dans le texte du
+   prompt** — pas seulement dans l'intention de celui qui l'a rédigé. Le principe
+   invoqué **précède et structure** le rôle ; la détermination individuelle de
+   Sidy le **colore sans le redéfinir** et n'engage personne d'autre.
+   Qualification *zōsaku* explicite (§VII) — une extrémité du joint est
+   contingente et ne porte rien — jamais une mention à plat qui laisserait le
+   principe et l'individuel de rang égal.
+2. La donnée personnelle reste **lue en session par l'agent** ; elle n'est
+   **jamais versée** dans une fiche `doctrinal/`, `label/` ou `hermeneutique/` —
+   l'étanchéité de ces trois circuits reste pleine et entière.
+3. §VIII.5 (aucun secret du dépôt sur machine d'inférence tierce) s'apprécie **au
+   cas par cas** pour toute donnée personnelle selon le moteur qui la reçoit —
+   signalé à chaque nouvel usage, jamais tranché une fois pour toutes.
+4. Le registre **spirituel** reste hors champ de ce corollaire et hors champ des
+   agents en général (Cmd 2, distinction psychique/spirituel) : un agent
+   documente et organise le contexte personnel, il n'interprète ni ne conseille
+   sur ce plan — la note Fard/Afrad (`04-sessions-par-fonction-et-backlogs.md`)
+   rappelle que ce registre relève d'une autorité spirituelle vivante, non d'un
+   modèle.
 
 -----
 
-## VII. Protocoles d'Exécution transversaux
+## VII. Protocoles d'Exécution
 
-*(S'appliquent identiquement aux cinq circuits. Les actions propres à un seul
-circuit — Examen de Discernement, Examen de Fiqh, Restauration : `doctrinal/CLAUDE.md` ;
-Publication : `label/CLAUDE.md` — vivent désormais dans leur `CLAUDE.md` local.)*
+*(Reproduits in extenso — le présent fichier est auto-suffisant. Ils s'appliquent aux
+quatre circuits, chacun avec son Sceau propre.)*
 
 ### Discipline des sources (transversale)
 
@@ -324,7 +608,7 @@ demande :
 
 1. **Qualification sashimono des joints** : tout lien inter-traditionnel ou
    inter-fiches significatif est qualifié dans le corps de la fiche (jamais en
-   frontmatter, cf. convention Sashimono ci-dessous) — **hozo** (équivalence établie),
+   frontmatter, cf. convention §VII 2026-07-07) — **hozo** (équivalence établie),
    **kumiko** (complémentarité), ou **kari-kumi** (suggéré/non tranché, redondant avec
    🔍). L'état d'ensemble d'un lot non intégré est déclaré *kari-kumi* (montage à
    blanc). Ce geste n'établit aucun ancrage : il nomme la nature du joint pressenti,
@@ -369,10 +653,10 @@ Quand une nouvelle source est déposée dans `raw/` (lue côté PRODUCTION) :
 
 ### Action : VIGILANCE (contrôle d'orthodoxie et de forme)
 
-- Frontmatter complet et valide (Sceau du circuit concerné — `CLAUDE.md` local).
+- Frontmatter complet et valide (Sceau du circuit concerné).
 - Notions orphelines, liens morts, pages d'autorités sans sources.
 - Infiltrations de vocabulaire profane ou « New Age » dans les pages de Symboles.
-- Violations d'étanchéité entre les cinq circuits (§VI).
+- Violations d'étanchéité entre les quatre circuits (§V, §VI).
 - **Rapporter sans corriger d'office** ; demander avant d'éditer.
 - Les annales sont **append-only** : un `Update` d'annales qui échoue ne doit JAMAIS
   être suivi d'un `Write` global.
@@ -384,6 +668,59 @@ Quand une nouvelle source est déposée dans `raw/` (lue côté PRODUCTION) :
     (chronologique direct). Cas des registres de chaîne.
   Un agent qui écrit dans un fichier append-only **lit d'abord ce marqueur**. Absence
   de marqueur = écriture interdite, signalement à Sidy.
+
+### Action : EXAMEN DE DISCERNEMENT (spéculations personnelles)
+
+Lorsqu'une page `type: discernement` est créée ou enrichie, insérer/maintenir
+impérativement ce bloc normalisé :
+
+> 🔍 **Discernement — Spéculation Personnelle**
+> **Statut** : en cours | validée | invalidée
+> **Hypothèse initiale** (datée, reformulée fidèlement) : …
+> **Généalogie des idées** :
+>   - *Filiation orthodoxe possible* : [[doctrinal/symboles-ou-autorites/slug]] — nature du rapprochement.
+>   - *Parenté hétérodoxe possible* : [[doctrinal/deviations/slug]] — nature du rapprochement.
+> **Examen formel** (cohérence logique/terminologique — jamais le principe) : …
+> **Conclusion** : attribuée par l'utilisateur ou par une autorité textuelle citée, jamais auto-décrétée par l'IA.
+> **Lectures suggérées** (champ ajouté 2026-06-28) : 1 à 3 lectures réellement rattachées à la généalogie de *cette* fiche (pages du wiki, `meta/bibliotheque-physique.md`, ou candidates à `raw/`).
+
+Rappels : Commandement 12 (*upakarana*) — l'IA documente la généalogie et signale les
+tensions formelles ; elle ne tranche jamais la validité métaphysique. **Étanchéité
+inversée** : une page orthodoxe ne pointe jamais vers un `discernement` non tranché
+(exception : lien défensif/généalogique signalé). Une convergence multiple (« double
+ancrage ») est un **signal de vigilance** appelant l'arbitrage humain, jamais une porte
+automatique vers l'inscription.
+
+### Action : EXAMEN DE FIQH (questions de droit traditionnel)
+
+Toute question de fiqh instruite (règle §V.c.6) = une étude datée
+`doctrinal/etudes/YYYY-MM-DD_<question>.md`, **générale et neutre** (jamais de mention
+du cas d'application, qui vit en `label/` avec lien à sens unique), portant ce bloc
+normalisé :
+
+> ⚖️ **Statut de Fiqh**
+> **Question** : formulée en termes généraux.
+> **École consultée** : mālikite (défaut) | shāfiʿite | ḥanafite | ḥanbalite.
+> **Position(s) sourcée(s)** : texte, auteur, référence — `to-source` si non vérifié.
+> **Recours subsidiaire** (le cas échéant) : école + justification (« à défaut de
+> ressource malikite sur ce point ») — jamais de talfīq.
+> **Divergences notables** : signalées sans être fondues (🌐 si inter-écoles).
+> **Verdict** : adopté par Sidy (taqlīd documenté d'une position établie) | confirmé
+> par autorité textuelle citée | renvoyé au savant qualifié — jamais décrété par la
+> machine.
+> **Date du verdict** : YYYY-MM-DD.
+
+Rappel (Cmd 12) : la machine **compile, source et structure** ; elle n'émet jamais
+d'avis juridique religieux. Le « trancher » humain est un **arbitrage d'adoption**
+parmi des positions établies ; pour les cas nouveaux ou sans texte, la fiche prépare
+la formulation de la question (istiftāʾ) et reste ouverte.
+
+### Action : RESTAURATION (normalisation de l'existant)
+
+Les pages antérieures à la Restauration portent l'ancien frontmatter (`domain:`,
+`type: entity|concept`). Sur demande, les normaliser SANS toucher au corps :
+`domain` → `tradition_cadre`, `entity` → `autorite`, `concept` → `symbole`, ajout de
+`status`. Chaque passe est consignée dans les annales.
 
 ### Règle commune des MANIFESTES (Instrument et site)
 
@@ -403,19 +740,28 @@ jamais le markdown directement. Deux manifestes existent :
    établies (miroir du statut `speculatif`).
 4. Le journal du circuit concerné consigne chaque génération/déploiement.
 
-Le détail propre au flux de publication du site (`label/`) vit dans
-`label/CLAUDE.md`, Action PUBLICATION.
+### Action : PUBLICATION (site *Dans l'Absolu* — organe public du label)
+
+Flux : **dépôt (`label/`) → `site-manifest.json` (script déterministe) → zones marquées
+des pages HTML → déploiement PRÉVERSION → validation humaine → PRODUCTION → annales.**
+
+1. Déclencheur : fiche `label/` à `statut: sorti` (ou `valide`) portant un bloc
+   `publication:` (cible, media, lineage).
+2. Le manifeste obéit à la règle commune ci-dessus.
+3. L'injection ne touche que les zones `<!-- BEGIN:auto-x --> … <!-- END:auto-x -->`.
+4. **Porte humaine non négociable** : préversion d'abord, production seulement après
+   validation explicite dans la session courante. Aucune exception — c'est
+   l'équivalent publication de l'interdiction d'auto-accept.
+5. Le site ne réécrit jamais le dépôt. Chaque publication = une ligne d'annales label.
 
 ### Vigilance documentaire (clôture de session)
 
 À la clôture de **chaque** session de travail (wiki, Instrument, label, infra) :
 vérifier systématiquement si les documents amont (architecture, feuilles de route,
-briefs `meta/projet-unifie/`, fiches doctrinales liées, et le présent protocole —
-racine et locaux) doivent être mis à jour à la lumière des décisions prises.
-Proactif, jamais sur demande seulement. Toute divergence constatée entre ce
-protocole et un document d'instructions dérivé est signalée : **le CLAUDE.md
-concerné fait foi** (racine pour le transversal, local pour le propre au circuit —
-§II bis).
+briefs `meta/projet-unifie/`, fiches doctrinales liées, et le présent protocole)
+doivent être mis à jour à la lumière des décisions prises. Proactif, jamais sur
+demande seulement. Toute divergence constatée entre ce protocole et un document
+d'instructions dérivé est signalée : **CLAUDE.md fait foi**.
 
 **Vérification structurelle obligatoire** (amendement 2026-07-27, verdict Sidy) :
 exécuter `python3 verifier-invariants.py --racine /root/wiki` et consigner le
@@ -448,9 +794,7 @@ réservé). Lettre des six articles :
 4. **Tout assemblage se présente à blanc** : 🔍, bac à sable, préversion — rien de
    définitif sans validation humaine.
 5. **L'assemblage reste démontable** : réversibilité de chaque phase, `deprecated`
-   plutôt que suppression, traçabilité intégrale. **Le présent éclatement en
-   protocoles locaux (2026-08-12) applique cet article à lui-même** : montage à
-   blanc, démontable sur simple verdict de Sidy.
+   plutôt que suppression, traçabilité intégrale.
 6. **Le joint parfait est invisible, jamais secret** : l'interface masque la
    jointure ; le dépôt (git, annales) la documente intégralement.
 
@@ -512,9 +856,9 @@ prudentes pour tous :
     au `compare`) avant retrait de l'ancien. Chaque phase d'infrastructure est
     indépendamment réversible.
 
-**Cf. aussi** §VI et `meta/CLAUDE.md`, corollaire agentique (2026-08-09) : régime propre
-à l'usage du contexte personnel de Sidy dans les prompts d'agents — hiérarchie
-ontologique explicite obligatoire, étanchéité des circuits du dépôt inchangée.
+**Cf. aussi** §VI, corollaire agentique (2026-08-09) : régime propre à l'usage du
+contexte personnel de Sidy dans les prompts d'agents — hiérarchie ontologique
+explicite obligatoire, étanchéité des circuits du dépôt inchangée.
 
 -----
 
@@ -547,11 +891,10 @@ Trame de référence — chaque notion réexpliquée jusqu'à maîtrise confirm�
    traditions distinctes exige une fiche `discernement` explicite établissant la
    correspondance — jamais supposé ni importé d'office. S'applique aussi aux
    correspondances entreprise/tradition du label et à l'ancrage éthique de ses actes
-   contractuels et commerciaux (`label/CLAUDE.md`) : **suggérés (🔍) tant que non
-   tranchés**. S'applique avec une rigueur accrue au circuit `hermeneutique/`
-   (`hermeneutique/CLAUDE.md`) : le hozo y est **exclu par défaut**, une œuvre
-   profane n'ayant pas l'autorité d'une tradition reçue — y compris lorsque la
-   fiche relève du registre `expression`.
+   contractuels et commerciaux (§V.b) : **suggérés (🔍) tant que non tranchés**.
+   S'applique avec une rigueur accrue au circuit `hermeneutique/` (§V.d) : le hozo y est
+   **exclu par défaut**, une œuvre profane n'ayant pas l'autorité d'une tradition reçue —
+   y compris lorsque la fiche relève du registre `expression`.
 4. **Une page = un sujet.**
 5. **Aucune affirmation factuelle sans source** (sinon `to-source` + signalement) ;
    discipline des sources du §VII (bibliothèque physique, levée du marqueur par
@@ -587,14 +930,5 @@ Trame de référence — chaque notion réexpliquée jusqu'à maîtrise confirm�
     machine, tranchés par l'humain. (Extension V2 du Cmd 12 au domaine opératif.)
 14. **Agnosticisme du moteur** : aucun protocole du dépôt ne dépend d'un modèle
     particulier ; toute mention d'un produit est une incarnation datée d'une fonction,
-    remplaçable sans révision du protocole. **Corollaire d'auto-suffisance, amendé le
-    2026-08-12 (méthode à l'essai, verdict Sidy)** : l'ensemble formé par ce fichier
-    racine et les `CLAUDE.md` locaux de circuit (§II bis), pris ensemble, est
-    auto-suffisant — la lettre de toute règle en vigueur y figure intégralement, sans
-    aucun renvoi vers une version antérieure. Ce qui est transversal ne vit qu'ici ; ce
-    qui est propre à un seul circuit ne vit que dans son `CLAUDE.md` local — jamais les
-    deux à la fois, jamais nulle part. Cette délégation par circuit est un essai
-    méthodologique, non une doctrine d'organisation figée : elle est réversible sur
-    simple verdict de Sidy, auquel cas la version archivée
-    (`meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12.md`) reprend
-    intégralement sa place de fichier unique.
+    remplaçable sans révision du protocole. Corollaire : **CLAUDE.md est
+    auto-suffisant** — la lettre de toute règle en vigueur y figure intégralement.
