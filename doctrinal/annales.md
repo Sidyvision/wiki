@@ -30,6 +30,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
     synthèse fidèle du contenu existant, sans altérer le corps (§0-§8).
   - **Statut** : `to-source` sur les références précises Coran/Guénon ; fiche
     ouverte à l'enrichissement.
+- **Commit** : 9e9681d
 
 ## [2026-08-11] discernement | Hypothèse méthodologique : trois territoires de l'inachevé — verdict d'adoption
 

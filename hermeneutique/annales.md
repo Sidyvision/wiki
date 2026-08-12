@@ -19,6 +19,7 @@ entrées insérées **après ce header**.
   du dépôt dans ce cas) — mise en conformité avec la convention transversale
   (CLAUDE.md racine §VII, amendement 2026-07-27) préalable à l'écriture de
   l'entrée d'archivage ci-dessous. Aucune autre modification du fichier.
+- **Commit** : 9e9681d
 
 ## [2026-08-12] archivage | Lot Hunter x Hunter — œuvre, auteur, dispositif, concept
 
@@ -41,6 +42,7 @@ entrées insérées **après ce header**.
 - **Points fragiles signalés** (portés par le lot, non résolus) : nomenclature de
   la technique « Kō », ordre de l'hexagone d'affinité, chronologie des hiatus de
   publication, citations Coran/Guénon à recouper sur édition physique.
+- **Commit** : 9e9681d
 
 ## [2026-08-08] archivage | Premier lot Kojima — Metal Gear, Death Stranding
 
