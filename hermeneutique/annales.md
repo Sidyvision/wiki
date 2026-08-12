@@ -2,15 +2,45 @@
 title: Annales du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-08
+updated: 2026-08-12
 ---
 
 # Annales du circuit Herméneutique
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only,
 entrées insérées **après ce header**.
+<!-- INSERTION: EN-TÊTE -->
 
 ---
+
+## [2026-08-12] archivage | Marqueur d'insertion ajouté (mise en conformité)
+
+- Ajout du marqueur `<!-- INSERTION: EN-TÊTE -->` (absent jusqu'ici, seul journal
+  du dépôt dans ce cas) — mise en conformité avec la convention transversale
+  (CLAUDE.md racine §VII, amendement 2026-07-27) préalable à l'écriture de
+  l'entrée d'archivage ci-dessous. Aucune autre modification du fichier.
+
+## [2026-08-12] archivage | Lot Hunter x Hunter — œuvre, auteur, dispositif, concept
+
+- **Fiches créées** :
+  - `hermeneutique/hunter-x-hunter/hunter-x-hunter.md` — `type: oeuvre`, fiche-hub
+  - `hermeneutique/auteurs/togashi-yoshihiro.md` — `type: auteur`
+  - `hermeneutique/hunter-x-hunter/hunter-association-licence.md` — `type: dispositif`
+  - `hermeneutique/hunter-x-hunter/nen-systeme.md` — `type: concept` (fiche pivot)
+- **Statut d'ensemble** : lot *kari-kumi* / `brouillon`, `to-source` intégral
+  (Hunter x Hunter absent de `meta/bibliotheque-physique.md`).
+- **Joint doctrinal ouvert** : `nen-systeme.md` §5-6 → fiche
+  `doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique` (sens
+  hermeneutique → doctrinal, suggéré 🔍 ; hozo exclu). Voir `doctrinal/annales.md`
+  pour l'entrée correspondante.
+- **Anomalies corrigées avant intégration** (verdict Sidy, session 2026-08-12) :
+  `cross_links` de la fiche discernement pointait vers `hermeneutique/` (sens
+  interdit) — vidé à `[]` ; bloc normalisé `🔍 Discernement — Spéculation
+  Personnelle` absent — ajouté en tête de fiche par synthèse fidèle du contenu
+  existant (§0-§8 inchangés).
+- **Points fragiles signalés** (portés par le lot, non résolus) : nomenclature de
+  la technique « Kō », ordre de l'hexagone d'affinité, chronologie des hiatus de
+  publication, citations Coran/Guénon à recouper sur édition physique.
 
 ## [2026-08-08] archivage | Premier lot Kojima — Metal Gear, Death Stranding
 

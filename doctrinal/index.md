@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-08-09
+updated: 2026-08-12
 ---
 
 # Le Catalogue Universel
@@ -302,6 +302,9 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 ### Archétypes et organisation d'entreprise
 - [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise|Correspondances fonctions initiatiques/entreprise]] — mixte : volet 12/zodiaque CLOS (portes solsticiales confirmées, échec position 5 documenté) ; volet 5/Cinq-Présences EN COURS
 - [[doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle|Hiérarchie du principe et de la détermination individuelle — application à la couche agentique]] 🔍 (en cours) : joint *zōsaku* entre principe zodiacal et détermination individuelle de Sidy, applicable aux prompts d'agents Hermes ; contrepartie du corollaire agentique CLAUDE.md §VI (2026-08-09)
+
+### Herméneutique — joints ouverts depuis `hermeneutique/`
+- [[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique|Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction volontaire]] 🔍 (en cours, speculatif) — quatre avenues instruites (ascèse générale, nadhr/mīthāq islamique, qualification initiatique guénonienne, ekāgratā/siddhi yogique) face au mécanisme du Nen (*Hunter x Hunter*) ; hozo exclu, joint *zōsaku* depuis [[hermeneutique/hunter-x-hunter/nen-systeme]] ; Gizeh confronté, négatif ; aucun verdict rendu
 
 ---
 

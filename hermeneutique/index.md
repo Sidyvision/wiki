@@ -2,7 +2,7 @@
 title: Index du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-08
+updated: 2026-08-12
 ---
 
 
@@ -55,6 +55,7 @@ mondes. La convergence est retenue comme **justification du nom du circuit**, en
 
 - [[hermeneutique/auteurs/hideo-kojima|Hideo Kojima (小島秀夫)]] — *auteur*, `to-source`. Thèses exécutées par l'acte du joueur ; motif du bâton et de la corde (Kōbō Abe, `to-source`).
 - [[hermeneutique/auteurs/yoji-shinkawa|Yoji Shinkawa (新川洋司)]] — *auteur*, `to-source`. Direction artistique ; le trait comme argument (harnachement, mécanique en anatomie) ; figure Ludens.
+- [[hermeneutique/auteurs/togashi-yoshihiro|Yoshihiro Togashi]] — *auteur*, `to-source`, `brouillon`. Mangaka, *Hunter x Hunter*.
 
 ## Œuvres
 
@@ -68,6 +69,12 @@ mondes. La convergence est retenue comme **justification du nom du circuit**, en
 
 - [[hermeneutique/death-stranding/death-stranding|Death Stranding]] — *oeuvre*, fiche-hub, `brouillon` (corpus manquants). Le lien n'est pas donné, il est porté.
 - [[hermeneutique/death-stranding/dhv-magellan|DHV Magellan]] — *dispositif*, `brouillon` (Corpus manquant). Vaisseau mobile succédant à Mother Base ; vigilance sur le Corpus comme faux-lexique.
+
+### Hunter x Hunter
+
+- [[hermeneutique/hunter-x-hunter/hunter-x-hunter|Hunter x Hunter]] — *oeuvre*, fiche-hub, `brouillon`, `to-source`. Manga de Yoshihiro Togashi.
+- [[hermeneutique/hunter-x-hunter/hunter-association-licence|Hunter — association et licence]] — *dispositif*, `brouillon`, `to-source`. Institution mondiale quasi-gouvernementale, licence conférant des privilèges.
+- [[hermeneutique/hunter-x-hunter/nen-systeme|Le Nen — système complet]] — *concept*, fiche pivot, `brouillon`, `to-source`. Joint 🔍 ouvert vers [[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique]] (portance *zōsaku*, hozo exclu).
 
 ## Expression
 

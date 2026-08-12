@@ -1,13 +1,35 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-10
+updated: 2026-08-12
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-12] discernement | Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction volontaire
+
+- **Fiche** : `discernement/2026-08-12_nen-pacte-restriction-ascetique.md`
+  — `status: speculatif`, ouverte à la demande explicite de Sidy (session ingest
+  Hunter x Hunter, `hermeneutique/`).
+  - **Contenu** : quatre avenues instruites séparément (ascèse générale, vœu/pacte
+    islamique nadhr/mīthāq, qualification initiatique guénonienne, concentration/
+    siddhi yogique) face au mécanisme fictionnel du vœu/limitation du Nen ; chaque
+    avenue porte un bloc 🪵 Restitution (établit / n'établit pas) ; constat répété :
+    l'automaticité mécanique et garantie de l'échange restriction/gain est le point
+    de rupture systématique avec la doctrine traditionnelle invoquée. Confrontation
+    Gizeh effectuée : négative. Aucun verdict rendu (Cmd 12, réservé à Sidy).
+  - **Mise en conformité avant intégration** : `cross_links` livré pointait vers
+    `hermeneutique/hunter-x-hunter/nen-systeme` — sens interdit
+    (`doctrinal/ → hermeneutique/` : jamais, CLAUDE.md racine §VI et
+    `doctrinal/CLAUDE.md`) — vidé à `[]` ; le bloc normalisé
+    `🔍 Discernement — Spéculation Personnelle` (Action EXAMEN DE DISCERNEMENT,
+    `doctrinal/CLAUDE.md`), absent de la version livrée, a été ajouté en tête par
+    synthèse fidèle du contenu existant, sans altérer le corps (§0-§8).
+  - **Statut** : `to-source` sur les références précises Coran/Guénon ; fiche
+    ouverte à l'enrichissement.
 
 ## [2026-08-11] discernement | Hypothèse méthodologique : trois territoires de l'inachevé — verdict d'adoption
 
