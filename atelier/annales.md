@@ -33,9 +33,10 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   instruire »/« à trancher », conformément au Cmd 6.
 - **Mise à jour de renvoi** : `atelier/rd/index.md`, §« État de la phase 1
   partielle » → « Non inclus », pointeur ajouté vers la fiche archivée.
-- `python3 verifier-invariants.py --racine /root/wiki` : (résultat à
-  consigner après exécution, voir suite de cette entrée avant commit).
-- **Commit** : (en attente)
+- `python3 verifier-invariants.py --racine /root/wiki` : 1 erreur bloquante
+  pré-existante (`Protocole.md`, sans rapport avec cette intégration), 44
+  avertissements pré-existants — aucun nouveau signal introduit.
+- **Commit** : 3e846e9
 
 ## [2026-08-11] infrastructure | Cartographie architecture infrastructure serveur/Hermes/omniroute
 

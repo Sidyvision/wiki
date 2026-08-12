@@ -30,7 +30,7 @@ entrées insérées **après ce header**.
   hozo/kumiko/kari-kumi sans objet ici.
 - `verifier-invariants.py --racine /root/wiki` : voir entrée groupée
   `atelier/annales.md` du même jour pour le résultat brut consolidé.
-- **Commit** : (en attente)
+- **Commit** : 3e846e9
 
 ## [2026-08-12] archivage | Marqueur d'insertion ajouté (mise en conformité)
 
