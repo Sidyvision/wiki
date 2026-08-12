@@ -309,3 +309,10 @@ Principes hérités du protocole de Sidy, offerts comme point de départ :
   ```
   puis lancer `claude` depuis ce compte — le protocole d'Habib (`CLAUDE.md`)
   s'y charge automatiquement.
+
+- `[2026-08-12]` *(suite — clé reçue et installée)* — Mehdi a transmis sa clé
+  publique à Sidy directement (hors navette). Installée dans
+  `authorized_keys` côté serveur ; compte actif pour la connexion SSH par
+  clé (mot de passe resté désactivé). Il ne reste plus que l'invitation
+  Tailscale (envoyée par Sidy, hors ce fichier) pour que Mehdi puisse se
+  connecter effectivement.

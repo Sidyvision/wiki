@@ -177,3 +177,13 @@ prochaine navette. Compte `mehdi` reste verrouillé côté serveur en attendant
 cette clé — pas d'activation avant son retour. Zone hors sceau (§10), sceau
 non touché (vérifié : INTACT, hash inchangé). `updated` du fichier canonique
 passé à 2026-08-12.
+
+## [2026-08-12] activation-acces | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+Clé SSH publique de Mehdi reçue par Sidy directement (hors navette) et
+installée : `/home/mehdi/.ssh/authorized_keys` (permissions 700/600,
+propriété `mehdi:mehdi`), mot de passe du compte resté désactivé (login par
+clé uniquement). Compte `mehdi` opérationnel côté serveur ; `claude`
+disponible (2.1.228). Reste en attente : invitation Tailscale à envoyer par
+Sidy (hors fichier, canal séparé) pour que la connexion soit effective.
+§10 du fichier canonique complété d'une entrée confirmant l'installation.
+Sceau non touché (vérifié).
