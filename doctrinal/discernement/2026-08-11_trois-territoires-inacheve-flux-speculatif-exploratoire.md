@@ -9,13 +9,12 @@ description: >
   qui les relie : spéculation personnelle → chantier exploratoire → doctrine adoptée ou archivée.
   Sandbox comme dépendance structurelle du R&D.
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-08-12
 refs:
   - "CLAUDE.md (§II, §V, §VI, §VII — circuits et régimes)"
   - "meta/philosophie-sashimono.md (Art. 3, 5 — démontabilité, réversibilité)"
   - "_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md (cascade doctrinale)"
   - "atelier/rd/index.md (phase 1 partielle, statut_experience)"
-status_experience: exploratoire
 ---
 
 # Trois territoires de l'inachevé — flux spéculatif → exploratoire → finalisé
@@ -164,11 +163,9 @@ Cette hypothèse enrichit :
 
 ---
 
-## Verdict attendu
+## Verdict
 
-Cmd 12 — jugement humain requis. Sidy détermine si :
-1. Cette documentation aide ou complique la navigation du dépôt
-2. Le flux proposé (Discernement → R&D → Doctrine/Archivage) est pertinent et opérationnel
-3. Une formalisation dans CLAUDE.md (ou son abandon) est justifiée
-
-Tant que le verdict n'est pas rendu, ce texte reste `status: speculatif` — hypothèse architecturale en attente de validation.
+Cmd 12 — tranché par Sidy le 2026-08-11 : **adopté**. Le flux proposé
+(Discernement → R&D → Doctrine/Archivage), la légitimité théurgique du
+Laboratoire-Sandbox, et la distinction Doctrine/Théorie sont validés comme
+description opérationnelle de la structure du dépôt. `status: adopte`.

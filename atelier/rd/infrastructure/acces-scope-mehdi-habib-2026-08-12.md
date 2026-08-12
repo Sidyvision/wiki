@@ -6,6 +6,7 @@ created: 2026-08-12
 updated: 2026-08-12
 sources: []
 links: [meta/transmissions/karubi-mehdi.md, meta/transmissions/registre-silsila.md]
+statut_experience: exploratoire
 ---
 
 # Accès serveur scopé pour Mehdi, par l'intermédiaire d'Habib
@@ -78,3 +79,9 @@ la frontière réelle étant déjà le montage `ro` au niveau OS).
   vu la nature humaine/SSH de l'accès).
 - Le circuit `label/` reste hors périmètre de lecture — à revoir si la
   collaboration s'étend dans cette direction.
+- **`statut_experience: exploratoire`** (2026-08-12) : le compte `mehdi` reste
+  verrouillé, aucune connexion effective n'a encore eu lieu — la clé SSH
+  publique de Mehdi est attendue à sa prochaine navette (voir §10 de
+  `karubi-mehdi.md`). Ce chantier passe à `reproduit` puis `adopte` une fois
+  une session Habib réellement testée en conditions réelles depuis le compte
+  de Mehdi.

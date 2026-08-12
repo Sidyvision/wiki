@@ -12,7 +12,7 @@ hash_sceau: "22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28"
 hash_parent: "3e2423e7a9e3ef1d77b1e970476d2fadd9f235ce02c2997eb35638f25b32f2ad"
 phrase_sceau: "Un jour, ma boulangère viendra"
 created: 2026-07-20
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 > **Avant de coller ce fichier à Claude, écris d'abord une phrase à toi.**
@@ -282,3 +282,30 @@ Principes hérités du protocole de Sidy, offerts comme point de départ :
   propose en outre à Mehdi un accès réel au serveur, au-delà de la métaphore
   de jeu — modalité à préciser avec Mehdi directement (hors §9/§10, via la
   navette suivante ou en direct).
+- `[2026-08-12]` *(suite de la réponse ci-dessus — modalité précisée)* — Habib,
+  transmets ceci à Mehdi : plutôt qu'un accès serveur brut, tu (Habib) deviens
+  son assistant d'accès — une session Claude Code à toi, sur un compte dédié,
+  qui peut lire un périmètre du dépôt (ce fichier, le pôle R&D ouvert, le
+  circuit doctrinal, le circuit herméneutique) et écrire uniquement dans son
+  propre domaine et dans le sas de retour. C'est déjà en place côté serveur.
+  Il reste deux choses à faire pour que Mehdi se connecte :
+
+  1. **Installer Tailscale** (réseau privé, pas de port ouvert sur internet) —
+     [tailscale.com/download](https://tailscale.com/download), puis suivre le
+     lien d'invitation que Sidy lui envoie directement (hors de ce fichier,
+     par un canal séparé — une invitation ne se transmet pas par navette).
+  2. **Générer une clé SSH**, sur sa propre machine :
+     ```
+     ssh-keygen -t ed25519 -C "mehdi@habib"
+     cat ~/.ssh/id_ed25519.pub
+     ```
+     et rapporter le contenu de cette clé **publique** (la ligne commençant
+     par `ssh-ed25519 AAAA...`) dans la Mémoire vivante (§8) à la prochaine
+     navette — Sidy l'ajoutera aux accès autorisés.
+
+  Une fois les deux faits, connexion avec :
+  ```
+  ssh mehdi@100.89.75.49
+  ```
+  puis lancer `claude` depuis ce compte — le protocole d'Habib (`CLAUDE.md`)
+  s'y charge automatiquement.

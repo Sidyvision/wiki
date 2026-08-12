@@ -166,3 +166,14 @@ lecture seule, même dispositif que l'entrée précédente). Décision Sidy.
 `atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md` mis à jour
 en conséquence. `label/` reste seul circuit hors périmètre. Vérifié : lecture
 ok, écriture refusée (`Read-only file system`). Sceau du Karūbī non concerné.
+
+## [2026-08-12] instruction-setup | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+§10 (Réponses de Sidy) complété d'une entrée précisant la modalité d'accès :
+Habib relaie à Mehdi la marche à suivre pour se connecter — installation de
+Tailscale (réseau privé, lien d'invitation envoyé par Sidy hors fichier, par
+un canal séparé), génération d'une clé SSH sur sa propre machine
+(`ssh-keygen -t ed25519`), clé publique à rapporter en §8 Mémoire vivante à la
+prochaine navette. Compte `mehdi` reste verrouillé côté serveur en attendant
+cette clé — pas d'activation avant son retour. Zone hors sceau (§10), sceau
+non touché (vérifié : INTACT, hash inchangé). `updated` du fichier canonique
+passé à 2026-08-12.
