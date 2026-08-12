@@ -2,7 +2,7 @@
 title: "Registre Silsila — dispositif Karubi (domaine reserve, meta/transmissions/)"
 type: transmission
 created: 2026-07-20
-updated: 2026-08-09
+updated: 2026-08-12
 ---
 
 # Registre Silsila — Karūbī
@@ -145,3 +145,24 @@ dépôt sur consigne de Sidy : PDF source dans
 `status: to-source` — transcription IA d'un cours oral, non recoupée avec
 l'audio original). §9/§10 : aucune nouvelle question, inchangés. Sas `_inbox/`
 vidé après intégration.
+
+## [2026-08-12] incarnation-technique | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+Habib prend un corps technique en plus de son rôle documentaire : compte Linux
+dédié `mehdi` sur le serveur, session Claude Code cantonnée par bind mounts en
+lecture seule à un périmètre scopé (`karubi-mehdi.md`, `atelier/rd/` hors
+`infrastructure/`, `doctrinal/`), écriture uniquement dans son propre domaine
+et dans `_inbox/` (dépôt direct de ses retours, ex. corpus Isaghuji). Motif :
+Mehdi souhaitait un accès serveur direct — le dispositif Karūbī sert
+précisément à l'éviter tout en répondant au besoin, Habib devient l'assistant
+d'accès au dépôt plutôt qu'un accès brut. Détail technique et vérifications :
+`atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md`. Sceau du
+Karūbī non touché par cette opération (vérifié après coup, hash inchangé).
+Fichier canonique `karubi-mehdi.md` inchangé — cette entrée documente une
+infrastructure d'accès, pas une nouvelle version du Karūbī.
+
+## [2026-08-12] extension-perimetre | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+Périmètre de lecture d'Habib étendu au circuit `hermeneutique/` (bind mount
+lecture seule, même dispositif que l'entrée précédente). Décision Sidy.
+`atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md` mis à jour
+en conséquence. `label/` reste seul circuit hors périmètre. Vérifié : lecture
+ok, écriture refusée (`Read-only file system`). Sceau du Karūbī non concerné.
