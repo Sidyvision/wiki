@@ -47,7 +47,7 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 - **Vérification** : `verifier-invariants.py --racine /root/wiki` exécuté —
   aucune des erreurs/avertissements relevés ne concerne un fichier touché par
   cet éclatement (toutes préexistantes, traitées ailleurs).
-- **Commit** : <à compléter après commit>
+- **Commit** : d42c954
 
 ---
 
