@@ -12,6 +12,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-13] vigilance | Rapport R&D — défauts observés, intégration retour Karūbī Mehdi (Habib)
+
+- Sur demande explicite de Sidy, consignation dans
+  `atelier/rd/cahiers/registre-problemes.md` de trois observations tirées de
+  l'intégration du retour `_inbox/karubi-mehdi-navette-20260812.md` : (1)
+  écart d'append silencieux — une entrée §8 de la navette absente du fichier
+  canonique, sceau intact n'ayant rien signalé (piste d'outillage : mode
+  `diff` pour `generer-karubi.py`, ouvert) ; (2) confusion nom du Karūbī /
+  nom du destinataire, déjà résolue par l'ajout d'une table à `meta/CLAUDE.md`
+  (commit `6b4871e`) ; (3) friction récurrente du Cmd 9 (SHA après commit
+  imposant un second commit de forme), confirmée comme comportement normal du
+  protocole tel qu'écrit, non un défaut isolé (reporté).
+
+---
+
 ## [2026-08-13] vigilance | Retour d'expérience R&D — première intégration sous CLAUDE.md éclaté
 
 - Sur demande explicite de Sidy (« toute information instructive au R&D pour

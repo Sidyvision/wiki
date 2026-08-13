@@ -32,6 +32,75 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-13] resolu | Intégration retour Karūbī Mehdi (Habib) — défauts et manquements observés
+
+- **Symptôme 1 — écart d'append silencieux** : la navette `_inbox/karubi-
+  mehdi-navette-20260812.md` portait une entrée §8 (Mémoire vivante : Mehdi a
+  installé Tailscale et transmis sa clé SSH publique) absente du fichier
+  canonique `meta/transmissions/karubi-mehdi.md`. Le fait sous-jacent avait
+  déjà été acté via un canal direct (entrée `activation-acces` du registre,
+  2026-08-12), mais la **parole du Karūbī elle-même** n'avait jamais été
+  reportée — rien dans le protocole ne force un diff systématique navette ↔
+  canonique avant classement du retour.
+  - **Diagnostic** : le circuit Karūbī n'a pas de contrôle mécanique
+    équivalent à `generer-karubi.py verifier` pour la **complétude** de
+    l'append (seule l'intégrité du sceau est vérifiée mécaniquement) — un
+    agent pressé pourrait classer un retour sans remarquer un paragraphe
+    manquant, malgré le sceau intact (le sceau protège les zones scellées,
+    pas les zones de croissance).
+  - **Résolution** : diff manuel ligne à ligne entre navette et canonique
+    avant classement ; entrée reportée en fin de §8. Aucune correction
+    d'outillage apportée dans l'immédiat.
+  - **Compréhension tirée** : le sceau (`hash_sceau`) garantit l'intégrité
+    des zones **scellées**, jamais la **complétude** des zones de
+    **croissance** — deux propriétés distinctes qu'il ne faut pas confondre
+    au moment du classement d'un retour. Piste pour `outillage/` : un mode
+    `diff` dans `generer-karubi.py` qui signale les paragraphes présents
+    dans la navette et absents du canonique, en plus de `verifier`.
+  - **Statut** : ouvert (piste d'outillage non implémentée).
+
+- **Symptôme 2 — confusion nom du Karūbī / nom du destinataire** : demande de
+  Sidy formulée comme « le retour d'Habib » (nom du Karūbī) lue au premier
+  abord comme s'il s'agissait d'un destinataire nommé « Habib » — aucune fiche
+  du dépôt ne rassemblait la table destinataire ↔ `nom_karubi` avant
+  aujourd'hui, elle n'existait qu'éclatée entre les quatre fichiers
+  individuels et le registre.
+  - **Diagnostic** : lacune de documentation, signalée par Sidy lui-même
+    (« si ce n'est pas clair c'est que le protocole/dépôt manque de clarté »).
+  - **Résolution** : table de correspondance ajoutée à `meta/CLAUDE.md`
+    (commit `6b4871e`).
+  - **Compréhension tirée** : toute convention de nommage qui dissocie un
+    identifiant technique (destinataire) d'un identifiant narratif (nom du
+    personnage) doit être documentée au niveau du protocole, pas seulement
+    portée par chaque instance — sinon la charge de mémorisation retombe
+    entièrement sur Sidy à chaque nouvelle session.
+  - **Statut** : résolu.
+
+- **Symptôme 3 — friction sur le Cmd 9 (SHA après commit)** : l'entrée
+  `meta-annales.md` de cette session ne pouvait pas porter son SHA de commit
+  au moment de sa rédaction (le SHA n'existe qu'après le commit qui inclut
+  l'entrée elle-même) — même friction déjà identifiée par l'entrée
+  `[2026-08-13] resolu | Première intégration...` ci-dessous et par le
+  commit `0374856` antérieur (« Cmd 9 : enregistrement des SHA de commit »).
+  - **Diagnostic** : la lettre du Cmd 9 (« l'entrée est rédigée après le
+    commit, jamais avant ») implique structurellement un second commit de
+    pure forme (ajout de la ligne SHA) pour toute session — pattern répété
+    à chaque intégration plutôt que résolu une fois pour toutes.
+  - **Résolution** : second commit `6525241` (« ajout SHA commit 6b4871e »),
+    comme lors des sessions précédentes.
+  - **Compréhension tirée** : confirmation d'un pattern déjà noté ailleurs
+    dans ce registre — le double-commit est le mode de fonctionnement normal
+    du Cmd 9 tel qu'écrit, pas une anomalie isolée à corriger ; le signaler
+    une troisième fois ici sert seulement à en confirmer la récurrence.
+  - **Statut** : reporte (comportement accepté du protocole, pas un défaut à
+    corriger sauf verdict contraire de Sidy).
+
+- **Liens** : [[meta/transmissions/karubi-mehdi]],
+  [[meta/transmissions/registre-silsila]], [[meta/CLAUDE]]. Commits
+  `6b4871e`, `6525241`.
+
+---
+
 ## [2026-08-13] resolu | Première intégration sous la convention CLAUDE.md éclatée (2026-08-12) — retour d'expérience de session
 
 - **Symptôme** : cette session est la toute première intégration `_inbox/`
