@@ -231,8 +231,9 @@ chez Ibn ʿArabī sur ce point précis — à ne pas sur-interpréter ».
 C'est ici que la précaution doit être la plus stricte, et c'est aussi ici que le
 chapitre est **le plus précis et le moins réductible à un avertissement**.
 
-« Folie apparente et sagesse cachée » ne traite pas d'un cas mais de **trois**,
-que Guénon prend soin de séparer :
+« Folie apparente et sagesse cachée » ne traite pas d'un cas mais d'une **série**
+de cas extérieurement semblables, que Guénon prend soin de séparer. Les trois
+premiers sont ceux qui intéressent la fiche :
 
 1. **Les quiétistes** — qui « prétend[ent] traiter l'action comme négligeable »
    et « y trouvent surtout un prétexte pour faire indistinctement n'importe quoi,
@@ -263,9 +264,28 @@ que Guénon prend soin de séparer :
 rattachement réel et une voie réellement engagée, et dont la cause est nommée
 (défaut de préparation, défaut d'attitude active) — là où la fiche ne disposait
 que du mot « danger » et du contrepoint *istidrāj* qu'elle avait elle-même
-identifié. Il n'apporte **aucun élément permettant de dire qu'un cas particulier
-relève de l'une ou l'autre des trois catégories** ; Guénon ne fournit pas de
-critère de reconnaissance externe, et le présent document n'en construit pas.
+identifié.
+
+**Précision apportée par la relecture intégrale** (postérieure à la première
+rédaction) : la typologie de Guénon ne s'arrête pas à ces trois cas. Il en
+distingue au moins trois de plus, et ce sont eux qui interdisent tout usage
+diagnostique du chapitre — (4) les **faux *majâdhîb*, de deux sortes contraires** :
+d'un côté les « simulateurs vulgaires », « contrefacteurs » menant une existence
+« parasitaire » ; de l'autre « un homme ayant atteint un haut degré de
+développement spirituel [qui] se dissimule parmi les *majâdhîb* », voire un *walî*
+qui « peut aussi revêtir parfois l'apparence d'un *majdhûb* » ; (5) les
+**« jongleurs » et bouffons**, dont les façons d'agir « ont si souvent servi de
+"déguisement", dans toutes les formes traditionnelles, à des initiés de haut
+rang ». D'où la formule qui commande le chapitre : « la folie est en définitive un
+des masques les plus impénétrables dont la sagesse puisse se couvrir par là même
+qu'elle en est l'extrême opposé ».
+
+Il n'apporte donc **aucun élément permettant de dire qu'un cas particulier relève
+de l'une ou l'autre de ces catégories** — au contraire, Guénon souligne que les
+motifs de ces conduites « échappent nécessairement à l'appréciation des hommes
+ordinaires ». Il ne fournit pas de critère de reconnaissance externe, et le présent
+document n'en construit pas. Chapitre instruit en fiche propre :
+[[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee]].
 
 ### 5.3 `origine-jumeau-spirituel` — IRS ch. XXII (`Chapitre=572`)
 
@@ -344,11 +364,17 @@ relève pas — Guénon renvoyant la certitude à l'intéressé lui-même et à 
 Quatre fiches sur douze restent donc **sans source guénonienne**, en tout ou en
 partie. C'est un résultat, pas une lacune du présent travail.
 
-## 7. Ce qui n'a pas été fait, et attend un accord
+## 7. Les deux opérations proposées — **exécutées le 2026-08-13 sur accord de Sidy**
 
-Le présent document **signale** les correspondances. Il n'a modifié **aucune**
-fiche `doctrinal/discernement/`. Deux opérations restent ouvertes, qui touchent
-au circuit doctrinal et relèvent donc d'une décision explicite :
+> ✅ **Accord donné** (« oui, crée les fiches »), 2026-08-13. Les deux opérations
+> ci-dessous ont été exécutées : sept fiches `doctrinal/sources/` créées, et les
+> wikilinks ajoutés au champ `sources:` de huit fiches biographiques. **Aucun
+> `status` ni aucun corps de fiche `discernement/` n'a été touché** — la clôture
+> des discernements reste entière et appartient à Sidy (Cmd 12).
+
+Le présent document **signale** les correspondances. Les deux opérations
+suivantes touchent au circuit doctrinal et relevaient donc d'une décision
+explicite :
 
 1. **Créer les fiches `doctrinal/sources/` correspondantes**, selon la convention
    en vigueur (`guenon-<oeuvre>-ch<N>-<slug>.md`, `type: source`) :

@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # Le Catalogue Universel
@@ -256,6 +256,13 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14|L'Homme et son devenir selon le Vêdânta, ch. IX-XIV (Guénon)]]
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21|L'Homme et son devenir selon le Vêdânta, ch. XV-XXI (Guénon)]]
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26|L'Homme et son devenir selon le Vêdânta, ch. VIII et XXII-XXVI (Guénon)]]
+- [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission|Aperçus sur l'initiation, ch. V et VIII : régularité initiatique et transmission (Guénon)]]
+- [[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles|Aperçus sur l'initiation, ch. VII : contre le mélange des formes traditionnelles (Guénon)]]
+- [[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs|Initiation et Réalisation spirituelle, ch. V, XXI et XXIV : rattachement, instructeurs, rôle du guru (Guénon)]]
+- [[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores|Initiation et Réalisation spirituelle, ch. VI : influences spirituelles et « égrégores » (Guénon)]]
+- [[doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet|Initiation et Réalisation spirituelle, ch. XVI : contemplation directe et contemplation par reflet (Guénon)]]
+- [[doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise|Initiation et Réalisation spirituelle, ch. XXII : sagesse innée et sagesse acquise (Guénon)]]
+- [[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee|Initiation et Réalisation spirituelle, ch. XXVII : folie apparente et sagesse cachée (Guénon)]]
 
 ---
 

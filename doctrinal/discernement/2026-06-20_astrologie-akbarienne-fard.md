@@ -11,12 +11,15 @@ tags:
 - autorite-spirituelle
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-08-10
+updated: 2026-08-13
 sources:
 - '[[doctrinal/sources/ibn-arabi-fard-afrad-gilis]]'
 - '[[doctrinal/sources/gilis-ordo-ab-chao]]'
 - '[[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]]'
-sources_count: 3
+- '[[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]'
+- '[[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles]]'
+- '[[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]]'
+sources_count: 6
 cross_links:
 - '[[doctrinal/autorites/ibn-arabi]]'
 - '[[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]]'

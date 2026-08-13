@@ -10,9 +10,10 @@ tags:
 - en-cours
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-08-10
-sources: []
-sources_count: 0
+updated: 2026-08-13
+sources:
+- '[[doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet]]'
+sources_count: 1
 cross_links:
 - '[[doctrinal/symboles/waqia]]'
 - '[[doctrinal/symboles/alam-al-mithal]]'

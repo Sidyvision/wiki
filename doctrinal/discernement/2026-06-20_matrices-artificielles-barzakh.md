@@ -11,9 +11,10 @@ tags:
 - en-cours
 - pseudo-science-a-surveiller
 created: 2026-06-20
-updated: 2026-08-10
-sources: []
-sources_count: 0
+updated: 2026-08-13
+sources:
+- '[[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]]'
+sources_count: 1
 cross_links:
 - '[[doctrinal/symboles/barzakh]]'
 - '[[doctrinal/symboles/khalwa]]'

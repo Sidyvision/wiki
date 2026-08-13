@@ -11,9 +11,11 @@ tags:
 - autorite-spirituelle
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-08-10
-sources: []
-sources_count: 0
+updated: 2026-08-13
+sources:
+- '[[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]'
+- '[[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]]'
+sources_count: 2
 cross_links:
 - '[[doctrinal/symboles/khalwa]]'
 - '[[doctrinal/traditions/tasawwuf]]'

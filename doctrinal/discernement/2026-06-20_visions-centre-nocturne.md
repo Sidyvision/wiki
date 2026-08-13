@@ -10,10 +10,11 @@ tags:
 - en-cours
 - syncretisme-a-surveiller
 created: 2026-06-20
-updated: 2026-07-10
+updated: 2026-08-13
 sources:
 - '[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]'
-sources_count: 1
+- '[[doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet]]'
+sources_count: 2
 cross_links:
 - '[[doctrinal/symboles/alam-al-mithal]]'
 - '[[doctrinal/symboles/barzakh]]'
