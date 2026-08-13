@@ -12,6 +12,30 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 ---
 
+## [2026-08-13] signalement | Confrontation de 5 fiches discernement/ au corpus Guénon (raw/)
+
+- **Contexte** : contrainte production/intégration temporairement levée
+  ([[wiki-contrainte-integration-levee]], mémoire) ; corpus Guénon complété en
+  `raw/` (dépôt du chapitre RQST manquant, id 746, par Sidy).
+- **Opération** : vérification mécanique de complétude des 7 œuvres Guénon
+  déposées (0 trou après dépôt) via les champs `Chapitre=`/`sigle=` du
+  frontmatter `source:`, puis confrontation verbatim de 5 fiches
+  `doctrinal/discernement/` (celles citant, via wikilink, une des 12 fiches
+  `doctrinal/sources/` confrontables) contre le texte brut correspondant.
+- **Résultat** : 4 fiches confirmées exactes (citations et attributions de
+  chapitre fidèles). 1 fiche —
+  [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]
+  — porte deux formulations entre guillemets attribuées à Guénon qui sont en
+  réalité des paraphrases/synthèses, non du texte verbatim. Signalement remis
+  à Sidy, aucun `Statut` modifié (Cmd 12).
+- **Livrable** :
+  [[atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon]].
+- **Non traité** : Volet B (doublons d'id AI 28/70, RQST 729/752, EME 881 ;
+  fichiers possiblement mal classés ; `organize_guenon.sh`) — reporté, non
+  commencé.
+
+---
+
 ## [2026-08-13] vigilance | Rapport R&D — défauts observés, intégration retour Karūbī Mehdi (Habib)
 
 - Sur demande explicite de Sidy, consignation dans
