@@ -38,7 +38,7 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
   ailleurs).
 - `verifier-invariants.py --racine /root/wiki` : `0 erreur(s), 45
   avertissement(s)` (pré-existants, non bloquants, phase de calibrage).
-- **Commit** : (en attente)
+- **Commit** : 27671d1
 
 ## [2026-08-12] amendement | éclatement expérimental du CLAUDE.md en protocoles locaux
 
