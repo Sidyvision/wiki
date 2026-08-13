@@ -19,9 +19,10 @@ spirituelle* (déposée ce jour).
 - Créé `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs.md`
   (`type: outillage`) — traitement fiche par fiche des douze `discernement/2026-06-20_*`.
 - Règle d'appariement posée : un chapitre répond à la **question déclarée ouverte**
-  par la fiche, jamais à son récit. Sept chapitres lus intégralement avant citation :
+  par la fiche, jamais à son récit. Dix chapitres lus intégralement avant citation :
   AI V (`30`), AI VII (`32`), AI VIII (`33`), IRS V (`555`), IRS VI (`556`),
-  IRS XVI (`566`), IRS XXI (`571`), IRS XXIV (`574`), IRS XXVII (`577`).
+  IRS XVI (`566`), IRS XXI (`571`), IRS XXII (`572`), IRS XXIV (`574`),
+  IRS XXVII (`577`).
 - Question centrale de neuf fiches (« qui est habilité à reconnaître un *Fard* ? »)
   sourcée : AI V (rattachement « idéal » vain ; « juge et partie dans sa propre
   cause »), AI VIII (la chaîne), IRS V (virtuel/effectif), avec le contrepoint
@@ -34,6 +35,11 @@ spirituelle* (déposée ce jour).
   (quiétistes / « fous en Christ » / *majdhûb*) — troisième catégorie doctrinale
   neuve pour le dépôt, sans critère de reconnaissance externe et sans application
   à un cas particulier.
+- `origine-jumeau-spirituel` : IRS XXII, lu et instruit en complément le même jour
+  (§ 5.3) — catégorie doctrinale de l'antériorité hors du temps humain
+  (« réminiscence platonicienne »), assortie de l'avertissement de Guénon sur les
+  « lueurs » pré-initiatiques, « d'ordre probablement plus psychique que
+  spirituel ». Appariement bilatéral.
 - Quatre fiches restent sans source guénonienne, signalées comme telles.
 - Aucun `status`/`Statut` modifié. Création des fiches `doctrinal/sources/` et
   ajout des wikilinks : **proposés, non exécutés** — en attente d'accord.

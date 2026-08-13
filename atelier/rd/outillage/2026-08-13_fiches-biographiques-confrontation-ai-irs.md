@@ -269,8 +269,67 @@ critère de reconnaissance externe, et le présent document n'en construit pas.
 
 ### 5.3 `origine-jumeau-spirituel` — IRS ch. XXII (`Chapitre=572`)
 
-« Sagesse innée et sagesse acquise » : appariement **proposé sur le titre et le
-sujet de la fiche**, chapitre **non lu à ce jour**. Signalé, non instruit.
+*(Ajout postérieur à la première rédaction : le chapitre, d'abord signalé comme
+non lu, a été lu intégralement avant d'être instruit ici.)*
+
+**Question déclarée par la fiche** — dans son *Examen formel*, non dans son
+récit : « distinguer, dans chaque expérience nouvelle, ce qui est donnée brute et
+ce qui est déjà une interprétation orientée par le cadre conceptuel préexistant ».
+Autrement dit : que peut-on tenir pour **antérieur** à la mise en forme de 2023,
+et à quel titre ?
+
+« Sagesse innée et sagesse acquise » traite cette distinction en propre. Guénon y
+pose qu'une connaissance effective acquise dans un autre état d'existence est
+reportée dans l'état humain et y apparaît comme innée :
+
+> « si un être qui est parvenu à un certain degré de réalisation dans un état
+> d'existence passe à un autre état, il devra nécessairement y apporter avec lui
+> ce qu'il a ainsi acquis, et qui apparaîtra donc comme « inné » dans ce nouvel
+> état »
+
+Il en décrit le mode de manifestation — reconnaissance et non apprentissage :
+
+> « il « reconnaîtra » ces degrés, si l'on peut s'exprimer ainsi, comme les ayant
+> déjà en lui, d'une façon qui peut être comparée à la « réminiscence »
+> platonicienne »
+
+et précise que cette connaissance « n'a bien réellement aucun commencement
+temporel, puisqu'elle résulte d'une acquisition réalisée en dehors du cours de
+l'état humain ». Le chapitre écarte expressément la lecture réincarnationniste
+(« ce qui n'a donc et ne peut avoir rien de commun avec une conception
+« réincarnationniste » quelconque ») et rappelle que la succession des états
+n'est décrite comme temporelle que « d'une façon purement symbolique ».
+
+**Le chapitre donne les deux sens, et le second est le plus appuyé.** Guénon pose
+d'abord que même ce cas ne dispense pas du rattachement :
+
+> « il n'est nullement dispensé, comme on pourrait être tenté de le supposer à
+> tort, du rattachement à une « chaîne » initiatique, faute duquel, tant qu'il
+> est dans l'état humain, il resterait simplement ce qu'il était en y entrant »
+
+— ce qui rejoint AI V et VIII (§ 2) sans exception. Il pose ensuite le cas
+d'exception d'un être n'ayant pas besoin d'un *Guru* extérieur (« l'action du
+véritable *Guru* intérieur opère en lui dès le début »), complément direct
+d'IRS XXIV cité au § 2. Mais il l'assortit immédiatement d'un avertissement qui
+porte précisément sur le type d'indice dont dispose la fiche :
+
+> « ce qu'il faut surtout éviter […] c'est que certains ne puissent s'imaginer
+> trop facilement qu'un tel cas est le leur, soit parce qu'ils se sentent
+> naturellement portés à rechercher l'initiation […] soit parce que, avant toute
+> initiation, il leur est arrivé d'avoir quelques « lueurs » plus ou moins
+> vagues, d'ordre probablement plus psychique que spirituel, qui n'ont en somme
+> rien de plus extraordinaire […] que les « prémonitions » quelconques »
+
+Guénon conclut que cette possibilité « existe, mais […] ne peut appartenir qu'à
+une infime minorité, si bien qu'en somme il n'y a pas à en tenir compte
+pratiquement », et que ceux qui l'ont « en prendront toujours conscience, au
+moment voulu, d'une façon certaine et indubitable ».
+
+Le chapitre fournit donc à la fois **la catégorie doctrinale** d'une antériorité
+non documentable dans le temps humain (ce que la fiche cherchait sans le nommer)
+et **le critère de prudence** que la fiche s'appliquait déjà à elle-même. Il ne
+permet de dire ni que le cas de Sidy relève de cette catégorie, ni qu'il n'en
+relève pas — Guénon renvoyant la certitude à l'intéressé lui-même et à nul autre.
 
 ## 6. Appariements faibles ou nuls — signalés comme tels
 
@@ -298,6 +357,7 @@ au circuit doctrinal et relèvent donc d'une décision explicite :
    - `guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs.md` (IRS V, XXI, XXIV)
    - `guenon-initiation-realisation-ch6-influences-spirituelles-egregores.md` (IRS VI)
    - `guenon-initiation-realisation-ch16-contemplation-directe-reflet.md` (IRS XVI)
+   - `guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise.md` (IRS XXII)
    - `guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee.md` (IRS XXVII)
 2. **Ajouter les wikilinks correspondants** dans le champ `sources:` des fiches
    biographiques concernées — sans toucher à `status`, ni au corps des fiches.
@@ -311,8 +371,9 @@ au circuit doctrinal et relèvent donc d'une décision explicite :
   chapitre manquant suit le motif des autres fichiers du dossier :
   `index-rene-guenon.org/index.php?…&Chapitre=580&sigle=IRS`.
 - **Chapitres signalés mais non lus**, donc non cités : AI ch. XX (`45`),
-  IRS ch. XXII (`572`), IRS ch. III (`553`). Le présent document ne leur emprunte
-  aucune formulation.
+  IRS ch. III (`553`). Le présent document ne leur emprunte aucune formulation.
+  IRS ch. XXII (`572`), d'abord dans cette liste, a été lu intégralement et
+  instruit au § 5.3 — **dix** chapitres lus en tout.
 - **IRS ch. III « La maladie de l'angoisse »** avait été pressenti pour
   `synthese-danger-dissolution-identitaire` ; il n'a **pas** été retenu ni lu,
   IRS ch. XXVII s'étant révélé suffisant et plus précis. Reste disponible.
