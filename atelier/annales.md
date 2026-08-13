@@ -10,6 +10,37 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-13] signalement | Fiches biographiques (2026-06-20) confrontées à AI et IRS
+
+Demande de Sidy : mettre les fiches biographiques en relation avec le corpus, et
+en particulier avec *Aperçus sur l'initiation* et *Initiation et Réalisation
+spirituelle* (déposée ce jour).
+
+- Créé `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs.md`
+  (`type: outillage`) — traitement fiche par fiche des douze `discernement/2026-06-20_*`.
+- Règle d'appariement posée : un chapitre répond à la **question déclarée ouverte**
+  par la fiche, jamais à son récit. Sept chapitres lus intégralement avant citation :
+  AI V (`30`), AI VII (`32`), AI VIII (`33`), IRS V (`555`), IRS VI (`556`),
+  IRS XVI (`566`), IRS XXI (`571`), IRS XXIV (`574`), IRS XXVII (`577`).
+- Question centrale de neuf fiches (« qui est habilité à reconnaître un *Fard* ? »)
+  sourcée : AI V (rattachement « idéal » vain ; « juge et partie dans sa propre
+  cause »), AI VIII (la chaîne), IRS V (virtuel/effectif), avec le contrepoint
+  IRS XXIV (formes normales sans *Guru* individuel).
+- `mythe-personnel-unifie` : AI VII, qui admet le cas *ativarna* tout en posant
+  son critère — appariement bilatéral, non restrictif.
+- `matrices-artificielles-barzakh` : IRS VI, où Guénon récuse le terme
+  « égrégore » lui-même comme non traditionnel.
+- `synthese-danger-dissolution-identitaire` : IRS XXVII, qui distingue trois cas
+  (quiétistes / « fous en Christ » / *majdhûb*) — troisième catégorie doctrinale
+  neuve pour le dépôt, sans critère de reconnaissance externe et sans application
+  à un cas particulier.
+- Quatre fiches restent sans source guénonienne, signalées comme telles.
+- Aucun `status`/`Statut` modifié. Création des fiches `doctrinal/sources/` et
+  ajout des wikilinks : **proposés, non exécutés** — en attente d'accord.
+- Signalement `raw/` : IRS ch. XXX (id 580) toujours absent — le fichier déposé
+  est la page de sommaire de l'œuvre, non le chapitre.
+
+
 ## [2026-08-13] signalement | Tour d'horizon : déblocages ouverts par le corpus Guénon déposé
 
 Dépôt de *La Grande Triade* dans `raw/` par Sidy. Confrontation de fond (et non
