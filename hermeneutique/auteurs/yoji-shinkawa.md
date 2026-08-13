@@ -8,9 +8,9 @@ createur: "Yoji Shinkawa"
 statut_analyse: en-cours
 tags: [auteur, direction-artistique, design, jeu-video, kojima]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-13
 sources: ["to-source"]
-liens: ["[[hermeneutique/auteurs/hideo-kojima]]", "[[hermeneutique/metal-gear/metal-gear]]", "[[hermeneutique/death-stranding/death-stranding]]"]
+liens: ["[[hermeneutique/auteurs/hideo-kojima]]", "[[hermeneutique/metal-gear/metal-gear]]", "[[hermeneutique/death-stranding/death-stranding]]", "[[hermeneutique/sources/art-of-death-stranding]]"]
 cles_doctrinales: ["[[doctrinal/symboles/outil-faculte-objectivee]]"]
 discernement: []
 liens_label: []

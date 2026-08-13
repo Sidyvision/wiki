@@ -8,9 +8,9 @@ createur: "Hideo Kojima"
 statut_analyse: en-cours
 tags: [auteur, jeu-video, kojima, japon, these-interactive]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-13
 sources: ["to-source"]
-liens: ["[[hermeneutique/auteurs/yoji-shinkawa]]", "[[hermeneutique/metal-gear/metal-gear]]", "[[hermeneutique/death-stranding/death-stranding]]"]
+liens: ["[[hermeneutique/auteurs/yoji-shinkawa]]", "[[hermeneutique/metal-gear/metal-gear]]", "[[hermeneutique/death-stranding/death-stranding]]", "[[hermeneutique/sources/art-of-death-stranding]]"]
 cles_doctrinales: ["[[doctrinal/symboles/outil-faculte-objectivee]]"]
 discernement: []
 liens_label: []
