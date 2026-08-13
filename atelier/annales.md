@@ -29,7 +29,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   l'atelier, sur un objet propre au pôle `rd/`).
 - `verifier-invariants.py --racine /root/wiki` : `0 erreur(s), 45
   avertissement(s)` (inchangé, pré-existants, phase de calibrage).
-- **Commit** : (en attente)
+- **Commit** : bddece0
 
 ## [2026-08-12] archivage | Audit de santé Claude Code (`/doctor`) versé dans rd/infrastructure
 
