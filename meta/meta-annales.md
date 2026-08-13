@@ -16,6 +16,24 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 ---
 
+## [2026-08-13] actualisation | Karūbī Mehdi (Habib) — invitation Tailscale confirmée, prêt pour la navette retour
+
+- §10 de `meta/transmissions/karubi-mehdi.md` complété : Sidy confirme
+  l'envoi du lien d'invitation Tailscale à Mehdi (canal direct, hors ce
+  fichier — conformément à la règle déjà écrite au §10 : « une invitation ne
+  se transmet pas par navette »). Lien lui-même **non inscrit** dans le
+  dépôt (secret à usage limité, jamais versionné).
+- Les deux prérequis de connexion (clé SSH installée, invitation envoyée)
+  sont désormais réunis. Sceau vérifié (`generer-karubi.py verifier`) :
+  INTACT avant et après édition, hash inchangé.
+- `updated` déjà à 2026-08-13 (session précédente du jour), aucune
+  incrémentation supplémentaire nécessaire.
+- Fichier prêt à être renvoyé à Mehdi (portée `khassa`, version inchangée à
+  2 — le contenu scellé n'a pas bougé, seule la zone d'actualisation §10 a
+  grandi).
+
+---
+
 ## [2026-08-13] archivage | Intégration du retour de Mehdi (Karūbī Habib)
 
 - Fichier `_inbox/karubi-mehdi-navette-20260812.md` intégré au fichier

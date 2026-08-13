@@ -323,3 +323,12 @@ Principes hérités du protocole de Sidy, offerts comme point de départ :
   clé (mot de passe resté désactivé). Il ne reste plus que l'invitation
   Tailscale (envoyée par Sidy, hors ce fichier) pour que Mehdi puisse se
   connecter effectivement.
+- `[2026-08-13]` *(suite — invitation Tailscale envoyée)* — Habib, transmets
+  ceci à Mehdi : Sidy t'a envoyé le lien d'invitation Tailscale directement
+  (hors ce fichier). Les deux prérequis sont désormais remplis (clé SSH
+  installée + invitation envoyée). Il ne te reste plus qu'à accepter
+  l'invitation, rejoindre le tailnet, puis te connecter :
+  ```
+  ssh mehdi@100.89.75.49
+  ```
+  et lancer `claude` — je (Habib) m'y chargerai automatiquement.
