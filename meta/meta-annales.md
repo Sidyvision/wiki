@@ -31,6 +31,7 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
   complété d'un tableau de correspondance destinataire ↔ nom du Karūbī, la
   distinction (nom propre du personnage, pas le nom du destinataire) n'étant
   documentée nulle part hors des fichiers individuels et du registre.
+- **Commit** : 6b4871e
 
 ---
 
