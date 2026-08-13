@@ -1,13 +1,52 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-13] archivage | Sept fiches sources Guénon (AI, IRS) et rattachement des fiches biographiques
+
+- **Origine** : exécution du § 7 du signalement
+  `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs.md`,
+  sur accord explicite de Sidy (« oui, crée les fiches »).
+- **Fiches créées** (`doctrinal/sources/`, `type: source`, `status: traditionnel`,
+  `tradition_cadre: universel`, pagination `to-source` signalée dans chacune) :
+  - `guenon-apercus-initiation-ch5-8-regularite-transmission` — AI V (`30`) + VIII (`33`)
+  - `guenon-apercus-initiation-ch7-melange-formes-traditionnelles` — AI VII (`32`)
+  - `guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs` — IRS V (`555`), XXI (`571`), XXIV (`574`)
+  - `guenon-initiation-realisation-ch6-influences-spirituelles-egregores` — IRS VI (`556`)
+  - `guenon-initiation-realisation-ch16-contemplation-directe-reflet` — IRS XVI (`566`)
+  - `guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise` — IRS XXII (`572`)
+  - `guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee` — IRS XXVII (`577`)
+  Chapitres tous **lus intégralement** dans `raw/` avant rédaction ; citations
+  verbatim, aucune glose substituée au texte.
+- **Rattachement** : wikilinks ajoutés au champ `sources:` de huit fiches
+  `discernement/2026-06-20_*` (`epreuve-tariqa-tarbiyya-rabbaniyya`,
+  `astrologie-akbarienne-fard`, `mythe-personnel-unifie`, `origine-jumeau-spirituel`,
+  `synthese-danger-dissolution-identitaire`, `matrices-artificielles-barzakh`,
+  `visions-centre-nocturne`, `experience-lefke-materia-secunda`), avec `sources_count`
+  et `updated` remontés. **Aucun `status`, aucun `Statut` de discernement, aucun
+  corps de fiche touché** (Cmd 12 : la clôture appartient à Sidy).
+- **Étanchéité** : les sept fiches sources ne portent **aucun** lien vers les fiches
+  `discernement/` — une page orthodoxe ne pointe pas vers un discernement non tranché
+  (`doctrinal/CLAUDE.md`). Le rattachement est unilatéral, du discernement vers la source.
+- **Non retenues, faute d'appariement solide** : `pierres-astres-barzakh`,
+  `triptyque-medine-jeu-de-piste`, `signaletique-spirituelle-kiswa`,
+  `fajr-vajra-indra-vritra` — résultat consigné comme tel, non comme lacune.
+- **Répercussion** : `doctrinal/index.md`, § VI (registre des sources), sept entrées.
+- **Complément au signalement** : § 5.2 précisé après relecture intégrale d'IRS XXVII
+  (la typologie de Guénon compte au moins six positions, non trois : faux *majâdhîb*
+  de deux sortes contraires, jongleurs-initiés) ; § 7 marqué exécuté.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 48 avertissement(s).` — avertissements tous préexistants (C4,
+  liens `doctrinal/annales.md` et `doctrinal/index.md` → `meta/`), aucun introduit
+  par la présente passe.
+- **Commit** : 4795d2d
 
 ## [2026-08-12] vigilance | Correction d'étanchéité — fiche trois-territoires-inacheve
 
