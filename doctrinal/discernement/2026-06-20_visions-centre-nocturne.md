@@ -14,7 +14,8 @@ updated: 2026-08-13
 sources:
 - '[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]'
 - '[[doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet]]'
-sources_count: 2
+- '[[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]]'
+sources_count: 3
 cross_links:
 - '[[doctrinal/symboles/alam-al-mithal]]'
 - '[[doctrinal/symboles/barzakh]]'

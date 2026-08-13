@@ -263,6 +263,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet|Initiation et Réalisation spirituelle, ch. XVI : contemplation directe et contemplation par reflet (Guénon)]]
 - [[doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise|Initiation et Réalisation spirituelle, ch. XXII : sagesse innée et sagesse acquise (Guénon)]]
 - [[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee|Initiation et Réalisation spirituelle, ch. XXVII : folie apparente et sagesse cachée (Guénon)]]
+- [[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement|Initiation et Réalisation spirituelle, ch. XXX : l'esprit est-il dans le corps ou le corps dans l'esprit ? (Guénon)]]
 
 ---
 

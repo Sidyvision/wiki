@@ -388,6 +388,39 @@ explicite :
 2. **Ajouter les wikilinks correspondants** dans le champ `sources:` des fiches
    biographiques concernées — sans toucher à `status`, ni au corps des fiches.
 
+## 6 bis. IRS ch. XXX (`Chapitre=580`) — chapitre déposé le 2026-08-13, instruit le jour même
+
+Le dernier chapitre manquant de l'œuvre a été déposé par Sidy dans `raw/` le
+2026-08-13. Le dossier compte désormais 34 fichiers et **aucun identifiant
+manquant sur 551–583**. Le chapitre a été lu intégralement avant citation ; il
+concerne deux fiches, dans les deux cas comme **redressement de catégorie**, non
+comme confirmation.
+
+**`matrices-artificielles-barzakh`.** Seule occurrence du mot *barzakh* dans IRS.
+Guénon y qualifie le passage par l'**état de l'être**, jamais par un accès ménagé
+du dehors :
+
+> « l'être qui est passé de l'autre côté du *barzakh* est en quelque sorte à
+> l'opposé des êtres ordinaires […] "S'il marche sur le sable, il n'y laisse aucune
+> trace ; s'il marche sur le rocher, ses pieds y marquent leur empreinte." »
+
+La fiche qualifiait déjà son joint de *zōsaku*, notant que « le symbolisme
+barzakhique n'y porte aucune charge ». Le chapitre fournit le texte qui le dit en
+propre — il ne clôt rien : la clôture appartient à Sidy (Cmd 12).
+
+**`visions-centre-nocturne`.** L'intuition consignée — « un ancien centre », « un
+carrefour vers d'autres lieux » — rencontre la position guénonienne du centre :
+
+> « dans l'ordre spirituel, c'est l'intérieur qui enveloppe l'extérieur, et c'est
+> le centre qui contient toutes choses »
+
+Le point métaphysique « n'est aucunement "situé", car rien ne peut le contenir ou
+le limiter ». Le chapitre donne donc un cadre à la seule strate « centre » de la
+fiche, et **rien** sur l'autre strate — la mémoire pré-existentielle —, qui reste
+entière et sans appui guénonien.
+
+Fiche produite : [[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]].
+
 ## 7 bis. Double contrôle (§VII) — consigné après coup, le 2026-08-13
 
 Ce geste aurait dû être posé au moment de la production ; il ne l'a pas été. Il
@@ -412,9 +445,35 @@ traditionnelles, entités collectives, modes de contemplation, sagesse innée,
 folie apparente) n'est de caractère polaire, axial, septénaire ou métrologique.
 Aucune tension à documenter, aucun risque de conflation polaire/solaire.
 
+### 7 ter. Double contrôle propre à IRS ch. XXX — posé au moment de la production
+
+Contrairement aux sept fiches précédentes, ce geste est ici **contemporain** de la
+production.
+
+- **Sashimono** : joint ***zōsaku* × *kari-kumi***, comme les précédents — une
+  extrémité seulement est de dignité doctrinale, montage à blanc, aucune montée en
+  *hozo* ni *kumiko* proposée.
+- **Nature du joint** : **homologie**, non restitution. Aucune généalogie n'est
+  alléguée entre le récit consigné dans `visions-centre-nocturne` et le centre
+  guénonien ; c'est un rapport de cadrage, non de filiation.
+- **Confrontation Gizeh** : due et instruite, ce chapitre traitant du **centre** et
+  des cieux concentriques — matière axiale, à la différence des sept précédents.
+  **Résultat : aucun ancrage, et une garde utile.** Le centre d'IRS XXX est
+  strictement métaphysique et non situé ; il ne porte aucune détermination
+  géographique, et n'autorise donc pas à lire « un ancien centre » comme un lieu —
+  ni à le rabattre sur le centre primordial hyperboréen. Le risque de conflation
+  polaire/solaire signalé par
+  [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] est
+  ici **écarté à la racine** : le chapitre ne fournit aucune détermination d'aucun
+  des deux régimes.
+
 ## 8. Limites et signalements
 
-- **`raw/` — IRS ch. XXX (id 580) toujours absent.** Le fichier déposé le
+- **`raw/` — IRS ch. XXX (id 580) : signalement levé le 2026-08-13.** Le chapitre a
+  été déposé par Sidy le jour même et instruit au § 6 bis ; le dossier compte 34
+  fichiers, sans identifiant manquant sur 551–583. Le relevé initial, conservé
+  ci-dessous, portait sur l'état antérieur au dépôt.
+- ~~**`raw/` — IRS ch. XXX (id 580) toujours absent.**~~ Le fichier déposé le
   2026-08-13 est la **page de sommaire** de l'œuvre (URL en `affichage=aff_chap`,
   sans paramètre `Chapitre=`), non le chapitre. Le dossier compte 33 fichiers :
   31 chapitres (551–579, 581–582), un index (583) et ce sommaire. L'adresse du

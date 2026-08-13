@@ -14,7 +14,8 @@ created: 2026-06-20
 updated: 2026-08-13
 sources:
 - '[[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]]'
-sources_count: 1
+- '[[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]]'
+sources_count: 2
 cross_links:
 - '[[doctrinal/symboles/barzakh]]'
 - '[[doctrinal/symboles/khalwa]]'
