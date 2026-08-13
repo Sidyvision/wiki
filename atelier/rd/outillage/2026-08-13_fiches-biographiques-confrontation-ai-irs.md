@@ -388,6 +388,30 @@ explicite :
 2. **Ajouter les wikilinks correspondants** dans le champ `sources:` des fiches
    biographiques concernées — sans toucher à `status`, ni au corps des fiches.
 
+## 7 bis. Double contrôle (§VII) — consigné après coup, le 2026-08-13
+
+Ce geste aurait dû être posé au moment de la production ; il ne l'a pas été. Il
+est consigné ici, avec la mention de son retard.
+
+**Qualification sashimono des joints.** Le joint créé par cette passe n'est pas
+un rapprochement de doctrines : c'est le rattachement d'un **chapitre de Guénon**
+à la **question déclarée ouverte** par une fiche `discernement/`. Il se qualifie
+sur les deux axes :
+
+- **Portance : *zōsaku*.** Une extrémité seulement est de dignité doctrinale — le
+  chapitre. L'autre est une spéculation personnelle non tranchée : elle ne porte
+  rien. Le joint est réel, il ne soutient aucune charge.
+- **État : *kari-kumi*.** Montage à blanc. Le rattachement rend un texte
+  consultable en regard d'une question ; il ne conclut ni ne préjuge d'aucun
+  discernement. Aucune montée en *hozo* ni en *kumiko* n'est proposée ici —
+  elle appartiendrait à Sidy (Cmd 12).
+
+**Confrontation aux données Gizeh** : **confronté, aucun ancrage.** Aucune des
+matières instruites (régularité du rattachement, mélange des formes
+traditionnelles, entités collectives, modes de contemplation, sagesse innée,
+folie apparente) n'est de caractère polaire, axial, septénaire ou métrologique.
+Aucune tension à documenter, aucun risque de conflation polaire/solaire.
+
 ## 8. Limites et signalements
 
 - **`raw/` — IRS ch. XXX (id 580) toujours absent.** Le fichier déposé le

@@ -45,7 +45,19 @@ spirituelle* (déposée ce jour).
   ajout des wikilinks : **proposés, non exécutés** — en attente d'accord.
 - Signalement `raw/` : IRS ch. XXX (id 580) toujours absent — le fichier déposé
   est la page de sommaire de l'œuvre, non le chapitre.
-- Commit: `0c3a7ba` ; complément IRS XXII : `96ab694`.
+- **Suite donnée le même jour** (accord de Sidy, « oui, crée les fiches ») : le § 7
+  passe de *proposé* à **exécuté** — sept fiches `doctrinal/sources/` créées et
+  huit rattachements posés dans le champ `sources:` des fiches biographiques.
+  Opération consignée côté doctrinal (`doctrinal/annales.md`, entrée du même jour).
+- Le présent document amendé en conséquence : § 5.2 corrigé (IRS XXVII ne distingue
+  pas trois cas mais une **série** — au moins six positions sous une même apparence,
+  dont les faux *majâdhîb* de deux sortes contraires et les jongleurs-initiés) ;
+  § 7 marqué exécuté.
+- **Double contrôle (§ VII) consigné après coup** au § 7 bis, avec mention de son
+  retard : joint qualifié ***zōsaku* × *kari-kumi*** (une extrémité contingente,
+  montage à blanc) ; Gizeh : **confronté, aucun ancrage**.
+- Commit: `0c3a7ba` ; complément IRS XXII : `96ab694` ; exécution du § 7 et
+  correction du § 5.2 : `4795d2d`.
 
 
 ## [2026-08-13] signalement | Tour d'horizon : déblocages ouverts par le corpus Guénon déposé

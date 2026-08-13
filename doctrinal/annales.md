@@ -42,6 +42,12 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Complément au signalement** : § 5.2 précisé après relecture intégrale d'IRS XXVII
   (la typologie de Guénon compte au moins six positions, non trois : faux *majâdhîb*
   de deux sortes contraires, jongleurs-initiés) ; § 7 marqué exécuté.
+- **Double contrôle (§ VII)**, consigné après coup le même jour au § 7 bis du
+  signalement (avec mention de son retard) : le joint chapitre ↔ question déclarée
+  ouverte est qualifié ***zōsaku* × *kari-kumi*** — une extrémité contingente, montage
+  à blanc, aucune montée en *hozo* ni *kumiko* proposée (Cmd 12). Confrontation Gizeh :
+  **confronté, aucun ancrage** (aucune matière polaire, axiale, septénaire ou
+  métrologique dans les chapitres instruits).
 - **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
   → `0 erreur(s), 48 avertissement(s).` — avertissements tous préexistants (C4,
   liens `doctrinal/annales.md` et `doctrinal/index.md` → `meta/`), aucun introduit
