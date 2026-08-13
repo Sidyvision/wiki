@@ -13,6 +13,29 @@ entrées insérées **après ce header**.
 
 ---
 
+## [2026-08-13] verdict | Fondement du lien de source aux fiches d'auteur — filiation, non navigation
+
+- **Porte sur** : `25078de` (réciproque des liens) et sur l'entrée qui la consigne.
+  Aucun fichier de contenu modifié : les liens posés **tiennent inchangés**, seul
+  leur fondement est corrigé.
+- **Verdict de Sidy, 2026-08-13** : « En tant qu'auteur avéré, la filiation est
+  justifiée. » Le lien de `auteurs/hideo-kojima` et `auteurs/yoji-shinkawa` vers
+  `sources/art-of-death-stranding` repose sur une **filiation d'auteur** — les deux
+  sont auteurs avérés de la pièce, la fiche de source portant
+  `createur: "Yoji Shinkawa (direction artistique) — Kojima Productions"`.
+- **Rectification de la lecture de la machine** : l'entrée précédente qualifiait ce
+  lien de « navigationnel, non probatoire », et le tenait pour hors de portée de la
+  clause du protocole (`6a800ca`). Ce qualificatif est **remplacé** : le lien relève
+  de la filiation d'auteur, relation distincte de celle que vise la clause — laquelle
+  règle le rapport d'une source aux fiches qu'elle **appuie** (champ `sources:`), non
+  son rapport à ceux qui l'ont **faite** (champ `liens:`). Les deux fiches d'auteur
+  demeurent `sources: ["to-source"]` : la filiation ne lève aucun `to-source` et ne
+  touche pas leur `statut_analyse`.
+- **Réserve maintenue** : aucun rang d'autorité n'est conféré ni supposé par le
+  `type: auteur` (Cmd 3, clause de la nomenclature du circuit).
+
+---
+
 ## [2026-08-13] correction | Réciproque du lien de source chez Kojima et Shinkawa
 
 - **Commit** : 25078de
