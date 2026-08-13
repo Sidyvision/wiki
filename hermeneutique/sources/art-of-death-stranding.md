@@ -21,9 +21,9 @@ liens_atelier: []
 
 > **Première fiche de `hermeneutique/sources/`.** Le dossier est ouvert sur verdict
 > de l'utilisateur du 2026-08-13, le circuit étant appelé à recevoir des sources
-> visuelles pour une très grande part. La nomenclature de `hermeneutique/CLAUDE.md`
-> ne mentionne pas encore ce dossier ni le `type: source` employé ici : amendement
-> dû, signalé et non appliqué (Cmd 12).
+> visuelles pour une très grande part. `hermeneutique/CLAUDE.md` a été **amendé le
+> même jour** sur verdict de l'utilisateur : le dossier figure à la nomenclature et
+> le `type: source` au Sceau du circuit.
 
 ## Exemplaire déposé
 

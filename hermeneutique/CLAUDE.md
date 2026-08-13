@@ -34,7 +34,8 @@ portée : **ce n'est jamais lever un garde-fou.**
 
 `hermeneutique/auteurs/<slug>.md` ; `hermeneutique/<slug-oeuvre>/<slug-oeuvre>.md`
 pour la fiche-hub (nom du dossier redoublé) ; `hermeneutique/<slug-oeuvre>/<slug>.md`
-pour les figures, dispositifs et analyses ; `hermeneutique/expression/<slug>.md`.
+pour les figures, dispositifs et analyses ; `hermeneutique/sources/<slug>.md` ;
+`hermeneutique/expression/<slug>.md`.
 `index.md` est **réservé** à l'index du circuit.
 
 ## Le Sceau herméneutique
@@ -42,7 +43,7 @@ pour les figures, dispositifs et analyses ; `hermeneutique/expression/<slug>.md`
 ```yaml
 ---
 title: "Titre exact"
-type: oeuvre | auteur | figure | dispositif | concept | analyse
+type: oeuvre | auteur | figure | dispositif | concept | analyse | source
 registre: analyse | expression
 medium: jeu-video | anime | manga | theatre | serie | film | roman
 oeuvre: "slug-de-loeuvre-parente"   # vide sur la fiche oeuvre et sur expression/ hors-œuvre
@@ -70,6 +71,14 @@ liens_atelier: []                    # sens unique vers atelier/etudes-de-cas/ e
   personnelles fonctionnant comme telles. Substitution réversible (Art. 5 Sashimono).
 - **`type: dispositif`** — lieu, vaisseau, appareil, système, interface ou
   institution de l'œuvre, tenu pour support opératoire de sa thèse.
+- **`type: source`** — pièce déposée servant d'appui documentaire (artbook, corpus,
+  entretien, document de production). Vit en `hermeneutique/sources/`, porte en
+  `oeuvre:` le slug de l'œuvre qu'elle documente, et décrit la pièce : chaîne
+  d'édition, rang, avertissements d'usage. Elle est citée par le champ **`sources:`**
+  des fiches qu'elle appuie, non par leur `liens:`. Emprunte la forme de
+  `doctrinal/sources/` sans en partager la fonction : **une fiche de source ne lève
+  par elle-même aucun `to-source`** — la levée reste un verdict de l'utilisateur sur
+  texte primaire (Cmd 5).
 - **Sagas** — un continuum de plusieurs opus reçoit **une seule fiche-hub**
   `type: oeuvre` ; le détachement d'un opus relève du Cmd 4, au cas par cas.
 - **`liens_atelier`** — sens unique vers `atelier/etudes-de-cas/` et `atelier/rd/`

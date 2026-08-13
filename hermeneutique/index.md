@@ -80,9 +80,9 @@ mondes. La convergence est retenue comme **justification du nom du circuit**, en
 ## Sources
 
 > Dossier ouvert le 2026-08-13 sur verdict de l'utilisateur, le circuit étant appelé
-> à recevoir des sources visuelles pour une très grande part. **Amendement dû,
-> signalé et non appliqué** (Cmd 12) : `CLAUDE.md` local ne mentionne encore ni ce
-> dossier dans sa nomenclature, ni le `type: source` employé ici.
+> à recevoir des sources visuelles pour une très grande part. Le `CLAUDE.md` local
+> a été **amendé en conséquence le 2026-08-13** (verdict de l'utilisateur) : le
+> dossier figure à la nomenclature et le `type: source` au Sceau du circuit.
 
 - [[hermeneutique/sources/art-of-death-stranding|The Art of Death Stranding]] — *source*, `en-cours`. Artbook du premier volet, exemplaire **retraduit machine** (anglais → russe → anglais) : artefact linguistique tertiaire, ne fournit **aucun** terme comme lettre et ne lève aucun `to-source`. Ce qu'il porte est l'**image**.
 
