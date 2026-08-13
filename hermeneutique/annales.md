@@ -2,7 +2,7 @@
 title: Annales du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # Annales du circuit Herméneutique
@@ -10,6 +10,60 @@ updated: 2026-08-12
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only,
 entrées insérées **après ce header**.
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-13] confrontation | Artbook Death Stranding — dépouillement et ouverture de `sources/`
+
+- **Commit** : b857e5d
+- **Pièce** : `raw/TheArtOfDeathStranding(Ru-TO-Eng).pdf`, déposée le 2026-08-13
+  par Sidy (258 pages). `raw/` immuable — pièce ni modifiée ni déplacée.
+- **Rang établi** : artefact linguistique **tertiaire**. Chaîne Titan Books
+  (Londres) → *Мир игры Death Stranding*, ЭКСМО 2019 → retraduction **automatique**
+  RU→EN (`onlinedoctranslator.com`). Conséquence : la pièce ne peut fournir aucun
+  terme comme lettre et **ne lève aucun `to-source`**. La décision de méthode du §5
+  de la fiche-œuvre (vocabulaire non traité) en sort confirmée, non levée.
+- **Dossier ouvert** : `hermeneutique/sources/`, sur verdict de Sidy du 2026-08-13
+  — le circuit est appelé à recevoir des sources visuelles pour une très grande
+  part. Première fiche : `hermeneutique/sources/art-of-death-stranding.md`.
+- **Amendement dû, signalé et NON appliqué** (Cmd 12) : `hermeneutique/CLAUDE.md`
+  ne mentionne ni le dossier `sources/` dans sa nomenclature, ni le `type: source`
+  employé par cette fiche — le Sceau du circuit énumère `oeuvre | auteur | figure |
+  dispositif | concept | analyse`. Le tréfonds est en avance sur la lettre du
+  protocole tant que Sidy n'a pas tranché la rédaction.
+- **Confrontation Gizeh reprise** (§7 de la fiche-œuvre) sur matière neuve : deux
+  emprunts égyptiens **déclarés par les concepteurs** (capsule du nourrisson relié,
+  p. 26 du PDF ; personnage de Higgs, p. 64 du PDF), l'un et l'autre **vérifiés à
+  l'image**, la planche de Higgs portant davantage que sa légende (masque funéraire,
+  emblème à coiffe *nemes*). **Résultat : confronté, aucun ancrage** — emprunt
+  ornemental, sans fonction polaire, sans contenu métrologique ni septénaire. Y
+  voir un ancrage serait l'erreur de catégorie du CLAUDE.md racine §VII.2 (c).
+  Consigné parce que **négatif**, non parce qu'inexistant : le « néant relevé »
+  antérieur ne vaut plus pour ce registre.
+- **Résultat négatif consigné** : le dispositif de l'aide asynchrone (§4), tenu par
+  la fiche pour le sommet formel de l'œuvre, est **entièrement absent** de la pièce
+  (recherche systématique sur la couche texte, zéro occurrence pertinente).
+- **Portance inchangée** : aucun joint promu. Le bloc 🪵 Restitution du §6.1 voit sa
+  seule clause factuelle devenue fausse corrigée (un document de production a
+  désormais été consulté) ; le **verdict est préservé**, le classement en
+  **homologie** tient. Le §6.3 reste sans cible. Tout demeure *zōsaku* / *kari-kumi*.
+- **Statut** : la fiche-œuvre reste `statut_analyse: brouillon` — la pièce est un
+  **cinquième** type de source, ne répondant à aucune des quatre priorités du §8.
+  Elle ne peut toujours appuyer aucune fiche `registre: expression`.
+- **Manquements de la machine, rattrapés avant commit** : (a) des noms de dispositifs
+  repris de la couche traduction-machine avaient été employés comme lettre dans la
+  section qui déclarait cette couche inutilisable — réécrits en termes génériques et
+  requalifiés en corroboration **par l'image** ; (b) une filiation Odradek/Kafka
+  affirmée sans texte consulté (Cmd 5) — rétrogradée en piste `to-source` explicite ;
+  (c) une légende citée p. 24 alors qu'elle est p. 29 — corrigée, et le statut des
+  pages (pages du PDF, non folios imprimés ; 258 vs 256, aucun folio dans la couche
+  texte) désormais déclaré, la correspondance restant `to-source`.
+- **Matière signalée et non versée** : collaboration vestimentaire avec la marque
+  **Acronym**, relevant de `atelier/` ou `label/`. Sens de lien unique depuis ce
+  circuit — rien n'est versé sans demande explicite.
+- **Vérification mécanique** : `verifier-invariants.py` → `0 erreur(s), 48
+  avertissement(s)`, les 48 préexistants (`atelier/rd/`, `doctrinal/annales.md`,
+  `doctrinal/index.md`), **aucun** sur `death-stranding` ni sur la fiche de source.
 
 ---
 
