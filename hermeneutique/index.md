@@ -2,7 +2,7 @@
 title: Index du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 
@@ -76,6 +76,15 @@ mondes. La convergence est retenue comme **justification du nom du circuit**, en
 - [[hermeneutique/hunter-x-hunter/hunter-x-hunter|Hunter x Hunter]] — *oeuvre*, fiche-hub, `brouillon`, `to-source`. Manga de Yoshihiro Togashi.
 - [[hermeneutique/hunter-x-hunter/hunter-association-licence|Hunter — association et licence]] — *dispositif*, `brouillon`, `to-source`. Institution mondiale quasi-gouvernementale, licence conférant des privilèges.
 - [[hermeneutique/hunter-x-hunter/nen-systeme|Le Nen — système complet]] — *concept*, fiche pivot, `brouillon`, `to-source`. Joint 🔍 ouvert vers [[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique]] (portance *zōsaku*, hozo exclu).
+
+## Sources
+
+> Dossier ouvert le 2026-08-13 sur verdict de l'utilisateur, le circuit étant appelé
+> à recevoir des sources visuelles pour une très grande part. **Amendement dû,
+> signalé et non appliqué** (Cmd 12) : `CLAUDE.md` local ne mentionne encore ni ce
+> dossier dans sa nomenclature, ni le `type: source` employé ici.
+
+- [[hermeneutique/sources/art-of-death-stranding|The Art of Death Stranding]] — *source*, `en-cours`. Artbook du premier volet, exemplaire **retraduit machine** (anglais → russe → anglais) : artefact linguistique tertiaire, ne fournit **aucun** terme comme lettre et ne lève aucun `to-source`. Ce qu'il porte est l'**image**.
 
 ## Expression
 
