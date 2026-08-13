@@ -8,8 +8,8 @@ createur: "Hideo Kojima"
 statut_analyse: brouillon
 tags: [oeuvre, death-stranding, jeu-video, lien, portage, domaine-intermediaire]
 created: 2026-08-08
-updated: 2026-08-08
-sources: ["to-source"]
+updated: 2026-08-13
+sources: ["to-source", "[[hermeneutique/sources/art-of-death-stranding]]"]
 liens: ["[[hermeneutique/auteurs/hideo-kojima]]", "[[hermeneutique/auteurs/yoji-shinkawa]]", "[[hermeneutique/death-stranding/dhv-magellan]]", "[[hermeneutique/metal-gear/metal-gear]]"]
 cles_doctrinales: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/habl-allah]]"]
 discernement: []
@@ -130,9 +130,11 @@ Les quatre motifs du refus initial, réexaminés :
 > modalité qui n'est ni corporelle ni définitive, appartient au fonds
 > traditionnel bien avant d'être un motif de fiction. L'œuvre en reçoit une
 > version passée par plusieurs relais profanes. **Filiation précise `to-source`**
-> — aucun document de production n'a été consulté ; il est possible que l'emprunt
-> soit indirect au point d'être inconscient, ce qui ne change rien à l'origine de
-> l'idée mais change tout à ce qu'on peut en dire.
+> — un document de production a été consulté depuis (artbook, voir §9) : il
+> **n'allègue aucune généalogie** pour la plage, et les corpus doctrinaux de
+> l'œuvre restent à déposer. Il demeure possible que l'emprunt soit indirect au
+> point d'être inconscient, ce qui ne change rien à l'origine de l'idée mais
+> change tout à ce qu'on peut en dire.
 > **Portance** : ***zōsaku***. Le joint ne porte rien.
 > **État** : ***kari-kumi***.
 > **Sens** : de l'œuvre vers la doctrine.
@@ -196,6 +198,28 @@ Confronté au pôle Gizeh et à sa vigilance polaire/solaire
   (§VII, point c) : une orientation géographique n'est pas une fonction polaire.
 - **Matière septénaire ou métrologique** : néant relevé.
 
+**Reprise du 2026-08-13, sur dépôt de l'artbook (§9) — matière égyptienne
+déclarée.** Deux emprunts sont désormais attestés par les concepteurs eux-mêmes,
+là où la première confrontation ne disposait d'aucun document de production :
+
+- la **capsule du nourrisson relié** est déclarée « inspirée des sarcophages de
+  l'Égypte ancienne » (p. 26 du PDF déposé) — vérifié à l'image : esquisses de forme
+  anthropoïde ;
+- le **personnage de Higgs** est déclaré « inspiré de la culture de l'Égypte
+  ancienne » (p. 64 du PDF déposé) — vérifié à l'image, et plus étendu que la légende ne le
+  dit : masque funéraire d'or sur crâne, noir et or, l'emblème de sa faction
+  étant une tête à coiffe *nemes*.
+
+**Résultat : confronté, aucun ancrage.** L'emprunt est d'ordre **ornemental**,
+non traditionnel : une forme de sarcophage reprise pour un objet, un masque et
+une coiffe repris pour une silhouette. Aucune fonction polaire, aucun contenu
+métrologique, aucun septénaire n'y est attaché — l'artbook n'en porte pas trace.
+Tenir un hommage visuel pour un ancrage Gizeh serait l'**erreur de catégorie**
+désignée au CLAUDE.md racine §VII.2 (c), du même ordre que celle déjà écartée
+ci-dessus pour l'axe géographique. Consigné parce que négatif, non parce
+qu'inexistant : la mention « néant relevé » ci-dessus ne vaut plus pour ce
+registre.
+
 Résultat consigné. La confrontation devra être **refaite** après dépôt des
 corpus, qui peuvent contenir de la matière non couverte ici.
 
@@ -207,5 +231,60 @@ corpus, qui peuvent contenir de la matière non couverte ici.
 3. Les entretiens de production, pour la genèse et la référence à Kōbō Abe.
 4. Documentation d'éditeur pour les dates et supports du §1.
 
+> **État au 2026-08-13.** L'artbook déposé (§9) ne sert **ni 1, ni 2**, et ne sert
+> 3 que très faiblement (légendes d'atelier, non entretiens ; aucune mention de
+> Kōbō Abe). Il sert 4. Les items 1 et 2 restent entièrement dus.
+
 Tant que 1 et 2 ne sont pas au dépôt, cette fiche demeure `brouillon` et ne peut
 appuyer aucune fiche `registre: expression`.
+
+## 9. Source visuelle déposée — l'artbook du premier volet
+
+Fiche de source : `[[hermeneutique/sources/art-of-death-stranding]]` — elle porte la
+chaîne d'édition, le rang de la pièce et ses avertissements d'usage. Le présent §
+ne retient que le **dépouillement pour cette fiche**.
+
+Trois rappels, dont dépend tout ce qui suit :
+
+- **Artefact linguistique tertiaire** (anglais → russe → anglais-machine) :
+  aucun terme n'entre au dépôt comme lettre, aucun `to-source` n'est levé. La
+  décision de méthode du **§5** tient donc **inchangée**.
+- **Document visuel** : la couche texte est purement légendaire (≈ 29 Ko pour 258
+  pages). Toute lecture par extraction est structurellement partielle ; les deux
+  constats du **§7** ont été vérifiés **à l'image**.
+- **Pagination** : toute page citée ici et au §7 est une page **du PDF déposé**,
+  non un folio imprimé ; la correspondance reste `to-source`.
+
+**Ce que la pièce sert :**
+
+- **§3 / §6.2** — la légende de la p. 29 renvoie explicitement le joueur aux
+  « concepts clés du monde : les fils et les liens » (traduction-machine ; le sens
+  n'est pas douteux, la lettre ne fait pas foi). Première corroboration **écrite
+  et externe** du motif, jusque-là tenu de mémoire seule. Ne modifie pas le
+  classement en **homologie** : aucune généalogie traditionnelle n'y est alléguée.
+  — Piste connexe **`to-source`** : le nom porté par le capteur des personnages
+  paraît emprunté à une nouvelle de Kafka ; si vérifié, ce serait une seconde
+  filiation littéraire-non-traditionnelle après Kōbō Abe, qui **renforcerait** le
+  rang faible du joint. Non établi ici, aucun texte consulté.
+- **§6.1** — la naturalisation intégrale du phénomène, thèse portante du champ
+  « ce que le joint n'établit pas », sort renforcée : ce que l'artbook expose,
+  planche après planche, ce sont des **machines** — appareils d'impression,
+  fours, chambres d'isolement, centrale électrique, laboratoires. Corroboration
+  **par l'image**, indépendante de la couche texte et donc non affectée par
+  l'avertissement ci-dessus : le régime décrit est celui de l'ingénierie de bout
+  en bout. (Les noms propres de ces dispositifs restent `to-source`.)
+- **§7** — matière égyptienne déclarée, confrontée, sans ancrage (voir ci-dessus).
+
+**Ce que la pièce ne sert pas :**
+
+- **§4** — le dispositif de l'aide asynchrone, tenu par cette fiche pour le sommet
+  formel de l'œuvre, est **entièrement absent** de l'artbook. Résultat négatif,
+  consigné.
+- **§6.3** — aucune cible pour le troisième joint pressenti (le réseau). Le
+  signalement reste ouvert. Le mot *égrégore* n'y figure pas.
+- **§5** — voir l'avertissement ci-dessus.
+
+**Matière relevant d'autres circuits, signalée et non versée** : collaboration
+réelle avec la marque allemande **Acronym** (vêtements de deux figures, logo créé
+sur mesure). Matière de direction artistique ou d'étude de cas ; le sens unique
+des liens interdit de la verser d'ici sans demande.
