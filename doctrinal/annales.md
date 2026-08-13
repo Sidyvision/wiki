@@ -9,6 +9,39 @@ updated: 2026-08-13
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-13] archivage | IRS ch. XXX : fiche source et rattachement (barzakh, centre)
+
+Dépôt par Sidy, le jour même, du dernier chapitre manquant d'*Initiation et
+Réalisation spirituelle* (`Chapitre=580`). Le corpus IRS de `raw/` est désormais
+complet : 34 fichiers, aucun identifiant manquant sur 551–583. Chapitre lu
+intégralement avant citation.
+
+- **Fiche créée** : [[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]]
+  — analogie en sens inverse, « retournement » à deux niveaux (individualité
+  intégrale, puis supra-individuel), point métaphysique vs point géométrique,
+  et l'unique occurrence du *barzakh* dans IRS.
+- **Rattachements** (champ `sources:` seul) : `2026-06-20_matrices-artificielles-barzakh`
+  (1 → 2) et `2026-06-20_visions-centre-nocturne` (2 → 3). Dans les deux cas le
+  rapport est un **redressement de catégorie**, non une confirmation : le *barzakh*
+  y est franchi par un état de l'être et non par un accès ménagé du dehors ; le
+  centre « n'est aucunement "situé" ». Aucun `status`, aucun `Statut`, aucun corps
+  de fiche touché (Cmd 12).
+- **Non couvert, signalé comme tel** : la strate « mémoire pré-existentielle » de
+  `visions-centre-nocturne` reste sans appui guénonien.
+- **Double contrôle (§ VII), posé cette fois au moment de la production** (§ 7 ter
+  du signalement) : joint ***zōsaku* × *kari-kumi***, de nature **homologie** et non
+  restitution. Gizeh : confrontation **due et instruite** — le chapitre traite du
+  centre et des cieux concentriques, matière axiale. Résultat : **aucun ancrage**,
+  le centre d'IRS XXX ne portant aucune détermination géographique ; le risque de
+  conflation polaire/solaire est écarté à la racine, aucun des deux régimes n'étant
+  déterminé par le texte.
+- **Répercussion** : `doctrinal/index.md`, § VI (registre des sources), une entrée.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 48 avertissement(s).` — avertissements tous préexistants (C4),
+  aucun introduit par la présente passe.
+- **Commit** : e3a9ce6
+
+
 ## [2026-08-13] archivage | Sept fiches sources Guénon (AI, IRS) et rattachement des fiches biographiques
 
 - **Origine** : exécution du § 7 du signalement

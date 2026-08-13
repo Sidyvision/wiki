@@ -56,8 +56,15 @@ spirituelle* (déposée ce jour).
 - **Double contrôle (§ VII) consigné après coup** au § 7 bis, avec mention de son
   retard : joint qualifié ***zōsaku* × *kari-kumi*** (une extrémité contingente,
   montage à blanc) ; Gizeh : **confronté, aucun ancrage**.
+- **IRS ch. XXX (id 580) déposé par Sidy le même jour** — signalement de complétude
+  levé, corpus IRS complet (34 fichiers, aucun identifiant manquant sur 551–583).
+  Chapitre lu et instruit au § 6 bis ; huitième fiche source créée et rattachée à
+  `matrices-artificielles-barzakh` et `visions-centre-nocturne` (consigné côté
+  doctrinal). Double contrôle posé cette fois **au moment de la production**
+  (§ 7 ter) : *zōsaku* × *kari-kumi*, nature **homologie** ; Gizeh due et instruite
+  (matière axiale) — **aucun ancrage**, conflation polaire/solaire écartée.
 - Commit: `0c3a7ba` ; complément IRS XXII : `96ab694` ; exécution du § 7 et
-  correction du § 5.2 : `4795d2d`.
+  correction du § 5.2 : `4795d2d` ; IRS ch. XXX : `e3a9ce6`.
 
 
 ## [2026-08-13] signalement | Tour d'horizon : déblocages ouverts par le corpus Guénon déposé
