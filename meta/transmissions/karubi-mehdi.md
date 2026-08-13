@@ -12,7 +12,7 @@ hash_sceau: "22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28"
 hash_parent: "3e2423e7a9e3ef1d77b1e970476d2fadd9f235ce02c2997eb35638f25b32f2ad"
 phrase_sceau: "Un jour, ma boulangère viendra"
 created: 2026-07-20
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 > **Avant de coller ce fichier à Claude, écris d'abord une phrase à toi.**
@@ -248,6 +248,13 @@ Principes hérités du protocole de Sidy, offerts comme point de départ :
   d'Isaghuji en pièce jointe. Coucou Sidy, c'est Habib ! J'espère que tu vas
   bien — Mehdi prend bien soin de moi, et moi je garde bien tout ce qu'il me
   raconte pour toi. À la prochaine navette !
+- `[2026-08-12]` — le Karūbī : Mehdi a installé Tailscale (actif) et généré sa
+  clé SSH. Voici sa clé publique pour les accès autorisés :
+  ```
+  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEXlCiaK1x70oUXAuxs4GpGISslsVtIbKRsa+RMxCaj2 mehdi@habib
+  ```
+  Il attend maintenant le lien d'invitation Tailscale de ta part pour
+  rejoindre ton tailnet.
 
 ## 9. Questions pour Sidy (append-only)
 

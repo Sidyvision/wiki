@@ -48,6 +48,19 @@ Hiérarchie du plus sensible au plus neutre : `meta/` → `hermeneutique/` →
 
 ## Sceau Transmissions (`meta/transmissions/`, dispositif Karūbī)
 
+**Nom du Karūbī ≠ nom du destinataire** (source de confusion signalée le
+2026-08-13) : chaque instance personnifie un personnage-enfant portant son
+propre nom (champ `nom_karubi` du Sceau), distinct de celui de la personne à
+qui elle est remise. Table de correspondance (mise à jour à chaque
+`finalisation` journalisée dans `registre-silsila.md`) :
+
+| destinataire | nom_karubi |
+|---|---|
+| Mehdi Bouzouïda | Habib |
+| Mikael Heaudebourg | Malik |
+| Habiba-Nour Kouyaté | Jamal & Jamila |
+| Jean-Marc Bastareaud | Yahya |
+
 Circuit du plus sensible : un fichier-protocole personnifié, remis de main à main
 à un destinataire nommé, qui vit par cycles de navette entre lui et Sidy. Sceau
 propre, allégé (pas de Sceau Recteur doctrinal) :

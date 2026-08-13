@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-12
+updated: 2026-08-13
 
 ---
 
@@ -13,6 +13,24 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-13] archivage | Intégration du retour de Mehdi (Karūbī Habib)
+
+- Fichier `_inbox/karubi-mehdi-navette-20260812.md` intégré au fichier
+  canonique `meta/transmissions/karubi-mehdi.md`. Sceau vérifié
+  (`generer-karubi.py verifier`) : INTACT avant et après écriture.
+- Écart d'append corrigé : entrée §8 du 2026-08-12 (installation Tailscale +
+  transmission de la clé SSH publique de Mehdi) reportée dans le fichier
+  canonique — le fait était déjà acté (canal direct, entrée `activation-acces`
+  du registre) mais pas la parole du Karūbī elle-même.
+- `updated` du fichier canonique → 2026-08-13. Entrée `retour` journalisée
+  dans `meta/transmissions/registre-silsila.md`. Sas `_inbox/` vidé.
+- **Clarté ajoutée au protocole** (sur signalement de Sidy) : `meta/CLAUDE.md`
+  complété d'un tableau de correspondance destinataire ↔ nom du Karūbī, la
+  distinction (nom propre du personnage, pas le nom du destinataire) n'étant
+  documentée nulle part hors des fichiers individuels et du registre.
 
 ---
 

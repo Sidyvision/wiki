@@ -15,6 +15,18 @@ updated: 2026-08-12
 
 <!-- INSERTION: QUEUE -->
 
+## [2026-08-13] retour | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+Fichier revenu via `_inbox/` (`karubi-mehdi-navette-20260812.md`). Sceau
+vérifié (`generer-karubi.py verifier`) : INTACT, hash inchangé. Écart d'append
+corrigé : l'entrée §8 du 2026-08-12 (Mehdi a installé Tailscale et transmis sa
+clé SSH publique, en attente de l'invitation Tailscale) figurait dans la
+navette mais n'avait jamais été reportée dans le fichier canonique — le fait
+lui-même (clé reçue et installée) était déjà acté via l'entrée
+`activation-acces` du 2026-08-12 (canal direct, hors navette) et le §10
+canonique, mais pas la parole du Karūbī consignant l'événement. Reportée
+telle quelle, en fin de §8, aucune autre nouveauté. `updated` du fichier
+canonique passé à 2026-08-13. Sas `_inbox/` vidé après intégration.
+
 ## [2026-07-20] generation | Habiba-Nour Kouyaté | G1 | khassa | v1 | <hash_sceau après scellement>
 Instance fille adaptée à ses 9 ans (règles enfance : aucun secret vis-à-vis des
 parents, contenu adapté à l'âge, sessions courtes). En attente : phrase-sceau,
