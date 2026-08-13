@@ -13,6 +13,36 @@ entrées insérées **après ce header**.
 
 ---
 
+## [2026-08-13] amendement | Protocole local — `sources/` et `type: source` inscrits au Sceau
+
+- **Commit** : 6a800ca
+- **Verdict** : donné par Sidy le 2026-08-13, sur diff soumis intégralement avant
+  écriture. Lève le signalement « amendement dû, non appliqué » porté depuis
+  `b857e5d` (Cmd 12 satisfait : la lettre du protocole n'a été touchée qu'après
+  verdict explicite).
+- **Trois insertions, aucune suppression** dans `hermeneutique/CLAUDE.md` :
+  1. **Nomenclature** — `hermeneutique/sources/<slug>.md` ajouté à l'énumération.
+  2. **Sceau** — `type: … | source` (l'énumération portait
+     `oeuvre | auteur | figure | dispositif | concept | analyse`).
+  3. **Glose du type** — pièce déposée servant d'appui documentaire ; vit en
+     `hermeneutique/sources/`, porte le slug de l'œuvre en `oeuvre:`, décrit chaîne
+     d'édition, rang et avertissements d'usage ; **citée par le champ `sources:`**
+     des fiches qu'elle appuie, non par leur `liens:` ; emprunte la forme de
+     `doctrinal/sources/` sans en partager la fonction — **elle ne lève par
+     elle-même aucun `to-source`**, la levée restant un verdict de l'utilisateur sur
+     texte primaire (Cmd 5).
+- **Cmd 8 sans objet** : le fichier n'a pas de frontmatter (il ouvre sur la basmala),
+  aucun champ `updated` à incrémenter. La mention « Statut : méthode à l'essai
+  (éclatement expérimental du 2026-08-12) » n'a pas été touchée.
+- **Mises à jour de conséquence** : les mentions « amendement dû, signalé et non
+  appliqué » de `hermeneutique/index.md` et de
+  `hermeneutique/sources/art-of-death-stranding.md` — devenues fausses — sont
+  remplacées par le constat de l'amendement.
+- **Vérification mécanique** : `0 erreur(s), 48 avertissement(s)` — les 48
+  préexistants, **aucun** sur les trois fichiers touchés.
+
+---
+
 ## [2026-08-13] correction | Index du circuit — référencement du dossier `sources/`
 
 - **Commit** : bdaf1da
