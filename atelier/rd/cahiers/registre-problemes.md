@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-11
+updated: 2026-08-13
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,87 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-13] resolu | Première intégration sous la convention CLAUDE.md éclatée (2026-08-12) — retour d'expérience de session
+
+- **Symptôme** : cette session est la toute première intégration `_inbox/`
+  conduite depuis l'éclatement du `CLAUDE.md` monolithique en fichier racine
+  + cinq `CLAUDE.md` locaux de circuit (verdict Sidy, 2026-08-12, méthode à
+  l'essai). Sidy demande un rapport de toute information instructive au
+  pôle R&D pour son suivi, conformément à la mission de `rd/` (consignation
+  systématique) et à la clause de réversibilité de l'éclatement lui-même
+  (Art. 5 Sashimono — l'essai doit pouvoir être évalué).
+- **Diagnostic** — quatre observations distinctes, consignées ensemble
+  faute d'anomalie séparée à isoler pour chacune :
+  1. **Chargement des protocoles locaux confirmé fonctionnel.** Le fichier
+     racine et les `CLAUDE.md` locaux des cinq circuits ont été chargés
+     simultanément par l'outil dès la session (travail dans `hermeneutique/`,
+     `atelier/`, `doctrinal/`, `meta/` au fil des opérations) — sans
+     confusion sur ce qui relevait du transversal (racine) versus du propre
+     à un circuit (local), et sans qu'un point de règle nécessaire fasse
+     défaut. Premier test réel du mécanisme visé par §II bis.
+  2. **Un reliquat de la migration a survécu à son propre commit.**
+     `Protocole.md` (racine, 912 lignes, aucun frontmatter) était un
+     doublon exact du corps déjà archivé proprement dans
+     `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12.md` — sous-
+     produit non nettoyé du commit `d42c954` (l'éclatement lui-même,
+     2026-08-12), resté invisible jusqu'à ce que `verifier-invariants.py`
+     le signale en `[B0]` (erreur bloquante) dans une session ultérieure.
+     Vérifié par `diff` : identité exacte du contenu, l'archive canonique
+     n'ajoutant que le frontmatter et la note d'avertissement déjà prévus
+     par le CLAUDE.md racine. Supprimé sur confirmation Sidy (commit
+     `27671d1`), aucune perte d'information.
+  3. **L'archive de rollback elle-même est intacte et correcte.** La
+     vérification du point précédent a validé, par la même occasion, que
+     `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12.md` est
+     fidèle et complet — le mécanisme de sécurité de l'éclatement (Cmd 10,
+     réversibilité sur simple verdict) est opérationnel, pas seulement
+     déclaré.
+  4. **Le principe d'auto-signalement du sas a fonctionné dans le sens
+     attendu.** La fiche `hermeneutique/metal-gear/idroid.md`, déposée en
+     `_inbox/` en `kari-kumi`/`brouillon`, portait elle-même
+     l'incohérence de son slug (`oeuvre: "metal-gear-solid"` contre le
+     dossier réel `hermeneutique/metal-gear/`) — repérée et corrigée avant
+     intégration plutôt que propagée. Aucune règle nouvelle n'a été
+     nécessaire ; la discipline existante (relecture avant écriture, Cmd 6)
+     a suffi.
+- **Résolution** : point 2 déjà traité et commité séparément (session du
+  2026-08-12/13, voir `meta/meta-annales.md` [2026-08-12]) ; les trois
+  autres points sont des confirmations positives, sans action requise —
+  consignés ici pour la valeur de suivi, pas pour un défaut à corriger.
+- **Compréhension tirée** :
+  1. **Une réorganisation structurelle du dépôt (migration, éclatement,
+     renommage de masse) doit être suivie d'un `verifier-invariants.py`
+     dans la même session que le commit qui l'opère**, et pas seulement à
+     la prochaine occasion — le reliquat `Protocole.md` a survécu
+     invisible d'une session à l'autre (2026-08-12 → 2026-08-13) faute de
+     ce réflexe immédiat après le commit `d42c954`. Le calibrage actuel
+     (non-bloquant) rend cette omission silencieuse plus longtemps qu'en
+     mode `--strict`.
+  2. **L'éclatement en protocoles locaux, sur ce premier essai réel, n'a
+     produit aucune perte de couverture** : aucun point de règle nécessaire
+     à la session n'a manqué, aucune confusion racine/local observée. Ceci
+     ne clôt pas l'essai (méthode toujours « à l'essai », verdict Sidy
+     réservé) mais constitue un premier signal positif pour son suivi.
+  3. Le motif déjà consigné [2026-08-09] « produire un artefact utile
+     n'excuse pas de le déposer au mauvais endroit » trouve ici un
+     analogue inversé instructif : un artefact *correctement* déposé
+     (l'archive canonique) peut coexister silencieusement avec un doublon
+     mal formé du même contenu si le nettoyage de fin de migration n'est
+     pas systématique — la vigilance de clôture (§VII, « vigilance
+     documentaire ») s'applique aussi aux propres opérations de
+     restructuration du dépôt, non seulement aux ingests de contenu.
+- **Liens** :
+  - `CLAUDE.md` racine, révision 2026-08-12 (éclatement) ; §II bis.
+  - [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12|archive canonique du protocole monolithique]]
+  - `meta/meta-annales.md` [2026-08-12] (suppression du reliquat, commits `27671d1`, `4d758b3`)
+  - [[hermeneutique/metal-gear/idroid|iDroid]] (exemple d'auto-signalement du sas)
+  - Entrée [2026-08-09] « Écriture directe hors protocole » (précédent de vigilance transversale)
+- **Statut** : `resolu` — observations consignées ; l'éclatement reste une
+  méthode à l'essai (aucun verdict de confirmation ou de rollback pris par
+  cette entrée, Cmd 12/13).
 
 ---
 
