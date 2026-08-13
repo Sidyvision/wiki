@@ -33,6 +33,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Non traité** : Volet B (doublons d'id AI 28/70, RQST 729/752, EME 881 ;
   fichiers possiblement mal classés ; `organize_guenon.sh`) — reporté, non
   commencé.
+- Commit : `023a31c`.
 
 ---
 
