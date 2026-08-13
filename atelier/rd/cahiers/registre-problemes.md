@@ -110,6 +110,7 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 - **Statut** : `resolu` — observations consignées ; l'éclatement reste une
   méthode à l'essai (aucun verdict de confirmation ou de rollback pris par
   cette entrée, Cmd 12/13).
+- **Commit** : e72a42b
 
 ---
 

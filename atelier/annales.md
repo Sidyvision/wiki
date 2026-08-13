@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 # Annales de l'Atelier
@@ -11,6 +11,25 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 <!-- INSERTION: EN-TÊTE -->
 
 ---
+
+## [2026-08-13] vigilance | Retour d'expérience R&D — première intégration sous CLAUDE.md éclaté
+
+- Sur demande explicite de Sidy (« toute information instructive au R&D pour
+  monitoring »), consignation dans `atelier/rd/cahiers/registre-problemes.md`
+  des observations tirées de la première intégration `_inbox/` réalisée sous
+  la convention CLAUDE.md éclatée (racine + cinq `CLAUDE.md` locaux,
+  2026-08-12) : chargement confirmé fonctionnel des protocoles locaux,
+  traitement du reliquat `Protocole.md` (doublon non nettoyé du commit
+  d42c954, supprimé le 2026-08-12/13 — voir `meta/meta-annales.md`
+  [2026-08-12]), confirmation de l'intégrité de l'archive canonique, et
+  validation du principe d'auto-signalement du sas via la fiche
+  `hermeneutique/metal-gear/idroid.md`.
+- Aucune écriture de contenu hors du cahier R&D ; simple journalisation
+  transversale de cette entrée pour Cmd 9 (opération conduite depuis
+  l'atelier, sur un objet propre au pôle `rd/`).
+- `verifier-invariants.py --racine /root/wiki` : `0 erreur(s), 45
+  avertissement(s)` (inchangé, pré-existants, phase de calibrage).
+- **Commit** : (en attente)
 
 ## [2026-08-12] archivage | Audit de santé Claude Code (`/doctor`) versé dans rd/infrastructure
 
