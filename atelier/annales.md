@@ -24,6 +24,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   (commit `6b4871e`) ; (3) friction récurrente du Cmd 9 (SHA après commit
   imposant un second commit de forme), confirmée comme comportement normal du
   protocole tel qu'écrit, non un défaut isolé (reporté).
+- **Commit** : 76d08b0
 
 ---
 

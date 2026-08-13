@@ -97,7 +97,7 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 - **Liens** : [[meta/transmissions/karubi-mehdi]],
   [[meta/transmissions/registre-silsila]], [[meta/CLAUDE]]. Commits
-  `6b4871e`, `6525241`.
+  `6b4871e`, `6525241`, `76d08b0`.
 
 ---
 
