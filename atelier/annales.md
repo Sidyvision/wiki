@@ -45,7 +45,7 @@ spirituelle* (déposée ce jour).
   ajout des wikilinks : **proposés, non exécutés** — en attente d'accord.
 - Signalement `raw/` : IRS ch. XXX (id 580) toujours absent — le fichier déposé
   est la page de sommaire de l'œuvre, non le chapitre.
-- Commit: `0c3a7ba`.
+- Commit: `0c3a7ba` ; complément IRS XXII : `96ab694`.
 
 
 ## [2026-08-13] signalement | Tour d'horizon : déblocages ouverts par le corpus Guénon déposé
