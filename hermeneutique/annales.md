@@ -13,6 +13,26 @@ entrées insérées **après ce header**.
 
 ---
 
+## [2026-08-13] correction | Index du circuit — référencement du dossier `sources/`
+
+- **Commit** : bdaf1da
+- **Omission de la passe b857e5d, rattrapée** : `hermeneutique/index.md` énumère
+  l'intégralité des fiches du circuit ; le dossier `sources/` et sa première fiche
+  n'y figuraient pas. Section `## Sources` ajoutée avant `## Expression`, portant
+  la fiche et le rappel du rang tertiaire de la pièce.
+- L'**amendement dû** au `CLAUDE.md` local (dossier `sources/` et `type: source`
+  absents de la nomenclature et du Sceau) est **rappelé dans l'index**, toujours
+  **non appliqué** — verdict réservé à Sidy (Cmd 12).
+- **Point signalé, non tranché** : la fiche de source porte
+  `liens: ["…death-stranding", "…yoji-shinkawa", "…hideo-kojima"]` sans réciproque
+  chez les deux auteurs, alors que les `liens:` du circuit sont jusqu'ici
+  bidirectionnels. `verifier-invariants.py` contrôle la résolution (C1), non la
+  réciprocité : aucune fiche d'auteur n'a été touchée sans demande.
+- **Vérification mécanique** : `0 erreur(s), 48 avertissement(s)` — les 48
+  préexistants, **aucun** sur `hermeneutique/index.md` ni sur la fiche de source.
+
+---
+
 ## [2026-08-13] confrontation | Artbook Death Stranding — dépouillement et ouverture de `sources/`
 
 - **Commit** : b857e5d
