@@ -9,6 +9,50 @@ updated: 2026-08-13
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-13] archivage | Ouverture du chantier Shams al-Maʿārif / Guénon — axes 1 et 2
+
+Ouverture d'un chantier de confrontation systématique entre le *Shams al-Maʿārif
+al-Kubrā* d'[[doctrinal/autorites/ahmad-al-buni]] et le corpus guénonien, à la
+demande de Sidy (2026-08-13) : la fonction de Guénon (restauration de l'esprit
+traditionnel par redressement de l'esprit moderne) sert de garde-fou pour écarter
+les lectures déviantes du *Shams al-Maʿārif* et restituer, s'il y a lieu, le sens
+le plus élevé de la magie et de la théurgie dans leur rattachement au Principe.
+Méthode retenue (verdict Sidy) : plusieurs fiches thématiques, unifiables au
+terme du chantier plutôt qu'une fiche unique.
+
+- **Enrichissement** : [[doctrinal/autorites/rene-guenon]] §« Doctrine — Magie,
+  théurgie et influences spirituelles » — trois points sourcés (critère
+  psychique/spirituel ; refus du mot « égrégore » et test de l'entité collective ;
+  distinction contre-initiation/pseudo-initiation), et deux points signalés
+  `to-source` (distinction terminologique magie/théurgie ; rattachement direct de
+  Guénon à la *simiyāʾ* islamique).
+- **Fiche créée (axe 1)** :
+  [[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel]]
+  — le critère guénonien (« les manifestations phénoméniques ne prouvent jamais
+  rien par elles-mêmes ») appliqué aux revendications d'efficacité talismanique
+  du *Shams al-Maʿārif* ; deux avenues (le texte distingue déjà pratique et
+  anatomie spirituelle du cœur, sans les articuler explicitement ; le critère
+  guénonien déplace la question vers la nature de la cause) ; point de vigilance
+  sur la réception contemporaine décontextualisée.
+- **Fiche créée (axe 2)** :
+  [[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation]]
+  — le *siḥr* islamique confronté à la grille contre-initiation/pseudo-initiation ;
+  parenté de statut (réel/négatif/confiné au psychique) établie ; signal lexical
+  *sâher*/*siḥr* relevé dans le texte même de Guénon mais explicitement non
+  validé comme équivalence doctrinale (Cmd 3) ; test de vigilance syncrétique
+  posé pour toute réception contemporaine hypothétique, non appliqué à un cas.
+- **Aucun verdict rendu** sur les deux fiches (Cmd 12) — `status: speculatif`,
+  `en cours`, réservées à l'arbitrage de Sidy.
+- **Double contrôle (§ VII)** : sashimono — les deux fiches restent *kari-kumi*
+  (rapprochements suggérés, non fermés). Gizeh confronté sur les deux fiches :
+  aucun caractère polaire/axial/septénaire/métrologique central pour ces points ;
+  aucun ancrage, aucune tension à documenter.
+- **Répercussion** : `doctrinal/index.md`, § VII (Registre du Discernement), deux
+  entrées ajoutées.
+- **Axes suivants du chantier, non instruits** : cosmologie astrale d'al-Būnī ;
+  carrés magiques et métaphysique du Nombre côté Guénon — suspendus au
+  dépouillement de `raw/` (*La Grande Triade*, *Aperçu sur l'initiation*).
+
 ## [2026-08-13] archivage | IRS ch. XXX : fiche source et rattachement (barzakh, centre)
 
 Dépôt par Sidy, le jour même, du dernier chapitre manquant d'*Initiation et
