@@ -13,6 +13,30 @@ entrées insérées **après ce header**.
 
 ---
 
+## [2026-08-13] correction | Réciproque du lien de source chez Kojima et Shinkawa
+
+- **Commit** : 25078de
+- **Point signalé le même jour, tranché par Sidy** : la fiche
+  `hermeneutique/sources/art-of-death-stranding` pointait vers les deux fiches
+  d'auteur sans réciproque, alors que les `liens:` du circuit sont jusqu'ici
+  bidirectionnels. `[[hermeneutique/sources/art-of-death-stranding]]` ajouté aux
+  `liens:` de `auteurs/hideo-kojima` et `auteurs/yoji-shinkawa` ; `updated`
+  incrémenté à 2026-08-13 sur les deux (Cmd 8), `created` intact.
+- **Articulation avec la clause du protocole amendée en `6a800ca`** — « elle est
+  citée par le champ `sources:` des fiches qu'elle appuie, **non par leur `liens:`** » :
+  cette clause vise les fiches que la source **appuie**. Les deux fiches d'auteur
+  demeurent `sources: ["to-source"]` et ne tirent aucune assertion de la pièce ; le
+  lien posé ici est **navigationnel, non probatoire**, et ne modifie ni leur statut
+  de source ni leur `statut_analyse`. **Lecture de la machine, soumise à révision**
+  si Sidy entend la clause plus largement — auquel cas le lien se retire, ou se
+  déplace en `sources:`, en une édition.
+- `verifier-invariants.py` contrôle la résolution (C1), **non la réciprocité** :
+  celle-ci reste un contrôle à l'œil, et n'a jamais été attestée par le script.
+- **Vérification mécanique** : `0 erreur(s), 48 avertissement(s)` — les 48
+  préexistants, **aucun** sur les deux fiches d'auteur.
+
+---
+
 ## [2026-08-13] amendement | Protocole local — `sources/` et `type: source` inscrits au Sceau
 
 - **Commit** : 6a800ca
