@@ -31,6 +31,7 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 - Fichier prêt à être renvoyé à Mehdi (portée `khassa`, version inchangée à
   2 — le contenu scellé n'a pas bougé, seule la zone d'actualisation §10 a
   grandi).
+- **Commit** : 35c8fd9
 
 ---
 
