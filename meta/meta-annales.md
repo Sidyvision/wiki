@@ -2,6 +2,7 @@
 title: Annales du Domaine Réservé (meta/)
 type: meta
 updated: 2026-08-12
+
 ---
 
 # Annales du Domaine Réservé (`meta/`)
@@ -14,6 +15,30 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 <!-- INSERTION: EN-TÊTE -->
 
 ---
+
+## [2026-08-12] vigilance | Suppression du reliquat `Protocole.md` (racine)
+
+- **Anomalie** : `verifier-invariants.py` signalait `[B0] Protocole.md — aucun
+  frontmatter délimité par \`---\`` — seule erreur bloquante restante du dépôt.
+- **Origine** : reliquat non nettoyé du commit `d42c954` (« ARCHIVAGE :
+  éclatement expérimental du protocole en CLAUDE.md par circuit »,
+  2026-08-12) — copie du corps de l'ancien `CLAUDE.md` monolithique déposée
+  à la racine du dépôt, hors de toute arborescence de circuit, sans
+  frontmatter.
+- **Constat** : comparaison ligne à ligne (`diff`) avec
+  `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12.md` — identité
+  exacte du corps (912 lignes), l'archive canonique ajoutant seulement le
+  frontmatter (`type: meta`, `status: deprecated`) et la note d'avertissement
+  de tête déjà prévue par le CLAUDE.md racine (révision 2026-08-12).
+  L'archive demandée par Sidy existait donc déjà, correctement scellée ;
+  `Protocole.md` n'était qu'un doublon orphelin, sans fonction propre.
+- **Traitement** : suppression (`git rm`), sur confirmation explicite de
+  Sidy — aucune information perdue, le contenu intégral reste conservé dans
+  l'archive canonique (Cmd 10 respecté : rien n'est perdu, tout est déjà
+  ailleurs).
+- `verifier-invariants.py --racine /root/wiki` : `0 erreur(s), 45
+  avertissement(s)` (pré-existants, non bloquants, phase de calibrage).
+- **Commit** : (en attente)
 
 ## [2026-08-12] amendement | éclatement expérimental du CLAUDE.md en protocoles locaux
 
