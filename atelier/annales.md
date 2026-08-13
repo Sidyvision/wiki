@@ -10,6 +10,31 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-13] signalement | Tour d'horizon : déblocages ouverts par le corpus Guénon déposé
+
+Dépôt de *La Grande Triade* dans `raw/` par Sidy. Confrontation de fond (et non
+plus de forme) entre le corpus désormais intégral et les marqueurs d'inachèvement
+des fiches `doctrinal/discernement/`.
+
+- Créé `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages.md`
+  (`type: outillage`) — distinct du rapport de fidélité de citation du même jour.
+- Quatre déblocages signalés : GT ch. XVII (`Chapitre=714`) sur la restriction de
+  degré de `adam-qadmon-insan-kamil-wang-vaishvanara` ; GT ch. XXVI n. 11
+  (`Chapitre=722`) sur le chantier de la Balance de `septenaire-transversal` ;
+  GT ch. XV (`Chapitre=712`) candidat au sourçage d'un `to-source` sashimono ;
+  lisibilité partielle de `sept-tours-sitra-ahra` (blocage kabbalistique intact).
+- Candidat Cmd 3 signalé : équivalence *Es-Sakînah* / *Shekinah* posée par Guénon
+  lui-même (GT ch. XXVI), portée par aucune fiche `discernement/`.
+- Carte des identifiants `Chapitre=NNN` établie pour AI, IRS, GT, RM, SC, RQST.
+- Signalement de complétude : *Initiation et Réalisation Spirituelle* id 580
+  (ch. XXX) manquant dans `raw/`.
+- Précision sur l'Instrument : yaml = 36 nœuds `tasawwuf` + 7 `universel`
+  uniquement ; GT est matériau de fondation pour `universel/`, non ouverture
+  d'un espace extrême-oriental.
+- Cmd 12 respecté : aucun `status`/`Statut` de fiche `discernement/` modifié.
+- Volet B (hygiène `raw/`) relevé, non instruit — Cmd 10.
+
+
 ---
 
 ## [2026-08-13] signalement | Confrontation de 5 fiches discernement/ au corpus Guénon (raw/)
