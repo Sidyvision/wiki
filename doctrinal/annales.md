@@ -65,7 +65,7 @@ du corpus guénonien disponible (*Le Symbolisme de la Croix*, *Aperçus sur l'In
   chantier Shams al-Maʿārif/Guénon — axes 1 et 2 »).
 - **Axe suivant du chantier, non instruit** : cosmologie astrale d'al-Būnī au regard
   du cadre cosmologique guénonien — page distincte (Cmd 4).
-- **Commit** : (à reporter après validation — voir clôture de session)
+- **Commit** : 64d7f07
 
 ## [2026-08-13] archivage | Ouverture du chantier Shams al-Maʿārif / Guénon — axes 1 et 2
 
