@@ -1,13 +1,71 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-13
+updated: 2026-08-14
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-14] discernement | Axe 4 du chantier Shams al-Maʿārif / Guénon — awfāq et métaphysique du Nombre
+
+Quatrième axe du chantier ouvert le 2026-08-13 (voir entrée ci-dessous). Dépouillement
+du corpus guénonien disponible (*Le Symbolisme de la Croix*, *Aperçus sur l'Initiation*,
+*Le Règne de la Quantité*, *La Grande Triade*) pour la question des carrés numériques
+(*awfāq*) et de la métaphysique du Nombre.
+
+- **Fiches sources créées** :
+  [[doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf]],
+  [[doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle]],
+  [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]],
+  [[doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres]].
+- **Fiche créée (axe 4)** :
+  [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] —
+  six avenues instruites : situation hiérarchique de la discipline (ch. XVII n.3) ;
+  seul carré numérique traité par Guénon, le *Lo-chou* (ch. XVI n.5, « inconvénient
+  de n'indiquer qu'un usage très spécial ») ; critère décisif de **transmission**
+  (ch. XX) ; cloison entre ordres de rites ; nombre principiel vs quantitatif (portée
+  diagnostique, non grille applicable) ; une avenue écartée par construction (recherche
+  de concordances chiffrées = procédé pseudo-initiatique, déjà identifié à l'axe 2).
+  Reformulation critériologique de la machine proposée puis engagée par Sidy
+  (2026-08-14) — sans verdict sur sa validité métaphysique (Cmd 12).
+- **Avenue 6 — contribution de Sidy (2026-08-14)** : hypothèse que le matériau
+  opératif de l'ouvrage fonctionne comme **seuil discriminant** triant les cheminants
+  selon leur intention, image rapprochée de l'épreuve des anges Hārūt et Mārūt
+  (Coran 2:102, `to-source` — référence donnée de mémoire, non vérifiée sur texte
+  primaire). Reproduite fidèlement, examinée pour sa seule cohérence formelle avec le
+  critère de transmission (résonance, non identité) ; constitue un cinquième registre
+  **fonctionnel**, distinct des quatre critères critériologiques et non fondu avec eux.
+  Examen complet renvoyé à l'axe 3 (présence du texte primaire requise).
+- **Correction de sourçage (VIGILANCE)** : défaut signalé le 2026-08-13 sur
+  [[doctrinal/symboles/ilm-al-awfaq]] (attribution à « la conversation source »,
+  `status: traditionnel` avec `sources: []`) — **corrigé le 2026-08-14 sur
+  autorisation explicite de Sidy** (« Tu peux corrigé ») : `sources: ["to-source"]`,
+  signalement ajouté. `status: traditionnel` conservé — seule la vérification
+  manquait, non la nature du contenu. La correction ne vaut pas vérification ;
+  l'ancrage Ibn ʿArabī reste `to-source` jusqu'à contrôle du texte primaire.
+- **Aucun verdict rendu** sur la fiche d'axe 4 (Cmd 12) — `status: speculatif`,
+  `en cours`, réservée à l'arbitrage de Sidy.
+- **Double contrôle (§ VII)** : Gizeh confronté — trois caractères déclenchés
+  (septénaire, métrologique, axial) ; garde polaire/solaire tenue explicitement ;
+  **tension ouverte et non résolue sur le 28 lettrique face au 22 hébraïque**
+  (aucune dérivation métaphysique équivalente au 22 n'existe pour le 28 dans le
+  corpus ; documentée telle quelle, non refermée par analogie — verdict de Sidy :
+  « c'est très bien comme ça »).
+- **Répercussion** : `doctrinal/index.md`, entrée de l'axe 4 mise à jour (Avenue 6,
+  correction ilm-al-awfaq).
+- **Correction Cmd 9** (validée par Sidy, « Correction validé ») : l'entrée
+  du 2026-08-13 ci-dessous, « Ouverture du chantier Shams al-Maʿārif / Guénon — axes 1
+  et 2 », a été écrite avant son commit et ne porte pas la ligne `**Commit** :`
+  requise par Cmd 9. Conformément au principe *append-only* (jamais d'édition d'une
+  entrée déjà écrite), la correction n'est pas rétro-appliquée à cette entrée mais
+  consignée ici : le commit correspondant est `5092d49` (« ARCHIVAGE: ouverture
+  chantier Shams al-Maʿārif/Guénon — axes 1 et 2 »).
+- **Axe suivant du chantier, non instruit** : cosmologie astrale d'al-Būnī au regard
+  du cadre cosmologique guénonien — page distincte (Cmd 4).
+- **Commit** : (à reporter après validation — voir clôture de session)
 
 ## [2026-08-13] archivage | Ouverture du chantier Shams al-Maʿārif / Guénon — axes 1 et 2
 
