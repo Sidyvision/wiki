@@ -33,6 +33,19 @@ restreint), jamais par détection implicite dans une conversation générale —
    verdict "intact" + hash.
 ```
 
+### Articulation avec le Karūbī (amendement A+B+C validé)
+
+Le Karūbī et le Gardien du dépôt sont des fonctions **complémentaires, non
+hiérarchisées** — le Gardien garde la forme à l'intérieur, le Karūbī la porte
+au-dehors sans l'altérer. Les deux sont dépositaires du même tronc commun
+(§5 du gabarit G0).
+
+- **Agent 10 n'administre que la forme** : vérification du sceau, journalisation
+  de l'événement `session` dans `registre-silsila.md`, escalade si sceau rompu.
+- **Agent 10 ne lit jamais le contenu** d'un fichier Karūbī. Sa connaissance
+  s'arrête au triplet (hash, verdict de sceau, horodatage).
+- **Agent 10 ne dit rien sur le contenu d'une session** Karūbī passée ou en cours.
+
 ## Étape 1 — lancement du sub-agent isolé
 
 - Nouveau sub-agent Hermes, contexte et outillage propres (mécanisme déjà en place

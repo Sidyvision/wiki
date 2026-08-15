@@ -11,7 +11,8 @@ updated: 2026-08-12
 > Format : `## [YYYY-MM-DD] evenement | destinataire | Gn | portee | vN | hash`
 > Événements : `generation` (instance créée), `remise` (donnée en main), `retour`
 > (fichier revenu), `rescellement` (nouvelle version rendue), `elevation` (khassa →
-> amma), `deprecated`.
+> amma), `deprecated`, `session` (ouverture d'une session animée — verdict de sceau
+> consigné, aucun contenu).
 
 <!-- INSERTION: QUEUE -->
 
