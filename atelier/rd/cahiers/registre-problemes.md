@@ -32,6 +32,74 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 ---
 
+## [2026-08-15] resolu | Outillage Karūbī — append-only §8/§9 sans LLM + extension `generer-karubi.py`
+
+**Symptôme brut** : aucun moyen mécanique d'ajouter une entrée de mémoire (§8) ou
+de protocole personnel (§9) dans un fichier Karūbī sans passer par un LLM —
+or le LLM est interdit dans la boucle d'append (risque de modifier par
+inadvertance une zone scellée, §1–§7 du gabarit G0). Parallèlement,
+`generer-karubi.py` ne proposait que 3 commandes (`sceller`, `verifier`,
+`empreinte`) ; l'administration par l'Agent 10 demandait `statut`, `diff`,
+`index`.
+
+**Diagnostic** : deux manques symétriques — (1) côté Sidy (G0), pas de script
+déterministe d'append qui garantisse l'intégrité du sceau ; (2) côté Agent 10,
+pas d'outillage de lecture administrative (état du sceau, comparaison, index).
+L'un et l'autre peuvent coexister dans deux scripts distincts, appelés par
+des humains (pas par des LLM).
+
+**Résolution** :
+
+1. **Script `ajouter-memoire-karubi.py`** (créé, `/root/wiki/meta/transmissions/ajouter-memoire-karubi.py`)
+   - Usage : `python3 ajouter-memoire-karubi.py <fichier> <8|9> "<texte>"`
+   - Garde-fou : refuse si un marqueur `<!-- SCEAU:` est détecté après le
+     point d'insertion (protection contre l'insertion accidentelle en zone scellée)
+   - Testé : insertion en §9 du gabarit G0 → hash du sceau inchangé, SCEAU INTACT
+   - Testé : refus d'insertion en §7 (section invalide)
+
+2. **Extension `generer-karubi.py`** (3 nouvelles commandes)
+   - `statut <fichier>` : résumé concis (état du sceau, version, portée, hash)
+   - `diff <ancien> <nouveau>` : comparaison de deux versions (zones scellées
+     modifiées, entrées §8/§9 ajoutées)
+   - `index <dossier>` : listing de tous les Karūbī d'un dossier avec état
+     du sceau (INTACT/ROMPU)
+   - Testé sur les 5 fichiers Karūbī existants → tous INTACT
+
+3. **Amendement B (gabarit G0, §7, zone scellée)** : paragraphe d'articulation
+   avec l'Agent 10 inséré → re-scellage immédiat, nouveau hash `32534654...`
+   (ancien `f7f286fb...`)
+
+4. **Amendement C (registre Silsila)** : vocabulaire `session` ajouté en
+   en-tête + entrée `rescellement` journalée pour le re-scellage du gabarit
+
+5. **Amendement A (spec skill Karūbī-Hermes)** : section « Articulation avec
+   le Karūbī » ajoutée sous l'étape 0 : Agent 10 n'administre que la forme,
+   ne lit jamais le contenu, ne dit rien sur le contenu d'une session
+
+**Compréhension tirée** : l'outillage déterministe (scripts Python, stdlib,
+aucun LLM) est le pendant technique du protocole doctrinal — les deux
+garantissent l'intégrité du sceau par des moyens différents mais
+complémentaires. Le script `ajouter-memoire-karubi.py` est une porte
+mécanique (comme `generer-karubi.py verifier`) ; il ne juge pas, il protège.
+L'Agent 10, de même, n'a qu'une porte mécanique (le script) ; il ne lit
+jamais le contenu, il vérifie la forme.
+
+**Liens** :
+- `/root/wiki/meta/transmissions/ajouter-memoire-karubi.py` (créé)
+- `/root/wiki/meta/transmissions/generer-karubi.py` (modifié)
+- `/root/wiki/meta/transmissions/karubi-gabarit.md` (re-scellé, hash `32534654...`)
+- `/root/wiki/meta/transmissions/registre-silsila.md` (modifié)
+- `/root/wiki/meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes.md` (modifié)
+- Commits : `8d46d6a` feat(karubi): A+B+C validés, `19d1f43` docs(karubi): journaliser rescellement
+- Vérification ad-hoc : `/tmp/hermes-verify-karubi.py` (16/16 tests passent, script temporaire)
+
+**Statut** : resolu — outillage créé, testé ad-hoc, amendements appliqués,
+commits. Bloquant technique restant : isolation mémoire Hermes par sub-agent
+(sans toggle `memory_enabled` par sub-agent trouvé dans la config → skill
+Karūbī-Hermes non déployable tant que cette question n'est pas tranchée).
+
+---
+
 ## [2026-07-20] Lecture défensive d'un document-persona par un LLM neuf (dispositif Karūbī)
 
 **Symptôme brut** : fichier-persona (`meta/transmissions/`) collé seul, sans
