@@ -1,0 +1,5 @@
+textual>=0.60
+websockets>=12.0
+Pillow>=10.0
+pypdf>=4.0
+PyYAML>=6.0
