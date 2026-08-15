@@ -10,6 +10,26 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-15] infrastructure | Bureau TUI — première version
+
+Tableau de bord terminal unique (`atelier/rd/infrastructure/bureau/`, Python +
+Textual, esthétique "menu de jeu vidéo" — inspiration de forme relevée dans
+`hermeneutique/metal-gear/mother-base` et `idroid`, aucune correspondance
+doctrinale invoquée). Six modules indépendants (`modules/base.Module`) : état
+de l'Instrument (lecture déterministe d'`instrument-donnees.yaml`), état des
+12 agents Hermès (process `pgrep`, missions lues depuis
+`meta/projet-unifie/hermes-prompts/`), lecteur textes/pdf/images (façon
+Internet Archive, restreint aux quatre circuits publics), lecteur vidéo
+(rendu ANSI demi-bloc via ffmpeg, déclenché à la demande uniquement — RAM
+serveur limitée), streaming audio (serveur HTTP local, écoute côté client via
+tunnel SSH/Tailscale), chat local (v1 humains uniquement, passerelle
+Hermès/Discord explicitement différée). 10 tests unitaires verts, `ruff`
+propre, fumée headless Textual (pilote) OK sur les 6 modules,
+`verifier-invariants.py` : 0 erreur. Testé et validé par Sidy en terminal SSH
+réel avant commit.
+
+**Commit** : 5c688b4
+
 ## [2026-08-15] mise-a-jour | Brouillons zodiacaux alignés sur la table révisée des 12 fonctions
 
 Suite à la réallocation complète des 12 correspondances signe↔fonction validée
