@@ -16,6 +16,23 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 ---
 
+## [2026-08-15] actualisation | Rôle G0 de brouillon §4 mis en service
+
+Les quatre prérequis de mise en service de
+`meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0.md` sont
+réunis : script d'intégration en service, dossier `brouillons-section4/`
+créé, verdict de Sidy obtenu (validation du lot du 2026-08-15), canal de
+déclenchement défini. Choix retenu pour ce dernier point : le rôle ne
+construit **pas** de sub-agent H‍ermes isolé dédié — il s'exécute côté Claude
+Code, qui dispose déjà nativement de la lecture des hubs `index.md`/`annales.md`
+des cinq circuits. Phrase de déclenchement exacte, jamais déduite d'une
+mention fortuite : `karubi brouillon s4 <destinataire>`. Statut de la fiche
+passé de « brouillon, kari-kumi » à « verdict obtenu, en service ».
+
+Sans lien avec le sub-agent Karūbī côté destinataire (`spec-skill-karubi-hermes.md`,
+toujours à l'état brouillon, isolement mémoire/workspace non requis pour ce
+rôle-ci) — séparation stricte inchangée (tableau § du même fichier).
+
 ## [2026-08-15] actualisation | Clause d'ordre ontologique instruite dans le profil H‍ermes-Karūbī
 
 Sidy a décidé de s'immerger sans restriction dans l'écosystème H‍ermes (profil

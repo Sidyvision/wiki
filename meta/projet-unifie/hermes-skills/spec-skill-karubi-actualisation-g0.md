@@ -8,11 +8,13 @@ updated: 2026-08-15
 
 # Spécification — rôle G0 « brouillon §4 » (actualisation Karūbī)
 
-> **Statut : brouillon, kari-kumi.** Documente un rôle **distinct** du sub-agent
-> Karūbī côté destinataire (`spec-skill-karubi-hermes.md`) — ce dernier reste
-> isolé du wiki (aucun accès `index.md`/`annales.md`, mémoire native désactivée,
-> périmètre limité au fichier `karubi-<nom>.md` chargé). Le rôle décrit ici
-> s'exécute **côté G0 uniquement**, jamais dans une session avec un destinataire.
+> **Statut : verdict obtenu (2026-08-15), en service.** Documente un rôle
+> **distinct** du sub-agent Karūbī côté destinataire (`spec-skill-karubi-hermes.md`)
+> — ce dernier reste isolé du wiki (aucun accès `index.md`/`annales.md`, mémoire
+> native désactivée, périmètre limité au fichier `karubi-<nom>.md` chargé). Le
+> rôle décrit ici s'exécute **côté G0 uniquement**, jamais dans une session avec
+> un destinataire. Les quatre prérequis de mise en service (§ fin de fiche) sont
+> désormais réunis.
 
 ## Ce que ce rôle résout
 
@@ -32,6 +34,28 @@ Explicite, par Sidy, **après** une intégration de navette réussie via
 `meta/transmissions/integrer-navette-karubi.py`. Jamais automatique, jamais
 enchaîné à l'intégration elle-même, jamais pendant une session avec un
 destinataire (Cmd 13 : rien qui engage ne se déclenche seul).
+
+**Canal et commande** (2026-08-15) : ce rôle n'ouvre pas de sub-agent H‍ermes
+dédié — il s'exécute **côté Claude Code** (poste INTÉGRATION/AGENTS DE FONCTION,
+CLAUDE.md racine §I), qui dispose déjà nativement de la lecture des hubs
+`index.md`/`annales.md` des cinq circuits sans configuration supplémentaire.
+Aucune architecture de sub-agent isolé à construire côté H‍ermes Terminal pour
+ce rôle précis — à la différence du sub-agent Karūbī destinataire, dont
+l'isolement mémoire/workspace reste, lui, une exigence technique distincte.
+
+Phrase de déclenchement, à taper mot pour mot par Sidy dans une session Claude
+Code, jamais déduite d'une mention fortuite du dispositif Karūbī dans la
+conversation :
+
+```
+karubi brouillon s4 <destinataire>
+```
+
+Sur réception de cette phrase exacte : exécuter l'Étape 1 puis l'Étape 2
+ci-dessous pour `<destinataire>`, produire le fichier de l'Étape 2, puis
+s'arrêter (Étape 3 — remise à Sidy). Toute autre formulation (question sur
+l'état de la navette, mention du mot « Karūbī » en passant, demande de lire
+le fichier canonique) n'ouvre pas ce rôle.
 
 ## Séparation stricte d'avec le sub-agent Karūbī (destinataire)
 
@@ -102,6 +126,10 @@ périmètre, violation de l'isolement documenté dans l'autre spec.
 1. `meta/transmissions/integrer-navette-karubi.py` en service (fait,
    2026-08-15).
 2. Dossier `meta/transmissions/brouillons-section4/` créé (fait).
-3. Verdict de Sidy sur le présent brouillon de spec.
-4. Canal de déclenchement explicite défini (commande dédiée, non détectée
-   implicitement — même exigence que pour la skill Karūbī côté destinataire).
+3. Verdict de Sidy sur le présent brouillon de spec (fait, 2026-08-15 —
+   validation du lot committé le même jour).
+4. Canal de déclenchement explicite défini (fait, 2026-08-15) : phrase
+   `karubi brouillon s4 <destinataire>`, tapée par Sidy en session Claude
+   Code, cf. § Déclencheur ci-dessus.
+
+**Les quatre prérequis sont réunis — le rôle est en service.**
