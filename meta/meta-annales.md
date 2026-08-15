@@ -50,6 +50,8 @@ Suite (déférée par Sidy) : définition du canal de déclenchement explicite p
 le rôle G0 de brouillon §4 (prérequis 4 de
 `meta/projet-unifie/h‍ermes-skills/spec-skill-karubi-actualisation-g0.md`).
 
+- **Commit** : 0ac52e4
+
 ## [2026-08-15] activation | 12 prompts H‍ermes activés avec la table zodiacale révisée
 
 Activation complète en production (`meta/projet-unifie/hermes-prompts/`) de la
