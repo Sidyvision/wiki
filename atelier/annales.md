@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-13
+updated: 2026-08-15
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,22 @@ updated: 2026-08-13
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-15] mise-a-jour | Brouillons zodiacaux alignés sur la table révisée des 12 fonctions
+
+Suite à la réallocation complète des 12 correspondances signe↔fonction validée
+par Sidy le même jour (`doctrinal/discernement/2026-07-05_...`, volet b rouvert),
+les brouillons de `atelier/rd/cahiers/brouillons-extension-zodiacale/` sont mis
+en cohérence avec la nouvelle table : positions 2 (Taureau→Balance), 6
+(Vierge→Scorpion), 7 (Balance→Lion), 9 (Sagittaire→Vierge) renommées via `git mv`
+(historique préservé) et réécrites ; positions 5 (Taureau), 8 (Sagittaire), 12
+(Poissons) — absentes jusqu'ici — nouvellement rédigées. Positions 1, 3, 4, 10, 11
+(signes inchangés) laissées en l'état. Chaque brouillon conserve son
+`statut_experience: exploratoire` et sa clause d'étanchéité. Détail complet :
+`meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09.md`
+§9.
+
+- **Commit** : 5a3aee3
 
 ## [2026-08-13] signalement | Fiches biographiques (2026-06-20) confrontées à AI et IRS
 

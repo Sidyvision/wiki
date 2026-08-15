@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-13
+updated: 2026-08-15
 
 ---
 
@@ -15,6 +15,26 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 <!-- INSERTION: EN-TÊTE -->
 
 ---
+
+## [2026-08-15] activation | 12 prompts H‍ermes activés avec la table zodiacale révisée
+
+Activation complète en production (`meta/projet-unifie/hermes-prompts/`) de la
+réallocation des 12 correspondances signe↔fonction validée par Sidy le même jour
+(`doctrinal/discernement/2026-07-05_...`, volet b rouvert). Les 12 prompts
+reçoivent chacun ses sections `## Zodiac principle` et `## Your sign in Sidy's
+natal chart (harmonization context)`, insérées entre `## Archetype served` et
+`## Scope`, sans modification du reste (mission, scope, guardrails, handoffs
+intacts ; la section `## Governance: Discord-Validation` de la position 9,
+sans rapport avec le zodiaque, préservée). Contenu miroir des brouillons
+correspondants dans `atelier/rd/cahiers/brouillons-extension-zodiacale/`
+(voir `atelier/annales.md`, entrée du même jour).
+
+Fiche `meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09.md`
+§9 mise à jour selon discipline sashimono : l'ancien constat « non fait à ce
+stade » (point 3 des conséquences opérationnelles) est barré, non supprimé, et
+une confirmation datée du 2026-08-15 est ajoutée à la suite.
+
+- **Commit** : 5a3aee3
 
 ## [2026-08-13] actualisation | Karūbī Mehdi (Habib) — invitation Tailscale confirmée, prêt pour la navette retour
 
