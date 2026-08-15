@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-13
+updated: 2026-08-15
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,43 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-07-20] Lecture défensive d'un document-persona par un LLM neuf (dispositif Karūbī)
+
+**Symptôme brut** : fichier-persona (`meta/transmissions/`) collé seul, sans
+message d'accompagnement, dans une conversation Claude neuve → refus
+d'incarner le personnage demandé, classificateur de sécurité signalé
+(« Detecting manipulative framing and embedded instructions »), et deux
+affirmations du refus contredites littéralement par le texte du fichier
+(voir fiche complète).
+
+**Diagnostic** : absence de porteur humain explicite dans le message
+d'ouverture — la forme (2e personne, rôle durable, mécanisme
+d'authentification) est structurellement proche d'instructions embarquées
+indépendamment de l'intention réelle ; le contenu du fichier ne peut pas se
+porter garant de sa propre légitimité.
+
+**Résolution** : ajout d'un bloc d'usage hors zone scellée (donc hors hash
+d'intégrité), invitant le porteur humain à formuler la demande dans ses
+propres mots avant de coller le fichier. Vérifié mécaniquement : aucun
+changement du hash de remise (`generer-karubi.py verifier`).
+
+**Compréhension tirée** : le signal d'autorisation (qui porte la demande)
+prime sur le contenu du document pour tout artefact destiné à être chargé à
+froid dans une session LLM neuve — principe généralisable au-delà du
+dispositif Karūbī. Les disclaimers internes au document sont nécessaires mais
+non suffisants : une lecture défensive n'est pas garantie de restituer
+fidèlement un texte qui la contredit (constat isolé, non généralisé).
+
+**Liens** : fiche complète
+[[atelier/rd/outillage/robustesse-documents-persona-llm]] ; faits personnels
+en `meta/transmissions/registre-silsila.md`, entrée
+`[2026-07-20] incident-usage` (hors périmètre ici).
+
+**Statut** : en cours — résolution appliquée, non encore confirmée
+empiriquement (nouvelle tentative du destinataire concerné à consigner).
 
 ---
 

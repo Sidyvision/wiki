@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-15] archivage | Intégration registre problèmes + fiche outillage R&D
+
+Deux fichiers du sas `_inbox/` intégrés :
+
+1. **Entrée registre-problemes** (`atelier/rd/cahiers/registre-problemes.md`) :
+   ajout de l'entrée `[2026-07-20] Lecture défensive d'un document-persona par un LLM neuf`,
+   relatant le cas Karūbī et le signal du classificateur de sécurité sur collage à froid.
+   Chaîne d'observation complète → `atelier/rd/outillage/robustesse-documents-persona-llm`.
+
+2. **Nouvelle fiche outillage** (`atelier/rd/outillage/robustesse-documents-persona-llm.md`,
+   type `outillage`, statut `exploratoire`) : instrumentation complète du problème
+   (forme / contenu, catégorisation du signal, résolution appliquée, pistes à vérifier).
+   Étanchéité neutre, liens vers `meta/transmissions/registre-silsila.md` (faits personnels,
+   hors circuit).
+
+- **Commit** : [en attente]
+
 ## [2026-08-15] outillage | Piste — SRS pour l'assimilation du protocole (CLAUDE.md)
 
 Fiche d'instruction ouverte (`atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole.md`)
