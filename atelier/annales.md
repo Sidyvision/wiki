@@ -25,7 +25,7 @@ Deux fichiers du sas `_inbox/` intégrés :
    Étanchéité neutre, liens vers `meta/transmissions/registre-silsila.md` (faits personnels,
    hors circuit).
 
-- **Commit** : [en attente]
+- **Commit** : c67275b
 
 ## [2026-08-15] outillage | Piste — SRS pour l'assimilation du protocole (CLAUDE.md)
 
