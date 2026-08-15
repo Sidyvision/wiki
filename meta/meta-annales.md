@@ -33,6 +33,8 @@ Sans lien avec le sub-agent Karūbī côté destinataire (`spec-skill-karubi-her
 toujours à l'état brouillon, isolement mémoire/workspace non requis pour ce
 rôle-ci) — séparation stricte inchangée (tableau § du même fichier).
 
+- **Commit** : b43911c
+
 ## [2026-08-15] actualisation | Clause d'ordre ontologique instruite dans le profil H‍ermes-Karūbī
 
 Sidy a décidé de s'immerger sans restriction dans l'écosystème H‍ermes (profil
