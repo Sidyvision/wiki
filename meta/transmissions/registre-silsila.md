@@ -16,6 +16,13 @@ updated: 2026-08-12
 
 <!-- INSERTION: QUEUE -->
 
+## [2026-08-15] rescellement | karubi-gabarit.md | G0 | khassa | v1 | 3253465429bdcca904a2e0916f640156257aacfd8c4a04ddcc3ad91aa5cba171
+Amendement A+B+C validé par Sidy. Paragraphe d'articulation avec le Gardien
+(Agent 10) inséré dans §7 (zone scellée) : « le Karūbī et le Gardien du dépôt
+sont des fonctions complémentaires, non hiérarchisées — le Gardien garde la
+forme à l'intérieur, le Karūbī la porte au-dehors sans l'altérer. » Re-scellage
+immédiat. Aucun autre changement structurel.
+
 ## [2026-08-13] retour | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
 Fichier revenu via `_inbox/` (`karubi-mehdi-navette-20260812.md`). Sceau
 vérifié (`generer-karubi.py verifier`) : INTACT, hash inchangé. Écart d'append
