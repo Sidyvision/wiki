@@ -326,7 +326,7 @@ ROOMS.forEach(function(r){ minX=Math.min(minX,r.x0); maxX=Math.max(maxX,r.x1); m
 // ---------- three.js scene ----------
 var canvas = document.getElementById('game');
 var renderer = new THREE.WebGLRenderer({canvas:canvas, antialias:true});
-renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
+renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,1.5));
 renderer.outputEncoding = THREE.sRGBEncoding;
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
 renderer.toneMappingExposure = 1.35;
@@ -417,22 +417,29 @@ scene.add(buildInstanced(wallList, wallGeo, wallMat, WALL_H/2));
 var torches = [];
 ROOMS.forEach(function(r){
   if(r.id==='hall'){
-    torches.push({x:r.x0+1.4,y:r.y0+1.4},{x:r.x1-1.4,y:r.y0+1.4},{x:r.x0+1.4,y:r.y1-1.4},{x:r.x1-1.4,y:r.y1-1.4});
+    torches.push({x:r.x0+1.4,y:r.y0+1.4,lit:true},{x:r.x1-1.4,y:r.y1-1.4,lit:true},
+                 {x:r.x1-1.4,y:r.y0+1.4,lit:false},{x:r.x0+1.4,y:r.y1-1.4,lit:false});
   } else {
-    torches.push({x:r.x0+0.8,y:r.cy},{x:r.x1-0.8,y:r.cy});
+    torches.push({x:r.x0+0.8,y:r.cy,lit:true},{x:r.x1-0.8,y:r.cy,lit:false});
   }
 });
-CORRIDORS.forEach(function(c){
-  torches.push({x:(c.x0+c.x1)/2, y:(c.y0+c.y1)/2});
+CORRIDORS.forEach(function(c,ci){
+  torches.push({x:(c.x0+c.x1)/2, y:(c.y0+c.y1)/2, lit:(ci%2===0)});
 });
+// Only a subset of torches carry a real-time PointLight (WebGL shades every
+// surface against every active light each frame, so 55 of them was the main
+// cause of lag) — the rest keep their flame mesh (visual only, no light cost).
 var torchLights = [];
 var flameGeo = new THREE.SphereGeometry(0.22,8,8);
 var flameMat = new THREE.MeshBasicMaterial({color:0xffb45c});
 torches.forEach(function(t){
   var wx = t.x*TILE+TILE/2, wz = t.y*TILE+TILE/2, wy = WALL_H*0.6;
-  var light = new THREE.PointLight(0xffa552, 1.6, TILE*9, 2);
-  light.position.set(wx,wy,wz);
-  scene.add(light);
+  var light = null;
+  if(t.lit){
+    light = new THREE.PointLight(0xffa552, 2.1, TILE*13, 2);
+    light.position.set(wx,wy,wz);
+    scene.add(light);
+  }
   var flame = new THREE.Mesh(flameGeo, flameMat);
   flame.position.set(wx,wy,wz);
   scene.add(flame);
@@ -953,7 +960,7 @@ function update(dt, time){
   var nearestTorchDist = Infinity;
   torchLights.forEach(function(o){
     var f = reduceMotion ? 1 : (0.82 + 0.22*Math.sin(time*6.5 + o.seed) + 0.06*Math.sin(time*17+o.seed));
-    o.light.intensity = 1.5*f;
+    if(o.light) o.light.intensity = 2.1*f;
     o.flame.scale.setScalar(0.85*f + 0.3);
     var d = Math.hypot(o.wx-player.x, o.wz-player.z);
     if(d<nearestTorchDist) nearestTorchDist = d;

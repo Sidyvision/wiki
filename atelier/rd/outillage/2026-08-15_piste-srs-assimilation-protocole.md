@@ -26,10 +26,12 @@ links: ["[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-
 Cette instruction est ouverte pour répondre à un double constat :
 
 1. **Optimisation infrastructure Hermes** : la mémoire des agents Hermes
-   (`MEMORY.md`, `SOUL.md`, prompt racine) est chargée intégralement à
-   chaque session, mais certains éléments protocolaux ne sont pas retenus
-   entre sessions — violations, redemandes, friction sur Cmd 9 / Cmd 12 /
-   nommage Karūbī (cf. registre 2026-08-13, symptômes 2 et 3).
+   (`memory` tool) est injectée automatiquement dans chaque session — mais
+   certains éléments protocolaux ne sont pas systématiquement respectés
+   malgré cette injection : violations, redemandes, frictions sur Cmd 9 /
+   Cmd 12 / nommage Karūbī (cf. registre 2026-08-13, symptômes 2 et 3).
+   Le problème n'est pas l'injection, c'est la rétention et l'application
+   cohérente des règles denses (~10 000 mots de protocole).
 
 2. **Assimilation côté utilisateur (Sidy, CLI iPad)** : le protocole
    (CLAUDE.md racine + 5 CLAUDE.md de circuits) est dense (~10 000 mots)
@@ -49,10 +51,10 @@ frais égaux, puis propose une alternative Hermes-native.
 
 | Artefact | Chargé à chaque session | Persistance |
 |---|---|---|
-| CLAUDE.md racine | oui (toujours) | mémoire Hermes (injection systématique) |
-| CLAUDE.md `doctrinal/` | oui (circuit actif) | mémoire Hermes |
-| CLAUDE.md `atelier/`, `label/`, `hermeneutique/`, `meta/` | oui (circuit actif) | mémoire Hermes |
-| `meta/transmissions/registre-silsila.md` | oui (table Karūbī) | mémoire Hermes |
+| CLAUDE.md racine | oui (toujours, protocole) | disque (injecté en début de session) |
+| CLAUDE.md `doctrinal/` | oui (circuit actif) | disque (injecté si circuit actif) |
+| CLAUDE.md `atelier/`, `label/`, `hermeneutique/`, `meta/` | oui (circuit actif) | disque (injecté si circuit actif) |
+| `meta/transmissions/registre-silsila.md` | non (consultable sur demande) | disque |
 | `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12.md` | non (archive) | disque |
 
 ### II.2 Lacunes observées (registre 2026-08-13)
@@ -66,11 +68,15 @@ frais égaux, puis propose une alternative Hermes-native.
 
 ### II.3 Constat brut
 
-La mémoire Hermes (`memory` tool, `MEMORY.md`) fonctionne pour des faits
-stables (préférences, environnement, conventions). Elle est moins adaptée
-à la révision d'éléments protocolaux denses qui demandent une réactivation
-régulière (espacée, non systématique) pour passer de la conscience à
-l'automatisme.
+La mémoire Hermes est injectée systématiquement dans chaque session
+(visible au début de cette conversation : "MEMORY (your personal notes)
+[1,977/2,200 chars]"). Pourtant, certains éléments protocolaux denses
+(Cmd 1 à 13, interdits de liens, nomenclature sashimono, table Karūbī ↔
+destinataire, zones scellées vs croissance) ne sont pas systématiquement
+respectés malgré cette injection. L'injection statique ne garantit pas
+l'application cohérente — une révision espacée (SRS) pourrait compléter
+l'injection en maintenant les règles en mémoire active, au-delà du simple
+effet de présence textuelle.
 
 ---
 
@@ -168,17 +174,14 @@ INSERTION (EN-TÊTE/QUEUE), sashimono, Gizeh, VIGILANCE, etc.
 
 ### VI.1 Usage A : agents Hermes
 
-Problème spécifique : les agents Hermes n'ont pas de mémoire persistante
-naturelle entre sessions. Le prompt (`SOUL.md`) et la mémoire (`MEMORY.md`)
-sont chargés intégralement à chaque ouverture. La question est : est-ce
-qu'un SRS aide les agents (révision avant session), ou est-ce que la bonne
-solution reste le prompt systématique + `MEMORY.md` compact ?
-
-Hypothèse à instruire : un agent Hermes ne peut pas "réviser" entre
-sessions (pas de cron de révision, pas d'état de carte). Donc le SRS ne
-s'applique pas à l'agent lui-même — il s'applique à **l'utilisateur** qui
-travaille avec l'agent, ou à **l'ingénierie du prompt** qui compresse le
-protocole en règles mémorables.
+La mémoire Hermes (`memory` tool) est injectée automatiquement dans
+chaque session. Le problème n'est pas la disponibilité : c'est que, malgré
+l'injection, certains éléments protocolaux ne sont pas respectés
+cohéremment — violations, redemandes, frictions (cf. registre 2026-08-13,
+symptômes 2 et 3). Hypothèse : l'injection statique ne suffit pas à
+garantir l'application active ; une révision espacée (SRS) pourrait
+compléter l'injection en maintenant les règles protocolales en mémoire
+active, par-delà l'effet de simple présence textuelle.
 
 ### VI.2 Usage B : Sidy en CLI
 
@@ -236,8 +239,8 @@ Ce qui n'est pas instruit ici, et fait l'objet d'une fiche ultérieure
 - **Mécanisme de révision** : commande Hermes (`hermes drill`), cron
   hebdomadaire, ou injection systématique dans le prompt d'ouverture.
 - **Algorithme d'espacement** : SM-2 simplifié, ou présentation aléatoire
-  sans espacement (si la mémoire Hermes est injectée systématiquement,
-  l'espacement est redondant).
+  sans espacement (la mémoire Hermes n'étant pas injectée systématiquement,
+  l'espacement reste pertinent pour les sessions de révision ciblées).
 
 ---
 

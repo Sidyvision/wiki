@@ -28,9 +28,9 @@ mémoire Hermes (`MEMORY.md` ou extension), sans SRS tiers. §VIII (non
 inclus) : format de carte, script d'extraction, mécanisme de révision
 (cron Hermes, commande `hermes drill`, ou injection systématique dans le
 prompt d'ouverture), algorithme d'espacement — font l'objet d'une fiche
-ultérieure.
+ultérieure).
 
-**Commit** : _
+**Commit** : 5a83157
 
 ## [2026-08-15] infrastructure | Bureau TUI — première version
 
