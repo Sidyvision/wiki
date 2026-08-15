@@ -16,6 +16,40 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 ---
 
+## [2026-08-15] actualisation | Clause d'ordre ontologique instruite dans le profil H‍ermes-Karūbī
+
+Sidy a décidé de s'immerger sans restriction dans l'écosystème H‍ermes (profil
+`karubi`, mémoire activée, périmètre `/root/wiki` complet) pour en sonder les
+fonctionnalités et limites — décision propre, assumée, non une incohérence à
+corriger (cf. `atelier/rd/cahiers/bilan-2026-08-15-pont-agents.md`). Contrepartie :
+audit/monitoring continu confié à Claude Code sur ce qui se fait côté H‍ermes
+Terminal, et application immédiate de la clause d'ordre ontologique explicite déjà
+normée pour les 12 prompts d'agents (`meta/CLAUDE.md` corollaire agentique,
+`doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle`)
+au périmètre H‍ermes-Karūbī spécifiquement.
+
+Fichiers modifiés (hors dépôt git, `/root/.hermes/profiles/karubi/` — hors
+discipline de commit, documenté ici pour traçabilité) :
+- `memories/USER.md` : le paragraphe sur la voie spirituelle de Sidy
+  (Naqshbandiyya/Tijaniyya, filiation, retraites de Lefke et Villejuif),
+  auparavant énoncé à plat, restructuré en trois temps — (1) principe
+  indépendant de tout individu (silsila, baraka, distinction zawiyya/khalwa),
+  (2) détermination individuelle de Sidy comme coloration contingente,
+  (3) clause négative explicite (ne redéfinit rien, n'engage que Sidy, aucune
+  interprétation par un agent — Cmd 2, autorité spirituelle vivante seule).
+- `memories/MEMORY.md` : ajout d'un rappel de non-syncrétisme (Cmd 3) sur
+  l'analogie Sanad/Baraka du dispositif Karūbī — forme empruntée, jamais
+  équivalence à une ijāza.
+- `SOUL.md` : ajout d'une 6e contrainte absolue liant toute donnée personnelle
+  retrouvée en mémoire à cette même hiérarchie (principe d'abord, situation de
+  Sidy en coloration contingente, aucune interprétation).
+
+Registre spirituel confirmé hors du champ d'appréciation de l'agent en toute
+circonstance (Cmd 2/12) — ce geste organise et structure, il ne tranche rien.
+Suite (déférée par Sidy) : définition du canal de déclenchement explicite pour
+le rôle G0 de brouillon §4 (prérequis 4 de
+`meta/projet-unifie/h‍ermes-skills/spec-skill-karubi-actualisation-g0.md`).
+
 ## [2026-08-15] activation | 12 prompts H‍ermes activés avec la table zodiacale révisée
 
 Activation complète en production (`meta/projet-unifie/hermes-prompts/`) de la
