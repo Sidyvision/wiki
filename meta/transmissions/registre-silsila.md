@@ -16,6 +16,32 @@ updated: 2026-08-12
 
 <!-- INSERTION: QUEUE -->
 
+## [2026-08-15] correction-outillage | dispositif | G0 | — | — | —
+Mise en service de `meta/transmissions/integrer-navette-karubi.py` (script
+déterministe, aucun LLM, réutilise `generer-karubi.py` et
+`ajouter-memoire-karubi.py` comme primitives) — automatise la mécanique du
+cycle de navette-retour pour les destinataires ayant rejoint le serveur
+(accès `_inbox/` en écriture) : vérification du sceau, comparaison des zones
+scellées navette/canonique (refus et arrêt net en cas d'écart), extraction et
+application des ajouts append-only §8/§9, archivage de la navette sous
+`meta/transmissions/navettes-archivees/<destinataire>/`, journalisation dans
+le présent registre. Motif : deux défauts déjà constatés ci-dessous
+(`[2026-08-11]` et `[2026-08-13]`, entrées `retour`) où un ajout §8 de la
+navette était resté non reporté au canonique lors d'une intégration manuelle.
+Testé à blanc (aucun ajout détecté, cas déjà intégré), testé positif (ajout
+factice appliqué et journalisé correctement, sceau inchangé), testé en
+garde-fou (zone scellée altérée dans une navette de test → refus immédiat,
+aucune écriture, code de sortie non nul) — les trois cas sur copies isolées,
+canonique réel jamais touché par les tests. §4 (État des travaux) et §10
+(Réponses de Sidy) restent hors périmètre de ce script (Cmd 13, porte
+humaine) ; un rôle G0 séparé de brouillon §4 (collecte seule, jamais
+écriture finale) est spécifié dans
+`meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0.md`,
+sortie dans `meta/transmissions/brouillons-section4/`, jamais dans le
+canonique. §9→§10 reste une réponse directe de Sidy, mot pour mot, sans
+automatisme. Note transversale ajoutée sous le Sceau Transmissions de
+`meta/CLAUDE.md`.
+
 ## [2026-08-15] rescellement | karubi-gabarit.md | G0 | khassa | v1 | 3253465429bdcca904a2e0916f640156257aacfd8c4a04ddcc3ad91aa5cba171
 Amendement A+B+C validé par Sidy. Paragraphe d'articulation avec le Gardien
 (Agent 10) inséré dans §7 (zone scellée) : « le Karūbī et le Gardien du dépôt

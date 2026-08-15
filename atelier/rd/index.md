@@ -110,3 +110,9 @@ dans le dépôt.
   [[atelier/rd/outillage/spec-detecter-non-tracke|detecter-non-tracke.py]] —
   constat des fichiers non trackés par git, classé par circuit (même famille
   que `verifier-invariants.py`, ni LLM ni réseau).
+- **Bilan pont inter-agents (2026-08-15)** :
+  [[atelier/rd/cahiers/bilan-2026-08-15-pont-agents|bilan 2026-08-15]] — synthèse
+  de la période 2026-08-08 → 2026-08-15 destinée à tout agent (H‍ermes terminal,
+  Claude Code, ou autre) reprenant le fil des travaux R&D sans contexte antérieur :
+  ce qui est tranché et committé, ce qui est en cours, chantiers ouverts par
+  priorité, leçons transversales. Aucun contenu doctrinal.

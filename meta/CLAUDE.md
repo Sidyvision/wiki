@@ -103,6 +103,29 @@ Règles propres au circuit :
   toute suppression (`deprecated`, jamais de suppression sèche — Cmd 10) est
   décidée par Sidy seul.
 
+### Outillage d'automatisation de la navette (ouvert 2026-08-15)
+
+Le cycle de navette-retour (§7 du gabarit) dispose désormais d'un outillage
+mécanique, **pour les destinataires ayant rejoint le serveur** (accès `_inbox/`
+en écriture, cas Mehdi) — la première remise reste humaine/physique, inchangée.
+
+- `meta/transmissions/integrer-navette-karubi.py` — script déterministe (aucun
+  LLM), réutilise `generer-karubi.py` et `ajouter-memoire-karubi.py` comme
+  primitives. Vérifie le sceau du canonique, compare les zones scellées
+  navette vs canonique (refuse et n'écrit rien en cas d'écart — incident, pas
+  navette normale), extrait et applique les ajouts append-only de §8/§9,
+  archive la navette dans `meta/transmissions/navettes-archivees/
+  <destinataire>/`, journalise dans `registre-silsila.md`. Ne touche **jamais**
+  à §4, §10, `hash_sceau` ni `version` — ces champs restent sous plume humaine
+  (Cmd 13).
+- Rôle G0 de brouillon §4 (collecte, pas écriture finale) — voir
+  `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0.md`.
+  Sortie dans `meta/transmissions/brouillons-section4/`, jamais dans le
+  canonique. Distinct et sans lien de contexte avec le sub-agent Karūbī
+  côté destinataire (`spec-skill-karubi-hermes.md`), qui reste isolé du wiki.
+- §9→§10 (Questions pour Sidy → Réponses) reste une réponse directe de Sidy,
+  mot pour mot, hors périmètre de tout automatisme.
+
 ## Corollaire agentique (2026-08-09) — couche opérative H‍ermes
 
 L'étanchéité ci-dessus régit les **circuits du dépôt** (doctrinal, atelier,
