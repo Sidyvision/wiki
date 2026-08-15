@@ -10,6 +10,28 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-15] outillage | Piste — SRS pour l'assimilation du protocole (CLAUDE.md)
+
+Fiche d'instruction ouverte (`atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole.md`)
+en réponse à un double constat : (1) optimisation infrastructure Hermes —
+lacunes observées entre sessions sur des règles protocolales denses (Cmd 9,
+Cmd 12, nommage Karūbī — cf. registre 2026-08-13 §2 et §3) ; (2)
+assimilation côté utilisateur CLI — le protocole (~10 000 mots) demande une
+révision espacée pour passer de la conscience à l'automatisme.
+
+La fiche instruit à frais égaux Mnemosyne (SRS local Maastricht, SM-2+,
+équipe de recherche cognitive) et Anki (sync mobile native, écosystème
+large), puis propose une troisième voie : intégration Hermes-native. Le
+verdict Sidy (2026-08-15) tranche en faveur de cette dernière option :
+sous-système de cartes auto-générées depuis CLAUDE.md, vivant dans la
+mémoire Hermes (`MEMORY.md` ou extension), sans SRS tiers. §VIII (non
+inclus) : format de carte, script d'extraction, mécanisme de révision
+(cron Hermes, commande `hermes drill`, ou injection systématique dans le
+prompt d'ouverture), algorithme d'espacement — font l'objet d'une fiche
+ultérieure.
+
+**Commit** : _
+
 ## [2026-08-15] infrastructure | Bureau TUI — première version
 
 Tableau de bord terminal unique (`atelier/rd/infrastructure/bureau/`, Python +
