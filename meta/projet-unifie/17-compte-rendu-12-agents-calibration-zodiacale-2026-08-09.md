@@ -3,7 +3,7 @@ title: "17 — Compte rendu : chantier des 12 agents Hermes et calibration zodia
 type: meta
 tags: [outillage, projet-hermes, zodiaque, agents, synthese]
 created: 2026-08-09
-updated: 2026-08-09
+updated: 2026-08-15
 ---
 
 # 17 — Compte rendu : chantier des 12 agents Hermes et calibration zodiacale (2026-08-09)
@@ -15,6 +15,11 @@ updated: 2026-08-09
 > Recteur, pas de statut de vérité traditionnelle en jeu) : c'est un compte rendu
 > opérationnel, destiné à un avis extérieur. Contenu conservé intact ; seul
 > l'emplacement et le Sceau ont changé.
+>
+> **Mise à jour (2026-08-15)** : les sections 4, 6 et 8 sont amendées pour refléter
+> l'état constaté au pôle R&D depuis le 2026-08-09 — texte du 2026-08-09 conservé,
+> évolutions marquées explicitement (discipline sashimono, aucune réécriture
+> silencieuse). Rien d'autre du compte rendu original n'est modifié.
 
 Document autonome, rédigé le 2026-08-09, destiné à permettre à une personne extérieure
 d'évaluer le travail accompli sans accès préalable au dépôt. Les faits techniques sont
@@ -173,6 +178,30 @@ dépôt sans demande explicite), dans `/root/brouillons-prompts-zodiaque/` :
 - positions 8 (Scorpion) et 12 (Poissons) — correspondances faibles, à reprendre à
   nouveaux frais depuis les principes plutôt que depuis les rôles actuels.
 
+> **Mise à jour (2026-08-15)** — deux évolutions depuis le 2026-08-09 :
+>
+> 1. **Position 9 (Sagittaire, Studio Sound Engineer) est sortie du lot en
+>    attente et a été appliquée en production** (`h‍ermes-prompts/09-studio-sound-engineer.md`,
+>    commit `29cb5cc`, 2026-08-11) : les deux paragraphes du brouillon insérés
+>    mot pour mot, plus une troisième section `## Governance: Discord-Validation`
+>    (régime strict par défaut, auto-accept ad hoc) — motif : rattachement du
+>    chantier phase 3 (veille infrastructure du pôle R&D) à cette position,
+>    seul rôle à registre technique parmi les douze
+>    (voir [[atelier/rd/cahiers/registre-problemes]], entrées du 2026-08-11).
+>    Cette extension **n'a pas de rapport avec les positions 5/8/12** restées
+>    en attente ci-dessous.
+> 2. **Les 8 brouillons restants (1,2,3,4,6,7,10,11) sont désormais versionnés**
+>    dans [[atelier/rd/cahiers/brouillons-extension-zodiacale/README|atelier/rd/cahiers/brouillons-extension-zodiacale/]]
+>    (copiés depuis `/root/brouillons-prompts-zodiaque/`, chacun avec
+>    `statut_experience: exploratoire` et clause d'étanchéité explicite) —
+>    **toujours non appliqués** aux prompts de production, statut inchangé sur
+>    le fond. Le dossier `/root/brouillons-prompts-zodiaque/` (hors dépôt) est
+>    supprimé après vérification que son contenu est intégralement reporté
+>    (ce compte rendu inclus, relocalisé le 2026-08-09).
+>
+> Positions 5, 8 et 12 restent inchangées : aucune information nouvelle au pôle
+> R&D depuis le 2026-08-09.
+
 ---
 
 ## 5. Méthode générale — ce qui distingue ce chantier
@@ -191,6 +220,16 @@ dépôt sans demande explicite), dans `/root/brouillons-prompts-zodiaque/` :
    label) sont hiérarchisés, avec un sens d'extension unique : des principes vers les
    rôles.
 
+> **Précision (2026-08-15), verdict Sidy** — reformule et durcit le point 5
+> ci-dessus : le principe s'applique en priorité dans **toutes** les
+> extensions du chantier (pas seulement les 9 brouillons déjà rédigés), et la
+> détermination singulière du thème natal s'y intègre **comme contexte**,
+> jamais comme repli de substitution. Quand un principe et une donnée du
+> thème ne s'accordent pas d'emblée (cas de la position 5, §7.1), la réponse
+> n'est ni d'échanger le principe contre un autre ni de laisser l'échec sans
+> suite, mais de chercher l'harmonisation à l'intérieur du principe retenu —
+> l'écart est un signal à instruire, pas une erreur d'affectation à corriger.
+
 ---
 
 ## 6. État récapitulatif au 2026-08-09
@@ -202,19 +241,50 @@ dépôt sans demande explicite), dans `/root/brouillons-prompts-zodiaque/` :
 | Thème natal | Vérifié par éphéméride, fiche corrigée |
 | Mise en regard thème ↔ roue | Rédigée, signalements posés |
 | Brouillons d'extension de prompts | 9/9 rédigés (positions 1, 2, 3, 4, 6, 7, 9, 10, 11), avec contexte d'harmonisation natal |
-| Application en production | En attente de verdict (insertion dans les prompts versionnés) |
+| Application en production | Position 9 appliquée (2026-08-11, commit `29cb5cc`) ; 8 restantes (1,2,3,4,6,7,10,11) versionnées en `rd/`, en attente de verdict *(mise à jour 2026-08-15)* — **12/12 appliquées** *(mise à jour 2026-08-15, réallocation §9)* : table révisée versée dans les brouillons (2,5,6,7,8,9,12 ré-écrits/créés) et dans les 12 prompts de production |
 
 ## 7. Points ouverts soumis à avis
 
-1. **Position 5** : le rattachement de la Comptabilité à l'axe Cancer/Capricorne
+1. ~~**Position 5** : le rattachement de la Comptabilité à l'axe Cancer/Capricorne
    (portes solsticiales) plutôt qu'au Lion vous paraît-il une résolution satisfaisante
-   de l'échec documenté, ou l'échec doit-il rester un contre-exemple pur ?
-2. **Positions 8 et 12** (faibles) : reprise depuis les principes Scorpion/Poissons —
+   de l'échec documenté, ou l'échec doit-il rester un contre-exemple pur ?~~
+   **Tranché (2026-08-15), verdict Sidy** : ni l'un ni l'autre. Le rattachement à l'axe
+   Cancer/Capricorne (§3.4 point 1) est **écarté** — substituer un axe à un autre ferait
+   courir le risque de passer à côté d'un enseignement propre au thème. L'échec n'est
+   pas non plus laissé comme contre-exemple pur : il est lu comme **révélateur d'une
+   tension à harmoniser à l'intérieur même du principe Lion**, non comme un mauvais
+   rattachement à corriger par substitution. Piste de travail signalée par Sidy, à
+   titre d'exemple et non de conclusion : tension entre l'aspect solaire/royal du Lion
+   (rayonnement, magnanimité, expression) et la fonction de gestion/régence
+   (économie, restriction, tenue de comptes) — deux registres que le Lion contiendrait
+   en tension plutôt qu'en accord immédiat. Ceci rejoint la méthode générale que Sidy
+   formule pour l'ensemble du chantier (voir note ci-dessous) : toute application
+   s'inscrit d'abord depuis le principe, puis intègre la détermination singulière du
+   thème comme contexte propre à l'agent — jamais l'inverse, et jamais par substitution
+   d'un principe à un autre quand l'accord ne va pas de soi. **Reste à instruire** :
+   une reprise de la position 5 depuis le principe Lion lui-même (et non plus depuis
+   l'hypothèse de réaffectation), cherchant comment cette tension solaire/régence
+   s'harmonise plutôt qu'elle ne s'échange — travail non commencé à ce jour.
+
+   ~~Reste à instruire : harmonisation dans le Lion.~~ **Verdict dépassé (2026-08-15)**
+   — voir §9 : la question a été reprise à l'échelle des douze positions plutôt qu'à
+   la seule position 5, et le principe « harmoniser plutôt que substituer » a été
+   explicitement rouvert et remplacé par une réaffectation. Conservé ici intact pour
+   la traçabilité de la délibération.
+2. ~~**Positions 8 et 12** (faibles) : reprise depuis les principes Scorpion/Poissons —
    l'approche a-t-elle des chances raisonnables de produire des correspondances
-   tenables, ou ces deux positions doivent-elles rester hors modèle ?
-3. **L'extension des rôles au-delà du label** (assistance personnelle complète) est-elle
-   cohérente avec la fonction de seuil reconnue au zodiaque, ou constitue-t-elle une
-   sur-extension du modèle ?
+   tenables, ou ces deux positions doivent-elles rester hors modèle ?~~
+   **Tranché (2026-08-15)** — voir §9 : traité dans le cadre de la réallocation
+   complète, pas séparément. Position 8 réaffectée (Sagittaire) ; position 12
+   confirmée en l'état (Poissons) par la dérivation pure.
+3. ~~**L'extension des rôles au-delà du label** (assistance personnelle complète)
+   est-elle cohérente avec la fonction de seuil reconnue au zodiaque, ou
+   constitue-t-elle une sur-extension du modèle ?~~
+   **Tranché (2026-08-15)** : Sidy valide le principe de l'extension — ce n'était déjà
+   plus une question ouverte au sens strict (voir §1, « la mission a ensuite été
+   élargie », verdict du 2026-08-08). Reste à s'accorder sur les **modalités
+   d'exécution** (quoi, dans quel ordre, quelle gouvernance par rôle étendu) — objet
+   d'une discussion séparée, non un point d'avis en suspens.
 4. **La méthode elle-même** (observation a posteriori, échecs documentés, verdicts
    humains systématiques) vous paraît-elle de nature à produire des correspondances
    fiables, ou les biais de confirmation restent-ils prédominants malgré ces garde-fous ?
@@ -230,4 +300,74 @@ dépôt sans demande explicite), dans `/root/brouillons-prompts-zodiaque/` :
 - `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`
 - `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08.md`
 - `meta/projet-unifie/hermes-prompts/01…12…md` (prompts sources)
-- `/root/brouillons-prompts-zodiaque/` (brouillons d'extension, hors dépôt)
+- `atelier/rd/cahiers/brouillons-extension-zodiacale/` (brouillons d'extension
+  versionnés, 8 en attente — *mise à jour 2026-08-15, remplace le pointeur vers
+  `/root/brouillons-prompts-zodiaque/`, hors dépôt, supprimé après vérification)
+- `atelier/rd/cahiers/registre-problemes.md` (chronologie détaillée du
+  rattachement de la position 9 au chantier phase 3, entrées du 2026-08-11)
+- `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise.md`
+  (volet b, rouvert le 2026-08-15 — voir §9)
+
+---
+
+## 9. Réallocation complète des 12 fonctions (2026-08-15)
+
+Reprise en séance : plutôt que traiter séparément la position 5 (échec) et les
+positions 8/12 (faibles), la question a été posée à l'échelle des douze positions —
+dérivation principe par principe (nature du signe ↔ nature de la fonction),
+indépendamment de la numérotation d'origine, qui n'avait jamais été qu'un ordre de
+création des rôles, non un choix doctrinal. Détail complet de la méthode et de
+l'examen : `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise.md`
+(volet b rouvert).
+
+| Position | Fonction | Signe (2026-07-14) | **Signe validé (2026-08-15)** |
+|---|---|---|---|
+| 1 | A&R | Bélier | Bélier (inchangé) |
+| 2 | Direction visuelle/éditoriale | Taureau | **Balance** |
+| 3 | Production | Gémeaux | Gémeaux (inchangé) |
+| 4 | Administration/Légal | Cancer | Cancer (inchangé, ancre) |
+| 5 | Comptabilité | Lion | **Taureau** |
+| 6 | Distribution | Vierge | **Scorpion** |
+| 7 | Marketing | Balance | **Lion** |
+| 8 | Publication | Scorpion | **Sagittaire** |
+| 9 | Studio | Sagittaire | **Vierge** |
+| 10 | Gardien du protocole | Capricorne | Capricorne (inchangé, ancre) |
+| 11 | Fanzine | Verseau | Verseau (inchangé) |
+| 12 | Commerce | Poissons | Poissons (inchangé, confirmé) |
+
+**Bilan** : l'échec (5) et l'une des deux faiblesses (8) se résolvent par
+réaffectation ; l'autre faiblesse (12) se confirme correcte sans bouger. Nouveau
+point de tension signalé, non dissimulé : position 6 (Distribution/Scorpion),
+correspondance la moins nette de la table révisée.
+
+**Verdict de Sidy (2026-08-15)** : table validée dans son ensemble. Modularité
+assumée explicitement — le rattachement n'est pas tenu pour définitif comme l'était
+la clôture du 2026-07-14 ; révisable si de nouveaux éléments se présentent.
+
+**Conséquences opérationnelles engagées ce jour** :
+1. `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise.md`
+   — volet (b) rouvert, table révisée versée, ancienne conclusion conservée intacte
+   et marquée dépassée (discipline sashimono, aucune réécriture silencieuse).
+2. `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md` — le principe
+   zodiacal appliqué le 2026-08-11 (Sagittaire) est remplacé par le principe Vierge,
+   conformément à la nouvelle table (§9). Section Governance (chantier phase 3,
+   sans rapport avec le zodiaque) inchangée.
+3. ~~**Non fait à ce stade** : les 8 brouillons versionnés dans
+   `atelier/rd/cahiers/brouillons-extension-zodiacale/` référencent encore les
+   signes de la table 2026-07-14 pour les positions 2, 5, 6, 7, 8 — ils devront être
+   repris pour correspondre à la table révisée avant toute application en
+   production. Signalé, non traité dans cette passe (hors périmètre demandé).~~
+   **Fait (2026-08-15), suite à la demande explicite de Sidy** : les brouillons des
+   positions 2, 6, 7, 9 ont été renommés (`git mv`, historique préservé) et réécrits
+   pour correspondre à la table révisée (Balance, Scorpion, Lion, Vierge) ; les
+   brouillons des positions 5, 8, 12 — absents jusqu'ici — ont été rédigés
+   (Taureau, Sagittaire, Poissons) ; les brouillons des positions 1, 3, 4, 10, 11
+   (signes inchangés) sont restés en l'état, toujours valides. Les **douze**
+   prompts de production dans `meta/projet-unifie/h‍ermes-prompts/` ont ensuite été
+   activés : chacun reçoit désormais ses sections `## Zodiac principle` et
+   `## Your sign in Sidy's natal chart (harmonization context)`, insérées entre
+   `## Archetype served` et `## Scope`, sans rien modifier d'autre (mission,
+   scope, guardrails, handoffs intacts). La position 9 conserve en outre sa
+   section `## Governance: Discord-Validation`, inchangée. Le chantier de
+   réallocation du 2026-08-15 est donc intégralement appliqué, brouillons et
+   production, table incluse.
