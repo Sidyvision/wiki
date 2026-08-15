@@ -10,6 +10,24 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-15] archivage | Bilan R&D — pont inter-agents
+
+Fiche `atelier/rd/cahiers/bilan-2026-08-15-pont-agents.md` créée : synthèse de la
+période 2026-08-08 → 2026-08-15 destinée à tout agent (H‍ermes terminal, Claude
+Code, ou autre) reprenant le fil des travaux R&D sans avoir participé aux sessions
+antérieures. Couvre : ouverture et structure du pôle R&D, outillage déterministe
+du dépôt, outillage Karūbī (append-only + admin Agent 10, verdict Sidy 2026-08-15),
+spec rôle G0 de brouillon §4, Bureau TUI, infrastructure Hetzner, phase 3 veille,
+extension zodiacale, SRS H‍ermes-native ; chantiers ouverts par priorité (dont le
+blocage A — isolation mémoire H‍ermes par sub-agent : décision propre de Sidy,
+assumée le même jour, pas une incohérence à corriger) ; leçons transversales
+opérationnelles. Aucun contenu doctrinal. Lien entrant ajouté dans
+`atelier/rd/index.md`. Committé dans le même lot que l'outillage de navette
+Karūbī (`integrer-navette-karubi.py`, `spec-skill-karubi-actualisation-g0.md`,
+note `meta/CLAUDE.md`, entrée `registre-silsila.md`) — verdict Sidy obtenu pour
+l'ensemble.
+- **Commit** : 2657421
+
 ## [2026-08-15] archivage | Intégration registre problèmes + fiche outillage R&D
 
 Deux fichiers du sas `_inbox/` intégrés :
