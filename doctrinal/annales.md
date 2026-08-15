@@ -9,6 +9,45 @@ updated: 2026-08-14
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-15] redressement | Distinction retraite Lefke (2015) / Khalwa (2016)
+
+**Constat** : une confusion factuelle s'était glissée dans plusieurs fiches du
+wiki, assimilant la **retraite de 40 jours à Lefke (Chypre, chez le Sheikh,
+vers 2015)** à une **khalwa**. La source brute (export ChatGPT, conversation
+« Objet symbolique Médine », 2025-12-06) distingue pourtant clairement les
+deux événements :
+
+> « Il y a à peu près 10 ans, je me suis rendu à Chypre chez mon Sheikh pour
+> une retraite de 40 jours. Là bas j'ai trouvé une bague [...] Quelques mois
+> plus tard j'entrais en Khalwa et quelques jours après en être sortit la
+> pierre se déchaussa de la bague. »
+
+**Correction appliquée** :
+
+- [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] — l.30
+  (récit) et l.70 (lien transversal) : dissociation explicite des deux
+  événements.
+- [[atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono]]
+  — l.14-15 : remplacement de « issues d'une même séance (khalwa du
+  2026-06-20) » par « issues d'une même séance de production des fiches
+  (2026-06-20) ».
+- [[meta/personnel/sidy]] — ajout d'une section « Repères chronologiques
+  spirituels » pour ancrer la distinction (Option d'ancrage 1).
+
+**Chronologie établie** :
+
+1. Retraite de 40 jours à Lefke (Chypre, chez le Sheikh, vers 2015) — bague
+   trouvée sur place.
+2. Khalwa (Rajab 1437 ≈ avril 2016, sortie au bout de 8 jours) — la pierre
+   de la bague se déchausse quelques jours après.
+
+**Enseignement** : une co-occurrence temporelle (« même séance », « même
+période ») n'est pas une identité — le distinguo entre deux événements
+proches dans le temps mais distincts par leur nature et leur durée est une
+vigilance factuelle élémentaire, applicable à tout futur lot de fiches.
+
+(Commit : `5f2c9da`)
+
 ## [2026-08-14] discernement | Axe 4 du chantier Shams al-Maʿārif / Guénon — awfāq et métaphysique du Nombre
 
 Quatrième axe du chantier ouvert le 2026-08-13 (voir entrée ci-dessous). Dépouillement
