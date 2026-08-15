@@ -3,7 +3,7 @@ title: "Méthode — Traitement d'un lot de fiches discernement/ (qualification 
 type: outillage
 tags: [outillage, discernement, methode, sashimono, fiche-par-fiche]
 created: 2026-08-10
-updated: 2026-08-10
+updated: 2026-08-15
 sources: []
 links: ["[[atelier/rd/outillage/2026-08-10_methode-croisement-discernement]]", "[[doctrinal/index]]"]
 ---
@@ -12,7 +12,7 @@ links: ["[[atelier/rd/outillage/2026-08-10_methode-croisement-discernement]]", "
 
 > **Objet du présent rapport** : documenter le *moyen* utilisé pour traiter,
 > à la demande de Sidy, un lot de 11 fiches `discernement/` issues d'une même
-> séance (khalwa du 2026-06-20), explicitement écarté du croisement général
+> séance de production des fiches (2026-06-20), explicitement écarté du croisement général
 > ([[atelier/rd/outillage/2026-08-10_methode-croisement-discernement]]) parce
 > qu'une co-occurrence de même séance n'est pas une corroboration. Ce document
 > ne contient et ne reformule **aucun** contenu doctrinal ni verdict de fond —
