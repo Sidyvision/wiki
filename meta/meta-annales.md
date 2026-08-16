@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-15
+updated: 2026-08-16
 
 ---
 
@@ -13,6 +13,25 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-16] extension | Canal Telegram Mehdi (habib-mehdi) + mandat veille agent 09
+
+- Statut Telegram passé de « non activé » à 13e profil `habib-mehdi` préparé
+  (isolation OS, service système sous `mehdi`) dans
+  `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md` (§5bis).
+- Mandat de l'agent 09 étendu à un registre H‍ermes-Terminal (bind mounts,
+  santé gateways, staleness `_inbox/`) dans
+  `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md`.
+- `meta/transmissions/registre-silsila.md` : entrées `extension-canal` et
+  `correction-montage` (détail complet : `meta/transmissions/
+  registre-silsila.md`, Sceau `karubi-mehdi.md` non touché).
+- Détail et vérification indépendante (service actif sous `mehdi`, karubi
+  nettoyé, log de connexion Telegram authentique) :
+  `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16.md`,
+  `atelier/annales.md`.
+- **Commit** : 954712f
 
 ---
 

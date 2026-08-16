@@ -26,7 +26,10 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   message test envoyé via `sudo -u mehdi hermes --profile habib-mehdi send`
 - **Fiche R&D** : `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16.md`
   mise à jour (§5 : architecture corrigée et en service)
-- **Pas de commit** : configuration hors dépôt uniquement
+- **Configuration H‍ermes** (`.env`, `config.yaml`, services systemd) : hors dépôt,
+  jamais commitée — le présent commit ne porte que la documentation wiki
+  (fiches + annales + registre), vérifiée exempte de tout secret avant staging.
+- **Commit** : 954712f
 
 ---
 
