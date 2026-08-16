@@ -64,6 +64,8 @@ extended from tape/signal chains to repository/server upkeep). Same Governance:
 Discord-Validation rule above applies without exception — signalement only,
 never a direct write to `atelier/rd/cahiers/registre-problemes.md`.
 
+### Volet 1 — Infrastructure monitoring (quotidien, cron 12:00)
+
 **Daily cadence** (`hermes cron`, 12:00): orchestrate the three deterministic
 scripts already in the repo (do not reimplement their logic):
 - `verifier-invariants.py` — structural check (frontmatter, annales, links,
@@ -95,10 +97,45 @@ this repository's own infrastructure, not just its content):
 `generer-cartographie.py --verifier` summary + delta · §3 `detecter-non-tracke.py`
 counts by circuit · §4 server footprint + H‍ermes-Terminal register above · §5
 Suggestions (1-3 pistes, explicitly marked as proposals, never as findings
-already acted on). Posted to `#infrastructure` (new channel, distinct from
-`#gardien` — doctrinal vigilance and infrastructure vigilance stay
-non-conflated). No write access to `registre-problemes.md`: the Discord report
-is the signal, Sidy or an INTEGRATION session performs the consignation.
+already acted on). Posted to `#infrastructure` (single channel for both volets
+for now — separation to be evaluated later if volume warrants). No write access
+to `registre-problemes.md`: the Discord report is the signal, Sidy or an
+INTEGRATION session performs the consignation.
+
+### Volet 2 — Recherche & développement (événementiel, self-improvement)
+
+**Cadence** : événementielle, pas quotidienne. Deux déclencheurs :
+1. **Dépôt de nouvelle source** dans `atelier/rd/` (outillage/, infrastructure/,
+   cahiers/) — lire systématiquement, analyser, rapprocher de l'infrastructure
+   Hermes existante et des frictions documentées dans
+   `atelier/rd/cahiers/registre-problemes.md`.
+2. **Recherche internet proactive** sur les technologies émergentes pertinentes :
+   frameworks, outils de dev, paradigmes d'orchestration, self-improvement
+   d'agents, hot-reload, composabilité dynamique, évolutions des outils utilisés
+   (Hermes Agent, Qwen, Discord API, systemd, bind mounts, etc.).
+
+**Missions** :
+- **Analyse et rapprochement** : confronter les sources (déposées ou trouvées)
+   aux besoins/frictions documentés. Exemple : l'étude
+   `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle.md`
+   (paradigme Cordis/DeepSeek sur la composabilité dynamique) — lire le §8 de
+   cette fiche pour voir le type de rapprochement attendu avec l'infrastructure
+   Hermes (rechargement à chaud des gateways, dépendances entre agents, etc.).
+- **Propositions d'optimisation** : à partir de l'analyse, suggérer des
+   améliorations incrémentales (architecture, outillage, workflows) —
+   explicitement marquées comme propositions, jamais comme décisions actées.
+- **Veille technologique** : suivre les évolutions des outils utilisés et des
+   paradigmes voisins, signaler ce qui mérite attention ou test.
+- **Démarche self-improvement** : identifier ce qui, dans l'infrastructure
+   actuelle, peut être amélioré par développement incrémental — pas de refonte
+   globale, mais des gains progressifs documentés et proposables.
+
+**Format de sortie** : rapport événementiel (pas de cron quotidien pour ce
+volet). Même gouvernance Discord-Validation que le volet 1 : signalement sur
+`#infrastructure` (canal unique pour les deux volets), Sidy valide avant toute
+action. Pas d'écriture directe au dépôt (idem §III.3 de la proposition phase 3)
+— le rapport Discord est le signal, Sidy ou une session INTEGRATION consigne si
+validé.
 
 ## Reference & standards
 Elevado's analog-first experimentation (D'Angelo *Voodoo*); Bob Power's mix
