@@ -28,6 +28,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   d'implémentation.
 - Passage par `_inbox/cordis-composabilite-spatiotemporelle/` avant intégration
   (validation Sidy des deux tours de plan, 2026-08-16).
+- SHA : `ade0da6`
 
 ## [2026-08-15] archivage | Bilan R&D — pont inter-agents
 

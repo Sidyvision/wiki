@@ -24,6 +24,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   chine↔japon non attestée en l'état).
 - Étanchéité respectée : aucun lien créé vers le circuit `atelier/rd/`
   (mention textuelle seulement, non liée).
+- SHA : `ade0da6`
 
 ## [2026-08-15] redressement | Distinction retraite Lefke (2015) / Khalwa (2016)
 
