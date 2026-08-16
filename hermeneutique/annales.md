@@ -24,7 +24,7 @@ entrées insérées **après ce header**.
 - **Index et annales mises à jour** : `hermeneutique/index.md` et `hermeneutique/annales.md`.
 - **Vigilance** : trois clés doctrinales 🔍 resteront suggérées (verdict réservé à l'utilisateur, Cmd 12) ; aucune fiche `discernement` ouverte.
 - **Méthode** : archivage selon UPDATES.md, validation double-contrôle sashimono appliquée, aucune clé établie.
-- **Commit** : `
+- **Commit** : `14383f0`
 
 ---
 
