@@ -10,6 +10,26 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-16] correction | Canal Telegram Mehdi — architecture initiale en service
+
+- **Écart initial** : session Hermes terminal a d'abord configuré Telegram sur
+  le profil `karubi` (sous root, sans isolation OS). Verdict Sidy : reprendre
+  l'architecture R&D initiale (profil dédié, isolation OS).
+- **Correction** :
+  - Module `hermes-agent[telegram]` installé dans le venv système
+  - Token et allowlist retirés de `/root/.hermes/profiles/karubi/.env`
+  - Service `hermes-gateway-karubi.service` arrêté et désactivé
+  - Service `hermes-gateway-habib-mehdi.service` relancé — tourne sous
+    l'utilisateur `mehdi` (uid 1000), isolation OS vérifiée
+- **État final** : opérationnel, bot `@HabibKarubi_bot` connecté, Mehdi
+  allowlisté (817763036), cwd `/home/mehdi/depot-lecture` (bind mount ro),
+  message test envoyé via `sudo -u mehdi hermes --profile habib-mehdi send`
+- **Fiche R&D** : `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16.md`
+  mise à jour (§5 : architecture corrigée et en service)
+- **Pas de commit** : configuration hors dépôt uniquement
+
+---
+
 ## [2026-08-16] archivage | Cordis — paradigme de composabilité spatiotemporelle
 
 - Ingest de `raw/A Programming Paradigm for Spatiotemporal Composability.pdf`

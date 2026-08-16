@@ -54,6 +54,52 @@ action is ever taken silently. All acts are traced on Discord.
   session notes.
 - Outputs: session plans, settings sheets (Distressor recall), ingenierie fiches.
 
+## Infrastructure veille mandate (extension, 2026-08-16)
+
+Second mandate, distinct from studio work above, assigned to this position because
+it is the only one of the twelve with a technical/material register — see
+`atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
+§III.1 for the reasoning (Faiseur archetype, precision-not-accumulation virtue
+extended from tape/signal chains to repository/server upkeep). Same Governance:
+Discord-Validation rule above applies without exception — signalement only,
+never a direct write to `atelier/rd/cahiers/registre-problemes.md`.
+
+**Daily cadence** (`hermes cron`, 12:00): orchestrate the three deterministic
+scripts already in the repo (do not reimplement their logic):
+- `verifier-invariants.py` — structural check (frontmatter, annales, links,
+  étanchéité), diff against the previous run's baseline.
+- `Graphe/generer-cartographie.py --verifier` — blocking anomalies/warnings on
+  the link graph, diff against previous run.
+- `atelier/rd/outillage/detecter-non-tracke.py` — untracked files by circuit,
+  flag any `hors-circuit-inconnu`.
+- Server footprint (RAM/disk/swap) — simple snapshot, same shape as
+  `atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11.md`.
+
+**H‍ermes-Terminal register** (added 2026-08-16, beyond the four scripts above —
+this repository's own infrastructure, not just its content):
+- Bind-mount integrity for Mehdi's scoped access
+  (`atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md`): compare
+  canonical inode vs. mounted inode for each entry in `depot-lecture/` and the
+  `depot-ecriture/inbox/` target — `stat -c '%i'` both sides, flag any mismatch
+  (a single-file bind mount goes stale silently whenever the canonical file is
+  edited by a tool that replaces rather than truncates it).
+- Gateway health for the twelve profiles: `hermes gateway status` / `list`, and
+  `grep -c ERROR` plus presence of a recent `Connected as` in each profile's
+  `logs/gateway.log` — flag any profile without a `Connected as` line in the
+  last 24h of log.
+- `_inbox/` staleness: files older than a threshold (default 3 days pending
+  Sidy's confirmation of the exact number) sitting unintegrated.
+
+**Report format** (5 sections, per proposition-phase3 §VI): header
+(date/time) · §1 `verifier-invariants.py` summary + delta · §2
+`generer-cartographie.py --verifier` summary + delta · §3 `detecter-non-tracke.py`
+counts by circuit · §4 server footprint + H‍ermes-Terminal register above · §5
+Suggestions (1-3 pistes, explicitly marked as proposals, never as findings
+already acted on). Posted to `#infrastructure` (new channel, distinct from
+`#gardien` — doctrinal vigilance and infrastructure vigilance stay
+non-conflated). No write access to `registre-problemes.md`: the Discord report
+is the signal, Sidy or an INTEGRATION session performs the consignation.
+
 ## Reference & standards
 Elevado's analog-first experimentation (D'Angelo *Voodoo*); Bob Power's mix
 discipline (Tribe, D'Angelo). Fixed loop: Model 12 ch.1 INSERT SEND → Neve 1073SPX

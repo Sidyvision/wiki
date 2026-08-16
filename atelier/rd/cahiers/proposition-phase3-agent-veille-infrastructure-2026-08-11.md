@@ -4,7 +4,7 @@ type: meta
 statut: brouillon
 cible: "atelier/rd/index.md — État de la phase 1 partielle, §« Non inclus »"
 created: 2026-08-11
-updated: 2026-08-12
+updated: 2026-08-16
 tags: [atelier, rd, phase3, hermes, veille, infrastructure]
 sources: []
 links: ["[[atelier/rd/index]]"]
@@ -263,10 +263,27 @@ Restent à instruire séparément, avant toute écriture effective du mécanisme
 
 | Chantier | Bloqage | Responsable | Statut |
 |---|---|---|---|
-| **Extension prompt agent 09** | Cmd 6 : plan avant modification | Sidy (validation) | À instruire |
-| **Accès FS/exécution agent 09** | Déf. du cloisonnement H‍ermes | Décision architecturale | À trancher |
-| **Nouveau mécanisme d'éxécution** | Dépend du cloisonnement ↑ | Conception R&D | À instruire |
-| **Récurrence empreinte serveur** | Dépend du mécanisme ↑ | R&D + choix opérationnel | À instruire |
+| **Extension prompt agent 09** | Cmd 6 : plan avant modification | Sidy (validation) | ~~À instruire~~ **Fait (2026-08-16)**, voir §Mise à jour |
+| **Accès FS/exécution agent 09** | Déf. du cloisonnement H‍ermes | Décision architecturale | Tranché (2026-08-11, §III.1) |
+| **Nouveau mécanisme d'éxécution** | Dépend du cloisonnement ↑ | Conception R&D | Prompt étendu ; `hermes cron create` + canal Discord `#infrastructure` restent à créer (porte humaine) |
+| **Récurrence empreinte serveur** | Dépend du mécanisme ↑ | R&D + choix opérationnel | À instruire (inchangé) |
+
+## Mise à jour (2026-08-16)
+
+Extension effective du prompt réalisée :
+`meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md`, section
+« Infrastructure veille mandate ». Le registre couvert s'élargit au-delà des
+3 scripts + empreinte serveur prévus ici : ajout d'un registre H‍ermes-Terminal
+(intégrité bind mounts Mehdi, santé des 12 gateways, staleness `_inbox/`),
+motivé par une session distincte (canal Telegram pour Mehdi + mandat d'audit),
+où un bind mount `karubi-mehdi.md` a été trouvé figé sur un inode périmé sans
+détection systématique préexistante. Format, cadence, canal, gouvernance
+Discord-Validation : inchangés par rapport aux §V/§VI ci-dessus. Reste hors
+périmètre de ce geste (Cmd 13, porte humaine) : `hermes cron create` côté
+profil `studio`, création du canal Discord `#infrastructure` et son
+allowlisting, `hermes -p studio gateway install/restart`. Statut de cette note
+laissé à `brouillon` (comme pour l'intégration du 2026-08-12) : le prompt est
+étendu, le mécanisme d'exécution ne l'est pas encore.
 
 Le risque nommé au §IV (surface d'écriture d'un agent H‍ermes) est désormais 
 contenu par le §III.3 (signalement Discord uniquement, jamais d'écriture 

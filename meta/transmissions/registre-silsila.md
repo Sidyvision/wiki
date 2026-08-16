@@ -2,7 +2,7 @@
 title: "Registre Silsila — dispositif Karubi (domaine reserve, meta/transmissions/)"
 type: transmission
 created: 2026-07-20
-updated: 2026-08-12
+updated: 2026-08-16
 ---
 
 # Registre Silsila — Karūbī
@@ -233,3 +233,33 @@ disponible (2.1.228). Reste en attente : invitation Tailscale à envoyer par
 Sidy (hors fichier, canal séparé) pour que la connexion soit effective.
 §10 du fichier canonique complété d'une entrée confirmant l'installation.
 Sceau non touché (vérifié).
+
+## [2026-08-16] extension-canal | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+Préparation d'un second canal d'ingest pour Mehdi, hors Terminal : profil
+H‍ermes dédié `habib-mehdi` (Telegram), exécuté comme service système sous le
+compte `mehdi` (`--run-as-user mehdi`) pour préserver la frontière OS déjà
+posée par les bind mounts `ro`/rw — distinct du profil `karubi` (outil G0 de
+Sidy, cwd `/root/wiki` entier). Détail et motif du choix :
+`atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16.md`. `CLAUDE.md`
+de Mehdi mis à jour pour annoncer ce canal (sans nom de bot — donné hors
+fichier une fois créé). Aucune écriture dans `karubi-mehdi.md` (§10) à ce
+stade — rien à relayer tant que le bot n'existe pas. Sceau non touché
+(inchangé, aucune édition du fichier canonique ce jour). Reste en attente
+(Cmd 13, gestes humains) : création du bot via `@BotFather`, ID Telegram de
+Mehdi, édition du `.env` du nouveau profil, `gateway install --system
+--run-as-user mehdi` puis `restart`. Constat associé, résolu le même jour (voir entrée suivante) : le bind mount
+`depot-lecture/karubi-mehdi.md` avait été rapporté périmé, corrigé ensuite.
+
+## [2026-08-16] correction-montage | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
+Diagnostic affiné : le point de montage `/home/mehdi/depot-lecture/
+karubi-mehdi.md` n'était en réalité **pas monté du tout** — un fichier vide
+(0 octet, `mehdi:mehdi`, daté 2026-08-12) occupait le chemin, malgré une
+entrée `fstab` correcte (`bind,ro`, ajoutée le 2026-08-12). `umount` a donc
+échoué (« not mounted »), attendu. `mount -o bind,ro
+/root/wiki/meta/transmissions/karubi-mehdi.md
+/home/mehdi/depot-lecture/karubi-mehdi.md` seul a suffi. Vérifié après coup :
+inode identique des deux côtés (`578121`), contenu identique (`diff` vide),
+écriture toujours refusée (`Permission denied` testé sous `mehdi`,
+confirmé par `su mehdi -c`), `mount | grep karubi` confirme `ro`. Mehdi
+dispose maintenant de la version à jour (`updated: 2026-08-13`) de son
+Karūbī. Sceau non touché (aucune édition du fichier canonique).

@@ -3,7 +3,7 @@ title: "15 — Architecture Discord des 12 agents H‍ermes (2026-08-07)"
 type: meta
 tags: [outillage, projet-claude-ai, infrastructure, hermes, discord, runbook]
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-08-16
 ---
 
 # 15 — Architecture Discord des 12 agents H‍ermes (2026-08-07)
@@ -50,7 +50,7 @@ Discord distincte (bot séparé, token séparé — pas de token partagé entre 
 | 06 | `distribution` | Distribution | `#marketing` |
 | 07 | `marketing` | Marketing / communication | `#marketing` + `#inspiration` |
 | 08 | `publication` | Publication / site | `#marketing` |
-| 09 | `studio` | Ingénieur son / studio | `#analog-wizard` |
+| 09 | `studio` | Ingénieur son / studio ; **+ mandat veille infrastructure** (extension 2026-08-16, voir `hermes-prompts/09-studio-sound-engineer.md` §Infrastructure veille mandate) | `#analog-wizard` + `#infrastructure` (à créer) |
 | 10 | `gardien` | Vigie transversale (accès `meta/`) | `#gardien` |
 | 11 | `fanzine` | Édition fanzine | `#marketing` |
 | 12 | `commerce` | Commerce / rentabilité | `#administratif` |
@@ -113,7 +113,25 @@ observés en usage réel (2026-08-07/08) :
 - **Cloisonnement filesystem** : aucun mécanisme de sandboxing actif (voir levier natifs
   possibles côté H‍ermes — non documentés ici, décision de durcissement différée
   volontairement par Sidy après retour d'expérience réel sur Discord).
-- **Canaux non encore activés** : Telegram, WhatsApp (Discord seul est en production).
+- **Canaux non encore activés** : Telegram (voir 13e profil ci-dessous, préparé
+  mais pas encore en service), WhatsApp (Discord seul est pleinement en production).
+
+---
+
+## 5bis. 13e profil — `habib-mehdi` (Telegram, préparé le 2026-08-16, pas encore actif)
+
+Distinct des 12 profils du tableau §2 (qui tournent tous en `systemctl --user`
+**sous root**) : `habib-mehdi` est conçu pour tourner comme service **système**
+sous le compte Unix `mehdi` (`hermes gateway install --system --run-as-user
+mehdi`), afin que son `HERMES_HOME` (`/home/mehdi/.hermes`, résolu par
+`Path.home()`) et son `terminal.cwd` (`/home/mehdi/depot-lecture`) restent
+soumis aux mêmes bind mounts `ro`/permissions Unix que la session Terminal de
+Mehdi — voir le détail complet et le motif du choix dans
+`atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16.md`. Ne pas
+confondre avec le profil `karubi` (celui-là reste l'outil G0 de Sidy, cwd
+`/root/wiki` entier, sous root comme les 12 autres). Statut au 2026-08-16 :
+fiche rédigée, aucune exécution — attend la création du bot Telegram
+(`@BotFather`) et l'ID Telegram de Mehdi, gestes humains (Cmd 13).
 
 ---
 
