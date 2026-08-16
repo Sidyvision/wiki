@@ -2,7 +2,7 @@
 title: Index du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-13
+updated: 2026-08-16
 ---
 
 
@@ -56,6 +56,8 @@ mondes. La convergence est retenue comme **justification du nom du circuit**, en
 - [[hermeneutique/auteurs/hideo-kojima|Hideo Kojima (小島秀夫)]] — *auteur*, `to-source`. Thèses exécutées par l'acte du joueur ; motif du bâton et de la corde (Kōbō Abe, `to-source`).
 - [[hermeneutique/auteurs/yoji-shinkawa|Yoji Shinkawa (新川洋司)]] — *auteur*, `to-source`. Direction artistique ; le trait comme argument (harnachement, mécanique en anatomie) ; figure Ludens.
 - [[hermeneutique/auteurs/togashi-yoshihiro|Yoshihiro Togashi]] — *auteur*, `to-source`, `brouillon`. Mangaka, *Hunter x Hunter*.
+- [[hermeneutique/auteurs/akira-toriyama|Akira Toriyama (鳥山明)]] — *auteur*, `brouillon`. Mangaka, *Dr Slump*, *Dragon Ball*.
+- [[hermeneutique/auteurs/naoki-urasawa|Naoki Urasawa (浦沢直樹)]] — *auteur*, `brouillon`. Mangaka, *20th Century Boys*.
 
 ## Œuvres
 
@@ -76,6 +78,18 @@ mondes. La convergence est retenue comme **justification du nom du circuit**, en
 - [[hermeneutique/hunter-x-hunter/hunter-x-hunter|Hunter x Hunter]] — *oeuvre*, fiche-hub, `brouillon`, `to-source`. Manga de Yoshihiro Togashi.
 - [[hermeneutique/hunter-x-hunter/hunter-association-licence|Hunter — association et licence]] — *dispositif*, `brouillon`, `to-source`. Institution mondiale quasi-gouvernementale, licence conférant des privilèges.
 - [[hermeneutique/hunter-x-hunter/nen-systeme|Le Nen — système complet]] — *concept*, fiche pivot, `brouillon`, `to-source`. Joint 🔍 ouvert vers [[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique]] (portance *zōsaku*, hozo exclu).
+
+### Dragon Ball
+
+- [[hermeneutique/dragon-ball/dragon-ball|Dragon Ball]] — *oeuvre*, fiche-hub, `brouillon`. Manga d'Akira Toriyama (1984-1995). Joint 🔍 suggéré vers [[doctrinal/symboles/lignees-celestes-taoisme]] (filiation Sun Wukong, alchimie intérieure taoïste, éveil bouddhique ; portance *zōsaku*, hozo exclu).
+
+### Dr Slump
+
+- [[hermeneutique/dr-slump/dr-slump|Dr Slump]] — *oeuvre*, fiche-hub, `brouillon`. Manga d'Akira Toriyama (1980-1984). Comédie pure, aucune clé doctrinale identifiée.
+
+### 20th Century Boys
+
+- [[hermeneutique/20th-century-boys/20th-century-boys|20th Century Boys]] — *oeuvre*, fiche-hub, `brouillon`. Manga de Naoki Urasawa (1999-2006). Deux joints 🔍 suggérés : [[doctrinal/deviations/contre-initiation]] (schéma du sauveur auto-proclamé source du mal) et [[doctrinal/deviations/renversement-des-symboles]] (capture et retournement du symbole d'enfance) ; référent assumé : secte Aum (1995) ; portance *zōsaku*, hozo exclu.
 
 ## Sources
 

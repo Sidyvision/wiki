@@ -2,7 +2,7 @@
 title: Annales du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-13
+updated: 2026-08-16
 ---
 
 # Annales du circuit Herméneutique
@@ -10,6 +10,21 @@ updated: 2026-08-13
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only,
 entrées insérées **après ce header**.
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-16] archivage | Lot Toriyama / Urasawa — 5 fiches (2 auteurs + 3 oeuvres)
+
+- **Contenu archivé** : 5 fiches rédigées avec sourcing web, statut global `brouillon`, joints doctrinaux en l'état suggéré (*kari-kumi*, portance *zōsaku*).
+  - `hermeneutique/auteurs/akira-toriyama.md` — biographique, aucune clé doctrinale.
+  - `hermeneutique/dragon-ball/dragon-ball.md` — joint 🔍 vers [[doctrinal/symboles/lignees-celestes-taoisme]].
+  - `hermeneutique/dr-slump/dr-slump.md` — comédie pure, aucune clé doctrinale.
+  - `hermeneutique/auteurs/naoki-urasawa.md` — biographique, aucune clé doctrinale.
+  - `hermeneutique/20th-century-boys/20th-century-boys.md` — deux joints 🔍 vers [[doctrinal/deviations/contre-initiation]] et [[doctrinal/deviations/renversement-des-symboles]].
+- **Index et annales mises à jour** : `hermeneutique/index.md` et `hermeneutique/annales.md`.
+- **Vigilance** : trois clés doctrinales 🔍 resteront suggérées (verdict réservé à l'utilisateur, Cmd 12) ; aucune fiche `discernement` ouverte.
+- **Méthode** : archivage selon UPDATES.md, validation double-contrôle sashimono appliquée, aucune clé établie.
+- **Commit** : `
 
 ---
 
