@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-15
+updated: 2026-08-16
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,25 @@ updated: 2026-08-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-16] archivage | Cordis — paradigme de composabilité spatiotemporelle
+
+- Ingest de `raw/A Programming Paradigm for Spatiotemporal Composability.pdf`
+  (Shi, Zhang, Cui — Peking University / DeepSeek-AI, accompagne la sortie du
+  DeepSeek Harness).
+- Fiche créée : `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle.md`
+  (`outillage`, `exploratoire`, `brouillon`).
+- Qualification sashimono (§VII, double contrôle) : homologie de forme
+  constatée avec plusieurs articles de la convention (art. 1, 3, 4, 5, 6),
+  portance zōsaku, non tranchée.
+- Hypothèse plus large de Sidy (filiation orientale/chinoise explicite,
+  au-delà de la simple homologie) renvoyée en discernement doctrinal, lien
+  signalé sens unique : `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md`
+  (enrichi ce jour, statut `speculatif`, verdict réservé).
+- Pistes H‍ermes (§8 de la fiche) posées comme jalon, aucune décision
+  d'implémentation.
+- Passage par `_inbox/cordis-composabilite-spatiotemporelle/` avant intégration
+  (validation Sidy des deux tours de plan, 2026-08-16).
 
 ## [2026-08-15] archivage | Bilan R&D — pont inter-agents
 

@@ -1,13 +1,29 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-14
+updated: 2026-08-16
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-16] enrichissement | Hypothèse d'une source orientale plus large (sashimono ↔ architecture chinoise)
+
+- Fiche enrichie : `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md`
+  (statut `speculatif` inchangé, verdict réservé).
+- Origine : lecture d'une source `raw/` en `atelier/rd/` (paradigme logiciel
+  Cordis) ayant fait naître, chez Sidy, l'hypothèse que ce paradigme serait
+  inspiré de l'esprit oriental à la source du sashimono, l'architecture
+  traditionnelle chinoise en intégrant les principes explicitement, en
+  parenté avec l'artisanat japonais.
+- Bloc normalisé Examen de Discernement ajouté : deux affirmations distinctes
+  identifiées, toutes deux `to-source` (dougong 斗栱 cité comme candidat
+  technique de comparaison le plus proche, transmission historique
+  chine↔japon non attestée en l'état).
+- Étanchéité respectée : aucun lien créé vers le circuit `atelier/rd/`
+  (mention textuelle seulement, non liée).
 
 ## [2026-08-15] redressement | Distinction retraite Lefke (2015) / Khalwa (2016)
 
