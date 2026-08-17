@@ -1,3 +1,16 @@
+---
+title: "Transcription — Table des matières intégrale, Symboles de la Science sacrée (Guénon)"
+type: source
+status: traditionnel
+tradition_cadre: "universel"
+tags: [transcription, reference, table-matieres, symbolisme]
+created: 2026-07-14
+updated: 2026-08-17
+sources: []
+sources_count: 0
+cross_links: []
+---
+
 # Transcription — Table des matières intégrale, *Symboles de la Science sacrée* (René Guénon, Gallimard, coll. Tradition/NRF)
 
 > Transcrite depuis photographies de l'exemplaire physique de Sidy (2026-07-14).

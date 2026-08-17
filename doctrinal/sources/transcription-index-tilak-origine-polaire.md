@@ -1,3 +1,16 @@
+---
+title: "Transcription — Origine polaire de la tradition védique (Tilak)"
+type: source
+status: academique
+tradition_cadre: "hindouisme"
+tags: [transcription, reference, table-matieres, vedas, arctique]
+created: 2026-07-14
+updated: 2026-08-17
+sources: []
+sources_count: 0
+cross_links: ["[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]"]
+---
+
 # Transcription — *Origine polaire de la tradition védique* (Bâl Gangâdhar Tilak, trad. Jean et Claire Remy, Arché, Milano, 1979)
 
 > Transcrite depuis photographies de l'exemplaire physique de Sidy (2026-07-14).
