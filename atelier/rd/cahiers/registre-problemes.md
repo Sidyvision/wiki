@@ -136,6 +136,20 @@ script sur `#infrastructure` chaque jour, sans passer par le LLM — même si un
 futur rapport d'agent narre mal, ce second canal ne peut pas fabuler. Bloc
 `infra_verif` ajouté rétroactivement aux deux fiches citées en lien.
 
+**Mise à jour [2026-08-17], deuxième passe** : question de Sidy — le rôle de
+l'agent en charge (SOUL.md `studio`, source canonique
+`meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md`) reflétait-il
+ces corrections ? Vérifié mécaniquement, non : le job cron réel
+(`jobs.json` du profil, prompt à 7 étapes incluant
+`verifier-coherence-infrastructure.py` en étape 4) avait été mis à jour, mais
+SOUL.md décrivait toujours l'ancien mandat à 3 scripts / 5 sections — le
+mandat *documenté* de l'agent avait pris du retard sur sa configuration
+*réelle*, symétrique inverse du problème initial (là, la fiche décrivait un
+état runtime qui n'existait pas ; ici, le runtime avait avancé sans que la
+description du rôle suive). Corrigé : SOUL.md et sa source wiki synchronisés
+(diff vérifié identique), ajout du script 4, mention explicite du second job
+`--no-agent` comme garantie mécanique, format de rapport porté à 8 sections.
+
 **Statut** : `resolu`.
 
 ---

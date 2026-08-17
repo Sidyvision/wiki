@@ -66,18 +66,33 @@ never a direct write to `atelier/rd/cahiers/registre-problemes.md`.
 
 ### Volet 1 — Infrastructure monitoring (quotidien, cron 12:00)
 
-**Daily cadence** (`hermes cron`, 12:00): orchestrate the three deterministic
-scripts already in the repo (do not reimplement their logic):
+**Daily cadence** (`hermes cron`, 12:00): orchestrate the four deterministic
+scripts already in the repo (do not reimplement their logic), from `/root/wiki`,
+citing each script's raw stdout — never a paraphrase:
 - `verifier-invariants.py` — structural check (frontmatter, annales, links,
   étanchéité), diff against the previous run's baseline.
 - `Graphe/generer-cartographie.py --verifier` — blocking anomalies/warnings on
   the link graph, diff against previous run.
 - `atelier/rd/outillage/detecter-non-tracke.py` — untracked files by circuit,
   flag any `hors-circuit-inconnu`.
+- `atelier/rd/outillage/verifier-coherence-infrastructure.py` — added
+  2026-08-17, **anti-fabulation control**: confronts the `infra_verif`
+  frontmatter block of `atelier/rd/infrastructure/*.md` fiches against live
+  H‍ermes/Discord state (`hermes cron list --all`, profile `.env` files).
+  Motive: `atelier/rd/cahiers/registre-problemes.md`, entry `[2026-08-17]` —
+  a fiche once narrated a cron job's creation that the runtime never actually
+  had, undetected until a manual `cron list`. Its output goes into the daily
+  report **as-is**, never summarized — the whole point is that this step
+  cannot be talked around. A second, LLM-free cron job on this profile
+  (`coherence-infrastructure-brute`, `--no-agent --script`, 12:05, same
+  channel) runs the identical script independently and delivers its raw
+  stdout without passing through this agent at all — a mechanical backstop in
+  case this report ever narrates step 4 poorly. If the two disagree, the
+  `--no-agent` delivery is authoritative.
 - Server footprint (RAM/disk/swap) — simple snapshot, same shape as
   `atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11.md`.
 
-**H‍ermes-Terminal register** (added 2026-08-16, beyond the four scripts above —
+**H‍ermes-Terminal register** (added 2026-08-16, beyond the scripts above —
 this repository's own infrastructure, not just its content):
 - Bind-mount integrity for Mehdi's scoped access
   (`atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md`): compare
@@ -92,15 +107,19 @@ this repository's own infrastructure, not just its content):
 - `_inbox/` staleness: files older than a threshold (default 3 days pending
   Sidy's confirmation of the exact number) sitting unintegrated.
 
-**Report format** (5 sections, per proposition-phase3 §VI): header
-(date/time) · §1 `verifier-invariants.py` summary + delta · §2
-`generer-cartographie.py --verifier` summary + delta · §3 `detecter-non-tracke.py`
-counts by circuit · §4 server footprint + H‍ermes-Terminal register above · §5
-Suggestions (1-3 pistes, explicitly marked as proposals, never as findings
-already acted on). Posted to `#infrastructure` (single channel for both volets
-for now — separation to be evaluated later if volume warrants). No write access
-to `registre-problemes.md`: the Discord report is the signal, Sidy or an
-INTEGRATION session performs the consignation.
+**Report format** (8 sections, updated 2026-08-17 — supersedes the 5-section
+format of proposition-phase3 §VI): header (date/time) · §1
+`verifier-invariants.py` summary + delta · §2 `generer-cartographie.py
+--verifier` summary + delta · §3 `detecter-non-tracke.py` counts by circuit ·
+§4 `verifier-coherence-infrastructure.py` raw output (anti-fabulation, verbatim)
+· §5 server footprint · §6 H‍ermes-Terminal register above · §7 R&D (volet 2,
+conditional — see below) · §8 Suggestions (1-3 pistes, explicitly marked as
+proposals, never as findings already acted on). Posted to `#infrastructure`
+(single channel for both volets for now — separation to be evaluated later if
+volume warrants). No write access to `registre-problemes.md`: the Discord
+report is the signal, Sidy or an INTEGRATION session performs the
+consignation — including, for §4 specifically, flagging any ÉCART for a fresh
+`registre-problemes.md` entry rather than resolving it in-channel.
 
 ### Volet 2 — Recherche & développement (événementiel, self-improvement)
 

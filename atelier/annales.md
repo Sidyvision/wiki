@@ -10,6 +10,31 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-17] infrastructure | Synchronisation du mandat de l'agent studio (SOUL.md) avec sa configuration cron réelle
+
+- **Symptôme** : question de Sidy — le rôle documenté de l'agent en charge du
+  R&D (`SOUL.md` du profil `studio`) reflète-t-il les corrections de la
+  session précédente (script `verifier-coherence-infrastructure.py`, second
+  job cron `--no-agent`) ? Vérification mécanique (`jobs.json` du profil vs
+  `SOUL.md`) : non — le job cron réel (`41dc3e7e492c`) portait déjà un prompt
+  à 7 étapes incluant le script anti-fabulation en étape 4, mais `SOUL.md`
+  décrivait toujours l'ancien mandat à 3 scripts / 5 sections, et ne
+  mentionnait pas du tout le second job `coherence-infrastructure-brute`.
+- **Diagnostic** : symétrique inverse du problème résolu plus haut le même
+  jour — là, une fiche décrivait un état runtime inexistant ; ici, le runtime
+  avait avancé sans que le mandat documenté de l'agent suive. Même famille
+  d'angle mort (doc ↔ runtime), sens opposé.
+- **Correction** : `SOUL.md` (`/root/.hermes/profiles/studio/`) et sa source
+  canonique `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md`
+  mis à jour à l'identique (diff vérifié vide après édition) : script 4
+  ajouté à la liste du volet 1 avec sa justification (registre-problemes.md,
+  entrée 2026-08-17), mention explicite du second job `--no-agent` comme
+  garantie mécanique et de sa préséance en cas de désaccord, format de
+  rapport porté de 5 à 8 sections.
+- **Liens** : [[atelier/rd/cahiers/registre-problemes]] (entrée 2026-08-17,
+  deuxième mise à jour), `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md`.
+- **Commit** : (voir entrée suivante)
+
 ## [2026-08-17] outillage | Contrôle déterministe de cohérence infrastructure — angle mort doc/runtime
 
 - **Symptôme** : investigation demandée par Sidy sur l'angle mort de
