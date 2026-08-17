@@ -33,7 +33,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   rapport porté de 5 à 8 sections.
 - **Liens** : [[atelier/rd/cahiers/registre-problemes]] (entrée 2026-08-17,
   deuxième mise à jour), `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md`.
-- **Commit** : (voir entrée suivante)
+- **Commit** : b3de0c4
 
 ## [2026-08-17] outillage | Contrôle déterministe de cohérence infrastructure — angle mort doc/runtime
 
