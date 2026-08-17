@@ -10,6 +10,47 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-16] infrastructure | Activation du salon #infrastructure — allowlist studio
+
+- **Symptôme** : le salon Discord `#infrastructure`
+  (`1536564394690084925`), créé en anticipation de la phase 3
+  (veille infrastructure par le Studio Sound Engineer, pos. 9),
+  était muet — l'agent `studio` ne répondait à aucun message
+  malgré un service gateway actif et connecté.
+- **Cause** : le salon n'avait jamais été ajouté à
+  `DISCORD_ALLOWED_CHANNELS` du profil `studio`. Le comportement
+  fail-closed de l'allowlist fait que tout message hors liste est
+  silencieux (aucun log d'erreur — le silence est le comportement
+  attendu).
+- **Correction** : ajout de l'ID numérique dans l'allowlist,
+  redémarrage du service (`systemctl --user restart
+  hermes-gateway-studio.service`). Log confirmé : `Channel
+  directory built: 9 target(s)` (était 8). Agent opérationnel
+  dans le salon — vérification réelle par Sidy.
+- **Leçon** : la création d'un salon Discord et l'autorisation
+  d'un agent Hermes à y répondre sont deux gestes distincts — le
+  premier est un acte Discord (humain/admin), le second un acte
+  de configuration Hermes (`.env` du profil + restart). Pour
+  tout futur salon confié à un agent, vérifier
+  systématiquement `DISCORD_ALLOWED_CHANNELS` et, si souhaité,
+  `DISCORD_FREE_RESPONSE_CHANNELS` (non activé dans cette passe
+  — `studio` répond sur @mention uniquement dans
+  `#infrastructure`).
+- **Fiche R&D** :
+  `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md`
+  (diagnostic, correction, état, points ouverts).
+- **Configuration Hermes** (`.env`, services systemd) : hors
+  dépôt, jamais commitée — le présent commit ne porte que la
+  documentation wiki (fiche + annales), vérifiée exempte de
+  tout secret avant staging.
+- **Vérification** : `verifier-invariants.py --racine /root/wiki`
+  — 0 erreur(s), 50 avertissement(s) (baseline stable,
+  avertissements pré-existants C4 sur liens `doctrinal` →
+  `meta/` dans les annales/index doctrinaux).
+- **Commit** : (à venir)
+
+---
+
 ## [2026-08-16] correction | Canal Telegram Mehdi — architecture initiale en service
 
 - **Écart initial** : session Hermes terminal a d'abord configuré Telegram sur
@@ -1023,5 +1064,41 @@ des fiches `doctrinal/discernement/`.
   * Réserve résiduelle (fiche doctrinal) : lien explicite wirātha↔aqtāb non localisé dans
     extrait transmis du Futūḥāt ch. 36 — à rechercher pour ancrage (c) plus complet.
 - **Génération manifeste** : `wiki-manifest.json` produit sans anomalie.
+
+---
+
+## [2026-08-17] activation | monitoring quotidien (cron) + correction HOME_CHANNEL — profil studio
+
+- **Constat** : après extension du SOUL.md du profil `studio` (volet 1
+  monitoring + volet 2 R&D, validée le 2026-08-16 par le gardien), deux
+  incohérences identifiées : (1) `DISCORD_HOME_CHANNEL` pointait vers
+  `#analog-wizard` (`1535173127695241248`) au lieu de `#infrastructure`
+  (`1536564394690084925`) — notifications de startup/shutdown dans le
+  mauvais salon ; (2) aucun cron job créé pour le volet 1 du mandat
+  (`hermes --profile studio cron list` → « No scheduled jobs »).
+- **Action 1** : correction du `DISCORD_HOME_CHANNEL` dans
+  `/root/.hermes/profiles/studio/.env` (`1535173127695241248` →
+  `1536564394690084925`). Redémarrage du gateway (`hermes --profile
+  studio gateway restart`, PID 2011978). Vérification au log : « Sent
+  home-channel startup notification to discord:1536564394690084925 »
+  — notification confirmée sur `#infrastructure`.
+- **Action 2** : création du cron job `monitoring-infrastructure-quotidien`
+  (job ID `b7acb57e3d58`), schedule `0 12 * * *`, deliver
+  `discord:1536564394690084925`, workdir `/root/wiki`, toolsets
+  `terminal/file/read_file/execute_code`. Prompt : orchestration des
+  3 scripts déterministes + empreinte serveur + registre
+  Hermes-Terminal, rapport 5 sections conforme au SOUL.md §Volet 1.
+  Prochaine exécution : 2026-08-17 à 12h00 UTC.
+- **Volet 2 (R&D)** : défini dans le SOUL.md, non activé par cron
+  (nature événementielle). Point ouvert : mécanisme de déclenchement
+  à définir (cron événementiel, extension du prompt volet 1, ou appel
+  manuel).
+- **Leçon** : deux gestes distincts lors de l'extension d'un mandat
+  agent — (a) écrire le prompt SOUL.md (fait par le gardien), (b)
+  configurer les variables Hermes qui en découlent (HOME_CHANNEL,
+  cron jobs, workdir, toolsets) — le (b) avait été omis. Vérifier
+  systématiquement qu'un `cron list` confirme la présence effective
+  du job après toute proposition acceptée.
+- **Fiche** : [[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17|activation-monitoring-studio-cron-2026-08-17]]
 
 ---
