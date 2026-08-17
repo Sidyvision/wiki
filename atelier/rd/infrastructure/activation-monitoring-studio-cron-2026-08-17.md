@@ -101,30 +101,44 @@ des 12 profils, staleness de `_inbox/`), puis formate un rapport en
 
 Prochaine exécution : 2026-08-17 à 12:00 UTC.
 
-## 4. État du volet 2 — Recherche & développement
+## 4. État du volet 2 — Recherche & développement (option a validée)
 
-Le volet 2 est **défini** dans le SOUL.md (mandat R&D événementiel)
-mais **non activé** par un cron — c'est cohérent avec sa nature
-événementielle (pas de cadence quotidienne). Son déclenchement
-repose sur deux mécanismes :
+Le volet 2 est défini dans le SOUL.md (mandat R&D événementiel).
+Plutôt que de créer un cron séparé, l'option (a) a été validée par
+Sidy le 2026-08-17 : intégrer la détection de nouvelles fiches dans
+le prompt du cron quotidien existant.
 
-1. **Dépôt de nouvelle source** dans `rd/` : l'agent studio, en
-   exécution du cron quotidien (volet 1), peut détecter les
-   nouveaux fichiers via `detecter-non-tracke.py` et les analyser.
-   Cependant, le prompt actuel du cron ne prévoit pas cette
-   analyse de nouveaux documents — elle nécessiterait une extension
-   du prompt cron ou un cron séparé déclenché par la détection.
+### Mécanisme implémenté
 
-2. **Recherche internet proactive** : pas de mécanisme d'exécution
-   automatique actuellement. Reposerait sur un appel explicite de
-   Sidy ou une extension future du cron.
+**Script de détection** :
+`atelier/rd/outillage/detecter-nouvelles-fiches-rd.sh` — compare un
+snapshot horodaté de `atelier/rd/` avec l'état précédent (stocké
+dans `atelier/rd/outillage/.snapshots-rd/`). Détecte :
+- Fichiers nouveaux (présents aujourd'hui, absents hier)
+- Fichiers modifiés (timestamp changé entre les deux runs)
 
-**Proposition** (non tranchée, soumise à verdict) : créer un second
-cron événementiel — pas de schedule fixe, mais déclenché manuellement
-ou via un script de surveillance de `rd/` — pour le volet 2.
-Alternative : intégrer la détection de nouvelles fiches dans le
-prompt du cron quotidien existant (l'agent compare les fichiers de
-`rd/` avec un état précédent et analyse toute nouveauté).
+Le script est exécuté par le cron quotidien **après** le volet 1.
+Si la sortie est `aucune-nouvelle-fiche` → le rapport final n'a pas
+de section R&D. Si des fiches sont listées → l'agent les lit, les
+analyse, les rapproche du `registre-problemes.md`, et formule des
+propositions d'optimisation (marquées PROPOSITION, jamais décision).
+
+### Mise à jour du prompt cron
+
+Le prompt du job `b7acb57e3d58` a été étendu (2026-08-17) pour
+intégrer le volet 2 après le volet 1. Le rapport final passe de
+5 à 6 sections : §1-§4 monitoring, §5 R&D (conditionnel), §6
+Suggestions.
+
+### Limites
+
+- Le script détecte les modifications par timestamp, pas par contenu
+  (un fichier édité sans changement de mtime ne sera pas vu — rare
+  en pratique, les outils d'édition modernes mettent à jour le mtime).
+- La recherche internet proactive n'est pas automatisée — signalée
+  dans §6 Suggestions quand pertinente, exécutée sur demande.
+- Le snapshot est initialisé au premier run (2026-08-17 12:00 UTC) —
+  aucune détection avant le second run (2026-08-18 12:00 UTC).
 
 ## 5. État final après correction
 

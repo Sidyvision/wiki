@@ -1089,10 +1089,18 @@ des fiches `doctrinal/discernement/`.
   3 scripts déterministes + empreinte serveur + registre
   Hermes-Terminal, rapport 5 sections conforme au SOUL.md §Volet 1.
   Prochaine exécution : 2026-08-17 à 12h00 UTC.
-- **Volet 2 (R&D)** : défini dans le SOUL.md, non activé par cron
-  (nature événementielle). Point ouvert : mécanisme de déclenchement
-  à définir (cron événementiel, extension du prompt volet 1, ou appel
-  manuel).
+- **Action 3 (volet 2 R&D — option a validée)** : Sidy a validé
+  l'intégration de la détection de nouvelles fiches dans le prompt du
+  cron quotidien (option a, plutôt que cron séparé). Création du script
+  `atelier/rd/outillage/detecter-nouvelles-fiches-rd.sh` — compare des
+  snapshots horodatés de `atelier/rd/` (stockés dans
+  `.snapshots-rd/`), détecte fichiers nouveaux et modifiés. Mise à jour
+  du prompt du job `b7acb57e3d58` : ajout du volet 2 après le volet 1,
+  rapport passe de 5 à 6 sections (§5 R&D conditionnel, §6 Suggestions).
+  Si aucune nouvelle fiche → pas de §5. Si fiches détectées → l'agent
+  les lit, analyse, rapproche du `registre-problemes.md`, formule des
+  propositions (marquées PROPOSITION, jamais décision). Recherche
+  internet proactive : signalée dans §6, exécutée sur demande.
 - **Leçon** : deux gestes distincts lors de l'extension d'un mandat
   agent — (a) écrire le prompt SOUL.md (fait par le gardien), (b)
   configurer les variables Hermes qui en découlent (HOME_CHANNEL,
