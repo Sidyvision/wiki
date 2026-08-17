@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-15
+updated: 2026-08-17
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,95 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-17] ouvert | Angle mort de continuité tâches/information entre Claude Code, H‍ermes Terminal et agents Discord — le cron « créé » du 2026-08-17 n'existe pas
+
+**Symptôme brut** :
+- `hermes --profile studio cron list` → « No scheduled jobs » (vérifié 2026-08-17,
+  session Claude Code).
+- La fiche `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md`,
+  commitée le même jour (commit `000ade2`), affirme la création d'un job
+  `b7acb57e3d58` (`0 12 * * *`, livrable `#infrastructure`) et donne un tableau
+  de paramètres complet + « prochaine exécution : 2026-08-17 à 12:00 UTC ».
+- `grep -i "cron\|b7acb57e3d58"` sur `/root/.hermes/profiles/studio/logs/gateway.log`
+  ne retourne aucune occurrence : aucune trace de création n'existe côté runtime.
+- En revanche, la correction jumelle documentée dans la même fiche
+  (`DISCORD_HOME_CHANNEL` → `1536564394690084925`) est, elle, réellement
+  appliquée et vérifiable : le log confirme `Sent home-channel startup
+  notification to discord:1536564394690084925` à `04:54:23` le 2026-08-17,
+  ligne pour ligne identique à celle citée dans la fiche.
+
+**Diagnostic** : la fiche mélange une correction réellement effectuée et
+vérifiée (HOME_CHANNEL) avec une correction narrée mais non appliquée (cron)
+— sans que rien, ni dans la rédaction ni dans la relecture avant commit, ne
+distingue les deux. C'est la troisième occurrence en 48h du même motif « deux
+gestes distincts » déjà nommé par cette fiche elle-même en §6 (Sceau/prompt
+écrit ≠ configuration H‍ermes opérée) et par la fiche du 2026-08-16
+(`activation-salon-infrastructure-studio-2026-08-16.md`, création de salon
+Discord ≠ autorisation allowlist) — mais ici la fiche prescrit explicitement
+la vérification qui aurait détecté l'anomalie (§6.3 : « vérifier
+systématiquement qu'un `cron list` confirme la présence effective du job ») et
+ne l'applique pas à elle-même. Le §VIII.2 du protocole racine (« fiabilité
+d'action ≠ fiabilité narrative ») est directement en cause : aucune
+vérification mécanique indépendante n'a précédé la clôture de cette passe,
+malgré la consigne explicite qu'elle contient.
+
+Constat périphérique corroborant le même diagnostic plus large (angle mort de
+continuité entre les trois surfaces agentiques — Claude Code, H‍ermes Terminal,
+agents Discord) : la fiche `activation-salon-infrastructure-studio-2026-08-16.md`,
+commitée le 2026-08-16 (commit `954712f`) et référencée en lien par la fiche
+du 17, réapparaît en `git status` comme fichier non tracké (`??`) dans l'arbre
+de travail courant de cette session — signe qu'au moins deux copies locales du
+dépôt (postes/agents distincts) divergent d'un commit à l'autre sans
+mécanisme de détection.
+
+**Résolution** : aucune — investigation Claude Code, aucune écriture de fond
+n'a été faite (Cmd 6). Options possibles à trancher par Sidy, non appliquées :
+(a) créer effectivement le job cron `monitoring-infrastructure-quotidien` tel
+que décrit dans la fiche du 17 ; (b) ajouter, à `detecter-non-tracke.py` ou à
+un nouveau script `rd/outillage/`, un contrôle de réconciliation déterministe
+doc↔runtime (cron H‍ermes déclarés vs `cron list` réel par profil, allowlists
+`.env` vs salons cités dans les fiches `infrastructure/`), exécuté par le cron
+quotidien lui-même et rapporté en `#infrastructure` ; (c) exiger qu'aucune
+fiche `infrastructure/` ne soit commitée sans coller la sortie brute de la
+commande de vérification citée dans son propre corps (auto-cohérence de la
+fiche, plutôt qu'un contrôle externe).
+
+**Compréhension tirée** : la narration d'une vérification n'est pas une
+vérification — y compris quand elle est écrite par l'agent qui vient de poser
+la règle inverse dans le même document. Le blindage contre ce motif ne peut
+pas être une nouvelle consigne rédactionnelle (déjà tentée dans cette même
+fiche, déjà retombée) : il doit être un contrôle déterministe, sans LLM dans
+la boucle, au même titre que `verifier-invariants.py` — sinon chaque nouvelle
+fiche d'infrastructure porte le même risque que celle qui vient de le
+documenter.
+
+**Liens** : `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md` ;
+`atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md` ;
+`atelier/rd/cahiers/bilan-2026-08-15-pont-agents.md` (chantier D, phase 3) ;
+`CLAUDE.md` §VIII.2 (fiabilité d'action ≠ fiabilité narrative) ;
+`atelier/rd/outillage/verifier-coherence-infrastructure.py`.
+
+**Mise à jour [2026-08-17]** : l'option (b) a été retenue et appliquée. Nouveau
+script déterministe `atelier/rd/outillage/verifier-coherence-infrastructure.py`
+(sans LLM, sans réseau) : confronte le bloc `infra_verif` du frontmatter des
+fiches `atelier/rd/infrastructure/*.md` à l'état réel (`hermes cron list --all`,
+lecture des `.env`). Premier run (avant correction) : `1 écart(s)` — reproduit
+mécaniquement l'anomalie ci-dessus (cron absent). Le job cron
+`monitoring-infrastructure-quotidien` a ensuite été effectivement créé
+(`hermes --profile studio cron create`, job réel `41dc3e7e492c`, `0 12 * * *`,
+livrable `#infrastructure`) — un ID différent de celui narré à tort dans la
+fiche du 17 (`b7acb57e3d58`), confirmant qu'il s'agit d'une création réelle et
+non d'une coïncidence. Second run : `0 écart(s)`. Un second job cron,
+`coherence-infrastructure-brute` (`ca9593f3a03d`, `5 12 * * *`, `--no-agent
+--script`), a été créé en garantie mécanique : il livre le stdout brut du
+script sur `#infrastructure` chaque jour, sans passer par le LLM — même si un
+futur rapport d'agent narre mal, ce second canal ne peut pas fabuler. Bloc
+`infra_verif` ajouté rétroactivement aux deux fiches citées en lien.
+
+**Statut** : `resolu`.
 
 ---
 

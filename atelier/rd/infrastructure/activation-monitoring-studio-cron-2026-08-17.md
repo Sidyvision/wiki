@@ -6,6 +6,10 @@ created: 2026-08-17
 updated: 2026-08-17
 sources: []
 links: ["[[atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16]]", "[[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]]"]
+infra_verif:
+  - profil: studio
+    cron_job: monitoring-infrastructure-quotidien
+    discord_home_channel: "1536564394690084925"
 ---
 
 # Activation du monitoring quotidien (cron) et correction HOME_CHANNEL — profil `studio`
