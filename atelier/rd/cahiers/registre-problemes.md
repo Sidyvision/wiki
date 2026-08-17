@@ -100,6 +100,25 @@ documenter.
 `CLAUDE.md` §VIII.2 (fiabilité d'action ≠ fiabilité narrative) ;
 `atelier/rd/outillage/verifier-coherence-infrastructure.py`.
 
+**Correction [2026-08-17]** : le constat périphérique ci-dessus (lignes 67-74)
+contenait lui-même une affirmation non vérifiée — même motif que celui
+diagnostiqué dans cette entrée. `git log --all -S <ID salon> -- atelier/` et
+`git log --follow` sur le chemin de la fiche montrent que
+`activation-salon-infrastructure-studio-2026-08-16.md` n'a **jamais** été
+commitée avant ce jour (aucun commit, y compris `954712f`, ne la touche —
+`954712f` est un commit réel du 2026-08-16 mais concerne le canal Telegram
+Mehdi et le mandat de l'agent 09, sans rapport avec cette fiche). Il n'y a
+donc pas de « deux copies du dépôt qui divergent » : la fiche a été écrite sur
+disque le 2026-08-16 mais jamais `git add`ée/commitée, alors que la fiche du
+17 la référençait déjà en lien comme si elle existait dans l'historique —
+même écart doc↔runtime que celui documenté ci-dessus, à la couche git plutôt
+qu'à la couche H‍ermes. `detecter-non-tracke.py` l'aurait signalée (elle
+figure dans son périmètre `atelier/`) : soit il n'a pas tourné entre le 16 et
+aujourd'hui, soit son signalement n'a pas été traité. Corrigée dans le même
+commit que la présente entrée (`aae8660`) : la fiche est désormais commitée
+et versionnée. Aucune divergence multi-copie réelle constatée — hypothèse du
+16-17 août invalidée par la mesure.
+
 **Mise à jour [2026-08-17]** : l'option (b) a été retenue et appliquée. Nouveau
 script déterministe `atelier/rd/outillage/verifier-coherence-infrastructure.py`
 (sans LLM, sans réseau) : confronte le bloc `infra_verif` du frontmatter des
