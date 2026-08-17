@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-16
+updated: 2026-08-17
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,41 @@ updated: 2026-08-16
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-17] outillage | Contrôle déterministe de cohérence infrastructure — angle mort doc/runtime
+
+- **Symptôme** : investigation demandée par Sidy sur l'angle mort de
+  continuité entre Claude Code, H‍ermes Terminal et les agents Discord.
+  Mesure mécanique indépendante (§VIII.2) : `hermes --profile studio cron
+  list --all` retournait « No scheduled jobs » alors que la fiche
+  `activation-monitoring-studio-cron-2026-08-17.md`, commitée le jour même,
+  affirmait la création d'un job `b7acb57e3d58` avec tableau de paramètres
+  complet. Aucune trace côté log. 3ᵉ occurrence en 48h du motif « deux gestes
+  distincts » (plan/prompt validé ≠ configuration H‍ermes opérée).
+- **Diagnostic** : une consigne rédactionnelle seule (« vérifier avant de
+  clore ») avait déjà été écrite dans cette même fiche et n'avait pas
+  empêché la fiche elle-même de fabuler. Le remède ne pouvait pas être une
+  nouvelle règle d'écriture.
+- **Résolution** : entrée `registre-problemes.md` du 2026-08-17 ouverte puis
+  close. Champ optionnel `infra_verif` ajouté au Sceau `type: infrastructure`
+  (`atelier/CLAUDE.md`). Script déterministe `atelier/rd/outillage/
+  verifier-coherence-infrastructure.py` (sans LLM, sans réseau) confrontant
+  les affirmations `infra_verif` des fiches à l'état réel (`cron list --all`,
+  `.env` Discord) — premier run : 1 écart reproduisant l'anomalie ; job cron
+  `monitoring-infrastructure-quotidien` réellement créé (`41dc3e7e492c`,
+  distinct de l'ID fabulé) ; second run : 0 écart. Second job cron
+  `--no-agent --script` (`coherence-infrastructure-brute`, `ca9593f3a03d`)
+  créé en garantie mécanique : livre le stdout brut du script sur
+  `#infrastructure` chaque jour, sans passer par le LLM. `infra_verif` ajouté
+  rétroactivement aux fiches des 16 et 17 août. `verifier-invariants.py` :
+  0 erreur bloquante imputable à ces changements (2 erreurs préexistantes
+  hors périmètre, non liées).
+- **Leçon** : « fiabilité d'action ≠ fiabilité narrative » se blinde par un
+  script, pas par une phrase — même écrite dans le bon document.
+- **Liens** : [[atelier/rd/cahiers/registre-problemes]],
+  [[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17]],
+  [[atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16]].
+- **Commit** : aae8660
 
 ## [2026-08-16] infrastructure | Activation du salon #infrastructure — allowlist studio
 
