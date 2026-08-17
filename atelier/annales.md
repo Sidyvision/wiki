@@ -985,6 +985,50 @@ des fiches `doctrinal/discernement/`.
 
 ---
 
+## [2026-08-17] activation | monitoring quotidien (cron) + correction HOME_CHANNEL — profil studio
+
+- **Constat** : après extension du SOUL.md du profil `studio` (volet 1
+  monitoring + volet 2 R&D, validée le 2026-08-16 par le gardien), deux
+  incohérences identifiées : (1) `DISCORD_HOME_CHANNEL` pointait vers
+  `#analog-wizard` (`1535173127695241248`) au lieu de `#infrastructure`
+  (`1536564394690084925`) — notifications de startup/shutdown dans le
+  mauvais salon ; (2) aucun cron job créé pour le volet 1 du mandat
+  (`hermes --profile studio cron list` → « No scheduled jobs »).
+- **Action 1** : correction du `DISCORD_HOME_CHANNEL` dans
+  `/root/.hermes/profiles/studio/.env` (`1535173127695241248` →
+  `1536564394690084925`). Redémarrage du gateway (`hermes --profile
+  studio gateway restart`, PID 2011978). Vérification au log : « Sent
+  home-channel startup notification to discord:1536564394690084925 »
+  — notification confirmée sur `#infrastructure`.
+- **Action 2** : création du cron job `monitoring-infrastructure-quotidien`
+  (job ID `b7acb57e3d58`), schedule `0 12 * * *`, deliver
+  `discord:1536564394690084925`, workdir `/root/wiki`, toolsets
+  `terminal/file/read_file/execute_code`. Prompt : orchestration des
+  3 scripts déterministes + empreinte serveur + registre
+  Hermes-Terminal, rapport 5 sections conforme au SOUL.md §Volet 1.
+  Prochaine exécution : 2026-08-17 à 12h00 UTC.
+- **Action 3 (volet 2 R&D — option a validée)** : Sidy a validé
+  l'intégration de la détection de nouvelles fiches dans le prompt du
+  cron quotidien (option a, plutôt que cron séparé). Création du script
+  `atelier/rd/outillage/detecter-nouvelles-fiches-rd.sh` — compare des
+  snapshots horodatés de `atelier/rd/` (stockés dans
+  `.snapshots-rd/`), détecte fichiers nouveaux et modifiés. Mise à jour
+  du prompt du job `b7acb57e3d58` : ajout du volet 2 après le volet 1,
+  rapport passe de 5 à 6 sections (§5 R&D conditionnel, §6 Suggestions).
+  Si aucune nouvelle fiche → pas de §5. Si fiches détectées → l'agent
+  les lit, analyse, rapproche du `registre-problemes.md`, formule des
+  propositions (marquées PROPOSITION, jamais décision). Recherche
+  internet proactive : signalée dans §6, exécutée sur demande.
+- **Leçon** : deux gestes distincts lors de l'extension d'un mandat
+  agent — (a) écrire le prompt SOUL.md (fait par le gardien), (b)
+  configurer les variables Hermes qui en découlent (HOME_CHANNEL,
+  cron jobs, workdir, toolsets) — le (b) avait été omis. Vérifier
+  systématiquement qu'un `cron list` confirme la présence effective
+  du job après toute proposition acceptée.
+- **Fiche** : [[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17|activation-monitoring-studio-cron-2026-08-17]]
+
+---
+
 ## [2026-08-08] migration | `atelier/projets/` → `rd/` — 16 fiches migrées (proposition §IV exécutée)
 
 - **Opération** : migration fiche par fiche du dossier `projets/` vers le pôle
@@ -1054,52 +1098,6 @@ des fiches `doctrinal/discernement/`.
 - **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
   `0 erreur(s), 0 avertissement(s).` (exécuté avant le commit).
 - **Commit** : 3c1b3d8
-
----
-
-## [2026-08-17] activation | monitoring quotidien (cron) + correction HOME_CHANNEL — profil studio
-
-- **Constat** : après extension du SOUL.md du profil `studio` (volet 1
-  monitoring + volet 2 R&D, validée le 2026-08-16 par le gardien), deux
-  incohérences identifiées : (1) `DISCORD_HOME_CHANNEL` pointait vers
-  `#analog-wizard` (`1535173127695241248`) au lieu de `#infrastructure`
-  (`1536564394690084925`) — notifications de startup/shutdown dans le
-  mauvais salon ; (2) aucun cron job créé pour le volet 1 du mandat
-  (`hermes --profile studio cron list` → « No scheduled jobs »).
-- **Action 1** : correction du `DISCORD_HOME_CHANNEL` dans
-  `/root/.hermes/profiles/studio/.env` (`1535173127695241248` →
-  `1536564394690084925`). Redémarrage du gateway (`hermes --profile
-  studio gateway restart`, PID 2011978). Vérification au log : « Sent
-  home-channel startup notification to discord:1536564394690084925 »
-  — notification confirmée sur `#infrastructure`.
-- **Action 2** : création du cron job `monitoring-infrastructure-quotidien`
-  (job ID `b7acb57e3d58`), schedule `0 12 * * *`, deliver
-  `discord:1536564394690084925`, workdir `/root/wiki`, toolsets
-  `terminal/file/read_file/execute_code`. Prompt : orchestration des
-  3 scripts déterministes + empreinte serveur + registre
-  Hermes-Terminal, rapport 5 sections conforme au SOUL.md §Volet 1.
-  Prochaine exécution : 2026-08-17 à 12h00 UTC.
-- **Action 3 (volet 2 R&D — option a validée)** : Sidy a validé
-  l'intégration de la détection de nouvelles fiches dans le prompt du
-  cron quotidien (option a, plutôt que cron séparé). Création du script
-  `atelier/rd/outillage/detecter-nouvelles-fiches-rd.sh` — compare des
-  snapshots horodatés de `atelier/rd/` (stockés dans
-  `.snapshots-rd/`), détecte fichiers nouveaux et modifiés. Mise à jour
-  du prompt du job `b7acb57e3d58` : ajout du volet 2 après le volet 1,
-  rapport passe de 5 à 6 sections (§5 R&D conditionnel, §6 Suggestions).
-  Si aucune nouvelle fiche → pas de §5. Si fiches détectées → l'agent
-  les lit, analyse, rapproche du `registre-problemes.md`, formule des
-  propositions (marquées PROPOSITION, jamais décision). Recherche
-  internet proactive : signalée dans §6, exécutée sur demande.
-- **Leçon** : deux gestes distincts lors de l'extension d'un mandat
-  agent — (a) écrire le prompt SOUL.md (fait par le gardien), (b)
-  configurer les variables Hermes qui en découlent (HOME_CHANNEL,
-  cron jobs, workdir, toolsets) — le (b) avait été omis. Vérifier
-  systématiquement qu'un `cron list` confirme la présence effective
-  du job après toute proposition acceptée.
-- **Fiche** : [[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17|activation-monitoring-studio-cron-2026-08-17]]
-
----
 
 ## [2026-08-08] archivage | Studio Principal — fiche-hub de l'espace d'atelier
 
