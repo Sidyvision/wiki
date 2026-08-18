@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,99 @@ updated: 2026-08-17
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-18] rd | Cause racine cartographie corrigée, registre enrichi, archive monitoring quotidien (40j)
+
+- **Contexte** : trois tâches de clôture de session R&D (Sidy) — (a) corriger
+  à la racine `Graphe/generer-cartographie.py` pour qu'il lise les champs de
+  liens français (`liens:`, `liens_atelier:`) en plus des champs anglais,
+  au lieu du contournement précédent (chemins nus ajoutés côté agent) ;
+  (b) consigner les leçons de la session au registre des problèmes R&D ;
+  (c) archiver le rapport de monitoring infrastructure quotidien (livré via
+  Discord) dans un dossier dédié du pôle R&D, rétention 40 jours, pour
+  renforcer le monitoring de l'agent lui-même.
+- **Actions** :
+  1. `CHAMPS_LIENS` unifié dans `generer-cartographie.py` sur les 4 circuits
+     (`sources`, `liens`, `liens_atelier`, `links`, `cross_links`) — mesure
+     avant/après : 62 → 51 isolés du seul fait de cette correction, aucune
+     régression d'étanchéité constatée.
+  2. Deux entrées ajoutées à
+     [[atelier/rd/cahiers/registre-problemes]] : la cause racine ci-dessus
+     (avec quatre points ouverts pour verdict de Sidy) et une découverte
+     annexe — le job cron H‍ermes `coherence-infrastructure-brute` (profil
+     `studio`), censé être le contrôle anti-fabulation direct de l'étape 4
+     du rapport quotidien, échoue depuis sa création (script introuvable au
+     chemin résolu par H‍ermes pour un job `no_agent`) et n'est documenté
+     nulle part. Signalé, non corrigé (modification d'un job de production,
+     décision humaine requise).
+  3. Nouveau dossier
+     [[atelier/rd/infrastructure/monitoring-archive-charte|monitoring-archive/]]
+     (charte + script déterministe
+     [[atelier/rd/outillage/spec-archiver-monitoring-quotidien|
+     archiver-monitoring-quotidien.py]]) : copie datée `.txt` (jamais `.md`,
+     pour éviter que l'archive ne s'auto-déclenche sur ses propres tokens
+     `[[...]]` cités en sortie brute) de chaque exécution du job H‍ermes
+     `monitoring-infrastructure-quotidien`, purge au-delà de 40 jours.
+     Découvert en cours de route : H‍ermes persiste déjà chaque sortie de job
+     cron sur disque — le script se branche dessus sans toucher au job de
+     production ni à Discord. Testé en dry-run puis appliqué : 2 rapports
+     archivés (2026-08-17, 2026-08-18). Déclenchement récurrent (manuel ou
+     cron dédié) laissé en attente de choix de Sidy.
+  4. `atelier/rd/index.md` mis à jour (arborescence, état de phase).
+- **Compréhension tirée** : troisième occurrence du motif « cron affirmé ≠
+  cron fonctionnel » dans ce registre — un job `enabled + scheduled` ne
+  garantit rien sur son historique réel de succès, seule une lecture directe
+  de l'état H‍ermes (ou une inspection CLI qui manque aujourd'hui) le révèle.
+- **Commit** : 61f3469
+
+## [2026-08-18] archivage | Dossier SAV Neve 1073SPX + fiches matériel du studio
+
+- **Contexte** : Sidy a signalé une panne de la fonction EQ sur le Neve 1073SPX
+  (symptôme : aucun signal lorsque l'EQ est engagé). Retour SAV en cours
+  (dossier STH 424556, appareil en cours de réception par AMS Neve).
+- **Actions** :
+  1. Factures Woodbrass déposées en `raw/` :
+     - `facture-woodbrass-5003818-2026-02-05-neve-1073spx.pdf` (Neve 1073SPX,
+       1 739 € TTC, achat 2026-02-05)
+     - `facture-woodbrass-4902304-2025-11-07-tascam-model12.pdf` (Tascam Model
+       12 + Neumann TLM 103 + stand, 1 960,90 € TTC, achat 2025-11-07)
+  2. Fiche `neve-1073spx.md` enrichie : section `Identification et acquisition`
+     (N° série 2255519, date d'achat, facture) + section `Historique
+     maintenance` (timeline complète du dossier SAV) + source `raw/` du manuel
+     constructeur ajoutée au frontmatter.
+  3. Fiche `tascam-model-12.md` enrichie : section `Identification et
+     acquisition` + section `Spécifications techniques` (extraites du manuel
+     constructeur `raw/Model12_OM_EFS_RevH3.pdf`) + lien vers studio-principal
+     ajouté.
+  4. Fiches créées : `distressor-el8.md` (modèle EL8, correction 2026-08-18),
+     `revox-a77.md`, `moog-voyager.md`, `neumann-tlm103.md`.
+  5. **Enrichissement avec manuels constructeurs** (4 fiches sur 4 avec manuels
+     disponibles dans `raw/`) :
+     - `distressor-el8.md` : specs complètes extraites de
+       `raw/distressor_manual.pdf`, marqueur `to-source` **levé**
+     - `revox-a77.md` : specs complètes extraites des 3 manuels Revox
+       (notice multilangue, owners, service), marqueur `to-source` **levé**
+     - `tascam-model-12.md` : specs complètes extraites de
+       `raw/Model12_OM_EFS_RevH3.pdf`, marqueur `to-source` **levé**
+     - `neve-1073spx.md` : source du manuel ajoutée au frontmatter (specs
+       déjà présentes dans la fiche)
+     - `moog-voyager.md` et `neumann-tlm103.md` : pas de manuel disponible
+       dans `raw/`, conservent le marqueur `to-source`
+  6. Fiche `studio-principal.md` mise à jour : sections Distressor/Revox/Moog
+     remplacées par liens vers fiches propres + lien vers TLM 103 dans tableau
+     des micros.
+  7. `atelier/index.md` enrichi avec les nouvelles fiches.
+- **Liens** : [[atelier/materiel/neve-1073spx]], [[atelier/materiel/tascam-model-12]],
+  [[atelier/materiel/distressor-el8]], [[atelier/materiel/revox-a77]],
+  [[atelier/materiel/moog-voyager]], [[atelier/materiel/neumann-tlm103]],
+  [[atelier/materiel/studio-principal]].
+- **État final** :
+  - Fiches avec marqueur `to-source` **levé** : distressor-el8, revox-a77,
+    tascam-model-12, neve-1073spx (specs sourcées depuis manuels constructeurs)
+  - Fiches conservant le marqueur `to-source` : moog-voyager, neumann-tlm103
+    (pas de manuel disponible dans `raw/`), studio-principal (mémoire de session)
+- **Vérification** : `verifier-invariants.py` → 0 erreur(s), 58 avertissement(s)
+  (préexistants, non liés aux modifications de cette session).
 
 ## [2026-08-17] infrastructure | Synchronisation du mandat de l'agent studio (SOUL.md) avec sa configuration cron réelle
 
