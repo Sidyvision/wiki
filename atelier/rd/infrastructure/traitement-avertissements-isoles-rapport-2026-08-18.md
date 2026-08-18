@@ -499,9 +499,9 @@ Les compteurs cibles après traitement complet :
 |---|---|
 | Consignation R&D (§1 à §6) | ✅ Fait (cette fiche) |
 | Consultable par Claude Code | ✅ Oui — fichier dans `atelier/rd/infrastructure/` |
-| Traitement Lot 1 (C1/C4) | ⏳ En attente d'arbitrage sur §6.1 |
-| Traitement Lot 2 (isolés) | ⏳ En attente d'arbitrage sur §6.4 |
-| Double contrôle Claude Code | ⏳ À déclencher après traitement |
+| Traitement Lot 1 (C1/C4) | ✅ Fait — 38 liens C4 remplacés, 5 liens C1 corrigés |
+| Traitement Lot 2 (isolés) | ✅ Fait — 56 fiches traitées (stubs minimaux), 1 template restant (normal) |
+| Double contrôle Claude Code | ⏳ À déclencher |
 
 ## 8. Liens utiles
 
@@ -511,3 +511,99 @@ Les compteurs cibles après traitement complet :
   à enrichir post-traitement
 - `CLAUDE.md` racine §VI — règle d'étanchéité des circuits
 - `meta/CLAUDE.md` — rappel d'étanchéité Domaine Réservé
+
+## 9. Bilan du traitement (2026-08-18)
+
+### 9.1. Lot 1 — C1/C4 traités
+
+**C1 (liens cassés) — 5 corrections :**
+
+| Fichier | Correction |
+|---|---|
+| `atelier/rd/cahiers/registre-problemes.md` | Faute `infrastructure-architecture-globale` → `global` |
+| `atelier/annales.md` (2×) | `wiki-contrainte-integration-levee` → référence textuelle |
+| `atelier/rd/outillage/2026-08-13_*.md` | `wiki-contrainte-integration-levee` → référence textuelle |
+| `atelier/rd/cahiers/registre-problemes.md` | `meta/projet-unifie/16-correspondances-zodiacales-agents` → `16-mise-en-regard-theme-natal-roue-agents-2026-08-08` |
+| `doctrinal/autorites/rene-guenon.md` | `doctrinal/discernement/` (répertoire) → `voir [[doctrinal/discernement]]` |
+
+**C4 (liens `doctrinal/` → `meta/`) — 38 corrections :**
+
+| Fichier | Nb | Stratégie |
+|---|---|---|
+| `doctrinal/annales.md` | 33 | Remplacés par `(cf. Domaine Réservé, fiche ...)` |
+| `atelier/index.md` | 2 | Idem |
+| `atelier/rd/index.md` | 1 | Idem |
+| `doctrinal/index.md` | 2 | Idem |
+
+### 9.2. Lot 2 — Fiches isolées traitées (56)
+
+**Approche** : création de stubs minimaux avec frontmatter YAML valide + `cross_links`
+vers fiches sœurs/parentes.
+
+**Répartition par circuit :**
+
+| Circuit | Nb fiches | Exemples |
+|---|---|---|
+| `atelier/etudes-de-cas/` | 3 | Kojima Productions, Stones Throw Records |
+| `atelier/materiel/` | 1 | Technics SU-8080 |
+| `atelier/projets/` | 8 | Album personnel, angles de l'espace, instrument feuille de route v2 |
+| `atelier/rd/*` | 15 | CAHIER-2026-04-30, cahiers, documentation, instrumentation |
+| `doctrinal/discernement/` | 22 | Discernement sur la connaissance, discernement sur l'être, discernement sur le temps |
+| `doctrinal/symboles/` | 2 | Ashhab, symbole du cercle |
+| `label/direction-artistique/` | 3 | Amorcage génération non-cumulative, charte visuelle, direction artistique |
+| `label/distribution/` | 1 | Distribution digitale |
+| `label/production/` | 1 | Modèle économique |
+
+**Modification technique** : `Graphe/generer-cartographie.py`
+
+La fonction `extraire_cible()` accepte désormais **deux formats** de liens dans
+le frontmatter :
+
+1. **Wikilink** : `[[chemin/vers/fiche]]` (format historique)
+2. **Chemin brut** : `chemin/vers/fiche` (format YAML natif)
+
+**Raison** : YAML désérialise automatiquement `[[chemin]]` en liste Python
+`['chemin']`, puis en string. Le générateur de cartographie n'acceptait que le
+format wikilink, ce qui cassait la résolution des liens en format brut.
+
+**Correction** : Ajout d'un fallback dans `extraire_cible()` qui accepte les
+chemins contenant `/` et ne commençant pas par `[`.
+
+### 9.3. Résultat final
+
+```
+$ python3 Graphe/generer-cartographie.py --rapport /tmp/verif.txt
+isolée         1  (template _template.md, isolé par conception)
+
+$ python3 verifier-invariants.py
+0 erreur(s), 53 avertissement(s)
+```
+
+**53 avertissements résiduels** dont ~40 faux positifs documentés :
+
+- `[[^]]` (38 occurrences dans `doctrinal/annales.md`) : motifs regex cités en
+  exemple dans les annales, pas des liens wikilink
+- Exemples dans specs techniques (`atelier/index.md`, `atelier/rd/index.md`) :
+  chemins `meta/...` cités en exemple
+- Références textuelles vers répertoires (`doctrinal/discernement/`)
+
+### 9.4. Fiches doublons supprimées
+
+Sidyvision a supprimé 4 fiches doublons (statut deprecated) :
+
+- `atelier/projets/instrument-tradition-primordiale-architecture-v0.2.md`
+- `atelier/projets/instrument-tradition-primordiale-architecture-v0.3.md`
+- `atelier/projets/instrument-tradition-primordiale-architecture-v0_3.md`
+- `atelier/projets/instrument-tradition-primordiale-architecture.md`
+
+Conservé : `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0_3.md`
+(version canonique dans le bon circuit).
+
+### 9.5. Prochaines étapes
+
+1. Documenter `_template.md` comme template dans le frontmatter (champ
+   `est_template: true` ?) pour que le générateur l'ignore
+2. Nettoyer les faux positifs `[[^]]` dans `doctrinal/annales.md` (échapper les
+   crochets ou reformuler)
+3. Créer les fiches manquantes du circuit `doctrinal/discernement/` pour absorber
+   les références textuelles
