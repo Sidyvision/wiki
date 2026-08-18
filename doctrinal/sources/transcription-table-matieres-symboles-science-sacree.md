@@ -1,14 +1,20 @@
 ---
-title: "Transcription — Table des matières intégrale, Symboles de la Science sacrée (Guénon)"
+title: Transcription — Table des matières intégrale, Symboles de la Science sacrée
+  (Guénon)
 type: source
 status: traditionnel
-tradition_cadre: "universel"
-tags: [transcription, reference, table-matieres, symbolisme]
+tradition_cadre: universel
+tags:
+- transcription
+- reference
+- table-matieres
+- symbolisme
 created: 2026-07-14
 updated: 2026-08-17
 sources: []
 sources_count: 0
-cross_links: []
+cross_links:
+- doctrinal/symboles/ashhab
 ---
 
 # Transcription — Table des matières intégrale, *Symboles de la Science sacrée* (René Guénon, Gallimard, coll. Tradition/NRF)

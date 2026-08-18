@@ -1,10 +1,17 @@
 ---
-title: "Brouillon — extension zodiacale, agent 12 commerce"
+title: Brouillon — extension zodiacale, agent 12 commerce
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-15
 updated: 2026-08-15
-tags: [hermes, zodiacal, extension-principielle]
+tags:
+- hermes
+- zodiacal
+- extension-principielle
+cross_links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries
+links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

@@ -1,8 +1,12 @@
 ---
-title: "2026-07-26_investigation-referentiels-stellaires-cycles (fiche déplacée)"
+title: 2026-07-26_investigation-referentiels-stellaires-cycles (fiche déplacée)
 type: deprecated
 created: 2026-07-26
 updated: 2026-08-08
+cross_links:
+- atelier/projets/soumission-gem-convergence-28
+links:
+- atelier/projets/soumission-gem-convergence-28
 ---
 
 # 2026-07-26_investigation-referentiels-stellaires-cycles — fiche déplacée (deprecated)

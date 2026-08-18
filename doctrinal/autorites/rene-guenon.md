@@ -40,7 +40,7 @@ Dans *Initiation et Réalisation spirituelle* (chs. XXVIII « Le masque populair
 
 > Section ouverte le 2026-08-13 pour servir d'ancrage au chantier de confrontation
 > [[doctrinal/sources/shams-al-maarif]] / corpus guénonien (voir
-> [[doctrinal/discernement/]], fiches à venir). Contenu strictement limité à ce qui
+> [[doctrinal/discernement]], fiches à venir). Contenu strictement limité à ce qui
 > est déjà sourcé dans le dépôt ; les points non couverts sont signalés `to-source`.
 
 ### Le critère opératoire : psychique n'est pas spirituel

@@ -48,7 +48,7 @@ deux événements :
   — l.14-15 : remplacement de « issues d'une même séance (khalwa du
   2026-06-20) » par « issues d'une même séance de production des fiches
   (2026-06-20) ».
-- (cf. Domaine Réservé, fiche `sidy`) — ajout d'une section « Repères chronologiques
+- [[meta/personnel/sidy]] — ajout d'une section « Repères chronologiques
   spirituels » pour ancrer la distinction (Option d'ancrage 1).
 
 **Chronologie établie** :
@@ -250,7 +250,7 @@ intégralement avant citation.
 - **Fiche corrigée** : `discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md`.
 - **Anomalies** : Sceau Recteur incomplet (`tradition_cadre`, `sources`,
   `sources_count` manquants) — complété. Deux wikilinks actifs
-  `(cf. Domaine Réservé, fiche `philosophie-sashimono`)` et `[[atelier/rd/index.md]]` violaient
+  `[[meta/philosophie-sashimono.md]]` et `[[atelier/rd/index.md]]` violaient
   l'étanchéité `doctrinal/ → meta/`/`doctrinal/ → atelier/rd/` (sens interdit,
   CLAUDE.md racine §VI, doctrinal/CLAUDE.md) — convertis en mentions texte
   non liées, annotées de la règle d'étanchéité applicable. Corps de fiche
@@ -441,7 +441,7 @@ intégralement avant citation.
 - **Créé** : [[doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle]], `status: speculatif` — reformatée au gabarit normalisé du §VII (le fichier du sas suivait une structure libre). Établit que le joint entre un principe zodiacal et sa détermination individuelle dans le thème natal de Sidy est de portance *zōsaku* (sashimono §VII) ; conséquence opératoire pour les prompts d'agents Hermes (trois éléments obligatoires : principe seul, coloration individuelle, clause négative). `to-source` sur la parenté conceptuelle universel/individuel évoquée en Généalogie.
 - **`CLAUDE.md`** : trois insertions appliquées telles que rédigées dans le fichier du sas — entrée de changelog (tête de fichier), corollaire agentique au §VI (l'étanchéité `meta/` ne s'applique plus telle quelle à la couche agentique Hermes, contrepartie non-négociable : hiérarchie ontologique explicite dans tout prompt portant une donnée personnelle), cross-référence en fin de §VIII.
 - **Écart corrigé au contrôle** : la fiche telle que rédigée dans le sas liait `doctrinal → meta/personnel/...` (sens interdit, §VI) — corrigé avant intégration (référence reformulée sans lien).
-- **Fichier orphelin constaté** : `doctrinal/discernement/compte-rendu-12-agents-2026-08-09.md`, non tracké git, jamais passé par `_inbox/`, frontmatter incomplet — écrit directement dans le circuit doctrinal par un agent Hermes en session terminal, hors protocole. Signalé à Sidy, déplacé (verdict Sidy) vers (cf. Domaine Réservé, fiche `17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09`) avec Sceau `meta` conforme, contenu intact.
+- **Fichier orphelin constaté** : `doctrinal/discernement/compte-rendu-12-agents-2026-08-09.md`, non tracké git, jamais passé par `_inbox/`, frontmatter incomplet — écrit directement dans le circuit doctrinal par un agent Hermes en session terminal, hors protocole. Signalé à Sidy, déplacé (verdict Sidy) vers [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]] avec Sceau `meta` conforme, contenu intact.
 - **Vérification** : `verifier-invariants.py` — 0 erreur, 0 avertissement après correction.
 - **Commit** : d16189b
 
@@ -604,7 +604,7 @@ intégralement avant citation.
   - [[doctrinal/sources/guenon-roi-du-monde-ch10]] (trois notes capitales : Balance de jade, remplacement fonctionnel Ourse→Pléiades, Égypte/Mêru)
   - [[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]] (14ᵉ Demeure, triple convergence numérique degré 24)
   - [[doctrinal/sources/mahdi-rouge-islam-signe-balance-II]] (Balance comme commencement cyclique, cycles Ibn ʿArabī)
-- **Créé** (fiche discernement) : 🔍 [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] — statut `en cours`, plan consigné en (cf. Domaine Réservé, fiche `plan-fiche-discernement-septenaire-transversal-2026-07-27`), rédaction déléguée session suivante
+- **Créé** (fiche discernement) : 🔍 [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] — statut `en cours`, plan consigné en [[meta/plan-fiche-discernement-septenaire-transversal-2026-07-27]], rédaction déléguée session suivante
 - **Modifié** (spécification) : [[atelier/projets/spec-anneau-zodiacal.md]] — quatre amendements applicables (dédoublement 19/20, paramètre époque validé, confirmation degré 19, non-alignement renforcé)
 - **Modifié** (manifeste Instrument) :  — ajout de 7 ancrages prophètes planétaires (degrés 21-27, source Gloton/Mahdi Rouge, statut établi) + paramètres zodiaque (degre_falak_al_buruj: 19 + degre_falak_al_manazil: 20, obliquite_deg, epoque_reference)
 - **Contexte** : vérification textuelle Gloton pp. 39-40 par Sidy (2026-07-27) ferme trois points en suspens et valide six décisions : dédoublement 19/20, paramètre époque, règle dossier égyptien, non-conflation polaire/solaire, fiche discernement unique, révision sept ancrages. Triple convergence numérique (manzil 14/degré 24, ordre cieux, Meftah) confirme Idrîs au Soleil au degré 24. Hiérarchie cosmogonique islamique (falak al-burūj/falak al-manāzil) justifie doctrinalement le dédoublement et la règle non-alignement 12/28 manāzil.
@@ -644,7 +644,7 @@ intégralement avant citation.
 
 - **Opération** : ARCHIVAGE ET DISCERNEMENT — inscription du dossier Nezâmî/Haft Peykar (fiche source + discernement haft eqlim).
 - **Créé** : [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]], [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]].
-- **Enrichi** : [[doctrinal/index.md]] (§VI sources + §VII discernement), (cf. Domaine Réservé, fiche `bibliotheque-physique`) (section III).
+- **Enrichi** : [[doctrinal/index.md]] (§VI sources + §VII discernement), [[meta/bibliotheque-physique.md]] (section III).
 - **Contexte** : extension du discernement Meru/Qâf/Dwipa (déjà clos 2026-07-14/16) par matière nezâmienne : *haft eqlim*/*haft keshvar* (sept climats ptolémaïques + *karshvar* avestique), recoupement direct chiite duodécimaine (Ibn Bâbûya — Qâf associé aux sept terres/sept climats) ; piste tertiaire Avesta↔Purâṇas (*Jambudvīpa*) documentée comme *kari-kumi* (montage à blanc, source non qualifiée).
 - **Vigilances** : Nezâmî n'est pas une autorité doctrinale du canon (poète persan XIIe, lecture mystique à confirmer sur pp. 612-660 de l'édition Barry) ; rapprochement Avesta↔Purâṇas reste *kari-kumi* strict, ne doit pas alimenter `instrument-donnees.yaml`. Qualification sashimono : lien Qâf↔sept-climats candidat *kumiko* (filiation islamique chiite, renforcement du même invariant), lien Avesta↔Purâṇas resté *kari-kumi*.
 - **Prochaine étape** : transcription directe des pp. 612-660 (« Les Sept Princesses stellaires et l'Ascension mystique ») + glose des sept contes (pp. 661-708) avant tout ancrage ou clôture (Cmd 6).
@@ -1061,7 +1061,7 @@ intégralement avant citation.
 - **Enrichi** :
   - [[doctrinal/autorites/ibn-arabi]] — ajout section « La doctrine des Malâmatiyah / Afrâd ».
   - [[doctrinal/autorites/rene-guenon]] — ajout section « Corroboration de la doctrine akbarienne des Malâmatiyah ».
-- **Corrigé** : (cf. Domaine Réservé, fiche `bibliotheque-physique`) — remplacement « Albin Michel, choix de textes » par édition Penot/Entrelacs 2009 confirmée (ISBN 978-2-908606-60-7).
+- **Corrigé** : [[meta/bibliotheque-physique.md]] — remplacement « Albin Michel, choix de textes » par édition Penot/Entrelacs 2009 confirmée (ISBN 978-2-908606-60-7).
 - **Index** : répercution en §II (Symboles : malâmatiyya sous Walāya) et §VI (Sources : deux entrées ajoutées).
 - **Note** : transcription des annexes close après recoupement intégral par Sidy sur le texte physique (deux erreurs de transcription corrigées : plage 321-333 pour Muhammad dans l'Index, doublon « 128 » sur *badal* dans le Lexique ; une erreur de structure corrigée : *al-Wâlî* dupliquée en tête de la lettre Y, repositionnée entre *walî* et *warîth*).
 
@@ -1229,7 +1229,7 @@ discernement `en cours`. Arbitrage d'ancrage : Sidy exclusivement, le critère d
 ancrage servant de signal de vigilance.
 - **Créé** : [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]] (`source`, `traditionnel`) ; [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] (`etude`, `academique`, `to-source`) ; [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]], [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]], [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28]], [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence]] (4 × `discernement`, `speculatif`, `en cours`).
 - **Noms de fichiers** : les 5 fichiers du lot Gizeh portaient un « 2 » traînant (artefact de téléchargement iPad) — nettoyé à l'intégration.
-- **Addendum** : (cf. Domaine Réservé, fiche `bibliotheque-physique`) enrichi (section VI, 9 ouvrages — texte de référence + fondations + garde-fou + sources primaires).
+- **Addendum** : [[meta/bibliotheque-physique]] enrichi (section VI, 9 ouvrages — texte de référence + fondations + garde-fou + sources primaires).
 - **Index** : index.md mis à jour (§V étude, §VI source, §VII 4 discernements, sous-sections « Gizeh / science traditionnelle antédiluvienne »).
 - **VIGILANCE** :
   1. Les 4 cibles `cross_links` de la fiche source vérifiées présentes (3 discernement + 1 étude du lot).
@@ -1261,7 +1261,7 @@ ancrage servant de signal de vigilance.
 - **Opération** : outillage (`meta/projet-unifie/`) — préparation de la transition vers Qwen3.6-27B-FP8.
 - Les deux harnais de non-régression `ornith-test.sh` (cas atelier) et `ornith-test-doctrinal.sh` (cas doctrinal, Sceau Recteur + réparation frontmatter) sont désormais **agnostiques au modèle** : variable d'affichage `MODEL_LABEL` (surchargeable, ex. `MODEL_LABEL="Qwen3.6-27B-FP8" bash …`), défaut « le modèle local ». Aucune logique de test modifiée — seuls les libellés « Ornith » deviennent dynamiques.
 - Subtilité technique : dans le harnais doctrinal, les verdicts sont dans un heredoc Python `<<'PY'` (non interpolé) → `MODEL_LABEL` passé en `argv`, pas par interpolation shell.
-- **Validé** : `selftest` des deux harnais rejoué avec `MODEL_LABEL="Qwen3.6-27B-FP8"` → **8 ✓ / 0 ✗** (atelier) et **12 ✓ / 0 ✗** (doctrinal), étiquette correctement propagée. Bacs à sable isolés (`/root/ornith-test*`) supprimés après validation. Réponse à la transition Qwen : cf. (cf. Domaine Réservé, fiche `09-briefing-transition-qwen36-27b-2026-07-01`) §5-H (même protocole `prepare → compare` qu'Ornith).
+- **Validé** : `selftest` des deux harnais rejoué avec `MODEL_LABEL="Qwen3.6-27B-FP8"` → **8 ✓ / 0 ✗** (atelier) et **12 ✓ / 0 ✗** (doctrinal), étiquette correctement propagée. Bacs à sable isolés (`/root/ornith-test*`) supprimés après validation. Réponse à la transition Qwen : cf. [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01]] §5-H (même protocole `prepare → compare` qu'Ornith).
 
 
 ## [2026-07-01] developpement | Fiche [[doctrinal/symboles/eschatologie]] développée à partir de la source Gloton
@@ -1270,7 +1270,7 @@ ancrage servant de signal de vigilance.
 - **Contenu** : synthèse strictement adossée à [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] (chap. 198 des *Futūhāt*), avec renvois de page — arc descente/retour (*maʿād*), *barzakh* supérieur (degrés 19-20), Miʿrāj comme paradigme de la remontée (degrés 21-27), Homme parfait comme terme (degré 38), distinction d'avec l'eschatologie cyclique [[manvantara]]. Aucune affirmation hors source (Cmd 5).
 - **Limites signalées dans la fiche** : le récit eschatologique détaillé (états du barzakh, Jugement, Jardin) n'est pas dans la fiche source (ch. 198 cosmologique) → reste à sourcer lors d'un ingest ultérieur.
 - **VIGILANCE** : `#stub` retiré des tags ; 7 `cross_links` vérifiés présents ; aucun lien mort ; aucune étanchéité inversée (aucun renvoi vers une fiche `discernement`).
-- **Signalement backlog** : ce qui reste à transcrire pour compléter le récit eschatologique (texte discursif du ch. 198 ; intro/annotations Gloton ; renvoi *Jésus fils de Marie* pp. 466-470 ; parallèle *ʿUqlat al-mustawfiz* Nyberg pp. 39-99) est consigné en deux endroits — section « À transcrire » de la fiche source et §E du backlog (cf. Domaine Réservé, fiche `04-sessions-par-fonction-et-backlogs`). Item « déposer dans raw/ » du §E marqué FAIT.
+- **Signalement backlog** : ce qui reste à transcrire pour compléter le récit eschatologique (texte discursif du ch. 198 ; intro/annotations Gloton ; renvoi *Jésus fils de Marie* pp. 466-470 ; parallèle *ʿUqlat al-mustawfiz* Nyberg pp. 39-99) est consigné en deux endroits — section « À transcrire » de la fiche source et §E du backlog [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]]. Item « déposer dans raw/ » du §E marqué FAIT.
 
 
 ## [2026-07-01] archivage | Intégration du sas `_inbox/` — source Ibn ʿArabī *De la mort à la résurrection* (Gloton) + briefing transition Qwen3.6-27B
@@ -1278,15 +1278,15 @@ ancrage servant de signal de vigilance.
 - **Doctrinal** : créé la fiche source primaire [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton|De la mort à la résurrection — Ibn ʿArabī (trad. M. Gloton, Albouraq)]] (`source`, `traditionnel`, islam) — chapitre 198 des *Futūhāt* (nafas al-raḥmān, 28+10 degrés, table lettre × Nom × Manzil × signe). Ajoutée à l'index §VI (regroupée avec [[doctrinal/sources/transcription-anneau-28-lettres-figure4]], même ouvrage).
 - **Réparation frontmatter** : lien `[[table-28-degres-nafas-rahman]]` (circonflexe) recartographié en `[[table-28-degres-nafas-rahman]]` (slug ASCII réel), 3 occurrences.
 - **Clôture de signalement** : ce dépôt **résout le point VIGILANCE (1)** de l'entrée « Ménage & intégration du sas `_inbox/` » (2026-07-01) — la source était « référencée mais non déposée → liens `to-source` ». Les liens de [[doctrinal/symboles/table-28-degres-nafas-rahman]] (pré-câblés) ne sont plus morts ; [[doctrinal/symboles/eschatologie]] passe de `to-source` à la source déposée (`#stub` maintenu, corps à développer côté Claude.ai).
-- **meta/ (outillage)** : classé (cf. Domaine Réservé, fiche `09-briefing-transition-qwen36-27b-2026-07-01`) (briefing transition modèle local Ornith-1.0-9B → **Qwen3.6-27B-FP8** : bilan tests Ornith, justification, 3 changements du runbook §3.2, état Pod RunPod, actions A→H). Nom normalisé en minuscules (§III). Référencé dans (cf. Domaine Réservé, fiche `README`) (Outils opérationnels). Confiné à `meta/` — aucun croisement d'étanchéité.
+- **meta/ (outillage)** : classé [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01]] (briefing transition modèle local Ornith-1.0-9B → **Qwen3.6-27B-FP8** : bilan tests Ornith, justification, 3 changements du runbook §3.2, état Pod RunPod, actions A→H). Nom normalisé en minuscules (§III). Référencé dans [[meta/projet-unifie/README]] (Outils opérationnels). Confiné à `meta/` — aucun croisement d'étanchéité.
 
 
 ## [2026-07-01] maintenance | Mise à jour des fiches de contexte pour Claude.ai
 - **Opération** : RESTAURATION/MAINTENANCE (fiches meta d'outillage — pas de contenu doctrinal).
 - **Actualisé au 2026-07-01** l'ensemble du contexte lu par la session Claude.ai (iPad) après le grand ingest :
-  (cf. Domaine Réservé, fiche `briefing-claude-ai`) (§11 état + §12 inventaire), (cf. Domaine Réservé, fiche `01-contexte-demarche-etat`) (snapshot),
-  (cf. Domaine Réservé, fiche `02-instrument-feuille-de-route`) (v0.2, convergence des 28 établie, spec axe 38°, question §8.2),
-  (cf. Domaine Réservé, fiche `04-sessions-par-fonction-et-backlogs`) (backlogs questions/vigilance/discernement + nouveau §E ingests à venir ; 14→15 discernements), (cf. Domaine Réservé, fiche `README`).
+  [[meta/briefing-claude-ai]] (§11 état + §12 inventaire), [[meta/projet-unifie/01-contexte-demarche-etat]] (snapshot),
+  [[meta/projet-unifie/02-instrument-feuille-de-route]] (v0.2, convergence des 28 établie, spec axe 38°, question §8.2),
+  [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]] (backlogs questions/vigilance/discernement + nouveau §E ingests à venir ; 14→15 discernements), [[meta/projet-unifie/README]].
 - **Instrument** : fiche architecture v0.1 marquée « jalon historique » avec renvoi vers v0.2 (Cmd 10, pas de suppression).
 
 
@@ -1298,7 +1298,7 @@ ancrage servant de signal de vigilance.
 - **Discernement** : créé [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] (`speculatif`) — tension terminologique Cinq Présences (Burckhardt vs Jurjānī), non tranchée (Cmd 12, *upakarana*).
 - **Autorité** : [[doctrinal/autorites/aiman-attar]] normalisée au Sceau Recteur (ancien export `type: entity` jamais migré à la Restauration).
 - **Atelier** (`projets/`) : architecture Instrument v0.2, feuille-de-route v2, [[atelier/projets/spec-technique-axe-38-degres|spec technique axe 38°]] et 4 échanges `soumission-gem-*`.
-- **meta/** : (cf. Domaine Réservé, fiche `bibliotheque-physique`) enrichie (Gaston Georgel, Platon *Œuvres complètes* Flammarion/Brisson, Burckhardt *Clés spirituelles de l'astrologie musulmane*, Meftah Albouraq, Ibn ʿArabī *De la mort à la résurrection*).
+- **meta/** : [[meta/bibliotheque-physique]] enrichie (Gaston Georgel, Platon *Œuvres complètes* Flammarion/Brisson, Burckhardt *Clés spirituelles de l'astrologie musulmane*, Meftah Albouraq, Ibn ʿArabī *De la mort à la résurrection*).
 - **Amorces créées** (feu vert Sidy, résolution des liens morts) : [[doctrinal/symboles/nafas-rahmani]], [[doctrinal/autorites/titus-burckhardt]], [[doctrinal/symboles/eschatologie]] (`#stub` ; `eschatologie` en `to-source` jusqu'au dépôt d'Ibn ʿArabī *De la mort à la résurrection*).
 - **VIGILANCE / signalements** (voir §fin de session) : (1) source primaire `ibn-arabi-de-la-mort-a-la-resurrection-gloton.md` référencée mais **non déposée** → liens `to-source` ; (2) [[doctrinal/symboles/hadarat-khams]] pointe vers la fiche discernement `tension-hadarat` non tranchée (étanchéité inversée §Discernement) — **signalé, non corrigé** ; (3) tensions doctrinales walāya (*quṭbiyya*/*khatm*) et recoupement wahdat/hadarat laissées à l'arbitrage de Sidy.
 
@@ -1345,7 +1345,7 @@ Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection
 - **Source brute** : image du blog *La fin des temps modernes* (« Mahdi Rouge ») + édition physique Papus 1911 (recensée en bibliothèque physique).
 - **Point retenu** : commentaire favorable du jeune Guénon (pseudonyme Palingénius, *La Gnose*, documents transmis par Charles Barlet) puis « déception » à la relecture — précédent méthodologique cité dans la fiche symbole.
 - **VIGILANCE** :
-  1. **Étanchéité §VI corrigée (signalée, non silencieuse — Cmd 7)** : la fiche-source `archeometre-saint-yves-papus-1911` mentionnait « bibliothèque de Sidy » + un lien `(cf. Domaine Réservé, fiche `bibliotheque-physique`)` (fait personnel + lien neutre→sensible, interdit) → **neutralisé** ; l'appartenance/édition est enregistrée côté (cf. Domaine Réservé, fiche `bibliotheque-physique`) (sens autorisé meta→doctrinal).
+  1. **Étanchéité §VI corrigée (signalée, non silencieuse — Cmd 7)** : la fiche-source `archeometre-saint-yves-papus-1911` mentionnait « bibliothèque de Sidy » + un lien `[[meta/bibliotheque-physique]]` (fait personnel + lien neutre→sensible, interdit) → **neutralisé** ; l'appartenance/édition est enregistrée côté [[meta/bibliotheque-physique]] (sens autorisé meta→doctrinal).
   2. URL exacte de l'article-blog non confirmée → `sources: ["to-source"]` sur la fiche-figure, signalé.
   3. **Non-syncrétisme** ajouté au backlog `meta/projet-unifie/04-…` §C : Archéomètre vs ʿilm al-ḥurūf / zodiaque islamique — jamais d'équivalence akbarienne établie.
 - **Cibles `cross_links` vérifiées présentes** : rene-guenon, wahdat-al-wujud, ilm-al-huruf, ilm-al-nujum, talisman-sihr.
@@ -1354,32 +1354,32 @@ Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection
 
 ## [2026-06-29] infra | Test Ornith cas DOCTRINAL — VERDICT 12 ✓ / 0 ✗ (consigne resserrée fiche par fiche)
 - **Opération** : INFRASTRUCTURE (session A6 — suite du test atelier `07-…`).
-- **Rangé** : (cf. Domaine Réservé, fiche résultats du test doctrinal).
+- **Rangé** : [[meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29|résultats du test doctrinal]].
 - **Résultat** : cas doctrinal (Sceau Recteur + réparation du frontmatter corrompu) **12 ✓ / 0 ✗** au 2ᵉ run. **Échec total au 1er run** (consigne large « intègre _inbox/ ») : discours halluciné ET aucune action. **Succès** avec consigne **resserrée à une seule fiche**. Incident corrigé en cours : tentative de `Write` global sur `annales.md` (append-only) **refusée manuellement**.
 - **Leçon** : la **largeur de la consigne** est un facteur décisif (en plus de la durée de session) → découper les lots doctrinaux **fiche par fiche** pour Ornith. Backlog `04-…` [Infra] mis à jour (substitution validée par Sidy).
 
 
 ## [2026-06-29] infra | Cycle complet prepare/compare Ornith-1.0-9B (RunPod) — VERDICT 8 ✓ / 0 ✗, viable sous supervision humaine stricte
 - **Opération** : INFRASTRUCTURE (session A6 — suite directe du test précédent, en session Claude Code neuve).
-- **Rangé** : (cf. Domaine Réservé, fiche résultats finaux) (via `_inbox/`, frontmatter meta conforme) ; lié à (cf. Domaine Réservé, fiche 06).
+- **Rangé** : [[meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29|résultats finaux]] (via `_inbox/`, frontmatter meta conforme) ; lié à [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29|06]].
 - **Verdict** : cycle `prepare → compare` **8 ✓ / 0 ✗** — Ornith équivaut à Opus sur le lot témoin (contenu byte-identique, index/annales corrects, zéro effet de bord). Rôle d'intégration **viable sous supervision humaine stricte**.
 - **Enseignement central** : *fiabilité d'action ≠ fiabilité narrative* — en session longue (~30-40 min), le discours d'Ornith se dégrade (termes inventés, langues mêlées, fuite `</think>`, contradiction sur l'état du travail) **alors que ses écritures restent correctes**. Règles fermes adoptées : **jamais d'auto-accept**, **toujours clore par une vérification mécanique indépendante** (`ornith-test.sh compare`), **limiter la durée des sessions**.
 - **Reste à tester** : intégration **doctrinale** (Sceau Recteur, Discernement, étanchéité), plus risquée que le cas atelier/meta couvert ici.
-- **Mises à jour** : runbook (cf. Domaine Réservé, fiche 05), (cf. Domaine Réservé, fiche 03) et (cf. Domaine Réservé, fiche 04) complétés. Rien de la session de test n'a touché le vrai dépôt (bac à sable isolé). Lot *archéomètre* du sas toujours non traité.
+- **Mises à jour** : runbook [[meta/projet-unifie/05-runbook-test-ornith-gpu-cloud|05]], [[meta/projet-unifie/03-transition-modele-open-source|03]] et [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs|04]] complétés. Rien de la session de test n'a touché le vrai dépôt (bac à sable isolé). Lot *archéomètre* du sas toujours non traité.
 
 
 ## [2026-06-29] infra | Premier test GPU cloud Ornith-1.0-9B (RunPod) — selftest PASS, prepare/compare à reproduire
 - **Opération** : INFRASTRUCTURE (session A6 — transition modèle open-source).
-- **Rangé** : (cf. Domaine Réservé, fiche compte-rendu du 1er test) (via `_inbox/`, frontmatter meta conforme — aucune correction).
+- **Rangé** : [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29|compte-rendu du 1er test]] (via `_inbox/`, frontmatter meta conforme — aucune correction).
 - **Résultat** : architecture validée (RunPod Pod RTX A6000 48 Go, vLLM, Ornith-1.0-9B) ; tunnel SSH Hetzner↔GPU OK ; Claude Code branché sur Ornith ; boucle agentique fonctionnelle ; `ornith-test.sh selftest` **PASS (8/0)**. Cycle `prepare → compare` **interrompu** sur une anomalie de cohérence d'Ornith (fin de session longue) — non tranchée, à reproduire en session neuve.
-- **Correctifs intégrés** au runbook (cf. Domaine Réservé, fiche 05) et à (cf. Domaine Réservé, fiche 03)/(cf. Domaine Réservé, fiche 04) : RunPod **Pod** (pas Serverless), authentification via `ANTHROPIC_CUSTOM_HEADERS` (vLLM exige `Authorization: Bearer`), `--max-model-len 131072` (plancher réaliste), pièges sshd/port/`pkill`.
+- **Correctifs intégrés** au runbook [[meta/projet-unifie/05-runbook-test-ornith-gpu-cloud|05]] et à [[meta/projet-unifie/03-transition-modele-open-source|03]]/[[meta/projet-unifie/04-sessions-par-fonction-et-backlogs|04]] : RunPod **Pod** (pas Serverless), authentification via `ANTHROPIC_CUSTOM_HEADERS` (vLLM exige `Authorization: Bearer`), `--max-model-len 131072` (plancher réaliste), pièges sshd/port/`pkill`.
 - **Note** : rien issu de la session de test elle-même n'a touché le vrai dépôt (tout sur le Pod distant + bac à sable isolé). Seul le compte-rendu est archivé ici. Lot *archéomètre* du sas non traité (intégration séparée).
 
 
 ## [2026-06-28] regularisation | Lectures suggérées rétroactives (14 fiches discernement)
 - **Opération** : RESTAURATION (normalisation rétroactive du protocole) — ajout du champ **Lectures suggérées** sous la « Conclusion » du bloc 🔍 normalisé, sans autre modification du corps des fiches.
 - **Modifié** : 14 fiches `doctrinal/discernement/` — les 2 du 2026-06-11 (`llm-wiki-modalite-intellect`, `llm-wiki-correction-doctrinale`) et les 12 de la session ChatGPT-export du 2026-06-20 (visions-centre-nocturne, matrices-artificielles-barzakh, triptyque-medine-jeu-de-piste, experience-lefke-materia-secunda, epreuve-tariqa-tarbiyya-rabbaniyya, signaletique-spirituelle-kiswa, pierres-astres-barzakh, fajr-vajra-indra-vritra, mythe-personnel-unifie, astrologie-akbarienne-fard, synthese-danger-dissolution-identitaire, origine-jumeau-spirituel).
-- **Source** : (cf. Domaine Réservé, fiche Bibliothèque physique de travail) (recension validée par Sidy, 2026-06-28), pages existantes du wiki, et quelques candidats hors-possession signalés pour `raw/`.
+- **Source** : [[meta/bibliotheque-physique|Bibliothèque physique de travail]] (recension validée par Sidy, 2026-06-28), pages existantes du wiki, et quelques candidats hors-possession signalés pour `raw/`.
 - **Méthode** : lectures rattachées à la généalogie et à la tension formelle propres à *chaque* fiche, non à une bibliographie générale. Aucune spéculation tranchée (Cmd 12, *upakarana*) : toutes les fiches restent `en cours`. Point de vigilance maintenu pour `epreuve-tariqa-tarbiyya-rabbaniyya` (question d'autorité spirituelle) : lectures choisies pour éclairer la *forme* (modalité confrérique, *tarbiyya rabbaniyya*) sans jamais suggérer une résolution de la question d'autorité elle-même, qui revient au Cheikh.
 - **VIGILANCE** : toutes les cibles wikilink citées (`alam-al-mithal`, `khalwa`, `barzakh`, `fal-wa-tatayyur`, `waqia`, `merkavah-muraqaba`, `shinto`, `ilm-al-nujum`, `walaya-fath-adab`, `ibn-arabi`, `rene-guenon`, `al-insan-al-kamil`, `ahmad-al-buni`) vérifiées présentes — aucun lien mort.
 
@@ -1401,7 +1401,7 @@ Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection
 ## [2026-06-20] discernement+archivage | Catégories C et B+C — 33 conversations (clôture du triage des 140 conversations)
 - **Opération** : EXAMEN DE DISCERNEMENT (1 fiche majeure) + ARCHIVAGE & MAILLAGE.
 - **Créé** : 1 fiche discernement ([[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel|origine-jumeau-spirituel]], #10, conversation la plus ancienne du corpus), 1 symbole ([[doctrinal/symboles/nafs-qalb-irritation|nafs/qalb — discerner l'irritation]]), 6 fiches meta perso (herbes-pratiques, ikigai, noms-symboles-financiers, fibrillation, bejjar-genealogie, taekwondo-hansu).
-- **Modifié** : [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste|triptyque-medine]] (#100, deux recoupements majeurs : « jeu de piste » comme méthode généralisée #102 + 3 objets #99/#101/#104), [[atelier/projets/album-personnel|album-personnel]] (enrichi : label/vinyle #78, UAD 6176 #136, perception auditive #42, identité multi-supports #110), (cf. Domaine Réservé, fiche bourdonnement-tempe) (3e occurrence #77).
+- **Modifié** : [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste|triptyque-medine]] (#100, deux recoupements majeurs : « jeu de piste » comme méthode généralisée #102 + 3 objets #99/#101/#104), [[atelier/projets/album-personnel|album-personnel]] (enrichi : label/vinyle #78, UAD 6176 #136, perception auditive #42, identité multi-supports #110), [[meta/2026-06-20_bourdonnement-tempe|bourdonnement-tempe]] (3e occurrence #77).
 - **Source brute** : export ChatGPT (33 conversations, catégories C et B+C) ; déposé via `_inbox/session-categorieC-fichiers-2026-06-20.zip`.
 - **Non archivé** : 8 conversations purement administratives (candidatures #14/#16/#18/#140, logistique de voyage #92/#94/#95, prêt bancaire #129).
 - **Notes** : ce lot clôt le traitement intégral des 140 conversations de l'export ChatGPT (catégories A, A+C, B, C, B+C — D exclu sans traitement). Découverte majeure : la conversation la plus ancienne (#10, 2023-12-07) révèle la première mise en forme conceptuelle retrouvée dans le corpus du motif du « jumeau spirituel » — précision de Sidy : cette mise en forme repose sur des expériences antérieures non documentées dans l'export (qui débute en août 2023), la fiche ne présente donc pas cette conversation comme l'origine du motif lui-même.
@@ -1409,7 +1409,7 @@ Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection
 
 ## [2026-06-20] archivage | Catégorie B, atelier — 13 conversations
 - **Opération** : ARCHIVAGE & MAILLAGE (circuit atelier, hors Sceau Recteur).
-- **Créé** : [[atelier/projets/album-personnel|album-personnel]], 3 fiches [[atelier/materiel/neve-1073spx|matériel]] audio (neve-1073spx, tascam-model-12, technics-su-8080), (cf. Domaine Réservé, fiche taekwondo-hansu) (#105, classé meta/ et non atelier — ni audio ni création artistique au sens du protocole).
+- **Créé** : [[atelier/projets/album-personnel|album-personnel]], 3 fiches [[atelier/materiel/neve-1073spx|matériel]] audio (neve-1073spx, tascam-model-12, technics-su-8080), [[meta/2026-06-20_taekwondo-hansu|taekwondo-hansu]] (#105, classé meta/ et non atelier — ni audio ni création artistique au sens du protocole).
 - **Source brute** : export ChatGPT (13 conversations, catégorie B) ; déposé via `_inbox/session-categorieB-2026-06-20.zip`.
 - **Notes** : première occupation du circuit atelier, resté vide depuis la Restauration V1. Conversations de troubleshooting répétitif consolidées en fiches de référence plutôt que dupliquées. #13, #89 non archivées (tutoriel générique ; recherche comparative sans possession confirmée). Catégorie B intégralement traitée.
 
@@ -1542,7 +1542,7 @@ Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection
 ## 2026-06-02 — Premier archivage (profil utilisateur)
 
 - **Opération** : ARCHIVAGE & MAILLAGE
-- **Créé** : profil (cf. Domaine Réservé, fiche `sidy`),  ; stubs d'autorités/formes : [[doctrinal/autorites/ibn-arabi]], [[doctrinal/autorites/al-ghazali]], [[doctrinal/autorites/rene-guenon]], [[doctrinal/autorites/platon]], [[doctrinal/traditions/sanatana-dharma]], [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]], [[doctrinal/traditions/tasawwuf]]
+- **Créé** : profil [[meta/sidy]],  ; stubs d'autorités/formes : [[doctrinal/autorites/ibn-arabi]], [[doctrinal/autorites/al-ghazali]], [[doctrinal/autorites/rene-guenon]], [[doctrinal/autorites/platon]], [[doctrinal/traditions/sanatana-dharma]], [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]], [[doctrinal/traditions/tasawwuf]]
 - **Étanchéité** : fiches personnelles tenues hors `doctrinal/`.
 - **Notes** : 140 conversations de l'export non ingérées (réserve). PII (téléphone, e-mail) volontairement exclue ; export brut protégé par `.gitignore`.
 

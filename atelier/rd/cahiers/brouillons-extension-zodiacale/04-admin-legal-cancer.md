@@ -1,10 +1,17 @@
 ---
-title: "Brouillon — extension zodiacale, agent 4 admin-legal"
+title: Brouillon — extension zodiacale, agent 4 admin-legal
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
 updated: 2026-08-11
-tags: [hermes, zodiacal, extension-principielle]
+tags:
+- hermes
+- zodiacal
+- extension-principielle
+cross_links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus
+links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

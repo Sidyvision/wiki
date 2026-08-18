@@ -1,10 +1,17 @@
 ---
-title: "Brouillon — extension zodiacale, agent 11 fanzine"
+title: Brouillon — extension zodiacale, agent 11 fanzine
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
 updated: 2026-08-11
-tags: [hermes, zodiacal, extension-principielle]
+tags:
+- hermes
+- zodiacal
+- extension-principielle
+cross_links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces
+links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

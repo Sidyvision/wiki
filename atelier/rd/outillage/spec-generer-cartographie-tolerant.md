@@ -1,11 +1,16 @@
 ---
-title: "Spécification — Générateur de cartographie avec sévérité à deux niveaux (v1.1)"
+title: Spécification — Générateur de cartographie avec sévérité à deux niveaux (v1.1)
 type: outillage
-tags: [rd, outillage, cartographie, gouvernance]
+tags:
+- rd
+- outillage
+- cartographie
+- gouvernance
 created: 2026-08-11
 updated: 2026-08-11
 sources: []
-links: []
+links:
+- atelier/rd/cahiers/registre-problemes
 ---
 
 # Spécification — `generer-cartographie.py` v1.1 (mode "tolérant")

@@ -1,15 +1,26 @@
 ---
-title: "Doctrine du don — principe de circulation des œuvres"
+title: Doctrine du don — principe de circulation des œuvres
 type: distribution
 medium: transversal
-projet: "label"
+projet: label
 statut: en-cours
-tags: [don, depositaires, cercles, protocole, intention]
+tags:
+- don
+- depositaires
+- cercles
+- protocole
+- intention
 created: 2026-07-05
 updated: 2026-07-05
 sources: []
-liens: ["[[label/distribution/strategie-vinyle-300-depositaires]]", "[[label/distribution/protocole-cercles-token]]", "[[label/production/modele-economique]]"]
+liens:
+- '[[label/distribution/strategie-vinyle-300-depositaires]]'
+- '[[label/distribution/protocole-cercles-token]]'
+- '[[label/production/modele-economique]]'
+- label/distribution/merchandising
 liens_atelier: []
+links:
+- label/distribution/merchandising
 ---
 
 # Doctrine du don — principe de circulation des œuvres

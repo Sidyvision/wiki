@@ -294,13 +294,21 @@ def resoudre(cible_brute, fiches, index_slugs):
 
 
 def extraire_cible(valeur):
+    """Extrait la cible d'un lien. Accepte [[chemin]] (wikilink) ou chemin (format brut YAML)."""
     if not isinstance(valeur, str):
         return None
     valeur = valeur.strip()
     if valeur == "to-source":
         return "to-source"
+    # Format wikilink : [[chemin]]
     m = WIKILINK.match(valeur)
-    return m.group(1) if m else None
+    if m:
+        return m.group(1)
+    # Format brut (YAML désérialise [[chemin]] en liste, puis en string)
+    # Accepter si le chemin contient au moins un caractère et pas de caractères invalides
+    if valeur and not valeur.startswith('[') and '/' in valeur:
+        return valeur
+    return None
 
 
 # ==============================================================================

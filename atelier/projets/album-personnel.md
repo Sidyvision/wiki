@@ -1,8 +1,12 @@
 ---
-title: "album-personnel (fiche déplacée)"
+title: album-personnel (fiche déplacée)
 type: deprecated
 created: 2026-06-20
 updated: 2026-08-08
+cross_links:
+- atelier/projets/note-impact-instrument-socle-universel-2026-07-16
+links:
+- atelier/projets/note-impact-instrument-socle-universel-2026-07-16
 ---
 
 # album-personnel — fiche déplacée (deprecated)

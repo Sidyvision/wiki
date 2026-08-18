@@ -1,14 +1,24 @@
 ---
-title: "Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction volontaire"
+title: Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction
+  volontaire
 type: discernement
 status: speculatif
-tradition_cadre: "universel"
-tags: [voeu, ascese, restriction, initiation, mithaq, siddhi, hermeneutique]
+tradition_cadre: universel
+tags:
+- voeu
+- ascese
+- restriction
+- initiation
+- mithaq
+- siddhi
+- hermeneutique
 created: 2026-08-12
 updated: 2026-08-12
-sources: ["to-source"]
+sources:
+- to-source
 sources_count: 1
-cross_links: []
+cross_links:
+- doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire
 ---
 
 # Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction volontaire

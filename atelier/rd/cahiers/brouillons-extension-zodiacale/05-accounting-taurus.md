@@ -1,10 +1,17 @@
 ---
-title: "Brouillon — extension zodiacale, agent 5 accounting"
+title: Brouillon — extension zodiacale, agent 5 accounting
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-15
 updated: 2026-08-15
-tags: [hermes, zodiacal, extension-principielle]
+tags:
+- hermes
+- zodiacal
+- extension-principielle
+cross_links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio
+links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

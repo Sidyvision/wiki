@@ -1,15 +1,27 @@
 ---
-title: "Imaginaire structurant — Nen, la ruche, les échecs"
+title: Imaginaire structurant — Nen, la ruche, les échecs
 type: amorcage
 medium: transversal
-projet: "label"
+projet: label
 statut: en-gestation
-tags: [imaginaire, togashi, nen, greed-island, abeilles, echecs, protocole]
+tags:
+- imaginaire
+- togashi
+- nen
+- greed-island
+- abeilles
+- echecs
+- protocole
 created: 2026-07-05
 updated: 2026-07-05
 sources: []
-liens: ["[[label/distribution/doctrine-du-don]]", "[[label/direction-artistique/amorcage/generation-non-cumulative]]"]
+liens:
+- '[[label/distribution/doctrine-du-don]]'
+- '[[label/direction-artistique/amorcage/generation-non-cumulative]]'
+- label/direction-artistique/amorcage/generation-non-cumulative
 liens_atelier: []
+links:
+- label/direction-artistique/amorcage/generation-non-cumulative
 ---
 
 # Imaginaire structurant — Nen, la ruche, les échecs

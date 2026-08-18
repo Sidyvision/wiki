@@ -1,11 +1,16 @@
 ---
-title: "Infrastructure — Décision statu quo SSH (vs HTTPS+PAT)"
+title: Infrastructure — Décision statu quo SSH (vs HTTPS+PAT)
 type: infrastructure
-tags: [rd, infrastructure, git, workflow]
+tags:
+- rd
+- infrastructure
+- git
+- workflow
 created: 2026-08-11
 updated: 2026-08-11
 sources: []
-links: []
+links:
+- atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11
 ---
 
 # Décision : Statu quo SSH sur `origin`

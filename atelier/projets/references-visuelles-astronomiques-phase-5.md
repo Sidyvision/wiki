@@ -1,8 +1,12 @@
 ---
-title: "references-visuelles-astronomiques-phase-5 (fiche déplacée)"
+title: references-visuelles-astronomiques-phase-5 (fiche déplacée)
 type: deprecated
 created: 2026-07-01
 updated: 2026-08-08
+cross_links:
+- atelier/projets/2026-07-26_investigation-referentiels-stellaires-cycles
+links:
+- atelier/projets/2026-07-26_investigation-referentiels-stellaires-cycles
 ---
 
 # references-visuelles-astronomiques-phase-5 — fiche déplacée (deprecated)

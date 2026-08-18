@@ -1,23 +1,28 @@
 ---
-title: "Trois territoires de l'inachevé — flux spéculatif → exploratoire → finalisé"
+title: Trois territoires de l'inachevé — flux spéculatif → exploratoire → finalisé
 type: discernement
 status: adopte
-tradition_cadre: "universel"
+tradition_cadre: universel
 verdict_date: 2026-08-11
-description: >
-  Hypothèse méthodologique sur la parenté entre Discernement, R&D et Herméneutique (registre expression),
-  leur nature commune (non-finalité, portance zōsaku, validation humanelle), et le flux programmé
-  qui les relie : spéculation personnelle → chantier exploratoire → doctrine adoptée ou archivée.
-  Sandbox comme dépendance structurelle du R&D.
+description: 'Hypothèse méthodologique sur la parenté entre Discernement, R&D et Herméneutique
+  (registre expression), leur nature commune (non-finalité, portance zōsaku, validation
+  humanelle), et le flux programmé qui les relie : spéculation personnelle → chantier
+  exploratoire → doctrine adoptée ou archivée. Sandbox comme dépendance structurelle
+  du R&D.
+
+  '
 created: 2026-08-11
 updated: 2026-08-12
-sources: ["to-source"]
+sources:
+- to-source
 sources_count: 1
 refs:
-  - "CLAUDE.md (§II, §V, §VI, §VII — circuits et régimes)"
-  - "meta/philosophie-sashimono.md (Art. 3, 5 — démontabilité, réversibilité)"
-  - "_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md (cascade doctrinale)"
-  - "atelier/rd/index.md (phase 1 partielle, statut_experience)"
+- CLAUDE.md (§II, §V, §VI, §VII — circuits et régimes)
+- meta/philosophie-sashimono.md (Art. 3, 5 — démontabilité, réversibilité)
+- _inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md (cascade doctrinale)
+- atelier/rd/index.md (phase 1 partielle, statut_experience)
+cross_links:
+- doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique
 ---
 
 # Trois territoires de l'inachevé — flux spéculatif → exploratoire → finalisé

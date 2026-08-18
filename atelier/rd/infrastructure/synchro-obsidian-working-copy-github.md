@@ -1,11 +1,19 @@
 ---
-title: "Synchronisation Obsidian / Working Copy / GitHub (circuit CONSULTATION)"
+title: Synchronisation Obsidian / Working Copy / GitHub (circuit CONSULTATION)
 type: infrastructure
-tags: [atelier, rd, infrastructure, obsidian, git, ipad, synchronisation]
+tags:
+- atelier
+- rd
+- infrastructure
+- obsidian
+- git
+- ipad
+- synchronisation
 created: 2026-06-29
 updated: 2026-08-11
 sources: []
-links: []
+links:
+- atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11
 ---
 
 # Synchronisation Obsidian / Working Copy / GitHub

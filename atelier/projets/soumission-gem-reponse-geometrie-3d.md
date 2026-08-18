@@ -1,8 +1,12 @@
 ---
-title: "soumission-gem-reponse-geometrie-3d (fiche déplacée)"
+title: soumission-gem-reponse-geometrie-3d (fiche déplacée)
 type: deprecated
 created: 2026-07-01
 updated: 2026-08-08
+cross_links:
+- atelier/projets/soumission-gem-convergence-28
+links:
+- atelier/projets/soumission-gem-convergence-28
 ---
 
 # soumission-gem-reponse-geometrie-3d — fiche déplacée (deprecated)

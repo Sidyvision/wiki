@@ -1,10 +1,17 @@
 ---
-title: "Brouillon — extension zodiacale, agent 8 publication"
+title: Brouillon — extension zodiacale, agent 8 publication
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-15
 updated: 2026-08-15
-tags: [hermes, zodiacal, extension-principielle]
+tags:
+- hermes
+- zodiacal
+- extension-principielle
+cross_links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/09-studio-virgo
+links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/09-studio-virgo
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

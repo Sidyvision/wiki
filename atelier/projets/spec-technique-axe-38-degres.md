@@ -1,8 +1,12 @@
 ---
-title: "spec-technique-axe-38-degres (fiche déplacée)"
+title: spec-technique-axe-38-degres (fiche déplacée)
 type: deprecated
 created: 2026-07-01
 updated: 2026-08-08
+cross_links:
+- atelier/projets/spec-anneau-zodiacal
+links:
+- atelier/projets/spec-anneau-zodiacal
 ---
 
 # spec-technique-axe-38-degres — fiche déplacée (deprecated)

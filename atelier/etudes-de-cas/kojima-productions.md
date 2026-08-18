@@ -1,13 +1,21 @@
 ---
-title: "Case Study — Kojima Productions"
+title: Case Study — Kojima Productions
 type: etude-de-cas
 secteur: jeu-video
-tags: [etude-de-cas, jeu-video, kojima, auteur-studio, independance]
+tags:
+- etude-de-cas
+- jeu-video
+- kojima
+- auteur-studio
+- independance
 created: 2026-08-08
 updated: 2026-08-08
-sources: ["to-source"]
-links: []
-statut_donnees: "non vérifié — aucun item confirmé sur source primaire ; l'ensemble est à traiter comme relevé de travail"
+sources:
+- to-source
+links:
+- atelier/etudes-de-cas/stones-throw
+statut_donnees: non vérifié — aucun item confirmé sur source primaire ; l'ensemble
+  est à traiter comme relevé de travail
 ---
 
 # Case Study — Kojima Productions

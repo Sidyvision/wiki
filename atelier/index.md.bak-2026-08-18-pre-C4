@@ -39,7 +39,8 @@ tiers. Charte et arborescence : [[atelier/rd/index|charte du pôle R&D]].
 
 Application web 3D contemplative (Three.js/WebGL) visualisant l'arbre ontologique
 akbarien sur l'axe des 38 degrés du *Nafas al-Raḥmān*. Voir
-(cf. Domaine Réservé, fiche feuille de route et pile technique) pour l'état d'avancement par phase.
+[[meta/projet-unifie/02-instrument-feuille-de-route|feuille de route et pile
+technique]] pour l'état d'avancement par phase.
 
 **Architecture** :
 - [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3|Architecture
@@ -115,7 +116,7 @@ Les expériences nouvelles ont vocation à être consignées directement en `rd/
 
 Analyses systématiques d'entreprises, marques, maisons de référence — applications du framework d'étude de cas à des instances réelles.
 
-Cadre : (cf. Domaine Réservé, fiche Framework d'étude de cas — Master Framework)
+Cadre : [[meta/projet-unifie/framework-etude-de-cas|Framework d'étude de cas — Master Framework]]
 
 Chaque étude sépare strictement : **Faits** (sourcés), **Analyse** (interprétation raisonnée), **Transposition** (principes et garde-fous pour *Dans l'Absolu*, suggérés 🔍 jusqu'à validation humaine).
 

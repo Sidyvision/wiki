@@ -1,11 +1,19 @@
 ---
-title: "Infrastructure — Accès serveur scopé pour Mehdi via Habib (Karūbī)"
+title: Infrastructure — Accès serveur scopé pour Mehdi via Habib (Karūbī)
 type: infrastructure
-tags: [rd, infrastructure, karubi, transmissions, permissions]
+tags:
+- rd
+- infrastructure
+- karubi
+- transmissions
+- permissions
 created: 2026-08-12
 updated: 2026-08-12
 sources: []
-links: [meta/transmissions/karubi-mehdi.md, meta/transmissions/registre-silsila.md]
+links:
+- meta/transmissions/karubi-mehdi.md
+- meta/transmissions/registre-silsila.md
+- atelier/rd/cahiers/registre-problemes
 statut_experience: exploratoire
 ---
 

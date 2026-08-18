@@ -16,8 +16,7 @@ links: ["[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-
 > — cf. § 5). Le rapport **signale** des écarts de fidélité de citation ; il
 > ne tranche **aucune** question de fond doctrinal et ne modifie aucun champ
 > `status`/`Statut` de fiche (Cmd 12). Sur le contexte ayant permis ce travail
-> en session directe : [[wiki-contrainte-integration-levee]] (mémoire, hors
-> dépôt).
+> en session directe : (cf. document « wiki-contrainte-integration-levee », mémoire, hors dépôt).
 
 ## 1. Méthode
 

@@ -1,11 +1,17 @@
 ---
-title: "Infrastructure — Audit de santé Claude Code (/doctor, 2026-08-11)"
+title: Infrastructure — Audit de santé Claude Code (/doctor, 2026-08-11)
 type: infrastructure
-tags: [rd, infrastructure, claude-code, outillage, contexte]
+tags:
+- rd
+- infrastructure
+- claude-code
+- outillage
+- contexte
 created: 2026-08-11
 updated: 2026-08-11
 sources: []
-links: []
+links:
+- atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11
 statut_experience: exploratoire
 ---
 

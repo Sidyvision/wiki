@@ -1,11 +1,21 @@
 ---
-title: "Bureau TUI — architecture"
+title: Bureau TUI — architecture
 type: infrastructure
-tags: [rd, infrastructure, tui, textual, bureau, ansi, chat, hermes, instrument]
+tags:
+- rd
+- infrastructure
+- tui
+- textual
+- bureau
+- ansi
+- chat
+- hermes
+- instrument
 created: 2026-08-15
 updated: 2026-08-15
 sources: []
-links: []
+links:
+- atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11
 ---
 
 # Bureau TUI — architecture

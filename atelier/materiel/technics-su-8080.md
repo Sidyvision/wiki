@@ -1,11 +1,17 @@
 ---
-title: "Technics SU-8080 — ampli hi-fi vintage hérité"
+title: Technics SU-8080 — ampli hi-fi vintage hérité
 type: materiel
-tags: [audio, vintage, technics]
+tags:
+- audio
+- vintage
+- technics
 created: 2026-06-20
 updated: 2026-08-08
-sources: ["[[chatgpt-export-2026-05-10]]"]
-links: []
+sources:
+- '[[chatgpt-export-2026-05-10]]'
+links:
+- atelier/materiel/neve-1073spx
+- atelier/materiel/tascam-model-12
 ---
 
 # Technics SU-8080 — ampli hi-fi vintage hérité

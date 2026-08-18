@@ -1,15 +1,25 @@
 ---
-title: "Merchandising — principes et catalogue candidat"
+title: Merchandising — principes et catalogue candidat
 type: distribution
 medium: transversal
-projet: "label"
+projet: label
 statut: idee
-tags: [merchandising, rentabilite, editions, objets, sacred-bones]
+tags:
+- merchandising
+- rentabilite
+- editions
+- objets
+- sacred-bones
 created: 2026-07-05
 updated: 2026-07-05
 sources: []
-liens: ["[[label/production/modele-economique]]", "[[label/marketing-communication/fanzine]]"]
+liens:
+- '[[label/production/modele-economique]]'
+- '[[label/marketing-communication/fanzine]]'
+- label/distribution/protocole-cercles-token
 liens_atelier: []
+links:
+- label/distribution/protocole-cercles-token
 ---
 
 # Merchandising — principes et catalogue candidat

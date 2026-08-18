@@ -1,15 +1,27 @@
 ---
-title: "Équipe d'agents Hermes — 12 fonctions, 5 archétypes"
+title: Équipe d'agents Hermes — 12 fonctions, 5 archétypes
 type: production
 medium: transversal
-projet: "label"
+projet: label
 statut: en-cours
-tags: [hermes, agents, organigramme, archetypes, protocole, initiatique]
+tags:
+- hermes
+- agents
+- organigramme
+- archetypes
+- protocole
+- initiatique
 created: 2026-07-05
 updated: 2026-07-05
 sources: []
-liens: ["[[label/distribution/doctrine-du-don]]", "[[label/production/modele-economique]]", "[[label/direction-artistique/amorcage/generation-non-cumulative]]"]
+liens:
+- '[[label/distribution/doctrine-du-don]]'
+- '[[label/production/modele-economique]]'
+- '[[label/direction-artistique/amorcage/generation-non-cumulative]]'
+- label/production/modele-economique
 liens_atelier: []
+links:
+- label/production/modele-economique
 ---
 
 # Équipe d'agents Hermes — 12 fonctions, 5 archétypes

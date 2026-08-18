@@ -377,7 +377,7 @@ des fiches `doctrinal/discernement/`.
 ## [2026-08-13] signalement | Confrontation de 5 fiches discernement/ au corpus Guénon (raw/)
 
 - **Contexte** : contrainte production/intégration temporairement levée
-  ([[wiki-contrainte-integration-levee]], mémoire) ; corpus Guénon complété en
+  (cf. document « wiki-contrainte-integration-levee », mémoire) ; corpus Guénon complété en
   `raw/` (dépôt du chapitre RQST manquant, id 746, par Sidy).
 - **Opération** : vérification mécanique de complétude des 7 œuvres Guénon
   déposées (0 trou après dépôt) via les champs `Chapitre=`/`sigle=` du

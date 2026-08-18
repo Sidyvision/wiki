@@ -1,15 +1,26 @@
 ---
-title: "Album personnel — home studio et production"
+title: Album personnel — home studio et production
 type: production
 medium: musique
-projet: "label"
+projet: label
 statut: en-cours
-tags: [musique, composition, home-studio, vinyle]
+tags:
+- musique
+- composition
+- home-studio
+- vinyle
 created: 2026-06-20
 updated: 2026-08-08
-sources: ["[[chatgpt-export-2026-05-10]]"]
-liens: []
-liens_atelier: ["[[atelier/materiel/neve-1073spx]]", "[[atelier/materiel/tascam-model-12]]", "[[atelier/materiel/technics-su-8080]]"]
+sources:
+- '[[chatgpt-export-2026-05-10]]'
+liens:
+- label/production/equipe-agents-hermes
+liens_atelier:
+- '[[atelier/materiel/neve-1073spx]]'
+- '[[atelier/materiel/tascam-model-12]]'
+- '[[atelier/materiel/technics-su-8080]]'
+links:
+- label/production/equipe-agents-hermes
 ---
 
 # Album personnel — home studio et production

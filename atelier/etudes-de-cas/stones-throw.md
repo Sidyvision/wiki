@@ -1,22 +1,28 @@
 ---
-title: "Case Study — Stones Throw Records"
+title: Case Study — Stones Throw Records
 type: etude-de-cas
 secteur: musique
-tags: [etude-de-cas, musique, label-independant, vinyle, curation]
+tags:
+- etude-de-cas
+- musique
+- label-independant
+- vinyle
+- curation
 created: 2026-07-06
 updated: 2026-07-06
-sources: [
-  "https://en.wikipedia.org/wiki/Stones_Throw_Records",
-  "https://www.stonesthrow.com/about/",
-  "https://www.huckmag.com/article/stones-throw",
-  "https://www.nowagainrecords.com/egon/",
-  "https://en.wikipedia.org/wiki/Now-Again_Records",
-  "https://www.musicbusinessworldwide.com/stones-throw-publishing-signs-with-songtrust-for-global-publishing-administration/",
-  "https://variety.com/2024/music/news/madlib-sues-egon-eothen-alapatt-former-manager-1236196889/",
-  "https://www.stonesthrow.com/ (store & release pages)"
-]
-links: []
-statut_donnees: "vérifié partiel — items flagués individuellement ; revenus = estimation D"
+sources:
+- https://en.wikipedia.org/wiki/Stones_Throw_Records
+- https://www.stonesthrow.com/about/
+- https://www.huckmag.com/article/stones-throw
+- https://www.nowagainrecords.com/egon/
+- https://en.wikipedia.org/wiki/Now-Again_Records
+- https://www.musicbusinessworldwide.com/stones-throw-publishing-signs-with-songtrust-for-global-publishing-administration/
+- https://variety.com/2024/music/news/madlib-sues-egon-eothen-alapatt-former-manager-1236196889/
+- https://www.stonesthrow.com/ (store & release pages)
+links:
+- atelier/etudes-de-cas/kojima-productions
+statut_donnees: vérifié partiel — items flagués individuellement ; revenus = estimation
+  D
 ---
 
 # Case Study — Stones Throw Records

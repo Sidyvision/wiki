@@ -1,8 +1,12 @@
 ---
-title: "spec-generateur-manifeste (fiche déplacée)"
+title: spec-generateur-manifeste (fiche déplacée)
 type: deprecated
 created: 2026-07-01
 updated: 2026-08-08
+cross_links:
+- atelier/projets/instrument-feuille-de-route-v2
+links:
+- atelier/projets/instrument-feuille-de-route-v2
 ---
 
 # spec-generateur-manifeste — fiche déplacée (deprecated)

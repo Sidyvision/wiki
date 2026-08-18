@@ -1,11 +1,18 @@
 ---
-title: "État mesuré du serveur (matériel + empreinte Hermes/omniroute) — 2026-08-11"
+title: État mesuré du serveur (matériel + empreinte Hermes/omniroute) — 2026-08-11
 type: infrastructure
-tags: [atelier, rd, infrastructure, serveur, hermes, mesure]
+tags:
+- atelier
+- rd
+- infrastructure
+- serveur
+- hermes
+- mesure
 created: 2026-08-11
 updated: 2026-08-11
 sources: []
-links: []
+links:
+- atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11
 ---
 
 # État mesuré du serveur — 2026-08-11

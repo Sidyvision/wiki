@@ -1,15 +1,27 @@
 ---
-title: "Stratégie vinyle — 300 exemplaires aux dépositaires"
+title: Stratégie vinyle — 300 exemplaires aux dépositaires
 type: distribution
 medium: musique
-projet: "album-01"
+projet: album-01
 statut: en-cours
-tags: [vinyle, don, depositaires, disquaires, international, sdrm]
+tags:
+- vinyle
+- don
+- depositaires
+- disquaires
+- international
+- sdrm
 created: 2026-07-05
 updated: 2026-07-05
 sources: []
-liens: ["[[label/distribution/doctrine-du-don]]", "[[label/marketing-communication/fanzine]]", "[[label/production/album-01]]"]
+liens:
+- '[[label/distribution/doctrine-du-don]]'
+- '[[label/marketing-communication/fanzine]]'
+- '[[label/production/album-01]]'
+- label/distribution/doctrine-du-don
 liens_atelier: []
+links:
+- label/distribution/doctrine-du-don
 ---
 
 # Stratégie vinyle — 300 exemplaires aux dépositaires

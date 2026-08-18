@@ -1,10 +1,17 @@
 ---
-title: "Brouillon — extension zodiacale, agent 6 distribution"
+title: Brouillon — extension zodiacale, agent 6 distribution
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
 updated: 2026-08-15
-tags: [hermes, zodiacal, extension-principielle]
+tags:
+- hermes
+- zodiacal
+- extension-principielle
+cross_links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo
+links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

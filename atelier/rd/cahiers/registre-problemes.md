@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-17
+updated: 2026-08-18
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,79 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-18] ouvert | Double contrôle Claude Code du traitement C1/C4 — un piège d'outillage confirmé (rapport auto-polluant)
+
+> **Rectification (même session, avant commit)** : une première version de cette
+> entrée imputait à l'agent la suppression de 5 stubs `deprecated` (Cmd 10) et lisait
+> le §4 vide du rapport comme une condition de verdict non remplie. Sidy a précisé
+> après coup : (1) c'est **lui** qui a supprimé manuellement les 5 fiches `instrument`
+> après en avoir constaté le statut `deprecated` — acte humain, aucune violation ;
+> (2) le rapport est **intermédiaire, pré-arbitrage** — le §4 vide et le « aucune
+> modification » sont normaux, l'agent n'a pas fini et reportera après verdict. Ces
+> deux findings sont **retirés**. L'entrée ci-dessous ne conserve que ce qui résiste
+> à la vérification, indépendamment de qui a fait quoi. Leçon incidente : ne pas
+> inférer l'auteur d'une action à partir du seul `git status` — le demander.
+
+**Contexte** : double contrôle (session Claude Code) des corrections C4/C1 appliquées
+sur les lots du monitoring du 2026-08-18, dont le plan est consigné dans
+`atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md`
+(rapport **intermédiaire**). Vérification mécanique indépendante (`verifier-invariants.py`,
+`Graphe/generer-cartographie.py`, `git diff`, `git show HEAD:`). Rien n'a été commité.
+
+**Symptôme brut** (résultats mécaniques, non interprétés) :
+- `verifier-invariants.py` : **0 erreur, 53 avertissements** — soit +3 par rapport
+  aux 50 d'avant traitement, et non une baisse. **45 des 53** proviennent du seul
+  fichier-rapport `traitement-...-2026-08-18.md` (comptés par `grep -c` sur la sortie
+  du vérificateur).
+- `generer-cartographie.py` : 57 isolés (contre 62), soit −5 = les 5 fiches
+  `instrument-...` `deprecated` **supprimées manuellement par Sidy** (nettoyage
+  légitime, décision humaine).
+- Corrections C4/C1 elles-mêmes : **exactes** au diff — 0 lien wikilink vers `meta/`
+  restant dans `doctrinal/annales.md` et `doctrinal/index.md` (étanchéité §VI
+  rétablie) ; cible `16-mise-en-regard-theme-natal-roue-agents-2026-08-08` **existe** ;
+  typo `globale`→`global` correcte ; `.bak-2026-08-18-pre-C4` présents (rollback assuré).
+- Défaut de forme : backticks imbriqués et « cf. (cf. … ») dans quelques remplacements
+  de `doctrinal/annales.md`.
+
+**Diagnostic** (interprétation, séparée du fait) :
+1. **★ Le document d'inventaire piège le vérificateur qu'il sert.** Toute fiche qui
+   *énumère* des jetons wikilink bruts (double-crochet) — rapport de liens cassés,
+   spec — est lue par `verifier-invariants.py` comme portant ces liens. Classe déjà
+   connue (`spec-generer-cartographie-tolerant.md`, ses placeholders `x`/`x/y`), ici
+   amplifiée à 45. C'est le vrai point d'infrastructure de la session, indépendant de
+   toute question d'arbitrage. (Confirmation vécue : la première version de la présente
+   entrée a elle-même ajouté 4 avertissements en citant ces jetons — neutralisés depuis.)
+2. **Remplacement mécanique non contextuel.** La réécriture des liens `meta/…`→texte
+   n'a pas distingué ceux déjà à l'intérieur d'un span `code`, d'où backticks imbriqués.
+
+**Résolution** : aucune de mon fait — je signale, je ne tranche pas. Actions
+**proposées à Sidy** (non exécutées), à instruire quand l'agent finalisera le lot :
+(a) neutraliser les 45 pseudo-liens du rapport **avant** son commit (convention
+d'échappement ou liste blanche du vérificateur), sinon la ligne de base reste polluée
+et les sessions futures « chasseront » des faux positifs ; (b) corriger les backticks
+imbriqués.
+
+**Compréhension tirée (self-improvement, réutilisable)** :
+- **Améliorer l'outillage** : `verifier-invariants.py` a besoin (i) d'une convention
+  d'échappement canonique pour les jetons wikilink cités-comme-données, et/ou (ii) d'une
+  liste blanche de fichiers-inventaire/spec. Sans cela, tout rapport de liens cassés
+  dégrade sa propre ligne de base.
+- **Ne pas lire le compteur brut comme un verdict de qualité** : attribuer chaque
+  variation à sa cause avant de conclure (ici +3 = le rapport lui-même ; −5 isolés =
+  suppression humaine ; les corrections réelles, elles, sont bonnes).
+- **Ne pas inférer l'auteur d'une action du seul `git status`** : une ligne `D` ne dit
+  pas *qui* a supprimé ni *avec quelle autorité* — le demander à l'humain avant de
+  qualifier un manquement (leçon de la rectification ci-dessus).
+
+**Liens** : `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md`
+(rapport contrôlé) ; `CLAUDE.md` racine §VI (étanchéité), §VIII.2 (vérification
+mécanique) ; `verifier-invariants.py`, `Graphe/generer-cartographie.py` (juges de paix).
+
+**Statut** : `ouvert` — corrections C4/C1 exactes ; deux actions d'outillage/forme
+proposées, à instruire à la finalisation du lot par l'agent.
 
 ---
 
@@ -423,7 +496,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   - Décisions d'infrastructure isolées (`infrastructure-ssh-statu-quo.md`)
   - Manquait : architecture globale, empreinte mémoire récapitulative, topologie réseau, 
     circuits informatiques, SPoF (single points of failure), questions ouvertes
-- **Résolution** : créé `atelier/rd/infrastructure/infrastructure-architecture-globale-2026-08-11.md` — 
+- **Résolution** : créé `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11.md` —
   document cartographique couvrant :
   1. Topologie réseau (GitHub → Hetzner ← iPad)
   2. Couche applicative détaillée (12 profils Hermes avec RAM, omniroute critique 1 GB)
@@ -441,7 +514,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   (comparaison avant/après). Points ouverts explicités = invitations à instruire (registre 
   pour suivis futurs).
 - **Liens** :
-  - [[atelier/rd/infrastructure/infrastructure-architecture-globale-2026-08-11]]
+  - [[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11]]
   - [[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]]
   - [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]]
   - [[atelier/rd/infrastructure/infrastructure-ssh-statu-quo]]
@@ -527,7 +600,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
 - **Liens** :
   - [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer|Studio Sound Engineer prompt (pos. 9) — étendu]]
   - [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|Phase 3 — proposition]]
-  - [[meta/projet-unifie/16-correspondances-zodiacales-agents|Correspondances zodiacales — positions 1-12]]
+  - [[meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08|Correspondances zodiacales — positions 1-12]]
 - **Statut** : `resolu` — sections zodiacales et gouvernance intégrées au prompt en 
   production ; reste hors périmètre : déploiement effectif de la veille (accès FS 
   résolu séparément, chantier d'exécution à venir).

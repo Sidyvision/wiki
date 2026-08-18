@@ -1,15 +1,26 @@
 ---
-title: "Modèle économique — le contrepoids de la rentabilité"
+title: Modèle économique — le contrepoids de la rentabilité
 type: production
 medium: transversal
-projet: "label"
+projet: label
 statut: en-cours
-tags: [rentabilite, revenus, don, equilibre, merchandising]
+tags:
+- rentabilite
+- revenus
+- don
+- equilibre
+- merchandising
 created: 2026-07-05
 updated: 2026-07-05
 sources: []
-liens: ["[[label/distribution/doctrine-du-don]]", "[[label/distribution/merchandising]]", "[[label/production/equipe-agents-hermes]]"]
+liens:
+- '[[label/distribution/doctrine-du-don]]'
+- '[[label/distribution/merchandising]]'
+- '[[label/production/equipe-agents-hermes]]'
+- label/production/album-personnel
 liens_atelier: []
+links:
+- label/production/album-personnel
 ---
 
 # Modèle économique — le contrepoids de la rentabilité

@@ -1,12 +1,18 @@
 ---
-title: "Bilan R&D 2026-08-15 — pont inter-agents"
+title: Bilan R&D 2026-08-15 — pont inter-agents
 type: meta
 statut: synthese
-tags: [atelier, rd, bilan, pont, continuite]
+tags:
+- atelier
+- rd
+- bilan
+- pont
+- continuite
 created: 2026-08-15
 updated: 2026-08-15
 sources: []
-links: []
+links:
+- atelier/rd/cahiers/registre-problemes
 ---
 
 # Bilan R&D 2026-08-15 — pont inter-agents

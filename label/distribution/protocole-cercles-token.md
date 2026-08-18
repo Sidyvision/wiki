@@ -1,15 +1,26 @@
 ---
-title: "Protocole des cercles — registre de transmission numérique"
+title: Protocole des cercles — registre de transmission numérique
 type: distribution
 medium: transversal
-projet: "label"
+projet: label
 statut: idee
-tags: [registre, token, soulbound, cercles, tezos, juridique]
+tags:
+- registre
+- token
+- soulbound
+- cercles
+- tezos
+- juridique
 created: 2026-07-05
 updated: 2026-07-05
 sources: []
-liens: ["[[label/distribution/doctrine-du-don]]", "[[label/direction-artistique/amorcage/generation-non-cumulative]]"]
+liens:
+- '[[label/distribution/doctrine-du-don]]'
+- '[[label/direction-artistique/amorcage/generation-non-cumulative]]'
+- label/distribution/strategie-vinyle-300-depositaires
 liens_atelier: []
+links:
+- label/distribution/strategie-vinyle-300-depositaires
 ---
 
 # Protocole des cercles — registre de transmission numérique

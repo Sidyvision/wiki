@@ -1,15 +1,25 @@
 ---
-title: "Génération non-cumulative — principe ontologique du protocole"
+title: Génération non-cumulative — principe ontologique du protocole
 type: amorcage
 medium: transversal
-projet: "label"
+projet: label
 statut: en-gestation
-tags: [generation, valeur, interaction, archetypes, protocole]
+tags:
+- generation
+- valeur
+- interaction
+- archetypes
+- protocole
 created: 2026-07-05
 updated: 2026-07-05
 sources: []
-liens: ["[[label/distribution/doctrine-du-don]]", "[[label/production/equipe-agents-hermes]]"]
+liens:
+- '[[label/distribution/doctrine-du-don]]'
+- '[[label/production/equipe-agents-hermes]]'
+- label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs
 liens_atelier: []
+links:
+- label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs
 ---
 
 # Génération non-cumulative — principe ontologique du protocole

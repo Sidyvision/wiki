@@ -1,10 +1,17 @@
 ---
-title: "Brouillon — extension zodiacale, agent 7 marketing"
+title: Brouillon — extension zodiacale, agent 7 marketing
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
 updated: 2026-08-15
-tags: [hermes, zodiacal, extension-principielle]
+tags:
+- hermes
+- zodiacal
+- extension-principielle
+cross_links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/08-publication-sagittarius
+links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/08-publication-sagittarius
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

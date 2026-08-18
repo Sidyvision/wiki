@@ -1,10 +1,17 @@
 ---
-title: "Brouillon — extension zodiacale, agent 3 production"
+title: Brouillon — extension zodiacale, agent 3 production
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
 updated: 2026-08-11
-tags: [hermes, zodiacal, extension-principielle]
+tags:
+- hermes
+- zodiacal
+- extension-principielle
+cross_links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer
+links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

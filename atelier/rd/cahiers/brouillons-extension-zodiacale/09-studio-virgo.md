@@ -1,10 +1,18 @@
 ---
-title: "Brouillon — extension zodiacale, agent 09 Studio Sound Engineer"
+title: Brouillon — extension zodiacale, agent 09 Studio Sound Engineer
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
 updated: 2026-08-15
-tags: [hermes, zodiacal, extension-principielle, studio]
+tags:
+- hermes
+- zodiacal
+- extension-principielle
+- studio
+cross_links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn
+links:
+- atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn
 ---
 
 # Brouillon — extension principielle, agent 09 studio

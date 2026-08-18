@@ -1,15 +1,26 @@
 ---
-title: "Fanzine — Dans l'Absolu (organe imprimé)"
+title: Fanzine — Dans l'Absolu (organe imprimé)
 type: marketing-communication
 medium: transversal
-projet: "label"
+projet: label
 statut: en-cours
-tags: [fanzine, print, dans-labsolu, wax-poetics, edition]
+tags:
+- fanzine
+- print
+- dans-labsolu
+- wax-poetics
+- edition
 created: 2026-07-05
 updated: 2026-07-05
 sources: []
-liens: ["[[label/distribution/strategie-vinyle-300-depositaires]]", "[[label/production/modele-economique]]", "[[label/marketing-communication/site-dans-labsolu]]"]
+liens:
+- '[[label/distribution/strategie-vinyle-300-depositaires]]'
+- '[[label/production/modele-economique]]'
+- '[[label/marketing-communication/site-dans-labsolu]]'
+- label/distribution/merchandising
 liens_atelier: []
+links:
+- label/distribution/merchandising
 ---
 
 # Fanzine — *Dans l'Absolu* (organe imprimé)
