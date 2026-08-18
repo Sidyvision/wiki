@@ -48,6 +48,8 @@ atelier/rd/
 ├── audio/             ← ingénierie son GÉNÉRIQUE (bancs d'essai, chaînes, mesures) ;
 │                         l'ingénierie PAR MORCEAU reste au label
 ├── outillage/         ← scripts, leur documentation, leurs bancs de test
+├── veille/            ← veille externe R&D (GitHub, arXiv, dépôts) —
+│                         ouvert 2026-08-18, hebdomadaire, qualitatif
 └── cahiers/           ← cahiers append-only : registre-problemes.md (ouvert
                           2026-08-08), cahiers d'expérience à venir (phase 2)
 ```
@@ -68,6 +70,8 @@ atelier/rd/
 | Expression créative : œuvre, écriture, direction artistique | **label** (direction-artistique / production) — jamais `rd/` |
 | Fiches machines, manuels, routing | **reste en `atelier/materiel/`** (référence) |
 | Scripts déterministes du dépôt et leur documentation | `rd/outillage/` |
+| Veille externe R&D (GitHub, arXiv, dépôts scrutés) | `rd/veille/` (ouvert 2026-08-18, hebdomadaire) |
+| Sandbox (éprouve de montages issus de veille) | **hors dépôt** (`/root/sandbox-rd/`) |
 
 La frontière `meta/` ↔ `rd/` suit la règle existante : jamais de fait personnel
 ni de motif sensible dans une page neutre ; `rd/` reçoit ce qui est publiable
@@ -111,7 +115,16 @@ dans le dépôt.
   que `verifier-invariants.py`, ni LLM ni réseau).
 - **Bilan pont inter-agents (2026-08-15)** :
   [[atelier/rd/cahiers/bilan-2026-08-15-pont-agents|bilan 2026-08-15]] — synthèse
-  de la période 2026-08-08 → 2026-08-15 destinée à tout agent (H‍ermes terminal,
+  de la période 2026-08-08 → 2026-08-15 destinée à tout agent (Hermes terminal,
   Claude Code, ou autre) reprenant le fil des travaux R&D sans contexte antérieur :
   ce qui est tranché et committé, ce qui est en cours, chantiers ouverts par
   priorité, leçons transversales. Aucun contenu doctrinal.
+- **Extension du mandat — veille externe + sandbox (2026-08-18)** :
+  [[atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18|proposition
+  extension veille R&D]] — ouverture de `rd/veille/` (veille hebdomadaire
+  GitHub/arXiv/dépôts, qualitatif, temps long) et d'une sandbox isolée hors
+  dépôt (`/root/sandbox-rd/`) pour éprouver des montages. Mandat élargi du
+  Studio Sound Engineer (un seul agent, deux registres : infrastructure
+  interne quotidienne + veille externe hebdomadaire). Exécution effective
+  dès 2026-08-18 ; le mécanisme d'automatisation (cron, prompt) reste à
+  instruire séparément (Cmd 6, non bloquant).
