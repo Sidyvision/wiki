@@ -102,11 +102,19 @@ RANG_ETANCHEITE = {
     "doctrinal": 0,
 }
 
+# Tous les champs de liens reconnus par le protocole racine §IV
+# (« tout Sceau comportant sources / cross_links / liens* »). Le Sceau label
+# déclare explicitement liens: et liens_atelier: (label/CLAUDE.md) ; plusieurs
+# fiches atelier/meta portent cross_links:. Ne lire que sources+links/cross_links
+# faisait passer ces liens valides pour inexistants → faux nœuds isolés.
+# Un champ absent d'un fichier est silencieusement ignoré (get(champ) or []).
+# Le contrôle d'étanchéité §VI (construire_aretes) s'applique à TOUT champ lu.
+_CHAMPS_LIENS_TOUS = ["sources", "liens", "liens_atelier", "links", "cross_links"]
 CHAMPS_LIENS = {
-    "doctrinal": ["sources", "cross_links"],
-    "atelier": ["sources", "links"],
-    "label": ["sources", "links"],
-    "meta": ["sources", "links"],
+    "doctrinal": _CHAMPS_LIENS_TOUS,
+    "atelier": _CHAMPS_LIENS_TOUS,
+    "label": _CHAMPS_LIENS_TOUS,
+    "meta": _CHAMPS_LIENS_TOUS,
 }
 
 CHAMPS_OBLIGATOIRES = {

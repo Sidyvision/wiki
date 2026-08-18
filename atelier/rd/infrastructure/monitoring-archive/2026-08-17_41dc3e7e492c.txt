@@ -1,0 +1,172 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+# Rapport monitoring infrastructure — 2026-08-17 12:01 UTC
+
+---
+
+## §1 — verifier-invariants.py
+
+```
+ERREURS (bloquantes) :
+  [A2] atelier/annales.md:1130 — rupture d'ordre : 2026-08-17 apparaît après 2026-07-17 (ligne 1103). Convention : plus récent en haut.
+
+AVERTISSEMENTS :
+  [C1] atelier/annales.md — lien non résolu : [[wiki-contrainte-integration-levee]]
+  [C1] atelier/annales.md — lien non résolu : [[^]]
+  [C1] atelier/annales.md — lien non résolu : [[^]]
+  [A5] atelier/annales.md:333 — double ligne vide avant un séparateur — signature possible d'un ajout mécanique en fin de fichier plutôt qu'une insertion.
+  [C4] atelier/index.md — lien `atelier` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/02-instrument-feuille-de-route]]
+  [C4] atelier/index.md — lien `atelier` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/framework-etude-de-cas]]
+  [C4] atelier/rd/index.md — lien `atelier` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08]]
+  [C1] atelier/rd/outillage/2026-08-10_methode-croisement-discernement.md — lien non résolu : [[^]]
+  [C1] atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon.md — lien non résolu : [[wiki-contrainte-integration-levee]]
+  [C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — lien non résolu : [[x]]
+  [C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — lien non résolu : [[x/y]]
+  [C1] atelier/rd/cahiers/registre-problemes.md — lien non résolu : [[atelier/rd/infrastructure/infrastructure-architecture-globale-2026-08-11]]
+  [C1] atelier/rd/cahiers/registre-problemes.md — lien non résolu : [[meta/projet-unifie/16-correspondances-zodiacales-agents]]
+  [C4] doctrinal/annales.md — 44 liens inter-circuits `doctrinal` → `meta/` (sens interdit §VI, exemption C3 non bloquante)
+  [C1] doctrinal/autorites/rene-guenon.md — lien non résolu : [[doctrinal/discernement/]]
+
+1 erreur(s), 50 avertissement(s).
+```
+
+**Interprétation** : 1 erreur bloquante (ordre chronologique inversé dans `atelier/annales.md`, ligne 1130 — une entrée 2026-08-17 insérée après une entrée 2026-07-17). 50 avertissements stables : ~10 liens non résolus (C1) et ~40 liens inter-circuits `doctrinal`/`atelier` → `meta/` (C4, exemptés non bloquants).
+
+---
+
+## §2 — generer-cartographie.py --verifier
+
+```
+ÉCHEC — 2 anomalie(s) bloquante(s). Aucun manifeste écrit.
+
+      frontmatter    2
+
+    [frontmatter] doctrinal/sources/transcription-index-tilak-origine-polaire.md : frontmatter absent (le fichier ne commence pas par '---')
+    [frontmatter] doctrinal/sources/transcription-table-matieres-symboles-science-sacree.md : frontmatter absent (le fichier ne commence pas par '---')
+```
+
+**Interprétation** : 2 fichiers dans `doctrinal/sources/` sans frontmatter YAML. Anomalie déjà présente la veille — pas de régression.
+
+---
+
+## §3 — detecter-non-tracke.py
+
+```
+Aucun fichier non tracké.
+```
+
+**Interprétation** : arbre git sain — tous les fichiers sous suivi.
+
+---
+
+## §4 — verifier-coherence-infrastructure.py
+
+```
+3 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+```
+
+*(Sortie §4 collée telle quelle, conformément au protocole anti-fabulation — entrée registre 2026-08-17.)*
+
+**Interprétation** : contrôle anti-fabulation au vert. Les 3 affirmations infrastructure documentées (cron `monitoring-infrastructure-quotidien`, `HOME_CHANNEL` corrigé, allowlist 3 salons) correspondent à l'état runtime réel.
+
+---
+
+## §5 — Empreinte serveur
+
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   21G   16G  58% /
+---
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.5Gi       1.3Gi       4.2Mi       1.3Gi       2.3Gi
+Swap:          2.0Gi       949Mi       1.1Gi
+```
+
+**Interprétation** : empreinte saine — disque 58% (16G libre), RAM disponible 2.3G / 3.7G, swap 949M utilisés (stabilité long-terme OK).
+
+---
+
+## §6 — Registre Hermes-Terminal
+
+**Bind-mounts** :
+```
+BindPaths=\nBindReadOnlyPaths=
+```
+→ Aucune directive `BindPaths` ni `BindReadOnlyPaths` dans les 12 unités. Configuration attendue (profils isolés dans leur `WorkingDirectory=/root/.hermes/profiles/<profil>`, pas de bind de `/root/wiki` dans les gateways).
+
+**Santé des 12 gateways** :
+```
+hermes-gateway-accounting.service     loaded active running
+hermes-gateway-admin-legal.service    loaded active running
+hermes-gateway-ar-music.service       loaded active running
+hermes-gateway-commerce.service       loaded active running
+hermes-gateway-distribution.service   loaded active running
+hermes-gateway-fanzine.service        loaded active running
+hermes-gateway-gardien.service        loaded active running
+hermes-gateway-marketing.service      loaded active running
+hermes-gateway-production.service     loaded active running
+hermes-gateway-publication.service    loaded active running
+hermes-gateway-studio.service         loaded active running
+hermes-gateway-visual-da.service      loaded active running
+```
+→ 12/12 `active (running)`, aucun `failed`, aucun `inactive`.
+
+**Staleness de `_inbox/`** (3 répertoires détectés) :
+- `/root/wiki/_inbox/citadelle-du-sham/` — dernier dépôt `2026-08-17 ~10:15 UTC` (il y a ~1h45) → **actif, frais**
+- `/root/regression-test/sandbox/_inbox/` — dernier dépôt `2026-07-10` (~38 jours) → sandbox de régression, staleness attendue
+- `/root/regression-test-doctrinal/sandbox/_inbox/` — dernier dépôt `2026-07-10` (~38 jours) → idem, sandbox de régression
+
+**Interprétation** : registre sain. Le `_inbox/` canonique (`/root/wiki/_inbox/`) est actif — un dépôt récent (citadelle-sham) est en cours de traitement. Les deux autres `_inbox/` appartiennent à des environnements de test isolés.
+
+---
+
+## §7 — Volet R&D
+
+**Script `detecter-nouvelles-fiches-rd.sh`** :
+```
+Fiches modifiées :
+atelier/rd/cahiers/registre-problemes.md
+atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md
+atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md
+```
+
+→ Sortie ≠ `aucune-nouvelle-fiche` : section R&D ouverte.
+
+**Rapprochement avec `registre-problemes.md`** :
+
+Les 3 fiches modifiées sont couvertes par **une seule entrée du registre** — `[2026-08-17] ouvert | Angle mort de continuité tâches/information entre Claude Code, Hermes Terminal et agents Discord` — qui documente :
+1. Le cron `b7acb57e3d58` narré dans la fiche du 17 qui n'avait jamais été réellement créé (écart doc↔runtime).
+2. La correction `HOME_CHANNEL` effectivement appliquée.
+3. La mise à jour : option (b) retenue — script `verifier-coherence-infrastructure.py` créé, job réel `41dc3e7e492c` créé, second job `ca9593f3a03d` (`--no-agent --script`) créé comme garantie mécanique.
+4. Seconde passe : synchronisation SOUL.md ↔ runtime.
+5. **Statut registre : `resolu`**.
+
+Aucune des 3 fiches n'est une *nouvelle* fiche R&D au sens du protocole (pas d'expérience, pas de protocole, pas d'analyse doctrinale) : ce sont des fiches d'infrastructure dont le contenu est déjà intégralement résorbé dans le registre-problèmes.
+
+**PROPOSITION R&D-1** — Pas de matière nouvelle à traiter aujourd'hui : le cycle du 17 août (détection → diagnostic → résolution → vérification mécanique) est complet dans le registre. Suggérer une relecture rétrospective de l'entrée 2026-08-17 à J+7 (2026-08-24) pour vérifier que les garanties mécaniques mises en place (script sans LLM, second cron `--no-agent`) tiennent leur rôle dans la durée — test de résistance du blindage anti-fabulation.
+
+**PROPOSITION R&D-2** — Les 2 anomalies frontmatter (§2) et l'erreur [A2] (§1) ne sont pas couvertes par une entrée registre. Elles ne sont pas nouvelles mais ne sont pas non plus documentées comme « connues et acceptées ». Proposer d'ajouter une entrée registre type « anomalie infrastructure récurrente — sans action immédiate » pour formaliser leur statut (connu, non bloquant, surveillé) plutôt que de les laisser flotter en avertissements muets.
+
+---
+
+## §8 — Suggestions
+
+1. **Action requise** : corriger la rupture d'ordre dans `atelier/annales.md` ligne 1130 (entrée 2026-08-17 à déplacer au-dessus de l'entrée 2026-07-17). Bloquant (§A2).
+
+2. **Action requise** : ajouter le frontmatter YAML manquant aux 2 fichiers `doctrinal/sources/transcription-index-tilak-origine-polaire.md` et `doctrinal/sources/transcription-table-matieres-symboles-science-sacree.md`, ou décider explicitement de leur exclusion du périmètre cartographie.
+
+3. **Surveillance** : les ~44 avertissements C4 (liens `doctrinal`→`meta/`) forment un bruit de fond stable. Si ce volume est jugé acceptable à long terme, envisager un mécanisme d'exemption explicite (fichier `.invariants-ignore` ou marqueur dans le protocole) pour sortir ces signaux du rapport quotidien sans perdre la détection des *nouveaux* C4.
+
+4. **Volet R&D** : rien de bloquant aujourd'hui — les 2 propositions ci-dessus sont des suivis à trancher par Sidy.
+
+---
+
+**Synthèse exécutive** : monitoring global **sain**. 2 points bloquants (ordre annales, 2 frontmatter) sans régression par rapport à la veille. Registre Hermes-Terminal au complet (12/12 gateways actives, 0 écart doc↔runtime sur le profil studio). Emprente serveur stable. Volet R&D sans matière nouvelle — cycle du 17 août résolu et documenté.
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

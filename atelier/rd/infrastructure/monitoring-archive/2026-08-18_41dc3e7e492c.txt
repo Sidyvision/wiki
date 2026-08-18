@@ -1,0 +1,218 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+# Rapport de monitoring quotidien — Pôle infrastructure & veille R&D
+
+**Date :** mardi 18 août 2026 · **Profil :** studio · **Canal :** #infrastructure
+
+---
+
+## §1 — Invariants (verifier-invariants.py)
+
+```
+AVERTISSEMENTS :
+  [C1] atelier/annales.md — lien non résolu : [[wiki-contrainte-integration-levee]]
+  [C1] atelier/annales.md — lien non résolu : [[^]]
+  [C1] atelier/annales.md — lien non résolu : [[^]]
+  [A5] atelier/annales.md:375 — double ligne vide avant un séparateur — signature possible d'un ajout mécanique en fin de fichier plutôt qu'une insertion.
+  [C4] atelier/index.md — lien `atelier` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/02-instrument-feuille-de-route]]
+  [C4] atelier/index.md — lien `atelier` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/framework-etude-de-cas]]
+  [C4] atelier/rd/index.md — lien `atelier` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08]]
+  [C1] atelier/rd/outillage/2026-08-10_methode-croisement-discernement.md — lien non résolu : [[^]]
+  [C1] atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon.md — lien non résolu : [[wiki-contrainte-integration-levee]]
+  [C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — lien non résolu : [[x]]
+  [C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — lien non résolu : [[x/y]]
+  [C1] atelier/rd/cahiers/registre-problemes.md — lien non résolu : [[atelier/rd/infrastructure/infrastructure-architecture-globale-2026-08-11]]
+  [C1] atelier/rd/cahiers/registre-problemes.md — lien non résolu : [[meta/projet-unifie/16-correspondances-zodiacales-agents]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/personnel/sidy]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/philosophie-sashimono.md]]
+  [C1] doctrinal/annales.md — lien non résolu : [[^]]
+  [C1] doctrinal/annales.md — lien non résolu : [[^]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/plan-fiche-discernement-septenaire-transversal-2026-07-27]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/bibliotheque-physique.md]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/bibliotheque-physique.md]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/bibliotheque-physique]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/README]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/briefing-claude-ai]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/01-contexte-demarche-etat]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/02-instrument-feuille-de-route]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/README]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/bibliotheque-physique]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/bibliotheque-physique]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/bibliotheque-physique]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/05-runbook-test-ornith-gpu-cloud]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/03-transition-modele-open-source]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/05-runbook-test-ornith-gpu-cloud]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/03-transition-modele-open-source]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/bibliotheque-physique]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/2026-06-20_bourdonnement-tempe]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/2026-06-20_taekwondo-hansu]]
+  [C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/sidy]]
+  [C4] doctrinal/index.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/meta-index]]
+  [C1] doctrinal/autorites/rene-guenon.md — lien non résolu : [[doctrinal/discernement/]]
+
+0 erreur(s), 50 avertissement(s).
+```
+
+---
+
+## §2 — Cartographie (generer-cartographie.py --verifier)
+
+```
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 331
+      doctrinal    247
+      atelier      74
+      label        10
+
+  Arêtes : 1075
+      établies    901
+      suggérées   174
+
+  Lacunes to-source : 65
+
+  Avertissements : 151 (non bloquants)
+      isolée         62
+      compteur       56
+      lien           17
+      lien mort      16
+  Mode --verifier : aucun manifeste écrit.
+```
+
+---
+
+## §3 — Fichiers non trackés (detecter-non-tracke.py)
+
+```
+1 fichier(s) non tracké(s), par circuit :
+
+  [hors-circuit] 1
+    ??  _inbox/interview-sidy-trame-spirituelle-corrections-2026-08-18.md
+```
+
+---
+
+## §4 — Cohérence infrastructure (contrôle anti-fabration)
+
+```
+3 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+```
+
+---
+
+## §5 — Empreinte serveur (RAM / disk / swap)
+
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   21G   16G  58% /
+---
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.2Gi       1.6Gi       4.2Mi       1.2Gi       2.6Gi
+Swap:          2.0Gi       1.2Gi       817Mi
+---
+NAME      TYPE SIZE USED PRIO
+/swapfile file   2G 1.2G   -2
+```
+
+---
+
+## §6 — Registre Hermes-Terminal
+
+### Bind-mounts (intégrité)
+
+```
+├─/home/mehdi/depot-lecture/karubi-mehdi.md /dev/sda1[/root/wiki/meta/transmissions/karubi-mehdi.md] ext4        ro,relatime
+├─/home/mehdi/depot-lecture/rd/instrument   /dev/sda1[/root/wiki/atelier/rd/instrument]              ext4        ro,relatime
+├─/home/mehdi/depot-lecture/rd/outillage    /dev/sda1[/root/wiki/atelier/rd/outillage]               ext4        ro,relatime
+├─/home/mehdi/depot-lecture/rd/cahiers      /dev/sda1[/root/wiki/atelier/rd/cahiers]                 ext4        ro,relatime
+├─/home/mehdi/depot-lecture/doctrinal       /dev/sda1[/root/wiki/doctrinal]                          ext4        ro,relatime
+├─/home/mehdi/depot-ecriture/inbox          /dev/sda1[/root/wiki/_inbox]                             ext4        rw,relatime
+└─/home/mehdi/depot-lecture/hermeneutique   /dev/sda1[/root/wiki/hermeneutique]                      ext4        ro,relatime
+```
+
+7 bind-mounts actifs — 6 en lecture seule (depot-lecture), 1 en lecture-écriture (_inbox via depot-ecriture). Intégrité OK.
+
+### Santé des 12 gateways
+
+```
+  UNIT                                LOAD   ACTIVE SUB     DESCRIPTION
+  hermes-gateway-accounting.service   loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-admin-legal.service  loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-ar-music.service     loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-commerce.service     loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-distribution.service loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-fanzine.service      loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-gardien.service      loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-marketing.service    loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-production.service   loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-publication.service  loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-studio.service       loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-visual-da.service    loaded active running Hermes Agent Gateway - Messaging Platform Integration
+
+12 loaded units listed.
+```
+
+**12 / 12 gateways : loaded + active + running.** Santé nominale.
+
+### Staleness de `_inbox/`
+
+```
+total 52
+drwxrwxr-x+  3 root  root   4096 Aug 18 08:34 .
+drwxr-xr-x+ 12 root  root   4096 Aug 17 05:42 ..
+drwxrwxr-x+  3 mehdi mehdi  4096 Aug 13 07:37 citadelle-du-sham
+-rw-------+  1 root  root  40034 Aug 18 08:34 interview-sidy-trame-spirituelle-corrections-2026-08-18.md
+
+--- fichiers > 24h ---
+-rw-rw-r--+ 1 mehdi mehdi 3.8K Aug 13 07:37 _inbox/citadelle-du-sham/note.md
+-rw-rw-r--+ 1 mehdi mehdi 2.9M Aug 13 17:15 _inbox/citadelle-du-sham/citadelle-sham.html
+-rw-rw-r--+ 1 mehdi mehdi  45K Aug 13 17:14 _inbox/citadelle-du-sham/source/gen_game3d.py
+-rw-rw-r--+ 1 mehdi mehdi 5.9K Aug 13 17:14 _inbox/citadelle-du-sham/source/rooms.json
+-rw-rw-r--+ 1 mehdi mehdi 2.9M Aug 13 17:14 _inbox/citadelle-du-sham/source/citadelle-sham.html
+-rw-rw-r--+ 1 mehdi mehdi 5.0K Aug 13 07:06 _inbox/citadelle-du-sham/source/extract_full.py
+-rw-rw-r--+ 1 mehdi mehdi 590K Aug 13 07:06 _inbox/citadelle-du-sham/source/three.min.js
+-rw-rw-r--+ 1 mehdi mehdi 6.7K Aug 13 07:06 _inbox/citadelle-du-sham/source/layout.py
+-rw-rw-r--+ 1 mehdi mehdi 2.2M Aug 13 17:14 _inbox/citadelle-du-sham/source/library-full.json
+
+--- fichiers < 1h ---
+```
+
+Fichier frais (`interview-sidy-trame-spirituelle-corrections-2026-08-18.md`, 39 Ko, modifié aujourd'hui à 08:34) en attente de traitement. Le dossier `citadelle-du-sham/` (depuis le 13 août, ~5 jours) est stagnant — 9 fichiers dont 2 HTML de 2,9 Mo.
+
+---
+
+## §7 — Volet R&D
+
+**Non applicable.** `detecter-nouvelles-fiches-rd.sh` a retourné `aucune-nouvelle-fiche`. Pas de section R&D ouverte ce jour.
+
+---
+
+## §8 — Suggestions
+
+| Priorité | Observation | Proposition |
+|----------|-------------|-------------|
+| 🟡 Moyen | 50 avertissements invariants — 37× C4 (`doctrinal → meta/`, sens interdit §VI) et 12× C1 (liens `[[^]]` ou cibles inexistantes) | Traiter en lot les 37 C4 de `doctrinal/annales.md` : soit déplacer les cibles `meta/` vers un circuit autorisé, soit supprimer les liens devenus obsolètes (beaucoup renvoient à `projet-unifie/` — vérifier si ces fiches ont été consolidées ailleurs). Les 6× `[[^]]` semblent être des artefacts de notes de bas de page mal fermées. |
+| 🟡 Moyen | 62 nœuds isolés dans la cartographie | Passer en revue les 62 isolés : soit les raccorder au graphe via un lien entrant, soit les archiver s'ils sont devenus hors-sujet. Un isolé persistant est un signe de dérive ou d'abandon. |
+| 🟢 Faible | `_inbox/citadelle-du-sham/` stagnant depuis 5 jours (9 fichiers, ~8 Mo) | Soit verser dans un circuit de destination (atelier, doctrinal, hermeneutique), soit marquer comme archivé. Un dossier _inbox/ stagnant > 7 jours est à traiter par convention. |
+| 🟢 Faible | Swap à 60% (1,2 Go / 2 Go) | Pas critique mais à surveiller. Si la tendance haussière se confirme sur 3 rapports consécutifs, envisager un passage à 4 Go de swap ou identifier le process gourmand. |
+| 🟢 Faible | 174 arêtes suggérées non établies | Pool de liens candidats pour enrichir le graphe — à traiter par campagnes lors des sessions de navigation R&D. |
+| ✅ RAS | 12 gateways actives, 7 bind-mounts intacts, 3/3 affirmations cohérence vérifiées | Infrastructure nominale. |
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").
