@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-18
+updated: 2026-08-19
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,36 @@ updated: 2026-08-18
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-19] rd | Job cron H‍ermes `coherence-infrastructure-brute` réparé, archive du monitoring passée en cron dédié
+
+- **Contexte** : suite de la clôture de session du 2026-08-18 (entrée
+  ci-dessous) — deux points laissés en signalement seul y sont repris et
+  résolus, sur feu vert explicite de Sidy en session (« tu as le feu vert
+  pour tout rétablir »).
+- **`coherence-infrastructure-brute` (id `ca9593f3a03d`, profil `studio`)** :
+  réparé en deux temps. (1) « Script not found » — un premier remède par
+  lien symbolique a été rejeté par H‍ermes lui-même (garde-fou de résolution
+  de chemin canonique, hors du dossier `scripts/` du profil) ; remplacé par
+  une copie réelle. (2) La copie réelle a révélé un second défaut, plus
+  grave car silencieux : `last_status: "ok"` alors que le script, privé de
+  `--racine` (un job `no_agent` ne transmet aucun argument), vérifiait 0
+  affirmation au lieu de 3 — faux succès découvert par lecture directe de la
+  sortie persistée, jamais par confiance dans le statut narré. Corrigé par
+  une enveloppe (`verifier-coherence-infrastructure-cron.sh`) qui fixe
+  `--racine /root/wiki` en dur. Re-vérifié : 3 affirmations, 0 écart.
+- **Archive du monitoring quotidien — ingestion tranchée** : cron H‍ermes
+  dédié (`archiver-monitoring-quotidien`, id `5eb46eed6ba0`, profil
+  `studio`, `10 12 * * *`), via une enveloppe symétrique
+  (`archiver-monitoring-quotidien-cron.sh`) pour la même raison (arguments
+  fixés en dur). Déclenché manuellement pour vérification : sortie réelle
+  lue directement, cohérente avec l'état déjà archivé.
+- **Détail complet** : [[atelier/rd/cahiers/registre-problemes]], entrée
+  `[2026-08-18]` (« Suite de l'entrée précédente ») ;
+  [[atelier/rd/infrastructure/monitoring-archive-charte]] ;
+  [[atelier/rd/outillage/spec-archiver-monitoring-quotidien]] ;
+  [[atelier/rd/index]].
+- **Commit** : c379f50
 
 ## [2026-08-18] rd | Cause racine cartographie corrigée, registre enrichi, archive monitoring quotidien (40j)
 
