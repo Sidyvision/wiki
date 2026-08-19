@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-18
+updated: 2026-08-19
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,118 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-18] resolu | Suite de l'entrée précédente — `coherence-infrastructure-brute` réparé en deux temps, plus un faux-positif silencieux découvert au passage ; archive du monitoring mise en cron dédié
+
+**Contexte** : suite directe de l'entrée `[2026-08-18]` ci-dessous
+(« Second job cron H‍ermes... non documenté »). Verdict Sidy explicite reçu
+en session : « tu as le feu vert pour tout rétablir » — autorisation directe
+d'exécuter les deux corrections plutôt que de les laisser en signalement
+seul.
+
+**Symptôme 1 (script introuvable)** : confirmé identique à l'entrée
+précédente — `last_error: "Script not found:
+/root/.hermes/profiles/studio/scripts/verifier-coherence-infrastructure.py"`.
+
+**Tentative 1 — lien symbolique** : `ln -s
+atelier/rd/outillage/verifier-coherence-infrastructure.py
+/root/.hermes/profiles/studio/scripts/verifier-coherence-infrastructure.py`.
+Fonctionne pour un appel Python direct (`python3 <lien> --racine
+/root/wiki` → 3 affirmations vérifiées), mais **rejeté par H‍ermes
+lui-même** à l'exécution du job : `last_error: "Blocked: script path
+resolves outside the scripts directory
+(/root/.hermes/profiles/studio/scripts):
+'verifier-coherence-infrastructure.py'"`. H‍ermes résout le chemin canonique
+réel du script et refuse tout chemin dont la cible sort du dossier
+`scripts/` du profil — garde-fou de sécurité propre à l'outil, indépendant
+du système de fichiers.
+
+**Résolution 1** : lien symbolique supprimé, remplacé par une **copie
+réelle** du fichier (`cp` direct, pas de lien) dans
+`/root/.hermes/profiles/studio/scripts/verifier-coherence-infrastructure.py`.
+`hermes cron run ca9593f3a03d` déclenché : `last_status` passe à `"ok"`.
+
+**Symptôme 2 (faux-positif silencieux, découvert par vérification
+mécanique, pas par confiance dans le statut `"ok"`)** : lecture directe du
+fichier de sortie persisté (§VIII.2 — ne jamais se fier à la narration
+d'un outil) : contenu réel = « Aucune affirmation infra_verif trouvée dans
+atelier/rd/infrastructure/. » — alors qu'un appel manuel identique avec
+`--racine /root/wiki` avait, minutes plus tôt, vérifié 3 affirmations
+réelles. Le job affichait donc un succès *plus trompeur* que l'échec
+d'origine : vert, mais ne contrôlant plus rien.
+
+**Diagnostic 2** : `verifier-coherence-infrastructure.py` définit `--racine`
+avec `default="."` (répertoire courant du process). Un job `no_agent`
+(script pur) ne reçoit **aucun argument** — confirmé par `hermes cron edit
+-h` : `--script` ne prend qu'un chemin, rien d'autre ; le champ `workdir` du
+job (documenté « uses it as the cwd for terminal/file/code_exec tools »)
+**ne s'applique pas** au cwd du process lancé pour un script `no_agent`.
+Reproduit indépendamment : `cd /tmp && python3
+.../verifier-coherence-infrastructure.py` (sans `--racine`) produit le même
+message vide. Le job `monitoring-infrastructure-quotidien` (mode agent, pas
+`no_agent`) n'a jamais souffert de ce défaut car son prompt appelle le
+script avec `--racine /root/wiki` en toutes lettres — seul le job
+`no_agent`, plus jeune et plus « brut » par construction, était exposé.
+
+**Résolution 2** : enveloppe créée —
+[[atelier/rd/outillage/spec-archiver-monitoring-quotidien|voir aussi
+archiver-monitoring-quotidien-cron.sh]] et
+`atelier/rd/outillage/verifier-coherence-infrastructure-cron.sh` — un script
+bash de 3 lignes utiles qui fixe `--racine /root/wiki` en dur et appelle le
+script réel du dépôt par chemin absolu. Copié (même motif que Résolution 1 —
+pas de lien symbolique) dans
+`/root/.hermes/profiles/studio/scripts/verifier-coherence-infrastructure-cron.sh`,
+job réédité (`hermes cron edit ca9593f3a03d --script
+verifier-coherence-infrastructure-cron.sh`). Re-vérifié par lecture directe
+du fichier de sortie persisté : 3 affirmations vérifiées, 0 écart —
+identique au résultat manuel de référence.
+
+**Décision annexe (archive du monitoring, second volet de la tâche)** :
+mécanisme d'ingestion choisi = **cron dédié**, pas déclenchement manuel.
+Même contrainte que ci-dessus (`archiver-monitoring-quotidien.py` prend
+`--source`/`--job-id`/`--archive`/`--appliquer`, aucun ne passe par un job
+`no_agent` sans enveloppe) : enveloppe symétrique
+`archiver-monitoring-quotidien-cron.sh`, copiée dans le même dossier
+`scripts/` du profil, job créé (id `5eb46eed6ba0`, cron `10 12 * * *` — 10
+minutes après `monitoring-infrastructure-quotidien` à midi, pour que la
+sortie `.txt` du jour soit déjà persistée sur disque au moment de la copie).
+Déclenché manuellement une fois pour vérification : sortie réelle lue
+directement — « 2 sortie(s) source, 2 déjà archivée(s), 0 à copier » (état
+attendu, les deux jours déjà archivés à la main précédemment).
+
+**Compréhension tirée** : deux leçons distinctes, toutes deux réutilisables
+pour tout futur job `no_agent` de ce dépôt. (1) H‍ermes vérifie le chemin
+*canonique* d'un `--script`, pas seulement son existence apparente — un
+lien symbolique hors du dossier `scripts/` du profil est bloqué
+mécaniquement, jamais une copie réelle. (2) Un job `no_agent` n'a **aucun**
+canal pour recevoir des arguments ni un cwd différent du défaut du
+process — tout script du dépôt appelé en mode `no_agent` qui dépend d'un
+argument ou d'un chemin relatif doit être enveloppé d'un script wrapper
+dédié (créé dans `rd/outillage/`, copié — jamais lié — dans
+`scripts/<profil>/`), sous peine d'un faux succès silencieux structurellement
+identique à celui de cette entrée. Un `last_status: "ok"` d'un job `no_agent`
+ne garantit donc **rien** de plus qu'un `last_status: "error"` : les deux
+exigent la lecture du fichier de sortie persisté pour être crus.
+
+**Risque de dérive documenté** : les deux enveloppes (et le script
+`verifier-coherence-infrastructure.py` lui-même) existent désormais en
+double — version trackée dans `atelier/rd/outillage/` (source de vérité) et
+copie réelle non trackée dans
+`/root/.hermes/profiles/studio/scripts/`. Toute modification future du
+script ou de ses enveloppes dans le dépôt doit être **manuellement
+répercutée** par une nouvelle copie ; rien ne synchronise automatiquement
+les deux. Pas de correction structurelle apportée ici (hors périmètre —
+gérer cette synchronisation relève d'un chantier d'outillage séparé, non
+demandé).
+
+**Liens** : [[atelier/rd/infrastructure/monitoring-archive-charte]],
+[[atelier/rd/outillage/spec-archiver-monitoring-quotidien]], entrée
+`[2026-08-18]` ci-dessous (symptôme d'origine), entrée `[2026-08-17]` de ce
+registre (`infra_verif`).
+
+**Statut** : `resolu`.
 
 ---
 

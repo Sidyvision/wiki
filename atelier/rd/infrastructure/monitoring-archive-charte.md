@@ -3,9 +3,14 @@ title: "Charte — Archive du monitoring infrastructure quotidien"
 type: infrastructure
 tags: [rd, infrastructure, monitoring, hermes, archive]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-19
 sources: []
 links: ["[[atelier/rd/outillage/spec-archiver-monitoring-quotidien]]", "[[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17]]", "[[atelier/rd/cahiers/registre-problemes]]"]
+infra_verif:
+  - profil: studio
+    cron_job: archiver-monitoring-quotidien
+  - profil: studio
+    cron_job: coherence-infrastructure-brute
 ---
 
 # Charte — `atelier/rd/infrastructure/monitoring-archive/`
@@ -36,20 +41,22 @@ archiver-monitoring-quotidien.py]] : copie ce que H‍ermes a déjà persisté s
 disque (`/root/.hermes/profiles/studio/cron/output/`), sans toucher au job de
 production ni à Discord. Purge les copies au-delà de 40 jours.
 
-**Ingestion — décision en attente de Sidy** : le script existe et fonctionne
-(testé en dry-run puis appliqué le 2026-08-18, 2 rapports archivés :
-2026-08-17 et 2026-08-18). Reste ouverte la question du déclenchement
-récurrent :
-- **manuel**, à la discrétion de Sidy ou d'une session d'intégration
-  (`python3 atelier/rd/outillage/archiver-monitoring-quotidien.py --appliquer`) ;
-- ou **cron dédié** côté H‍ermes (`no_agent`, script pur — même famille que le
-  job `coherence-infrastructure-brute` cassé, cf. §« Note » ci-dessous),
-  planifié après l'exécution du job monitoring (ex. `10 12 * * *`).
-
-Aucune automatisation n'est affirmée tant que ce choix n'est pas tranché et
-qu'un cron correspondant n'est pas vérifié en état `last_status: "ok"` — cf.
-`infra_verif` et le principe de non-fabulation narrative (§VIII.2 du
-protocole racine).
+**Ingestion — cron dédié, mis en place le 2026-08-18** (feu vert Sidy en
+session : « tu as le feu vert pour tout rétablir »). Job H‍ermes créé, profil
+`studio` : `archiver-monitoring-quotidien` (id `5eb46eed6ba0`, `no_agent`,
+cron `10 12 * * *` — 10 minutes après `monitoring-infrastructure-quotidien`,
+pour que la sortie `.txt` du jour soit déjà persistée sur disque au moment
+de la copie). Le script réel (`atelier/rd/outillage/archiver-monitoring-
+quotidien.py`) prend des arguments (`--source`/`--job-id`/`--archive`/
+`--appliquer`) qu'un job `no_agent` ne peut pas transmettre (aucun canal
+d'arguments — constaté en investiguant le job `coherence-infrastructure-
+brute`, cf. §« Note » ci-dessous) : le job appelle donc une enveloppe,
+`atelier/rd/outillage/archiver-monitoring-quotidien-cron.sh`, qui fixe ces
+arguments en dur. Vérifié par lecture directe de la sortie persistée du job
+(jamais sur la seule foi de `last_status: "ok"`, §VIII.2 du protocole
+racine) : « 2 sortie(s) source, 2 déjà archivée(s), 0 à copier » — état
+attendu, cohérent avec l'archivage manuel déjà fait le 2026-08-18.
+`infra_verif` ci-dessus trace la présence du job de façon mécanique.
 
 ## Rétention
 
@@ -58,12 +65,16 @@ absolue** : tout fichier commité dans git avant sa purge reste retrouvable
 indéfiniment dans l'historique du dépôt — la purge allège l'arborescence
 courante, elle n'efface rien de versionné.
 
-## Note — job H‍ermes `coherence-infrastructure-brute` cassé (découverte annexe)
+## Note — job H‍ermes `coherence-infrastructure-brute` réparé (2026-08-18)
 
-Sans lien direct avec cette archive, mais découverte en investiguant le job
-monitoring pour cette tâche : un second job cron du profil `studio`
-(`coherence-infrastructure-brute`, id `ca9593f3a03d`) échoue depuis sa
-création — script introuvable au chemin que H‍ermes résout pour un job
-`no_agent`. Détail : [[atelier/rd/outillage/spec-archiver-monitoring-quotidien]]
-§6 et `registre-problemes.md`. Signalé, non corrigé (décision humaine requise
-sur le remède).
+Découvert cassé en investiguant le job monitoring pour cette tâche (script
+introuvable au chemin que H‍ermes résout pour un job `no_agent`), puis
+réparé le même jour (feu vert Sidy) via une enveloppe symétrique à celle
+ci-dessus — `atelier/rd/outillage/verifier-coherence-infrastructure-cron.sh`
+— après qu'un premier remède par lien symbolique a été rejeté par H‍ermes
+lui-même (garde-fou de résolution de chemin canonique), puis qu'une copie
+réelle sans enveloppe a révélé un second défaut, plus grave : un faux
+succès silencieux (0 affirmation vérifiée au lieu de 3, `--racine` non
+transmis). Détail complet des deux défauts et de leur résolution :
+[[atelier/rd/cahiers/registre-problemes]], entrée `[2026-08-18]` (« Suite de
+l'entrée précédente »).

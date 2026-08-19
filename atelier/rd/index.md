@@ -3,7 +3,7 @@ title: "Pôle R&D de l'atelier — charte du lieu"
 type: index
 tags: [atelier, rd, infrastructure, souverainete]
 created: 2026-08-08
-updated: 2026-08-18
+updated: 2026-08-19
 sources: []
 links: []
 ---
@@ -130,16 +130,20 @@ dans le dépôt.
   interne quotidienne + veille externe hebdomadaire). Exécution effective
   dès 2026-08-18 ; le mécanisme d'automatisation (cron, prompt) reste à
   instruire séparément (Cmd 6, non bloquant).
-- **Archive du monitoring quotidien (2026-08-18)** :
+- **Archive du monitoring quotidien (2026-08-18, ingestion automatisée
+  2026-08-19)** :
   [[atelier/rd/infrastructure/monitoring-archive-charte|charte de l'archive]]
   — suggestion Sidy, rétention 40 jours du rapport
   `monitoring-infrastructure-quotidien` livré via Discord, désormais aussi
   copié dans `rd/infrastructure/monitoring-archive/` (`.txt`, jamais `.md` —
   motif : [[atelier/rd/outillage/spec-archiver-monitoring-quotidien|
-  archiver-monitoring-quotidien.py]]). Script testé et appliqué (2 rapports
-  archivés, 2026-08-17 et 2026-08-18) ; déclenchement récurrent (manuel ou
-  cron dédié) laissé en attente de choix de Sidy. Découverte annexe consignée
-  au registre : le job cron `coherence-infrastructure-brute` (contrôle
-  anti-fabulation censé exister depuis le 2026-08-17) échoue depuis sa
-  création, jamais documenté — [[atelier/rd/cahiers/registre-problemes]],
-  entrée `[2026-08-18]`.
+  archiver-monitoring-quotidien.py]]). Ingestion tranchée : cron H‍ermes dédié
+  (`archiver-monitoring-quotidien`, profil `studio`, id `5eb46eed6ba0`, via
+  enveloppe `archiver-monitoring-quotidien-cron.sh` — un job `no_agent` ne
+  transmet aucun argument à son script). Découverte annexe du 2026-08-18 —
+  le job cron `coherence-infrastructure-brute` (contrôle anti-fabulation
+  censé exister depuis le 2026-08-17) échouait depuis sa création, jamais
+  documenté — **réparée le même jour** en deux temps (script introuvable,
+  puis faux succès silencieux découvert par vérification mécanique de la
+  sortie persistée) : [[atelier/rd/cahiers/registre-problemes]], entrée
+  `[2026-08-18]` (« Suite de l'entrée précédente »).

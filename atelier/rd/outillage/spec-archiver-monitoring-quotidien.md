@@ -3,7 +3,7 @@ title: "Spécification — Archivage du rapport de monitoring infrastructure quo
 type: outillage
 tags: [rd, outillage, infrastructure, monitoring, hermes]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-19
 sources: []
 links: ["[[atelier/rd/infrastructure/monitoring-archive-charte]]", "[[atelier/rd/cahiers/registre-problemes]]"]
 ---
@@ -86,9 +86,12 @@ cartographie des liens ni les invariants.
   git.** Un fichier purgé du dossier `monitoring-archive/` reste retrouvable
   dans l'historique git de tout commit qui l'aura inclus, indéfiniment. La
   purge allège l'arborescence courante, elle n'efface pas la trace versionnée.
-- Ne déclenche rien automatiquement : reste un script manuel tant qu'aucun
-  mécanisme d'automatisation n'a été instruit et confirmé séparément (cf.
-  `atelier/rd/infrastructure/monitoring-archive-charte.md`, §« Ingestion »).
+- Ne déclenche rien lui-même : l'automatisation (ouverte le 2026-08-18, cf.
+  `atelier/rd/infrastructure/monitoring-archive-charte.md`, §« Ingestion »)
+  vit dans un job cron H‍ermes dédié qui appelle une enveloppe
+  (`archiver-monitoring-quotidien-cron.sh`, args fixés en dur — un job
+  `no_agent` ne transmet aucun argument à son `--script`), jamais dans une
+  modification de ce script lui-même.
 
 ## 5. Écart avec la piste initialement envisagée
 
@@ -101,7 +104,7 @@ persiste déjà la sortie complète sur disque sans qu'aucune modification du
 job ne soit nécessaire : ce script se branche sur une donnée déjà produite,
 zéro risque pour le job vivant.
 
-## 6. Découverte annexe (signalée, non corrigée ici)
+## 6. Découverte annexe — trouvée cassée, réparée le même jour (2026-08-18)
 
 En inspectant `/root/.hermes/profiles/studio/cron/jobs.json` pour retrouver
 le prompt exact du job monitoring, un second job cron du même profil,
@@ -113,8 +116,16 @@ LLM), s'est révélé **en échec systématique depuis sa création** (`last_sta
 — le script réel vit dans le dépôt
 (`atelier/rd/outillage/verifier-coherence-infrastructure.py`), pas dans le
 dossier `scripts/` du profil H‍ermes que `--script` résout implicitement pour
-un job `no_agent`. Ce job n'est documenté nulle part dans le dépôt (absent de
-la fiche `activation-monitoring-studio-cron-2026-08-17.md`). Signalement
-consigné au registre des problèmes ; correction non effectuée ici (édition
-d'un job de production, décision humaine requise sur le remède — lien
-symbolique vs. copie du script dans le dossier attendu par H‍ermes).
+un job `no_agent`. Ce job n'était documenté nulle part dans le dépôt (absent
+de la fiche `activation-monitoring-studio-cron-2026-08-17.md`).
+
+Réparé le même jour, feu vert Sidy en session (« tu as le feu vert pour tout
+rétablir »), en deux temps — un lien symbolique d'abord tenté a été rejeté
+par H‍ermes lui-même (chemin canonique résolu hors du dossier `scripts/` du
+profil), puis une copie réelle a révélé un second défaut plus grave qu'un
+échec visible : un faux succès silencieux (`last_status: "ok"` alors que le
+script, privé de `--racine`, vérifiait 0 affirmation au lieu de 3). Les deux
+défauts et leur résolution (enveloppe `verifier-coherence-infrastructure-
+cron.sh`, même motif que l'enveloppe de ce script-ci) sont détaillés dans
+[[atelier/rd/cahiers/registre-problemes]], entrée `[2026-08-18]` (« Suite de
+l'entrée précédente »).
