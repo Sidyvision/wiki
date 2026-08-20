@@ -10,6 +10,42 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] rd | Prototype de l'Instrument mis à jour (Aqtâb, filament) + correction de traçabilité Phase 3
+
+- **Contexte** : retour de Sidy sur la fiche de pistes de développement du
+  même jour — signalement de deux erreurs : (1) la tension
+  Burckhardt/Jurjānī déclarée « disparue sans trace » de l'architecture
+  était en réalité close depuis longtemps ; (2) la Phase 3 de l'Instrument
+  jugée sous-évaluée compte tenu des sources récemment intégrées.
+- **Vérification** : [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]]
+  close le 2026-07-09 (verdict Sidy, `status: traditionnel`) — la fiche de
+  synthèse a été corrigée en conséquence. Découverte d'un second nœud
+  universel déjà établi et jamais intégré :
+  [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]
+  (Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara, `status: traditionnel`,
+  clos le 2026-07-26).
+- **Prototype mis à jour** (consigne explicite de Sidy) :
+  `atelier/rd/instrument/instrument-prototype.html` — sept nœuds Aqtâb
+  rendus (degrés 21-27, équivalence établie visuellement, source citée),
+  filament d'al-Insān al-Kāmil enrichi de son identité à quatre voiles.
+  Vérifié : syntaxe JS valide, exécution du bloc de rendu testée hors
+  navigateur (mocks Three.js, sans WebGL — CDN externe bloqué par la
+  politique réseau de la session) ; rendu visuel non vérifié en navigateur
+  réel, à confirmer par Sidy.
+- **Fiches mises à jour** :
+  [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]
+  (§0 corrections, §1 Phase 3 réévaluée, §2 écart retiré, §3 pistes
+  renumérotées P1-P6, §5 journal de la mise à jour du prototype) ;
+  [[atelier/rd/cahiers/registre-problemes]] (leçon de méthode : consulter
+  systématiquement `doctrinal/discernement/` avant de signaler une
+  disparition documentaire comme anomalie) ; `atelier/index.md`.
+- **Hors périmètre de cette passe** (Cmd 6) : déclaration du nœud « Homme
+  Universel » dans `instrument-donnees.yaml`, régénération du manifeste,
+  anneau zodiacal — restent en piste P1/P3.
+- **Commit** : `3c72bd8`
+
+---
+
 ## [2026-08-20] rd | Pistes de développement — Instrument et infrastructure (reprise du rapport conjoint)
 
 - **Contexte** : le rapport conjoint Studio–Gardien du 2026-08-20 devait
