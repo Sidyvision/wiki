@@ -10,6 +10,29 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] réparation | Points mécaniques du rapport conjoint Studio–Gardien
+
+- **Contexte** : rapport conjoint Studio–Gardien déposé en `_inbox/`
+  (`rapport-conjoint-studio-gardien-etude-depot-20260820.md`), points 2, 14.
+- Ajouté le Sceau atelier (`type`/`created`/`updated`/`sources`/`links`) à
+  `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19.md`
+  (fiche veille sans frontmatter, `type: infrastructure`).
+- Complété `created`/`updated` sur
+  `atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint.md`
+  — blocage résiduel du manifeste apparu à la vérification de cette passe, non
+  listé dans le tableau du rapport (fiche non trackée au moment de sa rédaction).
+- Supprimé la double ligne vide avant séparateur (`atelier/annales.md:518`, A5).
+- **Vérification mécanique** : `Graphe/generer-cartographie.py --verifier` :
+  4 anomalies bloquantes (frontmatter) → 0 (après complément de l'incident) ;
+  `verifier-invariants.py --racine /root/wiki` : 18 erreur(s) → 0.
+- **Hors périmètre de cette passe** (décision réservée à Sidy, Cmd 12/13) :
+  fusion du doublon `raw/` « Autorité Spirituelle et Pouvoir Temporel »,
+  `atelier/R/`, déplacement de `organize_guenon.sh` vers `rd/outillage/`,
+  qualification des 2 PDF du jour (`maymaniya_p1.pdf`,
+  `claudes-constitution.pdf`), données personnelles en `raw/`, référence morte
+  `UPDATES.md`/`MASTER-UPDATE.md`, convention du caractère ZWJ.
+- **Commit** : `dafc266`
+
 ## [2026-08-20] rd | Rapport conjoint d'état du dépôt (préparation Gardien)
 
 - **Fiche créée** : [[atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20]]

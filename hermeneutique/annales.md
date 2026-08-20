@@ -13,6 +13,19 @@ entrées insérées **après ce header**.
 
 ---
 
+## [2026-08-20] réparation | Rétablissement de la convention d'insertion (A2)
+
+- **Contexte** : rapport conjoint Studio–Gardien déposé en `_inbox/`
+  (`rapport-conjoint-studio-gardien-etude-depot-20260820.md`), point 4.
+- L'entrée « [2026-08-20] expression | Barzakh onirique et interface littéraire »
+  avait été insérée en **queue** de fichier au lieu de l'**en-tête**, en rupture
+  de la convention chronologique inverse (`<!-- INSERTION: EN-TÊTE -->`).
+  Remontée à sa place, immédiatement après ce header.
+- `updated:` remonté au 2026-08-20 (Cmd 8).
+- **Commit** : `dafc266`
+
+---
+
 ## [2026-08-20] expression | Barzakh onirique et interface littéraire
 
 - **Circuit ouvert** : exploration conceptuelle en registre `expression` (portance: zōsaku)
