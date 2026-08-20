@@ -1,13 +1,16 @@
 ---
 title: "Dépôt — Traité de l'Émanation Gauche (Isaac ben Jacob ha-Kohen)"
 type: discernement
-statut: en-attente-qualification
-date_depot: 2026-08-20
-tradition: kabbale
+status: speculatif
+tradition_cadre: "universel"
 auteur_texte: "Rabbi Isaac ben Jacob ha-Kohen"
 date_texte: "vers 1240-1270"
 tags: [sitra-ahra, emanation-gauche, 10-sephirot-maléfiques, samael, lilith, asmodee, metatron, qliphoth, demonologie, mondes-detruits, hekhaleth, castille, pre-zohar, isaac-ha-kohen]
-cross_links: ["[[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]", "[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]", "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]"]
+created: 2026-08-20
+updated: 2026-08-20
+sources: ["[[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]", "[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]"]
+sources_count: 4
+cross_links: ["[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]"]
 ---
 
 # Dépôt — Traité de l'Émanation Gauche (Isaac ben Jacob ha-Kohen)

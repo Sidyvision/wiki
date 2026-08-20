@@ -1,3 +1,13 @@
+---
+title: "Analyse temporelle de code & méta-raisonnement IA"
+type: infrastructure
+tags: [veille, ia, monitoring, meta-raisonnement]
+created: 2026-08-19
+updated: 2026-08-20
+sources: ["https://www.instagram.com/reel/DcOq6cPD82S/"]
+links: []
+---
+
 # Analyse temporelle de code & méta-raisonnement IA
 
 **Date :** 2026-08-19

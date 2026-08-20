@@ -1,12 +1,19 @@
 ---
 title: "Traité de l’Émanation Gauche (partie 1) – Kabbale en Ligne"
+type: source
+status: traditionnel
+tradition_cadre: "kabbale"
 source: "https://www.kabbale.eu/traite-de-lemanation-gauche-partie-1/"
 author:
 published: 2015-08-27
 created: 2026-08-20
+updated: 2026-08-20
 description:
 tags:
   - "clippings"
+sources: []
+sources_count: 0
+cross_links: []
 ---
 **Traité de l’Émanation Gauche partie 1 par Rabbi Isaac ben Jacob ha-Kohen**
 

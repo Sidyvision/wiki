@@ -514,7 +514,6 @@ des fiches `doctrinal/discernement/`.
 - Volet B (hygiène `raw/`) relevé, non instruit — Cmd 10.
 - Commit: `37bf44d`.
 
-
 ---
 
 ## [2026-08-13] signalement | Confrontation de 5 fiches discernement/ au corpus Guénon (raw/)
