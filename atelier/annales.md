@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-19
+updated: 2026-08-20
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,26 @@ updated: 2026-08-19
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-20] rd | Rapport conjoint d'état du dépôt (préparation Gardien)
+
+- **Fiche créée** : [[atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20]]
+  — synthèse d'exploration destinée au rapport conjoint avec Gardien.
+  Observations consignées, aucune qualification rendue (Cmd 12).
+- **Contenu** : carte vérifiée des circuits (doctrinal 260 / meta 118 /
+  atelier 92 / hermeneutique 22 / label 13 `.md`), état du pôle `rd/`
+  (68 fiches), vérifications mécaniques rejouées (`verifier-invariants`
+  18 erreurs / 58 avertissements — dont 16 C1 d'auto-pollution d'un
+  rapport du 08-18 ; `generer-cartographie --verifier` 4 anomalies
+  frontmatter bloquantes ; bureau TUI 10 tests passés ; 3 cron sains),
+  classification complète de `raw/` (444 fichiers : corpus Guénon 16
+  dossiers, sources islamiques, manuels studio, documents administratifs
+  signalés), état git (lot islamofuturisme du jour non committé), et
+  11 points ouverts sans verdict — dont la découverte que `UPDATES.md`,
+  référencé par le protocole, est absent du dépôt.
+- **Complète** : [[atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20]]
+  (commit `6d0d43c`) — correction annexe : `/root/sandbox-rd/` existe
+  mais est vide (l'étude du jour le disait absent).
 
 ## [2026-08-19] rd | Job cron H‍ermes `coherence-infrastructure-brute` réparé, archive du monitoring passée en cron dédié
 
