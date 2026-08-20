@@ -56,7 +56,7 @@ akbarien sur l'axe des 38 degrés du *Nafas al-Raḥmān*. Voir
 - [[atelier/rd/instrument/angles-de-l-espace|Angles de l'Espace]] — les quatre Angles astrologiques (AS/DS/MC/FC), relectures tranchées
 
 **Prototype** :
-- `instrument-prototype.html` — prototype Three.js v0.1 (2026-07-01), axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels ; **mis à jour le 2026-08-20** (deux passes) : sept nœuds Aqtâb + nœud Homme Universel rendus (équivalences établies), filament enrichi de son identité à quatre voiles (Adam Qadmôn/Wang/Vaishwânara), anneau zodiacal ajouté (12 signes au degré 19, 28 manāzil au degré 20, obliquité 23,44°) — voir [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement|§5]]
+- `instrument-prototype.html` — prototype Three.js, axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels ; **mis à jour le 2026-08-20** : sept nœuds Aqtâb + nœud Homme Universel rendus (équivalences établies), anneau zodiacal ajouté (12 signes au degré 19, 28 manāzil au degré 20, obliquité 23,44°), et surtout **lecture dynamique de `wiki-manifest.json`** — le prototype dérive désormais ses données du manifeste au lieu de les porter en dur (repli conservé si le fichier est inaccessible, provenance affichée) — voir [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement|§5]] et [[atelier/rd/outillage/spec-generateur-manifeste|spec §5 ter]]
 
 **Socle métaphysique universel** (en cours, 2026-07-16) — fondations de la trilogie
 guénonienne (*Le Symbolisme de la Croix*, *Les États multiples de l'être*,

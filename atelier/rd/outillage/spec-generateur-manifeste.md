@@ -116,15 +116,42 @@ dépôt → manifeste → interface). Fermé sur demande explicite de Sidy,
 2026-08-20 — voir
 [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]].
 
-**Note** — la propagation dans le manifeste ne rend pas le prototype
-« vivant » vis-à-vis du fichier : conformément à l'hébergement statique
-(§1), `instrument-prototype.html` n'effectue aucune lecture réseau de
-`wiki-manifest.json` à l'exécution ; ses données restent des littéraux JS
-transcrits à la main depuis le manifeste à chaque mise à jour (même
-convention que les nœuds Aqtâb/Homme Universel). L'intérêt de la
-propagation est de fermer le flux déclaratif (le manifeste devient la
-source de vérité complète et vérifiable mécaniquement), pas d'introduire un
-chargement dynamique — non demandé, hors périmètre de cette ouverture.
+## 5 ter. Lecture dynamique par le prototype (2026-08-20, verdict Sidy)
+
+Depuis le 2026-08-20, `instrument-prototype.html` **lit réellement**
+`wiki-manifest.json` à l'ouverture (`fetch` sur chemin relatif, avant le
+chargement de Three.js) et en dérive l'intégralité de ses données
+doctrinales : nœuds-degrés, nœuds notionnels de l'anneau, ancrages rendus,
+Aqtâb, Homme Universel, filament, Barzakh, bloc zodiacal. Plus aucune donnée
+doctrinale n'a besoin d'être retapée dans le prototype à chaque
+régénération — le flux `dépôt → manifeste → interface` est effectif de bout
+en bout, et non plus seulement déclaratif.
+
+Trois garde-fous, dans l'esprit de l'Art. 5 sashimono (l'assemblage reste
+démontable) :
+
+1. **Repli intégral** — un instantané des mêmes données subsiste en
+   littéraux JS. Si le manifeste est inaccessible (ouverture en `file://`
+   hors serveur, fichier absent, `fetch` indisponible), la scène s'affiche
+   quand même, à l'identique. Aucune régression d'usage sur iPad.
+2. **Provenance affichée** — le panneau de titre indique en clair la source
+   effective : version de schéma, SHA court du dépôt et nombre de nœuds
+   quand le manifeste est lu ; mention explicite « données de repli » sinon.
+   L'utilisateur sait toujours s'il regarde l'état du dépôt ou l'instantané.
+3. **Délai de garde** — une lecture qui n'aboutit pas (4 s) bascule
+   automatiquement sur le repli ; le rendu n'est jamais bloqué par le
+   réseau.
+
+Sens de lecture inchangé (Cmd 12, règle des manifestes) : l'interface **lit
+et ne réécrit jamais** le manifeste ni le dépôt.
+
+**Limite assumée** : les regroupements de présentation (bandes des
+Présences — Lāhūt, Jabarūt, Barzakh supérieur, Malakūt planétaire, Nāsūt) et
+toute la géométrie restent en dur dans le prototype. Ce sont des choix de
+rendu, non de la donnée doctrinale, et le schéma du manifeste ne les porte
+pas. Les étiquettes 3D abrègent mécaniquement les titres doctrinaux longs
+(fonction `abreger`, coupe au premier séparateur naturel) ; l'info-bulle
+affiche toujours le libellé intégral du manifeste, jamais une reformulation.
 
 ## 6. Ce que le script ne fait pas
 

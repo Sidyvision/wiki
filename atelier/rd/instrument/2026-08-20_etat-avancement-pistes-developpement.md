@@ -167,6 +167,38 @@ conforme (43 = 28 degrés + 7 Aqtâb + 6 notionnels + 1 filament + 1 Barzakh).
    signe sans `label` (bloque, code retour 1) ; génération réelle sans
    erreur ni avertissement (44 nœuds, 10 ancrages, zodiaque inclus).
 
+### Quatrième passe (2026-08-20) : lecture dynamique du manifeste par le prototype
+
+7. **Le prototype lit désormais réellement `wiki-manifest.json`** (verdict
+   Sidy : « plus cohérent »). `fetch` sur chemin relatif avant le chargement
+   de Three.js ; dérivation intégrale des données doctrinales depuis le
+   manifeste (28 nœuds-degrés, 6 notionnels de l'anneau, ancrages rendus,
+   7 Aqtâb, Homme Universel, filament, Barzakh, bloc zodiacal). Plus aucune
+   donnée doctrinale à retaper après une régénération : le flux
+   `dépôt → manifeste → interface` est effectif de bout en bout, et non plus
+   seulement déclaratif. Détail dans
+   [[atelier/rd/outillage/spec-generateur-manifeste]] §5 ter.
+   - **Repli conservé** (Art. 5 sashimono) : un instantané des mêmes données
+     subsiste en littéraux ; si le manifeste est inaccessible (`file://` hors
+     serveur, fichier absent), la scène s'affiche à l'identique — aucune
+     régression d'usage sur iPad.
+   - **Provenance affichée** dans le panneau de titre : schéma, SHA court du
+     dépôt et nombre de nœuds quand le manifeste est lu ; mention explicite
+     « données de repli » sinon.
+   - **Délai de garde** de 4 s : une lecture qui n'aboutit pas bascule sur le
+     repli, le rendu n'est jamais bloqué par le réseau.
+   - **Limite assumée** : bandes de présentation (Lāhūt, Jabarūt…) et
+     géométrie restent en dur — choix de rendu, non données doctrinales, non
+     portées par le schéma du manifeste. Les étiquettes 3D abrègent
+     mécaniquement les titres longs ; l'info-bulle porte toujours le libellé
+     intégral.
+   - **Vérifié** : les deux chemins testés hors navigateur (avec manifeste →
+     provenance « manifeste v0.2.2 · dépôt 4616a97 · 44 nœuds », ancrages
+     dérivés sur les identifiants complets ; sans manifeste → repli, mêmes
+     44 objets interactifs). `fetch` du chemin relatif vérifié contre un
+     serveur HTTP local (manifeste et page servis, HTTP 200). Rendu visuel
+     toujours non vérifié en navigateur réel (CDN Three.js bloqué en session).
+
 **Vérification effectuée (seconde passe)** : syntaxe JavaScript valide ;
 exécution testée hors navigateur — 44 objets interactifs (43+1 Homme
 Universel), 8 anneaux (`RingGeometry`) créés dont les 2 nouveaux du zodiaque,
