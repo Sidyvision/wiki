@@ -272,3 +272,12 @@ entrées insérées **après ce header**.
 - Circuit ouvert sur validation de Sidy, architecture seule — aucune œuvre ni fiche d'expression déposée à ce stade.
 - Détail de l'amendement protocolaire : voir `doctrinal/annales.md` [2026-08-04].
 - Prochaines étapes attendues : ingest Death Stranding, Evangelion ; reprise en registre `expression` d'idées issues des fiches `doctrinal/discernement/` existantes (chaque fiche pointant vers son discernement d'origine, sans le clore).
+
+## [2026-08-20] expression | Barzakh onirique et interface littéraire
+
+- **Circuit ouvert** : exploration conceptuelle en registre `expression` (portance: zōsaku)
+- **Fiche** : [[hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire]]
+- **Source** : [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]]
+- **Idée explorée** : l'ʿālam al-mithāl comme espace d'interface entre rêve et politique, entre intention et manifestation — lieu de naissance de la science fiction.
+- **Vigilance** : ne clôt aucun discernement ; ne prétend pas que l'usage esthétique du barzakh coïncide avec le barzakh métaphysique (Ibn ʿArabī). Distinction maintenue.
+- **Statut** : brouillon — attend verdict explicite (Cmd 12) si migration vers discernement.

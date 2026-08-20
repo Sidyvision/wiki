@@ -1596,3 +1596,26 @@ Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection
 - **Étanchéité** : fiches personnelles tenues hors `doctrinal/`.
 - **Notes** : 140 conversations de l'export non ingérées (réserve). PII (téléphone, e-mail) volontairement exclue ; export brut protégé par `.gitignore`.
 
+
+
+## 2026-08-20 — Ingest : Dreaming the Ummah (Elbenni, Hashiya Issue 01, Part 1)
+
+- **Opération** : ARCHIVAGE & MAILLAGE (double)
+- **Source brute** : `raw/Hashiya-Issue-01-Elbenni.pdf` — 28 p., anglais, Adobe InDesign 20.1, 2025
+- **Auteur** : Ahmed Elbenni
+- **Créé** :
+  - notice académique [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] (statut: academique, portance: descriptive non-doctrinale)
+  - exploration conceptuelle [[hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire]] (registre: expression, portance: zōsaku, statut: brouillon)
+- **Diagnostic territorial (grille des trois territoires, 2026-08-11)** :
+  - Pas Discernement (ce n'est pas une spéculation doctrinale personnelle)
+  - Pas R&D (pas de chantier expérimental)
+  - Double : doctrinal/sources (notice bibliographique) + hermeneutique/expression (exploration conceptuelle du barzakh/ʿālam al-mithāl comme interface onirique)
+- **Signalements doctrinaux** :
+  1. Distinction Elbenni entre *Islamic science fiction* (descriptif) et *Islamofuturism* (normatif/politique) — ce dernier ne peut être adopté comme doctrine.
+  2. Usage de *ʿālam al-mithāl* / *barzakh* comme **métaphore esthétique** (l'espace d'où naît la fiction littéraire), distinct du barzakh métaphysique chez Ibn ʿArabī (pont corps-esprits). Distinction maintenue explicitement dans les deux fiches.
+  3. Référence au hadith des *ghurabāʾ* (Sunan Ibn Mājah 3986) reprise à des fins esthético-politiques — signalée, non tranchée.
+  4. Article Part 1 d'un dyptique — le Part 2 (annoncé, non disponible) théoriserait systématiquement l'islamofuturisme. Ingest incomplet, documenté.
+- **Ciblage de liens** : [[doctrinal/symboles/barzakh]], [[doctrinal/symboles/alam-al-mithal]] — signalés comme cibles de cross-link, non modifiés (pas d'enrichissement doctrinal depuis une source descriptive non doctrinale).
+- **Étanchéité** : fiches tenues hors doctrinal/discernement/ ; aucune adoption doctrinale ; aucune prétention métaphysique dans la fiche d'expression.
+
+---
