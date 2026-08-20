@@ -3,7 +3,7 @@ title: "Atelier — Ressources & Études de Cas"
 type: index
 tags: [atelier, ressources, index, instrument]
 created: 2026-07-07
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 # Atelier — Index
@@ -28,7 +28,9 @@ tiers. Charte et arborescence : [[atelier/rd/index|charte du pôle R&D]].
 - `rd/instrument/` — l'Instrument (migration depuis `projets/` effectuée le
   2026-08-08, fiche par fiche ; les anciennes fiches restent en `projets/` comme
   stubs `deprecated` avec pointeur — Cmd 10)
-- `rd/infrastructure/` — serveur, agents, hardware/software
+- `rd/infrastructure/` — serveur, agents, hardware/software ; voir
+  [[atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure|pistes
+  de développement infrastructure (2026-08-20)]]
 - `rd/audio/` — ingénierie son générique
 - `rd/outillage/` — scripts et bancs de test
 - `rd/cahiers/` — cahiers d'expérience (phase 2)
@@ -76,6 +78,13 @@ de l'Arbre unique s'articulent :
 sourcées, rendu manquant) ; versant Sanātana Dharma (fondation védantique désormais
 disponible via ch. X/XV/XVI, structure à 4 états non encore ancrée) ; lien
 wirātha↔pôles (*Futūḥāt* ch. 36, réserve résiduelle).
+
+**État d'avancement et pistes de développement (2026-08-20)** :
+[[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement|synthèse
+par phase]] — prototype `instrument-prototype.html` (Three.js, v0.1) existant et
+fonctionnel mais non mis à jour depuis l'architecture v0.3 ; pistes classées P1
+à P5 (déblocage Phase 2, mise à niveau du prototype, amorce Phase 5, hygiène
+documentaire).
 
 ---
 
