@@ -10,6 +10,58 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] rd | Lecture dynamique du manifeste par le prototype + instruction branche Kabbale
+
+- **Contexte** : deux demandes de Sidy — (a) rendre la lecture du manifeste
+  dynamique dans le prototype (« plus cohérent »), (b) instruire l'ouverture
+  d'une branche Kabbale, sources signalées comme devant « s'emboîter très
+  facilement », avec dépôt d'un extrait de Guénon (*Études sur l'Hindouisme*,
+  « Kundalinî-Yoga ») rapprochant *Sephiroth* et *chakras*.
+
+**(a) Lecture dynamique — exécutée.** `instrument-prototype.html` lit
+désormais `wiki-manifest.json` (`fetch`, chemin relatif, avant Three.js) et en
+dérive l'intégralité de ses données doctrinales : 28 nœuds-degrés, 6
+notionnels de l'anneau, ancrages rendus, 7 Aqtâb, Homme Universel, filament,
+Barzakh, bloc zodiacal. Le flux `dépôt → manifeste → interface` devient
+effectif de bout en bout. Trois garde-fous (Art. 5 sashimono) : repli intégral
+en littéraux si le manifeste est inaccessible (`file://`, fichier absent) ;
+provenance affichée dans le panneau de titre (schéma, SHA court, nombre de
+nœuds — ou mention « données de repli ») ; délai de garde de 4 s. Sens de
+lecture inchangé — l'interface lit, ne réécrit jamais (Cmd 12). Limite
+assumée : bandes de présentation et géométrie restent en dur (rendu, non
+donnée doctrinale). Documenté :
+[[atelier/rd/outillage/spec-generateur-manifeste]] §5 ter. Vérifié : les deux
+chemins testés hors navigateur ; `fetch` du chemin relatif vérifié contre un
+serveur HTTP local (HTTP 200 sur page et manifeste). Rendu visuel toujours non
+vérifié en navigateur réel (CDN Three.js bloqué en session).
+- **Commit** : `44c8c13`
+
+**(b) Branche Kabbale — instruite, non exécutée.** Fiche créée :
+[[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]].
+Conclusion de l'instruction : la matière est réelle et abondante, mais
+l'emboîtement **n'est pas immédiat** — trois obstacles formels documentés :
+(1) incommensurabilité des divisions (38 degrés / 5 Ḥaḍarāt / 7 niveaux
+séphirothiques — la clé de réduction est un acte doctrinal, non technique) ;
+(2) transitivité non autorisée (Cmd 3) — Guénon pose *Sephiroth ↔ chakras*,
+jamais *Sephiroth ↔ 38 degrés akbariens*, et le second joint n'existe pas au
+dépôt ; (3) verrou de la Sitra Ahra — correctif de rejet acté le 2026-06-29,
+validation bloquante dans `generer-manifeste.py`, et
+[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] encore « en
+cours », déjà remonté comme `question_ouverte` par le générateur sur le nœud
+`universel/homme-universel`. Croisement des deux septénaires (niveaux
+séphirothiques ↔ sept Aqtâb) **signalé comme signal de vigilance**, laissé
+entier ; confrontation Gizeh restant à faire (matière septénaire, §VII).
+Chemin proposé en 5 étapes, aucune exécutée. **Aucun ancrage proposé, aucun
+joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
+- **Commit** : `39ab0f2`
+
+- **Note de constat** : les quatre Sceaux incomplets signalés comme bloquants
+  par le rapport conjoint (lot kabbale + fiche veille) sont réparés — la garde
+  `Graphe/generer-cartographie.py --verifier` ne remonte plus aucune anomalie
+  bloquante (116 avertissements non bloquants subsistent).
+
+---
+
 ## [2026-08-20] rd | generer-manifeste.py propage le bloc zodiaque (schéma manifeste v0.2.2)
 
 - **Contexte** : suite directe des deux entrées précédentes — Sidy a demandé
