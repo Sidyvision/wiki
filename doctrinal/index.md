@@ -37,7 +37,14 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/atlantide|Atlantide — l'île-continent et le cycle atlantéen]]
 - [[doctrinal/symboles/table-28-degres-nafas-rahman|La table des 28/38 degrés du Nafas al-Raḥmān]]
 - [[doctrinal/symboles/nafas-rahmani|Nafas al-Raḥmān (le Souffle du Miséricordieux)]] — stub
+- [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement|Le Palais de la Sainteté (kabbale) et le Centre des ḥaḍarāt (tasawwuf) — amorce de rapprochement]]
+- [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot|Kabbale hébraïque dans le dépôt — état des lieux et pièces disponibles]] (cette fiche)
 - [[doctrinal/symboles/eschatologie|Eschatologie (la doctrine des fins dernières)]] — stub
+
+### Sources primaires (textes)
+- [[doctrinal/sources/sefer-yetsira-ramban|Sefer Yetsira — Livre de la Création (commentaire du Ramban)]] ⚠️ `to-source` sur recoupement éditions critiques
+- [[doctrinal/sources/kabbale-10-sefirot-structure|Les 10 Sephiroth — Structure de l'Arbre séphirothique]] — *kari-kumi*
+- [[doctrinal/sources/kabbale-cosmogonie-iod|Cosmogonie du *iod* — Le point primordial et la création par les lettres]] — *kari-kumi*
 
 ### Sciences Traditionnelles
 - [[doctrinal/symboles/fiqh|Le Fiqh (la science des statuts de la Loi)]]

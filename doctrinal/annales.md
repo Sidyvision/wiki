@@ -1519,6 +1519,24 @@ Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection
 ---
 
 
+## 2026-08-20 — Archivage : Sefer Yetsira (commentaire du Ramban) + première amorce kabbaliste
+
+- **Opération** : ARCHIVAGE, TRANSCRIPTION & AMORCE DE RAPPROCHEMENT
+- **Créé** : source [[doctrinal/sources/sefer-yetsira-ramban]] ; transcription `raw/sefer-yetsira-ramban.md` ; fiche discernement [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]]
+- **Source brute** : `raw/sefer_yetsira_-_Ramban.pdf` — 20 pages, texte hébreu + commentaire du Ramban (XIIIe s.) + traduction française par Gilen. Texte primaire kabbalistique.
+- **Contenu** : les 6 chapitres du Sefer Yetsira — 10 Sefirot du Néant, 22 lettres de fondement, 3 Mères (אמש), 7 Doubles (בגדכפרת), 12 Simples, synthèse des 3 Pères/7 Étoiles/12 Limites avec l'Alliance d'Avraham.
+- **Amorce gardien** : rapprochement structurel entre le Palais de la Sainteté (kabbale, *Sefer Yetsira* IV, §3 — « le Palais est exactement au centre, et il les supporte toutes ») et la 5e Présence / Centre totalisateur des ḥaḍarāt akbariennes. Fonction de centre totalisateur partagée. **Non qualifié** — verdict réservé à Sidy. Fiche conservée en *kari-kumi*.
+- **Vigilance** : non-superposition des découpages (10 Sefirot ≠ 5 Ḥaḍarāt) ; le Ramban ≠ la totalité de la tradition kabbalistique ; Guénon ne rapproche pas explicitement le Palais de la 5e Présence (il mentionne la kabbale via Vulliaud, source secondaire).
+- **Index** : mise à jour de `doctrinal/index.md` (nouvelle section « Sources primaires (textes) » + lien discernement).
+- **État** : `to-source` sur tout recoupement avec les éditions critiques du *Sefer Yetsira* (Short/Long/Saadia). Le Ramban est un commentaire médiéval, pas une édition critique.
+- **Structuration kabbale** : 2 fiches sources complémentaires créées :
+  - [[doctrinal/sources/kabbale-10-sefirot-structure]] : les 10 Sephiroth avec correspondances Ramban, noms divins, positions. 3 colonnes et 22 sentiers mentionnés mais non détaillés.
+  - [[doctrinal/sources/kabbale-cosmogonie-iod]] : cosmogonie du *iod* (point primordial, Avir/Aor, Palais intérieur, Tétragramme, 6 directions). Confrontation Guénon/Ramban avec divergences signalées.
+- **État des lieux kabbale** : fiche [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] — inventaire complet (4 sources + 3 fiches discernement). 3 options proposées à Sidy : ne rien faire de plus / approfondir l'amorce Palais/ḥaḍarāt / engager un chantier kabbalistique structuré. Décision réservée.
+
+---
+
+
 ## 2026-06-02 — Archivage : Jesus and Enoch in Ibn ʿArabī
 
 - **Opération** : ARCHIVAGE & MAILLAGE

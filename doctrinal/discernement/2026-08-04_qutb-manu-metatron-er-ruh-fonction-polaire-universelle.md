@@ -6,8 +6,8 @@ tradition_cadre: "universel"
 tags: [qutb, manu, metatron, er-ruh, melki-tsedeq, shekinah, axe-du-monde, aqtab, kabbale, vedanta]
 created: 2026-08-04
 updated: 2026-08-10
-sources: ["[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]", "[[doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq]]", "[[doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh]]", "[[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]", "[[doctrinal/sources/valsan-investiture-cheikh-al-akbar]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]]"]
-sources_count: 10
+sources: ["[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]", "[[doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq]]", "[[doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh]]", "[[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]", "[[doctrinal/sources/valsan-investiture-cheikh-al-akbar]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]]", "[[doctrinal/sources/sefer-yetsira-ramban]]"]
+sources_count: 11
 cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]"]
 ---
 
@@ -254,3 +254,11 @@ vers un rattachement védantique (*Manu*) et kabbalistique (*Metatron*).
 Sidy (index-rene-guenon.org, authenticité confirmée par possession et lecture
 intégrale de l'œuvre). Pagination des quatre chapitres sources laissée
 `to-source`, non urgente. Statut `en cours` — verdict réservé à Sidy.*
+
+*Addendum 2026-08-20* : archivage du *Sefer Yetsira* avec commentaire du
+Ramban ([[doctrinal/sources/sefer-yetsira-ramban]]) — texte primaire
+kabbalistique. Concerne le volet Metatron : le Palais de la Sainteté
+(Ch. IV, §3, « exactement au centre, et il les supporte toutes ») est le
+point kabbalistique le plus directement pertinent à la fonction polaire.
+Voir aussi l'amorce de rapprochement Palais/ḥaḍarāt :
+[[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]].
