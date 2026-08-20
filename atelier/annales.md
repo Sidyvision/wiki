@@ -10,6 +10,42 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] rd | Pistes de développement — Instrument et infrastructure (reprise du rapport conjoint)
+
+- **Contexte** : le rapport conjoint Studio–Gardien du 2026-08-20 devait
+  déterminer les pistes de développement du dépôt/infrastructure en général et
+  du chantier Instrument en particulier. Le Gardien s'est enlisé techniquement
+  en session (voir
+  [[atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint]]),
+  et le rapport produit à sa place par l'orchestrateur a dérivé vers un simple
+  audit de vigilance, hors sujet par rapport à la demande. Reprise sur demande
+  explicite de Sidy.
+- **Fiches créées** :
+  [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]] —
+  état réel par phase du chantier Instrument (correction notable : un
+  prototype Three.js v0.1 fonctionnel existe déjà, `instrument-prototype.html`,
+  non mis à jour depuis l'architecture v0.3), écarts documentaires relevés
+  (feuille de route pointant encore vers la v0.2, tension Burckhardt/Jurjānī
+  disparue sans trace de la v0.3, soumissions « Gem » jamais closes
+  formellement), pistes classées P1 à P5.
+  [[atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure]] —
+  état serveur/agents (omniroute non documenté, 28% de la RAM), chantiers déjà
+  tranchés côté décision mais non exécutés (Phase 3 veille, Bureau TUI, SRS
+  Hermes-native), piste d'applicabilité de la veille externe Cordis, pistes
+  classées P1 à P4.
+- **Index mis à jour** : `atelier/index.md`, pointeurs vers les deux fiches.
+- **Méthode** : lecture intégrale des 13 fichiers de `rd/instrument/` et des
+  documents infrastructure/cahiers/veille pertinents (délégué à un agent
+  d'exploration en lecture seule), puis vérification directe contre les
+  fichiers réels sur disque (le constat initial « aucune ligne de rendu 3D »
+  était erroné — corrigé après inspection du prototype).
+- **Vigilance** : signalement et pistes uniquement, aucune exécution, aucun
+  accès credentials, aucune modification d'`instrument-donnees.yaml` ni du
+  prototype (Cmd 6, Cmd 12, Cmd 13).
+- **Commit** : `6e95a1a`
+
+---
+
 ## [2026-08-20] réparation | Points mécaniques du rapport conjoint Studio–Gardien
 
 - **Contexte** : rapport conjoint Studio–Gardien déposé en `_inbox/`
