@@ -56,7 +56,7 @@ akbarien sur l'axe des 38 degrés du *Nafas al-Raḥmān*. Voir
 - [[atelier/rd/instrument/angles-de-l-espace|Angles de l'Espace]] — les quatre Angles astrologiques (AS/DS/MC/FC), relectures tranchées
 
 **Prototype** :
-- `instrument-prototype.html` — prototype Three.js v0.1, axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels
+- `instrument-prototype.html` — prototype Three.js v0.1 (2026-07-01), axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels ; **mis à jour le 2026-08-20** : sept nœuds Aqtâb rendus (équivalence établie), filament enrichi de son identité à quatre voiles (Adam Qadmôn/Wang/Vaishwânara) — voir [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement|§5]]
 
 **Socle métaphysique universel** (en cours, 2026-07-16) — fondations de la trilogie
 guénonienne (*Le Symbolisme de la Croix*, *Les États multiples de l'être*,
@@ -81,10 +81,11 @@ wirātha↔pôles (*Futūḥāt* ch. 36, réserve résiduelle).
 
 **État d'avancement et pistes de développement (2026-08-20)** :
 [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement|synthèse
-par phase]] — prototype `instrument-prototype.html` (Three.js, v0.1) existant et
-fonctionnel mais non mis à jour depuis l'architecture v0.3 ; pistes classées P1
-à P5 (déblocage Phase 2, mise à niveau du prototype, amorce Phase 5, hygiène
-documentaire).
+par phase]] — Phase 3 plus avancée qu'évaluée initialement (deux nœuds
+universels déjà établis par discernement clos) ; prototype mis à jour le
+2026-08-20 (Aqtâb rendus, filament enrichi) ; pistes classées P1 à P6
+(formalisation Phase 3, déblocage Phase 2, mise à niveau du prototype, amorce
+Phase 5, hygiène documentaire, chantiers de fond).
 
 ---
 

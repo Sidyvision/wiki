@@ -42,7 +42,7 @@
 
   <div class="panneau" id="titre">
     <h1>Instrument de la Tradition Primordiale</h1>
-    <p>Prototype de l'axe — les 38 degrés du Nafas al-Raḥmān (v0.1, 2026-07-01)</p>
+    <p>Prototype de l'axe — les 38 degrés du Nafas al-Raḥmān (v0.1, 2026-07-01 — données Aqtâb et filament actualisées 2026-08-20)</p>
   </div>
 
   <div class="panneau" id="aide">glisser : orbiter · pincer : zoom<br>toucher un nœud : détail</div>
@@ -57,7 +57,8 @@
     <i style="background:var(--or)"></i>degrés (11–38)<br>
     <i style="background:var(--argent)"></i>Barzakh supérieur (19–20)<br>
     <i style="background:#e8e8f0"></i>filament — al-Insān al-Kāmil<br>
-    <i style="background:var(--rouge)"></i>équivalence établie (convergence des 28)
+    <i style="background:var(--rouge)"></i>équivalence établie (hozo)<br>
+    <i style="background:#9a7fc8"></i>nœud universel (hors arbre-tradition)
   </div>
 </div>
 
@@ -99,7 +100,10 @@ try {
 
 if (typeof THREE === 'undefined') { afficherErreur("La bibliothèque 3D n'a pas pu s'initialiser."); return; }
 
-// ---- Données (extrait du manifeste, 2026-07-01) ---------------------------
+// ---- Données (extrait du manifeste, 2026-07-01 ; Aqtâb + filament actualisés
+//      le 2026-08-20 depuis wiki-manifest.json généré le 2026-08-08, à jour de
+//      instrument-donnees.yaml v0.3.3 — voir
+//      rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md) -----
 var DEGRES = [
   [11,"hamza — al-Badîʿ (le Qalam suprême / Intellect Premier)"],
   [12,"hâʾ — al-Bâʿith (la Table Gardée / Âme universelle)"],
@@ -143,6 +147,19 @@ var ANCRAGES = [["table","manazil"],["table","nafas"]];
 var BANDES = [
   [11,14,"Lāhūt"],[15,18,"Jabarūt"],[19,20,"Barzakh supérieur"],
   [21,27,"Malakūt planétaire"],[28,38,"Nāsūt"]
+];
+// Sept Aqtâb (nœud universel, hors arbre-tradition) ↔ Malakūt planétaire akbarien.
+// Équivalence ÉTABLIE (hozo), verdict Sidy 2026-07-16, enrichi 2026-08-04 —
+// doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire (clos).
+var SOURCE_AQTAB = "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]";
+var AQTAB = [
+  [21,"Pôle de Saturne (Abraham y siège)"],
+  [22,"Pôle de Jupiter (Moïse y siège)"],
+  [23,"Pôle de Mars (Aaron y siège)"],
+  [24,"Pôle du Soleil (Idrîs y siège)"],
+  [25,"Pôle de Vénus (Joseph y siège)"],
+  [26,"Pôle de Mercure (Jésus y siège)"],
+  [27,"Pôle de la Lune (Adam y siège)"]
 ];
 
 // ---- Géométrie de l'axe -----------------------------------------------------
@@ -238,6 +255,23 @@ DEGRES.forEach(function(d){
   e.position.set(-.55, yDeg[n], 0); monde.add(e);
 });
 
+// -- Sept Aqtâb : nœud universel, équivalence établie avec le Malakūt planétaire
+//    (hozo, verdict Sidy 2026-07-16/08-04) — auparavant présent dans les données
+//    (instrument-donnees.yaml v0.3.3) mais jamais rendu par ce prototype (v0.1
+//    antérieur à l'ouverture de la Phase 3) --
+AQTAB.forEach(function(a){
+  var n = a[0], px = 1.7;
+  var sph = new THREE.Mesh(
+    new THREE.SphereGeometry(.17, 24, 16),
+    new THREE.MeshStandardMaterial({color:0x9a7fc8, emissive:0x2c1f45, roughness:.4, metalness:.4}));
+  sph.position.set(px, yDeg[n], 0);
+  sph.userData = {label: a[1], deg: "degré " + n + " · nœud universel (hors arbre-tradition) — équivalence établie avec le Malakūt planétaire", src: SOURCE_AQTAB};
+  monde.add(sph); interactifs.push(sph);
+  var e = etiquette(a[1], .42, "rgba(154,127,200,.85)");
+  e.position.set(px + .95, yDeg[n], 0); monde.add(e);
+  monde.add(ligne([new THREE.Vector3(0, yDeg[n], 0), sph.position], 0xb03a2e, .85, false));
+});
+
 // -- Barzakh supérieur : disques en rotation (19-20) --
 var disques = [];
 [19, 20].forEach(function(n){
@@ -255,9 +289,9 @@ var disques = [];
   var noeud = new THREE.Mesh(new THREE.SphereGeometry(.09, 16, 12),
     new THREE.MeshBasicMaterial({color:0xffffff}));
   noeud.position.set(x, yEntre(19, 20), 0);
-  noeud.userData = {label:"Al-Insān al-Kāmil — filament traversant",
-    deg:"traverse les cinq Présences (rendu validé le 2026-07-01)",
-    src:"[[doctrinal/symboles/al-insan-al-kamil]]"};
+  noeud.userData = {label:"Al-Insān al-Kāmil = Adam Qadmôn = Wang = Vaishwânara — filament traversant",
+    deg:"traverse les cinq Présences (rendu validé le 2026-07-01) ; identité à quatre voiles traditionnelles (tasawwuf/qabbalah/taoïsme/vêdânta) établie le 2026-07-26, discernement clos",
+    src:"[[doctrinal/symboles/al-insan-al-kamil]] ; [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"};
   monde.add(noeud); interactifs.push(noeud);
   var e = etiquette("al-Insān al-Kāmil", .5, "rgba(242,242,250,.8)");
   e.position.set(x + 1.35, yEntre(19, 20), 0); monde.add(e);

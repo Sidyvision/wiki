@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-19
+updated: 2026-08-20
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,49 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-20] resolu | Traçabilité en défaut — tension Burckhardt/Jurjānī déclarée « non résolue » alors que close depuis six semaines
+
+**Contexte** : consignation R&D des pistes de développement de l'Instrument
+(`rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md`), produite
+en confrontant seulement la v0.2 et la v0.3 de l'architecture entre elles.
+
+**Symptôme** : la fiche de synthèse a signalé la disparition, entre la v0.2
+et la v0.3 de l'architecture, du paragraphe documentant une tension
+terminologique non résolue entre Burckhardt et al-Jurjānī sur les Cinq
+Présences — présentée comme un possible oubli de traçabilité, « à vérifier
+par Sidy ». Sidy a signalé l'erreur : la tension était résolue depuis
+longtemps.
+
+**Diagnostic** : la fiche
+[[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] existe,
+`status: traditionnel`, tag `clos`, **verdict de Sidy rendu le 2026-07-09**
+(les deux nomenclatures traitées comme deux découpages complémentaires,
+Cmd 3 respecté) — soit cinq semaines avant la mise à jour de l'architecture
+en v0.3 (2026-08-11). Le retrait du paragraphe en v0.3 est donc la
+conséquence normale de la clôture du discernement, pas un oubli. La méthode
+employée (diff des deux versions du document Instrument uniquement) n'a
+jamais consulté `doctrinal/discernement/` pour vérifier si la question était
+déjà tranchée ailleurs.
+
+**Résolution** : correction apportée dans
+`rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md` — la
+tension est documentée comme close (2026-07-09), retirée des points ouverts.
+
+**Compréhension tirée** : un document Instrument (architecture, feuille de
+route, spec) ne fait jamais foi seul sur l'état d'un discernement doctrinal —
+la source de vérité pour « tranché ou non » est toujours
+`doctrinal/discernement/`, jamais la présence ou l'absence d'un paragraphe
+dans un document dérivé. Avant de signaler une « disparition suspecte »
+entre deux versions d'une fiche Instrument, chercher systématiquement une
+fiche `discernement` close sur le sujet.
+
+**Liens** : [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] ;
+`rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md`.
+
+**Statut** : `resolu`.
 
 ---
 
