@@ -10,6 +10,32 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] rd | generer-manifeste.py propage le bloc zodiaque (schéma manifeste v0.2.2)
+
+- **Contexte** : suite directe des deux entrées précédentes — Sidy a demandé
+  de fermer l'écart signalé (le bloc `zodiaque:` déclaré en données depuis
+  le 2026-07-26/27 mais jamais propagé dans `wiki-manifest.json`).
+- **`generer-manifeste.py`** : nouvelle fonction `valider_zodiaque()` ;
+  schéma du manifeste porté de v0.2.1 à v0.2.2. Validations bloquantes sur
+  malformation structurelle (types, signe sans `label`) ; avertissements non
+  bloquants sur dérive plausible (degré `falak_al_*` sans nœud correspondant,
+  nombre de signes ≠ 12). Garde-fou testé (signe sans label → code retour 1,
+  manifeste non produit) puis génération réelle : 44 nœuds, 10 ancrages,
+  zodiaque inclus, 0 erreur/avertissement.
+- **`spec-generateur-manifeste.md`** : §5 bis documente l'extension et son
+  motif (règle commune des manifestes, CLAUDE.md racine §VII).
+- **`instrument-prototype.html`** : commentaire ajouté sur le littéral
+  `ZODIAQUE` pointant vers la nouvelle convention — le prototype garde sa
+  transcription manuelle (hébergement statique, aucun fetch réseau à
+  l'exécution), mais le manifeste est désormais la source complète et
+  vérifiable mécaniquement.
+- **Fiche mise à jour** :
+  [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]
+  (§5, point 6 — lacune fermée).
+- **Commit** : `57e4bd1`
+
+---
+
 ## [2026-08-20] rd | Homme Universel déclaré (v0.3.4) + anneau zodiacal rendu (feu vert Sidy)
 
 - **Contexte** : suite directe de l'entrée précédente — Sidy a donné le feu
