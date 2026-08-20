@@ -5,7 +5,7 @@ tags: [synthese, enregistrement-analogique, composition, monitoring, hub]
 created: 2026-08-08
 updated: 2026-08-08
 sources: ["to-source"]
-links: ["[[atelier/materiel/neve-1073spx]]", "[[atelier/materiel/tascam-model-12]]"]
+links: ["[[atelier/materiel/neve-1073spx]]", "[[atelier/materiel/tascam-model-12]]", "[[atelier/materiel/distressor-el8]]", "[[atelier/materiel/revox-a77]]", "[[atelier/materiel/moog-voyager]]", "[[atelier/materiel/neumann-tlm103]]"]
 ---
 
 # Studio Principal — Espace d'Atelier
@@ -42,9 +42,7 @@ Circulation : axe gauche (enregistrement) ↔ centre (composition) ↔ droite
 
 ### Moog Voyager
 
-- Monosynth analogique VCO/VCF/VCA, clavier 5 octaves intégré (sensibilité
-  vélocité + aftertouch), contrôle CV/Gate via joystick intégré.
-- Sorties audio stéréo mini-jack, MIDI in (USB ou DIN5 selon révision).
+- Voir fiche dédiée : [[atelier/materiel/moog-voyager]]
 - État : actif, en utilisation régulière.
 
 ### Fender Rhodes 73
@@ -58,18 +56,14 @@ Circulation : axe gauche (enregistrement) ↔ centre (composition) ↔ droite
 
 ### Revox A77
 
-- Magnétophone professionnel suisse, transport 1/4″ bi-directionnel, bande
-  magnétique 1/4″, vitesses 3.75/7.5/15 ips selon révision.
-- Console mécanique (Play, Rec, Rewind, Fast-forward), entretien minimal.
-- Signature sonore : chaleur, compression naturelle, transitoire subtil.
-- État : **actif en production** — instrument de capture analogique
-  principal.
+- Voir fiche dédiée : [[atelier/materiel/revox-a77]]
+- État : **actif en production** — instrument de capture analogique principal.
 
 ### Micros
 
 | Modèle | Type | Usage |
 |---|---|---|
-| Neumann TLM 103 | Condensateur large membrane, XLR +48V | Capture vocale, sources acoustiques de précision, via [[atelier/materiel/neve-1073spx]] |
+| [[atelier/materiel/neumann-tlm103|Neumann TLM 103]] | Condensateur large membrane, XLR +48V | Capture vocale, sources acoustiques de précision, via [[atelier/materiel/neve-1073spx]] |
 | Shure Beta 58A | Dynamique supercardioïde, XLR | Voix, sources proches/rejet larsen, via [[atelier/materiel/neve-1073spx]] |
 | Shure 565SD | Dynamique omnidirectionnel vintage, XLR | Couleur rétro, capture directe (sans préampli, via Tascam CH3) |
 
@@ -81,12 +75,10 @@ Circulation : axe gauche (enregistrement) ↔ centre (composition) ↔ droite
 - Placement exact : `to-source` — probablement étagères hautes ou muret
   droit, non confirmé.
 
-### Distressor EL8x
+### Distressor EL8
 
-- Compresseur-limiteur programmable, 8 modes (opto, FET, VCA…).
-- Configuration : `to-source` — probablement post-production ou monitoring,
-  non confirmé.
-- Rôle : sculpting analogique des transitoires (drums, basse, voix).
+- Voir fiche dédiée : [[atelier/materiel/distressor-el8]]
+- Configuration : `to-source` — probablement post-production ou monitoring, non confirmé.
 
 ## Rangement et plan de travail
 

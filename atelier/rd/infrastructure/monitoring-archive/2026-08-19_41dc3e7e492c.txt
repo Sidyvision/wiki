@@ -1,0 +1,374 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+Je compile maintenant le rapport complet avec toutes les données brutes collectées.
+
+---
+
+# Rapport monitoring infrastructure quotidien — 2026-08-19
+**Profil** : studio | **Canal** : #infrastructure | **Exécution** : 09:47 UTC
+
+---
+
+## §1. Vérification des invariants structurels
+
+```
+AVERTISSEMENTS :
+  [C1] atelier/annales.md — lien non résolu : [[^]]
+  [C1] atelier/annales.md — lien non résolu : [[^]]
+  [A5] atelier/annales.md:498 — double ligne vide avant un séparateur — signature possible d'un ajout mécanique en fin de fichier plutôt qu'une insertion.
+  [C1] atelier/rd/outillage/2026-08-10_methode-croisement-discernement.md — lien non résolu : [[^]]
+  [C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — lien non résolu : [[x]]
+  [C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — lien non résolu : [[x/y]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[meta/...]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[wiki-contrainte-integration-levee]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[wiki-contrainte-integration-levee]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[x]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[x/y]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[atelier/rd/infrastructure/infrastructure-architecture-globale-2026-08-11]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[meta/projet-unifie/16-correspondances-zodiacales-agents]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[doctrinal/discernement/]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[doctrinal/discernement/]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[wiki-contrainte-integration-levee]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[x]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[x/y]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[doctrinal/discernement/]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[meta/...]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[wiki-contrainte-integration-levee]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[x]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[x/y]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[doctrinal/discernement/]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[meta/...]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[meta/...]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[meta/...]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[meta/...]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[wiki-...]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[wiki-...]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[x]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[x/y]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[infrastructure-architecture-globale-*]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[meta/.../16-*]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[doctrinal/discernement/]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[x]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[x/y]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[doctrinal/discernement]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[chemin/vers/fiche]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md — lien non résolu : [[^]]
+  [C1] doctrinal/annales.md — lien non résolu : [[^]]
+  [C1] doctrinal/annales.md — lien non résolu : [[^]]
+  [C1] doctrinal/autorites/rene-guenon.md — lien non résolu : [[doctrinal/discernement]]
+
+0 erreur(s), 58 avertissement(s).
+```
+
+---
+
+## §2. Cartographie du graphe
+
+```
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 339
+      doctrinal    247
+      atelier      82
+      label        10
+
+  Arêtes : 1223
+      établies    1048
+      suggérées   175
+
+  Lacunes to-source : 67
+
+  Avertissements : 109 (non bloquants)
+      compteur       56
+      lien mort      47
+      lien           4
+      isolée         2
+  Mode --verifier : aucun manifeste écrit.
+```
+
+---
+
+## §3. Fichiers non trackés
+
+```
+13 fichier(s) non tracké(s), par circuit :
+
+  [atelier] 8
+    M   atelier/index.md
+    ??  atelier/materiel/distressor-el8.md
+    ??  atelier/materiel/moog-voyager.md
+    ??  atelier/materiel/neumann-tlm103.md
+    M   atelier/materiel/neve-1073spx.md
+    ??  atelier/materiel/revox-a77.md
+    M   atelier/materiel/studio-principal.md
+    M   atelier/materiel/tascam-model-12.md
+
+  [meta] 5
+    ??  meta/carte-du-depot-atelier.md
+    ??  meta/carte-du-depot-doctrinal.md
+    ??  meta/carte-du-depot-hermeneutique.md
+    ??  meta/carte-du-depot-label.md
+    ??  meta/carte-du-depot-meta.md
+```
+
+---
+
+## §4. Contrôle anti-fabulation — Cohérence infrastructure (étape 4)
+
+```
+5 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+```
+
+**Entrée 2026-08-17 du registre-problemes.md** (collage intégral, contrôle anti-fabulation) :
+
+---
+
+## [2026-08-17] ouvert | Angle mort de continuité tâches/information entre Claude Code, H ermés Terminal et agents Discord — le cron « créé » du 2026-08-17 n'existe pas
+
+**Symptôme brut** :
+- `hermes --profile studio cron list` → « No scheduled jobs » (vérifié 2026-08-17,
+  session Claude Code).
+- La fiche `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md`,
+  commitée le même jour (commit `000ade2`), affirme la création d'un job
+  `b7acb57e3d58` (`0 12 * * *`, livrable `#infrastructure`) et donne un tableau
+  de paramètres complet + « prochaine exécution : 2026-08-17 à 12:00 UTC ».
+- `grep -i "cron\|b7acb57e3d58"` sur `/root/.hermes/profiles/studio/logs/gateway.log`
+  ne retourne aucune occurrence : aucune trace de création n'existe côté runtime.
+- En revanche, la correction jumelle documentée dans la même fiche
+  (`DISCORD_HOME_CHANNEL` → `1536564394690084925`) est, elle, réellement
+  appliquée et vérifiable : le log confirme `Sent home-channel startup
+  notification to discord:1536564394690084925` à `04:54:23` le 2026-08-17,
+  ligne pour ligne identique à celle citée dans la fiche.
+
+**Diagnostic** : la fiche mélange une correction réellement effectuée et
+vérifiée (HOME_CHANNEL) avec une correction narrée mais non appliquée (cron)
+— sans que rien, ni dans la rédaction ni dans la relecture avant commit, ne
+distingue les deux. C'est la troisième occurrence en 48h du même motif « deux
+gestes distincts » déjà nommé par cette fiche elle-même en §6 (Sceau/prompt
+écrit ≠ configuration H ermés opérée) et par la fiche du 2026-08-16
+(`activation-salon-infrastructure-studio-2026-08-16.md`, création de salon
+Discord ≠ autorisation allowlist) — mais ici la fiche prescrit explicitement
+la vérification qui aurait détecté l'anomalie (§6.3 : « vérifier
+systématiquement qu'un `cron list` confirme la présence effective du job ») et
+ne l'applique pas à elle-même. Le §VIII.2 du protocole racine (« fiabilité
+d'action ≠ fiabilité narrative ») est directement en cause : aucune
+vérification mécanique indépendante n'a précédé la clôture de cette passe,
+malgré la consigne explicite qu'elle contient.
+
+Constat périphérique corroborant le même diagnostic plus large (angle mort de
+continuité entre les trois surfaces agentiques — Claude Code, H ermés Terminal,
+agents Discord) : la fiche `activation-salon-infrastructure-studio-2026-08-16.md`,
+commitée le 2026-08-16 (commit `954712f`) et référencée en lien par la fiche
+du 17, réapparaît en `git status` comme fichier non tracké (`??`) dans l'arbre
+de travail courant de cette session — signe qu'au moins deux copies locales du
+dépôt (postes/agents distincts) divergent d'un commit à l'autre sans
+mécanisme de détection.
+
+**Résolution** : aucune — investigation Claude Code, aucune écriture de fond
+n'a été faite (Cmd 6). Options possibles à trancher par Sidy, non appliquées :
+(a) créer effectivement le job cron `monitoring-infrastructure-quotidien` tel
+que décrit dans la fiche du 17 ; (b) ajouter, à `detecter-non-tracke.py` ou à
+un nouveau script `rd/outillage/`, un contrôle de réconciliation déterministe
+doc↔runtime (cron H ermés déclarés vs `cron list` réel par profil, allowlists
+`.env` vs salons cités dans les fiches `infrastructure/`), exécuté par le cron
+quotidien lui-même et rapporté en `#infrastructure` ; (c) exiger qu'aucune
+fiche `infrastructure/` ne soit commitée sans coller la sortie brute de la
+commande de vérification citée dans son propre corps (auto-cohérence de la
+fiche, plutôt qu'un contrôle externe).
+
+**Compréhension tirée** : la narration d'une vérification n'est pas une
+vérification — y compris quand elle est écrite par l'agent qui vient de poser
+la règle inverse dans le même document. Le blindage contre ce motif ne peut
+pas être une nouvelle consigne rédactionnelle (déjà tentée dans cette même
+fiche, déjà retombée) : il doit être un contrôle déterministe, sans LLM dans
+la boucle, au même titre que `verifier-invariants.py` — sinon chaque nouvelle
+fiche d'infrastructure porte le même risque que celle qui vient de le
+documenter.
+
+**Liens** : `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md` ;
+`atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md` ;
+`atelier/rd/cahiers/bilan-2026-08-15-pont-agents.md` (chantier D, phase 3) ;
+`CLAUDE.md` §VIII.2 (fiabilité d'action ≠ fiabilité narrative) ;
+`atelier/rd/outillage/verifier-coherence-infrastructure.py`.
+
+**Correction [2026-08-17]** : le constat périphérique ci-dessus (lignes 67-74)
+contenait lui-même une affirmation non vérifiée — même motif que celui
+diagnostiqué dans cette entrée. `git log --all -S <ID salon> -- atelier/` et
+`git log --follow` sur le chemin de la fiche montrent que
+`activation-salon-infrastructure-studio-2026-08-16.md` n'a **jamais** été
+commitée avant ce jour (aucun commit, y compris `954712f`, ne la touche —
+`954712f` est un commit réel du 2026-08-16 mais concerne le canal Telegram
+Mehdi et le mandat de l'agent 09, sans rapport avec cette fiche). Il n'y a
+donc pas de « deux copies du dépôt qui divergent » : la fiche a été écrite sur
+disque le 2026-08-16 mais jamais `git add`ée/commitée, alors que la fiche du
+17 la référençait déjà en lien comme si elle existait dans l'historique —
+même écart doc↔runtime que celui documenté ci-dessus, à la couche git plutôt
+qu'à la couche H ermés. `detecter-non-tracke.py` l'aurait signalée (elle
+figure dans son périmètre `atelier/`) : soit il n'a pas tourné entre le 16 et
+aujourd'hui, soit son signalement n'a pas été traité. Corrigée dans le même
+commit que la présente entrée (`aae8660`) : la fiche est désormais commitée
+et versionnée. Aucune divergence multi-copie réelle constatée — hypothèse du
+16-17 août invalidée par la mesure.
+
+**Mise à jour [2026-08-17]** : l'option (b) a été retenue et appliquée. Nouveau
+script déterministe `atelier/rd/outillage/verifier-coherence-infrastructure.py`
+(sans LLM, sans réseau) : confronte le bloc `infra_verif` du frontmatter des
+fiches `atelier/rd/infrastructure/*.md` à l'état réel (`hermes cron list --all`,
+lecture des `.env`). Premier run (avant correction) : `1 écart(s)` — reproduit
+mécaniquement l'anomalie ci-dessus (cron absent). Le job cron
+`monitoring-infrastructure-quotidien` a ensuite été effectivement créé
+(`hermes --profile studio cron create`, job réel `41dc3e7e492c`, `0 12 * * *`,
+livrable `#infrastructure`) — un ID différent de celui narré à tort dans la
+fiche du 17 (`b7acb57e3d58`), confirmant qu'il s'agit d'une création réelle et
+non d'une coïncidence. Second run : `0 écart(s)`. Un second job cron,
+`coherence-infrastructure-brute` (`ca9593f3a03d`, `5 12 * * *`, `--no-agent
+--script`), a été créé en garantie mécanique : il livre le stdout brut du
+script sur `#infrastructure` chaque jour, sans passer par le LLM — même si un
+futur rapport d'agent narre mal, ce second canal ne peut pas fabuler. Bloc
+`infra_verif` ajouté rétroactivement aux deux fiches citées en lien.
+
+**Mise à jour [2026-08-17], deuxième passe** : question de Sidy — le rôle de
+l'agent en charge (SOUL.md `studio`, source canonique
+`meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md`) reflétait-il
+ces corrections ? Vérifié mécaniquement, non : le job cron réel
+(`jobs.json` du profil, prompt à 7 étapes incluant
+`verifier-coherence-infrastructure.py` en étape 4) avait été mis à jour, mais
+SOUL.md décrivait toujours l'ancien mandat à 3 scripts / 5 sections — le
+mandat *documenté* de l'agent avait pris du retard sur sa configuration
+*réelle*, symétrique inverse du problème initial (là, la fiche décrivait un
+état runtime qui n'existait pas ; ici, le runtime avait avancé sans que la
+description du rôle suive). Corrigé : SOUL.md et sa source wiki synchronisés
+(diff vérifié identique), ajout du script 4, mention explicite du second job
+`--no-agent` comme garantie mécanique, format de rapport porté à 8 sections.
+
+**Statut** : `resolu`.
+
+---
+
+## §5. Empreinte serveur
+
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   21G   15G  59% /
+
+              total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.0Gi       1.9Gi       4.1Mi       1.1Gi       2.7Gi
+Swap:          2.0Gi       1.4Gi       591Mi
+```
+
+---
+
+## §6. Registre Hermes-Terminal
+
+**Bind-mounts** : aucun bind-mount explicite dans `/root/.config/hermes-studio/config.yaml`.
+
+**Santé des 12 gateways** (systemctl --user) :
+
+```
+UNIT                                LOAD   ACTIVE SUB     DESCRIPTION
+hermes-gateway-accounting.service   loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-admin-legal.service  loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-ar-music.service     loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-commerce.service     loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-distribution.service loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-fanzine.service      loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-gardien.service      loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-marketing.service    loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-production.service   loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-publication.service  loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-studio.service       loaded active running Hermes Agent Gateway - Messaging Platform Integration
+hermes-gateway-visual-da.service    loaded active running Hermes Agent Gateway - Messaging Platform Integration
+
+12 loaded units listed.
+```
+
+**Staleness de `_inbox/`** :
+
+```
+=== /root/wiki/_inbox ===
+2026-08-18+08:34:50 interview-sidy-trame-spirituelle-corrections-2026-08-18.md
+2026-08-13+17:15:00 citadelle-du-sham/citadelle-sham.html
+2026-08-13+07:37:17 citadelle-du-sham/note.md
+
+=== /root/regression-test/sandbox/_inbox ===
+2026-07-07+23:58:39 UPDATES.md
+2026-07-07+23:58:39 2026-06-20_taekwondo-hansu.md
+2026-07-07+23:58:39 technics-su-8080.md
+2026-07-07+23:58:39 tascam-model-12.md
+2026-07-07+23:58:39 neve-1073spx.md
+
+=== /root/regression-test-doctrinal/sandbox/_inbox ===
+2026-07-08+00:12:47 UPDATES.md
+2026-07-08+00:12:47 nafs-qalb-irritation.md
+```
+
+---
+
+## §7. Veille R&D — Nouvelles fiches détectées
+
+**Nouvelles fiches** :
+- `atelier/rd/veille/index.md`
+- `atelier/rd/veille/registre.md`
+- `atelier/rd/veille/cordis/equations.md`
+- `atelier/rd/veille/cordis/methodes.md`
+- `atelier/rd/veille/cordis/implementations-github.md`
+- `atelier/rd/veille/cordis/notes-lecture.md`
+- `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18.md`
+- `atelier/rd/infrastructure/monitoring-archive-charte.md`
+- `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md`
+- `atelier/rd/outillage/spec-archiver-monitoring-quotidien.md`
+
+**Rapprochement avec le registre-problemes.md** :
+
+Les fiches de veille Cordis (équations, méthodes, implémentations, notes de lecture) ouvrent un nouveau chantier de recherche sur la composabilité spatiotemporelle et les effets réversibles. Le registre-problemes.md porte plusieurs entrées liées à la fiabilité des outils de vérification et à la continuité entre les surfaces agentiques. Trois PROPOSITIONS de rapprochement :
+
+**PROPOSITION 1** — Modélisation des agents comme composants à effets réversibles
+
+Les notes de lecture Cordis (§II) suggèrent d'appliquer le paradigme des effets réversibles aux 12 agents Hermes (HMR sans redémarrage, revert automatique des fichiers modifiés/mémoire écrite/cron jobs créés). Le registre-problemes.md porte plusieurs entrées documentant des écarts entre narration et réalité des cron jobs (`[2026-08-17]`, `[2026-08-18]`). Si les agents étaient modélisés comme des composants Cordis, leur activation/désactivation serait traçable par construction — chaque opération fournit son inverse, le teardown est dérivé du chargement, pas écrit en parallèle. Cela pourrait réduire structurellement le risque d'écart doc↔runtime diagnostiqué dans le registre.
+
+**PROPOSITION 2** — Sandbox isolée pour éprouver les outils de vérification
+
+Les fiches Cordis identifient une sandbox isolée (`/root/sandbox-rd/`) comme lieu d'éprouve des montages techniques. Le registre-problemes.md documente plusieurs cas où des outils de vérification déterministes (`verifier-coherence-infrastructure.py`, `generer-cartographie.py`) ont été modifiés pour tolérer leur propre non-conformité (`[2026-08-18]` — `extraire_cible` assoupli pour accepter les chemins nus). Une sandbox dédiée pourrait permettre d'éprouver des variantes d'outils de vérification avant tout versement dans le dépôt, isolant le risque de relâchement progressif des garde-fous. Le paradigme Cordis (isolation par réalmes, notification réactive des changements) pourrait informer l'architecture de cette sandbox.
+
+**PROPOSITION 3** — Veille R&D comme effet réversible
+
+Les notes de lecture Cordis (§II, chantier 3) suggèrent de modéliser la veille R&D elle-même comme un effet réversible : si une fiche de veille est invalidée, son retrait revert les liens, les notes, les références — pas de résidu. Le registre-problemes.md porte une entrée sur les fiches de veille invalidées laissant des traces dans d'autres fiches (`[2026-08-18]` — double contrôle Claude Code, rapport auto-polluant). Appliquer le paradigme des effets réversibles à la veille pourrait permettre un retrait propre des fiches invalidées, sans pollution persistante du graphe.
+
+---
+
+## §8. Suggestions
+
+1. **Fichiers non trackés** : 13 fichiers non trackés (8 dans `atelier/`, 5 dans `meta/`). Les 5 cartes `meta/carte-du-depot-*.md` semblent être des artefacts de génération automatique — vérifier si elles doivent être trackées ou ignorées. Les 8 fichiers `atelier/materiel/` sont des fiches matériel en cours d'édition — à committer après finalisation.
+
+2. **Avertissements C1 résiduels** : 58 avertissements, dont ~40 proviennent de `traitement-avertissements-isoles-rapport-2026-08-18.md` (fiche qui cite des tokens `[[...]]` comme données d'exemple). Le fichier d'archive du monitoring est en `.txt` pour éviter ce piège ; le rapport de traitement est en `.md` et pollue la ligne de base. Envisager de le convertir en `.txt` ou de neutraliser les tokens cités (backticks, échappement).
+
+3. **Staleness `_inbox/`** : 3 fichiers dans `/root/wiki/_inbox/` datent du 2026-08-13 et 2026-08-18 — intégration en attente. Les deux autres `_inbox/` (regression-test) sont antérieurs au 2026-07-08 — probablement oubliés ou abandonnés.
+
+4. **Empreinte serveur** : disque 59% utilisé (15G disponibles), RAM 2.7G disponibles sur 3.7G, swap 591M libres sur 2G. État sain, pas de tension mémoire ni disque.
+
+5. **12 gateways actives** : toutes les gateways Hermes sont chargées et actives — aucune défaillance détectée.
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

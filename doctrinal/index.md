@@ -45,6 +45,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/sefer-yetsira-ramban|Sefer Yetsira — Livre de la Création (commentaire du Ramban)]] ⚠️ `to-source` sur recoupement éditions critiques
 - [[doctrinal/sources/kabbale-10-sefirot-structure|Les 10 Sephiroth — Structure de l'Arbre séphirothique]] — *kari-kumi*
 - [[doctrinal/sources/kabbale-cosmogonie-iod|Cosmogonie du *iod* — Le point primordial et la création par les lettres]] — *kari-kumi*
+- [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen|Traité de l'Émanation Gauche — Isaac ben Jacob ha-Kohen (XIIIe s.)]] ⚠️ source 2nd main (trad. en ligne)
 
 ### Sciences Traditionnelles
 - [[doctrinal/symboles/fiqh|Le Fiqh (la science des statuts de la Loi)]]
@@ -310,6 +311,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil|Le septénaire transversal, la Balance et le degré du Soleil — référentiels stellaires et états d'une même fonction]] — close (traditionnel) : trois états d'une même fonction septénaire (polaire Grande Ourse circumpolaire, écliptique Pléiades lever héliaque, planétaire sept Cieux errance ordonnée), chantier Guénon sur la Balance polaire/zodiacale, convergence quadruple sur degré 24 (Idrîs/Soleil/Hermès/Gizeh) ; volets *hozo* (Ourse→Pléiades, septénaire transversal confirmé Sidy) et *kari-kumi* (Balance, degré 24 documenté sans fermeture ultérieure)
 - [[doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance|Les marques de la contrefaçon — grille de vigilance opératoire]] 🔍 (en cours)
 - [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra|L'ombre septénaire : sept tours du diable et Sitra Aḥra]] 🔍 (en cours, kari-kumi)
+- [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen|Dépôt — Traité de l'Émanation Gauche (Isaac ben Jacob ha-Kohen)]] 🔍 (en cours, inventaire posé)
 - [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle|Qutb, Manu, Metatron, Er-Rûh : la fonction polaire universelle à travers quatre voiles traditionnels]] 🔍 (en cours)
 
 ### Sashimono et métiers traditionnels

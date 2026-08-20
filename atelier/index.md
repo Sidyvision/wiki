@@ -3,7 +3,7 @@ title: "Atelier — Ressources & Études de Cas"
 type: index
 tags: [atelier, ressources, index, instrument]
 created: 2026-07-07
-updated: 2026-08-11
+updated: 2026-08-18
 ---
 
 # Atelier — Index
@@ -84,8 +84,13 @@ wirātha↔pôles (*Futūḥāt* ch. 36, réserve résiduelle).
 Ressources de fabrication, spécifications techniques, catalogues de matériaux.
 
 - `/atelier/materiel/` — fiches matériaux, spécifications, sourcing
-- [[atelier/materiel/studio-principal|Studio Principal]] — fiche-hub de l'espace
-  d'atelier audio, `to-source`
+- [[atelier/materiel/studio-principal|Studio Principal]] — fiche-hub de l'espace d'atelier audio, `to-source`
+- [[atelier/materiel/tascam-model-12|Tascam Model 12]] — table/interface centrale
+- [[atelier/materiel/neve-1073spx|Neve 1073SPX]] — préampli/EQ analogique
+- [[atelier/materiel/distressor-el8|Distressor EL8]] — compresseur-limiteur
+- [[atelier/materiel/revox-a77|Revox A77]] — magnétophone à bande
+- [[atelier/materiel/moog-voyager|Moog Voyager]] — monosynthétiseur analogique
+- [[atelier/materiel/neumann-tlm103|Neumann TLM 103]] — micro à condensateur
 
 ---
 

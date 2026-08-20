@@ -6,8 +6,8 @@ tradition_cadre: "universel"
 tags: [kabbale, etat-des-lieux, instrumentation, phase-3, bilan, sefer-yetsira, qabbalah]
 created: 2026-08-20
 updated: 2026-08-20
-sources: ["[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]"]
-sources_count: 4
+sources: ["[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]", "[[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]"]
+sources_count: 5
 cross_links: ["[[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]"]
 ---
 
@@ -30,6 +30,7 @@ structuré ou non.
 | Fiche | Contenu | Statut |
 |-------|---------|--------|
 | [[doctrinal/sources/sefer-yetsira-ramban]] | *Sefer Yetsira* complet + commentaire du Ramban (XIIIe s.) + traduction française. 6 chapitres : 10 Sefirot, 22 lettres, 3 Mères, 7 Doubles, 12 Simples, synthèse. Texte hébreu + français. | `to-source` sur éditions critiques |
+| [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] | *Traité de l'Émanation Gauche* d'Isaac ben Jacob ha-Kohen (Castille, vers 1240-1270). Texte primaire pré-zoharique majeur. 10 Sephiroth de l'Émanation Gauche (système miroir inversé) ; doctrine des mondes détruits (Qamti'el → Beli'el → 'Iti'el) ; triade Samaël-Lilith-Tanin'iver ; 3 éthers supérieurs ; 7 princes de la jalousie ; écran séparateur (Masukhi'el) ; eschatologie démoniaque (Meshi'hiel/Kokhviel = épée du Messie) ; Métatron visionnaire. Traduction française en ligne (Spartakus FreeMann, 2015). | ⚠️ source 2nd main (trad. en ligne, non vérifiée sur texte hébreu) |
 
 ### B. Sources secondaires (via Guénon)
 
@@ -56,7 +57,9 @@ structuré ou non.
 - **Metatron** : identité avec Er-Rûh (fonction polaire), double face (lumineuse/obscure)
 - **Adam Qadmôn** : équivalence avec al-Insān al-Kāmil (Homme Universel à 4 voiles)
 - **Palais de la Sainteté** : structure de centre totalisateur (amorce)
-- **Sitra Ahra** : versant obscur (signal, pas parenté)
+- **Sitra Ahra** : versant obscur structuré — 10 Sephiroth de l'Émanation Gauche (Traité de l'Émanation Gauche, Isaac ha-Kohen), 7 princes de la jalousie, mondes détruits (Qamti'el → Beli'el → 'Iti'el)
+- **Triade démoniaque** : Samaël-Lilith-Tanin'iver (serpent aveugle intermédiaire)
+- **Métatron visionnaire** : Isaac ha-Kohen reçoit par visions de Métatron
 - **Cosmogonie par les lettres** : 32 Sentiers, 10 Sefirot, 22 lettres, 3 Mères, 7 Doubles, 12 Simples (texte primaire complet)
 - **Les 10 Sephiroth** : structure complète (nom, position, attribut, correspondance, nom divin) avec confrontations Ramban/Guénon
 - **Cosmogonie du *iod*** : point primordial, Avir/Aor, Palais intérieur, Tétragramme, 6 directions

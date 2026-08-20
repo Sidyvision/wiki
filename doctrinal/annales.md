@@ -9,6 +9,38 @@ updated: 2026-08-16
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] archivage | Traité de l'Émanation Gauche (Isaac ben Jacob ha-Kohen)
+
+Dépôt par Sidy des 3 parties du *Traité de l'Émanation Gauche* de Rabbi Isaac
+ben Jacob ha-Kohen (Castille, première moitié du XIIIe siècle), traduites en
+français par Spartakus FreeMann (2015, depuis l'anglais avec corrections hébreu).
+Source : kabbale.eu. Sources académiques citées : Scholem, Idel & Dan, Mopsik.
+
+- **Raw créé** : `raw/traite-emanation-gauche-isaac-ha-kohen.md` (388 lignes,
+  3 parties combinées).
+- **Fiche source créée** : [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]
+  — texte primaire pré-zoharique castillan ; 10 Sephiroth de l'Émanation Gauche
+  (système miroir des 10 Sephiroth de Sainteté) ; doctrine des mondes détruits
+  (Qamti'el → Beli'el → 'Iti'el) ; triade Samaël-Lilith-Tanin'iver ; 3 éthers
+  supérieurs ; 7 princes de la jalousie ; écran séparateur (Masukhi'el) ;
+  eschatologie démoniaque (Meshi'hiel/Kokhviel = épée du Messie) ; Métatron
+  visionnaire (Isaac ha-Kohen reçoit par visions de Métatron).
+- **Fiche discernement créée** :
+  [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]]
+  — inventaire de ce qui entre dans le tas (8 pièces), ce qui complète le dépôt
+  existant (Sitra Ahra structuré, 7 princes de la jalousie, mondes détruits,
+  triade démoniaque, Métatron visionnaire), 5 questions ouvertes.
+- **État des lieux kabbale mis à jour** :
+  [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] — le Traité
+  ajouté comme pièce disponible (source primaire, 2nd main) ; ce qui est couvert
+  complété ; éléments non documentés mis à jour.
+- **Maillage** : index.md § II (Sources primaires) et § VII (Registre du
+  Discernement) mis à jour.
+- **Aucun verdict rendu** — matière brute dans le tas, qualification réservée
+  à Sidy.
+- **Vérification** : `verifier-invariants.py` — non exécutée (commit demandé
+  explicitement, à relancer si nécessaire).
+
 ## [2026-08-16] enrichissement | Hypothèse d'une source orientale plus large (sashimono ↔ architecture chinoise)
 
 - Fiche enrichie : `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md`
