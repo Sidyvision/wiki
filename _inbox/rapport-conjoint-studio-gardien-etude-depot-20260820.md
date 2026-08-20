@@ -305,6 +305,7 @@ discrétion de Sidy.
 | 15 | Rapport d'avertissements auto-polluant (16/18 erreurs C1) — déjà au registre | documentée | outillage |
 | 16 | Formulation inversée du sens de lien dans `symboles/manvantara.md` (« doctrinal → projet ») | basse | rigueur des termes / à clarifier |
 | 17 | `doctrinal/index.md` liste des joints vers `hermeneutique/` (sens en principe interdit) | basse | zone grise / à clarifier |
+| 18 | Caractère invisible U+200D (ZWJ) dans « H‍ermes » — 150+ occurrences dans tous les circuits ; convention stylistique du dépôt, mais signalée comme « injection potentielle » par les gardes de lecture d'agents | basse | convention à documenter / faux positif outillage |
 
 **Rappel de lecture :** les gravités sont des qualifications de travail, pas des
 verdicts. Les points « bloquants » le sont **mécaniquement** (ils empêchent la
@@ -415,6 +416,19 @@ transition sous validation humaine (Cmd 6 à l'entrée, Cmd 12/13 à la sortie).
   **cinq circuits étanches** (doctrinal, atelier, label, hermeneutique) + meta
   Domaine Réservé. Formulation à harmoniser pour éviter toute lecture d'un
   « sixième circuit ».
+- **Caractère invisible U+200D (point 18)** : contrôle dirigé sur l'ensemble du
+  dépôt (tous fichiers `.md`/`.py`/`.sh`/`.html`, `.git` et `.venv` exclus) —
+  **toutes** les occurrences sont un ZWJ inséré dans le mot « H‍ermes »
+  (H + ZWJ + ermes), y compris dans `CLAUDE.md` racine, `meta/CLAUDE.md`, les
+  annales et la fiche adoptée des trois territoires. Lecture Vigilance : c'est une
+  **convention stylistique délibérée et cohérente du dépôt**, pas une injection.
+  Conséquence outillage : les gardes de lecture d'agents qui signalent ces fichiers
+  comme « prompt injection potentielle » produisent un **faux positif**, et ce
+  signal a contribué à la dispersion documentée dans la fiche d'incident du jour
+  (`rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint.md`,
+  non trackée, à committer). **À documenter** comme convention connue (pour que
+  les futurs agents ne la poursuivent pas) ; la décision de la retirer ou de la
+  conserver appartient à Sidy — le pôle Vigilance ne tranche pas.
 
 ---
 
