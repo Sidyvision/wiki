@@ -58,7 +58,8 @@
     <i style="background:var(--argent)"></i>Barzakh supérieur (19–20)<br>
     <i style="background:#e8e8f0"></i>filament — al-Insān al-Kāmil<br>
     <i style="background:var(--rouge)"></i>équivalence établie (hozo)<br>
-    <i style="background:#9a7fc8"></i>nœud universel (hors arbre-tradition)
+    <i style="background:#9a7fc8"></i>nœud universel (hors arbre-tradition)<br>
+    <i style="background:var(--argent)"></i>anneau zodiacal (signes 19 / manāzil 20)
   </div>
 </div>
 
@@ -161,6 +162,23 @@ var AQTAB = [
   [26,"Pôle de Mercure (Jésus y siège)"],
   [27,"Pôle de la Lune (Adam y siège)"]
 ];
+// Homme Universel (nœud universel, hors arbre-tradition) — équivalence établie
+// avec le filament al-Insān al-Kāmil, verdict Sidy 2026-07-26.
+var SOURCE_HOMME_UNIVERSEL = "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]";
+// Anneau zodiacal — deux degrés distincts (dédoublement confirmé, spec-anneau-zodiacal.md
+// §3.1). Signes sourcés de doctrinal/symboles/table-28-degres-nafas-rahman.md
+// (« TABLE COMPLÈTE À QUATRE COLONNES », colonne « Signe Zodiaque », Gloton pp. 45-48,
+// validation Gem 2026-07-01) ; mêmes données que instrument-donnees.yaml v0.3.4.
+var ZODIAQUE = {
+  degre_falak_al_buruj: 19,
+  degre_falak_al_manazil: 20,
+  obliquite_deg: 23.44,
+  signes: [
+    {label:"Bélier"}, {label:"Taureau"}, {label:"Gémeaux"}, {label:"Cancer"},
+    {label:"Lion"}, {label:"Vierge"}, {label:"Balance"}, {label:"Scorpion"},
+    {label:"Sagittaire"}, {label:"Capricorne"}, {label:"Verseau"}, {label:"Poissons"}
+  ]
+};
 
 // ---- Géométrie de l'axe -----------------------------------------------------
 var HAUTEUR = 17, CROISSANCE = 1.16;
@@ -281,6 +299,54 @@ var disques = [];
   monde.add(t); disques.push(t);
 });
 
+// -- Anneau zodiacal : Falak al-Burūj (12 signes, degré 19) + Falak al-Manāzil
+//    (28 demeures lunaires, degré 20) — dédoublement confirmé (Sidy, 2026-07-27),
+//    spec-anneau-zodiacal.md §3.1/§3.5/§6. Rendu de matière déjà sourcée (table
+//    des 28 degrés) : aucun ancrage nouveau, aucun joint (§5 de la spec). Manquait
+//    au prototype v0.1 alors que la donnée existe depuis le 2026-07-26/27 — cause :
+//    "manque de rendu, non manque de donnée" (spec §0). Signes peuplés le
+//    2026-08-20 dans instrument-donnees.yaml (point ouvert §7.4 de la spec, comblé).
+(function(){
+  var R_INT = 2.60, R_EXT = 2.95, R_GRAD = 2.74;
+  var oblique = -Math.PI / 2 + ZODIAQUE.obliquite_deg * Math.PI / 180;
+
+  function segmentRadial(angle, r1, r2, couleur, opacite){
+    return ligne([
+      new THREE.Vector3(Math.cos(angle) * r1, Math.sin(angle) * r1, 0),
+      new THREE.Vector3(Math.cos(angle) * r2, Math.sin(angle) * r2, 0)
+    ], couleur, opacite, false);
+  }
+
+  // -- Degré 19 (Falak al-Burūj) : 12 signes, séparateurs pleine largeur + étiquette --
+  var gSignes = new THREE.Group();
+  gSignes.position.y = yDeg[ZODIAQUE.degre_falak_al_buruj];
+  gSignes.rotation.x = oblique;
+  gSignes.add(new THREE.Mesh(new THREE.RingGeometry(R_INT, R_EXT, 128),
+    new THREE.MeshBasicMaterial({color:0xaab4c8, transparent:true, opacity:.16, side:THREE.DoubleSide})));
+  ZODIAQUE.signes.forEach(function(s, i){
+    var a = (i / 12) * Math.PI * 2;
+    gSignes.add(segmentRadial(a, R_INT, R_EXT, 0xaab4c8, .55));
+    var aMil = ((i + .5) / 12) * Math.PI * 2;
+    var e = etiquette(s.label, .46, "rgba(170,180,200,.8)");
+    e.position.set(Math.cos(aMil) * (R_EXT + .3), Math.sin(aMil) * (R_EXT + .3), 0);
+    gSignes.add(e);
+  });
+  monde.add(gSignes);
+
+  // -- Degré 20 (Falak al-Manāzil) : 28 demeures — graduations discrètes, bord
+  //    intérieur, aucune étiquette permanente (spec §3.4 — non commensurable
+  //    avec les 12 signes, 2⅓ manzil par signe, jamais aligné visuellement) --
+  var gManazil = new THREE.Group();
+  gManazil.position.y = yDeg[ZODIAQUE.degre_falak_al_manazil];
+  gManazil.rotation.x = oblique;
+  gManazil.add(new THREE.Mesh(new THREE.RingGeometry(R_INT, R_EXT, 128),
+    new THREE.MeshBasicMaterial({color:0xaab4c8, transparent:true, opacity:.10, side:THREE.DoubleSide})));
+  for (var m = 0; m < 28; m++){
+    gManazil.add(segmentRadial((m / 28) * Math.PI * 2, R_INT, R_GRAD, 0xd4a94e, .34));
+  }
+  monde.add(gManazil);
+})();
+
 // -- Filament : al-Insān al-Kāmil (validé 2026-07-01) --
 (function(){
   var x = .6;
@@ -295,6 +361,18 @@ var disques = [];
   monde.add(noeud); interactifs.push(noeud);
   var e = etiquette("al-Insān al-Kāmil", .5, "rgba(242,242,250,.8)");
   e.position.set(x + 1.35, yEntre(19, 20), 0); monde.add(e);
+
+  // -- Homme Universel : nœud universel, équivalence établie avec le filament
+  //    (hozo, verdict Sidy 2026-07-26) — même traitement que les Aqtâb --
+  var px = -1.7;
+  var sphHU = new THREE.Mesh(new THREE.SphereGeometry(.17, 24, 16),
+    new THREE.MeshStandardMaterial({color:0x9a7fc8, emissive:0x2c1f45, roughness:.4, metalness:.4}));
+  sphHU.position.set(px, yEntre(19, 20), 0);
+  sphHU.userData = {label:"Homme Universel", deg:"nœud universel (hors arbre-tradition) — équivalence établie avec le filament al-Insān al-Kāmil", src: SOURCE_HOMME_UNIVERSEL};
+  monde.add(sphHU); interactifs.push(sphHU);
+  var eHU = etiquette("Homme Universel", .42, "rgba(154,127,200,.85)");
+  eHU.position.set(px - 1.15, yEntre(19, 20), 0); monde.add(eHU);
+  monde.add(ligne([noeud.position, sphHU.position], 0xb03a2e, .85, false));
 })();
 
 // -- Boucle 38 → 11 --

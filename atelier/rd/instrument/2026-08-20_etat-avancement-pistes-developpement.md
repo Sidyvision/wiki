@@ -54,9 +54,9 @@ a été mis à jour pour rendre ce qui est établi mais n'était pas rendu — v
 |---|---|---|
 | 0 | Décisions d'architecture technique | **Close** — moteur Three.js/WebGL, cible web mobile, hébergement statique, format `wiki-manifest v0.2.1` figé (arbitrages du 2026-07-01, actés en v0.3 §8.3) |
 | 1 | Générateur de manifeste (dépôt → manifeste) | **Livré** — `generer-manifeste.py`, déterministe, zéro LLM dans la boucle ; `wiki-manifest.json` réellement généré (36 nœuds : 8 notionnels/structurants + 28 nœuds-degrés) |
-| — | Prototype de rendu | **Existe et fonctionne** (correction d'un constat erroné, voir §2) — `instrument-prototype.html`, Three.js réel, v0.1 datée du 2026-07-01 : axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels. **Mis à jour le 2026-08-20** (§5) : sept nœuds Aqtâb rendus, filament enrichi de son identité à quatre voiles |
+| — | Prototype de rendu | **Existe et fonctionne** (correction d'un constat erroné, voir §2) — `instrument-prototype.html`, Three.js réel, v0.1 datée du 2026-07-01 : axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels. **Mis à jour le 2026-08-20** (§5, deux passes) : sept nœuds Aqtâb + nœud Homme Universel rendus, filament enrichi, anneau zodiacal (12 signes + 28 manāzil, deux degrés distincts) |
 | 2 | Rendu de la tradition pilote (Tasawwuf) | **En cours** — bloqué sur la table des 38 degrés (colonnes Lettre/Nom Divin/Façç/Manzil manquantes pour les degrés 21-23 et 25-27, dépouillement Gloton requis) et sur la validation du rendu d'Al-Insān al-Kāmil |
-| 3 | Multi-traditions et ancrages | **Plus avancée qu'évalué initialement** (correction §0.2) — ouverte le 2026-08-04, **deux** jalons universels déjà **clos** par discernement : (a) sept Pôles/Aqtâb ↔ Malakūt planétaire (verdict 2026-07-16/08-04, dans `instrument-donnees.yaml`, désormais rendu au prototype) ; (b) Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara, l'Homme Universel à quatre voiles (verdict 2026-07-26, [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]], `status: traditionnel`) — **établi mais jamais déclaré dans `instrument-donnees.yaml`**, seul le filament tasawwuf-seul était rendu. Kabbale et Vedānta restent non ouverts comme arbres-traditions propres (la fiche (b) ne les ouvre pas, elle établit un nœud transversal) |
+| 3 | Multi-traditions et ancrages | **Plus avancée qu'évalué initialement** (correction §0.2) — ouverte le 2026-08-04, **deux** jalons universels **clos par discernement et désormais intégralement déclarés et rendus** (2026-08-20) : (a) sept Pôles/Aqtâb ↔ Malakūt planétaire (verdict 2026-07-16/08-04) ; (b) Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara, l'Homme Universel à quatre voiles (verdict 2026-07-26, [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]) — `instrument-donnees.yaml` v0.3.4, `wiki-manifest.json` régénéré, prototype à jour. Kabbale et Vedānta restent non ouverts comme arbres-traditions propres (la fiche (b) ne les ouvre pas, elle établit un nœud transversal) |
 | 4 | Onglet apophatique (implémentation applicative) | **Pratiquée manuellement en continu** depuis le 2026-06-29 (validé 2026-07-01) ; non codée dans le prototype |
 | 5 | Couche astrologique (calcul multi-méthodes) | **La moins avancée** — aucune spécification de calcul ; seulement des matériaux préparatoires (angles de l'espace, investigation stellaire *speculatif*, images de référence) et des paramètres laissés en attente dans les specs existantes (obliquité paramétrable, origine tropical/sidéral, paramètre d'époque) |
 
@@ -72,15 +72,13 @@ a été mis à jour pour rendre ce qui est établi mais n'était pas rendu — v
 ## 3. Pistes de développement proposées (classées, aucune tranchée)
 
 **P1 — Phase 3 : formaliser ce qui est déjà établi (le plus mûr, le moins cher)**
-1. Déclarer le nœud universel **Homme Universel** (Adam Qadmôn = al-Insān
-   al-Kāmil = Wang = Vaishwânara) dans `instrument-donnees.yaml`, à la manière
-   des sept nœuds `universel/aqtab-*` — discernement déjà clos
-   ([[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]],
-   `status: traditionnel`), il ne s'agit que de traduction technique d'un
-   verdict déjà rendu, pas d'un nouvel arbitrage (Cmd 6). Régénérer ensuite
-   `wiki-manifest.json` (`generer-manifeste.py`) et enrichir le prototype en
-   conséquence (le filament porte déjà la mention textuelle, §5, mais pas
-   encore de nœud/ancrage déclaré en donnée).
+1. ~~Déclarer le nœud universel **Homme Universel**~~ — **fait le 2026-08-20**
+   (§5, feu vert explicite de Sidy) : nœud `universel/homme-universel` et son
+   ancrage (`equivalence`, `etabli`) déclarés dans `instrument-donnees.yaml`
+   v0.3.4, cible `tasawwuf/al-insan-al-kamil`, source
+   [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]].
+   `wiki-manifest.json` régénéré (`generer-manifeste.py`, 44 nœuds, 10
+   ancrages, 0 erreur). Prototype enrichi en conséquence.
 2. ~~Vérifier le sort de la tension Burckhardt/Jurjānī~~ — sans objet, close depuis le 2026-07-09 (§0.1, §2.3).
 
 **P2 — débloquer la Phase 2 (rendu Tasawwuf, actuellement « en cours »)**
@@ -89,8 +87,8 @@ a été mis à jour pour rendre ce qui est établi mais n'était pas rendu — v
 5. Spécifier le détail optique de la lentille barzakh (degrés 19-20), laissé ouvert par l'architecture v0.3.
 
 **P3 — mettre le prototype à niveau de l'architecture v0.3 (le reste)**
-6. Intégrer l'anneau zodiacal (`spec-anneau-zodiacal.md` : deux degrés distincts 19/20, obliquité ≈23°26′ paramétrable, noms des 12 signes encore à peupler dans `instrument-donnees.yaml`) — actuellement spécifié mais absent du prototype.
-7. ~~Intégrer les nœuds universels (sept Pôles/Aqtâb)~~ — **fait le 2026-08-20** (§5) : sept nœuds rendus, équivalence établie visuellement marquée. Reste à intégrer le second nœud universel (P1.1).
+6. ~~Intégrer l'anneau zodiacal~~ — **fait le 2026-08-20** (§5) : deux degrés distincts (19 signes / 20 manāzil), obliquité 23,44°, 12 signes peuplés dans `instrument-donnees.yaml`. Reste ouvert : origine du zodiaque et époque de référence, renvoyés à la Phase 5 (P4.8).
+7. ~~Intégrer les nœuds universels (sept Pôles/Aqtâb)~~ — **fait le 2026-08-20** (§5) : sept nœuds rendus, équivalence établie visuellement marquée. Second nœud universel (Homme Universel) également fait (P1.1).
 
 **P4 — amorcer la Phase 5 (couche astrologique), aujourd'hui la moins avancée**
 8. Statuer sur le paramètre d'époque et l'origine du zodiaque (tropical/sidéral) — questions explicitement renvoyées à cette phase par `spec-anneau-zodiacal.md` §3.3/§7.
@@ -123,32 +121,67 @@ l'ouverture de la Phase 3) ne rendait pas encore :
    désormais l'identité à quatre voiles traditionnelles (Adam Qadmôn/Wang/
    Vaishwânara) établie le 2026-07-26, avec citation de la fiche
    `discernement` correspondante en plus de la fiche `symboles/al-insan-al-kamil`.
-3. **Non fait dans cette passe** : le nœud universel « Homme Universel »
-   lui-même n'a pas de sphère/ancrage dédié dans le prototype — il n'existe
-   pas encore comme nœud déclaré dans `instrument-donnees.yaml` (P1.1
-   ci-dessus). L'enrichissement du filament (point 2) est un correctif de
-   surface (texte de l'info-bulle), pas l'intégration complète en donnée.
-   L'anneau zodiacal (P3.6) n'a pas non plus été touché.
+**Vérification effectuée (première passe)** : syntaxe JavaScript valide
+(`new Function`) ; exécution du bloc de rendu testée hors navigateur (mocks
+Three.js minimaux, sans WebGL) — les sept nœuds Aqtâb se créent aux bonnes
+hauteurs (degrés 21→27), avec les bons libellés et la bonne source ; le
+filament porte le nouveau texte attendu ; total des objets interactifs
+conforme (43 = 28 degrés + 7 Aqtâb + 6 notionnels + 1 filament + 1 Barzakh).
 
-**Vérification effectuée** : syntaxe JavaScript valide (`new Function`) ;
-exécution du bloc de rendu testée hors navigateur (mocks Three.js minimaux,
-sans WebGL) — les sept nœuds Aqtâb se créent aux bonnes hauteurs (degrés
-21→27), avec les bons libellés et la bonne source ; le filament porte le
-nouveau texte attendu ; total des objets interactifs conforme (43 = 28
-degrés + 7 Aqtâb + 6 notionnels + 1 filament + 1 Barzakh). **Rendu visuel
-non vérifié dans un navigateur réel** : le prototype charge Three.js depuis
-un CDN externe (cdnjs/unpkg), bloqué par la politique réseau de cet
-environnement de session (`gateway 403` confirmé) — à vérifier par Sidy en
-conditions réelles (iPad/Safari, connexion internet).
+### Seconde passe (feu vert de Sidy, même session) : Homme Universel + anneau zodiacal
+
+4. **Nœud Homme Universel ajouté** — sphère positionnée près du filament
+   (offset symétrique aux Aqtâb), reliée par une ligne d'équivalence établie
+   au point traversant du filament, info-bulle citant
+   [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]].
+   Donnée déclarée en amont dans `instrument-donnees.yaml` v0.3.4 (§ P1.1) et
+   manifeste régénéré (44 nœuds, 10 ancrages, 0 erreur/avertissement).
+5. **Anneau zodiacal ajouté** — deux groupes distincts, chacun incliné de
+   23,44° (obliquité de l'écliptique) : au degré 19 (Falak al-Burūj), les 12
+   signes en séparateurs radiaux pleine largeur + étiquette ; au degré 20
+   (Falak al-Manāzil), 28 graduations discrètes sans étiquette permanente
+   (spec §3.4 — non-commensurabilité 12/28 respectée, aucun alignement forcé,
+   Art. 3 sashimono). Rayons 2,60–2,95 (2,60–2,74 pour les graduations), sous
+   les jetons `--argent` de la palette existante, conformément à
+   `spec-anneau-zodiacal.md` §3.5. Signes sourcés de la « TABLE COMPLÈTE À
+   QUATRE COLONNES » de `doctrinal/symboles/table-28-degres-nafas-rahman.md`
+   (colonne « Signe Zodiaque », Gloton pp. 45-48) — noms français uniquement,
+   la table source ne donnant pas de nomenclature arabe des signes (non
+   inventée). **Correction au passage** : le module inséré au §6 de la spec
+   plaçait les deux divisions (signes ET manāzil) sur un seul groupe, au seul
+   degré `degre_falak_al_buruj` — lecture devenue obsolète depuis l'arbitrage
+   du dédoublement (§3.1, verdict Sidy 2026-07-27, postérieur à l'écriture du
+   code de la spec) ; implémenté ici avec deux groupes à deux degrés distincts,
+   fidèle à l'arbitrage le plus récent plutôt qu'à l'exemple de code.
+6. **Lacune signalée, non corrigée dans cette passe** : `generer-manifeste.py`
+   ne propage pas la section `zodiaque:` d'`instrument-donnees.yaml` dans
+   `wiki-manifest.json` (seuls `noeuds`/`ancrages` le sont) — lacune
+   préexistante, non introduite ici. Le prototype continue donc de
+   transcrire les données zodiacales directement depuis le YAML (même
+   convention que pour les Aqtâb avant régénération), pas depuis une lecture
+   dynamique du manifeste. Extension du générateur laissée en piste (non
+   priorisée ici, hors demande de cette session).
+
+**Vérification effectuée (seconde passe)** : syntaxe JavaScript valide ;
+exécution testée hors navigateur — 44 objets interactifs (43+1 Homme
+Universel), 8 anneaux (`RingGeometry`) créés dont les 2 nouveaux du zodiaque,
+aucune erreur. **Rendu visuel non vérifié dans un navigateur réel** dans les
+deux passes : le prototype charge Three.js depuis un CDN externe
+(cdnjs/unpkg), bloqué par la politique réseau de cet environnement de
+session (`gateway 403` confirmé) — à vérifier par Sidy en conditions réelles
+(iPad/Safari, connexion internet).
 
 ---
 
 ## 6. Rappel de méthode
 
-Aucune des pistes de la section 3 n'engage une intégration YAML, un ancrage
-`hozo` nouveau, ou une modification supplémentaire du prototype sans
-validation explicite de Sidy (Cmd 6, Cmd 12, Cmd 13). La modification
-effectuée en §5 est une exception délibérée, sur consigne explicite et
-immédiate de Sidy en session, strictement limitée au rendu d'un ancrage déjà
-établi (aucun nouvel arbitrage) ; `instrument-donnees.yaml` et
-`wiki-manifest.json` n'ont pas été modifiés.
+Aucune des pistes restantes de la section 3 n'engage d'exécution
+supplémentaire sans validation explicite de Sidy (Cmd 6, Cmd 12, Cmd 13).
+Les deux passes du §5 sont des exceptions délibérées, sur consigne explicite
+et immédiate de Sidy en session (« tu as le feu vert » pour la seconde),
+strictement limitées à la traduction technique et au rendu d'ancrages déjà
+établis par discernement clos (Homme Universel) ou de matière déjà sourcée
+sans ancrage nouveau (anneau zodiacal) — aucun nouvel arbitrage doctrinal
+n'a été pris dans l'une ou l'autre passe. `instrument-donnees.yaml` (v0.3.4)
+et `wiki-manifest.json` ont été modifiés en seconde passe uniquement, tous
+deux consignés ici et dans les annales.

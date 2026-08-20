@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.1",
-  "generated_at": "2026-08-08T13:21:50+00:00",
-  "source_commit": "d3cfa557d0b595505f8e4b38cee515028abfffac",
+  "generated_at": "2026-08-20T15:41:11+00:00",
+  "source_commit": "14026568f34d1b3dbd60dbd2cfbad4b5e108f16b",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -466,6 +466,24 @@
           "directionnalite": "none",
           "cible": "tasawwuf/degre-27",
           "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": "universel/homme-universel",
+      "tradition": "universel",
+      "label": "Homme Universel — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara",
+      "source": "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]",
+      "degre_vertical": null,
+      "question_ouverte": "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]",
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "tasawwuf/al-insan-al-kamil",
+          "source": "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]",
           "note": ""
         }
       ]

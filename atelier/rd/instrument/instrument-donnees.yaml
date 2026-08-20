@@ -1,6 +1,19 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.3.3)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.3.4)
 #
+#   v0.3.4 (2026-08-20) : deuxième nœud universel déclaré — Homme Universel
+#     (Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara), discernement
+#     déjà clos le 2026-07-26, jamais porté en donnée jusqu'ici (traduction
+#     technique d'un verdict rendu, aucun nouvel arbitrage — Cmd 6). Voir
+#     doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara
+#     et rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md.
+#     Ajout également des 12 signes du zodiaque (`zodiaque.signes`), sourcés
+#     de la « TABLE COMPLÈTE À QUATRE COLONNES » (colonne « Signe Zodiaque »,
+#     doctrinal/symboles/table-28-degres-nafas-rahman.md, pp. 45-48 Gloton,
+#     validation Gem 2026-07-01) — comble le point ouvert §7.4 de
+#     rd/instrument/spec-anneau-zodiacal.md. Noms français uniquement (la
+#     table source ne donne pas de nomenclature arabe des signes — non
+#     inventée, cf. discipline des sources).
 #   v0.3.3 (2026-08-04) : PHASE 3 OUVERTE. Premier nœud/ancrage transversal
 #     (hors arbre-tradition) : sept Pôles/Aqtâb — hiérarchie initiatique
 #     universelle, non rattachée à une tradition-arbre distincte (Guénon fait
@@ -185,6 +198,13 @@ noeuds:
   - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
      id: universel/aqtab-lune, degre_vertical: 27, label: "Pôle de la Lune (Adam y siège)"}
 
+  # ============ Homme Universel (nœud universel, hors arbre-tradition) ============
+  # Identité à quatre voiles traditionnelles établie — verdict Sidy 2026-07-26
+  # (doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara, clos)
+  - {fiche: doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara, tradition: universel,
+     id: universel/homme-universel, degre_vertical: null,
+     label: "Homme Universel — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara"}
+
 ancrages:
   # --- ⭐ Convergence des 28 (établie, Gem 2026-07-01, Futūḥāt ch. 198) ---
   - noeud: tasawwuf/table-28-degres-nafas-rahman
@@ -225,8 +245,33 @@ ancrages:
   # Ils ne constituent pas des ancrages au sens du manifeste (Cmd 13 — porte humaine).
   # Rapport Aqtâb↔Prophètes porte par le verdict discernement, non par le YAML du rendu Instrument.
 
+  # --- ⭐ Homme Universel (établi, hozo, verdict Sidy 2026-07-26) ---
+  # Cible : tasawwuf/al-insan-al-kamil (nœud notionnel traversant, rendu filament
+  # validé le 2026-07-01). L'identité étend ce filament aux voiles kabbalistique,
+  # taoïste et védantique — le filament rendu ne change pas, ce qu'il désigne s'élargit.
+  - {noeud: universel/homme-universel, type: equivalence, etat: etabli, directionnalite: none,
+     cible: tasawwuf/al-insan-al-kamil, source: "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"}
+
 zodiaque:
   degre_falak_al_buruj: 19       # 12 signes (Toit du Jardin paradisiaque)
   degre_falak_al_manazil: 20     # 28 Demeures lunaires (Terre des Jardins)
   obliquite_deg: 23.44            # inclinaison de l'écliptique (variable à l'échelle des cycles)
   epoque_reference: null          # à paramétrer en Phase 5 (époque de calcul astrologique)
+  # 12 signes, ordre et noms sourcés depuis doctrinal/symboles/table-28-degres-nafas-rahman.md
+  # (« TABLE COMPLÈTE À QUATRE COLONNES », colonne « Signe Zodiaque », Gloton pp. 45-48,
+  # validation Gem 2026-07-01). Dates du zodiaque tropical telles que portées par la source.
+  # Pas de nomenclature arabe : absente de cette table, non ajoutée de mémoire (§VII, discipline
+  # des sources) — spec-anneau-zodiacal.md §7.4.
+  signes:
+    - {label: "Bélier", dates: "21/3-20/4"}
+    - {label: "Taureau", dates: "21/4-20/5"}
+    - {label: "Gémeaux", dates: "21/5-20/6"}
+    - {label: "Cancer", dates: "21/6-20/7"}
+    - {label: "Lion", dates: "21/7-20/8"}
+    - {label: "Vierge", dates: "21/8-20/9"}
+    - {label: "Balance", dates: "21/9-20/10"}
+    - {label: "Scorpion", dates: "21/10-20/11"}
+    - {label: "Sagittaire", dates: "21/11-20/12"}
+    - {label: "Capricorne", dates: "21/12-20/1"}
+    - {label: "Verseau", dates: "21/1-20/2"}
+    - {label: "Poissons", dates: "21/2-20/3"}
