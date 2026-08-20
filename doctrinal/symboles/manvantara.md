@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, manvantara, yuga, kali-yuga, satya-yuga, cycles-cosmiques, eschatologie, hindouisme]
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-08-20
 sources: ["[[fin-des-temps-modernes-manvantara-mahdi-rouge]]"]
 sources_count: 1
 cross_links: ["[[rene-guenon]]", "[[sanatana-dharma]]", "[[atlantide]]"]
@@ -41,7 +41,7 @@ Dans cette représentation, l'apparition du monde moderne ne peut être figurée
 
 ## Pertinence pour l'Instrument
 
-Cette fiche fournit une base doctrinale directement exploitable pour la **Phase 5 (couche astrologique)** de `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md` — calcul cosmique des cycles et des Yuga, à distinguer du calcul du thème individuel. Lien à sens unique uniquement (doctrinal → projet), jamais l'inverse.
+Cette fiche fournit une base doctrinale directement exploitable pour la **Phase 5 (couche astrologique)** de `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md` — calcul cosmique des cycles et des Yuga, à distinguer du calcul du thème individuel. Lien à sens unique uniquement (projet → doctrinal), jamais l'inverse.
 
 ## Lectures suggérées (bibliothèque physique)
 

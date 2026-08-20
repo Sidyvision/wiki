@@ -1,13 +1,42 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-16
+updated: 2026-08-20
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-20] réparation | Sceau Recteur — 3 fiches du lot kabbale + sens de lien manvantara.md
+
+- **Contexte** : rapport conjoint Studio–Gardien déposé en `_inbox/`
+  (`rapport-conjoint-studio-gardien-etude-depot-20260820.md`), points 1, 13, 16.
+- Complété le Sceau Recteur (`status`/`created`/`updated`/`tradition_cadre`/`sources`)
+  des 3 fiches du lot kabbale bloquant le manifeste de cartographie, par
+  alignement sur les fiches sœurs déjà conformes du même lot (même jour) :
+  - `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen.md`
+    — `status: speculatif`, `tradition_cadre: "universel"` (convention des fiches
+    `discernement` sœurs) ; `cross_links` scindé en `sources` (fiches `type: source`)
+    et `cross_links` (fiches `discernement`).
+  - `doctrinal/sources/sefer-yetsira-ramban_source.md` — `status: traditionnel`,
+    `tradition_cadre: "kabbale"` ; `type: transcription-brute` (hors énumération du
+    Sceau) corrigé en `type: source`.
+  - `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source.md` —
+    `type: source`, `status: traditionnel`, `tradition_cadre: "kabbale"` ajoutés.
+- **Aucune qualification de fond posée** : le `status: speculatif` de la fiche de
+  dépôt reste transitoire ; la qualification matérielle du Traité reste réservée à
+  Sidy (Cmd 12), comme la fiche elle-même le rappelle.
+- Corrigé le sens de lien inversé dans `doctrinal/symboles/manvantara.md`
+  (« doctrinal → projet » → « projet → doctrinal », Cmd 2) ; `updated:` remonté.
+- `updated:` du présent fichier remonté au 2026-08-20 (Cmd 8).
+- **Vérification mécanique** : `verifier-invariants.py --racine /root/wiki` :
+  18 erreur(s) → 0 ; `Graphe/generer-cartographie.py --verifier` : 4 anomalies
+  bloquantes (frontmatter) → 0.
+- **Hors périmètre de cette passe** (décision réservée à Sidy) : zone grise du
+  sens de lien `rd/` dans `doctrinal/index.md` (point 17 du rapport).
+- **Commit** : `dafc266`
 
 ## [2026-08-20] archivage | Traité de l'Émanation Gauche (Isaac ben Jacob ha-Kohen)
 

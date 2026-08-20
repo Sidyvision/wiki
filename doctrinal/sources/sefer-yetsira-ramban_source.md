@@ -1,11 +1,18 @@
 ---
 title: "Sefer Yetsira — Livre de la Création (avec commentaire du Ramban)"
-type: transcription-brute
+type: source
+status: traditionnel
+tradition_cadre: "kabbale"
 source_pdf: "raw/sefer_yetsira_-_Ramban.pdf"
 auteur_commentaire: "Ramban (Rabbi Moshe ben Nahman, 1194-1270)"
 traduction: "française, par Gilen"
 pages: 20
+tags: [kabbale, sefer-yetsira, ramban, transcription-brute]
 created: 2026-08-20
+updated: 2026-08-20
+sources: []
+sources_count: 0
+cross_links: []
 ---
 
 # Sefer Yetsira — Livre de la Création

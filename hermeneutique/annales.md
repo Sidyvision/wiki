@@ -2,7 +2,7 @@
 title: Annales du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-16
+updated: 2026-08-20
 ---
 
 # Annales du circuit Herméneutique
@@ -10,6 +10,30 @@ updated: 2026-08-16
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only,
 entrées insérées **après ce header**.
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-20] réparation | Rétablissement de la convention d'insertion (A2)
+
+- **Contexte** : rapport conjoint Studio–Gardien déposé en `_inbox/`
+  (`rapport-conjoint-studio-gardien-etude-depot-20260820.md`), point 4.
+- L'entrée « [2026-08-20] expression | Barzakh onirique et interface littéraire »
+  avait été insérée en **queue** de fichier au lieu de l'**en-tête**, en rupture
+  de la convention chronologique inverse (`<!-- INSERTION: EN-TÊTE -->`).
+  Remontée à sa place, immédiatement après ce header.
+- `updated:` remonté au 2026-08-20 (Cmd 8).
+- **Commit** : `dafc266`
+
+---
+
+## [2026-08-20] expression | Barzakh onirique et interface littéraire
+
+- **Circuit ouvert** : exploration conceptuelle en registre `expression` (portance: zōsaku)
+- **Fiche** : [[hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire]]
+- **Source** : [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]]
+- **Idée explorée** : l'ʿālam al-mithāl comme espace d'interface entre rêve et politique, entre intention et manifestation — lieu de naissance de la science fiction.
+- **Vigilance** : ne clôt aucun discernement ; ne prétend pas que l'usage esthétique du barzakh coïncide avec le barzakh métaphysique (Ibn ʿArabī). Distinction maintenue.
+- **Statut** : brouillon — attend verdict explicite (Cmd 12) si migration vers discernement.
 
 ---
 
@@ -272,12 +296,3 @@ entrées insérées **après ce header**.
 - Circuit ouvert sur validation de Sidy, architecture seule — aucune œuvre ni fiche d'expression déposée à ce stade.
 - Détail de l'amendement protocolaire : voir `doctrinal/annales.md` [2026-08-04].
 - Prochaines étapes attendues : ingest Death Stranding, Evangelion ; reprise en registre `expression` d'idées issues des fiches `doctrinal/discernement/` existantes (chaque fiche pointant vers son discernement d'origine, sans le clore).
-
-## [2026-08-20] expression | Barzakh onirique et interface littéraire
-
-- **Circuit ouvert** : exploration conceptuelle en registre `expression` (portance: zōsaku)
-- **Fiche** : [[hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire]]
-- **Source** : [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]]
-- **Idée explorée** : l'ʿālam al-mithāl comme espace d'interface entre rêve et politique, entre intention et manifestation — lieu de naissance de la science fiction.
-- **Vigilance** : ne clôt aucun discernement ; ne prétend pas que l'usage esthétique du barzakh coïncide avec le barzakh métaphysique (Ibn ʿArabī). Distinction maintenue.
-- **Statut** : brouillon — attend verdict explicite (Cmd 12) si migration vers discernement.

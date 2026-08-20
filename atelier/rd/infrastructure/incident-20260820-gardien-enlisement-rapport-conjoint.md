@@ -2,6 +2,8 @@
 title: "Incident R&D — Enlisement Gardien (rapport conjoint 2026-08-20)"
 type: fiche-rd
 date: 2026-08-20
+created: 2026-08-20
+updated: 2026-08-20
 circuit: rd/infrastructure
 statut: consignation
 ---
