@@ -10,6 +10,50 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] rd | Homme Universel déclaré (v0.3.4) + anneau zodiacal rendu (feu vert Sidy)
+
+- **Contexte** : suite directe de l'entrée précédente — Sidy a donné le feu
+  vert pour exécuter les deux items encore ouverts de la fiche de pistes
+  ([[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]])
+  et a demandé explicitement où en était l'anneau zodiacal.
+- **`instrument-donnees.yaml` v0.3.4** : nœud `universel/homme-universel`
+  déclaré (Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara), ancrage
+  `equivalence`/`etabli` vers `tasawwuf/al-insan-al-kamil`, source
+  [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]
+  (traduction technique d'un verdict déjà clos, aucun nouvel arbitrage —
+  Cmd 6). Section `zodiaque.signes` peuplée : 12 signes sourcés de la
+  « TABLE COMPLÈTE À QUATRE COLONNES » de
+  [[doctrinal/symboles/table-28-degres-nafas-rahman]] (colonne « Signe
+  Zodiaque », Gloton pp. 45-48) — noms français uniquement, pas de
+  nomenclature arabe dans la source, non inventée (discipline des sources,
+  CLAUDE.md racine §VII).
+- **`wiki-manifest.json` régénéré** (`generer-manifeste.py`, déterministe) :
+  44 nœuds, 10 ancrages, 0 erreur/avertissement.
+- **`instrument-prototype.html`** : nœud Homme Universel rendu (satellite
+  du filament, équivalence établie visuellement) ; anneau zodiacal rendu en
+  deux groupes distincts — 12 signes au degré 19 (Falak al-Burūj), 28
+  manāzil au degré 20 (Falak al-Manāzil), obliquité 23,44°, conformément à
+  [[atelier/rd/instrument/spec-anneau-zodiacal]] §3.1 (dédoublement confirmé,
+  verdict Sidy 2026-07-27). Correction au passage : le module de code inséré
+  §6 de la spec plaçait les deux divisions sur un seul degré — lecture
+  devenue obsolète depuis l'arbitrage du dédoublement, postérieur à
+  l'écriture du code ; implémenté fidèlement à l'arbitrage le plus récent,
+  pas à l'exemple de code.
+- **Vérifié** : syntaxe JS valide, exécution du bloc de rendu testée hors
+  navigateur (mocks Three.js, sans WebGL) — 44 objets interactifs, 8 anneaux
+  dont les 2 nouveaux, 0 erreur. Rendu visuel non vérifié en navigateur réel
+  (CDN Three.js bloqué par la politique réseau de la session) — à confirmer
+  par Sidy.
+- **Lacune signalée, non corrigée** : `generer-manifeste.py` ne propage pas
+  la section `zodiaque:` dans le manifeste (seuls `noeuds`/`ancrages` le
+  sont) — préexistante, non introduite ici.
+- **Fiche mise à jour** :
+  [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]
+  (§1, §3 P1/P3 marquées faites, §5 seconde passe, §6) ; `atelier/index.md`.
+- **Commit** : `08b2b3c`
+
+---
+
 ## [2026-08-20] rd | Prototype de l'Instrument mis à jour (Aqtâb, filament) + correction de traçabilité Phase 3
 
 - **Contexte** : retour de Sidy sur la fiche de pistes de développement du
