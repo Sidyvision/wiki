@@ -182,6 +182,34 @@ a causé cette calamité via la Femme du Nord.
 | Mondes détruits avant Création | Cycle cosmique (kalpa) ? | À explorer, non qualifié |
 | Métatron visionnaire | Er-Rûh (fonction polaire) | Identité déjà posée dans le dépôt |
 
+## Questions ouvertes — réponses de Sidy (2026-08-20)
+
+Réponses partielles aux questions posées dans la fiche de discernement
+([[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]]).
+
+1. **Structure miroir = contre-initiation ?** Guénon expose que la contre-initiation
+   « imite » les 7 Aqtab de l'initiation authentique/spirituelle — c'est ce dont
+   il semble s'agir ici. Les 10 Sephiroth de l'Émanation Gauche seraient donc
+   l'équivalent structurel d'une contre-initiation à l'échelle séphirotique.
+
+2. **Formules sacrées — lecture algébrique.** Deux formules coraniques évoquées :
+   - انا لله وانا اليه راجعون (*Innā lillāhi wa-innā ilayhi rājiʿūn*)
+   - لا حول ولا قوة الا بالله (*Lā ḥawla wa-lā quwwata illā bi-llāh*)
+
+   À lire d'une façon **algébrique** — non comme des invocations circonstancielles
+   mais comme des opérateurs structurels.
+
+3. **Correspondance immédiate — Kundalinī Yoga.** C'est la correspondance immédiate
+   qu'on est tenté de dresser. À mettre en regard du chapitre « Kundalini Yoga »
+   des *Études sur l'Hindouisme* de Guénon (présent dans `raw/`).
+
+4. **Intuition de fermeture/étanchéité.** Convergence avec ce que Guénon dit
+   concernant la **fermeture des états spirituels à la contre-initiation**
+   (étanchéité). L'Émanation Gauche serait un système clos, inaccessible à la
+   contre-initiation — non pas un versant « négociable » mais un ordre séparé.
+
+5. **À voir** (point laissé en suspens).
+
 ## ⚠️ État de qualification
 
 - **Statut** : texte primaire de 2nd main (traduction en ligne, pas édition
