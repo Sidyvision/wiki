@@ -3,7 +3,7 @@ title: "Spécification — Générateur de manifeste (wiki → wiki-manifest.jso
 type: projet
 tags: [instrument, manifeste, generateur, phase-1, spec]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-08-20
 sources: []
 links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]"]
 ---
@@ -92,6 +92,39 @@ Le script refuse de produire un manifeste (code retour ≠ 0) si :
 
 Avertissements non bloquants : `directionnalite` renseignée sur un ancrage non
 `complementarite` ; fiche source d'ancrage introuvable dans le dépôt.
+
+## 5 bis. Bloc `zodiaque:` (schéma v0.2.2, ajouté 2026-08-20)
+
+Le bloc `zodiaque:` d'`instrument-donnees.yaml` (degrés du *falak al-burūj*/
+*al-manāzil*, obliquité, `epoque_reference`, 12 `signes`) est propagé tel
+quel dans le manifeste, sous la clé `zodiaque`, absente si le bloc l'est côté
+données. Validations dédiées (fonction `valider_zodiaque`) :
+
+- **Bloquantes** (malformation structurelle) : `zodiaque` non-mapping ;
+  `degre_falak_al_buruj`/`degre_falak_al_manazil` non entiers (si présents) ;
+  `obliquite_deg` non numérique (si présent) ; `signes` non-liste (si
+  présent) ; une entrée de `signes` sans `label` non vide.
+- **Non bloquantes** (dérive possible, pas une malformation) : un degré
+  `falak_al_*` déclaré qui ne correspond à aucun `degre_vertical` de nœud
+  déclaré ; `signes` ne comptant pas exactement 12 entrées.
+
+Motif de l'ouverture : le bloc existait en donnée depuis le 2026-07-26/27
+(`spec-anneau-zodiacal.md`) mais n'était jamais émis — le prototype le
+transcrivait à la main sans passer par le manifeste, en contradiction avec
+la règle commune des manifestes (CLAUDE.md racine §VII : flux à sens unique
+dépôt → manifeste → interface). Fermé sur demande explicite de Sidy,
+2026-08-20 — voir
+[[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]].
+
+**Note** — la propagation dans le manifeste ne rend pas le prototype
+« vivant » vis-à-vis du fichier : conformément à l'hébergement statique
+(§1), `instrument-prototype.html` n'effectue aucune lecture réseau de
+`wiki-manifest.json` à l'exécution ; ses données restent des littéraux JS
+transcrits à la main depuis le manifeste à chaque mise à jour (même
+convention que les nœuds Aqtâb/Homme Universel). L'intérêt de la
+propagation est de fermer le flux déclaratif (le manifeste devient la
+source de vérité complète et vérifiable mécaniquement), pas d'introduire un
+chargement dynamique — non demandé, hors périmètre de cette ouverture.
 
 ## 6. Ce que le script ne fait pas
 

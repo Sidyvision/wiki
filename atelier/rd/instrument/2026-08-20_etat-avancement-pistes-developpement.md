@@ -153,14 +153,19 @@ conforme (43 = 28 degrés + 7 Aqtâb + 6 notionnels + 1 filament + 1 Barzakh).
    du dédoublement (§3.1, verdict Sidy 2026-07-27, postérieur à l'écriture du
    code de la spec) ; implémenté ici avec deux groupes à deux degrés distincts,
    fidèle à l'arbitrage le plus récent plutôt qu'à l'exemple de code.
-6. **Lacune signalée, non corrigée dans cette passe** : `generer-manifeste.py`
-   ne propage pas la section `zodiaque:` d'`instrument-donnees.yaml` dans
-   `wiki-manifest.json` (seuls `noeuds`/`ancrages` le sont) — lacune
-   préexistante, non introduite ici. Le prototype continue donc de
-   transcrire les données zodiacales directement depuis le YAML (même
-   convention que pour les Aqtâb avant régénération), pas depuis une lecture
-   dynamique du manifeste. Extension du générateur laissée en piste (non
-   priorisée ici, hors demande de cette session).
+6. ~~Lacune signalée~~ — **fermée le 2026-08-20 (troisième passe, sur
+   demande explicite de Sidy)** : `generer-manifeste.py` propage désormais
+   le bloc `zodiaque:` dans `wiki-manifest.json` (clé `zodiaque`, schéma
+   manifeste v0.2.2), avec validations dédiées — bloquantes sur malformation
+   structurelle (types, `label` de signe manquant), non bloquantes sur
+   dérive plausible (degré sans nœud correspondant, nombre de signes ≠ 12).
+   Documenté dans `spec-generateur-manifeste.md` §5 bis. Le prototype garde
+   sa transcription manuelle (hébergement statique, aucun fetch réseau à
+   l'exécution — inchangé), mais le manifeste est désormais la source
+   complète et vérifiable mécaniquement ; un commentaire dans le prototype
+   pointe vers cette convention. Testé : garde-fou vérifié en injectant un
+   signe sans `label` (bloque, code retour 1) ; génération réelle sans
+   erreur ni avertissement (44 nœuds, 10 ancrages, zodiaque inclus).
 
 **Vérification effectuée (seconde passe)** : syntaxe JavaScript valide ;
 exécution testée hors navigateur — 44 objets interactifs (43+1 Homme

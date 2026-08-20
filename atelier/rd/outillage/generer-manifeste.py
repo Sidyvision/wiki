@@ -31,9 +31,17 @@ try:
 except ImportError:
     sys.exit("ERREUR : PyYAML manquant. Installer avec : apt install python3-yaml")
 
-# --- Constantes du schéma v0.2.1 --------------------------------------------
+# --- Constantes du schéma v0.2.2 --------------------------------------------
+#
+#   v0.2.2 (2026-08-20) : le bloc `zodiaque:` d'instrument-donnees.yaml (degrés
+#     du falak al-burūj/al-manāzil, obliquité, époque de référence, signes) est
+#     désormais propagé dans le manifeste (clé "zodiaque"), avec validations
+#     mécaniques dédiées (§ci-dessous). Auparavant déclaré en YAML mais jamais
+#     émis : le prototype le transcrivait à la main sans passer par le
+#     manifeste — écart signalé dans rd/instrument/2026-08-20_etat-avancement-
+#     pistes-developpement.md §5, fermé ici sur demande de Sidy.
 
-SCHEMA_VERSION = "0.2.1"
+SCHEMA_VERSION = "0.2.2"
 TYPES_ANCRAGE = {"equivalence", "complementarite", "subversion", "parodie"}
 ETATS_ANCRAGE = {"etabli", "suggere", "identifie"}
 DIRECTIONNALITES = {"none", "ascendant", "descendant"}
@@ -113,6 +121,51 @@ def discernements_en_cours(repo: Path) -> list:
     return resultats
 
 
+def valider_zodiaque(zodiaque: dict, decl_noeuds: list, erreurs: list, avertissements: list):
+    """Valide le bloc `zodiaque:` (peut être absent) et retourne la valeur à
+    inscrire dans le manifeste, ou None si absente/invalide au point de ne
+    rien produire. Erreurs bloquantes limitées aux malformations structurelles
+    (types) ; le reste (12 signes attendus, degrés cohérents avec un nœud
+    déclaré) reste un avertissement — ce ne sont pas des invariants du schéma,
+    seulement des indices de dérive possible."""
+    if not zodiaque:
+        return None
+    if not isinstance(zodiaque, dict):
+        erreurs.append("zodiaque : doit être un mapping (dict)")
+        return None
+
+    degres_declares = {d.get("degre_vertical") for d in decl_noeuds
+                        if d.get("degre_vertical") is not None}
+
+    for cle in ("degre_falak_al_buruj", "degre_falak_al_manazil"):
+        v = zodiaque.get(cle)
+        if v is not None and not isinstance(v, int):
+            erreurs.append(f"zodiaque.{cle} : doit être un entier ou null (reçu {v!r})")
+        elif isinstance(v, int) and v not in degres_declares:
+            avertissements.append(
+                f"zodiaque.{cle} = {v} : aucun nœud déclaré ne porte ce degre_vertical"
+            )
+
+    obliquite = zodiaque.get("obliquite_deg")
+    if obliquite is not None and not isinstance(obliquite, (int, float)):
+        erreurs.append(f"zodiaque.obliquite_deg : doit être numérique (reçu {obliquite!r})")
+
+    signes = zodiaque.get("signes")
+    if signes is not None:
+        if not isinstance(signes, list):
+            erreurs.append("zodiaque.signes : doit être une liste")
+        else:
+            if len(signes) != 12:
+                avertissements.append(
+                    f"zodiaque.signes : {len(signes)} entrée(s) déclarée(s), 12 attendues"
+                )
+            for i, s in enumerate(signes):
+                if not isinstance(s, dict) or not str(s.get("label", "")).strip():
+                    erreurs.append(f"zodiaque.signes[{i}] : doit porter un « label » non vide")
+
+    return zodiaque
+
+
 def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     erreurs, avertissements = [], []
 
@@ -122,6 +175,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     donnees = yaml.safe_load(chemin_donnees.read_text(encoding="utf-8")) or {}
     decl_noeuds = donnees.get("noeuds", []) or []
     decl_ancrages = donnees.get("ancrages", []) or []
+    decl_zodiaque = donnees.get("zodiaque") or {}
 
     # 2. Indexer la vérité doctrinale.
     fiches = indexer_fiches_doctrinales(repo)
@@ -215,7 +269,10 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
             "note": a.get("note", ""),
         })
 
-    # 5. Rapport et sortie.
+    # 5. Valider et intégrer le bloc zodiaque (indépendant des nœuds/ancrages).
+    zodiaque_valide = valider_zodiaque(decl_zodiaque, decl_noeuds, erreurs, avertissements)
+
+    # 6. Rapport et sortie.
     for w in avertissements:
         print(f"⚠ AVERTISSEMENT : {w}")
     if erreurs:
@@ -231,6 +288,8 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
         "source_commit": sha_git(repo),
         "nodes": noeuds,
     }
+    if zodiaque_valide is not None:
+        manifeste["zodiaque"] = zodiaque_valide
     chemin_sortie.parent.mkdir(parents=True, exist_ok=True)
     chemin_sortie.write_text(
         json.dumps(manifeste, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
@@ -238,6 +297,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     nb_ancrages = sum(len(n["ancrages"]) for n in noeuds)
     print(f"✓ Manifeste produit : {chemin_sortie}")
     print(f"  {len(noeuds)} nœud(s), {nb_ancrages} ancrage(s), "
+          f"zodiaque {'inclus' if zodiaque_valide is not None else 'absent'}, "
           f"{len(avertissements)} avertissement(s), commit {manifeste['source_commit'][:12]}")
     return 0
 
