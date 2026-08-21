@@ -3,7 +3,7 @@ title: "Spécification — Générateur de manifeste (wiki → wiki-manifest.jso
 type: projet
 tags: [instrument, manifeste, generateur, phase-1, spec]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-08-20
 sources: []
 links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]"]
 ---
@@ -92,6 +92,99 @@ Le script refuse de produire un manifeste (code retour ≠ 0) si :
 
 Avertissements non bloquants : `directionnalite` renseignée sur un ancrage non
 `complementarite` ; fiche source d'ancrage introuvable dans le dépôt.
+
+## 5 bis. Bloc `zodiaque:` (schéma v0.2.2, ajouté 2026-08-20)
+
+Le bloc `zodiaque:` d'`instrument-donnees.yaml` (degrés du *falak al-burūj*/
+*al-manāzil*, obliquité, `epoque_reference`, 12 `signes`) est propagé tel
+quel dans le manifeste, sous la clé `zodiaque`, absente si le bloc l'est côté
+données. Validations dédiées (fonction `valider_zodiaque`) :
+
+- **Bloquantes** (malformation structurelle) : `zodiaque` non-mapping ;
+  `degre_falak_al_buruj`/`degre_falak_al_manazil` non entiers (si présents) ;
+  `obliquite_deg` non numérique (si présent) ; `signes` non-liste (si
+  présent) ; une entrée de `signes` sans `label` non vide.
+- **Non bloquantes** (dérive possible, pas une malformation) : un degré
+  `falak_al_*` déclaré qui ne correspond à aucun `degre_vertical` de nœud
+  déclaré ; `signes` ne comptant pas exactement 12 entrées.
+
+Motif de l'ouverture : le bloc existait en donnée depuis le 2026-07-26/27
+(`spec-anneau-zodiacal.md`) mais n'était jamais émis — le prototype le
+transcrivait à la main sans passer par le manifeste, en contradiction avec
+la règle commune des manifestes (CLAUDE.md racine §VII : flux à sens unique
+dépôt → manifeste → interface). Fermé sur demande explicite de Sidy,
+2026-08-20 — voir
+[[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]].
+
+## 5 ter. Lecture dynamique par le prototype (2026-08-20, verdict Sidy)
+
+Depuis le 2026-08-20, `instrument-prototype.html` **lit réellement**
+`wiki-manifest.json` à l'ouverture (`fetch` sur chemin relatif, avant le
+chargement de Three.js) et en dérive l'intégralité de ses données
+doctrinales : nœuds-degrés, nœuds notionnels de l'anneau, ancrages rendus,
+Aqtâb, Homme Universel, filament, Barzakh, bloc zodiacal. Plus aucune donnée
+doctrinale n'a besoin d'être retapée dans le prototype à chaque
+régénération — le flux `dépôt → manifeste → interface` est effectif de bout
+en bout, et non plus seulement déclaratif.
+
+Trois garde-fous, dans l'esprit de l'Art. 5 sashimono (l'assemblage reste
+démontable) :
+
+1. **Repli intégral** — un instantané des mêmes données subsiste en
+   littéraux JS. Si le manifeste est inaccessible (ouverture en `file://`
+   hors serveur, fichier absent, `fetch` indisponible), la scène s'affiche
+   quand même, à l'identique. Aucune régression d'usage sur iPad.
+2. **Provenance affichée** — le panneau de titre indique en clair la source
+   effective : version de schéma, SHA court du dépôt et nombre de nœuds
+   quand le manifeste est lu ; mention explicite « données de repli » sinon.
+   L'utilisateur sait toujours s'il regarde l'état du dépôt ou l'instantané.
+3. **Délai de garde** — une lecture qui n'aboutit pas (4 s) bascule
+   automatiquement sur le repli ; le rendu n'est jamais bloqué par le
+   réseau.
+
+Sens de lecture inchangé (Cmd 12, règle des manifestes) : l'interface **lit
+et ne réécrit jamais** le manifeste ni le dépôt.
+
+**Limite assumée** : les regroupements de présentation (bandes des
+Présences — Lāhūt, Jabarūt, Barzakh supérieur, Malakūt planétaire, Nāsūt) et
+toute la géométrie restent en dur dans le prototype. Ce sont des choix de
+rendu, non de la donnée doctrinale, et le schéma du manifeste ne les porte
+pas. Les étiquettes 3D abrègent mécaniquement les titres doctrinaux longs
+(fonction `abreger`, coupe au premier séparateur naturel) ; l'info-bulle
+affiche toujours le libellé intégral du manifeste, jamais une reformulation.
+
+## 5 quater. Bloc `registres:` (schéma v0.2.3, ajouté 2026-08-20)
+
+Un **registre** est la partition de l'unique axe vertical propre à une
+tradition (données `instrument-donnees.yaml` v0.4.0). Les registres coexistent
+sur le même axe **sans être alignés entre eux** — même discipline que les 12
+signes et les 28 manāzil de l'anneau zodiacal (Art. 3 sashimono).
+
+Deux formes de domaine, **exclusives** :
+- `degres: [debut, fin]` — la tradition situe le domaine sur l'échelle des 38
+  degrés (cas des Ḥaḍarāt akbariennes) ;
+- `rang: n` (+ `colonne:`) — la tradition donne un ordre le long de l'axe sans
+  échelle de degrés (cas des Sephiroth).
+
+**Validations bloquantes** : `registres` non-liste ; `id` de registre ou de
+domaine manquant ou dupliqué ; `label` manquant ; `axe` hors
+{`principal`, `parallele`} ; `fiche` manquante ou introuvable au dépôt ;
+`domaines` vide ; domaine sans `degres` ni `rang` ; `degres` mal formé ou aux
+bornes inversées ; `rang` non entier ≥ 1 ; **et surtout** un domaine portant à
+la fois `degres` et `rang`.
+
+Ce dernier refus est le cœur du dispositif : porter les deux reviendrait à
+déclarer en donnée une **correspondance point à point** qu'aucune tradition ne
+donne — précisément ce que le Cmd 3 réserve à une fiche `discernement`
+tranchée. La règle cesse d'être seulement écrite dans le protocole : elle est
+**appliquée mécaniquement par l'outil**.
+
+**Avertissement non bloquant** : un registre mêlant les deux formes de domaine
+(légitime en principe, assez inhabituel pour mériter un signalement).
+
+Corollaire de méthode : **déclarer un registre ne pose aucun joint** — c'est
+documenter une tradition dans son expression propre. Les ancrages
+inter-registres restent hors de ce bloc et sous verdict (Cmd 3, Cmd 12).
 
 ## 6. Ce que le script ne fait pas
 

@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2.1",
-  "generated_at": "2026-08-08T13:21:50+00:00",
-  "source_commit": "d3cfa557d0b595505f8e4b38cee515028abfffac",
+  "schema_version": "0.2.4",
+  "generated_at": "2026-08-21T13:51:53+00:00",
+  "source_commit": "5a01d0096394795fcdc9175aec13dce32de70bde",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -467,6 +467,338 @@
           "cible": "tasawwuf/degre-27",
           "source": "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]",
           "note": ""
+        }
+      ]
+    },
+    {
+      "id": "universel/homme-universel",
+      "tradition": "universel",
+      "label": "Homme Universel — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara",
+      "source": "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]",
+      "degre_vertical": null,
+      "question_ouverte": "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]",
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "tasawwuf/al-insan-al-kamil",
+          "source": "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]",
+          "note": ""
+        },
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "vedanta/vaishvanara",
+          "source": "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]",
+          "note": ""
+        }
+      ]
+    }
+  ],
+  "zodiaque": {
+    "degre_falak_al_buruj": 19,
+    "degre_falak_al_manazil": 20,
+    "obliquite_deg": 23.44,
+    "epoque_reference": null,
+    "signes": [
+      {
+        "label": "Bélier",
+        "dates": "21/3-20/4"
+      },
+      {
+        "label": "Taureau",
+        "dates": "21/4-20/5"
+      },
+      {
+        "label": "Gémeaux",
+        "dates": "21/5-20/6"
+      },
+      {
+        "label": "Cancer",
+        "dates": "21/6-20/7"
+      },
+      {
+        "label": "Lion",
+        "dates": "21/7-20/8"
+      },
+      {
+        "label": "Vierge",
+        "dates": "21/8-20/9"
+      },
+      {
+        "label": "Balance",
+        "dates": "21/9-20/10"
+      },
+      {
+        "label": "Scorpion",
+        "dates": "21/10-20/11"
+      },
+      {
+        "label": "Sagittaire",
+        "dates": "21/11-20/12"
+      },
+      {
+        "label": "Capricorne",
+        "dates": "21/12-20/1"
+      },
+      {
+        "label": "Verseau",
+        "dates": "21/1-20/2"
+      },
+      {
+        "label": "Poissons",
+        "dates": "21/2-20/3"
+      }
+    ]
+  },
+  "registres": [
+    {
+      "id": "tasawwuf",
+      "label": "Tasawwuf akbarien — les Ḥaḍarāt",
+      "fiche": "doctrinal/symboles/hadarat-khams",
+      "axe": "principal",
+      "domaines": [
+        {
+          "id": "tasawwuf/lahut",
+          "label": "Lāhūt",
+          "degres": [
+            11,
+            14
+          ],
+          "ancrages": []
+        },
+        {
+          "id": "tasawwuf/jabarut",
+          "label": "Jabarūt",
+          "degres": [
+            15,
+            18
+          ],
+          "ancrages": []
+        },
+        {
+          "id": "tasawwuf/barzakh-superieur",
+          "label": "Barzakh supérieur",
+          "degres": [
+            19,
+            20
+          ],
+          "ancrages": []
+        },
+        {
+          "id": "tasawwuf/malakut-planetaire",
+          "label": "Malakūt planétaire",
+          "degres": [
+            21,
+            27
+          ],
+          "ancrages": []
+        },
+        {
+          "id": "tasawwuf/nasut",
+          "label": "Nāsūt",
+          "degres": [
+            28,
+            38
+          ],
+          "ancrages": []
+        }
+      ]
+    },
+    {
+      "id": "qabbalah",
+      "label": "Qabbalah — l'Arbre séphirothique",
+      "fiche": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "axe": "parallele",
+      "colonnes": {
+        "milieu": "Colonne du milieu (Équilibre)",
+        "droite": "Colonne de droite (Miséricorde)",
+        "gauche": "Colonne de gauche (Rigueur)"
+      },
+      "domaines": [
+        {
+          "id": "qabbalah/kether",
+          "label": "Kether — la Couronne",
+          "rang": 1,
+          "colonne": "milieu",
+          "nom_divin": "Aïn-Soph (son vêtement)",
+          "ancrages": []
+        },
+        {
+          "id": "qabbalah/hokhma",
+          "label": "Hokhma — la Sagesse",
+          "rang": 2,
+          "colonne": "droite",
+          "nom_divin": "Yah",
+          "ancrages": []
+        },
+        {
+          "id": "qabbalah/bina",
+          "label": "Bina — la Compréhension",
+          "rang": 3,
+          "colonne": "gauche",
+          "nom_divin": "YHWH Elohim",
+          "ancrages": []
+        },
+        {
+          "id": "qabbalah/hesed",
+          "label": "Hesed — la Miséricorde",
+          "rang": 4,
+          "colonne": "droite",
+          "nom_divin": "El",
+          "ancrages": []
+        },
+        {
+          "id": "qabbalah/gevurah",
+          "label": "Gevurah — la Force / Jugement",
+          "rang": 5,
+          "colonne": "gauche",
+          "nom_divin": "Elohim",
+          "ancrages": []
+        },
+        {
+          "id": "qabbalah/tiferet",
+          "label": "Tiferet — la Beauté",
+          "rang": 6,
+          "colonne": "milieu",
+          "nom_divin": "YHWH",
+          "ancrages": []
+        },
+        {
+          "id": "qabbalah/netzach",
+          "label": "Netzach — la Victoire",
+          "rang": 7,
+          "colonne": "droite",
+          "nom_divin": "YHWH Tsevaot",
+          "ancrages": []
+        },
+        {
+          "id": "qabbalah/hod",
+          "label": "Hod — la Majesté",
+          "rang": 8,
+          "colonne": "gauche",
+          "nom_divin": "Elohe Tsevaot",
+          "ancrages": []
+        },
+        {
+          "id": "qabbalah/yesod",
+          "label": "Yesod — le Fondement",
+          "rang": 9,
+          "colonne": "milieu",
+          "nom_divin": "El Hai / El Shaddaï",
+          "ancrages": []
+        },
+        {
+          "id": "qabbalah/malkhut",
+          "label": "Malkhut — le Royaume",
+          "rang": 10,
+          "colonne": "milieu",
+          "nom_divin": "Adonaï",
+          "ancrages": []
+        }
+      ]
+    },
+    {
+      "id": "hindouisme-tantra",
+      "label": "Hindouisme (Tantra) — les chakras sur sushumnā",
+      "fiche": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "axe": "parallele",
+      "canaux": {
+        "sushumna": "canal central — porte les chakras eux-mêmes",
+        "ida": "canal gauche, féminin/négatif — correspond à la Lune",
+        "pingala": "canal droit, masculin/positif — correspond au Soleil"
+      },
+      "domaines": [
+        {
+          "id": "hindouisme/muladhara",
+          "label": "Mūlādhāra — centre-racine",
+          "rang": 1,
+          "colonne": "milieu",
+          "ancrages": []
+        },
+        {
+          "id": "hindouisme/swadhishthana",
+          "label": "Swādhishthāna",
+          "rang": 2,
+          "colonne": "milieu",
+          "ancrages": []
+        },
+        {
+          "id": "hindouisme/manipura",
+          "label": "Manipūra",
+          "rang": 3,
+          "colonne": "milieu",
+          "ancrages": []
+        },
+        {
+          "id": "hindouisme/anahata",
+          "label": "Anāhata — région du cœur",
+          "rang": 4,
+          "colonne": "milieu",
+          "ancrages": []
+        },
+        {
+          "id": "hindouisme/vishuddha",
+          "label": "Vishuddha — région de la gorge",
+          "rang": 5,
+          "colonne": "milieu",
+          "ancrages": []
+        },
+        {
+          "id": "hindouisme/ajna",
+          "label": "Ājnā — le troisième œil",
+          "rang": 6,
+          "colonne": "milieu",
+          "ancrages": []
+        },
+        {
+          "id": "hindouisme/sahasrara",
+          "label": "Sahasrāra — le lotus à mille pétales",
+          "rang": 7,
+          "colonne": "milieu",
+          "ancrages": []
+        }
+      ]
+    },
+    {
+      "id": "vedanta",
+      "label": "Vêdânta — les quatre états (pâdas) d'Âtmâ",
+      "fiche": "doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya",
+      "axe": "parallele",
+      "domaines": [
+        {
+          "id": "vedanta/vaishvanara",
+          "label": "Vaishwânara — l'état de veille (manifestation grossière)",
+          "rang": 1,
+          "colonne": "milieu",
+          "note": "Identifié à Virâj, l'Intelligence cosmique régissant le monde corporel ; identité posée par Guénon avec l'Homme Universel (ch. XIII).",
+          "ancrages": []
+        },
+        {
+          "id": "vedanta/taijasa",
+          "label": "Taijasa — l'état de rêve (manifestation subtile)",
+          "rang": 2,
+          "colonne": "milieu",
+          "note": "« Au cœur de la lumière » (ch. XIV, guenon-homme-devenir-vedanta-ch9-14.md).",
+          "ancrages": []
+        },
+        {
+          "id": "vedanta/prajna",
+          "label": "Prājña — le sommeil profond (état causal)",
+          "rang": 3,
+          "colonne": "milieu",
+          "note": "État informel et supra-individuel, non « psychique » (ch. XV) ; identifié à Mūla-Prakriti.",
+          "ancrages": []
+        },
+        {
+          "id": "vedanta/turiya",
+          "label": "Turīya — le Quatrième, état inconditionné",
+          "rang": 4,
+          "colonne": "milieu",
+          "note": "« Invisible, non-agissant, incompréhensible, indéfinissable » (ch. XVI) ; les trois premiers pâdas ne comptent que pour un quart en importance métaphysique, le Quatrième vaut les trois autres quarts — asymétrie posée par le texte lui-même, non par ce dépôt.",
+          "ancrages": []
         }
       ]
     }

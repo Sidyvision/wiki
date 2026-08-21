@@ -10,6 +10,337 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] rd | Registre vedanta — quatre états d'Âtmâ (v0.5.0)
+
+- **Contexte** : Sidy demande de mettre l'ensemble en regard avec *L'Homme et
+  son devenir selon le Vêdânta* pour compléter.
+- **Renommage** `hindouisme` → `hindouisme-tantra` : deux expositions
+  distinctes de Guénon (*Kundalinî-Yoga*/chakras vs États d'Âtmâ/*Vêdânta*) ne
+  doivent pas partager un même id (« une page = un sujet »).
+- **`instrument-donnees.yaml` v0.5.0** : quatrième registre `vedanta`, axe
+  parallèle, 4 domaines en rang — Vaishwânara (veille), Taijasa (rêve),
+  Prājña (sommeil profond), Turīya (le Quatrième) — colonne unique (états
+  d'un même être, pas de structure droite/gauche). Sources déjà au dépôt,
+  `traditionnel` :
+  [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]
+  et [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] (ch. XIV,
+  Taijasa). Turīya porte l'asymétrie posée par le texte lui-même (les trois
+  premiers pâdas ne comptent que pour un quart, le Quatrième vaut les trois
+  autres quarts), reprise telle quelle.
+- **Un ancrage déclaré, et un seul** : `universel/homme-universel` →
+  `vedanta/vaishvanara`, `etabli`, même source que l'ancrage existant vers
+  `tasawwuf/al-insan-al-kamil` (discernement clos 2026-07-26). **Ce n'est pas
+  une correspondance nouvelle** — Vaishwânara fait déjà partie de l'identité
+  Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara. Taijasa, Prājña,
+  Turīya et tous les domaines de qabbalah/hindouisme-tantra restent **sans
+  ancrage** : le verdict ne nomme que Vaishwânara.
+- **`generer-manifeste.py` v0.2.4** (commit séparé, préalable) : extension
+  mécanique — un ancrage peut désormais viser un domaine de registre, pas
+  seulement un nœud. Registres validés avant la boucle des ancrages, id de
+  domaines fusionnés dans le même espace que les nœuds ; collision d'id
+  bloquante (testée). Aucune donnée modifiée par cette seule extension (sortie
+  strictement identique avant toute nouvelle donnée).
+- **Prototype** : la sphère Vaishwânara reçoit une ligne d'équivalence établie
+  vers le nœud Homme Universel, **pilotée par la donnée**
+  (`HOMME_UNIVERSEL.cibles`, lu depuis le manifeste) — pas codée en dur.
+  Vérifié hors navigateur : 65 objets interactifs, cibles dérivées
+  correctement, ligne confirmée dans le graphe de scène.
+- **Manifeste régénéré** : 44 nœuds, 11 ancrages, 4 registres, 0
+  erreur/avertissement.
+- **Fiches** :
+  [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] §6
+  (renommé) et §7 (nouveau) ; `atelier/index.md`.
+- **Vigilance** : aucun ancrage inter-registre nouveau au-delà de la
+  traduction d'un verdict déjà clos (Cmd 3, Cmd 12).
+- **Commits** : `5a01d00` (extension du générateur), `679b904` (registre
+  vedanta).
+
+---
+
+## [2026-08-20] rd | Registre hindouisme — chakras sur sushumnā (v0.4.1)
+
+- **Contexte** : Sidy demande de poursuivre avec le registre hindou,
+  signalant que le corpus Guénon se trouve déjà en `raw/`.
+- **Note d'accès** : `raw/` est exclu du dépôt git (`.gitignore`) et donc vide
+  dans le clone de cette session — non bloquant : le texte primaire
+  (*Kundalinî-Yoga*, *Études sur l'Hindouisme*) avait été déposé directement
+  dans la conversation, et la fiche source correspondante existait déjà au
+  dépôt depuis le 2026-07-14
+  ([[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]],
+  `traditionnel`).
+- **`instrument-donnees.yaml` v0.4.1** : troisième registre, `hindouisme`
+  (axe parallèle). 7 domaines en rang — 6 chakras + sahasrāra (Guénon
+  lui-même : « les six chakras et sahasrâra ne forment qu'un total de
+  sept »), colonne unique (`milieu`) : à la différence de la Kabbale, tous
+  les centres sont sur l'axe central (*sushumnā*). *Idā* et *pingalā* sont
+  des canaux, non des centres — documentés en donnée (champ `canaux`,
+  informatif) mais non rendus comme domaines. Manifeste régénéré : 44
+  nœuds, **3 registres**, 0 erreur/avertissement.
+- **Signalement, non exécution** : Guénon donne dans ce même texte (§34-36)
+  une correspondance rang-par-rang **explicite** entre les 7 niveaux
+  séphirothiques et les 7 domaines hindous (Kether/Sahasrāra,
+  Hokmah-Binah/Ājnā, Hesed-Geburah/Vishuddha, Tiphereth/Anāhata,
+  Netsah-Hod/Manipūra, Iesod/Mūlādhāra — avec sa propre réserve sur le
+  dernier couple). Sourcée et signalée dans
+  [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] §6
+  comme candidat de premier ordre à une fiche `discernement` — **non
+  déclarée comme ancrage** : un verdict, pas une exécution mécanique
+  (Cmd 3, Cmd 12).
+- **Index mis à jour** : `atelier/index.md` (pointeur registres, comptage).
+- **Commit** : `b36834c`
+
+---
+
+## [2026-08-20] rd | Ouverture des registres — plusieurs traditions sur l'unique axe
+
+- **Contexte** : redressement doctrinal de Sidy. L'instruction déposée plus tôt
+  le même jour concluait que les sources kabbalistiques ne pouvaient être
+  instrumentées sans nouveaux verdicts — conclusion fondée sur **deux erreurs
+  de raisonnement**, corrigées ici :
+  1. *« Incommensurabilité 38 / 5 / 7 »* — erreur de cadre : un **domaine**
+     n'est pas un **degré**. Le dépôt pratique déjà la distinction (les cinq
+     Ḥaḍarāt enveloppent les 38 degrés). Un septénaire de domaines est une
+     **autre partition du même axe**, non une échelle concurrente.
+  2. *« Transitivité non autorisée »* — erreur factuelle : le joint axial est
+     **acquis** depuis le 2026-07-26
+     ([[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]],
+     clos). Situer un centre sur un axe déjà verdicté n'importe aucune
+     correspondance.
+  Était également faux : « il manque une fondation séphirothique » — elle
+  existe ([[doctrinal/sources/kabbale-10-sefirot-structure]], `traditionnel`,
+  10 Sephiroth sur 3 colonnes).
+- **Architecture ouverte — le registre** : partition de l'unique axe vertical
+  propre à une tradition. Les registres coexistent **sans être alignés**, même
+  discipline que les 12 signes et les 28 manāzil de l'anneau zodiacal (Art. 3
+  sashimono : le décalage est une donnée, pas un défaut).
+- **`instrument-donnees.yaml` v0.4.0** : bloc `registres:` — `tasawwuf` (axe
+  principal, 5 Ḥaḍarāt en bornes de degrés, reprise en donnée des bandes
+  jusque-là codées en dur) et `qabbalah` (axe parallèle, 10 Sephiroth en rangs
+  + colonnes, **aucun degré attribué**).
+- **`generer-manifeste.py` v0.2.3** : propagation et validations dédiées. Un
+  domaine portant à la fois `degres` et `rang` est **refusé** — ce serait
+  déclarer en donnée une correspondance point à point qu'aucune tradition ne
+  donne. Le Cmd 3 cesse d'être seulement écrit au protocole : il est
+  **appliqué par l'outil**. Trois cas de rejet vérifiés en test.
+- **Prototype** : rendu du registre parallèle en trois colonnes, en retrait du
+  tronc akbarien, **sans aucune ligne vers les degrés**. Les 10 Sephiroth se
+  répartissent sur **7 niveaux dérivés mécaniquement** des rangs et colonnes
+  déclarés (couple droite/gauche = même niveau) : Kether / Hokhma-Bina /
+  Hesed-Gevurah / Tiferet / Netzach-Hod / Yesod / Malkhut. **La réduction tombe
+  des données**, elle n'est pas posée à la main — et recoupe celle que Guénon
+  décrit en projetant les couples latéraux sur la colonne du milieu.
+- **Requalification de la Sitra Ahra** : le correctif du 2026-06-29 rejetait le
+  rattachement **structurel** du *waswâs* à la Sitra Ahra (imposer au tasawwuf
+  une structure de miroir qu'il n'a pas nativement), **non** le rendu de la
+  Sitra Ahra dans son expression kabbalistique propre — que l'architecture
+  v0.3 §2 prescrit au contraire. Le tasawwuf l'exprime autrement (l'autre côté
+  de la Montagne Qāf, cf.
+  [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]). Voie
+  praticable documentée, **non exécutée**.
+- **Fiches** : [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]]
+  (révision intégrale — la version fautive est remplacée, non conservée :
+  elle n'énonçait aucun fait utile, seulement un blocage mal fondé) ;
+  [[atelier/rd/outillage/spec-generateur-manifeste]] §5 quater.
+- **Vigilance** : aucun ancrage inter-registres déclaré, aucun joint qualifié,
+  aucune fiche doctrinale créée ou modifiée (Cmd 3, Cmd 12).
+- **Commit** : `18e85b3`
+
+---
+
+## [2026-08-20] rd | Lecture dynamique du manifeste par le prototype + instruction branche Kabbale
+
+- **Contexte** : deux demandes de Sidy — (a) rendre la lecture du manifeste
+  dynamique dans le prototype (« plus cohérent »), (b) instruire l'ouverture
+  d'une branche Kabbale, sources signalées comme devant « s'emboîter très
+  facilement », avec dépôt d'un extrait de Guénon (*Études sur l'Hindouisme*,
+  « Kundalinî-Yoga ») rapprochant *Sephiroth* et *chakras*.
+
+**(a) Lecture dynamique — exécutée.** `instrument-prototype.html` lit
+désormais `wiki-manifest.json` (`fetch`, chemin relatif, avant Three.js) et en
+dérive l'intégralité de ses données doctrinales : 28 nœuds-degrés, 6
+notionnels de l'anneau, ancrages rendus, 7 Aqtâb, Homme Universel, filament,
+Barzakh, bloc zodiacal. Le flux `dépôt → manifeste → interface` devient
+effectif de bout en bout. Trois garde-fous (Art. 5 sashimono) : repli intégral
+en littéraux si le manifeste est inaccessible (`file://`, fichier absent) ;
+provenance affichée dans le panneau de titre (schéma, SHA court, nombre de
+nœuds — ou mention « données de repli ») ; délai de garde de 4 s. Sens de
+lecture inchangé — l'interface lit, ne réécrit jamais (Cmd 12). Limite
+assumée : bandes de présentation et géométrie restent en dur (rendu, non
+donnée doctrinale). Documenté :
+[[atelier/rd/outillage/spec-generateur-manifeste]] §5 ter. Vérifié : les deux
+chemins testés hors navigateur ; `fetch` du chemin relatif vérifié contre un
+serveur HTTP local (HTTP 200 sur page et manifeste). Rendu visuel toujours non
+vérifié en navigateur réel (CDN Three.js bloqué en session).
+- **Commit** : `44c8c13`
+
+**(b) Branche Kabbale — instruite, non exécutée.** Fiche créée :
+[[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]].
+Conclusion de l'instruction : la matière est réelle et abondante, mais
+l'emboîtement **n'est pas immédiat** — trois obstacles formels documentés :
+(1) incommensurabilité des divisions (38 degrés / 5 Ḥaḍarāt / 7 niveaux
+séphirothiques — la clé de réduction est un acte doctrinal, non technique) ;
+(2) transitivité non autorisée (Cmd 3) — Guénon pose *Sephiroth ↔ chakras*,
+jamais *Sephiroth ↔ 38 degrés akbariens*, et le second joint n'existe pas au
+dépôt ; (3) verrou de la Sitra Ahra — correctif de rejet acté le 2026-06-29,
+validation bloquante dans `generer-manifeste.py`, et
+[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] encore « en
+cours », déjà remonté comme `question_ouverte` par le générateur sur le nœud
+`universel/homme-universel`. Croisement des deux septénaires (niveaux
+séphirothiques ↔ sept Aqtâb) **signalé comme signal de vigilance**, laissé
+entier ; confrontation Gizeh restant à faire (matière septénaire, §VII).
+Chemin proposé en 5 étapes, aucune exécutée. **Aucun ancrage proposé, aucun
+joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
+- **Commit** : `39ab0f2`
+
+- **Note de constat** : les quatre Sceaux incomplets signalés comme bloquants
+  par le rapport conjoint (lot kabbale + fiche veille) sont réparés — la garde
+  `Graphe/generer-cartographie.py --verifier` ne remonte plus aucune anomalie
+  bloquante (116 avertissements non bloquants subsistent).
+
+---
+
+## [2026-08-20] rd | generer-manifeste.py propage le bloc zodiaque (schéma manifeste v0.2.2)
+
+- **Contexte** : suite directe des deux entrées précédentes — Sidy a demandé
+  de fermer l'écart signalé (le bloc `zodiaque:` déclaré en données depuis
+  le 2026-07-26/27 mais jamais propagé dans `wiki-manifest.json`).
+- **`generer-manifeste.py`** : nouvelle fonction `valider_zodiaque()` ;
+  schéma du manifeste porté de v0.2.1 à v0.2.2. Validations bloquantes sur
+  malformation structurelle (types, signe sans `label`) ; avertissements non
+  bloquants sur dérive plausible (degré `falak_al_*` sans nœud correspondant,
+  nombre de signes ≠ 12). Garde-fou testé (signe sans label → code retour 1,
+  manifeste non produit) puis génération réelle : 44 nœuds, 10 ancrages,
+  zodiaque inclus, 0 erreur/avertissement.
+- **`spec-generateur-manifeste.md`** : §5 bis documente l'extension et son
+  motif (règle commune des manifestes, CLAUDE.md racine §VII).
+- **`instrument-prototype.html`** : commentaire ajouté sur le littéral
+  `ZODIAQUE` pointant vers la nouvelle convention — le prototype garde sa
+  transcription manuelle (hébergement statique, aucun fetch réseau à
+  l'exécution), mais le manifeste est désormais la source complète et
+  vérifiable mécaniquement.
+- **Fiche mise à jour** :
+  [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]
+  (§5, point 6 — lacune fermée).
+- **Commit** : `57e4bd1`
+
+---
+
+## [2026-08-20] rd | Homme Universel déclaré (v0.3.4) + anneau zodiacal rendu (feu vert Sidy)
+
+- **Contexte** : suite directe de l'entrée précédente — Sidy a donné le feu
+  vert pour exécuter les deux items encore ouverts de la fiche de pistes
+  ([[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]])
+  et a demandé explicitement où en était l'anneau zodiacal.
+- **`instrument-donnees.yaml` v0.3.4** : nœud `universel/homme-universel`
+  déclaré (Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara), ancrage
+  `equivalence`/`etabli` vers `tasawwuf/al-insan-al-kamil`, source
+  [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]
+  (traduction technique d'un verdict déjà clos, aucun nouvel arbitrage —
+  Cmd 6). Section `zodiaque.signes` peuplée : 12 signes sourcés de la
+  « TABLE COMPLÈTE À QUATRE COLONNES » de
+  [[doctrinal/symboles/table-28-degres-nafas-rahman]] (colonne « Signe
+  Zodiaque », Gloton pp. 45-48) — noms français uniquement, pas de
+  nomenclature arabe dans la source, non inventée (discipline des sources,
+  CLAUDE.md racine §VII).
+- **`wiki-manifest.json` régénéré** (`generer-manifeste.py`, déterministe) :
+  44 nœuds, 10 ancrages, 0 erreur/avertissement.
+- **`instrument-prototype.html`** : nœud Homme Universel rendu (satellite
+  du filament, équivalence établie visuellement) ; anneau zodiacal rendu en
+  deux groupes distincts — 12 signes au degré 19 (Falak al-Burūj), 28
+  manāzil au degré 20 (Falak al-Manāzil), obliquité 23,44°, conformément à
+  [[atelier/rd/instrument/spec-anneau-zodiacal]] §3.1 (dédoublement confirmé,
+  verdict Sidy 2026-07-27). Correction au passage : le module de code inséré
+  §6 de la spec plaçait les deux divisions sur un seul degré — lecture
+  devenue obsolète depuis l'arbitrage du dédoublement, postérieur à
+  l'écriture du code ; implémenté fidèlement à l'arbitrage le plus récent,
+  pas à l'exemple de code.
+- **Vérifié** : syntaxe JS valide, exécution du bloc de rendu testée hors
+  navigateur (mocks Three.js, sans WebGL) — 44 objets interactifs, 8 anneaux
+  dont les 2 nouveaux, 0 erreur. Rendu visuel non vérifié en navigateur réel
+  (CDN Three.js bloqué par la politique réseau de la session) — à confirmer
+  par Sidy.
+- **Lacune signalée, non corrigée** : `generer-manifeste.py` ne propage pas
+  la section `zodiaque:` dans le manifeste (seuls `noeuds`/`ancrages` le
+  sont) — préexistante, non introduite ici.
+- **Fiche mise à jour** :
+  [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]
+  (§1, §3 P1/P3 marquées faites, §5 seconde passe, §6) ; `atelier/index.md`.
+- **Commit** : `08b2b3c`
+
+---
+
+## [2026-08-20] rd | Prototype de l'Instrument mis à jour (Aqtâb, filament) + correction de traçabilité Phase 3
+
+- **Contexte** : retour de Sidy sur la fiche de pistes de développement du
+  même jour — signalement de deux erreurs : (1) la tension
+  Burckhardt/Jurjānī déclarée « disparue sans trace » de l'architecture
+  était en réalité close depuis longtemps ; (2) la Phase 3 de l'Instrument
+  jugée sous-évaluée compte tenu des sources récemment intégrées.
+- **Vérification** : [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]]
+  close le 2026-07-09 (verdict Sidy, `status: traditionnel`) — la fiche de
+  synthèse a été corrigée en conséquence. Découverte d'un second nœud
+  universel déjà établi et jamais intégré :
+  [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]
+  (Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara, `status: traditionnel`,
+  clos le 2026-07-26).
+- **Prototype mis à jour** (consigne explicite de Sidy) :
+  `atelier/rd/instrument/instrument-prototype.html` — sept nœuds Aqtâb
+  rendus (degrés 21-27, équivalence établie visuellement, source citée),
+  filament d'al-Insān al-Kāmil enrichi de son identité à quatre voiles.
+  Vérifié : syntaxe JS valide, exécution du bloc de rendu testée hors
+  navigateur (mocks Three.js, sans WebGL — CDN externe bloqué par la
+  politique réseau de la session) ; rendu visuel non vérifié en navigateur
+  réel, à confirmer par Sidy.
+- **Fiches mises à jour** :
+  [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]
+  (§0 corrections, §1 Phase 3 réévaluée, §2 écart retiré, §3 pistes
+  renumérotées P1-P6, §5 journal de la mise à jour du prototype) ;
+  [[atelier/rd/cahiers/registre-problemes]] (leçon de méthode : consulter
+  systématiquement `doctrinal/discernement/` avant de signaler une
+  disparition documentaire comme anomalie) ; `atelier/index.md`.
+- **Hors périmètre de cette passe** (Cmd 6) : déclaration du nœud « Homme
+  Universel » dans `instrument-donnees.yaml`, régénération du manifeste,
+  anneau zodiacal — restent en piste P1/P3.
+- **Commit** : `3c72bd8`
+
+---
+
+## [2026-08-20] rd | Pistes de développement — Instrument et infrastructure (reprise du rapport conjoint)
+
+- **Contexte** : le rapport conjoint Studio–Gardien du 2026-08-20 devait
+  déterminer les pistes de développement du dépôt/infrastructure en général et
+  du chantier Instrument en particulier. Le Gardien s'est enlisé techniquement
+  en session (voir
+  [[atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint]]),
+  et le rapport produit à sa place par l'orchestrateur a dérivé vers un simple
+  audit de vigilance, hors sujet par rapport à la demande. Reprise sur demande
+  explicite de Sidy.
+- **Fiches créées** :
+  [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]] —
+  état réel par phase du chantier Instrument (correction notable : un
+  prototype Three.js v0.1 fonctionnel existe déjà, `instrument-prototype.html`,
+  non mis à jour depuis l'architecture v0.3), écarts documentaires relevés
+  (feuille de route pointant encore vers la v0.2, tension Burckhardt/Jurjānī
+  disparue sans trace de la v0.3, soumissions « Gem » jamais closes
+  formellement), pistes classées P1 à P5.
+  [[atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure]] —
+  état serveur/agents (omniroute non documenté, 28% de la RAM), chantiers déjà
+  tranchés côté décision mais non exécutés (Phase 3 veille, Bureau TUI, SRS
+  Hermes-native), piste d'applicabilité de la veille externe Cordis, pistes
+  classées P1 à P4.
+- **Index mis à jour** : `atelier/index.md`, pointeurs vers les deux fiches.
+- **Méthode** : lecture intégrale des 13 fichiers de `rd/instrument/` et des
+  documents infrastructure/cahiers/veille pertinents (délégué à un agent
+  d'exploration en lecture seule), puis vérification directe contre les
+  fichiers réels sur disque (le constat initial « aucune ligne de rendu 3D »
+  était erroné — corrigé après inspection du prototype).
+- **Vigilance** : signalement et pistes uniquement, aucune exécution, aucun
+  accès credentials, aucune modification d'`instrument-donnees.yaml` ni du
+  prototype (Cmd 6, Cmd 12, Cmd 13).
+- **Commit** : `6e95a1a`
+
+---
+
 ## [2026-08-20] réparation | Points mécaniques du rapport conjoint Studio–Gardien
 
 - **Contexte** : rapport conjoint Studio–Gardien déposé en `_inbox/`

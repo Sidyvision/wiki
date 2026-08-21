@@ -3,7 +3,7 @@ title: "Atelier — Ressources & Études de Cas"
 type: index
 tags: [atelier, ressources, index, instrument]
 created: 2026-07-07
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 # Atelier — Index
@@ -28,7 +28,9 @@ tiers. Charte et arborescence : [[atelier/rd/index|charte du pôle R&D]].
 - `rd/instrument/` — l'Instrument (migration depuis `projets/` effectuée le
   2026-08-08, fiche par fiche ; les anciennes fiches restent en `projets/` comme
   stubs `deprecated` avec pointeur — Cmd 10)
-- `rd/infrastructure/` — serveur, agents, hardware/software
+- `rd/infrastructure/` — serveur, agents, hardware/software ; voir
+  [[atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure|pistes
+  de développement infrastructure (2026-08-20)]]
 - `rd/audio/` — ingénierie son générique
 - `rd/outillage/` — scripts et bancs de test
 - `rd/cahiers/` — cahiers d'expérience (phase 2)
@@ -49,12 +51,25 @@ akbarien sur l'axe des 38 degrés du *Nafas al-Raḥmān*. Voir
   manifeste]]
 
 **Données et génération** (Phase 1, livrée) :
-- `instrument-donnees.yaml` — v0.3, 36 nœuds (8 notionnels/structurants + 28 nœuds-degrés)
-- `generer-manifeste.py` — générateur déterministe, validations bloquantes, zéro LLM dans la boucle
+- `instrument-donnees.yaml` — v0.5.0, 44 nœuds (8 notionnels/structurants + 28 nœuds-degrés + 8 nœuds universels : 7 Aqtâb + Homme Universel) + 12 signes du zodiaque + **4 registres**
+- `generer-manifeste.py` — v0.2.4, générateur déterministe, validations bloquantes, zéro LLM dans la boucle
 - [[atelier/rd/instrument/angles-de-l-espace|Angles de l'Espace]] — les quatre Angles astrologiques (AS/DS/MC/FC), relectures tranchées
 
+**Registres** (ouvert 2026-08-20) — partitions du même axe vertical, une par
+tradition, non alignées entre elles (Art. 3 sashimono) :
+[[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3|architecture
+et instruction]]. `tasawwuf` (axe principal, 5 Ḥaḍarāt en bornes de degrés),
+`qabbalah` (axe parallèle, 10 Sephiroth/3 colonnes → 7 niveaux dérivés
+mécaniquement), `hindouisme-tantra` (axe parallèle, 6 chakras + sahasrāra,
+colonne unique — *Kundalinî-Yoga*), `vedanta` (axe parallèle, 4 états d'Âtmâ —
+Vaishwânara/Taijasa/Prājña/Turīya — *L'Homme et son devenir selon le
+Vêdânta*). Un seul ancrage inter-registre déclaré : Homme Universel →
+Vaishwânara (traduction du verdict du 2026-07-26, aucun nouvel arbitrage) ;
+tout le reste en attente. Refus mécanique par le générateur de tout domaine
+portant à la fois `degres` et `rang` (Cmd 3).
+
 **Prototype** :
-- `instrument-prototype.html` — prototype Three.js v0.1, axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels
+- `instrument-prototype.html` — prototype Three.js, axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels ; **mis à jour le 2026-08-20** : sept nœuds Aqtâb + nœud Homme Universel rendus (équivalences établies), anneau zodiacal ajouté (12 signes au degré 19, 28 manāzil au degré 20, obliquité 23,44°), et surtout **lecture dynamique de `wiki-manifest.json`** — le prototype dérive désormais ses données du manifeste au lieu de les porter en dur (repli conservé si le fichier est inaccessible, provenance affichée) — voir [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement|§5]] et [[atelier/rd/outillage/spec-generateur-manifeste|spec §5 ter]]
 
 **Socle métaphysique universel** (en cours, 2026-07-16) — fondations de la trilogie
 guénonienne (*Le Symbolisme de la Croix*, *Les États multiples de l'être*,
@@ -76,6 +91,14 @@ de l'Arbre unique s'articulent :
 sourcées, rendu manquant) ; versant Sanātana Dharma (fondation védantique désormais
 disponible via ch. X/XV/XVI, structure à 4 états non encore ancrée) ; lien
 wirātha↔pôles (*Futūḥāt* ch. 36, réserve résiduelle).
+
+**État d'avancement et pistes de développement (2026-08-20)** :
+[[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement|synthèse
+par phase]] — Phase 3 plus avancée qu'évaluée initialement (deux nœuds
+universels déjà établis par discernement clos) ; prototype mis à jour le
+2026-08-20 (Aqtâb rendus, filament enrichi) ; pistes classées P1 à P6
+(formalisation Phase 3, déblocage Phase 2, mise à niveau du prototype, amorce
+Phase 5, hygiène documentaire, chantiers de fond).
 
 ---
 

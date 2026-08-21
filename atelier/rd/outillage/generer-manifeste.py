@@ -31,9 +31,33 @@ try:
 except ImportError:
     sys.exit("ERREUR : PyYAML manquant. Installer avec : apt install python3-yaml")
 
-# --- Constantes du schéma v0.2.1 --------------------------------------------
+# --- Constantes du schéma v0.2.4 --------------------------------------------
+#
+#   v0.2.4 (2026-08-20) : un ancrage peut désormais désigner, en source comme
+#     en cible, soit un nœud (`noeuds:`), soit un domaine de registre
+#     (`registres[].domaines[]`) — même espace d'identifiants, même validation.
+#     Motif : un ancrage entre un nœud universel et un domaine de registre peut
+#     être déjà établi par un discernement clos (ex. Homme Universel ↔
+#     Vaishwânara, verdict du 2026-07-26) sans qu'aucune correspondance
+#     inter-registres ne soit posée pour autant — seul CE domaine précis est
+#     visé, jamais le registre entier. Les collisions d'id entre nœud et
+#     domaine restent bloquantes.
+#
+#   v0.2.3 (2026-08-20) : propage le bloc `registres:` — partitions de l'unique
+#     axe vertical, une par tradition (voir instrument-donnees.yaml v0.4.0).
+#     Validation dédiée : un domaine ne peut porter à la fois `degres` et
+#     `rang`, ce qui reviendrait à déclarer en donnée une correspondance point
+#     à point non tranchée (Cmd 3).
+#
+#   v0.2.2 (2026-08-20) : le bloc `zodiaque:` d'instrument-donnees.yaml (degrés
+#     du falak al-burūj/al-manāzil, obliquité, époque de référence, signes) est
+#     désormais propagé dans le manifeste (clé "zodiaque"), avec validations
+#     mécaniques dédiées (§ci-dessous). Auparavant déclaré en YAML mais jamais
+#     émis : le prototype le transcrivait à la main sans passer par le
+#     manifeste — écart signalé dans rd/instrument/2026-08-20_etat-avancement-
+#     pistes-developpement.md §5, fermé ici sur demande de Sidy.
 
-SCHEMA_VERSION = "0.2.1"
+SCHEMA_VERSION = "0.2.4"
 TYPES_ANCRAGE = {"equivalence", "complementarite", "subversion", "parodie"}
 ETATS_ANCRAGE = {"etabli", "suggere", "identifie"}
 DIRECTIONNALITES = {"none", "ascendant", "descendant"}
@@ -113,6 +137,151 @@ def discernements_en_cours(repo: Path) -> list:
     return resultats
 
 
+def valider_zodiaque(zodiaque: dict, decl_noeuds: list, erreurs: list, avertissements: list):
+    """Valide le bloc `zodiaque:` (peut être absent) et retourne la valeur à
+    inscrire dans le manifeste, ou None si absente/invalide au point de ne
+    rien produire. Erreurs bloquantes limitées aux malformations structurelles
+    (types) ; le reste (12 signes attendus, degrés cohérents avec un nœud
+    déclaré) reste un avertissement — ce ne sont pas des invariants du schéma,
+    seulement des indices de dérive possible."""
+    if not zodiaque:
+        return None
+    if not isinstance(zodiaque, dict):
+        erreurs.append("zodiaque : doit être un mapping (dict)")
+        return None
+
+    degres_declares = {d.get("degre_vertical") for d in decl_noeuds
+                        if d.get("degre_vertical") is not None}
+
+    for cle in ("degre_falak_al_buruj", "degre_falak_al_manazil"):
+        v = zodiaque.get(cle)
+        if v is not None and not isinstance(v, int):
+            erreurs.append(f"zodiaque.{cle} : doit être un entier ou null (reçu {v!r})")
+        elif isinstance(v, int) and v not in degres_declares:
+            avertissements.append(
+                f"zodiaque.{cle} = {v} : aucun nœud déclaré ne porte ce degre_vertical"
+            )
+
+    obliquite = zodiaque.get("obliquite_deg")
+    if obliquite is not None and not isinstance(obliquite, (int, float)):
+        erreurs.append(f"zodiaque.obliquite_deg : doit être numérique (reçu {obliquite!r})")
+
+    signes = zodiaque.get("signes")
+    if signes is not None:
+        if not isinstance(signes, list):
+            erreurs.append("zodiaque.signes : doit être une liste")
+        else:
+            if len(signes) != 12:
+                avertissements.append(
+                    f"zodiaque.signes : {len(signes)} entrée(s) déclarée(s), 12 attendues"
+                )
+            for i, s in enumerate(signes):
+                if not isinstance(s, dict) or not str(s.get("label", "")).strip():
+                    erreurs.append(f"zodiaque.signes[{i}] : doit porter un « label » non vide")
+
+    return zodiaque
+
+
+AXES_REGISTRE = {"principal", "parallele"}
+
+
+def valider_registres(registres, fiches: dict, erreurs: list, avertissements: list):
+    """Valide le bloc `registres:` (schéma v0.2.3) et retourne la valeur à
+    inscrire au manifeste, ou None si absent.
+
+    Un registre déclare comment UNE tradition partitionne l'axe vertical unique.
+    Deux formes de domaine, exclusives l'une de l'autre :
+      - `degres: [a, b]` — la tradition situe le domaine sur l'échelle des 38
+        degrés (elle en donne les bornes) ;
+      - `rang: n` (+ `colonne:`) — la tradition donne un ordre le long de l'axe,
+        sans échelle de degrés. Le rendu répartit alors le registre sur
+        l'étendue de l'axe sans prétendre l'aligner sur les degrés.
+
+    Un domaine portant LES DEUX formes est refusé : ce serait déclarer en
+    donnée une correspondance point à point que la tradition ne donne pas —
+    exactement ce que le Cmd 3 réserve à une fiche `discernement` tranchée.
+    """
+    if not registres:
+        return None
+    if not isinstance(registres, list):
+        erreurs.append("registres : doit être une liste")
+        return None
+
+    vus_registre, vus_domaine = set(), set()
+    for i, reg in enumerate(registres):
+        ctx = f"registres[{i}]"
+        if not isinstance(reg, dict):
+            erreurs.append(f"{ctx} : doit être un mapping"); continue
+        rid = str(reg.get("id", "")).strip()
+        ctx = f"registre « {rid or i} »"
+        if not rid:
+            erreurs.append(f"{ctx} : « id » requis"); continue
+        if rid in vus_registre:
+            erreurs.append(f"{ctx} : id de registre dupliqué"); continue
+        vus_registre.add(rid)
+
+        if not str(reg.get("label", "")).strip():
+            erreurs.append(f"{ctx} : « label » requis")
+
+        axe = reg.get("axe")
+        if axe not in AXES_REGISTRE:
+            erreurs.append(f"{ctx} : « axe » doit valoir {sorted(AXES_REGISTRE)} (reçu {axe!r})")
+
+        fiche = str(reg.get("fiche", "")).strip()
+        if not fiche:
+            erreurs.append(f"{ctx} : « fiche » requise (traçabilité, Cmd 5)")
+        elif slug_de(fiche) not in fiches:
+            erreurs.append(f"{ctx} : fiche doctrinale introuvable : {fiche}")
+
+        domaines = reg.get("domaines")
+        if not isinstance(domaines, list) or not domaines:
+            erreurs.append(f"{ctx} : « domaines » doit être une liste non vide"); continue
+
+        for j, d in enumerate(domaines):
+            dctx = f"{ctx}, domaine[{j}]"
+            if not isinstance(d, dict):
+                erreurs.append(f"{dctx} : doit être un mapping"); continue
+            did = str(d.get("id", "")).strip()
+            if not did:
+                erreurs.append(f"{dctx} : « id » requis"); continue
+            dctx = f"{ctx}, domaine « {did} »"
+            if did in vus_domaine:
+                erreurs.append(f"{dctx} : id de domaine dupliqué"); continue
+            vus_domaine.add(did)
+            if not str(d.get("label", "")).strip():
+                erreurs.append(f"{dctx} : « label » requis")
+
+            degres, rang = d.get("degres"), d.get("rang")
+            if degres is not None and rang is not None:
+                erreurs.append(
+                    f"{dctx} : « degres » et « rang » sont exclusifs — porter les deux "
+                    f"déclarerait une correspondance point à point non tranchée (Cmd 3)"
+                ); continue
+            if degres is None and rang is None:
+                erreurs.append(f"{dctx} : « degres » ou « rang » requis"); continue
+
+            if degres is not None:
+                if (not isinstance(degres, list) or len(degres) != 2
+                        or not all(isinstance(v, int) for v in degres)):
+                    erreurs.append(f"{dctx} : « degres » doit être [debut, fin] entiers")
+                elif degres[0] > degres[1]:
+                    erreurs.append(f"{dctx} : « degres » — début {degres[0]} > fin {degres[1]}")
+            else:
+                if not isinstance(rang, int) or rang < 1:
+                    erreurs.append(f"{dctx} : « rang » doit être un entier ≥ 1")
+
+        # Cohérence de forme : un registre mélangeant les deux formes est
+        # légitime en principe, mais assez inhabituel pour mériter un signalement.
+        formes = {("degres" if d.get("degres") is not None else "rang")
+                  for d in domaines if isinstance(d, dict)}
+        if len(formes) > 1:
+            avertissements.append(
+                f"{ctx} : domaines de formes mêlées (degres + rang) — vérifier l'intention"
+            )
+
+    return registres
+
+
 def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     erreurs, avertissements = [], []
 
@@ -122,6 +291,8 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     donnees = yaml.safe_load(chemin_donnees.read_text(encoding="utf-8")) or {}
     decl_noeuds = donnees.get("noeuds", []) or []
     decl_ancrages = donnees.get("ancrages", []) or []
+    decl_zodiaque = donnees.get("zodiaque") or {}
+    decl_registres = donnees.get("registres") or []
 
     # 2. Indexer la vérité doctrinale.
     fiches = indexer_fiches_doctrinales(repo)
@@ -171,7 +342,28 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
         })
     par_id = {n["id"]: n for n in noeuds}
 
-    # 4. Valider et rattacher les ancrages (stockage à sens unique sur le nœud source).
+    # 3 bis. Valider les registres AVANT les ancrages : un domaine de registre
+    # peut être source ou cible d'un ancrage (v0.2.4) — ses identifiants
+    # doivent donc rejoindre `par_id` avant que la boucle des ancrages ne
+    # s'exécute. Une collision d'id entre un nœud et un domaine est bloquante.
+    registres_valides = valider_registres(decl_registres, fiches, erreurs, avertissements)
+    for reg in (registres_valides or []):
+        if not isinstance(reg, dict):
+            continue
+        for d in (reg.get("domaines") or []):
+            if not isinstance(d, dict):
+                continue
+            did = str(d.get("id", "")).strip()
+            if not did:
+                continue
+            if did in par_id:
+                erreurs.append(f"id « {did} » : collision entre un nœud et un domaine de registre")
+                continue
+            d.setdefault("ancrages", [])
+            par_id[did] = d
+
+    # 4. Valider et rattacher les ancrages (stockage à sens unique sur la source,
+    # nœud ou domaine de registre — même espace d'identifiants, v0.2.4).
     for a in decl_ancrages:
         src, typ = a.get("noeud", ""), a.get("type", "")
         etat = a.get("etat", "")
@@ -181,7 +373,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
         contexte = f"ancrage {src} → {cible} ({typ}/{etat})"
 
         if src not in par_id:
-            erreurs.append(f"{contexte} : nœud source non déclaré"); continue
+            erreurs.append(f"{contexte} : source non déclarée (ni nœud, ni domaine de registre)"); continue
         if typ not in TYPES_ANCRAGE:
             erreurs.append(f"{contexte} : type invalide"); continue
         if etat not in ETATS_ANCRAGE:
@@ -189,7 +381,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
         if direction not in DIRECTIONNALITES:
             erreurs.append(f"{contexte} : directionnalite invalide"); continue
         if cible is not None and cible not in par_id:
-            erreurs.append(f"{contexte} : cible non déclarée"); continue
+            erreurs.append(f"{contexte} : cible non déclarée (ni nœud, ni domaine de registre)"); continue
         if etat == "etabli" and not source_doc:
             erreurs.append(f"{contexte} : un ancrage etabli DOIT être sourcé (Cmd 5)"); continue
         if typ in ("subversion", "parodie") and cible is not None:
@@ -215,7 +407,10 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
             "note": a.get("note", ""),
         })
 
-    # 5. Rapport et sortie.
+    # 5. Valider et intégrer le bloc zodiaque (indépendant des nœuds/ancrages/registres).
+    zodiaque_valide = valider_zodiaque(decl_zodiaque, decl_noeuds, erreurs, avertissements)
+
+    # 6. Rapport et sortie.
     for w in avertissements:
         print(f"⚠ AVERTISSEMENT : {w}")
     if erreurs:
@@ -231,6 +426,10 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
         "source_commit": sha_git(repo),
         "nodes": noeuds,
     }
+    if zodiaque_valide is not None:
+        manifeste["zodiaque"] = zodiaque_valide
+    if registres_valides is not None:
+        manifeste["registres"] = registres_valides
     chemin_sortie.parent.mkdir(parents=True, exist_ok=True)
     chemin_sortie.write_text(
         json.dumps(manifeste, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
@@ -238,6 +437,8 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     nb_ancrages = sum(len(n["ancrages"]) for n in noeuds)
     print(f"✓ Manifeste produit : {chemin_sortie}")
     print(f"  {len(noeuds)} nœud(s), {nb_ancrages} ancrage(s), "
+          f"zodiaque {'inclus' if zodiaque_valide is not None else 'absent'}, "
+          f"{len(registres_valides or [])} registre(s), "
           f"{len(avertissements)} avertissement(s), commit {manifeste['source_commit'][:12]}")
     return 0
 

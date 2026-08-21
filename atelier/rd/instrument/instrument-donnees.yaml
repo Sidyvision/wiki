@@ -1,6 +1,70 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.3.3)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.5.0)
 #
+#   v0.5.0 (2026-08-20) : quatrième registre — vedanta (les quatre états
+#     d'Âtmâ), sur demande de Sidy (« mettre en regard avec L'Homme et son
+#     devenir selon le Vêdânta pour compléter »). Source :
+#     doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya.md
+#     (ch. XII/XIII/XV/XVI, traditionnel) + guenon-homme-devenir-vedanta-ch9-14.md
+#     (ch. XIV, Taijasa). 4 domaines en rang, colonne unique — Vaishwânara
+#     (veille), Taijasa (rêve), Prājña (sommeil profond), Turīya (le
+#     Quatrième, inconditionné).
+#     Renommage : `hindouisme` → `hindouisme-tantra`, pour ne pas confondre
+#     deux expositions distinctes de Guénon (Kundalinî-Yoga/chakras d'un
+#     côté, États d'Âtmâ/Vêdânta de l'autre) sous un même id — cohérent avec
+#     « une page = un sujet ».
+#     ANCRAGE DÉCLARÉ (schéma manifeste v0.2.4, premier de son espèce) :
+#     universel/homme-universel → vedanta/vaishvanara, etat: etabli. Ce n'est
+#     PAS une correspondance inter-registres nouvelle : Vaishwânara fait DÉJÀ
+#     partie de l'identité Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara,
+#     verdict clos le 2026-07-26
+#     (doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara).
+#     Le nœud universel/homme-universel a déjà cette source ; cet ancrage en
+#     est la seconde branche déclarée (la première visait tasawwuf/al-insan-
+#     al-kamil). Aucun autre domaine des registres — ni qabbalah, ni
+#     hindouisme-tantra, ni les 3 autres domaines de vedanta — ne reçoit
+#     d'ancrage : seule Vaishwânara est nommément comprise dans le verdict.
+#     Voir rd/instrument/2026-08-20_instruction-branche-kabbale-phase3.md §7.
+#   v0.4.1 (2026-08-20) : troisième registre — hindouisme (Vêdânta/Tantra), les
+#     chakras sur sushumnā. Source : doctrinal/sources/guenon-kundalini-yoga-
+#     etudes-hindouisme.md (status: traditionnel, déjà au dépôt depuis le
+#     2026-07-14). 7 domaines en rang (6 chakras + sahasrāra, colonne unique —
+#     tous sur l'axe central, à la différence de la Kabbale), aucun degré
+#     akbarien attribué. Voir rd/instrument/2026-08-20_instruction-branche-
+#     kabbale-phase3.md §5 pour le rapprochement Sephiroth/chakras que Guénon
+#     énonce lui-même dans ce texte — signalé, non déclaré en ancrage (Cmd 3).
+#   v0.4.0 (2026-08-20) : OUVERTURE DES REGISTRES. Nouveau bloc `registres:`.
+#     Motif (redressement doctrinal de Sidy, 2026-08-20) : l'Instrument est la
+#     représentation de l'UNIQUE Arbre Universel ; Arbre Universel et Homme
+#     Universel sont équivalents dans le principe. L'identité
+#     Insān Kāmil = Adam Qadmôn = Vaishwânara étant CLOSE (2026-07-26), il
+#     s'agit du MÊME axe vertical — l'axe n'est donc pas à établir, il est
+#     acquis. Sephiroth et chakras sont des centres décrivant des DOMAINES le
+#     long de cet axe : chaque tradition orthodoxe partitionne le même axe
+#     dans son expression propre, SANS devoir rendre une même notion par une
+#     même expression, et SANS correspondance formelle point à point.
+#     Un `registre` = la partition de l'axe propre à une tradition. Les
+#     registres coexistent sans être alignés — même discipline que les 12
+#     signes et les 28 manāzil de l'anneau zodiacal (Art. 3 sashimono,
+#     jamais de joint forcé ; le décalage est une donnée, pas un défaut).
+#     AUCUN ancrage inter-registres n'est déclaré ici : la correspondance
+#     s'explicitera au fur et à mesure de la reconstitution de l'ensemble,
+#     sous verdict (Cmd 3, Cmd 12). Déclarer un registre, c'est documenter une
+#     tradition dans son expression propre — ce n'est poser aucun joint.
+#     Voir rd/instrument/2026-08-20_instruction-branche-kabbale-phase3.md.
+#   v0.3.4 (2026-08-20) : deuxième nœud universel déclaré — Homme Universel
+#     (Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara), discernement
+#     déjà clos le 2026-07-26, jamais porté en donnée jusqu'ici (traduction
+#     technique d'un verdict rendu, aucun nouvel arbitrage — Cmd 6). Voir
+#     doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara
+#     et rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md.
+#     Ajout également des 12 signes du zodiaque (`zodiaque.signes`), sourcés
+#     de la « TABLE COMPLÈTE À QUATRE COLONNES » (colonne « Signe Zodiaque »,
+#     doctrinal/symboles/table-28-degres-nafas-rahman.md, pp. 45-48 Gloton,
+#     validation Gem 2026-07-01) — comble le point ouvert §7.4 de
+#     rd/instrument/spec-anneau-zodiacal.md. Noms français uniquement (la
+#     table source ne donne pas de nomenclature arabe des signes — non
+#     inventée, cf. discipline des sources).
 #   v0.3.3 (2026-08-04) : PHASE 3 OUVERTE. Premier nœud/ancrage transversal
 #     (hors arbre-tradition) : sept Pôles/Aqtâb — hiérarchie initiatique
 #     universelle, non rattachée à une tradition-arbre distincte (Guénon fait
@@ -185,6 +249,13 @@ noeuds:
   - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
      id: universel/aqtab-lune, degre_vertical: 27, label: "Pôle de la Lune (Adam y siège)"}
 
+  # ============ Homme Universel (nœud universel, hors arbre-tradition) ============
+  # Identité à quatre voiles traditionnelles établie — verdict Sidy 2026-07-26
+  # (doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara, clos)
+  - {fiche: doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara, tradition: universel,
+     id: universel/homme-universel, degre_vertical: null,
+     label: "Homme Universel — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara"}
+
 ancrages:
   # --- ⭐ Convergence des 28 (établie, Gem 2026-07-01, Futūḥāt ch. 198) ---
   - noeud: tasawwuf/table-28-degres-nafas-rahman
@@ -225,8 +296,172 @@ ancrages:
   # Ils ne constituent pas des ancrages au sens du manifeste (Cmd 13 — porte humaine).
   # Rapport Aqtâb↔Prophètes porte par le verdict discernement, non par le YAML du rendu Instrument.
 
+  # --- ⭐ Homme Universel (établi, hozo, verdict Sidy 2026-07-26) ---
+  # Cible : tasawwuf/al-insan-al-kamil (nœud notionnel traversant, rendu filament
+  # validé le 2026-07-01). L'identité étend ce filament aux voiles kabbalistique,
+  # taoïste et védantique — le filament rendu ne change pas, ce qu'il désigne s'élargit.
+  - {noeud: universel/homme-universel, type: equivalence, etat: etabli, directionnalite: none,
+     cible: tasawwuf/al-insan-al-kamil, source: "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"}
+
+  # --- ⭐ Homme Universel → Vaishwânara (établi, hozo, verdict Sidy 2026-07-26) ---
+  # Second ancrage du même nœud (schéma manifeste v0.2.4 : cible = domaine de
+  # registre). Vaishwânara fait PARTIE de l'identité établie par ce même
+  # discernement (Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara) — ce
+  # n'est pas une correspondance inter-registres nouvelle, seul ce domaine
+  # précis est visé. Les 3 autres domaines de vedanta (Taijasa, Prājña,
+  # Turīya) et tous les domaines de qabbalah/hindouisme-tantra restent SANS
+  # ancrage : rien dans le verdict ne les concerne.
+  - {noeud: universel/homme-universel, type: equivalence, etat: etabli, directionnalite: none,
+     cible: vedanta/vaishvanara, source: "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"}
+
 zodiaque:
   degre_falak_al_buruj: 19       # 12 signes (Toit du Jardin paradisiaque)
   degre_falak_al_manazil: 20     # 28 Demeures lunaires (Terre des Jardins)
   obliquite_deg: 23.44            # inclinaison de l'écliptique (variable à l'échelle des cycles)
   epoque_reference: null          # à paramétrer en Phase 5 (époque de calcul astrologique)
+  # 12 signes, ordre et noms sourcés depuis doctrinal/symboles/table-28-degres-nafas-rahman.md
+  # (« TABLE COMPLÈTE À QUATRE COLONNES », colonne « Signe Zodiaque », Gloton pp. 45-48,
+  # validation Gem 2026-07-01). Dates du zodiaque tropical telles que portées par la source.
+  # Pas de nomenclature arabe : absente de cette table, non ajoutée de mémoire (§VII, discipline
+  # des sources) — spec-anneau-zodiacal.md §7.4.
+  signes:
+    - {label: "Bélier", dates: "21/3-20/4"}
+    - {label: "Taureau", dates: "21/4-20/5"}
+    - {label: "Gémeaux", dates: "21/5-20/6"}
+    - {label: "Cancer", dates: "21/6-20/7"}
+    - {label: "Lion", dates: "21/7-20/8"}
+    - {label: "Vierge", dates: "21/8-20/9"}
+    - {label: "Balance", dates: "21/9-20/10"}
+    - {label: "Scorpion", dates: "21/10-20/11"}
+    - {label: "Sagittaire", dates: "21/11-20/12"}
+    - {label: "Capricorne", dates: "21/12-20/1"}
+    - {label: "Verseau", dates: "21/1-20/2"}
+    - {label: "Poissons", dates: "21/2-20/3"}
+
+# =============================================================================
+# REGISTRES — partitions de l'UNIQUE axe vertical, une par tradition
+# =============================================================================
+#
+#   Un registre déclare comment une tradition orthodoxe partitionne le même axe
+#   (celui de l'Homme Universel : Insān Kāmil = Adam Qadmôn = Wang = Vaishwânara,
+#   identité close le 2026-07-26). Deux formes de domaine coexistent :
+#
+#     - `degres: [a, b]` — la tradition situe explicitement le domaine sur
+#       l'échelle des 38 degrés (cas du tasawwuf akbarien, table de Gloton) ;
+#     - `rang: n` + `colonne: …` — la tradition donne un ORDRE le long de l'axe
+#       et une position latérale, sans échelle de degrés (cas de la qabbalah).
+#       Le rendu répartit alors le registre sur l'étendue de l'axe SANS
+#       prétendre l'aligner sur les degrés akbariens : la hauteur est un choix
+#       de présentation, jamais une correspondance déclarée.
+#
+#   RÈGLE : aucun ancrage inter-registres n'est déclaré tant qu'un discernement
+#   ne l'a pas tranché (Cmd 3). Déclarer un registre documente une tradition
+#   dans son expression propre ; cela ne pose aucun joint.
+# =============================================================================
+
+registres:
+
+  # --- Tasawwuf akbarien : l'axe des 38 degrés, partition en Ḥaḍarāt ---------
+  # Reprend en donnée les « bandes » jusqu'ici codées en dur dans le prototype.
+  - id: tasawwuf
+    label: "Tasawwuf akbarien — les Ḥaḍarāt"
+    fiche: doctrinal/symboles/hadarat-khams
+    axe: principal              # occupe l'échelle des degrés elle-même
+    domaines:
+      - {id: tasawwuf/lahut, label: "Lāhūt", degres: [11, 14]}
+      - {id: tasawwuf/jabarut, label: "Jabarūt", degres: [15, 18]}
+      - {id: tasawwuf/barzakh-superieur, label: "Barzakh supérieur", degres: [19, 20]}
+      - {id: tasawwuf/malakut-planetaire, label: "Malakūt planétaire", degres: [21, 27]}
+      - {id: tasawwuf/nasut, label: "Nāsūt", degres: [28, 38]}
+
+  # --- Qabbalah : l'Arbre séphirothique, 10 Sephiroth sur 3 colonnes --------
+  # Structure sourcée : doctrinal/sources/kabbale-10-sefirot-structure.md
+  # (status: traditionnel — Guénon via Vulliaud + texte primaire du Sefer
+  # Yetsira, commentaire du Ramban). Rang et colonne repris tels quels de cette
+  # fiche ; les couples droite/gauche de rangs adjacents occupent un même
+  # niveau de l'axe, ce qui ramène les 10 Sephiroth à 7 niveaux — réduction
+  # MÉCANIQUE (dérivée des colonnes déclarées), confirmée par ailleurs par
+  # Guénon (Études sur l'Hindouisme, « Kundalinî-Yoga », § final).
+  # AUCUN degré akbarien n'est attribué : la qabbalah ne les donne pas, et rien
+  # ici ne prétend les aligner.
+  - id: qabbalah
+    label: "Qabbalah — l'Arbre séphirothique"
+    fiche: doctrinal/sources/kabbale-10-sefirot-structure
+    axe: parallele              # ordre le long de l'axe, sans échelle de degrés
+    colonnes:
+      milieu: "Colonne du milieu (Équilibre)"
+      droite: "Colonne de droite (Miséricorde)"
+      gauche: "Colonne de gauche (Rigueur)"
+    domaines:
+      - {id: qabbalah/kether, label: "Kether — la Couronne", rang: 1, colonne: milieu, nom_divin: "Aïn-Soph (son vêtement)"}
+      - {id: qabbalah/hokhma, label: "Hokhma — la Sagesse", rang: 2, colonne: droite, nom_divin: "Yah"}
+      - {id: qabbalah/bina, label: "Bina — la Compréhension", rang: 3, colonne: gauche, nom_divin: "YHWH Elohim"}
+      - {id: qabbalah/hesed, label: "Hesed — la Miséricorde", rang: 4, colonne: droite, nom_divin: "El"}
+      - {id: qabbalah/gevurah, label: "Gevurah — la Force / Jugement", rang: 5, colonne: gauche, nom_divin: "Elohim"}
+      - {id: qabbalah/tiferet, label: "Tiferet — la Beauté", rang: 6, colonne: milieu, nom_divin: "YHWH"}
+      - {id: qabbalah/netzach, label: "Netzach — la Victoire", rang: 7, colonne: droite, nom_divin: "YHWH Tsevaot"}
+      - {id: qabbalah/hod, label: "Hod — la Majesté", rang: 8, colonne: gauche, nom_divin: "Elohe Tsevaot"}
+      - {id: qabbalah/yesod, label: "Yesod — le Fondement", rang: 9, colonne: milieu, nom_divin: "El Hai / El Shaddaï"}
+      - {id: qabbalah/malkhut, label: "Malkhut — le Royaume", rang: 10, colonne: milieu, nom_divin: "Adonaï"}
+
+  # --- Hindouisme (Tantra) : les chakras sur sushumnā -------------------------
+  # Source : doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme.md
+  # (status: traditionnel — Guénon, Études sur l'Hindouisme, « Kundalinî-Yoga »,
+  # s'appuyant sur Arthur Avalon/John Woodroffe, The Serpent Power). Distinct du
+  # registre `vedanta` ci-dessous (autre texte, autre doctrine — cf. v0.5.0).
+  # Guénon rapporte lui-même (§19 du texte) les six chakras + sahasrāra aux
+  # divisions de la colonne vertébrale, en ordre ascendant. Sahasrāra N'EST PAS
+  # compté au nombre des chakras : « centre de conscience » au-delà des limites
+  # de l'individualité (§21) — repris ici comme 7e domaine, distinct des six
+  # chakras, fidèle à cette réserve du texte.
+  # Tous les centres sont sur l'axe central (sushumnā) : à la différence de la
+  # Kabbale, pas de colonnes latérales — idā et pingalā sont des CANAUX
+  # (nādīs), non des centres ; documentés ci-dessous pour mémoire, non rendus
+  # comme domaines (le schéma des registres ne porte que des centres).
+  - id: hindouisme-tantra
+    label: "Hindouisme (Tantra) — les chakras sur sushumnā"
+    fiche: doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme
+    axe: parallele
+    canaux:
+      sushumna: "canal central — porte les chakras eux-mêmes"
+      ida: "canal gauche, féminin/négatif — correspond à la Lune"
+      pingala: "canal droit, masculin/positif — correspond au Soleil"
+    domaines:
+      - {id: hindouisme/muladhara, label: "Mūlādhāra — centre-racine", rang: 1, colonne: milieu}
+      - {id: hindouisme/swadhishthana, label: "Swādhishthāna", rang: 2, colonne: milieu}
+      - {id: hindouisme/manipura, label: "Manipūra", rang: 3, colonne: milieu}
+      - {id: hindouisme/anahata, label: "Anāhata — région du cœur", rang: 4, colonne: milieu}
+      - {id: hindouisme/vishuddha, label: "Vishuddha — région de la gorge", rang: 5, colonne: milieu}
+      - {id: hindouisme/ajna, label: "Ājnā — le troisième œil", rang: 6, colonne: milieu}
+      - {id: hindouisme/sahasrara, label: "Sahasrāra — le lotus à mille pétales", rang: 7, colonne: milieu}
+
+  # --- Vêdânta : les quatre états (pâdas) d'Âtmâ ------------------------------
+  # Source primaire : doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-
+  # brahma-turiya.md (ch. XII cadre les 4 états, XIII = Vaishwânara/veille,
+  # XV = Prājña/sommeil profond, XVI = Turīya) ; le nom Taijasa (rêve) vient de
+  # guenon-homme-devenir-vedanta-ch9-14.md, ch. XIV — non déclarable en `fiche:`
+  # unique (le schéma n'en porte qu'une par registre) ; cité en commentaire par
+  # domaine, fiche des deux sources listée dans l'instruction associée.
+  # D'après la Māṇḍūkya Upaniṣad (citée par Guénon, ch. XVI) : « Veille, rêve,
+  # sommeil profond, et ce qui est au-delà, tels sont les quatre états d'Âtmâ ».
+  # Colonne unique (milieu) : ce sont des états d'un même être, non des
+  # positions latérales — aucune structure droite/gauche dans ce texte.
+  # DISTINCT du registre `hindouisme-tantra` : autre ouvrage, autre doctrine
+  # (États d'Âtmâ vs Kundalinî/chakras) — non fondu, malgré l'origine commune.
+  - id: vedanta
+    label: "Vêdânta — les quatre états (pâdas) d'Âtmâ"
+    fiche: doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya
+    axe: parallele
+    domaines:
+      - {id: vedanta/vaishvanara, label: "Vaishwânara — l'état de veille (manifestation grossière)",
+         rang: 1, colonne: milieu,
+         note: "Identifié à Virâj, l'Intelligence cosmique régissant le monde corporel ; identité posée par Guénon avec l'Homme Universel (ch. XIII)."}
+      - {id: vedanta/taijasa, label: "Taijasa — l'état de rêve (manifestation subtile)",
+         rang: 2, colonne: milieu,
+         note: "« Au cœur de la lumière » (ch. XIV, guenon-homme-devenir-vedanta-ch9-14.md)."}
+      - {id: vedanta/prajna, label: "Prājña — le sommeil profond (état causal)",
+         rang: 3, colonne: milieu,
+         note: "État informel et supra-individuel, non « psychique » (ch. XV) ; identifié à Mūla-Prakriti."}
+      - {id: vedanta/turiya, label: "Turīya — le Quatrième, état inconditionné",
+         rang: 4, colonne: milieu,
+         note: "« Invisible, non-agissant, incompréhensible, indéfinissable » (ch. XVI) ; les trois premiers pâdas ne comptent que pour un quart en importance métaphysique, le Quatrième vaut les trois autres quarts — asymétrie posée par le texte lui-même, non par ce dépôt."}

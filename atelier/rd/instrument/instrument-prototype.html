@@ -20,6 +20,8 @@
   #titre{top:max(env(safe-area-inset-top),10px);left:10px}
   #titre h1{margin:0;font-size:1.05em;font-weight:600;letter-spacing:.03em;color:var(--or-pale)}
   #titre p{margin:.2rem 0 0;font-size:.85em;opacity:.75;font-style:italic}
+  #titre p.provenance{font-size:.78em;font-style:normal;opacity:.6;
+    font-family:ui-monospace,Menlo,monospace;letter-spacing:.01em}
   #info{bottom:max(env(safe-area-inset-bottom),10px);left:10px;display:none}
   #info h2{margin:0 0 .2rem;font-size:1.05em;color:var(--or-pale);font-weight:600}
   #info .src{font-size:.85em;opacity:.7;font-family:ui-monospace,Menlo,monospace;word-break:break-all}
@@ -42,7 +44,8 @@
 
   <div class="panneau" id="titre">
     <h1>Instrument de la Tradition Primordiale</h1>
-    <p>Prototype de l'axe — les 38 degrés du Nafas al-Raḥmān (v0.1, 2026-07-01)</p>
+    <p>Prototype de l'axe — les 38 degrés du Nafas al-Raḥmān</p>
+    <p id="provenance" class="provenance">lecture du manifeste…</p>
   </div>
 
   <div class="panneau" id="aide">glisser : orbiter · pincer : zoom<br>toucher un nœud : détail</div>
@@ -57,7 +60,10 @@
     <i style="background:var(--or)"></i>degrés (11–38)<br>
     <i style="background:var(--argent)"></i>Barzakh supérieur (19–20)<br>
     <i style="background:#e8e8f0"></i>filament — al-Insān al-Kāmil<br>
-    <i style="background:var(--rouge)"></i>équivalence établie (convergence des 28)
+    <i style="background:var(--rouge)"></i>équivalence établie (hozo)<br>
+    <i style="background:#9a7fc8"></i>nœud universel (hors arbre-tradition)<br>
+    <i style="background:var(--argent)"></i>anneau zodiacal (signes 19 / manāzil 20)<br>
+    <i style="background:#7fc8a9"></i>registre parallèle (autre partition du même axe)
   </div>
 </div>
 
@@ -94,12 +100,43 @@ function chargerThree(urls, i){
   document.head.appendChild(s);
 }
 
+/* ---- Lecture du manifeste (flux à sens unique : dépôt → manifeste → interface)
+   Le manifeste est la source de vérité (CLAUDE.md racine §VII, règle commune des
+   manifestes). Le prototype le LIT et ne le réécrit jamais.
+   Repli : si le fichier est inaccessible (ouverture en file:// hors serveur, ou
+   fichier absent), les littéraux DONNEES_REPLI ci-dessous prennent le relais —
+   la scène s'affiche toujours, en signalant sa provenance. ------------------ */
+var MANIFESTE = null, PROVENANCE = "repli";
+
+function chargerManifeste(suite){
+  if (typeof fetch !== 'function'){ suite(); return; }
+  var fini = false;
+  var achever = function(){ if (!fini){ fini = true; suite(); } };
+  // Garde-fou : une lecture qui n'aboutit pas ne doit jamais bloquer l'affichage.
+  setTimeout(achever, 4000);
+  try {
+    fetch('wiki-manifest.json', {cache: 'no-cache'})
+      .then(function(r){ if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function(j){
+        if (j && Array.isArray(j.nodes) && j.nodes.length){
+          MANIFESTE = j; PROVENANCE = "manifeste";
+        }
+        achever();
+      })
+      .catch(function(){ achever(); });   // file:// ou fichier absent → repli silencieux
+  } catch (e){ achever(); }
+}
+
 function demarrer(){
 try {
 
 if (typeof THREE === 'undefined') { afficherErreur("La bibliothèque 3D n'a pas pu s'initialiser."); return; }
 
-// ---- Données (extrait du manifeste, 2026-07-01) ---------------------------
+// ---- Données de REPLI (utilisées seulement si wiki-manifest.json est
+//      inaccessible : ouverture en file://, fichier absent). En service normal,
+//      tout ce bloc est remplacé par la dérivation du manifeste (voir plus bas,
+//      « Dérivation depuis le manifeste »). Instantané du manifeste au
+//      2026-08-20, instrument-donnees.yaml v0.3.4. --------------------------
 var DEGRES = [
   [11,"hamza — al-Badîʿ (le Qalam suprême / Intellect Premier)"],
   [12,"hâʾ — al-Bâʿith (la Table Gardée / Âme universelle)"],
@@ -140,10 +177,177 @@ var NOTIONNELS = [
   {id:"nafas",         label:"Al-Nafas al-Raḥmānī",                      src:"[[doctrinal/symboles/nafas-rahmani]]"}
 ];
 var ANCRAGES = [["table","manazil"],["table","nafas"]];
+var ID_TABLE = "table";   // clé du nœud « table des 28-38 degrés » dans NOTIONNELS
 var BANDES = [
   [11,14,"Lāhūt"],[15,18,"Jabarūt"],[19,20,"Barzakh supérieur"],
   [21,27,"Malakūt planétaire"],[28,38,"Nāsūt"]
 ];
+// Sept Aqtâb (nœud universel, hors arbre-tradition) ↔ Malakūt planétaire akbarien.
+// Équivalence ÉTABLIE (hozo), verdict Sidy 2026-07-16, enrichi 2026-08-04 —
+// doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire (clos).
+var SOURCE_AQTAB = "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]";
+var AQTAB = [
+  [21,"Pôle de Saturne (Abraham y siège)"],
+  [22,"Pôle de Jupiter (Moïse y siège)"],
+  [23,"Pôle de Mars (Aaron y siège)"],
+  [24,"Pôle du Soleil (Idrîs y siège)"],
+  [25,"Pôle de Vénus (Joseph y siège)"],
+  [26,"Pôle de Mercure (Jésus y siège)"],
+  [27,"Pôle de la Lune (Adam y siège)"]
+];
+// Homme Universel (nœud universel, hors arbre-tradition) — équivalence établie
+// avec le filament al-Insān al-Kāmil, verdict Sidy 2026-07-26.
+var SOURCE_HOMME_UNIVERSEL = "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]";
+// Anneau zodiacal — deux degrés distincts (dédoublement confirmé, spec-anneau-zodiacal.md
+// §3.1). Signes sourcés de doctrinal/symboles/table-28-degres-nafas-rahman.md
+// (« TABLE COMPLÈTE À QUATRE COLONNES », colonne « Signe Zodiaque », Gloton pp. 45-48,
+// validation Gem 2026-07-01). Valeurs de repli — remplacées par MANIFESTE.zodiaque
+// (clé "zodiaque", schéma v0.2.2) dès que le manifeste est lu.
+var ZODIAQUE = {
+  degre_falak_al_buruj: 19,
+  degre_falak_al_manazil: 20,
+  obliquite_deg: 23.44,
+  signes: [
+    {label:"Bélier"}, {label:"Taureau"}, {label:"Gémeaux"}, {label:"Cancer"},
+    {label:"Lion"}, {label:"Vierge"}, {label:"Balance"}, {label:"Scorpion"},
+    {label:"Sagittaire"}, {label:"Capricorne"}, {label:"Verseau"}, {label:"Poissons"}
+  ]
+};
+var FILAMENT = {
+  label: "Al-Insān al-Kāmil",
+  src: "[[doctrinal/symboles/al-insan-al-kamil]]"
+};
+var BARZAKH = {
+  label: "Barzakh",
+  src: "[[doctrinal/symboles/barzakh]]"
+};
+var HOMME_UNIVERSEL = {
+  label: "Homme Universel — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara",
+  src: SOURCE_HOMME_UNIVERSEL,
+  cibles: []   // ids d'ancrage établi (nœuds ou domaines de registre) ; peuplé
+               // depuis le manifeste (schéma v0.2.4) — vide en repli.
+};
+// Position 3D du nœud Homme Universel, fixée une fois le filament construit ;
+// permet aux domaines de registre (Vaishwânara notamment) de tracer une ligne
+// d'équivalence établie SANS dupliquer la géométrie du filament.
+var posHommeUniversel = null;
+// Registres — partitions du MÊME axe vertical, une par tradition. Vide en repli :
+// le registre est une notion introduite avec le manifeste v0.2.3 / données v0.4.0.
+var REGISTRES = [];
+
+// ---- Dérivation depuis le manifeste -----------------------------------------
+//   Quand wiki-manifest.json a pu être lu, il REMPLACE intégralement les
+//   littéraux ci-dessus : plus aucune donnée doctrinale n'est retapée dans ce
+//   fichier. Les regroupements de présentation (BANDES : Lāhūt, Jabarūt…) et la
+//   géométrie restent en dur — ce sont des choix de rendu, pas de la donnée
+//   doctrinale, et le schéma du manifeste ne les porte pas.
+//   Les étiquettes 3D abrègent mécaniquement les titres longs ; l'info-bulle
+//   affiche toujours le libellé intégral du manifeste.
+
+function abreger(txt, max){
+  if (!txt) return "";
+  var coupe = txt.split(" — ")[0].split(" (")[0];
+  if (coupe.length && coupe.length <= max) return coupe;
+  var base = (coupe.length ? coupe : txt);
+  return base.length > max ? base.slice(0, max - 1).trim() + "…" : base;
+}
+
+if (MANIFESTE){
+  var noeuds = MANIFESTE.nodes;
+  var parId = {};
+  noeuds.forEach(function(n){ parId[n.id] = n; });
+  var trouver = function(id){ return parId[id] || null; };
+
+  // Nœuds-degrés (11-38) : le label du manifeste porte déjà « N · … », le rendu
+  // rajoutant le numéro, on retire le préfixe pour ne pas le doubler.
+  var degres = noeuds
+    .filter(function(n){ return /^tasawwuf\/degre-\d+$/.test(n.id) && n.degre_vertical != null; })
+    .sort(function(a, b){ return a.degre_vertical - b.degre_vertical; })
+    .map(function(n){ return [n.degre_vertical, String(n.label).replace(/^\s*\d+\s*·\s*/, "")]; });
+  if (degres.length) DEGRES = degres;
+
+  // Nœuds notionnels de l'anneau : tasawwuf sans degré, hors filament et hors
+  // Barzakh (tous deux rendus à part, sur l'axe).
+  var notionnels = noeuds.filter(function(n){
+    return n.tradition === "tasawwuf" && n.degre_vertical == null
+        && n.id !== "tasawwuf/al-insan-al-kamil";
+  }).map(function(n){
+    return {id: n.id, label: abreger(n.label, 34), labelComplet: n.label, src: n.source};
+  });
+  if (notionnels.length){
+    NOTIONNELS = notionnels;
+    var estNotionnel = {};
+    notionnels.forEach(function(nd){ estNotionnel[nd.id] = true; });
+    // Ancrages rendus dans l'anneau : ceux dont les deux extrémités y figurent.
+    ANCRAGES = [];
+    noeuds.forEach(function(n){
+      if (!estNotionnel[n.id]) return;
+      (n.ancrages || []).forEach(function(a){
+        if (a.cible && estNotionnel[a.cible]) ANCRAGES.push([n.id, a.cible]);
+      });
+    });
+  }
+
+  var aqtab = noeuds
+    .filter(function(n){ return /^universel\/aqtab-/.test(n.id) && n.degre_vertical != null; })
+    .sort(function(a, b){ return a.degre_vertical - b.degre_vertical; })
+    .map(function(n){ return [n.degre_vertical, n.label]; });
+  if (aqtab.length){
+    AQTAB = aqtab;
+    var srcAqtab = trouver(aqtab.length ? "universel/aqtab-soleil" : null);
+    if (srcAqtab && srcAqtab.source) SOURCE_AQTAB = srcAqtab.source;
+  }
+
+  var nHU = trouver("universel/homme-universel");
+  if (nHU){
+    var cibles = (nHU.ancrages || []).map(function(a){ return a.cible; }).filter(Boolean);
+    HOMME_UNIVERSEL = {label: nHU.label, src: nHU.source, cibles: cibles};
+    SOURCE_HOMME_UNIVERSEL = nHU.source;
+  }
+  var nFil = trouver("tasawwuf/al-insan-al-kamil");
+  if (nFil) FILAMENT = {label: nFil.label, src: nFil.source};
+  var nBar = trouver("tasawwuf/barzakh");
+  if (nBar) BARZAKH = {label: nBar.label, src: nBar.source};
+
+  var nTable = trouver("tasawwuf/table-28-degres-nafas-rahman");
+  if (nTable){
+    if (nTable.source) SOURCE_TABLE = nTable.source;
+    ID_TABLE = nTable.id;
+  }
+
+  if (MANIFESTE.zodiaque && Array.isArray(MANIFESTE.zodiaque.signes)
+      && MANIFESTE.zodiaque.signes.length){
+    ZODIAQUE = MANIFESTE.zodiaque;
+  }
+
+  if (Array.isArray(MANIFESTE.registres)) REGISTRES = MANIFESTE.registres;
+
+  // Les bandes de Présences proviennent du registre `tasawwuf` quand il est
+  // déclaré (elles y sont des domaines à bornes de degrés).
+  var regTas = REGISTRES.filter(function(r){ return r.id === "tasawwuf"; })[0];
+  if (regTas && Array.isArray(regTas.domaines)){
+    var bandes = regTas.domaines
+      .filter(function(d){ return Array.isArray(d.degres) && d.degres.length === 2; })
+      .map(function(d){ return [d.degres[0], d.degres[1], d.label]; });
+    if (bandes.length) BANDES = bandes;
+  }
+}
+
+// Provenance affichée sous le titre : l'utilisateur doit toujours savoir s'il
+// regarde le dépôt à jour ou l'instantané de repli.
+(function(){
+  var p = document.getElementById('provenance');
+  if (!p) return;
+  if (PROVENANCE === "manifeste"){
+    var sc = (MANIFESTE.source_commit || "").slice(0, 7);
+    p.textContent = "manifeste v" + (MANIFESTE.schema_version || "?")
+                  + (sc ? " · dépôt " + sc : "")
+                  + " · " + MANIFESTE.nodes.length + " nœuds";
+  } else {
+    p.textContent = "données de repli (manifeste non lu — ouvrir via un serveur)";
+    p.style.color = "rgba(212,169,78,.75)";
+  }
+})();
 
 // ---- Géométrie de l'axe -----------------------------------------------------
 var HAUTEUR = 17, CROISSANCE = 1.16;
@@ -238,6 +442,23 @@ DEGRES.forEach(function(d){
   e.position.set(-.55, yDeg[n], 0); monde.add(e);
 });
 
+// -- Sept Aqtâb : nœud universel, équivalence établie avec le Malakūt planétaire
+//    (hozo, verdict Sidy 2026-07-16/08-04) — auparavant présent dans les données
+//    (instrument-donnees.yaml v0.3.3) mais jamais rendu par ce prototype (v0.1
+//    antérieur à l'ouverture de la Phase 3) --
+AQTAB.forEach(function(a){
+  var n = a[0], px = 1.7;
+  var sph = new THREE.Mesh(
+    new THREE.SphereGeometry(.17, 24, 16),
+    new THREE.MeshStandardMaterial({color:0x9a7fc8, emissive:0x2c1f45, roughness:.4, metalness:.4}));
+  sph.position.set(px, yDeg[n], 0);
+  sph.userData = {label: a[1], deg: "degré " + n + " · nœud universel (hors arbre-tradition) — équivalence établie avec le Malakūt planétaire", src: SOURCE_AQTAB};
+  monde.add(sph); interactifs.push(sph);
+  var e = etiquette(a[1], .42, "rgba(154,127,200,.85)");
+  e.position.set(px + .95, yDeg[n], 0); monde.add(e);
+  monde.add(ligne([new THREE.Vector3(0, yDeg[n], 0), sph.position], 0xb03a2e, .85, false));
+});
+
 // -- Barzakh supérieur : disques en rotation (19-20) --
 var disques = [];
 [19, 20].forEach(function(n){
@@ -247,6 +468,54 @@ var disques = [];
   monde.add(t); disques.push(t);
 });
 
+// -- Anneau zodiacal : Falak al-Burūj (12 signes, degré 19) + Falak al-Manāzil
+//    (28 demeures lunaires, degré 20) — dédoublement confirmé (Sidy, 2026-07-27),
+//    spec-anneau-zodiacal.md §3.1/§3.5/§6. Rendu de matière déjà sourcée (table
+//    des 28 degrés) : aucun ancrage nouveau, aucun joint (§5 de la spec). Manquait
+//    au prototype v0.1 alors que la donnée existe depuis le 2026-07-26/27 — cause :
+//    "manque de rendu, non manque de donnée" (spec §0). Signes peuplés le
+//    2026-08-20 dans instrument-donnees.yaml (point ouvert §7.4 de la spec, comblé).
+(function(){
+  var R_INT = 2.60, R_EXT = 2.95, R_GRAD = 2.74;
+  var oblique = -Math.PI / 2 + ZODIAQUE.obliquite_deg * Math.PI / 180;
+
+  function segmentRadial(angle, r1, r2, couleur, opacite){
+    return ligne([
+      new THREE.Vector3(Math.cos(angle) * r1, Math.sin(angle) * r1, 0),
+      new THREE.Vector3(Math.cos(angle) * r2, Math.sin(angle) * r2, 0)
+    ], couleur, opacite, false);
+  }
+
+  // -- Degré 19 (Falak al-Burūj) : 12 signes, séparateurs pleine largeur + étiquette --
+  var gSignes = new THREE.Group();
+  gSignes.position.y = yDeg[ZODIAQUE.degre_falak_al_buruj];
+  gSignes.rotation.x = oblique;
+  gSignes.add(new THREE.Mesh(new THREE.RingGeometry(R_INT, R_EXT, 128),
+    new THREE.MeshBasicMaterial({color:0xaab4c8, transparent:true, opacity:.16, side:THREE.DoubleSide})));
+  ZODIAQUE.signes.forEach(function(s, i){
+    var a = (i / 12) * Math.PI * 2;
+    gSignes.add(segmentRadial(a, R_INT, R_EXT, 0xaab4c8, .55));
+    var aMil = ((i + .5) / 12) * Math.PI * 2;
+    var e = etiquette(s.label, .46, "rgba(170,180,200,.8)");
+    e.position.set(Math.cos(aMil) * (R_EXT + .3), Math.sin(aMil) * (R_EXT + .3), 0);
+    gSignes.add(e);
+  });
+  monde.add(gSignes);
+
+  // -- Degré 20 (Falak al-Manāzil) : 28 demeures — graduations discrètes, bord
+  //    intérieur, aucune étiquette permanente (spec §3.4 — non commensurable
+  //    avec les 12 signes, 2⅓ manzil par signe, jamais aligné visuellement) --
+  var gManazil = new THREE.Group();
+  gManazil.position.y = yDeg[ZODIAQUE.degre_falak_al_manazil];
+  gManazil.rotation.x = oblique;
+  gManazil.add(new THREE.Mesh(new THREE.RingGeometry(R_INT, R_EXT, 128),
+    new THREE.MeshBasicMaterial({color:0xaab4c8, transparent:true, opacity:.10, side:THREE.DoubleSide})));
+  for (var m = 0; m < 28; m++){
+    gManazil.add(segmentRadial((m / 28) * Math.PI * 2, R_INT, R_GRAD, 0xd4a94e, .34));
+  }
+  monde.add(gManazil);
+})();
+
 // -- Filament : al-Insān al-Kāmil (validé 2026-07-01) --
 (function(){
   var x = .6;
@@ -255,12 +524,25 @@ var disques = [];
   var noeud = new THREE.Mesh(new THREE.SphereGeometry(.09, 16, 12),
     new THREE.MeshBasicMaterial({color:0xffffff}));
   noeud.position.set(x, yEntre(19, 20), 0);
-  noeud.userData = {label:"Al-Insān al-Kāmil — filament traversant",
-    deg:"traverse les cinq Présences (rendu validé le 2026-07-01)",
-    src:"[[doctrinal/symboles/al-insan-al-kamil]]"};
+  noeud.userData = {label: FILAMENT.label + " — filament traversant",
+    deg:"traverse les cinq Présences (rendu validé le 2026-07-01) ; identité à quatre voiles traditionnelles (tasawwuf/qabbalah/taoïsme/vêdânta) établie le 2026-07-26, discernement clos",
+    src: FILAMENT.src + " ; " + SOURCE_HOMME_UNIVERSEL};
   monde.add(noeud); interactifs.push(noeud);
-  var e = etiquette("al-Insān al-Kāmil", .5, "rgba(242,242,250,.8)");
+  var e = etiquette(abreger(FILAMENT.label, 28), .5, "rgba(242,242,250,.8)");
   e.position.set(x + 1.35, yEntre(19, 20), 0); monde.add(e);
+
+  // -- Homme Universel : nœud universel, équivalence établie avec le filament
+  //    (hozo, verdict Sidy 2026-07-26) — même traitement que les Aqtâb --
+  var px = -1.7;
+  var sphHU = new THREE.Mesh(new THREE.SphereGeometry(.17, 24, 16),
+    new THREE.MeshStandardMaterial({color:0x9a7fc8, emissive:0x2c1f45, roughness:.4, metalness:.4}));
+  sphHU.position.set(px, yEntre(19, 20), 0);
+  sphHU.userData = {label: HOMME_UNIVERSEL.label, deg:"nœud universel (hors arbre-tradition) — équivalence établie avec le filament al-Insān al-Kāmil", src: HOMME_UNIVERSEL.src};
+  monde.add(sphHU); interactifs.push(sphHU);
+  posHommeUniversel = sphHU.position;
+  var eHU = etiquette(abreger(HOMME_UNIVERSEL.label, 22), .42, "rgba(154,127,200,.85)");
+  eHU.position.set(px - 1.15, yEntre(19, 20), 0); monde.add(eHU);
+  monde.add(ligne([noeud.position, sphHU.position], 0xb03a2e, .85, false));
 })();
 
 // -- Boucle 38 → 11 --
@@ -285,7 +567,7 @@ var posNotionnels = {};
     var sph = new THREE.Mesh(new THREE.SphereGeometry(.2, 24, 16),
       new THREE.MeshStandardMaterial({color:0x7f95c8, emissive:0x1d2742, roughness:.4, metalness:.35}));
     sph.position.copy(p);
-    sph.userData = {label: nd.label, deg:"nœud traversant / structurant (degré : —)", src: nd.src};
+    sph.userData = {label: nd.labelComplet || nd.label, deg:"nœud traversant / structurant (degré : —)", src: nd.src};
     monde.add(sph); interactifs.push(sph);
     var e = etiquette(nd.label, .5, "rgba(190,203,230,.8)");
     e.position.set(p.x, p.y + .55, p.z); monde.add(e);
@@ -294,14 +576,114 @@ var posNotionnels = {};
   var b = new THREE.Mesh(new THREE.SphereGeometry(.18, 24, 16),
     new THREE.MeshStandardMaterial({color:0xaab4c8, emissive:0x2a3350, roughness:.4, metalness:.4}));
   b.position.copy(pB);
-  b.userData = {label:"Le Barzakh", deg:"degré 19.5 — bande du Barzakh supérieur (le principe est général)", src:"[[doctrinal/symboles/barzakh]]"};
+  b.userData = {label: BARZAKH.label, deg:"degré 19.5 — bande du Barzakh supérieur (le principe est général)", src: BARZAKH.src};
   monde.add(b); interactifs.push(b);
-  var eB = etiquette("Barzakh", .48, "rgba(170,180,200,.85)");
+  var eB = etiquette(abreger(BARZAKH.label, 20), .48, "rgba(170,180,200,.85)");
   eB.position.set(pB.x + .8, pB.y + .4, pB.z); monde.add(eB);
   ANCRAGES.forEach(function(pr){
-    monde.add(ligne([posNotionnels[pr[0]], posNotionnels[pr[1]]], 0xb03a2e, .95, false));
+    var a = posNotionnels[pr[0]], b2 = posNotionnels[pr[1]];
+    if (a && b2) monde.add(ligne([a, b2], 0xb03a2e, .95, false));
   });
-  monde.add(ligne([posNotionnels["table"], new THREE.Vector3(0, yEntre(24, 25), 0)], 0x6a7494, .35, true));
+  if (posNotionnels[ID_TABLE]){
+    monde.add(ligne([posNotionnels[ID_TABLE], new THREE.Vector3(0, yEntre(24, 25), 0)], 0x6a7494, .35, true));
+  }
+})();
+
+// -- Registres parallèles (axe: "parallele") ---------------------------------
+//   Une tradition qui donne un ORDRE le long de l'axe sans échelle de degrés
+//   est rendue comme un registre propre, en retrait du tronc akbarien.
+//   Rien ne relie ce registre aux nœuds-degrés : la tradition ne donne pas
+//   cette correspondance, et le rendu ne l'invente pas (Cmd 3). La hauteur est
+//   une répartition proportionnelle sur l'étendue de l'axe — présentation,
+//   jamais correspondance. Deux registres coexistent donc SANS être alignés,
+//   exactement comme les 12 signes et les 28 manāzil de l'anneau (Art. 3
+//   sashimono : le décalage est une donnée, pas un défaut de rendu).
+(function(){
+  var PAR = REGISTRES.filter(function(r){
+    return r.axe === "parallele" && Array.isArray(r.domaines) && r.domaines.length;
+  });
+  if (!PAR.length) return;
+
+  var ECART_COL = 1.25;          // écart latéral entre colonnes
+  var Z_BASE = -6.0;             // retrait en profondeur du premier registre
+  var Z_PAS  = -3.2;             // retrait supplémentaire par registre suivant
+
+  PAR.forEach(function(reg, ir){
+    var z = Z_BASE + ir * Z_PAS;
+
+    // -- Niveaux : dérivés MÉCANIQUEMENT des rangs et colonnes déclarés.
+    //    Un domaine « gauche » suivant immédiatement un « droite » partage son
+    //    niveau (couple symétrique) ; tout autre cas ouvre un niveau. Pour
+    //    l'Arbre séphirothique, cela ramène 10 Sephiroth à 7 niveaux — la
+    //    réduction n'est pas posée à la main, elle tombe des données.
+    var doms = reg.domaines.slice().sort(function(a, b){ return (a.rang || 0) - (b.rang || 0); });
+    var niveau = 0, precedent = null;
+    doms.forEach(function(d){
+      if (precedent && precedent.colonne === "droite" && d.colonne === "gauche"){
+        d._niv = niveau;                    // couple symétrique : même niveau
+      } else {
+        d._niv = ++niveau;
+      }
+      precedent = d;
+    });
+    var nbNiveaux = niveau;
+
+    var yHaut = yDeg[11], yBas = yDeg[38];
+    var yDuNiveau = function(n){
+      return (nbNiveaux <= 1) ? (yHaut + yBas) / 2
+           : yHaut + (yBas - yHaut) * ((n - 1) / (nbNiveaux - 1));
+    };
+    var xDeCol = function(c){
+      return c === "droite" ? ECART_COL : (c === "gauche" ? -ECART_COL : 0);
+    };
+
+    // -- Les trois colonnes, tracées sur l'étendue effective du registre --
+    ["droite", "milieu", "gauche"].forEach(function(c){
+      var occup = doms.filter(function(d){ return (d.colonne || "milieu") === c; });
+      if (!occup.length) return;
+      var n1 = Math.min.apply(null, occup.map(function(d){ return d._niv; }));
+      var n2 = Math.max.apply(null, occup.map(function(d){ return d._niv; }));
+      monde.add(ligne([
+        new THREE.Vector3(xDeCol(c), yDuNiveau(n1) + .5, z),
+        new THREE.Vector3(xDeCol(c), yDuNiveau(n2) - .5, z)
+      ], 0x7fc8a9, c === "milieu" ? .5 : .3, c !== "milieu"));
+    });
+
+    // -- Les centres du registre --
+    doms.forEach(function(d){
+      var col = d.colonne || "milieu";
+      var p = new THREE.Vector3(xDeCol(col), yDuNiveau(d._niv), z);
+      var sph = new THREE.Mesh(new THREE.SphereGeometry(.15, 24, 16),
+        new THREE.MeshStandardMaterial({color:0x7fc8a9, emissive:0x1c3a30, roughness:.4, metalness:.4}));
+      sph.position.copy(p);
+      sph.userData = {
+        label: d.label,
+        deg: reg.label + " — rang " + (d.rang || "?") + ", " + col
+           + " (niveau " + d._niv + "/" + nbNiveaux + ")"
+           + (d.nom_divin ? " · Nom divin : " + d.nom_divin : "")
+           + (d.note ? " · " + d.note : "")
+           + " — aucun degré akbarien attribué : la tradition ne le donne pas",
+        src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
+      };
+      monde.add(sph); interactifs.push(sph);
+      var e = etiquette(abreger(d.label, 18), .44, "rgba(127,200,169,.85)");
+      e.position.set(p.x + (col === "gauche" ? -1.15 : 1.15), p.y, z);
+      monde.add(e);
+
+      // -- Équivalence établie déjà verdictée (ex. Homme Universel ↔ Vaishwânara) --
+      // Pilotée par la donnée (HOMME_UNIVERSEL.cibles, manifeste v0.2.4) : ne
+      // vise QUE le domaine nommément couvert par le discernement, jamais le
+      // registre entier — aucune ligne vers les autres domaines de vedanta,
+      // ni vers qabbalah/hindouisme-tantra.
+      if (posHommeUniversel && HOMME_UNIVERSEL.cibles
+          && HOMME_UNIVERSEL.cibles.indexOf(d.id) !== -1){
+        monde.add(ligne([posHommeUniversel, p], 0xb03a2e, .85, false));
+      }
+    });
+
+    var titre = etiquette(abreger(reg.label, 30), .52, "rgba(127,200,169,.7)");
+    titre.position.set(0, yDuNiveau(1) + 1.5, z); monde.add(titre);
+  });
 })();
 
 // -- Les quatre Angles de l'Espace --
@@ -429,10 +811,13 @@ requestAnimationFrame(anime);
 }
 }
 
-chargerThree([
-  'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js',
-  'https://unpkg.com/three@0.128.0/build/three.min.js'
-], 0);
+// Le manifeste d'abord (lecture locale, rapide, non bloquante), Three.js ensuite.
+chargerManifeste(function(){
+  chargerThree([
+    'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js',
+    'https://unpkg.com/three@0.128.0/build/three.min.js'
+  ], 0);
+});
 </script>
 </body>
 </html>
