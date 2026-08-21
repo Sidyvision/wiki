@@ -10,6 +10,53 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] rd | Registre vedanta — quatre états d'Âtmâ (v0.5.0)
+
+- **Contexte** : Sidy demande de mettre l'ensemble en regard avec *L'Homme et
+  son devenir selon le Vêdânta* pour compléter.
+- **Renommage** `hindouisme` → `hindouisme-tantra` : deux expositions
+  distinctes de Guénon (*Kundalinî-Yoga*/chakras vs États d'Âtmâ/*Vêdânta*) ne
+  doivent pas partager un même id (« une page = un sujet »).
+- **`instrument-donnees.yaml` v0.5.0** : quatrième registre `vedanta`, axe
+  parallèle, 4 domaines en rang — Vaishwânara (veille), Taijasa (rêve),
+  Prājña (sommeil profond), Turīya (le Quatrième) — colonne unique (états
+  d'un même être, pas de structure droite/gauche). Sources déjà au dépôt,
+  `traditionnel` :
+  [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]
+  et [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] (ch. XIV,
+  Taijasa). Turīya porte l'asymétrie posée par le texte lui-même (les trois
+  premiers pâdas ne comptent que pour un quart, le Quatrième vaut les trois
+  autres quarts), reprise telle quelle.
+- **Un ancrage déclaré, et un seul** : `universel/homme-universel` →
+  `vedanta/vaishvanara`, `etabli`, même source que l'ancrage existant vers
+  `tasawwuf/al-insan-al-kamil` (discernement clos 2026-07-26). **Ce n'est pas
+  une correspondance nouvelle** — Vaishwânara fait déjà partie de l'identité
+  Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara. Taijasa, Prājña,
+  Turīya et tous les domaines de qabbalah/hindouisme-tantra restent **sans
+  ancrage** : le verdict ne nomme que Vaishwânara.
+- **`generer-manifeste.py` v0.2.4** (commit séparé, préalable) : extension
+  mécanique — un ancrage peut désormais viser un domaine de registre, pas
+  seulement un nœud. Registres validés avant la boucle des ancrages, id de
+  domaines fusionnés dans le même espace que les nœuds ; collision d'id
+  bloquante (testée). Aucune donnée modifiée par cette seule extension (sortie
+  strictement identique avant toute nouvelle donnée).
+- **Prototype** : la sphère Vaishwânara reçoit une ligne d'équivalence établie
+  vers le nœud Homme Universel, **pilotée par la donnée**
+  (`HOMME_UNIVERSEL.cibles`, lu depuis le manifeste) — pas codée en dur.
+  Vérifié hors navigateur : 65 objets interactifs, cibles dérivées
+  correctement, ligne confirmée dans le graphe de scène.
+- **Manifeste régénéré** : 44 nœuds, 11 ancrages, 4 registres, 0
+  erreur/avertissement.
+- **Fiches** :
+  [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] §6
+  (renommé) et §7 (nouveau) ; `atelier/index.md`.
+- **Vigilance** : aucun ancrage inter-registre nouveau au-delà de la
+  traduction d'un verdict déjà clos (Cmd 3, Cmd 12).
+- **Commits** : `5a01d00` (extension du générateur), `679b904` (registre
+  vedanta).
+
+---
+
 ## [2026-08-20] rd | Registre hindouisme — chakras sur sushumnā (v0.4.1)
 
 - **Contexte** : Sidy demande de poursuivre avec le registre hindou,
