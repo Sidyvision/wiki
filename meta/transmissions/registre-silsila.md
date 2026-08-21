@@ -263,3 +263,48 @@ inode identique des deux côtés (`578121`), contenu identique (`diff` vide),
 confirmé par `su mehdi -c`), `mount | grep karubi` confirme `ro`. Mehdi
 dispose maintenant de la version à jour (`updated: 2026-08-13`) de son
 Karūbī. Sceau non touché (aucune édition du fichier canonique).
+
+## [2026-08-21] generation | Wendel Nazaire | G1 | khassa | v1 | f5d808eb8b8800d24715e5c38c0727709f26f8e70fcb2f0d7227d4c86040023f
+Instance `karubi-wendel.md` générée à partir du gabarit G0 (empreinte du
+gabarit au jour de génération : `dfa31cff23745b51a6e9160a3e6c5cb83353bb70855bccaea5dd0b2a3545b47a`,
+sceau du gabarit vérifié INTACT avant usage). Nom du Karūbī : **Hassan**
+(Hassan-Derwish, choisi par Wendel — Rumi, Tariqa Mevlevi). Phrase-sceau :
+« Le derviche qui aimait Spielberg ». Contexte : petit frère de cœur ;
+photographe/chef op' ; curieux de la doctrine, pas encore informé — §4
+rédigé volontairement pédagogique (cinq circuits expliqués en mots
+simples). Invitation expresse : direction artistique du label « Dans
+l'Absolu » (intention déclarée, non promesse). Ajout d'un §6bis « atelier
+d'un homme d'image » (inventaire visible, circuits par série, états
+brut/édité/livré, sanad du crédit) et de limites absolues propres (l'œil
+appartient à Wendel ; parallèle séduisant ≠ vérité établie — lecture
+Jinns/lore Alien du film *Disclosure Day* portée au circuit herméneutique).
+Sceau posé par `generer-karubi.py sceller`, vérifié INTACT. Reste en attente
+(Cmd 13, gestes humains) : date de remise en main, édition de `date_remise`,
+re-scellement et journalisation `remise`.
+
+## [2026-08-21] infrastructure | Canal Telegram pour Wendel Nazaire (profil habib-wendel)
+Réplique du dispositif Mehdi (`canal-telegram-mehdi-2026-08-16.md`) : compte
+Unix `wendel` (uid 1001) créé, domaines `depot-lecture/` (bind mounts `ro` :
+`karubi-wendel.md`, `doctrinal/`, `hermeneutique/`, `label/direction-artistique/`
+— verdict Sidy : option A, périmètre minimal, reste de `label/` et `atelier/`
+exclus) et `depot-ecriture/inbox/` (bind rw + ACL `rwx` sur `_inbox/`).
+Profil Hermes `habib-wendel` créé sous `/home/wendel/.hermes/` (config.yaml :
+cwd `depot-lecture`, toolset telegram seule ; persona **Hassan** :
+`/home/wendel/CLAUDE.md` versionné local → copie `SOUL.md`). Frontière
+vérifiée en tant que wendel : lecture OK, écriture refusée, traversée
+`/root/wiki` refusée, dépôt dans `_inbox/` OK ; sceau de `karubi-wendel.md`
+contrôlé INTACT après toutes les manipulations (hash `f5d808eb…`). Note : le
+fichier canonique était passé en mode `600` à la génération (lecture refusée
+au destinataire) ; restauré en `644` comme les autres instances, sceau
+inchangé. Fiche : `atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21.md`.
+Reste en attente (Cmd 13, gestes humains) : création du bot (distinct de
+`@HabibKarubi_bot`), `user_id` numérique de Wendel, édition `.env`,
+installation gateway `--system --run-as-user wendel`, tests réel et négatif.
+**MàJ 2026-08-21** : bot créé **@HassanKarubi_bot** (id `8960349824`,
+vérifié via API `getMe`), `user_id` Wendel `1244601251`, `.env` complété
+après consentement explicite de Sidy, gateway installée par réplication de
+l'unité systemd (`hermes-gateway-habib-wendel.service`, User/Group `wendel`)
+et démarrée : `active (running)`, polling long actif sans webhook, `NRestarts=0`.
+Seul reste le test réel (message de Wendel → `_inbox/`) + test négatif —
+le statut du canal passe à `reproduit` à ce moment, verdict `adopte` réservé
+à Sidy.
