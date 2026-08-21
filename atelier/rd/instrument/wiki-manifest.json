@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.3",
-  "generated_at": "2026-08-21T06:54:39+00:00",
-  "source_commit": "e96593505ee52f4b9fce6fcc920fea99b9261c18",
+  "generated_at": "2026-08-21T13:38:15+00:00",
+  "source_commit": "b6e3935f7d11b6462835bc08c9698cef669fa195",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -674,6 +674,61 @@
           "rang": 10,
           "colonne": "milieu",
           "nom_divin": "Adonaï"
+        }
+      ]
+    },
+    {
+      "id": "hindouisme",
+      "label": "Hindouisme (Vêdânta/Tantra) — les chakras sur sushumnā",
+      "fiche": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "axe": "parallele",
+      "canaux": {
+        "sushumna": "canal central — porte les chakras eux-mêmes",
+        "ida": "canal gauche, féminin/négatif — correspond à la Lune",
+        "pingala": "canal droit, masculin/positif — correspond au Soleil"
+      },
+      "domaines": [
+        {
+          "id": "hindouisme/muladhara",
+          "label": "Mūlādhāra — centre-racine",
+          "rang": 1,
+          "colonne": "milieu"
+        },
+        {
+          "id": "hindouisme/swadhishthana",
+          "label": "Swādhishthāna",
+          "rang": 2,
+          "colonne": "milieu"
+        },
+        {
+          "id": "hindouisme/manipura",
+          "label": "Manipūra",
+          "rang": 3,
+          "colonne": "milieu"
+        },
+        {
+          "id": "hindouisme/anahata",
+          "label": "Anāhata — région du cœur",
+          "rang": 4,
+          "colonne": "milieu"
+        },
+        {
+          "id": "hindouisme/vishuddha",
+          "label": "Vishuddha — région de la gorge",
+          "rang": 5,
+          "colonne": "milieu"
+        },
+        {
+          "id": "hindouisme/ajna",
+          "label": "Ājnā — le troisième œil",
+          "rang": 6,
+          "colonne": "milieu"
+        },
+        {
+          "id": "hindouisme/sahasrara",
+          "label": "Sahasrāra — le lotus à mille pétales",
+          "rang": 7,
+          "colonne": "milieu"
         }
       ]
     }

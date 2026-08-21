@@ -1,6 +1,14 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.4.0)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.4.1)
 #
+#   v0.4.1 (2026-08-20) : troisième registre — hindouisme (Vêdânta/Tantra), les
+#     chakras sur sushumnā. Source : doctrinal/sources/guenon-kundalini-yoga-
+#     etudes-hindouisme.md (status: traditionnel, déjà au dépôt depuis le
+#     2026-07-14). 7 domaines en rang (6 chakras + sahasrāra, colonne unique —
+#     tous sur l'axe central, à la différence de la Kabbale), aucun degré
+#     akbarien attribué. Voir rd/instrument/2026-08-20_instruction-branche-
+#     kabbale-phase3.md §5 pour le rapprochement Sephiroth/chakras que Guénon
+#     énonce lui-même dans ce texte — signalé, non déclaré en ancrage (Cmd 3).
 #   v0.4.0 (2026-08-20) : OUVERTURE DES REGISTRES. Nouveau bloc `registres:`.
 #     Motif (redressement doctrinal de Sidy, 2026-08-20) : l'Instrument est la
 #     représentation de l'UNIQUE Arbre Universel ; Arbre Universel et Homme
@@ -360,3 +368,33 @@ registres:
       - {id: qabbalah/hod, label: "Hod — la Majesté", rang: 8, colonne: gauche, nom_divin: "Elohe Tsevaot"}
       - {id: qabbalah/yesod, label: "Yesod — le Fondement", rang: 9, colonne: milieu, nom_divin: "El Hai / El Shaddaï"}
       - {id: qabbalah/malkhut, label: "Malkhut — le Royaume", rang: 10, colonne: milieu, nom_divin: "Adonaï"}
+
+  # --- Hindouisme (Vêdânta/Tantra) : les chakras sur sushumnā ----------------
+  # Source : doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme.md
+  # (status: traditionnel — Guénon, Études sur l'Hindouisme, « Kundalinî-Yoga »,
+  # s'appuyant sur Arthur Avalon/John Woodroffe, The Serpent Power).
+  # Guénon rapporte lui-même (§19 du texte) les six chakras + sahasrāra aux
+  # divisions de la colonne vertébrale, en ordre ascendant. Sahasrāra N'EST PAS
+  # compté au nombre des chakras : « centre de conscience » au-delà des limites
+  # de l'individualité (§21) — repris ici comme 7e domaine, distinct des six
+  # chakras, fidèle à cette réserve du texte.
+  # Tous les centres sont sur l'axe central (sushumnā) : à la différence de la
+  # Kabbale, pas de colonnes latérales — idā et pingalā sont des CANAUX
+  # (nādīs), non des centres ; documentés ci-dessous pour mémoire, non rendus
+  # comme domaines (le schéma des registres ne porte que des centres).
+  - id: hindouisme
+    label: "Hindouisme (Vêdânta/Tantra) — les chakras sur sushumnā"
+    fiche: doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme
+    axe: parallele
+    canaux:
+      sushumna: "canal central — porte les chakras eux-mêmes"
+      ida: "canal gauche, féminin/négatif — correspond à la Lune"
+      pingala: "canal droit, masculin/positif — correspond au Soleil"
+    domaines:
+      - {id: hindouisme/muladhara, label: "Mūlādhāra — centre-racine", rang: 1, colonne: milieu}
+      - {id: hindouisme/swadhishthana, label: "Swādhishthāna", rang: 2, colonne: milieu}
+      - {id: hindouisme/manipura, label: "Manipūra", rang: 3, colonne: milieu}
+      - {id: hindouisme/anahata, label: "Anāhata — région du cœur", rang: 4, colonne: milieu}
+      - {id: hindouisme/vishuddha, label: "Vishuddha — région de la gorge", rang: 5, colonne: milieu}
+      - {id: hindouisme/ajna, label: "Ājnā — le troisième œil", rang: 6, colonne: milieu}
+      - {id: hindouisme/sahasrara, label: "Sahasrāra — le lotus à mille pétales", rang: 7, colonne: milieu}

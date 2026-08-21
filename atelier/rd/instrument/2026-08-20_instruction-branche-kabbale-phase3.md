@@ -145,11 +145,12 @@ déclarées.
 
 ## 5. Suites proposées
 
-1. **Registre hindou** — chakras et *nādīs*. La matière est disponible
-   (texte Guénon déposé : sept « lotus », trois canaux `sushumnā`/`idā`/
-   `pingalā`, correspondance des colonnes latérales). Prérequis : archiver la
-   source en `doctrinal/sources/` — le texte doit d'abord être déposé dans
-   `raw/` **côté serveur** (`raw/` n'est jamais versionné, `.gitignore`).
+1. ~~**Registre hindou**~~ — **fait le 2026-08-20** (verdict Sidy : « poursuis »).
+   Voir §6. La source était déjà au dépôt
+   ([[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]], ouverte le
+   2026-07-14) : cette session n'a pas eu accès à `raw/` (exclu du dépôt git,
+   `.gitignore` — vide dans un clone distant), mais n'en avait pas besoin, le
+   texte primaire ayant été déposé directement par Sidy dans la conversation.
 2. **Registre de la Sitra Ahra** (§4), en expression kabbalistique propre.
 3. **Enrichir le registre `qabbalah`** : 22 sentiers, correspondance des
    Sephiroth aux membres (déjà dans la fiche source : bras droit/gauche,
@@ -158,6 +159,36 @@ déclarées.
    inter-registres, quand la reconstitution les aura fait apparaître. Le schéma
    les accueillera sans modification — un ancrage se déclare déjà entre deux
    `id`, et les domaines en portent.
+
+## 6. Registre hindouisme (2026-08-20)
+
+Déclaré dans `instrument-donnees.yaml` v0.4.1, sur la même source que celle
+qui avait déjà servi à clore
+[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]] :
+[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] (`traditionnel`,
+au dépôt depuis le 2026-07-14).
+
+**7 domaines en rang** (Guénon lui-même : *« les six chakras et sahasrâra ne
+forment qu'un total de sept »*) : Mūlādhāra, Swādhishthāna, Manipūra, Anāhata,
+Vishuddha, Ājnā, Sahasrāra. **Colonne unique** (`milieu`), à la différence de
+la Kabbale — Guénon situe les six premiers sur les divisions successives de
+la colonne vertébrale, en ordre ascendant ; *idā* et *pingalā* sont des
+**canaux** (*nādīs*), non des centres : documentés en donnée (champ `canaux`,
+non rendu géométriquement — le schéma des registres ne porte que des centres,
+ouverture possible en piste de fond) mais non déclarés comme domaines.
+
+**Un point à ne pas laisser filer** : Guénon donne dans ce même texte
+(§34-36) une correspondance rang-par-rang **explicite** entre les 7 niveaux
+séphirothiques et les 7 domaines hindous — Kether/Sahasrāra,
+Hokmah-Binah/Ājnā, Hesed-Geburah/Vishuddha, Tiphereth/Anāhata,
+Netsah-Hod/Manipūra, Iesod/Mūlādhāra (avec une réserve de Guénon lui-même sur
+l'appariement Iesod/Malkuth ↔ Mūlādhāra/Swādhishthāna — « il semble qu'il y
+ait lieu d'envisager une interversion »). **Elle n'est déclarée nulle part
+ici.** Elle est sourcée, explicite, et signalée — c'est un candidat de premier
+ordre pour une fiche `discernement` dédiée, au même titre que celle qui a
+établi l'Homme Universel : mais c'est un verdict, pas une exécution
+mécanique. Tant qu'elle n'est pas ouverte, les deux registres restent, comme
+le veut la règle, **sans aucun ancrage entre eux**.
 
 ---
 
