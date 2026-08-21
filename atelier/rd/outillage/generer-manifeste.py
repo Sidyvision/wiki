@@ -31,7 +31,17 @@ try:
 except ImportError:
     sys.exit("ERREUR : PyYAML manquant. Installer avec : apt install python3-yaml")
 
-# --- Constantes du schéma v0.2.3 --------------------------------------------
+# --- Constantes du schéma v0.2.4 --------------------------------------------
+#
+#   v0.2.4 (2026-08-20) : un ancrage peut désormais désigner, en source comme
+#     en cible, soit un nœud (`noeuds:`), soit un domaine de registre
+#     (`registres[].domaines[]`) — même espace d'identifiants, même validation.
+#     Motif : un ancrage entre un nœud universel et un domaine de registre peut
+#     être déjà établi par un discernement clos (ex. Homme Universel ↔
+#     Vaishwânara, verdict du 2026-07-26) sans qu'aucune correspondance
+#     inter-registres ne soit posée pour autant — seul CE domaine précis est
+#     visé, jamais le registre entier. Les collisions d'id entre nœud et
+#     domaine restent bloquantes.
 #
 #   v0.2.3 (2026-08-20) : propage le bloc `registres:` — partitions de l'unique
 #     axe vertical, une par tradition (voir instrument-donnees.yaml v0.4.0).
@@ -47,7 +57,7 @@ except ImportError:
 #     manifeste — écart signalé dans rd/instrument/2026-08-20_etat-avancement-
 #     pistes-developpement.md §5, fermé ici sur demande de Sidy.
 
-SCHEMA_VERSION = "0.2.3"
+SCHEMA_VERSION = "0.2.4"
 TYPES_ANCRAGE = {"equivalence", "complementarite", "subversion", "parodie"}
 ETATS_ANCRAGE = {"etabli", "suggere", "identifie"}
 DIRECTIONNALITES = {"none", "ascendant", "descendant"}
@@ -332,7 +342,28 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
         })
     par_id = {n["id"]: n for n in noeuds}
 
-    # 4. Valider et rattacher les ancrages (stockage à sens unique sur le nœud source).
+    # 3 bis. Valider les registres AVANT les ancrages : un domaine de registre
+    # peut être source ou cible d'un ancrage (v0.2.4) — ses identifiants
+    # doivent donc rejoindre `par_id` avant que la boucle des ancrages ne
+    # s'exécute. Une collision d'id entre un nœud et un domaine est bloquante.
+    registres_valides = valider_registres(decl_registres, fiches, erreurs, avertissements)
+    for reg in (registres_valides or []):
+        if not isinstance(reg, dict):
+            continue
+        for d in (reg.get("domaines") or []):
+            if not isinstance(d, dict):
+                continue
+            did = str(d.get("id", "")).strip()
+            if not did:
+                continue
+            if did in par_id:
+                erreurs.append(f"id « {did} » : collision entre un nœud et un domaine de registre")
+                continue
+            d.setdefault("ancrages", [])
+            par_id[did] = d
+
+    # 4. Valider et rattacher les ancrages (stockage à sens unique sur la source,
+    # nœud ou domaine de registre — même espace d'identifiants, v0.2.4).
     for a in decl_ancrages:
         src, typ = a.get("noeud", ""), a.get("type", "")
         etat = a.get("etat", "")
@@ -342,7 +373,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
         contexte = f"ancrage {src} → {cible} ({typ}/{etat})"
 
         if src not in par_id:
-            erreurs.append(f"{contexte} : nœud source non déclaré"); continue
+            erreurs.append(f"{contexte} : source non déclarée (ni nœud, ni domaine de registre)"); continue
         if typ not in TYPES_ANCRAGE:
             erreurs.append(f"{contexte} : type invalide"); continue
         if etat not in ETATS_ANCRAGE:
@@ -350,7 +381,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
         if direction not in DIRECTIONNALITES:
             erreurs.append(f"{contexte} : directionnalite invalide"); continue
         if cible is not None and cible not in par_id:
-            erreurs.append(f"{contexte} : cible non déclarée"); continue
+            erreurs.append(f"{contexte} : cible non déclarée (ni nœud, ni domaine de registre)"); continue
         if etat == "etabli" and not source_doc:
             erreurs.append(f"{contexte} : un ancrage etabli DOIT être sourcé (Cmd 5)"); continue
         if typ in ("subversion", "parodie") and cible is not None:
@@ -376,9 +407,8 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
             "note": a.get("note", ""),
         })
 
-    # 5. Valider et intégrer le bloc zodiaque (indépendant des nœuds/ancrages).
+    # 5. Valider et intégrer le bloc zodiaque (indépendant des nœuds/ancrages/registres).
     zodiaque_valide = valider_zodiaque(decl_zodiaque, decl_noeuds, erreurs, avertissements)
-    registres_valides = valider_registres(decl_registres, fiches, erreurs, avertissements)
 
     # 6. Rapport et sortie.
     for w in avertissements:
