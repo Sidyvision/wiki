@@ -10,6 +10,40 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] rd | Registre hindouisme — chakras sur sushumnā (v0.4.1)
+
+- **Contexte** : Sidy demande de poursuivre avec le registre hindou,
+  signalant que le corpus Guénon se trouve déjà en `raw/`.
+- **Note d'accès** : `raw/` est exclu du dépôt git (`.gitignore`) et donc vide
+  dans le clone de cette session — non bloquant : le texte primaire
+  (*Kundalinî-Yoga*, *Études sur l'Hindouisme*) avait été déposé directement
+  dans la conversation, et la fiche source correspondante existait déjà au
+  dépôt depuis le 2026-07-14
+  ([[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]],
+  `traditionnel`).
+- **`instrument-donnees.yaml` v0.4.1** : troisième registre, `hindouisme`
+  (axe parallèle). 7 domaines en rang — 6 chakras + sahasrāra (Guénon
+  lui-même : « les six chakras et sahasrâra ne forment qu'un total de
+  sept »), colonne unique (`milieu`) : à la différence de la Kabbale, tous
+  les centres sont sur l'axe central (*sushumnā*). *Idā* et *pingalā* sont
+  des canaux, non des centres — documentés en donnée (champ `canaux`,
+  informatif) mais non rendus comme domaines. Manifeste régénéré : 44
+  nœuds, **3 registres**, 0 erreur/avertissement.
+- **Signalement, non exécution** : Guénon donne dans ce même texte (§34-36)
+  une correspondance rang-par-rang **explicite** entre les 7 niveaux
+  séphirothiques et les 7 domaines hindous (Kether/Sahasrāra,
+  Hokmah-Binah/Ājnā, Hesed-Geburah/Vishuddha, Tiphereth/Anāhata,
+  Netsah-Hod/Manipūra, Iesod/Mūlādhāra — avec sa propre réserve sur le
+  dernier couple). Sourcée et signalée dans
+  [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] §6
+  comme candidat de premier ordre à une fiche `discernement` — **non
+  déclarée comme ancrage** : un verdict, pas une exécution mécanique
+  (Cmd 3, Cmd 12).
+- **Index mis à jour** : `atelier/index.md` (pointeur registres, comptage).
+- **Commit** : `b36834c`
+
+---
+
 ## [2026-08-20] rd | Ouverture des registres — plusieurs traditions sur l'unique axe
 
 - **Contexte** : redressement doctrinal de Sidy. L'instruction déposée plus tôt
