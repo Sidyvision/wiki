@@ -160,7 +160,11 @@ déclarées.
    les accueillera sans modification — un ancrage se déclare déjà entre deux
    `id`, et les domaines en portent.
 
-## 6. Registre hindouisme (2026-08-20)
+## 6. Registre hindouisme-tantra (2026-08-20)
+
+> Renommé `hindouisme` → `hindouisme-tantra` à l'ouverture du registre védantique
+> (§7) : deux expositions distinctes de Guénon, deux textes, deux id — pour ne
+> pas laisser un même mot recouvrir deux sujets (« une page = un sujet »).
 
 Déclaré dans `instrument-donnees.yaml` v0.4.1, sur la même source que celle
 qui avait déjà servi à clore
@@ -190,8 +194,59 @@ ordre pour une fiche `discernement` dédiée, au même titre que celle qui a
 mécanique. Tant qu'elle n'est pas ouverte, les deux registres restent, comme
 le veut la règle, **sans aucun ancrage entre eux**.
 
+## 7. Registre vedanta — les quatre états d'Âtmâ (2026-08-20)
+
+Demande de Sidy : « mettre tout ça en regard avec *L'Homme et son devenir
+selon le Vêdânta* pour compléter ». Cette œuvre est distincte du texte utilisé
+au §6 (*Kundalinî-Yoga*, dans *Études sur l'Hindouisme*) — d'où le renommage
+ci-dessus, pour garder les deux expositions séparées plutôt que de les fondre
+sous un même registre par simple proximité de tradition.
+
+**Sources** : deux fiches, déjà au dépôt, `traditionnel` —
+[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]
+(ch. XII cadre les quatre états, XIII = Vaishwânara, XV = Prājña, XVI = Turīya)
+et [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] (ch. XIV, nomme
+Taijasa). Le schéma des registres ne porte qu'une `fiche:` par registre ; la
+seconde source est citée en commentaire par domaine, faute de mieux — limite
+assumée, non un défaut de traçabilité (chaque domaine garde sa citation).
+
+**4 domaines en rang, colonne unique** — ce sont des états d'un même être, non
+des positions latérales, à la différence de la Kabbale :
+1. **Vaishwânara** — l'état de veille, manifestation grossière. Identifié à
+   *Virâj* ; c'est le domaine que Guénon identifie explicitement à l'Homme
+   Universel (ch. XIII).
+2. **Taijasa** — l'état de rêve, manifestation subtile.
+3. **Prājña** — le sommeil profond, état causal, informel et supra-individuel.
+4. **Turīya** — le Quatrième, inconditionné. Le texte lui-même pose une
+   asymétrie forte : les trois premiers pâdas ne comptent que pour un quart en
+   importance métaphysique, le Quatrième vaut les trois autres quarts — reprise
+   telle quelle, non lissée.
+
+**Un ancrage déclaré — et un seul.** *Vaishwânara fait déjà partie* de
+l'identité *Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara*, verdict
+clos le 2026-07-26. Ce n'est donc pas une correspondance nouvelle : c'est la
+même traduction technique que celle déjà appliquée au nœud `universel/homme-
+universel` lui-même (P1.1 de la fiche de pistes). Pour la déclarer proprement,
+le générateur a dû être étendu (schéma manifeste v0.2.4) : un ancrage peut
+désormais viser un domaine de registre, pas seulement un nœud — extension
+mécanique, testée (collision d'id bloquante, ancrage nœud→domaine vérifié),
+aucun nouvel arbitrage.
+
+**Ce qui reste précisément hors de cet ancrage** : les trois autres domaines
+de vedanta (Taijasa, Prājña, Turīya) et tous les domaines de qabbalah et de
+hindouisme-tantra restent sans aucun ancrage. Le verdict du 2026-07-26 ne
+nomme que Vaishwânara ; rien ne l'étend de soi-même aux autres pâdas ni aux
+Sephiroth/chakras (cf. §6, correspondance Guénon non déclarée).
+
+**Rendu** : dans le prototype, la sphère de Vaishwânara reçoit désormais une
+ligne d'équivalence établie (rouge, même traitement que les Aqtâb) vers le
+nœud Homme Universel — pilotée par la donnée (`HOMME_UNIVERSEL.cibles`, lu
+depuis le manifeste), pas codée en dur : toute future extension des cibles de
+ce nœud se rendrait automatiquement, sans toucher au prototype.
+
 ---
 
-*Signalement et architecture. Aucun ancrage inter-traditionnel déclaré, aucun
-joint qualifié, aucune fiche doctrinale créée ou modifiée. Les verdicts
-restent réservés à Sidy (Cmd 12).*
+*Signalement et architecture. Aucun ancrage inter-traditionnel *nouveau*
+déclaré — l'unique ancrage ajouté (Homme Universel → Vaishwânara) traduit un
+verdict déjà clos. Aucun joint qualifié au-delà. Aucune fiche doctrinale créée
+ou modifiée. Les verdicts restent réservés à Sidy (Cmd 12).*

@@ -1,6 +1,30 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.4.1)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.5.0)
 #
+#   v0.5.0 (2026-08-20) : quatrième registre — vedanta (les quatre états
+#     d'Âtmâ), sur demande de Sidy (« mettre en regard avec L'Homme et son
+#     devenir selon le Vêdânta pour compléter »). Source :
+#     doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya.md
+#     (ch. XII/XIII/XV/XVI, traditionnel) + guenon-homme-devenir-vedanta-ch9-14.md
+#     (ch. XIV, Taijasa). 4 domaines en rang, colonne unique — Vaishwânara
+#     (veille), Taijasa (rêve), Prājña (sommeil profond), Turīya (le
+#     Quatrième, inconditionné).
+#     Renommage : `hindouisme` → `hindouisme-tantra`, pour ne pas confondre
+#     deux expositions distinctes de Guénon (Kundalinî-Yoga/chakras d'un
+#     côté, États d'Âtmâ/Vêdânta de l'autre) sous un même id — cohérent avec
+#     « une page = un sujet ».
+#     ANCRAGE DÉCLARÉ (schéma manifeste v0.2.4, premier de son espèce) :
+#     universel/homme-universel → vedanta/vaishvanara, etat: etabli. Ce n'est
+#     PAS une correspondance inter-registres nouvelle : Vaishwânara fait DÉJÀ
+#     partie de l'identité Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara,
+#     verdict clos le 2026-07-26
+#     (doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara).
+#     Le nœud universel/homme-universel a déjà cette source ; cet ancrage en
+#     est la seconde branche déclarée (la première visait tasawwuf/al-insan-
+#     al-kamil). Aucun autre domaine des registres — ni qabbalah, ni
+#     hindouisme-tantra, ni les 3 autres domaines de vedanta — ne reçoit
+#     d'ancrage : seule Vaishwânara est nommément comprise dans le verdict.
+#     Voir rd/instrument/2026-08-20_instruction-branche-kabbale-phase3.md §7.
 #   v0.4.1 (2026-08-20) : troisième registre — hindouisme (Vêdânta/Tantra), les
 #     chakras sur sushumnā. Source : doctrinal/sources/guenon-kundalini-yoga-
 #     etudes-hindouisme.md (status: traditionnel, déjà au dépôt depuis le
@@ -279,6 +303,17 @@ ancrages:
   - {noeud: universel/homme-universel, type: equivalence, etat: etabli, directionnalite: none,
      cible: tasawwuf/al-insan-al-kamil, source: "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"}
 
+  # --- ⭐ Homme Universel → Vaishwânara (établi, hozo, verdict Sidy 2026-07-26) ---
+  # Second ancrage du même nœud (schéma manifeste v0.2.4 : cible = domaine de
+  # registre). Vaishwânara fait PARTIE de l'identité établie par ce même
+  # discernement (Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara) — ce
+  # n'est pas une correspondance inter-registres nouvelle, seul ce domaine
+  # précis est visé. Les 3 autres domaines de vedanta (Taijasa, Prājña,
+  # Turīya) et tous les domaines de qabbalah/hindouisme-tantra restent SANS
+  # ancrage : rien dans le verdict ne les concerne.
+  - {noeud: universel/homme-universel, type: equivalence, etat: etabli, directionnalite: none,
+     cible: vedanta/vaishvanara, source: "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"}
+
 zodiaque:
   degre_falak_al_buruj: 19       # 12 signes (Toit du Jardin paradisiaque)
   degre_falak_al_manazil: 20     # 28 Demeures lunaires (Terre des Jardins)
@@ -369,10 +404,11 @@ registres:
       - {id: qabbalah/yesod, label: "Yesod — le Fondement", rang: 9, colonne: milieu, nom_divin: "El Hai / El Shaddaï"}
       - {id: qabbalah/malkhut, label: "Malkhut — le Royaume", rang: 10, colonne: milieu, nom_divin: "Adonaï"}
 
-  # --- Hindouisme (Vêdânta/Tantra) : les chakras sur sushumnā ----------------
+  # --- Hindouisme (Tantra) : les chakras sur sushumnā -------------------------
   # Source : doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme.md
   # (status: traditionnel — Guénon, Études sur l'Hindouisme, « Kundalinî-Yoga »,
-  # s'appuyant sur Arthur Avalon/John Woodroffe, The Serpent Power).
+  # s'appuyant sur Arthur Avalon/John Woodroffe, The Serpent Power). Distinct du
+  # registre `vedanta` ci-dessous (autre texte, autre doctrine — cf. v0.5.0).
   # Guénon rapporte lui-même (§19 du texte) les six chakras + sahasrāra aux
   # divisions de la colonne vertébrale, en ordre ascendant. Sahasrāra N'EST PAS
   # compté au nombre des chakras : « centre de conscience » au-delà des limites
@@ -382,8 +418,8 @@ registres:
   # Kabbale, pas de colonnes latérales — idā et pingalā sont des CANAUX
   # (nādīs), non des centres ; documentés ci-dessous pour mémoire, non rendus
   # comme domaines (le schéma des registres ne porte que des centres).
-  - id: hindouisme
-    label: "Hindouisme (Vêdânta/Tantra) — les chakras sur sushumnā"
+  - id: hindouisme-tantra
+    label: "Hindouisme (Tantra) — les chakras sur sushumnā"
     fiche: doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme
     axe: parallele
     canaux:
@@ -398,3 +434,34 @@ registres:
       - {id: hindouisme/vishuddha, label: "Vishuddha — région de la gorge", rang: 5, colonne: milieu}
       - {id: hindouisme/ajna, label: "Ājnā — le troisième œil", rang: 6, colonne: milieu}
       - {id: hindouisme/sahasrara, label: "Sahasrāra — le lotus à mille pétales", rang: 7, colonne: milieu}
+
+  # --- Vêdânta : les quatre états (pâdas) d'Âtmâ ------------------------------
+  # Source primaire : doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-
+  # brahma-turiya.md (ch. XII cadre les 4 états, XIII = Vaishwânara/veille,
+  # XV = Prājña/sommeil profond, XVI = Turīya) ; le nom Taijasa (rêve) vient de
+  # guenon-homme-devenir-vedanta-ch9-14.md, ch. XIV — non déclarable en `fiche:`
+  # unique (le schéma n'en porte qu'une par registre) ; cité en commentaire par
+  # domaine, fiche des deux sources listée dans l'instruction associée.
+  # D'après la Māṇḍūkya Upaniṣad (citée par Guénon, ch. XVI) : « Veille, rêve,
+  # sommeil profond, et ce qui est au-delà, tels sont les quatre états d'Âtmâ ».
+  # Colonne unique (milieu) : ce sont des états d'un même être, non des
+  # positions latérales — aucune structure droite/gauche dans ce texte.
+  # DISTINCT du registre `hindouisme-tantra` : autre ouvrage, autre doctrine
+  # (États d'Âtmâ vs Kundalinî/chakras) — non fondu, malgré l'origine commune.
+  - id: vedanta
+    label: "Vêdânta — les quatre états (pâdas) d'Âtmâ"
+    fiche: doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya
+    axe: parallele
+    domaines:
+      - {id: vedanta/vaishvanara, label: "Vaishwânara — l'état de veille (manifestation grossière)",
+         rang: 1, colonne: milieu,
+         note: "Identifié à Virâj, l'Intelligence cosmique régissant le monde corporel ; identité posée par Guénon avec l'Homme Universel (ch. XIII)."}
+      - {id: vedanta/taijasa, label: "Taijasa — l'état de rêve (manifestation subtile)",
+         rang: 2, colonne: milieu,
+         note: "« Au cœur de la lumière » (ch. XIV, guenon-homme-devenir-vedanta-ch9-14.md)."}
+      - {id: vedanta/prajna, label: "Prājña — le sommeil profond (état causal)",
+         rang: 3, colonne: milieu,
+         note: "État informel et supra-individuel, non « psychique » (ch. XV) ; identifié à Mūla-Prakriti."}
+      - {id: vedanta/turiya, label: "Turīya — le Quatrième, état inconditionné",
+         rang: 4, colonne: milieu,
+         note: "« Invisible, non-agissant, incompréhensible, indéfinissable » (ch. XVI) ; les trois premiers pâdas ne comptent que pour un quart en importance métaphysique, le Quatrième vaut les trois autres quarts — asymétrie posée par le texte lui-même, non par ce dépôt."}

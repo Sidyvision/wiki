@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.4",
-  "generated_at": "2026-08-21T13:50:14+00:00",
-  "source_commit": "71c95277ce2967833d8fd0faa21bf0821c0f18a4",
+  "generated_at": "2026-08-21T13:51:53+00:00",
+  "source_commit": "5a01d0096394795fcdc9175aec13dce32de70bde",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -485,6 +485,14 @@
           "cible": "tasawwuf/al-insan-al-kamil",
           "source": "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]",
           "note": ""
+        },
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "vedanta/vaishvanara",
+          "source": "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]",
+          "note": ""
         }
       ]
     }
@@ -693,8 +701,8 @@
       ]
     },
     {
-      "id": "hindouisme",
-      "label": "Hindouisme (Vêdânta/Tantra) — les chakras sur sushumnā",
+      "id": "hindouisme-tantra",
+      "label": "Hindouisme (Tantra) — les chakras sur sushumnā",
       "fiche": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
       "axe": "parallele",
       "canaux": {
@@ -750,6 +758,46 @@
           "label": "Sahasrāra — le lotus à mille pétales",
           "rang": 7,
           "colonne": "milieu",
+          "ancrages": []
+        }
+      ]
+    },
+    {
+      "id": "vedanta",
+      "label": "Vêdânta — les quatre états (pâdas) d'Âtmâ",
+      "fiche": "doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya",
+      "axe": "parallele",
+      "domaines": [
+        {
+          "id": "vedanta/vaishvanara",
+          "label": "Vaishwânara — l'état de veille (manifestation grossière)",
+          "rang": 1,
+          "colonne": "milieu",
+          "note": "Identifié à Virâj, l'Intelligence cosmique régissant le monde corporel ; identité posée par Guénon avec l'Homme Universel (ch. XIII).",
+          "ancrages": []
+        },
+        {
+          "id": "vedanta/taijasa",
+          "label": "Taijasa — l'état de rêve (manifestation subtile)",
+          "rang": 2,
+          "colonne": "milieu",
+          "note": "« Au cœur de la lumière » (ch. XIV, guenon-homme-devenir-vedanta-ch9-14.md).",
+          "ancrages": []
+        },
+        {
+          "id": "vedanta/prajna",
+          "label": "Prājña — le sommeil profond (état causal)",
+          "rang": 3,
+          "colonne": "milieu",
+          "note": "État informel et supra-individuel, non « psychique » (ch. XV) ; identifié à Mūla-Prakriti.",
+          "ancrages": []
+        },
+        {
+          "id": "vedanta/turiya",
+          "label": "Turīya — le Quatrième, état inconditionné",
+          "rang": 4,
+          "colonne": "milieu",
+          "note": "« Invisible, non-agissant, incompréhensible, indéfinissable » (ch. XVI) ; les trois premiers pâdas ne comptent que pour un quart en importance métaphysique, le Quatrième vaut les trois autres quarts — asymétrie posée par le texte lui-même, non par ce dépôt.",
           "ancrages": []
         }
       ]

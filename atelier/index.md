@@ -51,8 +51,8 @@ akbarien sur l'axe des 38 degrés du *Nafas al-Raḥmān*. Voir
   manifeste]]
 
 **Données et génération** (Phase 1, livrée) :
-- `instrument-donnees.yaml` — v0.4.1, 44 nœuds (8 notionnels/structurants + 28 nœuds-degrés + 8 nœuds universels : 7 Aqtâb + Homme Universel) + 12 signes du zodiaque + **3 registres**
-- `generer-manifeste.py` — générateur déterministe, validations bloquantes, zéro LLM dans la boucle
+- `instrument-donnees.yaml` — v0.5.0, 44 nœuds (8 notionnels/structurants + 28 nœuds-degrés + 8 nœuds universels : 7 Aqtâb + Homme Universel) + 12 signes du zodiaque + **4 registres**
+- `generer-manifeste.py` — v0.2.4, générateur déterministe, validations bloquantes, zéro LLM dans la boucle
 - [[atelier/rd/instrument/angles-de-l-espace|Angles de l'Espace]] — les quatre Angles astrologiques (AS/DS/MC/FC), relectures tranchées
 
 **Registres** (ouvert 2026-08-20) — partitions du même axe vertical, une par
@@ -60,9 +60,13 @@ tradition, non alignées entre elles (Art. 3 sashimono) :
 [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3|architecture
 et instruction]]. `tasawwuf` (axe principal, 5 Ḥaḍarāt en bornes de degrés),
 `qabbalah` (axe parallèle, 10 Sephiroth/3 colonnes → 7 niveaux dérivés
-mécaniquement), `hindouisme` (axe parallèle, 6 chakras + sahasrāra, colonne
-unique). Aucun ancrage inter-registres déclaré ; refus mécanique par le
-générateur de tout domaine portant à la fois `degres` et `rang` (Cmd 3).
+mécaniquement), `hindouisme-tantra` (axe parallèle, 6 chakras + sahasrāra,
+colonne unique — *Kundalinî-Yoga*), `vedanta` (axe parallèle, 4 états d'Âtmâ —
+Vaishwânara/Taijasa/Prājña/Turīya — *L'Homme et son devenir selon le
+Vêdânta*). Un seul ancrage inter-registre déclaré : Homme Universel →
+Vaishwânara (traduction du verdict du 2026-07-26, aucun nouvel arbitrage) ;
+tout le reste en attente. Refus mécanique par le générateur de tout domaine
+portant à la fois `degres` et `rang` (Cmd 3).
 
 **Prototype** :
 - `instrument-prototype.html` — prototype Three.js, axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels ; **mis à jour le 2026-08-20** : sept nœuds Aqtâb + nœud Homme Universel rendus (équivalences établies), anneau zodiacal ajouté (12 signes au degré 19, 28 manāzil au degré 20, obliquité 23,44°), et surtout **lecture dynamique de `wiki-manifest.json`** — le prototype dérive désormais ses données du manifeste au lieu de les porter en dur (repli conservé si le fichier est inaccessible, provenance affichée) — voir [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement|§5]] et [[atelier/rd/outillage/spec-generateur-manifeste|spec §5 ter]]

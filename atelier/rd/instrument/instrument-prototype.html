@@ -223,8 +223,14 @@ var BARZAKH = {
 };
 var HOMME_UNIVERSEL = {
   label: "Homme Universel — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara",
-  src: SOURCE_HOMME_UNIVERSEL
+  src: SOURCE_HOMME_UNIVERSEL,
+  cibles: []   // ids d'ancrage établi (nœuds ou domaines de registre) ; peuplé
+               // depuis le manifeste (schéma v0.2.4) — vide en repli.
 };
+// Position 3D du nœud Homme Universel, fixée une fois le filament construit ;
+// permet aux domaines de registre (Vaishwânara notamment) de tracer une ligne
+// d'équivalence établie SANS dupliquer la géométrie du filament.
+var posHommeUniversel = null;
 // Registres — partitions du MÊME axe vertical, une par tradition. Vide en repli :
 // le registre est une notion introduite avec le manifeste v0.2.3 / données v0.4.0.
 var REGISTRES = [];
@@ -294,7 +300,8 @@ if (MANIFESTE){
 
   var nHU = trouver("universel/homme-universel");
   if (nHU){
-    HOMME_UNIVERSEL = {label: nHU.label, src: nHU.source};
+    var cibles = (nHU.ancrages || []).map(function(a){ return a.cible; }).filter(Boolean);
+    HOMME_UNIVERSEL = {label: nHU.label, src: nHU.source, cibles: cibles};
     SOURCE_HOMME_UNIVERSEL = nHU.source;
   }
   var nFil = trouver("tasawwuf/al-insan-al-kamil");
@@ -532,6 +539,7 @@ var disques = [];
   sphHU.position.set(px, yEntre(19, 20), 0);
   sphHU.userData = {label: HOMME_UNIVERSEL.label, deg:"nœud universel (hors arbre-tradition) — équivalence établie avec le filament al-Insān al-Kāmil", src: HOMME_UNIVERSEL.src};
   monde.add(sphHU); interactifs.push(sphHU);
+  posHommeUniversel = sphHU.position;
   var eHU = etiquette(abreger(HOMME_UNIVERSEL.label, 22), .42, "rgba(154,127,200,.85)");
   eHU.position.set(px - 1.15, yEntre(19, 20), 0); monde.add(eHU);
   monde.add(ligne([noeud.position, sphHU.position], 0xb03a2e, .85, false));
@@ -653,6 +661,7 @@ var posNotionnels = {};
         deg: reg.label + " — rang " + (d.rang || "?") + ", " + col
            + " (niveau " + d._niv + "/" + nbNiveaux + ")"
            + (d.nom_divin ? " · Nom divin : " + d.nom_divin : "")
+           + (d.note ? " · " + d.note : "")
            + " — aucun degré akbarien attribué : la tradition ne le donne pas",
         src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
       };
@@ -660,6 +669,16 @@ var posNotionnels = {};
       var e = etiquette(abreger(d.label, 18), .44, "rgba(127,200,169,.85)");
       e.position.set(p.x + (col === "gauche" ? -1.15 : 1.15), p.y, z);
       monde.add(e);
+
+      // -- Équivalence établie déjà verdictée (ex. Homme Universel ↔ Vaishwânara) --
+      // Pilotée par la donnée (HOMME_UNIVERSEL.cibles, manifeste v0.2.4) : ne
+      // vise QUE le domaine nommément couvert par le discernement, jamais le
+      // registre entier — aucune ligne vers les autres domaines de vedanta,
+      // ni vers qabbalah/hindouisme-tantra.
+      if (posHommeUniversel && HOMME_UNIVERSEL.cibles
+          && HOMME_UNIVERSEL.cibles.indexOf(d.id) !== -1){
+        monde.add(ligne([posHommeUniversel, p], 0xb03a2e, .85, false));
+      }
     });
 
     var titre = etiquette(abreger(reg.label, 30), .52, "rgba(127,200,169,.7)");
