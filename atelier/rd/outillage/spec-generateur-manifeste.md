@@ -153,6 +153,39 @@ pas. Les étiquettes 3D abrègent mécaniquement les titres doctrinaux longs
 (fonction `abreger`, coupe au premier séparateur naturel) ; l'info-bulle
 affiche toujours le libellé intégral du manifeste, jamais une reformulation.
 
+## 5 quater. Bloc `registres:` (schéma v0.2.3, ajouté 2026-08-20)
+
+Un **registre** est la partition de l'unique axe vertical propre à une
+tradition (données `instrument-donnees.yaml` v0.4.0). Les registres coexistent
+sur le même axe **sans être alignés entre eux** — même discipline que les 12
+signes et les 28 manāzil de l'anneau zodiacal (Art. 3 sashimono).
+
+Deux formes de domaine, **exclusives** :
+- `degres: [debut, fin]` — la tradition situe le domaine sur l'échelle des 38
+  degrés (cas des Ḥaḍarāt akbariennes) ;
+- `rang: n` (+ `colonne:`) — la tradition donne un ordre le long de l'axe sans
+  échelle de degrés (cas des Sephiroth).
+
+**Validations bloquantes** : `registres` non-liste ; `id` de registre ou de
+domaine manquant ou dupliqué ; `label` manquant ; `axe` hors
+{`principal`, `parallele`} ; `fiche` manquante ou introuvable au dépôt ;
+`domaines` vide ; domaine sans `degres` ni `rang` ; `degres` mal formé ou aux
+bornes inversées ; `rang` non entier ≥ 1 ; **et surtout** un domaine portant à
+la fois `degres` et `rang`.
+
+Ce dernier refus est le cœur du dispositif : porter les deux reviendrait à
+déclarer en donnée une **correspondance point à point** qu'aucune tradition ne
+donne — précisément ce que le Cmd 3 réserve à une fiche `discernement`
+tranchée. La règle cesse d'être seulement écrite dans le protocole : elle est
+**appliquée mécaniquement par l'outil**.
+
+**Avertissement non bloquant** : un registre mêlant les deux formes de domaine
+(légitime en principe, assez inhabituel pour mériter un signalement).
+
+Corollaire de méthode : **déclarer un registre ne pose aucun joint** — c'est
+documenter une tradition dans son expression propre. Les ancrages
+inter-registres restent hors de ce bloc et sous verdict (Cmd 3, Cmd 12).
+
 ## 6. Ce que le script ne fait pas
 
 - Il ne parse jamais le corps des fiches, à une exception près : le bloc 🔍 normalisé

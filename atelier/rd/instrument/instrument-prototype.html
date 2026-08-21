@@ -62,7 +62,8 @@
     <i style="background:#e8e8f0"></i>filament — al-Insān al-Kāmil<br>
     <i style="background:var(--rouge)"></i>équivalence établie (hozo)<br>
     <i style="background:#9a7fc8"></i>nœud universel (hors arbre-tradition)<br>
-    <i style="background:var(--argent)"></i>anneau zodiacal (signes 19 / manāzil 20)
+    <i style="background:var(--argent)"></i>anneau zodiacal (signes 19 / manāzil 20)<br>
+    <i style="background:#7fc8a9"></i>registre parallèle (autre partition du même axe)
   </div>
 </div>
 
@@ -224,6 +225,9 @@ var HOMME_UNIVERSEL = {
   label: "Homme Universel — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara",
   src: SOURCE_HOMME_UNIVERSEL
 };
+// Registres — partitions du MÊME axe vertical, une par tradition. Vide en repli :
+// le registre est une notion introduite avec le manifeste v0.2.3 / données v0.4.0.
+var REGISTRES = [];
 
 // ---- Dérivation depuis le manifeste -----------------------------------------
 //   Quand wiki-manifest.json a pu être lu, il REMPLACE intégralement les
@@ -307,6 +311,18 @@ if (MANIFESTE){
   if (MANIFESTE.zodiaque && Array.isArray(MANIFESTE.zodiaque.signes)
       && MANIFESTE.zodiaque.signes.length){
     ZODIAQUE = MANIFESTE.zodiaque;
+  }
+
+  if (Array.isArray(MANIFESTE.registres)) REGISTRES = MANIFESTE.registres;
+
+  // Les bandes de Présences proviennent du registre `tasawwuf` quand il est
+  // déclaré (elles y sont des domaines à bornes de degrés).
+  var regTas = REGISTRES.filter(function(r){ return r.id === "tasawwuf"; })[0];
+  if (regTas && Array.isArray(regTas.domaines)){
+    var bandes = regTas.domaines
+      .filter(function(d){ return Array.isArray(d.degres) && d.degres.length === 2; })
+      .map(function(d){ return [d.degres[0], d.degres[1], d.label]; });
+    if (bandes.length) BANDES = bandes;
   }
 }
 
@@ -563,6 +579,92 @@ var posNotionnels = {};
   if (posNotionnels[ID_TABLE]){
     monde.add(ligne([posNotionnels[ID_TABLE], new THREE.Vector3(0, yEntre(24, 25), 0)], 0x6a7494, .35, true));
   }
+})();
+
+// -- Registres parallèles (axe: "parallele") ---------------------------------
+//   Une tradition qui donne un ORDRE le long de l'axe sans échelle de degrés
+//   est rendue comme un registre propre, en retrait du tronc akbarien.
+//   Rien ne relie ce registre aux nœuds-degrés : la tradition ne donne pas
+//   cette correspondance, et le rendu ne l'invente pas (Cmd 3). La hauteur est
+//   une répartition proportionnelle sur l'étendue de l'axe — présentation,
+//   jamais correspondance. Deux registres coexistent donc SANS être alignés,
+//   exactement comme les 12 signes et les 28 manāzil de l'anneau (Art. 3
+//   sashimono : le décalage est une donnée, pas un défaut de rendu).
+(function(){
+  var PAR = REGISTRES.filter(function(r){
+    return r.axe === "parallele" && Array.isArray(r.domaines) && r.domaines.length;
+  });
+  if (!PAR.length) return;
+
+  var ECART_COL = 1.25;          // écart latéral entre colonnes
+  var Z_BASE = -6.0;             // retrait en profondeur du premier registre
+  var Z_PAS  = -3.2;             // retrait supplémentaire par registre suivant
+
+  PAR.forEach(function(reg, ir){
+    var z = Z_BASE + ir * Z_PAS;
+
+    // -- Niveaux : dérivés MÉCANIQUEMENT des rangs et colonnes déclarés.
+    //    Un domaine « gauche » suivant immédiatement un « droite » partage son
+    //    niveau (couple symétrique) ; tout autre cas ouvre un niveau. Pour
+    //    l'Arbre séphirothique, cela ramène 10 Sephiroth à 7 niveaux — la
+    //    réduction n'est pas posée à la main, elle tombe des données.
+    var doms = reg.domaines.slice().sort(function(a, b){ return (a.rang || 0) - (b.rang || 0); });
+    var niveau = 0, precedent = null;
+    doms.forEach(function(d){
+      if (precedent && precedent.colonne === "droite" && d.colonne === "gauche"){
+        d._niv = niveau;                    // couple symétrique : même niveau
+      } else {
+        d._niv = ++niveau;
+      }
+      precedent = d;
+    });
+    var nbNiveaux = niveau;
+
+    var yHaut = yDeg[11], yBas = yDeg[38];
+    var yDuNiveau = function(n){
+      return (nbNiveaux <= 1) ? (yHaut + yBas) / 2
+           : yHaut + (yBas - yHaut) * ((n - 1) / (nbNiveaux - 1));
+    };
+    var xDeCol = function(c){
+      return c === "droite" ? ECART_COL : (c === "gauche" ? -ECART_COL : 0);
+    };
+
+    // -- Les trois colonnes, tracées sur l'étendue effective du registre --
+    ["droite", "milieu", "gauche"].forEach(function(c){
+      var occup = doms.filter(function(d){ return (d.colonne || "milieu") === c; });
+      if (!occup.length) return;
+      var n1 = Math.min.apply(null, occup.map(function(d){ return d._niv; }));
+      var n2 = Math.max.apply(null, occup.map(function(d){ return d._niv; }));
+      monde.add(ligne([
+        new THREE.Vector3(xDeCol(c), yDuNiveau(n1) + .5, z),
+        new THREE.Vector3(xDeCol(c), yDuNiveau(n2) - .5, z)
+      ], 0x7fc8a9, c === "milieu" ? .5 : .3, c !== "milieu"));
+    });
+
+    // -- Les centres du registre --
+    doms.forEach(function(d){
+      var col = d.colonne || "milieu";
+      var p = new THREE.Vector3(xDeCol(col), yDuNiveau(d._niv), z);
+      var sph = new THREE.Mesh(new THREE.SphereGeometry(.15, 24, 16),
+        new THREE.MeshStandardMaterial({color:0x7fc8a9, emissive:0x1c3a30, roughness:.4, metalness:.4}));
+      sph.position.copy(p);
+      sph.userData = {
+        label: d.label,
+        deg: reg.label + " — rang " + (d.rang || "?") + ", " + col
+           + " (niveau " + d._niv + "/" + nbNiveaux + ")"
+           + (d.nom_divin ? " · Nom divin : " + d.nom_divin : "")
+           + " — aucun degré akbarien attribué : la tradition ne le donne pas",
+        src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
+      };
+      monde.add(sph); interactifs.push(sph);
+      var e = etiquette(abreger(d.label, 18), .44, "rgba(127,200,169,.85)");
+      e.position.set(p.x + (col === "gauche" ? -1.15 : 1.15), p.y, z);
+      monde.add(e);
+    });
+
+    var titre = etiquette(abreger(reg.label, 30), .52, "rgba(127,200,169,.7)");
+    titre.position.set(0, yDuNiveau(1) + 1.5, z); monde.add(titre);
+  });
 })();
 
 // -- Les quatre Angles de l'Espace --

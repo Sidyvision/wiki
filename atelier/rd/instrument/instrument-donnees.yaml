@@ -1,6 +1,25 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.3.4)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.4.0)
 #
+#   v0.4.0 (2026-08-20) : OUVERTURE DES REGISTRES. Nouveau bloc `registres:`.
+#     Motif (redressement doctrinal de Sidy, 2026-08-20) : l'Instrument est la
+#     représentation de l'UNIQUE Arbre Universel ; Arbre Universel et Homme
+#     Universel sont équivalents dans le principe. L'identité
+#     Insān Kāmil = Adam Qadmôn = Vaishwânara étant CLOSE (2026-07-26), il
+#     s'agit du MÊME axe vertical — l'axe n'est donc pas à établir, il est
+#     acquis. Sephiroth et chakras sont des centres décrivant des DOMAINES le
+#     long de cet axe : chaque tradition orthodoxe partitionne le même axe
+#     dans son expression propre, SANS devoir rendre une même notion par une
+#     même expression, et SANS correspondance formelle point à point.
+#     Un `registre` = la partition de l'axe propre à une tradition. Les
+#     registres coexistent sans être alignés — même discipline que les 12
+#     signes et les 28 manāzil de l'anneau zodiacal (Art. 3 sashimono,
+#     jamais de joint forcé ; le décalage est une donnée, pas un défaut).
+#     AUCUN ancrage inter-registres n'est déclaré ici : la correspondance
+#     s'explicitera au fur et à mesure de la reconstitution de l'ensemble,
+#     sous verdict (Cmd 3, Cmd 12). Déclarer un registre, c'est documenter une
+#     tradition dans son expression propre — ce n'est poser aucun joint.
+#     Voir rd/instrument/2026-08-20_instruction-branche-kabbale-phase3.md.
 #   v0.3.4 (2026-08-20) : deuxième nœud universel déclaré — Homme Universel
 #     (Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara), discernement
 #     déjà clos le 2026-07-26, jamais porté en donnée jusqu'ici (traduction
@@ -275,3 +294,69 @@ zodiaque:
     - {label: "Capricorne", dates: "21/12-20/1"}
     - {label: "Verseau", dates: "21/1-20/2"}
     - {label: "Poissons", dates: "21/2-20/3"}
+
+# =============================================================================
+# REGISTRES — partitions de l'UNIQUE axe vertical, une par tradition
+# =============================================================================
+#
+#   Un registre déclare comment une tradition orthodoxe partitionne le même axe
+#   (celui de l'Homme Universel : Insān Kāmil = Adam Qadmôn = Wang = Vaishwânara,
+#   identité close le 2026-07-26). Deux formes de domaine coexistent :
+#
+#     - `degres: [a, b]` — la tradition situe explicitement le domaine sur
+#       l'échelle des 38 degrés (cas du tasawwuf akbarien, table de Gloton) ;
+#     - `rang: n` + `colonne: …` — la tradition donne un ORDRE le long de l'axe
+#       et une position latérale, sans échelle de degrés (cas de la qabbalah).
+#       Le rendu répartit alors le registre sur l'étendue de l'axe SANS
+#       prétendre l'aligner sur les degrés akbariens : la hauteur est un choix
+#       de présentation, jamais une correspondance déclarée.
+#
+#   RÈGLE : aucun ancrage inter-registres n'est déclaré tant qu'un discernement
+#   ne l'a pas tranché (Cmd 3). Déclarer un registre documente une tradition
+#   dans son expression propre ; cela ne pose aucun joint.
+# =============================================================================
+
+registres:
+
+  # --- Tasawwuf akbarien : l'axe des 38 degrés, partition en Ḥaḍarāt ---------
+  # Reprend en donnée les « bandes » jusqu'ici codées en dur dans le prototype.
+  - id: tasawwuf
+    label: "Tasawwuf akbarien — les Ḥaḍarāt"
+    fiche: doctrinal/symboles/hadarat-khams
+    axe: principal              # occupe l'échelle des degrés elle-même
+    domaines:
+      - {id: tasawwuf/lahut, label: "Lāhūt", degres: [11, 14]}
+      - {id: tasawwuf/jabarut, label: "Jabarūt", degres: [15, 18]}
+      - {id: tasawwuf/barzakh-superieur, label: "Barzakh supérieur", degres: [19, 20]}
+      - {id: tasawwuf/malakut-planetaire, label: "Malakūt planétaire", degres: [21, 27]}
+      - {id: tasawwuf/nasut, label: "Nāsūt", degres: [28, 38]}
+
+  # --- Qabbalah : l'Arbre séphirothique, 10 Sephiroth sur 3 colonnes --------
+  # Structure sourcée : doctrinal/sources/kabbale-10-sefirot-structure.md
+  # (status: traditionnel — Guénon via Vulliaud + texte primaire du Sefer
+  # Yetsira, commentaire du Ramban). Rang et colonne repris tels quels de cette
+  # fiche ; les couples droite/gauche de rangs adjacents occupent un même
+  # niveau de l'axe, ce qui ramène les 10 Sephiroth à 7 niveaux — réduction
+  # MÉCANIQUE (dérivée des colonnes déclarées), confirmée par ailleurs par
+  # Guénon (Études sur l'Hindouisme, « Kundalinî-Yoga », § final).
+  # AUCUN degré akbarien n'est attribué : la qabbalah ne les donne pas, et rien
+  # ici ne prétend les aligner.
+  - id: qabbalah
+    label: "Qabbalah — l'Arbre séphirothique"
+    fiche: doctrinal/sources/kabbale-10-sefirot-structure
+    axe: parallele              # ordre le long de l'axe, sans échelle de degrés
+    colonnes:
+      milieu: "Colonne du milieu (Équilibre)"
+      droite: "Colonne de droite (Miséricorde)"
+      gauche: "Colonne de gauche (Rigueur)"
+    domaines:
+      - {id: qabbalah/kether, label: "Kether — la Couronne", rang: 1, colonne: milieu, nom_divin: "Aïn-Soph (son vêtement)"}
+      - {id: qabbalah/hokhma, label: "Hokhma — la Sagesse", rang: 2, colonne: droite, nom_divin: "Yah"}
+      - {id: qabbalah/bina, label: "Bina — la Compréhension", rang: 3, colonne: gauche, nom_divin: "YHWH Elohim"}
+      - {id: qabbalah/hesed, label: "Hesed — la Miséricorde", rang: 4, colonne: droite, nom_divin: "El"}
+      - {id: qabbalah/gevurah, label: "Gevurah — la Force / Jugement", rang: 5, colonne: gauche, nom_divin: "Elohim"}
+      - {id: qabbalah/tiferet, label: "Tiferet — la Beauté", rang: 6, colonne: milieu, nom_divin: "YHWH"}
+      - {id: qabbalah/netzach, label: "Netzach — la Victoire", rang: 7, colonne: droite, nom_divin: "YHWH Tsevaot"}
+      - {id: qabbalah/hod, label: "Hod — la Majesté", rang: 8, colonne: gauche, nom_divin: "Elohe Tsevaot"}
+      - {id: qabbalah/yesod, label: "Yesod — le Fondement", rang: 9, colonne: milieu, nom_divin: "El Hai / El Shaddaï"}
+      - {id: qabbalah/malkhut, label: "Malkhut — le Royaume", rang: 10, colonne: milieu, nom_divin: "Adonaï"}

@@ -1,222 +1,166 @@
 ---
-title: "Instruction technique — ouverture d'une branche Kabbale dans l'Arbre unique (Phase 3)"
+title: "Les registres — accueillir plusieurs traditions sur l'unique axe (Phase 3)"
 type: projet
 statut_experience: exploratoire
-tags: [instrument, phase-3, kabbale, sephiroth, instruction, signalement]
+tags: [instrument, phase-3, kabbale, sephiroth, registres, architecture]
 created: 2026-08-20
 updated: 2026-08-20
 sources: []
-links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]", "[[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]]", "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]", "[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]"]
+links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]", "[[atelier/rd/outillage/spec-generateur-manifeste]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]", "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]", "[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]"]
 ---
 
-# Instruction technique — ouverture d'une branche Kabbale (Phase 3)
+# Les registres — accueillir plusieurs traditions sur l'unique axe
 
 > Circuit **atelier**, pôle R&D. Document d'instrumentation, non doctrinal.
-> Liens vers `doctrinal/` en sens unique, signalés. Aucune page doctrinale ne
-> pointe vers ce document.
+> Liens vers `doctrinal/` en sens unique, signalés.
 
-## 0. Objet et posture
+> **Révision intégrale du 2026-08-20.** Une première version de cette fiche
+> concluait que les sources kabbalistiques ne pouvaient pas être instrumentées
+> sans nouveaux verdicts. Cette conclusion reposait sur **deux erreurs de
+> raisonnement**, redressées par Sidy le jour même et corrigées ici (§1). La
+> version fautive est remplacée, non conservée : elle n'énonçait aucun fait
+> utile, seulement un blocage mal fondé.
 
-Sidy signale (2026-08-20) que le dépôt dispose de sources kabbalistiques
-abondantes qui « devraient s'emboîter très facilement » dans l'Instrument, et
-dépose en appui un extrait de René Guénon, *Études sur l'Hindouisme*,
-« Kundalinî-Yoga » (§ final), où Guénon rapproche lui-même les *Sephiroth* des
-*chakras*.
+## 1. Le redressement
 
-Cette fiche instruit **la faisabilité technique** de l'ouverture d'une branche
-Kabbale dans l'Arbre unique. Elle relève de la contribution exacte de la
-machine (Cmd 12, *upakarana*) : cohérence formelle, univocité des termes,
-généalogie des idées, conformité aux verdicts déjà rendus. **Elle ne tranche
-aucune validité métaphysique et ne propose aucun ancrage.**
+Rappel du cadre, tel que Sidy l'a restitué :
 
-**Conclusion de l'instruction, énoncée d'emblée** : la matière est réelle et
-abondante, mais l'emboîtement **n'est pas immédiat**. Trois obstacles formels
-précis s'y opposent, dont un verrou explicitement posé par un verdict
-antérieur. Le détail suit ; les pistes de sortie sont au §4.
+- L'Instrument est la représentation de l'**unique Arbre Universel**. Arbre
+  Universel et Homme Universel sont **équivalents dans le principe**, chacun
+  favorisant des aspects variés d'une même Réalité.
+- L'identité *al-Insān al-Kāmil = Adam Qadmôn = Wang = Vaishwânara* étant
+  **close** ([[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]],
+  2026-07-26), **il s'agit du même axe vertical**.
+- *Sephiroth* et *chakras* sont des **centres décrivant des domaines** qui
+  s'établissent le long de cet axe.
+- Chaque tradition orthodoxe est l'expression particulière de la **même**
+  Réalité, et **n'a pas à rendre une même notion par une même expression**.
+- La correspondance **s'explicitera nécessairement au fur et à mesure de la
+  reconstitution de l'ensemble** — elle n'a pas à être complète d'avance.
 
-## 1. Ce qui est déjà établi et déclaré (rappel)
+**Les deux erreurs corrigées :**
 
-| Pièce | Statut réel | Dans le manifeste ? |
+1. **« Incommensurabilité 38 / 5 / 7 »** — erreur de cadre. Un *domaine* n'est
+   pas un *degré*. Le dépôt pratique déjà cette distinction : les cinq
+   *Ḥaḍarāt* **enveloppent** les 38 degrés sans se confondre avec eux (bandes
+   Lāhūt 11-14, Jabarūt 15-18, Barzakh supérieur 19-20, Malakūt planétaire
+   21-27, Nāsūt 28-38). Un septénaire de domaines n'est donc pas incompatible
+   avec une échelle de 38 degrés : c'est **une autre partition du même axe**.
+   Le mécanisme existait déjà ; il n'était simplement pas généralisé.
+2. **« Transitivité non autorisée »** — erreur factuelle. Le raisonnement
+   supposait que le joint axial restait à établir. **Il est acquis** depuis le
+   2026-07-26. Situer un centre sur un axe dont l'identité est déjà verdictée
+   n'est pas importer une correspondance : c'est employer un verdict rendu.
+
+Une troisième affirmation était fausse : la fiche prétendait qu'il manquait
+« une fondation équivalente à `hadarat-khams` pour la Kabbale ». Elle existe —
+[[doctrinal/sources/kabbale-10-sefirot-structure]], `status: traditionnel`,
+donnant les 10 Sephiroth, leurs **trois colonnes** et leurs rangs, sourcée
+Guénon (via Vulliaud) et texte primaire du *Sefer Yetsira* (commentaire du
+Ramban).
+
+## 2. L'architecture proposée : le registre
+
+**Un registre est la partition de l'unique axe vertical propre à une
+tradition.** Les registres coexistent sur le même axe sans être alignés entre
+eux.
+
+Le dépôt avait déjà résolu ce problème de méthode ailleurs, sans le nommer :
+l'anneau zodiacal porte **12 signes et 28 manāzil superposés et non
+commensurables**, dont les frontières ne coïncident jamais — et
+[[atelier/rd/instrument/spec-anneau-zodiacal]] §3.4 pose que *« le décalage
+est une donnée, pas un défaut de rendu »* (Art. 3 sashimono, jamais de joint
+forcé). Le registre applique cette même discipline aux traditions.
+
+Deux formes de domaine, **exclusives l'une de l'autre** :
+
+| Forme | Quand | Exemple |
 |---|---|---|
-| [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]] | `traditionnel`, **clos** | **oui** — nœud `universel/homme-universel`, ancrage `etabli` (déclaré le 2026-08-20) |
-| [[doctrinal/sources/sefer-yetsira-ramban]] | `source`, `traditionnel`, Sceau conforme | non (fiche source, pas un nœud) |
-| [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] | `source`, `traditionnel`, Sceau conforme | non (idem) |
-| [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] | **`speculatif`** | non |
-| [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] | **`speculatif`**, « verdict réservé », aucun joint proposé | non |
-| [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] | `speculatif`, **bloc 🔍 « Statut : en cours »** | non — et remonté automatiquement comme `question_ouverte` par le générateur |
+| `degres: [a, b]` | la tradition situe elle-même le domaine sur l'échelle des 38 degrés | Ḥaḍarāt akbariennes |
+| `rang: n` + `colonne:` | la tradition donne un **ordre** le long de l'axe, sans échelle de degrés | Sephiroth |
 
-**Un seul point kabbalistique est fermement établi** — l'identité *Adam
-Qadmôn = al-Insān al-Kāmil* — et il est déjà déclaré. Tout le reste est
-`speculatif` ou en cours. L'abondance est réelle du côté de la **matière
-documentaire** ; elle ne s'est pas encore traduite en **verdicts**.
+**Le point décisif est que ces deux formes s'excluent mécaniquement.** Un
+domaine portant à la fois `rang` et `degres` est **refusé par le générateur** :
+ce serait déclarer en donnée une correspondance point à point qu'aucune
+tradition ne donne — précisément ce que le Cmd 3 réserve à une fiche
+`discernement` tranchée. La règle n'est plus seulement écrite dans le
+protocole, elle est **appliquée par l'outil**.
 
-## 2. Ce que le texte de Guénon établit réellement — et ce qu'il n'établit pas
+Corollaire : **déclarer un registre ne pose aucun joint.** C'est documenter une
+tradition dans son expression propre. Aucun ancrage inter-registres n'est
+déclaré, et le rendu ne trace aucune ligne d'un registre à l'autre.
 
-Extrait déposé : *Études sur l'Hindouisme*, « Kundalinî-Yoga », section finale
-et notes 23-27.
+## 3. Ce qui est fait (2026-08-20)
 
-**Ce qu'il établit** (autorité textuelle explicite, non reconstruction) :
-- Une concordance **Sephiroth ↔ chakras**, obtenue en projetant les trois
-  couples latéraux sur la « colonne du milieu », ce qui ramène les dix
-  *Sephiroth* à **sept niveaux**.
-- L'identification **colonne du milieu ↔ *sushumnā*** et **colonnes latérales
-  ↔ *idā*/*pingalā*** — donc une structure axe + polarisation.
-- Correspondances de détail : *Kether*↔*sahasrāra*, *Hokmah/Binah*↔*ājnā*,
-  *Hesed/Geburah*↔*vishuddha*, *Thiphereth*↔*anāhata* (cœur),
-  *Netsah/Hod*↔*manipūra*, *Iesod*↔*mūlādhāra*, *Malkuth*↔*swādhishthāna*.
-- Note 27 : les deux anges aux épaules de la tradition islamique représentent
-  « Miséricorde » et « Justice » — soit les attributs de *Hesed*/*Geburah*.
-  **C'est le seul joint islam ↔ kabbale posé par Guénon dans ce texte**, et il
-  est latéral (les épaules), non axial.
-- Note 26 : rapport *Shekinah* ↔ *Shakti*, mentionné « en passant ».
+- **`instrument-donnees.yaml` v0.4.0** — bloc `registres:` ouvert, avec deux
+  registres : `tasawwuf` (axe principal, 5 Ḥaḍarāt en bornes de degrés — reprise
+  en donnée des bandes jusque-là codées en dur) et `qabbalah` (axe parallèle,
+  10 Sephiroth en rangs + colonnes, aucun degré attribué).
+- **`generer-manifeste.py` v0.2.3** — propage `registres` avec validations
+  dédiées : id de registre et de domaine uniques, `axe` contrôlé, fiche
+  doctrinale devant exister, `degres`/`rang` exclusifs, bornes ordonnées.
+  Trois cas de rejet vérifiés en test, dont le point-à-point implicite.
+- **Prototype** — rendu du registre parallèle : trois colonnes, en retrait du
+  tronc akbarien, **sans aucune ligne vers les degrés**. Les 10 Sephiroth se
+  répartissent sur **7 niveaux dérivés mécaniquement** des rangs et colonnes
+  déclarés (un domaine « gauche » suivant immédiatement un « droite » partage
+  son niveau — couple symétrique). Résultat obtenu : Kether / Hokhma-Bina /
+  Hesed-Gevurah / Tiferet / Netzach-Hod / Yesod / Malkhut. Cette réduction
+  **n'est pas posée à la main : elle tombe des données** — et recoupe celle que
+  Guénon décrit en projetant les couples latéraux sur la colonne du milieu
+  (*Études sur l'Hindouisme*, « Kundalinî-Yoga »).
+- La hauteur attribuée aux centres est une **répartition proportionnelle sur
+  l'étendue de l'axe** : c'est de la présentation, jamais une correspondance,
+  et l'info-bulle de chaque centre le dit explicitement.
 
-**Ce qu'il n'établit pas** :
-- Aucun rapport entre les *Sephiroth* et les **38 degrés du *Nafas
-  al-Raḥmān***, ni avec les **cinq *Ḥaḍarāt***. L'axe de référence du texte est
-  **hindou**, pas akbarien.
-- Guénon qualifie lui-même sa remarque de « remarque, que nous croyons n'avoir
-  encore été faite nulle part » : c'est **son apport propre**, présenté comme
-  tel, non une doctrine reçue commune aux deux traditions.
-- Il marque explicitement son incertitude sur le dernier couple : « il semble
-  qu'il y ait lieu d'envisager une interversion » (*Iesod*/*Malkuth*). Le point
-  n'est donc pas ferme, y compris chez lui.
+## 4. Sur la Sitra Ahra — requalification
 
-## 3. Les trois obstacles formels à l'« emboîtement facile »
+La version fautive traitait le *Traité de l'Émanation Gauche* comme bloqué. Ce
+diagnostic confondait deux choses distinctes :
 
-### 3.1 Incommensurabilité des divisions (obstacle de structure)
+- ce que le **correctif du 2026-06-29** a rejeté : le rattachement **structurel
+  du *waswâs* du Tasawwuf à la Sitra Ahra**, qui imposait au Tasawwuf une
+  structure de miroir qliphothique qu'il ne possède pas nativement ;
+- ce que l'architecture v0.3 §2 **prescrit** au contraire : *« Tout ce qui y est
+  intégré se fait dans son expression dialectique propre »*, la Kabbale portant
+  seule sa dialectique Sephiroth/Qliphoth complète.
 
-Trois découpages sont en présence, **aucun n'étant commensurable avec les
-autres** :
+Autrement dit, le correctif interdit d'**imposer** la Sitra Ahra au tasawwuf ;
+il n'interdit pas de la **rendre dans son cadre kabbalistique propre**. Comme
+Sidy le formule : le tasawwuf envisage et exprime cela autrement — *l'autre
+côté de la Montagne Qāf* — et le dépôt porte déjà cette matière
+([[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]],
+`traditionnel`, validée).
 
-| Division | Nombre de degrés | Source |
-|---|---|---|
-| Axe de l'Instrument | **38** (10 pré-lettrés + 28 lettrés) | table des 28 degrés, Gloton |
-| Macro-structure akbarienne | **5** Ḥaḍarāt (+ Barzakh supérieur) | `hadarat-khams` |
-| Arbre séphirothique projeté (Guénon) | **7** niveaux (10 Sephiroth) | *EH*, Kundalinî-Yoga |
+**Voie praticable, sans verdict nouveau** : un registre `qabbalah-sitra-ahra`,
+envers du registre séphirothique, déclaré dans sa seule expression
+kabbalistique, sans aucun ancrage vers le tasawwuf ni vers l'axe des degrés —
+exactement le régime des registres. Non exécuté ici : cela relève d'un lot de
+déclaration à part, et
+[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] est encore « en
+cours » (le générateur le remonte déjà comme `question_ouverte`). À dire
+clairement : ce discernement ouvert n'interdit pas le rendu du registre — il
+laisse ouverte la question des *correspondances*, qui ne sont précisément pas
+déclarées.
 
-Poser les *Sephiroth* sur l'axe akbarien suppose de **choisir une clé de
-réduction** de 10 → 7 → 38 (ou 5). Ce choix n'est pas une opération technique :
-c'est un acte doctrinal. Le précédent applicable est la règle §3.4 de
-[[atelier/rd/instrument/spec-anneau-zodiacal]] pour l'incommensurabilité 12/28
-(Art. 3 sashimono, *jamais de joint forcé*) : les deux divisions y sont rendues
-**superposées sans être alignées**, le décalage étant traité comme une donnée.
+## 5. Suites proposées
 
-### 3.2 Transitivité non autorisée (obstacle de Cmd 3)
-
-Le pont posé par Guénon est **Sephiroth ↔ chakras**. Le dépôt aurait besoin de
-**Sephiroth ↔ 38 degrés akbariens**. Passer du premier au second exige un second
-joint — *chakras ↔ degrés akbariens* — qui **n'existe nulle part dans le
-dépôt**.
-
-Le Commandement 3 vise exactement cette figure : « tout lien structurel entre
-concepts de traditions distinctes exige une fiche `discernement` explicite
-établissant la correspondance — jamais supposé ni importé d'office ». Une
-correspondance obtenue par transitivité à travers une troisième tradition est
-un lien importé, non établi.
-
-Cas de figure déjà traité correctement dans le dépôt : l'identité de l'Homme
-Universel à quatre voiles n'a **pas** été obtenue par transitivité — elle
-repose sur une phrase de Guénon nommant les quatre termes ensemble
-(*Symbolisme de la Croix*, ch. II, n. 1), plus une extension au *Vaishwânara*
-verdictée séparément. C'est le standard de preuve à retrouver ici.
-
-### 3.3 Le verrou de la Sitra Ahra (obstacle de verdict antérieur)
-
-Le *Traité de l'Émanation Gauche* est la matière de la **Sitra Ahra** (dix
-Sephiroth de la gauche, Samaël, Lilith, Qliphoth). C'est le point **le plus
-verrouillé** du dispositif, à trois titres :
-
-1. **Correctif acté le 2026-06-29** (architecture v0.3 §2, après examen
-   contradictoire) : le rattachement structurel du *waswâs* du Tasawwuf à la
-   *Sitra Ahra* a été **examiné et rejeté** — il imposait au Tasawwuf une
-   structure de miroir qliphothique qu'il ne possède pas nativement.
-2. **Validation bloquante dans le générateur** : un ancrage `subversion` ou
-   `parodie` portant une cible non nulle est refusé si sa source n'est pas une
-   fiche `doctrinal/discernement/` (`generer-manifeste.py`, traduction technique
-   du correctif). Le dispositif refuse mécaniquement ce type de déclaration.
-3. **Discernement encore ouvert** :
-   [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] porte
-   « Statut : en cours ». Le générateur le remonte déjà automatiquement comme
-   `question_ouverte` sur le nœud `universel/homme-universel` — le manifeste
-   **signale donc déjà, de lui-même, qu'une question kabbalistique reste
-   pendante sur ce nœud**.
-
-Autrement dit : de toutes les sources kabbalistiques disponibles, le *Traité de
-l'Émanation Gauche* est celle qui s'emboîte **le moins** facilement. Elle est
-précieuse comme matière, et bloquée comme déclaration tant que le discernement
-du 2026-07-28 n'est pas clos.
-
-## 4. Signal de vigilance : le croisement des deux septénaires
-
-Le rapprochement de Guénon produit **sept niveaux séphirothiques**. Le dépôt
-porte déjà un septénaire **établi et déclaré** : les sept Aqtâb ↔ Malakūt
-planétaire, degrés 21-27 (verdict 2026-07-16/08-04), plus un discernement
-[[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]].
-
-La question « les sept niveaux séphirothiques croisent-ils les sept Aqtâb ? »
-se pose donc **mécaniquement**, dès qu'on met les deux structures côte à côte.
-
-**Elle est signalée ici, et laissée entière.** Le protocole est explicite : une
-convergence multiple (« double ancrage ») est un **signal de vigilance appelant
-l'arbitrage humain, jamais une porte automatique vers l'inscription**
-(`doctrinal/CLAUDE.md`, Examen de Discernement). S'y ajoute la **confrontation
-Gizeh obligatoire** (CLAUDE.md racine §VII, double contrôle) : toute matière
-polaire, axiale ou **septénaire** doit être testée contre la vigilance
-polaire/solaire — ce qui n'a pas été fait ici et ne peut l'être sans instruire
-la question elle-même.
-
-Deux réserves de méthode s'imposent d'avance :
-- le septénaire séphirothique de Guénon est obtenu **par projection** (choix de
-  réduction), le septénaire des Aqtâb est **natif** ; deux septénaires
-  d'origines différentes ne sont pas homologues du seul fait de leur nombre ;
-- le texte déposé rapporte ce septénaire aux **chakras**, dans un corps humain
-  (perspective microcosmique), quand les Aqtâb siègent aux **cieux planétaires**
-  (perspective macrocosmique). Guénon pose lui-même l'analogie
-  Macrocosme/Microcosme, mais l'analogie n'est pas l'identité.
-
-## 5. Chemin proposé (aucune étape exécutée)
-
-Ordre de moindre engagement, chaque étape restant sous verdict de Sidy
-(Cmd 6 pour l'archivage, Cmd 12 pour la validité, Cmd 13 pour ce qui engage) :
-
-1. **Archiver la source Guénon** (*EH*, Kundalinî-Yoga) comme fiche
-   `doctrinal/sources/` — geste neutre, aucune correspondance posée. Prérequis
-   pratique : le texte doit être déposé dans `raw/` **côté serveur**, `raw/`
-   n'étant jamais versionné (`.gitignore`) et donc inaccessible depuis une
-   session distante. Plan à valider avant écriture.
-2. **Ouvrir une fiche `discernement` dédiée** à la concordance
-   Sephiroth ↔ chakras telle que Guénon la pose — en la maintenant dans son
-   cadre propre (kabbale ↔ hindouisme), **sans la transposer** à l'axe
-   akbarien. C'est le seul joint réellement sourcé par le texte déposé.
-3. **Si et seulement si (2) est tranché** : instruire séparément la question du
-   passage à l'axe akbarien, qui demande sa propre autorité textuelle — la
-   transitivité ne suffit pas (§3.2).
-4. **Traiter la Sitra Ahra à part et en dernier**, après clôture de
-   [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] ; le dispositif
-   la refuse mécaniquement avant cela (§3.3).
-5. **Ne pas déclarer de branche séphirothique dans `instrument-donnees.yaml`**
-   avant qu'existe, pour la Kabbale, une fondation équivalente à
-   `hadarat-khams` pour le Tasawwuf — c'est-à-dire une structure d'axe reçue
-   (dix Sephiroth, trois colonnes) et non une liste de correspondances. Rappel
-   déjà porté par
-   [[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16]]
-   §C.6 et repris en P6.13 de
-   [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]].
-
-## 6. Ce que la Phase 3 peut recevoir dès maintenant, sans nouveau verdict
-
-Pour ne pas laisser l'instruction sans issue praticable : **rien de
-kabbalistique** n'est déclarable en l'état au-delà de ce qui l'est déjà. Le
-nœud `universel/homme-universel`, déclaré le 2026-08-20, **est** la branche
-Kabbale de l'Arbre unique dans son état actuellement établi — un nœud
-transversal, pas encore un arbre-tradition propre.
-
-C'est cohérent avec l'architecture v0.3 §3.5 : un nœud universel est « hors
-arbre-tradition ». Ouvrir un **arbre séphirothique** est une opération d'une
-autre nature, qui relève de l'étape 5 ci-dessus.
+1. **Registre hindou** — chakras et *nādīs*. La matière est disponible
+   (texte Guénon déposé : sept « lotus », trois canaux `sushumnā`/`idā`/
+   `pingalā`, correspondance des colonnes latérales). Prérequis : archiver la
+   source en `doctrinal/sources/` — le texte doit d'abord être déposé dans
+   `raw/` **côté serveur** (`raw/` n'est jamais versionné, `.gitignore`).
+2. **Registre de la Sitra Ahra** (§4), en expression kabbalistique propre.
+3. **Enrichir le registre `qabbalah`** : 22 sentiers, correspondance des
+   Sephiroth aux membres (déjà dans la fiche source : bras droit/gauche,
+   jambes, etc.), Noms divins — tout est sourcé, rien n'appelle de verdict.
+4. **Le moment venu, et seulement sous verdict** : les ancrages
+   inter-registres, quand la reconstitution les aura fait apparaître. Le schéma
+   les accueillera sans modification — un ancrage se déclare déjà entre deux
+   `id`, et les domaines en portent.
 
 ---
 
-*Instruction technique — signalement et analyse formelle uniquement. Aucun
-ancrage proposé, aucun joint qualifié, aucune fiche doctrinale créée ou
-modifiée. Les verdicts restent réservés à Sidy (Cmd 12).*
+*Signalement et architecture. Aucun ancrage inter-traditionnel déclaré, aucun
+joint qualifié, aucune fiche doctrinale créée ou modifiée. Les verdicts
+restent réservés à Sidy (Cmd 12).*
