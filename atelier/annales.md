@@ -10,6 +10,62 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] rd | Ouverture des registres — plusieurs traditions sur l'unique axe
+
+- **Contexte** : redressement doctrinal de Sidy. L'instruction déposée plus tôt
+  le même jour concluait que les sources kabbalistiques ne pouvaient être
+  instrumentées sans nouveaux verdicts — conclusion fondée sur **deux erreurs
+  de raisonnement**, corrigées ici :
+  1. *« Incommensurabilité 38 / 5 / 7 »* — erreur de cadre : un **domaine**
+     n'est pas un **degré**. Le dépôt pratique déjà la distinction (les cinq
+     Ḥaḍarāt enveloppent les 38 degrés). Un septénaire de domaines est une
+     **autre partition du même axe**, non une échelle concurrente.
+  2. *« Transitivité non autorisée »* — erreur factuelle : le joint axial est
+     **acquis** depuis le 2026-07-26
+     ([[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]],
+     clos). Situer un centre sur un axe déjà verdicté n'importe aucune
+     correspondance.
+  Était également faux : « il manque une fondation séphirothique » — elle
+  existe ([[doctrinal/sources/kabbale-10-sefirot-structure]], `traditionnel`,
+  10 Sephiroth sur 3 colonnes).
+- **Architecture ouverte — le registre** : partition de l'unique axe vertical
+  propre à une tradition. Les registres coexistent **sans être alignés**, même
+  discipline que les 12 signes et les 28 manāzil de l'anneau zodiacal (Art. 3
+  sashimono : le décalage est une donnée, pas un défaut).
+- **`instrument-donnees.yaml` v0.4.0** : bloc `registres:` — `tasawwuf` (axe
+  principal, 5 Ḥaḍarāt en bornes de degrés, reprise en donnée des bandes
+  jusque-là codées en dur) et `qabbalah` (axe parallèle, 10 Sephiroth en rangs
+  + colonnes, **aucun degré attribué**).
+- **`generer-manifeste.py` v0.2.3** : propagation et validations dédiées. Un
+  domaine portant à la fois `degres` et `rang` est **refusé** — ce serait
+  déclarer en donnée une correspondance point à point qu'aucune tradition ne
+  donne. Le Cmd 3 cesse d'être seulement écrit au protocole : il est
+  **appliqué par l'outil**. Trois cas de rejet vérifiés en test.
+- **Prototype** : rendu du registre parallèle en trois colonnes, en retrait du
+  tronc akbarien, **sans aucune ligne vers les degrés**. Les 10 Sephiroth se
+  répartissent sur **7 niveaux dérivés mécaniquement** des rangs et colonnes
+  déclarés (couple droite/gauche = même niveau) : Kether / Hokhma-Bina /
+  Hesed-Gevurah / Tiferet / Netzach-Hod / Yesod / Malkhut. **La réduction tombe
+  des données**, elle n'est pas posée à la main — et recoupe celle que Guénon
+  décrit en projetant les couples latéraux sur la colonne du milieu.
+- **Requalification de la Sitra Ahra** : le correctif du 2026-06-29 rejetait le
+  rattachement **structurel** du *waswâs* à la Sitra Ahra (imposer au tasawwuf
+  une structure de miroir qu'il n'a pas nativement), **non** le rendu de la
+  Sitra Ahra dans son expression kabbalistique propre — que l'architecture
+  v0.3 §2 prescrit au contraire. Le tasawwuf l'exprime autrement (l'autre côté
+  de la Montagne Qāf, cf.
+  [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]). Voie
+  praticable documentée, **non exécutée**.
+- **Fiches** : [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]]
+  (révision intégrale — la version fautive est remplacée, non conservée :
+  elle n'énonçait aucun fait utile, seulement un blocage mal fondé) ;
+  [[atelier/rd/outillage/spec-generateur-manifeste]] §5 quater.
+- **Vigilance** : aucun ancrage inter-registres déclaré, aucun joint qualifié,
+  aucune fiche doctrinale créée ou modifiée (Cmd 3, Cmd 12).
+- **Commit** : `18e85b3`
+
+---
+
 ## [2026-08-20] rd | Lecture dynamique du manifeste par le prototype + instruction branche Kabbale
 
 - **Contexte** : deux demandes de Sidy — (a) rendre la lecture du manifeste
