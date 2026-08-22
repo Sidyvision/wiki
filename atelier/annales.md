@@ -10,6 +10,42 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-20] rd | Compte-rendu de clôture — malentendu Gardien et reprise de session
+
+- **Contexte** : consigne explicite de Sidy pour clore la session — instruire
+  l'atelier/R&D du malentendu signalé plus tôt (« l'agent Gardien n'a pas
+  compris ma demande »), en compte-rendu complet.
+- **Fiche créée** :
+  [[atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session]].
+  Diagnostic à deux causes distinctes : l'enlisement technique (déjà consigné,
+  [[atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint]])
+  explique pourquoi les agents désignés n'ont rien produit, **pas** pourquoi le
+  rapport écrit à leur place par l'orchestrateur a dérivé vers un audit de
+  vigilance plutôt que vers les pistes de développement demandées — dérive de
+  cadrage distincte, le nom de l'agent ayant fini par déterminer le contenu du
+  livrable au lieu de sa consigne.
+- **Chronologie complète de la reprise** consignée (11 étapes, commits cités) :
+  réparation mécanique, pistes de développement Instrument + infrastructure,
+  mise à jour du prototype en plusieurs passes, ouverture de l'architecture des
+  registres, registres hindouisme-tantra et vedanta, ancrage Homme Universel →
+  Vaishwânara.
+- **Auto-critique assumée** : la première instruction sur l'ouverture d'une
+  branche Kabbale était factuellement fautive sur deux points (confusion
+  domaine/degré ; présomption qu'un joint axial restait à établir alors qu'il
+  était clos depuis le 2026-07-26) — corrigée par Sidy en session ; la
+  correction a produit l'architecture des registres, réutilisée trois fois de
+  plus dans la même session sans nouvelle extension du schéma.
+- **Cinq leçons transversales** consignées pour l'atelier/R&D (revalider
+  l'objet d'une tâche après incident ; ne pas laisser le nom d'un agent
+  déterminer le contenu d'un livrable ; le formalisme protocolaire empêche
+  l'importé et le supposé, pas l'établi ; la traçabilité prime sur
+  l'inférence documentaire ; une architecture générique bien posée absorbe
+  mieux une correction qu'un blocage ponctuel).
+- **Index mis à jour** : `atelier/rd/index.md` (pointeur, `updated:`).
+- **Commit** : `00a4a9a`
+
+---
+
 ## [2026-08-20] rd | Registre vedanta — quatre états d'Âtmâ (v0.5.0)
 
 - **Contexte** : Sidy demande de mettre l'ensemble en regard avec *L'Homme et
