@@ -3,7 +3,7 @@ title: "Pôle R&D de l'atelier — charte du lieu"
 type: index
 tags: [atelier, rd, infrastructure, souverainete]
 created: 2026-08-08
-updated: 2026-08-19
+updated: 2026-08-20
 sources: []
 links: []
 ---
@@ -121,6 +121,14 @@ dans le dépôt.
   Claude Code, ou autre) reprenant le fil des travaux R&D sans contexte antérieur :
   ce qui est tranché et committé, ce qui est en cours, chantiers ouverts par
   priorité, leçons transversales. Aucun contenu doctrinal.
+- **Compte-rendu — malentendu du rapport conjoint et reprise (2026-08-20)** :
+  [[atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session|compte-rendu
+  2026-08-20]] — le Gardien n'avait pas répondu à la demande de Sidy (pistes
+  de développement Instrument/infrastructure), diagnostic à deux causes
+  distinctes (enlisement technique déjà consigné + dérive de cadrage),
+  chronologie complète de la reprise (pistes, prototype, registres, Vêdânta),
+  et auto-critique d'un raisonnement fautif corrigé en session par Sidy.
+  Leçons transversales pour l'atelier/R&D.
 - **Extension du mandat — veille externe + sandbox (2026-08-18)** :
   [[atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18|proposition
   extension veille R&D]] — ouverture de `rd/veille/` (veille hebdomadaire
