@@ -10,6 +10,25 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-22] rd | Incident sécurité — contamination ZWJ, nettoyage, Commandement 15
+
+- **Détection** : caractères U+200D (Zero Width Joiner) détectés dans 31 fichiers
+  du dépôt (156 occurrences), tous dans le mot « Hermes » (pattern `H[ZWJ]ermes`).
+- **Investigation** : pas un marqueur sémantique (agent vs figure mythologique),
+  pas une watermark légale — artefact de formatage (copier-coller contaminé ou
+  éditeur).
+- **Nettoyage** : suppression complète des 156 occurrences via `sed`.
+- **Commandement 15** ajouté au protocole racine `CLAUDE.md` (§X) : interdiction
+  formelle d'insérer des caractères Unicode invisibles (U+200B/C/D, U+FEFF,
+  U+200E/F).
+- **Pre-commit hook** installé (`.git/hooks/pre-commit`, exécutable) : détection
+  automatique bloquante avant commit.
+- **Rapport d'incident** : `atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md`.
+- **Brief Studio/Gardien** : `meta/briefs/2026-08-22_brief-incident-zwj-mise-a-jour-securite.md`.
+- **Commit** : 4c1604c
+- **Correction hook** : `grep -P` remplace `perl -ne` (bug encodage UTF-8).
+  Commit 350fd8a.
+
 ## [2026-08-20] rd | Compte-rendu de clôture — malentendu Gardien et reprise de session
 
 - **Contexte** : consigne explicite de Sidy pour clore la session — instruire
@@ -43,8 +62,6 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   mieux une correction qu'un blocage ponctuel).
 - **Index mis à jour** : `atelier/rd/index.md` (pointeur, `updated:`).
 - **Commit** : `00a4a9a`
-
----
 
 ## [2026-08-20] rd | Registre vedanta — quatre états d'Âtmâ (v0.5.0)
 
