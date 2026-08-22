@@ -15,7 +15,7 @@ statut_experience: exploratoire
 > **Statut** : `brouillon`, `exploratoire`. Fiche d'instruction d'une source
 > déposée en `raw/` (lecture de fond du 2026-08-16, contrainte
 > PRODUCTION/INTÉGRATION temporairement levée). Ne tranche rien sur une
-> application au dépôt H‍ermes — pose seulement les fondations d'un chantier
+> application au dépôt Hermes — pose seulement les fondations d'un chantier
 > ultérieur (kari-kumi, montage à blanc).
 
 ## 1. Provenance
@@ -122,7 +122,7 @@ n'est qu'un éclairage.
 
 Ce que cette résonance **ne dit pas** : elle ne fait pas de Cordis une
 « application » de la philosophie du dépôt (aucune généalogie), et elle ne
-tranche pas la piste H‍ermes du §8 — elle observe seulement qu'un paradigme
+tranche pas la piste Hermes du §8 — elle observe seulement qu'un paradigme
 d'ingénierie logicielle indépendant, formalisé et validé en production
 (Koishi), converge de forme avec un vocabulaire déjà opératoire ici. Verdict
 sur la portée de ce rapprochement : à Sidy (Cmd 12).
@@ -144,10 +144,10 @@ jour : `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md`
 
 ## 8. Pistes pour le dépôt (kari-kumi, non tranché)
 
-Rapprochement suggéré avec l'infrastructure H‍ermes documentée en
+Rapprochement suggéré avec l'infrastructure Hermes documentée en
 `atelier/rd/infrastructure/` — **aucune décision d'implémentation ici** :
 
-- les 12 agents H‍ermes fonctionnent comme des composants chargés à l'exécution
+- les 12 agents Hermes fonctionnent comme des composants chargés à l'exécution
   (gateways `systemctl --user`) ; un rechargement à chaud sans redémarrage
   complet du service, avec garantie de retour arrière propre, répond
   directement à un besoin déjà rencontré (frictions de déploiement notées au
@@ -170,12 +170,12 @@ pour un chantier ultérieur, à instruire séparément si Sidy le juge pertinent
   connexes) du papier : non résumées ici, jugées non essentielles au cadrage
   R&D.
 - Aucun test du DeepSeek Harness lui-même : Sidy ne l'a pas encore essayé.
-- Aucune décision d'architecture pour H‍ermes : §8 ci-dessus est un jalon, pas
+- Aucune décision d'architecture pour Hermes : §8 ci-dessus est un jalon, pas
   un plan.
 
 ## 10. Liens
 
 - Charte du pôle : `atelier/rd/index.md`.
-- Infrastructure H‍ermes : `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11.md`.
+- Infrastructure Hermes : `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11.md`.
 - Registre des problèmes (frictions de déploiement citées en §7) :
   `atelier/rd/cahiers/registre-problemes.md`.

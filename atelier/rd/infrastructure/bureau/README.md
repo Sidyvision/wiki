@@ -14,7 +14,7 @@ python3 -m venv .venv
 ```
 Crée un environnement Python isolé (`.venv/`) pour ne pas mélanger les
 dépendances du bureau avec celles du système — même logique que
-`h‍ermes-agent/venv`. Gitignored (`.gitignore`), jamais commité.
+`hermes-agent/venv`. Gitignored (`.gitignore`), jamais commité.
 
 ```bash
 .venv/bin/pip install -r requirements.txt

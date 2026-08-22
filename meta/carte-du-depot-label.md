@@ -2,8 +2,8 @@
 title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
-created: 2026-08-18
-updated: 2026-08-18
+created: 2026-08-22
+updated: 2026-08-22
 sources: []
 links: []
 ---
@@ -12,7 +12,7 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-18 17:03 UTC, sur `/root/wiki`.
+> aucun réseau) le 2026-08-22 06:54 UTC, sur `/root/wiki`.
 > Portée : circuit `label/`. 13 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers

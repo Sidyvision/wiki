@@ -121,8 +121,8 @@ prononce sur la structure, jamais sur le principe métaphysique.
 - **2026-07-01** — lots Demeures lunaires / ʿIlm al-Nujūm / Meftah / table des 28-38 degrés ;
   **convergence des 28 validée par le Gem** (correspondance établie) ; ménage du sas `_inbox/`
   (144 fichiers) et intégration par Claude Code ; architecture Instrument v0.2 + spec technique de l'axe.
-- **2026-07-03 → 2026-07-08** — Infrastructure H‍ermes Agent : briefing (10-), procédure installation
-  phase 1 (12-), re-déploiement Qwen3.6-27B-FP8 (14-), pivot Haiku (13-). 12 profils H‍ermes
+- **2026-07-03 → 2026-07-08** — Infrastructure Hermes Agent : briefing (10-), procédure installation
+  phase 1 (12-), re-déploiement Qwen3.6-27B-FP8 (14-), pivot Haiku (13-). 12 profils Hermes
   configurés et testés sur modèle Haiku 4.5 direct (API Anthropic).
 - **2026-08-06/07** — Extension du rôle 02 (Direction Artistique) pour couvrir technique
   image/film/argentique (commit `0d96231`, intégré). Discord activé pour les 12 agents (fiches 13-14-15) :
@@ -132,7 +132,7 @@ prononce sur la structure, jamais sur le principe métaphysique.
   verbale dans `#inspiration` — **déviation acceptée « Option A »** (enrichissement en `_inbox/`
   autorisé si la pièce source brute reste dépositée séparément en `raw/assets/` après validation
   humaine). Voir `15-architecture-discord-hermes-2026-08-07.md` pour traçabilité complète.
-- **⚠️ 2026-08-07 crise API** : la clé Anthropic partagée par les 12 profils H‍ermes a atteint son
+- **⚠️ 2026-08-07 crise API** : la clé Anthropic partagée par les 12 profils Hermes a atteint son
   plafond de crédit (`HTTP 400: Your credit balance is too low`). Attente d'une clé nouvelle liée
   au plan personnel Sidy (non encore créée). Tous les agents restent inactifs jusqu'à résolution.
   Vérifier `errors.log` en première analyse lors de panne d'agent.

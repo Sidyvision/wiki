@@ -5,7 +5,7 @@
 > **Statut : méthode à l'essai** (éclatement expérimental du 2026-08-12, verdict
 > Sidy). Ce fichier porte la lettre complète des règles **propres** au Domaine
 > Réservé `meta/` — Sceau Transmissions/Karūbī, rappel d'étanchéité, corollaire
-> agentique H‍ermes. Les règles **transversales** (étanchéité inter-circuits dans
+> agentique Hermes. Les règles **transversales** (étanchéité inter-circuits dans
 > son intégralité, discipline des sources, double contrôle sashimono/Gizeh,
 > commandements absolus, supervision des agents) restent dans le `CLAUDE.md`
 > racine, **toujours chargé** quel que soit le dossier de travail — ce fichier ne
@@ -126,13 +126,13 @@ en écriture, cas Mehdi) — la première remise reste humaine/physique, inchang
 - §9→§10 (Questions pour Sidy → Réponses) reste une réponse directe de Sidy,
   mot pour mot, hors périmètre de tout automatisme.
 
-## Corollaire agentique (2026-08-09) — couche opérative H‍ermes
+## Corollaire agentique (2026-08-09) — couche opérative Hermes
 
 L'étanchéité ci-dessus régit les **circuits du dépôt** (doctrinal, atelier,
 hermeneutique, label) : elle continue d'interdire qu'un fait personnel migre dans
 une fiche neutre, et qu'un motif privé s'y substitue à une conséquence de design
 déclarée — rien de cela ne change. Elle **ne s'applique pas telle quelle à la
-couche agentique** (H‍ermes, CLAUDE.md racine §I, §VIII) : la fonction de ces
+couche agentique** (Hermes, CLAUDE.md racine §I, §VIII) : la fonction de ces
 agents est précisément de servir Sidy dans le concret d'un quotidien difficile, ce
 qui suppose l'usage de son contexte personnel — l'en isoler par principe le
 priverait de sa raison d'être. Ce point a été assumé explicitement par Sidy

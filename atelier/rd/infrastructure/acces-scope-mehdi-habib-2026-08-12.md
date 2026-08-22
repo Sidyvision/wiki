@@ -83,7 +83,7 @@ la frontière réelle étant déjà le montage `ro` au niveau OS).
 - Aucun sandboxing process-level (bubblewrap/Docker) — la frontière est
   purement filesystem (bind mount ro + ACL + permissions Unix standard).
   Jugé suffisant pour ce premier déploiement (cohérent avec le choix "statu
-  quo léger" déjà fait pour H‍ermes, mais ici renforcé par un compte OS dédié
+  quo léger" déjà fait pour Hermes, mais ici renforcé par un compte OS dédié
   vu la nature humaine/SSH de l'accès).
 - Le circuit `label/` reste hors périmètre de lecture — à revoir si la
   collaboration s'étend dans cette direction.

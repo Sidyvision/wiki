@@ -89,6 +89,11 @@ la dispersion mentale.
 > pré-éclatement, non modifiée, conservée pour rollback :
 > `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12.md` (Cmd 10 : jamais
 > de suppression sèche). Réversible sur simple verdict de Sidy.
+> **Révisé le 2026-08-22** : ajout du **Commandement 15 (Hygiène Unicode)** suite
+> à l'incident de contamination par caractères Zero Width Joiner (U+200D). 31
+> fichiers nettoyés, 156 occurrences supprimées. Interdiction formelle d'insérer
+> des caractères Unicode invisibles dans le dépôt. Référence : rapport
+> `atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md`.
 >
 > *Note technique* : le nom de fichier `CLAUDE.md` est une convention lue par l'outil
 > d'intégration en ligne de commande ; il ne désigne pas un modèle particulier. Le
@@ -201,7 +206,7 @@ d'intégration en plus du présent fichier dès qu'un agent travaille dans ce do
 | `atelier/CLAUDE.md` | Sceau atelier, nomenclature, spécificités `rd/` |
 | `label/CLAUDE.md` | Sceau label, ancrage éthique de la structure, nomenclature, Action Publication |
 | `hermeneutique/CLAUDE.md` | Sceau herméneutique, nomenclature, clause de plasticité |
-| `meta/CLAUDE.md` | Sceau Transmissions/Karūbī, rappel d'étanchéité, corollaire agentique H‍ermes |
+| `meta/CLAUDE.md` | Sceau Transmissions/Karūbī, rappel d'étanchéité, corollaire agentique Hermes |
 
 Ce qui reste **exclusivement ici** (transversal, s'applique identiquement aux cinq
 circuits) : §I, §II, §VI (étanchéité inter-circuits), §VII (protocoles d'exécution
@@ -598,3 +603,12 @@ Trame de référence — chaque notion réexpliquée jusqu'à maîtrise confirm�
     simple verdict de Sidy, auquel cas la version archivée
     (`meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12.md`) reprend
     intégralement sa place de fichier unique.
+15. **Hygiène Unicode (ajouté 2026-08-22, incident ZWJ)** : JAMAIS insérer de
+    caractères Unicode invisibles dans le dépôt — U+200B (Zero Width Space), U+200C
+    (Zero Width Non-Joiner), U+200D (Zero Width Joiner), U+FEFF (Byte Order Mark en
+    milieu de fichier), U+200E/U+200F (marques de direction). Ces caractères peuvent
+    masquer du code malveillant, contourner des filtres, ou corrompre des données
+    structurées. **Validation** : tout fichier doit être exempt de ces caractères
+    avant commit. En cas de détection : refus, investigation, rapport d'incident
+    déposé dans `atelier/rd/incidents/`. Référence : rapport
+    `atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md`.

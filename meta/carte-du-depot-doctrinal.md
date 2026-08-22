@@ -2,8 +2,8 @@
 title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
-created: 2026-08-18
-updated: 2026-08-18
+created: 2026-08-22
+updated: 2026-08-22
 sources: []
 links: []
 ---
@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-18 17:03 UTC, sur `/root/wiki`.
-> Portée : circuit `doctrinal/`. 250 fiches parcourues.
+> aucun réseau) le 2026-08-22 06:54 UTC, sur `/root/wiki`.
+> Portée : circuit `doctrinal/`. 260 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -26,12 +26,12 @@ links: []
 
 ## I. Inventaire par circuit
 
-### `doctrinal/` — 250 fiches
+### `doctrinal/` — 260 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
 | `doctrinal/CLAUDE` | — | — | — | — | (sans titre) |
-| `doctrinal/annales` | meta | — | 2026-08-16 | — | Annales du Secrétariat Doctrinal |
+| `doctrinal/annales` | meta | — | 2026-08-20 | — | Annales du Secrétariat Doctrinal |
 | `doctrinal/autorites/abd-al-karim-al-jili` | autorite | traditionnel | 2026-06-20 | 1 | ʿAbd al-Karīm al-Jīlī |
 | `doctrinal/autorites/abd-al-qadir-al-jilani` | autorite | traditionnel | 2026-06-20 | 1 | ʿAbd al-Qādir al-Jīlānī |
 | `doctrinal/autorites/abdullah-daghestani` | autorite | traditionnel | 2026-06-20 | 0 | Shaikh 'Abdullāh ad-Dāghistānī an-Naqshbandī |
@@ -97,7 +97,7 @@ links: []
 | `doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil` | discernement | traditionnel | 2026-07-27 | 4 | Le septénaire transversal, la Balance et le degré du Soleil — référentiels |
 | `doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance` | discernement | speculatif | 2026-07-28 | 2 | Les marques de la contrefaçon — grille de vigilance opératoire |
 | `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra` | discernement | speculatif | 2026-08-10 | 3 | L'ombre septénaire : les sept tours du diable et la Sitra Aḥra kabbalistique |
-| `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle` | discernement | speculatif | 2026-08-10 | 10 | Qutb, Manu, Metatron, Er-Rûh : la fonction polaire universelle à travers quatre voiles tr… |
+| `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle` | discernement | speculatif | 2026-08-10 | 11 | Qutb, Manu, Metatron, Er-Rûh : la fonction polaire universelle à travers quatre voiles tr… |
 | `doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle` | discernement | speculatif | 2026-08-10 | 2 | Hiérarchie du principe et de la détermination individuelle — application à la couche agen… |
 | `doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion` | discernement | speculatif | 2026-08-09 | 1 | Wahhabisme et effondrement du Califat — hypothèse de la Grande Subversion et de la révolt… |
 | `doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire` | discernement | adopte | 2026-08-12 | 1 | Trois territoires de l'inachevé — flux spéculatif → exploratoire → finalisé |
@@ -105,6 +105,9 @@ links: []
 | `doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel` | discernement | speculatif | 2026-08-13 | 3 | L'efficacité talismanique du Shams al-Maʿārif face au critère psychique/spirituel guénoni… |
 | `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation` | discernement | speculatif | 2026-08-13 | 4 | Le statut du siḥr dans le Shams al-Maʿārif face à la grille guénonienne contre-initiation… |
 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre` | discernement | speculatif | 2026-08-14 | 6 | Discernement — Les awfāq de Shams al-Maʿārif au regard de la métaphysique guénonienne du … |
+| `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot` | discernement | speculatif | 2026-08-20 | 5 | Kabbale hébraïque dans le dépôt — état des lieux et pièces disponibles |
+| `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement` | discernement | speculatif | 2026-08-20 | 3 | Palais de la Sainteté (kabbale) et Centre des ḥaḍarāt (tasawwuf akbarien) — amorce de rap… |
+| `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen` | discernement | speculatif | 2026-08-20 | 4 | Dépôt — Traité de l'Émanation Gauche (Isaac ben Jacob ha-Kohen) |
 | `doctrinal/discernement/_template` | discernement | speculatif | 2026-06-20 | 0 | Spéculation sur [Sujet de la réflexion] |
 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani` | discernement | traditionnel | 2026-07-09 | 3 | Tension terminologique — Cinq Présences divines : Burckhardt vs Jurjānī |
 | `doctrinal/etudes/2026-06-04_islam-et-ia` | etude | academique | 2026-06-11 | 0 | Islam et Intelligence Artificielle |
@@ -122,6 +125,7 @@ links: []
 | `doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam` | source | traditionnel | 2026-07-09 | 0 | Burckhardt — Introduction aux doctrines ésotériques de l'Islam |
 | `doctrinal/sources/conversation-llm-intellect-2026-06-11` | source | traditionnel | 2026-06-20 | 0 | Conversation : LLM-Wiki comme modalité de l''Intellect |
 | `doctrinal/sources/dalail-al-khayrat-jazuli` | source | traditionnel | 2026-07-14 | 0 | Dalâ'il al-Khayrât wa Shawāriq al-Anwār — Muhammad al-Jazūlī |
+| `doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025` | source | academique | 2026-08-20 | 0 | Dreaming the Ummah: Science Fiction and the Possibility of Islamofuturism |
 | `doctrinal/sources/figure-archeometre-islamise-mahdi-rouge` | source | academique | 2026-06-29 | 0 | La figure de l'Archéomètre — version islamisée (blog La fin des temps modernes, |
 | `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge` | source | traditionnel | 2026-07-01 | 0 | L'axe équinoxial, le zodiaque islamique et les Demeures lunaires — La fin des temps moder… |
 | `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge` | source | traditionnel | 2026-07-01 | 0 | Les bases de la science astrologique traditionnelle — ʿIlm al-Nujūm (Mahdi Rouge) |
@@ -173,6 +177,8 @@ links: []
 | `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt` | source | traditionnel | 2026-06-29 | 0 | Introduction aux doctrines ésotériques de l'Islam — ch. II, Fondements doctrinaux |
 | `doctrinal/sources/islam-and-artificial-intelligence` | source | academique | 2026-06-11 | 0 | Islam and Artificial Intelligence |
 | `doctrinal/sources/jesus-and-enoch-in-ibn-arabi` | source | academique | 2026-06-11 | 0 | Jesus and Enoch in the Barzakh of Ibn al-ʿArabī |
+| `doctrinal/sources/kabbale-10-sefirot-structure` | source | traditionnel | 2026-08-20 | 2 | Les 10 Sephiroth — Structure de l'Arbre séphirothique |
+| `doctrinal/sources/kabbale-cosmogonie-iod` | source | traditionnel | 2026-08-20 | 3 | Cosmogonie du *iod* — Le point primordial et la création par les lettres |
 | `doctrinal/sources/kitab-al-tarifat-jurjani` | source | traditionnel | 2026-06-30 | 1 | Kitāb al-Taʿrīfāt — Le Livre des définitions (al-Jurjānī) |
 | `doctrinal/sources/kitab-tarifat-index-transcription` | source | traditionnel | 2026-06-30 | 1 | Kitāb al-Taʿrīfāt — Annexes et index (transcription intégrale) |
 | `doctrinal/sources/mahdi-rouge-islam-signe-balance-I` | source | academique | 2026-07-27 | 1 | Mahdi Rouge — L'Islam et le signe de la Balance : article I |
@@ -185,9 +191,13 @@ links: []
 | `doctrinal/sources/platon-oeuvres-completes-brisson-2011` | source | traditionnel | 2026-06-30 | 0 | Œuvres complètes — Platon (Flammarion, 2011, dir. Luc Brisson) |
 | `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` | source | traditionnel | 2026-07-16 | 3 | Matière kabbalistique dans la trilogie guénonienne (session 2026-07-16) : point primordia… |
 | `doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription` | source | traditionnel | 2026-07-09 | 0 | Les Révélations de La Mecque — Sommaire, notice biographique, bibliographie, index et lex… |
+| `doctrinal/sources/sefer-yetsira-ramban` | source | traditionnel | 2026-08-20 | 0 | Sefer Yetsira — Livre de la Création (avec commentaire du Ramban) |
+| `doctrinal/sources/sefer-yetsira-ramban_source` | source | traditionnel | 2026-08-20 | 0 | Sefer Yetsira — Livre de la Création (avec commentaire du Ramban) |
 | `doctrinal/sources/sept-etendards-califat` | source | traditionnel | 2026-07-10 | 1 | Les Sept Étendards du Califat — Transcription (Avant-propos, Table des matières, Index, C… |
 | `doctrinal/sources/shams-al-maarif` | source | traditionnel | 2026-06-11 | 0 | Shams al-Maʿārif al-Kubrā — Traduction française (Tomes 1 & 2) |
 | `doctrinal/sources/tilak-origine-polaire-tradition-vedique` | source | academique | 2026-07-14 | 0 | Origine polaire de la tradition védique — Bâl Gangâdhar Tilak |
+| `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` | source | traditionnel | 2026-08-20 | 0 | Traité de l'Émanation Gauche — Isaac ben Jacob ha-Kohen (XIIIe s.) |
+| `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source` | source | traditionnel | 2026-08-20 | 0 | Traité de l’Émanation Gauche (partie 1) – Kabbale en Ligne |
 | `doctrinal/sources/transcription-anneau-28-lettres-figure4` | source | traditionnel | 2026-07-01 | 1 | Transcription de l'anneau des 28 lettres — Figure 4, De la mort à la résurrection |
 | `doctrinal/sources/transcription-index-tilak-origine-polaire` | source | academique | 2026-08-17 | 0 | Transcription — Origine polaire de la tradition védique (Tilak) |
 | `doctrinal/sources/transcription-table-matieres-symboles-science-sacree` | source | traditionnel | 2026-08-17 | 0 | Transcription — Table des matières intégrale, Symboles de la Science sacrée |
@@ -237,7 +247,7 @@ links: []
 | `doctrinal/symboles/lignees-celestes-taoisme` | symbole | academique | 2026-06-20 | 0 | Lignées célestes dans le taoïsme |
 | `doctrinal/symboles/malamatiyya` | symbole | traditionnel | 2026-08-04 | 1 | Al-Malāmatiyya (les « gens du blâme ») et les Afrâd |
 | `doctrinal/symboles/manazil-al-qamar` | symbole | traditionnel | 2026-07-01 | 1 | Manāzil al-Qamar — les 28 Demeures lunaires |
-| `doctrinal/symboles/manvantara` | symbole | traditionnel | 2026-06-30 | 1 | Manvantara — les cycles cosmiques (Yuga) selon René Guénon |
+| `doctrinal/symboles/manvantara` | symbole | traditionnel | 2026-08-20 | 1 | Manvantara — les cycles cosmiques (Yuga) selon René Guénon |
 | `doctrinal/symboles/maqamat-meknes` | symbole | academique | 2026-06-20 | 0 | Maqâm et zaouïas de Meknès — catalogue |
 | `doctrinal/symboles/marcher-sur-eau-en-reve` | symbole | traditionnel | 2026-06-20 | 0 | Marcher sur l'eau en rêve |
 | `doctrinal/symboles/merkavah-muraqaba` | symbole | academique | 2026-06-20 | 0 | Merkavah (מרכבה) et Muraqaba (مراقبة) — comparatisme étymologique et mise en |
@@ -291,8 +301,9 @@ links: []
 | `ibn-arabi` | 25 | `doctrinal/autorites/titus-burckhardt`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge`, `doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya`, `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, … (+17) |
 | `soufisme` | 12 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/autorites/abd-al-qadir-al-jilani`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/symboles/al-insan-al-kamil`, `doctrinal/symboles/barzakh`, `doctrinal/symboles/hadarat-khams`, … (+4) |
 | `metaphysique` | 11 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `doctrinal/symboles/al-insan-al-kamil`, `doctrinal/symboles/barzakh`, `doctrinal/symboles/hadarat-khams`, … (+3) |
+| `kabbale` | 10 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot`, `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron`, `doctrinal/sources/kabbale-10-sefirot-structure`, `doctrinal/sources/kabbale-cosmogonie-iod`, `doctrinal/sources/sefer-yetsira-ramban`, … (+2) |
+| `tasawwuf` | 10 | `doctrinal/autorites/faraz-rabbani`, `doctrinal/autorites/muhammad-nazim-al-haqqani`, `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement`, `doctrinal/symboles/futuwwa`, `doctrinal/symboles/ghafla`, `doctrinal/symboles/khatm-al-khawajakan`, `doctrinal/symboles/malamatiyya`, `doctrinal/symboles/shukr`, `doctrinal/symboles/tawakkul`, `doctrinal/traditions/naqshbandiyya` |
 | `qutb` | 9 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh`, `doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron`, `doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes`, `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot`, … (+1) |
-| `tasawwuf` | 9 | `doctrinal/autorites/faraz-rabbani`, `doctrinal/autorites/muhammad-nazim-al-haqqani`, `doctrinal/symboles/futuwwa`, `doctrinal/symboles/ghafla`, `doctrinal/symboles/khatm-al-khawajakan`, `doctrinal/symboles/malamatiyya`, `doctrinal/symboles/shukr`, `doctrinal/symboles/tawakkul`, `doctrinal/traditions/naqshbandiyya` |
 | `contre-initiation` | 8 | `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/sept-tours-du-diable`, `doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance`, `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion`, `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation`, `doctrinal/sources/guenon-recension-seabrook-aventures-arabie`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation`, … (+0) |
 | `walaya` | 8 | `doctrinal/autorites/abd-al-qadir-al-jilani`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot`, `doctrinal/sources/malamatiyah-futuhat-ch23`, `doctrinal/symboles/khatm`, `doctrinal/symboles/malamatiyya`, `doctrinal/symboles/manazil-al-qamar`, `doctrinal/symboles/walaya` |
 | `clos` | 7 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien`, `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, … (+-1) |
@@ -304,10 +315,12 @@ links: []
 | `zodiaque` | 6 | `doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh`, `doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle`, `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge`, `doctrinal/sources/guenon-zodiaque-pythagoriciens`, `doctrinal/symboles/manazil-al-qamar` |
 | `cycles-cosmiques` | 5 | `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge`, `doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques`, `doctrinal/symboles/atlantide`, `doctrinal/symboles/manvantara` |
 | `discernement` | 5 | `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance`, `doctrinal/discernement/tension-hadarat-burckhardt-jurjani` |
+| `hadarat` | 5 | `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement`, `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `doctrinal/symboles/hadarat-khams` |
 | `ilm-al-huruf` | 5 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre`, `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/sources/transcription-anneau-28-lettres-figure4`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
 | `insan-al-kamil` | 5 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`, `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel` |
 | `manazil-al-qamar` | 5 | `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq`, `doctrinal/symboles/manazil-al-qamar`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
 | `manu` | 5 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes`, `doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq`, `doctrinal/sources/valsan-investiture-cheikh-al-akbar` |
+| `metatron` | 5 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `methodologie` | 5 | `doctrinal/deviations/confusion-psychique-spirituel`, `doctrinal/deviations/renversement-des-symboles`, `doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance`, `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation` |
 | `non-syncretisme` | 5 | `doctrinal/deviations/pseudo-initiation-et-syncretisme`, `doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa`, `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles`, `doctrinal/symboles/archeometre` |
 | `subversion` | 5 | `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/deviation-et-subversion`, `doctrinal/deviations/renversement-des-symboles`, `doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation` |
@@ -320,13 +333,13 @@ links: []
 | `dhikr` | 4 | `doctrinal/symboles/ghafla`, `doctrinal/symboles/khatm-al-khawajakan`, `doctrinal/symboles/shukr`, `doctrinal/traditions/naqshbandiyya` |
 | `etats-multiples` | 4 | `doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles`, `doctrinal/sources/guenon-etats-multiples-ch4-fondement`, `doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes`, `doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise` |
 | `fusus-al-hikam` | 4 | `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq`, `doctrinal/symboles/manazil-al-qamar`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
-| `hadarat` | 4 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `doctrinal/symboles/hadarat-khams` |
 | `ilm-al-nujum` | 4 | `doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh`, `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge`, `doctrinal/symboles/manazil-al-qamar` |
 | `khatm` | 4 | `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/sources/valsan-investiture-cheikh-al-akbar`, `doctrinal/symboles/khatm`, `doctrinal/symboles/khatm-al-khawajakan` |
 | `mahdi-rouge` | 4 | `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-I`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-II` |
 | `manvantara` | 4 | `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge`, `doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques`, `doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq`, `doctrinal/symboles/manvantara` |
 | `nombre` | 4 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre`, `doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres`, `doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation`, `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf` |
 | `ontologie` | 4 | `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi`, `doctrinal/sources/alshammari-llm-ontologie-hadith-2026`, `doctrinal/symboles/barzakh`, `doctrinal/symboles/wahdat-al-wujud` |
+| `qabbalah` | 4 | `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot`, `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement`, `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `roi-du-monde` | 4 | `doctrinal/sources/guenon-roi-du-monde-ch10`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron`, `doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes`, `doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq` |
 | `septenaire` | 4 | `doctrinal/deviations/sept-tours-du-diable`, `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/sources/guenon-recension-seabrook-aventures-arabie`, `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace` |
 | `adab` | 3 | `doctrinal/symboles/futuwwa`, `doctrinal/symboles/shukr`, `doctrinal/symboles/tawakkul` |
@@ -345,50 +358,65 @@ links: []
 | `initiation` | 3 | `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel`, `doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission`, `doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs` |
 | `insan-kamil` | 3 | `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/symboles/khatm` |
 | `intellect` | 3 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes` |
-| `kabbale` | 3 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron` |
 | `lexicographie` | 3 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-index-transcription` |
 | `magie` | 3 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre`, `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle`, `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf` |
 | `maratib-al-wujud` | 3 | `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
 | `melki-tsedeq` | 3 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq`, `doctrinal/sources/valsan-investiture-cheikh-al-akbar` |
-| `metatron` | 3 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron` |
 | `naqshbandiyya` | 3 | `doctrinal/autorites/muhammad-nazim-al-haqqani`, `doctrinal/symboles/khatm-al-khawajakan`, `doctrinal/traditions/naqshbandiyya` |
 | `pseudo-initiation` | 3 | `doctrinal/deviations/pseudo-initiation-et-syncretisme`, `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation`, `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle` |
 | `rite` | 3 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre`, `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle`, `doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation` |
+| `sefer-yetsira` | 3 | `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot`, `doctrinal/sources/sefer-yetsira-ramban`, `doctrinal/sources/sefer-yetsira-ramban_source` |
 | `shams-al-maarif` | 3 | `doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel`, `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation`, `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre` |
+| `shekinah` | 3 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron` |
 | `silsila` | 3 | `doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission`, `doctrinal/symboles/khatm-al-khawajakan`, `doctrinal/traditions/naqshbandiyya` |
+| `sitra-ahra` | 3 | `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `terminologie` | 3 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-index-transcription` |
+| `10-sephirot-maléfiques` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `adam-qadmon` | 2 | `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `akbarisme` | 2 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/autorites/al-jurjani` |
 | `alam-al-huruf` | 2 | `doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq`, `doctrinal/symboles/nafas-rahmani` |
 | `albouraq` | 2 | `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq` |
 | `apercus-sur-l-initiation` | 2 | `doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission`, `doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles` |
+| `arbre-sephirotique` | 2 | `doctrinal/sources/kabbale-10-sefirot-structure`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `archeometre` | 2 | `doctrinal/sources/archeometre-saint-yves-papus-1911`, `doctrinal/symboles/archeometre` |
 | `art-sacre` | 2 | `doctrinal/autorites/titus-burckhardt`, `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel` |
+| `asmodee` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `atlantide` | 2 | `doctrinal/sources/platon-oeuvres-completes-brisson-2011`, `doctrinal/symboles/atlantide` |
 | `awliya-shaytan` | 2 | `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/sept-tours-du-diable` |
 | `axe-du-monde` | 2 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron` |
 | `califat` | 2 | `doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion`, `doctrinal/sources/sept-etendards-califat` |
+| `castille` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
+| `centre` | 2 | `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement`, `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement` |
 | `chantier-guenon-buni` | 2 | `doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel`, `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation` |
+| `cosmogonie` | 2 | `doctrinal/sources/kabbale-cosmogonie-iod`, `doctrinal/symboles/nafas-rahmani` |
 | `degres-ontologiques` | 2 | `doctrinal/sources/guenon-etats-multiples-ch4-fondement`, `doctrinal/symboles/hadarat-khams` |
+| `demonologie` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `deviation` | 2 | `doctrinal/deviations/deviation-et-subversion`, `doctrinal/deviations/morphopsychologie` |
+| `emanation-gauche` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `en-cours` | 2 | `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm` |
 | `er-ruh` | 2 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh` |
 | `formes-traditionnelles` | 2 | `doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles`, `doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques` |
 | `futuhât` | 2 | `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
 | `gpt-4` | 2 | `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi`, `doctrinal/sources/alshammari-llm-ontologie-hadith-2026` |
 | `grammaire` | 2 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani` |
+| `hekhaleth` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `hellenisme` | 2 | `doctrinal/sources/platon-oeuvres-completes-brisson-2011`, `doctrinal/symboles/atlantide` |
 | `hierarchie-initiatique` | 2 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/symboles/khatm` |
 | `hindouisme-islam` | 2 | `doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme`, `doctrinal/sources/guenon-mysteres-lettre-nun` |
 | `ia` | 2 | `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi`, `doctrinal/sources/alshammari-llm-ontologie-hadith-2026` |
 | `identite-supreme` | 2 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26`, `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel` |
 | `idris` | 2 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-I` |
+| `iod` | 2 | `doctrinal/sources/kabbale-cosmogonie-iod`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
+| `isaac-ha-kohen` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `jili` | 2 | `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel`, `doctrinal/symboles/al-insan-al-kamil` |
 | `jivan-mukti` | 2 | `doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26` |
 | `jurjani` | 2 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/sources/barzakh-nur-lh` |
 | `kali-yuga` | 2 | `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge`, `doctrinal/symboles/manvantara` |
 | `kari-kumi` | 2 | `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi` |
+| `kether` | 2 | `doctrinal/sources/kabbale-10-sefirot-structure`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `khidr` | 2 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/sources/valsan-investiture-cheikh-al-akbar` |
+| `lettres-hebraiques` | 2 | `doctrinal/sources/kabbale-cosmogonie-iod`, `doctrinal/sources/sefer-yetsira-ramban` |
+| `lilith` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `llm` | 2 | `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/sources/alshammari-llm-ontologie-hadith-2026` |
 | `logique` | 2 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani` |
 | `malamatiyya` | 2 | `doctrinal/sources/malamatiyah-futuhat-ch23`, `doctrinal/symboles/malamatiyya` |
@@ -402,24 +430,27 @@ links: []
 | `neo-spiritualisme` | 2 | `doctrinal/deviations/confusion-psychique-spirituel`, `doctrinal/deviations/pseudo-initiation-et-syncretisme` |
 | `occultisme` | 2 | `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle`, `doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores` |
 | `om` | 2 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14` |
+| `palais-interieur` | 2 | `doctrinal/sources/kabbale-cosmogonie-iod`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `parodie` | 2 | `doctrinal/deviations/deviation-et-subversion`, `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale` |
 | `platon` | 2 | `doctrinal/sources/platon-oeuvres-completes-brisson-2011`, `doctrinal/symboles/atlantide` |
 | `pole` | 2 | `doctrinal/deviations/sept-tours-du-diable`, `doctrinal/sources/guenon-recension-seabrook-aventures-arabie` |
 | `prajna` | 2 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21` |
+| `pre-zohar` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `prosodie` | 2 | `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-index-transcription` |
-| `qabbalah` | 2 | `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `qaf` | 2 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa` |
+| `qliphoth` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `quantite` | 2 | `doctrinal/deviations/deviation-et-subversion`, `doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation` |
 | `rafi-ad-darajat` | 2 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm` |
+| `ramban` | 2 | `doctrinal/sources/sefer-yetsira-ramban`, `doctrinal/sources/sefer-yetsira-ramban_source` |
 | `rattachement` | 2 | `doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission`, `doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs` |
 | `rene-guenon` | 2 | `doctrinal/sources/malamatiyah-futuhat-ch23`, `doctrinal/symboles/archeometre` |
 | `rose-croix` | 2 | `doctrinal/sources/archeometre-saint-yves-papus-1911`, `doctrinal/symboles/archeometre` |
 | `saint-yves-dalveydre` | 2 | `doctrinal/sources/archeometre-saint-yves-papus-1911`, `doctrinal/symboles/archeometre` |
+| `samael` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `sashimono` | 2 | `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel`, `doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle` |
 | `science-traditionnelle` | 2 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre`, `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle` |
 | `science-traditionnelle-des-nombres` | 2 | `doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres`, `doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation` |
 | `sepher-ietsirah` | 2 | `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
-| `shekinah` | 2 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron` |
 | `simiya` | 2 | `doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel`, `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation` |
 | `socle-metaphysique` | 2 | `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`, `doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh` |
 | `source-primaire` | 2 | `doctrinal/sources/archeometre-saint-yves-papus-1911`, `doctrinal/sources/platon-oeuvres-completes-brisson-2011` |
@@ -429,6 +460,7 @@ links: []
 | `symbolisme` | 2 | `doctrinal/deviations/renversement-des-symboles`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation` |
 | `syncretisme` | 2 | `doctrinal/deviations/pseudo-initiation-et-syncretisme`, `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation` |
 | `tawakkul` | 2 | `doctrinal/symboles/shukr`, `doctrinal/symboles/tawakkul` |
+| `tetragramme` | 2 | `doctrinal/sources/kabbale-cosmogonie-iod`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `theologie` | 2 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani` |
 | `transmission` | 2 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre`, `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle` |
 | `tribhuvana` | 2 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes` |
@@ -441,6 +473,7 @@ links: []
 | `wiratha` | 2 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot` |
 | `yezidis` | 2 | `doctrinal/deviations/sept-tours-du-diable`, `doctrinal/sources/guenon-recension-seabrook-aventures-arabie` |
 | `yuga` | 2 | `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge`, `doctrinal/symboles/manvantara` |
+| `10-sephirot` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `14e-demeure` | 1 | `doctrinal/sources/mahdi-rouge-islam-signe-balance-I` |
 | `28-degres` | 1 | `doctrinal/symboles/nafas-rahmani` |
 | `a-revoir` | 1 | `doctrinal/sources/histoire-wahhabis-corancez-redissi` |
@@ -457,10 +490,10 @@ links: []
 | `antechrist` | 1 | `doctrinal/deviations/antitradition-et-contre-tradition` |
 | `antediluvien` | 1 | `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien` |
 | `antitradition` | 1 | `doctrinal/deviations/antitradition-et-contre-tradition` |
+| `aor` | 1 | `doctrinal/sources/kabbale-cosmogonie-iod` |
 | `apercus-initiation` | 1 | `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle` |
 | `apex` | 1 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex` |
 | `arbre-inverse` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7` |
-| `arbre-sephirotique` | 1 | `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `arc-diurne-nocturne` | 1 | `doctrinal/sources/mahdi-rouge-islam-signe-balance-II` |
 | `archetypes` | 1 | `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise` |
 | `architecture-chinoise` | 1 | `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel` |
@@ -473,6 +506,7 @@ links: []
 | `atlante` | 1 | `doctrinal/sources/guenon-roi-du-monde-ch10` |
 | `auteure` | 1 | `doctrinal/autorites/aiman-attar` |
 | `avarna` | 1 | `doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles` |
+| `avir` | 1 | `doctrinal/sources/kabbale-cosmogonie-iod` |
 | `awfaq` | 1 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre` |
 | `awtad` | 1 | `doctrinal/sources/valsan-investiture-cheikh-al-akbar` |
 | `axe` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21` |
@@ -481,12 +515,13 @@ links: []
 | `bhutas` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26` |
 | `bibliographie` | 1 | `doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription` |
 | `bibliotheque-physique` | 1 | `doctrinal/sources/archeometre-saint-yves-papus-1911` |
+| `bilan` | 1 | `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot` |
+| `bina` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `brahatma` | 1 | `doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes` |
 | `brahma` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya` |
 | `buddhi` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7` |
 | `buruj` | 1 | `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge` |
 | `carre-magique` | 1 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre` |
-| `centre` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement` |
 | `centre-circonference` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference` |
 | `centres` | 1 | `doctrinal/deviations/sept-tours-du-diable` |
 | `ceremonie` | 1 | `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle` |
@@ -499,6 +534,7 @@ links: []
 | `cieux-planetaires` | 1 | `doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles` |
 | `cinq-presences` | 1 | `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise` |
 | `commencement-temps` | 1 | `doctrinal/sources/mahdi-rouge-islam-signe-balance-II` |
+| `comparaison` | 1 | `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement` |
 | `comparatisme` | 1 | `doctrinal/symboles/archeometre` |
 | `complementarisme` | 1 | `doctrinal/deviations/renversement-des-symboles` |
 | `confusion-psychique-spirituel` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores` |
@@ -509,7 +545,8 @@ links: []
 | `corancez` | 1 | `doctrinal/sources/histoire-wahhabis-corancez-redissi` |
 | `correction` | 1 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale` |
 | `correspondances` | 1 | `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi` |
-| `cosmogonie` | 1 | `doctrinal/symboles/nafas-rahmani` |
+| `cosmogonie-lettres` | 1 | `doctrinal/sources/sefer-yetsira-ramban` |
+| `creation` | 1 | `doctrinal/sources/kabbale-cosmogonie-iod` |
 | `critere-de-validite` | 1 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre` |
 | `critias` | 1 | `doctrinal/sources/platon-oeuvres-completes-brisson-2011` |
 | `cycle` | 1 | `doctrinal/sources/guenon-mysteres-lettre-nun` |
@@ -531,6 +568,7 @@ links: []
 | `dissolution` | 1 | `doctrinal/deviations/deviation-et-subversion` |
 | `doctrines-esoteriques` | 1 | `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt` |
 | `domification` | 1 | `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge` |
+| `douze-simples` | 1 | `doctrinal/sources/sefer-yetsira-ramban` |
 | `droit` | 1 | `doctrinal/sources/kitab-al-tarifat-jurjani` |
 | `druses` | 1 | `doctrinal/sources/guenon-recension-seabrook-aventures-arabie` |
 | `dualite` | 1 | `doctrinal/deviations/renversement-des-symboles` |
@@ -546,6 +584,7 @@ links: []
 | `equinoxes` | 1 | `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge` |
 | `erreur-conservee` | 1 | `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect` |
 | `esoterisme-islamique` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf` |
+| `etat-des-lieux` | 1 | `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot` |
 | `etats-etre` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques` |
 | `etre` | 1 | `doctrinal/sources/guenon-etats-multiples-ch4-fondement` |
 | `etudes-hindouisme` | 1 | `doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme` |
@@ -560,6 +599,7 @@ links: []
 | `geometrie-metaphysique` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques` |
 | `geometrie-sacree` | 1 | `doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation` |
 | `geopolitique` | 1 | `doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion` |
+| `gevurah` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `ghafla` | 1 | `doctrinal/symboles/ghafla` |
 | `ghawth` | 1 | `doctrinal/autorites/abd-al-qadir-al-jilani` |
 | `gilis` | 1 | `doctrinal/sources/sept-etendards-califat` |
@@ -577,6 +617,7 @@ links: []
 | `herbalism` | 1 | `doctrinal/autorites/aiman-attar` |
 | `heritier-prophete` | 1 | `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot` |
 | `hermes` | 1 | `doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle` |
+| `hesed` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `hierarchie` | 1 | `doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes` |
 | `hierarchie-des-sciences` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf` |
 | `hierarchie-inversee` | 1 | `doctrinal/deviations/contre-initiation` |
@@ -584,6 +625,8 @@ links: []
 | `hierogamie` | 1 | `doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres` |
 | `hindouisme` | 1 | `doctrinal/symboles/manvantara` |
 | `histoire` | 1 | `doctrinal/sources/histoire-wahhabis-corancez-redissi` |
+| `hod` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
+| `hokhma` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `homme-devenir-vedanta` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya` |
 | `hyperboréen` | 1 | `doctrinal/sources/guenon-roi-du-monde-ch10` |
 | `illusion` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet` |
@@ -595,8 +638,8 @@ links: []
 | `initiation-effective` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs` |
 | `initiation-virtuelle` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs` |
 | `instrument` | 1 | `doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh` |
+| `instrumentation` | 1 | `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot` |
 | `invariable-milieu` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference` |
-| `iod` | 1 | `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `irak-medieval` | 1 | `doctrinal/autorites/abd-al-karim-al-jili` |
 | `isa` | 1 | `doctrinal/symboles/khatm` |
 | `isthme` | 1 | `doctrinal/symboles/barzakh` |
@@ -606,7 +649,6 @@ links: []
 | `jivatma` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement` |
 | `jongleur` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee` |
 | `karshvar` | 1 | `doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa` |
-| `kether` | 1 | `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `khadir` | 1 | `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot` |
 | `khatim` | 1 | `doctrinal/symboles/khatm` |
 | `khatm-al-walaya` | 1 | `doctrinal/symboles/manazil-al-qamar` |
@@ -628,11 +670,13 @@ links: []
 | `mahatma` | 1 | `doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes` |
 | `majdhub` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee` |
 | `malakut-planetaire` | 1 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire` |
+| `malkhut` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `manas` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26` |
 | `manifestation` | 1 | `doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation` |
 | `matras` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21` |
 | `medieval` | 1 | `doctrinal/autorites/abd-al-qadir-al-jilani` |
 | `mental` | 1 | `doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes` |
+| `merkava` | 1 | `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement` |
 | `metaphysique-du-nombre` | 1 | `doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres` |
 | `methode` | 1 | `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel` |
 | `metier` | 1 | `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel` |
@@ -640,10 +684,12 @@ links: []
 | `miraj` | 1 | `doctrinal/symboles/eschatologie` |
 | `moksha` | 1 | `doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles` |
 | `monde-intermediaire` | 1 | `doctrinal/deviations/contre-initiation` |
+| `mondes-detruits` | 1 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen` |
 | `mythe-sacre` | 1 | `doctrinal/symboles/atlantide` |
 | `nafas-al-rahman` | 1 | `doctrinal/sources/meftah-chatons-sagesses-transcription` |
 | `nafs` | 1 | `doctrinal/symboles/ghafla` |
 | `neoplatonisme` | 1 | `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect` |
+| `netzach` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `nezami` | 1 | `doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa` |
 | `noblesse` | 1 | `doctrinal/symboles/futuwwa` |
 | `noeuds-lunaires` | 1 | `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge` |
@@ -659,15 +705,17 @@ links: []
 | `origine-polaire` | 1 | `doctrinal/sources/tilak-origine-polaire-tradition-vedique` |
 | `outils-computationnels` | 1 | `doctrinal/sources/alshammari-llm-ontologie-hadith-2026` |
 | `pair-impair` | 1 | `doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres` |
-| `palais-interieur` | 1 | `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
+| `palais-saintete` | 1 | `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement` |
 | `panthéisme` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26` |
 | `papus` | 1 | `doctrinal/sources/archeometre-saint-yves-papus-1911` |
 | `perennialisme` | 1 | `doctrinal/autorites/titus-burckhardt` |
+| `phase-3` | 1 | `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot` |
 | `phenomene` | 1 | `doctrinal/deviations/confusion-psychique-spirituel` |
 | `philologie` | 1 | `doctrinal/sources/tilak-origine-polaire-tradition-vedique` |
 | `pitri-yana` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26` |
 | `planetes` | 1 | `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge` |
 | `pléiades` | 1 | `doctrinal/sources/guenon-roi-du-monde-ch10` |
+| `point-primordial` | 1 | `doctrinal/sources/kabbale-cosmogonie-iod` |
 | `poitrine-temps` | 1 | `doctrinal/sources/mahdi-rouge-islam-signe-balance-II` |
 | `polaire-solaire` | 1 | `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien` |
 | `portes-solsticiales` | 1 | `doctrinal/sources/guenon-zodiaque-pythagoriciens` |
@@ -715,11 +763,13 @@ links: []
 | `science-des-lettres` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf` |
 | `science-sacree` | 1 | `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien` |
 | `seekersguidance` | 1 | `doctrinal/autorites/faraz-rabbani` |
+| `sefirot` | 1 | `doctrinal/sources/sefer-yetsira-ramban` |
 | `semantique` | 1 | `doctrinal/sources/alshammari-llm-ontologie-hadith-2026` |
 | `sens-inverse` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement` |
 | `sephiroth` | 1 | `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `sept-cieux` | 1 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire` |
 | `sept-climats` | 1 | `doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa` |
+| `sept-doubles` | 1 | `doctrinal/sources/sefer-yetsira-ramban` |
 | `septénaire` | 1 | `doctrinal/sources/guenon-roi-du-monde-ch10` |
 | `service` | 1 | `doctrinal/symboles/futuwwa` |
 | `shaikh` | 1 | `doctrinal/autorites/muhammad-nazim-al-haqqani` |
@@ -727,7 +777,6 @@ links: []
 | `shukr` | 1 | `doctrinal/symboles/shukr` |
 | `sihr` | 1 | `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation` |
 | `simulation` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee` |
-| `sitra-ahra` | 1 | `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra` |
 | `solsticial-equinoxial` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace` |
 | `sorcellerie` | 1 | `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle` |
 | `source-secondaire` | 1 | `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge` |
@@ -735,6 +784,7 @@ links: []
 | `speculaire` | 1 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale` |
 | `spiritualite-a-rebours` | 1 | `doctrinal/deviations/antitradition-et-contre-tradition` |
 | `spirituel` | 1 | `doctrinal/deviations/confusion-psychique-spirituel` |
+| `structure` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `succession-simultaneite` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques` |
 | `sushumna` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21` |
 | `symbolisme-spatial` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement` |
@@ -749,12 +799,15 @@ links: []
 | `tawil` | 1 | `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect` |
 | `tchen-jen` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise` |
 | `tchoung-young` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference` |
-| `tetragramme` | 1 | `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `tibb` | 1 | `doctrinal/deviations/morphopsychologie` |
+| `tiferet` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `tilak` | 1 | `doctrinal/sources/tilak-origine-polaire-tradition-vedique` |
 | `timee` | 1 | `doctrinal/sources/platon-oeuvres-completes-brisson-2011` |
 | `topologie` | 1 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex` |
 | `tradition` | 1 | `doctrinal/autorites/titus-burckhardt` |
+| `transcription-brute` | 1 | `doctrinal/sources/sefer-yetsira-ramban_source` |
+| `trois-meres` | 1 | `doctrinal/sources/sefer-yetsira-ramban` |
+| `tsimtsum` | 1 | `doctrinal/sources/sefer-yetsira-ramban` |
 | `tulā` | 1 | `doctrinal/sources/guenon-roi-du-monde-ch10` |
 | `turiya` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya` |
 | `types-humoraux` | 1 | `doctrinal/deviations/morphopsychologie` |
@@ -773,6 +826,7 @@ links: []
 | `wang` | 1 | `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara` |
 | `wird-awrad` | 1 | `doctrinal/symboles/khatm-al-khawajakan` |
 | `yang-yin` | 1 | `doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres` |
+| `yesod` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `yoga` | 1 | `doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme` |
 | `zosaku` | 1 | `doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle` |
 
@@ -781,7 +835,7 @@ links: []
 *Reproduits littéralement. Donne le contenu réel de chaque fiche sans passer par un résumé.*
 
 - `doctrinal/CLAUDE` — Nomenclature · Le Sceau Recteur (frontmatter doctrinal) · Règles de liens propres au circuit · Actions d'exécution propres au circuit
-- `doctrinal/annales` — [2026-08-16] enrichissement | Hypothèse d'une source orientale plus l… · [2026-08-15] redressement | Distinction retraite Lefke (2015) / Khalw… · [2026-08-14] discernement | Axe 4 du chantier Shams al-Maʿārif / Guén… · [2026-08-13] archivage | Ouverture du chantier Shams al-Maʿārif / Gué… · [2026-08-13] archivage | IRS ch. XXX : fiche source et rattachement (… · [2026-08-13] archivage | Sept fiches sources Guénon (AI, IRS) et ratt… · [2026-08-12] vigilance | Correction d'étanchéité — fiche trois-territ… · [2026-08-12] discernement | Le pacte de puissance du Nen face aux doc… · [2026-08-11] discernement | Hypothèse méthodologique : trois territoi… · [2026-08-10] discernement | Correction des 5 liens à référent vide du… · [2026-08-10] discernement | Qualification sashimono du bloc 2026-06-2… · [2026-08-10] discernement | Actualisations et correspondances signalé… · [2026-08-10] sources | Création fiche Alshammari — ontologie LLM/Hadi… · [2026-08-10] archivage | Trois fiches depuis `_inbox/` — études, disc… · [2026-08-09] ingest | Intégration du sas — amendement CLAUDE.md et di… … (+71)
+- `doctrinal/annales` — [2026-08-20] réparation | Sceau Recteur — 3 fiches du lot kabbale + s… · [2026-08-20] archivage | Traité de l'Émanation Gauche (Isaac ben Jaco… · [2026-08-16] enrichissement | Hypothèse d'une source orientale plus l… · [2026-08-15] redressement | Distinction retraite Lefke (2015) / Khalw… · [2026-08-14] discernement | Axe 4 du chantier Shams al-Maʿārif / Guén… · [2026-08-13] archivage | Ouverture du chantier Shams al-Maʿārif / Gué… · [2026-08-13] archivage | IRS ch. XXX : fiche source et rattachement (… · [2026-08-13] archivage | Sept fiches sources Guénon (AI, IRS) et ratt… · [2026-08-12] vigilance | Correction d'étanchéité — fiche trois-territ… · [2026-08-12] discernement | Le pacte de puissance du Nen face aux doc… · [2026-08-11] discernement | Hypothèse méthodologique : trois territoi… · [2026-08-10] discernement | Correction des 5 liens à référent vide du… · [2026-08-10] discernement | Qualification sashimono du bloc 2026-06-2… · [2026-08-10] discernement | Actualisations et correspondances signalé… · [2026-08-10] sources | Création fiche Alshammari — ontologie LLM/Hadi… … (+75)
 - `doctrinal/autorites/abd-al-karim-al-jili` — Identité · Faits · Relations · Notes
 - `doctrinal/autorites/abd-al-qadir-al-jilani` — Identité · Faits · Relations · Notes
 - `doctrinal/autorites/abdullah-daghestani` — Identité
@@ -853,6 +907,9 @@ links: []
 - `doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel` — 0. Objet et origine du discernement · 1. Nature exacte du point de comparaison · 2. Avenue 1 — Le texte lui-même distingue déjà les deux plans · 3. Avenue 2 — Le critère guénonien appliqué frontalement · 4. Point de vigilance — l'usage contemporain isolé du texte · 5. Synthèse provisoire (aucun verdict rendu) · 6. Confrontation Gizeh · 7. Statut
 - `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation` — 0. Objet et origine du discernement · 1. Nature exacte du point de comparaison · 2. Avenue 1 — Le siḥr comme candidat à la contre-initiation · 3. Avenue 2 — Le rapprochement lexical *sâher*/*siḥr* : signal, non p… · 4. Avenue 3 — Le risque pseudo-initiatique : non dans le texte, dans … · 5. Synthèse provisoire (aucun verdict rendu) · 6. Confrontation Gizeh · 7. Statut
 - `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre` — 0. Objet et origine du discernement · 1. État exact du dépouillement, et sa réserve · 2. Une avenue écartée par construction · 3. Avenue 1 — La situation hiérarchique de la discipline · 4. Avenue 2 — Le seul carré numérique traité par Guénon · 5. Avenue 3 — Le critère de validité : la transmission · 6. Avenue 4 — La cloison entre les ordres de rites · 7. Avenue 5 — Le nombre : portée diagnostique, non grille applicable · 8. Avenue 6 — Hypothèse de Sidy : le seuil discriminant (image de Hār… · 9. Synthèse provisoire — les critères compilés (aucun verdict) · 10. Confrontation Gizeh · 11. Statut
+- `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot` — Récit / contexte · 1. Pièces disponibles — inventaire · 2. Ce qui est couvert · 3. État de qualification — ce qui est ancré vs. en attente · 4. Décision requise — ce qui est demandé à Sidy · 5. Vigilance — principe méthodologique
+- `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement` — Récit / contexte · La convergence structurelle · Examen formel — ce qui se recoupe et ce qui ne se recoupe pas · Piste ouverte — non instruite, non qualifiée · Conclusion
+- `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen` — Ce qui est déposé · Ce qui entre dans le tas · Ce qui complète le dépôt existant · Questions ouvertes · ⚠️ État de qualification
 - `doctrinal/discernement/_template` — Le Récit / La Spéculation Brute · Liens Transversaux
 - `doctrinal/etudes/2026-06-04_islam-et-ia` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana` — Origine · I. La confusion entre l'Être et la psyché · II. Validation croisée (Gem René Guénon) · III. Connaissance directe et connaissance discursive · IV. Reflet, non continuum · V. Upakarana : application à l'instrument lui-même · Sources
@@ -869,6 +926,7 @@ links: []
 - `doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam` — Référence bibliographique · Passages transcrits · Note d'examen (pour les fiches discernement liées) · État d'avancement
 - `doctrinal/sources/conversation-llm-intellect-2026-06-11` — 1. Point de départ : l'analogie Nous / Wiki / Corps · 2. L'anticipation : la conscience des firmes · 3. Le ta'wīl du phénomène · 4. La non-dualité et la modalité parallèle · 5. Formalisation dans le wiki · 6. Objection doctrinale — le Gems René Guénon · 7. Examen de l'objection et reconnaissance des erreurs doctrinales
 - `doctrinal/sources/dalail-al-khayrat-jazuli` — Contenu clé pour le dépôt · Fiabilité de la source · Utilisation dans le dépôt
+- `doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025` — Notice bibliographique · Source brute · Objet et structure de l'article (résumé de lecture) · Statut et portance · Points de vigilance (Cmd 12, non-syncrétisme Cmd 3) · Références internes citées par Elbenni · Références externes pertinentes du dépôt
 - `doctrinal/sources/figure-archeometre-islamise-mahdi-rouge` — Nature de la source · Description du document figuré · Contexte historique rapporté par la source · Liens
 - `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge` — Identification · Structure et contenu · Alerte documentaire — Archéomètre · Sources mobilisées dans l'article · Statut doctrinal
 - `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge` — Identification · I. Les six axes des douze signes (*burūj*) · II. La sphère zodiacale — définitions astronomiques clés · III. Les sept planètes — noms arabes et nature · IV. Domification — les quatre angles de l'espace · V. L'Axe du Dragon — Nœuds lunaires · VI. Lune Noire et Soleil Noir — connexion à l'ordre subtil · Sources mobilisées dans l'article
@@ -920,6 +978,8 @@ links: []
 - `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt` — Référence · Résumé fidèle · Pertinence pour le wiki · Concepts liés
 - `doctrinal/sources/islam-and-artificial-intelligence` — Référence · Résumé · Thèses principales · Conclusion de l’auteur
 - `doctrinal/sources/jesus-and-enoch-in-ibn-arabi` — Référence · Résumé · Thèses principales · Figures prophétiques et leurs stations · Concepts clés · Sources primaires mobilisées
+- `doctrinal/sources/kabbale-10-sefirot-structure` — Présentation · Les 10 Sephiroth — liste complète · Structure de l'Arbre séphirothique · Correspondances avec les 5 Présences akbariennes · ⚠️ État de qualification · Fiabilité
+- `doctrinal/sources/kabbale-cosmogonie-iod` — Présentation · La doctrine complète (Guénon, *Symbolisme de la Croix*, ch. IV) · Corroboration par le Ramban · Correspondances avec le tasawwuf · ⚠️ État de qualification · Fiabilité
 - `doctrinal/sources/kitab-al-tarifat-jurjani` — Édition utilisée · Structure de l'ouvrage (établie à partir de la table des matières, p.… · Périmètre de cette ingestion (2026-06-30) · Cross-links confirmés
 - `doctrinal/sources/kitab-tarifat-index-transcription` — Tableau synoptique des lettres arabes et conventions de translittérat… · Classification des mètres (annexe prosodie, p. ~501) · Classement par thèmes (p. 508-514) · Index coranique (p. 515-516) — transcription complète · Index des noms de personnes (p. 517-518) — transcription complète · Index des termes arabes (p. 519...) — EN COURS · Lettre B (p. 525...) · Lettres C (p. 526) · Lettres D – Ḍ – Ḏ (p. 526...) · Lettres E – et – F (p. 528...) · Lettres G – Ġ (p. 530) · Lettres H – Ḥ – Ḫ (p. 530...) · Fichier 2 (p. 531-554) · Lettres I – ʿI (p. 536...) · Lettre J (p. 542...) … (+42)
 - `doctrinal/sources/mahdi-rouge-islam-signe-balance-I` — La 14ᵉ Demeure — données structurales · La Balance comme seuil des Mystères · Convergence numérique triple · Statut au dépôt
@@ -932,9 +992,13 @@ links: []
 - `doctrinal/sources/platon-oeuvres-completes-brisson-2011` — Identification · Passages directement ingérés · Statut doctrinal · Concepts liés · Remarques
 - `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` — 1. Adam Qadmôn = l'Homme Universel (Symbolisme de la Croix, ch. II, n… · 2. Le point primordial et le Palais intérieur (Symbolisme de la Croix… · 3. Kether comme « vêtement » d'Aïn-Soph (Homme et son devenir, ch. X,… · 4. Éléments épars déjà rencontrés en session (rappel de localisation) · ⚠️ Vigilance d'utilisation · Fiabilité de la source · Utilisation dans le dépôt
 - `doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription` — I. Sommaire · II. Notice biographique — « Ibn ʻArabî » par Jean Annestay (p. 431-43… · III. Bibliographie (p. 435-437) · IV. Index des noms propres (p. 439-444) · V. Lexique des termes arabes (p. 445-457) · VI. Points à répercuter
+- `doctrinal/sources/sefer-yetsira-ramban` — Présentation · Structure du texte · Éléments doctrinaux saillants (commentaire du Ramban) · ⚠️ Vigilances · Fiabilité · Utilisation dans le dépôt
+- `doctrinal/sources/sefer-yetsira-ramban_source` — Chapitre I
 - `doctrinal/sources/sept-etendards-califat` — Avant-propos (p. 7-8) — transcription intégrale · Table des matières (p. 319 et page suivante non numérotée) — transcri… · Index des termes arabes (p. 313-318) — transcription intégrale · Colophon (dernière page) · Chapitres XV, XX, XXVII-XXVIII, XXXIII — Complément de transcription … · État d'avancement et points de vigilance
 - `doctrinal/sources/shams-al-maarif` — Référence · Avertissement sur la source · Résumé général · Contenu — Tome 1 · Contenu — Tome 2 · Concepts clés · Notes
 - `doctrinal/sources/tilak-origine-polaire-tradition-vedique` — Statut · Contenu · Fiabilité de la source · Utilisation dans le dépôt
+- `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` — Présentation · Contenu structuré · Apport au dépôt — ce que ce texte ajoute · Questions ouvertes — réponses de Sidy (2026-08-20) · ⚠️ État de qualification · Fiabilité de la source · Utilisation dans le dépôt
+- `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source` — Traité de l’Émanation Gauche (partie 2) par Rabbi Isaac ben Jacob ha-… · Traité de l’Émanation Gauche (partie 3) par Rabbi Isaac ben Jacob ha-…
 - `doctrinal/sources/transcription-anneau-28-lettres-figure4` — Anneau externe — 28 positions lettre × degré cosmique · Lectures certaines : 18/28 · Positions incertaines : 5/28 · Note critique — position 16 (Soleil / Idrīs) · Note sur la romanisation de Gloton · Transcription du texte — page 39 (IMG_9551)
 - `doctrinal/sources/transcription-index-tilak-origine-polaire` — Table des matières · Index alphabétique intégral (p. 367-380)
 - `doctrinal/sources/transcription-table-matieres-symboles-science-sacree` — LE SYMBOLISME TRADITIONNEL ET QUELQUES-UNES DE SES APPLICATIONS GÉNÉR… · SYMBOLES DU CENTRE ET DU MONDE · SYMBOLES DE LA MANIFESTATION CYCLIQUE · QUELQUES ARMES SYMBOLIQUES · SYMBOLISME DE LA FORME COSMIQUE · SYMBOLISME CONSTRUCTIF · SYMBOLISME AXIAL ET SYMBOLISME DU PASSAGE · SYMBOLISME DU CŒUR · Synthèse du chapitre XXXV — Les Portes solsticiales (p. 217, É.T. mai… · Synthèse du chapitre XXXVI — Le symbolisme du Zodiaque chez les pytha…
@@ -1071,6 +1135,9 @@ links: []
 | `doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel` | speculatif | en cours | 2026-08-13 | 2026-08-13 |
 | `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation` | speculatif | en cours | 2026-08-13 | 2026-08-13 |
 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre` | speculatif | en cours | 2026-08-14 | 2026-08-14 |
+| `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot` | speculatif | — | 2026-08-20 | 2026-08-20 |
+| `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement` | speculatif | amorce de rapprochement, non qualifiée,… | 2026-08-20 | 2026-08-20 |
+| `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen` | speculatif | — | 2026-08-20 | 2026-08-20 |
 | `doctrinal/discernement/_template` | speculatif | en cours | 2026-06-20 | 2026-06-20 |
 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani` | traditionnel | validée | 2026-06-29 | 2026-07-09 |
 
@@ -1078,19 +1145,19 @@ links: []
 
 *Chaque ligne est une affirmation non encore vérifiée sur source primaire (Cmd 5). Leur levée est humaine et manuelle.*
 
-**Total : 157 marqueurs sur 65 fiches.**
+**Total : 162 marqueurs sur 67 fiches.**
 
 - `doctrinal/CLAUDE` (2)
   - L48 : - Fait sans source → `sources: ["to-source"]` + signalement (levée du marqueur :
   - L117 : > **Position(s) sourcée(s)** : texte, auteur, référence — `to-source` si non vérifié.
-- `doctrinal/annales` (35)
-  - L18 : identifiées, toutes deux `to-source` (dougong 斗栱 cité comme candidat
-  - L89 : (Coran 2:102, `to-source` — référence donnée de mémoire, non vérifiée sur texte
-  - L97 : autorisation explicite de Sidy** (« Tu peux corrigé ») : `sources: ["to-source"]`,
-  - L100 : l'ancrage Ibn ʿArabī reste `to-source` jusqu'à contrôle du texte primaire.
-  - L137 : `to-source` (distinction terminologique magie/théurgie ; rattachement direct de
-  - L205 : `tradition_cadre: universel`, pagination `to-source` signalée dans chacune) :
-  - … (+29)
+- `doctrinal/annales` (36)
+  - L79 : identifiées, toutes deux `to-source` (dougong 斗栱 cité comme candidat
+  - L150 : (Coran 2:102, `to-source` — référence donnée de mémoire, non vérifiée sur texte
+  - L158 : autorisation explicite de Sidy** (« Tu peux corrigé ») : `sources: ["to-source"]`,
+  - L161 : l'ancrage Ibn ʿArabī reste `to-source` jusqu'à contrôle du texte primaire.
+  - L198 : `to-source` (distinction terminologique magie/théurgie ; rattachement direct de
+  - L266 : `tradition_cadre: universel`, pagination `to-source` signalée dans chacune) :
+  - … (+30)
 - `doctrinal/autorites/abd-al-qadir-al-jilani` (1)
   - L17 : - Né à Jīlān (Gilan, actuel nord de l’Iran), mort à Bagdad — source : to-source
 - `doctrinal/autorites/al-ghazali` (1)
@@ -1147,13 +1214,17 @@ links: []
   - L312 : > (`to-source`) ; que cette lecture soit celle que l'ouvrage revendique pour
   - L411 : source ». Corrigé : `sources: ["to-source"]`, signalement ajouté à la page. **La
   - … (+1)
+- `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot` (2)
+  - L21 : | [[doctrinal/sources/sefer-yetsira-ramban]] | *Sefer Yetsira* complet + commentaire du Ramban (XIIIe s.) + traduction française. 6 chapitres :…
+  - L28 : | [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]] | Matière kabbalistique citée par Guénon dans la trilogie (*Symbolisme de la Croi…
 - `doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh` (1)
   - L9 : > `to-source` au sens du Commandement 5, même quand son statut de fiabilité est déjà
-- `doctrinal/index` (4)
-  - L191 : - [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh|Données géométriques, géodésiques et métrologiques de la Grande Pyramide]] — relevé…
-  - L294 : - [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire|Les sept Pôles/Aqtâb et le Malakūt planétaire]] — close (traditionne…
-  - L295 : - [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28|Candidat de double ancrage : coudée royale / convergence 28]] — `to-source`…
-  - L315 : - [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre|Les awfāq de Shams al-Maʿārif au regard de la métaphysique …
+- `doctrinal/index` (5)
+  - L41 : - [[doctrinal/sources/sefer-yetsira-ramban|Sefer Yetsira — Livre de la Création (commentaire du Ramban)]] ⚠️ `to-source` sur recoupement éditio…
+  - L199 : - [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh|Données géométriques, géodésiques et métrologiques de la Grande Pyramide]] — relevé…
+  - L302 : - [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire|Les sept Pôles/Aqtâb et le Malakūt planétaire]] — close (traditionne…
+  - L303 : - [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28|Candidat de double ancrage : coudée royale / convergence 28]] — `to-source`…
+  - L324 : - [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre|Les awfāq de Shams al-Maʿārif au regard de la métaphysique …
 - `doctrinal/sources/bukhari-5754-tiyara-fal` (1)
   - L6 : > primaire à confirmer sur une édition imprimée des Ṣaḥīḥ pour lever le `to-source`.
 - `doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam` (2)
@@ -1233,6 +1304,8 @@ links: []
   - L9 : — non vérifiée sur les textes kabbalistiques primaires eux-mêmes (`to-source` sur
 - `doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription` (1)
   - L3 : > **Note de transcription** : réalisée à partir de photographies de l'exemplaire physique de Sidy (qualité variable selon les pages, prises de v…
+- `doctrinal/sources/sefer-yetsira-ramban` (1)
+  - L100 : ### Statut `to-source` sur les éléments kabbalistiques primaires
 - `doctrinal/sources/sept-etendards-califat` (4)
   - L5 : > Transcription visuelle à partir de 8 photographies de l'ouvrage physique (édition Éditions Traditionnelles, 1993). Basmala en tête d'ouvrage (…
   - L125 : > Transcrit à partir de 9 photographies fournies le 2026-07-09. Statut des pages couvertes ci-dessous : `sourced` (texte vérifié sur l'exempla…
@@ -1280,7 +1353,7 @@ links: []
 ### Liens non résolus
 
 - `doctrinal/CLAUDE` → `autre-slug`, `doctrinal/deviations/slug`, `doctrinal/symboles-ou-autorites/slug`, `slug`, `slug-source`
-- `doctrinal/annales` → `^`, `atelier/materiel/neve-1073spx`, `atelier/projets/album-personnel`, `atelier/projets/instrument-tradition-primordiale-architectu…`, `atelier/projets/note-impact-instrument-socle-universel-2026…`, `atelier/projets/spec-anneau-zodiacal.md`, `atelier/projets/spec-technique-axe-38-degres`, `atelier/rd/index.md`, `atelier/rd/outillage/2026-08-10_methode-croisement-discerne…`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-disc…` … (+1)
+- `doctrinal/annales` → `^`, `atelier/materiel/neve-1073spx`, `atelier/projets/album-personnel`, `atelier/projets/instrument-tradition-primordiale-architectu…`, `atelier/projets/note-impact-instrument-socle-universel-2026…`, `atelier/projets/spec-anneau-zodiacal.md`, `atelier/projets/spec-technique-axe-38-degres`, `atelier/rd/index.md`, `atelier/rd/outillage/2026-08-10_methode-croisement-discerne…`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-disc…` … (+2)
 - `doctrinal/autorites/rene-guenon` → `doctrinal/discernement`
 - `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante` → `doctrinal/sources/coran-essai-traduction-gloton`
 - `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel` → `apercus-sur-l-initiation`, `meta/philosophie-sashimono`, `principes-et-methodes-de-l-art-sacre`
@@ -1289,24 +1362,26 @@ links: []
 - `doctrinal/index` → `atelier/materiel/neve-1073spx`, `atelier/materiel/tascam-model-12`, `atelier/materiel/technics-su-8080`, `atelier/rd/instrument/instrument-feuille-de-route-v2`, `atelier/rd/instrument/instrument-tradition-primordiale-arch…`, `atelier/rd/instrument/instrument-tradition-primordiale-arch…`, `atelier/rd/instrument/soumission-gem-convergence-28`, `atelier/rd/instrument/soumission-gem-reponse-geometrie-3d`, `atelier/rd/instrument/soumission-gem-reponse-gloton`, `atelier/rd/instrument/soumission-gem-reponse-visuelle-28` … (+3)
 - `doctrinal/sources/sept-etendards-califat` → `doctrinal/autorites/charles-andre-gilis`
 
-### Fiches sans lien entrant (3)
+### Fiches sans lien entrant (5)
 
 - `doctrinal/CLAUDE`
 - `doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire`
 - `doctrinal/discernement/_template`
+- `doctrinal/sources/sefer-yetsira-ramban_source`
+- `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source`
 
 ## VII. Statistiques
 
 | circuit | fiches |
 |---|---|
-| `doctrinal/` | 250 |
-| **total** | **250** |
+| `doctrinal/` | 260 |
+| **total** | **260** |
 
 | type | n |
 |---|---|
-| `source` | 83 |
+| `source` | 90 |
 | `symbole` | 80 |
-| `discernement` | 39 |
+| `discernement` | 42 |
 | `autorite` | 25 |
 | `deviation` | 10 |
 | `tradition` | 6 |
@@ -1316,9 +1391,9 @@ links: []
 
 | status | n |
 |---|---|
-| `traditionnel` | 181 |
-| `academique` | 30 |
-| `speculatif` | 27 |
+| `traditionnel` | 187 |
+| `academique` | 31 |
+| `speculatif` | 30 |
 | `contre-traditionnel` | 6 |
 | `(absent)` | 3 |
 | `profane` | 2 |

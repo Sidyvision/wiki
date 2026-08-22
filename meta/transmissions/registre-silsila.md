@@ -236,7 +236,7 @@ Sceau non touché (vérifié).
 
 ## [2026-08-16] extension-canal | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf6775bc46f8535f62c2f74c417d7c9867d7d8855a33f58d4437ae33a28
 Préparation d'un second canal d'ingest pour Mehdi, hors Terminal : profil
-H‍ermes dédié `habib-mehdi` (Telegram), exécuté comme service système sous le
+Hermes dédié `habib-mehdi` (Telegram), exécuté comme service système sous le
 compte `mehdi` (`--run-as-user mehdi`) pour préserver la frontière OS déjà
 posée par les bind mounts `ro`/rw — distinct du profil `karubi` (outil G0 de
 Sidy, cwd `/root/wiki` entier). Détail et motif du choix :

@@ -8,7 +8,7 @@ updated: 2026-08-15
 
 # 17 — Compte rendu : chantier des 12 agents Hermes et calibration zodiacale (2026-08-09)
 
-> **Provenance** : document rédigé le 2026-08-09 par un agent H‍ermes en session
+> **Provenance** : document rédigé le 2026-08-09 par un agent Hermes en session
 > terminal, directement dans `doctrinal/discernement/` (hors circuit conforme, sans
 > passage par `_inbox/` ni plan validé) — déplacé ici le jour même au constat de
 > `verifier-invariants.py`. Ce n'est pas une fiche de discernement (pas de Sceau
@@ -181,7 +181,7 @@ dépôt sans demande explicite), dans `/root/brouillons-prompts-zodiaque/` :
 > **Mise à jour (2026-08-15)** — deux évolutions depuis le 2026-08-09 :
 >
 > 1. **Position 9 (Sagittaire, Studio Sound Engineer) est sortie du lot en
->    attente et a été appliquée en production** (`h‍ermes-prompts/09-studio-sound-engineer.md`,
+>    attente et a été appliquée en production** (`hermes-prompts/09-studio-sound-engineer.md`,
 >    commit `29cb5cc`, 2026-08-11) : les deux paragraphes du brouillon insérés
 >    mot pour mot, plus une troisième section `## Governance: Discord-Validation`
 >    (régime strict par défaut, auto-accept ad hoc) — motif : rattachement du
@@ -363,7 +363,7 @@ la clôture du 2026-07-14 ; révisable si de nouveaux éléments se présentent.
    brouillons des positions 5, 8, 12 — absents jusqu'ici — ont été rédigés
    (Taureau, Sagittaire, Poissons) ; les brouillons des positions 1, 3, 4, 10, 11
    (signes inchangés) sont restés en l'état, toujours valides. Les **douze**
-   prompts de production dans `meta/projet-unifie/h‍ermes-prompts/` ont ensuite été
+   prompts de production dans `meta/projet-unifie/hermes-prompts/` ont ensuite été
    activés : chacun reçoit désormais ses sections `## Zodiac principle` et
    `## Your sign in Sidy's natal chart (harmonization context)`, insérées entre
    `## Archetype served` et `## Scope`, sans rien modifier d'autre (mission,

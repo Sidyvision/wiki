@@ -2,8 +2,8 @@
 title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
-created: 2026-08-18
-updated: 2026-08-18
+created: 2026-08-22
+updated: 2026-08-22
 sources: []
 links: []
 ---
@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-18 17:03 UTC, sur `/root/wiki`.
-> Portée : circuit `atelier/`. 80 fiches parcourues.
+> aucun réseau) le 2026-08-22 06:54 UTC, sur `/root/wiki`.
+> Portée : circuit `atelier/`. 97 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -26,15 +26,15 @@ links: []
 
 ## I. Inventaire par circuit
 
-### `atelier/` — 80 fiches
+### `atelier/` — 97 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
 | `atelier/CLAUDE` | — | — | — | — | (sans titre) |
-| `atelier/annales` | meta | — | 2026-08-18 | — | Annales de l'Atelier (Projets et Matériels) |
+| `atelier/annales` | meta | — | 2026-08-20 | — | Annales de l'Atelier (Projets et Matériels) |
 | `atelier/etudes-de-cas/kojima-productions` | etude-de-cas | — | 2026-08-08 | — | Case Study — Kojima Productions |
 | `atelier/etudes-de-cas/stones-throw` | etude-de-cas | — | 2026-07-06 | — | Case Study — Stones Throw Records |
-| `atelier/index` | index | — | 2026-08-18 | — | Atelier — Ressources & Études de Cas |
+| `atelier/index` | index | — | 2026-08-20 | — | Atelier — Ressources & Études de Cas |
 | `atelier/materiel/distressor-el8` | materiel | — | 2026-08-18 | — | Distressor EL8 — compresseur-limiteur |
 | `atelier/materiel/moog-voyager` | materiel | — | 2026-08-18 | — | Moog Voyager — monosynthétiseur analogique |
 | `atelier/materiel/neumann-tlm103` | materiel | — | 2026-08-18 | — | Neumann TLM 103 — micro à condensateur |
@@ -70,22 +70,32 @@ links: []
 | `atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius` | outillage | — | 2026-08-11 | — | Brouillon — extension zodiacale, agent 11 fanzine |
 | `atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces` | outillage | — | 2026-08-15 | — | Brouillon — extension zodiacale, agent 12 commerce |
 | `atelier/rd/cahiers/brouillons-extension-zodiacale/README` | — | — | — | — | (sans titre) |
+| `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18` | meta | — | 2026-08-18 | — | Proposition — Extension du mandat R&D : veille externe + sandbox |
 | `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11` | meta | — | 2026-08-16 | — | Proposition — Phase 3 du pôle R&D : agent de veille infrastructure |
-| `atelier/rd/cahiers/registre-problemes` | meta | — | 2026-08-18 | — | Registre des problèmes — pôle R&D (cahier append-only) |
-| `atelier/rd/index` | index | — | 2026-08-12 | — | Pôle R&D de l'atelier — charte du lieu |
+| `atelier/rd/cahiers/registre-problemes` | meta | — | 2026-08-20 | — | Registre des problèmes — pôle R&D (cahier append-only) |
+| `atelier/rd/index` | index | — | 2026-08-19 | — | Pôle R&D de l'atelier — charte du lieu |
+| `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure` | infrastructure | — | 2026-08-20 | — | Pistes de développement — infrastructure et outillage R&D (2026-08-20) |
 | `atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12` | infrastructure | — | 2026-08-12 | — | Infrastructure — Accès serveur scopé pour Mehdi via Habib (Karūbī) |
 | `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17` | infrastructure | — | 2026-08-17 | — | Activation du monitoring quotidien (cron) et correction HOME_CHANNEL — profil studio (202… |
 | `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16` | infrastructure | — | 2026-08-17 | — | Activation du salon #infrastructure — allowlist du profil studio (2026-08-16) |
+| `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19` | infrastructure | — | 2026-08-20 | — | Analyse temporelle de code & méta-raisonnement IA |
 | `atelier/rd/infrastructure/bureau-tui-architecture` | infrastructure | — | 2026-08-15 | — | Bureau TUI — architecture |
 | `atelier/rd/infrastructure/bureau/README` | — | — | — | — | (sans titre) |
 | `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16` | infrastructure | — | 2026-08-16 | — | Infrastructure — Canal Telegram pour Mehdi, second robinet vers _inbox/ |
+| `atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21` | infrastructure | — | 2026-08-21 | — | Infrastructure — Canal Telegram pour Wendel Nazaire, second robinet vers _inbox/ |
 | `atelier/rd/infrastructure/claude-code-health-check-2026-08-11` | infrastructure | — | 2026-08-11 | — | Infrastructure — Audit de santé Claude Code (/doctor, 2026-08-11) |
 | `atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11` | infrastructure | — | 2026-08-11 | — | État mesuré du serveur (matériel + empreinte Hermes/omniroute) — 2026-08-11 |
+| `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20` | infrastructure | brouillon | 2026-08-20 | — | Étude du dépôt — cartographie, état des index et inventaire raw/ (2026-08-20) |
+| `atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint` | fiche-rd | — | 2026-08-20 | — | Incident R&D — Enlisement Gardien (rapport conjoint 2026-08-20) |
 | `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11` | infrastructure | — | 2026-08-11 | — | Infrastructure — Architecture globale du système (2026-08-11) |
 | `atelier/rd/infrastructure/infrastructure-ssh-statu-quo` | infrastructure | — | 2026-08-11 | — | Infrastructure — Décision statu quo SSH (vs HTTPS+PAT) |
+| `atelier/rd/infrastructure/monitoring-archive-charte` | infrastructure | — | 2026-08-19 | — | Charte — Archive du monitoring infrastructure quotidien |
+| `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20` | infrastructure | brouillon | 2026-08-20 | — | Rapport conjoint d'état du dépôt — exploration 2026-08-20 (préparation Gardien) |
 | `atelier/rd/infrastructure/synchro-obsidian-working-copy-github` | infrastructure | — | 2026-08-11 | — | Synchronisation Obsidian / Working Copy / GitHub (circuit CONSULTATION) |
 | `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18` | infrastructure | — | 2026-08-18 | — | Traitement des 37 C4 + 12 C1 + 62 isolés — rapport monitoring 2026-08-18 |
 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` | investigation | speculatif | 2026-07-26 | — | Investigation — Référentiels stellaires polaire/solaire, Gizeh et doctrine des cycles |
+| `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` | meta | — | 2026-08-20 | — | État d'avancement et pistes de développement — Instrument de la Tradition Primordiale (20… |
+| `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3` | projet | — | 2026-08-20 | — | Les registres — accueillir plusieurs traditions sur l'unique axe (Phase 3) |
 | `atelier/rd/instrument/angles-de-l-espace` | projet | — | 2026-07-01 | — | Les Angles de l'Espace — schéma manuscrit (directions horizontales de l'Instrument) |
 | `atelier/rd/instrument/instrument-feuille-de-route-v2` | projet | — | 2026-08-04 | — | Instrument de la Tradition Primordiale — feuille de route et pile technique |
 | `atelier/rd/instrument/instrument-tradition-primordiale-architecture` | projet | — | 2026-06-28 | — | Instrument de la Tradition Primordiale — Architecture Fondamentale (v0.1) |
@@ -107,9 +117,16 @@ links: []
 | `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole` | outillage | — | 2026-08-15 | — | Piste — SRS (Mnemosyne / Anki) pour l'assimilation du protocole |
 | `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle` | outillage | — | 2026-08-16 | — | Cordis — paradigme de composabilité spatiotemporelle pour systèmes dynamiques |
 | `atelier/rd/outillage/robustesse-documents-persona-llm` | outillage | — | 2026-07-20 | — | Lecture défensive d'un document-persona par un LLM neuf — cas du dispositif |
+| `atelier/rd/outillage/spec-archiver-monitoring-quotidien` | outillage | — | 2026-08-19 | — | Spécification — Archivage du rapport de monitoring infrastructure quotidien |
 | `atelier/rd/outillage/spec-detecter-non-tracke` | outillage | — | 2026-08-11 | — | Spécification — Détecteur de fichiers non trackés (par circuit) |
-| `atelier/rd/outillage/spec-generateur-manifeste` | projet | — | 2026-07-01 | — | Spécification — Générateur de manifeste (wiki → wiki-manifest.json) |
+| `atelier/rd/outillage/spec-generateur-manifeste` | projet | — | 2026-08-20 | — | Spécification — Générateur de manifeste (wiki → wiki-manifest.json) |
 | `atelier/rd/outillage/spec-generer-cartographie-tolerant` | outillage | — | 2026-08-11 | — | Spécification — Générateur de cartographie avec sévérité à deux niveaux (v1.1) |
+| `atelier/rd/veille/cordis/equations` | fiche-veille | — | 2026-08-18 | — | Cordis — équations clés du paradigme |
+| `atelier/rd/veille/cordis/implementations-github` | fiche-veille | — | 2026-08-18 | — | Implémentations du paradigme Cordis — veille GitHub |
+| `atelier/rd/veille/cordis/methodes` | fiche-veille | — | 2026-08-18 | — | Cordis — méthodes d'implémentation |
+| `atelier/rd/veille/cordis/notes-lecture` | fiche-veille | — | 2026-08-18 | — | Cordis — notes de lecture |
+| `atelier/rd/veille/index` | index | — | 2026-08-18 | — | Veille R&D — charte du lieu |
+| `atelier/rd/veille/registre` | registre | — | 2026-08-18 | — | Registre de veille R&D — journal des scrutations |
 
 ## II. Index des tags
 
@@ -117,39 +134,51 @@ links: []
 
 | tag | n | fiches |
 |---|---|---|
-| `instrument` | 11 | `atelier/index`, `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles`, `atelier/rd/instrument/angles-de-l-espace`, `atelier/rd/instrument/references-visuelles-astronomiques-phase-5`, `atelier/rd/instrument/soumission-gem-convergence-28`, `atelier/rd/instrument/soumission-gem-reponse-geometrie-3d`, `atelier/rd/instrument/soumission-gem-reponse-gloton`, `atelier/rd/instrument/soumission-gem-reponse-visuelle-28`, … (+3) |
-| `rd` | 11 | `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/registre-problemes`, `atelier/rd/index`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16`, `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11`, `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18`, … (+3) |
-| `outillage` | 8 | `atelier/rd/outillage/2026-08-10_methode-croisement-discernement`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole`, `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, `atelier/rd/outillage/spec-detecter-non-tracke`, … (+0) |
-| `hermes` | 7 | `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16`, `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11`, `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole`, `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, … (+-1) |
-| `infrastructure` | 7 | `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/index`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16`, `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11`, `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18`, … (+-1) |
+| `rd` | 21 | `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/registre-problemes`, `atelier/rd/index`, `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16`, … (+13) |
+| `infrastructure` | 13 | `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/index`, `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21`, `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20`, … (+5) |
+| `instrument` | 13 | `atelier/index`, `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles`, `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement`, `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3`, `atelier/rd/instrument/angles-de-l-espace`, `atelier/rd/instrument/references-visuelles-astronomiques-phase-5`, `atelier/rd/instrument/soumission-gem-convergence-28`, `atelier/rd/instrument/soumission-gem-reponse-geometrie-3d`, … (+5) |
+| `hermes` | 11 | `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21`, `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11`, `atelier/rd/infrastructure/monitoring-archive-charte`, … (+3) |
+| `atelier` | 9 | `atelier/index`, `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/registre-problemes`, `atelier/rd/index`, `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20`, `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20`, `atelier/rd/veille/index`, … (+1) |
+| `outillage` | 9 | `atelier/rd/outillage/2026-08-10_methode-croisement-discernement`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole`, `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, `atelier/rd/outillage/spec-archiver-monitoring-quotidien`, … (+1) |
 | `audio` | 6 | `atelier/materiel/distressor-el8`, `atelier/materiel/moog-voyager`, `atelier/materiel/neumann-tlm103`, `atelier/materiel/neve-1073spx`, `atelier/materiel/revox-a77`, `atelier/materiel/tascam-model-12` |
+| `architecture` | 5 | `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11`, `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3` |
+| `cordis` | 5 | `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, `atelier/rd/veille/cordis/equations`, `atelier/rd/veille/cordis/implementations-github`, `atelier/rd/veille/cordis/methodes`, `atelier/rd/veille/cordis/notes-lecture` |
 | `discernement` | 5 | `atelier/rd/outillage/2026-08-10_methode-croisement-discernement`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages` |
-| `architecture` | 4 | `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3` |
-| `atelier` | 4 | `atelier/index`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/registre-problemes`, `atelier/rd/index` |
+| `monitoring` | 5 | `atelier/materiel/studio-principal`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19`, `atelier/rd/infrastructure/monitoring-archive-charte`, `atelier/rd/outillage/spec-archiver-monitoring-quotidien` |
+| `veille` | 5 | `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19`, `atelier/rd/veille/index`, `atelier/rd/veille/registre` |
 | `gem-guenon` | 4 | `atelier/rd/instrument/soumission-gem-convergence-28`, `atelier/rd/instrument/soumission-gem-reponse-geometrie-3d`, `atelier/rd/instrument/soumission-gem-reponse-gloton`, `atelier/rd/instrument/soumission-gem-reponse-visuelle-28` |
+| `kabbale` | 4 | `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3` |
 | `conceptuel` | 3 | `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3` |
 | `guenon` | 3 | `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages` |
-| `kabbale` | 3 | `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3` |
 | `mandala` | 3 | `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3` |
 | `methode` | 3 | `atelier/rd/outillage/2026-08-10_methode-croisement-discernement`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon` |
+| `paradigme` | 3 | `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, `atelier/rd/veille/cordis/equations`, `atelier/rd/veille/cordis/notes-lecture` |
+| `phase-3` | 3 | `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3` |
 | `phase-5` | 3 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles`, `atelier/rd/instrument/angles-de-l-espace`, `atelier/rd/instrument/references-visuelles-astronomiques-phase-5` |
+| `sashimono` | 3 | `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, `atelier/rd/veille/cordis/notes-lecture` |
 | `tasawwuf` | 3 | `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3` |
 | `tradition-primordiale` | 3 | `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3` |
 | `28-degres` | 2 | `atelier/rd/instrument/soumission-gem-convergence-28`, `atelier/rd/instrument/soumission-gem-reponse-visuelle-28` |
+| `bilan` | 2 | `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure`, `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` |
 | `corpus` | 2 | `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages` |
+| `depot` | 2 | `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20`, `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20` |
 | `discord` | 2 | `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16` |
+| `karubi` | 2 | `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21` |
 | `manazil` | 2 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles`, `atelier/rd/instrument/spec-anneau-zodiacal` |
-| `monitoring` | 2 | `atelier/materiel/studio-principal`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17` |
-| `phase-3` | 2 | `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16` |
-| `sashimono` | 2 | `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle` |
+| `pistes-developpement` | 2 | `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure`, `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` |
+| `registre` | 2 | `atelier/rd/cahiers/registre-problemes`, `atelier/rd/veille/registre` |
 | `signalement` | 2 | `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages` |
+| `souverainete` | 2 | `atelier/rd/index`, `atelier/rd/veille/index` |
 | `studio` | 2 | `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16` |
+| `telegram` | 2 | `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21` |
 | `three-js` | 2 | `atelier/rd/instrument/spec-anneau-zodiacal`, `atelier/rd/instrument/spec-technique-axe-38-degres` |
+| `transmissions` | 2 | `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16`, `atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21` |
 | `zodiaque` | 2 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles`, `atelier/rd/instrument/spec-anneau-zodiacal` |
 | `analogique` | 1 | `atelier/materiel/moog-voyager` |
 | `angles` | 1 | `atelier/rd/instrument/angles-de-l-espace` |
 | `apercus-initiation` | 1 | `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs` |
 | `architecture-3D` | 1 | `atelier/rd/instrument/spec-technique-axe-38-degres` |
+| `archive` | 1 | `atelier/rd/infrastructure/monitoring-archive-charte` |
 | `assets` | 1 | `atelier/rd/instrument/references-visuelles-astronomiques-phase-5` |
 | `assimilation` | 1 | `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole` |
 | `astrologie` | 1 | `atelier/rd/instrument/angles-de-l-espace` |
@@ -160,41 +189,57 @@ links: []
 | `biographique` | 1 | `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs` |
 | `cahier` | 1 | `atelier/rd/cahiers/registre-problemes` |
 | `citation` | 1 | `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon` |
+| `coeffets-reactifs` | 1 | `atelier/rd/veille/cordis/equations` |
 | `composition` | 1 | `atelier/materiel/studio-principal` |
 | `composition-dynamique` | 1 | `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle` |
 | `compresseur` | 1 | `atelier/materiel/distressor-el8` |
 | `condensateur` | 1 | `atelier/materiel/neumann-tlm103` |
 | `confrontation` | 1 | `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon` |
-| `cordis` | 1 | `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle` |
 | `croisement` | 1 | `atelier/rd/outillage/2026-08-10_methode-croisement-discernement` |
 | `cron` | 1 | `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17` |
+| `ctx-effect` | 1 | `atelier/rd/veille/cordis/methodes` |
 | `cycles` | 1 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` |
 | `deblocage` | 1 | `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages` |
 | `deterministe` | 1 | `atelier/rd/outillage/2026-08-10_methode-croisement-discernement` |
 | `directions-horizontales` | 1 | `atelier/rd/instrument/angles-de-l-espace` |
 | `distressor` | 1 | `atelier/materiel/distressor-el8` |
 | `double-controle` | 1 | `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18` |
+| `effets-reversibles` | 1 | `atelier/rd/veille/cordis/equations` |
 | `enregistrement-analogique` | 1 | `atelier/materiel/studio-principal` |
+| `equations` | 1 | `atelier/rd/veille/cordis/equations` |
 | `etanchéité` | 1 | `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18` |
+| `exploration` | 1 | `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20` |
+| `feuille-de-route` | 1 | `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` |
 | `fiche-par-fiche` | 1 | `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono` |
+| `gardien` | 1 | `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20` |
 | `generateur` | 1 | `atelier/rd/outillage/spec-generateur-manifeste` |
 | `geometrie-3d` | 1 | `atelier/rd/instrument/soumission-gem-reponse-geometrie-3d` |
 | `git` | 1 | `atelier/rd/outillage/spec-detecter-non-tracke` |
+| `github` | 1 | `atelier/rd/veille/cordis/implementations-github` |
 | `gizeh` | 1 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` |
 | `gloton` | 1 | `atelier/rd/instrument/soumission-gem-reponse-gloton` |
+| `go` | 1 | `atelier/rd/veille/cordis/implementations-github` |
 | `grande-triade` | 1 | `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages` |
+| `hmr` | 1 | `atelier/rd/veille/cordis/methodes` |
 | `hub` | 1 | `atelier/materiel/studio-principal` |
+| `ia` | 1 | `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19` |
 | `ibn-arabi` | 1 | `atelier/rd/instrument/soumission-gem-reponse-gloton` |
+| `implementation` | 1 | `atelier/rd/veille/cordis/methodes` |
+| `implementations` | 1 | `atelier/rd/veille/cordis/implementations-github` |
 | `index` | 1 | `atelier/index` |
 | `initiation-realisation` | 1 | `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs` |
 | `interface` | 1 | `atelier/materiel/tascam-model-12` |
-| `karubi` | 1 | `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16` |
+| `jvm` | 1 | `atelier/rd/veille/cordis/implementations-github` |
+| `koishi` | 1 | `atelier/rd/veille/cordis/methodes` |
 | `laboratoire` | 1 | `atelier/rd/cahiers/registre-problemes` |
+| `langage` | 1 | `atelier/rd/veille/cordis/implementations-github` |
+| `lecture` | 1 | `atelier/rd/veille/cordis/notes-lecture` |
 | `limiteur` | 1 | `atelier/materiel/distressor-el8` |
 | `magnétophone` | 1 | `atelier/materiel/revox-a77` |
 | `manifeste` | 1 | `atelier/rd/outillage/spec-generateur-manifeste` |
 | `mastering` | 1 | `atelier/materiel/tascam-model-12` |
 | `memoire` | 1 | `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole` |
+| `meta-raisonnement` | 1 | `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19` |
 | `microphone` | 1 | `atelier/materiel/neumann-tlm103` |
 | `moog` | 1 | `atelier/materiel/moog-voyager` |
 | `nafas-rahman` | 1 | `atelier/rd/instrument/soumission-gem-convergence-28` |
@@ -203,43 +248,46 @@ links: []
 | `neumann` | 1 | `atelier/materiel/neumann-tlm103` |
 | `neve` | 1 | `atelier/materiel/neve-1073spx` |
 | `omniroute` | 1 | `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11` |
-| `paradigme` | 1 | `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle` |
 | `phase-1` | 1 | `atelier/rd/outillage/spec-generateur-manifeste` |
 | `phase-2` | 1 | `atelier/rd/instrument/spec-anneau-zodiacal` |
 | `phase3` | 1 | `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11` |
+| `phase3-extension` | 1 | `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18` |
 | `polaire-solaire` | 1 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` |
 | `preampli` | 1 | `atelier/materiel/neve-1073spx` |
 | `precession` | 1 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` |
 | `protocole` | 1 | `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole` |
+| `rapport` | 1 | `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20` |
 | `rattachement` | 1 | `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs` |
 | `references-visuelles` | 1 | `atelier/rd/instrument/references-visuelles-astronomiques-phase-5` |
-| `registre` | 1 | `atelier/rd/cahiers/registre-problemes` |
+| `registres` | 1 | `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3` |
 | `rendu` | 1 | `atelier/rd/instrument/spec-anneau-zodiacal` |
+| `resonances` | 1 | `atelier/rd/veille/cordis/notes-lecture` |
 | `ressources` | 1 | `atelier/index` |
 | `revox` | 1 | `atelier/materiel/revox-a77` |
+| `rust` | 1 | `atelier/rd/veille/cordis/implementations-github` |
+| `sandbox` | 1 | `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18` |
 | `schema-manuscrit` | 1 | `atelier/rd/instrument/angles-de-l-espace` |
+| `sephiroth` | 1 | `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3` |
 | `serveur` | 1 | `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11` |
-| `souverainete` | 1 | `atelier/rd/index` |
 | `spec` | 1 | `atelier/rd/outillage/spec-generateur-manifeste` |
 | `srs` | 1 | `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole` |
 | `synthese` | 1 | `atelier/materiel/studio-principal` |
 | `synthétiseur` | 1 | `atelier/materiel/moog-voyager` |
 | `systeme` | 1 | `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11` |
 | `tascam` | 1 | `atelier/materiel/tascam-model-12` |
-| `telegram` | 1 | `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16` |
 | `to-source` | 1 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` |
-| `transmissions` | 1 | `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16` |
+| `typescript` | 1 | `atelier/rd/veille/cordis/methodes` |
 | `validation-sidy` | 1 | `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18` |
-| `veille` | 1 | `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11` |
 | `vigilance` | 1 | `atelier/rd/outillage/spec-detecter-non-tracke` |
 | `visualisation` | 1 | `atelier/rd/instrument/soumission-gem-reponse-visuelle-28` |
+| `wasm` | 1 | `atelier/rd/veille/cordis/implementations-github` |
 
 ## III. Index des en-têtes de section (H2)
 
 *Reproduits littéralement. Donne le contenu réel de chaque fiche sans passer par un résumé.*
 
 - `atelier/CLAUDE` — Structure du circuit · Nomenclature · Le Sceau atelier · Journalisation
-- `atelier/annales` — [2026-08-18] archivage | Dossier SAV Neve 1073SPX + fiches matériel d… · [2026-08-17] infrastructure | Synchronisation du mandat de l'agent st… · [2026-08-17] outillage | Contrôle déterministe de cohérence infrastru… · [2026-08-17] activation | monitoring quotidien (cron) + correction HO… · [2026-08-16] infrastructure | Activation du salon #infrastructure — a… · [2026-08-16] correction | Canal Telegram Mehdi — architecture initial… · [2026-08-16] archivage | Cordis — paradigme de composabilité spatiote… · [2026-08-15] archivage | Bilan R&D — pont inter-agents · [2026-08-15] archivage | Intégration registre problèmes + fiche outil… · [2026-08-15] outillage | Piste — SRS pour l'assimilation du protocole… · [2026-08-15] infrastructure | Bureau TUI — première version · [2026-08-15] mise-a-jour | Brouillons zodiacaux alignés sur la table … · [2026-08-13] signalement | Fiches biographiques (2026-06-20) confront… · [2026-08-13] signalement | Tour d'horizon : déblocages ouverts par le… · [2026-08-13] signalement | Confrontation de 5 fiches discernement/ au… … (+32)
+- `atelier/annales` — [2026-08-20] rd | Registre vedanta — quatre états d'Âtmâ (v0.5.0) · [2026-08-20] rd | Registre hindouisme — chakras sur sushumnā (v0.4.1) · [2026-08-20] rd | Ouverture des registres — plusieurs traditions sur … · [2026-08-20] rd | Lecture dynamique du manifeste par le prototype + i… · [2026-08-20] rd | generer-manifeste.py propage le bloc zodiaque (sché… · [2026-08-20] rd | Homme Universel déclaré (v0.3.4) + anneau zodiacal … · [2026-08-20] rd | Prototype de l'Instrument mis à jour (Aqtâb, filame… · [2026-08-20] rd | Pistes de développement — Instrument et infrastruct… · [2026-08-20] réparation | Points mécaniques du rapport conjoint Studi… · [2026-08-20] rd | Rapport conjoint d'état du dépôt (préparation Gardi… · [2026-08-19] rd | Job cron Hermes `coherence-infrastructure-brute` r… · [2026-08-18] rd | Cause racine cartographie corrigée, registre enrich… · [2026-08-18] archivage | Dossier SAV Neve 1073SPX + fiches matériel d… · [2026-08-17] infrastructure | Synchronisation du mandat de l'agent st… · [2026-08-17] outillage | Contrôle déterministe de cohérence infrastru… … (+44)
 - `atelier/etudes-de-cas/kojima-productions` — MODULE 1 — Identity and origin · MODULE 2 — Thesis and positioning · MODULE 3 — Art direction and brand · MODULE 4 — Product and catalogue · MODULE 5 — Economic model · MODULE 6 — Production and logistics · MODULE 7 — Distribution · MODULE 8 — Marketing and communication · MODULE 9 — Culture, community, governance · MODULE 10 — Trajectory and inflection points · FINAL BLOCK — Transposition 🔍 (suggested) · Note on watertightness (§VI) · Appendix — Source credibility
 - `atelier/etudes-de-cas/stones-throw` — MODULE 1 — Identity & genesis · MODULE 2 — Thesis & positioning · MODULE 3 — Art direction & brand · MODULE 4 — Product & catalog · MODULE 5 — Business model · MODULE 6 — Production & logistics · MODULE 7 — Distribution · MODULE 8 — Marketing & communication · MODULE 9 — Culture, community & governance · MODULE 10 — Trajectory & inflection points · BLOC FINAL — Transposition 🔍 (suggéré — décision humaine requise, Cmd…
 - `atelier/index` — R&D — Recherche & Développement (`rd/`) · Instrument de la Tradition Primordiale · Matériels & Techniques · Entretiens & Témoignages · Projets & Expériences (résiduel) · Études de Cas
@@ -265,22 +313,32 @@ links: []
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius` — Zodiac principle · Your sign in Sidy's natal chart (harmonization context)
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces` — Zodiac principle · Your sign in Sidy's natal chart (harmonization context)
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/README` — Objet · Sources · Convention · Contenu (9 brouillons, statuts du volet b respectés) · Hors périmètre de ce lot (en attente de verdict) · Procédure d'intégration (après relecture/verdict Sidy)
-- `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11` — I. Rappel du mandat (verdict d'ouverture du pôle, 2026-08-08) · II. Ce qui existe déjà et que la veille consoliderait, sans le dupliq… · III. Ce que « veiller » signifierait concrètement (tranché, 2026-08-1… · IV. Risque à nommer si la veille est confiée à un agent H‍ermes · V. Désignation effective (tranchée, 2026-08-11) · VI. Ce que cette note ne fait pas encore (et ce qui reste à faire) · Récapitulatif — Chantiers ouverts après la réouverture (2026-08-11) · Mise à jour (2026-08-16) · Intégration (2026-08-12)
-- `atelier/rd/cahiers/registre-problemes` — [2026-08-18] ouvert | Double contrôle Claude Code du traitement C1/C4… · [2026-08-17] ouvert | Angle mort de continuité tâches/information ent… · [2026-08-15] resolu | Outillage Karūbī — append-only §8/§9 sans LLM +… · [2026-07-20] Lecture défensive d'un document-persona par un LLM neuf … · [2026-08-13] resolu | Intégration retour Karūbī Mehdi (Habib) — défau… · [2026-08-13] resolu | Première intégration sous la convention CLAUDE.… · [2026-08-11] resolu | Cartographie infrastructure serveur/Hermes/omni… · [2026-08-11] resolu | Implémentation des 4 pistes outillage instruite… · [2026-08-11] resolu | Extension du prompt agent 09 (Studio Sound Engi… · [2026-08-11] resolu | Phase 3 — explicitation du flux alchimique Disc… · [2026-08-11] ouvert | Phase 3 veille infrastructure — réouverture §II… · [2026-08-11] resolu | Chantier 12 agents (zodiacal) — brouillons d'ex… · [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — accè… · [2026-08-11] ouvert | Phase 3 (agent de veille infrastructure) — §III… · [2026-08-11] resolu | Phase 3 (agent de veille infrastructure) — form… … (+22)
+- `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18` — I. Contexte — ce qui motive l'extension · II. Décisions tranchées (Sidy, 2026-08-18) · III. Périmètre du nouveau volet · IV. Architecture des nouveaux lieux dans `atelier/rd/` · V. Sandbox — hors dépôt · VI. Gouvernance — articulation avec les commandements · VII. Ce qui reste à instruire (Cmd 6, non bloquant) · VIII. Première veille — acte d'ouverture (2026-08-18) · IX. Liens
+- `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11` — I. Rappel du mandat (verdict d'ouverture du pôle, 2026-08-08) · II. Ce qui existe déjà et que la veille consoliderait, sans le dupliq… · III. Ce que « veiller » signifierait concrètement (tranché, 2026-08-1… · IV. Risque à nommer si la veille est confiée à un agent Hermes · V. Désignation effective (tranchée, 2026-08-11) · VI. Ce que cette note ne fait pas encore (et ce qui reste à faire) · Récapitulatif — Chantiers ouverts après la réouverture (2026-08-11) · Mise à jour (2026-08-16) · Intégration (2026-08-12)
+- `atelier/rd/cahiers/registre-problemes` — [2026-08-20] resolu | Traçabilité en défaut — tension Burckhardt/Jurj… · [2026-08-18] resolu | Suite de l'entrée précédente — `coherence-infra… · [2026-08-18] ouvert | Second job cron Hermes (`coherence-infrastruct… · [2026-08-18] ouvert | Cause racine des faux isolés corrigée à la raci… · [2026-08-18] ouvert | Double contrôle Claude Code du traitement C1/C4… · [2026-08-17] ouvert | Angle mort de continuité tâches/information ent… · [2026-08-15] resolu | Outillage Karūbī — append-only §8/§9 sans LLM +… · [2026-07-20] Lecture défensive d'un document-persona par un LLM neuf … · [2026-08-13] resolu | Intégration retour Karūbī Mehdi (Habib) — défau… · [2026-08-13] resolu | Première intégration sous la convention CLAUDE.… · [2026-08-11] resolu | Cartographie infrastructure serveur/Hermes/omni… · [2026-08-11] resolu | Implémentation des 4 pistes outillage instruite… · [2026-08-11] resolu | Extension du prompt agent 09 (Studio Sound Engi… · [2026-08-11] resolu | Phase 3 — explicitation du flux alchimique Disc… · [2026-08-11] ouvert | Phase 3 veille infrastructure — réouverture §II… … (+26)
 - `atelier/rd/index` — Mission (verdict du 2026-08-08) · Arborescence · Régime des deux sous-régimes de l'atelier · Ce qui vit où (frontières) · État de la phase 1 partielle
+- `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure` — Contexte · 1. Infrastructure serveur — état et points ouverts · 2. Chantiers déjà tranchés côté décision, non exécutés · 3. Veille externe Cordis — piste d'applicabilité à instruire · 4. Outillage — points restants · 5. Hygiène signalée en marge · 6. Pistes classées (aucune tranchée) · Rappel de méthode
 - `atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12` — 1. Problème posé · 2. Solution retenue · 3. Vérifications effectuées (2026-08-12) · 4. Points ouverts
 - `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17` — 1. Contexte · 2. Anomalie 1 — HOME_CHANNEL mal configuré · 3. Anomalie 2 — Aucun cron job pour le volet 1 · 4. État du volet 2 — Recherche & développement (option a validée) · 5. État final après correction · 6. Leçons tirées · 7. Points ouverts
 - `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16` — 1. Contexte · 2. Diagnostic · 3. Correction appliquée · 4. Leçon tirée · 5. État après correction · 6. Points ouverts
+- `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19` — Thèse centrale (citations du clip) · Concepts clés · Pertinence R&D infrastructure · Ressources liées (même auteur) · À creuser
 - `atelier/rd/infrastructure/bureau-tui-architecture` — Pourquoi (contexte) · Contraintes vérifiées avant conception · Architecture · Conformité au protocole · État d'avancement
 - `atelier/rd/infrastructure/bureau/README` — Installation (mode pédagogique) · Lancement · Navigation · Accès distant (audio, chat) · Modularité · Tests
 - `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16` — 1. Problème posé · 2. Solution retenue · 3. Vérifications à effectuer (avant de considérer le canal « en servi… · 4. Points ouverts · 5. Réalisé le 2026-08-16 (architecture initiale corrigée et en servic…
+- `atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21` — 1. Ce qui est identique au dispositif Mehdi · 2. Écarts par rapport au dispositif Mehdi · 3. Étapes exécutées par le gardien (2026-08-21) · 4. Gestes humains restants (Cmd 13) — état 2026-08-21 · 5. Points ouverts
 - `atelier/rd/infrastructure/claude-code-health-check-2026-08-11` — Executive Summary · Findings by Check · Recommended Actions · How to Undo Changes · Next Steps
 - `atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11` — 1. Matériel (Hetzner) · 2. Empreinte mémoire des processus applicatifs actifs · 3. Observation factuelle · 4. Portée et limites de ce relevé · 5. Liens
+- `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20` — 1. Carte des circuits (état observé) · 2. État des vérifications mécaniques (2026-08-20) · 3. Inventaire raw/ — ressources et nature · 4. Anomalies et points ouverts (observations, sans verdict) · 5. Points d'appui pour la suite
+- `atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint` — Contexte · Symptômes · Diagnostic racine · Leçons · Pistes de mitigation · Statut
 - `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11` — 1. Topologie réseau et physique · 2. Couche applicative — Services sur Hetzner · 3. Couche dépôt — Workflow CONSULTATION → INTÉGRATION · 4. Empreinte mémoire détaillée · 5. Ressources stockage · 6. Uptime et charge · 7. Circuits informatiques et protocoles · 8. Points de défaillance uniques (SPoF) · 9. Points ouverts (pas instruits ici) · 10. Références et documentation connexe
 - `atelier/rd/infrastructure/infrastructure-ssh-statu-quo` — 1. Question posée · 2. Analyse technique du 2026-08-09 · 3. Verdict (Sidy, 2026-08-11) · 4. Clause de réouverture · 5. Implémentation · Références
+- `atelier/rd/infrastructure/monitoring-archive-charte` — Motif · Contenu du dossier · Alimentation · Rétention · Note — job Hermes `coherence-infrastructure-brute` réparé (2026-08-1…
+- `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20` — 1. Carte des circuits (vérifiée ce jour) · 2. Vérifications mécaniques rejouées (2026-08-20) · 3. Classification `raw/` — 444 fichiers · 4. Git — état au moment du rapport · 5. Points ouverts pour le rapport conjoint (sans verdict) · 6. Points d'appui
 - `atelier/rd/infrastructure/synchro-obsidian-working-copy-github` — 1. Architecture de synchronisation · 2. Panne du 2026-06-29 · 3. Procédure de réparation appliquée (2026-06-29) · 4. Routine de fonctionnement · 5. Décision — statu quo SSH (verdict Sidy, 2026-08-11) · 6. Points de vigilance
 - `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18` — 1. Contexte et cadre · 2. Lot 1 — Avertissements C1 et C4 de `verifier-invariants.py` · 3. Lot 2 — 62 nœuds isolés de la cartographie · 4. Journal d'exécution (à remplir post-traitement) · 5. Commandes de vérification (pour Claude Code) · 6. Points ouverts à arbitrer par Sidy · 7. État de la consignation · 8. Liens utiles · 9. Bilan du traitement (2026-08-18)
 - `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` — 0. Reformulation de l'intuition de départ · 1. Le versant polaire (matière guénonienne et connexe) · 2. Le versant solaire-stellaire (Égypte / Gizeh) · 3. La doctrine des cycles — matière quantitative · 4. Confrontation Gizeh de la présente investigation (consignée, §VII) · 5. Pistes d'intégration à l'Instrument (Phase 5, toutes pilotées par … · 6. Hypothèses d'interprétation — le « quelque chose d'autre » (propos… · 7. Bibliothèque à constituer (par ordre de priorité) · 8. Questions posées au discernement de Sidy (aucune tranchée ici) · 9. Consignes de relais pour le modèle suivant
+- `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` — Contexte de cette fiche · 0. Corrections apportées suite au retour de Sidy (même session, 2026-… · 1. Où en est réellement le chantier — par phase · 2. Écarts documentaires relevés (hygiène, à corriger) · 3. Pistes de développement proposées (classées, aucune tranchée) · 5. Mise à jour du prototype effectuée le 2026-08-20 (sur consigne de … · 6. Rappel de méthode
+- `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3` — 1. Le redressement · 2. L'architecture proposée : le registre · 3. Ce qui est fait (2026-08-20) · 4. Sur la Sitra Ahra — requalification · 5. Suites proposées · 6. Registre hindouisme-tantra (2026-08-20) · 7. Registre vedanta — les quatre états d'Âtmâ (2026-08-20)
 - `atelier/rd/instrument/angles-de-l-espace` — 1. Transcription du schéma · 2. Appariement acté (lève le to-source de la v0.3 §8) · 3. Garde-fou · 4. Images associées
 - `atelier/rd/instrument/instrument-feuille-de-route-v2` — 1. Invariants (rappel — issus de la fiche v0.2) · 2. Feuille de route par phases · 3. Questions techniques ouvertes (à arbitrer) · 4. Garde-fous doctrinaux propres à l'app · 5. Vigilance documentaire — pratique continue (et non Phase 4 seuleme…
 - `atelier/rd/instrument/instrument-tradition-primordiale-architecture` — 0. Nature de l'instrument · 1. L'Arbre unique (et non une collection d'arbres) · 2. Cas particulier : la Kabbale et le Sitra Ahra · 3. Architecture spatiale et navigation · 4. Mécanisme de suggestion (établi vs suggéré) · 5. L'onglet d'instrument de délimitation apophatique · 6. Couche de données — découplage strict du moteur 3D · 7. Ce que ce document n'est pas
@@ -299,9 +357,16 @@ links: []
 - `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole` — I. Objet de la fiche · II. État du protocole actuellement · III. Qu'est-ce qu'un SRS (spaced repetition system) · IV. Comparaison Mnemosyne / Anki / alternatives · V. Application au protocole Hermes — ce qui pourrait devenir cartes · VI. Deux usages distincts — problème posé avant le verdict · VII. Recommandation (verdict Sidy, 2026-08-15) · VIII. Non inclus · IX. Liens
 - `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle` — 1. Provenance · 2. Le problème adressé · 3. Le paradigme : deux axes · 4. Cordis — l'implémentation · 5. Validation empirique — Koishi · 6. Ce que la source dit elle-même de son avenir · 7. Qualification sashimono — résonance de forme avec Cordis · 8. Pistes pour le dépôt (kari-kumi, non tranché) · 9. Non traité dans cette fiche · 10. Liens
 - `atelier/rd/outillage/robustesse-documents-persona-llm` — Contexte · Symptôme brut · Diagnostic · Résolution appliquée · Compréhension tirée · Liens · Statut
+- `atelier/rd/outillage/spec-archiver-monitoring-quotidien` — 1. Problème traité · 2. Fonctionnement · 3. Format d'archive : `.txt`, jamais `.md` · 4. Ce que le script ne fait pas · 5. Écart avec la piste initialement envisagée · 6. Découverte annexe — trouvée cassée, réparée le même jour (2026-08-…
 - `atelier/rd/outillage/spec-detecter-non-tracke` — 1. Problème traité · 2. Fonctionnement · 3. Ce que le script ne fait pas · 4. Écart volontaire avec `verifier-invariants.py`
-- `atelier/rd/outillage/spec-generateur-manifeste` — 1. Décisions d'architecture actées (session du 2026-07-01) · 2. Pourquoi un fichier déclaratif côté app (et non le Sceau Recteur) · 3. Entrées / sorties · 4. Règles de génération (déterministes) · 5. Validations bloquantes (VIGILANCE mécanique) · 6. Ce que le script ne fait pas · 7. Premier contenu (v0.1 des données) · 8. Exécution côté serveur
+- `atelier/rd/outillage/spec-generateur-manifeste` — 1. Décisions d'architecture actées (session du 2026-07-01) · 2. Pourquoi un fichier déclaratif côté app (et non le Sceau Recteur) · 3. Entrées / sorties · 4. Règles de génération (déterministes) · 5. Validations bloquantes (VIGILANCE mécanique) · 5 bis. Bloc `zodiaque:` (schéma v0.2.2, ajouté 2026-08-20) · 5 ter. Lecture dynamique par le prototype (2026-08-20, verdict Sidy) · 5 quater. Bloc `registres:` (schéma v0.2.3, ajouté 2026-08-20) · 6. Ce que le script ne fait pas · 7. Premier contenu (v0.1 des données) · 8. Exécution côté serveur
 - `atelier/rd/outillage/spec-generer-cartographie-tolerant` — 1. Problème traité (historique) · 2. Solution : deux niveaux de sévérité (v1.1) · 3. Options du script · 4. Distinction de cette approche · 5. Exemple · 6. Écart volontaire avec l'exemption C3 · Références
+- `atelier/rd/veille/cordis/equations` — I. Effets réversibles (§3.1) · II. Coeffects réactifs (§3.2) · III. Unification — Paradigme du contexte (§3.3) · IV. Calcul de composition dynamique (§4) · V. Implémentation — Cordis (§5) · VI. Ce qui reste à extraire · Liens
+- `atelier/rd/veille/cordis/implementations-github` — I. Repos identifiés · II. Analyse qualitative · III. Prochaines scrutations · Liens
+- `atelier/rd/veille/cordis/methodes` — I. Bibliothèque centrale (§5.1) · II. Chargeur de composants (§5.2) · III. Cas d'étude — Koishi (§5.3) · IV. Patterns d'ingénierie extraits · V. Ce qui reste à instruire · Liens
+- `atelier/rd/veille/cordis/notes-lecture` — I. Résonance avec Sashimono · II. Applicabilité au dépôt · III. Limites et questions ouvertes · IV. Ce qui reste à lire · Liens
+- `atelier/rd/veille/index` — Mission · Périmètre · Règles du lieu · Arborescence cible · Articulation avec le reste du dépôt · Liens
+- `atelier/rd/veille/registre` — [2026-08-18] Scrutation GitHub — implémentations Cordis · [2026-08-18] Ouverture du lieu
 
 ## IV. Discernements
 
@@ -313,15 +378,15 @@ links: []
 
 *Chaque ligne est une affirmation non encore vérifiée sur source primaire (Cmd 5). Leur levée est humaine et manuelle.*
 
-**Total : 97 marqueurs sur 19 fiches.**
+**Total : 99 marqueurs sur 20 fiches.**
 
 - `atelier/annales` (9)
-  - L33 : `raw/distressor_manual.pdf`, marqueur `to-source` **levé**
-  - L35 : (notice multilangue, owners, service), marqueur `to-source` **levé**
-  - L37 : `raw/Model12_OM_EFS_RevH3.pdf`, marqueur `to-source` **levé**
-  - L41 : dans `raw/`, conservent le marqueur `to-source`
-  - L51 : - Fiches avec marqueur `to-source` **levé** : distressor-el8, revox-a77,
-  - L53 : - Fiches conservant le marqueur `to-source` : moog-voyager, neumann-tlm103
+  - L481 : `raw/distressor_manual.pdf`, marqueur `to-source` **levé**
+  - L483 : (notice multilangue, owners, service), marqueur `to-source` **levé**
+  - L485 : `raw/Model12_OM_EFS_RevH3.pdf`, marqueur `to-source` **levé**
+  - L489 : dans `raw/`, conservent le marqueur `to-source`
+  - L499 : - Fiches avec marqueur `to-source` **levé** : distressor-el8, revox-a77,
+  - L501 : - Fiches conservant le marqueur `to-source` : moog-voyager, neumann-tlm103
   - … (+3)
 - `atelier/etudes-de-cas/kojima-productions` (20)
   - L12 : > remain unrecouped are marked `to-source` and are **not affirmable**.
@@ -335,8 +400,8 @@ links: []
   - L134 : research pass; treated as founder-controlled independent — `to-source` for
   - L181 : `to-source`.
 - `atelier/index` (2)
-  - L64 : consolidée]] — `to-source` partiel, aucun ancrage YAML sans discernement dédié
-  - L81 : - [[atelier/materiel/studio-principal|Studio Principal]] — fiche-hub de l'espace d'atelier audio, `to-source`
+  - L79 : consolidée]] — `to-source` partiel, aucun ancrage YAML sans discernement dédié
+  - L104 : - [[atelier/materiel/studio-principal|Studio Principal]] — fiche-hub de l'espace d'atelier audio, `to-source`
 - `atelier/materiel/distressor-el8` (6)
   - L33 : - **Date d'achat** : `to-source`
   - L34 : - **Lieu d'achat** : `to-source`
@@ -378,6 +443,9 @@ links: []
   - L53 : polaire comme *Vārāhī*. `to-source` (même chapitre, probable).
   - L71 : `to-source` — c'est la première vérification à faire.
   - … (+12)
+- `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` (2)
+  - L59 : 2. **`to-source` non répercuté** : l'architecture v0.3 §8 liste encore l'appariement qualités↔angles (AS=Sec, DS=Humide, MC=Chaud, FC=Froid) co…
+  - L86 : 9. Décider si l'hypothèse H3 de `2026-07-26_investigation-referentiels-stellaires-cycles.md` (convergence Gizeh/Idrīs/Hermès au degré 24) — qua…
 - `atelier/rd/instrument/angles-de-l-espace` (2)
   - L14 : > élémentaires ↔ quatre angles astrologiques** — la donnée qui restait `to-source`
   - L41 : ## 2. Appariement acté (lève le to-source de la v0.3 §8)
@@ -409,7 +477,7 @@ links: []
 
 ### Liens non résolus
 
-- `atelier/annales` → `^`, `doctrinal/discernement/2026-07-27_septenaire-transversal-ba…`
+- `atelier/annales` → `...`, `^`, `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-a…`, `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-w…`, `doctrinal/discernement/2026-07-27_septenaire-transversal-ba…`, `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-b…`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14`, `doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme` … (+2)
 - `atelier/etudes-de-cas/stones-throw` → `framework-etude-de-cas`
 - `atelier/index` → `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-…`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne`
 - `atelier/materiel/distressor-el8` → `raw/distressor_manual`
@@ -417,11 +485,15 @@ links: []
 - `atelier/materiel/revox-a77` → `raw/REVOX A77 NOTICE MULTILINGUE`, `raw/Revox-A-77-Dolby-B-Owners-Manual`, `raw/Revox-A-77-Dolby-B-Service-Manual`
 - `atelier/materiel/tascam-model-12` → `chatgpt-export-2026-05-10`, `raw/Model12_OM_EFS_RevH3`, `raw/facture-woodbrass-4902304-2025-11-07-tascam-model12`
 - `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11` → `doctrinal/discernement/2026-08-11_trois-territoires-inachev…`
-- `atelier/rd/cahiers/registre-problemes` → `atelier/rd/index.md`, `doctrinal/discernement/2026-07-05_correspondances-fonctions…`, `doctrinal/discernement/2026-08-11_trois-territoires-inachev…`, `hermeneutique/metal-gear/idroid`, `meta/2026-06-20_bourdonnement-tempe`, `meta/2026-06-20_signature-kouyate`, `meta/2026-06-20_taekwondo-hansu`, `meta/briefing-claude-ai`, `meta/genealogie/kouyate`, `meta/meta-annales` … (+12)
+- `atelier/rd/cahiers/registre-problemes` → `atelier/rd/index.md`, `doctrinal/discernement/2026-07-05_correspondances-fonctions…`, `doctrinal/discernement/2026-08-11_trois-territoires-inachev…`, `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `hermeneutique/metal-gear/idroid`, `meta/2026-06-20_bourdonnement-tempe`, `meta/2026-06-20_signature-kouyate`, `meta/2026-06-20_taekwondo-hansu`, `meta/briefing-claude-ai`, `meta/genealogie/kouyate` … (+13)
 - `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16` → `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07`
 - `atelier/rd/infrastructure/bureau-tui-architecture` → `hermeneutique/metal-gear/idroid`, `hermeneutique/metal-gear/mother-base`
+- `atelier/rd/infrastructure/monitoring-archive-charte` → `...`
+- `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20` → `^`, `doctrinal/discernement`, `meta/...`, `x/y`
 - `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18` → `^`, `atelier/rd/infrastructure/infrastructure-architecture-globa…`, `chemin`, `chemin/vers/fiche`, `doctrinal/discernement`, `infrastructure-architecture-globale-*`, `meta/...`, `meta/.../16-*`, `meta/2026-06-20_bourdonnement-tempe`, `meta/2026-06-20_taekwondo-hansu` … (+26)
 - `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` → `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-a…`, `doctrinal/discernement/2026-07-03_orientation-chronometre-g…`, `doctrinal/sources/2026-07-03_guenon-tombeau-hermes`, `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque…`, `doctrinal/symboles/atlantide`, `doctrinal/symboles/manazil-al-qamar`, `doctrinal/symboles/manvantara`
+- `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` → `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-…`, `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-w…`, `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`
+- `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3` → `doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra`, `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-a…`, `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-w…`, `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-b…`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14`, `doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme`, `doctrinal/sources/kabbale-10-sefirot-structure`, `doctrinal/sources/sefer-yetsira-ramban`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen`
 - `atelier/rd/instrument/angles-de-l-espace` → `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases…`, `doctrinal/symboles/ilm-al-nujum`
 - `atelier/rd/instrument/instrument-tradition-primordiale-architecture` → `doctrinal/...`, `doctrinal/symboles/al-insan-al-kamil`, `doctrinal/symboles/alam-al-mithal`, `doctrinal/traditions/tasawwuf`
 - `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2` → `doctrinal/...`, `doctrinal/discernement/slug`, `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/symboles/al-insan-al-kamil`, `doctrinal/symboles/alam-al-mithal`, `doctrinal/symboles/barzakh`, `doctrinal/symboles/hadarat-khams`, `doctrinal/traditions/tasawwuf`, `doctrinal/vigilance/...`
@@ -439,7 +511,7 @@ links: []
 - `atelier/rd/outillage/spec-generateur-manifeste` → `doctrinal/symboles/hadarat-khams`, `doctrinal/symboles/table-28-degres-nafas-rahman`
 - `atelier/rd/outillage/spec-generer-cartographie-tolerant` → `x`, `x/y`
 
-### Fiches sans lien entrant (34)
+### Fiches sans lien entrant (36)
 
 - `atelier/materiel/technics-su-8080`
 - `atelier/projets/2026-07-26_investigation-referentiels-stellaires-cycles`
@@ -467,38 +539,44 @@ links: []
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces`
 - `atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12`
-- `atelier/rd/infrastructure/bureau-tui-architecture`
+- `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19`
 - `atelier/rd/infrastructure/bureau/README`
+- `atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21`
 - `atelier/rd/infrastructure/claude-code-health-check-2026-08-11`
 - `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18`
 - `atelier/rd/instrument/instrument-tradition-primordiale-architecture`
 - `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`
 - `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole`
-- `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`
+- `atelier/rd/veille/cordis/implementations-github`
+- `atelier/rd/veille/registre`
 
 ## VII. Statistiques
 
 | circuit | fiches |
 |---|---|
-| `atelier/` | 80 |
-| **total** | **80** |
+| `atelier/` | 97 |
+| **total** | **97** |
 
 | type | n |
 |---|---|
-| `outillage` | 22 |
+| `outillage` | 23 |
+| `infrastructure` | 17 |
+| `projet` | 14 |
 | `deprecated` | 13 |
-| `projet` | 13 |
-| `infrastructure` | 11 |
 | `materiel` | 8 |
-| `meta` | 5 |
+| `meta` | 7 |
+| `fiche-veille` | 4 |
 | `(absent)` | 3 |
+| `index` | 3 |
 | `etude-de-cas` | 2 |
-| `index` | 2 |
+| `fiche-rd` | 1 |
 | `investigation` | 1 |
+| `registre` | 1 |
 
 | status | n |
 |---|---|
-| `(absent)` | 79 |
+| `(absent)` | 94 |
+| `brouillon` | 2 |
 | `speculatif` | 1 |
 
 **Fiches sans frontmatter (3)** — signalement, aucune correction :

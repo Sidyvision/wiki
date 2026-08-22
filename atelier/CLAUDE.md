@@ -61,13 +61,13 @@ links: []
   générique, bancs, mesures) — jamais de fait personnel dans une page neutre
   (ce qui est sensible reste en `meta/projet-unifie/`, voir `meta/CLAUDE.md`).
 - **`infra_verif` (champ optionnel, ouvert 2026-08-17)** : pour les fiches
-  `type: infrastructure` qui documentent une action de configuration H‍ermes/
+  `type: infrastructure` qui documentent une action de configuration Hermes/
   Discord effectivement appliquée (pas seulement planifiée), une liste YAML en
   frontmatter permet la vérification mécanique indépendante de l'affirmation
   narrative de la fiche — motif : `atelier/rd/cahiers/registre-problemes.md`,
   entrée `[2026-08-17]`, une fiche avait affirmé la création d'un job cron
   jamais réellement créé. Champs reconnus par item (au moins un requis) :
-  `profil` (obligatoire, nom du profil H‍ermes), `cron_job` (nom du job attendu),
+  `profil` (obligatoire, nom du profil Hermes), `cron_job` (nom du job attendu),
   `discord_home_channel` (ID numérique attendu), `discord_allowed_channels`
   (liste d'ID numériques attendus, sous-ensemble accepté). Vérifié par
   `atelier/rd/outillage/verifier-coherence-infrastructure.py` (déterministe,

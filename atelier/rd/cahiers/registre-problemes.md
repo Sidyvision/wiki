@@ -78,7 +78,7 @@ fiche `discernement` close sur le sujet.
 ## [2026-08-18] resolu | Suite de l'entrée précédente — `coherence-infrastructure-brute` réparé en deux temps, plus un faux-positif silencieux découvert au passage ; archive du monitoring mise en cron dédié
 
 **Contexte** : suite directe de l'entrée `[2026-08-18]` ci-dessous
-(« Second job cron H‍ermes... non documenté »). Verdict Sidy explicite reçu
+(« Second job cron Hermes... non documenté »). Verdict Sidy explicite reçu
 en session : « tu as le feu vert pour tout rétablir » — autorisation directe
 d'exécuter les deux corrections plutôt que de les laisser en signalement
 seul.
@@ -91,11 +91,11 @@ précédente — `last_error: "Script not found:
 atelier/rd/outillage/verifier-coherence-infrastructure.py
 /root/.hermes/profiles/studio/scripts/verifier-coherence-infrastructure.py`.
 Fonctionne pour un appel Python direct (`python3 <lien> --racine
-/root/wiki` → 3 affirmations vérifiées), mais **rejeté par H‍ermes
+/root/wiki` → 3 affirmations vérifiées), mais **rejeté par Hermes
 lui-même** à l'exécution du job : `last_error: "Blocked: script path
 resolves outside the scripts directory
 (/root/.hermes/profiles/studio/scripts):
-'verifier-coherence-infrastructure.py'"`. H‍ermes résout le chemin canonique
+'verifier-coherence-infrastructure.py'"`. Hermes résout le chemin canonique
 réel du script et refuse tout chemin dont la cible sort du dossier
 `scripts/` du profil — garde-fou de sécurité propre à l'outil, indépendant
 du système de fichiers.
@@ -154,7 +154,7 @@ directement — « 2 sortie(s) source, 2 déjà archivée(s), 0 à copier » (é
 attendu, les deux jours déjà archivés à la main précédemment).
 
 **Compréhension tirée** : deux leçons distinctes, toutes deux réutilisables
-pour tout futur job `no_agent` de ce dépôt. (1) H‍ermes vérifie le chemin
+pour tout futur job `no_agent` de ce dépôt. (1) Hermes vérifie le chemin
 *canonique* d'un `--script`, pas seulement son existence apparente — un
 lien symbolique hors du dossier `scripts/` du profil est bloqué
 mécaniquement, jamais une copie réelle. (2) Un job `no_agent` n'a **aucun**
@@ -187,7 +187,7 @@ registre (`infra_verif`).
 
 ---
 
-## [2026-08-18] ouvert | Second job cron H‍ermes (`coherence-infrastructure-brute`) en échec systématique depuis sa création, non documenté
+## [2026-08-18] ouvert | Second job cron Hermes (`coherence-infrastructure-brute`) en échec systématique depuis sa création, non documenté
 
 **Contexte** : construction de l'archive du rapport de monitoring quotidien
 (suggestion Sidy, rétention 40 jours — voir
@@ -215,7 +215,7 @@ intégral = message d'échec, rien d'autre.
 `--script` par rapport au dossier `~/.hermes/profiles/<profil>/scripts/`, pas
 au `workdir` du job (`/root/wiki`) ni à un chemin absolu. Le script réel vit
 dans le dépôt (`atelier/rd/outillage/verifier-coherence-infrastructure.py`)
-et n'a jamais été copié ni lié dans le dossier `scripts/` du profil H‍ermes —
+et n'a jamais été copié ni lié dans le dossier `scripts/` du profil Hermes —
 vraisemblablement une hypothèse implicite au moment de la création du job
 (2026-08-17T05:32, quatre minutes après le job monitoring), jamais vérifiée
 après coup. Ce job n'apparaît nulle part dans
@@ -223,7 +223,7 @@ après coup. Ce job n'apparaît nulle part dans
 qui ne documente que le job `monitoring-infrastructure-quotidien`.
 
 **Résolution** : aucune à ce stade — signalement seul. Corriger le job
-(lien symbolique du script dans le dossier attendu par H‍ermes, ou copie, ou
+(lien symbolique du script dans le dossier attendu par Hermes, ou copie, ou
 `hermes cron edit ca9593f3a03d --script <chemin correct>`) est une
 modification d'un agent de production ; le choix du remède et sa validation
 reviennent à Sidy (Cmd 12/13), pas à une correction silencieuse en cours de
@@ -239,7 +239,7 @@ médiée par le LLM (étape 4 du job `monitoring-infrastructure-quotidien`, qui
 appelle le même script directement dans son prompt) produit un résultat —
 ce qui masque le problème plutôt que de le révéler, puisque le rapport
 quotidien continue d'afficher une sortie apparemment saine à l'étape 4. Un
-job H‍ermes `enabled + scheduled` ne garantit ni qu'il a jamais réussi, ni
+job Hermes `enabled + scheduled` ne garantit ni qu'il a jamais réussi, ni
 que son échec est visible ailleurs que dans son propre état interne — seule
 la lecture directe de `jobs.json` (ou une inspection CLI qui manque
 aujourd'hui) l'a révélé.
@@ -429,7 +429,7 @@ proposées, à instruire à la finalisation du lot par l'agent.
 
 ---
 
-## [2026-08-17] ouvert | Angle mort de continuité tâches/information entre Claude Code, H‍ermes Terminal et agents Discord — le cron « créé » du 2026-08-17 n'existe pas
+## [2026-08-17] ouvert | Angle mort de continuité tâches/information entre Claude Code, Hermes Terminal et agents Discord — le cron « créé » du 2026-08-17 n'existe pas
 
 **Symptôme brut** :
 - `hermes --profile studio cron list` → « No scheduled jobs » (vérifié 2026-08-17,
@@ -451,7 +451,7 @@ vérifiée (HOME_CHANNEL) avec une correction narrée mais non appliquée (cron)
 — sans que rien, ni dans la rédaction ni dans la relecture avant commit, ne
 distingue les deux. C'est la troisième occurrence en 48h du même motif « deux
 gestes distincts » déjà nommé par cette fiche elle-même en §6 (Sceau/prompt
-écrit ≠ configuration H‍ermes opérée) et par la fiche du 2026-08-16
+écrit ≠ configuration Hermes opérée) et par la fiche du 2026-08-16
 (`activation-salon-infrastructure-studio-2026-08-16.md`, création de salon
 Discord ≠ autorisation allowlist) — mais ici la fiche prescrit explicitement
 la vérification qui aurait détecté l'anomalie (§6.3 : « vérifier
@@ -462,7 +462,7 @@ vérification mécanique indépendante n'a précédé la clôture de cette passe
 malgré la consigne explicite qu'elle contient.
 
 Constat périphérique corroborant le même diagnostic plus large (angle mort de
-continuité entre les trois surfaces agentiques — Claude Code, H‍ermes Terminal,
+continuité entre les trois surfaces agentiques — Claude Code, Hermes Terminal,
 agents Discord) : la fiche `activation-salon-infrastructure-studio-2026-08-16.md`,
 commitée le 2026-08-16 (commit `954712f`) et référencée en lien par la fiche
 du 17, réapparaît en `git status` comme fichier non tracké (`??`) dans l'arbre
@@ -475,7 +475,7 @@ n'a été faite (Cmd 6). Options possibles à trancher par Sidy, non appliquées
 (a) créer effectivement le job cron `monitoring-infrastructure-quotidien` tel
 que décrit dans la fiche du 17 ; (b) ajouter, à `detecter-non-tracke.py` ou à
 un nouveau script `rd/outillage/`, un contrôle de réconciliation déterministe
-doc↔runtime (cron H‍ermes déclarés vs `cron list` réel par profil, allowlists
+doc↔runtime (cron Hermes déclarés vs `cron list` réel par profil, allowlists
 `.env` vs salons cités dans les fiches `infrastructure/`), exécuté par le cron
 quotidien lui-même et rapporté en `#infrastructure` ; (c) exiger qu'aucune
 fiche `infrastructure/` ne soit commitée sans coller la sortie brute de la
@@ -509,7 +509,7 @@ donc pas de « deux copies du dépôt qui divergent » : la fiche a été écrit
 disque le 2026-08-16 mais jamais `git add`ée/commitée, alors que la fiche du
 17 la référençait déjà en lien comme si elle existait dans l'historique —
 même écart doc↔runtime que celui documenté ci-dessus, à la couche git plutôt
-qu'à la couche H‍ermes. `detecter-non-tracke.py` l'aurait signalée (elle
+qu'à la couche Hermes. `detecter-non-tracke.py` l'aurait signalée (elle
 figure dans son périmètre `atelier/`) : soit il n'a pas tourné entre le 16 et
 aujourd'hui, soit son signalement n'a pas été traité. Corrigée dans le même
 commit que la présente entrée (`aae8660`) : la fiche est désormais commitée
@@ -975,11 +975,11 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
 
 - **Symptôme** : le §III.1 de `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md` 
   avait tranché (2026-08-11 séance) que la veille infrastructure serait portée par une 
-  routine côté poste INTÉGRATION (cohérent avec le statu quo du cloisonnement H‍ermes, 
+  routine côté poste INTÉGRATION (cohérent avec le statu quo du cloisonnement Hermes, 
   accès FS restreint). Une proposition de mécanisme (webhook Discord + script Python 
   orchestré par poste INTÉGRATION) a été rédigée sur cette base. Sidy a demandé la 
   même journée de rouvrir ce point.
-- **Diagnostic** : Sidy relie ce chantier à l'extension de rôle des 12 agents H‍ermes 
+- **Diagnostic** : Sidy relie ce chantier à l'extension de rôle des 12 agents Hermes 
   sur calibrage zodiacal et demande que la veille soit portée par « l'agent le plus 
   approprié » de la roue. Cartographie effectuée (agent Explore) : aucun des 12 rôles 
   n'est dédié à l'infrastructure informatique. Le seul rôle à registre technique/matériel 
@@ -993,7 +993,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   Nouveau verdict inscrit sous bloc « Réouverture (2026-08-11) ». Accès FS/exécution 
   accordé au Studio Sound Engineer pour les scripts déterministes 
   (`verifier-invariants.py`, `Graphe/generer-cartographie.py --verifier`, 
-  `detecter-non-tracke.py`, relevé serveur) — le cloisonnement H‍ermes ne bloque plus 
+  `detecter-non-tracke.py`, relevé serveur) — le cloisonnement Hermes ne bloque plus 
   ce chantier (statu quo levé). Le mécanisme technique proposé au §VI (webhook+script 
   poste INTÉGRATION) devient obsolète ; un nouveau mécanisme doit être instruit 
   séparément (dépend de la résolution du chantier d'accès FS). Règle du §III.3 
@@ -1051,7 +1051,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   réouverture du §III.1. Reste à définir la gouvernance de cet accès et le
   mécanisme de post du rapport composé par l'agent.
 - **Diagnostic** : Sidy accorde explicitement l'accès FS (cloisonnement
-  H‍ermes levé sur ce point, statu quo rompu) ; définit la gouvernance :
+  Hermes levé sur ce point, statu quo rompu) ; définit la gouvernance :
   régime strict par défaut (demande Discord → validation Sidy → exécution),
   auto-accept mode optionnel activable ad hoc par Sidy pour une période
   donnée (similaire au mode auto-accept du plan de Claude Code), qui se
@@ -1082,8 +1082,8 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
 ## [2026-08-11] ouvert | Phase 3 (agent de veille infrastructure) — §III.1 rouvert, veille réattribuée au Studio Sound Engineer
 
 - **Symptôme** : Sidy relie explicitement le chantier phase 3 (déjà tranché
-  §III.1 : routine poste INTÉGRATION, pas d'agent H‍ermes dédié) au chantier
-  distinct de l'extension de rôle des 12 agents H‍ermes sur calibrage
+  §III.1 : routine poste INTÉGRATION, pas d'agent Hermes dédié) au chantier
+  distinct de l'extension de rôle des 12 agents Hermes sur calibrage
   zodiacal (fiches `meta/projet-unifie/16-...`, `17-...`) et demande que la
   veille infrastructure soit attribuée à « l'agent le plus approprié » de la
   roue — rouvrant de fait un point déjà consigné comme tranché.
@@ -1104,7 +1104,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   §VI (le mécanisme webhook+script proposé pour l'ancien verdict est à son
   tour rouvert, motivé explicitement par l'ancien §III.1). §III.3
   (signalement Discord seul, jamais d'écriture directe) et le §IV (risque
-  d'un agent H‍ermes en écriture) restent inchangés — la réattribution ne les
+  d'un agent Hermes en écriture) restent inchangés — la réattribution ne les
   rouvre pas.
 - **Compréhension tirée** : une réouverture explicite d'un point déjà tranché
   doit être *tracée* à côté de l'ancien verdict, jamais silencieusement
@@ -1112,12 +1112,12 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   une décision qui rouvre un point en entraîne d'autres en cascade (ici, le
   mécanisme du §VI) qu'il faut nommer explicitement plutôt que laisser
   incohérents. Point technique non résolu : le Studio Sound Engineer a
-  besoin d'un accès FS/exécution que le cloisonnement H‍ermes actuel (statu
+  besoin d'un accès FS/exécution que le cloisonnement Hermes actuel (statu
   quo, retour d'expérience en cours) ne lui accorde pas nécessairement —
   chantier distinct, à instruire séparément avant toute écriture de prompt.
 - **Liens** : [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|proposition phase 3]]
 - **Statut** : `ouvert` — désignation de l'agent tranchée par Sidy ; restent
-  à instruire séparément : le chantier FS/accès H‍ermes, le nouveau mécanisme
+  à instruire séparément : le chantier FS/accès Hermes, le nouveau mécanisme
   technique de post, et l'extension effective du prompt
   (`hermes-prompts/09-studio-sound-engineer.md`), aucun acte non exécuté ici
   (Cmd 6).
@@ -1139,7 +1139,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   §VI) — format en 5 sections (en-tête, résumé `verifier-invariants.py`,
   résumé `Graphe/generer-cartographie.py --verifier`,
   `detecter-non-tracke.py`, empreinte serveur, suggestions) ; mécanisme =
-  webhook Discord simple (pas de bot/agent H‍ermes, cohérent §III.1) + script
+  webhook Discord simple (pas de bot/agent Hermes, cohérent §III.1) + script
   Python dédié, URL du webhook en configuration locale hors dépôt (§VIII.5).
   Régime `statut_experience: exploratoire` (§V.a de CLAUDE.md) explicitement
   invoqué pour qualifier cette proposition — non un choix figé. Écriture
@@ -1198,7 +1198,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
 - **Résolution** : fréquence **quotidienne** consignée dans la note
   (`_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`,
   §VI), cohérente avec le « Rapport du matin » déjà envisagé côté
-  H‍ermes/gardien (`meta/projet-unifie/04-sessions-par-fonction-et-backlogs.md`).
+  Hermes/gardien (`meta/projet-unifie/04-sessions-par-fonction-et-backlogs.md`).
   L'heure précise reste à instruire à l'écriture du script cron.
 - **Compréhension tirée** : néant — décision directe, sans tension à
   documenter.
@@ -1242,12 +1242,12 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   (planifiée ou lancée par Sidy) et le canal Discord de signalement.
 - **Diagnostic** : la recherche du canal a révélé un décalage de sens —
   `#gardien`, seul canal étiqueté « Vigie transversale » dans le tableau des
-  12 profils H‍ermes, a en réalité un mandat doctrinal/éthique (conformité
+  12 profils Hermes, a en réalité un mandat doctrinal/éthique (conformité
   des actes commerciaux du label à la doctrine du don, vérifié dans
   `meta/projet-unifie/hermes-prompts/10-protocol-guardian.md`) et non
   technique — aucun des 5 canaux Discord actifs n'a de mandat infrastructure.
   Aucun mécanisme de cron n'existe aujourd'hui côté INTÉGRATION (seul le
-  gateway H‍ermes en a un, via `DISCORD_HOME_CHANNEL`).
+  gateway Hermes en a un, via `DISCORD_HOME_CHANNEL`).
 - **Résolution** : arbitrage Sidy — déclencheur **planifié par cron** (assumé
   malgré la nouvelle surface ouverte, close par construction puisque la
   routine ne fait que signaler sur Discord, jamais écrire au dépôt) ; canal
@@ -1258,7 +1258,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   nom de canal, fréquence, contenu du rapport et mécanisme de post comme
   points encore ouverts).
 - **Compréhension tirée** : une étiquette de tableau (« Vigie transversale »)
-  ne vaut pas mandat vérifié — le prompt réel d'un agent H‍ermes fait foi,
+  ne vaut pas mandat vérifié — le prompt réel d'un agent Hermes fait foi,
   pas sa description sommaire dans une fiche d'architecture. À vérifier
   systématiquement avant de réutiliser un canal ou un agent existant pour un
   usage nouveau.
@@ -1284,7 +1284,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   d'écrire, sans trancher à la place de Sidy — qui a motivé une reprise du
   verdict.
 - **Résolution** : verdicts Sidy du 2026-08-11 — (1) routine côté poste
-  INTÉGRATION, pas d'agent H‍ermes dédié ; (2) périmètre = les 3 scripts
+  INTÉGRATION, pas d'agent Hermes dédié ; (2) périmètre = les 3 scripts
   déterministes **et** la mesure d'empreinte serveur (récurrence de la
   mesure laissée en chantier séparé) ; (3) signalement via un canal Discord
   existant, jamais d'écriture directe dans ce registre — écarte du même
@@ -1311,7 +1311,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   remote `origin` en HTTPS+PAT, pour permettre à Obsidian Git de push/pull en
   autonomie sans détour par Working Copy) — question posée le 2026-08-09 sans
   verdict consigné.
-- **Diagnostic** : l'avis technique H‍ermes du 2026-08-09 (déjà rapporté dans
+- **Diagnostic** : l'avis technique Hermes du 2026-08-09 (déjà rapporté dans
   la fiche) penchait pour le statu quo — clé SSH déjà en place des deux côtés,
   n'expirant pas, contre un PAT qui introduit un secret supplémentaire à créer
   et renouveler. Aucun élément nouveau ne renversait cet avis.
@@ -1400,7 +1400,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
      aurait évité le geste plutôt que de le corriger après coup.
   3. **Troisième occurrence du même piège de chiffre non revérifié dans ce
      registre** (cf. entrées [2026-08-09] \"Bug de résolution... 89
-     annoncées, 81 réelles\" et \"self-report H‍ermes... 317 vs 89\") : un
+     annoncées, 81 réelles\" et \"self-report Hermes... 317 vs 89\") : un
      chiffre porté par une consigne, une annale ou un rapport antérieur ne
      doit jamais être pris comme fiable sans reconfirmation directe
      (`grep`/relecture) au moment de l'exécution — la dérive de comptage
@@ -1713,7 +1713,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
 
 ## [2026-08-09] resolu | Bug de résolution des liens entrants dans carte-du-depot.py (89 orphelines annoncées, 81 réelles) + traitement du lot non sensible
 
-- **Symptôme** : suite à la clôture de l'épisode H‍ermes (entrée précédente),
+- **Symptôme** : suite à la clôture de l'épisode Hermes (entrée précédente),
   instruction de traiter les 89 fiches sans lien entrant listées en §VI de
   `meta/carte-du-depot.md`. Avant tout traitement, vérification individuelle
   d'un échantillon des 89 : `meta/genealogie/2026-06-20_signature-kouyate` est
@@ -1773,7 +1773,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   avertissement (inchangé, le correctif ne touche que la carte dérivée,
   jamais les invariants structurels). Chiffre définitif retenu : **80**
   orphelines réelles.
-- **Compréhension tirée** : le même piège que le self-report H‍ermes s'applique
+- **Compréhension tirée** : le même piège que le self-report Hermes s'applique
   à un artefact du dépôt lui-même — un chiffre produit par un script n'est
   fiable qu'après lecture de son mécanisme de calcul, pas seulement de sa
   sortie. Avant tout traitement de masse sur un signalement chiffré (« N
@@ -1789,7 +1789,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   `par_nom` + repli nom de fichier final) ; `meta/carte-du-depot.md`
   (régénéré 2026-08-09, §VI, 80 orphelines) ; `atelier/rd/index.md` (2
   wikilinks ajoutés) ; entrée précédente du présent registre (self-report
-  H‍ermes) pour le fil de l'investigation ; anomalie frontmatter du
+  Hermes) pour le fil de l'investigation ; anomalie frontmatter du
   2026-08-08 pour le recoupement `hermes-prompts/*`.
 - **Statut** : `resolu` pour le lot C traité, le bug de script diagnostiqué
   et corrigé ; `ouvert` implicitement pour les lots sensibles restants (80
@@ -1798,7 +1798,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
 
 ---
 
-## [2026-08-09] resolu | Self-report H‍ermes Agent erroné sur le maillage wikilinks (317/403 annoncés vs 89/390 réels)
+## [2026-08-09] resolu | Self-report Hermes Agent erroné sur le maillage wikilinks (317/403 annoncés vs 89/390 réels)
 
 - **Symptôme** : constat visuel sur la Vue graphique Obsidian (iPad, 2026-08-09) —
   un large anneau de points quasi sans liens, dont cinq fiches-sources
@@ -1807,7 +1807,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   `guenon-symbolisme-croix-ch4-directions-espace`,
   `guenon-kundalini-yoga-etudes-hindouisme`,
   `ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `sept-etendards-califat`.
-  Interrogé côté serveur sur ce constat, H‍ermes Agent a répondu par un
+  Interrogé côté serveur sur ce constat, Hermes Agent a répondu par un
   self-report : « 317 fiches sur 403 sans lien entrant », répartition par
   circuit (doctrinal 151, meta 95, atelier 44, label 12, hermeneutique 9),
   et une explication selon laquelle le protocole relierait les fiches par
@@ -1824,14 +1824,14 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   `cross_links`/`sources` renseignés conformément au Sceau Recteur (§IV) et
   des liens entrants réels et multiples (`doctrinal/index.md`,
   `doctrinal/annales.md`, et jusqu'à 15 fichiers citants pour la fiche
-  Ibn ʿArabī/Gloton). L'explication d'H‍ermes (maillage hors wikilinks) est donc
+  Ibn ʿArabī/Gloton). L'explication d'Hermes (maillage hors wikilinks) est donc
   réfutée par les faits sur le cas précis qui l'a motivée : le mécanisme
   `sources`/`cross_links` en wikilinks, tel que défini par le protocole,
   fonctionne correctement pour ces cinq fiches.
 - **Résolution** : aucune correction de maillage nécessaire — il n'y avait
   pas de défaut réel sur les fiches à l'origine du constat. Le déficit
   mécanique véritable (89/390 fiches sans lien entrant) reste réel mais d'un
-  ordre de grandeur très différent de l'annonce d'H‍ermes, concentré
+  ordre de grandeur très différent de l'annonce d'Hermes, concentré
   principalement dans `meta/personnel/`, `meta/projet-unifie/`,
   `meta/genealogie/`, `meta/transmissions/` et les stubs `deprecated` de la
   migration `rd/` (orphelinage volontaire, non anormal) — traitement séparé,

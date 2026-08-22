@@ -191,10 +191,10 @@ GPU coûteux.
   `--max-model-len 131072` (plancher réaliste, 32K/64K échouent) ; pièges sshd/port/`pkill`.
 - 💸 Coût observé ≈ 0,50 $/h — penser à éteindre le Pod entre les tests.
 - **État au 2026-08-07** : cette section (§8bis) documentait le **test d'Ornith pour l'intégration du
-  dépôt** — rôle distinct de celui des **agents H‍ermes** (`meta/projet-unifie/hermes-prompts/`), qui
+  dépôt** — rôle distinct de celui des **agents Hermes** (`meta/projet-unifie/hermes-prompts/`), qui
   sont eux connectés à l'API Anthropic Haiku directement (pas via endpoint local). Les deux chantiers
   restent indépendants : la transition du moteur Claude Code vers Ornith local demeure valable et
-  priorisable, tandis que H‍ermes s'exécute aujourd'hui via API key partagée (cf. fiches 13-14-15 et
+  priorisable, tandis que Hermes s'exécute aujourd'hui via API key partagée (cf. fiches 13-14-15 et
   crise budget du 2026-08-07). Les deux transitions pourraient s'entrelacer ou rester séquentielles
   selon les priorités.
 

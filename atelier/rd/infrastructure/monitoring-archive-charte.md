@@ -26,7 +26,7 @@ surveille).
 ## Contenu du dossier
 
 `atelier/rd/infrastructure/monitoring-archive/<YYYY-MM-DD>_<job_id>.txt` —
-une copie par exécution du job H‍ermes `monitoring-infrastructure-quotidien`
+une copie par exécution du job Hermes `monitoring-infrastructure-quotidien`
 (profil `studio`, id `41dc3e7e492c`), format `.txt` **délibérément**, jamais
 `.md` (raison détaillée : [[atelier/rd/outillage/spec-archiver-monitoring-quotidien]]
 §3 — le rapport cite des tokens `[[...]]` littéraux qui feraient s'auto-
@@ -37,12 +37,12 @@ du dépôt, mais un journal technique brut.
 ## Alimentation
 
 Script déterministe [[atelier/rd/outillage/spec-archiver-monitoring-quotidien|
-archiver-monitoring-quotidien.py]] : copie ce que H‍ermes a déjà persisté sur
+archiver-monitoring-quotidien.py]] : copie ce que Hermes a déjà persisté sur
 disque (`/root/.hermes/profiles/studio/cron/output/`), sans toucher au job de
 production ni à Discord. Purge les copies au-delà de 40 jours.
 
 **Ingestion — cron dédié, mis en place le 2026-08-18** (feu vert Sidy en
-session : « tu as le feu vert pour tout rétablir »). Job H‍ermes créé, profil
+session : « tu as le feu vert pour tout rétablir »). Job Hermes créé, profil
 `studio` : `archiver-monitoring-quotidien` (id `5eb46eed6ba0`, `no_agent`,
 cron `10 12 * * *` — 10 minutes après `monitoring-infrastructure-quotidien`,
 pour que la sortie `.txt` du jour soit déjà persistée sur disque au moment
@@ -65,13 +65,13 @@ absolue** : tout fichier commité dans git avant sa purge reste retrouvable
 indéfiniment dans l'historique du dépôt — la purge allège l'arborescence
 courante, elle n'efface rien de versionné.
 
-## Note — job H‍ermes `coherence-infrastructure-brute` réparé (2026-08-18)
+## Note — job Hermes `coherence-infrastructure-brute` réparé (2026-08-18)
 
 Découvert cassé en investiguant le job monitoring pour cette tâche (script
-introuvable au chemin que H‍ermes résout pour un job `no_agent`), puis
+introuvable au chemin que Hermes résout pour un job `no_agent`), puis
 réparé le même jour (feu vert Sidy) via une enveloppe symétrique à celle
 ci-dessus — `atelier/rd/outillage/verifier-coherence-infrastructure-cron.sh`
-— après qu'un premier remède par lien symbolique a été rejeté par H‍ermes
+— après qu'un premier remède par lien symbolique a été rejeté par Hermes
 lui-même (garde-fou de résolution de chemin canonique), puis qu'une copie
 réelle sans enveloppe a révélé un second défaut, plus grave : un faux
 succès silencieux (0 affirmation vérifiée au lieu de 3, `--racine` non

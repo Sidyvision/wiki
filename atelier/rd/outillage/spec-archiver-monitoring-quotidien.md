@@ -19,13 +19,13 @@ links: ["[[atelier/rd/infrastructure/monitoring-archive-charte]]", "[[atelier/rd
 
 ## 1. Problème traité
 
-Le job H‍ermes `monitoring-infrastructure-quotidien` (profil `studio`, cron
+Le job Hermes `monitoring-infrastructure-quotidien` (profil `studio`, cron
 `0 12 * * *`) livre son rapport uniquement sur Discord (canal
 `#infrastructure`) — aucune trace n'en subsiste dans le dépôt. Un rapport
 manqué, un incident Discord, ou simplement le besoin de relire l'historique
 sur plusieurs jours n'a aujourd'hui aucun support hors du canal lui-même.
 
-**Constat mécanique (2026-08-18)** : H‍ermes persiste déjà chaque exécution de
+**Constat mécanique (2026-08-18)** : Hermes persiste déjà chaque exécution de
 job cron sur disque, indépendamment du canal de livraison — deux copies par
 run, `.txt` et `.md`, sous
 `/root/.hermes/profiles/<profil>/cron/output/`. Ce script n'a donc **aucune
@@ -44,7 +44,7 @@ atelier/rd/outillage/archiver-monitoring-quotidien.py \
     [--retention-jours 40] [--appliquer]
 ```
 
-1. Liste les sorties `.txt` du job `--job-id` déjà écrites par H‍ermes dans
+1. Liste les sorties `.txt` du job `--job-id` déjà écrites par Hermes dans
    `--source` (motif de nom `<job_id>_<YYYYMMDD>_<HHMMSS>.txt`).
 2. Compare à ce qui est déjà présent dans `--archive` (motif
    `<YYYY-MM-DD>_<job_id>.txt`) ; ne copie que le manquant (idempotent).
@@ -75,7 +75,7 @@ cartographie des liens ni les invariants.
 
 ## 4. Ce que le script ne fait pas
 
-- Ne modifie ni ne lit le job H‍ermes `monitoring-infrastructure-quotidien`
+- Ne modifie ni ne lit le job Hermes `monitoring-infrastructure-quotidien`
   lui-même (aucune édition de cron en production — modification d'un agent
   vivant hors du périmètre de ce script, Cmd 13).
 - Ne stage ni ne commite l'archive dans git ; l'humain (ou une session
@@ -88,7 +88,7 @@ cartographie des liens ni les invariants.
   purge allège l'arborescence courante, elle n'efface pas la trace versionnée.
 - Ne déclenche rien lui-même : l'automatisation (ouverte le 2026-08-18, cf.
   `atelier/rd/infrastructure/monitoring-archive-charte.md`, §« Ingestion »)
-  vit dans un job cron H‍ermes dédié qui appelle une enveloppe
+  vit dans un job cron Hermes dédié qui appelle une enveloppe
   (`archiver-monitoring-quotidien-cron.sh`, args fixés en dur — un job
   `no_agent` ne transmet aucun argument à son `--script`), jamais dans une
   modification de ce script lui-même.
@@ -99,7 +99,7 @@ L'hypothèse de départ (avant vérification) était d'étendre le prompt du job
 `monitoring-infrastructure-quotidien` pour qu'il écrive lui-même une copie
 datée dans l'archive, en plus de la livraison Discord — modification d'un
 job de production en cours d'exécution quotidienne réussie (`last_status:
-"ok"`, 2 exécutions). Cette piste est abandonnée après constat que H‍ermes
+"ok"`, 2 exécutions). Cette piste est abandonnée après constat que Hermes
 persiste déjà la sortie complète sur disque sans qu'aucune modification du
 job ne soit nécessaire : ce script se branche sur une donnée déjà produite,
 zéro risque pour le job vivant.
@@ -115,13 +115,13 @@ LLM), s'est révélé **en échec systématique depuis sa création** (`last_sta
 /root/.hermes/profiles/studio/scripts/verifier-coherence-infrastructure.py`
 — le script réel vit dans le dépôt
 (`atelier/rd/outillage/verifier-coherence-infrastructure.py`), pas dans le
-dossier `scripts/` du profil H‍ermes que `--script` résout implicitement pour
+dossier `scripts/` du profil Hermes que `--script` résout implicitement pour
 un job `no_agent`. Ce job n'était documenté nulle part dans le dépôt (absent
 de la fiche `activation-monitoring-studio-cron-2026-08-17.md`).
 
 Réparé le même jour, feu vert Sidy en session (« tu as le feu vert pour tout
 rétablir »), en deux temps — un lien symbolique d'abord tenté a été rejeté
-par H‍ermes lui-même (chemin canonique résolu hors du dossier `scripts/` du
+par Hermes lui-même (chemin canonique résolu hors du dossier `scripts/` du
 profil), puis une copie réelle a révélé un second défaut plus grave qu'un
 échec visible : un faux succès silencieux (`last_status: "ok"` alors que le
 script, privé de `--racine`, vérifiait 0 affirmation au lieu de 3). Les deux

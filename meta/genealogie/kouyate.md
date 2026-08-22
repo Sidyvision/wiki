@@ -1,11 +1,11 @@
 ---
 title: Lignée Kouyaté (côté paternel)
 type: meta
-tags: [genealogie, famille, kouyate, griot, tradition-orale]
+tags: [genealogie, famille, kouyate, griot, tradition-orale, spiritualite, tijaniyya]
 created: 2026-08-10
-updated: 2026-08-10
+updated: 2026-08-22
 sources: []
-links: ["[[meta/genealogie/sidy-lamine-kouyate]]", "[[meta/genealogie/2026-06-20_oiseau-serpent-jumeau]]", "[[meta/genealogie/2026-06-20_signature-kouyate]]", "[[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]]", "[[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]]"]
+links: ["[[meta/genealogie/sidy-lamine-kouyate]]", "[[meta/genealogie/2026-06-20_oiseau-serpent-jumeau]]", "[[meta/genealogie/2026-06-20_signature-kouyate]]", "[[meta/genealogie/samballa-kouyate]]", "[[meta/genealogie/fanta-nna-diabate]]", "[[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]]", "[[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]]"]
 ---
 
 # Lignée Kouyaté (côté paternel)
@@ -40,6 +40,8 @@ de l'infographie transmise pour le côté Sissoko.
   posée dans cette fiche sur les rapprochements ultérieurs (totem familial
   africain, *kuṇḍalinī*, *Dābbat al-Arḍ* coranique) — non retenus comme
   équivalence établie.
+- **Grand-père paternel : [[meta/genealogie/samballa-kouyate|Samballa Kouyaté]]** — être mystérieux, séclusion dans sa chambre pendant des années, ouvertures spirituelles effectives (Fath reçu une nuit de Laylatul Qadr pendant qu'il donnait une leçon dans la rue devant sa porte d'entrée), compagnon invisible (Ruhan, pas Jinn). Voir [[meta/genealogie/samballa-kouyate]] pour le détail.
+- **Lien spirituel de Samballa** : via **Sheikh Fanta-Madi Chérif** — lien à la **Tijaniyya** sans rattachement formel attesté. C'est ce même Sheikh Fanta-Madi qui a trouvé sa femme, **[[meta/genealogie/fanta-nna-diabate|Fanta « Nna » Diabaté]]** (grand-mère paternelle de Sidy).
 
 ## Ce qui manque
 
@@ -48,6 +50,14 @@ Sidy) n'a été transmis pour cette lignée à ce jour, contrairement au côté
 maternel. Fiche à compléter si une source (orale ou documentaire) devient
 disponible — suivre la même discipline de sourçage que le reste de
 `meta/genealogie/`.
+
+## Fait structurel
+
+Il y a une dissociation dans la lignée Kouyaté entre :
+- **Rattachement formel** (silsila, transmission par un Sheikh humain) — non attesté pour Samballa.
+- **Ouverture effective** (Fath, qui peut venir autrement) — clairement attestée pour Samballa (Fath reçu une nuit de Laylatul Qadr).
+
+Samballa avait le second sans le premier (ou du moins sans que ce soit formellement attesté). Cette dissociation est un fait structurel important pour la trame spirituelle de Sidy.
 
 ## Notes
 

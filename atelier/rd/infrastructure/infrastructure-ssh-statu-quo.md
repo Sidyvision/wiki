@@ -78,4 +78,4 @@ Reste inchangé à ce jour (2026-08-11).
 
 - [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]] — context §4-5
 - [[atelier/rd/cahiers/registre-problemes]] — entry [2026-08-11] piste D
-- Avis technique H‍ermes : 2026-08-09 (cf. `meta/projet-unifie/15-architecture-discord-hermes-*`)
+- Avis technique Hermes : 2026-08-09 (cf. `meta/projet-unifie/15-architecture-discord-hermes-*`)

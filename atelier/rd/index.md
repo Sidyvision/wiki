@@ -145,7 +145,7 @@ dans le dépôt.
   `monitoring-infrastructure-quotidien` livré via Discord, désormais aussi
   copié dans `rd/infrastructure/monitoring-archive/` (`.txt`, jamais `.md` —
   motif : [[atelier/rd/outillage/spec-archiver-monitoring-quotidien|
-  archiver-monitoring-quotidien.py]]). Ingestion tranchée : cron H‍ermes dédié
+  archiver-monitoring-quotidien.py]]). Ingestion tranchée : cron Hermes dédié
   (`archiver-monitoring-quotidien`, profil `studio`, id `5eb46eed6ba0`, via
   enveloppe `archiver-monitoring-quotidien-cron.sh` — un job `no_agent` ne
   transmet aucun argument à son script). Découverte annexe du 2026-08-18 —

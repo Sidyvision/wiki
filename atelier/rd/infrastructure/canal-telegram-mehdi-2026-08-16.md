@@ -24,9 +24,9 @@ mais un dépôt depuis un téléphone (note vocale retranscrite, photo, remarque
 courte) sans ouvrir de session SSH est un usage distinct, plus léger. Deux
 options techniques ont été examinées :
 
-- Activer Telegram sur le profil H‍ermes `karubi` existant (celui que Sidy
+- Activer Telegram sur le profil Hermes `karubi` existant (celui que Sidy
   utilise pour le G0 de la navette Karūbī) : **écartée**. Vérifié cette
-  session : les 12 gateways H‍ermes en production tournent tous en
+  session : les 12 gateways Hermes en production tournent tous en
   `systemctl --user` **sous root** (confirmé par `systemctl --user list-units`
   exécuté en tant que root, sans bascule `-M`). Le profil `karubi` a
   `terminal.cwd: /root/wiki` — le dépôt entier. Y brancher l'allowlist
@@ -41,7 +41,7 @@ options techniques ont été examinées :
 
 ## 2. Solution retenue
 
-**Nouveau profil H‍ermes dédié, exécuté comme service système sous le compte
+**Nouveau profil Hermes dédié, exécuté comme service système sous le compte
 `mehdi`** (uid 1000) — pas sous root, contrairement aux 12 profils existants.
 
 - `hermes gateway install --system --run-as-user mehdi` (option confirmée par
@@ -133,7 +133,7 @@ Une fois ces étapes faites :
 - **Persona dupliquée entre deux points d'entrée** : Habib existe maintenant
   sous deux formes indépendantes pour Mehdi — la session Claude Code Terminal
   (`/home/mehdi/CLAUDE.md`, invoquée manuellement) et ce nouveau profil
-  H‍ermes Telegram (`habib-mehdi`, toujours actif en tâche de fond). Elles
+  Hermes Telegram (`habib-mehdi`, toujours actif en tâche de fond). Elles
   partagent le même périmètre de lecture/écriture (même compte Unix) mais
   sont deux instances distinctes, sans mémoire partagée entre elles — à
   signaler à Mehdi pour éviter toute confusion (« ce que je te dis sur

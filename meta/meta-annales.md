@@ -16,12 +16,33 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 ---
 
+## [2026-08-22] ventilation | Fiche interview trame spirituelle → fiches distinctes
+
+- **Directive Sidy** : organiser la fiche `_inbox/interview-sidy-trame-spirituelle-corrections-2026-08-18.md` en ventilant son contenu vers les fiches canoniques de `meta/`, selon les conventions (une page = un sujet, nomenclature ASCII minuscules + tirets, frontmatter conforme).
+- **Fiches créées** (3 nouvelles) :
+  - `meta/genealogie/samballa-kouyate.md` : grand-père paternel, séclusion, Fath, Ruhan, lien Tijaniyya via Sheikh Fanta-Madi.
+  - `meta/genealogie/fanta-nna-diabate.md` : grand-mère paternelle, mariage arrangé par Sheikh Fanta-Madi.
+  - `meta/personnel/2026-08-18_initiation-virtuelle.md` : définition personnelle de l'initiation virtuelle (Sidy).
+- **Fiches enrichies** (2 existantes) :
+  - `meta/personnel/sidy.md` : ajout sections convalescence post-khalwa, rattachement Tijaniyya (Bamako, Fès), pratique actuelle, arc Kaaba (Lefke, visions, Omra, insight), double protecteur, synchronicité Leila Abdelwahid, rêve Yannick Doumouya, incandescence du manque amoureux.
+  - `meta/genealogie/kouyate.md` : ajout Samballa Kouyaté, Sheikh Fanta-Madi Chérif, dissociation rattachement formel vs ouverture effective.
+  - `meta/genealogie/mamadou-doudou-sissoko.md` : ajout Sheikh Sidy-Lamine Kunta (Qadiriyya-Kunta).
+- **Hub `meta-index.md`** : référencement des 3 nouvelles fiches + mise à jour des liens généalogie.
+- **Fiche `_inbox/`** : supprimée après ventilation complète (contenu intégralement redistribué).
+- **En attente de verdict** (non versé) :
+  - §3 (lecture transversale chiasme) : lecture herméneutique Sidy, pas encore versée.
+  - §15 (incandescence du manque amoureux — réponse à la question) : en attente de réponse.
+  - Ruhan (concept doctrinal) : signalé, non versé sans verdict.
+- **Commit** : en cours.
+
+---
+
 ## [2026-08-16] extension | Canal Telegram Mehdi (habib-mehdi) + mandat veille agent 09
 
 - Statut Telegram passé de « non activé » à 13e profil `habib-mehdi` préparé
   (isolation OS, service système sous `mehdi`) dans
   `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md` (§5bis).
-- Mandat de l'agent 09 étendu à un registre H‍ermes-Terminal (bind mounts,
+- Mandat de l'agent 09 étendu à un registre Hermes-Terminal (bind mounts,
   santé gateways, staleness `_inbox/`) dans
   `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md`.
 - `meta/transmissions/registre-silsila.md` : entrées `extension-canal` et
@@ -42,7 +63,7 @@ Les quatre prérequis de mise en service de
 réunis : script d'intégration en service, dossier `brouillons-section4/`
 créé, verdict de Sidy obtenu (validation du lot du 2026-08-15), canal de
 déclenchement défini. Choix retenu pour ce dernier point : le rôle ne
-construit **pas** de sub-agent H‍ermes isolé dédié — il s'exécute côté Claude
+construit **pas** de sub-agent Hermes isolé dédié — il s'exécute côté Claude
 Code, qui dispose déjà nativement de la lecture des hubs `index.md`/`annales.md`
 des cinq circuits. Phrase de déclenchement exacte, jamais déduite d'une
 mention fortuite : `karubi brouillon s4 <destinataire>`. Statut de la fiche
@@ -54,17 +75,17 @@ rôle-ci) — séparation stricte inchangée (tableau § du même fichier).
 
 - **Commit** : b43911c
 
-## [2026-08-15] actualisation | Clause d'ordre ontologique instruite dans le profil H‍ermes-Karūbī
+## [2026-08-15] actualisation | Clause d'ordre ontologique instruite dans le profil Hermes-Karūbī
 
-Sidy a décidé de s'immerger sans restriction dans l'écosystème H‍ermes (profil
+Sidy a décidé de s'immerger sans restriction dans l'écosystème Hermes (profil
 `karubi`, mémoire activée, périmètre `/root/wiki` complet) pour en sonder les
 fonctionnalités et limites — décision propre, assumée, non une incohérence à
 corriger (cf. `atelier/rd/cahiers/bilan-2026-08-15-pont-agents.md`). Contrepartie :
-audit/monitoring continu confié à Claude Code sur ce qui se fait côté H‍ermes
+audit/monitoring continu confié à Claude Code sur ce qui se fait côté Hermes
 Terminal, et application immédiate de la clause d'ordre ontologique explicite déjà
 normée pour les 12 prompts d'agents (`meta/CLAUDE.md` corollaire agentique,
 `doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle`)
-au périmètre H‍ermes-Karūbī spécifiquement.
+au périmètre Hermes-Karūbī spécifiquement.
 
 Fichiers modifiés (hors dépôt git, `/root/.hermes/profiles/karubi/` — hors
 discipline de commit, documenté ici pour traçabilité) :
@@ -86,11 +107,11 @@ Registre spirituel confirmé hors du champ d'appréciation de l'agent en toute
 circonstance (Cmd 2/12) — ce geste organise et structure, il ne tranche rien.
 Suite (déférée par Sidy) : définition du canal de déclenchement explicite pour
 le rôle G0 de brouillon §4 (prérequis 4 de
-`meta/projet-unifie/h‍ermes-skills/spec-skill-karubi-actualisation-g0.md`).
+`meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0.md`).
 
 - **Commit** : 0ac52e4
 
-## [2026-08-15] activation | 12 prompts H‍ermes activés avec la table zodiacale révisée
+## [2026-08-15] activation | 12 prompts Hermes activés avec la table zodiacale révisée
 
 Activation complète en production (`meta/projet-unifie/hermes-prompts/`) de la
 réallocation des 12 correspondances signe↔fonction validée par Sidy le même jour

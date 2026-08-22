@@ -78,7 +78,7 @@ citing each script's raw stdout — never a paraphrase:
 - `atelier/rd/outillage/verifier-coherence-infrastructure.py` — added
   2026-08-17, **anti-fabulation control**: confronts the `infra_verif`
   frontmatter block of `atelier/rd/infrastructure/*.md` fiches against live
-  H‍ermes/Discord state (`hermes cron list --all`, profile `.env` files).
+  Hermes/Discord state (`hermes cron list --all`, profile `.env` files).
   Motive: `atelier/rd/cahiers/registre-problemes.md`, entry `[2026-08-17]` —
   a fiche once narrated a cron job's creation that the runtime never actually
   had, undetected until a manual `cron list`. Its output goes into the daily
@@ -92,7 +92,7 @@ citing each script's raw stdout — never a paraphrase:
 - Server footprint (RAM/disk/swap) — simple snapshot, same shape as
   `atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11.md`.
 
-**H‍ermes-Terminal register** (added 2026-08-16, beyond the scripts above —
+**Hermes-Terminal register** (added 2026-08-16, beyond the scripts above —
 this repository's own infrastructure, not just its content):
 - Bind-mount integrity for Mehdi's scoped access
   (`atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md`): compare
@@ -112,7 +112,7 @@ format of proposition-phase3 §VI): header (date/time) · §1
 `verifier-invariants.py` summary + delta · §2 `generer-cartographie.py
 --verifier` summary + delta · §3 `detecter-non-tracke.py` counts by circuit ·
 §4 `verifier-coherence-infrastructure.py` raw output (anti-fabulation, verbatim)
-· §5 server footprint · §6 H‍ermes-Terminal register above · §7 R&D (volet 2,
+· §5 server footprint · §6 Hermes-Terminal register above · §7 R&D (volet 2,
 conditional — see below) · §8 Suggestions (1-3 pistes, explicitly marked as
 proposals, never as findings already acted on). Posted to `#infrastructure`
 (single channel for both volets for now — separation to be evaluated later if

@@ -2,8 +2,8 @@
 title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
-created: 2026-08-18
-updated: 2026-08-18
+created: 2026-08-22
+updated: 2026-08-22
 sources: []
 links: []
 ---
@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-18 17:03 UTC, sur `/root/wiki`.
-> Portée : circuit `meta/`. 106 fiches parcourues.
+> aucun réseau) le 2026-08-22 06:54 UTC, sur `/root/wiki`.
+> Portée : circuit `meta/`. 110 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -26,7 +26,7 @@ links: []
 
 ## I. Inventaire par circuit
 
-### `meta/` — 106 fiches
+### `meta/` — 110 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
@@ -37,12 +37,14 @@ links: []
 | `meta/genealogie/2026-06-20_signature-kouyate` | perso | — | 2026-06-20 | — | Signature calligraphique personnelle (« Kouyaté » stylisé) — lecture symbolique |
 | `meta/genealogie/arbre-genealogique-sissoko` | meta | — | 2026-06-20 | — | Arbre généalogique Sissoko (côté maternel) |
 | `meta/genealogie/dionkounandi-sissoko` | meta | — | 2026-06-20 | — | Dionkounandi Sissoko |
+| `meta/genealogie/fanta-nna-diabate` | meta | — | 2026-08-22 | — | Fanta « Nna » Diabaté |
 | `meta/genealogie/fatoumata-sissoko` | meta | — | 2026-06-20 | — | Fatoumata Sissoko |
 | `meta/genealogie/hawa-kante` | meta | — | 2026-06-20 | — | Hawa Kanté |
 | `meta/genealogie/keme-kante` | meta | — | 2026-06-20 | — | Kemè Kanté |
-| `meta/genealogie/kouyate` | meta | — | 2026-08-10 | — | Lignée Kouyaté (côté paternel) |
-| `meta/genealogie/mamadou-doudou-sissoko` | meta | — | 2026-06-20 | — | Mamadou Doudou Sissoko |
+| `meta/genealogie/kouyate` | meta | — | 2026-08-22 | — | Lignée Kouyaté (côté paternel) |
+| `meta/genealogie/mamadou-doudou-sissoko` | meta | — | 2026-08-22 | — | Mamadou Doudou Sissoko |
 | `meta/genealogie/moussa-sissoko` | meta | — | 2026-06-20 | — | Moussa Sissoko |
+| `meta/genealogie/samballa-kouyate` | meta | — | 2026-08-22 | — | Samballa Kouyaté |
 | `meta/genealogie/sidy-lamine-kouyate` | meta | — | 2026-08-10 | — | Sidy-Lamine Kouyaté |
 | `meta/genealogie/sissoko-kankounan` | meta | — | 2026-06-20 | — | Sissoko Kankounan |
 | `meta/genealogie/tapa-sissoko` | meta | — | 2026-06-20 | — | Tapa Sissoko |
@@ -79,8 +81,9 @@ links: []
 | `meta/personnel/2026-06-20_temperament` | perso | — | 2026-06-20 | — | Profil de tempérament personnel (Tibb) — sanguin de base, mélancolique acquis post-khalwa |
 | `meta/personnel/2026-06-20_theme-astrologique` | perso | — | 2026-08-09 | — | Thème astrologique personnel (astrologie occidentale) |
 | `meta/personnel/2026-06-20_triptyque-animaux` | perso | — | 2026-06-20 | — | Triptyque onirique — rats, chiens, singes (11 avril 2025, post-khalwa) |
+| `meta/personnel/2026-08-18_initiation-virtuelle` | meta | — | 2026-08-22 | — | Initiation virtuelle — définition personnelle de Sidy |
 | `meta/personnel/echange-eleonore-g` | — | — | — | — | (sans titre) |
-| `meta/personnel/sidy` | entity | — | 2026-08-15 | — | Sidy |
+| `meta/personnel/sidy` | entity | — | 2026-08-22 | — | Sidy |
 | `meta/philosophie-sashimono` | meta | — | 2026-07-08 | — | Directive Sashimono — philosophie d'assemblage du dépôt |
 | `meta/plan-fiche-discernement-septenaire-transversal-2026-07-27` | projet | operationnel | 2026-07-27 | — | Plan de fiche — Septénaire transversal, Balance et degré du Soleil |
 | `meta/projet-unifie/00-instructions-projet` | meta | — | 2026-08-07 | — | Instructions du projet unifié (à coller dans les Instructions personnalisées Claude.ai) |
@@ -100,7 +103,7 @@ links: []
 | `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03` | meta | — | 2026-07-07 | — | 12 — Procédure Phase 1 : Installation Hermes Agent + validation CLI (2026-07-03) |
 | `meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07` | meta | — | 2026-07-07 | — | 13 — Pivot Haiku & Procédure Phase 1 révisée : Installation Hermes Agent (2026-07-07) |
 | `meta/projet-unifie/14-compte-rendu-redeploiement-qwen-2026-07-08` | meta | — | 2026-07-08 | — | 14 — Compte-rendu : Re-déploiement Qwen3.6-27B-FP8 sur RunPod (2026-07-08) |
-| `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` | meta | — | 2026-08-16 | — | 15 — Architecture Discord des 12 agents H‍ermes (2026-08-07) |
+| `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` | meta | — | 2026-08-16 | — | 15 — Architecture Discord des 12 agents Hermes (2026-08-07) |
 | `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08` | meta | analyse — aucune décision prise, signalement pour verdict | 2026-08-09 | — | Mise en regard du thème natal vérifié avec la roue zodiacale des agents |
 | `meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09` | meta | — | 2026-08-15 | — | 17 — Compte rendu : chantier des 12 agents Hermes et calibration zodiacale (2026-08-09) |
 | `meta/projet-unifie/README` | meta | — | 2026-07-01 | — | Dossier d'amorçage — Projet unifié « LLM-Wiki & Instrument de la Tradition Primordiale » |
@@ -135,6 +138,7 @@ links: []
 | `meta/transmissions/karubi-jean-marc` | transmission | — | 2026-08-06 | — | Karubi — Jean-Marc Bastareaud (G1) |
 | `meta/transmissions/karubi-mehdi` | transmission | — | 2026-08-13 | — | Karubi — instance remise a Mehdi Bouzouida |
 | `meta/transmissions/karubi-mikael` | transmission | — | 2026-07-20 | — | Karubi — instance remise a Mikael Heaudebourg |
+| `meta/transmissions/karubi-wendel` | transmission | — | 2026-08-21 | — | Karubi — instance destinée a Wendel Nazaire |
 | `meta/transmissions/registre-silsila` | transmission | — | 2026-08-16 | — | Registre Silsila — dispositif Karubi (domaine reserve, meta/transmissions/) |
 
 ## II. Index des tags
@@ -145,9 +149,9 @@ links: []
 |---|---|---|
 | `outillage` | 25 | `meta/philosophie-sashimono`, `meta/projet-unifie/00-instructions-projet`, `meta/projet-unifie/01-contexte-demarche-etat`, `meta/projet-unifie/02-instrument-feuille-de-route`, `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/04-sessions-par-fonction-et-backlogs`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, … (+17) |
 | `projet-claude-ai` | 21 | `meta/projet-unifie/00-instructions-projet`, `meta/projet-unifie/01-contexte-demarche-etat`, `meta/projet-unifie/02-instrument-feuille-de-route`, `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/04-sessions-par-fonction-et-backlogs`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, … (+13) |
+| `genealogie` | 15 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fanta-nna-diabate`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante`, `meta/genealogie/kouyate`, … (+7) |
+| `famille` | 14 | `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fanta-nna-diabate`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante`, `meta/genealogie/kouyate`, `meta/genealogie/mamadou-doudou-sissoko`, … (+6) |
 | `infrastructure` | 14 | `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, … (+6) |
-| `genealogie` | 13 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante`, `meta/genealogie/kouyate`, `meta/genealogie/mamadou-doudou-sissoko`, … (+5) |
-| `famille` | 12 | `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante`, `meta/genealogie/kouyate`, `meta/genealogie/mamadou-doudou-sissoko`, `meta/genealogie/moussa-sissoko`, … (+4) |
 | `runbook` | 12 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03`, … (+4) |
 | `gpu-cloud` | 9 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03`, … (+1) |
 | `reve` | 9 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/personnel/2026-06-20_gene-buccale-reve-recurrent`, `meta/personnel/2026-06-20_reve-chat`, `meta/personnel/2026-06-20_reve-fille-elephant`, `meta/personnel/2026-06-20_reve-geants-paris`, `meta/personnel/2026-06-20_reve-leila`, `meta/personnel/2026-06-20_reve-savant-vivant`, `meta/personnel/2026-06-20_reve-urine`, … (+1) |
@@ -156,12 +160,14 @@ links: []
 | `sissoko` | 8 | `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/mamadou-doudou-sissoko`, `meta/genealogie/moussa-sissoko`, `meta/genealogie/sidy-lamine-kouyate`, `meta/genealogie/sissoko-kankounan`, `meta/genealogie/tapa-sissoko` |
 | `qwen` | 7 | `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03`, `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03`, `meta/projet-unifie/14-compte-rendu-redeploiement-qwen-2026-07-08`, `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03`, … (+-1) |
 | `sante` | 5 | `meta/personnel/2026-06-20_bourdonnement-tempe`, `meta/personnel/2026-06-20_fibrillation`, `meta/personnel/2026-06-20_gene-buccale-reve-recurrent`, `meta/personnel/2026-06-20_herbes-pratiques`, `meta/personnel/2026-06-20_temperament` |
+| `spiritualite` | 5 | `meta/genealogie/kouyate`, `meta/genealogie/mamadou-doudou-sissoko`, `meta/genealogie/samballa-kouyate`, `meta/personnel/2026-08-18_initiation-virtuelle`, `meta/personnel/sidy` |
 | `ornith` | 4 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29` |
 | `proposition` | 4 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0`, `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes`, `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06`, `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` |
 | `resultats` | 4 | `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03` |
 | `transition` | 4 | `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01` |
 | `kante` | 3 | `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante` |
 | `karubi` | 3 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0`, `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes`, `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` |
+| `kouyate` | 3 | `meta/genealogie/kouyate`, `meta/genealogie/samballa-kouyate`, `meta/genealogie/sidy-lamine-kouyate` |
 | `label` | 3 | `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08`, `meta/projet-unifie/framework-etude-de-cas`, `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` |
 | `stub` | 3 | `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/moussa-sissoko`, `meta/genealogie/tapa-sissoko` |
 | `suivi` | 3 | `meta/personnel/2026-06-20_bourdonnement-tempe`, `meta/personnel/2026-06-20_gene-buccale-reve-recurrent`, `meta/personnel/2026-06-20_gout-sucre-priere` |
@@ -179,11 +185,11 @@ links: []
 | `journal-spirituel` | 2 | `meta/personnel/2026-06-20_gout-sucre-priere`, `meta/personnel/2026-06-20_triptyque-animaux` |
 | `jumeau-spirituel` | 2 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/genealogie/2026-06-20_signature-kouyate` |
 | `khalwa` | 2 | `meta/personnel/2026-06-20_bourdonnement-tempe`, `meta/personnel/2026-06-20_temperament` |
-| `kouyate` | 2 | `meta/genealogie/kouyate`, `meta/genealogie/sidy-lamine-kouyate` |
 | `objet-personnel` | 2 | `meta/personnel/2026-06-20_identification-bague`, `meta/personnel/2026-06-20_pierres-personnelles` |
 | `protocole` | 2 | `meta/philosophie-sashimono`, `meta/projet-unifie/00-instructions-projet` |
 | `recurrent` | 2 | `meta/personnel/2026-06-20_reve-chat`, `meta/personnel/2026-06-20_reve-geants-paris` |
 | `skill` | 2 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0`, `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes` |
+| `tijaniyya` | 2 | `meta/genealogie/kouyate`, `meta/genealogie/samballa-kouyate` |
 | `zodiaque` | 2 | `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08`, `meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09` |
 | `agartha` | 1 | `meta/personnel/2026-06-20_gout-sucre-priere` |
 | `amorcage` | 1 | `meta/projet-unifie/README` |
@@ -195,11 +201,13 @@ links: []
 | `calligraphie` | 1 | `meta/genealogie/2026-06-20_signature-kouyate` |
 | `chatgpt` | 1 | `meta/projet-unifie/chatgpt-export-2026-05-10` |
 | `compte-rendu` | 1 | `meta/projet-unifie/14-compte-rendu-redeploiement-qwen-2026-07-08` |
+| `concept-personnel` | 1 | `meta/personnel/2026-08-18_initiation-virtuelle` |
 | `contexte` | 1 | `meta/projet-unifie/01-contexte-demarche-etat` |
 | `correctif` | 1 | `meta/2026-07-27_correctif-etendu-invariants-depot` |
 | `curiosite-personnelle` | 1 | `meta/personnel/2026-06-20_noms-symboles-financiers` |
 | `deprecated` | 1 | `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03` |
 | `developpement-personnel` | 1 | `meta/personnel/2026-06-20_ikigai` |
+| `diabate` | 1 | `meta/genealogie/fanta-nna-diabate` |
 | `discord` | 1 | `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` |
 | `doctrinal` | 1 | `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29` |
 | `donnees-personnelles` | 1 | `meta/projet-unifie/chatgpt-export-2026-05-10` |
@@ -215,12 +223,16 @@ links: []
 | `gani` | 1 | `meta/personnel/2026-06-20_triptyque-animaux` |
 | `ghafla` | 1 | `meta/journal/2026-06-18-tawakkul-transition` |
 | `grand-mere-maternelle` | 1 | `meta/genealogie/hawa-kante` |
+| `grand-mere-paternelle` | 1 | `meta/genealogie/fanta-nna-diabate` |
 | `grand-pere-maternel` | 1 | `meta/genealogie/mamadou-doudou-sissoko` |
+| `grand-pere-paternel` | 1 | `meta/genealogie/samballa-kouyate` |
 | `griot` | 1 | `meta/genealogie/kouyate` |
+| `guenon` | 1 | `meta/personnel/2026-08-18_initiation-virtuelle` |
 | `haiku` | 1 | `meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07` |
 | `harmonisation` | 1 | `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08` |
 | `identite` | 1 | `meta/genealogie/sidy-lamine-kouyate` |
 | `ikigai` | 1 | `meta/personnel/2026-06-20_ikigai` |
+| `initiation` | 1 | `meta/personnel/2026-08-18_initiation-virtuelle` |
 | `instructions` | 1 | `meta/projet-unifie/00-instructions-projet` |
 | `instrument` | 1 | `meta/projet-unifie/02-instrument-feuille-de-route` |
 | `invariants` | 1 | `meta/2026-07-27_correctif-etendu-invariants-depot` |
@@ -243,6 +255,7 @@ links: []
 | `profil` | 1 | `meta/personnel/sidy` |
 | `profil-personnel` | 1 | `meta/personnel/2026-06-20_theme-astrologique` |
 | `projet-hermes` | 1 | `meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09` |
+| `qadiriyya` | 1 | `meta/genealogie/mamadou-doudou-sissoko` |
 | `questions` | 1 | `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` |
 | `reflexion-personnelle` | 1 | `meta/personnel/2026-06-20_desir-personnel` |
 | `relations` | 1 | `meta/personnel/2026-06-20_reve-leila` |
@@ -251,7 +264,6 @@ links: []
 | `sashimono` | 1 | `meta/philosophie-sashimono` |
 | `sessions` | 1 | `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` |
 | `shukr` | 1 | `meta/journal/2026-06-18-tawakkul-transition` |
-| `spiritualite` | 1 | `meta/personnel/sidy` |
 | `strategie` | 1 | `meta/projet-unifie/framework-etude-de-cas` |
 | `symbolisme` | 1 | `meta/personnel/2026-06-20_taekwondo-hansu` |
 | `synthese` | 1 | `meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09` |
@@ -272,24 +284,26 @@ links: []
 *Reproduits littéralement. Donne le contenu réel de chaque fiche sans passer par un résumé.*
 
 - `meta/2026-07-27_correctif-etendu-invariants-depot` — 1. Reclassement : ce n'est pas un bug d'ordre · 2. Second constat, plus grave : l'annales est un auto-rapport non vér… · 3. Troisième constat : une erreur de ma part a été inscrite au dépôt · 4. Pourquoi personne n'a rien vu — moi compris · 5. Balayage du dépôt — inventaire des invariants · 6. Le contrôle mécanique — `verifier-invariants.py` (livré) · 7. Amendements `CLAUDE.md` proposés · 8. Ordre de remédiation · 9. Ce que ce document ne prétend pas
-- `meta/CLAUDE` — Objet du domaine · Hub interne · Rappel d'étanchéité (règle complète : CLAUDE.md racine §VI) · Sceau Transmissions (`meta/transmissions/`, dispositif Karūbī) · Corollaire agentique (2026-08-09) — couche opérative H‍ermes
+- `meta/CLAUDE` — Objet du domaine · Hub interne · Rappel d'étanchéité (règle complète : CLAUDE.md racine §VI) · Sceau Transmissions (`meta/transmissions/`, dispositif Karūbī) · Corollaire agentique (2026-08-09) — couche opérative Hermes
 - `meta/bibliotheque-physique` — I. Métaphysique pure, Tradition Primordiale, études hindoues · II. Tasawwuf (Soufisme) et ésotérisme islamique · III. Orient, écritures sacrées et traditions occidentales · IV. Sciences traditionnelles, cosmologie et art sacré · V. Littérature, politique, documents divers (hors-cadre doctrinal) · VI. Pôle Gizeh — à acquérir / à consulter (append 2026-07-03) · À acquérir — pôle Fiqh (validé 2026-07-06)
 - `meta/genealogie/2026-06-20_oiseau-serpent-jumeau` — Le rêve de l'oiseau (fait rapporté) · Le « frère-serpent » de la lignée Kouyaté (fait familial rapporté) · Suggestion d'archivage
 - `meta/genealogie/2026-06-20_signature-kouyate` — Le fait rapporté · Lecture reçue (très élaborée, à prendre avec mesure) · Point à noter pour la suite
 - `meta/genealogie/arbre-genealogique-sissoko` — Description · Contenu · Notes
 - `meta/genealogie/dionkounandi-sissoko` — Identité · Faits · Notes
+- `meta/genealogie/fanta-nna-diabate` — Identité · Faits attestés · Relations · Notes
 - `meta/genealogie/fatoumata-sissoko` — Identité · Faits · Relations · Notes
 - `meta/genealogie/hawa-kante` — Identité · Faits · Relations · Notes
 - `meta/genealogie/keme-kante` — Identité · Faits · Relations · Notes
-- `meta/genealogie/kouyate` — Description · Ce qui est attesté · Ce qui manque · Notes
-- `meta/genealogie/mamadou-doudou-sissoko` — Identité · Faits · Relations · Notes
+- `meta/genealogie/kouyate` — Description · Ce qui est attesté · Ce qui manque · Fait structurel · Notes
+- `meta/genealogie/mamadou-doudou-sissoko` — Identité · Faits · Lien spirituel · Relations · Notes
 - `meta/genealogie/moussa-sissoko` — Identité · Faits · Notes
+- `meta/genealogie/samballa-kouyate` — Identité · Faits attestés · Relations · Notes
 - `meta/genealogie/sidy-lamine-kouyate` — Description · Position généalogique · Notes
 - `meta/genealogie/sissoko-kankounan` — Identité · Faits · Relations · Notes
 - `meta/genealogie/tapa-sissoko` — Identité · Faits · Notes
 - `meta/journal/2026-06-18-tawakkul-transition` — Contexte · Sur la condition humaine et la dunya · Sur la démission · Sur la narration et le nafs · Sur le statut de l'injustice dans le contrat de service · Sur le tawakkul vécu · Vigilance pour l'avenir · Références croisées
 - `meta/journal/conversation-atma-claude` — 1. Qu’est-ce qu’Atma ? · 2. Qu’est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu’est-ce que Buddhi ? · 5. Ahamkara et Manas — l’Antahkarana · 6. Qu’est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA · 1. Qu'est-ce qu'Atma ? · 2. Qu'est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu'est-ce que Buddhi ? · 5. Ahamkara et Manas — l'Antahkarana · 6. Qu'est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA
-- `meta/meta-annales` — [2026-08-16] extension | Canal Telegram Mehdi (habib-mehdi) + mandat … · [2026-08-15] actualisation | Rôle G0 de brouillon §4 mis en service · [2026-08-15] actualisation | Clause d'ordre ontologique instruite dan… · [2026-08-15] activation | 12 prompts H‍ermes activés avec la table zo… · [2026-08-13] actualisation | Karūbī Mehdi (Habib) — invitation Tailsc… · [2026-08-13] archivage | Intégration du retour de Mehdi (Karūbī Habib) · [2026-08-12] vigilance | Suppression du reliquat `Protocole.md` (raci… · [2026-08-12] amendement | éclatement expérimental du CLAUDE.md en pro… · [2026-08-10] archivage | création lignée Kouyaté et fiche Sidy-Lamine… · [2026-08-09] archivage | reclassement du compte rendu 12-agents hors … · [2026-08-09] archivage | intégration de l'image du thème natal depuis… · [2026-08-09] tranché | signalement `doctrinal/ → meta/personnel/` (se… · [2026-08-09] ouverture | création du hub `meta-index.md` / `meta-anna…
+- `meta/meta-annales` — [2026-08-22] ventilation | Fiche interview trame spirituelle → fiches… · [2026-08-16] extension | Canal Telegram Mehdi (habib-mehdi) + mandat … · [2026-08-15] actualisation | Rôle G0 de brouillon §4 mis en service · [2026-08-15] actualisation | Clause d'ordre ontologique instruite dan… · [2026-08-15] activation | 12 prompts Hermes activés avec la table zo… · [2026-08-13] actualisation | Karūbī Mehdi (Habib) — invitation Tailsc… · [2026-08-13] archivage | Intégration du retour de Mehdi (Karūbī Habib) · [2026-08-12] vigilance | Suppression du reliquat `Protocole.md` (raci… · [2026-08-12] amendement | éclatement expérimental du CLAUDE.md en pro… · [2026-08-10] archivage | création lignée Kouyaté et fiche Sidy-Lamine… · [2026-08-09] archivage | reclassement du compte rendu 12-agents hors … · [2026-08-09] archivage | intégration de l'image du thème natal depuis… · [2026-08-09] tranché | signalement `doctrinal/ → meta/personnel/` (se… · [2026-08-09] ouverture | création du hub `meta-index.md` / `meta-anna…
 - `meta/meta-index` — Personnel (`personnel/`) · Généalogie (`genealogie/`) · Journal (`journal/`) · Transmissions (`transmissions/`, dispositif Karūbī — voir §V.c) · Projet unifié (`projet-unifie/`) · Fiches de premier niveau (`meta/`)
 - `meta/migration-2026-06-11` — Étape 1 : Remplacement du Cœur Opérationnel · Étape 2 : Migration et Ventilation de l'Existant (Sans re-lecture) · Étape 3 : Normalisation des Frontmatters (Script automatisé ou éditio… · Étape 4 : Initialisation des Méta-Pages · Étape 5 : Clôture et Validation
 - `meta/onboarding` — Contexte · Infrastructure en place · Structure du wiki sur le serveur · Synchronisation Obsidian : ✅ résolue (auto-pull activé) · Comment démarrer une session Claude Code · Coffre Obsidian · Prochaines étapes suggérées · Notes techniques
@@ -316,8 +330,9 @@ links: []
 - `meta/personnel/2026-06-20_temperament` — Éléments rapportés par Sidy · Hypothèse retenue (validée par Sidy lui-même) · Note
 - `meta/personnel/2026-06-20_theme-astrologique` — ⚠ Correctif 2026-08-08 — les placements ci-dessous remplacent ceux de… · Historique (conservé, daté — ne pas réutiliser) · Note
 - `meta/personnel/2026-06-20_triptyque-animaux` — Le fait rapporté · Lecture reçue · Note
+- `meta/personnel/2026-08-18_initiation-virtuelle` — Énoncé de Sidy (2026-08-18) · Éléments structurants · Statut · Contexte · Références Guénoniennes (raw/) · Notes
 - `meta/personnel/echange-eleonore-g` — Autour d’une vidéo de Félix Guattari à l’Université de Paris VIII en …
-- `meta/personnel/sidy` — Identité · Profil spirituel et intellectuel · Préférences de réponse · Repères chronologiques spirituels · Notes
+- `meta/personnel/sidy` — Identité · Profil spirituel et intellectuel · Préférences de réponse · Repères chronologiques spirituels · Convalescence post-khalwa et rattachement Tijaniyya (~2016-2019) · Pratique spirituelle actuelle · Arc Kaaba — synchronicités et visions · Synchronicité Leila Abdelwahid · Rêve de Yannick Doumouya (~2018) · Incandescence du manque amoureux · Notes
 - `meta/philosophie-sashimono` — 1. Objet et statut de ce document · 2. Le sashimono en bref · 3. Revue : ce que le dépôt pratique déjà en sashimono · 4. Articles normatifs · 5. Application par circuit · 6. Lexique conventionnel (validé par l'utilisateur, 2026-07-07) · 7. Table canonique des pièces et des gestes · 8. Limites et garde-fou
 - `meta/plan-fiche-discernement-septenaire-transversal-2026-07-27` — Frontmatter (Sceau Recteur) · Plan des 6 sections · Bloc 🔍 normalisé (à insérer en tête du corps) · 🔍 Bloc de discernement · Qualification sashimono à porter dans le corps · Vérifications obligatoires (CLAUDE.md §VII) · Notes techniques
 - `meta/projet-unifie/00-instructions-projet` — Qui tu es, ce que tu sers · Les postes de travail (architecture par FONCTION, agnostique au modèl… · Ce que tu produis, et comment il arrive au dépôt (workflow `_inbox/`) · Les CINQ circuits étanches du dépôt · Le Sceau Recteur (frontmatter doctrinal — à reproduire exactement) · Discipline des sources (transversale) · Le circuit Discernement (spéculations personnelles de Sidy) · Les 14 Commandements résumés · L'Instrument et le site (règle commune des manifestes) · Supervision des moteurs (rappels pour tes livrables) · Mode pédagogique obligatoire · Travailler par fonction — et vigilance documentaire
@@ -371,7 +386,8 @@ links: []
 - `meta/transmissions/karubi-jean-marc` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte du destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 4. État des travaux de Sidy (zone d'actualisation — instantané au 202… · 5. Méthode transmise (le cœur) · 6. Protocole d'accompagnement (mission du Karūbī) · 6bis. Spécialisation — l'atelier d'un auteur qui mène plusieurs histo… · 7. Clause de retour et de transmission · 8. Mémoire vivante (zone de croissance — append-only, entrées datées … · 9. Questions pour Sidy (zone de croissance — append-only) · 10. Réponses de Sidy (zone d'actualisation — réservée à G0)
 - `meta/transmissions/karubi-mehdi` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte du destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 4. État des travaux de Sidy (zone d'actualisation — instantané au 202… · 5. Méthode transmise (le cœur) · 6. Protocole d'accompagnement (mission du Karūbī — si Mehdi le souhai… · 7. Clause de retour et de transmission · 8. Mémoire vivante (append-only — entrées datées et signées) · 9. Questions pour Sidy (append-only) · 10. Réponses de Sidy (réservée à G0)
 - `meta/transmissions/karubi-mikael` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte du destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 4. État des travaux de Sidy (zone d'actualisation — instantané au 202… · 5. Méthode transmise (le cœur) · 6. Protocole d'accompagnement (mission du Karūbī — si Mikael le souha… · 7. Clause de retour et de transmission · 8. Mémoire vivante (append-only — entrées datées et signées) · 9. Questions pour Sidy (append-only) · 10. Réponses de Sidy (réservée à G0)
-- `meta/transmissions/registre-silsila` — [2026-08-15] correction-outillage | dispositif | G0 | — | — | — · [2026-08-15] rescellement | karubi-gabarit.md | G0 | khassa | v1 | 32… · [2026-08-13] retour | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf677… · [2026-07-20] generation | Habiba-Nour Kouyaté | G1 | khassa | v1 | <h… · [2026-07-20] generation | Mehdi Bouzouïda | G1 | khassa | v1 | <hash_… · [2026-07-20] generation | Mikael Heaudebourg | G1 | khassa | v1 | <ha… · [2026-07-20] finalisation | Habiba-Nour Kouyaté | G1 | khassa | v1 | … · [2026-07-20] finalisation | Mehdi Bouzouïda | G1 | khassa | v1 | 1b75… · [2026-07-20] finalisation | Mikael Heaudebourg | G1 | khassa | v1 | f… · [2026-07-20] remise | Habiba-Nour Kouyaté | G1 | khassa | v1 | a6f891… · [2026-07-20] remise | Mehdi Bouzouïda | G1 | khassa | v1 | 22782cf677… · [2026-07-20] remise | Mikael Heaudebourg | G1 | khassa | v1 | 312689a… · [2026-07-20] correction-outillage | dispositif | G0 | — | — | — · [2026-07-20] incident-usage | Mehdi Bouzouïda | G1 | khassa | v1 | 22… · [2026-08-06] finalisation | Jean-Marc Bastareaud | G1 | khassa | v1 |… … (+10)
+- `meta/transmissions/karubi-wendel` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte du destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 4. État des travaux de Sidy (zone d'actualisation — instantané au 202… · 5. Méthode transmise (le cœur) · 6. Protocole d'accompagnement (mission du Karūbī) · 6bis. Spécialisation — l'atelier d'un homme d'image · 7. Clause de retour et de transmission · 8. Mémoire vivante (zone de croissance — append-only, entrées datées … · 9. Questions pour Sidy (zone de croissance — append-only) · 10. Réponses de Sidy (zone d'actualisation — réservée à G0)
+- `meta/transmissions/registre-silsila` — [2026-08-15] correction-outillage | dispositif | G0 | — | — | — · [2026-08-15] rescellement | karubi-gabarit.md | G0 | khassa | v1 | 32… · [2026-08-13] retour | Mehdi Bouzouïda | G1 | khassa | v2 | 22782cf677… · [2026-07-20] generation | Habiba-Nour Kouyaté | G1 | khassa | v1 | <h… · [2026-07-20] generation | Mehdi Bouzouïda | G1 | khassa | v1 | <hash_… · [2026-07-20] generation | Mikael Heaudebourg | G1 | khassa | v1 | <ha… · [2026-07-20] finalisation | Habiba-Nour Kouyaté | G1 | khassa | v1 | … · [2026-07-20] finalisation | Mehdi Bouzouïda | G1 | khassa | v1 | 1b75… · [2026-07-20] finalisation | Mikael Heaudebourg | G1 | khassa | v1 | f… · [2026-07-20] remise | Habiba-Nour Kouyaté | G1 | khassa | v1 | a6f891… · [2026-07-20] remise | Mehdi Bouzouïda | G1 | khassa | v1 | 22782cf677… · [2026-07-20] remise | Mikael Heaudebourg | G1 | khassa | v1 | 312689a… · [2026-07-20] correction-outillage | dispositif | G0 | — | — | — · [2026-07-20] incident-usage | Mehdi Bouzouïda | G1 | khassa | v1 | 22… · [2026-08-06] finalisation | Jean-Marc Bastareaud | G1 | khassa | v1 |… … (+12)
 
 ## IV. Discernements
 
@@ -383,12 +399,22 @@ links: []
 
 *Chaque ligne est une affirmation non encore vérifiée sur source primaire (Cmd 5). Leur levée est humaine et manuelle.*
 
-**Total : 47 marqueurs sur 19 fiches.**
+**Total : 53 marqueurs sur 25 fiches.**
 
 - `meta/2026-07-27_correctif-etendu-invariants-depot` (1)
   - L175 : | B2 | `sources_count` cohérent avec `sources` (gère le marqueur `to-source`) | erreur |
 - `meta/bibliotheque-physique` (1)
   - L190 : pour lever les `to-source` du pôle.*
+- `meta/genealogie/fanta-nna-diabate` (1)
+  - frontmatter sources: to-source
+- `meta/genealogie/mamadou-doudou-sissoko` (1)
+  - frontmatter sources: to-source
+- `meta/genealogie/samballa-kouyate` (1)
+  - frontmatter sources: to-source
+- `meta/personnel/2026-08-18_initiation-virtuelle` (1)
+  - frontmatter sources: to-source
+- `meta/personnel/sidy` (1)
+  - frontmatter sources: to-source
 - `meta/philosophie-sashimono` (8)
   - L23 : Kyōto `to-source`) : les pièces de bois sont jointes par tenons, mortaises et
   - L27 : pour vérification avant tout collage définitif `to-source`. L'artisan ne force
@@ -448,6 +474,8 @@ links: []
   - L173 : 2. **Aucune affirmation sans source** ; marqueur `to-source` sinon, levé uniquement
 - `meta/transmissions/karubi-mikael` (1)
   - L154 : 2. **Aucune affirmation sans source** ; marqueur `to-source` sinon — pour un
+- `meta/transmissions/karubi-wendel` (1)
+  - L190 : 2. **Aucune affirmation sans source** ; marqueur `to-source` sinon, levé uniquement
 - `meta/transmissions/registre-silsila` (1)
   - L186 : `status: to-source` — transcription IA d'un cours oral, non recoupée avec
 
@@ -481,6 +509,7 @@ links: []
 - `meta/personnel/2026-06-20_temperament` → `doctrinal/symboles/khalwa`, `doctrinal/symboles/tibb-yunani`
 - `meta/personnel/2026-06-20_theme-astrologique` → `doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard`, `doctrinal/symboles/ilm-al-nujum`
 - `meta/personnel/2026-06-20_triptyque-animaux` → `doctrinal/discernement/2026-06-20_visions-centre-nocturne`, `doctrinal/symboles/animaux-en-reve-comparatisme`
+- `meta/personnel/2026-08-18_initiation-virtuelle` → `rene-guenon`
 - `meta/personnel/sidy` → `ahl-al-sunnah-wa-l-jamaa`, `al-ghazali`, `ibn-arabi`, `platon`, `rene-guenon`, `sanatana-dharma`, `tasawwuf`
 - `meta/plan-fiche-discernement-septenaire-transversal-2026-07-27` → `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-…`, `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-a…`, `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-…`, `doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh`, `doctrinal/sources/guenon-roi-du-monde-ch10`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gl…`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-I`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-II`, `doctrinal/symboles/table-28-degres-nafas-rahman`
 - `meta/projet-unifie/00-instructions-projet` → `autre-slug`, `slug`, `slug-source`
@@ -492,27 +521,28 @@ links: []
 - `meta/proposition-discernement` → `deviation-y`, `symbole/autorite-x`
 - `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12` → `autre-slug`, `chemin/relatif`, `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/slug`, `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-a…`, `doctrinal/symboles-ou-autorites/slug`, `doctrinal/symboles/archeometre`, `slug`, `slug-source`
 
-### Fiches sans lien entrant (5)
+### Fiches sans lien entrant (6)
 
 - `meta/CLAUDE`
 - `meta/bibliotheque-physique`
 - `meta/plan-fiche-discernement-septenaire-transversal-2026-07-27`
 - `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0`
 - `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12`
+- `meta/transmissions/karubi-wendel`
 
 ## VII. Statistiques
 
 | circuit | fiches |
 |---|---|
-| `meta/` | 106 |
-| **total** | **106** |
+| `meta/` | 110 |
+| **total** | **110** |
 
 | type | n |
 |---|---|
-| `meta` | 52 |
+| `meta` | 55 |
 | `perso` | 24 |
 | `(absent)` | 17 |
-| `transmission` | 6 |
+| `transmission` | 7 |
 | `correctif` | 1 |
 | `entity` | 1 |
 | `etude` | 1 |
@@ -523,7 +553,7 @@ links: []
 
 | status | n |
 |---|---|
-| `(absent)` | 96 |
+| `(absent)` | 100 |
 | `deprecated` | 6 |
 | `operationnel` | 2 |
 | `analyse — aucune décision prise, signalement pour verdict` | 1 |

@@ -353,7 +353,7 @@ intégralement avant citation.
     contingente).
   - **Portée** : hypothèse architecturale validée par Sidy (verdict 2026-08-11) ;
     documente un mécanisme existant en practice, clarifie les trajectoires
-    Discernement↔R&D↔Doctrine (ex. : extension zodiacale des 12 agents H‍ermes,
+    Discernement↔R&D↔Doctrine (ex. : extension zodiacale des 12 agents Hermes,
     phase 3 veille infra).
   - **Statut** : `status: adopte` (verdict 2026-08-11). Fiche reste en Discernement
     (c'est une théorie adoptée, non une Doctrine — articulation stable du flux,

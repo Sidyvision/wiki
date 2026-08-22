@@ -16,7 +16,7 @@ links: ["[[atelier/rd/index]]"]
 > du rapport) est tranché par Sidy. Le §III.1 (qui porte la veille), tranché
 > une première fois le 2026-08-11 pour le poste INTÉGRATION, a été **rouvert
 > le même jour** : la veille est réattribuée au **Studio Sound Engineer**
-> (agent H‍ermes, position 9 de la roue zodiacale) — voir §III.1
+> (agent Hermes, position 9 de la roue zodiacale) — voir §III.1
 > « Réouverture ». Cette réattribution **rouvre à son tour** le mécanisme
 > technique proposé au §VI (conçu pour l'ancien verdict), sans rouvrir le
 > §III.3 (signalement Discord seul, jamais d'écriture directe — inchangé
@@ -70,14 +70,14 @@ Trois questions distinctes, tranchées séparément — verdicts Sidy du
 2026-08-11 :
 
 1. **Qui** — ~~**routine côté poste INTÉGRATION** (session Claude Code
-   périodique/planifiée sur le serveur), **pas un agent H‍ermes dédié**.
+   périodique/planifiée sur le serveur), **pas un agent Hermes dédié**.
    Motif retenu : cohérent avec le statu quo du cloisonnement technique
-   H‍ermes (accès FS restreint, retour d'expérience en cours — cf. mémoire
-   « Cloisonnement technique H‍ermes ») ; réutilise un poste déjà cadré par le
+   Hermes (accès FS restreint, retour d'expérience en cours — cf. mémoire
+   « Cloisonnement technique Hermes ») ; réutilise un poste déjà cadré par le
    protocole plutôt que d'ouvrir une nouvelle couche à superviser.~~
 
    **Réouverture (2026-08-11, même jour)** : Sidy relie explicitement ce
-   chantier à l'extension de rôle des 12 agents H‍ermes sur calibrage
+   chantier à l'extension de rôle des 12 agents Hermes sur calibrage
    zodiacal (fiches `meta/projet-unifie/16-...` et `17-...`) et attribue la
    veille infrastructure à **l'agent le plus approprié** de la roue.
    Cartographie effectuée (les 12 positions et leur force de correspondance,
@@ -106,7 +106,7 @@ Trois questions distinctes, tranchées séparément — verdicts Sidy du
    Engineer aux scripts déterministes (`verifier-invariants.py`,
    `Graphe/generer-cartographie.py --verifier`, `detecter-non-tracke.py`,
    relevé serveur) est désormais accordé — le cloisonnement technique
-   H‍ermes ne bloque plus ce chantier (statu quo levé). Gouvernance : par défaut
+   Hermes ne bloque plus ce chantier (statu quo levé). Gouvernance : par défaut
    régime strict (demande Discord → validation Sidy → exécution) ; auto-accept
    mode optionnel, activable ad hoc par Sidy pour une période donnée
    (similaire au mode auto-accept du plan de Claude Code), qui se désactive
@@ -137,12 +137,12 @@ Trois questions distinctes, tranchées séparément — verdicts Sidy du
    Cmd 13) : le signalement Discord ne touche jamais au dépôt lui-même,
    aucune dérogation à la porte humaine n'est nécessaire.
 
-## IV. Risque à nommer si la veille est confiée à un agent H‍ermes
+## IV. Risque à nommer si la veille est confiée à un agent Hermes
 
 Un agent de veille qui a accès en écriture au dépôt (même seulement au
 registre) élargit la surface de ce qu'un agent de fonction peut modifier sans
 repasser par le poste INTÉGRATION — à mettre en regard du cloisonnement
-technique H‍ermes actuellement en statu quo (accès FS restreint, retour
+technique Hermes actuellement en statu quo (accès FS restreint, retour
 d'expérience en cours). Une veille en lecture seule + signalement (Discord,
 ou fichier de sortie relu manuellement) évite cette extension de surface ;
 une veille en écriture directe au registre la crée délibérément. Point à
@@ -153,7 +153,7 @@ veille au Studio Sound Engineer (position 9) ne rouvre PAS ce risque tel
 quel — elle ne rouvre pas non plus le §III.3, resté intact : le
 signalement passe toujours et uniquement par Discord, jamais par une
 écriture directe au registre, quel que soit l'exécutant (poste INTÉGRATION
-ou agent H‍ermes). C'est cette règle inchangée, et non l'identité de
+ou agent Hermes). C'est cette règle inchangée, et non l'identité de
 l'exécutant, qui continue de contenir le risque nommé ici.
 
 ## V. Désignation effective (tranchée, 2026-08-11)
@@ -164,7 +164,7 @@ par le §III :
 1. **Déclencheur de la routine** — **planifiée par cron**, et non lancée à la
    demande. Choix assumé malgré le coût nommé lors de l'arbitrage (nouvelle
    surface : un job headless sur le serveur, hors session supervisée,
-   précédent jusqu'ici réservé au gateway H‍ermes via `DISCORD_HOME_CHANNEL`).
+   précédent jusqu'ici réservé au gateway Hermes via `DISCORD_HOME_CHANNEL`).
    Le risque « qui relit si personne n'est en session au moment où le cron
    tourne » se referme de lui-même par construction du §III.3 : la routine ne
    touche jamais au dépôt, elle **signale sur Discord** — la lecture différée
@@ -193,7 +193,7 @@ instruire séparément, avant toute écriture (Cmd 6) :
   d'exécution locale (`.env`/`config.yaml`), jamais dans le dépôt versionné.
 - ~~la fréquence exacte du cron~~ — **tranchée (2026-08-11)** : **quotidienne,
   12:00 (midi)**, par analogie assumée avec le « Rapport du matin » déjà
-  envisagé côté H‍ermes/gardien (cf.
+  envisagé côté Hermes/gardien (cf.
   `meta/projet-unifie/04-sessions-par-fonction-et-backlogs.md`).
 - ~~le contenu exact du rapport~~ — **tranché en nature (2026-08-11)** : un
   rapport de **suggestion, révision, développement** — au-delà du simple
@@ -218,9 +218,9 @@ instruire séparément, avant toute écriture (Cmd 6) :
     révision/développement en texte libre, explicitement marquées comme
     propositions non actées, jamais comme constats).
   - ~~**Mécanisme** — **webhook Discord simple** sur le canal
-    `#infrastructure`, et non un agent H‍ermes ni un bot dédié : un webhook
+    `#infrastructure`, et non un agent Hermes ni un bot dédié : un webhook
     est spécifique au canal, ne nécessite ni token de bot ni gateway, et
-    n'ouvre donc aucune surface côté H‍ermes (cohérent avec le §III.1). Un
+    n'ouvre donc aucune surface côté Hermes (cohérent avec le §III.1). Un
     script Python dédié (`atelier/rd/outillage/`, à nommer) orchestre les 3
     scripts déterministes + le relevé serveur, compose le texte, et poste au
     webhook ; l'URL du webhook est un secret et vit en configuration locale
@@ -231,12 +231,12 @@ instruire séparément, avant toute écriture (Cmd 6) :
     initialement pour le poste INTÉGRATION n'a plus lieu d'être — l'agent
     Studio Sound Engineer compose et poste le rapport lui-même via le canal
     `#infrastructure` (pas de tiers, traçabilité agent natives via les
-    empreintes H‍ermes). Flux : l'agent orchestre les 3 scripts déterministes
+    empreintes Hermes). Flux : l'agent orchestre les 3 scripts déterministes
     + relevé serveur, compose le texte selon le format en 5 sections
     ci-dessus, puis demande via Discord : « Rapport de veille — validez ? »
     (ou directe si auto-accept mode actif). Sidy valide (ou auto-accept
     exécute), l'agent poste au canal. Toute action est tracée Discord (audit
-    trail intégrale, natif agent H‍ermes). Pas d'écriture au registre par
+    trail intégrale, natif agent Hermes). Pas d'écriture au registre par
     l'agent (inchangé, §III.3) — le rapport Discord est le signalement ;
     Sidy (ou session INTÉGRATION) opère la consignation au registre si
     actionnable. Le format en 5 sections demeure la cible de contenu
@@ -264,7 +264,7 @@ Restent à instruire séparément, avant toute écriture effective du mécanisme
 | Chantier | Bloqage | Responsable | Statut |
 |---|---|---|---|
 | **Extension prompt agent 09** | Cmd 6 : plan avant modification | Sidy (validation) | ~~À instruire~~ **Fait (2026-08-16)**, voir §Mise à jour |
-| **Accès FS/exécution agent 09** | Déf. du cloisonnement H‍ermes | Décision architecturale | Tranché (2026-08-11, §III.1) |
+| **Accès FS/exécution agent 09** | Déf. du cloisonnement Hermes | Décision architecturale | Tranché (2026-08-11, §III.1) |
 | **Nouveau mécanisme d'éxécution** | Dépend du cloisonnement ↑ | Conception R&D | Prompt étendu ; `hermes cron create` + canal Discord `#infrastructure` restent à créer (porte humaine) |
 | **Récurrence empreinte serveur** | Dépend du mécanisme ↑ | R&D + choix opérationnel | À instruire (inchangé) |
 
@@ -273,7 +273,7 @@ Restent à instruire séparément, avant toute écriture effective du mécanisme
 Extension effective du prompt réalisée :
 `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer.md`, section
 « Infrastructure veille mandate ». Le registre couvert s'élargit au-delà des
-3 scripts + empreinte serveur prévus ici : ajout d'un registre H‍ermes-Terminal
+3 scripts + empreinte serveur prévus ici : ajout d'un registre Hermes-Terminal
 (intégrité bind mounts Mehdi, santé des 12 gateways, staleness `_inbox/`),
 motivé par une session distincte (canal Telegram pour Mehdi + mandat d'audit),
 où un bind mount `karubi-mehdi.md` a été trouvé figé sur un inode périmé sans
@@ -285,7 +285,7 @@ allowlisting, `hermes -p studio gateway install/restart`. Statut de cette note
 laissé à `brouillon` (comme pour l'intégration du 2026-08-12) : le prompt est
 étendu, le mécanisme d'exécution ne l'est pas encore.
 
-Le risque nommé au §IV (surface d'écriture d'un agent H‍ermes) est désormais 
+Le risque nommé au §IV (surface d'écriture d'un agent Hermes) est désormais 
 contenu par le §III.3 (signalement Discord uniquement, jamais d'écriture 
 directe au registre), quel que soit l'exécutant. Ce n'est pas une dérogation 
 à la porte humaine, c'est sa réaffirmation.

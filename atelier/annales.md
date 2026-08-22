@@ -420,7 +420,7 @@ joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
   (commit `6d0d43c`) — correction annexe : `/root/sandbox-rd/` existe
   mais est vide (l'étude du jour le disait absent).
 
-## [2026-08-19] rd | Job cron H‍ermes `coherence-infrastructure-brute` réparé, archive du monitoring passée en cron dédié
+## [2026-08-19] rd | Job cron Hermes `coherence-infrastructure-brute` réparé, archive du monitoring passée en cron dédié
 
 - **Contexte** : suite de la clôture de session du 2026-08-18 (entrée
   ci-dessous) — deux points laissés en signalement seul y sont repris et
@@ -428,7 +428,7 @@ joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
   pour tout rétablir »).
 - **`coherence-infrastructure-brute` (id `ca9593f3a03d`, profil `studio`)** :
   réparé en deux temps. (1) « Script not found » — un premier remède par
-  lien symbolique a été rejeté par H‍ermes lui-même (garde-fou de résolution
+  lien symbolique a été rejeté par Hermes lui-même (garde-fou de résolution
   de chemin canonique, hors du dossier `scripts/` du profil) ; remplacé par
   une copie réelle. (2) La copie réelle a révélé un second défaut, plus
   grave car silencieux : `last_status: "ok"` alors que le script, privé de
@@ -437,7 +437,7 @@ joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
   sortie persistée, jamais par confiance dans le statut narré. Corrigé par
   une enveloppe (`verifier-coherence-infrastructure-cron.sh`) qui fixe
   `--racine /root/wiki` en dur. Re-vérifié : 3 affirmations, 0 écart.
-- **Archive du monitoring quotidien — ingestion tranchée** : cron H‍ermes
+- **Archive du monitoring quotidien — ingestion tranchée** : cron Hermes
   dédié (`archiver-monitoring-quotidien`, id `5eb46eed6ba0`, profil
   `studio`, `10 12 * * *`), via une enveloppe symétrique
   (`archiver-monitoring-quotidien-cron.sh`) pour la même raison (arguments
@@ -468,10 +468,10 @@ joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
   2. Deux entrées ajoutées à
      [[atelier/rd/cahiers/registre-problemes]] : la cause racine ci-dessus
      (avec quatre points ouverts pour verdict de Sidy) et une découverte
-     annexe — le job cron H‍ermes `coherence-infrastructure-brute` (profil
+     annexe — le job cron Hermes `coherence-infrastructure-brute` (profil
      `studio`), censé être le contrôle anti-fabulation direct de l'étape 4
      du rapport quotidien, échoue depuis sa création (script introuvable au
-     chemin résolu par H‍ermes pour un job `no_agent`) et n'est documenté
+     chemin résolu par Hermes pour un job `no_agent`) et n'est documenté
      nulle part. Signalé, non corrigé (modification d'un job de production,
      décision humaine requise).
   3. Nouveau dossier
@@ -480,9 +480,9 @@ joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
      [[atelier/rd/outillage/spec-archiver-monitoring-quotidien|
      archiver-monitoring-quotidien.py]]) : copie datée `.txt` (jamais `.md`,
      pour éviter que l'archive ne s'auto-déclenche sur ses propres tokens
-     `[[...]]` cités en sortie brute) de chaque exécution du job H‍ermes
+     `[[...]]` cités en sortie brute) de chaque exécution du job Hermes
      `monitoring-infrastructure-quotidien`, purge au-delà de 40 jours.
-     Découvert en cours de route : H‍ermes persiste déjà chaque sortie de job
+     Découvert en cours de route : Hermes persiste déjà chaque sortie de job
      cron sur disque — le script se branche dessus sans toucher au job de
      production ni à Discord. Testé en dry-run puis appliqué : 2 rapports
      archivés (2026-08-17, 2026-08-18). Déclenchement récurrent (manuel ou
@@ -491,7 +491,7 @@ joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
 - **Compréhension tirée** : troisième occurrence du motif « cron affirmé ≠
   cron fonctionnel » dans ce registre — un job `enabled + scheduled` ne
   garantit rien sur son historique réel de succès, seule une lecture directe
-  de l'état H‍ermes (ou une inspection CLI qui manque aujourd'hui) le révèle.
+  de l'état Hermes (ou une inspection CLI qui manque aujourd'hui) le révèle.
 - **Commit** : 61f3469
 
 ## [2026-08-18] archivage | Dossier SAV Neve 1073SPX + fiches matériel du studio
@@ -571,13 +571,13 @@ joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
 ## [2026-08-17] outillage | Contrôle déterministe de cohérence infrastructure — angle mort doc/runtime
 
 - **Symptôme** : investigation demandée par Sidy sur l'angle mort de
-  continuité entre Claude Code, H‍ermes Terminal et les agents Discord.
+  continuité entre Claude Code, Hermes Terminal et les agents Discord.
   Mesure mécanique indépendante (§VIII.2) : `hermes --profile studio cron
   list --all` retournait « No scheduled jobs » alors que la fiche
   `activation-monitoring-studio-cron-2026-08-17.md`, commitée le jour même,
   affirmait la création d'un job `b7acb57e3d58` avec tableau de paramètres
   complet. Aucune trace côté log. 3ᵉ occurrence en 48h du motif « deux gestes
-  distincts » (plan/prompt validé ≠ configuration H‍ermes opérée).
+  distincts » (plan/prompt validé ≠ configuration Hermes opérée).
 - **Diagnostic** : une consigne rédactionnelle seule (« vérifier avant de
   clore ») avait déjà été écrite dans cette même fiche et n'avait pas
   empêché la fiche elle-même de fabuler. Le remède ne pouvait pas être une
@@ -702,7 +702,7 @@ joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
   message test envoyé via `sudo -u mehdi hermes --profile habib-mehdi send`
 - **Fiche R&D** : `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16.md`
   mise à jour (§5 : architecture corrigée et en service)
-- **Configuration H‍ermes** (`.env`, `config.yaml`, services systemd) : hors dépôt,
+- **Configuration Hermes** (`.env`, `config.yaml`, services systemd) : hors dépôt,
   jamais commitée — le présent commit ne porte que la documentation wiki
   (fiches + annales + registre), vérifiée exempte de tout secret avant staging.
 - **Commit** : 954712f
@@ -723,7 +723,7 @@ joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
   au-delà de la simple homologie) renvoyée en discernement doctrinal, lien
   signalé sens unique : `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md`
   (enrichi ce jour, statut `speculatif`, verdict réservé).
-- Pistes H‍ermes (§8 de la fiche) posées comme jalon, aucune décision
+- Pistes Hermes (§8 de la fiche) posées comme jalon, aucune décision
   d'implémentation.
 - Passage par `_inbox/cordis-composabilite-spatiotemporelle/` avant intégration
   (validation Sidy des deux tours de plan, 2026-08-16).
@@ -732,13 +732,13 @@ joint qualifié, aucune fiche doctrinale créée ou modifiée** (Cmd 6, Cmd 12).
 ## [2026-08-15] archivage | Bilan R&D — pont inter-agents
 
 Fiche `atelier/rd/cahiers/bilan-2026-08-15-pont-agents.md` créée : synthèse de la
-période 2026-08-08 → 2026-08-15 destinée à tout agent (H‍ermes terminal, Claude
+période 2026-08-08 → 2026-08-15 destinée à tout agent (Hermes terminal, Claude
 Code, ou autre) reprenant le fil des travaux R&D sans avoir participé aux sessions
 antérieures. Couvre : ouverture et structure du pôle R&D, outillage déterministe
 du dépôt, outillage Karūbī (append-only + admin Agent 10, verdict Sidy 2026-08-15),
 spec rôle G0 de brouillon §4, Bureau TUI, infrastructure Hetzner, phase 3 veille,
-extension zodiacale, SRS H‍ermes-native ; chantiers ouverts par priorité (dont le
-blocage A — isolation mémoire H‍ermes par sub-agent : décision propre de Sidy,
+extension zodiacale, SRS Hermes-native ; chantiers ouverts par priorité (dont le
+blocage A — isolation mémoire Hermes par sub-agent : décision propre de Sidy,
 assumée le même jour, pas une incohérence à corriger) ; leçons transversales
 opérationnelles. Aucun contenu doctrinal. Lien entrant ajouté dans
 `atelier/rd/index.md`. Committé dans le même lot que l'outillage de navette
@@ -1073,7 +1073,7 @@ des fiches `doctrinal/discernement/`.
 
 ---
 
-## [2026-08-11] agents-h‍ermes | Extension du prompt agent 09 (Studio Sound Engineer, pos. 9 Sagittaire) — zodiacal + governance
+## [2026-08-11] agents-hermes | Extension du prompt agent 09 (Studio Sound Engineer, pos. 9 Sagittaire) — zodiacal + governance
 
 - **Opération** : intégration au prompt en production des sections zodiacales 
   (principle + harmonisation thème natal) et de la clause de gouvernance Discord-validation 
@@ -1211,14 +1211,14 @@ des fiches `doctrinal/discernement/`.
 
 - **Opération** : Sidy rouvre le §III.1 (déjà tranché : routine poste
   INTÉGRATION) en le reliant explicitement au chantier de l'extension de
-  rôle des 12 agents H‍ermes sur calibrage zodiacal (fiches
+  rôle des 12 agents Hermes sur calibrage zodiacal (fiches
   `meta/projet-unifie/16-...`, `17-...`) et attribue la veille
   infrastructure à la **position 9 (Sagittaire), Studio Sound Engineer** —
   seul rôle des 12 de registre technique/matériel, après cartographie
   complète des 12 positions confirmant l'absence d'autre candidat naturel.
   Ancien verdict conservé barré (sashimono, réversibilité), cascade
   documentée sur le mécanisme du §VI (rouvert à son tour), §III.3 et §IV
-  inchangés. Chantier FS/accès H‍ermes nommé, non résolu, hors périmètre.
+  inchangés. Chantier FS/accès Hermes nommé, non résolu, hors périmètre.
   Détail au registre : [[atelier/rd/cahiers/registre-problemes]].
 - **Fichiers modifiés** :
   `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`
@@ -1277,7 +1277,7 @@ des fiches `doctrinal/discernement/`.
 
 - **Opération** : Sidy confirme la fréquence du cron proposée au §VI —
   **quotidienne**, cohérente avec le « Rapport du matin » déjà envisagé côté
-  H‍ermes/gardien. Note mise à jour. Détail au registre :
+  Hermes/gardien. Note mise à jour. Détail au registre :
   [[atelier/rd/cahiers/registre-problemes]].
 - **Fichiers modifiés** :
   `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md` (§VI,
@@ -1313,7 +1313,7 @@ des fiches `doctrinal/discernement/`.
 
 - **Opération** : instruction des deux volets laissés ouverts par le §III
   (déclencheur de la routine, canal Discord de signalement). Recherche menée
-  sur l'architecture Discord H‍ermes (`meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`)
+  sur l'architecture Discord Hermes (`meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`)
   et le prompt réel du profil `gardien`
   (`meta/projet-unifie/hermes-prompts/10-protocol-guardian.md`), révélant que
   ce dernier a un mandat doctrinal/éthique et non technique malgré son
@@ -1346,7 +1346,7 @@ des fiches `doctrinal/discernement/`.
   arrière sur la question 3, au registre :
   [[atelier/rd/cahiers/registre-problemes]].
 - **Verdicts Sidy (2026-08-11)** : (1) routine côté poste INTÉGRATION, pas
-  d'agent H‍ermes dédié ; (2) périmètre = 3 scripts déterministes + mesure
+  d'agent Hermes dédié ; (2) périmètre = 3 scripts déterministes + mesure
   d'empreinte serveur (récurrence de la mesure laissée en chantier séparé) ;
   (3) signalement via un canal Discord existant, aucune écriture
   automatique dans `registre-problemes.md`.
@@ -1380,7 +1380,7 @@ des fiches `doctrinal/discernement/`.
   sas — `_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md`,
   statut `brouillon`, non visée. Ne désigne aucun agent ; pose trois questions
   (qui, quoi, quand un signal devient une entrée du registre) et un risque
-  (surface d'écriture si confiée à un agent H‍ermes) pour verdict de Sidy.
+  (surface d'écriture si confiée à un agent Hermes) pour verdict de Sidy.
   Aucune écriture hors `_inbox/` pour ce volet (Cmd 6).
 - **Fichiers modifiés** : `atelier/rd/index.md`,
   `atelier/rd/cahiers/registre-problemes.md` (2 nouvelles entrées),
@@ -1406,7 +1406,7 @@ des fiches `doctrinal/discernement/`.
   de l'exemption C3 consigné au registre le 2026-08-09. Non bloquant, cohérent
   avec la phase de calibrage en cours (CLAUDE.md, amendement 2026-07-27).
 - **Créé** : `atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11.md` —
-  relevé factuel matériel + empreinte mémoire (12 profils H‍ermes, `omniroute`),
+  relevé factuel matériel + empreinte mémoire (12 profils Hermes, `omniroute`),
   sans interprétation ni recommandation. Lié depuis [[atelier/rd/index]].
 - **Piste outillage « générateur tolérant »** : constat que
   `Graphe/generer-cartographie.py` est déjà en v1.1 (2026-07-22, antérieure au

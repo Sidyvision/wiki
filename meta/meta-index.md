@@ -41,17 +41,21 @@ updated: 2026-08-09
 - [[meta/personnel/2026-06-20_temperament|Profil de tempérament personnel (Tibb)]]
 - [[meta/personnel/2026-06-20_theme-astrologique|Thème astrologique personnel (astrologie occidentale)]]
 - [[meta/personnel/2026-06-20_triptyque-animaux|Triptyque onirique — rats, chiens, singes (11 avril 2025, post-khalwa)]]
+- [[meta/personnel/2026-08-18_initiation-virtuelle|Initiation virtuelle — définition personnelle de Sidy]]
 - [[meta/personnel/echange-eleonore-g|Échange avec Éléonore G. — autour d'une vidéo de Félix Guattari]]
 
 ## Généalogie (`genealogie/`)
 
 - [[meta/genealogie/arbre-genealogique-sissoko|Arbre généalogique Sissoko (côté maternel)]]
 - [[meta/genealogie/dionkounandi-sissoko|Dionkounandi Sissoko]]
+- [[meta/genealogie/fanta-nna-diabate|Fanta « Nna » Diabaté]]
 - [[meta/genealogie/fatoumata-sissoko|Fatoumata Sissoko]]
 - [[meta/genealogie/hawa-kante|Hawa Kanté]]
 - [[meta/genealogie/keme-kante|Kemè Kanté]]
+- [[meta/genealogie/kouyate|Lignée Kouyaté (côté paternel)]]
 - [[meta/genealogie/mamadou-doudou-sissoko|Mamadou Doudou Sissoko]]
 - [[meta/genealogie/moussa-sissoko|Moussa Sissoko]]
+- [[meta/genealogie/samballa-kouyate|Samballa Kouyaté]]
 - [[meta/genealogie/sissoko-kankounan|Sissoko Kankounan]]
 - [[meta/genealogie/tapa-sissoko|Tapa Sissoko]]
 - [[meta/genealogie/2026-06-20_oiseau-serpent-jumeau|Le rêve de l'oiseau vert à quatre yeux et le « frère-serpent » de la lignée Kouyaté]]

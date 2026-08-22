@@ -35,11 +35,11 @@ Explicite, par Sidy, **après** une intégration de navette réussie via
 enchaîné à l'intégration elle-même, jamais pendant une session avec un
 destinataire (Cmd 13 : rien qui engage ne se déclenche seul).
 
-**Canal et commande** (2026-08-15) : ce rôle n'ouvre pas de sub-agent H‍ermes
+**Canal et commande** (2026-08-15) : ce rôle n'ouvre pas de sub-agent Hermes
 dédié — il s'exécute **côté Claude Code** (poste INTÉGRATION/AGENTS DE FONCTION,
 CLAUDE.md racine §I), qui dispose déjà nativement de la lecture des hubs
 `index.md`/`annales.md` des cinq circuits sans configuration supplémentaire.
-Aucune architecture de sub-agent isolé à construire côté H‍ermes Terminal pour
+Aucune architecture de sub-agent isolé à construire côté Hermes Terminal pour
 ce rôle précis — à la différence du sub-agent Karūbī destinataire, dont
 l'isolement mémoire/workspace reste, lui, une exigence technique distincte.
 

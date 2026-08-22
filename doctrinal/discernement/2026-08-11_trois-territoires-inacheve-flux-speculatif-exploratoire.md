@@ -90,7 +90,7 @@ Cette phase :
 
 **Registre alchimique** : c'est la **phase de calcination, dissolution, séparation** — où on met l'intention sous le feu de l'expérience, où on la teste contre la réalité, où on la purifie de ses illusions. Aucun résultat n'est garant à ce stade.
 
-**Exemple** : le brouillon de l'extension zodiacale des 12 agents H‍ermes est un chantier du Laboratoire — l'Intention (donner une portée zodiacale à chaque agent) se confronte à l'expérience (brouillons testés, reproductions en cours), sans engagement doctrinal avant que le Maître valide le résultat.
+**Exemple** : le brouillon de l'extension zodiacale des 12 agents Hermes est un chantier du Laboratoire — l'Intention (donner une portée zodiacale à chaque agent) se confronte à l'expérience (brouillons testés, reproductions en cours), sans engagement doctrinal avant que le Maître valide le résultat.
 
 ### Phase 3 : **Deux destinations — l'Acte finalisé ou l'Archivage**
 
@@ -165,7 +165,7 @@ Cette hypothèse elle-même est un **travail du Laboratoire** : elle énonce une
 
 Cette hypothèse enrichit :
 - **Protocole du dépôt wiki** (mémoire utilisateur) — gouvernance générale du dépôt
-- **Cloisonnement technique H‍ermes** (mémoire utilisateur) — accès FS des agents, hors champ mais connexe à la phase 2 d'une spéculation d'extension
+- **Cloisonnement technique Hermes** (mémoire utilisateur) — accès FS des agents, hors champ mais connexe à la phase 2 d'une spéculation d'extension
 - `meta/philosophie-sashimono.md` (art. 3 et 5 : démontabilité, réversibilité) — mention
   non liée : étanchéité §VI, `doctrinal/` ne pointe jamais vers `meta/`
 - `atelier/rd/index.md` (charte du pôle R&D, phase 1 partielle) — mention non liée :

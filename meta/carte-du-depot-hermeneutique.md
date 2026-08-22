@@ -2,8 +2,8 @@
 title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
-created: 2026-08-18
-updated: 2026-08-18
+created: 2026-08-22
+updated: 2026-08-22
 sources: []
 links: []
 ---
@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-18 17:03 UTC, sur `/root/wiki`.
-> Portée : circuit `hermeneutique/`. 21 fiches parcourues.
+> aucun réseau) le 2026-08-22 06:54 UTC, sur `/root/wiki`.
+> Portée : circuit `hermeneutique/`. 22 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -26,13 +26,13 @@ links: []
 
 ## I. Inventaire par circuit
 
-### `hermeneutique/` — 21 fiches
+### `hermeneutique/` — 22 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
 | `hermeneutique/20th-century-boys/20th-century-boys` | oeuvre | — | 2026-08-16 | — | 20th Century Boys |
 | `hermeneutique/CLAUDE` | — | — | — | — | (sans titre) |
-| `hermeneutique/annales` | meta | — | 2026-08-16 | — | Annales du circuit Herméneutique |
+| `hermeneutique/annales` | meta | — | 2026-08-20 | — | Annales du circuit Herméneutique |
 | `hermeneutique/auteurs/akira-toriyama` | auteur | — | 2026-08-16 | — | Akira Toriyama |
 | `hermeneutique/auteurs/hideo-kojima` | auteur | — | 2026-08-13 | — | Hideo Kojima (小島秀夫) |
 | `hermeneutique/auteurs/naoki-urasawa` | auteur | — | 2026-08-16 | — | Naoki Urasawa |
@@ -42,6 +42,7 @@ links: []
 | `hermeneutique/death-stranding/dhv-magellan` | dispositif | — | 2026-08-08 | — | DHV Magellan |
 | `hermeneutique/dr-slump/dr-slump` | oeuvre | — | 2026-08-16 | — | Dr Slump |
 | `hermeneutique/dragon-ball/dragon-ball` | oeuvre | — | 2026-08-16 | — | Dragon Ball |
+| `hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire` | concept | — | 2026-08-20 | — | Barzakh onirique et interface littéraire — l'ʿālam al-mithāl comme espace de la fiction |
 | `hermeneutique/hunter-x-hunter/hunter-association-licence` | dispositif | — | 2026-08-12 | — | Hunter — association et licence |
 | `hermeneutique/hunter-x-hunter/hunter-x-hunter` | oeuvre | — | 2026-08-12 | — | Hunter x Hunter |
 | `hermeneutique/hunter-x-hunter/nen-systeme` | concept | — | 2026-08-12 | — | Le Nen — système complet |
@@ -131,7 +132,7 @@ links: []
 
 - `hermeneutique/20th-century-boys/20th-century-boys` — Présentation · Matière centrale : la secte et la fabrication du sauveur · Ligne de force · 🔍 Clés doctrinales suggérées · 🪵 Restitution
 - `hermeneutique/CLAUDE` — Objet du circuit · Nomenclature · Le Sceau herméneutique · Portance et garde-fou (Cmd 3) · Clause de plasticité (structurelle)
-- `hermeneutique/annales` — [2026-08-16] archivage | Lot Toriyama / Urasawa — 5 fiches (2 auteurs… · [2026-08-13] verdict | Fondement du lien de source aux fiches d'auteu… · [2026-08-13] correction | Réciproque du lien de source chez Kojima et… · [2026-08-13] amendement | Protocole local — `sources/` et `type: sour… · [2026-08-13] correction | Index du circuit — référencement du dossier… · [2026-08-13] confrontation | Artbook Death Stranding — dépouillement … · [2026-08-12] archivage | iDroid — dispositif satellite de Mother Base · [2026-08-12] archivage | Marqueur d'insertion ajouté (mise en conform… · [2026-08-12] archivage | Lot Hunter x Hunter — œuvre, auteur, disposi… · [2026-08-08] archivage | Premier lot Kojima — Metal Gear, Death Stran… · [2026-08-04] ouverture | Circuit hermeneutique/ ouvert (5e circuit du…
+- `hermeneutique/annales` — [2026-08-20] réparation | Rétablissement de la convention d'insertion… · [2026-08-20] expression | Barzakh onirique et interface littéraire · [2026-08-16] archivage | Lot Toriyama / Urasawa — 5 fiches (2 auteurs… · [2026-08-13] verdict | Fondement du lien de source aux fiches d'auteu… · [2026-08-13] correction | Réciproque du lien de source chez Kojima et… · [2026-08-13] amendement | Protocole local — `sources/` et `type: sour… · [2026-08-13] correction | Index du circuit — référencement du dossier… · [2026-08-13] confrontation | Artbook Death Stranding — dépouillement … · [2026-08-12] archivage | iDroid — dispositif satellite de Mother Base · [2026-08-12] archivage | Marqueur d'insertion ajouté (mise en conform… · [2026-08-12] archivage | Lot Hunter x Hunter — œuvre, auteur, disposi… · [2026-08-08] archivage | Premier lot Kojima — Metal Gear, Death Stran… · [2026-08-04] ouverture | Circuit hermeneutique/ ouvert (5e circuit du…
 - `hermeneutique/auteurs/akira-toriyama` — Élément biographique · Trait et méthode · Rayonnement transverse · Œuvres couvertes par ce dépôt · 🪵 Restitution
 - `hermeneutique/auteurs/hideo-kojima` — 1. Position dans le circuit · 2. Repères biographiques `to-source` · 3. Le geste propre : la thèse exécutée · 4. Le motif du bâton et de la corde · 5. Constance des collaborateurs · 6. Confrontation Gizeh · 7. Signalement des sources à lever
 - `hermeneutique/auteurs/naoki-urasawa` — Élément biographique · Carrière · Influences et méthode · Œuvres couvertes par ce dépôt · 🪵 Restitution
@@ -141,6 +142,7 @@ links: []
 - `hermeneutique/death-stranding/dhv-magellan` — 1. Ce que c'est · 2. La différence décisive avec Mother Base · 3. Le nom · 4. Fonctions `to-source` · 5. Le Corpus — l'élément qui compte pour le circuit · 6. Menus et interface `to-source` · 6 bis. Aucune restitution — et pourquoi la mise en garde du §5 tient … · 7. Confrontation Gizeh · 8. Sources à déposer
 - `hermeneutique/dr-slump/dr-slump` — Présentation · Registre et style · Rapport à Dragon Ball · 🪵 Restitution
 - `hermeneutique/dragon-ball/dragon-ball` — Présentation · Matrice source : la Pérégrination vers l'Ouest · Ligne de force narrative · 🔍 Clé doctrinale suggérée · 🪵 Restitution
+- `hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire` — Statut · Hypothèse explorée · Genèse de l'idée · Ce que l'hypothèse explore · Ce que l'hypothèse **ne** prétend **pas** · Résonances avec le dépôt · Ouvertures · Vigilance
 - `hermeneutique/hunter-x-hunter/hunter-association-licence` — 1. L'Association des Hunters · 2. L'examen de Hunter · 3. Catégories de Hunters (mémoire générale, liste non exhaustive) · 4. Remarque structurelle (sans clé doctrinale ouverte) · 5. Statut
 - `hermeneutique/hunter-x-hunter/hunter-x-hunter` — 1. Identification · 2. Synopsis directeur · 3. Structure en arcs (mémoire générale, à confirmer/compléter) · 4. Axes thématiques retenus pour l'analyse · 5. Postulat herméneutique de la session · 6. Statut
 - `hermeneutique/hunter-x-hunter/nen-systeme` — 1. Définition générale · 2. Les quatre principes fondateurs · 3. Techniques avancées (les six confirmées dans l'œuvre) · 4. Les six catégories (typologie des praticiens) · 5. Le système du vœu et de la limitation (chikai to seiyaku / 誓約と制約) · 6. Joint vers le circuit doctrinal (portance zōsaku) · 7. Statut
@@ -166,12 +168,12 @@ links: []
 - `hermeneutique/CLAUDE` (1)
   - L80 : par elle-même aucun `to-source`** — la levée reste un verdict de l'utilisateur sur
 - `hermeneutique/annales` (9)
-  - L42 : demeurent `sources: ["to-source"]` : la filiation ne lève aucun `to-source` et ne
-  - L61 : demeurent `sources: ["to-source"]` et ne tirent aucune assertion de la pièce ; le
-  - L89 : elle-même aucun `to-source`**, la levée restant un verdict de l'utilisateur sur
-  - L131 : terme comme lettre et **ne lève aucun `to-source`**. La décision de méthode du §5
-  - L164 : affirmée sans texte consulté (Cmd 5) — rétrogradée en piste `to-source` explicite ;
-  - L167 : texte) désormais déclaré, la correspondance restant `to-source`.
+  - L66 : demeurent `sources: ["to-source"]` : la filiation ne lève aucun `to-source` et ne
+  - L85 : demeurent `sources: ["to-source"]` et ne tirent aucune assertion de la pièce ; le
+  - L113 : elle-même aucun `to-source`**, la levée restant un verdict de l'utilisateur sur
+  - L155 : terme comme lettre et **ne lève aucun `to-source`**. La décision de méthode du §5
+  - L188 : affirmée sans texte consulté (Cmd 5) — rétrogradée en piste `to-source` explicite ;
+  - L191 : texte) désormais déclaré, la correspondance restant `to-source`.
   - … (+3)
 - `hermeneutique/auteurs/hideo-kojima` (7)
   - frontmatter sources: to-source
@@ -256,12 +258,13 @@ links: []
 ### Liens non résolus
 
 - `hermeneutique/20th-century-boys/20th-century-boys` → `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/renversement-des-symboles`
-- `hermeneutique/annales` → `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/renversement-des-symboles`, `doctrinal/symboles/lignees-celestes-taoisme`
+- `hermeneutique/annales` → `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/renversement-des-symboles`, `doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025`, `doctrinal/symboles/lignees-celestes-taoisme`
 - `hermeneutique/auteurs/hideo-kojima` → `atelier/etudes-de-cas/kojima-productions`, `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-a…`, `doctrinal/symboles/outil-faculte-objectivee`
 - `hermeneutique/auteurs/yoji-shinkawa` → `atelier/etudes-de-cas/kojima-productions`, `doctrinal/symboles/outil-faculte-objectivee`
 - `hermeneutique/death-stranding/death-stranding` → `doctrinal/deviations/confusion-psychique-spirituel`, `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-a…`, `doctrinal/symboles/alam-al-mithal`, `doctrinal/symboles/barzakh`, `doctrinal/symboles/habl-allah`
 - `hermeneutique/death-stranding/dhv-magellan` → `doctrinal/sources/kitab-al-tarifat-jurjani`
 - `hermeneutique/dragon-ball/dragon-ball` → `doctrinal/symboles/lignees-celestes-taoisme`
+- `hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire` → `doctrinal/symboles/alam-al-mithal`, `doctrinal/symboles/barzakh`
 - `hermeneutique/hunter-x-hunter/hunter-x-hunter` → `doctrinal/discernement/2026-08-12_nen-pacte-restriction-asc…`
 - `hermeneutique/index` → `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/renversement-des-symboles`, `doctrinal/discernement/2026-08-12_nen-pacte-restriction-asc…`, `doctrinal/symboles/lignees-celestes-taoisme`
 - `hermeneutique/metal-gear/big-boss` → `doctrinal/deviations/confusion-psychique-spirituel`
@@ -275,23 +278,23 @@ links: []
 
 | circuit | fiches |
 |---|---|
-| `hermeneutique/` | 21 |
-| **total** | **21** |
+| `hermeneutique/` | 22 |
+| **total** | **22** |
 
 | type | n |
 |---|---|
 | `oeuvre` | 6 |
 | `auteur` | 5 |
 | `dispositif` | 4 |
+| `concept` | 2 |
 | `meta` | 2 |
 | `(absent)` | 1 |
-| `concept` | 1 |
 | `figure` | 1 |
 | `source` | 1 |
 
 | status | n |
 |---|---|
-| `(absent)` | 21 |
+| `(absent)` | 22 |
 
 **Fiches sans frontmatter (1)** — signalement, aucune correction :
 

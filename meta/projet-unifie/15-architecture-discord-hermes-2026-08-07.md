@@ -1,12 +1,12 @@
 ---
-title: "15 — Architecture Discord des 12 agents H‍ermes (2026-08-07)"
+title: "15 — Architecture Discord des 12 agents Hermes (2026-08-07)"
 type: meta
 tags: [outillage, projet-claude-ai, infrastructure, hermes, discord, runbook]
 created: 2026-08-07
 updated: 2026-08-16
 ---
 
-# 15 — Architecture Discord des 12 agents H‍ermes (2026-08-07)
+# 15 — Architecture Discord des 12 agents Hermes (2026-08-07)
 
 > **Pourquoi cette fiche existe** : toute la configuration Discord (tokens, salons,
 > services système) vit **hors du dépôt git**, dans `/root/.hermes/profiles/*/` et dans
@@ -40,7 +40,7 @@ Git, y compris après suppression du fichier).
 Un serveur Discord privé unique héberge tous les agents. Chaque agent = une application
 Discord distincte (bot séparé, token séparé — pas de token partagé entre profils).
 
-| # | Profil H‍ermes | Rôle (prompt source) | Salon(s) Discord |
+| # | Profil Hermes | Rôle (prompt source) | Salon(s) Discord |
 |---|---|---|---|
 | 01 | `ar-music` | Direction artistique musicale | `#marketing` |
 | 02 | `visual-da` | Direction artistique visuelle (+ technique image, cf. commit `0d96231`) | `#analog-wizard` |
@@ -111,7 +111,7 @@ observés en usage réel (2026-08-07/08) :
   remplacer la clé partagée. **Vérifier `logs/errors.log` de chaque profil en cas de
   panne apparente d'un agent — c'est la première cause à exclure.**
 - **Cloisonnement filesystem** : aucun mécanisme de sandboxing actif (voir levier natifs
-  possibles côté H‍ermes — non documentés ici, décision de durcissement différée
+  possibles côté Hermes — non documentés ici, décision de durcissement différée
   volontairement par Sidy après retour d'expérience réel sur Discord).
 - **Canaux non encore activés** : Telegram (voir 13e profil ci-dessous, préparé
   mais pas encore en service), WhatsApp (Discord seul est pleinement en production).

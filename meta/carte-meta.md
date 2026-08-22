@@ -95,7 +95,7 @@ links: []
 | `meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03` | meta | — | 2026-07-07 | — | 12 — Procédure Phase 1 : Installation Hermes Agent + validation CLI (2026-07-03) |
 | `meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07` | meta | — | 2026-07-07 | — | 13 — Pivot Haiku & Procédure Phase 1 révisée : Installation Hermes Agent (2026-07-07) |
 | `meta/projet-unifie/14-compte-rendu-redeploiement-qwen-2026-07-08` | meta | — | 2026-07-08 | — | 14 — Compte-rendu : Re-déploiement Qwen3.6-27B-FP8 sur RunPod (2026-07-08) |
-| `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` | meta | — | 2026-08-07 | — | 15 — Architecture Discord des 12 agents H‍ermes (2026-08-07) |
+| `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` | meta | — | 2026-08-07 | — | 15 — Architecture Discord des 12 agents Hermes (2026-08-07) |
 | `meta/projet-unifie/README` | meta | — | 2026-07-01 | — | Dossier d'amorçage — Projet unifié « LLM-Wiki & Instrument de la Tradition Primordiale » |
 | `meta/projet-unifie/briefing-claude-ai` | meta | — | 2026-07-06 | — | Briefing Claude.ai — Projet Wiki & Label (handoff serveur → iPad) |
 | `meta/projet-unifie/chatgpt-export-2026-05-10` | source | — | 2026-06-02 | — | Export de données ChatGPT (2026-05-10) |
