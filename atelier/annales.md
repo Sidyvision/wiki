@@ -10,6 +10,46 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-23] archivage | déplacement citadelle-du-sham, deux rapports, outillage bibliothèque
+
+Suite du traitement du lot 2026-08-22, sur feu vert explicite de Sidy
+(« commite l'ensemble ») pour les éléments précédemment signalés comme
+exclus du commit du tombstone.
+
+- `_inbox/citadelle-du-sham/` → `atelier/rd/citadelle-du-sham/` (prototype
+  de Mehdi, statut « à consulter — initiative hors dépôt canonique »,
+  `type: rapport-agent`). **Incident Unicode détecté au contrôle Cmd 15** :
+  les deux copies de `citadelle-sham.html` portaient chacune 20 caractères
+  Zero Width Joiner, même motif que l'incident du 2026-08-22
+  (« Hermes » recopié avec le joiner) — non couvert par le rapport
+  d'incident existant. Corrigés avant commit ; git ne détecte donc plus ces
+  deux fichiers comme renommage pur (contenu modifié par la correction).
+- `_inbox/rapport-conjoint-studio-gardien-etude-depot-20260820.md` et
+  `_inbox/rapport-studio-exploration-preliminaire.md` →
+  `atelier/rd/cahiers/`.
+- Outillage non commité de `rd/bibliotheque/` (`.gitignore`,
+  `generer-glossaire-unifie.py`, `glossaire-unifie.md`,
+  `valider-index-livres.py`, `valider_index_livres_shim.py`) et
+  `atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres.md`,
+  requis pour que le lien déjà ajouté à `atelier/rd/index.md` (commit
+  79ffb33) pointe vers un fichier réellement versionné.
+- `atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md` (le
+  post-scriptum de récidive ZWJ précédemment signalé comme exclu) inclus
+  dans ce même commit.
+
+**Signalement — restent hors périmètre**, non demandés par Sidy :
+`_inbox/2026-08-22 etude-cas-zellige-grande-mosquee-paris.md`,
+`_inbox/UPDATES.md`, `_inbox/ordre-lot1-rig-veda.md` (contenus de sas
+distincts, procédure d'intégration standard à suivre — §IX) et
+`CLAUDE.md.bak-2026-08-22-pre-deplacement-bibliotheque` (artefact de
+sauvegarde local, ne relève pas du contenu du dépôt — laissé hors git).
+
+**Contrôle** : Unicode (Cmd 15) vérifié sur tous les fichiers texte du lot ;
+`verifier-invariants.py --racine /root/wiki` inchangé (5 erreurs,
+62 avertissements, tous préexistants sur d'autres fichiers).
+
+**Commit** : ca6221d
+
 ## [2026-08-23] archivage | tombstone bibliotheque-physique.md et documentation du déplacement
 
 Régularisation d'un lot resté non commité depuis le 2026-08-22 (déplacement du
