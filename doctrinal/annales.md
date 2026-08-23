@@ -1,13 +1,44 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-20
+updated: 2026-08-23
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-23] restauration | Normalisation frontmatter `sources:` — 5 fiches autorites (investigation Gardien 2026-08-23, verdict Sidy)
+
+- **Contexte** : rapport d'investigation doctrinale du Gardien (2026-08-23, cron
+  `investigation-doctrinale-gardien`) — signalement principal : divergence
+  systématique corps/frontmatter sur les 5 fiches `autorites/` les plus anciennes
+  à `sources_count: 0`. Les wikilinks sources figuraient déjà dans le corps
+  (« — source : [[…]] ») mais le champ frontmatter restait à `[to-source]`.
+  Sidy valide l'ensemble des suggestions du rapport (message Discord 2026-08-23).
+- **Opération** : recopie des wikilinks sources du corps vers `sources:` du
+  frontmatter, `sources_count` incrémenté, `updated:` remonté au 2026-08-23 —
+  corps des fiches INTACTS (aucune réécriture de contenu).
+  - `doctrinal/autorites/ahmad-al-buni.md` — `sources: [[shams-al-maarif]]` (1)
+  - `doctrinal/autorites/al-ghazali.md` — `sources: [[islam-and-artificial-intelligence]]` (1) ;
+    le fait « Tahāfut al-Falāsifa » reste `to-source` dans le corps (signalement conservé)
+  - `doctrinal/autorites/ali-hussain.md` — `sources: [[awrad-ibn-arabi]]`,
+    `[[jesus-and-enoch-in-ibn-arabi]]` (2)
+  - `doctrinal/autorites/ibn-arabi.md` — `sources: [[awrad-ibn-arabi]]`,
+    `[[jesus-and-enoch-in-ibn-arabi]]`, `[[ilm-al-nujum-astrologie-traditionnelle]]`,
+    `[[doctrinal/sources/malamatiyah-futuhat-ch23]]` (4)
+  - `doctrinal/autorites/idris.md` — `sources: [[jesus-and-enoch-in-ibn-arabi]]` (1)
+- **Aucune levée humaine de `to-source`** : il ne s'agit que d'une mise en
+  cohérence machine-lisible de sources déjà citées dans le corps ; la discipline
+  des sources (racine §VII) reste entière pour les faits non sourcés du corps.
+- **Signalements conservés** (rapport Gardien, soumis à Sidy) : correspondance
+  Idrīs/Ikhwān al-Ṣafāʾ (index-noms-ihwan-al-safa.md l. 123) — rapprochement non
+  établi, relevant d'un discernement éventuel (Cmd 3) ; fiches `sources/` à
+  `sources_count: 0` documenté comme régime normal du type, pas une anomalie.
+- **Vérification mécanique** : `verifier-invariants.py` — aucune erreur/avertissement
+  nouveau sur les 5 fiches (1 erreur + 15 avertissements préexistants, hors périmètre).
+- **Commit** : 30f34f0
 
 ## [2026-08-20] réparation | Sceau Recteur — 3 fiches du lot kabbale + sens de lien manvantara.md
 
