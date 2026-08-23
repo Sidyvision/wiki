@@ -9,10 +9,10 @@ tags:
 - afrique-ouest
 - tijaniyya
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-08-23
 sources:
-- to-source
-sources_count: 0
+- '[[shams-al-maarif]]'
+sources_count: 1
 cross_links:
 - '[[ahmad-al-buni]]'
 - '[[ilm-al-huruf]]'

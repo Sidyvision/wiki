@@ -8,18 +8,18 @@ tags:
 - tradition
 - perennialisme
 created: 2026-06-02
-updated: 2026-08-13
-sources_count: 0
+updated: 2026-08-23
+sources_count: 4
 cross_links:
 - '[[doctrinal/symboles/malamatiyya]]'
 - '[[doctrinal/sources/malamatiyah-futuhat-ch23]]'
-- '[[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]]'
-- '[[doctrinal/deviations/confusion-psychique-spirituel]]'
-- '[[doctrinal/deviations/contre-initiation]]'
-- '[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]'
 - '[[doctrinal/sources/shams-al-maarif]]'
 - '[[doctrinal/autorites/ahmad-al-buni]]'
-sources: []
+sources:
+- '[[doctrinal/deviations/confusion-psychique-spirituel]]'
+- '[[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]]'
+- '[[doctrinal/deviations/contre-initiation]]'
+- '[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]'
 ---
 
 # René Guénon
