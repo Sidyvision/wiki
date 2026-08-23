@@ -9,10 +9,13 @@ tags:
 - andalousie
 - akbarisme
 created: 2026-06-02
-updated: 2026-07-09
+updated: 2026-08-23
 sources:
-- to-source
-sources_count: 0
+- '[[awrad-ibn-arabi]]'
+- '[[jesus-and-enoch-in-ibn-arabi]]'
+- '[[ilm-al-nujum-astrologie-traditionnelle]]'
+- '[[doctrinal/sources/malamatiyah-futuhat-ch23]]'
+sources_count: 4
 cross_links:
 - '[[tasawwuf]]'
 - '[[walaya]]'

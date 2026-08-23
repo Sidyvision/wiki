@@ -10,10 +10,11 @@ tags:
 - isca
 - jmias
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-08-23
 sources:
-- to-source
-sources_count: 0
+- '[[awrad-ibn-arabi]]'
+- '[[jesus-and-enoch-in-ibn-arabi]]'
+sources_count: 2
 cross_links:
 - '[[ibn-arabi]]'
 - '[[wird-awrad]]'

@@ -11,10 +11,10 @@ tags:
 - enoch
 - qutb
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-08-23
 sources:
-- to-source
-sources_count: 0
+- '[[jesus-and-enoch-in-ibn-arabi]]'
+sources_count: 1
 cross_links:
 - '[[ibn-arabi]]'
 - '[[barzakh]]'
