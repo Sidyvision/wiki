@@ -10,6 +10,45 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-23] archivage | tombstone bibliotheque-physique.md et documentation du déplacement
+
+Régularisation d'un lot resté non commité depuis le 2026-08-22 (déplacement du
+catalogue de bibliothèque hors du Domaine Réservé, signalé la session précédente
+comme modifié-mais-non-commité). Traitement demandé explicitement par Sidy
+(« Oui, traite le tombstone meta/bibliotheque-physique.md »).
+
+- `meta/bibliotheque-physique.md` converti en tombstone conforme (Cmd 10) :
+  `status: deprecated`, pointeur vers
+  [[atelier/rd/bibliotheque/catalogue-bibliotheque]], motif rappelé
+  (inatteignable en `meta/`, faute de lien entrant — §VI).
+- `CLAUDE.md` (racine), `atelier/index.md`, `atelier/rd/index.md` mis à jour
+  pour refléter le nouveau chemin du catalogue.
+- `meta/meta-index.md` et `meta/meta-annales.md` committés avec leur entrée du
+  déplacement, déjà rédigée dans le même lot du 2026-08-22 (portait aussi
+  l'ouverture du rôle Hermes #13 bibliothécaire-archiviste, sujet distinct
+  bundlé dans la même rédaction — Cmd 4, non retouché ici).
+- `meta/projet-unifie/hermes-prompts/13-librarian-archivist.md` (fichier du
+  rôle #13) inclus car référencé par `meta/meta-index.md` ; vérifié exempt de
+  caractères Unicode invisibles avant commit (Cmd 15).
+
+**Signalement — exclus délibérément de ce commit** (sujets distincts, restés
+non tranchés, tous datés du même 2026-08-22 mais sans rapport avec le
+tombstone) : le post-scriptum de récidive ZWJ dans
+`atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md`, le
+déplacement du prototype `citadelle-du-sham` (`_inbox/` → `atelier/rd/`), deux
+rapports déplacés `_inbox/` → `atelier/rd/cahiers/`, un fichier `.bak`
+(`CLAUDE.md.bak-2026-08-22-pre-deplacement-bibliotheque`), et l'outillage non
+commité de `rd/bibliotheque/` (`generer-glossaire-unifie.py`,
+`valider-index-livres.py`, etc.). Aucun de ces éléments n'a été demandé par
+Sidy dans le cadre du présent traitement ; ils attendent verdict séparé.
+
+**Contrôle** : caractères Unicode invisibles (Cmd 15) absents des 7 fichiers
+commités ; `verifier-invariants.py --racine /root/wiki` ne signale aucune
+erreur ni avertissement nouveau imputable à ce lot (5 erreurs bloquantes et
+62 avertissements préexistants, tous sur d'autres fichiers).
+
+**Commit** : 79ffb33
+
 ## [2026-08-23] archivage | catalogue-bibliotheque.md — table des index/glossaires (lots 1-3)
 
 Table "Index et glossaires transcrits" (ouverte 2026-08-22, restée vide) renseignée
