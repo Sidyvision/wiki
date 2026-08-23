@@ -9,6 +9,35 @@ updated: 2026-08-23
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-23] restauration | Enrichissement fiche `platon.md` — clôture du chantier (point 3, verdict Sidy)
+
+- **Contexte** : clôture du chantier de normalisation ouvert par le rapport Gardien
+  du 2026-08-23, sur mandat explicite de Sidy (« charge-toi du point 3 Platon »).
+  La fiche `doctrinal/autorites/platon.md` était un stub sans aucun fait
+  (« À compléter », 2026-06-02) — la normalisation frontmatter y était impossible
+  faute de wikilinks sources dans le corps (signalé dans l'entrée passe 2 ci-dessous).
+- **Opération** : enrichissement par **8 faits déjà ancrés dans le dépôt** — aucun
+  fait nouveau, aucune donnée académique profane, aucune biographie moderne :
+  - 3 faits sur le *Timée*/*Critias* (chaîne de transmission, passages ingérés,
+    avertissement sur les noms) — source [[platon-oeuvres-completes-brisson-2011]] ;
+  - 2 faits guénoniens (« Dieu géométrise toujours » + caverne ; réminiscence) —
+    sources [[guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]] et
+    [[guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise]] ;
+  - 1 fait akbarien (« Ibn Aflatûn, fils de Platon », préface Penot) — source
+    [[revelations-mecque-penot-entrelacs-2009-annexes-transcription]] ;
+  - 1 fait lexicographique (index al-Jurjānī, « Platon : 652 ») — source
+    [[kitab-tarifat-index-transcription]].
+- **Frontmatter** : `sources:` = 5 fiches sources du dépôt (`sources_count: 5`),
+  `cross_links:` = 7 fiches liées (atlantide, poseidon, rene-guenon, ibn-arabi,
+  tawakkul, outil-faculte-objectivee, étude upakarana). `updated:` remonté.
+- **Signalements conservés** (Notes de la fiche) : la distinction *epistémè/amathia*
+  citée dans [[tawakkul]] renvoie à un entretien du 2026-06-18 non encore versé en
+  `sources/` ; les lectures du *Phèdre* et du *Phédon* n'ont pas de fiche source
+  primaire. Levée humaine ultérieure (§VII).
+- **Vérification mécanique** : `verifier-invariants.py` → 0 erreur ; aucune
+  alerte nouvelle sur la fiche (toutes les cibles existent, résolution C1/C2 propre).
+- **Commit** : fdee305
+
 ## [2026-08-23] restauration | Normalisation frontmatter `sources:` — passe 2 : ouattara-brahima + rene-guenon (avance sur scan, verdict Sidy 2026-08-23)
 
 - **Contexte** : suite de la passe 1 du jour (entrée ci-dessous, commit 30f34f0).

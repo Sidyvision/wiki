@@ -10,6 +10,32 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-23] restauration | Frontmatter fiche Hermex (B0) + ordre chronologique des annales (A2)
+
+- **Contexte** : clôture du chantier de normalisation du jour, sur mandat explicite
+  de Sidy (« charge-toi des signalements hors champ »). Deux erreurs bloquantes au
+  `verifier-invariants.py` signalées par le Gardien hors de son périmètre habituel :
+  1. **[B0]** `atelier/rd/infrastructure/configuration-hermex-webui-2026-08-23.md`
+     créée sans frontmatter (commits `ef9edd0`/`fa3cf46`) ;
+  2. **[A2]** les deux entrées d'annales du 2026-08-23 (incident + configuration
+     Hermex, commits `bf31813` et `ef9edd0`) appendées en **queue** de fichier au
+     lieu de l'en-tête, et l'entrée « Configuration Hermex » portait
+     `**Commit** : [à venir]` sans SHA (Cmd 9).
+- **Opérations** :
+  - Ajout du Sceau atelier complet sur la fiche Hermex (aligné sur les fiches
+    sœurs de `rd/infrastructure/` : `type: infrastructure`, tags, sources/links) ;
+    corps de la fiche INTACT.
+  - Déplacement des deux entrées du 2026-08-23 vers l'en-tête (ordre inverse :
+    infrastructure 18:04 avant incident 17:51), suppression des séparateurs `---`
+    de queue, contenu des entrées INTACT à une exception près :
+    `**Commit** : [à venir]` → `**Commit** : fa3cf46` (le commit de documentation
+    PWA qui clôt le chantier Hermex).
+- **Leçon consignée** : les entrées d'annales s'insèrent sous le marqueur
+  `<!-- INSERTION: EN-TÊTE -->`, jamais en queue de fichier (même rupture A2 que
+  `hermeneutique/annales.md` le 2026-08-20, rapport conjoint point 5).
+- **Vérification mécanique** : `verifier-invariants.py` → 2 erreurs → **0 erreur**.
+- **Commit** : 6e745e8
+
 ## [2026-08-23] infrastructure | Configuration Hermex (webui via Tailscale)
 
 - **Opération** : RECONFIGURATION + MISE À JOUR — rétablissement du canal Hermex et documentation de la configuration.
