@@ -10,6 +10,42 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-23] archivage | La Porte du Ciel (Coomaraswamy) — 7 fiches, lot 3
+
+Transcription manuelle du lot 3 (70 photographies, `raw/La Porte du Ciel/`).
+Constat structurel majeur en cours de traitement : le lot photographié ne couvre
+PAS l'intégralité du livre — la Préface d'Adrian Snodgrass (p.9-18) et l'ensemble
+du corps d'essais (p.37-281 : « La porte du soleil », « Le Symbolisme du Dôme »,
+« Svayamatrinnâ : Janua Coeli », « Ushnîsha et Chatra », « Eckstein », « E à
+Delphes », note sur le coq, « Le Pont périlleux du Bonheur », « Symplégades »,
+les 4 Appendices) sont absents de la prise de vue. Rescope opéré (verdict Sidy,
+« Poursuivons ») : livraison des fiches couvertes par le lot, fiches des essais
+(3 à 8 du plan initial à 13 fiches) explicitement différées, en attente de
+nouvelle prise de vue.
+- **Fiche 1** : `sommaire-porte-du-ciel.md` (couverture + sommaire, p.1-8,
+  IMG_0010-0012) — signalement des deux lacunes en pied de fiche
+- **Fiche 2** : `preface-introduction-porte-du-ciel.md` (Avertissement p.19-20 +
+  essai « Un temple hindou : le Kandarya Mahadeo » p.23-35 verbatim intégral, 35
+  notes, IMG_0013-0028)
+- **Fiche 3** : `glossaires-porte-du-ciel.md` (glossaires architectural, sanskrit,
+  pâli, p.283-313, IMG_0029-0057) — lacune page 314 signalée
+- **Fiche 4** : `index-noms-porte-du-ciel.md` (index des noms propres, p.315-319,
+  bornes A-Z relevées, détail exhaustif renvoyé à relecture — `to-verify`)
+- **Fiche 5** : `bibliographie-porte-du-ciel.md` (p.321-326, structure en 4
+  sections relevée)
+- **Fiche 6** : `table-illustrations-porte-du-ciel.md` (p.327-330, Figures 1-17 +
+  cahier hors texte)
+- **Fiche 7** : `notices-porte-du-ciel.md` (notices Coomaraswamy p.331-335 et
+  Snodgrass p.337) — **signalement non tranché** : l'ordre réel constaté dans le
+  lot photographié (Coomaraswamy avant Snodgrass) contredit l'ordre annoncé par
+  le sommaire imprimé (qui situe Snodgrass en premier, p.331) ; verdict laissé à
+  Sidy, non résolu par la machine (Cmd 12)
+- **Dépôt** : `atelier/rd/bibliotheque/` (Sceau atelier, type: ressource)
+- **Contrôle** : verifier-invariants.py → aucune erreur ni avertissement sur les 7
+  fiches (5 erreurs et 62 avertissements préexistants, sans rapport avec ce lot) ;
+  contrôle Unicode (Cmd 15) : les 7 fiches sont propres
+- **Commit** : 5842f26
+
 ## [2026-08-23] archivage | Ihwan al-Safa' (Marquet) — 5 fiches, lot 2
 
 Transcription manuelle intégrale du lot 2 (34 photographies, `raw/La Philosophie
