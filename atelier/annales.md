@@ -10,6 +10,22 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-23] archivage | catalogue-bibliotheque.md — table des index/glossaires (lots 1-3)
+
+Table "Index et glossaires transcrits" (ouverte 2026-08-22, restée vide) renseignée
+avec les 14 fiches de repérage produites à ce jour : Rig-Veda (2 fiches, lot 1),
+Ihwan al-Safa' (5 fiches, lot 2), La Porte du Ciel (7 fiches, lot 3) — chaque ligne
+avec plage de photos et rappel bref de sa lacune de source le cas échéant.
+`catalogue-bibliotheque.md` était non versionné depuis le déplacement du
+2026-08-22 (`meta/bibliotheque-physique.md` → `atelier/rd/bibliotheque/`) ; ce
+commit l'ajoute au dépôt pour la première fois.
+- **Signalement** : `meta/bibliotheque-physique.md` apparaît encore modifié (`M`)
+  et non commité dans l'arbre de travail — probable tombstone de déplacement resté
+  en suspens du 2026-08-22, non traité ici (hors du périmètre demandé).
+- **Contrôle** : verifier-invariants.py → aucune erreur ni avertissement nouveau sur
+  ce fichier.
+- **Commit** : c4aa271
+
 ## [2026-08-23] archivage | La Porte du Ciel (Coomaraswamy) — 7 fiches, lot 3
 
 Transcription manuelle du lot 3 (70 photographies, `raw/La Porte du Ciel/`).
