@@ -1,0 +1,238 @@
+# Cartes SRS extraites de CLAUDE.md
+# Généré le 2026-08-23
+# Total : 18 cartes
+
+cards:
+  - id: "sashimono-hozo"
+    question: "Que signifie le terme Sashimono "hozo" ?"
+    reponse: "Tenon-mortaise : ancrage d'équivalence établi entre deux traditions"
+    categorie: "sashimono"
+    source: "CLAUDE.md#convention-sashimono"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [sashimono, vocabulaire]
+
+  - id: "sashimono-zōsaku"
+    question: "Que signifie le terme Sashimono "zōsaku" ?"
+    reponse: "Portance nulle : élément contingent qui ne porte rien doctrinalement"
+    categorie: "sashimono"
+    source: "CLAUDE.md#convention-sashimono"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [sashimono, vocabulaire]
+
+  - id: "sashimono-kari-kumi"
+    question: "Que signifie le terme Sashimono "kari-kumi" ?"
+    reponse: "Assemblage à blanc : montage provisoire en attente de validation"
+    categorie: "sashimono"
+    source: "CLAUDE.md#convention-sashimono"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [sashimono, vocabulaire]
+
+  - id: "sashimono-kumiko"
+    question: "Que signifie le terme Sashimono "kumiko" ?"
+    reponse: "Assemblage validé : joint doctrinal confirmé après vérification"
+    categorie: "sashimono"
+    source: "CLAUDE.md#convention-sashimono"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [sashimono, vocabulaire]
+
+  - id: "sashimono-sumi-tsuke"
+    question: "Que signifie le terme Sashimono "sumi-tsuke" ?"
+    reponse: "Traçage : marquage des points d'ancrage avant assemblage"
+    categorie: "sashimono"
+    source: "CLAUDE.md#convention-sashimono"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [sashimono, vocabulaire]
+
+  - id: "sashimono-ki-dori"
+    question: "Que signifie le terme Sashimono "ki-dori" ?"
+    reponse: "Choix du bois : sélection des sources et traditions pertinentes"
+    categorie: "sashimono"
+    source: "CLAUDE.md#convention-sashimono"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [sashimono, vocabulaire]
+
+  - id: "vocab-navette"
+    question: "Que signifie "navette" dans le contexte du dépôt ?"
+    reponse: "Cycle de transmission d'un fichier Karūbī entre Sidy et le destinataire"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-canonique"
+    question: "Que signifie "canonique" dans le contexte du dépôt ?"
+    reponse: "Fichier Karūbī officiel, maintenu par Sidy (G0)"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-zones-scellées"
+    question: "Que signifie "zones scellées" dans le contexte du dépôt ?"
+    reponse: "Sections Karūbī protégées par hash, modifiables uniquement par Sidy"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-zones-de-croissance"
+    question: "Que signifie "zones de croissance" dans le contexte du dépôt ?"
+    reponse: "Sections Karūbī append-only (§8 Mémoire vivante, §9 Questions)"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-g0"
+    question: "Que signifie "G0" dans le contexte du dépôt ?"
+    reponse: "Génération 0 : Sidy, créateur et gardien du protocole Karūbī"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-g1"
+    question: "Que signifie "G1" dans le contexte du dépôt ?"
+    reponse: "Génération 1 : destinataires directs du Karūbī"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-to-source"
+    question: "Que signifie "to-source" dans le contexte du dépôt ?"
+    reponse: "Marqueur indiquant qu'une source doit être vérifiée dans le texte primaire"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-append-only"
+    question: "Que signifie "append-only" dans le contexte du dépôt ?"
+    reponse: "Mode d'écriture : on n'efface jamais, on ajoute seulement"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-kari-kumi-statut"
+    question: "Que signifie "kari-kumi (statut)" dans le contexte du dépôt ?"
+    reponse: "Brouillon en attente de validation, montage à blanc"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-discernement"
+    question: "Que signifie "discernement" dans le contexte du dépôt ?"
+    reponse: "Circuit doctrinal pour les correspondances non encore tranchées"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-vigilance"
+    question: "Que signifie "VIGILANCE" dans le contexte du dépôt ?"
+    reponse: "Contrôle de conformité au protocole (Cmd 11)"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]
+
+  - id: "vocab-sceau-recteur"
+    question: "Que signifie "Sceau Recteur" dans le contexte du dépôt ?"
+    reponse: "Frontmatter doctrinal avec tous les champs obligatoires"
+    categorie: "vocabulaire"
+    source: "CLAUDE.md"
+    created: "2026-08-23"
+    last_reviewed: null
+    next_review: "2026-08-23"
+    interval_days: 1
+    ease_factor: 2.5
+    repetitions: 0
+    tags: [vocabulaire, protocole]

@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 92,
+  "avertissements": 136,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/kojima-productions",
@@ -43,6 +43,83 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/etudes-de-cas/zellige-grande-mosquee-paris",
+      "label": "Étude de cas — Zellige de la Grande Mosquée de Paris : géométrie, proportions, ouverture musique/nombre",
+      "circuit": "atelier",
+      "sous_dossier": "etudes-de-cas",
+      "type": "etude-de-cas",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "geometrie",
+        "zellige",
+        "girih",
+        "proportion",
+        "musique",
+        "quadrivium",
+        "ikhwan-al-safa",
+        "guenon",
+        "photographie-terrain"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/etudes-de-cas/zellige-grande-mosquee-paris.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/materiel/distressor-el8",
+      "label": "Distressor EL8 — compresseur-limiteur",
+      "circuit": "atelier",
+      "sous_dossier": "materiel",
+      "type": "materiel",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "audio",
+        "compresseur",
+        "limiteur",
+        "distressor"
+      ],
+      "updated": "2026-08-18",
+      "chemin": "atelier/materiel/distressor-el8.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/materiel/moog-voyager",
+      "label": "Moog Voyager — monosynthétiseur analogique",
+      "circuit": "atelier",
+      "sous_dossier": "materiel",
+      "type": "materiel",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "audio",
+        "synthétiseur",
+        "analogique",
+        "moog"
+      ],
+      "updated": "2026-08-18",
+      "chemin": "atelier/materiel/moog-voyager.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/materiel/neumann-tlm103",
+      "label": "Neumann TLM 103 — micro à condensateur",
+      "circuit": "atelier",
+      "sous_dossier": "materiel",
+      "type": "materiel",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "audio",
+        "microphone",
+        "condensateur",
+        "neumann"
+      ],
+      "updated": "2026-08-18",
+      "chemin": "atelier/materiel/neumann-tlm103.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "atelier/materiel/neve-1073spx",
       "label": "Neve 1073SPX — préampli/EQ analogique",
       "circuit": "atelier",
@@ -55,8 +132,26 @@
         "preampli",
         "neve"
       ],
-      "updated": "2026-08-08",
+      "updated": "2026-08-18",
       "chemin": "atelier/materiel/neve-1073spx.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/materiel/revox-a77",
+      "label": "Revox A77 — magnétophone à bande",
+      "circuit": "atelier",
+      "sous_dossier": "materiel",
+      "type": "materiel",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "audio",
+        "magnétophone",
+        "bande",
+        "revox"
+      ],
+      "updated": "2026-08-18",
+      "chemin": "atelier/materiel/revox-a77.md",
       "lacunes_to_source": 0
     },
     {
@@ -92,7 +187,7 @@
         "tascam",
         "mastering"
       ],
-      "updated": "2026-08-08",
+      "updated": "2026-08-18",
       "chemin": "atelier/materiel/tascam-model-12.md",
       "lacunes_to_source": 0
     },
@@ -280,6 +375,333 @@
       "tags": [],
       "updated": "2026-08-08",
       "chemin": "atelier/projets/spec-technique-axe-38-degres.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/bibliotheque/bibliographie-ihwan-al-safa",
+      "label": "Bibliographie et liste des abréviations — La philosophie des Ihwan al-Safa' (Marquet)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "bibliographie",
+        "ihwan-al-safa",
+        "marquet"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/bibliographie-ihwan-al-safa.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/bibliographie-porte-du-ciel",
+      "label": "Bibliographie — La Porte du Ciel (Coomaraswamy)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "bibliographie",
+        "porte-du-ciel",
+        "coomaraswamy"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/bibliographie-porte-du-ciel.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/catalogue-bibliotheque",
+      "label": "Catalogue de la bibliothèque physique de travail",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "lectures-suggerees",
+        "ressource",
+        "catalogue"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/catalogue-bibliotheque.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/bibliotheque/glossaire-unifie",
+      "label": "Glossaire unifie — lexique de reperage",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-22",
+      "chemin": "atelier/rd/bibliotheque/glossaire-unifie.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
+      "label": "Glossaires — La Porte du Ciel (Coomaraswamy)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "glossaire",
+        "porte-du-ciel",
+        "coomaraswamy"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/glossaires-porte-du-ciel.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/index-noms-ihwan-al-safa",
+      "label": "Index des noms — La philosophie des Ihwan al-Safa' (Marquet)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "index",
+        "ihwan-al-safa",
+        "marquet"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/index-noms-ihwan-al-safa.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/index-noms-porte-du-ciel",
+      "label": "Index des noms propres — La Porte du Ciel (Coomaraswamy)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "index",
+        "porte-du-ciel",
+        "coomaraswamy"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/index-noms-porte-du-ciel.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/index-notions-ihwan-al-safa",
+      "label": "Index des notions — La philosophie des Ihwan al-Safa' (Marquet)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "index",
+        "ihwan-al-safa",
+        "marquet"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/index-notions-ihwan-al-safa.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/index-rig-veda",
+      "label": "Index alphabétique du Rig-Veda — Table analytique (Langlois/Foucaux)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "index",
+        "rig-veda",
+        "langlois",
+        "foucaux"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/index-rig-veda.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/index-rig-veda-table",
+      "label": "Table des matières — Rig-Veda (Langlois, traduction Foucaux)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "table-des-matieres",
+        "rig-veda",
+        "langlois"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/index-rig-veda-table.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/introduction-ihwan-al-safa",
+      "label": "Introduction à la présente édition — La philosophie des Ihwan al-Safa' (Marquet)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "introduction",
+        "ihwan-al-safa",
+        "marquet"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/introduction-ihwan-al-safa.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/notices-porte-du-ciel",
+      "label": "Notices biographiques — La Porte du Ciel (Coomaraswamy)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "notices",
+        "porte-du-ciel",
+        "coomaraswamy",
+        "snodgrass"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/notices-porte-du-ciel.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/preface-introduction-porte-du-ciel",
+      "label": "Avertissement et Introduction — La Porte du Ciel (Coomaraswamy)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "introduction",
+        "porte-du-ciel",
+        "coomaraswamy"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/preface-introduction-porte-du-ciel.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "label": "Couverture et sommaire — La Porte du Ciel (Coomaraswamy)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "sommaire",
+        "porte-du-ciel",
+        "coomaraswamy"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/sommaire-porte-du-ciel.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/table-ihwan-al-safa",
+      "label": "Table des matières — La philosophie des Ihwan al-Safa' (Marquet)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "table-des-matieres",
+        "ihwan-al-safa",
+        "marquet"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/table-ihwan-al-safa.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/table-illustrations-porte-du-ciel",
+      "label": "Table des illustrations — La Porte du Ciel (Coomaraswamy)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "table-illustrations",
+        "porte-du-ciel",
+        "coomaraswamy"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/bibliotheque/table-illustrations-porte-du-ciel.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session",
+      "label": "Compte-rendu — malentendu du rapport conjoint Studio-Gardien et reprise de session (2026-08-20)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "bilan",
+        "malentendu",
+        "gardien",
+        "instrument",
+        "registres",
+        "retrospective",
+        "methode"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres",
+      "label": "Leçons du chantier bibliothèque — index et glossaires d'ouvrages",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "bibliotheque",
+        "outillage",
+        "supervision",
+        "agents",
+        "unicode"
+      ],
+      "updated": "2026-08-22",
+      "chemin": "atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres.md",
       "lacunes_to_source": 0
     },
     {
@@ -507,6 +929,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18",
+      "label": "Proposition — Extension du mandat R&D : veille externe + sandbox",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "phase3-extension",
+        "veille",
+        "sandbox",
+        "hermes"
+      ],
+      "updated": "2026-08-18",
+      "chemin": "atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11",
       "label": "Proposition — Phase 3 du pôle R&D : agent de veille infrastructure",
       "circuit": "atelier",
@@ -527,6 +969,32 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820",
+      "label": "Rapport conjoint Studio–Gardien — étude du dépôt (2026-08-20)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "rapport-conjoint",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-20",
+      "chemin": "atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/rapport-studio-exploration-preliminaire",
+      "label": "Rapport Studio — Exploration préliminaire du dépôt",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "rapport-agent",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-20",
+      "chemin": "atelier/rd/cahiers/rapport-studio-exploration-preliminaire.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/cahiers/registre-problemes",
       "label": "Registre des problèmes — pôle R&D (cahier append-only)",
       "circuit": "atelier",
@@ -541,8 +1009,121 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-08-18",
+      "updated": "2026-08-20",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/citadelle-du-sham/note",
+      "label": "La Citadelle du Sham — jeu 3D de visite du depot-lecture",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "rapport-agent",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-22",
+      "chemin": "atelier/rd/citadelle-du-sham/note.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/incidents/2026-08-22_post-scriptum-hook-corrige",
+      "label": "Post-Scriptum — Hook pre-commit corrigé",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-22",
+      "chemin": "atelier/rd/incidents/2026-08-22_post-scriptum-hook-corrige.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination",
+      "label": "Incident de contamination par caractères Unicode invisibles (U+200D)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": "resolu",
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-22",
+      "chemin": "atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
+      "label": "Pistes de développement — infrastructure et outillage R&D (2026-08-20)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "bilan",
+        "pistes-developpement"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm",
+      "label": "Stealing Reasoning Traces from Proprietary LLM APIs",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "security",
+        "llm",
+        "infrastructure",
+        "research"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement",
+      "label": "Rapport R&D — Problème mémoire persistante et déploiement ressources soutien Sidy",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "hermes",
+        "memoire",
+        "deployement",
+        "soutien-sidy"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire",
+      "label": "Déploiement profil karubi — Isolation mémoire sub-agent",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "hermes",
+        "memoire",
+        "isolation",
+        "karubi"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire.md",
       "lacunes_to_source": 0
     },
     {
@@ -607,6 +1188,24 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19",
+      "label": "Analyse temporelle de code & méta-raisonnement IA",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "veille",
+        "ia",
+        "monitoring",
+        "meta-raisonnement"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/bureau-tui-architecture",
       "label": "Bureau TUI — architecture",
       "circuit": "atelier",
@@ -650,6 +1249,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21",
+      "label": "Infrastructure — Canal Telegram pour Wendel Nazaire, second robinet vers _inbox/",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "karubi",
+        "transmissions",
+        "telegram",
+        "hermes"
+      ],
+      "updated": "2026-08-21",
+      "chemin": "atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/claude-code-health-check-2026-08-11",
       "label": "Infrastructure — Audit de santé Claude Code (/doctor, 2026-08-11)",
       "circuit": "atelier",
@@ -689,6 +1308,51 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20",
+      "label": "Étude du dépôt — cartographie, état des index et inventaire raw/ (2026-08-20)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": "brouillon",
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "depot",
+        "exploration"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes",
+      "label": "Incident mémoire persistante Hermes — diagnostic et résolution (2026-08-23)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint",
+      "label": "Incident R&D — Enlisement Gardien (rapport conjoint 2026-08-20)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "fiche-rd",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-20",
+      "chemin": "atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
       "label": "Infrastructure — Architecture globale du système (2026-08-11)",
       "circuit": "atelier",
@@ -725,6 +1389,45 @@
       ],
       "updated": "2026-08-11",
       "chemin": "atelier/rd/infrastructure/infrastructure-ssh-statu-quo.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/monitoring-archive-charte",
+      "label": "Charte — Archive du monitoring infrastructure quotidien",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "monitoring",
+        "hermes",
+        "archive"
+      ],
+      "updated": "2026-08-19",
+      "chemin": "atelier/rd/infrastructure/monitoring-archive-charte.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20",
+      "label": "Rapport conjoint d'état du dépôt — exploration 2026-08-20 (préparation Gardien)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": "brouillon",
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "depot",
+        "rapport",
+        "gardien"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md",
       "lacunes_to_source": 0
     },
     {
@@ -790,6 +1493,45 @@
       "updated": "2026-07-26",
       "chemin": "atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles.md",
       "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "label": "État d'avancement et pistes de développement — Instrument de la Tradition Primordiale (2026-08-20)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "instrument",
+        "rd",
+        "bilan",
+        "pistes-developpement",
+        "feuille-de-route"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "label": "Les registres — accueillir plusieurs traditions sur l'unique axe (Phase 3)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "instrument",
+        "phase-3",
+        "kabbale",
+        "sephiroth",
+        "registres",
+        "architecture"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3.md",
+      "lacunes_to_source": 0
     },
     {
       "id": "atelier/rd/instrument/angles-de-l-espace",
@@ -1178,6 +1920,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/investigation-isolation-memoire-hermes",
+      "label": "Investigation — Isolation mémoire Hermes par sub-agent",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "hermes",
+        "memory",
+        "sub-agent",
+        "bloquant",
+        "karubi"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/outillage/investigation-isolation-memoire-hermes.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/outillage/robustesse-documents-persona-llm",
       "label": "Lecture défensive d'un document-persona par un LLM neuf — cas du dispositif Karūbī",
       "circuit": "atelier",
@@ -1195,6 +1956,25 @@
       ],
       "updated": "2026-07-20",
       "chemin": "atelier/rd/outillage/robustesse-documents-persona-llm.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/spec-archiver-monitoring-quotidien",
+      "label": "Spécification — Archivage du rapport de monitoring infrastructure quotidien",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "outillage",
+        "infrastructure",
+        "monitoring",
+        "hermes"
+      ],
+      "updated": "2026-08-19",
+      "chemin": "atelier/rd/outillage/spec-archiver-monitoring-quotidien.md",
       "lacunes_to_source": 0
     },
     {
@@ -1230,7 +2010,7 @@
         "phase-1",
         "spec"
       ],
-      "updated": "2026-07-01",
+      "updated": "2026-08-20",
       "chemin": "atelier/rd/outillage/spec-generateur-manifeste.md",
       "lacunes_to_source": 0
     },
@@ -1250,6 +2030,174 @@
       ],
       "updated": "2026-08-11",
       "chemin": "atelier/rd/outillage/spec-generer-cartographie-tolerant.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/spec-srs-hermes-native",
+      "label": "Spécification SRS Hermes-native — format et implémentation",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/outillage/spec-srs-hermes-native.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/plan-action-soutien-sidy",
+      "label": "Plan d'action — soutien Sidy personnel et professionnel",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/plan-action-soutien-sidy.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/rapport-rd-memoire-persistante",
+      "label": "Rapport R&D — incident mémoire persistante et déploiement ressources",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/rapport-rd-memoire-persistante.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/synthese-deploiement-memoire",
+      "label": "Synthèse déploiement mémoire persistante — 14 profils Hermes",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "hermes",
+        "memoire",
+        "deployement"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/synthese-deploiement-memoire.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/synthese-ressources-deployees",
+      "label": "Synthèse ressources déployées — soutien Sidy (2026-08-23)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/synthese-ressources-deployees.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/veille/cordis/equations",
+      "label": "Cordis — équations clés du paradigme",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "fiche-veille",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "cordis",
+        "equations",
+        "effets-reversibles",
+        "coeffets-reactifs",
+        "paradigme"
+      ],
+      "updated": "2026-08-18",
+      "chemin": "atelier/rd/veille/cordis/equations.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/veille/cordis/implementations-github",
+      "label": "Implémentations du paradigme Cordis — veille GitHub",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "fiche-veille",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "cordis",
+        "implementations",
+        "github",
+        "rust",
+        "go",
+        "jvm",
+        "wasm",
+        "langage"
+      ],
+      "updated": "2026-08-18",
+      "chemin": "atelier/rd/veille/cordis/implementations-github.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/veille/cordis/methodes",
+      "label": "Cordis — méthodes d'implémentation",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "fiche-veille",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "cordis",
+        "implementation",
+        "typescript",
+        "koishi",
+        "hmr",
+        "ctx-effect"
+      ],
+      "updated": "2026-08-18",
+      "chemin": "atelier/rd/veille/cordis/methodes.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/veille/cordis/notes-lecture",
+      "label": "Cordis — notes de lecture",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "fiche-veille",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "cordis",
+        "lecture",
+        "paradigme",
+        "sashimono",
+        "resonances"
+      ],
+      "updated": "2026-08-18",
+      "chemin": "atelier/rd/veille/cordis/notes-lecture.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/veille/registre",
+      "label": "Registre de veille R&D — journal des scrutations",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "registre",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "veille",
+        "registre"
+      ],
+      "updated": "2026-08-18",
+      "chemin": "atelier/rd/veille/registre.md",
       "lacunes_to_source": 0
     },
     {
@@ -2687,6 +3635,78 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "label": "Kabbale hébraïque dans le dépôt — état des lieux et pièces disponibles",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "universel",
+      "tags": [
+        "kabbale",
+        "etat-des-lieux",
+        "instrumentation",
+        "phase-3",
+        "bilan",
+        "sefer-yetsira",
+        "qabbalah"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "label": "Palais de la Sainteté (kabbale) et Centre des ḥaḍarāt (tasawwuf akbarien) — amorce de rapprochement",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "universel",
+      "tags": [
+        "kabbale",
+        "tasawwuf",
+        "palais-saintete",
+        "hadarat",
+        "centre",
+        "merkava",
+        "shekinah",
+        "qabbalah",
+        "comparaison"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen",
+      "label": "Dépôt — Traité de l'Émanation Gauche (Isaac ben Jacob ha-Kohen)",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "universel",
+      "tags": [
+        "sitra-ahra",
+        "emanation-gauche",
+        "10-sephirot-maléfiques",
+        "samael",
+        "lilith",
+        "asmodee",
+        "metatron",
+        "qliphoth",
+        "demonologie",
+        "mondes-detruits",
+        "hekhaleth",
+        "castille",
+        "pre-zohar",
+        "isaac-ha-kohen"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/discernement/_template",
       "label": "Spéculation sur [Sujet de la réflexion]",
       "circuit": "doctrinal",
@@ -3013,6 +4033,32 @@
       ],
       "updated": "2026-07-14",
       "chemin": "doctrinal/sources/dalail-al-khayrat-jazuli.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025",
+      "label": "Dreaming the Ummah: Science Fiction and the Possibility of Islamofuturism",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "islam",
+      "tags": [
+        "science-fiction",
+        "islamofuturisme",
+        "utopie",
+        "dystopie",
+        "reve",
+        "barzakh",
+        "alam-al-mithal",
+        "ghuraba",
+        "dune",
+        "herbert",
+        "litterature-americano-anglophone",
+        "politique-onirique"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025.md",
       "lacunes_to_source": 0
     },
     {
@@ -4144,6 +5190,58 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "label": "Les 10 Sephiroth — Structure de l'Arbre séphirothique",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "kabbale",
+        "10-sephirot",
+        "arbre-sephirotique",
+        "structure",
+        "kether",
+        "hokhma",
+        "bina",
+        "hesed",
+        "gevurah",
+        "tiferet",
+        "netzach",
+        "hod",
+        "yesod",
+        "malkhut"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "doctrinal/sources/kabbale-10-sefirot-structure.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "label": "Cosmogonie du *iod* — Le point primordial et la création par les lettres",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "kabbale",
+        "cosmogonie",
+        "iod",
+        "point-primordial",
+        "avir",
+        "aor",
+        "lettres-hebraiques",
+        "creation",
+        "palais-interieur",
+        "tetragramme"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "doctrinal/sources/kabbale-cosmogonie-iod.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/kitab-al-tarifat-jurjani",
       "label": "Kitāb al-Taʿrīfāt — Le Livre des définitions (al-Jurjānī)",
       "circuit": "doctrinal",
@@ -4401,6 +5499,48 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/sefer-yetsira-ramban",
+      "label": "Sefer Yetsira — Livre de la Création (avec commentaire du Ramban)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "sefer-yetsira",
+        "ramban",
+        "kabbale",
+        "lettres-hebraiques",
+        "sefirot",
+        "trois-meres",
+        "sept-doubles",
+        "douze-simples",
+        "cosmogonie-lettres",
+        "tsimtsum"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "doctrinal/sources/sefer-yetsira-ramban.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/sefer-yetsira-ramban_source",
+      "label": "Sefer Yetsira — Livre de la Création (avec commentaire du Ramban)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "kabbale",
+        "sefer-yetsira",
+        "ramban",
+        "transcription-brute"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "doctrinal/sources/sefer-yetsira-ramban_source.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/sept-etendards-califat",
       "label": "Les Sept Étendards du Califat — Transcription (Avant-propos, Table des matières, Index, Chap. XV, XX, XXVII-XXVIII, XXXIII)",
       "circuit": "doctrinal",
@@ -4458,6 +5598,49 @@
       ],
       "updated": "2026-07-14",
       "chemin": "doctrinal/sources/tilak-origine-polaire-tradition-vedique.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "label": "Traité de l'Émanation Gauche — Isaac ben Jacob ha-Kohen (XIIIe s.)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "kabbale",
+        "sitra-ahra",
+        "emanation-gauche",
+        "10-sephirot-maléfiques",
+        "samael",
+        "lilith",
+        "asmodee",
+        "metatron",
+        "qliphoth",
+        "demonologie",
+        "hekhaleth",
+        "isaac-ha-kohen",
+        "castille",
+        "pre-zohar"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source",
+      "label": "Traité de l’Émanation Gauche (partie 1) – Kabbale en Ligne",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "clippings"
+      ],
+      "updated": "2026-08-20",
+      "chemin": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source.md",
       "lacunes_to_source": 0
     },
     {
@@ -5388,7 +6571,7 @@
         "eschatologie",
         "hindouisme"
       ],
-      "updated": "2026-06-30",
+      "updated": "2026-08-20",
       "chemin": "doctrinal/symboles/manvantara.md",
       "lacunes_to_source": 0
     },
@@ -6353,6 +7536,55 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/etudes-de-cas/zellige-grande-mosquee-paris",
+      "target": "doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/etudes-de-cas/zellige-grande-mosquee-paris",
+      "target": "doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/distressor-el8",
+      "target": "atelier/materiel/studio-principal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/moog-voyager",
+      "target": "atelier/materiel/studio-principal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/moog-voyager",
+      "target": "atelier/materiel/tascam-model-12",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/neumann-tlm103",
+      "target": "atelier/materiel/studio-principal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/neumann-tlm103",
+      "target": "atelier/materiel/neve-1073spx",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/materiel/neve-1073spx",
       "target": "atelier/materiel/tascam-model-12",
       "champ": "links",
@@ -6360,6 +7592,27 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/materiel/neve-1073spx",
+      "target": "atelier/materiel/studio-principal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/revox-a77",
+      "target": "atelier/materiel/studio-principal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/revox-a77",
+      "target": "atelier/materiel/tascam-model-12",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/materiel/studio-principal",
       "target": "atelier/materiel/neve-1073spx",
       "champ": "links",
@@ -6374,8 +7627,43 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/materiel/studio-principal",
+      "target": "atelier/materiel/distressor-el8",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/studio-principal",
+      "target": "atelier/materiel/revox-a77",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/studio-principal",
+      "target": "atelier/materiel/moog-voyager",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/studio-principal",
+      "target": "atelier/materiel/neumann-tlm103",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/materiel/tascam-model-12",
       "target": "atelier/materiel/neve-1073spx",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/materiel/tascam-model-12",
+      "target": "atelier/materiel/studio-principal",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -6402,9 +7690,23 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/projets/2026-07-26_investigation-referentiels-stellaires-cycles",
+      "target": "atelier/projets/soumission-gem-convergence-28",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/projets/album-personnel",
       "target": "atelier/projets/note-impact-instrument-socle-universel-2026-07-16",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/projets/album-personnel",
+      "target": "atelier/projets/note-impact-instrument-socle-universel-2026-07-16",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6416,9 +7718,23 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/projets/angles-de-l-espace",
+      "target": "atelier/projets/spec-anneau-zodiacal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/projets/instrument-feuille-de-route-v2",
       "target": "atelier/projets/note-impact-instrument-socle-universel-2026-07-16",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/projets/instrument-feuille-de-route-v2",
+      "target": "atelier/projets/note-impact-instrument-socle-universel-2026-07-16",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6430,9 +7746,23 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/projets/note-impact-instrument-socle-universel-2026-07-16",
+      "target": "atelier/projets/instrument-feuille-de-route-v2",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/projets/references-visuelles-astronomiques-phase-5",
       "target": "atelier/projets/2026-07-26_investigation-referentiels-stellaires-cycles",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/projets/references-visuelles-astronomiques-phase-5",
+      "target": "atelier/projets/2026-07-26_investigation-referentiels-stellaires-cycles",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6444,9 +7774,23 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/projets/soumission-gem-convergence-28",
+      "target": "atelier/projets/soumission-gem-reponse-geometrie-3d",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/projets/soumission-gem-reponse-geometrie-3d",
       "target": "atelier/projets/soumission-gem-convergence-28",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/projets/soumission-gem-reponse-geometrie-3d",
+      "target": "atelier/projets/soumission-gem-convergence-28",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6458,9 +7802,23 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/projets/soumission-gem-reponse-gloton",
+      "target": "atelier/projets/soumission-gem-reponse-visuelle-28",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/projets/soumission-gem-reponse-visuelle-28",
       "target": "atelier/projets/soumission-gem-reponse-gloton",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/projets/soumission-gem-reponse-visuelle-28",
+      "target": "atelier/projets/soumission-gem-reponse-gloton",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6472,6 +7830,13 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/projets/spec-anneau-zodiacal",
+      "target": "atelier/projets/angles-de-l-espace",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/projets/spec-generateur-manifeste",
       "target": "atelier/projets/instrument-feuille-de-route-v2",
       "champ": "links",
@@ -6479,8 +7844,323 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/projets/spec-generateur-manifeste",
+      "target": "atelier/projets/instrument-feuille-de-route-v2",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/projets/spec-technique-axe-38-degres",
       "target": "atelier/projets/spec-anneau-zodiacal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/projets/spec-technique-axe-38-degres",
+      "target": "atelier/projets/spec-anneau-zodiacal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/bibliographie-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/table-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/bibliographie-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/introduction-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/bibliographie-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/bibliographie-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/index-noms-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/bibliographie-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/table-illustrations-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/preface-introduction-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/index-noms-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/index-noms-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/table-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/index-noms-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/index-notions-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/index-noms-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/index-noms-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/index-noms-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/bibliographie-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/index-noms-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/notices-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/index-notions-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/table-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/index-notions-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/index-noms-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/index-rig-veda-table",
+      "target": "atelier/rd/bibliotheque/index-rig-veda",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/introduction-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/table-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/introduction-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/bibliographie-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/notices-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/notices-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/table-illustrations-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/notices-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/index-noms-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/preface-introduction-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/preface-introduction-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/preface-introduction-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/index-noms-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/bibliographie-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/table-illustrations-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/notices-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/table-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/index-notions-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/table-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/index-noms-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/table-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/bibliographie-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/table-ihwan-al-safa",
+      "target": "atelier/rd/bibliotheque/introduction-ihwan-al-safa",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/table-illustrations-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/table-illustrations-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/bibliographie-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/table-illustrations-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/notices-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session",
+      "target": "atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session",
+      "target": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session",
+      "target": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session",
+      "target": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session",
+      "target": "atelier/rd/outillage/spec-generateur-manifeste",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session",
+      "target": "atelier/rd/cahiers/bilan-2026-08-15-pont-agents",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -6500,9 +8180,23 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra",
       "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6514,9 +8208,23 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer",
       "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6528,9 +8236,23 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio",
       "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6542,9 +8264,23 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/08-publication-sagittarius",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/08-publication-sagittarius",
       "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/09-studio-virgo",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/08-publication-sagittarius",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/09-studio-virgo",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6556,9 +8292,23 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/09-studio-virgo",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn",
       "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6570,8 +8320,85 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces",
       "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces",
+      "target": "atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18",
+      "target": "atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18",
+      "target": "atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
+      "target": "atelier/rd/cahiers/bilan-2026-08-15-pont-agents",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
+      "target": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
+      "target": "atelier/rd/infrastructure/bureau-tui-architecture",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
+      "target": "atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
+      "target": "atelier/rd/veille/cordis/notes-lecture",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
+      "target": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm",
+      "target": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -6633,8 +8460,64 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/infrastructure/infrastructure-ssh-statu-quo",
       "target": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/monitoring-archive-charte",
+      "target": "atelier/rd/outillage/spec-archiver-monitoring-quotidien",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/monitoring-archive-charte",
+      "target": "atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/monitoring-archive-charte",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20",
+      "target": "atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20",
+      "target": "atelier/rd/cahiers/bilan-2026-08-15-pont-agents",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20",
+      "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -6717,6 +8600,146 @@
       "assise": "suggere"
     },
     {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "atelier/rd/instrument/instrument-feuille-de-route-v2",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "atelier/rd/instrument/spec-anneau-zodiacal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "atelier/rd/instrument/spec-technique-axe-38-degres",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "atelier/rd/instrument/angles-de-l-espace",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "target": "atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "target": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "target": "atelier/rd/outillage/spec-generateur-manifeste",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "target": "doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "target": "doctrinal/sources/sefer-yetsira-ramban",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "target": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "target": "doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "target": "doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/instrument/angles-de-l-espace",
       "target": "doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge",
       "champ": "sources",
@@ -6741,6 +8764,13 @@
       "source": "atelier/rd/instrument/instrument-feuille-de-route-v2",
       "target": "atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/instrument-feuille-de-route-v2",
+      "target": "atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -6846,6 +8876,13 @@
       "source": "atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16",
       "target": "atelier/rd/instrument/instrument-feuille-de-route-v2",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16",
+      "target": "atelier/rd/instrument/instrument-feuille-de-route-v2",
+      "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -7088,6 +9125,20 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/outillage/spec-archiver-monitoring-quotidien",
+      "target": "atelier/rd/infrastructure/monitoring-archive-charte",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/spec-archiver-monitoring-quotidien",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/outillage/spec-detecter-non-tracke",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
@@ -7118,6 +9169,118 @@
     {
       "source": "atelier/rd/outillage/spec-generer-cartographie-tolerant",
       "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/spec-srs-hermes-native",
+      "target": "atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/rapport-rd-memoire-persistante",
+      "target": "atelier/rd/synthese-ressources-deployees",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/rapport-rd-memoire-persistante",
+      "target": "atelier/rd/outillage/spec-srs-hermes-native",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/synthese-ressources-deployees",
+      "target": "atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/synthese-ressources-deployees",
+      "target": "atelier/rd/plan-action-soutien-sidy",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/equations",
+      "target": "atelier/rd/veille/cordis/methodes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/equations",
+      "target": "atelier/rd/veille/cordis/notes-lecture",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/equations",
+      "target": "atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/implementations-github",
+      "target": "atelier/rd/veille/cordis/equations",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/implementations-github",
+      "target": "atelier/rd/veille/cordis/methodes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/methodes",
+      "target": "atelier/rd/veille/cordis/equations",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/methodes",
+      "target": "atelier/rd/veille/cordis/notes-lecture",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/methodes",
+      "target": "atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/notes-lecture",
+      "target": "atelier/rd/veille/cordis/equations",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/notes-lecture",
+      "target": "atelier/rd/veille/cordis/methodes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/cordis/notes-lecture",
+      "target": "atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -9434,6 +11597,13 @@
     },
     {
       "source": "doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle",
+      "target": "doctrinal/sources/sefer-yetsira-ramban",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle",
       "target": "doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire",
       "champ": "cross_links",
       "nature": "lien",
@@ -9722,6 +11892,167 @@
     {
       "source": "doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre",
       "target": "doctrinal/deviations/confusion-psychique-spirituel",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "target": "doctrinal/sources/sefer-yetsira-ramban",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "target": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "target": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "target": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "target": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "target": "doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "target": "doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "target": "doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "target": "doctrinal/sources/sefer-yetsira-ramban",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "target": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "target": "doctrinal/symboles/hadarat-khams",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "target": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "target": "doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "target": "doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/sources/sefer-yetsira-ramban",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "suggere"
@@ -10037,6 +12368,20 @@
     {
       "source": "doctrinal/sources/dalail-al-khayrat-jazuli",
       "target": "doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025",
+      "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025",
+      "target": "doctrinal/symboles/alam-al-mithal",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -11435,6 +13780,83 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "target": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "target": "doctrinal/symboles/hadarat-khams",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "target": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "target": "doctrinal/sources/sefer-yetsira-ramban",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "target": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "target": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "target": "doctrinal/sources/sefer-yetsira-ramban",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "target": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/kitab-al-tarifat-jurjani",
       "target": "doctrinal/autorites/al-jurjani",
       "champ": "sources",
@@ -11799,6 +14221,34 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/sefer-yetsira-ramban",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/sefer-yetsira-ramban",
+      "target": "doctrinal/symboles/ilm-al-huruf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/sefer-yetsira-ramban",
+      "target": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/sefer-yetsira-ramban",
+      "target": "doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/sept-etendards-califat",
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
@@ -11857,6 +14307,55 @@
     {
       "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
       "target": "doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/sources/sefer-yetsira-ramban",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
+      "target": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -14208,8 +16707,43 @@
     },
     {
       "source": "label/direction-artistique/amorcage/generation-non-cumulative",
+      "target": "label/distribution/doctrine-du-don",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/direction-artistique/amorcage/generation-non-cumulative",
+      "target": "label/production/equipe-agents-hermes",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/direction-artistique/amorcage/generation-non-cumulative",
+      "target": "label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/direction-artistique/amorcage/generation-non-cumulative",
       "target": "label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs",
+      "target": "label/distribution/doctrine-du-don",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs",
+      "target": "label/direction-artistique/amorcage/generation-non-cumulative",
+      "champ": "liens",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -14222,6 +16756,34 @@
     },
     {
       "source": "label/distribution/doctrine-du-don",
+      "target": "label/distribution/strategie-vinyle-300-depositaires",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/doctrine-du-don",
+      "target": "label/distribution/protocole-cercles-token",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/doctrine-du-don",
+      "target": "label/production/modele-economique",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/doctrine-du-don",
+      "target": "label/distribution/merchandising",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/doctrine-du-don",
       "target": "label/distribution/merchandising",
       "champ": "links",
       "nature": "lien",
@@ -14229,8 +16791,50 @@
     },
     {
       "source": "label/distribution/merchandising",
+      "target": "label/production/modele-economique",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/merchandising",
+      "target": "label/marketing-communication/fanzine",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/merchandising",
+      "target": "label/distribution/protocole-cercles-token",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/merchandising",
       "target": "label/distribution/protocole-cercles-token",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/protocole-cercles-token",
+      "target": "label/distribution/doctrine-du-don",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/protocole-cercles-token",
+      "target": "label/direction-artistique/amorcage/generation-non-cumulative",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/protocole-cercles-token",
+      "target": "label/distribution/strategie-vinyle-300-depositaires",
+      "champ": "liens",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -14244,7 +16848,42 @@
     {
       "source": "label/distribution/strategie-vinyle-300-depositaires",
       "target": "label/distribution/doctrine-du-don",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/strategie-vinyle-300-depositaires",
+      "target": "label/marketing-communication/fanzine",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/strategie-vinyle-300-depositaires",
+      "target": "label/distribution/doctrine-du-don",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/marketing-communication/fanzine",
+      "target": "label/distribution/strategie-vinyle-300-depositaires",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/marketing-communication/fanzine",
+      "target": "label/production/modele-economique",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/marketing-communication/fanzine",
+      "target": "label/distribution/merchandising",
+      "champ": "liens",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -14258,7 +16897,56 @@
     {
       "source": "label/production/album-personnel",
       "target": "label/production/equipe-agents-hermes",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/album-personnel",
+      "target": "atelier/materiel/neve-1073spx",
+      "champ": "liens_atelier",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/album-personnel",
+      "target": "atelier/materiel/tascam-model-12",
+      "champ": "liens_atelier",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/album-personnel",
+      "target": "atelier/materiel/technics-su-8080",
+      "champ": "liens_atelier",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/album-personnel",
+      "target": "label/production/equipe-agents-hermes",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/equipe-agents-hermes",
+      "target": "label/distribution/doctrine-du-don",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/equipe-agents-hermes",
+      "target": "label/production/modele-economique",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/equipe-agents-hermes",
+      "target": "label/direction-artistique/amorcage/generation-non-cumulative",
+      "champ": "liens",
       "nature": "lien",
       "assise": "etabli"
     },
@@ -14266,6 +16954,34 @@
       "source": "label/production/equipe-agents-hermes",
       "target": "label/production/modele-economique",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/modele-economique",
+      "target": "label/distribution/doctrine-du-don",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/modele-economique",
+      "target": "label/distribution/merchandising",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/modele-economique",
+      "target": "label/production/equipe-agents-hermes",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/modele-economique",
+      "target": "label/production/album-personnel",
+      "champ": "liens",
       "nature": "lien",
       "assise": "etabli"
     },

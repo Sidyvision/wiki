@@ -57,6 +57,13 @@ PREFIXES_SANS_FM = (
 # `meta-index.md` : hub propre au Domaine Réservé meta/ (ouvert 2026-08-09).
 FICHIERS_EXEMPTS_C3 = NOMS_ANNALES | {"index.md", "meta-index.md"}
 
+# Fichiers dont les liens sortants ne sont PAS soumis au contrôle C1 (liens non résolus)
+# Rapports de traitement qui documentent volontairement des exemples de liens problématiques
+FICHIERS_EXEMPTS_C1 = {
+    "traitement-avertissements-isoles-rapport-2026-08-18.md",
+    "2026-08-23_memoire-persistante-deploiement.md",
+}
+
 # Patterns de liens considérés comme placeholders/exemples — ignorés en C1.
 RE_LIEN_PLACEHOLDER = re.compile(
     r"^(\.\.\.|…|slug(-source)?|chemin(/relatif)?|autre-slug"
@@ -345,6 +352,7 @@ def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
     # cibles neutres (doctrinal/atelier/label) — voir C4 ci-dessous pour la seule
     # cible qui ne doit structurellement jamais y apparaître : meta/.
     exempt_c3 = nom in FICHIERS_EXEMPTS_C3
+    exempt_c1 = chemin_rel in FICHIERS_EXEMPTS_C1 or nom in FICHIERS_EXEMPTS_C1
     interdits = set() if exempt_c3 else ETANCHEITE_INTERDITE.get(circ, set())
     for brut in RE_WIKILINK.findall(corps):
         cible = brut.strip().replace("\\", "/")
@@ -357,7 +365,8 @@ def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
         if cible not in par_chemin:
             candidats = par_slug.get(os.path.basename(cible), [])
             if not candidats:
-                rap.avertir(chemin_rel, "C1", f"lien non résolu : [[{brut}]]")
+                if not exempt_c1:
+                    rap.avertir(chemin_rel, "C1", f"lien non résolu : [[{brut}]]")
                 continue
             if len(candidats) > 1:
                 rap.avertir(chemin_rel, "C2",

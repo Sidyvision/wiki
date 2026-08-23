@@ -1,9 +1,11 @@
 ---
 title: "Post-Scriptum — Hook pre-commit corrigé"
-date: 2026-08-22
-type: erratum
+type: outillage
+statut_experience: reproduit
+created: 2026-08-22
+updated: 2026-08-22
 references:
-  - atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md
+  - "[[atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination]]"
 ---
 
 # Post-Scriptum — Hook pre-commit corrigé

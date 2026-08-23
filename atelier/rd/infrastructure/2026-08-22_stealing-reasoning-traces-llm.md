@@ -1,3 +1,20 @@
+---
+title: "Stealing Reasoning Traces from Proprietary LLM APIs"
+type: outillage
+statut_experience: reproduit
+tags:
+  - security
+  - llm
+  - infrastructure
+  - research
+created: 2026-08-22
+updated: 2026-08-23
+sources:
+  - "[[2608.09867]]"
+links:
+  - "[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11]]"
+---
+
 # Stealing Reasoning Traces from Proprietary LLM APIs
 
 Ressource R&D structurante — amorçage infrastructure/architecture/laboratoire

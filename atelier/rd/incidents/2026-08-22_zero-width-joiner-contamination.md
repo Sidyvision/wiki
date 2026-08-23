@@ -1,7 +1,9 @@
 ---
 title: "Incident de contamination par caractères Unicode invisibles (U+200D)"
-date: 2026-08-22
-type: rapport-incident
+type: outillage
+statut_experience: reproduit
+created: 2026-08-22
+updated: 2026-08-22
 status: resolu
 severity: moyen
 affected_systems: [wiki, documentation]
