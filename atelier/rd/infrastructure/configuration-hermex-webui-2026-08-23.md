@@ -56,11 +56,22 @@ tailscale funnel --bg 8787
 4. Sélectionner "Sur l'écran d'accueil"
 5. Confirmer avec "Ajouter"
 
-**Avantages :**
-- Utilise les endpoints SSE natifs du webui
-- Pas besoin d'app tierce
-- Mise à jour automatique (pas de version à gérer)
-- Authentification via Tailscale
+**Fonctionnalités :**
+- ✅ Utilise les endpoints SSE natifs du webui (streaming temps réel)
+- ✅ Liste les sessions CLI (20 sessions visibles au 2026-08-23)
+- ✅ Reprendre une session CLI : cliquer sur la session dans la sidebar, envoyer un message via `/api/chat/start` (HTTP 200 confirmé)
+- ✅ Créer de nouvelles sessions depuis le webui
+- ✅ Pas besoin d'app tierce
+- ✅ Mise à jour automatique (pas de version à gérer)
+- ✅ Authentification via Tailscale
+
+**Test effectué (2026-08-23 18:17 UTC) :**
+```bash
+curl -X POST "https://wiki.tail7ce5ca.ts.net/api/chat/start" \
+  -H "Content-Type: application/json" \
+  -d '{"session_id":"20260823_172945_e2b43f","message":"test"}'
+# → HTTP 200, turn_id retourné
+```
 
 ### Option 2 : App native Hermex (déconseillé)
 
