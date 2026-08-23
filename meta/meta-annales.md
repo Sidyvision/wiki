@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-16
+updated: 2026-08-22
 
 ---
 
@@ -13,6 +13,23 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-22] sortie de domaine | `bibliotheque-physique.md` → `atelier/rd/bibliotheque/`
+
+Sur verdict de Sidy, le catalogue de la bibliothèque physique quitte le Domaine
+Réservé pour `atelier/rd/bibliotheque/catalogue-bibliotheque.md`. Tombstone
+`deprecated` conservé sur place (Cmd 10). Motif : un catalogue d'ouvrages
+disponibles au travail n'est pas un fait personnel ; maintenu en `meta/`, il
+était de surcroît inatteignable, aucun circuit ne pouvant pointer vers le
+Domaine Réservé. L'étanchéité n'est pas relâchée : `doctrinal/` ne lie toujours
+pas vers `atelier/`, la consultation prévue par §VII reste humaine et sans
+wikilink.
+
+Écriture également de `meta/projet-unifie/hermes-prompts/13-librarian-archivist.md`
+— rôle bibliothécaire-archiviste, absent des douze rôles existants. Points
+d'arrêt `clarify` non contournables, contrôle Cmd 15 en amont (colonnes de
+script séparées, pour supprimer la cause des marques bidi plutôt que les
+nettoyer après coup), interdiction de transcrire les définitions d'un glossaire.
 
 ---
 

@@ -3,7 +3,7 @@ title: "Pôle R&D de l'atelier — charte du lieu"
 type: index
 tags: [atelier, rd, infrastructure, souverainete]
 created: 2026-08-08
-updated: 2026-08-20
+updated: 2026-08-22
 sources: []
 links: []
 ---
@@ -52,9 +52,29 @@ atelier/rd/
 ├── outillage/         ← scripts, leur documentation, leurs bancs de test
 ├── veille/            ← veille externe R&D (GitHub, arXiv, dépôts) —
 │                         ouvert 2026-08-18, hebdomadaire, qualitatif
-└── cahiers/           ← cahiers append-only : registre-problemes.md (ouvert
-                          2026-08-08), cahiers d'expérience à venir (phase 2)
+├── cahiers/           ← cahiers append-only : registre-problemes.md (ouvert
+│                         2026-08-08), cahiers d'expérience à venir (phase 2)
+├── bibliotheque/      ← catalogue de la bibliothèque physique (déplacé de
+│                         `meta/` le 2026-08-22), fiches `index-livre`
+│                         transcrites des index et glossaires photographiés,
+│                         validateur et générateur du lexique unifié
+└── citadelle-du-sham/ ← prototype 3D reçu au sas, versé ici le 2026-08-22
 ```
+
+### `bibliotheque/` — instrument de repérage (ouvert 2026-08-22)
+
+| pièce | rôle |
+|---|---|
+| `catalogue-bibliotheque.md` | recension des ouvrages possédés (ex-`meta/bibliotheque-physique.md`) |
+| `index-<slug>.md` | un index ou glossaire transcrit par ouvrage — `terme → page`, aucun contenu doctrinal |
+| `valider-index-livres.py` | contrôles bloquants : Cmd 15, pages numériques, couverture photo, doublons signalés jamais fusionnés |
+| `generer-glossaire-unifie.py` | lexique unifié dérivé — refuse de générer si le validateur bloque |
+| `glossaire-unifie.md` | **artefact dérivé, jamais édité à la main** |
+
+Usage : savoir *où chercher*. La levée d'un `to-source` reste la vérification du
+texte primaire par Sidy (§VII) — l'instrument dit où regarder, jamais quoi
+conclure. `doctrinal/` ne lie jamais vers `atelier/` : la consultation est
+humaine, sans wikilink.
 
 ## Régime des deux sous-régimes de l'atelier
 
@@ -121,6 +141,13 @@ dans le dépôt.
   Claude Code, ou autre) reprenant le fil des travaux R&D sans contexte antérieur :
   ce qui est tranché et committé, ce qui est en cours, chantiers ouverts par
   priorité, leçons transversales. Aucun contenu doctrinal.
+- **Leçons du chantier bibliothèque (2026-08-22)** :
+  [[atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres|leçons
+  chantier bibliothèque]] — retour d'expérience de la conception de l'outillage
+  d'index/glossaires : malentendu de cadrage, propagation Unicode par copie,
+  outil qui contient ce qu'il interdit, jugement calculé plutôt que déclaré,
+  panne silencieuse d'un contrôle non armé, absence de dépôt git. Le retour
+  sur la formation de l'agent proprement dite reste à écrire après le lot 1.
 - **Compte-rendu — malentendu du rapport conjoint et reprise (2026-08-20)** :
   [[atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session|compte-rendu
   2026-08-20]] — le Gardien n'avait pas répondu à la demande de Sidy (pistes

@@ -177,7 +177,8 @@ wiki/  (= /root/wiki)
     │                         (nommage préfixé `meta-`, jamais `index.md`/`annales.md`
     │                         nus : `meta/` reste un Domaine Réservé, pas un sixième
     │                         circuit — ouvert 2026-08-09)
-    ├── bibliotheque-physique.md  ← Catalogue de la bibliothèque (voir §VII, sources)
+    ├── bibliotheque-physique.md  ← TOMBSTONE (déplacé 2026-08-22 →
+    │                         `atelier/rd/bibliotheque/catalogue-bibliotheque.md`)
     ├── protocole-archives/       ← Versions archivées du protocole (Cmd 10)
     ├── projet-unifie/     ← Briefs d'infrastructure, hermes-prompts/, propositions
     └── transmissions/     ← Dispositif Karūbī (silsila documentaire, voir meta/CLAUDE.md)
@@ -307,8 +308,12 @@ Publication : `label/CLAUDE.md` — vivent désormais dans leur `CLAUDE.md` loca
 ### Discipline des sources (transversale)
 
 1. **Bibliothèque physique d'abord** : avant toute production de fiche `source` ou
-   `symbole`, consulter systématiquement `meta/bibliotheque-physique.md` — un texte
-   possédé physiquement prime toute source secondaire.
+   `symbole`, consulter systématiquement
+   `atelier/rd/bibliotheque/catalogue-bibliotheque.md` — un texte possédé
+   physiquement prime toute source secondaire. Consultation **humaine**, sans
+   wikilink : `doctrinal/` ne pointe jamais vers `atelier/` (§VI). Les index et
+   glossaires transcrits du même dossier indiquent *où chercher* ; ils ne lèvent
+   jamais un `to-source` par eux-mêmes (point 2 ci-dessous).
 2. **Levée du `to-source`** : le marqueur `to-source` ne peut être retiré qu'après
    vérification du **texte primaire par l'utilisateur lui-même** (ou citation exacte
    d'une autorité textuelle contrôlée). Jamais sur la seule foi d'un modèle.

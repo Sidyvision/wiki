@@ -2,7 +2,7 @@
 title: "meta-index — hub du Domaine Réservé"
 type: meta
 created: 2026-08-09
-updated: 2026-08-09
+updated: 2026-08-22
 ---
 
 # meta-index — hub du Domaine Réservé (`meta/`)
@@ -110,7 +110,7 @@ updated: 2026-08-09
 - [[meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08|Proposition — le pôle R&D de l'atelier]]
 - [[meta/projet-unifie/triage-chatgpt-export|Triage export ChatGPT (140 conversations)]]
 
-### hermes-prompts/ (12 rôles + note)
+### hermes-prompts/ (13 rôles + note)
 
 - [[meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction|Rôle — A&R / Music Artistic Direction]]
 - [[meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction|Rôle — Visual & Editorial Artistic Direction]]
@@ -124,6 +124,7 @@ updated: 2026-08-09
 - [[meta/projet-unifie/hermes-prompts/10-protocol-guardian|Rôle — Protocol Guardian]]
 - [[meta/projet-unifie/hermes-prompts/11-fanzine-editor|Rôle — Fanzine Editor]]
 - [[meta/projet-unifie/hermes-prompts/12-commerce-profitability|Rôle — Commerce & Profitability]]
+- [[meta/projet-unifie/hermes-prompts/13-librarian-archivist|Rôle — Librarian & Archivist]] (ouvert 2026-08-22)
 - [[meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03|Note d'optimisation — intégration Hermes Agent]]
 
 ### hermes-skills/

@@ -3,7 +3,7 @@ title: "Atelier — Ressources & Études de Cas"
 type: index
 tags: [atelier, ressources, index, instrument]
 created: 2026-07-07
-updated: 2026-08-20
+updated: 2026-08-22
 ---
 
 # Atelier — Index
@@ -34,6 +34,10 @@ tiers. Charte et arborescence : [[atelier/rd/index|charte du pôle R&D]].
 - `rd/audio/` — ingénierie son générique
 - `rd/outillage/` — scripts et bancs de test
 - `rd/cahiers/` — cahiers d'expérience (phase 2)
+- `rd/bibliotheque/` — catalogue de la bibliothèque physique (déplacé de `meta/`
+  le 2026-08-22) et index/glossaires transcrits des ouvrages ; instrument de
+  repérage pour savoir *où chercher*, voir
+  [[atelier/rd/bibliotheque/catalogue-bibliotheque|catalogue]]
 
 ---
 
