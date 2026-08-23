@@ -20,6 +20,8 @@ d'annales correspondante). Le fichier d'ordre lui-même ne porte aucun contenu
 propre à intégrer dans un circuit ; il est retiré sans autre écriture, sur
 demande explicite de Sidy.
 
+- **Commit** : aa3c9ff
+
 ## [2026-08-23] archivage | Étude de cas — Zellige de la Grande Mosquée de Paris
 
 Intégration du fichier déposé en sas `_inbox/` (2026-08-22) vers
