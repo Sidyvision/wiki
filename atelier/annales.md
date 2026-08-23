@@ -31,7 +31,7 @@ du préfixe date et du préfixe `etude-cas-`, redondant avec `type:`, alignement
 - Ajouté à `atelier/index.md` (section Études de Cas).
 - Fichier source retiré du sas `_inbox/` après intégration.
 
-- **Commit** : (à renseigner après commit)
+- **Commit** : be26f84
 
 ## [2026-08-23] archivage | déplacement citadelle-du-sham, deux rapports, outillage bibliothèque
 
