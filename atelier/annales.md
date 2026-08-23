@@ -2036,3 +2036,24 @@ des fiches `doctrinal/discernement/`.
 - **Commit** : 0cb8683
 
 ---
+
+## [2026-08-23] infrastructure | Configuration Hermex (webui via Tailscale)
+
+- **Opération** : RECONFIGURATION + MISE À JOUR — rétablissement du canal Hermex et documentation de la configuration.
+- **Actions** :
+  * Mise à jour webui v0.51.923 → v0.52.262 (git pull origin master)
+  * Redémarrage service webui (PID 2184156)
+  * Reconfiguration funnel Tailscale : port 20128 → 8787
+  * Diagnostic complet des endpoints API (HTTP 200 sur /, /health, /api/sessions, /api/profiles, /api/session/stream)
+  * Identification incompatibilité app native Hermex (WebSocket vs SSE)
+- **État final** :
+  * URL publique : https://wiki.tail7ce5ca.ts.net
+  * Webui opérationnel (v0.52.262)
+  * Funnel Tailscale fonctionnel (proxy HTTPS → HTTP)
+  * Recommandation : utiliser PWA via Safari plutôt qu'app native tierce
+- **Documentation** :
+  * Fiche technique : `atelier/rd/infrastructure/configuration-hermex-webui-2026-08-23.md`
+  * Instructions PWA : installation via Safari → "Sur l'écran d'accueil"
+- **Commit** : [à venir]
+
+---
