@@ -10,6 +10,29 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-23] archivage | Étude de cas — Zellige de la Grande Mosquée de Paris
+
+Intégration du fichier déposé en sas `_inbox/` (2026-08-22) vers
+`atelier/etudes-de-cas/zellige-grande-mosquee-paris.md` (renommage : suppression
+du préfixe date et du préfixe `etude-cas-`, redondant avec `type:`, alignement sur
+`kojima-productions.md`/`stones-throw.md`).
+
+- Contenu inchangé : fiche de discipline méthodologique (photographie non
+  redressée, aucune donnée anchorable dans `instrument-donnees.yaml`), ouverture
+  doctrinale kari-kumi sur le Quadrivium (Guénon) et l'Épître 6 des Ikhwān
+  al-Ṣafāʾ, signalements S1–S5 conservés tels quels.
+- **Correction apportée** : le frontmatter déposé portait un lien vers une cible
+  inexistante (`atelier/rd/2026-07-02_donnees-geometriques-gizeh`). Signalé à
+  Sidy avant écriture (Cmd 12) ; verdict reçu : lien vers les deux fiches Gizeh
+  réelles — `doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh` (données) et
+  `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien`
+  (méthode de confrontation, à laquelle le §0 du texte fait référence).
+- Contrôle Cmd 15 (hygiène Unicode) : fichier propre, aucun caractère invisible.
+- Ajouté à `atelier/index.md` (section Études de Cas).
+- Fichier source retiré du sas `_inbox/` après intégration.
+
+- **Commit** : (à renseigner après commit)
+
 ## [2026-08-23] archivage | déplacement citadelle-du-sham, deux rapports, outillage bibliothèque
 
 Suite du traitement du lot 2026-08-22, sur feu vert explicite de Sidy
