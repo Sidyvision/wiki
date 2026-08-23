@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-22
+updated: 2026-08-23
 ---
 
 # Annales de l'Atelier
