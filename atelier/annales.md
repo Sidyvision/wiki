@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-20
+updated: 2026-08-22
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,107 @@ updated: 2026-08-20
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-23] archivage | Index et table des matières Rig-Veda (Langlois/Foucaux)
+
+Intégration du lot 1 de photographies indexées (Rig-Veda, 11 images).
+- **Fiche 1** : `index-rig-veda.md` (nature: index_rerum, pages 628-654, ~1670 entrées OCR manuel)
+- **Fiche 2** : `index-rig-veda-table.md` (nature: table, pages 41-599, 8 sections × 8 lectures)
+- **Dépôt** : `atelier/rd/bibliotheque/` (Sceau atelier, type: ressource)
+- **Contrôle** : verifier-invariants.py → aucune erreur nouvelle
+- **Discipline des sources** : sources marquées `to-source` ; convention_pages en `to-verify` où résolution insuffisante (légende IMG_0093)
+
+Travaux amont (session antérieure + cette session) : transcription manuelle des 4 images bloquées par panne Hermes silent (IMG_0100-0103) ; tentative OCR ciblé légende (IMG_0093) — abandon après deux échecs identiques (0-byte output) ; construction des deux fiches selon modèle atelier/rd.
+
+Prochains lots en attente : Ihwān al-Ṣafā' (lot 2, 34 images), La Porte du Ciel (lot 3, 59 images).
+
+- **Commit** : fa86680
+
+## [2026-08-22] correction | Panne silencieuse du controle photo + repercussions d'index
+
+Passe de correction faisant suite a l'ouverture de `rd/bibliotheque/` le meme
+jour, sur trois points non couverts par la passe initiale.
+
+1. **Controle H1 en panne silencieuse (bloquant).** Le controle « photographie
+   declaree vs photographie reelle » de `valider-index-livres.py` ne s'armait
+   qu'a deux conditions cumulees : `dossier_raw` present en frontmatter et
+   `--raw` passe en argument. Or `dossier_raw` n'etait pas dans `CLES_REQUISES`,
+   `--raw` valait `None` par defaut, et `valider_index_livres_shim.py` ne le
+   transmettait pas — donc **par le chemin automatise (generateur), le controle
+   ne s'executait jamais**. Constat empirique avant correction, sur une fiche
+   declarant `IMG_9999` inexistant : generateur `code: 0`, validateur autonome
+   avec `--raw` `code: 1` (H1 bloquant). Correction : `dossier_raw` ajoute aux
+   cles requises, `--raw` par defaut resolu vers le `raw/` du depot, argument
+   transmis par le shim. Re-test apres correction : generateur `code: 1`, REFUS.
+   C'est la garantie meme que le script `compare` perdu apportait.
+2. **`atelier/index.md`** — non repercute lors de la passe initiale (seul le
+   sous-index `rd/index.md` l'avait ete). `rd/bibliotheque/` y figure desormais.
+   `updated` porte a 2026-08-22.
+3. **Cahier de lecons** — `2026-08-22_lecons-chantier-bibliotheque-index-livres.md`,
+   livrable explicite de la mission (les lecons de la formation d'un agent
+   reviennent a `rd/`). Huit sections, aucun contenu doctrinal.
+
+Divers : marqueur `<!-- INSERTION: QUEUE -->` de `_inbox/UPDATES.md` remis en
+queue de fichier (il precedait la premiere entree, ce qui aurait inverse
+l'ordre des insertions suivantes).
+
+**Cmd 15 — cinquieme occurrence de la journee**, commise dans le paragraphe du
+cahier qui decrit ce mode d'echec. Detectee au balayage de fin de passe,
+retiree, et **consignee dans le cahier lui-meme** plutot que corrigee en
+silence.
+
+**Verification mecanique independante, rapportee brute** (`verifier-invariants.py`) :
+`5 erreur(s), 62 avertissement(s)` — identique a la cloture de la passe
+precedente. Les 5 erreurs sont **anterieures et non imputables a ces passes** :
+`atelier/stealing-reasoning-traces-rd.md` (B0, aucun frontmatter) et les deux
+fiches `atelier/rd/incidents/2026-08-22_*` (B1, `created`/`updated` manquants).
+Les 62 avertissements sont le bruit `C1` connu des documents citant des
+wikilinks bruts.
+
+**Cmd 9 non satisfait** : `/root/wiki` n'est pas un depot git, aucun SHA
+disponible. Signale, non contourne. Point au verdict de Sidy.
+
+
+## [2026-08-22] ouverture | Instrument de repérage — `atelier/rd/bibliotheque/`
+
+Ouverture du chantier des index et glossaires photographiés de la bibliothèque
+physique, sous supervision (l'exécution OCR revient à l'agent Hermes, rôle #13).
+
+- **Vidange du sas** `_inbox/` avant travail (verdict Sidy) : deux rapports
+  studio/gardien versés en `atelier/rd/cahiers/`, `citadelle-du-sham/` versé en
+  `atelier/rd/citadelle-du-sham/`. Création de `_inbox/UPDATES.md` (append-only).
+- **Déplacement** de `meta/bibliotheque-physique.md` vers
+  `atelier/rd/bibliotheque/catalogue-bibliotheque.md` (verdict Sidy). Motif : un
+  catalogue d'ouvrages disponibles au travail n'est pas un fait personnel, et en
+  `meta/` aucun circuit ne pouvait le citer (§VI, aucun lien entrant). Tombstone
+  `deprecated` conservé à l'ancien chemin (Cmd 10). `type: meta` → `type: ressource`.
+- **Deux références de `CLAUDE.md` reprises** (l. 180 arborescence, §VII
+  discipline des sources), sauvegarde `CLAUDE.md.bak-2026-08-22-pre-deplacement-bibliotheque`.
+- **Ajout au catalogue** de *La Philosophie des Ihwān al-Ṣafā'* — seul des trois
+  ouvrages du chantier réellement absent. Rectification : *Rig-Véda* (l. 128) et
+  *La Porte du ciel* (l. 53) y figuraient déjà ; ma recherche initiale, sans
+  accent, les avait manqués.
+- **Deux scripts écrits**, lignée `carte-du-depot.py` (déterministe, stdlib
+  seule, lecture seule, aucun jugement, artefact dérivé) :
+  `valider-index-livres.py` et `generer-glossaire-unifie.py`.
+
+Substitution assumée : le script `compare` prévu par §VIII.9 est introuvable au
+dépôt ; `valider-index-livres.py` en reprend la fonction (§VIII.2, la
+vérification mécanique indépendante est seul juge) sur l'objet du présent
+chantier. Choix de conception : `completude` a été retiré du schéma de fiche —
+c'était un champ de jugement qu'un agent aurait rempli ; la contiguïté des
+photographies est désormais **calculée** par le validateur.
+
+Incident Cmd 15, signalé sans être dissimulé : deux fichiers écrits ce jour
+contenaient des points de code interdits — la ligne `grep` du prompt #13
+(caractères littéraux au lieu de leurs échappements) et le dictionnaire
+`INTERDITS` du validateur, qui se déclenchait ainsi sur lui-même. Corrigés dans
+la même passe ; les points de code sont maintenant déclarés par `chr()`.
+Recontrôle des huit fichiers écrits : **0 point de code interdit**.
+
+Cmd 9 non satisfaite : `/root/wiki` n'est pas un dépôt Git (`git status` muet),
+aucun SHA court n'est disponible. Signalé à Sidy, non contourné.
+
 
 ## [2026-08-22] rd | Incident sécurité — contamination ZWJ, nettoyage, Commandement 15
 
