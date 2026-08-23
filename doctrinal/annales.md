@@ -9,6 +9,39 @@ updated: 2026-08-23
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-23] restauration | Normalisation frontmatter `sources:` — passe 2 : ouattara-brahima + rene-guenon (avance sur scan, verdict Sidy 2026-08-23)
+
+- **Contexte** : suite de la passe 1 du jour (entrée ci-dessous, commit 30f34f0).
+  Sidy autorise à prendre de l'avance sur le cycle quotidien d'investigation
+  (message Discord 2026-08-23) : traitement des deux fiches suivantes nommées
+  dans la conclusion du rapport Gardien du 2026-08-23 (`ouattara-brahima`,
+  `platon`, `rene-guenon`).
+- **Opérations** :
+  - `doctrinal/autorites/ouattara-brahima.md` — cas mécanique identique à la
+    passe 1 : chaque fait du corps cite `— source : [[shams-al-maarif]]` →
+    `sources: [[shams-al-maarif]]` (1), corps intact.
+  - `doctrinal/autorites/rene-guenon.md` — cas nouveau : 4 wikilinks déclarés
+    « Source : » dans le corps étaient rangés dans `cross_links` → déplacés
+    dans `sources:` (4) selon la scission du précédent kabbale (2026-08-20,
+    entrées ci-dessous) ; `cross_links` conserve les 4 liens non déclarés
+    sources (malamatiyya, malamatiyah-futuhat-ch23, shams-al-maarif,
+    ahmad-al-buni). Corps intact. Note : c'est la première fois que des fiches
+    `type: deviation` figurent dans un champ `sources:` — elles y figurent
+    parce que le corps les déclare explicitement sources (citation des analyses
+    de Guénon reproduites en `deviations/`), non comme sujets de déviation
+    nouveaux ; aucune fiche `deviation` n'a été créée ni modifiée.
+- **Non touché** : `doctrinal/autorites/platon.md` — stub sans aucun fait dans
+  le corps (« À compléter »), rien à recopier. Correspondances documentées pour
+  l'enrichissement futur : `doctrinal/sources/platon-oeuvres-completes-brisson-2011`
+  (fiche source existante) + catalogue bibliothèque l. 158 (ouvrage physique
+  possédé). La normalisation frontmatter attend des faits dans le corps.
+- **Vérification mécanique** : `verifier-invariants.py` — aucune erreur nouvelle
+  sur les 2 fiches modifiées (2 erreurs préexistantes hors périmètre :
+  `rapport-conjoint-etat-depot-2026-08-20.md` liens génériques, et fiche
+  `configuration-hermex-webui-2026-08-23.md` d'un autre profil sans frontmatter —
+  signalée, hors de la main du Gardien).
+- **Commit** : 14e9106
+
 ## [2026-08-23] restauration | Normalisation frontmatter `sources:` — 5 fiches autorites (investigation Gardien 2026-08-23, verdict Sidy)
 
 - **Contexte** : rapport d'investigation doctrinale du Gardien (2026-08-23, cron
