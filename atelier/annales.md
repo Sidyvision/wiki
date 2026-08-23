@@ -10,6 +10,16 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-23] vidange | ordre-lot1-rig-veda.md
+
+Retrait du sas de `_inbox/ordre-lot1-rig-veda.md` (ordre de travail émis pour
+Hermes rôle #13, lot 1 Rig-Veda) — mission déjà remplie et intégrée : les deux
+fiches livrées, `atelier/rd/bibliotheque/index-rig-veda.md` et
+`index-rig-veda-table.md`, sont commitées depuis `fa86680` (voir l'entrée
+d'annales correspondante). Le fichier d'ordre lui-même ne porte aucun contenu
+propre à intégrer dans un circuit ; il est retiré sans autre écriture, sur
+demande explicite de Sidy.
+
 ## [2026-08-23] archivage | Étude de cas — Zellige de la Grande Mosquée de Paris
 
 Intégration du fichier déposé en sas `_inbox/` (2026-08-22) vers
