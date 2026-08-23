@@ -264,3 +264,37 @@ Incident résolu avec succès. Aucune preuve d'exploitation malveillante, mais l
 **Rapport établi par** : Hermes Agent  
 **Date** : 2026-08-22  
 **Statut** : En attente de validation
+
+---
+
+## Post-scriptum — récidive du même jour (chantier bibliothèque)
+
+**Découverte** : 2026-08-22, lors de l'ouverture de `atelier/rd/bibliotheque/`.
+**Nature** : même famille que l'incident principal — points de code invisibles
+émis à l'écriture, non détectés à la relecture visuelle.
+
+Trois occurrences, toutes de ma main (session de supervision), toutes corrigées
+dans la même passe :
+
+| fichier | point de code | cause |
+|---|---|---|
+| `meta/projet-unifie/hermes-prompts/13-librarian-archivist.md` | U+200B, U+200C, U+200D, U+200E, U+200F, U+FEFF | ligne `grep` d'exemple écrite avec les caractères littéraux au lieu de leurs séquences d'échappement |
+| `atelier/rd/bibliotheque/valider-index-livres.py` | idem | dictionnaire `INTERDITS` déclarant en clair ce qu'il interdit |
+| `atelier/annales.md` | U+200D | graphie « Hermes » recopiée depuis un contexte contaminé |
+
+**Enseignement — au-delà du nettoyage.** Les deux premiers cas partagent une
+cause structurelle : *un outil qui contient littéralement ce qu'il proscrit se
+déclenche sur lui-même*, et son autotest devient un faux positif permanent. La
+correction retenue n'est pas un nettoyage mais un changement de forme — les
+points de code sont désormais déclarés par `chr(0x200B)` etc., jamais écrits en
+clair. Même principe appliqué en amont dans le schéma de fiche `index-livre` :
+arabe et latin ne partagent jamais une cellule de table, ce qui **supprime la
+cause** de l'émission de marques bidi par un moteur OCR au lieu de la nettoyer
+après coup.
+
+Le troisième cas rappelle que la contamination se propage par **copie depuis un
+contexte déjà atteint**, y compris depuis un rendu d'interface : toute graphie
+recopiée doit être vérifiée, pas seulement toute graphie saisie.
+
+**Contrôle mécanique de clôture** : recontrôle des douze fichiers écrits ou
+modifiés dans la passe — 0 point de code interdit.

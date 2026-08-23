@@ -7,6 +7,8 @@ cible: Sidy
 cosignataires:
   - "Studio (R&D, exploration)"
   - "Gardien (vigilance, contrôle protocolaire)"
+created: 2026-08-20
+updated: 2026-08-20
 ---
 
 # Rapport conjoint Studio–Gardien — étude du dépôt

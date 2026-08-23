@@ -3,6 +3,9 @@ title: "La Citadelle du Sham — jeu 3D de visite du depot-lecture"
 date: 2026-08-13
 depose_par: "Mehdi Bouzouïda (avec Habib, Karūbī)"
 statut: "à consulter — initiative de Mehdi, hors dépôt canonique"
+created: 2026-08-22
+updated: 2026-08-22
+type: rapport-agent
 ---
 
 # La Citadelle du Sham

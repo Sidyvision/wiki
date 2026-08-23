@@ -5,6 +5,8 @@ agent: "Hermes Terminal (profil studio)"
 date: 2026-08-20
 statut: remis-à-inbox
 cible: Sidy / Gardien
+created: 2026-08-20
+updated: 2026-08-20
 ---
 
 # Rapport Studio — Exploration préliminaire du dépôt
