@@ -10,6 +10,35 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-23] archivage | Ihwan al-Safa' (Marquet) — 5 fiches, lot 2
+
+Transcription manuelle intégrale du lot 2 (34 photographies, `raw/La Philosophie
+des Ihwan al-Safa/`) — décision d'emblée manuelle (méthode OCR Hermes écartée dès
+le départ, taux d'échec confirmé sur le lot 1). Plan validé par Sidy : 4 fiches de
+base + fiche séparée pour l'Introduction, Bibliographie et Liste des abréviations
+regroupées en une seule fiche.
+- **Fiche 1** : `index-notions-ihwan-al-safa.md` (pages 613-616, IMG_0001-0004)
+- **Fiche 2** : `index-noms-ihwan-al-safa.md` (pages 609-612, IMG_9996-9999)
+- **Fiche 3** : `table-ihwan-al-safa.md` (pages 617-620, IMG_0005-0008)
+- **Fiche 4** : `bibliographie-ihwan-al-safa.md` (pages 600-608, IMG_9987-9995 — Liste
+  des abréviations + Bibliographie regroupées)
+- **Fiche 5** : `introduction-ihwan-al-safa.md` (pages V, VII-XV, IMG_9975-9986 —
+  ordre de lecture réel restitué, distinct de l'ordre brut des prises de vue ;
+  lacune réelle notée : page VI absente du corpus photographié)
+- **Dépôt** : `atelier/rd/bibliotheque/` (Sceau atelier, type: ressource)
+- **Contrôle** : verifier-invariants.py → aucune erreur ni avertissement sur les 5
+  fiches (5 erreurs et 62 avertissements préexistants, sans rapport avec ce lot)
+- **Discipline des sources** : sources marquées `to-source` ; `to-verify` préservés
+  sur les passages denses en colonnes (Index des notions, pages VIII/IX-XI/XIV de
+  l'Introduction) et les deux photos de bibliographie sous-exposées (IMG_9989,
+  IMG_9995)
+- **Git** : staging ciblé des 5 chemins exacts uniquement (`git add` nommé, jamais
+  `-A`) — le dépôt contient par ailleurs des travaux non liés en cours, non touchés
+
+Prochain lot en attente : La Porte du Ciel (lot 3, ~52 images).
+
+- **Commit** : 804c38a
+
 ## [2026-08-23] archivage | Index et table des matières Rig-Veda (Langlois/Foucaux)
 
 Intégration du lot 1 de photographies indexées (Rig-Veda, 11 images).
