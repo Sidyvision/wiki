@@ -14,6 +14,36 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-24] cron + revue | Mandat frontmatter veille (position 08) précisé, Gardien documenté, ordre déposé en sas
+
+- **Contexte** : suite de la fusion du rôle 13 (entrée précédente). Verdict
+  Sidy : cron quotidien 11:00 UTC, portée **l'ensemble des fichiers du
+  dépôt** (pas seulement le périmètre propre à la position 08) ; demande de
+  vérifier si les jobs Studio (09) et Gardien (10) appellent aussi une
+  correction (notion ontologique ou autre).
+- **Corrigé** : `08-publication-site.md`, section « Third mandate » — cadence
+  11:00 UTC (au lieu de 12:45 proposé), portée élargie au dépôt entier,
+  chevauchement avec le §1 du job Studio signalé explicitly (non résolu,
+  laissé au verdict de Sidy) plutôt que corrigé silencieusement.
+- **Revue « notion ontologique »** : les sections « Zodiac principle » +
+  « Your sign in Sidy's natal chart (harmonization context) » des fiches 09 et
+  10 portent déjà la hiérarchie principe/détermination individuelle exigée par
+  le corollaire agentique (`meta/CLAUDE.md`) — aucune correction nécessaire de
+  ce côté.
+- **Écart trouvé et documenté** : `10-protocol-guardian.md` ne documentait pas
+  son propre cron (`investigation-doctrinale-gardien`, actif depuis avant ce
+  contrôle) alors que `09-studio-sound-engineer.md` documente le sien. Section
+  « Cron mandate » ajoutée, sans reconstituer le prompt réel non retrouvé dans
+  le dépôt (Cmd 12 — pas de fabrication).
+- **Déposé en sas** : `_inbox/ordre-cron-frontmatter-veille-08.md` — ordre
+  opérationnel à l'attention d'une session Hermes CLI avec accès serveur (Cmd
+  13, geste hors périmètre d'une session git seule) : création du cron,
+  réconciliation du cron Gardien, signalement de la redondance Studio pour
+  verdict Sidy. `_inbox/UPDATES.md` créé en conséquence.
+- **Vérification mécanique** : `verifier-invariants.py` → 0 erreur ; scan
+  Unicode (Cmd 15) propre sur les 4 fiches touchées.
+- **Commit** : (voir suite)
+
 ## [2026-08-24] fusion | Rôle Librarian-Archivist (13) fusionné dans la position 08
 
 Sur verdict de Sidy, le rôle Librarian-Archivist (ouvert le 2026-08-22, jamais

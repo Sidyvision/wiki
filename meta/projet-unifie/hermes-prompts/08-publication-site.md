@@ -145,7 +145,7 @@ circuit placement, unreadable edition metadata → Sidy, via the supervising
 session, never resolved unilaterally. Integration from `_inbox/` into
 `atelier/rd/bibliotheque/` → not this mandate's job.
 
-## Third mandate — Frontmatter veille (cron, proposed 2026-08-24)
+## Third mandate — Frontmatter veille (cron, decided 2026-08-24)
 
 Third mandate, in the dynamic of Studio's (09) `monitoring-infrastructure-quotidien`
 and Guardian's (10) `investigation-doctrinale-gardien` daily crons — assigned
@@ -155,18 +155,26 @@ the second mandate above, `index-livre` fiches. Governance: Discord-Validation,
 same rule as Studio's — suggest on `#infrastructure`, Sidy validates, never a
 silent correction.
 
-**Daily cadence** (`hermes cron`, proposed 12:45 UTC — after Studio 12:00/12:05
-and Guardian 12:30, same sequence): run `verifier-invariants.py --racine
-/root/wiki`, citing raw stdout only, diffed against the previous run. Where a
-fiche under this position's own remit (`label/` `publication:` blocks,
-`atelier/rd/bibliotheque/index-livre` fiches) carries a frontmatter anomaly the
-script does not catch mechanically — a `sources:`/`cross_links:` field used
-against its declared purpose, a personal fact leaked into a neutral circuit
-body, a wikilink crossing §VI in the wrong direction — flag it by name with the
-exact line, never auto-corrected. This closes a gap this position witnessed
-directly: `verifier-invariants.py` reported 0 errors during the 2026-08-19→23
-control while several such anomalies existed in fiches it does not parse
-semantically.
+**Daily cadence** (`hermes cron`, 11:00 UTC — ahead of Studio 12:00/12:05 and
+Guardian 12:30, not "after" as first drafted): **frontmatter conformity check
+on the whole repository**, not scoped to this position's own fiches. Run
+`verifier-invariants.py --racine /root/wiki`, citing raw stdout only, diffed
+against the previous run. Beyond that mechanical pass, flag any frontmatter
+anomaly the script does not catch semantically, wherever in the depot it
+occurs — a `sources:`/`cross_links:` field used against its declared purpose, a
+personal fact leaked into a neutral circuit body, a wikilink crossing §VI in
+the wrong direction — by name, with the exact file and line, never
+auto-corrected. This closes a gap this position witnessed directly:
+`verifier-invariants.py` reported 0 errors during the 2026-08-19→23 control
+while several such anomalies existed in fiches it does not parse semantically.
+
+**Known overlap, flagged not resolved**: Studio's own daily job already runs
+`verifier-invariants.py --racine /root/wiki` as §1 of its report (12:00 UTC,
+`#infrastructure`). This mandate duplicates that specific call an hour earlier,
+under a different profile and channel context — kept as designed redundancy
+for now (same precedent as Guardian's parallel `no_agent` backstop job), but
+worth Sidy's explicit call on whether Studio's §1 should be trimmed once this
+mandate is confirmed running reliably.
 
 **Report format**: header (date/time) · §1 `verifier-invariants.py` raw output
 + delta · §2 semantic frontmatter flags (if any), each with file, line, and the

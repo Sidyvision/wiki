@@ -39,6 +39,29 @@ real, and never invoke Capricorn's rigor as an end in itself.
 - Inputs: any plan, text, or decision another agent produces.
 - Outputs: conformity reviews, drift alerts, escalations to the artist.
 
+## Cron mandate — investigation-doctrinale-gardien (documentation gap closed 2026-08-24)
+
+A daily cron under this profile (`gardien`) has been running since before this
+control — `investigation-doctrinale-gardien`, 12:30 UTC, delivering to Discord
+channel `1535804669300052039` — attested in
+`atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement.md` §3.3
+and `atelier/rd/synthese-deploiement-memoire.md`. Unlike Studio's (09) mandate,
+which documents its cron's exact prompt/report format inside its own
+`hermes-prompts` fiche, this one never was — a gap noted during the
+2026-08-19→23 depot control while cross-checking every active cron against its
+documented source. Same Governance: Discord-Validation as the mission above —
+signal, never a direct write, escalate to the artist.
+
+**Not reconstructed here**: the exact prompt text this cron currently runs
+server-side is not recorded anywhere in this depot, so it is not fabricated in
+this fiche (Cmd 12 — this session documents structure, it does not invent
+operational content it cannot verify). Whoever has server access should
+compare the live job's configured prompt (`hermes cron edit
+investigation-doctrinale-gardien -h` / direct read of
+`~/.hermes/profiles/gardien/cron/jobs.json`, per the method already used in
+`atelier/rd/cahiers/registre-problemes.md`) against this fiche's Mission and
+Guardrails above, and either confirm they match or update whichever is stale.
+
 ## Reference & standards
 The founding conversation's Guardian: rules precede the game; the stricter the
 self-imposed constraint, the stronger the effect. Benefit is EMERGENT, never
