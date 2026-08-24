@@ -155,5 +155,6 @@ Chaque étude sépare strictement : **Faits** (sourcés), **Analyse** (interpré
 - [[etudes-de-cas/stones-throw|Stones Throw Records]] — cas d'école : indépendance, curation, longévité, diversification revenue sans dilution du propos (musique/vinyle, 1996–)
 - [[etudes-de-cas/kojima-productions|Kojima Productions]] — studio-auteur, indépendance financée projet par projet, absence de backlist propre, dépendance structurelle à deux individus (jeu vidéo, 2015–), en anglais
 - [[etudes-de-cas/zellige-grande-mosquee-paris|Zellige de la Grande Mosquée de Paris]] — lecture géométrique d'un pan de mur (frise, pavage girih, rosace centrale) à partir d'une photographie terrain non redressée ; aucune donnée anchorable dans l'Instrument en l'état, chantier ouvert sur le Quadrivium et l'Épître 6 des Ikhwān al-Ṣafāʾ (proportion arithmétique/géométrique/harmonique)
+- [[etudes-de-cas/forteresses-architecture-defensive|Forteresses — données d'architecture défensive]] — fiche de **phase corpus** (méthode en deux phases validée 2026-08-24) : données brutes d'un reel de vulgarisation (terrain, couches, autarcie, dissuasion), sans interprétation ; tout item `to-source`
 
 ---
