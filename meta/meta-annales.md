@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-22
+updated: 2026-08-24
 
 ---
 
@@ -13,6 +13,56 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-24] cron + revue | Mandat frontmatter veille (position 08) précisé, Gardien documenté, ordre déposé en sas
+
+- **Contexte** : suite de la fusion du rôle 13 (entrée précédente). Verdict
+  Sidy : cron quotidien 11:00 UTC, portée **l'ensemble des fichiers du
+  dépôt** (pas seulement le périmètre propre à la position 08) ; demande de
+  vérifier si les jobs Studio (09) et Gardien (10) appellent aussi une
+  correction (notion ontologique ou autre).
+- **Corrigé** : `08-publication-site.md`, section « Third mandate » — cadence
+  11:00 UTC (au lieu de 12:45 proposé), portée élargie au dépôt entier,
+  chevauchement avec le §1 du job Studio signalé explicitly (non résolu,
+  laissé au verdict de Sidy) plutôt que corrigé silencieusement.
+- **Revue « notion ontologique »** : les sections « Zodiac principle » +
+  « Your sign in Sidy's natal chart (harmonization context) » des fiches 09 et
+  10 portent déjà la hiérarchie principe/détermination individuelle exigée par
+  le corollaire agentique (`meta/CLAUDE.md`) — aucune correction nécessaire de
+  ce côté.
+- **Écart trouvé et documenté** : `10-protocol-guardian.md` ne documentait pas
+  son propre cron (`investigation-doctrinale-gardien`, actif depuis avant ce
+  contrôle) alors que `09-studio-sound-engineer.md` documente le sien. Section
+  « Cron mandate » ajoutée, sans reconstituer le prompt réel non retrouvé dans
+  le dépôt (Cmd 12 — pas de fabrication).
+- **Déposé en sas** : `_inbox/ordre-cron-frontmatter-veille-08.md` — ordre
+  opérationnel à l'attention d'une session Hermes CLI avec accès serveur (Cmd
+  13, geste hors périmètre d'une session git seule) : création du cron,
+  réconciliation du cron Gardien, signalement de la redondance Studio pour
+  verdict Sidy. `_inbox/UPDATES.md` créé en conséquence.
+- **Vérification mécanique** : `verifier-invariants.py` → 0 erreur ; scan
+  Unicode (Cmd 15) propre sur les 4 fiches touchées.
+- **Commit** : a32b1a5
+
+## [2026-08-24] fusion | Rôle Librarian-Archivist (13) fusionné dans la position 08
+
+Sur verdict de Sidy, le rôle Librarian-Archivist (ouvert le 2026-08-22, jamais
+activé — section natal chart restée en brouillon) est fusionné dans
+`meta/projet-unifie/hermes-prompts/08-publication-site.md` (« Second mandate »)
+plutôt qu'ouvert comme treizième position, pour préserver la structure des
+douze rôles. Motif : aucune des douze fonctions n'a de recoupement de domaine
+avec le catalogage de bibliothèque (toutes bâties autour des opérations du
+label) ; le rapprochement se justifie par l'éthos (« zero editorial initiative
+BY DESIGN », déterministe, validation humaine avant tout acte final) — même
+précédent que le mandat de veille infrastructure logé sur la position 09
+(2026-08-16). Un troisième mandat (cron de veille « frontmatter », dans la
+dynamique des crons Studio/Gardien) est proposé dans le même geste — cadence
+et canal à confirmer par Sidy, création effective du job hors périmètre de
+cette session (Cmd 13, geste serveur).
+`meta/projet-unifie/hermes-prompts/13-librarian-archivist.md` conservé en
+tombstone `deprecated` (Cmd 10). `meta-index.md` mis à jour.
+
+- **Commit** : 615ee0f
 
 ## [2026-08-22] sortie de domaine | `bibliotheque-physique.md` → `atelier/rd/bibliotheque/`
 
