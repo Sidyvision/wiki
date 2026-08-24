@@ -10,6 +10,27 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-24] archivage | Fiche corpus brut — refroidissement passif traditionnel (méthode en deux phases)
+
+- **Contexte** : méthode en deux phases validée par Sidy le 2026-08-24 ;
+  troisième absorption après forteresses et dougong.
+- **Créé** : `atelier/etudes-de-cas/refroidissement-passif-traditionnel.md`
+  (Sceau atelier, `type: etude-de-cas`, `phase: corpus`) — données brutes d'un
+  reel de vulgarisation Instagram : tirage thermique par cours intérieures
+  (effet de cheminée), refroidissement évaporatif par pièces d'eau, inertie
+  des murs épais, mise en regard avec le « passive cooling » moderne ; sans
+  interprétation ni lien sortant ; tout item `to-source`.
+  **Spécificité** : un litige factuel est visible dans les commentaires de la
+  vidéo (anecdote réelle du *Tang Yulin* animée sous un nom d'empereur fictif
+  « Shuangzong », contradiction interne « no moving parts » vs roue
+  hydraulique, attribution byzantine alléguée) ; consigné comme donnée
+  observée au sens du §VII (reconstruction plausible), jamais tranché.
+- **Mis à jour** : `atelier/index.md` — fiche ajoutée à la liste des études de
+  cas.
+- **Vérification mécanique** : `verifier-invariants.py` → 0 erreur, 15
+  avertissements (tous préexistants).
+- **Commit** : 200fb91
+
 ## [2026-08-24] archivage | Fiche corpus brut — dougong (méthode en deux phases)
 
 - **Contexte** : méthode en deux phases validée par Sidy le 2026-08-24 (entrée
