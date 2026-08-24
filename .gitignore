@@ -10,3 +10,5 @@
 # État runtime du détecteur de nouvelles fiches R&D (cron studio, régénéré
 # chaque jour — jamais versionné, atelier/rd/outillage/detecter-nouvelles-fiches-rd.sh)
 /atelier/rd/outillage/.snapshots-rd/
+# Corpus citations-ghazali/ (données brutes volumineuses, jamais versionnées)
+citations-ghazali/

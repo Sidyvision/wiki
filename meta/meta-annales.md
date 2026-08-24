@@ -14,6 +14,46 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-24] realignement | Crons Publication (08), Gardien (10), Studio (09) — ordres exécutés
+
+- **Ordre exécuté** : `_inbox/ordre-cron-frontmatter-veille-08.md` (déposé dans
+  l'entrée précédente, commit a32b1a5). Trois actions.
+- **Action 1 (exécutée)** : cron créé sur profil `publication`, job
+  `veille-referencement-investigation-08` (id `ad3152b237bb`), schedule
+  `0 11 * * *`, deliver `#infrastructure` (`discord:1536564394690084925`),
+  workdir `/root/wiki`. Prompt unifié : frontmatter conformity (§A) +
+  investigation documentaire (§B). Le profil `librarian-archivist` n'existait
+  pas côté serveur (déjà fusionné) — pas d'écart.
+- **Action 2 (écart trouvé, résolu)** : le cron Gardien
+  (`investigation-doctrinale-gardien`, id `431fcacadca2`) exécutait une
+  fonction C (investigation documentaire sur `sources_count: 0`) qui n'était
+  pas prescrite par la fiche 10. La fiche 10 prescrit la fonction A (veille
+  protocole / doctrine du don). Verdict Sidy : le prompt Gardien est
+  réaligné sur A-only (veille protocole label), renommé
+  `veille-protocole-gardien`. La fonction C est transférée à Publication (08)
+  comme partie intégrante de son troisième mandat unifié. Veille spirituelle
+  (B) : en suspens, aucun mandat cron attribué à ce stade.
+- **Action 3 (exécutée)** : le §1 de Studio (`verifier-invariants.py`) retiré
+  de `monitoring-infrastructure-quotidien` (id `41dc3e7e492c`, profil
+  `studio`). Studio recentré sur la R&D engagée (volet R&D rendu
+  inconditionnel, analyse des 5 entrées récentes du registre-problèmes,
+  synthèse 3-5 pistes prioritaires). La fonction frontmatter/investigation
+  est désormais propriété exclusive de Publication (08).
+- **Fiches mises à jour** : `08-publication-site.md` (third mandate réécrit
+  pour refléter l'unification §A+§B et le transfert de C depuis le Gardien),
+  `10-protocol-guardian.md` (section « Cron mandate » réécrite : realignement
+  documenté, prompt serveur pointé, fonction C cédée à 08).
+- **État final des crons quotidiens** :
+  - Publication (08) — `veille-referencement-investigation-08`, 11:00 UTC,
+    frontmatter + investigation documentaire (dépôt entier)
+  - Studio (09) — `monitoring-infrastructure-quotidien`, 12:00 UTC,
+    cartographie + non-trackés + cohérence infrastructure + R&D engagée
+  - Gardien (10) — `veille-protocole-gardien`, 12:30 UTC, veille doctrine
+    du don / protocole label (fiches label/ modifiées)
+- **Rappel** : la veille spirituelle (B — doctrinal/ au sens transmission
+  spirituelle, Naqshbandiyya/Tijaniyya) reste sans mandat cron attribué.
+  À trancher lors d'un prochain chantier.
+
 ## [2026-08-24] cron + revue | Mandat frontmatter veille (position 08) précisé, Gardien documenté, ordre déposé en sas
 
 - **Contexte** : suite de la fusion du rôle 13 (entrée précédente). Verdict
