@@ -17,8 +17,8 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   garder la fiche dans `rd/infrastructure/` (circuit neutre) mais expurger tout
   le contenu personnel, plutôt que la déplacer vers `meta/`.
 - **Corrigé** :
-  - Frontmatter : retrait des deux liens `[[meta/personnel/sidy]]` et
-    `[[meta/transmissions/karubi-mehdi]]` (§VI, sens interdit circuit → `meta/`).
+  - Frontmatter : retrait des deux liens vers `meta/personnel/sidy` et
+    `meta/transmissions/karubi-mehdi` (§VI, sens interdit circuit → `meta/`).
   - Corps : retrait du bloc verbatim USER.md (identité, famille, vie spirituelle,
     relations nominatives) — remplacé par une mention neutre du fichier et de
     son emplacement hors dépôt (`/root/.hermes/profiles/default/USER.md`).
