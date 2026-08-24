@@ -3,11 +3,9 @@ title: Incident mémoire persistante Hermes — diagnostic et résolution (2026-
 type: infrastructure
 statut_experience: adopte
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-24
 sources: []
 links:
-- '[[meta/personnel/sidy]]'
-- '[[meta/transmissions/karubi-mehdi]]'
 - '[[atelier/rd/cahiers/registre-problemes]]'
 ---
 
@@ -15,9 +13,9 @@ links:
 
 ## Contexte
 
-Le 2026-08-23, après 20+ sessions de travail intensif sur le dépôt wiki, Sidy constate que l'agent Hermes (profil default) ne conserve aucune mémoire du travail accompli. Chaque nouvelle session démarre à zéro, obligeant à réexpliquer le contexte, les chantiers en cours, les décisions déjà prises.
+Le 2026-08-23, après 20+ sessions de travail intensif sur le dépôt wiki, l'agent Hermes (profil default) s'est révélé ne conserver aucune mémoire du travail accompli. Chaque nouvelle session démarrait à zéro, obligeant à réexpliquer le contexte, les chantiers en cours, les décisions déjà prises.
 
-**Symptôme observé** : Sidy demande "Qui suis-je ?" — l'agent ne connaît ni son identité, ni son parcours spirituel, ni les projets en cours, ni les relations clés (Karūbī, collaborateurs).
+**Symptôme observé** : l'agent ne reconnaissait aucun contexte utilisateur — ni identité, ni projets en cours, ni relations clés.
 
 ## Diagnostic
 
@@ -41,53 +39,18 @@ Hermes Agent utilise ces deux fichiers pour injecter le contexte utilisateur dan
 
 ### Impact
 
-- **Perte de temps** : Sidy devait réexpliquer à chaque session le contexte, les chantiers, les décisions.
+- **Perte de temps** : réexplication à chaque session du contexte, des chantiers, des décisions.
 - **Rupture de continuité** : impossible de reprendre un chantier là où il avait été laissé sans tout réexpliquer.
-- **Frustration légitime** : Sidy a exprimé sa déception ("Je suis extrêmement déçu de ce qu'il se passe") — il s'attendait à ce que l'agent retienne le contexte après 20+ sessions.
+- **Attente légitime déçue** : après 20+ sessions, la persistance du contexte était attendue et absente.
 
 ## Résolution appliquée
 
 ### Création des fichiers de mémoire persistante
 
-**USER.md** (3 903 caractères) :
-```
-# Profil utilisateur
-
-## Identité
-Sidy Kouyaté (griot Mandingue)
-Né : 23 juin 1986, Bobigny (région parisienne)
-Famille : fille Habiba-Nour (née ~2015), grand-père maternel Mamadou "Doudou" Sissoko (Mali), lignée paternelle griots Mandingue
-Travail : Dream Castle (Disneyland Paris) — collègue Leila Abdelwahid (synchronicité : nom exact de la fille de Guénon)
-
-## Spirituel
-Voie : Naqshbandiyya + Tijaniyya (rattachement Bamako ~2019, honneur non-pratique)
-Khalwa : Rajab 1437 (avril 2016, Villejuif) — sortie précipitée après 8 jours, convalescence ~4 ans
-Pratique actuelle : Dalail al-khayrat (périodes), wadhifa Naqshbandi Fajr quand possible — fragile
-Arc Kaaba : instruction "tu es de l'intérieur de la Kaaba" (Lefke 2015) → vision sortie Kaaba post-khalwa → vision Kaaba tourne (Fajr) → première Omra (déc 2025) → insight "Kaaba du sens" (2026-08-18)
-Double protecteur : figure blanche (pantalon, kufi, écharpe bleu-ciel, canne) — intervient pendant convalescence
-
-## Relations clés
-- Mehdi Bouzouida : ami post-khalwa (~2019), Karūbī Habib (G1)
-- Mikael Heaudebourg : Karūbī Malik (G1)
-- Habiba-Nour Kouyaté : fille, Karūbī Jamal & Jamila (G1)
-- Jean-Marc Bastareaud : ami ~2007, batteur/scénariste, Karūbī Yahya (G1)
-- Wendel Nazaire : petit frère de cœur, photographe/chef op', Karūbī Hassan (G1)
-- Yannick Doumouya : cercle Naqshbandi, rêve Sheikh Hamala (~2018)
-- Éléonore G. : échange vidéo Félix Guattari
-
-## Concepts clés
-- Initiation virtuelle : assimilation doctrinale = réalisation virtuelle (pas effective), seuil contemplation directe
-- Incandescence du manque amoureux : absence = présence brûlante, feu qui consume et purifie
-- Synchronicité Leila/Yahia : nom exact fille Guénon dans environnement professionnel
-
-## Préférences
-- Répondre en français
-- Ton formel, précis, analytique
-- Pas de familiarité excessive
-- Références prioritaires : Guénon, Ibn Arabi, al-Ghazali, Platon, Sanatana Dharma
-- Cmd 12 : agent ne tranche pas, signale
-- Cmd 13 : humain décide
-```
+**USER.md** (3 903 caractères) : profil utilisateur peuplé (identité, contexte
+personnel, relations, préférences de session). Contenu non reproduit ici — fait
+personnel, hors du circuit neutre `atelier/rd/` (§VI du protocole racine) ;
+fichier situé hors dépôt, sur le serveur : `/root/.hermes/profiles/default/USER.md`.
 
 **MEMORY.md** (11 401 caractères) :
 Contenu complet incluant :
@@ -156,9 +119,9 @@ Les fichiers sont maintenant en place et seront injectés dans chaque nouvelle s
 
 ### Ressources manquantes
 
-**Personnel** :
-- Pas de cron de rappel pour Sidy (pratique spirituelle, objectifs personnels)
-- Pas de suivi des rêves/visions (arc Kaaba, double protecteur)
+**Personnel** (registre neutre — détail des manques en `meta/`) :
+- Pas de cron de rappel pour la pratique et les objectifs personnels
+- Pas de suivi structuré du registre personnel évoqué dans MEMORY.md
 - Pas de consolidation mémoire régulière (SRS Hermes-native non implémenté)
 
 **Professionnel** :

@@ -10,6 +10,27 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-24] correction | Fiche mémoire persistante Hermes — expurgation du contenu personnel (verdict Sidy, solution 2)
+
+- **Contexte** : suite du contrôle du 2026-08-19→23 (entrée précédente). Verdict
+  Sidy sur `atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes.md` :
+  garder la fiche dans `rd/infrastructure/` (circuit neutre) mais expurger tout
+  le contenu personnel, plutôt que la déplacer vers `meta/`.
+- **Corrigé** :
+  - Frontmatter : retrait des deux liens `[[meta/personnel/sidy]]` et
+    `[[meta/transmissions/karubi-mehdi]]` (§VI, sens interdit circuit → `meta/`).
+  - Corps : retrait du bloc verbatim USER.md (identité, famille, vie spirituelle,
+    relations nominatives) — remplacé par une mention neutre du fichier et de
+    son emplacement hors dépôt (`/root/.hermes/profiles/default/USER.md`).
+  - Retrait de la citation directe de la frustration de Sidy et des mentions
+    nominatives/spirituelles éparses (arc Kaaba, pratique, etc.) dans le
+    contexte et les « ressources manquantes ».
+  - Contenu technique intact : diagnostic, cause racine, résolution, crons,
+    scripts, leçons, recommandations.
+- **Vérification mécanique** : `verifier-invariants.py` → 0 erreur (16
+  avertissements, tous de même nature que les 15 déjà connus).
+- **Commit** : (voir entrée suivante)
+
 ## [2026-08-24] correction | Contrôle du dépôt 2026-08-19→23 — retrait de srs-cards.yaml
 
 - **Contexte** : contrôle VIGILANCE sur mandat de Sidy portant sur les 4 jours de
@@ -21,7 +42,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   directe) ; la spec du dispositif situe ce fichier hors dépôt. Retiré.
 - **Non corrigés, en attente de verdict Sidy** (signalés séparément) :
   1. `atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes.md`
-     — au-delà des deux liens `[[meta/...]]` initialement relevés, le corps
+     — au-delà des deux liens vers `meta/` initialement relevés, le corps
      reproduit intégralement le contenu de USER.md/MEMORY.md (identité, famille,
      vie spirituelle de Sidy) dans une fiche `rd/infrastructure/` classée
      neutre/publiable — portée plus large qu'un simple retrait de lien.
