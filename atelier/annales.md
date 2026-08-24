@@ -10,6 +10,39 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-24] archivage | Recherches complémentaires rétroactives sur les trois premières fiches corpus (forteresses, dougong, refroidissement passif)
+
+- **Contexte** : consigne Sidy du 2026-08-24 — les reels relèvent de la
+  vulgarisation (référence : Guénon, *La Crise du monde moderne*) ; les
+  fiches corpus sont complétées par des recherches propres, tenues dans une
+  section distincte et sourcée. La fiche Xuankong Si (entrée précédente) en
+  avait bénéficié d'office ; Sidy demande la même passe rétroactive sur les
+  trois premières fiches.
+- **Mis à jour** (trois fiches, section « Recherches complémentaires »
+  ajoutée, statut_donnees ajusté, aucun contenu brut modifié) :
+  - `atelier/etudes-de-cas/forteresses-architecture-defensive.md` : les
+    dispositifs du reel recoupent la fortification concentrique (États
+    croisés, XIIe–XIIIe s., thèse Hugh Kennedy ; Belvoir, Krak des
+    Chevaliers, Margat) ; entrées coudées et tours flanquantes attestées ;
+    le chiffrage « 50 000 → 200 » et l'autarcie restent non recoupés.
+  - `atelier/etudes-de-cas/dougong-consoles-bois.md` : le système est réel
+    et documenté par des sources académiques (Fang et al. 2001 *J. Struct.
+    Eng.* ; Yang et al. 2023 *J. Build. Eng.* ; Cao et al. 2023 *Eur. J.
+    Wood Wood Prod.*) ; la dissipation d'énergie par friction est mesurée ;
+    nuance : isolation de base moderne ≠ même mécanisme ; après les Song,
+    les consoles deviennent ornementales.
+  - `atelier/etudes-de-cas/refroidissement-passif-traditionnel.md` : les
+    principes sont recoupés par la littérature scientifique (cours :
+    Fengchu ~3 000 ans, Chaldée ~6 000 ans ; évaporation : −2,6 à −4,2 °C) ;
+    **l'antériorité exclusive chinoise du reel est réfutée** (usage
+    multi-civilisationnel plus ancien) ; le « no moving parts » est contredit
+    par les systèmes Tang à roues, confirmant l'objection des commentaires.
+- **Mis à jour** : `atelier/index.md` — les trois descriptions d'entrées
+  mentionnent l'ajout des recherches complémentaires.
+- **Vérification mécanique** : `verifier-invariants.py` → 0 erreur, 15
+  avertissements (tous préexistants).
+- **Commit** : 4258532
+
 ## [2026-08-24] archivage | Fiche corpus brut — temple suspendu Xuankong Si (méthode en deux phases, première fiche avec recherches complémentaires)
 
 - **Contexte** : méthode en deux phases validée par Sidy le 2026-08-24 ;
