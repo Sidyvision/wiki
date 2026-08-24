@@ -10,6 +10,24 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-24] archivage | Fiche corpus brut — dougong (méthode en deux phases)
+
+- **Contexte** : méthode en deux phases validée par Sidy le 2026-08-24 (entrée
+  précédente des annales) ; deuxième absorption après le pilote forteresses.
+- **Créé** : `atelier/etudes-de-cas/dougong-consoles-bois.md` (Sceau atelier,
+  `type: etude-de-cas`, `phase: corpus`) — données brutes d'un reel de
+  vulgarisation Instagram sur le dougong (consoles en bois à encorbellement de
+  la charpenterie chinoise) : position entre colonne et toit, transfert de
+  charge, comportement sismique par joints flexibles, comparaison avec
+  l'isolation de base moderne ; sans interprétation ni lien sortant ; source de
+  vulgarisation sans références, tout item `to-source`, stratification de
+  crédibilité par item.
+- **Mis à jour** : `atelier/index.md` — fiche ajoutée à la liste des études de
+  cas.
+- **Vérification mécanique** : `verifier-invariants.py` → 0 erreur, 15
+  avertissements (tous préexistants).
+- **Commit** : 26a49d3
+
 ## [2026-08-24] archivage | Fiche corpus brut — forteresses (méthode en deux phases)
 
 - **Contexte** : validation par Sidy (verdict 2026-08-24) d'une méthode en deux
