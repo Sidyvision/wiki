@@ -42,7 +42,7 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
   verdict Sidy. `_inbox/UPDATES.md` créé en conséquence.
 - **Vérification mécanique** : `verifier-invariants.py` → 0 erreur ; scan
   Unicode (Cmd 15) propre sur les 4 fiches touchées.
-- **Commit** : (voir suite)
+- **Commit** : a32b1a5
 
 ## [2026-08-24] fusion | Rôle Librarian-Archivist (13) fusionné dans la position 08
 
