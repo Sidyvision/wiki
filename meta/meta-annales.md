@@ -32,7 +32,7 @@ cette session (Cmd 13, geste serveur).
 `meta/projet-unifie/hermes-prompts/13-librarian-archivist.md` conservé en
 tombstone `deprecated` (Cmd 10). `meta-index.md` mis à jour.
 
-- **Commit** : (voir entrée atelier/annales.md)
+- **Commit** : 615ee0f
 
 ## [2026-08-22] sortie de domaine | `bibliotheque-physique.md` → `atelier/rd/bibliotheque/`
 
