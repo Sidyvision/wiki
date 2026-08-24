@@ -29,7 +29,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
     scripts, leçons, recommandations.
 - **Vérification mécanique** : `verifier-invariants.py` → 0 erreur (16
   avertissements, tous de même nature que les 15 déjà connus).
-- **Commit** : (voir entrée suivante)
+- **Commit** : 6ca8f85
 
 ## [2026-08-24] correction | Contrôle du dépôt 2026-08-19→23 — retrait de srs-cards.yaml
 
