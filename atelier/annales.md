@@ -10,6 +10,25 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-24] archivage | Fiche corpus brut — forteresses (méthode en deux phases)
+
+- **Contexte** : validation par Sidy (verdict 2026-08-24) d'une méthode en deux
+  phases pour l'intégration de contenus inspirants (reels, vidéos, articles) :
+  (1) fiche de données brutes sans interprétation, constituant un corpus ;
+  (2) fiche d'analyse distincte, dans le circuit pertinent. Le pilote valide le
+  format sur un cas réel avant absorption du reste du contenu de Sidy.
+- **Créé** : `atelier/etudes-de-cas/forteresses-architecture-defensive.md`
+  (Sceau atelier, `type: etude-de-cas`, champ nouveau `phase: corpus`) — données
+  brutes d'un reel de vulgarisation Instagram (terrain/goulets, défense par
+  couches, autarcie, finalité dissuasive), sans interprétation ni lien sortant ;
+  source de vulgarisation sans références, tout item `to-source`, stratification
+  de crédibilité par item.
+- **Mis à jour** : `atelier/index.md` — fiche ajoutée à la liste des études de
+  cas.
+- **Vérification mécanique** : `verifier-invariants.py` → 0 erreur, 15
+  avertissements (tous préexistants).
+- **Commit** : a535b52
+
 ## [2026-08-24] correction | Fiche mémoire persistante Hermes — expurgation du contenu personnel (verdict Sidy, solution 2)
 
 - **Contexte** : suite du contrôle du 2026-08-19→23 (entrée précédente). Verdict
