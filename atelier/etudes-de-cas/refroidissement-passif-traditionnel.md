@@ -14,7 +14,7 @@ sources:
 - "https://www.instagram.com/reel/DcRpvZcBFeA/"
 links: []
 phase: corpus
-statut_donnees: brut non vérifié — source de vulgarisation sans références propres ; items flagués individuellement ci-dessous ; litige factuel signalé dans les commentaires
+statut_donnees: brut non vérifié — source de vulgarisation sans références propres ; items flagués individuellement ci-dessous ; litige factuel signalé dans les commentaires ; complété par recherches propres (section distincte, non fondue)
 ---
 
 # Refroidissement passif traditionnel — données sur cours, eau et masse thermique (corpus brut)
@@ -124,6 +124,50 @@ water wheel »). La thèse et son objection sont consignées telles quelles.
 Aucune donnée de cette fiche n'est ancrée. Le corpus vise ici la
 **consignation du discours de la source et de son litige observé**, pas
 l'établissement de faits.
+
+## Recherches complémentaires (propres, distinctes de la source)
+
+*Section ajoutée sur consigne de Sidy (2026-08-24) : recoupement du discours
+de vulgarisation par des sources secondaires accessibles. Ces éléments sont
+des données de recoupement — ils ne lèvent pas les `to-source` de la section
+précédente (la levée exige une vérification primaire humaine, §VII).*
+
+Le refroidissement passif par cours, eau et masse thermique est un domaine
+réel, étudié et documenté — pas une invention de vulgarisation. Sources :
+sciencedirect.com (S2090447923002599, patios en zones chaud-humides ;
+S0360132316304292, cours internes des shophouses chinois en Malaisie),
+doi.org/10.1159/000463327 (« Healthy Buildings Have Existed in China Since
+Ancient Times »), vietnam.vn (méthodes de rafraîchissement sous les Tang),
+nspirement.com (le skywell chinois), mdpi.com/2075-5309/15/16/2848
+(archétypes climatiques du Chaoshan) — consultées le 2026-08-24.
+
+**Points recoupés** (item par item) :
+
+| Item du reel | Recoupement | Sources |
+|---|---|---|
+| Cours intérieures et tirage d'air | Recoupé : le patio/cour est un espace passif majeur ; l'histoire des cours en Chine remonte aux habitations de Fengchu (~3 000 ans) ; des maisons à cour existaient en Chaldée il y a ~6 000 ans | sciencedirect (S2090447923002599) |
+| L'air chaud monte, le frais est tiré | Recoupé : ventilation par flottabilité et effet de tirage documentés ; la cour fonctionne comme « entonnoir à air » évacuant l'air vers le haut | sciencedirect (S0360132316304292), doi.org/10.1159/000463327 |
+| Refroidissement par évaporation | Recoupé et mesuré : les points d'eau des skywells abaissent localement la température de 2,6 à 4,2 °C | nspirement.com |
+| Masse thermique (murs épais) | Recoupé : la cour absorbe la chaleur le jour et la restitue la nuit, lissant les amplitudes | nspirement.com |
+| Rideaux d'eau et pompes (période Tang) | Recoupé partiellement : des systèmes à roues pompant l'eau sur les toits en rideau d'eau sont attestés dès les Tang | vietnam.vn |
+
+**Écarts et nuances relevés** :
+
+- Le reel attribue l'antériorité à « la Chine, il y a 1 300 ans » : les
+  sources montrent un usage **multi-civilisationnel et plus ancien**
+  (Chaldée ~6 000 ans, Méditerranée, Moyen-Orient, Chine ~3 000 ans). La
+  revendication d'antériorité exclusive est donc inexacte en l'état.
+- Le reel dit « no moving parts » : or les sources historiques attestent des
+  systèmes à roues et à ventilateurs dès les Tang et les Han — ce qui
+  confirme l'objection déjà relevée dans les commentaires du reel.
+- Le refroidissement par évaporation n'est efficace qu'en **climat sec** ;
+  en climat chaud-humide, la ventilation permanente est la stratégie
+  requise. Le reel présente le système comme universellement confortable,
+  sans cette limite climatique.
+- Le reel dit que les architectes modernes « traitent [le refroidissement
+  passif] comme une innovation » : inexact — le domaine est étudié
+  scientifiquement depuis les années 1970 (premiers travaux sur les cours de
+  Colima, Mexique, 1982).
 
 ## Phase 2 — analyse (à venir, non ouverte)
 

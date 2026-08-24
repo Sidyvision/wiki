@@ -14,7 +14,7 @@ sources:
 - "https://www.instagram.com/reel/Dcap9lZBD7h/"
 links: []
 phase: corpus
-statut_donnees: brut non vérifié — source de vulgarisation sans références propres ; items flagués individuellement ci-dessous
+statut_donnees: brut non vérifié — source de vulgarisation sans références propres ; items flagués individuellement ci-dessous ; complété par recherches propres (section distincte, non fondue)
 ---
 
 # Dougong — données sur les consoles en bois à encorbellement (corpus brut)
@@ -99,6 +99,46 @@ l'existence de l'ingénierie sismique. (Traduction de travail, fidèle.)
 
 Aucune donnée de cette fiche n'est ancrée. Le corpus vise ici la
 **consignation du discours de la source**, pas l'établissement de faits.
+
+## Recherches complémentaires (propres, distinctes de la source)
+
+*Section ajoutée sur consigne de Sidy (2026-08-24) : recoupement du discours
+de vulgarisation par des sources secondaires accessibles. Ces éléments sont
+des données de recoupement — ils ne lèvent pas les `to-source` de la section
+précédente (la levée exige une vérification primaire humaine, §VII).*
+
+Le dougong (斗拱, « bloc et arc ») est un système réel et abondamment
+documenté de l'architecture traditionnelle chinoise. Sources : Wikipedia
+(« Dougong », avec références académiques : Fang et al. 2001, *Journal of
+Structural Engineering* ; Yang et al. 2023, *Journal of Building
+Engineering* ; Cao et al. 2023, *European Journal of Wood and Wood
+Products*), archinect.com, heychinaculture.com (consultées le 2026-08-24).
+
+**Points recoupés** (item par item) :
+
+| Item du reel | Recoupement | Sources |
+|---|---|---|
+| Position entre colonne et toit | Exact : le dougong repose sur la colonne et porte la poutre horizontale ou la console supérieure | Wikipedia « Dougong » |
+| Chaque couche répartit la charge plus largement | Exact : chaque couche de consoles offre une surface d'appui plus large et plus stable ; les jeux multiples réduisent la contrainte sur les poutres | Wikipedia « Dougong » |
+| Rien n'est fixé rigidement | Exact : assemblage par tenons-mortaises et ajustement par friction seul, sans colle ni fixateur — l'un des plus anciens exemples de tenon-mortaise | Wikipedia « Dougong » |
+| Absorption de l'énergie par déplacement-retour | Recoupé par la recherche moderne : la dissipation d'énergie sismique passe par friction, déflexion sous compression, déformation rotative et extrusion | Wikipedia « Dougong » (réf. Cao et al. 2023) |
+| « Un millénaire avant l'ingénierie sismique » | Plausible dans l'ordre de grandeur : usage attesté dès la période des Printemps et Automnes (770–476 av. J.-C.), système complexe aux Tang et Song ; la sismique moderne est une discipline du XXe siècle | Wikipedia « Dougong », archinect.com |
+
+**Écarts et nuances relevés** :
+
+- Le reel dit que l'ingénierie moderne d'isolation de base « opère sur le
+  même principe » : nuance technique — l'isolation de base découple la
+  structure du sol par des appuis flexibles, tandis que le dougong dissipe
+  l'énergie par frottement interne aux joints. Les deux sont des stratégies
+  de flexibilité, mais les mécanismes diffèrent ; l'équivalence de principe
+  affirmée par le reel reste une lecture, non un fait établi — `to-source`.
+- « Des bâtiments ... ont traversé un millénaire de séismes » : des exemples
+  d'édifices à dougong ayant survécu existent (le Foguang, hall Est, 857,
+  dynastie Tang), mais la formulation globale reste non sourcée item par
+  item.
+- Après la dynastie Song, les consoles des édifices palatiaux sont devenues
+  plus ornementales que structurelles — le reel ne mentionne pas cette
+  évolution.
 
 ## Phase 2 — analyse (à venir, non ouverte)
 
