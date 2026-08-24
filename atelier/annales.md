@@ -10,6 +10,31 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-24] archivage | Fiche corpus brut — temple suspendu Xuankong Si (méthode en deux phases, première fiche avec recherches complémentaires)
+
+- **Contexte** : méthode en deux phases validée par Sidy le 2026-08-24 ;
+  quatrième absorption après forteresses, dougong et refroidissement passif.
+  **Consigne nouvelle de Sidy** (même jour) : les reels relèvent de la
+  vulgarisation, dont il convient de se méfier (référence indiquée : Guénon,
+  *La Crise du monde moderne*) ; les fiches corpus sont désormais complétées
+  par des recherches propres, tenues dans une section distincte et sourcée,
+  jamais fondues avec le discours de la source.
+- **Créé** : `atelier/etudes-de-cas/xuankong-temple-suspendu.md` (Sceau
+  atelier, `type: etude-de-cas`, `phase: corpus`) — données brutes du reel
+  (ancrage en loges évasées, protection par la falaise, colonnes non
+  porteuses), puis section « Recherches complémentaires » : identification du
+  temple (Xuankong Si, Hunyuan, Shanxi), recoupement item par item sur
+  plusieurs sources secondaires (moine Liaoran, fondation 491 Wei du Nord,
+  27 poutres, surplomb protecteur, inscription du XIIe siècle sur les
+  colonnes), écarts relevés (le reel dit granit, les sources disent grès ;
+  statut UNESCO disputé ; attribution Liaoran « selon la légende » vs vœu de
+  Kou Qianzhi). Sans interprétation ni lien sortant ; tout item `to-source`.
+- **Mis à jour** : `atelier/index.md` — fiche ajoutée à la liste des études de
+  cas.
+- **Vérification mécanique** : `verifier-invariants.py` → 0 erreur, 15
+  avertissements (tous préexistants).
+- **Commit** : d60d492
+
 ## [2026-08-24] archivage | Fiche corpus brut — refroidissement passif traditionnel (méthode en deux phases)
 
 - **Contexte** : méthode en deux phases validée par Sidy le 2026-08-24 ;
