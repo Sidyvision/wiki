@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-22
+updated: 2026-08-24
 
 ---
 
@@ -13,6 +13,26 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-24] fusion | Rôle Librarian-Archivist (13) fusionné dans la position 08
+
+Sur verdict de Sidy, le rôle Librarian-Archivist (ouvert le 2026-08-22, jamais
+activé — section natal chart restée en brouillon) est fusionné dans
+`meta/projet-unifie/hermes-prompts/08-publication-site.md` (« Second mandate »)
+plutôt qu'ouvert comme treizième position, pour préserver la structure des
+douze rôles. Motif : aucune des douze fonctions n'a de recoupement de domaine
+avec le catalogage de bibliothèque (toutes bâties autour des opérations du
+label) ; le rapprochement se justifie par l'éthos (« zero editorial initiative
+BY DESIGN », déterministe, validation humaine avant tout acte final) — même
+précédent que le mandat de veille infrastructure logé sur la position 09
+(2026-08-16). Un troisième mandat (cron de veille « frontmatter », dans la
+dynamique des crons Studio/Gardien) est proposé dans le même geste — cadence
+et canal à confirmer par Sidy, création effective du job hors périmètre de
+cette session (Cmd 13, geste serveur).
+`meta/projet-unifie/hermes-prompts/13-librarian-archivist.md` conservé en
+tombstone `deprecated` (Cmd 10). `meta-index.md` mis à jour.
+
+- **Commit** : (voir entrée atelier/annales.md)
 
 ## [2026-08-22] sortie de domaine | `bibliotheque-physique.md` → `atelier/rd/bibliotheque/`
 

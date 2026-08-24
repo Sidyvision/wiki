@@ -124,7 +124,7 @@ updated: 2026-08-22
 - [[meta/projet-unifie/hermes-prompts/10-protocol-guardian|Rôle — Protocol Guardian]]
 - [[meta/projet-unifie/hermes-prompts/11-fanzine-editor|Rôle — Fanzine Editor]]
 - [[meta/projet-unifie/hermes-prompts/12-commerce-profitability|Rôle — Commerce & Profitability]]
-- [[meta/projet-unifie/hermes-prompts/13-librarian-archivist|Rôle — Librarian & Archivist]] (ouvert 2026-08-22)
+- [[meta/projet-unifie/hermes-prompts/13-librarian-archivist|Rôle — Librarian & Archivist (déprécié, fusionné dans 08)]] (ouvert 2026-08-22, fusionné 2026-08-24)
 - [[meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03|Note d'optimisation — intégration Hermes Agent]]
 
 ### hermes-skills/
