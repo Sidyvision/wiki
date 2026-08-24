@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-23
+updated: 2026-08-24
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,37 @@ updated: 2026-08-23
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-24] correction | Contrôle du dépôt 2026-08-19→23 — retrait de srs-cards.yaml
+
+- **Contexte** : contrôle VIGILANCE sur mandat de Sidy portant sur les 4 jours de
+  sessions Hermes précédents (§VII du protocole racine). Quatre points relevés,
+  hors des avertissements déjà connus du `verifier-invariants.py` (0 erreur).
+- **Corrigé** : `srs-cards.yaml` (racine du dépôt, hors des cinq circuits) —
+  YAML invalide (guillemets non échappés) et non conforme à la sortie réelle de
+  `atelier/rd/outillage/generer-cartes-protocole.py` (vérifiée par exécution
+  directe) ; la spec du dispositif situe ce fichier hors dépôt. Retiré.
+- **Non corrigés, en attente de verdict Sidy** (signalés séparément) :
+  1. `atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes.md`
+     — au-delà des deux liens `[[meta/...]]` initialement relevés, le corps
+     reproduit intégralement le contenu de USER.md/MEMORY.md (identité, famille,
+     vie spirituelle de Sidy) dans une fiche `rd/infrastructure/` classée
+     neutre/publiable — portée plus large qu'un simple retrait de lien.
+  2. `meta/projet-unifie/hermes-prompts/13-librarian-archivist.md` — diagnostic
+     initial erroné (pas de clause « Ontological order » manquante : le motif
+     établi sur les 12 autres prompts, section « harmonization context » après
+     le principe zodiacal, remplit déjà cette fonction). Le vrai défaut : section
+     laissée en brouillon `[à compléter selon le thème...]`, jamais rédigée —
+     sa complétion suppose une interprétation astrologique du thème de Sidy que
+     la machine ne doit pas fabriquer (Cmd 12).
+- **Retiré du constat initial (faux positif)** : le frontmatter de
+  `doctrinal/autorites/rene-guenon.md` (`sources:`/`cross_links:`) signalé comme
+  inversé ne l'est pas — les fiches `doctrinal/deviations/*` qu'il porte sous
+  `sources:` sont bien citées « source : » dans le corps de la fiche (fiches
+  intermédiaires compilant les citations primaires de Guénon) ; le champ est
+  conforme à l'usage réel du dépôt.
+- **Vérification mécanique** : `verifier-invariants.py` → 0 erreur (inchangé).
+- **Commit** : 06e1167
 
 ## [2026-08-23] restauration | Frontmatter fiche Hermex (B0) + ordre chronologique des annales (A2)
 
