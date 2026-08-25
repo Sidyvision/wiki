@@ -47,11 +47,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   Gizeh déjà consignée dans l'entrée précédente et non rouverte, aucune tension
   nouvelle introduite par ce quatrième maillon (il renforce la vigilance déjà
   observée, ne la contredit pas).
-- **Vérification structurelle** : à exécuter avant commit
-  (`python3 verifier-invariants.py --racine /root/wiki`), résultat à consigner.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  exécuté — 1 erreur `[A3]` et 16 avertissements `[C1]` rapportés, tous préexistants
+  et sans rapport avec les fichiers de la présente entrée (aucune anomalie nouvelle
+  introduite).
+- **Incident mineur corrigé avant commit** : contamination ZWJ (U+200D, Cmd 15)
+  introduite par copie, depuis un rendu pollué du nom de la fiche H3, dans les trois
+  nouvelles fiches sources ; bloquée par le hook pre-commit, corrigée par retour à
+  l'index git puis suppression ciblée du seul caractère invisible (la commande de
+  nettoyage suggérée par le hook, `sed` avec échappement `\x{...}`, non supportée par
+  GNU sed, avait d'abord corrompu les fichiers par correspondance littérale de
+  classe de caractères — corruption détectée avant tout commit et annulée via
+  `git checkout`, aucune trace conservée). Pas de rapport d'incident distinct ouvert
+  (même classe déjà couverte par
+  `atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md`).
 - **Fichiers modifiés/créés** : 3 fiches `doctrinal/sources/` créées, 1 fiche
   `doctrinal/discernement/` enrichie, `doctrinal/annales.md` (présente entrée).
-- **Commit** : en attente.
+- **Commit** : 3c599f0.
 
 ## [2026-08-25] discernement | Ouverture — Gizeh au degré 24 (Ciel du Soleil), convergence Hermès/Idrīs
 
