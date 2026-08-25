@@ -10,6 +10,32 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] outillage | Instrument : régénération du manifeste (bloc maisons désynchronisé)
+
+- **Symptôme constaté** (session de reprise du chantier Instrument) :
+  `wiki-manifest.json` committé datait du 2026-08-21 (schéma v0.2.4, source
+  commit `5a01d00`), sans le bloc `maisons:` — alors que `instrument-donnees.yaml`
+  était déjà en v0.5.1 et `generer-manifeste.py` en v0.2.5 depuis le commit
+  `86eb75e` (2026-08-25, ajout des 12 maisons astrologiques). Flux
+  `dépôt → manifeste → app` désynchronisé pour cette donnée depuis son ajout.
+- **Résolution** : régénération pure via
+  `python3 atelier/rd/outillage/generer-manifeste.py --repo /root/wiki`, sans
+  autre modification — 44 nœuds, 11 ancrages, zodiaque + maisons + 4 registres,
+  0 avertissement du générateur.
+- **Vérification** : `verifier-invariants.py --racine /root/wiki` → même état
+  pré-existant (1 erreur A3 sur `doctrinal/annales.md`, 15 avertissements
+  connus, cf. [[atelier/rd/cahiers/registre-problemes]]), aucune régression
+  introduite par la régénération.
+- **Compréhension tirée** : une modification du générateur/des données côté
+  `instrument-donnees.yaml` n'entraîne pas automatiquement la régénération du
+  manifeste committé — à surveiller à chaque évolution du schéma tant qu'aucun
+  contrôle mécanique (hook, script de vigilance) ne le fait à la place d'une
+  relecture humaine ou d'un agent.
+- **Liens** : [[atelier/rd/instrument/instrument-feuille-de-route-v2]] ;
+  [[atelier/rd/outillage/spec-generateur-manifeste]].
+- **Commit** : e53e170
+
+
 ## [2026-08-25] outillage | Prototype Instrument : glyphes gravés sur le bandeau + bezel chronomètre
 
 - **Contexte** : retour de Sidy sur le rendu réel (iPad) — les symboles des
