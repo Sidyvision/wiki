@@ -8,10 +8,10 @@ tags:
 - soufisme
 - stub
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-08-25
 sources:
 - to-source
-sources_count: 0
+sources_count: 1
 cross_links:
 - '[[doctrinal/symboles/taabir-al-ruya]]'
 ---

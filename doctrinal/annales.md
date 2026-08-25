@@ -9,6 +9,34 @@ updated: 2026-08-23
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] restauration | Correction cohérence `sources`/`sources_count` — lot 2026-08-24/25
+
+- **Contexte** : rapports de veille (Publication, 2026-08-24 et 2026-08-25) signalant
+  une incohérence mécanique entre le champ `sources:` et le compteur `sources_count`
+  sur 6 fiches `doctrinal/autorites/` et `doctrinal/sources/` — le marqueur
+  `to-source` est présent mais `sources_count: 0` (le Sceau Recteur prescrit
+  `sources_count` = longueur de la liste).
+- **Opération** :
+  - **2 fiches avec source disponible** (`al-jazari.md`, `al-khwarizmi.md`) :
+    remplacement de `sources: ["to-source"]` par `sources: ["[[islam-and-artificial-intelligence]]"]`
+    et `sources_count: 0` → `sources_count: 1`. Le corps cite déjà la source ×4 chacun,
+    le PDF `raw/islam-and-artificial-intelligence.pdf` et la fiche
+    `doctrinal/sources/islam-and-artificial-intelligence.md` sont présents dans le dépôt.
+  - **4 fiches sans source dans le dépôt** (`abdullah-daghestani.md`, `al-nabulusi.md`,
+    `hamza-yusuf.md`, `sources/wazifa.md`) : `sources_count: 0` → `sources_count: 1`
+    pour refléter la présence du marqueur `to-source` (convention implicite rendue
+    explicite — la source primaire reste à archiver).
+  - `updated:` porté à `2026-08-25` sur les 6 fiches (Cmd 8).
+- **Fichiers modifiés** (6) :
+  - `doctrinal/autorites/al-jazari.md`
+  - `doctrinal/autorites/al-khwarizmi.md`
+  - `doctrinal/autorites/abdullah-daghestani.md`
+  - `doctrinal/autorites/al-nabulusi.md`
+  - `doctrinal/autorites/hamza-yusuf.md`
+  - `doctrinal/sources/wazifa.md`
+- **En attente** : commit/push (porte humaine — Cmd 13). Les 4 fiches `to-source`
+  restent à investiguer pour levée du marqueur quand une source primaire sera archivée.
+
 ## [2026-08-23] restauration | Enrichissement fiche `platon.md` — clôture du chantier (point 3, verdict Sidy)
 
 - **Contexte** : clôture du chantier de normalisation ouvert par le rapport Gardien
