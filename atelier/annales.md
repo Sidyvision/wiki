@@ -10,6 +10,29 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] outillage | Prototype Instrument : correctif rendu emoji des glyphes zodiacaux
+
+- **Contexte** : Sidy signale, sur appareil réel, que les symboles
+  planétaires s'affichent correctement mais que les 12 symboles zodiacaux
+  s'affichent en emoji couleur (rendu jugé désastreux) sur iPad/Safari.
+- **Cause** : les codepoints zodiacaux (♈-♓, U+2648-2653) appartiennent à la
+  plage Unicode « emoji par défaut » — iOS/Safari les rend en emoji couleur
+  sauf instruction contraire. Les symboles planétaires (☉♀☿♂♃♄) n'y
+  appartiennent pas, d'où l'absence du problème pour les astres.
+- **Modifié** : `atelier/rd/instrument/instrument-prototype.html` — ajout du
+  sélecteur de variation U+FE0E (présentation texte) après chaque glyphe de
+  `SIGNE_GLYPHES` : mécanisme Unicode standard et documenté pour ce cas
+  exact, aucun changement de contenu ni de logique.
+- **Vérification Cmd 15 (hygiène Unicode)** : balayage programmatique du
+  fichier confirmant l'absence de tout caractère de la liste interdite
+  (ZWSP/ZWNJ/ZWJ/BOM/LRM/RLM) et confirmant que U+FE0E (jamais U+FE0F, qui
+  aurait aggravé le problème) est bien apparié aux 12 glyphes zodiacaux, un
+  par un. Non reproductible ni vérifiable visuellement dans le bac à sable
+  Chromium (pas de police emoji couleur installée) — correctif standard
+  appliqué sur diagnostic de la cause ; confirmation visuelle sur appareil
+  réel à faire par Sidy.
+- **Commit** : 73bf709
+
 ## [2026-08-25] outillage | Prototype Instrument : glyphes astrologiques standard (signes, astres)
 
 - **Contexte** : Sidy demande le retrait de l'étiquette textuelle permanente
