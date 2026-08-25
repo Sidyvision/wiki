@@ -61,7 +61,7 @@
     <i style="background:#fff"></i>filament — al-Insān al-Kāmil<br>
     <i style="background:var(--rouge)"></i>équivalence établie (hozo)<br>
     <i style="background:#d9d3ea"></i>nœud universel (hors arbre-tradition)<br>
-    <i style="background:var(--argent)"></i>anneau zodiacal (signes 19 / manāzil 20)<br>
+    <i style="background:var(--argent)"></i>bezel zodiacal (signes / manāzil / maisons — toucher un cran)<br>
     <i style="background:#cfe4d8"></i>registre parallèle (autre partition du même axe)
   </div>
 </div>
@@ -212,6 +212,27 @@ var ZODIAQUE = {
     {label:"Sagittaire"}, {label:"Capricorne"}, {label:"Verseau"}, {label:"Poissons"}
   ]
 };
+// Les 12 maisons astrologiques — domification GÉNÉRIQUE (aucune époque/lieu
+// dans le manifeste : ceci n'est PAS un thème daté, seulement la table
+// générique). Source : doctrinal/sources/fin-des-temps-modernes-ilm-al-
+// nujum-bases-mahdi-rouge.md, section IV (même source que les Angles de
+// l'Espace, déjà rendus). Valeurs de repli — remplacées par MANIFESTE.maisons
+// (clé "maisons", schéma v0.2.5) dès que le manifeste est lu.
+var SOURCE_MAISONS = "[[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]]";
+var MAISONS = [
+  {numero:"I",    theme:"Identité, vie, comportement",   terme_arabe:"حيات",         type:"cardinale"},
+  {numero:"II",   theme:"Biens, gain",                    terme_arabe:"مال",          type:"succedante"},
+  {numero:"III",  theme:"Relations, frères, études",      terme_arabe:"اِخوة",        type:"mutable"},
+  {numero:"IV",   theme:"Origine, parents, foyer",        terme_arabe:"اَباءٌ",       type:"cardinale"},
+  {numero:"V",    theme:"Création, enfants, plaisirs",    terme_arabe:"اَولاد",       type:"succedante"},
+  {numero:"VI",   theme:"Servitudes, santé, travail",     terme_arabe:"اَمراضٌ",      type:"mutable"},
+  {numero:"VII",  theme:"Association, mariage, conflit",  terme_arabe:"ازواج",        type:"cardinale"},
+  {numero:"VIII", theme:"Transformations, mort, héritage",terme_arabe:"موت",          type:"succedante"},
+  {numero:"IX",   theme:"Exploration, voyage, foi",       terme_arabe:"اَسفار",       type:"mutable"},
+  {numero:"X",    theme:"Destinée, règne, pouvoir",       terme_arabe:"سلطان",        type:"cardinale"},
+  {numero:"XI",   theme:"Appuis, amis, projets",          terme_arabe:"رجاع",         type:"succedante"},
+  {numero:"XII",  theme:"Épreuves, exil, secrets",        terme_arabe:"غيب / اَغداءٌ",type:"mutable"}
+];
 var FILAMENT = {
   label: "Al-Insān al-Kāmil",
   src: "[[doctrinal/symboles/al-insan-al-kamil]]"
@@ -317,6 +338,10 @@ if (MANIFESTE){
   if (MANIFESTE.zodiaque && Array.isArray(MANIFESTE.zodiaque.signes)
       && MANIFESTE.zodiaque.signes.length){
     ZODIAQUE = MANIFESTE.zodiaque;
+  }
+
+  if (Array.isArray(MANIFESTE.maisons) && MANIFESTE.maisons.length){
+    MAISONS = MANIFESTE.maisons;
   }
 
   if (Array.isArray(MANIFESTE.registres)) REGISTRES = MANIFESTE.registres;
@@ -503,13 +528,15 @@ var disques = [];
 //    Rayon porté à 6.0 (verdict Sidy 2026-08-25) pour que le bandeau
 //    circonscrive l'ensemble de l'instrument (tour planétaire des Aqtâb,
 //    anneau des notionnels) — à la manière du bezel gradué d'une montre :
-//    chaque cran (signe, manzil) reste muet tant qu'on ne le touche pas
-//    (panneau d'info), pour ne pas saturer l'affichage de texte permanent.
-//    La graduation des maisons astrologiques N'EST PAS rendue : aucune
-//    source de ce type dans le manifeste actuel (Cmd 5) — à ouvrir le jour
-//    où une fiche/donnée sourcée l'établit.
+//    chaque cran (signe, manzil, maison) reste muet tant qu'on ne le touche
+//    pas (panneau d'info), pour ne pas saturer l'affichage de texte permanent
+//    — seuls les 12 signes gardent une étiquette continue (graduation
+//    primaire du bezel). Graduation des maisons ajoutée le 2026-08-25, une
+//    fois la source désignée par Sidy (doctrinal/sources/fin-des-temps-
+//    modernes-ilm-al-nujum-bases-mahdi-rouge) : domification GÉNÉRIQUE
+//    (aucune époque/lieu dans le manifeste, donc aucun thème daté).
 (function(){
-  var R_INT = 5.6, R_EXT = 6.0, R_GRAD = 5.8;
+  var R_INT = 5.6, R_EXT = 6.0, R_GRAD = 5.8, R_MAISON_INT = 5.22, R_MAISON_EXT = 5.5;
   var oblique = -Math.PI / 2 + ZODIAQUE.obliquite_deg * Math.PI / 180;
 
   function segmentRadial(angle, r1, r2, couleur, opacite){
@@ -539,6 +566,32 @@ var disques = [];
     cran.userData = {label: s.label, deg: "Falak al-Burūj — secteur zodiacal " + (i + 1) + "/12", src: SOURCE_TABLE};
     gSignes.add(cran); interactifs.push(cran);
   });
+
+  // -- Domification (12 maisons) : anneau générique nettement plus étroit,
+  //    en retrait du bord intérieur des signes — pas de séparateurs pleine
+  //    largeur reliés à la graduation zodiacale, pour ne jamais suggérer
+  //    visuellement un alignement maison↔signe que le manifeste ne donne
+  //    pas (aucun thème daté ; Cmd 3, jamais de joint non fourni). Repère
+  //    tactile uniquement, aucune étiquette permanente --
+  if (MAISONS.length){
+    gSignes.add(new THREE.Mesh(new THREE.RingGeometry(R_MAISON_INT, R_MAISON_EXT, 128),
+      new THREE.MeshBasicMaterial({color:0xd7dbe6, transparent:true, opacity:.08, side:THREE.DoubleSide})));
+    MAISONS.forEach(function(m, i){
+      var a = (i / MAISONS.length) * Math.PI * 2;
+      gSignes.add(segmentRadial(a, R_MAISON_INT, R_MAISON_EXT, 0xd7dbe6, .22));
+      var aMil = ((i + .5) / MAISONS.length) * Math.PI * 2;
+      var cranM = marqueur(.16, "#d7dbe6", false);
+      cranM.position.set(Math.cos(aMil) * ((R_MAISON_INT + R_MAISON_EXT) / 2),
+        Math.sin(aMil) * ((R_MAISON_INT + R_MAISON_EXT) / 2), 0);
+      cranM.userData = {
+        label: "Maison " + m.numero + " — " + m.theme,
+        deg: "Domification générique (hors thème daté — pas d'époque/lieu dans le manifeste) · "
+           + m.type + (m.terme_arabe ? " · terme arabe : " + m.terme_arabe : ""),
+        src: SOURCE_MAISONS
+      };
+      gSignes.add(cranM); interactifs.push(cranM);
+    });
+  }
   monde.add(gSignes);
 
   // -- Degré 20 (Falak al-Manāzil) : 28 demeures — graduations discrètes, bord

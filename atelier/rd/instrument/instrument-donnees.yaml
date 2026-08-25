@@ -1,6 +1,19 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.5.0)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.5.1)
 #
+#   v0.5.1 (2026-08-25) : nouveau bloc `maisons:` — les 12 maisons
+#     astrologiques (thème, terme arabe, qualité cardinale/succédante/
+#     mutable). Domification GÉNÉRIQUE : le manifeste ne porte ni époque ni
+#     lieu, donc aucun thème daté individuel n'est calculé ni affiché — la
+#     table des 12 maisons, telle que sourcée, sert de graduation
+#     supplémentaire du bezel zodiacal de l'Instrument (demande Sidy : « le
+#     tout circonscrit par le bandeau zodiacal comme le bezel d'une montre
+#     détaillant toutes les données par cran — signe, maison, etc. »).
+#     Source : doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-
+#     mahdi-rouge.md (déjà au dépôt depuis le 2026-07-01 — c'est aussi la
+#     source des « Angles de l'Espace », section IV du même article, déjà
+#     rendus séparément dans la scène). Voir rd/instrument/angles-de-l-
+#     espace.md pour le précédent de traitement de cette même source.
 #   v0.5.0 (2026-08-20) : quatrième registre — vedanta (les quatre états
 #     d'Âtmâ), sur demande de Sidy (« mettre en regard avec L'Homme et son
 #     devenir selon le Vêdânta pour compléter »). Source :
@@ -337,6 +350,27 @@ zodiaque:
     - {label: "Capricorne", dates: "21/12-20/1"}
     - {label: "Verseau", dates: "21/1-20/2"}
     - {label: "Poissons", dates: "21/2-20/3"}
+
+# 12 maisons astrologiques — domification GÉNÉRIQUE (aucune époque/lieu dans
+# le manifeste : ceci n'est PAS un thème daté, seulement la table générique).
+# Source : doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-
+# rouge.md, section IV « Les 12 Maisons avec termes arabes ». Le champ `type`
+# suit la séquence traditionnelle cardinale/succédante/mutable répétée sur
+# les quatre trigones (I, IV, VII, X = cardinales = les quatre Angles de
+# l'Espace déjà rendus séparément — voir rd/instrument/angles-de-l-espace.md).
+maisons:
+  - {numero: "I",    theme: "Identité, vie, comportement",         terme_arabe: "حيات",        type: cardinale}
+  - {numero: "II",   theme: "Biens, gain",                          terme_arabe: "مال",         type: succedante}
+  - {numero: "III",  theme: "Relations, frères, études",            terme_arabe: "اِخوة",       type: mutable}
+  - {numero: "IV",   theme: "Origine, parents, foyer",               terme_arabe: "اَباءٌ",      type: cardinale}
+  - {numero: "V",    theme: "Création, enfants, plaisirs",           terme_arabe: "اَولاد",      type: succedante}
+  - {numero: "VI",   theme: "Servitudes, santé, travail",            terme_arabe: "اَمراضٌ",     type: mutable}
+  - {numero: "VII",  theme: "Association, mariage, conflit",         terme_arabe: "ازواج",       type: cardinale}
+  - {numero: "VIII", theme: "Transformations, mort, héritage",       terme_arabe: "موت",         type: succedante}
+  - {numero: "IX",   theme: "Exploration, voyage, foi",              terme_arabe: "اَسفار",      type: mutable}
+  - {numero: "X",    theme: "Destinée, règne, pouvoir",               terme_arabe: "سلطان",       type: cardinale}
+  - {numero: "XI",   theme: "Appuis, amis, projets",                  terme_arabe: "رجاع",        type: succedante}
+  - {numero: "XII",  theme: "Épreuves, exil, secrets",                terme_arabe: "غيب / اَغداءٌ", type: mutable}
 
 # =============================================================================
 # REGISTRES — partitions de l'UNIQUE axe vertical, une par tradition
