@@ -138,7 +138,27 @@ python3 atelier/rd/bibliotheque/valider-index-livres.py \
 Philosophie des Ihwan al-Safa (34 vues, bilinguisme arabe/latin) → La Porte du
 Ciel (59 vues ; `IMG_0020`/`IMG_0052` n'existent pas — photographies manquées,
 supprimées par Sidy, verdict 2026-08-22 : un fait acquis, pas une lacune à
-signaler).
+signaler) → **Origine polaire de la tradition védique, Tilak (signalé
+2026-08-25)**.
+
+**Lot Tilak — périmètre exact (signalé 2026-08-25)** :
+- Dossier : `raw/Origine Polaire de la tradition Védique/` (17 vues au total,
+  IMG_0071-IMG_0088 — nom de dossier accentué, utiliser `os.listdir()` si un
+  accès direct échoue, cause connue : normalisation Unicode NFC/NFD).
+- **Seul IMG_0081-IMG_0088 relève de ce mandat** : index alphabétique de
+  l'ouvrage, confirmé démarrant p.367 sur IMG_0081 et se terminant p.380 sur
+  IMG_0088 (lettres Y-Z) — nature `index_nominum` (noms propres, termes
+  sanskrits/avestiques mêlés).
+- IMG_0071-IMG_0072 (couverture + table des matières) : déjà transcrits hors
+  mandat, voir `atelier/rd/bibliotheque/sommaire-origine-polaire.md` — ne pas
+  retraiter.
+- IMG_0073-IMG_0080 (Introduction de Jean Remy + Préface de Tilak, p.9-23) :
+  texte courant, hors périmètre de ce mandat (pas un index/glossaire) — ne pas
+  traiter, ne pas déposer de fiche pour ces vues.
+- Métadonnées de l'ouvrage pour le frontmatter : `livre: "Origine polaire de la
+  tradition védique — Nouvelles clés pour l'interprétation de nombreux textes
+  et légendes védiques"`, `auteur: "Bâl Gangâdhar Tilak"`, `edition: "Arché,
+  Milano, 1979 (trad. Jean et Claire Remy)"`.
 
 **Handoffs under this mandate**: validator failures, protocol questions,
 circuit placement, unreadable edition metadata → Sidy, via the supervising
