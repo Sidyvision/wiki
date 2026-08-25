@@ -441,7 +441,7 @@ function ligne(pts, couleur, opacite, pointillee){
 // -- Bandes des Présences --
 BANDES.forEach(function(b){
   var e = etiquette(b[2], .62, "rgba(170,180,200,.85)");
-  e.position.set(3.8, yEntre(b[0], b[1]), 0); monde.add(e);
+  e.position.set(7.3, yEntre(b[0], b[1]), 0); monde.add(e);
   var yFront = (b[0] === 11) ? yDeg[11] + .6 : (yDeg[b[0]-1] + yDeg[b[0]]) / 2;
   var anneau = new THREE.Mesh(new THREE.RingGeometry(1.15, 1.22, 64),
     new THREE.MeshBasicMaterial({color:0x9aa4c0, transparent:true, opacity:.3, side:THREE.DoubleSide}));
@@ -460,19 +460,29 @@ DEGRES.forEach(function(d){
 });
 
 // -- Sept Aqtâb : nœud universel, équivalence établie avec le Malakūt planétaire
-//    (hozo, verdict Sidy 2026-07-16/08-04) — auparavant présent dans les données
-//    (instrument-donnees.yaml v0.3.3) mais jamais rendu par ce prototype (v0.1
-//    antérieur à l'ouverture de la Phase 3) --
-AQTAB.forEach(function(a){
-  var n = a[0], px = 1.7;
-  var sph = marqueur(.34, "#d9d3ea", false);
-  sph.position.set(px, yDeg[n], 0);
-  sph.userData = {label: a[1], deg: "degré " + n + " · nœud universel (hors arbre-tradition) — équivalence établie avec le Malakūt planétaire", src: SOURCE_AQTAB};
-  monde.add(sph); interactifs.push(sph);
-  var e = etiquette(a[1], .42, "rgba(217,211,234,.85)");
-  e.position.set(px + .95, yDeg[n], 0); monde.add(e);
-  monde.add(ligne([new THREE.Vector3(0, yDeg[n], 0), sph.position], 0xd8493a, .85, false));
-});
+//    (hozo, verdict Sidy 2026-07-16/08-04). Rendu en plans circulaires
+//    concentriques à diamètre progressif — chaque Pôle habite le ciel régi par
+//    son astre (Saturne le plus vaste, en haut ; Lune le plus étroit, en bas :
+//    ordre cosmologique classique des sept cieux planétaires, déjà porté par
+//    l'ordre de AQTAB, degrés 21→27). Remplace l'ancien marqueur excentré +
+//    étiquette permanente (verdict Sidy 2026-08-25 : trop de bruit textuel —
+//    le nom complet reste consultable au toucher, via le panneau d'info).
+(function(){
+  var R_MAX = 4.6, R_MIN = 1.9;
+  AQTAB.forEach(function(a, i){
+    var n = a[0], r = R_MAX - (R_MAX - R_MIN) * i / (AQTAB.length - 1);
+    var ciel = new THREE.Mesh(new THREE.RingGeometry(r - .015, r, 96),
+      new THREE.MeshBasicMaterial({color:0xd9d3ea, transparent:true, opacity:.28, side:THREE.DoubleSide}));
+    ciel.rotation.x = -Math.PI / 2; ciel.position.y = yDeg[n]; monde.add(ciel);
+
+    var pt = new THREE.Vector3(r, yDeg[n], 0);
+    var sph = marqueur(.3, "#d9d3ea", false);
+    sph.position.copy(pt);
+    sph.userData = {label: a[1], deg: "degré " + n + " · ciel planétaire (nœud universel, hors arbre-tradition) — équivalence établie avec le Malakūt planétaire", src: SOURCE_AQTAB};
+    monde.add(sph); interactifs.push(sph);
+    monde.add(ligne([new THREE.Vector3(0, yDeg[n], 0), pt], 0xd8493a, .85, false));
+  });
+})();
 
 // -- Barzakh supérieur : disques en rotation (19-20) --
 var disques = [];
@@ -490,8 +500,16 @@ var disques = [];
 //    au prototype v0.1 alors que la donnée existe depuis le 2026-07-26/27 — cause :
 //    "manque de rendu, non manque de donnée" (spec §0). Signes peuplés le
 //    2026-08-20 dans instrument-donnees.yaml (point ouvert §7.4 de la spec, comblé).
+//    Rayon porté à 6.0 (verdict Sidy 2026-08-25) pour que le bandeau
+//    circonscrive l'ensemble de l'instrument (tour planétaire des Aqtâb,
+//    anneau des notionnels) — à la manière du bezel gradué d'une montre :
+//    chaque cran (signe, manzil) reste muet tant qu'on ne le touche pas
+//    (panneau d'info), pour ne pas saturer l'affichage de texte permanent.
+//    La graduation des maisons astrologiques N'EST PAS rendue : aucune
+//    source de ce type dans le manifeste actuel (Cmd 5) — à ouvrir le jour
+//    où une fiche/donnée sourcée l'établit.
 (function(){
-  var R_INT = 2.60, R_EXT = 2.95, R_GRAD = 2.74;
+  var R_INT = 5.6, R_EXT = 6.0, R_GRAD = 5.8;
   var oblique = -Math.PI / 2 + ZODIAQUE.obliquite_deg * Math.PI / 180;
 
   function segmentRadial(angle, r1, r2, couleur, opacite){
@@ -501,7 +519,9 @@ var disques = [];
     ], couleur, opacite, false);
   }
 
-  // -- Degré 19 (Falak al-Burūj) : 12 signes, séparateurs pleine largeur + étiquette --
+  // -- Degré 19 (Falak al-Burūj) : 12 signes, séparateurs pleine largeur +
+  //    étiquette (conservée : c'est la graduation primaire du bezel, lue en
+  //    continu comme sur un astrolabe) + repère tactile par cran --
   var gSignes = new THREE.Group();
   gSignes.position.y = yDeg[ZODIAQUE.degre_falak_al_buruj];
   gSignes.rotation.x = oblique;
@@ -512,21 +532,36 @@ var disques = [];
     gSignes.add(segmentRadial(a, R_INT, R_EXT, 0xd7dbe6, .6));
     var aMil = ((i + .5) / 12) * Math.PI * 2;
     var e = etiquette(s.label, .46, "rgba(170,180,200,.8)");
-    e.position.set(Math.cos(aMil) * (R_EXT + .3), Math.sin(aMil) * (R_EXT + .3), 0);
+    e.position.set(Math.cos(aMil) * (R_EXT + .45), Math.sin(aMil) * (R_EXT + .45), 0);
     gSignes.add(e);
+    var cran = marqueur(.22, "#d7dbe6", false);
+    cran.position.set(Math.cos(aMil) * R_GRAD, Math.sin(aMil) * R_GRAD, 0);
+    cran.userData = {label: s.label, deg: "Falak al-Burūj — secteur zodiacal " + (i + 1) + "/12", src: SOURCE_TABLE};
+    gSignes.add(cran); interactifs.push(cran);
   });
   monde.add(gSignes);
 
   // -- Degré 20 (Falak al-Manāzil) : 28 demeures — graduations discrètes, bord
   //    intérieur, aucune étiquette permanente (spec §3.4 — non commensurable
-  //    avec les 12 signes, 2⅓ manzil par signe, jamais aligné visuellement) --
+  //    avec les 12 signes, 2⅓ manzil par signe, jamais aligné visuellement) ;
+  //    repère tactile par cran (index de la demeure, pas de nom individuel :
+  //    non fourni par le manifeste) --
+  var SOURCE_MANAZIL = (function(){
+    var n = NOTIONNELS.filter(function(x){ return x.id === "manazil"; })[0];
+    return (n && n.src) || "[[doctrinal/symboles/manazil-al-qamar]]";
+  })();
   var gManazil = new THREE.Group();
   gManazil.position.y = yDeg[ZODIAQUE.degre_falak_al_manazil];
   gManazil.rotation.x = oblique;
   gManazil.add(new THREE.Mesh(new THREE.RingGeometry(R_INT, R_EXT, 128),
     new THREE.MeshBasicMaterial({color:0xd7dbe6, transparent:true, opacity:.10, side:THREE.DoubleSide})));
   for (var m = 0; m < 28; m++){
-    gManazil.add(segmentRadial((m / 28) * Math.PI * 2, R_INT, R_GRAD, 0xd7dbe6, .3));
+    var am = (m / 28) * Math.PI * 2;
+    gManazil.add(segmentRadial(am, R_INT, R_GRAD, 0xd7dbe6, .3));
+    var cranM = marqueur(.16, "#d7dbe6", false);
+    cranM.position.set(Math.cos(am) * R_GRAD, Math.sin(am) * R_GRAD, 0);
+    cranM.userData = {label: "Manzil n° " + (m + 1) + "/28", deg: "Falak al-Manāzil — demeure lunaire " + (m + 1), src: SOURCE_MANAZIL};
+    gManazil.add(cranM); interactifs.push(cranM);
   }
   monde.add(gManazil);
 })();
@@ -542,19 +577,17 @@ var disques = [];
     deg:"traverse les cinq Présences (rendu validé le 2026-07-01) ; identité à quatre voiles traditionnelles (tasawwuf/qabbalah/taoïsme/vêdânta) établie le 2026-07-26, discernement clos",
     src: FILAMENT.src + " ; " + SOURCE_HOMME_UNIVERSEL};
   monde.add(noeud); interactifs.push(noeud);
-  var e = etiquette(abreger(FILAMENT.label, 28), .5, "rgba(242,242,250,.8)");
-  e.position.set(x + 1.35, yEntre(19, 20), 0); monde.add(e);
 
   // -- Homme Universel : nœud universel, équivalence établie avec le filament
-  //    (hozo, verdict Sidy 2026-07-26) — même traitement que les Aqtâb --
+  //    (hozo, verdict Sidy 2026-07-26) — même traitement que les Aqtâb.
+  //    Étiquette permanente retirée (bruit textuel, verdict Sidy 2026-08-25) :
+  //    le nom complet reste consultable au toucher --
   var px = -1.7;
   var sphHU = marqueur(.34, "#d9d3ea", false);
   sphHU.position.set(px, yEntre(19, 20), 0);
   sphHU.userData = {label: HOMME_UNIVERSEL.label, deg:"nœud universel (hors arbre-tradition) — équivalence établie avec le filament al-Insān al-Kāmil", src: HOMME_UNIVERSEL.src};
   monde.add(sphHU); interactifs.push(sphHU);
   posHommeUniversel = sphHU.position;
-  var eHU = etiquette(abreger(HOMME_UNIVERSEL.label, 22), .42, "rgba(217,211,234,.85)");
-  eHU.position.set(px - 1.15, yEntre(19, 20), 0); monde.add(eHU);
   monde.add(ligne([noeud.position, sphHU.position], 0xd8493a, .85, false));
 })();
 
@@ -581,16 +614,12 @@ var posNotionnels = {};
     sph.position.copy(p);
     sph.userData = {label: nd.labelComplet || nd.label, deg:"nœud traversant / structurant (degré : —)", src: nd.src};
     monde.add(sph); interactifs.push(sph);
-    var e = etiquette(nd.label, .5, "rgba(207,216,234,.8)");
-    e.position.set(p.x, p.y + .55, p.z); monde.add(e);
   });
   var pB = new THREE.Vector3(1.5, yEntre(19, 20), -1.0);
   var b = marqueur(.36, "#c9ced8", false);
   b.position.copy(pB);
   b.userData = {label: BARZAKH.label, deg:"degré 19.5 — bande du Barzakh supérieur (le principe est général)", src: BARZAKH.src};
   monde.add(b); interactifs.push(b);
-  var eB = etiquette(abreger(BARZAKH.label, 20), .48, "rgba(170,180,200,.85)");
-  eB.position.set(pB.x + .8, pB.y + .4, pB.z); monde.add(eB);
   ANCRAGES.forEach(function(pr){
     var a = posNotionnels[pr[0]], b2 = posNotionnels[pr[1]];
     if (a && b2) monde.add(ligne([a, b2], 0xd8493a, .95, false));
@@ -676,9 +705,6 @@ var posNotionnels = {};
         src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
       };
       monde.add(sph); interactifs.push(sph);
-      var e = etiquette(abreger(d.label, 18), .44, "rgba(207,228,216,.85)");
-      e.position.set(p.x + (col === "gauche" ? -1.15 : 1.15), p.y, z);
-      monde.add(e);
 
       // -- Équivalence établie déjà verdictée (ex. Homme Universel ↔ Vaishwânara) --
       // Pilotée par la donnée (HOMME_UNIVERSEL.cibles, manifeste v0.2.4) : ne
