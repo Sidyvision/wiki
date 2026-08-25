@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # =============================================================================
-# generer-manifeste.py — Générateur déterministe du wiki-manifest (schéma v0.2.1)
+# generer-manifeste.py — Générateur déterministe du wiki-manifest (schéma v0.2.5)
 #
 #   Phase 1 de l'Instrument de la Tradition Primordiale.
 #   Croise deux couches :
@@ -31,7 +31,19 @@ try:
 except ImportError:
     sys.exit("ERREUR : PyYAML manquant. Installer avec : apt install python3-yaml")
 
-# --- Constantes du schéma v0.2.4 --------------------------------------------
+# --- Constantes du schéma v0.2.5 --------------------------------------------
+#
+#   v0.2.5 (2026-08-25) : propage le bloc `maisons:` d'instrument-donnees.yaml
+#     (les 12 maisons astrologiques — thème, terme arabe, qualité
+#     cardinale/succédante/mutable). Domification GÉNÉRIQUE : ni époque ni
+#     lieu dans le manifeste, donc aucun thème daté individuel — seulement la
+#     table générique des 12 maisons, telle que sourcée. Motif : demande Sidy
+#     (bezel zodiacal de l'Instrument gradué « par cran — signe, maison,
+#     etc. ») ; source désignée par Sidy : doctrinal/sources/fin-des-temps-
+#     modernes-ilm-al-nujum-bases-mahdi-rouge.md (déjà au dépôt, 2026-07-01 —
+#     source également des « Angles de l'Espace » déjà rendus). Validation
+#     dédiée : liste de 12, `theme` non vide, `type` dans l'énumération
+#     cardinale/succedante/mutable si fourni.
 #
 #   v0.2.4 (2026-08-20) : un ancrage peut désormais désigner, en source comme
 #     en cible, soit un nœud (`noeuds:`), soit un domaine de registre
@@ -57,10 +69,11 @@ except ImportError:
 #     manifeste — écart signalé dans rd/instrument/2026-08-20_etat-avancement-
 #     pistes-developpement.md §5, fermé ici sur demande de Sidy.
 
-SCHEMA_VERSION = "0.2.4"
+SCHEMA_VERSION = "0.2.5"
 TYPES_ANCRAGE = {"equivalence", "complementarite", "subversion", "parodie"}
 ETATS_ANCRAGE = {"etabli", "suggere", "identifie"}
 DIRECTIONNALITES = {"none", "ascendant", "descendant"}
+TYPES_MAISON = {"cardinale", "succedante", "mutable"}
 
 # Frontmatter : bloc YAML entre deux lignes `---` en tête de fichier.
 RE_FRONTMATTER = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.S)
@@ -182,6 +195,34 @@ def valider_zodiaque(zodiaque: dict, decl_noeuds: list, erreurs: list, avertisse
     return zodiaque
 
 
+def valider_maisons(maisons, erreurs, avertissements):
+    """Valide le bloc `maisons:` (peut être absent) et retourne la valeur à
+    inscrire dans le manifeste, ou None si absente/invalide. Domification
+    GÉNÉRIQUE (aucune époque/lieu dans le manifeste, donc aucun thème daté
+    individuel) : seulement la table des 12 maisons et leur qualité. Le
+    nombre attendu (12) reste un avertissement, pas une erreur bloquante —
+    ce n'est pas un invariant du schéma, seulement un indice de dérive."""
+    if not maisons:
+        return None
+    if not isinstance(maisons, list):
+        erreurs.append("maisons : doit être une liste")
+        return None
+    if len(maisons) != 12:
+        avertissements.append(
+            f"maisons : {len(maisons)} entrée(s) déclarée(s), 12 attendues"
+        )
+    for i, m in enumerate(maisons):
+        if not isinstance(m, dict) or not str(m.get("theme", "")).strip():
+            erreurs.append(f"maisons[{i}] : doit porter un « theme » non vide")
+            continue
+        t = m.get("type")
+        if t is not None and t not in TYPES_MAISON:
+            erreurs.append(
+                f"maisons[{i}] : type invalide ({t!r}) — attendu {sorted(TYPES_MAISON)}"
+            )
+    return maisons
+
+
 AXES_REGISTRE = {"principal", "parallele"}
 
 
@@ -292,6 +333,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     decl_noeuds = donnees.get("noeuds", []) or []
     decl_ancrages = donnees.get("ancrages", []) or []
     decl_zodiaque = donnees.get("zodiaque") or {}
+    decl_maisons = donnees.get("maisons") or []
     decl_registres = donnees.get("registres") or []
 
     # 2. Indexer la vérité doctrinale.
@@ -410,6 +452,9 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     # 5. Valider et intégrer le bloc zodiaque (indépendant des nœuds/ancrages/registres).
     zodiaque_valide = valider_zodiaque(decl_zodiaque, decl_noeuds, erreurs, avertissements)
 
+    # 5 bis. Valider et intégrer le bloc maisons (indépendant, domification générique).
+    maisons_valide = valider_maisons(decl_maisons, erreurs, avertissements)
+
     # 6. Rapport et sortie.
     for w in avertissements:
         print(f"⚠ AVERTISSEMENT : {w}")
@@ -428,6 +473,8 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     }
     if zodiaque_valide is not None:
         manifeste["zodiaque"] = zodiaque_valide
+    if maisons_valide is not None:
+        manifeste["maisons"] = maisons_valide
     if registres_valides is not None:
         manifeste["registres"] = registres_valides
     chemin_sortie.parent.mkdir(parents=True, exist_ok=True)
@@ -438,6 +485,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     print(f"✓ Manifeste produit : {chemin_sortie}")
     print(f"  {len(noeuds)} nœud(s), {nb_ancrages} ancrage(s), "
           f"zodiaque {'inclus' if zodiaque_valide is not None else 'absent'}, "
+          f"maisons {'incluses' if maisons_valide is not None else 'absentes'}, "
           f"{len(registres_valides or [])} registre(s), "
           f"{len(avertissements)} avertissement(s), commit {manifeste['source_commit'][:12]}")
     return 0
