@@ -3,7 +3,7 @@ title: "Réponse au Gem — intégration visuelle de la pulsation à 28 degrés"
 type: projet
 tags: [instrument, visualisation, 28-degres, gem-guenon]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-08-25
 sources: []
 links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2]]"]
 ---
@@ -15,6 +15,12 @@ links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v
 > verdict Sidy 2026-08-08 — proposition §IV). L'ancienne fiche subsiste
 > comme stub `deprecated` avec pointeur (Cmd 10). Contenu inchangé,
 > dates `created`/`updated` conservées.
+
+> **Absorbée (2026-08-25)** : le contenu de cette soumission a été repris et
+> développé dans [[atelier/rd/instrument/spec-technique-axe-38-degres]] et dans
+> l'architecture [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]
+> §8. Fiche conservée comme trace de l'échange original avec le Gem (Cmd 10) ;
+> ne pas la traiter comme un point d'action ouvert.
 
 
 *[Proposition de Sidy / Claude — à valider avant envoi au Gem]*

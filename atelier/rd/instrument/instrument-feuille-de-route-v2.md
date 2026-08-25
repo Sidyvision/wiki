@@ -8,7 +8,7 @@ tags:
 - app
 - feuille-de-route
 created: 2026-06-28
-updated: 2026-08-04
+updated: 2026-08-25
 cross_links:
 - atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16
 links:
@@ -25,15 +25,21 @@ links:
 
 
 > **Architecture détaillée** : voir la fiche canonique
-> `atelier/rd/instrument/instrument-tradition-primordiale-architecture.md` (**v0.2**, validée dans
-> ses principes, revue par le Gem René Guénon). Ce document ne la répète pas : il en tire la
-> **feuille de route**, les **questions techniques ouvertes** et les **invariants à ne jamais
-> perdre**. La fiche fait foi pour l'architecture ; ce document fait foi pour le « par où avancer ».
+> `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md` (**v0.3**, ouverte
+> le 2026-08-04, validée dans ses principes, revue par le Gem René Guénon). Ce document ne la
+> répète pas : il en tire la **feuille de route**, les **questions techniques ouvertes** et les
+> **invariants à ne jamais perdre**. La fiche fait foi pour l'architecture ; ce document fait foi
+> pour le « par où avancer ».
 >
 > **Révision 2026-06-29** : alignement sur l'architecture v0.2 (marquage visuel qualifié,
 > correctif *waswâs*/Qliphoth, base doctrinale `hadarat-khams` pour le Tasawwuf) ; l'onglet
 > apophatique passe de simple livrable de Phase 4 à **pratique continue dès maintenant** (§2,
 > §5 nouveau).
+>
+> **Correction du 2026-08-25** : le renvoi ci-dessus pointait encore vers l'architecture v0.2
+> (superseded depuis le 2026-08-04 par la v0.3, jamais répercuté ici — signalé le 2026-08-20,
+> jamais exécuté jusqu'à ce jour). Corrigé sans autre changement de fond ; le §3 (Phase 3) de ce
+> document référence déjà la v0.3 depuis le 2026-08-04, seul ce renvoi initial était resté périmé.
 
 ## 1. Invariants (rappel — issus de la fiche v0.2)
 
