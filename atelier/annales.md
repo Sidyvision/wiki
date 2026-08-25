@@ -10,6 +10,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] rd/bibliotheque | Intégration index alphabétique Tilak (Hermes rôle 08 dépôt complet)
+
+- **Contexte** : Hermes (rôle 08, mandat 2 Librarian-Archivist) a transcrits
+  l'index alphabétique complet de « Origine polaire de la tradition védique »
+  (IMG_0081-IMG_0088, p.367-380), déposé le 2026-08-25 dans le sas `_inbox/`.
+- **Action** : migration de `index-origine-polaire-tilak.md` (index_nominum, 830
+  entrées, 6 signalements informatifs) vers
+  `atelier/rd/bibliotheque/index-origine-polaire-tilak.md` et ajout au registre de
+  `catalogue-bibliotheque.md`. Validation : `valider-index-livres.py` EXIT=0, aucun
+  blocage.
+- **Périmètre final (Tilak)** : sommaire+TDM (IMG_0071-0072) et index complet
+  (IMG_0081-IMG_0088) tous deux intégrés ; Introduction/Préface (IMG_0073-0080)
+  confirmée hors chantier.
+- **Commit** : (ci-dessous)
+
 ## [2026-08-25] rd/bibliotheque | Sommaire et TDM Origine polaire de la tradition védique (Tilak)
 
 - **Contexte** : nouveau lot photographié (17 photos, IMG_0071-IMG_0088) déposé dans
