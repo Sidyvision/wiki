@@ -34,8 +34,8 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   - `doctrinal/autorites/al-nabulusi.md`
   - `doctrinal/autorites/hamza-yusuf.md`
   - `doctrinal/sources/wazifa.md`
-- **En attente** : commit/push (porte humaine — Cmd 13). Les 4 fiches `to-source`
-  restent à investiguer pour levée du marqueur quand une source primaire sera archivée.
+- **En attente** : ~~commit/push~~ → **fait** (commit `bc5ab3e`, push `9d0d55a..bc5ab3e`). Les 4 fiches `to-source` restent à investiguer pour levée du marqueur quand une source primaire sera archivée.
+- **Commit** : bc5ab3e
 
 ## [2026-08-23] restauration | Enrichissement fiche `platon.md` — clôture du chantier (point 3, verdict Sidy)
 
