@@ -9,6 +9,29 @@ updated: 2026-08-23
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] archivage | Intégration de 14 définitions du *Kitāb al-Taʿrīfāt* (al-Jurjānī) — lots p. 134, 280-281
+
+- **Contexte** : à partir de photographies de l'édition physique (trad. Maurice Gloton, Albouraq, 2005/2006) vérifiées par Sidy — 3 pages du *Kitāb al-Taʿrīfāt* : p. 134 (déf. 0401-0402) et p. 280-281 (déf. 0986-0997). La transcription intégrale de l'index des termes arabes (`kitab-tarifat-index-transcription.md`) était déjà dans le dépôt (88 pages d'annexes transcrites le 2026-06-30) ; le corps des définitions n'avait pas encore été ingéré. Ce lot constitue la première ingestion de définitions depuis le corps de l'ouvrage.
+- **Opération** :
+  - **1 fiche enrichie** : `doctrinal/traditions/tasawwuf.md` — définition complète de al-taṣawwuf (déf. 0402, p. 134) ; la définition brève antérieure (dimension intérieure / *iḥsān*) conservée ; sources mis à jour (`sources: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]`, `sources_count: 1`).
+  - **10 fiches créées** (`doctrinal/symboles/`) :
+    - `tasdiq.md` — al-taṣdīq (déf. 0401, p. 134)
+    - `tibb-ruhani.md` — al-ṭibb al-rūḥānī + al-ṭabīb al-rūḥānī (déf. 0986-0987, p. 280)
+    - `tabii.md` — al-ṭabʿ (déf. 0988, p. 280)
+    - `tabia.md` — al-ṭabīʿa (déf. 0989, p. 280)
+    - `tariq.md` — al-ṭarīq (déf. 0990, p. 280)
+    - `tariqa.md` — al-ṭarīqa (déf. 0993, p. 281)
+    - `tarab.md` — al-ṭarab (déf. 0994, p. 281)
+    - `tard.md` — al-ṭard (déf. 0995, p. 281)
+    - `tughyan.md` — al-ṭuġyān (déf. 0996, p. 281)
+    - `talaq.md` — al-ṭalāq (déf. 0997, p. 281)
+  - **1 définition transcrite en annexe de la fiche source** : al-ṭarīq al-annī (déf. 0992, p. 281) — terme technique de logique, pas de fiche séparée.
+  - **Fiche source mise à jour** : `doctrinal/sources/kitab-al-tarifat-jurjani.md` — ajout de la section « Transcriptions intégrées (2026-08-25) » listant les 14 définitions avec liens vers les fiches, plus annexe pour la déf. 0992.
+  - **Index mis à jour** : `doctrinal/index.md` — les 10 nouvelles fiches ajoutées dans leurs sections respectives (Sciences Traditionnelles pour talaq, Pratiques rituelles pour tariq/tariqa, Vertus et états spirituels pour tasdiq/tarab/tard/tughyan, Cosmologie subtile pour tabii/tabia, Médecine pour tibb-ruhani).
+  - Toutes les fiches portent `status: traditionnel`, `sources: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]`, `sources_count: 1`, `created: 2026-08-25`, `updated: 2026-08-25`. Mention « Vérifié sur l'édition physique » pour chaque définition.
+- **Fichiers modifiés** : 14 (1 enrichi + 10 créés + 1 source + 1 index + annales).
+- **Remarque méthodologique** : ce lot démontre l'utilité de la transcription intégrale de l'index (`kitab-tarifat-index-transcription.md`) comme appareil de recherche pour cibler les définitions à intégrer. La leçon est consignée : toute fiche doctrinale signalant un `to-source` sur un terme technique islamique doit d'abord interroger l'index du *Taʿrīfāt* avant toute autre démarche.
+
 ## [2026-08-25] restauration | Correction cohérence `sources`/`sources_count` — lot 2026-08-24/25
 
 - **Contexte** : rapports de veille (Publication, 2026-08-24 et 2026-08-25) signalant

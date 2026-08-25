@@ -49,12 +49,14 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ### Sciences Traditionnelles
 - [[doctrinal/symboles/fiqh|Le Fiqh (la science des statuts de la Loi)]]
+- [[doctrinal/symboles/talaq|Al-Ṭalāq (la répudiation, le divorce)]]
 - [[doctrinal/symboles/ilm-al-huruf|ʿIlm al-Ḥurūf (la science des lettres)]]
 - [[doctrinal/symboles/ilm-al-nujum|ʿIlm al-Nujûm (l'astrologie traditionnelle)]]
 - [[doctrinal/symboles/manazil-al-qamar|Manāzil al-Qamar — les 28 Demeures lunaires]]
 - [[doctrinal/symboles/asma-al-husna|Les Asmāʾ al-Ḥusnā (les Noms divins)]]
 - [[doctrinal/symboles/talisman-sihr|Talisman / Simiyāʾ (science opérative des lettres)]]
 - [[doctrinal/symboles/tibb-e-nabawi|Tibb-e-Nabawī (médecine prophétique)]]
+- [[doctrinal/symboles/tibb-ruhani|Al-Ṭibb al-Rūḥānī (thérapeutique spirituelle)]]
 - [[doctrinal/symboles/ilm-al-awfaq|ʿIlm al-Awfāq (les carrés magiques) et la métaphysique du Nombre]]
 - [[doctrinal/symboles/imams-noms-divins|Les Imams des Noms divins (hiérarchie opérative des Asmāʾ)]]
 - [[doctrinal/symboles/muqarnas|Muqarnas — géométrie sacrée de l'art islamique]]
@@ -65,12 +67,18 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/wird-awrad|Wird et Awrād (litanies assignées)]]
 - [[doctrinal/symboles/salawat|Les Ṣalawāt (bénédictions prophétiques)]]
 - [[doctrinal/symboles/khatm-al-khawajakan|Le Khatm al-Khawājagān (cérémonie collective naqshbandie)]]
+- [[doctrinal/symboles/tariq|Al-Ṭarīq (la voie spirituelle, les prescriptions divines)]]
+- [[doctrinal/symboles/tariqa|Al-Ṭarīqa (la Voie, démarche des itinérants)]]
 
 ### Vertus et états spirituels (fiqh du cœur)
 - [[doctrinal/symboles/tawakkul|Tawakkul (la confiance en Allāh)]]
 - [[doctrinal/symboles/futuwwa|Futuwwa (la chevalerie spirituelle)]]
 - [[doctrinal/symboles/shukr|Shukr (la gratitude)]]
 - [[doctrinal/symboles/ghafla|Ghafla (l'insouciance, l'oubli)]]
+- [[doctrinal/symboles/tasdiq|Taṣdīq (l'assentiment, la sincère adhésion)]]
+- [[doctrinal/symboles/tarab|Al-Ṭarab (l'émotion spirituelle)]]
+- [[doctrinal/symboles/tard|Al-Ṭard (l'enchaînement logique, la réciprocité)]]
+- [[doctrinal/symboles/tughyan|Al-Ṭuġyān (l'impiété, la transgression)]]
 - [[doctrinal/symboles/nafs-qalb-irritation|Discerner l'irritation du nafs et celle du qalb]]
 
 ### Cosmologie subtile, retraite et dispositions
@@ -78,6 +86,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/khalwa|Khalwa (la retraite spirituelle)]]
 - [[doctrinal/symboles/waqia|Waqiʿa (l'irruption intérieure) et al-Wāqiʿa (l'Heure)]]
 - [[doctrinal/symboles/istidad|Al-Istiʿdād (la disposition réceptive de l'être)]]
+- [[doctrinal/symboles/tabii|Al-Ṭabʿ (le caractère naturel, le tempérament)]]
+- [[doctrinal/symboles/tabia|Al-Ṭabīʿa (la nature, la constitution)]]
 - [[doctrinal/symboles/tarbiyya-rabbaniyya|Tarbiyya Rabbāniyya (l'éducation divine directe)]]
 - [[doctrinal/symboles/habl-allah|Ḥabl Allāh (la corde/lien d'Allah)]]
 - [[doctrinal/symboles/influx-spirituel-sommet-cranien|L'influx spirituel au sommet du crâne (comparatisme)]]
