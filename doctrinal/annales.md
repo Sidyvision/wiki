@@ -9,6 +9,28 @@ updated: 2026-08-25
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] archivage | Déf. 1216 al-fiqh (p. 331) — levée du to-source de fiqh.md
+
+- **Contexte** : Sidy a déposé le dossier `raw/Transcription Jurjani/` (54
+  photographies uniques de l'édition physique, pages non contiguës et dans le
+  désordre). Option la plus économique retenue : transcription immédiate des
+  pages directement demandées par des fiches en `to-source`, puis une page par
+  jour via le rapport quotidien pour le reste.
+- **Intégré** : [[doctrinal/symboles/fiqh]] — transcription complète de la déf.
+  1216 *al-fiqh* (quatre acceptions : compréhension *fahm* ; science des Principes
+  de la Loi acquise par *adilla tafṣīliyya* ; sagacité *iṣāba* ; science procédant
+  du *raʾy* et de l'*ijtihād*, d'où l'impossibilité d'appliquer *faqīh* à Dieu).
+  Le `to-source` principal de la fiche est levé ; les `to-source` secondaires
+  (cinq qualifications légales, divisions classiques, uṣūl al-fiqh) demeurent.
+  Déf. 1214-1215 (termes de grammaire, sans fiche cible) et 1217 (*al-faqr*,
+  conservée dans la fiche source pour un futur ancrage) consignées dans
+  [[doctrinal/sources/kitab-al-tarifat-jurjani]].
+- **Cartographie** : les 54 images du dossier sont en cours d'identification
+  (page → plage de définitions) par sous-agents, en vue du plan de transcription
+  quotidien. État connu à cette heure : IMG_0157 = p. 331 (déf. 1214-1217),
+  IMG_0161 = p. 108 (déf. 0296-0300), IMG_0200 = p. 423 (déf. 1575-1577).
+- **Commit** : d2a8618
+
 ## [2026-08-25] source + discernement | Fondement méthodologique symbole/archétype pour Gizeh/degré 24
 
 - **Contexte** : suite immédiate de l'entrée précédente. Instruction de Sidy en deux
