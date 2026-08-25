@@ -6,8 +6,8 @@ tradition_cadre: "universel"
 tags: [guenon, gizeh, hermes, idris, degre-24, malakut-planetaire, soleil, table-38-degres, symbole, archetype, macrocosme-microcosme]
 created: 2026-08-25
 updated: 2026-08-25
-sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/autorites/idris]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes]]", "[[doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes]]", "[[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]]"]
-sources_count: 7
+sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/autorites/idris]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes]]", "[[doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes]]", "[[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]]", "[[doctrinal/sources/guenon-hermetisme-hermes-thoth]]"]
+sources_count: 8
 cross_links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]"]
 ---
 
@@ -59,6 +59,18 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 >   Cette identification est donc attestée par une seconde filiation textuelle, distincte
 >   du texte de Guénon utilisé au maillon précédent — convergence, non répétition d'une
 >   même source.
+> - *Renfort du deuxième maillon (ajouté 2026-08-25, sur confirmation de Sidy — « Oui,
+>   Guénon en parle quelque part »)* : [[doctrinal/sources/guenon-hermetisme-hermes-thoth]]
+>   (« Quelques considérations sur l'hermétisme », *Aperçus sur l'Initiation*, ch. XLI)
+>   rapporte que « la doctrine [de l'hermétisme] est [...] rapportée à *Hermès*, en tant
+>   que celui-ci était considéré par les Grecs comme identique au *Thoth* égyptien ». Ce
+>   texte ajoute le nom **Thoth** côté égyptien, par une **troisième filiation textuelle**,
+>   indépendante des deux précédentes — mais il s'agit d'un énoncé général sur l'origine
+>   du mot « hermétisme » (interpretatio graeca de Thoth), qui ne nomme ni Idrīs, ni
+>   Hénoch, ni Gizeh, et ne recouvre pas le découpage tripartite des « trois Hermès » de
+>   `guenon-tombeau-hermes` (nuance consignée dans la fiche source elle-même). Il renforce
+>   donc le nom « Hermès » du deuxième maillon sans, par lui-même, avancer d'un pas la
+>   synthèse propre à la présente fiche (application au site de Gizeh).
 > - *Troisième maillon — Idrīs siège au degré 24 (Ciel du Soleil), déjà clos ailleurs
 >   dans ce dépôt* : [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]
 >   établit, `status: traditionnel`, `Statut : validée`, sur trois textes guénoniens
@@ -153,8 +165,9 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 > l'Instrument, jamais fondue avec les ancrages établis tant qu'elle n'est pas close.
 >
 > **Conclusion** : non close. La chaîne documentaire est réunie et sourcée en
-> doctrinal/, désormais sur sept pièces (trois maillons factuels + un maillon
-> méthodologique en trois textes) ; l'appréciation de plausibilité de Sidy est
+> doctrinal/, désormais sur huit pièces (trois maillons factuels, dont un renforcé par une
+> troisième filiation Thoth/Hermès, + un maillon méthodologique en trois textes) ;
+> l'appréciation de plausibilité de Sidy est
 > consignée ; le principe herméneutique invoqué (reconnaissance d'un archétype sans
 > citation nommée) est lui-même sourcé sur texte primaire de Guénon. Ce qui reste à
 > instruire n'est donc plus « la légitimité du geste » en général, mais
@@ -191,6 +204,7 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 *Fiche ouverte le 2026-08-25 sur autorisation de Sidy (« Tu peux, oui et à mon sens
 l'hypothèse est très plausible »), synthèse de trois maillons doctrinaux déjà sourcés
 séparément dans le dépôt, enrichie le même jour d'un quatrième maillon méthodologique
-(symbole/archétype, macrocosme/microcosme) sur instruction de Sidy. Non close :
-l'application précise à Gizeh (site ↔ degré 24) reste à instruire sur texte primaire
-qui la nommerait comme telle.*
+(symbole/archétype, macrocosme/microcosme) et d'un renfort du deuxième maillon (Hermès =
+Thoth égyptien, ch. XLI d'*Aperçus sur l'Initiation*), tous deux sur instruction/
+confirmation de Sidy. Non close : l'application précise à Gizeh (site ↔ degré 24) reste à
+instruire sur texte primaire qui la nommerait comme telle.*
