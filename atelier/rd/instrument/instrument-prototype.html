@@ -728,18 +728,43 @@ function redim(){
 redim();
 
 // ---- Cadrage automatique (corrige le rendu tassé/décentré) -------------------
+//   Ancien calcul : sphère englobante orientée n'importe comment, ajustée sur
+//   l'angle de champ le plus étroit (horizontal, en portrait iPad) — la scène
+//   est bien plus large/profonde (registres parallèles, anneau, angles de
+//   l'espace) que haute, ce qui forçait un recul proche du plafond (90) et
+//   rendait tout minuscule. Nouveau calcul : ajuste la distance à l'étendue
+//   RÉELLE de la boîte englobante projetée sur les axes écran de l'angle de
+//   vue initial (theta0/phi0), pas sur une sphère isotrope.
+var THETA0 = .78, PHI0 = 1.22;
 var cadrage = (function(){
   var box = new THREE.Box3().setFromObject(monde);
-  var sph = box.getBoundingSphere(new THREE.Sphere());
+  var centre = box.getCenter(new THREE.Vector3());
+  var dirInit = new THREE.Vector3(
+    Math.sin(PHI0) * Math.cos(THETA0), Math.cos(PHI0), Math.sin(PHI0) * Math.sin(THETA0));
+  var camTmp = camera.clone();
+  camTmp.position.copy(centre).addScaledVector(dirInit, 50);
+  camTmp.lookAt(centre);
+  camTmp.updateMatrixWorld();
+  var axeDroite = new THREE.Vector3().setFromMatrixColumn(camTmp.matrixWorld, 0);
+  var axeHaut = new THREE.Vector3().setFromMatrixColumn(camTmp.matrixWorld, 1);
+  var etendueDroite = 0, etendueHaut = 0;
+  [box.min.x, box.max.x].forEach(function(x){
+    [box.min.y, box.max.y].forEach(function(y){
+      [box.min.z, box.max.z].forEach(function(z){
+        var coin = new THREE.Vector3(x, y, z).sub(centre);
+        etendueDroite = Math.max(etendueDroite, Math.abs(coin.dot(axeDroite)));
+        etendueHaut = Math.max(etendueHaut, Math.abs(coin.dot(axeHaut)));
+      });
+    });
+  });
   var vFov = camera.fov * Math.PI / 180;
   var hFov = 2 * Math.atan(Math.tan(vFov / 2) * camera.aspect);
-  var demiAngle = Math.min(vFov, hFov) / 2;
-  var d = sph.radius / Math.sin(demiAngle) * 1.28;
-  return {centre: sph.center, dist: Math.max(9, Math.min(90, d))};
+  var d = Math.max(etendueHaut / Math.tan(vFov / 2), etendueDroite / Math.tan(hFov / 2)) * 1.3;
+  return {centre: centre, dist: Math.max(9, Math.min(90, d))};
 })();
 
 // ---- Caméra orbitale (glisser / pincer, sans dépendance externe) -------------
-var theta = .78, phi = 1.22, dist = cadrage.dist, cible = cadrage.centre.clone();
+var theta = THETA0, phi = PHI0, dist = cadrage.dist, cible = cadrage.centre.clone();
 var autoRot = !reduitMotion;
 function placerCamera(){
   phi = Math.max(.15, Math.min(Math.PI - .15, phi));
