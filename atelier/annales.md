@@ -10,7 +10,22 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
-## [2026-08-25] rd/instrument | Correction P4.8 et clôture partielle P4.9 (Phase 5)
+## [2026-08-25] rd/instrument | Correction des écarts §2.1/§2.4 (P5, hygiène documentaire)
+
+- **Contexte** : reprise du chantier Phase 5 sur consigne de Sidy (« PHASE 5,
+  revenons y »), orientée vers le volet P5 (hygiène documentaire) sur choix
+  explicite de Sidy parmi quatre options proposées.
+- **Constat** : les items 11 (bandeau `instrument-feuille-de-route-v2.md` vers
+  v0.3) et 12 (bandeaux « Absorbée » sur les 4 fiches `soumission-gem-*`),
+  donnés comme non exécutés par la fiche `2026-08-20_etat-avancement-pistes-developpement.md`
+  (§2.1, §2.4, §3 P5), étaient en réalité déjà réalisés — dans une session
+  antérieure du même jour (2026-08-25), non répercutée dans cette fiche de
+  bilan avant la présente relecture.
+- **Action** : correction de la fiche de bilan (§2.1, §2.4, §3 P5.11-12) pour
+  refléter l'état réel du dépôt, plutôt que ré-exécution d'un travail déjà
+  fait. Aucune écriture sur `instrument-feuille-de-route-v2.md` ni sur les
+  fiches `soumission-gem-*` (déjà à jour).
+- **Commit** : 5700219
 
 - **Contexte** : suite immédiate de l'entrée précédente (correction P4.10).
   Sidy signale que P4.8 avait déjà été tranché en session moins d'une heure
