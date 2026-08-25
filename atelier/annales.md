@@ -10,6 +10,34 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] rd/instrument | Correction claim périmée — table des 38 degrés (21-27) déjà avancée
+
+- **Symptôme** : mon diagnostic de reprise du chantier Instrument (point 3 du
+  rapport de statut) affirmait Phase 2 "bloquée" sur les colonnes Lettre/Nom
+  Divin/Façç/Manzil des degrés 21-23 et 25-27 — Sidy a signalé que c'est une
+  récurrence frustrante déjà rappelée à plusieurs reprises.
+- **Investigation** : grep multi-fichiers, `git log` sur la fiche doctrinale,
+  lecture des deux discernements liés au Malakūt planétaire, vérification
+  d'`instrument-donnees.yaml` (le champ façç n'y est même pas utilisé). Le
+  diagnostic était une généralisation excessive : Lettre et Prophète-siège
+  étaient déjà établis (p. 39-40 Gloton) ; Nom Divin et Manzil restaient
+  réellement absents ; seule Façç (Fuṣūṣ al-Ḥikam) est un item distinct et
+  non bloquant pour l'Instrument.
+- **Résolution** : Sidy a fourni une photographie des pp. 46-47 de Gloton
+  (Noms Divins + Manāzil des sept degrés planétaires), permettant de compléter
+  [[doctrinal/symboles/table-28-degres-nafas-rahman]] sur-le-champ. Corrections
+  en cascade (barré + note datée, pas de réécriture silencieuse) dans
+  [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]] et
+  [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]
+  §8.
+- **Compréhension tirée** : deuxième occurrence en cinq jours du même pattern
+  (cf. entrée 2026-08-20, tension Burckhardt/Jurjānī) — un rapport de statut
+  dérivé n'est jamais une source de vérité sur l'état d'une fiche doctrinale ;
+  entrée détaillée consignée dans [[atelier/rd/cahiers/registre-problemes]].
+- **Liens** : [[doctrinal/symboles/table-28-degres-nafas-rahman]] ;
+  [[atelier/rd/cahiers/registre-problemes]].
+- **Commit** : 0bc8847
+
 ## [2026-08-25] outillage | Instrument : régénération du manifeste (bloc maisons désynchronisé)
 
 - **Symptôme constaté** (session de reprise du chantier Instrument) :
