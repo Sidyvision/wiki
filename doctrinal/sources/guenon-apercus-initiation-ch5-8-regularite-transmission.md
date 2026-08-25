@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, initiation, rattachement, silsila, chaine-initiatique, qualification, regularite, apercus-sur-l-initiation]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-08-25
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]]", "[[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles]]"]
+cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]]", "[[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles]]", "[[doctrinal/sources/guenon-hermetisme-hermes-thoth]]", "[[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]]"]
 ---
 
 # Aperçus sur l'initiation, ch. V et VIII — régularité et transmission
@@ -102,6 +102,42 @@ Le chapitre pose enfin que la constitution d'organisations initiatiques réguli�
 « n'est pas à la disposition de simples initiatives individuelles », et rappelle
 que le mot « tradition », dans son sens originel, « n'exprime rien d'autre que
 l'idée même de transmission ».
+
+### Ajout (2026-08-25) — le cas de la « tradition morte »
+
+Le même chapitre VIII pose, dans son développement sur la transmission orale, le
+cas-limite d'une tradition dont la chaîne est rompue :
+
+> « […] c'est pourquoi, là même où les enseignements traditionnels ont été plus
+> ou moins complètement mis par écrit, ils n'en continuent pas moins à être
+> régulièrement l'objet d'une transmission orale, qui […] assure la
+> perpétuation de la "chaîne" à laquelle est liée la vie même de la tradition.
+> Autrement, on n'aurait plus affaire qu'à une **tradition morte**, à laquelle
+> aucun rattachement effectif n'est plus possible ; et, si la connaissance de ce
+> qui reste d'une tradition peut avoir encore un certain intérêt théorique (en
+> dehors, bien entendu, du point de vue de la simple érudition profane, dont la
+> valeur ici est nulle, et en tant qu'elle est susceptible d'aider à la
+> compréhension de certaines vérités doctrinales), elle ne saurait être d'aucun
+> bénéfice direct en vue d'une "réalisation" quelconque [note 13]. »
+
+La note 13 referme explicitement la boucle avec le chapitre V : « Ceci complète
+et précise encore ce que nous disions plus haut de la vanité d'un prétendu
+rattachement "idéal" aux formes d'une tradition disparue. »
+
+**Portée retenue pour ce maillon** : Guénon distingue nettement deux choses pour
+une tradition morte — (a) l'absence de tout **bénéfice réalisateur** actuel, ce
+qui interdit tout rattachement effectif *à elle-même* ; et (b) un **intérêt
+théorique** conservé, expressément qualifié comme pouvant « aider à la
+compréhension de certaines vérités doctrinales » — pourvu que ce ne soit jamais
+confondu avec la simple érudition profane. Cette seconde possibilité est
+précisément celle qu'instruit
+[[doctrinal/sources/guenon-hermetisme-hermes-thoth]] (ch. XLI, même ouvrage) pour
+le cas du fonds cosmologique égyptien : non continuation d'une chaîne propre,
+mais isolement puis incorporation dans des traditions tierces encore vivantes.
+Utilisé par
+[[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] pour
+reformuler la nature du rapprochement Hermès/Thoth/Hénoch/Idrîs — voir ce
+maillon.
 
 ## Vigilance
 

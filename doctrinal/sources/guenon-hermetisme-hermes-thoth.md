@@ -37,6 +37,27 @@ en détail ici, hors objet du présent maillon) : ce n'est qu'une connaissance d
 connaissance [...] du "monde intermédiaire" » — non l'intégralité de la tradition
 égyptienne.
 
+**Ajout (2026-08-25, sur relecture demandée par Sidy)** : le même chapitre pose ensuite,
+en toutes lettres, le **mode de survie** de cette part cosmologique de la tradition
+égyptienne — non par continuation d'une chaîne initiatique propre, mais par isolement
+puis incorporation dans des traditions tierces encore vivantes :
+
+> « Il pourrait être intéressant [...] de rechercher comment cette partie de la
+> tradition égyptienne a pu se trouver en quelque sorte isolée et se conserver d'une
+> façon apparemment indépendante, puis s'incorporer à l'ésotérisme islamique et à
+> l'ésotérisme chrétien du moyen âge (ce que n'aurait d'ailleurs pu faire une doctrine
+> complète), au point de devenir véritablement partie intégrante de l'un et de
+> l'autre, et de leur fournir tout un symbolisme qui, par une transposition
+> convenable, a pu même y servir parfois de véhicule à des vérités d'un ordre plus
+> élevé. »
+
+La note 7 attachée à ce passage précise la condition de validité d'une telle
+transposition : « dès lors que le lien avec un principe supérieur et véritablement
+transcendant n'est pas rompu ». Ce point, distinct de l'identité Hermès=Thoth elle-même,
+est retenu ici pour son usage propre dans
+[[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] — voir
+« Utilisation dans le dépôt » ci-dessous.
+
 ## Portée doctrinale de la citation retenue
 
 Guénon énonce ici, en toutes lettres, l'identité **Hermès = Thoth** (« considéré par les

@@ -6,8 +6,8 @@ tradition_cadre: "universel"
 tags: [guenon, gizeh, hermes, idris, degre-24, malakut-planetaire, soleil, table-38-degres, symbole, archetype, macrocosme-microcosme]
 created: 2026-08-25
 updated: 2026-08-25
-sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/autorites/idris]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes]]", "[[doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes]]", "[[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]]", "[[doctrinal/sources/guenon-hermetisme-hermes-thoth]]"]
-sources_count: 8
+sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/autorites/idris]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes]]", "[[doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes]]", "[[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]]", "[[doctrinal/sources/guenon-hermetisme-hermes-thoth]]", "[[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]"]
+sources_count: 9
 cross_links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]"]
 ---
 
@@ -129,6 +129,45 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 >   en tant que **principe doctrinal général**, le type de geste herméneutique que la
 >   présente hypothèse tente d'appliquer à un cas particulier — la distinction entre
 >   « principe légitimé » et « application établie » reste posée explicitement.
+> - *Cinquième maillon (ajouté 2026-08-25, sur correction méthodologique de Sidy)* —
+>   reformulation de la nature de ce qui est recherché. Sidy a signalé qu'il est **vain
+>   de chercher une citation explicitant nommément le lien Hermès/Gizeh** (démarche des
+>   maillons précédents) ; le geste juste consiste plutôt à **reconnaître la nature de
+>   l'influence à l'œuvre** — un domaine des sciences cosmologiques dont la filiation
+>   est elle-même notoire et sourcée : Hermès/Thoth/Hénoch/Idrīs, pythagorisme, Égypte
+>   antique — et à la mettre en relation avec ce que Guénon dit du cas des **traditions
+>   mortes** (sans voie de continuité). Deux pièces déjà présentes au dépôt portent
+>   exactement ce rapprochement :
+>   - [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]
+>     (ch. VIII, *Aperçus sur l'Initiation*) pose que, la chaîne rompue, il ne reste
+>     qu'« une **tradition morte**, à laquelle aucun rattachement effectif n'est plus
+>     possible » — mais que la connaissance de ce qui en reste garde « un certain
+>     intérêt théorique […] en tant qu'elle est susceptible d'aider à la compréhension
+>     de certaines vérités doctrinales », pourvu que cela ne soit jamais confondu avec
+>     la simple érudition profane.
+>   - [[doctrinal/sources/guenon-hermetisme-hermes-thoth]] (ch. XLI, même ouvrage)
+>     nomme précisément le mode par lequel le fonds cosmologique égyptien (dont
+>     l'hermétisme) a survécu à la rupture de sa propre chaîne : « isolée […] puis
+>     [incorporée] à l'ésotérisme islamique et à l'ésotérisme chrétien du moyen âge »,
+>     leur fournissant « tout un symbolisme qui, par une transposition convenable, a pu
+>     même y servir parfois de véhicule à des vérités d'un ordre plus élevé » — à
+>     condition que « le lien avec un principe supérieur et véritablement transcendant
+>     ne soit pas rompu » (note 7).
+>   **Conséquence pour la présente fiche** : la tradition égyptienne comme telle n'a
+>   aujourd'hui aucune chaîne initiatique vivante — c'est un cas de tradition morte au
+>   sens guénonien. Son fonds cosmologique n'a donc pas eu à être *rattaché* à un site
+>   ou à un degré par une transmission propre ; il a été **transposé**, avec le
+>   symbolisme d'Hermès/Thoth qui le porte, dans des traditions tierces encore
+>   vivantes. Ceci ne fournit toujours **aucun texte nommant Gizeh au degré 24** — Cmd 5
+>   et Cmd 12 demeurent pleinement en vigueur, et ce cinquième maillon ne clôt rien —
+>   mais il déplace la question que la présente fiche instruit : non plus « existe-t-il
+>   une citation Hermès=Gizeh=degré 24 ? » (fausse piste, signalée comme telle par
+>   Sidy), mais « le symbolisme cosmologique porté par Hermès/Thoth/Idrīs, reconnu
+>   comme transposable par Guénon lui-même, se retrouve-t-il, par transposition, dans
+>   la table akbarienne qui accueille Idrīs au degré 24 ? » — question de même nature
+>   que le quatrième maillon (reconnaissance sans nomination), mais assise ici sur le
+>   mécanisme de survie propre aux traditions mortes plutôt que sur le seul rapport
+>   symbole/archétype en général.
 > - Aucune parenté hétérodoxe identifiée.
 >
 > **Examen formel** (cohérence logique/terminologique — jamais le principe) : la chaîne
@@ -136,11 +175,16 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 > Idrīs ; Idrīs = degré 24) ; le pas de la figure prophétique (Idrīs) au site
 > terrestre (Gizeh) au sein d'une même table cosmologique n'est toujours attesté par
 > aucune des sources citées pour ce cas précis, mais il est désormais **légitimé en
-> principe** par le quatrième maillon (symbole/archétype, macrocosme/microcosme) — un
+> principe** par le quatrième maillon (symbole/archétype, macrocosme/microcosme) et
+> **recadré méthodologiquement** par le cinquième (tradition morte, transposition) — un
 > geste d'ancrage géographique-vers-cosmologique reste néanmoins distinct de ce que
 > chaque maillon affirme isolément, et c'est précisément ce pas d'application qui
 > reste `en cours` plutôt que `validée` : un principe légitimé n'est pas une
-> application établie (Cmd 12).
+> application établie (Cmd 12). Le cinquième maillon ne change rien à cette limite ; il
+> change seulement **la nature de la preuve recherchée** — d'une citation nommant
+> Gizeh à la reconnaissance d'un mécanisme de transmission (transposition
+> post-tradition-morte) attesté sur texte primaire pour le fonds cosmologique
+> égyptien en général.
 >
 > **Confrontation Gizeh — vigilance polaire/solaire** (double contrôle transversal,
 > CLAUDE.md racine §VII, obligatoire pour toute matière nouvelle touchant Gizeh) :
@@ -152,30 +196,43 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 > attribuer, via Hermès/Idrīs, un ancrage au degré **solaire** (24) de la table
 > akbarienne va dans le même sens que cette vigilance, non contre elle — un site
 > solaire recevrait un ancrage solaire, sans confusion de catégorie. Confronté, aucune
-> tension à documenter au-delà de ce constat.
+> tension à documenter au-delà de ce constat. Le cinquième maillon (tradition morte,
+> transposition) n'introduit aucune tension supplémentaire : il rend compte d'un
+> **mode de transmission**, non d'un contenu polaire, et ne touche donc pas à la
+> distinction polaire/solaire déjà établie.
 >
 > **Qualification sashimono du joint** (convention, `meta/philosophie-sashimono.md`
 > §6-7) : **kari-kumi** — montage à blanc. Les trois premiers maillons pris isolément
 > sont des hozo déjà établis (deux d'entre eux dans des fiches closes) ; le quatrième
 > maillon (symbole/archétype) est lui aussi un hozo — Guénon y énonce un principe
-> général, sourcé, sans réserve d'application. Mais la synthèse propre à la présente
-> fiche (Gizeh-site ↔ degré 24 précisément) reste, elle, **kari-kumi** : le principe
-> général est établi, son application à ce cas particulier ne l'est pas — aucune des
-> sept sources ne nomme conjointement Gizeh et le degré 24. Marquage 🔍 dans
-> l'Instrument, jamais fondue avec les ancrages établis tant qu'elle n'est pas close.
+> général, sourcé, sans réserve d'application. Le cinquième maillon (tradition morte,
+> transposition) est également un **hozo** pris en lui-même — Guénon y énonce, sur
+> texte primaire, un mécanisme de survie documentaire et symbolique, sans réserve
+> d'application à un cas précis — mais son **usage dans la présente fiche** reste
+> **zōsaku** : il reformule la nature de la question posée, il ne porte à lui seul
+> aucune charge démonstrative sur Gizeh. La synthèse propre à la présente fiche
+> (Gizeh-site ↔ degré 24 précisément) reste, elle, **kari-kumi** : le principe général
+> est établi, le mécanisme de transposition est établi, leur application conjointe à
+> ce cas particulier ne l'est pas — aucune des neuf sources ne nomme conjointement
+> Gizeh et le degré 24. Marquage 🔍 dans l'Instrument, jamais fondue avec les ancrages
+> établis tant qu'elle n'est pas close.
 >
 > **Conclusion** : non close. La chaîne documentaire est réunie et sourcée en
-> doctrinal/, désormais sur huit pièces (trois maillons factuels, dont un renforcé par une
-> troisième filiation Thoth/Hermès, + un maillon méthodologique en trois textes) ;
-> l'appréciation de plausibilité de Sidy est
-> consignée ; le principe herméneutique invoqué (reconnaissance d'un archétype sans
-> citation nommée) est lui-même sourcé sur texte primaire de Guénon. Ce qui reste à
-> instruire n'est donc plus « la légitimité du geste » en général, mais
-> **l'application précise à Gizeh** : aucun texte cité, y compris les trois nouveaux,
-> ne nomme Gizeh en relation avec un degré cosmologique. Statut maintenu `en cours`,
-> conformément au Cmd 12 (le modèle légitime le principe sur texte primaire, il ne
-> tranche jamais l'application au cas particulier). Aucune intégration dans
-> l'Instrument tant que le statut reste `en cours`.
+> doctrinal/, désormais sur neuf pièces (trois maillons factuels, dont un renforcé par
+> une troisième filiation Thoth/Hermès, + un maillon méthodologique en trois textes,
+> + un cinquième maillon de recadrage sur la doctrine guénonienne des traditions
+> mortes) ; l'appréciation de plausibilité de Sidy est consignée ; le principe
+> herméneutique invoqué (reconnaissance d'un archétype sans citation nommée) est
+> lui-même sourcé sur texte primaire de Guénon, de même que le mécanisme de
+> transposition post-tradition-morte. Ce qui reste à instruire n'est donc plus « la
+> légitimité du geste » en général, ni « la vraisemblance du mécanisme de survie » en
+> général, mais toujours et seulement **l'application précise à Gizeh** : aucun texte
+> cité, y compris les pièces mobilisées par le cinquième maillon, ne nomme Gizeh en
+> relation avec un degré cosmologique. Statut maintenu `en cours`, conformément au
+> Cmd 12 (le modèle légitime
+> le principe et le mécanisme sur texte primaire, il ne tranche jamais l'application au
+> cas particulier). Aucune intégration dans l'Instrument tant que le statut reste
+> `en cours`.
 >
 > **Lectures suggérées** (mise à jour 2026-08-25) :
 > 1. René Guénon, « Le Tombeau d'Hermès » (*Formes traditionnelles et Cycles
@@ -198,13 +255,26 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 > l'alphabet arabe, Nâma-Rûpa, Grande Triade ch. X/XVI), fichées en
 > `doctrinal/sources/`. Les deux lectures suggérées ci-dessus (Tombeau d'Hermès relu
 > sous cet angle précis ; Futūḥāt ch. 198) restent, elles, non effectuées.
+> 4. *Ajouté 2026-08-25* : le cinquième maillon (tradition morte, transposition
+>    post-rupture de chaîne) a été instruit sur ch. VIII et ch. XLI d'*Aperçus sur
+>    l'Initiation* — ne reste donc plus une « lecture suggérée » mais une pièce
+>    acquise. Reste en suspens, dans le prolongement direct de ce maillon : vérifier
+>    si Guénon (ou une autorité textuelle équivalente) documente ailleurs un cas
+>    précis de transposition du fonds cosmologique égyptien portant sur un **site**
+>    plutôt que sur un symbolisme ou un rite — ce qui rapprocherait le mécanisme
+>    général du cas Gizeh sans encore le nommer. **Non encore recherché.**
 
 ---
 
 *Fiche ouverte le 2026-08-25 sur autorisation de Sidy (« Tu peux, oui et à mon sens
 l'hypothèse est très plausible »), synthèse de trois maillons doctrinaux déjà sourcés
 séparément dans le dépôt, enrichie le même jour d'un quatrième maillon méthodologique
-(symbole/archétype, macrocosme/microcosme) et d'un renfort du deuxième maillon (Hermès =
-Thoth égyptien, ch. XLI d'*Aperçus sur l'Initiation*), tous deux sur instruction/
-confirmation de Sidy. Non close : l'application précise à Gizeh (site ↔ degré 24) reste à
-instruire sur texte primaire qui la nommerait comme telle.*
+(symbole/archétype, macrocosme/microcosme), d'un renfort du deuxième maillon (Hermès =
+Thoth égyptien, ch. XLI d'*Aperçus sur l'Initiation*), et d'un cinquième maillon
+recadrant la nature de la question posée — reconnaissance de la filiation notoire
+Hermès/Thoth/Hénoch/Idrīs (pythagorisme, Égypte antique) comme cas de **tradition
+morte** au sens guénonien, survivant par isolement puis incorporation/transposition
+dans des traditions tierces vivantes, plutôt que recherche d'une citation nommant
+Gizeh — tous sur instruction/confirmation de Sidy. Non close : l'application précise
+à Gizeh (site ↔ degré 24) reste à instruire sur texte primaire qui la nommerait comme
+telle.*
