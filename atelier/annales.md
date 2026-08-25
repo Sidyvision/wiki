@@ -10,6 +10,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] rd/atelier | Point 5 — disposition des fichiers non trackés
+
+- **Contexte** : trois fichiers non versionnés traînaient dans le dépôt, disposition
+  demandée à Sidy (Cmd 10, pas de décision unilatérale).
+- **`atelier/rd/incidents/2026-08-25_gardien-gateway-crash-boucle.md`** : fiche
+  complète et conforme (produite hors session, probablement par un agent Hermes) —
+  committée telle quelle sur décision de Sidy.
+- **`CLAUDE.md.bak-2026-08-22-pre-deplacement-bibliotheque`** : sauvegarde liée à la
+  migration validée de la bibliothèque physique (2026-08-22) — déplacée vers
+  `meta/protocole-archives/` sur décision de Sidy (jamais de suppression sèche, Cmd 10).
+- **`atelier/rd/outillage/srs-cron-review.py`** : script de révision SRS pour Discord
+  (Hermes) jugé fonctionnel par Sidy — committé.
+- **Vérification** : `verifier-invariants.py` — 0 erreur, 15 avertissements (inchangés).
+- **Commit** : 863e147
+
 ## [2026-08-25] rd/instrument | Point 4 — renvoi feuille de route corrigé (v0.2 → v0.3), soumissions Gem marquées absorbées
 
 - **Contexte** : deux hygiènes documentaires signalées le 2026-08-20 mais jamais
