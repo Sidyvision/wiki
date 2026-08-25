@@ -4,7 +4,7 @@ type: meta
 statut: synthese
 tags: [instrument, rd, bilan, pistes-developpement, feuille-de-route]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-25
 sources: []
 links: ["[[atelier/rd/instrument/instrument-feuille-de-route-v2]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]", "[[atelier/rd/instrument/spec-technique-axe-38-degres]]", "[[atelier/rd/instrument/angles-de-l-espace]]", "[[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]]", "[[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16]]", "[[atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint]]", "[[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[atelier/rd/cahiers/registre-problemes]]"]
 ---
@@ -55,7 +55,7 @@ a été mis à jour pour rendre ce qui est établi mais n'était pas rendu — v
 | 0 | Décisions d'architecture technique | **Close** — moteur Three.js/WebGL, cible web mobile, hébergement statique, format `wiki-manifest v0.2.1` figé (arbitrages du 2026-07-01, actés en v0.3 §8.3) |
 | 1 | Générateur de manifeste (dépôt → manifeste) | **Livré** — `generer-manifeste.py`, déterministe, zéro LLM dans la boucle ; `wiki-manifest.json` réellement généré (36 nœuds : 8 notionnels/structurants + 28 nœuds-degrés) |
 | — | Prototype de rendu | **Existe et fonctionne** (correction d'un constat erroné, voir §2) — `instrument-prototype.html`, Three.js réel, v0.1 datée du 2026-07-01 : axe des 38 degrés, Barzakh supérieur, filament d'al-Insān al-Kāmil, boucle 38→11, anneau des nœuds notionnels. **Mis à jour le 2026-08-20** (§5, deux passes) : sept nœuds Aqtâb + nœud Homme Universel rendus, filament enrichi, anneau zodiacal (12 signes + 28 manāzil, deux degrés distincts) |
-| 2 | Rendu de la tradition pilote (Tasawwuf) | **En cours** — bloqué sur la table des 38 degrés (colonnes Lettre/Nom Divin/Façç/Manzil manquantes pour les degrés 21-23 et 25-27, dépouillement Gloton requis) et sur la validation du rendu d'Al-Insān al-Kāmil |
+| 2 | Rendu de la tradition pilote (Tasawwuf) | **En cours** — sur la validation du rendu d'Al-Insān al-Kāmil. ⚠️ **Correction du 2026-08-25** : le constat ci-contre était périmé — Lettre/Nom Divin/Manzil des degrés 21-23 et 25-27 sont complets depuis le 2026-08-25 (transcription pp. 46-47 Gloton, [[doctrinal/symboles/table-28-degres-nafas-rahman]]) ; seule la colonne façç (Fuṣūṣ), non utilisée par `instrument-donnees.yaml`, reste to-source et n'est pas bloquante |
 | 3 | Multi-traditions et ancrages | **Plus avancée qu'évalué initialement** (correction §0.2) — ouverte le 2026-08-04, **deux** jalons universels **clos par discernement et désormais intégralement déclarés et rendus** (2026-08-20) : (a) sept Pôles/Aqtâb ↔ Malakūt planétaire (verdict 2026-07-16/08-04) ; (b) Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara, l'Homme Universel à quatre voiles (verdict 2026-07-26, [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]) — `instrument-donnees.yaml` v0.3.4, `wiki-manifest.json` régénéré, prototype à jour. Kabbale et Vedānta restent non ouverts comme arbres-traditions propres (la fiche (b) ne les ouvre pas, elle établit un nœud transversal) |
 | 4 | Onglet apophatique (implémentation applicative) | **Pratiquée manuellement en continu** depuis le 2026-06-29 (validé 2026-07-01) ; non codée dans le prototype |
 | 5 | Couche astrologique (calcul multi-méthodes) | **La moins avancée** — aucune spécification de calcul ; seulement des matériaux préparatoires (angles de l'espace, investigation stellaire *speculatif*, images de référence) et des paramètres laissés en attente dans les specs existantes (obliquité paramétrable, origine tropical/sidéral, paramètre d'époque) |
@@ -82,7 +82,7 @@ a été mis à jour pour rendre ce qui est établi mais n'était pas rendu — v
 2. ~~Vérifier le sort de la tension Burckhardt/Jurjānī~~ — sans objet, close depuis le 2026-07-09 (§0.1, §2.3).
 
 **P2 — débloquer la Phase 2 (rendu Tasawwuf, actuellement « en cours »)**
-3. Dépouiller Gloton (*De la mort à la résurrection*) pour compléter les degrés 21-23 et 25-27 de la table des 38 degrés (Lettre/Nom Divin/Façç/Manzil).
+3. ~~Dépouiller Gloton (*De la mort à la résurrection*) pour compléter les degrés 21-23 et 25-27 de la table des 38 degrés (Lettre/Nom Divin/Façç/Manzil).~~ **Fait le 2026-08-25** pour Lettre/Nom Divin/Manzil (pp. 46-47) ; seule la colonne façç reste ouverte, non bloquante (cf. correction §2 ci-dessus).
 4. Valider (ou réviser) le rendu d'Al-Insān al-Kāmil — actuellement une proposition non validée dans le prototype.
 5. Spécifier le détail optique de la lentille barzakh (degrés 19-20), laissé ouvert par l'architecture v0.3.
 

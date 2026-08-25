@@ -3,7 +3,7 @@ title: "Instrument de la Tradition Primordiale — Architecture Fondamentale (v0
 type: projet
 tags: [architecture, mandala, tradition-primordiale, tasawwuf, kabbale, conceptuel]
 created: 2026-06-28
-updated: 2026-08-11
+updated: 2026-08-25
 sources: []
 links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference]]"]
 ---
@@ -422,10 +422,14 @@ Restent en phase technique :
 
 ### Points restants (données et rendu, non architecturaux)
 
-1. **Compléter les colonnes** Lettre / Nom Divin / Faṣṣ / Manzil des degrés 21-23 et
+1. ~~**Compléter les colonnes** Lettre / Nom Divin / Faṣṣ / Manzil des degrés 21-23 et
    25-27 de [[doctrinal/symboles/table-28-degres-nafas-rahman]] — nécessite le dépôt
    des pages correspondantes de Gloton (*De la mort à la résurrection*, ≈ pp. 40-44) ;
-   prérequis à la génération des 38 nœuds-degrés (§7).
+   prérequis à la génération des 38 nœuds-degrés (§7).~~ **Fait (2026-08-25)** pour
+   Lettre / Nom Divin / Manzil (pp. 46-47 de Gloton) — prérequis levé pour la
+   génération des 38 nœuds-degrés. Seule la colonne Faṣṣ (Fuṣūṣ al-Ḥikam) reste
+   `to-source` pour ces degrés ; non requise par `instrument-donnees.yaml`, donc
+   non bloquante pour la Phase 2.
 2. **Rendu d'Al-Insān al-Kāmil** : proposition du filament traversant (§7) à valider.
 3. **Appariement qualités élémentaires ↔ angles** : transcription depuis le schéma
    manuscrit (cf. point tranché n°2, réserve `to-source`).

@@ -30,6 +30,47 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] Récurrence — claim périmée « table des 38 degrés bloquée » (Instrument, degrés 21-27)
+
+- **Symptôme** : à la reprise du chantier Instrument, mon diagnostic de blocage
+  ("Phase 2 Tasawwuf en cours — colonnes Lettre/Nom Divin/Façç/Manzil manquantes
+  pour les degrés 21-23 et 25-27, dépouillement Gloton requis") a été signalé par
+  Sidy comme faux et **déjà rappelé à plusieurs reprises par le passé** — même
+  classe d'erreur que l'entrée du 2026-08-20 sur la tension Burckhardt/Jurjānī.
+- **Diagnostic** : le diagnostic reposait sur `2026-08-20_etat-avancement-pistes-developpement.md`
+  et l'architecture v0.3 §8, deux documents de statut qui recopiaient un état de
+  [[doctrinal/symboles/table-28-degres-nafas-rahman]] figé au 2026-07-16, sans
+  revérifier la fiche source elle-même ni chercher une transmission plus récente.
+  En creusant (grep multi-fichiers, git log, discernements liés, `instrument-donnees.yaml`),
+  la table doctrinale montrait effectivement encore des "?" pour Façç/Manzil —
+  la stale-claim n'était donc pas une pure invention, mais une généralisation
+  excessive : Sidy avait bien transmis la photographie Gloton pp. 46-47 (Lettre/
+  Nom Divin/Manzil), preuve produite en session sur ma demande de clarification,
+  ce qui a permis de compléter la table sur-le-champ. Seule la colonne Façç
+  (Fuṣūṣ al-Ḥikam, distincte du prophète-siège) reste réellement ouverte — et
+  n'est même pas utilisée par `instrument-donnees.yaml`, donc non bloquante.
+- **Résolution** : table doctrinale complétée (Lettre/Nom Divin/Manzil, pp. 46-47
+  Gloton) ; corrections en cascade dans
+  [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]] et
+  [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]
+  (barré + note datée plutôt que réécriture silencieuse, cf. Cmd 10/discipline
+  des annales).
+- **Compréhension tirée** : un document de *statut* (`type: meta`, `statut: synthese`)
+  n'est jamais une source de vérité sur l'état d'une fiche doctrinale — il faut
+  systématiquement retourner à la fiche primaire (et à son historique git) avant
+  de répéter un « toujours bloqué », surtout quand plusieurs documents dérivés
+  copient la même formulation sans la revérifier chacun. Deuxième occurrence de
+  ce pattern en cinq jours (cf. entrée 2026-08-20 ci-dessous) : envisager une
+  vigilance systématique (dater/revérifier tout item "en cours"/"bloqué" cité
+  dans un rapport de statut avant de le retransmettre) plutôt qu'une correction
+  au cas par cas.
+- **Liens** : [[doctrinal/symboles/table-28-degres-nafas-rahman]] ;
+  [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]] ;
+  entrée [2026-08-20] ci-dessous (même pattern, tension Burckhardt/Jurjānī).
+- **Statut** : resolu
+
+---
+
 ## [2026-08-25] Discord Gateway Publication — canal #infrastructure non autorisé
 
 - **Symptôme** : le cron `veille-referencement-investigation-08` (publication, `ad3152b237bb`) s'exécute avec succès (statut `ok`, 8 197 caractères générés) mais ne livre rien sur Discord #infrastructure (`1536564394690084925`). Le rapport est sauvegardé localement (`/root/.hermes/profiles/publication/cron/output/ad3152b237bb_20260825_110247.txt`) mais invisible côté Discord.
