@@ -236,10 +236,17 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 >
 > **Lectures suggérées** (mise à jour 2026-08-25) :
 > 1. René Guénon, « Le Tombeau d'Hermès » (*Formes traditionnelles et Cycles
->    cosmiques*) — déjà source du premier maillon ; à relire en cherchant un éventuel
->    passage rapportant explicitement Gizeh à un degré ou à une position cosmologique
->    précise plutôt qu'au seul symbolisme du tombeau/de la science. **Non encore
->    relu** en ce sens précis.
+>    cosmiques*) — déjà source du premier maillon. **Relu intégralement le 2026-08-25**
+>    (texte complet du chapitre, pages imprimées 139-148, index-rene-guenon.org) en
+>    cherchant spécifiquement un passage rapportant Gizeh à un degré ou à une position
+>    cosmologique précise. **Résultat négatif confirmé** : aucun tel passage — le
+>    chapitre ne contient que ce qui est déjà fiché dans
+>    [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]] (tombeau symbolique,
+>    science incluse dans la structure, légende de Surid, Seth/Agathodaimôn,
+>    symbolisme polaire et orientation, ternaire des Pyramides, les trois Hermès,
+>    étymologie Haram/Hermès et triangle/Pôle, critique du pyramidion). Aucun degré,
+>    aucune planète, aucun tableau hiérarchique n'y figure. Cette lecture ne clôt rien
+>    (Cmd 12) mais retire cette piste du champ des lectures encore ouvertes.
 > 2. Ibn ʿArabī, *Futūḥāt*, ch. 198 (trad. Gloton) — table des 28 degrés, pour vérifier
 >    si un site terrestre (par opposition à une figure prophétique siégeante) y reçoit
 >    jamais un ancrage nommé. **Non encore consulté** (absent de `raw/` à ce jour).
