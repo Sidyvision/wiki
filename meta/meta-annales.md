@@ -14,6 +14,19 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers Hermes (rôle 08, mandat 2)
+
+- **Contexte** : nouveau lot photographié (17 vues, `raw/Origine Polaire de la
+  tradition Védique/`) — couverture et table des matières déjà transcrites
+  directement (voir `atelier/annales.md`, entrée du même jour). Reste l'index
+  alphabétique p.367-380 (IMG_0081-IMG_0088), à traiter sous le mandat 2
+  (Librarian-Archivist) porté par la position 08 depuis le 2026-08-24.
+- **Action** : ajout du lot Tilak à la section « Ordre des lots » de
+  `hermes-prompts/08-publication-site.md`, avec périmètre exact précisé
+  (uniquement IMG_0081-0088 ; IMG_0071-0072 déjà traités hors mandat ;
+  IMG_0073-0080 hors périmètre) et métadonnées d'ouvrage pour le frontmatter.
+- **Commit** : a56b603
+
 ## [2026-08-24] realignement | Crons Publication (08), Gardien (10), Studio (09) — ordres exécutés
 
 - **Ordre exécuté** : `_inbox/ordre-cron-frontmatter-veille-08.md` (déposé dans
