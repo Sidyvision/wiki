@@ -10,6 +10,42 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] outillage | Prototype Instrument : plans planétaires progressifs + bezel zodiacal (désaturation textuelle)
+
+- **Contexte** : Sidy juge le prototype quasiment illisible — saturation par
+  les étiquettes de nœuds, désormais bien visibles depuis le correctif de
+  cadrage (entrée précédente). Rappel de finalité : l'Instrument intègre les
+  fonctions d'un astrolabe de navigation spatiale et initiatique — il doit se
+  lire comme tel, pas comme un nuage de texte. Proposition de Sidy : plans
+  circulaires à diamètre progressif par degré des astres pour les Aqtâb, le
+  tout circonscrit par le bandeau zodiacal façon bezel de montre gradué par
+  cran (signe, maison…).
+- **Modifié** : `atelier/rd/instrument/instrument-prototype.html` — couche de
+  rendu uniquement, aucune donnée ni logique de manifeste touchée :
+  - Sept Aqtâb (Malakūt planétaire, degrés 21-27) rendus en plans circulaires
+    concentriques à diamètre progressif (Saturne le plus vaste, Lune la plus
+    étroite) — ordre cosmologique classique des sept cieux planétaires, déjà
+    porté par l'ordre de la donnée AQTAB. Remplace le marqueur excentré relié
+    par une ligne.
+  - Bandeau zodiacal (Falak al-Burūj/al-Manāzil) agrandi (rayon 6.0) pour
+    circonscrire toute la tour planétaire ; chaque cran (12 signes, 28
+    manāzil) porte un repère tactile (panneau d'info au toucher) — les 28
+    manāzil restent sans étiquette permanente (non commensurables aux 12
+    signes, spec-anneau-zodiacal.md §3.4, inchangé).
+  - Étiquettes permanentes retirées : Aqtâb, notionnels de l'anneau, Homme
+    Universel, nœud Barzakh générique, filament, domaines des registres
+    parallèles — tous restent consultables au toucher (panneau d'info
+    existant). Rien n'est perdu, seulement déplacé du permanent au sollicité.
+  - Titres de bandes (Lāhūt/Jabarūt/etc.) repoussés à x=7.3 (au-delà du
+    nouveau rayon) pour ne plus chevaucher la tour agrandie.
+- **Non traité, signalé** : la graduation des maisons astrologiques demandée
+  par Sidy n'est pas rendue — aucune source de ce type dans le manifeste
+  actuel (Cmd 5, discipline des sources). À ouvrir quand une fiche/donnée
+  sourcée l'établira ; pas de placeholder inventé.
+- **Vérification** : rendu comparé avant/après en portrait via Chromium
+  sandboxé (Playwright, three.js local pour la vérification uniquement).
+- **Commit** : 6e2cd23
+
 ## [2026-08-25] outillage | Correctif du cadrage caméra auto du prototype Instrument
 
 - **Contexte** : suite à la refonte graphique (entrée précédente), Sidy signale
