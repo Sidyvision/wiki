@@ -456,9 +456,17 @@ function marqueurGlyphe(taille, couleur, glyphe){
 }
 // Glyphes astrologiques standard, appariés par nom (insensible à l'ordre
 // exact du manifeste — robuste à un futur réagencement des données).
+// U+FE0E (variation selector « présentation texte ») après chaque glyphe :
+// les 12 symboles zodiacaux (U+2648-2653) sont dans la plage « emoji par
+// défaut » d'Unicode — sans ce sélecteur, iOS/Safari les rendait en emoji
+// couleur (rendu désastreux constaté par Sidy, 2026-08-25), alors que les
+// symboles planétaires (☉♀☿♂♃♄, hors de cette plage) s'affichaient déjà
+// correctement en glyphe monochrome. Correctif standard, aucun changement
+// de contenu.
 var SIGNE_GLYPHES = {
-  "bélier":"♈", "taureau":"♉", "gémeaux":"♊", "cancer":"♋", "lion":"♌", "vierge":"♍",
-  "balance":"♎", "scorpion":"♏", "sagittaire":"♐", "capricorne":"♑", "verseau":"♒", "poissons":"♓"
+  "bélier":"♈︎", "taureau":"♉︎", "gémeaux":"♊︎", "cancer":"♋︎",
+  "lion":"♌︎", "vierge":"♍︎", "balance":"♎︎", "scorpion":"♏︎",
+  "sagittaire":"♐︎", "capricorne":"♑︎", "verseau":"♒︎", "poissons":"♓︎"
 };
 var ASTRE_GLYPHES = {
   "saturne":"♄", "jupiter":"♃", "mars":"♂", "soleil":"☉", "vénus":"♀", "venus":"♀",
