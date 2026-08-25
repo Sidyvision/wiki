@@ -30,6 +30,24 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] Validateurs index-livres — mismatch NFC/NFD sur noms de dossiers accentués
+
+- **Symptôme** : le validateur `atelier/rd/bibliotheque/valider-index-livres.py` rapporte un signal H4 (`dossier_raw introuvable : Origine Polaire de la tradition Védique`) lors de la validation d'une fiche mandat 2 (position 08). Le dossier existe bien dans `raw/` (confirmé par `os.listdir('/root/wiki/raw')` et `ls`), contient les 18 vues IMG_0071-IMG_0088, mais le validateur ne le trouve pas. EXIT=0 (non bloquant), mais signalement H4 persistant.
+
+- **Diagnostic** : le nom de dossier contient des caractères accentués (`é`, `é`) qui sont encodés en NFD (décomposé) sur le système de fichiers, mais le validateur compare probablement en NFC (composé). Le frontmatter de la fiche indique `dossier_raw: "Origine Polaire de la tradition Védique"` (NFC), tandis que le chemin réel sur disque est en NFD. C'est le même problème NFC/NFD déjà documenté dans le mandat 2 lui-même (« cause connue : normalisation Unicode NFC/NFD »), mais cette fois-ci appliqué au validateur plutôt qu'à l'accès direct.
+
+- **Résolution** : contournement manuel lors de l'exécution du mandat (copie des vues vers `/root/workspace/tilak-index/` avec noms ASCII-safe pour le scan vision), puis suppression après dépôt. Le validateur a été exécuté tel quel, le signal H4 est rapporté dans la section Signalements de la fiche `_inbox/index-origine-polaire-tilak.md` et dans `_inbox/UPDATES.md`. Aucune correction du validateur elle-même n'a été tentée (hors périmètre mandat 2).
+
+- **Compréhension tirée** : tout validateur qui compare des chemins de fichiers contenant des caractères non-ASCII doit normaliser explicitement en NFC ou NFD avant comparaison. Le validateur `valider-index-livres.py` ne le fait pas actuellement. Le problème est latent : il se reproduira pour tout futur dossier avec accents dans `raw/`. La solution propre serait d'ajouter `unicodedata.normalize('NFC', path)` dans le validateur avant comparaison. En attendant, le contournement manuel (copie vers noms ASCII) fonctionne mais ajoute une étape fastidieuse.
+
+- **Liens** : fiche `_inbox/index-origine-polaire-tilak.md` (signal H4 rapporté), validateur `atelier/rd/bibliotheque/valider-index-livres.py`, mandat 2 position 08 (`meta/projet-unifie/hermes-prompts/08-publication-site.md` ligne 146).
+
+- **Statut** : ouvert — correctif validateur non prioritaire (contournement manuel disponible).
+
+---
+
+
+
 ## [2026-08-25] Récurrence — claim périmée « table des 38 degrés bloquée » (Instrument, degrés 21-27)
 
 - **Symptôme** : à la reprise du chantier Instrument, mon diagnostic de blocage

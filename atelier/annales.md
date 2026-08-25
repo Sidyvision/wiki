@@ -10,6 +10,57 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] rd/instrument | Correction P4.8 et clôture partielle P4.9 (Phase 5)
+
+- **Contexte** : suite immédiate de l'entrée précédente (correction P4.10).
+  Sidy signale que P4.8 avait déjà été tranché en session moins d'une heure
+  avant la présente passe (commits `6deaf2b`/`b2acd1b`), contredisant mon
+  annotation « Non tranché » de l'entrée précédente. Erreur de ma part :
+  absence de vérification de l'historique git récent avant d'affirmer un point
+  non arbitré.
+- **Correction P4.8** : `2026-08-20_etat-avancement-pistes-developpement.md`
+  corrigé — le paramètre tropical/sidéral est tranché (deux modes implémentés
+  et commutables, `zodiaque.mode_zodiaque` dans `instrument-donnees.yaml`
+  v0.5.2, `spec-anneau-zodiacal.md` §3.3 à jour). Reste ouvert, non bloquant :
+  choix de l'école d'ayanamsha (`zodiaque.ayanamsha_deg: null`).
+- **P4.9** : Sidy autorise l'ouverture d'une fiche discernement dédiée à
+  l'hypothèse H3 et la juge « très plausible ». Fiche ouverte,
+  `doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris.md`
+  (voir entrée correspondante dans `doctrinal/annales.md`), `Statut : en
+  cours` — non close, la synthèse propre au site de Gizeh restant à
+  instruire sur texte primaire.
+- **Modifié** : `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md`
+  (P4.8 et P4.9 corrigés, lien vers la nouvelle fiche ajouté en frontmatter
+  `links`).
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` à
+  exécuter avant commit.
+
+## [2026-08-25] rd/instrument | Correction P4.10 (Phase 5) — bibliothèque déjà réunie
+
+- **Contexte** : reprise de la Phase 5 (couche astrologique) de l'Instrument.
+  Relecture de `2026-08-20_etat-avancement-pistes-developpement.md` (P4,
+  piste 10 : « constituer la bibliothèque prioritaire... actuellement aucune
+  n'est sourcée ») confrontée à `atelier/rd/bibliotheque/catalogue-bibliotheque.md`
+  (§I) — recoupement demandé explicitement par le protocole (§VII, discipline
+  des sources, bibliothèque physique d'abord).
+- **Constat** : le constat de piste 10 était périmé. Sur les 6 ouvrages de
+  priorité 1-3 listés au §7 de `2026-07-26_investigation-referentiels-stellaires-cycles.md`,
+  5 sont déjà en bibliothèque physique confirmée (*Le Roi du Monde*, *Formes
+  traditionnelles et Cycles cosmiques*, *Symboles de la Science sacrée*, *La
+  Grande Triade*, Tilak *Origine polaire de la tradition védique* = trad. de
+  *The Arctic Home in the Vedas*, déjà indexé). Seul manque un texte distinct
+  du même auteur : *The Orion* (1893), nuance déjà signalée par
+  l'investigation elle-même (§1.4) mais non recoupée avec le catalogue avant
+  ce jour.
+- **Modifié** : `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md`
+  (piste P4.10 corrigée, item barré avec correction datée, `updated` inchangé
+  car déjà à jour du jour).
+- **Non exécuté** : items P4.8 (paramètre tropical/sidéral) et P4.9 (ouverture
+  fiche discernement H3) — arbitrage Sidy requis, non tranchés dans cette
+  passe (Cmd 12/13).
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` à
+  exécuter avant commit.
+
 ## [2026-08-25] rd/bibliotheque | Intégration index alphabétique Tilak (Hermes rôle 08 dépôt complet)
 
 - **Contexte** : Hermes (rôle 08, mandat 2 Librarian-Archivist) a transcrits

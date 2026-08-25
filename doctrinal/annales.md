@@ -9,6 +9,33 @@ updated: 2026-08-25
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] discernement | Ouverture — Gizeh au degré 24 (Ciel du Soleil), convergence Hermès/Idrīs
+
+- **Contexte** : reprise de la Phase 5 (couche astrologique) de l'Instrument
+  (`atelier/rd/instrument/`), pistes P4.8-P4.10 de
+  `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md`.
+  Piste P4.9 posait la question (héritée de l'investigation R&D
+  `2026-07-26_investigation-referentiels-stellaires-cycles.md`, §8 question 2) :
+  l'hypothèse H3 (Gizeh/Idrīs/Hermès au degré 24) mérite-t-elle une fiche
+  `discernement` dédiée ? Autorisation de Sidy (2026-08-25) : « Tu peux, oui et
+  à mon sens l'hypothèse est très plausible. »
+- **Créé** : `doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris.md`
+  — `status: speculatif`, `Statut : en cours` (non close). Trois maillons
+  assemblés, chacun déjà sourcé séparément dans le dépôt (deux dans des fiches
+  closes : `2026-07-02_gizeh-pole-scientifique-antediluvien` et
+  `2026-07-16_sept-poles-aqtab-malakut-planetaire`) ; la synthèse propre
+  (ancrer le site de Gizeh lui-même au degré 24) reste, elle, non attestée par
+  aucun texte cité et donc non close (Cmd 12).
+- **Double contrôle effectué** : confrontation à la vigilance polaire/solaire
+  de Gizeh — aucune tension, l'ancrage solaire proposé va dans le sens de
+  cette vigilance plutôt que contre elle. Qualification sashimono : *kari-kumi*
+  (montage à blanc) sur le joint de synthèse, malgré deux hozo déjà établis en
+  amont sur les maillons individuels.
+- **Lié** : `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md`
+  (piste P4.9 mise à jour, lien ajouté en sens unique atelier→doctrinal).
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` à
+  exécuter avant commit.
+
 ## [2026-08-25] archivage | Enrichissement Jurjānī — 26 définitions du *Taʿrīfāt* vérifiées sur l'édition physique (lots barzakh, walāya, insān kāmil, waḥdat al-wujūd)
 
 - **Contexte** : Sidy a l'édition physique du *Kitāb al-Taʿrīfāt* (trad. Maurice
