@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2.4",
-  "generated_at": "2026-08-21T13:51:53+00:00",
-  "source_commit": "5a01d0096394795fcdc9175aec13dce32de70bde",
+  "schema_version": "0.2.5",
+  "generated_at": "2026-08-25T16:13:07+00:00",
+  "source_commit": "c20ca82efc3d9fbdb32c3e2c8b5b0ab2ab1a9fc6",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -553,6 +553,80 @@
       }
     ]
   },
+  "maisons": [
+    {
+      "numero": "I",
+      "theme": "Identité, vie, comportement",
+      "terme_arabe": "حيات",
+      "type": "cardinale"
+    },
+    {
+      "numero": "II",
+      "theme": "Biens, gain",
+      "terme_arabe": "مال",
+      "type": "succedante"
+    },
+    {
+      "numero": "III",
+      "theme": "Relations, frères, études",
+      "terme_arabe": "اِخوة",
+      "type": "mutable"
+    },
+    {
+      "numero": "IV",
+      "theme": "Origine, parents, foyer",
+      "terme_arabe": "اَباءٌ",
+      "type": "cardinale"
+    },
+    {
+      "numero": "V",
+      "theme": "Création, enfants, plaisirs",
+      "terme_arabe": "اَولاد",
+      "type": "succedante"
+    },
+    {
+      "numero": "VI",
+      "theme": "Servitudes, santé, travail",
+      "terme_arabe": "اَمراضٌ",
+      "type": "mutable"
+    },
+    {
+      "numero": "VII",
+      "theme": "Association, mariage, conflit",
+      "terme_arabe": "ازواج",
+      "type": "cardinale"
+    },
+    {
+      "numero": "VIII",
+      "theme": "Transformations, mort, héritage",
+      "terme_arabe": "موت",
+      "type": "succedante"
+    },
+    {
+      "numero": "IX",
+      "theme": "Exploration, voyage, foi",
+      "terme_arabe": "اَسفار",
+      "type": "mutable"
+    },
+    {
+      "numero": "X",
+      "theme": "Destinée, règne, pouvoir",
+      "terme_arabe": "سلطان",
+      "type": "cardinale"
+    },
+    {
+      "numero": "XI",
+      "theme": "Appuis, amis, projets",
+      "terme_arabe": "رجاع",
+      "type": "succedante"
+    },
+    {
+      "numero": "XII",
+      "theme": "Épreuves, exil, secrets",
+      "terme_arabe": "غيب / اَغداءٌ",
+      "type": "mutable"
+    }
+  ],
   "registres": [
     {
       "id": "tasawwuf",
