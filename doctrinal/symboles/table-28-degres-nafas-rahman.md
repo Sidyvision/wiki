@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [nafas-rahmani, hadarat-khams, maratib-al-wujud, fusus-al-hikam, manazil-al-qamar, ilm-al-huruf, ibn-arabi, futuhât, gloton, wiki-manifest]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-08-25
 sources: ["[[meftah-symbolisme-universel-chatons-albouraq]]", "[[ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"]
 sources_count: 2
 cross_links: ["[[nafas-rahmani]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]", "[[ilm-al-huruf]]", "[[al-insan-al-kamil]]", "[[barzakh]]"]
@@ -22,9 +22,15 @@ cross_links: ["[[nafas-rahmani]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]", 
 > et annotation Maurice Gloton, Albouraq, coll. Héritage Spirituel) — texte primaire
 > d'Ibn ʿArabī, confirmé en bibliothèque physique (2026-07-01). Le diagramme de
 > couverture est déjà lisible : 28 lettres en anneau externe × couches concentriques
-> (Saturne → Lune → 4 éléments → règnes → Sept terres). Colonnes Lettre / Nom Divin /
-> Façç / Manzil à compléter depuis les diagrammes intérieurs. `to-source` partiel
-> sur ces colonnes jusqu'à transcription directe.
+> (Saturne → Lune → 4 éléments → règnes → Sept terres).
+>
+> **Mise à jour (2026-08-25)** : les colonnes Lettre / Nom Divin / Manzil des degrés
+> planétaires (21-27) sont **complètes** depuis la transcription des pp. 46-47 de
+> Gloton (photographie fournie par Sidy). Seule la colonne **« Prophète façç
+> (Fuṣūṣ) »** — distincte du prophète-siège du Miʿrāj déjà établi — reste `to-source`
+> pour les degrés 21-23 et 25-27 (voir §« Complet en attente » ci-dessous). Ce champ
+> n'est pas requis par `instrument-donnees.yaml` (l'Instrument n'utilise que le
+> prophète-siège) : son absence ne bloque pas la Phase 2 du chantier.
 
 ---
 
@@ -184,7 +190,7 @@ Les sept cieux planétaires — séjours des fonctions spirituelles et des types
 | 26 | 2ème ciel | Mercure (*ʿutârid*) | Tāʾ (ط) | Jésus | Mercredi | p. 39 ✓ |
 | 27 | 1er ciel | Lune (*qamar*) | Dāl (د) | Adam | Lundi | p. 39 ✓ |
 
-> **Sourçage degrés 21-27** — Source : [[ibn-arabi-de-la-mort-a-la-resurrection-gloton]], pp. 39-40 (transcription du 2026-07-01). Les colonnes Nom Divin, Façç, Manzil pour ces degrés restent `to-source` (non couvertes par ces pages).
+> **Sourçage degrés 21-27** — Source : [[ibn-arabi-de-la-mort-a-la-resurrection-gloton]], pp. 39-40 (prophètes-siège, transcription du 2026-07-01) et pp. 46-47 (Lettre/Nom Divin/Manzil, transcription du 2026-08-25). Seule la colonne Façç (Fuṣūṣ) reste `to-source` pour ces degrés.
 
 ### Nāsūt / Mulk — degrés 20–28 (Figure 4, p. 94)
 
@@ -390,16 +396,17 @@ pas de prophète siégeant au sens du Miʿrāj).
 
 | Degré | Lettre | Planète | Prophète siège (Miʿrāj) | Prophète façç (Fuṣūṣ) | Jour | Manzil |
 |---|---|---|---|---|---|---|
-| 21 | ي | Saturne | Abraham | ? | Samedi | ? |
-| 22 | ض | Jupiter | Moïse | ? | Jeudi | ? |
-| 23 | ل | Mars | Aaron | ? | Mardi | ? |
+| 21 | ي | Saturne | Abraham | ? | Samedi | Khurthân ✓ |
+| 22 | ض | Jupiter | Moïse | ? | Jeudi | Sarfa ✓ |
+| 23 | ل | Mars | Aaron | ? | Mardi | ʿAwwâ ✓ |
 | 24 | ن | Soleil | Idrīs | ʿUzayr ✓ | Dimanche | 14ème (al-Simāk) ✓ |
-| 25 | ر | Vénus | Joseph | ? | Vendredi | ? |
-| 26 | ط | Mercure | Jésus | ? | Mercredi | ? |
-| 27 | د | Lune | Adam | ? | Lundi | ? |
+| 25 | ر | Vénus | Joseph | ? | Vendredi | Ghafr ✓ |
+| 26 | ط | Mercure | Jésus | ? | Mercredi | Zubbân ✓ |
+| 27 | د | Lune | Adam | ? | Lundi | ʿIklīl ✓ |
 
-Les colonnes "Prophète façç" et "Manzil" pour les degrés non-solaires restent
-à sourcer depuis les *Fuṣūṣ al-Ḥikam* et les *Manāzil al-Qamar*.
+Manzil complétés (2026-08-25, transcription pp. 46-47 de Gloton, cf. banner en tête
+de fiche). Seule la colonne "Prophète façç" reste à sourcer depuis les
+*Fuṣūṣ al-Ḥikam*, pour les degrés non-solaires (21-23, 25-27).
 
 
 ---
@@ -437,16 +444,16 @@ Exemple degre 24 :
 
 | Degre | Lettre | Planete | Prophete siege (Miraj) | Prophete facs (Fusus) | Jour | Manzil |
 |---|---|---|---|---|---|---|
-| 21 | ya | Saturne | Abraham | ? | Samedi | ? |
-| 22 | dad | Jupiter | Moise | ? | Jeudi | ? |
-| 23 | lam | Mars | Aaron | ? | Mardi | ? |
+| 21 | ya | Saturne | Abraham | ? | Samedi | Khurthan |
+| 22 | dad | Jupiter | Moise | ? | Jeudi | Sarfa |
+| 23 | lam | Mars | Aaron | ? | Mardi | Awwa |
 | 24 | nun | Soleil | Idris | Uzayr (confirme) | Dimanche | 14eme (al-Simak) |
-| 25 | ra | Venus | Joseph | ? | Vendredi | ? |
-| 26 | ta | Mercure | Jesus | ? | Mercredi | ? |
-| 27 | dal | Lune | Adam | ? | Lundi | ? |
+| 25 | ra | Venus | Joseph | ? | Vendredi | Ghafr |
+| 26 | ta | Mercure | Jesus | ? | Mercredi | Zubban |
+| 27 | dal | Lune | Adam | ? | Lundi | Iklil |
 
-Les colonnes Prophete facs et Manzil pour les degres non-solaires restent
-a sourcer depuis les Fusus al-Hikam et les Manazil al-Qamar.
+Manzil completes (2026-08-25, pp. 46-47 Gloton). Seule la colonne Prophete facs
+reste a sourcer depuis les Fusus al-Hikam, pour les degres non-solaires.
 
 
 ---
