@@ -347,6 +347,17 @@ corruption sans le filet de sécurité `git diff`/`git checkout` qui a permis le
 rattrapage cette fois-ci.
 
 **Fichiers concernés par ce post-scriptum** : aucune trace de corruption dans
-le dépôt (annulée avant commit) ; localisation exacte du hook pre-commit non
-identifiée dans cette passe (probablement un hook git local, hors dépôt
-versionné — à vérifier si une correction du texte affiché est engagée).
+le dépôt (annulée avant commit).
+
+**Correction appliquée (2026-08-25, sur instruction de Sidy)** : `.git/hooks/
+pre-commit` corrigé — les deux commandes suggérées (nettoyage individuel et
+nettoyage complet du dépôt) remplacent désormais `sed -i` par
+`perl -CSD -i -pe`, seule syntaxe qui interprète correctement `\x{...}`. Testé
+sur un fichier de contrôle contenant les six points de code visés entourés de
+caractères ASCII appartenant à la classe fautive (`C`, `D`, `F`, `B`, `E`,
+`x`, `0`, `2`) : les points de code invisibles sont retirés, le texte visible
+reste intact. Le hook de *détection* lui-même (`grep -P`) n'était pas en
+cause — il a correctement bloqué le commit dans les deux récidives ; seule la
+commande de *remédiation* suggérée était défaillante. Rappel : `.git/hooks/`
+n'est pas versionné (hors du dépôt git lui-même) — cette correction ne
+produit donc aucun commit ; elle est documentée ici comme trace unique.
