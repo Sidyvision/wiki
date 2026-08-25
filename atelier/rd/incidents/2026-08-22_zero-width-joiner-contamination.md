@@ -3,7 +3,7 @@ title: "Incident de contamination par caractères Unicode invisibles (U+200D)"
 type: outillage
 statut_experience: reproduit
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-25
 status: resolu
 severity: moyen
 affected_systems: [wiki, documentation]
@@ -300,3 +300,53 @@ recopiée doit être vérifiée, pas seulement toute graphie saisie.
 
 **Contrôle mécanique de clôture** : recontrôle des douze fichiers écrits ou
 modifiés dans la passe — 0 point de code interdit.
+
+## Post-scriptum 2 — défaillance de la commande de nettoyage suggérée par le hook (2026-08-25)
+
+**Contexte** : nouvelle récidive de contamination ZWJ, même cause que le
+post-scriptum précédent — trois fiches sources nouvelles
+(`doctrinal/sources/guenon-*`) recopiant la graphie « Hermes » depuis un rendu
+d'interface pollué du nom de la fiche
+`doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris.md`.
+Bloqué par le hook pre-commit (Cmd 15), comme prévu.
+
+**Fait nouveau, distinct de la contamination elle-même** : la commande de
+nettoyage que le hook affiche pour y remédier —
+`sed -i 's/[\x{200B}\x{200C}\x{200D}\x{FEFF}\x{200E}\x{200F}]//g' <fichier>` —
+suppose une syntaxe d'échappement `\x{...}` que **GNU sed ne supporte pas**.
+Exécutée telle quelle, elle n'échoue pas silencieusement : `sed` interprète la
+chaîne comme une **classe de caractères littéraux** — `\`, `x`, `{`, `2`, `0`,
+`B`, `}`, `C`, `D`, `F`, `E` — et supprime **toute occurrence de ces caractères
+ASCII dans l'intégralité du fichier**. Effet observé sur les trois fiches :
+`2026-08-25` → `6-8-5`, `degre-24` → `degre-4`, `Chapitre` → `hapitre`,
+`Fiabilité` → `iabilité`, `exemplaire` → `eemplaire`, `Deux` → `eu`, etc. —
+corruption massive et silencieuse (aucun message d'erreur), touchant dates,
+slugs de wikilinks et prose.
+
+**Détection et rattrapage** : la corruption a été repérée avant tout commit en
+comparant l'état du fichier après `sed` à l'état déjà indexé par
+`git add` (`git diff` entre index et working tree), puis annulée par
+`git checkout -- <fichier>` (retour à l'état pré-corruption, encore propre de
+ZWJ car issu de l'écriture originale). Le nettoyage effectif du seul caractère
+visé a ensuite été fait avec
+`perl -CSD -i -pe 's/\x{200D}//g' <fichier>` (échappement Perl valide,
+correspond au comportement réellement voulu). Aucune corruption n'a atteint un
+commit ni le dépôt distant.
+
+**Enseignement** : un outil de remédiation (ici, le texte affiché par un hook
+de sécurité) est lui-même une surface de risque et doit être vérifié avant
+exécution, pas seulement le contenu qu'il corrige — la défaillance était dans
+la commande *suggérée*, pas dans le hook de détection lui-même (qui a
+correctement bloqué le commit). Recommandation : corriger le texte affiché par
+le hook pre-commit pour proposer une commande fonctionnelle sur GNU sed —
+`perl -CSD -i -pe 's/[\x{200B}\x{200C}\x{200D}\x{FEFF}\x{200E}\x{200F}]//g'`
+(remplace uniquement `sed` par `perl` dans la commande individuelle et dans la
+commande de nettoyage complet du dépôt) — pour éviter qu'un futur agent ou
+Sidy ne l'exécute telle quelle sans vérification et ne reproduise la
+corruption sans le filet de sécurité `git diff`/`git checkout` qui a permis le
+rattrapage cette fois-ci.
+
+**Fichiers concernés par ce post-scriptum** : aucune trace de corruption dans
+le dépôt (annulée avant commit) ; localisation exacte du hook pre-commit non
+identifiée dans cette passe (probablement un hook git local, hors dépôt
+versionné — à vérifier si une correction du texte affiché est engagée).
