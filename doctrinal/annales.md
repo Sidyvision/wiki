@@ -1,13 +1,39 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-23
+updated: 2026-08-25
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-25] restauration | Table des 28 degrés — Lettre/Nom Divin/Manzil complétés (degrés 21-27)
+
+- **Contexte** : reprise du chantier Instrument. Diagnostic initial (repris de
+  documents de statut dérivés) affirmait un blocage sur les colonnes Lettre/Nom
+  Divin/Façç/Manzil des degrés 21-23 et 25-27 — signalé par Sidy comme une
+  récurrence frustrante, déjà rappelée par le passé. Vérification directe sur
+  [[doctrinal/symboles/table-28-degres-nafas-rahman]] : Lettre et Prophète-siège
+  (Miʿrāj) étaient déjà établis (pp. 39-40) ; seuls Nom Divin et Manzil
+  manquaient réellement, avec la colonne Façç (Fuṣūṣ al-Ḥikam) toujours ouverte.
+  Sidy a fourni en session une photographie des pp. 46-47 (Gloton, *De la mort à
+  la résurrection*) portant les Noms Divins et Manāzil des sept degrés
+  planétaires.
+- **Opération** : transcription des sept correspondances (ar-Rabb/Khurthân,
+  al-ʿAlīm/Sarfa, al-Qāhir/ʿAwwâ, al-Musawwir/Ghafr, al-Muḥsī/Zubbân,
+  al-Mubīn/ʿIklīl — degré 24 déjà établi) dans les trois tables de la fiche ;
+  banner d'autorité et note de sourçage mis à jour pour distinguer ce qui est
+  désormais établi de ce qui reste `to-source` (colonne Façç uniquement).
+- **Compréhension tirée** : la formulation "Lettre/Nom Divin/Façç/Manzil
+  manquants" en bloc masquait qu'une partie de ces colonnes était déjà
+  résolue — la généralisation, recopiée sans revérification d'un document de
+  statut à l'autre, est ce qui a produit la récurrence. Cf. entrée détaillée
+  dans [[atelier/rd/cahiers/registre-problemes]] (2026-08-25).
+- **Liens** : [[doctrinal/symboles/table-28-degres-nafas-rahman]] ;
+  [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]].
+- **Commit** : 80bacd9
 
 ## [2026-08-25] archivage | Intégration de 14 définitions du *Kitāb al-Taʿrīfāt* (al-Jurjānī) — lots p. 134, 280-281
 
