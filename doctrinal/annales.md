@@ -9,6 +9,50 @@ updated: 2026-08-25
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] source + discernement | Fondement méthodologique symbole/archétype pour Gizeh/degré 24
+
+- **Contexte** : suite immédiate de l'entrée précédente. Instruction de Sidy en deux
+  temps : (1) « La correspondance du site de Gizeh avec un degré cosmologique
+  s'explique dans l'exposé doctrinal de la correspondance du microcosme et du
+  macrocosme... voir raw/ » ; (2) « Avant d'écrire, vois ce que dit Guénon encore au
+  sujet du Symbole et de l'archétype. Il ne faut pas toujours s'attendre à trouver
+  des citations explicites... c'est d'ailleurs tout l'objet de la science
+  herméneutique. »
+- **Recherche** : dépouillement de `raw/` (recherche par `grep -rl`/`find -iname`,
+  contourne un problème d'encodage d'apostrophes entre noms de dossier et de fichier
+  déjà rencontré) sur « archétype » et « analogie constitutive » ; environ 20
+  fichiers candidats identifiés, 3 retenus après lecture comme portant un principe
+  général (non une simple occurrence lexicale) : angélologie de l'alphabet arabe
+  (*Aperçus sur l'Ésotérisme islamique et le Taoïsme*, ch. VI), Nâma-Rûpa (*Études
+  sur l'Hindouisme*), *La Grande Triade* ch. X et ch. XVI (macrocosme/microcosme +
+  Ming-t'ang comme centre-archétype).
+- **Fiches créées** (`doctrinal/sources/`) :
+  `guenon-angelologie-alphabet-arabe-archetypes-celestes.md`,
+  `guenon-grande-triade-ch10-homme-trois-mondes.md`,
+  `guenon-hindouisme-nama-rupa-archetype-individu.md`. Chacune distingue
+  explicitement le **principe général sourcé** (une forme traditionnelle a un
+  archétype céleste ; le rapport archétype/individu est un rapport de reflet et de
+  participation, non de signe arbitraire) de **l'absence d'application nommée à
+  Gizeh** dans le texte primaire — aucune des trois ne cite Gizeh.
+- **Fiche enrichie** :
+  `doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris.md` — ajout
+  d'un quatrième maillon (« fondement méthodologique ») à la Généalogie des idées,
+  aux sept sources désormais listées en frontmatter (`sources_count: 4 → 7`),
+  requalification sashimono du quatrième maillon lui-même en **hozo** (principe
+  établi sur texte primaire) tout en maintenant la synthèse Gizeh/degré 24 en
+  **kari-kumi** (application non attestée) — distinction explicite entre principe
+  légitimé et application établie (Cmd 12). `Statut` maintenu `en cours`, aucune
+  clôture. Deuxième Lecture consignée dans la fiche elle-même.
+- **Double contrôle** : sashimono qualifié par pièce (voir ci-dessus) ; confrontation
+  Gizeh déjà consignée dans l'entrée précédente et non rouverte, aucune tension
+  nouvelle introduite par ce quatrième maillon (il renforce la vigilance déjà
+  observée, ne la contredit pas).
+- **Vérification structurelle** : à exécuter avant commit
+  (`python3 verifier-invariants.py --racine /root/wiki`), résultat à consigner.
+- **Fichiers modifiés/créés** : 3 fiches `doctrinal/sources/` créées, 1 fiche
+  `doctrinal/discernement/` enrichie, `doctrinal/annales.md` (présente entrée).
+- **Commit** : en attente.
+
 ## [2026-08-25] discernement | Ouverture — Gizeh au degré 24 (Ciel du Soleil), convergence Hermès/Idrīs
 
 - **Contexte** : reprise de la Phase 5 (couche astrologique) de l'Instrument

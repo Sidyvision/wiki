@@ -3,11 +3,11 @@ title: "Gizeh au degré 24 (Ciel du Soleil) : la convergence Idrīs/Hermès"
 type: discernement
 status: speculatif
 tradition_cadre: "universel"
-tags: [guenon, gizeh, hermes, idris, degre-24, malakut-planetaire, soleil, table-38-degres]
+tags: [guenon, gizeh, hermes, idris, degre-24, malakut-planetaire, soleil, table-38-degres, symbole, archetype, macrocosme-microcosme]
 created: 2026-08-25
 updated: 2026-08-25
-sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/autorites/idris]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"]
-sources_count: 4
+sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/autorites/idris]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes]]", "[[doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes]]", "[[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]]"]
+sources_count: 7
 cross_links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]"]
 ---
 
@@ -86,15 +86,49 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 >   plausibilité ; elle est consignée ici **distinctement** d'un verdict de clôture sur
 >   texte primaire (Cmd 12) — aucun texte cité ci-dessus n'énonce explicitement un
 >   degré cosmologique pour le site de Gizeh en tant que tel.
+> - *Quatrième maillon (ajouté 2026-08-25, sur instruction de Sidy) — fondement
+>   méthodologique du pas site→degré lui-même*, non plus par un texte nommant Gizeh,
+>   mais par la doctrine générale de Guénon sur le rapport symbole/archétype, en deux
+>   pièces distinctes de la seule macrocosme/microcosme :
+>   - [[doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes]]
+>     (*Aperçus sur l'Ésotérisme islamique et le Taoïsme*, ch. VI) : « toutes les
+>     modifications des formes traditionnelles […] doivent avoir effectivement leurs
+>     "archétypes" dans le monde céleste » — énoncé comme principe général (la langue
+>     sacrée y est donnée comme cas particulier illustratif, non comme limite), non
+>     restreint aux figures prophétiques.
+>   - [[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]] (« Nâma-Rûpa »,
+>     *Études sur l'Hindouisme*) : la nature même du rapport archétype/individu est un
+>     rapport de **reflet et de participation** (le sensible « procède » de l'idée),
+>     non de signe conventionnel arbitraire — ce qui fonde qu'une correspondance
+>     symbole/archétype puisse être **reconnue** sans être d'abord **nommée** par un
+>     texte primaire, point que Sidy relie explicitement à l'objet propre de la
+>     science herméneutique.
+>   - [[doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes]] (*La Grande
+>     Triade*, ch. X et ch. XVI) : l'analogie macrocosme/microcosme comme « vérité
+>     rigoureuse », et, pièce plus proche d'une application architecturale, le
+>     Ming-t'ang comme centre contenant « en archétype » l'ensemble du monde dont il
+>     est le centre — avec la réserve, consignée dans la fiche source elle-même, que
+>     Guénon y parle d'un édifice conçu et occupé *comme* centre du monde, non de tout
+>     site traditionnel indistinctement ; appliquer ceci à Gizeh suppose donc, en
+>     plus, d'établir que Gizeh est qualifiable de « centre » en ce sens précis — pas
+>     fait ici.
+>   Ces trois pièces ne nomment à aucun moment Gizeh ni le degré 24 : elles ne
+>   suppléent donc pas au texte primaire manquant (Cmd 5, Cmd 12), mais légitiment,
+>   en tant que **principe doctrinal général**, le type de geste herméneutique que la
+>   présente hypothèse tente d'appliquer à un cas particulier — la distinction entre
+>   « principe légitimé » et « application établie » reste posée explicitement.
 > - Aucune parenté hétérodoxe identifiée.
 >
 > **Examen formel** (cohérence logique/terminologique — jamais le principe) : la chaîne
 > est formellement valide comme syllogisme (Gizeh = tombeau d'Hermès/Idrīs ; Hermès =
-> Idrīs ; Idrīs = degré 24) mais le pas de la figure prophétique (Idrīs) au site
-> terrestre (Gizeh) au sein d'une même table cosmologique n'est attesté par aucune des
-> sources citées — c'est un geste d'anchrage géographique-vers-cosmologique distinct de
-> ce que chaque maillon affirme isolément, et c'est précisément ce pas qui reste
-> `en cours` plutôt que `validée`.
+> Idrīs ; Idrīs = degré 24) ; le pas de la figure prophétique (Idrīs) au site
+> terrestre (Gizeh) au sein d'une même table cosmologique n'est toujours attesté par
+> aucune des sources citées pour ce cas précis, mais il est désormais **légitimé en
+> principe** par le quatrième maillon (symbole/archétype, macrocosme/microcosme) — un
+> geste d'ancrage géographique-vers-cosmologique reste néanmoins distinct de ce que
+> chaque maillon affirme isolément, et c'est précisément ce pas d'application qui
+> reste `en cours` plutôt que `validée` : un principe légitimé n'est pas une
+> application établie (Cmd 12).
 >
 > **Confrontation Gizeh — vigilance polaire/solaire** (double contrôle transversal,
 > CLAUDE.md racine §VII, obligatoire pour toute matière nouvelle touchant Gizeh) :
@@ -109,36 +143,54 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 > tension à documenter au-delà de ce constat.
 >
 > **Qualification sashimono du joint** (convention, `meta/philosophie-sashimono.md`
-> §6-7) : **kari-kumi** — montage à blanc. Chacun des trois maillons pris isolément est
-> un hozo déjà établi (deux d'entre eux dans des fiches closes), mais la synthèse
-> propre à la présente fiche (Gizeh-site ↔ degré 24) n'a reçu aucune clôture sur texte
-> primaire l'énonçant en ces termes ; elle reste donc suggérée, marquage 🔍 dans
+> §6-7) : **kari-kumi** — montage à blanc. Les trois premiers maillons pris isolément
+> sont des hozo déjà établis (deux d'entre eux dans des fiches closes) ; le quatrième
+> maillon (symbole/archétype) est lui aussi un hozo — Guénon y énonce un principe
+> général, sourcé, sans réserve d'application. Mais la synthèse propre à la présente
+> fiche (Gizeh-site ↔ degré 24 précisément) reste, elle, **kari-kumi** : le principe
+> général est établi, son application à ce cas particulier ne l'est pas — aucune des
+> sept sources ne nomme conjointement Gizeh et le degré 24. Marquage 🔍 dans
 > l'Instrument, jamais fondue avec les ancrages établis tant qu'elle n'est pas close.
 >
 > **Conclusion** : non close. La chaîne documentaire est réunie et sourcée en
-> doctrinal/ ; l'appréciation de plausibilité de Sidy est consignée ; la synthèse
-> elle-même (ancrage du site de Gizeh au degré 24) reste à instruire sur texte primaire
-> avant toute clôture, conformément au Cmd 12 (le modèle ne tranche jamais le principe).
-> Aucune intégration dans l'Instrument tant que le statut reste `en cours`.
+> doctrinal/, désormais sur sept pièces (trois maillons factuels + un maillon
+> méthodologique en trois textes) ; l'appréciation de plausibilité de Sidy est
+> consignée ; le principe herméneutique invoqué (reconnaissance d'un archétype sans
+> citation nommée) est lui-même sourcé sur texte primaire de Guénon. Ce qui reste à
+> instruire n'est donc plus « la légitimité du geste » en général, mais
+> **l'application précise à Gizeh** : aucun texte cité, y compris les trois nouveaux,
+> ne nomme Gizeh en relation avec un degré cosmologique. Statut maintenu `en cours`,
+> conformément au Cmd 12 (le modèle légitime le principe sur texte primaire, il ne
+> tranche jamais l'application au cas particulier). Aucune intégration dans
+> l'Instrument tant que le statut reste `en cours`.
 >
-> **Lectures suggérées** :
+> **Lectures suggérées** (mise à jour 2026-08-25) :
 > 1. René Guénon, « Le Tombeau d'Hermès » (*Formes traditionnelles et Cycles
 >    cosmiques*) — déjà source du premier maillon ; à relire en cherchant un éventuel
 >    passage rapportant explicitement Gizeh à un degré ou à une position cosmologique
->    précise plutôt qu'au seul symbolisme du tombeau/de la science.
+>    précise plutôt qu'au seul symbolisme du tombeau/de la science. **Non encore
+>    relu** en ce sens précis.
 > 2. Ibn ʿArabī, *Futūḥāt*, ch. 198 (trad. Gloton) — table des 28 degrés, pour vérifier
 >    si un site terrestre (par opposition à une figure prophétique siégeante) y reçoit
->    jamais un ancrage nommé, précédent méthodologique utile au pas restant à franchir.
+>    jamais un ancrage nommé. **Non encore consulté** (absent de `raw/` à ce jour).
+> 3. *Ajouté 2026-08-25* : le quatrième maillon ci-dessus (angélologie de l'alphabet
+>    arabe, Nâma-Rûpa, Grande Triade ch. X/XVI) a été instruit et intégré comme
+>    fondement méthodologique — ne reste donc plus une « lecture suggérée » mais une
+>    pièce acquise de la présente fiche.
 >    Le déficit d'un tel précédent y renforcerait la prudence, sa présence
 >    faciliterait la clôture.
 >
-> Aucune Deuxième Lecture au-delà de ces deux titres : la fiche s'appuie
-> essentiellement sur des pièces déjà instruites ailleurs dans le dépôt plutôt que sur
-> une matière nouvelle à dépouiller.
+> Deuxième Lecture effectuée le 2026-08-25 (sur instruction de Sidy) pour le quatrième
+> maillon : trois nouvelles pièces primaires de Guénon dépouillées (angélologie de
+> l'alphabet arabe, Nâma-Rûpa, Grande Triade ch. X/XVI), fichées en
+> `doctrinal/sources/`. Les deux lectures suggérées ci-dessus (Tombeau d'Hermès relu
+> sous cet angle précis ; Futūḥāt ch. 198) restent, elles, non effectuées.
 
 ---
 
 *Fiche ouverte le 2026-08-25 sur autorisation de Sidy (« Tu peux, oui et à mon sens
 l'hypothèse est très plausible »), synthèse de trois maillons doctrinaux déjà sourcés
-séparément dans le dépôt. Non close : la synthèse propre au site de Gizeh reste à
-instruire sur texte primaire.*
+séparément dans le dépôt, enrichie le même jour d'un quatrième maillon méthodologique
+(symbole/archétype, macrocosme/microcosme) sur instruction de Sidy. Non close :
+l'application précise à Gizeh (site ↔ degré 24) reste à instruire sur texte primaire
+qui la nommerait comme telle.*
