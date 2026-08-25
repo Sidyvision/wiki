@@ -454,6 +454,26 @@ function marqueurGlyphe(taille, couleur, glyphe){
   s.scale.set(taille, taille, 1);
   return s;
 }
+// -- Glyphe EN PLAN (Mesh, pas Sprite) : pour un symbole censé être « gravé »
+//    sur une surface inclinable (le bandeau zodiacal) — un Sprite reste
+//    toujours face caméra, donc se découple visuellement du plan de
+//    l'anneau dès que la caméra orbite (verdict Sidy 2026-08-25 : les
+//    signes « se fondent dans le bandeau »). Pastille de fond opaque
+//    ajoutée pour garantir le contraste quel que soit ce qui est visible
+//    en transparence derrière l'anneau. --
+function glypheEnPlan(taille, couleur, glyphe){
+  var pr = 3, d = 64 * pr, c = document.createElement('canvas'), g = c.getContext('2d');
+  c.width = c.height = d;
+  g.fillStyle = 'rgba(0,0,0,.65)';
+  g.beginPath(); g.arc(d / 2, d / 2, d * .46, 0, Math.PI * 2); g.fill();
+  g.font = (d * .58) + 'px ' + POLICE;
+  g.fillStyle = couleur; g.textAlign = 'center'; g.textBaseline = 'middle';
+  g.fillText(glyphe, d / 2, d / 2 + d * .03);
+  var tex = new THREE.CanvasTexture(c); tex.minFilter = THREE.LinearFilter;
+  var mat = new THREE.MeshBasicMaterial({map:tex, transparent:true, depthWrite:false, side:THREE.DoubleSide});
+  var mesh = new THREE.Mesh(new THREE.PlaneGeometry(taille, taille), mat);
+  return mesh;
+}
 // Glyphes astrologiques standard, appariés par nom (insensible à l'ordre
 // exact du manifeste — robuste à un futur réagencement des données).
 // U+FE0E (variation selector « présentation texte ») après chaque glyphe :
@@ -580,18 +600,29 @@ var disques = [];
   var R_INT = 5.6, R_EXT = 6.0, R_GRAD = 5.8, R_MAISON_INT = 5.22, R_MAISON_EXT = 5.5;
   var oblique = -Math.PI / 2 + ZODIAQUE.obliquite_deg * Math.PI / 180;
 
-  function segmentRadial(angle, r1, r2, couleur, opacite){
-    return ligne([
-      new THREE.Vector3(Math.cos(angle) * r1, Math.sin(angle) * r1, 0),
-      new THREE.Vector3(Math.cos(angle) * r2, Math.sin(angle) * r2, 0)
-    ], couleur, opacite, false);
+  // -- Graduation : trait radial en PLAN PLEIN (Mesh), pas une THREE.Line —
+  //    une ligne WebGL est bridée à ~1px sur la plupart des GPU quelle que
+  //    soit l'opacité demandée (limite documentée de LineBasicMaterial),
+  //    ce qui rendait les crans quasi invisibles (constat Sidy 2026-08-25).
+  //    Un mesh plein donne une épaisseur réellement contrôlable, à la
+  //    manière des crans gravés d'un bezel de montre chronomètre.
+  function graduation(angle, r1, r2, largeur, couleur, opacite){
+    var geo = new THREE.PlaneGeometry(largeur, r2 - r1);
+    var mat = new THREE.MeshBasicMaterial({color:couleur, transparent:true, opacity:opacite, side:THREE.DoubleSide});
+    var m = new THREE.Mesh(geo, mat);
+    var rMil = (r1 + r2) / 2;
+    m.position.set(Math.cos(angle) * rMil, Math.sin(angle) * rMil, 0);
+    m.rotation.z = angle - Math.PI / 2;
+    return m;
   }
 
-  // -- Degré 19 (Falak al-Burūj) : 12 signes, séparateurs pleine largeur +
-  //    repère tactile par cran, glyphe astrologique standard au lieu du
-  //    cercle générique (verdict Sidy 2026-08-25). Étiquette textuelle
-  //    permanente retirée à la même occasion — le glyphe suffit à la
-  //    lecture continue, le nom complet reste au panneau d'info --
+  // -- Degré 19 (Falak al-Burūj) : 12 signes. Glyphe INSCRIT SUR LE PLAN du
+  //    bandeau (Mesh solidaire de la rotation du groupe, pas un billboard
+  //    toujours face caméra) avec pastille de fond opaque pour le contraste
+  //    — corrige le glyphe qui « se fondait dans le bandeau » (constat Sidy
+  //    2026-08-25 : le sprite, toujours face caméra, se découplait
+  //    visuellement du plan inclinable de l'anneau, et sa couleur pâle sans
+  //    fond se noyait dans les éléments derrière lui) --
   var gSignes = new THREE.Group();
   gSignes.position.y = yDeg[ZODIAQUE.degre_falak_al_buruj];
   gSignes.rotation.x = oblique;
@@ -599,30 +630,32 @@ var disques = [];
     new THREE.MeshBasicMaterial({color:0xd7dbe6, transparent:true, opacity:.16, side:THREE.DoubleSide})));
   ZODIAQUE.signes.forEach(function(s, i){
     var a = (i / 12) * Math.PI * 2;
-    gSignes.add(segmentRadial(a, R_INT, R_EXT, 0xd7dbe6, .6));
+    gSignes.add(graduation(a, R_INT, R_EXT, .03, 0xd7dbe6, .5));
     var aMil = ((i + .5) / 12) * Math.PI * 2;
-    var cran = marqueurGlyphe(.42, "#d7dbe6", glypheDe(SIGNE_GLYPHES, s.label));
-    cran.position.set(Math.cos(aMil) * R_GRAD, Math.sin(aMil) * R_GRAD, 0);
+    var cran = glypheEnPlan(.5, "#f5f5f5", glypheDe(SIGNE_GLYPHES, s.label));
+    cran.position.set(Math.cos(aMil) * R_GRAD, Math.sin(aMil) * R_GRAD, .002);
     cran.userData = {label: s.label, deg: "Falak al-Burūj — secteur zodiacal " + (i + 1) + "/12", src: SOURCE_TABLE};
     gSignes.add(cran); interactifs.push(cran);
   });
 
   // -- Domification (12 maisons) : anneau générique nettement plus étroit,
-  //    en retrait du bord intérieur des signes — pas de séparateurs pleine
-  //    largeur reliés à la graduation zodiacale, pour ne jamais suggérer
-  //    visuellement un alignement maison↔signe que le manifeste ne donne
-  //    pas (aucun thème daté ; Cmd 3, jamais de joint non fourni). Repère
-  //    tactile uniquement, aucune étiquette permanente --
+  //    en retrait du bord intérieur des signes — pas de séparateurs reliés
+  //    à la graduation zodiacale, pour ne jamais suggérer visuellement un
+  //    alignement maison↔signe que le manifeste ne donne pas (aucun thème
+  //    daté ; Cmd 3, jamais de joint non fourni). Modèle de lecture façon
+  //    bezel chronomètre (verdict Sidy 2026-08-25) : cran plein à chaque
+  //    maison, plus large/lumineux aux quatre maisons cardinales
+  //    (I/IV/VII/X — les mêmes que les Angles de l'Espace déjà rendus),
+  //    plus fin aux huit autres (succédantes/mutables) --
   if (MAISONS.length){
     gSignes.add(new THREE.Mesh(new THREE.RingGeometry(R_MAISON_INT, R_MAISON_EXT, 128),
       new THREE.MeshBasicMaterial({color:0xd7dbe6, transparent:true, opacity:.08, side:THREE.DoubleSide})));
     MAISONS.forEach(function(m, i){
-      var a = (i / MAISONS.length) * Math.PI * 2;
-      gSignes.add(segmentRadial(a, R_MAISON_INT, R_MAISON_EXT, 0xd7dbe6, .22));
       var aMil = ((i + .5) / MAISONS.length) * Math.PI * 2;
-      var cranM = marqueur(.16, "#d7dbe6", false);
-      cranM.position.set(Math.cos(aMil) * ((R_MAISON_INT + R_MAISON_EXT) / 2),
-        Math.sin(aMil) * ((R_MAISON_INT + R_MAISON_EXT) / 2), 0);
+      var cardinale = (i % 3 === 0);   // I(0) · IV(3) · VII(6) · X(9)
+      var r1 = cardinale ? R_MAISON_INT - .05 : R_MAISON_INT;
+      var r2 = cardinale ? R_MAISON_EXT + .05 : R_MAISON_EXT;
+      var cranM = graduation(aMil, r1, r2, cardinale ? .07 : .035, 0xd7dbe6, cardinale ? .9 : .5);
       cranM.userData = {
         label: "Maison " + m.numero + " — " + m.theme,
         deg: "Domification générique (hors thème daté — pas d'époque/lieu dans le manifeste) · "
@@ -634,11 +667,13 @@ var disques = [];
   }
   monde.add(gSignes);
 
-  // -- Degré 20 (Falak al-Manāzil) : 28 demeures — graduations discrètes, bord
-  //    intérieur, aucune étiquette permanente (spec §3.4 — non commensurable
-  //    avec les 12 signes, 2⅓ manzil par signe, jamais aligné visuellement) ;
-  //    repère tactile par cran (index de la demeure, pas de nom individuel :
-  //    non fourni par le manifeste) --
+  // -- Degré 20 (Falak al-Manāzil) : 28 demeures — aucune étiquette
+  //    permanente (spec §3.4 — non commensurable avec les 12 signes, 2⅓
+  //    manzil par signe, jamais aligné visuellement) ; modèle bezel
+  //    chronomètre comme les maisons (verdict Sidy 2026-08-25) : cran plein
+  //    à chaque demeure, plus large/lumineux tous les 7 (les 28 demeures se
+  //    répartissent traditionnellement en 4 quarts de 7 — présentation
+  //    seulement, aucune correspondance nouvelle déclarée) --
   var SOURCE_MANAZIL = (function(){
     var n = NOTIONNELS.filter(function(x){ return x.id === "manazil"; })[0];
     return (n && n.src) || "[[doctrinal/symboles/manazil-al-qamar]]";
@@ -650,9 +685,8 @@ var disques = [];
     new THREE.MeshBasicMaterial({color:0xd7dbe6, transparent:true, opacity:.10, side:THREE.DoubleSide})));
   for (var m = 0; m < 28; m++){
     var am = (m / 28) * Math.PI * 2;
-    gManazil.add(segmentRadial(am, R_INT, R_GRAD, 0xd7dbe6, .3));
-    var cranM = marqueur(.16, "#d7dbe6", false);
-    cranM.position.set(Math.cos(am) * R_GRAD, Math.sin(am) * R_GRAD, 0);
+    var quart = (m % 7 === 0);
+    var cranM = graduation(am, R_INT, quart ? R_EXT : R_GRAD, quart ? .06 : .03, 0xd7dbe6, quart ? .85 : .45);
     cranM.userData = {label: "Manzil n° " + (m + 1) + "/28", deg: "Falak al-Manāzil — demeure lunaire " + (m + 1), src: SOURCE_MANAZIL};
     gManazil.add(cranM); interactifs.push(cranM);
   }

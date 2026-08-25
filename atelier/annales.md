@@ -10,6 +10,43 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] outillage | Prototype Instrument : glyphes gravés sur le bandeau + bezel chronomètre
+
+- **Contexte** : retour de Sidy sur le rendu réel (iPad) — les symboles des
+  signes se fondent dans le bandeau zodiacal (peu lisibles), et les cadrans
+  Maison/Manāzil sont eux aussi peu lisibles. Modèle proposé : graduation
+  façon bezel de montre chronomètre (sections de graduation par cran).
+- **Cause diagnostiquée**, commune aux trois symptômes :
+  1. Les glyphes des signes étaient des Sprites (billboard, toujours face
+     caméra) — ils se découplent visuellement du plan incliné (obliquité de
+     l'écliptique) de l'anneau dès que la caméra orbite, et leur couleur
+     pâle sans fond se noyait dans ce qui est visible en transparence
+     derrière eux.
+  2. Les crans de graduation (manāzil, maisons) étaient des `THREE.Line` —
+     une ligne WebGL est bridée à ~1px sur la plupart des GPU quelle que
+     soit l'opacité demandée (limite documentée de `LineBasicMaterial`), les
+     rendant quasi invisibles indépendamment de tout réglage de couleur.
+- **Modifié** : `atelier/rd/instrument/instrument-prototype.html` — couche
+  de rendu uniquement, aucune donnée ni logique de manifeste touchée :
+  - Nouvelle fonction `glypheEnPlan()` : Mesh (pas Sprite) avec pastille de
+    fond opaque, solidaire de la rotation du groupe — le glyphe est
+    désormais littéralement gravé sur le plan du bandeau, incliné avec lui.
+  - Nouvelle fonction `graduation()` : Mesh plein (`PlaneGeometry` orientée
+    radialement) remplaçant les `THREE.Line` — épaisseur réellement
+    contrôlable, garantie visible quel que soit le GPU.
+  - Manāzil et Maisons : modèle bezel chronomètre — cran plein à chaque
+    unité, plus large/lumineux à intervalle régulier (tous les 7 manāzil =
+    les 4 quarts traditionnels ; les 4 maisons cardinales I/IV/VII/X, déjà
+    structurantes ailleurs dans la scène via les Angles de l'Espace), plus
+    fin aux autres. Aucune nouvelle correspondance déclarée — présentation
+    seulement (Cmd 3, rien n'aligne maison↔signe que la donnée ne fournit
+    pas).
+- **Vérification** : rendu en Chromium sandboxé (glyphes visibles avec fond
+  opaque, crans majeurs/mineurs nettement distincts) + balayage tactile
+  automatisé confirmant que signe/Aqtâb/manzil/maison renvoient toujours le
+  bon libellé complet au panneau d'info malgré le changement de géométrie.
+- **Commit** : fbfa1ce
+
 ## [2026-08-25] outillage | Prototype Instrument : correctif rendu emoji des glyphes zodiacaux
 
 - **Contexte** : Sidy signale, sur appareil réel, que les symboles
