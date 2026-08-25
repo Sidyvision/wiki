@@ -438,6 +438,37 @@ function marqueur(taille, couleur, plein){
   s.scale.set(taille, taille, 1);
   return s;
 }
+// -- Marqueur-glyphe : billboard portant un caractère Unicode (symbole
+//    astrologique standard) au lieu du cercle générique — remplace le
+//    marqueur des signes et des astres (verdict Sidy 2026-08-25). Convention
+//    graphique universelle, ne pose aucune assertion doctrinale nouvelle :
+//    le glyphe illustre un label déjà sourcé, il n'en ajoute aucun.
+function marqueurGlyphe(taille, couleur, glyphe){
+  var pr = 3, d = 64 * pr, c = document.createElement('canvas'), g = c.getContext('2d');
+  c.width = c.height = d;
+  g.font = (d * .62) + 'px ' + POLICE;
+  g.fillStyle = couleur; g.textAlign = 'center'; g.textBaseline = 'middle';
+  g.fillText(glyphe, d / 2, d / 2 + d * .03);
+  var tex = new THREE.CanvasTexture(c); tex.minFilter = THREE.LinearFilter;
+  var s = new THREE.Sprite(new THREE.SpriteMaterial({map:tex, transparent:true, depthWrite:false}));
+  s.scale.set(taille, taille, 1);
+  return s;
+}
+// Glyphes astrologiques standard, appariés par nom (insensible à l'ordre
+// exact du manifeste — robuste à un futur réagencement des données).
+var SIGNE_GLYPHES = {
+  "bélier":"♈", "taureau":"♉", "gémeaux":"♊", "cancer":"♋", "lion":"♌", "vierge":"♍",
+  "balance":"♎", "scorpion":"♏", "sagittaire":"♐", "capricorne":"♑", "verseau":"♒", "poissons":"♓"
+};
+var ASTRE_GLYPHES = {
+  "saturne":"♄", "jupiter":"♃", "mars":"♂", "soleil":"☉", "vénus":"♀", "venus":"♀",
+  "mercure":"☿", "lune":"☽"
+};
+function glypheDe(table, texte){
+  var t = String(texte || "").toLowerCase();
+  for (var k in table){ if (t.indexOf(k) !== -1) return table[k]; }
+  return "○";
+}
 function ligne(pts, couleur, opacite, pointillee){
   var geo = new THREE.BufferGeometry().setFromPoints(pts), mat, l;
   if (pointillee){
@@ -501,7 +532,7 @@ DEGRES.forEach(function(d){
     ciel.rotation.x = -Math.PI / 2; ciel.position.y = yDeg[n]; monde.add(ciel);
 
     var pt = new THREE.Vector3(r, yDeg[n], 0);
-    var sph = marqueur(.3, "#d9d3ea", false);
+    var sph = marqueurGlyphe(.48, "#d9d3ea", glypheDe(ASTRE_GLYPHES, a[1]));
     sph.position.copy(pt);
     sph.userData = {label: a[1], deg: "degré " + n + " · ciel planétaire (nœud universel, hors arbre-tradition) — équivalence établie avec le Malakūt planétaire", src: SOURCE_AQTAB};
     monde.add(sph); interactifs.push(sph);
@@ -529,9 +560,11 @@ var disques = [];
 //    circonscrive l'ensemble de l'instrument (tour planétaire des Aqtâb,
 //    anneau des notionnels) — à la manière du bezel gradué d'une montre :
 //    chaque cran (signe, manzil, maison) reste muet tant qu'on ne le touche
-//    pas (panneau d'info), pour ne pas saturer l'affichage de texte permanent
-//    — seuls les 12 signes gardent une étiquette continue (graduation
-//    primaire du bezel). Graduation des maisons ajoutée le 2026-08-25, une
+//    pas (panneau d'info) : plus aucune étiquette textuelle permanente sur
+//    le bezel, y compris les signes (retiré le 2026-08-25) — chaque cran
+//    porte désormais son glyphe astrologique standard (signes, astres),
+//    lisible en continu sans texte. Graduation des maisons ajoutée le
+//    2026-08-25, une
 //    fois la source désignée par Sidy (doctrinal/sources/fin-des-temps-
 //    modernes-ilm-al-nujum-bases-mahdi-rouge) : domification GÉNÉRIQUE
 //    (aucune époque/lieu dans le manifeste, donc aucun thème daté).
@@ -547,8 +580,10 @@ var disques = [];
   }
 
   // -- Degré 19 (Falak al-Burūj) : 12 signes, séparateurs pleine largeur +
-  //    étiquette (conservée : c'est la graduation primaire du bezel, lue en
-  //    continu comme sur un astrolabe) + repère tactile par cran --
+  //    repère tactile par cran, glyphe astrologique standard au lieu du
+  //    cercle générique (verdict Sidy 2026-08-25). Étiquette textuelle
+  //    permanente retirée à la même occasion — le glyphe suffit à la
+  //    lecture continue, le nom complet reste au panneau d'info --
   var gSignes = new THREE.Group();
   gSignes.position.y = yDeg[ZODIAQUE.degre_falak_al_buruj];
   gSignes.rotation.x = oblique;
@@ -558,10 +593,7 @@ var disques = [];
     var a = (i / 12) * Math.PI * 2;
     gSignes.add(segmentRadial(a, R_INT, R_EXT, 0xd7dbe6, .6));
     var aMil = ((i + .5) / 12) * Math.PI * 2;
-    var e = etiquette(s.label, .46, "rgba(170,180,200,.8)");
-    e.position.set(Math.cos(aMil) * (R_EXT + .45), Math.sin(aMil) * (R_EXT + .45), 0);
-    gSignes.add(e);
-    var cran = marqueur(.22, "#d7dbe6", false);
+    var cran = marqueurGlyphe(.42, "#d7dbe6", glypheDe(SIGNE_GLYPHES, s.label));
     cran.position.set(Math.cos(aMil) * R_GRAD, Math.sin(aMil) * R_GRAD, 0);
     cran.userData = {label: s.label, deg: "Falak al-Burūj — secteur zodiacal " + (i + 1) + "/12", src: SOURCE_TABLE};
     gSignes.add(cran); interactifs.push(cran);

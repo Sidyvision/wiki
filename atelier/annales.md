@@ -10,6 +10,33 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] outillage | Prototype Instrument : glyphes astrologiques standard (signes, astres)
+
+- **Contexte** : Sidy demande le retrait de l'étiquette textuelle permanente
+  des signes (dernier texte permanent du bezel, oublié dans la passe de
+  désaturation précédente) et le remplacement des marqueurs génériques
+  (cercle creux) des signes et des sept astres/Aqtâb par leurs symboles
+  astrologiques respectifs.
+- **Modifié** : `atelier/rd/instrument/instrument-prototype.html` — couche
+  de rendu uniquement :
+  - Nouvelle fonction `marqueurGlyphe()` (billboard portant un caractère
+    Unicode au lieu du cercle générique) + appariement par nom
+    (`glypheDe()`, tables `SIGNE_GLYPHES`/`ASTRE_GLYPHES`) plutôt que par
+    position — robuste à un futur réagencement des données du manifeste.
+  - 12 signes : ♈♉♊♋♌♍♎♏♐♑♒♓. 7 astres (Aqtâb, Saturne → Lune) : ♄♃♂☉♀☿☽.
+  - Étiquette textuelle permanente des signes retirée : le glyphe suffit à
+    la lecture continue du bezel, le nom complet reste au panneau d'info
+    (même régime que manāzil/maisons/Aqtâb depuis la passe précédente).
+  - Convention graphique universelle : le glyphe illustre un label déjà
+    sourcé, il n'ajoute aucune assertion doctrinale nouvelle (aucune
+    discipline de sourcage distincte requise).
+- **Vérification** : rendu en Chromium sandboxé (glyphes visibles et
+  distincts — croissant lunaire, Capricorne, etc.) + balayage tactile
+  automatisé confirmant que signe/Aqtâb/manzil/maison renvoient toujours le
+  bon libellé complet au panneau d'info malgré le changement de marqueur
+  visuel.
+- **Commit** : 826b776
+
 ## [2026-08-25] outillage | Prototype Instrument : graduation des maisons astrologiques (bezel)
 
 - **Contexte** : suite à la désaturation textuelle (entrée précédente), Sidy
