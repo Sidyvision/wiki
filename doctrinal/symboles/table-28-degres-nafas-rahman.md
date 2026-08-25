@@ -31,6 +31,15 @@ cross_links: ["[[nafas-rahmani]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]", 
 > pour les degrés 21-23 et 25-27 (voir §« Complet en attente » ci-dessous). Ce champ
 > n'est pas requis par `instrument-donnees.yaml` (l'Instrument n'utilise que le
 > prophète-siège) : son absence ne bloque pas la Phase 2 du chantier.
+>
+> **Ajout (2026-08-25)** : transcription du Tableau 1 de Meftah (pp. 30-31,
+> chapitres 1-9 des *Fuṣūṣ*) — voir section « Degrés 1–10 — Pré-lettrés » ci-dessous.
+> Cette table utilise une numérotation par **chapitre**, distincte de celle des 38
+> degrés ; aucune correspondance chapitre ↔ degré n'y est établie (comparaison
+> détaillée dans la section). Une photo d'une roue cosmologique anglophone trouvée
+> hors bibliothèque (Pinterest) a également été soumise le même jour : non retenue
+> comme source (pas de référence bibliographique vérifiable, cf. §VII CLAUDE.md
+> racine — discipline des sources), non exploitée dans cette fiche.
 
 ---
 
@@ -255,6 +264,43 @@ la transcription lettre par lettre et l'identification des correspondances compl
 
 À compléter depuis les pages antérieures à p. 39. Correspondent au contenu de Figure 1 :
 L'Intellect premier, Anges éperdus d'amour, Âme universelle, Table gardée, Nature Universelle (4 qualités), Matière première universelle + Figures 2 : Corps universel, Trône, Piédestal, Sphère sans étoiles.
+
+#### Tableau 1 (Meftah, pp. 30-31) — chapitres 1-9 des *Fuṣūṣ al-Ḥikam*
+
+> 🌐 **Source distincte, numérotation propre** — transcription du Tableau 1 de
+> Meftah, *Le Symbolisme Universel des Châtons des Sagesses* (Albouraq), pp. 30-31 :
+> « Correspondances entre les chapitres des *Fuṣūṣ al-Ḥikam* d'Ibn al-ʿArabī et les
+> degrés du macrocosme et du microcosme ». Photographie fournie par Sidy,
+> transcription du 2026-08-25. Couvre les chapitres 1 à 9 (façç Adam à Joseph).
+
+| Chapitre | Prophète (façç) | Degré macrocosmique | Degré microcosmique |
+|---|---|---|---|
+| 1 | Adam | « la Réalité muḥammadienne » (le « Calame suprême », l'« Intellect premier ») ; la sphère de la vie (*al-ḥayāt*) | le centre subtil (*al-lāṭifa*), l'esprit saint (*al-rūḥ al-qudsī*), l'Intellect (*al-ʿaql*) |
+| 2 | Seth | « la Table gardée » ; l'« âme universelle » (*al-nafs al-kulliyya*) | l'âme humaine (*nafs al-insān*) |
+| 3 | Noé | la nature universelle (*al-ṭabīʿa al-kulliyya*) | la nature humaine (*al-ṭabīʿa al-insān*) |
+| 4 | Idrīs (Hénoch) | « la Poussière primordiale » (*al-habāʾ*) ; la matière première (*hayūlā*) | la réceptivité humaine universelle (*qābiliyya al-insān al-kulliyya*) |
+| 5 | Abraham | « le Corps universel » (*al-jism al-kullī*) | substance du corps humain (*mādda jism al-insān*) |
+| 6 | Isaac | « la forme universelle » (*al-shakl al-kullī*) | la forme individuelle humaine (*shakl al-insān*) |
+| 7 | Ismaël | « le Trône enveloppant » (*al-ʿarsh al-muḥīṭ*) | le corps humain (*jism al-insān*) |
+| 8 | Jacob | « le Piédestal » (*al-kursī*) | « l'âme responsable » (*al-nafs al-mukallafa*), la conscience individuelle (*al-inniyya*) |
+| 9 | Joseph | la sphère sans étoiles ; le ciel des tours zodiacales (*burūj*) | l'opinion (*al-raʾy*), la faculté d'abstraction (*quwwa al-tanzīh*) |
+
+> ⚠️ **Non-correspondance numérique avec la table à 38 degrés** : ce tableau
+> regroupe les notions par **chapitre** des *Fuṣūṣ* (numérotation propre à
+> Meftah), pas par degré du *Nafas*. Comparaison directe : le chapitre 1 (Adam)
+> coïncide bien avec le degré 1 de la table à 38 degrés (Intellect premier /
+> Calame suprême) — mais le chapitre 2 (Seth) réunit « Table gardée » et « âme
+> universelle » en une seule entrée, alors que la table à 38 degrés les distingue
+> aux degrés 3 et 4 respectivement ; les 4 qualités de la Nature
+> (chaleur/humidité/sécheresse/froideur, degrés 5-8 de la table à 38 degrés) sont
+> absorbées chez Meftah dans les seuls chapitres 3-4 (Noé, Idrīs). Le chapitre 9
+> (Joseph, sphère sans étoiles) correspond en contenu au degré 12 de la table à
+> 38 degrés, avec un décalage de numérotation non vérifié au-delà de ce point.
+> **Aucune correspondance chapitre ↔ degré n'est donc établie ici** — ce tableau
+> est transcrit pour mémoire, dans l'attente d'une fiche `discernement` qui
+> statuerait sur le rapport entre les deux numérotations (Cmd 3, non-syncrétisme
+> appliqué en intra-doctrinal ; convention Sashimono — état *kari-kumi*, montage
+> à blanc, aucun joint taillé entre les deux tables).
 
 ### Degrés 11–19 — Anneau externe, positions 1–9 (pages antérieures à p. 39, non encore photographiées)
 
