@@ -3,7 +3,7 @@ title: "Catalogue de la bibliothèque physique de travail"
 type: ressource
 tags: [bibliotheque, lectures-suggerees, ressource, catalogue]
 created: 2026-06-28
-updated: 2026-08-23
+updated: 2026-08-25
 sources: []
 links: []
 ---
@@ -249,6 +249,7 @@ Lexique unifié dérivé : `glossaire-unifie.md`, régénéré par
 | [[bibliographie-porte-du-ciel]] | La Porte du Ciel (Coomaraswamy) | IMG_0062-0065 (4) | intégré — liste exhaustive des titres `to-verify` |
 | [[table-illustrations-porte-du-ciel]] | La Porte du Ciel (Coomaraswamy) | IMG_0065-0067 (3) | intégré — légendes exhaustives `to-verify` |
 | [[notices-porte-du-ciel]] | La Porte du Ciel (Coomaraswamy) | IMG_0067-0070 (4) | intégré — ordre Coomaraswamy/Snodgrass en discordance avec le sommaire, non tranché |
+| [[sommaire-origine-polaire]] | Origine polaire de la tradition védique (Tilak) | IMG_0071-0072 (2) | intégré — index p.367-380 (IMG_0081-0088) à router vers Hermes, Introduction/Préface p.9-23 (IMG_0073-0080) hors périmètre |
 
 **Essais p.37-281 de La Porte du Ciel** (« La porte du soleil », « Le Symbolisme du
 Dôme », « Svayamatrinnâ : Janua Coeli », « Ushnîsha et Chatra », « Eckstein », « E
