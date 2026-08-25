@@ -10,6 +10,39 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] outillage | Prototype Instrument : graduation des maisons astrologiques (bezel)
+
+- **Contexte** : suite à la désaturation textuelle (entrée précédente), Sidy
+  désigne la source manquante pour la graduation des maisons du bezel
+  zodiacal : `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-
+  mahdi-rouge.md` — déjà au dépôt depuis le 2026-07-01, et déjà source des
+  Angles de l'Espace (section IV du même article) rendus séparément dans la
+  scène (`rd/instrument/angles-de-l-espace.md`).
+- **Modifié**, en suivant le flux normal dépôt → déclaration → générateur →
+  manifeste → app (aucun contournement de la couche intermédiaire) :
+  - `atelier/rd/outillage/generer-manifeste.py` (schéma v0.2.5) : nouvelle
+    fonction `valider_maisons()` (liste de 12, `theme` non vide, `type` dans
+    l'énumération cardinale/succedante/mutable) et propagation dans le
+    manifeste (clé `maisons`) — même discipline que `valider_zodiaque()`,
+    aucun LLM dans la boucle.
+  - `atelier/rd/instrument/instrument-donnees.yaml` (v0.5.1) : bloc
+    `maisons:` — 12 entrées (numéro, thème, terme arabe, type), transcrites
+    depuis la section IV de la source désignée.
+  - `atelier/rd/instrument/instrument-prototype.html` : troisième anneau de
+    graduation sur le bezel, nettement plus étroit et sans séparateur relié
+    à la graduation zodiacale — pour ne jamais suggérer un alignement
+    maison↔signe que la donnée ne fournit pas (Cmd 3). Repère tactile par
+    maison, aucune étiquette permanente (cohérent avec la désaturation de la
+    passe précédente). Domification déclarée GÉNÉRIQUE dans le code et le
+    panneau d'info : le manifeste ne porte ni époque ni lieu, donc aucun
+    thème daté individuel n'est calculé ni affiché.
+- **Vérification** : exécution réelle de `generer-manifeste.py` contre ce
+  dépôt (0 erreur, 0 avertissement, « maisons incluses », 44 nœuds, 4
+  registres) ; rendu vérifié en Chromium sandboxé avec balayage tactile
+  automatisé confirmant que les crans signes/manāzil/maisons/Aqtâb répondent
+  tous correctement au toucher (panneau d'info).
+- **Commit** : 86eb75e
+
 ## [2026-08-25] outillage | Prototype Instrument : plans planétaires progressifs + bezel zodiacal (désaturation textuelle)
 
 - **Contexte** : Sidy juge le prototype quasiment illisible — saturation par
