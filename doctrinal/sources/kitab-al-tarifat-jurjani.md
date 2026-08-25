@@ -79,6 +79,17 @@ enrichissement des fiches déjà ancrées :
 **Reste à transcrire** (annoncé dans ce lot, texte non encore fourni) : déf. 1502-1503
 (*martabat al-insān al-kāmil*, le rang de l'Homme Parfait).
 
+**Lot p. 331 (lettre fāʾ)** — dossier `raw/Transcription Jurjani/` (photographies
+Sidy), transcription Gardien 2026-08-25 :
+- déf. 1216 — al-fiqh (الفقه) : [[doctrinal/symboles/fiqh]] — lève le `to-source`
+  principal de la fiche
+- déf. 1214 — al-fiʿl al-ġayr al-ʿilājī (terme de logique/grammaire, pas de fiche cible)
+- déf. 1215 — al-fiʿl al-iṣṭilāḥī (terme de grammaire, pas de fiche cible)
+- déf. 1217 — al-faqr (الفقر) : l'indigence, la pauvreté — terme du tasawwuf sans
+  fiche à ce jour ; définition conservée ici pour un futur ancrage : « C'est le
+  manque (*faqd*) d'une chose dont on a besoin. Le manque d'une chose dont on n'a
+  pas besoin ne se nomme pas pauvreté. »
+
 ### Annexe : Déf. 0525 — al-juzʾī al-iḍāfī (terme technique de logique)
 
 **al-juzʾī al-iḍāfī** (الجزئي الإضافي) — Le particulier relatif.

@@ -10,7 +10,7 @@ tags:
 - sharia
 - muamalat
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-08-25
 sources:
 - '[[kitab-al-tarifat-jurjani]]'
 - to-source
@@ -25,10 +25,30 @@ cross_links:
 
 Science traditionnelle des **statuts pratiques** (aḥkām ʿamaliyya) de la sharīʿa,
 déduits de leurs preuves détaillées. Le terme signifie littéralement la
-**compréhension profonde**. — source : to-source (définition classique à confronter
-au texte ; l'entrée du *Kitāb al-Taʿrīfāt* de Jurjānī est à relever dans l'ouvrage
-physique — son index thématique consacre le thème B, ≈ 250 définitions, au droit et
-à la jurisprudence, cf. [[kitab-al-tarifat-jurjani]]).
+**compréhension profonde**.
+
+## Définition de Jurjānī (déf. 1216)
+
+**al-fiqh** (الفقه) — Le savoir par assimilation ou acquisition, la sagacité, la
+connaissance du Droit, la jurisprudence.
+
+1. Dans l'usage, ce terme désigne la compréhension (*fahm*) qui résulte des propos
+   de celui qui s'exprime.
+2. Dans le vocabulaire technique, c'est la science des Principes de la Loi régissant
+   les comportements habituels (*al-ʿilm bi-l-aḥkām al-šarʿiyya al-ʿamaliyya
+   al-muktasab*), discipline acquise à l'aide d'arguments détaillés probants
+   (*adilla tafṣīliyya*) que ces principes impliquent.
+3. C'est, dit-on, faire acte de sagacité (*iṣāba*) et s'arrêter à la considération du
+   sens caché dont dépend le précepte de droit (*ḥukm*).
+4. C'est aussi la science qui élucide les questions de droit relatives à la Loi, à
+   l'aide du jugement personnel (*raʾy*) et de l'effort d'interprétation (*ijtihād*).
+   Pour y parvenir, elle fait appel à la spéculation (*naẓar*) et à la réflexion
+   (*taʾammul*). Pour cette raison, il est impossible que Dieu soit nommé *faqīh*,
+   pénétrant par effort, car rien ne Lui est caché.
+
+— source : [[kitab-al-tarifat-jurjani]], déf. 1216, p. 331. Vérifié sur l'édition
+physique (trad. Maurice Gloton, Albouraq), transcription du 2026-08-25 depuis
+`raw/Transcription Jurjani/IMG_0157.JPG`.
 
 ## Les cinq qualifications légales
 
