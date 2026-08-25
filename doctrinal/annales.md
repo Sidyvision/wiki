@@ -9,6 +9,29 @@ updated: 2026-08-25
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] enrichissement | H3 Gizeh/degré 24 — relecture du Tombeau d'Hermès, résultat négatif
+
+- **Contexte** : suite du cinquième maillon (traditions mortes), Sidy demande la
+  relecture effective de la lecture suggérée n°1 de la fiche H3 : relire « Le
+  Tombeau d'Hermès » en cherchant un passage rapportant explicitement Gizeh à un
+  degré ou une position cosmologique précise.
+- **Fait** : chapitre intégral relu (texte absent de `raw/`, récupéré sur
+  index-rene-guenon.org, pages imprimées 139-148 — fin du chapitre en page 148,
+  la page 149 bascule sur les « Comptes rendus »).
+- **Résultat** : négatif, confirmé. Le chapitre ne contient que ce qui est déjà
+  fiché dans [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]] (tombeau
+  symbolique, science incluse dans la structure, légende de Surid,
+  Seth/Agathodaimôn, symbolisme polaire et orientation, ternaire des Pyramides,
+  les trois Hermès, étymologie Haram/Hermès, critique du pyramidion) — aucun
+  degré, planète, ni tableau hiérarchique n'y figure.
+- **Intégré** : lecture suggérée n°1 de
+  [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] mise à
+  jour pour consigner ce résultat négatif. Aucune autre pièce touchée ; statut de
+  la fiche maintenu `en cours` (Cmd 12) — l'absence confirmée d'une citation
+  nommant Gizeh est elle-même un fait à consigner (Cmd 5), non un motif de
+  clôture.
+- **Commit** : cd217a3
+
 ## [2026-08-25] enrichissement | H3 Gizeh/degré 24 — cinquième maillon, traditions mortes
 
 - **Contexte** : Sidy corrige la méthode suivie sur les maillons précédents de la
