@@ -10,6 +10,27 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] rd/bibliotheque | Sommaire et TDM Origine polaire de la tradition védique (Tilak)
+
+- **Contexte** : nouveau lot photographié (17 photos, IMG_0071-IMG_0088) déposé dans
+  `raw/Origine Polaire de la tradition Védique/`, repéré au vol pendant le travail sur
+  la Phase 5 de l'Instrument.
+- **Action** : création de `atelier/rd/bibliotheque/sommaire-origine-polaire.md`
+  (couverture + page de titre + table des matières complète, IMG_0071-0072
+  seulement) et ligne ajoutée au registre `## Index et glossaires transcrits` de
+  `catalogue-bibliotheque.md`.
+- **Signalement de périmètre** : IMG_0073-0080 (Introduction/Préface, p.9-23, texte
+  courant) hors périmètre du chantier index-livres — non transcrit sauf demande
+  explicite. IMG_0081-0088 (index alphabétique, p.367-380) confirmé démarrant p.367
+  et terminant p.380 (lettres Y-Z) — transcription à router vers l'agent Hermes
+  (rôle #13, librarian-archivist), non traitée directement ici.
+- **Incident mineur** : une première tentative de nettoyage Unicode par `sed` avec
+  syntaxe `\x{...}` a corrompu des chiffres ('0'/'2') dans les deux fichiers avant
+  commit (bloqué par le hook Cmd 15) — récupéré par `git checkout` puis nettoyage
+  correct via script Python ciblant les points de code exacts. Aucune corruption
+  commitée.
+- **Commit** : ae443be
+
 ## [2026-08-25] rd/instrument | Verdict tropical/sidéral consigné (Phase 5)
 
 - **Contexte** : Sidy tranche la question ouverte P4.8/spec §7.3 — l'Instrument
