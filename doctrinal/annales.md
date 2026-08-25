@@ -9,6 +9,30 @@ updated: 2026-08-25
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] archivage | Guénon — Hermès = Thoth (ch. XLI, Aperçus sur l'Initiation)
+
+- **Contexte** : Sidy signale (« Il me semble que le dépôt porte déjà la référence
+  Idris = Hermès = Thot ») ; vérification faite : Idrīs = Hermès Trismégiste était
+  déjà sourcé ([[doctrinal/autorites/idris]]), mais « Thot »/« Thoth » n'apparaissait
+  nulle part dans `doctrinal/`. Sidy confirme (« Oui, Guénon en parle quelque
+  part ») — recherche du passage dans le corpus transcrit.
+- **Trouvé** : chapitre XLI (« Quelques considérations sur l'hermétisme ») d'*Aperçus
+  sur l'Initiation*, `raw/Aperçu sur l'initiation/` — Guénon y énonce que
+  « la doctrine [de l'hermétisme] est [...] rapportée à Hermès, en tant que celui-ci
+  était considéré par les Grecs comme identique au Thoth égyptien ».
+- **Intégré** : création de [[doctrinal/sources/guenon-hermetisme-hermes-thoth]]
+  (`status: traditionnel`), ajoutée comme 8ᵉ pièce (sources) de
+  [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] —
+  renfort du deuxième maillon (Hermès = Idrīs) par une **troisième filiation
+  textuelle indépendante** (Hermès = Thoth), sans conflation avec le découpage
+  tripartite des « trois Hermès » de
+  [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]] (nuance consignée
+  explicitement dans les deux fiches). N'avance pas, par elle-même, la synthèse
+  propre à la fiche H3 (application à Gizeh), qui reste `en cours`.
+- **Répercuté** : `doctrinal/index.md` §« Sources primaires (textes) » (entrée
+  ajoutée à la suite des chapitres d'*Aperçus sur l'Initiation* déjà indexés).
+- **Commit** : a6297bd
+
 ## [2026-08-25] archivage | Déf. 1216 al-fiqh (p. 331) — levée du to-source de fiqh.md
 
 - **Contexte** : Sidy a déposé le dossier `raw/Transcription Jurjani/` (54
