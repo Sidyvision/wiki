@@ -9,6 +9,50 @@ updated: 2026-08-25
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] archivage | Enrichissement Jurjānī — 26 définitions du *Taʿrīfāt* vérifiées sur l'édition physique (lots barzakh, walāya, insān kāmil, waḥdat al-wujūd)
+
+- **Contexte** : Sidy a l'édition physique du *Kitāb al-Taʿrīfāt* (trad. Maurice
+  Gloton, Albouraq) sous la main et a fourni la transcription de 26 définitions
+  (déf. 0051-0053, 0214-0215, 0246, 0295-0296, 0439, 0480, 0509, 0525, 0529, 0536,
+  0631, 0703, 0879, 1018, 1121, 1201, 1281, 1370, 1504, 1782, 1831, 1833) ciblées
+  sur quatre fiches déjà ancrées. Ces fiches portaient déjà des résumés de ces
+  mêmes définitions (intégration 2026-07-01) ; ce lot apporte le texte complet
+  vérifié sur l'édition physique et lève le caractère « reconstruction » de
+  plusieurs citations.
+- **Fiches enrichies** :
+  - [[doctrinal/symboles/barzakh]] : texte complet des déf. 0295, 0296, 0509,
+    0529 ; rattachement explicite du barzakh à l'Imagination séparée
+    (*ḫayāl munfaṣil*) et au *jasad* (corps subtil) ; ajout du lien vers
+    [[doctrinal/symboles/alam-al-mithal]] (déf. 0295 désigne *ʿālam al-miṯāl*
+    comme l'isthme entre corps grossiers et Monde des Esprits).
+  - [[doctrinal/symboles/walaya]] : acception juridique de la *walāya* ajoutée
+    (déf. 1833, volet *tanfīḏ* dans la Loi) ; **correction de pagination** :
+    la déf. 1281 est p. 533, non p. 550 comme inscrit précédemment.
+  - [[doctrinal/symboles/al-insan-al-kamil]] : développement complet de la
+    déf. 0246 (Livre de l'Effacement et de l'Affermissement, rapport
+    macro/microcosmique Intellect premier / Âme universelle) et de la déf. 0879
+    (Arbre central, épiphanie de l'Essence, Coran XXVIII, 30). Les déf.
+    1502-1503 (*martabat al-insān al-kāmil*) annoncées par Sidy restent à
+    transcrire — mention explicite dans la fiche.
+  - [[doctrinal/symboles/wahdat-al-wujud]] : ajout des déf. 0703 (*al-ḫuṣūṣ*)
+    et 1782 (*al-nūn*) ; mention de vérification physique pour l'ensemble du
+    vocabulaire de l'Unité ; complément de la déf. 0439 (*taqdīs*).
+- **Fiche source** : [[doctrinal/sources/kitab-al-tarifat-jurjani]] — table des
+  définitions ingérées mise à jour ; annexe : transcription complète de la déf.
+  0525 (*al-juzʾī al-iḍāfī*, terme de logique sans fiche cible, même traitement
+  que la déf. 0992 du lot précédent).
+- **Signalements** : (1) la déf. 1281 (*al-quṭbiyyat al-kubrā*) confirme
+  textuellement le §IV de [[doctrinal/symboles/khatm]] (« Le Pôle n'est pas le
+  Sceau de la Sainteté ») — le point ouvert VII-2 (articulation Quṭbiyya / Pôle
+  vivant de chaque époque) **demeure ouvert** : la transcription ne lève pas
+  cette articulation. (2) L'erreur [A3] de `verifier-invariants.py`
+  (`meta/meta-annales.md`, updated antérieur à la dernière entrée) est
+  préexistante à cette passe, non corrigée ici.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine
+  /root/wiki` — 1 erreur préexistante (A3, meta/meta-annales.md), 15
+  avertissements préexistants (atelier/, liens `[[^]]` etc.) ; aucun nouveau.
+- **Commit** : 1e8f330
+
 ## [2026-08-25] archivage | Table des 28 degrés — Tableau 1 Meftah (chapitres 1-9 Fuçûç)
 
 - **Contexte** : Sidy a fourni deux photographies. La première (2 pages) est
