@@ -3,7 +3,7 @@ title: "Spécification technique — Anneau zodiacal de l'Instrument"
 type: projet
 tags: [instrument, rendu, zodiaque, manazil, three-js, phase-2]
 created: 2026-07-26
-updated: 2026-07-26
+updated: 2026-08-25
 sources: []
 links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/manazil-al-qamar]]", "[[doctrinal/symboles/ilm-al-nujum]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]"]
 ---
@@ -114,21 +114,38 @@ rendu le plus favorable à la vigilance transversale du pôle Gizeh (§5).
 sur ~41 000 ans). Le paramètre est donc conçu comme variable dès maintenant, sans être
 animé à ce stade.
 
-### 3.3 Orientation dans son plan — paramètre d'époque, validé (Sidy, 2026-07-27)
+### 3.3 Orientation dans son plan — référentiel tropical/sidéral, validé (Sidy, 2026-08-25)
 
 L'origine du zodiaque (position de 0° du premier signe) et la ligne des nœuds
 équinoxiaux dépendent du référentiel retenu (tropical / sidéral) et de la date de
-référence (époque de calcul). **Paramètre validé** : l'anneau sera paramétré par une
-constante `epoque_reference` alimentée depuis le manifeste.
+référence (époque de calcul).
+
+**Paramètre validé (Sidy, 2026-07-27)** : l'anneau sera paramétré par une constante
+`epoque_reference` alimentée depuis le manifeste.
+
+**Verdict Sidy, 2026-08-25** : l'Instrument **exécute les deux modes**, tropical et
+sidéral — pas un choix exclusif tranché une fois pour toutes. Le référentiel actif est
+un paramètre du manifeste (`zodiaque.mode_zodiaque : tropical | sideral`), commutable,
+et non une constante figée en dur dans le rendu. Ceci répond à la question ouverte de
+§7 point 3.
+
+Conséquence structurelle : le mode sidéral requiert un paramètre supplémentaire,
+l'**ayanamsha** (décalage angulaire entre les deux origines). **École d'ayanamsha non
+arbitrée** (Lahiri, Fagan-Bradley, ou une valeur issue d'une source traditionnelle
+propre à consulter) — nouveau point ouvert, voir §7.
 
 Justification doctrinale (Gloton pp. 39-40) : le degré 19 porte l'Avènement des Jours
 (*ḥudūth al-ayyām*), le Nom *ad-dahr* (le Temps pur, indifférencié, sans partition), et
 l'actualisation des Jours cosmiques, des mois et des années. C'est exactement ce qu'on
 attend du *falak al-burūj*, et cela rend **doctrinalement approprié** le paramètre
-d'époque validé : la mesure du temps appartient à ce degré.
+d'époque validé : la mesure du temps appartient à ce degré. Cette justification vaut
+pour les deux modes également : c'est le degré qui porte la mesure du temps, non tel
+ou tel référentiel de calcul.
 
-Implémentation : constante `EPOQUE_REFERENCE` (format UTC/jours juliens), alimentée depuis
-le manifeste (`meta.epoque_reference`).
+Implémentation : constantes `EPOQUE_REFERENCE` (format UTC/jours juliens) et
+`MODE_ZODIAQUE` (tropical/sidéral), alimentées depuis le manifeste
+(`zodiaque.epoque_reference`, `zodiaque.mode_zodiaque`) ; `AYANAMSHA_DEG` alimentée
+depuis `zodiaque.ayanamsha_deg` quand `mode_zodiaque: sideral`, sinon ignorée.
 
 Matière de rattachement le moment venu :
 [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]].
@@ -295,8 +312,12 @@ Vérifier contre la version réellement chargée avant intégration.
    al-Burūj, vérifié par Sidy sur Gloton (2026-07-26).
 2. **Affichage de la portion de signe par degré** — proposition : panneau d'information
    uniquement, sans géométrie de liaison (§4). À valider.
-3. **Origine du zodiaque et référentiel** (tropical/sidéral, date de référence) —
-   renvoyé à la Phase 5 (§3.3).
+3. ~~Origine du zodiaque et référentiel~~ — **clos** (§3.3, verdict Sidy 2026-08-25) :
+   les deux modes (tropical/sidéral) sont exécutables, commutables via
+   `zodiaque.mode_zodiaque`. **Rouvre un sous-point** : l'école d'ayanamsha à retenir
+   pour le mode sidéral (Lahiri, Fagan-Bradley, ou valeur tirée d'une source
+   traditionnelle) reste non arbitrée — voir `zodiaque.ayanamsha_deg: null` dans
+   `instrument-donnees.yaml`.
 4. **Noms et ordre des douze signes dans le manifeste** — à peupler dans
    `instrument-donnees.yaml` depuis la table, avec la nomenclature arabe retenue par la
    source ; non renseigné ici pour ne rien poser de mémoire.

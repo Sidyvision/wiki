@@ -1,6 +1,11 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.5.1)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.5.2)
 #
+#   v0.5.2 (2026-08-25) : `zodiaque.mode_zodiaque` (tropical|sideral) et
+#     `zodiaque.ayanamsha_deg` — verdict Sidy : l'Instrument exécute les DEUX
+#     modes de référentiel zodiacal, commutables, pas un choix exclusif figé.
+#     École d'ayanamsha pour le mode sidéral non arbitrée (point ouvert).
+#     Voir rd/instrument/spec-anneau-zodiacal.md §3.3 et §7.3.
 #   v0.5.1 (2026-08-25) : nouveau bloc `maisons:` — les 12 maisons
 #     astrologiques (thème, terme arabe, qualité cardinale/succédante/
 #     mutable). Domification GÉNÉRIQUE : le manifeste ne porte ni époque ni
@@ -331,7 +336,14 @@ zodiaque:
   degre_falak_al_buruj: 19       # 12 signes (Toit du Jardin paradisiaque)
   degre_falak_al_manazil: 20     # 28 Demeures lunaires (Terre des Jardins)
   obliquite_deg: 23.44            # inclinaison de l'écliptique (variable à l'échelle des cycles)
-  epoque_reference: null          # à paramétrer en Phase 5 (époque de calcul astrologique)
+  epoque_reference: null          # à paramétrer en Phase 5 (époque de calcul astrologique, commune aux deux modes)
+  # Verdict Sidy 2026-08-25 (spec-anneau-zodiacal.md §3.3) : l'Instrument exécute les
+  # DEUX modes, tropical et sidéral — pas un choix exclusif. `mode_zodiaque` sélectionne
+  # le référentiel actif ; `ayanamsha_deg` n'est consommé que si `mode_zodiaque: sideral`
+  # (école d'ayanamsha non arbitrée à ce jour — Lahiri, Fagan-Bradley, ou valeur d'une
+  # source traditionnelle : point ouvert, spec §7.3).
+  mode_zodiaque: tropical          # tropical | sideral
+  ayanamsha_deg: null              # décalage sidéral — requis seulement si mode_zodiaque: sideral
   # 12 signes, ordre et noms sourcés depuis doctrinal/symboles/table-28-degres-nafas-rahman.md
   # (« TABLE COMPLÈTE À QUATRE COLONNES », colonne « Signe Zodiaque », Gloton pp. 45-48,
   # validation Gem 2026-07-01). Dates du zodiaque tropical telles que portées par la source.
