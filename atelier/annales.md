@@ -10,6 +10,20 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] rd/instrument | Verdict tropical/sidéral consigné (Phase 5)
+
+- **Contexte** : Sidy tranche la question ouverte P4.8/spec §7.3 — l'Instrument
+  exécute les DEUX modes de référentiel zodiacal (tropical et sidéral), pas un
+  choix exclusif figé.
+- **spec-anneau-zodiacal.md** : §3.3 réécrite (verdict 2026-08-25, en plus du
+  paramètre d'époque validé le 2026-07-27) ; §7 point 3 clos, sous-point rouvert
+  sur l'école d'ayanamsha à retenir pour le mode sidéral (non arbitrée).
+- **instrument-donnees.yaml** (v0.5.2) : `zodiaque.mode_zodiaque` (tropical|
+  sideral) et `zodiaque.ayanamsha_deg` (null, requis seulement en mode sidéral).
+- **Reste ouvert** : école d'ayanamsha (Lahiri, Fagan-Bradley, ou source
+  traditionnelle) — ne pas trancher de mémoire, à instruire le moment venu.
+- **Commit** : 6deaf2b
+
 ## [2026-08-25] rd/atelier | Point 5 — disposition des fichiers non trackés
 
 - **Contexte** : trois fichiers non versionnés traînaient dans le dépôt, disposition
