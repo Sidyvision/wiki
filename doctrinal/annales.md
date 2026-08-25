@@ -9,6 +9,39 @@ updated: 2026-08-25
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] enrichissement | H3 Gizeh/degré 24 — cinquième maillon, traditions mortes
+
+- **Contexte** : Sidy corrige la méthode suivie sur les maillons précédents de la
+  fiche H3 : « c'est faire fausse route que de chercher une citation explicitant le
+  lien Hermès/Gizeh » ; le geste juste est de « reconnaître la nature de l'influence
+  à l'œuvre » — un domaine des sciences cosmologiques de filiation notoire
+  Hermès/Thoth/Hénoch/Idrīs (pythagorisme, Égypte antique) — « à mettre en relation
+  avec ce que dit Guénon à propos des cas de traditions mortes (sans voie de
+  continuité) ».
+- **Trouvé** : deux passages primaires, tous deux dans *Aperçus sur l'Initiation*
+  (`raw/Aperçu sur l'initiation/`) — ch. VIII (« De la transmission initiatique ») :
+  « on n'aurait plus affaire qu'à une tradition morte, à laquelle aucun rattachement
+  effectif n'est plus possible », tempéré par « un certain intérêt théorique […] en
+  tant qu'elle est susceptible d'aider à la compréhension de certaines vérités
+  doctrinales » (note 13) ; ch. XLI (déjà fiché le même jour pour la citation
+  Hermès=Thoth) : le fonds cosmologique égyptien « isolé […] puis [incorporé] à
+  l'ésotérisme islamique et à l'ésotérisme chrétien du moyen âge », leur fournissant
+  un symbolisme transposable « dès lors que le lien avec un principe supérieur et
+  véritablement transcendant n'est pas rompu » (note 7).
+- **Intégré** : citation ch. VIII ajoutée à
+  [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]] ;
+  citation ch. XLI ajoutée à
+  [[doctrinal/sources/guenon-hermetisme-hermes-thoth]] ; cinquième maillon ajouté à
+  [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]]
+  (généalogie, examen formel, confrontation Gizeh, qualification sashimono —
+  hozo en lui-même, zōsaku dans son usage ici —, conclusion, lecture suggérée),
+  `sources_count` 8→9. Ce maillon **recadre la nature de la preuve recherchée** (un
+  mécanisme de transposition attesté, non une citation nommant Gizeh) ; il ne clôt
+  rien : statut maintenu `en cours` (Cmd 12), aucun texte cité ne nomme Gizeh en
+  relation avec un degré cosmologique.
+- **Répercuté** : frontmatter des trois fiches (`sources`/`cross_links`/`updated`).
+- **Commit** : 9046c1b
+
 ## [2026-08-25] archivage | Guénon — Hermès = Thoth (ch. XLI, Aperçus sur l'Initiation)
 
 - **Contexte** : Sidy signale (« Il me semble que le dépôt porte déjà la référence
