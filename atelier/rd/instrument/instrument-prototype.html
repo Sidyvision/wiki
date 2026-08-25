@@ -6,35 +6,34 @@
 <title>Instrument de la Tradition Primordiale — prototype de l'axe</title>
 <style>
   :root{
-    --nuit:#0a0e1e; --or:#d4a94e; --or-pale:#e8cf9a;
-    --argent:#aab4c8; --rouge:#b03a2e; --texte:#cfd3de;
+    --noir:#000000; --blanc:#f2f2f2; --argent:#aab4c8;
+    --rouge:#d8493a; --texte:#e7e9ee;
   }
   html,body{margin:0;padding:0;width:100%;height:100%;overflow:hidden;background:
-    radial-gradient(120% 90% at 50% 30%, #141a33 0%, var(--nuit) 55%, #05070f 100%);
-    font-family:'Iowan Old Style',Georgia,'Times New Roman',serif;color:var(--texte)}
+    radial-gradient(120% 90% at 50% 30%, #050505 0%, var(--noir) 60%, #000 100%);
+    font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;color:var(--texte)}
   #app{position:relative;width:100vw;height:100vh;height:100dvh;overflow:hidden}
   #scene{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;z-index:0}
-  .panneau{position:absolute;z-index:2;background:rgba(10,14,30,.8);border:1px solid rgba(212,169,78,.25);
-    backdrop-filter:blur(6px);border-radius:2px;padding:.6rem .8rem;max-width:min(72vw,320px);
-    font-size:clamp(.62rem,2.4vw,.78rem)}
+  .panneau{position:absolute;z-index:2;background:rgba(0,0,0,.88);border:1px solid rgba(242,242,242,.4);
+    border-radius:0;padding:.6rem .8rem;max-width:min(72vw,320px);
+    font-size:clamp(.6rem,2.3vw,.74rem);letter-spacing:.01em}
   #titre{top:max(env(safe-area-inset-top),10px);left:10px}
-  #titre h1{margin:0;font-size:1.05em;font-weight:600;letter-spacing:.03em;color:var(--or-pale)}
-  #titre p{margin:.2rem 0 0;font-size:.85em;opacity:.75;font-style:italic}
-  #titre p.provenance{font-size:.78em;font-style:normal;opacity:.6;
-    font-family:ui-monospace,Menlo,monospace;letter-spacing:.01em}
+  #titre h1{margin:0;font-size:.95em;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--blanc)}
+  #titre p{margin:.3rem 0 0;font-size:.85em;opacity:.7}
+  #titre p.provenance{font-size:.78em;opacity:.55;letter-spacing:.01em}
   #info{bottom:max(env(safe-area-inset-bottom),10px);left:10px;display:none}
-  #info h2{margin:0 0 .2rem;font-size:1.05em;color:var(--or-pale);font-weight:600}
-  #info .src{font-size:.85em;opacity:.7;font-family:ui-monospace,Menlo,monospace;word-break:break-all}
-  #info .deg{font-size:.9em;color:var(--argent);margin:.15rem 0}
-  #legende{bottom:max(env(safe-area-inset-bottom),10px);right:10px;line-height:1.55;opacity:.9}
-  #legende i{display:inline-block;width:.85em;height:.28em;margin-right:.4em;vertical-align:middle}
-  #aide{top:max(env(safe-area-inset-top),10px);right:10px;opacity:.65;text-align:right;font-style:italic;
-    background:none;border:none;backdrop-filter:none;padding:0}
+  #info h2{margin:0 0 .3rem;font-size:.95em;color:var(--blanc);font-weight:600;letter-spacing:.02em}
+  #info .src{font-size:.82em;opacity:.65;word-break:break-all}
+  #info .deg{font-size:.85em;color:var(--argent);margin:.2rem 0}
+  #legende{bottom:max(env(safe-area-inset-bottom),10px);right:10px;line-height:1.7;opacity:.9}
+  #legende i{display:inline-block;width:1.1em;height:1px;margin-right:.5em;vertical-align:middle}
+  #aide{top:max(env(safe-area-inset-top),10px);right:10px;opacity:.55;text-align:right;
+    background:none;border:none;padding:0;text-transform:uppercase;letter-spacing:.04em;font-size:.62em}
   #erreur{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;
-    padding:2rem;text-align:center;background:var(--nuit);color:var(--texte)}
-  #erreur .boite{max-width:420px}
-  #erreur h2{color:var(--or-pale);margin:0 0 .6rem;font-size:1.1rem}
-  #erreur p{font-size:.85rem;line-height:1.5;opacity:.85}
+    padding:2rem;text-align:center;background:var(--noir);color:var(--texte)}
+  #erreur .boite{max-width:420px;border:1px solid rgba(242,242,242,.3);padding:1.2rem 1.4rem}
+  #erreur h2{color:var(--blanc);margin:0 0 .6rem;font-size:1rem;text-transform:uppercase;letter-spacing:.04em}
+  #erreur p{font-size:.85rem;line-height:1.5;opacity:.8}
   @media (max-width:520px){ #aide{display:none} }
 </style>
 </head>
@@ -57,13 +56,13 @@
   </div>
 
   <div class="panneau" id="legende">
-    <i style="background:var(--or)"></i>degrés (11–38)<br>
+    <i style="background:var(--blanc)"></i>degrés (11–38)<br>
     <i style="background:var(--argent)"></i>Barzakh supérieur (19–20)<br>
-    <i style="background:#e8e8f0"></i>filament — al-Insān al-Kāmil<br>
+    <i style="background:#fff"></i>filament — al-Insān al-Kāmil<br>
     <i style="background:var(--rouge)"></i>équivalence établie (hozo)<br>
-    <i style="background:#9a7fc8"></i>nœud universel (hors arbre-tradition)<br>
+    <i style="background:#d9d3ea"></i>nœud universel (hors arbre-tradition)<br>
     <i style="background:var(--argent)"></i>anneau zodiacal (signes 19 / manāzil 20)<br>
-    <i style="background:#7fc8a9"></i>registre parallèle (autre partition du même axe)
+    <i style="background:#cfe4d8"></i>registre parallèle (autre partition du même axe)
   </div>
 </div>
 
@@ -370,25 +369,48 @@ var canvas = document.getElementById('scene');
 var renderer = new THREE.WebGLRenderer({canvas:canvas, antialias:true, alpha:true});
 renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
 var scene = new THREE.Scene();
-scene.fog = new THREE.FogExp2(0x0a0e1e, 0.014);
+scene.fog = new THREE.FogExp2(0x000000, 0.014);
 var camera = new THREE.PerspectiveCamera(46, 1, 0.1, 300);
 
-scene.add(new THREE.AmbientLight(0x8890b0, .55));
-var lum = new THREE.PointLight(0xffe6b0, 1.1, 120); lum.position.set(8, 14, 10); scene.add(lum);
-var contre = new THREE.PointLight(0x5a6aa0, .5, 120); contre.position.set(-10, -8, -8); scene.add(contre);
+// -- Rendu à plat, non éclairé : schéma technique (trait blanc sur noir), pas de
+//    modelé PBR. Les nœuds sont des marqueurs 2D (voir marqueur()), pas des
+//    sphères éclairées : aucune lumière n'est nécessaire.
 
 var monde = new THREE.Group(); scene.add(monde);
 var interactifs = [];
 
+var POLICE = "ui-monospace, 'SF Mono', Menlo, monospace";
 function etiquette(txt, taille, couleur){
   var pr = 2, c = document.createElement('canvas'), g = c.getContext('2d');
-  g.font = (28 * pr) + 'px Georgia, serif';
-  c.width = g.measureText(txt).width + 16 * pr; c.height = 44 * pr;
-  g.font = (28 * pr) + 'px Georgia, serif'; g.fillStyle = couleur;
+  g.font = (24 * pr) + 'px ' + POLICE;
+  c.width = g.measureText(txt).width + 16 * pr; c.height = 40 * pr;
+  g.font = (24 * pr) + 'px ' + POLICE; g.fillStyle = couleur;
   g.textBaseline = 'middle'; g.fillText(txt, 8 * pr, c.height / 2);
   var tex = new THREE.CanvasTexture(c); tex.minFilter = THREE.LinearFilter;
   var s = new THREE.Sprite(new THREE.SpriteMaterial({map:tex, transparent:true, depthWrite:false}));
   s.scale.set(taille * c.width / c.height, taille, 1);
+  return s;
+}
+// -- Marqueur de nœud : petit cercle billboard tracé au trait (schéma technique),
+//    jamais une sphère éclairée. `plein` = point plombé (chaîne des degrés,
+//    filament) ; sinon anneau creux avec point central (nœuds nommés : Aqtâb,
+//    notionnels, registres, Homme Universel) — même logique que les petits
+//    repères circulaires numérotés des schémas de référence.
+function marqueur(taille, couleur, plein){
+  var pr = 3, d = 64 * pr, c = document.createElement('canvas'), g = c.getContext('2d');
+  c.width = c.height = d; g.translate(d / 2, d / 2);
+  g.strokeStyle = couleur; g.fillStyle = couleur; g.lineWidth = 2.2 * pr;
+  var r = d * .32;
+  if (plein){
+    g.beginPath(); g.arc(0, 0, r * .58, 0, Math.PI * 2); g.fill();
+    g.beginPath(); g.arc(0, 0, r, 0, Math.PI * 2); g.stroke();
+  } else {
+    g.beginPath(); g.arc(0, 0, r, 0, Math.PI * 2); g.stroke();
+    g.beginPath(); g.arc(0, 0, r * .2, 0, Math.PI * 2); g.fill();
+  }
+  var tex = new THREE.CanvasTexture(c); tex.minFilter = THREE.LinearFilter;
+  var s = new THREE.Sprite(new THREE.SpriteMaterial({map:tex, transparent:true, depthWrite:false}));
+  s.scale.set(taille, taille, 1);
   return s;
 }
 function ligne(pts, couleur, opacite, pointillee){
@@ -406,13 +428,13 @@ function ligne(pts, couleur, opacite, pointillee){
   var hautAxe = yDeg[11] + 5.5, basAxe = yDeg[38] - 2.2;
   var axe = new THREE.Mesh(
     new THREE.CylinderGeometry(.012, .012, hautAxe - basAxe, 8),
-    new THREE.MeshBasicMaterial({color:0x39415e, transparent:true, opacity:.6}));
+    new THREE.MeshBasicMaterial({color:0xaab4c8, transparent:true, opacity:.55}));
   axe.position.y = (hautAxe + basAxe) / 2; monde.add(axe);
   var halo = new THREE.Mesh(
     new THREE.CylinderGeometry(.001, .5, 5, 24, 1, true),
-    new THREE.MeshBasicMaterial({color:0xf2e6c8, transparent:true, opacity:.05, side:THREE.DoubleSide}));
+    new THREE.MeshBasicMaterial({color:0xf2f2f5, transparent:true, opacity:.05, side:THREE.DoubleSide}));
   halo.position.y = yDeg[11] + 2.8; monde.add(halo);
-  var eH = etiquette("Hāhūt (1–10) — degrés non manifestés", .5, "rgba(232,207,154,.5)");
+  var eH = etiquette("Hāhūt (1–10) — degrés non manifestés", .5, "rgba(242,242,245,.5)");
   eH.position.set(2.1, yDeg[11] + 3.4, 0); monde.add(eH);
 })();
 
@@ -422,23 +444,18 @@ BANDES.forEach(function(b){
   e.position.set(3.8, yEntre(b[0], b[1]), 0); monde.add(e);
   var yFront = (b[0] === 11) ? yDeg[11] + .6 : (yDeg[b[0]-1] + yDeg[b[0]]) / 2;
   var anneau = new THREE.Mesh(new THREE.RingGeometry(1.15, 1.22, 64),
-    new THREE.MeshBasicMaterial({color:0x6a7494, transparent:true, opacity:.26, side:THREE.DoubleSide}));
+    new THREE.MeshBasicMaterial({color:0x9aa4c0, transparent:true, opacity:.3, side:THREE.DoubleSide}));
   anneau.rotation.x = -Math.PI / 2; anneau.position.y = yFront; monde.add(anneau);
 });
 
 // -- Les 28 nœuds-degrés --
 DEGRES.forEach(function(d){
   var n = d[0], estBarzakh = (n === 19 || n === 20);
-  var sph = new THREE.Mesh(
-    new THREE.SphereGeometry(estBarzakh ? .13 : .16, 24, 16),
-    new THREE.MeshStandardMaterial({
-      color: estBarzakh ? 0xaab4c8 : 0xd4a94e,
-      emissive: estBarzakh ? 0x39415e : 0x6a4d14,
-      roughness:.35, metalness:.55}));
+  var sph = marqueur(estBarzakh ? .24 : .3, estBarzakh ? "#c9ced8" : "#ffffff", true);
   sph.position.set(0, yDeg[n], 0);
   sph.userData = {label: n + " · " + d[1], deg: "degré " + n, src: SOURCE_TABLE};
   monde.add(sph); interactifs.push(sph);
-  var e = etiquette(String(n), .42, "rgba(232,207,154,.75)");
+  var e = etiquette(String(n), .42, "rgba(255,255,255,.75)");
   e.position.set(-.55, yDeg[n], 0); monde.add(e);
 });
 
@@ -448,22 +465,20 @@ DEGRES.forEach(function(d){
 //    antérieur à l'ouverture de la Phase 3) --
 AQTAB.forEach(function(a){
   var n = a[0], px = 1.7;
-  var sph = new THREE.Mesh(
-    new THREE.SphereGeometry(.17, 24, 16),
-    new THREE.MeshStandardMaterial({color:0x9a7fc8, emissive:0x2c1f45, roughness:.4, metalness:.4}));
+  var sph = marqueur(.34, "#d9d3ea", false);
   sph.position.set(px, yDeg[n], 0);
   sph.userData = {label: a[1], deg: "degré " + n + " · nœud universel (hors arbre-tradition) — équivalence établie avec le Malakūt planétaire", src: SOURCE_AQTAB};
   monde.add(sph); interactifs.push(sph);
-  var e = etiquette(a[1], .42, "rgba(154,127,200,.85)");
+  var e = etiquette(a[1], .42, "rgba(217,211,234,.85)");
   e.position.set(px + .95, yDeg[n], 0); monde.add(e);
-  monde.add(ligne([new THREE.Vector3(0, yDeg[n], 0), sph.position], 0xb03a2e, .85, false));
+  monde.add(ligne([new THREE.Vector3(0, yDeg[n], 0), sph.position], 0xd8493a, .85, false));
 });
 
 // -- Barzakh supérieur : disques en rotation (19-20) --
 var disques = [];
 [19, 20].forEach(function(n){
   var t = new THREE.Mesh(new THREE.TorusGeometry(.85, .012, 8, 72),
-    new THREE.MeshBasicMaterial({color:0xaab4c8, transparent:true, opacity:.75}));
+    new THREE.MeshBasicMaterial({color:0xc9ced8, transparent:true, opacity:.75}));
   t.rotation.x = Math.PI / 2; t.position.y = yDeg[n];
   monde.add(t); disques.push(t);
 });
@@ -491,10 +506,10 @@ var disques = [];
   gSignes.position.y = yDeg[ZODIAQUE.degre_falak_al_buruj];
   gSignes.rotation.x = oblique;
   gSignes.add(new THREE.Mesh(new THREE.RingGeometry(R_INT, R_EXT, 128),
-    new THREE.MeshBasicMaterial({color:0xaab4c8, transparent:true, opacity:.16, side:THREE.DoubleSide})));
+    new THREE.MeshBasicMaterial({color:0xd7dbe6, transparent:true, opacity:.16, side:THREE.DoubleSide})));
   ZODIAQUE.signes.forEach(function(s, i){
     var a = (i / 12) * Math.PI * 2;
-    gSignes.add(segmentRadial(a, R_INT, R_EXT, 0xaab4c8, .55));
+    gSignes.add(segmentRadial(a, R_INT, R_EXT, 0xd7dbe6, .6));
     var aMil = ((i + .5) / 12) * Math.PI * 2;
     var e = etiquette(s.label, .46, "rgba(170,180,200,.8)");
     e.position.set(Math.cos(aMil) * (R_EXT + .3), Math.sin(aMil) * (R_EXT + .3), 0);
@@ -509,9 +524,9 @@ var disques = [];
   gManazil.position.y = yDeg[ZODIAQUE.degre_falak_al_manazil];
   gManazil.rotation.x = oblique;
   gManazil.add(new THREE.Mesh(new THREE.RingGeometry(R_INT, R_EXT, 128),
-    new THREE.MeshBasicMaterial({color:0xaab4c8, transparent:true, opacity:.10, side:THREE.DoubleSide})));
+    new THREE.MeshBasicMaterial({color:0xd7dbe6, transparent:true, opacity:.10, side:THREE.DoubleSide})));
   for (var m = 0; m < 28; m++){
-    gManazil.add(segmentRadial((m / 28) * Math.PI * 2, R_INT, R_GRAD, 0xd4a94e, .34));
+    gManazil.add(segmentRadial((m / 28) * Math.PI * 2, R_INT, R_GRAD, 0xd7dbe6, .3));
   }
   monde.add(gManazil);
 })();
@@ -521,8 +536,7 @@ var disques = [];
   var x = .6;
   var fil = ligne([new THREE.Vector3(x, yDeg[11] + .4, 0), new THREE.Vector3(x, yDeg[38] - .4, 0)], 0xf2f2fa, .9, false);
   monde.add(fil);
-  var noeud = new THREE.Mesh(new THREE.SphereGeometry(.09, 16, 12),
-    new THREE.MeshBasicMaterial({color:0xffffff}));
+  var noeud = marqueur(.28, "#ffffff", true);
   noeud.position.set(x, yEntre(19, 20), 0);
   noeud.userData = {label: FILAMENT.label + " — filament traversant",
     deg:"traverse les cinq Présences (rendu validé le 2026-07-01) ; identité à quatre voiles traditionnelles (tasawwuf/qabbalah/taoïsme/vêdânta) établie le 2026-07-26, discernement clos",
@@ -534,15 +548,14 @@ var disques = [];
   // -- Homme Universel : nœud universel, équivalence établie avec le filament
   //    (hozo, verdict Sidy 2026-07-26) — même traitement que les Aqtâb --
   var px = -1.7;
-  var sphHU = new THREE.Mesh(new THREE.SphereGeometry(.17, 24, 16),
-    new THREE.MeshStandardMaterial({color:0x9a7fc8, emissive:0x2c1f45, roughness:.4, metalness:.4}));
+  var sphHU = marqueur(.34, "#d9d3ea", false);
   sphHU.position.set(px, yEntre(19, 20), 0);
   sphHU.userData = {label: HOMME_UNIVERSEL.label, deg:"nœud universel (hors arbre-tradition) — équivalence établie avec le filament al-Insān al-Kāmil", src: HOMME_UNIVERSEL.src};
   monde.add(sphHU); interactifs.push(sphHU);
   posHommeUniversel = sphHU.position;
-  var eHU = etiquette(abreger(HOMME_UNIVERSEL.label, 22), .42, "rgba(154,127,200,.85)");
+  var eHU = etiquette(abreger(HOMME_UNIVERSEL.label, 22), .42, "rgba(217,211,234,.85)");
   eHU.position.set(px - 1.15, yEntre(19, 20), 0); monde.add(eHU);
-  monde.add(ligne([noeud.position, sphHU.position], 0xb03a2e, .85, false));
+  monde.add(ligne([noeud.position, sphHU.position], 0xd8493a, .85, false));
 })();
 
 // -- Boucle 38 → 11 --
@@ -551,8 +564,8 @@ var disques = [];
     new THREE.Vector3(0, yDeg[38], 0),
     new THREE.Vector3(-6.2, yEntre(19, 20), 0),
     new THREE.Vector3(0, yDeg[11], 0));
-  monde.add(ligne(crb.getPoints(72), 0xd4a94e, .38, true));
-  var e = etiquette("boucle 38 → 11", .46, "rgba(212,169,78,.55)");
+  monde.add(ligne(crb.getPoints(72), 0xd7dbe6, .38, true));
+  var e = etiquette("boucle 38 → 11", .46, "rgba(215,219,230,.55)");
   e.position.set(-4.6, yEntre(19, 20) + 1.2, 0); monde.add(e);
 })();
 
@@ -564,17 +577,15 @@ var posNotionnels = {};
     var a = i / NOTIONNELS.length * Math.PI * 2 + .35;
     var p = new THREE.Vector3(Math.cos(a) * R, y0, Math.sin(a) * R);
     posNotionnels[nd.id] = p;
-    var sph = new THREE.Mesh(new THREE.SphereGeometry(.2, 24, 16),
-      new THREE.MeshStandardMaterial({color:0x7f95c8, emissive:0x1d2742, roughness:.4, metalness:.35}));
+    var sph = marqueur(.4, "#cfd8ea", false);
     sph.position.copy(p);
     sph.userData = {label: nd.labelComplet || nd.label, deg:"nœud traversant / structurant (degré : —)", src: nd.src};
     monde.add(sph); interactifs.push(sph);
-    var e = etiquette(nd.label, .5, "rgba(190,203,230,.8)");
+    var e = etiquette(nd.label, .5, "rgba(207,216,234,.8)");
     e.position.set(p.x, p.y + .55, p.z); monde.add(e);
   });
   var pB = new THREE.Vector3(1.5, yEntre(19, 20), -1.0);
-  var b = new THREE.Mesh(new THREE.SphereGeometry(.18, 24, 16),
-    new THREE.MeshStandardMaterial({color:0xaab4c8, emissive:0x2a3350, roughness:.4, metalness:.4}));
+  var b = marqueur(.36, "#c9ced8", false);
   b.position.copy(pB);
   b.userData = {label: BARZAKH.label, deg:"degré 19.5 — bande du Barzakh supérieur (le principe est général)", src: BARZAKH.src};
   monde.add(b); interactifs.push(b);
@@ -582,10 +593,10 @@ var posNotionnels = {};
   eB.position.set(pB.x + .8, pB.y + .4, pB.z); monde.add(eB);
   ANCRAGES.forEach(function(pr){
     var a = posNotionnels[pr[0]], b2 = posNotionnels[pr[1]];
-    if (a && b2) monde.add(ligne([a, b2], 0xb03a2e, .95, false));
+    if (a && b2) monde.add(ligne([a, b2], 0xd8493a, .95, false));
   });
   if (posNotionnels[ID_TABLE]){
-    monde.add(ligne([posNotionnels[ID_TABLE], new THREE.Vector3(0, yEntre(24, 25), 0)], 0x6a7494, .35, true));
+    monde.add(ligne([posNotionnels[ID_TABLE], new THREE.Vector3(0, yEntre(24, 25), 0)], 0x9aa4c0, .35, true));
   }
 })();
 
@@ -646,15 +657,14 @@ var posNotionnels = {};
       monde.add(ligne([
         new THREE.Vector3(xDeCol(c), yDuNiveau(n1) + .5, z),
         new THREE.Vector3(xDeCol(c), yDuNiveau(n2) - .5, z)
-      ], 0x7fc8a9, c === "milieu" ? .5 : .3, c !== "milieu"));
+      ], 0xa9c9bb, c === "milieu" ? .5 : .3, c !== "milieu"));
     });
 
     // -- Les centres du registre --
     doms.forEach(function(d){
       var col = d.colonne || "milieu";
       var p = new THREE.Vector3(xDeCol(col), yDuNiveau(d._niv), z);
-      var sph = new THREE.Mesh(new THREE.SphereGeometry(.15, 24, 16),
-        new THREE.MeshStandardMaterial({color:0x7fc8a9, emissive:0x1c3a30, roughness:.4, metalness:.4}));
+      var sph = marqueur(.3, "#cfe4d8", false);
       sph.position.copy(p);
       sph.userData = {
         label: d.label,
@@ -666,7 +676,7 @@ var posNotionnels = {};
         src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
       };
       monde.add(sph); interactifs.push(sph);
-      var e = etiquette(abreger(d.label, 18), .44, "rgba(127,200,169,.85)");
+      var e = etiquette(abreger(d.label, 18), .44, "rgba(207,228,216,.85)");
       e.position.set(p.x + (col === "gauche" ? -1.15 : 1.15), p.y, z);
       monde.add(e);
 
@@ -677,11 +687,11 @@ var posNotionnels = {};
       // ni vers qabbalah/hindouisme-tantra.
       if (posHommeUniversel && HOMME_UNIVERSEL.cibles
           && HOMME_UNIVERSEL.cibles.indexOf(d.id) !== -1){
-        monde.add(ligne([posHommeUniversel, p], 0xb03a2e, .85, false));
+        monde.add(ligne([posHommeUniversel, p], 0xd8493a, .85, false));
       }
     });
 
-    var titre = etiquette(abreger(reg.label, 30), .52, "rgba(127,200,169,.7)");
+    var titre = etiquette(abreger(reg.label, 30), .52, "rgba(207,228,216,.7)");
     titre.position.set(0, yDuNiveau(1) + 1.5, z); monde.add(titre);
   });
 })();
@@ -696,12 +706,12 @@ var posNotionnels = {};
     {v:new THREE.Vector3(0, y,  L), t:"FC — Froid (L'Origine)"}
   ];
   angles.forEach(function(a){
-    monde.add(ligne([new THREE.Vector3(0, y, 0), a.v], 0x6a7494, .5, false));
+    monde.add(ligne([new THREE.Vector3(0, y, 0), a.v], 0x9aa4c0, .5, false));
     var e = etiquette(a.t, .5, "rgba(170,180,200,.85)");
     e.position.copy(a.v).multiplyScalar(1.06); e.position.y = y + .3; monde.add(e);
   });
   var cercle = new THREE.Mesh(new THREE.RingGeometry(L - .05, L, 96),
-    new THREE.MeshBasicMaterial({color:0x39415e, transparent:true, opacity:.5, side:THREE.DoubleSide}));
+    new THREE.MeshBasicMaterial({color:0x9aa4c0, transparent:true, opacity:.4, side:THREE.DoubleSide}));
   cercle.rotation.x = -Math.PI / 2; cercle.position.y = y; monde.add(cercle);
 })();
 
@@ -718,18 +728,43 @@ function redim(){
 redim();
 
 // ---- Cadrage automatique (corrige le rendu tassé/décentré) -------------------
+//   Ancien calcul : sphère englobante orientée n'importe comment, ajustée sur
+//   l'angle de champ le plus étroit (horizontal, en portrait iPad) — la scène
+//   est bien plus large/profonde (registres parallèles, anneau, angles de
+//   l'espace) que haute, ce qui forçait un recul proche du plafond (90) et
+//   rendait tout minuscule. Nouveau calcul : ajuste la distance à l'étendue
+//   RÉELLE de la boîte englobante projetée sur les axes écran de l'angle de
+//   vue initial (theta0/phi0), pas sur une sphère isotrope.
+var THETA0 = .78, PHI0 = 1.22;
 var cadrage = (function(){
   var box = new THREE.Box3().setFromObject(monde);
-  var sph = box.getBoundingSphere(new THREE.Sphere());
+  var centre = box.getCenter(new THREE.Vector3());
+  var dirInit = new THREE.Vector3(
+    Math.sin(PHI0) * Math.cos(THETA0), Math.cos(PHI0), Math.sin(PHI0) * Math.sin(THETA0));
+  var camTmp = camera.clone();
+  camTmp.position.copy(centre).addScaledVector(dirInit, 50);
+  camTmp.lookAt(centre);
+  camTmp.updateMatrixWorld();
+  var axeDroite = new THREE.Vector3().setFromMatrixColumn(camTmp.matrixWorld, 0);
+  var axeHaut = new THREE.Vector3().setFromMatrixColumn(camTmp.matrixWorld, 1);
+  var etendueDroite = 0, etendueHaut = 0;
+  [box.min.x, box.max.x].forEach(function(x){
+    [box.min.y, box.max.y].forEach(function(y){
+      [box.min.z, box.max.z].forEach(function(z){
+        var coin = new THREE.Vector3(x, y, z).sub(centre);
+        etendueDroite = Math.max(etendueDroite, Math.abs(coin.dot(axeDroite)));
+        etendueHaut = Math.max(etendueHaut, Math.abs(coin.dot(axeHaut)));
+      });
+    });
+  });
   var vFov = camera.fov * Math.PI / 180;
   var hFov = 2 * Math.atan(Math.tan(vFov / 2) * camera.aspect);
-  var demiAngle = Math.min(vFov, hFov) / 2;
-  var d = sph.radius / Math.sin(demiAngle) * 1.28;
-  return {centre: sph.center, dist: Math.max(9, Math.min(90, d))};
+  var d = Math.max(etendueHaut / Math.tan(vFov / 2), etendueDroite / Math.tan(hFov / 2)) * 1.3;
+  return {centre: centre, dist: Math.max(9, Math.min(90, d))};
 })();
 
 // ---- Caméra orbitale (glisser / pincer, sans dépendance externe) -------------
-var theta = .78, phi = 1.22, dist = cadrage.dist, cible = cadrage.centre.clone();
+var theta = THETA0, phi = PHI0, dist = cadrage.dist, cible = cadrage.centre.clone();
 var autoRot = !reduitMotion;
 function placerCamera(){
   phi = Math.max(.15, Math.min(Math.PI - .15, phi));

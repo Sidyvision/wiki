@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-24
+updated: 2026-08-25
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,64 @@ updated: 2026-08-24
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-25] outillage | Correctif du cadrage caméra auto du prototype Instrument
+
+- **Contexte** : suite à la refonte graphique (entrée précédente), Sidy signale
+  que la scène apparaît minuscule/reculée au démarrage — bug déjà repéré comme
+  préexistant et non traité dans la passe précédente ; Sidy demande de le
+  corriger.
+- **Cause identifiée** (débogage Chromium sandboxé, valeurs mesurées) : le
+  cadrage auto (`atelier/rd/instrument/instrument-prototype.html`) ajustait la
+  distance caméra sur la SPHÈRE englobante (isotrope) de la scène, avec l'angle
+  de champ le plus étroit (horizontal, en portrait iPad, ~30° contre 46°
+  vertical). Or la scène est bien plus large/profonde (registres parallèles,
+  anneau zodiacal, angles de l'espace, ±7 à ±10 unités) que haute (~25 unités) :
+  ce calcul forçait la caméra à une distance proche de son plafond (90) pour
+  loger ces appendices latéraux, rétrécissant d'autant la chaîne verticale des
+  degrés — l'objet principal de la scène.
+- **Modifié** : `atelier/rd/instrument/instrument-prototype.html` — la distance
+  est maintenant calculée en projetant les 8 coins de la boîte englobante sur
+  les axes écran (droite/haut) de l'angle de vue initial, et en ajustant la
+  distance sur CETTE étendue réelle plutôt que sur une sphère isotrope. Aucune
+  donnée ni logique de manifeste touchée.
+- **Vérification** : rendu comparé avant/après en portrait (900×1400) et en
+  paysage (1366×1024, proportion iPad Pro) via Chromium sandboxé (Playwright,
+  three.js local pour la vérification uniquement) — gain net de lisibilité
+  dans les deux orientations.
+- **Commit** : f780024
+
+## [2026-08-25] outillage | Refonte graphique du prototype Instrument — style schéma technique monochrome
+
+- **Contexte** : Sidy insatisfait du rendu visuel du prototype (`atelier/rd/instrument/instrument-prototype.html`) —
+  quatre images de référence partagées, style commun : fond noir, trait blanc fin,
+  marqueurs circulaires numérotés, typographie technique/monospace, esthétique de
+  diagramme cosmologique/schéma d'ingénierie plutôt que rendu 3D éclairé doré.
+- **Modifié** : `atelier/rd/instrument/instrument-prototype.html` — couche de
+  rendu uniquement, aucune donnée ni logique de manifeste touchée (découplage
+  strict respecté) :
+  - Fond passé au noir plat (était dégradé marine) ; police passée en
+    monospace (était Georgia/serif) ; panneaux à angles vifs sans flou.
+  - Suppression totale de l'éclairage PBR (AmbientLight, PointLight,
+    MeshStandardMaterial) : les nœuds-sphères éclairés/dorés sont remplacés
+    par une fonction `marqueur()` — petit cercle billboard tracé au trait
+    (plein pour la chaîne des degrés et le filament, anneau creux à point
+    central pour les nœuds nommés : Aqtâb, notionnels, registres, Homme
+    Universel), non éclairé, cohérent avec l'esthétique « schéma technique »
+    des références.
+  - Palette resserrée : blanc/argent pour l'ensemble des lignes structurelles
+    (axe, bandes, anneau zodiacal, angles de l'espace, registres parallèles) ;
+    le rouge (équivalence établie, hozo) est conservé comme SEUL accent
+    colore — invariant doctrinal de l'architecture v0.2/v0.3 (marquage
+    qualifié rouge=équivalence/bleu=complémentarité), non touché.
+  - Vérification : rendu dans Chromium sandboxé (Playwright, three.js servi
+    en local pour la vérification — les CDN de production restent inchangés
+    dans le fichier livré) ; capture d'écran validée avant remise.
+- **Non traité** (hors périmètre de cette passe, pré-existant) : le cadrage
+  caméra automatique produit une scène petite/excentrée au premier chargement
+  (déjà présent avant cette modification, vérifié par comparaison avec la
+  version précédente) — signalé à Sidy, pas corrigé ici.
+- **Commit** : 4347b2c
 
 ## [2026-08-24] archivage | Recherches complémentaires rétroactives sur les trois premières fiches corpus (forteresses, dougong, refroidissement passif)
 
