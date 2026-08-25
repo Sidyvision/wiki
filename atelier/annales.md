@@ -10,6 +10,27 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] rd/instrument | Point 4 — renvoi feuille de route corrigé (v0.2 → v0.3), soumissions Gem marquées absorbées
+
+- **Contexte** : deux hygiènes documentaires signalées le 2026-08-20 mais jamais
+  exécutées (point 4 des consignes de reprise du chantier Instrument, autorisé
+  par Sidy : « Oui, corrige »).
+- **Action 1** : `instrument-feuille-de-route-v2.md` référençait encore
+  `instrument-tradition-primordiale-architecture-v0.2.md` comme fiche canonique,
+  alors que la v0.3 (ouverte le 2026-08-04) l'a supersédée — le §3 (Phase 3) du
+  même document référençait déjà correctement la v0.3, seul le renvoi initial
+  était resté périmé. Corrigé avec note datée, sans autre changement de fond.
+- **Action 2** : les 4 fiches `soumission-gem-*.md` (convergence-28,
+  reponse-geometrie-3d, reponse-gloton, reponse-visuelle-28) — échanges
+  originaux avec le Gem René Guénon, datés 2026-07-01 — marquées « Absorbée »
+  avec pointeur vers `spec-technique-axe-38-degres.md` et l'architecture
+  `instrument-tradition-primordiale-architecture-v0.3.md` §8, qui ont repris et
+  développé leur contenu. Contenu et `type: projet` inchangés (Cmd 10) ; fiches
+  conservées comme trace de l'échange, plus comme point d'action ouvert.
+- **Vérification** : `verifier-invariants.py` — 0 erreur, 15 avertissements
+  (inchangés, faux-positifs connus de citations de wikilinks bruts).
+- **Commit** : af0f522
+
 ## [2026-08-25] rd/instrument | Correction claim périmée — table des 38 degrés (21-27) déjà avancée
 
 - **Symptôme** : mon diagnostic de reprise du chantier Instrument (point 3 du
