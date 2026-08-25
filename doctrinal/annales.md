@@ -9,6 +9,32 @@ updated: 2026-08-25
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-25] archivage | Table des 28 degrés — Tableau 1 Meftah (chapitres 1-9 Fuçûç)
+
+- **Contexte** : Sidy a fourni deux photographies. La première (2 pages) est
+  identifiée comme le Tableau 1, pp. 30-31, de Meftah, *Le Symbolisme Universel
+  des Châtons des Sagesses* (Albouraq) : correspondances entre les chapitres 1-9
+  des *Fuṣūṣ al-Ḥikam* (façç Adam à Joseph) et les degrés du macrocosme/microcosme.
+  La seconde (roue cosmologique anglophone) est confirmée par Sidy comme trouvée
+  sur Pinterest — non retenue comme source (discipline des sources, §VII CLAUDE.md
+  racine : pas de référence bibliographique vérifiable).
+- **Analyse** : la numérotation par chapitre de Meftah ne correspond pas terme à
+  terme à la numérotation par degré de la table à 38 degrés déjà établie dans la
+  fiche (ex. le chapitre 2 de Meftah réunit deux notions que la table à 38 degrés
+  distingue aux degrés 3 et 4). Application du Cmd 3 (non-syncrétisme) : la
+  transcription est intégrée comme sous-section distincte et explicitement
+  non-fondue, avec tableau comparatif des écarts et statut *kari-kumi* (convention
+  Sashimono) — aucun joint chapitre↔degré n'est taillé, une fiche `discernement`
+  future en jugerait.
+- **Action** : ajout de la sous-section « Tableau 1 (Meftah, pp. 30-31) —
+  chapitres 1-9 des *Fuṣūṣ al-Ḥikam* » dans
+  [[doctrinal/symboles/table-28-degres-nafas-rahman]], sous « Degrés 1–10 —
+  Pré-lettrés ». Note d'avertissement ajoutée au bandeau d'autorité de la fiche.
+  `updated:` déjà à jour (2026-08-25, édition antérieure du jour).
+- **Vérification** : `verifier-invariants.py --racine /root/wiki` → 0 erreur,
+  15 avertissements (inchangés, faux positifs connus).
+- **Commit** : 6bdbc04
+
 ## [2026-08-25] restauration | Table des 28 degrés — Lettre/Nom Divin/Manzil complétés (degrés 21-27)
 
 - **Contexte** : reprise du chantier Instrument. Diagnostic initial (repris de
