@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, homme-universel, jili, ibn-arabi, prophetologie]
 created: 2026-06-05
-updated: 2026-06-29
+updated: 2026-08-25
 sources: ["[[universal-man-jili]]", "[[jesus-and-enoch-in-ibn-arabi]]", "[[awrad-ibn-arabi]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 4
 cross_links: ["[[abd-al-karim-al-jili]]", "[[ibn-arabi]]", "[[wahdat-al-wujud]]", "[[barzakh]]", "[[walaya]]", "[[tasawwuf]]", "[[hadarat-khams]]"]
@@ -33,9 +33,16 @@ qui totalise tous les domaines divins et tous les mondes produits, sous leurs mo
 universelles et particulières. Il y est également identifié, sous différents rapports, au
 Livre synthétisant tous les Livres divins et existentiels, à la Matrice du Livre
 (*umm al-kitāb*, en rapport avec l'esprit), à la Table Gardée (*lawḥ maḥfūẓ*, en rapport
-avec le cœur), et aux Feuillets anoblis du Coran (LXXX, 13). C'est pour ces raisons,
-précise Jurjānī, que le Monde tout entier est lui-même désigné comme « le grand Homme »
+avec le cœur), au Livre de l'Effacement et de l'Affermissement (*al-maḥw wa-l-iṯbāt*,
+en rapport avec l'âme), et aux Feuillets anoblis du Coran (LXXX, 13) dont seuls les êtres
+purifiés des voiles obscurcissants peuvent toucher les secrets. La définition précise en
+outre le rapport macro/microcosmique : l'Intellect premier (*ʿaql awwal*) est au
+Macrocosme et aux Réalités essentielles ce que l'esprit humain est à son corps, et l'Âme
+universelle (*nafs kulliyya*) est au cœur du Macrocosme ce que l'âme logique
+(*nafs nāṭiqa*) est au cœur de l'Homme. C'est pour toutes ces raisons, précise Jurjānī,
+que le Monde tout entier est lui-même désigné comme « le grand Homme »
 (*insān kabīr*) — source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 0246, p. 539.
+Vérifié sur l'édition physique (trad. Maurice Gloton, Albouraq).
 
 ### L'Homme Universel et le Prophète
 
@@ -51,16 +58,28 @@ Trois entrées distinctes de Jurjānī précisent des aspects particuliers de l'
 Universel, chacune le rapportant à une fonction métaphysique précise :
 
 - **L'Arbre (*al-shajara*)** — l'Homme Parfait y est décrit comme régissant le Corps
-  universel (*jism kullī*), synthétisant la Réalité essentielle. Image de l'arbre central
-  (*wasṭiyya*), « ni de l'Orient de la Nécessité ni de l'Occident de la Possibilité »,
-  dont la racine s'enfonce dans la terre la plus inférieure tandis que la ramure s'élève
-  dans les cieux les plus sublimes — source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 0879, p. 539.
+  universel (*jism kullī*), synthétisant la Réalité essentielle en répandant de toutes
+  parts ses aspects les plus ténus (*daqāʾiq*). Image de l'arbre central (*wasṭiyya*),
+  « ni de l'Orient de la Nécessité ni de l'Occident de la Possibilité », mais une réalité
+  médiane dont la racine s'enfonce dans la terre la plus inférieure tandis que la ramure
+  s'élève dans les cieux les plus sublimes ; ses réalités spirituelles sont ses rameaux.
+  L'épiphanie (*tajallī*) de l'Essence, lors de la réalisation de l'Unité de la Synthèse,
+  est sa réalité elle-même apparaissant en lui par le secret de la Parole révélée :
+  « En vérité, Moi, Je suis Dieu, le Seigneur de l'ensemble des êtres du monde »
+  (Coran XXVIII, 30) — source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 0879, p. 539.
+  Vérifié sur l'édition physique (trad. Maurice Gloton, Albouraq).
 - **L'Ombre du Dieu manifeste (*ẓill al-ilāh*)** — l'Homme Universel y est défini comme
   celui qui réalise le degré de la Présence de l'Unicité (*ḥaḍra wāḥidiyya*) — source :
-  [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1018, p. 539.
+  [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1018, p. 539. Vérifié sur
+  l'édition physique (trad. Maurice Gloton, Albouraq).
 - **Le langage du Réel (*lisān al-ḥaqq*)** — l'Homme Parfait s'y réalise par la vertu du
   support épiphanique (*maẓhariyya*) du Nom divin « Celui qui parle » (*mutakallim*) —
-  source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1370, p. 539.
+  source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1370, p. 539. Vérifié sur
+  l'édition physique (trad. Maurice Gloton, Albouraq).
+
+**Reste à transcrire** : les déf. 1502-1503 (*martabat al-insān al-kāmil*, le rang ou
+degré de l'Homme Parfait — index p. 550) ont été annoncées dans ce lot mais leur texte
+n'a pas encore été transcrit depuis l'édition physique ; elles demeurent en attente.
 
 ### Correspondances cosmiques
 

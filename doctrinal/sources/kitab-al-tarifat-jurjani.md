@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [lexicographie, terminologie, theologie, logique, soufisme, droit, grammaire, prosodie]
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-08-25
 sources: ["[[doctrinal/autorites/al-jurjani]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/al-jurjani]]", "[[doctrinal/sources/kitab-tarifat-index-transcription]]", "[[doctrinal/symboles/wahdat-al-wujud]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/symboles/al-insan-al-kamil]]"]
@@ -47,6 +47,54 @@ Définitions transcrites depuis l'édition physique (trad. Maurice Gloton, Albou
 - déf. 0995 — al-ṭard (الطرد) : [[doctrinal/symboles/tard|L'enchaînement, la réciprocité logique]]
 - déf. 0996 — al-ṭuġyān (الطّغيان) : [[doctrinal/symboles/tughyan|L'impiété, la transgression]]
 - déf. 0997 — al-ṭalāq (الطلاق) : [[doctrinal/symboles/talaq|La répudiation, le divorce]]
+
+**Lot p. 525, 531, 533-539, 573-574 (index)** — transcription Sidy 2026-08-25,
+enrichissement des fiches déjà ancrées :
+- déf. 0295 — al-barzaḫ (البرزخ) : [[doctrinal/symboles/barzakh]] (+ lien ʿālam al-miṯāl / ḫayāl munfaṣil)
+- déf. 0296 — al-barzaḫ al-jāmiʿ (البرزخ الجامع) : [[doctrinal/symboles/barzakh]]
+- déf. 0509 — al-jabarūt (الجبروت) : [[doctrinal/symboles/barzakh]] (articulation avec [[doctrinal/symboles/hadarat-khams]])
+- déf. 0529 — al-jasad (الجسد) : [[doctrinal/symboles/barzakh]] (corps subtil dans l'Imagination séparée)
+- déf. 0525 — al-juzʾī al-iḍāfī (الجزئي الإضافي) : le particulier relatif (transcrit en annexe ci-dessous, pas de fiche séparée — terme technique de logique)
+- déf. 1831 — al-walī (الوَلىّ) : [[doctrinal/symboles/walaya]]
+- déf. 1833 — al-walāya (الوَلاية) : [[doctrinal/symboles/walaya]]
+- déf. 1281 — al-quṭbiyyat al-kubrā (القطبية الكُبرى) : [[doctrinal/symboles/walaya]] et [[doctrinal/symboles/khatm]] (§IV)
+- déf. 0246 — al-insān al-kāmil (الإنسان الكامل) : [[doctrinal/symboles/al-insan-al-kamil]]
+- déf. 0879 — al-šajara (الشجرة) : [[doctrinal/symboles/al-insan-al-kamil]]
+- déf. 1018 — ẓill al-ilāh (ظلّ الآله) : [[doctrinal/symboles/al-insan-al-kamil]]
+- déf. 1370 — lisān al-ḥaqq (لسان الحقّ) : [[doctrinal/symboles/al-insan-al-kamil]]
+- déf. 0214 — Allāh (اللّه) : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 0051 — al-aḥadiyya (الأحدّية) : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 0052-0053 — aḥadiyyat al-jamʿ / al-kaṯra : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 0215 — al-ilāhiyya / al-ulūhiyya (الالهيّة) : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 0439 — al-taqdīs (التقديس) : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 0480 — al-tawḥīd (التوحيد) : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 0536 — jamʿ al-jamʿ (جمع الجمع) : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 0631 — al-ḥaḍarāt al-ḫams al-ilāhiyya (الحضرات الخمس الإلآهية) : versée in extenso dans [[doctrinal/symboles/hadarat-khams]] (annales 2026-06-29) et citée dans [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 0703 — al-ḫuṣūṣ (الخصوص) : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 1121 — al-ʿamāʾ (العَماء) : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 1201 — farq al-jamʿ (فَرق الجَمْع) : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 1504 — al-martabat al-ilāhiyya (المَرْتَبَة اللإلاهيّة) : [[doctrinal/symboles/wahdat-al-wujud]]
+- déf. 1782 — al-nūn (النّون) : [[doctrinal/symboles/wahdat-al-wujud]]
+
+**Reste à transcrire** (annoncé dans ce lot, texte non encore fourni) : déf. 1502-1503
+(*martabat al-insān al-kāmil*, le rang de l'Homme Parfait).
+
+### Annexe : Déf. 0525 — al-juzʾī al-iḍāfī (terme technique de logique)
+
+**al-juzʾī al-iḍāfī** (الجزئي الإضافي) — Le particulier relatif.
+
+C'est le concept qui admet que tout ce qui est plus particulier (*ahaṣṣ*) entre dans ce
+qui est plus général (*aʿamm*), comme l'être humain est rapporté à l'animal par lequel
+il est nommé, car sa nature particulière (*juzʾiyya*) est mise en relation avec une autre
+réalité en correspondance avec le général relatif (*kullī iḍāfī*) qui est plus général
+que cette réalité. Le particulier relatif est plus général que le particulier en soi, car
+la partie est ce qui compose une chose et aussi autre chose, comme l'animal est un élément
+de la définition de Zayd, celui-ci étant fait d'animalité et d'autres réalités encore
+comme celle d'être un animal raisonnable. D'après cet exemple, Zayd est un tout et
+l'animal en est une partie ; la relation qui unit l'animal à Zayd est donc l'animal en
+mode général, et celle qui unit Zayd à l'animal est en mode particulier.
+— source : Kitāb al-Taʿrīfāt, déf. 0525, p. 525. Vérifié sur l'édition physique
+(trad. Maurice Gloton, Albouraq).
 
 ### Annexe : Déf. 0992 — al-ṭarīq al-annī (terme technique de logique)
 

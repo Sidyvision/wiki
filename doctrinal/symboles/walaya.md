@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, saintete, walaya, metaphysique]
 created: 2026-06-02
-updated: 2026-06-30
+updated: 2026-08-25
 sources: ["[[awrad-ibn-arabi]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 2
 cross_links: ["[[ibn-arabi]]", "[[tasawwuf]]", "[[wird-awrad]]", "[[salawat]]", "[[al-insan-al-kamil]]", "[[doctrinal/symboles/walaya-fath-adab]]"]
@@ -34,8 +34,12 @@ déf. 1831, p. 575.
 
 La *walāya* elle-même (déf. 1833) est définie comme « la délégation ou transmission
 d'autorité, l'investiture » : elle s'applique à l'adorateur qui agit en lieu et place de
-Dieu le Réel (*qiyām al-ʿabd bi-l-ḥaqq*) dès qu'il s'éteint à lui-même — source :
-[[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1833, p. 575.
+Dieu le Réel (*qiyām al-ʿabd bi-l-ḥaqq*) dès qu'il s'éteint à lui-même. Jurjānī note
+aussi l'acception juridique du même terme : dans la Loi, la *walāya* désigne
+l'exécution (*tanfīḏ*) des déclarations ou arrêtés (*qawl*) par un autre, que celui-ci
+soit consentant ou non — source :
+[[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1833, p. 575. Vérifié sur
+l'édition physique (trad. Maurice Gloton, Albouraq).
 
 ### Hiérarchie : la *walāya* comme réalité hiérarchisée
 
@@ -50,7 +54,8 @@ nubuwwa*) de Muḥammad — le Pôle n'en étant que l'Héritier (*wārith*), pa
 parfaite. **Jurjānī affirme explicitement que le Pôle n'est pas le Sceau de la Sainteté**
 (*ḫātim al-walāya*) : le Pôle suprême des Pôles est l'intériorité du Sceau de la
 Prophétie (*bāṭin ḫātim al-nubuwwa*), tandis que le Sceau de la Sainteté est une fonction
-distincte — source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1281, p. 550.
+distincte — source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1281, p. 533.
+Vérifié sur l'édition physique (trad. Maurice Gloton, Albouraq).
 
 Cette précision invite à la prudence : la hiérarchie *quṭb → ghawth → khatm al-walāya*
 esquissée plus haut ne doit pas être lue comme une simple échelle continue où chaque rang

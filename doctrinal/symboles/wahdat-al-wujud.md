@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, ontologie, ibn-arabi, unite-de-letre]
 created: 2026-06-02
-updated: 2026-08-04
+updated: 2026-08-25
 sources: ["[[jesus-and-enoch-in-ibn-arabi]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]]"]
 sources_count: 3
 cross_links: ["[[ibn-arabi]]", "[[barzakh]]", "[[tasawwuf]]", "[[walaya]]", "[[hadarat-khams]]"]
@@ -33,7 +33,9 @@ René Guénon, dans *L'Homme et son devenir selon le Vêdânta* ch. XXVI (« L'I
 
 Jurjānī fournit l'appareil terminologique précis qui sous-tend cette doctrine, organisé
 autour de plusieurs degrés et fonctions distincts de l'Unité divine — à ne pas confondre
-entre eux, chacun désignant un aspect particulier.
+entre eux, chacun désignant un aspect particulier. L'ensemble des définitions citées
+ci-dessous a été vérifié sur l'édition physique (trad. Maurice Gloton, Albouraq),
+2026-08-25.
 
 **Allāh** (déf. 0214) est défini comme le nom propre qui désigne Dieu le Réel et qui
 totalise les significations principielles de tous les Noms parfaits (*asmāʾ ḥusnā*).
@@ -80,7 +82,21 @@ Dieu par Sa Fonction seigneuriale (*rubūbiyya*), la reconnaissance de Son Unici
 (*tanzīh*) de Dieu, dans l'âme, de tout ce qui ne Lui convient pas. Jurjānī la distingue
 du *tasbīḥ* (glorification sublime) : le *tasbīḥ* est pureté transcendante sous le seul
 rapport de la réalisation synthétique, tandis que le *taqdīs* l'est sous le double rapport
-de la réalisation synthétique et distinctive — d'où une extension plus grande.
+de la réalisation synthétique et distinctive — d'où une extension plus grande. C'est
+aussi éloigner du Seigneur ce qui ne convient pas à la Fonction divine (*ulūhiyya*).
+
+**Al-Ḫuṣūṣ** (déf. 0703) — la particularité, la singularité — est le caractère unique
+(*aḥadiyya*) que chaque chose implique par rapport à d'autres par sa détermination propre
+(*taʿayyun*), car chaque chose a une unité (*waḥda*) qui lui est propre. Cette définition
+est notable pour la présente doctrine : elle transpose le vocabulaire de l'Unité divine
+à l'échelle de chaque être déterminé.
+
+**Al-Nūn** (déf. 1782) — l'Encrier, la lettre N, la science — désigne la science
+totalisatrice, symbolisée par l'Encrier (*dawāt*).
+
+— source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 0051-0053, 0214-0215,
+0439, 0480, 0536, 0703, 1121, 1201, 1782, p. 531 et 573-574. Vérifié sur l'édition
+physique (trad. Maurice Gloton, Albouraq).
 
 ### Le Degré divin (*al-martabat al-ilāhiyya*) — articulation à sept aspects
 
