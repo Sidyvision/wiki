@@ -31,7 +31,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   rapportés sans action engagée.
 - **Fiche** : `atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md`
   (statut `consignation`, en attente de `vise`).
-- **Commit** : (à renseigner après commit)
+- **Commit** : 863ad09
 
 ## [2026-08-25] rd/instrument | Correction des écarts §2.1/§2.4 (P5, hygiène documentaire)
 
