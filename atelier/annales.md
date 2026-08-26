@@ -10,6 +10,29 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-26] rd/infrastructure | Migration OmniRoute des profils prioritaires (quota Qwen épuisé)
+
+- **Contexte** : quota hebdomadaire Qwen Cloud Token Plan épuisé (429
+  `Throttling.AllocationQuota`, reset 2026-08-29 12:29 UTC). Session ouverte
+  sur un quiproquo (instruction initiale au profil de risque — édition de
+  `~/.bashrc`, secrets en clair — refusée en l'état puis légitimée par preuve
+  directe de Sidy : infrastructure OmniRoute auto-hébergée, installée par
+  ses soins).
+- **Action** : ajout d'un provider `omniroute` (`auto/best-free`, hors quota
+  Claude/Anthropic — contrainte explicite de Sidy) en parallèle du provider
+  `qwen` préservé, sur les profils `gardien`, `studio`, `publication` et
+  Hermes Terminal, testés un par un avec confirmation humaine à chaque étape.
+  Webui non modifié (hérite par cookie de profil). 9 profils métier et les
+  profils collaborateurs (`habib-mehdi`, `habib-wendel`) explicitement
+  laissés hors périmètre par Sidy.
+- **Signalement, non verdict** : instabilité transitoire observée sur le
+  combo `auto/best-free` (un retry combo, une latence ~90s) ; deux
+  avertissements `security_audit` Hermes (root, SSH par mot de passe)
+  rapportés sans action engagée.
+- **Fiche** : `atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md`
+  (statut `consignation`, en attente de `vise`).
+- **Commit** : (à renseigner après commit)
+
 ## [2026-08-25] rd/instrument | Correction des écarts §2.1/§2.4 (P5, hygiène documentaire)
 
 - **Contexte** : reprise du chantier Phase 5 sur consigne de Sidy (« PHASE 5,
