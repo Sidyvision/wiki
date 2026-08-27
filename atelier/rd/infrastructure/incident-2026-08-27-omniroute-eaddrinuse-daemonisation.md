@@ -97,6 +97,44 @@ process jusque-là lancé à la main, tuer explicitement toute instance
 manuelle résiduelle avant le premier `systemctl start`
 (`ss -tlnp | grep <port>`), pour éviter la course au port observée ici.
 
+## Extension — daemonisation de Hermes WebUI (même jour, même pattern)
+
+Le même jour, panne indépendante mais de même nature constatée sur Hermes WebUI
+(`https://wiki.tail7ce5ca.ts.net/`, exposé via funnel Tailscale vers
+`127.0.0.1:8787`) : écran blanc côté client. Diagnostic (`/root/.hermes/webui.log`) :
+processus `server.py` mort depuis 2026-08-23T18:19 (panne silencieuse, ~4 jours),
+sans lien avec l'incident Termius du matin — précédent déjà documenté
+(incident Discord du 23/08).
+
+**Résolution immédiate** : relance manuelle (`nohup ... & disown`), vérifiée
+opérationnelle en local et via le funnel (HTTP 200 des deux côtés).
+
+**Application du même enseignement que ci-dessus** : plutôt que de laisser ce
+process manuel de nouveau exposé au même risque de mort silencieuse sans
+supervision, daemonisation immédiate via systemd — même gabarit que pour
+OmniRoute :
+
+```
+/etc/systemd/system/hermes-webui.service
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/hermes-webui
+ExecStart=/usr/local/lib/hermes-agent/venv/bin/python server.py
+Restart=always
+RestartSec=3
+```
+
+`systemctl enable --now hermes-webui`. État vérifié : `active (running)`,
+`enabled`, port 8787 en écoute, HTTP 200 confirmé en local et via le funnel
+Tailscale.
+
+**Portée de la généralisation** : deux process indépendants (OmniRoute,
+Hermes WebUI) partageaient la même fragilité structurelle — lancement manuel
+en avant-plan, sans supervision, dépendant implicitement d'une session hôte.
+Les deux sont désormais daemonisés. Aucun autre process de ce type identifié
+à ce jour ; à vérifier au prochain audit d'infrastructure.
+
 ## Note de sécurité annexe (sans lien direct avec l'incident)
 
 En cours de vérification, un `ANTHROPIC_AUTH_TOKEN` en clair a été repéré
