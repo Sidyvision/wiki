@@ -10,6 +10,20 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-27] rd/bibliotheque | Archivage — Shayegan, Hindouisme et Soufisme
+
+- **Contexte** : nouvel ouvrage physique présenté pour archivage — seule la page
+  de titre a été transcrite (Daryush Shayegan, *Hindouisme et Soufisme : une
+  lecture du «Confluent des Deux Océans»*, Albin Michel). Aucune photographie de
+  sommaire, index ou glossaire fournie.
+- **Action** : entrée ajoutée au `catalogue-bibliotheque.md`, section I
+  (« Études hindoues et comparatisme »), aux côtés de Tilak — sous-titre
+  rapproché du *Majmaʿ al-Bahrayn* de Dârâ Shukûh, rapprochement signalé
+  `#a-revoir` (non vérifié sur texte primaire, métadonnées incomplètes :
+  traducteur/année/collection non relevés).
+- **Fiche** : `atelier/rd/bibliotheque/catalogue-bibliotheque.md`.
+- **Commit** : cd27db5
+
 ## [2026-08-27] rd/infrastructure | Extension — daemonisation systemd de Hermes WebUI
 
 - **Contexte** : panne indépendante constatée le même jour sur Hermes WebUI
