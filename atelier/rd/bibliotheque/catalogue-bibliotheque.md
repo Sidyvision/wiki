@@ -68,7 +68,7 @@ déviations modernes.*
 
 ### Études hindoues et comparatisme
 - **Bâl Gangâdhar Tilak** — *Origine polaire de la tradition védique* (trad. Jean et Claire Remy, Arché, Milano, 1979 — titre original *The Arctic Home in the Vedas*) — étude académique (philologie comparée, XIXe–XXe s.) sur l'hypothèse d'une origine arctique/polaire de la tradition védique. Pertinence potentielle pour les approfondissements futurs du dossier Indra/Vritra et du comparatisme védique-soufi.
-- **Daryush Shayegan** — *Hindouisme et Soufisme : une lecture du «Confluent des Deux Océans»* (Albin Michel) — étude comparatiste mettant en regard hindouisme et soufisme ; le sous-titre renvoie vraisemblablement au *Majmaʿ al-Bahrayn* (« Confluent des deux mers ») du prince moghol Dârâ Shukûh — rapprochement à confirmer sur l'exemplaire, non vérifié sur texte primaire. Recension établie par transcription de la seule page de titre (auteur, titre, sous-titre, éditeur) ; traducteur, année et collection non relevés. Pertinence directe pour le dossier comparatisme védique/hindou-soufi (cf. Tilak, ci-dessus). `#a-revoir`
+- **Daryush Shayegan** — *Hindouisme et Soufisme : une lecture du «Confluent des Deux Océans»* (Albin Michel, préface à la deuxième édition) — étude comparatiste mettant en regard hindouisme et soufisme à travers le *Majmaʿ al-Bahrayn* (« Confluent des deux mers ») du prince moghol Dârâ Shokûh — rapprochement **CONFIRMÉ en bibliothèque physique** (2026-08-27, photographies de la table analytique des matières, qui nomme explicitly « Le Majmaʿal-Bahrayn de Dârâ Shokûh »). Traducteur, année et collection non relevés (non visibles sur les clichés disponibles) — `#a-revoir` maintenu pour ces seules métadonnées. Table analytique et liste des abréviations transcrites : [[sommaire-hindouisme-soufisme]], [[abreviations-hindouisme-soufisme]]. Pertinence directe pour le dossier comparatisme védique/hindou-soufi (cf. Tilak, ci-dessus).
 
 ---
 
@@ -252,6 +252,8 @@ Lexique unifié dérivé : `glossaire-unifie.md`, régénéré par
 | [[notices-porte-du-ciel]] | La Porte du Ciel (Coomaraswamy) | IMG_0067-0070 (4) | intégré — ordre Coomaraswamy/Snodgrass en discordance avec le sommaire, non tranché |
 | [[sommaire-origine-polaire]] | Origine polaire de la tradition védique (Tilak) | IMG_0071-0072 (2) | intégré — index p.367-380 (IMG_0081-0088) déposé par Hermes, Introduction/Préface p.9-23 (IMG_0073-0080) hors périmètre |
 | [[index-origine-polaire-tilak]] | Origine polaire de la tradition védique (Tilak) | IMG_0081-IMG_0088 (8) | intégré — index alphabétique complet p.367-380, nature `index_nominum` ; 6 signalements informatifs (Amma coupée, Thithrya coupée, 10 renvois sans pages, 2 doubles entrées, p.378 fragment), aucun blocage |
+| [[sommaire-hindouisme-soufisme]] | Hindouisme et Soufisme (Shayegan) | 3 clichés (table d'ensemble ; p.278-279 ; p.280-281) | intégré — lot fragmentaire : corps de texte p.7-268, couverture et bibliographie (p.269) non photographiés ; 2 numéros de page `to-verify` (netteté) |
+| [[abreviations-hindouisme-soufisme]] | Hindouisme et Soufisme (Shayegan) | 2 clichés (p.9-10) | intégré |
 
 **Essais p.37-281 de La Porte du Ciel** (« La porte du soleil », « Le Symbolisme du
 Dôme », « Svayamatrinnâ : Janua Coeli », « Ushnîsha et Chatra », « Eckstein », « E
