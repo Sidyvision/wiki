@@ -22,6 +22,9 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   `#a-revoir` (non vérifié sur texte primaire, métadonnées incomplètes :
   traducteur/année/collection non relevés).
 - **Fiche** : `atelier/rd/bibliotheque/catalogue-bibliotheque.md`.
+- **Vérification mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  1 erreur, 16 avertissements — aucun nouveau, rien n'implique cette entrée
+  (erreur `[A3] meta/meta-annales.md` préexistante, hors périmètre `atelier/`).
 - **Commit** : cd27db5
 
 ## [2026-08-27] rd/infrastructure | Extension — daemonisation systemd de Hermes WebUI
