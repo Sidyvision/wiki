@@ -3,7 +3,7 @@ title: "Catalogue de la bibliothèque physique de travail"
 type: ressource
 tags: [bibliotheque, lectures-suggerees, ressource, catalogue]
 created: 2026-06-28
-updated: 2026-08-25
+updated: 2026-08-27
 sources: []
 links: []
 ---
@@ -68,6 +68,7 @@ déviations modernes.*
 
 ### Études hindoues et comparatisme
 - **Bâl Gangâdhar Tilak** — *Origine polaire de la tradition védique* (trad. Jean et Claire Remy, Arché, Milano, 1979 — titre original *The Arctic Home in the Vedas*) — étude académique (philologie comparée, XIXe–XXe s.) sur l'hypothèse d'une origine arctique/polaire de la tradition védique. Pertinence potentielle pour les approfondissements futurs du dossier Indra/Vritra et du comparatisme védique-soufi.
+- **Daryush Shayegan** — *Hindouisme et Soufisme : une lecture du «Confluent des Deux Océans»* (Albin Michel) — étude comparatiste mettant en regard hindouisme et soufisme ; le sous-titre renvoie vraisemblablement au *Majmaʿ al-Bahrayn* (« Confluent des deux mers ») du prince moghol Dârâ Shukûh — rapprochement à confirmer sur l'exemplaire, non vérifié sur texte primaire. Recension établie par transcription de la seule page de titre (auteur, titre, sous-titre, éditeur) ; traducteur, année et collection non relevés. Pertinence directe pour le dossier comparatisme védique/hindou-soufi (cf. Tilak, ci-dessus). `#a-revoir`
 
 ---
 
