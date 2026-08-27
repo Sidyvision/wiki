@@ -1,7 +1,7 @@
 ---
-title: "Table analytique des matières — Hindouisme et Soufisme (Shayegan)"
+title: "Couverture et table analytique des matières — Hindouisme et Soufisme (Shayegan)"
 type: ressource
-tags: [bibliotheque, sommaire, hindouisme-soufisme, shayegan, dara-shukuh, majma-al-bahrayn]
+tags: [bibliotheque, couverture, sommaire, hindouisme-soufisme, shayegan, dara-shukuh, majma-al-bahrayn]
 created: 2026-08-27
 updated: 2026-08-27
 sources:
@@ -10,26 +10,69 @@ links:
   - "[[abreviations-hindouisme-soufisme]]"
 ---
 
-## Table analytique des matières — Hindouisme et Soufisme
+## Couverture et table analytique des matières — Hindouisme et Soufisme
 
-**Source** : Shayegan, Daryush. *Hindouisme et Soufisme : une lecture du «Confluent des Deux Océans»*. Albin Michel. (Préface à la deuxième édition mentionnée p.7 — édition, année et collection non relevées sur les clichés disponibles.)
+**Source** : Shayegan, Daryush. *Hindouisme et Soufisme : une lecture du «Confluent des Deux Océans»*. Albin Michel, coll. « La Pensée et le Sacré ». ISBN 2-226-08900-4 (EAN 9782226089007). Année d'édition et rang d'édition non lisibles sur les clichés disponibles (une « Préface à la deuxième édition » est mentionnée dans la table analytique, p.7 — donc au moins une réédition ; date non retrouvée).
 
-**Contenu** : table analytique des matières de l'ouvrage, imprimée en deux temps —
-un tableau d'ensemble (Préface, Introduction, texte traduit du *Majmaʿ al-Bahrayn*)
-et, en fin de volume, le détail analytique des chapitres de commentaire. Cette
-table confirme sur texte primaire que l'ouvrage est une lecture comparée du
-*Majmaʿ al-Bahrayn* (« Confluent des deux mers ») du prince moghol Dârâ Shokûh —
-rapprochement jusqu'ici seulement suggéré depuis la seule page de titre
-(cf. `catalogue-bibliotheque.md`, entrée Shayegan).
+**Contenu** : couverture (recto et quatrième), puis table analytique des matières de
+l'ouvrage, imprimée en deux temps — un tableau d'ensemble (Préface, Introduction,
+texte traduit du *Majmaʿ al-Bahrayn*) et, en fin de volume, le détail analytique
+des chapitres de commentaire. L'ensemble confirme sur texte primaire (table des
+matières et quatrième de couverture) que l'ouvrage est une lecture comparée du
+*Majmaʿ al-Bahrayn* (« Confluent des deux mers »), œuvre du prince moghol
+Dârâ Shokûh (1615-1659) — rapprochement jusqu'ici seulement suggéré depuis la
+seule page de titre (cf. `catalogue-bibliotheque.md`, entrée Shayegan).
 
-**Pages couvertes** : table d'ensemble (page non numérotée sur le cliché, position
-déduite avant p.7) ; p.278-281 (détail analytique des commentaires).
+**Pages couvertes** : couverture (non paginée) ; table d'ensemble (page non
+numérotée sur le cliché, position déduite avant p.7) ; p.278-281 (détail
+analytique des commentaires).
 
-**Photos source** : 3 clichés (table d'ensemble ; p.278-279 ; p.280-281).
+**Photos source** : 5 clichés (couverture recto ; quatrième de couverture ;
+table d'ensemble ; p.278-279 ; p.280-281).
 
 ---
 
-### Table d'ensemble (cliché 1, page non numérotée)
+### Couverture recto
+
+- Bandeau de collection : « LA PENSÉE ET LE SACRÉ »
+- Auteur : « DARYUSH SHAYEGAN »
+- Titre : « HINDOUISME ET SOUFISME »
+- Sous-titre : « Une lecture du «Confluent des Deux Océans» »
+- Illustration : miniature de style moghol figurant un groupe d'ascètes/sages
+  (hindous et musulmans) assis en cercle dans un paysage, autour d'un foyer ou
+  d'un monticule blanc — non légendée sur le recto (légende et crédit photo au
+  verso, voir ci-dessous).
+- Éditeur : « ALBIN MICHEL »
+
+### Quatrième de couverture
+
+Bandeau de collection, auteur et titre répétés (identiques au recto), suivis du
+texte de présentation :
+
+> Héritier de l'Empire musulman des Indes, arrière-petit-fils d'Akbar — qui
+> fonda l'École des traducteurs afin de faire communiquer les traditions soufie
+> et védantine —, le prince Dârâ Shokûh (1615-1659) s'attacha, beaucoup plus
+> qu'à l'exercice du pouvoir, à devenir un souverain philosophe : il traduisit
+> les Upanishads en persan, devint l'ami des plus grands sages hindous et
+> musulmans, développa la métaphysique et la gnose du soufisme. *Le Confluent
+> des Deux Océans*, son œuvre maîtresse, est une étude comparative sur les
+> principales notions philosophiques indiennes et islamiques dont il fait
+> ressortir les homologies de sens et de structure. Un livre exemplaire pour
+> notre époque, où le dialogue inter-religieux et le dialogue des cultures et
+> des spiritualités deviennent d'une urgence et d'une nécessité vitales.
+>
+> Daryush Shayegan, ancien professeur de science comparée des religions à
+> l'Université de Téhéran, auteur remarqué de *Qu'est-ce qu'une révolution
+> religieuse ?* et du *Regard mutilé*, tous deux chez Albin Michel, était le
+> mieux à même de traduire et de commenter ce texte capital qui ouvrait déjà,
+> au XVIIe siècle, toutes les voies de l'avenir.
+
+- Crédit iconographique : « Yogis hindous et Pak soufis musulmans. Collection
+  privée. Photo : Roland et Sabrina Michaud / Rapho. » (identifie l'illustration
+  de couverture)
+- ISBN 2-226-08900-4 · EAN 9782226089007 · prix indiqué : 98,00 F TTC.
+
+### Table d'ensemble (cliché 3, page non numérotée)
 
 **PRÉFACE À LA DEUXIÈME ÉDITION** ... 7
 **LISTE DES ABRÉVIATIONS** ... 9 (voir [[abreviations-hindouisme-soufisme]])
@@ -67,7 +110,7 @@ déduite avant p.7) ; p.278-281 (détail analytique des commentaires).
 - XXII. La description de l'Infinité des cycles ... 50
 - Notes ... `to-verify` (numéro non net sur le cliché)
 
-### Détail analytique — « Commentaires sur le Majmaʿal-Bahrayn » (clichés 2-3, p.278-281)
+### Détail analytique — « Commentaires sur le Majmaʿal-Bahrayn » (clichés 4-5, p.278-281)
 
 *Neuf chapitres de commentaire (I-IX), chacun rattaché explicitement à un ou
 plusieurs chapitres du texte traduit de Dârâ Shokûh (mention entre parenthèses
@@ -199,13 +242,15 @@ sous chaque titre, fidèlement reportée).*
 
 ### Signalement de périmètre
 
-Le lot photographié pour cet ouvrage est fragmentaire — trois clichés seulement,
-couvrant : (1) la table d'ensemble (Préface, Introduction, texte traduit) sans le
-numéro de sa propre page ; (2)-(3) le détail analytique des neuf chapitres de
-commentaire (p.278-281). **Aucune photographie** du corps de texte lui-même
-(p.7-268), ni de la couverture, de la page de titre légale (ISBN, collection,
-année, traducteur éventuel), ni de la bibliographie annoncée p.269. Deux numéros
-de page marqués `to-verify` ci-dessus (Notes de la table d'ensemble ; Notes du
-chapitre V des commentaires) faute de netteté du cliché. Complète l'entrée
-Shayegan de `catalogue-bibliotheque.md` (section I) sans lever le tag `#a-revoir`
-qui y reste attaché pour les métadonnées manquantes.
+Le lot photographié pour cet ouvrage reste fragmentaire — 5 clichés au total,
+couvrant : (1)-(2) couverture recto et quatrième ; (3) la table d'ensemble
+(Préface, Introduction, texte traduit) sans le numéro de sa propre page ;
+(4)-(5) le détail analytique des neuf chapitres de commentaire (p.278-281).
+La couverture lève l'essentiel des métadonnées manquantes au premier archivage
+(ISBN, collection) — voir mise à jour de l'entrée Shayegan dans
+`catalogue-bibliotheque.md`. **Restent non photographiés** : le corps de texte
+lui-même (p.7-268), la page de titre intérieure/légale (rang et année
+d'édition, éventuel traducteur distinct de Shayegan), et la bibliographie
+annoncée p.269. Deux numéros de page marqués `to-verify` ci-dessus (Notes de la
+table d'ensemble ; Notes du chapitre V des commentaires) faute de netteté du
+cliché.
