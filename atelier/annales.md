@@ -10,6 +10,29 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-27] rd/bibliotheque | Extension — couverture Shayegan, levée ISBN/collection
+
+- **Contexte** : suite aux deux entrées du jour (commits fe4a45b, f6a3eb8),
+  l'utilisateur a transmis les 2 clichés manquants — couverture recto et
+  quatrième de couverture — non reçus aux lots précédents.
+- **Action** : transcription intégrée à `sommaire-hindouisme-soufisme.md`
+  (renommée « Couverture et table analytique des matières », à l'image du
+  gabarit `sommaire-porte-du-ciel.md`) : bandeau de collection « La Pensée et
+  le Sacré », ISBN 2-226-08900-4, texte de quatrième de couverture (biographie
+  de Dârâ Shokûh et de Shayegan, crédit photo Michaud/Rapho). La quatrième de
+  couverture reconfirme indépendamment le rapprochement Majmaʿ al-Bahrayn /
+  Dârâ Shokûh déjà établi par la table analytique.
+- **Catalogue** : entrée Shayegan de `catalogue-bibliotheque.md` mise à jour
+  (collection, ISBN) ; `#a-revoir` resserré au seul rang/année d'édition,
+  toujours non lisible sur les clichés — aucun traducteur distinct de Shayegan
+  n'est crédité.
+- **Fiches** : `atelier/rd/bibliotheque/sommaire-hindouisme-soufisme.md`,
+  `atelier/rd/bibliotheque/catalogue-bibliotheque.md`.
+- **Vérification mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  1 erreur, 16 avertissements — état identique au relevé précédent (même
+  session), rien de nouveau imputable à cette entrée.
+- **Commit** : 881a80c
+
 ## [2026-08-27] rd/bibliotheque | Extension — transcription table analytique et abréviations, Shayegan
 
 - **Contexte** : suite à l'entrée catalogue du même jour (commit cd27db5,
