@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-25
+updated: 2026-08-27
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,27 @@ updated: 2026-08-25
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-27] rd/infrastructure | Incident OmniRoute EADDRINUSE et daemonisation systemd
+
+- **Contexte** : coupure de la session Termius (iPhone 16 Pro Max) pendant la
+  relance de tâches agents Hermes interrompues la veille (quota Qwen), suite
+  au fallback OmniRoute ouvert le 2026-08-26. L'instance OmniRoute lancée à
+  la main est restée orpheline sur le port 20128, bloquant les tentatives de
+  démarrage d'un service systemd nouvellement créé (`EADDRINUSE` répété,
+  07:29–07:31 UTC).
+- **Action** : rapport d'un tiers (Gemini) confronté aux logs (`journalctl`,
+  `.bash_history`) — plusieurs affirmations non retrouvées (PID précis,
+  commandes `kill`/`fuser`), cause structurelle confirmée par l'opérateur.
+  Daemonisation d'OmniRoute via `/etc/systemd/system/omniroute.service`
+  (`Restart=always`, `enabled`), état vérifié stable après coup.
+- **Signalement, non verdict** : un `ANTHROPIC_AUTH_TOKEN` en clair repéré
+  dans `.bash_history` et `.omniroute-env.sh` (fichier inutilisé par tout
+  service actif) — redacté sur disque le même jour ; révocation côté
+  fournisseur non faite, hors du périmètre de cette intervention.
+- **Fiche** : `atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation.md`
+  (statut `consignation`).
+- **Commit** : a1bb51c
 
 ## [2026-08-26] rd/infrastructure | Migration OmniRoute des profils prioritaires (quota Qwen épuisé)
 
