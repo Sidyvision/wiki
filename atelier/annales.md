@@ -10,6 +10,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-27] rd/infrastructure | Extension — daemonisation systemd de Hermes WebUI
+
+- **Contexte** : panne indépendante constatée le même jour sur Hermes WebUI
+  (écran blanc, funnel Tailscale `wiki.tail7ce5ca.ts.net` pointant sur un
+  port vide) — processus `server.py` mort depuis 2026-08-23T18:19 (~4 jours
+  de panne silencieuse, sans lien avec l'incident Termius du matin).
+- **Action** : relance manuelle immédiate (vérifiée HTTP 200 en local et via
+  le funnel), puis daemonisation via `/etc/systemd/system/hermes-webui.service`
+  (même gabarit qu'OmniRoute : `Restart=always`, `enabled --now`), en tuant
+  d'abord l'instance manuelle résiduelle pour éviter la course au port
+  documentée dans l'incident du jour. État vérifié stable après coup.
+- **Fiche** : `atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation.md`
+  (section « Extension »).
+- **Commit** : aeba93f
+
 ## [2026-08-27] rd/infrastructure | Incident OmniRoute EADDRINUSE et daemonisation systemd
 
 - **Contexte** : coupure de la session Termius (iPhone 16 Pro Max) pendant la
