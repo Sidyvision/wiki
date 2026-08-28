@@ -178,6 +178,7 @@ etc. Les regrouper par catégorie pour lire les résultats rapidement.
 | A3 | erreur | `updated:` du frontmatter est antérieur à la date de la dernière entrée d'annales |
 | A4 | erreur | Un en-tête d'annales est en doublon exact (même date, même titre) |
 | A5 | avertissement | Double ligne vide avant un séparateur — **signature d'un ajout mécanique plutôt qu'insertion propre** |
+| A6 | avertissement | Plusieurs champs `- **Commit** :` dans une même section d'annales — **corps d'entrée orphelin : en-tête détruit par une insertion qui a remplacé au lieu de précéder** (incident 2026-08-28) |
 
 ### Catégorie B — Frontmatter (hygiène)
 
@@ -196,6 +197,13 @@ etc. Les regrouper par catégorie pour lire les résultats rapidement.
 | C1 | avertissement | Lien `[[…]]` non résolu (pas de cible au dépôt) |
 | C2 | avertissement | Slug ambigu : plusieurs cibles possibles |
 | C3 | erreur | Étanchéité rompue : ex. `doctrinal/` pointe vers `atelier/` |
+| C4 | avertissement | Fichier de service (`annales.md`/`index.md`) d'un circuit neutre pointant vers `meta/` — sens interdit par §VI, signalé sans bloquer (append-only des annales déjà publiées) |
+
+**Convention code (2026-08-28)** : un wikilink entre backticks (span inline)
+ou dans une clôture ```` ``` ````/`~~~` est de la syntaxe citée en exemple —
+documentation d'un motif, code du validateur lui-même — jamais un lien vivant.
+C1/C3/C4 l'ignorent. Pour citer un wikilink dans une fiche sans le rendre
+vivant, l'écrire entre backticks.
 
 ---
 
@@ -233,6 +241,20 @@ recalculer sur le lot. Le script gère `to-source` comme marqueur, pas comme sou
 prévue, l'ajouter à une TODO ; si c'est un lien cassé, le corriger ou le
 supprimer.
 
+### A6 — Corps d'entrée orphelin
+
+**Symptôme** : `[A6] doctrinal/annales.md:12 — corps d'entrée orphelin possible : 2 champs - **Commit** : ...`
+
+**Cause** : une insertion en tête d'annales a *remplacé* l'en-tête `## [date]`
+de l'entrée suivante au lieu de le précéder — le corps de l'ancienne entrée
+se retrouve fusionné sous le nouvel en-tête, invisible pour A2/A4/A5.
+
+**Fix** : retrouver l'en-tête original dans l'historique git
+(`git log -S "motif du corps" -- <fichier>`, puis `git show <sha>:<fichier>`),
+et le réinsérer tel quel au-dessus de son corps. Avertissement non bloquant :
+une entrée groupée légitime peut citer plusieurs commits (ex. connu :
+`atelier/annales.md`, entrée du 2026-08-20).
+
 ### C3 — Étanchéité rompue
 
 **Symptôme** : `[C3] doctrinal/fiche.md — étanchéité rompue : doctrinal pointe vers atelier — [[atelier/…]]`
@@ -242,6 +264,19 @@ interdit par la règle du Commandement 3.
 
 **Fix** : relocaliser le lien ou la matière concernée. C'est une violation
 structurelle, bloquer dessus systématiquement.
+
+### C4 — Fichier de service neutre pointant vers `meta/`
+
+**Symptôme** : `[C4] doctrinal/annales.md — lien doctrinal (neutre, fichier de service) → meta/ ...`
+
+**Cause** : un `annales.md`/`index.md` de circuit neutre échappe à C3
+(exemption légitime) mais porte un wikilink vers `meta/` — sens interdit
+par §VI.
+
+**Fix** : neutraliser le wikilink côté neutre (chemin entre backticks, texte
+conservé verbatim — l'annales est append-only, ne jamais réécrire le fond), et
+poser le lien vivant dans le sens autorisé : de la fiche `meta/` concernée
+vers le circuit neutre.
 
 ---
 

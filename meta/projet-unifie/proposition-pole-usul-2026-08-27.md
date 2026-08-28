@@ -84,7 +84,7 @@ s'instruisent.
 
 ## 4. Amendement futur nécessaire — FAIT le 2026-08-27
 
-Amendement réalisé : `doctrinal/CLAUDE.md`, section « Action : EXAMEN D'USÛL »
+Amendement réalisé : [[doctrinal/CLAUDE]], section « Action : EXAMEN D'USÛL »
 (remplace « Action : EXAMEN DE FIQH »), bloc normalisé générique portant le
 champ `branche: fiqh | mantiq | mustalah-hadith`, sous-règles propres au fiqh
 (préséance mālikite, École consultée, Recours subsidiaire) marquées

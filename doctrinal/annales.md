@@ -20,7 +20,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   (préséance mālikite, bloc ⚖️) deviennent le cas particulier `branche: fiqh`.
   `meta/projet-unifie/proposition-pole-fiqh-2026-07-06.md` passé
   `deprecated` avec pointeur vers
-  [[meta/projet-unifie/proposition-pole-usul-2026-08-27]] (Cmd 10, contenu
+  `meta/projet-unifie/proposition-pole-usul-2026-08-27` (Cmd 10, contenu
   original conservé intégralement).
 - **Discernement** : `doctrinal/discernement/_template.md` reçoit le champ
   `maturite` (cinq états, axe orthogonal à `status`). Rétroportage sur les
@@ -30,6 +30,8 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   0 erreur, 16 avertissements pré-existants (faux positifs C1 connus, non
   liés à cette passe).
 - **Commit** : 1213c04
+
+## [2026-08-25] enrichissement | H3 Gizeh/degré 24 — relecture du Tombeau d'Hermès, résultat négatif
 
 - **Contexte** : suite du cinquième maillon (traditions mortes), Sidy demande la
   relecture effective de la lecture suggérée n°1 de la fiche H3 : relire « Le
@@ -950,6 +952,8 @@ intégralement avant citation.
 - **Fichier orphelin constaté** : `doctrinal/discernement/compte-rendu-12-agents-2026-08-09.md`, non tracké git, jamais passé par `_inbox/`, frontmatter incomplet — écrit directement dans le circuit doctrinal par un agent Hermes en session terminal, hors protocole. Signalé à Sidy, déplacé (verdict Sidy) vers (cf. Domaine Réservé, fiche `17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09`) avec Sceau `meta` conforme, contenu intact.
 - **Vérification** : `verifier-invariants.py` — 0 erreur, 0 avertissement après correction.
 - **Commit** : d16189b
+
+## [2026-08-04] ingest | Khatm — page orthodoxe des Sceaux et enrichissement du discernement sayyid al-awwalîn
 
 - **Opération** : ARCHIVAGE & MAILLAGE + EXAMEN DE DISCERNEMENT (enrichissement, non clôture).
 - **Créé** : [[doctrinal/symboles/khatm]] — cible manquante signalée le 2026-07-14, ouverte sur demande de Sidy. Distingue quatre notions : Khātim al-Nubuwwa (Muhammad), Khatm al-Wilāya al-ʿĀmma (ʿĪsā), Khatm al-Wilāya al-Muḥammadiyya (Ibn ʿArabī), et la Quṭbiyya al-Kubrā qui n'est pas un Sceau (Jurjānī 1281 : « Le Pôle n'est pas le Sceau de la Sainteté »).

@@ -43,6 +43,16 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 - **Liens** : `meta/meta-annales.md` (fichier corrompu/restauré), commits `d09cc88` (introduction), `88d3253` (restauration), `a5de5c7` (texte original de l'en-tête), `verifier-invariants.py` (contrôles A2/A4/A5 insuffisants), compte-rendu `atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder.md` §I.
 
 - **Statut** : resolu (corruption restaurée) — contrôle A6 proposé, à trancher.
+  **Mis à jour 2026-08-28 (verdict Sidy, même jour)** : A6 adopté et
+  implémenté dans `verifier-invariants.py` (heuristique retenue : plusieurs
+  champs `- **Commit** :` dans une même section). Première exécution : le
+  contrôle a révélé **deux occurrences supplémentaires** de la même classe
+  dans `doctrinal/annales.md` (entrées « relecture du Tombeau d'Hermès »
+  2026-08-25 et « Khatm » 2026-08-04, toutes deux introduites par le même
+  commit `d09cc88`), en-têtes restaurés verbatim depuis l'historique git
+  (`f2de988`, `5e3c8a1`). Un faux positif connu et légitime demeure
+  (`atelier/annales.md`, entrée groupée du 2026-08-20, deux champs Commit
+  sous un même en-tête par design) — A6 reste un avertissement, non bloquant.
 
 ---
 

@@ -135,6 +135,21 @@ Donnée utile pour l'expérience en cours sur les protocoles locaux
 
 ## VI. Propositions ouvertes (aucune exécutée)
 
+> **Note du même jour (verdict Sidy, après dépôt)** : les trois propositions
+> ont été validées et exécutées dans la foulée. (1) A6 implémenté — sa
+> première exécution a révélé deux occurrences supplémentaires de la classe
+> dans `doctrinal/annales.md` (Tombeau d'Hermès, Khatm), en-têtes restaurés
+> verbatim depuis git. (2) Convention code adoptée : un wikilink entre
+> backticks ou dans une clôture est de la syntaxe citée, ignoré par
+> C1/C3/C4 — les 15 artefacts de syntaxe signalés en §II disparaissent.
+> (3) Lien C4 régularisé dans le sens autorisé : wikilink neutralisé côté
+> `doctrinal/annales.md` (chemin entre backticks, texte verbatim), lien vivant
+> posé de `meta/projet-unifie/proposition-pole-usul-2026-08-27.md` vers
+> `doctrinal/CLAUDE`. Contrôle après exécution : 0 erreur, 2 avertissements
+> (A6 faux positif légitime connu + 1 C1 réel préexistant, §II). Détails :
+> registre-problemes, entrée 2026-08-28 mise à jour ; annales atelier
+> 2026-08-28. Les libellés ci-dessous restent ceux du dépôt initial.
+
 1. Contrôle A6 « corps d'entrée orphelin » dans `verifier-invariants.py`
    (§I ci-dessus) — à planifier si verdict.
 2. Convention ou exemption pour les wikilinks d'exemple dans la
