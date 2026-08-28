@@ -56,22 +56,14 @@ jobs:
             - toc:
                 permalink: true
           nav:
-            - Accueil: index.md
-            - Entités: entities/
-            - Concepts: concepts/
-            - Sources: sources/
-            - Analyses: analyses/
-            - Logs: logs/
+            - Accueil: README.md
+            - Entités: doctrinal/
+            - Concepts: hermeneutique/
+            - Atelier: atelier/
+            - Label: label/
+            - Meta: meta/
+            - Raw: raw/
           MKDOCS_EOF
-
-      - name: Copy wiki content for MkDocs
-        run: |
-          mkdir -p docs
-          cp -r wiki/* docs/
-          # Ensure index.md exists
-          if [ ! -f docs/index.md ]; then
-            echo "# Wiki Sidyvision\n\nBienvenue." > docs/index.md
-          fi
 
       - name: Build
         run: mkdocs build --strict
