@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-27
+updated: 2026-08-28
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,13 @@ updated: 2026-08-27
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-28] rd/infrastructure | Incident — Saturation RAM critique et indisponibilité des agents
+
+- **Contexte** : saturation RAM (3.5/3.7 Go) due à l'accumulation de 14 gateways + OmniRoute daemonisé, provoquant thrashing et échec des workers. Indisponibilité Discord consécutive à l'audit de sécurité du 27/08 (rédaction des secrets).
+- **Action** : rapport d'incident consigné, redémarrage physique requis pour purger la mémoire (aucune commande agent de redémarrage autorisée).
+- **Fiche** : `atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite.md`
+- **Commit** : 5bf8bf2
 
 ## [2026-08-27] rd/infrastructure | Extension — daemonisation systemd de Hermes WebUI
 
