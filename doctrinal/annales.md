@@ -1,7 +1,7 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-25
+updated: 2026-08-27
 ---
 
 # Annales du Secrétariat Doctrinal
@@ -9,7 +9,27 @@ updated: 2026-08-25
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
-## [2026-08-25] enrichissement | H3 Gizeh/degré 24 — relecture du Tombeau d'Hermès, résultat négatif
+## [2026-08-27] archivage | Pôle Usûl (remplace EXAMEN DE FIQH) et gabarit Discernement (champ maturite)
+
+- **Contexte** : verdict Sidy du 2026-08-27 sur le lot de quatre propositions
+  (« Je valide l'ensemble des fiches propositions »), exécution effective
+  fiche par fiche (Cmd 6).
+- **Usûl** : `doctrinal/CLAUDE.md` amendé — l'« Action : EXAMEN DE FIQH »
+  devient « Action : EXAMEN D'USÛL », bloc générique avec champ
+  `branche: fiqh | mantiq | mustalah-hadith` ; les règles propres au fiqh
+  (préséance mālikite, bloc ⚖️) deviennent le cas particulier `branche: fiqh`.
+  `meta/projet-unifie/proposition-pole-fiqh-2026-07-06.md` passé
+  `deprecated` avec pointeur vers
+  [[meta/projet-unifie/proposition-pole-usul-2026-08-27]] (Cmd 10, contenu
+  original conservé intégralement).
+- **Discernement** : `doctrinal/discernement/_template.md` reçoit le champ
+  `maturite` (cinq états, axe orthogonal à `status`). Rétroportage sur les
+  ~38 fiches existantes explicitement différé (Sidy) : renseigné par les
+  agents au fil de l'édition de fond, pas en bloc ici.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` —
+  0 erreur, 16 avertissements pré-existants (faux positifs C1 connus, non
+  liés à cette passe).
+- **Commit** : 1213c04
 
 - **Contexte** : suite du cinquième maillon (traditions mortes), Sidy demande la
   relecture effective de la lecture suggérée n°1 de la fiche H3 : relire « Le

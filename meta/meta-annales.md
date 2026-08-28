@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-24
+updated: 2026-08-27
 
 ---
 
@@ -14,7 +14,31 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
-## [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers Hermes (rôle 08, mandat 2)
+## [2026-08-27] projet-unifie | Choura : premier cycle wiki + câblage cron réel (12 profils Hermes)
+
+- **Contexte** : verdict Sidy du 2026-08-27 sur
+  [[meta/projet-unifie/proposition-cycle-consultation-choura-2026-08-27]] —
+  exécution effective complète (wiki + infrastructure vivante), portée
+  précisée : intégration des jobs cron préexistants (« unifier le tout »),
+  puis salon de livraison précisé par Sidy (« général »).
+- **Wiki** : `meta/projet-unifie/choura/cycle-2026-08-28.md` créé (premier
+  cycle, marqueur `QUEUE`, gabarit d'entrée, règle d'affinité et clause
+  anti-remplissage rappelées). Script `_ajouter-jobs-choura.py` conservé
+  pour traçabilité (Cmd 9), non destiné à être relancé.
+- **Infrastructure vivante** (`/root/.hermes/profiles/<role>/cron/jobs.json`,
+  hors wiki, hors dépôt git) : job `cycle-choura` ajouté aux 12 profils de
+  rôle (gardien, ar-music, visual-da, production, admin-legal, accounting,
+  distribution, marketing, publication, studio, fanzine, commerce), cadence
+  2h, ordre zodiacal, tous les jobs préexistants préservés intacts. `deliver`
+  câblé sur `discord:1534857297321394248` (salon « général », guilde
+  Label-Agent). Les 12 gateways ont été redémarrés individuellement
+  (`hermes gateway restart`) pour prendre en compte les nouveaux jobs — PID
+  renouvelés, statut vérifié `gateway list`.
+- **Incident mineur corrigé au passage** : le script de câblage avait
+  réintroduit des caractères ZWJ (U+200D) dans les prompts injectés — nettoyé
+  sur le script, le fichier de cycle, `UPDATES.md`, et rétroactivement sur
+  les 12 `jobs.json` déjà déployés (Cmd 15, hygiène Unicode).
+- **Commit** : 1213c04
 
 - **Contexte** : nouveau lot photographié (17 vues, `raw/Origine Polaire de la
   tradition Védique/`) — couverture et table des matières déjà transcrites
