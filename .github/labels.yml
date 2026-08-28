@@ -1,0 +1,31 @@
+# Labels configuration (use with gh label create or github-label-sync)
+- name: studio
+  color: "1d76db"
+  description: "Exploration Studio (R&D)"
+- name: gardien
+  color: "bf8700"
+  description: "Vigilance Gardien"
+- name: rapport
+  color: "0e8a16"
+  description: "Rapport conjoint Studio+Gardien"
+- name: vigilance
+  color: "d93f0b"
+  description: "Signal d'alerte Gardien"
+- name: inbox
+  color: "5319e7"
+  description: "En attente de traitement (_inbox/)"
+- name: dependencies
+  color: "0366d6"
+  description: "Mises à jour de dépendances"
+- name: github-actions
+  color: "6f42c1"
+  description: "GitHub Actions workflows"
+- name: python
+  color: "3572A5"
+  description: "Python dependencies"
+- name: documentation
+  color: "0075ca"
+  description: "Documentation / wiki"
+- name: infrastructure
+  color: "b60205"
+  description: "Infrastructure / monitoring"

@@ -1,0 +1,101 @@
+name: Lint & Validate Wiki
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install pyyaml markdown
+
+      - name: Validate frontmatter (YAML)
+        run: |
+          python3 -c "
+          import yaml, sys, os
+          errors = 0
+          for root, dirs, files in os.walk('wiki'):
+              for f in files:
+                  if f.endswith('.md'):
+                      path = os.path.join(root, f)
+                      with open(path) as fp:
+                          content = fp.read()
+                      if content.startswith('---'):
+                          try:
+                              fm_end = content.index('---', 3)
+                              fm = content[3:fm_end]
+                              yaml.safe_load(fm)
+                          except Exception as e:
+                              print(f'::error file={path}::Frontmatter YAML invalide: {e}')
+                              errors += 1
+                      else:
+                          print(f'::warning file={path}::Pas de frontmatter')
+                          errors += 1
+          if errors:
+              sys.exit(1)
+          print('Frontmatter OK')
+          "
+
+      - name: Check internal links
+        run: |
+          python3 -c "
+          import os, re, sys
+          errors = 0
+          md_files = {}
+          for root, dirs, files in os.walk('wiki'):
+              for f in files:
+                  if f.endswith('.md'):
+                      path = os.path.join(root, f)
+                      rel = os.path.relpath(path, 'wiki')
+                      md_files[rel] = path
+                      md_files[rel.replace('.md', '')] = path
+          for rel, path in md_files.items():
+              with open(path) as fp:
+                  content = fp.read()
+              links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', content)
+              for text, link in links:
+                  if link.startswith('http') or link.startswith('mailto:'):
+                      continue
+                  if link.startswith('#'):
+                      continue
+                  target = link.split('#')[0]
+                  if target and target not in md_files:
+                      base = os.path.dirname(rel)
+                      candidate = os.path.normpath(os.path.join(base, target))
+                      if candidate not in md_files and target + '.md' not in md_files:
+                          print(f'::warning file={path}::Lien interne potentiellement cassé: {link}')
+                          errors += 1
+          print(f'Vérification liens: {errors} avertissements')
+          "
+
+      - name: Validate structure
+        run: |
+          python3 -c "
+          import os, sys
+          required_dirs = [
+              'wiki/entities', 'wiki/concepts', 'wiki/sources',
+              'wiki/analyses', 'wiki/logs', 'wiki/schema',
+              'raw/assets'
+          ]
+          missing = []
+          for d in required_dirs:
+              if not os.path.isdir(d):
+                  missing.append(d)
+          if missing:
+              print(f'::warning::Dossiers manquants: {missing}')
+          else:
+              print('Structure OK')
+          "

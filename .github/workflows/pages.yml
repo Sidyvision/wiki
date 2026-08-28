@@ -1,0 +1,93 @@
+name: Deploy Wiki to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install MkDocs
+        run: pip install mkdocs mkdocs-material mkdocs-git-revision-date-localized-plugin
+
+      - name: Generate mkdocs.yml
+        run: |
+          cat > mkdocs.yml << 'MKDOCS_EOF'
+          site_name: Wiki Sidyvision
+          site_description: Wiki personnel structuré
+          repo_url: https://github.com/Sidyvision/wiki
+          theme:
+            name: material
+            language: fr
+            features:
+              - navigation.tabs
+              - navigation.sections
+              - navigation.expand
+              - search.highlight
+              - search.share
+          plugins:
+            - search
+            - git-revision-date-localized:
+                type: date
+          markdown_extensions:
+            - admonition
+            - pymdownx.details
+            - pymdownx.superfences
+            - toc:
+                permalink: true
+          nav:
+            - Accueil: index.md
+            - Entités: entities/
+            - Concepts: concepts/
+            - Sources: sources/
+            - Analyses: analyses/
+            - Logs: logs/
+          MKDOCS_EOF
+
+      - name: Copy wiki content for MkDocs
+        run: |
+          mkdir -p docs
+          cp -r wiki/* docs/
+          # Ensure index.md exists
+          if [ ! -f docs/index.md ]; then
+            echo "# Wiki Sidyvision\n\nBienvenue." > docs/index.md
+          fi
+
+      - name: Build
+        run: mkdocs build --strict
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

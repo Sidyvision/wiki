@@ -1,0 +1,42 @@
+name: Vigilance Gardien
+description: Signalement de vigilance du Gardien (anomalie, dérive, risque)
+title: "[Gardien] "
+labels: ["gardien", "vigilance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Vigilance Gardien
+        Signalement pur — verdicts humains (Cmd 12/13)
+  - type: textarea
+    id: signal
+    attributes:
+      label: Signal détecté
+      description: Ce qui a été observé (métrique, dérive, pattern, anomalie)
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact potentiel
+      description: Sur quoi cela pourrait affecter le système / la transmission
+    validations:
+      required: true
+  - type: dropdown
+    id: severite
+    attributes:
+      label: Sévérité
+      options:
+        - Information
+        - Attention
+        - Critique
+    validations:
+      required: true
+  - type: checkboxes
+    id: suite
+    attributes:
+      label: Suite
+      options:
+        - label: Rapport conjoint à produire
+        - label: Action corrective requise
+        - label: Surveillance continue
