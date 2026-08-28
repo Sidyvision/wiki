@@ -10,6 +10,29 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-28] rd/cahiers | Compte-rendu R&D — première session d'un nouveau moteur en poste INTÉGRATION (Qoder)
+
+- **Contexte** : consigne Sidy « instruit ton rapport au R&D » — consignation
+  au pôle de ce qui, dans la session INTÉGRATION du jour (commits 88d3253,
+  8b62c3b, 1588bb7, bb1e043 — détail en `meta/meta-annales.md`), relève de
+  l'ingénierie.
+- **Fiche** : `atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder.md`
+  — incident append-only (en-tête d'entrée des `meta-annales.md` remplacé à
+  l'insertion au commit d09cc88, restauré depuis l'historique git, non détecté
+  par le vérificateur), typologie des 17 avertissements du vérificateur
+  (13 artefacts de syntaxe, 3 liens cassés, 1 C4), suppression du
+  `wiki-manifest.json` racine orphelin, 5 commits Hermes concurrents sans
+  collision, lisibilité du protocole par un moteur à froid. Donnée live :
+  le rapport a produit 8 C1 en citant les exemples fautifs verbatim —
+  mécanisme `FICHIERS_EXEMPTS_C1` confirmé, exemples cités paraphrasés.
+- **Registre** : entrée `[2026-08-28]` consignée dans
+  `atelier/rd/cahiers/registre-problemes.md` (corruption append-only,
+  statut resolu — contrôle A6 « corps d'entrée orphelin » proposé, à trancher).
+- **Charte** : `atelier/rd/index.md` complété (compte-rendu référencé).
+- **Contrôle** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 17 avertissement(s)` — identique à la référence de session.
+- **Commit** : 57dfa51
+
 ## [2026-08-28] rd/cahiers | Analyse technique : agents de recherche (Cookbook Perplexity)
 
 - **Contexte** : analyse comparative du workflow "Build Your Own Perplexity with Exa" en vue d'optimiser l'infrastructure de recherche des agents Hermes.
