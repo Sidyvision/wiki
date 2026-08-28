@@ -10,6 +10,13 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-28] archivage | Cas pratique : Build Your Own Perplexity with Exa
+
+- **Contexte** : intégration du document externe "Build Your Own Perplexity with Exa" (Sarah Chieng, Cerebras Inference Cookbook, 2025) décrivant des architectures d'agents de recherche (Exa search + Cerebras inference, recherche à deux couches, orchestration multi-agents Anthropic).
+- **Action** : création d'une fiche de corpus de Phase 1 (méthode validée 2026-08-24) — zéro interprétation, zéro lien sortant, source cataloguée `to-source`. Phase 2 (analyse) réservée à décision ultérieure de Sidy.
+- **Fiche** : `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity.md`
+- **Commit** : 481bccc
+
 ## [2026-08-28] rd/infrastructure | Résolution incident saturation RAM — reprise agents
 
 - **Contexte** : agents Discord inactifs, diagnostic initial erroné (Auth), cause racine identifiée par audit logs : saturation RAM critique (thrashing) due à 14 gateways + OmniRoute.
