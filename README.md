@@ -1,21 +1,26 @@
 # Wiki
 
-Wiki personnel en français, uniquement du contenu Markdown structuré.
+Dépôt personnel de transmission, d'étude et de création — contenu Markdown
+structuré en cinq circuits étanches. Le protocole transversal vit dans
+[CLAUDE.md](CLAUDE.md) ; chaque circuit porte son `CLAUDE.md` local (Sceau,
+nomenclature, actions propres).
 
 ## Structure
 
-- `raw/` — contenus bruts à transformer (notes collées, exports, fichiers sources)
-  - `assets/` — pièces jointes (images, PDF, etc.)
-- `wiki/` — pages publiées
-  - `entities/` — personnes, organisations, lieux, objets
-  - `concepts/` — idées, théories, méthodes
-  - `sources/` — références citées (livres, articles, vidéos)
-  - `analyses/` — synthèses et raisonnements
-  - `logs/` — journaux datés
-  - `index.md` — sommaire navigable
-  - `log.md` — journal des opérations
-- `schema/` — gabarits de frontmatter et règles de validation
+- `doctrinal/` — le corps vivant des connaissances (doctrines, traditions,
+  symboles, autorites, deviations, etudes, discernement, sources)
+- `atelier/` — métier et références (materiel, entretiens, etudes-de-cas, rd/)
+- `label/` — la maison de création (direction-artistique, musique, film,
+  photographie, production, administratif, distribution, marketing-communication)
+- `hermeneutique/` — navigation du domaine intermédiaire (auteurs, œuvres,
+  expression)
+- `meta/` — domaine réservé : outillage, protocoles archivés, transmissions
+- `raw/` — sources brutes immuables (`assets/` : iconographie, schémas, scans)
+- `_inbox/` — sas de déchargement, vidé après chaque intégration validée
 
-## Utilisation
+## Outillage de dépôt (racine)
 
-Voir [CLAUDE.md](CLAUDE.md) pour les opérations supportées (INGEST, QUERY, LINT, COMPARTIMENTALISER) et le frontmatter obligatoire.
+- `verifier-invariants.py` — vérification structurelle (frontmatter, annales,
+  liens, étanchéité des circuits)
+- `carte-du-depot.py` — comptage mécanique des liens entrants
+- `Graphe/` — cartographie vivante du dépôt (script + rendu HTML)

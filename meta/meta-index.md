@@ -2,7 +2,7 @@
 title: "meta-index — hub du Domaine Réservé"
 type: meta
 created: 2026-08-09
-updated: 2026-08-22
+updated: 2026-08-28
 ---
 
 # meta-index — hub du Domaine Réservé (`meta/`)
@@ -69,7 +69,7 @@ updated: 2026-08-22
 - [[meta/journal/conversation-chatgpt-2026-06-15|Conversation ChatGPT — genèse du Commandement 12 (forme/principe)]]
 - [[meta/journal/conversation-claude-2026-06-15|Conversation Claude — formulation de la directive forme/principe]]
 
-## Transmissions (`transmissions/`, dispositif Karūbī — voir §V.c)
+## Transmissions (`transmissions/`, dispositif Karūbī — voir `meta/CLAUDE.md`)
 
 - [[meta/transmissions/registre-silsila|Registre Silsila — dispositif Karubi]]
 - [[meta/transmissions/karubi-gabarit|Karubi — GABARIT G0]]
@@ -77,6 +77,11 @@ updated: 2026-08-22
 - [[meta/transmissions/karubi-jean-marc|Karubi — Jean-Marc Bastareaud (G1)]]
 - [[meta/transmissions/karubi-mehdi|Karubi — instance remise à Mehdi Bouzouida]]
 - [[meta/transmissions/karubi-mikael|Karubi — instance remise à Mikael Heaudebourg]]
+- [[meta/transmissions/karubi-wendel|Karubi — Wendel Nazaire (G1, remise en attente)]]
+
+## Briefs (`briefs/`)
+
+- [[meta/briefs/2026-08-22_brief-incident-zwj-mise-a-jour-securite|Brief technique — Incident ZWJ et mise à jour sécurité]]
 
 ## Projet unifié (`projet-unifie/`)
 
@@ -134,14 +139,19 @@ updated: 2026-08-22
 ## Fiches de premier niveau (`meta/`)
 
 - [[meta/2026-07-27_correctif-etendu-invariants-depot|Correctif étendu — Invariants structurels du dépôt]]
+- [[meta/bibliotheque-physique|Bibliothèque physique de travail (TOMBSTONE — déplacée)]]
 - [[meta/ingest-brief|Brief d'ingest (DÉPRÉCIÉ)]]
 - [[meta/migration-2026-06-11|Protocole de Restauration Traditionnelle du Wiki (archive)]]
 - [[meta/onboarding|Onboarding — État du Wiki]]
 - [[meta/overview|Vue d'ensemble]]
+- [[meta/philosophie-sashimono|Directive Sashimono — philosophie d'assemblage du dépôt]]
+- [[meta/plan-fiche-discernement-septenaire-transversal-2026-07-27|Plan de fiche — Septénaire transversal, Balance et degré du Soleil]]
 - [[meta/proposition-discernement|Proposition — Circuit Discernement]]
 - [[meta/protocole-archivage-claude-ai|Protocole d'archivage Claude AI (DÉPRÉCIÉ)]]
 
 ---
 
-*(Les cartes `meta/carte-*.md` sont des artefacts dérivés de `carte-du-depot.py`
-et ne sont pas listées ici — elles se régénèrent, elles ne se lient pas.)*
+*(Les cartes `meta/carte-*.md` et `meta/discernements-blocs.md` sont des
+artefacts dérivés de `carte-du-depot.py` et ne sont pas listés ici — ils se
+régénèrent, ils ne se lient pas. Le dossier `protocole-archives/` est référencé
+depuis le `CLAUDE.md` racine et le changelog du protocole.)*

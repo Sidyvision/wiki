@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-27
+updated: 2026-08-28
 
 ---
 
@@ -39,6 +39,8 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
   sur le script, le fichier de cycle, `UPDATES.md`, et rétroactivement sur
   les 12 `jobs.json` déjà déployés (Cmd 15, hygiène Unicode).
 - **Commit** : 1213c04
+
+## [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers Hermes (rôle 08, mandat 2)
 
 - **Contexte** : nouveau lot photographié (17 vues, `raw/Origine Polaire de la
   tradition Védique/`) — couverture et table des matières déjà transcrites
