@@ -10,6 +10,25 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-28] rd | Registre — correctif C1 rene-guenon consigné traité mais resté inefficace, faute de méthode identifiée
+
+- **Consignation** : le correctif C1 du 2026-08-18 (`da8e9b5`) n'avait retiré que
+  la barre oblique finale du wikilink `[[doctrinal/discernement/]]` → la cible
+  restait un répertoire, jamais une fiche — le lien n'a jamais résolu, avant
+  comme après. Persisté 5 jours sans détection avant résolution effective le
+  2026-08-28 (`24ed5d1`/`98d3546`) sur consigne explicite de Sidy.
+- **Double faute de méthode consignée dans le registre** : (1) correctif
+  affirmé traité sans ré-exécution du vérificateur après écriture ; (2) note
+  « fiches à venir » non revérifiée contre un dépôt qui les avait déjà depuis
+  5 jours.
+- **Compréhension tirée** : une correction consignée dans un rapport est une
+  affirmation, pas un fait — seul le vérificateur ré-exécuté après écriture
+  arbitre. Un avertissement qui « revient » à chaque run n'est jamais un bruit
+  de fond.
+- **Vérification** : `verifier-invariants.py --racine /root/wiki` → 0 erreur(s),
+  1 avertissement(s) (A6 légitime déjà documenté).
+- **Commit** : ea5bf99
+
 ## [2026-08-28] outillage | Vérificateur — contrôle A6 (orphelins), convention code, C4 régularisé ; 2 en-têtes doctrinal/annales restaurés
 
 - **Contexte** : verdict Sidy sur les trois propositions ouvertes du
