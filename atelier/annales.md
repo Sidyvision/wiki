@@ -10,6 +10,13 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-28] rd/infrastructure | Résolution incident saturation RAM — reprise agents
+
+- **Contexte** : agents Discord inactifs, diagnostic initial erroné (Auth), cause racine identifiée par audit logs : saturation RAM critique (thrashing) due à 14 gateways + OmniRoute.
+- **Action** : arrêt et désactivation de 8 gateways non essentiels (accounting, admin-legal, ar-music, distribution, fanzine, marketing, production, visual-da). Stabilité rétablie (RAM disponible > 900 Mo).
+- **Résolution** : aucune ré-authentification nécessaire.
+- **Commit** : 879bb39 (précédent), 5bf8bf2 (incident) + celui-ci.
+
 ## [2026-08-28] rd/infrastructure | Incident — Saturation RAM critique et indisponibilité des agents
 
 - **Contexte** : saturation RAM (3.5/3.7 Go) due à l'accumulation de 14 gateways + OmniRoute daemonisé, provoquant thrashing et échec des workers. Indisponibilité Discord consécutive à l'audit de sécurité du 27/08 (rédaction des secrets).
