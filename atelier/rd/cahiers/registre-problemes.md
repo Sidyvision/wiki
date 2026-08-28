@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-25
+updated: 2026-08-28
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,24 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-28] Annales append-only — en-tête d'entrée remplacé (et non précédé) à l'insertion ; non détecté par le vérificateur
+
+- **Symptôme** : dans `meta/meta-annales.md`, l'entrée du 2026-08-25 (« Signalement lot bibliothèque Tilak vers Hermes ») n'avait plus son en-tête greppable `## [2026-08-25] projet-unifie | …` — le corps (puces, dont `- **Commit** : a56b603`) était présent, visuellement fusionné au bloc de l'entrée du 2026-08-27 placée au-dessus. Découvert en lecture à froid lors d'une revue du protocole, pas par un contrôle automatique. `verifier-invariants.py --racine /root/wiki` exécuté sur le fichier corrompu : 0 erreur — les contrôles A2 (chronologie), A4 (doublon exact) et A5 passent tous.
+
+- **Diagnostic** : au commit `d09cc88` (2026-08-27, journalisation post-commit du lot Choura), l'insertion de la nouvelle entrée à la suite du marqueur `<!-- INSERTION: EN-TÊTE -->` s'est faite par **remplacement** de la ligne d'en-tête de la première entrée existante (ancrage de remplacement trop large — la ligne d'en-tête a servi d'ancre et a été consommée), et non par insertion avant elle. Le diff git est explicite : la ligne `## [2026-08-25] …` est comptée en suppression et jamais réintroduite. Classe d'erreur outillage-éditeur classique (remplacer au lieu d'insérer), aggravée par le fait que le format greppable des annales fait de **chaque en-tête la seule clé de rattachement** d'un bloc : un corps sans en-tête devient invisible à tout traitement mécanique ultérieur (grep `## [YYYY-MM-DD]`, comptage d'entrées, contrôle A2).
+
+- **Résolution** : en-tête rétabli verbatim depuis l'historique git (`git show a5de5c7`, commit d'origine de l'entrée), commit `88d3253`. Contrôle proposé pour le vérificateur (non écrit — Cmd 6) : contrôle A6 « corps d'entrée orphelin » — signaler tout bloc de puces de niveau entrée (`- **` en colonne 0) séparé du bloc précédent par une ligne vide et sans en-tête `## [date]` propre ; heuristique minimale couvrant ce cas : deux blocs de puces distincts sous un même en-tête, dont le second contient `- **Commit** :`.
+
+- **Compréhension tirée** : la convention d'insertion par marqueur HTML protège le *point* d'insertion, pas la *ligne suivante* — un rédacteur (agent ou humain) qui ancre son remplacement sur la première ligne existante après le marqueur détruit silencieusement cette ligne. Deux garde-fous complémentaires se confirment : (1) toute insertion append-only devrait être **relue en diff** (`git diff` : la seule ligne `-` attendue est celle du frontmatter `updated:`) avant commit — la convention existe (§VIII.1 jamais d'auto-accept) mais n'était pas appliquée à cette passe ; (2) le vérificateur ne contrôle aujourd'hui que la *chronologie des en-têtes*, jamais le *rattachement des corps* — un contrôle du second type est le seul filet pour cette classe. Enfin, la découverte ne doit rien à l'outillage : c'est une lecture à froid qui l'a produite — jusqu'à ce que le contrôle A6 existe, la relecture humaine/à froid des fichiers append-only reste le seul détecteur.
+
+- **Liens** : `meta/meta-annales.md` (fichier corrompu/restauré), commits `d09cc88` (introduction), `88d3253` (restauration), `a5de5c7` (texte original de l'en-tête), `verifier-invariants.py` (contrôles A2/A4/A5 insuffisants), compte-rendu `atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder.md` §I.
+
+- **Statut** : resolu (corruption restaurée) — contrôle A6 proposé, à trancher.
+
+---
+
+
 
 ## [2026-08-25] Validateurs index-livres — mismatch NFC/NFD sur noms de dossiers accentués
 
