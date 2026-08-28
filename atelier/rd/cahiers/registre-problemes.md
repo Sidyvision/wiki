@@ -30,6 +30,22 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-28] Correctif C1 consigné « traité » mais inefficace — le lien n'a jamais résolu ; détecté 5 jours plus tard seulement
+
+- **Symptôme** : correction du C1 de `doctrinal/autorites/rene-guenon.md` consignée comme traitée au 2026-08-18 (rapport `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md` §9.1 : « `doctrinal/discernement/` (répertoire) → `voir [[doctrinal/discernement]]` ») — l'avertissement persiste pourtant à chaque exécution du vérificateur jusqu'au 2026-08-28, où une consigne explicite de Sidy (« corrige le C1 de la fiche Guenon ») force sa résolution effective.
+
+- **Diagnostic** : la « correction » n'a retiré que la barre oblique finale — la cible reste un **répertoire**, jamais une fiche : le wikilink ne pouvait pas résoudre, avant comme après. Double faute de méthode : (1) le correctif a été consigné comme acquis **sans ré-exécuter le vérificateur après l'écriture** — le rapport affirme un résultat qu'aucune exécution ne confirmait (même classe que le « faux succès silencieux » du cron `coherence-infrastructure-brute`, entrée du 2026-08-18) ; (2) la note corrigée disait « fiches à venir » alors que les trois fiches du chantier existaient **déjà** (créées 2026-08-13/14, cinq jours avant la correction) — l'information stale n'a pas été revérifiée contre le dépôt au moment de corriger.
+
+- **Résolution** : pointeur mort remplacé par trois liens aliasés vers les fiches réelles du chantier Shams al-Maʿārif/corpus guénonien (efficacité talismanique, statut du siḥr, awfāq/métaphysique du Nombre) ; `cross_links` complétées (cohérence bidirectionnelle — les trois fiches pointaient déjà ici). Vérification **après** écriture : `0 erreur(s), 1 avertissement(s)` (l'A6 légitime). Commits `24ed5d1` (correctif) puis `98d3546` (journalisation Cmd 9).
+
+- **Compréhension tirée** : une correction consignée dans un rapport est une *affirmation*, pas un fait — le seul arbitre est le vérificateur **ré-exécuté après l'écriture**, résultat collé dans le rapport lui-même. Corollaire : une note « X à venir » est un créneau à revérifier au moment où on la touche — les fiches promises arrivent souvent sans que la note soit mise à jour. Un avertissement qui « revient » à chaque run n'est jamais un bruit de fond : c'est une correction déclarée et non effectuée.
+
+- **Liens** : `doctrinal/autorites/rene-guenon.md` (fiche corrigée), commit `da8e9b5` (correction inefficace du 2026-08-18), rapport §9.1 (consignation erronée), commits `24ed5d1`/`98d3546` (résolution), `doctrinal/annales.md` entrée `2026-08-28` (journalisation), `verifier-invariants.py` (l'arbitre).
+
+- **Statut** : resolu — plus aucun C1 au dépôt.
+
+---
+
 ## [2026-08-28] Annales append-only — en-tête d'entrée remplacé (et non précédé) à l'insertion ; non détecté par le vérificateur
 
 - **Symptôme** : dans `meta/meta-annales.md`, l'entrée du 2026-08-25 (« Signalement lot bibliothèque Tilak vers Hermes ») n'avait plus son en-tête greppable `## [2026-08-25] projet-unifie | …` — le corps (puces, dont `- **Commit** : a56b603`) était présent, visuellement fusionné au bloc de l'entrée du 2026-08-27 placée au-dessus. Découvert en lecture à froid lors d'une revue du protocole, pas par un contrôle automatique. `verifier-invariants.py --racine /root/wiki` exécuté sur le fichier corrompu : 0 erreur — les contrôles A2 (chronologie), A4 (doublon exact) et A5 passent tous.
