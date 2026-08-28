@@ -10,6 +10,13 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-28] rd/cahiers | Analyse technique : agents de recherche (Cookbook Perplexity)
+
+- **Contexte** : analyse comparative du workflow "Build Your Own Perplexity with Exa" en vue d'optimiser l'infrastructure de recherche des agents Hermes.
+- **Action** : création de la fiche d'analyse Phase 2, validée par Sidy pour le pôle R&D.
+- **Fiche** : `atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent.md`
+- **Commit** : b6f2ecc
+
 ## [2026-08-28] archivage | Cas pratique : Build Your Own Perplexity with Exa
 
 - **Contexte** : intégration du document externe "Build Your Own Perplexity with Exa" (Sarah Chieng, Cerebras Inference Cookbook, 2025) décrivant des architectures d'agents de recherche (Exa search + Cerebras inference, recherche à deux couches, orchestration multi-agents Anthropic).
