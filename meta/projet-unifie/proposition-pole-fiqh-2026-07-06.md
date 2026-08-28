@@ -1,12 +1,24 @@
 ---
 title: "Proposition — Pôle Fiqh, double face du Gardien du Protocole, Rapport du matin"
 type: meta
-tags: [outillage, projet-claude-ai, fiqh, label, gardien, hermes, proposition]
+status: deprecated
+tags: [outillage, projet-claude-ai, fiqh, label, gardien, hermes, proposition, deprecated]
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-08-27
 ---
 
 # Proposition — Pôle Fiqh du dépôt et harmonisation Label ↔ Doctrine
+
+> **`deprecated` le 2026-08-27** (verdict Sidy, exécution effective) : cette
+> proposition est **supersédée** par
+> [[meta/projet-unifie/proposition-pole-usul-2026-08-27]], qui élargit le pôle
+> Fiqh en pôle **Usûl** (Fiqh devient une branche parmi Manṭiq et Muṣṭalaḥ
+> al-ḥadīth). Rien du contenu ci-dessous n'est perdu (Cmd 10) : la matière
+> déjà validée (répartition agents 04/10, textes de base mālikite, bloc ⚖️)
+> est reprise intégralement comme cas particulier `branche: fiqh` du bloc
+> générique désormais en vigueur dans `doctrinal/CLAUDE.md`, action **EXAMEN
+> D'USÛL**. Conservée ci-dessous pour archive et traçabilité, non pour
+> application directe.
 
 > **Statut : validée par Sidy le 2026-07-06** sur les deux points ouverts :
 > 1. **Répartition 04/10 confirmée** (pas de 13ᵉ agent : 04 instruit le fiqh, 10
