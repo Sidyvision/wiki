@@ -1,0 +1,190 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+## §1 — Cartographie et cohérence structurelle
+
+**Script 1 — generer-cartographie.py --verifier**
+```
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 417
+      doctrinal    272
+      atelier      135
+      label        10
+
+  Arêtes : 1426
+      établies    1217
+      suggérées   209
+
+  Lacunes to-source : 73
+
+  Avertissements : 136 (non bloquants)
+      lien mort      61
+      compteur       42
+      isolée         29
+      lien           4
+  Mode --verifier : aucun manifeste écrit.
+```
+
+**Script 2 — detecter-non-tracke.py**
+```
+7 fichier(s) non tracké(s), par circuit :
+
+  [doctrinal] 5
+    M   doctrinal/sources/kitab-al-tarifat-jurjani.md
+    M   doctrinal/symboles/al-insan-al-kamil.md
+    M   doctrinal/symboles/khalwa.md
+    M   doctrinal/symboles/talisman-sihr.md
+    M   doctrinal/symboles/waqia.md
+
+  [meta] 1
+    M   meta/meta-annales.md
+
+  [racine] 1
+    M   graphe-cartographie.json
+```
+
+**Script 3 — verifier-coherence-infrastructure.py**
+```
+10 affirmation(s) vérifiée(s), 3 écart(s) :
+
+  ❌ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] bloc infra_verif du profil gardien ne contient aucun champ reconnu (cron_job / discord_home_channel / discord_allowed_channels)
+  ❌ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] bloc infra_verif du profil studio ne contient aucun champ reconnu (cron_job / discord_home_channel / discord_allowed_channels)
+  ❌ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] bloc infra_verif du profil publication ne contient aucun champ reconnu (cron_job / discord_home_channel / discord_allowed_channels)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+```
+
+---
+
+## §2 — Empreinte serveur
+
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   24G   13G  66% /
+
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       3.5Gi       175Mi       3.9Mi       334Mi       274Mi
+Swap:          2.0Gi       848Mi       1.2Gi
+```
+
+**Signal** : mémoire disponible 274Mi, swap 848Mi/2Gi — système sous pression. À surveiller.
+
+---
+
+## §3 — Registre Hermes-Terminal
+
+**Gateways actifs** : 12/12 (tous `active running`)
+- accounting, admin-legal, ar-music, commerce, distribution, fanzine, gardien, marketing, production, publication, studio, visual-da
+
+**Sas `_inbox/`** : vide (clean)
+
+---
+
+## §4 — R&D — analyse engagée
+
+### 4.1 Fiches nouvelles détectées (51)
+
+**Lot principal — bibliothèque/index-livres** (19 fiches) :
+- `bibliographie-ihwan-al-safa.md`, `bibliographie-porte-du-ciel.md`, `catalogue-bibliotheque.md`, `glossaires-porte-du-ciel.md`, `glossaire-unifie.md`, `index-noms-ihwan-al-safa.md`, `index-noms-porte-du-ciel.md`, `index-notions-ihwan-al-safa.md`, `index-origine-polaire-tilak.md`, `index-rig-veda.md`, `index-rig-veda-table.md`, `introduction-ihwan-al-safa.md`, `notices-porte-du-ciel.md`, `preface-introduction-porte-du-ciel.md`, `sommaire-origine-polaire.md`, `sommaire-porte-du-ciel.md`, `table-ihwan-al-safa.md`, `table-illustrations-porte-du-ciel.md`
+
+**Lot infrastructure/incidents** (25 fiches) :
+- `2026-08-20_pistes-developpement-infrastructure.md`, `2026-08-22_stealing-reasoning-traces-llm.md`, `2026-08-23_memoire-persistante-deploiement.md`, `2026-08-23_profil-karubi-isolation-memoire.md`, `2026-08-26_migration-omniroute-quota-qwen.md`, `analyse-temporelle-code-meta-raisonnement-ia-2026-08-19.md`, `canal-telegram-wendel-2026-08-21.md`, `configuration-hermex-webui-2026-08-23.md`, `etude-depot-cartographie-inventaire-raw-2026-08-20.md`, `incident-20260820-gardien-enlisement-rapport-conjoint.md`, `incident-2026-08-23-disfonctionnements-discord-hermex.md`, `incident-2026-08-23-memoire-persistante-hermes.md`, `incident-2026-08-27-omniroute-eaddrinuse-daemonisation.md`
+
+**Lot cahiers/outillage** (7 fiches) :
+- `2026-08-20_compte-rendu-malentendu-gardien-reprise-session.md`, `2026-08-22_lecons-chantier-bibliotheque-index-livres.md`, `rapport-conjoint-studio-gardien-etude-depot-20260820.md`, `rapport-studio-exploration-preliminaire.md`, `investigation-isolation-memoire-hermes.md`, `spec-srs-hermes-native.md`
+
+### 4.2 Analyse des fiches prioritaires
+
+#### A. `incident-2026-08-27-omniroute-eaddrinuse-daemonisation.md`
+
+**Nature** : incident résolu — daemonisation OmniRoute et Hermes WebUI
+
+**Rapprochement registre-problemes** : entrée `2026-08-25` (validateurs index-livres NFC/NFD) — pas de chevauchement. L'incident OmniRoute est **nouveau** et clos.
+
+**Dépendances** :
+- Alimente `2026-08-26_migration-omniroute-quota-qwen.md` (cause racine)
+- Enseignement transversal : daemonisation de tout process lancé manuellement
+
+**PROPOSITION** : clore l'entrée — aucune action requise. Le point de vigilance (tuer l'instance résiduelle avant daemonisation) est documenté dans la fiche.
+
+#### B. `2026-08-26_migration-omniroute-quota-qwen.md`
+
+**Nature** : consignation — migration routing vers OmniRoute sous contrainte quota
+
+**Anomalie détectée** : le bloc `infra_verif` (lignes 9-15) ne contient aucun champ reconnu par `verifier-coherence-infrastructure.py` → 3 écarts signalés en §1.
+
+**PROPOSITION** : corriger le frontmatter pour utiliser les champs valides (`cron_job`, `discord_home_channel`, `discord_allowed_channels`) ou retirer le bloc `infra_verif` s'il n'a pas vocation à déclarer ces éléments.
+
+#### C. `2026-08-25_gardien-gateway-crash-boucle.md`
+
+**Nature** : incident résolu — crash en boucle du gateway Gardien
+
+**Rapprochement registre-problemes** : pas d'entrée directe. L'entrée `2026-08-25` (NFC/NFD) est distincte.
+
+**Statut** : résolu. Leçons consignées (ne jamais restart depuis l'intérieur d'un gateway, reset-failed avant restart).
+
+**PROPOSITION** : aucune action — fiche de référence pour futur diagnostic.
+
+#### D. `2026-08-22_lecons-chantier-bibliotheque-index-livres.md`
+
+**Nature** : expérience — retour sur la conception de l'outillage d'indexation
+
+**Point critique (leçon 5)** : le contrôle H1 (photo déclarée vs réelle) ne s'armait pas par défaut. Corrigé depuis.
+
+**Rapprochement** : l'entrée `2026-08-25` du registre-problemes documente le même chantier sous l'angle NFC/NFD.
+
+**PROPOSITION** : considérer ce cahier comme base pour une fiche-méthode R&D (formation d'un agent à un chantier documentaire).
+
+#### E. `2026-08-22_zero-width-joiner-contamination.md`
+
+**Nature** : incident résolu — contamination Unicode
+
+**Post-scriptum 2 (2026-08-25)** : défaillance de la commande `sed` suggérée par le hook pre-commit. Corrigé dans `.git/hooks/pre-commit` (remplacement par `perl`).
+
+**PROPOSITION** : vérifier lors du prochain commit que le hook corrigé fonctionne. Aucune autre action requise.
+
+### 4.3 Registre-problemes — entrées récentes
+
+**Entrée 2026-08-25 (NFC/NFD)** : statut `ouvert`. Contournement manuel disponible. Correctif validateur non prioritaire.
+
+**Entrée 2026-08-25 (récurrence stale-claim)** : statut `resolu`. Table complétée, corrections en cascade documentées.
+
+**Entrée 2026-08-24 (compare manquant)** : statut `ouvert`. Fonctionnalité perdue lors du refactor. Solution en cours (`verifier-invariants.py` v3).
+
+**Entrée 2026-08-23 (hook Unicode)** : statut `resolu`. Hook étendu aux 6 caractères invisibles.
+
+**Entrée 2026-08-22 (comparaison LLM)** : statut `ouvert`. Discussion ouverte, non tranchée.
+
+### 4.4 Synthèse R&D — 5 pistes prioritaires
+
+| # | Piste | Urgence | Faisabilité | Statut |
+|---|-------|---------|-------------|--------|
+| 1 | Corriger frontmatter `migration-omniroute-quota-qwen.md` (bloc `infra_verif`) | Moyenne | Immédiate | PROPOSITION |
+| 2 | Daemoniser tout process manuel résiduel (audit complet) | Basse | Session unique | PROPOSITION |
+| 3 | Valider hook pre-commit corrigé (Perl) au prochain commit | Haute | Immédiate | PROPOSITION |
+| 4 | Compléter vues manquantes La Porte du Ciel (p.37-281 non photographiées) | Basse | Dépend Sidy | PROPOSITION |
+| 5 | Ajouter normalisation NFC/NFD au validateur `valider-index-livres.py` | Basse | Correction ponctuelle | PROPOSITION |
+
+---
+
+## §5 — Suggestions transversales
+
+1. **Mémoire serveur** : 274Mi disponible, swap 42% utilisé. Le système est sous contrainte. Un nettoyage des caches ou un redémarrage planifié pourrait soulager temporairement — à discuter avec Sidy.
+
+2. **Fiches non trackées** : 7 fichiers modifiés non commités (5 doctrinal, 1 meta, 1 racine). Le flux d'intégration normal (sas → commit → annales) devrait les rattraper.
+
+3. **Cohérence infrastructure** : les 3 écarts sur `migration-omniroute-quota-qwen.md` sont des faux positifs du validateur (bloc `infra_verif` malformé), pas des dérives réelles — mais méritent correction pour calibrer l'outil.
+
+4. **Dépendance croisée** : l'incident OmniRoute du 27/08 et la migration du 26/08 forment une séquence causale. La daemonisation résout le problème de fond (couplage session terminal/routing).
+
+---
+
+**Rapport du matin — profil Studio, canal #infrastructure — 2026-08-27 12:03 UTC**
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

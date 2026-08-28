@@ -2,8 +2,45 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 136,
+  "avertissements": 135,
   "nodes": [
+    {
+      "id": "atelier/etudes-de-cas/dougong-consoles-bois",
+      "label": "Dougong — données sur les consoles en bois à encorbellement (corpus brut)",
+      "circuit": "atelier",
+      "sous_dossier": "etudes-de-cas",
+      "type": "etude-de-cas",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "etude-de-cas",
+        "architecture",
+        "charpente-bois",
+        "parasismique",
+        "corpus"
+      ],
+      "updated": "2026-08-24",
+      "chemin": "atelier/etudes-de-cas/dougong-consoles-bois.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/etudes-de-cas/forteresses-architecture-defensive",
+      "label": "Forteresses — données d'architecture défensive (corpus brut)",
+      "circuit": "atelier",
+      "sous_dossier": "etudes-de-cas",
+      "type": "etude-de-cas",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "etude-de-cas",
+        "architecture",
+        "forteresse",
+        "corpus"
+      ],
+      "updated": "2026-08-24",
+      "chemin": "atelier/etudes-de-cas/forteresses-architecture-defensive.md",
+      "lacunes_to_source": 0
+    },
     {
       "id": "atelier/etudes-de-cas/kojima-productions",
       "label": "Case Study — Kojima Productions",
@@ -24,6 +61,25 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "atelier/etudes-de-cas/refroidissement-passif-traditionnel",
+      "label": "Refroidissement passif traditionnel — données sur cours, eau et masse thermique (corpus brut)",
+      "circuit": "atelier",
+      "sous_dossier": "etudes-de-cas",
+      "type": "etude-de-cas",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "etude-de-cas",
+        "architecture",
+        "climatique",
+        "passif",
+        "corpus"
+      ],
+      "updated": "2026-08-24",
+      "chemin": "atelier/etudes-de-cas/refroidissement-passif-traditionnel.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/etudes-de-cas/stones-throw",
       "label": "Case Study — Stones Throw Records",
       "circuit": "atelier",
@@ -40,6 +96,25 @@
       ],
       "updated": "2026-07-06",
       "chemin": "atelier/etudes-de-cas/stones-throw.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/etudes-de-cas/xuankong-temple-suspendu",
+      "label": "Xuankong Si — données sur le temple suspendu du mont Heng (corpus brut)",
+      "circuit": "atelier",
+      "sous_dossier": "etudes-de-cas",
+      "type": "etude-de-cas",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "etude-de-cas",
+        "architecture",
+        "charpente-bois",
+        "falaise",
+        "corpus"
+      ],
+      "updated": "2026-08-24",
+      "chemin": "atelier/etudes-de-cas/xuankong-temple-suspendu.md",
       "lacunes_to_source": 0
     },
     {
@@ -427,7 +502,7 @@
         "ressource",
         "catalogue"
       ],
-      "updated": "2026-08-23",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/bibliotheque/catalogue-bibliotheque.md",
       "lacunes_to_source": 0
     },
@@ -515,6 +590,19 @@
       "updated": "2026-08-23",
       "chemin": "atelier/rd/bibliotheque/index-notions-ihwan-al-safa.md",
       "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/index-origine-polaire-tilak",
+      "label": "Index — Origine polaire de la tradition védique",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "index-livre",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-25",
+      "chemin": "atelier/rd/bibliotheque/index-origine-polaire-tilak.md",
+      "lacunes_to_source": 0
     },
     {
       "id": "atelier/rd/bibliotheque/index-rig-veda",
@@ -606,6 +694,24 @@
       ],
       "updated": "2026-08-23",
       "chemin": "atelier/rd/bibliotheque/preface-introduction-porte-du-ciel.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/sommaire-origine-polaire",
+      "label": "Couverture et sommaire — Origine polaire de la tradition védique (Tilak)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "sommaire",
+        "origine-polaire",
+        "tilak"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "atelier/rd/bibliotheque/sommaire-origine-polaire.md",
       "lacunes_to_source": 1
     },
     {
@@ -1009,7 +1115,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-08-20",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
       "lacunes_to_source": 0
     },
@@ -1048,8 +1154,27 @@
       "status": "resolu",
       "tradition_cadre": null,
       "tags": [],
-      "updated": "2026-08-22",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/incidents/2026-08-25_gardien-gateway-crash-boucle",
+      "label": "Gardien — Gateway crash en boucle (exit code 1)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "hermes",
+        "gateway",
+        "gardien",
+        "crash",
+        "systemd"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "atelier/rd/incidents/2026-08-25_gardien-gateway-crash-boucle.md",
       "lacunes_to_source": 0
     },
     {
@@ -1124,6 +1249,19 @@
       ],
       "updated": "2026-08-23",
       "chemin": "atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen",
+      "label": "Migration OmniRoute — profils prioritaires sous quota Qwen épuisé (2026-08-26)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "fiche-rd",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-26",
+      "chemin": "atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md",
       "lacunes_to_source": 0
     },
     {
@@ -1288,6 +1426,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/configuration-hermex-webui-2026-08-23",
+      "label": "Infrastructure — Configuration Hermex (webui via Tailscale)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "hermex",
+        "webui",
+        "tailscale",
+        "hermes"
+      ],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/infrastructure/configuration-hermex-webui-2026-08-23.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11",
       "label": "État mesuré du serveur (matériel + empreinte Hermes/omniroute) — 2026-08-11",
       "circuit": "atelier",
@@ -1327,6 +1485,19 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex",
+      "label": "Incident R&D — Disfonctionnements Discord Gardien + Hermex (2026-08-23)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "fiche-rd",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-23",
+      "chemin": "atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes",
       "label": "Incident mémoire persistante Hermes — diagnostic et résolution (2026-08-23)",
       "circuit": "atelier",
@@ -1335,7 +1506,7 @@
       "status": null,
       "tradition_cadre": null,
       "tags": [],
-      "updated": "2026-08-23",
+      "updated": "2026-08-24",
       "chemin": "atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes.md",
       "lacunes_to_source": 0
     },
@@ -1509,7 +1680,7 @@
         "pistes-developpement",
         "feuille-de-route"
       ],
-      "updated": "2026-08-20",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md",
       "lacunes_to_source": 0
     },
@@ -1568,7 +1739,7 @@
         "app",
         "feuille-de-route"
       ],
-      "updated": "2026-08-04",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/instrument/instrument-feuille-de-route-v2.md",
       "lacunes_to_source": 0
     },
@@ -1628,7 +1799,7 @@
         "kabbale",
         "conceptuel"
       ],
-      "updated": "2026-08-11",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md",
       "lacunes_to_source": 0
     },
@@ -1678,7 +1849,7 @@
         "nafas-rahman",
         "gem-guenon"
       ],
-      "updated": "2026-07-01",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/instrument/soumission-gem-convergence-28.md",
       "lacunes_to_source": 0
     },
@@ -1696,7 +1867,7 @@
         "axe-38-degres",
         "gem-guenon"
       ],
-      "updated": "2026-07-01",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/instrument/soumission-gem-reponse-geometrie-3d.md",
       "lacunes_to_source": 0
     },
@@ -1714,7 +1885,7 @@
         "ibn-arabi",
         "gem-guenon"
       ],
-      "updated": "2026-07-01",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/instrument/soumission-gem-reponse-gloton.md",
       "lacunes_to_source": 0
     },
@@ -1732,7 +1903,7 @@
         "28-degres",
         "gem-guenon"
       ],
-      "updated": "2026-07-01",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/instrument/soumission-gem-reponse-visuelle-28.md",
       "lacunes_to_source": 0
     },
@@ -1752,7 +1923,7 @@
         "three-js",
         "phase-2"
       ],
-      "updated": "2026-07-26",
+      "updated": "2026-08-25",
       "chemin": "atelier/rd/instrument/spec-anneau-zodiacal.md",
       "lacunes_to_source": 0
     },
@@ -2254,7 +2425,7 @@
         "silsila",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/autorites/abdullah-daghestani.md",
       "lacunes_to_source": 1
     },
@@ -2273,9 +2444,9 @@
         "maghreb",
         "medieval"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-23",
       "chemin": "doctrinal/autorites/ahmad-al-buni.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/aiman-attar",
@@ -2310,9 +2481,9 @@
         "asharisme",
         "medieval"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-23",
       "chemin": "doctrinal/autorites/al-ghazali.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/al-jazari",
@@ -2329,9 +2500,9 @@
         "islam-medieval",
         "cybernétique"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/autorites/al-jazari.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/al-jurjani",
@@ -2367,9 +2538,9 @@
         "algorithme",
         "islam-medieval"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/autorites/al-khwarizmi.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/al-nabulusi",
@@ -2384,7 +2555,7 @@
         "soufisme",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/autorites/al-nabulusi.md",
       "lacunes_to_source": 1
     },
@@ -2403,9 +2574,9 @@
         "isca",
         "jmias"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-23",
       "chemin": "doctrinal/autorites/ali-hussain.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/faraz-rabbani",
@@ -2440,7 +2611,7 @@
         "contemporain",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/autorites/hamza-yusuf.md",
       "lacunes_to_source": 1
     },
@@ -2458,9 +2629,9 @@
         "andalousie",
         "akbarisme"
       ],
-      "updated": "2026-07-09",
+      "updated": "2026-08-23",
       "chemin": "doctrinal/autorites/ibn-arabi.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/ibn-qayyim",
@@ -2531,9 +2702,9 @@
         "enoch",
         "qutb"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-23",
       "chemin": "doctrinal/autorites/idris.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/imam-malik",
@@ -2587,9 +2758,9 @@
         "afrique-ouest",
         "tijaniyya"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-23",
       "chemin": "doctrinal/autorites/ouattara-brahima.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/platon",
@@ -2604,7 +2775,7 @@
         "antiquite",
         "metaphysique"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-23",
       "chemin": "doctrinal/autorites/platon.md",
       "lacunes_to_source": 0
     },
@@ -2621,7 +2792,7 @@
         "tradition",
         "perennialisme"
       ],
-      "updated": "2026-08-13",
+      "updated": "2026-08-23",
       "chemin": "doctrinal/autorites/rene-guenon.md",
       "lacunes_to_source": 0
     },
@@ -3707,6 +3878,31 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "label": "Gizeh au degré 24 (Ciel du Soleil) : la convergence Idrīs/Hermès",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "gizeh",
+        "hermes",
+        "idris",
+        "degre-24",
+        "malakut-planetaire",
+        "soleil",
+        "table-38-degres",
+        "symbole",
+        "archetype",
+        "macrocosme-microcosme"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/discernement/_template",
       "label": "Spéculation sur [Sujet de la réflexion]",
       "circuit": "doctrinal",
@@ -4176,6 +4372,28 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes",
+      "label": "Guénon — Note sur l'angélologie de l'alphabet arabe : les formes traditionnelles ont leur archétype céleste",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "guenon",
+        "aperçus-esoterisme-islamique-taoisme",
+        "archetype",
+        "angelologie",
+        "alphabet-arabe",
+        "monde-celeste",
+        "science-des-lettres",
+        "jafr"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh",
       "label": "Aperçus sur l'Ésotérisme islamique et le Taoïsme, ch. V : Er-Rûh (Guénon)",
       "circuit": "doctrinal",
@@ -4240,7 +4458,7 @@
         "regularite",
         "apercus-sur-l-initiation"
       ],
-      "updated": "2026-08-13",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission.md",
       "lacunes_to_source": 0
     },
@@ -4330,6 +4548,29 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes",
+      "label": "Guénon — La Grande Triade, ch. X : l'analogie constitutive du macrocosme et du microcosme",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "grande-triade",
+        "macrocosme",
+        "microcosme",
+        "analogie",
+        "ternaire",
+        "esprit-ame-corps",
+        "trois-mondes",
+        "centre-du-monde"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres",
       "label": "Guénon — La Grande Triade, ch. VIII : nombres célestes et nombres terrestres",
       "circuit": "doctrinal",
@@ -4351,6 +4592,50 @@
       ],
       "updated": "2026-08-14",
       "chemin": "doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-hermetisme-hermes-thoth",
+      "label": "Guénon — Hermétisme : Hermès identifié au Thoth égyptien",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "hermes",
+        "thoth",
+        "hermetisme",
+        "egypte",
+        "sacerdoce",
+        "initiation-royale",
+        "alchimie"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/sources/guenon-hermetisme-hermes-thoth.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu",
+      "label": "Guénon — Nâma-Rûpa : la nature du rapport entre l'archétype et l'individu",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "guenon",
+        "etudes-hindouisme",
+        "nama-rupa",
+        "archetype",
+        "idee-platonicienne",
+        "monde-intelligible",
+        "symbolisme",
+        "reflet"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu.md",
       "lacunes_to_source": 0
     },
     {
@@ -5259,7 +5544,7 @@
         "grammaire",
         "prosodie"
       ],
-      "updated": "2026-06-30",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/sources/kitab-al-tarifat-jurjani.md",
       "lacunes_to_source": 0
     },
@@ -5763,7 +6048,7 @@
         "tariqa",
         "manuel-devotionnel"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/sources/wazifa.md",
       "lacunes_to_source": 1
     },
@@ -5783,7 +6068,7 @@
         "ibn-arabi",
         "prophetologie"
       ],
-      "updated": "2026-06-29",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/symboles/al-insan-al-kamil.md",
       "lacunes_to_source": 0
     },
@@ -5948,7 +6233,7 @@
         "ontologie",
         "ibn-arabi"
       ],
-      "updated": "2026-06-29",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/symboles/barzakh.md",
       "lacunes_to_source": 0
     },
@@ -6158,7 +6443,7 @@
         "sharia",
         "muamalat"
       ],
-      "updated": "2026-07-06",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/symboles/fiqh.md",
       "lacunes_to_source": 1
     },
@@ -6428,9 +6713,9 @@
         "retraite",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/symboles/khalwa.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/khatm",
@@ -6927,6 +7212,43 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "doctrinal/symboles/tabia",
+      "label": "Al-Ṭabīʿa",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "nature",
+        "constitution",
+        "disposition-innee",
+        "perfection-naturelle",
+        "tabia"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/symboles/tabia.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/tabii",
+      "label": "Al-Ṭabʿ",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "caractere-naturel",
+        "temperament",
+        "disposition-innee",
+        "tab"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/symboles/tabii.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/symboles/table-28-degres-nafas-rahman",
       "label": "Table des 28 degrés du Nafas al-Raḥmān — distribution dans les Ḥaḍarāt al-Khams",
       "circuit": "doctrinal",
@@ -6946,8 +7268,26 @@
         "gloton",
         "wiki-manifest"
       ],
-      "updated": "2026-07-01",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/symboles/table-28-degres-nafas-rahman.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/talaq",
+      "label": "Al-Ṭalāq",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "divorce",
+        "repudiation",
+        "mariage",
+        "talaq"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/symboles/talaq.md",
       "lacunes_to_source": 0
     },
     {
@@ -6966,7 +7306,7 @@
         "awfaq",
         "al-buni"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/symboles/talisman-sihr.md",
       "lacunes_to_source": 1
     },
@@ -6988,6 +7328,24 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/symboles/tarab",
+      "label": "Al-Ṭarab",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "emotion",
+        "tristesse",
+        "joie",
+        "tarab"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/symboles/tarab.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/symboles/tarbiyya-rabbaniyya",
       "label": "Tarbiyya Rabbāniyya (l'éducation divine directe)",
       "circuit": "doctrinal",
@@ -7003,6 +7361,79 @@
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/tarbiyya-rabbaniyya.md",
       "lacunes_to_source": 1
+    },
+    {
+      "id": "doctrinal/symboles/tard",
+      "label": "Al-Ṭard",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "reciprocite",
+        "enchainement",
+        "logique",
+        "tard"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/symboles/tard.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/tariq",
+      "label": "Al-Ṭarīq",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "voie-spirituelle",
+        "chemin",
+        "regle",
+        "tariq"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/symboles/tariq.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/tariqa",
+      "label": "Al-Ṭarīqa",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "voie-spirituelle",
+        "cheminement",
+        "salikun",
+        "stations",
+        "tariqa"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/symboles/tariqa.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/tasdiq",
+      "label": "Taṣdīq",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "adhesion",
+        "sincerite",
+        "assentiment",
+        "tasdiq"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/symboles/tasdiq.md",
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/tawakkul",
@@ -7045,6 +7476,24 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "doctrinal/symboles/tibb-ruhani",
+      "label": "Al-Ṭibb al-Rūḥānī",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "therapeutique-spirituelle",
+        "guerison-du-coeur",
+        "maitre-spirituel",
+        "tibb-ruhani"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/symboles/tibb-ruhani.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/symboles/tibb-yunani",
       "label": "Tibb Yūnānī — la médecine des quatre humeurs",
       "circuit": "doctrinal",
@@ -7058,6 +7507,25 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/tibb-yunani.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/tughyan",
+      "label": "Al-Ṭuġyān",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "impiete",
+        "transgression",
+        "exces",
+        "desobeissance",
+        "tughyan"
+      ],
+      "updated": "2026-08-25",
+      "chemin": "doctrinal/symboles/tughyan.md",
       "lacunes_to_source": 0
     },
     {
@@ -7142,7 +7610,7 @@
         "ibn-arabi",
         "unite-de-letre"
       ],
-      "updated": "2026-08-04",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/symboles/wahdat-al-wujud.md",
       "lacunes_to_source": 0
     },
@@ -7160,7 +7628,7 @@
         "walaya",
         "metaphysique"
       ],
-      "updated": "2026-06-30",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/symboles/walaya.md",
       "lacunes_to_source": 0
     },
@@ -7196,9 +7664,9 @@
         "stub",
         "citations-a-verifier"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/symboles/waqia.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/wird-awrad",
@@ -7319,9 +7787,11 @@
       "tags": [
         "soufisme",
         "islam",
-        "spiritualite"
+        "spiritualite",
+        "tasawwuf",
+        "ihsan"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-08-25",
       "chemin": "doctrinal/traditions/tasawwuf.md",
       "lacunes_to_source": 0
     },
@@ -8677,6 +9147,13 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "target": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
       "target": "atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3",
       "champ": "links",
@@ -9392,6 +9869,13 @@
     },
     {
       "source": "doctrinal/autorites/ahmad-al-buni",
+      "target": "doctrinal/sources/shams-al-maarif",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ahmad-al-buni",
       "target": "doctrinal/symboles/ilm-al-huruf",
       "champ": "cross_links",
       "nature": "lien",
@@ -9441,6 +9925,13 @@
     },
     {
       "source": "doctrinal/autorites/al-ghazali",
+      "target": "doctrinal/sources/islam-and-artificial-intelligence",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/al-ghazali",
       "target": "doctrinal/traditions/tasawwuf",
       "champ": "cross_links",
       "nature": "lien",
@@ -9465,6 +9956,13 @@
       "target": "doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/al-jazari",
+      "target": "doctrinal/sources/islam-and-artificial-intelligence",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
@@ -9504,6 +10002,13 @@
     },
     {
       "source": "doctrinal/autorites/al-khwarizmi",
+      "target": "doctrinal/sources/islam-and-artificial-intelligence",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/al-khwarizmi",
       "target": "doctrinal/etudes/2026-06-04_islam-et-ia",
       "champ": "cross_links",
       "nature": "lien",
@@ -9521,6 +10026,20 @@
       "target": "doctrinal/symboles/taabir-al-ruya",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ali-hussain",
+      "target": "doctrinal/sources/awrad-ibn-arabi",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ali-hussain",
+      "target": "doctrinal/sources/jesus-and-enoch-in-ibn-arabi",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
@@ -9591,6 +10110,34 @@
       "target": "doctrinal/autorites/faraz-rabbani",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ibn-arabi",
+      "target": "doctrinal/sources/awrad-ibn-arabi",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ibn-arabi",
+      "target": "doctrinal/sources/jesus-and-enoch-in-ibn-arabi",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ibn-arabi",
+      "target": "doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ibn-arabi",
+      "target": "doctrinal/sources/malamatiyah-futuhat-ch23",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
@@ -9714,6 +10261,13 @@
     },
     {
       "source": "doctrinal/autorites/idris",
+      "target": "doctrinal/sources/jesus-and-enoch-in-ibn-arabi",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/idris",
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
       "nature": "lien",
@@ -9798,6 +10352,13 @@
     },
     {
       "source": "doctrinal/autorites/ouattara-brahima",
+      "target": "doctrinal/sources/shams-al-maarif",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ouattara-brahima",
       "target": "doctrinal/autorites/ahmad-al-buni",
       "champ": "cross_links",
       "nature": "lien",
@@ -9811,6 +10372,118 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/sources/platon-oeuvres-completes-brisson-2011",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/sources/kitab-tarifat-index-transcription",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/symboles/atlantide",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/symboles/poseidon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/symboles/tawakkul",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/symboles/outil-faculte-objectivee",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/platon",
+      "target": "doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rene-guenon",
+      "target": "doctrinal/deviations/confusion-psychique-spirituel",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rene-guenon",
+      "target": "doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rene-guenon",
+      "target": "doctrinal/deviations/contre-initiation",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rene-guenon",
+      "target": "doctrinal/deviations/pseudo-initiation-et-syncretisme",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/autorites/rene-guenon",
       "target": "doctrinal/symboles/malamatiyya",
       "champ": "cross_links",
@@ -9820,34 +10493,6 @@
     {
       "source": "doctrinal/autorites/rene-guenon",
       "target": "doctrinal/sources/malamatiyah-futuhat-ch23",
-      "champ": "cross_links",
-      "nature": "lien",
-      "assise": "etabli"
-    },
-    {
-      "source": "doctrinal/autorites/rene-guenon",
-      "target": "doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores",
-      "champ": "cross_links",
-      "nature": "lien",
-      "assise": "etabli"
-    },
-    {
-      "source": "doctrinal/autorites/rene-guenon",
-      "target": "doctrinal/deviations/confusion-psychique-spirituel",
-      "champ": "cross_links",
-      "nature": "lien",
-      "assise": "etabli"
-    },
-    {
-      "source": "doctrinal/autorites/rene-guenon",
-      "target": "doctrinal/deviations/contre-initiation",
-      "champ": "cross_links",
-      "nature": "lien",
-      "assise": "etabli"
-    },
-    {
-      "source": "doctrinal/autorites/rene-guenon",
-      "target": "doctrinal/deviations/pseudo-initiation-et-syncretisme",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -12058,6 +12703,76 @@
       "assise": "suggere"
     },
     {
+      "source": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "target": "doctrinal/sources/2026-07-03_guenon-tombeau-hermes",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "target": "doctrinal/autorites/idris",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "target": "doctrinal/symboles/table-28-degres-nafas-rahman",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "target": "doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "target": "doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "target": "doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "target": "doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "target": "doctrinal/sources/guenon-hermetisme-hermes-thoth",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "target": "doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "target": "doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
       "source": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
       "target": "doctrinal/symboles/hadarat-khams",
       "champ": "sources",
@@ -12541,6 +13256,20 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes",
+      "target": "doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -12632,6 +13361,20 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission",
+      "target": "doctrinal/sources/guenon-hermetisme-hermes-thoth",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission",
+      "target": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -12709,6 +13452,34 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes",
+      "target": "doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes",
+      "target": "doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes",
+      "target": "doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -12725,6 +13496,41 @@
     {
       "source": "doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres",
       "target": "doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-hermetisme-hermes-thoth",
+      "target": "doctrinal/autorites/idris",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-hermetisme-hermes-thoth",
+      "target": "doctrinal/sources/2026-07-03_guenon-tombeau-hermes",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-hermetisme-hermes-thoth",
+      "target": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu",
+      "target": "doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -14914,6 +15720,13 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/barzakh",
+      "target": "doctrinal/symboles/alam-al-mithal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/bindu",
       "target": "doctrinal/symboles/nada",
       "champ": "cross_links",
@@ -15485,6 +16298,13 @@
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/khalwa",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
@@ -16139,6 +16959,34 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/tabia",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tabia",
+      "target": "doctrinal/symboles/tabii",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tabii",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tabii",
+      "target": "doctrinal/symboles/tabia",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/table-28-degres-nafas-rahman",
       "target": "doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq",
       "champ": "sources",
@@ -16195,6 +17043,13 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/talaq",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/talisman-sihr",
       "target": "doctrinal/autorites/ahmad-al-buni",
       "champ": "cross_links",
@@ -16230,10 +17085,80 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/tarab",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/tarbiyya-rabbaniyya",
       "target": "doctrinal/symboles/khalwa",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tard",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tariq",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tariq",
+      "target": "doctrinal/symboles/tariqa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tariq",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tariqa",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tariqa",
+      "target": "doctrinal/symboles/tariq",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tariqa",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tariqa",
+      "target": "doctrinal/traditions/naqshbandiyya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tasdiq",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
@@ -16314,10 +17239,38 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/tibb-ruhani",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tibb-ruhani",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tibb-ruhani",
+      "target": "doctrinal/symboles/tibb-e-nabawi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/tibb-yunani",
       "target": "doctrinal/autorites/ibn-sina",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tughyan",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
@@ -16518,6 +17471,13 @@
     },
     {
       "source": "doctrinal/symboles/waqia",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/waqia",
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
       "nature": "lien",
@@ -16679,6 +17639,13 @@
     },
     {
       "source": "doctrinal/traditions/tasawwuf",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tasawwuf",
       "target": "doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa",
       "champ": "cross_links",
       "nature": "lien",
@@ -16701,6 +17668,20 @@
     {
       "source": "doctrinal/traditions/tasawwuf",
       "target": "doctrinal/symboles/futuwwa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tasawwuf",
+      "target": "doctrinal/symboles/walaya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tasawwuf",
+      "target": "doctrinal/symboles/tariqa",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

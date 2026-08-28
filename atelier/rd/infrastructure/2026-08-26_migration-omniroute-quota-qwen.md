@@ -9,10 +9,16 @@ statut: consignation
 infra_verif:
   - profil: gardien
     provider: omniroute
+    cron_job: veille-protocole-gardien
+    discord_home_channel: 1535804669300052039
+    discord_allowed_channels:
+      - 1534858103185473627
   - profil: studio
     provider: omniroute
+    cron_job: monitoring-infrastructure-quotidien
   - profil: publication
     provider: omniroute
+    cron_job: veille-referencement-investigation-08
 ---
 
 # Migration OmniRoute — profils prioritaires sous quota Qwen épuisé

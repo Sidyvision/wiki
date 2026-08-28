@@ -9,10 +9,10 @@ tags:
 - retraite
 - stub
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-08-25
 sources:
-- to-source
-sources_count: 0
+- '[[doctrinal/sources/kitab-al-tarifat-jurjani]]'
+sources_count: 1
 cross_links:
 - '[[doctrinal/symboles/barzakh]]'
 - '[[doctrinal/symboles/alam-al-mithal]]'
@@ -23,6 +23,14 @@ cross_links:
 ## Définition
 
 Pratique d'isolement volontaire (au sens large, parente de l'*ʿuzla*) destinée à favoriser le recueillement et l'ouverture à des états de conscience subtils, par soustraction aux distractions du monde sensible.
+
+## Ancrage terminologique (Jurjānī, déf. 1066)
+
+Le *Taʿrīfāt* ne comporte pas d'entrée propre à *ḫalwa*. Le terme parent que la fiche appelle — l'*ʿuzla* — y est en revanche défini :
+
+**al-ʿuzla** (العُزْلَة) — La retraite, la solitude. C'est se défaire des fréquentations des créatures (*muḫālaṭat al-ḫalq*) par isolement (*inziwāʾ*) et séparation (*inqiṭāʿ*).
+
+— source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1066, p. 298. Vérifié sur l'édition physique (trad. Maurice Gloton, Albouraq), transcription du 2026-08-25 depuis `raw/Transcription Jurjani/IMG_0188.JPG`.
 
 ## Développement
 
@@ -35,4 +43,4 @@ Pratique d'isolement volontaire (au sens large, parente de l'*ʿuzla*) destinée
 
 ## Sources
 
-À compléter — voir tag `#stub`.
+- [[doctrinal/sources/kitab-al-tarifat-jurjani]] (déf. 1066 al-ʿuzla)
