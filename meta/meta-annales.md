@@ -14,6 +14,27 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (doublon périmé)
+
+- **Contexte** : suite de la session de corrections de dérive (entrée
+  précédente, commit 88d3253) — signalement n°1 (« wiki-manifest.json à la
+  racine est un doublon périmé ; à supprimer ou déprécier ») tranché par
+  verdict explicite de Sidy : « Yes you can delete the stale file ».
+- **Action** : `git rm wiki-manifest.json` (356 lignes). Le manifeste vivant
+  vit en `atelier/rd/instrument/wiki-manifest.json` (schéma v0.2.5, régénéré
+  le 2026-08-25) ; le fichier racine datait du 2026-08-03 (schéma v0.2.1) et
+  aucun script ne le visait — `generer-manifeste.py` écrit en
+  `atelier/rd/instrument/`, `bureau/config.py` (`INSTRUMENT_MANIFEST`) lit ce
+  même chemin, `instrument_status.py` ne lit que `instrument-donnees.yaml`.
+  Références vérifiées sur `.md`, `.py`, `.sh`, `.json` : aucune ne pointe le
+  chemin racine.
+- **Cmd 10** : suppression autorisée par verdict humain explicite ; le
+  fichier reste récupérable dans l'historique git (dernier commit le
+  touchant : 5c43d49).
+- **Contrôle** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 17 avertissement(s)` — identique à l'exécution de référence.
+- **Commit** : 1588bb7
+
 ## [2026-08-28] maintenance | Corrections de dérive du protocole (table Karūbī, arbre §II, historique migré, meta-index, README)
 
 - **Contexte** : première session du moteur Qoder en poste INTÉGRATION (Cmd 14) ;
