@@ -36,6 +36,7 @@ jobs:
           site_name: Wiki Sidyvision
           site_description: Wiki personnel structuré
           repo_url: https://github.com/Sidyvision/wiki
+          docs_dir: .
           theme:
             name: material
             language: fr
