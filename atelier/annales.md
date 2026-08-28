@@ -10,6 +10,36 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-28] outillage | Vérificateur — contrôle A6 (orphelins), convention code, C4 régularisé ; 2 en-têtes doctrinal/annales restaurés
+
+- **Contexte** : verdict Sidy sur les trois propositions ouvertes du
+  compte-rendu du jour — « Je valide tes propositions que tu peux exécuter
+  dès maintenant et pour le C4 corrige le lien dans le sens autorisé ».
+- **A6** : contrôle « corps d'entrée orphelin » ajouté à
+  `verifier-invariants.py` — avertissement quand une section d'annales porte
+  plusieurs champs `- **Commit** :`. Première exécution : **2 occurrences
+  supplémentaires** de la classe d09cc88 découvertes dans
+  `doctrinal/annales.md` (entrées Tombeau d'Hermès 2026-08-25, Khatm
+  2026-08-04) — en-têtes restaurés verbatim depuis l'historique git
+  (`f2de988`, `5e3c8a1`). Faux positif légitime unique connu et documenté :
+  `atelier/annales.md`, entrée groupée du 2026-08-20.
+- **Convention code** : un wikilink entre backticks ou dans une clôture de
+  bloc de code est de la syntaxe citée en exemple, jamais un lien vivant —
+  C1/C3/C4 l'ignorent désormais (masquage avant scan). 15 artefacts de
+  syntaxe sur les 17 avertissements disparaissent ; les signaux réels
+  subsistent.
+- **C4** : wikilink `doctrinal/annales.md` → `meta/` neutralisé (chemin en
+  backticks, texte verbatim — append-only respecté), lien vivant posé dans
+  le sens autorisé : `meta/projet-unifie/proposition-pole-usul-2026-08-27.md`
+  → `doctrinal/CLAUDE` (§VI, sensible → neutre).
+- **Docs** : guide `meta/2026-07-27_guide-deploiement-verifier-invariants.md`
+  (tables A6/C4, convention code, sections de résolution) ; registre
+  (entrée 2026-08-28 mise à jour, verdict consigné) et compte-rendu (§VI
+  annoté).
+- **Contrôle** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 2 avertissement(s)` — l'A6 légitime + un C1 préexistant.
+- **Commit** : a2a8732
+
 ## [2026-08-28] rd/cahiers | Compte-rendu R&D — première session d'un nouveau moteur en poste INTÉGRATION (Qoder)
 
 - **Contexte** : consigne Sidy « instruit ton rapport au R&D » — consignation
