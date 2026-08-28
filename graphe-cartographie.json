@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 135,
+  "avertissements": 136,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/dougong-consoles-bois",
@@ -1511,6 +1511,32 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation",
+      "label": "Incident R&D — OmniRoute EADDRINUSE et daemonisation systemd (2026-08-27)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "fiche-rd",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-27",
+      "chemin": "atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite",
+      "label": "Incident R&D — Saturation RAM critique et indisponibilité des agents (2026-08-28)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "fiche-rd",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-28",
+      "chemin": "atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint",
       "label": "Incident R&D — Enlisement Gardien (rapport conjoint 2026-08-20)",
       "circuit": "atelier",
@@ -2833,7 +2859,7 @@
       ],
       "updated": "2026-06-11",
       "chemin": "doctrinal/autorites/yaqub-chaudhary.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/deviations/antitradition-et-contre-tradition",
@@ -10544,6 +10570,13 @@
       "target": "doctrinal/symboles/manazil-al-qamar",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/yaqub-chaudhary",
+      "target": "doctrinal/sources/islam-and-artificial-intelligence",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
