@@ -1,0 +1,185 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+Now I have all the data needed. Let me compile the complete report.
+
+---
+
+## §1 Cartographie et cohérence
+
+**Script 1 : `python3 Graphe/generer-cartographie.py --depot /root/wiki --verifier`**
+```
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 418
+      doctrinal    272
+      atelier      136
+      label        10
+
+  Arêtes : 1427
+      établies    1218
+      suggérées   209
+
+  Lacunes to-source : 72
+
+  Avertissements : 136 (non bloquants)
+      lien mort      61
+      compteur       41
+      isolée         30
+      lien           4
+  Mode --verifier : aucun manifeste écrit.
+```
+
+**Script 2 : `python3 atelier/rd/outillage/detecter-non-tracke.py --racine /root/wiki`**
+```
+Aucun fichier non tracké.
+```
+
+**Script 3 : `python3 atelier/rd/outillage/verifier-coherence-infrastructure.py --racine /root/wiki`**
+```
+12 affirmation(s) vérifiée(s), 1 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ❌ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] DISCORD_HOME_CHANNEL attendu 1535804669300052039, réel '1534858103185473627' (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] DISCORD_ALLOWED_CHANNELS couvre les 1 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+```
+
+---
+
+## §2 Empreinte serveur
+
+**`df -h / && free -h`**
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   24G   13G  66% /
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       2.9Gi       369Mi       4.2Mi       681Mi       806Mi
+Swap:          2.0Gi       587Mi       1.4Gi
+```
+
+---
+
+## §3 Registre Hermes-Terminal
+
+**`systemctl --user list-units 'hermes-*'`**
+```
+  UNIT                                LOAD   ACTIVE SUB     DESCRIPTION
+● hermes-gateway-accounting.service   loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-admin-legal.service  loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-ar-music.service     loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-distribution.service loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-fanzine.service      loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-gardien.service      loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-marketing.service    loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-production.service   loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-publication.service  loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-studio.service       loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-visual-da.service    loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+
+Legend: LOAD   → Reflects whether the unit definition was properly loaded.
+        ACTIVE → The high-level unit activation state, i.e. generalization of SUB.
+        SUB    → The low-level unit activation state, values depend on unit type.
+
+11 loaded units listed. Pass --all to see loaded but inactive units, too.
+To show all installed unit files use 'systemctl list-unit-files'.
+```
+
+**Bind mounts & `_inbox` staleness**
+```
+=== bind mounts (grep hermes/root/wiki) ===
+---
+=== _inbox staleness ===
+total 16
+drwxrwxr-x+  2 root root 4096 2026-08-28 00:28 .
+drwxr-xr-x  12 root root 4096 2026-08-28 08:44 ..
+-rw-rw-r--+  1 root root 2943 2026-08-28 00:28 UPDATES.md
+```
+
+**État** : 3 gateways actives (`gardien`, `studio`, `publication`), 8 en échec (désactivées intentionnellement suite incident RAM). `_inbox/` contient un `UPDATES.md` daté d'aujourd'hui 00:28 UTC.
+
+---
+
+## §4 R&D — analyse engagée
+
+### 4.1 Fiches R&D nouvelles / modifiées (détectées par `detecter-nouvelles-fiches-rd.sh`)
+
+**Fiche nouvelle :**
+- `atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite.md` — `statut: resolu`
+
+**Fiche modifiée :**
+- `atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md` — `statut: consignation`
+
+---
+
+### 4.2 Analyse de la fiche nouvelle : `incident-2026-08-28-saturation-ram-indisponibilite.md`
+
+**A. Lecture intégrale** — fiche lue en entier (voir sortie brute ci-dessus).
+
+**B. Rapprochement avec `registre-problemes.md`** — l'entrée `[2026-08-25] Discord Gateway Gardien — socket fermé, non récupéré` (statut `ouvert`) documente un symptôme voisin (gateway gardienne injoignable, processus tournant mais WebSocket fermé) qui est **une conséquence directe** de la saturation RAM (le thrashing mémoire a provoqué l'instabilité du WebSocket Discord). L'entrée `[2026-08-25] Validateurs index-livres — mismatch NFC/NFD` et `[2026-08-25] Récurrence — claim périmée` sont sans rapport. **Aucune entrée existante ne couvre la cause racine (saturation structurelle 14 gateways + OmniRoute sur 3.7 Go RAM)**.
+
+**C. PROPOSITION d'action concrète**
+- **PROPOSITION** : Mettre en œuvre une logique de « gateway à la demande » (démarrage paresseux / arrêt automatique des profils inactifs > N minutes) plutôt que 14 gateways permanentes. Créer une fiche `rd/infrastructure/2026-08-28_gateway-a-la-demande.md` pour spécifier l'architecture cible (profil `studio` comme orchestrateur de démarrage/arrêt des gateways métier via `systemctl --user`).
+- **PROPOSITION** : Ajouter un garde-fou mémoire au cron `monitoring-infrastructure-quotidien` : si `free -h` montre > 85% RAM utilisée, émettre une alerte Discord `#infrastructure` **avant** que le système ne thrashe.
+- **PROPOSITION** : Documenter la procédure de re-configuration post-audit sécurité (règle 37 de la fiche : `hermes auth` obligatoire, jamais `edit .env`) dans `atelier/rd/infrastructure/procedure-post-audit-secrets.md`.
+
+**D. Dépendances entre fiches R&D**
+| Fiche | Nourrit | Angle mort |
+|-------|---------|------------|
+| `incident-2026-08-28-saturation-ram-indisponibilite.md` | → future fiche `gateway-a-la-demande.md` ; → `procedure-post-audit-secrets.md` | Quel seuil de RAM déclenche l'arrêt auto ? Comment éviter le thrashing pendant le démarrage d'un gateway ? |
+| `2026-08-26_migration-omniroute-quota-qwen.md` (modifiée) | → validation `verifier-coherence-infrastructure.py` (bloc `infra_verif` déjà présent) | Le `DISCORD_HOME_CHANNEL` gardien attendu (1535804669300052039) ≠ réel (1534858103185473627) — écart non corrigé. |
+
+**E. Handoffs explicites**
+- **Agent Gardien** : L'écart `DISCORD_HOME_CHANNEL` (attendu 1535804669300052039 vs réel 1534858103185473627) signalé par `verifier-coherence-infrastructure.py` nécessite correction — soit mettre à jour le frontmatter de la fiche, soit reconfigurer le profil gardien.
+- **Agent Publication** : Le cron `veille-referencement-investigation-08` est vérifié OK, mais dépend du même quota OmniRoute ; surveiller la stabilité du combo `auto/best-free` (latence 90s observée sur Hermes Terminal).
+
+---
+
+### 4.3 Registre-problemes.md — 5 entrées les plus récentes (état actuel)
+
+| Date | Titre | Statut | Changement depuis dernière exécution |
+|------|-------|--------|--------------------------------------|
+| 2026-08-25 | Validateurs index-livres — mismatch NFC/NFD | `ouvert` | **Stagnante** — contournement manuel toujours seul remède ; correctif validateur non prioritaire. |
+| 2026-08-25 | Récurrence — claim périmée « table des 38 degrés bloquée » | `ouvert` | **Stagnante** — vigilance systématique évoquée (dater/revérifier tout item « en cours ») non encore implémentée. |
+| 2026-08-25 | Discord Gateway Gardien — socket fermé, non récupéré | `ouvert` | **Résolue de facto** par l'incident RAM du 28/08 (restart physique + réduction à 3 gateways a rétabli la connexion). Redondante avec la nouvelle fiche incident. |
+| 2026-08-20 | Traçabilité en défaut — tension Burckhardt/Jurjānī | `resolu` | **Fermée** — correction appliquée dans la fiche Instrument, discernement doctrinal confirmé clos 2026-07-09. |
+| 2026-08-18 | `coherence-infrastructure-brute` réparé en deux temps | `resolu` | **Fermée** — script copié (non lié) dans `scripts/studio/`, job cron fonctionnel, archive monitoring en cron dédié. |
+
+**Note** : L'entrée `[2026-08-17] Angle mort de continuité tâches/information` est la 6e plus récente (statut `resolu` après application option (b) : création `verifier-coherence-infrastructure.py`).
+
+---
+
+### 4.4 Synthèse R&D — 3 à 5 pistes prioritaires (PROPOSITION)
+
+| Priorité | Piste | Urgence | Faisabilité | Dépendances |
+|----------|-------|---------|-------------|-------------|
+| **1** | **Architecture « gateway à la demande »** — réduire de 14→3 gateways permanentes, démarrage paresseux des profils métier | **CRITIQUE** (saturation structurelle récurrente) | Haute (systemd user + script orchestrateur) | Nécessite validation Sidy sur quels profils sont « à la demande » vs « permanents » |
+| **2** | **Corriger l'écart `DISCORD_HOME_CHANNEL` gardien** (fiche `2026-08-26_migration-omniroute-quota-qwen.md` vs réalité) | Haute (bloc `infra_verif` en échec) | Triviale (choix : maj fiche OU reconfig profil) | Décision Sidy : quelle valeur est canonique ? |
+| **3** | **Garde-fou mémoire dans cron monitoring** — alerte Discord si RAM > 85% | Haute (prévention incident 28/08) | Moyenne (ajout dans script wrapper `monitoring-infrastructure-quotidien-cron.sh`) | Dépend piste 1 (si gateways à la demande, seuil change) |
+| **4** | **Procédure post-audit secrets** — `hermes auth` obligatoire, documentation | Moyenne (règle de sécurité) | Faible (fiche procédure + checklist) | Aucune |
+| **5** | **Vigilance systématique « claim périmée »** — script de vérification auto des items « bloqué/en cours » dans fiches Instrument vs `doctrinal/discernement/` | Moyenne (qualité outillage) | Moyenne (script Python, grep multi-fichiers) | Entrée 2026-08-25 #2 |
+
+---
+
+## §5 Suggestions transversales
+
+1. **`verifier-coherence-infrastructure.py`** : L'écart `DISCORD_HOME_CHANNEL` gardien doit être tranché **avant** le prochain run quotidien (soit maj frontmatter fiche `2026-08-26_migration-omniroute-quota-qwen.md`, soit `hermes --profile gardien config set ...`). Laisser un `❌` persistant dégrade la confiance dans le contrôle.
+
+2. **_inbox/UPDATES.md** présent (2943 octets, 00:28 UTC) — vérifier s'il contient des fiches à intégrer ce jour (cycle d'intégration standard).
+
+3. **RAM disponible ~900 Mo** (post-incident, 3 gateways) — marge confortable mais surveiller la croissance si des gateways métier sont redémarrées. Le seuil d'alerte 85% (≈ 3.1 Go) serait atteint à ~4 gateways actives.
+
+4. **Protocole local `atelier/CLAUDE.md`** : La nouvelle fiche incident R&D et la future fiche `gateway-a-la-demande.md` relèvent du Sceau atelier — vérifier que leurs frontmatters respectent la nomenclature `rd/infrastructure` (type `fiche-rd`, `circuit: rd/infrastructure`, statuts valides).
+
+5. **Annales atelier** : Consigner ce rapport quotidien dans `atelier/annales.md` (marqueur `<!-- INSERTION: EN-TÊTE -->`) avec préfixe `## [2026-08-28] monitoring | Rapport quotidien Studio — incident RAM, cohérence infra, pistes R&D`.
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").
