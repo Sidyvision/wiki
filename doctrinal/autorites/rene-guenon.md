@@ -8,13 +8,16 @@ tags:
 - tradition
 - perennialisme
 created: 2026-06-02
-updated: 2026-08-23
+updated: 2026-08-28
 sources_count: 4
 cross_links:
 - '[[doctrinal/symboles/malamatiyya]]'
 - '[[doctrinal/sources/malamatiyah-futuhat-ch23]]'
 - '[[doctrinal/sources/shams-al-maarif]]'
 - '[[doctrinal/autorites/ahmad-al-buni]]'
+- '[[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel]]'
+- '[[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation]]'
+- '[[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]]'
 sources:
 - '[[doctrinal/deviations/confusion-psychique-spirituel]]'
 - '[[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]]'
@@ -39,8 +42,11 @@ Dans *Initiation et Réalisation spirituelle* (chs. XXVIII « Le masque populair
 ## Doctrine — Magie, théurgie et influences spirituelles
 
 > Section ouverte le 2026-08-13 pour servir d'ancrage au chantier de confrontation
-> [[doctrinal/sources/shams-al-maarif]] / corpus guénonien (voir
-> [[doctrinal/discernement]], fiches à venir). Contenu strictement limité à ce qui
+> [[doctrinal/sources/shams-al-maarif]] / corpus guénonien (fiches du chantier :
+> [[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel|efficacité talismanique / critère psychique-spirituel]],
+> [[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation|statut du siḥr / grille contre-initiation-pseudo-initiation]],
+> [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre|awfāq / métaphysique du Nombre]]).
+> Contenu strictement limité à ce qui
 > est déjà sourcé dans le dépôt ; les points non couverts sont signalés `to-source`.
 
 ### Le critère opératoire : psychique n'est pas spirituel
