@@ -1,13 +1,35 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-27
+updated: 2026-08-28
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-28] correctif | rene-guenon — C1 doctrinal/discernement remplacé par liens vivants vers les fiches du chantier
+
+- **Contexte** : consigne Sidy « Corrige le C1 de la fiche Guenon » — dernier
+  signal réel restant après la passe outillage du jour (A6, convention code,
+  C4).
+- **Constat** : le wikilink `doctrinal/discernement` de la note d'ouverture
+  de la section « Magie, théurgie et influences spirituelles » (2026-08-13)
+  ne résolvait jamais — cible répertoire, pas fiche. La « correction » du
+  2026-08-18 (commit da8e9b5) n'avait retiré que la barre oblique finale ;
+  le rapport d'alors consignait le lien comme traité à tort.
+- **Correction** : les fiches annoncées « à venir » dans la note existent
+  depuis 2026-08-13/14 — le pointeur mort devient trois liens aliasés vers
+  [[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel|efficacité talismanique]],
+  [[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation|statut du siḥr]] et
+  [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre|awfāq / métaphysique du Nombre]].
+  `cross_links` complétées des trois fiches (cohérence bidirectionnelle —
+  elles pointaient déjà toutes ici), `updated` → 2026-08-28.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 1 avertissement(s)` — l'A6 légitime (entrée groupée
+  atelier/annales 2026-08-20). Plus aucun C1 au dépôt.
+- **Commit** : 24ed5d1
 
 ## [2026-08-27] archivage | Pôle Usûl (remplace EXAMEN DE FIQH) et gabarit Discernement (champ maturite)
 
