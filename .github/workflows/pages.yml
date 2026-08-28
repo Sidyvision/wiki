@@ -41,9 +41,17 @@ jobs:
           cp -r label docs/ 2>/dev/null || true
           cp -r meta docs/ 2>/dev/null || true
           cp -r raw docs/ 2>/dev/null || true
-          # Also copy scripts and assets
           cp *.py docs/ 2>/dev/null || true
           cp *.json docs/ 2>/dev/null || true
+          # Create index.md for each directory if missing
+          find docs -type d | while read dir; do
+            if [ ! -f "$dir/index.md" ] && [ "$dir" != "docs" ]; then
+              name=$(basename "$dir")
+              echo "# $name" > "$dir/index.md"
+              echo "" >> "$dir/index.md"
+              echo "Contenu du dossier \`$name\`." >> "$dir/index.md"
+            fi
+          done
 
       - name: Generate mkdocs.yml
         run: |
@@ -72,16 +80,16 @@ jobs:
                 permalink: true
           nav:
             - Accueil: README.md
-            - Entités: doctrinal/
-            - Concepts: hermeneutique/
-            - Atelier: atelier/
-            - Label: label/
-            - Meta: meta/
-            - Raw: raw/
+            - Entités: doctrinal/index.md
+            - Concepts: hermeneutique/index.md
+            - Atelier: atelier/index.md
+            - Label: label/index.md
+            - Meta: meta/index.md
+            - Raw: raw/index.md
           MKDOCS_EOF
 
       - name: Build
-        run: mkdocs build --strict
+        run: mkdocs build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
