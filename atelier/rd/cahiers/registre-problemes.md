@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-28
+updated: 2026-08-29
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,24 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-29] Push agent bloqué sur `main` (403, attendu) mais merge de PR via l'API GitHub passé sans aucune review requise malgré la protection de branche
+
+- **Symptôme** : dans une session d'intégration (Claude Code cloud), `git push origin main` échoue en `403` — les identifiants git de la session sont scopés à la branche de travail désignée, pas à `main` (comportement voulu, cf. protocole de session : « NEVER push to a different branch without explicit permission »). Contournement effectué avec verdict explicite de Sidy (« merge direct dans main ») : ouverture de la PR #11 (`claude/shayegan-transcription-archivage-qt2815` → `main`) puis appel de l'outil GitHub API `merge_pull_request` — **la fusion a réussi immédiatement** (`merged: true`), alors que le dépôt venait de recevoir, quatre minutes plus tôt dans le même main (commit `a748808`, cf. `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md`), une protection de branche annoncée comme exigeant « 1 review approuvante obligatoire (dismiss stale) ». Vérification a posteriori (`pull_request_read` méthodes `get_reviews`/`get`) : **`total_count` de reviews = 0**, `merged_by` = `Sidyvision` (le compte propriétaire lui-même) ; seul le check `lint` (statut requis) était effectivement vert avant fusion.
+
+- **Diagnostic** (interprétation, non confirmée par lecture directe des réglages de protection de branche — aucun outil de cette session n'y donne accès) : le jeton utilisé par l'intégration MCP GitHub de cette session s'authentifie comme le compte propriétaire du dépôt (`Sidyvision`), pas comme une App/bot à portée restreinte. Le comportement observé est cohérent avec le réglage standard GitHub où la protection de branche ne s'applique pas aux administrateurs tant que l'option « Include administrators » / « Do not allow bypassing the above settings » n'est pas activée — mais ce réglage précis n'a pas été vérifié directement (aucun tool de lecture des branch protection rules disponible dans cette session). À confirmer par Sidy dans les réglages GitHub du dépôt.
+
+- **Portée** : si le diagnostic est exact, **la protection de branche sur `main` ne fait actuellement obstacle à aucun agent opérant avec ce jeton** — ni au push direct (bloqué séparément, au niveau du proxy git de la session cloud, pas de la protection GitHub) ni, surtout, au merge de PR via l'API, qui contourne la revue humaine que la protection est censée imposer. Tension directe avec Cmd VIII.1 du protocole racine (« Jamais d'auto-accept ») et Cmd 13 (« Porte humaine sur tout ce qui engage ») : dans ce cas précis le contournement du push direct était couvert par un verdict Sidy explicite pour *cette* fusion, mais le mécanisme qui a permis le merge (bypass silencieux de la review requise) n'est pas conditionné à ce verdict — un agent qui déciderait seul de merger une PR sur `main` via l'API GitHub le pourrait tout autant, sans qu'aucune protection technique ne l'arrête.
+
+- **Résolution** : aucune — signalement seul, aucune modification des réglages GitHub effectuée par cette session (hors du périmètre d'un agent d'intégration, Cmd 13). Décision de durcissement (activer l'enforcement admin, ou restreindre le jeton MCP GitHub à une identité non-propriétaire à portée moindre) laissée à Sidy.
+
+- **Compréhension tirée** : une protection de branche affichée dans un compte-rendu R&D (« 1 review obligatoire ») n'est une garantie effective que si elle a été testée contre le chemin d'accès réellement utilisé par les agents — ici l'API GitHub authentifiée comme le propriétaire, distincte du chemin `git push` que le proxy de session bloque déjà par un autre mécanisme. Deux gardes-fous indépendants peuvent donner une fausse impression de couverture croisée alors qu'un seul chemin (l'API, via un jeton privilégié) suffit à les contourner tous les deux.
+
+- **Liens** : PR [`Sidyvision/wiki#11`](https://github.com/Sidyvision/wiki/pull/11) (0 review, merge réussi), commit `a748808` (mise en place de la protection de branche annoncée), `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md` (§ Branch Protection), `atelier/annales.md` entrées `[2026-08-27]/[2026-08-29]` rd/bibliotheque (contexte du merge), CLAUDE.md racine §VIII.1 et Cmd 13.
+
+- **Statut** : ouvert — décision de durcissement en attente de Sidy.
+
+---
 
 ## [2026-08-28] Correctif C1 consigné « traité » mais inefficace — le lien n'a jamais résolu ; détecté 5 jours plus tard seulement
 
