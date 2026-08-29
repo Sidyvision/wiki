@@ -93,6 +93,9 @@ ETANCHEITE_INTERDITE = {
 SOURCES_CIBLES_INTERDITES = {"meta"}
 
 RE_ENTETE_ANNALES = re.compile(r"^##\s+\[(\d{4}-\d{2}-\d{2})\]\s*(.*)$")
+RE_CHAMP_COMMIT = re.compile(r"^-\s*\*\*Commit\*\*\s*:")
+RE_CLOTURE = re.compile(r"^\s*(```|~~~)")
+RE_SPAN_CODE = re.compile(r"`[^`\n]+`")
 RE_WIKILINK = re.compile(r"\[\[([^\]\|#]+)(?:#[^\]\|]+)?(?:\|[^\]]*)?\]\]")
 RE_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
@@ -264,6 +267,25 @@ def controler_annales(chemin_abs, chemin_rel, rap):
                 "d'un ajout mécanique en fin de fichier plutôt qu'une insertion.",
                 i + 1)
 
+    # A6 — corps d'entrée orphelin : une même section (entre deux en-têtes
+    # `## [YYYY-MM-DD]`) porte plusieurs champs `- **Commit** :`. Signature
+    # d'une insertion qui a remplacé l'en-tête de l'entrée suivante au lieu
+    # de la précéder (incident 2026-08-28, registre R&D). Avertissement, non
+    # bloquant : une entrée groupée légitime peut citer plusieurs commits.
+    for k in range(len(entetes)):
+        debut = entetes[k][0]
+        fin = entetes[k + 1][0] if k + 1 < len(entetes) else len(lignes) + 1
+        nb_commits = sum(
+            1 for ligne in lignes[debut:fin - 1]
+            if RE_CHAMP_COMMIT.match(ligne))
+        if nb_commits > 1:
+            rap.avertir(
+                chemin_rel, "A6",
+                f"corps d'entrée orphelin possible : {nb_commits} champs "
+                f"`- **Commit** :` dans une seule section — en-tête perdu "
+                f"lors d'une insertion ? (entrée [{entetes[k][1]}] "
+                f"{entetes[k][2]})", debut)
+
 
 # --------------------------------------------------------------------------
 # Contrôle B — hygiène du frontmatter
@@ -344,6 +366,23 @@ def collecter_cibles(racine):
     return par_chemin, par_slug
 
 
+def masquer_code(corps):
+    """Neutralise blocs et spans de code : un wikilink entre backticks ou
+    dans une clôture ``` est de la syntaxe citée en exemple (documentation
+    d'un motif, code du validateur lui-même), jamais un lien vivant.
+    Convention adoptée le 2026-08-28 — s'applique à C1/C3/C4."""
+    lignes = corps.split("\n")
+    dans_bloc = False
+    hors_bloc = []
+    for ligne in lignes:
+        if RE_CLOTURE.match(ligne):
+            dans_bloc = not dans_bloc
+            hors_bloc.append(ligne)
+            continue
+        hors_bloc.append("" if dans_bloc else ligne)
+    return RE_SPAN_CODE.sub(" ", "\n".join(hors_bloc))
+
+
 def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
     circ = circuit_de(chemin_rel)
     nom = os.path.basename(chemin_rel)
@@ -354,7 +393,7 @@ def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
     exempt_c3 = nom in FICHIERS_EXEMPTS_C3
     exempt_c1 = chemin_rel in FICHIERS_EXEMPTS_C1 or nom in FICHIERS_EXEMPTS_C1
     interdits = set() if exempt_c3 else ETANCHEITE_INTERDITE.get(circ, set())
-    for brut in RE_WIKILINK.findall(corps):
+    for brut in RE_WIKILINK.findall(masquer_code(corps)):
         cible = brut.strip().replace("\\", "/")
         if cible.endswith(".md"):
             cible = cible[:-3]

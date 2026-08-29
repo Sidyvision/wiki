@@ -11,7 +11,7 @@ tags:
 - awfaq
 - al-buni
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-08-25
 sources:
 - to-source
 sources_count: 0
@@ -46,6 +46,15 @@ Un *wafq* est un carré de cases contenant des nombres dont la somme est identiq
 - Guérison (fièvre, piqûres de venin, douleurs)
 - Amour et attraction (des cœurs, des gouvernants)
 - Obéissance des esprits (*arwāḥ*)
+
+### Vérification sur le *Taʿrīfāt* (2026-08-25)
+
+⚠️ L'index du *Taʿrīfāt* transcrit au dépôt porte l'entrée `siḥr : 952`. La
+vérification sur l'édition physique (p. 270, photographie IMG_0163.JPG) établit que la
+déf. 0952 est en réalité **al-ṣihr** (الصهر, alliance matrimoniale) — l'index imprimé
+confond صهر et سحر. **Le *Taʿrīfāt* ne comporte aucune définition autonome du siḥr
+(magie)**. Le `to-source` de cette fiche ne peut donc pas être levé par Jurjānī ;
+il demeure en attente d'une autre source primaire.
 
 ## Notes
 

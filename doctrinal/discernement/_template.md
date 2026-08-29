@@ -2,6 +2,7 @@
 title: Spéculation sur [Sujet de la réflexion]
 type: discernement
 status: speculatif
+maturite: aucune-pousse  # aucune-pousse | germe | plante | arbre | fruit-vert | fruit-mur — voir meta/projet-unifie/proposition-discernement-image-organique-2026-08-27.md pour la définition des cinq états ; axe orthogonal à `status`, ajouté 2026-08-27
 tradition_cadre: universel
 tags:
 - speculation

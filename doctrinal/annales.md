@@ -1,13 +1,57 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-25
+updated: 2026-08-28
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-28] correctif | rene-guenon — C1 doctrinal/discernement remplacé par liens vivants vers les fiches du chantier
+
+- **Contexte** : consigne Sidy « Corrige le C1 de la fiche Guenon » — dernier
+  signal réel restant après la passe outillage du jour (A6, convention code,
+  C4).
+- **Constat** : le wikilink `doctrinal/discernement` de la note d'ouverture
+  de la section « Magie, théurgie et influences spirituelles » (2026-08-13)
+  ne résolvait jamais — cible répertoire, pas fiche. La « correction » du
+  2026-08-18 (commit da8e9b5) n'avait retiré que la barre oblique finale ;
+  le rapport d'alors consignait le lien comme traité à tort.
+- **Correction** : les fiches annoncées « à venir » dans la note existent
+  depuis 2026-08-13/14 — le pointeur mort devient trois liens aliasés vers
+  [[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel|efficacité talismanique]],
+  [[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation|statut du siḥr]] et
+  [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre|awfāq / métaphysique du Nombre]].
+  `cross_links` complétées des trois fiches (cohérence bidirectionnelle —
+  elles pointaient déjà toutes ici), `updated` → 2026-08-28.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 1 avertissement(s)` — l'A6 légitime (entrée groupée
+  atelier/annales 2026-08-20). Plus aucun C1 au dépôt.
+- **Commit** : 24ed5d1
+
+## [2026-08-27] archivage | Pôle Usûl (remplace EXAMEN DE FIQH) et gabarit Discernement (champ maturite)
+
+- **Contexte** : verdict Sidy du 2026-08-27 sur le lot de quatre propositions
+  (« Je valide l'ensemble des fiches propositions »), exécution effective
+  fiche par fiche (Cmd 6).
+- **Usûl** : `doctrinal/CLAUDE.md` amendé — l'« Action : EXAMEN DE FIQH »
+  devient « Action : EXAMEN D'USÛL », bloc générique avec champ
+  `branche: fiqh | mantiq | mustalah-hadith` ; les règles propres au fiqh
+  (préséance mālikite, bloc ⚖️) deviennent le cas particulier `branche: fiqh`.
+  `meta/projet-unifie/proposition-pole-fiqh-2026-07-06.md` passé
+  `deprecated` avec pointeur vers
+  `meta/projet-unifie/proposition-pole-usul-2026-08-27` (Cmd 10, contenu
+  original conservé intégralement).
+- **Discernement** : `doctrinal/discernement/_template.md` reçoit le champ
+  `maturite` (cinq états, axe orthogonal à `status`). Rétroportage sur les
+  ~38 fiches existantes explicitement différé (Sidy) : renseigné par les
+  agents au fil de l'édition de fond, pas en bloc ici.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` —
+  0 erreur, 16 avertissements pré-existants (faux positifs C1 connus, non
+  liés à cette passe).
+- **Commit** : 1213c04
 
 ## [2026-08-25] enrichissement | H3 Gizeh/degré 24 — relecture du Tombeau d'Hermès, résultat négatif
 
@@ -930,6 +974,8 @@ intégralement avant citation.
 - **Fichier orphelin constaté** : `doctrinal/discernement/compte-rendu-12-agents-2026-08-09.md`, non tracké git, jamais passé par `_inbox/`, frontmatter incomplet — écrit directement dans le circuit doctrinal par un agent Hermes en session terminal, hors protocole. Signalé à Sidy, déplacé (verdict Sidy) vers (cf. Domaine Réservé, fiche `17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09`) avec Sceau `meta` conforme, contenu intact.
 - **Vérification** : `verifier-invariants.py` — 0 erreur, 0 avertissement après correction.
 - **Commit** : d16189b
+
+## [2026-08-04] ingest | Khatm — page orthodoxe des Sceaux et enrichissement du discernement sayyid al-awwalîn
 
 - **Opération** : ARCHIVAGE & MAILLAGE + EXAMEN DE DISCERNEMENT (enrichissement, non clôture).
 - **Créé** : [[doctrinal/symboles/khatm]] — cible manquante signalée le 2026-07-14, ouverte sur demande de Sidy. Distingue quatre notions : Khātim al-Nubuwwa (Muhammad), Khatm al-Wilāya al-ʿĀmma (ʿĪsā), Khatm al-Wilāya al-Muḥammadiyya (Ibn ʿArabī), et la Quṭbiyya al-Kubrā qui n'est pas un Sceau (Jurjānī 1281 : « Le Pôle n'est pas le Sceau de la Sainteté »).

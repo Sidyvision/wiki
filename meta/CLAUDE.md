@@ -60,6 +60,7 @@ qui elle est remise. Table de correspondance (mise à jour à chaque
 | Mikael Heaudebourg | Malik |
 | Habiba-Nour Kouyaté | Jamal & Jamila |
 | Jean-Marc Bastareaud | Yahya |
+| Wendel Nazaire | Hassan |
 
 Circuit du plus sensible : un fichier-protocole personnifié, remis de main à main
 à un destinataire nommé, qui vit par cycles de navette entre lui et Sidy. Sceau

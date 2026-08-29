@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-24
+updated: 2026-08-28
 
 ---
 
@@ -13,6 +13,101 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (doublon périmé)
+
+- **Contexte** : suite de la session de corrections de dérive (entrée
+  précédente, commit 88d3253) — signalement n°1 (« wiki-manifest.json à la
+  racine est un doublon périmé ; à supprimer ou déprécier ») tranché par
+  verdict explicite de Sidy : « Yes you can delete the stale file ».
+- **Action** : `git rm wiki-manifest.json` (356 lignes). Le manifeste vivant
+  vit en `atelier/rd/instrument/wiki-manifest.json` (schéma v0.2.5, régénéré
+  le 2026-08-25) ; le fichier racine datait du 2026-08-03 (schéma v0.2.1) et
+  aucun script ne le visait — `generer-manifeste.py` écrit en
+  `atelier/rd/instrument/`, `bureau/config.py` (`INSTRUMENT_MANIFEST`) lit ce
+  même chemin, `instrument_status.py` ne lit que `instrument-donnees.yaml`.
+  Références vérifiées sur `.md`, `.py`, `.sh`, `.json` : aucune ne pointe le
+  chemin racine.
+- **Cmd 10** : suppression autorisée par verdict humain explicite ; le
+  fichier reste récupérable dans l'historique git (dernier commit le
+  touchant : 5c43d49).
+- **Contrôle** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 17 avertissement(s)` — identique à l'exécution de référence.
+- **Commit** : 1588bb7
+
+## [2026-08-28] maintenance | Corrections de dérive du protocole (table Karūbī, arbre §II, historique migré, meta-index, README)
+
+- **Contexte** : première session du moteur Qoder en poste INTÉGRATION (Cmd 14) ;
+  revue du protocole à la demande de Sidy, verdict « apply all suggested
+  corrections ». Six corrections de dérive appliquées, aucune modification de
+  fond du protocole.
+- **meta/CLAUDE.md** : ligne `Wendel Nazaire | Hassan` ajoutée à la table de
+  correspondance Karūbī (instance G1 générée le 2026-08-21, présente au
+  registre et dans `transmissions/` mais absente de la table ; `date_remise`
+  encore vide — remise en attente).
+- **CLAUDE.md (racine)** : historique des révisions du préambule (environ
+  90 lignes) migré vers `meta/protocole-archives/changelog-CLAUDE.md`
+  (append-only, marqueur `<!-- INSERTION: EN-TÊTE -->`) ; le protocole
+  conserve un en-tête de statut court (dernières révisions + pointeurs
+  d'archive). Arbre du §II complété : `README.md`, `Graphe/`,
+  `carte-du-depot.py`, `verifier-invariants.py`, `graphe-cartographie.json`,
+  sous-dossiers `meta/` manquants (`personnel/`, `genealogie/`, `journal/`,
+  `briefs/`). Rév. portée à 2026-08-28.
+- **Guide de déploiement** `verifier-invariants.py` : déplacé de la racine
+  (fichier orphelin hors circuit, nom à espaces contraire à la nomenclature
+  §III) vers `meta/2026-07-27_guide-deploiement-verifier-invariants.md`.
+- **meta-index.md** : `karubi-wendel` ajouté aux transmissions, section
+  `briefs/` créée, fiches de premier niveau manquantes recensées
+  (bibliotheque-physique TOMBSTONE, philosophie-sashimono,
+  plan-fiche-discernement-septenaire-transversal), renvoi périmé §V.c
+  corrigé vers `meta/CLAUDE.md`.
+- **meta-annales.md** : en-tête de l'entrée du 2026-08-25 (Signalement lot
+  bibliothèque Tilak vers Hermes) restauré — le corps était présent sans
+  son en-tête greppable, perdu à l'insertion du 2026-08-27 (commit d09cc88).
+- **README.md (racine)** : réécrit — il décrivait la structure
+  pré-Restauration (`wiki/entities`, `wiki/concepts`, `schema/`), supprimée
+  depuis le 2026-06-11.
+- **Signalements (rapportés sans correction d'office, verdict Sidy attendu)** :
+  (1) `wiki-manifest.json` à la racine est un doublon périmé — généré le
+  2026-08-03 (schéma v0.2.1) alors que le manifeste vivant vit en
+  `atelier/rd/instrument/wiki-manifest.json` (v0.2.5, 2026-08-25) et
+  qu'aucun script ne vise la racine ; à supprimer ou déprécier.
+  (2) `meta/protocole-archives/CLAUDE.md.bak-2026-08-22-pre-deplacement-
+  bibliotheque` conservé tel quel — référencé nommément dans des entrées
+  d'annales append-only (`atelier/annales.md` 2026-08-22/23), un renommage
+  créerait des références pendantes.
+  (3) Orthographe « Bouzouida » (meta-index) vs « Bouzouïda »
+  (meta/CLAUDE.md) — variante sans enjeu, laissée en l'état.
+- **Contrôle** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 17 avertissement(s)` — identique à l'exécution de référence
+  d'avant correction ; aucun avertissement nouveau introduit.
+- **Commit** : 88d3253
+
+## [2026-08-27] projet-unifie | Choura : premier cycle wiki + câblage cron réel (12 profils Hermes)
+
+- **Contexte** : verdict Sidy du 2026-08-27 sur
+  [[meta/projet-unifie/proposition-cycle-consultation-choura-2026-08-27]] —
+  exécution effective complète (wiki + infrastructure vivante), portée
+  précisée : intégration des jobs cron préexistants (« unifier le tout »),
+  puis salon de livraison précisé par Sidy (« général »).
+- **Wiki** : `meta/projet-unifie/choura/cycle-2026-08-28.md` créé (premier
+  cycle, marqueur `QUEUE`, gabarit d'entrée, règle d'affinité et clause
+  anti-remplissage rappelées). Script `_ajouter-jobs-choura.py` conservé
+  pour traçabilité (Cmd 9), non destiné à être relancé.
+- **Infrastructure vivante** (`/root/.hermes/profiles/<role>/cron/jobs.json`,
+  hors wiki, hors dépôt git) : job `cycle-choura` ajouté aux 12 profils de
+  rôle (gardien, ar-music, visual-da, production, admin-legal, accounting,
+  distribution, marketing, publication, studio, fanzine, commerce), cadence
+  2h, ordre zodiacal, tous les jobs préexistants préservés intacts. `deliver`
+  câblé sur `discord:1534857297321394248` (salon « général », guilde
+  Label-Agent). Les 12 gateways ont été redémarrés individuellement
+  (`hermes gateway restart`) pour prendre en compte les nouveaux jobs — PID
+  renouvelés, statut vérifié `gateway list`.
+- **Incident mineur corrigé au passage** : le script de câblage avait
+  réintroduit des caractères ZWJ (U+200D) dans les prompts injectés — nettoyé
+  sur le script, le fichier de cycle, `UPDATES.md`, et rétroactivement sur
+  les 12 `jobs.json` déjà déployés (Cmd 15, hygiène Unicode).
+- **Commit** : 1213c04
 
 ## [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers Hermes (rôle 08, mandat 2)
 

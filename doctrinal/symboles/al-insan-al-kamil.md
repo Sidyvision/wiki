@@ -77,9 +77,35 @@ Universel, chacune le rapportant à une fonction métaphysique précise :
   source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1370, p. 539. Vérifié sur
   l'édition physique (trad. Maurice Gloton, Albouraq).
 
-**Reste à transcrire** : les déf. 1502-1503 (*martabat al-insān al-kāmil*, le rang ou
-degré de l'Homme Parfait — index p. 550) ont été annoncées dans ce lot mais leur texte
-n'a pas encore été transcrit depuis l'édition physique ; elles demeurent en attente.
+**Le rang de l'Homme Parfait (déf. 1502)** :
+
+**martabat al-insān al-kāmil** (مرتبة الإنسان الكامل) — Le degré, la place, le rang,
+l'ordre de l'Homme parfait.
+
+Cette expression désigne l'ensemble des degrés divins et cosmiques (*marātib ilāhiyya
+wa kawniyya*), en rapport avec les intelligences et les âmes universelles et
+particulières, les degrés de la Nature universelle (*ṭabīʿa*), jusqu'à la dernière
+manifestation existentielle (*tanazzul al-wujūd*).
+
+C'est aussi le nom du degré de la Nuée primordiale (*ʿamāʾiyya*) qui a un rapport
+d'affinité (*muḍāhiyya*) avec le Degré divin. Toutefois, la différence entre ces deux
+degrés n'existe que sous le rapport des deux fonctions corrélatives du Seigneur ou
+Enseigneur (*rubūbiyya*) et du vassal, assujetti ou enseigné (*marbūbiyya*). Pour
+cette raison, l'Homme parfait devient le Lieutenant de Dieu (*ḫalīfat Allāh*).
+
+**Le degré de l'Unitude (déf. 1503)** — entrée connexe, versée ici pour sa fonction de
+repère hiérarchique : **al-martabat al-aḥadiyya** (المرتبة الأحديّة) — Le degré ou rang
+de l'Unitude ou Unité absolue. C'est la Réalité essentielle ontologique, ou Réalité de
+l'Être en acte (*ḥaqīqat al-wujūd*) envisagée « sans qu'aucune chose soit avec elle » —
+référence au ḥadīṯ : « Allāh était et rien avec Lui ». C'est le Degré de la Résorption
+intégrale (*martabat al-mustahlika*) de l'ensemble des Noms (*asmāʾ*) et des Attributs
+(*ṣifāt*). Ce Degré est appelé « la Synthèse de la Synthèse » (*jamʿ al-jamʿ*),
+« la Réalité des Réalités essentielles » (*ḥaqīqat al-ḥaqāʾiq*), ou encore « le Nuage
+obscur » (*ʿamāʾ*).
+
+— source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1502-1503, p. 405.
+Vérifié sur l'édition physique (trad. Maurice Gloton, Albouraq), transcription du
+2026-08-25 depuis `raw/Transcription Jurjani/IMG_0208.JPG`.
 
 ### Correspondances cosmiques
 

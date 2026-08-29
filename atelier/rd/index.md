@@ -3,7 +3,7 @@ title: "Pôle R&D de l'atelier — charte du lieu"
 type: index
 tags: [atelier, rd, infrastructure, souverainete]
 created: 2026-08-08
-updated: 2026-08-22
+updated: 2026-08-28
 sources: []
 links: []
 ---
@@ -148,6 +148,18 @@ dans le dépôt.
   outil qui contient ce qu'il interdit, jugement calculé plutôt que déclaré,
   panne silencieuse d'un contrôle non armé, absence de dépôt git. Le retour
   sur la formation de l'agent proprement dite reste à écrire après le lot 1.
+- **Compte-rendu — première session d'un nouveau moteur en poste INTÉGRATION
+  (2026-08-28)** :
+  [[atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder|
+  compte-rendu 2026-08-28]] — retour d'expérience de la première session du
+  moteur Qoder dans la fonction INTÉGRATION (Cmd 14) : incident append-only
+  découvert et restauré (en-tête d'entrée remplacé à l'insertion, non détecté
+  par le vérificateur — entrée au registre même date), données de calibrage du
+  vérificateur (0 erreur / 17 avertissements, typologie des C1), suppression du
+  manifeste racine orphelin, observation multi-rédacteurs (5 commits Hermes
+  concurrents sans collision), lisibilité du protocole par un moteur à froid.
+  Propositions ouvertes : contrôle A6 « corps d'entrée orphelin », convention
+  pour les wikilinks d'exemple, verdict sur un lien C4.
 - **Compte-rendu — malentendu du rapport conjoint et reprise (2026-08-20)** :
   [[atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session|compte-rendu
   2026-08-20]] — le Gardien n'avait pas répondu à la demande de Sidy (pistes

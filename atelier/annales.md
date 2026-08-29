@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-27
+updated: 2026-08-28
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,106 @@ updated: 2026-08-27
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-28] rd | Registre — correctif C1 rene-guenon consigné traité mais resté inefficace, faute de méthode identifiée
+
+- **Consignation** : le correctif C1 du 2026-08-18 (`da8e9b5`) n'avait retiré que
+  la barre oblique finale du wikilink `[[doctrinal/discernement/]]` → la cible
+  restait un répertoire, jamais une fiche — le lien n'a jamais résolu, avant
+  comme après. Persisté 5 jours sans détection avant résolution effective le
+  2026-08-28 (`24ed5d1`/`98d3546`) sur consigne explicite de Sidy.
+- **Double faute de méthode consignée dans le registre** : (1) correctif
+  affirmé traité sans ré-exécution du vérificateur après écriture ; (2) note
+  « fiches à venir » non revérifiée contre un dépôt qui les avait déjà depuis
+  5 jours.
+- **Compréhension tirée** : une correction consignée dans un rapport est une
+  affirmation, pas un fait — seul le vérificateur ré-exécuté après écriture
+  arbitre. Un avertissement qui « revient » à chaque run n'est jamais un bruit
+  de fond.
+- **Vérification** : `verifier-invariants.py --racine /root/wiki` → 0 erreur(s),
+  1 avertissement(s) (A6 légitime déjà documenté).
+- **Commit** : ea5bf99
+
+## [2026-08-28] outillage | Vérificateur — contrôle A6 (orphelins), convention code, C4 régularisé ; 2 en-têtes doctrinal/annales restaurés
+
+- **Contexte** : verdict Sidy sur les trois propositions ouvertes du
+  compte-rendu du jour — « Je valide tes propositions que tu peux exécuter
+  dès maintenant et pour le C4 corrige le lien dans le sens autorisé ».
+- **A6** : contrôle « corps d'entrée orphelin » ajouté à
+  `verifier-invariants.py` — avertissement quand une section d'annales porte
+  plusieurs champs `- **Commit** :`. Première exécution : **2 occurrences
+  supplémentaires** de la classe d09cc88 découvertes dans
+  `doctrinal/annales.md` (entrées Tombeau d'Hermès 2026-08-25, Khatm
+  2026-08-04) — en-têtes restaurés verbatim depuis l'historique git
+  (`f2de988`, `5e3c8a1`). Faux positif légitime unique connu et documenté :
+  `atelier/annales.md`, entrée groupée du 2026-08-20.
+- **Convention code** : un wikilink entre backticks ou dans une clôture de
+  bloc de code est de la syntaxe citée en exemple, jamais un lien vivant —
+  C1/C3/C4 l'ignorent désormais (masquage avant scan). 15 artefacts de
+  syntaxe sur les 17 avertissements disparaissent ; les signaux réels
+  subsistent.
+- **C4** : wikilink `doctrinal/annales.md` → `meta/` neutralisé (chemin en
+  backticks, texte verbatim — append-only respecté), lien vivant posé dans
+  le sens autorisé : `meta/projet-unifie/proposition-pole-usul-2026-08-27.md`
+  → `doctrinal/CLAUDE` (§VI, sensible → neutre).
+- **Docs** : guide `meta/2026-07-27_guide-deploiement-verifier-invariants.md`
+  (tables A6/C4, convention code, sections de résolution) ; registre
+  (entrée 2026-08-28 mise à jour, verdict consigné) et compte-rendu (§VI
+  annoté).
+- **Contrôle** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 2 avertissement(s)` — l'A6 légitime + un C1 préexistant.
+- **Commit** : a2a8732
+
+## [2026-08-28] rd/cahiers | Compte-rendu R&D — première session d'un nouveau moteur en poste INTÉGRATION (Qoder)
+
+- **Contexte** : consigne Sidy « instruit ton rapport au R&D » — consignation
+  au pôle de ce qui, dans la session INTÉGRATION du jour (commits 88d3253,
+  8b62c3b, 1588bb7, bb1e043 — détail en `meta/meta-annales.md`), relève de
+  l'ingénierie.
+- **Fiche** : `atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder.md`
+  — incident append-only (en-tête d'entrée des `meta-annales.md` remplacé à
+  l'insertion au commit d09cc88, restauré depuis l'historique git, non détecté
+  par le vérificateur), typologie des 17 avertissements du vérificateur
+  (13 artefacts de syntaxe, 3 liens cassés, 1 C4), suppression du
+  `wiki-manifest.json` racine orphelin, 5 commits Hermes concurrents sans
+  collision, lisibilité du protocole par un moteur à froid. Donnée live :
+  le rapport a produit 8 C1 en citant les exemples fautifs verbatim —
+  mécanisme `FICHIERS_EXEMPTS_C1` confirmé, exemples cités paraphrasés.
+- **Registre** : entrée `[2026-08-28]` consignée dans
+  `atelier/rd/cahiers/registre-problemes.md` (corruption append-only,
+  statut resolu — contrôle A6 « corps d'entrée orphelin » proposé, à trancher).
+- **Charte** : `atelier/rd/index.md` complété (compte-rendu référencé).
+- **Contrôle** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 17 avertissement(s)` — identique à la référence de session.
+- **Commit** : 57dfa51
+
+## [2026-08-28] rd/cahiers | Analyse technique : agents de recherche (Cookbook Perplexity)
+
+- **Contexte** : analyse comparative du workflow "Build Your Own Perplexity with Exa" en vue d'optimiser l'infrastructure de recherche des agents Hermes.
+- **Action** : création de la fiche d'analyse Phase 2, validée par Sidy pour le pôle R&D.
+- **Fiche** : `atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent.md`
+- **Commit** : b6f2ecc
+
+## [2026-08-28] archivage | Cas pratique : Build Your Own Perplexity with Exa
+
+- **Contexte** : intégration du document externe "Build Your Own Perplexity with Exa" (Sarah Chieng, Cerebras Inference Cookbook, 2025) décrivant des architectures d'agents de recherche (Exa search + Cerebras inference, recherche à deux couches, orchestration multi-agents Anthropic).
+- **Action** : création d'une fiche de corpus de Phase 1 (méthode validée 2026-08-24) — zéro interprétation, zéro lien sortant, source cataloguée `to-source`. Phase 2 (analyse) réservée à décision ultérieure de Sidy.
+- **Fiche** : `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity.md`
+- **Commit** : 481bccc
+
+## [2026-08-28] rd/infrastructure | Résolution incident saturation RAM — reprise agents
+
+- **Contexte** : agents Discord inactifs, diagnostic initial erroné (Auth), cause racine identifiée par audit logs : saturation RAM critique (thrashing) due à 14 gateways + OmniRoute.
+- **Action** : arrêt et désactivation de 8 gateways non essentiels (accounting, admin-legal, ar-music, distribution, fanzine, marketing, production, visual-da). Stabilité rétablie (RAM disponible > 900 Mo).
+- **Résolution** : aucune ré-authentification nécessaire.
+- **Commit** : 879bb39 (précédent), 5bf8bf2 (incident) + celui-ci.
+
+## [2026-08-28] rd/infrastructure | Incident — Saturation RAM critique et indisponibilité des agents
+
+- **Contexte** : saturation RAM (3.5/3.7 Go) due à l'accumulation de 14 gateways + OmniRoute daemonisé, provoquant thrashing et échec des workers. Indisponibilité Discord consécutive à l'audit de sécurité du 27/08 (rédaction des secrets).
+- **Action** : rapport d'incident consigné, redémarrage physique requis pour purger la mémoire (aucune commande agent de redémarrage autorisée).
+- **Fiche** : `atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite.md`
+- **Commit** : 5bf8bf2
 
 ## [2026-08-27] rd/bibliotheque | Extension — couverture Shayegan, levée ISBN/collection
 

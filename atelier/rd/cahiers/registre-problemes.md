@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-25
+updated: 2026-08-28
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,50 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-28] Correctif C1 consigné « traité » mais inefficace — le lien n'a jamais résolu ; détecté 5 jours plus tard seulement
+
+- **Symptôme** : correction du C1 de `doctrinal/autorites/rene-guenon.md` consignée comme traitée au 2026-08-18 (rapport `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md` §9.1 : « `doctrinal/discernement/` (répertoire) → `voir [[doctrinal/discernement]]` ») — l'avertissement persiste pourtant à chaque exécution du vérificateur jusqu'au 2026-08-28, où une consigne explicite de Sidy (« corrige le C1 de la fiche Guenon ») force sa résolution effective.
+
+- **Diagnostic** : la « correction » n'a retiré que la barre oblique finale — la cible reste un **répertoire**, jamais une fiche : le wikilink ne pouvait pas résoudre, avant comme après. Double faute de méthode : (1) le correctif a été consigné comme acquis **sans ré-exécuter le vérificateur après l'écriture** — le rapport affirme un résultat qu'aucune exécution ne confirmait (même classe que le « faux succès silencieux » du cron `coherence-infrastructure-brute`, entrée du 2026-08-18) ; (2) la note corrigée disait « fiches à venir » alors que les trois fiches du chantier existaient **déjà** (créées 2026-08-13/14, cinq jours avant la correction) — l'information stale n'a pas été revérifiée contre le dépôt au moment de corriger.
+
+- **Résolution** : pointeur mort remplacé par trois liens aliasés vers les fiches réelles du chantier Shams al-Maʿārif/corpus guénonien (efficacité talismanique, statut du siḥr, awfāq/métaphysique du Nombre) ; `cross_links` complétées (cohérence bidirectionnelle — les trois fiches pointaient déjà ici). Vérification **après** écriture : `0 erreur(s), 1 avertissement(s)` (l'A6 légitime). Commits `24ed5d1` (correctif) puis `98d3546` (journalisation Cmd 9).
+
+- **Compréhension tirée** : une correction consignée dans un rapport est une *affirmation*, pas un fait — le seul arbitre est le vérificateur **ré-exécuté après l'écriture**, résultat collé dans le rapport lui-même. Corollaire : une note « X à venir » est un créneau à revérifier au moment où on la touche — les fiches promises arrivent souvent sans que la note soit mise à jour. Un avertissement qui « revient » à chaque run n'est jamais un bruit de fond : c'est une correction déclarée et non effectuée.
+
+- **Liens** : `doctrinal/autorites/rene-guenon.md` (fiche corrigée), commit `da8e9b5` (correction inefficace du 2026-08-18), rapport §9.1 (consignation erronée), commits `24ed5d1`/`98d3546` (résolution), `doctrinal/annales.md` entrée `2026-08-28` (journalisation), `verifier-invariants.py` (l'arbitre).
+
+- **Statut** : resolu — plus aucun C1 au dépôt.
+
+---
+
+## [2026-08-28] Annales append-only — en-tête d'entrée remplacé (et non précédé) à l'insertion ; non détecté par le vérificateur
+
+- **Symptôme** : dans `meta/meta-annales.md`, l'entrée du 2026-08-25 (« Signalement lot bibliothèque Tilak vers Hermes ») n'avait plus son en-tête greppable `## [2026-08-25] projet-unifie | …` — le corps (puces, dont `- **Commit** : a56b603`) était présent, visuellement fusionné au bloc de l'entrée du 2026-08-27 placée au-dessus. Découvert en lecture à froid lors d'une revue du protocole, pas par un contrôle automatique. `verifier-invariants.py --racine /root/wiki` exécuté sur le fichier corrompu : 0 erreur — les contrôles A2 (chronologie), A4 (doublon exact) et A5 passent tous.
+
+- **Diagnostic** : au commit `d09cc88` (2026-08-27, journalisation post-commit du lot Choura), l'insertion de la nouvelle entrée à la suite du marqueur `<!-- INSERTION: EN-TÊTE -->` s'est faite par **remplacement** de la ligne d'en-tête de la première entrée existante (ancrage de remplacement trop large — la ligne d'en-tête a servi d'ancre et a été consommée), et non par insertion avant elle. Le diff git est explicite : la ligne `## [2026-08-25] …` est comptée en suppression et jamais réintroduite. Classe d'erreur outillage-éditeur classique (remplacer au lieu d'insérer), aggravée par le fait que le format greppable des annales fait de **chaque en-tête la seule clé de rattachement** d'un bloc : un corps sans en-tête devient invisible à tout traitement mécanique ultérieur (grep `## [YYYY-MM-DD]`, comptage d'entrées, contrôle A2).
+
+- **Résolution** : en-tête rétabli verbatim depuis l'historique git (`git show a5de5c7`, commit d'origine de l'entrée), commit `88d3253`. Contrôle proposé pour le vérificateur (non écrit — Cmd 6) : contrôle A6 « corps d'entrée orphelin » — signaler tout bloc de puces de niveau entrée (`- **` en colonne 0) séparé du bloc précédent par une ligne vide et sans en-tête `## [date]` propre ; heuristique minimale couvrant ce cas : deux blocs de puces distincts sous un même en-tête, dont le second contient `- **Commit** :`.
+
+- **Compréhension tirée** : la convention d'insertion par marqueur HTML protège le *point* d'insertion, pas la *ligne suivante* — un rédacteur (agent ou humain) qui ancre son remplacement sur la première ligne existante après le marqueur détruit silencieusement cette ligne. Deux garde-fous complémentaires se confirment : (1) toute insertion append-only devrait être **relue en diff** (`git diff` : la seule ligne `-` attendue est celle du frontmatter `updated:`) avant commit — la convention existe (§VIII.1 jamais d'auto-accept) mais n'était pas appliquée à cette passe ; (2) le vérificateur ne contrôle aujourd'hui que la *chronologie des en-têtes*, jamais le *rattachement des corps* — un contrôle du second type est le seul filet pour cette classe. Enfin, la découverte ne doit rien à l'outillage : c'est une lecture à froid qui l'a produite — jusqu'à ce que le contrôle A6 existe, la relecture humaine/à froid des fichiers append-only reste le seul détecteur.
+
+- **Liens** : `meta/meta-annales.md` (fichier corrompu/restauré), commits `d09cc88` (introduction), `88d3253` (restauration), `a5de5c7` (texte original de l'en-tête), `verifier-invariants.py` (contrôles A2/A4/A5 insuffisants), compte-rendu `atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder.md` §I.
+
+- **Statut** : resolu (corruption restaurée) — contrôle A6 proposé, à trancher.
+  **Mis à jour 2026-08-28 (verdict Sidy, même jour)** : A6 adopté et
+  implémenté dans `verifier-invariants.py` (heuristique retenue : plusieurs
+  champs `- **Commit** :` dans une même section). Première exécution : le
+  contrôle a révélé **deux occurrences supplémentaires** de la même classe
+  dans `doctrinal/annales.md` (entrées « relecture du Tombeau d'Hermès »
+  2026-08-25 et « Khatm » 2026-08-04, toutes deux introduites par le même
+  commit `d09cc88`), en-têtes restaurés verbatim depuis l'historique git
+  (`f2de988`, `5e3c8a1`). Un faux positif connu et légitime demeure
+  (`atelier/annales.md`, entrée groupée du 2026-08-20, deux champs Commit
+  sous un même en-tête par design) — A6 reste un avertissement, non bloquant.
+
+---
+
+
 
 ## [2026-08-25] Validateurs index-livres — mismatch NFC/NFD sur noms de dossiers accentués
 

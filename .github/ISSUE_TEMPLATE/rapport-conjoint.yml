@@ -1,0 +1,47 @@
+name: Rapport Conjoint Studio + Gardien
+description: Rapport cosigné Studio → Gardien (workflow séquentiel obligatoire)
+title: "[Rapport] "
+labels: ["rapport", "studio", "gardien"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Rapport Conjoint
+        **Règle** : Studio explore → dépose _inbox/ → Gardien lit + vigilance → Rapport conjoint cosigné.
+        Jamais rapports séparés en parallèle.
+  - type: textarea
+    id: exploration
+    attributes:
+      label: Résumé exploration Studio
+      description: Ce qui a été exploré, découvert, déposé en _inbox/
+    validations:
+      required: true
+  - type: textarea
+    id: vigilance
+    attributes:
+      label: Vigilance Gardien
+      description: Signaux détectés, anomalies, risques identifiés
+    validations:
+      required: true
+  - type: textarea
+    id: verdicts
+    attributes:
+      label: Verdicts humains (Cmd 12/13)
+      description: Décisions en attente / validées par l'Intellect humain
+    validations:
+      required: true
+  - type: textarea
+    id: actions
+    attributes:
+      label: Actions / Échéances
+      description: Prochaines étapes, propriétaires, deadlines
+    validations:
+      required: true
+  - type: checkboxes
+    id: cosigne
+    attributes:
+      label: Cosignature
+      options:
+        - label: Studio (exploration validée)
+        - label: Gardien (vigilance validée)
+        - label: Humain (verdicts validés)

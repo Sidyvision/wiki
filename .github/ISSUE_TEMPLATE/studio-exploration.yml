@@ -1,0 +1,38 @@
+name: Exploration Studio
+description: Dépôt d'une exploration Studio (recherche, spike, prototype)
+title: "[Studio] "
+labels: ["studio", "inbox"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Exploration Studio
+        Cet issue suit le workflow : Studio explore → dépose _inbox/ → Gardien lit + vigilance → Rapport conjoint
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Contexte / Question de départ
+      description: Qu'est-ce qui a déclenché cette exploration ?
+    validations:
+      required: true
+  - type: textarea
+    id: demarche
+    attributes:
+      label: Démarche
+      description: Ce qui a été testé, lu, essayé
+    validations:
+      required: true
+  - type: textarea
+    id: resultat
+    attributes:
+      label: Résultat / Dépôt _inbox/
+      description: Fichiers déposés, artefacts, liens
+    validations:
+      required: true
+  - type: checkboxes
+    id: gardien
+    attributes:
+      label: Pour le Gardien
+      options:
+        - label: Vigilance requise
+        - label: Rapport conjoint à produire

@@ -39,16 +39,19 @@ MODULES: list[Module] = [
 GRID_COLUMNS = 3
 
 CSS = """
+/* Thème harmonisé avec l'Instrument de la Tradition Primordiale */
+/* Palette : --noir #000000, --blanc #f2f2f2, --argent #aab4c8, --rouge #d8493a, --texte #e7e9ee */
+
 Screen {
-    background: $surface;
+    background: #000000;
 }
 
 #banner {
     height: 3;
     content-align: center middle;
     text-style: bold;
-    color: $accent;
-    border-bottom: heavy $accent;
+    color: #f2f2f2;
+    border-bottom: heavy #aab4c8;
 }
 
 #tile-grid {
@@ -58,41 +61,72 @@ Screen {
 }
 
 .tile {
-    border: round $primary;
+    border: round #aab4c8;
     padding: 1 1;
     height: 100%;
+    background: #050505;
 }
 
 .tile:focus {
-    border: heavy $accent;
-    background: $boost;
+    border: heavy #d8493a;
+    background: #0a0a0a;
 }
 
 .tile-title {
     text-style: bold;
-    color: $accent;
+    color: #f2f2f2;
 }
 
 .tile-body {
-    color: $text;
+    color: #aab4c8;
 }
 
 #monocle-title {
     height: 3;
     content-align: center middle;
     text-style: bold;
-    color: $accent;
-    border-bottom: heavy $accent;
+    color: #f2f2f2;
+    border-bottom: heavy #d8493a;
 }
 
 #reader-tree-pane {
     width: 30%;
-    border-right: solid $primary;
+    border-right: solid #aab4c8;
 }
 
 #chat-log {
     height: 1fr;
-    border: solid $primary;
+    border: solid #aab4c8;
+    color: #e7e9ee;
+}
+
+Header {
+    background: #000000;
+    color: #aab4c8;
+}
+
+Footer {
+    background: #000000;
+    color: #aab4c8;
+}
+
+DirectoryTree {
+    background: #050505;
+    color: #aab4c8;
+}
+
+DirectoryTree:focus {
+    background: #050505;
+}
+
+Input {
+    border: solid #aab4c8;
+    background: #050505;
+    color: #e7e9ee;
+}
+
+Input:focus {
+    border: solid #d8493a;
 }
 """
 

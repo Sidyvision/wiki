@@ -76,8 +76,8 @@ enrichissement des fiches déjà ancrées :
 - déf. 1504 — al-martabat al-ilāhiyya (المَرْتَبَة اللإلاهيّة) : [[doctrinal/symboles/wahdat-al-wujud]]
 - déf. 1782 — al-nūn (النّون) : [[doctrinal/symboles/wahdat-al-wujud]]
 
-**Reste à transcrire** (annoncé dans ce lot, texte non encore fourni) : déf. 1502-1503
-(*martabat al-insān al-kāmil*, le rang de l'Homme Parfait).
+**Reste à transcrire** : néant pour ce lot — les déf. 1502-1503 ont été transcrites
+le 2026-08-25 (voir lot p. 405 ci-dessous).
 
 **Lot p. 331 (lettre fāʾ)** — dossier `raw/Transcription Jurjani/` (photographies
 Sidy), transcription Gardien 2026-08-25 :
@@ -89,6 +89,24 @@ Sidy), transcription Gardien 2026-08-25 :
   fiche à ce jour ; définition conservée ici pour un futur ancrage : « C'est le
   manque (*faqd*) d'une chose dont on a besoin. Le manque d'une chose dont on n'a
   pas besoin ne se nomme pas pauvreté. »
+
+**Lot p. 270, 276, 298, 361, 390, 405** — même dossier, même date :
+- p. 270, déf. 0952-0954 : **al-ṣihr** (الصهر, alliance matrimoniale — PAS siḥr/magie),
+  al-ṣawt, al-ṣawāb. ⚠️ L'index transcrit porte `siḥr : 952` — c'est une **erreur de
+  l'index imprimé** (confusion صهر/سحر) ; vérifié sur la photographie IMG_0163.JPG.
+  Le *Taʿrīfāt* ne comporte **aucune définition autonome du siḥr** (magie).
+- p. 276, déf. 0973-0979 : termes de fiqh (ḍimār, ḍamān ×4) + al-ḍanāʾin + al-ḍiyāʾ
+  (la brillance — vision par l'Œil de Dieu). Pas de fiche cible directe.
+- p. 298, déf. 1064-1069 : al-ʿazīma, al-ʿazl, **al-ʿuzla** (1066 → [[doctrinal/symboles/khalwa]]),
+  al-ʿaṣaba ×3 (droit successoral).
+- p. 361, déf. 1331-1333 : al-kalima, kalimat al-ḥaḍra, **al-kalimāt al-qawliyya
+  wa-l-wujūdiyya** (1333 → occurrence de *wāqiʿa ʿalā al-nafas* → [[doctrinal/symboles/waqia]]).
+- p. 390, déf. 1436-1439 : al-mutaqaddim bi-l-ʿilliyya, al-mutaʿaddī, **al-miṯāl**
+  (1438 — définition GRAMMATICALE : racine verbale à première consonne faible /
+  l'exemple. N'est PAS le ʿālam al-miṯāl cosmologique), al-muṯannā.
+- p. 405, déf. 1501-1504 : al-mirāʾ, **martabat al-insān al-kāmil** (1502),
+  **al-martabat al-aḥadiyya** (1503), al-martabat al-ilāhiyya (1504, début —
+  suite p. 406) → [[doctrinal/symboles/al-insan-al-kamil]].
 
 ### Annexe : Déf. 0525 — al-juzʾī al-iḍāfī (terme technique de logique)
 

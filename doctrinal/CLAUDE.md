@@ -104,31 +104,53 @@ les tensions formelles ; elle ne tranche jamais la validité métaphysique. Une
 convergence multiple (« double ancrage ») est un **signal de vigilance** appelant
 l'arbitrage humain, jamais une porte automatique vers l'inscription.
 
-### Action : EXAMEN DE FIQH (questions de droit traditionnel)
+### Action : EXAMEN D'USÛL (sciences traditionnelles formelles — remplace l'EXAMEN DE FIQH)
 
-Toute question de fiqh instruite (règle V.c.6 du protocole label) = une étude datée
-`doctrinal/etudes/YYYY-MM-DD_<question>.md`, **générale et neutre** (jamais de
-mention du cas d'application, qui vit en `label/` avec lien à sens unique), portant
-ce bloc normalisé :
+> **Amendement du 2026-08-27** (verdict Sidy, exécution de
+> `meta/projet-unifie/proposition-pole-usul-2026-08-27.md`, laquelle supersède
+> `meta/projet-unifie/proposition-pole-fiqh-2026-07-06.md`, désormais
+> `deprecated` avec pointeur). Le pôle Fiqh validé le 2026-07-06 devient la
+> **branche `fiqh`** d'un pôle **Usûl** élargi (racines/méthodologie des
+> sciences traditionnelles), qui accueille aussi les branches `mantiq`
+> (logique formelle) et `mustalah-hadith` (critique de chaîne et de texte).
+> Rien du fiqh déjà instruit n'est perdu : le bloc ⚖️ et ses règles restent
+> utilisables tels quels comme cas particulier `branche: fiqh` du bloc
+> générique ci-dessous.
 
-> ⚖️ **Statut de Fiqh**
+Toute question du pôle Usûl instruite (règle V.c.6 du protocole label, pour la
+branche fiqh) = une étude datée `doctrinal/etudes/YYYY-MM-DD_<question>.md`,
+**générale et neutre** (jamais de mention du cas d'application, qui vit en
+`label/` avec lien à sens unique), portant ce bloc normalisé :
+
+> ⚖️ **Statut d'Usûl**
+> **Branche** : fiqh | mantiq | mustalah-hadith.
 > **Question** : formulée en termes généraux.
-> **École consultée** : mālikite (défaut) | shāfiʿite | ḥanafite | ḥanbalite.
+> **École consultée** *(branche fiqh uniquement)* : mālikite (défaut) |
+> shāfiʿite | ḥanafite | ḥanbalite. Sans objet pour `mantiq` et
+> `mustalah-hadith` : ces deux branches n'ont pas de logique de préséance de
+> *madhhab* — la règle mālikite est **propre au fiqh**, non généralisée
+> mécaniquement (point ouvert de la proposition du 2026-08-27, à arbitrer par
+> Sidy branche par branche à mesure qu'elles s'instruisent).
 > **Position(s) sourcée(s)** : texte, auteur, référence — `to-source` si non vérifié.
-> **Recours subsidiaire** (le cas échéant) : école + justification (« à défaut de
-> ressource malikite sur ce point ») — jamais de talfīq.
-> **Divergences notables** : signalées sans être fondues (🌐 si inter-écoles).
-> **Verdict** : adopté par Sidy (taqlīd documenté d'une position établie) | confirmé
-> par autorité textuelle citée | renvoyé au savant qualifié — jamais décrété par la
-> machine.
+> **Recours subsidiaire** *(branche fiqh uniquement)* : école + justification
+> (« à défaut de ressource malikite sur ce point ») — jamais de talfīq.
+> **Divergences notables** : signalées sans être fondues (🌐 si inter-écoles ou
+> inter-positions).
+> **Verdict** : adopté par Sidy (taqlīd documenté d'une position établie, ou
+> arbitrage équivalent pour `mantiq`/`mustalah-hadith`) | confirmé par autorité
+> textuelle citée | renvoyé au savant qualifié — jamais décrété par la machine.
 > **Date du verdict** : YYYY-MM-DD.
 
 Rappel (Cmd 12) : la machine **compile, source et structure** ; elle n'émet jamais
-d'avis juridique religieux. Le « trancher » humain est un **arbitrage d'adoption**
+d'avis juridique religieux ni de jugement de validité logique/critique de hadith
+qui vaudrait verdict. Le « trancher » humain est un **arbitrage d'adoption**
 parmi des positions établies ; pour les cas nouveaux ou sans texte, la fiche
-prépare la formulation de la question (istiftāʾ) et reste ouverte. Invoqué depuis
-`label/` pour l'ancrage éthique de la structure (contrats, dons, prix) : voir
-`label/CLAUDE.md`.
+prépare la formulation de la question (istiftāʾ pour le fiqh, question ouverte
+pour les autres branches) et reste ouverte. Répartition agents 04 (instruction) /
+10 (harmonisation) reconduite pour les trois branches, discipline `to-source`
+inchangée (`atelier/rd/bibliotheque/catalogue-bibliotheque.md`). Invoqué depuis
+`label/` pour l'ancrage éthique de la structure (contrats, dons, prix), branche
+fiqh : voir `label/CLAUDE.md`.
 
 ### Action : RESTAURATION (normalisation de l'existant)
 

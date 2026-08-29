@@ -91,6 +91,15 @@ mondes. La convergence est retenue comme **justification du nom du circuit**, en
 
 - [[hermeneutique/20th-century-boys/20th-century-boys|20th Century Boys]] — *oeuvre*, fiche-hub, `brouillon`. Manga de Naoki Urasawa (1999-2006). Deux joints 🔍 suggérés : [[doctrinal/deviations/contre-initiation]] (schéma du sauveur auto-proclamé source du mal) et [[doctrinal/deviations/renversement-des-symboles]] (capture et retournement du symbole d'enfance) ; référent assumé : secte Aum (1995) ; portance *zōsaku*, hozo exclu.
 
+### Lost
+
+- [[hermeneutique/lost/lost|Lost]] — *oeuvre*, fiche-hub, `brouillon`. Série TV (2004-2010). L'île comme miroir des destinées ; transmission du protecteur ; synchronicité comme trame.
+- [[hermeneutique/lost/jacob|Jacob (Lost)]] — *figure*, `brouillon`. Protecteur de l'île pendant deux millénaires ; élection des candidats ; mort comme passage de charge.
+
+### The Matrix
+
+- [[hermeneutique/the-matrix/the-matrix|The Matrix]] — *oeuvre*, fiche-hub, `brouillon`. Film (1999). Le voile comme simulation ; le seuil de la pilule ; la non-résistance.
+
 ## Sources
 
 > Dossier ouvert le 2026-08-13 sur verdict de l'utilisateur, le circuit étant appelé
