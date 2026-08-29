@@ -544,10 +544,20 @@ registres:
   # compté au nombre des chakras : « centre de conscience » au-delà des limites
   # de l'individualité (§21) — repris ici comme 7e domaine, distinct des six
   # chakras, fidèle à cette réserve du texte.
-  # Tous les centres sont sur l'axe central (sushumnā) : à la différence de la
-  # Kabbale, pas de colonnes latérales — idā et pingalā sont des CANAUX
-  # (nādīs), non des centres ; documentés ci-dessous pour mémoire, non rendus
-  # comme domaines (le schéma des registres ne porte que des centres).
+  # Tous les CENTRES sont sur l'axe central (sushumnā) : idā et pingalā sont des
+  # CANAUX (nādīs), non des centres ; documentés ci-dessous pour mémoire, non
+  # rendus comme domaines (le schéma des registres ne porte que des centres).
+  # RECTIFICATION 2026-08-29 (soir) : ne pas en conclure, comme une première
+  # rédaction l'avait fait, qu'aucune correspondance de latéralité n'existe avec
+  # la Kabbale. Guénon écrit le contraire — la colonne du milieu « correspond à
+  # sushumnâ », « les deux colonnes latérales étant en relation avec idâ et
+  # pingalâ », et les canaux reliant les Sephiroth « ne sont pas sans analogie
+  # avec les nâdîs ». Correspondance acquise du texte, non déclarée en donnée
+  # (elle apparie des structures de latéralité, pas des séries de centres —
+  # rien à rendre dans un schéma qui ne porte que des centres). Voir
+  # [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] §2.
+  # Donnée non exploitée à ce jour : idâ ↔ Lune, pingalâ ↔ Soleil, sushumnâ ↔
+  # principe igné.
   - id: hindouisme-tantra
     label: "Hindouisme (Tantra) — les chakras sur sushumnā"
     fiche: doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme

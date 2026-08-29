@@ -59,36 +59,63 @@ séries commensurables.
 | Yesod | *Mūlādhāra* | **réservé** — voir ci-dessous |
 | Malkhut | *Swādhishthāna* | **réservé** — voir ci-dessous |
 
-**La réserve du bas de l'échelle est de Guénon lui-même**, non du dépôt : il
-signale qu'« il semble qu'il y ait lieu d'envisager une interversion » sur
-l'appariement Yesod/Malkhut ↔ Mūlādhāra/Swādhishthāna. Les deux derniers
-appariements sont donc reçus **suggérés**, non établis — les rendre autrement
-serait faire dire au texte plus qu'il ne dit.
+**Sur les deux derniers — rectification du 2026-08-29 (soir).** Une première
+rédaction de cette fiche présentait l'« interversion » de Guénon comme un doute
+portant sur l'appariement lui-même. **C'était une lecture fautive**, faite avant
+que le texte intégral ne soit versé au dépôt. L'interversion est ce que Guénon
+**propose**, non ce dont il doute : l'ordre naïf des rangs donnerait
+Yesod(9)↔Swādhishthāna et Malkhut(10)↔Mūlādhāra ; Guénon intervertit et apparie
+**Yesod↔Mūlādhāra** (*Iesod* = le « fondement », « ce qui répond exactement à
+*mûlâdhâra* », le centre-racine) et **Malkhut↔Swādhishthāna** (*Malkuth* = le
+« Royaume » ; *swâdhishthâna* = la « propre demeure » de la *Shakti*).
+L'appariement déclaré était donc **le bon** ; seule sa justification était mal
+rapportée.
+
+Ce qui subsiste, et qui justifie de les tenir encore pour **suggérés**, est une
+différence réelle de **force d'assertion** : Guénon écrit « il semble qu'il y ait
+lieu », « semble d'ailleurs justifier » pour ces deux-là, là où il écrit « aucune
+difficulté », « manifestement », « entraîne immédiatement » pour les cinq
+premiers. La distinction est de degré, non de nature — Sidy peut la lever.
 
 ## Examen formel
 
 **1. L'ordre est préservé.** Sommet contre sommet (Kether ↔ Sahasrāra), et la
 série descend sans croisement jusqu'au point où Guénon lui-même hésite.
 
-**2. Les structures latérales ne se correspondent pas, et c'est cohérent.** La
-Kabbale porte trois colonnes ; le Kundalinî-yoga place tous les *chakra* sur le
-seul canal central (*suṣumnā*), *iḍā* et *piṅgalā* étant des **canaux**
-(*nāḍī*) et non des centres. L'appariement ne porte donc **que sur les niveaux
-de l'axe**, jamais sur une latéralité qui n'existe que d'un côté. Toute
-tentative d'apparier les colonnes séphirothiques aux *nāḍī* excéderait ce
-verdict.
+**2. La latéralité se correspond aussi — rectification du 2026-08-29 (soir).**
+Une première rédaction de cette fiche affirmait qu'« aucune correspondance »
+n'existait entre les colonnes séphirothiques et les *nāḍī*, la latéralité
+n'existant « que du côté kabbalistique ». **C'était faux, et le texte dit
+exactement l'inverse.** Guénon écrit, dans la phrase même où il pose la
+réduction à sept : « en envisageant leurs projections sur l'axe central ou
+"colonne du milieu", **qui correspond à *sushumnâ*** (les deux "colonnes"
+latérales étant **en relation avec *idâ* et *pingalâ***) » ; et en note : « les
+différents "canaux" qui relient les Séphiroth entre elles **ne sont pas sans
+analogie avec les *nâdîs*** ».
 
-**3. Réserve de source — signalée sans détour.** La fiche
-[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] est, à ce jour, un
-**relevé partiel** : elle porte les notes 20 et 21 du texte de Guénon, mais
-**non le passage où figure la correspondance séphirothique elle-même**, lu en
-session de production sur un texte qui n'a pas été versé au dépôt. La fiche
-signale au surplus être issue d'un clipping web « non vérifié sur exemplaire
-physique ». **Le verdict porte donc sur une correspondance dont la lettre exacte
-n'est pas encore archivée.** Ce n'est pas un motif d'invalidation — Guénon dit
-bien ce qu'on lui fait dire, et *Études sur l'Hindouisme* figure en bibliothèque
-physique — mais c'est une dette de traçabilité à solder : verser le passage au
-dépôt, sur exemplaire, avant toute exploitation fine du détail.
+La correspondance porte donc sur **deux registres à la fois** : les niveaux de
+l'axe (les sept), et la structure latérale (colonne du milieu ↔ *suṣumnā*,
+colonnes de droite et de gauche ↔ *iḍā* et *piṅgalā*). L'erreur était d'autant
+plus fâcheuse qu'elle interdisait par avance une exploitation que le texte
+autorise.
+
+Reste vrai, et important : *iḍā* et *piṅgalā* sont des **canaux** (*nāḍī*), non
+des centres. La mise en relation des colonnes n'en fait pas des lieux de
+*chakra* ; elle apparie deux structures de latéralité, pas deux séries de
+centres. Guénon ajoute au demeurant une donnée que le dépôt n'exploitait pas :
+*iḍā* est rapportée à la **Lune**, *piṅgalā* au **Soleil**, *suṣumnā* au
+**principe igné**.
+
+**3. Traçabilité — dette soldée le 2026-08-29 (soir).** Cette fiche a d'abord
+été rédigée alors que la fiche source du dépôt n'était qu'un relevé de deux
+notes, ne portant pas le passage séphirothique, et se déclarant issue d'un
+clipping non vérifié. **Le texte intégral de l'article a depuis été versé au
+dépôt** par Sidy, qui possède et a lu l'ouvrage :
+[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] porte désormais
+l'appariement terme à terme, ses justifications et ses notes. Le `to-source` est
+levé au titre du §VII, point 2 (vérification du texte primaire par l'utilisateur
+lui-même) — le support d'entrée étant un relevé de commodité, non une source
+seconde. La dette signalée au matin n'a plus d'objet.
 
 **4. Nature du joint.** **Homologie** de structure entre deux expositions d'un
 même axe, non **restitution** généalogique. Guénon ne soutient aucune filiation
@@ -107,22 +134,34 @@ historique de la Kabbale au Tantra ni l'inverse.
 >   - *Filiation orthodoxe connexe* : [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]] — l'identité *Adam Qadmôn = al-Insān al-Kāmil* étant close, les deux séries se rapportent bien à un même axe, et non à deux axes parallèles qu'il faudrait d'abord identifier.
 >   - *Parenté hétérodoxe possible* : **à signaler avec insistance**. Le rapprochement Sephiroth/chakras est un lieu commun de l'occultisme et du théosophisme depuis le XIXᵉ siècle, où il sert habituellement une fusion des formes rituelles et une lecture « énergétique » des centres. Le présent verdict n'a de valeur que **parce qu'il repose sur l'exposé de Guénon et sur la structure interne des trois colonnes**, non sur cette parenté — dont il faut au contraire se garder (cf. [[doctrinal/deviations/contre-initiation]]).
 > **Examen formel** : l'ordre est préservé, la réduction dix→sept est mécanique
-> et non postulée, l'appariement ne porte que sur les niveaux et jamais sur la
-> latéralité (absente d'un des deux côtés). Deux tensions consignées : la
-> réserve d'interversion posée par Guénon lui-même sur le bas de l'échelle, et
-> la dette de traçabilité de la fiche source (§3 ci-dessus).
+> et non postulée (elle tombe des trois colonnes déclarées), et l'appariement
+> porte **à la fois** sur les sept niveaux de l'axe et sur la structure latérale
+> (colonne du milieu ↔ *suṣumnā*, colonnes latérales ↔ *iḍā* et *piṅgalā*).
+> **Deux rectifications ont dû être apportées à la présente fiche le soir même
+> de sa rédaction**, après versement du texte intégral au dépôt : l'« aucune
+> correspondance » que j'avais posée entre colonnes et *nāḍī* était contraire au
+> texte (§2), et l'« interversion » de Guénon avait été présentée comme un doute
+> alors qu'elle est sa conclusion (§ *Sur les deux derniers*). L'appariement
+> déclaré n'était pas affecté ; sa justification l'était. Une seule tension
+> subsiste, de degré et non de nature : la force d'assertion moindre de Guénon
+> pour les deux derniers appariements.
 > **Conclusion** : attribuée à Sidy (2026-08-29) — « Sephiroth ↔ Chakras =
 > Validé ». Les cinq appariements supérieurs sont **établis** ; les deux
-> derniers demeurent **suggérés**, sous la réserve d'interversion de Guénon.
+> derniers demeurent **suggérés**, non par doute sur l'appariement — que Guénon
+> affirme — mais du seul fait de sa formulation plus prudente. Cette nuance est
+> levable sur simple verdict.
 > **Lectures suggérées** :
->   1. *Études sur l'Hindouisme*, « Kundalinî-Yoga », sur exemplaire physique — pour verser au dépôt le passage exact et solder la dette de traçabilité.
->   2. [[doctrinal/sources/kabbale-10-sefirot-structure]] — les trois colonnes et les correspondances aux membres, déjà sourcées, non encore exploitées.
->   3. [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]] — le traitement guénonien de la Kabbale, pour situer ce passage dans son œuvre.
+>   1. [[doctrinal/sources/kabbale-10-sefirot-structure]] — les trois colonnes et les correspondances aux membres, déjà sourcées, non encore exploitées ; à confronter aux localisations corporelles que Guénon donne (bras/épaules pour Hesed-Geburah, hanches pour Netsah-Hod).
+>   2. [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]] — le traitement guénonien de la Kabbale, pour situer ce passage dans son œuvre.
+>   3. *Le Roi du Monde*, sur le symbolisme des deux mains en relation avec la *Shekinah* et l'arbre séphirothique — renvoi que Guénon fait lui-même en note 26, ouvrage en bibliothèque physique.
 
 ## Ce que ce verdict n'établit pas
 
-- Aucune correspondance entre les **colonnes** séphirothiques et les *nāḍī*
-  (*iḍā*, *piṅgalā*) : la latéralité n'existe que du côté kabbalistique.
+- La mise en relation des **colonnes** avec les *nāḍī* (colonne du milieu ↔
+  *suṣumnā*, latérales ↔ *iḍā*/*piṅgalā*) est **acquise du texte**, mais elle
+  n'apparie que des **structures de latéralité** — elle ne fait pas des *nāḍī*
+  des centres, ni des colonnes des séries de *chakra*. Aucune correspondance
+  terme à terme entre Sephiroth latérales et canaux n'est établie ici.
 - Aucune correspondance avec les **Ḥaḍarāt** ni avec les quatre états d'Âtmâ :
   ce sont d'autres séries, réglées par d'autres verdicts.
 - Aucun appariement des **dix** Sephiroth aux sept centres : le verdict porte

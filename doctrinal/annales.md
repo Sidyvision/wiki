@@ -9,6 +9,54 @@ updated: 2026-08-29
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] correction | Kundalinî-Yoga (Guénon) : source complétée, `to-source` levé, et deux erreurs de ma part rectifiées
+
+- **Motif** : Sidy a versé au dépôt le texte intégral de l'article
+  « Kundalinî-Yoga » (*Études sur l'Hindouisme*), en rappelant à juste titre que
+  le format d'entrée — un relevé de l'*Index de l'œuvre de René Guénon* — est un
+  **support de commodité** et non une source seconde : il possède et a lu
+  l'ouvrage. C'est la condition exacte du §VII point 2 (levée du marqueur par
+  vérification du texte primaire par l'utilisateur lui-même). Réserve « clipping
+  web non vérifié sur exemplaire » **retirée**.
+- **Fiche source enrichie** : `guenon-kundalini-yoga-etudes-hindouisme.md`
+  passe d'un relevé de deux notes (41 lignes) à une fiche substantielle —
+  laya-yoga et ordre de résorption, les trois *nâdîs* et leurs correspondances
+  cosmiques, table des sept centres (localisation, pétales, déité présidante,
+  *loka*), Kundalinî et les *granthis*, l'appariement séphirothique terme à
+  terme avec ses justifications, et les correspondances islamiques données en
+  notes (*maqâm el-amr*, *rishi*/*roèh*/*nabî*, pierre noire, les deux anges des
+  épaules). Ajout d'un bloc ⚠️ reprenant la dénonciation par Guénon des lectures
+  orientaliste et occultiste, et nommément théosophiste.
+- **Deux erreurs de ma part, rectifiées dans
+  `2026-08-29_sephiroth-chakras-sept-niveaux.md`** — toutes deux commises le
+  matin même, à partir du stub, et corrigées le soir sur le texte :
+  1. **Erreur de fond.** J'avais écrit qu'« aucune correspondance » n'existait
+     entre les colonnes séphirothiques et les *nāḍī*, la latéralité n'existant
+     « que du côté kabbalistique ». **Le texte dit exactement l'inverse** : la
+     colonne du milieu « correspond à *sushumnâ* », « les deux colonnes
+     latérales étant en relation avec *idâ* et *pingalâ* », et les canaux
+     reliant les Sephiroth « ne sont pas sans analogie avec les *nâdîs* ». La
+     correspondance porte donc sur deux registres — les niveaux **et** la
+     latéralité. L'erreur interdisait par avance une exploitation que le texte
+     autorise.
+  2. **Erreur de caractérisation.** J'avais présenté l'« interversion » de
+     Guénon comme un doute sur l'appariement du bas de l'échelle. C'est sa
+     **conclusion**, non son doute : l'ordre naïf des rangs donnerait
+     Yesod↔Swādhishthāna, et Guénon intervertit pour poser Yesod↔Mūlādhāra
+     (« fondement » ↔ « centre-racine ») et Malkhut↔Swādhishthāna
+     (« Royaume » ↔ « propre demeure »). **L'appariement que j'avais déclaré
+     était le bon** ; seule sa justification était fausse. Les deux ancrages
+     restent `suggere`, mais sur un motif désormais exact : la force
+     d'assertion moindre de Guénon (« il semble ») pour ces deux-là, contre
+     « aucune difficulté »/« manifestement » pour les cinq premiers. Nuance de
+     degré, levable sur verdict.
+- **Donnée nouvelle non exploitée, signalée** : *iḍā* ↔ Lune, *piṅgalā* ↔
+  Soleil, *suṣumnā* ↔ principe igné — matière relevant de la vigilance
+  polaire/solaire, à confronter le moment venu.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s), 1
+  avertissement(s)` (A6 préexistant). Manifeste régénéré, inchangé quant aux
+  ancrages : `44 nœud(s), 22 ancrage(s), 4 registre(s)`.
+
 ## [2026-08-29] archivage + discernement | Majmaʿ al-Bahrayn ch. VII, et trois verdicts inter-traditionnels de Sidy
 
 - **Source créée** : `doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes.md`
