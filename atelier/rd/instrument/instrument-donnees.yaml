@@ -1,5 +1,12 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.5.2)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.6.0)
+#
+#   v0.6.0 (2026-08-29) : PREMIERS ANCRAGES INTER-REGISTRES. Deux verdicts de
+#     Sidy rendus le 2026-08-29 : Ḥaḍarāt ↔ quatre états d'Âtmâ (4 ancrages
+#     etabli, source Majmaʿ al-Bahrayn ch. VII) et Sephiroth ↔ chakras
+#     (5 etabli + 2 suggere, réserve d'interversion de Guénon). Un troisième
+#     verdict (sept Pôles ↔ sept laṭāʾif) est rendu mais NON déclarable :
+#     conflit d'ordre entre les deux séries prophétiques, source manquante.
 #
 #   v0.5.2 (2026-08-25) : `zodiaque.mode_zodiaque` (tropical|sideral) et
 #     `zodiaque.ayanamsha_deg` — verdict Sidy : l'Instrument exécute les DEUX
@@ -331,6 +338,83 @@ ancrages:
   # ancrage : rien dans le verdict ne les concerne.
   - {noeud: universel/homme-universel, type: equivalence, etat: etabli, directionnalite: none,
      cible: vedanta/vaishvanara, source: "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"}
+
+  # ===========================================================================
+  # PREMIERS ANCRAGES INTER-REGISTRES (verdicts Sidy du 2026-08-29)
+  # ---------------------------------------------------------------------------
+  # Jusqu'ici AUCUN ancrage ne reliait deux registres : les registres étaient
+  # déclarés côte à côte, sans joint. Ces deux séries sont les premières à en
+  # poser, chacune sous un verdict explicite (Cmd 3, Cmd 12).
+  # Le générateur v0.2.5 exige désormais une fiche doctrinal/discernement/ en
+  # source pour tout ancrage inter-registres — garde appliquée ici.
+  # ===========================================================================
+
+  # --- ⭐ Ḥaḍarāt ↔ quatre états d'Âtmâ (établi, hozo, verdict Sidy 2026-08-29) ---
+  # Correspondance donnée par le TEXTE PRIMAIRE lui-même (Dârâ Shokûh, Majmaʿ
+  # al-Bahrayn ch. VII), non construite par le dépôt. L'ordre est préservé sans
+  # torsion, sommet contre sommet et base contre base.
+  # RÉSERVE CONSERVÉE AU DOSSIER : le joint susupta↔jabarūt est contesté par le
+  # commentateur (Shayegan, statut academique) contre le texte (statut
+  # traditionnel) ; le verdict de Sidy tranche en faveur du texte, la réserve
+  # reste documentée dans la fiche discernement. Rendu identique aux trois
+  # autres — la tension vit dans la fiche, pas dans une dégradation d'état.
+  - {noeud: tasawwuf/nasut, type: equivalence, etat: etabli, directionnalite: none,
+     cible: vedanta/vaishvanara, source: "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+     note: "jāgrat (veille) ↔ nāsūt — Majmaʿ al-Bahrayn ch. VII."}
+  - {noeud: tasawwuf/malakut-planetaire, type: equivalence, etat: etabli, directionnalite: none,
+     cible: vedanta/taijasa, source: "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+     note: "svapna (rêve) ↔ malakūt — appariement appuyé par le commentateur (homologie de l'imagination)."}
+  - {noeud: tasawwuf/jabarut, type: equivalence, etat: etabli, directionnalite: none,
+     cible: vedanta/prajna, source: "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+     note: "susupta (sommeil profond) ↔ jabarūt — SEUL joint contesté par Shayegan (« déséquilibre de niveau ») ; réserve documentée dans la fiche discernement, verdict rendu en faveur du texte primaire."}
+  - {noeud: tasawwuf/lahut, type: equivalence, etat: etabli, directionnalite: none,
+     cible: vedanta/turiya, source: "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+     note: "turīya ↔ lāhūt — « l'Ipséité pure, enveloppant et totalisant les trois mondes »."}
+
+  # --- ⭐ Sephiroth ↔ chakras (verdict Sidy 2026-08-29) -----------------------
+  # Guénon, « Kundalinî-Yoga » (Études sur l'Hindouisme). Les 10 Sephiroth se
+  # ramènent à 7 NIVEAUX par projection des couples latéraux sur la colonne du
+  # milieu — réduction mécanique, dérivée des colonnes déclarées, non postulée.
+  # L'ancrage porte sur la Sephirah de tête de chaque niveau ; les couples
+  # latéraux (Bina, Gevurah, Hod) partagent le niveau de leur symétrique et ne
+  # reçoivent pas d'ancrage propre — ce serait dédoubler un même joint.
+  # Les cinq appariements supérieurs sont ETABLI.
+  - {noeud: qabbalah/kether, type: equivalence, etat: etabli, directionnalite: none,
+     cible: hindouisme/sahasrara, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 1. Kether ↔ Sahasrāra."}
+  - {noeud: qabbalah/hokhma, type: equivalence, etat: etabli, directionnalite: none,
+     cible: hindouisme/ajna, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 2 (couple Hokhma-Bina) ↔ Ājnā."}
+  - {noeud: qabbalah/hesed, type: equivalence, etat: etabli, directionnalite: none,
+     cible: hindouisme/vishuddha, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 3 (couple Hesed-Gevurah) ↔ Vishuddha."}
+  - {noeud: qabbalah/tiferet, type: equivalence, etat: etabli, directionnalite: none,
+     cible: hindouisme/anahata, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 4. Tiferet ↔ Anāhata."}
+  - {noeud: qabbalah/netzach, type: equivalence, etat: etabli, directionnalite: none,
+     cible: hindouisme/manipura, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 5 (couple Netzach-Hod) ↔ Manipūra."}
+  # Les DEUX DERNIERS restent SUGGERE : Guénon LUI-MÊME pose une réserve
+  # d'interversion sur Yesod/Malkhut ↔ Mūlādhāra/Swādhishthāna (« il semble
+  # qu'il y ait lieu d'envisager une interversion »). Les rendre `etabli`
+  # ferait dire au texte plus qu'il ne dit.
+  - {noeud: qabbalah/yesod, type: equivalence, etat: suggere, directionnalite: none,
+     cible: hindouisme/muladhara, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 6. SUGGÉRÉ — réserve d'interversion posée par Guénon lui-même."}
+  - {noeud: qabbalah/malkhut, type: equivalence, etat: suggere, directionnalite: none,
+     cible: hindouisme/swadhishthana, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 7. SUGGÉRÉ — même réserve d'interversion."}
+
+  # --- ⛔ Sept Pôles ↔ sept centres subtils (laṭāʾif) : NON DÉCLARÉ -----------
+  # Verdict de principe rendu par Sidy le 2026-08-29 (les Prophètes comme terme
+  # moyen), MAIS aucun ancrage n'est inscriptible : les deux séries prophétiques
+  # (ordre du miʿrāj pour les Pôles, ordre de Semnânî pour les laṭāʾif) ne
+  # coïncident ni en composition ni en rang — aucun appariement terme à terme
+  # ne peut être écrit sans arbitrer d'abord lequel prévaut. Ce qui manque est
+  # une SOURCE, non un verdict.
+  # Détail de l'obstacle et pièce manquante identifiée (ch. II du commentaire de
+  # Shayegan, non encore transcrit) :
+  # [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]].
 
 zodiaque:
   degre_falak_al_buruj: 19       # 12 signes (Toit du Jardin paradisiaque)

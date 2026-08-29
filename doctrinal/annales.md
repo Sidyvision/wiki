@@ -9,6 +9,55 @@ updated: 2026-08-29
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] archivage + discernement | Majmaʿ al-Bahrayn ch. VII, et trois verdicts inter-traditionnels de Sidy
+
+- **Source créée** : `doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes.md`
+  (`status: traditionnel`) — le ch. VII du *Majmaʿ al-Bahrayn* de Dârâ Shokûh
+  (1615-1659), qui apparie lui-même, terme à terme, les quatre mondes du
+  Tasawwuf et les quatre états d'Âtmâ. Le commentaire moderne de Shayegan sur
+  ce chapitre, de statut `academique`, n'est **pas** fondu dans cette fiche
+  (Cmd 4) ; sa divergence est reproduite en bloc 🌐. Réserve consignée : la
+  transcription du texte primaire n'est pas encore relue sur ses 13 clichés.
+- **Discernement validé** : `2026-08-29_hadarat-quatre-etats-atma.md`
+  (`status: traditionnel`, `maturite: fruit-mur`) — verdict de Sidy du
+  2026-08-29. Les quatre appariements sont établis. La réserve du commentateur
+  sur le seul joint *susupta*↔*jabarūt* (« déséquilibre de niveau ») est
+  conservée au dossier comme tension documentée, non comme invalidation : elle
+  oppose une objection `academique` à un texte `traditionnel`. Portée
+  explicitement bornée : n'établit rien sur les *chakra*, ne tranche ni la
+  position du *ʿālam-e mithāl* ni le degré du *jabarūt*.
+- **Discernement validé** : `2026-08-29_sephiroth-chakras-sept-niveaux.md`
+  (`status: traditionnel`, `maturite: fruit-vert`) — verdict de Sidy
+  (« Sephiroth ↔ Chakras = Validé »). Cinq appariements établis ; les deux
+  derniers (Yesod/Malkhut ↔ Mūlādhāra/Swādhishthāna) restent **suggérés**, sous
+  la réserve d'interversion que **Guénon pose lui-même**. **Dette de
+  traçabilité signalée** : la fiche source `guenon-kundalini-yoga-etudes-
+  hindouisme` est un relevé partiel qui ne porte pas le passage §34-36 invoqué,
+  et se déclare issue d'un clipping web non vérifié sur exemplaire. Le verdict
+  porte donc sur une correspondance dont la lettre exacte n'est pas archivée —
+  à solder sur exemplaire physique.
+- **Discernement ouvert (validé en principe, exécution suspendue)** :
+  `2026-08-29_sept-poles-sept-lataif.md` (`status: speculatif`,
+  `maturite: germe`, `sources: ["to-source"]`) — verdict de principe rendu par
+  Sidy, avec son motif (les Prophètes comme régents des deux séries), consigné
+  fidèlement. **Obstacle formel dur relevé et documenté** : les deux séries
+  prophétiques ne coïncident ni en composition ni en rang — ordre du *miʿrāj*
+  pour les sept Pôles (Adam, Jésus, Joseph, Idrîs, Aaron, Moïse, Abraham) contre
+  ordre de Semnânî pour les *laṭāʾif* (Adam, Noé, Abraham, Moïse, David, Jésus,
+  Muhammad). Aucun appariement terme à terme n'est donc écrit : ce qui manque
+  est une **source**, non un verdict. Le document de départ (article web
+  ghayb.com, 2025) est de statut tertiaire, compile Wikipédia et Scribd, et
+  donne une troisième attribution encore différente pour **six** *laṭāʾif* —
+  retenu comme piste flaguée, `to-source` posé (§VII, points 3 et 4). Pièce
+  manquante identifiée : le ch. II du commentaire de Shayegan, en bibliothèque
+  physique, non encore transcrit.
+- **Étanchéité** : aucune des quatre fiches ne pointe vers `atelier/` (§VI) ;
+  les transcriptions du pôle bibliothèque y sont citées bibliographiquement,
+  sans wikilink.
+- **Validation mécanique** : `verifier-invariants.py --racine /home/user/wiki`
+  → `0 erreur(s), 1 avertissement(s)` (A6 préexistant, entrée du 2026-08-20,
+  sans rapport avec cette passe).
+
 ## [2026-08-29] discernement | ouverture | Axe du Monde (validée) et Octogone/Barzakh (en cours)
 
 - **`2026-08-29_axe-du-monde-doctrine-transversale.md`** — ouverte et

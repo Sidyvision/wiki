@@ -10,6 +10,50 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/instrument | PREMIERS ANCRAGES INTER-REGISTRES (v0.6.0) + correctif de comptage (générateur v0.2.5)
+
+- **Action** : exécution des verdicts rendus par Sidy le 2026-08-29.
+  `instrument-donnees.yaml` porté en **v0.6.0** — jusqu'ici aucun ancrage ne
+  reliait deux registres, ceux-ci étaient déclarés côte à côte sans joint.
+  **11 ancrages inter-registres déclarés**, tous sourcés par une fiche
+  `doctrinal/discernement/` (garde v0.2.5 posée plus tôt dans la journée,
+  appliquée ici pour la première fois en conditions réelles) :
+  - **4 ancrages `etabli`** Ḥaḍarāt ↔ quatre états d'Âtmâ (nāsūt↔Vaishwânara,
+    malakūt↔Taijasa, jabarūt↔Prājña, lāhūt↔Turīya). La réserve du commentateur
+    sur le troisième vit dans la fiche discernement, non dans une dégradation
+    d'état — le verdict tranche en faveur du texte primaire.
+  - **5 ancrages `etabli` + 2 `suggere`** Sephiroth ↔ chakras. Les deux derniers
+    restent suggérés parce que **Guénon lui-même** pose une réserve
+    d'interversion sur Yesod/Malkhut ↔ Mūlādhāra/Swādhishthāna. L'ancrage porte
+    sur la Sephirah de tête de chaque niveau : les couples latéraux (Bina,
+    Gevurah, Hod) partagent le niveau de leur symétrique et n'en reçoivent pas
+    en propre, ce qui dédoublerait un même joint.
+- **NON déclaré, et pourquoi** : sept Pôles ↔ sept centres subtils (*laṭāʾif*).
+  Le verdict de principe est rendu, mais les deux séries prophétiques (ordre du
+  *miʿrāj* pour les Pôles, ordre de Semnânî pour les *laṭāʾif*) ne coïncident ni
+  en composition ni en rang — aucun appariement terme à terme n'est écrivable
+  sans arbitrer d'abord lequel prévaut. Ce qui manque est une source, non un
+  verdict. Bloc de commentaire explicite laissé dans le YAML à l'emplacement où
+  ces ancrages viendront. Détail :
+  `doctrinal/discernement/2026-08-29_sept-poles-sept-lataif.md`.
+- **Correctif d'outillage (v0.2.5, second volet)** : le compteur d'ancrages
+  affiché en fin d'exécution ne sommait que les nœuds. Signalé le matin comme
+  bénin, il est devenu **trompeur** dès cette passe : il affichait `11` alors
+  que le manifeste en portait `22` — exactement la moitié masquée. Corrigé
+  (affichage seul ; le manifeste produit était correct dans les deux cas).
+- **Validation mécanique indépendante (rapport brut, §VIII point 2)** : le
+  premier recomptage a été **faussé par une erreur de ma part** (clé `noeuds`
+  au lieu de `nodes`), donnant l'illusion que les ancrages préexistants avaient
+  disparu ; recompte refait sur la bonne clé → **11 ancrages portés par des
+  nœuds + 11 par des domaines = 22**, conforme. Générateur après correctif :
+  `44 nœud(s), 22 ancrage(s), 4 registre(s), 0 avertissement(s)`, concordant
+  avec le recomptage indépendant. `verifier-invariants.py --racine
+  /home/user/wiki` → `0 erreur(s), 1 avertissement(s)` (A6 préexistant).
+- **Reste ouvert** : la relecture sur clichés de la transcription du texte
+  primaire du Majmaʿ (13 clichés) — le verdict Ḥaḍarāt↔états d'Âtmâ s'appuie
+  sur un texte encore en OCR brute. Et la transcription du ch. II du
+  commentaire de Shayegan, pièce manquante du troisième verdict.
+
 ## [2026-08-29] rd/instrument | mise en regard + correctif outillage | Majmaʿ al-Bahrayn ↔ registres, et garde inter-registres du générateur (v0.2.5)
 
 - **Action (1/2 — relevé)** : fiche

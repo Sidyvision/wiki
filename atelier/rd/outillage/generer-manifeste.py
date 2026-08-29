@@ -515,7 +515,17 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     chemin_sortie.write_text(
         json.dumps(manifeste, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    nb_ancrages = sum(len(n["ancrages"]) for n in noeuds)
+    # v0.2.5 : compter AUSSI les ancrages portés par un domaine de registre.
+    # Le compteur ne sommait que les nœuds : depuis l'ouverture des ancrages
+    # inter-registres (2026-08-29), il masquait la moitié du total, ce qui
+    # contredit la règle de vérification mécanique indépendante (§VIII.2 du
+    # protocole racine : ne jamais se fier à l'auto-rapport). Affichage seul,
+    # le manifeste produit était correct.
+    nb_ancrages = sum(len(n["ancrages"]) for n in noeuds) + sum(
+        len(d.get("ancrages") or [])
+        for reg in (registres_valides or [])
+        for d in (reg.get("domaines") or [])
+    )
     print(f"✓ Manifeste produit : {chemin_sortie}")
     print(f"  {len(noeuds)} nœud(s), {nb_ancrages} ancrage(s), "
           f"zodiaque {'inclus' if zodiaque_valide is not None else 'absent'}, "
