@@ -9,6 +9,20 @@ updated: 2026-08-29
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] discernement | sashimono-metier-traditionnel — second enrichissement (Plotin/menuiserie, mortaise, artisans traditionnels — Coomaraswamy « Le Symbolisme du Dôme »)
+
+Second ajout du jour à
+[[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]] : citation
+de Plotin (*Ennéades* V.9.11, via Coomaraswamy) nommant la menuiserie comme
+métier au principe supra-humain ; témoignage personnel de Coomaraswamy sur des
+artisans traditionnels dépositaires d'une transmission ininterrompue ; second
+terme d'assemblage bois (« mortaise ») relevé dans le même essai, complétant
+le « tenon » déjà signalé. Sources archivées côté `atelier/rd/bibliotheque/`
+(mention en prose, sans wikilink). Toujours aucune mention du sashimono
+japonais dans le corpus lu — homologie de principe et de vocabulaire, filiation
+non établie, verdict réservé à Sidy. `status` de la fiche inchangé
+(`speculatif`).
+
 ## [2026-08-29] discernement | sashimono-metier-traditionnel — enrichissement (tenon/pierre angulaire, Coomaraswamy « Eckstein »)
 
 Ajout d'un enrichissement daté à

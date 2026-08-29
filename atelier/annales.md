@@ -10,6 +10,30 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/bibliotheque | archivage | Le Symbolisme du Dôme (Coomaraswamy) + ch. XXXIX-XL Guénon, second essai du corps de La Porte du Ciel
+
+- **Dépôt** : `raw/Le symbolisme du dôme -La Porte du Ciel/` (29 photos,
+  IMG_0263-0291, continues), essai complet p.39-94 (« Le Symbolisme du Dôme »,
+  trois parties + notes). Dépôt conjoint de `raw/Symboles de la Science
+  sacrée, René Guénon/` (fichiers `.md` déjà transcrits, ch. XXXIX « Le
+  symbolisme du dôme » et ch. XL « Le Dôme et la Roue »).
+- **Fiches créées** : `atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel.md`
+  (essai Coomaraswamy — cet essai est celui que Guénon commente nommément dans
+  ses deux chapitres) et `atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue.md`
+  (fiche de repérage vers le texte Guénon déjà présent en `raw/`).
+- **Signalement croisé** (sens unique `rd/` → `doctrinal/`) : second
+  enrichissement daté ajouté à
+  `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md` —
+  citation de Plotin (*Ennéades* V.9.11) nommant la « menuiserie » comme métier
+  au principe supra-humain ; témoignage direct de Coomaraswamy sur des
+  « artisans traditionnels » connus personnellement ; second terme
+  d'assemblage bois (« mortaise », complétant le « tenon » d'Eckstein) ;
+  citation de Guénon ch. XL sur métiers traditionnels et initiation. Aucune
+  mention du sashimono japonais dans le corpus lu — homologie de vocabulaire
+  et de principe signalée, filiation non établie, verdict réservé à Sidy.
+- `atelier/rd/bibliotheque/catalogue-bibliotheque.md` — deux nouvelles lignes
+  dans la table « Index et glossaires transcrits ».
+
 ## [2026-08-29] rd/bibliotheque | archivage | Eckstein — La Porte du Ciel (Coomaraswamy), premier essai photographié du corps p.37-281
 
 - **Dépôt** : `raw/Eckstein - La Porte du Ciel/` (6 photos, IMG_0254, IMG_0258-0262),

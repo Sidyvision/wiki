@@ -164,3 +164,58 @@ lever par vérification primaire humaine avant toute résolution.
 > « Eckstein » et déjà croisé avec Guénon, « Le symbolisme du dôme »/« Le dôme et
 > la roue », *Symboles fondamentaux de la Science sacrée* ch. XXXIX-XL, déjà
 > possédé) — piste bibliographique distincte, non instruite ici.
+
+## Enrichissement du 2026-08-29 (suite) — Plotin sur la menuiserie, la mortaise, et le témoignage direct de Coomaraswamy sur les artisans traditionnels
+
+> 🔍 **Discernement — Spéculation Personnelle**
+> **Statut** : en cours
+> **Contexte** : dépôt du 2026-08-29 dans `raw/Le symbolisme du dôme -La Porte
+> du Ciel/` (29 photos, essai complet p.39-94 — « Le Symbolisme du Dôme »,
+> Coomaraswamy). C'est précisément l'essai que la fiche discernement précédente
+> signalait comme lecture suggérée. Transcrit côté bibliothèque physique R&D
+> (mention en prose, sans wikilink — étanchéité doctrinal/atelier).
+> **Éléments nouveaux** :
+>   1. Coomaraswamy cite Plotin, *Ennéades* V. 9. 11 : « les métiers tels que
+>      l'architecture ou la **menuiserie** qui façonnent la matière en des
+>      formes travaillées, peuvent être dits, en ce qu'ils se réfèrent à un
+>      modèle, tirer leurs principes de ce royaume-là et des pensées de
+>      là-bas » — texte antique nommant explicitement la menuiserie comme
+>      métier dont le principe procède d'un modèle supra-humain.
+>   2. Coomaraswamy témoigne personnellement (non comme principe abstrait) :
+>      « nous sommes en mesure d'affirmer [l'origine supra-humaine de
+>      l'architecture] fondant [...] sur une connaissance personnelle
+>      d'artisans traditionnels dépositaires d'une tradition artisanale
+>      transmise depuis d'innombrables générations » — attestation directe de
+>      corporations de métier encore vivantes à son époque.
+>   3. Second emploi verbatim de vocabulaire d'assemblage bois : « l'orifice
+>      peut être considéré [...] comme fonctionnel (source d'illumination,
+>      **mortaise**, etc.) » à propos de l'« œil du dôme » — complète le
+>      *tenon* déjà relevé dans « Eckstein » (enrichissement précédent) : les
+>      deux moitiés du couple tenon-mortaise (hozo) apparaissent maintenant,
+>      séparément, dans le vocabulaire de Coomaraswamy pour des éléments
+>      architecturaux à charge métaphysique.
+> **Généalogie des idées** :
+>   - *Filiation orthodoxe possible* : les trois éléments renforcent
+>     l'« Élément favorable » 2 déjà noté (doctrine coomaraswamyenne de l'art
+>     sacré) ; l'élément 1 (Plotin) est un texte primaire distinct et antérieur
+>     à Coomaraswamy et à Guénon, cité par le premier. Rattachement à
+>     `meta/philosophie-sashimono.md` inchangé.
+>   - *Parenté hétérodoxe possible* : aucune identifiée.
+> **Examen formel** : ni Plotin ni Coomaraswamy, dans cet essai, ne mentionnent
+> le Japon, le sashimono, ou une menuiserie d'assemblage précise — « menuiserie »
+> reste un terme générique. Le rapprochement avec le sashimono demeure une
+> **homologie de vocabulaire et de principe** (métier du bois comme support
+> traditionnel), non une filiation textuelle. Point distinct, non résolu par ce
+> qui précède : la question 1 de la fiche (rattachement traditionnel précis du
+> sashimono japonais) reste entièrement `to-source`.
+> **Conclusion** : en attente, verdict réservé à Sidy. La question 2 (fondement
+> doctrinal général de l'art sacré appliqué aux métiers du bois) dispose
+> désormais de trois textes primaires convergents (Plotin, Coomaraswamy
+> « Eckstein » et « Symbolisme du Dôme », Guénon *Symboles de la Science
+> sacrée* ch. XL) ; la question 1 reste sans aucune source.
+> **Lectures suggérées** : le reste du corpus *La Porte du Ciel* (p.37-281) —
+> en particulier les essais encore non photographiés qui pourraient traiter de
+> l'Extrême-Orient plus directement ; sinon, une source distincte
+> spécifiquement japonaise (architecture *miyadaiku*, corporations de
+> charpentiers de temples) reste à identifier — le corpus Coomaraswamy/Guénon
+> déjà possédé ne la couvre pas.
