@@ -5,7 +5,7 @@ tags: [outillage, instrument, sashimono, hozo, kumiko, axe-du-monde, signalement
 created: 2026-08-29
 updated: 2026-08-29
 sources: []
-links: ["[[atelier/rd/bibliotheque/eckstein-porte-du-ciel]]", "[[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]]", "[[atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]]"]
+links: ["[[atelier/rd/bibliotheque/eckstein-porte-du-ciel]]", "[[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]]", "[[atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]]", "[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh]]"]
 ---
 
 # Signalement — Mise en regard du corpus Coomaraswamy/Guénon avec l'architecture de l'Instrument
@@ -138,12 +138,38 @@ de l'autre) — non une équivalence entre eux.
   `meta/philosophie-sashimono.md`, §1 : « elle sert la clarté formelle et la
   discipline de méthode ; elle n'établit aucune correspondance doctrinale »).
 
-## 4. Piste ouverte, non instruite
+## 4. Mise à jour du 2026-08-29 — deux fiches discernement ouvertes
 
-Le §2.2 identifie un candidat concret pour un travail futur : une fiche
-`doctrinal/discernement/` sur l'Axe du Monde comme doctrine transversale
-(sur le modèle de la fiche des Aqtâb déjà tranchée), qui pourrait, si Sidy le
-juge pertinent, être instruite à partir des passages cités ici (Guénon,
-« Symbolisme du Dôme » et « Le Dôme et la Roue » — texte déjà en `raw/`) et
-du reste du corpus *La Porte du Ciel* non encore photographié. Simple
-signalement d'opportunité — aucune fiche ouverte à ce stade.
+La piste du §2.2 a été instruite le jour même :
+[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]
+(identité *skambha* = *qutb* = *stauros* nommée par Guénon — **validée**,
+Sidy).
+
+Un second point, distinct, a été instruit sur demande de Sidy :
+[[doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh]] —
+l'octogone comme forme géométrique du « monde intermédiaire » entre le carré
+(base) et le cercle (dôme), chez Guénon (*Symboles de la Science sacrée*, ch.
+XLII, « L'Octogone »), mis en regard avec le *barzakh* soufi. Sidy a formulé
+indépendamment, avant consultation du chapitre, le même jugement que le
+texte de Guénon confirme mot pour mot : l'octogone est la structure
+intermédiaire de l'architecture sacrée entre le dôme et la base. **Validée**
+(Sidy, 2026-08-29), avec une formulation doctrinale propre : la structure à
+trois parties exprime l'union des trois mondes selon une triple articulation
+corps/âme/esprit — base carrée = corps (état grossier/solide), octogone =
+âme (état intermédiaire/psychique), dôme = esprit (états spirituels).
+Qualifiée **hozo**.
+
+### Piste de design signalée par Sidy — lentille *barzakh* rendue en octogone
+
+En formulant le rapprochement ci-dessus, Sidy a signalé une piste de rendu
+concrète pour la lentille de transition *barzakh* de l'Instrument (§3.4 de
+l'architecture — « détail optique en phase technique », non encore fixé) :
+**une géométrie octogonale**, avec une association visuelle vers le
+**vitrail** (lumière filtrée à travers une structure de plomb/verre
+compartimentée — cohérent avec la fonction de « porte du Soleil »/passage de
+lumière que le corpus lu attribue à l'œil du dôme, cf.
+[[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]] §2.3, et
+`doctrinal/sources/guenon-octogone.md`, exemple du baptistère et du *Ming-tang*).
+Piste de rendu à instruire en phase technique — aucune décision de
+géométrie 3D prise ici, simple consignation de l'intuition et de son
+appui textuel désormais disponible.

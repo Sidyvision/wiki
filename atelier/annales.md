@@ -10,6 +10,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/outillage | mise à jour | Deux fiches discernement ouvertes + piste de design lentille barzakh/octogone
+
+- Suite au signalement du même jour, deux fiches
+  `doctrinal/discernement/` ont été ouvertes et **closes toutes deux sur
+  verdict de Sidy** (voir `doctrinal/annales.md`, entrée du même jour) :
+  Axe du Monde et Octogone/Barzakh, toutes deux **validées**, qualifiées
+  **hozo**.
+- `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument.md`
+  complétée : §4 mis à jour, piste de design consignée — lentille de
+  transition *barzakh* de l'Instrument (§3.4, détail optique non fixé)
+  rendue en **octogone**, association visuelle **vitrail**, signalée par
+  Sidy indépendamment puis confirmée par le texte de Guénon. Aucune décision
+  de rendu 3D prise — consignation d'intuition à instruire en phase
+  technique.
+
 ## [2026-08-29] rd/outillage | signalement | Mise en regard tenon/mortaise/axe du monde (corpus du jour) avec l'architecture de l'Instrument
 
 - **Demande de Sidy** : mettre en regard le corpus lu aujourd'hui (Eckstein,

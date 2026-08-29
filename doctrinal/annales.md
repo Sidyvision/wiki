@@ -9,6 +9,37 @@ updated: 2026-08-29
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] discernement | ouverture | Axe du Monde (validée) et Octogone/Barzakh (en cours)
+
+- **`2026-08-29_axe-du-monde-doctrine-transversale.md`** — ouverte et
+  **close le jour même sur verdict de Sidy** (`status: traditionnel`,
+  `Statut: validée`). Identité *skambha* = *qutb* islamique = *stauros*
+  gnostique, nommée par Guénon dans une même phrase (*Symboles de la Science
+  sacrée*, ch. XL, « Le Dôme et la Roue »). Qualifiée **hozo**. Sources
+  créées : `doctrinal/sources/guenon-symbolisme-du-dome.md`,
+  `doctrinal/sources/guenon-dome-et-la-roue.md`.
+- **`2026-08-29_octogone-monde-intermediaire-barzakh.md`** — ouverte à la
+  demande de Sidy puis **close le jour même sur son verdict**
+  (`status: traditionnel`, `Statut: validée`). Rapproche l'octogone
+  (« monde intermédiaire » entre carré et cercle, ch. XLII « L'Octogone » de
+  Guénon) et le *barzakh* soufi ([[doctrinal/symboles/barzakh]]). Sidy a
+  formulé le même rapprochement indépendamment, avant consultation du texte,
+  confirmé mot pour mot par celui-ci, puis rendu le verdict avec une
+  formulation doctrinale propre : la structure carré/octogone/dôme exprime
+  l'union des trois mondes selon une triple articulation corps (base
+  carrée)/âme (octogone)/esprit (dôme). Qualifiée **hozo**. Nuance
+  méthodologique conservée pour mémoire (Guénon n'emploie pas le mot
+  « barzakh » dans ce chapitre précis — le verdict porte sur la fonction et
+  la doctrine des trois mondes, non sur une citation verbatim). Source
+  créée : `doctrinal/sources/guenon-octogone.md`.
+- Occasion commune : lecture croisée du corpus Coomaraswamy/Guénon déposé le
+  2026-08-29, mise en regard avec l'architecture de l'Instrument — voir
+  `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument.md`
+  (atelier), qui consigne aussi une piste de design signalée par Sidy
+  (lentille *barzakh* rendue en octogone, association vitrail) — motif
+  personnel non consigné ici (Cmd 2, distinction psychique/spirituel ; le
+  motif reste hors dépôt sauf demande explicite).
+
 ## [2026-08-29] discernement | sashimono-metier-traditionnel — second enrichissement (Plotin/menuiserie, mortaise, artisans traditionnels — Coomaraswamy « Le Symbolisme du Dôme »)
 
 Second ajout du jour à
