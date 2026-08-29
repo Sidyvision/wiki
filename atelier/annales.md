@@ -10,6 +10,24 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] réparation | Frontmatter du compte-rendu GitHub automation (clés `created`/`updated`)
+
+- **Action** : dans `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md`,
+  la clé non canonique `date: 2026-08-29` a été remplacée par les deux clés du
+  sceau atelier, `created: 2026-08-29` et `updated: 2026-08-29`. Aucune autre
+  modification, corps de la fiche inchangé.
+- **Motif** : `verifier-invariants.py` signalait deux erreurs bloquantes [B1]
+  (clés de frontmatter manquantes) sur cette fiche.
+- **Validation** : `verifier-invariants.py` → de 3 erreurs à 1. Les deux [B1] sont
+  levées.
+- **Point de vigilance** : l'erreur restante [B0] porte sur
+  `raw/La Lumière - Daryush Shayegan/IV.md` (absence de frontmatter). Elle est
+  **structurellement incorrigible et doit le rester** : `raw/` est immuable, on
+  n'y ajoute pas de sceau. Le vérificateur la remontera à chaque passe tant qu'un
+  `.md` séjournera dans `raw/`. À considérer comme un signalement permanent, non
+  comme une dette. Si le bruit devenait gênant, la décision d'exclure `raw/` du
+  périmètre du vérificateur relève de Sidy, pas de la machine.
+
 ## [2026-08-29] rd/bibliotheque | transcription | Hindouisme et Soufisme (Shayegan) — Majmaʿ al-Bahrayn (p.18-50) et chapitre IV « La Lumière » (p.155-167)
 
 - **Action** : deux fiches créées dans `atelier/rd/bibliotheque/` —

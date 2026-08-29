@@ -1,7 +1,8 @@
 ---
 title: "Compte-rendu — Automatisation GitHub & Webhook R&D"
 type: compte-rendu
-date: 2026-08-29
+created: 2026-08-29
+updated: 2026-08-29
 tags: [atelier, rd, infrastructure, github, webhook, automation, gardien]
 sources: []
 links:
