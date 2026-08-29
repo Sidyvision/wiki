@@ -10,8 +10,11 @@ la dispersion mentale.
 
 > **Historique des révisions** : conservé intégralement dans
 > `meta/protocole-archives/changelog-CLAUDE.md` (append-only, chronologique
-> inverse). Dernières révisions : **2026-08-28** (corrections de dérive : table
-> Karūbī de `meta/CLAUDE.md`, arbre du §II, `meta-index.md`, `README.md`,
+> inverse). Dernières révisions : **2026-08-29** (§VII, discipline des sources,
+> point 1 — objet documentaire/d'orientation des photos de couverture, sommaire,
+> index et glossaire de la bibliothèque R&D explicité de façon définitive,
+> consultation prioritaire impérative), **2026-08-28** (corrections de dérive :
+> table Karūbī de `meta/CLAUDE.md`, arbre du §II, `meta-index.md`, `README.md`,
 > guide `verifier-invariants.py` déplacé en `meta/`), **2026-08-22**
 > (Commandement 15 — hygiène Unicode), **2026-08-12** (éclatement en protocoles
 > locaux, §II bis). Versions complètes archivées : `meta/protocole-archives/`
@@ -239,12 +242,20 @@ Publication : `label/CLAUDE.md` — vivent désormais dans leur `CLAUDE.md` loca
 ### Discipline des sources (transversale)
 
 1. **Bibliothèque physique d'abord** : avant toute production de fiche `source` ou
-   `symbole`, consulter systématiquement
+   `symbole`, **et avant tout signalement d'absence d'une œuvre**, consulter
+   **impérativement et en priorité**
    `atelier/rd/bibliotheque/catalogue-bibliotheque.md` — un texte possédé
    physiquement prime toute source secondaire. Consultation **humaine**, sans
-   wikilink : `doctrinal/` ne pointe jamais vers `atelier/` (§VI). Les index et
-   glossaires transcrits du même dossier indiquent *où chercher* ; ils ne lèvent
-   jamais un `to-source` par eux-mêmes (point 2 ci-dessous).
+   wikilink : `doctrinal/` ne pointe jamais vers `atelier/` (§VI).
+   **Objet exact des photographies de couverture, sommaire, index et glossaire**
+   (`atelier/rd/bibliotheque/*.md`, section « Index et glossaires transcrits ») :
+   strictement **documentaire et d'orientation** — Sidy ne peut pas entreprendre
+   de numériser l'intégralité de sa bibliothèque physique ; photographier la
+   table des matières, l'index et le glossaire d'un ouvrage permet de savoir *où
+   chercher* dedans le jour où un chantier en a besoin, sans transcrire le corps
+   du texte. C'est la finalité même de ce pôle de la bibliothèque R&D. Ces
+   fiches indiquent *où chercher* ; elles ne lèvent **jamais** un `to-source`
+   par elles-mêmes (point 2 ci-dessous) et ne portent aucun contenu doctrinal.
 2. **Levée du `to-source`** : le marqueur `to-source` ne peut être retiré qu'après
    vérification du **texte primaire par l'utilisateur lui-même** (ou citation exacte
    d'une autorité textuelle contrôlée). Jamais sur la seule foi d'un modèle.

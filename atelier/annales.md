@@ -10,6 +10,28 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] meta | Clarification définitive — objet documentaire de la bibliothèque R&D
+
+- **Demande de Sidy** : noter de façon nette, claire et définitive que les
+  photographies de couverture, sommaire, index et glossaire déposées dans
+  `atelier/rd/bibliotheque/` sont strictement documentaires et d'orientation
+  (savoir *où chercher* dans un ouvrage physique possédé, sans numérisation
+  intégrale de la bibliothèque, impossible en pratique) — et que tout agent
+  doit consulter ce pôle en priorité impérative avant de signaler une œuvre
+  comme absente.
+- **Occasion** : signalement prématuré, dans la présente session, d'une
+  absence de transcription pour *Hindouisme et Soufisme* (Shayegan) avant
+  `git pull` — la fiche `sommaire-hindouisme-soufisme.md` existait déjà côté
+  remote (branche `claude/shayegan-transcription-archivage-qt2815`, mergée).
+- **Modifications** : `CLAUDE.md` racine §VII (Discipline des sources, point 1)
+  amendé et en-tête de révision mis à jour ; note de méthode ajoutée en tête de
+  la section « Index et glossaires transcrits » de
+  `atelier/rd/bibliotheque/catalogue-bibliotheque.md` ; entrée consignée dans
+  `meta/protocole-archives/changelog-CLAUDE.md`.
+- **Aucune fiche de contenu modifiée** (pas de qualification sashimono
+  appliquée aux fiches *La Porte du Ciel* — question distincte, en attente de
+  clarification de Sidy sur le périmètre visé).
+
 ## [2026-08-29] rd/cahiers | Registre — merge PR#11 sans review malgré protection de branche `main`
 
 - **Contexte** : à la demande de Sidy (« Rapporte ça au R&D »), consignation

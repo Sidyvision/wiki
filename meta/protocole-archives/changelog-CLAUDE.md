@@ -3,7 +3,7 @@ title: "Changelog du protocole CLAUDE.md (racine)"
 type: meta
 tags: [protocole, historique, changelog]
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-08-29
 ---
 
 # Changelog du protocole `CLAUDE.md` (racine)
@@ -16,6 +16,26 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-29] clarification | Objet documentaire de la bibliothèque R&D (couvertures, sommaires, index, glossaires)
+
+Demande explicite de Sidy : noter de façon nette, claire et définitive que les
+photographies de couverture, sommaire, index et glossaire déposées dans
+`atelier/rd/bibliotheque/` (section « Index et glossaires transcrits » de
+`catalogue-bibliotheque.md`) sont **strictement documentaires et d'orientation**
+— elles permettent de savoir *où chercher* dans un ouvrage physique possédé,
+sans nécessiter la numérisation intégrale de la bibliothèque, impossible à
+entreprendre en pratique. C'est l'objet même de ce pôle. §VII (Discipline des
+sources), point 1 du `CLAUDE.md` racine amendé en conséquence : consultation de
+`atelier/rd/bibliotheque/catalogue-bibliotheque.md` rendue **impérative et
+prioritaire**, y compris avant tout signalement d'absence d'une œuvre (un agent
+qui déclare une œuvre « absente du corpus » sans avoir vérifié ce pôle commet un
+signalement prématuré — cas vécu le jour même avec *Hindouisme et Soufisme*,
+Shayegan, dont la fiche `sommaire-hindouisme-soufisme.md` existait déjà côté
+`atelier/rd/bibliotheque/` au moment où l'absence avait été signalée par excès
+de prudence, avant `git pull`). Note renforcée en tête de
+`atelier/rd/bibliotheque/catalogue-bibliotheque.md` dans la même passe. Aucun
+autre contenu du protocole modifié.
 
 ## [2026-08-28] maintenance | Migration de l'historique hors du protocole racine
 

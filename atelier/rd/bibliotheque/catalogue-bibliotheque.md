@@ -3,7 +3,7 @@ title: "Catalogue de la bibliothèque physique de travail"
 type: ressource
 tags: [bibliotheque, lectures-suggerees, ressource, catalogue]
 created: 2026-06-28
-updated: 2026-08-27
+updated: 2026-08-29
 sources: []
 links: []
 ---
@@ -223,6 +223,18 @@ le tag invite seulement à un recroisement futur, sans urgence.*
 ---
 
 ## Index et glossaires transcrits (ouvert 2026-08-22)
+
+> **Note de méthode, définitive (précision Sidy, 2026-08-29)** : ces fiches
+> (couverture, sommaire, préface/introduction, index, glossaire, bibliographie,
+> table des illustrations, notices) sont **strictement documentaires et
+> d'orientation**. Sidy ne peut pas entreprendre de numériser l'intégralité de
+> sa bibliothèque physique ; photographier la table des matières, l'index et le
+> glossaire d'un ouvrage permet de « deviner » où chercher dedans le jour où un
+> chantier en a besoin — **c'est précisément l'objet de ce pôle de la
+> bibliothèque R&D**. Tout agent (Claude Code ou autre) doit **consulter ce
+> dossier en priorité impérative**, avant de signaler une œuvre comme absente
+> du corpus ou avant toute recherche de source secondaire (cf. `CLAUDE.md`
+> racine §VII, Discipline des sources, point 1).
 
 Instrument de repérage : les index et glossaires photographiés des ouvrages
 ci-dessus sont transcrits en fiches `type: index-livre` dans ce même dossier
