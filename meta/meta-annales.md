@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-28
+updated: 2026-08-29
 
 ---
 
@@ -13,6 +13,17 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-29] personnel | mise à jour | Rêve géants/Paris — liens vers les discernements Axe du Monde et Octogone/Barzakh
+
+`meta/personnel/2026-06-20_reve-geants-paris.md` complétée : l'octogone
+(mosaïque/vitraux) et le *quṭb* du rêve, notés en 2026-06-20 comme
+insuffisamment développés pour une page dédiée, ont depuis reçu leur
+instruction doctrinale complète (`doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale.md`,
+`doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh.md`),
+sans lien conscient avec le rêve au moment de la lecture qui les a produites.
+Liens ajoutés en sens autorisé (`meta/` → `doctrinal/`), aucune modification
+côté `doctrinal/`.
 
 ## [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (doublon périmé)
 
