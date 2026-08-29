@@ -110,6 +110,72 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Fiche** : `atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite.md`
 - **Commit** : 5bf8bf2
 
+## [2026-08-27] rd/bibliotheque | Extension — couverture Shayegan, levée ISBN/collection
+
+- **Contexte** : suite aux deux entrées du jour (commits fe4a45b, f6a3eb8),
+  l'utilisateur a transmis les 2 clichés manquants — couverture recto et
+  quatrième de couverture — non reçus aux lots précédents.
+- **Action** : transcription intégrée à `sommaire-hindouisme-soufisme.md`
+  (renommée « Couverture et table analytique des matières », à l'image du
+  gabarit `sommaire-porte-du-ciel.md`) : bandeau de collection « La Pensée et
+  le Sacré », ISBN 2-226-08900-4, texte de quatrième de couverture (biographie
+  de Dârâ Shokûh et de Shayegan, crédit photo Michaud/Rapho). La quatrième de
+  couverture reconfirme indépendamment le rapprochement Majmaʿ al-Bahrayn /
+  Dârâ Shokûh déjà établi par la table analytique.
+- **Catalogue** : entrée Shayegan de `catalogue-bibliotheque.md` mise à jour
+  (collection, ISBN) ; `#a-revoir` resserré au seul rang/année d'édition,
+  toujours non lisible sur les clichés — aucun traducteur distinct de Shayegan
+  n'est crédité.
+- **Fiches** : `atelier/rd/bibliotheque/sommaire-hindouisme-soufisme.md`,
+  `atelier/rd/bibliotheque/catalogue-bibliotheque.md`.
+- **Vérification mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  1 erreur, 16 avertissements — état identique au relevé précédent (même
+  session), rien de nouveau imputable à cette entrée.
+- **Commit** : 881a80c
+
+## [2026-08-27] rd/bibliotheque | Extension — transcription table analytique et abréviations, Shayegan
+
+- **Contexte** : suite à l'entrée catalogue du même jour (commit cd27db5,
+  ci-dessous), l'utilisateur a transmis 5 photographies du corps de l'ouvrage
+  (table analytique des matières en deux fragments — table d'ensemble et détail
+  analytique p.278-281 des « Commentaires sur le Majmaʿal-Bahrayn » — et liste
+  des abréviations p.9-10), non reçues au premier archivage.
+- **Action** : transcription en deux fiches `type: ressource` suivant le format
+  des autres ouvrages du fonds — `sommaire-hindouisme-soufisme.md`,
+  `abreviations-hindouisme-soufisme.md`. La table analytique nomme explicitement
+  « Le Majmaʿal-Bahrayn de Dârâ Shokûh » : le rapprochement resté `#a-revoir`
+  au premier archivage est désormais **confirmé sur texte primaire** — entrée
+  catalogue mise à jour en conséquence, tag `#a-revoir` maintenu seulement pour
+  traducteur/année/collection (non visibles sur les clichés). Deux lignes
+  ajoutées à la table « Index et glossaires transcrits ».
+- **Signalement de périmètre** : lot fragmentaire — corps de texte p.7-268,
+  couverture, page de titre légale et bibliographie (p.269 annoncée) non
+  photographiés ; 2 numéros de page marqués `to-verify` (netteté du cliché).
+- **Fiches** : `atelier/rd/bibliotheque/sommaire-hindouisme-soufisme.md`,
+  `atelier/rd/bibliotheque/abreviations-hindouisme-soufisme.md`,
+  `atelier/rd/bibliotheque/catalogue-bibliotheque.md`.
+- **Vérification mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  1 erreur, 16 avertissements — état identique au relevé précédent (même
+  session), rien de nouveau imputable à cette entrée.
+- **Commit** : fe4a45b
+
+## [2026-08-27] rd/bibliotheque | Archivage — Shayegan, Hindouisme et Soufisme
+
+- **Contexte** : nouvel ouvrage physique présenté pour archivage — seule la page
+  de titre a été transcrite (Daryush Shayegan, *Hindouisme et Soufisme : une
+  lecture du «Confluent des Deux Océans»*, Albin Michel). Aucune photographie de
+  sommaire, index ou glossaire fournie.
+- **Action** : entrée ajoutée au `catalogue-bibliotheque.md`, section I
+  (« Études hindoues et comparatisme »), aux côtés de Tilak — sous-titre
+  rapproché du *Majmaʿ al-Bahrayn* de Dârâ Shukûh, rapprochement signalé
+  `#a-revoir` (non vérifié sur texte primaire, métadonnées incomplètes :
+  traducteur/année/collection non relevés).
+- **Fiche** : `atelier/rd/bibliotheque/catalogue-bibliotheque.md`.
+- **Vérification mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  1 erreur, 16 avertissements — aucun nouveau, rien n'implique cette entrée
+  (erreur `[A3] meta/meta-annales.md` préexistante, hors périmètre `atelier/`).
+- **Commit** : cd27db5
+
 ## [2026-08-27] rd/infrastructure | Extension — daemonisation systemd de Hermes WebUI
 
 - **Contexte** : panne indépendante constatée le même jour sur Hermes WebUI
