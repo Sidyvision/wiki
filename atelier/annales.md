@@ -10,6 +10,30 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/outillage | signalement | Mise en regard tenon/mortaise/axe du monde (corpus du jour) avec l'architecture de l'Instrument
+
+- **Demande de Sidy** : mettre en regard le corpus lu aujourd'hui (Eckstein,
+  Le Symbolisme du Dôme, chapitres Guénon associés) avec le design de
+  l'Instrument (R&D).
+- **Fiche créée** : `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument.md`.
+- **Contenu** : (1) rappel que le vocabulaire hozo/kumiko de l'Instrument
+  (ancrages `equivalence`/`complementarite`, §1.3-§4 de
+  `instrument-tradition-primordiale-architecture-v0.3.md`) est déjà la lecture
+  convenue de ces deux champs ; (2) résonance de vocabulaire entre le
+  tenon (Eckstein, pierre angulaire) et la mortaise (Symbolisme du Dôme, œil
+  du dôme), que Guénon identifie lui-même comme un seul et même point ; (3)
+  l'Axe du Principe de l'Instrument (§3.1) signalé comme candidat de même
+  nature que les Aqtâb pour un futur nœud `universel` (Guénon réunit
+  explicitement *skambha*/*qutb*/*stauros* dans un même énoncé) — piste
+  ouverte, non instruite ; (4) résonance structurelle lentille *barzakh* ↔
+  œil du dôme (passage-seuil) et nœud traversant Al-Insān al-Kāmil ↔
+  pilier/essieu cosmique.
+- **Portée** : signalement de résonance structurelle uniquement — aucun nœud
+  ni ancrage ajouté à `instrument-donnees.yaml`, aucune fiche
+  `discernement/` ouverte, verdict de
+  `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md`
+  inchangé.
+
 ## [2026-08-29] rd/bibliotheque | archivage | Le Symbolisme du Dôme (Coomaraswamy) + ch. XXXIX-XL Guénon, second essai du corps de La Porte du Ciel
 
 - **Dépôt** : `raw/Le symbolisme du dôme -La Porte du Ciel/` (29 photos,
