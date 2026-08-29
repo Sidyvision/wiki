@@ -10,6 +10,37 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/bibliotheque | transcription | Hindouisme et Soufisme (Shayegan) — Majmaʿ al-Bahrayn (p.18-50) et chapitre IV « La Lumière » (p.155-167)
+
+- **Action** : deux fiches créées dans `atelier/rd/bibliotheque/` —
+  `majma-al-bahrayn-hindouisme-soufisme.md` (texte traduit du traité, 13 clichés
+  IMG_0318-0330) et `lumiere-hindouisme-soufisme.md` (chapitre IV du commentaire,
+  8 clichés). Registre de `catalogue-bibliotheque.md` complété de deux lignes.
+- **Origine** : le Majmaʿ a été transcrit par reconnaissance optique
+  (qwen3.7-plus, endpoint token-plan) après épuisement du fournisseur vision
+  précédent. La Lumière provient de `raw/La Lumière - Daryush Shayegan/IV.md`,
+  texte déjà transcrit et déposé par Sidy — aucune reconnaissance optique
+  relancée dessus, les 8 clichés couvrant ces mêmes pages.
+- **Validation** : `verifier-invariants.py` → les deux fiches passent (sceau
+  bibliothèque complet, liens `[[...]]` résolus vers `sommaire-` et
+  `abreviations-hindouisme-soufisme`).
+- **Point de vigilance** : les deux transcriptions sont **brutes et non relues
+  par l'humain**, et le portent explicitement dans leur en-tête. Défauts
+  constatés côté Majmaʿ : en-têtes courants fautifs (« HINDOUISE »,
+  « HINDOUISEME ») sur trois pages, italiques inégales (deux moteurs successifs),
+  diacritiques sanskrits/persans et numéros de sourates non vérifiés. Côté
+  Lumière : « Dara Shokah », « bénuriciant », césures non recollées, numérotation
+  romaine dégradée (« 1l1) », « [v) »). **Le cliché fait foi** ; relecture humaine
+  requise avant tout versement dans un circuit doctrinal.
+- **Réserve** : `raw/` reste immuable — aucun fichier ni cliché supprimé ou
+  déplacé ; les fiches sont des copies de travail. Le sas `_inbox/` a été vidé de
+  l'assemblage provisoire du Majmaʿ, désormais porté par la fiche bibliothèque.
+- **Signalements mécaniques préexistants** (non traités, hors périmètre de cette
+  opération) : `verifier-invariants.py` remonte 3 erreurs antérieures —
+  `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md` (clés
+  `created` et `updated` manquantes) et `raw/La Lumière - Daryush Shayegan/IV.md`
+  (absence de frontmatter, attendu puisque `raw/` est immuable).
+
 ## [2026-08-29] rd/instrument | archivage | Référence visuelle Grande Mosquée de Paris + schéma carré/octogone/dôme/axe
 
 - **Dépôt** : `raw/IMG_9964.MOV` (16.5 s, Sidy, Grande Mosquée de Paris) —
