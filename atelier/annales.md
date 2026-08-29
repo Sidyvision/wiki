@@ -10,6 +10,39 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/bibliotheque | relecture + nouvelle transcription | Hindouisme et Soufisme (Shayegan) — correction du chapitre IV « La Lumière » et création du chapitre III « Les Quatre Mondes »
+
+- **Action** : `lumiere-hindouisme-soufisme.md` relue intégralement sur ses 8
+  clichés (p.154-167) et corrigée (nom d'auteur uniformisé « Dârâ Shokûh »,
+  « bénéficiant » pour « bénuriciant », césures recollées, numérotation des
+  sous-listes restituée en chiffres romains, appareil de notes p.167
+  recomposé dans l'ordre 1-23). Nouvelle fiche
+  `quatre-mondes-hindouisme-soufisme.md` créée (chapitre III du commentaire,
+  p.121-151, 16 clichés) à partir de la transcription OCR brute déposée en
+  `_inbox/Les Quatre Mondes - Daryush Shayegan/`, également relue et corrigée
+  sur clichés (appareil de notes p.151 recomposé 1-71). Réserve signalée sur
+  la seule page de titre non numérotée du chapitre III (cliché en rotation,
+  lecture la plus probable, non une certitude caractère par caractère).
+  Registre de `catalogue-bibliotheque.md` mis à jour (une ligne corrigée, une
+  ligne ajoutée).
+- **Origine** : photos et transcription du chapitre III déposées par Sidy sur
+  le serveur, poussées vers `_inbox/` sur demande explicite (décision
+  assumée par Sidy : versionnage des clichés jugé non sensible, malgré le
+  régime `raw/` qui les exclut habituellement du dépôt git). Correction
+  faite en confrontant chaque paragraphe au cliché correspondant (§VII du
+  protocole racine).
+- **Signalement de portée (R&D Instrument)** : le chapitre III, section III
+  (p.142-150), établit une correspondance explicite entre les quatre/cinq
+  mondes hiérarchisés du Soufisme (registre `tasawwuf`, Ḥaḍarāt) et les
+  quatre états d'Âtmâ (registre `vedanta`) — les deux registres déjà
+  déclarés séparément dans `atelier/rd/instrument/instrument-donnees.yaml`,
+  sans aucun ancrage entre eux. Signalement consigné dans la fiche
+  elle-même ; aucun ancrage déclaré, aucune fiche `discernement` ouverte
+  (Cmd 3, Cmd 12 — verdict réservé à Sidy).
+- **Non fait** : les 24 photos elles-mêmes restent dans `_inbox/`, non
+  déplacées (Cmd 10 — pas de suppression/déplacement sans confirmation
+  explicite de Sidy).
+
 ## [2026-08-29] réparation | Frontmatter du compte-rendu GitHub automation (clés `created`/`updated`)
 
 - **Action** : dans `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md`,
