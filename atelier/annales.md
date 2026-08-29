@@ -10,6 +10,25 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/instrument | archivage | Référence visuelle Grande Mosquée de Paris + schéma carré/octogone/dôme/axe
+
+- **Dépôt** : `raw/IMG_9964.MOV` (16.5 s, Sidy, Grande Mosquée de Paris) —
+  plan vers le zénith montrant en un seul cadrage la structure carré
+  (encorbellements/pendentifs d'angle) → octogone (tambour à huit baies à
+  vitrail) → dôme (voûte à côtes rayonnantes) → axe (chaîne du lustre
+  suspendue au médaillon central).
+- **Fiche créée** : `atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone.md`,
+  même régime que `references-visuelles-astronomiques-phase-5.md` — pièce
+  d'illustration, pas une source doctrinale supplémentaire.
+- **Assets** : deux images fixes extraites
+  (`img-9964-grande-mosquee-paris-dome-octogone-01/02.jpg`) et un schéma de
+  principe `schema-carre-octogone-dome-axe.svg` (coupe/élévation, contour
+  seul, formulation corps/âme/esprit validée le jour même).
+- Aucune modification côté `doctrinal/` — les fiches
+  `2026-08-29_octogone-monde-intermediaire-barzakh` et
+  `2026-08-29_axe-du-monde-doctrine-transversale` sont citées, non
+  rouvertes.
+
 ## [2026-08-29] rd/instrument | implémentation | Lentilles du Barzakh supérieur rendues en contour octogonal
 
 - `atelier/rd/instrument/instrument-prototype.html` — les deux tores

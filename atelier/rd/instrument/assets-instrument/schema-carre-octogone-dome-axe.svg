@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" font-family="ui-monospace, 'SF Mono', Menlo, monospace">
+  <rect x="0" y="0" width="900" height="760" fill="#ffffff"/>
+
+  <!-- ================= Coupe / élévation ================= -->
+  <!-- Base carrée (corps) -->
+  <g stroke="#111111" stroke-width="2" fill="none">
+    <line x1="140" y1="660" x2="140" y2="480"/>
+    <line x1="500" y1="660" x2="500" y2="480"/>
+    <line x1="140" y1="660" x2="500" y2="660"/>
+  </g>
+
+  <!-- Squinches / pendentifs — transition carré -> octogone -->
+  <g stroke="#111111" stroke-width="2" fill="none">
+    <path d="M140,480 Q 170,430 220,420"/>
+    <path d="M500,480 Q 470,430 420,420"/>
+  </g>
+
+  <!-- Tambour octogonal (âme) — 8 pans, fenêtres à vitrail -->
+  <g stroke="#111111" stroke-width="2" fill="none">
+    <line x1="220" y1="420" x2="220" y2="300"/>
+    <line x1="420" y1="420" x2="420" y2="300"/>
+    <line x1="220" y1="300" x2="255" y2="270"/>
+    <line x1="420" y1="300" x2="385" y2="270"/>
+    <line x1="255" y1="270" x2="385" y2="270"/>
+  </g>
+  <!-- 8 baies (contour seul, jamais de figure pleine — cf. prototype) -->
+  <g stroke="#111111" stroke-width="1.4" fill="none">
+    <rect x="235" y="325" width="24" height="60" rx="10"/>
+    <rect x="381" y="325" width="24" height="60" rx="10"/>
+    <rect x="269" y="300" width="20" height="55" rx="9" transform="rotate(-8 279 327)"/>
+    <rect x="351" y="300" width="20" height="55" rx="9" transform="rotate(8 361 327)"/>
+    <rect x="303" y="292" width="18" height="52" rx="8"/>
+    <rect x="337" y="292" width="18" height="52" rx="8"/>
+  </g>
+
+  <!-- Dôme (esprit) — voûte à côtes rayonnantes -->
+  <g stroke="#111111" stroke-width="2" fill="none">
+    <path d="M220,270 A 100,150 0 0 1 420,270"/>
+  </g>
+  <g stroke="#555555" stroke-width="1">
+    <line x1="320" y1="140" x2="235" y2="266"/>
+    <line x1="320" y1="140" x2="272" y2="252"/>
+    <line x1="320" y1="140" x2="300" y2="245"/>
+    <line x1="320" y1="140" x2="340" y2="245"/>
+    <line x1="320" y1="140" x2="368" y2="252"/>
+    <line x1="320" y1="140" x2="405" y2="266"/>
+  </g>
+  <!-- Médaillon central (l'œil) -->
+  <circle cx="320" cy="140" r="10" stroke="#111111" stroke-width="2" fill="none"/>
+
+  <!-- Axe du Principe — traverse dôme, octogone, base -->
+  <line x1="320" y1="130" x2="320" y2="660" stroke="#111111" stroke-width="1" stroke-dasharray="2 6"/>
+
+  <!-- ================= Lignes de rappel ================= -->
+  <g stroke="#111111" stroke-width="1">
+    <line x1="500" y1="570" x2="530" y2="570"/>
+    <line x1="420" y1="360" x2="530" y2="360" stroke-dasharray="1 4"/>
+    <line x1="420" y1="170" x2="530" y2="176"/>
+    <line x1="330" y1="118" x2="360" y2="130"/>
+  </g>
+
+  <!-- ================= Étiquettes ================= -->
+  <g font-size="17" fill="#111111">
+    <text x="540" y="577">carré — corps</text>
+    <text x="540" y="150">dôme — esprit</text>
+    <text x="540" y="367">octogone — âme</text>
+  </g>
+  <g font-size="13" fill="#555555">
+    <text x="540" y="598">état grossier/solide</text>
+    <text x="540" y="172">états spirituels</text>
+    <text x="540" y="389">état intermédiaire/psychique</text>
+    <text x="540" y="406">barzakh · huit baies à vitrail</text>
+    <text x="365" y="112">axe du Principe (Centre du Monde)</text>
+  </g>
+
+  <!-- ================= Titre / provenance ================= -->
+  <g font-size="14" fill="#111111">
+    <text x="20" y="30" font-weight="bold">Carré / Octogone / Dôme / Axe — schéma de principe</text>
+  </g>
+  <g font-size="13" fill="#555555">
+    <text x="20" y="52">D'après la coupole de la Grande Mosquée de Paris (raw/IMG_9964.MOV, Sidy, 2026-08-29)</text>
+    <text x="20" y="70">et Guénon, « L'Octogone » (Symboles de la Science sacrée, ch. XLII)</text>
+  </g>
+  <g font-size="12" fill="#777777">
+    <text x="20" y="726">doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh (validée)</text>
+    <text x="20" y="742">atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone.md</text>
+  </g>
+</svg>
