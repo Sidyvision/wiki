@@ -568,13 +568,25 @@ DEGRES.forEach(function(d){
   });
 })();
 
-// -- Barzakh supérieur : disques en rotation (19-20) --
+// -- Barzakh supérieur : plans octogonaux en rotation (19-20) --
+//    Contour seul (LineLoop), jamais une figure pleine — le barzakh est un
+//    seuil/passage, pas une substance (cf. doctrinal/discernement/
+//    2026-08-29_octogone-monde-intermediaire-barzakh, validée : l'octogone
+//    comme forme géométrique du « monde intermédiaire » entre le carré et
+//    le cercle, Guénon, Symboles de la Science sacrée ch. XLII). Remplace
+//    l'ancien tore (cercle) — piste de rendu signalée par Sidy le même jour.
 var disques = [];
 [19, 20].forEach(function(n){
-  var t = new THREE.Mesh(new THREE.TorusGeometry(.85, .012, 8, 72),
-    new THREE.MeshBasicMaterial({color:0xc9ced8, transparent:true, opacity:.75}));
-  t.rotation.x = Math.PI / 2; t.position.y = yDeg[n];
-  monde.add(t); disques.push(t);
+  var R = .85, pts = [];
+  for (var i = 0; i < 8; i++){
+    var a = (i / 8) * Math.PI * 2;
+    pts.push(new THREE.Vector3(Math.cos(a) * R, Math.sin(a) * R, 0));
+  }
+  var geo = new THREE.BufferGeometry().setFromPoints(pts);
+  var mat = new THREE.LineBasicMaterial({color:0xc9ced8, transparent:true, opacity:.75});
+  var octo = new THREE.LineLoop(geo, mat);
+  octo.rotation.x = Math.PI / 2; octo.position.y = yDeg[n];
+  monde.add(octo); disques.push(octo);
 });
 
 // -- Anneau zodiacal : Falak al-Burūj (12 signes, degré 19) + Falak al-Manāzil

@@ -170,6 +170,11 @@ compartimentée — cohérent avec la fonction de « porte du Soleil »/passage 
 lumière que le corpus lu attribue à l'œil du dôme, cf.
 [[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]] §2.3, et
 `doctrinal/sources/guenon-octogone.md`, exemple du baptistère et du *Ming-tang*).
-Piste de rendu à instruire en phase technique — aucune décision de
-géométrie 3D prise ici, simple consignation de l'intuition et de son
-appui textuel désormais disponible.
+**Implémentée le 2026-08-29** dans `atelier/rd/instrument/instrument-prototype.html`
+(section « Barzakh supérieur : plans octogonaux en rotation ») : les deux
+anciens tores (cercles) marquant les degrés 19-20 sont remplacés par un
+contour octogonal (`THREE.LineLoop`, 8 sommets), **jamais une figure
+pleine** — sur demande explicite de Sidy, cohérente avec le principe même
+de l'octogone comme seuil/passage, non substance. L'association vitrail
+(lumière filtrée à travers une structure compartimentée) reste une piste
+non implémentée à ce stade — seul le contour a été posé.

@@ -10,6 +10,19 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/instrument | implémentation | Lentilles du Barzakh supérieur rendues en contour octogonal
+
+- `atelier/rd/instrument/instrument-prototype.html` — les deux tores
+  (cercles) marquant les degrés 19-20 (« Barzakh supérieur ») sont
+  remplacés par un contour octogonal (`THREE.LineLoop`, 8 sommets, contour
+  seul, jamais une figure pleine), sur demande explicite de Sidy.
+- Cohérent avec `doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh.md`
+  (validée le jour même) : l'octogone comme forme du seuil/passage, non
+  substance — d'où le choix du contour plutôt que d'un plan plein.
+- `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument.md`
+  mise à jour : la piste de design signalée plus tôt dans la journée est
+  marquée implémentée. L'association vitrail reste non implémentée.
+
 ## [2026-08-29] rd/outillage | mise à jour | Deux fiches discernement ouvertes + piste de design lentille barzakh/octogone
 
 - Suite au signalement du même jour, deux fiches
