@@ -1,13 +1,24 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-28
+updated: 2026-08-29
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-29] discernement | sashimono-metier-traditionnel — enrichissement (tenon/pierre angulaire, Coomaraswamy « Eckstein »)
+
+Ajout d'un enrichissement daté à
+[[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]] : le passage
+« Eckstein » (*La Porte du Ciel*, Coomaraswamy, p.176) emploie le mot « tenon »
+pour le pyramidion égyptien comme image de la pierre-clé qui soutient sans
+fixateur étranger. Source archivée côté `atelier/rd/bibliotheque/` (mention en
+prose, sans wikilink — étanchéité doctrinal/atelier). Rapprochement qualifié
+d'homologie de forme, aucune filiation avec le sashimono japonais établie ;
+verdict toujours réservé à Sidy. `status` de la fiche inchangé (`speculatif`).
 
 ## [2026-08-28] correctif | rene-guenon — C1 doctrinal/discernement remplacé par liens vivants vers les fiches du chantier
 

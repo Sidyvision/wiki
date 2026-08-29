@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/bibliotheque | archivage | Eckstein — La Porte du Ciel (Coomaraswamy), premier essai photographié du corps p.37-281
+
+- **Dépôt** : `raw/Eckstein - La Porte du Ciel/` (6 photos, IMG_0254, IMG_0258-0262),
+  essai complet p.169-179 (« Eckstein », pierre angulaire/tête de l'angle,
+  parallèles bouddhiste/védique/égyptien/grec/germanique).
+- **Fiche créée** : `atelier/rd/bibliotheque/eckstein-porte-du-ciel.md` (type
+  `ressource`), reprenant les citations verbatim porteuses (dont l'emploi du mot
+  « tenon » p.176 pour le pyramidion égyptien) avec pages exactes.
+- **Signalement croisé** (sens unique `rd/` → `doctrinal/`, non l'inverse) : ajout
+  d'un enrichissement daté dans
+  `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md` — le
+  passage documente le *tenon* comme image traditionnelle universelle de la
+  pierre-clé, sans mentionner le sashimono japonais ; rapprochement qualifié
+  d'homologie de forme, verdict toujours réservé à Sidy.
+- `atelier/rd/bibliotheque/catalogue-bibliotheque.md` — nouvelle ligne dans la
+  table « Index et glossaires transcrits ».
+
 ## [2026-08-29] meta | Clarification définitive — objet documentaire de la bibliothèque R&D
 
 - **Demande de Sidy** : noter de façon nette, claire et définitive que les

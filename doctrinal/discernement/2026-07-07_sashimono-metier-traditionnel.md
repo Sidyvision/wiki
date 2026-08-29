@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [metier, art-sacre, initiation, sashimono, methode, architecture-chinoise]
 created: 2026-07-07
-updated: 2026-08-16
+updated: 2026-08-29
 sources: ["[[apercus-sur-l-initiation]]", "[[principes-et-methodes-de-l-art-sacre]]"]
 sources_count: 2
 cross_links: ["[[meta/philosophie-sashimono]]"]
@@ -120,3 +120,47 @@ lever par vérification primaire humaine avant toute résolution.
 > Coomaraswamy déjà cité pour le fondement transversal de la doctrine de l'art ;
 > examiner spécifiquement le *dougong* comme point de comparaison technique le plus
 > proche du sashimono japonais avant toute affirmation de filiation.
+
+## Enrichissement du 2026-08-29 — le tenon comme image de la pierre angulaire (Coomaraswamy, « Eckstein »)
+
+> 🔍 **Discernement — Spéculation Personnelle**
+> **Statut** : en cours
+> **Contexte** : dépôt du 2026-08-29 dans `raw/Eckstein - La Porte du Ciel/` (6
+> photos, essai complet p.169-179 de *La Porte du Ciel*), transcrit côté
+> bibliothèque physique R&D (consultation humaine, sans wikilink — étanchéité
+> doctrinal/atelier, §VI du protocole racine).
+> **Élément nouveau** : Coomaraswamy y écrit, à propos du pyramidion égyptien
+> couronnant obélisque ou pyramide (p.176) : « ce pilier peut cependant être dit
+> être représenté par **le tenon** qui fait saillie à la surface inférieure du
+> pyramidion et le soutient fermement quand il est mis en place » — le *tenon*
+> (vocabulaire d'assemblage bois, même terme que l'entrée « Tenon » du glossaire
+> architectural de l'ouvrage) y devient l'image du principe qui soutient sans
+> être lui-même fixé de l'extérieur — exactement le principe que la présente fiche interroge chez
+> Coomaraswamy en général (« Éléments favorables » ci-dessus, *Principes et
+> méthodes de l'art sacré*).
+> **Généalogie des idées** :
+>   - *Filiation orthodoxe possible* : renforce directement l'« Élément favorable »
+>     déjà noté — Coomaraswamy, autorité déjà retenue pour la doctrine de l'art
+>     sacré, emploie ici lui-même le vocabulaire du tenon pour un principe
+>     architectural universel (égyptien, védique, chrétien). Rattachement à
+>     `meta/philosophie-sashimono.md` inchangé (analogie opératoire).
+>   - *Parenté hétérodoxe possible* : aucune identifiée.
+> **Examen formel** (cohérence logique/terminologique, jamais le principe) :
+> l'essai ne mentionne **à aucun moment** le sashimono japonais ni la menuiserie
+> d'assemblage nippone — le passage porte sur le *tenon* comme image
+> universelle (égypto-védico-chrétienne) de la pierre-clé, pas sur un artisanat
+> japonais particulier. Le rapprochement avec le sashimono reste donc une
+> **homologie de forme** (vocabulaire commun, tenon = pièce qui porte sans
+> fixateur étranger), non une filiation textuelle établie entre l'essai et le
+> sashimono lui-même. Distinct des deux affirmations `to-source` de
+> l'enrichissement 2026-08-16 (architecture chinoise), auxquelles ce nouvel
+> élément n'apporte rien.
+> **Conclusion** : en attente, verdict réservé à Sidy — ce passage épaissit la
+> matière disponible sur le fondement doctrinal de l'art sacré selon
+> Coomaraswamy (question 2 de la fiche), sans répondre à la question 1
+> (rattachement traditionnel précis du sashimono japonais), toujours `to-source`.
+> **Lectures suggérées** : le reste du corpus *La Porte du Ciel* non encore
+> photographié, en particulier « Symbolisme du Dôme » (référencé en note par
+> « Eckstein » et déjà croisé avec Guénon, « Le symbolisme du dôme »/« Le dôme et
+> la roue », *Symboles fondamentaux de la Science sacrée* ch. XXXIX-XL, déjà
+> possédé) — piste bibliographique distincte, non instruite ici.
