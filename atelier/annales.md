@@ -10,6 +10,66 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/instrument | mise en regard + correctif outillage | Majmaʿ al-Bahrayn ↔ registres, et garde inter-registres du générateur (v0.2.5)
+
+- **Action (1/2 — relevé)** : fiche
+  `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres.md`
+  créée. Met en regard les trois transcriptions Shayegan/Dârâ désormais au
+  dépôt avec les registres `tasawwuf` et `vedanta` de l'Instrument. Fait
+  central : la correspondance quatre mondes ↔ quatre états d'Âtmâ est donnée
+  **par le texte primaire lui-même** (Dârâ Shokûh, ch. VII : jāgrat↔nāsūt,
+  svapna↔malakūt, susupta↔jabarūt, turīya↔lāhūt), et **contestée sur un point
+  précis par son commentateur** (Shayegan, ch. III §III.4 : le joint
+  susupta↔jabarūt « entraîne un déséquilibre de niveau »). Deux obstacles
+  structurels relevés côté Instrument : comptage 5 bandes contre 4 rangs, et
+  position non concordante du cinquième terme (Barzakh supérieur au-dessus du
+  Malakūt planétaire dans l'Instrument, ʿālam-e mithāl au-dessous du malakūt
+  chez Lâhîjî). Double contrôle exécuté : qualification sashimono des quatre
+  joints (tous *kari-kumi*, portance *jikugumi*, nature *homologie* et non
+  *restitution*) et confrontation Gizeh (septénaire : signalé, troisième
+  candidat d'ancrage ; vigilance polaire/solaire : *walāyat* lunaire/solaire de
+  Najm Râzî confrontée aux Pôles 24/27 — **aucun ancrage**, tension consignée ;
+  chiffre 28 et matière polaire stricte : confrontés, rien).
+  **Aucun ancrage déclaré, aucune fiche doctrinale créée ou modifiée, aucun
+  verdict rendu.**
+- **Action (2/2 — correctif d'outillage)** : `generer-manifeste.py` porté en
+  **v0.2.5**. Écart relevé en préparant le relevé ci-dessus : l'instruction
+  phase 3 affirmait que la règle du Cmd 3 était « appliquée par l'outil », ce
+  qui n'était vrai que du cas `rang`+`degres` — les **ancrages** entre domaines
+  de registres distincts passaient avec n'importe quelle source, y compris une
+  fiche de bibliothèque (qui ne lève pourtant aucun `to-source`). Les trois
+  candidats aujourd'hui sur la table auraient donc pu être déclarés sans
+  verdict, avec un « 0 erreur » au juge de paix. Garde ajoutée : un ancrage
+  dont les deux extrémités sont des domaines de registres **distincts** exige
+  une fiche `doctrinal/discernement/` en source. Le cas nœud→domaine (Homme
+  Universel ↔ Vaishwânara) n'est pas visé.
+- **Validation mécanique indépendante (rapport brut, §VIII point 2)** :
+  données réelles → `44 nœud(s), 11 ancrage(s), 4 registre(s), 0 erreur`,
+  sortie **identique** au générateur d'origine (diff vide hors horodatage et
+  SHA) ; ancrage inter-registres sourcé par une fiche de bibliothèque →
+  **refusé** (`manifeste NON produit`) ; même ancrage sourcé par un
+  discernement → accepté ; ancrage intra-registre sans discernement → accepté.
+  `verifier-invariants.py --racine /home/user/wiki` → `0 erreur(s), 1
+  avertissement(s)` (A6 préexistant, entrée du 2026-08-20, sans rapport).
+- **Effet de bord assumé** : `wiki-manifest.json` régénéré. Il était **périmé**
+  depuis le 2026-08-25 (champs `mode_zodiaque` / `ayanamsha_deg` absents alors
+  qu'ils étaient tranchés le même jour) — écart vérifié comme antérieur à cette
+  passe, il apparaît aussi avec le générateur d'origine.
+- **Signalé, non traité** : le compteur d'ancrages affiché en fin d'exécution
+  sous-compte les ancrages portés par un domaine de registre (affichage seul,
+  manifeste correct). Relecture sur clichés de la transcription du texte
+  primaire du Majmaʿ (13 clichés, aujourd'hui OCR brute) recommandée avant
+  toute instruction doctrinale : c'est le maillon faible de la chaîne.
+- **Plan soumis à Sidy, non exécuté** (Cmd 6) : étape A, fiche
+  `doctrinal/sources/` pour le ch. VII du traité (`status: traditionnel`,
+  distincte d'une éventuelle fiche du commentaire en `status: academique`) ;
+  étape B, ouverture d'un `discernement` Ḥaḍarāt ↔ quatre états d'Âtmâ ;
+  étape C, ancrages après verdict seulement. Trois candidats d'ancrage
+  inter-registres sont désormais sur la table (Ḥaḍarāt↔états d'Âtmâ ;
+  Sephiroth↔chakras, signalé le 2026-08-20 ; sept Pôles↔sept centres subtils,
+  signalé ce jour) — proposition de les instruire **séparément**, les sources
+  différant et aucune validation n'entraînant les autres.
+
 ## [2026-08-29] rd/bibliotheque | relecture + nouvelle transcription | Hindouisme et Soufisme (Shayegan) — correction du chapitre IV « La Lumière » et création du chapitre III « Les Quatre Mondes »
 
 - **Action** : `lumiere-hindouisme-soufisme.md` relue intégralement sur ses 8

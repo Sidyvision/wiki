@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.5",
-  "generated_at": "2026-08-25T16:13:07+00:00",
-  "source_commit": "c20ca82efc3d9fbdb32c3e2c8b5b0ab2ab1a9fc6",
+  "generated_at": "2026-08-29T19:26:42+00:00",
+  "source_commit": "3d089a317a6eb0eed7d19f1eb2163fb0aa0aace3",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -502,6 +502,8 @@
     "degre_falak_al_manazil": 20,
     "obliquite_deg": 23.44,
     "epoque_reference": null,
+    "mode_zodiaque": "tropical",
+    "ayanamsha_deg": null,
     "signes": [
       {
         "label": "Bélier",

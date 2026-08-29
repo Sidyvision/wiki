@@ -55,6 +55,20 @@ except ImportError:
 #     visé, jamais le registre entier. Les collisions d'id entre nœud et
 #     domaine restent bloquantes.
 #
+#   v0.2.5 (2026-08-29) : garde inter-registres. Un ancrage dont les DEUX
+#     extrémités sont des domaines de registres DISTINCTS exige désormais une
+#     fiche `doctrinal/discernement/` en source — refus bloquant sinon.
+#     Motif : le Cmd 3 réserve à un discernement tranché tout lien structurel
+#     entre concepts de traditions distinctes ; la règle était écrite dans le
+#     protocole et affirmée « appliquée par l'outil » (instruction phase 3
+#     §2), mais l'outil ne l'appliquait en fait qu'au cas `rang`+`degres`
+#     simultanés, jamais aux ancrages. Écart relevé le 2026-08-29 en préparant
+#     la mise en regard du Majmaʿ al-Bahrayn (trois candidats d'ancrage
+#     inter-registres alors sur la table, aucun tranché). Même forme que la
+#     garde subversion/parodie. NE VISE PAS le cas nœud → domaine (v0.2.4).
+#     Sortie inchangée sur les données réelles : aucun ancrage inter-registres
+#     n'était déclaré (44 nœuds, 11 ancrages, 0 erreur avant comme après).
+#
 #   v0.2.3 (2026-08-20) : propage le bloc `registres:` — partitions de l'unique
 #     axe vertical, une par tradition (voir instrument-donnees.yaml v0.4.0).
 #     Validation dédiée : un domaine ne peut porter à la fois `degres` et
@@ -389,9 +403,13 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     # doivent donc rejoindre `par_id` avant que la boucle des ancrages ne
     # s'exécute. Une collision d'id entre un nœud et un domaine est bloquante.
     registres_valides = valider_registres(decl_registres, fiches, erreurs, avertissements)
+    # Registre d'appartenance de chaque domaine — sert à la garde
+    # inter-registres de la boucle des ancrages (v0.2.5, voir §4).
+    registre_de_domaine = {}
     for reg in (registres_valides or []):
         if not isinstance(reg, dict):
             continue
+        rid = str(reg.get("id", "")).strip()
         for d in (reg.get("domaines") or []):
             if not isinstance(d, dict):
                 continue
@@ -403,6 +421,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
                 continue
             d.setdefault("ancrages", [])
             par_id[did] = d
+            registre_de_domaine[did] = rid
 
     # 4. Valider et rattacher les ancrages (stockage à sens unique sur la source,
     # nœud ou domaine de registre — même espace d'identifiants, v0.2.4).
@@ -434,6 +453,21 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
                 erreurs.append(
                     f"{contexte} : subversion/parodie avec cible exige une fiche "
                     f"doctrinal/discernement/ en source (correctif v0.2 §2)"
+                ); continue
+        # Garde inter-registres (v0.2.5, Cmd 3) : un ancrage dont les DEUX
+        # extrémités sont des domaines de registres DISTINCTS déclare une
+        # correspondance structurelle entre deux traditions — ce que le Cmd 3
+        # réserve à une fiche `discernement` tranchée. Même forme que la garde
+        # subversion/parodie ci-dessous. Ne vise PAS le cas nœud → domaine
+        # (ex. Homme Universel ↔ Vaishwânara, v0.2.4) : un nœud universel n'est
+        # pas un registre, et ce cas reste couvert par sa propre source.
+        reg_src = registre_de_domaine.get(src)
+        reg_cible = registre_de_domaine.get(cible) if cible is not None else None
+        if reg_src and reg_cible and reg_src != reg_cible:
+            if not (source_doc and "discernement" in str(source_doc)):
+                erreurs.append(
+                    f"{contexte} : ancrage inter-registres ({reg_src} → {reg_cible}) "
+                    f"exige une fiche doctrinal/discernement/ en source (Cmd 3)"
                 ); continue
         if direction != "none" and typ != "complementarite":
             avertissements.append(f"{contexte} : directionnalite sur un type non-complementarite")
