@@ -191,7 +191,7 @@ pas par une correspondance que le texte établirait lui-même :
 ---
 
 > 🔍 **Discernement — Spéculation Personnelle**
-> **Statut** : validée dans son principe — **table de correspondance construite, verdict de Sidy en attente**
+> **Statut** : validée dans son principe — **table de correspondance construite, maintenue en *kari-kumi* (verdict Sidy, 2026-08-30)**
 > **Hypothèse initiale** (2026-08-29) : les sept Pôles (*Aqtāb*) du *Malakūt*
 > planétaire et les sept centres subtils (*laṭāʾif*) de la physiologie spirituelle
 > se correspondent, la correspondance étant appuyée et confirmée par les
@@ -226,10 +226,10 @@ pas par une correspondance que le texte établirait lui-même :
 > de proposition structurelle (*kari-kumi*, 🔍), pas d'ancrage établi
 > (*hozo*)** : Shayegan lui-même n'écrit pas cette table, il note seulement des
 > « rapports homologables » sans identité de structure, et le texte ne localise
-> pas corporellement les *laṭāʾif*. **Le verdict sur cette table précise —
-> l'inscrire comme *hozo*, la garder en *kari-kumi*, ou l'invalider — revient à
-> Sidy**, jamais à la machine (Cmd 12) ; soumis explicitement en ce sens le
-> 2026-08-30.
+> pas corporellement les *laṭāʾif*. **Verdict rendu par Sidy le 2026-08-30** :
+> la table est **maintenue en *kari-kumi*** — proposition structurelle
+> affichée avec son statut suggéré (🔍), non inscrite comme ancrage établi
+> (*hozo*).
 > **Lectures suggérées** :
 >   1. ~~Le ch. II du commentaire de Shayegan~~ — **transcrit le 2026-08-30**,
 >      voir `atelier/rd/bibliotheque/` (consultation humaine, sans wikilink —
@@ -248,6 +248,9 @@ centres et de leurs Prophètes régents. C'est la seule pièce qui manque pour
 tailler ce joint — et elle est à portée, l'ouvrage étant en bibliothèque
 physique.~~
 
-**Geste attendu maintenant** : verdict de Sidy sur la table de correspondance
-*cakra*↔*laṭīfa* construite ci-dessus — inscrire (*hozo*), maintenir en attente
-(*kari-kumi*), ou invalider. Soumis explicitement le 2026-08-30.
+**Geste accompli** : verdict rendu par Sidy le 2026-08-30 — la table de
+correspondance *cakra*↔*laṭīfa* construite ci-dessus est **maintenue en
+*kari-kumi***. Rien n'est inscrit comme ancrage établi ; la fiche reste
+ouverte quant à (P2) du dossier jumeau
+([[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]],
+« de quel cœur ») si un futur geste voulait la reprendre.
