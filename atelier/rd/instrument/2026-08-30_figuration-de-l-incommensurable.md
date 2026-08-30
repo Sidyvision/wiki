@@ -293,13 +293,128 @@ Une mention permanente en légende, sans modification de la figure.
 > qu'on veut supprimer. **D** est à écarter comme solution, à retenir une semaine
 > comme pis-aller.
 
+## 6 bis. ⚡ Apport décisif du 2026-08-30 (soir) — *Le Symbolisme de la Croix*, ch. V, XXVI, XXVII
+
+> **Trois chapitres étaient dans `raw/`, non intégrés, et ils portent exactement
+> les questions ouvertes de ce chantier.** Versés au dépôt le 2026-08-30 :
+> [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]]
+> et [[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas]] (liens
+> signalés, sens `atelier/rd/` → `doctrinal/` autorisé). `to-source` maintenu :
+> clipping d'une édition (Trédaniel 1996) différente de l'exemplaire de Sidy
+> (Véga).
+
+### 6bis.1 L'incommensurabilité est ABSOLUE — et le chantier avait raison de s'en inquiéter
+
+Guénon, ch. XXVI : c'est « **une incommensurabilité absolue, ne dépendant
+d'aucune convention plus ou moins arbitraire, comme l'est toujours le choix de
+certaines unités relatives dans les mesures quantitatives ordinaires** ».
+
+Cela **ferme une porte** : aucun réglage d'échelle, aucun choix d'unité, aucune
+astuce de graduation ne peut la rendre. Le problème posé au §1 n'était pas un
+problème de rendu mal réglé.
+
+### 6bis.2 Mais Guénon donne la figuration — elle est DIMENSIONNELLE
+
+Et c'est la trouvaille : Guénon ne pose pas l'incommensurabilité, **il la dérive
+d'une différence de dimension**.
+
+| Terme | Figure | Rapport au terme supérieur |
+|---|---|---|
+| une modification | élément infinitésimal | — |
+| **l'intégralité d'un état** | une **surface** (plan) | « comporte encore un élément infinitésimal par rapport à l'espace à trois dimensions » |
+| **l'être total** | un **volume** (l'espace entier) | — |
+
+> « son plan horizontal doit être regardé comme **se déplaçant effectivement
+> d'une quantité infinitésimale suivant la direction de l'axe vertical** ».
+
+**Conséquence de design, et elle est forte** : un état n'a pas une *hauteur* sur
+l'axe, il a une **épaisseur infinitésimale**. Ce qui distingue l'être total d'un
+état n'est pas une distance plus grande — c'est **une dimension de plus**. La
+figure juste n'est donc pas une échelle mieux graduée : c'est un **saut de
+dimension** (plan → volume), obtenu par intégration, ligne → surface → volume,
+« le volume toujours ouvert en tous sens qui symbolise le vortex universel de la
+"Voie" ».
+
+Ceci satisfait les trois contraintes du §2 **sans invention graphique** : l'ordre
+demeure (les plans s'étagent), la mesure disparaît (un plan n'a pas de mesure
+dans un volume), et aucun plan n'est « plus proche » du volume qu'un autre.
+
+### 6bis.3 La règle de méthode qui tranche la question §7.2
+
+Le chantier demandait si le procédé de l'absence signifiante, attesté sur le
+**latéral**, est transposable au **vertical**. Guénon cite Matgioi :
+
+> « Si nous pouvons prendre l'indéfini comme image de l'Infini, nous ne pouvons
+> appliquer à l'Infini les raisonnements de l'indéfini ; **le symbolisme descend
+> et ne remonte point.** »
+
+**Ce n'est pas une réponse oui/non, c'est la règle qui gouverne la question** :
+un symbole vaut du supérieur vers l'inférieur, jamais l'inverse. À verser à la
+fiche `discernement/` prévue au §7.2 — qui reste à ouvrir, la règle indiquant
+comment l'instruire, non ce qu'elle conclura.
+
+### 6bis.4 La question §7.3 sur les guṇas — réponse sourcée, et une rectification
+
+La lecture soumise au §4 (« si toute la gradation est gradation de qualités,
+*nirguṇa* est hors d'elle ») **se confirme dans sa substance** : les guṇas sont
+inhérents à *Prakriti*, racine de la **manifestation** ; ce qui est *nirguṇa* est
+donc hors de la gradation, non à son sommet.
+
+**Mais le §4 employait un mot inexact.** Guénon écrit : « **ce ne sont pas des
+états, mais des conditions générales auxquelles les êtres sont soumis** ». Les
+guṇas ne *sont* pas la gradation — les états sont répartis hiérarchiquement
+*selon leurs proportions* de guṇas. Nuance à tenir avant toute écriture.
+
+**Et surtout — la répartition est RELATIVE** : « *sattwa* […] se réfère toujours
+aux états supérieurs, **relativement à l'état particulier pris pour base** ». Le
+ch. XXVII dit la même chose autrement : « tous sont parfaitement équivalents
+quand ils sont envisagés de l'Infini », et n'importe quel état « peut devenir cet
+état central » selon où se détermine le **plan de réflexion du Rayon Céleste**.
+
+> ⚡ **Conséquence de design majeure, à instruire** : **le centre de l'Instrument
+> n'est pas un lieu fixe de l'axe.** Il est fonction de l'état pris pour base.
+> Une figuration juste devrait donc pouvoir **se recentrer** — ce qui rejoint,
+> par un tout autre chemin, la « lecture par positions de l'observateur » restée
+> en attente de verdict dans
+> [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]]
+> (P2). **Signalement, pas décision** (Cmd 12).
+
+### 6bis.5 Ce que le ch. XXVII interdit au rendu
+
+- « l'individualité humaine […] **ne saurait avoir une place privilégiée et "hors
+  série"** […] au même titre exactement, sans rien de plus ni de moins. »
+- « **il ne nous est pas possible, en tant qu'individus humains, de sortir de ces
+  conditions pour les comparer** » — le rang de l'état humain nous est
+  **inconnaissable**.
+- La discontinuité est **unique** (le *Fiat Lux* du Rayon Céleste sur son plan de
+  réflexion), et non un écart répété entre degrés ; du point de vue du parcours
+  des cycles, il n'y a « nulle part dans l'Univers la moindre solution de
+  continuité ».
+
+> **À vérifier sur le rendu actuel** : l'Instrument distingue-t-il visuellement
+> l'état humain des autres ? Si oui, c'est un privilège que le texte refuse.
+> Contrôle à faire, non fait ce jour.
+
+### 6bis.6 La géométrie des guṇas, donnée par Guénon et directement instrumentable
+
+*rajas* = le **plan horizontal** entier (les deux lignes de la croix à trois
+dimensions) · *tamas* = la **verticale sous le plan** · *sattva* = la **verticale
+au-dessus**. Le plan divise « en deux hémisphères, supérieur et inférieur, la
+sphère indéfinie ». La conversion *tamas* → *rajas* décrit l'hémisphère inférieur
+d'un pôle à l'équateur, *rajas* → *sattva* l'hémisphère supérieur ; et le point
+d'où la conversion est ordonnée est **le centre même de la sphère**
+(l'*antar-yāmī*, « ordonnateur interne »).
+
+C'est une correspondance **explicite chez Guénon**, non une transposition : elle
+peut être versée en donnée sans qualification sashimono nouvelle.
+
 ## 7. Ce qu'il faut instruire, dans l'ordre, avant d'écrire une ligne de rendu
 
 | # | À instruire | Où | Bloque |
 |---|---|---|---|
 | 1 | ~~**Collation pp. 91-92 Gloton** — laquelle des deux numérotations~~ | Sidy, exemplaire physique | ✅ **FAIT le 2026-08-30** — voir §5. Les deux numérotations n'en faisaient qu'une ; ʿArsh = 17, Kursī = 18 ; **le rendu actuel était déjà juste** |
 | 2 | **Le procédé de l'absence signifiante est-il transposable du latéral au vertical ?** | fiche `discernement/` à ouvrir | Option A |
-| 3 | **La gradation est-elle une gradation de qualités, et *nirguṇa* est-il donc hors-échelle ?** | fiche `discernement/` à ouvrir | le fondement de tout le reste (§4) |
+| 3 | ~~La gradation est-elle une gradation de qualités, et *nirguṇa* est-il donc hors-échelle ?~~ | fiche `discernement/` à ouvrir | ✅ **largement réglé le 2026-08-30 par le ch. V** (§6bis.4) : substance confirmée, un mot rectifié (les guṇas sont des *conditions*, pas des états), et **la répartition est relative à l'état pris pour base** — ce dernier point ouvre une question de design neuve |
 | 4 | **Kursī → ʿArsh : le rapport à l'échelle des cieux** | fiche `discernement/`, après (1) | §5 |
 | 5 | **ʿArsh ↔ Kabbale** : sur texte, jamais sur gématrie | fiche `discernement/`, après (4) | §5 bis |
 

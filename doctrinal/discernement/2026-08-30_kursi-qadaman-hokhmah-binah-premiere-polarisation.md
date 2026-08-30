@@ -1,10 +1,10 @@
 ---
 title: "Le Kursī et les deux Pieds (qadamān) au regard de Hokhmah et Binah — la première polarisation"
 type: discernement
-status: speculatif
-maturite: germe
+status: traditionnel
+maturite: fruit-vert
 tradition_cadre: "universel"
-tags: [kursi, arsh, qadaman, hokhmah, binah, polarite, dualite-cosmique, nafas-rahmani, kabbale, tasawwuf, ibn-arabi, gloton, kari-kumi]
+tags: [kursi, arsh, qadaman, hokhmah, binah, polarite, dualite-cosmique, nafas-rahmani, kabbale, tasawwuf, ibn-arabi, gloton, kumiko]
 created: 2026-08-30
 updated: 2026-08-30
 sources: ["[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]"]
@@ -16,7 +16,7 @@ cross_links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrina
 
 > 🔍 **Discernement — Spéculation Personnelle**
 >
-> **Statut** : **en cours** — verdict réservé à Sidy.
+> **Statut** : **VALIDÉE** — joint approuvé ***kumiko*** par Sidy le 2026-08-30.
 >
 > **Hypothèse initiale** (Sidy, 2026-08-30, formulée à la lecture des clichés de
 > Gloton) : « une frappante correspondance entre le Kursī en 18 et Binah/Hokhmah
@@ -52,13 +52,18 @@ cross_links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrina
 >
 > **Examen formel** : §1 à §4 ci-dessous.
 >
-> **Qualification proposée, non tranchée** : ***kumiko*** (complémentarité) ×
+> **Qualification — VERDICT RENDU** : ***kumiko*** (complémentarité) ×
 > ***jikugumi*** (le joint porte : deux termes de dignité comparable), nature
 > **homologie** — aucune généalogie n'est alléguée entre Kabbale et *tasawwuf*.
-> État : ***kari-kumi***, montage à blanc.
+> L'état *kari-kumi* est **levé** : le joint est taillé.
 >
-> **Conclusion** : **non rendue.** La machine relève et qualifie ; le verdict
-> appartient à Sidy (Cmd 12).
+> **Conclusion** : **rendue par Sidy le 2026-08-30 — « Approuve le joint
+> Kursī ↔ Hokhmah/Binah en kumiko ».** Le Kursī (degré 18) et le couple
+> Hokhmah/Binah nomment le même moment structurel — celui de la première
+> polarisation — **par complémentarité et non par équivalence** : ce sont deux
+> façons dont deux traditions disent la même articulation, non deux noms d'une
+> même chose. Les trois objections du §4 demeurent inscrites : elles ne sont pas
+> réfutées par le verdict, elles en bornent la portée.
 >
 > **Lectures suggérées** : (1) Gloton, *De la mort à la résurrection*, la section
 > qui précède la p. 36 — elle porte les degrés 1-10, encore inconnus, et dira si la
@@ -192,10 +197,27 @@ Résultat consigné, y compris négatif, comme le veut le protocole.
 
 ## 6. Ce que cette fiche ne fait pas
 
-- Elle **ne déclare aucun ancrage** dans l'Instrument. Ce serait le **premier
-  ancrage à degré** du registre `qabbalah`, aujourd'hui délibérément sans degrés :
-  c'est une décision de design distincte, qui suivrait un verdict positif et ne le
-  précède pas (arbitrage de Sidy, 2026-08-30).
+- Elle **ne déclare aucun ancrage** dans l'Instrument. Le verdict rendu le
+  2026-08-30 valide le **joint doctrinal** ; il ne décide pas de son **report en
+  donnée**, qui est une question de design distincte et qui reste ouverte.
+
+> ⚠️ **Ce qu'il faudra examiner avant tout report à l'Instrument — un piège de
+> transitivité précis.** Le registre `qabbalah` y est déclaré `axe: parallele`
+> avec la mention « aucun degré akbarien n'est attribué » ; un ancrage
+> `qabbalah/hokhma ↔ tasawwuf/degre-18` serait **le premier joint entre un
+> registre parallèle et l'échelle des degrés elle-même**.
+>
+> Or le dépôt porte **déjà** un ancrage `etabli` `qabbalah/hokhma ↔
+> hindouisme/ajna` (niveau 2 du verdict Sephiroth↔chakras du 2026-08-29).
+> Déclarer le nouveau joint fermerait donc un **triangle à deux côtés établis et
+> un troisième jamais instruit** — `hindouisme/ajna ↔ tasawwuf/degre-18` —, que
+> rien n'autorise et que le lecteur du rendu pourrait inférer de lui-même. C'est
+> exactement le risque que l'instruction de la branche Kabbale du 2026-08-20
+> avait signalé sous le nom de « transitivité non autorisée (Cmd 3) ».
+>
+> **Signalement, pas décision.** Le report éventuel appartient à Sidy, et
+> demanderait soit une garde de rendu empêchant l'inférence, soit l'instruction
+> du troisième côté.
 - Elle **ne touche pas** à [[doctrinal/symboles/merkavah-muraqaba]], dont le
   jugement reste réservé.
 - Elle **n'infère rien** des degrés 1-10, qui restent inconnus : si la première
