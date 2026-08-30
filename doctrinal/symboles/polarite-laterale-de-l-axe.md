@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [axe-du-monde, nadis, ida, pingala, sushumna, sephiroth, colonnes, soleil-lune, caducee, polarite]
 created: 2026-08-29
 updated: 2026-08-30
-sources: ["[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]"]
+sources: ["[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/deviations/renversement-des-symboles]]"]
 ---
@@ -79,12 +79,12 @@ anges chargés d'enregistrer respectivement les actions bonnes et mauvaises »,
 lesquels « représentent également les attributs divins de "Miséricorde" et de
 "Justice" ». Trois traditions, une même structure latérale.
 
-### Le ternaire est aussi temporel (Guénon, *L'Homme et son devenir*, ch. XXI)
+### Le ternaire est aussi temporel (Guénon, *L'Homme et son devenir*, ch. XX (= XXI en 1ʳᵉ éd.))
 
 Une **seconde attestation guénonienne**, dans un autre ouvrage, redonne la même
 polarité — « la *pingalâ* correspond au Soleil et l'*idâ* à la Lune » — et y
 ajoute deux choses que « Kundalinî-Yoga » ne donnait pas
-([[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]).
+([[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]).
 
 **D'abord, la boucle des deux yeux se ferme.** Le dépôt tenait, du côté
 kabbalistique, que *Hokmah* et *Binah* se rapportent aux deux yeux droit et

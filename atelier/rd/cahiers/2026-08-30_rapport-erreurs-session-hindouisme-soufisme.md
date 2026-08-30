@@ -6,7 +6,7 @@ tags: [rd, cahier, rapport, erreurs, vigilance, instrument, methode, verificatio
 created: 2026-08-30
 updated: 2026-08-30
 sources: []
-links: ["[[atelier/rd/cahiers/registre-problemes]]", "[[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]]", "[[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]"]
+links: ["[[atelier/rd/cahiers/registre-problemes]]", "[[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]]", "[[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]"]
 ---
 
 # Rapport d'erreurs — session « Hindouisme et Soufisme / réseau subtil »

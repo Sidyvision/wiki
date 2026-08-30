@@ -6,7 +6,7 @@ tags: [instrument, incommensurabilite, inconditionne, nirguna, gunas, kursi, ars
 created: 2026-08-30
 updated: 2026-08-30
 sources: []
-links: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/symboles/janus-bifrons]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]", "[[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]]"]
+links: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/symboles/janus-bifrons]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]", "[[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]]"]
 ---
 
 # Figurer l'incommensurable
@@ -24,7 +24,7 @@ links: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-r
 
 ## 1. Le problème, énoncé exactement
 
-Guénon ouvre le ch. XXI de *L'Homme et son devenir selon le Vêdânta* par un
+Guénon ouvre le ch. XX (= XXI en 1ʳᵉ éd.) de *L'Homme et son devenir selon le Vêdânta* par un
 avertissement dont l'Instrument est la cible directe :
 
 > « tous ces états, étant encore relatifs et conditionnés, **n'ont aucune commune

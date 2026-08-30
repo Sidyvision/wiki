@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.5",
-  "generated_at": "2026-08-30T11:13:23+00:00",
-  "source_commit": "41eb0ddd7b778bd0e25819256799d05433167db1",
+  "generated_at": "2026-08-30T17:30:41+00:00",
+  "source_commit": "47ee330d75a5224c8daad4cb2357a15df2c64d88",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -947,7 +947,7 @@
           "colonne_sephirothique": "droite",
           "oeil": "œil droit de Vaishwânara",
           "temps": "le futur",
-          "note": "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine droite. Guénon met la colonne séphirothique de droite (Miséricorde) en relation avec pingalâ ; Hokmah, en tête de cette colonne, est rapportée à l'œil droit, « correspondance microcosmique du Soleil » (note 25). Le ch. XXI ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
+          "note": "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine droite. Guénon met la colonne séphirothique de droite (Miséricorde) en relation avec pingalâ ; Hokmah, en tête de cette colonne, est rapportée à l'œil droit, « correspondance microcosmique du Soleil » (note 25). Le ch. XX (= XXI en 1re ed.) ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
         },
         "ida": {
           "label": "canal gauche, féminin/négatif",
@@ -956,17 +956,17 @@
           "colonne_sephirothique": "gauche",
           "oeil": "œil gauche de Vaishwânara",
           "temps": "le passé",
-          "note": "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine gauche. Colonne séphirothique de gauche (Rigueur) ; Binah, en tête, rapportée à l'œil gauche, « correspondance microcosmique de la Lune » (note 25). Le ch. XXI ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
+          "note": "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine gauche. Colonne séphirothique de gauche (Rigueur) ; Binah, en tête, rapportée à l'œil gauche, « correspondance microcosmique de la Lune » (note 25). Le ch. XX (= XXI en 1re ed.) ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
         }
       },
-      "figuration": "caducée · bâton brahmanique (Brahma-danda, sept nœuds) · Janus Bifrons (identité posée par Guénon, ch. XXI note 7)",
+      "figuration": "caducée · bâton brahmanique (Brahma-danda, sept nœuds) · Janus Bifrons (identité posée par Guénon, ch. XX (= XXI en 1re ed.) note 7)",
       "prolongement_axial": {
         "nom": "le « Rayon solaire »",
         "identite_nominale": "porte le même nom que le canal central (sushumnâ)",
         "nature": "particularisation, ou « polarisation », du principe supra-individuel Buddhi/Mahat",
         "relie": "les états manifestés entre eux, et l'individualité à Âtmâ (le Soleil spirituel)",
         "sens": "double — descendant (rayons de la Lumière intelligible vers l'artère) et réfléchi (de l'artère au Soleil)",
-        "source": "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]"
+        "source": "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]"
       },
       "canal_debut": "hindouisme/muladhara",
       "canal_fin": "hindouisme/ajna",
@@ -1071,7 +1071,7 @@
           "lettres": "ha et ksha",
           "tattva": "Manas (facultés mentales)",
           "couleur_tattva": "",
-          "mandala": "",
+          "mandala": "triangle inversé (pointe en bas), portant Oṃ, surmonté du croissant et du bindu — Planche VII, verdict Sidy 2026-08-30",
           "bija": "Om",
           "devata": "Shambhu",
           "shakti": "Hâkinî",

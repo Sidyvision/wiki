@@ -307,7 +307,7 @@ noeuds:
   # Verdict Sidy 2026-08-30 : joint HOZO entre le ternaire des trois canaux
   # (piṅgalā/suṣumnā/iḍā, avec leurs valeurs d'œil et de temps) et Janus Bifrons.
   # L'identité est posée par Guénon lui-même, avec le mot « identique »
-  # (L'Homme et son devenir selon le Vêdânta, ch. XXI, note 7).
+  # (L'Homme et son devenir selon le Vêdânta, ch. XX = XXI en 1re ed., note 7).
   #
   # POURQUOI DES NŒUDS NOTIONNELS, ET NON UN ANCRAGE INTER-REGISTRES :
   #   les ancrages inter-registres joignent deux NIVEAUX de l'axe. Ce joint-ci
@@ -671,13 +671,13 @@ registres:
     # deux séries. Voir [[doctrinal/symboles/polarite-laterale-de-l-axe]].
     canaux:
       # Champs `oeil` et `temps` versés le 2026-08-30 depuis Guénon, L'Homme et
-      # son devenir selon le Vêdânta, ch. XXI (texte primaire, `traditionnel`) :
+      # son devenir selon le Vêdânta, ch. XX (= XXI en 1re ed. ; texte primaire) :
       # les deux luminaires y sont « les deux yeux de Vaishwânara », en relation
       # avec les deux nâdîs latéraux, tandis que sushumnâ « étant au milieu, est
       # en rapport avec le troisième œil, c'est-à-dire avec l'œil frontal de
       # Shiva ». La note 7 du même chapitre donne la valeur temporelle du
       # ternaire. Voir doctrinal/symboles/polarite-laterale-de-l-axe.md et
-      # doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-
+      # doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-
       # rayon-solaire.md (consultation R&D, sens unique, signalée).
       sushumna:
         label: "canal central — porte les chakras eux-mêmes"
@@ -693,7 +693,7 @@ registres:
         colonne_sephirothique: droite
         oeil: "œil droit de Vaishwânara"
         temps: "le futur"
-        note: "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine droite. Guénon met la colonne séphirothique de droite (Miséricorde) en relation avec pingalâ ; Hokmah, en tête de cette colonne, est rapportée à l'œil droit, « correspondance microcosmique du Soleil » (note 25). Le ch. XXI ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
+        note: "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine droite. Guénon met la colonne séphirothique de droite (Miséricorde) en relation avec pingalâ ; Hokmah, en tête de cette colonne, est rapportée à l'œil droit, « correspondance microcosmique du Soleil » (note 25). Le ch. XX (= XXI en 1re ed.) ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
       ida:
         label: "canal gauche, féminin/négatif"
         cote: gauche
@@ -701,15 +701,15 @@ registres:
         colonne_sephirothique: gauche
         oeil: "œil gauche de Vaishwânara"
         temps: "le passé"
-        note: "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine gauche. Colonne séphirothique de gauche (Rigueur) ; Binah, en tête, rapportée à l'œil gauche, « correspondance microcosmique de la Lune » (note 25). Le ch. XXI ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
+        note: "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine gauche. Colonne séphirothique de gauche (Rigueur) ; Binah, en tête, rapportée à l'œil gauche, « correspondance microcosmique de la Lune » (note 25). Le ch. XX (= XXI en 1re ed.) ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
     # Figuration traditionnelle du ternaire, donnée par Guénon : le caducée
     # (baguette centrale = sushumnâ, deux serpents = idâ/pingalâ) et le bâton
     # brahmanique (Brahma-danda) à sept nœuds figurant les sept lotus. Rapport
     # signalé par Guénon avec les trois « Grandes Lumières » maçonniques.
-    figuration: "caducée · bâton brahmanique (Brahma-danda, sept nœuds) · Janus Bifrons (identité posée par Guénon, ch. XXI note 7)"
+    figuration: "caducée · bâton brahmanique (Brahma-danda, sept nœuds) · Janus Bifrons (identité posée par Guénon, ch. XX (= XXI en 1re ed.) note 7)"
 
     # PROLONGEMENT DE L'AXE AU-DELÀ DE L'INDIVIDU — versé le 2026-08-30.
-    # Guénon, ch. XXI : « Le rayon qui est en connexion avec l'artère coronale
+    # Guénon, ch. XX (= XXI en 1re ed.) : « Le rayon qui est en connexion avec l'artère coronale
     # est appelé AUSSI sushumnâ. » Le canal individuel et le rayon universel
     # portent le même nom ; le contact est « constant, aussi longtemps que le
     # corps subsiste », et la communication va dans les deux sens. Champ
@@ -721,7 +721,7 @@ registres:
       nature: "particularisation, ou « polarisation », du principe supra-individuel Buddhi/Mahat"
       relie: "les états manifestés entre eux, et l'individualité à Âtmâ (le Soleil spirituel)"
       sens: "double — descendant (rayons de la Lumière intelligible vers l'artère) et réfléchi (de l'artère au Soleil)"
-      source: "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]"
+      source: "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]"
     # BORNES DU PARCOURS LATÉRAL (Avalon, La Puissance du Serpent, chap. V) :
     # idâ et pingalâ courent du Mūlādhāra à l'Ājñā, où elles « entrent dans la
     # Sushumnâ ». Au-dessus d'Ājñā, plus de latéralité — seulement l'axe. C'est

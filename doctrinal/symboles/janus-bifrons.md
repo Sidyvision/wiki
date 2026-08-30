@@ -6,7 +6,7 @@ tradition_cadre: "hellenisme"
 tags: [janus, bifrons, temps, passe-futur-present, polarite, portes-solsticiales, axe, troisieme-oeil]
 created: 2026-08-30
 updated: 2026-08-30
-sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]]", "[[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]]"]
+sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]]", "[[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]]"]
 sources_count: 4
 cross_links: ["[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
@@ -23,7 +23,7 @@ passé, l'autre vers l'avenir. Mais la figure n'est pas duelle : elle est
 > deux visages, l'un tourné vers le passé et l'autre vers l'avenir, mais dont
 > **le véritable visage, celui qui regarde le présent, n'est ni l'un ni l'autre
 > de ceux que l'on peut voir**. »
-> — Guénon, *L'Homme et son devenir selon le Vêdânta*, ch. XXI, note 7.
+> — Guénon, *L'Homme et son devenir selon le Vêdânta*, ch. XX (= XXI en 1ʳᵉ éd.), note 7.
 
 ## Développement
 

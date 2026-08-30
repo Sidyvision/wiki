@@ -6,7 +6,7 @@ tags: [instrument, axe-unifie, nadis, reseau, macrocosme, microcosme, lataif, aq
 created: 2026-08-30
 updated: 2026-08-30
 sources: []
-links: ["[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]"]
+links: ["[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]"]
 ---
 
 # Le réseau subtil : unification des axes et résolution par les deux échelles
@@ -313,7 +313,7 @@ terme à terme** :
    aucune implémentée ; c'est la réserve doctrinale la plus lourde que le rendu
    actuel ne porte pas.
 8. **Piste ouverte, non instruite** : le parallèle islamique sur la couronne de
-   la tête, signalé par Guénon lui-même (ch. XXI, note 3) sans texte nommé.
+   la tête, signalé par Guénon lui-même (ch. XX (= XXI en 1ʳᵉ éd.), note 3) sans texte nommé.
 
 ## 7. Acquis des planches et des centres surnuméraires (2026-08-30, second relevé)
 
@@ -465,10 +465,10 @@ La qualification se lit désormais sur Y (le niveau) et sur X (la colonne),
 résorbe. Le constat est donc identique dans les deux modes, ce qui est la
 vérité : la correspondance de niveau ne dépend pas de l'angle de vue.
 
-### 8.5 Apport du ch. XXI de *L'Homme et son devenir selon le Vêdânta*
+### 8.5 Apport du ch. XX (= XXI en 1ʳᵉ éd.) de *L'Homme et son devenir selon le Vêdânta*
 
 Texte primaire déposé par Sidy le 2026-08-30
-([[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]).
+([[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]).
 Quatre conséquences pour l'Instrument, dont trois versées en donnée :
 
 1. **Le ternaire des canaux reçoit un troisième registre : le temps.**
@@ -476,7 +476,7 @@ Quatre conséquences pour l'Instrument, dont trois versées en donnée :
    **passé** ; *suṣumnā* = œil frontal de Shiva = **présent**. Champs `oeil` et
    `temps` versés, rendus dans l'info-bulle des canaux.
 2. **La chaîne devient entièrement guénonienne.** Le dépôt tenait colonnes ↔
-   yeux ↔ luminaires du côté kabbalistique ; le ch. XXI donne l'autre moitié —
+   yeux ↔ luminaires du côté kabbalistique ; le ch. XX (= XXI en 1ʳᵉ éd.) donne l'autre moitié —
    ces deux yeux sont ceux de *Vaishwânara*, en relation avec les deux *nâdîs*.
    Plus aucun maillon rapporté du dehors.
 3. **L'axe reçoit un prolongement nommé.** « Le rayon qui est en connexion avec

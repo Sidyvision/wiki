@@ -1,5 +1,5 @@
 ---
-title: "L'Homme et son devenir selon le Vêdânta, ch. XV-XXI : Prâjna, Om et les quatre mâtrâs, évolution posthume, résorption, artère coronale et Rayon solaire (Guénon)"
+title: "L'Homme et son devenir selon le Vêdânta, ch. XV-XXI en 1ʳᵉ éd. (= XIV-XX de l'exemplaire) : Prâjna, Om et les quatre mâtrâs, évolution posthume, résorption, artère coronale et Rayon solaire (Guénon)"
 type: source
 status: traditionnel
 tradition_cadre: "universel"
@@ -8,10 +8,10 @@ created: 2026-08-04
 updated: 2026-08-30
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/eschatologie]]"]
+cross_links: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/eschatologie]]"]
 ---
 
-# L'Homme et son devenir selon le Vêdânta, ch. XV-XXI
+# L'Homme et son devenir selon le Vêdânta, ch. XV-XXI en 1ʳᵉ éd. (= XIV-XX de l'exemplaire)
 
 *René Guénon, éd. Bossard, 1925.*
 
@@ -28,21 +28,43 @@ ultérieurement, non urgente.
 > **Toujours manquant** : ch. VIII (*Manas* et les dix facultés externes).
 > **Restent à transmettre** : ch. XXII à XXV.
 
-> ⚠️ **ATTRIBUTIONS DE CHAPITRES XIX-XXI : NON VÉRIFIÉES** (signalement du
-> 2026-08-30). Le texte primaire du **ch. XXI** a été déposé par Sidy et versé
-> au dépôt : c'est « **L'artère coronale et le "Rayon solaire"** »
-> ([[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]),
-> et c'est **là** que les *nâdîs* sont exposés. La présente fiche, établie sur
-> paraphrase de l'index et non sur le texte, attribue au ch. XXI « le rejet ou
-> la résorption finale » et place les *nâdîs* au ch. XIX : ces attributions
-> **ne concordent pas avec le texte primaire**.
+> ## ✅ ATTRIBUTIONS DE CHAPITRES — RÉSOLU le 2026-08-30 (collation de la table des matières)
+>
+> **Le signalement du matin était juste sur le fond et faux sur le numéro.** La
+> table des matières de l'exemplaire de Sidy a été collationnée l'après-midi
+> (clichés `raw/assets/IMG_0371`, `IMG_0372`) et elle explique tout : **l'ouvrage
+> existe en deux états.**
+>
+> L'index web (index-rene-guenon.org), d'où provient la paraphrase qui a servi à
+> établir la présente fiche, reproduit la **1ʳᵉ édition : 26 chapitres**.
+> L'exemplaire physique est une édition ultérieure : **24 chapitres**. La source
+> l'énonce elle-même — les chapitres `XI` (Bouddhistes) et `XXV` (Jainas) y
+> portent la mention *« chapitre de la 1ʳᵉ édition supprimé ultérieurement par
+> l'auteur »*. D'où : **web XII-XXIV = exemplaire −1**.
+>
+> **Table de concordance pour les chapitres de cette fiche** :
+>
+> | 1ʳᵉ éd. (web) | Exemplaire | Titre | Page |
+> |---|---|---|---|
+> | XVII | **XVI** | Représentation symbolique d'Âtmâ… par le monosyllabe Om | 131 |
+> | XVIII | **XVII** | L'évolution posthume de l'être humain | 137 |
+> | XIX | **XVIII** | La résorption des facultés individuelles | 145 |
+> | XX | **XIX** | Différence des conditions posthumes suivant les degrés de la Connaissance | 151 |
+> | XXI | **XX** | **L'artère coronale et le « Rayon solaire »** | 159 |
+>
+> **Ce que cela corrige des deux côtés** : la présente fiche plaçait les *nâdîs*
+> au ch. XIX et « le rejet ou la résorption finale » au ch. XXI — **les deux sont
+> faux dans les deux repères**. Et la correction du matin, qui déplaçait l'artère
+> coronale au ch. XXI, était juste dans le repère web mais **fausse dans celui de
+> l'exemplaire possédé**. Le chapitre est le **XX (= XXI en 1ʳᵉ éd.)**, p. 159.
 >
 > Conformément au Cmd 10, rien n'est supprimé : le contenu des sections
-> « Ch. XIX », « Ch. XX » et « Ch. XXI » ci-dessous est **conservé mais tenu
-> pour non vérifié** — la matière exposée peut être juste, la numérotation ne
-> l'est pas. À collationner sur l'exemplaire physique. Pour tout ce qui touche
-> l'artère coronale, les *nâdîs* et le Rayon solaire, **c'est la fiche du
-> ch. XXI qui fait foi**, étant seule établie sur le texte.
+> « Ch. XIX », « Ch. XX » et « Ch. XXI » ci-dessous est **conservé**, la matière
+> exposée pouvant être juste ; mais **leur numérotation reste non fiable**, ces
+> sections ayant été établies sur paraphrase. Pour tout ce qui touche l'artère
+> coronale, les *nâdîs* et le Rayon solaire, **c'est
+> [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]
+> qui fait foi**, étant seule établie sur le texte.
 
 ---
 

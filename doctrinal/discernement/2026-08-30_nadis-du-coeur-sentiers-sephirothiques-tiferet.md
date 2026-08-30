@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [nadis, sentiers, netivot, tiferet, anahata, coeur, reseau, kabbale, hindouisme, lettres, kari-kumi]
 created: 2026-08-30
 updated: 2026-08-30
-sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]"]
+sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]"]
 sources_count: 4
 cross_links: ["[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]", "[[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]"]
 ---
@@ -21,7 +21,7 @@ cross_links: ["[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveau
 > surnuméraire, ou la lecture par positions de l'observateur, §4 quater) n'a
 > pas encore reçu de verdict.
 >
-> **Hypothèse initiale** (Sidy, 2026-08-30, formulée à la lecture du ch. XXI) :
+> **Hypothèse initiale** (Sidy, 2026-08-30, formulée à la lecture du ch. XX (= XXI en 1ʳᵉ éd.)) :
 > « Les nâdîs sortant du chakra du cœur sont **identiques** aux sentiers des
 > Sephiroth, que l'on peut aussi envisager comme **émanant du cœur** pour
 > organiser le réseau — **Tiferet**. »
@@ -97,7 +97,7 @@ la plus banale.
   sans que rien y ait été ajouté aujourd'hui : « **Cœur de l'Arbre** » ;
   « colonne du milieu, 6ᵉ Sephira (**centre de l'Arbre**) » ; et, dans le Ramban,
   « le Palais de la Sainteté est exactement **au centre** ».
-- **Côté hindou** : Guénon, ch. XXI — l'âme vivante se retire « dans son propre
+- **Côté hindou** : Guénon, ch. XX (= XXI en 1ʳᵉ éd.) — l'âme vivante se retire « dans son propre
   séjour (**le centre de l'individualité, désigné symboliquement comme le
   cœur**) », et c'est de ce **centre vital** que « **cent une artères** (*nâdîs*)
   sortent […] **comme les rais d'une roue sortent de son moyeu** ».
@@ -146,7 +146,7 @@ distinction est expresse :
 | Centre | Pétales | Ce qu'il est | Source |
 |---|---|---|---|
 | ***Anāhata*** | **12** | centre spinal de la région du cœur, sur *suṣumnā*, quatrième de la série des six | Avalon, table synoptique |
-| **le lotus du cœur** | **8** | **au-dessous** d'*Anāhata* ; siège du *Hamsa* / *Jīvātmā* ; lieu de l'adoration mentale de l'*Ishtadevatā* | Avalon (centres surnuméraires) ; Guénon, ch. XXI |
+| **le lotus du cœur** | **8** | **au-dessous** d'*Anāhata* ; siège du *Hamsa* / *Jīvātmā* ; lieu de l'adoration mentale de l'*Ishtadevatā* | Avalon (centres surnuméraires) ; Guénon, ch. XX (= XXI en 1ʳᵉ éd.) |
 
 Avalon est explicite : « Ce lotus doit être **distingué** du Lotus du cœur à huit
 pétales, qui est représenté **au-dessous** de lui. »

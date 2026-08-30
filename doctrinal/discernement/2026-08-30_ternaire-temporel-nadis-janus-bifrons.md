@@ -6,7 +6,7 @@ tradition_cadre: "universel"
 tags: [janus, nadis, ida, pingala, sushumna, temps, passe-futur-present, troisieme-oeil, hozo, polarite]
 created: 2026-08-30
 updated: 2026-08-30
-sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]"]
+sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/janus-bifrons]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]"]
 ---
@@ -17,7 +17,7 @@ cross_links: ["[[doctrinal/symboles/janus-bifrons]]", "[[doctrinal/symboles/pola
 >
 > **Statut** : **validée** (verdict de Sidy, 2026-08-30).
 >
-> **Hypothèse initiale** (2026-08-30, formulée à la lecture du ch. XXI de
+> **Hypothèse initiale** (2026-08-30, formulée à la lecture du ch. XX (= XXI en 1ʳᵉ éd.) de
 > *L'Homme et son devenir selon le Vêdânta*) : le ternaire des trois canaux
 > subtils — *piṅgalā* / *suṣumnā* / *iḍā* — et la figure latine de *Janus
 > Bifrons* sont **un seul et même symbolisme sous deux voiles traditionnels**,
@@ -56,7 +56,7 @@ cross_links: ["[[doctrinal/symboles/janus-bifrons]]", "[[doctrinal/symboles/pola
 
 ## 1. Ce que dit exactement le texte
 
-*L'Homme et son devenir selon le Vêdânta*, ch. XXI, note 7 — après avoir posé
+*L'Homme et son devenir selon le Vêdânta*, ch. XX (= XXI en 1ʳᵉ éd.), note 7 — après avoir posé
 que *piṅgalā* correspond au Soleil et à l'œil droit, *iḍā* à la Lune et à l'œil
 gauche, et *suṣumnā* au troisième œil :
 

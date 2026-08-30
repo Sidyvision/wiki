@@ -22,7 +22,7 @@ ultérieurement, non urgente.
 > **État de la couverture de l'ouvrage** (quatre fiches) :
 > - ch. I-VII → [[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]
 > - ch. IX-XIV → [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]
-> - ch. XV-XXI → [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]]
+> - ch. XV-XXI en 1ʳᵉ éd. (= XIV-XX de l'exemplaire) → [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]]
 > - ch. VIII, XXII, XXIII, XXIV, XXV, XXVI → **présente fiche**
 > - ch. X, XII, XIII, XV, XVI également couverts par
 >   [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]
