@@ -16,6 +16,11 @@ updated: 2026-08-30
 ## 0. Suite donnée — session claude.ai du 2026-08-30 (soir)
 
 > **La passation est exécutée.** Les deux pièces qui restaient sont closes.
+>
+> 🔁 **Passation retour** : la session claude.ai rend la main au terminal le même
+> jour. Point de reprise :
+> [[meta/briefs/2026-08-30_passation-claude-ai-vers-terminal]] — **ce brief-ci est
+> clos, celui-là prend le relais.**
 
 | Point du brief | État |
 |---|---|
