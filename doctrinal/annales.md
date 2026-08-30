@@ -9,6 +9,48 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage | Collation de la p. 35 de Gloton — les degrés 1-10 du *Nafas al-Raḥmān* sont établis
+
+- **La dernière pièce ouverte du brief de passation est close.** Le brief
+  `meta/briefs/2026-08-30_passation-instrument-vers-claude-ai.md` (§5, point 3)
+  désignait les degrés 1-10 comme *« entièrement à établir, exigent les pages
+  antérieures à la p. 36 de Gloton, non photographiées — seule pièce qui demande
+  une action de Sidy »*. **Sidy a fourni le cliché de la p. 35 le soir même.**
+- **Levée de `to-source`** conforme à la discipline des sources (§VII.2 du
+  protocole racine) : vérification du texte primaire par l'utilisateur lui-même,
+  jamais sur la seule foi d'un modèle. Les dix entrées sont relevées dans la
+  lettre exacte de Gloton, sous le titre de section qu'il leur donne :
+  **« 1 - Le Degré divin »**. Chacune est un *commentaire* — d'un ḥadīth saint,
+  des deux noms *kalām*/*qawl*, des versets 16-98 et 16-40, et de six formules.
+- **Ce que la collation établit, et qui n'était pas acquis** : (a) les degrés
+  1-10 **sont numérotés dans la source elle-même**, lignes 1 à 10 ; (b) leur
+  caractère pré-lettré est confirmé sur la page, la première lettre (*hamza*)
+  ouvrant le degré 11 p. 36 ; (c) leur matière n'est pas cosmologique mais
+  relève de la Parole divine et de son commentaire — la rupture de nature entre
+  1-10 et 11-38 est portée par le texte, non déduite de l'absence de lettres.
+- **Deux rectifications de transcription** imposées par la lettre du traducteur :
+  le ḥadīth saint est rendu « *J'étais un Trésor. Je n'étais pas connu.* » — et
+  non « *un Trésor caché* », forme courante qui avait été substituée ; le n° 10
+  est explicitement donné comme formule **prophétique**, là où les n° 6 à 9 sont
+  dits coraniques.
+- **Signalement de forme, non tranché (Cmd 12)** : l'assimilation des degrés 1-10
+  au *Hāhūt*, portée en plusieurs endroits de la fiche-table, **n'est pas de
+  Gloton**. Elle provient du Gem René Guénon (persona IA) — §VII.3 : reconstruction
+  plausible, jamais source. Elle contredit de surcroît ce que la fiche pose
+  elle-même (*Hāhūt* « au-delà de toute différenciation ou numérotation », alors
+  que la source numérote ces dix degrés), et *al-martaba al-ilāhiyya* désigne
+  classiquement l'*Ulūhiyya*, soit le registre des Noms — ce que la matière
+  relevée confirme. **État *kari-kumi*, verdict réservé à Sidy.** Les sections
+  qui affirment l'assimilation sont conservées et raturées, jamais supprimées
+  (Cmd 10).
+- **Fiches touchées** : [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]
+  (Section 1 collationnée, lettre exacte), [[doctrinal/symboles/table-28-degres-nafas-rahman]]
+  (levée du `to-source`, rectification des trois libellés « Hāhūt », mise à jour
+  de la convention de numérotation et de la liste « à photographier »).
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).`
+- **Commit** : f09429b
+
 ## [2026-08-30] discernement + archivage | VERDICT Kursī↔Hokhmah/Binah (kumiko) et trois chapitres du *Symbolisme de la Croix*
 
 - **Verdict de Sidy** : « Approuve le joint Kursī ↔ Hokhmah/Binah en *kumiko* ».
