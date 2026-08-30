@@ -9,6 +9,31 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] discernement | Levée du `to-source` — corpus Guénon *Symboles de la Science sacrée*
+
+- **Verdict rendu par Sidy** : « je possède un exemplaire physique de Guénon
+  SDLSS au éditions Gallimard donc tu as ma confirmation » — vérification
+  humaine au sens de §VII.2, portant sur l'ensemble du corpus (verdict de
+  principe, pas une collation ligne à ligne faite ce jour).
+- **Fiches modifiées** (bloc « Fiabilité de la source » réécrit, `updated`
+  bumpé) : [[doctrinal/sources/guenon-symbolisme-du-dome]],
+  [[doctrinal/sources/guenon-dome-et-la-roue]],
+  [[doctrinal/sources/guenon-octogone]],
+  [[doctrinal/sources/guenon-mysteres-lettre-nun]],
+  [[doctrinal/sources/guenon-zodiaque-pythagoriciens]],
+  [[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]],
+  [[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]].
+- **Enrichi** : [[doctrinal/symboles/janus-bifrons]] (le `to-source` du volet
+  solsticial n'est plus mentionné comme actif) et
+  [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] (caveat
+  reformulé).
+- **Portée** : ce verdict couvre le corpus *Symboles de la Science sacrée*
+  spécifiquement. Les autres `to-source` du dépôt (dont ceux d'autres ouvrages
+  de Guénon) ne sont pas concernés.
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 1 avertissement(s)` ([A6], faux positif documenté, inchangé).
+- **Commit** : 085f854
+
 ## [2026-08-30] correction | Manifeste SDLSS — couverture 100 % après ajout du ch. XX par Sidy
 
 - **Déclencheur** : Sidy a déposé, en cours de session, un clipping du
