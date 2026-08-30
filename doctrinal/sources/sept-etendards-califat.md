@@ -464,7 +464,7 @@ d'ajouter : « Nous consignons ce qu'ils disent ! »
 - ✅ **Table des matières** : transcrite intégralement, 40 chapitres + index, 3 parties (2026-07-09).
 - ✅ **Index des termes arabes** (p. 313-318) : transcrit intégralement, six pages (2026-07-09).
 - ✅ **Chap. XV** (p. 115-121), **chap. XX** (p. 150), **chap. XXVII-XXVIII** (p. 208-211), **chap. XXXIII** (p. 249-251) — transcrits ci-dessus (complément, 2026-07-09).
-- ✅ **Chap. XIII** (p. 104-105) et **chap. XXXII** (p. 244-245) — transcrits ci-dessus (2026-08-30). Pages **désignées mécaniquement depuis l'index** de la présente fiche, avant photographie : la méthode a été validée par le résultat.
+- ✅ **Chap. XIII** (p. 104-105) et **chap. XXXII** (p. 244-245) — transcrits ci-dessus (2026-08-30). Pages **désignées mécaniquement depuis l'index** de la présente fiche, avant photographie : la méthode a été validée par le résultat. **Clichés versés côté serveur le même jour** : `raw/assets/IMG_0379.JPG` (pp. 104-105) et `raw/assets/IMG_0378.jpg` (pp. 244-245) — `raw/` étant *gitignored*, seuls leurs noms sont traçables ici.
 - ❌ **Reste du corps du texte** (chapitres I-XII, XIV, XVI-XIX, XXI-XXVI, XXIX-XXXI, XXXIV-XL) — non photographié, `to-source`.
 - 🎯 **Prochaines pages à plus fort rendement.** Relevé de la table des matières fait
   le 2026-08-30 : **deux chapitres de cet ouvrage portent, chacun, une moitié de la

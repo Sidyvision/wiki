@@ -24,7 +24,10 @@ cross_links: ["[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/symboles/tabl
   bibliothèque physique. Consultation humaine, sans wikilink (§VI : `doctrinal/`
   ne pointe jamais vers `atelier/`).
 - **Provenance de la présente transcription** : photographie de la page d'ouverture
-  du chapitre, fournie par Sidy le 2026-08-30.
+  du chapitre, fournie par Sidy le 2026-08-30 — **cliché versé côté serveur le même
+  jour : `raw/assets/IMG_0374.JPG`** (couverture : `raw/assets/IMG_0377.JPG`).
+  `raw/` est *gitignored* : les clichés ne sont pas versionnés, mais leur nom
+  permet désormais de retrouver la pièce sans rouvrir le livre.
 
 > ✅ **Apparat éditorial établi le 2026-08-30 (nuit) — `to-source` levé.** La
 > transcription avait d'abord été versée avec traducteur, éditeur et collection
@@ -42,6 +45,11 @@ cross_links: ["[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/symboles/tabl
 >
 > ⚠️ **Reste `to-source`, et seulement cela** : le **numéro de page** du chapitre
 > XVIII, non lisible sur le cliché. Année d'édition non relevée.
+>
+> **Confirmé le 2026-08-30 (soir) sur le cliché versé côté serveur**
+> (`raw/assets/IMG_0374.JPG`) : la page ne porte **aucun numéro visible** — le
+> cadrage s'arrête au-dessus du bandeau de titre courant. Le `to-source` est donc
+> maintenu pour une raison **vérifiée**, non par défaut de contrôle.
 
 ## Transcription du chapitre (intégrale de la page photographiée)
 

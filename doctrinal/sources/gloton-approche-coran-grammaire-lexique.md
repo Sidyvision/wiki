@@ -48,6 +48,11 @@ cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/symboles/asma-
 
 ## Pages photographiées (Sidy, 2026-08-30)
 
+> **Clichés versés côté serveur le 2026-08-30** : `raw/assets/IMG_0376.JPG`
+> (p. 412), `raw/assets/IMG_0375.jpg` (p. 857), `raw/assets/IMG_0377.JPG`
+> (couverture). `raw/` est *gitignored* — les fichiers ne sont pas versionnés,
+> mais leur nom rend la collation reproductible.
+
 ### p. 412 — racines ر ف د, ر ف ر ف, ر ف ع
 
 #### Entrée 0578 — ر ف د (2 occurrences)
