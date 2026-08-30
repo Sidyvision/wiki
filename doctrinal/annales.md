@@ -9,6 +9,21 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] source | Levée de réserve — cellule Ājñā d'Avalon (verdict Sidy)
+
+- **Verdict de Sidy** : combler la cellule `mandala` vide d'Ājñā d'après la
+  Planche VII plutôt que la laisser en l'état (réserve posée le 2026-08-30
+  dans [[doctrinal/sources/avalon-serpent-power-nadis-reseau]]).
+- **Réserve levée pour *Ājñā* uniquement** ; la divergence *Vishuddha* (table
+  vs Planche VI) reste non tranchée, non concernée par ce verdict.
+- **Répercuté** : donnée versée côté atelier
+  (`atelier/rd/instrument/instrument-donnees.yaml`, commit 0f9ee3a, voir
+  entrée jumelle `atelier/annales.md`) — aucune écriture de donnée depuis
+  `doctrinal/` (§VI, sens interdit).
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s)`.
+- **Commit** : 0f9ee3a
+
 ## [2026-08-30] discernement | Table de correspondance cakra/laṭāʾif construite (kari-kumi) — verdict soumis à Sidy
 
 - **Contexte** : la fiche

@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/instrument | données | Cellule `mandala` d'Ājñā comblée d'après la Planche VII (verdict Sidy)
+
+- **Verdict de Sidy** : combler la cellule vide plutôt que la laisser en
+  l'état.
+- **`instrument-donnees.yaml`** : `mandala` d'Ājñā = « triangle inversé
+  (pointe en bas), portant *Oṃ*, surmonté du croissant et du *bindu* »,
+  d'après la Planche VII d'Avalon (« Ajna »). `couleur_tattva` reste vide
+  (aucune source ne la donne). Corroboré par une source distincte de la
+  planche : la colonne *Liṅga/Yoni* de la table synoptique elle-même porte
+  déjà « Itara et Trikona » (*trikona* = triangle) pour ce centre.
+- **Hors périmètre** : la divergence *Vishuddha* (triangle pâle inscrit dans
+  un cercle sur la planche VI, contre *mandala: cercle* dans la table) n'est
+  pas concernée par ce verdict et reste non tranchée.
+- **Répercuté** : `doctrinal/sources/avalon-serpent-power-nadis-reseau.md`
+  (réserve levée pour Ājñā uniquement).
+- **Commit** : 0f9ee3a
+
 ## [2026-08-30] rd/outillage | correction | [A6] raffiné plutôt que supprimé (verdict Sidy)
 
 - **Verdict de Sidy** : raffiner le contrôle [A6] plutôt que l'accepter tel
