@@ -80,7 +80,7 @@ déviations modernes.*
 - *Le Saint Coran* (éditions diverses)
 - *Le Coran : Essai de traduction*, Maurice Gloton (Albouraq) — priorité pour l'extraction des racines sémantiques arabes.
 - **Maurice Gloton** — *Une approche du Coran par la grammaire et le lexique* (Albouraq)
-- **Al-Jurjânî** (trad. M. Gloton) — *Le Livre des Définitions* (Albouraq) — dictionnaire technique de référence pour valider les termes du Tasawwuf.
+- **Al-Jurjânî** (trad. M. Gloton) — *Le Livre des Définitions* (Albouraq) — dictionnaire technique de référence pour valider les termes du Tasawwuf. **Pages photographiées et transcrites** : p. 134, p. 280-281 (2026-08-25) ; **p. 47 (déf. 0034-0036, les corps) et p. 441 (déf. 1652-1656, Royauté/Souveraineté), 2026-08-30** — ces deux dernières corroborent la place du Trône et du Piédestal dans la hiérarchie cosmologique akbarienne. Transcriptions versées à la fiche source du circuit doctrinal (consultation humaine, sens `atelier/rd/` → `doctrinal/` signalé).
 
 ### Ibn ʿArabî et son école
 - *De la mort à la résurrection* (trad., introduction et annotation Maurice Gloton, Albouraq, coll. « Héritage Spirituel ») — CONFIRMÉ (2026-07-01). Texte primaire d'Ibn ʿArabî ; le diagramme de couverture présente la table des 28 degrés cosmologiques (lettres arabes × degrés de manifestation) — source primaire directe pour [[doctrinal/symboles/table-28-degres-nafas-rahman]].

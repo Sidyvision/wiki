@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [lexicographie, terminologie, theologie, logique, soufisme, droit, grammaire, prosodie]
 created: 2026-06-30
-updated: 2026-08-25
+updated: 2026-08-30
 sources: ["[[doctrinal/autorites/al-jurjani]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/al-jurjani]]", "[[doctrinal/sources/kitab-tarifat-index-transcription]]", "[[doctrinal/symboles/wahdat-al-wujud]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/symboles/al-insan-al-kamil]]"]
@@ -107,6 +107,88 @@ Sidy), transcription Gardien 2026-08-25 :
 - p. 405, déf. 1501-1504 : al-mirāʾ, **martabat al-insān al-kāmil** (1502),
   **al-martabat al-aḥadiyya** (1503), al-martabat al-ilāhiyya (1504, début —
   suite p. 406) → [[doctrinal/symboles/al-insan-al-kamil]].
+
+## Transcriptions intégrées (2026-08-30) — le Trône et le Piédestal
+
+> Transcrites depuis les photographies de l'édition physique déposées par Sidy le
+> 2026-08-30 (`raw/assets/IMG_0368` = p. 47 ; `raw/assets/IMG_0370` = p. 441).
+> **Motif du dépôt** : ces deux pages corroborent, par un auteur distinct de
+> Gloton-traducteur d'Ibn ʿArabī, la place du Trône (*ʿarsh*) et du Piédestal
+> (*kursī*) dans la hiérarchie cosmologique akbarienne — matière du chantier
+> ouvert le même jour sur les degrés 17 et 18 du *Nafas al-Raḥmān*.
+
+### Lot p. 47 — définitions 0034 à 0036 (les corps)
+
+**0034 — *al-ajsām al-ṭabīʿiyya*, « les corps dépendants de la Nature »** :
+
+> « Pour les Maîtres en dévoilement spirituel cette expression désigne le Trône
+> (*ʿarš*) et le Piedestal (*kursî*). »
+
+**0035 — *al-ajsām al-ʿunṣuriyya*, « les corps élémentaires »** : « C'est la
+désignation de tous les corps, à l'exception du Trône et du Piedestal, et des
+éléments (*usṭuqusāt*) qui font partie intégrante des cieux et des éléments qui
+les composent. »
+
+La **Note** de cette définition donne la cosmogenèse d'Ibn ʿArabī en **sept
+niveaux ascendants** — pièce directement utile au dépôt :
+
+| Niveau | Contenu |
+|---|---|
+| 1 | terre, eau, air, éther |
+| 2 | lune, mercure, vénus, soleil, mars, jupiter, saturne |
+| 3 | ciel des étoiles fixes, ciel du zodiaque |
+| **4** | **piedestal, trône** |
+| 5 | le Corps universel, la Matière primordiale, la Nature universelle |
+| 6 | la Table gardée, le Calame ou Intellect premier |
+| 7 | Présence divine de l'Unicité, de l'Unité, de l'Essence inconditionnée |
+
+> **Ce que ce tableau confirme, et ce qu'il ne dit pas.** Il confirme l'**ordre**
+> — le Piédestal sous le Trône dans la montée, l'un et l'autre au-dessus des
+> sphères célestes (niveau 3) et au-dessous du Corps universel et de la Table
+> gardée (niveaux 5-6). C'est exactement l'ordre de la table courante de Gloton
+> (degrés 17 et 18, les sphères commençant au 19).
+> Il **ne donne aucun numéro de degré** : c'est un groupement en sept niveaux,
+> **numérotation propre**, à ne pas confondre avec les 38 degrés du *Nafas
+> al-Raḥmān* — même vigilance que celle désormais portée en tête de
+> [[doctrinal/symboles/table-28-degres-nafas-rahman]].
+
+**0036 — *al-ajsām al-muḥtalifa*, « les divers corps naturels »** : les quatre
+éléments (*ʿanāṣir*) et les trois catégories d'êtres engendrés (*mawālid*) — les
+règnes minéral, végétal et animal. Distinction terminologique retenue :
+*usṭuqusāt* désigne le principe fondamental (*aṣl*), *ʿanāṣir* ce en quoi se
+composent les substances complexes et en quoi elles se décomposent.
+
+### Lot p. 441 — définitions 1652 à 1656 (Royauté, Souveraineté)
+
+**1652 — *al-malakūt*, « la Royauté ou Souveraineté absolue, le monde
+angélique »** : « C'est le monde du Mystère (*ʿālam al-ġayb*), demeure réservée
+aux esprits (*arwāḥ*) et aux âmes (*nafūs*). »
+
+**1653 — *al-malāʾ al-mutashābih*, « le "contenant" comparable ou analogue »** :
+désignation des sphères (*aflāk*) et des éléments (*ʿanāṣir*) **à l'exclusion de
+la surface convexe (*saṭḥ muḥaddab*) de la Sphère suprême (*falak aʿẓam*)**.
+
+**1655 — *al-mulk*, « la Souveraineté, le Royaume »** :
+
+> « C'est le monde attesté (*ʿālam al-šahāda*) composé des réalités perceptibles
+> naturelles (*maḥsūsāt ṭabīʿiyya*), **comme le Trône (*ʿarš*), le Piédestal
+> (*kursī*)** et tout corps qui s'apprécie par le libre exercice (*taṣarruf*) de
+> la faculté imaginative (*ḫayāl*)… »
+
+> **Point notable.** Le Trône et le Piédestal sont ici rangés dans le *mulk*, le
+> « monde attesté » des réalités **perceptibles** — ce qui recoupe exactement la
+> qualification de Gloton p. 38, qui fait du Kursī « un **Corps sensible** (*jism
+> maḥsūs*) qui contient en lui tous les aspects : perceptibles, subtils et
+> spirituels ». Deux traductions indépendantes du même corpus akbarien
+> concordent donc sur ce point, qui pourrait sembler contre-intuitif : ces deux
+> termes suprêmes de la cosmologie relèvent du **perceptible**, non de
+> l'inconnaissable.
+
+**1654 — *al-malāl*** (l'ennui, la lassitude) et **1656 — *al-milk*** (la
+possession, l'appropriation) : transcrits pour la complétude du lot, sans portée
+doctrinale pour les chantiers en cours.
+
+---
 
 ### Annexe : Déf. 0525 — al-juzʾī al-iḍāfī (terme technique de logique)
 
