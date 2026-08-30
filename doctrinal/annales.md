@@ -9,6 +9,18 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] discernement | VERDICT SIDY — table cakra/laṭāʾif maintenue en kari-kumi
+
+- **Verdict** : la table de correspondance rang-par-rang *cakra*↔*laṭīfa*
+  construite ce jour dans
+  [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] est
+  **maintenue en *kari-kumi*** — proposition structurelle affichée suggérée
+  (🔍), non inscrite comme ancrage établi (*hozo*).
+- **Répercuté** : `doctrinal/index.md`.
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s)`.
+- **Commit** : 86c073f
+
 ## [2026-08-30] discernement | VERDICT SIDY (partiel) — sentiers séphirothiques / nâdîs, lecture kumiko approuvée
 
 - **Verdict** : la lecture par complémentarité (*kumiko*) est approuvée —
