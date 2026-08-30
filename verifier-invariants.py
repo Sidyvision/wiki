@@ -94,6 +94,8 @@ SOURCES_CIBLES_INTERDITES = {"meta"}
 
 RE_ENTETE_ANNALES = re.compile(r"^##\s+\[(\d{4}-\d{2}-\d{2})\]\s*(.*)$")
 RE_CHAMP_COMMIT = re.compile(r"^-\s*\*\*Commit\*\*\s*:")
+# Sous-item explicite d'une entrée groupée légitime, ex. "**(a) Titre —**".
+RE_SOUS_ITEM = re.compile(r"^\*\*\([a-zA-Z0-9]+\)")
 RE_CLOTURE = re.compile(r"^\s*(```|~~~)")
 RE_SPAN_CODE = re.compile(r"`[^`\n]+`")
 RE_WIKILINK = re.compile(r"\[\[([^\]\|#]+)(?:#[^\]\|]+)?(?:\|[^\]]*)?\]\]")
@@ -271,20 +273,40 @@ def controler_annales(chemin_abs, chemin_rel, rap):
     # `## [YYYY-MM-DD]`) porte plusieurs champs `- **Commit** :`. Signature
     # d'une insertion qui a remplacé l'en-tête de l'entrée suivante au lieu
     # de la précéder (incident 2026-08-28, registre R&D). Avertissement, non
-    # bloquant : une entrée groupée légitime peut citer plusieurs commits.
+    # bloquant : une entrée groupée légitime peut citer plusieurs commits, à
+    # condition que chacun soit rattaché à son propre sous-item explicite
+    # (ex. "**(a) Titre —**" / "**(b) Titre —**") — auquel cas ce n'est pas
+    # un en-tête perdu mais un lot documenté fiche par fiche (§VIII.3).
+    # Amendement 2026-08-30 (verdict Sidy) : raffinement du contrôle plutôt
+    # que suppression, motivé par l'entrée [2026-08-20] rd | Lecture
+    # dynamique du manifeste + instruction branche Kabbale (deux livrables
+    # (a)/(b), chacun son Commit).
     for k in range(len(entetes)):
         debut = entetes[k][0]
         fin = entetes[k + 1][0] if k + 1 < len(entetes) else len(lignes) + 1
-        nb_commits = sum(
-            1 for ligne in lignes[debut:fin - 1]
-            if RE_CHAMP_COMMIT.match(ligne))
-        if nb_commits > 1:
-            rap.avertir(
-                chemin_rel, "A6",
-                f"corps d'entrée orphelin possible : {nb_commits} champs "
-                f"`- **Commit** :` dans une seule section — en-tête perdu "
-                f"lors d'une insertion ? (entrée [{entetes[k][1]}] "
-                f"{entetes[k][2]})", debut)
+        indices_commits = [
+            i for i in range(debut, fin - 1)
+            if RE_CHAMP_COMMIT.match(lignes[i])]
+        nb_commits = len(indices_commits)
+        if nb_commits <= 1:
+            continue
+        segment_debut = debut
+        tous_rattaches = True
+        for idx_commit in indices_commits:
+            segment = lignes[segment_debut:idx_commit]
+            if not any(RE_SOUS_ITEM.match(ligne) for ligne in segment):
+                tous_rattaches = False
+                break
+            segment_debut = idx_commit + 1
+        if tous_rattaches:
+            continue
+        rap.avertir(
+            chemin_rel, "A6",
+            f"corps d'entrée orphelin possible : {nb_commits} champs "
+            f"`- **Commit** :` dans une seule section, sans sous-item "
+            f"explicite (\"**(a) ...**\") rattachant chacun — en-tête perdu "
+            f"lors d'une insertion ? (entrée [{entetes[k][1]}] "
+            f"{entetes[k][2]})", debut)
 
 
 # --------------------------------------------------------------------------
