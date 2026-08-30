@@ -9,6 +9,74 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage | *Sept Étendards du Califat*, pp. 104-105 et 244-245 — le point bloquant est levé, et par un troisième terme
+
+- **Collation faite**, sur clichés de Sidy, des deux doubles pages que le tableau de
+  pistes avait **désignées mécaniquement** depuis l'index déjà transcrit au dépôt.
+  **L'index disait vrai** : ce sont les pages décisives. La méthode de désignation
+  est validée par le résultat. Transcription versée à
+  [[doctrinal/sources/sept-etendards-califat]] (chap. XIII « Le Maître des trois
+  Mondes » ; chap. XXXII « Califat et servitude »).
+- **Le point bloquant est levé — et la réponse n'était aucune des deux prévues.** La
+  question posée la veille était : le « il abaisse » du Calife est-il
+  l'*isqāṭ*-châtiment d'ar-Râzî, ou la « réalisation descendante » de Vâlsan ?
+  **Réponse du texte : ni l'un ni l'autre.** Le registre dominant est **ontologique**
+  — *rafʿ* et *khafḍ* y sont « **deux degrés existenciels fondamentaux** » : *rafʿ*
+  = le degré de la manifestation **informelle** (Anges, purs esprits, Esprit
+  muhammadien, Lettres principielles) ; *khafḍ* = « l'expansion et la
+  différenciation du Souffle **au degré individuel** ». **Aucune charge morale.**
+  Et p. 245 : Dieu Lui-même « revêt les attributs de "**descente**" (*nuzūl*) et
+  d'amour à l'égard de Ses serviteurs » — la descente n'est donc pas, en soi, une
+  déchéance.
+- **⚠️ Distinction imposée par la collation, à ne jamais perdre** : à la p. 104,
+  *rafʿ* et *khafḍ* sont les termes de l'***iʿrāb*** (note 30 : *rafʿ* =
+  vocalisation par *ḍamma*, *khafḍ* par *kasra*), employés comme **symboles
+  ontologiques** — **ce ne sont pas les Noms divins**. Gilis renvoie le Nom
+  *al-Khāfiḍ* ailleurs : *Futūḥāt*, **chap. 558** (note 16, p. 244). **Le dossier
+  porte désormais deux objets distincts qu'il serait fatal de fondre.**
+- **Le joint avec les guṇas n'est plus pressenti : il est POSÉ par le texte.**
+  Note 33 : au *fatḥa* correspond *rajas*, au *ḍamma* ***sattwa*** (force
+  ascendante), au *kasra* ***tamas*** (force descendante) — avec renvoi à la figure
+  circulaire de Guénon dans *La Théorie hindoue des cinq éléments*. Combinée à la
+  note 30 : **rafʿ ↔ sattwa, khafḍ ↔ tamas**. Gilis conclut : « les analogies avec
+  le texte d'Ibn Arabî cité ci-dessus sont tout à fait évidentes », et note que
+  « la similitude entre l'enseignement d'Ibn Arabî et celui de l'Hindouisme est ici
+  particulièrement remarquable ». **L'état *kari-kumi* est caduc pour ce joint** —
+  il était proposé la veille comme *kumiko pressenti*, il est désormais **posé par
+  une autorité nommée**.
+- **Trois réserves maintenues sur ce joint, et elles sont sérieuses** : *(a)* c'est
+  **Gilis** qui pose la correspondance, **non Ibn ʿArabī** — une autorité moderne de
+  l'école guénonienne, non le Cheikh al-Akbar ; *(b)* elle porte sur le couple
+  **vocalique-ontologique**, non sur les Noms divins ; *(c)* Gilis écrit
+  « analogies » et « similitude », **non identité** — soit exactement le régime du
+  ***kumiko***, non du *hozo*. Qualification proposée, **verdict réservé** (Cmd 12).
+- **Pour [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]]** : les
+  *rijāl Allāh* sont définis p. 245 comme « ceux que leur création selon la Forme ne
+  détourne pas de leur pauvreté spirituelle, **de leur abaissement** et de leur
+  servitude » — **ni par un rang, ni par une élévation**. Et note 14, p. 244 :
+  *tāba* « n'a pas ici son sens habituel de "repentir" et désigne le moment,
+  caractéristique d'un **processus initiatique à ses débuts** » — précédent de
+  lecture pour la reformulation « initiés au seuil ». ⚠️ Réserve maintenue : ni
+  *aʿrāf*, ni *sīmā*, ni *firāsa* dans ces pages — **rien ne relie encore** les gens
+  d'al-Aʿrāf aux *rijāl Allāh*.
+- **Pour [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]]** :
+  la p. 105 nomme « **la déchéance progressive de l'état humain** », que la
+  manifestation cyclique des Prophètes vient « compenser et neutraliser » comme un
+  « soulagement ». La structure descente/compensation est donc **énoncée par le
+  texte**, sur le registre cyclique — mais **non rapportée à Qâf**, et c'est
+  justement ce que la thèse ajoute. Le tableau des « chutes » passe de trois à
+  **quatre** termes ; la thèse doit dire lequel elle vise.
+- **🎯 Relevé de la table des matières — deux chapitres portent chacun une moitié de
+  la thèse**, et aucun n'est photographié : **XXVI, « Opposition des Anges et *chute
+  de l'Homme* » (p. 193-202)** et **XXIII, « *La Montagne du Califat* »
+  (p. 169-174)**. S'y ajoute **XIV, « Les Califes-Pôles » (p. 109-114)**.
+  ⚠️ Avertissement joint : **un titre de chapitre n'est pas un argument**, et la
+  coïncidence des titres avec l'intuition est précisément ce qui invite à lire trop
+  vite.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : bee1565
+
 ## [2026-08-30] discernement | Thèse d'unification de Sidy — la chute, la réalisation, et les deux aspects de Qâf
 
 - **Intuition de Sidy** : « le thème de ce dossier est *la chute* du paradis, la

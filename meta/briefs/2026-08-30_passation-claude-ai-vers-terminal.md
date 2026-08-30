@@ -91,24 +91,57 @@ n'est pas acquise.
 
 `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres.md`
 
-**Point bloquant, et il l'est toujours** : le « il abaisse » du Calife est-il
-l'*isqāṭ*-châtiment d'ar-Râzî, ou la « **réalisation descendante** » de Vâlsan ?
-Deux descentes, un seul mot français, l'une déchéance et l'autre perfection. **Rien
-ne peut être figuré au rendu avant ce verdict.**
+✅ **Le point bloquant est levé** (collation des pp. 104-105 et 244-245, le
+2026-08-30 même). La question était : le « il abaisse » du Calife est-il
+l'*isqāṭ*-châtiment d'ar-Râzî ou la « réalisation descendante » de Vâlsan ?
+**Réponse du texte : ni l'un ni l'autre.** Le registre dominant est **ontologique** —
+*rafʿ* et *khafḍ* sont « deux degrés existenciels fondamentaux » : *rafʿ* = la
+manifestation informelle (Anges, purs esprits, Esprit muhammadien) ; *khafḍ* =
+« l'expansion et la différenciation du Souffle **au degré individuel** ». **Aucune
+charge morale.** Et p. 245, Dieu Lui-même « revêt les attributs de "descente"
+(*nuzūl*) » : la descente n'est pas en soi une déchéance.
+
+**Deux acquis de plus, et ils comptent :**
+
+- **Le joint avec les guṇas n'est plus pressenti, il est posé** (note 33, p. 105) :
+  *ḍamma* → *sattwa*, *kasra* → *tamas*, *fatḥa* → *rajas*, avec renvoi à la figure
+  de Guénon dans *La Théorie hindoue des cinq éléments*. Combiné à la note 30
+  (*rafʿ* = *ḍamma*, *khafḍ* = *kasra*) : **rafʿ ↔ sattwa, khafḍ ↔ tamas.**
+  L'état *kari-kumi* est caduc pour ce joint.
+- ⚠️ **Distinction à ne jamais perdre** : à la p. 104, *rafʿ* et *khafḍ* sont les
+  termes de l'***iʿrāb*** (la vocalisation) employés comme symboles ontologiques —
+  **ce ne sont pas les Noms divins**. Gilis renvoie le Nom *al-Khāfiḍ* ailleurs :
+  *Futūḥāt*, **chap. 558**. Le dossier porte désormais **deux objets distincts**
+  qu'il serait fatal de fondre.
+
+**Ce qui reste à trancher** : la qualification du joint (*kumiko* proposé pour le
+couple vocalique-ontologique ↔ guṇas, sur autorité de **Gilis et non d'Ibn ʿArabī** ;
+*kari-kumi* maintenu pour toute extension aux Noms divins).
 
 ## 3. 📷 Collations sur exemplaire physique — par ordre de rendement
 
 C'est ici que le terminal ne change rien : il faut les livres. Mais l'ordre a été
 **déterminé mécaniquement**, sur des index déjà transcrits au dépôt — pas au flair.
 
+> ✅ **Les deux premières entrées ont été faites le 2026-08-30 même** (Sidy a
+> photographié pp. 104-105 et 244-245). **L'index disait vrai** — la méthode de
+> désignation mécanique est validée par le résultat. Transcription :
+> `doctrinal/sources/sept-etendards-califat.md`, § « Chapitres XIII et XXXII ».
+> **Le point bloquant (3) est levé** : voir §2 ci-dessus, réécrit.
+
 | # | Ouvrage | Pages | Ce que ça débloque |
 |---|---|---|---|
-| 1 | *Les Sept Étendards du Califat* (Gilis) | **104** | *khafḍ* **et** *rafʿ* y figurent **tous deux** — très probablement le traitement du couple. **Débloque (3).** |
-| 2 | *idem* | **244-245** | *khafḍ* p. 244, ***rijāl Allāh*** p. 245 — **adjacents**. Si un texte relie l'opération aux « Hommes d'Allāh », c'est là. **Débloque (2).** |
-| 3 | *idem* | **29** | *Rafʿ ad-darajāt* — le Nom du degré 38 |
-| 4 | Vâlsan, *Les états des initiés au moment de leur mort* | — | *Futūḥāt* ch. 176. **Le pont** entre « initié » et état posthume. **Non possédé** — à obtenir. |
-| 5 | Ar-Râzî, *Traité sur les Noms divins* | ch. **XVIII** (n° de page) + ch. *al-Muʿizz*/*al-Mudhill* | pagination manquante ; le chapitre voisin complète la série de quatre Noms |
-| 6 | Un *tafsīr* classique | VII, 46-49 | les deux lectures reçues des Aʿrāf sont aujourd'hui affirmées **de mémoire** → `to-source` intégral |
+| ~~1~~ | ~~*Les Sept Étendards*~~ | ~~**104**~~ | ✅ **fait** — *khafḍ* et *rafʿ* y sont bien traités ensemble, comme **degrés d'existence** et via la vocalisation ; **et la note 33 pose la correspondance avec les guṇas** |
+| ~~2~~ | ~~*idem*~~ | ~~**244-245**~~ | ✅ **fait** — les *rijāl Allāh* y sont définis **par leur abaissement** ; renvoi au Nom *al-Khāfiḍ* : *Futūḥāt* **chap. 558** |
+| **1** | *Les Sept Étendards* | **193-202** | **chap. XXVI, « Opposition des Anges et *chute de l'Homme* »** — le titre même de la moitié « chute » de la thèse (1). Aucun relevé au dépôt |
+| **2** | *idem* | **169-174** | **chap. XXIII, « *La Montagne du Califat* »** — l'autre moitié de la thèse. Aucun relevé |
+| **3** | *idem* | **109-114** | chap. XIV, « Les Califes-Pôles » — les occurrences de *quṭb* (109, 111, 166) |
+| 4 | *idem* | **29** | *Rafʿ ad-darajāt* — le Nom du degré 38 |
+| 5 | *idem* | 81-86 et 265-272 | chap. X « L'Arbre et la Balance » ; chap. XXXV « La Balance et l'Épée » |
+| 6 | Ibn ʿArabī, *Futūḥāt* | **chap. 558** | la section sur le Nom divin *al-Khāfiḍ*, **nommément désignée par Gilis** (note 16, p. 244). C'est le **seul** endroit qui traiterait le Nom lui-même |
+| 7 | Vâlsan, *Les états des initiés au moment de leur mort* | — | *Futūḥāt* ch. 176. **Le pont** entre « initié » et état posthume. **Non possédé** — à obtenir |
+| 8 | Ar-Râzî, *Traité sur les Noms divins* | ch. **XVIII** (n° de page) + ch. *al-Muʿizz*/*al-Mudhill* | pagination manquante ; le chapitre voisin complète la série de quatre Noms |
+| 9 | Un *tafsīr* classique | VII, 46-49 | les deux lectures reçues des Aʿrāf sont aujourd'hui affirmées **de mémoire** → `to-source` intégral |
 
 > **Avertissement sur les entrées 1-3** : ce sont des **indices de pagination**.
 > Une adjacence dans un index ne prouve aucun rapport doctrinal. Le tableau dit
@@ -193,5 +226,8 @@ dans les deux sens) qui n'est **pas rendue** — elle attend le verdict (3).
 
 Le rendu est fait et vérifié ; la matière doctrinale est intégrée, sourcée et
 indexée ; **trois fiches attendent un verdict**, dont une thèse d'unification qui
-est celle de Sidy ; et **la page 104 des *Sept Étendards*** est, mécaniquement, le
-point de reprise le plus rentable.
+est celle de Sidy ; le point bloquant a été levé le soir même par la collation des
+pp. 104-105 et 244-245 ; et le point de reprise le plus rentable est désormais le
+**chapitre XXVI, « Opposition des Anges et chute de l'Homme »** — suivi du
+**chapitre XXIII, « La Montagne du Califat »** : les deux moitiés de la thèse,
+chacune titre d'un chapitre du même livre déjà en bibliothèque.
