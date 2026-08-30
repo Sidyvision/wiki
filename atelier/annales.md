@@ -10,6 +10,88 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photographiés, et une quatrième description de la discontinuité signalée au chantier
+
+- **Catalogue de la bibliothèque** — traçabilité des pages photographiées ajoutée
+  pour deux ouvrages déjà recensés : **Gloton**, *Une approche du Coran par la
+  grammaire et le lexique* (p. 412, racine ر ف ع ; p. 857, table des sourates) et
+  **al-Rāzī**, *Traité sur les Noms Divins* (ouverture du chapitre XVIII). Pour ce
+  dernier, réserve inscrite au catalogue : le cliché ne porte ni page de titre ni
+  pagination — **traducteur, éditeur et numéro de page restent à vérifier**. Prochain
+  cliché utile noté : le chapitre voisin *al-Muʿizz* / *al-Mudhill*.
+- **La p. 857 est qualifiée pour ce qu'elle est** : pièce **documentaire et
+  d'orientation** (§VII.1) — elle dit où chercher, elle ne lève aucun `to-source`.
+- **Chantier « Figurer l'incommensurable », §9.5 — signalement, aucune donnée
+  versée, aucun pixel rendu.** Le chantier portait trois descriptions de la
+  discontinuité (égale depuis chaque degré / unique / dimensionnelle). Coran LVI, 3
+  — *khāfiḍatun rāfiʿa*, dit de *al-Wāqiʿa* — en ajoute une **quatrième**, d'une
+  autre nature : un seul et même événement dit **simultanément** abaissant et
+  élevant. Or les stations 3 et 6 figurent l'une et l'autre une discontinuité **sans
+  orientation**.
+- **Un acquis déjà rendu s'en trouve appuyé** : la station 4 (« le centre n'est pas
+  fixe ») reposait sur la relativité guénonienne des guṇas à l'état pris pour base ;
+  Rāzī dit de son côté que les deux Noms déterminent l'élévation ou la chute « **en
+  degrés** » — un degré n'est pas haut ou bas en soi. Même chose de forme, deux
+  versants. Joint *kumiko* pressenti, état *kari-kumi*, **verdict à Sidy**.
+- **Ce qui bloque, dit net au chantier** : le « il abaisse » du Calife est-il
+  l'*isqāṭ*-châtiment de Rāzī ou la « réalisation descendante » de Vâlsan ? Deux
+  descentes que le français confond, l'une déchéance et l'autre perfection. Figurer
+  un axe à deux sens avant de le savoir serait l'erreur même que ce chantier
+  documente à répétition.
+- **Rapprochement séduisant écarté** : la lettre *qāf* (degré 17, le Trône qui
+  enveloppe) et *Jabal Qāf* (la montagne qui entoure, = Meru chez Guénon) portent le
+  même nom et se décrivent pareillement. Aucun texte ne pose l'identité —
+  coïncidence nominale, refusée comme l'a été la gématrie du §5 bis.
+- **Instruction doctrinale correspondante** : `doctrinal/annales.md`, même date.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : bb85c09
+
+## [2026-08-30] rd/instrument | Report des six trouvailles au prototype — sept stations de navigation
+
+- **Commande exécutée** (brief `meta/briefs/2026-08-30_passation-instrument-vers-claude-ai.md`,
+  §2) : reporter les trouvailles au prototype « de façon digeste,
+  navigable/pratique, car il s'agit d'un instrument de *navigation* (*sulūk*,
+  contemplation) ».
+- **Parti retenu : des stations, non un diagramme enrichi.** Un instrument de
+  parcours ne se lit pas, il se traverse. Sept stations (0-6), une seule active à
+  la fois, une seule chose dite par station — et, dans la même fenêtre, la
+  **garde** : ce que la station ne prouve pas. Tout est **touchable** (Sidy
+  travaille sur iPad, le clavier peut manquer) ; les touches 0-6 et les flèches
+  ne sont qu'un doublon. Stations : 1 ampleur/exaltation · 2 le saut de dimension
+  (plan → volume) · 3 l'incommensurabilité · 4 le centre n'est pas fixe ·
+  5 l'état humain pour référence · 6 la surface des Eaux.
+- **Deux corrections imposées au rendu existant.** *(a)* Le halo du sommet était
+  un cône se rétrécissant vers le haut — donc une convergence, donc une figure
+  disant « on s'approche du terme », ce que la contrainte 2 du chantier interdit ;
+  le §2 l'avait relevé sans que le rendu en tire la conséquence. Remplacé par une
+  bande de section constante. *(b)* Son étiquette passe de « Hāhūt (1–10) — degrés
+  non manifestés » à « 1–10 · Le Degré divin — pré-lettrés », sur la collation de
+  la p. 35 de Gloton faite le soir même (voir `doctrinal/annales.md`) : « Hāhūt »
+  était une attribution du Gem, jamais une source, et « non manifestés » n'est pas
+  dit par la source, qui numérote au contraire ces dix degrés.
+- **Une erreur commise en chemin, consignée pour elle-même** (chantier §9.2) : la
+  station 3 avait d'abord été tracée dans la scène 3D, avec des marques
+  rigoureusement égales **en coordonnées de monde** — et le rendu les a montrées
+  **convergeant en entonnoir** vers le bas de l'axe. Une projection perspective
+  est, par définition, une mesure de distance à un point de vue : le rendu peut
+  donc réintroduire par la caméra la commensurabilité que la géométrie avait
+  exclue. Marques sorties de la scène et tracées en pixels — l'égalité doit être
+  vraie **à l'écran**, où le regard la vérifie.
+- **Ce qui n'a pas été fait, délibérément** : aucune donnée modifiée
+  (`instrument-donnees.yaml` inchangé, flux à sens unique dépôt → manifeste →
+  interface) ; aucun discernement tranché — deux 🔍 sont portés à l'écran (le
+  degré 37 comme état humain, joint jamais instruit, Cmd 3 ; le rapport entre la
+  discontinuité *unique* de la station 6 et celle, *égale depuis chaque degré*,
+  de la station 3) ; l'Option A du chantier reste bloquée, c'est l'Option C —
+  directement sourcée — qui est en station 3.
+- **Vérification mécanique indépendante** (§VIII.2, jamais sur auto-rapport) :
+  rendu exécuté au navigateur (Chromium, viewport iPad 1024×1366), les sept
+  stations affichées et relues **sur capture**, déplacement du plan de base
+  contrôlé dans les deux sens, aucune erreur JavaScript.
+  `python3 verifier-invariants.py --racine /root/wiki` → `0 erreur(s), 0 avertissement(s).`
+- **Commit** : d20de1c
+
 ## [2026-08-30] rd/instrument | Chantier « Figurer l'incommensurable » — la figure est trouvée, et elle est dimensionnelle
 
 - **Commande** : Sidy, 2026-08-30 — se concentrer sur l'Instrument sans

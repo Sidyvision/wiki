@@ -23,7 +23,7 @@ cross_links: ["[[doctrinal/autorites/al-jurjani]]", "[[doctrinal/sources/kitab-t
 
 ## 1. Objet de l'étude
 
-Le pôle Usûl du dépôt (validé le 2026-08-27, cf. [[meta/projet-unifie/proposition-pole-usul-2026-08-27]]) élargit l'ancien pôle Fiqh en accueillant trois branches — `fiqh`, `mantiq`, `mustalah-hadith` — sans que leur architecture terminologique propre ait été instruite. Cette étude pose la **base saine** : les termes qui fondent le pôle lui-même, tels qu'établis par une autorité textuelle classique.
+Le pôle Usûl du dépôt (validé le 2026-08-27) élargit l'ancien pôle Fiqh en accueillant trois branches — `fiqh`, `mantiq`, `mustalah-hadith` — sans que leur architecture terminologique propre ait été instruite. Cette étude pose la **base saine** : les termes qui fondent le pôle lui-même, tels qu'établis par une autorité textuelle classique.
 
 ## 2. La triade *uṣūl / furūʿ / iṣṭilāḥ*
 

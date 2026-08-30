@@ -13,6 +13,36 @@ updated: 2026-08-30
 > **intégrée et commitée** ; ce qui reste est un travail de **rendu sur le
 > prototype**, qui n'a pas été commencé.
 
+## 0. Suite donnée — session claude.ai du 2026-08-30 (soir)
+
+> **La passation est exécutée.** Les deux pièces qui restaient sont closes.
+>
+> 🔁 **Passation retour** : la session claude.ai rend la main au terminal le même
+> jour. Point de reprise :
+> [[meta/briefs/2026-08-30_passation-claude-ai-vers-terminal]] — **ce brief-ci est
+> clos, celui-là prend le relais.**
+
+| Point du brief | État |
+|---|---|
+| **§2 — LA TÂCHE : reporter les six trouvailles au prototype** | ✅ **fait** — sept stations de navigation (0-6), commit `d20de1c`. Détail : `atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable.md` §9 |
+| **§5.3 — degrés 1-10 du *Nafas al-Raḥmān*** (« seule pièce qui demande une action de Sidy ») | ✅ **clos** — Sidy a fourni le cliché de la p. 35 le soir même ; `to-source` levé, commit `f09429b` |
+| §5.1, §5.2, §5.4, §5.5, §5.6 | ouverts, non traités — hors périmètre |
+| §6 — matière disponible en `raw/` | non exploitée (`raw/` gitignoré, inaccessible hors serveur) |
+
+**Trois choses en sont sorties qui n'étaient pas prévues au brief :**
+
+1. **Le halo du sommet du rendu était faux dans sa géométrie même** — un cône se
+   rétrécissant vers le haut, donc une convergence, donc l'erreur exacte que la
+   contrainte 2 interdit. Corrigé en bande de section constante.
+2. **« Hāhūt » n'est pas de Gloton.** La collation de la p. 35 donne le titre que
+   la source porte : « Le Degré divin ». L'assimilation venait du Gem (persona
+   IA, jamais source) et **contredit la fiche-table elle-même**. Tension relevée,
+   **non tranchée — verdict à Sidy** (voir `doctrinal/annales.md`).
+3. **Une erreur de rendu commise et consignée** : des marques rigoureusement
+   égales en coordonnées de monde se projettent **inégales** en perspective. Une
+   figure juste dans le monde peut mentir à l'écran ; la caméra réintroduit la
+   mesure que la géométrie avait exclue. Corrigé en espace-écran.
+
 ## 1. Reprise en trois commandes
 
 ```bash
