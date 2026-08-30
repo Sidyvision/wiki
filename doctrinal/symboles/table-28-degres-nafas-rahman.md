@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [nafas-rahmani, hadarat-khams, maratib-al-wujud, fusus-al-hikam, manazil-al-qamar, ilm-al-huruf, ibn-arabi, futuhât, gloton, wiki-manifest]
 created: 2026-07-01
-updated: 2026-08-25
+updated: 2026-08-30
 sources: ["[[meftah-symbolisme-universel-chatons-albouraq]]", "[[ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"]
 sources_count: 2
 cross_links: ["[[nafas-rahmani]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]", "[[ilm-al-huruf]]", "[[al-insan-al-kamil]]", "[[barzakh]]"]
@@ -43,6 +43,60 @@ cross_links: ["[[nafas-rahmani]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]", 
 
 ---
 
+## ⚠️ Convention de numérotation — à lire avant toute table de cette fiche
+
+> **Amendement du 2026-08-30, sur collation photographique des pp. 36-38 et 91-94
+> de Gloton (clichés `raw/assets/IMG_0362`, `IMG_0363`, `IMG_0364`, `IMG_0366`,
+> `IMG_0367`, déposés par Sidy).** Cette fiche fait coexister **trois
+> numérotations distinctes**. Elles ont été confondues jusqu'à ce jour, ce qui a
+> produit une contradiction interne réputée bloquante — laquelle **n'existait pas
+> dans la source**. Application directe de la règle dégagée par
+> `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme.md`
+> (§4.2) : *une page = un système de numérotation, ou bien chaque table porte en
+> tête l'origine dont elle relève.*
+
+| Système | Étendue | Origine | Statut |
+|---|---|---|---|
+| **(γ) Degrés du Nafas al-Raḥmān** — **CANONIQUE** | 1–38 : degrés 1–10 pré-lettrés + **degrés 11–38 = les 28 lettres** | Table courante de Gloton, pp. 36-40, **photographiée** | **fait foi** |
+| (δ) Indice de lettre | 1–28 | Anneau externe de la **Figure 4**, p. 94 | valide, mais **c'est un indice de lettre, pas un degré** |
+| (α) Distribution en 28 degrés dans les *Ḥaḍarāt* | 1–28 | **Gem René Guénon**, 2026-07-01 | §VII.3 — **reconstruction plausible, jamais source** |
+
+**Règle de conversion (δ) → (γ), vérifiée terme à terme** :
+
+```
+degré (γ)  =  indice de lettre (δ)  +  10
+```
+
+hamza 1 → **11** · qâf 7 → **17** · kâf 8 → **18** · jîm 9 → **19**, chaque fois
+concordant avec la table courante des pp. 36-38. **Les deux numérotations sont le
+même ordre**, lu depuis deux origines.
+
+**Ce que la collation établit, contre ce que cette fiche portait** :
+
+- Le **Trône divin (*al-ʿarsh*) est au degré 17** (lettre qâf) et le **Piédestal
+  (*al-kursī*) au degré 18** (lettre kâf) — Gloton p. 38, table courante, cliché
+  `IMG_0363`. Le degré 19 (jîm) est la Sphère sans étoiles et **ouvre la section
+  « 4 - Les sphères célestes »** du livre.
+- Les **Figures 1 (p. 91) et 2 (p. 92) ne portent aucune numérotation** : ce sont
+  des diagrammes **concentriques**. Le rang de leurs anneaux avait été lu comme
+  une suite de numéros de degrés, d'où les placements fautifs du Trône et du
+  Piédestal aux degrés 9, 10 ou 11 dans les sections ci-dessous. **Ces sections
+  sont conservées, marquées ⚠️** (Cmd 10 — jamais de suppression sèche), comme
+  trace de l'erreur et de sa correction.
+- La mention « Figures 1 et 2, non encore numérotées dans le texte » que cette
+  fiche portait déjà plus bas était **juste** ; c'est ailleurs qu'elle se
+  contredisait elle-même.
+
+**Conséquence pour l'Instrument** : `atelier/rd/instrument/instrument-donnees.yaml`
+portait déjà `17 · qâf — le Trône, ʿarsh`, `18 · kâf — le Piédestal, kursî`,
+`19 · jîm — la Sphère sans étoiles`. **Les données de l'Instrument étaient justes** ;
+c'est la présente fiche qui portait l'erreur. Le chantier « Figurer
+l'incommensurable » est débloqué en faveur du rendu déjà en place (degrés 11-38
+sur l'axe, 1-10 en halo non manifesté). Lien signalé, sens `doctrinal/` →
+`atelier/` interdit : consultation humaine, sans wikilink (§VI).
+
+---
+
 ## Principe de la table
 
 La procession du *Nafas al-Raḥmān* suit un ordre strictement descendant depuis les
@@ -55,7 +109,19 @@ différenciation ou numérotation — les 28 degrés commencent avec *Lāhūt*.
 
 ---
 
-## Distribution des 28 degrés (Gem, 2026-07-01)
+## Distribution des 28 degrés (Gem, 2026-07-01) — système (α)
+
+> ⚠️ **Numérotation (α), distincte de la canonique (γ)** — voir le bloc de
+> convention en tête de fiche. Cette section distribue **28 degrés numérotés 1-28**
+> dans les cinq *Ḥaḍarāt* ; elle ne se superpose **pas** aux degrés 1-38 du Nafas
+> al-Raḥmān. Elle est due au **Gem René Guénon** (persona IA) : §VII.3 du protocole
+> racine la répute **reconstruction plausible — utilisable comme piste, jamais
+> comme source**.
+>
+> **Contredite sur un point par le texte primaire** : elle place le Trône au degré 9
+> et le Piédestal au degré 10, là où la table courante de Gloton p. 38 les donne
+> aux degrés **17** et **18**. Section conservée pour trace (Cmd 10) ; ne pas s'en
+> servir pour situer le Trône ou le Piédestal sur l'axe.
 
 ### Lāhūt — Présence des Noms et Attributs (degrés 1–8)
 
@@ -85,7 +151,8 @@ Premier seuil (*barzakh*) : création sous forme purement spirituelle et univers
 | 10 | Piédestal (*al-kursī*) | — | — | — | — |
 | 11–12 | Corps Célestes Universels / Anges supérieurs [à compléter] | — | — | — | — |
 
-> **Note sur al-Kursī** (degré 10) : correspondance avec *Lāhūt* dans les *Ḥaḍarāt*
+> **Note sur al-Kursī** (degré 10 **du système (α)** — degré **18** au système
+> canonique (γ), Gloton p. 38) : correspondance avec *Lāhūt* dans les *Ḥaḍarāt*
 > déjà sourcée via *Futūhāt* chap. 198 / Meftah p. 144 — connexion établie avec la
 > couche astrologique (Phase 5 de l'Instrument). Voir [[hadarat-khams]].
 
@@ -164,9 +231,23 @@ Les sept cieux planétaires — séjours des fonctions spirituelles et des types
 > Les colonnes Lettre / Nom Divin / Façç / Manzil requièrent une photo rapprochée
 > de l'anneau externe de la Figure 4 (p. 94) pour transcription fiable.
 
-### Lāhūt — degrés 1–8 (Figure 1, p. 91)
+### ⚠️ Lāhūt — ~~degrés 1–8~~ **rangs concentriques** de la Figure 1 (p. 91)
 
-| N° | Degré cosmique | Lettre | Façç | Manzil |
+> **Corrigé le 2026-08-30 sur cliché `IMG_0364`.** La Figure 1 est un diagramme
+> **concentrique sans aucune numérotation** : « Depuis la forme du Nuage primordial
+> (*al-ʿAmāʾ*) et ce qu'il inclut jusqu'au maintien homogène du Trône. » Les
+> nombres de la colonne ci-dessous sont un **rang de lecture des anneaux**, du plus
+> extérieur au plus intérieur — **ils ne sont pas des numéros de degrés**. Colonne
+> conservée telle quelle (Cmd 10) ; en-tête rectifié.
+>
+> Ordre réel des anneaux sur le cliché, de l'extérieur vers le centre : la Nature
+> Universelle (englobante) · l'Intellect premier — la Plume (Qalam) suprême, avec
+> les Anges éperdus d'amour figurés par des points · l'Âme universelle · la Table
+> gardée avec ses deux tendances de connaissance et d'action · le carré des quatre
+> tendances (Chaleur, Sécheresse, Froideur, Humidité) · **la Matière première
+> universelle au centre**.
+
+| Rang concentrique | Terme | Lettre | Façç | Manzil |
 |---|---|---|---|---|
 | 1 | L'Intellect premier / La Plume (Qalam) suprême | Alif | — | — |
 | 2 | Les Anges éperdus d'amour | — | — | — |
@@ -177,14 +258,74 @@ Les sept cieux planétaires — séjours des fonctions spirituelles et des types
 | 7 | La Nature Universelle — Sécheresse | — | — | — |
 | 8 | La Matière première universelle (+ Froideur) | — | — | — |
 
-### Jabarūt — degrés 9–12 (Figure 2, p. 92)
+### ⚠️ Jabarūt — ~~degrés 9–12~~ **rangs concentriques** de la Figure 2 (p. 92)
 
-| N° | Degré cosmique | Lettre | Façç | Manzil |
+> **C'est ici que naissait la contradiction réputée bloquante. Corrigé le
+> 2026-08-30 sur cliché `IMG_0367`.** La Figure 2 est, comme la Figure 1, un
+> diagramme **concentrique sans numérotation** : « La configuration du Maintien
+> homogène (*istawāʾ*) du Trône, du Piédestal, des deux Pieds ou Pôles d'influence
+> (*qadamān*), l'Eau sur laquelle le Trône est situé, l'Air qui retient l'Eau, la
+> Ténèbre (*ẓulma*). » Ses anneaux, de l'extérieur au centre : Sphère symbolique de
+> la « Materia Prima » · le « Corps » universel · **le Trône (divin)**, portant la
+> mention « Les 2 Pieds » · **le Piédestal** · la Sphère symbolique sans étoiles ·
+> les sphères suivantes.
+>
+> **Les nombres 9-12 ci-dessous étaient un rang de dessin pris pour des numéros de
+> degrés.** Au système canonique (γ), Gloton p. 38 donne **Trône = degré 17**
+> (qâf), **Piédestal = degré 18** (kâf), **Sphère sans étoiles = degré 19** (jîm) —
+> voir la section établie ci-dessous. Table conservée pour trace (Cmd 10), colonne
+> renommée.
+
+| Rang concentrique | Terme | Lettre | Façç | Manzil |
 |---|---|---|---|---|
-| 9  | Le Corps universel / Sphère de la Materia Prima | — | — | — |
-| 10 | Le Trône divin (ʿArsh) + Les 2 Pieds (qadamān) | — | — | — |
-| 11 | Le Piédestal (Kursī) | — | — | — |
-| 12 | La Sphère sans étoiles | — | — | — |
+| 1 | Le Corps universel / Sphère de la Materia Prima | — | — | — |
+| 2 | Le Trône divin (ʿArsh) + Les 2 Pieds (qadamān) | — | — | — |
+| 3 | Le Piédestal (Kursī) | — | — | — |
+| 4 | La Sphère sans étoiles | — | — | — |
+
+---
+
+### ✅ Trône, Piédestal et Sphère sans étoiles — degrés 17, 18, 19 (Gloton p. 38, ÉTABLI)
+
+> **Collationné le 2026-08-30 sur le cliché `IMG_0363`** (p. 38, table courante,
+> section « 3 » puis « 4 - Les sphères célestes »). Numérotation canonique (γ).
+
+| N° (γ) | Lettre | Degré cosmique |
+|---|---|---|
+| **17** | qâf (ق) | **le Trône divin (*ʿarsh*)** |
+| **18** | kâf (ك) | **le Piédestal (*kursī*)** |
+| **19** | jîm (ج) | la Sphère sans étoiles du Zodiaque ou abyssale (*falak al-atlas*) ou Sphère des Tours (*falak al-burūj*) |
+
+**Sur le Trône (degré 17)** — « Le Souffle produit le Trône (*al-ʿarsh*) qui, dans
+sa réalité sphérique symbolique (*istidāra*), enveloppe le Cosmos entier,
+c'est-à-dire toute la manifestation formelle et informelle, donc spirituelle,
+subtile et grossière ». Il est « au-delà de la spatialité et de la temporalité, de
+la condition et du conditionné, du mouvement et du repos ». Il repose sur l'Eau
+indifférenciée de la Toute Possibilité divine (*Qurʾān* 11-7), et est entouré
+d'Anges (*Qurʾān* 39-75).
+
+**Sur le Piédestal (degré 18)** — « Il produit le Piédestal (*kursī*) et les deux
+"Pieds" ou les deux polarités (*qadamān*) s'y "posent" provenant du Trône divin. »
+« *Son Piédestal s'étend aux cieux et à la terre* » (*Qurʾān* 2-255). « C'est un
+Corps sensible (*jism maḥsūs*) qui contient en lui tous les aspects : perceptibles,
+subtils et spirituels, comme le corps humain vivant inclut en lui ces trois
+aspects. **Il est dans le Trône comme l'anneau jeté dans le désert.** » Et, phrase
+capitale pour tout rapprochement ultérieur : « **Il symbolise la première
+polarisation ou distinctivité pour que la manifestation formelle se produise.
+C'est à partir de lui que l'ordre (*amr*) et la défense (*nahy*) interviennent.** »
+
+> **Position de charnière.** Le degré 19 ouvre la section « 4 - Les sphères
+> célestes » du livre : le Piédestal est donc **la borne supérieure du cosmos
+> formel**, immédiatement sous le Trône qui l'enveloppe. La **Figure 3** (p. 93,
+> cliché `IMG_0367`) est d'ailleurs titrée « **LE PIEDESTAL** » et contient le
+> zodiaque entier, les sept Jardins, la Sphère étoilée et le degré d'Affinité
+> (*al-wasīla*) — le Kursī est bien le **contenant** de ce qui suit.
+>
+> Ce point de structure est instruit, pour lui-même, dans une fiche de
+> discernement ouverte le 2026-08-30 (`discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation`).
+> **Mention sans wikilink, délibérément** : une page orthodoxe ne pointe pas vers
+> un discernement non tranché (`doctrinal/CLAUDE.md`, étanchéité inversée). Le lien
+> existe en sens inverse.
 
 ### Malakūt — degrés 20–27 (p. 39 et suivantes — CONFIRMÉS depuis le texte)
 
@@ -260,10 +401,18 @@ la transcription lettre par lettre et l'identification des correspondances compl
 > Structure : **38 degrés totaux** — degrés 1–10 (pré-lettrés, Figures 1–2) + degrés 11–38 (28 lettres, anneau de Figure 4).
 > Les sections 39–50 (p. 41) sont des « modes d'intervention du Souffle », non des degrés cosmiques.
 
-### Degrés 1–10 — Pré-lettrés (Figures 1 et 2, non encore numérotés dans le texte)
+### Degrés 1–10 — Pré-lettrés (à établir : le texte ne les numérote pas)
 
-À compléter depuis les pages antérieures à p. 39. Correspondent au contenu de Figure 1 :
-L'Intellect premier, Anges éperdus d'amour, Âme universelle, Table gardée, Nature Universelle (4 qualités), Matière première universelle + Figures 2 : Corps universel, Trône, Piédestal, Sphère sans étoiles.
+> ⚠️ **Rectifié le 2026-08-30.** La rédaction antérieure faisait correspondre ces
+> dix degrés au contenu des Figures 1 et 2 — **c'était l'origine de l'erreur** :
+> ces figures sont concentriques et non numérotées, et le Trône comme le Piédestal
+> qu'on y lisait sont en réalité aux **degrés 17 et 18** (section établie
+> ci-dessus). Les degrés 1-10 restent donc **entièrement à établir**, depuis les
+> pages antérieures à p. 36, non encore photographiées. `to-source`.
+>
+> Ce qui est acquis : ils sont **pré-lettrés** (le degré 11 est la première lettre,
+> hamza — Gloton p. 36, cliché `IMG_0362`), donc au nombre de dix. Rien de plus
+> n'est établi à ce jour, et **aucun terme ne leur est attribué**.
 
 #### Tableau 1 (Meftah, pp. 30-31) — chapitres 1-9 des *Fuṣūṣ al-Ḥikam*
 
