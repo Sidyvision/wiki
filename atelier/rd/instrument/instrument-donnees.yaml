@@ -1,5 +1,21 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.6.0)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.7.0)
+#
+#   v0.7.0 (2026-08-30) : UNIFICATION DES AXES + champ `echelle`. Verdict de
+#     Sidy : l'Axe du Monde, le filament de l'Insān al-Kāmil, le Pôle, la
+#     colonne du milieu et sushumnâ sont UN SEUL axe sous des voiles distincts
+#     (doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions).
+#     Conséquence de rendu : les verticales parallèles du prototype sont un
+#     même axe dessiné plusieurs fois — décalage ARTEFACT, à distinguer
+#     rigoureusement du décalage DONNÉE (partitions non commensurables, ex.
+#     12 signes / 28 manāzil), qui ne doit jamais être ajusté. Mode « axe
+#     unifié » ajouté au prototype pour résorber le premier, jamais le second.
+#     Nouveau champ `registres[].echelle` (macrocosmique | microcosmique |
+#     transcalaire) : une comparaison inter-registres doit respecter l'échelle,
+#     sous peine d'erreur de catégorie — c'est celle qui avait bloqué à tort le
+#     rapprochement sept Pôles ↔ laṭāʾif (cieux planétaires = macrocosme,
+#     laṭāʾif = microcosme). Voir rd/instrument/2026-08-30_reseau-subtil-
+#     unification-axes-deux-echelles.md.
 #
 #   v0.6.0 (2026-08-29) : PREMIERS ANCRAGES INTER-REGISTRES. Deux verdicts de
 #     Sidy rendus le 2026-08-29 : Ḥaḍarāt ↔ quatre états d'Âtmâ (4 ancrages
@@ -494,6 +510,8 @@ registres:
   # --- Tasawwuf akbarien : l'axe des 38 degrés, partition en Ḥaḍarāt ---------
   # Reprend en donnée les « bandes » jusqu'ici codées en dur dans le prototype.
   - id: tasawwuf
+    echelle: transcalaire          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
+    echelle_note: "Degrés ontologiques : ni proprement cosmiques ni proprement humains."
     label: "Tasawwuf akbarien — les Ḥaḍarāt"
     fiche: doctrinal/symboles/hadarat-khams
     axe: principal              # occupe l'échelle des degrés elle-même
@@ -515,6 +533,8 @@ registres:
   # AUCUN degré akbarien n'est attribué : la qabbalah ne les donne pas, et rien
   # ici ne prétend les aligner.
   - id: qabbalah
+    echelle: transcalaire          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
+    echelle_note: "Émanations cosmiques, mais Guénon en prend la CORRESPONDANCE HUMAINE pour comparer aux chakras — d'où le caractère transcalaire."
     label: "Qabbalah — l'Arbre séphirothique"
     fiche: doctrinal/sources/kabbale-10-sefirot-structure
     axe: parallele              # ordre le long de l'axe, sans échelle de degrés
@@ -581,6 +601,8 @@ registres:
   # Donnée non exploitée à ce jour : idâ ↔ Lune, pingalâ ↔ Soleil, sushumnâ ↔
   # principe igné.
   - id: hindouisme-tantra
+    echelle: microcosmique          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
+    echelle_note: "Centres « localisés » dans le corps humain (divisions de la colonne vertébrale). Leur pendant macrocosmique est la série des sept lokas, non déclarée."
     label: "Hindouisme (Tantra) — les chakras sur sushumnā"
     fiche: doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme
     axe: parallele
@@ -640,6 +662,8 @@ registres:
   # DISTINCT du registre `hindouisme-tantra` : autre ouvrage, autre doctrine
   # (États d'Âtmâ vs Kundalinî/chakras) — non fondu, malgré l'origine commune.
   - id: vedanta
+    echelle: transcalaire          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
+    echelle_note: "Vaishwânara est à la fois Virāj (macrocosme) et l'état de veille individuel (microcosme)."
     label: "Vêdânta — les quatre états (pâdas) d'Âtmâ"
     fiche: doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya
     axe: parallele

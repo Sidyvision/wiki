@@ -63,7 +63,8 @@
     <i style="background:#d9d3ea"></i>nœud universel (hors arbre-tradition)<br>
     <i style="background:var(--argent)"></i>bezel zodiacal (signes / manāzil / maisons — toucher un cran)<br>
     <i style="background:#cfe4d8"></i>registre parallèle (autre partition du même axe)<br>
-    <i style="background:#d9a441"></i>canal solaire (<i style="background:#9fb4c9"></i>lunaire) — voie latérale, jamais un centre
+    <i style="background:#d9a441"></i>canal solaire (<i style="background:#9fb4c9"></i>lunaire) — voie latérale, jamais un centre<br>
+    <span id="bascule-axe" style="cursor:pointer;text-decoration:underline dotted">mode : <b id="mode-axe">VUE ÉCLATÉE</b> — touche U : un seul axe sous tous les voiles</span>
   </div>
 </div>
 
@@ -255,6 +256,11 @@ var posHommeUniversel = null;
 // Registres — partitions du MÊME axe vertical, une par tradition. Vide en repli :
 // le registre est une notion introduite avec le manifeste v0.2.3 / données v0.4.0.
 var REGISTRES = [];
+// Mode de rendu de l'axe : false = vue éclatée (lisible), true = axe unifié.
+// L'unité de l'axe est un VERDICT (2026-08-30) ; la vue éclatée n'est qu'une
+// commodité de lecture. Voir le bloc « MODE AXE UNIFIÉ » plus bas.
+var AXE_UNIFIE = false;
+var objetsFilament = null;   // renseigné au tracé du filament al-Insān al-Kāmil
 
 // ---- Dérivation depuis le manifeste -----------------------------------------
 //   Quand wiki-manifest.json a pu être lu, il REMPLACE intégralement les
@@ -709,14 +715,24 @@ var disques = [];
 // -- Filament : al-Insān al-Kāmil (validé 2026-07-01) --
 (function(){
   var x = .6;
-  var fil = ligne([new THREE.Vector3(x, yDeg[11] + .4, 0), new THREE.Vector3(x, yDeg[38] - .4, 0)], 0xf2f2fa, .9, false);
+  // Le filament est tracé en x=0 dans sa géométrie, puis DÉCALÉ par position.x :
+  // ainsi le mode « axe unifié » n'a qu'à ramener position.x à 0 pour le faire
+  // rejoindre l'axe — dont il n'a, selon le verdict du 2026-08-30, jamais été
+  // distinct (décalage-artefact de pure lisibilité).
+  var fil = ligne([new THREE.Vector3(0, yDeg[11] + .4, 0), new THREE.Vector3(0, yDeg[38] - .4, 0)], 0xf2f2fa, .9, false);
+  fil.position.x = x; fil.userData.__xEclate = x;
   monde.add(fil);
   var noeud = marqueur(.28, "#ffffff", true);
   noeud.position.set(x, yEntre(19, 20), 0);
   noeud.userData = {label: FILAMENT.label + " — filament traversant",
-    deg:"traverse les cinq Présences (rendu validé le 2026-07-01) ; identité à quatre voiles traditionnelles (tasawwuf/qabbalah/taoïsme/vêdânta) établie le 2026-07-26, discernement clos",
+    deg:"traverse les cinq Présences (rendu validé le 2026-07-01) ; identité à quatre voiles traditionnelles (tasawwuf/qabbalah/taoïsme/vêdânta) établie le 2026-07-26, discernement clos ; UN SEUL AXE avec l'Axe du Monde, le Pôle, la colonne du milieu et sushumnâ (verdict du 2026-08-30) — toucher U pour l'unifier au rendu",
     src: FILAMENT.src + " ; " + SOURCE_HOMME_UNIVERSEL};
+  // Posé APRÈS l'affectation ci-dessus, qui remplace userData en entier :
+  // le poser avant le perdait, et le mode éclaté rendait alors position.x
+  // indéfini. Défaut relevé par le test de bascule, non par relecture.
+  noeud.userData.__xEclate = x;
   monde.add(noeud); interactifs.push(noeud);
+  objetsFilament = [fil, noeud];
 
   // -- Homme Universel : nœud universel, équivalence établie avec le filament
   //    (hozo, verdict Sidy 2026-07-26) — même traitement que les Aqtâb.
@@ -788,8 +804,31 @@ var posNotionnels = {};
   var Z_BASE = -6.0;             // retrait en profondeur du premier registre
   var Z_PAS  = -3.2;             // retrait supplémentaire par registre suivant
 
+  // -- MODE « AXE UNIFIÉ » (verdict Sidy 2026-08-30) -----------------------
+  //   L'Axe du Monde, le filament de l'Insān al-Kāmil, le Pôle, la colonne du
+  //   milieu et sushumnâ sont UN SEUL axe. Les verticales parallèles tracées
+  //   ici sont donc un même axe dessiné plusieurs fois : le retrait en
+  //   profondeur est un DÉCALAGE-ARTEFACT, de pure lisibilité.
+  //   Il ne faut surtout pas le confondre avec le DÉCALAGE-DONNÉE des
+  //   partitions non commensurables (12 signes / 28 manāzil), qui, lui, ne
+  //   doit JAMAIS être ajusté (spec-anneau-zodiacal §3.4).
+  //   Le mode unifié résorbe le premier, jamais le second : chaque registre
+  //   revient sur l'axe unique (z → 0), les niveaux restant à leur hauteur
+  //   propre — les partitions ne sont pas alignées entre elles, elles sont
+  //   seulement rendues sur la même verticale.
+  //   Voir doctrinal/discernement/2026-08-30_unification-axes-verticaux-
+  //   traditions.md (consultation R&D, sens unique).
+  var groupesRegistres = [];   // {groupe, zEclate}
+  var liensEtablisHU = [];     // {ligne, depuis, versLocal, groupe} — à reconstruire au basculement
+
   PAR.forEach(function(reg, ir){
     var z = Z_BASE + ir * Z_PAS;
+    var gReg = new THREE.Group();
+    gReg.position.z = z;
+    monde.add(gReg);
+    groupesRegistres.push({groupe: gReg, zEclate: z});
+    // À l'intérieur du groupe, tout est tracé en z LOCAL = 0.
+    var zL = 0;
 
     // -- Niveaux : dérivés MÉCANIQUEMENT des rangs et colonnes déclarés.
     //    Un domaine « gauche » suivant immédiatement un « droite » partage son
@@ -842,9 +881,9 @@ var posNotionnels = {};
       var n2 = Math.max.apply(null, occup.map(function(d){ return d._niv; }));
       var decl = (reg.colonnes && reg.colonnes[c]) || null;
       var corr = decl && decl.correspondance_cosmique;
-      monde.add(ligne([
-        new THREE.Vector3(xDeCol(c), yDuNiveau(n1) + .5, z),
-        new THREE.Vector3(xDeCol(c), yDuNiveau(n2) - .5, z)
+      gReg.add(ligne([
+        new THREE.Vector3(xDeCol(c), yDuNiveau(n1) + .5, zL),
+        new THREE.Vector3(xDeCol(c), yDuNiveau(n2) - .5, zL)
       ], teinteDe(corr), c === "milieu" ? .5 : .3, c !== "milieu"));
     });
 
@@ -868,7 +907,7 @@ var posNotionnels = {};
           pts.push(new THREE.Vector3(
             Math.sin(ang) * ECART_COL * .55,
             yA + (yB - yA) * t,
-            z + Math.cos(ang) * ECART_COL * .55
+            zL + Math.cos(ang) * ECART_COL * .55
           ));
         }
         var hel = ligne(pts, teinteDe(cn.correspondance_cosmique), .42, false);
@@ -880,14 +919,14 @@ var posNotionnels = {};
              + (cn.note ? " · " + cn.note : ""),
           src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
         };
-        monde.add(hel); interactifs.push(hel);
+        gReg.add(hel); interactifs.push(hel);
       });
     }
 
     // -- Les centres du registre --
     doms.forEach(function(d){
       var col = d.colonne || "milieu";
-      var p = new THREE.Vector3(xDeCol(col), yDuNiveau(d._niv), z);
+      var p = new THREE.Vector3(xDeCol(col), yDuNiveau(d._niv), zL);
       var sph = marqueur(.3, "#cfe4d8", false);
       sph.position.copy(p);
       sph.userData = {
@@ -899,7 +938,7 @@ var posNotionnels = {};
            + " — aucun degré akbarien attribué : la tradition ne le donne pas",
         src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
       };
-      monde.add(sph); interactifs.push(sph);
+      gReg.add(sph); interactifs.push(sph);
 
       // -- Équivalence établie déjà verdictée (ex. Homme Universel ↔ Vaishwânara) --
       // Pilotée par la donnée (HOMME_UNIVERSEL.cibles, manifeste v0.2.4) : ne
@@ -908,13 +947,51 @@ var posNotionnels = {};
       // ni vers qabbalah/hindouisme-tantra.
       if (posHommeUniversel && HOMME_UNIVERSEL.cibles
           && HOMME_UNIVERSEL.cibles.indexOf(d.id) !== -1){
-        monde.add(ligne([posHommeUniversel, p], 0xd8493a, .85, false));
+        // posHommeUniversel est en coordonnées MONDE, p en coordonnées locales
+        // du groupe : on ramène la source dans le repère du groupe, et on
+        // enregistre la ligne pour la reconstruire au basculement de mode
+        // (le nœud Homme Universel, lui, ne bouge pas).
+        var depuisLocal = posHommeUniversel.clone();
+        depuisLocal.z -= gReg.position.z;
+        var lHU = ligne([depuisLocal, p], 0xd8493a, .85, false);
+        gReg.add(lHU);
+        liensEtablisHU.push({ligne: lHU, depuis: posHommeUniversel.clone(), vers: p.clone(), groupe: gReg});
       }
     });
 
     var titre = etiquette(abreger(reg.label, 30), .52, "rgba(207,228,216,.7)");
-    titre.position.set(0, yDuNiveau(1) + 1.5, z); monde.add(titre);
+    titre.position.set(0, yDuNiveau(1) + 1.5, zL); gReg.add(titre);
   });
+
+  // -- Bascule du mode : touche « U », ou clic sur l'entrée de légende -------
+  //   Le mode ne change AUCUNE donnée : il ne fait que résorber le
+  //   décalage-artefact. Aucune hauteur, aucun rang, aucune partition n'est
+  //   modifié — seule la profondeur de rendu l'est.
+  window.__basculerAxeUnifie = function(force){
+    AXE_UNIFIE = (typeof force === "boolean") ? force : !AXE_UNIFIE;
+    groupesRegistres.forEach(function(g){
+      g.groupe.position.z = AXE_UNIFIE ? 0 : g.zEclate;
+    });
+    // Le filament de l'Insān al-Kāmil rejoint l'axe : c'est le même axe.
+    if (objetsFilament) objetsFilament.forEach(function(o){
+      o.position.x = AXE_UNIFIE ? 0 : o.userData.__xEclate;
+    });
+    // Les lignes d'équivalence établie sont reconstruites : le nœud source ne
+    // bouge pas, la cible suit son registre.
+    liensEtablisHU.forEach(function(L){
+      var d = L.depuis.clone(); d.z -= L.groupe.position.z;
+      L.ligne.geometry.setFromPoints([d, L.vers]);
+      L.ligne.geometry.attributes.position.needsUpdate = true;
+      L.ligne.geometry.computeBoundingSphere();
+    });
+    var ind = document.getElementById("mode-axe");
+    if (ind) ind.textContent = AXE_UNIFIE ? "AXE UNIFIÉ" : "VUE ÉCLATÉE";
+  };
+  window.addEventListener("keydown", function(e){
+    if (e.key === "u" || e.key === "U") window.__basculerAxeUnifie();
+  });
+  var lg = document.getElementById("bascule-axe");
+  if (lg) lg.addEventListener("click", function(){ window.__basculerAxeUnifie(); });
 })();
 
 // -- Les quatre Angles de l'Espace --

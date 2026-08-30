@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-29
+updated: 2026-08-30
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,50 @@ updated: 2026-08-29
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-30] rd/instrument | AXE UNIFIÉ (v0.7.0) + champ `echelle` + déduction du réseau subtil
+
+- **Déduction (fiche R&D)** :
+  `atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md`.
+  Travail de déduction demandé par Sidy. Établit que les deux séries
+  prophétiques relèvent de **deux relations** (résidence/régence) et de **deux
+  échelles** (macro/micro), résout l'obstacle que j'avais posé à tort, et
+  distingue deux sortes de décalage dans l'Instrument : le **décalage-donnée**
+  (partitions non commensurables — ne doit JAMAIS être ajusté) et le
+  **décalage-artefact** (un même objet dessiné plusieurs fois pour la
+  lisibilité — doit pouvoir être résorbé).
+- **Donnée (`instrument-donnees.yaml` v0.7.0)** : nouveau champ
+  `registres[].echelle` (`macrocosmique | microcosmique | transcalaire`), pour
+  que la règle d'échelle soit portée par la donnée et non par la seule prose.
+  Attribution : `hindouisme-tantra` microcosmique, les trois autres
+  transcalaires — **lecture soumise à Sidy, non un constat**.
+- **Outillage (`generer-manifeste.py` v0.2.6)** : validation du champ
+  `echelle` (optionnel ; valeurs contrôlées, refus bloquant si hors
+  énumération).
+- **Rendu (`instrument-prototype.html`)** : mode **« axe unifié »** commutable
+  (touche `U` ou clic sur la légende). En vue éclatée, les registres restent en
+  retrait de profondeur ; en vue unifiée, ils reviennent tous sur l'axe unique
+  (z → 0) et le filament de l'Insān al-Kāmil rejoint l'axe (x → 0). **Aucune
+  donnée n'est modifiée** : ni hauteur, ni rang, ni partition — seule la
+  profondeur de rendu l'est. Les lignes d'équivalence établie sont reconstruites
+  au basculement, le nœud source ne bougeant pas.
+- **Défaut introduit puis corrigé, relevé par le test et non par relecture** :
+  `__xEclate` était posé sur le nœud du filament *avant* une affectation qui
+  remplaçait `userData` en entier — il était donc perdu, et le retour en vue
+  éclatée aurait donné `position.x` indéfini. Corrigé (pose après
+  l'affectation), et vérifié par un aller-retour.
+- **Validation mécanique indépendante (rapport brut, §VIII point 2)** :
+  prototype **réellement exécuté** sous Chromium/Playwright.
+  Éclaté → `zRegistres [-6, -9.2, -12.4], filament x=0.6 (Line + Sprite, 2/2)` ;
+  unifié → `zRegistres [0, 0, 0], filament x=0` ; retour → valeurs initiales
+  restituées à l'identique, `ROUND-TRIP SANS PERTE : OK`, `aucune pageerror`.
+  Capture vérifiée à l'œil. Générateur : `44 nœud(s), 22 ancrage(s), 4
+  registre(s), 0 avertissement(s)`. `verifier-invariants.py` → `0 erreur(s), 1
+  avertissement(s)` (A6 préexistant). Aucun caractère Unicode invisible (Cmd 15).
+- **Suites proposées, non faites** : transcrire le ch. II de Shayegan (seule
+  pièce manquante) ; instruire cieux planétaires ↔ *lokas* (macro ↔ macro,
+  jamais tenté, les deux séries étant au dépôt) ; lire les 22 sentiers
+  séphirothiques comme réseau de canaux (piste de fond).
 
 ## [2026-08-29] rd/instrument | polarité latérale versée en donnée et RENDUE (canaux hélicoïdaux)
 

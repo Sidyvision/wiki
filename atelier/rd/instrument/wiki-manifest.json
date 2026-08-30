@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.5",
-  "generated_at": "2026-08-30T05:32:00+00:00",
-  "source_commit": "e1d3f9be162ef1d02d66490ae7ca0e94c8b2fb3f",
+  "generated_at": "2026-08-30T06:01:15+00:00",
+  "source_commit": "73b215a624026920ccbf82e7d228675e86b0106c",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -632,6 +632,8 @@
   "registres": [
     {
       "id": "tasawwuf",
+      "echelle": "transcalaire",
+      "echelle_note": "Degrés ontologiques : ni proprement cosmiques ni proprement humains.",
       "label": "Tasawwuf akbarien — les Ḥaḍarāt",
       "fiche": "doctrinal/symboles/hadarat-khams",
       "axe": "principal",
@@ -721,6 +723,8 @@
     },
     {
       "id": "qabbalah",
+      "echelle": "transcalaire",
+      "echelle_note": "Émanations cosmiques, mais Guénon en prend la CORRESPONDANCE HUMAINE pour comparer aux chakras — d'où le caractère transcalaire.",
       "label": "Qabbalah — l'Arbre séphirothique",
       "fiche": "doctrinal/sources/kabbale-10-sefirot-structure",
       "axe": "parallele",
@@ -891,6 +895,8 @@
     },
     {
       "id": "hindouisme-tantra",
+      "echelle": "microcosmique",
+      "echelle_note": "Centres « localisés » dans le corps humain (divisions de la colonne vertébrale). Leur pendant macrocosmique est la série des sept lokas, non déclarée.",
       "label": "Hindouisme (Tantra) — les chakras sur sushumnā",
       "fiche": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
       "axe": "parallele",
@@ -971,6 +977,8 @@
     },
     {
       "id": "vedanta",
+      "echelle": "transcalaire",
+      "echelle_note": "Vaishwânara est à la fois Virāj (macrocosme) et l'état de veille individuel (microcosme).",
       "label": "Vêdânta — les quatre états (pâdas) d'Âtmâ",
       "fiche": "doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya",
       "axe": "parallele",

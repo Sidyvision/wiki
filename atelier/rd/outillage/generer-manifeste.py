@@ -238,6 +238,12 @@ def valider_maisons(maisons, erreurs, avertissements):
 
 
 AXES_REGISTRE = {"principal", "parallele"}
+# v0.2.6 (2026-08-30) : échelle de lecture d'un registre. Une comparaison
+# inter-registres doit respecter l'échelle — apparier un macrocosme à un
+# microcosme est une erreur de catégorie (elle avait bloqué à tort le
+# rapprochement sept Pôles ↔ laṭāʾif). Champ OPTIONNEL : un registre qui ne le
+# déclare pas n'est pas refusé, il n'est simplement pas contrôlable sur ce point.
+ECHELLES_REGISTRE = {"macrocosmique", "microcosmique", "transcalaire"}
 
 
 def valider_registres(registres, fiches: dict, erreurs: list, avertissements: list):
@@ -281,6 +287,9 @@ def valider_registres(registres, fiches: dict, erreurs: list, avertissements: li
         axe = reg.get("axe")
         if axe not in AXES_REGISTRE:
             erreurs.append(f"{ctx} : « axe » doit valoir {sorted(AXES_REGISTRE)} (reçu {axe!r})")
+        ech = reg.get("echelle")
+        if ech is not None and ech not in ECHELLES_REGISTRE:
+            erreurs.append(f"{ctx} : « echelle » doit valoir {sorted(ECHELLES_REGISTRE)} (reçu {ech!r})")
 
         fiche = str(reg.get("fiche", "")).strip()
         if not fiche:

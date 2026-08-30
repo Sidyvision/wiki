@@ -1,13 +1,60 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-29
+updated: 2026-08-30
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-30] discernement | Unification des axes verticaux, et résolution de l'obstacle des deux séries prophétiques
+
+- **Discernement ouvert et clos** :
+  `2026-08-30_unification-axes-verticaux-traditions.md` (`traditionnel`,
+  `fruit-mur`). Verdict de Sidy : l'Axe du Monde (*skambha*, *qutb*, *stauros*,
+  *Mêru*), le filament de l'Homme Universel, le Pôle, la colonne du milieu de
+  l'Arbre séphirothique et la *suṣumnā* sont **un seul et même axe** sous des
+  voiles distincts. La fiche ne rapproche aucun terme neuf : chaque identité
+  partielle était déjà tranchée, **ce qui manquait était leur fermeture en une
+  seule**. Unification transitivement close, aucune prémisse non validée.
+- **Deux précisions posées** : (a) l'axe **n'est pas un degré** — les sept Pôles
+  siègent *à* des degrés, l'Axe *est* la verticale entière ; le mot « Pôle »
+  sert donc à deux choses distinctes, désormais séparées ; (b) l'unité est
+  **de principe** et ne se transmet pas aux partitions — elle n'aligne aucune
+  division, n'abolit aucune cloison rituelle, et ne fait pas de tout septénaire
+  un même septénaire.
+- **Obstacle levé dans `2026-08-29_sept-poles-sept-lataif.md`**, sur la remarque
+  de Sidy (« il ne faut pas confondre la résidence des Prophètes aux cieux
+  planétaires et leurs attributions aux *laṭāʾif*, les deux ne sont pas
+  mutuellement exclusifs »). **Mon objection du 2026-08-29 était mal posée** :
+  elle supposait qu'une bijection dût exister entre les deux séries. Résidence
+  (station cosmique) et régence (fonction dans l'être humain) sont **deux
+  relations distinctes**, non deux ordres d'une même relation. Le décalage des
+  rangs relève du régime déjà tranché pour l'anneau zodiacal — deux partitions
+  non commensurables d'un même continu, « le décalage est une donnée, pas un
+  défaut de rendu ».
+- **Conséquence de méthode, qui redirige le dossier** : apparier les cieux
+  planétaires aux *laṭāʾif* revient à apparier un **macrocosme** à un
+  **microcosme** — erreur de catégorie, celle que ma rédaction initiale
+  commettait. Les comparaisons licites respectent l'échelle : cieux ↔ *lokas*
+  (macro ↔ macro), *laṭāʾif* ↔ *chakras* (micro ↔ micro), et macro ↕ micro à
+  l'intérieur de chaque tradition. Structure attestée des deux côtés par des
+  sources **déjà au dépôt** : Guénon apparie les sept *lokas* aux sept
+  *chakras* ; le ch. IV de Shayegan atteste que « chez Najm Kobrâ, les sept
+  cieux astronomiques sont homologués avec les sept cieux intérieurs de
+  l'âme ».
+- **Conséquence rétroactive, favorable** : le verdict Sephiroth ↔ chakras du
+  2026-08-29 se trouve **conforté** — Guénon annonce prendre les Sephiroth dans
+  leur correspondance humaine *avant* de comparer, sa comparaison est donc
+  micro ↔ micro, forme licite. Aucun changement à la fiche, la raison en est
+  seulement mieux vue.
+- **Ce qui reste manquant** n'est plus une objection mais une **source** : la
+  liste ordonnée des sept *laṭāʾif* et de leurs régents (ch. II du commentaire
+  de Shayegan, bibliothèque physique, non transcrit).
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s), 1
+  avertissement(s)` (A6 préexistant).
 
 ## [2026-08-29] archivage | La polarité latérale de l'axe : les deux canaux solaire et lunaire
 
