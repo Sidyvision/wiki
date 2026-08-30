@@ -10,6 +10,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/bibliotheque | intégration — Arthur Avalon, *La Puissance du Serpent* (1959)
+
+Ouvrage ajouté au catalogue (§III — Orient, écritures sacrées et traditions
+occidentales), à côté d'Emmanuelli. Édition physique possédée : Éditions Dervy
+(coll. « L'Être et l'Esprit »). Source numérique : PDF `raw/695841658-La-Puissance-Du-Serpent.pdf`
+(édition antérieure Paul Derain, Lyon, 1959) converti en `raw/La-Puissance-Du-Serpent.md`
+(pymupdf4llm, 288 pages, OCR Tesseract sur planches) et copié en
+`_inbox/la-puissance-du-serpent.md` pour consultation. Trad. Charles Vachot sur
+la 4e éd. anglaise (Ganesh & Cie, Madras, 1950), préface Jean Herbert. Ouvrage
+de référence sur les chakras (*padma*), le mantra, la conscience incarnée
+(*jīvātman*), le *laya-krama* et les bases théoriques du yoga tantrique ; orné
+de 8 planches couleur + 4 tableaux.
+
+---
+
 ## [2026-08-29] réparation | Frontmatter du compte-rendu GitHub automation (clés `created`/`updated`)
 
 - **Action** : dans `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md`,
