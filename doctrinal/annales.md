@@ -9,6 +9,71 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] collation | Gloton et *L'Homme et son devenir* — la contradiction bloquante n'existait pas, et le chapitre de l'artère coronale est le XX
+
+- **Commande** : Sidy, 2026-08-30 — « revoir l'Instrument à la lumière de
+  *L'Homme et son devenir* et des photos de Gloton », avec le signalement d'une
+  correspondance entre le Kursī au degré 18 et Hokhmah/Binah. **Neuf clichés
+  déposés** dans `raw/assets/` (Gloton *De la mort à la résurrection* ; al-Jurjānī
+  *Livre des Définitions* ; table des matières du *Vêdânta*), tous lus.
+- **Le signalement de Sidy est exact** : Gloton p. 38 donne `17 | qâf | le Trône
+  divin (ʿarsh)`, `18 | kâf | le Piédestal (kursî)`, `19 | jîm | la Sphère sans
+  étoiles`, ce dernier ouvrant la section « 4 - Les sphères célestes ».
+- **La contradiction réputée bloquante n'existait pas dans la source.** Les
+  Figures 1 et 2 (pp. 91-92) sont des diagrammes **concentriques sans
+  numérotation** ; le rang de leurs anneaux avait été lu comme des numéros de
+  degrés. La Figure 4 (p. 94) numérote les 28 lettres **1-28** là où la table
+  courante les numérote **11-38** : décalage constant de 10, vérifié terme à
+  terme. Même ordre, deux origines.
+- **Corrigé** : [[doctrinal/symboles/table-28-degres-nafas-rahman]] — bloc
+  normatif de convention de numérotation ajouté en tête (trois systèmes
+  déclarés, lequel fait foi) ; degrés 17-18-19 établis sur photographie ;
+  sections fautives **conservées et marquées** (Cmd 10), colonnes renommées
+  « rang concentrique » ; degrés 1-10 rouverts comme entièrement à établir. Le
+  système (α) du Gem y est désormais flagué §VII.3 (persona = reconstruction
+  plausible, jamais source). Commit `6a26046`.
+- **Chapitres du *Vêdânta* — deux éditions.** La table des matières collationnée
+  (24 chapitres) établit que **l'artère coronale et le « Rayon solaire » est le
+  ch. XX, p. 159**. L'index web dont proviennent tous nos clippings reproduit la
+  **1ʳᵉ édition** (26 ch.) et le numérote XXI ; la source l'énonce elle-même, les
+  ch. XI et XXV y portant la mention « chapitre de la 1ʳᵉ édition supprimé
+  ultérieurement par l'auteur ». **C'est le troisième placement du même chapitre
+  en un jour** : XIX (paraphrase), XXI (correction du matin — juste dans le
+  repère web, fausse dans celui de l'exemplaire), XX (établi).
+- **Décision de Sidy** : **double numérotation** partout (« ch. XX (= XXI en
+  1ʳᵉ éd.) »), et **renommage avec pierre tombale**. Fiche renommée en `ch20`,
+  ancien slug conservé en stub `deprecated` pour que les entrées d'annales,
+  append-only, gardent leurs liens résolus **sans qu'une ligne soit réécrite**
+  (Cmd 9, Cmd 10). Nouvelle fiche
+  [[doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta]] portant
+  la table et la règle de conversion. Commit `3671100`.
+- **Ouvert** :
+  [[doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation]]
+  — le rapprochement de Sidy instruit sur texte primaire des deux côtés, trois
+  objections tenues (échelle, le nombre ne prouve rien, aucun auteur ne le pose),
+  distingué explicitement de la version déviée par gématrie de
+  [[doctrinal/symboles/merkavah-muraqaba]], confrontation Gizeh faite et négative.
+  Qualification proposée *kumiko* × *jikugumi*, homologie, **kari-kumi** ;
+  **aucun ancrage déclaré** ; verdict réservé (Cmd 12). Commit `47ee330`.
+- **Archivé** : [[doctrinal/sources/kitab-al-tarifat-jurjani]] — lots p. 47
+  (déf. 0034-0036) et p. 441 (déf. 1652-1656), qui corroborent la place du Trône
+  et du Piédestal par un auteur distinct : la déf. 1655 range le Trône et le
+  Piédestal dans le *mulk*, « monde attesté » des réalités **perceptibles**, ce
+  qui recoupe le « Corps sensible (*jism maḥsūs*) » de Gloton p. 38. Commit
+  `151e181`.
+- **Consigne de Sidy en cours de passe** : « transcris toutes les définitions que
+  tu trouves, ça nous facilite la tâche au fur et à mesure ». Les résumés ont
+  donc été **remplacés par la transcription intégrale des 8 définitions**
+  lisibles sur les deux clichés, y compris celles sans portée pour les chantiers
+  en cours et la fin de la déf. 1651 visible en haut de page. `to-source` posé
+  sur la déf. 1656, tronquée par le cadrage. Commit `f41f1f8`.
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s)` ; `generer-manifeste.py` → `46 nœud(s),
+  23 ancrage(s), 4 registre(s), 0 avertissement(s)` — inchangé, **aucune donnée
+  de l'Instrument n'était fausse**.
+- **Commit** : à la ligne suivante du présent lot.
+
+
 ## [2026-08-30] discernement | VERDICT SIDY — table cakra/laṭāʾif maintenue en kari-kumi
 
 - **Verdict** : la table de correspondance rang-par-rang *cakra*↔*laṭīfa*

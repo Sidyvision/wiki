@@ -10,6 +10,52 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/instrument | Collation Gloton — chantier « Figurer l'incommensurable » DÉBLOQUÉ, et l'Instrument était déjà juste
+
+- **Commande** : Sidy, 2026-08-30 — revoir l'Instrument à la lumière de
+  *L'Homme et son devenir* et des photos de Gloton, avec le signalement d'une
+  correspondance Kursī (degré 18) ↔ Hokhmah/Binah. Neuf clichés déposés dans
+  `raw/assets/`, tous lus.
+- **Blocage levé.** Le volet Kursī/ʿArsh de
+  [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] était
+  déclaré BLOQUÉ dans l'attente d'une collation. Résultat : **ʿArsh = degré 17,
+  Kursī = degré 18**, tous deux **dans la zone rendue** ; et la « contradiction
+  de numérotation » n'existait pas dans la source — les Figures 1 et 2 de Gloton
+  sont concentriques et non numérotées, leur rang d'anneaux ayant été pris pour
+  des numéros de degrés.
+- **Aucune donnée de l'Instrument n'était fausse.** `instrument-donnees.yaml`
+  portait déjà `17 · qâf — le Trône, ʿarsh`, `18 · kâf — le Piédestal, kursî`,
+  `19 · jîm — la Sphère sans étoiles`. Le rendu actuel (degrés 11-38 sur l'axe,
+  1-10 en halo non manifesté) est confirmé par le texte primaire. **Aucune
+  modification de donnée.**
+- **Apport positif au chantier** : le degré 19 ouvre la section « 4 - Les sphères
+  célestes » du livre, et la Figure 3 (p. 93) est titrée « LE PIEDESTAL » en
+  contenant le zodiaque entier et les sept Jardins. Le Kursī est donc la **borne
+  supérieure du cosmos formel**, le Trône qui l'enveloppe étant « au-delà de la
+  spatialité et de la temporalité ». L'articulation Kursī → ʿArsh est **exactement
+  le passage du mesurable à l'incommensurable**, sujet même du chantier, désormais
+  figurable.
+- **Rapport d'erreurs mis à jour**
+  ([[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]]) :
+  §4.2 et §4.1 marqués résolus, deux points sortis du tableau §8. Le diagnostic de
+  ma propre erreur est consigné, avec son aggravation : **j'ai fait collationner
+  les pp. 91-92 — les Figures, c'est-à-dire la pièce même qui m'avait égaré —
+  quand la réponse était aux pp. 36-38.** Nouvelle **règle de métier 6** ajoutée
+  au §7 : *un nombre lu sur une figure doit déclarer ce qu'il est (rang de dessin,
+  indice, ou degré) ; et avant de demander une collation, vérifier que la page
+  demandée porte bien l'information cherchée.*
+- **Répercuté** : double numérotation Vêdânta portée dans
+  `instrument-donnees.yaml` et les deux fiches `rd/instrument/` du jour (le
+  chapitre de l'artère coronale est le **XX**, = XXI en 1ʳᵉ éd.) ; catalogue de la
+  bibliothèque R&D enrichi des pages Jurjānī photographiées.
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s)` ; `generer-manifeste.py --repo /root/wiki` →
+  `46 nœud(s), 23 ancrage(s), 4 registre(s), 0 avertissement(s)` — **inchangé**.
+- **Commits** : `6a26046` (table des degrés), `548a770` (déblocage + règle 6),
+  `3671100` (renumérotation), `151e181` et `f41f1f8` (Jurjānī).
+- **Commit** : à la ligne suivante du présent lot.
+
+
 ## [2026-08-30] rd/instrument | données | Cellule `mandala` d'Ājñā comblée d'après la Planche VII (verdict Sidy)
 
 - **Verdict de Sidy** : combler la cellule vide plutôt que la laisser en
