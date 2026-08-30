@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, vedanta, om, matras, prajna, sushumna, nadis, rayon-solaire, krama-mukti, posthume, axe]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-30
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/eschatologie]]"]
+cross_links: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/eschatologie]]"]
 ---
 
 # L'Homme et son devenir selon le Vêdânta, ch. XV-XXI
@@ -27,6 +27,22 @@ ultérieurement, non urgente.
 >
 > **Toujours manquant** : ch. VIII (*Manas* et les dix facultés externes).
 > **Restent à transmettre** : ch. XXII à XXV.
+
+> ⚠️ **ATTRIBUTIONS DE CHAPITRES XIX-XXI : NON VÉRIFIÉES** (signalement du
+> 2026-08-30). Le texte primaire du **ch. XXI** a été déposé par Sidy et versé
+> au dépôt : c'est « **L'artère coronale et le "Rayon solaire"** »
+> ([[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]),
+> et c'est **là** que les *nâdîs* sont exposés. La présente fiche, établie sur
+> paraphrase de l'index et non sur le texte, attribue au ch. XXI « le rejet ou
+> la résorption finale » et place les *nâdîs* au ch. XIX : ces attributions
+> **ne concordent pas avec le texte primaire**.
+>
+> Conformément au Cmd 10, rien n'est supprimé : le contenu des sections
+> « Ch. XIX », « Ch. XX » et « Ch. XXI » ci-dessous est **conservé mais tenu
+> pour non vérifié** — la matière exposée peut être juste, la numérotation ne
+> l'est pas. À collationner sur l'exemplaire physique. Pour tout ce qui touche
+> l'artère coronale, les *nâdîs* et le Rayon solaire, **c'est la fiche du
+> ch. XXI qui fait foi**, étant seule établie sur le texte.
 
 ---
 

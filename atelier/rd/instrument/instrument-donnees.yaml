@@ -1,5 +1,41 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.5.2)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.7.1)
+#
+#   v0.7.1 (2026-08-30) : AVALON. Deux corrections de rendu, l'une et l'autre
+#     révélées par le test mécanique du prototype, non par relecture :
+#     1. `canal_debut` / `canal_fin` — idâ et pingalâ courent du Mūlādhāra à
+#        l'Ājñā, où elles « entrent dans la Sushumnâ » (Avalon, chap. V) ;
+#        au-dessus, plus de latéralité. Le rendu les faisait courir sur toute
+#        la hauteur du registre. Bornes nommées : Yuktatriveṇī / Muktatriveṇī.
+#     2. `sens_rang` (ascendant | descendant) — `rang` enregistre l'ordre
+#        PROPRE À CHAQUE TRADITION, et cet ordre n'a pas le même sens partout.
+#        Faute de ce champ, le rendu supposait « rang 1 = sommet » pour tous et
+#        plaçait le centre-RACINE à la couronne : hindouisme-tantra et vedanta
+#        étaient rendus À L'ENVERS depuis le 2026-08-20.
+#     Source : doctrinal/sources/avalon-serpent-power-nadis-reseau.md.
+#
+#   v0.7.0 (2026-08-30) : UNIFICATION DES AXES + champ `echelle`. Verdict de
+#     Sidy : l'Axe du Monde, le filament de l'Insān al-Kāmil, le Pôle, la
+#     colonne du milieu et sushumnâ sont UN SEUL axe sous des voiles distincts
+#     (doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions).
+#     Conséquence de rendu : les verticales parallèles du prototype sont un
+#     même axe dessiné plusieurs fois — décalage ARTEFACT, à distinguer
+#     rigoureusement du décalage DONNÉE (partitions non commensurables, ex.
+#     12 signes / 28 manāzil), qui ne doit jamais être ajusté. Mode « axe
+#     unifié » ajouté au prototype pour résorber le premier, jamais le second.
+#     Nouveau champ `registres[].echelle` (macrocosmique | microcosmique |
+#     transcalaire) : une comparaison inter-registres doit respecter l'échelle,
+#     sous peine d'erreur de catégorie — c'est celle qui avait bloqué à tort le
+#     rapprochement sept Pôles ↔ laṭāʾif (cieux planétaires = macrocosme,
+#     laṭāʾif = microcosme). Voir rd/instrument/2026-08-30_reseau-subtil-
+#     unification-axes-deux-echelles.md.
+#
+#   v0.6.0 (2026-08-29) : PREMIERS ANCRAGES INTER-REGISTRES. Deux verdicts de
+#     Sidy rendus le 2026-08-29 : Ḥaḍarāt ↔ quatre états d'Âtmâ (4 ancrages
+#     etabli, source Majmaʿ al-Bahrayn ch. VII) et Sephiroth ↔ chakras
+#     (5 etabli + 2 suggere, réserve d'interversion de Guénon). Un troisième
+#     verdict (sept Pôles ↔ sept laṭāʾif) est rendu mais NON déclarable :
+#     conflit d'ordre entre les deux séries prophétiques, source manquante.
 #
 #   v0.5.2 (2026-08-25) : `zodiaque.mode_zodiaque` (tropical|sideral) et
 #     `zodiaque.ayanamsha_deg` — verdict Sidy : l'Instrument exécute les DEUX
@@ -267,6 +303,26 @@ noeuds:
   - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
      id: universel/aqtab-lune, degre_vertical: 27, label: "Pôle de la Lune (Adam y siège)"}
 
+  # ============ Ternaire latéral et Janus (nœuds notionnels) ============
+  # Verdict Sidy 2026-08-30 : joint HOZO entre le ternaire des trois canaux
+  # (piṅgalā/suṣumnā/iḍā, avec leurs valeurs d'œil et de temps) et Janus Bifrons.
+  # L'identité est posée par Guénon lui-même, avec le mot « identique »
+  # (L'Homme et son devenir selon le Vêdânta, ch. XXI, note 7).
+  #
+  # POURQUOI DES NŒUDS NOTIONNELS, ET NON UN ANCRAGE INTER-REGISTRES :
+  #   les ancrages inter-registres joignent deux NIVEAUX de l'axe. Ce joint-ci
+  #   n'en joint aucun — « les deux canaux latéraux ne portent aucun centre », et
+  #   Janus n'occupe aucun degré. Le forcer dans la structure des registres
+  #   aurait obligé à inventer pour Janus un rang qu'il n'a pas : c'est
+  #   exactement ce que la règle du décalage-donnée interdit. Le joint est
+  #   transversal, il est donc rendu dans l'anneau des nœuds notionnels.
+  - {fiche: doctrinal/symboles/polarite-laterale-de-l-axe, tradition: universel,
+     id: universel/polarite-laterale-axe, degre_vertical: null,
+     label: "Polarité latérale de l'axe — piṅgalā/Soleil/futur · suṣumnā/igné/présent · iḍā/Lune/passé"}
+  - {fiche: doctrinal/symboles/janus-bifrons, tradition: universel,
+     id: universel/janus-bifrons, degre_vertical: null,
+     label: "Janus Bifrons — deux visages, et le véritable qu'on ne voit pas"}
+
   # ============ Homme Universel (nœud universel, hors arbre-tradition) ============
   # Identité à quatre voiles traditionnelles établie — verdict Sidy 2026-07-26
   # (doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara, clos)
@@ -321,6 +377,22 @@ ancrages:
   - {noeud: universel/homme-universel, type: equivalence, etat: etabli, directionnalite: none,
      cible: tasawwuf/al-insan-al-kamil, source: "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"}
 
+  # --- ⭐ Ternaire latéral ↔ Janus Bifrons (verdict Sidy 2026-08-30) ----------
+  # Joint HOZO, portance JIKUGUMI, nature HOMOLOGIE (aucune filiation historique
+  # alléguée, et Guénon n'en allègue aucune). Identité affirmée dans le texte :
+  # « Ce symbolisme est IDENTIQUE à celui du Janus Bifrons des Latins ».
+  # Le terme médian est de même nature des deux côtés — c'est le point décisif :
+  # de part et d'autre, le terme PRINCIPAL est celui qui n'est pas figuré
+  # (l'œil frontal « n'est représenté par aucun organe corporel » ; le véritable
+  # visage « n'est ni l'un ni l'autre de ceux que l'on peut voir »).
+  # PÉRIMÈTRE : le ternaire temporel SEUL. Le volet solsticial de Janus (les deux
+  # portes, les deux saints Jean, Cancer/Capricorne) n'est PAS couvert — non
+  # relevé au dépôt, `to-source` maintenu.
+  - {noeud: universel/polarite-laterale-axe, type: equivalence, etat: etabli, directionnalite: none,
+     cible: universel/janus-bifrons,
+     source: "[[doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons]]",
+     note: "Ternaire temporel : futur/présent/passé sous les deux voiles. Le terme médian est invisible des deux côtés."}
+
   # --- ⭐ Homme Universel → Vaishwânara (établi, hozo, verdict Sidy 2026-07-26) ---
   # Second ancrage du même nœud (schéma manifeste v0.2.4 : cible = domaine de
   # registre). Vaishwânara fait PARTIE de l'identité établie par ce même
@@ -331,6 +403,83 @@ ancrages:
   # ancrage : rien dans le verdict ne les concerne.
   - {noeud: universel/homme-universel, type: equivalence, etat: etabli, directionnalite: none,
      cible: vedanta/vaishvanara, source: "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"}
+
+  # ===========================================================================
+  # PREMIERS ANCRAGES INTER-REGISTRES (verdicts Sidy du 2026-08-29)
+  # ---------------------------------------------------------------------------
+  # Jusqu'ici AUCUN ancrage ne reliait deux registres : les registres étaient
+  # déclarés côte à côte, sans joint. Ces deux séries sont les premières à en
+  # poser, chacune sous un verdict explicite (Cmd 3, Cmd 12).
+  # Le générateur v0.2.5 exige désormais une fiche doctrinal/discernement/ en
+  # source pour tout ancrage inter-registres — garde appliquée ici.
+  # ===========================================================================
+
+  # --- ⭐ Ḥaḍarāt ↔ quatre états d'Âtmâ (établi, hozo, verdict Sidy 2026-08-29) ---
+  # Correspondance donnée par le TEXTE PRIMAIRE lui-même (Dârâ Shokûh, Majmaʿ
+  # al-Bahrayn ch. VII), non construite par le dépôt. L'ordre est préservé sans
+  # torsion, sommet contre sommet et base contre base.
+  # RÉSERVE CONSERVÉE AU DOSSIER : le joint susupta↔jabarūt est contesté par le
+  # commentateur (Shayegan, statut academique) contre le texte (statut
+  # traditionnel) ; le verdict de Sidy tranche en faveur du texte, la réserve
+  # reste documentée dans la fiche discernement. Rendu identique aux trois
+  # autres — la tension vit dans la fiche, pas dans une dégradation d'état.
+  - {noeud: tasawwuf/nasut, type: equivalence, etat: etabli, directionnalite: none,
+     cible: vedanta/vaishvanara, source: "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+     note: "jāgrat (veille) ↔ nāsūt — Majmaʿ al-Bahrayn ch. VII."}
+  - {noeud: tasawwuf/malakut-planetaire, type: equivalence, etat: etabli, directionnalite: none,
+     cible: vedanta/taijasa, source: "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+     note: "svapna (rêve) ↔ malakūt — appariement appuyé par le commentateur (homologie de l'imagination)."}
+  - {noeud: tasawwuf/jabarut, type: equivalence, etat: etabli, directionnalite: none,
+     cible: vedanta/prajna, source: "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+     note: "susupta (sommeil profond) ↔ jabarūt — SEUL joint contesté par Shayegan (« déséquilibre de niveau ») ; réserve documentée dans la fiche discernement, verdict rendu en faveur du texte primaire."}
+  - {noeud: tasawwuf/lahut, type: equivalence, etat: etabli, directionnalite: none,
+     cible: vedanta/turiya, source: "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+     note: "turīya ↔ lāhūt — « l'Ipséité pure, enveloppant et totalisant les trois mondes »."}
+
+  # --- ⭐ Sephiroth ↔ chakras (verdict Sidy 2026-08-29) -----------------------
+  # Guénon, « Kundalinî-Yoga » (Études sur l'Hindouisme). Les 10 Sephiroth se
+  # ramènent à 7 NIVEAUX par projection des couples latéraux sur la colonne du
+  # milieu — réduction mécanique, dérivée des colonnes déclarées, non postulée.
+  # L'ancrage porte sur la Sephirah de tête de chaque niveau ; les couples
+  # latéraux (Bina, Gevurah, Hod) partagent le niveau de leur symétrique et ne
+  # reçoivent pas d'ancrage propre — ce serait dédoubler un même joint.
+  # Les cinq appariements supérieurs sont ETABLI.
+  - {noeud: qabbalah/kether, type: equivalence, etat: etabli, directionnalite: none,
+     cible: hindouisme/sahasrara, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 1. Kether ↔ Sahasrāra."}
+  - {noeud: qabbalah/hokhma, type: equivalence, etat: etabli, directionnalite: none,
+     cible: hindouisme/ajna, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 2 (couple Hokhma-Bina) ↔ Ājnā."}
+  - {noeud: qabbalah/hesed, type: equivalence, etat: etabli, directionnalite: none,
+     cible: hindouisme/vishuddha, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 3 (couple Hesed-Gevurah) ↔ Vishuddha."}
+  - {noeud: qabbalah/tiferet, type: equivalence, etat: etabli, directionnalite: none,
+     cible: hindouisme/anahata, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 4. Tiferet ↔ Anāhata."}
+  - {noeud: qabbalah/netzach, type: equivalence, etat: etabli, directionnalite: none,
+     cible: hindouisme/manipura, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 5 (couple Netzach-Hod) ↔ Manipūra."}
+  # Les DEUX DERNIERS restent SUGGERE : Guénon LUI-MÊME pose une réserve
+  # d'interversion sur Yesod/Malkhut ↔ Mūlādhāra/Swādhishthāna (« il semble
+  # qu'il y ait lieu d'envisager une interversion »). Les rendre `etabli`
+  # ferait dire au texte plus qu'il ne dit.
+  - {noeud: qabbalah/yesod, type: equivalence, etat: suggere, directionnalite: none,
+     cible: hindouisme/muladhara, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 6. SUGGÉRÉ — réserve d'interversion posée par Guénon lui-même."}
+  - {noeud: qabbalah/malkhut, type: equivalence, etat: suggere, directionnalite: none,
+     cible: hindouisme/swadhishthana, source: "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+     note: "Niveau 7. SUGGÉRÉ — même réserve d'interversion."}
+
+  # --- ⛔ Sept Pôles ↔ sept centres subtils (laṭāʾif) : NON DÉCLARÉ -----------
+  # Verdict de principe rendu par Sidy le 2026-08-29 (les Prophètes comme terme
+  # moyen), MAIS aucun ancrage n'est inscriptible : les deux séries prophétiques
+  # (ordre du miʿrāj pour les Pôles, ordre de Semnânî pour les laṭāʾif) ne
+  # coïncident ni en composition ni en rang — aucun appariement terme à terme
+  # ne peut être écrit sans arbitrer d'abord lequel prévaut. Ce qui manque est
+  # une SOURCE, non un verdict.
+  # Détail de l'obstacle et pièce manquante identifiée (ch. II du commentaire de
+  # Shayegan, non encore transcrit) :
+  # [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]].
 
 zodiaque:
   degre_falak_al_buruj: 19       # 12 signes (Toit du Jardin paradisiaque)
@@ -410,6 +559,8 @@ registres:
   # --- Tasawwuf akbarien : l'axe des 38 degrés, partition en Ḥaḍarāt ---------
   # Reprend en donnée les « bandes » jusqu'ici codées en dur dans le prototype.
   - id: tasawwuf
+    echelle: transcalaire          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
+    echelle_note: "Degrés ontologiques : ni proprement cosmiques ni proprement humains."
     label: "Tasawwuf akbarien — les Ḥaḍarāt"
     fiche: doctrinal/symboles/hadarat-khams
     axe: principal              # occupe l'échelle des degrés elle-même
@@ -431,13 +582,39 @@ registres:
   # AUCUN degré akbarien n'est attribué : la qabbalah ne les donne pas, et rien
   # ici ne prétend les aligner.
   - id: qabbalah
+    sens_rang: descendant   # sens d'énumeration propre à la tradition — voir v0.7.1
+    sens_rang_note: "Kether (rang 1) est la Couronne, au SOMMET ; Malkhut (rang 10) le Royaume, en bas. Énumération descendante."
+    echelle: transcalaire          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
+    echelle_note: "Émanations cosmiques, mais Guénon en prend la CORRESPONDANCE HUMAINE pour comparer aux chakras — d'où le caractère transcalaire."
     label: "Qabbalah — l'Arbre séphirothique"
     fiche: doctrinal/sources/kabbale-10-sefirot-structure
     axe: parallele              # ordre le long de l'axe, sans échelle de degrés
+    # Colonnes enrichies le 2026-08-29 (soir). Guénon met les trois colonnes en
+    # correspondance avec les trois nâdîs du registre hindouisme-tantra —
+    # « l'axe central ou colonne du milieu, qui correspond à sushumnâ (les deux
+    # colonnes latérales étant en relation avec idâ et pingalâ) » — et rapporte
+    # Hokmah/Binah aux deux yeux droit et gauche, « correspondance microcosmique
+    # du Soleil et de la Lune » (note 25). Correspondance ACQUISE DU TEXTE et
+    # portée par le verdict Sephiroth↔chakras du 2026-08-29.
+    # NON déclarée en ancrage : elle apparie des STRUCTURES DE LATÉRALITÉ, pas
+    # des séries de centres — un schéma qui ne porte que des centres n'a rien à
+    # en rendre. Documentée ici en donnée pour que la matière ne se perde pas.
+    # Voir [[doctrinal/symboles/polarite-laterale-de-l-axe]].
     colonnes:
-      milieu: "Colonne du milieu (Équilibre)"
-      droite: "Colonne de droite (Miséricorde)"
-      gauche: "Colonne de gauche (Rigueur)"
+      milieu:
+        label: "Colonne du milieu (Équilibre)"
+        nadi_correspondant: sushumna
+        correspondance_cosmique: "principe igné"
+      droite:
+        label: "Colonne de droite (Miséricorde)"
+        nadi_correspondant: pingala
+        correspondance_cosmique: "Soleil"
+        note: "Hesed. Guénon rapporte « Miséricorde » et « Justice » aux deux bras, donc aux épaules — et aux deux anges de la tradition islamique qui y siègent (note 27)."
+      gauche:
+        label: "Colonne de gauche (Rigueur)"
+        nadi_correspondant: ida
+        correspondance_cosmique: "Lune"
+        note: "Gevurah. Même symbolisme des deux bras/épaules."
     domaines:
       - {id: qabbalah/kether, label: "Kether — la Couronne", rang: 1, colonne: milieu, nom_divin: "Aïn-Soph (son vêtement)"}
       - {id: qabbalah/hokhma, label: "Hokhma — la Sagesse", rang: 2, colonne: droite, nom_divin: "Yah"}
@@ -460,26 +637,158 @@ registres:
   # compté au nombre des chakras : « centre de conscience » au-delà des limites
   # de l'individualité (§21) — repris ici comme 7e domaine, distinct des six
   # chakras, fidèle à cette réserve du texte.
-  # Tous les centres sont sur l'axe central (sushumnā) : à la différence de la
-  # Kabbale, pas de colonnes latérales — idā et pingalā sont des CANAUX
-  # (nādīs), non des centres ; documentés ci-dessous pour mémoire, non rendus
-  # comme domaines (le schéma des registres ne porte que des centres).
+  # Tous les CENTRES sont sur l'axe central (sushumnā) : idā et pingalā sont des
+  # CANAUX (nādīs), non des centres ; documentés ci-dessous pour mémoire, non
+  # rendus comme domaines (le schéma des registres ne porte que des centres).
+  # RECTIFICATION 2026-08-29 (soir) : ne pas en conclure, comme une première
+  # rédaction l'avait fait, qu'aucune correspondance de latéralité n'existe avec
+  # la Kabbale. Guénon écrit le contraire — la colonne du milieu « correspond à
+  # sushumnâ », « les deux colonnes latérales étant en relation avec idâ et
+  # pingalâ », et les canaux reliant les Sephiroth « ne sont pas sans analogie
+  # avec les nâdîs ». Correspondance acquise du texte, non déclarée en donnée
+  # (elle apparie des structures de latéralité, pas des séries de centres —
+  # rien à rendre dans un schéma qui ne porte que des centres). Voir
+  # [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] §2.
+  # Donnée non exploitée à ce jour : idâ ↔ Lune, pingalâ ↔ Soleil, sushumnâ ↔
+  # principe igné.
   - id: hindouisme-tantra
+    sens_rang: ascendant   # sens d'énumeration propre à la tradition — voir v0.7.1
+    sens_rang_note: "Mūlādhāra (rang 1) est le centre-RACINE, à la BASE de la colonne ; Sahasrāra (rang 7) au sommet de la tête. Guénon énumère « dans le sens ascendant »."
+    echelle: microcosmique          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
+    echelle_note: "Centres « localisés » dans le corps humain (divisions de la colonne vertébrale). Leur pendant macrocosmique est la série des sept lokas, non déclarée."
     label: "Hindouisme (Tantra) — les chakras sur sushumnā"
     fiche: doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme
     axe: parallele
+    # Canaux enrichis le 2026-08-29 (soir), sur le texte intégral de Guénon
+    # désormais au dépôt. La correspondance cosmique (note 9) est une DONNÉE du
+    # texte, non une construction : « idâ est rapportée à la Lune, pingalâ au
+    # Soleil, et sushumnâ au principe igné ».
+    # ⚠️ VIGILANCE POLAIRE/SOLAIRE — ne PAS rapprocher ces Soleil/Lune des
+    # nœuds universel/aqtab-soleil (degré 24) et universel/aqtab-lune (degré 27) :
+    # là, deux DEGRÉS superposés de l'axe ; ici, deux QUALITÉS de voies latérales
+    # courant sur toute sa hauteur, n'occupant aucun rang. Homonymie de
+    # symbolisme, pas un point d'ancrage. Aucun ancrage n'est déclaré entre les
+    # deux séries. Voir [[doctrinal/symboles/polarite-laterale-de-l-axe]].
     canaux:
-      sushumna: "canal central — porte les chakras eux-mêmes"
-      ida: "canal gauche, féminin/négatif — correspond à la Lune"
-      pingala: "canal droit, masculin/positif — correspond au Soleil"
+      # Champs `oeil` et `temps` versés le 2026-08-30 depuis Guénon, L'Homme et
+      # son devenir selon le Vêdânta, ch. XXI (texte primaire, `traditionnel`) :
+      # les deux luminaires y sont « les deux yeux de Vaishwânara », en relation
+      # avec les deux nâdîs latéraux, tandis que sushumnâ « étant au milieu, est
+      # en rapport avec le troisième œil, c'est-à-dire avec l'œil frontal de
+      # Shiva ». La note 7 du même chapitre donne la valeur temporelle du
+      # ternaire. Voir doctrinal/symboles/polarite-laterale-de-l-axe.md et
+      # doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-
+      # rayon-solaire.md (consultation R&D, sens unique, signalée).
+      sushumna:
+        label: "canal central — porte les chakras eux-mêmes"
+        cote: milieu
+        correspondance_cosmique: "principe igné"
+        oeil: "œil frontal de Shiva (le « troisième œil »)"
+        temps: "le présent — « instant insaisissable, comparable au point géométrique sans dimensions »"
+        note: "« Située » à l'intérieur de l'axe cérébro-spinal, jusqu'au Brahma-randhra. Ni solaire ni lunaire : tierce qualité propre. L'œil frontal et le « principe igné » ne sont pas deux données mais une seule, nommée deux fois : le regard du troisième œil « réduit tout en cendres »."
+      pingala:
+        label: "canal droit, masculin/positif"
+        cote: droite
+        correspondance_cosmique: "Soleil"
+        colonne_sephirothique: droite
+        oeil: "œil droit de Vaishwânara"
+        temps: "le futur"
+        note: "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine droite. Guénon met la colonne séphirothique de droite (Miséricorde) en relation avec pingalâ ; Hokmah, en tête de cette colonne, est rapportée à l'œil droit, « correspondance microcosmique du Soleil » (note 25). Le ch. XXI ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
+      ida:
+        label: "canal gauche, féminin/négatif"
+        cote: gauche
+        correspondance_cosmique: "Lune"
+        colonne_sephirothique: gauche
+        oeil: "œil gauche de Vaishwânara"
+        temps: "le passé"
+        note: "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine gauche. Colonne séphirothique de gauche (Rigueur) ; Binah, en tête, rapportée à l'œil gauche, « correspondance microcosmique de la Lune » (note 25). Le ch. XXI ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
+    # Figuration traditionnelle du ternaire, donnée par Guénon : le caducée
+    # (baguette centrale = sushumnâ, deux serpents = idâ/pingalâ) et le bâton
+    # brahmanique (Brahma-danda) à sept nœuds figurant les sept lotus. Rapport
+    # signalé par Guénon avec les trois « Grandes Lumières » maçonniques.
+    figuration: "caducée · bâton brahmanique (Brahma-danda, sept nœuds) · Janus Bifrons (identité posée par Guénon, ch. XXI note 7)"
+
+    # PROLONGEMENT DE L'AXE AU-DELÀ DE L'INDIVIDU — versé le 2026-08-30.
+    # Guénon, ch. XXI : « Le rayon qui est en connexion avec l'artère coronale
+    # est appelé AUSSI sushumnâ. » Le canal individuel et le rayon universel
+    # portent le même nom ; le contact est « constant, aussi longtemps que le
+    # corps subsiste », et la communication va dans les deux sens. Champ
+    # DESCRIPTIF seulement : aucun rendu n'en dépend encore, aucun degré n'est
+    # attribué au rayon — la tradition ne le situe pas sur une échelle.
+    prolongement_axial:
+      nom: "le « Rayon solaire »"
+      identite_nominale: "porte le même nom que le canal central (sushumnâ)"
+      nature: "particularisation, ou « polarisation », du principe supra-individuel Buddhi/Mahat"
+      relie: "les états manifestés entre eux, et l'individualité à Âtmâ (le Soleil spirituel)"
+      sens: "double — descendant (rayons de la Lumière intelligible vers l'artère) et réfléchi (de l'artère au Soleil)"
+      source: "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]"
+    # BORNES DU PARCOURS LATÉRAL (Avalon, La Puissance du Serpent, chap. V) :
+    # idâ et pingalâ courent du Mūlādhāra à l'Ājñā, où elles « entrent dans la
+    # Sushumnâ ». Au-dessus d'Ājñā, plus de latéralité — seulement l'axe. C'est
+    # aussi pourquoi la figure du caducée se forme avec les DEUX PÉTALES de
+    # l'Ājñā Chakra. Les deux bornes sont nommées dans le texte :
+    #   Mūlādhāra = Yuktatriveṇī (les trois « fleuves » s'y réunissent)
+    #   Ājñā      = Muktatriveṇī (ils s'en écoulent séparément)
+    # Corrige un rendu antérieur qui faisait courir les canaux sur toute la
+    # hauteur du registre.
+    canal_debut: hindouisme/muladhara
+    canal_fin: hindouisme/ajna
+    # Détail des centres versé le 2026-08-30 depuis la table synoptique d'Avalon
+    # (La Puissance du Serpent, tableau des Chakra ; clichés déposés par Sidy).
+    # Le total des pétales des SIX premiers fait 50 — nombre des lettres de
+    # l'alphabet sanscrit, comme Guénon le relève. Sahasrāra les reprend toutes,
+    # chacune répétée vingt fois (50 × 20 = 1000) : il ne figure donc pas dans
+    # la table, étant au-delà de la série. Champs laissés VIDES là où la table
+    # ne donne rien (Ājñā : ni couleur de tattva ni forme de mandala) — jamais
+    # comblés par conjecture.
     domaines:
-      - {id: hindouisme/muladhara, label: "Mūlādhāra — centre-racine", rang: 1, colonne: milieu}
-      - {id: hindouisme/swadhishthana, label: "Swādhishthāna", rang: 2, colonne: milieu}
-      - {id: hindouisme/manipura, label: "Manipūra", rang: 3, colonne: milieu}
-      - {id: hindouisme/anahata, label: "Anāhata — région du cœur", rang: 4, colonne: milieu}
-      - {id: hindouisme/vishuddha, label: "Vishuddha — région de la gorge", rang: 5, colonne: milieu}
-      - {id: hindouisme/ajna, label: "Ājnā — le troisième œil", rang: 6, colonne: milieu}
-      - {id: hindouisme/sahasrara, label: "Sahasrāra — le lotus à mille pétales", rang: 7, colonne: milieu}
+      - {id: hindouisme/muladhara, label: "Mūlādhāra — centre-racine", rang: 1, colonne: milieu,
+         position: "centre spinal de la région au-dessous des parties génitales",
+         petales: 4, lettres: "va, sha, sha, sa",
+         tattva: "Prithivî — cohésion, excitant le sens de l'odorat", couleur_tattva: "jaune",
+         mandala: carre, bija: "Lang, sur l'éléphant", devata: "Brahmâ, sur Hamsa",
+         shakti: "Dâkinî", linga: "Svayambhu et Traipura Trikona",
+         autres_tattva: "Gandha Tattva ; l'odorat (organe de sensation) ; les pieds (organe d'action)"}
+      - {id: hindouisme/swadhishthana, label: "Swādhishthāna", rang: 2, colonne: milieu,
+         position: "centre spinal de la région au-dessus des parties génitales",
+         petales: 6, lettres: "ba, bha, ma, ya, ra, la",
+         tattva: "Ap — contraction, excitant le sens du goût", couleur_tattva: "blanc",
+         mandala: croissant, bija: "Vang, sur Makara", devata: "Vishnu, sur Garuda",
+         shakti: "Râkinî", linga: "",
+         autres_tattva: "Rasa Tattva ; le goût (organe de sensation) ; la main (organe d'action)"}
+      - {id: hindouisme/manipura, label: "Manipūra", rang: 3, colonne: milieu,
+         position: "centre spinal de la région du nombril",
+         petales: 10, lettres: "da, dha, na, ta, tha, da, dha, na, pâ, pha",
+         tattva: "Tejas — expansion, produisant la chaleur, excitant le sens de la vue, des couleurs et des formes",
+         couleur_tattva: "rouge",
+         mandala: triangle, bija: "Rang, sur un bélier", devata: "Rudra, sur un taureau",
+         shakti: "Lâkinî", linga: "",
+         autres_tattva: "Rûpa Tattva ; la vue (organe de sensation) ; l'anus (organe d'action)"}
+      - {id: hindouisme/anahata, label: "Anāhata — région du cœur", rang: 4, colonne: milieu,
+         position: "centre spinal de la région du cœur",
+         petales: 12, lettres: "ka, kha, ga, gha, nga, cha, chha, ja, jha, nya, ta, tha",
+         tattva: "Vâyu — mouvement général, excitant le sens du toucher", couleur_tattva: "gris de fumée",
+         mandala: hexagramme, bija: "Yang, sur une antilope", devata: "Ishâ",
+         shakti: "Kâkinî", linga: "Bâna et Trikona",
+         autres_tattva: "Sparsha Tattva ; le toucher (organe de sensation) ; le pénis (organe d'action)"}
+      - {id: hindouisme/vishuddha, label: "Vishuddha — région de la gorge", rang: 5, colonne: milieu,
+         position: "centre spinal de la région de la gorge",
+         petales: 16, lettres: "les voyelles a, â, i, î, u, û, ri, rî, lri, lrî, e, ai, o, au, am, ah",
+         tattva: "Akâsha — ouverture de l'espace, excitant le sens de l'ouïe", couleur_tattva: "blanc",
+         mandala: cercle, bija: "Hang, sur un éléphant blanc", devata: "Sadâshiva",
+         shakti: "Shâkinî", linga: "",
+         autres_tattva: "Shabda Tattva ; l'ouïe (organe de sensation) ; la bouche (organe d'action)"}
+      - {id: hindouisme/ajna, label: "Ājnā — le troisième œil", rang: 6, colonne: milieu,
+         position: "centre de la région entre les sourcils",
+         petales: 2, lettres: "ha et ksha",
+         tattva: "Manas (facultés mentales)", couleur_tattva: "",
+         mandala: "", bija: "Om", devata: "Shambhu",
+         shakti: "Hâkinî", linga: "Itara et Trikona",
+         autres_tattva: "Mahat, la Sûkshma Prakriti appelée Hiranyagarbha (Shatchakranirûpana, v. 52)"}
+      - {id: hindouisme/sahasrara, label: "Sahasrāra — le lotus à mille pétales", rang: 7, colonne: milieu,
+         position: "au sommet de la tête, autour du Brahma-randhra",
+         petales: 1000,
+         note: "Hors de la table synoptique d'Avalon : au-delà de la série des six. Guénon : « n'est pas compté au nombre des chakras », se rapportant « à un état qui est au-delà des limites de l'individualité ». Reprend les 50 lettres, chacune répétée vingt fois."}
 
   # --- Vêdânta : les quatre états (pâdas) d'Âtmâ ------------------------------
   # Source primaire : doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-
@@ -495,6 +804,10 @@ registres:
   # DISTINCT du registre `hindouisme-tantra` : autre ouvrage, autre doctrine
   # (États d'Âtmâ vs Kundalinî/chakras) — non fondu, malgré l'origine commune.
   - id: vedanta
+    sens_rang: ascendant   # sens d'énumeration propre à la tradition — voir v0.7.1
+    sens_rang_note: "Vaishwânara (rang 1) est la manifestation GROSSIÈRE, en bas ; Turīya (rang 4) l'inconditionné, au sommet."
+    echelle: transcalaire          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
+    echelle_note: "Vaishwânara est à la fois Virāj (macrocosme) et l'état de veille individuel (microcosme)."
     label: "Vêdânta — les quatre états (pâdas) d'Âtmâ"
     fiche: doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya
     axe: parallele

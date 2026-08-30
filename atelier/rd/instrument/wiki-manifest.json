@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.5",
-  "generated_at": "2026-08-25T16:13:07+00:00",
-  "source_commit": "c20ca82efc3d9fbdb32c3e2c8b5b0ab2ab1a9fc6",
+  "generated_at": "2026-08-30T11:13:23+00:00",
+  "source_commit": "41eb0ddd7b778bd0e25819256799d05433167db1",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -471,6 +471,33 @@
       ]
     },
     {
+      "id": "universel/polarite-laterale-axe",
+      "tradition": "universel",
+      "label": "Polarité latérale de l'axe — piṅgalā/Soleil/futur · suṣumnā/igné/présent · iḍā/Lune/passé",
+      "source": "[[doctrinal/symboles/polarite-laterale-de-l-axe]]",
+      "degre_vertical": null,
+      "question_ouverte": false,
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "universel/janus-bifrons",
+          "source": "[[doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons]]",
+          "note": "Ternaire temporel : futur/présent/passé sous les deux voiles. Le terme médian est invisible des deux côtés."
+        }
+      ]
+    },
+    {
+      "id": "universel/janus-bifrons",
+      "tradition": "universel",
+      "label": "Janus Bifrons — deux visages, et le véritable qu'on ne voit pas",
+      "source": "[[doctrinal/symboles/janus-bifrons]]",
+      "degre_vertical": null,
+      "question_ouverte": false,
+      "ancrages": []
+    },
+    {
       "id": "universel/homme-universel",
       "tradition": "universel",
       "label": "Homme Universel — Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara",
@@ -502,6 +529,8 @@
     "degre_falak_al_manazil": 20,
     "obliquite_deg": 23.44,
     "epoque_reference": null,
+    "mode_zodiaque": "tropical",
+    "ayanamsha_deg": null,
     "signes": [
       {
         "label": "Bélier",
@@ -630,6 +659,8 @@
   "registres": [
     {
       "id": "tasawwuf",
+      "echelle": "transcalaire",
+      "echelle_note": "Degrés ontologiques : ni proprement cosmiques ni proprement humains.",
       "label": "Tasawwuf akbarien — les Ḥaḍarāt",
       "fiche": "doctrinal/symboles/hadarat-khams",
       "axe": "principal",
@@ -641,7 +672,16 @@
             11,
             14
           ],
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "etabli",
+              "directionnalite": "none",
+              "cible": "vedanta/turiya",
+              "source": "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+              "note": "turīya ↔ lāhūt — « l'Ipséité pure, enveloppant et totalisant les trois mondes »."
+            }
+          ]
         },
         {
           "id": "tasawwuf/jabarut",
@@ -650,7 +690,16 @@
             15,
             18
           ],
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "etabli",
+              "directionnalite": "none",
+              "cible": "vedanta/prajna",
+              "source": "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+              "note": "susupta (sommeil profond) ↔ jabarūt — SEUL joint contesté par Shayegan (« déséquilibre de niveau ») ; réserve documentée dans la fiche discernement, verdict rendu en faveur du texte primaire."
+            }
+          ]
         },
         {
           "id": "tasawwuf/barzakh-superieur",
@@ -668,7 +717,16 @@
             21,
             27
           ],
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "etabli",
+              "directionnalite": "none",
+              "cible": "vedanta/taijasa",
+              "source": "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+              "note": "svapna (rêve) ↔ malakūt — appariement appuyé par le commentateur (homologie de l'imagination)."
+            }
+          ]
         },
         {
           "id": "tasawwuf/nasut",
@@ -677,19 +735,46 @@
             28,
             38
           ],
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "etabli",
+              "directionnalite": "none",
+              "cible": "vedanta/vaishvanara",
+              "source": "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]",
+              "note": "jāgrat (veille) ↔ nāsūt — Majmaʿ al-Bahrayn ch. VII."
+            }
+          ]
         }
       ]
     },
     {
       "id": "qabbalah",
+      "sens_rang": "descendant",
+      "sens_rang_note": "Kether (rang 1) est la Couronne, au SOMMET ; Malkhut (rang 10) le Royaume, en bas. Énumération descendante.",
+      "echelle": "transcalaire",
+      "echelle_note": "Émanations cosmiques, mais Guénon en prend la CORRESPONDANCE HUMAINE pour comparer aux chakras — d'où le caractère transcalaire.",
       "label": "Qabbalah — l'Arbre séphirothique",
       "fiche": "doctrinal/sources/kabbale-10-sefirot-structure",
       "axe": "parallele",
       "colonnes": {
-        "milieu": "Colonne du milieu (Équilibre)",
-        "droite": "Colonne de droite (Miséricorde)",
-        "gauche": "Colonne de gauche (Rigueur)"
+        "milieu": {
+          "label": "Colonne du milieu (Équilibre)",
+          "nadi_correspondant": "sushumna",
+          "correspondance_cosmique": "principe igné"
+        },
+        "droite": {
+          "label": "Colonne de droite (Miséricorde)",
+          "nadi_correspondant": "pingala",
+          "correspondance_cosmique": "Soleil",
+          "note": "Hesed. Guénon rapporte « Miséricorde » et « Justice » aux deux bras, donc aux épaules — et aux deux anges de la tradition islamique qui y siègent (note 27)."
+        },
+        "gauche": {
+          "label": "Colonne de gauche (Rigueur)",
+          "nadi_correspondant": "ida",
+          "correspondance_cosmique": "Lune",
+          "note": "Gevurah. Même symbolisme des deux bras/épaules."
+        }
       },
       "domaines": [
         {
@@ -698,7 +783,16 @@
           "rang": 1,
           "colonne": "milieu",
           "nom_divin": "Aïn-Soph (son vêtement)",
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "etabli",
+              "directionnalite": "none",
+              "cible": "hindouisme/sahasrara",
+              "source": "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+              "note": "Niveau 1. Kether ↔ Sahasrāra."
+            }
+          ]
         },
         {
           "id": "qabbalah/hokhma",
@@ -706,7 +800,16 @@
           "rang": 2,
           "colonne": "droite",
           "nom_divin": "Yah",
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "etabli",
+              "directionnalite": "none",
+              "cible": "hindouisme/ajna",
+              "source": "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+              "note": "Niveau 2 (couple Hokhma-Bina) ↔ Ājnā."
+            }
+          ]
         },
         {
           "id": "qabbalah/bina",
@@ -722,7 +825,16 @@
           "rang": 4,
           "colonne": "droite",
           "nom_divin": "El",
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "etabli",
+              "directionnalite": "none",
+              "cible": "hindouisme/vishuddha",
+              "source": "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+              "note": "Niveau 3 (couple Hesed-Gevurah) ↔ Vishuddha."
+            }
+          ]
         },
         {
           "id": "qabbalah/gevurah",
@@ -738,7 +850,16 @@
           "rang": 6,
           "colonne": "milieu",
           "nom_divin": "YHWH",
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "etabli",
+              "directionnalite": "none",
+              "cible": "hindouisme/anahata",
+              "source": "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+              "note": "Niveau 4. Tiferet ↔ Anāhata."
+            }
+          ]
         },
         {
           "id": "qabbalah/netzach",
@@ -746,7 +867,16 @@
           "rang": 7,
           "colonne": "droite",
           "nom_divin": "YHWH Tsevaot",
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "etabli",
+              "directionnalite": "none",
+              "cible": "hindouisme/manipura",
+              "source": "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+              "note": "Niveau 5 (couple Netzach-Hod) ↔ Manipūra."
+            }
+          ]
         },
         {
           "id": "qabbalah/hod",
@@ -762,7 +892,16 @@
           "rang": 9,
           "colonne": "milieu",
           "nom_divin": "El Hai / El Shaddaï",
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "suggere",
+              "directionnalite": "none",
+              "cible": "hindouisme/muladhara",
+              "source": "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+              "note": "Niveau 6. SUGGÉRÉ — réserve d'interversion posée par Guénon lui-même."
+            }
+          ]
         },
         {
           "id": "qabbalah/malkhut",
@@ -770,26 +909,84 @@
           "rang": 10,
           "colonne": "milieu",
           "nom_divin": "Adonaï",
-          "ancrages": []
+          "ancrages": [
+            {
+              "type": "equivalence",
+              "etat": "suggere",
+              "directionnalite": "none",
+              "cible": "hindouisme/swadhishthana",
+              "source": "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]",
+              "note": "Niveau 7. SUGGÉRÉ — même réserve d'interversion."
+            }
+          ]
         }
       ]
     },
     {
       "id": "hindouisme-tantra",
+      "sens_rang": "ascendant",
+      "sens_rang_note": "Mūlādhāra (rang 1) est le centre-RACINE, à la BASE de la colonne ; Sahasrāra (rang 7) au sommet de la tête. Guénon énumère « dans le sens ascendant ».",
+      "echelle": "microcosmique",
+      "echelle_note": "Centres « localisés » dans le corps humain (divisions de la colonne vertébrale). Leur pendant macrocosmique est la série des sept lokas, non déclarée.",
       "label": "Hindouisme (Tantra) — les chakras sur sushumnā",
       "fiche": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
       "axe": "parallele",
       "canaux": {
-        "sushumna": "canal central — porte les chakras eux-mêmes",
-        "ida": "canal gauche, féminin/négatif — correspond à la Lune",
-        "pingala": "canal droit, masculin/positif — correspond au Soleil"
+        "sushumna": {
+          "label": "canal central — porte les chakras eux-mêmes",
+          "cote": "milieu",
+          "correspondance_cosmique": "principe igné",
+          "oeil": "œil frontal de Shiva (le « troisième œil »)",
+          "temps": "le présent — « instant insaisissable, comparable au point géométrique sans dimensions »",
+          "note": "« Située » à l'intérieur de l'axe cérébro-spinal, jusqu'au Brahma-randhra. Ni solaire ni lunaire : tierce qualité propre. L'œil frontal et le « principe igné » ne sont pas deux données mais une seule, nommée deux fois : le regard du troisième œil « réduit tout en cendres »."
+        },
+        "pingala": {
+          "label": "canal droit, masculin/positif",
+          "cote": "droite",
+          "correspondance_cosmique": "Soleil",
+          "colonne_sephirothique": "droite",
+          "oeil": "œil droit de Vaishwânara",
+          "temps": "le futur",
+          "note": "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine droite. Guénon met la colonne séphirothique de droite (Miséricorde) en relation avec pingalâ ; Hokmah, en tête de cette colonne, est rapportée à l'œil droit, « correspondance microcosmique du Soleil » (note 25). Le ch. XXI ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
+        },
+        "ida": {
+          "label": "canal gauche, féminin/négatif",
+          "cote": "gauche",
+          "correspondance_cosmique": "Lune",
+          "colonne_sephirothique": "gauche",
+          "oeil": "œil gauche de Vaishwânara",
+          "temps": "le passé",
+          "note": "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine gauche. Colonne séphirothique de gauche (Rigueur) ; Binah, en tête, rapportée à l'œil gauche, « correspondance microcosmique de la Lune » (note 25). Le ch. XXI ferme la boucle : ces deux yeux sont ceux de Vaishwânara."
+        }
       },
+      "figuration": "caducée · bâton brahmanique (Brahma-danda, sept nœuds) · Janus Bifrons (identité posée par Guénon, ch. XXI note 7)",
+      "prolongement_axial": {
+        "nom": "le « Rayon solaire »",
+        "identite_nominale": "porte le même nom que le canal central (sushumnâ)",
+        "nature": "particularisation, ou « polarisation », du principe supra-individuel Buddhi/Mahat",
+        "relie": "les états manifestés entre eux, et l'individualité à Âtmâ (le Soleil spirituel)",
+        "sens": "double — descendant (rayons de la Lumière intelligible vers l'artère) et réfléchi (de l'artère au Soleil)",
+        "source": "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]"
+      },
+      "canal_debut": "hindouisme/muladhara",
+      "canal_fin": "hindouisme/ajna",
       "domaines": [
         {
           "id": "hindouisme/muladhara",
           "label": "Mūlādhāra — centre-racine",
           "rang": 1,
           "colonne": "milieu",
+          "position": "centre spinal de la région au-dessous des parties génitales",
+          "petales": 4,
+          "lettres": "va, sha, sha, sa",
+          "tattva": "Prithivî — cohésion, excitant le sens de l'odorat",
+          "couleur_tattva": "jaune",
+          "mandala": "carre",
+          "bija": "Lang, sur l'éléphant",
+          "devata": "Brahmâ, sur Hamsa",
+          "shakti": "Dâkinî",
+          "linga": "Svayambhu et Traipura Trikona",
+          "autres_tattva": "Gandha Tattva ; l'odorat (organe de sensation) ; les pieds (organe d'action)",
           "ancrages": []
         },
         {
@@ -797,6 +994,17 @@
           "label": "Swādhishthāna",
           "rang": 2,
           "colonne": "milieu",
+          "position": "centre spinal de la région au-dessus des parties génitales",
+          "petales": 6,
+          "lettres": "ba, bha, ma, ya, ra, la",
+          "tattva": "Ap — contraction, excitant le sens du goût",
+          "couleur_tattva": "blanc",
+          "mandala": "croissant",
+          "bija": "Vang, sur Makara",
+          "devata": "Vishnu, sur Garuda",
+          "shakti": "Râkinî",
+          "linga": "",
+          "autres_tattva": "Rasa Tattva ; le goût (organe de sensation) ; la main (organe d'action)",
           "ancrages": []
         },
         {
@@ -804,6 +1012,17 @@
           "label": "Manipūra",
           "rang": 3,
           "colonne": "milieu",
+          "position": "centre spinal de la région du nombril",
+          "petales": 10,
+          "lettres": "da, dha, na, ta, tha, da, dha, na, pâ, pha",
+          "tattva": "Tejas — expansion, produisant la chaleur, excitant le sens de la vue, des couleurs et des formes",
+          "couleur_tattva": "rouge",
+          "mandala": "triangle",
+          "bija": "Rang, sur un bélier",
+          "devata": "Rudra, sur un taureau",
+          "shakti": "Lâkinî",
+          "linga": "",
+          "autres_tattva": "Rûpa Tattva ; la vue (organe de sensation) ; l'anus (organe d'action)",
           "ancrages": []
         },
         {
@@ -811,6 +1030,17 @@
           "label": "Anāhata — région du cœur",
           "rang": 4,
           "colonne": "milieu",
+          "position": "centre spinal de la région du cœur",
+          "petales": 12,
+          "lettres": "ka, kha, ga, gha, nga, cha, chha, ja, jha, nya, ta, tha",
+          "tattva": "Vâyu — mouvement général, excitant le sens du toucher",
+          "couleur_tattva": "gris de fumée",
+          "mandala": "hexagramme",
+          "bija": "Yang, sur une antilope",
+          "devata": "Ishâ",
+          "shakti": "Kâkinî",
+          "linga": "Bâna et Trikona",
+          "autres_tattva": "Sparsha Tattva ; le toucher (organe de sensation) ; le pénis (organe d'action)",
           "ancrages": []
         },
         {
@@ -818,6 +1048,17 @@
           "label": "Vishuddha — région de la gorge",
           "rang": 5,
           "colonne": "milieu",
+          "position": "centre spinal de la région de la gorge",
+          "petales": 16,
+          "lettres": "les voyelles a, â, i, î, u, û, ri, rî, lri, lrî, e, ai, o, au, am, ah",
+          "tattva": "Akâsha — ouverture de l'espace, excitant le sens de l'ouïe",
+          "couleur_tattva": "blanc",
+          "mandala": "cercle",
+          "bija": "Hang, sur un éléphant blanc",
+          "devata": "Sadâshiva",
+          "shakti": "Shâkinî",
+          "linga": "",
+          "autres_tattva": "Shabda Tattva ; l'ouïe (organe de sensation) ; la bouche (organe d'action)",
           "ancrages": []
         },
         {
@@ -825,6 +1066,17 @@
           "label": "Ājnā — le troisième œil",
           "rang": 6,
           "colonne": "milieu",
+          "position": "centre de la région entre les sourcils",
+          "petales": 2,
+          "lettres": "ha et ksha",
+          "tattva": "Manas (facultés mentales)",
+          "couleur_tattva": "",
+          "mandala": "",
+          "bija": "Om",
+          "devata": "Shambhu",
+          "shakti": "Hâkinî",
+          "linga": "Itara et Trikona",
+          "autres_tattva": "Mahat, la Sûkshma Prakriti appelée Hiranyagarbha (Shatchakranirûpana, v. 52)",
           "ancrages": []
         },
         {
@@ -832,12 +1084,19 @@
           "label": "Sahasrāra — le lotus à mille pétales",
           "rang": 7,
           "colonne": "milieu",
+          "position": "au sommet de la tête, autour du Brahma-randhra",
+          "petales": 1000,
+          "note": "Hors de la table synoptique d'Avalon : au-delà de la série des six. Guénon : « n'est pas compté au nombre des chakras », se rapportant « à un état qui est au-delà des limites de l'individualité ». Reprend les 50 lettres, chacune répétée vingt fois.",
           "ancrages": []
         }
       ]
     },
     {
       "id": "vedanta",
+      "sens_rang": "ascendant",
+      "sens_rang_note": "Vaishwânara (rang 1) est la manifestation GROSSIÈRE, en bas ; Turīya (rang 4) l'inconditionné, au sommet.",
+      "echelle": "transcalaire",
+      "echelle_note": "Vaishwânara est à la fois Virāj (macrocosme) et l'état de veille individuel (microcosme).",
       "label": "Vêdânta — les quatre états (pâdas) d'Âtmâ",
       "fiche": "doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya",
       "axe": "parallele",

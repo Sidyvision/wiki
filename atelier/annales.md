@@ -10,6 +10,403 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd | RAPPORT D'ERREURS de session, joint Janus reporté, et ouverture du chantier de l'incommensurable
+
+**Trois livrables, sur commande de Sidy.**
+
+### 1. Report du joint *hozo* Janus (verdict Sidy 2026-08-30)
+
+Reporté comme **équivalence entre nœuds notionnels** —
+`universel/polarite-laterale-axe` ↔ `universel/janus-bifrons` — et **non** comme
+ancrage inter-registres. Motif de forme, consigné dans la donnée : les ancrages
+inter-registres joignent deux **niveaux** de l'axe ; ce joint n'en joint aucun
+(« les deux canaux latéraux ne portent aucun centre », et Janus n'occupe aucun
+degré). Le forcer dans cette structure aurait obligé à **inventer pour Janus un
+rang qu'il n'a pas** — exactement ce que la règle du décalage-donnée interdit.
+
+**Défaut de rendu découvert à cette occasion** : le filtre de l'anneau des nœuds
+notionnels ne retenait que `tradition === "tasawwuf"`. La **provenance** d'un
+nœud servait donc de critère à sa **fonction**, et un joint transversal verdicté
+restait indessinable pour une raison qui n'en est pas une. Filtre élargi aux
+nœuds `universel` sans degré.
+
+### 2. Rapport d'erreurs de la session
+
+`atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme.md` —
+**vingt défauts** recensés (11 machine, 3 outillage, 5 dépôt, 1 process),
+classés non par gravité mais par **ce qui les a attrapés** :
+
+| Détecté par | Nombre |
+|---|---|
+| Sidy | 3 |
+| test mécanique | 3 |
+| lecture de la source primaire | 3 |
+| relecture adversariale du diff | 2 |
+| balayage / audit / auto-détection | 9 |
+| **relecture narrative de la machine sur son propre travail** | **0** |
+
+Deux défauts de rendu vivaient au dépôt **depuis dix jours** (registres à
+l'envers, hélices fausses) sans qu'aucune relecture les ait vus ; un test les a
+trouvés en une passe. C'est la confirmation la plus nette qu'ait reçue §VIII.2
+(*fiabilité d'action ≠ fiabilité narrative*).
+
+**Cinq règles dégagées** : (1) une affirmation **négative** sur une source se
+vérifie comme une positive ; (2) toute convention tacite devient un bug au
+deuxième cas — l'écrire dans la donnée à ce moment-là ; (3) tout plafonnement ou
+arrondi doit être visible **dans la forme**, un commentaire de code ne signale
+rien ; (4) donnée et présentation se distinguent **par extrémité**, pas par
+objet — et une fonction qui *interprète* pour le lecteur est plus dangereuse
+qu'une qui affiche ; (5) un marqueur de doute doit énoncer **son périmètre**,
+faute de quoi il certifie tout ce qu'il ne couvre pas.
+
+**Trois erreurs évitées**, consignées parce qu'elles montrent où sont les
+pièges : combler les cellules vides d'*Ājñā* d'après la planche ; lire
+l'obliquité des ancrages comme un décalage-donnée ; conclure sur « Kursī = degré
+11 » avant collation. Les trois étaient des raisonnements **séduisants** — c'est
+le signal.
+
+Entrée de synthèse portée à [[atelier/rd/cahiers/registre-problemes]].
+
+### 3. Chantier de l'incommensurable (ouvert, rien d'implémenté)
+
+`atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable.md`.
+
+Le problème énoncé exactement : une échelle verticale dit trois choses — il y a
+un ordre (vrai), cet ordre a un sens (vrai), **ce qui est en haut est plus proche
+du terme (FAUX)**. Il faut une figure qui garde l'ordre et **détruise la mesure**.
+
+**Trois contraintes non négociables**, déduites du texte : l'Inconditionné n'est
+pas le sommet de la série ; la discontinuité est **égale depuis chaque degré**
+(ce qui exclut tout halo, dégradé ou convergence — le rendu actuel fait
+exactement cela) ; la hiérarchie des états demeure.
+
+**La piste centrale vient du joint verdicté aujourd'hui** : la tradition figure
+le terme principal **par son absence**, et Guénon en donne la raison, qui est
+celle-là même du problème — « un instant insaisissable, comparable au point
+géométrique sans dimensions », donc indessinable, et pourtant « contenant toute
+réalité » vu d'au-dessus. Reste à instruire si le procédé se transpose de la
+**latéralité** (où il est attesté) à la **verticalité** (où on voudrait l'employer).
+
+**Volet guṇas recentré** : le terme opératoire n'est pas le ternaire mais
+**nirguṇa / saguṇa**, déjà au dépôt et sourcé. Lecture soumise sans verdict — si
+la gradation est gradation de *qualités*, ce qui est *nir-guṇa* est **hors
+d'elle par construction du mot**, et n'a donc pas à recevoir de place sur l'axe.
+
+**Volet Kursī/ʿArsh : BLOQUÉ** par la contradiction de numérotation de
+[[doctrinal/symboles/table-28-degres-nafas-rahman]] (voir l'entrée du jour aux
+annales doctrinales). Le rendu suit le système 11-38 ; la frontière
+manifesté / non-manifesté qu'il trace tombe **exactement là où les deux
+numérotations divergent**, c'est-à-dire sur l'articulation même que Sidy
+désigne. Collation des pp. 91-92 de Gloton requise avant tout design.
+
+**⚠️ Avertissement porté sur le volet kabbalistique** : le dépôt garde déjà, en
+[[doctrinal/symboles/merkavah-muraqaba]], une **mauvaise version** du
+rapprochement ʿArsh / *Kissé ha-Kavod* — construite sur une gématrie sans assise
+textuelle. Le rapprochement n'est pas jugé ; mais le mauvais chemin est
+cartographié, et un ancrage devra montrer qu'il ne l'emprunte pas.
+
+**Quatre options de rendu soumises** avec leur coût ; aucune implémentée. Cinq
+points à instruire avant qu'une ligne de rendu soit écrite.
+
+### Vérification mécanique indépendante (rapport BRUT, §VIII.2)
+
+- `generer-manifeste.py --repo /home/user/wiki` →
+  `46 nœud(s), 23 ancrage(s), zodiaque inclus, maisons incluses, 4 registre(s),
+  0 avertissement(s)`.
+- Prototype sous Chromium headless : les deux nœuds notionnels présents **avec
+  leur fiche source**, corde d'ancrage polarité ↔ Janus **effectivement tracée**
+  (contrôle géométrique sur les extrémités, pas sur le compte) ; les 11 ancrages
+  inter-registres inchangés dans les deux modes, `0 sans source`,
+  `0 marqueur superposé` ; **aucune pageerror**.
+- `verifier-invariants.py --racine /home/user/wiki` →
+  `0 erreur(s), 1 avertissement(s)` — [A6], faux positif déjà signalé.
+
+- **Commit** : 2a6f825
+
+## [2026-08-30] rd/instrument | les ONZE ANCRAGES inter-registres rendus, et deux faits que le tracé a révélés
+
+**Le manque comblé.** Les onze ancrages verdictés étaient au manifeste depuis le
+2026-08-29 **sans être tracés** : la donnée portait onze joints que l'image ne
+montrait pas. Ils sont rendus (§8 de
+`2026-08-30_reseau-subtil-unification-axes-deux-echelles.md`).
+
+| Joints | Registres | État | Rendu |
+|---|---|---|---|
+| 4 | *tasawwuf* (bandes de Présences) ↔ *vedanta* | établi | trait plein, marqueur plein |
+| 5 | *qabbalah* ↔ *hindouisme-tantra* | établi | trait plein, marqueur plein |
+| 2 | *qabbalah* ↔ *hindouisme-tantra* (Yesod, Malkhut) | **suggéré** | **pointillé, marqueur creux, 🔍** |
+
+Établi et suggéré **jamais fondus** (règle des manifestes §3) : les deux joints
+suggérés portent la réserve d'interversion **posée par Guénon lui-même**.
+Tracés en coordonnées monde (les deux extrémités vivent dans des groupes de
+profondeur différente), reconstruits au basculement, chacun porteur de sa note
+et de sa fiche source.
+
+**Deux faits que le tracé a révélés, et qu'aucune relecture n'avait relevés :**
+
+1. **COÏNCIDENCE.** En mode axe unifié, **cinq des sept** joints *qabbalah* ↔
+   *hindouisme-tantra* deviennent des **segments nuls** : les deux registres
+   comptent le même nombre de niveaux et sont ancrés niveau pour niveau, donc
+   leurs nœuds tombent au même point de l'axe unique. Ce n'est pas un défaut à
+   corriger — **le segment nul EST le constat de commensurabilité**. Tenu
+   visible par un marqueur, et nommé dans l'info-bulle.
+2. **INTERVERSION.** Les deux joints suggérés **se croisent** : leurs milieux
+   tombaient exactement au même point. C'est la figure géométrique de
+   l'interversion que Guénon signale sans la trancher. Les marqueurs glissent à
+   35 % et 65 % de leur ligne propre, pour que le croisement se voie et que les
+   deux joints restent consultables séparément.
+
+**⚠️ Erreur de ma part, corrigée avant commit.** J'avais qualifié les ancrages
+sur leur **longueur totale**, et écrit qu'un ancrage resté oblique en mode
+unifié signalerait un décalage-**donnée**. Faux deux fois : (a) la longueur
+mêlait la hauteur (le niveau, qui signifie) et le report latéral (la colonne,
+qui signifie autre chose) — Hokhma↔Ājñā ressortait « oblique » alors que ses
+extrémités sont à la **même hauteur** ; (b) surtout, la hauteur d'un domaine de
+registre parallèle est une **répartition proportionnelle** (présentation),
+tandis qu'une bande de Présence est posée à ses **degrés déclarés** (donnée) :
+l'obliquité est un **artefact de convention de hauteur**. En faire un indice de
+décalage-donnée aurait installé au cœur du rendu **la confusion même que la spec
+interdit**. La qualification se lit désormais sur **Y** (le niveau) et **X** (la
+colonne), **jamais sur Z** — donc identique dans les deux modes, ce qui est la
+vérité : la correspondance de niveau ne dépend pas de l'angle de vue.
+
+**Le canal MÉDIAN devient consultable.** *suṣumnā* n'était atteignable nulle
+part : elle n'est pas dessinée à part, puisqu'elle **est** l'axe. Un marqueur
+discret la rend consultable sans ajouter une seconde ligne qui mentirait sur la
+géométrie. Sa hauteur est celle du **registre entier**, non celle des hélices :
+les canaux latéraux s'arrêtent à *Ājñā*, l'axe non.
+
+**Données versées** (`instrument-donnees.yaml`), depuis le ch. XXI de
+*L'Homme et son devenir selon le Vêdânta* — texte primaire déposé par Sidy,
+fiche `doctrinal/` (lien `rd/` → `doctrinal/`, sens unique, signalé) :
+
+- champs `oeil` et `temps` sur les trois canaux : *piṅgalā* = œil droit de
+  *Vaishwânara* = **futur** ; *iḍā* = œil gauche = **passé** ; *suṣumnā* = œil
+  frontal de Shiva = **présent** ;
+- `figuration` reçoit *Janus Bifrons* (identité posée par Guénon lui-même) ;
+- `prolongement_axial` : le **Rayon solaire**, qui « est appelé **aussi**
+  *sushumnâ* ». **Descriptif seulement** — aucun degré ne lui est attribué, la
+  tradition ne le situant pas sur une échelle.
+
+**⚠️ Exigence de rendu consignée, NON implémentée** (§8.6) : Guénon avertit que
+les états conditionnés « n'ont aucune commune mesure » avec l'Inconditionné et
+que la discontinuité de la Délivrance « ne sera ni plus ni moins profonde »
+quel que soit le degré atteint. L'Instrument dessine des hauteurs ; il ne doit
+pas laisser croire qu'elles mesurent une proximité. **Trois pistes posées,
+aucune tranchée** — mention permanente en légende, halo du *Hāhūt* marqué
+non commensurable, ou rupture graphique explicite. Verdict à Sidy.
+
+**Vérification mécanique indépendante (rapport BRUT, §VIII.2)** :
+
+- `generer-manifeste.py --repo /home/user/wiki` →
+  `44 nœud(s), 22 ancrage(s), zodiaque inclus, maisons incluses, 4 registre(s),
+  0 avertissement(s)`.
+- Prototype sous Chromium headless : **11 ancrages rendus dans les DEUX modes**,
+  `0 sans source`, `0 marqueur superposé` ; qualification **stable entre les
+  modes** — 5 coïncidences de niveau (dont 3 avec report latéral) et 6 écarts de
+  convention de hauteur ; info-bulles des trois canaux portant `œil`, `temps` et
+  le prolongement ; **aucune pageerror**.
+- `verifier-invariants.py --racine /home/user/wiki` →
+  `0 erreur(s), 1 avertissement(s)` — [A6], faux positif déjà signalé hier.
+
+**Rappel des trois signalements VIGILANCE d'hier** : ils restent ouverts, aucun
+n'a été corrigé d'office (26 entrées d'annales sans SHA, faux positif [A6],
+23 fiches doctrinales absentes de l'index).
+
+- **Commit** : 2f529f0
+
+## [2026-08-30] rd/instrument | ce que les centres surnuméraires confirment du modèle, et un décalage-artefact rendu visible
+
+**Fiche de déduction, §7 nouveau** —
+`2026-08-30_reseau-subtil-unification-axes-deux-echelles.md`.
+
+- **Le fait.** Avalon nomme cinq centres au-delà des six canoniques, situés
+  *dans les intervalles* de la série reçue (relevé complet côté doctrinal, lien
+  `rd/` → `doctrinal/` en sens unique, signalé).
+- **Ce que cela confirme.** Le modèle « un registre n'est pas *l'axe*, c'est
+  **une partition de l'axe**, faite par un texte donné pour un usage donné » est
+  ici confirmé **de l'intérieur d'une seule tradition** : deux textes hindous
+  partitionnent le même axe en six et en onze, et le second ne contredit pas le
+  premier — il le raffine. Si l'écart entre deux partitions **intra**-tradition-
+  nelles n'est pas une contradiction, l'écart entre deux partitions
+  **inter**-traditionnelles ne l'est pas davantage. Le **décalage-donnée** est
+  confirmé comme régime normal, non comme anomalie à réduire. C'est une
+  confirmation indépendante, et elle est plus forte qu'un argument comparatif
+  puisqu'elle ne sort pas de l'hindouisme.
+- **Bifurcation posée, non tranchée** (§7.3) : les centres surnuméraires sont-ils
+  (1) hors périmètre — statu quo, tenable, muet ; (2) un second registre
+  `hindouisme/tantra-etendu`, `axe: parallele` à onze niveaux ; ou (3) une
+  strate d'annotation sans rang propre ? Relevé de forme sans verdict
+  (Cmd 12) : l'option 2 exigerait de **raffiner d'abord la garde
+  inter-registres** du générateur, laquelle exige aujourd'hui une fiche
+  `discernement/` pour tout ancrage entre registres — or il s'agirait ici d'un
+  rapport **interne à une tradition**, non d'un rapprochement entre traditions
+  (Cmd 3). **Aucune option implémentée, aucun champ ajouté au YAML.**
+- **Piste consignée, non retenue** (§7.4) : la nomenclature fonctionnelle des
+  nâdîs donnerait au réseau des **arêtes qualifiées et orientées** (montantes
+  sensorielles, descendantes motrices) — première occasion au dépôt. Mais elle
+  est adossée chez Avalon à la réduction anatomique que Guénon écarte : l'en
+  extraire est un travail de discernement, pas de rendu.
+
+**Rendu — un décalage-artefact rendu visible** (`instrument-prototype.html`).
+
+- **Le défaut.** *Sahasrāra* déclare **1000** pétales ; la couronne était
+  plafonnée à 24 **en silence**. Or 24 n'est le compte d'aucun autre centre : la
+  couronne se lisait donc comme un **compte exact** alors qu'elle était
+  conventionnelle. C'est la définition même du décalage-artefact non résorbable.
+- **Le correctif.** Le plafond devient **visible** : au-delà du seuil, la
+  couronne est **double**, en deux anneaux décalés d'un demi-pas — forme
+  qu'aucun compte exact ne produit. L'info-bulle porte le nombre réel et la
+  mention « couronne conventionnelle : le compte réel n'est pas dessinable ».
+  Le décalage redevient résorbable, comme l'exige la règle du dépôt.
+- **Aucune donnée doctrinale touchée** : les cellules vides d'*Ājñā* restent
+  vides malgré ce que montre la planche VII (verdict réservé à Sidy).
+
+**Vérification mécanique indépendante (rapport BRUT, §VIII.2)** :
+
+- `generer-manifeste.py --repo /home/user/wiki` →
+  `44 nœud(s), 22 ancrage(s), zodiaque inclus, maisons incluses, 4 registre(s),
+  0 avertissement(s)` — **inchangé**, ce qui est le résultat attendu puisque
+  aucune donnée n'a bougé.
+- Prototype sous Chromium headless, couronnes **déclaré → dessiné** :
+  `2→2, 4→4, 6→6, 10→10, 12→12, 16→16, 1000→48` (deux anneaux de 24) ;
+  mandalas `4, 5, 7, 21, 33` points ; **aucune pageerror**.
+- `verifier-invariants.py --racine /home/user/wiki` →
+  `0 erreur(s), 1 avertissement(s)`.
+
+**⚠️ VIGILANCE — signalement sans correction (Action VIGILANCE, « rapporter
+sans corriger d'office ; demander avant d'éditer »)** :
+
+1. **26 entrées d'annales sans SHA de commit** (Cmd 9 : « Chaque entrée porte le
+   SHA court du commit qu'elle décrit en dernière ligne »). Toutes datées
+   **2026-08-29** et **2026-08-30**, réparties sur les deux circuits (9 côté
+   `doctrinal/`, 17 côté `atelier/`). Le SHA de chacune est **retrouvable
+   mécaniquement** (`git log -S` sur le titre de l'entrée, qui donne le commit
+   l'ayant introduite = celui qu'elle décrit). Les fichiers étant append-only,
+   **rien n'a été modifié** : la réparation attend l'autorisation de Sidy.
+2. **Avertissement [A6] de `verifier-invariants.py`** sur
+   `atelier/annales.md:1887` (entrée du 2026-08-20) : **faux positif**. L'entrée
+   couvre deux livrables (a) et (b) et porte légitimement deux
+   `- **Commit** :`. Le contrôle suppose un SHA par entrée ; à raffiner ou à
+   accepter tel quel, au choix de Sidy.
+3. **23 fiches doctrinales antérieures absentes de `doctrinal/index.md`**
+   (comptage mécanique après ajout des fiches de la session) : **21 `sources/`**
+   et **2 `discernement/`** (2026-08-11 « trois territoires », 2026-08-29
+   « octogone / monde intermédiaire »). Toutes antérieures à cette session ;
+   **non ajoutées** — seules les fiches de la session l'ont été, au titre de
+   l'Action ARCHIVAGE point 4. Liste complète disponible sur demande.
+
+- **Commit** : fbd50ef
+
+## [2026-08-30] rd/instrument | rendu des lotus : pétales, maṇḍalas et couleurs de tattva
+
+- **Donnée** : la table synoptique d'Avalon est versée dans le registre
+  `hindouisme-tantra` — par centre : position, `petales`, `lettres`, `tattva`,
+  `couleur_tattva`, `mandala`, `bija`, `devata`, `shakti`, `linga`,
+  `autres_tattva`. Champs laissés **vides** là où la table ne donne rien
+  (*Ājñā*), jamais comblés.
+- **Rendu** : chaque centre porte désormais une **couronne de pétales** au
+  nombre exact déclaré, un **maṇḍala** de la forme déclarée (carré, croissant,
+  triangle, hexagramme, cercle) et la **couleur de son *tattva***. Entièrement
+  piloté par la donnée : un domaine sans `petales` ni `mandala` garde le
+  marqueur ordinaire. Le triangle est tracé **base en haut, pointe en bas**,
+  comme la source le prescrit — jamais redressé. *Sahasrāra* (1000 pétales) est
+  marqué par une couronne dense plafonnée, son nombre réel restant à
+  l'info-bulle. Info-bulles enrichies de toute la ligne de table.
+- **Enroulement des canaux, désormais dérivé et non posé** : Avalon écrit que
+  les canaux « entourent les lotus » en alternant, et la Planche I les montre
+  croisant à chaque lotus. Deux hélices contra-rotatives se croisent deux fois
+  par tour : *n* centres enlacés ⇒ *n*/2 tours. Une version antérieure figeait
+  3,5 tours en invoquant l'enroulement de Kundalinī autour du *liṅga* — autre
+  chose entièrement. Le nombre tombe maintenant de la donnée.
+- **Validation mécanique indépendante (rapport brut)** : couronnes rendues
+  `2, 4, 6, 10, 12, 16, 24` — conformes à la table (24 = plafond de
+  *Sahasrāra*) ; maṇḍalas `4, 5, 7, 21, 33` points — conformes aux cinq formes
+  attendues (triangle 4, carré 5, hexagramme 7, croissant 21, cercle 33) ;
+  canaux bornés `yMax 5,17` (*Ājñā*) → `yMin −8` (*Mūlādhāra*) ; `122 objets,
+  aucune pageerror`. Générateur : `44 nœuds, 22 ancrages, 4 registres, 0
+  avertissement`. `verifier-invariants.py` → `0 erreur(s), 1 avertissement(s)`
+  (A6 préexistant).
+- **Reste ouvert** : les 11 ancrages inter-registres ne sont toujours pas
+  rendus ; quatre planches et quatre chapitres d'Avalon non relevés.
+
+## [2026-08-30] rd/instrument | Avalon (v0.7.1) : deux défauts de rendu révélés par le test, corrigés
+
+- **Défaut 1 — canaux latéraux trop longs.** Le rendu d'hier faisait courir
+  *iḍā* et *piṅgalā* sur toute la hauteur du registre. Avalon est explicite :
+  elles s'arrêtent à l'*Ājñā*, où elles « entrent dans la *Sushumnâ* ». Corrigé
+  par deux champs de donnée, `canal_debut` / `canal_fin`, lus par le rendu —
+  bornes jamais codées en dur.
+- **Défaut 2 — deux registres rendus À L'ENVERS, depuis le 2026-08-20.** Le
+  rendu supposait « rang 1 = sommet » pour tous. Or `rang` enregistre l'ordre
+  **propre à chaque tradition** : la Kabbale énumère du haut (Kether = 1, la
+  Couronne), le Kundalinî-yoga et le Vêdânta énumèrent du bas (Mūlādhāra = 1,
+  le centre-**racine** ; Vaishwânara = 1, le plus grossier). Conséquence : **le
+  centre-racine était placé à la couronne** et *Sahasrāra* à la base ; idem pour
+  *Turīya* et *Vaishwânara*. Corrigé par un champ `sens_rang`
+  (ascendant | descendant), lu dans la donnée, validé par le générateur
+  (v0.2.7).
+- **Portée du second défaut** : il touchait aussi les ancrages déclarés hier —
+  *Kether* (sommet) ↔ *Sahasrāra* (alors rendu à la base) aurait figuré une
+  équivalence entre un sommet et une base.
+- **Aucun des deux n'a été trouvé par relecture** : tous deux sont sortis du
+  test mécanique du prototype. C'est exactement le motif du §VIII point 2.
+- **Validation mécanique indépendante (rapport brut)** : après correction,
+  Qabbalah `Kether` en haut / `Malkhut` en bas ; Tantra `Sahasrāra` +8,5 /
+  `Mūlādhāra` −8,5 ; Vêdânta `Turīya` +8,5 / `Vaishwânara` −8,5. Canaux :
+  `yMax 5,17` (*Ājñā*) → `yMin −8` (*Mūlādhāra*), bornés comme le texte le
+  demande et non plus jusqu'au sommet. `2 canaux rendus, 122 objets, aucune
+  pageerror`. Générateur : `44 nœuds, 22 ancrages, 4 registres, 0
+  avertissement`. `verifier-invariants.py` → `0 erreur(s), 1 avertissement(s)`
+  (A6 préexistant).
+- **Reste ouvert, signalé** : les 11 ancrages inter-registres déclarés hier sont
+  dans le manifeste mais **ne sont pas rendus** — le prototype ne trace que les
+  ancrages du nœud Homme Universel. À traiter séparément.
+
+## [2026-08-30] rd/instrument | AXE UNIFIÉ (v0.7.0) + champ `echelle` + déduction du réseau subtil
+
+- **Déduction (fiche R&D)** :
+  `atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md`.
+  Travail de déduction demandé par Sidy. Établit que les deux séries
+  prophétiques relèvent de **deux relations** (résidence/régence) et de **deux
+  échelles** (macro/micro), résout l'obstacle que j'avais posé à tort, et
+  distingue deux sortes de décalage dans l'Instrument : le **décalage-donnée**
+  (partitions non commensurables — ne doit JAMAIS être ajusté) et le
+  **décalage-artefact** (un même objet dessiné plusieurs fois pour la
+  lisibilité — doit pouvoir être résorbé).
+- **Donnée (`instrument-donnees.yaml` v0.7.0)** : nouveau champ
+  `registres[].echelle` (`macrocosmique | microcosmique | transcalaire`), pour
+  que la règle d'échelle soit portée par la donnée et non par la seule prose.
+  Attribution : `hindouisme-tantra` microcosmique, les trois autres
+  transcalaires — **lecture soumise à Sidy, non un constat**.
+- **Outillage (`generer-manifeste.py` v0.2.6)** : validation du champ
+  `echelle` (optionnel ; valeurs contrôlées, refus bloquant si hors
+  énumération).
+- **Rendu (`instrument-prototype.html`)** : mode **« axe unifié »** commutable
+  (touche `U` ou clic sur la légende). En vue éclatée, les registres restent en
+  retrait de profondeur ; en vue unifiée, ils reviennent tous sur l'axe unique
+  (z → 0) et le filament de l'Insān al-Kāmil rejoint l'axe (x → 0). **Aucune
+  donnée n'est modifiée** : ni hauteur, ni rang, ni partition — seule la
+  profondeur de rendu l'est. Les lignes d'équivalence établie sont reconstruites
+  au basculement, le nœud source ne bougeant pas.
+- **Défaut introduit puis corrigé, relevé par le test et non par relecture** :
+  `__xEclate` était posé sur le nœud du filament *avant* une affectation qui
+  remplaçait `userData` en entier — il était donc perdu, et le retour en vue
+  éclatée aurait donné `position.x` indéfini. Corrigé (pose après
+  l'affectation), et vérifié par un aller-retour.
+- **Validation mécanique indépendante (rapport brut, §VIII point 2)** :
+  prototype **réellement exécuté** sous Chromium/Playwright.
+  Éclaté → `zRegistres [-6, -9.2, -12.4], filament x=0.6 (Line + Sprite, 2/2)` ;
+  unifié → `zRegistres [0, 0, 0], filament x=0` ; retour → valeurs initiales
+  restituées à l'identique, `ROUND-TRIP SANS PERTE : OK`, `aucune pageerror`.
+  Capture vérifiée à l'œil. Générateur : `44 nœud(s), 22 ancrage(s), 4
+  registre(s), 0 avertissement(s)`. `verifier-invariants.py` → `0 erreur(s), 1
+  avertissement(s)` (A6 préexistant). Aucun caractère Unicode invisible (Cmd 15).
+- **Suites proposées, non faites** : transcrire le ch. II de Shayegan (seule
+  pièce manquante) ; instruire cieux planétaires ↔ *lokas* (macro ↔ macro,
+  jamais tenté, les deux séries étant au dépôt) ; lire les 22 sentiers
+  séphirothiques comme réseau de canaux (piste de fond).
+
 ## [2026-08-30] rd/bibliotheque | intégration — Arthur Avalon, *La Puissance du Serpent* (1959)
 
 Ouvrage ajouté au catalogue (§III — Orient, écritures sacrées et traditions
@@ -24,6 +421,182 @@ de référence sur les chakras (*padma*), le mantra, la conscience incarnée
 de 8 planches couleur + 4 tableaux.
 
 ---
+
+
+## [2026-08-29] rd/instrument | polarité latérale versée en donnée et RENDUE (canaux hélicoïdaux)
+
+- **Action (donnée)** : `instrument-donnees.yaml` — les blocs `canaux`
+  (registre `hindouisme-tantra`) et `colonnes` (registre `qabbalah`) passent de
+  simples chaînes à des objets structurés portant `cote`,
+  `correspondance_cosmique`, `colonne_sephirothique`/`nadi_correspondant` et
+  note. Donnée du texte de Guénon, non construite : *iḍā* ↔ Lune, *piṅgalā* ↔
+  Soleil, *suṣumnā* ↔ principe igné ; colonne du milieu ↔ *suṣumnā*, latérales
+  ↔ *iḍā*/*piṅgalā*. Champ `figuration` ajouté (caducée, *Brahma-danda*).
+  **Aucun ancrage nouveau** : ces correspondances apparient des structures de
+  latéralité, pas des séries de centres.
+- **Action (rendu)** : `instrument-prototype.html` — les deux canaux latéraux
+  sont désormais **tracés**, et non plus seulement documentés. Rendus en
+  **double hélice** enroulée autour de l'axe du registre, conformément à la
+  description de Guénon (« un double enroulement hélicoïdal »), sur 3,5 tours
+  (l'enroulement de Kundalinî). Teinte pilotée par la **donnée**
+  (`correspondance_cosmique`), jamais codée en dur : or pour la voie solaire,
+  argent bleuté pour la lunaire, rouge sombre pour le principe igné ; un
+  registre qui ne déclare rien garde la teinte neutre. Les colonnes
+  séphirothiques reçoivent la même teinte par le même mécanisme. **Aucun
+  marqueur n'est posé sur les canaux** — ce sont des voies, jamais des centres,
+  et l'info-bulle le dit. Entrée de légende ajoutée.
+- **Vigilance inscrite dans le YAML lui-même** : commentaire bloquant toute
+  assimilation de ces Soleil/Lune aux nœuds `universel/aqtab-soleil` (degré 24)
+  et `universel/aqtab-lune` (degré 27) — degrés superposés d'un côté, qualités
+  de voies de l'autre.
+- **Validation mécanique indépendante (rapport brut, §VIII point 2)** — le
+  prototype a été **réellement exécuté**, non supposé : servi en local,
+  three.js r128 récupéré depuis le dépôt (le CDN est bloqué par le proxy),
+  ouvert sous Chromium/Playwright. Résultat : `151 objets construits, 119
+  interactifs, 2 canaux rendus, couleurs #d9a441 (Soleil) et #9fb4c9 (Lune),
+  aucune erreur de page, aucune bannière d'erreur, canvas présent`. Capture
+  d'écran vérifiée à l'œil : les deux hélices s'enroulent bien autour de l'axe
+  du registre tantra. Sondes d'inspection injectées **dans la copie de test
+  seulement**, jamais dans le fichier du dépôt.
+- `verifier-invariants.py` → `0 erreur(s), 1 avertissement(s)` (A6 préexistant).
+  Manifeste : `44 nœud(s), 22 ancrage(s), 4 registre(s)`, ancrages inchangés.
+
+## [2026-08-29] rd/instrument | PREMIERS ANCRAGES INTER-REGISTRES (v0.6.0) + correctif de comptage (générateur v0.2.5)
+
+- **Action** : exécution des verdicts rendus par Sidy le 2026-08-29.
+  `instrument-donnees.yaml` porté en **v0.6.0** — jusqu'ici aucun ancrage ne
+  reliait deux registres, ceux-ci étaient déclarés côte à côte sans joint.
+  **11 ancrages inter-registres déclarés**, tous sourcés par une fiche
+  `doctrinal/discernement/` (garde v0.2.5 posée plus tôt dans la journée,
+  appliquée ici pour la première fois en conditions réelles) :
+  - **4 ancrages `etabli`** Ḥaḍarāt ↔ quatre états d'Âtmâ (nāsūt↔Vaishwânara,
+    malakūt↔Taijasa, jabarūt↔Prājña, lāhūt↔Turīya). La réserve du commentateur
+    sur le troisième vit dans la fiche discernement, non dans une dégradation
+    d'état — le verdict tranche en faveur du texte primaire.
+  - **5 ancrages `etabli` + 2 `suggere`** Sephiroth ↔ chakras. Les deux derniers
+    restent suggérés parce que **Guénon lui-même** pose une réserve
+    d'interversion sur Yesod/Malkhut ↔ Mūlādhāra/Swādhishthāna. L'ancrage porte
+    sur la Sephirah de tête de chaque niveau : les couples latéraux (Bina,
+    Gevurah, Hod) partagent le niveau de leur symétrique et n'en reçoivent pas
+    en propre, ce qui dédoublerait un même joint.
+- **NON déclaré, et pourquoi** : sept Pôles ↔ sept centres subtils (*laṭāʾif*).
+  Le verdict de principe est rendu, mais les deux séries prophétiques (ordre du
+  *miʿrāj* pour les Pôles, ordre de Semnânî pour les *laṭāʾif*) ne coïncident ni
+  en composition ni en rang — aucun appariement terme à terme n'est écrivable
+  sans arbitrer d'abord lequel prévaut. Ce qui manque est une source, non un
+  verdict. Bloc de commentaire explicite laissé dans le YAML à l'emplacement où
+  ces ancrages viendront. Détail :
+  `doctrinal/discernement/2026-08-29_sept-poles-sept-lataif.md`.
+- **Correctif d'outillage (v0.2.5, second volet)** : le compteur d'ancrages
+  affiché en fin d'exécution ne sommait que les nœuds. Signalé le matin comme
+  bénin, il est devenu **trompeur** dès cette passe : il affichait `11` alors
+  que le manifeste en portait `22` — exactement la moitié masquée. Corrigé
+  (affichage seul ; le manifeste produit était correct dans les deux cas).
+- **Validation mécanique indépendante (rapport brut, §VIII point 2)** : le
+  premier recomptage a été **faussé par une erreur de ma part** (clé `noeuds`
+  au lieu de `nodes`), donnant l'illusion que les ancrages préexistants avaient
+  disparu ; recompte refait sur la bonne clé → **11 ancrages portés par des
+  nœuds + 11 par des domaines = 22**, conforme. Générateur après correctif :
+  `44 nœud(s), 22 ancrage(s), 4 registre(s), 0 avertissement(s)`, concordant
+  avec le recomptage indépendant. `verifier-invariants.py --racine
+  /home/user/wiki` → `0 erreur(s), 1 avertissement(s)` (A6 préexistant).
+- **Reste ouvert** : la relecture sur clichés de la transcription du texte
+  primaire du Majmaʿ (13 clichés) — le verdict Ḥaḍarāt↔états d'Âtmâ s'appuie
+  sur un texte encore en OCR brute. Et la transcription du ch. II du
+  commentaire de Shayegan, pièce manquante du troisième verdict.
+
+## [2026-08-29] rd/instrument | mise en regard + correctif outillage | Majmaʿ al-Bahrayn ↔ registres, et garde inter-registres du générateur (v0.2.5)
+
+- **Action (1/2 — relevé)** : fiche
+  `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres.md`
+  créée. Met en regard les trois transcriptions Shayegan/Dârâ désormais au
+  dépôt avec les registres `tasawwuf` et `vedanta` de l'Instrument. Fait
+  central : la correspondance quatre mondes ↔ quatre états d'Âtmâ est donnée
+  **par le texte primaire lui-même** (Dârâ Shokûh, ch. VII : jāgrat↔nāsūt,
+  svapna↔malakūt, susupta↔jabarūt, turīya↔lāhūt), et **contestée sur un point
+  précis par son commentateur** (Shayegan, ch. III §III.4 : le joint
+  susupta↔jabarūt « entraîne un déséquilibre de niveau »). Deux obstacles
+  structurels relevés côté Instrument : comptage 5 bandes contre 4 rangs, et
+  position non concordante du cinquième terme (Barzakh supérieur au-dessus du
+  Malakūt planétaire dans l'Instrument, ʿālam-e mithāl au-dessous du malakūt
+  chez Lâhîjî). Double contrôle exécuté : qualification sashimono des quatre
+  joints (tous *kari-kumi*, portance *jikugumi*, nature *homologie* et non
+  *restitution*) et confrontation Gizeh (septénaire : signalé, troisième
+  candidat d'ancrage ; vigilance polaire/solaire : *walāyat* lunaire/solaire de
+  Najm Râzî confrontée aux Pôles 24/27 — **aucun ancrage**, tension consignée ;
+  chiffre 28 et matière polaire stricte : confrontés, rien).
+  **Aucun ancrage déclaré, aucune fiche doctrinale créée ou modifiée, aucun
+  verdict rendu.**
+- **Action (2/2 — correctif d'outillage)** : `generer-manifeste.py` porté en
+  **v0.2.5**. Écart relevé en préparant le relevé ci-dessus : l'instruction
+  phase 3 affirmait que la règle du Cmd 3 était « appliquée par l'outil », ce
+  qui n'était vrai que du cas `rang`+`degres` — les **ancrages** entre domaines
+  de registres distincts passaient avec n'importe quelle source, y compris une
+  fiche de bibliothèque (qui ne lève pourtant aucun `to-source`). Les trois
+  candidats aujourd'hui sur la table auraient donc pu être déclarés sans
+  verdict, avec un « 0 erreur » au juge de paix. Garde ajoutée : un ancrage
+  dont les deux extrémités sont des domaines de registres **distincts** exige
+  une fiche `doctrinal/discernement/` en source. Le cas nœud→domaine (Homme
+  Universel ↔ Vaishwânara) n'est pas visé.
+- **Validation mécanique indépendante (rapport brut, §VIII point 2)** :
+  données réelles → `44 nœud(s), 11 ancrage(s), 4 registre(s), 0 erreur`,
+  sortie **identique** au générateur d'origine (diff vide hors horodatage et
+  SHA) ; ancrage inter-registres sourcé par une fiche de bibliothèque →
+  **refusé** (`manifeste NON produit`) ; même ancrage sourcé par un
+  discernement → accepté ; ancrage intra-registre sans discernement → accepté.
+  `verifier-invariants.py --racine /home/user/wiki` → `0 erreur(s), 1
+  avertissement(s)` (A6 préexistant, entrée du 2026-08-20, sans rapport).
+- **Effet de bord assumé** : `wiki-manifest.json` régénéré. Il était **périmé**
+  depuis le 2026-08-25 (champs `mode_zodiaque` / `ayanamsha_deg` absents alors
+  qu'ils étaient tranchés le même jour) — écart vérifié comme antérieur à cette
+  passe, il apparaît aussi avec le générateur d'origine.
+- **Signalé, non traité** : le compteur d'ancrages affiché en fin d'exécution
+  sous-compte les ancrages portés par un domaine de registre (affichage seul,
+  manifeste correct). Relecture sur clichés de la transcription du texte
+  primaire du Majmaʿ (13 clichés, aujourd'hui OCR brute) recommandée avant
+  toute instruction doctrinale : c'est le maillon faible de la chaîne.
+- **Plan soumis à Sidy, non exécuté** (Cmd 6) : étape A, fiche
+  `doctrinal/sources/` pour le ch. VII du traité (`status: traditionnel`,
+  distincte d'une éventuelle fiche du commentaire en `status: academique`) ;
+  étape B, ouverture d'un `discernement` Ḥaḍarāt ↔ quatre états d'Âtmâ ;
+  étape C, ancrages après verdict seulement. Trois candidats d'ancrage
+  inter-registres sont désormais sur la table (Ḥaḍarāt↔états d'Âtmâ ;
+  Sephiroth↔chakras, signalé le 2026-08-20 ; sept Pôles↔sept centres subtils,
+  signalé ce jour) — proposition de les instruire **séparément**, les sources
+  différant et aucune validation n'entraînant les autres.
+
+## [2026-08-29] rd/bibliotheque | relecture + nouvelle transcription | Hindouisme et Soufisme (Shayegan) — correction du chapitre IV « La Lumière » et création du chapitre III « Les Quatre Mondes »
+
+- **Action** : `lumiere-hindouisme-soufisme.md` relue intégralement sur ses 8
+  clichés (p.154-167) et corrigée (nom d'auteur uniformisé « Dârâ Shokûh »,
+  « bénéficiant » pour « bénuriciant », césures recollées, numérotation des
+  sous-listes restituée en chiffres romains, appareil de notes p.167
+  recomposé dans l'ordre 1-23). Nouvelle fiche
+  `quatre-mondes-hindouisme-soufisme.md` créée (chapitre III du commentaire,
+  p.121-151, 16 clichés) à partir de la transcription OCR brute déposée en
+  `_inbox/Les Quatre Mondes - Daryush Shayegan/`, également relue et corrigée
+  sur clichés (appareil de notes p.151 recomposé 1-71). Réserve signalée sur
+  la seule page de titre non numérotée du chapitre III (cliché en rotation,
+  lecture la plus probable, non une certitude caractère par caractère).
+  Registre de `catalogue-bibliotheque.md` mis à jour (une ligne corrigée, une
+  ligne ajoutée).
+- **Origine** : photos et transcription du chapitre III déposées par Sidy sur
+  le serveur, poussées vers `_inbox/` sur demande explicite (décision
+  assumée par Sidy : versionnage des clichés jugé non sensible, malgré le
+  régime `raw/` qui les exclut habituellement du dépôt git). Correction
+  faite en confrontant chaque paragraphe au cliché correspondant (§VII du
+  protocole racine).
+- **Signalement de portée (R&D Instrument)** : le chapitre III, section III
+  (p.142-150), établit une correspondance explicite entre les quatre/cinq
+  mondes hiérarchisés du Soufisme (registre `tasawwuf`, Ḥaḍarāt) et les
+  quatre états d'Âtmâ (registre `vedanta`) — les deux registres déjà
+  déclarés séparément dans `atelier/rd/instrument/instrument-donnees.yaml`,
+  sans aucun ancrage entre eux. Signalement consigné dans la fiche
+  elle-même ; aucun ancrage déclaré, aucune fiche `discernement` ouverte
+  (Cmd 3, Cmd 12 — verdict réservé à Sidy).
+- **Non fait** : les 24 photos elles-mêmes restent dans `_inbox/`, non
+  déplacées (Cmd 10 — pas de suppression/déplacement sans confirmation
+  explicite de Sidy).
 
 ## [2026-08-29] réparation | Frontmatter du compte-rendu GitHub automation (clés `created`/`updated`)
 

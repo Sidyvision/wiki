@@ -2,9 +2,22 @@
 title: "Session corrections rapports quotidiens et rotation HMAC"
 type: session
 date: 2026-08-30
+created: 2026-08-30
+updated: 2026-08-30
 participants: [studio, publication, sidy]
 statut: terminee
 ---
+
+<!-- Réparation de frontmatter (2026-08-30, station d'INTÉGRATION, §I) : les clés
+     `created` et `updated` manquaient — Cmd 8, contrôle [B1] bloquant de
+     verifier-invariants.py. Ajoutées sans toucher au corps.
+     SIGNALÉ, NON CORRIGÉ (VIGILANCE : rapporter, ne pas corriger d'office) :
+     `type: session` et `statut:` ne figurent pas au Sceau atelier
+     (types admis : materiel | manuel | entretien | projet | etude-de-cas |
+     experience | infrastructure | outillage ; pour rd/, champ optionnel
+     `statut_experience`) ; `date:` fait doublon avec `created:` ; et la fiche
+     est déposée à la racine de `atelier/rd/` plutôt que dans un sous-pôle
+     (`cahiers/` conviendrait). Arbitrage à Sidy. -->
 
 # Session 2026-08-30 — Corrections rapports quotidiens et rotation HMAC
 

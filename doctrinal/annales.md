@@ -22,6 +22,426 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Vérification** : graphe passe de 66 à 65 liens morts, 1475 arêtes (1467 → 1475, +8 nouvelles arêtes via les fiches créées).
 
 ---
+## [2026-08-30] discernement | VERDICT SIDY — le ternaire temporel des nâdîs et *Janus Bifrons*
+
+- **Verdict rendu par Sidy le 2026-08-30** : joint ***hozo*** approuvé, ancrage
+  approuvé. Deux fiches créées.
+- **Fiche `discernement` créée** :
+  `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons.md`
+  (`traditionnel`, close). **Particularité consignée en tête** : l'hypothèse
+  n'est **pas** de la machine — elle est posée par l'autorité elle-même, dans le
+  texte, avec le mot « **identique** ». Le rôle de la fiche n'était donc pas de
+  proposer un rapprochement mais de **constater qu'il était déjà fait**, d'en
+  vérifier la forme, et de soumettre.
+- **Fiche `symbole` créée** : `doctrinal/symboles/janus-bifrons.md`
+  (`traditionnel`). Le dépôt ne portait aucune fiche sur Janus, seulement deux
+  mentions.
+- **Le point décisif de forme**, relevé et versé : ce qui écarte la simple
+  coïncidence de nombre, c'est que **le terme médian est de même nature des deux
+  côtés**, et que cette nature est très singulière — le troisième œil « n'est
+  représenté par aucun organe corporel » ; le véritable visage de Janus « n'est
+  ni l'un ni l'autre de ceux que l'on peut voir ». **De part et d'autre, le
+  terme principal est celui qui n'est pas figuré.** La convergence porte donc
+  sur le trait le plus improbable, non sur le plus banal.
+- **Troisième attestation, relevée** : *Le Roi du Monde* ch. III met déjà Janus
+  en rapport avec les **colonnes séphirothiques** (avec les Pythagoriciens et la
+  lettre Y, et *Ganêsha*). Le ch. XXI le met en rapport avec les **nâdîs**. Or le
+  dépôt tient déjà que colonnes et nâdîs sont le même ternaire. Les trois
+  attestations se referment l'une sur l'autre **sans maillon rapporté du dehors**.
+- **Trois restrictions tenues** : (a) le **volet solsticial** de Janus — les deux
+  portes, les deux saints Jean, Cancer/Capricorne — n'est **pas** couvert,
+  `to-source` maintenu, les deux chapitres de *Symboles de la Science Sacrée*
+  (XVIII et XXXVII) nommés pour collation ; (b) **aucune correspondance de
+  niveau** n'en découle — le joint est transversal, ni Janus ni les canaux
+  latéraux n'occupent de degré ; (c) **cloison rituelle maintenue** (Cmd 3) —
+  convergence des symbolismes seule, sur la parole de l'autorité.
+- **Qualification sashimono** : joint ***hozo***, portance ***jikugumi***
+  (termes de dignité comparable, le joint porte la charge), nature
+  **homologie** — aucune filiation historique alléguée, et Guénon n'en allègue
+  aucune.
+- **Distinction respectée dans le même texte** : Guénon écrit « identique » pour
+  Janus et « **très comparable** » pour l'alchimie humaine et l'*athanor*. Le
+  dépôt suit sa distinction — Janus est *hozo*, l'alchimie reste *kari-kumi*.
+- **Confrontation Gizeh** : effectuée, **négative**. Matière ni polaire, ni
+  axiale, ni septénaire, ni métrologique. Risque de conflation polaire/solaire
+  **écarté par construction** — le Soleil dont il s'agit est le Soleil *latéral*
+  (qualité de voie), non le Soleil *axial* (degré 24).
+- **⚠️ Défaut signalé, non corrigé** :
+  [[doctrinal/symboles/table-28-degres-nafas-rahman]] porte **deux numérotations
+  incompatibles** — la Figure 2 (p. 92) place le ʿArsh au degré 10 et le
+  **Kursī au degré 11**, tandis que la structure déclarée ailleurs dans la même
+  fiche (« degrés 1-10 pré-lettrés + 11-38 = les 28 lettres ») fait du degré 11
+  la **hamza**. Le comptage Figure 1 (8) + Figure 2 (4) donne au surplus **12**
+  pré-lettrés, non 10. **Rien n'a été modifié** : point de texte, collation des
+  pp. 91-92 de Gloton réservée à Sidy.
+- **Répercussion à l'index** : les deux fiches y sont portées.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+- **Commit** : 2a6f825
+
+## [2026-08-30] archivage + correction | Guénon, *L'Homme et son devenir selon le Vêdânta*, ch. XXI — l'artère coronale et le « Rayon solaire »
+
+- **Fiche source créée** :
+  `doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire.md`
+  (`status: traditionnel`), sur **texte primaire** déposé par Sidy. Guénon y
+  commente et cite les *Upanishads* et les *Brahma-Sūtras* : exposition de
+  doctrine reçue, non construction personnelle.
+- **Les 101 nâdîs** sortent du centre vital (le cœur) « **comme les rais d'une
+  roue sortent de son moyeu** », et **une seule** passe par la couronne de la
+  tête : *suṣumnā*. L'axe vertical est donc **un rai parmi cent un**. Chiffre
+  upanishadique (*Kaṭha* II.6.16), **consigné à côté** des 72 000 / 300 000 /
+  350 000 tantriques d'Avalon, jamais fondu avec eux — deux corpus distincts
+  (Art. 3 sashimono, jamais de joint forcé).
+- **Recoupement indépendant vérifié** : Guénon figure le siège du *jîvâtmā*
+  comme un **lotus à huit pétales** ; Avalon localise le *Hamsa*/*Jîva* dans le
+  **lotus à huit pétales au-dessous d'Anāhata**. Une source `traditionnel` et
+  une source `academique` donnent **le même centre**. Le centre surnuméraire
+  relevé hier reçoit un appui d'autorité supérieure — **sans cesser d'être
+  surnuméraire** : Guénon ne l'inscrit pas davantage dans la série des sept.
+- **Le ternaire des canaux reçoit un troisième registre : le temps.** *piṅgalā*
+  = œil droit de *Vaishwânara* = Soleil = **futur** ; *iḍā* = œil gauche = Lune
+  = **passé** ; *suṣumnā* = **œil frontal de Shiva** = **présent**, « instant
+  insaisissable, comparable au point géométrique sans dimensions ».
+- **La chaîne devient entièrement guénonienne.** Le dépôt tenait colonnes ↔ yeux
+  ↔ luminaires du côté kabbalistique (*Hokmah*/*Binah* ↔ œil droit/gauche) ; le
+  ch. XXI donne l'autre moitié — ces deux yeux sont ceux de *Vaishwânara*, « en
+  relation avec les deux *nâdîs* dont il s'agit ». **Plus aucun maillon rapporté
+  du dehors.** [[doctrinal/symboles/polarite-laterale-de-l-axe]] enrichi en
+  conséquence (`sources_count` 2 → 3).
+- **Convergence, non addition** : que *suṣumnā* soit « principe igné » et « œil
+  frontal de Shiva » n'est pas deux données — le regard du troisième œil « réduit
+  tout en cendres ». Même qualité, nommée deux fois.
+- **Joint *hozo* posé par l'autorité elle-même** : « Ce symbolisme est
+  **identique** à celui du *Janus Bifrons* des Latins ». Le mot est de Guénon.
+  Joint **qualifié et consigné, aucun ancrage inscrit** — le dépôt ne porte pas
+  de fiche propre sur *Janus*, et le verdict revient à Sidy (Cmd 12).
+- **Le Rayon solaire prolonge l'axe au-delà de l'individu**, et note 11 : « le
+  rayon qui est en connexion avec l'artère coronale est appelé **aussi**
+  *sushumnâ* ». Le canal individuel et le rayon universel **portent le même
+  nom** : la thèse de l'axe unique
+  ([[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]])
+  est ici attestée par la **nomenclature du texte**, non par déduction.
+  Communication à double sens, « soit virtuelle, soit effective ».
+- **⚠️ Réserve doctrinale relevée**, qui vise toute figuration verticale : les
+  états conditionnés « n'ont **aucune commune mesure** » avec l'Inconditionné,
+  « leur obtention ne rapproche aucunement l'être de son but dernier », et la
+  Délivrance implique une **discontinuité** qui « ne sera ni plus ni moins
+  profonde » **quel que soit le degré atteint**. Une échelle de degrés ne se lit
+  donc jamais comme une proximité croissante.
+- **🔍 Piste ouverte, non instruite** : Guénon signale lui-même (note 3) que la
+  couronne de la tête « joue également un rôle important **dans les traditions
+  islamiques** concernant les conditions posthumes ». Il ne nomme aucun texte :
+  la piste est ouverte, l'ancrage ne l'est pas (Cmd 3). De même le rapport des
+  *nâdîs* à l'« alchimie humaine » (*athanor*), donné comme « très comparable »
+  et non identique — **kari-kumi** au mieux.
+- **⚠️ CORRECTION D'UNE FICHE DU DÉPÔT** :
+  [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]], établie sur
+  paraphrase d'index et non sur le texte, attribuait au **ch. XXI** « le rejet ou
+  la résorption finale » et plaçait les *nâdîs* au **ch. XIX**. Le texte primaire
+  montre que le ch. XXI est celui de l'artère coronale, et que c'est là que les
+  *nâdîs* sont exposés. **Rien n'est supprimé** (Cmd 10) : les sections XIX-XXI
+  sont conservées et marquées **NON VÉRIFIÉES**, à collationner sur l'exemplaire
+  physique. Pour l'artère coronale, les *nâdîs* et le Rayon solaire, **la fiche
+  du ch. XXI fait foi**, étant seule établie sur le texte.
+- **Répercussion à l'index** : les deux fiches y sont portées, la seconde avec
+  son signalement.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+- **Commit** : 2f529f0
+
+## [2026-08-30] archivage | Avalon — les quatre dernières planches et les centres surnuméraires
+
+- **Les huit planches sont relevées.** Sidy a déposé les quatre dernières
+  (V *Anāhata*, VI *Vishuddha*, VII *Ājñā*, VIII *Sahasrāra*). La numérotation
+  n'est pas conjecturée : les **légendes originales** sont conservées dans la
+  copie de travail (« Plate VII] Ajna », « Plate VIII] Sahasrara »), et le texte
+  ancre lui-même les deux dont la légende s'est perdue à la reconnaissance
+  (« le Lotus du cœur à huit pétales […] **Voir planche V** » ; « un examen de
+  la **planche VIII** qui figure ce centre »).
+- **Deux divergences table/planches, consignées et NON fondues** :
+  *Vishuddha* — la table donne « cercle », la planche montre un **triangle pâle
+  inscrit dans un cercle** ; *Ājñā* — la table laisse les cellules `mandala` et
+  `couleur_tattva` **vides**, la planche montre un **triangle inversé** portant
+  *Oṃ*, surmonté du croissant et du *bindu*.
+- **Les cellules vides le restent** (Cmd 5, Cmd 12). Les combler d'après la
+  planche reviendrait à trancher que la planche prime la table : c'est un
+  verdict, il appartient à Sidy, la machine ne le rend pas. Versé au dossier
+  toutefois : la planche VII **respecte** la note de tracé du chapitre V (base
+  en haut, pointe en bas), et la colonne *Liṅga / Yoni* de la table atteste
+  déjà « Itara et **Trikona** » pour *Ājñā* — la divergence est donc une
+  **lacune de la colonne `mandala`**, non une contradiction interne.
+- **Section nouvelle — les centres surnuméraires.** Avalon écrit que les six
+  du *Shatchakranirûpana* « sont **les principaux** » et qu'« il existe une
+  **très longue liste** de Chakra ». Cinq autres relevés, et — c'est le point —
+  **situés dans les intervalles de la série reçue**, non au-delà : lotus à 8
+  pétales *au-dessous* d'*Anāhata* (siège du *Hamsa*, lieu de l'adoration
+  mentale de l'*Ishtadevatā*) ; *Lalanā*/*Kalā* (12, « chakra caché », racine du
+  palais) ; *Manas* (6) et *Soma* (16) entre *Ājñā* et *Sahasrāra* ; lotus blanc
+  à 12 pétales *dans le péricarpe* du *Sahasrāra* (triangle *A-ka-tha*,
+  *Kāmakalā*).
+- **Progression morale relevée** : *Vritti* toutes mauvaises aux deux centres
+  inférieurs, mélangées à *Anāhata*, bonnes en majorité au *Lalanā*, toutes
+  bonnes au *Soma*. Avalon précise que ces *Vritti* viennent non du
+  *Shatchakranirûpana* mais d'ouvrages tiers (*Adhyātmaviveka*) : source
+  secondaire dans la source secondaire, traitée comme telle.
+- **Nomenclature fonctionnelle des nâdîs** relevée (*Manovahā*, *Ajñāvahā*, et
+  les cinq sensorielles), avec ⚠️ : Avalon l'adosse à une **réduction
+  anatomique** (cervelet, sensorium, circonvolutions corticales) que Guénon
+  écarte formellement. La nomenclature est retenue, la réduction ne l'est pas.
+- **Répercussion à l'index** (Action ARCHIVAGE, point 4) : `doctrinal/index.md`
+  reçoit les fiches de la session qui y manquaient — Avalon, Dârâ Shukûh
+  (Majmaʿ al-Bahrayn ch. VII), la polarité latérale de l'axe, et les cinq
+  discernements du 29-30 — sous une rubrique nouvelle « **L'axe vertical et sa
+  partition par les traditions** ».
+- **Aucun ancrage nouveau, aucun rapprochement inter-traditionnel tenté** sur
+  les centres surnuméraires (Cmd 3).
+- **Validation mécanique** : `verifier-invariants.py --racine /home/user/wiki`
+  → `0 erreur(s), 1 avertissement(s)` ; l'avertissement [A6] porte sur une
+  entrée d'`atelier/annales.md` du 2026-08-20 et est un **faux positif** (deux
+  SHA dans une entrée couvrant deux livrables).
+- **Commit** : fbd50ef
+
+## [2026-08-30] archivage | Avalon — table synoptique des Chakra et quatre planches
+
+- **Fiche source complétée** : `avalon-serpent-power-nadis-reseau.md` reçoit la
+  **table synoptique des Chakra** (deux pages, relevée sur cliché de
+  l'exemplaire de Sidy) et le relevé de quatre des huit planches.
+- **Contenu de la table**, par centre : position spinale, nombre de pétales,
+  lettres portées, *tattva* et sa qualité, couleur du *tattva*, forme du
+  *maṇḍala*, *bīja* et son *vāhana*, *devatā* et son *vāhana*, *shakti* du
+  *dhātu*, *liṅga*/*yoni*, autres *tattva* s'y dissolvant.
+- **Contrôle de cohérence indépendant, vérifié** : 4 + 6 + 10 + 12 + 16 + 2 =
+  **50**, nombre des lettres de l'alphabet sanscrit — total que Guénon relève
+  de son côté, et qui recoupe donc deux sources. *Sahasrāra* ne figure pas dans
+  la table : il est au-delà de la série des six, et reprend les 50 lettres
+  répétées vingt fois.
+- **Cases vides conservées telles quelles** : la table ne donne pour *Ājñā* ni
+  couleur de *tattva* ni forme de *maṇḍala*. Rien n'est comblé par conjecture
+  (Cmd 5).
+- **Note de tracé relevée** : le triangle, *yantra* de la *Shakti*, est
+  « toujours tracé avec la base en haut et le sommet en bas ».
+- **Ce que la Planche I règle** : les deux canaux latéraux y sont figurés en
+  tissage sinusoïdal autour de l'axe, **se croisant à chaque lotus** —
+  confirmant la lettre du texte et déterminant le nombre d'enroulements, qui
+  n'a donc plus à être posé arbitrairement.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+
+## [2026-08-30] archivage | Arthur Avalon, *La Puissance du Serpent* — le réseau des nâdîs
+
+- **Fiche source créée** : `doctrinal/sources/avalon-serpent-power-nadis-reseau.md`
+  (`status: academique`), sur la copie de travail déposée par Sidy. Périmètre
+  volontairement borné au **réseau des nâdîs et aux trois canaux** (chap. I et
+  V) ; le reste de l'ouvrage est signalé non relevé.
+- **Statut et dépendance établis** : Avalon est orientaliste, donc `academique`,
+  subordonné à Guénon (`traditionnel`). Mais Guénon **commente précisément
+  l'introduction de ce livre**, et le **traduit presque mot pour mot** sur le
+  point qui nous occupait — « des lignes subtiles de direction que suivent les
+  forces vitales ». La dépendance est consignée : sur ce point, citer Guénon,
+  c'est citer Avalon. Divergences conservées : Guénon refuse la lecture d'Avalon
+  du mot *yoga*, et écarte ses correspondances nerveuses.
+- **Ce que le dépôt cherchait — le réseau est chiffré et hiérarchisé** :
+  72 000 nâdîs (*Bhûtashuddi Tantra*) ; 300 000 et 350 000 selon deux autres
+  traités, **divergence non harmonisée** ; 700 cordons ; **14 principales** ;
+  **3 les plus importantes** ; **1 principale** (*Suṣumnā*, « toutes les autres
+  lui sont subordonnées »).
+- **Structure concentrique de l'axe** : *Suṣumnā* (tāmasique, feu) contient
+  *Vajrā* (rājasique, soleil) qui contient *Chitriṇī* (sāttvique, lune), dont
+  l'intérieur est la *Brahma Nāḍī*. Kundalinī monte par *Chitriṇī*, non par
+  *Suṣumnā* prise largement.
+- **Conséquence pour la vigilance polaire/solaire** : le Soleil et la Lune se
+  retrouvent **à l'intérieur même de l'axe**, et pas seulement de part et
+  d'autre — Avalon parle des trois *Bindu* « qui sont le Soleil, la Lune et le
+  Feu ». La polarité est donc répétée à **trois échelles** (cosmique, latérale,
+  intra-axiale) : elle n'est pas réductible à une latéralité.
+- **Nomenclature nouvelle, absente de Guénon** : les trois canaux portent les
+  noms des trois fleuves sacrés — *Gaṅgā* (*Iḍā*), *Yamunā* (*Piṅgalā*),
+  ***Sarasvatī*** (*Suṣumnā*), le fleuve invisible pour le canal central caché.
+- **Donnée décisive** : les canaux latéraux **ne montent pas jusqu'au sommet**.
+  Ils courent du *Mūlādhāra* (*Yuktatriveṇī*, où les trois fleuves se
+  réunissent) à l'*Ājñā* (*Muktatriveṇī*, où ils s'écoulent séparément), où ils
+  « entrent dans la *Suṣumnā* ». Au-dessus d'*Ājñā*, plus de latéralité — c'est
+  aussi pourquoi le caducée se forme avec les deux pétales de l'*Ājñā Chakra*.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+
+## [2026-08-30] discernement | Unification des axes verticaux, et résolution de l'obstacle des deux séries prophétiques
+
+- **Discernement ouvert et clos** :
+  `2026-08-30_unification-axes-verticaux-traditions.md` (`traditionnel`,
+  `fruit-mur`). Verdict de Sidy : l'Axe du Monde (*skambha*, *qutb*, *stauros*,
+  *Mêru*), le filament de l'Homme Universel, le Pôle, la colonne du milieu de
+  l'Arbre séphirothique et la *suṣumnā* sont **un seul et même axe** sous des
+  voiles distincts. La fiche ne rapproche aucun terme neuf : chaque identité
+  partielle était déjà tranchée, **ce qui manquait était leur fermeture en une
+  seule**. Unification transitivement close, aucune prémisse non validée.
+- **Deux précisions posées** : (a) l'axe **n'est pas un degré** — les sept Pôles
+  siègent *à* des degrés, l'Axe *est* la verticale entière ; le mot « Pôle »
+  sert donc à deux choses distinctes, désormais séparées ; (b) l'unité est
+  **de principe** et ne se transmet pas aux partitions — elle n'aligne aucune
+  division, n'abolit aucune cloison rituelle, et ne fait pas de tout septénaire
+  un même septénaire.
+- **Obstacle levé dans `2026-08-29_sept-poles-sept-lataif.md`**, sur la remarque
+  de Sidy (« il ne faut pas confondre la résidence des Prophètes aux cieux
+  planétaires et leurs attributions aux *laṭāʾif*, les deux ne sont pas
+  mutuellement exclusifs »). **Mon objection du 2026-08-29 était mal posée** :
+  elle supposait qu'une bijection dût exister entre les deux séries. Résidence
+  (station cosmique) et régence (fonction dans l'être humain) sont **deux
+  relations distinctes**, non deux ordres d'une même relation. Le décalage des
+  rangs relève du régime déjà tranché pour l'anneau zodiacal — deux partitions
+  non commensurables d'un même continu, « le décalage est une donnée, pas un
+  défaut de rendu ».
+- **Conséquence de méthode, qui redirige le dossier** : apparier les cieux
+  planétaires aux *laṭāʾif* revient à apparier un **macrocosme** à un
+  **microcosme** — erreur de catégorie, celle que ma rédaction initiale
+  commettait. Les comparaisons licites respectent l'échelle : cieux ↔ *lokas*
+  (macro ↔ macro), *laṭāʾif* ↔ *chakras* (micro ↔ micro), et macro ↕ micro à
+  l'intérieur de chaque tradition. Structure attestée des deux côtés par des
+  sources **déjà au dépôt** : Guénon apparie les sept *lokas* aux sept
+  *chakras* ; le ch. IV de Shayegan atteste que « chez Najm Kobrâ, les sept
+  cieux astronomiques sont homologués avec les sept cieux intérieurs de
+  l'âme ».
+- **Conséquence rétroactive, favorable** : le verdict Sephiroth ↔ chakras du
+  2026-08-29 se trouve **conforté** — Guénon annonce prendre les Sephiroth dans
+  leur correspondance humaine *avant* de comparer, sa comparaison est donc
+  micro ↔ micro, forme licite. Aucun changement à la fiche, la raison en est
+  seulement mieux vue.
+- **Ce qui reste manquant** n'est plus une objection mais une **source** : la
+  liste ordonnée des sept *laṭāʾif* et de leurs régents (ch. II du commentaire
+  de Shayegan, bibliothèque physique, non transcrit).
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s), 1
+  avertissement(s)` (A6 préexistant).
+
+## [2026-08-29] archivage | La polarité latérale de l'axe : les deux canaux solaire et lunaire
+
+- **Fiche créée** : `doctrinal/symboles/polarite-laterale-de-l-axe.md`
+  (`status: traditionnel`), sur consigne de Sidy d'exploiter complètement la
+  donnée signalée le soir même (*iḍā* ↔ Lune, *piṅgalā* ↔ Soleil, *suṣumnā* ↔
+  principe igné).
+- **Contenu** : l'axe n'est pas seul, il est flanqué de deux voies latérales de
+  qualité opposée — solaire/masculine/positive à droite, lunaire/féminine/
+  négative à gauche — le centre ayant sa nature propre (le principe igné), et
+  non celle d'un simple milieu neutre. **Point capital** : les deux canaux
+  latéraux ne portent **aucun centre** ; la latéralité est une qualité de voie,
+  jamais un lieu d'étape.
+- **Recoupement à trois termes, entièrement sourcé du même texte** : Guénon met
+  les trois colonnes séphirothiques en correspondance avec les trois *nâdîs*, et
+  donne l'attribution solaire/lunaire **des deux côtés** — *Hokmah*/*Binah*
+  rapportées aux deux yeux droit et gauche, « correspondance microcosmique du
+  Soleil et de la Lune » (note 25). Colonne de droite (Miséricorde) ↔ *piṅgalā*
+  ↔ Soleil ; colonne de gauche (Rigueur) ↔ *iḍā* ↔ Lune. Il y adjoint les deux
+  anges des épaules de la tradition islamique (note 27), le caducée et le bâton
+  brahmanique.
+- **Distinction capitale posée en bloc 🔍 (vigilance polaire/solaire)** : ce
+  Soleil et cette Lune **ne sont pas** ceux des cieux planétaires du *Malakūt*
+  (degrés 24 et 27). Là, deux **degrés superposés** de l'axe, régis par des
+  Prophètes ; ici, deux **qualités de voies** courant sur toute la hauteur sans
+  occuper aucun rang. Homonymie de symbolisme, **non un point d'ancrage** — les
+  confondre serait l'erreur de catégorie exacte que la vigilance permanente
+  écarte. **Aucun ancrage posé** entre les deux séries.
+- **Fiche `2026-08-29_axe-du-monde-doctrine-transversale` complétée** (verdict
+  inchangé) : le même texte apporte un quatrième terme et un recoupement
+  microcosmique — la colonne vertébrale est le *Mêru-danda*, « axe du corps
+  humain », « de même que, au point de vue macrocosmique, le *Mêru* est l'axe
+  du monde ». Guénon emploie donc la formule sous sa plume dans un **second
+  texte indépendant**. Signalé comme confirmation convergente, **non** comme
+  cinquième terme séparément instruit — l'extension du verdict appartient à
+  Sidy.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s), 1
+  avertissement(s)` (A6 préexistant).
+
+## [2026-08-29] correction | Kundalinî-Yoga (Guénon) : source complétée, `to-source` levé, et deux erreurs de ma part rectifiées
+
+- **Motif** : Sidy a versé au dépôt le texte intégral de l'article
+  « Kundalinî-Yoga » (*Études sur l'Hindouisme*), en rappelant à juste titre que
+  le format d'entrée — un relevé de l'*Index de l'œuvre de René Guénon* — est un
+  **support de commodité** et non une source seconde : il possède et a lu
+  l'ouvrage. C'est la condition exacte du §VII point 2 (levée du marqueur par
+  vérification du texte primaire par l'utilisateur lui-même). Réserve « clipping
+  web non vérifié sur exemplaire » **retirée**.
+- **Fiche source enrichie** : `guenon-kundalini-yoga-etudes-hindouisme.md`
+  passe d'un relevé de deux notes (41 lignes) à une fiche substantielle —
+  laya-yoga et ordre de résorption, les trois *nâdîs* et leurs correspondances
+  cosmiques, table des sept centres (localisation, pétales, déité présidante,
+  *loka*), Kundalinî et les *granthis*, l'appariement séphirothique terme à
+  terme avec ses justifications, et les correspondances islamiques données en
+  notes (*maqâm el-amr*, *rishi*/*roèh*/*nabî*, pierre noire, les deux anges des
+  épaules). Ajout d'un bloc ⚠️ reprenant la dénonciation par Guénon des lectures
+  orientaliste et occultiste, et nommément théosophiste.
+- **Deux erreurs de ma part, rectifiées dans
+  `2026-08-29_sephiroth-chakras-sept-niveaux.md`** — toutes deux commises le
+  matin même, à partir du stub, et corrigées le soir sur le texte :
+  1. **Erreur de fond.** J'avais écrit qu'« aucune correspondance » n'existait
+     entre les colonnes séphirothiques et les *nāḍī*, la latéralité n'existant
+     « que du côté kabbalistique ». **Le texte dit exactement l'inverse** : la
+     colonne du milieu « correspond à *sushumnâ* », « les deux colonnes
+     latérales étant en relation avec *idâ* et *pingalâ* », et les canaux
+     reliant les Sephiroth « ne sont pas sans analogie avec les *nâdîs* ». La
+     correspondance porte donc sur deux registres — les niveaux **et** la
+     latéralité. L'erreur interdisait par avance une exploitation que le texte
+     autorise.
+  2. **Erreur de caractérisation.** J'avais présenté l'« interversion » de
+     Guénon comme un doute sur l'appariement du bas de l'échelle. C'est sa
+     **conclusion**, non son doute : l'ordre naïf des rangs donnerait
+     Yesod↔Swādhishthāna, et Guénon intervertit pour poser Yesod↔Mūlādhāra
+     (« fondement » ↔ « centre-racine ») et Malkhut↔Swādhishthāna
+     (« Royaume » ↔ « propre demeure »). **L'appariement que j'avais déclaré
+     était le bon** ; seule sa justification était fausse. Les deux ancrages
+     restent `suggere`, mais sur un motif désormais exact : la force
+     d'assertion moindre de Guénon (« il semble ») pour ces deux-là, contre
+     « aucune difficulté »/« manifestement » pour les cinq premiers. Nuance de
+     degré, levable sur verdict.
+- **Donnée nouvelle non exploitée, signalée** : *iḍā* ↔ Lune, *piṅgalā* ↔
+  Soleil, *suṣumnā* ↔ principe igné — matière relevant de la vigilance
+  polaire/solaire, à confronter le moment venu.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s), 1
+  avertissement(s)` (A6 préexistant). Manifeste régénéré, inchangé quant aux
+  ancrages : `44 nœud(s), 22 ancrage(s), 4 registre(s)`.
+
+## [2026-08-29] archivage + discernement | Majmaʿ al-Bahrayn ch. VII, et trois verdicts inter-traditionnels de Sidy
+
+- **Source créée** : `doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes.md`
+  (`status: traditionnel`) — le ch. VII du *Majmaʿ al-Bahrayn* de Dârâ Shokûh
+  (1615-1659), qui apparie lui-même, terme à terme, les quatre mondes du
+  Tasawwuf et les quatre états d'Âtmâ. Le commentaire moderne de Shayegan sur
+  ce chapitre, de statut `academique`, n'est **pas** fondu dans cette fiche
+  (Cmd 4) ; sa divergence est reproduite en bloc 🌐. Réserve consignée : la
+  transcription du texte primaire n'est pas encore relue sur ses 13 clichés.
+- **Discernement validé** : `2026-08-29_hadarat-quatre-etats-atma.md`
+  (`status: traditionnel`, `maturite: fruit-mur`) — verdict de Sidy du
+  2026-08-29. Les quatre appariements sont établis. La réserve du commentateur
+  sur le seul joint *susupta*↔*jabarūt* (« déséquilibre de niveau ») est
+  conservée au dossier comme tension documentée, non comme invalidation : elle
+  oppose une objection `academique` à un texte `traditionnel`. Portée
+  explicitement bornée : n'établit rien sur les *chakra*, ne tranche ni la
+  position du *ʿālam-e mithāl* ni le degré du *jabarūt*.
+- **Discernement validé** : `2026-08-29_sephiroth-chakras-sept-niveaux.md`
+  (`status: traditionnel`, `maturite: fruit-vert`) — verdict de Sidy
+  (« Sephiroth ↔ Chakras = Validé »). Cinq appariements établis ; les deux
+  derniers (Yesod/Malkhut ↔ Mūlādhāra/Swādhishthāna) restent **suggérés**, sous
+  la réserve d'interversion que **Guénon pose lui-même**. **Dette de
+  traçabilité signalée** : la fiche source `guenon-kundalini-yoga-etudes-
+  hindouisme` est un relevé partiel qui ne porte pas le passage §34-36 invoqué,
+  et se déclare issue d'un clipping web non vérifié sur exemplaire. Le verdict
+  porte donc sur une correspondance dont la lettre exacte n'est pas archivée —
+  à solder sur exemplaire physique.
+- **Discernement ouvert (validé en principe, exécution suspendue)** :
+  `2026-08-29_sept-poles-sept-lataif.md` (`status: speculatif`,
+  `maturite: germe`, `sources: ["to-source"]`) — verdict de principe rendu par
+  Sidy, avec son motif (les Prophètes comme régents des deux séries), consigné
+  fidèlement. **Obstacle formel dur relevé et documenté** : les deux séries
+  prophétiques ne coïncident ni en composition ni en rang — ordre du *miʿrāj*
+  pour les sept Pôles (Adam, Jésus, Joseph, Idrîs, Aaron, Moïse, Abraham) contre
+  ordre de Semnânî pour les *laṭāʾif* (Adam, Noé, Abraham, Moïse, David, Jésus,
+  Muhammad). Aucun appariement terme à terme n'est donc écrit : ce qui manque
+  est une **source**, non un verdict. Le document de départ (article web
+  ghayb.com, 2025) est de statut tertiaire, compile Wikipédia et Scribd, et
+  donne une troisième attribution encore différente pour **six** *laṭāʾif* —
+  retenu comme piste flaguée, `to-source` posé (§VII, points 3 et 4). Pièce
+  manquante identifiée : le ch. II du commentaire de Shayegan, en bibliothèque
+  physique, non encore transcrit.
+- **Étanchéité** : aucune des quatre fiches ne pointe vers `atelier/` (§VI) ;
+  les transcriptions du pôle bibliothèque y sont citées bibliographiquement,
+  sans wikilink.
+- **Validation mécanique** : `verifier-invariants.py --racine /home/user/wiki`
+  → `0 erreur(s), 1 avertissement(s)` (A6 préexistant, entrée du 2026-08-20,
+  sans rapport avec cette passe).
 
 ## [2026-08-29] discernement | ouverture | Axe du Monde (validée) et Octogone/Barzakh (en cours)
 

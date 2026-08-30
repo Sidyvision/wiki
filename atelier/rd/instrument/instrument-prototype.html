@@ -59,10 +59,13 @@
     <i style="background:var(--blanc)"></i>degrés (11–38)<br>
     <i style="background:var(--argent)"></i>Barzakh supérieur (19–20)<br>
     <i style="background:#fff"></i>filament — al-Insān al-Kāmil<br>
-    <i style="background:var(--rouge)"></i>équivalence établie (hozo)<br>
+    <i style="background:var(--rouge)"></i>ancrage ÉTABLI (hozo) — verdict rendu, fiche de discernement en source<br>
+    <i style="background:repeating-linear-gradient(90deg,#e2a08f 0 3px,transparent 3px 6px)"></i>🔍 ancrage SUGGÉRÉ — non tranché, jamais fondu avec l'établi<br>
     <i style="background:#d9d3ea"></i>nœud universel (hors arbre-tradition)<br>
     <i style="background:var(--argent)"></i>bezel zodiacal (signes / manāzil / maisons — toucher un cran)<br>
-    <i style="background:#cfe4d8"></i>registre parallèle (autre partition du même axe)
+    <i style="background:#cfe4d8"></i>registre parallèle (autre partition du même axe)<br>
+    <i style="background:#d9a441"></i>canal solaire (<i style="background:#9fb4c9"></i>lunaire) — voie latérale, jamais un centre<br>
+    <span id="bascule-axe" style="cursor:pointer;text-decoration:underline dotted">mode : <b id="mode-axe">VUE ÉCLATÉE</b> — touche U : un seul axe sous tous les voiles</span>
   </div>
 </div>
 
@@ -185,6 +188,11 @@ var BANDES = [
 // Équivalence ÉTABLIE (hozo), verdict Sidy 2026-07-16, enrichi 2026-08-04 —
 // doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire (clos).
 var SOURCE_AQTAB = "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]";
+
+// Ancrages inter-registres et bornes des bandes de Présences : peuplés depuis
+// le manifeste (aucune valeur en dur — la donnée seule décide).
+var ANCRAGES_REGISTRES = [];
+var BORNES_BANDE = {};
 var AQTAB = [
   [21,"Pôle de Saturne (Abraham y siège)"],
   [22,"Pôle de Jupiter (Moïse y siège)"],
@@ -254,6 +262,11 @@ var posHommeUniversel = null;
 // Registres — partitions du MÊME axe vertical, une par tradition. Vide en repli :
 // le registre est une notion introduite avec le manifeste v0.2.3 / données v0.4.0.
 var REGISTRES = [];
+// Mode de rendu de l'axe : false = vue éclatée (lisible), true = axe unifié.
+// L'unité de l'axe est un VERDICT (2026-08-30) ; la vue éclatée n'est qu'une
+// commodité de lecture. Voir le bloc « MODE AXE UNIFIÉ » plus bas.
+var AXE_UNIFIE = false;
+var objetsFilament = null;   // renseigné au tracé du filament al-Insān al-Kāmil
 
 // ---- Dérivation depuis le manifeste -----------------------------------------
 //   Quand wiki-manifest.json a pu être lu, il REMPLACE intégralement les
@@ -286,11 +299,19 @@ if (MANIFESTE){
     .map(function(n){ return [n.degre_vertical, String(n.label).replace(/^\s*\d+\s*·\s*/, "")]; });
   if (degres.length) DEGRES = degres;
 
-  // Nœuds notionnels de l'anneau : tasawwuf sans degré, hors filament et hors
-  // Barzakh (tous deux rendus à part, sur l'axe).
+  // Nœuds notionnels de l'anneau : sans degré vertical, hors filament et hors
+  // Barzakh (tous deux rendus à part, sur l'axe), hors Homme Universel (rendu
+  // à part comme source d'équivalences).
+  //   Élargi le 2026-08-30 aux nœuds `universel` : l'anneau accueille les nœuds
+  //   TRANSVERSAUX, et un joint transversal peut joindre deux symboles dont
+  //   aucun n'est akbarien — c'est le cas du ternaire latéral ↔ Janus. Restreindre
+  //   l'anneau à `tasawwuf` rendait la donnée indessinable pour cette seule
+  //   raison de provenance, ce qui n'est pas un critère.
   var notionnels = noeuds.filter(function(n){
-    return n.tradition === "tasawwuf" && n.degre_vertical == null
-        && n.id !== "tasawwuf/al-insan-al-kamil";
+    return (n.tradition === "tasawwuf" || n.tradition === "universel")
+        && n.degre_vertical == null
+        && n.id !== "tasawwuf/al-insan-al-kamil"
+        && n.id !== "universel/homme-universel";
   }).map(function(n){
     return {id: n.id, label: abreger(n.label, 34), labelComplet: n.label, src: n.source};
   });
@@ -354,7 +375,34 @@ if (MANIFESTE){
       .filter(function(d){ return Array.isArray(d.degres) && d.degres.length === 2; })
       .map(function(d){ return [d.degres[0], d.degres[1], d.label]; });
     if (bandes.length) BANDES = bandes;
+    // Les bandes gardent leur identifiant : un ancrage inter-registres peut
+    // viser une Présence, et il faut alors savoir OÙ elle est tracée.
+    regTas.domaines.forEach(function(d){
+      if (Array.isArray(d.degres) && d.degres.length === 2)
+        BORNES_BANDE[d.id] = {degres: d.degres, label: d.label, registre: regTas.label};
+    });
   }
+
+  // -- Ancrages INTER-REGISTRES ------------------------------------------
+  //   Déclarés dans la donnée sur le domaine source (`ancrages[].cible`), et
+  //   déjà gardés par le générateur : un ancrage dont les deux extrémités ne
+  //   sont pas dans le même registre EXIGE une fiche doctrinal/discernement/
+  //   en source (Cmd 3). Le rendu ne fait que les tracer ; il n'en invente
+  //   aucun et n'en tait aucun.
+  ANCRAGES_REGISTRES = [];
+  REGISTRES.forEach(function(r){
+    (r.domaines || []).forEach(function(d){
+      (d.ancrages || []).forEach(function(a){
+        if (!a.cible) return;
+        ANCRAGES_REGISTRES.push({
+          depuis: d.id, vers: a.cible,
+          registreDepuis: r.id, labelDepuis: d.label,
+          etat: a.etat || "suggere", type: a.type || "", note: a.note || "",
+          source: a.source || "", echelleDepuis: r.echelle || ""
+        });
+      });
+    });
+  });
 }
 
 // Provenance affichée sous le titre : l'utilisateur doit toujours savoir s'il
@@ -708,14 +756,24 @@ var disques = [];
 // -- Filament : al-Insān al-Kāmil (validé 2026-07-01) --
 (function(){
   var x = .6;
-  var fil = ligne([new THREE.Vector3(x, yDeg[11] + .4, 0), new THREE.Vector3(x, yDeg[38] - .4, 0)], 0xf2f2fa, .9, false);
+  // Le filament est tracé en x=0 dans sa géométrie, puis DÉCALÉ par position.x :
+  // ainsi le mode « axe unifié » n'a qu'à ramener position.x à 0 pour le faire
+  // rejoindre l'axe — dont il n'a, selon le verdict du 2026-08-30, jamais été
+  // distinct (décalage-artefact de pure lisibilité).
+  var fil = ligne([new THREE.Vector3(0, yDeg[11] + .4, 0), new THREE.Vector3(0, yDeg[38] - .4, 0)], 0xf2f2fa, .9, false);
+  fil.position.x = x; fil.userData.__xEclate = x;
   monde.add(fil);
   var noeud = marqueur(.28, "#ffffff", true);
   noeud.position.set(x, yEntre(19, 20), 0);
   noeud.userData = {label: FILAMENT.label + " — filament traversant",
-    deg:"traverse les cinq Présences (rendu validé le 2026-07-01) ; identité à quatre voiles traditionnelles (tasawwuf/qabbalah/taoïsme/vêdânta) établie le 2026-07-26, discernement clos",
+    deg:"traverse les cinq Présences (rendu validé le 2026-07-01) ; identité à quatre voiles traditionnelles (tasawwuf/qabbalah/taoïsme/vêdânta) établie le 2026-07-26, discernement clos ; UN SEUL AXE avec l'Axe du Monde, le Pôle, la colonne du milieu et sushumnâ (verdict du 2026-08-30) — toucher U pour l'unifier au rendu",
     src: FILAMENT.src + " ; " + SOURCE_HOMME_UNIVERSEL};
+  // Posé APRÈS l'affectation ci-dessus, qui remplace userData en entier :
+  // le poser avant le perdait, et le mode éclaté rendait alors position.x
+  // indéfini. Défaut relevé par le test de bascule, non par relecture.
+  noeud.userData.__xEclate = x;
   monde.add(noeud); interactifs.push(noeud);
+  objetsFilament = [fil, noeud];
 
   // -- Homme Universel : nœud universel, équivalence établie avec le filament
   //    (hozo, verdict Sidy 2026-07-26) — même traitement que les Aqtâb.
@@ -787,8 +845,34 @@ var posNotionnels = {};
   var Z_BASE = -6.0;             // retrait en profondeur du premier registre
   var Z_PAS  = -3.2;             // retrait supplémentaire par registre suivant
 
+  // -- MODE « AXE UNIFIÉ » (verdict Sidy 2026-08-30) -----------------------
+  //   L'Axe du Monde, le filament de l'Insān al-Kāmil, le Pôle, la colonne du
+  //   milieu et sushumnâ sont UN SEUL axe. Les verticales parallèles tracées
+  //   ici sont donc un même axe dessiné plusieurs fois : le retrait en
+  //   profondeur est un DÉCALAGE-ARTEFACT, de pure lisibilité.
+  //   Il ne faut surtout pas le confondre avec le DÉCALAGE-DONNÉE des
+  //   partitions non commensurables (12 signes / 28 manāzil), qui, lui, ne
+  //   doit JAMAIS être ajusté (spec-anneau-zodiacal §3.4).
+  //   Le mode unifié résorbe le premier, jamais le second : chaque registre
+  //   revient sur l'axe unique (z → 0), les niveaux restant à leur hauteur
+  //   propre — les partitions ne sont pas alignées entre elles, elles sont
+  //   seulement rendues sur la même verticale.
+  //   Voir doctrinal/discernement/2026-08-30_unification-axes-verticaux-
+  //   traditions.md (consultation R&D, sens unique).
+  var groupesRegistres = [];   // {groupe, zEclate}
+  var liensEtablisHU = [];     // {ligne, depuis, versLocal, groupe} — à reconstruire au basculement
+  var POS_DOMAINE = {};        // id de domaine -> {p (local), groupe, registre, label, echelle}
+  var liensAncrages = [];      // {ligne, aMonde, bMonde, gA, gB} — idem
+
   PAR.forEach(function(reg, ir){
     var z = Z_BASE + ir * Z_PAS;
+    var gReg = new THREE.Group();
+    gReg.position.z = z;
+    monde.add(gReg);
+    gReg.zEclateOrigine = z;   // profondeur de la vue éclatée, figée à la construction
+    groupesRegistres.push({groupe: gReg, zEclate: z});
+    // À l'intérieur du groupe, tout est tracé en z LOCAL = 0.
+    var zL = 0;
 
     // -- Niveaux : dérivés MÉCANIQUEMENT des rangs et colonnes déclarés.
     //    Un domaine « gauche » suivant immédiatement un « droite » partage son
@@ -807,13 +891,43 @@ var posNotionnels = {};
     });
     var nbNiveaux = niveau;
 
+    // -- SENS D'ÉNUMÉRATION — corrigé le 2026-08-30 ------------------------
+    //   `rang` enregistre l'ordre PROPRE À CHAQUE TRADITION, et cet ordre n'a
+    //   pas le même sens partout : la Kabbale énumère du haut (Kether=1, la
+    //   Couronne), le Kundalinî-yoga et le Vêdânta énumèrent du bas
+    //   (Mūlādhāra=1, le centre-RACINE ; Vaishwânara=1, le plus grossier).
+    //   Le rendu supposait « rang 1 = sommet » pour tous : il plaçait donc le
+    //   centre-racine à la couronne et Sahasrāra à la base — deux registres
+    //   sur quatre à l'envers, depuis le 2026-08-20. Défaut relevé par test
+    //   mécanique, non par relecture.
+    //   Le sens est désormais lu DANS LA DONNÉE (`sens_rang`), jamais supposé.
     var yHaut = yDeg[11], yBas = yDeg[38];
+    var ascendant = (reg.sens_rang === "ascendant");
     var yDuNiveau = function(n){
-      return (nbNiveaux <= 1) ? (yHaut + yBas) / 2
-           : yHaut + (yBas - yHaut) * ((n - 1) / (nbNiveaux - 1));
+      if (nbNiveaux <= 1) return (yHaut + yBas) / 2;
+      var t = (n - 1) / (nbNiveaux - 1);
+      if (ascendant) t = 1 - t;          // rang 1 en bas
+      return yHaut + (yBas - yHaut) * t;
     };
     var xDeCol = function(c){
       return c === "droite" ? ECART_COL : (c === "gauche" ? -ECART_COL : 0);
+    };
+
+    // -- Couleur d'une voie selon sa correspondance cosmique déclarée --------
+    //    Pilotée par la DONNÉE (registres[].colonnes[c].correspondance_cosmique
+    //    et registres[].canaux[*].correspondance_cosmique), jamais codée en
+    //    dur : un registre qui ne déclare rien garde la teinte neutre.
+    //    Source : Guénon, « Kundalinî-Yoga » — idâ ↔ Lune, pingalâ ↔ Soleil,
+    //    sushumnâ ↔ principe igné. Voir doctrinal/symboles/polarite-laterale-
+    //    de-l-axe.md (consultation R&D, sens unique).
+    var TEINTE_COSMIQUE = {
+      "Soleil":        0xd9a441,   // or — voie solaire, masculine, positive
+      "Lune":          0x9fb4c9,   // argent bleuté — voie lunaire, féminine, négative
+      "principe igné": 0xc4563f    // rouge sombre — le milieu a sa nature propre
+    };
+    var NEUTRE = 0xa9c9bb;
+    var teinteDe = function(corr){
+      return (corr && TEINTE_COSMIQUE[corr] !== undefined) ? TEINTE_COSMIQUE[corr] : NEUTRE;
     };
 
     // -- Les trois colonnes, tracées sur l'étendue effective du registre --
@@ -822,16 +936,189 @@ var posNotionnels = {};
       if (!occup.length) return;
       var n1 = Math.min.apply(null, occup.map(function(d){ return d._niv; }));
       var n2 = Math.max.apply(null, occup.map(function(d){ return d._niv; }));
-      monde.add(ligne([
-        new THREE.Vector3(xDeCol(c), yDuNiveau(n1) + .5, z),
-        new THREE.Vector3(xDeCol(c), yDuNiveau(n2) - .5, z)
-      ], 0xa9c9bb, c === "milieu" ? .5 : .3, c !== "milieu"));
+      var decl = (reg.colonnes && reg.colonnes[c]) || null;
+      var corr = decl && decl.correspondance_cosmique;
+      gReg.add(ligne([
+        new THREE.Vector3(xDeCol(c), yDuNiveau(n1) + .5, zL),
+        new THREE.Vector3(xDeCol(c), yDuNiveau(n2) - .5, zL)
+      ], teinteDe(corr), c === "milieu" ? .5 : .3, c !== "milieu"));
     });
+
+    // -- Les canaux latéraux (nâdîs), quand le registre en déclare -----------
+    //    Guénon les décrit comme « à l'extérieur de ce même axe, autour duquel
+    //    elles s'entrecroisent par une sorte de double enroulement
+    //    hélicoïdal » : rendus comme tels, et non comme des colonnes droites.
+    //    Ce sont des VOIES, jamais des centres — aucun marqueur n'y est posé,
+    //    conformément au schéma (les registres ne portent que des centres).
+    if (reg.canaux){
+      // BORNES DU PARCOURS LATÉRAL — corrigé le 2026-08-30 sur Avalon.
+      //   Une première version faisait courir les hélices sur TOUTE la hauteur
+      //   du registre. C'était faux : « Quand elles atteignent l'espace entre
+      //   les sourcils, connu sous le nom d'Ajnâ Chakra, Idâ et Pingalâ
+      //   ENTRENT DANS LA SUSHUMNÂ » (La Puissance du Serpent, chap. V).
+      //   Au-dessus d'Ājñā il n'y a plus de latéralité, seulement l'axe.
+      //   Les deux bornes portent chacune un nom : Mūlādhāra = Yuktatriveṇī
+      //   (les trois fleuves s'y réunissent), Ājñā = Muktatriveṇī (ils s'en
+      //   écoulent séparément). Bornes lues DANS LA DONNÉE (canal_debut /
+      //   canal_fin du registre), jamais codées en dur.
+      //   Voir doctrinal/sources/avalon-serpent-power-nadis-reseau.md.
+      var nivDe = function(idDom){
+        var t = doms.filter(function(d){ return d.id === idDom; })[0];
+        return t ? t._niv : null;
+      };
+      var nDeb = reg.canal_debut ? nivDe(reg.canal_debut) : null;
+      var nFin = reg.canal_fin   ? nivDe(reg.canal_fin)   : null;
+      var yA = yDuNiveau(nDeb !== null ? nDeb : 1) + .5;
+      var yB = yDuNiveau(nFin !== null ? nFin : nbNiveaux) - .5;
+      Object.keys(reg.canaux).forEach(function(k){
+        var cn = reg.canaux[k];
+        if (!cn || typeof cn !== "object") return;      // ancienne forme (chaîne) : ignorée
+        if (cn.cote !== "droite" && cn.cote !== "gauche") return;  // le central est déjà l'axe
+        var sens = (cn.cote === "droite") ? 1 : -1;
+        // Nombre de tours DÉRIVÉ du nombre de centres enlacés, non posé à la
+        // main : Avalon écrit que les deux canaux « passent alternativement de
+        // droite à gauche et de gauche à droite, ENTOURANT AINSI LES LOTUS »,
+        // et la Planche I les montre croisant à chaque lotus. Deux hélices
+        // contra-rotatives se croisent deux fois par tour : n centres ⇒ n/2
+        // tours. Une version antérieure figeait 3,5 tours en invoquant
+        // l'enroulement de Kundalinî autour du liṅga — autre chose entièrement.
+        var nEnlaces = Math.abs((nFin !== null ? nFin : nbNiveaux) - (nDeb !== null ? nDeb : 1)) + 1;
+        var TOURS = nEnlaces / 2;
+        var PAS = 44, pts = [];
+        for (var i = 0; i <= PAS; i++){
+          var t = i / PAS, ang = t * TOURS * Math.PI * 2 * sens;
+          pts.push(new THREE.Vector3(
+            Math.sin(ang) * ECART_COL * .55,
+            yA + (yB - yA) * t,
+            zL + Math.cos(ang) * ECART_COL * .55
+          ));
+        }
+        var hel = ligne(pts, teinteDe(cn.correspondance_cosmique), .42, false);
+        hel.userData = {
+          label: k + " — " + (cn.label || "canal latéral"),
+          deg: "canal (nâdī), non un centre : aucune étape ne s'y situe"
+             + (reg.canal_debut && reg.canal_fin ? " · court de " + reg.canal_debut + " à " + reg.canal_fin + " — au-delà, plus de latéralité : seulement l'axe" : "")
+             + (cn.correspondance_cosmique ? " · correspondance cosmique : " + cn.correspondance_cosmique : "")
+             + (cn.colonne_sephirothique ? " · colonne séphirothique : " + cn.colonne_sephirothique : "")
+             + (cn.oeil ? " · œil : " + cn.oeil : "")
+             + (cn.temps ? " · temps : " + cn.temps : "")
+             + (cn.note ? " · " + cn.note : ""),
+          src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
+        };
+        gReg.add(hel); interactifs.push(hel);
+      });
+
+      // -- Le canal MÉDIAN : pas d'hélice, mais sa donnée doit être atteignable.
+      //    sushumnâ n'est pas dessinée à part — elle EST l'axe, et la dessiner
+      //    en doublerait le trait. Mais elle porte désormais une donnée propre
+      //    (œil frontal de Shiva, le présent, et le prolongement par le Rayon
+      //    solaire) : un marqueur discret sur l'axe la rend consultable, sans
+      //    ajouter une seconde ligne qui mentirait sur la géométrie.
+      //    Sa hauteur est celle du registre entier, NON celle des hélices :
+      //    les canaux latéraux s'arrêtent à Ājñā, l'axe ne s'arrête pas là.
+      var med = null;
+      Object.keys(reg.canaux).forEach(function(k){
+        var c = reg.canaux[k];
+        if (c && typeof c === "object" && c.cote === "milieu") med = {cle: k, d: c};
+      });
+      if (med){
+        var yM = (yDuNiveau(1) + yDuNiveau(nbNiveaux)) / 2;
+        var pr = reg.prolongement_axial;
+        var mm = marqueur(.22, "#e0d2b4", false);
+        mm.position.set(0, yM, zL);
+        mm.userData = {
+          label: med.cle + " — " + (med.d.label || "canal médian"),
+          deg: "canal MÉDIAN — il n'est pas dessiné à part : il EST l'axe"
+             + " · il court sur toute la colonne, au-delà du terme des deux"
+             + " canaux latéraux (lesquels s'arrêtent à Ājñā)"
+             + (med.d.correspondance_cosmique ? " · correspondance cosmique : " + med.d.correspondance_cosmique : "")
+             + (med.d.oeil ? " · œil : " + med.d.oeil : "")
+             + (med.d.temps ? " · temps : " + med.d.temps : "")
+             + (med.d.note ? " · " + med.d.note : "")
+             + (pr ? " · PROLONGEMENT : " + pr.nom + " — " + (pr.identite_nominale || "")
+                   + (pr.nature ? " ; " + pr.nature : "")
+                   + (pr.sens ? " ; sens " + pr.sens : "")
+                   + " — l'axe ne s'arrête pas au sommet de la tête" : ""),
+          src: (pr && pr.source) ? pr.source
+             : "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
+        };
+        gReg.add(mm); interactifs.push(mm);
+      }
+    }
+
+    // -- LOTUS : pétales, mandala et couleur de tattva -----------------------
+    //   Versés le 2026-08-30 depuis la table synoptique d'Avalon. Entièrement
+    //   pilotés par la donnée : un domaine qui ne déclare ni `petales` ni
+    //   `mandala` garde le marqueur sphérique ordinaire. Les champs laissés
+    //   vides dans la table (Ājñā n'a ni couleur ni mandala) le restent ici —
+    //   rien n'est comblé par conjecture.
+    var TEINTE_TATTVA = {
+      "jaune": 0xd8c15a, "blanc": 0xe8e8ea, "rouge": 0xc4563f,
+      "gris de fumée": 0x8d9199
+    };
+    // Formes de mandala (yantra du bhûta correspondant), tracées en fil.
+    var formeMandala = function(nom, r){
+      var pts = [], i;
+      if (nom === "carre"){
+        for (i = 0; i <= 4; i++) pts.push([Math.cos(Math.PI/4 + i*Math.PI/2)*r, Math.sin(Math.PI/4 + i*Math.PI/2)*r]);
+      } else if (nom === "triangle"){
+        // Le triangle de la Shakti est tracé BASE EN HAUT, POINTE EN BAS
+        // (Avalon, note : « toujours tracé avec la base en haut et le sommet
+        // en bas »). Rendu tel quel, jamais redressé.
+        for (i = 0; i <= 3; i++) pts.push([Math.cos(Math.PI/2 + Math.PI + i*2*Math.PI/3)*r, Math.sin(Math.PI/2 + Math.PI + i*2*Math.PI/3)*r]);
+      } else if (nom === "hexagramme"){
+        for (i = 0; i <= 6; i++) pts.push([Math.cos(i*Math.PI/3)*r, Math.sin(i*Math.PI/3)*r]);
+      } else if (nom === "cercle"){
+        for (i = 0; i <= 32; i++) pts.push([Math.cos(i*2*Math.PI/32)*r, Math.sin(i*2*Math.PI/32)*r]);
+      } else if (nom === "croissant"){
+        for (i = 0; i <= 20; i++){ var a = -Math.PI/2.2 + i*(Math.PI*1.35/20); pts.push([Math.cos(a)*r, Math.sin(a)*r]); }
+      } else return null;
+      return pts;
+    };
 
     // -- Les centres du registre --
     doms.forEach(function(d){
       var col = d.colonne || "milieu";
-      var p = new THREE.Vector3(xDeCol(col), yDuNiveau(d._niv), z);
+      var p = new THREE.Vector3(xDeCol(col), yDuNiveau(d._niv), zL);
+      var teinteC = TEINTE_TATTVA[d.couleur_tattva] !== undefined
+                  ? TEINTE_TATTVA[d.couleur_tattva] : 0xcfe4d8;
+      // Couronne de pétales : autant que la table en déclare — le compte dessiné
+      // EST le compte déclaré, tant qu'il est dessinable.
+      //
+      // Sahasrāra (1000) ne l'est pas. Le plafonner à 24 en silence produirait
+      // un DÉCALAGE-ARTEFACT invisible : la couronne se lirait comme un compte
+      // exact alors qu'elle est conventionnelle — et 24 n'est le compte
+      // d'aucun centre. Le plafond est donc rendu VISIBLE : couronne double,
+      // en deux anneaux décalés, forme qu'aucun compte exact ne produit. Le
+      // lecteur voit qu'il regarde une convention ; l'info-bulle donne le
+      // nombre réel. Le décalage-artefact reste ainsi résorbable.
+      if (d.petales){
+        var CONV = 24;                       // seuil au-delà duquel on convient
+        var plafonne = (d.petales > CONV);
+        var nP = plafonne ? CONV : d.petales;
+        var rP = .42, ptsP = [];
+        var anneaux = plafonne ? [[1, 0], [.68, Math.PI / nP]] : [[1, 0]];
+        anneaux.forEach(function(an){
+          for (var k = 0; k < nP; k++){
+            var a = k * 2 * Math.PI / nP + an[1];
+            ptsP.push(new THREE.Vector3(p.x + Math.cos(a)*rP*an[0], p.y + Math.sin(a)*rP*an[0]*.6, zL));
+            ptsP.push(new THREE.Vector3(p.x, p.y, zL));
+          }
+        });
+        var petales = new THREE.LineSegments(
+          new THREE.BufferGeometry().setFromPoints(ptsP),
+          new THREE.LineBasicMaterial({color: teinteC, transparent: true, opacity: .55}));
+        petales.userData.__petalesDessines = nP * anneaux.length;
+        petales.userData.__petalesDeclares = d.petales;
+        gReg.add(petales);
+      }
+      if (d.mandala){
+        var f = formeMandala(d.mandala, .26);
+        if (f){
+          var ptsM = f.map(function(c){ return new THREE.Vector3(p.x + c[0], p.y + c[1]*.75, zL); });
+          gReg.add(ligne(ptsM, teinteC, .8, false));
+        }
+      }
       var sph = marqueur(.3, "#cfe4d8", false);
       sph.position.copy(p);
       sph.userData = {
@@ -839,11 +1126,26 @@ var posNotionnels = {};
         deg: reg.label + " — rang " + (d.rang || "?") + ", " + col
            + " (niveau " + d._niv + "/" + nbNiveaux + ")"
            + (d.nom_divin ? " · Nom divin : " + d.nom_divin : "")
+           + (d.petales ? " · " + d.petales + " pétales"
+              + (d.petales > 24 ? " (couronne conventionnelle : le compte réel n'est pas dessinable)" : "") : "")
+           + (d.lettres ? " (" + d.lettres + ")" : "")
+           + (d.tattva ? " · Tattva : " + d.tattva : "")
+           + (d.couleur_tattva ? " · couleur : " + d.couleur_tattva : "")
+           + (d.mandala ? " · mandala : " + d.mandala : "")
+           + (d.bija ? " · bīja : " + d.bija : "")
+           + (d.devata ? " · devatā : " + d.devata : "")
+           + (d.shakti ? " · shakti : " + d.shakti : "")
+           + (d.linga ? " · liṅga : " + d.linga : "")
+           + (d.position ? " · position : " + d.position : "")
+           + (d.autres_tattva ? " · " + d.autres_tattva : "")
            + (d.note ? " · " + d.note : "")
            + " — aucun degré akbarien attribué : la tradition ne le donne pas",
         src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
       };
-      monde.add(sph); interactifs.push(sph);
+      gReg.add(sph); interactifs.push(sph);
+      // Position retenue pour le tracé des ancrages inter-registres (plus bas).
+      POS_DOMAINE[d.id] = {p: p.clone(), groupe: gReg, registre: reg,
+                           label: d.label, echelle: reg.echelle || ""};
 
       // -- Équivalence établie déjà verdictée (ex. Homme Universel ↔ Vaishwânara) --
       // Pilotée par la donnée (HOMME_UNIVERSEL.cibles, manifeste v0.2.4) : ne
@@ -852,13 +1154,192 @@ var posNotionnels = {};
       // ni vers qabbalah/hindouisme-tantra.
       if (posHommeUniversel && HOMME_UNIVERSEL.cibles
           && HOMME_UNIVERSEL.cibles.indexOf(d.id) !== -1){
-        monde.add(ligne([posHommeUniversel, p], 0xd8493a, .85, false));
+        // posHommeUniversel est en coordonnées MONDE, p en coordonnées locales
+        // du groupe : on ramène la source dans le repère du groupe, et on
+        // enregistre la ligne pour la reconstruire au basculement de mode
+        // (le nœud Homme Universel, lui, ne bouge pas).
+        var depuisLocal = posHommeUniversel.clone();
+        depuisLocal.z -= gReg.position.z;
+        var lHU = ligne([depuisLocal, p], 0xd8493a, .85, false);
+        gReg.add(lHU);
+        liensEtablisHU.push({ligne: lHU, depuis: posHommeUniversel.clone(), vers: p.clone(), groupe: gReg});
       }
     });
 
     var titre = etiquette(abreger(reg.label, 30), .52, "rgba(207,228,216,.7)");
-    titre.position.set(0, yDuNiveau(1) + 1.5, z); monde.add(titre);
+    titre.position.set(0, yDuNiveau(ascendant ? nbNiveaux : 1) + 1.5, zL); gReg.add(titre);
   });
+
+  // == ANCRAGES INTER-REGISTRES (rendus le 2026-08-30) ======================
+  //   Ils étaient dans le manifeste depuis le 2026-08-29 sans être tracés :
+  //   la donnée portait onze joints verdictés que l'image ne montrait pas.
+  //
+  //   Trois règles gouvernent ce tracé :
+  //   1. ÉTABLI ≠ SUGGÉRÉ, jamais fondus (règle des manifestes, §3) : trait
+  //      plein pour l'établi, POINTILLÉ + 🔍 pour le suggéré. Les deux joints
+  //      Yesod/Malkhut portent la réserve d'interversion posée par Guénon
+  //      lui-même : ils ne doivent pas se lire comme les cinq autres.
+  //   2. Tracé en coordonnées MONDE, car les deux extrémités appartiennent à
+  //      des groupes de profondeur différente ; reconstruit au basculement.
+  //   3. COÏNCIDENCE — et ce qu'elle veut dire, très exactement. En mode
+  //      unifié, deux registres qui ont le MÊME NOMBRE DE NIVEAUX et sont
+  //      ancrés niveau pour niveau superposent leurs nœuds : le segment
+  //      devient nul. Ce n'est pas un défaut de rendu, c'est le fait même de
+  //      leur commensurabilité. On ne l'escamote donc pas : un marqueur le
+  //      tient visible et l'info-bulle le nomme.
+  //
+  //      ⚠️ Mais l'inverse ne se lit PAS. Un ancrage resté oblique ne prouve
+  //      aucun décalage-donnée : la hauteur d'un domaine de registre parallèle
+  //      est une RÉPARTITION PROPORTIONNELLE sur l'étendue de l'axe —
+  //      présentation, jamais correspondance (voir le commentaire du bloc des
+  //      registres). Les bandes de Présences, elles, sont posées à leurs
+  //      degrés DÉCLARÉS. Un ancrage entre les deux a donc une extrémité de
+  //      donnée et une extrémité de présentation : son obliquité est un
+  //      artefact de convention de hauteur, et rien d'autre. L'info-bulle le
+  //      dit, pour qu'aucun lecteur n'y lise un écart traditionnel.
+  var gAncrages = new THREE.Group(); monde.add(gAncrages);
+  var TEINTE_ANCRAGE = 0xd8493a;
+
+  // Résout un identifiant de domaine en position MONDE, qu'il vive dans un
+  // registre parallèle (groupe en retrait) ou comme bande de Présence sur le
+  // tronc akbarien (position fixe, z = 0).
+  var resoudre = function(id){
+    if (POS_DOMAINE[id]){
+      var e = POS_DOMAINE[id];
+      return {p: new THREE.Vector3(e.p.x, e.p.y, e.p.z + e.groupe.position.z),
+              groupe: e.groupe, label: e.label,
+              registre: e.registre.label, echelle: e.echelle};
+    }
+    if (BORNES_BANDE[id]){
+      var b = BORNES_BANDE[id];
+      return {p: new THREE.Vector3(0, yEntre(b.degres[0], b.degres[1]), 0),
+              groupe: null, label: b.label, registre: b.registre, echelle: "transcalaire"};
+    }
+    return null;
+  };
+
+  ANCRAGES_REGISTRES.forEach(function(a){
+    var A = resoudre(a.depuis), B = resoudre(a.vers);
+    if (!A || !B) return;                    // extrémité non rendue : on ne devine pas
+    var etabli = (a.etat === "etabli");
+    var l = ligne([A.p, B.p], TEINTE_ANCRAGE, etabli ? .9 : .5, !etabli);
+    gAncrages.add(l);
+    liensAncrages.push({ligne: l, a: A, b: B});
+
+    // Marqueur : porte l'info-bulle, et reste visible quand le segment se
+    // réduit à un point en mode unifié.
+    //   Il se place au milieu, SAUF si un marqueur y est déjà — cas réel et
+    //   significatif : les deux joints suggérés Yesod↔Mūlādhāra et
+    //   Malkhut↔Swādhishthāna se CROISENT, et leurs milieux coïncident. C'est
+    //   l'interversion posée par Guénon lui-même, rendue visible. On ne fond
+    //   pas les deux marqueurs en un : chacun glisse sur SA propre ligne (à
+    //   35 % et 65 %), de sorte que le croisement se voie et que les deux
+    //   joints restent consultables séparément.
+    var tParam = .5;
+    for (var essai = 0; essai < 4; essai++){
+      var cand = A.p.clone().lerp(B.p, tParam);
+      var occupe = liensAncrages.some(function(L){
+        return L.marqueur && L.marqueur.position.distanceTo(cand) < .12;
+      });
+      if (!occupe) break;
+      tParam = [.35, .65, .25, .75][essai];
+    }
+    var m = marqueur(etabli ? .26 : .3, etabli ? "#d8493a" : "#e2a08f", etabli);
+    m.position.copy(A.p.clone().lerp(B.p, tParam));
+    var baseInfo = "ancrage inter-registres · " + A.registre + " ↔ " + B.registre
+         + " · " + (etabli ? "ÉTABLI" : "SUGGÉRÉ (non tranché — trait pointillé)")
+         + (a.type ? " · " + a.type : "")
+         + " · échelles : " + (A.echelle || "?") + " / " + (B.echelle || "?")
+         + (a.note ? " — " + a.note : "");
+    m.userData = {
+      label: (etabli ? "" : "🔍 ") + A.label + "  ↔  " + B.label,
+      deg: baseInfo, src: a.source
+    };
+    gAncrages.add(m); interactifs.push(m);
+    var L = liensAncrages[liensAncrages.length - 1];
+    L.marqueur = m; L.t = tParam; L.baseInfo = baseInfo;
+  });
+
+  // Qualifie chaque ancrage et l'écrit dans l'info-bulle — le lecteur ne doit
+  // jamais avoir à interpréter seul un segment nul ou oblique.
+  //
+  //   La qualification se lit sur Y (la hauteur = le NIVEAU) et sur X (la
+  //   colonne), JAMAIS sur Z. La profondeur est le décalage-artefact que le
+  //   mode unifié résorbe : elle ne dit rien du joint. Le constat est donc le
+  //   même dans les deux modes, ce qui est la vérité — la correspondance de
+  //   niveau ne dépend pas de l'angle sous lequel on regarde.
+  var qualifierAncrages = function(){
+    liensAncrages.forEach(function(L){
+      if (!L.marqueur) return;
+      var pa = L.pa || L.a.p, pb = L.pb || L.b.p;
+      var dy = Math.abs(pa.y - pb.y), dx = Math.abs(pa.x - pb.x);
+      var q;
+      if (dy < .15){
+        q = " · COÏNCIDENCE DE NIVEAU : les deux partitions comptent le même "
+          + "nombre de niveaux et sont ancrées niveau pour niveau — elles "
+          + "tombent à la même hauteur sur l'axe unique. En mode unifié le "
+          + "segment devient nul, et ce segment nul EST le constat.";
+      } else {
+        q = " · niveaux tracés à des hauteurs différentes — mais c'est un écart "
+          + "de CONVENTION DE TRACÉ, non un écart entre les traditions : la "
+          + "hauteur d'un domaine de registre parallèle est une répartition "
+          + "proportionnelle sur l'étendue de l'axe (présentation), tandis "
+          + "qu'une bande de Présence est posée à ses degrés déclarés "
+          + "(donnée). N'y lire aucun décalage traditionnel.";
+      }
+      if (dx > .15){
+        q += " · REPORT LATÉRAL : l'extrémité séphirothique est sur une "
+           + "colonne latérale, l'extrémité tantrique sur le canal médian — "
+           + "c'est la projection des couples latéraux sur la colonne du "
+           + "milieu qu'opère la fiche de discernement, rendue telle quelle.";
+      }
+      L.marqueur.userData.deg = L.baseInfo + q;
+    });
+  };
+  qualifierAncrages();
+
+  // -- Bascule du mode : touche « U », ou clic sur l'entrée de légende -------
+  //   Le mode ne change AUCUNE donnée : il ne fait que résorber le
+  //   décalage-artefact. Aucune hauteur, aucun rang, aucune partition n'est
+  //   modifié — seule la profondeur de rendu l'est.
+  window.__basculerAxeUnifie = function(force){
+    AXE_UNIFIE = (typeof force === "boolean") ? force : !AXE_UNIFIE;
+    groupesRegistres.forEach(function(g){
+      g.groupe.position.z = AXE_UNIFIE ? 0 : g.zEclate;
+    });
+    // Le filament de l'Insān al-Kāmil rejoint l'axe : c'est le même axe.
+    if (objetsFilament) objetsFilament.forEach(function(o){
+      o.position.x = AXE_UNIFIE ? 0 : o.userData.__xEclate;
+    });
+    // Les lignes d'équivalence établie sont reconstruites : le nœud source ne
+    // bouge pas, la cible suit son registre.
+    liensEtablisHU.forEach(function(L){
+      var d = L.depuis.clone(); d.z -= L.groupe.position.z;
+      L.ligne.geometry.setFromPoints([d, L.vers]);
+      L.ligne.geometry.attributes.position.needsUpdate = true;
+      L.ligne.geometry.computeBoundingSphere();
+    });
+    // Les ancrages inter-registres suivent leurs DEUX extrémités.
+    liensAncrages.forEach(function(L){
+      var pa = L.a.p.clone(), pb = L.b.p.clone();
+      if (L.a.groupe) pa.z = L.a.p.z - L.a.groupe.zEclateOrigine + L.a.groupe.position.z;
+      if (L.b.groupe) pb.z = L.b.p.z - L.b.groupe.zEclateOrigine + L.b.groupe.position.z;
+      L.pa = pa; L.pb = pb;
+      L.ligne.geometry.setFromPoints([pa, pb]);
+      L.ligne.geometry.attributes.position.needsUpdate = true;
+      L.ligne.geometry.computeBoundingSphere();
+      if (L.ligne.computeLineDistances) L.ligne.computeLineDistances();
+      if (L.marqueur) L.marqueur.position.copy(pa.clone().lerp(pb, L.t));
+    });
+    qualifierAncrages();
+    var ind = document.getElementById("mode-axe");
+    if (ind) ind.textContent = AXE_UNIFIE ? "AXE UNIFIÉ" : "VUE ÉCLATÉE";
+  };
+  window.addEventListener("keydown", function(e){
+    if (e.key === "u" || e.key === "U") window.__basculerAxeUnifie();
+  });
+  var lg = document.getElementById("bascule-axe");
+  if (lg) lg.addEventListener("click", function(){ window.__basculerAxeUnifie(); });
 })();
 
 // -- Les quatre Angles de l'Espace --

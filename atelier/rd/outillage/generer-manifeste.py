@@ -55,6 +55,20 @@ except ImportError:
 #     visé, jamais le registre entier. Les collisions d'id entre nœud et
 #     domaine restent bloquantes.
 #
+#   v0.2.5 (2026-08-29) : garde inter-registres. Un ancrage dont les DEUX
+#     extrémités sont des domaines de registres DISTINCTS exige désormais une
+#     fiche `doctrinal/discernement/` en source — refus bloquant sinon.
+#     Motif : le Cmd 3 réserve à un discernement tranché tout lien structurel
+#     entre concepts de traditions distinctes ; la règle était écrite dans le
+#     protocole et affirmée « appliquée par l'outil » (instruction phase 3
+#     §2), mais l'outil ne l'appliquait en fait qu'au cas `rang`+`degres`
+#     simultanés, jamais aux ancrages. Écart relevé le 2026-08-29 en préparant
+#     la mise en regard du Majmaʿ al-Bahrayn (trois candidats d'ancrage
+#     inter-registres alors sur la table, aucun tranché). Même forme que la
+#     garde subversion/parodie. NE VISE PAS le cas nœud → domaine (v0.2.4).
+#     Sortie inchangée sur les données réelles : aucun ancrage inter-registres
+#     n'était déclaré (44 nœuds, 11 ancrages, 0 erreur avant comme après).
+#
 #   v0.2.3 (2026-08-20) : propage le bloc `registres:` — partitions de l'unique
 #     axe vertical, une par tradition (voir instrument-donnees.yaml v0.4.0).
 #     Validation dédiée : un domaine ne peut porter à la fois `degres` et
@@ -224,6 +238,18 @@ def valider_maisons(maisons, erreurs, avertissements):
 
 
 AXES_REGISTRE = {"principal", "parallele"}
+# v0.2.6 (2026-08-30) : échelle de lecture d'un registre. Une comparaison
+# inter-registres doit respecter l'échelle — apparier un macrocosme à un
+# microcosme est une erreur de catégorie (elle avait bloqué à tort le
+# rapprochement sept Pôles ↔ laṭāʾif). Champ OPTIONNEL : un registre qui ne le
+# déclare pas n'est pas refusé, il n'est simplement pas contrôlable sur ce point.
+ECHELLES_REGISTRE = {"macrocosmique", "microcosmique", "transcalaire"}
+# v0.2.7 (2026-08-30) : sens d'énumération des rangs, PROPRE À CHAQUE TRADITION.
+# La Kabbale énumère du haut (Kether=1) ; le Kundalinî-yoga et le Vêdânta
+# énumèrent du bas (Mūlādhāra=1, Vaishwânara=1). Sans ce champ, un rendu qui
+# suppose « rang 1 = sommet » place le centre-RACINE à la couronne — défaut
+# effectivement présent depuis le 2026-08-20, relevé par test le 2026-08-30.
+SENS_RANG_REGISTRE = {"ascendant", "descendant"}
 
 
 def valider_registres(registres, fiches: dict, erreurs: list, avertissements: list):
@@ -267,6 +293,12 @@ def valider_registres(registres, fiches: dict, erreurs: list, avertissements: li
         axe = reg.get("axe")
         if axe not in AXES_REGISTRE:
             erreurs.append(f"{ctx} : « axe » doit valoir {sorted(AXES_REGISTRE)} (reçu {axe!r})")
+        ech = reg.get("echelle")
+        if ech is not None and ech not in ECHELLES_REGISTRE:
+            erreurs.append(f"{ctx} : « echelle » doit valoir {sorted(ECHELLES_REGISTRE)} (reçu {ech!r})")
+        sr = reg.get("sens_rang")
+        if sr is not None and sr not in SENS_RANG_REGISTRE:
+            erreurs.append(f"{ctx} : « sens_rang » doit valoir {sorted(SENS_RANG_REGISTRE)} (reçu {sr!r})")
 
         fiche = str(reg.get("fiche", "")).strip()
         if not fiche:
@@ -389,9 +421,13 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     # doivent donc rejoindre `par_id` avant que la boucle des ancrages ne
     # s'exécute. Une collision d'id entre un nœud et un domaine est bloquante.
     registres_valides = valider_registres(decl_registres, fiches, erreurs, avertissements)
+    # Registre d'appartenance de chaque domaine — sert à la garde
+    # inter-registres de la boucle des ancrages (v0.2.5, voir §4).
+    registre_de_domaine = {}
     for reg in (registres_valides or []):
         if not isinstance(reg, dict):
             continue
+        rid = str(reg.get("id", "")).strip()
         for d in (reg.get("domaines") or []):
             if not isinstance(d, dict):
                 continue
@@ -403,6 +439,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
                 continue
             d.setdefault("ancrages", [])
             par_id[did] = d
+            registre_de_domaine[did] = rid
 
     # 4. Valider et rattacher les ancrages (stockage à sens unique sur la source,
     # nœud ou domaine de registre — même espace d'identifiants, v0.2.4).
@@ -434,6 +471,21 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
                 erreurs.append(
                     f"{contexte} : subversion/parodie avec cible exige une fiche "
                     f"doctrinal/discernement/ en source (correctif v0.2 §2)"
+                ); continue
+        # Garde inter-registres (v0.2.5, Cmd 3) : un ancrage dont les DEUX
+        # extrémités sont des domaines de registres DISTINCTS déclare une
+        # correspondance structurelle entre deux traditions — ce que le Cmd 3
+        # réserve à une fiche `discernement` tranchée. Même forme que la garde
+        # subversion/parodie ci-dessous. Ne vise PAS le cas nœud → domaine
+        # (ex. Homme Universel ↔ Vaishwânara, v0.2.4) : un nœud universel n'est
+        # pas un registre, et ce cas reste couvert par sa propre source.
+        reg_src = registre_de_domaine.get(src)
+        reg_cible = registre_de_domaine.get(cible) if cible is not None else None
+        if reg_src and reg_cible and reg_src != reg_cible:
+            if not (source_doc and "discernement" in str(source_doc)):
+                erreurs.append(
+                    f"{contexte} : ancrage inter-registres ({reg_src} → {reg_cible}) "
+                    f"exige une fiche doctrinal/discernement/ en source (Cmd 3)"
                 ); continue
         if direction != "none" and typ != "complementarite":
             avertissements.append(f"{contexte} : directionnalite sur un type non-complementarite")
@@ -481,7 +533,17 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     chemin_sortie.write_text(
         json.dumps(manifeste, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    nb_ancrages = sum(len(n["ancrages"]) for n in noeuds)
+    # v0.2.5 : compter AUSSI les ancrages portés par un domaine de registre.
+    # Le compteur ne sommait que les nœuds : depuis l'ouverture des ancrages
+    # inter-registres (2026-08-29), il masquait la moitié du total, ce qui
+    # contredit la règle de vérification mécanique indépendante (§VIII.2 du
+    # protocole racine : ne jamais se fier à l'auto-rapport). Affichage seul,
+    # le manifeste produit était correct.
+    nb_ancrages = sum(len(n["ancrages"]) for n in noeuds) + sum(
+        len(d.get("ancrages") or [])
+        for reg in (registres_valides or [])
+        for d in (reg.get("domaines") or [])
+    )
     print(f"✓ Manifeste produit : {chemin_sortie}")
     print(f"  {len(noeuds)} nœud(s), {nb_ancrages} ancrage(s), "
           f"zodiaque {'inclus' if zodiaque_valide is not None else 'absent'}, "
