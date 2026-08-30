@@ -9,6 +9,46 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage | Apparat éditorial des deux ouvrages établi — et un contrôle de provenance qui a trouvé une faute
+
+- **Cliché des couvertures fourni par Sidy** (nuit). Le `to-source` porté quelques
+  heures plus tôt sur l'apparat d'ar-Râzî est **levé** : *Traité sur les Noms
+  divins*, **introduction, traduction et annotations Maurice Gloton**, préface
+  **Pierre Lory**, **Albouraq**, coll. « **Héritage Spirituel** ». Le lexique porte
+  en couverture « **2500 versets traduits · Lexique coranique complet** »,
+  avant-propos de **Mahmoud Azab** et **Pierre Lory**. Restent `to-source` : le
+  numéro de page du chapitre XVIII et les années d'édition.
+- **Ce que la couverture obligeait à vérifier** — invisible tant que l'apparat
+  restait inconnu : **Maurice Gloton signe quatre piliers du dépôt** — le *Traité
+  sur les Noms divins*, *De la mort à la résurrection* (**même éditeur, même
+  collection**), le lexique coranique, et *Le Coran : Essai de traduction*. Le
+  français « élever », « abaisser », « degré » relève donc **d'une seule main**
+  dans tout le dossier ouvert hier soir. Un argument reposant sur la seule
+  constance d'un mot français d'un ouvrage à l'autre serait sans force probante.
+- **Vérification faite, résultat favorable** : les deux attestations akbariennes du
+  couple sont traduites par **ʿAbd al-Hâdi** (*La Gnose*) et **Charles-André
+  Gilis** ; Coran LVI, 3 est un **fait de langue arabe**. Le couple *khafḍ*/*rafʿ*
+  tient donc par **trois voies indépendantes de Gloton** — la convergence n'est pas
+  un effet de plume. Tableau de provenance versé à
+  [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]].
+- **Auto-contrôle, et il a trouvé une faute.** La fiche
+  [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]]
+  opposait *darajāt* aux « ***marātib* du chapitre 198** ». **Ce terme arabe n'est
+  nulle part sourcé au dépôt pour ce chapitre** : il n'y figure que comme *tag*
+  (`maratib-al-wujud`), jamais comme relevé du texte d'Ibn ʿArabī. C'était un fait
+  produit sans source (Cmd 5). **Affirmation retirée**, rectification inscrite dans
+  la fiche.
+- **Et la faute ouvre la meilleure question du dossier** : quel terme arabe Ibn
+  ʿArabī emploie-t-il au chapitre 198 ? Le chapitre nous est connu par la
+  traduction de Gloton, et le Coran de travail du dépôt est **aussi** celui de
+  Gloton — le français confondra toujours les deux « degrés ». Si l'arabe emploie
+  le même mot, l'univocité relevée le 2026-07-14 gagne un appui ; sinon elle se
+  réduit à une constance de traduction. **Vérification la plus économique du
+  dossier**, ajoutée aux lectures suggérées.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : 5eeeaf1
+
 ## [2026-08-30] archivage + discernement | Le couple *khafḍ* / *rafʿ* — al-Rāzī ch. XVIII, Gloton pp. 412 et 857, Sourate al-Aʿrāf
 
 - **Pièces déposées par Sidy** (soir), avec consigne d'investigation « à la lumière
