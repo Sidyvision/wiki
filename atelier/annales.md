@@ -10,6 +10,89 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/instrument | ce que les centres surnuméraires confirment du modèle, et un décalage-artefact rendu visible
+
+**Fiche de déduction, §7 nouveau** —
+`2026-08-30_reseau-subtil-unification-axes-deux-echelles.md`.
+
+- **Le fait.** Avalon nomme cinq centres au-delà des six canoniques, situés
+  *dans les intervalles* de la série reçue (relevé complet côté doctrinal, lien
+  `rd/` → `doctrinal/` en sens unique, signalé).
+- **Ce que cela confirme.** Le modèle « un registre n'est pas *l'axe*, c'est
+  **une partition de l'axe**, faite par un texte donné pour un usage donné » est
+  ici confirmé **de l'intérieur d'une seule tradition** : deux textes hindous
+  partitionnent le même axe en six et en onze, et le second ne contredit pas le
+  premier — il le raffine. Si l'écart entre deux partitions **intra**-tradition-
+  nelles n'est pas une contradiction, l'écart entre deux partitions
+  **inter**-traditionnelles ne l'est pas davantage. Le **décalage-donnée** est
+  confirmé comme régime normal, non comme anomalie à réduire. C'est une
+  confirmation indépendante, et elle est plus forte qu'un argument comparatif
+  puisqu'elle ne sort pas de l'hindouisme.
+- **Bifurcation posée, non tranchée** (§7.3) : les centres surnuméraires sont-ils
+  (1) hors périmètre — statu quo, tenable, muet ; (2) un second registre
+  `hindouisme/tantra-etendu`, `axe: parallele` à onze niveaux ; ou (3) une
+  strate d'annotation sans rang propre ? Relevé de forme sans verdict
+  (Cmd 12) : l'option 2 exigerait de **raffiner d'abord la garde
+  inter-registres** du générateur, laquelle exige aujourd'hui une fiche
+  `discernement/` pour tout ancrage entre registres — or il s'agirait ici d'un
+  rapport **interne à une tradition**, non d'un rapprochement entre traditions
+  (Cmd 3). **Aucune option implémentée, aucun champ ajouté au YAML.**
+- **Piste consignée, non retenue** (§7.4) : la nomenclature fonctionnelle des
+  nâdîs donnerait au réseau des **arêtes qualifiées et orientées** (montantes
+  sensorielles, descendantes motrices) — première occasion au dépôt. Mais elle
+  est adossée chez Avalon à la réduction anatomique que Guénon écarte : l'en
+  extraire est un travail de discernement, pas de rendu.
+
+**Rendu — un décalage-artefact rendu visible** (`instrument-prototype.html`).
+
+- **Le défaut.** *Sahasrāra* déclare **1000** pétales ; la couronne était
+  plafonnée à 24 **en silence**. Or 24 n'est le compte d'aucun autre centre : la
+  couronne se lisait donc comme un **compte exact** alors qu'elle était
+  conventionnelle. C'est la définition même du décalage-artefact non résorbable.
+- **Le correctif.** Le plafond devient **visible** : au-delà du seuil, la
+  couronne est **double**, en deux anneaux décalés d'un demi-pas — forme
+  qu'aucun compte exact ne produit. L'info-bulle porte le nombre réel et la
+  mention « couronne conventionnelle : le compte réel n'est pas dessinable ».
+  Le décalage redevient résorbable, comme l'exige la règle du dépôt.
+- **Aucune donnée doctrinale touchée** : les cellules vides d'*Ājñā* restent
+  vides malgré ce que montre la planche VII (verdict réservé à Sidy).
+
+**Vérification mécanique indépendante (rapport BRUT, §VIII.2)** :
+
+- `generer-manifeste.py --repo /home/user/wiki` →
+  `44 nœud(s), 22 ancrage(s), zodiaque inclus, maisons incluses, 4 registre(s),
+  0 avertissement(s)` — **inchangé**, ce qui est le résultat attendu puisque
+  aucune donnée n'a bougé.
+- Prototype sous Chromium headless, couronnes **déclaré → dessiné** :
+  `2→2, 4→4, 6→6, 10→10, 12→12, 16→16, 1000→48` (deux anneaux de 24) ;
+  mandalas `4, 5, 7, 21, 33` points ; **aucune pageerror**.
+- `verifier-invariants.py --racine /home/user/wiki` →
+  `0 erreur(s), 1 avertissement(s)`.
+
+**⚠️ VIGILANCE — signalement sans correction (Action VIGILANCE, « rapporter
+sans corriger d'office ; demander avant d'éditer »)** :
+
+1. **26 entrées d'annales sans SHA de commit** (Cmd 9 : « Chaque entrée porte le
+   SHA court du commit qu'elle décrit en dernière ligne »). Toutes datées
+   **2026-08-29** et **2026-08-30**, réparties sur les deux circuits (9 côté
+   `doctrinal/`, 17 côté `atelier/`). Le SHA de chacune est **retrouvable
+   mécaniquement** (`git log -S` sur le titre de l'entrée, qui donne le commit
+   l'ayant introduite = celui qu'elle décrit). Les fichiers étant append-only,
+   **rien n'a été modifié** : la réparation attend l'autorisation de Sidy.
+2. **Avertissement [A6] de `verifier-invariants.py`** sur
+   `atelier/annales.md:1887` (entrée du 2026-08-20) : **faux positif**. L'entrée
+   couvre deux livrables (a) et (b) et porte légitimement deux
+   `- **Commit** :`. Le contrôle suppose un SHA par entrée ; à raffiner ou à
+   accepter tel quel, au choix de Sidy.
+3. **23 fiches doctrinales antérieures absentes de `doctrinal/index.md`**
+   (comptage mécanique après ajout des fiches de la session) : **21 `sources/`**
+   et **2 `discernement/`** (2026-08-11 « trois territoires », 2026-08-29
+   « octogone / monde intermédiaire »). Toutes antérieures à cette session ;
+   **non ajoutées** — seules les fiches de la session l'ont été, au titre de
+   l'Action ARCHIVAGE point 4. Liste complète disponible sur demande.
+
+- **Commit** : fbd50ef
+
 ## [2026-08-30] rd/instrument | rendu des lotus : pétales, maṇḍalas et couleurs de tattva
 
 - **Donnée** : la table synoptique d'Avalon est versée dans le registre

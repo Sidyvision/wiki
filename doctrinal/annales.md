@@ -9,6 +9,58 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage | Avalon — les quatre dernières planches et les centres surnuméraires
+
+- **Les huit planches sont relevées.** Sidy a déposé les quatre dernières
+  (V *Anāhata*, VI *Vishuddha*, VII *Ājñā*, VIII *Sahasrāra*). La numérotation
+  n'est pas conjecturée : les **légendes originales** sont conservées dans la
+  copie de travail (« Plate VII] Ajna », « Plate VIII] Sahasrara »), et le texte
+  ancre lui-même les deux dont la légende s'est perdue à la reconnaissance
+  (« le Lotus du cœur à huit pétales […] **Voir planche V** » ; « un examen de
+  la **planche VIII** qui figure ce centre »).
+- **Deux divergences table/planches, consignées et NON fondues** :
+  *Vishuddha* — la table donne « cercle », la planche montre un **triangle pâle
+  inscrit dans un cercle** ; *Ājñā* — la table laisse les cellules `mandala` et
+  `couleur_tattva` **vides**, la planche montre un **triangle inversé** portant
+  *Oṃ*, surmonté du croissant et du *bindu*.
+- **Les cellules vides le restent** (Cmd 5, Cmd 12). Les combler d'après la
+  planche reviendrait à trancher que la planche prime la table : c'est un
+  verdict, il appartient à Sidy, la machine ne le rend pas. Versé au dossier
+  toutefois : la planche VII **respecte** la note de tracé du chapitre V (base
+  en haut, pointe en bas), et la colonne *Liṅga / Yoni* de la table atteste
+  déjà « Itara et **Trikona** » pour *Ājñā* — la divergence est donc une
+  **lacune de la colonne `mandala`**, non une contradiction interne.
+- **Section nouvelle — les centres surnuméraires.** Avalon écrit que les six
+  du *Shatchakranirûpana* « sont **les principaux** » et qu'« il existe une
+  **très longue liste** de Chakra ». Cinq autres relevés, et — c'est le point —
+  **situés dans les intervalles de la série reçue**, non au-delà : lotus à 8
+  pétales *au-dessous* d'*Anāhata* (siège du *Hamsa*, lieu de l'adoration
+  mentale de l'*Ishtadevatā*) ; *Lalanā*/*Kalā* (12, « chakra caché », racine du
+  palais) ; *Manas* (6) et *Soma* (16) entre *Ājñā* et *Sahasrāra* ; lotus blanc
+  à 12 pétales *dans le péricarpe* du *Sahasrāra* (triangle *A-ka-tha*,
+  *Kāmakalā*).
+- **Progression morale relevée** : *Vritti* toutes mauvaises aux deux centres
+  inférieurs, mélangées à *Anāhata*, bonnes en majorité au *Lalanā*, toutes
+  bonnes au *Soma*. Avalon précise que ces *Vritti* viennent non du
+  *Shatchakranirûpana* mais d'ouvrages tiers (*Adhyātmaviveka*) : source
+  secondaire dans la source secondaire, traitée comme telle.
+- **Nomenclature fonctionnelle des nâdîs** relevée (*Manovahā*, *Ajñāvahā*, et
+  les cinq sensorielles), avec ⚠️ : Avalon l'adosse à une **réduction
+  anatomique** (cervelet, sensorium, circonvolutions corticales) que Guénon
+  écarte formellement. La nomenclature est retenue, la réduction ne l'est pas.
+- **Répercussion à l'index** (Action ARCHIVAGE, point 4) : `doctrinal/index.md`
+  reçoit les fiches de la session qui y manquaient — Avalon, Dârâ Shukûh
+  (Majmaʿ al-Bahrayn ch. VII), la polarité latérale de l'axe, et les cinq
+  discernements du 29-30 — sous une rubrique nouvelle « **L'axe vertical et sa
+  partition par les traditions** ».
+- **Aucun ancrage nouveau, aucun rapprochement inter-traditionnel tenté** sur
+  les centres surnuméraires (Cmd 3).
+- **Validation mécanique** : `verifier-invariants.py --racine /home/user/wiki`
+  → `0 erreur(s), 1 avertissement(s)` ; l'avertissement [A6] porte sur une
+  entrée d'`atelier/annales.md` du 2026-08-20 et est un **faux positif** (deux
+  SHA dans une entrée couvrant deux livrables).
+- **Commit** : fbd50ef
+
 ## [2026-08-30] archivage | Avalon — table synoptique des Chakra et quatre planches
 
 - **Fiche source complétée** : `avalon-serpent-power-nadis-reseau.md` reçoit la
