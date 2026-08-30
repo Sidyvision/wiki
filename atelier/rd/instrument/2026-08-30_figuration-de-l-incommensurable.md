@@ -448,7 +448,7 @@ l'autre sur ce terme.**
 | # | À instruire | Où | Bloque |
 |---|---|---|---|
 | 1 | ~~**Collation pp. 91-92 Gloton** — laquelle des deux numérotations~~ | Sidy, exemplaire physique | ✅ **FAIT le 2026-08-30** — voir §5. Les deux numérotations n'en faisaient qu'une ; ʿArsh = 17, Kursī = 18 ; **le rendu actuel était déjà juste** |
-| 2 | **Le procédé de l'absence signifiante est-il transposable du latéral au vertical ?** | fiche `discernement/` à ouvrir | Option A |
+| 2 | **Le procédé de l'absence signifiante est-il transposable du latéral au vertical ?** | fiche `discernement/` à ouvrir | Option A — **toujours bloquée** ; le report du 2026-08-30 (soir) a retenu l'Option C, qui ne la présuppose pas (§9) |
 | 3 | ~~La gradation est-elle une gradation de qualités, et *nirguṇa* est-il donc hors-échelle ?~~ | fiche `discernement/` à ouvrir | ✅ **largement réglé le 2026-08-30 par le ch. V** (§6bis.4) : substance confirmée, un mot rectifié (les guṇas sont des *conditions*, pas des états), et **la répartition est relative à l'état pris pour base** — ce dernier point ouvre une question de design neuve |
 | 4 | **Kursī → ʿArsh : le rapport à l'échelle des cieux** | fiche `discernement/`, après (1) | §5 |
 | 5 | **ʿArsh ↔ Kabbale** : sur texte, jamais sur gématrie | fiche `discernement/`, après (4) | §5 bis |
@@ -457,6 +457,92 @@ l'autre sur ce terme.**
 commettre ici est celle-là même que le rapport de session documente à répétition :
 poser dans le rendu ce que la doctrine n'a pas encore tranché, sous couvert
 d'aide à la lecture.
+
+## 9. Report au prototype — fait le 2026-08-30 (soir)
+
+> **Commande de Sidy** : « reporte toutes les trouvailles au prototype de
+> l'instrument en incluant la précédente (plan, volume) de façon digeste,
+> navigable/pratique car il s'agit d'un instrument de "navigation" (*sulūk*,
+> contemplation). Aussi l'instrument prend évidemment pour référence l'état
+> humain. »
+
+**Parti retenu : des STATIONS, non un diagramme enrichi.** Un instrument de
+parcours ne se lit pas, il se traverse. D'où : sept stations (0 à 6), une seule
+active à la fois, tout le reste éteint ; une station ne dit qu'**une** chose, et
+déclare dans la même fenêtre **ce qu'elle ne prouve pas**. Tout est **touchable**
+— Sidy travaille sur iPad, où le clavier peut être absent ; les touches 0-6 et
+les flèches ne sont qu'un doublon de confort.
+
+| Station | Trouvaille rendue | Moyen |
+|---|---|---|
+| 0 | vue nue | tout le calque éteint |
+| 1 | **ampleur / exaltation** (#2) | disque d'ampleur + point unique sur l'axe |
+| 2 | **le saut de dimension** (#1) | la surface dans le volume (sphère filaire) |
+| 3 | **l'incommensurabilité** (#3) | marques égales **en pixels**, opposées deux à deux |
+| 4 | **le centre n'est pas fixe** (#4) | plan de base déplaçable, guṇas relatifs qui le suivent |
+| 5 | **l'état humain pour référence** (#5) | plan porté au degré 37, déclaration du point de vue |
+| 6 | **la surface des Eaux** (#6) | nappe + Rayon Céleste, discontinuité unique |
+
+### 9.1 Deux corrections que le report a imposées au rendu existant
+
+**(a) Le halo conique du sommet est supprimé.** Il était construit comme un cône
+se rétrécissant vers le haut. Un rétrécissement vers le haut **est** une
+convergence : la figure disait « on s'approche du terme », ce que la contrainte 2
+interdit — et ce que le §2 de ce chantier avait déjà relevé nommément sans que le
+rendu en tire la conséquence. Remplacé par une bande de **section constante**,
+qui marque une étendue sans mesurer aucune approche.
+
+**(b) Son étiquette passe de « Hāhūt (1–10) — degrés non manifestés » à
+« 1–10 · Le Degré divin — pré-lettrés ».** Motif : la collation de la p. 35 de
+Gloton, faite le soir même sur cliché de Sidy, donne le titre que la source porte
+elle-même. « Hāhūt » était une attribution du Gem (persona IA), jamais une source ;
+« non manifestés » n'est pas dit par la source, qui numérote au contraire ces dix
+degrés comme les autres. La bande est en outre devenue **touchable** et porte,
+dans son détail, le rappel du ch. III (l'Être n'est pas infini — contrainte 4).
+
+### 9.2 L'erreur commise en chemin, et pourquoi elle mérite d'être consignée
+
+La station 3 a d'abord été tracée **dans la scène 3D**, avec des marques
+rigoureusement égales **en coordonnées de monde**. Le rendu les a montrées
+**convergeant en entonnoir vers le bas de l'axe** : la caméra étant en
+perspective, les degrés les plus éloignés projettent des marques plus courtes.
+
+C'est exactement la faute que la station prétendait interdire, et elle est
+instructive : **une projection perspective est, par définition, une mesure de
+distance à un point de vue.** Le rendu peut donc réintroduire par la caméra la
+commensurabilité que la géométrie avait pris soin d'exclure — il ne suffit pas
+que la figure soit juste dans le monde, il faut qu'elle le soit **à l'écran, où
+le regard la vérifie**.
+
+Correction : les marques sont sorties de la scène et tracées en superposition, à
+longueur fixe en pixels. Bénéfice second, non cherché : n'appartenant pas à la
+scène, elles ne se donnent pas pour une chose parmi les degrés — ce qui est juste.
+
+### 9.3 Ce que ce report ne fait pas
+
+- **Aucune donnée modifiée.** `instrument-donnees.yaml` est inchangé ; le flux
+  reste à sens unique (dépôt → manifeste → interface). Travail de présentation.
+- **Aucun discernement tranché.** Ce qui n'est pas établi est rendu en 🔍 et le
+  dit dans sa propre garde, jamais fondu avec l'établi (règle des manifestes §3).
+  Deux 🔍 sont portés à l'écran : *(i)* que l'état humain de Guénon soit le degré
+  37 du *Nafas* n'a jamais été instruit (Cmd 3) — joint suggéré, non taillé ;
+  *(ii)* le rapport entre la discontinuité **unique** (station 6) et la
+  discontinuité **égale depuis chaque degré** (station 3) n'est pas tranché : les
+  deux sont portées, aucune n'est fondue dans l'autre.
+- **L'Option A n'est pas implémentée.** Elle reste bloquée sur le point (2) du
+  tableau §7 — la transposition du procédé de l'absence signifiante du latéral au
+  vertical, non instruite. C'est l'**Option C** qui est en station 3 : elle est
+  directement sourcée, et le §6 la prévoyait « en mode dédié, sur touche ».
+- **Rien n'est aplati** (contrainte 3) : l'axe, ses 28 degrés et leur ordre ne
+  bougent sous aucune station.
+
+### 9.4 Vérification
+
+Rendu exécuté et contrôlé au navigateur (Chromium, viewport iPad 1024×1366) :
+les sept stations s'affichent, aucune erreur JavaScript, le plan de base se
+déplace de degré en degré dans les deux sens, et la station 3 a été **relue à
+l'écran** après correction — les marques y sont visiblement égales, sans
+convergence. Contrôle de forme fait sur capture, pas sur auto-rapport (§VIII.2).
 
 ## 8. Une observation, pour finir
 
