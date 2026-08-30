@@ -9,6 +9,32 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] correction | Manifeste SDLSS — couverture 100 % après ajout du ch. XX par Sidy
+
+- **Déclencheur** : Sidy a déposé, en cours de session, un clipping du
+  ch. XX « Sheth » (p.135) dans `raw/Symboles de la Science sacrée - René
+  Guénon/`, seul chapitre signalé absent par le manifeste initial
+  ([[doctrinal/sources/manifeste-corpus-symboles-science-sacree]], commit
+  b23f5e8).
+- **Constat en vérifiant l'ajout** : le nouveau fichier est un **doublon**
+  d'un fichier déjà présent sous nom générique (« Sheth », 5 lettres, trop
+  court pour le seuil de recherche par sous-chaîne du premier passage — donc
+  faux négatif, pas une absence réelle). En creusant les 4 autres fragments
+  restés non résolus, 3 se sont révélés être des **en-têtes de section**
+  supplémentaires (« Quelques armes symboliques », « Symbolisme
+  constructif », « Symbolisme du cœur ») et le 4e l'**annexe des
+  abréviations** du livre — aucun n'était en réalité un chapitre non
+  identifié.
+- **Résultat corrigé** : **75/75 chapitres couverts (100 %)**, 8 fichiers
+  d'en-tête de section (au lieu de 5) et 1 fichier d'annexe identifiés à
+  part, sur 92 fichiers `.md` au total (91 + le doublon ajouté par Sidy).
+  Manifeste, `doctrinal/index.md` et
+  `atelier/rd/bibliotheque/catalogue-bibliotheque.md` mis à jour en
+  conséquence.
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 1 avertissement(s)` ([A6], faux positif documenté, inchangé).
+- **Commit** : 69b5879
+
 ## [2026-08-30] archivage | Symboles de la Science sacrée (Guénon) — Janus ch. XVIII/XXXVII + manifeste du corpus raw/
 
 - **Contexte** : reprise depuis le terminal (`meta/briefs/2026-08-30_passation-session-reseau-subtil-vers-terminal.md`,
