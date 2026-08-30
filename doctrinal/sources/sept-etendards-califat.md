@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [califat, gilis, ibn-arabi, guenon, transcription, index]
 created: 2026-07-09
-updated: 2026-07-10
+updated: 2026-08-30
 sources: ["[[doctrinal/autorites/charles-andre-gilis]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/michel-valsan]]"]
@@ -299,11 +299,181 @@ muhammadien dont ils sont les représentants terrestres. »
 
 ---
 
+## Chapitres XIII et XXXII — Transcription du 2026-08-30 (p. 104-105, 244-245)
+
+> **Collation demandée et fournie le 2026-08-30.** Ces deux doubles pages avaient
+> été **désignées mécaniquement**, depuis l'index des termes arabes déjà transcrit
+> ci-dessus : *khafḍ* et *rafʿ* y figuraient tous deux à la p. 104, et *khafḍ*
+> (244) jouxtait *rijāl Allāh* (245). Les clichés confirment que l'index disait
+> vrai. **Ce sont les pages décisives du dossier *khafḍ*/*rafʿ*.**
+
+### Chapitre XIII — « Le Maître des trois Mondes » (p. 104-105)
+
+#### p. 104 — *rafʿ* et *khafḍ* comme **degrés d'existence**
+
+> « Le *fatḥa* symbolise la miséricorde universelle du Tout-Miséricordieux dont le
+> Souffle est à l'origine du monde. À partir de là, l'*alif* de prolongation
+> apparaît, à la fois, comme la projection axiale de l'*alif* principiel et comme
+> le premier mouvement indifférencié issu de ce Souffle raḥmānien. À ce double
+> titre, il symbolise le Pontificat (27) de l'Homme Universel créé « selon la Forme
+> suprême d'Allâh », ce qui correspond au premier aspect, et « selon la Forme
+> d'ar-Raḥmân », ce qui correspond au second.
+>
+> **Le *wâw* et le *yâ* représentent la différenciation de cette fonction
+> primordiale à deux degrés existenciels fondamentaux.** Le *wâw*, au degré de la
+> manifestation informelle qui est celui des Anges et des purs esprits, est le
+> symbole de la « Lumière intelligible » et de l'Esprit muhammadien (*ar-Rūḥ
+> al-muḥammadī*) au sujet duquel René Guénon précisait : « c'est en son sein que se
+> différencient les "esprits" particuliers, les anges et les "esprits séparés" (28),
+> qui sont ainsi formés de la Lumière primordiale comme de leur unique essence, sans
+> mélange des éléments représentant les conditions déterminantes des degrés
+> inférieurs de l'existence » (29).
+>
+> **Ce degré [...] comporte une idée d'« élévation » (*rafʿ*) évoqué par le
+> symbolisme de la voyelle « u » (30). Le *yâ*, au contraire, comporte une idée
+> d'« abaissement » (*khafḍ*) évoquée, quant à elle, par le symbolisme de la
+> voyelle « i ». Il représente l'expansion et la différenciation du Souffle au degré
+> individuel** [...] »
+
+**Note (30)** : « *Rafʿ* désigne en arabe la vocalisation au moyen du *ḍamma* et
+*khafḍ* la vocalisation au moyen du *kasra*. »
+**Note (27)** : renvoi au *Roi du Monde*, chap. II (fonction pontificale).
+**Note (29)** : *Aperçus sur l'initiation*, chap. XLVII, « Verbum, Lux et Vita ».
+
+#### p. 105 — les trois lettres-faibles, les trois mondes, et les trois *guṇas*
+
+> « [...] celui de la distinction formelle des Paroles divines (*kalimāt*) désignée
+> par le terme *Anṣār* dans le ḥadīth sur le *nafas ar-Raḥmān* qui a été cité plus
+> haut. Ce ḥadīth prend ici la plénitude de sa signification initiatique : les
+> Paroles ne sont autres que les Prophètes et les Envoyés dont **la manifestation
+> cyclique apparaît comme un "soulagement" qui compense et neutralise la déchéance
+> progressive de l'état humain**.
+>
+> Les trois lettres-faibles sont une expression islamique de la doctrine universelle
+> des « trois mondes » ou, plus exactement, de la « triple manifestation » qui
+> constitue « l'extériorité » de l'Être (31). **La similitude entre l'enseignement
+> d'Ibn Arabî et celui de l'Hindouisme est ici particulièrement remarquable.**
+> Rappelons tout d'abord que la *Trimūrti* [...] est conçue distinctivement « par
+> l'influence des trois *guṇas* » (32) de la même manière que le Souffle principiel
+> se différencie en trois lettres-faibles par l'effet des trois voyelles de la langue
+> arabe, dont le symbolisme est analogue (33). Dans le Tantrisme, les trois lettres
+> correspondant à la *Trimūrti* sont celles du monosyllabe sacré « Om » (34) ; or, ce
+> dernier, selon Michel Vâlsan, « est par excellence le nom du Verbe manifesté dans
+> les trois mondes » (35). »
+
+**Note (33) — capitale** :
+
+> « Au *fatḥa* correspond *rajas*, qui représente la tendance expansive ; **au
+> *ḍamma*, *sattwa*, qui représente la force ascendante ; et au *kasra*, *tamas*,
+> qui représente la force descendante.** Si l'on considère la figure circulaire
+> reproduite par René Guénon dans *La Théorie hindoue des cinq éléments*, on
+> constate que *rajas* correspond à l'équateur et à l'Air qui est l'« élément neutre
+> qui garde l'équilibre entre les deux tendances opposées comme *rajas* entre *tamas*
+> et *sattwa* ». *Sattwa* représente la dimension ascendante de l'élément Feu,
+> c'est-à-dire la lumière, et *tamas* la gravité "descendante" de l'élément Eau qui
+> est le "milieu de l'élaboration des formes". **Les analogies avec le texte d'Ibn
+> Arabî cité ci-dessus sont tout à fait évidentes.** »
+
+Notes (31) et (32) : *L'homme et son devenir selon le Vêdânta*, chap. VII et XIV,
+puis chap. VII. Notes (34) et (35) : *L'Islam et la fonction de René Guénon*,
+p. 123 et p. 119.
+
+### Chapitre XXXII — « Califat et servitude » (p. 244-245)
+
+#### p. 244 — le retour (*tāba*) et le renvoi au Nom *al-Khāfiḍ*
+
+Citation d'Ibn ʿArabī : quand l'homme « se tourne vers Allâh et fait retour (à
+Lui : *tāba*) », son âme éprouve un sentiment de supériorité issu de la
+non-similitude ; il cherche alors à s'isoler, « il fuit tout seul vers des lieux
+distants ; **il hante les montagnes et les vallées profondes** ». Gilis commente que
+ce texte illustre *a contrario* l'importance de la « communauté traditionnelle » et
+de la « Loi sacrée », qui « répondent aux exigences spécifiques de la période finale
+du cycle humain ».
+
+**Note (14)** — *à retenir* : « Ce terme [*tāba*] n'a pas ici son sens habituel de
+"repentir" et désigne **le moment, caractéristique d'un processus initiatique à ses
+débuts, où l'être prend conscience de son origine divine**. »
+**Note (15)** : *Futūḥāt*, chap. 174.
+**Note (16)** : *Futūḥāt*, **chap. 558, la section sur le Nom divin *al-Khāfiḍ*,
+« Celui qui abaisse »**.
+
+#### p. 245 — les *rijāl Allāh* définis **par leur abaissement**
+
+> « [...] la perfection du serviteur ne peut se réaliser que dans la servitude
+> parfaite que n'altère aucune manifestation seigneuriale [...] :
+>
+> "Bien qu'il soit en lui-même un serviteur, qu'il connaisse intimement son
+> incapacité et sa faiblesse [...] l'homme manifeste le désir de diriger, de se
+> mettre en avant et d'exercer son influence sur autrui chaque fois qu'il le peut.
+> Son âme recherche et aime tout cela parce qu'Allâh l'a créé selon Sa Forme et que
+> le Très-Haut possède les attributs de puissance (*ʿizza*), de grandeur (*ʿaẓama*)
+> et d'immensité qui se reflètent dans le serviteur car ils sont inclus dans la Forme
+> selon laquelle l'homme a été créé.
+>
+> **Les Hommes d'Allâh (*rijāl Allāh*) sont justement ceux que leur création selon
+> la Forme ne détourne pas de leur pauvreté spirituelle, de leur abaissement et de
+> leur servitude.**
+>
+> Quand ils trouvent en eux-mêmes les attributs (seigneuriaux) impliqués par cette
+> création, ils les font paraître dans les circonstances que Dieu a précisées, tout
+> comme Dieu, à qui les mêmes attributs appartiennent pourtant en mode essentiel, ne
+> les manifeste qu'en des circonstances particulières **en dehors desquelles Il revêt
+> les attributs de "descente" (*nuzūl*) et d'amour à l'égard de Ses serviteurs**, au
+> point d'apparaître comme dépendant d'eux (18) et de se mettre Lui-même à leur
+> place. Puisque Dieu assume la servitude au point de descendre vers vous dans vos
+> propres formes, à plus forte raison ne devez-vous pas vous en départir vous-mêmes
+> [...]" (19) »
+
+**Note (18)** : Coran 3, 181 — « Allâh entend la parole de ceux qui disent :
+"Vraiment, Allâh est pauvre (*faqīr*) et nous qui sommes riches..." » ; Ibn ʿArabī
+observe que la suite du verset ne dément pas le propos, le Très-Haut se contentant
+d'ajouter : « Nous consignons ce qu'ils disent ! »
+**Note (19)** : *Futūḥāt*, chap. 409. **Note (17)** : *Futūḥāt*, chap. 532.
+
+### Ce que ces quatre pages établissent
+
+1. ***Rafʿ* et *khafḍ* y sont d'abord des degrés d'existence**, non des sanctions :
+   *rafʿ* = le degré de la manifestation informelle (Anges, purs esprits, Esprit
+   muhammadien, Lettres principielles) ; *khafḍ* = « l'expansion et la
+   différenciation du Souffle **au degré individuel** ». Registre **ontologique**.
+2. **Le support en est la vocalisation** (note 30) : *rafʿ* = *ḍamma*, *khafḍ* =
+   *kasra*. Ce sont les termes de l'*iʿrāb* employés comme symboles ontologiques —
+   **ce ne sont pas, à cette page, les Noms divins**. Le Nom *al-Khāfiḍ* est renvoyé
+   ailleurs (note 16 : *Futūḥāt* chap. 558).
+3. **La correspondance avec les *guṇas* est posée par le texte** (note 33) :
+   *ḍamma* → *sattwa* (force ascendante) ; *kasra* → *tamas* (force descendante) ;
+   *fatḥa* → *rajas*. Combinée à la note 30, elle donne **rafʿ ↔ sattwa** et
+   **khafḍ ↔ tamas**, avec renvoi à la figure de Guénon (*La Théorie hindoue des
+   cinq éléments*).
+4. **L'abaissement des *rijāl Allāh* est une perfection** (p. 245), non une chute :
+   pauvreté spirituelle et servitude. Et Dieu Lui-même « revêt les attributs de
+   *descente* (*nuzūl*) ».
+5. **La déchéance progressive de l'état humain** (p. 105) est nommée, et la
+   manifestation cyclique des Prophètes lui est donnée comme « soulagement » qui la
+   « compense et neutralise ».
+
+> Portée instruite, sans verdict, dans les fiches de discernement du 2026-08-30
+> (couple *khafḍ*/*rafʿ* ; gens d'al-Aʿrāf ; thèse d'unification). **Mentions sans
+> wikilink, délibérément** : une page orthodoxe ne pointe pas vers un discernement
+> non tranché (`doctrinal/CLAUDE.md`, étanchéité inversée) ; les liens existent en
+> sens inverse.
+
 ## État d'avancement et points de vigilance
 
 - ✅ **Avant-propos** (p. 7-8) : transcrit intégralement (jalon initial, 2026-07-09). Dernière phrase hors-cadre photo, suite `to-source`.
 - ✅ **Table des matières** : transcrite intégralement, 40 chapitres + index, 3 parties (2026-07-09).
 - ✅ **Index des termes arabes** (p. 313-318) : transcrit intégralement, six pages (2026-07-09).
 - ✅ **Chap. XV** (p. 115-121), **chap. XX** (p. 150), **chap. XXVII-XXVIII** (p. 208-211), **chap. XXXIII** (p. 249-251) — transcrits ci-dessus (complément, 2026-07-09).
-- ❌ **Reste du corps du texte** (chapitres I-XIV, XVI-XIX, XXI-XXVI, XXIX-XXXII, XXXIV-XL) — non photographié, `to-source`.
+- ✅ **Chap. XIII** (p. 104-105) et **chap. XXXII** (p. 244-245) — transcrits ci-dessus (2026-08-30). Pages **désignées mécaniquement depuis l'index** de la présente fiche, avant photographie : la méthode a été validée par le résultat.
+- ❌ **Reste du corps du texte** (chapitres I-XII, XIV, XVI-XIX, XXI-XXVI, XXIX-XXXI, XXXIV-XL) — non photographié, `to-source`.
+- 🎯 **Prochaines pages à plus fort rendement.** Relevé de la table des matières fait
+  le 2026-08-30 : **deux chapitres de cet ouvrage portent, chacun, une moitié de la
+  thèse d'unification ouverte le même jour** — et le dépôt n'a de relevé ni de l'un
+  ni de l'autre.
+  1. **Chap. XXVI — « Opposition des Anges et *chute de l'Homme* » (p. 193-202)**.
+  2. **Chap. XXIII — « *La Montagne du Califat* » (p. 169-174)**.
+  3. **Chap. XIV — « Les Califes-Pôles » (p. 109-114)** — les trois occurrences de
+     *quṭb* signalées par l'index (109, 111, 166) y tombent.
+  4. **Chap. X — « L'Arbre et la Balance » (p. 81-86)** et **chap. XXXV — « La
+     Balance et l'Épée » (p. 265-272)**.
 - Conformément à la discipline de source, cette fiche constitue un jalon d'ingestion ; le contenu a été mobilisé pour instruire `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale.md` (voir annales du 2026-07-09).

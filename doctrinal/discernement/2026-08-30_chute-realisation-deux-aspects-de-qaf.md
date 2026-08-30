@@ -151,6 +151,60 @@ principal :
 > d'être instruite. Trois de ses jointures sont `to-source` (le *tafsīr* d'al-Aʿrāf,
 > le maillon Pôle ↔ état primordial, le régime d'*al-Khāfiḍ*).
 
+## ⚡ Collation du 2026-08-30 (nuit) — la thèse trouve un appui, et deux chapitres à son nom
+
+**Sidy a photographié les pp. 104-105 et 244-245 des *Sept Étendards du Califat***
+([[doctrinal/sources/sept-etendards-califat]], § « Chapitres XIII et XXXII »).
+
+### Ce que la p. 105 apporte directement à la thèse
+
+Gilis nomme, en toutes lettres, le premier terme du mouvement :
+
+> « les Paroles ne sont autres que les Prophètes et les Envoyés dont la manifestation
+> cyclique apparaît comme un "**soulagement**" qui **compense et neutralise la
+> déchéance progressive de l'état humain**. »
+
+C'est **la chute cyclique**, et elle est ici **couplée à son remède**. La structure
+que la thèse propose — descente puis compensation — est donc énoncée par le texte,
+sur le registre cyclique. **Elle n'y est pas rapportée à Qâf**, et c'est justement
+ce que la thèse ajoute.
+
+### Une précision de vocabulaire que la collation impose au §1
+
+Le tableau des trois « chutes » du §1 était **incomplet**. Il faut désormais
+distinguer **quatre** choses :
+
+| Terme | Nature |
+|---|---|
+| *hubūṭ* (VII, 13 et 24) | la descente hors du Jardin |
+| **« déchéance progressive de l'état humain »** (Gilis, p. 105) | la **chute cyclique**, compensée par la manifestation des Prophètes |
+| *khafḍ* ontologique (Gilis, p. 104) | un **degré d'existence** — le degré individuel. **Aucune charge morale** |
+| *isqāṭ* (ar-Râzî) | l'abaissement-châtiment |
+
+**Conséquence pour la thèse, et elle est exigeante** : « la chute » de l'énoncé de
+Sidy désigne-t-elle le *hubūṭ*, la déchéance cyclique, ou les deux ? Le texte de
+Gilis emploie **deux mots différents** pour deux réalités différentes ; la thèse
+doit choisir, ou dire pourquoi elle les tient ensemble.
+
+### 🎯 Deux chapitres de cet ouvrage portent, chacun, une moitié de la thèse
+
+Relevé de la table des matières, déjà transcrite au dépôt — **aucun des deux n'a été
+photographié** :
+
+- **Chapitre XXVI — « Opposition des Anges et *chute de l'Homme* » (p. 193-202)**
+- **Chapitre XXIII — « *La Montagne du Califat* » (p. 169-174)**
+
+**La chute, et la montagne.** Ce sont exactement les deux termes de l'intuition, et
+ils sont chacun le titre d'un chapitre du même livre, déjà dans la bibliothèque.
+S'ajoute **le chapitre XIV, « Les Califes-Pôles » (p. 109-114)**, où tombent les
+occurrences de *quṭb* signalées par l'index.
+
+> ⚠️ **Un titre de chapitre n'est pas un argument.** « La Montagne du Califat »
+> pourrait ne rien devoir à Qâf, et « chute de l'Homme » ne rien devoir au *hubūṭ*
+> tel que la thèse l'entend. Ce relevé dit **où lire**, il ne dit rien de ce qu'on y
+> trouvera — et la coïncidence des titres avec l'intuition est précisément le genre
+> de chose qui invite à lire trop vite.
+
 ## Conclusion
 
 **Réservée à Sidy** (Cmd 12). L'examen constate que la thèse est **bien formée**,

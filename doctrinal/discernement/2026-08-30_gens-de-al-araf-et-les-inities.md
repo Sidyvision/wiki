@@ -196,6 +196,43 @@ localiser les pages utiles sans rien rephotographier. Relevé fait le 2026-08-30
    l'opération d'élever-et-abaisser aux « Hommes d'Allāh », c'est le lieu le plus
    probable du dépôt pour l'y trouver.
 
+### ✅ Collation faite le 2026-08-30 (nuit) — et l'index disait vrai
+
+**Sidy a photographié les pp. 104-105 et 244-245.** Transcription :
+[[doctrinal/sources/sept-etendards-califat]], § « Chapitres XIII et XXXII ».
+
+**Ce que la p. 245 apporte à *cette* fiche** — la définition des *rijāl Allāh*, et
+elle n'est pas celle qu'on attendait :
+
+> « **Les Hommes d'Allâh (*rijāl Allāh*) sont justement ceux que leur création selon
+> la Forme ne détourne pas de leur pauvreté spirituelle, de leur abaissement et de
+> leur servitude.** »
+
+Ils ne sont donc définis **ni par un rang, ni par une élévation** : par leur
+**abaissement** assumé et leur servitude (*ʿubūdiyya*). Cela **renforce** l'appui
+n° 1 de la généalogie — *rijāl Allāh* est bien un terme technique, et son contenu
+est ici explicite — **et cela déplace la lecture** : si les *rijāl* d'al-Aʿrāf
+étaient les *rijāl Allāh*, leur position « ni au Jardin ni au Feu » ne serait pas
+une attente, mais **une tenue**.
+
+**Et la p. 244 donne un appui inattendu au §3** (la reformulation « initiés au
+seuil »). Note 14, sur *tāba* :
+
+> « Ce terme n'a pas ici son sens habituel de "repentir" et désigne **le moment,
+> caractéristique d'un processus initiatique à ses débuts, où l'être prend
+> conscience de son origine divine**. »
+
+Gilis lit donc un terme coranique de retour comme le **commencement** d'un processus
+initiatique. Le précédent de méthode est net : un vocabulaire eschatologique ou
+pénitentiel peut recevoir, chez Ibn ʿArabī, une signification **initiatique et
+inchoative**. **Ce n'est pas une preuve pour al-Aʿrāf** — c'est un précédent de
+lecture, et il rend l'hypothèse moins étrange qu'elle ne paraissait.
+
+> ⚠️ **Ce que la collation n'apporte pas** : ni *aʿrāf*, ni *sīmā*, ni *firāsa* ne
+> figurent dans ces quatre pages, pas plus que dans l'index. **Aucun texte ne relie
+> encore les gens d'al-Aʿrāf aux *rijāl Allāh*.** Le rapprochement reste porté par
+> le seul mot *rijāl*, et c'est peu. `to-source` maintenu sur toute la généalogie.
+
 > ⚠️ **Ce sont des indices de pagination, rien de plus.** Une adjacence dans un
 > index ne prouve aucun rapport doctrinal : deux termes voisins peuvent relever de
 > développements sans lien. Ce tableau dit **où regarder**, il ne dit rien de ce

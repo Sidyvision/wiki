@@ -104,7 +104,58 @@ al-Aʿrāf**.
 
 Trois points de forme, dont deux sont des **avertissements**.
 
+### 0. ⚡ COLLATION DU 2026-08-30 (nuit) — le point bloquant est levé, et par un **troisième** terme
+
+> **Sidy a photographié les pages 104-105 et 244-245 des *Sept Étendards du
+> Califat*** — celles que le tableau de pistes désignait, mécaniquement, comme les
+> plus rentables. Transcription intégrale :
+> [[doctrinal/sources/sept-etendards-califat]], § « Chapitres XIII et XXXII ».
+
+La question bloquante était : *le « il abaisse » du Calife est-il l'*isqāṭ*-châtiment
+de Rāzī, ou la « réalisation descendante » de Vâlsan ?* **La réponse du texte est :
+ni l'un ni l'autre.** Il y a un troisième registre, et c'est le principal.
+
+| Registre | Ce que *khafḍ* / l'abaissement y désigne | Source |
+|---|---|---|
+| **ontologique** | « l'expansion et la différenciation du Souffle **au degré individuel** » — un **degré d'existence**, sans aucune charge morale | Gilis, p. 104 |
+| **spirituel, positif** | la **perfection du serviteur** : « les Hommes d'Allâh (*rijāl Allāh*) sont justement ceux que leur création selon la Forme ne détourne pas de leur pauvreté spirituelle, **de leur abaissement** et de leur servitude » | Gilis, p. 245 |
+| **moral, négatif** | *isqāṭ*, « abaissant les Infidèles au degré le plus bas » | ar-Râzî, ch. XVIII |
+
+**Le registre dominant chez Ibn ʿArabī/Gilis est le premier**, et il est
+*ontologique* : *rafʿ* est le degré de la manifestation **informelle** (Anges, purs
+esprits, Esprit muhammadien, Lettres principielles) ; *khafḍ* le degré
+**individuel**. Ce sont « **deux degrés existenciels fondamentaux** », différenciation
+de la fonction primordiale.
+
+> ⚠️ **Distinction que la collation impose et qu'il ne faut pas perdre.** À la
+> p. 104, *rafʿ* et *khafḍ* sont les termes de l'***iʿrāb*** — la vocalisation :
+> « *Rafʿ* désigne en arabe la vocalisation au moyen du *ḍamma* et *khafḍ* la
+> vocalisation au moyen du *kasra* » (note 30). Ce sont des **termes grammaticaux
+> employés comme symboles ontologiques**, **et non les Noms divins**. Le Nom
+> *al-Khāfiḍ* est renvoyé ailleurs par Gilis : *Futūḥāt*, **chap. 558**, « la
+> section sur le Nom divin *al-Khāfiḍ* » (note 16, p. 244). **Le dossier porte donc
+> désormais deux objets distincts qu'il serait fatal de fondre** : le couple
+> *vocalique-ontologique* (p. 104) et le couple des *Noms divins* (Rāzī, *Futūḥāt*
+> 558, non lu). Leur rapport est à instruire, il n'est pas donné.
+
+**Ce que la p. 245 ajoute, et qui tranche l'équivoque du §1** : Dieu Lui-même
+« revêt les attributs de "**descente**" (*nuzūl*) et d'amour à l'égard de Ses
+serviteurs ». La descente n'est donc pas, en soi, une déchéance — elle est
+attribuée à Dieu. **La « descente » du Calife appartient à ce registre-là**, non à
+l'*isqāṭ*.
+
+**Et un quatrième terme apparaît, qui appartient à la thèse d'unification** : la
+p. 105 nomme « **la déchéance progressive de l'état humain** », que la manifestation
+cyclique des Prophètes vient « compenser et neutraliser » comme un « soulagement ».
+C'est la chute *cyclique*, distincte des trois autres.
+
 ### 1. Équivoque sur le mot « descente » — deux descentes, un seul mot français
+
+> ✅ **Résolue en grande partie le 2026-08-30 au soir — voir §0 ci-dessus.** Le
+> tableau ci-dessous reste juste, mais il était **incomplet** : il manquait le
+> registre **ontologique**, qui est celui du texte akbarien lui-même et qui n'est
+> ni l'un ni l'autre des deux qu'il oppose. Conservé (Cmd 10) comme trace de
+> l'état antérieur du diagnostic.
 
 Le dépôt porte deux mouvements descendants qui n'ont **rien à voir** :
 
@@ -234,6 +285,54 @@ déduire le régime du couple divin depuis l'expérience qu'on en a.
 > complémentarité, non équivalence — état *kari-kumi*, portance *jikugumi***
 > (les deux termes sont de dignité comparable et le joint porterait la charge).
 > **Verdict réservé à Sidy** (Cmd 12).
+
+### ⚡ Le joint n'est plus pressenti : il est POSÉ par le texte (collation du 2026-08-30)
+
+Le paragraphe ci-dessus a été écrit **avant** la collation des pp. 104-105. Il
+proposait le rapprochement *khafḍ*/*rafʿ* ↔ guṇas comme **kari-kumi**, joint
+pressenti et non taillé. **Gilis le pose explicitement, en deux notes de la même
+page** :
+
+| Voyelle | Terme (note 30) | Guṇa (note 33) |
+|---|---|---|
+| *ḍamma* (« u ») | ***rafʿ*** | ***sattwa***, « force ascendante » |
+| *kasra* (« i ») | ***khafḍ*** | ***tamas***, « force descendante » |
+| *fatḥa* (« a ») | — | ***rajas***, « tendance expansive » |
+
+Et Gilis renvoie, pour l'établir, à **la figure circulaire de Guénon** dans
+*La Théorie hindoue des cinq éléments* — *rajas* à l'équateur et à l'Air, « élément
+neutre qui garde l'équilibre entre les deux tendances opposées » ; *sattwa* comme
+dimension ascendante du Feu ; *tamas* comme gravité descendante de l'Eau. Il
+conclut : « **Les analogies avec le texte d'Ibn Arabî cité ci-dessus sont tout à
+fait évidentes.** »
+
+Il ajoute, sur le même mouvement : « **La similitude entre l'enseignement d'Ibn
+Arabî et celui de l'Hindouisme est ici particulièrement remarquable** » — les trois
+lettres-faibles comme expression islamique de la doctrine des « trois mondes », mise
+en regard de la *Trimūrti* conçue « par l'influence des trois *guṇas* », puis du
+monosyllabe *Om* et de Vâlsan (« par excellence le nom du Verbe manifesté dans les
+trois mondes »).
+
+> **Ce que cela change exactement — et ce que cela ne change pas.**
+>
+> ✅ Le joint **cesse d'être une construction du dépôt** : une autorité nommée
+> ([[doctrinal/autorites/charles-andre-gilis]]) le pose, en s'appuyant sur Guénon.
+> L'état *kari-kumi* du paragraphe précédent est **caduc pour ce joint-là**.
+>
+> ⚠️ Mais **trois réserves demeurent, et elles sont sérieuses** :
+> 1. C'est **Gilis** qui pose la correspondance, **non Ibn ʿArabī**. Une autorité
+>    moderne de l'école guénonienne, non le Cheikh al-Akbar. Le statut du joint est
+>    celui d'une **mise en regard autorisée**, pas d'une doctrine akbarienne.
+> 2. Elle porte sur le couple ***vocalique-ontologique*** de la p. 104, **non sur
+>    les Noms divins** *al-Khāfiḍ*/*al-Rāfiʿ* (§0 ci-dessus). Étendre la
+>    correspondance aux Noms serait un pas de plus, que rien n'autorise encore.
+> 3. Gilis écrit « analogies » et « similitude », **non identité** — ce qui est
+>    exactement le régime du *kumiko* (complémentarité) et non du *hozo*
+>    (équivalence). Le vocabulaire du dépôt et celui de l'auteur concordent ici.
+>
+> **Qualification proposée à Sidy** : ***kumiko*** établi pour le couple
+> vocalique-ontologique ↔ guṇas, sur autorité de Gilis ; ***kari-kumi*** maintenu
+> pour toute extension aux Noms divins. **Verdict réservé** (Cmd 12).
 
 ## Conséquence signalée pour l'Instrument (aucune décision)
 
