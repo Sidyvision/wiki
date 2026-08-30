@@ -11,9 +11,10 @@ tags:
 - ame
 - epistemologie
 created: 2026-06-04
-updated: 2026-06-11
+updated: 2026-08-30
 sources:
-sources_count: 0
+- '[[islam-and-artificial-intelligence]]'
+sources_count: 1
 cross_links:
 - '[[yaqub-chaudhary]]'
 - '[[ibn-sina]]'
