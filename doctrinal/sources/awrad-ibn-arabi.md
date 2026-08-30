@@ -11,7 +11,7 @@ tags:
 - ibn-arabi
 - traduction
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-08-30
 sources_count: 0
 cross_links:
 - '[[ibn-arabi]]'
@@ -36,6 +36,7 @@ sources: []
 - **ISBN** : 978-1-938058-67-7
 - **Langue** : bilingue arabe / anglais, avec translitération
 - **Pages** : 177
+- **Source brute** : `raw/Awrad_Ibn_Arabi.pdf` (177 p., présence vérifiée au dépôt le 2026-08-30)
 
 ## Résumé
 

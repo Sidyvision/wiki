@@ -1,7 +1,6 @@
 ---
 title: "Session corrections rapports quotidiens et rotation HMAC"
 type: session
-date: 2026-08-30
 created: 2026-08-30
 updated: 2026-08-30
 participants: [studio, publication, sidy]
