@@ -9,6 +9,31 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] veille-referencement | exécution des suggestions validées du rapport Publication 2026-08-30
+
+- **Opération** : RÉFÉRENCEMENT — exécution, sur validation explicite de Sidy
+  (Discord #infrastructure, fil du 2026-08-30), des suggestions du rapport
+  `veille-referencement-investigation-08` du jour.
+- **Levée du `sources_count: 0` (2 fiches dont la source candidate était déjà
+  citée dans le corps mais absente du champ `sources:`)** :
+  - [[doctrinal/autorites/ibn-sina]] — `sources: ["[[islam-and-artificial-intelligence]]"]`,
+    `sources_count: 1` (les faits de la fiche portaient déjà la mention
+    « source : [[islam-and-artificial-intelligence]] »).
+  - [[doctrinal/etudes/2026-06-04_islam-et-ia]] — idem (la section « Sources »
+    du corps citait déjà la fiche ; le champ frontmatter s'aligne sur elle).
+- **[[doctrinal/sources/awrad-ibn-arabi]]** : ajout de la ligne « Source brute :
+  `raw/Awrad_Ibn_Arabi.pdf` (177 p.) » au bloc Référence — présence du PDF
+  vérifiée au dépôt ; `sources:` reste `[]` (la fiche EST la source, convention
+  des fiches `type: source`).
+- **`updated` remonté au 2026-08-30** sur les trois fiches doctrinales
+  modifiées (Cmd 8).
+- **Aucun contenu doctrinal ajouté ni altéré** — traçabilité machine-lisible
+  seule. Les stubs sans source dans le dépôt (Ibn Qayyim, Ibn Sīrīn) restent
+  inchangés, en attente d'acquisition (signalement maintenu).
+- **Commit** : fd2d1eb
+
+---
+
 ## [2026-08-30] discernement | second examen | Les nâdîs du cœur et les sentiers séphirothiques — les trois obstacles tombent
 
 - **Contexte** : Sidy rappelle que le rapport **inter**-traditionnel ne s'aborde

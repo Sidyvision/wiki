@@ -10,6 +10,39 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] veille | exécution rapport Publication — fiche session Sceau + B0 raw/
+
+Suite de la validation Sidy (Discord #infrastructure, fil du 2026-08-30) du
+rapport `veille-referencement-investigation-08`. Volet atelier :
+
+- **`atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac.md`** :
+  retrait de la clé orpheline `date:` du frontmatter (le Sceau atelier exige
+  `created`/`updated`, présents depuis PR #16). Erreur B1 levée.
+- **B0 `raw/` (6 transcriptions sans frontmatter)** : le vérificateur parcourt
+  `raw/` bien que le dossier soit gitignoré ; chaque transcription Markdown a
+  reçu un frontmatter minimal de provenance (`type: transcription-brute`,
+  source PDF ou photos, pages, `created:`), corps intact :
+  `La-Puissance-Du-Serpent.md` (Avalon, conversion pymupdf4llm consignée aux
+  présentes annales ce jour), `La Lumière…/IV.md` et son doublon `Downloads/`
+  (Shayegan ch. IV, p.155-167), `Les Quatre Mondes…/LES QUATRE MONDES.md` et
+  son doublon `Downloads/` (ch. III, p.121-151), plus
+  `Les Disciplines Spirituelles…/Les Disciplines Spirituelles.md` (ch. II,
+  dépôt du jour 13:11 UTC, postérieur au rapport mais signalé par le
+  vérificateur pendant la passe). Aucun de ces fichiers n'est versionné
+  (`.gitignore` `/raw/*`) — la correction est locale au serveur.
+- **Avertissement A6 `atelier/annales.md:2206`** : examiné — les deux champs
+  `Commit` (`44c8c13`, `39ab0f2`) appartiennent à la même entrée groupée
+  « Lecture dynamique du manifeste + instruction branche Kabbale » du
+  2026-08-20 (parties a/b, deux commits distincts). Faux positif légitime,
+  aucune insertion perdue ; l'avertissement demeure par conception.
+- **Vérifications mécaniques (résultats bruts)** :
+  `verifier-invariants.py` → `0 erreur(s), 1 avertissement(s)` (l'A6 ci-dessus) ;
+  `generer-cartographie.py --verifier` passe ; hygiène Unicode (Cmd 15) : aucun
+  caractère invisible dans les fichiers modifiés.
+- **Commit** : fd2d1eb
+
+---
+
 ## [2026-08-30] rd/bibliotheque | fermeture du sas | vidage `_inbox/` (trois lots déjà intégrés, doublons octet pour octet de `raw/`)
 
 - **Vérification préalable** : les trois éléments restants du sas —
