@@ -15,7 +15,11 @@ cross_links: ["[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveau
 
 > 🔍 **Discernement — Spéculation Personnelle**
 >
-> **Statut** : **en cours** — verdict réservé à Sidy.
+> **Statut** : **validée pour (P1)** — lecture par complémentarité (*kumiko*)
+> approuvée par Sidy le 2026-08-30. **(P2) reste en cours** : le point de savoir
+> de quel cœur rayonne le réseau (*Anāhata* seul, le lotus à huit pétales
+> surnuméraire, ou la lecture par positions de l'observateur, §4 quater) n'a
+> pas encore reçu de verdict.
 >
 > **Hypothèse initiale** (Sidy, 2026-08-30, formulée à la lecture du ch. XXI) :
 > « Les nâdîs sortant du chakra du cœur sont **identiques** aux sentiers des
@@ -57,9 +61,13 @@ cross_links: ["[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveau
 > **Qualification proposée à l'issue du second examen** : le joint n'est
 > vraisemblablement pas ***hozo*** (équivalence) mais ***kumiko***
 > (complémentarité) — **ce qui conforte l'hypothèse dans sa substance** au lieu
-> de l'affaiblir. Proposition soumise, **non tranchée**.
+> de l'affaiblir.
 >
-> **Conclusion** : **non rendue.** La machine documente et signale (Cmd 12).
+> **Conclusion** : **(P1) approuvée par Sidy, verdict rendu le 2026-08-30** —
+> les sentiers séphirothiques et les *nâdîs* sont deux projections
+> complémentaires (*kumiko*) d'un même réseau, non une simple équivalence
+> (*hozo*). **(P2) demeure non rendue** : de quel cœur le réseau rayonne reste
+> à trancher — la machine documente et signale (Cmd 12), sans se prononcer.
 >
 > **Lectures suggérées** : (1) le *Sefer Yetsirah* sur les **32 voies** (10
 > Sephiroth + 22 lettres) — le dépôt en possède le texte avec le commentaire du
@@ -390,7 +398,7 @@ naturelle de ce sujet, et c'est celle qu'il ne faut pas prendre.
 
 | # | À faire | Qui | Statut après le second examen |
 |---|---|---|---|
-| 1 | **Verdict sur la lecture par complémentarité** (*kumiko*) — les deux figures sont-elles deux projections d'un même réseau ? | **Sidy** | **instruisible dès maintenant** ; ne dépend d'aucune source manquante |
+| 1 | ~~Verdict sur la lecture par complémentarité (*kumiko*)~~ | **Sidy** | **✅ approuvé le 2026-08-30** |
 | 2 | **Trancher de quel cœur il s'agit** — ou retenir la lecture par **positions de l'observateur** (§4 quater) | Sidy | proposition faite, verdict réservé |
 | 3 | **Fixer l'arrangement des 22 sentiers sur source**, pour ses raisons propres | instruction Kabbale | prérequis du seul test numérique, et de lui seul |
 | 4 | **Courir la prédiction structurelle** (§5.2) : degré de chaque Sephirah ↔ nombre de pétales du centre correspondant | après (3) | ~~bloquant~~ → devenu un **test**, qui peut échouer |
