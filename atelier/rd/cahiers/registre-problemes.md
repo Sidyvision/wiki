@@ -30,6 +30,29 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] Clé ANTHROPIC compromise dans .bash_history et .omniroute-env.sh
+
+- **Symptôme** : `ANTHROPIC_AUTH_TOKEN` trouvé en clair dans `/root/.bash_history` et `/root/.omniroute-env.sh` (fichier non chargé par aucun service actif). Incident de sécurité signalé dans `incident-2026-08-27-omniroute-eaddrinuse-daemonisation.md`.
+- **Diagnostic** : le token a été redacté des fichiers locaux le 2026-08-27, mais il restait valide côté Anthropic. Exposition potentielle via l'historique shell accessible à tout processus tournant sous root.
+- **Résolution** : clé **désactivée** par Sidy le 2026-08-30 (pas supprimée, car elle n'a aucun crédit). Rotation de sécurité accomplie.
+- **Compréhension tirée** : un token compromis dans un fichier de log/historique doit être révoqué côté fournisseur, pas seulement redacté localement. La désactivation (plutôt que suppression) permet de garder une trace si nécessaire pour audit futur.
+- **Liens** : `incident-2026-08-27-omniroute-eaddrinuse-daemonisation.md`, PR #13 (correctifs sécurité).
+- **Statut** : resolu.
+
+---
+
+## [2026-08-30] Point 3b — Jetons [[...]] cités comme données
+
+- **Symptôme** : rapport `traitement-avertissements-isoles-rapport-2026-08-18.md` contient ~49 jetons wikilink cités comme exemples (`[[^]]`, `[[x/y]]`, `[[wiki-contrainte-integration-levee]]`, etc.).
+- **Diagnostic** : ces jetons sont dans un fichier de rapport technique qui documente volontairement des exemples de liens problématiques. Le fichier est déjà dans `FICHIERS_EXEMPTS_C1` de `verifier-invariants.py`, donc il ne pollue pas le vérificateur.
+- **Résolution** : aucune action requise. Le vérificateur ignore déjà ce fichier (exemption C1).
+- **Compréhension tirée** : les fichiers de documentation/rapport qui citent des exemples de liens problématiques doivent être explicitement exemptés du contrôle C1 pour éviter les faux positifs.
+- **Liens** : `verifier-invariants.py` ligne 62-65 (liste `FICHIERS_EXEMPTS_C1`).
+- **Statut** : clos (pas d'action nécessaire).
+
+---
+
+
 ## [2026-08-30] rd/infrastructure | Secret HMAC exposé en clair dans fiche R&D (2026-08-29_compte-rendu-github-automation.md)
 
 - **Opération** : signalement-sécurité
@@ -2333,25 +2356,3 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   `CLAUDE.md` §VI, Cmd 10.
 - **Statut** : `resolu`.
 
-
-## [2026-08-30] Clé ANTHROPIC compromise dans .bash_history et .omniroute-env.sh
-
-- **Symptôme** : `ANTHROPIC_AUTH_TOKEN` trouvé en clair dans `/root/.bash_history` et `/root/.omniroute-env.sh` (fichier non chargé par aucun service actif). Incident de sécurité signalé dans `incident-2026-08-27-omniroute-eaddrinuse-daemonisation.md`.
-- **Diagnostic** : le token a été redacté des fichiers locaux le 2026-08-27, mais il restait valide côté Anthropic. Exposition potentielle via l'historique shell accessible à tout processus tournant sous root.
-- **Résolution** : clé **désactivée** par Sidy le 2026-08-30 (pas supprimée, car elle n'a aucun crédit). Rotation de sécurité accomplie.
-- **Compréhension tirée** : un token compromis dans un fichier de log/historique doit être révoqué côté fournisseur, pas seulement redacté localement. La désactivation (plutôt que suppression) permet de garder une trace si nécessaire pour audit futur.
-- **Liens** : `incident-2026-08-27-omniroute-eaddrinuse-daemonisation.md`, PR #13 (correctifs sécurité).
-- **Statut** : resolu.
-
----
-
-## [2026-08-30] Point 3b — Jetons [[...]] cités comme données
-
-- **Symptôme** : rapport `traitement-avertissements-isoles-rapport-2026-08-18.md` contient ~49 jetons wikilink cités comme exemples (`[[^]]`, `[[x/y]]`, `[[wiki-contrainte-integration-levee]]`, etc.).
-- **Diagnostic** : ces jetons sont dans un fichier de rapport technique qui documente volontairement des exemples de liens problématiques. Le fichier est déjà dans `FICHIERS_EXEMPTS_C1` de `verifier-invariants.py`, donc il ne pollue pas le vérificateur.
-- **Résolution** : aucune action requise. Le vérificateur ignore déjà ce fichier (exemption C1).
-- **Compréhension tirée** : les fichiers de documentation/rapport qui citent des exemples de liens problématiques doivent être explicitement exemptés du contrôle C1 pour éviter les faux positifs.
-- **Liens** : `verifier-invariants.py` ligne 62-65 (liste `FICHIERS_EXEMPTS_C1`).
-- **Statut** : clos (pas d'action nécessaire).
-
----
