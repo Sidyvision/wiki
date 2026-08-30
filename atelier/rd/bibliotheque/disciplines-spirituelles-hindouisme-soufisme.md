@@ -52,10 +52,12 @@ liste ordonnée des sept *laṭāʾif* de Semnânî avec leurs régents-prophèt
 Shayegan ne les met pas en correspondance terme à terme** — il parle
 seulement de « rapports homologables avec les centres subtils du Yoga
 tantrique » et conclut : « il ne s'agit pas naturellement d'identité de
-structure ». Toute table de correspondance *laṭīfa*↔*cakra* reste à
-construire dans une fiche `discernement/` séparée, avec verdict réservé à
-Sidy — cette fiche-ressource ne fait qu'un signalement pur, aucun ancrage
-n'est déclaré ici.
+structure ». Table de correspondance *laṭīfa*↔*cakra* construite le
+2026-08-30 dans
+[[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] (lien signalé,
+sens atelier/rd → doctrinal autorisé), verdict réservé à Sidy — cette
+fiche-ressource ne fait elle-même qu'un signalement pur, aucun ancrage n'est
+déclaré ici.
 
 ---
 

@@ -6,7 +6,7 @@ maturite: germe
 tradition_cadre: "islam"
 tags: [aqtab, lataif, semnani, najm-kobra, prophetes, malakut-planetaire, miraj, septenaire]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-08-30
 sources: ["to-source"]
 sources_count: 0
 cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]", "[[doctrinal/symboles/coeurs-subtils]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]"]
@@ -143,10 +143,55 @@ Le rapprochement ne repose pas sur une simple coïncidence de nombre :
    [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]
    documente le rapport Aqtâb/Prophètes aux degrés 21-27.
 
+## La pièce trouvée (2026-08-30) — table de correspondance, à l'état de proposition
+
+Le ch. II du commentaire de Shayegan (« Les disciplines spirituelles ») a été
+transcrit le 2026-08-30 (consultation humaine en bibliothèque R&D, sans
+wikilink — §VI). Il confirme mot pour mot l'ordre déjà retenu ci-dessus (Adam,
+Noé, Abraham, Moïse, David, Jésus, Muhammad) et donne, dans la même section, la
+liste ordonnée des sept *cakra* avec leurs pétales. Voici les deux séries mises
+en regard, **par rang** — c'est-à-dire dans l'ordre où le texte les énumère,
+pas par une correspondance que le texte établirait lui-même :
+
+| Rang | *Cakra* (Shayegan, section I) | Pétales | *Laṭīfa* (Semnânî, point vi) | Régent-prophète |
+|---|---|---|---|---|
+| 1 | Mūlādhāra (base, anus/organes génitaux) | 4 | *laṭīfa qālabīya* (corps subtil acquis) | Adam |
+| 2 | Svādhiṣṭhāna (racine des organes génitaux) | 6 | *laṭīfa nafsīya* (âme inférieure, *nafs ammāra*) | Noé |
+| 3 | Maṇipūraka (nombril) | 10 | *laṭīfa qalbīya* (Moi spirituel) | Abraham |
+| 4 | Anāhata (cœur) | 12 | *laṭīfa sirrīya* (secret, transconscience) | Moïse |
+| 5 | Viśuddhi (gorge) | 16 | *laṭīfa rūḥīya* (esprit) | David |
+| 6 | Ājñā (entre les sourcils) | 2 | *laṭīfa khafīya* (mystère, *arcanum*) | Jésus |
+| 7 | Sahasrāra (sommet du crâne) | 1000 | *laṭīfa ḥaqqīya* (centre divin) | Muhammad |
+
+**Ce que le texte établit réellement, et rien de plus** :
+
+1. **Le septénaire est structurel des deux côtés, et ordonné identiquement**
+   (ascendant, du plus incarné/acquis vers le principe le plus élevé). Les deux
+   termes extrêmes sont homologables *par fonction* : Mūlādhāra est le centre
+   le plus corporel (siège de *jîva*, à la base) comme *qālabīya* est
+   littéralement le « corps subtil **acquis** » (Adam, premier homme, le plus
+   proche de la manifestation) ; Sahasrāra est le lieu de l'union Śiva-Śakti
+   comme *ḥaqqīya* est le « centre **divin** » (Muhammad, « sceau de la
+   prophétie », terme de l'ascension).
+2. **Shayegan ne pose PAS cette table lui-même.** Il écrit seulement, après
+   avoir exposé les deux septénaires successivement dans le même chapitre : « il
+   ne s'agit pas naturellement d'identité de structure », et conclut à des
+   « rapports homologables » — un *kumiko* (complémentarité), pas un *hozo*
+   (équivalence établie) dans son propre texte.
+3. **Aucune position corporelle n'est donnée pour les sept *laṭāʾif*** dans ce
+   passage — à ne pas confondre avec la triade *distincte* que Dârâ Shokûh
+   expose plus haut dans le même chapitre (cœur physiologique sous la mamelle
+   gauche / cerveau / base de la colonne, dite des « trois centres de
+   méditation », **3 termes, pas 7**) : celle-ci a des positions corporelles
+   explicites, la série des sept *laṭāʾif* de Semnânî n'en a aucune dans le
+   texte disponible. **La correspondance rang-par-rang ci-dessus est donc une
+   hypothèse structurelle (même nombre, même ordre, mêmes termes extrêmes) —
+   pas une identité topographique établie par le texte.**
+
 ---
 
 > 🔍 **Discernement — Spéculation Personnelle**
-> **Statut** : validée dans son principe — **exécution en cours**
+> **Statut** : validée dans son principe — **table de correspondance construite, verdict de Sidy en attente**
 > **Hypothèse initiale** (2026-08-29) : les sept Pôles (*Aqtāb*) du *Malakūt*
 > planétaire et les sept centres subtils (*laṭāʾif*) de la physiologie spirituelle
 > se correspondent, la correspondance étant appuyée et confirmée par les
@@ -170,25 +215,39 @@ Le rapprochement ne repose pas sur une simple coïncidence de nombre :
 > planétaires aux *laṭāʾif*, c'est apparier un macrocosme à un microcosme —
 > erreur de catégorie. La comparaison licite est *laṭāʾif* ↔ *chakras* (micro ↔
 > micro), et, séparément, cieux ↔ *lokas* (macro ↔ macro).
-> **Conclusion** : attribuée à Sidy (2026-08-29 pour le principe et son motif ;
-> 2026-08-30 pour la levée de l'obstacle). Le verdict de principe tient et se
-> trouve renforcé : les deux séries relèvent bien d'un seul Être lu à deux
-> échelles ([[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]).
-> **La fiche demeure ouverte quant au détail de l'appariement**, mais ce qui
-> manque n'est plus une objection à lever : c'est une **source** — la liste
-> ordonnée des sept *laṭāʾif* et de leurs régents. Aucune correspondance terme à
-> terme n'est inscrite tant que la lettre d'un texte kubrawî n'est pas versée au
-> dépôt. **Et le dossier est réorienté** : la comparaison à instruire est
-> *laṭāʾif* ↔ *chakras*, non *laṭāʾif* ↔ cieux planétaires.
+> **Conclusion** *(mise à jour 2026-08-30, pièce trouvée)* : le verdict de
+> principe (2026-08-29/30) tient et se trouve renforcé — les deux séries
+> relèvent d'un seul Être lu à deux échelles
+> ([[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]).
+> La pièce qui manquait (la liste ordonnée des sept *laṭāʾif* et de leurs
+> régents) est maintenant versée au dépôt et **confirme** l'ordre déjà retenu
+> (Adam → Muhammad). La table de correspondance rang-par-rang *cakra*↔*laṭīfa*
+> est construite ci-dessus (« La pièce trouvée ») — mais **elle reste à l'état
+> de proposition structurelle (*kari-kumi*, 🔍), pas d'ancrage établi
+> (*hozo*)** : Shayegan lui-même n'écrit pas cette table, il note seulement des
+> « rapports homologables » sans identité de structure, et le texte ne localise
+> pas corporellement les *laṭāʾif*. **Le verdict sur cette table précise —
+> l'inscrire comme *hozo*, la garder en *kari-kumi*, ou l'invalider — revient à
+> Sidy**, jamais à la machine (Cmd 12) ; soumis explicitement en ce sens le
+> 2026-08-30.
 > **Lectures suggérées** :
->   1. Le **ch. II du commentaire de Shayegan** (« Les disciplines spirituelles », §III), qui porte l'exposé des sept centres subtils de Semnânî et leur homologie aux sept *cakra* — pièce manquante identifiée, exemplaire physique disponible, non encore transcrite.
->   2. Najm al-Dîn Râzî, *Mirṣād al-ʿIbād* — cité abondamment par Shayegan (trad. anglaise Hamid Algar, *The Path of God's Bondsmen*), source de première main sur les photismes et les degrés.
+>   1. ~~Le ch. II du commentaire de Shayegan~~ — **transcrit le 2026-08-30**,
+>      voir `atelier/rd/bibliotheque/` (consultation humaine, sans wikilink —
+>      §VI).
+>   2. Najm al-Dîn Râzî, *Mirṣād al-ʿIbād* — cité abondamment par Shayegan (trad. anglaise Hamid Algar, *The Path of God's Bondsmen*), source de première main sur les photismes et les degrés, permettrait de vérifier si Semnânî lui-même situe les *laṭāʾif* sur le corps.
 >   3. [[doctrinal/symboles/influx-spirituel-sommet-cranien]] — matière connexe déjà au dépôt sur le sommet de l'axe subtil.
 
 ## Prochain geste, précisément
 
-Transcrire le ch. II du commentaire de Shayegan (« Les disciplines
+*Statut au 2026-08-30 : le geste ci-dessous (transcription du ch. II) est
+accompli — conservé pour mémoire, avec le nouveau geste attendu.*
+
+~~Transcrire le ch. II du commentaire de Shayegan (« Les disciplines
 spirituelles »), qui donne selon toute vraisemblance la liste ordonnée des sept
 centres et de leurs Prophètes régents. C'est la seule pièce qui manque pour
 tailler ce joint — et elle est à portée, l'ouvrage étant en bibliothèque
-physique.
+physique.~~
+
+**Geste attendu maintenant** : verdict de Sidy sur la table de correspondance
+*cakra*↔*laṭīfa* construite ci-dessus — inscrire (*hozo*), maintenir en attente
+(*kari-kumi*), ou invalider. Soumis explicitement le 2026-08-30.
