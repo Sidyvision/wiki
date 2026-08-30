@@ -14,6 +14,37 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] briefs | Passation retour — session claude.ai vers session terminal
+
+- **Brief créé** : [[meta/briefs/2026-08-30_passation-claude-ai-vers-terminal]], à la
+  demande de Sidy qui repasse côté Claude Code Terminal. L'ancien brief
+  [[meta/briefs/2026-08-30_passation-instrument-vers-claude-ai]] est **clos** et
+  porte un pointeur vers celui-ci ; les deux sont recensés au `meta-index.md`.
+- **⚠️ Avertissement porté en tête du brief, avant tout le reste** : **tout le
+  travail est sur la branche `claude/passation-instrument-claude-ai-kono6l`, rien
+  n'est sur `main`.** Sept commits. **La fusion appartient à Sidy** — rien n'a été
+  fusionné sans ordre.
+- **Contenu du point de reprise** : les trois discernements en attente de verdict,
+  classés par importance (thèse d'unification · gens d'al-Aʿrāf · couple
+  *khafḍ*/*rafʿ*, ce dernier restant le **point bloquant** du rendu) ; l'état vérifié
+  du prototype ; les deux rapprochements **refusés** à ne pas rouvrir sans texte ; et
+  la règle de méthode dégagée par le dossier (quatre mots français recouvrant des
+  réalités distinctes).
+- **Collations classées par rendement, et l'ordre est mécanique, non au flair** :
+  déterminé sur des index **déjà transcrits au dépôt**. En tête, la **page 104 des
+  *Sept Étendards du Califat*** — *khafḍ* **et** *rafʿ* y figurent tous deux ; puis
+  **244-245**, où *khafḍ* et *rijāl Allāh* sont adjacents. Avertissement joint : une
+  adjacence d'index ne prouve aucun rapport doctrinal, le tableau dit où regarder.
+- **Ce que le terminal débloque et que le web ne pouvait pas** : `raw/` (*gitignored*,
+  donc invisible depuis claude.ai) — c'est là que se cherchent *Le Roi du Monde* et
+  le Paradis terrestre au sommet de la montagne, **cœur du §3 de la thèse** et
+  aujourd'hui sans aucun relevé au dépôt. Signalé aussi : les clichés de cette
+  session (p. 35, p. 412, p. 857, Râzî ch. XVIII, couvertures) **n'ont pas pu être
+  versés** dans `raw/assets/` et restent à déposer côté serveur pour la traçabilité.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : 436287b
+
 ## [2026-08-30] briefs | Passation de la session Instrument vers Claude Code (claude.ai)
 
 - **Motif** : budget de session épuisé côté terminal, la matière doctrinale étant

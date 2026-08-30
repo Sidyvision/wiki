@@ -9,6 +9,58 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] discernement | Thèse d'unification de Sidy — la chute, la réalisation, et les deux aspects de Qâf
+
+- **Intuition de Sidy** : « le thème de ce dossier est *la chute* du paradis, la
+  réalisation spirituelle, et la montagne de Qâf est ses deux aspects de
+  chaîne/muraille et apex en rapport avec l'état primordial que présente Guénon ».
+  Fiche ouverte :
+  [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]].
+- **Nature de la thèse** : ce n'est **pas un rapprochement de plus**, c'est une
+  proposition d'**unification** — que les pièces des deux derniers jours (le couple
+  *khafḍ*/*rafʿ*, les gens d'al-Aʿrāf, la double nature de Qâf) soient les faces
+  d'une seule doctrine : le mouvement **descente → remontée** rapporté à l'état
+  primordial.
+- **Ses deux ancrages guénoniens étaient déjà sourcés au dépôt** — la thèse n'a rien
+  eu à importer : *(a)*
+  [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]] donne
+  la restauration de l'état primordial comme « **première étape essentielle de sa
+  réalisation** » — **c'est le pivot**, et il fait de l'état primordial un **seuil**,
+  non un achèvement ; *(b)* [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]
+  met le retour à l'état primordial « en rapport » avec un symbolisme **polaire**.
+- **Apport net identifié, et il est précis** : la fiche close du 2026-07-02
+  ([[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]], `traditionnel`)
+  établit la **double nature** de Qâf — périphérie qui contient / sommet qui axe —
+  mais **ne dit rien du sens de parcours** entre les deux. C'est exactement ce que la
+  thèse ajoute : la muraille comme limite de l'état déchu, l'apex comme lieu de
+  l'état primordial recouvré. Non tranché. La fiche close ne peut pas le porter
+  (Cmd 10, on n'amende pas un verdict rendu) : il vit dans la fiche nouvelle.
+- **Appui scripturaire relevé** : **la sourate al-Aʿrāf porte les trois termes** — la
+  chute dite deux fois (*ihbiṭ* à Iblīs, VII, 13 ; *ihbiṭū* à Adam, VII, 24), la scène
+  des hauteurs (VII, 46-49), et le Pacte primordial (*mīthāq*, VII, 172, déjà au
+  dépôt). Une seule sourate tient la descente, le seuil et le pacte d'origine.
+- **Avertissement principal (Cmd 2) — « chute » est le mot le plus dangereux du
+  dossier.** Il recouvre le *hubūṭ* coranique, la chute cyclique guénonienne et
+  l'*isqāṭ* d'ar-Râzî ; et il importe le **péché originel** chrétien, que le *hubūṭ*
+  ne porte pas (Adam se repent et est élu, *ijtabāhu*).
+- **Et ce n'est pas un incident isolé — fait de méthode le plus utile du dossier** :
+  **quatre mots français** ont recouvert des réalités distinctes en trois jours —
+  « **degrés** », « **descente** », « **Balance** », « **chute** ». À chaque fois la
+  confusion venait de la **langue de travail**, jamais des sources. Aggravant :
+  Maurice Gloton signe quatre piliers du dépôt. **Règle dégagée** : tout terme
+  porteur se vérifie à la racine arabe ou au terme guénonien exact avant d'être
+  employé comme argument.
+- **Mise en garde portée contre la thèse elle-même** : une thèse qui donne sa place à
+  tout ce qu'on avait sous la main est **agréable**, ce qui n'est pas un critère. Sa
+  cohérence interne ne la valide pas. Trois de ses jointures sont `to-source` (le
+  *tafsīr* d'al-Aʿrāf, le maillon Pôle ↔ état primordial, le régime d'*al-Khāfiḍ*).
+- **Maillon le plus faible signalé** : apex ↔ Pôle est **tenu** (fiche close, texte
+  guénonien) ; Pôle ↔ état primordial n'est qu'un **rapport signalé** par Guénon, non
+  une identité posée. La thèse ne doit pas s'y appuyer comme sur un acquis.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : 436287b
+
 ## [2026-08-30] discernement | Les gens d'al-Aʿrāf sont-ils les initiés ? — fiche ouverte, aucun verdict
 
 - **Intuition de Sidy**, formulée au dépôt ce jour : « *Une intuition qui ne m'a
