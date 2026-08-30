@@ -146,14 +146,59 @@ alternativement d'un côté à l'autre** », entourant les lotus.
 *Suṣumnā*, elle, va plus loin : du *Mūlādhāra* « jusqu'au lotus à douze pétales
 situé dans le péricarpe du *Sahasrāra Padma* ».
 
+## La table synoptique des Chakra
+
+Relevée le 2026-08-30 sur cliché de l'exemplaire de Sidy (table à deux pages).
+Les cases vides le sont **dans la table elle-même** : Ājñā n'y reçoit ni couleur
+de tattva ni forme de mandala. Rien n'est comblé par conjecture.
+
+| Chakra | Position | Pétales | Lettres | Tattva | Couleur |
+|---|---|---|---|---|---|
+| *Mūlādhāra* | centre spinal au-dessous des parties génitales | **4** | va, sha, sha, sa | *Prithivî* — cohésion, excitant l'odorat | jaune |
+| *Svādhishthāna* | centre spinal au-dessus des parties génitales | **6** | ba, bha, ma, ya, ra, la | *Ap* — contraction, excitant le goût | blanc |
+| *Manipūra* | centre spinal de la région du nombril | **10** | da, dha, na, ta, tha, da, dha, na, pâ, pha | *Tejas* — expansion, chaleur, excitant la vue, les couleurs et les formes | rouge |
+| *Anāhata* | centre spinal de la région du cœur | **12** | ka, kha, ga, gha, nga, cha, chha, ja, jha, nya, ta, tha | *Vâyu* — mouvement général, excitant le toucher | gris de fumée |
+| *Vishuddha* | centre spinal de la région de la gorge | **16** | les voyelles (a, â, i, î, u, û, ri, rî, lri, lrî, e, ai, o, au, am, ah) | *Akâsha* — ouverture de l'espace, excitant l'ouïe | blanc |
+| *Ājñā* | centre de la région entre les sourcils | **2** | ha et ksha | *Manas* (facultés mentales) | — |
+
+| Chakra | Mandala | Bīja + Vāhana | Devatā + Vāhana | Shakti | Liṅga / Yoni | Autres Tattva |
+|---|---|---|---|---|---|---|
+| *Mūlādhāra* | **carré** | Lang, sur l'éléphant | Brahmâ, sur Hamsa | *Dâkinî* | Svayambhu et Traipura Trikona | *Gandha* ; l'odorat ; les pieds |
+| *Svādhishthāna* | **croissant** | Vang, sur Makara | Vishnu, sur Garuda | *Râkinî* | — | *Rasa* ; le goût ; la main |
+| *Manipūra* | **triangle** | Rang, sur un bélier | Rudra, sur un taureau | *Lâkinî* | — | *Rûpa* ; la vue ; l'anus |
+| *Anāhata* | **hexagone à six pointes** | Yang, sur une antilope | Ishâ | *Kâkinî* | Bâna et Trikona | *Sparsha* ; le toucher ; le pénis |
+| *Vishuddha* | **cercle** | Hang, sur un éléphant blanc | Sadâshiva | *Shâkinî* | — | *Shabda* ; l'ouïe ; la bouche |
+| *Ājñā* | — | Om | Shambhu | *Hâkinî* | Itara et Trikona | *Mahat*, la *Sûkshma Prakriti* appelée *Hiranyagarbha* |
+
+> **Contrôle de cohérence, vérifié** : 4 + 6 + 10 + 12 + 16 + 2 = **50**, nombre
+> des lettres de l'alphabet sanscrit. Guénon relève le même total et ajoute que
+> *Sahasrāra* les reprend toutes, chacune répétée vingt fois (50 × 20 = 1000).
+> **Sahasrāra ne figure pas dans la table** : il est au-delà de la série des six.
+
+**Note de tracé** : Avalon précise que le triangle, comme *yantra* de la
+*Shakti*, « est toujours tracé avec **la base en haut et le sommet en bas** ».
+
+## Les planches
+
+Huit planches en couleur reproduites de l'édition Ganesh & Cie (Madras).
+Consultées le 2026-08-30 : **Planche I** (« Les Chakras ou Lotus », le corps
+entier avec les canaux tissant autour de l'axe), **Planche II** (*Mūlādhāra*),
+**Planche III** (*Svādhishthāna*), **Planche IV** (*Maṇipūra*).
+
+> **Ce que la Planche I règle** : les deux canaux latéraux y sont figurés en
+> tissage sinusoïdal autour de l'axe, **se croisant à chaque lotus** — ce qui
+> confirme la lettre du texte (« ils passent alternativement de droite à gauche
+> et de gauche à droite, entourant ainsi les lotus ») et détermine le nombre
+> d'enroulements, qui n'a donc pas à être posé arbitrairement.
+
 ## Extension du texte au-delà de ce relevé
 
-Cette fiche ne couvre que le **réseau des nâdîs et les trois canaux** (chap. I
-et V de l'ouvrage). Restent non relevés, et disponibles dans la copie de travail
-du dépôt : la conscience non incarnée (chap. II), le *jīvātman* (chap. III), le
-*mantra* (chap. IV), le détail des sept centres et de leurs *tattva*,
-*bīja-mantra*, déités et *vāhana* (chap. V), la pratique du *layakrama*
-(chap. VI), les bases théoriques (chap. VII) et les huit planches (chap. VIII).
+Cette fiche couvre le **réseau des nâdîs**, les **trois canaux** et la **table
+synoptique des Chakra** (chap. I et V), plus quatre des huit planches. Restent
+non relevés, et disponibles dans la copie de travail du dépôt : la conscience
+non incarnée (chap. II), le *jīvātman* (chap. III), le *mantra* (chap. IV), la
+pratique du *layakrama* (chap. VI), les bases théoriques du yoga tantrique
+(chap. VII) et les quatre autres planches.
 
 ## Sources
 

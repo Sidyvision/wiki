@@ -10,6 +10,38 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/instrument | rendu des lotus : pétales, maṇḍalas et couleurs de tattva
+
+- **Donnée** : la table synoptique d'Avalon est versée dans le registre
+  `hindouisme-tantra` — par centre : position, `petales`, `lettres`, `tattva`,
+  `couleur_tattva`, `mandala`, `bija`, `devata`, `shakti`, `linga`,
+  `autres_tattva`. Champs laissés **vides** là où la table ne donne rien
+  (*Ājñā*), jamais comblés.
+- **Rendu** : chaque centre porte désormais une **couronne de pétales** au
+  nombre exact déclaré, un **maṇḍala** de la forme déclarée (carré, croissant,
+  triangle, hexagramme, cercle) et la **couleur de son *tattva***. Entièrement
+  piloté par la donnée : un domaine sans `petales` ni `mandala` garde le
+  marqueur ordinaire. Le triangle est tracé **base en haut, pointe en bas**,
+  comme la source le prescrit — jamais redressé. *Sahasrāra* (1000 pétales) est
+  marqué par une couronne dense plafonnée, son nombre réel restant à
+  l'info-bulle. Info-bulles enrichies de toute la ligne de table.
+- **Enroulement des canaux, désormais dérivé et non posé** : Avalon écrit que
+  les canaux « entourent les lotus » en alternant, et la Planche I les montre
+  croisant à chaque lotus. Deux hélices contra-rotatives se croisent deux fois
+  par tour : *n* centres enlacés ⇒ *n*/2 tours. Une version antérieure figeait
+  3,5 tours en invoquant l'enroulement de Kundalinī autour du *liṅga* — autre
+  chose entièrement. Le nombre tombe maintenant de la donnée.
+- **Validation mécanique indépendante (rapport brut)** : couronnes rendues
+  `2, 4, 6, 10, 12, 16, 24` — conformes à la table (24 = plafond de
+  *Sahasrāra*) ; maṇḍalas `4, 5, 7, 21, 33` points — conformes aux cinq formes
+  attendues (triangle 4, carré 5, hexagramme 7, croissant 21, cercle 33) ;
+  canaux bornés `yMax 5,17` (*Ājñā*) → `yMin −8` (*Mūlādhāra*) ; `122 objets,
+  aucune pageerror`. Générateur : `44 nœuds, 22 ancrages, 4 registres, 0
+  avertissement`. `verifier-invariants.py` → `0 erreur(s), 1 avertissement(s)`
+  (A6 préexistant).
+- **Reste ouvert** : les 11 ancrages inter-registres ne sont toujours pas
+  rendus ; quatre planches et quatre chapitres d'Avalon non relevés.
+
 ## [2026-08-30] rd/instrument | Avalon (v0.7.1) : deux défauts de rendu révélés par le test, corrigés
 
 - **Défaut 1 — canaux latéraux trop longs.** Le rendu d'hier faisait courir

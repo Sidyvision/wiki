@@ -9,6 +9,31 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage | Avalon — table synoptique des Chakra et quatre planches
+
+- **Fiche source complétée** : `avalon-serpent-power-nadis-reseau.md` reçoit la
+  **table synoptique des Chakra** (deux pages, relevée sur cliché de
+  l'exemplaire de Sidy) et le relevé de quatre des huit planches.
+- **Contenu de la table**, par centre : position spinale, nombre de pétales,
+  lettres portées, *tattva* et sa qualité, couleur du *tattva*, forme du
+  *maṇḍala*, *bīja* et son *vāhana*, *devatā* et son *vāhana*, *shakti* du
+  *dhātu*, *liṅga*/*yoni*, autres *tattva* s'y dissolvant.
+- **Contrôle de cohérence indépendant, vérifié** : 4 + 6 + 10 + 12 + 16 + 2 =
+  **50**, nombre des lettres de l'alphabet sanscrit — total que Guénon relève
+  de son côté, et qui recoupe donc deux sources. *Sahasrāra* ne figure pas dans
+  la table : il est au-delà de la série des six, et reprend les 50 lettres
+  répétées vingt fois.
+- **Cases vides conservées telles quelles** : la table ne donne pour *Ājñā* ni
+  couleur de *tattva* ni forme de *maṇḍala*. Rien n'est comblé par conjecture
+  (Cmd 5).
+- **Note de tracé relevée** : le triangle, *yantra* de la *Shakti*, est
+  « toujours tracé avec la base en haut et le sommet en bas ».
+- **Ce que la Planche I règle** : les deux canaux latéraux y sont figurés en
+  tissage sinusoïdal autour de l'axe, **se croisant à chaque lotus** —
+  confirmant la lettre du texte et déterminant le nombre d'enroulements, qui
+  n'a donc plus à être posé arbitrairement.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+
 ## [2026-08-30] archivage | Arthur Avalon, *La Puissance du Serpent* — le réseau des nâdîs
 
 - **Fiche source créée** : `doctrinal/sources/avalon-serpent-power-nadis-reseau.md`

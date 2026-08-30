@@ -931,7 +931,15 @@ var posNotionnels = {};
         if (!cn || typeof cn !== "object") return;      // ancienne forme (chaîne) : ignorée
         if (cn.cote !== "droite" && cn.cote !== "gauche") return;  // le central est déjà l'axe
         var sens = (cn.cote === "droite") ? 1 : -1;
-        var TOURS = 3.5;   // Kundalinî est enroulée « trois fois et demie » (Guénon)
+        // Nombre de tours DÉRIVÉ du nombre de centres enlacés, non posé à la
+        // main : Avalon écrit que les deux canaux « passent alternativement de
+        // droite à gauche et de gauche à droite, ENTOURANT AINSI LES LOTUS »,
+        // et la Planche I les montre croisant à chaque lotus. Deux hélices
+        // contra-rotatives se croisent deux fois par tour : n centres ⇒ n/2
+        // tours. Une version antérieure figeait 3,5 tours en invoquant
+        // l'enroulement de Kundalinî autour du liṅga — autre chose entièrement.
+        var nEnlaces = Math.abs((nFin !== null ? nFin : nbNiveaux) - (nDeb !== null ? nDeb : 1)) + 1;
+        var TOURS = nEnlaces / 2;
         var PAS = 44, pts = [];
         for (var i = 0; i <= PAS; i++){
           var t = i / PAS, ang = t * TOURS * Math.PI * 2 * sens;
@@ -955,10 +963,65 @@ var posNotionnels = {};
       });
     }
 
+    // -- LOTUS : pétales, mandala et couleur de tattva -----------------------
+    //   Versés le 2026-08-30 depuis la table synoptique d'Avalon. Entièrement
+    //   pilotés par la donnée : un domaine qui ne déclare ni `petales` ni
+    //   `mandala` garde le marqueur sphérique ordinaire. Les champs laissés
+    //   vides dans la table (Ājñā n'a ni couleur ni mandala) le restent ici —
+    //   rien n'est comblé par conjecture.
+    var TEINTE_TATTVA = {
+      "jaune": 0xd8c15a, "blanc": 0xe8e8ea, "rouge": 0xc4563f,
+      "gris de fumée": 0x8d9199
+    };
+    // Formes de mandala (yantra du bhûta correspondant), tracées en fil.
+    var formeMandala = function(nom, r){
+      var pts = [], i;
+      if (nom === "carre"){
+        for (i = 0; i <= 4; i++) pts.push([Math.cos(Math.PI/4 + i*Math.PI/2)*r, Math.sin(Math.PI/4 + i*Math.PI/2)*r]);
+      } else if (nom === "triangle"){
+        // Le triangle de la Shakti est tracé BASE EN HAUT, POINTE EN BAS
+        // (Avalon, note : « toujours tracé avec la base en haut et le sommet
+        // en bas »). Rendu tel quel, jamais redressé.
+        for (i = 0; i <= 3; i++) pts.push([Math.cos(Math.PI/2 + Math.PI + i*2*Math.PI/3)*r, Math.sin(Math.PI/2 + Math.PI + i*2*Math.PI/3)*r]);
+      } else if (nom === "hexagramme"){
+        for (i = 0; i <= 6; i++) pts.push([Math.cos(i*Math.PI/3)*r, Math.sin(i*Math.PI/3)*r]);
+      } else if (nom === "cercle"){
+        for (i = 0; i <= 32; i++) pts.push([Math.cos(i*2*Math.PI/32)*r, Math.sin(i*2*Math.PI/32)*r]);
+      } else if (nom === "croissant"){
+        for (i = 0; i <= 20; i++){ var a = -Math.PI/2.2 + i*(Math.PI*1.35/20); pts.push([Math.cos(a)*r, Math.sin(a)*r]); }
+      } else return null;
+      return pts;
+    };
+
     // -- Les centres du registre --
     doms.forEach(function(d){
       var col = d.colonne || "milieu";
       var p = new THREE.Vector3(xDeCol(col), yDuNiveau(d._niv), zL);
+      var teinteC = TEINTE_TATTVA[d.couleur_tattva] !== undefined
+                  ? TEINTE_TATTVA[d.couleur_tattva] : 0xcfe4d8;
+      // Couronne de pétales : autant que la table en déclare. Sahasrāra (1000)
+      // n'est pas dessiné pétale à pétale — on le marque par une couronne dense
+      // conventionnelle, et l'info-bulle dit le nombre réel.
+      if (d.petales){
+        var nP = (d.petales > 24) ? 24 : d.petales;
+        var rP = .42, ptsP = [];
+        for (var k = 0; k < nP; k++){
+          var a = k * 2 * Math.PI / nP;
+          ptsP.push(new THREE.Vector3(p.x + Math.cos(a)*rP, p.y + Math.sin(a)*rP*.6, zL));
+          ptsP.push(new THREE.Vector3(p.x, p.y, zL));
+        }
+        var petales = new THREE.LineSegments(
+          new THREE.BufferGeometry().setFromPoints(ptsP),
+          new THREE.LineBasicMaterial({color: teinteC, transparent: true, opacity: .55}));
+        gReg.add(petales);
+      }
+      if (d.mandala){
+        var f = formeMandala(d.mandala, .26);
+        if (f){
+          var ptsM = f.map(function(c){ return new THREE.Vector3(p.x + c[0], p.y + c[1]*.75, zL); });
+          gReg.add(ligne(ptsM, teinteC, .8, false));
+        }
+      }
       var sph = marqueur(.3, "#cfe4d8", false);
       sph.position.copy(p);
       sph.userData = {
@@ -966,6 +1029,17 @@ var posNotionnels = {};
         deg: reg.label + " — rang " + (d.rang || "?") + ", " + col
            + " (niveau " + d._niv + "/" + nbNiveaux + ")"
            + (d.nom_divin ? " · Nom divin : " + d.nom_divin : "")
+           + (d.petales ? " · " + d.petales + " pétales" : "")
+           + (d.lettres ? " (" + d.lettres + ")" : "")
+           + (d.tattva ? " · Tattva : " + d.tattva : "")
+           + (d.couleur_tattva ? " · couleur : " + d.couleur_tattva : "")
+           + (d.mandala ? " · mandala : " + d.mandala : "")
+           + (d.bija ? " · bīja : " + d.bija : "")
+           + (d.devata ? " · devatā : " + d.devata : "")
+           + (d.shakti ? " · shakti : " + d.shakti : "")
+           + (d.linga ? " · liṅga : " + d.linga : "")
+           + (d.position ? " · position : " + d.position : "")
+           + (d.autres_tattva ? " · " + d.autres_tattva : "")
            + (d.note ? " · " + d.note : "")
            + " — aucun degré akbarien attribué : la tradition ne le donne pas",
         src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"

@@ -667,14 +667,62 @@ registres:
     # hauteur du registre.
     canal_debut: hindouisme/muladhara
     canal_fin: hindouisme/ajna
+    # Détail des centres versé le 2026-08-30 depuis la table synoptique d'Avalon
+    # (La Puissance du Serpent, tableau des Chakra ; clichés déposés par Sidy).
+    # Le total des pétales des SIX premiers fait 50 — nombre des lettres de
+    # l'alphabet sanscrit, comme Guénon le relève. Sahasrāra les reprend toutes,
+    # chacune répétée vingt fois (50 × 20 = 1000) : il ne figure donc pas dans
+    # la table, étant au-delà de la série. Champs laissés VIDES là où la table
+    # ne donne rien (Ājñā : ni couleur de tattva ni forme de mandala) — jamais
+    # comblés par conjecture.
     domaines:
-      - {id: hindouisme/muladhara, label: "Mūlādhāra — centre-racine", rang: 1, colonne: milieu}
-      - {id: hindouisme/swadhishthana, label: "Swādhishthāna", rang: 2, colonne: milieu}
-      - {id: hindouisme/manipura, label: "Manipūra", rang: 3, colonne: milieu}
-      - {id: hindouisme/anahata, label: "Anāhata — région du cœur", rang: 4, colonne: milieu}
-      - {id: hindouisme/vishuddha, label: "Vishuddha — région de la gorge", rang: 5, colonne: milieu}
-      - {id: hindouisme/ajna, label: "Ājnā — le troisième œil", rang: 6, colonne: milieu}
-      - {id: hindouisme/sahasrara, label: "Sahasrāra — le lotus à mille pétales", rang: 7, colonne: milieu}
+      - {id: hindouisme/muladhara, label: "Mūlādhāra — centre-racine", rang: 1, colonne: milieu,
+         position: "centre spinal de la région au-dessous des parties génitales",
+         petales: 4, lettres: "va, sha, sha, sa",
+         tattva: "Prithivî — cohésion, excitant le sens de l'odorat", couleur_tattva: "jaune",
+         mandala: carre, bija: "Lang, sur l'éléphant", devata: "Brahmâ, sur Hamsa",
+         shakti: "Dâkinî", linga: "Svayambhu et Traipura Trikona",
+         autres_tattva: "Gandha Tattva ; l'odorat (organe de sensation) ; les pieds (organe d'action)"}
+      - {id: hindouisme/swadhishthana, label: "Swādhishthāna", rang: 2, colonne: milieu,
+         position: "centre spinal de la région au-dessus des parties génitales",
+         petales: 6, lettres: "ba, bha, ma, ya, ra, la",
+         tattva: "Ap — contraction, excitant le sens du goût", couleur_tattva: "blanc",
+         mandala: croissant, bija: "Vang, sur Makara", devata: "Vishnu, sur Garuda",
+         shakti: "Râkinî", linga: "",
+         autres_tattva: "Rasa Tattva ; le goût (organe de sensation) ; la main (organe d'action)"}
+      - {id: hindouisme/manipura, label: "Manipūra", rang: 3, colonne: milieu,
+         position: "centre spinal de la région du nombril",
+         petales: 10, lettres: "da, dha, na, ta, tha, da, dha, na, pâ, pha",
+         tattva: "Tejas — expansion, produisant la chaleur, excitant le sens de la vue, des couleurs et des formes",
+         couleur_tattva: "rouge",
+         mandala: triangle, bija: "Rang, sur un bélier", devata: "Rudra, sur un taureau",
+         shakti: "Lâkinî", linga: "",
+         autres_tattva: "Rûpa Tattva ; la vue (organe de sensation) ; l'anus (organe d'action)"}
+      - {id: hindouisme/anahata, label: "Anāhata — région du cœur", rang: 4, colonne: milieu,
+         position: "centre spinal de la région du cœur",
+         petales: 12, lettres: "ka, kha, ga, gha, nga, cha, chha, ja, jha, nya, ta, tha",
+         tattva: "Vâyu — mouvement général, excitant le sens du toucher", couleur_tattva: "gris de fumée",
+         mandala: hexagramme, bija: "Yang, sur une antilope", devata: "Ishâ",
+         shakti: "Kâkinî", linga: "Bâna et Trikona",
+         autres_tattva: "Sparsha Tattva ; le toucher (organe de sensation) ; le pénis (organe d'action)"}
+      - {id: hindouisme/vishuddha, label: "Vishuddha — région de la gorge", rang: 5, colonne: milieu,
+         position: "centre spinal de la région de la gorge",
+         petales: 16, lettres: "les voyelles a, â, i, î, u, û, ri, rî, lri, lrî, e, ai, o, au, am, ah",
+         tattva: "Akâsha — ouverture de l'espace, excitant le sens de l'ouïe", couleur_tattva: "blanc",
+         mandala: cercle, bija: "Hang, sur un éléphant blanc", devata: "Sadâshiva",
+         shakti: "Shâkinî", linga: "",
+         autres_tattva: "Shabda Tattva ; l'ouïe (organe de sensation) ; la bouche (organe d'action)"}
+      - {id: hindouisme/ajna, label: "Ājnā — le troisième œil", rang: 6, colonne: milieu,
+         position: "centre de la région entre les sourcils",
+         petales: 2, lettres: "ha et ksha",
+         tattva: "Manas (facultés mentales)", couleur_tattva: "",
+         mandala: "", bija: "Om", devata: "Shambhu",
+         shakti: "Hâkinî", linga: "Itara et Trikona",
+         autres_tattva: "Mahat, la Sûkshma Prakriti appelée Hiranyagarbha (Shatchakranirûpana, v. 52)"}
+      - {id: hindouisme/sahasrara, label: "Sahasrāra — le lotus à mille pétales", rang: 7, colonne: milieu,
+         position: "au sommet de la tête, autour du Brahma-randhra",
+         petales: 1000,
+         note: "Hors de la table synoptique d'Avalon : au-delà de la série des six. Guénon : « n'est pas compté au nombre des chakras », se rapportant « à un état qui est au-delà des limites de l'individualité ». Reprend les 50 lettres, chacune répétée vingt fois."}
 
   # --- Vêdânta : les quatre états (pâdas) d'Âtmâ ------------------------------
   # Source primaire : doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-
