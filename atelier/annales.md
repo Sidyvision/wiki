@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/outillage | correction | [A6] raffiné plutôt que supprimé (verdict Sidy)
+
+- **Verdict de Sidy** : raffiner le contrôle [A6] plutôt que l'accepter tel
+  quel (faux positif signalé deux jours de suite sur l'entrée
+  `[2026-08-20] rd | Lecture dynamique du manifeste par le prototype +
+  instruction branche Kabbale`, deux livrables (a)/(b) chacun son Commit).
+- **`verifier-invariants.py`** : le contrôle A6 tolère désormais une entrée à
+  plusieurs champs `- **Commit** :` **à condition que chacun soit rattaché à
+  son propre sous-item explicite** (`**(a) Titre —**` / `**(b) Titre —**`) ;
+  sans ce rattachement, l'avertissement reste levé normalement.
+- **Test** : cas synthétique (entrée légitime (a)/(b) + entrée orpheline sans
+  sous-item) confirmant que le vrai cas d'orphelinage reste attrapé.
+- **Résultat** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s)` — première passe sans avertissement depuis
+  l'ouverture du contrôle A6.
+- **Commit** : 30bba0f
+
 ## [2026-08-30] rd/bibliotheque | signalement | Lien vers la table de correspondance cakra/laṭāʾif (doctrinal/discernement)
 
 Ajout d'un lien signalé (sens atelier/rd → doctrinal, autorisé §VI) depuis
