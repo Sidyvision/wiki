@@ -10,6 +10,51 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/instrument | Report des six trouvailles au prototype — sept stations de navigation
+
+- **Commande exécutée** (brief `meta/briefs/2026-08-30_passation-instrument-vers-claude-ai.md`,
+  §2) : reporter les trouvailles au prototype « de façon digeste,
+  navigable/pratique, car il s'agit d'un instrument de *navigation* (*sulūk*,
+  contemplation) ».
+- **Parti retenu : des stations, non un diagramme enrichi.** Un instrument de
+  parcours ne se lit pas, il se traverse. Sept stations (0-6), une seule active à
+  la fois, une seule chose dite par station — et, dans la même fenêtre, la
+  **garde** : ce que la station ne prouve pas. Tout est **touchable** (Sidy
+  travaille sur iPad, le clavier peut manquer) ; les touches 0-6 et les flèches
+  ne sont qu'un doublon. Stations : 1 ampleur/exaltation · 2 le saut de dimension
+  (plan → volume) · 3 l'incommensurabilité · 4 le centre n'est pas fixe ·
+  5 l'état humain pour référence · 6 la surface des Eaux.
+- **Deux corrections imposées au rendu existant.** *(a)* Le halo du sommet était
+  un cône se rétrécissant vers le haut — donc une convergence, donc une figure
+  disant « on s'approche du terme », ce que la contrainte 2 du chantier interdit ;
+  le §2 l'avait relevé sans que le rendu en tire la conséquence. Remplacé par une
+  bande de section constante. *(b)* Son étiquette passe de « Hāhūt (1–10) — degrés
+  non manifestés » à « 1–10 · Le Degré divin — pré-lettrés », sur la collation de
+  la p. 35 de Gloton faite le soir même (voir `doctrinal/annales.md`) : « Hāhūt »
+  était une attribution du Gem, jamais une source, et « non manifestés » n'est pas
+  dit par la source, qui numérote au contraire ces dix degrés.
+- **Une erreur commise en chemin, consignée pour elle-même** (chantier §9.2) : la
+  station 3 avait d'abord été tracée dans la scène 3D, avec des marques
+  rigoureusement égales **en coordonnées de monde** — et le rendu les a montrées
+  **convergeant en entonnoir** vers le bas de l'axe. Une projection perspective
+  est, par définition, une mesure de distance à un point de vue : le rendu peut
+  donc réintroduire par la caméra la commensurabilité que la géométrie avait
+  exclue. Marques sorties de la scène et tracées en pixels — l'égalité doit être
+  vraie **à l'écran**, où le regard la vérifie.
+- **Ce qui n'a pas été fait, délibérément** : aucune donnée modifiée
+  (`instrument-donnees.yaml` inchangé, flux à sens unique dépôt → manifeste →
+  interface) ; aucun discernement tranché — deux 🔍 sont portés à l'écran (le
+  degré 37 comme état humain, joint jamais instruit, Cmd 3 ; le rapport entre la
+  discontinuité *unique* de la station 6 et celle, *égale depuis chaque degré*,
+  de la station 3) ; l'Option A du chantier reste bloquée, c'est l'Option C —
+  directement sourcée — qui est en station 3.
+- **Vérification mécanique indépendante** (§VIII.2, jamais sur auto-rapport) :
+  rendu exécuté au navigateur (Chromium, viewport iPad 1024×1366), les sept
+  stations affichées et relues **sur capture**, déplacement du plan de base
+  contrôlé dans les deux sens, aucune erreur JavaScript.
+  `python3 verifier-invariants.py --racine /root/wiki` → `0 erreur(s), 0 avertissement(s).`
+- **Commit** : d20de1c
+
 ## [2026-08-30] rd/instrument | Chantier « Figurer l'incommensurable » — la figure est trouvée, et elle est dimensionnelle
 
 - **Commande** : Sidy, 2026-08-30 — se concentrer sur l'Instrument sans
