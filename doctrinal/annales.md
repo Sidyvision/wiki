@@ -9,6 +9,20 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] discernement | VERDICT SIDY (partiel) — sentiers séphirothiques / nâdîs, lecture kumiko approuvée
+
+- **Verdict** : la lecture par complémentarité (*kumiko*) est approuvée —
+  sentiers séphirothiques et *nâdîs* sont deux projections complémentaires
+  d'un même réseau, non une simple équivalence (*hozo*). Point (P1) de
+  [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]].
+- **Non tranché** : (P2), de quel cœur le réseau rayonne (*Anāhata* seul, le
+  lotus à huit pétales surnuméraire, ou la lecture par positions de
+  l'observateur) — la fiche reste ouverte sur ce point.
+- **Répercuté** : `doctrinal/index.md`.
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s)`.
+- **Commit** : eff8f16
+
 ## [2026-08-30] source | Levée de réserve — cellule Ājñā d'Avalon (verdict Sidy)
 
 - **Verdict de Sidy** : combler la cellule `mandala` vide d'Ājñā d'après la
