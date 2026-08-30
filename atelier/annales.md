@@ -10,6 +10,43 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photographiés, et une quatrième description de la discontinuité signalée au chantier
+
+- **Catalogue de la bibliothèque** — traçabilité des pages photographiées ajoutée
+  pour deux ouvrages déjà recensés : **Gloton**, *Une approche du Coran par la
+  grammaire et le lexique* (p. 412, racine ر ف ع ; p. 857, table des sourates) et
+  **al-Rāzī**, *Traité sur les Noms Divins* (ouverture du chapitre XVIII). Pour ce
+  dernier, réserve inscrite au catalogue : le cliché ne porte ni page de titre ni
+  pagination — **traducteur, éditeur et numéro de page restent à vérifier**. Prochain
+  cliché utile noté : le chapitre voisin *al-Muʿizz* / *al-Mudhill*.
+- **La p. 857 est qualifiée pour ce qu'elle est** : pièce **documentaire et
+  d'orientation** (§VII.1) — elle dit où chercher, elle ne lève aucun `to-source`.
+- **Chantier « Figurer l'incommensurable », §9.5 — signalement, aucune donnée
+  versée, aucun pixel rendu.** Le chantier portait trois descriptions de la
+  discontinuité (égale depuis chaque degré / unique / dimensionnelle). Coran LVI, 3
+  — *khāfiḍatun rāfiʿa*, dit de *al-Wāqiʿa* — en ajoute une **quatrième**, d'une
+  autre nature : un seul et même événement dit **simultanément** abaissant et
+  élevant. Or les stations 3 et 6 figurent l'une et l'autre une discontinuité **sans
+  orientation**.
+- **Un acquis déjà rendu s'en trouve appuyé** : la station 4 (« le centre n'est pas
+  fixe ») reposait sur la relativité guénonienne des guṇas à l'état pris pour base ;
+  Rāzī dit de son côté que les deux Noms déterminent l'élévation ou la chute « **en
+  degrés** » — un degré n'est pas haut ou bas en soi. Même chose de forme, deux
+  versants. Joint *kumiko* pressenti, état *kari-kumi*, **verdict à Sidy**.
+- **Ce qui bloque, dit net au chantier** : le « il abaisse » du Calife est-il
+  l'*isqāṭ*-châtiment de Rāzī ou la « réalisation descendante » de Vâlsan ? Deux
+  descentes que le français confond, l'une déchéance et l'autre perfection. Figurer
+  un axe à deux sens avant de le savoir serait l'erreur même que ce chantier
+  documente à répétition.
+- **Rapprochement séduisant écarté** : la lettre *qāf* (degré 17, le Trône qui
+  enveloppe) et *Jabal Qāf* (la montagne qui entoure, = Meru chez Guénon) portent le
+  même nom et se décrivent pareillement. Aucun texte ne pose l'identité —
+  coïncidence nominale, refusée comme l'a été la gématrie du §5 bis.
+- **Instruction doctrinale correspondante** : `doctrinal/annales.md`, même date.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : bb85c09
+
 ## [2026-08-30] rd/instrument | Report des six trouvailles au prototype — sept stations de navigation
 
 - **Commande exécutée** (brief `meta/briefs/2026-08-30_passation-instrument-vers-claude-ai.md`,

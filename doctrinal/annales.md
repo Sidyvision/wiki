@@ -9,6 +9,70 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage + discernement | Le couple *khafḍ* / *rafʿ* — al-Rāzī ch. XVIII, Gloton pp. 412 et 857, Sourate al-Aʿrāf
+
+- **Pièces déposées par Sidy** (soir), avec consigne d'investigation « à la lumière
+  des pièces jointes, de l'instrument et la notion de ق / Meru (fiche discernement)
+  et de l'œuvre de Guénon ». **Consultation prioritaire du catalogue de la
+  bibliothèque physique faite d'abord** (§VII.1) : les deux ouvrages y sont
+  recensés — consultation humaine, sans wikilink (§VI).
+- **Deux fiches `source` créées** :
+  [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]] (chapitre XVIII,
+  *al-Khāfiḍ* / *al-Rāfiʿ* : les deux Noms « déterminent l'élévation (*iʿlāʾ*) ou la
+  chute (*isqāṭ*) **en degrés** ») et
+  [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] (p. 412, racine
+  ر ف ع, **29 occurrences** ; p. 857, table des sourates). `to-source` porté sur
+  l'**apparat éditorial** de Rāzī — traducteur, éditeur et pagination ne sont pas
+  lisibles sur le cliché — et non sur le texte transcrit.
+- **La p. 857 est traitée pour ce qu'elle est** : pièce **documentaire et
+  d'orientation** au sens du §VII.1 — elle sert à savoir où chercher, elle ne lève
+  aucun `to-source`. Elle a néanmoins permis une **vérification mécanique croisée**
+  des renvois de la p. 412 (s 11 v 99 / s 55 v 76 / s 24 v 36-37 contre le nombre de
+  versets de chaque sourate) : tous cohérents ; et le compte de 206 versets d'al-Aʿrāf
+  concorde avec l'en-tête du clipping.
+- **Fiche de discernement OUVERTE, aucun verdict rendu** (Cmd 12) :
+  [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]]. Le
+  dépôt avait établi le 2026-07-14 que *Rafīʿ al-Darajāt* nomme la fonction
+  traversante du degré 38 — **mais jamais son envers**. Rāzī traite les deux Noms
+  en un seul chapitre ; et **deux sources akbariennes déjà présentes au dépôt,
+  jamais rapprochées**, attachent ce couple à la **fonction polaire et califale** :
+  [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]] (Noms des Malāmatiyya,
+  « placés sous la direction du *Quṭb* ») et [[doctrinal/sources/sept-etendards-califat]]
+  p. 116 (le Calife « élève et abaisse »). Le *Quṭb* étant déjà rattaché à Meru = Qâf
+  et à l'apex par [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]],
+  la boucle se referme — **sur des textes que le dépôt portait déjà**.
+- **Trois avertissements de forme, portés à la fiche** :
+  1. **Équivoque sur « descente »** — l'*isqāṭ*-châtiment de Rāzī n'est **pas** la
+     « réalisation descendante » de Vâlsan (le *walī* renvoyé vers la création).
+     Un seul mot français, deux régimes dont l'un est une déchéance et l'autre une
+     perfection (Cmd 2). **C'est le point bloquant.**
+  2. ***Darajāt*, un mot pour deux référents** — degrés de rang et de réalisation
+     en 40:15 et 58:11 ; *marātib* cosmologiques au chapitre 198. L'univocité
+     lexicale n'est pas l'identité de référent.
+  3. **Rejet explicite du rapprochement ق** — la lettre *qāf* est le degré 17, le
+     Trône « qui enveloppe le Cosmos entier » ; *Jabal Qāf* est la montagne qui
+     entoure le monde, que Guénon identifie explicitement à Meru. La ressemblance
+     est **nominale** : aucun texte ne pose l'identité. Même figure d'erreur que la
+     gématrie sans assise textuelle déjà cartographiée dans
+     [[doctrinal/symboles/merkavah-muraqaba]], **refusée pour la même raison**.
+     Seule la convergence *fonctionnelle* reste instructible, et à condition de
+     trouver un texte qui la pose.
+- **Appui grammatical inattendu** : Gloton (p. 412, entrée 0578) note que
+  l'apposition de deux termes de même racine **sans conjonction** est la
+  construction coranique caractéristique **des couples de Noms divins**. Or Coran
+  LVI, 3 — *khāfiḍatun rāfiʿa* — est exactement de cette forme. Le couple est donc
+  marqué comme couple **par la grammaire elle-même**.
+- **Sourate al-Aʿrāf** : la Balance (7:8-9, lourd/léger) dit la même opération sous
+  un autre lexique ; et l'*aʿrāf* lui-même (7:46-48) offre une **troisième position**
+  que le couple binaire n'a pas — ni élevés ni abaissés, sur la hauteur, et dont
+  l'acte propre est de **reconnaître**. ⚠️ Signalé sans être rapproché du *Barzakh
+  supérieur* (degrés 19-20) : deux barzakhs, deux plans, aucune identité établie
+  (Cmd 3). Traductions données comme **traductions de travail**, `to-source`, jamais
+  attribuées à une édition.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode (Cmd 15) : OK.
+- **Commit** : bb85c09
+
 ## [2026-08-30] archivage | Collation de la p. 35 de Gloton — les degrés 1-10 du *Nafas al-Raḥmān* sont établis
 
 - **La dernière pièce ouverte du brief de passation est close.** Le brief
