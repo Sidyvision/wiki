@@ -9,6 +9,75 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage + correction | Guénon, *L'Homme et son devenir selon le Vêdânta*, ch. XXI — l'artère coronale et le « Rayon solaire »
+
+- **Fiche source créée** :
+  `doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire.md`
+  (`status: traditionnel`), sur **texte primaire** déposé par Sidy. Guénon y
+  commente et cite les *Upanishads* et les *Brahma-Sūtras* : exposition de
+  doctrine reçue, non construction personnelle.
+- **Les 101 nâdîs** sortent du centre vital (le cœur) « **comme les rais d'une
+  roue sortent de son moyeu** », et **une seule** passe par la couronne de la
+  tête : *suṣumnā*. L'axe vertical est donc **un rai parmi cent un**. Chiffre
+  upanishadique (*Kaṭha* II.6.16), **consigné à côté** des 72 000 / 300 000 /
+  350 000 tantriques d'Avalon, jamais fondu avec eux — deux corpus distincts
+  (Art. 3 sashimono, jamais de joint forcé).
+- **Recoupement indépendant vérifié** : Guénon figure le siège du *jîvâtmā*
+  comme un **lotus à huit pétales** ; Avalon localise le *Hamsa*/*Jîva* dans le
+  **lotus à huit pétales au-dessous d'Anāhata**. Une source `traditionnel` et
+  une source `academique` donnent **le même centre**. Le centre surnuméraire
+  relevé hier reçoit un appui d'autorité supérieure — **sans cesser d'être
+  surnuméraire** : Guénon ne l'inscrit pas davantage dans la série des sept.
+- **Le ternaire des canaux reçoit un troisième registre : le temps.** *piṅgalā*
+  = œil droit de *Vaishwânara* = Soleil = **futur** ; *iḍā* = œil gauche = Lune
+  = **passé** ; *suṣumnā* = **œil frontal de Shiva** = **présent**, « instant
+  insaisissable, comparable au point géométrique sans dimensions ».
+- **La chaîne devient entièrement guénonienne.** Le dépôt tenait colonnes ↔ yeux
+  ↔ luminaires du côté kabbalistique (*Hokmah*/*Binah* ↔ œil droit/gauche) ; le
+  ch. XXI donne l'autre moitié — ces deux yeux sont ceux de *Vaishwânara*, « en
+  relation avec les deux *nâdîs* dont il s'agit ». **Plus aucun maillon rapporté
+  du dehors.** [[doctrinal/symboles/polarite-laterale-de-l-axe]] enrichi en
+  conséquence (`sources_count` 2 → 3).
+- **Convergence, non addition** : que *suṣumnā* soit « principe igné » et « œil
+  frontal de Shiva » n'est pas deux données — le regard du troisième œil « réduit
+  tout en cendres ». Même qualité, nommée deux fois.
+- **Joint *hozo* posé par l'autorité elle-même** : « Ce symbolisme est
+  **identique** à celui du *Janus Bifrons* des Latins ». Le mot est de Guénon.
+  Joint **qualifié et consigné, aucun ancrage inscrit** — le dépôt ne porte pas
+  de fiche propre sur *Janus*, et le verdict revient à Sidy (Cmd 12).
+- **Le Rayon solaire prolonge l'axe au-delà de l'individu**, et note 11 : « le
+  rayon qui est en connexion avec l'artère coronale est appelé **aussi**
+  *sushumnâ* ». Le canal individuel et le rayon universel **portent le même
+  nom** : la thèse de l'axe unique
+  ([[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]])
+  est ici attestée par la **nomenclature du texte**, non par déduction.
+  Communication à double sens, « soit virtuelle, soit effective ».
+- **⚠️ Réserve doctrinale relevée**, qui vise toute figuration verticale : les
+  états conditionnés « n'ont **aucune commune mesure** » avec l'Inconditionné,
+  « leur obtention ne rapproche aucunement l'être de son but dernier », et la
+  Délivrance implique une **discontinuité** qui « ne sera ni plus ni moins
+  profonde » **quel que soit le degré atteint**. Une échelle de degrés ne se lit
+  donc jamais comme une proximité croissante.
+- **🔍 Piste ouverte, non instruite** : Guénon signale lui-même (note 3) que la
+  couronne de la tête « joue également un rôle important **dans les traditions
+  islamiques** concernant les conditions posthumes ». Il ne nomme aucun texte :
+  la piste est ouverte, l'ancrage ne l'est pas (Cmd 3). De même le rapport des
+  *nâdîs* à l'« alchimie humaine » (*athanor*), donné comme « très comparable »
+  et non identique — **kari-kumi** au mieux.
+- **⚠️ CORRECTION D'UNE FICHE DU DÉPÔT** :
+  [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]], établie sur
+  paraphrase d'index et non sur le texte, attribuait au **ch. XXI** « le rejet ou
+  la résorption finale » et plaçait les *nâdîs* au **ch. XIX**. Le texte primaire
+  montre que le ch. XXI est celui de l'artère coronale, et que c'est là que les
+  *nâdîs* sont exposés. **Rien n'est supprimé** (Cmd 10) : les sections XIX-XXI
+  sont conservées et marquées **NON VÉRIFIÉES**, à collationner sur l'exemplaire
+  physique. Pour l'artère coronale, les *nâdîs* et le Rayon solaire, **la fiche
+  du ch. XXI fait foi**, étant seule établie sur le texte.
+- **Répercussion à l'index** : les deux fiches y sont portées, la seconde avec
+  son signalement.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+- **Commit** : 2f529f0
+
 ## [2026-08-30] archivage | Avalon — les quatre dernières planches et les centres surnuméraires
 
 - **Les huit planches sont relevées.** Sidy a déposé les quatre dernières

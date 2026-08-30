@@ -10,6 +10,98 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/instrument | les ONZE ANCRAGES inter-registres rendus, et deux faits que le tracé a révélés
+
+**Le manque comblé.** Les onze ancrages verdictés étaient au manifeste depuis le
+2026-08-29 **sans être tracés** : la donnée portait onze joints que l'image ne
+montrait pas. Ils sont rendus (§8 de
+`2026-08-30_reseau-subtil-unification-axes-deux-echelles.md`).
+
+| Joints | Registres | État | Rendu |
+|---|---|---|---|
+| 4 | *tasawwuf* (bandes de Présences) ↔ *vedanta* | établi | trait plein, marqueur plein |
+| 5 | *qabbalah* ↔ *hindouisme-tantra* | établi | trait plein, marqueur plein |
+| 2 | *qabbalah* ↔ *hindouisme-tantra* (Yesod, Malkhut) | **suggéré** | **pointillé, marqueur creux, 🔍** |
+
+Établi et suggéré **jamais fondus** (règle des manifestes §3) : les deux joints
+suggérés portent la réserve d'interversion **posée par Guénon lui-même**.
+Tracés en coordonnées monde (les deux extrémités vivent dans des groupes de
+profondeur différente), reconstruits au basculement, chacun porteur de sa note
+et de sa fiche source.
+
+**Deux faits que le tracé a révélés, et qu'aucune relecture n'avait relevés :**
+
+1. **COÏNCIDENCE.** En mode axe unifié, **cinq des sept** joints *qabbalah* ↔
+   *hindouisme-tantra* deviennent des **segments nuls** : les deux registres
+   comptent le même nombre de niveaux et sont ancrés niveau pour niveau, donc
+   leurs nœuds tombent au même point de l'axe unique. Ce n'est pas un défaut à
+   corriger — **le segment nul EST le constat de commensurabilité**. Tenu
+   visible par un marqueur, et nommé dans l'info-bulle.
+2. **INTERVERSION.** Les deux joints suggérés **se croisent** : leurs milieux
+   tombaient exactement au même point. C'est la figure géométrique de
+   l'interversion que Guénon signale sans la trancher. Les marqueurs glissent à
+   35 % et 65 % de leur ligne propre, pour que le croisement se voie et que les
+   deux joints restent consultables séparément.
+
+**⚠️ Erreur de ma part, corrigée avant commit.** J'avais qualifié les ancrages
+sur leur **longueur totale**, et écrit qu'un ancrage resté oblique en mode
+unifié signalerait un décalage-**donnée**. Faux deux fois : (a) la longueur
+mêlait la hauteur (le niveau, qui signifie) et le report latéral (la colonne,
+qui signifie autre chose) — Hokhma↔Ājñā ressortait « oblique » alors que ses
+extrémités sont à la **même hauteur** ; (b) surtout, la hauteur d'un domaine de
+registre parallèle est une **répartition proportionnelle** (présentation),
+tandis qu'une bande de Présence est posée à ses **degrés déclarés** (donnée) :
+l'obliquité est un **artefact de convention de hauteur**. En faire un indice de
+décalage-donnée aurait installé au cœur du rendu **la confusion même que la spec
+interdit**. La qualification se lit désormais sur **Y** (le niveau) et **X** (la
+colonne), **jamais sur Z** — donc identique dans les deux modes, ce qui est la
+vérité : la correspondance de niveau ne dépend pas de l'angle de vue.
+
+**Le canal MÉDIAN devient consultable.** *suṣumnā* n'était atteignable nulle
+part : elle n'est pas dessinée à part, puisqu'elle **est** l'axe. Un marqueur
+discret la rend consultable sans ajouter une seconde ligne qui mentirait sur la
+géométrie. Sa hauteur est celle du **registre entier**, non celle des hélices :
+les canaux latéraux s'arrêtent à *Ājñā*, l'axe non.
+
+**Données versées** (`instrument-donnees.yaml`), depuis le ch. XXI de
+*L'Homme et son devenir selon le Vêdânta* — texte primaire déposé par Sidy,
+fiche `doctrinal/` (lien `rd/` → `doctrinal/`, sens unique, signalé) :
+
+- champs `oeil` et `temps` sur les trois canaux : *piṅgalā* = œil droit de
+  *Vaishwânara* = **futur** ; *iḍā* = œil gauche = **passé** ; *suṣumnā* = œil
+  frontal de Shiva = **présent** ;
+- `figuration` reçoit *Janus Bifrons* (identité posée par Guénon lui-même) ;
+- `prolongement_axial` : le **Rayon solaire**, qui « est appelé **aussi**
+  *sushumnâ* ». **Descriptif seulement** — aucun degré ne lui est attribué, la
+  tradition ne le situant pas sur une échelle.
+
+**⚠️ Exigence de rendu consignée, NON implémentée** (§8.6) : Guénon avertit que
+les états conditionnés « n'ont aucune commune mesure » avec l'Inconditionné et
+que la discontinuité de la Délivrance « ne sera ni plus ni moins profonde »
+quel que soit le degré atteint. L'Instrument dessine des hauteurs ; il ne doit
+pas laisser croire qu'elles mesurent une proximité. **Trois pistes posées,
+aucune tranchée** — mention permanente en légende, halo du *Hāhūt* marqué
+non commensurable, ou rupture graphique explicite. Verdict à Sidy.
+
+**Vérification mécanique indépendante (rapport BRUT, §VIII.2)** :
+
+- `generer-manifeste.py --repo /home/user/wiki` →
+  `44 nœud(s), 22 ancrage(s), zodiaque inclus, maisons incluses, 4 registre(s),
+  0 avertissement(s)`.
+- Prototype sous Chromium headless : **11 ancrages rendus dans les DEUX modes**,
+  `0 sans source`, `0 marqueur superposé` ; qualification **stable entre les
+  modes** — 5 coïncidences de niveau (dont 3 avec report latéral) et 6 écarts de
+  convention de hauteur ; info-bulles des trois canaux portant `œil`, `temps` et
+  le prolongement ; **aucune pageerror**.
+- `verifier-invariants.py --racine /home/user/wiki` →
+  `0 erreur(s), 1 avertissement(s)` — [A6], faux positif déjà signalé hier.
+
+**Rappel des trois signalements VIGILANCE d'hier** : ils restent ouverts, aucun
+n'a été corrigé d'office (26 entrées d'annales sans SHA, faux positif [A6],
+23 fiches doctrinales absentes de l'index).
+
+- **Commit** : 2f529f0
+
 ## [2026-08-30] rd/instrument | ce que les centres surnuméraires confirment du modèle, et un décalage-artefact rendu visible
 
 **Fiche de déduction, §7 nouveau** —
