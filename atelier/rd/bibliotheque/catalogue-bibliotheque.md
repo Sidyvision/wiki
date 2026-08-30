@@ -3,7 +3,7 @@ title: "Catalogue de la bibliothèque physique de travail"
 type: ressource
 tags: [bibliotheque, lectures-suggerees, ressource, catalogue]
 created: 2026-06-28
-updated: 2026-08-29
+updated: 2026-08-30
 sources: []
 links: []
 ---
@@ -138,6 +138,7 @@ déviations modernes.*
 - *Rig-Véda* (J. Maisonneuve)
 - *Le Mahâbhârata* (Seuil, Tomes 1 & 2)
 - **Jean Emmanuelli** — *Propos sur le Tantra* (Cahiers de l'Unicorn-11, Archè Milano)
+- **Arthur Avalon (Sir John Woodroffe)** — *La Puissance du Serpent (The Serpent Power)* : introduction au tantrisme (Éditions Dervy, coll. « L'Être et l'Esprit » ; trad. Charles Vachot sur la 4e éd. anglaise Ganesh & Cie Madras 1950, préface Jean Herbert) — CONFIRMÉ en bibliothèque physique (2026-08-30, édition Dervy possédée). Ouvrage de référence sur les chakras (*padma*), le mantra, la conscience non-incarnée et incarnée (*jīvātman*), la pratique du *laya-krama* et les bases théoriques du yoga tantrique ; 8 planches en couleurs et 4 tableaux dont 1 hors-texte. Transcription numérique d'une édition antérieure (Paul Derain, Lyon, 1959) déposée en `raw/La-Puissance-Du-Serpent.md`.
 - **Molla Sadra Shirazi** — *Le Livre des pénétrations métaphysiques* (Verdier) — sommet de la philosophie islamique chiite d'Ispahan.
 - *Le Livre des Rois* (Ferdowsi, Sindbad/Actes Sud)
 - **Nezâmî** — *Le Pavillon des Sept Princesses* (*Haft Peykar*, trad. du persan, présenté et annoté par Michael Barry, Gallimard, coll. « Connaissance de l'Orient ») — CONFIRMÉ en bibliothèque physique (2026-07-24, photographie couverture + table des matières). Sept contes emboîtés dans le cadre des sept climats/planètes/couleurs (*haft eqlim*) — matière non encore lue en profondeur. Fiché côté doctrinal : [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]], [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]].
