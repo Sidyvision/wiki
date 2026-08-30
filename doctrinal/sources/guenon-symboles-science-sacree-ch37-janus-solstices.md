@@ -58,18 +58,17 @@ exposé au ch. XVIII (voir
 ## Fiabilité de la source
 
 Récupéré via clipping web (index-rene-guenon.org) déposé dans
-`raw/Symboles de la Science sacrée - René Guénon/`, **non vérifié sur
-exemplaire physique** — `to-source` maintenu, la levée exigeant une
-vérification humaine du texte primaire (§VII.2). L'ouvrage figure dans la
-bibliothèque personnelle sans l'annotation « CONFIRMÉ en bibliothèque
-physique » portée sur d'autres entrées du catalogue.
+`raw/Symboles de la Science sacrée - René Guénon/`. **`to-source` levé le
+2026-08-30** : Sidy confirme posséder l'exemplaire physique (Gallimard, coll.
+Tradition/NRF) et autorise explicitement la levée sur l'ensemble du corpus
+*Symboles de la Science sacrée* (§VII.2) — verdict humain, pas une collation
+ligne à ligne faite ce jour ; à rouvrir ponctuellement si un doute précis se
+présentait sur une citation.
 
 ## Utilisation dans le dépôt
 
 Rend disponible, pour [[doctrinal/symboles/janus-bifrons]], le contenu
 strictement **solsticial** que la fiche signalait explicitement comme
 manquant (« deux portes, *janua coeli* et *janua inferni*, les deux saints
-Jean, le rapport au Cancer et au Capricorne ») — **sans lever le `to-source`**
-qui y était posé, pour la même raison que
-[[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]] : clipping web
-non collationné.
+Jean, le rapport au Cancer et au Capricorne »), pour la même raison que
+[[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]].

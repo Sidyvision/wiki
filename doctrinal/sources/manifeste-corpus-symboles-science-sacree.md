@@ -37,11 +37,14 @@ sous-chaîne). Huit fichiers supplémentaires sont des **en-têtes de section**
 (un par section de la table) et un fichier est l'**annexe des abréviations**
 du livre — ni l'un ni l'autre ne sont des chapitres.
 
-**Aucune vérification sur exemplaire physique** n'a été faite ici : ce
-manifeste rapproche des *noms/contenus de fichiers* et des *numéros de
-chapitre* — pas des citations. Toute fiche `source` produite à partir de ces
-fichiers reste, comme les deux fiches Janus produites aujourd'hui, sous
-`to-source` tant que le texte n'a pas été collationné (§VII.2).
+**Aucune vérification ligne à ligne sur exemplaire physique** n'a été faite
+ici : ce manifeste rapproche des *noms/contenus de fichiers* et des *numéros
+de chapitre* — pas des citations. **Note du 2026-08-30** : Sidy confirme
+posséder l'exemplaire physique (Gallimard, coll. Tradition/NRF) et autorise
+la levée du `to-source` sur l'ensemble du corpus (§VII.2) — verdict humain de
+principe, pas une collation faite fichier par fichier ; toute fiche `source`
+produite à partir de ce corpus peut donc citer directement, à charge de
+rouvrir le point si un doute précis se présentait sur une citation donnée.
 
 ## Table de correspondance chapitre ↔ page ↔ fichier `raw/`
 

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, zodiaque, pythagore, portes-solsticiales, symboles-science-sacree]
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-08-30
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]]", "[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -34,9 +34,12 @@ continûment, non une convention grecque.
 
 Chapitre XXXVI de l'exemplaire physique de Sidy (*Symboles de la Science sacrée*,
 Gallimard, coll. Tradition) — présence confirmée par la table des matières
-photographiée le 2026-07-14. Vérification physique complète (texte intégral) encore
-à faire ; le clipping web (index-rene-guenon.org) reste la source du texte cité tant
-que la page physique n'a pas été elle-même photographiée.
+photographiée le 2026-07-14. Texte cité via clipping web (index-rene-guenon.org).
+**`to-source` levé le 2026-08-30** : Sidy confirme posséder l'exemplaire
+physique et autorise explicitement la levée sur l'ensemble du corpus
+*Symboles de la Science sacrée* (§VII.2) — verdict humain, pas une collation
+ligne à ligne faite ce jour ; à rouvrir ponctuellement si un doute précis se
+présentait sur une citation.
 
 ## Utilisation dans le dépôt
 

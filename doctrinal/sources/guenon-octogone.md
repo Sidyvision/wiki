@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, octogone, monde-intermediaire, vayu, baptistere, ming-tang, symboles-science-sacree]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-08-30
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/barzakh]]"]
@@ -70,7 +70,12 @@ pour l'instruction de ce point précis.
 
 Récupéré via clipping web (index-rene-guenon.org) déposé par Sidy le
 2026-08-29, texte intégral en `raw/Symboles de la Science sacrée, René
-Guénon/`, non vérifié sur exemplaire physique.
+Guénon/`. **`to-source` levé le 2026-08-30** : Sidy confirme posséder
+l'exemplaire physique (Gallimard, coll. Tradition/NRF) et autorise
+explicitement la levée sur l'ensemble du corpus *Symboles de la Science
+sacrée* (§VII.2) — verdict humain, pas une collation ligne à ligne faite ce
+jour ; à rouvrir ponctuellement si un doute précis se présentait sur une
+citation.
 
 ## Utilisation dans le dépôt
 

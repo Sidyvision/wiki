@@ -83,9 +83,10 @@ Guénon y consacre deux textes de *Symboles de la Science Sacrée*
 ([[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]], ch. XVIII,
 p. 123, et
 [[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]],
-ch. XXXVII, p. 228), désormais disponibles au dépôt via clipping web
-(`to-source` maintenu sur toute citation exacte — texte non collationné sur
-l'exemplaire physique, §VII.2).
+ch. XXXVII, p. 228), disponibles au dépôt via clipping web. **`to-source`
+levé le 2026-08-30** : Sidy confirme posséder l'exemplaire physique
+(Gallimard, coll. Tradition/NRF) et autorise explicitement la levée sur
+l'ensemble du corpus *Symboles de la Science sacrée* (§VII.2).
 
 Janus, en tant que *Janitor*, ouvre et ferme le cycle annuel avec **deux
 clefs**, celles des **deux portes solsticiales** : *Janua Cœli* (solstice

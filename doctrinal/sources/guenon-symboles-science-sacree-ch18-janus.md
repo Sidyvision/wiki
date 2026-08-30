@@ -53,20 +53,16 @@ transcrite : `doctrinal/sources/transcription-table-matieres-symboles-science-sa
 ## Fiabilité de la source
 
 Récupéré via clipping web (index-rene-guenon.org) déposé dans
-`raw/Symboles de la Science sacrée - René Guénon/`, **non vérifié sur
-exemplaire physique** — le tampon `to-source` reste posé pour toute citation
-exacte tant que la collation humaine n'a pas eu lieu. L'ouvrage figure dans la
-bibliothèque personnelle (`atelier/rd/bibliotheque/catalogue-bibliotheque.md`,
-section René Guénon) mais sans l'annotation « CONFIRMÉ en bibliothèque
-physique » portée sur d'autres entrées du catalogue — possession non
-formellement confirmée à ce jour.
+`raw/Symboles de la Science sacrée - René Guénon/`. **`to-source` levé le
+2026-08-30** : Sidy confirme posséder l'exemplaire physique (Gallimard, coll.
+Tradition/NRF) et autorise explicitement la levée sur l'ensemble du corpus
+*Symboles de la Science sacrée* (§VII.2) — verdict humain, pas une collation
+ligne à ligne faite ce jour ; à rouvrir ponctuellement si un doute précis se
+présentait sur une citation.
 
 ## Utilisation dans le dépôt
 
 Rend disponible, pour [[doctrinal/symboles/janus-bifrons]], le contenu du volet
-solsticial/initiatique (sceptre, clef, deux voies, portes solsticiales) —
-**sans lever le `to-source`** qui y était posé : le texte primaire n'est ici
-qu'un clipping web, non collationné sur l'exemplaire physique (§VII.2, la levée
-exige une vérification humaine, jamais la seule foi du modèle). Volet
+solsticial/initiatique (sceptre, clef, deux voies, portes solsticiales). Volet
 strictement solsticial (Cancer/Capricorne, deux saints Jean) traité par
 [[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]].
