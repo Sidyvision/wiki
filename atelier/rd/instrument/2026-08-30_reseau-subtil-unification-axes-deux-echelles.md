@@ -188,6 +188,26 @@ les sentiers se laissent lire comme un réseau de circulation, et non seulement
 comme une table de relations. Signalée, non tranchée. Elle rejoint une suite
 déjà proposée le 2026-08-20 (« enrichir le registre `qabbalah` : 22 sentiers »).
 
+> **Mise à jour du 2026-08-30 — la piste est devenue un chantier ouvert.** Sidy
+> a formulé l'hypothèse en propre : les *nâdîs* issues du cœur et les sentiers
+> séphirothiques seraient **identiques**, le réseau rayonnant de **Tiferet**.
+> Instruite en fiche de discernement :
+> [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]]
+> (`speculatif`, **verdict réservé**, lien `rd/` → `doctrinal/` en sens unique).
+>
+> **Conséquence pour l'Instrument, à connaître avant d'y toucher** : le chantier
+> est **bloqué en amont**, et pas pour une raison doctrinale. La fiche
+> [[doctrinal/sources/kabbale-10-sefirot-structure]] déclare elle-même que les 22
+> sentiers ne sont **pas documentés** ; et la tradition connaît **plusieurs
+> arrangements incompatibles** du tracé des voies, dont le dépôt n'a fixé aucun.
+> Le nombre de sentiers aboutissant à Tiferet dépend donc d'un choix non fait :
+> toute convergence numérique qu'on croirait constater serait **fabriquée par ce
+> choix implicite**. Le premier acte est de **fixer l'arrangement sur source**.
+>
+> Même verdicté, ce joint ne serait **pas** un ancrage inter-registres : il ne
+> joint aucun niveau de l'axe. Il relèverait du régime du joint Janus —
+> équivalence entre **nœuds notionnels** (§8.5 et fiche Janus §5).
+
 ## 4. Ce que l'unification implique pour l'Instrument
 
 ### 4.1 L'état actuel : un axe dessiné plusieurs fois
@@ -266,8 +286,10 @@ terme à terme** :
 2. **Implémenter le mode « axe unifié »** et le champ `echelle` (§4.2).
 3. **Instruire les cieux planétaires ↔ *lokas*** (macro ↔ macro) : les deux
    séries sont au dépôt, la comparaison est licite, elle n'a jamais été tentée.
-4. **Piste de fond, non prioritaire** : les 22 sentiers séphirothiques lus comme
-   réseau de canaux (§3.3).
+4. ~~Piste de fond, non prioritaire~~ → **chantier ouvert le 2026-08-30** : les
+   22 sentiers séphirothiques lus comme réseau de canaux rayonnant de Tiferet
+   (§3.3). **Bloqué en amont** : l'arrangement des sentiers n'est pas fixé au
+   dépôt.
 5. **Trancher la bifurcation des centres surnuméraires** (§7.3) — trois options
    posées, aucune implémentée.
 6. **Statuer sur les divergences table/planches** (§7.5) — deux cellules vides
