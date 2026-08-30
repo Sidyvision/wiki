@@ -20,7 +20,8 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   - Articulation avec les trois branches (`fiqh`, `mantiq`, `mustalah-hadith`) : table programmatique des *uṣūl/furūʿ/iṣṭilāḥ* propres à chaque branche, à remplir au fur et à mesure de leur instruction.
   - Convergence avec Cmd 2 (Rigueur des Termes) et Cmd 12 (*upakarana*, discernement des domaines) : l'étude éclaire formellement ces deux commandements.
 - **Verdict** : base terminologique adoptée comme fondement du pôle Usûl du dépôt — la structure tripartite organise les trois branches déjà ouvertes.
-- **Commit** :
+- **Note de traçabilité** : ce lot a été trouvé **non commité** dans l'arbre de travail au retour de session (46 définitions transcrites, lots p. 76-80, p. 214-215, p. 270, plus l'étude), et sécurisé avant la fusion avec `origin/main` pour qu'il ne soit pas perdu.
+- **Commit** : 4c8ce5d
 
 ## [2026-08-30] discernement + archivage | VERDICT Kursī↔Hokhmah/Binah (kumiko) et trois chapitres du *Symbolisme de la Croix*
 

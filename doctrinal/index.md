@@ -210,6 +210,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/etudes/2026-06-04_islam-et-ia|Islam et Intelligence Artificielle]]
 - [[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana|Être et psyché, Intellect et raison discursive (upakarana)]]
 - [[doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi|LLM et ontologie islamique automatisée — cas d'école de dérive kari-kumi]] — méthodologie du contrôle qualité vs. automatisation de correspondances
+- [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani|Base terminologique du pôle Usûl — triade uṣūl / furūʿ / iṣṭilāḥ selon al-Jurjānī]] — fondement du pôle Usûl, définitions-têtes de Jurjānī (déf. 0156-0160, 0174-0175, 0739-0741, 0954)
 
 ### Gizeh / science traditionnelle antédiluvienne
 - [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh|Données géométriques, géodésiques et métrologiques de la Grande Pyramide]] — relevé comparatif brut, `to-source`

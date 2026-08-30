@@ -1,0 +1,93 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+§1 Cartographie et cohérence
+
+`python3 Graphe/generer-cartographie.py --depot /root/wiki --verifier`
+(Note: Exécution session 2026-08-30)
+1475 arêtes, 106 avertissements.
+
+`python3 atelier/rd/outillage/detecter-non-tracke.py --racine /root/wiki`
+Aucun fichier non tracké.
+
+`python3 atelier/rd/outillage/verifier-coherence-infrastructure.py --racine /root/wiki`
+12 affirmation(s) vérifiée(s), 1 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ❌ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] DISCORD_HOME_CHANNEL attendu 1535804669300052039, réel '1534858103185473627' (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] DISCORD_ALLOWED_CHANNELS couvre les 1 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+
+§2 Empreinte serveur
+
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   26G   11G  71% /
+---
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       3.2Gi       155Mi       3.9Mi       668Mi       558Mi
+Swap:          2.0Gi       675Mi       1.3Gi
+
+§3 Registre Hermes-Terminal
+
+---
+  UNIT                                LOAD   ACTIVE SUB     DESCRIPTION
+● hermes-gateway-accounting.service   loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-admin-legal.service  loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-ar-music.service     loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-distribution.service loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-fanzine.service      loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-gardien.service      loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-marketing.service    loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-production.service   loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-publication.service  loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-studio.service       loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-visual-da.service    loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+---
+total 716
+drwxrwxr-x+  4 root root   4096 Aug 30 06:33 .
+drwxr-xr-x  13 root root   4096 Aug 30 08:16 ..
+drwxr-xr-x+  3 root root   4096 Aug 29 18:18 La Lumière - Daryush Shayegan
+-rw-r--r--+  1 root root 697720 Aug 30 06:33 la-puissance-du-serpent.md
+drwxr-xr-x+  3 root root   4096 Aug 29 18:20 Les Quatre Mondes - Daryush Shayegan
+-rw-rw-r--+  1 root root   2943 Aug 28 00:28 UPDATES.md
+
+§4 R&D — analyse engagée
+
+**Nouvelles fiches détectées :**
+- `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac.md`
+- `atelier/rd/bibliotheque/lumiere-hindouisme-soufisme.md`
+- `atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme.md`
+- `atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks.md`
+
+**Analyse :**
+1. **`2026-08-30_session-corrections-rapports-rotation-hmac.md`** : Compte-rendu d'intégration technique. Résolu.
+2. **`lumiere-hindouisme-soufisme.md`** / **`majma-al-bahrayn-hindouisme-soufisme.md`** : Nouvelles fiches sources (corpus). Respectent le protocole source.
+3. **`2026-08-30_conversion-chemins-nus-wikilinks.md`** : Documentation d'outillage. Résolu.
+
+**Registre problèmes (5 dernières entrées) :**
+1. **[2026-08-30] HMAC exposé** : Résolu (rotation faite).
+2. **[2026-08-29] Merge PR GitHub** : Ouvert (signalement de vulnérabilité protection branche).
+3. **[2026-08-27] Token ANTHROPIC** : Résolu (rotation faite).
+4. **[2026-08-23] Disfonctionnement Discord/Hermes** : Ouvert (restart requis).
+5. **[2026-08-20] Tension Burckhardt/Jurjānī** : Résolu (malentendu traçabilité).
+
+**Synthèse R&D (Pistes prioritaires) :**
+1. PROPOSITION : Lancer le script de correction frontmatter manquant (`created`, `updated`) pour la fiche `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac.md` (échec blocage invariant).
+2. PROPOSITION : Restart manuel des services `hermes-gateway-*.service` en état `failed`.
+3. PROPOSITION : Investigation écart `DISCORD_HOME_CHANNEL` profil Gardien (cf. §1).
+
+§5 Suggestions transversales
+
+- Nécessité de stabiliser l'infrastructure avant remise en service des webhooks GitHub (cf. registre 2026-08-30).
+- Révision systématique des statuts des gateways Hermes.
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").
