@@ -422,6 +422,7 @@ sans corriger d'office ; demander avant d'éditer »)** :
   (A6 préexistant).
 - **Reste ouvert** : les 11 ancrages inter-registres ne sont toujours pas
   rendus ; quatre planches et quatre chapitres d'Avalon non relevés.
+- **Commit** : a94968e
 
 ## [2026-08-30] rd/instrument | Avalon (v0.7.1) : deux défauts de rendu révélés par le test, corrigés
 
@@ -455,6 +456,7 @@ sans corriger d'office ; demander avant d'éditer »)** :
 - **Reste ouvert, signalé** : les 11 ancrages inter-registres déclarés hier sont
   dans le manifeste mais **ne sont pas rendus** — le prototype ne trace que les
   ancrages du nœud Homme Universel. À traiter séparément.
+- **Commit** : ea0f7ba
 
 ## [2026-08-30] rd/instrument | AXE UNIFIÉ (v0.7.0) + champ `echelle` + déduction du réseau subtil
 
@@ -499,6 +501,7 @@ sans corriger d'office ; demander avant d'éditer »)** :
   pièce manquante) ; instruire cieux planétaires ↔ *lokas* (macro ↔ macro,
   jamais tenté, les deux séries étant au dépôt) ; lire les 22 sentiers
   séphirothiques comme réseau de canaux (piste de fond).
+- **Commit** : 96e57bc
 
 ## [2026-08-30] rd/bibliotheque | intégration — Arthur Avalon, *La Puissance du Serpent* (1959)
 
@@ -512,6 +515,7 @@ la 4e éd. anglaise (Ganesh & Cie, Madras, 1950), préface Jean Herbert. Ouvrage
 de référence sur les chakras (*padma*), le mantra, la conscience incarnée
 (*jīvātman*), le *laya-krama* et les bases théoriques du yoga tantrique ; orné
 de 8 planches couleur + 4 tableaux.
+- **Commit** : d8cfd8f
 
 ---
 
@@ -553,6 +557,7 @@ de 8 planches couleur + 4 tableaux.
   seulement**, jamais dans le fichier du dépôt.
 - `verifier-invariants.py` → `0 erreur(s), 1 avertissement(s)` (A6 préexistant).
   Manifeste : `44 nœud(s), 22 ancrage(s), 4 registre(s)`, ancrages inchangés.
+- **Commit** : 73b215a
 
 ## [2026-08-29] rd/instrument | PREMIERS ANCRAGES INTER-REGISTRES (v0.6.0) + correctif de comptage (générateur v0.2.5)
 
@@ -597,6 +602,7 @@ de 8 planches couleur + 4 tableaux.
   primaire du Majmaʿ (13 clichés) — le verdict Ḥaḍarāt↔états d'Âtmâ s'appuie
   sur un texte encore en OCR brute. Et la transcription du ch. II du
   commentaire de Shayegan, pièce manquante du troisième verdict.
+- **Commit** : 38bde80
 
 ## [2026-08-29] rd/instrument | mise en regard + correctif outillage | Majmaʿ al-Bahrayn ↔ registres, et garde inter-registres du générateur (v0.2.5)
 
@@ -657,6 +663,7 @@ de 8 planches couleur + 4 tableaux.
   Sephiroth↔chakras, signalé le 2026-08-20 ; sept Pôles↔sept centres subtils,
   signalé ce jour) — proposition de les instruire **séparément**, les sources
   différant et aucune validation n'entraînant les autres.
+- **Commit** : ba26e5f
 
 ## [2026-08-29] rd/bibliotheque | relecture + nouvelle transcription | Hindouisme et Soufisme (Shayegan) — correction du chapitre IV « La Lumière » et création du chapitre III « Les Quatre Mondes »
 
@@ -690,6 +697,7 @@ de 8 planches couleur + 4 tableaux.
 - **Non fait** : les 24 photos elles-mêmes restent dans `_inbox/`, non
   déplacées (Cmd 10 — pas de suppression/déplacement sans confirmation
   explicite de Sidy).
+- **Commit** : 3d089a3
 
 ## [2026-08-29] réparation | Frontmatter du compte-rendu GitHub automation (clés `created`/`updated`)
 
@@ -708,6 +716,7 @@ de 8 planches couleur + 4 tableaux.
   `.md` séjournera dans `raw/`. À considérer comme un signalement permanent, non
   comme une dette. Si le bruit devenait gênant, la décision d'exclure `raw/` du
   périmètre du vérificateur relève de Sidy, pas de la machine.
+- **Commit** : 7ad3077
 
 ## [2026-08-29] rd/bibliotheque | transcription | Hindouisme et Soufisme (Shayegan) — Majmaʿ al-Bahrayn (p.18-50) et chapitre IV « La Lumière » (p.155-167)
 
@@ -739,6 +748,7 @@ de 8 planches couleur + 4 tableaux.
   `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md` (clés
   `created` et `updated` manquantes) et `raw/La Lumière - Daryush Shayegan/IV.md`
   (absence de frontmatter, attendu puisque `raw/` est immuable).
+- **Commit** : fa042c9
 
 ## [2026-08-29] rd/instrument | archivage | Référence visuelle Grande Mosquée de Paris + schéma carré/octogone/dôme/axe
 
@@ -758,6 +768,7 @@ de 8 planches couleur + 4 tableaux.
   `2026-08-29_octogone-monde-intermediaire-barzakh` et
   `2026-08-29_axe-du-monde-doctrine-transversale` sont citées, non
   rouvertes.
+- **Commit** : 8a7589f
 
 ## [2026-08-29] rd/instrument | implémentation | Lentilles du Barzakh supérieur rendues en contour octogonal
 
@@ -771,6 +782,7 @@ de 8 planches couleur + 4 tableaux.
 - `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument.md`
   mise à jour : la piste de design signalée plus tôt dans la journée est
   marquée implémentée. L'association vitrail reste non implémentée.
+- **Commit** : 7af0130
 
 ## [2026-08-29] rd/outillage | mise à jour | Deux fiches discernement ouvertes + piste de design lentille barzakh/octogone
 
@@ -786,6 +798,7 @@ de 8 planches couleur + 4 tableaux.
   Sidy indépendamment puis confirmée par le texte de Guénon. Aucune décision
   de rendu 3D prise — consignation d'intuition à instruire en phase
   technique.
+- **Commit** : bf88c64
 
 ## [2026-08-29] rd/outillage | signalement | Mise en regard tenon/mortaise/axe du monde (corpus du jour) avec l'architecture de l'Instrument
 
@@ -810,6 +823,7 @@ de 8 planches couleur + 4 tableaux.
   `discernement/` ouverte, verdict de
   `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md`
   inchangé.
+- **Commit** : e2da1d7
 
 ## [2026-08-29] rd/bibliotheque | archivage | Le Symbolisme du Dôme (Coomaraswamy) + ch. XXXIX-XL Guénon, second essai du corps de La Porte du Ciel
 
@@ -834,6 +848,7 @@ de 8 planches couleur + 4 tableaux.
   et de principe signalée, filiation non établie, verdict réservé à Sidy.
 - `atelier/rd/bibliotheque/catalogue-bibliotheque.md` — deux nouvelles lignes
   dans la table « Index et glossaires transcrits ».
+- **Commit** : eb6be0b
 
 ## [2026-08-29] rd/bibliotheque | archivage | Eckstein — La Porte du Ciel (Coomaraswamy), premier essai photographié du corps p.37-281
 
@@ -851,6 +866,7 @@ de 8 planches couleur + 4 tableaux.
   d'homologie de forme, verdict toujours réservé à Sidy.
 - `atelier/rd/bibliotheque/catalogue-bibliotheque.md` — nouvelle ligne dans la
   table « Index et glossaires transcrits ».
+- **Commit** : 1650a79
 
 ## [2026-08-29] meta | Clarification définitive — objet documentaire de la bibliothèque R&D
 
@@ -873,6 +889,7 @@ de 8 planches couleur + 4 tableaux.
 - **Aucune fiche de contenu modifiée** (pas de qualification sashimono
   appliquée aux fiches *La Porte du Ciel* — question distincte, en attente de
   clarification de Sidy sur le périmètre visé).
+- **Commit** : 59487f1
 
 ## [2026-08-29] rd/cahiers | Registre — merge PR#11 sans review malgré protection de branche `main`
 

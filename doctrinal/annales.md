@@ -247,6 +247,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   - `doctrinal/annales.md` : backticks vides remplacés par les wikilinks réels, VIGILANCE mise à jour.
 - **Source** : leturbannoir.com (maison d'édition de Gilis, bulletins et ouvrages).
 - **Vérification** : graphe passe de 66 à 65 liens morts, 1475 arêtes (1467 → 1475, +8 nouvelles arêtes via les fiches créées).
+- **Commit** : 974f99a
 
 ---
 ## [2026-08-30] discernement | VERDICT SIDY — le ternaire temporel des nâdîs et *Janus Bifrons*
@@ -450,6 +451,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   confirmant la lettre du texte et déterminant le nombre d'enroulements, qui
   n'a donc plus à être posé arbitrairement.
 - **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+- **Commit** : a94968e
 
 ## [2026-08-30] archivage | Arthur Avalon, *La Puissance du Serpent* — le réseau des nâdîs
 
@@ -487,6 +489,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   « entrent dans la *Suṣumnā* ». Au-dessus d'*Ājñā*, plus de latéralité — c'est
   aussi pourquoi le caducée se forme avec les deux pétales de l'*Ājñā Chakra*.
 - **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+- **Commit** : ea0f7ba
 
 ## [2026-08-30] discernement | Unification des axes verticaux, et résolution de l'obstacle des deux séries prophétiques
 
@@ -534,6 +537,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   de Shayegan, bibliothèque physique, non transcrit).
 - **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s), 1
   avertissement(s)` (A6 préexistant).
+- **Commit** : 96e57bc
 
 ## [2026-08-29] archivage | La polarité latérale de l'axe : les deux canaux solaire et lunaire
 
@@ -572,6 +576,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   Sidy.
 - **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s), 1
   avertissement(s)` (A6 préexistant).
+- **Commit** : 73b215a
 
 ## [2026-08-29] correction | Kundalinî-Yoga (Guénon) : source complétée, `to-source` levé, et deux erreurs de ma part rectifiées
 
@@ -620,6 +625,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s), 1
   avertissement(s)` (A6 préexistant). Manifeste régénéré, inchangé quant aux
   ancrages : `44 nœud(s), 22 ancrage(s), 4 registre(s)`.
+- **Commit** : e1d3f9b
 
 ## [2026-08-29] archivage + discernement | Majmaʿ al-Bahrayn ch. VII, et trois verdicts inter-traditionnels de Sidy
 
@@ -669,6 +675,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Validation mécanique** : `verifier-invariants.py --racine /home/user/wiki`
   → `0 erreur(s), 1 avertissement(s)` (A6 préexistant, entrée du 2026-08-20,
   sans rapport avec cette passe).
+- **Commit** : 38bde80
 
 ## [2026-08-29] discernement | ouverture | Axe du Monde (validée) et Octogone/Barzakh (en cours)
 
@@ -700,6 +707,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   (lentille *barzakh* rendue en octogone, association vitrail) — motif
   personnel non consigné ici (Cmd 2, distinction psychique/spirituel ; le
   motif reste hors dépôt sauf demande explicite).
+- **Commit** : bf88c64
 
 ## [2026-08-29] discernement | sashimono-metier-traditionnel — second enrichissement (Plotin/menuiserie, mortaise, artisans traditionnels — Coomaraswamy « Le Symbolisme du Dôme »)
 
@@ -714,6 +722,7 @@ le « tenon » déjà signalé. Sources archivées côté `atelier/rd/bibliotheq
 japonais dans le corpus lu — homologie de principe et de vocabulaire, filiation
 non établie, verdict réservé à Sidy. `status` de la fiche inchangé
 (`speculatif`).
+- **Commit** : eb6be0b
 
 ## [2026-08-29] discernement | sashimono-metier-traditionnel — enrichissement (tenon/pierre angulaire, Coomaraswamy « Eckstein »)
 
@@ -725,6 +734,7 @@ fixateur étranger. Source archivée côté `atelier/rd/bibliotheque/` (mention 
 prose, sans wikilink — étanchéité doctrinal/atelier). Rapprochement qualifié
 d'homologie de forme, aucune filiation avec le sashimono japonais établie ;
 verdict toujours réservé à Sidy. `status` de la fiche inchangé (`speculatif`).
+- **Commit** : 1650a79
 
 ## [2026-08-28] correctif | rene-guenon — C1 doctrinal/discernement remplacé par liens vivants vers les fiches du chantier
 
