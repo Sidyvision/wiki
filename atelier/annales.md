@@ -22,10 +22,9 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Arborescence `rd/index.md`** mise à jour : le cahier est cité en regard de
   `registre-problemes.md` dans la description de `cahiers/`.
 - **Fichier créé** : [[atelier/rd/cahiers/journal-optimisations]].
-- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` à
-  exécuter à la clôture de la séance (nouveau fichier `type: meta`, hors des
-  contrôles doctrinaux — aucune C1/A1/A2 attendue).
-- **Commit** : à compléter à la clôture.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s).`
+- **Commit** : `84dc4de`
 
 ## [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photographiés, et une quatrième description de la discontinuité signalée au chantier
 

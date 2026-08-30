@@ -62,6 +62,6 @@ Insertion en tête (la plus récente en haut), marqueur ci-dessous.
   entrée factuelle d'optimisation n'y a encore été versée. `to-source`.
 - **Liens** : [[atelier/rd/cahiers/registre-problemes]] (cahier miroir) ;
   [[atelier/rd/index.md]] §Arborescence (à compléter du nouveau cahier) ;
-  séance WebUI 2026-08-30 (verdict Sidy d'ouverture).
+  séance WebUI 2026-08-30 (verdict Sidy d'ouverture). Commit `84dc4de`.
 - **Statut** : `applique` — le cahier est ouvert, en attente de sa première
   entrée d'optimisation factuelle.
