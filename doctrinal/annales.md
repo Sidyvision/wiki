@@ -9,6 +9,53 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] discernement | Les gens d'al-Aʿrāf sont-ils les initiés ? — fiche ouverte, aucun verdict
+
+- **Intuition de Sidy**, formulée au dépôt ce jour : « *Une intuition qui ne m'a
+  jamais quitté est que les gens de الأعراف sont les initiés.* » Fiche ouverte :
+  [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]].
+- **Point de généalogie consigné d'emblée, et il est favorable** : l'intuition est
+  déclarée **ancienne**, donc **antérieure** au dossier *khafḍ*/*rafʿ* ouvert la
+  veille au soir et indépendante de lui. Elle n'est pas un effet de la matière que
+  la machine venait d'assembler — ce qui comptera si elle est retenue.
+- **Quatre appuis relevés, d'inégale force** : *(1)* *rijāl* est le mot technique de
+  la hiérarchie initiatique chez Ibn ʿArabī (*rijāl Allāh*, index des *Sept
+  Étendards*, p. 245) — mais le Coran précède l'usage technique et ne s'y conforme
+  pas ; *(2)* leur acte propre — « ils reconnaissent chacun à sa marque » (*sīmā*) —
+  est **mot pour mot** la définition de la *firāsa* que porte
+  [[doctrinal/symboles/firasa]] : les gens d'al-Aʿrāf sont définis par une
+  **science**, non par un rang. **Appui le plus fort** ; *(3)* leur position est
+  exactement le *barzakh* akbarien tel que [[doctrinal/symboles/barzakh]] le
+  définit ; *(4)* le *tafsīr* classique porte **deux** lectures, dont une « par
+  excellence » — l'intuition épouse une lecture reçue plutôt qu'elle n'en crée une.
+  ⚠️ Ce quatrième appui est **`to-source` intégral** : le dépôt ne possède aucune
+  des deux attributions sur texte, et les nommer sans les citer tomberait sous le
+  Cmd 5.
+- **Objection principale affrontée, non contournée** : « *lam yadkhulūhā wa-hum
+  yaṭmaʿūn* » (VII, 46) — la convoitise s'accorde mal à une station réalisée ; c'est
+  le pilier de la lecture majoritaire. **Reformulation soumise, non conclue** :
+  initiés **au seuil** (Petits Mystères accomplis, Grands non encore), ce qui ferait
+  travailler l'objection *en faveur* de l'hypothèse. C'est une **modification de
+  l'hypothèse de Sidy** — à lui de l'accepter ou de la refuser (Cmd 12).
+- **Pont de registre identifié, et déjà recensé au dépôt** : Michel Vâlsan,
+  *Les états des initiés au moment de leur mort* (*Futūḥāt* ch. 176, 1964),
+  [[doctrinal/autorites/michel-valsan]] — seule pièce connue articulant nommément
+  « initiés » et état posthume. À obtenir en priorité.
+- **Deux rapprochements refusés** : *(a)* les deux « **Balances** » — le *mīzān*
+  eschatologique de VII, 8-9 n'est pas le signe zodiacal du *Mahdi Rouge* ;
+  homonymie française, **même classe d'erreur que le ق écarté la veille** ; *(b)* le
+  ternaire *ʿāmma* / *khāṣṣa* / *khāṣṣat al-khāṣṣa* (gradation ascendante) superposé
+  à Jardin / Feu / Aʿrāf (intermédiaire entre deux opposés) — **trois et trois ne
+  font pas une correspondance**.
+- **Pistes matérielles déterminées mécaniquement, sans nouvelle photographie** —
+  sur l'index des *Sept Étendards* **déjà transcrit** : *khafḍ* et *rafʿ* figurent
+  **tous deux p. 104** ; *khafḍ* p. 244 et *rijāl Allāh* p. **245** sont
+  **adjacents**. Indices de pagination, non de doctrine. Vérifié terme à terme :
+  *aʿrāf*, *sīmā* et *firāsa* sont **absents** de cet index.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : e9ecce3
+
 ## [2026-08-30] archivage | Apparat éditorial des deux ouvrages établi — et un contrôle de provenance qui a trouvé une faute
 
 - **Cliché des couvertures fourni par Sidy** (nuit). Le `to-source` porté quelques
