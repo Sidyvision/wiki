@@ -35,9 +35,9 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 - **Opération** : signalement-sécurité
 - **Problème** : le rapport Studio (monitoring-infrastructure-quotidien, 2026-08-29 12:01 UTC) §4.1 ① signale que la fiche `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md` contenait le secret HMAC `69a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5` en clair (ligne 65). Le dépôt étant publié sur GitHub Pages, ce secret était potentiellement public.
 - **Action** : remplacement du secret par un renvoi vers cette entrée de registre (`rotation requise — voir registre [2026-08-30]`). URL Cloudflare annotée comme éphémère.
-- **Rotation** : requise hors-dépôt (GitHub webhook settings). Non exécutée par cette session (Cmd 13 — geste engageant).
+- **Rotation** : webhook GitHub supprimé manuellement (Sidy, 2026-08-30). Vérification : `gh api repos/Sidyvision/wiki/hooks` retourne une liste vide. L'ancien webhook pointait vers `https://chronicle-raised-zones-admit.trycloudflare.com/` (tunnel Cloudflare éphémère, déjà inactif au moment de la suppression — HTTP 502). Aucune nouvelle URL disponible : le tunnel était temporaire, 8/11 gateways désactivés, infrastructure instable. Décision (verdict Sidy) : ne pas recréer le webhook maintenant, à reconfigurer quand l'infrastructure sera stabilisée (tunnel persistant ou URL stable requise).
 - **Référence** : rapport Studio 2026-08-29 §4.1 ①, fiche `2026-08-29_compte-rendu-github-automation.md`.
-- **Leçon** : tout secret (clé API, HMAC, token) doit être stocké hors-dépôt (variables d'environnement, gestionnaire de secrets). Les fiches R&D ne doivent contenir que des renvois vers ces stockages, jamais les valeurs elles-mêmes.
+- **Leçon** : tout secret (clé API, HMAC, token) doit être stocké hors-dépôt (variables d'environnement, gestionnaire de secrets). Les fiches R&D ne doivent contenir que des renvois vers ces stockages, jamais les valeurs elles-mêmes. Un webhook GitHub nécessite une URL stable (pas un tunnel éphémère) — sinon, le webhook devient un point de défaillance silencieux.
 
 ---
 
