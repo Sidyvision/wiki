@@ -9,6 +9,72 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] discernement | second examen | Les nâdîs du cœur et les sentiers séphirothiques — les trois obstacles tombent
+
+- **Contexte** : Sidy rappelle que le rapport **inter**-traditionnel ne s'aborde
+  pas comme le rapport **intra**-traditionnel, et invite à « faire appel à la
+  créativité » plutôt qu'à retourner aux sources — « jouer avec les points de vue
+  et les perspectives ». Reprise de la fiche ouverte le matin même. **Les deux
+  examens sont conservés** (Cmd 10) : ce que j'avais écrit reste, avec le motif
+  de sa rectification.
+- **L'obstacle que j'avais dit le plus discriminant n'existe pas.** J'avais posé
+  une « inversion du lettrique » — 22 lettres hébraïques sur les *sentiers*, 50
+  lettres sanscrites sur les *pétales*, donc à l'endroit inverse de la structure.
+  **Avalon dit expressément le contraire, quatre fois**, dans la copie de travail
+  versée la veille : « **Les pétales sont des figures formées par la position des
+  Nâdî** à n'importe quel centre particulier » ; « le nombre des pétales […] est
+  **déterminé par la disposition des "nerfs" subtils ou Nâdî qui l'entourent** » ;
+  « à cause de la forme et de la distribution des nerfs du Yoga (Nâdî) en ce point
+  particulier ». Il donne jusqu'à leur critère d'existence : les pétales
+  « **cessent d'être manifestés** » quand le *Vâyu* s'en va.
+- **Un pétale n'est donc pas une partie du centre : c'est un *nâdî* vu à son point
+  d'aboutissement.** Les lettres sont portées par les **canaux des deux côtés** —
+  saisis le long de leur parcours d'un côté, à leur terme de l'autre. L'inversion
+  était un **artefact de mon propre découpage**.
+- **Deux autres obstacles se retournent en appuis** :
+  1. **Roue contre treillis** — un treillis vu depuis l'un de ses nœuds *est* une
+     roue. L'Arbre séphirothique est une **élévation** du réseau ; les lotus en
+     sont des **plans**. L'un donne l'**adjacence** sans le degré local, l'autre
+     le **degré local** sans l'adjacence : chacun porte exactement ce qui manque à
+     l'autre — signature d'une **complémentarité**, non de deux comptes rivaux.
+  2. **La litote de Guénon devient le mot juste.** Si ce sont deux projections
+     d'un même réseau, « identiques » serait faux, « sans rapport » aussi, et
+     « **ne sont pas sans analogie** » est exactement la formule qui convient.
+     L'obstacle principal n'en était un que **tant qu'on cherchait un *hozo***.
+- **Les deux cœurs deviennent deux positions.** Dans un treillis, tout nœud
+  devient moyeu dès qu'on s'y tient. Guénon décrit le lotus à huit pétales comme
+  « **son propre séjour** », « le centre de l'individualité » — le lieu où se
+  tient celui qui regarde. La proposition de Sidy (« le réseau émane du cœur pour
+  s'organiser ») est donc exacte **pour qui est au cœur**, sans avoir à l'être du
+  dehors. Même geste que la distinction des **deux échelles** posée le matin, mais
+  portant ici sur **deux positions de l'observateur**.
+- **Qualification déplacée, hypothèse confortée** : nature proposée ***kumiko***
+  (complémentarité) et **non *hozo*** (équivalence) — les sentiers et les *nâdîs*
+  seraient **le même réseau sous deux projections**, non deux descriptions
+  concurrentes. **État inchangé : *kari-kumi*, aucun verdict rendu** (Cmd 12).
+- **Le blocage ne bloque plus que le volet numérique.** La lecture par
+  complémentarité ne demande aucun comptage : elle se juge sur la **nature des
+  figures**, et elle est **instruisible dès maintenant**. L'arrangement des 22
+  sentiers ne conditionne plus qu'une **prédiction structurelle falsifiable** —
+  le degré de chaque Sephirah devrait s'accorder au nombre de pétales du centre
+  correspondant — posée avec trois précautions : aucun comptage produit ; le test
+  doit **pouvoir échouer** ; fixer l'arrangement **d'abord**, pour ses raisons
+  propres, comparer **ensuite**.
+- **Réserve de proportion maintenue** : les pétales figurent les canaux
+  **principaux** d'un centre, non leur totalité — ni les 101 de Guénon, ni les
+  72 000 d'Avalon. Une tradition sélectionne et partitionne ; elle n'inventorie
+  pas.
+- **Écarté au passage** : le développement d'Avalon sur les « tourbillons » et les
+  radiations, qui aurait servi le même propos, est un exposé qu'il fait d'un
+  **auteur théosophique pour le critiquer**. Non retenu (§VII, discipline des
+  sources).
+- **⚠️ Rupture d'étanchéité introduite puis corrigée avant commit** : la fiche
+  doctrinale pointait vers une fiche `atelier/` ([C3], §VI). **Attrapée par
+  `verifier-invariants.py`**, non par relecture — un défaut de plus pour le
+  tableau de détection du rapport de session.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+- **Commit** : 3fb961c
+
 ## [2026-08-30] discernement | ouverture | Les nâdîs issues du cœur et les sentiers séphirothiques (Tiferet)
 
 - **Hypothèse de Sidy** (2026-08-30) : « Les nâdîs sortant du chakra du cœur sont
