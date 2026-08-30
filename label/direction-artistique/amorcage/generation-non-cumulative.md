@@ -16,10 +16,10 @@ sources: []
 liens:
 - '[[label/distribution/doctrine-du-don]]'
 - '[[label/production/equipe-agents-hermes]]'
-- label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs
+- '[[label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs]]'
 liens_atelier: []
 links:
-- label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs
+- '[[label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs]]'
 ---
 
 # Génération non-cumulative — principe ontologique du protocole

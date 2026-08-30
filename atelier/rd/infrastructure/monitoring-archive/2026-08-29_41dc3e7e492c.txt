@@ -1,0 +1,172 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+# Rapport quotidien du pôle Studio — 2026-08-29 (12:01 UTC)
+
+## §1 — Cartographie et cohérence structurelle
+
+**1. `python3 Graphe/generer-cartographie.py --depot /root/wiki --verifier`** — exit 1
+
+```
+ÉCHEC — 1 anomalie(s) bloquante(s). Aucun manifeste écrit.
+
+      frontmatter    1
+
+    [frontmatter] atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md : champ(s) obligatoire(s) manquant(s) : created, updated
+```
+
+**2. `python3 atelier/rd/outillage/detecter-non-tracke.py --racine /root/wiki`** — exit 0
+
+```
+Aucun fichier non tracké.
+```
+
+**3. `python3 atelier/rd/outillage/verifier-coherence-infrastructure.py --racine /root/wiki`** — exit 1
+
+```
+12 affirmation(s) vérifiée(s), 1 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ❌ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] DISCORD_HOME_CHANNEL attendu 1535804669300052039, réel '1534858103185473627' (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] DISCORD_ALLOWED_CHANNELS couvre les 1 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+```
+
+**Note (signalement, pas correction)** : l'écart `DISCORD_HOME_CHANNEL` du Gardien est un **conflit entre deux fiches R&D**, non une dérive de configuration : `2026-08-26_migration-omniroute-quota-qwen.md` attend `1535804669300052039`, tandis que `incident-2026-08-23-disfonctionnements-discord-hermex.md` affirme `1534858103185473627` — valeur réelle actuelle, validée ✅ par le même script. Deux affirmations contradictoires dans le corpus documentaire, dont l'une doit être périmée.
+
+## §2 — Empreinte serveur
+
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   25G   12G  69% /
+```
+```
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       3.0Gi       146Mi       4.4Mi       835Mi       718Mi
+Swap:          2.0Gi       779Mi       1.2Gi
+```
+
+Disque stable à 69 %. **Mémoire tendue** : 146 Mi libres, 718 Mi disponibles, swap entamé à 779 Mi/2.0 Gi.
+
+## §3 — Registre Hermes-Terminal
+
+```
+UNIT                                LOAD   ACTIVE SUB     DESCRIPTION
+● hermes-gateway-accounting.service   loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-admin-legal.service  loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-ar-music.service     loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-distribution.service loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-fanzine.service      loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-gardien.service      loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-marketing.service    loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-production.service   loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-publication.service  loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-studio.service       loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-visual-da.service    loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+
+11 loaded units listed.
+```
+
+- **11 unités chargées, pas 12** (le registre du présent job annonce 12 gateways — écart de recensement à trancher).
+- **3 actives** (gardien, publication, studio) / **8 en échec**. Toutes `disabled` au preset, échec `status=1/FAILURE` daté du **2026-08-28 08:26:57 UTC** (accounting, échantillon lu), soit ~1 j 3 h — arrêt groupé, pas des crashs indépendants. Ceci est cohérent avec la contrainte mémoire du §2.
+- **Bind-mounts** : `mount | grep -i wiki` ne retourne **rien** — aucun bind-mount actif sur le dépôt. À confirmer : régime attendu (accès direct) ou dispositif absent.
+- **Staleness `_inbox/`** : un seul fichier, `UPDATES.md` (2943 o), horodaté **28 août 00:28** → **~35 h**. Le sas n'a pas été vidé après la dernière intégration (Cmd IX.8) ou porte des consignes non traitées.
+
+## §4 — R&D — analyse engagée
+
+### 4.1 Détection (sortie brute)
+
+```
+Nouvelles fiches :
+atelier/rd/bibliotheque/abreviations-hindouisme-soufisme.md
+atelier/rd/bibliotheque/eckstein-porte-du-ciel.md
+atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue.md
+atelier/rd/bibliotheque/sommaire-hindouisme-soufisme.md
+atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel.md
+atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent.md
+atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder.md
+atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md
+atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone.md
+atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument.md
+Fiches modifiées :
+atelier/rd/bibliotheque/catalogue-bibliotheque.md
+atelier/rd/cahiers/registre-problemes.md
+atelier/rd/index.md
+```
+
+### 4.2 Fiches lues en entier — rapprochement et propositions
+
+**① `cahiers/2026-08-29_compte-rendu-github-automation.md`**
+- **B. Registre** : couvert *partiellement* par l'entrée `[2026-08-29]` (bypass de la protection de branche) — mais deux problèmes **non couverts** sont visibles dans la fiche elle-même.
+- **Problème nouveau n°1 — frontmatter non conforme** : la fiche porte `date:` au lieu de `created:`/`updated:`, `links:` en chemins nus (non-wikilinks, §IV du protocole racine). **C'est la cause exacte de l'échec bloquant du §1.1** — aucun manifeste de cartographie n'a été écrit aujourd'hui.
+- **Problème nouveau n°2 — secrets en clair dans le dépôt** : la fiche publie ligne 57 un secret HMAC de webhook (`69a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5`) et ligne 55 l'URL du tunnel Cloudflare. Tension directe avec §VIII.5/§VIII.8 (« credentials de session protégés, jamais dans Git »). Le dépôt est par ailleurs publié sur GitHub Pages (`pages.yml`) — le secret est potentiellement public. **Aucune entrée de registre ne couvre ce point.**
+- **C. PROPOSITION** : (a) corriger le frontmatter (`created`/`updated: 2026-08-29`, `links` en wikilinks) pour débloquer la cartographie ; (b) **rotation immédiate** du secret HMAC et du tunnel, remplacement de la valeur par un renvoi vers un stockage hors-dépôt, ouverture d'une entrée registre « secret publié en clair ». Le retrait de l'historique git est un geste engageant — verdict Sidy requis (Cmd 13).
+- **D. Dépendances** : cette fiche est la **cause amont** de l'échec §1.1 et le **contexte amont** de l'entrée registre `[2026-08-29]`.
+- **E. Handoff** : **Gardien** — la fiche déclare un webhook `github-wiki-push` le notifiant à chaque push ; c'est lui qui doit constater si ce webhook fonctionne réellement ou si l'URL Cloudflare éphémère est déjà morte. **Handoff proposé** : « vérifier la vivacité du tunnel et confirmer la réception des notifications push ».
+
+**② `cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder.md`**
+- **B. Registre** : entièrement couvert (entrée `[2026-08-28]` append-only, ses trois propositions validées et exécutées le jour même — A6 implémenté, convention backticks adoptée, lien C4 régularisé).
+- **C. PROPOSITION** : rien à ouvrir. Signaler seulement que le §II de cette fiche cite un état de référence (« 0 erreur, 17 avertissements ») **déjà périmé** par les correctifs du même jour (« 0 erreur, 2 avertissements ») — classe d'erreur « document de statut recopié » identifiée par le registre `[2026-08-25]`. Proposition : marquer explicitement l'état de calibrage comme daté.
+- **D. Dépendances** : le §IV (multi-rédacteurs, écrasement discret) **nourrit directement** le problème de bypass de merge de l'entrée `[2026-08-29]` — même risque : plusieurs rédacteurs compétents, aucune barrière technique.
+- **E. Handoff** : **Publication** (job veille-frontmatter, 11:00 UTC) — c'est lui qui porte désormais `verifier-invariants.py` ; le contrôle A6 nouvellement implémenté relève de sa boucle, avec son faux positif légitime connu (`atelier/annales.md`, entrée groupée 2026-08-20).
+
+**③ `cahiers/2026-08-28_analyse-perplexity-agent.md`**
+- **B. Registre** : aucun problème — fiche d'analyse, pas d'incident. Aucune entrée à ouvrir.
+- **C. PROPOSITION** : la fiche annonce elle-même « un ticket Infrastructure distinct » pour l'implémentation. Proposer d'ouvrir ce ticket en `atelier/rd/infrastructure/` avec un périmètre serré : recherche itérative à deux couches appliquée **à la discipline des sources** (détection de lacunes `to-source`), et non une refonte d'orchestration. Réserve à signaler : le §2 du dépôt est en contrainte mémoire (§2 : 718 Mi disponibles) — toute orchestration multi-agents parallèle est actuellement **non faisable** sur ce serveur.
+- **D. Angle mort ouvert** : la fiche parle d'« émancipation des services tiers » mais dépend d'Exa et Cerebras, deux services tiers. Contradiction non traitée par la fiche.
+- **E. Handoff** : aucun — reste au pôle Studio/R&D.
+
+**④ `outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument.md`**
+- **B. Registre** : aucun problème — signalement méthodologique, exemplairement borné (§3 « ce que ce signalement ne fait pas », Cmd 12 explicitement invoqué).
+- **C. PROPOSITION** : le §4 consigne que **deux discernements ont été validés par Sidy le 2026-08-29** (axe du monde transversal ; octogone/barzakh, qualifié *hozo*) et qu'une modification du prototype a été **implémentée** (contour octogonal, `THREE.LineLoop`). Proposer un contrôle de répercussion : ces verdicts sont-ils inscrits dans `doctrinal/annales.md` avec SHA de commit (Cmd 9), et l'ancrage *hozo* est-il ou non porté dans `instrument-donnees.yaml` ? La fiche affirme n'y avoir touché à aucun ancrage — l'écart entre un verdict doctrinal validé et un manifeste non mis à jour est à trancher, pas à combler d'office.
+- **D. Dépendances** : fiche **pivot** du lot. Elle est nourrie par ①②③ de la bibliothèque (Eckstein, Symbolisme du Dôme, Guénon ch. XXXIX-XL) et nourrit à son tour ⑤ (référence visuelle Grande Mosquée). **Angle mort explicitement laissé ouvert par la fiche** (§2.2) : le statut de coordonnée de l'axe lui-même par rapport au §3.1 de l'architecture — « point à instruire séparément », non instruit.
+- **E. Handoff** : **Gardien** — vérification d'orthodoxie sur deux discernements fraîchement validés touchant au Non-Syncrétisme (Cmd 3), et sur la qualification *hozo* portée à un lien inter-traditionnel.
+
+**⑤ `instrument/reference-visuelle-grande-mosquee-paris-dome-octogone.md`**
+- **B. Registre** : aucun problème. Discipline des sources correctement appliquée (« une photographie personnelle n'est pas un texte primaire »).
+- **C. PROPOSITION** : la fiche cite `raw/IMG_9964.MOV` et trois assets — le §1.2 (`detecter-non-tracke.py`) ne signale aucun fichier non tracké, donc les assets sont versionnés. Proposer seulement de vérifier le poids : une vidéo `.MOV` de 16,5 s en git sur un disque à 69 % est un choix à confirmer (Git LFS ou conservation hors-dépôt).
+- **D/E** : consommatrice de ④, aucun handoff.
+
+**⑥–⑩ Lot bibliothèque** (`eckstein-porte-du-ciel`, `symbolisme-du-dome-porte-du-ciel`, `guenon-symbolisme-du-dome-et-dome-roue`, `sommaire-hindouisme-soufisme`, `abreviations-hindouisme-soufisme`)
+- **B. Registre** : aucun incident. Toutes portent `sources: ["to-source"]`, conforme. Le lot Shayegan est le contenu de la PR #11 dont le merge sans review est l'objet de l'entrée `[2026-08-29]` — **le contenu est sain, l'incident est procédural**.
+- **C. PROPOSITION** : deux lacunes **auto-signalées** par les fiches, à porter en tâche : (a) `sommaire-porte-du-ciel` recense 8 essais + 4 appendices non photographiés du corps p.37-281 ; (b) `sommaire-hindouisme-soufisme` note l'année d'édition Shayegan non lisible sur les clichés. Ce sont des tâches de prise de vue relevant de Sidy seul.
+- **Signalement de méthode** : `eckstein-porte-du-ciel` déclare son lot de clichés **fragmentaire** (p.169-172 non vérifiées en continuité) et le dit explicitement. Bonne pratique — proposer d'en faire une convention formelle du pôle bibliothèque : toute fiche issue d'un lot photo incomplet porte un signalement de continuité.
+- **D. Dépendances** : `eckstein` + `symbolisme-du-dome` + `guenon-dome-roue` alimentent ④. Trois fiches touchent le verdict réservé de `2026-07-07_sashimono-metier-traditionnel` : la citation Plotin (menuiserie, *Ennéades* V.9.11) et Guénon ch. XL (métiers comme support d'initiation) **sourcent la question 2** du discernement, restée `to-source`. **Aucune des trois ne mentionne le sashimono japonais** — la question 1 (filiation japonaise) reste entièrement ouverte.
+- **E. Handoff** : **Gardien** — la levée éventuelle d'un `to-source` du discernement sashimono relève de Sidy seul (§VII.2), mais le Gardien peut constater que la matière est désormais disponible.
+
+### 4.3 Les 5 entrées les plus récentes de `registre-problemes.md`
+
+| Entrée | Statut consigné | État constaté aujourd'hui |
+|---|---|---|
+| `[2026-08-29]` merge PR sans review malgré protection | **ouvert** — durcissement en attente de Sidy | **Stagnante, < 24 h.** Aucun changement observable côté serveur. Diagnostic explicitement non confirmé (aucun outil de lecture des règles de protection). PROPOSITION : test de contrôle non destructif — ouvrir une PR jetable et tenter le merge ; si elle passe encore, le diagnostic est confirmé mécaniquement plutôt que par inférence (§VIII.2). |
+| `[2026-08-28]` correctif C1 « traité » mais inefficace | **résolu** (commits `24ed5d1`, `98d3546`) | **Appliqué et vérifié après écriture** (0 erreur / 1 avertissement A6). Aucune régression : le §1.1 d'aujourd'hui échoue sur un motif entièrement distinct (frontmatter). |
+| `[2026-08-28]` en-tête d'annales remplacé, non détecté | **résolu** — A6 implémenté | **Appliqué.** A6 a révélé deux occurrences supplémentaires dans `doctrinal/annales.md`, restaurées verbatim depuis git. Angle mort résiduel : A6 ne s'exécute plus dans ce job (§1 amputé de `verifier-invariants.py` le 2026-08-24) — sa surveillance dépend entièrement du job Publication de 11:00 UTC, **non vérifiable depuis cette session**. |
+| `[2026-08-25]` mismatch NFC/NFD validateur index-livres | **ouvert** — correctif non prioritaire | **Stagnante depuis 4 jours.** Le correctif proposé (`unicodedata.normalize('NFC', …)`) n'a pas été appliqué. Le problème est latent et se reproduira ; le lot bibliothèque de cette semaine n'a pas déclenché de H4 (dossiers `Eckstein - La Porte du Ciel`, `Le symbolisme du dôme -La Porte du Ciel` sans accents dans le nom de dossier) — **par chance, pas par correction**. |
+| `[2026-08-25]` claim périmée table des 38 degrés | **résolu** — table complétée, corrections en cascade | **Appliqué.** Récidive potentielle observée aujourd'hui dans ② (état de calibrage recopié périmé) : même classe d'erreur, moindre gravité. Colonne Façç reste ouverte, non bloquante. |
+
+### 4.4 Synthèse R&D — pistes prioritaires
+
+1. **PROPOSITION — Rotation du secret HMAC et du tunnel publiés en clair** (urgence : haute ; faisabilité : haute pour la rotation, engageante pour la réécriture d'historique). Le secret `69a1b2c3…` et l'URL Cloudflare figurent en clair dans une fiche versionnée d'un dépôt à publication Pages activée. Rotation immédiate + entrée registre. La purge de l'historique git engage — verdict Sidy.
+2. **PROPOSITION — Réparer le frontmatter de `2026-08-29_compte-rendu-github-automation.md`** (urgence : haute ; faisabilité : immédiate). `created`/`updated` manquants, `links` en chemins nus. **La cartographie du dépôt est bloquée tant que ce n'est pas fait** — aucun manifeste écrit aujourd'hui.
+3. **PROPOSITION — Trancher le conflit `DISCORD_HOME_CHANNEL` du Gardien** (urgence : moyenne ; faisabilité : immédiate). Deux fiches R&D affirment deux valeurs différentes ; la configuration réelle est saine. Ce n'est pas la config qu'il faut changer mais la fiche périmée — probablement `2026-08-26_migration-omniroute-quota-qwen.md`, à confirmer par Sidy avant toute écriture.
+4. **PROPOSITION — Instruire les 8 gateways en échec et la pression mémoire** (urgence : moyenne ; faisabilité : moyenne). 8 unités `disabled`/`failed` depuis le 2026-08-28 08:26 UTC, arrêt groupé, avec 146 Mi de RAM libre et le swap entamé. Deux hypothèses concurrentes à départager : arrêt délibéré (`disabled` au preset) ou OOM. Piste : `journalctl --user -u 'hermes-gateway-*' --since '2026-08-28 08:00'` + `dmesg | grep -i oom`. Décide directement de la faisabilité de la piste multi-agents de ③.
+5. **PROPOSITION — Vider ou traiter `_inbox/UPDATES.md` (stale ~35 h)** (urgence : basse ; faisabilité : haute). Soit des consignes attendent intégration, soit le sas n'a pas été vidé après la passe du 28 (Cmd IX.8). Lecture puis verdict.
+
+## §5 — Suggestions transversales
+
+- **Le contrôle de frontmatter est devenu asymétrique** : `verifier-invariants.py` a été retiré du §1 le 2026-08-24 au profit du job Publication de 11:00 UTC, mais `generer-cartographie.py` fait toujours son propre contrôle de frontmatter — et c'est **lui** qui a attrapé l'anomalie du jour, une heure après le passage supposé du job Publication. Soit le job de 11:00 UTC n'a pas tourné, soit il ne couvre pas cette classe. **PROPOSITION** : vérifier l'exécution effective du job `veille-frontmatter-quotidien` — le présent job n'a aucun moyen de constater son passage, ce qui est en soi un angle mort de supervision (§VIII.2, vérification mécanique indépendante).
+- **Écart de recensement des gateways** : la consigne de ce job annonce 12 gateways, systemd en charge 11. À réconcilier — soit une unité a disparu, soit le chiffre du registre est périmé.
+- **Motif récurrent, trois fois dans ce rapport** : une garantie annoncée dans un document (protection de branche, correctif C1, état de calibrage, valeur de canal Discord) diverge de l'état réel, et la divergence n'est vue que par un contrôle mécanique indépendant. **PROPOSITION** : ajouter une affirmation vérifiable à `verifier-coherence-infrastructure.py` pour chaque garantie de sécurité annoncée dans une fiche R&D — le script en couvre déjà 12 pour Discord/cron ; l'étendre aux protections GitHub fermerait précisément le trou de l'entrée `[2026-08-29]`.
+
+*Aucune écriture n'a été effectuée sur le dépôt par ce rapport (Cmd 6, Cmd 13 — signalement seul).*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

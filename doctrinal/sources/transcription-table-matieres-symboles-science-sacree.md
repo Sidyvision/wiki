@@ -14,7 +14,7 @@ updated: 2026-08-17
 sources: []
 sources_count: 0
 cross_links:
-- doctrinal/symboles/ashhab
+- '[[doctrinal/symboles/ashhab]]'
 ---
 
 # Transcription — Table des matières intégrale, *Symboles de la Science sacrée* (René Guénon, Gallimard, coll. Tradition/NRF)

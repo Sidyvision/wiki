@@ -11,7 +11,7 @@ created: 2026-08-11
 updated: 2026-08-11
 sources: []
 links:
-- atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11
+- '[[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]]'
 statut_experience: exploratoire
 ---
 

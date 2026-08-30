@@ -9,9 +9,9 @@ tags:
 - zodiacal
 - extension-principielle
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius]]'
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

@@ -9,9 +9,9 @@ tags:
 - zodiacal
 - extension-principielle
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer]]'
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

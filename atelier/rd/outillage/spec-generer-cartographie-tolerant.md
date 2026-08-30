@@ -10,7 +10,7 @@ created: 2026-08-11
 updated: 2026-08-11
 sources: []
 links:
-- atelier/rd/cahiers/registre-problemes
+- '[[atelier/rd/cahiers/registre-problemes]]'
 ---
 
 # Spécification — `generer-cartographie.py` v1.1 (mode "tolérant")

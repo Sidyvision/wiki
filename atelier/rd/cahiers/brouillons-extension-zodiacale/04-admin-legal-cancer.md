@@ -9,9 +9,9 @@ tags:
 - zodiacal
 - extension-principielle
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus]]'
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

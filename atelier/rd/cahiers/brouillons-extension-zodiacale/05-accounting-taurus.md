@@ -9,9 +9,9 @@ tags:
 - zodiacal
 - extension-principielle
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio]]'
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

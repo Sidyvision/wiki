@@ -12,7 +12,7 @@ updated: 2026-06-20
 sources: []
 sources_count: 0
 cross_links:
-- doctrinal/symboles/muqarnas
+- '[[doctrinal/symboles/muqarnas]]'
 ---
 
 # Lignées célestes dans le taoïsme

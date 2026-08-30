@@ -1,11 +1,18 @@
 ---
-title: "Infrastructure — Configuration Hermex (webui via Tailscale)"
+title: Infrastructure — Configuration Hermex (webui via Tailscale)
 type: infrastructure
-tags: [rd, infrastructure, hermex, webui, tailscale, hermes]
+tags:
+- rd
+- infrastructure
+- hermex
+- webui
+- tailscale
+- hermes
 created: 2026-08-23
 updated: 2026-08-23
 sources: []
-links: [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md]
+links:
+- '[[atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md]]'
 ---
 
 # Configuration Hermex (webui via Tailscale)

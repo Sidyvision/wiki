@@ -11,9 +11,9 @@ created: 2026-08-12
 updated: 2026-08-12
 sources: []
 links:
-- meta/transmissions/karubi-mehdi.md
-- meta/transmissions/registre-silsila.md
-- atelier/rd/cahiers/registre-problemes
+- '[[meta/transmissions/karubi-mehdi.md]]'
+- '[[meta/transmissions/registre-silsila.md]]'
+- '[[atelier/rd/cahiers/registre-problemes]]'
 statut_experience: exploratoire
 ---
 

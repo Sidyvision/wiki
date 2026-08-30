@@ -18,7 +18,7 @@ sources:
 - to-source
 sources_count: 1
 cross_links:
-- doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire
+- '[[doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire]]'
 ---
 
 # Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction volontaire

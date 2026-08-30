@@ -1,9 +1,9 @@
 ---
-title: "Jacob (Lost)"
+title: Jacob (Lost)
 type: figure
 registre: analyse
 medium: serie
-oeuvre: "lost"
+oeuvre: lost
 statut_analyse: brouillon
 tags:
 - protecteur
@@ -14,7 +14,7 @@ created: 2026-08-28
 updated: 2026-08-28
 sources: []
 liens:
-- hermeneutique/lost/lost
+- '[[hermeneutique/lost/lost]]'
 cles_doctrinales: []
 discernement: []
 liens_label: []

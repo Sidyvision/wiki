@@ -18,10 +18,10 @@ sources: []
 liens:
 - '[[label/distribution/doctrine-du-don]]'
 - '[[label/direction-artistique/amorcage/generation-non-cumulative]]'
-- label/direction-artistique/amorcage/generation-non-cumulative
+- '[[label/direction-artistique/amorcage/generation-non-cumulative]]'
 liens_atelier: []
 links:
-- label/direction-artistique/amorcage/generation-non-cumulative
+- '[[label/direction-artistique/amorcage/generation-non-cumulative]]'
 ---
 
 # Imaginaire structurant — Nen, la ruche, les échecs

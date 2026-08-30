@@ -20,7 +20,7 @@ sources:
 - https://variety.com/2024/music/news/madlib-sues-egon-eothen-alapatt-former-manager-1236196889/
 - https://www.stonesthrow.com/ (store & release pages)
 links:
-- atelier/etudes-de-cas/kojima-productions
+- '[[atelier/etudes-de-cas/kojima-productions]]'
 statut_donnees: vérifié partiel — items flagués individuellement ; revenus = estimation
   D
 ---

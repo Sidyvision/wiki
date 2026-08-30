@@ -12,7 +12,7 @@ created: 2026-08-11
 updated: 2026-08-11
 sources: []
 links:
-- atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11
+- '[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11]]'
 ---
 
 # État mesuré du serveur — 2026-08-11

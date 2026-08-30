@@ -14,7 +14,7 @@ created: 2026-07-20
 updated: 2026-07-20
 sources: []
 links:
-- atelier/rd/cahiers/registre-problemes
+- '[[atelier/rd/cahiers/registre-problemes]]'
 ---
 
 # Lecture défensive d'un document-persona par un LLM neuf

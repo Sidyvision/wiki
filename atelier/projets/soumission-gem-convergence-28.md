@@ -4,9 +4,9 @@ type: deprecated
 created: 2026-07-01
 updated: 2026-08-08
 cross_links:
-- atelier/projets/soumission-gem-reponse-geometrie-3d
+- '[[atelier/projets/soumission-gem-reponse-geometrie-3d]]'
 links:
-- atelier/projets/soumission-gem-reponse-geometrie-3d
+- '[[atelier/projets/soumission-gem-reponse-geometrie-3d]]'
 ---
 
 # soumission-gem-convergence-28 — fiche déplacée (deprecated)

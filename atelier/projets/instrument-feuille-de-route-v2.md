@@ -4,9 +4,9 @@ type: deprecated
 created: 2026-06-28
 updated: 2026-08-08
 cross_links:
-- atelier/projets/note-impact-instrument-socle-universel-2026-07-16
+- '[[atelier/projets/note-impact-instrument-socle-universel-2026-07-16]]'
 links:
-- atelier/projets/note-impact-instrument-socle-universel-2026-07-16
+- '[[atelier/projets/note-impact-instrument-socle-universel-2026-07-16]]'
 ---
 
 # instrument-feuille-de-route-v2 — fiche déplacée (deprecated)

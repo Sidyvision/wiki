@@ -18,10 +18,10 @@ liens:
 - '[[label/distribution/doctrine-du-don]]'
 - '[[label/marketing-communication/fanzine]]'
 - '[[label/production/album-01]]'
-- label/distribution/doctrine-du-don
+- '[[label/distribution/doctrine-du-don]]'
 liens_atelier: []
 links:
-- label/distribution/doctrine-du-don
+- '[[label/distribution/doctrine-du-don]]'
 ---
 
 # Stratégie vinyle — 300 exemplaires aux dépositaires

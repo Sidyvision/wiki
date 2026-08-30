@@ -4,9 +4,9 @@ type: meta
 created: 2026-07-16
 updated: 2026-07-16
 cross_links:
-- atelier/rd/instrument/instrument-feuille-de-route-v2
+- '[[atelier/rd/instrument/instrument-feuille-de-route-v2]]'
 links:
-- atelier/rd/instrument/instrument-feuille-de-route-v2
+- '[[atelier/rd/instrument/instrument-feuille-de-route-v2]]'
 ---
 
 # Note d'impact — Actualisation de l'Instrument à la lumière du socle métaphysique universel (session 2026-07-16)

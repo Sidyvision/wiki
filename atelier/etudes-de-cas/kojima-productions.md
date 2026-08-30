@@ -13,7 +13,7 @@ updated: 2026-08-08
 sources:
 - to-source
 links:
-- atelier/etudes-de-cas/stones-throw
+- '[[atelier/etudes-de-cas/stones-throw]]'
 statut_donnees: non vérifié — aucun item confirmé sur source primaire ; l'ensemble
   est à traiter comme relevé de travail
 ---

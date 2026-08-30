@@ -18,10 +18,10 @@ liens:
 - '[[label/distribution/doctrine-du-don]]'
 - '[[label/production/modele-economique]]'
 - '[[label/direction-artistique/amorcage/generation-non-cumulative]]'
-- label/production/modele-economique
+- '[[label/production/modele-economique]]'
 liens_atelier: []
 links:
-- label/production/modele-economique
+- '[[label/production/modele-economique]]'
 ---
 
 # Équipe d'agents Hermes — 12 fonctions, 5 archétypes

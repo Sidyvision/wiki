@@ -9,9 +9,9 @@ tags:
 - zodiacal
 - extension-principielle
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces]]'
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

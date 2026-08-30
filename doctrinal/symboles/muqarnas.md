@@ -12,7 +12,7 @@ updated: 2026-06-20
 sources: []
 sources_count: 0
 cross_links:
-- doctrinal/symboles/scarabee-egyptien
+- '[[doctrinal/symboles/scarabee-egyptien]]'
 ---
 
 # Muqarnas — géométrie sacrée de l'art islamique

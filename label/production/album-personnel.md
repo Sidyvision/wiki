@@ -14,13 +14,13 @@ updated: 2026-08-08
 sources:
 - '[[chatgpt-export-2026-05-10]]'
 liens:
-- label/production/equipe-agents-hermes
+- '[[label/production/equipe-agents-hermes]]'
 liens_atelier:
 - '[[atelier/materiel/neve-1073spx]]'
 - '[[atelier/materiel/tascam-model-12]]'
 - '[[atelier/materiel/technics-su-8080]]'
 links:
-- label/production/equipe-agents-hermes
+- '[[label/production/equipe-agents-hermes]]'
 ---
 
 # Album personnel — home studio et production

@@ -4,9 +4,9 @@ type: deprecated
 created: 2026-07-01
 updated: 2026-08-08
 cross_links:
-- atelier/projets/soumission-gem-reponse-gloton
+- '[[atelier/projets/soumission-gem-reponse-gloton]]'
 links:
-- atelier/projets/soumission-gem-reponse-gloton
+- '[[atelier/projets/soumission-gem-reponse-gloton]]'
 ---
 
 # soumission-gem-reponse-visuelle-28 — fiche déplacée (deprecated)

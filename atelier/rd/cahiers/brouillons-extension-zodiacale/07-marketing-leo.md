@@ -9,9 +9,9 @@ tags:
 - zodiacal
 - extension-principielle
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/08-publication-sagittarius
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/08-publication-sagittarius]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/08-publication-sagittarius
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/08-publication-sagittarius]]'
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

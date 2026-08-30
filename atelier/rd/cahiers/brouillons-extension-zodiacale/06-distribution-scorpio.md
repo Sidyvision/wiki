@@ -9,9 +9,9 @@ tags:
 - zodiacal
 - extension-principielle
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo]]'
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon
