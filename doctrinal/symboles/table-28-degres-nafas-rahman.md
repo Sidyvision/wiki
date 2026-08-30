@@ -57,7 +57,7 @@ cross_links: ["[[nafas-rahmani]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]", 
 
 | Système | Étendue | Origine | Statut |
 |---|---|---|---|
-| **(γ) Degrés du Nafas al-Raḥmān** — **CANONIQUE** | 1–38 : degrés 1–10 pré-lettrés + **degrés 11–38 = les 28 lettres** | Table courante de Gloton, pp. 36-40, **photographiée** | **fait foi** |
+| **(γ) Degrés du Nafas al-Raḥmān** — **CANONIQUE** | 1–38 : degrés 1–10 pré-lettrés + **degrés 11–38 = les 28 lettres** | Table courante de Gloton, **pp. 35-40, intégralement photographiée** (p. 35 collationnée le 2026-08-30 au soir) | **fait foi** |
 | (δ) Indice de lettre | 1–28 | Anneau externe de la **Figure 4**, p. 94 | valide, mais **c'est un indice de lettre, pas un degré** |
 | (α) Distribution en 28 degrés dans les *Ḥaḍarāt* | 1–28 | **Gem René Guénon**, 2026-07-01 | §VII.3 — **reconstruction plausible, jamais source** |
 
@@ -401,18 +401,67 @@ la transcription lettre par lettre et l'identification des correspondances compl
 > Structure : **38 degrés totaux** — degrés 1–10 (pré-lettrés, Figures 1–2) + degrés 11–38 (28 lettres, anneau de Figure 4).
 > Les sections 39–50 (p. 41) sont des « modes d'intervention du Souffle », non des degrés cosmiques.
 
-### Degrés 1–10 — Pré-lettrés (à établir : le texte ne les numérote pas)
+### ✅ Degrés 1–10 — « Le Degré divin » (Gloton p. 35, ÉTABLI le 2026-08-30 au soir)
 
-> ⚠️ **Rectifié le 2026-08-30.** La rédaction antérieure faisait correspondre ces
-> dix degrés au contenu des Figures 1 et 2 — **c'était l'origine de l'erreur** :
-> ces figures sont concentriques et non numérotées, et le Trône comme le Piédestal
-> qu'on y lisait sont en réalité aux **degrés 17 et 18** (section établie
-> ci-dessus). Les degrés 1-10 restent donc **entièrement à établir**, depuis les
-> pages antérieures à p. 36, non encore photographiées. `to-source`.
+> **Le point est clos.** La rédaction du 2026-08-30 (matin) portait : « les degrés
+> 1-10 restent **entièrement à établir**, depuis les pages antérieures à p. 36,
+> non encore photographiées » — et le brief de passation en faisait la **seule
+> pièce demandant une action de Sidy**. **Sidy a fourni le cliché de la p. 35 le
+> 2026-08-30 au soir.** Levée de `to-source` conforme à la discipline des sources
+> (§VII.2 du protocole racine) : vérification du texte primaire par l'utilisateur
+> lui-même.
+
+La page porte le titre de section **« 1 - Le Degré divin »** et une table dont les
+lignes sont numérotées **1 à 10**. Chacune est un **commentaire** — d'un ḥadīth
+saint, de deux termes, de deux versets, et de six formules :
+
+| N° (γ) | Objet du commentaire |
+|---|---|
+| 1 | Le ḥadīth saint : *J'étais un Trésor. Je n'étais pas connu. Aussi, J'ai aimé être connu. Je créai alors les créatures : Je Me suis fait connaître à elles et elles Me connurent.* |
+| 2 | Les deux noms *kalām* et *qawl* (parole et profération) |
+| 3 | Le verset 16-98 — la protection (*istiʿādha*) contre le Shayṭān proscrit lors de l'énonciation de la Récitation |
+| 4 | L'expression *Bi-smi-Llāh* — *Par le* (ou *Grâce au*) *Nom d'Allāh* |
+| 5 | Le verset 16-40 — *Notre seule Parole à une chose lorsque Nous l'avons visée est de lui dire : « Adviens » ! Et alors elle advient.* |
+| 6 | L'expression coranique *Al-Ḥamdu li-Allāh* (la Louange est à Allāh) |
+| 7 | L'expression coranique *Subḥān Allāh* (Proclamation de la Gloire omniprésente d'Allāh) |
+| 8 | La formule coranique *Allāh akbar* (Allāh est infiniment grand) |
+| 9 | Les **36 formules coraniques de l'Unicité divine** — *Lā ilāha illā-Llāh* |
+| 10 | La formule **prophétique** *Lā Ḥawla wa lā Quwwata illā bi-Llāh* (Nulle force et nulle puissance sinon par Allāh) |
+
+Transcription intégrale et lettre exacte de Gloton :
+[[ibn-arabi-de-la-mort-a-la-resurrection-gloton]], Section 1.
+
+**Ce que la collation établit** — et qui n'était pas acquis ce matin :
+
+1. Les degrés 1-10 **sont numérotés dans la source**, et par la source elle-même.
+   Ils ne sont donc pas « au-delà de toute numérotation ».
+2. Ils sont bien **pré-lettrés** : aucune lettre ne leur est assignée, la première
+   (*hamza*) ouvrant le degré 11 p. 36. Le compte de dix est confirmé sur la page.
+3. Leur matière n'est **pas cosmologique** : ce sont des formules de la Parole
+   divine et leur commentaire — non des plans, des sphères ou des règnes. La
+   rupture de nature entre 1-10 et 11-38 est donc **portée par le texte**, pas
+   seulement par l'absence de lettres.
+
+> ⚠️ **Tension formelle relevée, non tranchée (Cmd 12) — « Le Degré divin » ≠
+> *Hāhūt*.** Cette fiche assimile en plusieurs endroits les degrés 1-10 au
+> *Hāhūt* (voir « TABLE COMPLETE FINALE » et « VALIDATION FORMELLE DU GEM »
+> ci-dessous). **Gloton n'emploie pas ce terme ici** : son titre est « Le Degré
+> divin ». Trois raisons de ne pas laisser l'assimilation passer pour établie :
 >
-> Ce qui est acquis : ils sont **pré-lettrés** (le degré 11 est la première lettre,
-> hamza — Gloton p. 36, cliché `IMG_0362`), donc au nombre de dix. Rien de plus
-> n'est établi à ce jour, et **aucun terme ne leur est attribué**.
+> - Elle est due au **Gem René Guénon** (persona IA, 2026-07-01) — §VII.3 du
+>   protocole racine : **reconstruction plausible, jamais source**.
+> - Elle **contredit cette fiche même**, qui pose plus haut (§« Principe de la
+>   table ») que « *Hāhūt* […] reste absolument inabordable et au-delà de toute
+>   différenciation ou numérotation ». Or ces dix degrés sont numérotés.
+> - *Al-martaba al-ilāhiyya*, « le Degré divin », désigne classiquement
+>   l'*Ulūhiyya* — Allāh en tant que nommé par Ses Noms —, ce qui relèverait
+>   plutôt de *Lāhūt* que de *Hāhūt*. La matière relevée le confirme : ces dix
+>   entrées sont des **Noms, Paroles et formules**, c'est-à-dire précisément le
+>   registre des Noms.
+>
+> État *kari-kumi* (montage à blanc) : le joint « degrés 1-10 ↔ *Hāhūt* » est
+> **suggéré, non taillé**. Les sections qui l'affirment sont conservées telles
+> quelles (Cmd 10) et renvoient désormais à ce signalement. **Verdict à Sidy.**
 
 #### Tableau 1 (Meftah, pp. 30-31) — chapitres 1-9 des *Fuṣūṣ al-Ḥikam*
 
@@ -551,7 +600,12 @@ alternative sur les mêmes données.
 
 ## À photographier pour compléter
 
-- Pages avant p. 39 (sections 1–4 du texte) → degrés 11–19 (anneau positions 1–9)
+- ✅ ~~Pages avant p. 39 (sections 1–4 du texte) → degrés 11–19~~ — **fait** : les
+  pp. 35 à 40 sont désormais intégralement collationnées (p. 35 le 2026-08-30 au
+  soir, pp. 36-38 le 2026-08-30 au matin, pp. 39-40 le 2026-07-01).
+- Reste ouvert, hors de cette page : la colonne « Prophète façç (*Fuṣūṣ*) » des
+  degrés 21-23 et 25-27, à sourcer depuis les *Fuṣūṣ al-Ḥikam* — non requise par
+  l'Instrument.
 
 ---
 
@@ -655,7 +709,14 @@ reste a sourcer depuis les Fusus al-Hikam, pour les degres non-solaires.
 
 ## TABLE COMPLETE FINALE (pp. 35-40, Ibn Arabi / Gloton)
 
-### Degrees 1-10 -- Haahut / "Le Degre divin" (sans lettres, p. 35)
+### ⚠️ Degrees 1-10 -- ~~Haahut~~ / "Le Degre divin" (sans lettres, p. 35)
+
+> **Titre rectifie le 2026-08-30 (soir), sur collation du cliche de la p. 35.**
+> Gloton ecrit « Le Degre divin » et **jamais *Hāhūt*** ; l'assimilation est une
+> attribution du Gem (persona IA), reputee reconstruction plausible et non source
+> (§VII.3). Voir le signalement complet en section « ✅ Degrés 1–10 » ci-dessus,
+> et la version collationnee de la lettre exacte dans
+> [[ibn-arabi-de-la-mort-a-la-resurrection-gloton]]. Liste conservee (Cmd 10).
 
 Commentaires des formules divines fondamentales -- pas des degres cosmologiques :
 1. Hadith saint : "J'etais un Tresor cache..."
@@ -669,7 +730,12 @@ Commentaires des formules divines fondamentales -- pas des degres cosmologiques 
 9. La ilaha illa Llah (36 formules de l'Unicite)
 10. La Hawla wa la Quwwata illa bi-Llah
 
-=> Correspondent a Haahut : l'Essence pure, avant toute differenciation ou numerotation.
+=> ~~Correspondent a Haahut : l'Essence pure, avant toute differenciation ou
+numerotation.~~ **Rature du 2026-08-30 (soir)** : la collation de la p. 35 montre
+que ces dix degres **sont numerotes dans la source** (lignes 1 a 10 de la table de
+Gloton), ce qui contredit terme a terme « avant toute differenciation ou
+numerotation ». Attribution non sourcee, en attente de verdict — voir le
+signalement en section « ✅ Degrés 1–10 ».
 
 ---
 
@@ -869,7 +935,7 @@ Distribution definitie actee par le Gem, selon le texte d'Ibn Arabi :
 
 | Hadra | Degres | Nb | Description |
 |---|---|---|---|
-| Haahut | 1-10 | 10 | Formules divines (sans lettres) -- Essence pure, avant toute differenciation |
+| ⚠️ ~~Haahut~~ « Le Degre divin » | 1-10 | 10 | Formules divines (sans lettres). **Le libelle « Haahut » est une attribution du Gem, non de Gloton** — rectifie le 2026-08-30, voir section « ✅ Degrés 1–10 ». Le compte de 10 et l'absence de lettres, eux, sont collationnes sur la p. 35 |
 | Lahut | 11-14 | 4 | Principes interieurs : Intellect, Ame, Nature, Substance primordiale |
 | Jabarut | 15-18 | 4 | Mondes intermediaires : Corps universel, Conformation, Trone, Piedestal |
 | Malakut (Barzakh superieur) | 19-20 | 2 | Sphere sans etoiles + Sphere des etoiles fixes -- zone de transition |
