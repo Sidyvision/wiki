@@ -15,7 +15,6 @@ tags:
 created: 2026-07-02
 updated: 2026-07-03
 sources:
-- to-source
 sources_count: 0
 cross_links:
 - '[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]'

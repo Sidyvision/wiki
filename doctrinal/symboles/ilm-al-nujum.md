@@ -13,7 +13,6 @@ tags:
 created: 2026-06-03
 updated: 2026-06-11
 sources:
-- to-source
 sources_count: 0
 cross_links:
 - '[[ilm-al-huruf]]'

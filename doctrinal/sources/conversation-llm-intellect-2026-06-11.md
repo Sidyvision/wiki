@@ -15,7 +15,6 @@ tags:
 created: 2026-06-11
 updated: 2026-06-20
 sources:
-- to-source
 sources_count: 0
 cross_links:
 - '[[2026-06-11_llm-wiki-modalite-intellect]]'

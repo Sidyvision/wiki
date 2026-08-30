@@ -15,7 +15,6 @@ tags:
 created: 2026-06-20
 updated: 2026-06-20
 sources:
-- to-source
 sources_count: 0
 cross_links:
 - '[[doctrinal/symboles/barzakh]]'

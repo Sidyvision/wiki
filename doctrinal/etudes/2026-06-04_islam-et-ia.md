@@ -13,7 +13,6 @@ tags:
 created: 2026-06-04
 updated: 2026-06-11
 sources:
-- to-source
 sources_count: 0
 cross_links:
 - '[[yaqub-chaudhary]]'
