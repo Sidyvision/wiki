@@ -62,7 +62,8 @@
     <i style="background:var(--rouge)"></i>équivalence établie (hozo)<br>
     <i style="background:#d9d3ea"></i>nœud universel (hors arbre-tradition)<br>
     <i style="background:var(--argent)"></i>bezel zodiacal (signes / manāzil / maisons — toucher un cran)<br>
-    <i style="background:#cfe4d8"></i>registre parallèle (autre partition du même axe)
+    <i style="background:#cfe4d8"></i>registre parallèle (autre partition du même axe)<br>
+    <i style="background:#d9a441"></i>canal solaire (<i style="background:#9fb4c9"></i>lunaire) — voie latérale, jamais un centre
   </div>
 </div>
 
@@ -816,17 +817,72 @@ var posNotionnels = {};
       return c === "droite" ? ECART_COL : (c === "gauche" ? -ECART_COL : 0);
     };
 
+    // -- Couleur d'une voie selon sa correspondance cosmique déclarée --------
+    //    Pilotée par la DONNÉE (registres[].colonnes[c].correspondance_cosmique
+    //    et registres[].canaux[*].correspondance_cosmique), jamais codée en
+    //    dur : un registre qui ne déclare rien garde la teinte neutre.
+    //    Source : Guénon, « Kundalinî-Yoga » — idâ ↔ Lune, pingalâ ↔ Soleil,
+    //    sushumnâ ↔ principe igné. Voir doctrinal/symboles/polarite-laterale-
+    //    de-l-axe.md (consultation R&D, sens unique).
+    var TEINTE_COSMIQUE = {
+      "Soleil":        0xd9a441,   // or — voie solaire, masculine, positive
+      "Lune":          0x9fb4c9,   // argent bleuté — voie lunaire, féminine, négative
+      "principe igné": 0xc4563f    // rouge sombre — le milieu a sa nature propre
+    };
+    var NEUTRE = 0xa9c9bb;
+    var teinteDe = function(corr){
+      return (corr && TEINTE_COSMIQUE[corr] !== undefined) ? TEINTE_COSMIQUE[corr] : NEUTRE;
+    };
+
     // -- Les trois colonnes, tracées sur l'étendue effective du registre --
     ["droite", "milieu", "gauche"].forEach(function(c){
       var occup = doms.filter(function(d){ return (d.colonne || "milieu") === c; });
       if (!occup.length) return;
       var n1 = Math.min.apply(null, occup.map(function(d){ return d._niv; }));
       var n2 = Math.max.apply(null, occup.map(function(d){ return d._niv; }));
+      var decl = (reg.colonnes && reg.colonnes[c]) || null;
+      var corr = decl && decl.correspondance_cosmique;
       monde.add(ligne([
         new THREE.Vector3(xDeCol(c), yDuNiveau(n1) + .5, z),
         new THREE.Vector3(xDeCol(c), yDuNiveau(n2) - .5, z)
-      ], 0xa9c9bb, c === "milieu" ? .5 : .3, c !== "milieu"));
+      ], teinteDe(corr), c === "milieu" ? .5 : .3, c !== "milieu"));
     });
+
+    // -- Les canaux latéraux (nâdîs), quand le registre en déclare -----------
+    //    Guénon les décrit comme « à l'extérieur de ce même axe, autour duquel
+    //    elles s'entrecroisent par une sorte de double enroulement
+    //    hélicoïdal » : rendus comme tels, et non comme des colonnes droites.
+    //    Ce sont des VOIES, jamais des centres — aucun marqueur n'y est posé,
+    //    conformément au schéma (les registres ne portent que des centres).
+    if (reg.canaux){
+      var yA = yDuNiveau(1) + .5, yB = yDuNiveau(nbNiveaux) - .5;
+      Object.keys(reg.canaux).forEach(function(k){
+        var cn = reg.canaux[k];
+        if (!cn || typeof cn !== "object") return;      // ancienne forme (chaîne) : ignorée
+        if (cn.cote !== "droite" && cn.cote !== "gauche") return;  // le central est déjà l'axe
+        var sens = (cn.cote === "droite") ? 1 : -1;
+        var TOURS = 3.5;   // Kundalinî est enroulée « trois fois et demie » (Guénon)
+        var PAS = 44, pts = [];
+        for (var i = 0; i <= PAS; i++){
+          var t = i / PAS, ang = t * TOURS * Math.PI * 2 * sens;
+          pts.push(new THREE.Vector3(
+            Math.sin(ang) * ECART_COL * .55,
+            yA + (yB - yA) * t,
+            z + Math.cos(ang) * ECART_COL * .55
+          ));
+        }
+        var hel = ligne(pts, teinteDe(cn.correspondance_cosmique), .42, false);
+        hel.userData = {
+          label: k + " — " + (cn.label || "canal latéral"),
+          deg: "canal (nâdī), non un centre : aucune étape ne s'y situe"
+             + (cn.correspondance_cosmique ? " · correspondance cosmique : " + cn.correspondance_cosmique : "")
+             + (cn.colonne_sephirothique ? " · colonne séphirothique : " + cn.colonne_sephirothique : "")
+             + (cn.note ? " · " + cn.note : ""),
+          src: "[[" + String(reg.fiche || "").replace(/\.md$/, "") + "]]"
+        };
+        monde.add(hel); interactifs.push(hel);
+      });
+    }
 
     // -- Les centres du registre --
     doms.forEach(function(d){

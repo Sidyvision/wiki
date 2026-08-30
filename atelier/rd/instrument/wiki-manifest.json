@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.5",
-  "generated_at": "2026-08-29T20:31:36+00:00",
-  "source_commit": "38bde803bd776daf6553de14701b11cd77123836",
+  "generated_at": "2026-08-30T05:32:00+00:00",
+  "source_commit": "e1d3f9be162ef1d02d66490ae7ca0e94c8b2fb3f",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -725,9 +725,23 @@
       "fiche": "doctrinal/sources/kabbale-10-sefirot-structure",
       "axe": "parallele",
       "colonnes": {
-        "milieu": "Colonne du milieu (Équilibre)",
-        "droite": "Colonne de droite (Miséricorde)",
-        "gauche": "Colonne de gauche (Rigueur)"
+        "milieu": {
+          "label": "Colonne du milieu (Équilibre)",
+          "nadi_correspondant": "sushumna",
+          "correspondance_cosmique": "principe igné"
+        },
+        "droite": {
+          "label": "Colonne de droite (Miséricorde)",
+          "nadi_correspondant": "pingala",
+          "correspondance_cosmique": "Soleil",
+          "note": "Hesed. Guénon rapporte « Miséricorde » et « Justice » aux deux bras, donc aux épaules — et aux deux anges de la tradition islamique qui y siègent (note 27)."
+        },
+        "gauche": {
+          "label": "Colonne de gauche (Rigueur)",
+          "nadi_correspondant": "ida",
+          "correspondance_cosmique": "Lune",
+          "note": "Gevurah. Même symbolisme des deux bras/épaules."
+        }
       },
       "domaines": [
         {
@@ -881,10 +895,28 @@
       "fiche": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
       "axe": "parallele",
       "canaux": {
-        "sushumna": "canal central — porte les chakras eux-mêmes",
-        "ida": "canal gauche, féminin/négatif — correspond à la Lune",
-        "pingala": "canal droit, masculin/positif — correspond au Soleil"
+        "sushumna": {
+          "label": "canal central — porte les chakras eux-mêmes",
+          "cote": "milieu",
+          "correspondance_cosmique": "principe igné",
+          "note": "« Située » à l'intérieur de l'axe cérébro-spinal, jusqu'au Brahma-randhra. Ni solaire ni lunaire : tierce qualité propre."
+        },
+        "pingala": {
+          "label": "canal droit, masculin/positif",
+          "cote": "droite",
+          "correspondance_cosmique": "Soleil",
+          "colonne_sephirothique": "droite",
+          "note": "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine droite. Guénon met la colonne séphirothique de droite (Miséricorde) en relation avec pingalâ ; Hokmah, en tête de cette colonne, est rapportée à l'œil droit, « correspondance microcosmique du Soleil » (note 25)."
+        },
+        "ida": {
+          "label": "canal gauche, féminin/négatif",
+          "cote": "gauche",
+          "correspondance_cosmique": "Lune",
+          "colonne_sephirothique": "gauche",
+          "note": "Extérieur à l'axe, enroulement hélicoïdal, aboutit à la narine gauche. Colonne séphirothique de gauche (Rigueur) ; Binah, en tête, rapportée à l'œil gauche, « correspondance microcosmique de la Lune » (note 25)."
+        }
       },
+      "figuration": "caducée · bâton brahmanique (Brahma-danda, sept nœuds)",
       "domaines": [
         {
           "id": "hindouisme/muladhara",

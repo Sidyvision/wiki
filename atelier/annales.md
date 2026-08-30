@@ -10,6 +10,44 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] rd/instrument | polarité latérale versée en donnée et RENDUE (canaux hélicoïdaux)
+
+- **Action (donnée)** : `instrument-donnees.yaml` — les blocs `canaux`
+  (registre `hindouisme-tantra`) et `colonnes` (registre `qabbalah`) passent de
+  simples chaînes à des objets structurés portant `cote`,
+  `correspondance_cosmique`, `colonne_sephirothique`/`nadi_correspondant` et
+  note. Donnée du texte de Guénon, non construite : *iḍā* ↔ Lune, *piṅgalā* ↔
+  Soleil, *suṣumnā* ↔ principe igné ; colonne du milieu ↔ *suṣumnā*, latérales
+  ↔ *iḍā*/*piṅgalā*. Champ `figuration` ajouté (caducée, *Brahma-danda*).
+  **Aucun ancrage nouveau** : ces correspondances apparient des structures de
+  latéralité, pas des séries de centres.
+- **Action (rendu)** : `instrument-prototype.html` — les deux canaux latéraux
+  sont désormais **tracés**, et non plus seulement documentés. Rendus en
+  **double hélice** enroulée autour de l'axe du registre, conformément à la
+  description de Guénon (« un double enroulement hélicoïdal »), sur 3,5 tours
+  (l'enroulement de Kundalinî). Teinte pilotée par la **donnée**
+  (`correspondance_cosmique`), jamais codée en dur : or pour la voie solaire,
+  argent bleuté pour la lunaire, rouge sombre pour le principe igné ; un
+  registre qui ne déclare rien garde la teinte neutre. Les colonnes
+  séphirothiques reçoivent la même teinte par le même mécanisme. **Aucun
+  marqueur n'est posé sur les canaux** — ce sont des voies, jamais des centres,
+  et l'info-bulle le dit. Entrée de légende ajoutée.
+- **Vigilance inscrite dans le YAML lui-même** : commentaire bloquant toute
+  assimilation de ces Soleil/Lune aux nœuds `universel/aqtab-soleil` (degré 24)
+  et `universel/aqtab-lune` (degré 27) — degrés superposés d'un côté, qualités
+  de voies de l'autre.
+- **Validation mécanique indépendante (rapport brut, §VIII point 2)** — le
+  prototype a été **réellement exécuté**, non supposé : servi en local,
+  three.js r128 récupéré depuis le dépôt (le CDN est bloqué par le proxy),
+  ouvert sous Chromium/Playwright. Résultat : `151 objets construits, 119
+  interactifs, 2 canaux rendus, couleurs #d9a441 (Soleil) et #9fb4c9 (Lune),
+  aucune erreur de page, aucune bannière d'erreur, canvas présent`. Capture
+  d'écran vérifiée à l'œil : les deux hélices s'enroulent bien autour de l'axe
+  du registre tantra. Sondes d'inspection injectées **dans la copie de test
+  seulement**, jamais dans le fichier du dépôt.
+- `verifier-invariants.py` → `0 erreur(s), 1 avertissement(s)` (A6 préexistant).
+  Manifeste : `44 nœud(s), 22 ancrage(s), 4 registre(s)`, ancrages inchangés.
+
 ## [2026-08-29] rd/instrument | PREMIERS ANCRAGES INTER-REGISTRES (v0.6.0) + correctif de comptage (générateur v0.2.5)
 
 - **Action** : exécution des verdicts rendus par Sidy le 2026-08-29.

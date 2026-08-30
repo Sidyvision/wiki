@@ -9,6 +9,44 @@ updated: 2026-08-29
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-29] archivage | La polarité latérale de l'axe : les deux canaux solaire et lunaire
+
+- **Fiche créée** : `doctrinal/symboles/polarite-laterale-de-l-axe.md`
+  (`status: traditionnel`), sur consigne de Sidy d'exploiter complètement la
+  donnée signalée le soir même (*iḍā* ↔ Lune, *piṅgalā* ↔ Soleil, *suṣumnā* ↔
+  principe igné).
+- **Contenu** : l'axe n'est pas seul, il est flanqué de deux voies latérales de
+  qualité opposée — solaire/masculine/positive à droite, lunaire/féminine/
+  négative à gauche — le centre ayant sa nature propre (le principe igné), et
+  non celle d'un simple milieu neutre. **Point capital** : les deux canaux
+  latéraux ne portent **aucun centre** ; la latéralité est une qualité de voie,
+  jamais un lieu d'étape.
+- **Recoupement à trois termes, entièrement sourcé du même texte** : Guénon met
+  les trois colonnes séphirothiques en correspondance avec les trois *nâdîs*, et
+  donne l'attribution solaire/lunaire **des deux côtés** — *Hokmah*/*Binah*
+  rapportées aux deux yeux droit et gauche, « correspondance microcosmique du
+  Soleil et de la Lune » (note 25). Colonne de droite (Miséricorde) ↔ *piṅgalā*
+  ↔ Soleil ; colonne de gauche (Rigueur) ↔ *iḍā* ↔ Lune. Il y adjoint les deux
+  anges des épaules de la tradition islamique (note 27), le caducée et le bâton
+  brahmanique.
+- **Distinction capitale posée en bloc 🔍 (vigilance polaire/solaire)** : ce
+  Soleil et cette Lune **ne sont pas** ceux des cieux planétaires du *Malakūt*
+  (degrés 24 et 27). Là, deux **degrés superposés** de l'axe, régis par des
+  Prophètes ; ici, deux **qualités de voies** courant sur toute la hauteur sans
+  occuper aucun rang. Homonymie de symbolisme, **non un point d'ancrage** — les
+  confondre serait l'erreur de catégorie exacte que la vigilance permanente
+  écarte. **Aucun ancrage posé** entre les deux séries.
+- **Fiche `2026-08-29_axe-du-monde-doctrine-transversale` complétée** (verdict
+  inchangé) : le même texte apporte un quatrième terme et un recoupement
+  microcosmique — la colonne vertébrale est le *Mêru-danda*, « axe du corps
+  humain », « de même que, au point de vue macrocosmique, le *Mêru* est l'axe
+  du monde ». Guénon emploie donc la formule sous sa plume dans un **second
+  texte indépendant**. Signalé comme confirmation convergente, **non** comme
+  cinquième terme séparément instruit — l'extension du verdict appartient à
+  Sidy.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s), 1
+  avertissement(s)` (A6 préexistant).
+
 ## [2026-08-29] correction | Kundalinî-Yoga (Guénon) : source complétée, `to-source` levé, et deux erreurs de ma part rectifiées
 
 - **Motif** : Sidy a versé au dépôt le texte intégral de l'article

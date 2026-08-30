@@ -108,5 +108,48 @@ strictement commune à toutes les traditions par construction ».
 
 ---
 
+## Confirmation supplémentaire, versée le 2026-08-29 (soir) : le *Mêru-danda*
+
+Le texte intégral de « Kundalinî-Yoga » (*Études sur l'Hindouisme*), versé au
+dépôt le soir du même jour, apporte à cette identité **un quatrième terme et un
+recoupement microcosmique**, sans qu'il faille rien construire :
+
+> « les six centres dont il s'agit sont rapportés aux divisions de la colonne
+> vertébrale, appelée ***Mêru-danda*** parce qu'elle constitue l'**axe du corps
+> humain**, de même que, au point de vue "macrocosmique", le ***Mêru*** est
+> l'"**axe du monde**" »
+> — [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]
+
+Portée exacte de cet apport, sans extension :
+
+1. **Guénon emploie la formule « axe du monde » sous sa plume, en propre**, pour
+   le *Mêru* — l'identité posée par cette fiche ne repose donc pas sur le seul
+   énoncé de *La Grande Triade*/*Le Dôme et la Roue*, mais sur un second texte
+   indépendant.
+2. Il ajoute l'articulation **macrocosme/microcosme** : le même axe est *Mêru*
+   dans le monde et *Mêru-danda* (la colonne vertébrale) dans l'homme. C'est
+   l'application à l'axe du principe qu'il rappelle plus haut dans le même
+   texte, d'après le *Vishwasâra Tantra* : « Ce qui est ici est là, ce qui n'est
+   pas ici n'est nulle part » (*Yad ihâsti tad anyatra, yan nêhâsti na tat
+   kwachit*).
+3. Il en donne une **figuration** : le *Brahma-danda*, bâton brahmanique à sept
+   nœuds, et le caducée — l'axe y est la tige centrale.
+
+**Ce que cet apport ne fait pas** : il n'étend pas le verdict. Le hozo tranché
+porte sur *skambha* = *qutb* = *stauros* ; *Mêru*/*Mêru-danda* vient s'y adjoindre
+comme confirmation convergente d'un même enseignement chez la même autorité, non
+comme un cinquième terme dont l'équivalence aurait été séparément instruite.
+Signalé comme tel, à la disposition de Sidy s'il juge utile de l'intégrer
+nommément à l'énoncé du verdict.
+
+**Voir aussi** : [[doctrinal/symboles/polarite-laterale-de-l-axe]] — l'axe ainsi
+nommé n'est pas seul, il est flanqué de deux voies latérales de qualité opposée
+(solaire et lunaire), structure commune au Kundalinî-yoga et à l'arbre
+séphirothique.
+
+---
+
 *Fiche ouverte et close le 2026-08-29 sur verdict de Sidy, à la suite de la
-lecture croisée du corpus Coomaraswamy/Guénon déposé le même jour.*
+lecture croisée du corpus Coomaraswamy/Guénon déposé le même jour. Complétée le
+soir du même jour par la confirmation Mêru-danda (ajout documentaire, verdict
+inchangé).*
