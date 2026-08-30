@@ -140,7 +140,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ### Symbolisme comparé des formes, du seuil et des figures
 - [[doctrinal/symboles/polarite-laterale-de-l-axe|La polarité latérale de l'axe — Soleil et Lune de part et d'autre du canal médian]]
-- [[doctrinal/symboles/janus-bifrons|Janus Bifrons — les deux visages et le troisième]] — `traditionnel` ; le ternaire temporel (futur/présent/passé) et le procédé traditionnel de l'**absence signifiante** : le terme principal est celui qui n'est pas figuré. Volet solsticial `to-source` — `traditionnel` ; vigilance 🔍 sur la non-confusion avec le Soleil/Lune **axiaux** (degrés 24 et 27)
+- [[doctrinal/symboles/janus-bifrons|Janus Bifrons — les deux visages et le troisième]] — `traditionnel` ; le ternaire temporel (futur/présent/passé) et le procédé traditionnel de l'**absence signifiante** : le terme principal est celui qui n'est pas figuré. Volet solsticial (deux portes, deux saints Jean) désormais sourcé via clipping web, `to-source` maintenu sur les citations (texte non collationné) ; vigilance 🔍 sur la non-confusion avec le Soleil/Lune **axiaux** (degrés 24 et 27)
 - [[doctrinal/symboles/mihrab-torii|Le Miḥrāb et le Torii — comparatisme guénonien du Seuil sacré]]
 - [[doctrinal/symboles/outil-faculte-objectivee|L'outil comme faculté objectivée (islamo-platonico-védantin)]]
 - [[doctrinal/symboles/noblesse-spirituelle|La noblesse spirituelle et sociale (comparatisme)]]
@@ -278,6 +278,9 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14|L'Homme et son devenir selon le Vêdânta, ch. IX-XIV (Guénon)]]
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21|L'Homme et son devenir selon le Vêdânta, ch. XV-XXI (Guénon)]] — ⚠️ attributions de chapitres XIX-XXI non vérifiées (signalement du 2026-08-30)
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire|L'Homme et son devenir selon le Vêdânta, ch. XXI : L'artère coronale et le « Rayon solaire » (Guénon)]] — texte primaire ; les 101 nâdîs issues du cœur « comme les rais d'une roue », le ternaire temporel des canaux (futur/présent/passé), l'identité du symbolisme à *Janus Bifrons* posée par Guénon, et le Rayon solaire qui prolonge l'axe au-delà de l'individu en portant le même nom que lui
+- [[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus|Symboles de la Science sacrée, ch. XVIII : Quelques aspects du symbolisme de Janus (Guénon)]] — clipping web, `to-source`
+- [[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices|Symboles de la Science sacrée, ch. XXXVII : Le symbolisme solsticial de Janus (Guénon)]] — clipping web, `to-source`
+- [[doctrinal/sources/manifeste-corpus-symboles-science-sacree|Manifeste du corpus raw/ — Symboles de la Science sacrée (Guénon)]] — mappage mécanique des 91 clippings vers les 75 chapitres de la table des matières ; 74/75 chapitres couverts, seul le ch. XX « Sheth » absent
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26|L'Homme et son devenir selon le Vêdânta, ch. VIII et XXII-XXVI (Guénon)]]
 - [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission|Aperçus sur l'initiation, ch. V et VIII : régularité initiatique et transmission (Guénon)]]
 - [[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles|Aperçus sur l'initiation, ch. VII : contre le mélange des formes traditionnelles (Guénon)]]

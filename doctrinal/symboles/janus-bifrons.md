@@ -6,8 +6,8 @@ tradition_cadre: "hellenisme"
 tags: [janus, bifrons, temps, passe-futur-present, polarite, portes-solsticiales, axe, troisieme-oeil]
 created: 2026-08-30
 updated: 2026-08-30
-sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]"]
-sources_count: 2
+sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]]", "[[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]]"]
+sources_count: 4
 cross_links: ["[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
 
@@ -77,19 +77,41 @@ Pythagoriciens et la lettre Y, *Janus*, et *Ganêsha* chez les Hindous**
 > ([[doctrinal/symboles/polarite-laterale-de-l-axe]]). Les trois attestations se
 > referment donc l'une sur l'autre sans qu'aucun maillon soit rapporté du dehors.
 
-## Ce que cette fiche ne dit pas
+### Le symbolisme solsticial : les deux portes, les deux saints Jean
 
-> 🔍 **Périmètre strict.** Cette fiche ne couvre que le **ternaire temporel** de
-> Janus et son rapport à la polarité latérale de l'axe. Le symbolisme
-> **solsticial** de Janus — les deux portes, *janua coeli* et *janua inferni*,
-> les deux saints Jean, le rapport au Cancer et au Capricorne — n'y est **pas
-> traité**, faute de source relevée au dépôt.
->
-> Guénon y consacre deux textes que Sidy possède, table des matières transcrite
-> (`atelier/rd/bibliotheque/`, consultation humaine, sans wikilink — §VI) :
-> *Symboles de la Science Sacrée*, **ch. XVIII** « Quelques aspects du
-> symbolisme de Janus » (p. 123) et **ch. XXXVII** « Le symbolisme solsticial de
-> Janus » (p. 228). `to-source` sur ce volet, qui reste entier.
+Guénon y consacre deux textes de *Symboles de la Science Sacrée*
+([[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]], ch. XVIII,
+p. 123, et
+[[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]],
+ch. XXXVII, p. 228), désormais disponibles au dépôt via clipping web
+(`to-source` maintenu sur toute citation exacte — texte non collationné sur
+l'exemplaire physique, §VII.2).
+
+Janus, en tant que *Janitor*, ouvre et ferme le cycle annuel avec **deux
+clefs**, celles des **deux portes solsticiales** : *Janua Cœli* (solstice
+d'hiver) et *Janua Inferni* (solstice d'été). Ces mêmes clefs sont, sous un
+autre rapport, celles des « grands mystères » et des « petits mystères »
+(clef d'or / clef d'argent). Les deux portes donnent accès aux deux moitiés
+ascendante et descendante du cycle zodiacal — ce qui reconduit Janus, déjà
+« Maître du triple temps » par son troisième visage, à son autre titre de
+« **Maître des deux voies** » (*dêva-yâna* / *pitri-yâna*, figurées par la
+lettre Y pythagoricienne — le même ternaire à deux visibles et un invisible
+que celui du présent, la « voie du milieu » correspondant au prolongement non
+tracé de la lettre Y).
+
+Dans le **christianisme**, ces deux fêtes solsticiales deviennent celles des
+**deux saints Jean** (Saint-Jean d'hiver, proche de Noël ; Saint-Jean d'été) —
+l'ésotérisme chrétien étant dit « johannite ». Janus était par ailleurs le
+dieu des *Collegia Fabrorum* (corporations d'artisans, dépositaires des
+initiations liées aux métiers) ; leur succession passe, via les corporations
+de constructeurs du moyen âge, aux deux saints Jean comme patrons, d'où la
+« Loge de Saint-Jean » conservée dans la maçonnerie moderne — qui a maintenu
+les fêtes solsticiales comme témoignage vivant de cette filiation.
+
+> 🔍 **Ce que ce volet ne dit pas.** Le texte, tel que disponible ici, ne
+> nomme pas littéralement le Cancer et le Capricorne (il parle de « solstice
+> d'hiver »/« solstice d'été ») ; l'identification zodiacale exacte reste à
+> vérifier sur le texte collationné.
 
 ## Concepts liés
 
