@@ -225,7 +225,45 @@ Rayon solaire**, et que c'est là que les *nâdîs* sont exposés.
   périmètre**, sans quoi il fonctionne comme un label de garantie sur le
   complément.
 
-### 4.2 ⚠️ Une contradiction de numérotation dans la table des 38 degrés
+### 4.2 ⚠️ ~~Une contradiction de numérotation~~ → **RÉSOLU le 2026-08-30 : il n'y avait pas de contradiction**
+
+> ## ✅ Résolution — et le diagnostic ci-dessous était lui-même en défaut
+>
+> Collation faite le 2026-08-30 sur clichés déposés par Sidy (`raw/assets/`).
+> **Les deux « systèmes incompatibles » identifiés ci-dessous n'en étaient pas
+> deux** : le système (a) n'a **aucune existence textuelle**. Les Figures 1 et 2
+> (pp. 91-92) sont des diagrammes **concentriques sans numérotation** ; le rang
+> de leurs anneaux avait été lu comme une suite de numéros de degrés.
+>
+> Le texte primaire (Gloton pp. 36-38, table courante) donne sans ambiguïté :
+> **ʿArsh = degré 17** (qâf), **Kursī = degré 18** (kâf), **Sphère sans étoiles =
+> degré 19** (jîm). Et la Figure 4 (p. 94) numérote les lettres **1-28** là où la
+> table courante les numérote **11-38** : décalage constant de 10, vérifié terme à
+> terme. Même ordre, deux origines.
+>
+> **Ce que ce défaut ajoute au présent rapport.** Il appartient à la même famille
+> que le §2.3 (le plafond silencieux de *Sahasrāra*) et le §2.1 (la convention
+> tacite de `sens_rang`) : **une convention de lecture non déclarée devient
+> indiscernable d'une donnée.** Ici, un rang de dessin s'est fait passer pour un
+> numéro de degré, et a tenu deux jours en bloquant un chantier entier.
+>
+> Il ajoute aussi une aggravation propre : **la demande de collation elle-même
+> visait la mauvaise page.** J'ai demandé les pp. 91-92 (les Figures), alors que
+> la réponse était aux pp. 36-38 (la table courante). Les Figures ne pouvaient pas
+> trancher — c'est justement leur absence de numérotation qui avait créé l'erreur.
+> J'ai donc demandé à l'humain de vérifier, sur la pièce même qui m'avait égaré,
+> une question qu'elle ne pouvait pas résoudre.
+>
+> **Corrigé dans** `doctrinal/symboles/table-28-degres-nafas-rahman.md` (bloc
+> normatif de convention de numérotation ajouté en tête, sections fautives
+> conservées et marquées — Cmd 10) et
+> [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] §5.
+> **Aucune donnée de l'Instrument n'était fausse** : `instrument-donnees.yaml`
+> portait déjà 17 = ʿArsh et 18 = Kursī.
+>
+> **Section conservée ci-dessous telle qu'écrite** (Cmd 10), comme trace.
+
+### ~~4.2 Une contradiction de numérotation dans la table des 38 degrés~~ *(état antérieur, conservé)*
 
 **Défaut nouveau, trouvé en fin de session, et il bloque le chantier que Sidy
 vient d'ouvrir.** `doctrinal/symboles/table-28-degres-nafas-rahman.md` porte deux
@@ -336,12 +374,23 @@ sans coûter d'effort mérite une vérification de plus, pas une de moins.
 5. **Un marqueur de doute doit énoncer son périmètre**, faute de quoi il certifie
    tout ce qu'il ne couvre pas.
 
+**Ajoutée le 2026-08-30, après la collation Gloton (§4.2, résolution) :**
+
+6. **Un nombre lu sur une figure doit déclarer ce qu'il est** — rang de dessin,
+   indice dans une série, ou numéro de degré. À défaut, un rang d'anneau se fait
+   passer pour un degré et la fiche se contredit elle-même sans que rien ne le
+   signale. Corollaire de méthode, plus coûteux encore : **avant de demander une
+   collation à l'humain, vérifier que la page demandée porte bien l'information
+   cherchée.** J'ai fait collationner les Figures — qui ne portaient pas de
+   numérotation, et qui étaient la cause de l'erreur — quand la réponse était dans
+   la table courante, trois pages plus tôt.
+
 ## 8. Ce qui reste ouvert
 
 | Point | Attend |
 |---|---|
-| Contradiction de numérotation de la table des 38 degrés (§4.2) | **collation Sidy**, pp. 91-92 Gloton — **bloque** le chantier §4.3 et la figuration de l'incommensurable |
-| Attributions de chapitres XIX-XXI (§4.1) | collation Sidy sur l'exemplaire |
+| ~~Contradiction de numérotation de la table des 38 degrés (§4.2)~~ | ✅ **RÉSOLU 2026-08-30** — la contradiction n'existait pas dans la source ; ʿArsh = 17, Kursī = 18 ; chantier débloqué, données de l'Instrument déjà justes |
+| ~~Attributions de chapitres XIX-XXI (§4.1)~~ | ✅ **RÉSOLU 2026-08-30** — table des matières collationnée : deux **éditions** coexistent (l'index web reproduit la 1ʳᵉ éd., 26 ch. ; l'exemplaire de Sidy en a 24). L'artère coronale est au **ch. XX** de l'exemplaire (= XXI en 1ʳᵉ éd.). La correction du 2026-08-30 matin, qui la plaçait en XXI, était juste dans le repère web et fausse dans celui de l'exemplaire |
 | 26 entrées d'annales sans SHA (§4.4) | autorisation de réparer |
 | 23 fiches absentes de l'index (§4.4) | autorisation de compléter |
 | Faux positif [A6] (§3.2) | raffiner ou accepter |

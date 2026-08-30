@@ -131,7 +131,54 @@ akbarienne directe citée par Guénon lui-même (Ibn ʿArabī, *Risâlatul-Ahadi
 > *nirguṇa* comme hors-gradation — dont seul le premier est explicitement sourcé
 > au dépôt. **Une fiche `discernement` doit l'instruire.**
 
-## 5. Le Kursī et le ʿArsh — et pourquoi ce volet est BLOQUÉ
+## 5. Le Kursī et le ʿArsh — ~~BLOQUÉ~~ **DÉBLOQUÉ le 2026-08-30**
+
+> ## ✅ Résolution — collation faite, le blocage est levé
+>
+> **Sidy a déposé les clichés demandés** (`raw/assets/IMG_0362`, `IMG_0363`,
+> `IMG_0364`, `IMG_0366`, `IMG_0367`) et la collation a été faite le 2026-08-30.
+> **Le résultat est double, et le second était inattendu.**
+>
+> **1. Le Kursī est au degré 18, le ʿArsh au degré 17.** Gloton p. 38, table
+> courante : `17 | qâf | le Trône divin (ʿarsh)` · `18 | kâf | le Piédestal
+> (kursî)` · `19 | jîm | la Sphère sans étoiles`, ce dernier ouvrant la section
+> « 4 - Les sphères célestes ». Aucune ambiguïté.
+>
+> **2. La contradiction n'existait pas dans la source — elle était de notre
+> fait.** Les Figures 1 et 2 (pp. 91-92) sont des diagrammes **concentriques sans
+> aucune numérotation** ; le rang de leurs anneaux avait été lu comme une suite de
+> numéros de degrés. Le « premier système » du tableau ci-dessous n'a donc jamais
+> eu d'existence textuelle. La Figure 4 (p. 94) numérote les 28 lettres **1-28**
+> (indice de lettre) là où la table courante les numérote **11-38** (degré
+> absolu) : **décalage constant de 10**, vérifié terme à terme (hamza 1→11,
+> qâf 7→17, kâf 8→18, jîm 9→19). Les deux numérotations sont le même ordre.
+>
+> **Conséquence pour ce chantier — et elle est heureuse : le rendu actuel était
+> déjà le bon.** Les degrés 11-38 sur l'axe et 1-10 en halo « Hāhūt, non
+> manifesté » sont confirmés par le texte primaire. `instrument-donnees.yaml`
+> portait déjà `17 · qâf — le Trône, ʿarsh` et `18 · kâf — le Piédestal, kursî` :
+> **aucune donnée n'est à modifier.** Le Kursī et le ʿArsh tombent tous deux
+> **dans la zone rendue**, non dans le halo — la frontière manifesté /
+> non-manifesté n'est pas où ils se trouvent.
+>
+> **Ce que la collation ajoute au chantier**, et qui le nourrit directement : le
+> degré 19 ouvre les sphères célestes, et la **Figure 3** (p. 93) est titrée
+> « LE PIEDESTAL » en contenant le zodiaque entier, les sept Jardins et la Sphère
+> étoilée. Le Kursī est donc **la borne supérieure du cosmos formel**, et le Trône
+> qui l'enveloppe est dit « au-delà de la spatialité et de la temporalité ».
+> **L'articulation Kursī → ʿArsh est exactement le passage du mesurable à
+> l'incommensurable** — c'est-à-dire le sujet même de ce chantier, désormais
+> figurable. Gloton p. 38 : le Piédestal « est dans le Trône comme l'anneau jeté
+> dans le désert ».
+>
+> Détail complet de la correction et convention de numérotation désormais
+> déclarée : [[doctrinal/symboles/table-28-degres-nafas-rahman]] (lien signalé,
+> sens `atelier/rd/` → `doctrinal/` autorisé).
+>
+> **La section ci-dessous est conservée telle qu'elle a été écrite** (Cmd 10),
+> comme trace du diagnostic et de sa levée.
+
+### ~~Le Kursī et le ʿArsh — et pourquoi ce volet est BLOQUÉ~~ *(état antérieur, conservé)*
 
 Sidy indique « l'idée d'échelle qui est en rapport avec ce que l'Islam dit des
 différents cieux en rapport avec le Kursī (piédestal) puis le ʿArsh (le Trône) ».
@@ -163,6 +210,13 @@ quel côté de la frontière elle tombe.**
 > **Résolution requise, et par qui** : collation des **pages 91-92** de Gloton,
 > *De la mort à la résurrection* — exemplaire de Sidy. C'est un point de texte,
 > pas d'interprétation. **Aucune modification n'a été faite à la fiche.**
+>
+> ✅ **Collation faite le 2026-08-30 — voir le bloc de résolution en tête de
+> section.** Note rétrospective : la demande visait les pp. 91-92 (les Figures),
+> mais **la réponse était aux pp. 36-38** (la table courante). Les Figures ne
+> pouvaient pas trancher, n'étant pas numérotées — c'est précisément ce qui avait
+> produit l'erreur. Leçon de méthode : *avant de demander une collation, vérifier
+> que la page demandée est bien celle qui porte l'information cherchée.*
 
 ### 5 bis. ⚠️ Avertissement sur le volet kabbalistique
 
@@ -243,7 +297,7 @@ Une mention permanente en légende, sans modification de la figure.
 
 | # | À instruire | Où | Bloque |
 |---|---|---|---|
-| 1 | **Collation pp. 91-92 Gloton** — laquelle des deux numérotations | Sidy, exemplaire physique | §5, et toute figuration de la frontière |
+| 1 | ~~**Collation pp. 91-92 Gloton** — laquelle des deux numérotations~~ | Sidy, exemplaire physique | ✅ **FAIT le 2026-08-30** — voir §5. Les deux numérotations n'en faisaient qu'une ; ʿArsh = 17, Kursī = 18 ; **le rendu actuel était déjà juste** |
 | 2 | **Le procédé de l'absence signifiante est-il transposable du latéral au vertical ?** | fiche `discernement/` à ouvrir | Option A |
 | 3 | **La gradation est-elle une gradation de qualités, et *nirguṇa* est-il donc hors-échelle ?** | fiche `discernement/` à ouvrir | le fondement de tout le reste (§4) |
 | 4 | **Kursī → ʿArsh : le rapport à l'échelle des cieux** | fiche `discernement/`, après (1) | §5 |
