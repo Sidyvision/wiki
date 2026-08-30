@@ -244,6 +244,12 @@ AXES_REGISTRE = {"principal", "parallele"}
 # rapprochement sept Pôles ↔ laṭāʾif). Champ OPTIONNEL : un registre qui ne le
 # déclare pas n'est pas refusé, il n'est simplement pas contrôlable sur ce point.
 ECHELLES_REGISTRE = {"macrocosmique", "microcosmique", "transcalaire"}
+# v0.2.7 (2026-08-30) : sens d'énumération des rangs, PROPRE À CHAQUE TRADITION.
+# La Kabbale énumère du haut (Kether=1) ; le Kundalinî-yoga et le Vêdânta
+# énumèrent du bas (Mūlādhāra=1, Vaishwânara=1). Sans ce champ, un rendu qui
+# suppose « rang 1 = sommet » place le centre-RACINE à la couronne — défaut
+# effectivement présent depuis le 2026-08-20, relevé par test le 2026-08-30.
+SENS_RANG_REGISTRE = {"ascendant", "descendant"}
 
 
 def valider_registres(registres, fiches: dict, erreurs: list, avertissements: list):
@@ -290,6 +296,9 @@ def valider_registres(registres, fiches: dict, erreurs: list, avertissements: li
         ech = reg.get("echelle")
         if ech is not None and ech not in ECHELLES_REGISTRE:
             erreurs.append(f"{ctx} : « echelle » doit valoir {sorted(ECHELLES_REGISTRE)} (reçu {ech!r})")
+        sr = reg.get("sens_rang")
+        if sr is not None and sr not in SENS_RANG_REGISTRE:
+            erreurs.append(f"{ctx} : « sens_rang » doit valoir {sorted(SENS_RANG_REGISTRE)} (reçu {sr!r})")
 
         fiche = str(reg.get("fiche", "")).strip()
         if not fiche:

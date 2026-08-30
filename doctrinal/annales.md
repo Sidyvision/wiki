@@ -9,6 +9,43 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage | Arthur Avalon, *La Puissance du Serpent* — le réseau des nâdîs
+
+- **Fiche source créée** : `doctrinal/sources/avalon-serpent-power-nadis-reseau.md`
+  (`status: academique`), sur la copie de travail déposée par Sidy. Périmètre
+  volontairement borné au **réseau des nâdîs et aux trois canaux** (chap. I et
+  V) ; le reste de l'ouvrage est signalé non relevé.
+- **Statut et dépendance établis** : Avalon est orientaliste, donc `academique`,
+  subordonné à Guénon (`traditionnel`). Mais Guénon **commente précisément
+  l'introduction de ce livre**, et le **traduit presque mot pour mot** sur le
+  point qui nous occupait — « des lignes subtiles de direction que suivent les
+  forces vitales ». La dépendance est consignée : sur ce point, citer Guénon,
+  c'est citer Avalon. Divergences conservées : Guénon refuse la lecture d'Avalon
+  du mot *yoga*, et écarte ses correspondances nerveuses.
+- **Ce que le dépôt cherchait — le réseau est chiffré et hiérarchisé** :
+  72 000 nâdîs (*Bhûtashuddi Tantra*) ; 300 000 et 350 000 selon deux autres
+  traités, **divergence non harmonisée** ; 700 cordons ; **14 principales** ;
+  **3 les plus importantes** ; **1 principale** (*Suṣumnā*, « toutes les autres
+  lui sont subordonnées »).
+- **Structure concentrique de l'axe** : *Suṣumnā* (tāmasique, feu) contient
+  *Vajrā* (rājasique, soleil) qui contient *Chitriṇī* (sāttvique, lune), dont
+  l'intérieur est la *Brahma Nāḍī*. Kundalinī monte par *Chitriṇī*, non par
+  *Suṣumnā* prise largement.
+- **Conséquence pour la vigilance polaire/solaire** : le Soleil et la Lune se
+  retrouvent **à l'intérieur même de l'axe**, et pas seulement de part et
+  d'autre — Avalon parle des trois *Bindu* « qui sont le Soleil, la Lune et le
+  Feu ». La polarité est donc répétée à **trois échelles** (cosmique, latérale,
+  intra-axiale) : elle n'est pas réductible à une latéralité.
+- **Nomenclature nouvelle, absente de Guénon** : les trois canaux portent les
+  noms des trois fleuves sacrés — *Gaṅgā* (*Iḍā*), *Yamunā* (*Piṅgalā*),
+  ***Sarasvatī*** (*Suṣumnā*), le fleuve invisible pour le canal central caché.
+- **Donnée décisive** : les canaux latéraux **ne montent pas jusqu'au sommet**.
+  Ils courent du *Mūlādhāra* (*Yuktatriveṇī*, où les trois fleuves se
+  réunissent) à l'*Ājñā* (*Muktatriveṇī*, où ils s'écoulent séparément), où ils
+  « entrent dans la *Suṣumnā* ». Au-dessus d'*Ājñā*, plus de latéralité — c'est
+  aussi pourquoi le caducée se forme avec les deux pétales de l'*Ājñā Chakra*.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+
 ## [2026-08-30] discernement | Unification des axes verticaux, et résolution de l'obstacle des deux séries prophétiques
 
 - **Discernement ouvert et clos** :

@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.5",
-  "generated_at": "2026-08-30T06:01:15+00:00",
-  "source_commit": "73b215a624026920ccbf82e7d228675e86b0106c",
+  "generated_at": "2026-08-30T06:43:42+00:00",
+  "source_commit": "e6f241d6cf97c448e12f419a62a8456494aa0633",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -723,6 +723,8 @@
     },
     {
       "id": "qabbalah",
+      "sens_rang": "descendant",
+      "sens_rang_note": "Kether (rang 1) est la Couronne, au SOMMET ; Malkhut (rang 10) le Royaume, en bas. Énumération descendante.",
       "echelle": "transcalaire",
       "echelle_note": "Émanations cosmiques, mais Guénon en prend la CORRESPONDANCE HUMAINE pour comparer aux chakras — d'où le caractère transcalaire.",
       "label": "Qabbalah — l'Arbre séphirothique",
@@ -895,6 +897,8 @@
     },
     {
       "id": "hindouisme-tantra",
+      "sens_rang": "ascendant",
+      "sens_rang_note": "Mūlādhāra (rang 1) est le centre-RACINE, à la BASE de la colonne ; Sahasrāra (rang 7) au sommet de la tête. Guénon énumère « dans le sens ascendant ».",
       "echelle": "microcosmique",
       "echelle_note": "Centres « localisés » dans le corps humain (divisions de la colonne vertébrale). Leur pendant macrocosmique est la série des sept lokas, non déclarée.",
       "label": "Hindouisme (Tantra) — les chakras sur sushumnā",
@@ -923,6 +927,8 @@
         }
       },
       "figuration": "caducée · bâton brahmanique (Brahma-danda, sept nœuds)",
+      "canal_debut": "hindouisme/muladhara",
+      "canal_fin": "hindouisme/ajna",
       "domaines": [
         {
           "id": "hindouisme/muladhara",
@@ -977,6 +983,8 @@
     },
     {
       "id": "vedanta",
+      "sens_rang": "ascendant",
+      "sens_rang_note": "Vaishwânara (rang 1) est la manifestation GROSSIÈRE, en bas ; Turīya (rang 4) l'inconditionné, au sommet.",
       "echelle": "transcalaire",
       "echelle_note": "Vaishwânara est à la fois Virāj (macrocosme) et l'état de veille individuel (microcosme).",
       "label": "Vêdânta — les quatre états (pâdas) d'Âtmâ",

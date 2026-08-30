@@ -10,6 +10,39 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/instrument | Avalon (v0.7.1) : deux défauts de rendu révélés par le test, corrigés
+
+- **Défaut 1 — canaux latéraux trop longs.** Le rendu d'hier faisait courir
+  *iḍā* et *piṅgalā* sur toute la hauteur du registre. Avalon est explicite :
+  elles s'arrêtent à l'*Ājñā*, où elles « entrent dans la *Sushumnâ* ». Corrigé
+  par deux champs de donnée, `canal_debut` / `canal_fin`, lus par le rendu —
+  bornes jamais codées en dur.
+- **Défaut 2 — deux registres rendus À L'ENVERS, depuis le 2026-08-20.** Le
+  rendu supposait « rang 1 = sommet » pour tous. Or `rang` enregistre l'ordre
+  **propre à chaque tradition** : la Kabbale énumère du haut (Kether = 1, la
+  Couronne), le Kundalinî-yoga et le Vêdânta énumèrent du bas (Mūlādhāra = 1,
+  le centre-**racine** ; Vaishwânara = 1, le plus grossier). Conséquence : **le
+  centre-racine était placé à la couronne** et *Sahasrāra* à la base ; idem pour
+  *Turīya* et *Vaishwânara*. Corrigé par un champ `sens_rang`
+  (ascendant | descendant), lu dans la donnée, validé par le générateur
+  (v0.2.7).
+- **Portée du second défaut** : il touchait aussi les ancrages déclarés hier —
+  *Kether* (sommet) ↔ *Sahasrāra* (alors rendu à la base) aurait figuré une
+  équivalence entre un sommet et une base.
+- **Aucun des deux n'a été trouvé par relecture** : tous deux sont sortis du
+  test mécanique du prototype. C'est exactement le motif du §VIII point 2.
+- **Validation mécanique indépendante (rapport brut)** : après correction,
+  Qabbalah `Kether` en haut / `Malkhut` en bas ; Tantra `Sahasrāra` +8,5 /
+  `Mūlādhāra` −8,5 ; Vêdânta `Turīya` +8,5 / `Vaishwânara` −8,5. Canaux :
+  `yMax 5,17` (*Ājñā*) → `yMin −8` (*Mūlādhāra*), bornés comme le texte le
+  demande et non plus jusqu'au sommet. `2 canaux rendus, 122 objets, aucune
+  pageerror`. Générateur : `44 nœuds, 22 ancrages, 4 registres, 0
+  avertissement`. `verifier-invariants.py` → `0 erreur(s), 1 avertissement(s)`
+  (A6 préexistant).
+- **Reste ouvert, signalé** : les 11 ancrages inter-registres déclarés hier sont
+  dans le manifeste mais **ne sont pas rendus** — le prototype ne trace que les
+  ancrages du nœud Homme Universel. À traiter séparément.
+
 ## [2026-08-30] rd/instrument | AXE UNIFIÉ (v0.7.0) + champ `echelle` + déduction du réseau subtil
 
 - **Déduction (fiche R&D)** :
@@ -53,6 +86,22 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   pièce manquante) ; instruire cieux planétaires ↔ *lokas* (macro ↔ macro,
   jamais tenté, les deux séries étant au dépôt) ; lire les 22 sentiers
   séphirothiques comme réseau de canaux (piste de fond).
+
+## [2026-08-30] rd/bibliotheque | intégration — Arthur Avalon, *La Puissance du Serpent* (1959)
+
+Ouvrage ajouté au catalogue (§III — Orient, écritures sacrées et traditions
+occidentales), à côté d'Emmanuelli. Édition physique possédée : Éditions Dervy
+(coll. « L'Être et l'Esprit »). Source numérique : PDF `raw/695841658-La-Puissance-Du-Serpent.pdf`
+(édition antérieure Paul Derain, Lyon, 1959) converti en `raw/La-Puissance-Du-Serpent.md`
+(pymupdf4llm, 288 pages, OCR Tesseract sur planches) et copié en
+`_inbox/la-puissance-du-serpent.md` pour consultation. Trad. Charles Vachot sur
+la 4e éd. anglaise (Ganesh & Cie, Madras, 1950), préface Jean Herbert. Ouvrage
+de référence sur les chakras (*padma*), le mantra, la conscience incarnée
+(*jīvātman*), le *laya-krama* et les bases théoriques du yoga tantrique ; orné
+de 8 planches couleur + 4 tableaux.
+
+---
+
 
 ## [2026-08-29] rd/instrument | polarité latérale versée en donnée et RENDUE (canaux hélicoïdaux)
 
@@ -228,22 +277,6 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Non fait** : les 24 photos elles-mêmes restent dans `_inbox/`, non
   déplacées (Cmd 10 — pas de suppression/déplacement sans confirmation
   explicite de Sidy).
-
-## [2026-08-30] rd/bibliotheque | intégration — Arthur Avalon, *La Puissance du Serpent* (1959)
-
-Ouvrage ajouté au catalogue (§III — Orient, écritures sacrées et traditions
-occidentales), à côté d'Emmanuelli. Édition physique possédée : Éditions Dervy
-(coll. « L'Être et l'Esprit »). Source numérique : PDF `raw/695841658-La-Puissance-Du-Serpent.pdf`
-(édition antérieure Paul Derain, Lyon, 1959) converti en `raw/La-Puissance-Du-Serpent.md`
-(pymupdf4llm, 288 pages, OCR Tesseract sur planches) et copié en
-`_inbox/la-puissance-du-serpent.md` pour consultation. Trad. Charles Vachot sur
-la 4e éd. anglaise (Ganesh & Cie, Madras, 1950), préface Jean Herbert. Ouvrage
-de référence sur les chakras (*padma*), le mantra, la conscience incarnée
-(*jīvātman*), le *laya-krama* et les bases théoriques du yoga tantrique ; orné
-de 8 planches couleur + 4 tableaux.
-
----
-
 
 ## [2026-08-29] réparation | Frontmatter du compte-rendu GitHub automation (clés `created`/`updated`)
 

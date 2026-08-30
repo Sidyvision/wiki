@@ -847,10 +847,23 @@ var posNotionnels = {};
     });
     var nbNiveaux = niveau;
 
+    // -- SENS D'ÉNUMÉRATION — corrigé le 2026-08-30 ------------------------
+    //   `rang` enregistre l'ordre PROPRE À CHAQUE TRADITION, et cet ordre n'a
+    //   pas le même sens partout : la Kabbale énumère du haut (Kether=1, la
+    //   Couronne), le Kundalinî-yoga et le Vêdânta énumèrent du bas
+    //   (Mūlādhāra=1, le centre-RACINE ; Vaishwânara=1, le plus grossier).
+    //   Le rendu supposait « rang 1 = sommet » pour tous : il plaçait donc le
+    //   centre-racine à la couronne et Sahasrāra à la base — deux registres
+    //   sur quatre à l'envers, depuis le 2026-08-20. Défaut relevé par test
+    //   mécanique, non par relecture.
+    //   Le sens est désormais lu DANS LA DONNÉE (`sens_rang`), jamais supposé.
     var yHaut = yDeg[11], yBas = yDeg[38];
+    var ascendant = (reg.sens_rang === "ascendant");
     var yDuNiveau = function(n){
-      return (nbNiveaux <= 1) ? (yHaut + yBas) / 2
-           : yHaut + (yBas - yHaut) * ((n - 1) / (nbNiveaux - 1));
+      if (nbNiveaux <= 1) return (yHaut + yBas) / 2;
+      var t = (n - 1) / (nbNiveaux - 1);
+      if (ascendant) t = 1 - t;          // rang 1 en bas
+      return yHaut + (yBas - yHaut) * t;
     };
     var xDeCol = function(c){
       return c === "droite" ? ECART_COL : (c === "gauche" ? -ECART_COL : 0);
@@ -894,7 +907,25 @@ var posNotionnels = {};
     //    Ce sont des VOIES, jamais des centres — aucun marqueur n'y est posé,
     //    conformément au schéma (les registres ne portent que des centres).
     if (reg.canaux){
-      var yA = yDuNiveau(1) + .5, yB = yDuNiveau(nbNiveaux) - .5;
+      // BORNES DU PARCOURS LATÉRAL — corrigé le 2026-08-30 sur Avalon.
+      //   Une première version faisait courir les hélices sur TOUTE la hauteur
+      //   du registre. C'était faux : « Quand elles atteignent l'espace entre
+      //   les sourcils, connu sous le nom d'Ajnâ Chakra, Idâ et Pingalâ
+      //   ENTRENT DANS LA SUSHUMNÂ » (La Puissance du Serpent, chap. V).
+      //   Au-dessus d'Ājñā il n'y a plus de latéralité, seulement l'axe.
+      //   Les deux bornes portent chacune un nom : Mūlādhāra = Yuktatriveṇī
+      //   (les trois fleuves s'y réunissent), Ājñā = Muktatriveṇī (ils s'en
+      //   écoulent séparément). Bornes lues DANS LA DONNÉE (canal_debut /
+      //   canal_fin du registre), jamais codées en dur.
+      //   Voir doctrinal/sources/avalon-serpent-power-nadis-reseau.md.
+      var nivDe = function(idDom){
+        var t = doms.filter(function(d){ return d.id === idDom; })[0];
+        return t ? t._niv : null;
+      };
+      var nDeb = reg.canal_debut ? nivDe(reg.canal_debut) : null;
+      var nFin = reg.canal_fin   ? nivDe(reg.canal_fin)   : null;
+      var yA = yDuNiveau(nDeb !== null ? nDeb : 1) + .5;
+      var yB = yDuNiveau(nFin !== null ? nFin : nbNiveaux) - .5;
       Object.keys(reg.canaux).forEach(function(k){
         var cn = reg.canaux[k];
         if (!cn || typeof cn !== "object") return;      // ancienne forme (chaîne) : ignorée
@@ -914,6 +945,7 @@ var posNotionnels = {};
         hel.userData = {
           label: k + " — " + (cn.label || "canal latéral"),
           deg: "canal (nâdī), non un centre : aucune étape ne s'y situe"
+             + (reg.canal_debut && reg.canal_fin ? " · court de " + reg.canal_debut + " à " + reg.canal_fin + " — au-delà, plus de latéralité : seulement l'axe" : "")
              + (cn.correspondance_cosmique ? " · correspondance cosmique : " + cn.correspondance_cosmique : "")
              + (cn.colonne_sephirothique ? " · colonne séphirothique : " + cn.colonne_sephirothique : "")
              + (cn.note ? " · " + cn.note : ""),
@@ -960,7 +992,7 @@ var posNotionnels = {};
     });
 
     var titre = etiquette(abreger(reg.label, 30), .52, "rgba(207,228,216,.7)");
-    titre.position.set(0, yDuNiveau(1) + 1.5, zL); gReg.add(titre);
+    titre.position.set(0, yDuNiveau(ascendant ? nbNiveaux : 1) + 1.5, zL); gReg.add(titre);
   });
 
   // -- Bascule du mode : touche « U », ou clic sur l'entrée de légende -------

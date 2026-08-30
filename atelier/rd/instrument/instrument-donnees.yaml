@@ -1,5 +1,18 @@
 # =============================================================================
-# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.7.0)
+# instrument-donnees.yaml — Déclaration applicative de l'Instrument (v0.7.1)
+#
+#   v0.7.1 (2026-08-30) : AVALON. Deux corrections de rendu, l'une et l'autre
+#     révélées par le test mécanique du prototype, non par relecture :
+#     1. `canal_debut` / `canal_fin` — idâ et pingalâ courent du Mūlādhāra à
+#        l'Ājñā, où elles « entrent dans la Sushumnâ » (Avalon, chap. V) ;
+#        au-dessus, plus de latéralité. Le rendu les faisait courir sur toute
+#        la hauteur du registre. Bornes nommées : Yuktatriveṇī / Muktatriveṇī.
+#     2. `sens_rang` (ascendant | descendant) — `rang` enregistre l'ordre
+#        PROPRE À CHAQUE TRADITION, et cet ordre n'a pas le même sens partout.
+#        Faute de ce champ, le rendu supposait « rang 1 = sommet » pour tous et
+#        plaçait le centre-RACINE à la couronne : hindouisme-tantra et vedanta
+#        étaient rendus À L'ENVERS depuis le 2026-08-20.
+#     Source : doctrinal/sources/avalon-serpent-power-nadis-reseau.md.
 #
 #   v0.7.0 (2026-08-30) : UNIFICATION DES AXES + champ `echelle`. Verdict de
 #     Sidy : l'Axe du Monde, le filament de l'Insān al-Kāmil, le Pôle, la
@@ -533,6 +546,8 @@ registres:
   # AUCUN degré akbarien n'est attribué : la qabbalah ne les donne pas, et rien
   # ici ne prétend les aligner.
   - id: qabbalah
+    sens_rang: descendant   # sens d'énumeration propre à la tradition — voir v0.7.1
+    sens_rang_note: "Kether (rang 1) est la Couronne, au SOMMET ; Malkhut (rang 10) le Royaume, en bas. Énumération descendante."
     echelle: transcalaire          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
     echelle_note: "Émanations cosmiques, mais Guénon en prend la CORRESPONDANCE HUMAINE pour comparer aux chakras — d'où le caractère transcalaire."
     label: "Qabbalah — l'Arbre séphirothique"
@@ -601,6 +616,8 @@ registres:
   # Donnée non exploitée à ce jour : idâ ↔ Lune, pingalâ ↔ Soleil, sushumnâ ↔
   # principe igné.
   - id: hindouisme-tantra
+    sens_rang: ascendant   # sens d'énumeration propre à la tradition — voir v0.7.1
+    sens_rang_note: "Mūlādhāra (rang 1) est le centre-RACINE, à la BASE de la colonne ; Sahasrāra (rang 7) au sommet de la tête. Guénon énumère « dans le sens ascendant »."
     echelle: microcosmique          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
     echelle_note: "Centres « localisés » dans le corps humain (divisions de la colonne vertébrale). Leur pendant macrocosmique est la série des sept lokas, non déclarée."
     label: "Hindouisme (Tantra) — les chakras sur sushumnā"
@@ -639,6 +656,17 @@ registres:
     # brahmanique (Brahma-danda) à sept nœuds figurant les sept lotus. Rapport
     # signalé par Guénon avec les trois « Grandes Lumières » maçonniques.
     figuration: "caducée · bâton brahmanique (Brahma-danda, sept nœuds)"
+    # BORNES DU PARCOURS LATÉRAL (Avalon, La Puissance du Serpent, chap. V) :
+    # idâ et pingalâ courent du Mūlādhāra à l'Ājñā, où elles « entrent dans la
+    # Sushumnâ ». Au-dessus d'Ājñā, plus de latéralité — seulement l'axe. C'est
+    # aussi pourquoi la figure du caducée se forme avec les DEUX PÉTALES de
+    # l'Ājñā Chakra. Les deux bornes sont nommées dans le texte :
+    #   Mūlādhāra = Yuktatriveṇī (les trois « fleuves » s'y réunissent)
+    #   Ājñā      = Muktatriveṇī (ils s'en écoulent séparément)
+    # Corrige un rendu antérieur qui faisait courir les canaux sur toute la
+    # hauteur du registre.
+    canal_debut: hindouisme/muladhara
+    canal_fin: hindouisme/ajna
     domaines:
       - {id: hindouisme/muladhara, label: "Mūlādhāra — centre-racine", rang: 1, colonne: milieu}
       - {id: hindouisme/swadhishthana, label: "Swādhishthāna", rang: 2, colonne: milieu}
@@ -662,6 +690,8 @@ registres:
   # DISTINCT du registre `hindouisme-tantra` : autre ouvrage, autre doctrine
   # (États d'Âtmâ vs Kundalinî/chakras) — non fondu, malgré l'origine commune.
   - id: vedanta
+    sens_rang: ascendant   # sens d'énumeration propre à la tradition — voir v0.7.1
+    sens_rang_note: "Vaishwânara (rang 1) est la manifestation GROSSIÈRE, en bas ; Turīya (rang 4) l'inconditionné, au sommet."
     echelle: transcalaire          # voir rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md §4.2
     echelle_note: "Vaishwânara est à la fois Virāj (macrocosme) et l'état de veille individuel (microcosme)."
     label: "Vêdânta — les quatre états (pâdas) d'Âtmâ"
