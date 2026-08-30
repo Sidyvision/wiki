@@ -1,13 +1,27 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-29
+updated: 2026-08-30
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-30] rd/autorites | création — Charles-André Gilis (Abd ar-Razzâq Yahyâ) et Michel Vâlsan (Cheikh Mustafâ Abd al-Azîz)
+
+- **Opération** : CRÉATION — deux fiches d'autorité manquantes, signalées depuis l'entrée du 2026-07-10 (Sept Étendards du Califat) comme backticks vides `` et `` dans les annales.
+- **Créés** :
+  - [[doctrinal/autorites/charles-andre-gilis]] — traducteur des Sept Étendards (Éditions Traditionnelles, 1993), fondateur des Éditions Le Turban Noir (leturbannoir.com), disciple de Vâlsan, continuateur des Études Traditionnelles.
+  - [[doctrinal/autorites/michel-valsan]] — disciple de René Guénon, traducteur et commentateur d'Ibn ʿArabī, fondateur des Études Traditionnelles, auteur du Triangle de l'Androgyne et de L'Islam et la fonction de René Guénon.
+- **Réparations** :
+  - `doctrinal/sources/sept-etendards-califat.md` : `cross_links` complété (`michel-valsan` ajouté).
+  - `doctrinal/annales.md` : backticks vides remplacés par les wikilinks réels, VIGILANCE mise à jour.
+- **Source** : leturbannoir.com (maison d'édition de Gilis, bulletins et ouvrages).
+- **Vérification** : graphe passe de 66 à 65 liens morts, 1475 arêtes (1467 → 1475, +8 nouvelles arêtes via les fiches créées).
+
+---
 
 ## [2026-08-29] discernement | ouverture | Axe du Monde (validée) et Octogone/Barzakh (en cours)
 
@@ -1594,9 +1608,9 @@ intégralement avant citation.
 - **Créé** : [[doctrinal/sources/sept-etendards-califat]] (`source`, `traditionnel`, islam) — avant-propos (p. 7-8), table des matières complète (40 chapitres en 3 parties), index des termes arabes (p. 313-318, 6 pages, hamza à z).
 - **Non transcrit** : corps du texte (chapitres I à XL, p. 13-311) — reste `to-source`.
 - **Pertinence** : source majeure sur le Califat ésotérique akbarien ; relie [[doctrinal/autorites/ibn-arabi]] et [[doctrinal/autorites/rene-guenon]] via la doctrine des sept Étendards (chap. XXXVIII) et le Califat Suprême (chap. XL). Complète l'ouvrage Gilis déjà présent [[doctrinal/sources/gilis-ordo-ab-chao]].
-- **Frontmatter** : `sources` ajouté (pointe vers `` — fiche à créer) ; `status` passé de `to-source` à `traditionnel` ; `cross_links` ramené à deux cibles vérifiées présentes (ibn-arabi, rene-guenon).
+- **Frontmatter** : `sources` ajouté (pointe vers [[doctrinal/autorites/charles-andre-gilis]] — fiche à créer) ; `status` passé de `to-source` à `traditionnel` ; `cross_links` ramené à trois cibles vérifiées présentes (ibn-arabi, rene-guenon, michel-valsan).
 - **VIGILANCE** :
-  1. `` et `` : fiches inexistantes. Gilis référencé en `sources:` (cible manquante signalée), Vâlsan retiré des `cross_links` pour éviter le lien mort.
+  1. `charles-andre-gilis` et `michel-valsan` : fiches créées le 2026-08-30. Gilis (Abd ar-Razzâq Yahyâ) est l'auteur des Éditions Le Turban Noir (leturbannoir.com), disciple de Vâlsan et continuateur des Études Traditionnelles.
   2. L'entrée index placée en §VI (Sources), après les Révélations de La Mecque.
 - **Sas** : fichier retiré de `_inbox/` après intégration validée.
 

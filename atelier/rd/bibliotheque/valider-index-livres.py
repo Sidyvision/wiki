@@ -162,7 +162,14 @@ def controle_photos(rap, fiche, fm, racine_raw):
         return
     dossier = fm.get("dossier_raw", "").strip().strip('"')
     if dossier and racine_raw:
-        chemin = os.path.join(racine_raw, dossier)
+        # Normalisation NFC/NFD : les noms de dossier accentués peuvent être
+        # stockés en NFD sur le système de fichiers mais déclarés en NFC dans
+        # le frontmatter (ou l'inverse). Normaliser avant comparaison.
+        dossier_norm = unicodedata.normalize('NFC', dossier)
+        chemin = os.path.join(racine_raw, dossier_norm)
+        # Essayer aussi le chemin original si la normalisation échoue
+        if not os.path.isdir(chemin):
+            chemin = os.path.join(racine_raw, dossier)
         if os.path.isdir(chemin):
             presents = set()
             for nom in os.listdir(chemin):
