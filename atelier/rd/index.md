@@ -3,7 +3,7 @@ title: "Pôle R&D de l'atelier — charte du lieu"
 type: index
 tags: [atelier, rd, infrastructure, souverainete]
 created: 2026-08-08
-updated: 2026-08-28
+updated: 2026-08-30
 sources: []
 links: []
 ---
@@ -53,7 +53,10 @@ atelier/rd/
 ├── veille/            ← veille externe R&D (GitHub, arXiv, dépôts) —
 │                         ouvert 2026-08-18, hebdomadaire, qualitatif
 ├── cahiers/           ← cahiers append-only : registre-problemes.md (ouvert
-│                         2026-08-08), cahiers d'expérience à venir (phase 2)
+│                         2026-08-08, échecs/blocages), journal-optimisations.md
+│                         (ouvert 2026-08-30, réussites — miroir du registre),
+│                         bilan-pont 2026-08-15, comptes-rendus de sessions ;
+│                         cahiers d'expérience à venir (phase 2)
 ├── bibliotheque/      ← catalogue de la bibliothèque physique (déplacé de
 │                         `meta/` le 2026-08-22), fiches `index-livre`
 │                         transcrites des index et glossaires photographiés,

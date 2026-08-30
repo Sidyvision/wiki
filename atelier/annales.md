@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/cahiers | Ouverture du journal des optimisations
+
+- **Ouverture d'un quatrième cahier** dans `rd/cahiers/` (verdict Sidy, séance
+  WebUI 2026-08-30). Le registre-problèmes consigne les échecs/blocages ; le
+  journal des optimisations consigne les réussites (procédures améliorées,
+  scripts corrigés, contrôles ajoutés). Même régime append-only, même format
+  factuel (phase 1, aucune interprétation — la « leçon » d'une optimisation
+  viendra en phase 2 dans une fiche séparée, quand plusieurs entrées auront
+  le même motif).
+- **Arborescence `rd/index.md`** mise à jour : le cahier est cité en regard de
+  `registre-problemes.md` dans la description de `cahiers/`.
+- **Fichier créé** : [[atelier/rd/cahiers/journal-optimisations]].
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` à
+  exécuter à la clôture de la séance (nouveau fichier `type: meta`, hors des
+  contrôles doctrinaux — aucune C1/A1/A2 attendue).
+- **Commit** : à compléter à la clôture.
+
 ## [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photographiés, et une quatrième description de la discontinuité signalée au chantier
 
 - **Catalogue de la bibliothèque** — traçabilité des pages photographiées ajoutée
