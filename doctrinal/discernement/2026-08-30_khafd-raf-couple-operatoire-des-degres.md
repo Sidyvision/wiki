@@ -59,6 +59,19 @@ al-Aʿrāf**.
 >    manifeste par le pouvoir des Noms divins : *il donne et il refuse ; il fait
 >    mourir et il donne la vie ; **il élève et il abaisse*** ».
 >
+> ✅ **Contrôle de provenance (ajouté le 2026-08-30, nuit, sur cliché des
+> couvertures).** L'apparat éditorial de Rāzī est désormais établi : traduction
+> **Maurice Gloton**, préface Pierre Lory, **Albouraq**, coll. « Héritage
+> Spirituel » — le même traducteur que celui d'Ibn ʿArabī, *De la mort à la
+> résurrection*, et du lexique coranique. Cela appelait une vérification, puisque
+> tout le dossier repose sur les mots français « élever » et « abaisser ».
+> **Vérification faite, et le résultat est favorable** : les points 2 et 3
+> ci-dessus sont traduits par **ʿAbd al-Hâdi** et **Charles-André Gilis**, et
+> Coran LVI, 3 est un fait de langue arabe. Le couple est donc attesté par **trois
+> voies indépendantes de Gloton**. La convergence n'est pas un effet de plume.
+> Détail : [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]], § « Un seul
+> traducteur pour trois piliers ».
+>
 > Les points 2 et 3 **étaient déjà au dépôt** et n'avaient jamais été rapprochés.
 > Ils rattachent le couple non pas à n'importe quelle fonction, mais à la
 > **fonction polaire et califale** — c'est-à-dire au *Quṭb*, terme que la fiche
@@ -109,15 +122,31 @@ registre du *dīn* (*iḍlāl*/*irshād*) et celui de ce bas-monde (*iʿlāʾ*/*
 
 **Ce point doit être tranché avant tout report en donnée.**
 
-### 2. *Darajāt* : un mot, deux référents
+### 2. « Degrés » : un mot français, deux référents
 
 *Darajāt* en 40:15 et 58:11 désigne des degrés de **rang et de réalisation**
-spirituelle. Les *marātib* du chapitre 198 des *Futūḥāt* sont des degrés
+spirituelle. Les degrés du chapitre 198 des *Futūḥāt* sont des degrés
 **cosmologiques** de la procession du Souffle. La fiche
 [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]] a relevé
 l'univocité lexicale et l'a jugée « cohérence forte » — ce qu'elle est. Mais
 l'identité **lexicale** n'est pas l'identité **de référent**, et le présent
 discernement doit tenir les deux séparées tant qu'aucun texte ne les pose ensemble.
+
+> ⚠️ **Rectification du 2026-08-30 (nuit), sur auto-contrôle.** La première
+> rédaction de ce paragraphe opposait *darajāt* aux « ***marātib*** du chapitre
+> 198 ». **Ce terme arabe n'est nulle part sourcé au dépôt pour ce chapitre** : il
+> n'y figure que comme *tag* (`maratib-al-wujud`), jamais comme relevé du texte
+> d'Ibn ʿArabī. L'affirmer revenait à produire un fait sans source (Cmd 5).
+> Corrigé : la distinction **de référent** demeure entière et ne dépend pas du mot
+> arabe employé au ch. 198 — mais **quel** terme Ibn ʿArabī y emploie reste
+> `to-source`, et c'est une vérification à faire, car elle déciderait le point.
+>
+> **Aggravant, et c'est le vrai enjeu** : le chapitre 198 nous est connu par la
+> traduction **de Gloton**, et le Coran de travail du dépôt est **aussi** celui de
+> Gloton. Si les deux « degrés » français recouvrent deux mots arabes distincts,
+> seule la consultation de l'arabe le montrera — le français les confondra
+> toujours. Voir [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]],
+> § « Un seul traducteur pour trois piliers ».
 
 ### 3. Le piège ق — coïncidence de nom, écartée
 
@@ -239,6 +268,12 @@ qu'elles soient tranchées dans cet ordre :
    descendante »* (1953) — recensé en [[doctrinal/autorites/michel-valsan]].
 4. **Guénon**, *Le Symbolisme de la Croix*, ch. V — déjà versé, à relire sur la
    relativité de la répartition des guṇas.
+5. **Le terme arabe des degrés du chapitre 198** — *darajāt*, *marātib*, ou un
+   autre ? Le dépôt ne le sait pas (§ Examen formel, point 2). C'est la
+   vérification la plus économique du dossier et elle décide le point : si le
+   Coran et Ibn ʿArabī emploient le **même** mot, l'univocité relevée le
+   2026-07-14 gagne un appui ; sinon elle se réduit à une constance de traduction.
+   À chercher dans le texte arabe, non dans une traduction française.
 
 ---
 

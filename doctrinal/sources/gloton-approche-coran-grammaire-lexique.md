@@ -16,10 +16,29 @@ cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/symboles/asma-
 ## Identification
 
 - **Auteur** : Maurice Gloton
-- **Éditeur** : Albouraq
+- **Titre complet** : *Une approche du Coran par la grammaire et le lexique* —
+  sous-titre porté en couverture : « **2500 versets traduits · Lexique coranique
+  complet** »
+- **Avant-propos** : **Mahmoud Azab** et **Pierre Lory** (deux avant-propos distincts)
+- **Éditeur** : **Albouraq**
 - **Nature** : lexique des racines coraniques, entrées numérotées, avec pour chaque
   racine le nombre d'occurrences dans le texte coranique, les dérivés classés par
   catégorie grammaticale, et des versets-témoins.
+
+> ✅ **Apparat établi le 2026-08-30 (nuit)** sur cliché de la couverture fourni par
+> Sidy — sous-titre et auteurs des avant-propos relevés directement. Année
+> d'édition non lisible sur le cliché.
+>
+> ⚠️ **Même traducteur que trois autres piliers du dépôt.** Maurice Gloton signe
+> aussi *De la mort à la résurrection* (Ibn ʿArabī), le *Traité sur les Noms
+> divins* (ar-Râzî) et *Le Coran : Essai de traduction*. Le vocabulaire français
+> de ces quatre ouvrages relève d'une seule main : aucun argument ne peut reposer
+> sur la seule constance d'un mot français d'un ouvrage à l'autre. Portée exacte
+> de cette limite, et ce qui y échappe :
+> [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]], § « Un seul traducteur
+> pour trois piliers ». **C'est précisément pourquoi le présent lexique est
+> précieux** : il donne accès à la **racine arabe**, seul terrain où la limite ne
+> joue pas.
 - **Statut en bibliothèque** : **confirmé** — recensé au catalogue de la
   bibliothèque physique, section « Textes sacrés et lexique » (consultation humaine,
   sans wikilink — §VI).

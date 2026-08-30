@@ -6,8 +6,8 @@ tradition_cadre: "islam"
 tags: [asma-al-husna, razi, lawami-al-bayyinat, khafid, rafi, degres, darajat, resurrection, transcription]
 created: 2026-08-30
 updated: 2026-08-30
-sources: ["to-source"]
-sources_count: 1
+sources: []
+sources_count: 0
 cross_links: ["[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]", "[[doctrinal/symboles/waqia]]"]
 ---
 
@@ -15,21 +15,33 @@ cross_links: ["[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/symboles/tabl
 
 ## Identification
 
-- **Auteur** : Fakhr al-Dīn al-Rāzī
+- **Auteur** : Ar-Râzî (Fakhr al-Dīn al-Rāzī)
 - **Ouvrage** : *Traité sur les Noms divins* (*Lawāmiʿ al-bayyināt*)
-- **Statut en bibliothèque** : **confirmé** — `atelier/rd/bibliotheque/catalogue-bibliotheque.md`
-  recense « **Al-Râzî** — *Traité sur les Noms Divins* (*Lawâmiʿ al-bayyinât*) ».
-  Consultation humaine du catalogue, sans wikilink (§VI : `doctrinal/` ne pointe
-  jamais vers `atelier/`).
+- **Introduction, traduction et annotations** : **Maurice Gloton**
+- **Préface** : **Pierre Lory**
+- **Éditeur** : **Albouraq**, collection « **Héritage Spirituel** »
+- **Statut en bibliothèque** : **confirmé** — recensé au catalogue de la
+  bibliothèque physique. Consultation humaine, sans wikilink (§VI : `doctrinal/`
+  ne pointe jamais vers `atelier/`).
 - **Provenance de la présente transcription** : photographie de la page d'ouverture
   du chapitre, fournie par Sidy le 2026-08-30.
 
-> ⚠️ **`to-source` sur l'apparat éditorial, non sur le texte.** La page
-> photographiée ne porte ni page de titre, ni nom de traducteur, ni pagination
-> lisible. Traducteur, éditeur, année et numéro de page **ne sont pas vérifiés** et
-> ne sont donc pas affirmés ici. Le **contenu** transcrit ci-dessous, lui, est relevé
-> directement sur le cliché. Levée du marqueur : vérification par Sidy sur son
-> exemplaire (§VII.2).
+> ✅ **Apparat éditorial établi le 2026-08-30 (nuit) — `to-source` levé.** La
+> transcription avait d'abord été versée avec traducteur, éditeur et collection
+> **non affirmés**, la page photographiée ne portant ni page de titre ni mention
+> d'édition. **Sidy a fourni le cliché de la couverture**, qui donne les trois :
+> Maurice Gloton pour l'introduction, la traduction et les annotations ; Pierre
+> Lory pour la préface ; Albouraq, collection « Héritage Spirituel ».
+>
+> **Conséquence, et elle n'est pas mince** : le traducteur est **le même Maurice
+> Gloton** que celui de *De la mort à la résurrection* (Ibn ʿArabī) et de
+> *Une approche du Coran par la grammaire et le lexique* — les deux autres piliers
+> de ce chantier, **et dans la même collection chez le même éditeur** pour le
+> premier. Le vocabulaire français des trois ouvrages relève donc d'une seule main.
+> Voir la mise en garde ci-dessous (« Un seul traducteur pour trois piliers »).
+>
+> ⚠️ **Reste `to-source`, et seulement cela** : le **numéro de page** du chapitre
+> XVIII, non lisible sur le cliché. Année d'édition non relevée.
 
 ## Transcription du chapitre (intégrale de la page photographiée)
 
@@ -117,6 +129,39 @@ du Nom *Rafīʿ al-Darajāt* de **Coran XL, 15**, déjà versé au dépôt
 > 2026-08-30 (*couple khafḍ/rafʿ*). **Mention sans wikilink, délibérément** : une
 > page orthodoxe ne pointe pas vers un discernement non tranché
 > (`doctrinal/CLAUDE.md`, étanchéité inversée) ; le lien existe en sens inverse.
+
+## ⚠️ Un seul traducteur pour trois piliers — portée et limite
+
+La couverture photographiée établit un fait de méthode qui n'était pas visible tant
+que l'apparat restait inconnu : **Maurice Gloton** signe
+
+1. la traduction du présent *Traité sur les Noms divins* d'ar-Râzî ;
+2. celle d'Ibn ʿArabī, *De la mort à la résurrection*
+   ([[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]) — **même
+   éditeur, même collection « Héritage Spirituel »** ;
+3. *Une approche du Coran par la grammaire et le lexique*
+   ([[doctrinal/sources/gloton-approche-coran-grammaire-lexique]]) ;
+4. et *Le Coran : Essai de traduction* (Albouraq), déjà employé au dépôt.
+
+**La limite** : le français « élever », « abaisser », « degré » relève, dans ces
+quatre ouvrages, **d'une seule main**. Une convergence observée sur ces mots
+français pourrait n'être qu'une constance de vocabulaire du traducteur. Tout
+argument qui reposerait sur le seul mot français est donc **sans force
+probante** — il faut redescendre à la racine arabe, ou recouper sur un autre
+traducteur.
+
+**Ce qui, précisément, échappe à cette limite** — et c'est ce qui donne son poids au
+dossier :
+
+| Attestation du couple | Traducteur | Indépendant de Gloton ? |
+|---|---|---|
+| Ar-Râzî, ch. XVIII | Maurice Gloton | non |
+| Ibn ʿArabī, *Tartīb al-taṣawwuf* | ʿAbd al-Hâdi (*La Gnose*) | **oui** |
+| Ibn ʿArabī, *Les Sept Étendards du Califat* | Charles-André Gilis | **oui** |
+| Coran LVI, 3 — *khāfiḍatun rāfiʿa* | — (fait de langue arabe) | **oui** |
+
+Le couple est donc attesté par **trois voies indépendantes de Gloton**, dont une
+qui ne dépend d'aucune traduction. La convergence n'est pas un effet de plume.
 
 ## Attestations du même couple déjà présentes au dépôt
 
