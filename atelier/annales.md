@@ -10,6 +10,119 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd | RAPPORT D'ERREURS de session, joint Janus reporté, et ouverture du chantier de l'incommensurable
+
+**Trois livrables, sur commande de Sidy.**
+
+### 1. Report du joint *hozo* Janus (verdict Sidy 2026-08-30)
+
+Reporté comme **équivalence entre nœuds notionnels** —
+`universel/polarite-laterale-axe` ↔ `universel/janus-bifrons` — et **non** comme
+ancrage inter-registres. Motif de forme, consigné dans la donnée : les ancrages
+inter-registres joignent deux **niveaux** de l'axe ; ce joint n'en joint aucun
+(« les deux canaux latéraux ne portent aucun centre », et Janus n'occupe aucun
+degré). Le forcer dans cette structure aurait obligé à **inventer pour Janus un
+rang qu'il n'a pas** — exactement ce que la règle du décalage-donnée interdit.
+
+**Défaut de rendu découvert à cette occasion** : le filtre de l'anneau des nœuds
+notionnels ne retenait que `tradition === "tasawwuf"`. La **provenance** d'un
+nœud servait donc de critère à sa **fonction**, et un joint transversal verdicté
+restait indessinable pour une raison qui n'en est pas une. Filtre élargi aux
+nœuds `universel` sans degré.
+
+### 2. Rapport d'erreurs de la session
+
+`atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme.md` —
+**vingt défauts** recensés (11 machine, 3 outillage, 5 dépôt, 1 process),
+classés non par gravité mais par **ce qui les a attrapés** :
+
+| Détecté par | Nombre |
+|---|---|
+| Sidy | 3 |
+| test mécanique | 3 |
+| lecture de la source primaire | 3 |
+| relecture adversariale du diff | 2 |
+| balayage / audit / auto-détection | 9 |
+| **relecture narrative de la machine sur son propre travail** | **0** |
+
+Deux défauts de rendu vivaient au dépôt **depuis dix jours** (registres à
+l'envers, hélices fausses) sans qu'aucune relecture les ait vus ; un test les a
+trouvés en une passe. C'est la confirmation la plus nette qu'ait reçue §VIII.2
+(*fiabilité d'action ≠ fiabilité narrative*).
+
+**Cinq règles dégagées** : (1) une affirmation **négative** sur une source se
+vérifie comme une positive ; (2) toute convention tacite devient un bug au
+deuxième cas — l'écrire dans la donnée à ce moment-là ; (3) tout plafonnement ou
+arrondi doit être visible **dans la forme**, un commentaire de code ne signale
+rien ; (4) donnée et présentation se distinguent **par extrémité**, pas par
+objet — et une fonction qui *interprète* pour le lecteur est plus dangereuse
+qu'une qui affiche ; (5) un marqueur de doute doit énoncer **son périmètre**,
+faute de quoi il certifie tout ce qu'il ne couvre pas.
+
+**Trois erreurs évitées**, consignées parce qu'elles montrent où sont les
+pièges : combler les cellules vides d'*Ājñā* d'après la planche ; lire
+l'obliquité des ancrages comme un décalage-donnée ; conclure sur « Kursī = degré
+11 » avant collation. Les trois étaient des raisonnements **séduisants** — c'est
+le signal.
+
+Entrée de synthèse portée à [[atelier/rd/cahiers/registre-problemes]].
+
+### 3. Chantier de l'incommensurable (ouvert, rien d'implémenté)
+
+`atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable.md`.
+
+Le problème énoncé exactement : une échelle verticale dit trois choses — il y a
+un ordre (vrai), cet ordre a un sens (vrai), **ce qui est en haut est plus proche
+du terme (FAUX)**. Il faut une figure qui garde l'ordre et **détruise la mesure**.
+
+**Trois contraintes non négociables**, déduites du texte : l'Inconditionné n'est
+pas le sommet de la série ; la discontinuité est **égale depuis chaque degré**
+(ce qui exclut tout halo, dégradé ou convergence — le rendu actuel fait
+exactement cela) ; la hiérarchie des états demeure.
+
+**La piste centrale vient du joint verdicté aujourd'hui** : la tradition figure
+le terme principal **par son absence**, et Guénon en donne la raison, qui est
+celle-là même du problème — « un instant insaisissable, comparable au point
+géométrique sans dimensions », donc indessinable, et pourtant « contenant toute
+réalité » vu d'au-dessus. Reste à instruire si le procédé se transpose de la
+**latéralité** (où il est attesté) à la **verticalité** (où on voudrait l'employer).
+
+**Volet guṇas recentré** : le terme opératoire n'est pas le ternaire mais
+**nirguṇa / saguṇa**, déjà au dépôt et sourcé. Lecture soumise sans verdict — si
+la gradation est gradation de *qualités*, ce qui est *nir-guṇa* est **hors
+d'elle par construction du mot**, et n'a donc pas à recevoir de place sur l'axe.
+
+**Volet Kursī/ʿArsh : BLOQUÉ** par la contradiction de numérotation de
+[[doctrinal/symboles/table-28-degres-nafas-rahman]] (voir l'entrée du jour aux
+annales doctrinales). Le rendu suit le système 11-38 ; la frontière
+manifesté / non-manifesté qu'il trace tombe **exactement là où les deux
+numérotations divergent**, c'est-à-dire sur l'articulation même que Sidy
+désigne. Collation des pp. 91-92 de Gloton requise avant tout design.
+
+**⚠️ Avertissement porté sur le volet kabbalistique** : le dépôt garde déjà, en
+[[doctrinal/symboles/merkavah-muraqaba]], une **mauvaise version** du
+rapprochement ʿArsh / *Kissé ha-Kavod* — construite sur une gématrie sans assise
+textuelle. Le rapprochement n'est pas jugé ; mais le mauvais chemin est
+cartographié, et un ancrage devra montrer qu'il ne l'emprunte pas.
+
+**Quatre options de rendu soumises** avec leur coût ; aucune implémentée. Cinq
+points à instruire avant qu'une ligne de rendu soit écrite.
+
+### Vérification mécanique indépendante (rapport BRUT, §VIII.2)
+
+- `generer-manifeste.py --repo /home/user/wiki` →
+  `46 nœud(s), 23 ancrage(s), zodiaque inclus, maisons incluses, 4 registre(s),
+  0 avertissement(s)`.
+- Prototype sous Chromium headless : les deux nœuds notionnels présents **avec
+  leur fiche source**, corde d'ancrage polarité ↔ Janus **effectivement tracée**
+  (contrôle géométrique sur les extrémités, pas sur le compte) ; les 11 ancrages
+  inter-registres inchangés dans les deux modes, `0 sans source`,
+  `0 marqueur superposé` ; **aucune pageerror**.
+- `verifier-invariants.py --racine /home/user/wiki` →
+  `0 erreur(s), 1 avertissement(s)` — [A6], faux positif déjà signalé.
+
+- **Commit** : 2a6f825
+
 ## [2026-08-30] rd/instrument | les ONZE ANCRAGES inter-registres rendus, et deux faits que le tracé a révélés
 
 **Le manque comblé.** Les onze ancrages verdictés étaient au manifeste depuis le

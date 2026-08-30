@@ -9,6 +9,62 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] discernement | VERDICT SIDY — le ternaire temporel des nâdîs et *Janus Bifrons*
+
+- **Verdict rendu par Sidy le 2026-08-30** : joint ***hozo*** approuvé, ancrage
+  approuvé. Deux fiches créées.
+- **Fiche `discernement` créée** :
+  `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons.md`
+  (`traditionnel`, close). **Particularité consignée en tête** : l'hypothèse
+  n'est **pas** de la machine — elle est posée par l'autorité elle-même, dans le
+  texte, avec le mot « **identique** ». Le rôle de la fiche n'était donc pas de
+  proposer un rapprochement mais de **constater qu'il était déjà fait**, d'en
+  vérifier la forme, et de soumettre.
+- **Fiche `symbole` créée** : `doctrinal/symboles/janus-bifrons.md`
+  (`traditionnel`). Le dépôt ne portait aucune fiche sur Janus, seulement deux
+  mentions.
+- **Le point décisif de forme**, relevé et versé : ce qui écarte la simple
+  coïncidence de nombre, c'est que **le terme médian est de même nature des deux
+  côtés**, et que cette nature est très singulière — le troisième œil « n'est
+  représenté par aucun organe corporel » ; le véritable visage de Janus « n'est
+  ni l'un ni l'autre de ceux que l'on peut voir ». **De part et d'autre, le
+  terme principal est celui qui n'est pas figuré.** La convergence porte donc
+  sur le trait le plus improbable, non sur le plus banal.
+- **Troisième attestation, relevée** : *Le Roi du Monde* ch. III met déjà Janus
+  en rapport avec les **colonnes séphirothiques** (avec les Pythagoriciens et la
+  lettre Y, et *Ganêsha*). Le ch. XXI le met en rapport avec les **nâdîs**. Or le
+  dépôt tient déjà que colonnes et nâdîs sont le même ternaire. Les trois
+  attestations se referment l'une sur l'autre **sans maillon rapporté du dehors**.
+- **Trois restrictions tenues** : (a) le **volet solsticial** de Janus — les deux
+  portes, les deux saints Jean, Cancer/Capricorne — n'est **pas** couvert,
+  `to-source` maintenu, les deux chapitres de *Symboles de la Science Sacrée*
+  (XVIII et XXXVII) nommés pour collation ; (b) **aucune correspondance de
+  niveau** n'en découle — le joint est transversal, ni Janus ni les canaux
+  latéraux n'occupent de degré ; (c) **cloison rituelle maintenue** (Cmd 3) —
+  convergence des symbolismes seule, sur la parole de l'autorité.
+- **Qualification sashimono** : joint ***hozo***, portance ***jikugumi***
+  (termes de dignité comparable, le joint porte la charge), nature
+  **homologie** — aucune filiation historique alléguée, et Guénon n'en allègue
+  aucune.
+- **Distinction respectée dans le même texte** : Guénon écrit « identique » pour
+  Janus et « **très comparable** » pour l'alchimie humaine et l'*athanor*. Le
+  dépôt suit sa distinction — Janus est *hozo*, l'alchimie reste *kari-kumi*.
+- **Confrontation Gizeh** : effectuée, **négative**. Matière ni polaire, ni
+  axiale, ni septénaire, ni métrologique. Risque de conflation polaire/solaire
+  **écarté par construction** — le Soleil dont il s'agit est le Soleil *latéral*
+  (qualité de voie), non le Soleil *axial* (degré 24).
+- **⚠️ Défaut signalé, non corrigé** :
+  [[doctrinal/symboles/table-28-degres-nafas-rahman]] porte **deux numérotations
+  incompatibles** — la Figure 2 (p. 92) place le ʿArsh au degré 10 et le
+  **Kursī au degré 11**, tandis que la structure déclarée ailleurs dans la même
+  fiche (« degrés 1-10 pré-lettrés + 11-38 = les 28 lettres ») fait du degré 11
+  la **hamza**. Le comptage Figure 1 (8) + Figure 2 (4) donne au surplus **12**
+  pré-lettrés, non 10. **Rien n'a été modifié** : point de texte, collation des
+  pp. 91-92 de Gloton réservée à Sidy.
+- **Répercussion à l'index** : les deux fiches y sont portées.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+- **Commit** : 2a6f825
+
 ## [2026-08-30] archivage + correction | Guénon, *L'Homme et son devenir selon le Vêdânta*, ch. XXI — l'artère coronale et le « Rayon solaire »
 
 - **Fiche source créée** :
