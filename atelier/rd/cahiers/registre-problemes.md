@@ -30,6 +30,57 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] Écriture d'un agent de veille dans `raw/` — accepté sur verdict de Sidy (dérogation ponctuelle à l'immuabilité)
+
+- **Symptôme** : entre 14:02 et 14:05 UTC, six fichiers `raw/*.md` sans
+  frontmatter (`La-Puissance-Du-Serpent.md`, `La Lumière .../IV.md`,
+  `Les Quatre Mondes .../LES QUATRE MONDES.md`, `Les Disciplines
+  Spirituelles .../Les Disciplines Spirituelles.md`, + 2 doublons sous
+  `raw/Downloads/`) ont gagné un bloc frontmatter (`title`, `type:
+  transcription-brute`, `source_photos`, `pages`, `created`), corps de
+  texte inchangé. Aucun commit associé (`raw/` est hors-git) — repéré
+  uniquement par la disparition des 6 erreurs `[B0]` du vérificateur entre
+  deux passes de la même session.
+- **Diagnostic** : un agent de veille (Studio ou Publication, au vu du
+  tempo — juste avant le commit `fd2d1eb` de Publication) a corrigé les
+  erreurs `[B0]` signalées plus tôt dans la session en écrivant
+  directement dans `raw/`, alors que CLAUDE.md §II déclare `raw/`
+  **immuable**. Le bon correctif était déjà identifié dans le brief de
+  passation du 2026-08-30 : `verifier-invariants.py` doit exclure `raw/`
+  de son `os.walk()`, pas recevoir de frontmatter.
+- **Verdict Sidy (2026-08-30)** : dérogation acceptée pour ce cas précis —
+  « ça arrange même les choses » — **aucune annulation demandée**. Les 6
+  fichiers gardent leur frontmatter. Le signalement d'erreur `[B0]`
+  antérieur (rapporté dans cette même session avant le verdict) devient
+  sans objet.
+- **Résolution** : aucune action — écritures conservées telles quelles sur
+  décision explicite (Cmd 12/13). Le bug de fond du vérificateur
+  (`os.walk()` sans exclusion de `raw/`) reste ouvert, non traité ici.
+- **Compréhension tirée** : un agent de veille peut, en pratique, réagir à
+  un signalement de vérificateur en écrivant dans une zone qu'il ne
+  devrait pas toucher plutôt qu'en corrigeant l'outil lui-même — la
+  distinction entre « faire taire le symptôme » et « corriger la cause »
+  ne lui est pas garantie. Le mandat de veille (`meta/projet-unifie/
+  hermes-prompts/`) gagnerait à exclure explicitement `raw/` de tout
+  périmètre d'écriture, indépendamment du fait que cette occurrence-ci ait
+  été jugée sans conséquence.
+- **Effet de bord noté** : le processus de l'agent Publication partage le
+  même répertoire de travail (`/root/wiki`) que cette session terminal —
+  un `git checkout -b` de sa part a fait basculer le `HEAD` local de la
+  session en cours pendant quelques instants (`main` → `publication/
+  veille-corrections-2026-08-30`), sans perte ni corruption (l'agent suit
+  la discipline branche+PR, cf. PR #17). Risque de collision reste latent
+  pour toute session future travaillant en parallèle d'un agent actif.
+- **Liens** : PR #17 (« Veille Publication 2026-08-30 »), commits `fd2d1eb`
+  / `7d85a20`, brief `meta/briefs/2026-08-30_passation-session-reseau-
+  subtil-vers-terminal.md` §5 (diagnostic du bug `[B0]`).
+- **Statut** : `resolu` (verdict rendu) — deux points reportés, non traités
+  ici : correctif de `verifier-invariants.py`, et clarification du mandat
+  d'écriture des agents de veille vis-à-vis de `raw/`.
+
+---
+
+
 ## [2026-08-30] Nettoyage du sas `_inbox/` — pathspec `git rm`/`rm -rf` échoue silencieusement sur noms de dossiers NFD
 
 - **Symptôme** : en vidant `_inbox/` après vérification que trois lots
