@@ -30,6 +30,52 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] Nettoyage du sas `_inbox/` — pathspec `git rm`/`rm -rf` échoue silencieusement sur noms de dossiers NFD
+
+- **Symptôme** : en vidant `_inbox/` après vérification que trois lots
+  (« La Lumière », « Les Quatre Mondes » — Shayegan — et
+  `la-puissance-du-serpent.md`) étaient des doublons octet pour octet de
+  copies déjà permanentes en `raw/`, `git rm --cached -- "_inbox/La Lumière -
+  Daryush Shayegan"` échoue avec `fatal: pathspec … did not match any files`,
+  et `rm -rf` sur le même chemin ne supprime rien (aucune erreur, mais le
+  dossier réapparaît dans un `find` immédiatement après).
+- **Diagnostic** : même classe que l'entrée du 2026-08-25 ci-dessous
+  (« Validateurs index-livres — mismatch NFC/NFD »), mais côté shell/git
+  plutôt que côté validateur Python. Le nom de dossier réel sur disque
+  encode le « è » en NFD (décomposé, `e` + U+0300) — confirmé par
+  `git ls-files -z` qui retourne l'octet `\314\200` après le `e`. Le
+  chemin tapé au clavier (dans une commande shell ou passé en argument par
+  un agent) est en NFC (`è` = U+00E8 seul, un seul code point). Les deux
+  chaînes s'affichent de façon identique dans un terminal mais ne sont
+  jamais égales pour `git rm`/`rm -rf`, qui comparent des octets bruts.
+- **Résolution** : contournement en deux temps — (1) `git -c
+  core.quotepath=false ls-files -z _inbox/ | grep -z "Lumi" | xargs -0 -I{}
+  git rm --cached -- "{}"` pour retirer les entrées de l'index sans jamais
+  retaper le nom accentué ; (2) `python3 -c "import shutil, os; [shutil.rmtree(...)
+  for name in os.listdir('_inbox') if 'Lumi' in name]"` pour la suppression
+  physique, `os.listdir()` renvoyant l'octet réel du système de fichiers
+  sans jamais transiter par une saisie clavier NFC. Les deux autres lots du
+  sas (sans caractères accentués dans leur chemin) ont été retirés sans
+  incident par `git rm --cached` direct.
+- **Compréhension tirée** : toute commande shell manipulant un chemin
+  accentué issu de `raw/`, `_inbox/`, ou de tout dossier alimenté par un
+  transfert iPad (Termius/SFTP, qui produit du NFD) doit passer par
+  `git ls-files -z` (ou `os.listdir()`/`os.walk()` côté Python) pour obtenir
+  le nom exact en octets, jamais par une chaîne retapée au clavier — quand
+  bien même les deux s'afficheraient de façon identique. Rejoint la
+  recommandation déjà posée le 2026-08-25 pour `valider-index-livres.py`
+  (normaliser explicitement, ou dans ce cas : ne jamais retaper).
+- **Liens** : entrée « Validateurs index-livres — mismatch NFC/NFD… »
+  ci-dessous (2026-08-25, même classe côté validateur) ; session de
+  réconciliation `main`/`docs/session-corrections-rapports-2026-08-30` et
+  vidage du sas, 2026-08-30.
+- **Statut** : `resolu` (contournement systématique identifié ; pas de
+  correctif d'outil nécessaire — aucun script du dépôt ne manipule
+  actuellement de chemins accentués tapés au clavier).
+
+---
+
+
 ## [2026-08-30] Clé ANTHROPIC compromise dans .bash_history et .omniroute-env.sh
 
 - **Symptôme** : `ANTHROPIC_AUTH_TOKEN` trouvé en clair dans `/root/.bash_history` et `/root/.omniroute-env.sh` (fichier non chargé par aucun service actif). Incident de sécurité signalé dans `incident-2026-08-27-omniroute-eaddrinuse-daemonisation.md`.
