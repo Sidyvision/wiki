@@ -214,22 +214,25 @@ l'autre (Cmd 5, Cmd 12 — le verdict appartient à Sidy).
 | *Vishuddha* | *mandala* : **cercle** ; couleur de tattva : **blanc** | un **triangle pâle inscrit dans un cercle** bleu-gris — le cercle de la table est bien là, mais il contient une figure que la table ne mentionne pas |
 | *Ājñā* | *mandala* : **rien** ; couleur de tattva : **rien** — les deux cellules sont vides | un **triangle inversé**, portant *Oṃ*, surmonté du croissant et du *bindu* |
 
-> ⚠️ **Ces divergences ne sont pas reportées dans les données de l'Instrument.**
-> Les champs `mandala` et `couleur_tattva` d'*Ājñā* y demeurent **vides**,
-> conformément à la note de versement (« champs laissés VIDES là où la table ne
-> donne rien — jamais comblés par conjecture »). Les combler d'après la planche
-> reviendrait à trancher que la planche prime la table : c'est un verdict, non
-> un relevé. **En attente de la parole de Sidy.**
+> ✅ **Verdict de Sidy (2026-08-30) sur *Ājñā*** : combler d'après la Planche
+> VII. Le champ `mandala` d'*Ājñā* porte désormais « triangle inversé (pointe
+> en bas), portant *Oṃ*, surmonté du croissant et du *bindu* » dans
+> `atelier/rd/instrument/instrument-donnees.yaml` (lien signalé, sens
+> doctrinal → atelier/rd interdit — la mise à jour vit côté atelier). Motif
+> déjà relevé ci-dessous : le texte atteste un triangle (*trikona*) en ce
+> centre par une autre colonne que celle du *mandala* (« Itara et Trikona »,
+> *Liṅga/Yoni*), ce qui corrobore la planche par une source distincte d'elle.
+> `couleur_tattva` reste vide : ni la table ni la planche ne donnent de
+> couleur pour ce centre (tattva *Manas*, hors des cinq éléments à couleur
+> fixe).
 >
-> On notera toutefois que la planche VII n'est pas en contradiction avec la
+> **La divergence *Vishuddha* n'est, elle, pas concernée par ce verdict** —
+> elle reste non tranchée, la table et la planche continuent d'être
+> consignées telles quelles sans préférence de l'une sur l'autre.
+>
+> On notera que la planche VII n'est pas en contradiction avec la
 > **note de tracé** du chapitre V (« le triangle […] est toujours tracé avec la
 > base en haut et le sommet en bas ») : le triangle d'*Ājñā* y est bien inversé.
-> Et que le texte, ailleurs qu'en table, place effectivement un triangle en ce
-> lieu — « Itara et Trikona » figure d'ailleurs dans la colonne *Liṅga / Yoni*
-> de la table pour *Ājñā*, laquelle **atteste donc un triangle (*trikona*) en ce
-> centre par une autre colonne que celle du *mandala***. La divergence est ainsi
-> moins une contradiction qu'une lacune de la colonne *mandala*. Ce constat est
-> versé au dossier ; il ne lève pas la réserve ci-dessus.
 
 ## Les centres surnuméraires : la série de six n'est pas exhaustive
 

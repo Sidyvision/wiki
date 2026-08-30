@@ -738,9 +738,16 @@ registres:
     # Le total des pétales des SIX premiers fait 50 — nombre des lettres de
     # l'alphabet sanscrit, comme Guénon le relève. Sahasrāra les reprend toutes,
     # chacune répétée vingt fois (50 × 20 = 1000) : il ne figure donc pas dans
-    # la table, étant au-delà de la série. Champs laissés VIDES là où la table
-    # ne donne rien (Ājñā : ni couleur de tattva ni forme de mandala) — jamais
-    # comblés par conjecture.
+    # la table, étant au-delà de la série.
+    # Ājñā/mandala comblé le 2026-08-30 (verdict Sidy) d'après la Planche VII
+    # (« Ajna »), qui montre un triangle inversé — corroboré par la colonne
+    # Liṅga/Yoni de la table synoptique elle-même (« Itara et Trikona »,
+    # *trikona* = triangle), donc par une source textuelle distincte de la
+    # seule planche. Voir `doctrinal/sources/avalon-serpent-power-nadis-reseau.md`,
+    # section « Divergences entre la table synoptique et les planches ».
+    # `couleur_tattva` reste VIDE : ni la table (Ājñā a pour tattva *Manas*,
+    # hors des cinq éléments à couleur fixe) ni la planche ne donnent de
+    # couleur pour ce centre — champ non comblé par conjecture.
     domaines:
       - {id: hindouisme/muladhara, label: "Mūlādhāra — centre-racine", rang: 1, colonne: milieu,
          position: "centre spinal de la région au-dessous des parties génitales",
@@ -782,7 +789,8 @@ registres:
          position: "centre de la région entre les sourcils",
          petales: 2, lettres: "ha et ksha",
          tattva: "Manas (facultés mentales)", couleur_tattva: "",
-         mandala: "", bija: "Om", devata: "Shambhu",
+         mandala: "triangle inversé (pointe en bas), portant Oṃ, surmonté du croissant et du bindu — Planche VII, verdict Sidy 2026-08-30",
+         bija: "Om", devata: "Shambhu",
          shakti: "Hâkinî", linga: "Itara et Trikona",
          autres_tattva: "Mahat, la Sûkshma Prakriti appelée Hiranyagarbha (Shatchakranirûpana, v. 52)"}
       - {id: hindouisme/sahasrara, label: "Sahasrāra — le lotus à mille pétales", rang: 7, colonne: milieu,
