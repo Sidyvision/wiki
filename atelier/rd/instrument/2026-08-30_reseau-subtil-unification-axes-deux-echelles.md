@@ -195,14 +195,29 @@ déjà proposée le 2026-08-20 (« enrichir le registre `qabbalah` : 22 sentiers
 > [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]]
 > (`speculatif`, **verdict réservé**, lien `rd/` → `doctrinal/` en sens unique).
 >
-> **Conséquence pour l'Instrument, à connaître avant d'y toucher** : le chantier
-> est **bloqué en amont**, et pas pour une raison doctrinale. La fiche
+> **Mise à jour du même jour, second examen** : les trois obstacles que j'avais
+> opposés à l'hypothèse **sont tombés**, et sans aucune source nouvelle — Avalon
+> écrit lui-même que « les pétales sont des figures formées par la position des
+> Nâdî », de sorte que les lettres sont portées par les **canaux** des deux
+> côtés. Lecture proposée : l'Arbre séphirothique est une **élévation** du
+> réseau, les lotus en sont des **plans** ; chacun porte ce qui manque à l'autre.
+> Nature proposée : ***kumiko*** (complémentarité) et non *hozo*.
+>
+> **Conséquence pour l'Instrument, à connaître avant d'y toucher** : le volet
+> **numérique** reste bloqué en amont, et pas pour une raison doctrinale. La fiche
 > [[doctrinal/sources/kabbale-10-sefirot-structure]] déclare elle-même que les 22
 > sentiers ne sont **pas documentés** ; et la tradition connaît **plusieurs
 > arrangements incompatibles** du tracé des voies, dont le dépôt n'a fixé aucun.
 > Le nombre de sentiers aboutissant à Tiferet dépend donc d'un choix non fait :
 > toute convergence numérique qu'on croirait constater serait **fabriquée par ce
-> choix implicite**. Le premier acte est de **fixer l'arrangement sur source**.
+> choix implicite**. Le premier acte est de **fixer l'arrangement sur source**,
+> pour ses raisons propres, **avant** toute comparaison — la fiche pose la
+> prédiction structurelle à courir ensuite, avec ses trois précautions, dont
+> celle-ci : le test doit **pouvoir échouer**.
+>
+> En revanche la lecture par **complémentarité** ne dépend d'aucun comptage : elle
+> se juge sur la nature des deux figures. Elle est **instruisible dès maintenant**,
+> et c'est elle qui est soumise à Sidy.
 >
 > Même verdicté, ce joint ne serait **pas** un ancrage inter-registres : il ne
 > joint aucun niveau de l'axe. Il relèverait du régime du joint Janus —

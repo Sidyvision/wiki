@@ -42,8 +42,22 @@ cross_links: ["[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveau
 >   littérature n'est ici invoqué — mais **le voisinage doit être su**, et il
 >   impose une exigence de sourçage plus forte, non plus faible.
 >
-> **Examen formel** : §1 à §5. Il fait apparaître **deux appuis réels** et
-> **trois obstacles**, dont un qui est un blocage de dépôt et non de doctrine.
+> **Examen formel** : §1 à §5. **Deux états successifs, tous deux conservés
+> (Cmd 10)** :
+> - *Premier examen* (matinée) : deux appuis réels, **trois obstacles**, et un
+>   blocage de dépôt.
+> - *Second examen* (même jour, sur invitation de Sidy à « jouer avec les points
+>   de vue » plutôt qu'à retourner aux sources) : **les trois obstacles tombent**,
+>   et deux d'entre eux **se retournent en appuis**. Aucune source nouvelle n'a
+>   été consultée — la pièce manquante était dans la copie de travail depuis la
+>   veille, et le défaut était dans ma lecture d'un mot, non dans la
+>   documentation. Le détail de la rectification est conservé en §4, avec ce que
+>   j'avais écrit et pourquoi c'était faux.
+>
+> **Qualification proposée à l'issue du second examen** : le joint n'est
+> vraisemblablement pas ***hozo*** (équivalence) mais ***kumiko***
+> (complémentarité) — **ce qui conforte l'hypothèse dans sa substance** au lieu
+> de l'affaiblir. Proposition soumise, **non tranchée**.
 >
 > **Conclusion** : **non rendue.** La machine documente et signale (Cmd 12).
 >
@@ -148,80 +162,197 @@ comme un lotus à huit pétales** ».
 > **Ce n'est pas une objection de détail** : c'est la question de savoir de quel
 > point le réseau est dit rayonner.
 
-## 4. Troisième obstacle, et le plus précis : les lettres ne tombent pas au même endroit
+## 4. Le « troisième obstacle » — RETIRÉ le 2026-08-30, par la source elle-même
 
-C'est le test de forme le plus discriminant que cette fiche puisse offrir. Les
-deux réseaux sont **lettrés** — ce qui est déjà une homologie remarquable. Mais
-les lettres n'y sont pas portées par les mêmes pièces :
+> ⚠️ **Rectification de mon propre examen.** J'avais posé ici, comme « test de
+> forme le plus discriminant », une **inversion du lettrique** : les 22 lettres
+> hébraïques sur les *sentiers* (les voies), les 50 lettres sanscrites sur les
+> *pétales* (les centres) — donc, concluais-je, à l'endroit inverse de la
+> structure. **Cet obstacle n'existe pas.** Il reposait sur une lecture du mot
+> « pétale » que la source contredit expressément, et cette source est celle que
+> j'ai transcrite et versée moi-même la veille.
 
-| | Ce qui porte les lettres | Nombre |
+### 4.1 Ce que dit Avalon, quatre fois
+
+> « le nombre des pétales de n'importe quel lotus particulier est **déterminé par
+> la disposition des "nerfs" subtils ou Nâdî qui l'entourent** »
+
+> « **Les pétales sont des figures formées par la position des Nâdî** à n'importe
+> quel centre particulier, et sont en eux-mêmes *Prânashakti* manifestée par
+> *Prânavâyu* dans le corps vivant. **Quand ce Vâyu s'en va, ils cessent d'être
+> manifestés.** »
+
+> « Ce centre, considéré comme un lotus, est dit à quatre pétales, **à cause de
+> la forme et de la distribution des nerfs du Yoga (Nâdî) en ce point
+> particulier**. »
+
+> « On m'a dit que **la disposition des Nâdî au Chakra particulier en question
+> détermine le nombre de ses pétales**. » *(marqueur de ouï-dire chez Avalon
+> lui-même — noté, mais les trois autres énoncés sont en son nom propre.)*
+
+Et, à deux lignes de distance : « Les lotus avec leurs pétales sont à l'intérieur
+de la *Sushumnâ* […]. **Les lettres sont sur les pétales.** »
+
+### 4.2 Ce qui s'ensuit, mécaniquement
+
+Un pétale **n'est pas une partie du centre**. C'est un ***nâdî* vu à son point de
+rencontre avec le centre** — la figure que dessinent les canaux en abordant le
+lotus. Le texte va jusqu'à en donner le critère d'existence : les pétales
+« cessent d'être manifestés » quand le *Vâyu* s'en va, c'est-à-dire quand le
+canal ne porte plus rien. **Un pétale est un canal, vu par son extrémité.**
+
+Donc :
+
+| | Ce qui porte les lettres | Vu comment |
 |---|---|---|
-| **Kabbale** | **les 22 sentiers** (les *voies*) | 22 lettres hébraïques (3 Mères, 7 Doubles, 12 Simples) |
-| **Tantra** | **les pétales des *cakra*** (les *stations*) | 50 lettres sanscrites (4+6+10+12+16+2), reprises 20 fois en *Sahasrāra* |
+| **Kabbale** | les sentiers | **le long de leur parcours** (entre deux Sephiroth) |
+| **Tantra** | les pétales, c'est-à-dire **les nâdîs** | **à leur point d'aboutissement** (au centre) |
 
-Du côté hébraïque, la lettre est **sur la liaison**. Du côté sanscrit, elle est
-**sur le centre**. Si les deux réseaux étaient identiques, on attendrait que la
-distribution du lettrique tombe au même endroit de la structure. **Elle tombe à
-l'endroit inverse.**
+**Les lettres sont sur les canaux des deux côtés.** Il n'y a pas d'inversion : il
+y a **deux points de vue sur le même objet** — le canal saisi dans son étendue, et
+le canal saisi à son terme. L'obstacle que j'avais dit le plus discriminant était
+un artefact de mon propre découpage.
 
-> **Ce que cela ne prouve pas.** Que le rapprochement soit faux. Une même réalité
-> peut être lettrée à deux places différentes par deux traditions, et cet écart
-> est peut-être lui-même signifiant (le dépôt connaît déjà un cas voisin de
-> tension non résolue entre **28 lettrique** et **22 hébraïque**,
-> [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]]).
->
-> **Ce que cela établit.** Que l'identité, si elle est soutenue, doit **rendre
-> compte de cette inversion** au lieu de la laisser de côté. C'est le point
-> précis où le joint se taille ou se refuse.
+> **Ce que cela apprend sur la méthode, et pas seulement sur la question.** Je
+> n'ai eu besoin d'aucune source nouvelle : les quatre énoncés ci-dessus étaient
+> dans la copie de travail depuis le 2026-08-30, et trois d'entre eux dans les
+> pages que j'avais moi-même relevées. Ce qui manquait n'était pas un document —
+> c'était **un changement de point de vue** sur un mot que je croyais transparent.
+> Le protocole prescrit d'aller à la source ; il ne dit pas que la source livre
+> son sens à la première lecture, ni que l'obstacle vienne toujours d'un manque.
 
-### 4 bis. Une différence de figure, à ne pas passer sous silence
+## 4 bis. La roue et le treillis : deux projections, non deux figures rivales
 
-Guénon donne pour les *nâdîs* l'image de la **roue** : « comme les rais d'une roue
-sortent de son moyeu ». Cent une lignes issues d'un moyeu unique.
+Restait la différence de figure : Guénon donne la **roue** (« comme les rais d'une
+roue sortent de son moyeu »), l'Arbre est un **treillis** (22 arêtes entre 10
+sommets). Une fois le §4 rectifié, elle se lit autrement.
 
-L'arbre séphirothique n'est pas une roue : c'est un **treillis** — 22 arêtes entre
-10 sommets, où Tiferet est **un sommet parmi dix**, si central soit-il. Les
-sentiers ne rayonnent pas *tous* de Tiferet ; ils relient des Sephiroth entre
-elles, et seuls certains la touchent.
+Un treillis vu **depuis l'un de ses nœuds** est une roue : les arêtes qui y
+aboutissent en rayonnent. Une roue vue **de l'extérieur**, replacée parmi les
+autres moyeux, est un treillis. Ce ne sont pas deux structures : ce sont **deux
+projections d'un même réseau** —
 
-**P2 (« émanant du cœur pour organiser le réseau ») porte donc, du côté
-kabbalistique, plus que ce que la figure reçue montre** — à moins qu'une source
-n'établisse une lecture radiale de l'Arbre depuis Tiferet, que le dépôt ne
-possède pas.
+| | L'Arbre séphirothique | Les lotus |
+|---|---|---|
+| **Projection** | **élévation** — le réseau vu de côté, sur toute sa hauteur | **plans** — une série de coupes horizontales, chacune vue depuis l'axe |
+| **Ce qu'elle montre** | **l'adjacence** : quel centre est relié à quel autre | **le degré local** : combien de canaux aboutissent à ce centre, et de quelle qualité (lettre, couleur, tattva) |
+| **Ce qu'elle ne montre pas** | combien de canaux touchent chaque Sephirah | quel centre communique avec quel autre |
 
-## 5. Le blocage de dépôt : les 22 sentiers ne sont pas documentés
+**Chacune porte exactement ce qui manque à l'autre.** Ce n'est pas la signature de
+deux comptes rivaux d'une même chose ; c'est la signature d'une
+**complémentarité** — deux relevés qu'il faut superposer pour avoir la figure.
 
-L'examen ne peut aller plus loin, et pas pour une raison doctrinale.
+> **Félicité de la convention, notée comme telle et non comme preuve** : le
+> lexique du dépôt nomme ***kumiko*** — « **treillis en plan** » — l'ancrage de
+> **complémentarité**, et ***hozo*** l'ancrage d'**équivalence**. Le mot dont
+> nous disposions pour dire « complémentaire » était déjà, littéralement, le mot
+> pour « treillis vu en plan ». Cela ne démontre rien ; cela indique que la
+> convention Sashimono était bien taillée pour ce genre de joint.
 
-> **`kabbale-10-sefirot-structure`, texte de la fiche** : « la structure complète
-> (3 colonnes, **22 sentiers**) n'est **PAS** détaillée dans les sources
-> actuelles » ; « Les 22 sentiers reliant les 10 Sephiroth correspondent aux 22
-> lettres de l'alphabet hébreu […] **Non documentés dans les sources actuelles**. »
-> État de qualification de la fiche : ***kari-kumi***.
->
-> L'état des lieux du 2026-08-20
-> ([[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]) porte déjà
-> « instruire […] 22 sentiers en fiches dédiées » parmi les manques.
+## 4 ter. Le premier obstacle se retourne : la litote de Guénon devient l'appui
 
-**Le dépôt ne sait donc pas quels sentiers touchent Tiferet, ni combien.** Toute
-comparaison numérique ou structurelle est hors de portée tant que ce point n'est
-pas versé.
+C'est la conséquence la plus nette de tout ce qui précède.
 
-> ⚠️ **Et il y a pire qu'un manque : il y a un choix non fait.** La tradition
-> kabbalistique connaît **plusieurs arrangements incompatibles** des 22 sentiers
-> (les arbres dits de Kircher, du Ari, du Gaon de Vilna diffèrent sur le tracé
-> des voies, donc sur le nombre de sentiers touchant chaque Sephirah). Le dépôt
-> n'en a fixé aucun.
->
-> Il en résulte que **le nombre de sentiers aboutissant à Tiferet dépend d'un
-> arrangement que le dépôt n'a pas choisi**. Toute convergence numérique qu'on
-> croirait constater serait donc, en l'état, **fabriquée par le choix implicite
-> d'un arrangement** — exactement le procédé que le dépôt écarte ailleurs
-> (recherche de concordances chiffrées, marquée comme pseudo-initiatique dans le
-> chantier *Shams al-Maʿārif*).
->
-> **Aucun comptage n'est donc produit ici, ni suggéré.** Le premier acte du
-> chantier est de **fixer l'arrangement sur source**, avant toute comparaison.
+Si les deux figures étaient **deux projections d'un même réseau**, alors :
+- « **identiques** » serait **faux** — une élévation n'est pas un plan, et les
+  confondre serait précisément l'erreur ;
+- « **sans rapport** » serait **faux** aussi ;
+- « **ne sont pas sans analogie** » serait **exactement juste** — car l'analogie
+  est le nom propre du *même rapport entre des termes différents*, et c'est très
+  exactement ce que sont deux projections l'une par rapport à l'autre.
+
+**La formule que j'avais comptée comme l'obstacle principal est le mot juste pour
+un joint *kumiko*.** Elle n'était un obstacle que tant qu'on cherchait un *hozo*.
+
+> **Conséquence sur la qualification proposée** (soumise, non tranchée) : le
+> joint n'est vraisemblablement pas ***hozo*** (équivalence) mais ***kumiko***
+> (complémentarité) — et **l'hypothèse de Sidy s'en trouve confortée dans sa
+> substance**, non affaiblie : les sentiers et les *nâdîs* sont bien le même
+> réseau ; ils ne sont pas la même *figure* de ce réseau.
+
+## 4 quater. Et le deuxième obstacle : les deux cœurs deviennent deux positions
+
+Restait la difficulté des **deux centres du cœur** (§3) : *Anāhata*, station de la
+série, contre le lotus à huit pétales d'où sortent les cent une artères.
+
+Sous la lecture par projections, elle cesse d'être une alternative. Dans un
+treillis, **tout nœud devient moyeu dès qu'on s'y tient**. Or Guénon ne décrit pas
+le lotus à huit pétales comme une station de plus : il le décrit comme
+« **son propre séjour** », « le **centre de l'individualité** » — c'est-à-dire
+**le lieu où se tient celui qui regarde**.
+
+- Les cent une artères rayonnant du cœur = le réseau **vu depuis le siège du
+  *jīva*** — la perspective de l'être en son centre.
+- L'Arbre = le réseau **vu du dehors**, où Tiferet est un sommet parmi dix.
+
+**Les deux sont vrais, et depuis deux positions.** La proposition **(P2)** de
+Sidy — « le réseau émane du cœur pour s'organiser » — est alors exacte **pour qui
+est au cœur**, sans avoir à l'être objectivement. C'est le même geste que le dépôt
+a déjà fait, le 2026-08-30, en distinguant les **deux échelles** macrocosme /
+microcosme : ici ce ne sont pas deux échelles mais **deux positions de
+l'observateur**.
+
+## 4 quinquies. Une réserve de proportion, à ne pas taire
+
+La lecture ci-dessus ne doit pas conduire à dire que les pétales épuisent le
+réseau. Les degrés déclarés — 4, 6, 10, 12, 16, 2 — ne sauraient rendre compte des
+**101** de Guénon, ni des **72 000** d'Avalon.
+
+La conclusion honnête est que **les pétales figurent les canaux *principaux* à
+chaque centre**, non leur totalité — ce qui s'accorde à l'étage des « **quatorze
+principales** » du réseau relevé chez Avalon, et à ce que le même auteur dit de la
+série des centres : les six du *Shatchakranirûpana* « sont **les principaux** »,
+et « il existe une **très longue liste** de Chakra »
+([[doctrinal/sources/avalon-serpent-power-nadis-reseau]]). Une tradition
+**sélectionne et partitionne** ; elle n'inventorie pas.
+
+## 5. Le blocage de dépôt : ce qu'il bloque encore, et ce qu'il ne bloque plus
+
+Le dépôt ne documente pas les 22 sentiers. `kabbale-10-sefirot-structure` le dit
+d'elle-même : « la structure complète (3 colonnes, **22 sentiers**) n'est **PAS**
+détaillée dans les sources actuelles » ; « Non documentés dans les sources
+actuelles ». État de la fiche : ***kari-kumi***. L'état des lieux du 2026-08-20
+porte déjà ce manque parmi les chantiers ouverts.
+
+Et il y a davantage qu'un manque : la tradition connaît **plusieurs arrangements
+incompatibles** du tracé des voies, dont le dépôt n'a fixé aucun.
+
+### 5.1 Ce que cela ne bloque plus
+
+**Le second examen ne dépend d'aucun de ces éléments.** Dire que l'Arbre est une
+**élévation** et les lotus des **plans** ne demande ni de savoir quel sentier
+touche quelle Sephirah, ni de compter quoi que ce soit : cela se lit sur la nature
+des deux figures. **La lecture par complémentarité (*kumiko*) est donc
+instruisible dès maintenant.** C'est la lecture par équivalence (*hozo*) qui
+exigeait le comptage — et c'est elle que le §4 ter écarte par ailleurs.
+
+### 5.2 Ce que cela bloque toujours — et le test qu'il faudra courir
+
+Si les deux figures sont bien deux projections d'un même réseau, alors une
+conséquence **vérifiable** en découle :
+
+> **Prédiction structurelle.** Une fois l'arrangement des sentiers fixé sur
+> source, le **degré** de chaque Sephirah dans cet arrangement — le nombre de
+> sentiers qui y aboutissent — devrait s'accorder au **nombre de pétales** du
+> centre qui lui correspond, puisque les deux comptent la même chose : les
+> canaux principaux qui touchent ce nœud.
+
+Trois précautions, sans lesquelles ce test serait le procédé que le dépôt écarte :
+
+1. **Aucun comptage n'est produit ici, ni suggéré.** L'arrangement n'étant pas
+   fixé, tout chiffre avancé aujourd'hui serait **fabriqué par le choix implicite
+   d'un arrangement** — c'est-à-dire une concordance construite, exactement le
+   procédé marqué comme pseudo-initiatique dans le chantier *Shams al-Maʿārif*.
+2. **Le test doit pouvoir échouer, et c'est ce qui le distingue.** Une prédiction
+   qu'aucun résultat ne pourrait démentir n'est pas un test. Celle-ci le peut : il
+   suffit que les degrés ne s'accordent pas.
+3. **L'ordre est impératif** : fixer l'arrangement **d'abord**, sur source et pour
+   ses raisons propres ; comparer **ensuite**. Choisir l'arrangement au vu du
+   résultat qu'il produirait serait retourner le test contre lui-même.
+
+> **Réserve de proportion, rappelée** : les pétales figurent les canaux
+> **principaux** d'un centre, non leur totalité (§4 quinquies). Le test porte donc
+> sur le réseau principal, et un désaccord devra être pesé à cette échelle.
 
 ## 6. Confrontation aux données Gizeh (double contrôle, §VII)
 
@@ -237,32 +368,65 @@ avenue écartée). **Aucun rapprochement numérique n'est donc tenté ici**, et 
 signalement vaut avertissement pour la suite du chantier : c'est la pente
 naturelle de ce sujet, et c'est celle qu'il ne faut pas prendre.
 
-## 7. Qualification sashimono, en l'état
+## 7. Qualification sashimono, après le second examen
 
-- **Joint** : ***kari-kumi*** — montage à blanc. Les deux pièces sont posées côte
-  à côte ; aucun tenon n'est taillé. Motif : l'appui d'autorité disponible est une
-  litote (§2), le centre d'origine n'est pas désambiguïsé (§3), et la pièce
-  kabbalistique n'est pas taillée du tout (§5).
-- **Portance** : ***jikugumi*** si le joint se fait — deux réseaux de canaux de
-  dignité comparable, et le joint porterait la charge de tout le maillage.
-- **Nature** : **homologie** présumée, non *restitution*. Aucune généalogie
+- **État du joint** : ***kari-kumi*** — montage à blanc. **Inchangé** : aucun
+  verdict n'est rendu, et il ne peut l'être que par Sidy (Cmd 12).
+- **Nature proposée** : ***kumiko*** (complémentarité, « treillis en plan ») et
+  **non *hozo*** (équivalence). C'est le déplacement qu'apporte le second examen.
+  Les sentiers et les *nâdîs* seraient **le même réseau sous deux projections** —
+  élévation et plans — non deux descriptions concurrentes du même dessin.
+- **Portance** : ***jikugumi*** (ossature) — deux réseaux de dignité comparable,
+  et le joint porterait la charge de tout le maillage.
+- **Nature généalogique** : **homologie**, non *restitution*. Aucune filiation
   historique n'est alléguée entre Kabbale et Tantra, et aucune n'est cherchée.
-- **Art. 3 sashimono, appliqué** : « toute résistance formelle suspend
-  l'assemblage ; on documente et on pose les pièces côte à côte ». C'est
-  exactement l'état de cette fiche.
+- **Art. 3 sashimono** — « toute résistance formelle suspend l'assemblage » :
+  appliqué au premier examen, **levé au second**. Les trois résistances étaient
+  formelles, et deux d'entre elles tenaient à mon découpage, non aux pièces.
+- **Art. 4** — « tout assemblage se présente à blanc » : maintenu. Le joint
+  demeure 🔍 tant que Sidy n'a pas tranché.
 
 ## 8. Ce qu'il faudrait, et dans quel ordre
 
-| # | À faire | Qui | Débloque |
+| # | À faire | Qui | Statut après le second examen |
 |---|---|---|---|
-| 1 | **Fixer l'arrangement des 22 sentiers sur source** (quel arbre, quel texte) | Sidy / instruction Kabbale | tout le reste (§5) |
-| 2 | **Trancher de quel cœur il s'agit** : *Anāhata* (série) ou lotus à 8 pétales (surnuméraire, d'où sortent les 101) | Sidy | §3 |
-| 3 | **Chercher un appui plus fort que la litote guénonienne** — un texte qui pose la correspondance | recherche de sources | §2, et seul chemin vers un *hozo* |
-| 4 | **Rendre compte de l'inversion du lettrique** (lettres sur les voies / sur les centres) | discernement | §4 — le point où le joint se taille ou se refuse |
-| 5 | Seulement alors : verdict, et éventuel report à l'Instrument | Sidy | — |
+| 1 | **Verdict sur la lecture par complémentarité** (*kumiko*) — les deux figures sont-elles deux projections d'un même réseau ? | **Sidy** | **instruisible dès maintenant** ; ne dépend d'aucune source manquante |
+| 2 | **Trancher de quel cœur il s'agit** — ou retenir la lecture par **positions de l'observateur** (§4 quater) | Sidy | proposition faite, verdict réservé |
+| 3 | **Fixer l'arrangement des 22 sentiers sur source**, pour ses raisons propres | instruction Kabbale | prérequis du seul test numérique, et de lui seul |
+| 4 | **Courir la prédiction structurelle** (§5.2) : degré de chaque Sephirah ↔ nombre de pétales du centre correspondant | après (3) | ~~bloquant~~ → devenu un **test**, qui peut échouer |
+| 5 | Report éventuel à l'Instrument | après (1) | équivalence entre **nœuds notionnels**, jamais ancrage inter-registres |
+
+> **Ce qui a changé dans l'ordre des travaux.** Au premier examen, tout dépendait
+> de (3) — le dépôt ne pouvait rien dire avant d'avoir documenté les sentiers. Au
+> second, **(1) et (2) sont détachés de (3)** : la complémentarité se juge sur la
+> nature des figures, pas sur leur contenu. (3) ne conditionne plus que (4), qui
+> n'est plus un préalable mais une **vérification**.
 
 > **Note de report** : même verdicté, ce joint ne serait **pas** un ancrage
-> inter-registres au sens du manifeste — il ne joint aucun niveau de l'axe. Il
-> relèverait du même régime que le joint Janus : une équivalence entre **nœuds
-> notionnels**, transversale. Le point est acquis de la session
+> inter-registres — il ne joint aucun niveau de l'axe — mais une équivalence
+> entre **nœuds notionnels**, au régime du joint Janus
 > ([[doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons]] §5).
+
+## 9. Ce que cette fiche apprend sur la méthode
+
+Elle a été écrite deux fois dans la même journée, et le second examen a retiré
+les trois obstacles du premier **sans consulter une seule source nouvelle**.
+
+Ce n'est pas un accident. Les trois obstacles avaient une origine commune : j'avais
+comparé les deux traditions **en supposant que leurs figures étaient prises du même
+point de vue**. Dès qu'on cesse de le supposer, une élévation et un plan cessent de
+se contredire — ils se complètent, et chacun porte ce qui manque à l'autre.
+
+> **Ce que Sidy énonce, et que cette fiche vérifie sur elle-même** : le rapport
+> **inter**-traditionnel ne s'aborde pas comme le rapport **intra**-traditionnel.
+> À l'intérieur d'une tradition, deux énoncés qui se contredisent sur le même
+> plan appellent une collation — il faut la source. Entre deux traditions, une
+> contradiction apparente est d'abord **une invitation à chercher le point de vue
+> depuis lequel les deux sont vraies**. La source ne vient qu'ensuite, pour
+> éprouver ce qu'on a trouvé.
+>
+> C'est exactement l'office que le dépôt assigne à la convention Sashimono : non
+> pas trancher entre les pièces, mais **identifier la nature du joint** — et
+> l'Art. 3 (« jamais de joint forcé ; on documente et on pose les pièces côte à
+> côte ») vaut aussi bien contre un rapprochement forcé que contre une
+> **séparation forcée**. J'avais fait la seconde faute.
