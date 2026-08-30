@@ -14,6 +14,45 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées sans ancêtre commun
+
+- **Ordre de Sidy** : « Fusionne les branches ». **Une seule a été fusionnée**, et
+  trois ne l'ont pas été — pour les raisons ci-dessous.
+- ✅ **Fusionnée** : `claude/passation-instrument-claude-ai-kono6l` → `main`, via la
+  **PR #18**, fast-forward strict (14 commits d'avance, 0 de retard). `main` passe à
+  `657d79a`. Le push direct sur `main` a été **bloqué** pour la session d'agent
+  (comportement voulu) : voie PR + merge API, la même que le 2026-08-29.
+- 🛑 **Découverte en préparant la fusion — le dépôt porte DEUX lignées sans ancêtre
+  commun.** `git merge-base` renvoie « aucune base commune » entre `origin/main` et
+  `claude/instrument-graphic-design-n5d0ic`, `claude/shayegan-transcription-archivage-qt2815`,
+  ainsi que le `main` **local** de la session. Comparaison de **contenu** (à deux
+  points) : **−26 172 lignes** pour la première, **−17 103** pour la seconde. Ces
+  branches ne sont pas « en avance » malgré leurs compteurs (387 et 66 commits) :
+  elles portent un **état ancien et plus petit** du dépôt, antérieur à une réécriture
+  d'historique. **Les fusionner aurait retiré des dizaines de milliers de lignes.**
+  ⛔ Non fusionnées.
+- ⚠️ **Erreur de méthode commise, puis corrigée — consignée pour qu'elle serve** :
+  un premier test avec `git diff origin/main...origin/<branche>` (**trois points**)
+  a rendu un résultat **vide**, que j'ai d'abord interprété comme « contenu déjà
+  intégré à `main` » — et rapporté comme tel à Sidy. **C'était faux** : le diff à
+  trois points **échoue silencieusement** (`no merge base`) quand les histoires sont
+  disjointes, et rend un résultat vide indiscernable d'une égalité. Rectifié avant
+  toute opération, par comparaison à **deux points**. **Règle pour ce dépôt : tant
+  que les deux lignées coexistent, comparer une branche à `main` toujours à deux
+  points.**
+- ⚠️ **`fix/corrections-rapports-2026-08-30` — NON fusionnée, décision renvoyée à
+  Sidy.** Seule branche à porter du contenu réel dans la lignée de `main`. Mais
+  *(a)* son **correctif de sécurité est déjà dans `main`** — le secret HMAC exposé
+  en clair y est déjà caviardé, arrivé par une autre voie ; *(b)* ce qui reste est
+  pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
+  décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
+  en retirer 39 efface 39 signalements en cours) ; *(c)* elle **conflicte** sur trois
+  fichiers, dont `registre-problemes.md`, append-only inséré en tête par les deux
+  lignées. Conforme à VIGILANCE (« rapporter sans corriger d'office ») et au Cmd 13.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s)` sur le HEAD fusionné.
+- **Commit** : (entrée versée après la fusion ; voir PR #18, merge `657d79a`)
+
 ## [2026-08-30] briefs | Passation retour — session claude.ai vers session terminal
 
 - **Brief créé** : [[meta/briefs/2026-08-30_passation-claude-ai-vers-terminal]], à la
