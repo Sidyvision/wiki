@@ -108,72 +108,129 @@ Sidy), transcription Gardien 2026-08-25 :
   **al-martabat al-aḥadiyya** (1503), al-martabat al-ilāhiyya (1504, début —
   suite p. 406) → [[doctrinal/symboles/al-insan-al-kamil]].
 
-## Transcriptions intégrées (2026-08-30) — le Trône et le Piédestal
+## Transcriptions intégrées (2026-08-30) — lots p. 47 et p. 441
 
-> Transcrites depuis les photographies de l'édition physique déposées par Sidy le
-> 2026-08-30 (`raw/assets/IMG_0368` = p. 47 ; `raw/assets/IMG_0370` = p. 441).
+> Transcrites **intégralement** depuis les photographies de l'édition physique
+> déposées par Sidy le 2026-08-30 (`raw/assets/IMG_0368` = p. 47 ;
+> `raw/assets/IMG_0370` = p. 441). Toutes les définitions lisibles sur les
+> clichés sont reproduites, y compris celles sans portée pour les chantiers en
+> cours — **le lot est transcrit en entier une fois pour toutes**, pour n'avoir
+> pas à rouvrir le livre au coup par coup.
+>
 > **Motif du dépôt** : ces deux pages corroborent, par un auteur distinct de
 > Gloton-traducteur d'Ibn ʿArabī, la place du Trône (*ʿarsh*) et du Piédestal
 > (*kursī*) dans la hiérarchie cosmologique akbarienne — matière du chantier
 > ouvert le même jour sur les degrés 17 et 18 du *Nafas al-Raḥmān*.
 
-### Lot p. 47 — définitions 0034 à 0036 (les corps)
+### Lot p. 47 (lettre jīm — les corps) — définitions 0034 à 0036
 
-**0034 — *al-ajsām al-ṭabīʿiyya*, « les corps dépendants de la Nature »** :
+**0034 — *al-ajsām* (jsm) *al-ṭabīʿiyya* (ṭbʿ) — الأجسام الطبيعية**
+*Les corps dépendants de la Nature.*
 
-> « Pour les Maîtres en dévoilement spirituel cette expression désigne le Trône
-> (*ʿarš*) et le Piedestal (*kursî*). »
+> Pour les Maîtres en dévoilement spirituel cette expression désigne le Trône
+> (*ʿarš*) et le Piedestal (*kursî*).
 
-**0035 — *al-ajsām al-ʿunṣuriyya*, « les corps élémentaires »** : « C'est la
-désignation de tous les corps, à l'exception du Trône et du Piedestal, et des
-éléments (*usṭuqusāt*) qui font partie intégrante des cieux et des éléments qui
-les composent. »
+---
 
-La **Note** de cette définition donne la cosmogenèse d'Ibn ʿArabī en **sept
-niveaux ascendants** — pièce directement utile au dépôt :
+**0035 — *al-ajsām* (jsm) *al-ʿunṣuriyya* (ʿnṣr) — الأجسام العنصرية**
+*Les corps élémentaires.*
 
-| Niveau | Contenu |
-|---|---|
-| 1 | terre, eau, air, éther |
-| 2 | lune, mercure, vénus, soleil, mars, jupiter, saturne |
-| 3 | ciel des étoiles fixes, ciel du zodiaque |
-| **4** | **piedestal, trône** |
-| 5 | le Corps universel, la Matière primordiale, la Nature universelle |
-| 6 | la Table gardée, le Calame ou Intellect premier |
-| 7 | Présence divine de l'Unicité, de l'Unité, de l'Essence inconditionnée |
+> C'est la désignation de tous les corps, à l'exception du Trône et du Piedestal,
+> et qui font partie intégrante des cieux et des éléments (*usṭuqusāt*) qui les
+> composent.
+>
+> **Note** — Dans l'ontogénèse et la cosmogénèse d'Ibn ʿArabî, par exemple, la
+> hiérarchie ontologique et cosmologique se présente comme suit :
+>
+> 1. terre, eau, air, éther.
+> 2. lune, mercure, vénus, soleil, mars, jupiter, saturne.
+> 3. ciel des étoiles fixes, ciel du zodiaque.
+> 4. **piedestal, trône.**
+> 5. Le Corps universel, la Matière primordiale, la Nature universelle.
+> 6. La Table gardée, le Calame ou Intellect premier.
+> 7. Présence divine de l'Unicité, de l'Unité, de l'Essence inconditionnée.
 
-> **Ce que ce tableau confirme, et ce qu'il ne dit pas.** Il confirme l'**ordre**
-> — le Piédestal sous le Trône dans la montée, l'un et l'autre au-dessus des
-> sphères célestes (niveau 3) et au-dessous du Corps universel et de la Table
-> gardée (niveaux 5-6). C'est exactement l'ordre de la table courante de Gloton
-> (degrés 17 et 18, les sphères commençant au 19).
-> Il **ne donne aucun numéro de degré** : c'est un groupement en sept niveaux,
-> **numérotation propre**, à ne pas confondre avec les 38 degrés du *Nafas
+> ⚠️ **Ce que ce tableau confirme, et ce qu'il ne dit pas.** Il confirme
+> l'**ordre** — le Piédestal sous le Trône dans la montée, l'un et l'autre
+> au-dessus des sphères célestes (niveau 3) et au-dessous du Corps universel et
+> de la Table gardée (niveaux 5-6). C'est exactement l'ordre de la table courante
+> de Gloton (degrés 17 et 18, les sphères commençant au 19).
+> Il **ne donne aucun numéro de degré** : c'est un groupement en **sept niveaux,
+> numérotation propre**, à ne pas confondre avec les 38 degrés du *Nafas
 > al-Raḥmān* — même vigilance que celle désormais portée en tête de
 > [[doctrinal/symboles/table-28-degres-nafas-rahman]].
 
-**0036 — *al-ajsām al-muḥtalifa*, « les divers corps naturels »** : les quatre
-éléments (*ʿanāṣir*) et les trois catégories d'êtres engendrés (*mawālid*) — les
-règnes minéral, végétal et animal. Distinction terminologique retenue :
-*usṭuqusāt* désigne le principe fondamental (*aṣl*), *ʿanāṣir* ce en quoi se
-composent les substances complexes et en quoi elles se décomposent.
+---
 
-### Lot p. 441 — définitions 1652 à 1656 (Royauté, Souveraineté)
+**0036 — *al-ajsām* (jsm) *al-muḫtalifa* (ḫlf) *al-ṭabāʾiʿ* (ṭbʿ) — الأجسام المختلفة الطبائع**
+*Les divers corps naturels.*
 
-**1652 — *al-malakūt*, « la Royauté ou Souveraineté absolue, le monde
-angélique »** : « C'est le monde du Mystère (*ʿālam al-ġayb*), demeure réservée
-aux esprits (*arwāḥ*) et aux âmes (*nafūs*). »
+> Ce sont les (quatre) éléments (*ʿanāṣir*) et les trois catégories d'êtres
+> engendrés (*mawālid*) qui en sont composés — les trois règnes minéral, végétal
+> et animal — ainsi que les corps simples ou incomposés (*basīṭa*) doués du
+> mouvement (*ḥaraka*). Dans le domaine de la nature, ils sont situés dans la
+> concavité (*jawf*) de la sphère de la Lune (*falak al-qamar*).
+>
+> Quand on les considère comme parties élémentaires (*ajzāʾ*) de substances
+> composées (*murakkabāt*), on dit qu'ils sont des principes de base (*arkān*),
+> car le principe de base (*rukn*) d'une chose est sa partie élémentaire
+> (*juzʾ*). Quand on les envisage comme les principes fondamentaux (*uṣūl*) dont
+> ils sont composés, on les nomme *usṭuqusāt* et *ʿanāṣir*, éléments
+> fondamentaux. Ces deux derniers termes désignent le principe fondamental
+> (*aṣl*) respectivement dans les langues grecque et arabe.
+>
+> Toutefois, *usṭuqusāt* désigne ce dont se composent les substances complexes,
+> alors que *ʿanāṣir* réfère à ce en quoi elles se décomposent. On remarque donc,
+> dans l'usage du terme *usṭuqus*, le sens de génération ou d'être (*kawn*) et
+> dans celui de *ʿunṣur* le sens de corruption (*fasād*).
 
-**1653 — *al-malāʾ al-mutashābih*, « le "contenant" comparable ou analogue »** :
-désignation des sphères (*aflāk*) et des éléments (*ʿanāṣir*) **à l'exclusion de
-la surface convexe (*saṭḥ muḥaddab*) de la Sphère suprême (*falak aʿẓam*)**.
+### Lot p. 441 (lettre mīm — Royauté, Souveraineté) — définitions 1652 à 1656
 
-**1655 — *al-mulk*, « la Souveraineté, le Royaume »** :
+> La page s'ouvre sur la **fin de la définition précédente** (1651), reproduite
+> ici pour ne rien perdre du cliché : « C'est, dit-on, celui qui reçoit le
+> montant de la location après avoir fixé le loyer du chameau, alors qu'il n'en
+> possède pas, qu'il ne s'en procure pas pour que son client puisse le monter, et
+> qu'il n'a pas davantage de quoi acheter une monture [pour la mettre à la
+> disposition de son client]. »
 
-> « C'est le monde attesté (*ʿālam al-šahāda*) composé des réalités perceptibles
+**1652 — *al-malakūt* (mlk) — الملكوت**
+*La Royauté ou Souveraineté absolue, le monde angélique.*
+
+> C'est le monde du Mystère (*ʿālam al-ġayb*), demeure réservée aux esprits
+> (*arwāḥ*) et aux âmes (*nufūs*).
+
+---
+
+**1653 — *al-malāʾ* ou *al-milāʾ* (mlʾ) *al-mutašābih* (šbh) — الملأ المتشابه**
+*Le « contenant » comparable ou analogue.*
+
+> C'est la désignation des sphères (*aflāk*) et des éléments (*ʿanāṣir*) à
+> l'exclusion de la surface convexe (*saṭḥ muḥaddab*) de la Sphère suprême
+> (*falak aʿẓam*). Ce contenant représente la surface [sphérique] extérieure [de
+> l'Univers]. L'analogie ou comparaison (*tašābuh*) avec le contenant se trouve
+> dans l'harmonie de ses éléments constitutifs naturels (*ṭabāʾiʿ*).
+
+---
+
+**1654 — *al-malāl* (mll) — الملال**
+*L'ennui, la lassitude.*
+
+> C'est la tiédeur (*futūr*) que l'être humain ressent devant l'exercice
+> (*muzāwala*) souvent répété de quelque chose et qui provoque en lui lassitude
+> (*kalāl*) et dégoût à son sujet (*iʿrāḍ ʿan-hu*).
+
+---
+
+**1655 — *al-mulk* (mlk) — المُلْك**
+*La Souveraineté, le Royaume.*
+
+> C'est le monde attesté (*ʿālam al-šahāda*) composé des réalités perceptibles
 > naturelles (*maḥsūsāt ṭabīʿiyya*), **comme le Trône (*ʿarš*), le Piédestal
-> (*kursī*)** et tout corps qui s'apprécie par le libre exercice (*taṣarruf*) de
-> la faculté imaginative (*ḫayāl*)… »
+> (*kursî*)** et tout corps qui s'apprécie par le libre exercice (*taṣarruf*) de
+> la faculté imaginative (*ḫayāl*) qui dissocie ces « corps » de la composition
+> des [quatre] natures considérées alors à l'état pur : chaleur (*ḥarāra*),
+> froideur (*burūda*), humidité (*ruṭūba*) et sécheresse (*yubūsa*), c'est-à-dire
+> tout corps composé de [ces quatre] éléments (*usṭuqusāt*).
 
 > **Point notable.** Le Trône et le Piédestal sont ici rangés dans le *mulk*, le
 > « monde attesté » des réalités **perceptibles** — ce qui recoupe exactement la
@@ -184,9 +241,20 @@ la surface convexe (*saṭḥ muḥaddab*) de la Sphère suprême (*falak aʿẓ
 > termes suprêmes de la cosmologie relèvent du **perceptible**, non de
 > l'inconnaissable.
 
-**1654 — *al-malāl*** (l'ennui, la lassitude) et **1656 — *al-milk*** (la
-possession, l'appropriation) : transcrits pour la complétude du lot, sans portée
-doctrinale pour les chantiers en cours.
+---
+
+**1656 — *al-milk* (mlk) — المِلْك**
+*La possession, la propriété, l'appropriation (des actes).*
+
+> 1 — Chez les théologiens (*mutakallimīn*), c'est un état (*ḥāla*) qui affecte
+> une chose par ce qu'elle implique, état qui évolue (*intiqāl*) avec elle, comme
+> le fait de mettre un turban ou une chemise, car chacune de ces deux attitudes
+> repose sur la libre disposition impliquée dans l'acte d'enrouler le turban
+> autour de la tête ou de mettre la chemise sur le corps.
+
+> ⚠️ **Définition tronquée par le cliché** : le point « 1 — » appelle une suite
+> (au moins un point 2) qui se trouve à la page suivante, non photographiée.
+> `to-source` pour le reste de cette entrée.
 
 ---
 
