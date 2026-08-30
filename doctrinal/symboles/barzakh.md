@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, isthme, ontologie, ibn-arabi]
 created: 2026-06-02
-updated: 2026-08-25
+updated: 2026-08-30
 sources: ["[[jesus-and-enoch-in-ibn-arabi]]", "[[awrad-ibn-arabi]]", "[[barzakh-nur-lh]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 4
 cross_links: ["[[ibn-arabi]]", "[[wahdat-al-wujud]]", "[[walaya]]", "[[tasawwuf]]", "[[idris]]", "[[hadarat-khams]]", "[[doctrinal/symboles/alam-al-mithal]]"]

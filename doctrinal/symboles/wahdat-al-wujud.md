@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, ontologie, ibn-arabi, unite-de-letre]
 created: 2026-06-02
-updated: 2026-08-25
+updated: 2026-08-30
 sources: ["[[jesus-and-enoch-in-ibn-arabi]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]]"]
 sources_count: 3
 cross_links: ["[[ibn-arabi]]", "[[barzakh]]", "[[tasawwuf]]", "[[walaya]]", "[[hadarat-khams]]"]
@@ -119,6 +119,28 @@ emploient un vocabulaire dense et imbriqué qui mériterait, à terme, un schém
 propre — non entrepris ici. Voir
 [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] pour le contexte de la
 déf. 0631.
+
+### Les entités essentielles immuables (déf. 0175)
+
+Les *aʿyān ṯābita* (entités essentielles immuables) sont les archétypes éternels dans
+la Science divine dont la *waḥdat al-wujūd* est la doctrine de l'Unité de l'Être
+manifesté. Jurjānī les définit (déf. 0175) comme les Réalités essentielles
+(*ḥaqāʾiq*) des êtres possibles (*mumkināt*) dans la Science de Dieu le Réel
+(*ʿilm al-ḥaqq*), « sans commencement (*azaliyya*) ni fin (*abadiyya*) »,
+postérieures à Dieu seulement par rapport à l'Essence (*ḏāt*) et non par rapport
+au temps.
+
+**Portée pour la waḥdat al-wujūd** : cette définition éclaire la relation entre
+l'Unité de l'Être et la multiplicité des archétypes. Les *aʿyān ṯābita* sont
+éternelles dans la Science divine — elles ne sont pas créées, mais elles sont
+distinctes de l'Essence. La *waḥdat al-wujūd* affirme que l'Être des créatures est
+un emprunt (*iʿāra*) de l'Être divin : les *aʿyān ṯābita* sont les archétypes de
+ces créatures, éternels dans la Science, mais dont l'existence extérieure (*wujūd
+ḫāriǧī*) est contingente. La tension entre l'éternité des archétypes et la
+contingence de leur manifestation extérieure est au cœur de la doctrine.
+
+— source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 0175, p. 80. Vérifié
+sur l'édition physique (trad. Maurice Gloton, Albouraq), transcription du 2026-08-30.
 
 ## Concepts liés
 

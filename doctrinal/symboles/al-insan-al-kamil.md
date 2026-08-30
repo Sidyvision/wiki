@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, homme-universel, jili, ibn-arabi, prophetologie]
 created: 2026-06-05
-updated: 2026-08-25
+updated: 2026-08-30
 sources: ["[[universal-man-jili]]", "[[jesus-and-enoch-in-ibn-arabi]]", "[[awrad-ibn-arabi]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 4
 cross_links: ["[[abd-al-karim-al-jili]]", "[[ibn-arabi]]", "[[wahdat-al-wujud]]", "[[barzakh]]", "[[walaya]]", "[[tasawwuf]]", "[[hadarat-khams]]"]
@@ -77,7 +77,39 @@ Universel, chacune le rapportant à une fonction métaphysique précise :
   source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1370, p. 539. Vérifié sur
   l'édition physique (trad. Maurice Gloton, Albouraq).
 
-**Le rang de l'Homme Parfait (déf. 1502)** :
+### Les entités essentielles immuables (déf. 0174-0175)
+
+Jurjānī fournit l'appareil terminologique qui sous-tend la doctrine des *aʿyān ṯābita*
+(entités essentielles immuables), directement liée à l'ontologie akbarienne :
+
+- **al-aʿyān** (déf. 0174) — *Les essences, entités, heccéités déterminées* : ce qui
+  subsiste par soi, ce qui se satisfait à soi-même, sans recourir pour cela à une
+  autre réalité, à la différence de l'accident (*ʿaraḍ*) tributaire d'une substance
+  (*jawhar*) qui est son réceptacle (*mawḍiʿ*).
+
+- **al-aʿyān al-ṯābita** (déf. 0175) — *Les entités essentielles immuables, les entités
+  prototypiques ou principielles stables, les heccéités éternelles* : ce sont les
+  Réalités essentielles (*ḥaqāʾiq*) des êtres possibles (*mumkināt*) dans la Science
+  de Dieu le Réel (*ʿilm al-ḥaqq*). Elles sont aussi les formes (*ṣuwar*) des Réalités
+  essentielles des Noms divins dans le degré de la Présence omnisciente (*ḥaḍra
+  ʿilmiyya*). Elles ne sont postérieures à Dieu le Réel que par rapport à l'Essence
+  (*ḏāt*) et non par rapport au temps (*zamān*), car elles sont sans commencement
+  (*azaliyya*) ni fin (*abadiyya*). La relation de postériorité (*taʾaḫḫur*) s'entend
+  seulement en fonction de l'Essence.
+
+**Portée pour l'Homme Universel** : les *aʿyān ṯābita* sont les archétypes éternels
+dont l'Homme Universel est la synthèse totalisatrice. L'Homme Parfait totalise toutes
+les Réalités essentielles (*ḥaqāʾiq*) — c'est-à-dire toutes les *aʿyān ṯābita* — dans
+leur unité synthétique. La déf. 0175 précise que ces entités sont « sans commencement
+ni fin » et « postérieures à Dieu seulement par rapport à l'Essence » : cela corrobore
+la doctrine akbarienne selon laquelle les archétypes sont éternels dans la Science
+divine, bien que distincts de l'Essence.
+
+— source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 0174-0175, p. 79-80.
+Vérifié sur l'édition physique (trad. Maurice Gloton, Albouraq), transcription du
+2026-08-30.
+
+### Le rang de l'Homme Parfait (déf. 1502) :
 
 **martabat al-insān al-kāmil** (مرتبة الإنسان الكامل) — Le degré, la place, le rang,
 l'ordre de l'Homme parfait.

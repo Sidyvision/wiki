@@ -9,7 +9,7 @@ tags:
 - retraite
 - stub
 created: 2026-06-20
-updated: 2026-08-25
+updated: 2026-08-30
 sources:
 - '[[doctrinal/sources/kitab-al-tarifat-jurjani]]'
 sources_count: 1
@@ -24,13 +24,22 @@ cross_links:
 
 Pratique d'isolement volontaire (au sens large, parente de l'*ʿuzla*) destinée à favoriser le recueillement et l'ouverture à des états de conscience subtils, par soustraction aux distractions du monde sensible.
 
-## Ancrage terminologique (Jurjānī, déf. 1066)
+## Ancrage terminologique (Jurjānī, déf. 1066 et 0183)
 
-Le *Taʿrīfāt* ne comporte pas d'entrée propre à *ḫalwa*. Le terme parent que la fiche appelle — l'*ʿuzla* — y est en revanche défini :
+Le *Taʿrīfāt* ne comporte pas d'entrée propre à *ḫalwa*. Deux termes parents y sont en revanche définis :
 
-**al-ʿuzla** (العُزْلَة) — La retraite, la solitude. C'est se défaire des fréquentations des créatures (*muḫālaṭat al-ḫalq*) par isolement (*inziwāʾ*) et séparation (*inqiṭāʿ*).
+**al-ʿuzla** (déf. 1066, p. 298) — La retraite, la solitude. C'est se défaire des fréquentations des créatures (*muḫālaṭat al-ḫalq*) par isolement (*inziwāʾ*) et séparation (*inqiṭāʿ*).
 
-— source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1066, p. 298. Vérifié sur l'édition physique (trad. Maurice Gloton, Albouraq), transcription du 2026-08-25 depuis `raw/Transcription Jurjani/IMG_0188.JPG`.
+**al-iʿtikāf** (déf. 0183, p. 80) — La retraite pieuse. Jurjānī distingue quatre sens :
+
+1. Dans l'usage courant : résider en un endroit (*maqām*) sans le quitter (*iḥtibās*).
+2. Dans la Loi : séjourner dans une mosquée cathédrale (*masjid jamāʿa*) en jeûnant avec une intention précise.
+3. Dimension intérieure : vider (*tafrīġ*) le cœur de toute préoccupation (*šuġl*) relative à ce monde ; livrer (*taslīm*) son âme à son Maître et Seigneur (*mawlā*).
+4. Selon certains : synonyme de *wukūf* — le culte constant (*iqāma*) dont un des sens est : « Je ne cesse de me tenir à Ta porte jusqu'à ce que Tu me pardonnes ».
+
+**Portée pour la khalwa** : l'*iʿtikāf* et la *khalwa* partagent la structure de la retraite volontaire, mais diffèrent par le cadre et la finalité. L'*iʿtikāf* est une retraite légale (*šarʿī*) circonscrite à la mosquée, avec jeûne et intention rituelle. La *khalwa* est une retraite plus large, souvent en solitude géographique, visant l'ouverture à des états de conscience subtils. La déf. 0183 §3 (vider le cœur, livrer l'âme au Maître) décrit cependant une finalité intérieure commune aux deux pratiques.
+
+— source : [[doctrinal/sources/kitab-al-tarifat-jurjani]], déf. 1066 (p. 298) et 0183 (p. 80). Vérifié sur l'édition physique (trad. Maurice Gloton, Albouraq), transcription du 2026-08-25 (déf. 1066) et 2026-08-30 (déf. 0183).
 
 ## Développement
 
