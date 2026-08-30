@@ -391,9 +391,26 @@ quand ils sont envisagés de l'Infini », et n'importe quel état « peut deveni
   des cycles, il n'y a « nulle part dans l'Univers la moindre solution de
   continuité ».
 
-> **À vérifier sur le rendu actuel** : l'Instrument distingue-t-il visuellement
-> l'état humain des autres ? Si oui, c'est un privilège que le texte refuse.
-> Contrôle à faire, non fait ce jour.
+> ⚠️ **Formulation rectifiée le 2026-08-30 (soir), sur remarque de Sidy et sur
+> texte.** J'avais écrit qu'il fallait vérifier si l'Instrument « privilégie »
+> l'état humain. **La question était mal posée** : prendre l'état humain pour
+> **référence** et lui accorder un **privilège hiérarchique** sont deux choses
+> distinctes, et le ch. XXVII ne refuse que la seconde.
+>
+> *Les états multiples de l'être*, ch. XI, tranche : « **le plan qui sert de base
+> est indéterminé en principe** […] ce n'est que **secondairement** qu'on le
+> détermine comme représentant l'état humain, **lorsqu'on veut se placer au point
+> de vue de cet état spécial** » ; et rapporter les états à l'état humain est
+> « **assurément légitime** », quoique « un point de vue très particulier ».
+> Guénon fait lui-même ce choix au ch. V du *Symbolisme de la Croix*, où le plan
+> de base est « le monde de l'homme » (*mānava-loka*).
+>
+> **Donc : l'Instrument prend l'état humain pour référence — c'est fondé, et
+> c'est même inévitable** (« il ne nous est pas possible de nous placer
+> effectivement à un point de vue autre »). **La seule exigence est que ce choix
+> soit déclaré comme tel dans le rendu** : un point de vue, non un absolu. Verdict
+> de Sidy, 2026-08-30. Voir
+> [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats]].
 
 ### 6bis.6 La géométrie des guṇas, donnée par Guénon et directement instrumentable
 
@@ -407,6 +424,24 @@ d'où la conversion est ordonnée est **le centre même de la sphère**
 
 C'est une correspondance **explicite chez Guénon**, non une transposition : elle
 peut être versée en donnée sans qualification sashimono nouvelle.
+
+### 6bis.7 Le vocabulaire juste, donné par Guénon : *ampleur* et *exaltation*
+
+*Les états multiples*, ch. X, nomme les deux sens et fixe leur rapport :
+**ampleur** = extension à l'intérieur d'un état (plan horizontal) ; **exaltation**
+= hiérarchie entre les états (axe vertical). Et : « **la différence des modalités
+individuelles, ne se référant qu'au sens de l'"ampleur", est rigoureusement nulle
+suivant celui de l'"exaltation"** » — un état entier « se réduit à **un seul
+point** » sur l'axe.
+
+C'est le résultat du ch. XXVI du *Symbolisme de la Croix* atteint par un autre
+chemin, et **dit plus nettement encore**. Deux ouvrages indépendants convergent :
+la figure juste n'est pas une graduation, c'est un rapport **plan → point → volume**.
+
+Le ch. XII ajoute la **surface des Eaux** — plan de séparation du formel et de
+l'informel, et **plan de réflexion du Rayon Céleste**, donc lieu de la
+discontinuité unique du ch. XXVII. **Les deux ouvrages se referment l'un sur
+l'autre sur ce terme.**
 
 ## 7. Ce qu'il faut instruire, dans l'ordre, avant d'écrire une ligne de rendu
 
