@@ -14,10 +14,17 @@
     font-family:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;color:var(--texte)}
   #app{position:relative;width:100vw;height:100vh;height:100dvh;overflow:hidden}
   #scene{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;z-index:0}
+  #ecarts{position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none;overflow:visible}
+  #ecarts line{stroke:#f2f2f5;stroke-width:1.4;stroke-opacity:.6}
   .panneau{position:absolute;z-index:2;background:rgba(0,0,0,.88);border:1px solid rgba(242,242,242,.4);
     border-radius:0;padding:.6rem .8rem;max-width:min(72vw,320px);
     font-size:clamp(.6rem,2.3vw,.74rem);letter-spacing:.01em}
-  #titre{top:max(env(safe-area-inset-top),10px);left:10px}
+  /* Colonne de gauche : le titre, puis les stations. Empilement en flux, pour
+     que le panneau des stations suive la hauteur réelle du titre quel que soit
+     le retour à la ligne (iPad portrait/paysage). */
+  #colonne-gauche{position:absolute;z-index:2;top:max(env(safe-area-inset-top),10px);left:10px;
+    display:flex;flex-direction:column;gap:8px;max-width:min(76vw,340px)}
+  #colonne-gauche .panneau{position:static;max-width:none}
   #titre h1{margin:0;font-size:.95em;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--blanc)}
   #titre p{margin:.3rem 0 0;font-size:.85em;opacity:.7}
   #titre p.provenance{font-size:.78em;opacity:.55;letter-spacing:.01em}
@@ -34,20 +41,57 @@
   #erreur .boite{max-width:420px;border:1px solid rgba(242,242,242,.3);padding:1.2rem 1.4rem}
   #erreur h2{color:var(--blanc);margin:0 0 .6rem;font-size:1rem;text-transform:uppercase;letter-spacing:.04em}
   #erreur p{font-size:.85rem;line-height:1.5;opacity:.8}
+  /* -- Stations de navigation (sulūk) --------------------------------------
+     Instrument de parcours, non d'exposition : on se DÉPLACE de station en
+     station, chacune ne disant qu'une chose. Tout est TOUCHABLE — Sidy
+     travaille sur iPad, où le clavier peut être absent ; les touches 0-6 ne
+     sont qu'un doublon de confort. */
+  #stations{line-height:1.55}
+  #stations .rangee{display:flex;flex-wrap:wrap;gap:5px;margin:0 0 .45rem}
+  #stations button{font:inherit;font-size:.94em;color:var(--texte);background:rgba(255,255,255,.05);
+    border:1px solid rgba(242,242,242,.35);border-radius:0;padding:.18rem .5rem;cursor:pointer;
+    min-width:2.1em;-webkit-tap-highlight-color:transparent}
+  #stations button[aria-pressed="true"]{background:var(--blanc);color:#000;border-color:var(--blanc)}
+  #stations button:disabled{opacity:.3;cursor:default}
+  #stations .nom{color:var(--blanc);font-weight:600;letter-spacing:.02em;margin:0 0 .2rem}
+  #stations .dit{margin:0;opacity:.88;font-size:.96em}
+  #stations .garde{margin:.35rem 0 0;font-size:.9em;opacity:.62;border-top:1px solid rgba(242,242,242,.18);
+    padding-top:.3rem}
+  #stations .plan{display:flex;gap:5px;align-items:center;margin:.4rem 0 0;font-size:.9em;opacity:.8}
+  /* `display:flex` l'emporterait sur l'attribut `hidden` natif : à rétablir. */
+  #stations .plan[hidden]{display:none}
   @media (max-width:520px){ #aide{display:none} }
 </style>
 </head>
 <body>
 <div id="app">
   <canvas id="scene"></canvas>
+  <!-- Marques d'équidistance (station 3), tracées en pixels par-dessus la scène :
+       leur égalité doit être vraie à l'écran, pas seulement dans le monde. -->
+  <svg id="ecarts" aria-hidden="true"></svg>
 
-  <div class="panneau" id="titre">
-    <h1>Instrument de la Tradition Primordiale</h1>
-    <p>Prototype de l'axe — les 38 degrés du Nafas al-Raḥmān</p>
-    <p id="provenance" class="provenance">lecture du manifeste…</p>
+  <div id="colonne-gauche">
+    <div class="panneau" id="titre">
+      <h1>Instrument de la Tradition Primordiale</h1>
+      <p>Prototype de l'axe — les 38 degrés du Nafas al-Raḥmān</p>
+      <p id="provenance" class="provenance">lecture du manifeste…</p>
+    </div>
+
+    <div class="panneau" id="stations">
+      <div class="rangee" id="stations-boutons"></div>
+      <p class="nom" id="station-nom">Vue nue</p>
+      <p class="dit" id="station-dit">L'axe seul, sans surcharge. Toucher une station pour s'y porter.</p>
+      <p class="garde" id="station-garde"></p>
+      <div class="plan" id="station-plan" hidden>
+        <span>plan de base</span>
+        <button type="button" id="plan-haut" title="élever le plan de base">▲</button>
+        <button type="button" id="plan-bas" title="abaisser le plan de base">▼</button>
+        <span id="plan-ou"></span>
+      </div>
+    </div>
   </div>
 
-  <div class="panneau" id="aide">glisser : orbiter · pincer : zoom<br>toucher un nœud : détail</div>
+  <div class="panneau" id="aide">glisser : orbiter · pincer : zoom<br>toucher un nœud : détail<br>stations : 0–6 · axe unifié : U</div>
 
   <div class="panneau" id="info">
     <h2 id="info-label"></h2>
@@ -555,19 +599,51 @@ function ligne(pts, couleur, opacite, pointillee){
   return new THREE.Line(geo, mat);
 }
 
-// -- Axe neutre du Principe + halo du Hāhūt (1-10, non manifesté) --
+// -- Axe neutre du Principe + bande des degrés 1-10 (« Le Degré divin ») --
+//    Rectifié le 2026-08-30 (soir), sur DEUX motifs distincts :
+//
+//    1. GÉOMÉTRIE. L'ancien halo était un cône se rétrécissant vers le haut
+//       (CylinderGeometry rayon .001 en haut, .5 en bas). Un rétrécissement vers
+//       le haut EST une convergence, donc une figure qui dit « on s'approche du
+//       terme » — exactement ce que la contrainte 2 du chantier interdit
+//       (« tous sont parfaitement équivalents quand ils sont envisagés de
+//       l'Infini », Symbolisme de la Croix ch. XXVII). Le chantier l'avait
+//       d'ailleurs relevé nommément. Remplacé par une bande de section
+//       CONSTANTE : elle marque une étendue, elle ne mesure aucune approche.
+//
+//    2. ÉTIQUETTE. « Hāhūt » n'est pas de Gloton : c'est une attribution du Gem
+//       (persona IA), réputée reconstruction plausible et jamais source
+//       (§VII.3). La collation de la p. 35 (2026-08-30 au soir) donne le titre
+//       que la source porte elle-même : « 1 - Le Degré divin ». C'est celui-là
+//       qui est affiché. Le joint « 1-10 ↔ Hāhūt » reste kari-kumi.
+//
+//    « non manifesté » est également retiré : la source ne le dit pas, et ces
+//    dix degrés y sont numérotés comme les autres. Ce qu'elle dit, et qui suffit,
+//    c'est qu'ils sont PRÉ-LETTRÉS — la première lettre (hamza) ouvre le degré 11.
 (function(){
   var hautAxe = yDeg[11] + 5.5, basAxe = yDeg[38] - 2.2;
   var axe = new THREE.Mesh(
     new THREE.CylinderGeometry(.012, .012, hautAxe - basAxe, 8),
     new THREE.MeshBasicMaterial({color:0xaab4c8, transparent:true, opacity:.55}));
   axe.position.y = (hautAxe + basAxe) / 2; monde.add(axe);
-  var halo = new THREE.Mesh(
-    new THREE.CylinderGeometry(.001, .5, 5, 24, 1, true),
+  var bande = new THREE.Mesh(
+    new THREE.CylinderGeometry(.42, .42, 5, 24, 1, true),
     new THREE.MeshBasicMaterial({color:0xf2f2f5, transparent:true, opacity:.05, side:THREE.DoubleSide}));
-  halo.position.y = yDeg[11] + 2.8; monde.add(halo);
-  var eH = etiquette("Hāhūt (1–10) — degrés non manifestés", .5, "rgba(242,242,245,.5)");
+  bande.position.y = yDeg[11] + 2.8; monde.add(bande);
+  var eH = etiquette("1–10 · Le Degré divin — pré-lettrés", .5, "rgba(242,242,245,.5)");
   eH.position.set(2.1, yDeg[11] + 3.4, 0); monde.add(eH);
+  // Nœud touchable : la bande devient interrogeable comme les degrés lettrés.
+  var nB = marqueur(.22, "#f2f2f5", false);
+  nB.position.set(0, yDeg[11] + 2.8, 0);
+  nB.userData = {
+    label: "1–10 · Le Degré divin",
+    deg: "dix commentaires (ḥadīth saint, kalām/qawl, versets 16-98 et 16-40, six formules) — "
+       + "PRÉ-LETTRÉS : la première lettre, hamza, ouvre le degré 11. Collationné p. 35 le 2026-08-30. "
+       + "🔍 l'assimilation au Hāhūt est une attribution non sourcée (kari-kumi) — Gloton écrit « Le Degré divin ». "
+       + "Rappel du ch. III des États multiples : l'Être n'est pas infini ; seul l'ensemble Être + Non-Être l'est — "
+       + "cette bande ne figure donc aucun terme de la série.",
+    src: SOURCE_TABLE};
+  monde.add(nB); interactifs.push(nB);
 })();
 
 // -- Bandes des Présences --
@@ -1448,6 +1524,296 @@ canvas.addEventListener('pointerup', function(e){ if (!bouge) toucher(e.clientX,
 canvas.addEventListener('pointercancel', finDoigt);
 canvas.addEventListener('wheel', function(e){ e.preventDefault(); dist *= (1 + Math.sign(e.deltaY) * .07); }, {passive:false});
 
+/* =========================================================================
+   STATIONS DE NAVIGATION (sulūk) — report des six trouvailles au rendu
+   -------------------------------------------------------------------------
+   Commande de Sidy (2026-08-30) : « reporte toutes les trouvailles au
+   prototype […] de façon digeste, navigable/pratique car il s'agit d'un
+   instrument de "navigation" (sulūk, contemplation). »
+
+   D'où le parti : NON un diagramme qu'on lit, mais des STATIONS qu'on
+   parcourt. Une station à la fois, une seule chose dite, tout le reste
+   éteint. On s'y porte au doigt (l'iPad n'a pas toujours de clavier — les
+   touches 0-6 ne sont qu'un doublon).
+
+   CE QUE CE CALQUE NE FAIT PAS :
+   - il ne modifie AUCUNE donnée (instrument-donnees.yaml inchangé, flux à
+     sens unique dépôt → manifeste → interface) ;
+   - il ne tranche AUCUN discernement : ce qui n'est pas établi est rendu en
+     pointillé + 🔍 et le dit dans sa propre garde (règle des manifestes §3) ;
+   - il n'implémente PAS l'Option A du chantier (l'absence signifiante), qui
+     reste bloquée sur la transposition latéral → vertical, non instruite.
+     L'Option C (équidistance figurée), elle, est directement sourcée et le
+     chantier la prévoyait « en mode dédié, sur touche » : c'est la station 3.
+
+   LES QUATRE CONTRAINTES DU CHANTIER, ET OÙ ELLES SONT TENUES :
+   1. l'Inconditionné n'est pas le sommet de la série → aucune station ne
+      dessine de terme en haut de l'axe ; le halo conique a été supprimé.
+   2. la discontinuité est égale depuis chaque degré → station 3 : marques
+      RIGOUREUSEMENT identiques, opposées deux à deux (aucune direction
+      privilégiée), aucun dégradé, aucune convergence.
+   3. la hiérarchie des états demeure → l'axe et ses 28 degrés ne bougent
+      jamais ; aucune station n'aplatit quoi que ce soit.
+   4. l'Être n'est pas infini (États multiples, ch. III) → porté par la garde
+      de la bande 1-10, qui ne figure donc aucun terme.
+   ========================================================================= */
+(function(){
+  var calque = new THREE.Group(); monde.add(calque);
+  var GRIS = 0x9aa4c0, OR = 0xd4a94e, EAU = 0x7fa8c8;
+  var R_PLAN = 6.2, Y_MID = (yDeg[11] + yDeg[38]) / 2;
+
+  // --- Le plan de base. « indéterminé en principe » (États multiples, ch. XI) :
+  //     il n'a donc PAS de position vraie par défaut. Il s'ouvre au milieu
+  //     géométrique de l'axe — un lieu arbitraire et déclaré tel — et le
+  //     navigateur le déplace lui-même. C'est la trouvaille 4 rendue opérante :
+  //     le centre n'est pas un lieu fixe de l'axe.
+  var rangs = []; for (var n = 11; n <= 38; n++) rangs.push(n);
+  var iPlan = null, yPlan = Y_MID;      // null = indéterminé (défaut)
+
+  function ajouter(groupe, obj){ groupe.add(obj); return obj; }
+  function disque(rayon, couleur, opacite){
+    return new THREE.Mesh(new THREE.CircleGeometry(rayon, 64),
+      new THREE.MeshBasicMaterial({color:couleur, transparent:true, opacity:opacite,
+        side:THREE.DoubleSide}));
+  }
+
+  // --- Pièces, une par trouvaille -----------------------------------------
+  var gAmpleur = new THREE.Group(); calque.add(gAmpleur);
+  var plan = disque(R_PLAN, GRIS, .10); plan.rotation.x = -Math.PI / 2; gAmpleur.add(plan);
+  var cerclePlan = new THREE.Mesh(new THREE.RingGeometry(R_PLAN - .04, R_PLAN, 96),
+    new THREE.MeshBasicMaterial({color:GRIS, transparent:true, opacity:.55, side:THREE.DoubleSide}));
+  cerclePlan.rotation.x = -Math.PI / 2; gAmpleur.add(cerclePlan);
+  // Le point d'exaltation : tout l'état, « réduit à un seul point » sur l'axe.
+  var pointExalt = marqueur(.34, "#ffffff", true); gAmpleur.add(pointExalt);
+
+  var gVolume = new THREE.Group(); calque.add(gVolume);
+  var volume = new THREE.Mesh(new THREE.SphereGeometry(9.6, 26, 18),
+    new THREE.MeshBasicMaterial({color:GRIS, transparent:true, opacity:.12, wireframe:true}));
+  volume.position.y = Y_MID; gVolume.add(volume);
+
+  // Station 3 — l'équidistance. Deux marques opposées par degré.
+  //
+  //   PREMIÈRE VERSION FAUSSE, ET INSTRUCTIVE. Les marques avaient d'abord été
+  //   tracées dans la scène 3D, rigoureusement égales EN MONDE. Le rendu les a
+  //   montrées convergeant en entonnoir vers le bas de l'axe : la caméra étant
+  //   en perspective, les degrés les plus éloignés projettent des marques plus
+  //   courtes. Une projection perspective EST une mesure de distance à un point
+  //   de vue — c'est précisément ce que la contrainte 2 interdit de laisser
+  //   voir, et la figure disait donc le contraire de ce qu'elle affirmait.
+  //
+  //   CORRECTION : les marques ne sont plus des objets du monde. Elles sont
+  //   tracées en SUPERPOSITION, en pixels, à longueur fixe — l'égalité n'est
+  //   plus « vraie mais déformée », elle est vraie À L'ÉCRAN, où le regard la
+  //   vérifie. Et le fait qu'elles n'appartiennent pas à la scène est juste :
+  //   cette discontinuité n'est pas une chose parmi les degrés.
+  var svgEcarts = document.getElementById("ecarts");
+  var LONG_PX = 26, DEPART_PX = 9;
+  function tracerEcarts(){
+    if (!svgEcarts) return;
+    if (courante !== 3){ if (svgEcarts.childNodes.length) svgEcarts.textContent = ""; return; }
+    var t = tailleConteneur(), frag = "";
+    DEGRES.forEach(function(d){
+      var v = monde.localToWorld(new THREE.Vector3(0, yDeg[d[0]], 0)).project(camera);
+      if (v.z > 1) return;                       // derrière la caméra
+      var x = (v.x * .5 + .5) * t.w, y = (-v.y * .5 + .5) * t.h;
+      [1, -1].forEach(function(s){
+        frag += '<line x1="' + (x + s * DEPART_PX).toFixed(1) + '" y1="' + y.toFixed(1)
+             +  '" x2="' + (x + s * (DEPART_PX + LONG_PX)).toFixed(1) + '" y2="' + y.toFixed(1) + '"/>';
+      });
+    });
+    svgEcarts.innerHTML = frag;
+  }
+  window.__tracerEcarts = tracerEcarts;
+
+  // Stations 4-5 — la géométrie des guṇas, telle que Guénon la donne
+  // (Symbolisme de la Croix, ch. V) : rajas = le plan horizontal ; sattva = la
+  // verticale au-dessus ; tamas = la verticale au-dessous. Correspondance
+  // EXPLICITE chez Guénon, non une transposition. Elle est relative au plan
+  // pris pour base — d'où le fait qu'elle se déplace avec lui.
+  var gGunas = new THREE.Group(); calque.add(gGunas);
+  var etiqGunas = {};
+  ["sattva", "rajas", "tamas"].forEach(function(g){
+    etiqGunas[g] = etiquette(g === "rajas" ? "rajas — le plan lui-même"
+      : (g === "sattva" ? "sattva — au-dessus du plan de base"
+                        : "tamas — au-dessous du plan de base"),
+      .5, g === "rajas" ? "rgba(212,169,78,.9)" : "rgba(170,180,200,.8)");
+    gGunas.add(etiqGunas[g]);
+  });
+
+  // Station 6 — la surface des Eaux / plan de réflexion du Rayon Céleste.
+  var gEaux = new THREE.Group(); calque.add(gEaux);
+  var nappe = disque(R_PLAN * 1.05, EAU, .13); nappe.rotation.x = -Math.PI / 2; gEaux.add(nappe);
+  var rayon = ligne([new THREE.Vector3(0, yDeg[11] + 5.2, 0), new THREE.Vector3(0, 0, 0)],
+    OR, .8, false);
+  gEaux.add(rayon);
+  var eEaux = etiquette("surface des Eaux — plan de réflexion du Rayon Céleste", .5,
+    "rgba(127,168,200,.9)");
+  gEaux.add(eEaux);
+
+  // Étiquette mobile du plan de base, reconstruite à chaque déplacement.
+  var etiqPlan = null;
+  function refaireEtiquettePlan(){
+    if (etiqPlan){ gAmpleur.remove(etiqPlan); etiqPlan = null; }
+    var t = (iPlan === null)
+      ? "plan de base — indéterminé en principe"
+      : "plan de base — au degré " + rangs[iPlan] + "  🔍 rang non établi";
+    etiqPlan = etiquette(t, .5, "rgba(242,242,242,.8)");
+    gAmpleur.add(etiqPlan);
+    placerPieces();
+  }
+
+  function placerPieces(){
+    gAmpleur.position.y = 0; plan.position.y = yPlan; cerclePlan.position.y = yPlan;
+    pointExalt.position.set(0, yPlan, 0);
+    if (etiqPlan) etiqPlan.position.set(R_PLAN * .62, yPlan + .45, 0);
+    nappe.position.y = yPlan;
+    eEaux.position.set(R_PLAN * .62, yPlan + .5, 0);
+    rayon.geometry.setFromPoints([new THREE.Vector3(0, yDeg[11] + 5.2, 0),
+                                  new THREE.Vector3(0, yPlan, 0)]);
+    rayon.geometry.attributes.position.needsUpdate = true;
+    rayon.geometry.computeBoundingSphere();
+    etiqGunas.rajas.position.set(-R_PLAN * .72, yPlan + .4, 0);
+    etiqGunas.sattva.position.set(-R_PLAN * .72, (yPlan + yDeg[11]) / 2, 0);
+    etiqGunas.tamas.position.set(-R_PLAN * .72, (yPlan + yDeg[38]) / 2, 0);
+  }
+
+  // --- Les six stations. Une station = une chose dite, et sa garde. --------
+  //     `dit`   : ce que la station montre, en une phrase.
+  //     `garde` : ce qu'elle ne prouve pas — la limite reste à l'écran, jamais
+  //               reléguée dans une note qu'on ne lira pas (leçon du plafond de
+  //               Sahasrāra : « si le lecteur doit lire pour savoir que ce qu'il
+  //               voit est conventionnel, la convention ment »).
+  var STATIONS = [
+    {n:"Vue nue",
+     dit:"L'axe seul, sans surcharge. Toucher une station pour s'y porter.",
+     garde:"", pieces:[]},
+
+    {n:"1 · Ampleur et exaltation",
+     dit:"Le disque est l'ampleur : toute l'extension à l'intérieur d'un état. "
+        +"Le point sur l'axe est ce que ce même état pèse en exaltation — "
+        +"« rigoureusement nulle », un état entier s'y réduisant à UN POINT.",
+     garde:"États multiples, ch. X. Le disque n'a pas de rang : il figure une "
+        +"étendue, pas une hauteur.",
+     pieces:["ampleur"], plan:true},
+
+    {n:"2 · Le saut de dimension",
+     dit:"Un état est une SURFACE ; l'être total est un VOLUME. Ce qui les "
+        +"sépare n'est pas une distance plus grande — c'est une dimension de "
+        +"plus, obtenue par intégration. L'épaisseur d'un état sur l'axe est "
+        +"infinitésimale.",
+     garde:"Symbolisme de la Croix, ch. XXVI. Aucun plan n'est plus près du "
+        +"volume qu'un autre : c'est ce qui rend la figure juste.",
+     pieces:["ampleur", "volume"], plan:true},
+
+    {n:"3 · L'incommensurabilité",
+     dit:"Depuis CHAQUE degré, la même marque : égale EN PIXELS, opposées deux à "
+        +"deux pour qu'aucune direction ne soit privilégiée. La discontinuité "
+        +"n'est ni plus ni moins profonde d'où qu'on parte.",
+     garde:"Elle est absolue, « ne dépendant d'aucune convention » : aucun "
+        +"réglage d'échelle ne la produit ni ne la résorbe (ch. XXVI–XXVII). "
+        +"Les marques sont hors de la scène, à dessein : en perspective, des "
+        +"marques égales dans le monde se projettent inégales — la mesure "
+        +"reviendrait par la caméra.",
+     pieces:[]},
+
+    {n:"4 · Le centre n'est pas fixe",
+     dit:"Déplacer le plan de base : les guṇas se redistribuent avec lui. "
+        +"sattva, rajas et tamas ne désignent pas des étages de l'axe mais des "
+        +"positions RELATIVES à l'état pris pour base. N'importe quel état peut "
+        +"devenir central.",
+     garde:"Géométrie explicite chez Guénon (Croix, ch. V) — pas une "
+        +"transposition. Le rang du plan sur cet axe-ci n'est pas établi : 🔍.",
+     pieces:["ampleur", "gunas"], plan:true},
+
+    {n:"5 · L'état humain pour référence",
+     dit:"Le plan se porte sur le degré 37, « l'Homme ». Le plan de base est "
+        +"INDÉTERMINÉ EN PRINCIPE ; ce n'est que secondairement qu'on le "
+        +"détermine comme l'état humain — « assurément légitime », mais « un "
+        +"point de vue très particulier ».",
+     garde:"Cet instrument déclare donc son point de vue : une référence, JAMAIS "
+        +"un absolu, et jamais un privilège hiérarchique (ch. XXVII l'exclut). "
+        +"🔍 Que l'état humain de Guénon soit le degré 37 du Nafas n'a jamais "
+        +"été instruit (Cmd 3) : joint suggéré, non taillé.",
+     pieces:["ampleur", "gunas"], plan:true, porter:37},
+
+    {n:"6 · La surface des Eaux",
+     dit:"Plan de séparation du formel et de l'informel, et plan de réflexion "
+        +"du Rayon Céleste : le lieu de la discontinuité UNIQUE, le Fiat Lux. "
+        +"Les deux ouvrages se referment sur ce terme.",
+     garde:"États multiples ch. XII + Croix ch. XXVII. 🔍 Le rapport entre cette "
+        +"discontinuité-là (unique, un événement) et celle de la station 3 "
+        +"(égale depuis chaque degré, un rapport au terme) n'est pas tranché — "
+        +"les deux sont portées, aucune n'est fondue dans l'autre.",
+     pieces:["eaux"], plan:true}
+  ];
+
+  var PIECES = {ampleur:gAmpleur, volume:gVolume, gunas:gGunas, eaux:gEaux};
+  var courante = 0;
+
+  function afficher(i){
+    var s = STATIONS[i]; if (!s) return;
+    courante = i;
+    for (var k in PIECES) PIECES[k].visible = (s.pieces.indexOf(k) !== -1);
+    if (typeof s.porter === "number"){
+      var j = rangs.indexOf(s.porter);
+      if (j !== -1){ iPlan = j; yPlan = yDeg[s.porter]; refaireEtiquettePlan(); }
+    }
+    document.getElementById("station-nom").textContent = s.n;
+    document.getElementById("station-dit").textContent = s.dit;
+    var g = document.getElementById("station-garde");
+    g.textContent = s.garde; g.style.display = s.garde ? "block" : "none";
+    var cp = document.getElementById("station-plan");
+    cp.hidden = !s.plan;
+    majOu();
+    Array.prototype.forEach.call(
+      document.querySelectorAll("#stations-boutons button"), function(b, bi){
+        b.setAttribute("aria-pressed", bi === i ? "true" : "false");
+      });
+    if (i !== 0) autoRot = false;
+  }
+
+  function majOu(){
+    var o = document.getElementById("plan-ou");
+    if (o) o.textContent = (iPlan === null) ? "indéterminé" : ("degré " + rangs[iPlan] + " 🔍");
+  }
+  function bougerPlan(d){
+    // Premier déplacement depuis l'état indéterminé : on entre dans la série
+    // par le degré le plus proche du milieu, puis on avance de degré en degré.
+    if (iPlan === null){
+      var meilleur = 0, ecartMin = Infinity;
+      rangs.forEach(function(r, k){
+        var e = Math.abs(yDeg[r] - yPlan); if (e < ecartMin){ ecartMin = e; meilleur = k; }
+      });
+      iPlan = meilleur;
+    } else {
+      iPlan = Math.max(0, Math.min(rangs.length - 1, iPlan + d));
+    }
+    yPlan = yDeg[rangs[iPlan]];
+    refaireEtiquettePlan(); majOu();
+  }
+
+  // --- Câblage : boutons d'abord (iPad), touches ensuite (confort) ---------
+  var barre = document.getElementById("stations-boutons");
+  STATIONS.forEach(function(s, i){
+    var b = document.createElement("button");
+    b.type = "button"; b.textContent = String(i);
+    b.title = s.n; b.setAttribute("aria-pressed", "false");
+    b.addEventListener("click", function(){ afficher(i); });
+    barre.appendChild(b);
+  });
+  document.getElementById("plan-haut").addEventListener("click", function(){ bougerPlan(-1); });
+  document.getElementById("plan-bas").addEventListener("click", function(){ bougerPlan(1); });
+  window.addEventListener("keydown", function(e){
+    if (e.key >= "0" && e.key <= "6"){ afficher(parseInt(e.key, 10)); return; }
+    if (!STATIONS[courante].plan) return;
+    if (e.key === "ArrowUp"){ e.preventDefault(); bougerPlan(-1); }
+    if (e.key === "ArrowDown"){ e.preventDefault(); bougerPlan(1); }
+  });
+
+  refaireEtiquettePlan();
+  afficher(0);
+})();
+
 var ray = new THREE.Raycaster(); ray.params.Points = {threshold:.3};
 var panneauInfo = document.getElementById('info');
 function toucher(cx, cy){
@@ -1483,6 +1849,7 @@ function anime(t){
   }
   placerCamera();
   renderer.render(scene, camera);
+  if (window.__tracerEcarts) window.__tracerEcarts();
 }
 requestAnimationFrame(anime);
 

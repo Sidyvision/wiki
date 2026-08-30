@@ -79,7 +79,7 @@ déviations modernes.*
 ### Textes sacrés et lexique
 - *Le Saint Coran* (éditions diverses)
 - *Le Coran : Essai de traduction*, Maurice Gloton (Albouraq) — priorité pour l'extraction des racines sémantiques arabes.
-- **Maurice Gloton** — *Une approche du Coran par la grammaire et le lexique* (Albouraq)
+- **Maurice Gloton** — *Une approche du Coran par la grammaire et le lexique* — « 2500 versets traduits · Lexique coranique complet », avant-propos de **Mahmoud Azab** et **Pierre Lory** (Albouraq ; apparat établi sur cliché de couverture, 2026-08-30) — **Pages photographiées et transcrites** : **p. 412** (racines ر ف د / ر ف ر ف / **ر ف ع**, entrées 0578-0580 ; la racine de l'élévation compte 29 occurrences coraniques) et **p. 857** (« Classement des sourates, leur nom et le nombre de leurs versets » — pièce **documentaire et d'orientation**, §VII.1 : elle sert à savoir où chercher et à recouper des renvois, elle ne lève aucun `to-source`), 2026-08-30. Transcriptions versées à la fiche source du circuit doctrinal (consultation humaine, sens `atelier/rd/` → `doctrinal/` signalé).
 - **Al-Jurjânî** (trad. M. Gloton) — *Le Livre des Définitions* (Albouraq) — dictionnaire technique de référence pour valider les termes du Tasawwuf. **Pages photographiées et transcrites** : p. 134, p. 280-281 (2026-08-25) ; **p. 47 (déf. 0034-0036, les corps) et p. 441 (déf. 1652-1656, Royauté/Souveraineté), 2026-08-30** — ces deux dernières corroborent la place du Trône et du Piédestal dans la hiérarchie cosmologique akbarienne. Transcriptions versées à la fiche source du circuit doctrinal (consultation humaine, sens `atelier/rd/` → `doctrinal/` signalé).
 
 ### Ibn ʿArabî et son école
@@ -93,7 +93,7 @@ déviations modernes.*
 - *Jésus dans le Coran* (Ibn ʿArabî / Maurice Gloton) `#a-revoir`
 - **ʿAbd al-Wahhâb ash-Shaʿrânî** — *Les doctrines des grands maîtres* — synthèse de la gnose akbarienne.
 - **Ibn ʿAjîba** — *L'ascension du regard vers les réalités du soufisme*
-- **Al-Râzî** — *Traité sur les Noms Divins* (*Lawâmiʿ al-bayyinât*)
+- **Ar-Râzî** — *Traité sur les Noms Divins* (*Lawâmiʿ al-bayyinât*) — **introduction, traduction et annotations Maurice Gloton, préface Pierre Lory, Albouraq, coll. « Héritage Spirituel »** (apparat établi sur cliché de couverture, 2026-08-30 ; année non relevée). **Page photographiée et transcrite** : ouverture du **chapitre XVIII**, *al-Khâfiḍ* (Celui-qui-abaisse) / *al-Râfiʿ* (Celui-qui-élève), 2026-08-30. Les deux Noms y « déterminent l'élévation (*iʿlâ*) ou la chute (*isqât*) **en degrés** ». ⚠️ Reste à relever : le **numéro de page** du chapitre XVIII (non lisible sur le cliché) et l'année d'édition. À photographier ensuite : le chapitre voisin *al-Muʿizz* / *al-Mudhill*, que le *Tartîb al-taṣawwuf* d'Ibn ʿArabî donne dans la même série de quatre Noms.
 - **Ibn ʿAtâ' Allâh al-Iskandarî** — *Hikâm (Paroles de sagesse / Traité sur le nom Allâh)* ; *La clef de la réalisation spirituelle et l'illumination des âmes*
 - **Shaykh al-Dabbâgh** (trad. Zakaria Sîddîqî) — *Paroles d'or* (*Al-Ibrîz*, Tasnim) — transmission directe, *fatḥ*.
 - **Titus Burckhardt** — *Clés spirituelles de l'astrologie musulmane* (Archè Milano, 1983) — commentaire d'Ibn ʿArabî sur les 12 Anges zodiacaux, les trois modalités de signes (Fixes/Cardinaux/Mutables) et leur correspondance avec les trois mondes (barzakh inclus) ; source directe pour [[doctrinal/symboles/manazil-al-qamar]].

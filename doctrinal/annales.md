@@ -9,6 +9,319 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage | *Sept Étendards du Califat*, pp. 104-105 et 244-245 — le point bloquant est levé, et par un troisième terme
+
+- **Collation faite**, sur clichés de Sidy, des deux doubles pages que le tableau de
+  pistes avait **désignées mécaniquement** depuis l'index déjà transcrit au dépôt.
+  **L'index disait vrai** : ce sont les pages décisives. La méthode de désignation
+  est validée par le résultat. Transcription versée à
+  [[doctrinal/sources/sept-etendards-califat]] (chap. XIII « Le Maître des trois
+  Mondes » ; chap. XXXII « Califat et servitude »).
+- **Le point bloquant est levé — et la réponse n'était aucune des deux prévues.** La
+  question posée la veille était : le « il abaisse » du Calife est-il
+  l'*isqāṭ*-châtiment d'ar-Râzî, ou la « réalisation descendante » de Vâlsan ?
+  **Réponse du texte : ni l'un ni l'autre.** Le registre dominant est **ontologique**
+  — *rafʿ* et *khafḍ* y sont « **deux degrés existenciels fondamentaux** » : *rafʿ*
+  = le degré de la manifestation **informelle** (Anges, purs esprits, Esprit
+  muhammadien, Lettres principielles) ; *khafḍ* = « l'expansion et la
+  différenciation du Souffle **au degré individuel** ». **Aucune charge morale.**
+  Et p. 245 : Dieu Lui-même « revêt les attributs de "**descente**" (*nuzūl*) et
+  d'amour à l'égard de Ses serviteurs » — la descente n'est donc pas, en soi, une
+  déchéance.
+- **⚠️ Distinction imposée par la collation, à ne jamais perdre** : à la p. 104,
+  *rafʿ* et *khafḍ* sont les termes de l'***iʿrāb*** (note 30 : *rafʿ* =
+  vocalisation par *ḍamma*, *khafḍ* par *kasra*), employés comme **symboles
+  ontologiques** — **ce ne sont pas les Noms divins**. Gilis renvoie le Nom
+  *al-Khāfiḍ* ailleurs : *Futūḥāt*, **chap. 558** (note 16, p. 244). **Le dossier
+  porte désormais deux objets distincts qu'il serait fatal de fondre.**
+- **Le joint avec les guṇas n'est plus pressenti : il est POSÉ par le texte.**
+  Note 33 : au *fatḥa* correspond *rajas*, au *ḍamma* ***sattwa*** (force
+  ascendante), au *kasra* ***tamas*** (force descendante) — avec renvoi à la figure
+  circulaire de Guénon dans *La Théorie hindoue des cinq éléments*. Combinée à la
+  note 30 : **rafʿ ↔ sattwa, khafḍ ↔ tamas**. Gilis conclut : « les analogies avec
+  le texte d'Ibn Arabî cité ci-dessus sont tout à fait évidentes », et note que
+  « la similitude entre l'enseignement d'Ibn Arabî et celui de l'Hindouisme est ici
+  particulièrement remarquable ». **L'état *kari-kumi* est caduc pour ce joint** —
+  il était proposé la veille comme *kumiko pressenti*, il est désormais **posé par
+  une autorité nommée**.
+- **Trois réserves maintenues sur ce joint, et elles sont sérieuses** : *(a)* c'est
+  **Gilis** qui pose la correspondance, **non Ibn ʿArabī** — une autorité moderne de
+  l'école guénonienne, non le Cheikh al-Akbar ; *(b)* elle porte sur le couple
+  **vocalique-ontologique**, non sur les Noms divins ; *(c)* Gilis écrit
+  « analogies » et « similitude », **non identité** — soit exactement le régime du
+  ***kumiko***, non du *hozo*. Qualification proposée, **verdict réservé** (Cmd 12).
+- **Pour [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]]** : les
+  *rijāl Allāh* sont définis p. 245 comme « ceux que leur création selon la Forme ne
+  détourne pas de leur pauvreté spirituelle, **de leur abaissement** et de leur
+  servitude » — **ni par un rang, ni par une élévation**. Et note 14, p. 244 :
+  *tāba* « n'a pas ici son sens habituel de "repentir" et désigne le moment,
+  caractéristique d'un **processus initiatique à ses débuts** » — précédent de
+  lecture pour la reformulation « initiés au seuil ». ⚠️ Réserve maintenue : ni
+  *aʿrāf*, ni *sīmā*, ni *firāsa* dans ces pages — **rien ne relie encore** les gens
+  d'al-Aʿrāf aux *rijāl Allāh*.
+- **Pour [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]]** :
+  la p. 105 nomme « **la déchéance progressive de l'état humain** », que la
+  manifestation cyclique des Prophètes vient « compenser et neutraliser » comme un
+  « soulagement ». La structure descente/compensation est donc **énoncée par le
+  texte**, sur le registre cyclique — mais **non rapportée à Qâf**, et c'est
+  justement ce que la thèse ajoute. Le tableau des « chutes » passe de trois à
+  **quatre** termes ; la thèse doit dire lequel elle vise.
+- **🎯 Relevé de la table des matières — deux chapitres portent chacun une moitié de
+  la thèse**, et aucun n'est photographié : **XXVI, « Opposition des Anges et *chute
+  de l'Homme* » (p. 193-202)** et **XXIII, « *La Montagne du Califat* »
+  (p. 169-174)**. S'y ajoute **XIV, « Les Califes-Pôles » (p. 109-114)**.
+  ⚠️ Avertissement joint : **un titre de chapitre n'est pas un argument**, et la
+  coïncidence des titres avec l'intuition est précisément ce qui invite à lire trop
+  vite.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : bee1565
+
+## [2026-08-30] discernement | Thèse d'unification de Sidy — la chute, la réalisation, et les deux aspects de Qâf
+
+- **Intuition de Sidy** : « le thème de ce dossier est *la chute* du paradis, la
+  réalisation spirituelle, et la montagne de Qâf est ses deux aspects de
+  chaîne/muraille et apex en rapport avec l'état primordial que présente Guénon ».
+  Fiche ouverte :
+  [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]].
+- **Nature de la thèse** : ce n'est **pas un rapprochement de plus**, c'est une
+  proposition d'**unification** — que les pièces des deux derniers jours (le couple
+  *khafḍ*/*rafʿ*, les gens d'al-Aʿrāf, la double nature de Qâf) soient les faces
+  d'une seule doctrine : le mouvement **descente → remontée** rapporté à l'état
+  primordial.
+- **Ses deux ancrages guénoniens étaient déjà sourcés au dépôt** — la thèse n'a rien
+  eu à importer : *(a)*
+  [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]] donne
+  la restauration de l'état primordial comme « **première étape essentielle de sa
+  réalisation** » — **c'est le pivot**, et il fait de l'état primordial un **seuil**,
+  non un achèvement ; *(b)* [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]
+  met le retour à l'état primordial « en rapport » avec un symbolisme **polaire**.
+- **Apport net identifié, et il est précis** : la fiche close du 2026-07-02
+  ([[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]], `traditionnel`)
+  établit la **double nature** de Qâf — périphérie qui contient / sommet qui axe —
+  mais **ne dit rien du sens de parcours** entre les deux. C'est exactement ce que la
+  thèse ajoute : la muraille comme limite de l'état déchu, l'apex comme lieu de
+  l'état primordial recouvré. Non tranché. La fiche close ne peut pas le porter
+  (Cmd 10, on n'amende pas un verdict rendu) : il vit dans la fiche nouvelle.
+- **Appui scripturaire relevé** : **la sourate al-Aʿrāf porte les trois termes** — la
+  chute dite deux fois (*ihbiṭ* à Iblīs, VII, 13 ; *ihbiṭū* à Adam, VII, 24), la scène
+  des hauteurs (VII, 46-49), et le Pacte primordial (*mīthāq*, VII, 172, déjà au
+  dépôt). Une seule sourate tient la descente, le seuil et le pacte d'origine.
+- **Avertissement principal (Cmd 2) — « chute » est le mot le plus dangereux du
+  dossier.** Il recouvre le *hubūṭ* coranique, la chute cyclique guénonienne et
+  l'*isqāṭ* d'ar-Râzî ; et il importe le **péché originel** chrétien, que le *hubūṭ*
+  ne porte pas (Adam se repent et est élu, *ijtabāhu*).
+- **Et ce n'est pas un incident isolé — fait de méthode le plus utile du dossier** :
+  **quatre mots français** ont recouvert des réalités distinctes en trois jours —
+  « **degrés** », « **descente** », « **Balance** », « **chute** ». À chaque fois la
+  confusion venait de la **langue de travail**, jamais des sources. Aggravant :
+  Maurice Gloton signe quatre piliers du dépôt. **Règle dégagée** : tout terme
+  porteur se vérifie à la racine arabe ou au terme guénonien exact avant d'être
+  employé comme argument.
+- **Mise en garde portée contre la thèse elle-même** : une thèse qui donne sa place à
+  tout ce qu'on avait sous la main est **agréable**, ce qui n'est pas un critère. Sa
+  cohérence interne ne la valide pas. Trois de ses jointures sont `to-source` (le
+  *tafsīr* d'al-Aʿrāf, le maillon Pôle ↔ état primordial, le régime d'*al-Khāfiḍ*).
+- **Maillon le plus faible signalé** : apex ↔ Pôle est **tenu** (fiche close, texte
+  guénonien) ; Pôle ↔ état primordial n'est qu'un **rapport signalé** par Guénon, non
+  une identité posée. La thèse ne doit pas s'y appuyer comme sur un acquis.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : 436287b
+
+## [2026-08-30] discernement | Les gens d'al-Aʿrāf sont-ils les initiés ? — fiche ouverte, aucun verdict
+
+- **Intuition de Sidy**, formulée au dépôt ce jour : « *Une intuition qui ne m'a
+  jamais quitté est que les gens de الأعراف sont les initiés.* » Fiche ouverte :
+  [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]].
+- **Point de généalogie consigné d'emblée, et il est favorable** : l'intuition est
+  déclarée **ancienne**, donc **antérieure** au dossier *khafḍ*/*rafʿ* ouvert la
+  veille au soir et indépendante de lui. Elle n'est pas un effet de la matière que
+  la machine venait d'assembler — ce qui comptera si elle est retenue.
+- **Quatre appuis relevés, d'inégale force** : *(1)* *rijāl* est le mot technique de
+  la hiérarchie initiatique chez Ibn ʿArabī (*rijāl Allāh*, index des *Sept
+  Étendards*, p. 245) — mais le Coran précède l'usage technique et ne s'y conforme
+  pas ; *(2)* leur acte propre — « ils reconnaissent chacun à sa marque » (*sīmā*) —
+  est **mot pour mot** la définition de la *firāsa* que porte
+  [[doctrinal/symboles/firasa]] : les gens d'al-Aʿrāf sont définis par une
+  **science**, non par un rang. **Appui le plus fort** ; *(3)* leur position est
+  exactement le *barzakh* akbarien tel que [[doctrinal/symboles/barzakh]] le
+  définit ; *(4)* le *tafsīr* classique porte **deux** lectures, dont une « par
+  excellence » — l'intuition épouse une lecture reçue plutôt qu'elle n'en crée une.
+  ⚠️ Ce quatrième appui est **`to-source` intégral** : le dépôt ne possède aucune
+  des deux attributions sur texte, et les nommer sans les citer tomberait sous le
+  Cmd 5.
+- **Objection principale affrontée, non contournée** : « *lam yadkhulūhā wa-hum
+  yaṭmaʿūn* » (VII, 46) — la convoitise s'accorde mal à une station réalisée ; c'est
+  le pilier de la lecture majoritaire. **Reformulation soumise, non conclue** :
+  initiés **au seuil** (Petits Mystères accomplis, Grands non encore), ce qui ferait
+  travailler l'objection *en faveur* de l'hypothèse. C'est une **modification de
+  l'hypothèse de Sidy** — à lui de l'accepter ou de la refuser (Cmd 12).
+- **Pont de registre identifié, et déjà recensé au dépôt** : Michel Vâlsan,
+  *Les états des initiés au moment de leur mort* (*Futūḥāt* ch. 176, 1964),
+  [[doctrinal/autorites/michel-valsan]] — seule pièce connue articulant nommément
+  « initiés » et état posthume. À obtenir en priorité.
+- **Deux rapprochements refusés** : *(a)* les deux « **Balances** » — le *mīzān*
+  eschatologique de VII, 8-9 n'est pas le signe zodiacal du *Mahdi Rouge* ;
+  homonymie française, **même classe d'erreur que le ق écarté la veille** ; *(b)* le
+  ternaire *ʿāmma* / *khāṣṣa* / *khāṣṣat al-khāṣṣa* (gradation ascendante) superposé
+  à Jardin / Feu / Aʿrāf (intermédiaire entre deux opposés) — **trois et trois ne
+  font pas une correspondance**.
+- **Pistes matérielles déterminées mécaniquement, sans nouvelle photographie** —
+  sur l'index des *Sept Étendards* **déjà transcrit** : *khafḍ* et *rafʿ* figurent
+  **tous deux p. 104** ; *khafḍ* p. 244 et *rijāl Allāh* p. **245** sont
+  **adjacents**. Indices de pagination, non de doctrine. Vérifié terme à terme :
+  *aʿrāf*, *sīmā* et *firāsa* sont **absents** de cet index.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : e9ecce3
+
+## [2026-08-30] archivage | Apparat éditorial des deux ouvrages établi — et un contrôle de provenance qui a trouvé une faute
+
+- **Cliché des couvertures fourni par Sidy** (nuit). Le `to-source` porté quelques
+  heures plus tôt sur l'apparat d'ar-Râzî est **levé** : *Traité sur les Noms
+  divins*, **introduction, traduction et annotations Maurice Gloton**, préface
+  **Pierre Lory**, **Albouraq**, coll. « **Héritage Spirituel** ». Le lexique porte
+  en couverture « **2500 versets traduits · Lexique coranique complet** »,
+  avant-propos de **Mahmoud Azab** et **Pierre Lory**. Restent `to-source` : le
+  numéro de page du chapitre XVIII et les années d'édition.
+- **Ce que la couverture obligeait à vérifier** — invisible tant que l'apparat
+  restait inconnu : **Maurice Gloton signe quatre piliers du dépôt** — le *Traité
+  sur les Noms divins*, *De la mort à la résurrection* (**même éditeur, même
+  collection**), le lexique coranique, et *Le Coran : Essai de traduction*. Le
+  français « élever », « abaisser », « degré » relève donc **d'une seule main**
+  dans tout le dossier ouvert hier soir. Un argument reposant sur la seule
+  constance d'un mot français d'un ouvrage à l'autre serait sans force probante.
+- **Vérification faite, résultat favorable** : les deux attestations akbariennes du
+  couple sont traduites par **ʿAbd al-Hâdi** (*La Gnose*) et **Charles-André
+  Gilis** ; Coran LVI, 3 est un **fait de langue arabe**. Le couple *khafḍ*/*rafʿ*
+  tient donc par **trois voies indépendantes de Gloton** — la convergence n'est pas
+  un effet de plume. Tableau de provenance versé à
+  [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]].
+- **Auto-contrôle, et il a trouvé une faute.** La fiche
+  [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]]
+  opposait *darajāt* aux « ***marātib* du chapitre 198** ». **Ce terme arabe n'est
+  nulle part sourcé au dépôt pour ce chapitre** : il n'y figure que comme *tag*
+  (`maratib-al-wujud`), jamais comme relevé du texte d'Ibn ʿArabī. C'était un fait
+  produit sans source (Cmd 5). **Affirmation retirée**, rectification inscrite dans
+  la fiche.
+- **Et la faute ouvre la meilleure question du dossier** : quel terme arabe Ibn
+  ʿArabī emploie-t-il au chapitre 198 ? Le chapitre nous est connu par la
+  traduction de Gloton, et le Coran de travail du dépôt est **aussi** celui de
+  Gloton — le français confondra toujours les deux « degrés ». Si l'arabe emploie
+  le même mot, l'univocité relevée le 2026-07-14 gagne un appui ; sinon elle se
+  réduit à une constance de traduction. **Vérification la plus économique du
+  dossier**, ajoutée aux lectures suggérées.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode : OK.
+- **Commit** : 5eeeaf1
+
+## [2026-08-30] archivage + discernement | Le couple *khafḍ* / *rafʿ* — al-Rāzī ch. XVIII, Gloton pp. 412 et 857, Sourate al-Aʿrāf
+
+- **Pièces déposées par Sidy** (soir), avec consigne d'investigation « à la lumière
+  des pièces jointes, de l'instrument et la notion de ق / Meru (fiche discernement)
+  et de l'œuvre de Guénon ». **Consultation prioritaire du catalogue de la
+  bibliothèque physique faite d'abord** (§VII.1) : les deux ouvrages y sont
+  recensés — consultation humaine, sans wikilink (§VI).
+- **Deux fiches `source` créées** :
+  [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]] (chapitre XVIII,
+  *al-Khāfiḍ* / *al-Rāfiʿ* : les deux Noms « déterminent l'élévation (*iʿlāʾ*) ou la
+  chute (*isqāṭ*) **en degrés** ») et
+  [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] (p. 412, racine
+  ر ف ع, **29 occurrences** ; p. 857, table des sourates). `to-source` porté sur
+  l'**apparat éditorial** de Rāzī — traducteur, éditeur et pagination ne sont pas
+  lisibles sur le cliché — et non sur le texte transcrit.
+- **La p. 857 est traitée pour ce qu'elle est** : pièce **documentaire et
+  d'orientation** au sens du §VII.1 — elle sert à savoir où chercher, elle ne lève
+  aucun `to-source`. Elle a néanmoins permis une **vérification mécanique croisée**
+  des renvois de la p. 412 (s 11 v 99 / s 55 v 76 / s 24 v 36-37 contre le nombre de
+  versets de chaque sourate) : tous cohérents ; et le compte de 206 versets d'al-Aʿrāf
+  concorde avec l'en-tête du clipping.
+- **Fiche de discernement OUVERTE, aucun verdict rendu** (Cmd 12) :
+  [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]]. Le
+  dépôt avait établi le 2026-07-14 que *Rafīʿ al-Darajāt* nomme la fonction
+  traversante du degré 38 — **mais jamais son envers**. Rāzī traite les deux Noms
+  en un seul chapitre ; et **deux sources akbariennes déjà présentes au dépôt,
+  jamais rapprochées**, attachent ce couple à la **fonction polaire et califale** :
+  [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]] (Noms des Malāmatiyya,
+  « placés sous la direction du *Quṭb* ») et [[doctrinal/sources/sept-etendards-califat]]
+  p. 116 (le Calife « élève et abaisse »). Le *Quṭb* étant déjà rattaché à Meru = Qâf
+  et à l'apex par [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]],
+  la boucle se referme — **sur des textes que le dépôt portait déjà**.
+- **Trois avertissements de forme, portés à la fiche** :
+  1. **Équivoque sur « descente »** — l'*isqāṭ*-châtiment de Rāzī n'est **pas** la
+     « réalisation descendante » de Vâlsan (le *walī* renvoyé vers la création).
+     Un seul mot français, deux régimes dont l'un est une déchéance et l'autre une
+     perfection (Cmd 2). **C'est le point bloquant.**
+  2. ***Darajāt*, un mot pour deux référents** — degrés de rang et de réalisation
+     en 40:15 et 58:11 ; *marātib* cosmologiques au chapitre 198. L'univocité
+     lexicale n'est pas l'identité de référent.
+  3. **Rejet explicite du rapprochement ق** — la lettre *qāf* est le degré 17, le
+     Trône « qui enveloppe le Cosmos entier » ; *Jabal Qāf* est la montagne qui
+     entoure le monde, que Guénon identifie explicitement à Meru. La ressemblance
+     est **nominale** : aucun texte ne pose l'identité. Même figure d'erreur que la
+     gématrie sans assise textuelle déjà cartographiée dans
+     [[doctrinal/symboles/merkavah-muraqaba]], **refusée pour la même raison**.
+     Seule la convergence *fonctionnelle* reste instructible, et à condition de
+     trouver un texte qui la pose.
+- **Appui grammatical inattendu** : Gloton (p. 412, entrée 0578) note que
+  l'apposition de deux termes de même racine **sans conjonction** est la
+  construction coranique caractéristique **des couples de Noms divins**. Or Coran
+  LVI, 3 — *khāfiḍatun rāfiʿa* — est exactement de cette forme. Le couple est donc
+  marqué comme couple **par la grammaire elle-même**.
+- **Sourate al-Aʿrāf** : la Balance (7:8-9, lourd/léger) dit la même opération sous
+  un autre lexique ; et l'*aʿrāf* lui-même (7:46-48) offre une **troisième position**
+  que le couple binaire n'a pas — ni élevés ni abaissés, sur la hauteur, et dont
+  l'acte propre est de **reconnaître**. ⚠️ Signalé sans être rapproché du *Barzakh
+  supérieur* (degrés 19-20) : deux barzakhs, deux plans, aucune identité établie
+  (Cmd 3). Traductions données comme **traductions de travail**, `to-source`, jamais
+  attribuées à une édition.
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).` Hygiène Unicode (Cmd 15) : OK.
+- **Commit** : bb85c09
+
+## [2026-08-30] archivage | Collation de la p. 35 de Gloton — les degrés 1-10 du *Nafas al-Raḥmān* sont établis
+
+- **La dernière pièce ouverte du brief de passation est close.** Le brief
+  `meta/briefs/2026-08-30_passation-instrument-vers-claude-ai.md` (§5, point 3)
+  désignait les degrés 1-10 comme *« entièrement à établir, exigent les pages
+  antérieures à la p. 36 de Gloton, non photographiées — seule pièce qui demande
+  une action de Sidy »*. **Sidy a fourni le cliché de la p. 35 le soir même.**
+- **Levée de `to-source`** conforme à la discipline des sources (§VII.2 du
+  protocole racine) : vérification du texte primaire par l'utilisateur lui-même,
+  jamais sur la seule foi d'un modèle. Les dix entrées sont relevées dans la
+  lettre exacte de Gloton, sous le titre de section qu'il leur donne :
+  **« 1 - Le Degré divin »**. Chacune est un *commentaire* — d'un ḥadīth saint,
+  des deux noms *kalām*/*qawl*, des versets 16-98 et 16-40, et de six formules.
+- **Ce que la collation établit, et qui n'était pas acquis** : (a) les degrés
+  1-10 **sont numérotés dans la source elle-même**, lignes 1 à 10 ; (b) leur
+  caractère pré-lettré est confirmé sur la page, la première lettre (*hamza*)
+  ouvrant le degré 11 p. 36 ; (c) leur matière n'est pas cosmologique mais
+  relève de la Parole divine et de son commentaire — la rupture de nature entre
+  1-10 et 11-38 est portée par le texte, non déduite de l'absence de lettres.
+- **Deux rectifications de transcription** imposées par la lettre du traducteur :
+  le ḥadīth saint est rendu « *J'étais un Trésor. Je n'étais pas connu.* » — et
+  non « *un Trésor caché* », forme courante qui avait été substituée ; le n° 10
+  est explicitement donné comme formule **prophétique**, là où les n° 6 à 9 sont
+  dits coraniques.
+- **Signalement de forme, non tranché (Cmd 12)** : l'assimilation des degrés 1-10
+  au *Hāhūt*, portée en plusieurs endroits de la fiche-table, **n'est pas de
+  Gloton**. Elle provient du Gem René Guénon (persona IA) — §VII.3 : reconstruction
+  plausible, jamais source. Elle contredit de surcroît ce que la fiche pose
+  elle-même (*Hāhūt* « au-delà de toute différenciation ou numérotation », alors
+  que la source numérote ces dix degrés), et *al-martaba al-ilāhiyya* désigne
+  classiquement l'*Ulūhiyya*, soit le registre des Noms — ce que la matière
+  relevée confirme. **État *kari-kumi*, verdict réservé à Sidy.** Les sections
+  qui affirment l'assimilation sont conservées et raturées, jamais supprimées
+  (Cmd 10).
+- **Fiches touchées** : [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]
+  (Section 1 collationnée, lettre exacte), [[doctrinal/symboles/table-28-degres-nafas-rahman]]
+  (levée du `to-source`, rectification des trois libellés « Hāhūt », mise à jour
+  de la convention de numérotation et de la liste « à photographier »).
+- **Vérification structurelle** : `python3 verifier-invariants.py --racine /root/wiki`
+  → `0 erreur(s), 0 avertissement(s).`
+- **Commit** : f09429b
+
 ## [2026-08-30] discernement + archivage | VERDICT Kursī↔Hokhmah/Binah (kumiko) et trois chapitres du *Symbolisme de la Croix*
 
 - **Verdict de Sidy** : « Approuve le joint Kursī ↔ Hokhmah/Binah en *kumiko* ».

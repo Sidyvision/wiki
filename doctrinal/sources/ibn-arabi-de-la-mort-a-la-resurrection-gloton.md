@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ibn-arabi, gloton, nafas-rahmani, maratib-al-wujud, manazil-al-qamar, ilm-al-huruf, asma-al-husna, hadarat-khams, futuhât, albouraq]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-08-30
 sources: []
 sources_count: 0
 cross_links: ["[[table-28-degres-nafas-rahman]]", "[[nafas-rahmani]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "[[ilm-al-huruf]]", "[[asma-al-husna]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[eschatologie]]"]
@@ -32,21 +32,54 @@ le Coran et selon l'enseignement d'Ibn ʿArabī* (Albouraq, Beyrouth, 2006, pp. 
 
 ## Structure du texte traduit (pp. 35–48)
 
-### Section 1 — « Le Degré divin » (degrés 1–10, p. 35)
+### Section 1 — « Le Degré divin » (degrés 1–10, p. 35) — ✅ COLLATIONNÉ
 
-Dix commentaires des formules divines fondamentales — pas des degrés cosmologiques
-mais les réalités purement principielles de *Hāhūt*, avant toute articulation :
+> **Collation photographique du 2026-08-30 (soir), cliché fourni par Sidy.** C'est
+> la page qui manquait : elle était jusqu'ici transcrite **de seconde main** et
+> portée `to-source` dans [[table-28-degres-nafas-rahman]]. Les dix entrées sont
+> désormais **relevées sur le texte primaire**, dans la lettre exacte de Gloton.
+> Le titre de section porté par la page est **« 1 - Le Degré divin »**, et la
+> table y numérote ses lignes **1 à 10** — la continuité avec le degré 11
+> (*hamza*, p. 36) est donc établie sur la page elle-même.
 
-1. Ḥadîth saint : *« J'étais un Trésor caché… »*
-2. *Kalâm* et *qawl* (parole et profération)
-3. Verset 16:98 (*Istiʿādha* — protection contre le Shaytān)
-4. *Basmala* (*Bi-smi-Llāh*)
-5. Verset 16:40 (*Kun fa-yakūn* — « Adviens »)
-6. *Al-Ḥamdu li-Llāh*
-7. *Subḥān Allāh*
-8. *Allāhu Akbar*
-9. *Lā ilāha illā Llāh* (36 formules de l'Unicité)
-10. *Lā Ḥawla wa lā Quwwata illā bi-Llāh*
+Dix **commentaires** — chaque ligne de la table est un « Commentaire de… » :
+
+| N° | Objet du commentaire (lettre de Gloton) |
+|---|---|
+| 1 | Commentaire du ḥadīth saint : *J'étais un Trésor. Je n'étais pas connu. Aussi, J'ai aimé être connu. Je créai alors les créatures : Je Me suis fait connaître à elles et elles Me connurent.* |
+| 2 | Commentaire des deux noms *kalām* et *qawl* (parole et profération) — porte l'appel de **note 13** |
+| 3 | Commentaire du verset 16-98 : *Quand tu énonces la Récitation coranique cherche la protection d'Allāh contre le Shayṭān (Satan) proscrit.* |
+| 4 | Commentaire de l'expression *Bi-smi-Llāh* : *Par le* (ou *Grâce au*) *Nom d'Allāh*. |
+| 5 | Commentaire du verset 16-40 : *Notre seule Parole à une chose lorsque Nous l'avons visée est de lui dire : « Adviens » ! Et alors elle advient.* |
+| 6 | Commentaire de l'expression coranique : *Al-Ḥamdu li-Allāh* (la Louange est à Allāh) |
+| 7 | Commentaire de l'expression coranique : *Subḥān Allāh* (Proclamation de la Gloire omniprésente d'Allāh) |
+| 8 | Commentaire de la formule coranique *Allāh akbar* (Allāh est infiniment grand) |
+| 9 | Commentaire des **36 formules coraniques de l'Unicité divine** — *Lā ilāha illā-Llāh* (Nul dieu adoré sinon Allāh) |
+| 10 | Commentaire de la formule **prophétique** : *Lā Ḥawla wa lā Quwwata illā bi-Llāh* (Nulle force et nulle puissance sinon par Allāh) |
+
+**Deux rectifications que la collation impose à la transcription antérieure** :
+
+1. Le ḥadīth du n° 1 était cité ici « *J'étais un Trésor caché…* ». **Gloton
+   n'écrit pas « caché »** : il traduit *J'étais un Trésor. Je n'étais pas
+   connu.* La forme courante (*kanz makhfī*) avait été substituée à la lettre du
+   traducteur. Corrigé.
+2. Le n° 10 est explicitement donné comme formule **prophétique**, non coranique,
+   là où les n° 6 à 9 sont dits coraniques. La distinction est portée par la
+   source et n'avait pas été relevée.
+
+> ⚠️ **Ce que la page ne dit pas — signalement de forme (Cmd 12).** Cette fiche
+> portait « les réalités purement principielles de *Hāhūt*, avant toute
+> articulation ». **Gloton n'écrit pas *Hāhūt* ici** : il écrit « **Le Degré
+> divin** ». L'assimilation des degrés 1-10 au *Hāhūt* provient du **Gem René
+> Guénon** (persona IA, 2026-07-01) — §VII.3 du protocole racine : *reconstruction
+> plausible, jamais source*. Elle est de surcroît en **tension formelle** avec ce
+> que [[table-28-degres-nafas-rahman]] pose par ailleurs (« *Hāhūt* reste
+> absolument inabordable et au-delà de toute différenciation ou numérotation ») :
+> ces dix degrés sont, eux, numérotés. Et le terme *al-martaba al-ilāhiyya* (« le
+> Degré divin ») désigne classiquement le degré de l'*Ulūhiyya* — Allāh nommé par
+> Ses Noms —, non l'Essence au-delà de toute détermination. **Tension relevée, non
+> tranchée** : le verdict appartient à Sidy ou à une autorité textuelle citée.
+> Conséquence de rendu signalée dans le chantier de l'Instrument.
 
 ### Section 2 — « Le Domaine des principes » — Lāhūt (degrés 11–14, pp. 36–37)
 
