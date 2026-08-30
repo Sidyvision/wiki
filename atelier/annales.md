@@ -10,6 +10,18 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/bibliotheque | signalement | Lien vers la table de correspondance cakra/laṭāʾif (doctrinal/discernement)
+
+Ajout d'un lien signalé (sens atelier/rd → doctrinal, autorisé §VI) depuis
+[[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] vers
+`doctrinal/discernement/2026-08-29_sept-poles-sept-lataif` (consultation
+humaine possible sans wikilink inverse), désormais enrichie de la table
+rang-par-rang *cakra*↔*laṭīfa* construite à partir du contenu de cette
+fiche-ressource. Aucun ancrage doctrinal déclaré ici : signalement pur, verdict
+côté `doctrinal/`.
+
+- **Commit** : d5e472a
+
 ## [2026-08-30] archivage | Shayegan, chapitre II « Les Disciplines Spirituelles » — bibliothèque R&D
 
 - **Contexte** : reprise depuis le terminal

@@ -9,6 +9,33 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] discernement | Table de correspondance cakra/laṭāʾif construite (kari-kumi) — verdict soumis à Sidy
+
+- **Contexte** : la fiche
+  [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] attendait
+  depuis le 2026-08-29 une seule pièce — la liste ordonnée des sept *laṭāʾif*
+  et de leurs régents — signalée comme se trouvant vraisemblablement au ch. II
+  du commentaire de Shayegan, non encore transcrit. Pièce déposée ce jour
+  ([[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]]).
+- **Construit** : table de correspondance rang-par-rang *cakra* (Shayegan,
+  section I) ↔ *laṭīfa* (Semnânî, point vi), les deux septénaires étant
+  ordonnés identiquement (ascendant, terme culminant = principe suprême).
+- **Qualification explicite (Cmd 3, sashimono)** : *kari-kumi* (proposition
+  structurelle), **pas** *hozo* — Shayegan écrit lui-même que ce « n'est
+  naturellement pas une identité de structure », et le texte ne donne aucune
+  position corporelle pour les sept *laṭāʾif* (à ne pas confondre avec la
+  triade distincte des « trois centres » exposée plus haut dans le même
+  chapitre — 3 termes, positions corporelles explicites, série différente).
+- **Verdict explicitement réservé à Sidy** (Cmd 12, *upakarana*) : inscrire la
+  table comme *hozo*, la maintenir en *kari-kumi*, ou l'invalider — soumis ce
+  jour, non tranché par la machine.
+- **Répercuté** : `doctrinal/index.md` (description mise à jour) ; lien
+  signalé ajouté depuis la fiche-ressource atelier vers la fiche discernement
+  (sens atelier/rd → doctrinal, autorisé).
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 1 avertissement(s)` ([A6], faux positif documenté, inchangé).
+- **Commit** : d5e472a
+
 ## [2026-08-30] discernement | Levée du `to-source` — corpus Guénon *Symboles de la Science sacrée*
 
 - **Verdict rendu par Sidy** : « je possède un exemplaire physique de Guénon
