@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-29
+updated: 2026-08-30
 
 ---
 
@@ -13,6 +13,37 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-30] briefs | Passation de la session « réseau subtil » vers le terminal
+
+- **Motif** : `raw/` est inaccessible depuis la session web — le dossier est
+  *gitignored* par construction, et les ouvrages de Guénon s'y trouvent. Sidy
+  reprend depuis le serveur (`/root/wiki`).
+- **Brief créé** :
+  `meta/briefs/2026-08-30_passation-session-reseau-subtil-vers-terminal.md`
+  (`status: transmis`). Ce n'est pas un résumé de session — les annales de
+  circuit le font — mais un **point de reprise** : où en est chaque chantier, et
+  ce qui l'attend.
+- **Contenu** : les trois commandes de reprise et l'état attendu du vérificateur ;
+  **six objets en attente de verdict** de Sidy ; **deux collations sur exemplaire
+  physique**, dont la contradiction de numérotation de la table des 38 degrés
+  (pp. 91-92 de Gloton) qui **bloque le chantier de l'incommensurable** ; ce que
+  l'accès à `raw/` débloque immédiatement (Janus solsticial, ch. II de Shayegan) ;
+  l'état de l'outillage avec ses pièges connus (l'option `--repo` du générateur,
+  le faux positif [A6], le CDN du prototype) ; les six chantiers ouverts ; et les
+  deux documents à lire en premier.
+- **Rappel de procédure porté au brief** (§VIII.9) : le traitement de `raw/`
+  produit des **fiches candidates dans `_inbox/`**, jamais d'écriture directe
+  dans les circuits.
+- **Étanchéité** : liens `meta/` → `atelier/` et `meta/` → `doctrinal/`
+  uniquement — du sensible vers le neutre, sens autorisé (§VI). Aucun contenu
+  `meta/` copié ailleurs.
+- **Répercussion au hub** : `meta-index.md`, section « Briefs ».
+- **Validation mécanique** : `verifier-invariants.py --racine /home/user/wiki`
+  → `0 erreur(s), 1 avertissement(s)` ([A6], faux positif documenté).
+- **Commit** : à la ligne suivante du présent lot.
+
+---
 
 ## [2026-08-29] personnel | mise à jour | Rêve géants/Paris — liens vers les discernements Axe du Monde et Octogone/Barzakh
 

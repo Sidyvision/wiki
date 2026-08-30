@@ -2,7 +2,7 @@
 title: "meta-index — hub du Domaine Réservé"
 type: meta
 created: 2026-08-09
-updated: 2026-08-28
+updated: 2026-08-30
 ---
 
 # meta-index — hub du Domaine Réservé (`meta/`)
@@ -82,6 +82,7 @@ updated: 2026-08-28
 ## Briefs (`briefs/`)
 
 - [[meta/briefs/2026-08-22_brief-incident-zwj-mise-a-jour-securite|Brief technique — Incident ZWJ et mise à jour sécurité]]
+- [[meta/briefs/2026-08-30_passation-session-reseau-subtil-vers-terminal|Passation — session « réseau subtil » (web) vers session terminal]] — point de reprise : verdicts en attente, collations sur exemplaire physique, ce que l'accès à `raw/` débloque, état de l'outillage
 
 ## Projet unifié (`projet-unifie/`)
 
