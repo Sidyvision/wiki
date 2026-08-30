@@ -9,6 +9,36 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] tracabilite | Clichés versés côté serveur — les collations de la session claude.ai sont désormais rattachées à leur pièce
+
+- **Contexte** : le §7 du brief de passation retour signalait que les clichés de la
+  session claude.ai n'avaient **pas** été versés dans `raw/assets/`, la session web
+  n'y ayant pas accès — ses collations n'étaient donc rattachées à aucun fichier.
+  Sidy a déposé six clichés (`IMG_0374` à `IMG_0379`), tous lus et identifiés.
+- **Identification du lot** : `IMG_0374` — Ar-Râzî, *Traité sur les Noms divins*,
+  chapitre XVIII (*al-Khâfiḍ* / *ar-Râfiʿ*) ; `IMG_0375` — Gloton, *Une approche du
+  Coran*, p. 857 (classement des sourates) ; `IMG_0376` — *idem*, p. 412 (racines
+  ر ف د, ر ف ر ف, ر ف ع) ; `IMG_0377` — couvertures des deux ouvrages Albouraq ;
+  `IMG_0378` — *Sept Étendards*, pp. 244-245 ; `IMG_0379` — *idem*, pp. 104-105.
+- **Répercuté** sur les trois fiches concernées
+  ([[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]],
+  [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]],
+  [[doctrinal/sources/sept-etendards-califat]]) : chaque collation nomme désormais
+  son cliché. `raw/` étant *gitignored*, les fichiers ne sont pas versionnés —
+  seuls leurs noms le sont, ce qui suffit à rendre la collation reproductible.
+- **Contrôle fait, résultat négatif consigné** : le `to-source` sur le **numéro de
+  page** du chapitre XVIII d'ar-Râzî est **maintenu**, le cliché ayant été relu et
+  la page ne portant aucun numéro visible (cadrage au-dessus du titre courant).
+  Le marqueur subsiste donc pour une raison **vérifiée**, non par défaut de
+  contrôle.
+- **Aucune transcription nouvelle** : les six clichés correspondent à des pages
+  déjà transcrites par la session claude.ai, dont les fiches ont été relues et
+  trouvées fidèles. Le présent lot ne fait qu'établir le lien pièce ↔ fiche.
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s)`.
+- **Commit** : 419fd62
+
+
 ## [2026-08-30] archivage | *Sept Étendards du Califat*, pp. 104-105 et 244-245 — le point bloquant est levé, et par un troisième terme
 
 - **Collation faite**, sur clichés de Sidy, des deux doubles pages que le tableau de
