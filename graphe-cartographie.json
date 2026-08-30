@@ -2,8 +2,27 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 136,
+  "avertissements": 143,
   "nodes": [
+    {
+      "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
+      "label": "Build Your Own Perplexity with Exa",
+      "circuit": "atelier",
+      "sous_dossier": "etudes-de-cas",
+      "type": "etude-de-cas",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "clippings",
+        "research-agents",
+        "search",
+        "cerebras",
+        "exa"
+      ],
+      "updated": "2026-08-28",
+      "chemin": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity.md",
+      "lacunes_to_source": 0
+    },
     {
       "id": "atelier/etudes-de-cas/dougong-consoles-bois",
       "label": "Dougong — données sur les consoles en bois à encorbellement (corpus brut)",
@@ -453,6 +472,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
+      "label": "Liste des abréviations — Hindouisme et Soufisme (Shayegan)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "abreviations",
+        "hindouisme-soufisme",
+        "shayegan",
+        "dara-shukuh",
+        "majma-al-bahrayn"
+      ],
+      "updated": "2026-08-27",
+      "chemin": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "atelier/rd/bibliotheque/bibliographie-ihwan-al-safa",
       "label": "Bibliographie et liste des abréviations — La philosophie des Ihwan al-Safa' (Marquet)",
       "circuit": "atelier",
@@ -502,9 +541,30 @@
         "ressource",
         "catalogue"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-08-30",
       "chemin": "atelier/rd/bibliotheque/catalogue-bibliotheque.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/bibliotheque/eckstein-porte-du-ciel",
+      "label": "Eckstein — La Porte du Ciel (Coomaraswamy)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "essai",
+        "porte-du-ciel",
+        "coomaraswamy",
+        "pierre-angulaire",
+        "tenon",
+        "sashimono"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "atelier/rd/bibliotheque/eckstein-porte-du-ciel.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "atelier/rd/bibliotheque/glossaire-unifie",
@@ -535,6 +595,27 @@
       ],
       "updated": "2026-08-23",
       "chemin": "atelier/rd/bibliotheque/glossaires-porte-du-ciel.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue",
+      "label": "Le symbolisme du dôme / Le Dôme et la Roue — Symboles de la Science sacrée (Guénon)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "guenon",
+        "symboles-science-sacree",
+        "dome",
+        "axe-du-monde",
+        "metier-traditionnel",
+        "initiation"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue.md",
       "lacunes_to_source": 1
     },
     {
@@ -660,6 +741,49 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "atelier/rd/bibliotheque/lumiere-hindouisme-soufisme",
+      "label": "Chapitre IV, La Lumière — Hindouisme et Soufisme (Shayegan)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "transcription",
+        "hindouisme-soufisme",
+        "shayegan",
+        "dara-shukuh",
+        "majma-al-bahrayn",
+        "lumiere",
+        "photisme",
+        "najm-razi"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "atelier/rd/bibliotheque/lumiere-hindouisme-soufisme.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme",
+      "label": "Majmaʿ al-Bahrayn (texte traduit) — Hindouisme et Soufisme (Shayegan)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "transcription",
+        "hindouisme-soufisme",
+        "shayegan",
+        "dara-shukuh",
+        "majma-al-bahrayn"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "atelier/rd/bibliotheque/notices-porte-du-ciel",
       "label": "Notices biographiques — La Porte du Ciel (Coomaraswamy)",
       "circuit": "atelier",
@@ -697,6 +821,27 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme",
+      "label": "Couverture et table analytique des matières — Hindouisme et Soufisme (Shayegan)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "couverture",
+        "sommaire",
+        "hindouisme-soufisme",
+        "shayegan",
+        "dara-shukuh",
+        "majma-al-bahrayn"
+      ],
+      "updated": "2026-08-27",
+      "chemin": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "atelier/rd/bibliotheque/sommaire-origine-polaire",
       "label": "Couverture et sommaire — Origine polaire de la tradition védique (Tilak)",
       "circuit": "atelier",
@@ -730,6 +875,30 @@
       ],
       "updated": "2026-08-23",
       "chemin": "atelier/rd/bibliotheque/sommaire-porte-du-ciel.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel",
+      "label": "Le Symbolisme du Dôme — La Porte du Ciel (Coomaraswamy)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "essai",
+        "porte-du-ciel",
+        "coomaraswamy",
+        "dome",
+        "axe-du-monde",
+        "tenon",
+        "mortaise",
+        "sashimono",
+        "metier-traditionnel"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel.md",
       "lacunes_to_source": 1
     },
     {
@@ -808,6 +977,66 @@
       ],
       "updated": "2026-08-22",
       "chemin": "atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent",
+      "label": "Analyse technique : agents de recherche - perplexe vs cookbook",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "agents",
+        "research",
+        "methodology",
+        "soverainete"
+      ],
+      "updated": "2026-08-28",
+      "chemin": "atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder",
+      "label": "Compte-rendu R&D 2026-08-28 — première session d'un nouveau moteur en poste INTÉGRATION (Qoder)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "integration",
+        "moteur",
+        "verification",
+        "annales",
+        "multi-agents"
+      ],
+      "updated": "2026-08-28",
+      "chemin": "atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation",
+      "label": "Compte-rendu — Automatisation GitHub & Webhook R&D",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "compte-rendu",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "github",
+        "webhook",
+        "automation",
+        "gardien"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md",
       "lacunes_to_source": 0
     },
     {
@@ -1115,7 +1344,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-08-29",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
       "lacunes_to_source": 0
     },
@@ -1843,6 +2072,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone",
+      "label": "Référence visuelle — dôme, octogone et lanterne, Grande Mosquée de Paris",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "instrument",
+        "references-visuelles",
+        "assets",
+        "octogone",
+        "dome",
+        "barzakh",
+        "sashimono"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/instrument/references-visuelles-astronomiques-phase-5",
       "label": "Références visuelles astronomiques (Phase 5 de l'Instrument)",
       "circuit": "atelier",
@@ -2114,6 +2364,27 @@
       ],
       "updated": "2026-08-16",
       "chemin": "atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
+      "label": "Signalement — Mise en regard du corpus Coomaraswamy/Guénon (tenon, mortaise, axe du monde) avec l'architecture de l'Instrument",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "outillage",
+        "instrument",
+        "sashimono",
+        "hozo",
+        "kumiko",
+        "axe-du-monde",
+        "signalement"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument.md",
       "lacunes_to_source": 0
     },
     {
@@ -2605,6 +2876,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/autorites/charles-andre-gilis",
+      "label": "Charles-André Gilis (Abd ar-Razzâq Yahyâ)",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "califat",
+        "ibn-arabi",
+        "guenon",
+        "valsan",
+        "traduction",
+        "etudes-traditionnelles",
+        "turban-noir"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/autorites/charles-andre-gilis.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/autorites/faraz-rabbani",
       "label": "Faraz Rabbani",
       "circuit": "doctrinal",
@@ -2752,6 +3044,26 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "doctrinal/autorites/michel-valsan",
+      "label": "Michel Vâlsan (Cheikh Mustafâ Abd al-Azîz / Abd ar-Razzâq Yahyâ)",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "califat",
+        "ibn-arabi",
+        "guenon",
+        "triangle-androgyne",
+        "realisation-descendante",
+        "etudes-traditionnelles"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/autorites/michel-valsan.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/autorites/muhammad-nazim-al-haqqani",
       "label": "Shaikh Muhammad Nazim Adil al-Haqqani an-Naqshbandi",
       "circuit": "doctrinal",
@@ -2818,7 +3130,7 @@
         "tradition",
         "perennialisme"
       ],
-      "updated": "2026-08-23",
+      "updated": "2026-08-28",
       "chemin": "doctrinal/autorites/rene-guenon.md",
       "lacunes_to_source": 0
     },
@@ -3482,7 +3794,7 @@
         "methode",
         "architecture-chinoise"
       ],
-      "updated": "2026-08-16",
+      "updated": "2026-08-29",
       "chemin": "doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md",
       "lacunes_to_source": 0
     },
@@ -3926,6 +4238,49 @@
       ],
       "updated": "2026-08-25",
       "chemin": "doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "label": "L'Axe du Monde comme doctrine transversale : skambha, qutb, stauros — identité guénonienne",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "axe-du-monde",
+        "skambha",
+        "qutb",
+        "stauros",
+        "omphalos",
+        "nœud-universel",
+        "instrument"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
+      "label": "L'octogone comme monde intermédiaire — rapprochement fonctionnel avec le Barzakh",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "octogone",
+        "monde-intermediaire",
+        "vayu",
+        "barzakh",
+        "ibn-arabi",
+        "instrument"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh.md",
       "lacunes_to_source": 0
     },
     {
@@ -4510,6 +4865,29 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/guenon-dome-et-la-roue",
+      "label": "Le Dôme et la Roue — René Guénon",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "dome",
+        "roue",
+        "axe-du-monde",
+        "skambha",
+        "qutb",
+        "stauros",
+        "metier-traditionnel",
+        "symboles-science-sacree"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "doctrinal/sources/guenon-dome-et-la-roue.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles",
       "label": "Guénon — Les États multiples de l'être, ch. XIII : Les hiérarchies spirituelles",
       "circuit": "doctrinal",
@@ -4979,6 +5357,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/guenon-octogone",
+      "label": "L'Octogone — René Guénon",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "octogone",
+        "monde-intermediaire",
+        "vayu",
+        "baptistere",
+        "ming-tang",
+        "symboles-science-sacree"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "doctrinal/sources/guenon-octogone.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-recension-seabrook-aventures-arabie",
       "label": "Recension de W. B. Seabrook, Aventures en Arabie — les sept tours du diable (Guénon, E.T. 1935)",
       "circuit": "doctrinal",
@@ -5263,6 +5662,25 @@
       ],
       "updated": "2026-07-16",
       "chemin": "doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-symbolisme-du-dome",
+      "label": "Le symbolisme du dôme — René Guénon",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "dome",
+        "axe-du-monde",
+        "omphalos",
+        "symboles-science-sacree"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "doctrinal/sources/guenon-symbolisme-du-dome.md",
       "lacunes_to_source": 0
     },
     {
@@ -8361,6 +8779,13 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/bibliotheque/bibliographie-ihwan-al-safa",
       "target": "atelier/rd/bibliotheque/table-ihwan-al-safa",
       "champ": "links",
@@ -8396,6 +8821,20 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/bibliotheque/eckstein-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/eckstein-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
       "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
       "champ": "links",
@@ -8412,6 +8851,13 @@
     {
       "source": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
       "target": "atelier/rd/bibliotheque/index-noms-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue",
+      "target": "atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -8494,6 +8940,41 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/bibliotheque/lumiere-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/lumiere-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/lumiere-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/bibliotheque/notices-porte-du-ciel",
       "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
       "champ": "links",
@@ -8524,6 +9005,13 @@
     {
       "source": "atelier/rd/bibliotheque/preface-introduction-porte-du-ciel",
       "target": "atelier/rd/bibliotheque/glossaires-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -8566,6 +9054,20 @@
     {
       "source": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
       "target": "atelier/rd/bibliotheque/notices-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel",
+      "target": "atelier/rd/bibliotheque/eckstein-porte-du-ciel",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -8657,6 +9159,13 @@
     {
       "source": "atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session",
       "target": "atelier/rd/cahiers/bilan-2026-08-15-pont-agents",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder",
+      "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -9390,6 +9899,27 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone",
+      "target": "atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone",
+      "target": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone",
+      "target": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/instrument/references-visuelles-astronomiques-phase-5",
       "target": "atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3",
       "champ": "links",
@@ -9616,6 +10146,55 @@
     {
       "source": "atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle",
       "target": "doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
+      "target": "atelier/rd/bibliotheque/eckstein-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
+      "target": "atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
+      "target": "atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
+      "target": "atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
+      "target": "doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
+      "target": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
+      "target": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -10097,6 +10676,27 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/autorites/charles-andre-gilis",
+      "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/charles-andre-gilis",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/charles-andre-gilis",
+      "target": "doctrinal/autorites/michel-valsan",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/autorites/faraz-rabbani",
       "target": "doctrinal/sources/hasbiyallah-rabbani",
       "champ": "sources",
@@ -10335,6 +10935,27 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/autorites/michel-valsan",
+      "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/michel-valsan",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/michel-valsan",
+      "target": "doctrinal/autorites/charles-andre-gilis",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/autorites/muhammad-nazim-al-haqqani",
       "target": "doctrinal/sources/wazifa",
       "champ": "sources",
@@ -10533,6 +11154,27 @@
     {
       "source": "doctrinal/autorites/rene-guenon",
       "target": "doctrinal/autorites/ahmad-al-buni",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rene-guenon",
+      "target": "doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rene-guenon",
+      "target": "doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rene-guenon",
+      "target": "doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -12806,6 +13448,76 @@
       "assise": "suggere"
     },
     {
+      "source": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "target": "doctrinal/sources/guenon-symbolisme-du-dome",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "target": "doctrinal/sources/guenon-dome-et-la-roue",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "target": "doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "target": "doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
+      "target": "doctrinal/sources/guenon-octogone",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
+      "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
+      "target": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
+      "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
       "target": "doctrinal/symboles/hadarat-khams",
       "champ": "sources",
@@ -13429,6 +14141,13 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-dome-et-la-roue",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -13968,6 +14687,20 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-octogone",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-octogone",
+      "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-recension-seabrook-aventures-arabie",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -14271,6 +15004,13 @@
     {
       "source": "doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace",
       "target": "doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symbolisme-du-dome",
+      "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -15089,6 +15829,13 @@
     },
     {
       "source": "doctrinal/sources/sept-etendards-califat",
+      "target": "doctrinal/autorites/charles-andre-gilis",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/sept-etendards-califat",
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
       "nature": "lien",
@@ -15097,6 +15844,13 @@
     {
       "source": "doctrinal/sources/sept-etendards-califat",
       "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/sept-etendards-califat",
+      "target": "doctrinal/autorites/michel-valsan",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

@@ -8,7 +8,7 @@ created: 2026-07-09
 updated: 2026-07-10
 sources: ["[[doctrinal/autorites/charles-andre-gilis]]"]
 sources_count: 1
-cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
+cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/michel-valsan]]"]
 ---
 
 # Les Sept Étendards du Califat — Transcription (Avant-propos, Table des matières, Index des termes arabes)
