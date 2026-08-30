@@ -12,7 +12,6 @@ tags:
 created: 2026-07-06
 updated: 2026-07-06
 sources:
-- to-source
 sources_count: 0
 cross_links:
 - '[[imam-malik]]'

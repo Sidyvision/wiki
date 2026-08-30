@@ -12,7 +12,6 @@ tags:
 created: 2026-06-04
 updated: 2026-06-11
 sources:
-- to-source
 sources_count: 0
 cross_links:
 - '[[2026-06-04_islam-et-ia]]'

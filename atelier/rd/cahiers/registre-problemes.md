@@ -30,6 +30,18 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/infrastructure | Secret HMAC exposé en clair dans fiche R&D (2026-08-29_compte-rendu-github-automation.md)
+
+- **Opération** : signalement-sécurité
+- **Problème** : le rapport Studio (monitoring-infrastructure-quotidien, 2026-08-29 12:01 UTC) §4.1 ① signale que la fiche `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md` contenait le secret HMAC `69a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5` en clair (ligne 65). Le dépôt étant publié sur GitHub Pages, ce secret était potentiellement public.
+- **Action** : remplacement du secret par un renvoi vers cette entrée de registre (`rotation requise — voir registre [2026-08-30]`). URL Cloudflare annotée comme éphémère.
+- **Rotation** : requise hors-dépôt (GitHub webhook settings). Non exécutée par cette session (Cmd 13 — geste engageant).
+- **Référence** : rapport Studio 2026-08-29 §4.1 ①, fiche `2026-08-29_compte-rendu-github-automation.md`.
+- **Leçon** : tout secret (clé API, HMAC, token) doit être stocké hors-dépôt (variables d'environnement, gestionnaire de secrets). Les fiches R&D ne doivent contenir que des renvois vers ces stockages, jamais les valeurs elles-mêmes.
+
+---
+
+
 ## [2026-08-29] Push agent bloqué sur `main` (403, attendu) mais merge de PR via l'API GitHub passé sans aucune review requise malgré la protection de branche
 
 - **Symptôme** : dans une session d'intégration (Claude Code cloud), `git push origin main` échoue en `403` — les identifiants git de la session sont scopés à la branche de travail désignée, pas à `main` (comportement voulu, cf. protocole de session : « NEVER push to a different branch without explicit permission »). Contournement effectué avec verdict explicite de Sidy (« merge direct dans main ») : ouverture de la PR #11 (`claude/shayegan-transcription-archivage-qt2815` → `main`) puis appel de l'outil GitHub API `merge_pull_request` — **la fusion a réussi immédiatement** (`merged: true`), alors que le dépôt venait de recevoir, quatre minutes plus tôt dans le même main (commit `a748808`, cf. `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md`), une protection de branche annoncée comme exigeant « 1 review approuvante obligatoire (dismiss stale) ». Vérification a posteriori (`pull_request_read` méthodes `get_reviews`/`get`) : **`total_count` de reviews = 0**, `merged_by` = `Sidyvision` (le compte propriétaire lui-même) ; seul le check `lint` (statut requis) était effectivement vert avant fusion.

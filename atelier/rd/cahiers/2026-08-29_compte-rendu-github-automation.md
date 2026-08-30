@@ -1,6 +1,6 @@
 ---
 title: Compte-rendu — Automatisation GitHub & Webhook R&D
-type: compte-rendu
+type: infrastructure
 created: 2026-08-29
 updated: 2026-08-29
 tags:
@@ -60,9 +60,9 @@ MAJ hebdomadaire (lundi 09:00) pour `github-actions` et `pip`.
 
 ### 8. Tunnel public (Cloudflare)
 - `cloudflared tunnel --url http://localhost:8644`
-- **URL publique** : `https://chronicle-raised-zones-admit.trycloudflare.com`
+- **URL publique** : `https://chronicle-raised-zones-admit.trycloudflare.com` (éphémère, à documenter hors-dépôt)
 - Webhook GitHub configuré sur : `.../webhook/github-wiki-push`
-- Secret HMAC partagé : `69a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5`.
+- Secret HMAC : rotation requise (exposé en clair dans cette fiche, voir registre [2026-08-30])
 
 ## Bilan
 Le dépôt est maintenant **professionnel, automatisé, et couplé au workflow R&D** :

@@ -14,7 +14,6 @@ tags:
 created: 2026-06-29
 updated: 2026-06-29
 sources:
-- to-source
 sources_count: 0
 cross_links:
 - '[[doctrinal/symboles/archeometre]]'

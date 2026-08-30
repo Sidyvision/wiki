@@ -1,9 +1,10 @@
 ---
 title: "Conversion des chemins nus en wikilinks — 142 occurrences (2026-08-30)"
-date: 2026-08-30
+type: outillage
+created: 2026-08-30
+updated: 2026-08-30
 auteur: agent
 statut: cloture
-type: compte-rendu
 ---
 
 # Conversion des chemins nus en wikilinks
