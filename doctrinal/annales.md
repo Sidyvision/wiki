@@ -9,6 +9,72 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] discernement | ouverture | Les nâdîs issues du cœur et les sentiers séphirothiques (Tiferet)
+
+- **Hypothèse de Sidy** (2026-08-30) : « Les nâdîs sortant du chakra du cœur sont
+  **identiques** aux sentiers des Sephiroth, que l'on peut aussi envisager comme
+  émanant du cœur pour organiser le réseau — **Tiferet**. »
+- **Fiche créée** :
+  `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet.md`
+  (`speculatif`, **en cours — verdict réservé**, Cmd 12).
+- **Reformulée en deux propositions distinctes**, parce qu'elles ne se tiennent
+  pas ensemble : **(P1)** sentiers et *nâdîs* sont la même chose — un réseau de
+  **voies**, non de stations ; **(P2)** ce réseau **rayonne du cœur**.
+- **Deux appuis réels** : (a) le rapprochement est **de même rang** — des voies
+  avec des voies —, ce qui écarte l'erreur de catégorie la plus banale ; (b) le
+  cœur est **déjà posé des deux côtés dans le dépôt**, sans rien y ajouter :
+  [[doctrinal/sources/kabbale-10-sefirot-structure]] donne Tiferet « **Cœur de
+  l'Arbre** », et Guénon fait sortir les 101 *nâdîs* du « centre de
+  l'individualité, désigné symboliquement comme le cœur » ; Tiferet ↔ *Anāhata*
+  est en outre un ancrage déjà `etabli`.
+- **Trois obstacles de forme, relevés** :
+  1. **Guénon n'emploie ici qu'une litote.** Sur ce point précis il écrit « les
+     différents "canaux" qui relient les Séphiroth entre elles **ne sont pas sans
+     analogie** avec les *nâdîs* ». La session a établi que son vocabulaire est
+     calibré — « **identique** » pour Janus (*hozo*), « **très comparable** »
+     pour l'*athanor* (*kari-kumi*) ; « pas sans analogie » est **plus faible
+     encore**. Un joint *hozo* exigerait un **autre appui** qu'un texte de
+     Guénon.
+  2. **Il y a deux centres du cœur, et la distinction est expresse.** Avalon :
+     « Ce lotus doit être **distingué** du Lotus du cœur à huit pétales, qui est
+     représenté **au-dessous** de lui. » *Anāhata* (12 pétales) est la station de
+     la série ; le lotus à **8** pétales est **surnuméraire**, siège du *jīva* —
+     et c'est **de celui-là** que Guénon fait sortir les 101 *nâdîs*. Or le joint
+     `etabli` du 2026-08-29 vise *Anāhata*. **Les deux ne peuvent pas être le
+     même joint** : l'hypothèse doit dire de quel centre le réseau rayonne.
+  3. **L'inversion du lettrique** — le test le plus discriminant. Côté hébraïque,
+     les **22 lettres sont sur les sentiers** (les voies) ; côté sanscrit, les
+     **50 lettres sont sur les pétales** (les centres). Si les deux réseaux
+     étaient identiques, le lettrique tomberait au même endroit de la structure.
+     **Il tombe à l'endroit inverse.** Cela ne réfute pas — cela **localise le
+     point où le joint se taille ou se refuse**.
+  - *Différence de figure, relevée au passage* : la **roue** (101 rais d'un
+    moyeu) contre le **treillis** (22 arêtes, Tiferet un sommet parmi dix). P2
+    porte donc, du côté kabbalistique, plus que ce que la figure reçue montre.
+- **⚠️ Blocage en amont, et il n'est pas doctrinal** :
+  [[doctrinal/sources/kabbale-10-sefirot-structure]] déclare elle-même que les 22
+  sentiers ne sont **PAS documentés** au dépôt (fiche en état *kari-kumi*), et la
+  tradition connaît **plusieurs arrangements incompatibles** du tracé des voies,
+  dont **le dépôt n'a fixé aucun**. Le nombre de sentiers aboutissant à Tiferet
+  dépend donc d'un choix non fait : **toute convergence numérique serait
+  fabriquée par ce choix implicite**. **Aucun comptage n'est produit ni
+  suggéré.** Premier acte du chantier : fixer l'arrangement sur source.
+- **Confrontation Gizeh** : effectuée, **négative** (matière ni polaire ni
+  métrologique). Avertissement joint : le chiffre 101, comme le 22 hébraïque et
+  le 28 lettrique, appelle la recherche de concordances chiffrées — **procédé
+  déjà écarté par construction au dépôt**
+  ([[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]]).
+  C'est la pente naturelle de ce sujet, et celle qu'il ne faut pas prendre.
+- **Qualification sashimono** : ***kari-kumi*** (montage à blanc — les pièces sont
+  posées côte à côte, aucun tenon taillé, Art. 3) ; portance ***jikugumi*** si le
+  joint se fait ; nature **homologie**, aucune filiation alléguée.
+- **Quatre préalables ordonnés** posés dans la fiche avant tout verdict.
+- **Note de report** : même verdicté, ce joint ne serait **pas** un ancrage
+  inter-registres — il ne joint aucun niveau de l'axe — mais une équivalence
+  entre **nœuds notionnels**, au régime du joint Janus.
+- **Validation mécanique** : `verifier-invariants.py` → `0 erreur(s)`.
+- **Commit** : 0ccc243
+
 ## [2026-08-30] rd/autorites | création — Charles-André Gilis (Abd ar-Razzâq Yahyâ) et Michel Vâlsan (Cheikh Mustafâ Abd al-Azîz)
 
 - **Opération** : CRÉATION — deux fiches d'autorité manquantes, signalées depuis l'entrée du 2026-07-10 (Sept Étendards du Califat) comme backticks vides `` et `` dans les annales.
