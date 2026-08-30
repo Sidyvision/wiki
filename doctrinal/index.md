@@ -275,7 +275,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/valsan-investiture-cheikh-al-akbar|Michel Vâlsan — L'investiture du Cheikh al-Akbar au Centre Suprême]]
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7|L'Homme et son devenir selon le Vêdânta, ch. I-VII (Guénon)]]
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14|L'Homme et son devenir selon le Vêdânta, ch. IX-XIV (Guénon)]]
-- [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21|L'Homme et son devenir selon le Vêdânta, ch. XV-XXI (Guénon)]]
+- [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21|L'Homme et son devenir selon le Vêdânta, ch. XV-XXI (Guénon)]] — ⚠️ attributions de chapitres XIX-XXI non vérifiées (signalement du 2026-08-30)
+- [[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire|L'Homme et son devenir selon le Vêdânta, ch. XXI : L'artère coronale et le « Rayon solaire » (Guénon)]] — texte primaire ; les 101 nâdîs issues du cœur « comme les rais d'une roue », le ternaire temporel des canaux (futur/présent/passé), l'identité du symbolisme à *Janus Bifrons* posée par Guénon, et le Rayon solaire qui prolonge l'axe au-delà de l'individu en portant le même nom que lui
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26|L'Homme et son devenir selon le Vêdânta, ch. VIII et XXII-XXVI (Guénon)]]
 - [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission|Aperçus sur l'initiation, ch. V et VIII : régularité initiatique et transmission (Guénon)]]
 - [[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles|Aperçus sur l'initiation, ch. VII : contre le mélange des formes traditionnelles (Guénon)]]

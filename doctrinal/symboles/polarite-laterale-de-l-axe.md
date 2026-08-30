@@ -5,9 +5,9 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [axe-du-monde, nadis, ida, pingala, sushumna, sephiroth, colonnes, soleil-lune, caducee, polarite]
 created: 2026-08-29
-updated: 2026-08-29
-sources: ["[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]"]
-sources_count: 2
+updated: 2026-08-30
+sources: ["[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]"]
+sources_count: 3
 cross_links: ["[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/deviations/renversement-des-symboles]]"]
 ---
 
@@ -78,6 +78,54 @@ qu'« aux deux épaules se tiennent, suivant la tradition islamique, les deux
 anges chargés d'enregistrer respectivement les actions bonnes et mauvaises »,
 lesquels « représentent également les attributs divins de "Miséricorde" et de
 "Justice" ». Trois traditions, une même structure latérale.
+
+### Le ternaire est aussi temporel (Guénon, *L'Homme et son devenir*, ch. XXI)
+
+Une **seconde attestation guénonienne**, dans un autre ouvrage, redonne la même
+polarité — « la *pingalâ* correspond au Soleil et l'*idâ* à la Lune » — et y
+ajoute deux choses que « Kundalinî-Yoga » ne donnait pas
+([[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]).
+
+**D'abord, la boucle des deux yeux se ferme.** Le dépôt tenait, du côté
+kabbalistique, que *Hokmah* et *Binah* se rapportent aux deux yeux droit et
+gauche, « correspondance "microcosmique" du Soleil et de la Lune ». Guénon donne
+ici l'autre moitié : ces deux yeux sont **les deux yeux de *Vaishwânara***, et
+ils sont « respectivement en relation avec les deux *nâdîs* dont il s'agit ». La
+chaîne colonnes ↔ yeux ↔ luminaires ↔ *nâdîs* est donc **entièrement
+guénonienne**, sans maillon rapporté du dehors.
+
+**Ensuite, le milieu reçoit un nom et une fonction temporelle** : « la
+*sushumnâ*, étant au milieu, est en rapport avec le "troisième œil",
+c'est-à-dire avec l'œil frontal de *Shiva* ». Le ternaire se déploie alors sur
+un troisième registre, celui du temps :
+
+| | Canal | Œil | Luminaire | Temps |
+|---|---|---|---|---|
+| **Droite** | *piṅgalā* | œil droit | Soleil | le **futur** |
+| **Milieu** | *suṣumnā* | œil **frontal** | principe igné | le **présent** |
+| **Gauche** | *iḍā* | œil gauche | Lune | le **passé** |
+
+Le présent y est « un **instant insaisissable, comparable à ce qu'est dans
+l'ordre spatial le point géométrique sans dimensions** » — et c'est pourquoi le
+troisième œil « n'est représenté par aucun organe corporel ». Son regard
+« détruit toute manifestation », mais au-dessus de ce point de vue contingent
+« le présent contient toute réalité […] et la destruction apparente est
+véritablement la **transformation** ».
+
+> **Convergence, non addition.** Que *suṣumnā* soit rapportée au « principe
+> igné » (ci-dessus) et à l'œil frontal de *Shiva* n'est pas deux données : le
+> troisième œil est précisément celui qui « réduit tout en cendres ». C'est la
+> même qualité ignée, nommée deux fois. Le milieu du ternaire garde donc sa
+> nature propre, irréductible aux deux latéraux — et cette nature est
+> maintenant attestée sous deux noms concordants.
+
+> **Joint *hozo*, posé par l'autorité elle-même** : « Ce symbolisme est
+> **identique** à celui du *Janus Bifrons* des Latins, qui a deux visages, l'un
+> tourné vers le passé et l'autre vers l'avenir, mais dont le véritable visage,
+> celui qui regarde le présent, n'est ni l'un ni l'autre de ceux que l'on peut
+> voir. » Le mot « identique » est de Guénon. La qualification du joint est
+> consignée ; **aucun ancrage n'est inscrit**, le dépôt ne portant pas encore de
+> fiche propre sur *Janus* et le verdict revenant à Sidy (Cmd 12).
 
 ### Le caducée et le bâton brahmanique
 

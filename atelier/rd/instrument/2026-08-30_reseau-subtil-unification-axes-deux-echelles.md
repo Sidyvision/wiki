@@ -6,7 +6,7 @@ tags: [instrument, axe-unifie, nadis, reseau, macrocosme, microcosme, lataif, aq
 created: 2026-08-30
 updated: 2026-08-30
 sources: []
-links: ["[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]"]
+links: ["[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]"]
 ---
 
 # Le réseau subtil : unification des axes et résolution par les deux échelles
@@ -272,6 +272,11 @@ terme à terme** :
    posées, aucune implémentée.
 6. **Statuer sur les divergences table/planches** (§7.5) — deux cellules vides
    d'*Ājñā*, à combler ou à laisser.
+7. **Trancher la figuration de la discontinuité** (§8.6) — trois pistes posées,
+   aucune implémentée ; c'est la réserve doctrinale la plus lourde que le rendu
+   actuel ne porte pas.
+8. **Piste ouverte, non instruite** : le parallèle islamique sur la couronne de
+   la tête, signalé par Guénon lui-même (ch. XXI, note 3) sans texte nommé.
 
 ## 7. Acquis des planches et des centres surnuméraires (2026-08-30, second relevé)
 
@@ -359,6 +364,119 @@ inversé là où la table ne donne rien). **Les données de l'Instrument ne sont
 modifiées** : les champs `mandala` et `couleur_tattva` d'*Ājñā* restent vides.
 Les combler d'après la planche serait juger que la planche prime la table —
 un verdict, non un relevé. En attente de la parole de Sidy.
+
+## 8. Les onze ancrages inter-registres, rendus — et ce que le rendu a révélé
+
+Les onze ancrages verdictés étaient au manifeste depuis le 2026-08-29 **sans
+être tracés** : la donnée portait onze joints que l'image ne montrait pas. Ils
+sont désormais rendus, et le tracé lui-même a mis au jour trois faits qu'aucune
+relecture n'avait relevés.
+
+### 8.1 Ce qui est tracé
+
+| Joints | Registres | État | Rendu |
+|---|---|---|---|
+| 4 | *tasawwuf* (bandes de Présences, tronc akbarien) ↔ *vedanta* | établi | trait plein |
+| 5 | *qabbalah* ↔ *hindouisme-tantra* | établi | trait plein |
+| 2 | *qabbalah* ↔ *hindouisme-tantra* (Yesod, Malkhut) | **suggéré** | **pointillé + 🔍** |
+
+Établi et suggéré ne sont jamais fondus (règle des manifestes §3) : trait plein
+contre pointillé, marqueur plein contre marqueur creux, 🔍 dans l'intitulé. Les
+deux joints suggérés portent la réserve d'interversion **posée par Guénon
+lui-même**, et doivent se lire autrement que les cinq autres.
+
+### 8.2 Fait révélé — la coïncidence est un constat, pas un défaut
+
+En mode axe unifié, cinq des sept joints *qabbalah* ↔ *hindouisme-tantra*
+deviennent des **segments nuls** : les deux registres comptent le même nombre de
+niveaux et sont ancrés niveau pour niveau, donc leurs nœuds tombent au même
+point de l'axe unique.
+
+Ce n'était pas prévu, et c'est le rendu qui l'a montré. Ce n'est pas un défaut à
+corriger : **le segment nul EST le constat de commensurabilité**. Il est donc
+tenu visible par un marqueur, et l'info-bulle le nomme.
+
+### 8.3 Fait révélé — l'interversion se voit, et se voit comme un croisement
+
+Les deux joints suggérés Yesod↔Mūlādhāra et Malkhut↔Swādhishthāna **se
+croisent** : leurs milieux tombaient exactement au même point. C'est la figure
+géométrique de l'interversion que Guénon signale sans la trancher. Les deux
+marqueurs glissent maintenant à 35 % et 65 % de leur ligne propre, de sorte que
+le croisement se voie et que les deux joints restent consultables séparément.
+
+### 8.4 Erreur de ma part, corrigée avant commit
+
+J'avais d'abord qualifié les ancrages sur leur **longueur totale**, et écrit
+qu'un ancrage resté oblique en mode unifié signalerait un décalage-**donnée**.
+C'était faux, deux fois :
+
+1. La longueur mêlait la hauteur (le niveau, qui signifie) et le report latéral
+   (la colonne, qui signifie autre chose) — Hokhma↔Ājñā ressortait « oblique »
+   alors que ses deux extrémités sont **à la même hauteur**, l'écart étant
+   purement latéral.
+2. Surtout : la hauteur d'un domaine de registre parallèle est une
+   **répartition proportionnelle** sur l'étendue de l'axe — présentation,
+   jamais correspondance — tandis qu'une bande de Présence est posée à ses
+   **degrés déclarés**. Un ancrage entre les deux a donc une extrémité de
+   donnée et une extrémité de présentation : **son obliquité est un artefact de
+   convention de hauteur, et rien d'autre.** En faire un indice de
+   décalage-donnée aurait installé au cœur du rendu exactement la confusion que
+   la spec interdit.
+
+La qualification se lit désormais sur Y (le niveau) et sur X (la colonne),
+**jamais sur Z** — la profondeur étant le décalage-artefact que le mode unifié
+résorbe. Le constat est donc identique dans les deux modes, ce qui est la
+vérité : la correspondance de niveau ne dépend pas de l'angle de vue.
+
+### 8.5 Apport du ch. XXI de *L'Homme et son devenir selon le Vêdânta*
+
+Texte primaire déposé par Sidy le 2026-08-30
+([[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]]).
+Quatre conséquences pour l'Instrument, dont trois versées en donnée :
+
+1. **Le ternaire des canaux reçoit un troisième registre : le temps.**
+   *piṅgalā* = œil droit = Soleil = **futur** ; *iḍā* = œil gauche = Lune =
+   **passé** ; *suṣumnā* = œil frontal de Shiva = **présent**. Champs `oeil` et
+   `temps` versés, rendus dans l'info-bulle des canaux.
+2. **La chaîne devient entièrement guénonienne.** Le dépôt tenait colonnes ↔
+   yeux ↔ luminaires du côté kabbalistique ; le ch. XXI donne l'autre moitié —
+   ces deux yeux sont ceux de *Vaishwânara*, en relation avec les deux *nâdîs*.
+   Plus aucun maillon rapporté du dehors.
+3. **L'axe reçoit un prolongement nommé.** « Le rayon qui est en connexion avec
+   l'artère coronale est appelé **aussi** *sushumnâ*. » Le canal individuel et
+   le rayon universel portent le même nom : la thèse de l'axe unique est
+   attestée par la **nomenclature du texte**, non par notre déduction. Champ
+   `prolongement_axial` versé, **descriptif seulement** — aucun degré ne lui est
+   attribué, la tradition ne le situant pas sur une échelle.
+4. **Le canal médian devient consultable.** *suṣumnā* n'était atteignable nulle
+   part dans le rendu : elle n'est pas dessinée à part, puisqu'elle EST l'axe.
+   Un marqueur discret la rend consultable sans ajouter une seconde ligne qui
+   mentirait sur la géométrie. Sa hauteur est celle du registre entier, **non**
+   celle des hélices : les canaux latéraux s'arrêtent à *Ājñā*, l'axe non.
+
+### 8.6 ⚠️ Réserve doctrinale que ce chapitre impose à toute figuration verticale
+
+Elle vise précisément l'illusion qu'une échelle dessinée produit, et elle doit
+être portée par l'Instrument, non seulement par les fiches :
+
+> « tous ces états, étant encore relatifs et conditionnés, **n'ont aucune commune
+> mesure** avec celui qui est seul absolu et inconditionné ; […] **leur obtention
+> ne rapproche aucunement l'être de son but dernier** » ; et la Délivrance
+> « impliquera toujours une **discontinuité** […] quel que soit cet état, cette
+> discontinuité ne sera **ni plus ni moins profonde** ».
+
+Une série de degrés superposés ne se lit donc jamais comme un rapprochement
+progressif de l'Inconditionné : le sommet d'une échelle reste du côté du
+conditionné, et le passage est également discontinu **depuis n'importe quel
+degré**. L'Instrument dessine des hauteurs ; il ne doit pas laisser croire
+qu'elles mesurent une proximité.
+
+**Non implémenté, consigné comme exigence de rendu** : la réserve est portée
+par la fiche source, non encore par l'interface. Trois pistes, aucune tranchée —
+(a) une mention permanente dans la légende ; (b) le halo du *Hāhūt* (degrés
+non manifestés) marqué comme non commensurable au reste de l'échelle ; (c) une
+rupture graphique explicite entre le conditionné et l'Inconditionné. Verdict à
+Sidy.
 
 ---
 
