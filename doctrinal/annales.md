@@ -9,6 +9,19 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] usûl | Base terminologique du pôle Usûl — triade uṣūl / furūʿ / iṣṭilāḥ selon al-Jurjānī
+
+- **Contexte** : après la reformulation du pôle Fiqh en pôle Usûl (2026-08-27), instruction de la base terminologique saine — les termes qui fondent le pôle lui-même, tels qu'établis par une autorité textuelle classique.
+- **Source** : Sayyid al-Sharīf al-Jurjānī, *Kitāb al-Taʿrīfāt*, déf. 0157 (*al-uṣūl*), 0158 (*uṣūl al-fiqh*), 0160 (*al-iṣṭilāḥ*), 0741 (*al-dalāla*) — transcrites intégralement dans [[doctrinal/sources/kitab-al-tarifat-jurjani]].
+- **Créé** : [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] — étude `type: etude`, `status: traditionnel`.
+- **Contenu** :
+  - Triade *uṣūl / furūʿ / iṣṭilāḥ* : définitions de Jurjānī pour les deux premiers termes ; *furūʿ* reste `to-source` (définition-tête non transcrite — pages 954/420/451 à photographier).
+  - *Al-dalāla* : les quatre modalités de signification (*ibārat al-naṣṣ, išārat al-naṣṣ, dalālat al-naṣṣ, iqtiḍāʾ*) — outil herméneutique fondamental pour l'interprétation des sources textuelles dans les trois branches du pôle.
+  - Articulation avec les trois branches (`fiqh`, `mantiq`, `mustalah-hadith`) : table programmatique des *uṣūl/furūʿ/iṣṭilāḥ* propres à chaque branche, à remplir au fur et à mesure de leur instruction.
+  - Convergence avec Cmd 2 (Rigueur des Termes) et Cmd 12 (*upakarana*, discernement des domaines) : l'étude éclaire formellement ces deux commandements.
+- **Verdict** : base terminologique adoptée comme fondement du pôle Usûl du dépôt — la structure tripartite organise les trois branches déjà ouvertes.
+- **Commit** :
+
 ## [2026-08-30] discernement + archivage | VERDICT Kursī↔Hokhmah/Binah (kumiko) et trois chapitres du *Symbolisme de la Croix*
 
 - **Verdict de Sidy** : « Approuve le joint Kursī ↔ Hokhmah/Binah en *kumiko* ».
