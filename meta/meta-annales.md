@@ -14,6 +14,27 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] briefs | Passation de la session Instrument vers Claude Code (claude.ai)
+
+- **Motif** : budget de session épuisé côté terminal, la matière doctrinale étant
+  intégrée et commitée. Ce qui reste est un travail de **rendu sur le prototype**,
+  non commencé.
+- **Brief créé** : `meta/briefs/2026-08-30_passation-instrument-vers-claude-ai.md`
+  (`status: transmis`). Porte : les trois commandes de reprise et l'état attendu
+  (**`0 erreur(s), 0 avertissement(s)`** désormais, [A6] ayant été raffiné) ; la
+  tâche unique décrite en entier — reporter **six trouvailles** au prototype de
+  façon navigable, l'Instrument étant un instrument de *sulūk* ; les quatre
+  contraintes de rendu, dont trois désormais **sourcées** ; les sept commits du
+  jour ; les six verdicts rendus par Sidy, à ne pas rouvrir ; six points ouverts,
+  dont un seul demande une action de Sidy (photographier les pages antérieures à
+  la p. 36 de Gloton, pour les degrés 1-10) ; l'inventaire de ce qui reste
+  disponible en `raw/` ; et cinq pièges connus.
+- **Répercussion au hub** : `meta-index.md`, section « Briefs ».
+- **Étanchéité** : liens `meta/` → `doctrinal/` et `meta/` → `atelier/`
+  uniquement, sens autorisé (§VI).
+- **Commit** : à la ligne suivante du présent lot.
+
+
 ## [2026-08-30] briefs | Passation de la session « réseau subtil » vers le terminal
 
 - **Motif** : `raw/` est inaccessible depuis la session web — le dossier est

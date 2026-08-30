@@ -83,6 +83,7 @@ updated: 2026-08-30
 
 - [[meta/briefs/2026-08-22_brief-incident-zwj-mise-a-jour-securite|Brief technique — Incident ZWJ et mise à jour sécurité]]
 - [[meta/briefs/2026-08-30_passation-session-reseau-subtil-vers-terminal|Passation — session « réseau subtil » (web) vers session terminal]] — point de reprise : verdicts en attente, collations sur exemplaire physique, ce que l'accès à `raw/` débloque, état de l'outillage
+- [[meta/briefs/2026-08-30_passation-instrument-vers-claude-ai|Passation — session Instrument (terminal) vers Claude Code claude.ai, 2026-08-30 soir]] — la matière doctrinale est intégrée et commitée ; reste le **report des six trouvailles au prototype** (rendu, aucune donnée à modifier), les verdicts rendus ce jour, et les points ouverts
 
 ## Projet unifié (`projet-unifie/`)
 
