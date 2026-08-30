@@ -188,6 +188,13 @@ possède pas : ni élevés, ni abaissés — **sur la hauteur, et voyant les deu
 Leur acte propre n'est pas de monter ni de descendre : c'est de **reconnaître**
 (*yaʿrifūna*, racine ع ر ف, celle du nom même de la sourate).
 
+> ⚡ **Suite donnée le 2026-08-30** : Sidy formule une intuition **ancienne** — donc
+> antérieure au présent dossier et indépendante de lui — selon laquelle *les gens
+> d'al-Aʿrāf sont les initiés*. Elle **nomme cette troisième position** que le
+> présent examen avait relevée sans savoir qu'en faire. Instruite pour elle-même,
+> et sans verdict, en
+> [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]].
+
 > ⚠️ **Ne pas fondre avec le *Barzakh supérieur* de l'axe (degrés 19-20).**
 > L'*aʿrāf* coranique est un *barzakh* **eschatologique**, entre le Jardin et le
 > Feu. Le « Barzakh supérieur » de la table du *Nafas* est une zone de **transition
