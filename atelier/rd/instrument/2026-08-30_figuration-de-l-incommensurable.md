@@ -544,6 +544,62 @@ déplace de degré en degré dans les deux sens, et la station 3 a été **relue
 l'écran** après correction — les marques y sont visiblement égales, sans
 convergence. Contrôle de forme fait sur capture, pas sur auto-rapport (§VIII.2).
 
+### 9.5 ⚡ Apport du 2026-08-30 (nuit) — une **quatrième** description de la discontinuité, et elle est simultanée
+
+> **Trois pièces déposées par Sidy** (Gloton *Approche du Coran par la grammaire et
+> le lexique* p. 412 et p. 857 ; al-Rāzī *Traité sur les Noms divins* ch. XVIII ;
+> Sourate al-Aʿrāf) ont ouvert une fiche de discernement dédiée :
+> [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]]
+> (lien signalé, sens `atelier/rd/` → `doctrinal/` autorisé). **Rien n'est versé
+> en donnée, rien n'est rendu.**
+
+Ce chantier portait jusqu'ici **trois** descriptions de la discontinuité, dont le
+§9.3 déclarait deux non fondues :
+
+1. **égale depuis chaque degré** — « ni plus ni moins profonde » (station 3) ;
+2. **unique** — le *Fiat Lux* sur le plan de réflexion (station 6) ;
+3. **dimensionnelle** — plan → volume, une dimension de plus (station 2).
+
+**Une quatrième s'ajoute, d'une autre nature encore.** Coran LVI, 3 dit de
+*al-Wāqiʿa* — l'Heure — qu'elle est *khāfiḍatun rāfiʿa*, « **Abaissante,
+Élevante** ». Deux participes actifs apposés **sans conjonction** : Gloton note
+(p. 412, entrée 0578) que cette construction est précisément celle des **couples de
+Noms divins** dans le texte coranique. Ce n'est donc ni une succession ni une
+alternative : **un seul et même événement, dit dans les deux sens à la fois.**
+
+**Pourquoi cela touche le rendu au point exact où il en est.** Les stations 3 et 6
+figurent l'une et l'autre une discontinuité **sans orientation** — une marque égale,
+un plan de réflexion. Rien n'y dit que l'opération sur les degrés ait **deux sens
+simultanés**. Si la lecture du couple est retenue, ce n'est pas un ornement à
+ajouter : c'est une propriété de l'opération elle-même, qui manquerait.
+
+**Et cela recoupe un acquis déjà rendu.** Le §6bis.4 tenait de Guénon que la
+répartition des guṇas est **relative à l'état pris pour base** — d'où la station 4,
+« le centre n'est pas fixe ». Rāzī dit de son côté que les deux Noms « déterminent
+l'élévation ou la chute **en degrés** » : un degré n'est pas haut ou bas en soi, il
+est élevé ou abaissé, et par rapport à quelque chose. **Les deux doctrines disent
+une même chose de forme** — l'ordre est réel, la position sur cet ordre est
+opératoire et relative. La station 4 se trouve donc appuyée par un second versant,
+sans qu'aucune équivalence doctrinale soit posée (joint *kumiko* pressenti, état
+*kari-kumi*, verdict à Sidy).
+
+**Ce qui bloque, et il faut le dire net.** La fiche de discernement isole un point
+qui doit être tranché avant tout pixel : **le « il abaisse » du Calife est-il la
+chute-châtiment (*isqāṭ*) de Rāzī, ou la « réalisation descendante » de Vâlsan ?**
+Ce sont deux descentes que le français confond sous un seul mot, et l'une est une
+déchéance quand l'autre est une perfection. Figurer un axe à deux sens avant de
+savoir lequel serait exactement l'erreur que ce chantier documente à répétition.
+
+> **Un rapprochement séduisant, et écarté.** La consigne de Sidy nommait « la
+> notion de ق / Meru ». La lettre **qāf est le degré 17**, celui du Trône, dont
+> Gloton p. 38 dit qu'il « enveloppe le Cosmos entier » ; et **Jabal Qāf** est la
+> montagne périphérique que Guénon identifie explicitement à Meru. La montagne
+> entoure, le Trône enveloppe, et les deux portent le même nom. **Aucun texte ne
+> pose l'identité** : la ressemblance est nominale, du même type exactement que la
+> gématrie sans assise textuelle déjà dénoncée au §5 bis. Refusée pour la même
+> raison. Seule reste instructible la convergence *fonctionnelle* — à condition de
+> chercher un texte qui la pose.
+
 ## 8. Une observation, pour finir
 
 Le problème posé par Sidy a une propriété remarquable : **il ne se résout pas en

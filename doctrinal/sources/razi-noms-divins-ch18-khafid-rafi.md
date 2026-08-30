@@ -1,0 +1,140 @@
+---
+title: "Al-Rāzī, Traité sur les Noms divins — chapitre XVIII : al-Khāfiḍ (Celui-qui-abaisse) et al-Rāfiʿ (Celui-qui-élève)"
+type: source
+status: traditionnel
+tradition_cadre: "islam"
+tags: [asma-al-husna, razi, lawami-al-bayyinat, khafid, rafi, degres, darajat, resurrection, transcription]
+created: 2026-08-30
+updated: 2026-08-30
+sources: ["to-source"]
+sources_count: 1
+cross_links: ["[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]", "[[doctrinal/symboles/waqia]]"]
+---
+
+# Al-Rāzī, *Traité sur les Noms divins* — chapitre XVIII
+
+## Identification
+
+- **Auteur** : Fakhr al-Dīn al-Rāzī
+- **Ouvrage** : *Traité sur les Noms divins* (*Lawāmiʿ al-bayyināt*)
+- **Statut en bibliothèque** : **confirmé** — `atelier/rd/bibliotheque/catalogue-bibliotheque.md`
+  recense « **Al-Râzî** — *Traité sur les Noms Divins* (*Lawâmiʿ al-bayyinât*) ».
+  Consultation humaine du catalogue, sans wikilink (§VI : `doctrinal/` ne pointe
+  jamais vers `atelier/`).
+- **Provenance de la présente transcription** : photographie de la page d'ouverture
+  du chapitre, fournie par Sidy le 2026-08-30.
+
+> ⚠️ **`to-source` sur l'apparat éditorial, non sur le texte.** La page
+> photographiée ne porte ni page de titre, ni nom de traducteur, ni pagination
+> lisible. Traducteur, éditeur, année et numéro de page **ne sont pas vérifiés** et
+> ne sont donc pas affirmés ici. Le **contenu** transcrit ci-dessous, lui, est relevé
+> directement sur le cliché. Levée du marqueur : vérification par Sidy sur son
+> exemplaire (§VII.2).
+
+## Transcription du chapitre (intégrale de la page photographiée)
+
+> **CHAPITRE DIX-HUITIÈME**
+>
+> **AL-KHÂFIḌ : CELUI-QUI-ABAISSE**
+> **AL-RÂFIʿ : CELUI-QUI-ÉLÈVE**
+>
+> Allâh a dit : *Allâh élève* (*yarfiʿu*) *ceux qui ont été fidèles parmi vous*
+> (*Coran* LVIII, 11).
+>
+> **I - SIGNIFICATIONS DE CES DEUX NOMS**
+>
+> La signification des deux noms verbaux dont ils dérivent respectivement est
+> évidente :
+>
+> 1) Dans la Tradition religieuse (*dîn*), ces deux Noms divins confèrent
+> l'égarement (*iḍlâl*) ainsi que la bonne direction (*irshâd*) tant dans la
+> connaissance que dans l'obéissance.
+>
+> 2) Dans ce bas-monde, ces deux noms déterminent l'élévation (*iʿlâ*) ou la chute
+> (*isqât*) **en degrés**.
+>
+> Décrivant les caractéristiques de la Résurrection, Allâh dit : *Abaissant et
+> élevant* (*Coran* LVI, 3), c'est-à-dire : abaissant les Infidèles au degré le plus
+> bas et élevant les Vertueux au degré le plus sublime.
+>
+> Sache qu'en considérant les deux noms de cette manière, ils sont deux qualités
+> divines d'activités.
+>
+> Certains commentateurs les analysent sous les modes du blâme et de la louange. Ils
+> sont alors des **Qualités d'Essence**.
+>
+> **II - DIRES DES MAÎTRES AU SUJET DE CES DEUX NOMS**
+>
+> Les maîtres disent qu'Allâh, dans Sa mention prééternelle abaisse certains par le
+> dédain et élève d'autres par la sollicitude.
+>
+> **III - PARTICIPATION DU SERVITEUR À CES DEUX NOMS**
+>
+> Le serviteur doit élever son esprit et abaisser son âme. Il prêtera assistance aux
+> Saints d'Allâh et combattra Ses ennemis.
+
+*(Une référence coranique figure en marge haute du cliché, partiellement masquée et
+illisible ; elle n'est pas transcrite — Cmd 5.)*
+
+## Ce que cette page apporte au dépôt
+
+Quatre éléments, dont trois n'y figuraient pas.
+
+1. **Les deux Noms forment un couple indissociable, et leur objet est le degré.**
+   « Ces deux noms déterminent l'élévation (*iʿlāʾ*) ou la chute (*isqāṭ*) **en
+   degrés** ». Le dépôt portait déjà *al-Rāfiʿ* sous la forme du Nom *Rafīʿ
+   al-Darajāt* (degré 38 de la table du *Nafas*, discernement clos le 2026-07-14) —
+   mais **jamais son envers**. Rāzī pose que l'un ne va pas sans l'autre.
+
+2. **Deux registres distincts, explicitement séparés par Rāzī.** *(1)* dans le *dīn*
+   — *iḍlāl* / *irshād*, égarement et bonne direction ; *(2)* dans ce bas-monde —
+   *iʿlāʾ* / *isqāṭ*, élévation et chute en degrés. Rāzī ne les confond pas ; le
+   dépôt ne doit pas davantage les confondre.
+
+3. **Le statut ontologique des deux Noms est lui-même disputé, et Rāzī le signale.**
+   Pris comme opérations, ce sont « deux qualités divines **d'activités** » ; pris
+   « sous les modes du blâme et de la louange », ils sont « alors des **Qualités
+   d'Essence** ». Deux lectures reçues, données comme telles, sans arbitrage —
+   discipline à reproduire (Cmd 12).
+
+4. **Coran LVI, 3 (*khāfiḍatun rāfiʿa*) attribue les deux termes à un seul et même
+   événement** : *al-Wāqiʿa*, l'Heure. Non pas deux temps, non pas deux opérations
+   successives — un seul événement dit *abaissant et élevant*. Voir
+   [[doctrinal/symboles/waqia]].
+
+## Convergence lexicale avec le Nom du degré 38
+
+Le verset placé en exergue du chapitre est **Coran LVIII, 11**. Sa fin — non citée
+sur la page photographiée mais bien connue — porte le mot *darajāt*, celui-là même
+du Nom *Rafīʿ al-Darajāt* de **Coran XL, 15**, déjà versé au dépôt
+([[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]).
+
+> ⚠️ **Portée exacte de cette convergence.** Elle est **lexicale et sourcée**
+> (même racine ر ف ع, même terme *darajāt*, deux versets). Elle n'établit **pas**
+> que les *darajāt* de 40:15 et 58:11 — degrés de rang et de réalisation — soient
+> les *marātib* cosmologiques du chapitre 198 des *Futūḥāt*. Ce point est instruit,
+> pour lui-même et sans être tranché, dans la fiche de discernement ouverte le
+> 2026-08-30 (*couple khafḍ/rafʿ*). **Mention sans wikilink, délibérément** : une
+> page orthodoxe ne pointe pas vers un discernement non tranché
+> (`doctrinal/CLAUDE.md`, étanchéité inversée) ; le lien existe en sens inverse.
+
+## Attestations du même couple déjà présentes au dépôt
+
+Relevées à l'occasion de cette intégration — elles y dormaient sans avoir été
+rapprochées :
+
+- **Ibn ʿArabī, *Tartīb al-taṣawwuf*** (trad. Abdul-Hadi, *La Gnose*) —
+  [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]], catégorie V, les
+  *Rākiʿūn* identifiés aux **Malāmatiyya**, « groupe le plus élevé […] placés sous
+  la direction de l'Apogée spirituelle (*Quṭb*) ». Leurs Noms divins :
+  « **Celui qui abaisse** », « **Celui qui élève** », « Celui qui rend glorieux »,
+  « Celui qui humilie ».
+- **Ibn ʿArabī, *Les Sept Étendards du Califat*** (trad. Gilis) —
+  [[doctrinal/sources/sept-etendards-califat]], p. 116 : le Calife « se manifeste
+  par le pouvoir des Noms divins : *il donne et il refuse ; il fait mourir et il
+  donne la vie ; **il élève et il abaisse*** ». L'index des termes arabes du même
+  ouvrage porte l'entrée « *khafḍ*, *Khāfiḍ* (al-), 104, 123, 124, 244 » — quatre
+  occurrences dont le corps du texte n'est pas encore photographié (`to-source`).
+
+Le couple est donc attesté, chez Ibn ʿArabī et dans deux ouvrages distincts, comme
+**attribut opératoire de la fonction polaire et califale**.
