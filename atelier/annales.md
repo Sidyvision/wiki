@@ -10,6 +10,37 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/bibliotheque | fermeture du sas | vidage `_inbox/` (trois lots déjà intégrés, doublons octet pour octet de `raw/`)
+
+- **Vérification préalable** : les trois éléments restants du sas —
+  `La Lumière - Daryush Shayegan/` (8 clichés + `IV.md`),
+  `Les Quatre Mondes - Daryush Shayegan/` (16 clichés + `LES QUATRE
+  MONDES.md`), et `la-puissance-du-serpent.md` — sont chacun **déjà
+  intégrés** ([[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]],
+  [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]], catalogue
+  ligne 141 pour Avalon) et **identiques octet pour octet** (comparaison
+  md5 fichier par fichier) à leur copie permanente en `raw/`
+  (`raw/La Lumière - Daryush Shayegan/`, `raw/Les Quatre Mondes - Daryush
+  Shayegan/`, `raw/La-Puissance-Du-Serpent.md`). Aucune nouvelle
+  intégration nécessaire — vérification seule.
+- **Action** : `git rm --cached` sur les 28 fichiers suivis
+  (photos + `.md` + `UPDATES.md`), suppression du contenu en working tree.
+  `_inbox/` est désormais vide (verdict Sidy 2026-08-30, satisfait Cmd 10 et
+  §IX.8 — le sas se vide après intégration validée).
+- **Incident rencontré et consigné** : nom de dossier accentué en
+  encodage NFD (`La Lumière`) faisant échouer `git rm`/`rm -rf` tapés au
+  clavier (NFC) — contournement documenté dans
+  `atelier/rd/cahiers/registre-problemes.md` (entrée du 2026-08-30, même
+  classe que l'entrée du 2026-08-25 sur `valider-index-livres.py`).
+- **Non fait** : les 24 clichés + `IV.md`/`LES QUATRE MONDES.md` restent
+  disponibles en permanence côté `raw/` (immuable, hors git — CLAUDE.md
+  §II) ; rien n'est perdu, seule la copie transitoire versionnée du sas a
+  été retirée.
+- **Commit** : 29fdf4f
+
+---
+
+
 ## [2026-08-30] rd | RAPPORT D'ERREURS de session, joint Janus reporté, et ouverture du chantier de l'incommensurable
 
 **Trois livrables, sur commande de Sidy.**
