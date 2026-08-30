@@ -10,6 +10,44 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/instrument | Chantier « Figurer l'incommensurable » — la figure est trouvée, et elle est dimensionnelle
+
+- **Commande** : Sidy, 2026-08-30 — se concentrer sur l'Instrument sans
+  dispersion, et **regarder proactivement ce qui est disponible** en bibliothèque
+  pour avancer.
+- **Revue de `raw/` faite.** *Le Symbolisme de la Croix* y est intégralement
+  clippé (31 chapitres) et **trois n'étaient pas intégrés alors qu'ils portent les
+  questions ouvertes du chantier** — dont le ch. XXVI, intitulé littéralement
+  « **Incommensurabilité de l'être total et de l'individualité** ».
+- **Ce que le ch. XXVI apporte, et c'est la trouvaille du jour** : Guénon ne pose
+  pas l'incommensurabilité, **il la dérive d'une différence de dimension**. Un
+  état intégral est une **surface** ; l'être total est un **volume** ; l'épaisseur
+  d'un état sur l'axe vertical est **infinitésimale**. Donc **la figure juste
+  n'est pas une échelle mieux graduée : c'est un saut de dimension** (plan →
+  volume, par intégration). Cela satisfait les trois contraintes du §2 **sans
+  aucune invention graphique** : l'ordre demeure, la mesure disparaît, et aucun
+  plan n'est plus proche du volume qu'un autre.
+- **Deux questions du §7 avancent** : la n° 3 (guṇas) est largement réglée par le
+  ch. V — substance confirmée, **un mot rectifié** (les guṇas sont des
+  *conditions*, non des états) ; la n° 2 reçoit sa règle d'instruction, « le
+  symbolisme descend et ne remonte point » (Matgioi, cité par Guénon).
+- **Conséquence de design neuve, signalée non décidée** : la répartition des guṇas
+  est **relative à l'état pris pour base**, et le ch. XXVII pose que n'importe
+  quel état peut devenir l'état central selon où se détermine le plan de réflexion
+  du Rayon Céleste. **Le centre de l'Instrument n'est donc pas un lieu fixe de
+  l'axe.** Ceci rejoint par un autre chemin la « lecture par positions de
+  l'observateur » restée en attente de verdict (P2).
+- **Contrôle à faire, non fait ce jour** : le ch. XXVII interdit tout privilège
+  visuel de l'état humain — vérifier si le rendu actuel en accorde un.
+- **Aucune donnée versée** : `instrument-donnees.yaml` inchangé. Le §6 bis de
+  [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] consigne
+  l'apport ; les fiches sources vivent en `doctrinal/` (liens signalés, sens
+  unique).
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s)`.
+- **Commit** : da3c669
+
+
 ## [2026-08-30] rd/instrument | Collation Gloton — chantier « Figurer l'incommensurable » DÉBLOQUÉ, et l'Instrument était déjà juste
 
 - **Commande** : Sidy, 2026-08-30 — revoir l'Instrument à la lumière de

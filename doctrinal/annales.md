@@ -9,6 +9,57 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] discernement + archivage | VERDICT Kursī↔Hokhmah/Binah (kumiko) et trois chapitres du *Symbolisme de la Croix*
+
+- **Verdict de Sidy** : « Approuve le joint Kursī ↔ Hokhmah/Binah en *kumiko* ».
+  [[doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation]]
+  passe en `status: traditionnel`, `maturite: fruit-vert` ; l'état *kari-kumi* est
+  levé. **Complémentarité, non équivalence** : deux façons dont deux traditions
+  disent la même articulation. Les trois objections du §4 restent inscrites —
+  elles bornent la portée du verdict sans être réfutées par lui.
+- **Report en donnée non décidé, et instruit comme tel** : un ancrage
+  `qabbalah/hokhma ↔ tasawwuf/degre-18` serait le premier joint entre un registre
+  parallèle et l'échelle des degrés, et **fermerait un triangle de transitivité**
+  avec l'ancrage `hokhma ↔ ājñā` déjà établi le 2026-08-29 — le troisième côté
+  n'ayant jamais été instruit (Cmd 3). Signalement, pas décision.
+- **Revue proactive de `raw/`** (demande de Sidy : se concentrer sur l'Instrument,
+  et regarder ce qui est disponible). *Le Symbolisme de la Croix* y est
+  intégralement clippé et **trois chapitres non intégrés portaient exactement les
+  questions ouvertes du chantier de figuration** :
+  - **ch. XXVI** — l'incommensurabilité est **absolue**, « ne dépendant d'aucune
+    convention » ; et Guénon la **dérive d'une différence de dimension** : un état
+    est une *surface*, l'être total un *volume*, l'épaisseur d'un état sur l'axe
+    étant infinitésimale. Plus la règle de méthode citée de Matgioi : « **le
+    symbolisme descend et ne remonte point** ».
+  - **ch. XXVII** — l'état humain n'a **aucun rang privilégié** et son rang nous
+    est **inconnaissable** ; tous les états sont équivalents vus de l'Infini ; la
+    discontinuité est **unique** (le *Fiat Lux* du Rayon Céleste), non un écart
+    répété entre degrés.
+  - **ch. V** — les *guṇas* sont des **conditions**, non des états (rectification
+    d'un mot employé au chantier) ; géométrie explicite *sattva*/*rajas*/*tamas*
+    sur la croix à trois dimensions ; et répartition **relative à l'état pris pour
+    base**.
+- **Créé** :
+  [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]]
+  et [[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas]]. **`to-source`
+  maintenu** : le clipping porte l'édition Trédaniel 1996, l'exemplaire de Sidy
+  est Véga — la levée du 2026-08-30 ne couvrait que *Symboles de la Science
+  sacrée*.
+- **Signalement — une troisième numérotation de *L'Homme et son devenir***. Les
+  notes de ces chapitres y renvoient en précisant « **3ᵉ éd.** », avec des numéros
+  incompatibles avec les **deux** numérotations déjà connues (ch. XVII pour la
+  Délivrance, là où l'exemplaire porte XXII). **Aucune conversion tentée** : le
+  constat est versé, la règle établie ce matin reste à étendre. Ceci renforce la
+  vigilance déjà adoptée plutôt qu'il ne l'infirme.
+- **Vérification demandée par Sidy, faite** : les 23 fiches réputées absentes de
+  l'index **ne l'avaient pas été traitées** — mesure du jour : **27 fiches
+  absentes**, dont 2 légitimement (le `_template` et la pierre tombale `ch21`).
+  Non traité, hors du périmètre demandé pour cette session.
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 0 avertissement(s)`.
+- **Commit** : da3c669
+
+
 ## [2026-08-30] collation | Gloton et *L'Homme et son devenir* — la contradiction bloquante n'existait pas, et le chapitre de l'artère coronale est le XX
 
 - **Commande** : Sidy, 2026-08-30 — « revoir l'Instrument à la lumière de
