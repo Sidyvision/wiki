@@ -10,6 +10,35 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage | Shayegan, chapitre II « Les Disciplines Spirituelles » — bibliothèque R&D
+
+- **Contexte** : reprise depuis le terminal
+  (`meta/briefs/2026-08-30_passation-session-reseau-subtil-vers-terminal.md`),
+  écriture directe validée par Sidy pour ce lot (dérogation §VIII.9, voir
+  entrée jumelle `doctrinal/annales.md`, commit b23f5e8).
+- **Créé** :
+  [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] —
+  chapitre II du commentaire de Shayegan (Dârâ Shokûh, ch. III), p.95-120
+  (corrige la pagination erronée « p.240 et suiv. » du frontmatter de
+  transcription brute initiale). **Transcription OCR brute, NON relue sur
+  clichés** — à la différence de `lumiere-hindouisme-soufisme` et
+  `quatre-mondes-hindouisme-soufisme`, dûment signalé comme tel, défauts OCR
+  connus listés dans la fiche.
+- **Signalement de portée (Cmd 3, Non-Syncrétisme)** : le chapitre contient
+  la liste ordonnée des sept *cakra* et celle des sept *laṭāʾif* de Semnânî
+  (régents-prophètes), mais Shayegan **ne les met pas en correspondance
+  terme à terme** — signalement pur, aucun ancrage déclaré, toute table de
+  correspondance à construire en `discernement/` avec verdict réservé à
+  Sidy.
+- **Répercuté** : `atelier/rd/bibliotheque/catalogue-bibliotheque.md`
+  (nouvelle ligne).
+- **Hors périmètre** (non rouverts) : les six verdicts en attente du brief,
+  les collations sur exemplaire physique, les 26 entrées d'annales sans SHA,
+  les 23 fiches absentes de l'index, le faux positif [A6].
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 1 avertissement(s)` ([A6], faux positif documenté, inchangé).
+- **Commit** : 0ce810d
+
 ## [2026-08-30] veille | exécution rapport Publication — fiche session Sceau + B0 raw/
 
 Suite de la validation Sidy (Discord #infrastructure, fil du 2026-08-30) du

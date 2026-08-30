@@ -9,6 +9,50 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] archivage | Symboles de la Science sacrée (Guénon) — Janus ch. XVIII/XXXVII + manifeste du corpus raw/
+
+- **Contexte** : reprise depuis le terminal (`meta/briefs/2026-08-30_passation-session-reseau-subtil-vers-terminal.md`,
+  `raw/` inaccessible depuis la session web). Verdict explicite de Sidy avant
+  écriture (Cmd 6) : écriture directe dans les circuits, dérogation assumée
+  à §VIII.9 (le traitement de `raw/` produit normalement des candidats en
+  `_inbox/`) pour ce lot précis.
+- **Créé** : [[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]]
+  (ch. XVIII, p.123) et
+  [[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]]
+  (ch. XXXVII, p.228) — sourcées via clipping web index-rene-guenon.org,
+  `to-source` maintenu (§VII.2, texte non collationné sur exemplaire
+  physique, malgré l'ouvrage listé en bibliothèque personnelle sans
+  annotation « CONFIRMÉ »).
+- **Enrichi** : [[doctrinal/symboles/janus-bifrons]] — nouvelle section « Le
+  symbolisme solsticial » (deux portes, deux saints Jean, dieu de
+  l'initiation, filiation Collegia Fabrorum → Loge de Saint-Jean),
+  `sources_count` 2 → 4. Le `to-source` de la fiche n'est **pas levé** (la
+  levée exige une vérification humaine du texte primaire, jamais la seule
+  foi du modèle) ; vigilance ajoutée : le texte disponible ne nomme pas
+  littéralement Cancer/Capricorne (identification déjà établie ailleurs au
+  dépôt via les synthèses ch. XXXV-XXXVI de
+  `doctrinal/sources/transcription-table-matieres-symboles-science-sacree`).
+- **Créé** : [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] —
+  travail mécanique de mappage (§VIII.3, pas de lot doctrinal large) des 91
+  clippings de `raw/Symboles de la Science sacrée - René Guénon/` vers les 75
+  chapitres de la table des matières déjà transcrite depuis l'exemplaire
+  physique. **74/75 chapitres couverts** (seul le ch. XX « Sheth » absent du
+  dossier `raw/`), 5 fichiers-fragments non résolus mécaniquement signalés
+  pour lecture humaine ultérieure. 7 chapitres déjà intégrés au dépôt
+  identifiés et liés (XVIII, XXIII, XXXV synthèse, XXXVI, XXXVII, XXXIX, XL,
+  XLII).
+- **Répercuté** : `doctrinal/index.md` (3 nouvelles entrées + mise à jour de
+  la ligne `janus-bifrons`), `atelier/rd/bibliotheque/catalogue-bibliotheque.md`
+  (ligne manifeste ajoutée, distincte de l'entrée atelier ci-dessous pour
+  Shayegan).
+- **Hors périmètre** (non rouverts) : les six verdicts en attente du brief,
+  les deux collations sur exemplaire physique (dont la table des 38 degrés),
+  les 26 entrées d'annales sans SHA, les 23 fiches absentes de l'index, le
+  faux positif [A6].
+- **Validation mécanique** : `verifier-invariants.py --racine /root/wiki` →
+  `0 erreur(s), 1 avertissement(s)` ([A6], faux positif documenté, inchangé).
+- **Commit** : b23f5e8
+
 ## [2026-08-30] veille-referencement | exécution des suggestions validées du rapport Publication 2026-08-30
 
 - **Opération** : RÉFÉRENCEMENT — exécution, sur validation explicite de Sidy
