@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-29
+updated: 2026-08-30
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,91 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-30] Session « réseau subtil » : vingt défauts, dont trois seulement attrapés par relecture humaine — et une contradiction de numérotation qui bloque un chantier
+
+- **Symptôme** : sur la session du 2026-08-29 au 2026-08-30 (Shayegan, Majmaʿ
+  al-Bahrayn, Avalon, ch. XXI du Vêdânta, ancrages inter-registres), **vingt
+  défauts** recensés — 11 de la machine, 3 d'outillage, 5 dans le dépôt, 1 de
+  process. Rapport complet et détaillé :
+  [[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]].
+  Répartition des **détections** : 3 par Sidy, 3 par test mécanique, 3 par
+  lecture de la source primaire, 2 par relecture adversariale du diff, le reste
+  par balayage ou audit. **Zéro** par relecture narrative de la machine sur son
+  propre travail.
+
+- **Diagnostic** : la répartition ci-dessus est le fait à retenir, davantage que
+  la liste. Elle confirme §VIII.2 du protocole racine (*fiabilité d'action ≠
+  fiabilité narrative*) sur un échantillon enfin large. Deux défauts de rendu
+  vivaient dans le dépôt **depuis dix jours** (registres à l'envers, hélices
+  fausses) sans qu'aucune relecture les ait vus ; le test les a trouvés en une
+  passe.
+
+- **Trois classes récurrentes**, chacune vue plusieurs fois :
+  1. **La convention tacite** — une règle valable pour le premier cas versé
+     (« rang 1 = sommet », « les nœuds de l'anneau sont akbariens ») devient un
+     bug silencieux au deuxième. Remède : écrire la convention **dans la donnée**
+     au moment où l'on ajoute le second cas, pas quand l'erreur se voit.
+  2. **La convention invisible** — un plafonnement (1000 pétales → 24), un
+     arrondi, une simplification, non signalés dans la **forme**. Le lecteur
+     regarde l'image ; un commentaire de code ne signale rien.
+  3. **La garde annoncée mais absente** — le générateur documentait
+     l'application du Cmd 3 aux ancrages sans l'appliquer. Même classe que
+     l'entrée du 2026-08-17 (fiche affirmant un job cron jamais créé). Remède
+     identique : **un test qui échoue quand la garde manque**.
+
+- **Le défaut le plus lourd, et il est ouvert** :
+  `doctrinal/symboles/table-28-degres-nafas-rahman.md` porte **deux
+  numérotations incompatibles**. « Jabarūt — degrés 9-12 (Figure 2, p. 92) »
+  place le ʿArsh au degré 10 et le **Kursī au degré 11** ; la structure déclarée
+  ailleurs dans la même fiche (« degrés 1-10 pré-lettrés + degrés 11-38 = les 28
+  lettres ») fait du **degré 11 la *hamza***. Les deux ne peuvent tenir. Le
+  comptage Figure 1 (8) + Figure 2 (4) donne d'ailleurs **12** pré-lettrés, non
+  10.
+  **Portée** : le rendu de l'Instrument suit le second système (11-38 sur l'axe,
+  1-10 en halo « non manifesté »). La frontière manifesté / non-manifesté du
+  rendu tombe donc **exactement là où les deux numérotations divergent** — et
+  c'est précisément l'articulation Kursī → ʿArsh que Sidy vient de désigner comme
+  figure de l'échelle pour le chantier de l'incommensurabilité. **Le chantier est
+  bloqué tant que le point de texte n'est pas tranché.**
+
+- **Ce qui a failli arriver** : j'avais commencé à bâtir sur « Kursī = degré 11 =
+  base de l'axe rendu » une conclusion de design, avant de collationner. Le
+  raisonnement était cohérent et **faux dans l'un des deux systèmes**. Attrapé
+  par la collation, non par la relecture.
+
+- **Résolution** : aucune sur les points du dépôt — **rien n'a été modifié**
+  (VIGILANCE : rapporter, ne pas corriger d'office ; fichiers append-only ;
+  point de texte réservé à Sidy). Les onze défauts de la machine et les deux
+  d'outillage sont corrigés et commités.
+
+- **Compréhension tirée** : ⚠️ **deux systèmes de numérotation dans une même
+  fiche sont un piège actif.** La fiche concernée le sait pour un autre cas —
+  elle avertit explicitement, à propos du tableau Meftah, qu'« aucune
+  correspondance chapitre ↔ degré n'est établie ici ». Elle ne le fait pas pour
+  celui-ci. Le Cmd 4 (« une page = un sujet ») gagnerait à s'étendre : **une page
+  = un système de numérotation**, ou bien chaque table porte en tête, de façon
+  non contournable, l'origine dont elle relève.
+
+- **Seconde compréhension** : ⚠️ **un `to-source` partiel certifie tout ce qu'il
+  ne couvre pas.** La fiche `guenon-homme-devenir-vedanta-ch15-21` portait
+  « Pagination `to-source` » — ce qui a fait paraître sûre sa **structure**, qui
+  était fausse (attributions des ch. XIX-XXI). Un marqueur de doute doit énoncer
+  **son périmètre**.
+
+- **Liens** :
+  [[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]]
+  (rapport complet, 20 défauts) ;
+  [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] (chantier
+  bloqué par le point de texte) ; commits `73b215a`, `96e57bc`, `ea0f7ba`,
+  `a94968e`, `fbd50ef`, `2f529f0`.
+
+- **Statut** : `ouvert` — cinq points en attente de Sidy (collation pp. 91-92
+  Gloton ; collation des ch. XIX-XXI ; autorisation de réparer 26 entrées
+  d'annales sans SHA ; autorisation de compléter 23 entrées d'index ; arbitrage
+  sur le faux positif [A6]).
+
+---
 
 ## [2026-08-29] Push agent bloqué sur `main` (403, attendu) mais merge de PR via l'API GitHub passé sans aucune review requise malgré la protection de branche
 

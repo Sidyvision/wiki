@@ -1,7 +1,7 @@
 {
   "schema_version": "0.2.5",
-  "generated_at": "2026-08-30T07:29:07+00:00",
-  "source_commit": "44cff78999a654499d5111158ea8b4c013704c33",
+  "generated_at": "2026-08-30T11:09:31+00:00",
+  "source_commit": "179bc9c8be5a88263a0596ae10c665955ac198a0",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -469,6 +469,33 @@
           "note": ""
         }
       ]
+    },
+    {
+      "id": "universel/polarite-laterale-axe",
+      "tradition": "universel",
+      "label": "Polarité latérale de l'axe — piṅgalā/Soleil/futur · suṣumnā/igné/présent · iḍā/Lune/passé",
+      "source": "[[doctrinal/symboles/polarite-laterale-de-l-axe]]",
+      "degre_vertical": null,
+      "question_ouverte": false,
+      "ancrages": [
+        {
+          "type": "equivalence",
+          "etat": "etabli",
+          "directionnalite": "none",
+          "cible": "universel/janus-bifrons",
+          "source": "[[doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons]]",
+          "note": "Ternaire temporel : futur/présent/passé sous les deux voiles. Le terme médian est invisible des deux côtés."
+        }
+      ]
+    },
+    {
+      "id": "universel/janus-bifrons",
+      "tradition": "universel",
+      "label": "Janus Bifrons — deux visages, et le véritable qu'on ne voit pas",
+      "source": "[[doctrinal/symboles/janus-bifrons]]",
+      "degre_vertical": null,
+      "question_ouverte": false,
+      "ancrages": []
     },
     {
       "id": "universel/homme-universel",

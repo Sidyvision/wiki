@@ -139,7 +139,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/lignees-celestes-taoisme|Lignées célestes dans le taoïsme]]
 
 ### Symbolisme comparé des formes, du seuil et des figures
-- [[doctrinal/symboles/polarite-laterale-de-l-axe|La polarité latérale de l'axe — Soleil et Lune de part et d'autre du canal médian]] — `traditionnel` ; vigilance 🔍 sur la non-confusion avec le Soleil/Lune **axiaux** (degrés 24 et 27)
+- [[doctrinal/symboles/polarite-laterale-de-l-axe|La polarité latérale de l'axe — Soleil et Lune de part et d'autre du canal médian]]
+- [[doctrinal/symboles/janus-bifrons|Janus Bifrons — les deux visages et le troisième]] — `traditionnel` ; le ternaire temporel (futur/présent/passé) et le procédé traditionnel de l'**absence signifiante** : le terme principal est celui qui n'est pas figuré. Volet solsticial `to-source` — `traditionnel` ; vigilance 🔍 sur la non-confusion avec le Soleil/Lune **axiaux** (degrés 24 et 27)
 - [[doctrinal/symboles/mihrab-torii|Le Miḥrāb et le Torii — comparatisme guénonien du Seuil sacré]]
 - [[doctrinal/symboles/outil-faculte-objectivee|L'outil comme faculté objectivée (islamo-platonico-védantin)]]
 - [[doctrinal/symboles/noblesse-spirituelle|La noblesse spirituelle et sociale (comparatisme)]]
@@ -341,6 +342,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma|Les quatre Ḥaḍarāt et les quatre états d'Ātmā]] — close (traditionnel), *fruit-mûr*
 - [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux|Sephiroth et chakras : deux partitions à sept niveaux]] — close (traditionnel), *fruit-vert* ; colonnes séphirothiques ↔ nâdîs établi d'après Guénon, interversion comprise
 - [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif|Les sept Pôles et les sept laṭāʾif]] — validée par Sidy (2026-08-29), appuyée par la correspondance des Noms avec les prophètes qui en sont les régents ; obstacle de forme levé par la distinction des deux échelles (bloc ⚠️)
+- [[doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons|Le ternaire temporel des nâdîs et Janus Bifrons — un même symbolisme sous deux voiles]] — close (traditionnel), **verdict Sidy 2026-08-30** : joint *hozo*, portance *jikugumi*, nature **homologie** (aucune filiation alléguée). Particularité : l'identité est posée par Guénon lui-même, avec le mot « identique » — la machine n'a proposé aucun rapprochement, elle a constaté qu'il était fait. Périmètre strict : le ternaire temporel seul, le volet solsticial reste `to-source`
 
 ### Archétypes et organisation d'entreprise
 - [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise|Correspondances fonctions initiatiques/entreprise]] — mixte : volet 12/zodiaque CLOS (portes solsticiales confirmées, échec position 5 documenté) ; volet 5/Cinq-Présences EN COURS

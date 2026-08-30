@@ -299,11 +299,19 @@ if (MANIFESTE){
     .map(function(n){ return [n.degre_vertical, String(n.label).replace(/^\s*\d+\s*·\s*/, "")]; });
   if (degres.length) DEGRES = degres;
 
-  // Nœuds notionnels de l'anneau : tasawwuf sans degré, hors filament et hors
-  // Barzakh (tous deux rendus à part, sur l'axe).
+  // Nœuds notionnels de l'anneau : sans degré vertical, hors filament et hors
+  // Barzakh (tous deux rendus à part, sur l'axe), hors Homme Universel (rendu
+  // à part comme source d'équivalences).
+  //   Élargi le 2026-08-30 aux nœuds `universel` : l'anneau accueille les nœuds
+  //   TRANSVERSAUX, et un joint transversal peut joindre deux symboles dont
+  //   aucun n'est akbarien — c'est le cas du ternaire latéral ↔ Janus. Restreindre
+  //   l'anneau à `tasawwuf` rendait la donnée indessinable pour cette seule
+  //   raison de provenance, ce qui n'est pas un critère.
   var notionnels = noeuds.filter(function(n){
-    return n.tradition === "tasawwuf" && n.degre_vertical == null
-        && n.id !== "tasawwuf/al-insan-al-kamil";
+    return (n.tradition === "tasawwuf" || n.tradition === "universel")
+        && n.degre_vertical == null
+        && n.id !== "tasawwuf/al-insan-al-kamil"
+        && n.id !== "universel/homme-universel";
   }).map(function(n){
     return {id: n.id, label: abreger(n.label, 34), labelComplet: n.label, src: n.source};
   });

@@ -303,6 +303,26 @@ noeuds:
   - {fiche: doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire, tradition: universel,
      id: universel/aqtab-lune, degre_vertical: 27, label: "Pôle de la Lune (Adam y siège)"}
 
+  # ============ Ternaire latéral et Janus (nœuds notionnels) ============
+  # Verdict Sidy 2026-08-30 : joint HOZO entre le ternaire des trois canaux
+  # (piṅgalā/suṣumnā/iḍā, avec leurs valeurs d'œil et de temps) et Janus Bifrons.
+  # L'identité est posée par Guénon lui-même, avec le mot « identique »
+  # (L'Homme et son devenir selon le Vêdânta, ch. XXI, note 7).
+  #
+  # POURQUOI DES NŒUDS NOTIONNELS, ET NON UN ANCRAGE INTER-REGISTRES :
+  #   les ancrages inter-registres joignent deux NIVEAUX de l'axe. Ce joint-ci
+  #   n'en joint aucun — « les deux canaux latéraux ne portent aucun centre », et
+  #   Janus n'occupe aucun degré. Le forcer dans la structure des registres
+  #   aurait obligé à inventer pour Janus un rang qu'il n'a pas : c'est
+  #   exactement ce que la règle du décalage-donnée interdit. Le joint est
+  #   transversal, il est donc rendu dans l'anneau des nœuds notionnels.
+  - {fiche: doctrinal/symboles/polarite-laterale-de-l-axe, tradition: universel,
+     id: universel/polarite-laterale-axe, degre_vertical: null,
+     label: "Polarité latérale de l'axe — piṅgalā/Soleil/futur · suṣumnā/igné/présent · iḍā/Lune/passé"}
+  - {fiche: doctrinal/symboles/janus-bifrons, tradition: universel,
+     id: universel/janus-bifrons, degre_vertical: null,
+     label: "Janus Bifrons — deux visages, et le véritable qu'on ne voit pas"}
+
   # ============ Homme Universel (nœud universel, hors arbre-tradition) ============
   # Identité à quatre voiles traditionnelles établie — verdict Sidy 2026-07-26
   # (doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara, clos)
@@ -356,6 +376,22 @@ ancrages:
   # taoïste et védantique — le filament rendu ne change pas, ce qu'il désigne s'élargit.
   - {noeud: universel/homme-universel, type: equivalence, etat: etabli, directionnalite: none,
      cible: tasawwuf/al-insan-al-kamil, source: "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"}
+
+  # --- ⭐ Ternaire latéral ↔ Janus Bifrons (verdict Sidy 2026-08-30) ----------
+  # Joint HOZO, portance JIKUGUMI, nature HOMOLOGIE (aucune filiation historique
+  # alléguée, et Guénon n'en allègue aucune). Identité affirmée dans le texte :
+  # « Ce symbolisme est IDENTIQUE à celui du Janus Bifrons des Latins ».
+  # Le terme médian est de même nature des deux côtés — c'est le point décisif :
+  # de part et d'autre, le terme PRINCIPAL est celui qui n'est pas figuré
+  # (l'œil frontal « n'est représenté par aucun organe corporel » ; le véritable
+  # visage « n'est ni l'un ni l'autre de ceux que l'on peut voir »).
+  # PÉRIMÈTRE : le ternaire temporel SEUL. Le volet solsticial de Janus (les deux
+  # portes, les deux saints Jean, Cancer/Capricorne) n'est PAS couvert — non
+  # relevé au dépôt, `to-source` maintenu.
+  - {noeud: universel/polarite-laterale-axe, type: equivalence, etat: etabli, directionnalite: none,
+     cible: universel/janus-bifrons,
+     source: "[[doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons]]",
+     note: "Ternaire temporel : futur/présent/passé sous les deux voiles. Le terme médian est invisible des deux côtés."}
 
   # --- ⭐ Homme Universel → Vaishwânara (établi, hozo, verdict Sidy 2026-07-26) ---
   # Second ancrage du même nœud (schéma manifeste v0.2.4 : cible = domaine de
