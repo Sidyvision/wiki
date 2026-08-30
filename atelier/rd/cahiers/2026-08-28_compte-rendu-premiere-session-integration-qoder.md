@@ -1,13 +1,21 @@
 ---
-title: "Compte-rendu R&D 2026-08-28 — première session d'un nouveau moteur en poste INTÉGRATION (Qoder)"
+title: Compte-rendu R&D 2026-08-28 — première session d'un nouveau moteur en poste
+  INTÉGRATION (Qoder)
 type: meta
 statut: synthese
-tags: [atelier, rd, integration, moteur, verification, annales, multi-agents]
+tags:
+- atelier
+- rd
+- integration
+- moteur
+- verification
+- annales
+- multi-agents
 created: 2026-08-28
 updated: 2026-08-28
 sources: []
 links:
-- atelier/rd/cahiers/registre-problemes
+- '[[atelier/rd/cahiers/registre-problemes]]'
 ---
 
 # Compte-rendu R&D 2026-08-28 — première session d'un nouveau moteur en poste INTÉGRATION (Qoder)

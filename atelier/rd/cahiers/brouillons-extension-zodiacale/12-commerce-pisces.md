@@ -9,9 +9,9 @@ tags:
 - zodiacal
 - extension-principielle
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries]]'
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

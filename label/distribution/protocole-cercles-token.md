@@ -17,10 +17,10 @@ sources: []
 liens:
 - '[[label/distribution/doctrine-du-don]]'
 - '[[label/direction-artistique/amorcage/generation-non-cumulative]]'
-- label/distribution/strategie-vinyle-300-depositaires
+- '[[label/distribution/strategie-vinyle-300-depositaires]]'
 liens_atelier: []
 links:
-- label/distribution/strategie-vinyle-300-depositaires
+- '[[label/distribution/strategie-vinyle-300-depositaires]]'
 ---
 
 # Protocole des cercles — registre de transmission numérique

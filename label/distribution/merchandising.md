@@ -16,10 +16,10 @@ sources: []
 liens:
 - '[[label/production/modele-economique]]'
 - '[[label/marketing-communication/fanzine]]'
-- label/distribution/protocole-cercles-token
+- '[[label/distribution/protocole-cercles-token]]'
 liens_atelier: []
 links:
-- label/distribution/protocole-cercles-token
+- '[[label/distribution/protocole-cercles-token]]'
 ---
 
 # Merchandising — principes et catalogue candidat

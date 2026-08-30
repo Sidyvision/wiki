@@ -22,7 +22,7 @@ refs:
 - _inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11.md (cascade doctrinale)
 - atelier/rd/index.md (phase 1 partielle, statut_experience)
 cross_links:
-- doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique
+- '[[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique]]'
 ---
 
 # Trois territoires de l'inachevé — flux spéculatif → exploratoire → finalisé

@@ -17,10 +17,10 @@ liens:
 - '[[label/distribution/strategie-vinyle-300-depositaires]]'
 - '[[label/production/modele-economique]]'
 - '[[label/marketing-communication/site-dans-labsolu]]'
-- label/distribution/merchandising
+- '[[label/distribution/merchandising]]'
 liens_atelier: []
 links:
-- label/distribution/merchandising
+- '[[label/distribution/merchandising]]'
 ---
 
 # Fanzine — *Dans l'Absolu* (organe imprimé)

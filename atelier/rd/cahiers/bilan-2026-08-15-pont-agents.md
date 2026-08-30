@@ -12,7 +12,7 @@ created: 2026-08-15
 updated: 2026-08-15
 sources: []
 links:
-- atelier/rd/cahiers/registre-problemes
+- '[[atelier/rd/cahiers/registre-problemes]]'
 ---
 
 # Bilan R&D 2026-08-15 — pont inter-agents

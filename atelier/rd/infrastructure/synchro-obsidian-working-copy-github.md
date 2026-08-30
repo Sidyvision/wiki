@@ -13,7 +13,7 @@ created: 2026-06-29
 updated: 2026-08-11
 sources: []
 links:
-- atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11
+- '[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11]]'
 ---
 
 # Synchronisation Obsidian / Working Copy / GitHub

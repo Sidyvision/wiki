@@ -4,9 +4,9 @@ type: deprecated
 created: 2026-07-26
 updated: 2026-08-08
 cross_links:
-- atelier/projets/angles-de-l-espace
+- '[[atelier/projets/angles-de-l-espace]]'
 links:
-- atelier/projets/angles-de-l-espace
+- '[[atelier/projets/angles-de-l-espace]]'
 ---
 
 # spec-anneau-zodiacal — fiche déplacée (deprecated)

@@ -17,10 +17,10 @@ liens:
 - '[[label/distribution/strategie-vinyle-300-depositaires]]'
 - '[[label/distribution/protocole-cercles-token]]'
 - '[[label/production/modele-economique]]'
-- label/distribution/merchandising
+- '[[label/distribution/merchandising]]'
 liens_atelier: []
 links:
-- label/distribution/merchandising
+- '[[label/distribution/merchandising]]'
 ---
 
 # Doctrine du don — principe de circulation des œuvres

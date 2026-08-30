@@ -11,7 +11,7 @@ updated: 2026-06-20
 sources: []
 sources_count: 0
 cross_links:
-- doctrinal/symboles/ashhab
+- '[[doctrinal/symboles/ashhab]]'
 ---
 
 # Le scarabée dans l'Égypte antique

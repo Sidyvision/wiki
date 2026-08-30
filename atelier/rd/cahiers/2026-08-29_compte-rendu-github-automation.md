@@ -1,14 +1,21 @@
 ---
-title: "Compte-rendu — Automatisation GitHub & Webhook R&D"
+title: Compte-rendu — Automatisation GitHub & Webhook R&D
 type: compte-rendu
 created: 2026-08-29
 updated: 2026-08-29
-tags: [atelier, rd, infrastructure, github, webhook, automation, gardien]
+tags:
+- atelier
+- rd
+- infrastructure
+- github
+- webhook
+- automation
+- gardien
 sources: []
 links:
-  - atelier/rd/index.md
-  - atelier/rd/infrastructure/
-  - meta/protocole-archives/changelog-CLAUDE.md
+- '[[atelier/rd/index.md]]'
+- '[[atelier/rd/infrastructure/]]'
+- '[[meta/protocole-archives/changelog-CLAUDE.md]]'
 ---
 
 # Automatisation GitHub & Webhook — R&D (2026-08-29)

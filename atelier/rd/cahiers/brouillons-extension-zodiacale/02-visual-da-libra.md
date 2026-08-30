@@ -9,9 +9,9 @@ tags:
 - zodiacal
 - extension-principielle
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini]]'
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

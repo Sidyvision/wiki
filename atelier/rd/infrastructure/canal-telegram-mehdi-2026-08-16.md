@@ -1,11 +1,21 @@
 ---
-title: "Infrastructure — Canal Telegram pour Mehdi, second robinet vers _inbox/"
+title: Infrastructure — Canal Telegram pour Mehdi, second robinet vers _inbox/
 type: infrastructure
-tags: [rd, infrastructure, karubi, transmissions, telegram, hermes]
+tags:
+- rd
+- infrastructure
+- karubi
+- transmissions
+- telegram
+- hermes
 created: 2026-08-16
 updated: 2026-08-16
 sources: []
-links: [atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md, meta/transmissions/karubi-mehdi.md, meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md, meta/transmissions/registre-silsila.md]
+links:
+- '[[atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md]]'
+- '[[meta/transmissions/karubi-mehdi.md]]'
+- '[[meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md]]'
+- '[[meta/transmissions/registre-silsila.md]]'
 statut_experience: reproduit
 ---
 

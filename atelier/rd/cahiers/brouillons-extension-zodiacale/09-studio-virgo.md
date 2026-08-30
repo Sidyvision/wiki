@@ -10,9 +10,9 @@ tags:
 - extension-principielle
 - studio
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn]]'
 ---
 
 # Brouillon — extension principielle, agent 09 studio

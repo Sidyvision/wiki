@@ -17,10 +17,10 @@ liens:
 - '[[label/distribution/doctrine-du-don]]'
 - '[[label/distribution/merchandising]]'
 - '[[label/production/equipe-agents-hermes]]'
-- label/production/album-personnel
+- '[[label/production/album-personnel]]'
 liens_atelier: []
 links:
-- label/production/album-personnel
+- '[[label/production/album-personnel]]'
 ---
 
 # Modèle économique — le contrepoids de la rentabilité

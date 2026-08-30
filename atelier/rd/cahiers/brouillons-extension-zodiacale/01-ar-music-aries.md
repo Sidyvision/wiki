@@ -9,9 +9,9 @@ tags:
 - zodiacal
 - extension-principielle
 cross_links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra]]'
 links:
-- atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra
+- '[[atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra]]'
 ---
 
 > **Clause d'étanchéité (CLAUDE.md §VI corollaire agentique)** : Ce brouillon

@@ -10,9 +10,9 @@ tags:
 created: 2026-06-28
 updated: 2026-08-25
 cross_links:
-- atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16
+- '[[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16]]'
 links:
-- atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16
+- '[[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16]]'
 ---
 
 # Instrument de la Tradition Primordiale — feuille de route
