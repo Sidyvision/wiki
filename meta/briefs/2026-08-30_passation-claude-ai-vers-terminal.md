@@ -23,27 +23,74 @@ references:
 > le font — il dit **où en est chaque chantier, ce qui l'attend, et par quoi
 > commencer**.
 
-## 0. ⚠️ La branche — à lire avant tout
+## 0. ⚠️ État des branches — à lire avant tout
 
-**Tout le travail est sur `claude/passation-instrument-claude-ai-kono6l`, pas sur
-`main`.** Sept commits y sont poussés, aucun n'est sur `main`.
+### ✅ Fusion faite le 2026-08-30, sur ordre de Sidy (« Fusionne les branches »)
+
+`claude/passation-instrument-claude-ai-kono6l` → **`main`**, via la PR **#18**
+(fast-forward strict : 14 commits d'avance, 0 de retard). `main` est désormais à
+**`657d79a`**. Le push direct sur `main` étant bloqué pour les sessions d'agent
+(comportement voulu, cf. `registre-problemes` [2026-08-29]), la voie PR + merge API
+a été employée — la même que le 2026-08-29.
 
 ```bash
 cd /root/wiki
 git fetch origin
-git log --oneline origin/main..origin/claude/passation-instrument-claude-ai-kono6l
+git checkout main && git pull origin main
+python3 verifier-invariants.py --racine /root/wiki    # attendu : 0 erreur(s), 0 avertissement(s)
 ```
 
-**Décision qui appartient à Sidy** : fusionner cette branche dans `main`, ou
-continuer dessus. Rien n'a été fusionné sans ordre.
+### 🛑 PIÈGE — le dépôt porte DEUX lignées sans ancêtre commun
+
+Découvert en préparant la fusion. **`git merge-base` renvoie « aucune base
+commune »** entre `origin/main` et trois références :
+
+| Référence | Diff **de contenu** avec `main` | Verdict |
+|---|---|---|
+| `claude/instrument-graphic-design-n5d0ic` | 265 fichiers, **−26 172 lignes** | ⛔ **NE PAS FUSIONNER** |
+| `claude/shayegan-transcription-archivage-qt2815` | 185 fichiers, **−17 103 lignes** | ⛔ **NE PAS FUSIONNER** |
+| le `main` **local** de la session web | idem (même lignée) | artefact |
+
+Ces branches ne sont pas « en avance » : elles portent un **état ancien et plus
+petit** du dépôt, antérieur à une réécriture d'historique. Les compteurs de commits
+(387 et 66 « d'avance ») **mentent** — ils comparent des lignées disjointes. Les
+fusionner **retirerait des dizaines de milliers de lignes** du wiki actuel.
+
+> ⚠️ **Erreur de méthode commise puis corrigée, à connaître** : un premier test
+> avec `git diff origin/main...origin/<branche>` (**trois points**) a rendu un
+> résultat **vide**, que j'ai d'abord lu comme « contenu déjà intégré ». C'était
+> faux : le diff à trois points **échoue silencieusement** (`no merge base`) quand
+> les histoires sont disjointes. **Sur ce dépôt, toujours comparer à deux points**
+> (`git diff origin/main origin/<branche>`).
+
+**À vérifier côté serveur** : si `/root/wiki` porte lui aussi un `main` local de
+l'ancienne lignée, `git pull origin main` échouera (« refusing to merge unrelated
+histories »). Le remède est local et sans perte, l'ancienne lignée restant sur
+`origin/claude/shayegan-transcription-archivage-qt2815` :
 
 ```bash
-git checkout claude/passation-instrument-claude-ai-kono6l
-git pull origin claude/passation-instrument-claude-ai-kono6l
-python3 verifier-invariants.py --racine /root/wiki
+git fetch origin && git checkout -B main origin/main
 ```
 
-État attendu : **`0 erreur(s), 0 avertissement(s)`**.
+### ⚠️ `fix/corrections-rapports-2026-08-30` — NON fusionnée, décision à Sidy
+
+Seule branche à porter du contenu réel dans la lignée de `main` (1 commit). **Mais** :
+
+- **son correctif de sécurité est déjà dans `main`** — le secret HMAC exposé en
+  clair y est déjà caviardé, arrivé par une autre voie ;
+- **ce qui reste est, pour l'essentiel, la suppression de 39 marqueurs
+  `to-source`** (39 lignes `- to-source` retirées, plus deux `sources: []`). C'est
+  une **décision de doctrine, pas de forme** : le `to-source` est le signal du
+  Cmd 5. En retirer 39 d'un coup efface 39 signalements en cours ;
+- elle **conflicte** sur trois fichiers (`registre-problemes.md` — append-only, les
+  deux lignées ayant inséré en tête —, `doctrinal/autorites/ibn-sina.md`,
+  `doctrinal/etudes/2026-06-04_islam-et-ia.md`).
+
+**Non fusionnée délibérément** (VIGILANCE : « rapporter sans corriger d'office » ;
+Cmd 13). L'intention probable de la branche était de réparer une incohérence
+`sources: ["to-source"]` / `sources_count: 0` — mais il y a **deux réparations
+possibles** (vider la liste, ou porter le compte à 1) et elles n'ont pas le même
+sens. **Verdict à Sidy.**
 
 ## 1. Ce qui a été fait (résumé de contrôle, non de narration)
 
