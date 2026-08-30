@@ -6,7 +6,7 @@ tags: [instrument, axe-unifie, nadis, reseau, macrocosme, microcosme, lataif, aq
 created: 2026-08-30
 updated: 2026-08-30
 sources: []
-links: ["[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]"]
+links: ["[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]"]
 ---
 
 # Le réseau subtil : unification des axes et résolution par les deux échelles
@@ -268,6 +268,97 @@ terme à terme** :
    séries sont au dépôt, la comparaison est licite, elle n'a jamais été tentée.
 4. **Piste de fond, non prioritaire** : les 22 sentiers séphirothiques lus comme
    réseau de canaux (§3.3).
+5. **Trancher la bifurcation des centres surnuméraires** (§7.3) — trois options
+   posées, aucune implémentée.
+6. **Statuer sur les divergences table/planches** (§7.5) — deux cellules vides
+   d'*Ājñā*, à combler ou à laisser.
+
+## 7. Acquis des planches et des centres surnuméraires (2026-08-30, second relevé)
+
+Le relevé des huit planches d'Avalon et du chapitre V complet
+([[doctrinal/sources/avalon-serpent-power-nadis-reseau]] — lien `rd/` →
+`doctrinal/`, sens unique, signalé) apporte un fait qui touche non pas le
+contenu d'un registre, mais **le statut même de la notion de registre**.
+
+### 7.1 Le fait
+
+Avalon écrit que les six *cakra* du *Shatchakranirûpana* « sont **les
+principaux** » et qu'« il existe une **très longue liste** de Chakra ». Il en
+nomme cinq autres, et — c'est le point — **situés dans les intervalles de la
+série reçue**, non au-delà d'elle : un lotus à 8 pétales *au-dessous*
+d'*Anāhata* ; *Lalanā* (12) *au-dessus* de *Vishuddha* et légèrement
+*au-dessous* d'*Ājñā* ; *Manas* (6) et *Soma* (16) *au-dessus* d'*Ājñā* et
+*au-dessous* de *Sahasrāra* ; un lotus blanc à 12 pétales *dans le péricarpe*
+de *Sahasrāra*.
+
+### 7.2 Ce que cela confirme du modèle
+
+C'est une **confirmation indépendante** du choix d'architecture déjà fait au
+dépôt, et elle vient de l'intérieur d'une seule tradition, ce qui la rend plus
+forte qu'un argument comparatif :
+
+> Un registre n'est pas *l'axe* ; c'est **une partition de l'axe, faite par un
+> texte donné, pour un usage donné**.
+
+La preuve est ici administrée sans sortir de l'hindouisme : deux textes de la
+même tradition partitionnent le même axe en six et en onze, et le second ne
+contredit pas le premier — il le raffine. Si l'écart entre deux partitions
+**intra**-traditionnelles n'est pas une contradiction, alors l'écart entre deux
+partitions **inter**-traditionnelles ne l'est pas davantage. Le *décalage-donnée*
+est confirmé comme régime normal, et non comme anomalie à réduire.
+
+### 7.3 Ce que cela change pour l'Instrument — et ce que cela ne change pas
+
+**Cela ne change rien aux données actuelles.** Le registre `hindouisme` reste à
+sept niveaux : c'est la partition du *Shatchakranirûpana*, elle est sourcée,
+elle est celle que Guénon commente, et elle est celle qui porte les ancrages
+inter-registres validés. Rien n'est à corriger.
+
+**Cela ouvre en revanche une question de modèle, à soumettre à Sidy** : les
+centres surnuméraires sont-ils
+1. *hors périmètre* (le registre déclare une partition et une seule) —
+   position actuelle par défaut, tenable ;
+2. un **second registre `hindouisme/tantra-etendu`**, `axe: parallele`, à onze
+   niveaux, ancré au premier par des ancrages intra-traditionnels ; ou
+3. une **strate d'annotation** sur les niveaux existants (des *entre-deux*
+   affichés à la demande, sans rang propre) ?
+
+Mon relevé de forme, sans verdict (Cmd 12) : l'option 2 est celle que le
+générateur sait déjà faire — `axe: parallele` existe, la garde inter-registres
+existe — mais elle exigerait des ancrages entre deux registres d'une même
+tradition, cas que la garde traite aujourd'hui comme inter-registres et donc
+comme exigeant une fiche `discernement/`. Or il ne s'agirait pas ici d'un
+rapprochement entre traditions (Cmd 3), mais d'un rapport interne à une
+tradition. **La garde serait donc à raffiner avant, pas après.** L'option 3 est
+la moins coûteuse et ne force aucune décision. L'option 1 est le statu quo et
+n'est pas fausse — elle est seulement muette.
+
+Aucune de ces trois options n'est implémentée. Aucun champ n'est ajouté au
+YAML. Ce paragraphe est un relevé de bifurcation, à trancher par Sidy.
+
+### 7.4 Acquis annexe : la nomenclature fonctionnelle des canaux
+
+Avalon nomme des nâdîs **par fonction** (*Manovahā*, véhicule de la conscience ;
+*Ajñāvahā*, descendante et motrice ; les cinq sensorielles *Gandhavahā*,
+*Rūpavahā*, *Shabdavahā*, *Rasavahā*, *Sparshavahā*). Cela donne au réseau, pour
+la première fois au dépôt, des **arêtes qualifiées et orientées** — montantes
+(sensorielles) et descendantes (motrices) — là où l'Instrument ne connaît
+aujourd'hui que trois canaux et des ancrages non orientés.
+
+C'est une piste de rendu réelle et non spéculative, mais **elle est adossée chez
+Avalon à une réduction anatomique que Guénon écarte formellement**. Elle n'est
+donc pas retenue en l'état : la retenir supposerait de séparer la nomenclature
+(recevable) de son commentaire physiologique (non recevable), ce qui est un
+travail de discernement, pas de rendu. **Non implémenté, consigné.**
+
+### 7.5 Divergences table/planches
+
+Deux écarts entre la table synoptique et les planches sont relevés dans la fiche
+source (*Vishuddha* : triangle inscrit dans le cercle ; *Ājñā* : triangle
+inversé là où la table ne donne rien). **Les données de l'Instrument ne sont pas
+modifiées** : les champs `mandala` et `couleur_tattva` d'*Ājñā* restent vides.
+Les combler d'après la planche serait juger que la planche prime la table —
+un verdict, non un relevé. En attente de la parole de Sidy.
 
 ---
 

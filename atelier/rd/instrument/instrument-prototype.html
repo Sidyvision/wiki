@@ -999,20 +999,34 @@ var posNotionnels = {};
       var p = new THREE.Vector3(xDeCol(col), yDuNiveau(d._niv), zL);
       var teinteC = TEINTE_TATTVA[d.couleur_tattva] !== undefined
                   ? TEINTE_TATTVA[d.couleur_tattva] : 0xcfe4d8;
-      // Couronne de pétales : autant que la table en déclare. Sahasrāra (1000)
-      // n'est pas dessiné pétale à pétale — on le marque par une couronne dense
-      // conventionnelle, et l'info-bulle dit le nombre réel.
+      // Couronne de pétales : autant que la table en déclare — le compte dessiné
+      // EST le compte déclaré, tant qu'il est dessinable.
+      //
+      // Sahasrāra (1000) ne l'est pas. Le plafonner à 24 en silence produirait
+      // un DÉCALAGE-ARTEFACT invisible : la couronne se lirait comme un compte
+      // exact alors qu'elle est conventionnelle — et 24 n'est le compte
+      // d'aucun centre. Le plafond est donc rendu VISIBLE : couronne double,
+      // en deux anneaux décalés, forme qu'aucun compte exact ne produit. Le
+      // lecteur voit qu'il regarde une convention ; l'info-bulle donne le
+      // nombre réel. Le décalage-artefact reste ainsi résorbable.
       if (d.petales){
-        var nP = (d.petales > 24) ? 24 : d.petales;
+        var CONV = 24;                       // seuil au-delà duquel on convient
+        var plafonne = (d.petales > CONV);
+        var nP = plafonne ? CONV : d.petales;
         var rP = .42, ptsP = [];
-        for (var k = 0; k < nP; k++){
-          var a = k * 2 * Math.PI / nP;
-          ptsP.push(new THREE.Vector3(p.x + Math.cos(a)*rP, p.y + Math.sin(a)*rP*.6, zL));
-          ptsP.push(new THREE.Vector3(p.x, p.y, zL));
-        }
+        var anneaux = plafonne ? [[1, 0], [.68, Math.PI / nP]] : [[1, 0]];
+        anneaux.forEach(function(an){
+          for (var k = 0; k < nP; k++){
+            var a = k * 2 * Math.PI / nP + an[1];
+            ptsP.push(new THREE.Vector3(p.x + Math.cos(a)*rP*an[0], p.y + Math.sin(a)*rP*an[0]*.6, zL));
+            ptsP.push(new THREE.Vector3(p.x, p.y, zL));
+          }
+        });
         var petales = new THREE.LineSegments(
           new THREE.BufferGeometry().setFromPoints(ptsP),
           new THREE.LineBasicMaterial({color: teinteC, transparent: true, opacity: .55}));
+        petales.userData.__petalesDessines = nP * anneaux.length;
+        petales.userData.__petalesDeclares = d.petales;
         gReg.add(petales);
       }
       if (d.mandala){
@@ -1029,7 +1043,8 @@ var posNotionnels = {};
         deg: reg.label + " — rang " + (d.rang || "?") + ", " + col
            + " (niveau " + d._niv + "/" + nbNiveaux + ")"
            + (d.nom_divin ? " · Nom divin : " + d.nom_divin : "")
-           + (d.petales ? " · " + d.petales + " pétales" : "")
+           + (d.petales ? " · " + d.petales + " pétales"
+              + (d.petales > 24 ? " (couronne conventionnelle : le compte réel n'est pas dessinable)" : "") : "")
            + (d.lettres ? " (" + d.lettres + ")" : "")
            + (d.tattva ? " · Tattva : " + d.tattva : "")
            + (d.couleur_tattva ? " · couleur : " + d.couleur_tattva : "")

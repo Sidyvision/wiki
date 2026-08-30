@@ -180,10 +180,21 @@ de tattva ni forme de mandala. Rien n'est comblé par conjecture.
 
 ## Les planches
 
-Huit planches en couleur reproduites de l'édition Ganesh & Cie (Madras).
-Consultées le 2026-08-30 : **Planche I** (« Les Chakras ou Lotus », le corps
-entier avec les canaux tissant autour de l'axe), **Planche II** (*Mūlādhāra*),
-**Planche III** (*Svādhishthāna*), **Planche IV** (*Maṇipūra*).
+Huit planches en couleur reproduites de l'édition Ganesh & Cie (Madras),
+avec la mention « Printed in India ». **Les huit ont été consultées le
+2026-08-30.** La copie de travail conserve les légendes originales, ce qui fixe
+la numérotation sans conjecture :
+
+| Planche | Légende de l'édition | Sujet |
+|---|---|---|
+| **I** | *The Centres or Lotuses* | le corps entier, les canaux tissant autour de l'axe |
+| **II** | *Mūlādhāra Chakra* | premier centre |
+| **III** | *Svādhishthāna* | deuxième centre |
+| **IV** | *Manipūraka* | troisième centre |
+| **V** | (légende perdue à la reconnaissance) | *Anāhata* — attesté par le texte : « le Lotus du cœur à huit pétales, qui est représenté au-dessous de lui […] (Voir planche V) » |
+| **VI** | (légende perdue à la reconnaissance) | *Vishuddha* |
+| **VII** | *Ajna* | sixième centre |
+| **VIII** | *Sahasrara* | « comme l'indiquera au lecteur un examen de la planche VIII qui figure ce centre » |
 
 > **Ce que la Planche I règle** : les deux canaux latéraux y sont figurés en
 > tissage sinusoïdal autour de l'axe, **se croisant à chaque lotus** — ce qui
@@ -191,14 +202,102 @@ entier avec les canaux tissant autour de l'axe), **Planche II** (*Mūlādhāra*)
 > et de gauche à droite, entourant ainsi les lotus ») et détermine le nombre
 > d'enroulements, qui n'a donc pas à être posé arbitrairement.
 
+### Divergences entre la table synoptique et les planches (relevées, non fondues)
+
+Deux écarts sont constatés entre la table synoptique du chapitre V et les
+planches. Ils sont consignés **tels quels** : la table et les planches sont deux
+états du même enseignement, et rien n'autorise ici la machine à préférer l'un à
+l'autre (Cmd 5, Cmd 12 — le verdict appartient à Sidy).
+
+| Centre | Ce que dit la **table** | Ce que montre la **planche** |
+|---|---|---|
+| *Vishuddha* | *mandala* : **cercle** ; couleur de tattva : **blanc** | un **triangle pâle inscrit dans un cercle** bleu-gris — le cercle de la table est bien là, mais il contient une figure que la table ne mentionne pas |
+| *Ājñā* | *mandala* : **rien** ; couleur de tattva : **rien** — les deux cellules sont vides | un **triangle inversé**, portant *Oṃ*, surmonté du croissant et du *bindu* |
+
+> ⚠️ **Ces divergences ne sont pas reportées dans les données de l'Instrument.**
+> Les champs `mandala` et `couleur_tattva` d'*Ājñā* y demeurent **vides**,
+> conformément à la note de versement (« champs laissés VIDES là où la table ne
+> donne rien — jamais comblés par conjecture »). Les combler d'après la planche
+> reviendrait à trancher que la planche prime la table : c'est un verdict, non
+> un relevé. **En attente de la parole de Sidy.**
+>
+> On notera toutefois que la planche VII n'est pas en contradiction avec la
+> **note de tracé** du chapitre V (« le triangle […] est toujours tracé avec la
+> base en haut et le sommet en bas ») : le triangle d'*Ājñā* y est bien inversé.
+> Et que le texte, ailleurs qu'en table, place effectivement un triangle en ce
+> lieu — « Itara et Trikona » figure d'ailleurs dans la colonne *Liṅga / Yoni*
+> de la table pour *Ājñā*, laquelle **atteste donc un triangle (*trikona*) en ce
+> centre par une autre colonne que celle du *mandala***. La divergence est ainsi
+> moins une contradiction qu'une lacune de la colonne *mandala*. Ce constat est
+> versé au dossier ; il ne lève pas la réserve ci-dessus.
+
+## Les centres surnuméraires : la série de six n'est pas exhaustive
+
+C'est le second acquis majeur de ce relevé, et il touche directement la manière
+de partitionner l'axe. Avalon est explicite :
+
+> « Bien que le *Shatchakranirûpana* parle de six, il en existe d'autres selon
+> certains auteurs. […] Les six donnés par le *Shatchakranirûpana* sont **les
+> principaux**. En vérité, il existe une **très longue liste** de Chakra ou
+> d'*Adhâra*, comme les appellent certains. »
+
+La série canonique de six (+ *Sahasrāra*) est donc une **sélection**, non un
+inventaire. Le texte en nomme au moins cinq autres, situés dans les intervalles
+mêmes de la série reçue :
+
+| Centre | Position | Pétales | Ce qui s'y trouve |
+|---|---|---|---|
+| **Lotus du cœur à huit pétales** | **au-dessous d'*Anāhata*** | 8 | siège du *Hamsa* (*Jīvātmā*) ; lieu de l'adoration mentale de l'*Ishtadevatā*, avec l'autel orné de joyaux (*Manipîtha*), l'Île des Gemmes (*Manidvîpa*) dans l'Océan de Nectar. Huit *Vritti* réparties selon les huit directions de l'espace. |
+| **Lalanā** (ou *Kalā Chakra*) | **au-dessus de *Vishuddha***, à la racine du palais (*Tâlumûla*) ; « légèrement au-dessous » d'*Ājñā* | 12 | lotus rouge ; *Vritti* morales en majorité bonnes (foi, contentement, maîtrise de soi, pureté, détachement…). Appelé **« Chakra caché »** : *Kuṇḍalī* le perce avant de gagner *Ājñā*. |
+| **Manas Chakra** | **au-dessus d'*Ājñā*** | 6 | les cinq sensations d'origine périphérique + la sensation d'origine centrale (rêve, hallucination). Non mentionné dans le *Shatchakranirûpana*. |
+| **Soma Chakra** | au-dessus du *Manas* | 16 | *Vritti* **toutes bonnes** ; la « maison sans support » (*Nirâlambapurî*) « où les Yogî voient le radieux Ishvara » ; les **sept corps causals**, aspects intermédiaires d'*Ādyā Shakti*. Non mentionné dans le *Shatchakranirûpana*. |
+| **Lotus blanc à douze pétales** | **dans le péricarpe du *Sahasrāra*** | 12 | le triangle *A-ka-tha* ; demeure de la *Shakti* appelée *Kāmakalā* ; *Bindu* au-dessus, *Nāda* au-dessous ; le *Guru* universel, *Paramashiva*. Au-dessus encore : les *Sūrya* et *Chandra Maṇḍala*, le *Parabindu*, puis *Mahāvāyu* et le *Brahmarandhra*. |
+
+> **Ce que cela établit, et ce que cela n'établit pas.** Cela établit que l'axe
+> porte, entre les stations retenues, des **stations intermédiaires réelles**,
+> nommées, chiffrées et hiérarchisées — et qu'une partition en sept n'épuise
+> donc pas l'axe qu'elle partitionne. Cela **n'établit pas** que ces centres
+> surnuméraires aient un correspondant dans une autre tradition : aucun
+> rapprochement n'est ici tenté (Cmd 3).
+
+> **Progression morale relevée par Avalon**, et qui vaut d'être notée parce
+> qu'elle traverse les centres surnuméraires autant que les principaux : les
+> *Vritti* des deux centres inférieurs (*Svādhishthāna*, *Manipūra*) sont
+> **toutes mauvaises** ; celles d'*Anāhata* sont **mélangées** ; celles du
+> *Lalanā* **bonnes en majorité** ; celles du *Soma* **bonnes en totalité**.
+> « Ce qui indique un progrès à mesure que nous avançons des centres inférieurs
+> aux centres supérieurs, et il en doit être ainsi, le *Jîva* s'approchant de
+> ses principes supérieurs, ou vivant en eux. »
+>
+> Avalon précise que ces *Vritti* ne figurent pas dans le *Shatchakranirûpana*
+> lui-même, mais dans d'autres ouvrages tels que l'*Adhyātmaviveka*. Source
+> secondaire dans la source secondaire : à traiter comme telle.
+
+### Le réseau nommé : des nâdîs de fonction
+
+Le chapitre nomme enfin des canaux **par leur fonction**, ce qui achève de
+montrer que le réseau est structuré et non indistinct : *Manovahā Nāḍī*
+(véhicule de la conscience, communication du *Jīva* avec le *Manas Chakra*),
+*Ajñāvahā Nāḍī* (canaux descendants, du commandement moteur), et les canaux
+sensoriels par paires — *Gandhavahā* (odorat), *Rūpavahā* (vue), *Shabdavahā*
+(ouïe), *Rasavahā* (goût), *Sparshavahā* (toucher).
+
+> ⚠️ **Déviation de lecture, signalée.** Avalon adosse tout ce vocabulaire à
+> l'anatomie (cervelet, sensorium, ganglions, circonvolutions corticales,
+> « nerfs efférents ») et va jusqu'à comparer la figure d'ensemble à « une
+> courge renversée avec une tige pendante à mille rameaux ». C'est exactement
+> la lecture que Guénon écarte : les centres « ne sont point des centres
+> nerveux, au sens physiologique ». **La nomenclature fonctionnelle des canaux
+> est retenue ; la réduction anatomique ne l'est pas.**
+
 ## Extension du texte au-delà de ce relevé
 
-Cette fiche couvre le **réseau des nâdîs**, les **trois canaux** et la **table
-synoptique des Chakra** (chap. I et V), plus quatre des huit planches. Restent
-non relevés, et disponibles dans la copie de travail du dépôt : la conscience
-non incarnée (chap. II), le *jīvātman* (chap. III), le *mantra* (chap. IV), la
-pratique du *layakrama* (chap. VI), les bases théoriques du yoga tantrique
-(chap. VII) et les quatre autres planches.
+Cette fiche couvre le **réseau des nâdîs**, les **trois canaux**, la **table
+synoptique des Chakra**, les **centres surnuméraires** et les **huit planches**
+(chap. I, V et VIII). Restent non relevés, et disponibles dans la copie de
+travail du dépôt : la conscience non incarnée (chap. II), le *jīvātman*
+(chap. III), le *mantra* (chap. IV), la pratique du *layakrama* (chap. VI) et
+les bases théoriques du yoga tantrique (chap. VII).
 
 ## Sources
 

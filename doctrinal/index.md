@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-08-13
+updated: 2026-08-30
 ---
 
 # Le Catalogue Universel
@@ -139,6 +139,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/lignees-celestes-taoisme|Lignées célestes dans le taoïsme]]
 
 ### Symbolisme comparé des formes, du seuil et des figures
+- [[doctrinal/symboles/polarite-laterale-de-l-axe|La polarité latérale de l'axe — Soleil et Lune de part et d'autre du canal médian]] — `traditionnel` ; vigilance 🔍 sur la non-confusion avec le Soleil/Lune **axiaux** (degrés 24 et 27)
 - [[doctrinal/symboles/mihrab-torii|Le Miḥrāb et le Torii — comparatisme guénonien du Seuil sacré]]
 - [[doctrinal/symboles/outil-faculte-objectivee|L'outil comme faculté objectivée (islamo-platonico-védantin)]]
 - [[doctrinal/symboles/noblesse-spirituelle|La noblesse spirituelle et sociale (comparatisme)]]
@@ -254,6 +255,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi|Ibn ʿArabī — Tartîbut-Taçawwuf (trad. Abdul-Hâdî, *La Gnose* 1911)]] (incomplet)
 - [[doctrinal/sources/guenon-mysteres-lettre-nun|Les mystères de la lettre Nûn (Guénon)]]
 - [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme|Kundalinî-Yoga (Guénon)]]
+- [[doctrinal/sources/avalon-serpent-power-nadis-reseau|La Puissance du Serpent, ch. I, V et VIII : le réseau des nâdîs, la table synoptique des Chakra et les huit planches (Avalon)]] — `academique`, amont direct du Kundalinî-Yoga de Guénon ; réseau chiffré 72 000/700/14/3/1, centres surnuméraires, réduction anatomique écartée
+- [[doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes|Majmaʿ al-Baḥrayn, ch. VII : les quatre mondes (Dârâ Shukûh)]] — `traditionnel` ; appariement quaternaire de Dârâ lui-même, dissentiment de Shayegan consigné en 🌐
 - [[doctrinal/sources/guenon-zodiaque-pythagoriciens|Le symbolisme du Zodiaque chez les pythagoriciens (Guénon)]]
 - [[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques|Quelques remarques sur la doctrine des cycles cosmiques (Guénon)]]
 - [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel|Le Symbolisme de la Croix, ch. II-III : L'Homme universel (Guénon)]]
@@ -330,6 +333,13 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ### L'Homme Universel à travers les traditions
 - [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara|Adam Qadmôn, al-Insān al-Kāmil, Wang, Vaishwânara — l'Homme Universel à travers quatre voiles traditionnels]] — close (traditionnel) : identité verdictée par Sidy (2026-07-26), extension du hozo Adam Qadmôn=al-Insān al-Kāmil=Wang à Vaishwânara/Virâj ; vigilance signalée sur la non-conflation avec le septénaire des sept Aqtâb/Malakūt planétaire
+
+### L'axe vertical et sa partition par les traditions
+- [[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale|L'Axe du Monde comme doctrine transversale]]
+- [[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions|Unification des axes verticaux : Axe du Monde, filament de l'Insān al-Kāmil, Pôle et colonne du milieu comme un seul axe]] — close (traditionnel), verdict Sidy 2026-08-30 : les registres sont des **partitions** d'un axe unique, non des axes concurrents ; résolution de la contradiction apparente résidence prophétique aux cieux planétaires / attribution aux laṭāʾif par la distinction des **deux échelles** (macrocosme/microcosme)
+- [[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma|Les quatre Ḥaḍarāt et les quatre états d'Ātmā]] — close (traditionnel), *fruit-mûr*
+- [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux|Sephiroth et chakras : deux partitions à sept niveaux]] — close (traditionnel), *fruit-vert* ; colonnes séphirothiques ↔ nâdîs établi d'après Guénon, interversion comprise
+- [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif|Les sept Pôles et les sept laṭāʾif]] — validée par Sidy (2026-08-29), appuyée par la correspondance des Noms avec les prophètes qui en sont les régents ; obstacle de forme levé par la distinction des deux échelles (bloc ⚠️)
 
 ### Archétypes et organisation d'entreprise
 - [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise|Correspondances fonctions initiatiques/entreprise]] — mixte : volet 12/zodiaque CLOS (portes solsticiales confirmées, échec position 5 documenté) ; volet 5/Cinq-Présences EN COURS
