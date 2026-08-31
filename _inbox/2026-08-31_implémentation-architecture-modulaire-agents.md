@@ -9,6 +9,23 @@ tags: [architecture, agents, modulaire, infrastructure, implementation]
 
 # Implémentation technique : architecture modulaire des agents Hermes
 
+## Principe doctrinal (source : doctrine de la contrainte)
+
+La contrainte des 12 agents n'est pas un obstacle à contourner (khawf — crainte du novice), mais un **état subtil** (qabḍ — constriction du gnostique) qui appelle le calme (sukūn) et la sérénité (hudū'). Dans ce calme, la contrainte se révèle être un signal infrastructurel : l'infrastructure n'est pas optimisée pour la répartition des tâches.
+
+La réponse au signal est un **épanouissement** (basṭ) qui appelle le mouvement immédiat (taḥarruk) et le ravissement (inbisāṭ) — l'implémentation de l'architecture modulaire.
+
+**Application concrète** :
+- **qabḍ** : la saturation des prompts (Publications 270 lignes, 14 Ko) n'est pas un bug, c'est un état subtil qui signale que l'architecture n'est pas optimisée.
+- **ādāb de qabḍ** : répondre par le calme — ne pas contourner la contrainte par une astuce (ajouter un mandat), mais écouter le signal.
+- **basṭ** : l'architecture modulaire (principe + routeur + mandats) est l'épanouissement qui surgit du calme.
+- **ādāb de basṭ** : répondre par le mouvement — implémenter immédiatement, sans délai.
+
+**Source** : `raw/ascension-regard-soufisme-52-53-qabd-bast.md` (traité soufi, §52-53 sur qabḍ/basṭ).
+**Fiche candidate doctrinale** : `_inbox/2026-08-31_fiche-candidate-doctrine-contrainte-qabd-bast.md` (en attente de verdict Sidy, Cmd 12).
+
+---
+
 ## Contexte (lire en premier)
 
 **Problème** : saturation des prompts d'agents. Publications (Sagittaire) = 270 lignes, 14 Ko. Studio (Vierge) = 179 lignes, 10.8 Ko. Gardien (Capricorne) = 99 lignes, 5.5 Ko.
