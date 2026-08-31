@@ -42,7 +42,7 @@ tournaient sur un prompt antérieur aux calibrations zodicales et aux mandats vo
 - **Observation non traitée** : `visual-da` tournait à 14:26 alors que son tour est à
   16:00 et que l'orchestrateur ouvre la fenêtre à 15:00. Écart constaté, non
   diagnostiqué — à instruire.
-- **Commit** : {SHA}
+- **Commit** : 5039b1e
 
 
 ## [2026-08-31] protocole | Approbation requise ramenée à 0 sur `main`
