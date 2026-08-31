@@ -10,6 +10,25 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] outillage | Essai Graphify (knowledge graph de code, local/déterministe)
+
+Demande de Sidy, à la suite d'une comparaison avec notre `generer-cartographie.py`.
+Fiche complète : [[atelier/rd/outillage/spec-essai-graphify]].
+
+- **Installé** en venv isolé (`atelier/rd/outillage/.graphify-venv/`, jamais
+  versionné) — `externally-managed-environment` sur le Python système, venv
+  requis.
+- **Périmètre respecté** : extraction limitée à `atelier/rd/outillage/`
+  (`--code-only`, aucun appel réseau constaté). `graphify install` (écriture
+  dans un `CLAUDE.md`/hook `PreToolUse`) **non exécuté** — hors demande,
+  décision distincte à instruire si l'essai est concluant.
+- **Résultat** : 163 nœuds, 230 arêtes, 21 communautés sur les 22 fichiers
+  Python du dossier. Rapport (`graphify-out/GRAPH_REPORT.md`, non versionné)
+  jugé lisible et pertinent (hubs, nœuds les plus connectés, nœuds isolés,
+  aucun cycle d'import).
+- `statut_experience: exploratoire` — verdict d'adoption réservé à Sidy.
+- **Commit** : à consigner.
+
 ## [2026-08-31] outillage | `Graphe/` racine déplacé en `atelier/rd/outillage/graphe/` + usage explicite dans la vérification générale
 
 Demande explicite de Sidy, en suite de l'ingest Shaar Hagilgulim

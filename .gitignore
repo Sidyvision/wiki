@@ -12,3 +12,8 @@
 /atelier/rd/outillage/.snapshots-rd/
 # Corpus citations-ghazali/ (données brutes volumineuses, jamais versionnées)
 citations-ghazali/
+# Essai Graphify (atelier/rd/outillage/, 2026-08-31) — venv isolé (196M) et
+# sorties régénérables, jamais versionnées tant que l'essai n'est pas statué
+# (voir atelier/rd/outillage/spec-essai-graphify.md)
+/atelier/rd/outillage/.graphify-venv/
+/atelier/rd/outillage/graphify-out/
