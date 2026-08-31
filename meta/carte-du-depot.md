@@ -12,7 +12,7 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-31 14:09 UTC, sur `/root/wiki`.
+> aucun réseau) le 2026-08-31 14:10 UTC, sur `/root/wiki`.
 > Portée : dépôt complet. 683 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
@@ -1825,7 +1825,7 @@ links: []
 *Reproduits littéralement. Donne le contenu réel de chaque fiche sans passer par un résumé.*
 
 - `atelier/CLAUDE` — Structure du circuit · Nomenclature · Le Sceau atelier · Journalisation
-- `atelier/annales` — [2026-08-31] rapport | Migration des 11 agents + contribution de Sidy… · [2026-08-31] outillage | Essai Graphify (knowledge graph de code, loc… · [2026-08-31] outillage | `Graphe/` racine déplacé en `atelier/rd/outi… · [2026-08-31] outillage | Juge de paix des prompts Hermes, résidu ZWJ,… · [2026-08-31] rd/veille | Investigation Tencent/AngelSpec (speculative… · [2026-08-30] rd/outillage | Première application de la procédure d'ex… · [2026-08-30] rd/cahiers | Ouverture du journal des optimisations · [2026-08-30] doctrinal | Procédure d'exploitation du graphe lors de l… · [2026-08-30] rd/cahiers | Item 3 clos par reconnaissance — validation… · [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photogra… · [2026-08-30] rd/instrument | Report des six trouvailles au prototype … · [2026-08-30] rd/instrument | Chantier « Figurer l'incommensurable » —… · [2026-08-30] rd/instrument | Collation Gloton — chantier « Figurer l'… · [2026-08-30] rd/instrument | données | Cellule `mandala` d'Ājñā combl… · [2026-08-30] rd/outillage | correction | [A6] raffiné plutôt que supp… … (+135)
+- `atelier/annales` — [2026-08-31] rectificatif | qabḍ/basṭ — l'erreur conservée, la correc… · [2026-08-31] rapport | Migration des 11 agents + contribution de Sidy… · [2026-08-31] outillage | Essai Graphify (knowledge graph de code, loc… · [2026-08-31] outillage | `Graphe/` racine déplacé en `atelier/rd/outi… · [2026-08-31] outillage | Juge de paix des prompts Hermes, résidu ZWJ,… · [2026-08-31] rd/veille | Investigation Tencent/AngelSpec (speculative… · [2026-08-30] rd/outillage | Première application de la procédure d'ex… · [2026-08-30] rd/cahiers | Ouverture du journal des optimisations · [2026-08-30] doctrinal | Procédure d'exploitation du graphe lors de l… · [2026-08-30] rd/cahiers | Item 3 clos par reconnaissance — validation… · [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photogra… · [2026-08-30] rd/instrument | Report des six trouvailles au prototype … · [2026-08-30] rd/instrument | Chantier « Figurer l'incommensurable » —… · [2026-08-30] rd/instrument | Collation Gloton — chantier « Figurer l'… · [2026-08-30] rd/instrument | données | Cellule `mandala` d'Ājñā combl… … (+136)
 - `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity` — Step 1: Environment Setup · Step 2: Web Search Function · Step 3: AI Analysis Function · Step 4: Research Function · Step 5: Add Research Depth · Step 6: Anthropic Multi-Agent Research
 - `atelier/etudes-de-cas/dougong-consoles-bois` — Nature et limites de la source · Données extraites (transcription fidèle) · Stratification de crédibilité (par item) · Recherches complémentaires (propres, distinctes de la source) · Phase 2 — analyse (à venir, non ouverte)
 - `atelier/etudes-de-cas/forteresses-architecture-defensive` — Nature et limites de la source · Données extraites (transcription fidèle) · Stratification de crédibilité (par item) · Recherches complémentaires (propres, distinctes de la source) · Phase 2 — analyse (à venir, non ouverte)
@@ -1986,7 +1986,7 @@ links: []
 - `atelier/rd/veille/index` — Mission · Périmètre · Règles du lieu · Arborescence cible · Articulation avec le reste du dépôt · Liens
 - `atelier/rd/veille/registre` — [2026-08-31] Investigation GitHub — Tencent/AngelSpec (speculative de… · [2026-08-18] Scrutation GitHub — implémentations Cordis · [2026-08-18] Ouverture du lieu
 - `doctrinal/CLAUDE` — Nomenclature · Le Sceau Recteur (frontmatter doctrinal) · Règles de liens propres au circuit · Actions d'exécution propres au circuit · Exploitation du graphe lors de l'intégration (signal d'orphelins)
-- `doctrinal/annales` — [2026-08-31] archivage | Shaar Hagilgulim — première pièce lurianique… · [2026-08-30] enrichissement | Discernement matrices-artificielles — a… · [2026-08-30] enrichissement | Symbole Golem — ancrage Kabbalah Maasit · [2026-08-30] création | Symbole Golem (phase 1) · [2026-08-30] protocole | Procédure d'exploitation du graphe lors de l… · [2026-08-30] tracabilite | Clichés versés côté serveur — les collatio… · [2026-08-30] archivage | *Sept Étendards du Califat*, pp. 104-105 et … · [2026-08-30] discernement | Thèse d'unification de Sidy — la chute, l… · [2026-08-30] discernement | Les gens d'al-Aʿrāf sont-ils les initiés … · [2026-08-30] archivage | Apparat éditorial des deux ouvrages établi —… · [2026-08-30] archivage + discernement | Le couple *khafḍ* / *rafʿ* — … · [2026-08-30] archivage | Collation de la p. 35 de Gloton — les degrés… · [2026-08-30] usûl | Base terminologique du pôle Usûl — triade uṣūl / … · [2026-08-30] discernement + archivage | VERDICT Kursī↔Hokhmah/Binah (… · [2026-08-30] collation | Gloton et *L'Homme et son devenir* — la cont… … (+130)
+- `doctrinal/annales` — [2026-08-31] rectificatif | Âtmâ-Gîtâ — fiche sourcée, deux erreurs d… · [2026-08-31] archivage | Shaar Hagilgulim — première pièce lurianique… · [2026-08-30] enrichissement | Discernement matrices-artificielles — a… · [2026-08-30] enrichissement | Symbole Golem — ancrage Kabbalah Maasit · [2026-08-30] création | Symbole Golem (phase 1) · [2026-08-30] protocole | Procédure d'exploitation du graphe lors de l… · [2026-08-30] tracabilite | Clichés versés côté serveur — les collatio… · [2026-08-30] archivage | *Sept Étendards du Califat*, pp. 104-105 et … · [2026-08-30] discernement | Thèse d'unification de Sidy — la chute, l… · [2026-08-30] discernement | Les gens d'al-Aʿrāf sont-ils les initiés … · [2026-08-30] archivage | Apparat éditorial des deux ouvrages établi —… · [2026-08-30] archivage + discernement | Le couple *khafḍ* / *rafʿ* — … · [2026-08-30] archivage | Collation de la p. 35 de Gloton — les degrés… · [2026-08-30] usûl | Base terminologique du pôle Usûl — triade uṣūl / … · [2026-08-30] discernement + archivage | VERDICT Kursī↔Hokhmah/Binah (… … (+131)
 - `doctrinal/annales/2026-08-31` — Création de fiches · Journalisation
 - `doctrinal/autorites/abd-al-karim-al-jili` — Identité · Faits · Relations · Notes
 - `doctrinal/autorites/abd-al-qadir-al-jilani` — Identité · Faits · Relations · Notes
@@ -2550,12 +2550,12 @@ links: []
 **Total : 580 marqueurs sur 180 fiches.**
 
 - `atelier/annales` (21)
-  - L180 : - `doctrinal/symboles/golem.md` (symbole, phase 1, corpus brut, to-source)
-  - L181 : - `hermeneutique/frankenstein/frankenstein.md` (œuvre, phase 1, corpus brut, to-source)
-  - L241 : Burckhardt "Alchimie" signalée `to-source` pour approfondir le vocabulaire
-  - L257 : d'orientation** (§VII.1) — elle dit où chercher, elle ne lève aucun `to-source`.
-  - L1080 : fiche de bibliothèque (qui ne lève pourtant aucun `to-source`). Les trois
-  - L1449 : - **Action** : création d'une fiche de corpus de Phase 1 (méthode validée 2026-08-24) — zéro interprétation, zéro lien sortant, source catalo…
+  - L220 : - `doctrinal/symboles/golem.md` (symbole, phase 1, corpus brut, to-source)
+  - L221 : - `hermeneutique/frankenstein/frankenstein.md` (œuvre, phase 1, corpus brut, to-source)
+  - L281 : Burckhardt "Alchimie" signalée `to-source` pour approfondir le vocabulaire
+  - L297 : d'orientation** (§VII.1) — elle dit où chercher, elle ne lève aucun `to-source`.
+  - L1120 : fiche de bibliothèque (qui ne lève pourtant aucun `to-source`). Les trois
+  - L1489 : - **Action** : création d'une fiche de corpus de Phase 1 (méthode validée 2026-08-24) — zéro interprétation, zéro lien sortant, source catalo…
   - … (+15)
 - `atelier/etudes-de-cas/dougong-consoles-bois` (5)
   - L48 : mais la source ne nomme aucun édifice — `to-source`.
@@ -2723,12 +2723,12 @@ links: []
   - L134 : > **Position(s) sourcée(s)** : texte, auteur, référence — `to-source` si non vérifié.
   - L150 : 10 (harmonisation) reconduite pour les trois branches, discipline `to-source`
 - `doctrinal/annales` (72)
-  - L48 : - **Contenu** : le Golem est directement lié à la **Kabbalah Maasit** (Kabbale pratique/opérative) — la branche de la Kabbale qui concerne l'ac…
-  - L56 : - **État** : phase 1 (corpus brut, to-source)
-  - L100 : - **Contrôle fait, résultat négatif consigné** : le `to-source` sur le **numéro de
-  - L224 : cohérence interne ne la valide pas. Trois de ses jointures sont `to-source` (le
-  - L252 : ⚠️ Ce quatrième appui est **`to-source` intégral** : le dépôt ne possède aucune
-  - L282 : - **Cliché des couvertures fourni par Sidy** (nuit). Le `to-source` porté quelques
+  - L78 : - **Contenu** : le Golem est directement lié à la **Kabbalah Maasit** (Kabbale pratique/opérative) — la branche de la Kabbale qui concerne l'ac…
+  - L86 : - **État** : phase 1 (corpus brut, to-source)
+  - L130 : - **Contrôle fait, résultat négatif consigné** : le `to-source` sur le **numéro de
+  - L254 : cohérence interne ne la valide pas. Trois de ses jointures sont `to-source` (le
+  - L282 : ⚠️ Ce quatrième appui est **`to-source` intégral** : le dépôt ne possède aucune
+  - L312 : - **Cliché des couvertures fourni par Sidy** (nuit). Le `to-source` porté quelques
   - … (+66)
 - `doctrinal/autorites/abd-al-qadir-al-jilani` (1)
   - L17 : - Né à Jīlān (Gilan, actuel nord de l’Iran), mort à Bagdad — source : to-source

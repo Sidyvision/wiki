@@ -9,6 +9,36 @@ updated: 2026-08-31
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] rectificatif | Âtmâ-Gîtâ — fiche sourcée, deux erreurs de fait conservées et corrigées
+
+- **Opération** : SOURÇAGE & RECTIFICATIF (Cmd 5), sur autorisation de Sidy.
+- **Fiche** : `doctrinal/symboles/atma-gita-guenon.md`, rédigée le 2026-06-20 en
+  `status: traditionnel` avec `sources: []`, `sources_count: 0`, et portant sa
+  propre réserve « reste à vérifier directement ». Elle a tenu deux mois ainsi.
+- **Erreur (a)** : l'Âtmâ-Gîtâ y était décrite comme « un court texte védantique en
+  vers sanskrits traditionnellement rattaché à Śaṅkarācārya ». C'est **la
+  *Bhagavad-Gîtâ* elle-même, lue selon son sens intérieur**. Guénon, première
+  phrase de l'article « Âtmâ-Gîtâ » ; confirmé indépendamment par *Autorité
+  Spirituelle et Pouvoir Temporel*, ch. V, note 5 — renvoi que Guénon donne
+  lui-même en note 2 de l'article.
+- **Erreur (b)** : publication datée 1926. Note 1 de l'article : « Publié dans
+  *V.I.*, mars 1930 ». Repris dans *Études sur l'Hindouisme* (éd. Traditionnelles,
+  1968).
+- **Traitement** : sur consigne de Sidy — « il faut impérativement conserver
+  l'erreur et instruire la correction, sinon il n'y a pas d'apprentissage » — la
+  rédaction d'origine est **maintenue intacte et marquée**, la rectification
+  sourcée placée en regard. Rien n'est effacé.
+- **Frontmatter** : `sources_count` 0 → 2 ; `updated` relevé (Cmd 8).
+- **Portée** : factuelle et documentaire. Le développement comparatif de la fiche
+  (convergences Ātman / *Waḥdat al-Wujūd*, *neti neti* / *Tawḥīd*, *mokṣa* /
+  *fanāʾ*) **n'est pas tranché** — il reste au verdict de Sidy (Cmd 12).
+- **Étanchéité** : le renvoi vers le pôle R&D a d'abord été écrit dans cette fiche,
+  rompant §VI (`doctrinal` → `atelier`) ; détecté par `verifier-invariants.py`
+  (209 erreurs contre 207 de référence) et retiré. La traçabilité est portée du
+  côté R&D, qui a le droit de pointer vers `doctrinal/`.
+- **Commit** : 445c2ed
+
+
 ## [2026-08-31] archivage | Shaar Hagilgulim — première pièce lurianique du dépôt
 
 - **Opération** : ARCHIVAGE & MAILLAGE

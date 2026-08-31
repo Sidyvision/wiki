@@ -10,6 +10,46 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] rectificatif | qabḍ/basṭ — l'erreur conservée, la correction instruite
+
+Consigne de Sidy : « il faut impérativement conserver l'erreur et instruire la
+correction sinon il n'y a pas d'apprentissage. » Rien n'est effacé.
+
+- **Ce qui était faux** : `2026-08-31_doctrine-contrainte-qabd-bast.md` §5.2
+  qualifiait le rapport infrastructure ↔ doctrine du qabḍ/basṭ par
+  *zōsaku × kari-kumi / homologie*, en écrivant que l'infrastructure est « un fait
+  technique daté, remplaçable, **sans dignité comparable** » et que « le joint est
+  réel mais **ne porte rien** ».
+- **Verdict de Sidy (Cmd 12)** : l'infrastructure n'est pas un second terme — c'est
+  la projection extérieure de ses propres états intérieurs, offrant une occasion de
+  contemplation ; l'exercice est de l'ordre de la **régence**, gouvernance
+  intérieure ordonnant le monde par la maîtrise de ses instruments.
+- **Sources localisées et citées** : *Études sur l'Hindouisme*, art. « Âtmâ-Gîtâ »
+  (« *jîvâtmâ* ne se distingue d'*Âtmâ* qu'en mode illusoire ») ; *Initiation et
+  Réalisation spirituelle*, ch. XX, « Guru et upaguru » (une **chose**, une
+  **circonstance** peut tenir ce rôle ; « la cause véritable se trouve dans la
+  nature même de celui sur qui s'exerce cette action » ; les instruments sont des
+  « prolongements » du Guru intérieur, dont le Guru extérieur est la
+  « représentation extériorisée ») ; *Autorité Spirituelle et Pouvoir Temporel*,
+  ch. V, note 5, où Guénon joint lui-même la régence et l'Âtmâ-Gîtâ.
+- **Où était l'erreur** : j'avais lu la contingence de l'*upaguru* comme un
+  déclassement, alors qu'elle en est la **définition** — Guénon dit, sur cette même
+  contingence, que le rôle « n'est nullement diminué par là ». Et j'ai cherché la
+  cause **dans l'objet** (RAM, jetons, protection de branche) là où elle est dans
+  celui qui reçoit. Statuer sur la forme est ma place ; statuer sur la **relation**
+  ne l'était pas.
+- **Traitement** : §5.2 conservée intacte et marquée fausse ; §5.2-bis porte la
+  rectification et un tableau de ce qui l'infirme ligne à ligne. **Aucune
+  qualification de remplacement n'est proposée** — ce serait refaire la faute.
+- **Conséquence formelle** : le renvoi Cmd 3 de §5.3 devient sans objet, il
+  supposait deux formes traditionnelles distinctes à joindre. §5.3 reste maintenue :
+  le rapprochement guénonien n'est toujours pas versé au doctrinal.
+- **Registre des problèmes** : entrée complète, avec la leçon générale — une fiche à
+  `sources_count: 0` qui porte sa propre réserve est une dette, pas une fiche ; et
+  avant de qualifier un rapport entre deux choses, vérifier qu'il y a bien deux
+  choses.
+- **Commit** : 445c2ed
+
 ## [2026-08-31] rapport | Migration des 11 agents + contribution de Sidy au Choura
 
 Demande de Sidy : « occupe-toi des points 1. et 2. et consigne ton rapport au R&D ».
