@@ -123,11 +123,14 @@ def conservation(racine, agent, source_git):
     controler_invisibles(f"{agent}.md (source)", source, rapport)
     avant = lignes_utiles(source)
 
-    # Le README documente le contrat de chargement, il ne porte pas de prompt :
-    # il est hors du périmètre de conservation.
+    # Périmètre défini POSITIVEMENT : seules les pièces qui portent du prompt.
+    # Le README, la procédure de déploiement et toute autre documentation du
+    # répertoire décrivent l'assemblage sans en faire partie — les inclure
+    # ferait passer leurs exemples de code pour des fuites de périmètre.
     morceaux = sorted(
-        p for p in dossier.rglob("*.md") if p.name.lower() != "readme.md"
+        [dossier / f"{agent[:2]}-principe.md"] + list((dossier / "mandats").glob("*.md"))
     )
+    morceaux = [m for m in morceaux if m.exists()]
     if not morceaux:
         print(f"ERREUR : aucun morceau .md sous {dossier}", file=sys.stderr)
         sys.exit(2)
