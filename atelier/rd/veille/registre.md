@@ -22,6 +22,27 @@ j'ai retenu, pourquoi).
 
 ---
 
+## [2026-08-31] Investigation GitHub — Tencent/AngelSpec (speculative decoding)
+
+**Quoi** : investigation approfondie du repo `Tencent/AngelSpec` (framework de training pour speculative decoding) à partir d'une vidéo YouTube partagée par Sidy. Audit complet : API GitHub (stats, commits, issues, PRs), extraction du paper arXiv (2607.25852), lecture de la LICENSE, analyse de la PR #2 non mergée, consultation des modèles HuggingFace AngelSlim, couverture médiatique.
+
+**Pourquoi** : évaluer la pertinence pour la stack d'inférence (inférence actuelle via providers cloud, pas de GPU local — voir incident 2026-08-28) et pour la souveraineté d'infrastructure (accélération inference LLM sans dépendance tierce).
+
+**Verdict** : AngelSpec est une référence scientifique sérieuse (paper solide, benchmarks systématiques sur Hy3-A21B : 1.98–2.40× speedup, +30% accepted length vs baseline) mais un projet de code fragile (maintenance faible, 32 jours sans réponse à la PR #2 qui corrige 12 bugs de correctness dont un critique RoPE). Les drafter models pré-entraînés AngelSlim (Qwen3-8B_eagle3, 7 470 downloads) sont consommables directement sans le framework. Licence Apache-2.0, production-safe. **Fiche constituée comme référence technique à instruire pour un développement futur** — non exploitable immédiatement (infrastructure actuelle sans GPU), mais matériau de qualité si un chantier d'inférence locale GPU est ouvert.
+
+**Pertinence pour le développement futur** :
+- ✅ 6 architectures unifiées, benchmarks de référence (1.98–2.40× speedup), MTP+TTT (+13.6 pp acceptance)
+- ✅ Modèle `AngelSlim/Qwen3-8B_eagle3` (7 470 downloads) directement utilisable si vLLM+Qwen3-8B sur GPU
+- ⚠️ Maintenance faible — re-vérifier l'état du repo avant engagement futur
+- ⏳ À re-consulter si un chantier d'inférence locale GPU est ouvert (containers, serveur dédié, etc.)
+
+**Liens** :
+- Fiche de veille : [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]]
+- Repo : <https://github.com/Tencent/AngelSpec>
+- Paper : <https://arxiv.org/abs/2607.25852>
+
+---
+
 ## [2026-08-18] Scrutation GitHub — implémentations Cordis
 
 **Quoi** : recherche GitHub sur "spatiotemporal composability", "revertible effects", "reactive coeffects".

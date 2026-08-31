@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] rd/veille | Investigation Tencent/AngelSpec (speculative decoding)
+
+- **Source** : vidéo YouTube « China Just Open-Sourced 6 Ways to Speed Up AI Inference (Tencent AngelSpec) » ([youtu.be/68kXJQCMBEg](https://youtu.be/68kXJQCMBEg)), investigation GitHub approfondie à la demande de Sidy
+- **Méthode** : audit complet via API GitHub (stats, commits, issues, PRs), extraction du paper arXiv (2607.25852), lecture de la LICENSE, analyse de la PR #2 non mergée (12 bugs de correctness identifiés), consultation des modèles HuggingFace AngelSlim, couverture médiatique (MarkTechPost, HappyRock Cloud, annonce officielle TencentHunyuan sur X)
+- **Fiche créée** : [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] (type: experience, statut: exploratoire, 8.7 KB)
+- **Registre de veille** : entrée ajoutée dans `atelier/rd/veille/registre.md` (scrutation 2026-08-31)
+- **Résultats clés** :
+  - 6 architectures de drafter unifiées (DFly, DFlash, DFlare, Eagle3, DSpark, MTP)
+  - Benchmarks Hy3-A21B : 1.98–2.40× speedup (concurrence 4-64), +30% accepted length
+  - MTP + TTT : +13.6 pp acceptance rate moyenne (52.8% → 66.4%)
+  - Licence Apache-2.0 ✅ (production-safe)
+  - Maintenance faible : 32 jours sans réponse à la PR #2 (bugs critiques non corrigés)
+  - Modèle `AngelSlim/Qwen3-8B_eagle3` (7 470 downloads) testable directement sur vLLM
+- **Verdict** : référence scientifique sérieuse mais projet de code fragile. Fiche constituée comme **matériau à instruire pour développement futur** (non exploitable immédiatement — infrastructure sans GPU, mais matériau de qualité si chantier GPU ouvert)
+- **Liens** : [[atelier/rd/veille/index]], [[atelier/rd/veille/registre]]
+- **Commit** : en attente
+
 ## [2026-08-30] rd/outillage | Première application de la procédure d'exploitation du graphe
 
 - **Procédure appliquée** : exploitation du graphe (2026-08-30) à l'intégration de trois nouvelles fiches
