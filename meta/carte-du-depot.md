@@ -12,7 +12,7 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-31 14:25 UTC, sur `/root/wiki`.
+> aucun réseau) le 2026-08-31 14:29 UTC, sur `/root/wiki`.
 > Portée : dépôt complet. 684 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
@@ -2370,7 +2370,7 @@ links: []
 - `meta/genealogie/tapa-sissoko` — Identité · Faits · Notes
 - `meta/journal/2026-06-18-tawakkul-transition` — Contexte · Sur la condition humaine et la dunya · Sur la démission · Sur la narration et le nafs · Sur le statut de l'injustice dans le contrat de service · Sur le tawakkul vécu · Vigilance pour l'avenir · Références croisées
 - `meta/journal/conversation-atma-claude` — 1. Qu’est-ce qu’Atma ? · 2. Qu’est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu’est-ce que Buddhi ? · 5. Ahamkara et Manas — l’Antahkarana · 6. Qu’est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA · 1. Qu'est-ce qu'Atma ? · 2. Qu'est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu'est-ce que Buddhi ? · 5. Ahamkara et Manas — l'Antahkarana · 6. Qu'est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA
-- `meta/meta-annales` — [2026-08-31] protocole | Approbation requise ramenée à 0 sur `main` · [2026-08-31] choura | Hook « contribution de Sidy » versé au Domaine … · [2026-08-31] infrastructure | Bascule omniroute des 14 profils, répar… · [2026-08-31] deploiement | Agent 08 déployé sur le moteur — et le rou… · [2026-08-31] archivage | Éclatement modulaire de l'agent 08 — et déco… · [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées… · [2026-08-30] briefs | Passation retour — session claude.ai vers sessi… · [2026-08-30] briefs | Passation de la session Instrument vers Claude … · [2026-08-30] briefs | Passation de la session « réseau subtil » vers … · [2026-08-29] personnel | mise à jour | Rêve géants/Paris — liens vers… · [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (… · [2026-08-28] maintenance | Corrections de dérive du protocole (table … · [2026-08-27] projet-unifie | Choura : premier cycle wiki + câblage cr… · [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers … · [2026-08-24] realignement | Crons Publication (08), Gardien (10), Stu… … (+17)
+- `meta/meta-annales` — [2026-08-31] déploiement | Les 11 principes portés au moteur — 12/12 … · [2026-08-31] protocole | Approbation requise ramenée à 0 sur `main` · [2026-08-31] choura | Hook « contribution de Sidy » versé au Domaine … · [2026-08-31] infrastructure | Bascule omniroute des 14 profils, répar… · [2026-08-31] deploiement | Agent 08 déployé sur le moteur — et le rou… · [2026-08-31] archivage | Éclatement modulaire de l'agent 08 — et déco… · [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées… · [2026-08-30] briefs | Passation retour — session claude.ai vers sessi… · [2026-08-30] briefs | Passation de la session Instrument vers Claude … · [2026-08-30] briefs | Passation de la session « réseau subtil » vers … · [2026-08-29] personnel | mise à jour | Rêve géants/Paris — liens vers… · [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (… · [2026-08-28] maintenance | Corrections de dérive du protocole (table … · [2026-08-27] projet-unifie | Choura : premier cycle wiki + câblage cr… · [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers … … (+18)
 - `meta/meta-index` — Personnel (`personnel/`) · Généalogie (`genealogie/`) · Journal (`journal/`) · Transmissions (`transmissions/`, dispositif Karūbī — voir `meta/CLAUD… · Briefs (`briefs/`) · Projet unifié (`projet-unifie/`) · Fiches de premier niveau (`meta/`)
 - `meta/migration-2026-06-11` — Étape 1 : Remplacement du Cœur Opérationnel · Étape 2 : Migration et Ventilation de l'Existant (Sans re-lecture) · Étape 3 : Normalisation des Frontmatters (Script automatisé ou éditio… · Étape 4 : Initialisation des Méta-Pages · Étape 5 : Clôture et Validation
 - `meta/onboarding` — Contexte · Infrastructure en place · Structure du wiki sur le serveur · Synchronisation Obsidian : ✅ résolue (auto-pull activé) · Comment démarrer une session Claude Code · Coffre Obsidian · Prochaines étapes suggérées · Notes techniques
@@ -2448,7 +2448,7 @@ links: []
 - `meta/projet-unifie/hermes-prompts/07-marketing-communication/mandats/marketing-communication` — Reference & standards · Typical commands
 - `meta/projet-unifie/hermes-prompts/08-publication-site/08-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails — REINFORCED · Handoffs · Mandats
 - `meta/projet-unifie/hermes-prompts/08-publication-site/README` — Contrat de chargement · Ce que ces fichiers ne font pas · Où cela vit réellement · Vérification
-- `meta/projet-unifie/hermes-prompts/08-publication-site/deployer-prompt-agent` — Pourquoi cette procédure existe · Correspondance des pièces · Séquence (exécutée le 2026-08-31) · Retour arrière · Points à trancher avant déploiement · Exécution du 2026-08-31 — trace
+- `meta/projet-unifie/hermes-prompts/08-publication-site/deployer-prompt-agent` — Pourquoi cette procédure existe · Correspondance des pièces · Séquence (exécutée le 2026-08-31) · Retour arrière · Points à trancher avant déploiement · Exécution du 2026-08-31 — trace · Généralisation aux 11 autres agents — EXÉCUTÉE le 2026-08-31 14:26
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/bibliothecaire` — Second mandate — Librarian-Archivist (extension, 2026-08-24)
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/site-orchestration` — Reference & standards · Typical commands
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/veille-referencement` — Third mandate — Veille référencement & investigation documentaire (cr…
@@ -3114,8 +3114,8 @@ links: []
 - `meta/genealogie/samballa-kouyate` (1)
   - frontmatter sources: to-source
 - `meta/meta-annales` (2)
-  - L341 : pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
-  - L342 : décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
+  - L372 : pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
+  - L373 : décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
 - `meta/personnel/2026-08-18_initiation-virtuelle` (1)
   - frontmatter sources: to-source
 - `meta/personnel/sidy` (1)
