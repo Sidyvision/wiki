@@ -85,6 +85,7 @@ Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 - **Action** : liens signalés comme pistes (discernement matrices-artificielles-barzakh, symbole golem) mais non inscrits — en attente de verdict Sidy (Cmd 12)
 - **Décision de méthode** : la procédure d'exploitation du graphe est appliquée systématiquement à l'intégration, y compris pour les fiches herméneutiques liées au doctrinal
 - **Liens** : [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]], [[doctrinal/symboles/golem]], [[hermeneutique/frankenstein/frankenstein]]
+- **Commit** : 659808c
 - **Statut** : `applique` — procédure appliquée, fiches en attente de verdict
 
 ## [2026-08-30] Ouverture du journal des optimisations

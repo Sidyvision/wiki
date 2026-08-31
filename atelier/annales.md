@@ -21,7 +21,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Action** : liens signalés comme pistes (discernement matrices-artificielles-barzakh, symbole golem) mais non inscrits — en attente de verdict Sidy (Cmd 12)
 - **Décision de méthode** : la procédure d'exploitation du graphe est appliquée systématiquement à l'intégration, y compris pour les fiches herméneutiques liées au doctrinal
 - **Liens** : [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]], [[doctrinal/symboles/golem]], [[hermeneutique/frankenstein/frankenstein]]
-- **Commit** : à compléter
+- **Commit** : 659808c
 
 ## [2026-08-30] rd/cahiers | Ouverture du journal des optimisations
 
