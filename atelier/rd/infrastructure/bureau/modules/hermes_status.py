@@ -3,7 +3,7 @@
 Statut : présence d'un process `hermes_cli.main --profile <profil> gateway
 run` (les agents tournent en process de fond, pas en service systemd —
 vérifié le 2026-08-15, `systemctl` ne renvoie rien pour hermes). Mission :
-extraite du bloc `## Mission` de la fiche `h‍ermes-prompts/NN-*.md`
+extraite du bloc `## Mission` de la fiche `hermes-prompts/NN-*.md`
 correspondante — lecture seule, aucune écriture, aucune donnée personnelle
 recopiée (seul le rôle fonctionnel est affiché, jamais le contexte
 d'harmonisation zodiacal des fiches).

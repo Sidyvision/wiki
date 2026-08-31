@@ -1,6 +1,6 @@
 #!/bin/bash
 # archiver-monitoring-quotidien-cron.sh — enveloppe pour exécution en job
-# H‍ermes no_agent. Même motif que verifier-coherence-infrastructure-cron.sh :
+# Hermes no_agent. Même motif que verifier-coherence-infrastructure-cron.sh :
 # le mécanisme --script d'un job no_agent ne transmet aucun argument au
 # script invoqué (constaté le 2026-08-18, voir
 # atelier/rd/cahiers/registre-problemes.md, entrée [2026-08-18]). Cette
