@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] renvoi | Dossier qabḍ/basṭ ↔ upaguru ouvert en 🔍, sur proposition de Sidy
+
+- **Proposition de Sidy** : les deux notions relèvent de l'initiation et de ses états
+  (*maqâm*, *hâl*), et de la différence radicale des perspectives initiatique et
+  profane. Renvoi : *La Crise du Monde moderne*, ch. IV.
+- **Traitement** : le chapitre est versé au doctrinal, et le dossier est **ouvert en
+  🔍 `kari-kumi`**, non tranché —
+  [[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]].
+- **Constat à deux tranchants, rapporté sans être lissé** : *CMM* ch. IV arme le volet
+  « perspective » (« le point de vue […] doit aussi entrer dans la définition de la
+  science ») et restreint le volet « appariement des termes » (les sciences
+  traditionnelles de civilisations diverses « ne pourraient qu'abusivement être
+  désignées par les mêmes noms »).
+- **§5.2-bis** du cahier qabḍ/basṭ renvoie désormais au dossier ouvert.
+- **Commit** : {SHA}
+
+
 ## [2026-08-31] versement | qabḍ/basṭ §5.2-bis — la qualification rendue par Sidy
 
 - **Verdict de Sidy** : « notre conclusion me paraît cohérente […] la proposition
