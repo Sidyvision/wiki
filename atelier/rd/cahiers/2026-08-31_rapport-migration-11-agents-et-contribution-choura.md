@@ -1,7 +1,7 @@
 ---
 title: "Migration modulaire des 11 agents restants et intégration de la contribution de Sidy au Choura"
 type: experience
-statut_experience: valide
+statut_experience: exploratoire
 statut: brouillon
 created: 2026-08-31
 updated: 2026-08-31

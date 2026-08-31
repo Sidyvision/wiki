@@ -14,6 +14,34 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] choura | Hook « contribution de Sidy » versé au Domaine Réservé
+
+Consigne de Sidy : « lorsque je poste dans le salon de la Choura, que ce soit
+intégré au tour comme ma contribution sans avoir à mentionner les agents par `@` ».
+Rapport de passe complet, points 1 et 2 :
+[[atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura]].
+
+- **Écrit** : `meta/projet-unifie/choura/hook-contribution-sidy/` — copie de
+  référence du script `/root/.hermes/scripts/choura-contribution-sidy.py` et son
+  `README.md` de contrat (événement, filtres, insertion, idempotence).
+- **Diagnostic** : le moteur n'exigeait aucune `@mention` — la passerelle Discord
+  reçoit tous les messages des salons de `discord.allowed_channels`. Le trou était
+  l'**écriture** dans `cycle-AAAA-MM-JJ.md`, seul document que lit un dormant à son
+  réveil. La contribution existait dans le salon et n'existait pas dans le tour.
+- **Un hook, pas une consigne de prompt** : une consigne dépend de l'obéissance de
+  l'agent à chaque tour ; un hook `pre_llm_call` s'exécute en amont du modèle
+  (§VIII.2 — fiabilité d'action ≠ fiabilité narrative).
+- **Branché sur le seul profil `gardien`** (permanent, il ouvre et clôt le cycle) :
+  le brancher partout produirait une entrée par profil éveillé pour un même message.
+- **Date de cycle basculant à 12:00 heure de Paris**, comme la rotation des tours —
+  avant midi, le cycle courant est celui de la veille.
+- **Hors dépôt, non versionnable** : le bloc `hooks:` de
+  `/root/.hermes/profiles/gardien/config.yaml` et `hooks_auto_accept: true`
+  (nécessaire à l'enregistrement hors TTY, gardien seul). Même classe de dérive que
+  les `SOUL.md` — signalée, documentée ici, pas résolue.
+- **Carte régénérée** après écriture (`carte-du-depot.py`, 683 fiches).
+- **Commit** : 16da41e
+
 ## [2026-08-31] infrastructure | Bascule omniroute des 14 profils, réparation du cycle Choura
 
 - **Consignes de Sidy** : « bascule-les tous sur omniroute » (plan Qwen épuisé jusqu'au
