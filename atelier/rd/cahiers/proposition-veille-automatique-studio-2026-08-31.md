@@ -369,15 +369,16 @@ Phase 6 — Sidy lit le cycle Choura, tranche (Cmd 12/13)
 
 ## 7. Verdict Sidy (Cmd 6)
 
-**À remplir par Sidy** :
+**Validé le 2026-08-31** par Sidy :
 
-- [ ] Valide le plan d'exécution en 7 étapes
-- [ ] Valide la fréquence quotidienne (cron 6h du matin)
-- [ ] Valide l'interface Gardien (qualification doctrinale)
-- [ ] Valide la discipline de rapport conjoint
-- [ ] Répond aux questions ouvertes (§6)
-- [ ] Autorise l'exécution
+- ✅ Plan d'exécution en 7 étapes validé
+- ✅ Fréquence quotidienne (cron 6h du matin) validée
+- ✅ Interface Gardien (qualification doctrinale) validée
+- ✅ Articulation avec le Cycle Choura validée (remplace le rapport conjoint séparé)
+- ✅ Self-Improvement comme maître-mot de la veille
+- ✅ Termes génériques (tout élément qualitatif, pas seulement Hermes-spécifique)
+- ✅ Seuil de stars : 100
+- ✅ Archivage des fiches non pertinentes sur 40 jours
+- ✅ Validation par Sidy avant chaque clonage en sandbox (Cmd 13)
 
-**Date du verdict** : _______________
-
-**Commentaires** : _______________
+**Prêt pour exécution** : production des scripts, mise en place du cron.
