@@ -3,7 +3,7 @@ title: "Incident de contamination par caractères Unicode invisibles (U+200D)"
 type: outillage
 statut_experience: reproduit
 created: 2026-08-22
-updated: 2026-08-25
+updated: 2026-08-31
 status: resolu
 severity: moyen
 affected_systems: [wiki, documentation]
@@ -361,3 +361,47 @@ cause — il a correctement bloqué le commit dans les deux récidives ; seule l
 commande de *remédiation* suggérée était défaillante. Rappel : `.git/hooks/`
 n'est pas versionné (hors du dépôt git lui-même) — cette correction ne
 produit donc aucun commit ; elle est documentée ici comme trace unique.
+
+---
+
+## Post-scriptum du 2026-08-31 — résidu retrouvé dans le dépôt et dans le moteur
+
+Le post-scriptum du 2026-08-25 concluait « aucune trace de corruption dans le
+dépôt (annulée avant commit) ». **C'était vrai des fichiers alors examinés, pas
+du dépôt entier.** Un balayage complet mené pendant le chantier d'éclatement de
+l'agent 08 a retrouvé du U+200D encore présent, toujours dans le même mot
+(« Hermes »), donc de la même origine.
+
+**Nettoyé (11 occurrences, 5 fichiers)** :
+
+| Fichier | Occ. |
+|---|---|
+| `atelier/rd/outillage/verifier-coherence-infrastructure.py` | 3 |
+| `atelier/rd/outillage/archiver-monitoring-quotidien.py` | 4 |
+| `atelier/rd/infrastructure/bureau/modules/hermes_status.py` | 1 |
+| `atelier/rd/outillage/verifier-coherence-infrastructure-cron.sh` | 2 |
+| `atelier/rd/outillage/archiver-monitoring-quotidien-cron.sh` | 1 |
+
+Toutes en commentaire ou en docstring : aucun effet fonctionnel, mais Cmd 15 ne
+distingue pas. `ast.parse` et `bash -n` repassés après retrait.
+
+**Non traité, délibérément — verdict de Sidy requis (Cmd 10, Cmd 13)** :
+
+| Fichier | Occ. | Motif de l'abstention |
+|---|---|---|
+| `doctrinal/annales.md.bak-2026-08-18-pre-C4` | 1 | Sauvegarde figée. La réécrire lui retire sa valeur de sauvegarde : elle cesserait d'être l'état d'avant. |
+| `atelier/rd/index.md.bak-2026-08-18-pre-C4` | 1 | Idem. |
+| `atelier/rd/citadelle-du-sham/source/library-full.json` | 20 | Donnée importée (export de bibliothèque). La corriger altère la fidélité à la source ; la contamination est peut-être en amont. |
+
+Ces trois fichiers sont **suivis par git** : le dépôt n'est donc pas encore
+intégralement conforme à Cmd 15. L'écart est nommé plutôt que refermé en douce.
+
+**Hors dépôt** : `~/.hermes/profiles/studio/SOUL.md` porte 3 U+200D — seul écart
+entre ce prompt déployé et sa fiche wiki (`comparer-prompts-hermes.py --derive`).
+Le moteur a donc reçu la contamination avant le nettoyage du dépôt, et l'y
+conserve. Traité avec le déploiement de l'agent 08, sur go de Sidy.
+
+**Leçon de méthode.** Le premier balayage de cette session portait `--include="*.py"
+--include="*.md"` : il a rendu 3 fichiers. Le balayage sans filtre en a rendu 8.
+Un contrôle d'hygiène restreint par extension donne une réponse rassurante et
+fausse. Le contrôle intégré à `comparer-prompts-hermes.py` ne filtre pas.

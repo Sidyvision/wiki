@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-30
+updated: 2026-08-31
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -1280,7 +1280,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   brouillon ; l'accrocher au déclencheur phase 3 crée une dépendance explicite 
   (l'agent 09 en gouvernance n'est pas intégrable sans cette extension).
 - **Liens** :
-  - [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer|Studio Sound Engineer prompt (pos. 9) — étendu]]
+  - [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/09-principe|Studio Sound Engineer prompt (pos. 9) — étendu]]
   - [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|Phase 3 — proposition]]
   - [[meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08|Correspondances zodiacales — positions 1-12]]
 - **Statut** : `resolu` — sections zodiacales et gouvernance intégrées au prompt en 
@@ -1364,7 +1364,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   préserve la compréhension du flux de décision et des cascades de conséquence.
 - **Liens** :
   - [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|Proposition phase 3 mise à jour]]
-  - [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer|Studio Sound Engineer, position 9]]
+  - [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/09-principe|Studio Sound Engineer, position 9]]
   - [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise|Correspondances zodiacales, clos 2026-07-14]]
 - **Statut** : `ouvert` (chantier d'accès FS et mécanisme technique à instruire)
 
@@ -1622,7 +1622,7 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   usage nouveau.
 - **Liens** : [[_inbox/proposition-phase3-agent-veille-infrastructure-2026-08-11|proposition phase 3]],
   [[meta/projet-unifie/15-architecture-discord-hermes-2026-08-07]],
-  [[meta/projet-unifie/hermes-prompts/10-protocol-guardian]]
+  [[meta/projet-unifie/hermes-prompts/10-protocol-guardian/10-principe]]
 - **Statut** : `resolu` — les deux volets sont tranchés en principe ; le
   nom du canal, la fréquence exacte du cron, le contenu du rapport et le
   mécanisme technique de post restent hors périmètre, à instruire séparément

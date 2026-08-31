@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 verifier-coherence-infrastructure.py — Confronte les actions de configuration
-H‍ermes/Discord affirmées par les fiches atelier/rd/infrastructure/ (bloc
+Hermes/Discord affirmées par les fiches atelier/rd/infrastructure/ (bloc
 frontmatter `infra_verif`) à l'état réel du serveur (`hermes cron list`,
 fichiers `.env` des profils).
 
@@ -75,7 +75,7 @@ def collecter_affirmations(racine):
 
 def cron_jobs_actifs(profil):
     """Retourne la liste des noms de jobs cron (--all, y compris désactivés)
-    du profil H‍ermes donné. Lève RuntimeError si la commande échoue."""
+    du profil Hermes donné. Lève RuntimeError si la commande échoue."""
     try:
         out = subprocess.run(
             ["hermes", "--profile", profil, "cron", "list", "--all"],
@@ -88,7 +88,7 @@ def cron_jobs_actifs(profil):
     sortie = out.stdout + out.stderr
     if "No scheduled jobs" in sortie:
         return []
-    # Format de sortie non garanti stable entre versions H‍ermes : on prend
+    # Format de sortie non garanti stable entre versions Hermes : on prend
     # toute ligne non vide comme candidat contenant potentiellement un nom de
     # job, et on cherche une inclusion de sous-chaîne à l'appel — volontairement
     # permissif plutôt que de sur-parser une sortie non documentée.

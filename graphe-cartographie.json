@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 143,
+  "avertissements": 128,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -472,6 +472,19 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac",
+      "label": "Session corrections rapports quotidiens et rotation HMAC",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "session",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-30",
+      "chemin": "atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
       "label": "Liste des abréviations — Hindouisme et Soufisme (Shayegan)",
       "circuit": "atelier",
@@ -544,6 +557,34 @@
       "updated": "2026-08-30",
       "chemin": "atelier/rd/bibliotheque/catalogue-bibliotheque.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme",
+      "label": "Chapitre II, Les Disciplines Spirituelles — Hindouisme et Soufisme (Shayegan)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "transcription",
+        "hindouisme-soufisme",
+        "shayegan",
+        "dara-shukuh",
+        "majma-al-bahrayn",
+        "disciplines-spirituelles",
+        "ajapa",
+        "hamsa",
+        "dhikr",
+        "kundalini",
+        "cakra",
+        "lataif",
+        "semnani"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "atelier/rd/bibliotheque/eckstein-porte-du-ciel",
@@ -821,6 +862,30 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme",
+      "label": "Chapitre III, Les Quatre Mondes — Hindouisme et Soufisme (Shayegan)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "ressource",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "transcription",
+        "hindouisme-soufisme",
+        "shayegan",
+        "dara-shukuh",
+        "majma-al-bahrayn",
+        "quatre-mondes",
+        "hadarat",
+        "atman",
+        "sankara"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme",
       "label": "Couverture et table analytique des matières — Hindouisme et Soufisme (Shayegan)",
       "circuit": "atelier",
@@ -1023,7 +1088,7 @@
       "label": "Compte-rendu — Automatisation GitHub & Webhook R&D",
       "circuit": "atelier",
       "sous_dossier": "rd",
-      "type": "compte-rendu",
+      "type": "infrastructure",
       "status": null,
       "tradition_cadre": null,
       "tags": [
@@ -1037,6 +1102,71 @@
       ],
       "updated": "2026-08-29",
       "chemin": "atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme",
+      "label": "Rapport d'erreurs — session Hindouisme et Soufisme / réseau subtil (2026-08-29 → 30)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "cahier",
+        "rapport",
+        "erreurs",
+        "vigilance",
+        "instrument",
+        "methode",
+        "verification-mecanique"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast",
+      "label": "Doctrine de la contrainte : qabḍ/basṭ et infrastructure (fiche candidate)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "qabd",
+        "bast",
+        "contrainte",
+        "infrastructure",
+        "lien",
+        "kari-kumi"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents",
+      "label": "Rapport d'investigation — architecture modulaire des agents Hermes (2026-08-31)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "agents",
+        "architecture",
+        "modulaire",
+        "self-improvement"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents.md",
       "lacunes_to_source": 0
     },
     {
@@ -1264,6 +1394,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/cahiers/journal-optimisations",
+      "label": "Journal des optimisations — pôle R&D (cahier append-only)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "cahier",
+        "registre",
+        "laboratoire"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "atelier/rd/cahiers/journal-optimisations.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18",
       "label": "Proposition — Extension du mandat R&D : veille externe + sandbox",
       "circuit": "atelier",
@@ -1301,6 +1450,26 @@
       ],
       "updated": "2026-08-16",
       "chemin": "atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31",
+      "label": "Proposition — Veille automatique Studio (recherche repos + interface Gardien)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "proposition",
+        "studio",
+        "gardien",
+        "veille",
+        "automatisation",
+        "cron"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31.md",
       "lacunes_to_source": 0
     },
     {
@@ -1344,7 +1513,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-08-29",
+      "updated": "2026-08-31",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
       "lacunes_to_source": 0
     },
@@ -1383,7 +1552,7 @@
       "status": "resolu",
       "tradition_cadre": null,
       "tags": [],
-      "updated": "2026-08-25",
+      "updated": "2026-08-31",
       "chemin": "atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md",
       "lacunes_to_source": 0
     },
@@ -1491,6 +1660,19 @@
       "tags": [],
       "updated": "2026-08-26",
       "chemin": "atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks",
+      "label": "Conversion des chemins nus en wikilinks — 142 occurrences (2026-08-30)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-30",
+      "chemin": "atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks.md",
       "lacunes_to_source": 0
     },
     {
@@ -1957,6 +2139,76 @@
       ],
       "updated": "2026-08-20",
       "chemin": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "label": "Mise en regard du Majmaʿ al-Bahrayn avec les registres de l'Instrument",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "instrument",
+        "registres",
+        "majma-al-bahrayn",
+        "dara-shukuh",
+        "shayegan",
+        "hadarat",
+        "atman",
+        "phase-3"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable",
+      "label": "Figurer l'incommensurable : le conditionné, l'Inconditionné, et ce qu'une échelle ne doit pas laisser croire",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "instrument",
+        "incommensurabilite",
+        "inconditionne",
+        "nirguna",
+        "gunas",
+        "kursi",
+        "arsh",
+        "echelle",
+        "design",
+        "rendu"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "label": "Le réseau subtil : unification des axes et résolution par les deux échelles",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "instrument",
+        "axe-unifie",
+        "nadis",
+        "reseau",
+        "macrocosme",
+        "microcosme",
+        "lataif",
+        "aqtab",
+        "registres",
+        "deduction"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md",
       "lacunes_to_source": 0
     },
     {
@@ -2571,6 +2823,112 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/veille/2026-08-31_argentos-core",
+      "label": "argentos-core — veille R&D automatique",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "veille",
+        "self-improvement",
+        "typescript"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/veille/2026-08-31_argentos-core.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/veille/2026-08-31_auto-harness",
+      "label": "auto-harness — veille R&D automatique",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "veille",
+        "self-improvement",
+        "python"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/veille/2026-08-31_auto-harness.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/veille/2026-08-31_claude-smart",
+      "label": "claude-smart — veille R&D automatique",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "veille",
+        "self-improvement",
+        "python"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/veille/2026-08-31_claude-smart.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/veille/2026-08-31_sentrux",
+      "label": "sentrux — veille R&D automatique",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "veille",
+        "self-improvement",
+        "rust"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/veille/2026-08-31_sentrux.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/veille/2026-08-31_sia",
+      "label": "sia — veille R&D automatique",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "veille",
+        "self-improvement",
+        "python"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/veille/2026-08-31_sia.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding",
+      "label": "Tencent AngelSpec — framework unifié de speculative decoding",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "veille",
+        "inference",
+        "llm",
+        "speculative-decoding",
+        "vllm",
+        "qwen",
+        "tencent"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/veille/cordis/equations",
       "label": "Cordis — équations clés du paradigme",
       "circuit": "atelier",
@@ -2666,6 +3024,19 @@
       ],
       "updated": "2026-08-18",
       "chemin": "atelier/rd/veille/registre.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/annales/2026-08-31",
+      "label": "Annales doctrinales — 2026-08-31",
+      "circuit": "doctrinal",
+      "sous_dossier": "annales",
+      "type": "meta",
+      "status": "operationnel",
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/annales/2026-08-31.md",
       "lacunes_to_source": 0
     },
     {
@@ -2916,6 +3287,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/autorites/haim-vital",
+      "label": "Haïm Vital",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "kabbale",
+        "safed",
+        "lurianique",
+        "transmission-orale",
+        "redaction"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/autorites/haim-vital.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/autorites/hamza-yusuf",
       "label": "Hamza Yusuf",
       "circuit": "doctrinal",
@@ -2967,7 +3357,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/autorites/ibn-qayyim.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/ibn-sina",
@@ -2984,9 +3374,9 @@
         "ame",
         "peripatetisme"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/autorites/ibn-sina.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/ibn-sirin",
@@ -3002,7 +3392,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/autorites/ibn-sirin.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/idris",
@@ -3041,7 +3431,26 @@
       ],
       "updated": "2026-07-06",
       "chemin": "doctrinal/autorites/imam-malik.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/autorites/isaac-louria-arizal",
+      "label": "Isaac Louria (le Ari, ha-ARI, l'Arizal)",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "kabbale",
+        "safed",
+        "lurianique",
+        "gilgul",
+        "transmission-orale"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/autorites/isaac-louria-arizal.md",
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/autorites/michel-valsan",
@@ -3115,6 +3524,24 @@
       ],
       "updated": "2026-08-23",
       "chemin": "doctrinal/autorites/platon.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/autorites/raphael-afilalo",
+      "label": "R. Raphael Afilalo (traducteur, annotateur)",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "academique",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "kabbale",
+        "traduction",
+        "annotation",
+        "mediation"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/autorites/raphael-afilalo.md",
       "lacunes_to_source": 0
     },
     {
@@ -3211,7 +3638,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/deviations/body-types.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/deviations/confusion-psychique-spirituel",
@@ -3324,7 +3751,7 @@
         "eschatologie",
         "stub"
       ],
-      "updated": "2026-08-04",
+      "updated": "2026-08-31",
       "chemin": "doctrinal/deviations/reincarnation-vies-anterieures.md",
       "lacunes_to_source": 0
     },
@@ -3384,7 +3811,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/deviations/technologisation-pseudo-scientifique.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale",
@@ -4160,7 +4587,7 @@
         "sefer-yetsira",
         "qabbalah"
       ],
-      "updated": "2026-08-20",
+      "updated": "2026-08-31",
       "chemin": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot.md",
       "lacunes_to_source": 0
     },
@@ -4263,6 +4690,30 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma",
+      "label": "Les mondes hiérarchisés du Soufisme et les quatre états d'Âtmâ",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "hadarat",
+        "atman",
+        "turiya",
+        "jabarut",
+        "malakut",
+        "nasut",
+        "lahut",
+        "dara-shukuh",
+        "comparatisme",
+        "socle-metaphysique"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
       "label": "L'octogone comme monde intermédiaire — rapprochement fonctionnel avec le Barzakh",
       "circuit": "doctrinal",
@@ -4284,6 +4735,227 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "label": "Les Sephiroth et les chakras — sept niveaux d'un même axe",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "sephiroth",
+        "chakras",
+        "kabbale",
+        "tantra",
+        "guenon",
+        "axe-vertical",
+        "socle-metaphysique"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-29_sept-poles-sept-lataif",
+      "label": "Les sept Pôles et les sept centres subtils (laṭāʾif) — les Prophètes comme terme commun",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "islam",
+      "tags": [
+        "aqtab",
+        "lataif",
+        "semnani",
+        "najm-kobra",
+        "prophetes",
+        "malakut-planetaire",
+        "miraj",
+        "septenaire"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/discernement/2026-08-29_sept-poles-sept-lataif.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf",
+      "label": "La chute, la réalisation, et les deux aspects de Qâf — muraille et apex — au regard de l'état primordial",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "universel",
+      "tags": [
+        "chute",
+        "hubut",
+        "realisation-spirituelle",
+        "etat-primordial",
+        "qaf",
+        "meru",
+        "muraille",
+        "apex",
+        "pole",
+        "guenon",
+        "araf",
+        "khafd",
+        "raf",
+        "kari-kumi",
+        "en-cours"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities",
+      "label": "Les gens d'al-Aʿrāf sont-ils les initiés ?",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "islam",
+      "tags": [
+        "araf",
+        "rijal",
+        "rijal-allah",
+        "sima",
+        "firasa",
+        "barzakh",
+        "initiation",
+        "petits-grands-mysteres",
+        "eschatologie",
+        "kari-kumi",
+        "en-cours"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "label": "Le couple khafḍ / rafʿ : l'axe des degrés est-il parcouru dans un seul sens ?",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "islam",
+      "tags": [
+        "khafid",
+        "rafi",
+        "darajat",
+        "degres",
+        "asma-al-husna",
+        "qutb",
+        "califat",
+        "qaf",
+        "meru",
+        "guenon",
+        "kari-kumi",
+        "en-cours"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation",
+      "label": "Le Kursī et les deux Pieds (qadamān) au regard de Hokhmah et Binah — la première polarisation",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "kursi",
+        "arsh",
+        "qadaman",
+        "hokhmah",
+        "binah",
+        "polarite",
+        "dualite-cosmique",
+        "nafas-rahmani",
+        "kabbale",
+        "tasawwuf",
+        "ibn-arabi",
+        "gloton",
+        "kumiko"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet",
+      "label": "Les nâdîs issues du cœur et les sentiers séphirothiques émanant de Tiferet",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "universel",
+      "tags": [
+        "nadis",
+        "sentiers",
+        "netivot",
+        "tiferet",
+        "anahata",
+        "coeur",
+        "reseau",
+        "kabbale",
+        "hindouisme",
+        "lettres",
+        "kari-kumi"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons",
+      "label": "Le ternaire temporel des nâdîs et Janus Bifrons — un même symbolisme sous deux voiles",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "janus",
+        "nadis",
+        "ida",
+        "pingala",
+        "sushumna",
+        "temps",
+        "passe-futur-present",
+        "troisieme-oeil",
+        "hozo",
+        "polarite"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "label": "L'unification des axes verticaux : un seul axe sous tous les voiles traditionnels",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "axe-du-monde",
+        "qutb",
+        "insan-al-kamil",
+        "sushumna",
+        "colonne-du-milieu",
+        "meru-danda",
+        "unification",
+        "socle-metaphysique"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/discernement/_template",
       "label": "Spéculation sur [Sujet de la réflexion]",
       "circuit": "doctrinal",
@@ -4298,7 +4970,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/discernement/_template.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
@@ -4336,9 +5008,9 @@
         "ame",
         "epistemologie"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/etudes/2026-06-04_islam-et-ia.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana",
@@ -4360,7 +5032,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh",
@@ -4381,7 +5053,7 @@
       ],
       "updated": "2026-07-03",
       "chemin": "doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi",
@@ -4402,6 +5074,51 @@
       ],
       "updated": "2026-08-10",
       "chemin": "doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani",
+      "label": "Base terminologique du pôle Usûl — triade uṣūl / furūʿ / iṣṭilāḥ selon al-Jurjānī",
+      "circuit": "doctrinal",
+      "sous_dossier": "etudes",
+      "type": "etude",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "usul",
+        "furu",
+        "istilâh",
+        "jurjani",
+        "terminologie",
+        "pole",
+        "fondement"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "label": "Confrontation — Constitution Anthropic, dialogues Claude et Guénon sur la nature des LLMs",
+      "circuit": "doctrinal",
+      "sous_dossier": "etudes",
+      "type": "etude",
+      "status": "academique",
+      "tradition_cadre": "universel",
+      "tags": [
+        "ia",
+        "llm",
+        "anthropic",
+        "claude",
+        "guenon",
+        "ontologie",
+        "consciousness",
+        "prakriti",
+        "purusha",
+        "upakarana"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms.md",
       "lacunes_to_source": 0
     },
     {
@@ -4427,6 +5144,34 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "label": "Shaar Hagilgulim — La Porte des Réincarnations (trad. et annot. R. Raphael Afilalo)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "kabbale",
+        "gilgul",
+        "ibur",
+        "tikun",
+        "ame",
+        "nefesh",
+        "ruah",
+        "neshama",
+        "haya",
+        "yehida",
+        "arizal",
+        "isaac-louria",
+        "haim-vital",
+        "ame-soeur"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/al-madrasah-al-hanbaliyyah",
       "label": "Al-Madrasah Al-Hanbaliyyah (institut d'enseignement traditionnel ḥanbalite)",
       "circuit": "doctrinal",
@@ -4444,7 +5189,7 @@
       ],
       "updated": "2026-07-06",
       "chemin": "doctrinal/sources/al-madrasah-al-hanbaliyyah.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/alshammari-llm-ontologie-hadith-2026",
@@ -4490,6 +5235,30 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/avalon-serpent-power-nadis-reseau",
+      "label": "La Puissance du Serpent (Arthur Avalon) — le réseau des nâdîs et les trois canaux",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "avalon",
+        "woodroffe",
+        "serpent-power",
+        "nadis",
+        "ida",
+        "pingala",
+        "sushumna",
+        "chakras",
+        "reseau",
+        "kundalini"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/avalon-serpent-power-nadis-reseau.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/awrad-ibn-arabi",
       "label": "Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)",
       "circuit": "doctrinal",
@@ -4505,7 +5274,7 @@
         "ibn-arabi",
         "traduction"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/sources/awrad-ibn-arabi.md",
       "lacunes_to_source": 0
     },
@@ -4550,7 +5319,7 @@
       ],
       "updated": "2026-07-09",
       "chemin": "doctrinal/sources/bukhari-5754-tiyara-fal.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam",
@@ -4570,7 +5339,7 @@
       ],
       "updated": "2026-07-09",
       "chemin": "doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/conversation-llm-intellect-2026-06-11",
@@ -4592,7 +5361,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/sources/conversation-llm-intellect-2026-06-11.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/dalail-al-khayrat-jazuli",
@@ -4610,6 +5379,27 @@
       ],
       "updated": "2026-07-14",
       "chemin": "doctrinal/sources/dalail-al-khayrat-jazuli.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes",
+      "label": "Majmaʿ al-Bahrayn, ch. VII — La description des quatre mondes (Dârâ Shokûh)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "dara-shukuh",
+        "majma-al-bahrayn",
+        "quatre-mondes",
+        "hadarat",
+        "atman",
+        "turiya",
+        "comparatisme"
+      ],
+      "updated": "2026-08-29",
+      "chemin": "doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes.md",
       "lacunes_to_source": 0
     },
     {
@@ -4656,7 +5446,7 @@
       ],
       "updated": "2026-06-29",
       "chemin": "doctrinal/sources/figure-archeometre-islamise-mahdi-rouge.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge",
@@ -4750,7 +5540,29 @@
       ],
       "updated": "2026-07-09",
       "chemin": "doctrinal/sources/gilis-ordo-ab-chao.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/gloton-approche-coran-grammaire-lexique",
+      "label": "Maurice Gloton — Une approche du Coran par la grammaire et le lexique (Albouraq)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "islam",
+      "tags": [
+        "gloton",
+        "lexique",
+        "racines-arabes",
+        "coran",
+        "rafa",
+        "darajat",
+        "transcription",
+        "albouraq"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/gloton-approche-coran-grammaire-lexique.md",
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes",
@@ -4883,7 +5695,7 @@
         "metier-traditionnel",
         "symboles-science-sacree"
       ],
-      "updated": "2026-08-29",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/sources/guenon-dome-et-la-roue.md",
       "lacunes_to_source": 0
     },
@@ -4908,6 +5720,33 @@
       ],
       "updated": "2026-07-16",
       "chemin": "doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats",
+      "label": "Guénon — Les états multiples de l'être, ch. III, X, XI, XII : Être et Non-Être, confins de l'indéfini, principes de distinction, les deux chaos",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "etats-multiples",
+        "etre-non-etre",
+        "possibilite-universelle",
+        "indefini",
+        "ampleur",
+        "exaltation",
+        "plan-de-base",
+        "eaux-superieures",
+        "eaux-inferieures",
+        "rayon-celeste",
+        "formel-informel",
+        "axe"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats.md",
       "lacunes_to_source": 0
     },
     {
@@ -5095,7 +5934,7 @@
     },
     {
       "id": "doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21",
-      "label": "L'Homme et son devenir selon le Vêdânta, ch. XV-XXI : Prâjna, Om et les quatre mâtrâs, évolution posthume, résorption, artère coronale et Rayon solaire (Guénon)",
+      "label": "L'Homme et son devenir selon le Vêdânta, ch. XV-XXI en 1ʳᵉ éd. (= XIV-XX de l'exemplaire) : Prâjna, Om et les quatre mâtrâs, évolution posthume, résorption, artère coronale et Rayon solaire (Guénon)",
       "circuit": "doctrinal",
       "sous_dossier": "sources",
       "type": "source",
@@ -5114,8 +5953,55 @@
         "posthume",
         "axe"
       ],
-      "updated": "2026-08-04",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "label": "L'Homme et son devenir selon le Vêdânta, ch. XX (= XXI en 1ʳᵉ éd.) : L'artère coronale et le « Rayon solaire » (Guénon)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "guenon",
+        "vedanta",
+        "sushumna",
+        "ida",
+        "pingala",
+        "nadis",
+        "rayon-solaire",
+        "troisieme-oeil",
+        "janus",
+        "vaishvanara",
+        "coronale",
+        "posthume",
+        "axe"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire",
+      "label": "TOMBSTONE — L'artère coronale et le « Rayon solaire » (déplacée vers ch20)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "tombstone",
+        "deprecated",
+        "guenon",
+        "vedanta",
+        "coronale",
+        "rayon-solaire"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire.md",
       "lacunes_to_source": 0
     },
     {
@@ -5299,6 +6185,29 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya",
+      "label": "Guénon — Introduction à l'étude des doctrines hindoues, ch. XI : Le Sāṃkhya",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "sankhya",
+        "prakriti",
+        "purusha",
+        "buddhi",
+        "ahamkara",
+        "manas",
+        "tattwas",
+        "kapila"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
       "label": "Kundalinî-Yoga — René Guénon",
       "circuit": "doctrinal",
@@ -5311,10 +6220,12 @@
         "kundalini",
         "yoga",
         "chakras",
+        "sephiroth",
+        "nadis",
         "hindouisme-islam",
         "etudes-hindouisme"
       ],
-      "updated": "2026-07-14",
+      "updated": "2026-08-29",
       "chemin": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme.md",
       "lacunes_to_source": 0
     },
@@ -5335,7 +6246,7 @@
       ],
       "updated": "2026-07-09",
       "chemin": "doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/guenon-mysteres-lettre-nun",
@@ -5352,7 +6263,7 @@
         "hindouisme-islam",
         "symboles-science-sacree"
       ],
-      "updated": "2026-07-14",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/sources/guenon-mysteres-lettre-nun.md",
       "lacunes_to_source": 0
     },
@@ -5373,7 +6284,7 @@
         "ming-tang",
         "symboles-science-sacree"
       ],
-      "updated": "2026-08-29",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/sources/guenon-octogone.md",
       "lacunes_to_source": 0
     },
@@ -5551,6 +6462,47 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/guenon-symboles-science-sacree-ch18-janus",
+      "label": "Quelques aspects du symbolisme de Janus — René Guénon",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "janus",
+        "symboles-science-sacree",
+        "portes-solsticiales",
+        "initiation",
+        "sceptre-clef"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/guenon-symboles-science-sacree-ch18-janus.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices",
+      "label": "Le symbolisme solsticial de Janus — René Guénon",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "janus",
+        "symboles-science-sacree",
+        "solstices",
+        "deux-saints-jean",
+        "portes-solsticiales",
+        "initiation"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques",
       "label": "Guénon — Le Symbolisme de la Croix, ch. XI-XIII : le triptyque des représentations géométriques",
       "circuit": "doctrinal",
@@ -5643,6 +6595,31 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain",
+      "label": "Guénon — Le Symbolisme de la Croix, ch. XXVI-XXVII : incommensurabilité de l'être total et place de l'état humain",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "symbolisme-croix",
+        "incommensurabilite",
+        "etre-total",
+        "individualite",
+        "anthropomorphisme",
+        "rayon-celeste",
+        "transformation",
+        "delivrance",
+        "dimensions",
+        "axe"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace",
       "label": "Guénon — Le Symbolisme de la Croix, ch. IV : Les directions de l'espace",
       "circuit": "doctrinal",
@@ -5665,6 +6642,32 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas",
+      "label": "Guénon — Le Symbolisme de la Croix, ch. V : la théorie hindoue des trois gunas",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "guenon",
+        "symbolisme-croix",
+        "gunas",
+        "sattva",
+        "rajas",
+        "tamas",
+        "prakriti",
+        "tribhuvana",
+        "axe",
+        "plan-horizontal",
+        "sphere",
+        "couleurs"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-symbolisme-du-dome",
       "label": "Le symbolisme du dôme — René Guénon",
       "circuit": "doctrinal",
@@ -5679,7 +6682,7 @@
         "omphalos",
         "symboles-science-sacree"
       ],
-      "updated": "2026-08-29",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/sources/guenon-symbolisme-du-dome.md",
       "lacunes_to_source": 0
     },
@@ -5698,7 +6701,7 @@
         "portes-solsticiales",
         "symboles-science-sacree"
       ],
-      "updated": "2026-07-14",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/sources/guenon-zodiaque-pythagoriciens.md",
       "lacunes_to_source": 0
     },
@@ -5720,7 +6723,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/sources/hasbiyallah-rabbani.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/histoire-wahhabis-corancez-redissi",
@@ -5762,7 +6765,7 @@
         "futuhât",
         "albouraq"
       ],
-      "updated": "2026-07-01",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton.md",
       "lacunes_to_source": 0
     },
@@ -5785,7 +6788,7 @@
       ],
       "updated": "2026-07-09",
       "chemin": "doctrinal/sources/ibn-arabi-fard-afrad-gilis.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot",
@@ -5836,7 +6839,7 @@
       ],
       "updated": "2026-07-16",
       "chemin": "doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle",
@@ -5988,7 +6991,7 @@
         "grammaire",
         "prosodie"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/sources/kitab-al-tarifat-jurjani.md",
       "lacunes_to_source": 0
     },
@@ -6075,6 +7078,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/manifeste-corpus-symboles-science-sacree",
+      "label": "Manifeste du corpus raw/ — Symboles de la Science sacrée (Guénon)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "symboles-science-sacree",
+        "manifeste",
+        "corpus",
+        "mecanique"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/manifeste-corpus-symboles-science-sacree.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/mawlid-al-rasul",
       "label": "Mawlid al-Rasūl al-Aʿẓam",
       "circuit": "doctrinal",
@@ -6092,7 +7114,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/sources/mawlid-al-rasul.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/meftah-chatons-sagesses-transcription",
@@ -6160,7 +7182,7 @@
       ],
       "updated": "2026-07-24",
       "chemin": "doctrinal/sources/nezami-pavillon-sept-princesses-barry.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/platon-oeuvres-completes-brisson-2011",
@@ -6205,6 +7227,29 @@
       ],
       "updated": "2026-07-16",
       "chemin": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/razi-noms-divins-ch18-khafid-rafi",
+      "label": "Al-Rāzī, Traité sur les Noms divins — chapitre XVIII : al-Khāfiḍ (Celui-qui-abaisse) et al-Rāfiʿ (Celui-qui-élève)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "asma-al-husna",
+        "razi",
+        "lawami-al-bayyinat",
+        "khafid",
+        "rafi",
+        "degres",
+        "darajat",
+        "resurrection",
+        "transcription"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/razi-noms-divins-ch18-khafid-rafi.md",
       "lacunes_to_source": 0
     },
     {
@@ -6285,7 +7330,7 @@
         "transcription",
         "index"
       ],
-      "updated": "2026-07-10",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/sources/sept-etendards-califat.md",
       "lacunes_to_source": 0
     },
@@ -6412,6 +7457,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta",
+      "label": "Transcription — Table des matières, L'Homme et son devenir selon le Vêdânta (Guénon), et concordance des deux éditions",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "transcription",
+        "reference",
+        "table-matieres",
+        "guenon",
+        "vedanta",
+        "editions",
+        "concordance"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/transcription-table-matieres-symboles-science-sacree",
       "label": "Transcription — Table des matières intégrale, Symboles de la Science sacrée (Guénon)",
       "circuit": "doctrinal",
@@ -6448,7 +7514,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/sources/universal-man-jili.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/sources/valsan-investiture-cheikh-al-akbar",
@@ -6512,7 +7578,7 @@
         "ibn-arabi",
         "prophetologie"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/symboles/al-insan-al-kamil.md",
       "lacunes_to_source": 0
     },
@@ -6532,7 +7598,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/alam-al-mithal.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/animaux-en-reve-comparatisme",
@@ -6606,7 +7672,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/asma-al-husna.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/atlantide",
@@ -6627,6 +7693,27 @@
       ],
       "updated": "2026-06-30",
       "chemin": "doctrinal/symboles/atlantide.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/atma",
+      "label": "Âtmâ (le Soi)",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "atma",
+        "soi",
+        "conscience-pure",
+        "vedanta",
+        "samkhya",
+        "purusha",
+        "identite-supreme"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/symboles/atma.md",
       "lacunes_to_source": 0
     },
     {
@@ -6677,7 +7764,7 @@
         "ontologie",
         "ibn-arabi"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/symboles/barzakh.md",
       "lacunes_to_source": 0
     },
@@ -6763,6 +7850,29 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/cheveux-blancs-en-reve.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/cinq-noms-ame",
+      "label": "Les cinq noms de l'âme (Nefesh, Ruaḥ, Neshama, Ḥaya, Yeḥida)",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "kabbale",
+        "ame",
+        "nefesh",
+        "ruah",
+        "neshama",
+        "haya",
+        "yehida",
+        "quatre-mondes",
+        "lurianique"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/symboles/cinq-noms-ame.md",
       "lacunes_to_source": 0
     },
     {
@@ -6870,7 +7980,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/fal-wa-tatayyur.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/fiqh",
@@ -6964,6 +8074,47 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/symboles/gilgul",
+      "label": "Gilgul (la réincarnation de l'âme) et Ibur",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "kabbale",
+      "tags": [
+        "kabbale",
+        "gilgul",
+        "ibur",
+        "tikun",
+        "reincarnation",
+        "ame-soeur",
+        "teshuva",
+        "lurianique"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/symboles/gilgul.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/golem",
+      "label": "Le Golem — figure de la création artificielle d'un être dans la tradition juive",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "judaisme",
+      "tags": [
+        "golem",
+        "creation-artificielle",
+        "kabbale",
+        "tradition-juive",
+        "homoncule"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/symboles/golem.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/symboles/habl-allah",
       "label": "Ḥabl Allāh (la corde/lien d'Allah)",
       "circuit": "doctrinal",
@@ -7051,7 +8202,7 @@
       ],
       "updated": "2026-06-11",
       "chemin": "doctrinal/symboles/ilm-al-huruf.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/ilm-al-nujum",
@@ -7071,7 +8222,7 @@
       ],
       "updated": "2026-06-11",
       "chemin": "doctrinal/symboles/ilm-al-nujum.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/imams-noms-divins",
@@ -7107,7 +8258,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/influx-spirituel-sommet-cranien.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/istidad",
@@ -7124,6 +8275,28 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/istidad.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/janus-bifrons",
+      "label": "Janus Bifrons — les deux visages et le troisième",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "hellenisme",
+      "tags": [
+        "janus",
+        "bifrons",
+        "temps",
+        "passe-futur-present",
+        "polarite",
+        "portes-solsticiales",
+        "axe",
+        "troisieme-oeil"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/symboles/janus-bifrons.md",
       "lacunes_to_source": 0
     },
     {
@@ -7157,7 +8330,7 @@
         "retraite",
         "stub"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/symboles/khalwa.md",
       "lacunes_to_source": 0
     },
@@ -7220,7 +8393,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/lieux-saints-france.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/lignees-celestes-taoisme",
@@ -7320,7 +8493,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/maqamat-meknes.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/marcher-sur-eau-en-reve",
@@ -7501,6 +8674,30 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "label": "La polarité latérale de l'axe : les deux canaux solaire et lunaire",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "axe-du-monde",
+        "nadis",
+        "ida",
+        "pingala",
+        "sushumna",
+        "sephiroth",
+        "colonnes",
+        "soleil-lune",
+        "caducee",
+        "polarite"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/symboles/polarite-laterale-de-l-axe.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/symboles/poseidon",
       "label": "Poséidon — lecture mythologique et philosophique",
       "circuit": "doctrinal",
@@ -7518,6 +8715,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/symboles/prakriti",
+      "label": "Prakriti (Nature manifestée)",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "prakriti",
+        "nature",
+        "manifestation",
+        "samkhya",
+        "gunas",
+        "purusha-prakriti"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/symboles/prakriti.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/symboles/priere-mosquee-prophete",
       "label": "Signification de la prière à la Mosquée du Prophète (réelle et onirique)",
       "circuit": "doctrinal",
@@ -7532,6 +8749,26 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/priere-mosquee-prophete.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/purusha",
+      "label": "Purusha (Conscience pure)",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "purusha",
+        "conscience",
+        "temoin",
+        "samkhya",
+        "purusha-prakriti",
+        "atma"
+      ],
+      "updated": "2026-08-30",
+      "chemin": "doctrinal/symboles/purusha.md",
       "lacunes_to_source": 0
     },
     {
@@ -7567,7 +8804,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/salawat.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/scarabee-egyptien",
@@ -7636,7 +8873,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/taabir-al-ruya.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/taawil-par-le-nom",
@@ -7653,7 +8890,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/taawil-par-le-nom.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/tabia",
@@ -7712,7 +8949,7 @@
         "gloton",
         "wiki-manifest"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/symboles/table-28-degres-nafas-rahman.md",
       "lacunes_to_source": 0
     },
@@ -7752,7 +8989,7 @@
       ],
       "updated": "2026-08-25",
       "chemin": "doctrinal/symboles/talisman-sihr.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/tapisserie-navajo",
@@ -7804,7 +9041,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/tarbiyya-rabbaniyya.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/tard",
@@ -7917,7 +9154,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/tibb-e-nabawi.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/tibb-ruhani",
@@ -8054,7 +9291,7 @@
         "ibn-arabi",
         "unite-de-letre"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/symboles/wahdat-al-wujud.md",
       "lacunes_to_source": 0
     },
@@ -8128,7 +9365,7 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/wird-awrad.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa",
@@ -8143,7 +9380,7 @@
         "theologie",
         "orthodoxie"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa.md",
       "lacunes_to_source": 0
     },
@@ -8164,7 +9401,7 @@
       ],
       "updated": "2026-07-06",
       "chemin": "doctrinal/traditions/madhhab-maliki.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/traditions/naqshbandiyya",
@@ -8235,7 +9472,7 @@
         "tasawwuf",
         "ihsan"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-08-30",
       "chemin": "doctrinal/traditions/tasawwuf.md",
       "lacunes_to_source": 0
     },
@@ -8821,6 +10058,34 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/lumiere-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/bibliotheque/eckstein-porte-du-ciel",
       "target": "atelier/rd/bibliotheque/sommaire-porte-du-ciel",
       "champ": "links",
@@ -9010,6 +10275,27 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme",
+      "target": "atelier/rd/bibliotheque/lumiere-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme",
       "target": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
       "champ": "links",
@@ -9166,6 +10452,62 @@
     {
       "source": "atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder",
       "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme",
+      "target": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme",
+      "target": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme",
+      "target": "doctrinal/sources/avalon-serpent-power-nadis-reseau",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast",
+      "target": "atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents",
+      "target": "atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents",
+      "target": "atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -9355,6 +10697,13 @@
     {
       "source": "atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18",
       "target": "atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31",
+      "target": "atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -9747,6 +11096,195 @@
     {
       "source": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
       "target": "doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "target": "atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "target": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "target": "atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "target": "doctrinal/symboles/hadarat-khams",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "target": "doctrinal/symboles/barzakh",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "target": "doctrinal/symboles/alam-al-mithal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "target": "doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "target": "doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres",
+      "target": "doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable",
+      "target": "doctrinal/symboles/janus-bifrons",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable",
+      "target": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable",
+      "target": "doctrinal/symboles/table-28-degres-nafas-rahman",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable",
+      "target": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable",
+      "target": "atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "target": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "target": "doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "target": "doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "target": "doctrinal/discernement/2026-08-29_sept-poles-sept-lataif",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "target": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "target": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "target": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "target": "doctrinal/sources/avalon-serpent-power-nadis-reseau",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "target": "atelier/rd/instrument/spec-anneau-zodiacal",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -10725,6 +12263,27 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/autorites/haim-vital",
+      "target": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/haim-vital",
+      "target": "doctrinal/autorites/isaac-louria-arizal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/haim-vital",
+      "target": "doctrinal/symboles/gilgul",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/autorites/hamza-yusuf",
       "target": "doctrinal/symboles/shukr",
       "champ": "cross_links",
@@ -10859,6 +12418,13 @@
     },
     {
       "source": "doctrinal/autorites/ibn-sina",
+      "target": "doctrinal/sources/islam-and-artificial-intelligence",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ibn-sina",
       "target": "doctrinal/etudes/2026-06-04_islam-et-ia",
       "champ": "cross_links",
       "nature": "lien",
@@ -10930,6 +12496,34 @@
     {
       "source": "doctrinal/autorites/imam-malik",
       "target": "doctrinal/symboles/fiqh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/isaac-louria-arizal",
+      "target": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/isaac-louria-arizal",
+      "target": "doctrinal/autorites/haim-vital",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/isaac-louria-arizal",
+      "target": "doctrinal/symboles/gilgul",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/isaac-louria-arizal",
+      "target": "doctrinal/symboles/cinq-noms-ame",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -11098,6 +12692,27 @@
     {
       "source": "doctrinal/autorites/platon",
       "target": "doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/raphael-afilalo",
+      "target": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/raphael-afilalo",
+      "target": "doctrinal/autorites/haim-vital",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/raphael-afilalo",
+      "target": "doctrinal/autorites/isaac-louria-arizal",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -11524,7 +13139,21 @@
     },
     {
       "source": "doctrinal/deviations/reincarnation-vies-anterieures",
+      "target": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/deviations/reincarnation-vies-anterieures",
       "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/deviations/reincarnation-vies-anterieures",
+      "target": "doctrinal/symboles/gilgul",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -13253,6 +14882,13 @@
     },
     {
       "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "target": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
       "target": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
       "champ": "cross_links",
       "nature": "lien",
@@ -13483,6 +15119,55 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma",
+      "target": "doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma",
+      "target": "doctrinal/symboles/hadarat-khams",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma",
+      "target": "doctrinal/symboles/alam-al-mithal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma",
+      "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma",
+      "target": "doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
       "target": "doctrinal/sources/guenon-octogone",
       "champ": "sources",
@@ -13513,6 +15198,461 @@
     {
       "source": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
       "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "target": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "target": "doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "target": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_sept-poles-sept-lataif",
+      "target": "doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_sept-poles-sept-lataif",
+      "target": "doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_sept-poles-sept-lataif",
+      "target": "doctrinal/symboles/coeurs-subtils",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-29_sept-poles-sept-lataif",
+      "target": "doctrinal/symboles/influx-spirituel-sommet-cranien",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf",
+      "target": "doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf",
+      "target": "doctrinal/sources/2026-07-03_guenon-tombeau-hermes",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf",
+      "target": "doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf",
+      "target": "doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf",
+      "target": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf",
+      "target": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf",
+      "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities",
+      "target": "doctrinal/sources/sept-etendards-califat",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities",
+      "target": "doctrinal/sources/meftah-chatons-sagesses-transcription",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities",
+      "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities",
+      "target": "doctrinal/symboles/firasa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities",
+      "target": "doctrinal/autorites/michel-valsan",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities",
+      "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities",
+      "target": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/sources/razi-noms-divins-ch18-khafid-rafi",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/sources/gloton-approche-coran-grammaire-lexique",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/sources/sept-etendards-califat",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/symboles/table-28-degres-nafas-rahman",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/symboles/waqia",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres",
+      "target": "doctrinal/autorites/michel-valsan",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation",
+      "target": "doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation",
+      "target": "doctrinal/symboles/table-28-degres-nafas-rahman",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation",
+      "target": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation",
+      "target": "doctrinal/symboles/merkavah-muraqaba",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation",
+      "target": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation",
+      "target": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation",
+      "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet",
+      "target": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet",
+      "target": "doctrinal/sources/avalon-serpent-power-nadis-reseau",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet",
+      "target": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet",
+      "target": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet",
+      "target": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet",
+      "target": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons",
+      "target": "doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons",
+      "target": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons",
+      "target": "doctrinal/symboles/janus-bifrons",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons",
+      "target": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons",
+      "target": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons",
+      "target": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "target": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "target": "doctrinal/sources/guenon-dome-et-la-roue",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "target": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "target": "doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "target": "doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "target": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "target": "doctrinal/symboles/al-insan-al-kamil",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -13550,6 +15690,13 @@
       "target": "doctrinal/symboles/al-insan-al-kamil",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-06-04_islam-et-ia",
+      "target": "doctrinal/sources/islam-and-artificial-intelligence",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
@@ -13665,6 +15812,83 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani",
+      "target": "doctrinal/autorites/al-jurjani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani",
+      "target": "doctrinal/sources/kitab-tarifat-index-transcription",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "target": "doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "target": "doctrinal/symboles/purusha",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "target": "doctrinal/symboles/prakriti",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "target": "doctrinal/symboles/atma",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "target": "doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "target": "doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/2026-07-03_guenon-tombeau-hermes",
       "target": "doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien",
       "champ": "cross_links",
@@ -13681,6 +15905,69 @@
     {
       "source": "doctrinal/sources/2026-07-03_guenon-tombeau-hermes",
       "target": "doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "target": "doctrinal/autorites/isaac-louria-arizal",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "target": "doctrinal/autorites/haim-vital",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "target": "doctrinal/autorites/raphael-afilalo",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "target": "doctrinal/symboles/cinq-noms-ame",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "target": "doctrinal/symboles/gilgul",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "target": "doctrinal/sources/kabbale-cosmogonie-iod",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "target": "doctrinal/deviations/reincarnation-vies-anterieures",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "target": "doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -13716,6 +16003,27 @@
     {
       "source": "doctrinal/sources/archeometre-saint-yves-papus-1911",
       "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/avalon-serpent-power-nadis-reseau",
+      "target": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/avalon-serpent-power-nadis-reseau",
+      "target": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/avalon-serpent-power-nadis-reseau",
+      "target": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -13828,6 +16136,41 @@
     {
       "source": "doctrinal/sources/dalail-al-khayrat-jazuli",
       "target": "doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes",
+      "target": "doctrinal/symboles/hadarat-khams",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes",
+      "target": "doctrinal/symboles/alam-al-mithal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes",
+      "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes",
+      "target": "doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -13996,6 +16339,34 @@
     {
       "source": "doctrinal/sources/gilis-ordo-ab-chao",
       "target": "doctrinal/discernement/2026-07-02_coudee-royale-convergence-28",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/gloton-approche-coran-grammaire-lexique",
+      "target": "doctrinal/symboles/ilm-al-huruf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/gloton-approche-coran-grammaire-lexique",
+      "target": "doctrinal/symboles/asma-al-husna",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/gloton-approche-coran-grammaire-lexique",
+      "target": "doctrinal/sources/razi-noms-divins-ch18-khafid-rafi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/gloton-approche-coran-grammaire-lexique",
+      "target": "doctrinal/symboles/table-28-degres-nafas-rahman",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -14171,6 +16542,41 @@
     {
       "source": "doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles",
       "target": "doctrinal/symboles/table-28-degres-nafas-rahman",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats",
+      "target": "doctrinal/sources/guenon-etats-multiples-ch4-fondement",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats",
+      "target": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -14366,6 +16772,13 @@
     },
     {
       "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
       "nature": "lien",
@@ -14416,6 +16829,62 @@
     {
       "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21",
       "target": "doctrinal/symboles/eschatologie",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "target": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "target": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "target": "doctrinal/sources/avalon-serpent-power-nadis-reseau",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "target": "doctrinal/symboles/influx-spirituel-sommet-cranien",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "target": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -14652,6 +17121,27 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya",
+      "target": "doctrinal/symboles/prakriti",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya",
+      "target": "doctrinal/symboles/purusha",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
       "target": "doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra",
       "champ": "cross_links",
@@ -14661,6 +17151,20 @@
     {
       "source": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
       "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "target": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -14904,6 +17408,34 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-symboles-science-sacree-ch18-janus",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symboles-science-sacree-ch18-janus",
+      "target": "doctrinal/symboles/janus-bifrons",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices",
+      "target": "doctrinal/symboles/janus-bifrons",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -14995,6 +17527,41 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain",
+      "target": "doctrinal/sources/guenon-etats-multiples-ch4-fondement",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain",
+      "target": "doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -15004,6 +17571,34 @@
     {
       "source": "doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace",
       "target": "doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas",
+      "target": "doctrinal/symboles/polarite-laterale-de-l-axe",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -15597,6 +18192,20 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/manifeste-corpus-symboles-science-sacree",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/manifeste-corpus-symboles-science-sacree",
+      "target": "doctrinal/sources/transcription-table-matieres-symboles-science-sacree",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/mawlid-al-rasul",
       "target": "doctrinal/autorites/abd-al-qadir-al-jilani",
       "champ": "cross_links",
@@ -15774,6 +18383,34 @@
     {
       "source": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne",
       "target": "doctrinal/symboles/al-insan-al-kamil",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/razi-noms-divins-ch18-khafid-rafi",
+      "target": "doctrinal/symboles/asma-al-husna",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/razi-noms-divins-ch18-khafid-rafi",
+      "target": "doctrinal/symboles/table-28-degres-nafas-rahman",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/razi-noms-divins-ch18-khafid-rafi",
+      "target": "doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/razi-noms-divins-ch18-khafid-rafi",
+      "target": "doctrinal/symboles/waqia",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -15984,6 +18621,27 @@
     {
       "source": "doctrinal/sources/transcription-index-tilak-origine-polaire",
       "target": "doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -16402,6 +19060,27 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/atma",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/atma",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/atma",
+      "target": "doctrinal/symboles/purusha",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/atma-gita-guenon",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -16607,6 +19286,41 @@
     {
       "source": "doctrinal/symboles/cheveux-blancs-en-reve",
       "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/cinq-noms-ame",
+      "target": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/cinq-noms-ame",
+      "target": "doctrinal/symboles/gilgul",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/cinq-noms-ame",
+      "target": "doctrinal/symboles/hadarat-khams",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/cinq-noms-ame",
+      "target": "doctrinal/symboles/coeurs-subtils",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/cinq-noms-ame",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -16850,6 +19564,41 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/gilgul",
+      "target": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/gilgul",
+      "target": "doctrinal/symboles/cinq-noms-ame",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/gilgul",
+      "target": "doctrinal/deviations/reincarnation-vies-anterieures",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/gilgul",
+      "target": "doctrinal/autorites/isaac-louria-arizal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/gilgul",
+      "target": "doctrinal/autorites/haim-vital",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/habl-allah",
       "target": "doctrinal/symboles/axe-corde-en-reve",
       "champ": "cross_links",
@@ -17069,6 +19818,55 @@
     {
       "source": "doctrinal/symboles/istidad",
       "target": "doctrinal/deviations/reincarnation-vies-anterieures",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/janus-bifrons",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/janus-bifrons",
+      "target": "doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/janus-bifrons",
+      "target": "doctrinal/sources/guenon-symboles-science-sacree-ch18-janus",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/janus-bifrons",
+      "target": "doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/janus-bifrons",
+      "target": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/janus-bifrons",
+      "target": "doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/janus-bifrons",
+      "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -17564,8 +20362,78 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "target": "doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "target": "doctrinal/sources/kabbale-10-sefirot-structure",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "target": "doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "target": "doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "target": "doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/polarite-laterale-de-l-axe",
+      "target": "doctrinal/deviations/renversement-des-symboles",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/poseidon",
       "target": "doctrinal/autorites/platon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/prakriti",
+      "target": "doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/prakriti",
+      "target": "doctrinal/symboles/purusha",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/prakriti",
+      "target": "doctrinal/symboles/atma",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -17587,6 +20455,27 @@
     {
       "source": "doctrinal/symboles/priere-mosquee-prophete",
       "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/purusha",
+      "target": "doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/purusha",
+      "target": "doctrinal/symboles/atma",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/purusha",
+      "target": "doctrinal/symboles/prakriti",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -18331,6 +21220,13 @@
       "target": "doctrinal/sources/hasbiyallah-rabbani",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {

@@ -2,7 +2,7 @@
 title: "meta-index — hub du Domaine Réservé"
 type: meta
 created: 2026-08-09
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # meta-index — hub du Domaine Réservé (`meta/`)
@@ -120,18 +120,18 @@ updated: 2026-08-30
 
 ### hermes-prompts/ (13 rôles + note)
 
-- [[meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction|Rôle — A&R / Music Artistic Direction]]
-- [[meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction|Rôle — Visual & Editorial Artistic Direction]]
-- [[meta/projet-unifie/hermes-prompts/03-production-manager|Rôle — Production Manager]]
-- [[meta/projet-unifie/hermes-prompts/04-administration-legal|Rôle — Administration & Legal]]
-- [[meta/projet-unifie/hermes-prompts/05-accounting-management|Rôle — Accounting & Management]]
-- [[meta/projet-unifie/hermes-prompts/06-distribution|Rôle — Distribution]]
-- [[meta/projet-unifie/hermes-prompts/07-marketing-communication|Rôle — Marketing & Communication]]
-- [[meta/projet-unifie/hermes-prompts/08-publication-site|Rôle — Publication / Site Orchestrator]]
-- [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer|Rôle — Studio Sound Engineer]]
-- [[meta/projet-unifie/hermes-prompts/10-protocol-guardian|Rôle — Protocol Guardian]]
-- [[meta/projet-unifie/hermes-prompts/11-fanzine-editor|Rôle — Fanzine Editor]]
-- [[meta/projet-unifie/hermes-prompts/12-commerce-profitability|Rôle — Commerce & Profitability]]
+- [[meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/01-principe|Rôle — A&R / Music Artistic Direction]]
+- [[meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/02-principe|Rôle — Visual & Editorial Artistic Direction]]
+- [[meta/projet-unifie/hermes-prompts/03-production-manager/03-principe|Rôle — Production Manager]]
+- [[meta/projet-unifie/hermes-prompts/04-administration-legal/04-principe|Rôle — Administration & Legal]]
+- [[meta/projet-unifie/hermes-prompts/05-accounting-management/05-principe|Rôle — Accounting & Management]]
+- [[meta/projet-unifie/hermes-prompts/06-distribution/06-principe|Rôle — Distribution]]
+- [[meta/projet-unifie/hermes-prompts/07-marketing-communication/07-principe|Rôle — Marketing & Communication]]
+- [[meta/projet-unifie/hermes-prompts/08-publication-site/08-principe|Rôle — Publication / Site Orchestrator (principe + mandats)]]
+- [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/09-principe|Rôle — Studio Sound Engineer]]
+- [[meta/projet-unifie/hermes-prompts/10-protocol-guardian/10-principe|Rôle — Protocol Guardian]]
+- [[meta/projet-unifie/hermes-prompts/11-fanzine-editor/11-principe|Rôle — Fanzine Editor]]
+- [[meta/projet-unifie/hermes-prompts/12-commerce-profitability/12-principe|Rôle — Commerce & Profitability]]
 - [[meta/projet-unifie/hermes-prompts/13-librarian-archivist|Rôle — Librarian & Archivist (déprécié, fusionné dans 08)]] (ouvert 2026-08-22, fusionné 2026-08-24)
 - [[meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03|Note d'optimisation — intégration Hermes Agent]]
 

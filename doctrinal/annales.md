@@ -1,13 +1,42 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-31] archivage | Shaar Hagilgulim — première pièce lurianique du dépôt
+
+- **Opération** : ARCHIVAGE & MAILLAGE
+- **Source brute** : `raw/Shaar Hagilgulim – Gate of Reincarnations.md` — Arizal
+  (via Haïm Vital), trad./annot. R. Raphael Afilalo
+- **Créé** :
+  - source [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]]
+  - symboles [[doctrinal/symboles/cinq-noms-ame]], [[doctrinal/symboles/gilgul]]
+  - autorités [[doctrinal/autorites/isaac-louria-arizal]],
+    [[doctrinal/autorites/haim-vital]], [[doctrinal/autorites/raphael-afilalo]]
+- **Modifié** : [[doctrinal/deviations/reincarnation-vies-anterieures]] —
+  ajout d'une section « Le cas du gilgul kabbalistique », distinguant cette
+  transmission du « réincarnationnisme » occidental moderne que Guénon réfute
+- **Décision engagée** : cet ingest tranche l'option C de
+  [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]
+  (« engager un chantier kabbalistique structuré ») — verdict de Sidy donné
+  en amont de l'écriture
+- **Réserve explicite de Sidy** : l'orthodoxie du gilgul n'est **pas
+  tranchée** — reconnu comme doctrine largement admise dans le monde
+  hébraïque contemporain, sans verdict sur son statut traditionnel au sens
+  guénonien. Consignée dans les trois fiches concernées (source, symbole
+  gilgul, déviation réincarnation), aucune conclusion imposée.
+- **Liens** : proposés en *kari-kumi* uniquement (zéro lien entrant au
+  moment de l'archivage) — vers `hadarat-khams`, `coeurs-subtils`, et le
+  précédent [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] ;
+  aucun inscrit en dur, verdict réservé à Sidy (procédure du circuit).
+- **Vigilance** : Gizeh confronté, négatif (matière non polaire/métrologique).
+  Bibliothèque physique consultée, aucune copie recensée.
 
 ## [2026-08-30] enrichissement | Discernement matrices-artificielles — ajout figure commune cinq matrices
 

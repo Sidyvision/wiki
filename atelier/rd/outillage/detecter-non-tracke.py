@@ -25,9 +25,10 @@ import subprocess
 import sys
 
 # Dossiers de service, jamais un circuit — un fichier non tracké ici n'a pas
-# vocation à être classé par circuit (raw/ = dépôts en attente, _inbox/ = idem,
-# Graphe/ = outillage racine, pas un circuit doctrinal).
-DOSSIERS_HORS_CIRCUIT = {"raw", "_inbox", "Graphe", ".git"}
+# vocation à être classé par circuit (raw/ = dépôts en attente, _inbox/ = idem).
+# Note (2026-08-31) : Graphe/ a déménagé sous atelier/rd/outillage/graphe/ — il
+# relève désormais normalement du circuit atelier, retiré de cet ensemble.
+DOSSIERS_HORS_CIRCUIT = {"raw", "_inbox", ".git"}
 
 # Circuits reconnus par le protocole (CLAUDE.md §I). Note : verifier-invariants.py
 # n'en connaît que 4 (doctrinal, atelier, label, meta) — hermeneutique/ existe au

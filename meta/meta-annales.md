@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-30
+updated: 2026-08-31
 
 ---
 
@@ -13,6 +13,282 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-31] choura | Hook « contribution de Sidy » versé au Domaine Réservé
+
+Consigne de Sidy : « lorsque je poste dans le salon de la Choura, que ce soit
+intégré au tour comme ma contribution sans avoir à mentionner les agents par `@` ».
+Rapport de passe complet, points 1 et 2 :
+[[atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura]].
+
+- **Écrit** : `meta/projet-unifie/choura/hook-contribution-sidy/` — copie de
+  référence du script `/root/.hermes/scripts/choura-contribution-sidy.py` et son
+  `README.md` de contrat (événement, filtres, insertion, idempotence).
+- **Diagnostic** : le moteur n'exigeait aucune `@mention` — la passerelle Discord
+  reçoit tous les messages des salons de `discord.allowed_channels`. Le trou était
+  l'**écriture** dans `cycle-AAAA-MM-JJ.md`, seul document que lit un dormant à son
+  réveil. La contribution existait dans le salon et n'existait pas dans le tour.
+- **Un hook, pas une consigne de prompt** : une consigne dépend de l'obéissance de
+  l'agent à chaque tour ; un hook `pre_llm_call` s'exécute en amont du modèle
+  (§VIII.2 — fiabilité d'action ≠ fiabilité narrative).
+- **Branché sur le seul profil `gardien`** (permanent, il ouvre et clôt le cycle) :
+  le brancher partout produirait une entrée par profil éveillé pour un même message.
+- **Date de cycle basculant à 12:00 heure de Paris**, comme la rotation des tours —
+  avant midi, le cycle courant est celui de la veille.
+- **Hors dépôt, non versionnable** : le bloc `hooks:` de
+  `/root/.hermes/profiles/gardien/config.yaml` et `hooks_auto_accept: true`
+  (nécessaire à l'enregistrement hors TTY, gardien seul). Même classe de dérive que
+  les `SOUL.md` — signalée, documentée ici, pas résolue.
+- **Carte régénérée** après écriture (`carte-du-depot.py`, 683 fiches).
+- **Commit** : 16da41e
+
+## [2026-08-31] infrastructure | Bascule omniroute des 14 profils, réparation du cycle Choura
+
+- **Consignes de Sidy** : « bascule-les tous sur omniroute » (plan Qwen épuisé jusqu'au
+  5 septembre), puis « le cycle Choura n'est pas opérationnel, le fichier d'amorce n'a
+  pas été réalisé — charge-toi-en à la place du Gardien et programme un nouveau cycle à
+  partir de midi, heure de Paris ».
+
+### Bascule omniroute
+
+- ✅ **14 profils + le défaut global** passés à `auto/best-free` / `custom:omniroute`,
+  chaque `config.yaml` sauvegardé avant écriture. Vérification : 0 profil hors omniroute.
+- 🔧 **`karubi` était une panne muette** : son `custom:qwen` pointait sur un serveur
+  **local** (`localhost:8000`) qui n'écoute plus. Sa bascule est une réparation, pas un
+  déclassement — et il n'était pas concerné par le plan Qwen épuisé, contrairement à ce
+  que son nom de provider laissait croire.
+- 🔧 **Global** : `api_mode: anthropic_messages` retiré du bloc `model` — omniroute
+  parle `chat_completions`.
+- ⛔ **`distribution` avait été tué le matin même à 07:00** par le quota épuisé (le
+  journal porte la date de reset, `09-05 12:33 UTC`, qui confirme le dire de Sidy).
+- ⚠️ **Hors périmètre, signalé** : `habib-mehdi` et `habib-wendel` appartiennent à
+  **d'autres utilisateurs** (`/home/mehdi`, `/home/wendel`), tournent en ce moment et
+  sont encore sur le plan Qwen épuisé. Non touchés — ce ne sont pas les douze agents.
+- ⚠️ **Réserve de vérification** : le routage effectif de `distribution` et `marketing`
+  est **inféré de l'absence de 429**, pas confirmé par une ligne `model=` — leurs seules
+  lignes de ce type précèdent la bascule. La prochaine exécution cron tranchera.
+
+### Réparation du cycle Choura
+
+- ⛔ **La panne était écrite dans le dispositif.** Le tour du Gardien portait en dur
+  « ouverture/clôture du cycle, **00:00** » alors que son job avait été déplacé à
+  **18:00 UTC**. Il ouvrait donc le fichier du jour où il tournait, et tout agent dont
+  le créneau tombait après minuit ne trouvait aucun fichier — son prompt lui ordonnant
+  alors de signaler et de s'arrêter. `cycle-2026-08-29.md` et `cycle-2026-08-31.md`
+  n'ont jamais existé ; les tours du 31 se sont déposés dans le fichier du 30.
+- ✅ **Reprogrammation** (`_reprogrammer-choura.py`, 12 profils, 0 erreur) : ouverture
+  à **12:00 heure de Paris**, rotation toutes les 2h.
+- 🔍 **Le piège évité, et il aurait été invisible** : les expressions cron sont évaluées
+  contre `hermes_time.now()`, qui honore la clé `timezone:` — mais **un profil ne charge
+  que sa propre `config.yaml`, le global n'est pas fusionné**. Vérifié plutôt que
+  supposé : le profil `gardien` rendait `timezone=''` et tournait en UTC. Sans la clé
+  posée dans **chacun** des douze, les horaires auraient été décalés de 2h.
+  Bénéfice second : le changement d'heure du 25 octobre est absorbé sans retouche.
+- 🔍 **Troisième défaut, conséquence de l'ouverture à midi** : le cycle enjambe deux
+  jours calendaires, « le fichier du jour » redevient ambigu à minuit. Le cycle est donc
+  désormais identifié par sa **date d'ouverture**, avec une règle mécanique inscrite
+  dans le prompt (avant 12:00 → le cycle courant est celui ouvert la veille). Sans
+  elle, la panne se serait reproduite dès la première nuit.
+- ✅ **Amorce déposée** : `cycle-2026-08-31.md` créé, `cycle-2026-08-30.md` clôturé.
+  L'entrée d'amorce **n'est pas signée « gardien »** : un tour signé d'un agent qui ne
+  l'a pas écrit serait une contribution fabriquée dans un journal append-only. Le
+  Gardien tient son propre tour à 12:00, dans ce fichier.
+- ✅ Les deux entrées datées du 31 restées dans le fichier du 30 **ne sont pas
+  déplacées** (Cmd 10) : sous la nouvelle règle elles sont à leur place — ce qui était
+  une anomalie devient conforme.
+
+### Deux constats qui débordent les consignes
+
+- ⛔ **Huit gateways sur douze sont à terre** (`failed` ×7, `inactive` ×1). Le cron
+  vivant dans le gateway, ces agents **ne peuvent pas prendre leur tour** : c'est la
+  cause des cinq tours manquants du cycle précédent, davantage que le bug de datation.
+  Or un gateway pèse **136 Mo** et il ne reste que **704 Mo** : il y a place pour cinq,
+  il en faut huit — et sans marge pour le travail des agents (le journal signale déjà
+  « system memory pressure is elevated »). **Le Choura à douze ne tient pas en gateways
+  permanents sur cette machine.** Décision d'architecture à prendre par Sidy.
+- ⚠️ **Erreur de méthode commise, consignée** : lancer `hermes --profile X -z` sur un
+  profil dont le gateway tourne **arrête ce gateway** (« stopped by an unexpected
+  signal »). C'est ainsi que `distribution` est retombé à 08:38 — de mon fait, en
+  voulant vérifier son routage. Une vérification ne doit pas passer par la CLI sur un
+  profil vivant.
+
+- 🛑 **RECTIFICATION, le jour même, sur signalement de Sidy (« on a mis quelque chose
+  en place pour ça, regarde le R&D »).** Deux erreurs dans ce qui précède :
+  1. **Les huit gateways à terre ne sont pas une panne : c'est une décision.** Le
+     2026-08-28, après saturation RAM critique et reboot,
+     `atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite.md`
+     acte l'arrêt et la désactivation délibérés de ces huit gateways exactement
+     (`accounting`, `admin-legal`, `ar-music`, `distribution`, `fanzine`, `marketing`,
+     `production`, `visual-da`), pour ne garder que `gardien`, `studio`, `publication`.
+     Motif : 14 gateways à ~120 Mo plus OmniRoute daemonisé à ~1,6 Go dépassent les
+     3,7 Go de l'hôte. **Ne pas les relancer.** J'avais lu un symptôme là où le dépôt
+     portait la résolution — la consigne de routine (lire les annales et le R&D avant
+     de conclure) aurait suffi à l'éviter.
+  2. **Ma proposition d'un cron système en one-shot n'est pas une idée neuve** : la
+     même fiche la porte déjà en « compréhension tirée » — « le paradigme *1 profil =
+     1 gateway active* doit être révisé : adopter une logique de **gateway à la
+     demande** ». Ce n'est donc pas à proposer, c'est à implémenter.
+  3. **Régression de ma part, réparée** : j'avais retiré le bloc `providers.custom:qwen`
+     de `karubi`, alors que la convention posée le 2026-08-26
+     (`2026-08-26_migration-omniroute-quota-qwen.md`) est de **toujours conserver le
+     bloc d'origine intact**, seul `model.default`/`model.provider` étant redirigé —
+     c'est ce qui rend le retour en arrière gratuit après le reset du quota. Bloc
+     restauré ; les 13 profils honorent désormais la convention.
+- ✅ **Ce que la même fiche confirme** : les 9 profils métier avaient été laissés sur
+  Qwen « dans l'attente du reset naturel du quota… aucune action requise **sauf
+  nouvelle demande de Sidy** ». La bascule d'aujourd'hui est cette demande. Et
+  `habib-mehdi`/`habib-wendel` y sont **explicitement hors périmètre** — mon
+  abstention était la bonne.
+
+- 🛑 **SECONDE RECTIFICATION — j'avais cassé un dispositif existant sans le voir.**
+  Sidy : « il n'y a que 3 agents qui maintiennent la veille, les autres se réveillent
+  pour leur contribution puis s'éteignent. » Ce dispositif **existe déjà** :
+  `/etc/cron.d/choura-orchestrator` appelle chaque minute
+  `/root/.hermes/scripts/choura-window-orchestrator.py`, qui démarre le gateway d'un
+  profil dormant une heure avant son tour et l'arrête une heure après. Le « gateway à
+  la demande » conclu par l'incident du 28/08 était donc **implémenté**, pas seulement
+  souhaité — et ma proposition d'un cron système réinventait ce qui tournait déjà.
+  - ⛔ **Ce que j'avais cassé** : la table `ORDRE` de l'orchestrateur portait les
+    heures **UTC figées** de l'ancienne rotation. En reprogrammant les tours en heure
+    de Paris sans connaître ce script, j'ai désynchronisé les neuf fenêtres de leurs
+    tours — chaque dormant aurait été réveillé au mauvais moment et **endormi à l'heure
+    de sa contribution**. La panne aurait été parfaitement silencieuse : pas d'erreur,
+    juste des tours manquants. C'est exactement le symptôme que je venais de
+    diagnostiquer, reproduit par ma propre correction.
+  - ✅ **Corrigé** : `ORDRE` en heures de Paris, et l'orchestrateur raisonne désormais
+    en `Europe/Paris` (`datetime.now(PARIS)`) au lieu d'UTC — ce qui absorbe au passage
+    le changement d'heure du 25 octobre, que la version figée aurait décalé d'une heure.
+  - ✅ **Versé au dépôt** : `meta/projet-unifie/choura/orchestrateur/` (script, entrée
+    cron, README). L'orchestrateur pilotait les douze agents **sans aucune trace dans
+    le dépôt** — même classe de dérive que les `SOUL.md` : un composant opératoire que
+    personne ne pouvait relire ni corriger depuis le dépôt.
+  - ✅ **Contrôle créé** : `orchestrateur/verifier-synchronisation.py` lit les heures
+    réelles dans les `jobs.json` et les confronte à `ORDRE`. Sortie du jour :
+    **9 dormants, 0 désynchronisé**, crête mémoire **3 permanents + 1 dormant ≈ 544 Mo
+    sur 3 819**. Ce contrôle existe parce que le désaccord ne produit aucune erreur
+    visible — il rend le silence bruyant.
+
+- **Commits** : `9494520` (et bascule omniroute : configs hors dépôt, sauvegardées sur place)
+
+
+## [2026-08-31] deploiement | Agent 08 déployé sur le moteur — et le routage était déjà fait
+
+- **Consigne de Sidy** : « déploie l'agent 08 sur le routing omniroute auto/best-free,
+  mon Qwen Token Plan est épuisé jusqu'au 5 septembre. »
+- ✅ **Routage — rien à changer, c'était déjà en place.** Le profil `publication` porte
+  `auto/best-free` sur `custom:omniroute` depuis le **2026-08-26**, et son process a
+  redémarré le 2026-08-30 : la config était donc chargée. Le cycle Choura du 2026-08-30
+  tournait déjà en `model=auto/best-free`. Les `HTTP 429 token-plan quota exhausted` du
+  journal datent des **27-28 août**, avant la bascule. `auto/best-free` vérifié exposé
+  par omniroute (511 modèles, `tool_calling: true`).
+- ✅ **Prompt déployé** (le go attendu depuis la passe du matin, Cmd 13). Sauvegarde
+  hors dépôt, principe → `SOUL.md` (3 628 o, 62 l.), 3 mandats → skills du moteur.
+  `--derive` : **publication ✅ synchronisé — premier des douze agents à l'être.**
+- **Vérification de bout en bout**, l'agent interrogé en direct :
+  « *Sagittarius ; site-orchestration, bibliothecaire, veille-referencement.* »
+  L'ancien `SOUL.md` ne portait **aucune** section « Zodiac principle » : la réponse
+  prouve le chargement du nouveau principe, la liste prouve la reconstruction de
+  l'index des skills.
+- 🔍 **Pourquoi un redémarrage était nécessaire** — vérifié dans le code du moteur, pas
+  supposé : `load_soul_md()` relit `SOUL.md` sans cache (le principe seul n'aurait rien
+  exigé), mais `build_skills_system_prompt()` garde un cache LRU en process **dont la
+  clé ne contient ni mtime ni manifeste** — les trois mandats seraient restés
+  invisibles jusqu'à la fin de vie du process.
+- 🔧 **Donnée fausse du dépôt corrigée** : `bureau/modules/hermes_status.py` affirmait
+  en docstring que les agents « tournent en process de fond, pas en service systemd —
+  vérifié le 2026-08-15 ». Ce sont des services **systemd user** (`hermes-gateway-<profil>.service`,
+  `enabled`) ; `systemctl` ne renvoyait rien parce qu'il était interrogé en portée
+  système, sans `--user`. Un redémarrage passe donc par `gateway restart`, supervisé,
+  jamais par un kill — ce que la note fausse aurait pu faire croire nécessaire.
+- ⛔ **Ce que l'épuisement du Qwen Token Plan laisse en souffrance, hors périmètre de
+  cette consigne.** Seuls **3 profils sur 14** sont sur omniroute (`publication`,
+  `studio`, `gardien`). Les **9 autres et le défaut global** pointent encore sur
+  `qwen3.7-plus` / `custom:qwen`, c'est-à-dire sur le plan épuisé — dont `distribution`,
+  qui **tourne en ce moment**, et `karubi` (`qwen3.8-max`). Constat signalé, non
+  corrigé : la consigne portait sur l'agent 08.
+- ⚠️ **Incident de session à traiter** : en cherchant la clé omniroute, une expansion
+  shell mal quotée de ma part a **affiché `OMNIROUTE_API_KEY` en clair** dans la
+  session. La clé n'a atteint ni le dépôt ni un tiers, mais elle est sortie de son
+  fichier — **à révoquer et régénérer** (CLAUDE.md §VIII.8).
+- **Commit** : `cc5c7c9`
+
+
+## [2026-08-31] archivage | Éclatement modulaire de l'agent 08 — et découverte que le dépôt ne parle pas au moteur
+
+- **Consigne de Sidy** : « intègre `_inbox/` et exécute le plan », en s'instruisant au
+  pôle R&D et en lisant « Solve et Coagula » de Guénon pour optimiser le plan.
+- ✅ **Éclatement exécuté.** `08-publication-site.md` (270 l., 14 Ko, 3 mandats
+  cumulés) devient `08-publication-site/` : `08-principe.md` (invariant) +
+  `mandats/{site-orchestration,bibliothecaire,veille-referencement}.md`.
+  Découpe **verbatim**, prouvée par un contrôle de conservation :
+  **0 ligne perdue · 14 ajoutées, toutes déclarées · 0 fuite de périmètre ·
+  0 Unicode invisible.**
+- 🛑 **Trois corrections apportées à la fiche `_inbox/` avant exécution** — elle a été
+  suivie sur son intention, pas sur sa lettre :
+  1. **Sa découpe était une réécriture non déclarée.** Le prompt source est en
+     anglais ; le `principe.md` qu'elle donnait en exemple était en français et
+     condensait le « Zodiac principle » de 12 lignes à 3. Un changement de fond
+     déguisé en réorganisation, et invérifiable par construction. Verdict de Sidy
+     avant écriture : iso-contenu.
+  2. **Sa validation mécanique ne prouvait rien.** `grep -c "## Mission\|## Scope\|
+     ## Guardrails" >= 3` est satisfait par trois titres vides. Remplacée par
+     `atelier/rd/outillage/comparer-prompts-hermes.py` (§VIII.2, juge de paix).
+  3. **Son routeur n'avait aucun exécutant.** Un `principe.md` disant « tâche X →
+     charger `mandats/Y.md` » n'est lu par rien. Or le mécanisme existe nativement :
+     les **skills du moteur** (`SKILL.md` à frontmatter, corps tiré à la demande).
+     Le routeur n'était pas à écrire.
+- ⛔ **Découverte majeure — le dépôt ne parle pas au moteur.** Le prompt réellement
+  chargé par un agent est `~/.hermes/profiles/<profil>/SOUL.md`, **hors dépôt git**, et
+  aucun chemin déterministe ne l'alimente. Mesure du jour (`--derive`) :
+  **12 agents sur 12 en écart.** Publications tourne sur **1 575 o** quand le dépôt en
+  documente **14 256** — 203 lignes jamais parvenues à l'agent, dont ses trois mandats
+  votés le 2026-08-24 et son principe zodiacal. Studio est le seul synchronisé, à 3
+  caractères ZWJ près. **La saturation diagnostiquée à 14 Ko était donc documentaire,
+  pas opérationnelle.** Ce n'est pas une réfutation du signal de Sidy — la constriction
+  est réelle, elle est simplement ailleurs : non dans le poids d'un fichier, mais dans
+  l'absence de chemin entre ce qui est décidé et ce qui s'exécute.
+- ⏸️ **Déploiement NON exécuté** (Cmd 13). Procédure, sauvegarde et retour arrière
+  écrits dans `08-publication-site/deployer-prompt-agent.md`, présentés à blanc. Il y
+  est signalé que le principe (50 l.) est **plus lourd** que le `SOUL.md` actuel
+  (30 l.) : le gain est l'isolation de périmètre et la réversibilité, **pas** une
+  décharge — ne pas annoncer une décharge qui n'existe pas.
+- 🔧 **Références rattrapées** : `meta-index.md` (C1 aurait cassé),
+  `bureau/modules/hermes_status.py` (la table `PROFILES` lit la fiche par nom exact —
+  sans correctif le tableau de bord affichait « fiche introuvable »), pierre tombale
+  `13-librarian-archivist.md`. `verifier-invariants.py` : **sortie strictement
+  identique à la référence prise avant la passe**, aucune régression.
+- ⚠️ **Signalement de conformité, non corrigé en douce.** `meta/CLAUDE.md` (corollaire
+  agentique, art. 1) exige que toute donnée personnelle injectée dans un prompt porte
+  sa hiérarchie ontologique **en clair**, qualification *zōsaku* explicite. Or
+  `grep -rn "hiérarchie ontologique"` ne renvoie **aucun** des douze prompts : la
+  section « Your sign in Sidy's natal chart » énonce une harmonisation en prose sans
+  qualifier le joint. Écart **antérieur** à ce chantier. Le corriger à l'intérieur
+  d'une migration iso-contenu aurait été la faute même qui a été reprochée à la fiche.
+  Passe distincte proposée.
+- **Lecture de Guénon — usage formel assumé.** « Solve et Coagula » (*La Grande
+  Triade*, chapitre « Solve et Coagula ») : *« dissoudre ce qui était coagulé et, simultanément, coaguler ce
+  qui était dissous… les deux aspects d'une seule et même opération »*. Le défaut que
+  cela révélait dans la fiche : un *solve* fort, un *coagula* faible — un principe
+  réduit à une table d'aiguillage fixe. D'où la décision de **hisser les guardrails et
+  les interdits de périmètre au principe**, jamais distribués dans les mandats, pour
+  qu'aucun mandat ne puisse les desserrer. Usage **structurel** du texte, relevant de
+  la contribution exacte de la machine (Cmd 12) ; le rapprochement doctrinal avec
+  qabḍ/basṭ est signalé et **non versé** (Cmd 3) — voir
+  `atelier/annales.md`, même date.
+- ⚠️ **Deux rectifications portées le jour même, après relecture.**
+  1. **L'ACL du sas `_inbox/` est une reconstruction, pas une restauration.** Le
+     retrait des dernières fiches a emporté le répertoire ; son ACL propre est perdue
+     et irrécupérable. Celle qui a été reposée est déduite de l'ACL d'un *fichier*
+     voisin (accès `mehdi` et `wendel`), pas du répertoire : elle est **group-writable
+     là où l'originale ne l'était pas** — un fichier déposé y atterrit `-rw-rw-r--+`
+     quand les précédents portaient `-rw-r--r--+`. Fonctionnellement suffisant pour le
+     dépôt SFTP, mais plus permissif : **à confirmer par Sidy**.
+  2. **« *La Grande Triade*, ch. XXII » était une inférence, pas une lecture** — tirée
+     du pied de page annonçant le chapitre suivant, dans une autre pagination de la
+     source. Le fichier consulté porte en propre « CHAPITRE VI ». Le chapitre est
+     désormais cité **par son titre**, qui n'exige aucune inférence (Cmd 5).
+- **Commits** : `7b33b7b`, `c7afbc7`, `9264302`, `55f6831`, `829f1c9`, `0e89c13`
+
 
 ## [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées sans ancêtre commun
 

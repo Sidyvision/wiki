@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,156 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-31] rapport | Migration des 11 agents + contribution de Sidy au Choura
+
+Demande de Sidy : « occupe-toi des points 1. et 2. et consigne ton rapport au R&D ».
+Rapport complet : [[atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura]].
+
+- **Point 1 — éclatement modulaire des 11 agents restants** (archivage `53ca630`) :
+  même nomenclature que l'agent 08 — `NN-principe.md` (invariant, toujours chargé)
+  + `mandats/*.md` (expertise, chargée à la demande). Garde-fous maintenus au
+  principe, jamais distribués dans les mandats.
+- **Contrôle de conservation repassé sur les 12** (`comparer-prompts-hermes.py
+  --conservation <agent> --source-git <ref>^:<chemin>`), sortie brute au rapport :
+  **12/12 — 0 ligne perdue, 0 ajout non déclaré, 0 fuite de périmètre, 0 caractère
+  invisible**. Découpe iso-contenu, verbatim, en anglais.
+- **Déploiement vers les `SOUL.md` : non exécuté** (Cmd 13, porte humaine).
+  `--derive` : **11 agents sur 12 en écart** avec le moteur (4 à 27 lignes du wiki
+  absentes) ; seul `publication` est synchronisé. Procédure prête, présentée à blanc.
+- **Point 2 — contribution de Sidy au tour sans `@mention`** : le moteur n'exigeait
+  aucune mention ; le trou était l'**écriture** dans `cycle-AAAA-MM-JJ.md`, seul
+  document que lisent les dormants à leur réveil. Hook `pre_llm_call`
+  `/root/.hermes/scripts/choura-contribution-sidy.py`, copie de référence versée en
+  `meta/projet-unifie/choura/hook-contribution-sidy/` avec son README de contrat.
+  Branché sur le **seul gardien** (permanent, il ouvre et clôt le cycle) ; date de
+  cycle basculant à **12:00 heure de Paris**, comme la rotation. Enregistrement
+  confirmé dans `agent.log`, essais rejoués puis retirés.
+- **Faute consignée** : mon premier contrôle a rendu « PERDUES : 346 » identique
+  pour les douze agents — `--source-git` attend `REF:chemin`, pas `REF`. Faute dans
+  le contrôle, pas dans les données ; le chiffre uniforme sur douze cas hétérogènes
+  est ce qui l'a trahi.
+- **Laissé au verdict de Sidy** : déploiement des 11 principes ; **clé
+  `OMNIROUTE_API_KEY` à révoquer et régénérer** (divulguée en clair par une
+  expansion shell de ma main, §VIII.8) ; hiérarchie ontologique *zōsaku* absente des
+  12 prompts ; qualification du joint qabḍ/basṭ ; rapprochement Guénon ↔ soufisme
+  (Cmd 3) ; 3 fichiers encore contaminés ZWJ ; ACL de `_inbox/` reconstruite plus
+  permissive que l'originale ; routage réel de `distribution`/`marketing` inféré,
+  non confirmé.
+- **Bruit d'outillage signalé** : `verifier-invariants.py` scanne le système de
+  fichiers et remonte désormais ~200 erreurs `[B0]` issues de
+  `atelier/rd/outillage/.graphify-venv/` (non versionné). Total identique avant et
+  après cette passe (207) — aucune régression imputable ici, mais l'exclusion du
+  venv est à instruire.
+- **Commit** : 16da41e
+
+## [2026-08-31] outillage | Essai Graphify (knowledge graph de code, local/déterministe)
+
+Demande de Sidy, à la suite d'une comparaison avec notre `generer-cartographie.py`.
+Fiche complète : [[atelier/rd/outillage/spec-essai-graphify]].
+
+- **Installé** en venv isolé (`atelier/rd/outillage/.graphify-venv/`, jamais
+  versionné) — `externally-managed-environment` sur le Python système, venv
+  requis.
+- **Périmètre respecté** : extraction limitée à `atelier/rd/outillage/`
+  (`--code-only`, aucun appel réseau constaté). `graphify install` (écriture
+  dans un `CLAUDE.md`/hook `PreToolUse`) **non exécuté** — hors demande,
+  décision distincte à instruire si l'essai est concluant.
+- **Résultat** : 163 nœuds, 230 arêtes, 21 communautés sur les 22 fichiers
+  Python du dossier. Rapport (`graphify-out/GRAPH_REPORT.md`, non versionné)
+  jugé lisible et pertinent (hubs, nœuds les plus connectés, nœuds isolés,
+  aucun cycle d'import).
+- `statut_experience: exploratoire` — verdict d'adoption réservé à Sidy.
+- **Commit** : 40af374
+
+## [2026-08-31] outillage | `Graphe/` racine déplacé en `atelier/rd/outillage/graphe/` + usage explicite dans la vérification générale
+
+Demande explicite de Sidy, en suite de l'ingest Shaar Hagilgulim
+(`doctrinal/annales.md`, même date) : renommer `Graphe/` en minuscule et le
+déplacer en outillage R&D, sous condition de ne pas endommager son
+fonctionnement — plus, séparément, rendre explicite l'usage du graphe dans la
+routine de vérification générale de clôture de session (§VII racine).
+
+- **Vérification préalable** : `generer-cartographie.py` n'a aucune dépendance
+  de chemin relative à sa propre localisation (`--depot` par défaut absolu,
+  `/root/wiki` ; aucun usage de `__file__`/`os.path.dirname`). Déplacement
+  confirmé sans risque fonctionnel avant exécution.
+- **Exécuté** : `git mv Graphe atelier/rd/outillage/graphe`. Régénération
+  testée depuis le nouvel emplacement : résultat identique (495 nœuds, 1712
+  arêtes), `graphe-cartographie.json` racine inchangé au diff.
+- **Références mises à jour** (documents opératoires uniquement — annales et
+  rapports datés non réécrits, Cmd 10) : `CLAUDE.md` racine (arbre §II,
+  en-tête de révisions, §VII), `doctrinal/CLAUDE.md` (procédure d'intégration),
+  `README.md`, `atelier/rd/outillage/detecter-non-tracke.py` (`"Graphe"` retiré
+  de `DOSSIERS_HORS_CIRCUIT` — le dossier rejoint désormais le circuit
+  `atelier`, il n'est plus hors-circuit comme `raw/`/`_inbox/`),
+  `atelier/rd/outillage/spec-generer-cartographie-tolerant.md`.
+- **Usage explicite dans la vérification générale** : §VII racine amendé —
+  section « Vérification structurelle obligatoire » et Action VIGILANCE
+  mentionnent désormais nommément `atelier/rd/outillage/graphe/
+  generer-cartographie.py` pour la détection de notions orphelines et de
+  liens morts.
+- **Révision protocolaire consignée** : `meta/protocole-archives/
+  changelog-CLAUDE.md`, entrée `[2026-08-31] deplacement`.
+- **Vigilance** : `verifier-invariants.py` et `detecter-non-tracke.py` relancés
+  après déplacement — seules les deux anomalies pré-existantes et sans rapport
+  (raw/ sans frontmatter, deux liens non résolus dans `atma.md`) subsistent.
+  Aucune régression.
+- **Commit** : c0df3e4
+
+## [2026-08-31] outillage | Juge de paix des prompts Hermes, résidu ZWJ, fiche qabḍ/basṭ rangée
+
+Volet `atelier/rd/` du chantier d'éclatement de l'agent 08 (volet `meta/` :
+`meta/meta-annales.md`, même date).
+
+- ✅ **Nouvel outil** : `atelier/rd/outillage/comparer-prompts-hermes.py`, déterministe,
+  sans LLM ni réseau. Deux contrôles : **conservation** (après éclatement d'un prompt,
+  prouve qu'aucune ligne n'est perdue, qu'aucune n'est ajoutée hors liste déclarée,
+  qu'aucune ne fuit d'un mandat à l'autre) et **dérive** (compare les 12 fiches du
+  dépôt aux `SOUL.md` réellement chargés par le moteur). Il remplace le
+  `grep -c "## Mission"` que proposait la fiche `_inbox/` et que trois titres vides
+  suffisaient à satisfaire (§VIII.2).
+- ⛔ **Premier passage `--derive` : 12 agents sur 12 en écart.** Le dépôt décide, le
+  moteur ne le sait pas. Détail dans `meta/meta-annales.md`.
+- ⚠️ **L'outil a d'abord échoué sur lui-même, et c'est consigné** : écrit avec les
+  caractères invisibles en littéral dans son propre code, il violait le Cmd 15 qu'il
+  est censé faire respecter. Réécrit en séquences d'échappement avant tout commit.
+- 🧹 **Achèvement du nettoyage ZWJ (Cmd 15)** — le post-scriptum du 2026-08-25
+  concluait « aucune trace dans le dépôt » : c'était vrai des fichiers alors examinés,
+  pas du dépôt entier. **11 occurrences retirées** dans 5 fichiers (`*.py` et `*.sh` de
+  `rd/outillage/` et `rd/infrastructure/bureau/`), toutes en commentaire ou docstring,
+  toutes dans le mot « Hermes » — même origine. `ast.parse` et `bash -n` repassés.
+  **3 fichiers suivis restent contaminés et sont signalés, non corrigés** : les deux
+  sauvegardes `.bak-2026-08-18-pre-C4` (les réécrire leur retire leur valeur de
+  sauvegarde) et `citadelle-du-sham/source/library-full.json` (20 occ., donnée importée
+  — la contamination est peut-être en amont). Verdict de Sidy requis.
+  **Leçon de méthode consignée** : le premier balayage filtrait sur `*.py` et `*.md` et
+  rendait 3 fichiers ; sans filtre il en rend 8. Un contrôle d'hygiène restreint par
+  extension donne une réponse rassurante et fausse.
+- 📥 **Fiche candidate qabḍ/basṭ sortie du sas** vers
+  `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast.md`, statut 🔍
+  **kari-kumi**, **sans versement doctrinal** (verdict Sidy : rangée, pas validée).
+  - **Qualification du joint** : la fiche proposait *kumiko*. Relecture du lexique
+    conventionnel (CLAUDE.md §VII) — la portance est un axe **distinct** de l'état du
+    joint, et l'exemple du lexique est littéralement *zōsaku × kari-kumi* — donne
+    plutôt **zōsaku × kari-kumi**, de nature **homologie**. *kumiko* ancrerait une
+    complémentarité, donc une dignité comparable entre un traité soufi et une
+    infrastructure technique datée ; ce qui est décrit est un emprunt de forme à sens
+    unique. Lecture **formelle** (Cmd 12), proposée et non tranchée.
+  - ⚠️ **Rapprochement hermétique signalé et NON versé.** « Solve et Coagula » (Guénon,
+    *La Grande Triade*, chapitre « Solve et Coagula », note 15) lit la **contrainte** comme relevant du pôle
+    *lier* = *coagula* (temporel), face à la **liberté** = *délier* = *solve*
+    (spirituel) — proximité immédiate avec qabḍ/basṭ. Guénon joint hermétisme, taoïsme
+    et Qorân *à l'intérieur de son propre texte*, ce qui l'autorise **là** ; l'importer
+    pour qualifier une source soufie distincte serait un joint neuf entre formes
+    traditionnelles, donc fiche `discernement` et verdict de Sidy (Cmd 3). Le chapitre
+    n'a servi que d'instrument **structurel** sur le plan d'ingénierie.
+- 🔧 Frontmatter posé sur `raw/ascension-regard-soufisme-52-53-qabd-bast.md` (erreur B0
+  préexistante au `verifier-invariants.py`) — hors commit, `raw/` étant gitignoré. Le
+  commit `53f7e61` du 2026-08-31 annonçait cette source comme intégrée : elle ne l'a
+  jamais été côté git.
+- **Commits** : `7b33b7b`, `59efdd8`, `0e89c13`
+
 
 ## [2026-08-31] rd/veille | Investigation Tencent/AngelSpec (speculative decoding)
 

@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 """
 archiver-monitoring-quotidien.py — Copie datée du rapport de monitoring
-infrastructure quotidien (job H‍ermes monitoring-infrastructure-quotidien)
+infrastructure quotidien (job Hermes monitoring-infrastructure-quotidien)
 vers l'archive R&D, et purge des copies de plus de 40 jours.
 
 Principe (même famille que verifier-invariants.py, detecter-non-tracke.py) :
 DÉTERMINISTE, sans LLM, sans réseau. Il ne lit ni ne réécrit le dépôt wiki
-lui-même : il copie une sortie déjà produite par H‍ermes vers l'archive, et
+lui-même : il copie une sortie déjà produite par Hermes vers l'archive, et
 supprime les copies dépassant la fenêtre de rétention. Dry-run par défaut ;
 --appliquer requis pour tout effet de bord (Cmd 1 : jamais d'auto-accept).
 
@@ -43,7 +43,7 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
-# Nom de fichier produit par H‍ermes pour une sortie de job cron :
+# Nom de fichier produit par Hermes pour une sortie de job cron :
 # "<job_id>_<YYYYMMDD>_<HHMMSS>.txt"
 MOTIF_SORTIE = re.compile(r"^([0-9a-f]{12})_(\d{8})_(\d{6})\.txt$")
 
@@ -93,7 +93,7 @@ def lister_archive(archive, job_id):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--source", required=True,
-                     help="dossier cron/output du profil H‍ermes")
+                     help="dossier cron/output du profil Hermes")
     ap.add_argument("--job-id", required=True,
                      help="identifiant du job dont on archive la sortie")
     ap.add_argument("--archive", required=True,

@@ -23,4 +23,5 @@ nomenclature, actions propres).
 - `verifier-invariants.py` — vérification structurelle (frontmatter, annales,
   liens, étanchéité des circuits)
 - `carte-du-depot.py` — comptage mécanique des liens entrants
-- `Graphe/` — cartographie vivante du dépôt (script + rendu HTML)
+- `atelier/rd/outillage/graphe/` — cartographie vivante du dépôt (script + rendu
+  HTML ; sortie `graphe-cartographie.json` toujours à la racine)

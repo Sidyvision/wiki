@@ -1,9 +1,14 @@
 """État des 12 agents Hermès — statut process + mission déclarée.
 
 Statut : présence d'un process `hermes_cli.main --profile <profil> gateway
-run` (les agents tournent en process de fond, pas en service systemd —
-vérifié le 2026-08-15, `systemctl` ne renvoie rien pour hermes). Mission :
-extraite du bloc `## Mission` de la fiche `h‍ermes-prompts/NN-*.md`
+run`. Correctif du 2026-08-31 : la note « pas en service systemd — vérifié le
+2026-08-15 » était fausse, ou l'est devenue. Les gateways sont des services
+**systemd user** (`hermes-gateway-<profil>.service`, `enabled`) ; `systemctl`
+ne renvoyait rien parce qu'il était interrogé en portée système et non
+`--user`. Le `pgrep` ci-dessous reste correct — il observe le même process —
+mais un redémarrage passe par `hermes --profile <profil> gateway restart`,
+supervisé, et non par un kill. Mission :
+extraite du bloc `## Mission` de la fiche `hermes-prompts/NN-*.md`
 correspondante — lecture seule, aucune écriture, aucune donnée personnelle
 recopiée (seul le rôle fonctionnel est affiché, jamais le contexte
 d'harmonisation zodiacal des fiches).
@@ -23,18 +28,18 @@ from modules.base import Module
 
 # profil hermes -> fichier de mission (meta/projet-unifie/hermes-prompts/)
 PROFILES = [
-    ("ar-music", "01-ar-music-artistic-direction.md"),
-    ("visual-da", "02-visual-editorial-artistic-direction.md"),
-    ("production", "03-production-manager.md"),
-    ("admin-legal", "04-administration-legal.md"),
-    ("accounting", "05-accounting-management.md"),
-    ("distribution", "06-distribution.md"),
-    ("marketing", "07-marketing-communication.md"),
-    ("publication", "08-publication-site.md"),
-    ("studio", "09-studio-sound-engineer.md"),
-    ("gardien", "10-protocol-guardian.md"),
-    ("fanzine", "11-fanzine-editor.md"),
-    ("commerce", "12-commerce-profitability.md"),
+    ("ar-music", "01-ar-music-artistic-direction/01-principe.md"),
+    ("visual-da", "02-visual-editorial-artistic-direction/02-principe.md"),
+    ("production", "03-production-manager/03-principe.md"),
+    ("admin-legal", "04-administration-legal/04-principe.md"),
+    ("accounting", "05-accounting-management/05-principe.md"),
+    ("distribution", "06-distribution/06-principe.md"),
+    ("marketing", "07-marketing-communication/07-principe.md"),
+    ("publication", "08-publication-site/08-principe.md"),
+    ("studio", "09-studio-sound-engineer/09-principe.md"),
+    ("gardien", "10-protocol-guardian/10-principe.md"),
+    ("fanzine", "11-fanzine-editor/11-principe.md"),
+    ("commerce", "12-commerce-profitability/12-principe.md"),
 ]
 
 _ROLE_RE = re.compile(r"^#\s*ROLE:\s*(.+)$", re.MULTILINE)

@@ -1,0 +1,6 @@
+Sas d'ingest (CLAUDE.md §IX). Ce répertoire doit exister même vide.
+
+Ce marqueur est suivi par git pour cette seule raison : le 2026-08-31, le retrait
+des dernières fiches du sas a emporté le répertoire lui-même, avec ses ACL — les
+accès des profils `mehdi` et `wendel` ont dû être reposés à la main. Un sas vide
+n'est pas un sas absent.

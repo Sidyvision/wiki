@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # Le Catalogue Universel
@@ -40,12 +40,15 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement|Le Palais de la Sainteté (kabbale) et le Centre des ḥaḍarāt (tasawwuf) — amorce de rapprochement]]
 - [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot|Kabbale hébraïque dans le dépôt — état des lieux et pièces disponibles]] (cette fiche)
 - [[doctrinal/symboles/eschatologie|Eschatologie (la doctrine des fins dernières)]] — stub
+- [[doctrinal/symboles/cinq-noms-ame|Les cinq noms de l'âme (Nefesh, Ruaḥ, Neshama, Ḥaya, Yeḥida)]]
+- [[doctrinal/symboles/gilgul|Gilgul (la réincarnation de l'âme) et Ibur]] — réserve explicite de Sidy sur l'orthodoxie, non tranchée
 
 ### Sources primaires (textes)
 - [[doctrinal/sources/sefer-yetsira-ramban|Sefer Yetsira — Livre de la Création (commentaire du Ramban)]] ⚠️ `to-source` sur recoupement éditions critiques
 - [[doctrinal/sources/kabbale-10-sefirot-structure|Les 10 Sephiroth — Structure de l'Arbre séphirothique]] — *kari-kumi*
 - [[doctrinal/sources/kabbale-cosmogonie-iod|Cosmogonie du *iod* — Le point primordial et la création par les lettres]] — *kari-kumi*
 - [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen|Traité de l'Émanation Gauche — Isaac ben Jacob ha-Kohen (XIIIe s.)]] ⚠️ source 2nd main (trad. en ligne)
+- [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations|Shaar Hagilgulim — La Porte des Réincarnations (trad. et annot. R. Raphael Afilalo)]] — premier texte lurianique du dépôt, *kari-kumi*
 
 ### Sciences Traditionnelles
 - [[doctrinal/symboles/fiqh|Le Fiqh (la science des statuts de la Loi)]]
@@ -175,9 +178,12 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/autorites/abdullah-daghestani|Shaykh ʿAbdullāh al-Dāghestānī]]
 - [[doctrinal/autorites/ibn-sirin|Muḥammad ibn Sīrīn (maître de l'oniromancie)]]
 - [[doctrinal/autorites/al-nabulusi|ʿAbd al-Ghanī al-Nābulusī]]
+- [[doctrinal/autorites/isaac-louria-arizal|Isaac Louria (le Ari, ha-ARI, l'Arizal)]]
+- [[doctrinal/autorites/haim-vital|Haïm Vital]]
 
 ### Érudition académique
 - [[doctrinal/autorites/ali-hussain|Ali Hussain (chercheur, traducteur)]]
+- [[doctrinal/autorites/raphael-afilalo|R. Raphael Afilalo (traducteur, annotateur)]]
 - [[doctrinal/autorites/yaqub-chaudhary|Yaqub Chaudhary (philosophie islamique, IA)]]
 - [[doctrinal/autorites/aiman-attar|Aiman Attar (auteure, herbaliste — médecine prophétique)]]
 - [[doctrinal/autorites/titus-burckhardt|Titus Burckhardt (pérennialiste, commentateur d'Ibn ʿArabī)]] — stub
