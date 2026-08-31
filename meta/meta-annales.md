@@ -14,6 +14,37 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] déploiement | Les 11 principes portés au moteur — 12/12 synchronisés
+
+Go explicite de Sidy (Cmd 13), après la passe documentaire du matin. C'est la
+fermeture du constat le plus lourd de la journée : onze agents sur douze
+tournaient sur un prompt antérieur aux calibrations zodicales et aux mandats votés.
+
+- **Sauvegardes** : `SOUL.md.bak-20260831-142649` dans chaque profil, hors dépôt,
+  prises avant écriture. Retour possible profil par profil.
+- **Déployé** : `NN-principe.md` → `SOUL.md` ; chaque `mandats/X.md` →
+  `skills/hermes/X/SKILL.md` avec frontmatter `name` + `description`, corps verbatim.
+  13 mandats posés au total. `publication` non retouché — déjà synchronisé.
+- **Vérification `--derive`, sortie brute** : **0 agent en écart sur 12**, contre 11
+  avant la passe. Hygiène Unicode sur le moteur (`SOUL.md` + `SKILL.md`) : 0 résultat
+  — les 3 U+200D résiduels de `studio/SOUL.md`, hors dépôt donc hors du nettoyage du
+  2026-08-22, sont partis avec le déploiement.
+- **Vérification côté moteur** (§VIII.2 — le disque ne prouve pas le chargement) :
+  compte de skills annoncé par les passerelles, `84 → 86` sur gardien et studio (deux
+  mandats chacun), `87 → 87` sur publication (aucun nouveau). Le hook Choura s'est
+  réenregistré au redémarrage (`14:27:15`).
+- **Redémarrages** : 4 passerelles vivantes (`gardien`, `publication`, `studio`,
+  `visual-da`) par `systemctl --user restart`, une à une. `SOUL.md` est relu à chaque
+  prompt et n'exigeait pas de redémarrage ; les **skills** passent par un cache dont
+  la clé ne porte ni mtime ni manifeste, d'où la nécessité. Les 8 dormants n'ont pas
+  été réveillés : ils prendront leur prompt à leur prochaine fenêtre, la RAM
+  (~730 Mo disponibles) ne permettant pas de les lever ensemble.
+- **Observation non traitée** : `visual-da` tournait à 14:26 alors que son tour est à
+  16:00 et que l'orchestrateur ouvre la fenêtre à 15:00. Écart constaté, non
+  diagnostiqué — à instruire.
+- **Commit** : {SHA}
+
+
 ## [2026-08-31] protocole | Approbation requise ramenée à 0 sur `main`
 
 Consigne de Sidy, après le constat fait à la fusion de la PR #20.

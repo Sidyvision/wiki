@@ -158,3 +158,82 @@ cp ~/.hermes/profiles/publication/SOUL.md.bak-20260831-072908 ~/.hermes/profiles
 rm -rf ~/.hermes/profiles/publication/skills/hermes
 hermes --profile publication gateway restart
 ```
+
+---
+
+## Généralisation aux 11 autres agents — EXÉCUTÉE le 2026-08-31 14:26
+
+Sur go explicite de Sidy (Cmd 13). Même séquence, appliquée aux onze profils restants.
+`publication` n'a pas été retouché : il était déjà synchronisé.
+
+### Sauvegardes (point de retour, hors dépôt)
+
+`~/.hermes/profiles/<profil>/SOUL.md.bak-20260831-142649` — un par profil, pris avant
+écriture. Retour : `cp SOUL.md.bak-20260831-142649 SOUL.md` puis redémarrage de la
+passerelle si elle tourne.
+
+### Résultat — sortie brute de `--derive` après déploiement
+
+```
+profil            wiki  SOUL.md  état
+ar-music          2842     2842  ✅ synchronisé
+visual-da         4167     4167  ✅ synchronisé
+production        2386     2386  ✅ synchronisé
+admin-legal       2800     2800  ✅ synchronisé
+accounting        2783     2783  ✅ synchronisé
+distribution      2679     2679  ✅ synchronisé
+marketing         2605     2605  ✅ synchronisé
+publication       3595     3595  ✅ synchronisé
+studio            3711     3711  ✅ synchronisé
+gardien           2880     2880  ✅ synchronisé
+fanzine           2693     2693  ✅ synchronisé
+commerce          3266     3266  ✅ synchronisé
+
+VERDICT : 0 agent(s) en écart sur 12.
+```
+
+Hygiène Unicode (Cmd 15) sur le moteur, `SOUL.md` **et** `SKILL.md` : **0 résultat**.
+Les 3 U+200D résiduels de `studio/SOUL.md`, hors dépôt et donc hors du nettoyage du
+2026-08-22, sont partis avec ce déploiement.
+
+### Mandats déployés en skills
+
+| profil | skills posés |
+|---|---|
+| studio | `infrastructure-veille`, `studio-sound-engineer` |
+| gardien | `protocol-guardian`, `veille-protocole` |
+| les 9 autres | un skill homonyme du poste |
+
+Chaque `SKILL.md` porte le frontmatter `name` + `description` attendu par le moteur, le
+corps restant le mandat verbatim. La description dit **quand** charger le mandat : c'est
+elle seule qui reste en contexte.
+
+### Redémarrages — et pourquoi ils étaient nécessaires
+
+`SOUL.md` est relu à chaque construction de prompt : le principe était donc actif sans
+redémarrage. Les **skills** passent par un cache dont la clé ne porte ni mtime ni
+manifeste : sans redémarrage, un mandat déposé sur le disque reste invisible à l'agent.
+
+Quatre passerelles tournaient (`gardien`, `publication`, `studio` — permanentes — et
+`visual-da`) ; elles ont été redémarrées une à une par `systemctl --user restart`.
+**Jamais `hermes --profile X -z` sur un profil vivant** : cette vérification arrête
+l'agent (constaté sur `distribution` le 2026-08-31).
+
+Les huit profils dormants n'ont pas été réveillés : ils prendront principe et mandats à
+leur prochaine ouverture de fenêtre par l'orchestrateur. La RAM (3 819 Mo, ~730 Mo
+disponibles après redémarrage) ne permettait pas de les lever ensemble.
+
+### Vérification côté moteur (§VIII.2) — sortie brute
+
+Le disque ne prouve pas le chargement. Le compte de skills annoncé par la passerelle le
+prouve :
+
+```
+gardien      08:56 → 84 skill(s)   |  14:27 → 86 skill(s)
+studio       08:56 → 84 skill(s)   |  14:27 → 86 skill(s)
+publication  08:56 → 87 skill(s)   |  14:27 → 87 skill(s)   (inchangé, déjà déployé)
+```
+
++2 sur les deux profils qui reçoivent deux mandats, 0 sur celui qui n'en reçoit aucun de
+nouveau. Le hook Choura s'est réenregistré au passage :
+`2026-08-31 14:27:15 shell hook registered: pre_llm_call -> …/choura-contribution-sidy.py`.
