@@ -30,7 +30,7 @@ PROFILES = [
     ("accounting", "05-accounting-management.md"),
     ("distribution", "06-distribution.md"),
     ("marketing", "07-marketing-communication.md"),
-    ("publication", "08-publication-site.md"),
+    ("publication", "08-publication-site/08-principe.md"),
     ("studio", "09-studio-sound-engineer.md"),
     ("gardien", "10-protocol-guardian.md"),
     ("fanzine", "11-fanzine-editor.md"),

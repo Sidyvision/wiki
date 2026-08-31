@@ -1,6 +1,8 @@
 # ROLE: Librarian-Archivist (DÉPRÉCIÉ — fusionné dans la position 08)
 
-⚠️ **Fiche fusionnée — voir `08-publication-site.md`, « Second mandate — Librarian-Archivist »**
+⚠️ **Fiche fusionnée — voir `08-publication-site/mandats/bibliothecaire.md`**
+(éclatement modulaire du 2026-08-31 : le monolithe `08-publication-site.md` est
+devenu `08-publication-site/` — principe invariant + mandats chargés à la demande.)
 
 Cette fonction n'a jamais été activée en tant que 13e poste (section « Your sign
 in Sidy's natal chart » restée en brouillon `[à compléter...]`, jamais rédigée).
@@ -17,8 +19,8 @@ position 09 (2026-08-16).
 
 Le mandat s'accompagne d'un troisième mandat, une veille cron « frontmatter »
 (dans la dynamique des crons Studio et Gardien), également documenté dans
-`08-publication-site.md`.
+`08-publication-site/mandats/veille-referencement.md`.
 
 > Conservée comme tombstone (Cmd 10 : préférer le tag `deprecated` à la
-> suppression). Contenu historique intégral : voir `08-publication-site.md`
+> suppression). Contenu historique intégral : voir `08-publication-site/`
 > et l'historique git de ce fichier.

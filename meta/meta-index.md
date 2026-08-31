@@ -2,7 +2,7 @@
 title: "meta-index — hub du Domaine Réservé"
 type: meta
 created: 2026-08-09
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # meta-index — hub du Domaine Réservé (`meta/`)
@@ -127,7 +127,7 @@ updated: 2026-08-30
 - [[meta/projet-unifie/hermes-prompts/05-accounting-management|Rôle — Accounting & Management]]
 - [[meta/projet-unifie/hermes-prompts/06-distribution|Rôle — Distribution]]
 - [[meta/projet-unifie/hermes-prompts/07-marketing-communication|Rôle — Marketing & Communication]]
-- [[meta/projet-unifie/hermes-prompts/08-publication-site|Rôle — Publication / Site Orchestrator]]
+- [[meta/projet-unifie/hermes-prompts/08-publication-site/08-principe|Rôle — Publication / Site Orchestrator (principe + mandats)]]
 - [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer|Rôle — Studio Sound Engineer]]
 - [[meta/projet-unifie/hermes-prompts/10-protocol-guardian|Rôle — Protocol Guardian]]
 - [[meta/projet-unifie/hermes-prompts/11-fanzine-editor|Rôle — Fanzine Editor]]
