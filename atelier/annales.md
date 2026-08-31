@@ -30,7 +30,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   suggérée. Joint neuf entre formes traditionnelles ⇒ fiche `discernement` et verdict
   séparé (Cmd 3). Le versement validé porte sur la lecture *upaguru*, pas sur un
   appariement.
-- **Commit** : {SHA}
+- **Commit** : f949c98
 
 
 ## [2026-08-31] rectificatif | qabḍ/basṭ — l'erreur conservée, la correction instruite

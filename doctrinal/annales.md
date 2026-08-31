@@ -34,7 +34,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   Le chapitre est versé seul.
 - **Étanchéité** : zéro renvoi vers `atelier/` (vérifié) ; `verifier-invariants.py`
   rend 207, la référence de la session.
-- **Commit** : {SHA}
+- **Commit** : f949c98
 
 
 ## [2026-08-31] rectificatif | Âtmâ-Gîtâ — fiche sourcée, deux erreurs de fait conservées et corrigées
