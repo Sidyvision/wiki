@@ -112,6 +112,34 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
   `habib-mehdi`/`habib-wendel` y sont **explicitement hors périmètre** — mon
   abstention était la bonne.
 
+- 🛑 **SECONDE RECTIFICATION — j'avais cassé un dispositif existant sans le voir.**
+  Sidy : « il n'y a que 3 agents qui maintiennent la veille, les autres se réveillent
+  pour leur contribution puis s'éteignent. » Ce dispositif **existe déjà** :
+  `/etc/cron.d/choura-orchestrator` appelle chaque minute
+  `/root/.hermes/scripts/choura-window-orchestrator.py`, qui démarre le gateway d'un
+  profil dormant une heure avant son tour et l'arrête une heure après. Le « gateway à
+  la demande » conclu par l'incident du 28/08 était donc **implémenté**, pas seulement
+  souhaité — et ma proposition d'un cron système réinventait ce qui tournait déjà.
+  - ⛔ **Ce que j'avais cassé** : la table `ORDRE` de l'orchestrateur portait les
+    heures **UTC figées** de l'ancienne rotation. En reprogrammant les tours en heure
+    de Paris sans connaître ce script, j'ai désynchronisé les neuf fenêtres de leurs
+    tours — chaque dormant aurait été réveillé au mauvais moment et **endormi à l'heure
+    de sa contribution**. La panne aurait été parfaitement silencieuse : pas d'erreur,
+    juste des tours manquants. C'est exactement le symptôme que je venais de
+    diagnostiquer, reproduit par ma propre correction.
+  - ✅ **Corrigé** : `ORDRE` en heures de Paris, et l'orchestrateur raisonne désormais
+    en `Europe/Paris` (`datetime.now(PARIS)`) au lieu d'UTC — ce qui absorbe au passage
+    le changement d'heure du 25 octobre, que la version figée aurait décalé d'une heure.
+  - ✅ **Versé au dépôt** : `meta/projet-unifie/choura/orchestrateur/` (script, entrée
+    cron, README). L'orchestrateur pilotait les douze agents **sans aucune trace dans
+    le dépôt** — même classe de dérive que les `SOUL.md` : un composant opératoire que
+    personne ne pouvait relire ni corriger depuis le dépôt.
+  - ✅ **Contrôle créé** : `orchestrateur/verifier-synchronisation.py` lit les heures
+    réelles dans les `jobs.json` et les confronte à `ORDRE`. Sortie du jour :
+    **9 dormants, 0 désynchronisé**, crête mémoire **3 permanents + 1 dormant ≈ 544 Mo
+    sur 3 819**. Ce contrôle existe parce que le désaccord ne produit aucune erreur
+    visible — il rend le silence bruyant.
+
 - **Commits** : `9494520` (et bascule omniroute : configs hors dépôt, sauvegardées sur place)
 
 
