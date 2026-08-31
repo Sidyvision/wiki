@@ -219,8 +219,8 @@ fi
 **Règles** :
 - Jamais d'installation en production sans verdict Sidy (Cmd 13)
 - Jamais de versement doctrinal sans verdict Sidy (Cmd 12)
-- Rapport conjoint avec Gardien si résonance détectée
-- Toute décision engageante → signalement à Sidy, pas d'autonomie
+- Communication Studio ↔ Gardien exclusivement via le Cycle Choura
+- Toute décision engageante → signalement à Sidy dans le Choura, pas d'autonomie
 ```
 
 ### 3.4 Prompt Gardien étendu
@@ -230,75 +230,107 @@ fi
 ```markdown
 ### Mandat vigilance doctrinale sur veille Studio (2026-08-31, verdict Sidy)
 
-**Déclenchement** : signal de Studio (fiche de veille avec résonance théorique).
+**Déclenchement** : contribution Studio dans le Cycle Choura signalant des concepts théoriques extraits de la veille.
 
 **Actions** :
-1. Lire la fiche de veille dans `atelier/rd/veille/`
-2. Examiner la section "Concepts théoriques extraits"
-3. Qualifier la résonance doctrinale :
-   - **hozo** : équivalence établie avec un principe doctrinal (sourdé)
-   - **kumiko** : complémentarité (treillis en plan)
-   - **kari-kumi** : suggéré/non tranché (montage à blanc)
-4. Ajouter un bloc dans la fiche :
-   ```markdown
-   ### Qualification doctrinale (Gardien, YYYY-MM-DD)
-   
-   **Résonance** : hozo | kumiko | kari-kumi
-   **Principe(s) concerné(s)** : [[doctrinal/...]]
-   **Analyse** : [explication de la résonance, sans trancher le principe]
-   **Verdict** : verser au doctrinal | rester dans rd/veille | abandonner
-   ```
-5. Rapport conjoint avec Studio → Sidy (verdict Cmd 12)
+1. À son tour de Choura, lire la contribution Studio
+2. Si Studio a signalé des concepts extraits :
+   - Lire la fiche de veille dans `atelier/rd/veille/`
+   - Qualifier la résonance doctrinale dans sa propre contribution Choura :
+     - **hozo** : équivalence établie avec un principe doctrinal (sourdé)
+     - **kumiko** : complémentarité (treillis en plan)
+     - **kari-kumi** : suggéré/non tranché (montage à blanc)
+   - Ajouter un bloc dans sa contribution :
+     ```
+     **Qualification doctrinale** (veille Studio) :
+     - Concept A : **hozo/kumiko/kari-kumi** — [principe(s) concerné(s)]
+     ```
+3. Sidy lit le cycle et tranche (Cmd 12/13)
 
 **Règles** :
 - Le Gardien qualifie, ne tranche jamais le principe (Cmd 12)
 - Le verdict final appartient à Sidy
-- Rapport conjoint avec Studio (jamais de rapport séparé)
-- Si aucun concept théorique n'est extrait, le Gardien n'intervient pas
+- Si Studio ne signale aucun concept, le Gardien n'intervient pas sur la veille
+- Communication exclusivement via le Choura, jamais de rapport séparé
 ```
 
 -----
 
-## 4. Discipline de rapport conjoint
+## 4. Articulation avec le Cycle Choura
 
-**Règle** : Studio et Gardien produisent **toujours un rapport conjoint** (jamais de rapports séparés en parallèle), conformément au protocole existant.
+**Principe** : le Choura est le lieu unique de communication entre agents. La veille automatique n'a **aucun mécanisme de signal séparé** — tout transite par le cycle.
 
-**Flux** :
-1. Studio génère la fiche de veille + extrait les concepts théoriques
-2. Studio signale au Gardien (via cron ou fichier de signal)
-3. Gardien lit la fiche + qualifie la résonance doctrinale
-4. Gardien + Studio rédigent un rapport conjoint (fiche `rapport-conjoint-YYYY-MM-DD-<slug>.md` dans `atelier/rd/cahiers/`)
-5. Rapport soumis à Sidy (verdict Cmd 12/13)
+### Flux intégré au Choura
 
-**Format du rapport conjoint** :
-```markdown
----
-title: "Rapport conjoint Studio + Gardien — <sujet>"
-type: meta
-date: YYYY-MM-DD
-signataires: [studio, gardien]
----
-
-# Rapport conjoint — <sujet>
-
-## Contexte
-[Studio : ce qui a été trouvé, pourquoi c'est pertinent]
-
-## Analyse technique (Studio)
-[Extraits de la fiche de veille, pertinence infrastructure]
-
-## Qualification doctrinale (Gardien)
-[Résonance hozo/kumiko/kari-kumi, principe(s) concerné(s)]
-
-## Recommandation conjointe
-- Verser au doctrinal ? [oui/non, motif]
-- Développer l'outil ? [oui/non, motif]
-- Éprouver en sandbox ? [oui/non, motif]
-- Abandonner ? [oui/non, motif]
-
-## Verdict Sidy (Cmd 12/13)
-[À remplir par Sidy]
 ```
+Phase 1 — Cron quotidien Studio (6h du matin)
+  ↓
+Phase 2 — Recherche GitHub/arXiv, extraction, analyse
+  ↓
+Phase 3 — Fiche de veille dans atelier/rd/veille/
+  ↓
+Phase 4 — Studio dépose la matière dans son tour de Choura
+  (prochain cycle, ~2h après ou au tour suivant)
+  ↓
+Phase 5 — Gardien, à son tour (00:00 ou prochain tour),
+  lit la contribution Studio, qualifie la résonance doctrinale
+  (hozo/kumiko/kari-kumi) dans sa propre contribution
+  ↓
+Phase 6 — Sidy lit le cycle Choura, tranche (Cmd 12/13)
+```
+
+### Format de contribution Studio dans le Choura
+
+```markdown
+## [HH:MM] studio (rôle 9, Vierge)
+
+**S'appuyant sur** : [contribution du précédent]
+
+**Tâches en cours** : veille automatique quotidienne (cron 6h)
+
+**Veille du jour** :
+- N fiches générées dans `atelier/rd/veille/`
+- Résumé des repos/papers pertinents trouvés
+- [Si résonance théorique détectée] Concepts extraits signalés
+  pour qualification doctrinale :
+  - Concept A : [description brève]
+  - Concept B : [description brève]
+
+**État du dépôt perçu** : [inchangé ou mise à jour]
+
+**Perspective** : [propositions techniques si pertinent]
+```
+
+### Format de contribution Gardien dans le Choura
+
+```markdown
+## [00:00] gardien (rôle 10, Balance)
+
+**S'appuyant sur** : studio (rôle 9) — veille du jour
+
+**Qualification doctrinale** (si Studio a signalé des concepts) :
+- Concept A : **kumiko** — complémentarité avec [[doctrinal/...]]
+- Concept B : **kari-kumi** — suggéré, non tranché, à examiner
+
+**Tâches en cours** : vigilance protocolaire, lecture des fiches de veille
+
+**État du dépôt perçu** : [inchangé ou signalement]
+
+**Perspective** : [recommandation pour Sidy]
+```
+
+### Suppression du rapport conjoint séparé
+
+**Avant** : Studio + Gardien rédigeaient un `rapport-conjoint-YYYY-MM-DD-<slug>.md` séparé.
+
+**Maintenant** : tout se passe dans le fichier de cycle Choura (`meta/projet-unifie/choura/cycle-YYYY-MM-DD.md`). Sidy lit le cycle, voit la contribution Studio (veille + concepts extraits), puis la qualification doctrinale du Gardien, puis tranche.
+
+**Avantages** :
+- Pas de redondance (un seul lieu de communication)
+- Traçabilité intégrée au Choura (Cmd 9)
+- Les autres agents voient aussi la veille (transparence)
+- Le Gardien qualifie dans son propre tour, pas dans un rapport séparé
+- Sidy a une vue synoptique du cycle complet pour trancher
 
 -----
 
@@ -321,9 +353,8 @@ signataires: [studio, gardien]
 
 1. **Mots-clés supplémentaires** : ajouter des termes spécifiques à l'infrastructure Hermes (ex: `hermes agent`, `discord bot scaling`) ou rester sur les termes génériques ?
 2. **Seuil de stars** : 50 est-il pertinent, ou ajuster (ex: > 100 pour réduire le bruit) ?
-3. **Signal Gardien** : fichier de signal (`.veille-signal`) ou message direct via Hermes (cron → Gardien) ?
-4. **Archivage** : les fiches non pertinentes sont-elles archivées (cmd 10) ou supprimées ?
-5. **Sandbox** : validation préalable de Sidy avant chaque clonage, ou autonomie Studio pour clonage (pas pour déploiement) ?
+3. **Archivage** : les fiches non pertinentes sont-elles archivées (cmd 10) ou supprimées ?
+4. **Sandbox** : validation préalable de Sidy avant chaque clonage, ou autonomie Studio pour clonage (pas pour déploiement) ?
 
 -----
 
