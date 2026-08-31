@@ -10,6 +10,29 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] versement | qabḍ/basṭ §5.2-bis — la qualification rendue par Sidy
+
+- **Verdict de Sidy** : « notre conclusion me paraît cohérente […] la proposition
+  est justifiée et valable » ; « versement validé ». Le blanc que j'avais laissé en
+  §5.2-bis est comblé par sa décision, attribuée, non par une proposition de ma main.
+- **Ce que la qualification dit** : ce n'est pas une qualification de joint, et c'est
+  le fond de la correction — **il n'y a pas de joint à qualifier**. L'infrastructure
+  tient le rôle d'*upaguru* : « cause occasionnelle », « support » extérieur,
+  « prolongement » de l'instrument. Le lexique conventionnel (§VII) qualifie des
+  joints entre termes ; il était ici **hors de son domaine d'application**, et
+  l'appliquer quand même était la faute.
+- **Garde-fou ajouté** : « projection extérieure d'états intérieurs » ne veut pas dire
+  « subjectif » — Guénon l'interdit explicitement en clôture du ch. XX. C'est le
+  contresens le plus probable sur cette page, il est désormais barré dans la fiche.
+- **Versé au doctrinal** : `doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru.md`
+  (voir `doctrinal/annales.md` du même jour).
+- **Limite explicite** : aucune correspondance qabḍ/basṭ ↔ upaguru n'est établie ni
+  suggérée. Joint neuf entre formes traditionnelles ⇒ fiche `discernement` et verdict
+  séparé (Cmd 3). Le versement validé porte sur la lecture *upaguru*, pas sur un
+  appariement.
+- **Commit** : f949c98
+
+
 ## [2026-08-31] rectificatif | qabḍ/basṭ — l'erreur conservée, la correction instruite
 
 Consigne de Sidy : « il faut impérativement conserver l'erreur et instruire la
