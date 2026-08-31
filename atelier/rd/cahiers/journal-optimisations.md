@@ -89,6 +89,6 @@ Insertion en tête (la plus récente en haut), marqueur ci-dessous.
   signal).
 - **Liens** : `doctrinal/CLAUDE.md` (section ajoutée) ; `graphe-cartographie.json`
   (source de vérité du maillage) ; `Graphe/generer-cartographie.py`
-  (générateur) ; `doctrinal/annales.md` (entrée du 2026-08-30).
+  (générateur) ; `doctrinal/annales.md` (entrée du 2026-08-30). Commit `2ec5a20`.
 - **Statut** : `applique` — procédure en vigueur, en attente de la première
   intégration doctrinale avec signal d'orpheline.

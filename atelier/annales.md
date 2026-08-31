@@ -45,7 +45,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   d'un lien.
 - **Verdict** : Sidy, séance WebUI 2026-08-30 (aspiration SLM, item 2 du
   plan maillage doctrinal).
-- **Commit** : à compléter.
+- **Commit** : 2ec5a20
 
 ## [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photographiés, et une quatrième description de la discontinuité signalée au chantier
 
