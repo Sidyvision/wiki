@@ -160,7 +160,7 @@ la perception du principe ne lui appartient pas.
 ### 5.3. ⚠️ Signalement — le rapprochement hermétique n'est PAS versé
 
 En instruisant ce chantier, la lecture de « Solve et Coagula » (René Guénon, *La Grande
-Triade*, ch. XXII) a fait apparaître un rapprochement frappant : la note 15 de ce
+Triade*, chapitre « Solve et Coagula ») a fait apparaître un rapprochement frappant : la note 15 de ce
 chapitre lit explicitement la **contrainte** comme relevant du pôle *lier* = *coagula*
 (domaine temporel), par opposition à la **liberté** = *délier* = *solve* (domaine
 spirituel). La proximité formelle avec qabḍ (constriction) / basṭ (épanouissement) est

@@ -67,7 +67,7 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
   d'une migration iso-contenu aurait été la faute même qui a été reprochée à la fiche.
   Passe distincte proposée.
 - **Lecture de Guénon — usage formel assumé.** « Solve et Coagula » (*La Grande
-  Triade*, ch. XXII) : *« dissoudre ce qui était coagulé et, simultanément, coaguler ce
+  Triade*, chapitre « Solve et Coagula ») : *« dissoudre ce qui était coagulé et, simultanément, coaguler ce
   qui était dissous… les deux aspects d'une seule et même opération »*. Le défaut que
   cela révélait dans la fiche : un *solve* fort, un *coagula* faible — un principe
   réduit à une table d'aiguillage fixe. D'où la décision de **hisser les guardrails et
@@ -76,6 +76,18 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
   la contribution exacte de la machine (Cmd 12) ; le rapprochement doctrinal avec
   qabḍ/basṭ est signalé et **non versé** (Cmd 3) — voir
   `atelier/annales.md`, même date.
+- ⚠️ **Deux rectifications portées le jour même, après relecture.**
+  1. **L'ACL du sas `_inbox/` est une reconstruction, pas une restauration.** Le
+     retrait des dernières fiches a emporté le répertoire ; son ACL propre est perdue
+     et irrécupérable. Celle qui a été reposée est déduite de l'ACL d'un *fichier*
+     voisin (accès `mehdi` et `wendel`), pas du répertoire : elle est **group-writable
+     là où l'originale ne l'était pas** — un fichier déposé y atterrit `-rw-rw-r--+`
+     quand les précédents portaient `-rw-r--r--+`. Fonctionnellement suffisant pour le
+     dépôt SFTP, mais plus permissif : **à confirmer par Sidy**.
+  2. **« *La Grande Triade*, ch. XXII » était une inférence, pas une lecture** — tirée
+     du pied de page annonçant le chapitre suivant, dans une autre pagination de la
+     source. Le fichier consulté porte en propre « CHAPITRE VI ». Le chapitre est
+     désormais cité **par son titre**, qui n'exige aucune inférence (Cmd 5).
 - **Commits** : `7b33b7b`, `c7afbc7`, `9264302`, `55f6831`, `829f1c9`, `0e89c13`
 
 

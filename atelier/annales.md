@@ -50,7 +50,7 @@ Volet `atelier/rd/` du chantier d'éclatement de l'agent 08 (volet `meta/` :
     infrastructure technique datée ; ce qui est décrit est un emprunt de forme à sens
     unique. Lecture **formelle** (Cmd 12), proposée et non tranchée.
   - ⚠️ **Rapprochement hermétique signalé et NON versé.** « Solve et Coagula » (Guénon,
-    *La Grande Triade*, ch. XXII, note 15) lit la **contrainte** comme relevant du pôle
+    *La Grande Triade*, chapitre « Solve et Coagula », note 15) lit la **contrainte** comme relevant du pôle
     *lier* = *coagula* (temporel), face à la **liberté** = *délier* = *solve*
     (spirituel) — proximité immédiate avec qabḍ/basṭ. Guénon joint hermétisme, taoïsme
     et Qorân *à l'intérieur de son propre texte*, ce qui l'autorise **là** ; l'importer
