@@ -9,6 +9,14 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] enrichissement | Discernement matrices-artificielles — ajout figure commune cinq matrices
+
+- **Ajout** : dans le bloc 🔍 **Généalogie des idées**, quatrième puce ajoutée — figure commune des cinq matrices artificielles
+- **Contenu** : lien entre [[doctrinal/symboles/golem]] (Kabbale Maasit), [[hermeneutique/frankenstein/frankenstein]] (science moderne), [[hermeneutique/the-matrix/the-matrix]] (simulation), [[hermeneutique/death-stranding/death-stranding]] (beach) et la présente spéculation. Figure commune : l'intention humaine qui produit un contenant artificiel (être, monde, seuil) pour agir sur la réalité ou accéder à un autre registre de réel
+- **Nature** : signalé comme piste de généalogie, pas comme conclusion. La Kabbale Maasit est l'ancrage traditionnel explicite ; les autres sont des avatars modernes sécularisés ou fictionnels
+- **Verdict** : aucun (Cmd 12 non sollicité — simple enrichissement de généalogie, le discernement reste `en cours`)
+- **Commit** : 2bd2ec3
+
 ## [2026-08-30] enrichissement | Symbole Golem — ancrage Kabbalah Maasit
 
 - **Ajout** : donnée factuelle versée dans `doctrinal/symboles/golem.md`
