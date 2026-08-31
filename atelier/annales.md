@@ -43,7 +43,7 @@ routine de vérification générale de clôture de session (§VII racine).
   après déplacement — seules les deux anomalies pré-existantes et sans rapport
   (raw/ sans frontmatter, deux liens non résolus dans `atma.md`) subsistent.
   Aucune régression.
-- **Commit** : à consigner.
+- **Commit** : c0df3e4
 
 ## [2026-08-31] outillage | Juge de paix des prompts Hermes, résidu ZWJ, fiche qabḍ/basṭ rangée
 
