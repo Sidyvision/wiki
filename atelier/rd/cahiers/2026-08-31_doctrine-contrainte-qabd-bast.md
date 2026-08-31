@@ -6,7 +6,11 @@ statut: brouillon
 created: 2026-08-31
 updated: 2026-08-31
 tags: [atelier, rd, qabd, bast, contrainte, infrastructure, lien, kari-kumi]
-sources: ["raw/ascension-regard-soufisme-52-53-qabd-bast.md"]
+sources:
+  - "raw/ascension-regard-soufisme-52-53-qabd-bast.md"
+  - "raw/Études sur l’Hindouïsme/Études sur l'Hindouisme  Index de l’œuvre de René Guénon.md"
+  - "raw/Initiation et Réalisation Spirituel/Initiation et Réalisation spirituelle  Index de l’œuvre de René Guénon 9.md"
+  - "raw/Autorité Spirituelle et Pouvoir Temporel/Dépendance de la royauté à l'égard du sacerdoce  Autorité Spirituelle et Pouvoir Temporel  Index de l’œuvre de René Guénon.md"
 links:
   - "[[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]]"
 ---
@@ -133,7 +137,15 @@ Source : raw/ascension-regard-soufisme-52-53-qabd-bast.md (traité soufi, §52-5
 `atelier/rd/cahiers/`, statut 🔍 `kari-kumi`. **Pas de versement dans `doctrinal/`.**
 La fiche sort du sas sans être tranchée : elle est rangée, pas validée.
 
-### 5.2. Qualification du joint — lecture formelle proposée
+### 5.2. Qualification du joint — ⛔ LECTURE ERRONÉE, CONSERVÉE
+
+> **Cette section est fausse. Elle est maintenue intacte sur consigne de Sidy
+> (2026-08-31) : « il faut impérativement conserver l'erreur et instruire la
+> correction, sinon il n'y a pas d'apprentissage. » La rectification est en
+> §5.2-bis. Ne pas lire ce qui suit sans elle.**
+
+_Texte d'origine, non modifié :_
+
 
 La rédaction initiale proposait **kumiko** (ancrage de complémentarité). Relecture du
 lexique conventionnel (`CLAUDE.md` §VII) : **la portance est un axe distinct de l'état
@@ -156,6 +168,87 @@ l'infrastructure n'éclaire rien du texte soufi.
 Proposition, non conclusion : le verdict appartient à Sidy (Cmd 12). Ce que la machine
 peut établir ici est **formel** (cohérence d'application d'un lexique conventionnel) ;
 la perception du principe ne lui appartient pas.
+
+### 5.2-bis. Rectification du 2026-08-31 — verdict de Sidy
+
+**Ce que Sidy a énoncé**, et qui tranche (Cmd 12) :
+
+> « cette infrastructure n'est pas autre chose que la projection extérieure (au dehors)
+> de mes propres états intérieurs, offrant une opportunité de contemplation
+> (symbolique). C'est moi qui, selon la disposition et les tendances dominantes, vais
+> être tenté d'adopter une lecture ou une autre, et en l'occurrence dans ce cas précis
+> il s'agit d'un exercice similaire à la régence. La gouvernance intérieure permet
+> d'ordonner le monde par la maîtrise de SES instruments. »
+
+Renvois donnés par Sidy : *Initiation et Réalisation spirituelle*, **Âtma-Gîtâ**,
+**upaguru**.
+
+#### Ce que disent les textes, localisés au dépôt
+
+**1. Il n'y a pas deux termes.** René Guénon, *Études sur l'Hindouisme*, article
+« Âtmâ-Gîtâ » — la *Bhagavad-Gîtâ* lue selon son sens intérieur :
+
+> le champ de bataille (*Kshêtra*) est le domaine de l'action, dans lequel l'individu
+> développe ses possibilités ; et cette action n'affecte aucunement l'être principiel,
+> permanent et immuable, mais concerne seulement l'« âme vivante » individuelle
+> (*jîvâtmâ*). […] si ces deux sont toujours étroitement unis, c'est que véritablement
+> ils ne sont qu'un au regard de la réalité absolue, car *jîvâtmâ* ne se distingue
+> d'*Âtmâ* **qu'en mode illusoire**.
+
+**2. Une chose, une circonstance, peuvent tenir ce rôle — et la cause est dans celui
+qui reçoit.** René Guénon, *Initiation et Réalisation spirituelle*, **chapitre XX,
+« Guru et upaguru »** :
+
+> Il faut entendre par là tout être, quel qu'il soit, dont la rencontre est pour
+> quelqu'un l'occasion ou le point de départ d'un certain développement spirituel […]
+> nous pourrions tout aussi bien parler également d'une **chose** ou même d'une
+> **circonstance quelconque** qui provoque le même effet […] la **cause véritable se
+> trouve dans la nature même de celui sur qui s'exerce cette action**, comme le montre
+> le fait que ce qui a un tel effet pour lui peut fort bien n'en avoir aucun pour un
+> autre individu.
+
+**3. L'instrument est un prolongement, et l'extérieur est la face extériorisée de
+l'intérieur.** Même chapitre :
+
+> ce ne sont là que des « **prolongements** » du *Guru*, au même titre que les
+> **instruments** et les moyens divers employés par un être pour exercer ou amplifier
+> son action sont autant de **prolongements de lui-même** ; et, par suite, il est
+> évident que le rôle propre de celui-ci n'est nullement diminué par là, mais que, bien
+> au contraire, il y trouve la possibilité de s'exercer plus complètement […] le *Guru*
+> humain lui-même n'est au fond que la **représentation extériorisée** et comme
+> « matérialisée » du véritable « *Guru* intérieur ».
+
+**4. La régence est sourcée, et Guénon y joint lui-même l'Âtmâ-Gîtâ.** *Autorité
+Spirituelle et Pouvoir Temporel*, **chapitre V, « Dépendance de la royauté à l'égard du
+sacerdoce »**, note 5 : « il y a d'ailleurs une façon « intérieure » de lire ce livre en
+lui donnant son sens profond, et il prend alors le nom d'*Atmâ-Gîtâ* ». Le corps du
+chapitre pose que les deux pouvoirs « procèdent d'un principe unique ». Là encore : pas
+deux termes indépendants à joindre.
+
+#### Où était l'erreur, exactement
+
+| Ce que §5.2 affirme | Ce qui l'infirme |
+|---|---|
+| « Une extrémité du joint est contingente […] **sans dignité comparable** » | La contingence est le **mode d'action même** de l'*upaguru* — « chacun d'eux n'a qu'un rôle transitoire », « la diversité indéfinie des circonstances contingentes ». Ce n'est pas une disqualification, c'est la définition. |
+| « Le joint est réel mais **ne porte rien** » | « le rôle propre de celui-ci n'est **nullement diminué** par là, mais […] il y trouve la possibilité de s'exercer plus complètement ». Guénon dit l'inverse **sur la même contingence**. |
+| **homologie** — « ressemblance de forme […] qui se retrouve de part et d'autre » | Il n'y a pas deux formes qui se ressemblent : *jîvâtmâ* ne se distingue d'*Âtmâ* « qu'en mode illusoire ». Une ressemblance suppose deux termes ; il n'y en a qu'un, vu du dehors et du dedans. |
+| « le texte soufi éclaire l'infrastructure, l'infrastructure n'éclaire rien » | Le sens de la lecture n'est pas une propriété des objets. « la cause véritable se trouve dans la nature même de **celui sur qui s'exerce cette action** ». |
+
+**La racine de la faute** : j'ai cherché la cause dans l'objet — la RAM saturée, le plan
+de jetons épuisé, la protection de branche inatteignable — et j'ai construit une
+qualification de joint entre deux termes que je posais comme séparés. Il n'y avait pas
+deux termes à joindre. Et la disposition qui commande la lecture n'est pas un paramètre
+que la machine puisse fixer : c'est très exactement ce que Cmd 12 lui retire.
+
+#### Conséquence formelle — ce qui tombe (structure, non doctrine)
+
+- Le tableau `zōsaku × kari-kumi / homologie` de §5.2 est **retiré comme qualification
+  valide** et conservé comme erreur instruite.
+- **Le renvoi Cmd 3 de §5.3 devient sans objet** dans la mesure où il supposait un joint
+  neuf entre formes traditionnelles distinctes. Le rapprochement guénonien reste
+  néanmoins non versé au doctrinal, faute de verdict — voir §5.3, maintenue.
+- **Aucune qualification de remplacement n'est proposée ici.** Ce serait refaire la
+  faute qui vient d'être corrigée. Le verdict reste entier (Cmd 12).
 
 ### 5.3. ⚠️ Signalement — le rapprochement hermétique n'est PAS versé
 
@@ -181,6 +274,12 @@ contribution exacte de la machine (Cmd 12, *upakarana*). Voir
 ## 6. Liens
 
 - **Source** : `raw/ascension-regard-soufisme-52-53-qabd-bast.md`
+- **Sources de la rectification §5.2-bis** :
+  - René Guénon, *Études sur l'Hindouisme*, article « Âtmâ-Gîtâ »
+  - René Guénon, *Initiation et Réalisation spirituelle*, ch. XX, « Guru et upaguru »
+  - René Guénon, *Autorité Spirituelle et Pouvoir Temporel*, ch. V, « Dépendance de la
+    royauté à l'égard du sacerdoce », note 5
+- **Fiche liée** : [[doctrinal/symboles/atma-gita-guenon]]
 - **Chantier** : `meta/projet-unifie/hermes-prompts/08-publication-site/` (exécuté le 2026-08-31)
 - **Rapport R&D** : `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents.md`
 - **Signal Sidy** : « cette contrainte apparente est notre plus grande force » (session 2026-08-31)

@@ -30,6 +30,54 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] Qualification d'un joint entre deux termes qui n'en faisaient qu'un — et deux erreurs de fait dans une fiche doctrinale non sourcée
+
+- **Symptôme** : dans `2026-08-31_doctrine-contrainte-qabd-bast.md` §5.2, j'ai qualifié
+  le rapport entre l'infrastructure Hermes et la doctrine soufie du qabḍ/basṭ par
+  *zōsaku × kari-kumi / homologie*, en écrivant que l'infrastructure est « un fait
+  technique daté, remplaçable, **sans dignité comparable** » et que « le joint est réel
+  mais **ne porte rien** ». Sidy : « il me semble que tu te méprends […] cette
+  infrastructure n'est pas autre chose que la projection extérieure de mes propres états
+  intérieurs. » Renvois donnés : Âtmâ-Gîtâ, upaguru, régence.
+- **Diagnostic** : j'ai posé **deux termes séparés** et j'en ai déclassé un. Tout le
+  reste suivait mécaniquement — deux choses distinctes ne peuvent se rapporter que par
+  ressemblance de forme (`homologie`), et rapprocher deux ordres distincts déclenche
+  l'alarme du Non-Syncrétisme (renvoi Cmd 3). Les textes localisés ensuite disent qu'il
+  n'y a pas deux termes : « *jîvâtmâ* ne se distingue d'*Âtmâ* qu'en mode illusoire »
+  (Âtmâ-Gîtâ), et que la contingence est le **mode d'action même** de l'*upaguru*, non
+  sa disqualification — « le rôle propre de celui-ci n'est nullement diminué par là »
+  (IRS ch. XX). J'avais lu une définition comme un déclassement.
+- **Racine** : j'ai cherché la cause **dans l'objet** — RAM saturée, plan de jetons
+  épuisé, protection de branche inatteignable. Guénon la place « dans la nature même de
+  celui sur qui s'exerce cette action ». La disposition qui commande la lecture n'est
+  pas un paramètre que la machine puisse fixer : c'est exactement ce que Cmd 12 lui
+  retire. Ma faute n'est pas d'avoir statué sur la forme, c'est d'avoir statué sur la
+  **relation**.
+- **Résolution** : §5.2 **conservée intacte et marquée fausse**, rectification sourcée
+  en §5.2-bis — sur consigne explicite de Sidy : « il faut impérativement conserver
+  l'erreur et instruire la correction, sinon il n'y a pas d'apprentissage. » Aucune
+  qualification de remplacement n'a été proposée : ce serait refaire la faute.
+- **Trouvaille jointe** : en sourçant, deux erreurs de fait dans la fiche doctrinale
+  `doctrinal/symboles/atma-gita-guenon.md` (rédigée le 2026-06-20 avec
+  `sources: []`, `sources_count: 0`) — (a) l'Âtmâ-Gîtâ y est décrite comme « un court
+  texte védantique […] rattaché à Śaṅkarācārya », alors que c'est **la Bhagavad-Gîtâ lue
+  intérieurement** (Guénon, article « Âtmâ-Gîtâ », première phrase ; confirmé
+  indépendamment par *AS&PT* ch. V n. 5) ; (b) date de publication **mars 1930** (note 1
+  de l'article : « Publié dans *V.I.*, mars 1930 »), non 1926. Même traitement : texte
+  d'origine conservé, rectification sourcée en regard, fiche désormais à
+  `sources_count: 2`.
+- **Compréhension tirée** : une fiche à `sources_count: 0` qui porte sa propre réserve
+  (« reste à vérifier directement ») **est une dette, pas une fiche** — celle-ci a tenu
+  deux mois en `status: traditionnel` avec deux erreurs de fait. Et, plus général : quand
+  je qualifie un **rapport** entre deux choses, je dois d'abord vérifier qu'il y a bien
+  deux choses. La qualification de joint suppose deux extrémités ; si les extrémités
+  n'en sont pas, tout l'appareil formel produit une réponse propre à une question qui ne
+  se pose pas.
+- **Liens** : [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] §5.2 et
+  §5.2-bis ; [[doctrinal/symboles/atma-gita-guenon]].
+- **Statut** : `resolu` pour la partie factuelle et documentaire. Le verdict de fond
+  (qualification de remplacement, versement éventuel) reste entier — Cmd 12.
+
 ## [2026-08-30] Écriture d'un agent de veille dans `raw/` — accepté sur verdict de Sidy (dérogation ponctuelle à l'immuabilité)
 
 - **Symptôme** : entre 14:02 et 14:05 UTC, six fichiers `raw/*.md` sans
