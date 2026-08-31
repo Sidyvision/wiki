@@ -14,6 +14,79 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] infrastructure | Bascule omniroute des 14 profils, réparation du cycle Choura
+
+- **Consignes de Sidy** : « bascule-les tous sur omniroute » (plan Qwen épuisé jusqu'au
+  5 septembre), puis « le cycle Choura n'est pas opérationnel, le fichier d'amorce n'a
+  pas été réalisé — charge-toi-en à la place du Gardien et programme un nouveau cycle à
+  partir de midi, heure de Paris ».
+
+### Bascule omniroute
+
+- ✅ **14 profils + le défaut global** passés à `auto/best-free` / `custom:omniroute`,
+  chaque `config.yaml` sauvegardé avant écriture. Vérification : 0 profil hors omniroute.
+- 🔧 **`karubi` était une panne muette** : son `custom:qwen` pointait sur un serveur
+  **local** (`localhost:8000`) qui n'écoute plus. Sa bascule est une réparation, pas un
+  déclassement — et il n'était pas concerné par le plan Qwen épuisé, contrairement à ce
+  que son nom de provider laissait croire.
+- 🔧 **Global** : `api_mode: anthropic_messages` retiré du bloc `model` — omniroute
+  parle `chat_completions`.
+- ⛔ **`distribution` avait été tué le matin même à 07:00** par le quota épuisé (le
+  journal porte la date de reset, `09-05 12:33 UTC`, qui confirme le dire de Sidy).
+- ⚠️ **Hors périmètre, signalé** : `habib-mehdi` et `habib-wendel` appartiennent à
+  **d'autres utilisateurs** (`/home/mehdi`, `/home/wendel`), tournent en ce moment et
+  sont encore sur le plan Qwen épuisé. Non touchés — ce ne sont pas les douze agents.
+- ⚠️ **Réserve de vérification** : le routage effectif de `distribution` et `marketing`
+  est **inféré de l'absence de 429**, pas confirmé par une ligne `model=` — leurs seules
+  lignes de ce type précèdent la bascule. La prochaine exécution cron tranchera.
+
+### Réparation du cycle Choura
+
+- ⛔ **La panne était écrite dans le dispositif.** Le tour du Gardien portait en dur
+  « ouverture/clôture du cycle, **00:00** » alors que son job avait été déplacé à
+  **18:00 UTC**. Il ouvrait donc le fichier du jour où il tournait, et tout agent dont
+  le créneau tombait après minuit ne trouvait aucun fichier — son prompt lui ordonnant
+  alors de signaler et de s'arrêter. `cycle-2026-08-29.md` et `cycle-2026-08-31.md`
+  n'ont jamais existé ; les tours du 31 se sont déposés dans le fichier du 30.
+- ✅ **Reprogrammation** (`_reprogrammer-choura.py`, 12 profils, 0 erreur) : ouverture
+  à **12:00 heure de Paris**, rotation toutes les 2h.
+- 🔍 **Le piège évité, et il aurait été invisible** : les expressions cron sont évaluées
+  contre `hermes_time.now()`, qui honore la clé `timezone:` — mais **un profil ne charge
+  que sa propre `config.yaml`, le global n'est pas fusionné**. Vérifié plutôt que
+  supposé : le profil `gardien` rendait `timezone=''` et tournait en UTC. Sans la clé
+  posée dans **chacun** des douze, les horaires auraient été décalés de 2h.
+  Bénéfice second : le changement d'heure du 25 octobre est absorbé sans retouche.
+- 🔍 **Troisième défaut, conséquence de l'ouverture à midi** : le cycle enjambe deux
+  jours calendaires, « le fichier du jour » redevient ambigu à minuit. Le cycle est donc
+  désormais identifié par sa **date d'ouverture**, avec une règle mécanique inscrite
+  dans le prompt (avant 12:00 → le cycle courant est celui ouvert la veille). Sans
+  elle, la panne se serait reproduite dès la première nuit.
+- ✅ **Amorce déposée** : `cycle-2026-08-31.md` créé, `cycle-2026-08-30.md` clôturé.
+  L'entrée d'amorce **n'est pas signée « gardien »** : un tour signé d'un agent qui ne
+  l'a pas écrit serait une contribution fabriquée dans un journal append-only. Le
+  Gardien tient son propre tour à 12:00, dans ce fichier.
+- ✅ Les deux entrées datées du 31 restées dans le fichier du 30 **ne sont pas
+  déplacées** (Cmd 10) : sous la nouvelle règle elles sont à leur place — ce qui était
+  une anomalie devient conforme.
+
+### Deux constats qui débordent les consignes
+
+- ⛔ **Huit gateways sur douze sont à terre** (`failed` ×7, `inactive` ×1). Le cron
+  vivant dans le gateway, ces agents **ne peuvent pas prendre leur tour** : c'est la
+  cause des cinq tours manquants du cycle précédent, davantage que le bug de datation.
+  Or un gateway pèse **136 Mo** et il ne reste que **704 Mo** : il y a place pour cinq,
+  il en faut huit — et sans marge pour le travail des agents (le journal signale déjà
+  « system memory pressure is elevated »). **Le Choura à douze ne tient pas en gateways
+  permanents sur cette machine.** Décision d'architecture à prendre par Sidy.
+- ⚠️ **Erreur de méthode commise, consignée** : lancer `hermes --profile X -z` sur un
+  profil dont le gateway tourne **arrête ce gateway** (« stopped by an unexpected
+  signal »). C'est ainsi que `distribution` est retombé à 08:38 — de mon fait, en
+  voulant vérifier son routage. Une vérification ne doit pas passer par la CLI sur un
+  profil vivant.
+
+- **Commits** : `9494520` (et bascule omniroute : configs hors dépôt, sauvegardées sur place)
+
+
 ## [2026-08-31] deploiement | Agent 08 déployé sur le moteur — et le routage était déjà fait
 
 - **Consigne de Sidy** : « déploie l'agent 08 sur le routing omniroute auto/best-free,
