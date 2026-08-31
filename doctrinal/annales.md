@@ -9,6 +9,44 @@ updated: 2026-08-31
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] versement + ouverture | *CMM* ch. IV versé ; dossier qabḍ/basṭ ↔ upaguru ouvert en 🔍
+
+Sur renvoi de Sidy : « ces deux notions relèvent de l'initiation et de ses divers
+états (*maqâm*, *hâl*) et de la différence radicale de la perspective initiatique et
+profane », avec renvoi à *La Crise du Monde moderne*, « Science sacrée et science
+profane ».
+
+- **Versé** : `doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane.md`
+  (`Chapitre=691`, sigle `CMM`, ch. **IV**, lu intégralement).
+- **Ce que le chapitre établit** : « le point de vue sous lequel cet objet est envisagé
+  doit aussi entrer dans la définition de la science » — deux regards sur un même objet
+  donnent « des sciences réellement distinctes ». La différence initiatique / profane
+  est solidement posée, et elle vaut au-delà des seules sciences.
+- **Ce que le même chapitre restreint**, et qui est consigné sans être atténué : les
+  sciences traditionnelles de civilisations diverses « ne sont pourtant pas toujours
+  assimilables les unes aux autres, et, souvent, ne pourraient qu'abusivement être
+  désignées par les mêmes noms ». Le renvoi arme donc un volet de l'hypothèse et
+  restreint l'autre.
+- **Ouvert, non tranché** :
+  `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique.md`,
+  `status: speculatif`, `maturite: germe`, 🔍 `kari-kumi`. Conforme à Cmd 3
+  (« suggérés 🔍 tant que non tranchés ») : la fiche expose l'hypothèse de Sidy et
+  l'inventaire des pièces, elle ne conclut pas.
+- **Inventaire des pièces** : perspective initiatique/profane **établie** (*CMM* IV) ;
+  doctrine de l'*upaguru* **établie** (*IRS* XX) ; texte appariant les deux termes
+  **absent** ; classement de qabḍ/basṭ en *aḥwāl* **non sourcé au dépôt** — la source
+  des §52-53 ne porte ni *maqām* ni *ḥāl* ; définitions d'al-Jurjānī **absentes**, seul
+  l'index des termes est versé.
+- **Inférence explicitement non faite** : l'index d'al-Jurjānī montre que `qabḍ` et
+  `ḥâl` partagent l'entrée 1237, `basṭ` et `maqâm` l'entrée 563. Ce sont des
+  cooccurrences d'index, pas des définitions ; elles sont consignées comme données, pas
+  comme argument — même classe d'inférence que la citation de chapitre erronée
+  rectifiée ce jour (Cmd 5).
+- **Ce qui fermerait le dossier** : l'entrée des définitions d'al-Jurjānī dans `raw/`
+  (entrées déjà repérées), qui rendrait le classement **reçu** au lieu d'inféré.
+- **Commit** : 98d2cb0
+
+
 ## [2026-08-31] versement | Guénon, IRS ch. XX — « Guru et upaguru »
 
 - **Opération** : VERSEMENT (source), sur « versement validé » de Sidy.

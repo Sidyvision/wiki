@@ -268,6 +268,13 @@ que la machine puisse fixer : c'est très exactement ce que Cmd 12 lui retire.
   entre formes traditionnelles distinctes, donc fiche `discernement` et verdict séparé
   (Cmd 3) — et aucun texte traditionnel appariant ces termes n'a été trouvé au dépôt. Le
   versement validé porte sur la lecture *upaguru*, pas sur un appariement.
+- **Dossier ouvert le 2026-08-31 sur proposition de Sidy** (« ces deux notions relèvent
+  de l'initiation et de ses divers états — *maqâm*, *hâl* — et de la différence radicale
+  de la perspective initiatique et profane ») :
+  [[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]],
+  statut 🔍 `kari-kumi`, **non tranché**. Le renvoi qu'il donne, *La Crise du Monde
+  moderne* ch. IV, arme le volet « perspective » et restreint le volet « appariement des
+  termes » — les deux sont consignés.
 
 ### 5.3. ⚠️ Signalement — le rapprochement hermétique n'est PAS versé
 
