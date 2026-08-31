@@ -14,6 +14,48 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] deploiement | Agent 08 déployé sur le moteur — et le routage était déjà fait
+
+- **Consigne de Sidy** : « déploie l'agent 08 sur le routing omniroute auto/best-free,
+  mon Qwen Token Plan est épuisé jusqu'au 5 septembre. »
+- ✅ **Routage — rien à changer, c'était déjà en place.** Le profil `publication` porte
+  `auto/best-free` sur `custom:omniroute` depuis le **2026-08-26**, et son process a
+  redémarré le 2026-08-30 : la config était donc chargée. Le cycle Choura du 2026-08-30
+  tournait déjà en `model=auto/best-free`. Les `HTTP 429 token-plan quota exhausted` du
+  journal datent des **27-28 août**, avant la bascule. `auto/best-free` vérifié exposé
+  par omniroute (511 modèles, `tool_calling: true`).
+- ✅ **Prompt déployé** (le go attendu depuis la passe du matin, Cmd 13). Sauvegarde
+  hors dépôt, principe → `SOUL.md` (3 628 o, 62 l.), 3 mandats → skills du moteur.
+  `--derive` : **publication ✅ synchronisé — premier des douze agents à l'être.**
+- **Vérification de bout en bout**, l'agent interrogé en direct :
+  « *Sagittarius ; site-orchestration, bibliothecaire, veille-referencement.* »
+  L'ancien `SOUL.md` ne portait **aucune** section « Zodiac principle » : la réponse
+  prouve le chargement du nouveau principe, la liste prouve la reconstruction de
+  l'index des skills.
+- 🔍 **Pourquoi un redémarrage était nécessaire** — vérifié dans le code du moteur, pas
+  supposé : `load_soul_md()` relit `SOUL.md` sans cache (le principe seul n'aurait rien
+  exigé), mais `build_skills_system_prompt()` garde un cache LRU en process **dont la
+  clé ne contient ni mtime ni manifeste** — les trois mandats seraient restés
+  invisibles jusqu'à la fin de vie du process.
+- 🔧 **Donnée fausse du dépôt corrigée** : `bureau/modules/hermes_status.py` affirmait
+  en docstring que les agents « tournent en process de fond, pas en service systemd —
+  vérifié le 2026-08-15 ». Ce sont des services **systemd user** (`hermes-gateway-<profil>.service`,
+  `enabled`) ; `systemctl` ne renvoyait rien parce qu'il était interrogé en portée
+  système, sans `--user`. Un redémarrage passe donc par `gateway restart`, supervisé,
+  jamais par un kill — ce que la note fausse aurait pu faire croire nécessaire.
+- ⛔ **Ce que l'épuisement du Qwen Token Plan laisse en souffrance, hors périmètre de
+  cette consigne.** Seuls **3 profils sur 14** sont sur omniroute (`publication`,
+  `studio`, `gardien`). Les **9 autres et le défaut global** pointent encore sur
+  `qwen3.7-plus` / `custom:qwen`, c'est-à-dire sur le plan épuisé — dont `distribution`,
+  qui **tourne en ce moment**, et `karubi` (`qwen3.8-max`). Constat signalé, non
+  corrigé : la consigne portait sur l'agent 08.
+- ⚠️ **Incident de session à traiter** : en cherchant la clé omniroute, une expansion
+  shell mal quotée de ma part a **affiché `OMNIROUTE_API_KEY` en clair** dans la
+  session. La clé n'a atteint ni le dépôt ni un tiers, mais elle est sortie de son
+  fichier — **à révoquer et régénérer** (CLAUDE.md §VIII.8).
+- **Commit** : `cc5c7c9`
+
+
 ## [2026-08-31] archivage | Éclatement modulaire de l'agent 08 — et découverte que le dépôt ne parle pas au moteur
 
 - **Consigne de Sidy** : « intègre `_inbox/` et exécute le plan », en s'instruisant au
