@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-31 06:54 UTC, sur `/root/wiki`.
-> Portée : dépôt complet. 657 fiches parcourues.
+> aucun réseau) le 2026-08-31 09:11 UTC, sur `/root/wiki`.
+> Portée : dépôt complet. 673 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -378,12 +378,12 @@ links: []
 | `hermeneutique/sources/art-of-death-stranding` | source | — | 2026-08-13 | — | The Art of Death Stranding — artbook du premier volet (exemplaire retraduit machine) |
 | `hermeneutique/the-matrix/the-matrix` | oeuvre | — | 2026-08-28 | — | The Matrix |
 
-### `atelier/` — 173 fiches
+### `atelier/` — 174 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
 | `atelier/CLAUDE` | — | — | — | — | (sans titre) |
-| `atelier/annales` | meta | — | 2026-08-30 | — | Annales de l'Atelier (Projets et Matériels) |
+| `atelier/annales` | meta | — | 2026-08-31 | — | Annales de l'Atelier (Projets et Matériels) |
 | `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity` | etude-de-cas | — | 2026-08-28 | — | Build Your Own Perplexity with Exa |
 | `atelier/etudes-de-cas/dougong-consoles-bois` | etude-de-cas | — | 2026-08-24 | — | Dougong — données sur les consoles en bois à encorbellement (corpus brut) |
 | `atelier/etudes-de-cas/forteresses-architecture-defensive` | etude-de-cas | — | 2026-08-24 | — | Forteresses — données d'architecture défensive (corpus brut) |
@@ -448,6 +448,7 @@ links: []
 | `atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder` | meta | — | 2026-08-28 | — | Compte-rendu R&D 2026-08-28 — première session d'un nouveau moteur en poste |
 | `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation` | infrastructure | — | 2026-08-29 | — | Compte-rendu — Automatisation GitHub & Webhook R&D |
 | `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme` | experience | — | 2026-08-30 | — | Rapport d'erreurs — session Hindouisme et Soufisme / réseau subtil (2026-08-29 → 30) |
+| `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast` | experience | — | 2026-08-31 | — | Doctrine de la contrainte : qabḍ/basṭ et infrastructure (fiche candidate) |
 | `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents` | experience | — | 2026-08-31 | — | Rapport d'investigation — architecture modulaire des agents Hermes (2026-08-31) |
 | `atelier/rd/cahiers/bilan-2026-08-15-pont-agents` | meta | — | 2026-08-15 | — | Bilan R&D 2026-08-15 — pont inter-agents |
 | `atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries` | outillage | — | 2026-08-11 | — | Brouillon — extension zodiacale, agent 1 ar-music |
@@ -469,7 +470,7 @@ links: []
 | `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31` | meta | — | 2026-08-31 | — | Proposition — Veille automatique Studio (recherche repos + interface Gardien) |
 | `atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820` | rapport-conjoint | — | 2026-08-20 | — | Rapport conjoint Studio–Gardien — étude du dépôt (2026-08-20) |
 | `atelier/rd/cahiers/rapport-studio-exploration-preliminaire` | rapport-agent | — | 2026-08-20 | — | Rapport Studio — Exploration préliminaire du dépôt |
-| `atelier/rd/cahiers/registre-problemes` | meta | — | 2026-08-30 | — | Registre des problèmes — pôle R&D (cahier append-only) |
+| `atelier/rd/cahiers/registre-problemes` | meta | — | 2026-08-31 | — | Registre des problèmes — pôle R&D (cahier append-only) |
 | `atelier/rd/citadelle-du-sham/note` | rapport-agent | — | 2026-08-22 | — | La Citadelle du Sham — jeu 3D de visite du depot-lecture |
 | `atelier/rd/incidents/2026-08-22_post-scriptum-hook-corrige` | outillage | — | 2026-08-22 | — | Post-Scriptum — Hook pre-commit corrigé |
 | `atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination` | outillage | resolu | 2026-08-31 | — | Incident de contamination par caractères Unicode invisibles (U+200D) |
@@ -574,7 +575,7 @@ links: []
 | `label/production/equipe-agents-hermes` | production | — | 2026-07-05 | — | Équipe d'agents Hermes — 12 fonctions, 5 archétypes |
 | `label/production/modele-economique` | production | — | 2026-07-05 | — | Modèle économique — le contrepoids de la rentabilité |
 
-### `meta/` — 129 fiches
+### `meta/` — 144 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
@@ -607,7 +608,7 @@ links: []
 | `meta/journal/conversation-atma-claude` | meta | — | 2026-06-20 | — | Conversation — philosophie indienne et nature de l'IA (Atma, Sāṃkhya) |
 | `meta/journal/conversation-chatgpt-2026-06-15` | meta | — | 2026-06-20 | — | Conversation ChatGPT — genèse du Commandement 12 (forme/principe) |
 | `meta/journal/conversation-claude-2026-06-15` | meta | — | 2026-06-20 | — | Conversation Claude — formulation de la directive forme/principe |
-| `meta/meta-annales` | meta | — | 2026-08-30 | — | Annales du Domaine Réservé (meta/) |
+| `meta/meta-annales` | meta | — | 2026-08-31 | — | Annales du Domaine Réservé (meta/) |
 | `meta/meta-index` | meta | — | 2026-08-31 | — | meta-index — hub du Domaine Réservé |
 | `meta/migration-2026-06-11` | — | — | — | — | (sans titre) |
 | `meta/onboarding` | meta | deprecated | 2026-06-02 | — | Onboarding — État du Wiki |
@@ -663,26 +664,41 @@ links: []
 | `meta/projet-unifie/briefing-claude-ai` | meta | — | 2026-07-06 | — | Briefing Claude.ai — Projet Wiki & Label (handoff serveur → iPad) |
 | `meta/projet-unifie/chatgpt-export-2026-05-10` | source | — | 2026-06-02 | — | Export de données ChatGPT (2026-05-10) |
 | `meta/projet-unifie/choura/cycle-2026-08-28` | meta | — | 2026-08-27 | — | Cycle de Consultation (Choura) — journée du 2026-08-28 |
-| `meta/projet-unifie/choura/cycle-2026-08-30` | meta | — | 2026-08-30 | — | Cycle de Consultation (Choura) — journée du 2026-08-30 |
+| `meta/projet-unifie/choura/cycle-2026-08-30` | meta | — | 2026-08-31 | — | Cycle de Consultation (Choura) — journée du 2026-08-30 |
+| `meta/projet-unifie/choura/cycle-2026-08-31` | meta | — | 2026-08-31 | — | Cycle de Consultation (Choura) — cycle ouvert le 2026-08-31 |
+| `meta/projet-unifie/choura/orchestrateur/README` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/directive-discernement-domaines` | meta | — | 2026-06-20 | — | Directive de discernement des domaines (forme / principe) |
 | `meta/projet-unifie/framework-etude-de-cas` | outillage | — | 2026-07-06 | — | Framework d'étude de cas — maisons, marques, structures |
-| `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction` | — | — | — | — | (sans titre) |
-| `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction` | — | — | — | — | (sans titre) |
-| `meta/projet-unifie/hermes-prompts/03-production-manager` | — | — | — | — | (sans titre) |
-| `meta/projet-unifie/hermes-prompts/04-administration-legal` | — | — | — | — | (sans titre) |
-| `meta/projet-unifie/hermes-prompts/05-accounting-management` | — | — | — | — | (sans titre) |
-| `meta/projet-unifie/hermes-prompts/06-distribution` | — | — | — | — | (sans titre) |
-| `meta/projet-unifie/hermes-prompts/07-marketing-communication` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/01-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/mandats/ar-music-artistic-direction` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/02-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/mandats/visual-editorial-artistic-direction` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/03-production-manager/03-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/03-production-manager/mandats/production-manager` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/04-administration-legal/04-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/04-administration-legal/mandats/administration-legal` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/05-accounting-management/05-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/05-accounting-management/mandats/accounting-management` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/06-distribution/06-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/07-marketing-communication/07-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/07-marketing-communication/mandats/marketing-communication` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/hermes-prompts/08-publication-site/08-principe` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/hermes-prompts/08-publication-site/README` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/hermes-prompts/08-publication-site/deployer-prompt-agent` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/bibliothecaire` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/site-orchestration` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/veille-referencement` | — | — | — | — | (sans titre) |
-| `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer` | — | — | — | — | (sans titre) |
-| `meta/projet-unifie/hermes-prompts/10-protocol-guardian` | — | — | — | — | (sans titre) |
-| `meta/projet-unifie/hermes-prompts/11-fanzine-editor` | — | — | — | — | (sans titre) |
-| `meta/projet-unifie/hermes-prompts/12-commerce-profitability` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/09-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/infrastructure-veille` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/studio-sound-engineer` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/10-protocol-guardian/10-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/protocol-guardian` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/veille-protocole` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/11-fanzine-editor/11-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/11-fanzine-editor/mandats/fanzine-editor` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/12-commerce-profitability/12-principe` | — | — | — | — | (sans titre) |
+| `meta/projet-unifie/hermes-prompts/12-commerce-profitability/mandats/commerce-profitability` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/hermes-prompts/13-librarian-archivist` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03` | meta | — | 2026-07-08 | — | Note d'optimisation — préparation de l'intégration Hermes Agent (2026-07-03) |
 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0` | meta | — | 2026-08-15 | — | Spécification — rôle G0 de brouillon §4 (actualisation Karūbī) |
@@ -717,9 +733,9 @@ links: []
 | `guenon` | 77 | `atelier/etudes-de-cas/zellige-grande-mosquee-paris`, `atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `doctrinal/autorites/charles-andre-gilis`, `doctrinal/autorites/michel-valsan`, `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, … (+69) |
 | `outillage` | 40 | `atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres`, `atelier/rd/outillage/2026-08-10_methode-croisement-discernement`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole`, `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, … (+32) |
 | `ibn-arabi` | 30 | `atelier/rd/instrument/soumission-gem-reponse-gloton`, `doctrinal/autorites/charles-andre-gilis`, `doctrinal/autorites/michel-valsan`, `doctrinal/autorites/titus-burckhardt`, `doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh`, `doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, … (+22) |
-| `infrastructure` | 28 | `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/index`, `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20`, `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11`, … (+20) |
+| `infrastructure` | 29 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/index`, `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20`, … (+21) |
+| `rd` | 28 | `atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session`, `atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres`, `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme`, `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, … (+20) |
 | `bibliotheque` | 27 | `atelier/rd/bibliotheque/abreviations-hindouisme-soufisme`, `atelier/rd/bibliotheque/bibliographie-ihwan-al-safa`, `atelier/rd/bibliotheque/bibliographie-porte-du-ciel`, `atelier/rd/bibliotheque/catalogue-bibliotheque`, `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `atelier/rd/bibliotheque/eckstein-porte-du-ciel`, `atelier/rd/bibliotheque/glossaires-porte-du-ciel`, `atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue`, … (+19) |
-| `rd` | 27 | `atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session`, `atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres`, `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/registre-problemes`, … (+19) |
 | `hermes` | 26 | `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/incidents/2026-08-25_gardien-gateway-crash-boucle`, `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement`, `atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11`, … (+18) |
 | `instrument` | 25 | `atelier/index`, `atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session`, `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme`, `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles`, `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement`, `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3`, `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres`, `atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable`, … (+17) |
 | `projet-claude-ai` | 25 | `meta/projet-unifie/00-instructions-projet`, `meta/projet-unifie/01-contexte-demarche-etat`, `meta/projet-unifie/02-instrument-feuille-de-route`, `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/04-sessions-par-fonction-et-backlogs`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, … (+17) |
@@ -729,11 +745,11 @@ links: []
 | `tasawwuf` | 14 | `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3`, `doctrinal/autorites/faraz-rabbani`, `doctrinal/autorites/muhammad-nazim-al-haqqani`, `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement`, `doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation`, `doctrinal/symboles/futuwwa`, … (+6) |
 | `discernement` | 13 | `atelier/rd/outillage/2026-08-10_methode-croisement-discernement`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, … (+5) |
 | `qutb` | 13 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres`, `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions`, `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh`, `doctrinal/sources/guenon-dome-et-la-roue`, … (+5) |
+| `atelier` | 12 | `atelier/index`, `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/registre-problemes`, `atelier/rd/index`, … (+4) |
 | `runbook` | 12 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03`, … (+4) |
 | `soufisme` | 12 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/autorites/abd-al-qadir-al-jilani`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/symboles/al-insan-al-kamil`, `doctrinal/symboles/barzakh`, `doctrinal/symboles/hadarat-khams`, … (+4) |
 | `transcription` | 12 | `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `atelier/rd/bibliotheque/lumiere-hindouisme-soufisme`, `atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme`, `atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme`, `doctrinal/sources/gloton-approche-coran-grammaire-lexique`, `doctrinal/sources/kitab-tarifat-index-transcription`, `doctrinal/sources/meftah-chatons-sagesses-transcription`, `doctrinal/sources/razi-noms-divins-ch18-khafid-rafi`, … (+4) |
 | `veille` | 12 | `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31`, `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19`, `atelier/rd/veille/2026-08-31_argentos-core`, `atelier/rd/veille/2026-08-31_auto-harness`, `atelier/rd/veille/2026-08-31_claude-smart`, `atelier/rd/veille/2026-08-31_sentrux`, … (+4) |
-| `atelier` | 11 | `atelier/index`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/registre-problemes`, `atelier/rd/index`, `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20`, … (+3) |
 | `metaphysique` | 11 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `doctrinal/symboles/al-insan-al-kamil`, `doctrinal/symboles/barzakh`, `doctrinal/symboles/hadarat-khams`, … (+3) |
 | `axe-du-monde` | 10 | `atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue`, `atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel`, `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument`, `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale`, `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions`, `doctrinal/sources/guenon-dome-et-la-roue`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron`, … (+2) |
 | `sashimono` | 10 | `atelier/rd/bibliotheque/eckstein-porte-du-ciel`, `atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel`, `atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument`, `atelier/rd/veille/cordis/notes-lecture`, `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel`, … (+2) |
@@ -762,6 +778,7 @@ links: []
 | `clos` | 7 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien`, `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, … (+-1) |
 | `eschatologie` | 7 | `doctrinal/deviations/antitradition-et-contre-tradition`, `doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities`, `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation`, `doctrinal/symboles/eschatologie`, `doctrinal/symboles/manazil-al-qamar`, `doctrinal/symboles/manvantara` |
 | `gardien` | 7 | `atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session`, `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31`, `atelier/rd/incidents/2026-08-25_gardien-gateway-crash-boucle`, `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20`, `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06`, `meta/projet-unifie/proposition-cycle-consultation-choura-2026-08-27`, `meta/projet-unifie/proposition-pole-fiqh-2026-07-06`, … (+-1) |
+| `kari-kumi` | 7 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf`, `doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres`, `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet`, `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi`, … (+-1) |
 | `methode` | 7 | `atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session`, `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme`, `atelier/rd/outillage/2026-08-10_methode-croisement-discernement`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel`, `meta/philosophie-sashimono`, … (+-1) |
 | `shayegan` | 7 | `atelier/rd/bibliotheque/abreviations-hindouisme-soufisme`, `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `atelier/rd/bibliotheque/lumiere-hindouisme-soufisme`, `atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme`, `atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme`, `atelier/rd/bibliotheque/sommaire-hindouisme-soufisme`, `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres`, … (+-1) |
 | `symbolisme-croix` | 7 | `doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques`, `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf`, `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel`, `doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference`, `doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain`, `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace`, `doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas`, … (+-1) |
@@ -776,7 +793,6 @@ links: []
 | `hindouisme-soufisme` | 6 | `atelier/rd/bibliotheque/abreviations-hindouisme-soufisme`, `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `atelier/rd/bibliotheque/lumiere-hindouisme-soufisme`, `atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme`, `atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme`, `atelier/rd/bibliotheque/sommaire-hindouisme-soufisme` |
 | `initiation-realisation-spirituelle` | 6 | `doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet`, `doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise`, `doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee`, `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement`, `doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs`, `doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores`, … (+-2) |
 | `insan-al-kamil` | 6 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`, `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions`, `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel` |
-| `kari-kumi` | 6 | `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf`, `doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres`, `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet`, `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi`, … (+-2) |
 | `self-improvement` | 6 | `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/veille/2026-08-31_argentos-core`, `atelier/rd/veille/2026-08-31_auto-harness`, `atelier/rd/veille/2026-08-31_claude-smart`, `atelier/rd/veille/2026-08-31_sentrux`, `atelier/rd/veille/2026-08-31_sia` |
 | `sushumna` | 6 | `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons`, `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions`, `doctrinal/sources/avalon-serpent-power-nadis-reseau`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire`, `doctrinal/symboles/polarite-laterale-de-l-axe` |
 | `asma-al-husna` | 5 | `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/sources/razi-noms-divins-ch18-khafid-rafi` |
@@ -1008,6 +1024,7 @@ links: []
 | `langlois` | 2 | `atelier/rd/bibliotheque/index-rig-veda`, `atelier/rd/bibliotheque/index-rig-veda-table` |
 | `lettres-hebraiques` | 2 | `doctrinal/sources/kabbale-cosmogonie-iod`, `doctrinal/sources/sefer-yetsira-ramban` |
 | `lexique` | 2 | `doctrinal/sources/gloton-approche-coran-grammaire-lexique`, `doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription` |
+| `lien` | 2 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `hermeneutique/death-stranding/death-stranding` |
 | `lilith` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `logique` | 2 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani` |
 | `macrocosme-microcosme` | 2 | `doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris`, `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel` |
@@ -1173,6 +1190,7 @@ links: []
 | `bande` | 1 | `atelier/materiel/revox-a77` |
 | `baptistere` | 1 | `doctrinal/sources/guenon-octogone` |
 | `base` | 1 | `hermeneutique/metal-gear/mother-base` |
+| `bast` | 1 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast` |
 | `benefique-malefique` | 1 | `doctrinal/deviations/renversement-des-symboles` |
 | `bhutas` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26` |
 | `bibliotheque-physique` | 1 | `doctrinal/sources/archeometre-saint-yves-papus-1911` |
@@ -1232,6 +1250,7 @@ links: []
 | `consciousness` | 1 | `doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms` |
 | `contemplation` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet` |
 | `contexte` | 1 | `meta/projet-unifie/01-contexte-demarche-etat` |
+| `contrainte` | 1 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast` |
 | `contre-facon` | 1 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale` |
 | `contre-tradition` | 1 | `doctrinal/deviations/antitradition-et-contre-tradition` |
 | `corancez` | 1 | `doctrinal/sources/histoire-wahhabis-corancez-redissi` |
@@ -1453,7 +1472,6 @@ links: []
 | `lettre-nun` | 1 | `doctrinal/sources/guenon-mysteres-lettre-nun` |
 | `lettres` | 1 | `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet` |
 | `lettres-transcendantes` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf` |
-| `lien` | 1 | `hermeneutique/death-stranding/death-stranding` |
 | `limiteur` | 1 | `atelier/materiel/distressor-el8` |
 | `livre-du-monde` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf` |
 | `lumiere` | 1 | `atelier/rd/bibliotheque/lumiere-hindouisme-soufisme` |
@@ -1585,6 +1603,7 @@ links: []
 | `pôle` | 1 | `doctrinal/sources/guenon-roi-du-monde-ch10` |
 | `pôle-monde` | 1 | `doctrinal/sources/mahdi-rouge-islam-signe-balance-I` |
 | `qabbale` | 1 | `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra` |
+| `qabd` | 1 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast` |
 | `qadaman` | 1 | `doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation` |
 | `quadrivium` | 1 | `atelier/etudes-de-cas/zellige-grande-mosquee-paris` |
 | `qualification` | 1 | `doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission` |
@@ -1770,7 +1789,7 @@ links: []
 *Reproduits littéralement. Donne le contenu réel de chaque fiche sans passer par un résumé.*
 
 - `atelier/CLAUDE` — Structure du circuit · Nomenclature · Le Sceau atelier · Journalisation
-- `atelier/annales` — [2026-08-31] rd/veille | Investigation Tencent/AngelSpec (speculative… · [2026-08-30] rd/outillage | Première application de la procédure d'ex… · [2026-08-30] rd/cahiers | Ouverture du journal des optimisations · [2026-08-30] doctrinal | Procédure d'exploitation du graphe lors de l… · [2026-08-30] rd/cahiers | Item 3 clos par reconnaissance — validation… · [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photogra… · [2026-08-30] rd/instrument | Report des six trouvailles au prototype … · [2026-08-30] rd/instrument | Chantier « Figurer l'incommensurable » —… · [2026-08-30] rd/instrument | Collation Gloton — chantier « Figurer l'… · [2026-08-30] rd/instrument | données | Cellule `mandala` d'Ājñā combl… · [2026-08-30] rd/outillage | correction | [A6] raffiné plutôt que supp… · [2026-08-30] rd/bibliotheque | signalement | Lien vers la table de co… · [2026-08-30] archivage | Shayegan, chapitre II « Les Disciplines Spir… · [2026-08-30] veille | exécution rapport Publication — fiche session S… · [2026-08-30] rd/bibliotheque | fermeture du sas | vidage `_inbox/` (t… … (+131)
+- `atelier/annales` — [2026-08-31] outillage | Juge de paix des prompts Hermes, résidu ZWJ,… · [2026-08-31] rd/veille | Investigation Tencent/AngelSpec (speculative… · [2026-08-30] rd/outillage | Première application de la procédure d'ex… · [2026-08-30] rd/cahiers | Ouverture du journal des optimisations · [2026-08-30] doctrinal | Procédure d'exploitation du graphe lors de l… · [2026-08-30] rd/cahiers | Item 3 clos par reconnaissance — validation… · [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photogra… · [2026-08-30] rd/instrument | Report des six trouvailles au prototype … · [2026-08-30] rd/instrument | Chantier « Figurer l'incommensurable » —… · [2026-08-30] rd/instrument | Collation Gloton — chantier « Figurer l'… · [2026-08-30] rd/instrument | données | Cellule `mandala` d'Ājñā combl… · [2026-08-30] rd/outillage | correction | [A6] raffiné plutôt que supp… · [2026-08-30] rd/bibliotheque | signalement | Lien vers la table de co… · [2026-08-30] archivage | Shayegan, chapitre II « Les Disciplines Spir… · [2026-08-30] veille | exécution rapport Publication — fiche session S… … (+132)
 - `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity` — Step 1: Environment Setup · Step 2: Web Search Function · Step 3: AI Analysis Function · Step 4: Research Function · Step 5: Add Research Depth · Step 6: Anthropic Multi-Agent Research
 - `atelier/etudes-de-cas/dougong-consoles-bois` — Nature et limites de la source · Données extraites (transcription fidèle) · Stratification de crédibilité (par item) · Recherches complémentaires (propres, distinctes de la source) · Phase 2 — analyse (à venir, non ouverte)
 - `atelier/etudes-de-cas/forteresses-architecture-defensive` — Nature et limites de la source · Données extraites (transcription fidèle) · Stratification de crédibilité (par item) · Recherches complémentaires (propres, distinctes de la source) · Phase 2 — analyse (à venir, non ouverte)
@@ -1822,6 +1841,7 @@ links: []
 - `atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder` — I. Incident découvert — en-tête d'entrée d'annales remplacé à l'inser… · II. Données de calibrage du vérificateur — état de référence · III. Hygiène des manifestes — doublon racine supprimé · IV. Multi-rédacteurs concurrents — observation · V. Lisibilité du protocole par un moteur à froid · VI. Propositions ouvertes (aucune exécutée) · VII. Traçabilité
 - `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation` — Contexte · Infrastructure mise en place · Bilan · Prochaines étapes possibles
 - `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme` — 0. Le tableau d'ensemble · 1. Erreurs de la machine — le fond doctrinal · 2. Erreurs de la machine — le rendu · 3. Erreurs d'outillage · 4. Défauts trouvés dans le dépôt · 5. Un défaut de process · 6. Ce qui a été évité — et qui compte autant · 7. Les cinq règles que cette session ajoute au métier · 8. Ce qui reste ouvert
+- `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast` — 1. Contexte · 2. Lecture du texte source · 3. Application à l'infrastructure Hermes · 4. Lien avec le chantier en cours · Principe doctrinal (source : doctrine de la contrainte) · 5. Qualification doctrinale (à trancher par Sidy) · 6. Liens
 - `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents` — 1. Contexte et déclencheur · 2. Diagnostic initial · 3. Investigation multi-angles · 4. Synthèse : architecture modulaire retenue · 5. Concept théorique extrait (pour le corpus) · 6. État actuel et prochaines étapes · 7. Leçons transversales · 8. Liens · 9. Verdict Sidy (Cmd 12/13)
 - `atelier/rd/cahiers/bilan-2026-08-15-pont-agents` — I. Ce qui est tranché et committé (résolu) · II. Ce qui est en cours (non commité) · III. Chantiers ouverts — par priorité · IV. Leçons transversales (mémoire opérationnelle) · V. Pour reprendre le travail · VI. Contacts et responsabilités
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries` — Zodiac principle · Your sign in Sidy's natal chart (harmonization context)
@@ -2301,7 +2321,7 @@ links: []
 - `meta/genealogie/tapa-sissoko` — Identité · Faits · Notes
 - `meta/journal/2026-06-18-tawakkul-transition` — Contexte · Sur la condition humaine et la dunya · Sur la démission · Sur la narration et le nafs · Sur le statut de l'injustice dans le contrat de service · Sur le tawakkul vécu · Vigilance pour l'avenir · Références croisées
 - `meta/journal/conversation-atma-claude` — 1. Qu’est-ce qu’Atma ? · 2. Qu’est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu’est-ce que Buddhi ? · 5. Ahamkara et Manas — l’Antahkarana · 6. Qu’est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA · 1. Qu'est-ce qu'Atma ? · 2. Qu'est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu'est-ce que Buddhi ? · 5. Ahamkara et Manas — l'Antahkarana · 6. Qu'est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA
-- `meta/meta-annales` — [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées… · [2026-08-30] briefs | Passation retour — session claude.ai vers sessi… · [2026-08-30] briefs | Passation de la session Instrument vers Claude … · [2026-08-30] briefs | Passation de la session « réseau subtil » vers … · [2026-08-29] personnel | mise à jour | Rêve géants/Paris — liens vers… · [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (… · [2026-08-28] maintenance | Corrections de dérive du protocole (table … · [2026-08-27] projet-unifie | Choura : premier cycle wiki + câblage cr… · [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers … · [2026-08-24] realignement | Crons Publication (08), Gardien (10), Stu… · [2026-08-24] cron + revue | Mandat frontmatter veille (position 08) p… · [2026-08-24] fusion | Rôle Librarian-Archivist (13) fusionné dans la … · [2026-08-22] sortie de domaine | `bibliotheque-physique.md` → `atelie… · [2026-08-22] ventilation | Fiche interview trame spirituelle → fiches… · [2026-08-16] extension | Canal Telegram Mehdi (habib-mehdi) + mandat … … (+12)
+- `meta/meta-annales` — [2026-08-31] infrastructure | Bascule omniroute des 14 profils, répar… · [2026-08-31] deploiement | Agent 08 déployé sur le moteur — et le rou… · [2026-08-31] archivage | Éclatement modulaire de l'agent 08 — et déco… · [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées… · [2026-08-30] briefs | Passation retour — session claude.ai vers sessi… · [2026-08-30] briefs | Passation de la session Instrument vers Claude … · [2026-08-30] briefs | Passation de la session « réseau subtil » vers … · [2026-08-29] personnel | mise à jour | Rêve géants/Paris — liens vers… · [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (… · [2026-08-28] maintenance | Corrections de dérive du protocole (table … · [2026-08-27] projet-unifie | Choura : premier cycle wiki + câblage cr… · [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers … · [2026-08-24] realignement | Crons Publication (08), Gardien (10), Stu… · [2026-08-24] cron + revue | Mandat frontmatter veille (position 08) p… · [2026-08-24] fusion | Rôle Librarian-Archivist (13) fusionné dans la … … (+15)
 - `meta/meta-index` — Personnel (`personnel/`) · Généalogie (`genealogie/`) · Journal (`journal/`) · Transmissions (`transmissions/`, dispositif Karūbī — voir `meta/CLAUD… · Briefs (`briefs/`) · Projet unifié (`projet-unifie/`) · Fiches de premier niveau (`meta/`)
 - `meta/migration-2026-06-11` — Étape 1 : Remplacement du Cœur Opérationnel · Étape 2 : Migration et Ventilation de l'Existant (Sans re-lecture) · Étape 3 : Normalisation des Frontmatters (Script automatisé ou éditio… · Étape 4 : Initialisation des Méta-Pages · Étape 5 : Clôture et Validation
 - `meta/onboarding` — Contexte · Infrastructure en place · Structure du wiki sur le serveur · Synchronisation Obsidian : ✅ résolue (auto-pull activé) · Comment démarrer une session Claude Code · Coffre Obsidian · Prochaines étapes suggérées · Notes techniques
@@ -2357,26 +2377,41 @@ links: []
 - `meta/projet-unifie/briefing-claude-ai` — 0. Qui fait quoi (architecture par fonction, agnostique au modèle) · 1. Architecture du dépôt (`/root/wiki`) — QUATRE circuits étanches · 2. Le Sceau Recteur — frontmatter EXACT des pages `doctrinal/` · 3. Les statuts (`status`) · 4. Circuit Discernement (`doctrinal/discernement/`) · 5. Circuit Atelier (`atelier/`) — frontmatter allégé · 5 bis. Circuit Label (`label/`) — Sceau propre · 6. Domaine réservé `meta/` + étanchéité · 7. Les 14 Commandements Absolus (résumé) · 8. Nomenclature · 9. Ce que tu PRODUIS et comment le livrer (format de sortie) · 10. Points de vigilance récurrents · 11. État des travaux (au 2026-07-06) · 12. Pages existantes — NE PAS recréer (les `index.md` font foi)
 - `meta/projet-unifie/chatgpt-export-2026-05-10` — Référence · Accès · Données extraites lors de l'INGEST du 2026-06-02 · Notes
 - `meta/projet-unifie/choura/cycle-2026-08-28` — [2026-08-28 18:04] studio (rôle 9, Vierge) · [2026-08-28 08:30] publication (rôle 8, Sagittaire) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe)
-- `meta/projet-unifie/choura/cycle-2026-08-30` — [2026-08-30 00:05] gardien (rôle 10, Capricorne) · [2026-08-30 16:00] publication (rôle 8, Sagittaire) · [2026-08-30 16:30] gardien (rôle 10, Capricorne) · [2026-08-30 18:05] ar-music (rôle 1, Bélier) · [2026-08-30 20:15] visual-da (rôle 2, Balance) · [2026-08-31 00:15] accounting (rôle 5, Taureau) · [2026-08-31 02:30] distribution (rôle 6, Scorpion) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe)
+- `meta/projet-unifie/choura/cycle-2026-08-30` — [2026-08-30 00:05] gardien (rôle 10, Capricorne) · [2026-08-30 16:00] publication (rôle 8, Sagittaire) · [2026-08-30 16:30] gardien (rôle 10, Capricorne) · [2026-08-30 18:05] ar-music (rôle 1, Bélier) · [2026-08-30 20:15] visual-da (rôle 2, Balance) · [2026-08-31 00:15] accounting (rôle 5, Taureau) · [2026-08-31 02:30] distribution (rôle 6, Scorpion) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe) · Clôture du cycle — 2026-08-31, 10:55 (heure de Paris)
+- `meta/projet-unifie/choura/cycle-2026-08-31` — Rotation de ce cycle (heure de Paris) · [2026-08-31 10:55] amorce (hors tour — Claude Code, sur instruction d… · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe)
+- `meta/projet-unifie/choura/orchestrateur/README` — Ce qu'il fait · Invariant à tenir · Contrôle
 - `meta/projet-unifie/directive-discernement-domaines` — Principe · Les deux garde-fous (symétriques) · Conséquence pratique · Note sur la portée · Origine
 - `meta/projet-unifie/framework-etude-de-cas` — Objet · Règles d'exécution (pour l'agent) · Frontmatter type d'une étude · MODULE 1 — Fiche d'identité & genèse · MODULE 2 — Thèse & positionnement · MODULE 3 — Direction artistique & marque · MODULE 4 — Produit & catalogue · MODULE 5 — Modèle économique · MODULE 6 — Production & logistique · MODULE 7 — Distribution · MODULE 8 — Marketing & communication · MODULE 9 — Culture, communauté & gouvernance · MODULE 10 — Trajectoire & points d'inflexion · BLOC FINAL — Transposition 🔍 (suggéré) · Annexe — Barème de crédibilité des sources
-- `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Reference & standards · Guardrails · Typical commands · Handoffs
-- `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Reference & standards · Guardrails · Typical commands · Handoffs
-- `meta/projet-unifie/hermes-prompts/03-production-manager` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Reference & standards · Guardrails · Typical commands · Handoffs
-- `meta/projet-unifie/hermes-prompts/04-administration-legal` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Reference & standards · Guardrails — REINFORCED · Typical commands · Handoffs
-- `meta/projet-unifie/hermes-prompts/05-accounting-management` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Reference & standards · Guardrails — REINFORCED · Typical commands · Handoffs
-- `meta/projet-unifie/hermes-prompts/06-distribution` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Reference & standards · Guardrails · Typical commands · Handoffs
-- `meta/projet-unifie/hermes-prompts/07-marketing-communication` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Reference & standards · Guardrails · Typical commands · Handoffs
+- `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/01-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/mandats/ar-music-artistic-direction` — Reference & standards · Typical commands
+- `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/02-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/mandats/visual-editorial-artistic-direction` — Reference & standards · Typical commands
+- `meta/projet-unifie/hermes-prompts/03-production-manager/03-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/03-production-manager/mandats/production-manager` — Reference & standards · Typical commands
+- `meta/projet-unifie/hermes-prompts/04-administration-legal/04-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails — REINFORCED · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/04-administration-legal/mandats/administration-legal` — Reference & standards · Typical commands
+- `meta/projet-unifie/hermes-prompts/05-accounting-management/05-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails — REINFORCED · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/05-accounting-management/mandats/accounting-management` — Reference & standards · Typical commands
+- `meta/projet-unifie/hermes-prompts/06-distribution/06-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution` — Reference & standards · Typical commands
+- `meta/projet-unifie/hermes-prompts/07-marketing-communication/07-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/07-marketing-communication/mandats/marketing-communication` — Reference & standards · Typical commands
 - `meta/projet-unifie/hermes-prompts/08-publication-site/08-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails — REINFORCED · Handoffs · Mandats
 - `meta/projet-unifie/hermes-prompts/08-publication-site/README` — Contrat de chargement · Ce que ces fichiers ne font pas · Où cela vit réellement · Vérification
-- `meta/projet-unifie/hermes-prompts/08-publication-site/deployer-prompt-agent` — Pourquoi cette procédure existe · Correspondance des pièces · Séquence (à exécuter sur go de Sidy, jamais avant) · Retour arrière · Points à trancher avant déploiement
+- `meta/projet-unifie/hermes-prompts/08-publication-site/deployer-prompt-agent` — Pourquoi cette procédure existe · Correspondance des pièces · Séquence (exécutée le 2026-08-31) · Retour arrière · Points à trancher avant déploiement · Exécution du 2026-08-31 — trace
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/bibliothecaire` — Second mandate — Librarian-Archivist (extension, 2026-08-24)
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/site-orchestration` — Reference & standards · Typical commands
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/veille-referencement` — Third mandate — Veille référencement & investigation documentaire (cr…
-- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Governance: Discord-Validation · Scope · Infrastructure veille mandate (extension, 2026-08-16) · Reference & standards · Guardrails · Typical commands · Handoffs
-- `meta/projet-unifie/hermes-prompts/10-protocol-guardian` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Cron mandate — veille-protocole-gardien (realigné 2026-08-24) · Reference & standards · Guardrails — SPECIFIC · Typical commands · Handoffs
-- `meta/projet-unifie/hermes-prompts/11-fanzine-editor` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Reference & standards · Guardrails · Typical commands · Handoffs
-- `meta/projet-unifie/hermes-prompts/12-commerce-profitability` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Reference & standards · Guardrails — SPECIFIC BEHAVIORAL DIRECTIVE · Typical commands · Handoffs
+- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/09-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Governance: Discord-Validation · Scope · Guardrails · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/infrastructure-veille` — Infrastructure veille mandate (extension, 2026-08-16)
+- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/studio-sound-engineer` — Reference & standards · Typical commands
+- `meta/projet-unifie/hermes-prompts/10-protocol-guardian/10-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails — SPECIFIC · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/protocol-guardian` — Reference & standards · Typical commands
+- `meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/veille-protocole` — Cron mandate — veille-protocole-gardien (realigné 2026-08-24)
+- `meta/projet-unifie/hermes-prompts/11-fanzine-editor/11-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/11-fanzine-editor/mandats/fanzine-editor` — Reference & standards · Typical commands
+- `meta/projet-unifie/hermes-prompts/12-commerce-profitability/12-principe` — Mission · Archetype served · Zodiac principle · Your sign in Sidy's natal chart (harmonization context) · Scope · Guardrails — SPECIFIC BEHAVIORAL DIRECTIVE · Handoffs · Mandats
+- `meta/projet-unifie/hermes-prompts/12-commerce-profitability/mandats/commerce-profitability` — Reference & standards · Typical commands
 - `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03` — 1. Phase 0 : critère de sortie atteint · 2. Point structurel favorable : Hermes échappe au bug Claude Code · 3. Trois décisions ouvertes avant la Phase 1 · 4. Optimisation concrète immédiate : script de tunnel · 5. Ce qui ne change pas
 - `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0` — Ce que ce rôle résout · Déclencheur · Séparation stricte d'avec le sub-agent Karūbī (destinataire) · Étape 1 — lecture · Étape 2 — rédaction du brouillon · Étape 3 — remise à Sidy · Ce que ce rôle ne fait jamais · Prérequis de mise en service
 - `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes` — Déclencheur · Étape 0 — porte mécanique (Agent 10) · Étape 1 — lancement du sub-agent isolé · Étape 2 — comportement en session · Étape 3 — clôture de session · Ce que la skill ne fait jamais · Prérequis de mise en service (bloquants)
@@ -2469,12 +2504,12 @@ links: []
 **Total : 580 marqueurs sur 180 fiches.**
 
 - `atelier/annales` (21)
-  - L30 : - `doctrinal/symboles/golem.md` (symbole, phase 1, corpus brut, to-source)
-  - L31 : - `hermeneutique/frankenstein/frankenstein.md` (œuvre, phase 1, corpus brut, to-source)
-  - L91 : Burckhardt "Alchimie" signalée `to-source` pour approfondir le vocabulaire
-  - L107 : d'orientation** (§VII.1) — elle dit où chercher, elle ne lève aucun `to-source`.
-  - L930 : fiche de bibliothèque (qui ne lève pourtant aucun `to-source`). Les trois
-  - L1299 : - **Action** : création d'une fiche de corpus de Phase 1 (méthode validée 2026-08-24) — zéro interprétation, zéro lien sortant, source catalo…
+  - L84 : - `doctrinal/symboles/golem.md` (symbole, phase 1, corpus brut, to-source)
+  - L85 : - `hermeneutique/frankenstein/frankenstein.md` (œuvre, phase 1, corpus brut, to-source)
+  - L145 : Burckhardt "Alchimie" signalée `to-source` pour approfondir le vocabulaire
+  - L161 : d'orientation** (§VII.1) — elle dit où chercher, elle ne lève aucun `to-source`.
+  - L984 : fiche de bibliothèque (qui ne lève pourtant aucun `to-source`). Les trois
+  - L1353 : - **Action** : création d'une fiche de corpus de Phase 1 (méthode validée 2026-08-24) — zéro interprétation, zéro lien sortant, source catalo…
   - … (+15)
 - `atelier/etudes-de-cas/dougong-consoles-bois` (5)
   - L48 : mais la source ne nomme aucun édifice — `to-source`.
@@ -3027,8 +3062,8 @@ links: []
 - `meta/genealogie/samballa-kouyate` (1)
   - frontmatter sources: to-source
 - `meta/meta-annales` (2)
-  - L42 : pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
-  - L43 : décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
+  - L290 : pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
+  - L291 : décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
 - `meta/personnel/2026-08-18_initiation-virtuelle` (1)
   - frontmatter sources: to-source
 - `meta/personnel/sidy` (1)
@@ -3117,7 +3152,7 @@ links: []
 - `atelier/materiel/tascam-model-12` → `raw/Model12_OM_EFS_RevH3`, `raw/facture-woodbrass-4902304-2025-11-07-tascam-model12`
 - `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac` → `...`
 - `atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent` → `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity.…`
-- `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents` → `meta/projet-unifie/hermes-prompts/08-publication-site`
+- `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents` → `meta/projet-unifie/hermes-prompts/08-publication-site`, `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer`, `meta/projet-unifie/hermes-prompts/10-protocol-guardian`
 - `atelier/rd/cahiers/journal-optimisations` → `atelier/rd/index.md`
 - `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31` → `doctrinal/...`
 - `atelier/rd/cahiers/registre-problemes` → `...`, `^`, `atelier/rd/index.md`, `doctrinal/discernement`, `wiki-contrainte-integration-levee`, `x/y`
@@ -3151,7 +3186,7 @@ links: []
 - `meta/proposition-discernement` → `deviation-y`, `symbole/autorite-x`
 - `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12` → `autre-slug`, `chemin/relatif`, `doctrinal/deviations/slug`, `doctrinal/symboles-ou-autorites/slug`, `slug`, `slug-source`
 
-### Fiches sans lien entrant (85)
+### Fiches sans lien entrant (101)
 
 - `atelier/CLAUDE`
 - `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity`
@@ -3169,6 +3204,7 @@ links: []
 - `atelier/rd/bibliotheque/glossaire-unifie`
 - `atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent`
 - `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation`
+- `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`
 - `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra`
@@ -3228,11 +3264,26 @@ links: []
 - `meta/2026-07-27_guide-deploiement-verifier-invariants`
 - `meta/projet-unifie/choura/cycle-2026-08-28`
 - `meta/projet-unifie/choura/cycle-2026-08-30`
+- `meta/projet-unifie/choura/cycle-2026-08-31`
+- `meta/projet-unifie/choura/orchestrateur/README`
+- `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/mandats/ar-music-artistic-direction`
+- `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/mandats/visual-editorial-artistic-direction`
+- `meta/projet-unifie/hermes-prompts/03-production-manager/mandats/production-manager`
+- `meta/projet-unifie/hermes-prompts/04-administration-legal/mandats/administration-legal`
+- `meta/projet-unifie/hermes-prompts/05-accounting-management/mandats/accounting-management`
+- `meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution`
+- `meta/projet-unifie/hermes-prompts/07-marketing-communication/mandats/marketing-communication`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/README`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/deployer-prompt-agent`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/bibliothecaire`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/site-orchestration`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/veille-referencement`
+- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/infrastructure-veille`
+- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/studio-sound-engineer`
+- `meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/protocol-guardian`
+- `meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/veille-protocole`
+- `meta/projet-unifie/hermes-prompts/11-fanzine-editor/mandats/fanzine-editor`
+- `meta/projet-unifie/hermes-prompts/12-commerce-profitability/mandats/commerce-profitability`
 - `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0`
 - `meta/projet-unifie/proposition-discernement-image-organique-2026-08-27`
 - `meta/projet-unifie/proposition-queue-taches-2026-08-27`
@@ -3245,27 +3296,27 @@ links: []
 |---|---|
 | `doctrinal/` | 315 |
 | `hermeneutique/` | 27 |
-| `atelier/` | 173 |
+| `atelier/` | 174 |
 | `label/` | 13 |
-| `meta/` | 129 |
-| **total** | **657** |
+| `meta/` | 144 |
+| **total** | **673** |
 
 | type | n |
 |---|---|
 | `source` | 113 |
 | `symbole` | 96 |
-| `meta` | 86 |
+| `meta` | 87 |
 | `discernement` | 55 |
+| `(absent)` | 43 |
 | `outillage` | 30 |
-| `(absent)` | 29 |
 | `autorite` | 27 |
 | `ressource` | 25 |
 | `perso` | 24 |
 | `infrastructure` | 23 |
 | `projet` | 19 |
 | `deprecated` | 13 |
+| `experience` | 11 |
 | `deviation` | 10 |
-| `experience` | 10 |
 | `oeuvre` | 9 |
 | `etude-de-cas` | 8 |
 | `materiel` | 8 |
@@ -3298,7 +3349,7 @@ links: []
 
 | status | n |
 |---|---|
-| `(absent)` | 325 |
+| `(absent)` | 341 |
 | `traditionnel` | 233 |
 | `speculatif` | 37 |
 | `academique` | 34 |
@@ -3312,7 +3363,7 @@ links: []
 | `analyse — aucune décision prise, signalement pour verdict` | 1 |
 | `resolu` | 1 |
 
-**Fiches sans frontmatter (29)** — signalement, aucune correction :
+**Fiches sans frontmatter (43)** — signalement, aucune correction :
 
 - `doctrinal/CLAUDE`
 - `hermeneutique/CLAUDE`
@@ -3325,24 +3376,38 @@ links: []
 - `meta/journal/2026-06-18-entretien-integral`
 - `meta/personnel/echange-eleonore-g`
 - `meta/projet-unifie/10-briefing-infrastructure-hermes-agent-2026-07-03`
-- `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction`
-- `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction`
-- `meta/projet-unifie/hermes-prompts/03-production-manager`
-- `meta/projet-unifie/hermes-prompts/04-administration-legal`
-- `meta/projet-unifie/hermes-prompts/05-accounting-management`
-- `meta/projet-unifie/hermes-prompts/06-distribution`
-- `meta/projet-unifie/hermes-prompts/07-marketing-communication`
-- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer`
-- `meta/projet-unifie/hermes-prompts/10-protocol-guardian`
-- `meta/projet-unifie/hermes-prompts/11-fanzine-editor`
-- `meta/projet-unifie/hermes-prompts/12-commerce-profitability`
+- `meta/projet-unifie/choura/orchestrateur/README`
 - `meta/projet-unifie/hermes-prompts/13-librarian-archivist`
+- `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/01-principe`
+- `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/mandats/ar-music-artistic-direction`
+- `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/02-principe`
+- `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/mandats/visual-editorial-artistic-direction`
+- `meta/projet-unifie/hermes-prompts/03-production-manager/03-principe`
+- `meta/projet-unifie/hermes-prompts/03-production-manager/mandats/production-manager`
+- `meta/projet-unifie/hermes-prompts/04-administration-legal/04-principe`
+- `meta/projet-unifie/hermes-prompts/04-administration-legal/mandats/administration-legal`
+- `meta/projet-unifie/hermes-prompts/05-accounting-management/05-principe`
+- `meta/projet-unifie/hermes-prompts/05-accounting-management/mandats/accounting-management`
+- `meta/projet-unifie/hermes-prompts/06-distribution/06-principe`
+- `meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution`
+- `meta/projet-unifie/hermes-prompts/07-marketing-communication/07-principe`
+- `meta/projet-unifie/hermes-prompts/07-marketing-communication/mandats/marketing-communication`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/08-principe`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/README`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/deployer-prompt-agent`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/bibliothecaire`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/site-orchestration`
 - `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/veille-referencement`
+- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/09-principe`
+- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/infrastructure-veille`
+- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/studio-sound-engineer`
+- `meta/projet-unifie/hermes-prompts/10-protocol-guardian/10-principe`
+- `meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/protocol-guardian`
+- `meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/veille-protocole`
+- `meta/projet-unifie/hermes-prompts/11-fanzine-editor/11-principe`
+- `meta/projet-unifie/hermes-prompts/11-fanzine-editor/mandats/fanzine-editor`
+- `meta/projet-unifie/hermes-prompts/12-commerce-profitability/12-principe`
+- `meta/projet-unifie/hermes-prompts/12-commerce-profitability/mandats/commerce-profitability`
 
 ---
 

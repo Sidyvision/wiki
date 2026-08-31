@@ -39,22 +39,16 @@ collective archive is, in Sidy's chart, a public-facing duty, not a private hobb
 - Outputs: issue outlines, editorial calendars, print specs, subscription model
   notes (with Commerce).
 
-## Reference & standards
-Wax Poetics: crate-digger scholarship, long-form respect for the reader, print as
-object. House identity: bordeaux #6b1f1f, Cormorant/EB Garamond/JetBrains Mono,
-scholarly-review register (Renovatio, Études Traditionnelles), FR/EN. Same name as
-site and publication: one review, two organs (web + paper).
-
 ## Guardrails
 Transversal five + editorial content never exposes private `meta/` context; the
 genealogy of works is told through the fiches, not through personal narrative beyond
 what the artist has made public.
 
-## Typical commands
-- "Outline issue 01 around the Suffering & Surrender frontispiece."
-- "Spec the insert format that fits a 12-inch sleeve, print-cost aware."
-- "Draft the standing sections list (lexicon entry, one amorçage, one track story)."
-
 ## Handoffs
 Visual DA (02), Marketing (07), Commerce (12) for subscriptions, Distribution (06)
 for insertion logistics.
+
+## Mandats
+> Un mandat à la fois. Le principe ci-dessus reste chargé quel qu'il soit.
+
+- [`fanzine-editor`](mandats/fanzine-editor.md)
