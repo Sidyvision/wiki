@@ -247,8 +247,27 @@ que la machine puisse fixer : c'est très exactement ce que Cmd 12 lui retire.
 - **Le renvoi Cmd 3 de §5.3 devient sans objet** dans la mesure où il supposait un joint
   neuf entre formes traditionnelles distinctes. Le rapprochement guénonien reste
   néanmoins non versé au doctrinal, faute de verdict — voir §5.3, maintenue.
-- **Aucune qualification de remplacement n'est proposée ici.** Ce serait refaire la
-  faute qui vient d'être corrigée. Le verdict reste entier (Cmd 12).
+- **Qualification de remplacement — rendue par Sidy le 2026-08-31** (« notre conclusion
+  me paraît cohérente […] la proposition est justifiée et valable » ; « versement
+  validé »). Elle n'est pas une qualification de joint, et c'est le fond de la
+  correction : **il n'y a pas de joint à qualifier.** L'infrastructure est la face
+  extérieure de ce dont l'état intérieur est la face intérieure, et elle tient le rôle
+  d'*upaguru* — « cause occasionnelle », « support » extérieur, « prolongement » de
+  l'instrument. Le lexique conventionnel (`CLAUDE.md` §VII) qualifie des joints entre
+  termes ; il est ici **hors de son domaine d'application**, et l'appliquer quand même
+  était la faute. Versement : [[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]].
+- **⚠️ Garde-fou porté par Guénon lui-même**, et qui vaut contre le contresens le plus
+  probable sur cette page : « projection extérieure d'états intérieurs » **ne veut pas
+  dire « subjectif »**. Fin du ch. XX : « il faudrait bien se garder d'interpréter ce
+  que nous venons de dire […] en ce sens que les manifestations du *Guru* intérieur
+  constitueraient seulement quelque chose de « subjectif » […] la « subjectivité » n'est
+  que la plus vaine des illusions. La réalité supérieure dont nous parlons se situe bien
+  au-delà du domaine « psychologique ». »
+- **Ce qui n'est PAS versé** : aucune correspondance entre qabḍ/basṭ (tasawwuf) et
+  upaguru / Âtmâ-Gîtâ (hindouisme) n'est établie ni suggérée. Ce serait un joint neuf
+  entre formes traditionnelles distinctes, donc fiche `discernement` et verdict séparé
+  (Cmd 3) — et aucun texte traditionnel appariant ces termes n'a été trouvé au dépôt. Le
+  versement validé porte sur la lecture *upaguru*, pas sur un appariement.
 
 ### 5.3. ⚠️ Signalement — le rapprochement hermétique n'est PAS versé
 

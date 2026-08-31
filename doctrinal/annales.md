@@ -9,6 +9,34 @@ updated: 2026-08-31
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] versement | Guénon, IRS ch. XX — « Guru et upaguru »
+
+- **Opération** : VERSEMENT (source), sur « versement validé » de Sidy.
+- **Fiche** : `doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru.md`,
+  `type: source`, `status: traditionnel`, `sources_count: 1`.
+- **Manque comblé** : le dépôt couvrait les ch. V, XXI et XXIV sur le *guru* mais
+  non la notion d'*upaguru*, dont Guénon ouvre le chapitre en observant qu'« on
+  passe généralement sous silence » cette notion.
+- **Ce que le chapitre pose** : une **chose** ou une **circonstance quelconque**
+  peut tenir ce rôle de « cause occasionnelle » ; la **cause véritable est dans la
+  nature de celui sur qui s'exerce l'action**, non dans l'objet ; le rôle est
+  transitoire, et cette contingence n'est pas un défaut mais le mode d'action même ;
+  les *upagurus* sont des « prolongements » du Guru, « au même titre que les
+  **instruments** » ; le Guru extérieur est la « représentation extériorisée » du
+  Guru intérieur, lequel « ne fait qu'un avec le « Soi » lui-même ».
+- **Garde-fou relevé** (§6 de la fiche) : Guénon interdit lui-même la lecture
+  psychologique — « la « subjectivité » n'est que la plus vaine des illusions […]
+  bien au-delà du domaine « psychologique » ». Consigné parce que c'est le
+  contresens le plus probable sur une formule de « projection extérieure ».
+- **Ce qui n'est pas versé** : aucune correspondance avec qabḍ/basṭ ni avec aucune
+  autre forme traditionnelle. Un tel lien exige une fiche `discernement` et un
+  verdict séparé (Cmd 3) ; aucun texte appariant ces termes n'a été trouvé au dépôt.
+  Le chapitre est versé seul.
+- **Étanchéité** : zéro renvoi vers `atelier/` (vérifié) ; `verifier-invariants.py`
+  rend 207, la référence de la session.
+- **Commit** : {SHA}
+
+
 ## [2026-08-31] rectificatif | Âtmâ-Gîtâ — fiche sourcée, deux erreurs de fait conservées et corrigées
 
 - **Opération** : SOURÇAGE & RECTIFICATIF (Cmd 5), sur autorisation de Sidy.
