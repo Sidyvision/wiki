@@ -5,9 +5,9 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [kabbale, etat-des-lieux, instrumentation, phase-3, bilan, sefer-yetsira, qabbalah]
 created: 2026-08-20
-updated: 2026-08-20
-sources: ["[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]", "[[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]"]
-sources_count: 5
+updated: 2026-08-31
+sources: ["[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]", "[[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]", "[[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]]"]
+sources_count: 6
 cross_links: ["[[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]"]
 ---
 
@@ -146,3 +146,20 @@ Tout ancrage kabbalistique suit la même règle que les autres traditions :
 
 *Fiche ouverte le 2026-08-20 par le gardien, à la suite de l'archivage du
 Sefer Yetsira. Inventaire posé, décision réservée à Sidy.*
+
+---
+
+## 6. Verdict (2026-08-31)
+
+**Sidy tranche pour l'Option C** : chantier kabbalistique structuré engagé, à
+l'occasion de l'ingest de [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]]
+(kabbale lurianique — Arizal via Haïm Vital, trad. Afilalo). Voir l'entrée
+correspondante des annales (`## [2026-08-31] archivage | Shaar Hagilgulim`).
+
+Ce premier pas ne préjuge pas du rythme ni de l'étendue du chantier : le
+statut `speculatif` de la présente fiche est conservé, l'inventaire des
+manques listés en §3 (Zohar, Bahir, 3 colonnes, 22 sentiers,
+`instrument-donnees.yaml`) reste ouvert pour les ingests futurs. La
+vigilance méthodologique §5 s'applique intégralement à ce chantier
+désormais engagé, y compris la **réserve explicite de Sidy sur l'orthodoxie
+du gilgul** (non tranchée — cf. [[doctrinal/symboles/gilgul]]).
