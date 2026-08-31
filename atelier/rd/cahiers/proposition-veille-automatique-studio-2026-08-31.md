@@ -153,7 +153,7 @@ mots_cles:
   - recursive self-improvement
   - automated reasoning
 filtrage:
-  min_stars: 50
+  min_stars: 100
   max_age_months: 6
   licences_permises: [Apache-2.0, MIT, BSD-2-Clause, BSD-3-Clause]
   langues: [Python, Rust, Go, C++]
@@ -361,9 +361,9 @@ Phase 6 — Sidy lit le cycle Choura, tranche (Cmd 12/13)
 ## 6. Questions ouvertes
 
 1. ~~**Mots-clés spécifiques Hermes**~~ → **Résolu** (verdict Sidy 2026-08-31) : rester sur des termes génériques — l'objectif est d'intégrer tout élément qualitatif (outillage, théorique, base de code), pas seulement ce qui est étiqueté Hermes.
-2. **Seuil de stars** : 50 est-il pertinent, ou ajuster (ex: > 100 pour réduire le bruit) ?
-3. **Archivage** : les fiches non pertinentes sont-elles archivées (cmd 10) ou supprimées ?
-4. **Sandbox** : validation préalable de Sidy avant chaque clonage, ou autonomie Studio pour clonage (pas pour déploiement) ?
+2. ~~**Seuil de stars**~~ → **Résolu** (verdict Sidy 2026-08-31) : 100 stars minimum (réduction du bruit, qualité > quantité).
+3. ~~**Archivage**~~ → **Résolu** (verdict Sidy 2026-08-31) : fiches non pertinentes archivées sur 40 jours (cohérent avec `atelier/rd/infrastructure/monitoring-archive-charte.md`, même règle de rétention).
+4. ~~**Sandbox**~~ → **Résolu** (verdict Sidy 2026-08-31) : validation par Sidy avant chaque clonage en sandbox. Studio ne clone pas sans verdict explicite (Cmd 13 — autonomie technique limitée par autorité humaine).
 
 -----
 
