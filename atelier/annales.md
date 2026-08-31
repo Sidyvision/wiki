@@ -10,6 +10,19 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] rd/outillage | Première application de la procédure d'exploitation du graphe
+
+- **Procédure appliquée** : exploitation du graphe (2026-08-30) à l'intégration de trois nouvelles fiches
+- **Fiches créées** :
+  - `doctrinal/symboles/golem.md` (symbole, phase 1, corpus brut, to-source)
+  - `hermeneutique/frankenstein/frankenstein.md` (œuvre, phase 1, corpus brut, to-source)
+  - `hermeneutique/auteurs/mary-shelley.md` (auteur)
+- **Signalement graphe** : les trois fiches sont orphelines (zéro lien entrant), cross_links vides
+- **Action** : liens signalés comme pistes (discernement matrices-artificielles-barzakh, symbole golem) mais non inscrits — en attente de verdict Sidy (Cmd 12)
+- **Décision de méthode** : la procédure d'exploitation du graphe est appliquée systématiquement à l'intégration, y compris pour les fiches herméneutiques liées au doctrinal
+- **Liens** : [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]], [[doctrinal/symboles/golem]], [[hermeneutique/frankenstein/frankenstein]]
+- **Commit** : à compléter
+
 ## [2026-08-30] rd/cahiers | Ouverture du journal des optimisations
 
 - **Ouverture d'un quatrième cahier** dans `rd/cahiers/` (verdict Sidy, séance

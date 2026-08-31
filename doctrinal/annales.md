@@ -9,6 +9,16 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] création | Symbole Golem (phase 1)
+
+- **Fiche créée** : `doctrinal/symboles/golem.md`
+- **Type** : symbole, statut traditionnel, tradition_cadre judaïsme
+- **État** : phase 1 (corpus brut, to-source)
+- **Contenu** : figure de la création artificielle d'un être par un sage dans la tradition juive. Données brutes à verser (définition, récits fondateurs, mécanisme de création, limites, portée symbolique, distinction avec Adam Qadmon)
+- **Lien avec discernement en cours** : signalé comme piste pour [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] (matrices artificielles et Barzakh) — aucun cross_link inscrit tant que le discernement n'est pas tranché
+- **Procédure appliquée** : exploitation du graphe (2026-08-30) — fiche orpheline, cross_links vides, en attente de verdict Sidy
+- **Commit** : à compléter
+
 ## [2026-08-30] protocole | Procédure d'exploitation du graphe lors de l'intégration doctrinale
 
 - **Contexte** : le dépôt dispose déjà d'un graphe de maillage

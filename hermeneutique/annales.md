@@ -2,7 +2,7 @@
 title: Annales du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-20
+updated: 2026-08-30
 ---
 
 # Annales du circuit Herméneutique
@@ -10,6 +10,20 @@ updated: 2026-08-20
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only,
 entrées insérées **après ce header**.
 <!-- INSERTION: EN-TÊTE -->
+
+---
+
+## [2026-08-30] création | Frankenstein (phase 1, corpus brut)
+
+- **Fiches créées** :
+  - `hermeneutique/frankenstein/frankenstein.md` — œuvre (roman, Mary Shelley, 1818)
+  - `hermeneutique/auteurs/mary-shelley.md` — auteur
+- **Type** : œuvre (roman), registre analyse
+- **État** : phase 1 (corpus brut, to-source)
+- **Contenu** : figure moderne de la création artificielle d'un être par un savant. Contexte (1816, Villa Diodati), structure du roman, processus de création, la Créature, thèmes centraux, portée symbolique (Prométhée, écho sécularisé du Golem)
+- **Lien avec discernement en cours** : signalé comme piste pour [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] (matrices artificielles et Barzakh) et [[doctrinal/symboles/golem]] (figure traditionnelle analogue) — aucun lien doctrinal inscrit tant que le discernement n'est pas tranché
+- **Procédure appliquée** : exploitation du graphe (2026-08-30) — fiches orphelines, liens signalés mais non inscrits, en attente de verdict Sidy (Cmd 12)
+- **Commit** : à compléter
 
 ---
 
