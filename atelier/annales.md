@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-08-30
+updated: 2026-08-31
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,60 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-31] outillage | Juge de paix des prompts Hermes, résidu ZWJ, fiche qabḍ/basṭ rangée
+
+Volet `atelier/rd/` du chantier d'éclatement de l'agent 08 (volet `meta/` :
+`meta/meta-annales.md`, même date).
+
+- ✅ **Nouvel outil** : `atelier/rd/outillage/comparer-prompts-hermes.py`, déterministe,
+  sans LLM ni réseau. Deux contrôles : **conservation** (après éclatement d'un prompt,
+  prouve qu'aucune ligne n'est perdue, qu'aucune n'est ajoutée hors liste déclarée,
+  qu'aucune ne fuit d'un mandat à l'autre) et **dérive** (compare les 12 fiches du
+  dépôt aux `SOUL.md` réellement chargés par le moteur). Il remplace le
+  `grep -c "## Mission"` que proposait la fiche `_inbox/` et que trois titres vides
+  suffisaient à satisfaire (§VIII.2).
+- ⛔ **Premier passage `--derive` : 12 agents sur 12 en écart.** Le dépôt décide, le
+  moteur ne le sait pas. Détail dans `meta/meta-annales.md`.
+- ⚠️ **L'outil a d'abord échoué sur lui-même, et c'est consigné** : écrit avec les
+  caractères invisibles en littéral dans son propre code, il violait le Cmd 15 qu'il
+  est censé faire respecter. Réécrit en séquences d'échappement avant tout commit.
+- 🧹 **Achèvement du nettoyage ZWJ (Cmd 15)** — le post-scriptum du 2026-08-25
+  concluait « aucune trace dans le dépôt » : c'était vrai des fichiers alors examinés,
+  pas du dépôt entier. **11 occurrences retirées** dans 5 fichiers (`*.py` et `*.sh` de
+  `rd/outillage/` et `rd/infrastructure/bureau/`), toutes en commentaire ou docstring,
+  toutes dans le mot « Hermes » — même origine. `ast.parse` et `bash -n` repassés.
+  **3 fichiers suivis restent contaminés et sont signalés, non corrigés** : les deux
+  sauvegardes `.bak-2026-08-18-pre-C4` (les réécrire leur retire leur valeur de
+  sauvegarde) et `citadelle-du-sham/source/library-full.json` (20 occ., donnée importée
+  — la contamination est peut-être en amont). Verdict de Sidy requis.
+  **Leçon de méthode consignée** : le premier balayage filtrait sur `*.py` et `*.md` et
+  rendait 3 fichiers ; sans filtre il en rend 8. Un contrôle d'hygiène restreint par
+  extension donne une réponse rassurante et fausse.
+- 📥 **Fiche candidate qabḍ/basṭ sortie du sas** vers
+  `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast.md`, statut 🔍
+  **kari-kumi**, **sans versement doctrinal** (verdict Sidy : rangée, pas validée).
+  - **Qualification du joint** : la fiche proposait *kumiko*. Relecture du lexique
+    conventionnel (CLAUDE.md §VII) — la portance est un axe **distinct** de l'état du
+    joint, et l'exemple du lexique est littéralement *zōsaku × kari-kumi* — donne
+    plutôt **zōsaku × kari-kumi**, de nature **homologie**. *kumiko* ancrerait une
+    complémentarité, donc une dignité comparable entre un traité soufi et une
+    infrastructure technique datée ; ce qui est décrit est un emprunt de forme à sens
+    unique. Lecture **formelle** (Cmd 12), proposée et non tranchée.
+  - ⚠️ **Rapprochement hermétique signalé et NON versé.** « Solve et Coagula » (Guénon,
+    *La Grande Triade*, ch. XXII, note 15) lit la **contrainte** comme relevant du pôle
+    *lier* = *coagula* (temporel), face à la **liberté** = *délier* = *solve*
+    (spirituel) — proximité immédiate avec qabḍ/basṭ. Guénon joint hermétisme, taoïsme
+    et Qorân *à l'intérieur de son propre texte*, ce qui l'autorise **là** ; l'importer
+    pour qualifier une source soufie distincte serait un joint neuf entre formes
+    traditionnelles, donc fiche `discernement` et verdict de Sidy (Cmd 3). Le chapitre
+    n'a servi que d'instrument **structurel** sur le plan d'ingénierie.
+- 🔧 Frontmatter posé sur `raw/ascension-regard-soufisme-52-53-qabd-bast.md` (erreur B0
+  préexistante au `verifier-invariants.py`) — hors commit, `raw/` étant gitignoré. Le
+  commit `53f7e61` du 2026-08-31 annonçait cette source comme intégrée : elle ne l'a
+  jamais été côté git.
+- **Commits** : `7b33b7b`, `59efdd8`, `0e89c13`
+
 
 ## [2026-08-31] rd/veille | Investigation Tencent/AngelSpec (speculative decoding)
 

@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-30
+updated: 2026-08-31
 
 ---
 
@@ -13,6 +13,71 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-31] archivage | Éclatement modulaire de l'agent 08 — et découverte que le dépôt ne parle pas au moteur
+
+- **Consigne de Sidy** : « intègre `_inbox/` et exécute le plan », en s'instruisant au
+  pôle R&D et en lisant « Solve et Coagula » de Guénon pour optimiser le plan.
+- ✅ **Éclatement exécuté.** `08-publication-site.md` (270 l., 14 Ko, 3 mandats
+  cumulés) devient `08-publication-site/` : `08-principe.md` (invariant) +
+  `mandats/{site-orchestration,bibliothecaire,veille-referencement}.md`.
+  Découpe **verbatim**, prouvée par un contrôle de conservation :
+  **0 ligne perdue · 14 ajoutées, toutes déclarées · 0 fuite de périmètre ·
+  0 Unicode invisible.**
+- 🛑 **Trois corrections apportées à la fiche `_inbox/` avant exécution** — elle a été
+  suivie sur son intention, pas sur sa lettre :
+  1. **Sa découpe était une réécriture non déclarée.** Le prompt source est en
+     anglais ; le `principe.md` qu'elle donnait en exemple était en français et
+     condensait le « Zodiac principle » de 12 lignes à 3. Un changement de fond
+     déguisé en réorganisation, et invérifiable par construction. Verdict de Sidy
+     avant écriture : iso-contenu.
+  2. **Sa validation mécanique ne prouvait rien.** `grep -c "## Mission\|## Scope\|
+     ## Guardrails" >= 3` est satisfait par trois titres vides. Remplacée par
+     `atelier/rd/outillage/comparer-prompts-hermes.py` (§VIII.2, juge de paix).
+  3. **Son routeur n'avait aucun exécutant.** Un `principe.md` disant « tâche X →
+     charger `mandats/Y.md` » n'est lu par rien. Or le mécanisme existe nativement :
+     les **skills du moteur** (`SKILL.md` à frontmatter, corps tiré à la demande).
+     Le routeur n'était pas à écrire.
+- ⛔ **Découverte majeure — le dépôt ne parle pas au moteur.** Le prompt réellement
+  chargé par un agent est `~/.hermes/profiles/<profil>/SOUL.md`, **hors dépôt git**, et
+  aucun chemin déterministe ne l'alimente. Mesure du jour (`--derive`) :
+  **12 agents sur 12 en écart.** Publications tourne sur **1 575 o** quand le dépôt en
+  documente **14 256** — 203 lignes jamais parvenues à l'agent, dont ses trois mandats
+  votés le 2026-08-24 et son principe zodiacal. Studio est le seul synchronisé, à 3
+  caractères ZWJ près. **La saturation diagnostiquée à 14 Ko était donc documentaire,
+  pas opérationnelle.** Ce n'est pas une réfutation du signal de Sidy — la constriction
+  est réelle, elle est simplement ailleurs : non dans le poids d'un fichier, mais dans
+  l'absence de chemin entre ce qui est décidé et ce qui s'exécute.
+- ⏸️ **Déploiement NON exécuté** (Cmd 13). Procédure, sauvegarde et retour arrière
+  écrits dans `08-publication-site/deployer-prompt-agent.md`, présentés à blanc. Il y
+  est signalé que le principe (50 l.) est **plus lourd** que le `SOUL.md` actuel
+  (30 l.) : le gain est l'isolation de périmètre et la réversibilité, **pas** une
+  décharge — ne pas annoncer une décharge qui n'existe pas.
+- 🔧 **Références rattrapées** : `meta-index.md` (C1 aurait cassé),
+  `bureau/modules/hermes_status.py` (la table `PROFILES` lit la fiche par nom exact —
+  sans correctif le tableau de bord affichait « fiche introuvable »), pierre tombale
+  `13-librarian-archivist.md`. `verifier-invariants.py` : **sortie strictement
+  identique à la référence prise avant la passe**, aucune régression.
+- ⚠️ **Signalement de conformité, non corrigé en douce.** `meta/CLAUDE.md` (corollaire
+  agentique, art. 1) exige que toute donnée personnelle injectée dans un prompt porte
+  sa hiérarchie ontologique **en clair**, qualification *zōsaku* explicite. Or
+  `grep -rn "hiérarchie ontologique"` ne renvoie **aucun** des douze prompts : la
+  section « Your sign in Sidy's natal chart » énonce une harmonisation en prose sans
+  qualifier le joint. Écart **antérieur** à ce chantier. Le corriger à l'intérieur
+  d'une migration iso-contenu aurait été la faute même qui a été reprochée à la fiche.
+  Passe distincte proposée.
+- **Lecture de Guénon — usage formel assumé.** « Solve et Coagula » (*La Grande
+  Triade*, ch. XXII) : *« dissoudre ce qui était coagulé et, simultanément, coaguler ce
+  qui était dissous… les deux aspects d'une seule et même opération »*. Le défaut que
+  cela révélait dans la fiche : un *solve* fort, un *coagula* faible — un principe
+  réduit à une table d'aiguillage fixe. D'où la décision de **hisser les guardrails et
+  les interdits de périmètre au principe**, jamais distribués dans les mandats, pour
+  qu'aucun mandat ne puisse les desserrer. Usage **structurel** du texte, relevant de
+  la contribution exacte de la machine (Cmd 12) ; le rapprochement doctrinal avec
+  qabḍ/basṭ est signalé et **non versé** (Cmd 3) — voir
+  `atelier/annales.md`, même date.
+- **Commits** : `7b33b7b`, `c7afbc7`, `9264302`, `55f6831`, `829f1c9`, `0e89c13`
+
 
 ## [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées sans ancêtre commun
 
