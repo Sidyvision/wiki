@@ -158,3 +158,34 @@ Les pages antérieures à la Restauration portent l'ancien frontmatter (`domain:
 `type: entity|concept`). Sur demande, les normaliser SANS toucher au corps :
 `domain` → `tradition_cadre`, `entity` → `autorite`, `concept` → `symbole`, ajout
 de `status`. Chaque passe est consignée dans les annales (`doctrinal/annales.md`).
+
+-----
+
+## Exploitation du graphe lors de l'intégration (signal d'orphelins)
+
+Le dépôt dispose d'un graphe de maillage déjà produit :
+`graphe-cartographie.json` (artefact dérivé, régénéré par
+`Graphe/generer-cartographie.py`). Ce graphe est la **source de vérité
+du maillage** — il n'y a pas lieu de créer un outil parallèle.
+
+### Procédure à l'intégration d'une nouvelle fiche doctrinale
+
+1. **Consulter le graphe** : lire `graphe-cartographie.json` et compter les
+   liens entrants de la fiche intégrée (filtrer `edges` sur `target` = slug
+   de la fiche). Si le graphe est stale (dernière génération antérieure au
+   dernier commit doctrinal), le régénérer d'abord par
+   `python3 Graphe/generer-cartographie.py`.
+2. **Si zéro lien entrant** : la fiche est orpheline du graphe. L'agent
+   peut **proposer** des liens (filiations orthodoxes/hétérodoxes, comme
+   dans le bloc 🔍 des discernements — cf.
+   [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]]),
+   mais **ne les inscrit pas** dans le frontmatter.
+3. **Verdict** : Sidy tranche (Cmd 12). Les `cross_links` validés sont
+   ajoutés dans un second temps, puis le graphe est régénéré.
+
+### Ce que la procédure ne fait pas
+
+- Aucun lien forcé (la machine compile, ne tranche pas — Cmd 12).
+- Aucune création d'outil supplémentaire (le graphe suffit).
+- Aucun jugement sur la pertinence d'un lien (la qualification est un
+   verdict humain).

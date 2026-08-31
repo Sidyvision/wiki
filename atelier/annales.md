@@ -26,6 +26,27 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   `0 erreur(s), 0 avertissement(s).`
 - **Commit** : `84dc4de`
 
+## [2026-08-30] doctrinal | Procédure d'exploitation du graphe lors de l'intégration doctrinale
+
+- **Contexte** : le dépôt dispose déjà d'un graphe de maillage
+  (`graphe-cartographie.json`, 1475 edges, 438 nodes, généré par
+  `Graphe/generer-cartographie.py`). Ce graphe est la **source de vérité**
+  du maillage — il n'y a pas lieu de créer un outil parallèle pour signaler
+  les orphelins.
+- **Ajout** : section « Exploitation du graphe lors de l'intégration
+  (signal d'orphelins) » dans `doctrinal/CLAUDE.md`. La procédure :
+  (1) consulter le graphe à l'intégration, (2) si zéro lien entrant → la
+  fiche est orpheline → l'agent peut **proposer** des liens (filiations
+  orthodoxes/hétérodoxes comme dans le bloc 🔍), mais ne les inscrit pas,
+  (3) Sidy tranche (Cmd 12), puis les `cross_links` sont ajoutés et le
+  graphe régénéré.
+- **Ce qui ne change pas** : la machine compile, ne tranche pas ; aucun
+  nouveau script créé (le graphe suffit) ; aucun jugement sur la pertinence
+  d'un lien.
+- **Verdict** : Sidy, séance WebUI 2026-08-30 (aspiration SLM, item 2 du
+  plan maillage doctrinal).
+- **Commit** : à compléter.
+
 ## [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photographiés, et une quatrième description de la discontinuité signalée au chantier
 
 - **Catalogue de la bibliothèque** — traçabilité des pages photographiées ajoutée

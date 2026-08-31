@@ -65,3 +65,30 @@ Insertion en tête (la plus récente en haut), marqueur ci-dessous.
   séance WebUI 2026-08-30 (verdict Sidy d'ouverture). Commit `84dc4de`.
 - **Statut** : `applique` — le cahier est ouvert, en attente de sa première
   entrée d'optimisation factuelle.
+
+## [2026-08-30] Maillage doctrinal — exploitation du graphe existant, pas d'outil parallèle
+
+- **Procédure modifiée** : `doctrinal/CLAUDE.md` — ajout de la section
+  « Exploitation du graphe lors de l'intégration (signal d'orphelins) ».
+- **État avant** : le graphe (`graphe-cartographie.json`, 1475 edges,
+  438 nodes, `Graphe/generer-cartographie.py`) existait mais n'était pas
+  exploité systématiquement lors de l'intégration d'une nouvelle fiche
+  doctrinale. Aucun signalement d'orphelins n'était produit à ce moment.
+- **Changement effectué** : procédure ajoutée dans `doctrinal/CLAUDE.md`
+  — l'agent consulte le graphe à l'intégration, signale les orphelines
+  (zéro lien entrant), propose des liens (filiations orthodoxes/hétérodoxes)
+  sans les inscrire, Sidy tranche (Cmd 12), puis les `cross_links` sont
+  ajoutés et le graphe régénéré.
+- **État après** : chaque nouvelle fiche doctrinale est désormais vérifiée
+  contre le graphe existant avant inscription définitive des liens.
+- **Impact mesuré** : non mesuré à ce stade (la procédure vient d'être
+  ajoutée, aucune fiche intégrée depuis). `to-source`.
+- **Décision de méthode** : pas de script parallèle créé — le graphe
+  existant suffit. Un script `detecter-orphelins-doctrinaux.py` avait été
+  amorcé puis supprimé (redondance, 143/305 fiches remontaient — bruit, pas
+  signal).
+- **Liens** : `doctrinal/CLAUDE.md` (section ajoutée) ; `graphe-cartographie.json`
+  (source de vérité du maillage) ; `Graphe/generer-cartographie.py`
+  (générateur) ; `doctrinal/annales.md` (entrée du 2026-08-30).
+- **Statut** : `applique` — procédure en vigueur, en attente de la première
+  intégration doctrinale avec signal d'orpheline.
