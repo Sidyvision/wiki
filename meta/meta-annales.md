@@ -14,6 +14,29 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] protocole | Approbation requise ramenée à 0 sur `main`
+
+Consigne de Sidy, après le constat fait à la fusion de la PR #20.
+
+- **Constat** : `main` exigeait `required_approving_review_count: 1`. Le dépôt n'a
+  qu'un seul compte (`Sidyvision`), et GitHub interdit d'approuver sa propre PR :
+  la condition était **inatteignable par construction**. Toute fusion passait donc
+  par `--admin` — la PR #20 comprise. Une protection qu'on est structurellement
+  obligé de contourner ne protège plus rien ; elle habitue seulement à passer outre.
+- **Changement** : `required_approving_review_count` 1 → **0**, par
+  `PATCH /repos/Sidyvision/wiki/branches/main/protection/required_pull_request_reviews`.
+- **Ce qui reste en place** (relu après coup, sortie brute) :
+  `checks_requis: ["lint"]`, `strict: true`, `force_push: false`,
+  `suppression: false`. La PR demeure obligatoire et le lint demeure bloquant :
+  c'est la garde qui a une prise réelle. Seule tombe l'approbation que personne ne
+  pouvait donner.
+- **`enforce_admins: false`** est inchangé et reste la porte de secours.
+- **Sauvegarde** de l'état antérieur prise avant modification (hors dépôt,
+  scratchpad de session) — le retour se fait par le même point d'API.
+- **Portée** : réglage GitHub, hors dépôt. Consigné ici parce que rien dans le
+  dépôt n'en porte trace — même classe de dérive que les `SOUL.md` et
+  l'orchestrateur de fenêtres.
+
 ## [2026-08-31] choura | Hook « contribution de Sidy » versé au Domaine Réservé
 
 Consigne de Sidy : « lorsque je poste dans le salon de la Choura, que ce soit
