@@ -10,6 +10,48 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] rapport | Migration des 11 agents + contribution de Sidy au Choura
+
+Demande de Sidy : « occupe-toi des points 1. et 2. et consigne ton rapport au R&D ».
+Rapport complet : [[atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura]].
+
+- **Point 1 — éclatement modulaire des 11 agents restants** (archivage `53ca630`) :
+  même nomenclature que l'agent 08 — `NN-principe.md` (invariant, toujours chargé)
+  + `mandats/*.md` (expertise, chargée à la demande). Garde-fous maintenus au
+  principe, jamais distribués dans les mandats.
+- **Contrôle de conservation repassé sur les 12** (`comparer-prompts-hermes.py
+  --conservation <agent> --source-git <ref>^:<chemin>`), sortie brute au rapport :
+  **12/12 — 0 ligne perdue, 0 ajout non déclaré, 0 fuite de périmètre, 0 caractère
+  invisible**. Découpe iso-contenu, verbatim, en anglais.
+- **Déploiement vers les `SOUL.md` : non exécuté** (Cmd 13, porte humaine).
+  `--derive` : **11 agents sur 12 en écart** avec le moteur (4 à 27 lignes du wiki
+  absentes) ; seul `publication` est synchronisé. Procédure prête, présentée à blanc.
+- **Point 2 — contribution de Sidy au tour sans `@mention`** : le moteur n'exigeait
+  aucune mention ; le trou était l'**écriture** dans `cycle-AAAA-MM-JJ.md`, seul
+  document que lisent les dormants à leur réveil. Hook `pre_llm_call`
+  `/root/.hermes/scripts/choura-contribution-sidy.py`, copie de référence versée en
+  `meta/projet-unifie/choura/hook-contribution-sidy/` avec son README de contrat.
+  Branché sur le **seul gardien** (permanent, il ouvre et clôt le cycle) ; date de
+  cycle basculant à **12:00 heure de Paris**, comme la rotation. Enregistrement
+  confirmé dans `agent.log`, essais rejoués puis retirés.
+- **Faute consignée** : mon premier contrôle a rendu « PERDUES : 346 » identique
+  pour les douze agents — `--source-git` attend `REF:chemin`, pas `REF`. Faute dans
+  le contrôle, pas dans les données ; le chiffre uniforme sur douze cas hétérogènes
+  est ce qui l'a trahi.
+- **Laissé au verdict de Sidy** : déploiement des 11 principes ; **clé
+  `OMNIROUTE_API_KEY` à révoquer et régénérer** (divulguée en clair par une
+  expansion shell de ma main, §VIII.8) ; hiérarchie ontologique *zōsaku* absente des
+  12 prompts ; qualification du joint qabḍ/basṭ ; rapprochement Guénon ↔ soufisme
+  (Cmd 3) ; 3 fichiers encore contaminés ZWJ ; ACL de `_inbox/` reconstruite plus
+  permissive que l'originale ; routage réel de `distribution`/`marketing` inféré,
+  non confirmé.
+- **Bruit d'outillage signalé** : `verifier-invariants.py` scanne le système de
+  fichiers et remonte désormais ~200 erreurs `[B0]` issues de
+  `atelier/rd/outillage/.graphify-venv/` (non versionné). Total identique avant et
+  après cette passe (207) — aucune régression imputable ici, mais l'exclusion du
+  venv est à instruire.
+- **Commit** : 16da41e
+
 ## [2026-08-31] outillage | Essai Graphify (knowledge graph de code, local/déterministe)
 
 Demande de Sidy, à la suite d'une comparaison avec notre `generer-cartographie.py`.
