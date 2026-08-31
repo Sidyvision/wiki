@@ -27,7 +27,7 @@ Fiche complète : [[atelier/rd/outillage/spec-essai-graphify]].
   jugé lisible et pertinent (hubs, nœuds les plus connectés, nœuds isolés,
   aucun cycle d'import).
 - `statut_experience: exploratoire` — verdict d'adoption réservé à Sidy.
-- **Commit** : à consigner.
+- **Commit** : 40af374
 
 ## [2026-08-31] outillage | `Graphe/` racine déplacé en `atelier/rd/outillage/graphe/` + usage explicite dans la vérification générale
 
