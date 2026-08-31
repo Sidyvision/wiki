@@ -143,6 +143,44 @@ Votre infrastructure (Hetzner, 3.7 Go RAM, pas de GPU, pas de containers — cf.
 - **Exigences matérielles** : 8 GPU minimum pour le training (4 inference + 4 training), 1 GPU suffit pour l'inférence avec drafter pré-entraîné.
 - **Adoption limitée** : <100 downloads des drafter models spécifiques — la communauté n'a pas encore validé en production à grande échelle.
 
+## Concepts théoriques extraits (pour le corpus)
+
+Au-delà de l'aspect technique, AngelSpec propose des paradigmes qui résonnent avec la réflexion sur l'adaptation au contexte et le discernement des régimes :
+
+### 1. Spécialisation par régime (workload-aware drafting)
+
+**Principe** : aucun drafter unique n'optimise toutes les charges. AngelSpec spécialise structure et données d'entraînement selon le régime :
+- **Haute entropie** (conversation ouverte, chat) : MTP propose des séquences courtes, évite la sur-spéculation
+- **Basse entropie** (code, maths) : block-parallel amortit la latence sur des spans longs prévisibles
+
+**Résonance théorique** : le discernement des régimes (quel mode d'action pour quel domaine) n'est pas une optimisation marginale mais un principe structurant. L'adaptation au contexte exige de qualifier le régime avant de choisir la stratégie — jamais d'approche universelle.
+
+### 2. Training-Time Test (TTT) — résolution du biais d'exposition
+
+**Principe** : pendant l'entraînement, le module MTP reçoit ses propres prédictions (pas les ground-truth), ce qui l'expose aux erreurs en cascade rencontrées en inférence. Les paramètres sont partagés entre les profondeurs, mais la supervision est spécifique à chaque profondeur.
+
+**Résonance théorique** : l'apprentissage à partir de ses propres erreurs (plutôt que d'un idéalteacher forcé) prépare à la réalité du déploiement. Le biais d'exposition (écart entre conditions d'entraînement et conditions réelles) se résout en exposant le système à ses propres trajectoires pendant la formation — principe d'entraînement réaliste.
+
+### 3. D-cut — allocation dynamique de ressources
+
+**Principe** : la vérification n'est pas un coût fixe par token, mais une ressource partagée au niveau batch. D-cut réallocation le compute vers les préfixes haute-confiance, adaptant la profondeur de vérification selon la charge serveur et la confiance du modèle.
+
+**Résonance théorique** : l'allocation dynamique de ressources (compute, attention, vérification) selon le contexte et la confiance — plutôt qu'un traitement uniforme — est un paradigme d'efficacité. Le système traite les cas faciles rapidement, concentre les ressources sur les cas difficiles ou critiques.
+
+### 4. Désagrégation inference/training
+
+**Principe** : inference (génération de hidden-states) et training (optimisation) tournent sur des groupes de GPU séparés, connectés par un tensor-store (Mooncake). Chaque composant scale indépendamment.
+
+**Résonance théorique** : la séparation des fonctions (génération vs optimisation) permet l'indépendance d'échelle. Chaque composant a son propre rythme, sa propre allocation — la cohérence est maintenue par un mécanisme de transfert (tensor-store), pas par couplage tight.
+
+### 5. Objectifs de loss composable
+
+**Principe** : 5 objectifs (CE, KL, LK, TV Loss, e2e TV Loss) sont composable via configuration. L'ablation montre que l'ordre de performance est CE ≈ KL < LK < TV < e2e TV (avec cold-start LK).
+
+**Résonance théorique** : la composabilité des objectifs (plutôt qu'un objectif monolithique) permet d'ajuster la stratégie d'optimisation au régime. Le cold-start (démarrer avec un objectif simple, puis basculer vers un objectif plus ambitieux) est un pattern d'apprentissage progressif.
+
+---
+
 ## Liens
 
 - Repo : <https://github.com/Tencent/AngelSpec>
