@@ -44,7 +44,7 @@ profane ».
   rectifiée ce jour (Cmd 5).
 - **Ce qui fermerait le dossier** : l'entrée des définitions d'al-Jurjānī dans `raw/`
   (entrées déjà repérées), qui rendrait le classement **reçu** au lieu d'inféré.
-- **Commit** : {SHA}
+- **Commit** : 98d2cb0
 
 
 ## [2026-08-31] versement | Guénon, IRS ch. XX — « Guru et upaguru »

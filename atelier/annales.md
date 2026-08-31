@@ -24,7 +24,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   traditionnelles de civilisations diverses « ne pourraient qu'abusivement être
   désignées par les mêmes noms »).
 - **§5.2-bis** du cahier qabḍ/basṭ renvoie désormais au dossier ouvert.
-- **Commit** : {SHA}
+- **Commit** : 98d2cb0
 
 
 ## [2026-08-31] versement | qabḍ/basṭ §5.2-bis — la qualification rendue par Sidy
