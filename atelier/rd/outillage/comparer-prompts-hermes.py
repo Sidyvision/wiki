@@ -70,7 +70,7 @@ lui-même porter aucun caractère invisible (Cmd 15)."""
 # la découpe, renvois vers le principe, et le sommaire des mandats. Toute autre
 # ligne ajoutée est un changement de fond déguisé en réorganisation.
 RE_AJOUTS_AUTORISES = re.compile(
-    r"^(#\s|>\s|\*\*Principe\*\*|\*\*Mandat\b|\*\*Déployé\b|- \[|\|)"
+    r"^(#{1,6}\s|>\s|\*\*Principe\*\*|\*\*Mandat\b|\*\*Déployé\b|- \[|\|)"
 )
 
 
