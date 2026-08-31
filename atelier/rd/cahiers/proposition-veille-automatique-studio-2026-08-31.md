@@ -382,3 +382,92 @@ Phase 6 — Sidy lit le cycle Choura, tranche (Cmd 12/13)
 - ✅ Validation par Sidy avant chaque clonage en sandbox (Cmd 13)
 
 **Prêt pour exécution** : production des scripts, mise en place du cron.
+
+-----
+
+## 8. Problème structurel soulevé — saturation des prompts et relais hiérarchique
+
+**Signal Sidy (2026-08-31)** : « il se peut que certains prompts d'agent saturent,
+alors il faut trouver un système de relais d'informations avec ordre hiérarchique
+et ontologique pour que les agents restent efficaces. »
+
+### 8.1. Diagnostic
+
+Les agents Hermes cumulent potentiellement plusieurs charges cognitives :
+- **Studio** : ingénieur son + veille automatique + contribution Choura + sandbox + développement
+- **Gardien** : vigilance protocolaire + lecture fiches veille + qualification doctrinale + ouverture/clôture Choura
+
+Un prompt d'agent est un contexte borné. Si on y entasse trop de responsabilités,
+le modèle perd en précision (saturation d'attention), produit des paraphrases
+(anti-remplissage, §4 de la proposition Choura), ou oublie des règles protocolaires.
+
+### 8.2. Proposition — architecture en 4 niveaux de relais
+
+L'information remonte **condensée** à chaque niveau, jamais en flux brut.
+
+| Niveau | Nature | Porteur | Fréquence | Contenu |
+|---|---|---|---|---|
+| **1. Déterministe** | Scripts sans LLM | Cron `veille-automatique-studio` | Quotidien 6h | Recherche GitHub/arXiv, génération fiches, signal de résonance |
+| **2. Synthèse technique** | LLM, résumé court | Studio (tour Choura) | Tour (~2h) | 2-3 phrases : N fiches, points saillants, concepts extraits si résonance |
+| **3. Qualification doctrinale** | LLM, analyse | Gardien (tour Choura) | Tour (00:00) | Qualification hozo/kumiko/kari-kumi **seulement si** Studio a signalé résonance |
+| **4. Souverain** | Verdict humain | Sidy | Asynchrone | Décision engageante (Cmd 12/13) : verser doctrinal, développer, sandbox, abandonner |
+
+### 8.3. Ordre ontologique (du plus contingent au plus stable)
+
+```
+        Sidy (souverain — verdicts)
+           ↑
+      Gardien (doctrinal — principes)
+           ↑
+        Studio (technique — faits)
+           ↑
+   Scripts (déterministe — données brutes)
+```
+
+Chaque niveau ne transmet au niveau supérieur qu'une **synthèse condensée**, pas
+le flux brut. Studio ne transmet pas les 5 fiches brutes au Choura ; il transmet
+2-3 phrases de synthèse. Le Gardien ne lit pas les fiches sauf si résonance signalée.
+Sidy ne lit que les rapports de Choura condensés.
+
+### 8.4. Règles de non-saturation
+
+1. **Séparation stricte des responsabilités** : chaque agent a un périmètre borné,
+   pas un cumul de rôles. Le prompt de Studio ne doit pas contenir de règles
+   doctrinales ; le prompt du Gardien ne doit pas contenir de logique technique.
+2. **Condensation à chaque étage** : le niveau N ne transmet au niveau N+1 qu'une
+   synthèse, jamais le flux brut. Le script transmet au Studio un résumé structuré ;
+   Studio transmet au Choura 2-3 phrases ; Gardien transmet à Sidy la qualification.
+3. **Gâchette conditionnelle** : le niveau 3 (Gardien) ne s'active que si le niveau 2
+   (Studio) a signalé une résonance. Sinon, pas de charge doctrinale inutile.
+4. **Anti-accumulation** : surveiller la longueur du prompt de chaque agent. Au-delà
+   d'un seuil (à calibrer), signaler à Sidy pour redécoupage.
+
+### 8.5. Question ouverte
+
+- Comment implémenter concrètement la condensation au niveau 2 ? Soit Studio
+  produit sa contribution Choura via son propre prompt (cumule veille + contribution),
+  soit un agent tiers (Bibliothécaire ? Archiviste ?) fait la synthèse.
+- Le Bibliothécaire (rôle 13 dans la table zodiacale étendue) pourrait être le
+  niveau 2 de relais — mais ce rôle n'existe pas encore.
+- À discuter dans un prochain Choura ( Cmd 6 — ne pas trancher ici).
+
+-----
+
+## 9. Exécution effective
+
+| Étape | Statut | Date | Commit |
+|---|---|---|---|
+| 1. Script `veille-automatique-studio.py` | ✅ Fait | 2026-08-31 | `6a1aea7` |
+| 2. Config `veille-mots-cles.yaml` | ✅ Fait | 2026-08-31 | `6a1aea7` |
+| 3. Script enveloppe `veille-automatique-cron.sh` | ✅ Fait | 2026-08-31 | `6a1aea7` |
+| 4. Extension prompt Studio | ⏳ En attente | — | — |
+| 5. Extension prompt Gardien | ⏳ En attente | — | — |
+| 6. Cron Hermes quotidien 6h | ✅ Créé | 2026-08-31 | — |
+| 7. Test manuel (premier run) | ✅ Fait | 2026-08-31 | `6a1aea7` |
+
+**Premier run** (2026-08-31) : 5 fiches générées (auto-harness, sentrux, sia,
+argentos-core, claude-smart). Toutes > 100 stars, licences MIT/Apache.
+Aucune résonance théorique détectée au premier run — ce qui est normal (les
+indicateurs théoriques sont rares dans les descriptions GitHub courtes ; ils
+apparaissent plutôt dans les README complets et les papers arXiv).
+
