@@ -84,6 +84,34 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
   voulant vérifier son routage. Une vérification ne doit pas passer par la CLI sur un
   profil vivant.
 
+- 🛑 **RECTIFICATION, le jour même, sur signalement de Sidy (« on a mis quelque chose
+  en place pour ça, regarde le R&D »).** Deux erreurs dans ce qui précède :
+  1. **Les huit gateways à terre ne sont pas une panne : c'est une décision.** Le
+     2026-08-28, après saturation RAM critique et reboot,
+     `atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite.md`
+     acte l'arrêt et la désactivation délibérés de ces huit gateways exactement
+     (`accounting`, `admin-legal`, `ar-music`, `distribution`, `fanzine`, `marketing`,
+     `production`, `visual-da`), pour ne garder que `gardien`, `studio`, `publication`.
+     Motif : 14 gateways à ~120 Mo plus OmniRoute daemonisé à ~1,6 Go dépassent les
+     3,7 Go de l'hôte. **Ne pas les relancer.** J'avais lu un symptôme là où le dépôt
+     portait la résolution — la consigne de routine (lire les annales et le R&D avant
+     de conclure) aurait suffi à l'éviter.
+  2. **Ma proposition d'un cron système en one-shot n'est pas une idée neuve** : la
+     même fiche la porte déjà en « compréhension tirée » — « le paradigme *1 profil =
+     1 gateway active* doit être révisé : adopter une logique de **gateway à la
+     demande** ». Ce n'est donc pas à proposer, c'est à implémenter.
+  3. **Régression de ma part, réparée** : j'avais retiré le bloc `providers.custom:qwen`
+     de `karubi`, alors que la convention posée le 2026-08-26
+     (`2026-08-26_migration-omniroute-quota-qwen.md`) est de **toujours conserver le
+     bloc d'origine intact**, seul `model.default`/`model.provider` étant redirigé —
+     c'est ce qui rend le retour en arrière gratuit après le reset du quota. Bloc
+     restauré ; les 13 profils honorent désormais la convention.
+- ✅ **Ce que la même fiche confirme** : les 9 profils métier avaient été laissés sur
+  Qwen « dans l'attente du reset naturel du quota… aucune action requise **sauf
+  nouvelle demande de Sidy** ». La bascule d'aujourd'hui est cette demande. Et
+  `habib-mehdi`/`habib-wendel` y sont **explicitement hors périmètre** — mon
+  abstention était la bonne.
+
 - **Commits** : `9494520` (et bascule omniroute : configs hors dépôt, sauvegardées sur place)
 
 
