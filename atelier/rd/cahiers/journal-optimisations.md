@@ -41,6 +41,39 @@ Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] Validation formelle — reconnaissance, pas ajout (item 3 clos)
+
+- **Procédure modifiée** : aucune — l'item 3 est clos par reconnaissance.
+- **État avant** : l'aspiration SLM avait identifié un manque supposé :
+  protocole de validation formelle pour les fiches doctrinales (entrée/sortie,
+  critères mécaniquement vérifiables, scellement). Proposition initiale :
+  créer un script `valider-fiche-doctrinale.py` et étendre Karūbī.
+- **Décision** : Sidy renvoie au discernement adopté du 2026-08-11
+  ([[doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire]])
+  qui contient déjà toute la légitimation — l'Athanor = Laboratoire-Sandbox
+  (rd/), le flux Discernement → Laboratoire → Doctrine/Archivage, la
+  validation par le Maître (Cmd 6/12/13), la distinction Doctrine/Théorie.
+  Le dispositif Karūbī (zones scellées, hash, navette, registre-silsila)
+  fait déjà la validation mécanique pour les transmissions. Le Sceau Recteur
+  (frontmatter doctrinal) fait déjà la validation structurelle pour le
+  doctrinal.
+- **Changement effectué** : aucun protocole/script ajouté. L'item 3 est clos
+  par reconnaissance de ce qui est déjà en acte.
+- **État après** : la validation formelle n'est pas à créer — elle est déjà
+  là, incarnée dans le discernement adopté du 2026-08-11 et les dispositifs
+  existants (Karūbī, Sceau Recteur). Ce qui manque n'est pas un protocole —
+  c'est la source Burckhardt "Alchimie" pour approfondir le vocabulaire
+  (`to-source`).
+- **Impact mesuré** : aucun ajout, donc aucun impact à mesurer. La clôture
+  par reconnaissance évite la redondance.
+- **Liens** : [[doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire]]
+  (légitimation alchimique du Laboratoire-Athanor) ; `meta/transmissions/karubi-gabarit.md`
+  (dispositif Karūbī, validation mécanique) ; `doctrinal/CLAUDE.md` (Sceau Recteur,
+  validation structurelle) ; séance WebUI 2026-08-30 (verdict Sidy, item 3 clos par
+  reconnaissance).
+- **Statut** : `applique` — item 3 clos, aucune procédure ajoutée, source
+  Burckhardt "Alchimie" `to-source`.
+
 ## [2026-08-30] Ouverture du journal des optimisations
 
 - **Procédure modifiée** : discipline de laboratoire du pôle R&D — ajout d'un

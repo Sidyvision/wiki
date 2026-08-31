@@ -47,6 +47,27 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   plan maillage doctrinal).
 - **Commit** : 2ec5a20
 
+## [2026-08-30] rd/cahiers | Item 3 clos par reconnaissance — validation formelle déjà en acte
+
+- **Contexte** : l'item 3 (validation formelle) avait été identifié comme
+  manque supposé dans l'aspiration SLM — créer un protocole de validation
+  pour les fiches doctrinales. Sidy renvoie au discernement adopté du
+  2026-08-11 ([[doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire]])
+  qui contient déjà toute la légitimation — l'Athanor = Laboratoire-Sandbox
+  (rd/), le flux Discernement → Laboratoire → Doctrine/Archivage, la
+  validation par le Maître (Cmd 6/12/13), la distinction Doctrine/Théorie.
+- **Décision** : l'item 3 est clos par reconnaissance. La validation formelle
+  n'est pas à créer — elle est déjà incarnée dans le discernement adopté du
+  2026-08-11 et les dispositifs existants (Karūbī pour les transmissions,
+  Sceau Recteur pour le doctrinal).
+- **Ajout** : entrée dans `atelier/rd/cahiers/journal-optimisations.md`
+  (item 3 clos par reconnaissance, aucun protocole/script ajouté). Source
+  Burckhardt "Alchimie" signalée `to-source` pour approfondir le vocabulaire
+  alchimique quand elle sera disponible.
+- **Verdict** : Sidy, séance WebUI 2026-08-30 (aspiration SLM, item 3 clos
+  par reconnaissance).
+- **Commit** : à compléter.
+
 ## [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photographiés, et une quatrième description de la discontinuité signalée au chantier
 
 - **Catalogue de la bibliothèque** — traçabilité des pages photographiées ajoutée
