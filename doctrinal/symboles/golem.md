@@ -35,6 +35,12 @@ pertinents dans une fiche distincte, sur décision de Sidy.*
 
 ## Données brutes à verser (en attente)
 
+- **Ancrage doctrinal** : le Golem est directement lié à la **Kabbalah Maasit**
+  (Kabbale pratique/opérative) — la branche de la Kabbale qui concerne
+  l'action sur le réel par les combinaisons de lettres et les Noms divins.
+  Ce n'est pas une spéculation : c'est l'ancrage traditionnel de la figure.
+  `to-source` sur les textes primaires (Sefer Yetzirah, writings du Gaon de
+  Vilna, etc.).
 - Définition du Golem dans la tradition juive (Talmud, kabbale médiévale).
 - Récits fondateurs : Golem de Prague (Rabbi Loew, XVIe s.), Golem de
   Helmstadt, et autres attestations médiévales.

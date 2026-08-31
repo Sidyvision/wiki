@@ -9,6 +9,13 @@ updated: 2026-08-30
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-30] enrichissement | Symbole Golem — ancrage Kabbalah Maasit
+
+- **Ajout** : donnée factuelle versée dans `doctrinal/symboles/golem.md`
+- **Contenu** : le Golem est directement lié à la **Kabbalah Maasit** (Kabbale pratique/opérative) — la branche de la Kabbale qui concerne l'action sur le réel par les combinaisons de lettres et les Noms divins. Ce n'est pas une spéculation : c'est l'ancrage traditionnel de la figure. `to-source` sur les textes primaires (Sefer Yetzirah, writings du Gaon de Vilna, etc.)
+- **Nature** : fait doctrinal signalé par Sidy, versé en phase 1 (corpus brut)
+- **Commit** : à compléter
+
 ## [2026-08-30] création | Symbole Golem (phase 1)
 
 - **Fiche créée** : `doctrinal/symboles/golem.md`
