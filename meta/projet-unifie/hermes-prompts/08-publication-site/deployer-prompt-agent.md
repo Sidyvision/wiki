@@ -1,8 +1,8 @@
 # Procédure de déploiement — wiki → moteur (agent 08)
 
-**Statut : présentée à blanc, NON exécutée.** Le déploiement modifie un agent en
-fonctionnement (`hermes_cli.main --profile publication gateway run`, process de
-fond) : il relève de la porte humaine (Cmd 13) et attend un go explicite de Sidy.
+**Statut : EXÉCUTÉE le 2026-08-31**, sur go explicite de Sidy (Cmd 13), en même temps
+que la bascule de routage rendue nécessaire par l'épuisement du Qwen Token Plan
+jusqu'au 5 septembre. Vérification de bout en bout au bas de cette page.
 
 ## Pourquoi cette procédure existe
 
@@ -58,7 +58,7 @@ description: "Conformité frontmatter et investigation documentaire (cron 11:00)
 ---
 ```
 
-## Séquence (à exécuter sur go de Sidy, jamais avant)
+## Séquence (exécutée le 2026-08-31)
 
 ```bash
 P=~/.hermes/profiles/publication
@@ -104,3 +104,57 @@ Réversible en une commande, sans toucher au dépôt : l'assemblage reste démon
    clair dans le texte. Aucun des douze prompts ne la porte aujourd'hui. Écart
    antérieur à ce chantier, signalé, non corrigé en douce ici.
 3. **Les onze autres agents** restent en écart : hors périmètre de cette passe.
+
+
+---
+
+## Exécution du 2026-08-31 — trace
+
+**Routage.** Le profil `publication` était **déjà** sur `auto/best-free` via
+`custom:omniroute` (`config.yaml` du profil, posé le 2026-08-26 ; process redémarré le
+2026-08-30, donc config chargée). Rien à changer : le dernier cycle Choura du 2026-08-30
+tournait déjà en `model=auto/best-free`. Les erreurs `HTTP 429 token-plan quota
+exhausted` du journal datent des 27-28 août, quand ce profil était encore sur Qwen.
+
+`auto/best-free` est confirmé exposé par omniroute (`GET /v1/models`, 511 modèles),
+avec `tool_calling: true` — condition nécessaire pour un agent outillé.
+
+**Prompt.** Séquence appliquée :
+
+| Étape | Résultat |
+|---|---|
+| Sauvegarde | `SOUL.md.bak-20260831-072908` (1 601 o), hors dépôt |
+| `08-principe.md` → `SOUL.md` | 3 628 o, 62 lignes, 0 caractère invisible |
+| 3 mandats → `skills/hermes/<nom>/SKILL.md` | frontmatter `name`/`description` validé en YAML |
+| `comparer-prompts-hermes.py --derive` | **publication ✅ synchronisé** — premier agent aligné dépôt↔moteur (11 restants en écart) |
+
+**Redémarrage.** Nécessaire — et pour une seule raison, vérifiée dans le code du moteur :
+`load_soul_md()` relit `SOUL.md` à chaque construction de prompt, sans cache, donc le
+principe seul n'aurait pas exigé de redémarrage ; mais `build_skills_system_prompt()`
+garde un cache LRU en process dont **la clé ne contient ni mtime ni manifeste** — les
+trois mandats seraient restés invisibles jusqu'à la fin de vie du process.
+
+**Correction d'une donnée fausse du dépôt** : `bureau/modules/hermes_status.py`
+affirmait en docstring que « les agents tournent en process de fond, pas en service
+systemd — vérifié le 2026-08-15 ». C'est faux aujourd'hui : `hermes-gateway-publication.service`
+est un service **systemd user**, `enabled`. Le redémarrage est donc supervisé et sûr.
+
+**Vérification de bout en bout** (l'agent interrogé en direct) :
+
+```
+$ hermes --profile publication -z "ton signe zodiacal, puis les noms exacts de tes trois mandats"
+Sagittarius ; site-orchestration, bibliothecaire, veille-referencement.
+```
+
+L'ancien `SOUL.md` ne contenait **aucune** section « Zodiac principle » : la réponse
+prouve que le nouveau principe est chargé, et la liste des mandats que l'index des
+skills est reconstruit. Route confirmée au journal : `model=auto/best-free`,
+`provider=custom base_url=http://localhost:20128/v1`.
+
+**Retour arrière** (inchangé, toujours valable) :
+
+```bash
+cp ~/.hermes/profiles/publication/SOUL.md.bak-20260831-072908 ~/.hermes/profiles/publication/SOUL.md
+rm -rf ~/.hermes/profiles/publication/skills/hermes
+hermes --profile publication gateway restart
+```

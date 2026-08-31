@@ -34,12 +34,11 @@ la tâche le demande).
 | `08-principe.md` | `~/.hermes/profiles/publication/SOUL.md` |
 | `mandats/X.md` | `~/.hermes/profiles/publication/skills/hermes/X/SKILL.md` |
 
-**Déployé : non.** Au 2026-08-31, le `SOUL.md` du profil `publication` porte
-1 575 octets contre 14 256 documentés ici : 203 lignes du dépôt n'ont jamais
-atteint l'agent, dont les trois mandats votés le 2026-08-24 et le principe
-zodiacal. Le déploiement modifie un agent en fonctionnement : il relève de la
-porte humaine (Cmd 13) et attend un go explicite de Sidy. Procédure et retour
-arrière : `deployer-prompt-agent.md` dans ce répertoire.
+**Déployé : oui, depuis le 2026-08-31.** `SOUL.md` porte le principe, les trois
+mandats sont des skills du moteur (`skills/hermes/<nom>/SKILL.md`), et
+`--derive` rend `publication ✅ synchronisé` — premier des douze agents à l'être.
+Le profil tourne sur `auto/best-free` via omniroute. Procédure, trace d'exécution
+et retour arrière : `deployer-prompt-agent.md`.
 
 ## Vérification
 

@@ -1,8 +1,13 @@
 """État des 12 agents Hermès — statut process + mission déclarée.
 
 Statut : présence d'un process `hermes_cli.main --profile <profil> gateway
-run` (les agents tournent en process de fond, pas en service systemd —
-vérifié le 2026-08-15, `systemctl` ne renvoie rien pour hermes). Mission :
+run`. Correctif du 2026-08-31 : la note « pas en service systemd — vérifié le
+2026-08-15 » était fausse, ou l'est devenue. Les gateways sont des services
+**systemd user** (`hermes-gateway-<profil>.service`, `enabled`) ; `systemctl`
+ne renvoyait rien parce qu'il était interrogé en portée système et non
+`--user`. Le `pgrep` ci-dessous reste correct — il observe le même process —
+mais un redémarrage passe par `hermes --profile <profil> gateway restart`,
+supervisé, et non par un kill. Mission :
 extraite du bloc `## Mission` de la fiche `hermes-prompts/NN-*.md`
 correspondante — lecture seule, aucune écriture, aucune donnée personnelle
 recopiée (seul le rôle fonctionnel est affiché, jamais le contexte
