@@ -1,16 +1,21 @@
 ---
-title: "Fiche candidate — Doctrine de la contrainte : qabḍ/basṭ et infrastructure"
-type: meta
+title: "Doctrine de la contrainte : qabḍ/basṭ et infrastructure (fiche candidate)"
+type: experience
+statut_experience: exploratoire
 statut: brouillon
 created: 2026-08-31
-tags: [doctrinal, qabd, bast, contrainte, infrastructure, lien]
+updated: 2026-08-31
+tags: [atelier, rd, qabd, bast, contrainte, infrastructure, lien, kari-kumi]
 sources: ["raw/ascension-regard-soufisme-52-53-qabd-bast.md"]
-links: []
+links:
+  - "[[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]]"
 ---
 
 # Doctrine de la contrainte : qabḍ/basṭ et infrastructure
 
-**Statut** : `brouillon` — en attente de versement doctrinal (verdict Sidy, Cmd 12).
+**Statut** : 🔍 `kari-kumi` — montage à blanc, **non versé au doctrinal**. Sortie du
+sas `_inbox/` le 2026-08-31 vers le pôle R&D sur verdict de Sidy : la fiche est rangée
+sans être tranchée. Le verdict de correspondance reste entier (Cmd 12).
 **Source** : `raw/ascension-regard-soufisme-52-53-qabd-bast.md` (traité soufi, §52-53).
 
 ---
@@ -87,7 +92,18 @@ L'attitude convenable à basṭ est le **mouvement** (*taḥarruk*) et le **ravi
 
 ### 4.1. Application concrète
 
-La fiche `_inbox/2026-08-31_implémentation-architecture-modulaire-agents.md` (pour Claude Code Opus 5) est **l'acte de basṭ** — le mouvement immédiat qui répond à l'épanouissement de la solution.
+La fiche d'implémentation transmise à Claude Code Opus 5 était **l'acte de basṭ** — le
+mouvement qui répond à l'épanouissement de la solution. Elle a été exécutée le
+2026-08-31 (sas vidé, §IX.8) : voir `meta/projet-unifie/hermes-prompts/08-publication-site/`
+et l'entrée du 2026-08-31 dans `meta/meta-annales.md`.
+
+**Réserve d'exécution.** L'*ādāb* de basṭ est le mouvement, non la précipitation — et
+le principe de l'agent 08 lui-même le dit dans sa propre langue : *« when in doubt,
+hold the arrow — a Sagittarius that fires early has abandoned its own principle of
+aim »*. Trois points de la fiche d'implémentation ont été tenus avant d'être tirés :
+la découpe proposée était une réécriture non déclarée, son contrôle mécanique ne
+prouvait rien, et son routeur n'avait aucun exécutant. Le mouvement immédiat a porté
+sur ce qui était vérifiable ; le reste attend un verdict.
 
 Mais cet acte n'est possible que parce qu'on a d'abord répondu à qabḍ par le calme (la lecture méthodique des 12 prompts, la compréhension de la table zodiacale validée, l'investigation multi-angles).
 
@@ -112,32 +128,66 @@ Source : raw/ascension-regard-soufisme-52-53-qabd-bast.md (traité soufi, §52-5
 
 ## 5. Qualification doctrinale (à trancher par Sidy)
 
-### 5.1. Statut du lien
+### 5.1. Destination — tranchée le 2026-08-31
 
-Le lien entre qabḍ/basṭ et la contrainte infrastructurelle est-il :
-- **hozo** (équivalence établie) ?
-- **kumiko** (complémentarité) ?
-- **kari-kumi** (suggéré, non tranché) ?
+`atelier/rd/cahiers/`, statut 🔍 `kari-kumi`. **Pas de versement dans `doctrinal/`.**
+La fiche sort du sas sans être tranchée : elle est rangée, pas validée.
 
-**Proposition** : **kumiko** — la contrainte infrastructurelle n'est pas identique à qabḍ (l'un est technique, l'autre spirituel), mais les deux partagent la même structure : un état intérieur qui appelle une attitude convenable. La complémentarité est dans la structure, pas dans le contenu.
+### 5.2. Qualification du joint — lecture formelle proposée
 
-### 5.2. Versement doctrinal
+La rédaction initiale proposait **kumiko** (ancrage de complémentarité). Relecture du
+lexique conventionnel (`CLAUDE.md` §VII) : **la portance est un axe distinct de l'état
+du joint**, et un même joint se qualifie sur les deux — l'exemple donné par le lexique
+lui-même est littéralement *zōsaku × kari-kumi*.
 
-Cette fiche doit-elle être versée dans `doctrinal/` ?
-- Si oui : dans `doctrinal/etudes/` (étude appliquée) ou `doctrinal/discernement/` (discernement de correspondance) ?
-- Si non : reste dans `atelier/rd/cahiers/` comme lien technique-doctrinal ?
+Or ici :
 
-**Verdict requis** : Sidy tranche (Cmd 12).
+| Axe | Lecture | Motif |
+|---|---|---|
+| **Portance** | **zōsaku** (second œuvre) | Une extrémité du joint est contingente : l'infrastructure Hermes est un fait technique daté, remplaçable, sans dignité comparable à un état du cœur décrit par un traité soufi. Le joint est réel mais ne porte rien. |
+| **État** | **kari-kumi** (montage à blanc) | Aucun verdict n'a été rendu. |
+| **Nature** | **homologie** | Ressemblance de forme — une structure « état intérieur → attitude convenable » qui se retrouve de part et d'autre. Aucune généalogie n'est alléguée : ce n'est pas une *restitution*. |
 
----
+**kumiko serait trop fort** : il ancrerait une complémentarité entre les deux termes,
+donc une dignité comparable. Ce que la fiche décrit n'est pas une complémentarité mais
+un emprunt de forme, dans un seul sens — le texte soufi éclaire l'infrastructure,
+l'infrastructure n'éclaire rien du texte soufi.
+
+Proposition, non conclusion : le verdict appartient à Sidy (Cmd 12). Ce que la machine
+peut établir ici est **formel** (cohérence d'application d'un lexique conventionnel) ;
+la perception du principe ne lui appartient pas.
+
+### 5.3. ⚠️ Signalement — le rapprochement hermétique n'est PAS versé
+
+En instruisant ce chantier, la lecture de « Solve et Coagula » (René Guénon, *La Grande
+Triade*, ch. XXII) a fait apparaître un rapprochement frappant : la note 15 de ce
+chapitre lit explicitement la **contrainte** comme relevant du pôle *lier* = *coagula*
+(domaine temporel), par opposition à la **liberté** = *délier* = *solve* (domaine
+spirituel). La proximité formelle avec qabḍ (constriction) / basṭ (épanouissement) est
+immédiate.
+
+**Ce rapprochement n'est pas écrit ici comme correspondance établie, et ne doit pas
+l'être sans fiche `discernement` et verdict de Sidy (Cmd 3).** Motif : Guénon joint
+hermétisme, taoïsme et Qorân *à l'intérieur de son propre texte*, ce qui l'autorise
+**là** ; l'importer pour qualifier une source soufie distincte est un **joint neuf entre
+formes traditionnelles**, précisément ce que le Non-Syncrétisme interdit de supposer.
+
+Le chapitre a en revanche servi d'**instrument formel** sur le plan d'ingénierie du
+même jour — un éclatement qui dissout un monolithe sans fixer d'invariant est
+structurellement incomplet. Cet usage-là est structure, non doctrine : il relève de la
+contribution exacte de la machine (Cmd 12, *upakarana*). Voir
+`meta/projet-unifie/hermes-prompts/08-publication-site/README.md`.
 
 ## 6. Liens
 
 - **Source** : `raw/ascension-regard-soufisme-52-53-qabd-bast.md`
-- **Chantier** : `_inbox/2026-08-31_implémentation-architecture-modulaire-agents.md`
+- **Chantier** : `meta/projet-unifie/hermes-prompts/08-publication-site/` (exécuté le 2026-08-31)
 - **Rapport R&D** : `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents.md`
 - **Signal Sidy** : « cette contrainte apparente est notre plus grande force » (session 2026-08-31)
 
 ---
 
-*Fiche rédigée le 2026-08-31. Statut : brouillon. En attente de verdict Sidy pour versement doctrinal et qualification du lien (hozo/kumiko/kari-kumi).*
+*Fiche rédigée le 2026-08-31, rangée au pôle R&D le même jour. Statut : 🔍 kari-kumi.*
+*Destination tranchée (pas de versement doctrinal) ; qualification du joint proposée*
+*(zōsaku × kari-kumi, homologie) et non tranchée ; rapprochement hermétique signalé,*
+*non versé. Le verdict appartient à Sidy (Cmd 12).*
