@@ -132,17 +132,26 @@ links:
 
 **Configuration** : fichier YAML `atelier/rd/outillage/config/veille-mots-cles.yaml`
 ```yaml
+# Philosophie: self-improvement — intégrer tout élément qualitatif
+# (outillage, théorique, base de code) qui peut soutenir l'amélioration
+# autonome de l'infrastructure et des processus. Termes génériques pour
+# ne pas limiter la veille à un périmètre étroit. Verdict Sidy 2026-08-31.
 mots_cles:
+  - self-improving systems
+  - self-improvement
+  - autonomous optimization
   - speculative decoding
   - llm inference optimization
-  - vllm plugin
-  - qwen optimization
+  - language model optimization
   - sovereign infrastructure
-  - multi-gateway
-  - discord bot scaling
+  - distributed systems
+  - agent orchestration
   - container orchestration
   - gpu inference
+  - infrastructure automation
   - speculative execution
+  - recursive self-improvement
+  - automated reasoning
 filtrage:
   min_stars: 50
   max_age_months: 6
