@@ -1,0 +1,69 @@
+# Configuration de la veille automatique Studio
+# Philosophie: self-improvement — intégrer tout élément qualitatif
+# (outillage, théorique, base de code) qui peut soutenir l'amélioration
+# autonome de l'infrastructure et des processus. Termes génériques pour
+# ne pas limiter la veille à un périmètre étroit. Verdict Sidy 2026-08-31.
+
+mots_cles:
+  # Self-improvement (maître-mot)
+  - self-improving systems
+  - self-improvement
+  - autonomous optimization
+  - recursive self-improvement
+  - automated reasoning
+  # Inference LLM
+  - speculative decoding
+  - llm inference optimization
+  - language model optimization
+  # Infrastructure souveraine
+  - sovereign infrastructure
+  - distributed systems
+  - agent orchestration
+  - container orchestration
+  - gpu inference
+  - infrastructure automation
+  - speculative execution
+
+# Indicateurs de résonance théorique (pour signalement au Gardien)
+indicateurs_theoriques:
+  - principle
+  - paradigm
+  - theory
+  - conceptual framework
+  - methodology
+  - epistemology
+  - ontology
+  - taxonomy
+  - formal model
+  - abstraction
+
+filtrage:
+  min_stars: 100
+  max_age_months: 6
+  licences_permises:
+    - Apache-2.0
+    - MIT
+    - BSD-2-Clause
+    - BSD-3-Clause
+    - MPL-2.0
+  langues:
+    - Python
+    - Rust
+    - Go
+    - C++
+    - TypeScript
+    - JavaScript
+
+# Limites pour ne pas surcharger l'API GitHub
+api:
+  github_results_per_query: 10
+  arxiv_results_per_query: 10
+  max_fiches_per_run: 5
+  timeout_seconds: 30
+
+# Chemins
+paths:
+  wiki_root: /root/wiki
+  veille_dir: atelier/rd/veille
+  archive_dir: atelier/rd/veille/archive
+  config_file: atelier/rd/outillage/config/veille-mots-cles.yaml
