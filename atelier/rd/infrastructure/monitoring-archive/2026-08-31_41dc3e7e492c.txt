@@ -1,0 +1,100 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+Rapport quotidien du pôle Studio — 2026-08-31
+(exécuté en environnement cron, profil studio)
+
+## §1 Cartographie et cohérence
+
+**1. Python3 atelier/rd/outillage/graphe/generer-cartographie.py --depot /root/wiki --verifier**
+```
+ÉCHEC — 149 anomalie(s) bloquante(s). Aucun manifeste écrit.
+
+      frontmatter    149
+
+    [frontmatter] atelier/rd/outillage/graphify-out/GRAPH_REPORT.md : frontmatter absent (le fichier ne commence pas par '---')
+    [frontmatter] atelier/rd/outillage/.graphify-venv/lib/python3.12/site-packages/tree_sitter_lua-0.5.0.dist-info/licenses/LICENSE.md : frontmatter absent (le fichier ne commence pas par '---')
+    ... (149 erreurs de frontmatter détectées dans les dépendances graphify et le dépôt) ...
+```
+
+**2. Python3 atelier/rd/outillage/detecter-non-tracke.py --racine /root/wiki**
+```
+1 fichier(s) non tracké(s), par circuit :
+
+  [meta] 1
+    ??  meta/projet-unifie/choura/hook-contribution-sidy/
+```
+
+**3. Python3 atelier/rd/outillage/verifier-coherence-infrastructure.py --racine /root/wiki**
+```
+12 affirmation(s) vérifiée(s), 1 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ❌ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] DISCORD_HOME_CHANNEL attendu 1535804669300052039, réel '1534858103185473627' (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] DISCORD_ALLOWED_CHANNELS couvre les 1 salon(s) attendu(s) (profil gardien)
+  ... (autres affirmations vérifiées) ...
+```
+
+## §2 Empreinte serveur
+
+**Df -h /, free -h**
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   28G  8.6G  76% /
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       3.3Gi       136Mi       3.9Mi       550Mi       433Mi
+Swap:          2.0Gi       1.4Gi       569Mi
+```
+
+## §3 Registre Hermes-Terminal
+
+**systemctl --user list-units 'hermes-*'**
+```
+UNIT                                LOAD   ACTIVE SUB     DESCRIPTION
+● hermes-gateway-accounting.service   loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-admin-legal.service  loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-ar-music.service     loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-distribution.service loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-fanzine.service      loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-gardien.service      loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-marketing.service    loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-production.service   loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-publication.service  loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-studio.service       loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-visual-da.service    loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+```
+
+**ls -la /root/wiki/_inbox/**
+```
+total 0
+drwxrwxr-x+  2 root root 4096 Aug 31 06:57 .
+drwxr-xr-x  12 root root 4096 Aug 31 12:00 ..
+-rw-rw-r--+  1 root root  352 Aug 31 06:57 .gitkeep
+```
+
+## §4 R&D — analyse engagée
+
+**Script détecteur manquant** : `/atelier/rd/outillage/detecter-nouvelles-fiches-rd.sh` est introuvable.
+
+**Analyse fiches nouvelles (échantillon)** :
+- `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme.md`
+- `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast.md`
+- `atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable.md`
+(Analyse détaillée : fiches cohérentes avec les chantiers en cours, pas de conflit doctrinal immédiat détecté).
+
+**Registre des problèmes (registre-problemes.md)** :
+- 2026-08-30 : Écriture d'un agent dans `raw/` (dérogation acceptée).
+- 2026-08-18 : Réparation du job `coherence-infrastructure-brute`.
+
+**Pistes prioritaires (PROPOSITION)** :
+1. **Fix frontmatter** : Résoudre les 149 erreurs détectées par `generer-cartographie.py`. Risque : instabilité du graphe si non traité.
+2. **Sync Discord** : Ajuster `DISCORD_HOME_CHANNEL` du profil gardien dans `atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md`.
+3. **Audit outillage** : Localiser et restaurer `atelier/rd/outillage/detecter-nouvelles-fiches-rd.sh`.
+
+## §5 Suggestions transversales
+
+1. **Vigilance frontmatter** : La profusion d'erreurs dans `graphify-venv` suggère un besoin d'exclure les répertoires de dépendances (`venv`, `node_modules`, `dist-info`) des outils de vérification frontmatter.
+2. **Stabilité gateways** : Les échecs récurrents des gateways (accounting, admin-legal, distribution, marketing, production, visual-da) nécessitent un audit de leur santé et de leurs configurations (`hermes-gateway-*.service`).
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

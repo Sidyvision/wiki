@@ -12,7 +12,7 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-31 13:01 UTC, sur `/root/wiki`.
+> aucun réseau) le 2026-08-31 14:09 UTC, sur `/root/wiki`.
 > Portée : dépôt complet. 683 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
@@ -255,7 +255,7 @@ links: []
 | `doctrinal/symboles/asma-al-husna` | symbole | traditionnel | 2026-06-20 | 0 | Asmāʾ al-Ḥusnā |
 | `doctrinal/symboles/atlantide` | symbole | traditionnel | 2026-06-30 | 1 | Atlantide — l'île-continent et le cycle atlantéen |
 | `doctrinal/symboles/atma` | symbole | traditionnel | 2026-08-30 | 2 | Âtmâ (le Soi) |
-| `doctrinal/symboles/atma-gita-guenon` | symbole | traditionnel | 2026-06-20 | 0 | L'Ātma-Gītā et le commentaire de René Guénon |
+| `doctrinal/symboles/atma-gita-guenon` | symbole | traditionnel | 2026-08-31 | 2 | L'Ātma-Gītā et le commentaire de René Guénon |
 | `doctrinal/symboles/axe-corde-en-reve` | symbole | academique | 2026-06-20 | 0 | Lier par la corde enroulée sur l'axe (motif onirique comparatif) |
 | `doctrinal/symboles/barzakh` | symbole | traditionnel | 2026-08-30 | 4 | Barzakh |
 | `doctrinal/symboles/bindu` | symbole | traditionnel | 2026-06-20 | 0 | Bindu (बिंदु) — le point primordial |
@@ -1900,7 +1900,7 @@ links: []
 - `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31` — 1. Objectifs · 2. Architecture du flux · 3. Composants techniques · 4. Articulation avec le Cycle Choura · [HH:MM] studio (rôle 9, Vierge) · [00:00] gardien (rôle 10, Balance) · 5. Plan d'exécution (sur verdict Sidy) · 6. Questions ouvertes · 7. Verdict Sidy (Cmd 6) · 8. Problème structurel soulevé — saturation des prompts et relais hié… · 9. Exécution effective
 - `atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820` — 1. Introduction · 2. État des lieux du dépôt (synthèse R&D) · 3. Examen de `raw/` (ressources nouvelles, classification) · 4. Points ouverts et anomalies (table conjointe) · 5. Section Vigilance (contrôle protocolaire) · 6. Recommandations conjointes (priorités) · 7. Conclusion
 - `atelier/rd/cahiers/rapport-studio-exploration-preliminaire` — 1. Cartographie du dépôt · 2. État des vérifications mécaniques (2026-08-20) · 3. Examen de raw/ · 4. `_inbox/` — dépôts en attente · 5. Points ouverts (observations, sans verdict) · 6. Suggestions (soumises à Sidy, aucune exécution) · 7. Artifacts de cette session
-- `atelier/rd/cahiers/registre-problemes` — [2026-08-30] Écriture d'un agent de veille dans `raw/` — accepté sur … · [2026-08-30] Nettoyage du sas `_inbox/` — pathspec `git rm`/`rm -rf` … · [2026-08-30] Clé ANTHROPIC compromise dans .bash_history et .omnirout… · [2026-08-30] Point 3b — Jetons [[...]] cités comme données · [2026-08-30] rd/infrastructure | Secret HMAC exposé en clair dans fic… · [2026-08-30] Session « réseau subtil » : vingt défauts, dont trois se… · [2026-08-29] Push agent bloqué sur `main` (403, attendu) mais merge d… · [2026-08-28] Correctif C1 consigné « traité » mais inefficace — le li… · [2026-08-28] Annales append-only — en-tête d'entrée remplacé (et non … · [2026-08-25] Validateurs index-livres — mismatch NFC/NFD sur noms de … · [2026-08-25] Récurrence — claim périmée « table des 38 degrés bloquée… · [2026-08-25] Discord Gateway Publication — canal #infrastructure non … · [2026-08-25] Discord Gateway Gardien — socket fermé, non récupéré · [2026-08-20] resolu | Traçabilité en défaut — tension Burckhardt/Jurj… · [2026-08-18] resolu | Suite de l'entrée précédente — `coherence-infra… … (+39)
+- `atelier/rd/cahiers/registre-problemes` — [2026-08-31] Qualification d'un joint entre deux termes qui n'en fais… · [2026-08-30] Écriture d'un agent de veille dans `raw/` — accepté sur … · [2026-08-30] Nettoyage du sas `_inbox/` — pathspec `git rm`/`rm -rf` … · [2026-08-30] Clé ANTHROPIC compromise dans .bash_history et .omnirout… · [2026-08-30] Point 3b — Jetons [[...]] cités comme données · [2026-08-30] rd/infrastructure | Secret HMAC exposé en clair dans fic… · [2026-08-30] Session « réseau subtil » : vingt défauts, dont trois se… · [2026-08-29] Push agent bloqué sur `main` (403, attendu) mais merge d… · [2026-08-28] Correctif C1 consigné « traité » mais inefficace — le li… · [2026-08-28] Annales append-only — en-tête d'entrée remplacé (et non … · [2026-08-25] Validateurs index-livres — mismatch NFC/NFD sur noms de … · [2026-08-25] Récurrence — claim périmée « table des 38 degrés bloquée… · [2026-08-25] Discord Gateway Publication — canal #infrastructure non … · [2026-08-25] Discord Gateway Gardien — socket fermé, non récupéré · [2026-08-20] resolu | Traçabilité en défaut — tension Burckhardt/Jurj… … (+40)
 - `atelier/rd/citadelle-du-sham/note` — Pour modifier le jeu (à la demande de Mehdi, 2026-08-13)
 - `atelier/rd/incidents/2026-08-22_post-scriptum-hook-corrige` — Bug initial · Correction · Recommandation
 - `atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination` — Résumé · Description de l'incident · Investigation · Analyse de sécurité · Actions correctives · Recommandations pour le protocole de sécurité · Leçons apprises · Annexes · Conclusion · Post-scriptum — récidive du même jour (chantier bibliothèque) · Post-scriptum 2 — défaillance de la commande de nettoyage suggérée pa… · Post-scriptum du 2026-08-31 — résidu retrouvé dans le dépôt et dans l…
@@ -2366,7 +2366,7 @@ links: []
 - `meta/genealogie/tapa-sissoko` — Identité · Faits · Notes
 - `meta/journal/2026-06-18-tawakkul-transition` — Contexte · Sur la condition humaine et la dunya · Sur la démission · Sur la narration et le nafs · Sur le statut de l'injustice dans le contrat de service · Sur le tawakkul vécu · Vigilance pour l'avenir · Références croisées
 - `meta/journal/conversation-atma-claude` — 1. Qu’est-ce qu’Atma ? · 2. Qu’est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu’est-ce que Buddhi ? · 5. Ahamkara et Manas — l’Antahkarana · 6. Qu’est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA · 1. Qu'est-ce qu'Atma ? · 2. Qu'est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu'est-ce que Buddhi ? · 5. Ahamkara et Manas — l'Antahkarana · 6. Qu'est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA
-- `meta/meta-annales` — [2026-08-31] choura | Hook « contribution de Sidy » versé au Domaine … · [2026-08-31] infrastructure | Bascule omniroute des 14 profils, répar… · [2026-08-31] deploiement | Agent 08 déployé sur le moteur — et le rou… · [2026-08-31] archivage | Éclatement modulaire de l'agent 08 — et déco… · [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées… · [2026-08-30] briefs | Passation retour — session claude.ai vers sessi… · [2026-08-30] briefs | Passation de la session Instrument vers Claude … · [2026-08-30] briefs | Passation de la session « réseau subtil » vers … · [2026-08-29] personnel | mise à jour | Rêve géants/Paris — liens vers… · [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (… · [2026-08-28] maintenance | Corrections de dérive du protocole (table … · [2026-08-27] projet-unifie | Choura : premier cycle wiki + câblage cr… · [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers … · [2026-08-24] realignement | Crons Publication (08), Gardien (10), Stu… · [2026-08-24] cron + revue | Mandat frontmatter veille (position 08) p… … (+16)
+- `meta/meta-annales` — [2026-08-31] protocole | Approbation requise ramenée à 0 sur `main` · [2026-08-31] choura | Hook « contribution de Sidy » versé au Domaine … · [2026-08-31] infrastructure | Bascule omniroute des 14 profils, répar… · [2026-08-31] deploiement | Agent 08 déployé sur le moteur — et le rou… · [2026-08-31] archivage | Éclatement modulaire de l'agent 08 — et déco… · [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées… · [2026-08-30] briefs | Passation retour — session claude.ai vers sessi… · [2026-08-30] briefs | Passation de la session Instrument vers Claude … · [2026-08-30] briefs | Passation de la session « réseau subtil » vers … · [2026-08-29] personnel | mise à jour | Rêve géants/Paris — liens vers… · [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (… · [2026-08-28] maintenance | Corrections de dérive du protocole (table … · [2026-08-27] projet-unifie | Choura : premier cycle wiki + câblage cr… · [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers … · [2026-08-24] realignement | Crons Publication (08), Gardien (10), Stu… … (+17)
 - `meta/meta-index` — Personnel (`personnel/`) · Généalogie (`genealogie/`) · Journal (`journal/`) · Transmissions (`transmissions/`, dispositif Karūbī — voir `meta/CLAUD… · Briefs (`briefs/`) · Projet unifié (`projet-unifie/`) · Fiches de premier niveau (`meta/`)
 - `meta/migration-2026-06-11` — Étape 1 : Remplacement du Cœur Opérationnel · Étape 2 : Migration et Ventilation de l'Existant (Sans re-lecture) · Étape 3 : Normalisation des Frontmatters (Script automatisé ou éditio… · Étape 4 : Initialisation des Méta-Pages · Étape 5 : Clôture et Validation
 - `meta/onboarding` — Contexte · Infrastructure en place · Structure du wiki sur le serveur · Synchronisation Obsidian : ✅ résolue (auto-pull activé) · Comment démarrer une session Claude Code · Coffre Obsidian · Prochaines étapes suggérées · Notes techniques
@@ -2423,7 +2423,7 @@ links: []
 - `meta/projet-unifie/chatgpt-export-2026-05-10` — Référence · Accès · Données extraites lors de l'INGEST du 2026-06-02 · Notes
 - `meta/projet-unifie/choura/cycle-2026-08-28` — [2026-08-28 18:04] studio (rôle 9, Vierge) · [2026-08-28 08:30] publication (rôle 8, Sagittaire) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe)
 - `meta/projet-unifie/choura/cycle-2026-08-30` — [2026-08-30 00:05] gardien (rôle 10, Capricorne) · [2026-08-30 16:00] publication (rôle 8, Sagittaire) · [2026-08-30 16:30] gardien (rôle 10, Capricorne) · [2026-08-30 18:05] ar-music (rôle 1, Bélier) · [2026-08-30 20:15] visual-da (rôle 2, Balance) · [2026-08-31 00:15] accounting (rôle 5, Taureau) · [2026-08-31 02:30] distribution (rôle 6, Scorpion) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe) · Clôture du cycle — 2026-08-31, 10:55 (heure de Paris)
-- `meta/projet-unifie/choura/cycle-2026-08-31` — Rotation de ce cycle (heure de Paris) · [2026-08-31 10:55] amorce (hors tour — Claude Code, sur instruction d… · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe)
+- `meta/projet-unifie/choura/cycle-2026-08-31` — Rotation de ce cycle (heure de Paris) · [2026-08-31 10:55] amorce (hors tour — Claude Code, sur instruction d… · [2026-08-31 16:00] visual-da (rôle 2, Balance) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe)
 - `meta/projet-unifie/choura/hook-contribution-sidy/README` — Ce qu'il fait · Pourquoi un hook, et pas une consigne de prompt · Pourquoi sur le seul profil `gardien` · Contrat · Ce qui reste à la main de Sidy
 - `meta/projet-unifie/choura/orchestrateur/README` — Ce qu'il fait · Invariant à tenir · Contrôle
 - `meta/projet-unifie/directive-discernement-domaines` — Principe · Les deux garde-fous (symétriques) · Conséquence pratique · Note sur la portée · Origine
@@ -2667,8 +2667,8 @@ links: []
 - `atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820` (1)
   - L355 : - Le marqueur `to-source` est **largement présent** dans `doctrinal/symboles/`
 - `atelier/rd/cahiers/registre-problemes` (2)
-  - L222 : - **Seconde compréhension** : ⚠️ **un `to-source` partiel certifie tout ce qu'il
-  - L224 : « Pagination `to-source` » — ce qui a fait paraître sûre sa **structure**, qui
+  - L270 : - **Seconde compréhension** : ⚠️ **un `to-source` partiel certifie tout ce qu'il
+  - L272 : « Pagination `to-source` » — ce qui a fait paraître sûre sa **structure**, qui
 - `atelier/rd/index` (1)
   - L69 : Usage : savoir *où chercher*. La levée d'un `to-source` reste la vérification du
 - `atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks` (1)
@@ -3108,8 +3108,8 @@ links: []
 - `meta/genealogie/samballa-kouyate` (1)
   - frontmatter sources: to-source
 - `meta/meta-annales` (2)
-  - L318 : pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
-  - L319 : décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
+  - L341 : pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
+  - L342 : décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
 - `meta/personnel/2026-08-18_initiation-virtuelle` (1)
   - frontmatter sources: to-source
 - `meta/personnel/sidy` (1)
@@ -3233,7 +3233,7 @@ links: []
 - `meta/proposition-discernement` → `deviation-y`, `symbole/autorite-x`
 - `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12` → `autre-slug`, `chemin/relatif`, `doctrinal/deviations/slug`, `doctrinal/symboles-ou-autorites/slug`, `slug`, `slug-source`
 
-### Fiches sans lien entrant (103)
+### Fiches sans lien entrant (102)
 
 - `atelier/CLAUDE`
 - `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity`
@@ -3251,7 +3251,6 @@ links: []
 - `atelier/rd/bibliotheque/glossaire-unifie`
 - `atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent`
 - `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation`
-- `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`
 - `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra`
