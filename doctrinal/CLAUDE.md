@@ -165,7 +165,7 @@ de `status`. Chaque passe est consignée dans les annales (`doctrinal/annales.md
 
 Le dépôt dispose d'un graphe de maillage déjà produit :
 `graphe-cartographie.json` (artefact dérivé, régénéré par
-`Graphe/generer-cartographie.py`). Ce graphe est la **source de vérité
+`atelier/rd/outillage/graphe/generer-cartographie.py`). Ce graphe est la **source de vérité
 du maillage** — il n'y a pas lieu de créer un outil parallèle.
 
 ### Procédure à l'intégration d'une nouvelle fiche doctrinale
@@ -174,7 +174,7 @@ du maillage** — il n'y a pas lieu de créer un outil parallèle.
    liens entrants de la fiche intégrée (filtrer `edges` sur `target` = slug
    de la fiche). Si le graphe est stale (dernière génération antérieure au
    dernier commit doctrinal), le régénérer d'abord par
-   `python3 Graphe/generer-cartographie.py`.
+   `python3 atelier/rd/outillage/graphe/generer-cartographie.py`.
 2. **Si zéro lien entrant** : la fiche est orpheline du graphe. L'agent
    peut **proposer** des liens (filiations orthodoxes/hétérodoxes, comme
    dans le bloc 🔍 des discernements — cf.

@@ -10,6 +10,41 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-08-31] outillage | `Graphe/` racine déplacé en `atelier/rd/outillage/graphe/` + usage explicite dans la vérification générale
+
+Demande explicite de Sidy, en suite de l'ingest Shaar Hagilgulim
+(`doctrinal/annales.md`, même date) : renommer `Graphe/` en minuscule et le
+déplacer en outillage R&D, sous condition de ne pas endommager son
+fonctionnement — plus, séparément, rendre explicite l'usage du graphe dans la
+routine de vérification générale de clôture de session (§VII racine).
+
+- **Vérification préalable** : `generer-cartographie.py` n'a aucune dépendance
+  de chemin relative à sa propre localisation (`--depot` par défaut absolu,
+  `/root/wiki` ; aucun usage de `__file__`/`os.path.dirname`). Déplacement
+  confirmé sans risque fonctionnel avant exécution.
+- **Exécuté** : `git mv Graphe atelier/rd/outillage/graphe`. Régénération
+  testée depuis le nouvel emplacement : résultat identique (495 nœuds, 1712
+  arêtes), `graphe-cartographie.json` racine inchangé au diff.
+- **Références mises à jour** (documents opératoires uniquement — annales et
+  rapports datés non réécrits, Cmd 10) : `CLAUDE.md` racine (arbre §II,
+  en-tête de révisions, §VII), `doctrinal/CLAUDE.md` (procédure d'intégration),
+  `README.md`, `atelier/rd/outillage/detecter-non-tracke.py` (`"Graphe"` retiré
+  de `DOSSIERS_HORS_CIRCUIT` — le dossier rejoint désormais le circuit
+  `atelier`, il n'est plus hors-circuit comme `raw/`/`_inbox/`),
+  `atelier/rd/outillage/spec-generer-cartographie-tolerant.md`.
+- **Usage explicite dans la vérification générale** : §VII racine amendé —
+  section « Vérification structurelle obligatoire » et Action VIGILANCE
+  mentionnent désormais nommément `atelier/rd/outillage/graphe/
+  generer-cartographie.py` pour la détection de notions orphelines et de
+  liens morts.
+- **Révision protocolaire consignée** : `meta/protocole-archives/
+  changelog-CLAUDE.md`, entrée `[2026-08-31] deplacement`.
+- **Vigilance** : `verifier-invariants.py` et `detecter-non-tracke.py` relancés
+  après déplacement — seules les deux anomalies pré-existantes et sans rapport
+  (raw/ sans frontmatter, deux liens non résolus dans `atma.md`) subsistent.
+  Aucune régression.
+- **Commit** : à consigner.
+
 ## [2026-08-31] outillage | Juge de paix des prompts Hermes, résidu ZWJ, fiche qabḍ/basṭ rangée
 
 Volet `atelier/rd/` du chantier d'éclatement de l'agent 08 (volet `meta/` :

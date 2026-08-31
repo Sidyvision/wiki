@@ -3,7 +3,7 @@ title: "Changelog du protocole CLAUDE.md (racine)"
 type: meta
 tags: [protocole, historique, changelog]
 created: 2026-08-28
-updated: 2026-08-29
+updated: 2026-08-31
 ---
 
 # Changelog du protocole `CLAUDE.md` (racine)
@@ -16,6 +16,41 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-08-31] deplacement | Graphe/ → atelier/rd/outillage/graphe/ + usage explicite dans la vérification générale
+
+Demande explicite de Sidy : renommer `Graphe/` (majuscule, racine) en minuscule
+et le déplacer en outillage R&D, sous condition que cela n'endommage pas son
+fonctionnement. Vérification préalable : `generer-cartographie.py` n'a aucune
+dépendance de chemin relatif à sa propre localisation (`--depot` par défaut est
+un chemin absolu, `/root/wiki` ; aucun usage de `__file__`/`os.path.dirname`) —
+déplacement sans risque fonctionnel confirmé. Sortie inchangée :
+`graphe-cartographie.json` reste écrit à la racine du dépôt.
+
+Exécuté par `git mv Graphe atelier/rd/outillage/graphe`. Références mises à
+jour dans les documents opératoires (protocole, pas les annales/rapports
+datés qui restent des constats d'époque, non réécrits — Cmd 10) :
+- `CLAUDE.md` racine : arbre §II (ligne ~121-124), en-tête de révisions,
+  §VII (Vérification structurelle obligatoire + Action VIGILANCE).
+- `doctrinal/CLAUDE.md` : références de chemin au script (§ Exploitation du
+  graphe lors de l'intégration).
+- `README.md` : entrée d'inventaire.
+- `atelier/rd/outillage/detecter-non-tracke.py` : `"Graphe"` retiré de
+  `DOSSIERS_HORS_CIRCUIT` — le dossier rejoint désormais le circuit `atelier`,
+  il n'est plus un dossier de service hors-circuit comme `raw/`/`_inbox/`.
+- `atelier/rd/outillage/spec-generer-cartographie-tolerant.md` : référence de
+  chemin corrigée.
+
+Deuxième demande groupée du même message : rendre explicite l'usage du graphe
+dans la routine de vérification générale de clôture de session (il n'y était
+pas nommément associé jusqu'ici, seule la procédure d'intégration d'une
+nouvelle fiche doctrinale le mentionnait, dans `doctrinal/CLAUDE.md`). Ajouté
+en §VII (racine) : régénération/consultation du graphe pour notions
+orphelines et liens morts, avec le même principe de non-correction d'office
+que le reste de l'Action VIGILANCE (Cmd 12).
+
+Regénération et `verifier-invariants.py` relancés après déplacement pour
+confirmer l'absence de régression (voir annales du jour).
 
 ## [2026-08-29] clarification | Objet documentaire de la bibliothèque R&D (couvertures, sommaires, index, glossaires)
 

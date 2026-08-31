@@ -10,14 +10,16 @@ la dispersion mentale.
 
 > **Historique des révisions** : conservé intégralement dans
 > `meta/protocole-archives/changelog-CLAUDE.md` (append-only, chronologique
-> inverse). Dernières révisions : **2026-08-29** (§VII, discipline des sources,
+> inverse). Dernières révisions : **2026-08-31** (`Graphe/` déplacé et renommé
+> `atelier/rd/outillage/graphe/` — outillage rejoint le pôle R&D plutôt que de
+> rester à la racine ; usage explicite du graphe ajouté à la vérification
+> structurelle obligatoire et à l'Action VIGILANCE, §VII), **2026-08-29** (§VII, discipline des sources,
 > point 1 — objet documentaire/d'orientation des photos de couverture, sommaire,
 > index et glossaire de la bibliothèque R&D explicité de façon définitive,
 > consultation prioritaire impérative), **2026-08-28** (corrections de dérive :
 > table Karūbī de `meta/CLAUDE.md`, arbre du §II, `meta-index.md`, `README.md`,
 > guide `verifier-invariants.py` déplacé en `meta/`), **2026-08-22**
-> (Commandement 15 — hygiène Unicode), **2026-08-12** (éclatement en protocoles
-> locaux, §II bis). Versions complètes archivées : `meta/protocole-archives/`
+> (Commandement 15 — hygiène Unicode). Versions complètes archivées : `meta/protocole-archives/`
 > (Cmd 10 — jamais de suppression sèche). Chaque révision demeure réversible
 > sur simple verdict de Sidy.
 >
@@ -80,10 +82,12 @@ wiki/  (= /root/wiki)
 │   │                         migrées vers rd/ + album-personnel (vers label/),
 │   │                         2026-08-08 ; ne plus y créer de fiches
 │   └── rd/                ← RECHERCHE & DÉVELOPPEMENT (pôle ouvert 2026-08-08) :
-│                             instrument/ · infrastructure/ · audio/ · outillage/ ·
-│                             cahiers/ — charte : rd/index.md ; finalité de
-│                             souveraineté (entretien, optimisation, émancipation
-│                             des intermédiaires de service tiers)
+│                             instrument/ · infrastructure/ · audio/ · outillage/
+│                             (dont graphe/ — generer-cartographie.py + rendu HTML,
+│                             ex-Graphe/ racine, déplacé 2026-08-31) · cahiers/ —
+│                             charte : rd/index.md ; finalité de souveraineté
+│                             (entretien, optimisation, émancipation des
+│                             intermédiaires de service tiers)
 ├── label/                 ← Circuit NON-doctrinal : la maison de création et le label
 │   ├── CLAUDE.md          ← Protocole local
 │   ├── index.md · annales.md
@@ -118,7 +122,6 @@ wiki/  (= /root/wiki)
         ├── registre-silsila.md      ← Journal append-only : génération, remise,
         │                              retour, rescellement, élévation, deprecated
         └── karubi-<destinataire>.md ← Copies de référence des instances G1 remises
-├── Graphe/                ← Cartographie vivante (generer-cartographie.py + rendu HTML)
 ├── carte-du-depot.py      ← Comptage mécanique des liens entrants (fiches orphelines)
 ├── verifier-invariants.py ← Vérification structurelle obligatoire (§VII, clôture de session)
 └── graphe-cartographie.json ← Données du graphe (généré — ne jamais éditer à la main)
@@ -322,7 +325,9 @@ Quand une nouvelle source est déposée dans `raw/` (lue côté PRODUCTION) :
 ### Action : VIGILANCE (contrôle d'orthodoxie et de forme)
 
 - Frontmatter complet et valide (Sceau du circuit concerné — `CLAUDE.md` local).
-- Notions orphelines, liens morts, pages d'autorités sans sources.
+- Notions orphelines, liens morts, pages d'autorités sans sources — via
+  `atelier/rd/outillage/graphe/generer-cartographie.py` (régénérer si
+  `graphe-cartographie.json` est antérieur au dernier commit doctrinal).
 - Infiltrations de vocabulaire profane ou « New Age » dans les pages de Symboles.
 - Violations d'étanchéité entre les cinq circuits (§VI).
 - **Rapporter sans corriger d'office** ; demander avant d'éditer.
@@ -374,6 +379,14 @@ exécuter `python3 verifier-invariants.py --racine /root/wiki` et consigner le
 résultat brut dans l'entrée d'annales de la session. Cette étape ne doit pas être
 sautée. Phase actuelle : **calibrage** (non-bloquant) — les erreurs sont investiguées
 et rapportées, pas bloquantes. Passage en mode `--strict` après calibrage confirmé.
+
+**Usage explicite du graphe** (amendement 2026-08-31, verdict Sidy) : toute session
+qui crée ou modifie des fiches `doctrinal/` régénère le graphe —
+`python3 atelier/rd/outillage/graphe/generer-cartographie.py` (sortie :
+`graphe-cartographie.json`, racine du dépôt) — et le consulte pour détecter
+notions orphelines et liens morts (§VII, Action VIGILANCE) avant la clôture de
+session. Même discipline de non-correction d'office : une anomalie révélée par le
+graphe se rapporte, ne se corrige pas silencieusement (Cmd 12).
 
 **Statut des documents d'investigation** (amendement 2026-07-27) : les documents
 produits en session claude.ai portent un statut explicite — `brouillon` (en

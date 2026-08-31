@@ -103,5 +103,6 @@ neutre → sensible, même dans `annales.md`.
 ## Références
 
 - [[atelier/rd/cahiers/registre-problemes]] — entries [2026-08-08], [2026-08-11]
-- `Graphe/generer-cartographie.py` — docstring v1.1 (lignes 5-65)
+- `atelier/rd/outillage/graphe/generer-cartographie.py` — docstring v1.1
+  (lignes 5-65 ; déplacé depuis `Graphe/` racine le 2026-08-31)
 - `CLAUDE.md` §VII — rule commune des manifestes
