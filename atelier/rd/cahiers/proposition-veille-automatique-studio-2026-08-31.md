@@ -351,7 +351,7 @@ Phase 6 — Sidy lit le cycle Choura, tranche (Cmd 12/13)
 
 ## 6. Questions ouvertes
 
-1. **Mots-clés supplémentaires** : ajouter des termes spécifiques à l'infrastructure Hermes (ex: `hermes agent`, `discord bot scaling`) ou rester sur les termes génériques ?
+1. ~~**Mots-clés spécifiques Hermes**~~ → **Résolu** (verdict Sidy 2026-08-31) : rester sur des termes génériques — l'objectif est d'intégrer tout élément qualitatif (outillage, théorique, base de code), pas seulement ce qui est étiqueté Hermes.
 2. **Seuil de stars** : 50 est-il pertinent, ou ajuster (ex: > 100 pour réduire le bruit) ?
 3. **Archivage** : les fiches non pertinentes sont-elles archivées (cmd 10) ou supprimées ?
 4. **Sandbox** : validation préalable de Sidy avant chaque clonage, ou autonomie Studio pour clonage (pas pour déploiement) ?
