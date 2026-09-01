@@ -10,6 +10,59 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] blocage | INF-14 : le jeton n'ouvre pas le compte détenteur ; le montage par proxy tombe
+
+Quatrième passe. Sidy dépose un jeton Netlify. Deux constats l'arrêtent net, tous deux
+établis par l'API et non déduits.
+
+**Le jeton n'ouvre pas le bon compte.** Il fonctionne — identité `sidyvision@gmail.com`
+— mais le compte a été **créé le jour même** et porte **zéro site**, dans une équipe
+unique `sidyvision-qgqrdly` (Free). Or `sidyvision.com` est bel et bien servi par
+Netlify : en-têtes `server: Netlify` et `x-nf-request-id`, DNS pointant sur les
+répartiteurs de Netlify. Un site à domaine propre suppose nécessairement un compte.
+**Le site est donc détenu par un autre compte** — autre adresse de courriel, ou compte
+ouvert par le tiers qui a réalisé la page. Ce n'est pas une hypothèse de repli : l'API
+ne voit pas le site, un point c'est tout.
+
+**Le montage par proxy tombe, pour une raison d'hébergeur.** Le site de préversion a été
+créé et déployé par l'API — empreintes SHA-1 des deux fichiers, téléversement, état
+`ready` : `instrument-tradition-primordiale.netlify.app`. Il répond **`HTTP 401`**.
+Netlify place désormais les sous-domaines `*.netlify.app` des comptes gratuits récents
+derrière une authentification (*edge-access*), indépendamment du contenu. Une réécriture
+`_redirects` vers cette origine hériterait du 401 : le montage prévu à l'étape 3 ne peut
+pas fonctionner.
+
+**Ce que cela ne remet pas en cause.** Le verdict de Sidy — un chemin,
+`sidyvision.com/instrument` — reste exécutable ; c'est le mécanisme qui change. Voie
+retenue : le rendu est **construit dans le site lui-même**, sous `/instrument/`. Un seul
+site, aucun proxy, aucune origine à authentifier — le site portant un domaine propre,
+l'*edge-access* ne s'y applique pas. L'étanchéité des deux dépôts est alors préservée
+**par la construction** et non par le rangement : le dépôt du site ne contient pas le
+rendu, il le récupère au build depuis `Sidyvision/instrument`, désormais public — donc
+sans le moindre identifiant, et strictement à sens unique. La commande de build est
+écrite au plan.
+
+Le 401 de la préversion n'est d'ailleurs pas un défaut **dans ce rôle** : le point 4 de
+l'Action PUBLICATION veut précisément qu'une préversion ne soit pas publique. Le site
+est conservé comme banc.
+
+**Ce qui a pu avancer sans le bon compte a avancé.** La sauvegarde (étape 0) était faite
+avant tout accès. Et le **critère 1 a été contrôlé après coup** : `sidyvision.com`
+resservi et comparé à la capture — SHA-256 identique, `8411bc96…35aa6`. Rien n'a été
+altéré, et c'est vérifié plutôt qu'affirmé.
+
+Le jeton reste déposé hors de la conversation, permissions resserrées en `600` (il avait
+été créé en `644`). Il sera révoqué à la clôture du chantier.
+
+INF-14 passe en `bloque` — une dépendance externe empêche d'avancer, ce qui est
+exactement la définition du statut. Table de synthèse recomptée : 48 chantiers, 6
+bloqués.
+
+**Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
+du dépôt. 0 erreur(s), 0 avertissement(s).`
+
+- **Commit** : à compléter ci-dessous
+
 ## [2026-09-01] instruction | INF-14 instruit : verdicts rendus, sauvegarde du site prise avant tout accès
 
 Troisième passe du jour. Sidy tranche les deux questions laissées ouvertes le matin, et

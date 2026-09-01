@@ -12,9 +12,26 @@ links:
 
 # INF-14 — plan
 
-> **Statut : `brouillon`** — en attente du visa de Sidy et de l'accès Netlify (proposé
-> par Sidy le 2026-09-01, non encore transmis). Aucune manipulation du site avant les
-> deux.
+> **Statut : `brouillon`** — en attente du visa de Sidy, et **bloqué sur un fait
+> matériel** : le jeton transmis n'ouvre pas le compte qui détient `sidyvision.com`
+> (voir *Blocage* ci-dessous). Aucune manipulation du site en l'état.
+
+## Blocage constaté le 2026-09-01 — le jeton n'ouvre pas le bon compte
+
+Le jeton fonctionne : l'API répond, l'identité est `sidyvision@gmail.com`. Mais le
+compte a été **créé le 2026-09-01** et porte **zéro site**, dans une équipe unique
+`sidyvision-qgqrdly` (Free). Or `sidyvision.com` est bien servi par Netlify — en-têtes
+`server: Netlify`, `x-nf-request-id`, DNS pointant sur les répartiteurs de Netlify — et
+un site à domaine propre suppose nécessairement un compte.
+
+**Conclusion, non supposition** : le site est détenu par un **autre compte Netlify** que
+celui du jeton. Vraisemblablement une autre adresse de courriel, ou un compte ouvert par
+un tiers ayant réalisé la page. Tant que le jeton du compte détenteur n'est pas
+disponible, les étapes 2, 3 et 5 ne peuvent pas commencer — non par prudence, mais parce
+que l'API ne voit pas le site.
+
+Ce qui a pu avancer sans lui a avancé : la sauvegarde (étape 0) et la préversion
+(étape 4) sont faites.
 
 ## Étape 0 — la sauvegarde d'abord, avant tout accès
 
@@ -61,28 +78,53 @@ créé, portant :
 Le site Netlify existant est alors rattaché à ce dépôt. À partir de là, il est
 redéployable par n'importe qui, depuis le serveur, sans clic — critère 5.
 
-## Étape 3 — servir `/instrument`
+## Étape 3 — servir `/instrument` : le montage par proxy est ÉCARTÉ
 
-Netlify sait servir un chemin depuis un **autre** site par réécriture. Fichier
-`_redirects` du dépôt du site :
+> **Amendement du 2026-09-01, à l'exécution.** Le plan prévoyait une réécriture
+> `_redirects` de `/instrument/*` vers un second site Netlify. **Éprouvé, cela ne
+> marche pas** — et c'est une contrainte de l'hébergeur, pas une erreur de montage.
+
+**Le constat.** Le site de préversion a été créé et déployé
+(`instrument-tradition-primordiale.netlify.app`, déploiement `ready`, les deux fichiers
+téléversés). Il répond **`HTTP 401`** : Netlify place désormais les sous-domaines
+`*.netlify.app` des comptes gratuits récents derrière une authentification
+(*edge-access*), quel que soit le contenu. Une réécriture proxy vers cette origine
+hériterait du 401 : le montage ne peut pas fonctionner.
+
+**Ce que cela invalide, et ce que cela ne touche pas.** Le verdict de Sidy — un chemin,
+`sidyvision.com/instrument` — reste exécutable. C'est le *mécanisme* qui change, pas
+l'adresse. Deux voies subsistent :
+
+1. **Le rendu est déployé *dans* le site lui-même**, sous `/instrument/`. Un seul site
+   Netlify, aucun proxy, aucune origine à authentifier. Le site portant déjà un domaine
+   propre, l'*edge-access* ne s'y applique pas. **Voie retenue** : c'est la seule qui
+   satisfasse le verdict sans dépendre d'une origine verrouillée.
+   L'étanchéité des dépôts est préservée par la **construction**, non par le rangement :
+   le dépôt du site ne contient pas le rendu, il le **récupère au build** depuis le
+   dépôt `Sidyvision/instrument`, désormais **public** — donc sans le moindre
+   identifiant, et strictement à sens unique.
+2. Attacher un domaine propre au site de rendu (`instrument.sidyvision.com`) lèverait
+   aussi le 401 — mais c'est le sous-domaine que Sidy a écarté. Non retenu.
+
+**Commande de construction du site**, sans secret ni dépendance :
 
 ```
-/instrument/*  https://<site-instrument>.netlify.app/:splat  200
-/instrument    /instrument/                                  301
+mkdir -p instrument && curl -sSL \
+  https://raw.githubusercontent.com/Sidyvision/instrument/main/src/index.html \
+  -o instrument/index.html && curl -sSL \
+  https://raw.githubusercontent.com/Sidyvision/instrument/main/src/wiki-manifest.json \
+  -o instrument/wiki-manifest.json
 ```
 
-Le code `200` est une réécriture, non une redirection : l'URL affichée reste
-`sidyvision.com/instrument/`. La seconde ligne garantit la barre oblique finale, dont
-dépend le `fetch` relatif du manifeste (contrainte INF-13).
+Les deux fichiers restent **frères de dossier** (contrainte INF-13) et l'URL
+`/instrument/` conserve sa barre oblique finale, dont dépend le `fetch` relatif.
 
-Ce montage garde les deux dépôts **étanches** : le site ne contient pas le rendu, le
-dépôt de rendu ne contient pas le site. Le joint est invisible à l'usage et
-intégralement documenté dans git — article 6 de la convention Sashimono.
+## Étape 4 — le site de préversion
 
-## Étape 4 — le site du rendu
-
-Un site Netlify lié à `Sidyvision/instrument` : pas de commande de construction,
-répertoire publié `src/`. Chaque poussée sur `main` redéploie (critère 4).
+**Fait le 2026-09-01** : `instrument-tradition-primordiale.netlify.app`, déploiement par
+l'API (empreintes SHA-1 des fichiers, téléversement, état `ready`). Il est conservé
+comme **banc de préversion** — son 401 n'est pas un défaut dans ce rôle : le protocole
+veut précisément qu'une préversion ne soit pas publique (Action PUBLICATION, point 4).
 
 ## Étape 5 — vérification, puis seulement, mise en service
 
