@@ -51,7 +51,7 @@ Rien n'a été publié pendant cette passe : les poussées ne touchaient que `ho
 **Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
 du dépôt. 0 erreur(s), 0 avertissement(s).`
 
-- **Commit** : à compléter ci-dessous
+- **Commit** : 4a2a82a
 
 ## [2026-09-01] automatisation | Publication automatique du rendu — et le réflexe qu'il fallait écarter
 
