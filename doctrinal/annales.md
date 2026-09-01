@@ -9,6 +9,61 @@ updated: 2026-08-31
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] archivage | Corps des définitions du Kitāb al-Taʿrīfāt — 220 définitions versées
+
+Transcription intégrale du corps des définitions d'al-Jurjānī à partir des 54 clichés
+distincts de `raw/Transcription Jurjani/` (57 fichiers, 3 doublons d'extension ; le
+dossier `raw/Downloads/Transcription Jurjani/` en est un duplicat exact, vérifié par
+empreintes). Fiche créée : `doctrinal/sources/kitab-tarifat-corps-transcription.md` —
+**52 pages, 205 définitions**, transcrites intégralement, y compris les définitions de
+grammaire, de prosodie et de droit de détail (consigne du 2026-08-30 : transcrire tout
+un cliché, jamais résumer).
+
+**Les pages ne forment pas un intervalle continu** : ce sont des pages photographiées au
+fil des besoins (p. 41 à 493, avec les ouvertures des lettres Râʾ et Nûn non paginées).
+Une lacune entre deux numéros de définition n'est donc pas un défaut de transcription.
+L'inventaire page → définitions → cliché est porté en tête de la fiche.
+
+**Annexe à provenance distincte et plus faible** : 15 définitions (0561-0567, 1235-1242)
+reprises de `raw/Jurjani (définitions).md`, transcription antérieure dont les pages
+(177-178, 336-337) **ne figurent pas parmi les clichés**. Le texte y portait des
+altérations de reconnaissance optique (`al-qaba` pour *al-qabḍ*, `Mank` pour Mâlik,
+`Ion Hanbal` pour Ibn Ḥanbal) ; les translittérations ont été normalisées sur la
+convention de l'édition (p. 9-10) et les corrections de noms propres signalées entre
+crochets. **Collationnement sur l'exemplaire physique à faire par Sidy** (§VII, levée du
+`to-source`).
+
+**Effet sur un dossier ouvert.** Les déf. **0563** (*al-ḥâl*) et **1237** (*al-qabḍ* /
+*al-basṭ*) classent explicitement qabḍ et basṭ parmi les *aḥwāl* et énoncent la règle qui
+fait passer un *ḥâl* durable au rang de *maqâm*. Le dossier
+`doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique.md` est mis
+à jour : le **volet classement** de l'hypothèse de Sidy est désormais **reçu d'une
+autorité textuelle**, non inféré. Le joint qabḍ/basṭ ↔ upaguru, lui, **reste ouvert en
+🔍 `kari-kumi`** — c'est un lien entre formes traditionnelles distinctes (Cmd 3) et le
+verdict appartient à Sidy (Cmd 12).
+
+**Leçon conservée, non effacée** (règle du 2026-08-31 : conserver l'erreur et instruire
+la correction). Le refus, la veille, d'argumenter à partir des cooccurrences de l'index
+d'al-Jurjānī est maintenu dans la fiche, avec ce que le versement lui a appris :
+l'index pointait vers la bonne conclusion — `basṭ` et `maqâm` figuraient à l'entrée 563
+parce que la déf. 0563 les nomme — mais une cooccurrence d'index ne démontrait rien ;
+elle indiquait *où regarder*, ce qui est exactement l'usage que §VII assigne aux index.
+Le pas décisif n'a pas été de mieux raisonner sur l'index, mais d'aller lire le texte.
+
+Fiches touchées : `doctrinal/sources/kitab-al-tarifat-jurjani.md` (§ « Corps des
+définitions », `updated`), `doctrinal/sources/kitab-tarifat-index-transcription.md`
+(lien croisé), `doctrinal/index.md`, le dossier discernement.
+
+Vérifications : juge de paix dédié `atelier/rd/outillage/verifier-transcription-jurjani.py`
+— **RAW : `54/54 clichés cités, 0 inversion page/définition, 0 caractère invisible,
+RESULTAT : 0 anomalie(s)`** ; `verifier-invariants.py` → **208 erreurs, 2 avertissements**,
+identique à la référence prise sur arbre propre (`git stash -u`) — **aucune régression** ;
+graphe régénéré. Hygiène Unicode (Cmd 15) : propre — y compris le script lui-même, dont
+la liste de caractères interdits est construite par point de code et jamais écrite en clair.
+
+- **Commit** : b17def0
+
+
 ## [2026-08-31] versement + ouverture | *CMM* ch. IV versé ; dossier qabḍ/basṭ ↔ upaguru ouvert en 🔍
 
 Sur renvoi de Sidy : « ces deux notions relèvent de l'initiation et de ses divers
