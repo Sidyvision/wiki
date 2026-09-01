@@ -75,15 +75,15 @@ modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
 | Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
 |---|---|---|---|---|---|
 | `INS` Instrument | 10 | — | 1 | 3 | **14** |
-| `INF` Infrastructure & agents | 6 | 3 | 1 | 3 | **13** |
+| `INF` Infrastructure & agents | 7 | 3 | 1 | 2 | **13** |
 | `OUT` Outillage & scripts | 5 | — | 1 | — | **6** |
 | `BIB` Bibliothèque | 1 | — | 1 | — | **2** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 2 | **5** |
 | `DOC` Doctrinal | 4 | — | — | 1 | **5** |
-| **Total** | **30** | **3** | **5** | **9** | **47** |
+| **Total** | **31** | **3** | **5** | **8** | **47** |
 
-**Ce que ce tableau dit d'abord** : 9 chantiers n'attendent **que** la décision de
+**Ce que ce tableau dit d'abord** : 8 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
 entre nos mains (une PR amont, une prise de vue, un texte à localiser). C'est là, et non
 dans le nombre total, que se lit ce qui peut avancer aujourd'hui.
@@ -146,7 +146,7 @@ non dépouillées dans cette passe → §8.*
 | INF-06 | Monitoring de charge en série temporelle — seul un instantané quotidien existe | `ouvert` | spécifier la série | jalon du 2026-08-20, P1.2 | — | 2026-08-20 |
 | INF-07 | Fonction réelle du processus `omniroute` (1040 Mo de RAM) | `en-cours` | partiellement documenté depuis (migration 2026-08-26, incident 2026-08-27) — reste à décrire le rôle nominal | [[atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen]] ; [[atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation]] | — | jalon du 2026-08-20, P1.1 |
 | INF-08 | Reproduction contrôlée de l'incident de robustesse persona-LLM | `ouvert` | reproduire, ou consigner l'abandon | [[atelier/rd/outillage/robustesse-documents-persona-llm]] | — | jalon du 2026-08-20, P4.10 |
-| INF-09 | Levier d'action du cycle Choura : le dispositif produit des perspectives, mais sans contribution de Sidy le cycle reste consultatif | `attente-verdict` | Sidy décide du hook de contribution | signalé par le Gardien dans le cycle du 2026-09-01 (cf. Domaine Réservé, dossier `choura/`) | — | 2026-09-01 |
+| INF-09 | Levier d'action du cycle Choura : le dispositif produit des perspectives, mais sans contribution de Sidy le cycle reste consultatif — **cycle mis en pause par Sidy (2026-09-01, dit en session)** | `ouvert` | reprise sur nouvelle décision de Sidy (hook de contribution, ou abandon) — verdict `attente-verdict` rendu : pause, pas de hook pour l'instant | signalé par le Gardien dans le cycle du 2026-09-01 (cf. Domaine Réservé, dossier `choura/`) | — | 2026-09-01 |
 | INF-10 | Contrôle anti-fabulation `coherence-infrastructure-brute` — second job cron en échec, non documenté | `ouvert` | diagnostiquer | [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-08-18]` | — | 2026-08-18 |
 | INF-11 | Continuité des tâches et de l'information entre Claude Code, Hermes Terminal et Discord — angle mort structurel (un cron « créé » le 2026-08-17 n'existait pas) | `ouvert` | c'est le motif d'existence du champ `infra_verif` ; reste à couvrir le passage d'information | registre des problèmes, entrée `[2026-08-17]` | — | 2026-08-17 |
 | INF-12 | Positions zodiacales 5, 8 et 12 des agents : les douze brouillons existent sur disque (2026-08-15), mais le compte-rendu de chantier les donne « non traitées, en attente de verdict » — contradiction non levée | `attente-verdict` | confronter brouillons et verdict | `atelier/rd/cahiers/brouillons-extension-zodiacale/` ; jalon du 2026-08-20, P4.9 | — | 2026-08-11 |
