@@ -21,6 +21,17 @@
 - `etudes-de-cas/` — études de maisons/marques/structures (RECHERCHE comparative).
 - `projets/` — **Résiduel** : stubs `deprecated` uniquement, 16 fiches migrées vers
   `rd/` + `album-personnel` (vers `label/`) le 2026-08-08. Ne plus y créer de fiches.
+- **`rd/instrument/` et le dépôt frère (scission du 2026-09-01, chantier INF-13)** :
+  ce dossier garde la **doctrine, l'architecture, la donnée et le producteur** —
+  fiches v0.1/v0.2/v0.3, jalons, mises en regard, `instrument-donnees.yaml`,
+  `assets-instrument/`, les triptyques `ins-*/` ; `generer-manifeste.py` reste en
+  `rd/outillage/`. Le **rendu** (interface, code Three.js) vit au dépôt frère
+  `Sidyvision/instrument` (privé). Ligne de coupe : producteur/consommateur, jamais
+  Instrument/reste — c'est le sens unique `dépôt → manifeste → interface` du §VII
+  racine (règle 5) exprimé en infrastructure. Le manifeste est **poussé d'ici**,
+  jamais tiré de là-bas ; le dépôt frère n'a aucun droit d'écriture sur ce dépôt et
+  n'y établit aucune correspondance (Cmd 3, Cmd 12). Aucune fiche n'a été supprimée :
+  `instrument-prototype.html` subsiste en stub `deprecated` avec pointeur (Cmd 10).
 - `rd/` — RECHERCHE & DÉVELOPPEMENT (pôle ouvert 2026-08-08) : `instrument/` ·
   `infrastructure/` · `audio/` · `outillage/` · `cahiers/` · `bibliotheque/`
   (2026-08-22) · `veille/` (2026-08-18) · `incidents/` (2026-08-22) ·
