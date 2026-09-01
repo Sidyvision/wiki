@@ -17,6 +17,62 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] amendement | §I — Levée de la clôture économique PRODUCTION/INTÉGRATION
+
+**Verdict Sidy**, en session, sur signalement fait à la clôture de la session
+précédente (fiche `atelier/rd/infrastructure/cartographie-routing-infrastructure.md`,
+produite côté INTÉGRATION alors même que §I l'interdisait en principe).
+
+**Fait déclencheur.** L'architecture des « postes de travail » (§I) distinguait
+PRODUCTION (lecture lourde, rédaction — app conversationnelle au forfait) et
+INTÉGRATION (mécanique seule — outil CLI serveur) sur la base d'une **prémisse
+économique unique** : Sidy ne parvenait plus à authentifier Claude Code (Terminal)
+avec son compte Claude Pro, et tenait pour acquis qu'Anthropic avait fait basculer
+l'accès à Claude Code du OAuth (forfait) vers l'API seule (facturation à l'usage,
+jugée trop coûteuse pour absorber de la rédaction côté intégration). Sidy a pu de
+nouveau s'authentifier avec son compte Pro — la prémisse ne tient plus.
+
+**Verdict, mot pour mot** : à la question de savoir si la distinction
+PRODUCTION/INTÉGRATION gardait une raison d'être indépendante du coût (discipline de
+workflow, app iPad seule, mode pédagogique), Sidy a tranché : **« coût seul
+justifiait la clôture »** — pas de raison résiduelle invoquée. La clôture tombe donc
+avec sa seule prémisse, pas seulement assouplie.
+
+**Changement effectué (§I)** :
+- Table des postes : colonne « Règle de coût » renommée « Régime » — son contenu
+  n'oppose plus PRODUCTION/INTÉGRATION sur une base de coût. La ligne INTÉGRATION
+  porte désormais explicitement : lecture lourde et production de contenu
+  autorisées, **sur consigne directe de Sidy en session** (pas d'initiative autonome
+  au long cours sans validation).
+- « Règle économique et fonctionnelle absolue » retirée en tant que telle, remplacée
+  par un paragraphe qui nomme le fait déclencheur, cite le verdict, et pointe vers la
+  présente entrée pour la lettre complète.
+- Ce qui ne change **pas**, énuméré explicitement pour éviter toute sur-lecture du
+  verdict : le principe « scripter le déterministe, réserver le modèle au jugement »
+  (indépendant du coût) ; le sas `_inbox/`/`UPDATES.md` comme voie normale des lots
+  PRODUCTION (la levée ajoute une voie, n'en retire aucune) ; Cmd 6 (pas d'écriture
+  sans plan présenté) et Cmd 13 (porte humaine sur ce qui engage) pleins et entiers —
+  la levée porte sur la **capacité** de rédiger côté intégration, pas sur la
+  **dispense** de validation humaine.
+
+**Ce qui reste inchangé ailleurs** : « Mode pédagogique obligatoire » (§I, fin), le
+statut de CONSULTATION et des AGENTS DE FONCTION, et toute règle des `CLAUDE.md`
+locaux de circuit qui ne dérive pas de cette clôture.
+
+**Portée** : transversale (§I vit à la racine, Cmd 14). Aucun `CLAUDE.md` local ne
+cite la clôture de coût nommément — aucune modification requise ailleurs.
+
+**Réversibilité (Cmd 10)** : la clôture se rétablit d'elle-même si le fait qui la
+lève cesse d'être vrai (accès Pro/OAuth de nouveau indisponible, ou de nouveau
+facturé à l'usage) — la règle a toujours été fondée sur un fait vérifiable, pas sur
+un principe fixe. Pas de snapshot `CLAUDE.md.bak-*` créé pour cet amendement
+(pratique réservée aux restructurations majeures, cf. `CLAUDE-v2-monolithique_2026-08-12.md`
+et le `.bak-2026-08-22-pre-deplacement-bibliotheque`) — l'historique git du fichier
+suffit à la réversibilité d'un amendement de cette taille, comme pour les deux
+amendements précédents du 2026-09-01.
+
+- **Commit** : (à consigner à la clôture — voir entrée d'annales meta correspondante)
+
 ## [2026-09-01] amendement | §VII — Épreuve des contrôles
 
 **Verdict Sidy**, en clôture de la session du 2026-09-01, sur signalement de la machine.
