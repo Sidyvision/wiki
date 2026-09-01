@@ -9,13 +9,18 @@ tags:
 - pont
 - continuite
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-01
 sources: []
 links:
 - '[[atelier/rd/cahiers/registre-problemes]]'
 ---
 
 # Bilan R&D 2026-08-15 — pont inter-agents
+
+> **Jalon daté du 2026-08-15 — ne décrit pas l'état courant.** Ce bilan est la photographie de la période 2026-08-08 → 2026-08-15. Il est conservé tel quel.
+> L'état **vivant** des chantiers (tous pôles, doctrine incluse) est tenu depuis le
+> 2026-09-01 dans [[atelier/rd/registre-chantiers]], qui cite la présente fiche comme
+> décision d'ouverture des chantiers qu'elle a ouverts. Corps non retouché (Cmd 10).
 
 > **Objet** : document de synthèse destiné à tout agent (Hermes terminal,
 > Claude Code, ou autre) qui reprendrait le fil des travaux R&D sans avoir

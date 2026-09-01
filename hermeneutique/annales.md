@@ -2,7 +2,7 @@
 title: Annales du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-30
+updated: 2026-09-01
 ---
 
 # Annales du circuit Herméneutique

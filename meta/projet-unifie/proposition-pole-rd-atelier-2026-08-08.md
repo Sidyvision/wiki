@@ -4,14 +4,27 @@ type: proposition-structure
 statut: brouillon
 cible: "CLAUDE.md — §II, §V.a, §VI ; atelier/ ; clôt la question ouverte de la v3 du lot Kojima (liens_atelier)"
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-09-01
 ---
 
 # Proposition — le pôle R&D de l'atelier
 
-> **Statut** : `brouillon`, non visé. Rien de ce qui suit n'est exécuté ; c'est
-> un plan présenté avant toute écriture (Cmd 6), intégralement réversible
-> (Art. 5). Le verdict d'architecture appartient à Sidy (Cmd 13).
+> **Statut au dépôt de la fiche (2026-08-08)** : `brouillon`, non visé. Rien de ce
+> qui suit n'est exécuté ; c'est un plan présenté avant toute écriture (Cmd 6),
+> intégralement réversible (Art. 5). Le verdict d'architecture appartient à Sidy
+> (Cmd 13).
+>
+> **État au 2026-09-01 — VALIDÉE ET EXÉCUTÉE le jour même.** Le verdict de Sidy
+> (Option C, nom `rd/`, phase 1 partielle) est tombé le 2026-08-08 et le pôle a été
+> ouvert dans la foulée : `atelier/rd/index.md` en porte la charte, `atelier/CLAUDE.md`
+> la structure, 16 fiches ont été migrées de `atelier/projets/` fiche par fiche
+> (stubs `deprecated` avec pointeur, Cmd 10), et le pôle compte aujourd'hui neuf
+> sous-dossiers actifs. Entrée d'annales : `atelier/annales.md`, `[2026-08-08]`,
+> commit `3c1b3d8`. Le champ `statut: brouillon` du frontmatter et le paragraphe
+> ci-dessus n'ont jamais été retouchés après exécution — ils sont **conservés tels
+> quels** (Cmd 10) et ne décrivent plus que l'état du jour de leur rédaction.
+> Le champ frontmatter lui-même est laissé en l'état : aucun vocabulaire de `statut:`
+> n'est établi pour les propositions, l'arrêter relève de Sidy (point ouvert).
 
 ---
 

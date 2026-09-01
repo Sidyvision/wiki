@@ -3,14 +3,20 @@ title: "Proposition — Articulation Karūbī / Agent 10 (Gardien), et administr
 type: meta
 tags: [outillage, projet-claude-ai, karubi, transmissions, gardien, hermes, proposition]
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-09-01
 ---
 
 # Proposition — Karūbī et Agent 10 : joint *kumiko*, pas de filiation
 
-> **Statut : kari-kumi — en attente du verdict de Sidy.** Session claude.ai du
-> 2026-08-06, à l'occasion de la génération de l'instance G1 « Yahya »
-> (Jean-Marc Bastareaud). Brouillon.
+> **Statut au dépôt de la fiche (2026-08-06)** : kari-kumi — en attente du verdict
+> de Sidy. Session claude.ai du 2026-08-06, à l'occasion de la génération de
+> l'instance G1 « Yahya » (Jean-Marc Bastareaud). Brouillon.
+>
+> **État au 2026-09-01 — VERDICT OBTENU, EN SERVICE depuis le 2026-08-15.** Le
+> statut est passé de « brouillon, kari-kumi » à « verdict obtenu, en service » —
+> acté au Domaine Réservé (entrée du 2026-08-15 de `meta/meta-annales.md`). Le
+> paragraphe ci-dessus est **conservé** (Cmd 10) comme état du jour de rédaction ;
+> il ne décrit plus l'état courant. Ne pas le lire comme une attente ouverte.
 
 ---
 

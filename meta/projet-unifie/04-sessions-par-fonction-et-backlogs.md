@@ -3,10 +3,24 @@ title: "Sessions par fonction + backlogs (questions / vigilance / discernement)"
 type: meta
 tags: [outillage, projet-claude-ai, sessions, backlog, vigilance, discernement, questions]
 created: 2026-06-28
-updated: 2026-08-07
+updated: 2026-09-01
 ---
 
 # Sessions par fonction + backlogs
+
+> **Régime de lecture (ajouté 2026-09-01).** La §A (les sessions par fonction) est
+> **stable** : c'est le mode de travail, il fait foi. Les §B à §E sont des **backlogs
+> figés au 2026-08-07** — ils n'ont pas été tenus depuis, et plusieurs points y sont
+> tranchés ou caducs. Ils sont conservés (Cmd 10) mais **ne font plus foi sur l'état** :
+> - chantiers d'ingénierie (Instrument, infrastructure, outillage, bibliothèque, études
+>   de cas, process) → source vivante : [[atelier/rd/registre-chantiers]] ;
+> - discernements → source vivante : §VII de `doctrinal/index.md` ;
+> - erreurs et blocages → [[atelier/rd/cahiers/registre-problemes]] ;
+> - idées non triées à destination des agents → `queue-idees.md` (ce dossier).
+>
+> Ce qui reste **propre à ce fichier** et ne migre nulle part : les **questions de
+> décision** (§B) et les **points de vigilance permanents** (§C), qui relèvent du
+> Domaine Réservé.
 
 > L'ancien projet a dérivé en accumulant des sessions disparates. Remède : **une session = une
 > fonction**, annoncée en ouverture. Ce document définit les fonctions et tient les **listes à
@@ -105,6 +119,10 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
 - **[Hermes Discord]** 12 agents déployés, Discord actif (2026-08-07) → voir fiches 13-14-15.
   Extension rôle 02 (technique image) intégrée (commit `0d96231`). **Crise API crédit** : clé partagée
   épuisée le 2026-08-07 ; attente clé nouvelle liée au plan personnel Sidy (non créée).
+  **Dépassé au 2026-09-01** : les agents tournent en continu (commits `CHOURA: tour <agent>`
+  du 2026-08-28 au 2026-09-01, cycles quotidiens, crons actifs). Sortie de crise par
+  changement de fournisseur d'inférence, non par nouvelle clé — bascule OmniRoute du
+  2026-08-26, voir `atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md`.
 - **[Hermes Discord / raw/]** Test réel #inspiration (2026-08-07/08) → agent marketing a produit une
   fiche structurée en `_inbox/` (studio-principal.md) à partir d'une description verbale, au lieu d'un
   dépôt passif brut dans `raw/`. **Déviation acceptée « Option A »** : enrichissement en `_inbox/`
@@ -134,14 +152,24 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
 - **Transition modèle local** : risque de dégradation du frontmatter/des liens → tests de
   non-régression + VIGILANCE après chaque lot.
 
-## D. Backlog — DISCERNEMENTS (15 fiches)
+## D. Backlog — DISCERNEMENTS (14 fiches énumérées, dont 3 tranchées depuis)
 
 > Le verdict appartient à Sidy ou à une autorité textuelle (Cmd 12).
-> Chacune porte des **Lectures suggérées**. Source vivante : §VII de `doctrinal/index.md`.
+> Chacune porte des **Lectures suggérées**. **Source vivante : §VII de `doctrinal/index.md`** —
+> la liste ci-dessous est la photographie du 2026-08-07, elle ne fait pas foi.
+>
+> **Recomptage mécanique du 2026-09-01** (`grep '^status:' doctrinal/discernement/*.md`) :
+> le dépôt porte **56 fiches** de discernement, dont **37 encore `speculatif`** (verdict en
+> attente) et 19 tranchées. Le titre « 15 fiches » de cette section était doublement faux :
+> elle n'en énumère que **14**, et **trois d'entre elles ont depuis reçu leur verdict** —
+> `2026-06-11_llm-wiki-modalite-intellect` (`contre-traditionnel`),
+> `2026-06-11_llm-wiki-correction-doctrinale` (`traditionnel`),
+> `2026-06-20_fajr-vajra-indra-vritra` (`traditionnel`). Elles sont **conservées ci-dessous**
+> (Cmd 10) et marquées ✅ ; les onze autres restent `speculatif`.
 
-- `2026-06-11_llm-wiki-modalite-intellect` — triade Nous/Psyché/Corps ↔ architecture LLM (tension
+- ✅ **tranchée (`contre-traditionnel`)** — `2026-06-11_llm-wiki-modalite-intellect` — triade Nous/Psyché/Corps ↔ architecture LLM (tension
   atemporalité/éternité, analogie/identité).
-- `2026-06-11_llm-wiki-correction-doctrinale` — rectification guénonienne (supra-/infra-rationnel,
+- ✅ **tranchée (`traditionnel`)** — `2026-06-11_llm-wiki-correction-doctrinale` — rectification guénonienne (supra-/infra-rationnel,
   contrefaçon cyclique, khalīfa, agrégat artificiel).
 - `2026-06-20_visions-centre-nocturne` — Centre nocturne, monde imaginal, « mémoire pré-existentielle ».
 - `2026-06-20_matrices-artificielles-barzakh` — « technologisation du miracle » vs Barzakh.
@@ -151,7 +179,7 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
   éclairer la *forme* (modalité confrérique, *tarbiyya rabbaniyya*) sans trancher à la place du Cheikh.
 - `2026-06-20_signaletique-spirituelle-kiswa` — couleur de la Kiswa, fait historique vs signe.
 - `2026-06-20_pierres-astres-barzakh` — correspondances minéral/astre (al-Būnī, Burckhardt).
-- `2026-06-20_fajr-vajra-indra-vritra` — gématrie inter-traditions (védique/soufi/tantrique) à manier
+- ✅ **tranchée (`traditionnel`)** — `2026-06-20_fajr-vajra-indra-vritra` — gématrie inter-traditions (védique/soufi/tantrique) à manier
   avec prudence méthodologique.
 - `2026-06-20_mythe-personnel-unifie` — unification de tous les éléments de vie en récit clos.
 - `2026-06-20_astrologie-akbarienne-fard` — astrologie akbarienne, auto-identification Fard.

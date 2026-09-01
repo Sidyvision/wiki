@@ -4,12 +4,17 @@ type: meta
 statut: synthese
 tags: [instrument, rd, bilan, pistes-developpement, feuille-de-route]
 created: 2026-08-20
-updated: 2026-08-25
+updated: 2026-09-01
 sources: []
 links: ["[[atelier/rd/instrument/instrument-feuille-de-route-v2]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]", "[[atelier/rd/instrument/spec-technique-axe-38-degres]]", "[[atelier/rd/instrument/angles-de-l-espace]]", "[[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]]", "[[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16]]", "[[atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint]]", "[[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[atelier/rd/cahiers/registre-problemes]]", "[[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]]"]
 ---
 
 # État d'avancement et pistes de développement — Instrument de la Tradition Primordiale
+
+> **Jalon daté du 2026-08-20 — ne décrit pas l'état courant.** Cette fiche est la photographie du chantier de l'Instrument au 2026-08-20 (points rayés jusqu'au 2026-08-25). Elle ne couvre pas les chantiers ouverts depuis — mise en regard *Majma' al-Bahrayn* (2026-08-29), réseau des nâdîs et unification des axes (2026-08-30), figuration de l'incommensurable (2026-08-30).
+> L'état **vivant** des chantiers (tous pôles, doctrine incluse) est tenu depuis le
+> 2026-09-01 dans [[atelier/rd/registre-chantiers]], qui cite la présente fiche comme
+> décision d'ouverture des chantiers qu'elle a ouverts. Corps non retouché (Cmd 10).
 
 ## Contexte de cette fiche
 

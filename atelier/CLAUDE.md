@@ -22,7 +22,10 @@
 - `projets/` — **Résiduel** : stubs `deprecated` uniquement, 16 fiches migrées vers
   `rd/` + `album-personnel` (vers `label/`) le 2026-08-08. Ne plus y créer de fiches.
 - `rd/` — RECHERCHE & DÉVELOPPEMENT (pôle ouvert 2026-08-08) : `instrument/` ·
-  `infrastructure/` · `audio/` · `outillage/` · `cahiers/`. Charte : `rd/index.md`.
+  `infrastructure/` · `audio/` · `outillage/` · `cahiers/` · `bibliotheque/`
+  (2026-08-22) · `veille/` (2026-08-18) · `incidents/` (2026-08-22) ·
+  `citadelle-du-sham/` (2026-08-22). Charte : `rd/index.md`. Carte vivante des
+  chantiers : `rd/registre-chantiers.md` (ouvert 2026-09-01).
   Finalité de **souveraineté** : consignation systématique de l'infrastructure
   globale hardware/software, en vue de son entretien, de son développement
   qualitatif, de son optimisation à mesure, et de l'émancipation progressive de

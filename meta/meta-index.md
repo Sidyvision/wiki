@@ -2,7 +2,7 @@
 title: "meta-index — hub du Domaine Réservé"
 type: meta
 created: 2026-08-09
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # meta-index — hub du Domaine Réservé (`meta/`)
@@ -113,10 +113,24 @@ updated: 2026-08-31
 - [[meta/projet-unifie/chatgpt-export-2026-05-10|Export de données ChatGPT (2026-05-10)]]
 - [[meta/projet-unifie/directive-discernement-domaines|Directive de discernement des domaines (forme / principe)]]
 - [[meta/projet-unifie/framework-etude-de-cas|Framework d'étude de cas — maisons, marques, structures]]
-- [[meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06|Proposition — Articulation Karūbī / Agent 10]]
-- [[meta/projet-unifie/proposition-pole-fiqh-2026-07-06|Proposition — Pôle Fiqh, double face du Gardien]]
-- [[meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08|Proposition — le pôle R&D de l'atelier]]
+- [[meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06|Proposition — Articulation Karūbī / Agent 10]] (verdict obtenu 2026-08-15, en service)
+- [[meta/projet-unifie/proposition-cycle-consultation-choura-2026-08-27|Proposition — Cycle de Consultation (الشورى) entre les 12 agents]] (validée, exécutée)
+- [[meta/projet-unifie/proposition-discernement-image-organique-2026-08-27|Proposition — Image organique du Discernement]] (validée, exécution partielle : gabarit seul)
+- [[meta/projet-unifie/proposition-pole-fiqh-2026-07-06|Proposition — Pôle Fiqh, double face du Gardien]] (dépréciée, supersédée par le Pôle Usûl)
+- [[meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08|Proposition — le pôle R&D de l'atelier]] (validée, exécutée le 2026-08-08)
+- [[meta/projet-unifie/proposition-pole-usul-2026-08-27|Proposition — Pôle Usûl]] (validée, exécutée)
+- [[meta/projet-unifie/proposition-queue-taches-2026-08-27|Proposition — Queue de tâches et déploiement aux agents]] (validée, exécutée)
+- [[meta/projet-unifie/queue-idees|Queue de tâches — idées en attente de déploiement aux agents]] (dispositif vivant, ouvert 2026-08-27)
 - [[meta/projet-unifie/triage-chatgpt-export|Triage export ChatGPT (140 conversations)]]
+
+### choura/ — cycles de Consultation (dispositif vivant, ouvert 2026-08-27)
+
+- [[meta/projet-unifie/choura/cycle-2026-08-28|Cycle de Consultation — 2026-08-28]]
+- [[meta/projet-unifie/choura/cycle-2026-08-30|Cycle de Consultation — 2026-08-30]]
+- [[meta/projet-unifie/choura/cycle-2026-08-31|Cycle de Consultation — 2026-08-31]]
+- [[meta/projet-unifie/choura/cycle-2026-09-01|Cycle de Consultation — 2026-09-01]]
+- [[meta/projet-unifie/choura/orchestrateur/README|Choura — orchestrateur]]
+- [[meta/projet-unifie/choura/hook-contribution-sidy/README|Choura — hook de contribution de Sidy]]
 
 ### hermes-prompts/ (13 rôles + note)
 
@@ -135,9 +149,31 @@ updated: 2026-08-31
 - [[meta/projet-unifie/hermes-prompts/13-librarian-archivist|Rôle — Librarian & Archivist (déprécié, fusionné dans 08)]] (ouvert 2026-08-22, fusionné 2026-08-24)
 - [[meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03|Note d'optimisation — intégration Hermes Agent]]
 
+#### mandats/ (un mandat opératoire par rôle ; le rôle 08 en porte trois, les rôles 09 et 10 deux)
+
+- [[meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/mandats/ar-music-artistic-direction|Mandat — A&R / Music Artistic Direction]]
+- [[meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/mandats/visual-editorial-artistic-direction|Mandat — Visual & Editorial Artistic Direction]]
+- [[meta/projet-unifie/hermes-prompts/03-production-manager/mandats/production-manager|Mandat — Production Manager]]
+- [[meta/projet-unifie/hermes-prompts/04-administration-legal/mandats/administration-legal|Mandat — Administration & Legal]]
+- [[meta/projet-unifie/hermes-prompts/05-accounting-management/mandats/accounting-management|Mandat — Accounting & Management]]
+- [[meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution|Mandat — Distribution]]
+- [[meta/projet-unifie/hermes-prompts/07-marketing-communication/mandats/marketing-communication|Mandat — Marketing & Communication]]
+- [[meta/projet-unifie/hermes-prompts/08-publication-site/mandats/site-orchestration|Mandat — Site Orchestration]]
+- [[meta/projet-unifie/hermes-prompts/08-publication-site/mandats/bibliothecaire|Mandat — Bibliothécaire (fusionné depuis le rôle 13)]]
+- [[meta/projet-unifie/hermes-prompts/08-publication-site/mandats/veille-referencement|Mandat — Veille référencement]]
+- [[meta/projet-unifie/hermes-prompts/08-publication-site/README|Rôle 08 — README du dossier]]
+- [[meta/projet-unifie/hermes-prompts/08-publication-site/deployer-prompt-agent|Rôle 08 — déploiement du prompt d'agent]]
+- [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/studio-sound-engineer|Mandat — Studio Sound Engineer]]
+- [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/infrastructure-veille|Mandat — Infrastructure & veille]]
+- [[meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/protocol-guardian|Mandat — Protocol Guardian]]
+- [[meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/veille-protocole|Mandat — Veille protocole]]
+- [[meta/projet-unifie/hermes-prompts/11-fanzine-editor/mandats/fanzine-editor|Mandat — Fanzine Editor]]
+- [[meta/projet-unifie/hermes-prompts/12-commerce-profitability/mandats/commerce-profitability|Mandat — Commerce & Profitability]]
+
 ### hermes-skills/
 
 - [[meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes|Spécification — skill Hermes KARUBI]]
+- [[meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0|Spécification — skill Karūbī, actualisation G0]]
 
 ## Fiches de premier niveau (`meta/`)
 

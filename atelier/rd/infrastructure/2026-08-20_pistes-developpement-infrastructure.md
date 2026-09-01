@@ -4,12 +4,17 @@ type: infrastructure
 statut_experience: exploratoire
 tags: [rd, infrastructure, bilan, pistes-developpement]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-01
 sources: []
 links: ["[[atelier/rd/index]]", "[[atelier/rd/cahiers/bilan-2026-08-15-pont-agents]]", "[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11]]", "[[atelier/rd/infrastructure/bureau-tui-architecture]]", "[[atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint]]", "[[atelier/rd/veille/cordis/notes-lecture]]", "[[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]"]
 ---
 
 # Pistes de développement — infrastructure et outillage R&D
+
+> **Jalon daté du 2026-08-20 — ne décrit pas l'état courant.** Cette fiche est la photographie de l'infrastructure et de l'outillage au 2026-08-20 ; elle n'a jamais été retouchée depuis. Plusieurs de ses points affichés « ouverts » sont caducs (ex. `graphe-cartographie.json`, régénéré le 2026-08-31).
+> L'état **vivant** des chantiers (tous pôles, doctrine incluse) est tenu depuis le
+> 2026-09-01 dans [[atelier/rd/registre-chantiers]], qui cite la présente fiche comme
+> décision d'ouverture des chantiers qu'elle a ouverts. Corps non retouché (Cmd 10).
 
 ## Contexte
 

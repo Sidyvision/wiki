@@ -3,10 +3,18 @@ title: "Contexte, démarche et état des travaux (snapshot 2026-08-07)"
 type: meta
 tags: [outillage, projet-claude-ai, contexte, etat-des-travaux]
 created: 2026-06-28
-updated: 2026-08-07
+updated: 2026-09-01
 ---
 
 # Contexte, démarche et état des travaux
+
+> **Régime de lecture (ajouté 2026-09-01).** Les §1-2 (contexte et démarche) sont
+> **stables**. La partie « état des travaux » est un **snapshot daté du 2026-08-07** :
+> elle n'a pas été tenue à jour depuis, et plusieurs de ses constats sont dépassés
+> (signalés en encart à l'endroit où ils figurent). Pour l'état **courant** des
+> chantiers — Instrument, infrastructure, outillage, bibliothèque, études de cas,
+> process, doctrinal — la source vivante est le registre du pôle R&D :
+> [[atelier/rd/registre-chantiers]]. Pour les discernements, `doctrinal/index.md` §VII.
 
 ## 1. Contexte et esprit du projet
 
@@ -136,3 +144,11 @@ prononce sur la structure, jamais sur le principe métaphysique.
   plafond de crédit (`HTTP 400: Your credit balance is too low`). Attente d'une clé nouvelle liée
   au plan personnel Sidy (non encore créée). Tous les agents restent inactifs jusqu'à résolution.
   Vérifier `errors.log` en première analyse lors de panne d'agent.
+  > **Dépassé — état au 2026-09-01.** Les agents ne sont plus inactifs : ils tournent en continu,
+  > le fait est vérifiable au dépôt (dizaines de commits `CHOURA: tour <agent>` du 2026-08-28 au
+  > 2026-09-01, cycles quotidiens sous `choura/`, cron de monitoring et de veille actifs). La
+  > sortie de crise n'est pas passée par une nouvelle clé Anthropic mais par un **changement de
+  > fournisseur d'inférence** : bascule des profils prioritaires (`gardien`, `studio`,
+  > `publication`) sur OmniRoute le 2026-08-26, sous quota Qwen épuisé — voir la fiche R&D
+  > `atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md`. Le paragraphe
+  > ci-dessus est conservé comme jalon du 2026-08-07 (Cmd 10) ; il ne décrit plus l'état courant.

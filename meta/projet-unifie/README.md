@@ -3,7 +3,7 @@ title: "Dossier d'amorçage — Projet unifié « LLM-Wiki & Instrument de la Tr
 type: meta
 tags: [outillage, projet-claude-ai, amorcage, onboarding]
 created: 2026-06-28
-updated: 2026-07-01
+updated: 2026-09-01
 ---
 
 # Dossier d'amorçage du projet unifié
@@ -31,8 +31,9 @@ updated: 2026-07-01
    - `03-transition-modele-open-source.md` (la bascule hors-token) ;
    - `04-sessions-par-fonction-et-backlogs.md` (le mode de travail + les listes à traiter) ;
    - `05-runbook-test-ornith-gpu-cloud.md` (procédure de test du modèle local Ornith) ;
-   - la fiche `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2.md` (architecture
-     détaillée courante ; la v0.1 reste au dépôt comme jalon) + `spec-technique-axe-38-degres.md` (géométrie de l'axe) ;
+   - la fiche `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md` (architecture
+     détaillée **courante** depuis le 2026-08-25 ; les v0.1 et v0.2 restent au dépôt comme jalons)
+     + `spec-technique-axe-38-degres.md` (géométrie de l'axe) ;
    - `doctrinal/index.md` (le Catalogue Universel — inventaire vivant) ;
    - quelques fiches exemplaires pour le style (1 symbole, 1 discernement avec bloc 🔍, 1 fiche atelier).
 4. **Ouvrir une session par fonction** (voir `04-…`) plutôt qu'une grande session fourre-tout :
@@ -70,6 +71,28 @@ updated: 2026-07-01
 
 En cas de contradiction : `CLAUDE.md` tranche. Si un de ces documents le contredit, le signaler
 plutôt que de le suivre (Action VIGILANCE).
+
+## Carte du dossier — cinq régimes (mise à jour 2026-09-01)
+
+Ce dossier a beaucoup grossi depuis son ouverture. Cinq régimes y coexistent, et
+**les confondre est la source de confusion la plus fréquente** : on lit un jalon daté
+comme s'il décrivait l'état courant.
+
+| Régime | Pièces | Comment le lire |
+|---|---|---|
+| **Vivant** — à réactualiser souvent | `01-contexte-demarche-etat.md` (état des travaux), `04-sessions-par-fonction-et-backlogs.md` (backlogs), `queue-idees.md` (file d'idées pour les agents, ouverte 2026-08-27), `choura/cycle-*.md` (cycles de Consultation, un par jour) | fait foi sur l'état, sous réserve de la date de son `updated:` |
+| **Stable** — révisé aux jalons majeurs | `00-instructions-projet.md`, `02-instrument-feuille-de-route.md`, `03-transition-modele-open-source.md`, `README.md` (ce fichier) | fait foi sur la démarche |
+| **Jalon daté** — photographie, jamais retouchée | `05-` à `17-` : runbooks de test du modèle local, comptes-rendus Ornith/Qwen, installations Hermes, architecture Discord des 12 agents, calibration zodiacale | **ne décrit que son jour** ; ne jamais en déduire l'état courant |
+| **Proposition** — dispositif soumis au verdict | les six `proposition-*.md` | chacune porte désormais un encart « État au 2026-09-01 » disant ce qui en a été fait |
+| **Configuration d'agents** | `hermes-prompts/` (12 rôles : principe + mandats), `hermes-skills/` | matière opératoire des agents Hermes, pas de la documentation de projet |
+
+**Où est l'état des chantiers.** Le suivi vivant de tous les chantiers ouverts du dépôt
+— Instrument, infrastructure, outillage, bibliothèque, études de cas, process et
+doctrinal — est tenu depuis le 2026-09-01 dans un registre unique du pôle R&D :
+`atelier/rd/registre-chantiers.md`. Les backlogs de `04-` renvoient vers lui pour la face
+ingénierie ; `doctrinal/index.md` §VII reste la source vivante des discernements. Ce
+dossier-ci garde ce qui est **sensible** (motifs des décisions, prompts d'agents,
+credentials) — §VI du protocole racine.
 
 ## Entretien de ce dossier
 
