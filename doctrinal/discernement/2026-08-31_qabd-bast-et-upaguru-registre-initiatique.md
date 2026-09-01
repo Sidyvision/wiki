@@ -6,9 +6,9 @@ maturite: germe
 tradition_cadre: universel
 tags: [qabd, bast, upaguru, maqam, hal, initiation, science-sacree, kari-kumi, cmd3, en-cours]
 created: 2026-08-31
-updated: 2026-08-31
-sources: ["[[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]]", "[[doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane]]"]
-sources_count: 2
+updated: 2026-09-01
+sources: ["[[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]]", "[[doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane]]", "[[doctrinal/sources/kitab-tarifat-corps-transcription]]"]
+sources_count: 3
 cross_links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/sources/kitab-tarifat-index-transcription]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
 
@@ -56,8 +56,8 @@ soit tu au profit de l'autre.
 | Pièce | État |
 |---|---|
 | Un texte traditionnel appariant qabḍ/basṭ et upaguru | **absent** — aucun trouvé au dépôt |
-| Classement de qabḍ/basṭ comme *aḥwāl* (et non *maqāmāt*) | **non sourcé au dépôt** : la source des §52-53 ne porte ni *maqām* ni *ḥāl* |
-| Définitions d'al-Jurjānī (*Kitāb al-Taʿrīfāt*) | **absentes** — seul l'**index** des termes est au dépôt, sans les définitions |
+| Classement de qabḍ/basṭ comme *aḥwāl* (et non *maqāmāt*) | ✅ **sourcé depuis le 2026-09-01** — al-Jurjānī, déf. 0563 et 1237 (voir § ci-dessous). *La source des §52-53, elle, ne porte toujours ni* maqām *ni* ḥāl. |
+| Définitions d'al-Jurjānī (*Kitāb al-Taʿrīfāt*) | ✅ **versées le 2026-09-01** — [[doctrinal/sources/kitab-tarifat-corps-transcription]] |
 | Perspective initiatique / profane | **établie** — *CMM* ch. IV |
 | Doctrine de l'*upaguru* | **établie** — *IRS* ch. XX |
 
@@ -73,7 +73,39 @@ s'exerce cette action ». De part et d'autre, la cause n'est pas dans l'occasion
 extérieure. C'est une convergence de forme observée dans les textes ; ce n'est pas un
 appariement des termes, et ce n'en tient pas lieu.
 
-## ⚠️ Ce qui serait une inférence, et qui n'est pas faite ici
+## Ce qui a changé le 2026-09-01 — le premier volet est désormais **reçu**, non inféré
+
+Les définitions d'al-Jurjānī sont entrées au dépôt
+([[doctrinal/sources/kitab-tarifat-corps-transcription]]). Deux d'entre elles portent
+directement sur la première moitié de l'hypothèse de Sidy — « ces deux notions relèvent
+de l'initiation et de ses divers états (*maqâm*, *hâl*) ».
+
+**Déf. 0563, *al-ḥâl*** — le classement, et la règle qui sépare *ḥâl* de *maqâm* :
+
+> « Dans le langage technique des gens de Dieu, il s'agit de la prise de conscience
+> (*maʿnâ*) qui s'empare du cœur (*qalb*) sans préméditation (*taṣannuʿ*), sans être
+> provoquée (*istijlâb*) et sans être le fruit d'une acquisition (*iktisâb*), comme
+> l'émotion (*ṭarab*), la tristesse (*ḥuzn*), **l'oppression (*qabḍ*), la gaieté
+> (*basṭ*)**, ou toute autre disposition. […] **S'il dure et devient un habitus
+> (*malaka*), une propriété de l'âme, il est nommé station ou propriété stable
+> (*maqâm*).** Les états (*aḥwâl*) [spirituels] sont des dons gracieux (*mawâhib*)
+> alors que les habitus ou stations sont des acquisitions (*makâsib*). »
+
+**Déf. 1237, *al-qabḍ* / *al-basṭ*** — le classement énoncé du côté des deux termes
+eux-mêmes :
+
+> « **Ce sont deux états spirituels (*ḥâlân*)** survenant au serviteur après son
+> élévation graduelle (*taraqqî*), par dépassement de l'état de crainte (*ḫawf*) et
+> d'espoir (*rajâʾ*). »
+
+**Portée exacte de ce versement.** Il clôt **le volet classement** : que qabḍ et basṭ
+relèvent des *aḥwāl*, et non des *maqāmāt*, est maintenant **reçu d'une autorité
+textuelle** (Cmd 5, §VII.2 — sous réserve que ces deux pages ne sont pas parmi les
+clichés, cf. l'avertissement de provenance de l'annexe). Il ne clôt **rien** du volet
+qabḍ/basṭ ↔ upaguru : celui-ci reste un joint entre formes traditionnelles distinctes,
+donc `kari-kumi` sous Cmd 3, et le verdict appartient à Sidy (Cmd 12).
+
+## ⚠️ Ce qui serait une inférence, et qui n'est pas faite ici — **conservé, avec sa leçon**
 
 L'index d'al-Jurjānī versé au dépôt donne des numéros d'entrées :
 
@@ -91,11 +123,28 @@ serait exactement la classe d'inférence qui a produit, le 2026-08-31, une citat
 chapitre erronée (rectifiée, Cmd 5). Les numéros sont consignés comme **données**, pas
 comme argument.
 
+> **Ce que le versement du 2026-09-01 a appris sur ce refus — conservé, non effacé.**
+> Les définitions montrent que ces numéros *n'étaient pas* du bruit : l'index est indexé
+> **par numéro de définition**, et si `basṭ` et `maqâm` figuraient tous deux à l'entrée
+> **563**, c'est parce que la déf. 0563 (*al-ḥâl*) **les nomme toutes deux dans son
+> texte** ; si `ḥâl` figurait à l'entrée **1237**, c'est parce que la déf. 1237 dit
+> « deux états spirituels (*ḥâlân*) ». La conclusion vers laquelle l'index pointait
+> était donc la bonne.
+>
+> **Cela ne rétroactive pas le refus, cela le justifie.** Une cooccurrence d'index ne
+> *démontrait* rien : elle indiquait seulement *où regarder* — c'est exactement l'usage
+> que le protocole assigne aux index (§VII, discipline des sources, point 1 : « ces
+> fiches indiquent *où chercher* ; elles ne lèvent **jamais** un `to-source` par
+> elles-mêmes »). L'argument juste et la donnée juste ne sont pas la même chose : ici,
+> la donnée était juste et l'argument aurait été faux. Le pas décisif n'a pas été de
+> mieux raisonner sur l'index, mais **d'aller lire le texte qu'il désignait**.
+
 ## Ce qui fermerait le dossier
 
-1. **Les définitions d'al-Jurjānī** entrant dans `raw/` — les entrées ci-dessus sont
-   déjà repérées. Le classement de qabḍ et basṭ deviendrait alors **reçu** d'une source
-   traditionnelle, au lieu d'être inféré. C'est le pas le plus court et le plus décisif.
+1. ~~**Les définitions d'al-Jurjānī** entrant dans `raw/`~~ — ✅ **fait le 2026-09-01**
+   (voir plus haut). Ce point est acquis : le classement *aḥwāl* est reçu, non inféré.
+   Il reste à le **collationner sur l'exemplaire physique** (§VII.2), les pages 177-178
+   et 336-337 n'étant pas parmi les clichés.
 2. **Un texte traditionnel appariant les termes**, ou en tenant lieu — le dossier
    [[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]] est le modèle de ce
    qui rend une correspondance solide : elle y est « reçue d'un texte traditionnel qui

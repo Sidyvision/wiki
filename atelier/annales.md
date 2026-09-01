@@ -10,6 +10,37 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] outillage | Juge de paix de la transcription Jurjānī + catalogue de bibliothèque
+
+Ajout de `atelier/rd/outillage/verifier-transcription-jurjani.py` — script de contrôle en
+**lecture seule** (§VIII.2, « fiabilité d'action ≠ fiabilité narrative ») pour la
+transcription du corps du *Kitāb al-Taʿrīfāt* versée au circuit doctrinal ce jour. Il
+vérifie trois choses et n'en corrige aucune : (1) que chaque cliché **distinct** de
+`raw/Transcription Jurjani/` est cité dans la fiche — la déduplication se fait par
+empreinte MD5, et les chemins sont énumérés par `pathlib` plutôt que retapés, les noms de
+dossiers de `raw/` étant dans une forme de normalisation Unicode qui ne se reproduit pas à
+la saisie ; (2) que les numéros de définition croissent avec les numéros de page ; (3)
+l'hygiène Unicode de la fiche (Cmd 15). Sortie brute du jour : `54/54 clichés cités,
+0 inversion, 0 caractère invisible, RESULTAT : 0 anomalie(s)`.
+
+Le script a lui-même violé le Cmd 15 à sa première écriture — sa liste de caractères
+interdits était donnée en clair. Corrigé : elle est construite par point de code
+(`chr(0x200B)`…), avec un commentaire disant pourquoi. Les trois `.py` de l'incident ZWJ
+du 2026-08-22 restent, eux, à nettoyer (signalement antérieur, inchangé).
+
+`atelier/rd/bibliotheque/catalogue-bibliotheque.md` : entrée al-Jurjānī complétée de la
+plage exacte des pages transcrites. Rappel du régime : le catalogue **indique où
+chercher**, il ne porte aucun contenu doctrinal (§VII, discipline des sources, point 1) —
+le corps des définitions est donc versé côté `doctrinal/`, et le renvoi reste une
+consultation humaine, sans wikilink (`doctrinal/` ne pointe jamais vers `atelier/`, §VI).
+
+**Signalement, non traité** : un dépôt non versionné est apparu à la **racine** du dépôt
+pendant la session — `Chapitre XIII L'athanor - Titus Burckartt/` (photographies, 01:59).
+Sa place est dans `raw/`, pas à la racine. Laissé intact, aucun déplacement sans verdict.
+
+- **Commit** : b17def0
+
+
 ## [2026-08-31] renvoi | Dossier qabḍ/basṭ ↔ upaguru ouvert en 🔍, sur proposition de Sidy
 
 - **Proposition de Sidy** : les deux notions relèvent de l'initiation et de ses états

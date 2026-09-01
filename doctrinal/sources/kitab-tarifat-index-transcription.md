@@ -5,15 +5,15 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [lexicographie, terminologie, index, prosodie, transcription]
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-09-01
 sources: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 1
-cross_links: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/autorites/al-jurjani]]"]
+cross_links: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sources/kitab-tarifat-corps-transcription]]", "[[doctrinal/autorites/al-jurjani]]"]
 ---
 
 # Kitāb al-Taʿrīfāt — Annexes et index (transcription intégrale)
 
-> Transcription visuelle intégrale des annexes de fin d'ouvrage de l'édition française (Maurice Gloton, Albouraq, 2005/2006), pages 495-596. Document compagnon de [[doctrinal/sources/kitab-al-tarifat-jurjani]]. Travail en cours, par lots vérifiés — voir état d'avancement en fin de document.
+> Transcription visuelle intégrale des annexes de fin d'ouvrage de l'édition française (Maurice Gloton, Albouraq, 2005/2006), pages 495-596. Document compagnon de [[doctrinal/sources/kitab-al-tarifat-jurjani]]. Le **corps** des définitions, lui, est transcrit dans [[doctrinal/sources/kitab-tarifat-corps-transcription]] (versement du 2026-09-01). Travail en cours, par lots vérifiés — voir état d'avancement en fin de document.
 
 ## Tableau synoptique des lettres arabes et conventions de translittération (p. 9-10)
 

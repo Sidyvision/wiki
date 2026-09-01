@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Le Catalogue Universel
@@ -242,6 +242,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/archeometre-saint-yves-papus-1911|L'Archéomètre (Saint-Yves d'Alveydre, éd. Papus 1911)]]
 - [[doctrinal/sources/kitab-al-tarifat-jurjani|Kitāb al-Taʿrīfāt — Le Livre des définitions (trad. Maurice Gloton)]]
 - [[doctrinal/sources/kitab-tarifat-index-transcription|Kitāb al-Taʿrīfāt — Annexes et index (transcription intégrale)]]
+- [[doctrinal/sources/kitab-tarifat-corps-transcription|Kitāb al-Taʿrīfāt — Corps des définitions (transcription des clichés)]]
 - [[doctrinal/sources/platon-oeuvres-completes-brisson-2011|Œuvres complètes — Platon (Flammarion, 2011, dir. Luc Brisson)]]
 - [[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq|Le Symbolisme Universel des Châtons des Sagesses (Meftah / Albouraq)]]
 - [[doctrinal/sources/meftah-chatons-sagesses-transcription|Le Symbolisme universel des châtons des sagesses — Transcription (préliminaires, tableau récapitulatif, annexe, index, chapitre V)]]
