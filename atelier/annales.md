@@ -10,6 +10,61 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] correction | OUT-01 et PRO-02 traités : périmètre des validateurs, fait personnel sorti des pages neutres
+
+Verdict de Sidy sur les deux chantiers signalés le matin même.
+
+**OUT-01 — un validateur dont le bruit masquait ses propres trouvailles.**
+`verifier-invariants.py` parcourait le disque sans jamais consulter `.gitignore` : 209 de
+ses 210 erreurs venaient de venv de dépendances tierces et du sas `raw/`. Le défaut n'était
+pas le nombre — c'est que ce bruit avait **effectivement caché** la seule erreur vraie du
+jour, trouvée au tri manuel. Le script interroge désormais git et ne contrôle que ce qui
+appartient au dépôt ; le critère n'est pas inventé, `.gitignore` le disait déjà et le
+validateur ne l'écoutait pas. Le périmètre appliqué est **annoncé en tête de sortie**,
+jamais silencieux, et `--tout` restitue le comportement antérieur : rien n'est hors de
+portée, c'est un choix d'appel. De `210 erreur(s)` sur 1536 fichiers à **`0 erreur(s),
+0 avertissement(s)` sur 709 fiches**. `generer-cartographie.py` portait le même défaut
+(112 anomalies du même venv, refus d'écrire le manifeste) — corrigé de même : le défaut
+était de famille, pas d'un script. Documenté au guide de déploiement (Domaine Réservé) et
+dans [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]].
+
+**PRO-02 — le périmètre s'est révélé plus large que la ligne ne le disait.** Trois fiches
+de la racine de `rd/` portaient du fait personnel en page neutre et sont versées au Domaine
+Réservé avec leur historique git. **Aucun stub n'est laissé côté `atelier/`** : un pointeur
+vers `meta/` serait lui-même une violation d'étanchéité. Mais deux fiches restées côté `rd/`
+portaient le même défaut **dans leur corps** — voie et pratique spirituelles, état de santé,
+relations, rêves ; blocs retirés, matière conservée au Domaine Réservé (Cmd 10). Les deux
+fiches neutres qui traînaient à la racine sont classées par leur nature. **La racine du pôle
+ne porte plus que `index.md` et le registre.**
+
+**Contreparties neutres**, écrites et indexées comme Sidy l'a demandé :
+[[atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne]] et
+[[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]]. Pour la troisième
+fiche versée, la contrepartie **existait déjà**
+([[atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes]]) : aucune
+quatrième fiche n'a été créée — une page = un sujet (Cmd 4), et dupliquer un contenu déjà
+tenu ailleurs est exactement ce qui a produit la confusion qu'on répare.
+
+**Trouvé en vérifiant avant d'écrire.** Les trois jobs cron que la fiche du 2026-08-23
+déclarait créés, identifiants et cadences à l'appui, **ne sont déclarés dans aucun des
+quatorze profils Hermes**. Le script, lui, existe et est exécutable. Deux lectures
+possibles — perdus lors d'une reconfiguration, ou jamais créés — **non tranchées** : seul
+l'état d'aujourd'hui est établi. C'est la récidive du motif du 2026-08-17, celui qui a fait
+naître `infra_verif` : la leçon avait produit un outil, pas une habitude. La fiche neutre ne
+porte **délibérément aucun `infra_verif`** — ce champ atteste une configuration appliquée,
+et il n'y en a pas à attester ; l'inscrire ferait échouer le contrôle, ce qui serait la
+bonne conséquence d'une mauvaise écriture. Consigné à
+[[atelier/rd/cahiers/registre-problemes]], porté en preuve sur `INF-03`.
+
+**Registre** : `OUT-01` et `PRO-02` versés en §9 sans être supprimés (Cmd 10) ; §0 recompté
+mécaniquement — 47 chantiers ouverts, 5 clos ou caducs. Artefacts dérivés régénérés.
+
+**Vérification** : `verifier-invariants.py` → `0 erreur(s), 0 avertissement(s)`.
+Cmd 15 : aucun caractère invisible.
+
+- **Commit** : aee8fe9
+
+
 ## [2026-09-01] organisation | Registre des chantiers ouvert ; états périmés redressés aux deux pôles
 
 **Demande de Sidy** : organiser les deux pôles `meta/projet-unifie/` et `atelier/` pour que

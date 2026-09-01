@@ -14,6 +14,37 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] versement | Trois fiches de fait personnel rapatriées d'`atelier/rd/` ; guide du vérificateur amendé
+
+Second volet de la journée, sur verdict de Sidy (voir `atelier/annales.md`, même date).
+
+**Versées ici depuis la racine de `atelier/rd/`**, avec leur historique git (`git mv`) et
+sans retouche du corps : `plan-action-soutien-sidy.md`, `synthese-ressources-deployees.md`,
+`rapport-rd-memoire-persistante.md`. Elles vivaient dans une **page neutre** alors qu'elles
+portent de l'identité, de la situation et du contenu de fichiers de mémoire d'agent —
+l'interdit du §VI. Chacune reçoit un encart de versement daté et le nom de sa contrepartie
+neutre, en prose : le renvoi va d'ici vers le neutre, jamais l'inverse.
+
+**Aucun stub n'a été laissé côté `atelier/`.** C'est la seule différence avec la migration
+du 2026-08-08, et elle est structurelle : un stub `deprecated` pointant vers `meta/` serait
+lui-même un lien interdit. La continuité est assurée autrement — par l'historique git, par
+l'index de ce hub, et par les contreparties neutres écrites côté `rd/`.
+
+**Indexées** au §Projet unifié de `meta-index.md`, chacune avec la mention de son origine et
+du motif du versement.
+
+**`meta/2026-07-27_guide-deploiement-verifier-invariants.md`** reçoit un §1 bis sur le
+périmètre du vérificateur (chantier OUT-01, clos le même jour) : ce que le script contrôle
+désormais, pourquoi il ne contrôlait pas la bonne chose, et le tableau des trois régimes
+(dépôt git / repli hors dépôt / `--tout`).
+
+**Ce qui n'est pas fait, et pourquoi.** Les trois fiches versées gardent leur frontmatter
+d'origine (`type: meta`, `statut: en-cours`). Le vocabulaire du champ `statut:` reste le
+point ouvert n° 1 du registre : aucun n'est établi au dépôt, et l'arrêter revient à Sidy.
+
+- **Commit** : aee8fe9
+
+
 ## [2026-09-01] organisation | Dossier projet-unifié remis en ordre ; le suivi des chantiers passe au R&D
 
 Passe conjointe avec le circuit `atelier/` (voir son entrée du même jour). Ce qui touche
