@@ -39,11 +39,33 @@ passe, et le script vérifie son empreinte SHA-1 *avant* l'envoi. Sans ce garde-
 capture altérée effacerait silencieusement la page. C'est le contrôle le plus important
 du chantier.
 
-**Contrepartie assumée** : le rendu ne se met pas à jour tout seul à la poussée sur
-`main` du dépôt frère. La liaison GitHub → Netlify exige une autorisation par navigateur
-qui ne se fait pas depuis le serveur. Le script tient lieu d'automatisme, et il a
-l'avantage d'être lisible, versionné et exécutable par n'importe qui — ce que la
-liaison, elle, ne serait pas.
+**Contrepartie levée le jour même, sur demande de Sidy.** La mise à jour automatique
+est en place — mais **pas** par liaison Netlify → dépôt, qui aurait été le réflexe. Deux
+raisons de l'écarter : elle exige une autorisation OAuth par navigateur, impossible
+depuis le serveur ; et surtout le site aurait publié **la racine du dépôt frère**, donc
+**écrasé la page d'accueil de `sidyvision.com`**. Le déploiement par empreintes
+remplaçant l'intégralité du site, la page d'accueil doit être renvoyée à chaque passe —
+ce qu'une liaison ne sait pas faire.
+
+La voie retenue est une **GitHub Action** dans le dépôt frère
+(`.github/workflows/publier.yml`, PR #1), qui rejoue exactement l'API et le garde-fou du
+script local : elle récupère la page d'accueil depuis la capture de référence versionnée
+au wiki — public, donc sans identifiant —, **vérifie son empreinte SHA-1 avant tout
+envoi**, publie, puis contrôle le résultat en ligne. Deux secrets déposés par l'API
+GitHub : `NETLIFY_AUTH_TOKEN` et `NETLIFY_SITE_ID`.
+
+Éprouvée de bout en bout le 2026-09-01 (`workflow_dispatch`, exécution `33560404893`,
+`success`) : *page d'accueil conforme à la référence* → *publié* → *page d'accueil
+intacte* → *rendu en ligne identique au dépôt* → *manifeste servi : 46 nœuds*.
+
+**Ce qui reste non éprouvé, et il faut le dire** : le déclencheur `on: push` filtré sur
+`src/**` n'a pas encore été vu s'exécuter — la fusion de la PR ne touchait pas `src/`, et
+fabriquer une modification artificielle pour le prouver n'aurait rien prouvé de bon. Il
+fera ses preuves à la première modification réelle du rendu.
+
+**Friction connue** : `main` du dépôt frère étant protégée avec `enforce_admins`, toute
+modification de `src/` passe par une pull request. C'est plus strict que la doctrine du
+wiki, où PRO-01 a délibérément écarté ce flux. Réversible sur verdict de Sidy.
 
 ## Étape 0 — la sauvegarde d'abord, avant tout accès
 

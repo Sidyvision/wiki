@@ -10,6 +10,51 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] automatisation | Publication automatique du rendu — et le réflexe qu'il fallait écarter
+
+Septième passe. Sidy demande la mise à jour automatique du rendu à la poussée.
+
+**Le réflexe aurait été de lier le dépôt frère à Netlify. Il fallait l'écarter, et pas
+seulement pour l'OAuth.** Une liaison aurait publié **la racine du dépôt frère** — donc
+**écrasé la page d'accueil de `sidyvision.com`**. Le déploiement Netlify par empreintes
+remplace l'intégralité du site : la page d'accueil doit être renvoyée à chaque passe, ce
+qu'une liaison ne sait pas faire. La contrainte d'autorisation par navigateur n'était que
+la seconde raison ; la première aurait détruit la page d'accueil au premier
+déclenchement.
+
+**Voie retenue : une GitHub Action dans le dépôt frère** (`.github/workflows/publier.yml`,
+PR #1), qui rejoue exactement l'API et le garde-fou du script local. Elle récupère la
+page d'accueil depuis la capture de référence versionnée ici — le wiki étant public, sans
+le moindre identifiant —, **vérifie son empreinte SHA-1 avant tout envoi**, publie, puis
+**contrôle le résultat en ligne**. Deux secrets déposés par l'API GitHub sans transiter
+par la conversation : `NETLIFY_AUTH_TOKEN`, `NETLIFY_SITE_ID`.
+
+**Éprouvée de bout en bout**, exécution `33560404893`, conclusion `success` :
+*page d'accueil conforme à la référence* → *publié* → *page d'accueil intacte* →
+*rendu en ligne identique au dépôt* → *manifeste servi : 46 nœuds*.
+
+**Ce qui n'est pas éprouvé, et se dit plutôt que se sous-entend** : le déclencheur
+`on: push` filtré sur `src/**` n'a pas encore été vu s'exécuter — la fusion de la PR ne
+touchait pas `src/`. Fabriquer une modification artificielle pour le prouver n'aurait
+rien prouvé de bon : le seul changement disponible était un tampon de provenance, que le
+script de publication du manifeste refuse **délibérément** de considérer comme un
+changement. Le déclencheur fera ses preuves à la première modification réelle du rendu.
+
+**Friction à connaître.** `main` du dépôt frère étant protégée avec `enforce_admins`,
+toute modification de `src/` passe désormais par une pull request — la présente
+publication est passée par la PR #1. C'est plus strict que la doctrine de ce dépôt-ci, où
+PRO-01 a délibérément écarté ce flux pour ne pas l'imposer à Sidy et aux douze agents.
+Tenable, réversible sur verdict.
+
+Le chantier INF-14 reste **clos** ; ce second temps est consigné dans sa ligne de §9,
+même journée, même objet — plutôt que d'ouvrir un identifiant pour ce qui est la
+finition du même travail.
+
+**Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
+du dépôt. 0 erreur(s), 0 avertissement(s).`
+
+- **Commit** : à compléter ci-dessous
+
 ## [2026-09-01] mise-en-production | L'Instrument est en ligne : `sidyvision.com/instrument`
 
 Sixième et dernière passe du jour. **Validation explicite de Sidy dans la session
