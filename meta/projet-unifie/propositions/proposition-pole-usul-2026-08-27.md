@@ -11,14 +11,14 @@ updated: 2026-08-27
 > **Statut : validée par Sidy le 2026-08-27, exécution effective complète.**
 > `doctrinal/CLAUDE.md` amendé (action EXAMEN DE FIQH → EXAMEN D'USÛL, bloc
 > générique `branche: fiqh | mantiq | mustalah-hadith`) ;
-> `meta/projet-unifie/proposition-pole-fiqh-2026-07-06.md` passée en
+> `meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06.md` passée en
 > `deprecated` avec pointeur vers la présente fiche. Fiche déplacée de
 > `_inbox/` vers `meta/projet-unifie/` à l'intégration.
 
 ## 0. Supersession explicite
 
 Cette proposition **remplace**
-`meta/projet-unifie/proposition-pole-fiqh-2026-07-06.md`, validée par Sidy le
+`meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06.md`, validée par Sidy le
 2026-07-06. Rien du contenu déjà validé n'est perdu : il est **migré
 intégralement** comme la branche Fiqh du pôle Usûl (§2 ci-dessous). Si cette
 proposition est validée, la fiche du 2026-07-06 passe en `deprecated` avec

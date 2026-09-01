@@ -70,7 +70,7 @@ psychologie, spirituel. Le label sert de premier terrain d'application concret.
   Anthropic. Migration vérifiée mécaniquement (12/12 YAML valides, 12/12 connexions
   Discord confirmées dans les logs).
 - Une fiche d'architecture complète documente l'ensemble :
-  `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`.
+  `meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07.md`.
 
 ---
 
@@ -131,7 +131,7 @@ re-vérifiée par calcul indépendant avant d'être retenue.
 
 ### 3.4 — Mise en regard du thème avec la roue des agents (2026-08-08)
 
-Fiche `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08.md`.
+Fiche `meta/projet-unifie/archives/16-mise-en-regard-theme-natal-roue-agents-2026-08-08.md`.
 Trois résultats principaux :
 
 1. **L'échec de la position 5 (Lion/Comptabilité) trouve une lecture** : dans le
@@ -297,8 +297,8 @@ dépôt sans demande explicite), dans `/root/brouillons-prompts-zodiaque/` :
 - `doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh.md`
 - `doctrinal/symboles/ilm-al-nujum` (cadre astrologique traditionnel)
 - `meta/personnel/2026-06-20_theme-astrologique.md` (thème vérifié)
-- `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`
-- `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08.md`
+- `meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07.md`
+- `meta/projet-unifie/archives/16-mise-en-regard-theme-natal-roue-agents-2026-08-08.md`
 - `meta/projet-unifie/hermes-prompts/01…12…md` (prompts sources)
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/` (brouillons d'extension
   versionnés, 8 en attente — *mise à jour 2026-08-15, remplace le pointeur vers

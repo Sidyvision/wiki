@@ -7,7 +7,7 @@ updated: 2026-09-01
 sources: []
 links:
 - '[[atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes]]'
-- '[[meta/projet-unifie/plan-action-soutien-sidy]]'
+- '[[meta/projet-unifie/archives/plan-action-soutien-sidy]]'
 ---
 
 # Synthèse ressources déployées — soutien Sidy (2026-08-23)

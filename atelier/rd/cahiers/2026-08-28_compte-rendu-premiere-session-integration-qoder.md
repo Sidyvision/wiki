@@ -152,7 +152,7 @@ Donnée utile pour l'expérience en cours sur les protocoles locaux
 > C1/C3/C4 — les 15 artefacts de syntaxe signalés en §II disparaissent.
 > (3) Lien C4 régularisé dans le sens autorisé : wikilink neutralisé côté
 > `doctrinal/annales.md` (chemin entre backticks, texte verbatim), lien vivant
-> posé de `meta/projet-unifie/proposition-pole-usul-2026-08-27.md` vers
+> posé de `meta/projet-unifie/propositions/proposition-pole-usul-2026-08-27.md` vers
 > `doctrinal/CLAUDE`. Contrôle après exécution : 0 erreur, 2 avertissements
 > (A6 faux positif légitime connu + 1 C1 réel préexistant, §II). Détails :
 > registre-problemes, entrée 2026-08-28 mise à jour ; annales atelier

@@ -294,6 +294,6 @@ Test de non-régression ensuite :
 - vLLM — intégration Claude Code :
   https://docs.vllm.ai/en/stable/serving/integrations/claude_code/
 - Runbook Ornith (référence infrastructure, toujours valable sauf les 3 changements §3.2) :
-  `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud.md`
+  `meta/projet-unifie/archives/05-runbook-test-ornith-gpu-cloud.md`
 - Compte-rendus des tests Ornith :
   `meta/projet-unifie/06-…`, `07-…`, `08-…`

@@ -3,10 +3,24 @@ title: "Instrument de la Tradition Primordiale — feuille de route et pile tech
 type: meta
 tags: [outillage, projet-claude-ai, instrument, app, feuille-de-route]
 created: 2026-06-28
-updated: 2026-08-07
+updated: 2026-09-01
 ---
 
 # Instrument de la Tradition Primordiale — feuille de route
+
+> **État au 2026-09-01 — cette fiche donne la *démarche*, non l'*avancement*.**
+> Elle a été écrite le 2026-06-28 et décrit les phases, les invariants et les garde-fous :
+> à ce titre elle reste valable et fait foi. Deux choses y sont en revanche périmées :
+> elle renvoie à l'architecture **v0.2** alors que la **v0.3** est courante depuis le
+> 2026-08-25 (`atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md`),
+> et son §3 « questions techniques ouvertes » a été tranché pour l'essentiel — le format du
+> manifeste est figé, l'hébergement statique est retenu, le moteur Three.js est acté
+> (Phase 0 close).
+>
+> **Pour l'avancement réel par phase**, la source vivante est
+> [[atelier/rd/registre-chantiers]] §1, et le jalon détaillé
+> [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]. Les chantiers
+> ouverts depuis fin août sont bloqués sur des questions **doctrinales**, en amont du rendu.
 
 > **Architecture détaillée** : la fiche canonique est désormais
 > `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2.md` (v0.2 développée ; la v0.1

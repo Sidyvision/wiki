@@ -107,8 +107,8 @@ l'arbitrage humain, jamais une porte automatique vers l'inscription.
 ### Action : EXAMEN D'USÛL (sciences traditionnelles formelles — remplace l'EXAMEN DE FIQH)
 
 > **Amendement du 2026-08-27** (verdict Sidy, exécution de
-> `meta/projet-unifie/proposition-pole-usul-2026-08-27.md`, laquelle supersède
-> `meta/projet-unifie/proposition-pole-fiqh-2026-07-06.md`, désormais
+> `meta/projet-unifie/propositions/proposition-pole-usul-2026-08-27.md`, laquelle supersède
+> `meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06.md`, désormais
 > `deprecated` avec pointeur). Le pôle Fiqh validé le 2026-07-06 devient la
 > **branche `fiqh`** d'un pôle **Usûl** élargi (racines/méthodologie des
 > sciences traditionnelles), qui accueille aussi les branches `mantiq`

@@ -188,7 +188,7 @@ instruire séparément, avant toute écriture (Cmd 6) :
   `#infrastructure` créé par Sidy côté Discord. Reste à inscrire à
   l'allowlist (§VIII.8) au moment de l'écriture du mécanisme de post ;
   l'identifiant numérique du canal (snowflake Discord) n'est **pas** consigné
-  ici, par cohérence avec `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`
+  ici, par cohérence avec `meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07.md`
   qui ne fixe que les noms lisibles — l'identifiant vit dans la configuration
   d'exécution locale (`.env`/`config.yaml`), jamais dans le dépôt versionné.
 - ~~la fréquence exacte du cron~~ — **tranchée (2026-08-11)** : **quotidienne,

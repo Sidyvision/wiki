@@ -27,7 +27,7 @@ tournante existant. Ce qui existe aujourd'hui :
 
 - des **tensions structurelles pairées**, volontaires et non hiérarchiques
   (ex. Gardien (10) ↔ Commerce (12), documentées dans
-  `meta/projet-unifie/proposition-pole-fiqh-2026-07-06.md`) ;
+  `meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06.md`) ;
 - le **Rapport du matin**, point de synchronisation quotidien mais **descendant
   vers Sidy**, pas un espace de délibération entre agents ;
 - le **double contrôle systématique** (sashimono + confrontation Gizeh,
@@ -81,7 +81,7 @@ antérieur.
   déclenche (ou laisse le cron suivant démarrer normalement) le tour de
   l'agent suivant. Un canal Discord dédié « choura » (cohérent avec
   l'architecture Discord existante à allowlist stricte,
-  `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`) peut
+  `meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07.md`) peut
   miroiter le fichier pour que Sidy suive et interjecte en direct sans passer
   par le dépôt.
 - **Le Gardien** : job cron à J, 00:00 (ouverture, éventuelle synthèse du

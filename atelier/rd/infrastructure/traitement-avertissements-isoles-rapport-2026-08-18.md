@@ -118,18 +118,18 @@ vers `meta/` — sens interdit. Deux stratégies possibles :
 [C4] doctrinal/annales.md → [[meta/projet-unifie/02-instrument-feuille-de-route]]
 [C4] doctrinal/annales.md → [[meta/projet-unifie/03-transition-modele-open-source]]
 [C4] doctrinal/annales.md → [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]] (×4)
-[C4] doctrinal/annales.md → [[meta/projet-unifie/05-runbook-test-ornith-gpu-cloud]] (×2)
-[C4] doctrinal/annales.md → [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29]] (×2)
-[C4] doctrinal/annales.md → [[meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29]]
-[C4] doctrinal/annales.md → [[meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29]]
-[C4] doctrinal/annales.md → [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01]] (×2)
-[C4] doctrinal/annales.md → [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]]
+[C4] doctrinal/annales.md → [[meta/projet-unifie/archives/05-runbook-test-ornith-gpu-cloud]] (×2)
+[C4] doctrinal/annales.md → [[meta/projet-unifie/archives/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29]] (×2)
+[C4] doctrinal/annales.md → [[meta/projet-unifie/archives/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29]]
+[C4] doctrinal/annales.md → [[meta/projet-unifie/archives/08-resultats-test-ornith-cas-doctrinal-2026-06-29]]
+[C4] doctrinal/annales.md → [[meta/projet-unifie/archives/09-briefing-transition-qwen36-27b-2026-07-01]] (×2)
+[C4] doctrinal/annales.md → [[meta/projet-unifie/archives/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]]
 [C4] doctrinal/annales.md → [[meta/projet-unifie/README]] (×2)
 [C4] doctrinal/annales.md → [[meta/sidy]]
 [C4] doctrinal/index.md → [[meta/meta-index]]
 [C4] atelier/index.md → [[meta/projet-unifie/02-instrument-feuille-de-route]]
 [C4] atelier/index.md → [[meta/projet-unifie/framework-etude-de-cas]]
-[C4] atelier/rd/index.md → [[meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08]]
+[C4] atelier/rd/index.md → [[meta/projet-unifie/propositions/proposition-pole-rd-atelier-2026-08-08]]
 ```
 
 **Analyse pour arbitrage** :

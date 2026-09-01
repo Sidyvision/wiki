@@ -3,10 +3,31 @@ title: "Transition vers un modèle open-source local (remplacer Opus dans Claude
 type: meta
 tags: [outillage, projet-claude-ai, modele-local, open-source, transition, infrastructure, claude-code]
 created: 2026-06-28
-updated: 2026-08-07
+updated: 2026-09-01
 ---
 
 # Transition vers un modèle open-source local
+
+> **État au 2026-09-01 — l'objectif tient, le scénario est dépassé.**
+> L'intention de cette fiche — remplacer un moteur payant au token par un modèle
+> open-source qu'on héberge, par souveraineté des moyens — **reste entière** : c'est la
+> finalité déclarée du pôle R&D. Mais le scénario qu'elle détaille (Ornith-1.0 puis
+> Qwen3.6-27B-FP8 sur un Pod RunPod loué à l'heure, `ANTHROPIC_BASE_URL` pointé vers vLLM)
+> n'est plus celui en vigueur : l'inférence passe aujourd'hui par des **fournisseurs
+> tiers**, après la bascule OmniRoute du 2026-08-26 sous quota épuisé — voir
+> [[atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen]].
+>
+> Ce qui, dans cette fiche, **reste vrai et utile** : le mécanisme de branchement (§1), les
+> exigences dures attendues d'un modèle (§3), la contrainte matérielle — le serveur Hetzner
+> ne peut héberger aucun de ces modèles, il faut une machine GPU séparée (§4) —, les pièges
+> de Claude Code sur endpoint non-Anthropic (§6), la stratégie hybride « scripter d'abord »
+> (§7), et les résultats des tests de 2026-06-29 → 07-08 (§8 bis), qui gardent leur valeur
+> de mesure.
+>
+> Ce qui est **caduc** : le choix de modèle nommé, le dimensionnement RunPod, et le
+> calendrier. Aucun matériel GPU n'a été acquis depuis. La reprise éventuelle du chantier
+> passe par le registre (`OUT-07` porte la matière de veille qualifiée sur l'accélération
+> d'inférence, en attente d'un GPU local).
 
 > **But précisé par Sidy (2026-06-28)** : ne pas seulement créer un agent d'intégration séparé, mais
 > **remplacer le modèle qui motorise Claude Code lui-même** — aujourd'hui Opus via l'API Anthropic

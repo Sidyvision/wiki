@@ -8,7 +8,7 @@ updated: 2026-08-27
 # Queue de tâches
 
 > Dispositif validé par Sidy le 2026-08-27 — voir
-> `meta/projet-unifie/proposition-queue-taches-2026-08-27.md` (fiche de
+> `meta/projet-unifie/propositions/proposition-queue-taches-2026-08-27.md` (fiche de
 > conception, archivée). File d'attente d'idées en vrac, en attente de
 > traitement par les agents Hermes concernés.
 >

@@ -9,7 +9,7 @@ sources: []
 links:
   - "[[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]]"
   - "[[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]]"
-  - "[[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]]"
+  - "[[meta/projet-unifie/archives/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]]"
 ---
 
 # Rapport d'investigation — architecture modulaire des agents Hermes
@@ -288,11 +288,11 @@ La veille automatique mise en place aujourd'hui trouve **immédiatement** son pr
 
 ### 8.2. Fiches préexistantes mobilisées
 
-- `[[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]]`
+- `[[meta/projet-unifie/archives/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]]`
 - `[[meta/projet-unifie/hermes-prompts/08-publication-site]]`
 - `[[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer]]`
 - `[[meta/projet-unifie/hermes-prompts/10-protocol-guardian]]`
-- `[[meta/projet-unifie/proposition-cycle-consultation-choura-2026-08-27]]`
+- `[[meta/projet-unifie/propositions/proposition-cycle-consultation-choura-2026-08-27]]`
 - `[[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]]`
 
 ### 8.3. Sources externes consultées

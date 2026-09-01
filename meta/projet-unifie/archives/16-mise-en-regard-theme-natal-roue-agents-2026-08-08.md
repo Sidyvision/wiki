@@ -9,7 +9,7 @@ sources:
   - "[[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]]"
   - "[[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]]"
   - "[[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]"
-  - "[[meta/projet-unifie/15-architecture-discord-hermes-2026-08-07]]"
+  - "[[meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07]]"
   - "[[meta/personnel/2026-06-20_theme-astrologique]]"
 status: analyse — aucune décision prise, signalement pour verdict
 ---

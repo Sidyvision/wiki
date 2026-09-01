@@ -88,43 +88,65 @@ updated: 2026-09-01
 
 ## Projet unifié (`projet-unifie/`)
 
-- [[meta/projet-unifie/README|Dossier d'amorçage — Projet unifié]]
-- [[meta/projet-unifie/00-instructions-projet|Instructions du projet unifié]]
-- [[meta/projet-unifie/01-contexte-demarche-etat|Contexte, démarche et état des travaux]]
-- [[meta/projet-unifie/02-instrument-feuille-de-route|Instrument — feuille de route et pile technique]]
-- [[meta/projet-unifie/03-transition-modele-open-source|Transition vers un modèle open-source local]]
-- [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs|Sessions par fonction + backlogs]]
-- [[meta/projet-unifie/05-runbook-test-ornith-gpu-cloud|Runbook — Test d'Ornith 1.0 sur GPU cloud]]
-- [[meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29|Compte-rendu — premier test GPU cloud d'Ornith-1.0-9B]]
-- [[meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29|Résultats finaux — cycle prepare/compare]]
-- [[meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29|Résultats — test d'Ornith-1.0-9B sur le cas doctrinal]]
-- [[meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01|Briefing — transition Ornith → Qwen3.6-27B-FP8]]
-- [[meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02|Briefing v2 — transition Ornith → Qwen3.6-27B-FP8]]
-- [[meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03|Briefing v3 — transition Ornith → Qwen3.6-27B-FP8]]
-- [[meta/projet-unifie/10-briefing-infrastructure-hermes-agent-2026-07-03|Briefing — infrastructure globale Hermes Agent]]
-- [[meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03|Résultats — déploiement Qwen3.6-27B-FP8 opérationnel]]
-- [[meta/projet-unifie/12-procedure-installation-hermes-phase1-2026-07-03|Procédure Phase 1 — installation Hermes Agent]]
-- [[meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07|Pivot Haiku & Procédure Phase 1 révisée]]
-- [[meta/projet-unifie/14-compte-rendu-redeploiement-qwen-2026-07-08|Compte-rendu — re-déploiement Qwen3.6-27B-FP8]]
-- [[meta/projet-unifie/15-architecture-discord-hermes-2026-08-07|Architecture Discord des 12 agents Hermes]]
-- [[meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08|Mise en regard du thème natal et de la roue zodiacale des agents]]
-- [[meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09|Compte rendu — chantier des 12 agents Hermes et calibration zodiacale]]
-- [[meta/projet-unifie/briefing-claude-ai|Briefing Claude.ai — Projet Wiki & Label]]
-- [[meta/projet-unifie/chatgpt-export-2026-05-10|Export de données ChatGPT (2026-05-10)]]
-- [[meta/projet-unifie/directive-discernement-domaines|Directive de discernement des domaines (forme / principe)]]
-- [[meta/projet-unifie/framework-etude-de-cas|Framework d'étude de cas — maisons, marques, structures]]
-- [[meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06|Proposition — Articulation Karūbī / Agent 10]] (verdict obtenu 2026-08-15, en service)
-- [[meta/projet-unifie/proposition-cycle-consultation-choura-2026-08-27|Proposition — Cycle de Consultation (الشورى) entre les 12 agents]] (validée, exécutée)
-- [[meta/projet-unifie/proposition-discernement-image-organique-2026-08-27|Proposition — Image organique du Discernement]] (validée, exécution partielle : gabarit seul)
-- [[meta/projet-unifie/proposition-pole-fiqh-2026-07-06|Proposition — Pôle Fiqh, double face du Gardien]] (dépréciée, supersédée par le Pôle Usûl)
-- [[meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08|Proposition — le pôle R&D de l'atelier]] (validée, exécutée le 2026-08-08)
-- [[meta/projet-unifie/proposition-pole-usul-2026-08-27|Proposition — Pôle Usûl]] (validée, exécutée)
-- [[meta/projet-unifie/proposition-queue-taches-2026-08-27|Proposition — Queue de tâches et déploiement aux agents]] (validée, exécutée)
-- [[meta/projet-unifie/queue-idees|Queue de tâches — idées en attente de déploiement aux agents]] (dispositif vivant, ouvert 2026-08-27)
-- [[meta/projet-unifie/plan-action-soutien-sidy|Plan d'action — soutien personnel et professionnel]] (versée depuis `atelier/rd/` le 2026-09-01, étanchéité §VI)
-- [[meta/projet-unifie/rapport-rd-memoire-persistante|Rapport — incident mémoire persistante et déploiement de ressources]] (versée depuis `atelier/rd/` le 2026-09-01, étanchéité §VI)
-- [[meta/projet-unifie/synthese-ressources-deployees|Synthèse des ressources déployées (2026-08-23)]] (versée depuis `atelier/rd/` le 2026-09-01, étanchéité §VI)
-- [[meta/projet-unifie/triage-chatgpt-export|Triage export ChatGPT (140 conversations)]]
+*Dossier réorganisé le 2026-09-01 : les régimes sont désormais portés par l'arborescence.
+Porte d'entrée et carte du dossier : [[meta/projet-unifie/README|README]].*
+
+### Noyau de pilotage (racine)
+
+- [[meta/projet-unifie/README|Dossier d'amorçage — porte d'entrée et carte du dossier]]
+- [[meta/projet-unifie/00-instructions-projet|Instructions du projet unifié]] — *stable*
+- [[meta/projet-unifie/01-contexte-demarche-etat|Contexte, démarche et état des travaux]] — **§3 : la synthèse d'état, actualisée le 2026-09-01**
+- [[meta/projet-unifie/02-instrument-feuille-de-route|Instrument — feuille de route et pile technique]] — *stable ; l'avancement est au registre des chantiers*
+- [[meta/projet-unifie/03-transition-modele-open-source|Transition vers un modèle open-source local]] — *objectif intact, scénario dépassé*
+- [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs|Sessions par fonction + backlogs]] — *§A stable, §B-C vivants*
+- [[meta/projet-unifie/queue-idees|Queue de tâches — idées en attente de déploiement aux agents]] — *vivant, ouvert 2026-08-27*
+- [[meta/projet-unifie/directive-discernement-domaines|Directive de discernement des domaines (forme / principe)]] — *stable*
+- [[meta/projet-unifie/framework-etude-de-cas|Framework d'étude de cas — maisons, marques, structures]] — *stable*
+
+### propositions/ — dispositifs soumis au verdict
+
+*Chacune porte en tête l'état réel de son exécution, daté.*
+
+- [[meta/projet-unifie/propositions/proposition-articulation-karubi-agent10-2026-08-06|Articulation Karūbī / Agent 10]] — verdict obtenu le 2026-08-15, en service
+- [[meta/projet-unifie/propositions/proposition-cycle-consultation-choura-2026-08-27|Cycle de Consultation (الشورى) entre les 12 agents]] — validée, exécutée
+- [[meta/projet-unifie/propositions/proposition-discernement-image-organique-2026-08-27|Image organique du Discernement]] — validée, exécution partielle (gabarit seul)
+- [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06|Pôle Fiqh, double face du Gardien]] — dépréciée, supersédée par le Pôle Usûl
+- [[meta/projet-unifie/propositions/proposition-pole-rd-atelier-2026-08-08|Le pôle R&D de l'atelier]] — validée, exécutée le 2026-08-08
+- [[meta/projet-unifie/propositions/proposition-pole-usul-2026-08-27|Pôle Usûl]] — validée, exécutée
+- [[meta/projet-unifie/propositions/proposition-queue-taches-2026-08-27|Queue de tâches et déploiement aux agents]] — validée, exécutée
+
+### archives/ — jalons datés
+
+*Chaque pièce ne décrit que son jour ; aucune ne dit l'état courant. Index et régime de
+lecture : [[meta/projet-unifie/archives/README|README des archives]].*
+
+- [[meta/projet-unifie/archives/README|Archives du projet unifié — jalons datés]]
+- [[meta/projet-unifie/archives/05-runbook-test-ornith-gpu-cloud|Runbook — Test d'Ornith 1.0 sur GPU cloud]]
+- [[meta/projet-unifie/archives/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29|Compte-rendu — premier test GPU cloud d'Ornith-1.0-9B]]
+- [[meta/projet-unifie/archives/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29|Résultats finaux — cycle prepare/compare]]
+- [[meta/projet-unifie/archives/08-resultats-test-ornith-cas-doctrinal-2026-06-29|Résultats — test d'Ornith-1.0-9B sur le cas doctrinal]]
+- [[meta/projet-unifie/archives/09-briefing-transition-qwen36-27b-2026-07-01|Briefing — transition Ornith → Qwen3.6-27B-FP8]]
+- [[meta/projet-unifie/archives/09-briefing-transition-qwen36-27B-v2-2026-07-02|Briefing v2 — transition Ornith → Qwen3.6-27B-FP8]]
+- [[meta/projet-unifie/archives/09-briefing-transition-qwen36-27B-v3-2026-07-03|Briefing v3 — transition Ornith → Qwen3.6-27B-FP8]]
+- [[meta/projet-unifie/archives/10-briefing-infrastructure-hermes-agent-2026-07-03|Briefing — infrastructure globale Hermes Agent]]
+- [[meta/projet-unifie/archives/11-resultats-qwen36-27b-2026-07-03|Résultats — déploiement Qwen3.6-27B-FP8 opérationnel]]
+- [[meta/projet-unifie/archives/12-procedure-installation-hermes-phase1-2026-07-03|Procédure Phase 1 — installation Hermes Agent]] *(dépréciée par la 13-)*
+- [[meta/projet-unifie/archives/13-pivot-haiku-installation-hermes-phase1-2026-07-07|Pivot Haiku & Procédure Phase 1 révisée]]
+- [[meta/projet-unifie/archives/14-compte-rendu-redeploiement-qwen-2026-07-08|Compte-rendu — re-déploiement Qwen3.6-27B-FP8]]
+- [[meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07|Architecture Discord des 12 agents Hermes]]
+- [[meta/projet-unifie/archives/16-mise-en-regard-theme-natal-roue-agents-2026-08-08|Mise en regard du thème natal et de la roue zodiacale des agents]]
+- [[meta/projet-unifie/archives/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09|Compte rendu — chantier des 12 agents Hermes et calibration zodiacale]]
+- [[meta/projet-unifie/archives/plan-action-soutien-sidy|Plan d'action — soutien personnel et professionnel]] — *versée depuis `atelier/rd/` le 2026-09-01, étanchéité §VI*
+- [[meta/projet-unifie/archives/rapport-rd-memoire-persistante|Rapport — incident mémoire persistante et déploiement de ressources]] — *idem*
+- [[meta/projet-unifie/archives/synthese-ressources-deployees|Synthèse des ressources déployées (2026-08-23)]] — *idem*
+- [[meta/projet-unifie/archives/briefing-claude-ai|Briefing Claude.ai — Projet Wiki & Label]]
+- [[meta/projet-unifie/archives/chatgpt-export-2026-05-10|Export de données ChatGPT (2026-05-10)]]
+- [[meta/projet-unifie/archives/triage-chatgpt-export|Triage export ChatGPT (140 conversations)]]
+
+### outillage/ — harnais de non-régression
+
+*Scripts serveur, jamais à charger dans un projet Claude.ai : `regression-test.sh` et
+`regression-test-doctrinal.sh` (bacs à sable isolés, jamais le vrai dépôt).*
 
 ### choura/ — cycles de Consultation (dispositif vivant, ouvert 2026-08-27)
 

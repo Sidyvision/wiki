@@ -1,5 +1,5 @@
 ---
-title: "Contexte, démarche et état des travaux (snapshot 2026-08-07)"
+title: "Contexte, démarche et état des travaux"
 type: meta
 tags: [outillage, projet-claude-ai, contexte, etat-des-travaux]
 created: 2026-06-28
@@ -8,13 +8,15 @@ updated: 2026-09-01
 
 # Contexte, démarche et état des travaux
 
-> **Régime de lecture (ajouté 2026-09-01).** Les §1-2 (contexte et démarche) sont
-> **stables**. La partie « état des travaux » est un **snapshot daté du 2026-08-07** :
-> elle n'a pas été tenue à jour depuis, et plusieurs de ses constats sont dépassés
-> (signalés en encart à l'endroit où ils figurent). Pour l'état **courant** des
-> chantiers — Instrument, infrastructure, outillage, bibliothèque, études de cas,
-> process, doctrinal — la source vivante est le registre du pôle R&D :
-> [[atelier/rd/registre-chantiers]]. Pour les discernements, `doctrinal/index.md` §VII.
+> **Régime de lecture.** Les §1-2 (contexte et démarche) sont **stables** : ils disent ce
+> qu'est le projet et comment on y travaille. Le **§3 est la synthèse d'état, actualisée le
+> 2026-09-01** — c'est la pièce à lire pour savoir où en sont les choses. Le §3 bis est
+> l'ancien snapshot du 2026-07-01, conservé comme jalon (Cmd 10) et qui ne fait plus foi.
+>
+> Une synthèse date du jour où elle est écrite. Les **sources vivantes** priment toujours :
+> [[atelier/rd/registre-chantiers]] pour les chantiers de tous les pôles,
+> `doctrinal/index.md` §VII pour les discernements,
+> [[atelier/rd/cahiers/registre-problemes]] pour les blocages.
 
 ## 1. Contexte et esprit du projet
 
@@ -52,7 +54,66 @@ prononce sur la structure, jamais sur le principe métaphysique.
   sont documentées, leur généalogie tracée, leurs tensions formelles signalées, et adossées à des
   **lectures suggérées** rattachées à leur généalogie propre.
 
-## 3. État des travaux — snapshot daté du 2026-07-01
+## 3. État des travaux — synthèse au 2026-09-01
+
+> **La pièce à lire en premier si vous reprenez le fil.** Les ordres de grandeur ci-dessous
+> sont relevés mécaniquement le 2026-09-01 (`git ls-files`, `grep` sur les statuts). Ils
+> dérivent dès le lendemain : les **sources vivantes** nommées à chaque ligne font foi, pas
+> ce tableau.
+
+### Les deux faces du projet, où elles en sont
+
+**La base de connaissance** — 328 fiches doctrinales suivies par git : 100 symboles,
+115 sources, 30 autorités, 56 fiches de discernement. Le socle métaphysique universel
+(trilogie guénonienne) est posé ; deux jalons universels sont clos par discernement et
+rendus dans l'Instrument. Le grand ingest se poursuit — les derniers lots : Burckhardt
+*Alchimie* ch. XIII, al-Jurjānī (220 définitions), *Majmaʿ al-Baḥrayn*, *Hindouisme et
+Soufisme*. **37 discernements sur 56 attendent encore leur verdict** ; c'est le poste le
+plus chargé du projet, et il n'appartient qu'à Sidy ou à une autorité textuelle (Cmd 12).
+*Source vivante : `doctrinal/index.md`, §VII pour les discernements.*
+
+**L'Instrument** — architecture v0.3 (les v0.1 et v0.2 restent des jalons). Phase 0 close,
+Phase 1 livrée (générateur déterministe, zéro LLM dans la boucle), Phase 2 en cours,
+Phase 3 plus avancée qu'évalué au départ, Phase 5 la moins avancée. Le prototype Three.js
+lit désormais le manifeste au lieu de porter ses données en dur. Quatre registres déclarés
+(*tasawwuf*, *qabbalah*, *hindouisme-tantra*, *vedanta*), un seul ancrage inter-registre.
+Les chantiers ouverts depuis fin août — unification des axes, figuration de
+l'incommensurable — sont **bloqués en amont sur des questions doctrinales**, non sur du
+code. *Source vivante : `atelier/rd/registre-chantiers.md` §1.*
+
+### L'infrastructure et les agents
+
+Serveur Hetzner (2 vCPU, 3,7 Go, sans GPU) : hôte d'orchestration et du dépôt, jamais
+d'inférence locale. **14 profils Hermes**, dont 12 agents de rôle qui tournent en continu :
+cycle de Consultation (*shūrā*) quotidien, un tour par agent toutes les deux heures, plus
+les crons de monitoring, de veille protocole et de veille référencement. L'inférence passe
+par des fournisseurs tiers — bascule OmniRoute du 2026-08-26 ; **la transition vers un
+modèle open-source local reste un objectif, pas un acquis** (voir la fiche `03-`, dont le
+scénario Ornith/Qwen sur RunPod est dépassé).
+
+### Le dépôt comme laboratoire
+
+Le pôle R&D (`atelier/rd/`, ouvert le 2026-08-08) consigne l'ingénierie et porte depuis le
+2026-09-01 la **carte vivante de tous les chantiers** du dépôt, doctrine incluse :
+`atelier/rd/registre-chantiers.md` — **46 chantiers ouverts**, dont une dizaine qui
+n'attendent qu'une décision de Sidy. L'outillage déterministe compte une dizaine de
+scripts sans LLM ni réseau ; le juge de paix, `verifier-invariants.py`, rend
+`0 erreur, 0 avertissement` sur 710 fiches, et le contrôle `lint` qui garde la branche
+`main` exécute enfin les mêmes contrôles.
+
+### Ce qui reste ouvert, en une phrase par poste
+
+| Poste | Ce qui bloque ou attend |
+|---|---|
+| Doctrine | 37 discernements en attente de verdict ; citations `to-source` à vérifier sur texte primaire |
+| Instrument | des questions doctrinales en amont du rendu, pas des questions de code |
+| Infrastructure | l'automatisation de la veille reste écrite mais non câblée ; l'isolation mémoire par sub-agent est bloquée en amont |
+| Modèle local | objectif intact, aucun matériel GPU ; la stratégie hybride tient |
+| Protocole | quelques régularisations de Sceau, et la revue périodique du registre à confier |
+
+---
+
+## 3 bis. État des travaux — snapshot daté du 2026-07-01 *(conservé, ne fait plus foi)*
 
 > Source vivante et faisant autorité pour l'inventaire : **`doctrinal/index.md`** (le Catalogue
 > Universel). Les ordres de grandeur ci-dessous datent de ce snapshot et dérivent par la suite —
@@ -152,3 +213,20 @@ prononce sur la structure, jamais sur le principe métaphysique.
   > `publication`) sur OmniRoute le 2026-08-26, sous quota Qwen épuisé — voir la fiche R&D
   > `atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md`. Le paragraphe
   > ci-dessus est conservé comme jalon du 2026-08-07 (Cmd 10) ; il ne décrit plus l'état courant.
+
+- **2026-08-08** — ouverture du **pôle R&D** (`atelier/rd/`, verdict Sidy, Option C) ;
+  16 fiches migrées de `atelier/projets/` fiche par fiche ; registre des problèmes ouvert.
+- **2026-08-11 → 08-22** — outillage déterministe (détection du non-tracké, cohérence
+  d'infrastructure, cartographie) ; éclatement du protocole en `CLAUDE.md` racine + locaux
+  de circuit (méthode à l'essai) ; ouverture de `rd/veille/`, `rd/bibliotheque/`,
+  `rd/incidents/` ; incident de contamination Unicode et Commandement 15.
+- **2026-08-23** — incident de mémoire persistante Hermes diagnostiqué et résolu.
+- **2026-08-26 → 08-31** — bascule OmniRoute sous quota Qwen épuisé ; migration des prompts
+  d'agents vers la nomenclature modulaire (1 rôle sur 12 aligné) ; régénération du graphe ;
+  dispositifs **Choura**, **queue d'idées** et **pôle Usûl** validés et mis en service.
+- **2026-09-01** — passe d'organisation des deux pôles : ouverture du **registre des
+  chantiers** (carte vivante de tous les travaux, doctrine incluse) ; états périmés
+  redressés dans le présent dossier ; périmètre des validateurs corrigé (`OUT-01`) ; fait
+  personnel sorti des pages neutres (`PRO-02`) ; contrôle `lint` de GitHub réparé — il ne
+  validait rien depuis le 2026-06-11 — et garde-fou `pre-push` installé (`PRO-01`).
+  Réorganisation du présent dossier en `archives/`, `propositions/`, `outillage/`.

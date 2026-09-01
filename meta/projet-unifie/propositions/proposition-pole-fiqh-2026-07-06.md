@@ -11,7 +11,7 @@ updated: 2026-08-27
 
 > **`deprecated` le 2026-08-27** (verdict Sidy, exécution effective) : cette
 > proposition est **supersédée** par
-> [[meta/projet-unifie/proposition-pole-usul-2026-08-27]], qui élargit le pôle
+> [[meta/projet-unifie/propositions/proposition-pole-usul-2026-08-27]], qui élargit le pôle
 > Fiqh en pôle **Usûl** (Fiqh devient une branche parmi Manṭiq et Muṣṭalaḥ
 > al-ḥadīth). Rien du contenu ci-dessous n'est perdu (Cmd 10) : la matière
 > déjà validée (répartition agents 04/10, textes de base mālikite, bloc ⚖️)

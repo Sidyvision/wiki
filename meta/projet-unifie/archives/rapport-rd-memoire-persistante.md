@@ -6,7 +6,7 @@ created: 2026-08-23
 updated: 2026-09-01
 sources: []
 links:
-- '[[meta/projet-unifie/synthese-ressources-deployees]]'
+- '[[meta/projet-unifie/archives/synthese-ressources-deployees]]'
 - '[[atelier/rd/outillage/spec-srs-hermes-native]]'
 ---
 

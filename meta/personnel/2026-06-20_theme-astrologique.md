@@ -5,7 +5,7 @@ tags: [astrologie, profil-personnel]
 created: 2026-06-20
 updated: 2026-08-09
 sources: ["[[chatgpt-export-2026-05-10]]"]
-links: ["[[doctrinal/symboles/ilm-al-nujum]]", "[[meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08]]"]
+links: ["[[doctrinal/symboles/ilm-al-nujum]]", "[[meta/projet-unifie/archives/16-mise-en-regard-theme-natal-roue-agents-2026-08-08]]"]
 ---
 
 # Thème astrologique personnel
@@ -51,7 +51,7 @@ Aspects majeurs entre les sept planètes (orbe ≤ 3°) : Lune conj. Mars (2.5°
 Lune/Mars sextile Jupiter (0.5–2.0°) ; Saturne conj. Ascendant (1.7°).
 
 Mise en regard avec la roue zodiacale des agents et instruction de la position 5 :
-[[meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08]].
+[[meta/projet-unifie/archives/16-mise-en-regard-theme-natal-roue-agents-2026-08-08]].
 
 ## Historique (conservé, daté — ne pas réutiliser)
 

@@ -193,5 +193,5 @@ Pas de surcharge CPU.
 - [[etat-serveur-hermes-2026-08-11]] — mesures brutes et détails techniques
 - [[synchro-obsidian-working-copy-github]] — procédure Obsidian/Working Copy
 - [[infrastructure-ssh-statu-quo]] — décision statu quo SSH
-- `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md` — détails profils Hermes
+- `meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07.md` — détails profils Hermes
 - `atelier/rd/cahiers/registre-problemes.md` — diagnostics ouverts

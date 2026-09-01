@@ -5,7 +5,7 @@ tags: [rd, infrastructure, hermes, discord, studio, phase-3]
 created: 2026-08-16
 updated: 2026-08-17
 sources: []
-links: ["[[meta/projet-unifie/15-architecture-discord-hermes-2026-08-07]]", "[[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]]", "[[atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16]]"]
+links: ["[[meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07]]", "[[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]]", "[[atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16]]"]
 infra_verif:
   - profil: studio
     discord_allowed_channels: ["1535173127695241248", "1534857297321394248", "1536564394690084925"]
@@ -108,6 +108,6 @@ si le mode free-response est souhaité).
   (allowlist fail-closed, voir
   [[atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16|fiche
   Telegram Mehdi]]). Aucun ajout demandé ni effectué.
-- **Fiche 15 (`meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md`)** :
+- **Fiche 15 (`meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07.md`)** :
   mise à jour pour refléter que `#infrastructure` est désormais
   actif (salon de l'agent `studio`).
