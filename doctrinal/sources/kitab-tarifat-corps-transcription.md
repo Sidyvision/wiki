@@ -42,13 +42,18 @@ cross_links: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sou
 | Clichés transcrits | **54 / 54** |
 | Pages distinctes | **52** (deux pages photographiées en double : p. 68 et p. 395) |
 | Définitions transcrites depuis les clichés | **205** |
-| Définitions de l'annexe hors clichés | **15** (déf. 0561-0567 et 1235-1242) |
+| Définitions de l'annexe hors clichés | **15** (déf. 0561-0567, page non indiquée ; déf. 1235-1242, à partir de la p. 336) |
 | **Total** | **220** définitions distinctes, de 0010 à 1864 |
 
 Contrôle mécanique indépendant (§VIII.2) :
 `python3 atelier/rd/outillage/verifier-transcription-jurjani.py --racine /root/wiki`
 — sortie brute du 2026-09-01 : `54/54 clichés cités, 0 inversion page/définition,
+0 définition manquante dans une page, 0 discontinuité entre pages voisines,
 0 caractère invisible, RESULTAT : 0 anomalie(s)`.
+
+Le contrôle `[2]` ne compte que **50** pages : les deux clichés d'ouverture de lettre
+(Râʾ et Nûn) ne portent pas de numéro de page imprimé et sont donc hors de ce test-là —
+ils passent les contrôles `[1]`, `[3]`, `[4]` comme les autres.
 
 <!-- INSERTION: QUEUE -->
 
@@ -1751,12 +1756,17 @@ C'est celui qu'on exprime en pensant de son objet qu'il est de telle manière al
 Aš-Šâfiʿî soutient que c'est le serment au sujet duquel l'homme n'a pas de conviction intérieure, comme ces propos [inconsidérés] qu'il se tient : "Non ! par Dieu !" ou encore : "si ! par Dieu !"
 ---
 
-## Annexe — Définitions transcrites hors clichés (pages 177-178 et 336-337)
+## Annexe — Définitions transcrites hors clichés (déf. 0561-0567 et 1235-1242)
 
 > **Provenance distincte, et plus faible.** Cette annexe ne provient **pas** des
 > photographies de `raw/Transcription Jurjani/` : elle reprend le fichier
 > `raw/Jurjani (définitions).md`, une transcription antérieure déposée dans `raw/`,
-> dont les pages correspondantes **ne figurent pas** parmi les 54 clichés. Ce texte
+> dont les pages correspondantes **ne figurent pas** parmi les 54 clichés.
+> **Pagination — ce que la source dit et ce qu'elle ne dit pas.** Le fichier
+> `raw/Jurjani (définitions).md` ne porte qu'**un seul** marqueur de page, « 336 »,
+> placé avant la déf. 1235. La page des déf. **0561-0567 n'est donc pas indiquée** et
+> n'est pas inférée ici (Cmd 5) ; celle des déf. **1235-1242** est « à partir de la
+> p. 336 », le report sur la page suivante n'étant pas attesté par la source. Ce texte
 > porte des altérations manifestes de reconnaissance optique (`al-qaba` pour
 > *al-qabḍ*, `magâm` pour *maqâm*, `Mank` pour Mâlik, `Ion Hanbal` pour Ibn Ḥanbal,
 > `hiyâl` pour *ḫayâl*). Les translittérations sont ici **normalisées** sur la

@@ -143,8 +143,9 @@ comme argument.
 
 1. ~~**Les définitions d'al-Jurjānī** entrant dans `raw/`~~ — ✅ **fait le 2026-09-01**
    (voir plus haut). Ce point est acquis : le classement *aḥwāl* est reçu, non inféré.
-   Il reste à le **collationner sur l'exemplaire physique** (§VII.2), les pages 177-178
-   et 336-337 n'étant pas parmi les clichés.
+   Il reste à le **collationner sur l'exemplaire physique** (§VII.2) : ces définitions
+   ne sont pas parmi les clichés, et leur source ne donne de numéro de page que pour la
+   déf. 1235 (« 336 ») — la page de la déf. 0563 n'est pas attestée.
 2. **Un texte traditionnel appariant les termes**, ou en tenant lieu — le dossier
    [[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]] est le modèle de ce
    qui rend une correspondance solide : elle y est « reçue d'un texte traditionnel qui
