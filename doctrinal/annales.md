@@ -9,6 +9,40 @@ updated: 2026-09-01
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] correction | Pagination de l'annexe Jurjānī rectifiée (entrée du même jour)
+
+Rectification de l'entrée d'archivage ci-dessous, qui reste **inchangée** (annales
+append-only) : elle situe l'annexe hors clichés « pages 177-178 et 336-337 ». C'est faux
+pour le premier bloc.
+
+**L'erreur.** L'inventaire de la fiche elle-même place **p. 178 = déf. 0584-0587**,
+transcrite depuis `IMG_0178`. Les déf. 0561-0567 ne peuvent donc pas s'y trouver : il
+faudrait loger seize définitions (0568-0583) dans une seule frontière de page, dans une
+édition qui en porte quatre à sept. Vérification du fichier source
+`raw/Jurjani (définitions).md` : il ne contient **qu'un seul** marqueur de page, « 336 »,
+placé avant la déf. 1235. La page des déf. 0561-0567 n'y est **pas donnée**.
+
+**Ce qui est corrigé.** La page des déf. 0561-0567 est déclarée **non indiquée par la
+source** et n'est plus inférée (Cmd 5). Celle des déf. 1235-1242 devient « à partir de la
+p. 336 » — le report sur une p. 337 n'était pas attesté non plus.
+
+**Racine.** Une inférence de commodité présentée comme un fait, dans une fiche `source`.
+Le contraste avec le reste de la passe est instructif : les 52 pages transcrites depuis
+les clichés portent chacune leur numéro **lu sur l'image**, et le juge de paix les
+contrôle ; ces deux blocs-là venaient d'un fichier texte sans pagination, et c'est
+précisément là — hors du champ de l'outil — que la page a été inventée. Un contrôle
+mécanique ne protège pas de ce qu'il ne mesure pas.
+
+**La réserve de provenance, elle, était juste** et reste inchangée : ni l'un ni l'autre
+bloc n'est parmi les clichés (les pages photographiées sautent de 333 à 361), et le
+collationnement sur l'exemplaire physique reste dû par Sidy.
+
+Fiches touchées : `doctrinal/sources/kitab-tarifat-corps-transcription.md`,
+`doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique.md`.
+
+- **Commit** : 4511388
+
+
 ## [2026-09-01] archivage | Corps des définitions du Kitāb al-Taʿrīfāt — 220 définitions versées
 
 Transcription intégrale du corps des définitions d'al-Jurjānī à partir des 54 clichés
