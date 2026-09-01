@@ -10,6 +10,62 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] correction | PRO-01 : la porte de `main` était gardée par un contrôle qui ne regardait rien
+
+Troisième et dernier chantier de la journée, sur verdict de Sidy.
+
+**Le fait était plus net que la ligne ne le disait.** Le chantier parlait d'une protection
+« contournable ». En réalité la protection existe et exige un contrôle `lint` — mais ce
+contrôle **ne validait rien** : le workflow parcourait un dossier `wiki/` et exigeait
+`wiki/entities`, `wiki/concepts`, `wiki/schema`… c'est-à-dire **l'arborescence plate
+abandonnée par la Restauration Guénon V1 du 2026-06-11**. Aucun de ces chemins n'existe :
+la racine du dépôt *est* le wiki. Le job inspectait zéro fichier et imprimait
+« Frontmatter OK » sur rien. Un fossile resté en place près de trois mois — parce qu'un
+contrôle vert n'attire pas le regard.
+
+**Réparé.** Le job exécute désormais `verifier-invariants.py` et l'hygiène Unicode
+(Cmd 15), tous deux bloquants, plus deux contrôles informatifs. Il **garde son nom**
+`lint` : c'est le contexte exigé par la protection, le renommer laisserait la branche
+gardée par un contrôle inexistant. **Vérifié en bac à sable qu'il peut échouer** — clé de
+Sceau absente, ZWJ dans une fiche — car un contrôle incapable d'échouer était tout le
+défaut. Le CI inspecte 709 fiches.
+
+**`enforce_admins` reste à `false`, acté et non subi** (verdict de Sidy). Le durcir
+imposerait un flux par pull request aux treize acteurs qui poussent aujourd'hui en direct
+sous la même identité : Sidy depuis Termius, les douze agents depuis leurs crons. Le
+réglage devient un choix documenté.
+
+**Contrepartie : un garde-fou local.** Hook `pre-push` qui exécute **exactement** ce que le
+CI exécute, dans le même ordre, et refuse le push si le dépôt est en défaut — la faute est
+arrêtée avant de quitter la machine au lieu d'être signalée en rouge après coup. Un
+garde-fou qui diverge de la porte qu'il double ne sert qu'à donner confiance à tort. Ce
+n'est pas une serrure : `--no-verify` le contourne délibérément ; il empêche
+l'inattention, pas la décision.
+
+**Les hooks sont versés au dépôt** ([[atelier/rd/outillage/hooks/README]]) avec leur
+installateur. Motif : `.git/hooks/` n'est pas versionné. Le `pre-commit` d'hygiène Unicode
+existait depuis le 2026-08-22, écrit après l'incident ZWJ, mais **uniquement sur cette
+machine** — un clone repartait sans lui et rien ne l'aurait dit. Versé inchangé, copie
+conforme ; l'installateur ne remplace jamais un hook différent sans le sauvegarder (Cmd 10).
+
+**Une leçon de méthode, payée trois fois.** En rédigeant le contrôle Cmd 15 — dans le
+workflow, puis dans le hook, puis dans le README qui décrit cette leçon même — les
+caractères invisibles ont été inscrits **littéralement** au lieu d'être désignés par leur
+point de code. La troisième occurrence a été attrapée par le hook lui-même avant le
+commit, ce qui est exactement son office. **L'outil qui fait respecter une règle est le
+premier endroit où on l'enfreint**, parce qu'on y manipule précisément la chose interdite :
+un détecteur doit désigner ce qu'il cherche, jamais le contenir. Consigné à
+[[atelier/rd/cahiers/registre-problemes]] avec le fossile du `lint`.
+
+**Registre** : `PRO-01` versé en §9 sans être supprimé ; §0 recompté — 46 chantiers
+ouverts, 6 clos ou caducs. Les trois chantiers signalés ce matin (`OUT-01`, `PRO-02`,
+`PRO-01`) sont clos.
+
+**Vérification** : `verifier-invariants.py` → `0 erreur(s), 0 avertissement(s)`.
+
+- **Commit** : 037cc1c (réparation du workflow) · 7f52f33 (hooks, registre, leçon consignée)
+
+
 ## [2026-09-01] correction | OUT-01 et PRO-02 traités : périmètre des validateurs, fait personnel sorti des pages neutres
 
 Verdict de Sidy sur les deux chantiers signalés le matin même.
