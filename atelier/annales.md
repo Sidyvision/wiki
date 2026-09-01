@@ -10,6 +10,40 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] archivage | Cartographie de routing infrastructure (hardware, software, canaux, points forts/fragiles)
+
+Sur demande de Sidy : pendant du routing du studio musique
+([[atelier/materiel/studio-principal]]) pour l'infrastructure informatique
+globale. Nouvelle fiche
+[[atelier/rd/infrastructure/cartographie-routing-infrastructure]] :
+inventaire hardware (serveur Hetzner) et software (14 profils Hermes,
+`omniroute`, `hermes-webui`, Tailscale Funnel, fournisseurs LLM), routing
+des six canaux d'entrée/sortie (Git/SSH, Discord, Telegram ×2, Terminal
+scopé, webui/Tailscale, API LLM) convergeant sur le sas `_inbox/`, et lecture
+croisée **points forts/stables vs points fragiles** — geste demandé
+explicitement, absent des fiches de constat pur existantes (§VIII.2).
+
+Aucune mesure nouvelle exécutée sur le serveur : synthèse de fiches déjà
+consignées (architecture globale du 2026-08-11, incidents omniroute/RAM du
+2026-08-27/28, canaux Telegram Mehdi/Wendel, configuration Hermex/Tailscale)
+croisée avec le relevé de monitoring déjà persisté du 2026-08-31
+(`monitoring-archive/2026-08-31_41dc3e7e492c.txt`). Deux écarts non
+instruits signalés dans la nouvelle fiche (§6) plutôt que résolus d'office :
+état `failed` (au lieu d'`inactive`) de 7 gateways Discord au 2026-08-31,
+divergent de la décision consignée le 2026-08-28 ; profil `commerce` absent
+du relevé systemd.
+
+Pointeur ajouté dans `atelier/index.md` (bullet `rd/infrastructure/`) ;
+renvoi ajouté depuis
+[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11]]
+(`updated` bumpé au 2026-09-01, seule modification de fond apportée à cette
+fiche).
+
+`verifier-invariants.py --racine /home/user/wiki` : 726 fichiers `.md`
+contrôlés, 0 erreur, 0 avertissement.
+
+- **Commit** : 0617c79
+
 ## [2026-09-01] epreuve | Les quatre contrôles du jour, éprouvés par leur échec
 
 Neuvième et dernière passe. Sidy verse au protocole la règle dégagée à la passe
