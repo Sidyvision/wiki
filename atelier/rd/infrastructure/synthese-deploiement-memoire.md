@@ -3,12 +3,22 @@ title: "Synthèse déploiement mémoire persistante — 14 profils Hermes"
 type: infrastructure
 tags: [rd, hermes, memoire, deployement]
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-01
 sources: []
 links: []
 ---
 
 # Synthèse déploiement mémoire persistante et ressources — 2026-08-23
+
+> **Fiche déplacée de la racine de `atelier/rd/` vers `infrastructure/` le 2026-09-01**,
+> avec son historique git. Elle y avait sa place par sa nature — architecture et
+> déploiement d'infrastructure — mais elle traînait à la racine du pôle, hors de toute
+> arborescence déclarée et sans lien entrant.
+>
+> **Une section a été retirée** dans le même mouvement (voir § Soutien Sidy plus bas) :
+> elle portait du fait personnel en page neutre. C'est la seule intervention faite sur le
+> corps ; tout le reste est intact.
+
 
 ## Problème initial
 
@@ -121,44 +131,16 @@ elif exempt_c3 and tete == "meta" and circ is not None and circ != "meta":
 - Fichier cartes : srs-cards.yaml
 - À faire : commande interactive + cron quotidien
 
-## Soutien Sidy — plan d'action
+## Soutien Sidy — plan d'action *(retiré le 2026-09-01, étanchéité §VI)*
 
-### Personnel
-
-**1. Suivi pratique spirituelle**
-- Mémoire complète injectée dans chaque session (khalwa, rattachement, pratique actuelle, arc Kaaba)
-- À valider : cron rappel quotidien (06:00 UTC = 08:00 Paris) pour Dalail al-khayrat, wadhifa Naqshbandi
-- À valider : suivi rêves/visions (arc Kaaba, double protecteur)
-
-**2. Soutien émotionnel**
-- Relations clés mémorisées (Karūbī, collaborateurs, famille)
-- Contexte spirituel intégré (convalescence, rattachement, fragilité pratique)
-- Concepts personnels (initiation virtuelle, incandescence du manque amoureux)
-
-**3. Réduction charge mentale**
-- Plus besoin de réexpliquer le contexte à chaque session
-- Crons automatisés (veille infrastructure, monitoring)
-- Bureau TUI pour consultation rapide
-- SRS pour révision protocole (5-10 min/session)
-
-### Professionnel
-
-**1. Label "Dans l'Absolu"**
-- 12 agents Hermes avec mémoire spécifique à chaque rôle
-- Extension zodiacale (9 brouillons, positions 5/8/12 en attente)
-- Outillage Karūbī (5 instances actives, navette-retour automatisé)
-
-**2. Pôle R&D**
-- Veille infrastructure quotidienne (cron actif)
-- Bureau TUI fonctionnel (6 modules, 3 services)
-- Scripts déterministes (4 scripts actifs)
-- Documentation complète (bilan, plan action, synthèse)
-
-**3. Infrastructure**
-- 12 profils Hermes avec mémoire persistante
-- Monitoring quotidien (cron 12:00 UTC)
-- Hébergement Hetzner (2 vCPU, 3.7GB RAM)
-- Phase 3 veille infrastructure déployée
+> Cette section décrivait la pratique spirituelle, l'état de santé, les relations et
+> plusieurs concepts personnels de Sidy — **du fait personnel dans une page neutre**, ce
+> que le §VI interdit sans réserve. Elle est retirée d'ici, **et rien n'est perdu** : la
+> même matière est portée par la fiche de plan d'action versée le même jour au Domaine
+> Réservé, où elle a toujours eu sa place (Cmd 10 — déplacement, jamais suppression sèche).
+>
+> Ce qui, dans cette section, relevait de l'ingénierie et non de la personne est conservé
+> ci-dessus (§ Ressources déployées) et ci-dessous (§ Chantiers prioritaires).
 
 ## Chantiers prioritaires ouverts
 
@@ -168,10 +150,15 @@ elif exempt_c3 and tete == "meta" and circ is not None and circ != "meta":
 - Tester avec Sidy
 - Livrable : révision protocole 5-10 min/session
 
-### B. Suivi spirituel Sidy — à définir
-- Cron rappel quotidien (à valider : fréquence, format, canal)
-- Suivi rêves/visions (arc Kaaba, double protecteur)
-- Consolidation mémoire régulière (hebdomadaire ?)
+### B. Suivi personnel — *hors périmètre du pôle R&D*
+
+> *Bloc retiré le 2026-09-01 (étanchéité §VI) : il portait l'identité, la voie et la
+> pratique spirituelles, l'état de santé, les relations et les rêves de Sidy — du fait
+> personnel dans une page neutre. La matière est conservée au Domaine Réservé, où elle a
+> toujours eu sa place ; rien n'est perdu (Cmd 10). Ce qui relevait de l'ingénierie est
+> maintenu ci-dessous.*
+
+> Suivi au Domaine Réservé, pas ici.
 
 ### C. Anomalies frontmatter bloquantes — 3 fichiers
 - atelier/stealing-reasoning-traces-rd.md : frontmatter absent

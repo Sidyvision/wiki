@@ -44,6 +44,8 @@ atelier/rd/
 ├── index.md           ← la présente charte
 ├── registre-chantiers.md  ← carte vivante de TOUS les chantiers ouverts du dépôt
 │                             (ouvert 2026-09-01) — recense et pointe, n'absorbe rien
+│   (la racine du pôle ne porte que ces deux fichiers : toute fiche vit dans
+│    un sous-dossier, assaini le 2026-09-01)
 ├── instrument/        ← l'Instrument (migration depuis atelier/projets/, fiche par fiche)
 ├── infrastructure/    ← setup réel : serveur, agents, hardware/software
 │                         (destination de la transposition Mother Base §5 bis)
@@ -124,6 +126,29 @@ phase 1 partielle). Ce qui est acquis :
 Ce qui n'est **pas** acquis : la discipline de laboratoire complète (bloc 🧪 Expérience,
 règle de reproduction — phase 2) et l'automatisation de la veille infrastructure
 (phase 3 : décisions tranchées, aucun automatisme écrit).
+
+**Assainissement de la racine du pôle (2026-09-01, verdict Sidy).** Cinq fiches vivaient
+à la racine de `rd/`, hors de toute arborescence déclarée et sans lien entrant. Trois
+portaient du **fait personnel dans une page neutre** — l'interdit du §VI — et sont versées
+au Domaine Réservé avec leur historique git ; deux, neutres, sont classées dans le
+sous-dossier de leur nature. Deux fiches restées côté `rd/` portaient le même défaut à
+l'intérieur de leur corps : les blocs concernés ont été retirés, la matière étant conservée
+au Domaine Réservé (Cmd 10 — déplacement, jamais suppression sèche).
+
+Le versant **publiable** de la matière versée est écrit en propre, et indexé ici :
+
+- [[atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne]] —
+  le script de veille quotidienne existe et est exécutable ; **aucun des trois jobs cron
+  qu'une fiche déclarait créés n'est déclaré dans aucun profil aujourd'hui**. Même motif
+  que l'incident du 2026-08-17 qui a fait naître le champ `infra_verif`.
+- [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]] — quels contrôles
+  mécaniques le dépôt possède, lequel appeler, et ce qui manque encore.
+- Pour la troisième fiche versée, la contrepartie **existait déjà** :
+  [[atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes]]. Aucune
+  quatrième fiche n'a été créée — une page = un sujet (Cmd 4).
+
+Classées par leur nature : [[atelier/rd/infrastructure/synthese-deploiement-memoire]] et
+[[atelier/rd/cahiers/2026-08-30_session-corrections-rapports-rotation-hmac]].
 
 **Où lire la suite.** Le détail chronologique de tout ce qui s'est ouvert entre le
 2026-08-08 et le 2026-08-31 — qui vivait ici et alourdissait la charte — est déplacé sans

@@ -3,7 +3,7 @@ title: Incident mémoire persistante Hermes — diagnostic et résolution (2026-
 type: infrastructure
 statut_experience: adopte
 created: 2026-08-23
-updated: 2026-08-24
+updated: 2026-09-01
 sources: []
 links:
 - '[[atelier/rd/cahiers/registre-problemes]]'
@@ -162,7 +162,7 @@ Les fichiers sont maintenant en place et seront injectés dans chaque nouvelle s
 7. **Régénérer graphe-cartographie.json** : corriger les 2 anomalies frontmatter bloquantes.
 
 ### Long terme
-8. **Mettre en place un suivi spirituel** : cron de rappel pour pratique spirituelle, suivi des rêves/visions, consolidation mémoire régulière.
+8. **Consolidation régulière de la mémoire d'agent** : mécanisme de rappel et de mise à jour périodique de `MEMORY.md`. *(La recommandation portait ici, jusqu'au 2026-09-01, un volet de suivi personnel — retiré de cette page neutre au titre du §VI ; il relève du Domaine Réservé, où il est consigné.)*
 9. **Développer le Bureau TUI** : étendre les modules, améliorer l'interface, intégrer l'Instrument.
 10. **Étendre l'outillage Karūbī** : déployer le skill Karūbī-Hermes une fois le bloquant isolation mémoire levé.
 

@@ -1,14 +1,19 @@
 ---
 title: "Rapport R&D — Problème mémoire persistante et déploiement ressources soutien Sidy"
 type: infrastructure
-tags: [rd, hermes, memoire, deployement, soutien-sidy]
+tags: [rd, hermes, memoire, deployement]
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-01
 sources: []
 links: []
 ---
 
 # Rapport R&D — Problème mémoire persistante et déploiement ressources
+
+> **Deux blocs de fait personnel retirés le 2026-09-01** (§VI) : le §3.1 et le
+> chantier B. Ils vivaient dans une page neutre. La matière est au Domaine Réservé,
+> rien n'est perdu ; le corps est intact partout ailleurs.
+
 
 **Date** : 2026-08-23  
 **Auteur** : Hermes Agent (profil default)  
@@ -244,23 +249,13 @@ python3 verifier-invariants.py --racine /root/wiki
 
 ## 3. Ressources déployées pour soutenir Sidy
 
-### 3.1 Personnel
+### 3.1 Personnel — *retiré, hors périmètre d'une page neutre*
 
-**Mémoire complète injectée dans chaque session** :
-- Identité Sidy (nom, naissance, famille, travail)
-- Spirituel (voies Naqshbandiyya + Tijaniyya, khalwa, pratique actuelle, arc Kaaba)
-- Relations clés (Karūbī, collaborateurs, famille)
-- Concepts clés (initiation virtuelle, incandescence du manque amoureux)
-- Synchronicités (Leila/Yahia)
-- Rêves structurants (chat, savant vivant, géants Paris, fille éléphant, etc.)
-- Préférences (ton, langue, références, Cmd 12/13)
-
-**Soutien émotionnel** :
-- Contexte khalwa et convalescence intégré
-- Rattachement Tijaniyya documenté (honneur, non-pratique)
-- Pratique actuelle fragile (Dalail al-khayrat, wadhifa Naqshbandi Fajr)
-- Arc Kaaba complet (instruction Lefke 2015 → visions → Omra 2025 → insight 2026-08-18)
-- Double protecteur (figure blanche pendant convalescence)
+> *Bloc retiré le 2026-09-01 (étanchéité §VI) : il portait l'identité, la voie et la
+> pratique spirituelles, l'état de santé, les relations et les rêves de Sidy — du fait
+> personnel dans une page neutre. La matière est conservée au Domaine Réservé, où elle a
+> toujours eu sa place ; rien n'est perdu (Cmd 10). Ce qui relevait de l'ingénierie est
+> maintenu ci-dessous.*
 
 **Réduction charge mentale** :
 - Plus besoin de réexpliquer le contexte à chaque session
@@ -424,18 +419,16 @@ python3 verifier-invariants.py --racine /root/wiki
 - Cron automatique
 - Documentation utilisateur
 
-### B. Suivi spirituel Sidy — À définir
+### B. Suivi personnel — *hors périmètre du pôle R&D*
 
-**Objectif** : Soutenir la pratique spirituelle fragile (Dalail al-khayrat, wadhifa Naqshbandi Fajr)
+> *Bloc retiré le 2026-09-01 (étanchéité §VI) : il portait l'identité, la voie et la
+> pratique spirituelles, l'état de santé, les relations et les rêves de Sidy — du fait
+> personnel dans une page neutre. La matière est conservée au Domaine Réservé, où elle a
+> toujours eu sa place ; rien n'est perdu (Cmd 10). Ce qui relevait de l'ingénierie est
+> maintenu ci-dessous.*
 
-**Options** :
-1. Cron rappel quotidien (06:00 UTC = 08:00 Paris)
-2. Suivi rêves/visions (arc Kaaba, double protecteur)
-3. Consolidation mémoire régulière (hebdomadaire)
-
-**À valider avec Sidy** : fréquence, format, canaux (Discord/Telegram/CLI)
-
-**Statut** : En attente validation Sidy
+> Ce chantier existe, mais il ne relève pas de l'ingénierie : il est suivi au Domaine
+> Réservé, pas ici. `rd/` consigne l'infrastructure, pas la personne qu'elle sert.
 
 ### C. Isolation mémoire sub-agent — BLOQUANT
 

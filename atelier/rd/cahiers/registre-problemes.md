@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-08-31
+updated: 2026-09-01
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,65 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-01] Un validateur dont le bruit masquait ses propres trouvailles — et trois crons déclarés qui n'existent pas
+
+### 1. Le périmètre du vérificateur d'invariants
+
+- **Symptôme** : `python3 verifier-invariants.py --racine /root/wiki` rendait
+  `210 erreur(s)`. Au tri manuel, **209** provenaient de `atelier/rd/outillage/.graphify-venv/`,
+  de `atelier/rd/infrastructure/bureau/.venv/` et du sas `raw/` — des dépendances tierces et
+  des fichiers que `.gitignore` exclut explicitement. La 210ᵉ était réelle :
+  `hermeneutique/annales.md` portait `updated: 2026-08-30` alors que sa dernière entrée
+  datait du 2026-09-01 (contrôle A3, Cmd 8).
+- **Diagnostic** : le script parcourait le système de fichiers (`os.walk`) sans jamais
+  consulter `.gitignore` ; sa seule exclusion était une liste en dur
+  (`.git`, `node_modules`, `_inbox`). Le défaut n'est pas le nombre : c'est que **le bruit
+  a effectivement caché la seule erreur vraie**, qui n'a été vue que parce qu'on a trié à
+  la main. Un validateur dont la sortie doit être triée à la main ne valide plus rien — et
+  pire, il entraîne à ignorer sa sortie.
+- **Résolution** (verdict de Sidy, 2026-09-01) : le script interroge git
+  (`git ls-files --others --ignored --exclude-standard --directory -z`) et ne contrôle que
+  ce qui appartient au dépôt. Repli sur l'exclusion des dossiers cachés quand la racine
+  n'est pas un dépôt git (bacs à sable de non-régression). **Le périmètre appliqué est
+  annoncé en tête de sortie**, avec le nombre de fiches contrôlées : il n'est jamais
+  silencieux. `--tout` restitue le comportement antérieur — rien n'est hors de portée du
+  script, c'est un choix d'appel et non une amputation. Résultat sur le dépôt réel :
+  `707 fichier(s) contrôlé(s) — 0 erreur(s), 0 avertissement(s)`.
+- **Compréhension tirée** : le critère n'a pas été inventé. `.gitignore` dit déjà ce qui
+  appartient au dépôt ; le validateur ne faisait que ne pas l'écouter. Quand un contrôle et
+  une règle existante divergent, il faut souvent aligner le contrôle sur la règle plutôt
+  qu'ajouter une règle.
+- **Liens** : `verifier-invariants.py` ; guide de déploiement (cf. Domaine Réservé) ;
+  [[atelier/rd/registre-chantiers]] `OUT-C2` ;
+  [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]].
+- **Statut** : `resolu`.
+
+### 2. Trois jobs cron déclarés créés, introuvables — récidive du motif du 2026-08-17
+
+- **Symptôme** : en écrivant la contrepartie neutre d'une fiche de session du 2026-08-23,
+  vérification faite des jobs qu'elle déclarait créés, identifiants et cadences à l'appui
+  (`veille-infrastructure-quotidien`, id `6bc182f45d2c` ; `veille-rd-hebdomadaire` ;
+  `investigation-doctrinale-gardien`). **Aucun des trois n'est déclaré** dans les quatorze
+  profils de `/root/.hermes/profiles/*/cron/jobs.json`. Le script
+  `veille-infrastructure-quotidien.sh`, lui, existe bien et est exécutable.
+- **Diagnostic** : deux lectures possibles, **non tranchées** — jobs créés puis perdus lors
+  d'une reconfiguration ultérieure (migration OmniRoute du 2026-08-26, migration des
+  prompts du 2026-08-31), ou jamais créés. Seul l'état d'aujourd'hui est établi. C'est
+  exactement le motif de l'entrée `[2026-08-17]`, celle qui a fait naître le champ
+  `infra_verif` : une fiche avait affirmé la création d'un job cron jamais créé.
+- **Résolution** : aucune configuration touchée — ce n'est pas le rôle de la passe. Le fait
+  est consigné dans une fiche neutre datée
+  ([[atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne]]),
+  qui **ne porte délibérément aucun `infra_verif`** : ce champ atteste une configuration
+  appliquée, et il n'y en a pas à attester. La ligne `INF-03` du registre porte désormais
+  cette preuve.
+- **Compréhension tirée** : le champ `infra_verif` ne suffit pas s'il n'est pas *porté* par
+  les fiches qui déclarent une configuration. La leçon du 2026-08-17 a produit un outil, pas
+  une habitude. Toute fiche qui affirme qu'un cron, un canal ou un profil existe devrait
+  soit porter son `infra_verif`, soit ne pas l'affirmer.
+- **Statut** : `ouvert` — la remise en service éventuelle des jobs relève de `INF-03`, en
+  attente du verdict de Sidy.
+
 
 ## [2026-08-31] Qualification d'un joint entre deux termes qui n'en faisaient qu'un — et deux erreurs de fait dans une fiche doctrinale non sourcée
 

@@ -121,6 +121,9 @@ updated: 2026-09-01
 - [[meta/projet-unifie/proposition-pole-usul-2026-08-27|Proposition — Pôle Usûl]] (validée, exécutée)
 - [[meta/projet-unifie/proposition-queue-taches-2026-08-27|Proposition — Queue de tâches et déploiement aux agents]] (validée, exécutée)
 - [[meta/projet-unifie/queue-idees|Queue de tâches — idées en attente de déploiement aux agents]] (dispositif vivant, ouvert 2026-08-27)
+- [[meta/projet-unifie/plan-action-soutien-sidy|Plan d'action — soutien personnel et professionnel]] (versée depuis `atelier/rd/` le 2026-09-01, étanchéité §VI)
+- [[meta/projet-unifie/rapport-rd-memoire-persistante|Rapport — incident mémoire persistante et déploiement de ressources]] (versée depuis `atelier/rd/` le 2026-09-01, étanchéité §VI)
+- [[meta/projet-unifie/synthese-ressources-deployees|Synthèse des ressources déployées (2026-08-23)]] (versée depuis `atelier/rd/` le 2026-09-01, étanchéité §VI)
 - [[meta/projet-unifie/triage-chatgpt-export|Triage export ChatGPT (140 conversations)]]
 
 ### choura/ — cycles de Consultation (dispositif vivant, ouvert 2026-08-27)

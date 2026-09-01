@@ -4,7 +4,7 @@ type: procédure
 status: operationnel
 tags: [meta, infrastructure, verification, deployment]
 created: 2026-07-27
-updated: 2026-08-28
+updated: 2026-09-01
 sources: []
 links: ["[[CLAUDE.md]]", "[[meta/philosophie-sashimono]]", "[[correctif-etendu-invariants-depot]]"]
 ---
@@ -31,6 +31,50 @@ python3 verifier-invariants.py --help
 
 Maintenir **en versioning** (pas dans `.gitignore`) — c'est un outil de dépôt,
 pas un artéfact temporaire.
+
+---
+
+## 1 bis. Périmètre du contrôle (amendé le 2026-09-01, chantier OUT-01)
+
+Le script **ne contrôle que ce qui appartient au dépôt**. Il interroge git
+(`git ls-files --others --ignored --exclude-standard`) et laisse de côté tout ce
+que `.gitignore` exclut : venv de dépendances tierces, sorties régénérables, sas
+`raw/`.
+
+**Pourquoi ce changement.** Jusqu'au 2026-09-01 le script parcourait le disque
+sans consulter `.gitignore` : sur le dépôt réel il rendait **210 erreurs, dont 209
+de bruit** provenant de `.graphify-venv/`, de `bureau/.venv/` et de `raw/`. Ce
+bruit n'était pas seulement inesthétique — il a **effectivement masqué** la seule
+erreur vraie du jour (un `updated:` antérieur à la dernière entrée de
+`hermeneutique/annales.md`, contrôle A3), qui n'a été trouvée qu'au tri manuel.
+Un validateur dont la sortie doit être triée à la main ne valide plus rien.
+
+Le critère n'invente aucune règle : il applique celle que le dépôt s'est déjà
+donnée dans son `.gitignore`.
+
+| Situation | Périmètre appliqué |
+|---|---|
+| racine dans un dépôt git (cas normal) | ce que git ne tient pas pour ignoré |
+| racine hors dépôt git (bacs à sable de non-régression) | repli : dossiers cachés exclus |
+| `--tout` | aucune exclusion — le comportement d'avant le 2026-09-01 |
+
+**Le périmètre appliqué est annoncé en tête de sortie**, avec le nombre de
+fichiers contrôlés : il n'est jamais silencieux. `--tout` reste disponible, donc
+rien n'est jamais hors de portée du script — c'est un choix d'appel, pas une
+amputation.
+
+```bash
+python3 verifier-invariants.py --racine /root/wiki
+# 707 fichier(s) .md contrôlé(s) — périmètre du dépôt (…).
+# 0 erreur(s), 0 avertissement(s).
+
+python3 verifier-invariants.py --racine /root/wiki --tout
+# 1536 fichier(s) .md contrôlé(s) — --tout : aucune exclusion (…).
+# 209 erreur(s), 0 avertissement(s).
+```
+
+La sortie `--json` porte désormais deux clés supplémentaires, `perimetre` et
+`fichiers_controles`, avant `erreurs` et `avertissements`.
 
 ---
 

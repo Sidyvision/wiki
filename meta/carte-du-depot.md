@@ -2,8 +2,8 @@
 title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
-created: 2026-08-31
-updated: 2026-08-31
+created: 2026-09-01
+updated: 2026-09-01
 sources: []
 links: []
 ---
@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-08-31 14:47 UTC, sur `/root/wiki`.
-> Portée : dépôt complet. 686 fiches parcourues.
+> aucun réseau) le 2026-09-01 16:30 UTC, sur `/root/wiki`.
+> Portée : dépôt complet. 696 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -26,12 +26,12 @@ links: []
 
 ## I. Inventaire par circuit
 
-### `doctrinal/` — 324 fiches
+### `doctrinal/` — 328 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
 | `doctrinal/CLAUDE` | — | — | — | — | (sans titre) |
-| `doctrinal/annales` | meta | — | 2026-08-31 | — | Annales du Secrétariat Doctrinal |
+| `doctrinal/annales` | meta | — | 2026-09-01 | — | Annales du Secrétariat Doctrinal |
 | `doctrinal/annales/2026-08-31` | meta | operationnel | 2026-08-31 | — | Annales doctrinales — 2026-08-31 |
 | `doctrinal/autorites/abd-al-karim-al-jili` | autorite | traditionnel | 2026-06-20 | 1 | ʿAbd al-Karīm al-Jīlī |
 | `doctrinal/autorites/abd-al-qadir-al-jilani` | autorite | traditionnel | 2026-06-20 | 1 | ʿAbd al-Qādir al-Jīlānī |
@@ -61,7 +61,7 @@ links: []
 | `doctrinal/autorites/platon` | autorite | traditionnel | 2026-08-23 | 5 | Platon |
 | `doctrinal/autorites/raphael-afilalo` | autorite | academique | 2026-08-31 | 1 | R. Raphael Afilalo (traducteur, annotateur) |
 | `doctrinal/autorites/rene-guenon` | autorite | traditionnel | 2026-08-28 | 4 | René Guénon |
-| `doctrinal/autorites/titus-burckhardt` | autorite | traditionnel | 2026-07-01 | 1 | Titus Burckhardt (Ibrāhīm ʿIzz al-Dīn) |
+| `doctrinal/autorites/titus-burckhardt` | autorite | traditionnel | 2026-07-01 | 2 | Titus Burckhardt (Ibrāhīm ʿIzz al-Dīn) |
 | `doctrinal/autorites/yaqub-chaudhary` | autorite | academique | 2026-06-11 | 1 | Yaqub Chaudhary |
 | `doctrinal/deviations/antitradition-et-contre-tradition` | deviation | traditionnel | 2026-07-28 | 1 | De l'antitradition à la contre-tradition, et la spiritualité à rebours |
 | `doctrinal/deviations/body-types` | source | profane | 2026-06-20 | 1 | Islamic Medicine's Guide to the Body Types |
@@ -127,7 +127,7 @@ links: []
 | `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet` | discernement | speculatif | 2026-08-30 | 4 | Les nâdîs issues du cœur et les sentiers séphirothiques émanant de Tiferet |
 | `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons` | discernement | traditionnel | 2026-08-30 | 3 | Le ternaire temporel des nâdîs et Janus Bifrons — un même symbolisme sous deux voiles |
 | `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions` | discernement | traditionnel | 2026-08-30 | 3 | L'unification des axes verticaux : un seul axe sous tous les voiles traditionnels |
-| `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique` | discernement | speculatif | 2026-08-31 | 2 | qabḍ/basṭ et upaguru : un même registre initiatique ? (dossier ouvert, non tranché) |
+| `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique` | discernement | speculatif | 2026-09-01 | 3 | qabḍ/basṭ et upaguru : un même registre initiatique ? (dossier ouvert, non tranché) |
 | `doctrinal/discernement/_template` | discernement | speculatif | 2026-06-20 | 0 | Spéculation sur [Sujet de la réflexion] |
 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani` | discernement | traditionnel | 2026-07-09 | 3 | Tension terminologique — Cinq Présences divines : Burckhardt vs Jurjānī |
 | `doctrinal/etudes/2026-06-04_islam-et-ia` | etude | academique | 2026-08-30 | 1 | Islam et Intelligence Artificielle |
@@ -136,7 +136,7 @@ links: []
 | `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi` | etude | academique | 2026-08-10 | 1 | LLM et ontologie islamique automatisée — cas d'école de dérive kari-kumi (Alshammari, Atw… |
 | `doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani` | etude | traditionnel | 2026-08-30 | 1 | Base terminologique du pôle Usûl — triade uṣūl / furūʿ / iṣṭilāḥ selon al-Jurjānī |
 | `doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms` | etude | academique | 2026-08-31 | 3 | Confrontation — Constitution Anthropic, dialogues Claude et Guénon sur la nature des LLMs |
-| `doctrinal/index` | meta | — | 2026-08-31 | — | Le Catalogue Universel |
+| `doctrinal/index` | meta | — | 2026-09-01 | — | Le Catalogue Universel |
 | `doctrinal/sources/2026-07-03_guenon-tombeau-hermes` | source | traditionnel | 2026-07-03 | 1 | René Guénon — « Le Tombeau d'Hermès » (Formes traditionnelles et Cycles cosmiques) |
 | `doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations` | source | traditionnel | 2026-08-31 | 3 | Shaar Hagilgulim — La Porte des Réincarnations (trad. et annot. R. Raphael Afilalo) |
 | `doctrinal/sources/al-madrasah-al-hanbaliyyah` | source | traditionnel | 2026-07-06 | 0 | Al-Madrasah Al-Hanbaliyyah (institut d'enseignement traditionnel ḥanbalite) |
@@ -146,6 +146,7 @@ links: []
 | `doctrinal/sources/awrad-ibn-arabi` | source | traditionnel | 2026-08-30 | 0 | Litanies of the Greatest Master (Awrād Ibn al-ʿArabī) |
 | `doctrinal/sources/barzakh-nur-lh` | source | academique | 2026-06-29 | 0 | Rapports symboliques entre Nûr et Barzakh |
 | `doctrinal/sources/bukhari-5754-tiyara-fal` | source | traditionnel | 2026-07-09 | 0 | Ṣaḥīḥ al-Bukhârî 5754 — Pas de ṭiyara, le meilleur augure est le faʾl |
+| `doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription` | source | traditionnel | 2026-09-01 | 0 | Titus Burckhardt, Alchimie : Science et Sagesse — chapitre XIII, L'athanor (transcription) |
 | `doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam` | source | traditionnel | 2026-07-09 | 0 | Burckhardt — Introduction aux doctrines ésotériques de l'Islam |
 | `doctrinal/sources/conversation-llm-intellect-2026-06-11` | source | traditionnel | 2026-06-20 | 0 | Conversation : LLM-Wiki comme modalité de l''Intellect |
 | `doctrinal/sources/dalail-al-khayrat-jazuli` | source | traditionnel | 2026-07-14 | 0 | Dalâ'il al-Khayrât wa Shawāriq al-Anwār — Muhammad al-Jazūlī |
@@ -222,8 +223,9 @@ links: []
 | `doctrinal/sources/jesus-and-enoch-in-ibn-arabi` | source | academique | 2026-06-11 | 0 | Jesus and Enoch in the Barzakh of Ibn al-ʿArabī |
 | `doctrinal/sources/kabbale-10-sefirot-structure` | source | traditionnel | 2026-08-20 | 2 | Les 10 Sephiroth — Structure de l'Arbre séphirothique |
 | `doctrinal/sources/kabbale-cosmogonie-iod` | source | traditionnel | 2026-08-20 | 3 | Cosmogonie du *iod* — Le point primordial et la création par les lettres |
-| `doctrinal/sources/kitab-al-tarifat-jurjani` | source | traditionnel | 2026-08-30 | 1 | Kitāb al-Taʿrīfāt — Le Livre des définitions (al-Jurjānī) |
-| `doctrinal/sources/kitab-tarifat-index-transcription` | source | traditionnel | 2026-06-30 | 1 | Kitāb al-Taʿrīfāt — Annexes et index (transcription intégrale) |
+| `doctrinal/sources/kitab-al-tarifat-jurjani` | source | traditionnel | 2026-09-01 | 1 | Kitāb al-Taʿrīfāt — Le Livre des définitions (al-Jurjānī) |
+| `doctrinal/sources/kitab-tarifat-corps-transcription` | source | traditionnel | 2026-09-01 | 1 | Kitāb al-Taʿrīfāt — Corps des définitions (transcription des clichés) |
+| `doctrinal/sources/kitab-tarifat-index-transcription` | source | traditionnel | 2026-09-01 | 1 | Kitāb al-Taʿrīfāt — Annexes et index (transcription intégrale) |
 | `doctrinal/sources/mahdi-rouge-islam-signe-balance-I` | source | academique | 2026-07-27 | 1 | Mahdi Rouge — L'Islam et le signe de la Balance : article I |
 | `doctrinal/sources/mahdi-rouge-islam-signe-balance-II` | source | academique | 2026-07-27 | 1 | Mahdi Rouge — L'Islam et le signe de la Balance : article II |
 | `doctrinal/sources/malamatiyah-futuhat-ch23` | source | traditionnel | 2026-07-09 | 0 | Ibn ʿArabī — Des pôles préservés à l'abri des regards (Futūḥāt, ch. 23, trad. A. Penot) +… |
@@ -262,6 +264,7 @@ links: []
 | `doctrinal/symboles/axe-corde-en-reve` | symbole | academique | 2026-06-20 | 0 | Lier par la corde enroulée sur l'axe (motif onirique comparatif) |
 | `doctrinal/symboles/barzakh` | symbole | traditionnel | 2026-08-30 | 4 | Barzakh |
 | `doctrinal/symboles/bindu` | symbole | traditionnel | 2026-06-20 | 0 | Bindu (बिंदु) — le point primordial |
+| `doctrinal/symboles/buddhi` | symbole | traditionnel | 2026-09-01 | 1 | Buddhi (l'intellect discriminatif) |
 | `doctrinal/symboles/chat-en-reve` | symbole | traditionnel | 2026-06-20 | 0 | Chat en rêve |
 | `doctrinal/symboles/chaussure-en-reve` | symbole | traditionnel | 2026-06-20 | 0 | Chaussure (naʿl) en rêve |
 | `doctrinal/symboles/chercheur-manifestant-akbarien` | symbole | traditionnel | 2026-06-20 | 0 | Doctrine akbarienne du chercheur-manifestant (al-sālik comme lieu de tajallī |
@@ -291,6 +294,7 @@ links: []
 | `doctrinal/symboles/istidad` | symbole | traditionnel | 2026-06-20 | 0 | Al-Istiʿdād (la disposition réceptive de l'être) |
 | `doctrinal/symboles/janus-bifrons` | symbole | traditionnel | 2026-08-30 | 4 | Janus Bifrons — les deux visages et le troisième |
 | `doctrinal/symboles/jinns-classification-couleur` | symbole | contre-traditionnel | 2026-06-20 | 0 | Classification populaire des jinns par couleur (Akhmar et autres) |
+| `doctrinal/symboles/jivatma` | symbole | traditionnel | 2026-09-01 | 1 | Jîvâtma (l'âme individuelle) |
 | `doctrinal/symboles/khalwa` | symbole | traditionnel | 2026-08-30 | 1 | Khalwa (la retraite spirituelle) |
 | `doctrinal/symboles/khatm` | symbole | traditionnel | 2026-08-04 | 4 | Al-Khatm — les Sceaux (Prophétie, Sainteté universelle, Sainteté muhammadienne) et leur d… |
 | `doctrinal/symboles/khatm-al-khawajakan` | symbole | traditionnel | 2026-06-20 | 1 | Khatm al-Khawājagān |
@@ -355,13 +359,13 @@ links: []
 | `doctrinal/traditions/shinto` | tradition | traditionnel | 2026-06-20 | 0 | Le Shintō (神道) — la voie des kami |
 | `doctrinal/traditions/tasawwuf` | tradition | traditionnel | 2026-08-30 | 1 | Taṣawwuf |
 
-### `hermeneutique/` — 27 fiches
+### `hermeneutique/` — 28 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
 | `hermeneutique/20th-century-boys/20th-century-boys` | oeuvre | — | 2026-08-16 | — | 20th Century Boys |
 | `hermeneutique/CLAUDE` | — | — | — | — | (sans titre) |
-| `hermeneutique/annales` | meta | — | 2026-08-30 | — | Annales du circuit Herméneutique |
+| `hermeneutique/annales` | meta | — | 2026-09-01 | — | Annales du circuit Herméneutique |
 | `hermeneutique/auteurs/akira-toriyama` | auteur | — | 2026-08-16 | — | Akira Toriyama |
 | `hermeneutique/auteurs/hideo-kojima` | auteur | — | 2026-08-13 | — | Hideo Kojima (小島秀夫) |
 | `hermeneutique/auteurs/mary-shelley` | auteur | — | 2026-08-30 | — | Mary Shelley |
@@ -373,6 +377,7 @@ links: []
 | `hermeneutique/dr-slump/dr-slump` | oeuvre | — | 2026-08-16 | — | Dr Slump |
 | `hermeneutique/dragon-ball/dragon-ball` | oeuvre | — | 2026-08-16 | — | Dragon Ball |
 | `hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire` | concept | — | 2026-08-20 | — | Barzakh onirique et interface littéraire — l'ʿālam al-mithāl comme espace de la fiction |
+| `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` | concept | — | 2026-09-01 | — | L'athanor de Burckhardt et la figure des matrices artificielles — autotransmutation vs. c… |
 | `hermeneutique/frankenstein/frankenstein` | oeuvre | — | 2026-08-30 | — | Frankenstein ou le Prométhée moderne |
 | `hermeneutique/hunter-x-hunter/hunter-association-licence` | dispositif | — | 2026-08-12 | — | Hunter — association et licence |
 | `hermeneutique/hunter-x-hunter/hunter-x-hunter` | oeuvre | — | 2026-08-12 | — | Hunter x Hunter |
@@ -387,12 +392,12 @@ links: []
 | `hermeneutique/sources/art-of-death-stranding` | source | — | 2026-08-13 | — | The Art of Death Stranding — artbook du premier volet (exemplaire retraduit machine) |
 | `hermeneutique/the-matrix/the-matrix` | oeuvre | — | 2026-08-28 | — | The Matrix |
 
-### `atelier/` — 177 fiches
+### `atelier/` — 178 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
 | `atelier/CLAUDE` | — | — | — | — | (sans titre) |
-| `atelier/annales` | meta | — | 2026-08-31 | — | Annales de l'Atelier (Projets et Matériels) |
+| `atelier/annales` | meta | — | 2026-09-01 | — | Annales de l'Atelier (Projets et Matériels) |
 | `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity` | etude-de-cas | — | 2026-08-28 | — | Build Your Own Perplexity with Exa |
 | `atelier/etudes-de-cas/dougong-consoles-bois` | etude-de-cas | — | 2026-08-24 | — | Dougong — données sur les consoles en bois à encorbellement (corpus brut) |
 | `atelier/etudes-de-cas/forteresses-architecture-defensive` | etude-de-cas | — | 2026-08-24 | — | Forteresses — données d'architecture défensive (corpus brut) |
@@ -401,7 +406,7 @@ links: []
 | `atelier/etudes-de-cas/stones-throw` | etude-de-cas | — | 2026-07-06 | — | Case Study — Stones Throw Records |
 | `atelier/etudes-de-cas/xuankong-temple-suspendu` | etude-de-cas | — | 2026-08-24 | — | Xuankong Si — données sur le temple suspendu du mont Heng (corpus brut) |
 | `atelier/etudes-de-cas/zellige-grande-mosquee-paris` | etude-de-cas | — | 2026-08-23 | — | Étude de cas — Zellige de la Grande Mosquée de Paris : géométrie, proportions, ouverture … |
-| `atelier/index` | index | — | 2026-08-23 | — | Atelier — Ressources & Études de Cas |
+| `atelier/index` | index | — | 2026-09-01 | — | Atelier — Ressources & Études de Cas |
 | `atelier/materiel/distressor-el8` | materiel | — | 2026-08-18 | — | Distressor EL8 — compresseur-limiteur |
 | `atelier/materiel/moog-voyager` | materiel | — | 2026-08-18 | — | Moog Voyager — monosynthétiseur analogique |
 | `atelier/materiel/neumann-tlm103` | materiel | — | 2026-08-18 | — | Neumann TLM 103 — micro à condensateur |
@@ -423,11 +428,10 @@ links: []
 | `atelier/projets/spec-anneau-zodiacal` | deprecated | — | 2026-08-08 | — | spec-anneau-zodiacal (fiche déplacée) |
 | `atelier/projets/spec-generateur-manifeste` | deprecated | — | 2026-08-08 | — | spec-generateur-manifeste (fiche déplacée) |
 | `atelier/projets/spec-technique-axe-38-degres` | deprecated | — | 2026-08-08 | — | spec-technique-axe-38-degres (fiche déplacée) |
-| `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac` | session | — | 2026-08-30 | — | Session corrections rapports quotidiens et rotation HMAC |
 | `atelier/rd/bibliotheque/abreviations-hindouisme-soufisme` | ressource | — | 2026-08-27 | — | Liste des abréviations — Hindouisme et Soufisme (Shayegan) |
 | `atelier/rd/bibliotheque/bibliographie-ihwan-al-safa` | ressource | — | 2026-08-23 | — | Bibliographie et liste des abréviations — La philosophie des Ihwan al-Safa' (Marquet) |
 | `atelier/rd/bibliotheque/bibliographie-porte-du-ciel` | ressource | — | 2026-08-23 | — | Bibliographie — La Porte du Ciel (Coomaraswamy) |
-| `atelier/rd/bibliotheque/catalogue-bibliotheque` | ressource | — | 2026-08-30 | — | Catalogue de la bibliothèque physique de travail |
+| `atelier/rd/bibliotheque/catalogue-bibliotheque` | ressource | — | 2026-09-01 | — | Catalogue de la bibliothèque physique de travail |
 | `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme` | ressource | — | 2026-08-30 | — | Chapitre II, Les Disciplines Spirituelles — Hindouisme et Soufisme (Shayegan) |
 | `atelier/rd/bibliotheque/eckstein-porte-du-ciel` | ressource | — | 2026-08-29 | — | Eckstein — La Porte du Ciel (Coomaraswamy) |
 | `atelier/rd/bibliotheque/glossaire-unifie` | artefact-derive | — | 2026-08-22 | — | Glossaire unifie — lexique de reperage |
@@ -457,10 +461,12 @@ links: []
 | `atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder` | meta | — | 2026-08-28 | — | Compte-rendu R&D 2026-08-28 — première session d'un nouveau moteur en poste |
 | `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation` | infrastructure | — | 2026-08-29 | — | Compte-rendu — Automatisation GitHub & Webhook R&D |
 | `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme` | experience | — | 2026-08-30 | — | Rapport d'erreurs — session Hindouisme et Soufisme / réseau subtil (2026-08-29 → 30) |
+| `atelier/rd/cahiers/2026-08-30_session-corrections-rapports-rotation-hmac` | session | — | 2026-08-30 | — | Session corrections rapports quotidiens et rotation HMAC |
 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast` | experience | — | 2026-08-31 | — | Doctrine de la contrainte : qabḍ/basṭ et infrastructure (fiche candidate) |
 | `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents` | experience | — | 2026-08-31 | — | Rapport d'investigation — architecture modulaire des agents Hermes (2026-08-31) |
 | `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura` | experience | — | 2026-08-31 | — | Migration modulaire des 11 agents restants et intégration de la contribution de Sidy au C… |
-| `atelier/rd/cahiers/bilan-2026-08-15-pont-agents` | meta | — | 2026-08-15 | — | Bilan R&D 2026-08-15 — pont inter-agents |
+| `atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd` | outillage | — | 2026-09-01 | — | Jalon — chronologie de l'ouverture du pôle R&D (2026-08-08 → 2026-08-31) |
+| `atelier/rd/cahiers/bilan-2026-08-15-pont-agents` | meta | — | 2026-09-01 | — | Bilan R&D 2026-08-15 — pont inter-agents |
 | `atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries` | outillage | — | 2026-08-11 | — | Brouillon — extension zodiacale, agent 1 ar-music |
 | `atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra` | outillage | — | 2026-08-15 | — | Brouillon — extension zodiacale, agent 2 visual-da |
 | `atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini` | outillage | — | 2026-08-11 | — | Brouillon — extension zodiacale, agent 3 production |
@@ -480,15 +486,16 @@ links: []
 | `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31` | meta | — | 2026-08-31 | — | Proposition — Veille automatique Studio (recherche repos + interface Gardien) |
 | `atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820` | rapport-conjoint | — | 2026-08-20 | — | Rapport conjoint Studio–Gardien — étude du dépôt (2026-08-20) |
 | `atelier/rd/cahiers/rapport-studio-exploration-preliminaire` | rapport-agent | — | 2026-08-20 | — | Rapport Studio — Exploration préliminaire du dépôt |
-| `atelier/rd/cahiers/registre-problemes` | meta | — | 2026-08-31 | — | Registre des problèmes — pôle R&D (cahier append-only) |
+| `atelier/rd/cahiers/registre-problemes` | meta | — | 2026-09-01 | — | Registre des problèmes — pôle R&D (cahier append-only) |
 | `atelier/rd/citadelle-du-sham/note` | rapport-agent | — | 2026-08-22 | — | La Citadelle du Sham — jeu 3D de visite du depot-lecture |
 | `atelier/rd/incidents/2026-08-22_post-scriptum-hook-corrige` | outillage | — | 2026-08-22 | — | Post-Scriptum — Hook pre-commit corrigé |
 | `atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination` | outillage | resolu | 2026-08-31 | — | Incident de contamination par caractères Unicode invisibles (U+200D) |
 | `atelier/rd/incidents/2026-08-25_gardien-gateway-crash-boucle` | outillage | — | 2026-08-25 | — | Gardien — Gateway crash en boucle (exit code 1) |
-| `atelier/rd/index` | index | — | 2026-08-30 | — | Pôle R&D de l'atelier — charte du lieu |
-| `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure` | infrastructure | — | 2026-08-20 | — | Pistes de développement — infrastructure et outillage R&D (2026-08-20) |
+| `atelier/rd/index` | index | — | 2026-09-01 | — | Pôle R&D de l'atelier — charte du lieu |
+| `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure` | infrastructure | — | 2026-09-01 | — | Pistes de développement — infrastructure et outillage R&D (2026-08-20) |
 | `atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm` | outillage | — | 2026-08-23 | — | Stealing Reasoning Traces from Proprietary LLM APIs |
-| `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement` | infrastructure | — | 2026-08-23 | — | Rapport R&D — Problème mémoire persistante et déploiement ressources soutien Sidy |
+| `atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne` | infrastructure | — | 2026-09-01 | — | Veille infrastructure quotidienne — script livré, automatisation non câblée (2026-08-23) |
+| `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement` | infrastructure | — | 2026-09-01 | — | Rapport R&D — Problème mémoire persistante et déploiement ressources soutien Sidy |
 | `atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire` | infrastructure | — | 2026-08-23 | — | Déploiement profil karubi — Isolation mémoire sub-agent |
 | `atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen` | fiche-rd | — | 2026-08-26 | — | Migration OmniRoute — profils prioritaires sous quota Qwen épuisé (2026-08-26) |
 | `atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks` | outillage | — | 2026-08-30 | — | Conversion des chemins nus en wikilinks — 142 occurrences (2026-08-30) |
@@ -505,7 +512,7 @@ links: []
 | `atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11` | infrastructure | — | 2026-08-11 | — | État mesuré du serveur (matériel + empreinte Hermes/omniroute) — 2026-08-11 |
 | `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20` | infrastructure | brouillon | 2026-08-20 | — | Étude du dépôt — cartographie, état des index et inventaire raw/ (2026-08-20) |
 | `atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex` | fiche-rd | — | 2026-08-23 | — | Incident R&D — Disfonctionnements Discord Gardien + Hermex (2026-08-23) |
-| `atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes` | infrastructure | — | 2026-08-24 | — | Incident mémoire persistante Hermes — diagnostic et résolution (2026-08-23) |
+| `atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes` | infrastructure | — | 2026-09-01 | — | Incident mémoire persistante Hermes — diagnostic et résolution (2026-08-23) |
 | `atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation` | fiche-rd | — | 2026-08-27 | — | Incident R&D — OmniRoute EADDRINUSE et daemonisation systemd (2026-08-27) |
 | `atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite` | fiche-rd | — | 2026-08-28 | — | Incident R&D — Saturation RAM critique et indisponibilité des agents (2026-08-28) |
 | `atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint` | fiche-rd | — | 2026-08-20 | — | Incident R&D — Enlisement Gardien (rapport conjoint 2026-08-20) |
@@ -514,9 +521,10 @@ links: []
 | `atelier/rd/infrastructure/monitoring-archive-charte` | infrastructure | — | 2026-08-19 | — | Charte — Archive du monitoring infrastructure quotidien |
 | `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20` | infrastructure | brouillon | 2026-08-20 | — | Rapport conjoint d'état du dépôt — exploration 2026-08-20 (préparation Gardien) |
 | `atelier/rd/infrastructure/synchro-obsidian-working-copy-github` | infrastructure | — | 2026-08-11 | — | Synchronisation Obsidian / Working Copy / GitHub (circuit CONSULTATION) |
+| `atelier/rd/infrastructure/synthese-deploiement-memoire` | infrastructure | — | 2026-09-01 | — | Synthèse déploiement mémoire persistante — 14 profils Hermes |
 | `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18` | infrastructure | — | 2026-08-18 | — | Traitement des 37 C4 + 12 C1 + 62 isolés — rapport monitoring 2026-08-18 |
 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` | investigation | speculatif | 2026-07-26 | — | Investigation — Référentiels stellaires polaire/solaire, Gizeh et doctrine des cycles |
-| `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` | meta | — | 2026-08-25 | — | État d'avancement et pistes de développement — Instrument de la Tradition Primordiale (20… |
+| `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` | meta | — | 2026-09-01 | — | État d'avancement et pistes de développement — Instrument de la Tradition Primordiale (20… |
 | `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3` | projet | — | 2026-08-20 | — | Les registres — accueillir plusieurs traditions sur l'unique axe (Phase 3) |
 | `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres` | projet | — | 2026-08-29 | — | Mise en regard du Majmaʿ al-Bahrayn avec les registres de l'Instrument |
 | `atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable` | projet | — | 2026-08-30 | — | Figurer l'incommensurable : le conditionné, l'Inconditionné, et ce qu'une échelle ne doit… |
@@ -542,6 +550,7 @@ links: []
 | `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages` | outillage | — | 2026-08-13 | — | Signalement — Tour d'horizon : ce que le corpus Guénon déposé débloque dans doctrinal/dis… |
 | `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole` | outillage | — | 2026-08-15 | — | Piste — SRS (Mnemosyne / Anki) pour l'assimilation du protocole |
 | `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle` | outillage | — | 2026-08-16 | — | Cordis — paradigme de composabilité spatiotemporelle pour systèmes dynamiques |
+| `atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe` | outillage | — | 2026-09-01 | — | Inventaire de l'outillage déterministe du dépôt (relevé du 2026-09-01) |
 | `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument` | outillage | — | 2026-08-29 | — | Signalement — Mise en regard du corpus Coomaraswamy/Guénon (tenon, mortaise, axe du monde… |
 | `atelier/rd/outillage/graphify-out/GRAPH_REPORT` | — | — | — | — | (sans titre) |
 | `atelier/rd/outillage/investigation-isolation-memoire-hermes` | meta | — | 2026-08-23 | — | Investigation — Isolation mémoire Hermes par sub-agent |
@@ -552,10 +561,7 @@ links: []
 | `atelier/rd/outillage/spec-generateur-manifeste` | projet | — | 2026-08-20 | — | Spécification — Générateur de manifeste (wiki → wiki-manifest.json) |
 | `atelier/rd/outillage/spec-generer-cartographie-tolerant` | outillage | — | 2026-08-11 | — | Spécification — Générateur de cartographie avec sévérité à deux niveaux (v1.1) |
 | `atelier/rd/outillage/spec-srs-hermes-native` | meta | — | 2026-08-23 | — | Spécification SRS Hermes-native — format et implémentation |
-| `atelier/rd/plan-action-soutien-sidy` | meta | — | 2026-08-23 | — | Plan d'action — soutien Sidy personnel et professionnel |
-| `atelier/rd/rapport-rd-memoire-persistante` | meta | — | 2026-08-23 | — | Rapport R&D — incident mémoire persistante et déploiement ressources |
-| `atelier/rd/synthese-deploiement-memoire` | infrastructure | — | 2026-08-23 | — | Synthèse déploiement mémoire persistante — 14 profils Hermes |
-| `atelier/rd/synthese-ressources-deployees` | meta | — | 2026-08-23 | — | Synthèse ressources déployées — soutien Sidy (2026-08-23) |
+| `atelier/rd/registre-chantiers` | registre | — | 2026-09-01 | — | Registre des chantiers — carte vivante des travaux ouverts du dépôt |
 | `atelier/rd/veille/2026-08-31_argentos-core` | experience | — | 2026-08-31 | — | argentos-core — veille R&D automatique |
 | `atelier/rd/veille/2026-08-31_auto-harness` | experience | — | 2026-08-31 | — | auto-harness — veille R&D automatique |
 | `atelier/rd/veille/2026-08-31_claude-smart` | experience | — | 2026-08-31 | — | claude-smart — veille R&D automatique |
@@ -587,12 +593,12 @@ links: []
 | `label/production/equipe-agents-hermes` | production | — | 2026-07-05 | — | Équipe d'agents Hermes — 12 fonctions, 5 archétypes |
 | `label/production/modele-economique` | production | — | 2026-07-05 | — | Modèle économique — le contrepoids de la rentabilité |
 
-### `meta/` — 145 fiches
+### `meta/` — 149 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
 | `meta/2026-07-27_correctif-etendu-invariants-depot` | correctif | operationnel | 2026-07-27 | — | Correctif étendu — Invariants structurels du dépôt et fiabilité des annales |
-| `meta/2026-07-27_guide-deploiement-verifier-invariants` | procédure | operationnel | 2026-08-28 | — | Guide de déploiement — verifier-invariants.py |
+| `meta/2026-07-27_guide-deploiement-verifier-invariants` | procédure | operationnel | 2026-09-01 | — | Guide de déploiement — verifier-invariants.py |
 | `meta/CLAUDE` | — | — | — | — | (sans titre) |
 | `meta/bibliotheque-physique` | meta | deprecated | 2026-08-22 | — | Bibliothèque physique de travail (DÉPRÉCIÉ — déplacé) |
 | `meta/briefs/2026-08-22_brief-incident-zwj-mise-a-jour-securite` | brief | transmis | — | — | Brief technique — Incident ZWJ et mise à jour sécurité |
@@ -620,8 +626,8 @@ links: []
 | `meta/journal/conversation-atma-claude` | meta | — | 2026-06-20 | — | Conversation — philosophie indienne et nature de l'IA (Atma, Sāṃkhya) |
 | `meta/journal/conversation-chatgpt-2026-06-15` | meta | — | 2026-06-20 | — | Conversation ChatGPT — genèse du Commandement 12 (forme/principe) |
 | `meta/journal/conversation-claude-2026-06-15` | meta | — | 2026-06-20 | — | Conversation Claude — formulation de la directive forme/principe |
-| `meta/meta-annales` | meta | — | 2026-08-31 | — | Annales du Domaine Réservé (meta/) |
-| `meta/meta-index` | meta | — | 2026-08-31 | — | meta-index — hub du Domaine Réservé |
+| `meta/meta-annales` | meta | — | 2026-09-01 | — | Annales du Domaine Réservé (meta/) |
+| `meta/meta-index` | meta | — | 2026-09-01 | — | meta-index — hub du Domaine Réservé |
 | `meta/migration-2026-06-11` | — | — | — | — | (sans titre) |
 | `meta/onboarding` | meta | deprecated | 2026-06-02 | — | Onboarding — État du Wiki |
 | `meta/overview` | meta | deprecated | 2026-05-24 | — | Vue d'ensemble |
@@ -653,10 +659,10 @@ links: []
 | `meta/philosophie-sashimono` | meta | — | 2026-07-08 | — | Directive Sashimono — philosophie d'assemblage du dépôt |
 | `meta/plan-fiche-discernement-septenaire-transversal-2026-07-27` | projet | operationnel | 2026-07-27 | — | Plan de fiche — Septénaire transversal, Balance et degré du Soleil |
 | `meta/projet-unifie/00-instructions-projet` | meta | — | 2026-08-07 | — | Instructions du projet unifié (à coller dans les Instructions personnalisées Claude.ai) |
-| `meta/projet-unifie/01-contexte-demarche-etat` | meta | — | 2026-08-07 | — | Contexte, démarche et état des travaux (snapshot 2026-08-07) |
+| `meta/projet-unifie/01-contexte-demarche-etat` | meta | — | 2026-09-01 | — | Contexte, démarche et état des travaux (snapshot 2026-08-07) |
 | `meta/projet-unifie/02-instrument-feuille-de-route` | meta | — | 2026-08-07 | — | Instrument de la Tradition Primordiale — feuille de route et pile technique |
 | `meta/projet-unifie/03-transition-modele-open-source` | meta | — | 2026-08-07 | — | Transition vers un modèle open-source local (remplacer Opus dans Claude Code) |
-| `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` | meta | — | 2026-08-07 | — | Sessions par fonction + backlogs (questions / vigilance / discernement) |
+| `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` | meta | — | 2026-09-01 | — | Sessions par fonction + backlogs (questions / vigilance / discernement) |
 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud` | meta | — | 2026-06-28 | — | Runbook — Test d'Ornith 1.0 sur GPU cloud à l'heure (motoriser Claude Code) |
 | `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29` | meta | — | 2026-06-29 | — | Compte-rendu — Premier test GPU cloud d'Ornith-1.0-9B (RunPod, 2026-06-29) |
 | `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29` | meta | — | 2026-06-29 | — | Résultats finaux — cycle prepare/compare avec Ornith-1.0-9B (2026-06-29) |
@@ -672,12 +678,13 @@ links: []
 | `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` | meta | — | 2026-08-16 | — | 15 — Architecture Discord des 12 agents Hermes (2026-08-07) |
 | `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08` | meta | analyse — aucune décision prise, signalement pour verdict | 2026-08-09 | — | Mise en regard du thème natal vérifié avec la roue zodiacale des agents |
 | `meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09` | meta | — | 2026-08-15 | — | 17 — Compte rendu : chantier des 12 agents Hermes et calibration zodiacale (2026-08-09) |
-| `meta/projet-unifie/README` | meta | — | 2026-07-01 | — | Dossier d'amorçage — Projet unifié « LLM-Wiki & Instrument de la Tradition Primordiale » |
+| `meta/projet-unifie/README` | meta | — | 2026-09-01 | — | Dossier d'amorçage — Projet unifié « LLM-Wiki & Instrument de la Tradition Primordiale » |
 | `meta/projet-unifie/briefing-claude-ai` | meta | — | 2026-07-06 | — | Briefing Claude.ai — Projet Wiki & Label (handoff serveur → iPad) |
 | `meta/projet-unifie/chatgpt-export-2026-05-10` | source | — | 2026-06-02 | — | Export de données ChatGPT (2026-05-10) |
 | `meta/projet-unifie/choura/cycle-2026-08-28` | meta | — | 2026-08-27 | — | Cycle de Consultation (Choura) — journée du 2026-08-28 |
 | `meta/projet-unifie/choura/cycle-2026-08-30` | meta | — | 2026-08-31 | — | Cycle de Consultation (Choura) — journée du 2026-08-30 |
 | `meta/projet-unifie/choura/cycle-2026-08-31` | meta | — | 2026-08-31 | — | Cycle de Consultation (Choura) — cycle ouvert le 2026-08-31 |
+| `meta/projet-unifie/choura/cycle-2026-09-01` | meta | — | 2026-09-01 | — | Cycle de Consultation (Choura) — cycle ouvert le 2026-09-01 |
 | `meta/projet-unifie/choura/hook-contribution-sidy/README` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/choura/orchestrateur/README` | — | — | — | — | (sans titre) |
 | `meta/projet-unifie/directive-discernement-domaines` | meta | — | 2026-06-20 | — | Directive de discernement des domaines (forme / principe) |
@@ -716,14 +723,17 @@ links: []
 | `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03` | meta | — | 2026-07-08 | — | Note d'optimisation — préparation de l'intégration Hermes Agent (2026-07-03) |
 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0` | meta | — | 2026-08-15 | — | Spécification — rôle G0 de brouillon §4 (actualisation Karūbī) |
 | `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes` | meta | — | 2026-08-06 | — | Spécification — skill Hermes KARUBI |
-| `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` | meta | — | 2026-08-06 | — | Proposition — Articulation Karūbī / Agent 10 (Gardien), et administration agentique par H… |
+| `meta/projet-unifie/plan-action-soutien-sidy` | meta | — | 2026-09-01 | — | Plan d'action — soutien Sidy personnel et professionnel |
+| `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` | meta | — | 2026-09-01 | — | Proposition — Articulation Karūbī / Agent 10 (Gardien), et administration agentique par H… |
 | `meta/projet-unifie/proposition-cycle-consultation-choura-2026-08-27` | meta | — | 2026-08-27 | — | Proposition — Cycle de Consultation (الشورى) entre les 12 agents |
 | `meta/projet-unifie/proposition-discernement-image-organique-2026-08-27` | meta | — | 2026-08-27 | — | Proposition — Image organique du Discernement (champ, semence, fruit) |
 | `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` | meta | deprecated | 2026-08-27 | — | Proposition — Pôle Fiqh, double face du Gardien du Protocole, Rapport du matin |
-| `meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08` | proposition-structure | — | 2026-08-08 | — | Proposition — le pôle R&D de l'atelier (vers le dépôt-laboratoire) |
+| `meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08` | proposition-structure | — | 2026-09-01 | — | Proposition — le pôle R&D de l'atelier (vers le dépôt-laboratoire) |
 | `meta/projet-unifie/proposition-pole-usul-2026-08-27` | meta | — | 2026-08-27 | — | Proposition — Pôle Usûl (supersède le Pôle Fiqh du 2026-07-06) |
 | `meta/projet-unifie/proposition-queue-taches-2026-08-27` | meta | — | 2026-08-27 | — | Proposition — Queue de tâches et déploiement aux agents |
 | `meta/projet-unifie/queue-idees` | meta | — | 2026-08-27 | — | Queue de tâches — idées en attente de déploiement aux agents |
+| `meta/projet-unifie/rapport-rd-memoire-persistante` | meta | — | 2026-09-01 | — | Rapport R&D — incident mémoire persistante et déploiement ressources |
+| `meta/projet-unifie/synthese-ressources-deployees` | meta | — | 2026-09-01 | — | Synthèse ressources déployées — soutien Sidy (2026-08-23) |
 | `meta/projet-unifie/triage-chatgpt-export` | meta | — | 2026-06-20 | — | Triage export ChatGPT (140 conversations) — proposition de classement |
 | `meta/proposition-discernement` | meta | deprecated | 2026-06-20 | — | Proposition — Circuit Discernement (spéculations personnelles) |
 | `meta/protocole-archivage-claude-ai` | meta | deprecated | 2026-06-20 | — | Protocole d'archivage Claude AI (DÉPRÉCIÉ) |
@@ -744,26 +754,27 @@ links: []
 | tag | n | fiches |
 |---|---|---|
 | `guenon` | 79 | `atelier/etudes-de-cas/zellige-grande-mosquee-paris`, `atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `doctrinal/autorites/charles-andre-gilis`, `doctrinal/autorites/michel-valsan`, `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, … (+71) |
-| `outillage` | 41 | `atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres`, `atelier/rd/outillage/2026-08-10_methode-croisement-discernement`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole`, `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, … (+33) |
+| `outillage` | 42 | `atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres`, `atelier/rd/outillage/2026-08-10_methode-croisement-discernement`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole`, `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, … (+34) |
+| `rd` | 33 | `atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session`, `atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres`, `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme`, `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura`, `atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd`, `atelier/rd/cahiers/journal-optimisations`, … (+25) |
 | `ibn-arabi` | 30 | `atelier/rd/instrument/soumission-gem-reponse-gloton`, `doctrinal/autorites/charles-andre-gilis`, `doctrinal/autorites/michel-valsan`, `doctrinal/autorites/titus-burckhardt`, `doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh`, `doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, … (+22) |
-| `infrastructure` | 29 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/index`, `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20`, … (+21) |
-| `rd` | 29 | `atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session`, `atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres`, `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme`, `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura`, `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, … (+21) |
+| `infrastructure` | 30 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/index`, `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure`, `atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, … (+22) |
+| `hermes` | 28 | `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura`, `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/incidents/2026-08-25_gardien-gateway-crash-boucle`, `atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne`, `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement`, `atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, … (+20) |
 | `bibliotheque` | 27 | `atelier/rd/bibliotheque/abreviations-hindouisme-soufisme`, `atelier/rd/bibliotheque/bibliographie-ihwan-al-safa`, `atelier/rd/bibliotheque/bibliographie-porte-du-ciel`, `atelier/rd/bibliotheque/catalogue-bibliotheque`, `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `atelier/rd/bibliotheque/eckstein-porte-du-ciel`, `atelier/rd/bibliotheque/glossaires-porte-du-ciel`, `atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue`, … (+19) |
-| `hermes` | 27 | `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura`, `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/incidents/2026-08-25_gardien-gateway-crash-boucle`, `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement`, `atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, … (+19) |
 | `instrument` | 26 | `atelier/index`, `atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session`, `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme`, `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles`, `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement`, `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3`, `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres`, `atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable`, … (+18) |
 | `projet-claude-ai` | 25 | `meta/projet-unifie/00-instructions-projet`, `meta/projet-unifie/01-contexte-demarche-etat`, `meta/projet-unifie/02-instrument-feuille-de-route`, `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/04-sessions-par-fonction-et-backlogs`, `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, … (+17) |
 | `kabbale` | 24 | `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3`, `doctrinal/autorites/haim-vital`, `doctrinal/autorites/isaac-louria-arizal`, `doctrinal/autorites/raphael-afilalo`, `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, … (+16) |
+| `atelier` | 15 | `atelier/index`, `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura`, `atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd`, `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, … (+7) |
 | `genealogie` | 15 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fanta-nna-diabate`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante`, `meta/genealogie/kouyate`, … (+7) |
 | `famille` | 14 | `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fanta-nna-diabate`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante`, `meta/genealogie/kouyate`, `meta/genealogie/mamadou-doudou-sissoko`, … (+6) |
 | `tasawwuf` | 14 | `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3`, `doctrinal/autorites/faraz-rabbani`, `doctrinal/autorites/muhammad-nazim-al-haqqani`, `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement`, `doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation`, `doctrinal/symboles/futuwwa`, … (+6) |
-| `atelier` | 13 | `atelier/index`, `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura`, `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/registre-problemes`, … (+5) |
+| `transcription` | 14 | `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `atelier/rd/bibliotheque/lumiere-hindouisme-soufisme`, `atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme`, `atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme`, `doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription`, `doctrinal/sources/gloton-approche-coran-grammaire-lexique`, `doctrinal/sources/kitab-tarifat-corps-transcription`, `doctrinal/sources/kitab-tarifat-index-transcription`, … (+6) |
 | `discernement` | 13 | `atelier/rd/outillage/2026-08-10_methode-croisement-discernement`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, … (+5) |
 | `qutb` | 13 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres`, `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions`, `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh`, `doctrinal/sources/guenon-dome-et-la-roue`, … (+5) |
+| `soufisme` | 13 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/autorites/abd-al-qadir-al-jilani`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-corps-transcription`, `doctrinal/symboles/al-insan-al-kamil`, `doctrinal/symboles/barzakh`, … (+5) |
+| `veille` | 13 | `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31`, `atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne`, `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19`, `atelier/rd/veille/2026-08-31_argentos-core`, `atelier/rd/veille/2026-08-31_auto-harness`, `atelier/rd/veille/2026-08-31_claude-smart`, … (+5) |
 | `runbook` | 12 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03`, … (+4) |
-| `soufisme` | 12 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/autorites/abd-al-qadir-al-jilani`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/symboles/al-insan-al-kamil`, `doctrinal/symboles/barzakh`, `doctrinal/symboles/hadarat-khams`, … (+4) |
-| `transcription` | 12 | `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `atelier/rd/bibliotheque/lumiere-hindouisme-soufisme`, `atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme`, `atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme`, `doctrinal/sources/gloton-approche-coran-grammaire-lexique`, `doctrinal/sources/kitab-tarifat-index-transcription`, `doctrinal/sources/meftah-chatons-sagesses-transcription`, `doctrinal/sources/razi-noms-divins-ch18-khafid-rafi`, … (+4) |
-| `veille` | 12 | `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18`, `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11`, `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31`, `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19`, `atelier/rd/veille/2026-08-31_argentos-core`, `atelier/rd/veille/2026-08-31_auto-harness`, `atelier/rd/veille/2026-08-31_claude-smart`, `atelier/rd/veille/2026-08-31_sentrux`, … (+4) |
 | `metaphysique` | 11 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `doctrinal/symboles/al-insan-al-kamil`, `doctrinal/symboles/barzakh`, `doctrinal/symboles/hadarat-khams`, … (+3) |
+| `vedanta` | 11 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14`, `doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta`, … (+3) |
 | `axe-du-monde` | 10 | `atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue`, `atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel`, `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument`, `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale`, `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions`, `doctrinal/sources/guenon-dome-et-la-roue`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron`, … (+2) |
 | `initiation` | 10 | `atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue`, `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel`, `doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities`, `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique`, `doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission`, `doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru`, `doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs`, `doctrinal/sources/guenon-symboles-science-sacree-ch18-janus`, … (+2) |
 | `sashimono` | 10 | `atelier/rd/bibliotheque/eckstein-porte-du-ciel`, `atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel`, `atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone`, `atelier/rd/outillage/2026-08-10_methode-traitement-lot-discernement-sashimono`, `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle`, `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument`, `atelier/rd/veille/cordis/notes-lecture`, `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel`, … (+2) |
@@ -780,7 +791,6 @@ links: []
 | `proposition` | 9 | `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31`, `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0`, `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes`, `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06`, `meta/projet-unifie/proposition-cycle-consultation-choura-2026-08-27`, `meta/projet-unifie/proposition-discernement-image-organique-2026-08-27`, `meta/projet-unifie/proposition-pole-fiqh-2026-07-06`, `meta/projet-unifie/proposition-pole-usul-2026-08-27`, … (+1) |
 | `reve` | 9 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/personnel/2026-06-20_gene-buccale-reve-recurrent`, `meta/personnel/2026-06-20_reve-chat`, `meta/personnel/2026-06-20_reve-fille-elephant`, `meta/personnel/2026-06-20_reve-geants-paris`, `meta/personnel/2026-06-20_reve-leila`, `meta/personnel/2026-06-20_reve-savant-vivant`, `meta/personnel/2026-06-20_reve-urine`, … (+1) |
 | `symboles-science-sacree` | 9 | `atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue`, `doctrinal/sources/guenon-dome-et-la-roue`, `doctrinal/sources/guenon-mysteres-lettre-nun`, `doctrinal/sources/guenon-octogone`, `doctrinal/sources/guenon-symboles-science-sacree-ch18-janus`, `doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices`, `doctrinal/sources/guenon-symbolisme-du-dome`, `doctrinal/sources/guenon-zodiaque-pythagoriciens`, … (+1) |
-| `vedanta` | 9 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14`, `doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta`, … (+1) |
 | `aqtab` | 8 | `atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles`, `doctrinal/deviations/sept-tours-du-diable`, `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/discernement/2026-08-29_sept-poles-sept-lataif`, `doctrinal/sources/guenon-recension-seabrook-aventures-arabie`, `doctrinal/sources/valsan-investiture-cheikh-al-akbar`, … (+0) |
 | `contre-initiation` | 8 | `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/sept-tours-du-diable`, `doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance`, `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion`, `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation`, `doctrinal/sources/guenon-recension-seabrook-aventures-arabie`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation`, … (+0) |
 | `kari-kumi` | 8 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra`, `doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf`, `doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres`, `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet`, `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique`, `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi`, … (+0) |
@@ -790,6 +800,7 @@ links: []
 | `sissoko` | 8 | `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/fatoumata-sissoko`, `meta/genealogie/mamadou-doudou-sissoko`, `meta/genealogie/moussa-sissoko`, `meta/genealogie/sidy-lamine-kouyate`, `meta/genealogie/sissoko-kankounan`, `meta/genealogie/tapa-sissoko` |
 | `walaya` | 8 | `doctrinal/autorites/abd-al-qadir-al-jilani`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot`, `doctrinal/sources/malamatiyah-futuhat-ch23`, `doctrinal/symboles/khatm`, `doctrinal/symboles/malamatiyya`, `doctrinal/symboles/manazil-al-qamar`, `doctrinal/symboles/walaya` |
 | `agents` | 7 | `atelier/rd/cahiers/2026-08-22_lecons-chantier-bibliotheque-index-livres`, `atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent`, `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura`, `doctrinal/discernement/2026-08-09_hierarchie-principe-determination-individuelle`, `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08`, `meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09`, … (+-1) |
+| `atma` | 7 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14`, `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement`, `doctrinal/symboles/atma`, `doctrinal/symboles/jivatma`, `doctrinal/symboles/purusha` |
 | `clos` | 7 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien`, `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, … (+-1) |
 | `en-cours` | 7 | `doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf`, `doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres`, `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique`, `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08`, … (+-1) |
 | `eschatologie` | 7 | `doctrinal/deviations/antitradition-et-contre-tradition`, `doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities`, `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation`, `doctrinal/symboles/eschatologie`, `doctrinal/symboles/manazil-al-qamar`, `doctrinal/symboles/manvantara` |
@@ -799,15 +810,16 @@ links: []
 | `shayegan` | 7 | `atelier/rd/bibliotheque/abreviations-hindouisme-soufisme`, `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `atelier/rd/bibliotheque/lumiere-hindouisme-soufisme`, `atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme`, `atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme`, `atelier/rd/bibliotheque/sommaire-hindouisme-soufisme`, `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres`, … (+-1) |
 | `symbolisme-croix` | 7 | `doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques`, `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf`, `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel`, `doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference`, `doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain`, `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace`, `doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas`, … (+-1) |
 | `architecture` | 6 | `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11`, `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3`, … (+-2) |
-| `atma` | 6 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14`, `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement`, `doctrinal/symboles/atma`, `doctrinal/symboles/purusha` |
 | `audio` | 6 | `atelier/materiel/distressor-el8`, `atelier/materiel/moog-voyager`, `atelier/materiel/neumann-tlm103`, `atelier/materiel/neve-1073spx`, `atelier/materiel/revox-a77`, `atelier/materiel/tascam-model-12` |
 | `auteur` | 6 | `hermeneutique/auteurs/akira-toriyama`, `hermeneutique/auteurs/hideo-kojima`, `hermeneutique/auteurs/mary-shelley`, `hermeneutique/auteurs/naoki-urasawa`, `hermeneutique/auteurs/togashi-yoshihiro`, `hermeneutique/auteurs/yoji-shinkawa` |
 | `axe` | 6 | `doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire`, `doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain`, `doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas`, `doctrinal/symboles/janus-bifrons`, … (+-2) |
+| `burckhardt` | 6 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription`, `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` |
 | `gloton` | 6 | `atelier/rd/instrument/soumission-gem-reponse-gloton`, `doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation`, `doctrinal/sources/gloton-approche-coran-grammaire-lexique`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/sources/transcription-anneau-28-lettres-figure4`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
 | `hindouisme-soufisme` | 6 | `atelier/rd/bibliotheque/abreviations-hindouisme-soufisme`, `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `atelier/rd/bibliotheque/lumiere-hindouisme-soufisme`, `atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme`, `atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme`, `atelier/rd/bibliotheque/sommaire-hindouisme-soufisme` |
 | `insan-al-kamil` | 6 | `doctrinal/autorites/abd-al-karim-al-jili`, `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`, `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions`, `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel` |
 | `self-improvement` | 6 | `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`, `atelier/rd/veille/2026-08-31_argentos-core`, `atelier/rd/veille/2026-08-31_auto-harness`, `atelier/rd/veille/2026-08-31_claude-smart`, `atelier/rd/veille/2026-08-31_sentrux`, `atelier/rd/veille/2026-08-31_sia` |
 | `sushumna` | 6 | `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons`, `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions`, `doctrinal/sources/avalon-serpent-power-nadis-reseau`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire`, `doctrinal/symboles/polarite-laterale-de-l-axe` |
+| `alchimie` | 5 | `doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription`, `doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane`, `doctrinal/sources/guenon-hermetisme-hermes-thoth`, `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles`, `hermeneutique/frankenstein/frankenstein` |
 | `asma-al-husna` | 5 | `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/sources/razi-noms-divins-ch18-khafid-rafi` |
 | `astrologie` | 5 | `atelier/rd/instrument/angles-de-l-espace`, `doctrinal/autorites/titus-burckhardt`, `doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane`, `meta/personnel/2026-06-20_theme-astrologique`, `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08` |
 | `axe-vertical` | 5 | `atelier/rd/instrument/spec-technique-axe-38-degres`, `doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux`, `doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques`, `doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference`, `doctrinal/symboles/hadarat-khams` |
@@ -840,11 +852,13 @@ links: []
 | `spiritualite` | 5 | `meta/genealogie/kouyate`, `meta/genealogie/mamadou-doudou-sissoko`, `meta/genealogie/samballa-kouyate`, `meta/personnel/2026-08-18_initiation-virtuelle`, `meta/personnel/sidy` |
 | `stub` | 5 | `doctrinal/autorites/titus-burckhardt`, `doctrinal/symboles/nafas-rahmani`, `meta/genealogie/dionkounandi-sissoko`, `meta/genealogie/moussa-sissoko`, `meta/genealogie/tapa-sissoko` |
 | `subversion` | 5 | `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/deviation-et-subversion`, `doctrinal/deviations/renversement-des-symboles`, `doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation` |
+| `symbolisme` | 5 | `doctrinal/deviations/renversement-des-symboles`, `doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription`, `doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation`, `meta/personnel/2026-06-20_taekwondo-hansu` |
+| `terminologie` | 5 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-corps-transcription`, `doctrinal/sources/kitab-tarifat-index-transcription` |
 | `vigilance` | 5 | `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme`, `atelier/rd/outillage/spec-detecter-non-tracke`, `doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance`, `doctrinal/symboles/archeometre`, `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` |
 | `afrad` | 4 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot`, `doctrinal/sources/malamatiyah-futuhat-ch23`, `doctrinal/symboles/malamatiyya` |
 | `atman` | 4 | `atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme`, `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres`, `doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma`, `doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes` |
 | `bilan` | 4 | `atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session`, `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure`, `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement`, `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot` |
-| `burckhardt` | 4 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/sources/barzakh-nur-lh`, `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt` |
+| `cahier` | 4 | `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme`, `atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd`, `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/registre-problemes` |
 | `corpus` | 4 | `atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon`, `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `doctrinal/sources/manifeste-corpus-symboles-science-sacree`, `hermeneutique/death-stranding/dhv-magellan` |
 | `cycles` | 4 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles`, `doctrinal/deviations/antitradition-et-contre-tradition`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation`, `doctrinal/symboles/eschatologie` |
 | `discord` | 4 | `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17`, `atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16`, `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` |
@@ -853,15 +867,17 @@ links: []
 | `ia` | 4 | `atelier/rd/infrastructure/analyse-temporelle-code-meta-raisonnement-ia-2026-08-19`, `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi`, `doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms`, `doctrinal/sources/alshammari-llm-ontologie-hadith-2026` |
 | `ida` | 4 | `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons`, `doctrinal/sources/avalon-serpent-power-nadis-reseau`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire`, `doctrinal/symboles/polarite-laterale-de-l-axe` |
 | `ilm-al-nujum` | 4 | `doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh`, `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge`, `doctrinal/symboles/manazil-al-qamar` |
+| `intellect` | 4 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes`, `doctrinal/symboles/buddhi` |
 | `interface` | 4 | `atelier/materiel/tascam-model-12`, `hermeneutique/death-stranding/dhv-magellan`, `hermeneutique/metal-gear/idroid`, `hermeneutique/metal-gear/mother-base` |
 | `jeu-video` | 4 | `hermeneutique/auteurs/hideo-kojima`, `hermeneutique/auteurs/yoji-shinkawa`, `hermeneutique/death-stranding/death-stranding`, `hermeneutique/metal-gear/metal-gear` |
 | `karubi` | 4 | `atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire`, `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0`, `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes`, `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` |
 | `khatm` | 4 | `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/sources/valsan-investiture-cheikh-al-akbar`, `doctrinal/symboles/khatm`, `doctrinal/symboles/khatm-al-khawajakan` |
+| `lexicographie` | 4 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-corps-transcription`, `doctrinal/sources/kitab-tarifat-index-transcription` |
 | `llm` | 4 | `atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding`, `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms`, `doctrinal/sources/alshammari-llm-ontologie-hadith-2026` |
 | `lurianique` | 4 | `doctrinal/autorites/haim-vital`, `doctrinal/autorites/isaac-louria-arizal`, `doctrinal/symboles/cinq-noms-ame`, `doctrinal/symboles/gilgul` |
 | `mahdi-rouge` | 4 | `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`, `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-I`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-II` |
 | `manvantara` | 4 | `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge`, `doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques`, `doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq`, `doctrinal/symboles/manvantara` |
-| `memoire` | 4 | `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement`, `atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire`, `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole`, `atelier/rd/synthese-deploiement-memoire` |
+| `memoire` | 4 | `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement`, `atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire`, `atelier/rd/infrastructure/synthese-deploiement-memoire`, `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole` |
 | `meru` | 4 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa`, `doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres` |
 | `nombre` | 4 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre`, `doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres`, `doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation`, `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf` |
 | `ornith` | 4 | `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud`, `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29` |
@@ -871,28 +887,29 @@ links: []
 | `portes-solsticiales` | 4 | `doctrinal/sources/guenon-symboles-science-sacree-ch18-janus`, `doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices`, `doctrinal/sources/guenon-zodiaque-pythagoriciens`, `doctrinal/symboles/janus-bifrons` |
 | `qabbalah` | 4 | `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot`, `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement`, `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace`, `doctrinal/sources/qabbalah-matiere-trilogie-guenonienne` |
 | `qaf` | 4 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa`, `doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres` |
+| `registre` | 4 | `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/registre-problemes`, `atelier/rd/registre-chantiers`, `atelier/rd/veille/registre` |
 | `registres` | 4 | `atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session`, `atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3`, `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres`, `atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles` |
 | `resultats` | 4 | `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29`, `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29`, `meta/projet-unifie/08-resultats-test-ornith-cas-doctrinal-2026-06-29`, `meta/projet-unifie/11-resultats-qwen36-27b-2026-07-03` |
 | `roi-du-monde` | 4 | `doctrinal/sources/guenon-roi-du-monde-ch10`, `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron`, `doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes`, `doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq` |
+| `samkhya` | 4 | `doctrinal/symboles/atma`, `doctrinal/symboles/buddhi`, `doctrinal/symboles/prakriti`, `doctrinal/symboles/purusha` |
 | `shonen` | 4 | `hermeneutique/auteurs/akira-toriyama`, `hermeneutique/dr-slump/dr-slump`, `hermeneutique/dragon-ball/dragon-ball`, `hermeneutique/hunter-x-hunter/hunter-x-hunter` |
-| `symbolisme` | 4 | `doctrinal/deviations/renversement-des-symboles`, `doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu`, `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation`, `meta/personnel/2026-06-20_taekwondo-hansu` |
-| `terminologie` | 4 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-index-transcription` |
 | `transition` | 4 | `meta/projet-unifie/03-transition-modele-open-source`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03`, `meta/projet-unifie/09-briefing-transition-qwen36-27b-2026-07-01` |
 | `transmission` | 4 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre`, `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle`, `hermeneutique/metal-gear/big-boss`, `hermeneutique/metal-gear/metal-gear` |
+| `verification` | 4 | `atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne`, `atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe`, `meta/2026-07-27_correctif-etendu-invariants-depot`, `meta/2026-07-27_guide-deploiement-verifier-invariants` |
 | `28-degres` | 3 | `atelier/rd/instrument/soumission-gem-convergence-28`, `atelier/rd/instrument/soumission-gem-reponse-visuelle-28`, `doctrinal/symboles/nafas-rahmani` |
 | `adab` | 3 | `doctrinal/symboles/futuwwa`, `doctrinal/symboles/shukr`, `doctrinal/symboles/tawakkul` |
 | `al-buni` | 3 | `doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel`, `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation`, `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre` |
 | `albouraq` | 3 | `doctrinal/sources/gloton-approche-coran-grammaire-lexique`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq` |
-| `alchimie` | 3 | `doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane`, `doctrinal/sources/guenon-hermetisme-hermes-thoth`, `hermeneutique/frankenstein/frankenstein` |
 | `archetype` | 3 | `doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris`, `doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes`, `doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu` |
 | `balance` | 3 | `doctrinal/sources/guenon-roi-du-monde-ch10`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-I`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-II` |
 | `bibliographie` | 3 | `atelier/rd/bibliotheque/bibliographie-ihwan-al-safa`, `atelier/rd/bibliotheque/bibliographie-porte-du-ciel`, `doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription` |
-| `cahier` | 3 | `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme`, `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/registre-problemes` |
+| `buddhi` | 3 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya`, `doctrinal/symboles/buddhi` |
 | `chakras` | 3 | `doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux`, `doctrinal/sources/avalon-serpent-power-nadis-reseau`, `doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme` |
 | `comparatisme` | 3 | `doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma`, `doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes`, `doctrinal/symboles/archeometre` |
 | `conceptuel` | 3 | `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3` |
 | `contrefacon` | 3 | `doctrinal/deviations/deviation-et-subversion`, `doctrinal/deviations/pseudo-initiation-et-syncretisme`, `doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance` |
 | `cosmologie` | 3 | `doctrinal/autorites/titus-burckhardt`, `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt`, `doctrinal/symboles/hadarat-khams` |
+| `cron` | 3 | `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31`, `atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17` |
 | `darajat` | 3 | `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres`, `doctrinal/sources/gloton-approche-coran-grammaire-lexique`, `doctrinal/sources/razi-noms-divins-ch18-khafid-rafi` |
 | `death-stranding` | 3 | `hermeneutique/death-stranding/death-stranding`, `hermeneutique/death-stranding/dhv-magellan`, `hermeneutique/sources/art-of-death-stranding` |
 | `degres` | 3 | `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres`, `doctrinal/sources/razi-noms-divins-ch18-khafid-rafi` |
@@ -904,6 +921,7 @@ links: []
 | `futuwwa` | 3 | `doctrinal/symboles/futuwwa`, `meta/journal/2026-06-18-tawakkul-transition`, `meta/personnel/2026-06-20_bouton-de-rose` |
 | `gilgul` | 3 | `doctrinal/autorites/isaac-louria-arizal`, `doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations`, `doctrinal/symboles/gilgul` |
 | `gizeh` | 3 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles`, `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien`, `doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris` |
+| `grammaire` | 3 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-corps-transcription` |
 | `grande-triade` | 3 | `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages`, `doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes`, `doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres` |
 | `gunas` | 3 | `atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable`, `doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas`, `doctrinal/symboles/prakriti` |
 | `hadarat-khams` | 3 | `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
@@ -911,19 +929,19 @@ links: []
 | `identite-supreme` | 3 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26`, `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel`, `doctrinal/symboles/atma` |
 | `idris` | 3 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris`, `doctrinal/sources/mahdi-rouge-islam-signe-balance-I` |
 | `insan-kamil` | 3 | `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante`, `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `doctrinal/symboles/khatm` |
-| `intellect` | 3 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale`, `doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect`, `doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes` |
 | `jump` | 3 | `hermeneutique/auteurs/akira-toriyama`, `hermeneutique/dr-slump/dr-slump`, `hermeneutique/dragon-ball/dragon-ball` |
 | `jurjani` | 3 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani`, `doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani`, `doctrinal/sources/barzakh-nur-lh` |
 | `kante` | 3 | `meta/genealogie/arbre-genealogique-sissoko`, `meta/genealogie/hawa-kante`, `meta/genealogie/keme-kante` |
 | `kouyate` | 3 | `meta/genealogie/kouyate`, `meta/genealogie/samballa-kouyate`, `meta/genealogie/sidy-lamine-kouyate` |
 | `kundalini` | 3 | `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `doctrinal/sources/avalon-serpent-power-nadis-reseau`, `doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme` |
 | `lataif` | 3 | `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme`, `atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles`, `doctrinal/discernement/2026-08-29_sept-poles-sept-lataif` |
-| `lexicographie` | 3 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-index-transcription` |
+| `logique` | 3 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-corps-transcription` |
 | `macrocosme` | 3 | `atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles`, `doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes`, `doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques` |
 | `magie` | 3 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre`, `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle`, `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf` |
 | `malakut-planetaire` | 3 | `doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris`, `doctrinal/discernement/2026-08-29_sept-poles-sept-lataif` |
 | `mandala` | 3 | `atelier/rd/instrument/instrument-tradition-primordiale-architecture`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2`, `atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3` |
 | `mangaka` | 3 | `hermeneutique/auteurs/akira-toriyama`, `hermeneutique/auteurs/naoki-urasawa`, `hermeneutique/auteurs/togashi-yoshihiro` |
+| `manifestation` | 3 | `doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation`, `doctrinal/symboles/jivatma`, `doctrinal/symboles/prakriti` |
 | `maratib-al-wujud` | 3 | `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
 | `melki-tsedeq` | 3 | `doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`, `doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq`, `doctrinal/sources/valsan-investiture-cheikh-al-akbar` |
 | `metal-gear` | 3 | `hermeneutique/metal-gear/big-boss`, `hermeneutique/metal-gear/metal-gear`, `hermeneutique/metal-gear/mother-base` |
@@ -939,10 +957,8 @@ links: []
 | `quatre-mondes` | 3 | `atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme`, `doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes`, `doctrinal/symboles/cinq-noms-ame` |
 | `rattachement` | 3 | `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`, `doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission`, `doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs` |
 | `rayon-solaire` | 3 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire` |
-| `registre` | 3 | `atelier/rd/cahiers/journal-optimisations`, `atelier/rd/cahiers/registre-problemes`, `atelier/rd/veille/registre` |
 | `reseau` | 3 | `atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles`, `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet`, `doctrinal/sources/avalon-serpent-power-nadis-reseau` |
 | `rite` | 3 | `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre`, `doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle`, `doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation` |
-| `samkhya` | 3 | `doctrinal/symboles/atma`, `doctrinal/symboles/prakriti`, `doctrinal/symboles/purusha` |
 | `science-sacree` | 3 | `doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien`, `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique`, `doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane` |
 | `sefer-yetsira` | 3 | `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot`, `doctrinal/sources/sefer-yetsira-ramban`, `doctrinal/sources/sefer-yetsira-ramban_source` |
 | `shams-al-maarif` | 3 | `doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel`, `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation`, `doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre` |
@@ -980,7 +996,6 @@ links: []
 | `awliya-shaytan` | 2 | `doctrinal/deviations/contre-initiation`, `doctrinal/deviations/sept-tours-du-diable` |
 | `bast` | 2 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique` |
 | `big-boss` | 2 | `hermeneutique/metal-gear/big-boss`, `hermeneutique/metal-gear/idroid` |
-| `buddhi` | 2 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7`, `doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya` |
 | `castille` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `centre` | 2 | `doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement`, `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement` |
 | `chantier-guenon-buni` | 2 | `doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel`, `doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation` |
@@ -992,16 +1007,16 @@ links: []
 | `cosmogonie` | 2 | `doctrinal/sources/kabbale-cosmogonie-iod`, `doctrinal/symboles/nafas-rahmani` |
 | `creation-artificielle` | 2 | `doctrinal/symboles/golem`, `hermeneutique/frankenstein/frankenstein` |
 | `creation-personnelle` | 2 | `meta/genealogie/2026-06-20_signature-kouyate`, `meta/personnel/2026-06-20_bouton-de-rose` |
-| `cron` | 2 | `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31`, `atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17` |
 | `decisions` | 2 | `meta/projet-unifie/13-pivot-haiku-installation-hermes-phase1-2026-07-07`, `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03` |
 | `degres-ontologiques` | 2 | `doctrinal/sources/guenon-etats-multiples-ch4-fondement`, `doctrinal/symboles/hadarat-khams` |
 | `demonologie` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
-| `deployement` | 2 | `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement`, `atelier/rd/synthese-deploiement-memoire` |
+| `deployement` | 2 | `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement`, `atelier/rd/infrastructure/synthese-deploiement-memoire` |
 | `depot` | 2 | `atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20`, `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20` |
 | `design` | 2 | `atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable`, `hermeneutique/auteurs/yoji-shinkawa` |
 | `deviation` | 2 | `doctrinal/deviations/deviation-et-subversion`, `doctrinal/deviations/morphopsychologie` |
 | `diagnostic` | 2 | `meta/projet-unifie/09-briefing-transition-qwen36-27B-v2-2026-07-02`, `meta/projet-unifie/09-briefing-transition-qwen36-27B-v3-2026-07-03` |
 | `dispositif` | 2 | `hermeneutique/death-stranding/dhv-magellan`, `hermeneutique/metal-gear/mother-base` |
+| `droit` | 2 | `doctrinal/sources/kitab-al-tarifat-jurjani`, `doctrinal/sources/kitab-tarifat-corps-transcription` |
 | `dunya` | 2 | `doctrinal/symboles/ghafla`, `meta/journal/2026-06-18-tawakkul-transition` |
 | `eaux-superieures` | 2 | `doctrinal/deviations/confusion-psychique-spirituel`, `doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats` |
 | `emanation-gauche` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
@@ -1014,14 +1029,15 @@ links: []
 | `futuhât` | 2 | `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
 | `gameplay` | 2 | `hermeneutique/death-stranding/dhv-magellan`, `hermeneutique/metal-gear/mother-base` |
 | `ghafla` | 2 | `doctrinal/symboles/ghafla`, `meta/journal/2026-06-18-tawakkul-transition` |
+| `golem` | 2 | `doctrinal/symboles/golem`, `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` |
 | `gothique` | 2 | `hermeneutique/auteurs/mary-shelley`, `hermeneutique/frankenstein/frankenstein` |
 | `gpt-4` | 2 | `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi`, `doctrinal/sources/alshammari-llm-ontologie-hadith-2026` |
-| `grammaire` | 2 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani` |
 | `guru` | 2 | `doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru`, `doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs` |
 | `guru-interieur` | 2 | `doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru`, `doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise` |
 | `haya` | 2 | `doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations`, `doctrinal/symboles/cinq-noms-ame` |
 | `hekhaleth` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `hellenisme` | 2 | `doctrinal/sources/platon-oeuvres-completes-brisson-2011`, `doctrinal/symboles/atlantide` |
+| `hermetisme` | 2 | `doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription`, `doctrinal/sources/guenon-hermetisme-hermes-thoth` |
 | `hierarchie-initiatique` | 2 | `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `doctrinal/symboles/khatm` |
 | `hindouisme` | 2 | `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet`, `doctrinal/symboles/manvantara` |
 | `hindouisme-islam` | 2 | `doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme`, `doctrinal/sources/guenon-mysteres-lettre-nun` |
@@ -1035,6 +1051,7 @@ links: []
 | `isaac-ha-kohen` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
 | `jili` | 2 | `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel`, `doctrinal/symboles/al-insan-al-kamil` |
 | `jivan-mukti` | 2 | `doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26` |
+| `jivatma` | 2 | `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement`, `doctrinal/symboles/jivatma` |
 | `journal-spirituel` | 2 | `meta/personnel/2026-06-20_gout-sucre-priere`, `meta/personnel/2026-06-20_triptyque-animaux` |
 | `jumeau-spirituel` | 2 | `meta/genealogie/2026-06-20_oiseau-serpent-jumeau`, `meta/genealogie/2026-06-20_signature-kouyate` |
 | `kali-yuga` | 2 | `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge`, `doctrinal/symboles/manvantara` |
@@ -1051,12 +1068,10 @@ links: []
 | `lexique` | 2 | `doctrinal/sources/gloton-approche-coran-grammaire-lexique`, `doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription` |
 | `lien` | 2 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast`, `hermeneutique/death-stranding/death-stranding` |
 | `lilith` | 2 | `doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen`, `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen` |
-| `logique` | 2 | `doctrinal/autorites/al-jurjani`, `doctrinal/sources/kitab-al-tarifat-jurjani` |
 | `macrocosme-microcosme` | 2 | `doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris`, `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel` |
 | `malamatiyya` | 2 | `doctrinal/sources/malamatiyah-futuhat-ch23`, `doctrinal/symboles/malamatiyya` |
 | `manas` | 2 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26`, `doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya` |
 | `manazil` | 2 | `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles`, `atelier/rd/instrument/spec-anneau-zodiacal` |
-| `manifestation` | 2 | `doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation`, `doctrinal/symboles/prakriti` |
 | `manifeste` | 2 | `atelier/rd/outillage/spec-generateur-manifeste`, `doctrinal/sources/manifeste-corpus-symboles-science-sacree` |
 | `medecine-islamique` | 2 | `doctrinal/autorites/aiman-attar`, `doctrinal/deviations/morphopsychologie` |
 | `mediation` | 2 | `doctrinal/autorites/raphael-afilalo`, `hermeneutique/metal-gear/idroid` |
@@ -1152,7 +1167,6 @@ links: []
 | `valsan` | 2 | `doctrinal/autorites/charles-andre-gilis`, `doctrinal/sources/valsan-investiture-cheikh-al-akbar` |
 | `vayu` | 2 | `doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh`, `doctrinal/sources/guenon-octogone` |
 | `vedas` | 2 | `doctrinal/sources/tilak-origine-polaire-tradition-vedique`, `doctrinal/sources/transcription-index-tilak-origine-polaire` |
-| `verification` | 2 | `meta/2026-07-27_correctif-etendu-invariants-depot`, `meta/2026-07-27_guide-deploiement-verifier-invariants` |
 | `viraj` | 2 | `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`, `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya` |
 | `wahhabisme` | 2 | `doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion`, `doctrinal/sources/histoire-wahhabis-corancez-redissi` |
 | `wiki-manifest` | 2 | `doctrinal/sources/transcription-anneau-28-lettres-figure4`, `doctrinal/symboles/table-28-degres-nafas-rahman` |
@@ -1175,6 +1189,7 @@ links: []
 | `al-insan-al-kamil` | 1 | `doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq` |
 | `alif` | 1 | `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh` |
 | `alphabet-arabe` | 1 | `doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes` |
+| `ame-individuelle` | 1 | `doctrinal/symboles/jivatma` |
 | `amorcage` | 1 | `meta/projet-unifie/README` |
 | `ampleur` | 1 | `doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats` |
 | `ampleur-exaltation` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel` |
@@ -1211,10 +1226,12 @@ links: []
 | `assemblage` | 1 | `meta/philosophie-sashimono` |
 | `assimilation` | 1 | `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole` |
 | `astronomie` | 1 | `atelier/rd/instrument/references-visuelles-astronomiques-phase-5` |
+| `athanor` | 1 | `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` |
 | `ativarna` | 1 | `doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles` |
 | `atlante` | 1 | `doctrinal/sources/guenon-roi-du-monde-ch10` |
 | `auteure` | 1 | `doctrinal/autorites/aiman-attar` |
 | `automatisation` | 1 | `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31` |
+| `autotransmutation` | 1 | `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` |
 | `avalon` | 1 | `doctrinal/sources/avalon-serpent-power-nadis-reseau` |
 | `avarna` | 1 | `doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles` |
 | `avir` | 1 | `doctrinal/sources/kabbale-cosmogonie-iod` |
@@ -1252,9 +1269,11 @@ links: []
 | `ceremonie-collective` | 1 | `doctrinal/symboles/khatm-al-khawajakan` |
 | `chaine-initiatique` | 1 | `doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission` |
 | `changelog` | 1 | `meta/protocole-archives/changelog-CLAUDE` |
+| `chantiers` | 1 | `atelier/rd/registre-chantiers` |
 | `chatgpt` | 1 | `meta/projet-unifie/chatgpt-export-2026-05-10` |
 | `cheng-jen` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise` |
 | `chimera-ant` | 1 | `hermeneutique/hunter-x-hunter/hunter-x-hunter` |
+| `chronologie` | 1 | `atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd` |
 | `chute` | 1 | `doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf` |
 | `ciel-soleil` | 1 | `doctrinal/sources/mahdi-rouge-islam-signe-balance-I` |
 | `ciel-terre` | 1 | `doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres` |
@@ -1286,12 +1305,14 @@ links: []
 | `conscience-pure` | 1 | `doctrinal/symboles/atma` |
 | `consciousness` | 1 | `doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms` |
 | `conservation` | 1 | `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura` |
+| `containment` | 1 | `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` |
 | `contemplation` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet` |
 | `contexte` | 1 | `meta/projet-unifie/01-contexte-demarche-etat` |
 | `contrainte` | 1 | `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast` |
 | `contre-facon` | 1 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale` |
 | `contre-tradition` | 1 | `doctrinal/deviations/antitradition-et-contre-tradition` |
 | `corancez` | 1 | `doctrinal/sources/histoire-wahhabis-corancez-redissi` |
+| `corps-subtil` | 1 | `doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription` |
 | `correctif` | 1 | `meta/2026-07-27_correctif-etendu-invariants-depot` |
 | `correction` | 1 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale` |
 | `correspondances` | 1 | `doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi` |
@@ -1333,6 +1354,7 @@ links: []
 | `directions-espace` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace` |
 | `directions-horizontales` | 1 | `atelier/rd/instrument/angles-de-l-espace` |
 | `disciplines-spirituelles` | 1 | `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme` |
+| `discrimination` | 1 | `doctrinal/symboles/buddhi` |
 | `dissimulation` | 1 | `doctrinal/symboles/malamatiyya` |
 | `dissolution` | 1 | `doctrinal/deviations/deviation-et-subversion` |
 | `dissuasion` | 1 | `hermeneutique/metal-gear/metal-gear` |
@@ -1344,7 +1366,6 @@ links: []
 | `double` | 1 | `hermeneutique/metal-gear/big-boss` |
 | `double-controle` | 1 | `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18` |
 | `douze-simples` | 1 | `doctrinal/sources/sefer-yetsira-ramban` |
-| `droit` | 1 | `doctrinal/sources/kitab-al-tarifat-jurjani` |
 | `druses` | 1 | `doctrinal/sources/guenon-recension-seabrook-aventures-arabie` |
 | `dualite` | 1 | `doctrinal/deviations/renversement-des-symboles` |
 | `dualite-cosmique` | 1 | `doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation` |
@@ -1394,6 +1415,7 @@ links: []
 | `fous-en-christ` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee` |
 | `fouta` | 1 | `meta/genealogie/fatoumata-sissoko` |
 | `framework` | 1 | `meta/projet-unifie/framework-etude-de-cas` |
+| `frankenstein` | 1 | `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` |
 | `furu` | 1 | `doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani` |
 | `fuçûç-al-hikam` | 1 | `doctrinal/sources/meftah-chatons-sagesses-transcription` |
 | `gani` | 1 | `meta/personnel/2026-06-20_triptyque-animaux` |
@@ -1412,7 +1434,6 @@ links: []
 | `github` | 1 | `atelier/rd/veille/cordis/implementations-github` |
 | `glossaire` | 1 | `atelier/rd/bibliotheque/glossaires-porte-du-ciel` |
 | `go` | 1 | `atelier/rd/veille/cordis/implementations-github` |
-| `golem` | 1 | `doctrinal/symboles/golem` |
 | `grand-mere-maternelle` | 1 | `meta/genealogie/hawa-kante` |
 | `grand-mere-paternelle` | 1 | `meta/genealogie/fanta-nna-diabate` |
 | `grand-pere-maternel` | 1 | `meta/genealogie/mamadou-doudou-sissoko` |
@@ -1434,7 +1455,6 @@ links: []
 | `hasb` | 1 | `doctrinal/symboles/tawakkul` |
 | `herbalism` | 1 | `doctrinal/autorites/aiman-attar` |
 | `heritier-prophete` | 1 | `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot` |
-| `hermetisme` | 1 | `doctrinal/sources/guenon-hermetisme-hermes-thoth` |
 | `hesed` | 1 | `doctrinal/sources/kabbale-10-sefirot-structure` |
 | `hierarchie` | 1 | `doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes` |
 | `hierarchie-des-sciences` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf` |
@@ -1477,8 +1497,10 @@ links: []
 | `institution` | 1 | `hermeneutique/hunter-x-hunter/hunter-association-licence` |
 | `instructions` | 1 | `meta/projet-unifie/00-instructions-projet` |
 | `instrumentation` | 1 | `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot` |
+| `intuition-intellectuelle` | 1 | `doctrinal/symboles/buddhi` |
 | `invariable-milieu` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference` |
 | `invariants` | 1 | `meta/2026-07-27_correctif-etendu-invariants-depot` |
+| `inventaire` | 1 | `atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe` |
 | `irak-medieval` | 1 | `doctrinal/autorites/abd-al-karim-al-jili` |
 | `isa` | 1 | `doctrinal/symboles/khatm` |
 | `isaac-louria` | 1 | `doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations` |
@@ -1488,10 +1510,10 @@ links: []
 | `jabarut` | 1 | `doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma` |
 | `jafr` | 1 | `doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes` |
 | `jainas` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26` |
+| `jalon` | 1 | `atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd` |
 | `jambudvipa` | 1 | `doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa` |
 | `japon` | 1 | `hermeneutique/auteurs/hideo-kojima` |
 | `jazuli` | 1 | `doctrinal/sources/dalail-al-khayrat-jazuli` |
-| `jivatma` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement` |
 | `jongleur` | 1 | `doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee` |
 | `journal` | 1 | `meta/journal/2026-06-18-tawakkul-transition` |
 | `jvm` | 1 | `atelier/rd/veille/cordis/implementations-github` |
@@ -1531,6 +1553,7 @@ links: []
 | `maqam` | 1 | `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique` |
 | `mastering` | 1 | `atelier/materiel/tascam-model-12` |
 | `matras` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21` |
+| `matrices-artificielles` | 1 | `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` |
 | `mecanique` | 1 | `doctrinal/sources/manifeste-corpus-symboles-science-sacree` |
 | `medieval` | 1 | `doctrinal/autorites/abd-al-qadir-al-jilani` |
 | `medine` | 1 | `meta/personnel/2026-06-20_identification-bague` |
@@ -1612,6 +1635,7 @@ links: []
 | `photographie-terrain` | 1 | `atelier/etudes-de-cas/zellige-grande-mosquee-paris` |
 | `pierre-angulaire` | 1 | `atelier/rd/bibliotheque/eckstein-porte-du-ciel` |
 | `pierres` | 1 | `meta/personnel/2026-06-20_pierres-personnelles` |
+| `pilotage` | 1 | `atelier/rd/registre-chantiers` |
 | `pitri-yana` | 1 | `doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26` |
 | `plan-de-base` | 1 | `doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats` |
 | `plan-horizontal` | 1 | `doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas` |
@@ -1707,6 +1731,7 @@ links: []
 | `science-fiction` | 1 | `hermeneutique/dr-slump/dr-slump` |
 | `science-profane` | 1 | `doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane` |
 | `sciences-traditionnelles` | 1 | `doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane` |
+| `scripts` | 1 | `atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe` |
 | `search` | 1 | `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity` |
 | `secte` | 1 | `hermeneutique/20th-century-boys/20th-century-boys` |
 | `seekersguidance` | 1 | `doctrinal/autorites/faraz-rabbani` |
@@ -1738,7 +1763,6 @@ links: []
 | `source-secondaire` | 1 | `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge` |
 | `source-visuelle` | 1 | `hermeneutique/sources/art-of-death-stranding` |
 | `sources-primaires` | 1 | `doctrinal/sources/histoire-wahhabis-corancez-redissi` |
-| `soutien-sidy` | 1 | `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement` |
 | `soverainete` | 1 | `atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent` |
 | `spec` | 1 | `atelier/rd/outillage/spec-generateur-manifeste` |
 | `speculaire` | 1 | `doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale` |
@@ -1837,7 +1861,7 @@ links: []
 *Reproduits littéralement. Donne le contenu réel de chaque fiche sans passer par un résumé.*
 
 - `atelier/CLAUDE` — Structure du circuit · Nomenclature · Le Sceau atelier · Journalisation
-- `atelier/annales` — [2026-08-31] renvoi | Dossier qabḍ/basṭ ↔ upaguru ouvert en 🔍, sur pr… · [2026-08-31] versement | qabḍ/basṭ §5.2-bis — la qualification rendue… · [2026-08-31] rectificatif | qabḍ/basṭ — l'erreur conservée, la correc… · [2026-08-31] rapport | Migration des 11 agents + contribution de Sidy… · [2026-08-31] outillage | Essai Graphify (knowledge graph de code, loc… · [2026-08-31] outillage | `Graphe/` racine déplacé en `atelier/rd/outi… · [2026-08-31] outillage | Juge de paix des prompts Hermes, résidu ZWJ,… · [2026-08-31] rd/veille | Investigation Tencent/AngelSpec (speculative… · [2026-08-30] rd/outillage | Première application de la procédure d'ex… · [2026-08-30] rd/cahiers | Ouverture du journal des optimisations · [2026-08-30] doctrinal | Procédure d'exploitation du graphe lors de l… · [2026-08-30] rd/cahiers | Item 3 clos par reconnaissance — validation… · [2026-08-30] rd/bibliotheque + rd/instrument | Deux ouvrages photogra… · [2026-08-30] rd/instrument | Report des six trouvailles au prototype … · [2026-08-30] rd/instrument | Chantier « Figurer l'incommensurable » —… … (+138)
+- `atelier/annales` — [2026-09-01] organisation | Registre des chantiers ouvert ; états pér… · [2026-09-01] correction | Entrée de catalogue contaminée + juge de pa… · [2026-09-01] outillage | Juge de paix de la transcription Jurjānī + c… · [2026-08-31] renvoi | Dossier qabḍ/basṭ ↔ upaguru ouvert en 🔍, sur pr… · [2026-08-31] versement | qabḍ/basṭ §5.2-bis — la qualification rendue… · [2026-08-31] rectificatif | qabḍ/basṭ — l'erreur conservée, la correc… · [2026-08-31] rapport | Migration des 11 agents + contribution de Sidy… · [2026-08-31] outillage | Essai Graphify (knowledge graph de code, loc… · [2026-08-31] outillage | `Graphe/` racine déplacé en `atelier/rd/outi… · [2026-08-31] outillage | Juge de paix des prompts Hermes, résidu ZWJ,… · [2026-08-31] rd/veille | Investigation Tencent/AngelSpec (speculative… · [2026-08-30] rd/outillage | Première application de la procédure d'ex… · [2026-08-30] rd/cahiers | Ouverture du journal des optimisations · [2026-08-30] doctrinal | Procédure d'exploitation du graphe lors de l… · [2026-08-30] rd/cahiers | Item 3 clos par reconnaissance — validation… … (+141)
 - `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity` — Step 1: Environment Setup · Step 2: Web Search Function · Step 3: AI Analysis Function · Step 4: Research Function · Step 5: Add Research Depth · Step 6: Anthropic Multi-Agent Research
 - `atelier/etudes-de-cas/dougong-consoles-bois` — Nature et limites de la source · Données extraites (transcription fidèle) · Stratification de crédibilité (par item) · Recherches complémentaires (propres, distinctes de la source) · Phase 2 — analyse (à venir, non ouverte)
 - `atelier/etudes-de-cas/forteresses-architecture-defensive` — Nature et limites de la source · Données extraites (transcription fidèle) · Stratification de crédibilité (par item) · Recherches complémentaires (propres, distinctes de la source) · Phase 2 — analyse (à venir, non ouverte)
@@ -1855,7 +1879,6 @@ links: []
 - `atelier/materiel/studio-principal` — Nature de la fiche · Configuration générale · Pôle Synthèse & Composition · Pôle Enregistrement Analogique · Pôle Monitoring & Traitements · Rangement et plan de travail · Environnement `to-source` · Workflow — DAW · Chaîne de capture · Points à confirmer avant levée du `to-source` · Sources à déposer
 - `atelier/materiel/tascam-model-12` — Nature de l'appareil · Points d'usage retenus des conversations sources · Identification et acquisition · Spécifications techniques (extraites du manuel constructeur) · Historique maintenance · Liens
 - `atelier/materiel/technics-su-8080` — Nature de l'appareil · Usages détournés envisagés (production audio) · Note
-- `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac` — Contexte · Actions exécutées · Vérifications · État du dépôt · Fichiers modifiés · Points en attente · Références · Commandes critiques
 - `atelier/rd/bibliotheque/abreviations-hindouisme-soufisme` — Liste des abréviations — Hindouisme et Soufisme
 - `atelier/rd/bibliotheque/bibliographie-ihwan-al-safa` — Bibliographie et liste des abréviations — La philosophie des Ihwan al… · Liste des abréviations · Bibliographie
 - `atelier/rd/bibliotheque/bibliographie-porte-du-ciel` — Bibliographie — La Porte du Ciel
@@ -1889,9 +1912,11 @@ links: []
 - `atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder` — I. Incident découvert — en-tête d'entrée d'annales remplacé à l'inser… · II. Données de calibrage du vérificateur — état de référence · III. Hygiène des manifestes — doublon racine supprimé · IV. Multi-rédacteurs concurrents — observation · V. Lisibilité du protocole par un moteur à froid · VI. Propositions ouvertes (aucune exécutée) · VII. Traçabilité
 - `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation` — Contexte · Infrastructure mise en place · Bilan · Prochaines étapes possibles
 - `atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme` — 0. Le tableau d'ensemble · 1. Erreurs de la machine — le fond doctrinal · 2. Erreurs de la machine — le rendu · 3. Erreurs d'outillage · 4. Défauts trouvés dans le dépôt · 5. Un défaut de process · 6. Ce qui a été évité — et qui compte autant · 7. Les cinq règles que cette session ajoute au métier · 8. Ce qui reste ouvert
+- `atelier/rd/cahiers/2026-08-30_session-corrections-rapports-rotation-hmac` — Contexte · Actions exécutées · Vérifications · État du dépôt · Fichiers modifiés · Points en attente · Références · Commandes critiques
 - `atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast` — 1. Contexte · 2. Lecture du texte source · 3. Application à l'infrastructure Hermes · 4. Lien avec le chantier en cours · Principe doctrinal (source : doctrine de la contrainte) · 5. Qualification doctrinale (à trancher par Sidy) · 6. Liens
 - `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents` — 1. Contexte et déclencheur · 2. Diagnostic initial · 3. Investigation multi-angles · 4. Synthèse : architecture modulaire retenue · 5. Concept théorique extrait (pour le corpus) · 6. État actuel et prochaines étapes · 7. Leçons transversales · 8. Liens · 9. Verdict Sidy (Cmd 12/13)
 - `atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura` — Point 1 — Éclatement modulaire des 11 agents restants · Point 2 — Contribution de Sidy intégrée au tour sans `@mention` · Ce qui reste ouvert · Deux règles tirées de la passe
+- `atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd` — Chronologie, telle qu'elle figurait dans la charte
 - `atelier/rd/cahiers/bilan-2026-08-15-pont-agents` — I. Ce qui est tranché et committé (résolu) · II. Ce qui est en cours (non commité) · III. Chantiers ouverts — par priorité · IV. Leçons transversales (mémoire opérationnelle) · V. Pour reprendre le travail · VI. Contacts et responsabilités
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries` — Zodiac principle · Your sign in Sidy's natal chart (harmonization context)
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra` — Zodiac principle · Your sign in Sidy's natal chart (harmonization context)
@@ -1906,20 +1931,21 @@ links: []
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius` — Zodiac principle · Your sign in Sidy's natal chart (harmonization context)
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces` — Zodiac principle · Your sign in Sidy's natal chart (harmonization context)
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/README` — Objet · Sources · Convention · Contenu (9 brouillons, statuts du volet b respectés) · Hors périmètre de ce lot (en attente de verdict) · Procédure d'intégration (après relecture/verdict Sidy)
-- `atelier/rd/cahiers/journal-optimisations` — [2026-08-30] Validation formelle — reconnaissance, pas ajout (item 3 … · [2026-08-30] Application procédure exploitation graphe — Golem + Fran… · [2026-08-30] Ouverture du journal des optimisations · [2026-08-30] Maillage doctrinal — exploitation du graphe existant, pa…
+- `atelier/rd/cahiers/journal-optimisations` — [2026-08-30] Validation formelle — reconnaissance, pas ajout (item 3 … · [2026-08-30] Application procédure exploitation graphe — Golem + Fran… · [2026-08-30] Ouverture du journal des optimisations · [2026-08-30] Maillage doctrinal — exploitation du graphe existant, pa… · [2026-09-01] Levée du `to-source` Burckhardt « Alchimie » — légitimat…
 - `atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18` — I. Contexte — ce qui motive l'extension · II. Décisions tranchées (Sidy, 2026-08-18) · III. Périmètre du nouveau volet · IV. Architecture des nouveaux lieux dans `atelier/rd/` · V. Sandbox — hors dépôt · VI. Gouvernance — articulation avec les commandements · VII. Ce qui reste à instruire (Cmd 6, non bloquant) · VIII. Première veille — acte d'ouverture (2026-08-18) · IX. Liens
 - `atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11` — I. Rappel du mandat (verdict d'ouverture du pôle, 2026-08-08) · II. Ce qui existe déjà et que la veille consoliderait, sans le dupliq… · III. Ce que « veiller » signifierait concrètement (tranché, 2026-08-1… · IV. Risque à nommer si la veille est confiée à un agent Hermes · V. Désignation effective (tranchée, 2026-08-11) · VI. Ce que cette note ne fait pas encore (et ce qui reste à faire) · Récapitulatif — Chantiers ouverts après la réouverture (2026-08-11) · Mise à jour (2026-08-16) · Intégration (2026-08-12)
 - `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31` — 1. Objectifs · 2. Architecture du flux · 3. Composants techniques · 4. Articulation avec le Cycle Choura · [HH:MM] studio (rôle 9, Vierge) · [00:00] gardien (rôle 10, Balance) · 5. Plan d'exécution (sur verdict Sidy) · 6. Questions ouvertes · 7. Verdict Sidy (Cmd 6) · 8. Problème structurel soulevé — saturation des prompts et relais hié… · 9. Exécution effective
 - `atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820` — 1. Introduction · 2. État des lieux du dépôt (synthèse R&D) · 3. Examen de `raw/` (ressources nouvelles, classification) · 4. Points ouverts et anomalies (table conjointe) · 5. Section Vigilance (contrôle protocolaire) · 6. Recommandations conjointes (priorités) · 7. Conclusion
 - `atelier/rd/cahiers/rapport-studio-exploration-preliminaire` — 1. Cartographie du dépôt · 2. État des vérifications mécaniques (2026-08-20) · 3. Examen de raw/ · 4. `_inbox/` — dépôts en attente · 5. Points ouverts (observations, sans verdict) · 6. Suggestions (soumises à Sidy, aucune exécution) · 7. Artifacts de cette session
-- `atelier/rd/cahiers/registre-problemes` — [2026-08-31] Qualification d'un joint entre deux termes qui n'en fais… · [2026-08-30] Écriture d'un agent de veille dans `raw/` — accepté sur … · [2026-08-30] Nettoyage du sas `_inbox/` — pathspec `git rm`/`rm -rf` … · [2026-08-30] Clé ANTHROPIC compromise dans .bash_history et .omnirout… · [2026-08-30] Point 3b — Jetons [[...]] cités comme données · [2026-08-30] rd/infrastructure | Secret HMAC exposé en clair dans fic… · [2026-08-30] Session « réseau subtil » : vingt défauts, dont trois se… · [2026-08-29] Push agent bloqué sur `main` (403, attendu) mais merge d… · [2026-08-28] Correctif C1 consigné « traité » mais inefficace — le li… · [2026-08-28] Annales append-only — en-tête d'entrée remplacé (et non … · [2026-08-25] Validateurs index-livres — mismatch NFC/NFD sur noms de … · [2026-08-25] Récurrence — claim périmée « table des 38 degrés bloquée… · [2026-08-25] Discord Gateway Publication — canal #infrastructure non … · [2026-08-25] Discord Gateway Gardien — socket fermé, non récupéré · [2026-08-20] resolu | Traçabilité en défaut — tension Burckhardt/Jurj… … (+40)
+- `atelier/rd/cahiers/registre-problemes` — [2026-09-01] Un validateur dont le bruit masquait ses propres trouvai… · [2026-08-31] Qualification d'un joint entre deux termes qui n'en fais… · [2026-08-30] Écriture d'un agent de veille dans `raw/` — accepté sur … · [2026-08-30] Nettoyage du sas `_inbox/` — pathspec `git rm`/`rm -rf` … · [2026-08-30] Clé ANTHROPIC compromise dans .bash_history et .omnirout… · [2026-08-30] Point 3b — Jetons [[...]] cités comme données · [2026-08-30] rd/infrastructure | Secret HMAC exposé en clair dans fic… · [2026-08-30] Session « réseau subtil » : vingt défauts, dont trois se… · [2026-08-29] Push agent bloqué sur `main` (403, attendu) mais merge d… · [2026-08-28] Correctif C1 consigné « traité » mais inefficace — le li… · [2026-08-28] Annales append-only — en-tête d'entrée remplacé (et non … · [2026-08-25] Validateurs index-livres — mismatch NFC/NFD sur noms de … · [2026-08-25] Récurrence — claim périmée « table des 38 degrés bloquée… · [2026-08-25] Discord Gateway Publication — canal #infrastructure non … · [2026-08-25] Discord Gateway Gardien — socket fermé, non récupéré … (+41)
 - `atelier/rd/citadelle-du-sham/note` — Pour modifier le jeu (à la demande de Mehdi, 2026-08-13)
 - `atelier/rd/incidents/2026-08-22_post-scriptum-hook-corrige` — Bug initial · Correction · Recommandation
 - `atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination` — Résumé · Description de l'incident · Investigation · Analyse de sécurité · Actions correctives · Recommandations pour le protocole de sécurité · Leçons apprises · Annexes · Conclusion · Post-scriptum — récidive du même jour (chantier bibliothèque) · Post-scriptum 2 — défaillance de la commande de nettoyage suggérée pa… · Post-scriptum du 2026-08-31 — résidu retrouvé dans le dépôt et dans l…
 - `atelier/rd/incidents/2026-08-25_gardien-gateway-crash-boucle` — Résumé · Chronologie · Diagnostic détaillé · Résolution · Leçons apprises · Vérification · Références · Prévention
-- `atelier/rd/index` — Mission (verdict du 2026-08-08) · Arborescence · Régime des deux sous-régimes de l'atelier · Ce qui vit où (frontières) · État de la phase 1 partielle
+- `atelier/rd/index` — Mission (verdict du 2026-08-08) · Arborescence · Régime des deux sous-régimes de l'atelier · Ce qui vit où (frontières) · État du pôle — résumé (2026-09-01)
 - `atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure` — Contexte · 1. Infrastructure serveur — état et points ouverts · 2. Chantiers déjà tranchés côté décision, non exécutés · 3. Veille externe Cordis — piste d'applicabilité à instruire · 4. Outillage — points restants · 5. Hygiène signalée en marge · 6. Pistes classées (aucune tranchée) · Rappel de méthode
 - `atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm` — Enjeu central · Architecture vulnérable : état de l'art (juillet 2026) · Vecteurs d'attaque identifiés · Propositions de mitigation (Section 5.5) · Implications pour notre infrastructure/laboratoire · Questions ouvertes pour le développement · Références croisées (à compléter) · Date d'analyse
+- `atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne` — Ce qui existe réellement, vérifié au disque le 2026-09-01 · L'écart, et ce qu'il apprend · Ce que fait le script · Suite
 - `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement` — 1. Problème identifié · 2. Actions entreprises · 3. Ressources déployées pour soutenir Sidy · 4. État actuel du dépôt · 5. Chantiers prioritaires ouverts · 6. Documentation R&D créée · 7. Verdicts Sidy requis · 8. Conclusion
 - `atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire` — Contexte · Déploiement effectué · Fonctionnement · Avantages · Inconvénients · Migration depuis profil gardien · Tests à effectuer · Prochaines étapes · Références
 - `atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen` — Quiproquo initial de session · Contrainte posée par Sidy · Action · Vérification · Anomalies observées · Hors périmètre (exclusion explicite de Sidy) · Réversibilité · Signalement, non verdict · Références
@@ -1946,6 +1972,7 @@ links: []
 - `atelier/rd/infrastructure/monitoring-archive-charte` — Motif · Contenu du dossier · Alimentation · Rétention · Note — job Hermes `coherence-infrastructure-brute` réparé (2026-08-18)
 - `atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20` — 1. Carte des circuits (vérifiée ce jour) · 2. Vérifications mécaniques rejouées (2026-08-20) · 3. Classification `raw/` — 444 fichiers · 4. Git — état au moment du rapport · 5. Points ouverts pour le rapport conjoint (sans verdict) · 6. Points d'appui
 - `atelier/rd/infrastructure/synchro-obsidian-working-copy-github` — 1. Architecture de synchronisation · 2. Panne du 2026-06-29 · 3. Procédure de réparation appliquée (2026-06-29) · 4. Routine de fonctionnement · 5. Décision — statu quo SSH (verdict Sidy, 2026-08-11) · 6. Points de vigilance
+- `atelier/rd/infrastructure/synthese-deploiement-memoire` — Problème initial · Résolution appliquée · Ressources déployées — état actuel · Soutien Sidy — plan d'action *(retiré le 2026-09-01, étanchéité §VI)* · Chantiers prioritaires ouverts · Prochaines étapes immédiates · Conclusion
 - `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18` — 1. Contexte et cadre · 2. Lot 1 — Avertissements C1 et C4 de `verifier-invariants.py` · 3. Lot 2 — 62 nœuds isolés de la cartographie · 4. Journal d'exécution (à remplir post-traitement) · 5. Commandes de vérification (pour Claude Code) · 6. Points ouverts à arbitrer par Sidy · 7. État de la consignation · 8. Liens utiles · 9. Bilan du traitement (2026-08-18)
 - `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` — 0. Reformulation de l'intuition de départ · 1. Le versant polaire (matière guénonienne et connexe) · 2. Le versant solaire-stellaire (Égypte / Gizeh) · 3. La doctrine des cycles — matière quantitative · 4. Confrontation Gizeh de la présente investigation (consignée, §VII) · 5. Pistes d'intégration à l'Instrument (Phase 5, toutes pilotées par … · 6. Hypothèses d'interprétation — le « quelque chose d'autre » (propos… · 7. Bibliothèque à constituer (par ordre de priorité) · 8. Questions posées au discernement de Sidy (aucune tranchée ici) · 9. Consignes de relais pour le modèle suivant
 - `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` — Contexte de cette fiche · 0. Corrections apportées suite au retour de Sidy (même session, 2026-… · 1. Où en est réellement le chantier — par phase · 2. Écarts documentaires relevés (hygiène, à corriger) · 3. Pistes de développement proposées (classées, aucune tranchée) · 5. Mise à jour du prototype effectuée le 2026-08-20 (sur consigne de … · 6. Rappel de méthode
@@ -1971,6 +1998,7 @@ links: []
 - `atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages` — 1. Méthode · 2. Déblocages nets · 3. Chantiers toujours bloqués · 4. Candidat Cmd 3 — une équivalence posée par Guénon lui-même · 5. GT et l'Instrument — précision · 6. Signalement de complétude — `raw/` · 7. Limites
 - `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole` — I. Objet de la fiche · II. État du protocole actuellement · III. Qu'est-ce qu'un SRS (spaced repetition system) · IV. Comparaison Mnemosyne / Anki / alternatives · V. Application au protocole Hermes — ce qui pourrait devenir cartes · VI. Deux usages distincts — problème posé avant le verdict · VII. Recommandation (verdict Sidy, 2026-08-15) · VIII. Non inclus · IX. Liens
 - `atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle` — 1. Provenance · 2. Le problème adressé · 3. Le paradigme : deux axes · 4. Cordis — l'implémentation · 5. Validation empirique — Koishi · 6. Ce que la source dit elle-même de son avenir · 7. Qualification sashimono — résonance de forme avec Cordis · 8. Pistes pour le dépôt (kari-kumi, non tranché) · 9. Non traité dans cette fiche · 10. Liens
+- `atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe` — Principe · Ce que le dépôt possède, vérifié au disque le 2026-09-01 · Ce qui manque encore · Ce qui a changé le 2026-09-01
 - `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument` — 1. Ce que l'Instrument porte déjà du vocabulaire sashimono · 2. Résonances relevées dans le corpus lu aujourd'hui · 3. Ce que ce signalement ne fait pas · 4. Mise à jour du 2026-08-29 — deux fiches discernement ouvertes
 - `atelier/rd/outillage/graphify-out/GRAPH_REPORT` — Corpus Check · Summary · Graph Freshness · Community Hubs (Navigation) · God Nodes (most connected - your core abstractions) · Surprising Connections (you probably didn't know these) · Import Cycles · Communities (21 total, 4 thin omitted) · Knowledge Gaps · Suggested Questions
 - `atelier/rd/outillage/investigation-isolation-memoire-hermes` — Problème initial · Investigation technique · Solutions pratiques · Recommandation · Prochaines étapes · Notes techniques · Références
@@ -1981,10 +2009,7 @@ links: []
 - `atelier/rd/outillage/spec-generateur-manifeste` — 1. Décisions d'architecture actées (session du 2026-07-01) · 2. Pourquoi un fichier déclaratif côté app (et non le Sceau Recteur) · 3. Entrées / sorties · 4. Règles de génération (déterministes) · 5. Validations bloquantes (VIGILANCE mécanique) · 5 bis. Bloc `zodiaque:` (schéma v0.2.2, ajouté 2026-08-20) · 5 ter. Lecture dynamique par le prototype (2026-08-20, verdict Sidy) · 5 quater. Bloc `registres:` (schéma v0.2.3, ajouté 2026-08-20) · 6. Ce que le script ne fait pas · 7. Premier contenu (v0.1 des données) · 8. Exécution côté serveur
 - `atelier/rd/outillage/spec-generer-cartographie-tolerant` — 1. Problème traité (historique) · 2. Solution : deux niveaux de sévérité (v1.1) · 3. Options du script · 4. Distinction de cette approche · 5. Exemple · 6. Écart volontaire avec l'exemption C3 · Références
 - `atelier/rd/outillage/spec-srs-hermes-native` — Contexte · Format de carte · Mécanisme d'extraction · Algorithme d'espacement · Stockage · Révisions SRS en cours · Plan d'implémentation · Verdicts Sidy requis · Estimation · Risques · Mitigations
-- `atelier/rd/plan-action-soutien-sidy` — État des lieux · Priorités · Actions immédiates · Prochaines étapes · Verdicts Sidy requis
-- `atelier/rd/rapport-rd-memoire-persistante` — Résumé exécutif · Diagnostic technique · Ressources déployées · Chantiers prioritaires ouverts · Plan d'action — soutien Sidy · Prochaines étapes immédiates · Conclusion
-- `atelier/rd/synthese-deploiement-memoire` — Problème initial · Résolution appliquée · Ressources déployées — état actuel · Soutien Sidy — plan d'action · Chantiers prioritaires ouverts · Prochaines étapes immédiates · Conclusion
-- `atelier/rd/synthese-ressources-deployees` — État des lieux · Priorités · Verdicts Sidy requis · Leçons apprises · Prochaines étapes
+- `atelier/rd/registre-chantiers` — Comment lire ce registre · Entretien · 0. Vue d'ensemble · 0 bis. Infrastructure — où lire l'état réel · 1. Instrument (`INS`) · 2. Infrastructure & agents Hermes (`INF`) · 3. Outillage & scripts (`OUT`) · 4. Bibliothèque (`BIB`) · 5. Études de cas (`CAS`) · 6. Process & protocole (`PRO`) · 7. Doctrinal (`DOC`) · 8. À vérifier — non asserté ouvert · 9. Chantiers clos ou caducs (jamais supprimés — Cmd 10) · Points ouverts soumis à Sidy
 - `atelier/rd/veille/2026-08-31_argentos-core` — Métadonnées · Analyse de pertinence · Concepts théoriques extraits · Statut
 - `atelier/rd/veille/2026-08-31_auto-harness` — Métadonnées · Analyse de pertinence · Concepts théoriques extraits · Statut
 - `atelier/rd/veille/2026-08-31_claude-smart` — Métadonnées · Analyse de pertinence · Concepts théoriques extraits · Statut
@@ -1998,7 +2023,7 @@ links: []
 - `atelier/rd/veille/index` — Mission · Périmètre · Règles du lieu · Arborescence cible · Articulation avec le reste du dépôt · Liens
 - `atelier/rd/veille/registre` — [2026-08-31] Investigation GitHub — Tencent/AngelSpec (speculative de… · [2026-08-18] Scrutation GitHub — implémentations Cordis · [2026-08-18] Ouverture du lieu
 - `doctrinal/CLAUDE` — Nomenclature · Le Sceau Recteur (frontmatter doctrinal) · Règles de liens propres au circuit · Actions d'exécution propres au circuit · Exploitation du graphe lors de l'intégration (signal d'orphelins)
-- `doctrinal/annales` — [2026-08-31] versement + ouverture | *CMM* ch. IV versé ; dossier qab… · [2026-08-31] versement | Guénon, IRS ch. XX — « Guru et upaguru » · [2026-08-31] rectificatif | Âtmâ-Gîtâ — fiche sourcée, deux erreurs d… · [2026-08-31] archivage | Shaar Hagilgulim — première pièce lurianique… · [2026-08-30] enrichissement | Discernement matrices-artificielles — a… · [2026-08-30] enrichissement | Symbole Golem — ancrage Kabbalah Maasit · [2026-08-30] création | Symbole Golem (phase 1) · [2026-08-30] protocole | Procédure d'exploitation du graphe lors de l… · [2026-08-30] tracabilite | Clichés versés côté serveur — les collatio… · [2026-08-30] archivage | *Sept Étendards du Califat*, pp. 104-105 et … · [2026-08-30] discernement | Thèse d'unification de Sidy — la chute, l… · [2026-08-30] discernement | Les gens d'al-Aʿrāf sont-ils les initiés … · [2026-08-30] archivage | Apparat éditorial des deux ouvrages établi —… · [2026-08-30] archivage + discernement | Le couple *khafḍ* / *rafʿ* — … · [2026-08-30] archivage | Collation de la p. 35 de Gloton — les degrés… … (+133)
+- `doctrinal/annales` — [2026-09-01] correction d'étanchéité | Liens inter-circuits (doctrina… · [2026-09-01] correction | Pagination de l'annexe Jurjānī rectifiée (e… · [2026-09-01] archivage | Corps des définitions du Kitāb al-Taʿrīfāt —… · [2026-08-31] versement + ouverture | *CMM* ch. IV versé ; dossier qab… · [2026-08-31] versement | Guénon, IRS ch. XX — « Guru et upaguru » · [2026-08-31] rectificatif | Âtmâ-Gîtâ — fiche sourcée, deux erreurs d… · [2026-08-31] archivage | Shaar Hagilgulim — première pièce lurianique… · [2026-08-30] enrichissement | Discernement matrices-artificielles — a… · [2026-08-30] enrichissement | Symbole Golem — ancrage Kabbalah Maasit · [2026-08-30] création | Symbole Golem (phase 1) · [2026-08-30] protocole | Procédure d'exploitation du graphe lors de l… · [2026-08-30] tracabilite | Clichés versés côté serveur — les collatio… · [2026-08-30] archivage | *Sept Étendards du Califat*, pp. 104-105 et … · [2026-08-30] discernement | Thèse d'unification de Sidy — la chute, l… · [2026-08-30] discernement | Les gens d'al-Aʿrāf sont-ils les initiés … … (+136)
 - `doctrinal/annales/2026-08-31` — Création de fiches · Journalisation
 - `doctrinal/autorites/abd-al-karim-al-jili` — Identité · Faits · Relations · Notes
 - `doctrinal/autorites/abd-al-qadir-al-jilani` — Identité · Faits · Relations · Notes
@@ -2092,7 +2117,7 @@ links: []
 - `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet` — 1. Les deux appuis réels · 2. Premier obstacle : ce que Guénon dit exactement, et avec quel poids · 3. Deuxième obstacle : de quel cœur parle-t-on ? Il y en a deux · 4. Le « troisième obstacle » — RETIRÉ le 2026-08-30, par la source el… · 4 bis. La roue et le treillis : deux projections, non deux figures ri… · 4 ter. Le premier obstacle se retourne : la litote de Guénon devient … · 4 quater. Et le deuxième obstacle : les deux cœurs deviennent deux po… · 4 quinquies. Une réserve de proportion, à ne pas taire · 5. Le blocage de dépôt : ce qu'il bloque encore, et ce qu'il ne bloqu… · 6. Confrontation aux données Gizeh (double contrôle, §VII) · 7. Qualification sashimono, après le second examen · 8. Ce qu'il faudrait, et dans quel ordre · 9. Ce que cette fiche apprend sur la méthode
 - `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons` — 1. Ce que dit exactement le texte · 2. La correspondance terme à terme · 3. Le point décisif de forme : le troisième terme est de même nature · 4. Ce que ce joint n'autorise pas · 5. Report à l'Instrument (pour mémoire, exécution en `atelier/rd/`) · 6. Confrontation Gizeh (double contrôle, §VII) · 7. Qualification sashimono
 - `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions` — Contexte · L'état antérieur : quatre chaînes ouvertes · Le verdict : un axe unique · Précision de vocabulaire : l'axe n'est pas un degré · Portée : ce que l'unité n'autorise pas · Corollaire : la correspondance macrocosme-microcosme · Liens transversaux
-- `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique` — L'hypothèse, telle que Sidy la formule · Ce que le renvoi établit — et ce qu'il restreint · L'état des pièces au dépôt — inventaire, non conclusion · ⚠️ Ce qui serait une inférence, et qui n'est pas faite ici · Ce qui fermerait le dossier · Statut
+- `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique` — L'hypothèse, telle que Sidy la formule · Ce que le renvoi établit — et ce qu'il restreint · L'état des pièces au dépôt — inventaire, non conclusion · Ce qui a changé le 2026-09-01 — le premier volet est désormais **reçu… · ⚠️ Ce qui serait une inférence, et qui n'est pas faite ici — **conser… · Ce qui fermerait le dossier · Statut
 - `doctrinal/discernement/_template` — Le Récit / La Spéculation Brute · Liens Transversaux
 - `doctrinal/etudes/2026-06-04_islam-et-ia` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana` — Origine · I. La confusion entre l'Être et la psyché · II. Validation croisée (Gem René Guénon) · III. Connaissance directe et connaissance discursive · IV. Reflet, non continuum · V. Upakarana : application à l'instrument lui-même · Sources
@@ -2110,6 +2135,7 @@ links: []
 - `doctrinal/sources/awrad-ibn-arabi` — Référence · Résumé · Structure du document · Concepts clés mobilisés · Notes
 - `doctrinal/sources/barzakh-nur-lh` — Référence · Résumé fidèle · Pertinence pour le wiki · Concepts liés
 - `doctrinal/sources/bukhari-5754-tiyara-fal` — Référence · Texte · Note d'examen (pour la fiche discernement liée)
+- `doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription` — Portée et limites de cette transcription · Texte · Légendes des illustrations du chapitre
 - `doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam` — Référence bibliographique · Passages transcrits · Note d'examen (pour les fiches discernement liées) · État d'avancement
 - `doctrinal/sources/conversation-llm-intellect-2026-06-11` — 1. Point de départ : l'analogie Nous / Wiki / Corps · 2. L'anticipation : la conscience des firmes · 3. Le ta'wīl du phénomène · 4. La non-dualité et la modalité parallèle · 5. Formalisation dans le wiki · 6. Objection doctrinale — le Gems René Guénon · 7. Examen de l'objection et reconnaissance des erreurs doctrinales
 - `doctrinal/sources/dalail-al-khayrat-jazuli` — Contenu clé pour le dépôt · Fiabilité de la source · Utilisation dans le dépôt
@@ -2185,7 +2211,8 @@ links: []
 - `doctrinal/sources/jesus-and-enoch-in-ibn-arabi` — Référence · Résumé · Thèses principales · Figures prophétiques et leurs stations · Concepts clés · Sources primaires mobilisées
 - `doctrinal/sources/kabbale-10-sefirot-structure` — Présentation · Les 10 Sephiroth — liste complète · Structure de l'Arbre séphirothique · Correspondances avec les 5 Présences akbariennes · ⚠️ État de qualification · Fiabilité
 - `doctrinal/sources/kabbale-cosmogonie-iod` — Présentation · La doctrine complète (Guénon, *Symbolisme de la Croix*, ch. IV) · Corroboration par le Ramban · Correspondances avec le tasawwuf · ⚠️ État de qualification · Fiabilité
-- `doctrinal/sources/kitab-al-tarifat-jurjani` — Édition utilisée · Structure de l'ouvrage (établie à partir de la table des matières, p.… · Périmètre de cette ingestion (2026-06-30) · Transcriptions intégrées (2026-08-25) · Transcriptions intégrées (2026-08-30) — lots p. 47 et p. 441 · Transcriptions intégrées (2026-08-30) — lots p. 76-80, p. 214-215, p.… · Cross-links confirmés
+- `doctrinal/sources/kitab-al-tarifat-jurjani` — Édition utilisée · Structure de l'ouvrage (établie à partir de la table des matières, p.… · Périmètre de cette ingestion (2026-06-30) · Corps des définitions — versement du 2026-09-01 · Transcriptions intégrées (2026-08-25) · Transcriptions intégrées (2026-08-30) — lots p. 47 et p. 441 · Transcriptions intégrées (2026-08-30) — lots p. 76-80, p. 214-215, p.… · Cross-links confirmés
+- `doctrinal/sources/kitab-tarifat-corps-transcription` — Portée et limites de cette transcription · État de la transcription (2026-09-01) · Inventaire des pages transcrites · p. 41 — déf. [0010 fin]-0013 (cliché `IMG_0164`) · p. 42 — déf. [0013 suite]-0015 (cliché `IMG_0165`) · p. 49 — déf. 0044-0046 (cliché `IMG_0166`) · p. 68 — déf. 0118-0120 (clichés `IMG_0203` et `IMG_0204`) · p. 80 — déf. [0175 fin]-0180 (cliché `IMG_0167`) · p. 99 — déf. 0260-0264 (cliché `IMG_0202`) · p. 107 — déf. [0292 fin]-0295 (cliché `IMG_0160`) · p. 108 — déf. [0295 suite]-0300 (cliché `IMG_0161`) · p. 111 — déf. [0310 fin]-0313 (cliché `IMG_0180`) · p. 112 — déf. [0313 suite]-0314 (cliché `IMG_0181`) · p. 162 — déf. 0518-0521 (cliché `IMG_0189`) · p. 178 — déf. 0584-0587 (cliché `IMG_0178`) … (+41)
 - `doctrinal/sources/kitab-tarifat-index-transcription` — Tableau synoptique des lettres arabes et conventions de translittérat… · Classification des mètres (annexe prosodie, p. ~501) · Classement par thèmes (p. 508-514) · Index coranique (p. 515-516) — transcription complète · Index des noms de personnes (p. 517-518) — transcription complète · Index des termes arabes (p. 519...) — EN COURS · Lettre B (p. 525...) · Lettres C (p. 526) · Lettres D – Ḍ – Ḏ (p. 526...) · Lettres E – et – F (p. 528...) · Lettres G – Ġ (p. 530) · Lettres H – Ḥ – Ḫ (p. 530...) · Fichier 2 (p. 531-554) · Lettres I – ʿI (p. 536...) · Lettre J (p. 542...) … (+42)
 - `doctrinal/sources/mahdi-rouge-islam-signe-balance-I` — La 14ᵉ Demeure — données structurales · La Balance comme seuil des Mystères · Convergence numérique triple · Statut au dépôt
 - `doctrinal/sources/mahdi-rouge-islam-signe-balance-II` — La Balance comme commencement du temps · La Balance comme sceau de l'Islam · Structure cyclique — les douze Anges · Arc diurne et arc nocturne · Statut au dépôt
@@ -2225,6 +2252,7 @@ links: []
 - `doctrinal/symboles/axe-corde-en-reve` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/symboles/barzakh` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/symboles/bindu` — Définition · Développement · Concepts liés · Sources
+- `doctrinal/symboles/buddhi` — Phase 1 — corpus brut · Caractéristiques · État de la fiche · Voir aussi
 - `doctrinal/symboles/chat-en-reve` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/symboles/chaussure-en-reve` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/symboles/chercheur-manifestant-akbarien` — Définition · Développement · Concepts liés · Sources
@@ -2254,6 +2282,7 @@ links: []
 - `doctrinal/symboles/istidad` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/symboles/janus-bifrons` — Définition · Développement · Concepts liés
 - `doctrinal/symboles/jinns-classification-couleur` — Définition · Développement · Concepts liés · Sources
+- `doctrinal/symboles/jivatma` — Phase 1 — corpus brut · État de la fiche · Voir aussi
 - `doctrinal/symboles/khalwa` — Définition · Ancrage terminologique (Jurjānī, déf. 1066 et 0183) · Développement · Concepts liés · Sources
 - `doctrinal/symboles/khatm` — Avertissement liminaire — il n'y a pas « un » Khatm · I. Khātim al-Nubuwwa — le Sceau de la Prophétie · II. Khatm al-Wilāya al-ʿĀmma — le Sceau de la Sainteté universelle · III. Khatm al-Wilāya al-Muḥammadiyya — le Sceau de la Sainteté muhamm… · IV. Al-Quṭbiyya al-Kubrā — la Pôlarité suprême, distincte de tout Sce… · V. Récapitulation · VI. Rapport à al-Insān al-Kāmil · VII. Points ouverts (`to-source`)
 - `doctrinal/symboles/khatm-al-khawajakan` — Définition · Développement · Concepts liés · Sources
@@ -2319,7 +2348,7 @@ links: []
 - `doctrinal/traditions/tasawwuf` — Définition · Définition de Jurjānī (déf. 0402) · Développement · Concepts liés · Sources
 - `hermeneutique/20th-century-boys/20th-century-boys` — Présentation · Matière centrale : la secte et la fabrication du sauveur · Ligne de force · 🔍 Clés doctrinales suggérées · 🪵 Restitution
 - `hermeneutique/CLAUDE` — Objet du circuit · Nomenclature · Le Sceau herméneutique · Portance et garde-fou (Cmd 3) · Clause de plasticité (structurelle)
-- `hermeneutique/annales` — [2026-08-30] création | Frankenstein (phase 1, corpus brut) · [2026-08-20] réparation | Rétablissement de la convention d'insertion… · [2026-08-20] expression | Barzakh onirique et interface littéraire · [2026-08-16] archivage | Lot Toriyama / Urasawa — 5 fiches (2 auteurs… · [2026-08-13] verdict | Fondement du lien de source aux fiches d'auteu… · [2026-08-13] correction | Réciproque du lien de source chez Kojima et… · [2026-08-13] amendement | Protocole local — `sources/` et `type: sour… · [2026-08-13] correction | Index du circuit — référencement du dossier… · [2026-08-13] confrontation | Artbook Death Stranding — dépouillement … · [2026-08-12] archivage | iDroid — dispositif satellite de Mother Base · [2026-08-12] archivage | Marqueur d'insertion ajouté (mise en conform… · [2026-08-12] archivage | Lot Hunter x Hunter — œuvre, auteur, disposi… · [2026-08-08] archivage | Premier lot Kojima — Metal Gear, Death Stran… · [2026-08-04] ouverture | Circuit hermeneutique/ ouvert (5e circuit du…
+- `hermeneutique/annales` — [2026-09-01] correction | `updated` du présent fichier remonté (Cmd 8) · [2026-09-01] création | Expression : athanor-matrices-artificielles (… · [2026-08-30] création | Frankenstein (phase 1, corpus brut) · [2026-08-20] réparation | Rétablissement de la convention d'insertion… · [2026-08-20] expression | Barzakh onirique et interface littéraire · [2026-08-16] archivage | Lot Toriyama / Urasawa — 5 fiches (2 auteurs… · [2026-08-13] verdict | Fondement du lien de source aux fiches d'auteu… · [2026-08-13] correction | Réciproque du lien de source chez Kojima et… · [2026-08-13] amendement | Protocole local — `sources/` et `type: sour… · [2026-08-13] correction | Index du circuit — référencement du dossier… · [2026-08-13] confrontation | Artbook Death Stranding — dépouillement … · [2026-08-12] archivage | iDroid — dispositif satellite de Mother Base · [2026-08-12] archivage | Marqueur d'insertion ajouté (mise en conform… · [2026-08-12] archivage | Lot Hunter x Hunter — œuvre, auteur, disposi… · [2026-08-08] archivage | Premier lot Kojima — Metal Gear, Death Stran… … (+1)
 - `hermeneutique/auteurs/akira-toriyama` — Élément biographique · Trait et méthode · Rayonnement transverse · Œuvres couvertes par ce dépôt · 🪵 Restitution
 - `hermeneutique/auteurs/hideo-kojima` — 1. Position dans le circuit · 2. Repères biographiques `to-source` · 3. Le geste propre : la thèse exécutée · 4. Le motif du bâton et de la corde · 5. Constance des collaborateurs · 6. Confrontation Gizeh · 7. Signalement des sources à lever
 - `hermeneutique/auteurs/mary-shelley` — Données brutes (en attente) · Liens versés
@@ -2331,6 +2360,7 @@ links: []
 - `hermeneutique/dr-slump/dr-slump` — Présentation · Registre et style · Rapport à Dragon Ball · 🪵 Restitution
 - `hermeneutique/dragon-ball/dragon-ball` — Présentation · Matrice source : la Pérégrination vers l'Ouest · Ligne de force narrative · 🔍 Clé doctrinale suggérée · 🪵 Restitution
 - `hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire` — Statut · Hypothèse explorée · Genèse de l'idée · Ce que l'hypothèse explore · Ce que l'hypothèse **ne** prétend **pas** · Résonances avec le dépôt · Ouvertures · Vigilance
+- `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` — 1. Point de vigilance majeure — autotransmutation vs. tiers · 2. Convergence — le contenant qui se rompt · 3. Les clés doctrinales — blocs de restitution · 4. Confrontation Gizeh · 5. Épilogue — place dans la figure commune
 - `hermeneutique/frankenstein/frankenstein` — État de la fiche · Données brutes à verser (en attente) · Liens versés · Phase 2 — analyse (à venir, non ouverte)
 - `hermeneutique/hunter-x-hunter/hunter-association-licence` — 1. L'Association des Hunters · 2. L'examen de Hunter · 3. Catégories de Hunters (mémoire générale, liste non exhaustive) · 4. Remarque structurelle (sans clé doctrinale ouverte) · 5. Statut
 - `hermeneutique/hunter-x-hunter/hunter-x-hunter` — 1. Identification · 2. Synopsis directeur · 3. Structure en arcs (mémoire générale, à confirmer/compléter) · 4. Axes thématiques retenus pour l'analyse · 5. Postulat herméneutique de la session · 6. Statut
@@ -2358,7 +2388,7 @@ links: []
 - `label/production/equipe-agents-hermes` — I. Principe structurant : deux plans · II. Les 5 archétypes (plan vertical) · III. Les 12 fonctions opératives (plan horizontal) · IV. Tensions voulues par design · V. Garde-fous transversaux (dans chaque system prompt) · VI. État
 - `label/production/modele-economique` — I. Constat fondateur · II. La tension voulue · III. Flux de revenus (par ordre de maturité) · IV. Principe d'arbitrage · V. À chiffrer (backlog)
 - `meta/2026-07-27_correctif-etendu-invariants-depot` — 1. Reclassement : ce n'est pas un bug d'ordre · 2. Second constat, plus grave : l'annales est un auto-rapport non vér… · 3. Troisième constat : une erreur de ma part a été inscrite au dépôt · 4. Pourquoi personne n'a rien vu — moi compris · 5. Balayage du dépôt — inventaire des invariants · 6. Le contrôle mécanique — `verifier-invariants.py` (livré) · 7. Amendements `CLAUDE.md` proposés · 8. Ordre de remédiation · 9. Ce que ce document ne prétend pas
-- `meta/2026-07-27_guide-deploiement-verifier-invariants` — 1. Placement au dépôt · 2. Commandes usuelles · 3. Intégration dans le workflow de clôture · 4. Calibrage initial — sur 2-3 semaines · 5. Codes de diagnostic · 6. Résolution des anomalies courantes · 7. Historique et archivage · 8. Limites du script · 9. Prochaine étape
+- `meta/2026-07-27_guide-deploiement-verifier-invariants` — 1. Placement au dépôt · 1 bis. Périmètre du contrôle (amendé le 2026-09-01, chantier OUT-01) · 2. Commandes usuelles · 3. Intégration dans le workflow de clôture · 4. Calibrage initial — sur 2-3 semaines · 5. Codes de diagnostic · 6. Résolution des anomalies courantes · 7. Historique et archivage · 8. Limites du script · 9. Prochaine étape
 - `meta/CLAUDE` — Objet du domaine · Hub interne · Rappel d'étanchéité (règle complète : CLAUDE.md racine §VI) · Sceau Transmissions (`meta/transmissions/`, dispositif Karūbī) · Corollaire agentique (2026-08-09) — couche opérative Hermes
 - `meta/briefs/2026-08-22_brief-incident-zwj-mise-a-jour-securite` — Objet · Résumé de l'incident · Actions correctives appliquées · Ce qui change pour vous · Références · Prochaines étapes
 - `meta/briefs/2026-08-30_passation-claude-ai-vers-terminal` — 0. ⚠️ État des branches — à lire avant tout · 1. Ce qui a été fait (résumé de contrôle, non de narration) · 2. ⚡ Ce qui attend un verdict de Sidy — par ordre d'importance · 3. 📷 Collations sur exemplaire physique — par ordre de rendement · 4. 🔑 La règle de méthode dégagée par ce dossier — à tenir · 5. ✋ Deux rapprochements refusés — ne pas les rouvrir sans texte · 6. 🖥️ L'Instrument — état du rendu · 7. Ce que le terminal débloque, et que claude.ai ne pouvait pas · 8. En une phrase
@@ -2381,7 +2411,7 @@ links: []
 - `meta/genealogie/tapa-sissoko` — Identité · Faits · Notes
 - `meta/journal/2026-06-18-tawakkul-transition` — Contexte · Sur la condition humaine et la dunya · Sur la démission · Sur la narration et le nafs · Sur le statut de l'injustice dans le contrat de service · Sur le tawakkul vécu · Vigilance pour l'avenir · Références croisées
 - `meta/journal/conversation-atma-claude` — 1. Qu’est-ce qu’Atma ? · 2. Qu’est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu’est-ce que Buddhi ? · 5. Ahamkara et Manas — l’Antahkarana · 6. Qu’est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA · 1. Qu'est-ce qu'Atma ? · 2. Qu'est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu'est-ce que Buddhi ? · 5. Ahamkara et Manas — l'Antahkarana · 6. Qu'est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA
-- `meta/meta-annales` — [2026-08-31] déploiement | Les 11 principes portés au moteur — 12/12 … · [2026-08-31] protocole | Approbation requise ramenée à 0 sur `main` · [2026-08-31] choura | Hook « contribution de Sidy » versé au Domaine … · [2026-08-31] infrastructure | Bascule omniroute des 14 profils, répar… · [2026-08-31] deploiement | Agent 08 déployé sur le moteur — et le rou… · [2026-08-31] archivage | Éclatement modulaire de l'agent 08 — et déco… · [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées… · [2026-08-30] briefs | Passation retour — session claude.ai vers sessi… · [2026-08-30] briefs | Passation de la session Instrument vers Claude … · [2026-08-30] briefs | Passation de la session « réseau subtil » vers … · [2026-08-29] personnel | mise à jour | Rêve géants/Paris — liens vers… · [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (… · [2026-08-28] maintenance | Corrections de dérive du protocole (table … · [2026-08-27] projet-unifie | Choura : premier cycle wiki + câblage cr… · [2026-08-25] projet-unifie | Signalement lot bibliothèque Tilak vers … … (+18)
+- `meta/meta-annales` — [2026-09-01] organisation | Dossier projet-unifié remis en ordre ; le… · [2026-08-31] déploiement | Les 11 principes portés au moteur — 12/12 … · [2026-08-31] protocole | Approbation requise ramenée à 0 sur `main` · [2026-08-31] choura | Hook « contribution de Sidy » versé au Domaine … · [2026-08-31] infrastructure | Bascule omniroute des 14 profils, répar… · [2026-08-31] deploiement | Agent 08 déployé sur le moteur — et le rou… · [2026-08-31] archivage | Éclatement modulaire de l'agent 08 — et déco… · [2026-08-30] git | Fusion dans `main` — et découverte de deux lignées… · [2026-08-30] briefs | Passation retour — session claude.ai vers sessi… · [2026-08-30] briefs | Passation de la session Instrument vers Claude … · [2026-08-30] briefs | Passation de la session « réseau subtil » vers … · [2026-08-29] personnel | mise à jour | Rêve géants/Paris — liens vers… · [2026-08-28] maintenance | Suppression du wiki-manifest.json racine (… · [2026-08-28] maintenance | Corrections de dérive du protocole (table … · [2026-08-27] projet-unifie | Choura : premier cycle wiki + câblage cr… … (+19)
 - `meta/meta-index` — Personnel (`personnel/`) · Généalogie (`genealogie/`) · Journal (`journal/`) · Transmissions (`transmissions/`, dispositif Karūbī — voir `meta/CLAUD… · Briefs (`briefs/`) · Projet unifié (`projet-unifie/`) · Fiches de premier niveau (`meta/`)
 - `meta/migration-2026-06-11` — Étape 1 : Remplacement du Cœur Opérationnel · Étape 2 : Migration et Ventilation de l'Existant (Sans re-lecture) · Étape 3 : Normalisation des Frontmatters (Script automatisé ou éditio… · Étape 4 : Initialisation des Méta-Pages · Étape 5 : Clôture et Validation
 - `meta/onboarding` — Contexte · Infrastructure en place · Structure du wiki sur le serveur · Synchronisation Obsidian : ✅ résolue (auto-pull activé) · Comment démarrer une session Claude Code · Coffre Obsidian · Prochaines étapes suggérées · Notes techniques
@@ -2417,7 +2447,7 @@ links: []
 - `meta/projet-unifie/01-contexte-demarche-etat` — 1. Contexte et esprit du projet · 2. Démarche de travail (le « comment », stable) · 3. État des travaux — snapshot daté du 2026-07-01 · 4. Repères chronologiques
 - `meta/projet-unifie/02-instrument-feuille-de-route` — 1. Invariants (rappel — issus de la fiche v0.1) · 2. Feuille de route par phases · 3. Questions techniques ouvertes (à arbitrer) · 4. Garde-fous doctrinaux propres à l'app
 - `meta/projet-unifie/03-transition-modele-open-source` — 1. Le mécanisme exact (officiellement supporté) · 2. Serveurs d'inférence qui exposent nativement l'API Anthropic · 3. Ce que le modèle DOIT savoir faire (exigences dures) · 4. Matériel (le poste réellement contraignant) · 5. Plan d'installation par étapes (session « Infrastructure », pédago… · 6. Pièges concrets propres à Claude Code sur endpoint non-Anthropic (… · 7. Stratégie recommandée : scripter d'abord, hybride ensuite · 8. Points de vigilance de la transition · 8bis. Résultats du 1er test GPU cloud (2026-06-29 → 2026-07-08) · 9. Sources (vérifiées le 2026-06-28)
-- `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` — A. Les sessions par fonction · B. Backlog — QUESTIONS ouvertes (décisions à prendre) · C. Backlog — POINTS DE VIGILANCE (à surveiller en continu) · D. Backlog — DISCERNEMENTS (15 fiches) · E. Backlog — INGESTS À VENIR (documentés, non urgents)
+- `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` — A. Les sessions par fonction · B. Backlog — QUESTIONS ouvertes (décisions à prendre) · C. Backlog — POINTS DE VIGILANCE (à surveiller en continu) · D. Backlog — DISCERNEMENTS (14 fiches énumérées, dont 3 tranchées dep… · E. Backlog — INGESTS À VENIR (documentés, non urgents)
 - `meta/projet-unifie/05-runbook-test-ornith-gpu-cloud` — Vue d'ensemble de l'architecture du test · Phase 0 — Choisir le fournisseur et le GPU · Phase 1 — Lancer l'instance GPU · Phase 2 — Installer vLLM et télécharger Ornith (sur le GPU) · Phase 3 — Démarrer le serveur d'inférence vLLM (sur le GPU) · Phase 4 — Ouvrir le tunnel SSH (depuis le serveur Hetzner) · Phase 5 — Brancher Claude Code sur Ornith (sur le serveur Hetzner) · Phase 6 — Test de non-régression (le vrai juge) · Phase 7 — Éteindre (arrêter la facturation) · Annexe — Variante économique (GPU 24 Go via Ollama + GGUF) · Récapitulatif des pièges (déjà rencontrés / vérifiés) · Sources (vérifiées le 2026-06-28)
 - `meta/projet-unifie/06-compte-rendu-test-ornith-gpu-cloud-2026-06-29` — 1. Résumé exécutif · 2. Architecture finale validée · 3. Procédure de connexion (à refaire après chaque redémarrage du Pod) · 4. Écarts par rapport au runbook initial (`05-…`) — à corriger pour l… · 5. Résultats des tests fonctionnels · 6. Anomalie observée (à signaler, sans surinterpréter) · 7. Recommandations pour la suite
 - `meta/projet-unifie/07-resultats-finaux-test-ornith-prepare-compare-2026-06-29` — 1. Verdict final · 2. Déroulé de la session (contexte du verdict) · 3. La nuance centrale à retenir : fiabilité d'action ≠ fiabilité narr… · 4. Recommandations pour une utilisation en production · 5. État du dépôt et du Pod à l'issue du test
@@ -2433,12 +2463,13 @@ links: []
 - `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07` — 1. Ce qui est versionné vs. ce qui ne l'est pas · 2. Les 12 profils et leur salon Discord · 3. Salon `#inspiration` — mécanisme de dépôt vers `raw/` · 4. Procédure de configuration (pour toute reprise/dépannage futur) · 5. État connu au 2026-08-07 (pour référence, peut devenir obsolète) · 5bis. 13e profil — `habib-mehdi` (Telegram, préparé le 2026-08-16, pa… · 6. À mettre à jour
 - `meta/projet-unifie/16-mise-en-regard-theme-natal-roue-agents-2026-08-08` — I. Ce qui est déjà établi — références doctrinales · II. Le thème vérifié — correction sous le cadre doctrinal · III. Instruction de la position 5 — à partir des références établies · IV. Le rapport de subordination — fondé sur la fonction de Barzakh · V. Harmonisation des prompts — état et chantier · VI. Sources et méthode
 - `meta/projet-unifie/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09` — 1. Contexte et point de départ · 2. Infrastructure technique — ce qui est déployé et vérifié · 3. Le travail de calibration zodiacale — chronologie et méthode · 4. Production en cours — les extensions de prompts (2026-08-09) · 5. Méthode générale — ce qui distingue ce chantier · 6. État récapitulatif au 2026-08-09 · 7. Points ouverts soumis à avis · 8. Sources principales (dans le dépôt `/root/wiki`) · 9. Réallocation complète des 12 fonctions (2026-08-15)
-- `meta/projet-unifie/README` — Comment amorcer le nouveau projet Claude.ai · Outils opérationnels (à NE PAS charger dans Claude.ai) · Hiérarchie d'autorité des documents · Entretien de ce dossier
+- `meta/projet-unifie/README` — Comment amorcer le nouveau projet Claude.ai · Outils opérationnels (à NE PAS charger dans Claude.ai) · Hiérarchie d'autorité des documents · Carte du dossier — cinq régimes (mise à jour 2026-09-01) · Entretien de ce dossier
 - `meta/projet-unifie/briefing-claude-ai` — 0. Qui fait quoi (architecture par fonction, agnostique au modèle) · 1. Architecture du dépôt (`/root/wiki`) — QUATRE circuits étanches · 2. Le Sceau Recteur — frontmatter EXACT des pages `doctrinal/` · 3. Les statuts (`status`) · 4. Circuit Discernement (`doctrinal/discernement/`) · 5. Circuit Atelier (`atelier/`) — frontmatter allégé · 5 bis. Circuit Label (`label/`) — Sceau propre · 6. Domaine réservé `meta/` + étanchéité · 7. Les 14 Commandements Absolus (résumé) · 8. Nomenclature · 9. Ce que tu PRODUIS et comment le livrer (format de sortie) · 10. Points de vigilance récurrents · 11. État des travaux (au 2026-07-06) · 12. Pages existantes — NE PAS recréer (les `index.md` font foi)
 - `meta/projet-unifie/chatgpt-export-2026-05-10` — Référence · Accès · Données extraites lors de l'INGEST du 2026-06-02 · Notes
 - `meta/projet-unifie/choura/cycle-2026-08-28` — [2026-08-28 18:04] studio (rôle 9, Vierge) · [2026-08-28 08:30] publication (rôle 8, Sagittaire) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe)
 - `meta/projet-unifie/choura/cycle-2026-08-30` — [2026-08-30 00:05] gardien (rôle 10, Capricorne) · [2026-08-30 16:00] publication (rôle 8, Sagittaire) · [2026-08-30 16:30] gardien (rôle 10, Capricorne) · [2026-08-30 18:05] ar-music (rôle 1, Bélier) · [2026-08-30 20:15] visual-da (rôle 2, Balance) · [2026-08-31 00:15] accounting (rôle 5, Taureau) · [2026-08-31 02:30] distribution (rôle 6, Scorpion) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe) · Clôture du cycle — 2026-08-31, 10:55 (heure de Paris)
-- `meta/projet-unifie/choura/cycle-2026-08-31` — Rotation de ce cycle (heure de Paris) · [2026-08-31 10:55] amorce (hors tour — Claude Code, sur instruction d… · [2026-08-31 16:00] visual-da (rôle 2, Balance) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe)
+- `meta/projet-unifie/choura/cycle-2026-08-31` — Rotation de ce cycle (heure de Paris) · [2026-08-31 10:55] amorce (hors tour — Claude Code, sur instruction d… · [2026-08-31 12:05] gardien (rôle 10, Capricorne) · [2026-08-31 16:00] visual-da (rôle 2, Balance) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe) · [2026-08-31 18:02] production (rôle 3, Gémeaux) · [2026-08-31 20:05] admin-legal (rôle 4, Cancer) · [2026-08-31 00:05] distribution (rôle 6, Scorpion) · [2026-09-01 04:00] publication (rôle 8, Sagittaire) · [2026-09-01 06:00] studio (rôle 9, Vierge) · [2026-09-01 08:06] fanzine (rôle 11, Verseau) · [2026-09-01 10:01] commerce (rôle 12, Poissons) · Clôture du cycle (Gardien, 2026-09-01 12:02)
+- `meta/projet-unifie/choura/cycle-2026-09-01` — Rotation de ce cycle (heure de Paris) · [2026-09-01 12:02] gardien (rôle 10, Capricorne) · Gabarit d'entrée (à copier pour chaque tour) · [YYYY-MM-DD HH:MM] agent-slug (rôle N, signe) · [2026-09-01 14:00] ar-music (rôle 1, Bélier) · [2026-09-01 16:00] visual-da (rôle 2, Balance)
 - `meta/projet-unifie/choura/hook-contribution-sidy/README` — Ce qu'il fait · Pourquoi un hook, et pas une consigne de prompt · Pourquoi sur le seul profil `gardien` · Contrat · Ce qui reste à la main de Sidy
 - `meta/projet-unifie/choura/orchestrateur/README` — Ce qu'il fait · Invariant à tenir · Contrôle
 - `meta/projet-unifie/directive-discernement-domaines` — Principe · Les deux garde-fous (symétriques) · Conséquence pratique · Note sur la portée · Origine
@@ -2476,6 +2507,7 @@ links: []
 - `meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03` — 1. Phase 0 : critère de sortie atteint · 2. Point structurel favorable : Hermes échappe au bug Claude Code · 3. Trois décisions ouvertes avant la Phase 1 · 4. Optimisation concrète immédiate : script de tunnel · 5. Ce qui ne change pas
 - `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0` — Ce que ce rôle résout · Déclencheur · Séparation stricte d'avec le sub-agent Karūbī (destinataire) · Étape 1 — lecture · Étape 2 — rédaction du brouillon · Étape 3 — remise à Sidy · Ce que ce rôle ne fait jamais · Prérequis de mise en service
 - `meta/projet-unifie/hermes-skills/spec-skill-karubi-hermes` — Déclencheur · Étape 0 — porte mécanique (Agent 10) · Étape 1 — lancement du sub-agent isolé · Étape 2 — comportement en session · Étape 3 — clôture de session · Ce que la skill ne fait jamais · Prérequis de mise en service (bloquants)
+- `meta/projet-unifie/plan-action-soutien-sidy` — État des lieux · Priorités · Actions immédiates · Prochaines étapes · Verdicts Sidy requis
 - `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` — 1. Origine de la question · 2. Ce qui empêche la filiation littérale · 3. Proposition — deux volets cumulables (A + B), validés en principe … · 4. Volet C — administration agentique par Hermes (nouveau, suite à la… · 5. Garde-fous rappelés pour toute animation Hermes du Karūbī (prérequ… · 6. Questions ouvertes pour Sidy (à trancher, pas à déduire) · 7. Amendements suggérés (texte prêt, non appliqué — attend le verdict)
 - `meta/projet-unifie/proposition-cycle-consultation-choura-2026-08-27` — 1. Constat — un dispositif réellement nouveau · 2. Proposition — la boucle · 3. Esquisse d'outillage · 4. Garde-fous (non négociables) · 5. Points ouverts
 - `meta/projet-unifie/proposition-discernement-image-organique-2026-08-27` — 1. Rapport à l'existant · 2. L'image · 3. Champ de Sceau proposé · 4. Pourquoi ceci reste un jugement de forme (Cmd 12) · 5. Mission de veille proposée · 6. Points ouverts
@@ -2484,6 +2516,8 @@ links: []
 - `meta/projet-unifie/proposition-pole-usul-2026-08-27` — 0. Supersession explicite · 1. Constat — pourquoi élargir · 2. Structure proposée du pôle · 3. Ce qui est reconduit sans changement · 4. Amendement futur nécessaire — FAIT le 2026-08-27 · 5. Chronologie · 6. Alertes récurrentes (reconduites du pôle Fiqh)
 - `meta/projet-unifie/proposition-queue-taches-2026-08-27` — 1. Constat · 2. Proposition — le fichier de queue · [YYYY-MM-DD] slug-idee | agent_cible | statut | priorite · 3. Esquisse de dispatch aux agents · 4. Gouvernance · 5. Points ouverts
 - `meta/projet-unifie/queue-idees` — Gabarit d'entrée (à copier pour chaque nouvelle idée) · [YYYY-MM-DD] slug-idee | agent_cible | statut | priorite
+- `meta/projet-unifie/rapport-rd-memoire-persistante` — Résumé exécutif · Diagnostic technique · Ressources déployées · Chantiers prioritaires ouverts · Plan d'action — soutien Sidy · Prochaines étapes immédiates · Conclusion
+- `meta/projet-unifie/synthese-ressources-deployees` — État des lieux · Priorités · Verdicts Sidy requis · Leçons apprises · Prochaines étapes
 - `meta/projet-unifie/triage-chatgpt-export` — Récapitulatif
 - `meta/proposition-discernement` — 1. Nouveau dossier · 2. Sceau Recteur — 5e valeur de `status` · 3. Le bloc normalisé — à ajouter en IV (Protocoles d'Exécution) du CL… · 4. Articulation avec `etudes/` · 5. Impact sur le triage des 140 conversations
 - `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12` — I. Les postes de travail (architecture par FONCTION, agnostique au mo… · II. Architecture du Dépôt — CINQ circuits étanches · III. Nomenclature et Règles de Nommage · IV. Le Sceau Recteur (frontmatter doctrinal) · V. Les Sceaux des circuits non-doctrinaux · VI. Le Domaine Réservé (`meta/`) et l'étanchéité · VII. Protocoles d'Exécution · VIII. Supervision des moteurs et des agents (règles issues des tests … · IX. Procédure d'intégration post-ingest (pédagogique) · X. Commandements Absolus
@@ -2555,7 +2589,7 @@ links: []
 | `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet` | speculatif | **validée pour (P1)** — lecture par com… | 2026-08-30 | 2026-08-30 |
 | `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons` | traditionnel | **validée** (verdict de Sidy, 2026-08-3… | 2026-08-30 | 2026-08-30 |
 | `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions` | traditionnel | validée | 2026-08-30 | 2026-08-30 |
-| `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique` | speculatif | — | 2026-08-31 | 2026-08-31 |
+| `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique` | speculatif | — | 2026-08-31 | 2026-09-01 |
 | `doctrinal/discernement/_template` | speculatif | en cours | 2026-06-20 | 2026-06-20 |
 | `doctrinal/discernement/tension-hadarat-burckhardt-jurjani` | traditionnel | validée | 2026-06-29 | 2026-07-09 |
 
@@ -2563,15 +2597,15 @@ links: []
 
 *Chaque ligne est une affirmation non encore vérifiée sur source primaire (Cmd 5). Leur levée est humaine et manuelle.*
 
-**Total : 582 marqueurs sur 182 fiches.**
+**Total : 599 marqueurs sur 189 fiches.**
 
 - `atelier/annales` (21)
-  - L260 : - `doctrinal/symboles/golem.md` (symbole, phase 1, corpus brut, to-source)
-  - L261 : - `hermeneutique/frankenstein/frankenstein.md` (œuvre, phase 1, corpus brut, to-source)
-  - L321 : Burckhardt "Alchimie" signalée `to-source` pour approfondir le vocabulaire
-  - L337 : d'orientation** (§VII.1) — elle dit où chercher, elle ne lève aucun `to-source`.
-  - L1160 : fiche de bibliothèque (qui ne lève pourtant aucun `to-source`). Les trois
-  - L1529 : - **Action** : création d'une fiche de corpus de Phase 1 (méthode validée 2026-08-24) — zéro interprétation, zéro lien sortant, source catalo…
+  - L386 : - `doctrinal/symboles/golem.md` (symbole, phase 1, corpus brut, to-source)
+  - L387 : - `hermeneutique/frankenstein/frankenstein.md` (œuvre, phase 1, corpus brut, to-source)
+  - L447 : Burckhardt "Alchimie" signalée `to-source` pour approfondir le vocabulaire
+  - L463 : d'orientation** (§VII.1) — elle dit où chercher, elle ne lève aucun `to-source`.
+  - L1286 : fiche de bibliothèque (qui ne lève pourtant aucun `to-source`). Les trois
+  - L1655 : - **Action** : création d'une fiche de corpus de Phase 1 (méthode validée 2026-08-24) — zéro interprétation, zéro lien sortant, source catalo…
   - … (+15)
 - `atelier/etudes-de-cas/dougong-consoles-bois` (5)
   - L48 : mais la source ne nomme aucun édifice — `to-source`.
@@ -2615,12 +2649,12 @@ links: []
   - L93 : `to-source`, vérification physique nécessaire avant toute citation.**
   - L97 : (également en bibliothèque physique) — passage également `to-source`.
 - `atelier/index` (6)
-  - L83 : consolidée]] — `to-source` partiel, aucun ancrage YAML sans discernement dédié
-  - L108 : - [[atelier/materiel/studio-principal|Studio Principal]] — fiche-hub de l'espace d'atelier audio, `to-source`
-  - L152 : - [[etudes-de-cas/forteresses-architecture-defensive|Forteresses — données d'architecture défensive]] — fiche de **phase corpus** (méthode en …
-  - L153 : - [[etudes-de-cas/dougong-consoles-bois|Dougong — consoles en bois à encorbellement]] — fiche de **phase corpus** : données brutes d'un reel d…
-  - L154 : - [[etudes-de-cas/refroidissement-passif-traditionnel|Refroidissement passif traditionnel — cours, eau, masse thermique]] — fiche de **phase c…
-  - L155 : - [[etudes-de-cas/xuankong-temple-suspendu|Xuankong Si — temple suspendu du mont Heng]] — fiche de **phase corpus** (première à bénéficier de …
+  - L98 : consolidée]] — `to-source` partiel, aucun ancrage YAML sans discernement dédié
+  - L124 : - [[atelier/materiel/studio-principal|Studio Principal]] — fiche-hub de l'espace d'atelier audio, `to-source`
+  - L168 : - [[etudes-de-cas/forteresses-architecture-defensive|Forteresses — données d'architecture défensive]] — fiche de **phase corpus** (méthode en …
+  - L169 : - [[etudes-de-cas/dougong-consoles-bois|Dougong — consoles en bois à encorbellement]] — fiche de **phase corpus** : données brutes d'un reel d…
+  - L170 : - [[etudes-de-cas/refroidissement-passif-traditionnel|Refroidissement passif traditionnel — cours, eau, masse thermique]] — fiche de **phase c…
+  - L171 : - [[etudes-de-cas/xuankong-temple-suspendu|Xuankong Si — temple suspendu du mont Heng]] — fiche de **phase corpus** (première à bénéficier de …
 - `atelier/materiel/distressor-el8` (6)
   - L33 : - **Date d'achat** : `to-source`
   - L34 : - **Lieu d'achat** : `to-source`
@@ -2654,9 +2688,6 @@ links: []
   - L67 : - Placement exact : `to-source` — probablement étagères hautes ou muret
   - L73 : - Configuration : `to-source` — probablement post-production ou monitoring, non confirmé.
   - … (+4)
-- `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac` (2)
-  - L27 : - 37 fiches doctrinales : suppression du marqueur `to-source` quand `sources_count: 0`
-  - L72 : - 40 lacunes `to-source` (fiches sans sources identifiées)
 - `atelier/rd/bibliotheque/catalogue-bibliotheque` (3)
   - L74 : - **Maurice Gloton** — *Une approche du Coran par la grammaire et le lexique* — « 2500 versets traduits · Lexique coranique complet », avant-pr…
   - L201 : pour lever les `to-source` du pôle.*
@@ -2672,21 +2703,24 @@ links: []
   - L209 : (« ⚠️ Pagination `to-source` — transcription via index-rene-guenon.org »). Le
   - L210 : `to-source` visait la **pagination** ; le défaut portait sur la **structure**.
   - L213 : - **Compréhension tirée** : ⚠️ **un `to-source` partiel donne une fausse
-- `atelier/rd/cahiers/journal-optimisations` (7)
+- `atelier/rd/cahiers/2026-08-30_session-corrections-rapports-rotation-hmac` (2)
+  - L27 : - 37 fiches doctrinales : suppression du marqueur `to-source` quand `sources_count: 0`
+  - L72 : - 40 lacunes `to-source` (fiches sans sources identifiées)
+- `atelier/rd/cahiers/journal-optimisations` (10)
   - L21 : - **Impact mesuré** : chiffres, temps, erreurs évitées — flagué `to-source` si
   - L58 : (`to-source`).
   - L67 : Burckhardt "Alchimie" `to-source`.
   - L73 : - `doctrinal/symboles/golem.md` (symbole, phase 1, corpus brut, to-source)
   - L74 : - `hermeneutique/frankenstein/frankenstein.md` (œuvre, phase 1, corpus brut, to-source)
   - L101 : entrée factuelle d'optimisation n'y a encore été versée. `to-source`.
-  - … (+1)
+  - … (+4)
 - `atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820` (1)
   - L355 : - Le marqueur `to-source` est **largement présent** dans `doctrinal/symboles/`
 - `atelier/rd/cahiers/registre-problemes` (2)
-  - L270 : - **Seconde compréhension** : ⚠️ **un `to-source` partiel certifie tout ce qu'il
-  - L272 : « Pagination `to-source` » — ce qui a fait paraître sûre sa **structure**, qui
+  - L329 : - **Seconde compréhension** : ⚠️ **un `to-source` partiel certifie tout ce qu'il
+  - L331 : « Pagination `to-source` » — ce qui a fait paraître sûre sa **structure**, qui
 - `atelier/rd/index` (1)
-  - L69 : Usage : savoir *où chercher*. La levée d'un `to-source` reste la vérification du
+  - L75 : Usage : savoir *où chercher*. La levée d'un `to-source` reste la vérification du
 - `atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks` (1)
   - L18 : - `to-source` (marqueur de source manquante)
 - `atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles` (18)
@@ -2698,9 +2732,9 @@ links: []
   - L71 : `to-source` — c'est la première vérification à faire.
   - … (+12)
 - `atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement` (3)
-  - L49 : | 2 | Rendu de la tradition pilote (Tasawwuf) | **En cours** — sur la validation du rendu d'Al-Insān al-Kāmil. ⚠️ **Correction du 2026-08-25** …
-  - L59 : 2. **`to-source` non répercuté** : l'architecture v0.3 §8 liste encore l'appariement qualités↔angles (AS=Sec, DS=Humide, MC=Chaud, FC=Froid) co…
-  - L86 : 9. Décider si l'hypothèse H3 de `2026-07-26_investigation-referentiels-stellaires-cycles.md` (convergence Gizeh/Idrīs/Hermès au degré 24) — qua…
+  - L54 : | 2 | Rendu de la tradition pilote (Tasawwuf) | **En cours** — sur la validation du rendu d'Al-Insān al-Kāmil. ⚠️ **Correction du 2026-08-25** …
+  - L64 : 2. **`to-source` non répercuté** : l'architecture v0.3 §8 liste encore l'appariement qualités↔angles (AS=Sec, DS=Humide, MC=Chaud, FC=Froid) co…
+  - L91 : 9. Décider si l'hypothèse H3 de `2026-07-26_investigation-referentiels-stellaires-cycles.md` (convergence Gizeh/Idrīs/Hermès au degré 24) — qua…
 - `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres` (3)
   - L30 : Elles indiquent où chercher ; elles **ne lèvent aucun `to-source` par
   - L198 : `atelier/rd/bibliotheque/`, pôle documentaire qui ne lève aucun `to-source`.
@@ -2734,18 +2768,21 @@ links: []
   - L106 : **Signalement** : ce passage est candidat au sourçage d'un marqueur `to-source`
 - `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument` (1)
   - L18 : > `to-source`). La convention sashimono elle-même est rappelée par son propre
+- `atelier/rd/registre-chantiers` (2)
+  - L108 : | INS-12 | Colonne *faṣṣ* (Fuṣūṣ) de la table des 28 degrés — `to-source` (3 marqueurs restants) | `ouvert` | non bloquant : `instrument-donne…
+  - L182 : | DOC-04 | Citations attribuées non vérifiées (Ibn ʿArabī, al-Ghazālī, le Cheikh) marquées `to-source` — cas le plus net signalé : `symboles/c…
 - `doctrinal/CLAUDE` (3)
   - L48 : - Fait sans source → `sources: ["to-source"]` + signalement (levée du marqueur :
   - L134 : > **Position(s) sourcée(s)** : texte, auteur, référence — `to-source` si non vérifié.
   - L150 : 10 (harmonisation) reconduite pour les trois branches, discipline `to-source`
-- `doctrinal/annales` (72)
-  - L144 : - **Contenu** : le Golem est directement lié à la **Kabbalah Maasit** (Kabbale pratique/opérative) — la branche de la Kabbale qui concerne l'a…
-  - L152 : - **État** : phase 1 (corpus brut, to-source)
-  - L196 : - **Contrôle fait, résultat négatif consigné** : le `to-source` sur le **numéro de
-  - L320 : cohérence interne ne la valide pas. Trois de ses jointures sont `to-source` (le
-  - L348 : ⚠️ Ce quatrième appui est **`to-source` intégral** : le dépôt ne possède aucune
-  - L378 : - **Cliché des couvertures fourni par Sidy** (nuit). Le `to-source` porté quelques
-  - … (+66)
+- `doctrinal/annales` (73)
+  - L78 : `to-source`).
+  - L247 : - **Contenu** : le Golem est directement lié à la **Kabbalah Maasit** (Kabbale pratique/opérative) — la branche de la Kabbale qui concerne l'a…
+  - L255 : - **État** : phase 1 (corpus brut, to-source)
+  - L299 : - **Contrôle fait, résultat négatif consigné** : le `to-source` sur le **numéro de
+  - L423 : cohérence interne ne la valide pas. Trois de ses jointures sont `to-source` (le
+  - L451 : ⚠️ Ce quatrième appui est **`to-source` intégral** : le dépôt ne possède aucune
+  - … (+67)
 - `doctrinal/autorites/abd-al-qadir-al-jilani` (1)
   - L17 : - Né à Jīlān (Gilan, actuel nord de l’Iran), mort à Bagdad — source : to-source
 - `doctrinal/autorites/al-ghazali` (1)
@@ -2789,6 +2826,10 @@ links: []
 - `doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion` (2)
   - frontmatter sources: to-source
   - L65 : guénonienne précise actuellement `to-source`, au même titre que le rapprochement
+- `doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire` (3)
+  - L14 : > **Signalement — levée du marqueur `to-source` (2026-09-01)** : le marqueur
+  - L15 : > ouvert le 2026-08-11/12 (`sources: [to-source]`) portait sur l'analogie
+  - L22 : > `to-source` : elle est ancrée à un texte primaire vérifié.
 - `doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique` (4)
   - L17 : >     `to-source` (§2-§5 ci-dessous, lectures suggérées : *Le Saint Coran*
   - L33 : > chapitre/page `to-source`.
@@ -2831,6 +2872,8 @@ links: []
   - L224 : > de travail sur le texte arabe du clipping, `to-source`).
 - `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons` (1)
   - L102 : >    **ternaire temporel**, et sur lui seul. `to-source` maintenu sur le reste.
+- `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique` (1)
+  - L125 : > fiches indiquent *où chercher* ; elles ne lèvent **jamais** un `to-source` par
 - `doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh` (1)
   - L9 : > `to-source` au sens du Commandement 5, même quand son statut de fiabilité est déjà
 - `doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani` (3)
@@ -2841,9 +2884,9 @@ links: []
   - L43 : - [[doctrinal/sources/sefer-yetsira-ramban|Sefer Yetsira — Livre de la Création (commentaire du Ramban)]] ⚠️ `to-source` sur recoupement éditio…
   - L142 : - [[doctrinal/symboles/janus-bifrons|Janus Bifrons — les deux visages et le troisième]] — `traditionnel` ; le ternaire temporel (futur/présent…
   - L218 : - [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh|Données géométriques, géodésiques et métrologiques de la Grande Pyramide]] — relevé…
-  - L256 : - [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats|Les états multiples de l'être, ch. III, X, XI, XII : Être et N…
-  - L271 : - [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain|Le Symbolisme de la Croix, ch. XXVI-XXVII : incomme…
-  - L272 : - [[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas|Le Symbolisme de la Croix, ch. V : la théorie hindoue des trois gunas (Guénon)]]…
+  - L257 : - [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats|Les états multiples de l'être, ch. III, X, XI, XII : Être et N…
+  - L272 : - [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain|Le Symbolisme de la Croix, ch. XXVI-XXVII : incomme…
+  - L273 : - [[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas|Le Symbolisme de la Croix, ch. V : la théorie hindoue des trois gunas (Guénon)]]…
   - … (+7)
 - `doctrinal/sources/bukhari-5754-tiyara-fal` (1)
   - L6 : > primaire à confirmer sur une édition imprimée des Ṣaḥīḥ pour lever le `to-source`.
@@ -2948,9 +2991,11 @@ links: []
 - `doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi` (1)
   - L94 : traité. `to-source` maintenu jusqu'à dépôt de la suite et vérification sur la
 - `doctrinal/sources/kitab-al-tarifat-jurjani` (3)
-  - L73 : - déf. 1216 — al-fiqh (الفقه) : [[doctrinal/symboles/fiqh]] — lève le `to-source`
-  - L246 : > `to-source` pour le reste de cette entrée.
-  - L890 : Jurjānī le présuppose connu, sans le définir formellement. Le `to-source`
+  - L89 : - déf. 1216 — al-fiqh (الفقه) : [[doctrinal/symboles/fiqh]] — lève le `to-source`
+  - L262 : > `to-source` pour le reste de cette entrée.
+  - L906 : Jurjānī le présuppose connu, sans le définir formellement. Le `to-source`
+- `doctrinal/sources/kitab-tarifat-corps-transcription` (1)
+  - L1765 : > `to-source`).
 - `doctrinal/sources/manifeste-corpus-symboles-science-sacree` (1)
   - L33 : la levée du `to-source` sur l'ensemble du corpus (§VII.2) — verdict humain de
 - `doctrinal/sources/nezami-pavillon-sept-princesses-barry` (3)
@@ -2976,6 +3021,9 @@ links: []
 - `doctrinal/sources/valsan-investiture-cheikh-al-akbar` (2)
   - L11 : ⚠️ **Pagination to-source** — médiation clipping Scribd ; référence de revue
   - L95 : directe du Pôle, sous la guidance spéciale d'al-Khiḍr. ⚠️ `to-source` — point
+- `doctrinal/symboles/buddhi` (2)
+  - frontmatter sources: to-source
+  - L22 : - **Statut** : `to-source` — corpus brut en attente de vérification primaire des textes de référence (Samkhya Karika, Upanishads, commentaires …
 - `doctrinal/symboles/fiqh` (3)
   - L36 : permis (mubāḥ), déconseillé (makrūh), interdit (ḥarām). — to-source.
   - L45 : - S'y ajoutent classiquement le droit de la famille et les peines. — to-source.
@@ -2989,6 +3037,9 @@ links: []
   - L23 : > piste, jamais comme source »), le marqueur `to-source` est réintroduit en
 - `doctrinal/symboles/janus-bifrons` (1)
   - L75 : ch. XXXVII, p. 228), disponibles au dépôt via clipping web. **`to-source`
+- `doctrinal/symboles/jivatma` (2)
+  - frontmatter sources: to-source
+  - L15 : - **Statut** : `to-source` — corpus brut en attente de vérification primaire des textes de référence (Upanishads, commentaires de Shankara, Gué…
 - `doctrinal/symboles/khatm` (3)
   - L83 : établi par les sources actuellement au dépôt — `to-source`.
   - L124 : ## VII. Points ouverts (`to-source`)
@@ -3015,14 +3066,14 @@ links: []
   - L60 : À compléter — source : to-source. #stub
 - `hermeneutique/CLAUDE` (1)
   - L80 : par elle-même aucun `to-source`** — la levée reste un verdict de l'utilisateur sur
-- `hermeneutique/annales` (10)
-  - L17 : - **État** : phase 1 (corpus brut, to-source)
-  - L80 : demeurent `sources: ["to-source"]` : la filiation ne lève aucun `to-source` et ne
-  - L99 : demeurent `sources: ["to-source"]` et ne tirent aucune assertion de la pièce ; le
-  - L127 : elle-même aucun `to-source`**, la levée restant un verdict de l'utilisateur sur
-  - L169 : terme comme lettre et **ne lève aucun `to-source`**. La décision de méthode du §5
-  - L202 : affirmée sans texte consulté (Cmd 5) — rétrogradée en piste `to-source` explicite ;
-  - … (+4)
+- `hermeneutique/annales` (11)
+  - L33 : - **Héritages non-levés** : Golem et Frankenstein demeurent phase 1, sources: ["to-source"]. Cette fiche les cite, elle ne les valide pas. Stat…
+  - L44 : - **État** : phase 1 (corpus brut, to-source)
+  - L107 : demeurent `sources: ["to-source"]` : la filiation ne lève aucun `to-source` et ne
+  - L126 : demeurent `sources: ["to-source"]` et ne tirent aucune assertion de la pièce ; le
+  - L154 : elle-même aucun `to-source`**, la levée restant un verdict de l'utilisateur sur
+  - L196 : terme comme lettre et **ne lève aucun `to-source`**. La décision de méthode du §5
+  - … (+5)
 - `hermeneutique/auteurs/hideo-kojima` (7)
   - frontmatter sources: to-source
   - L7 : > `to-source` couvre l'ensemble des faits datés (§VII, discipline des sources).
@@ -3057,6 +3108,8 @@ links: []
   - L52 : > lecture, faute de source. `to-source`.
   - L54 : ## 4. Fonctions `to-source`
   - L108 : ## 6. Menus et interface `to-source`
+- `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` (1)
+  - L109 : **Hermine du corpus** : la matière reste `to-source` sur les deux jambes (Golem et Frankenstein sont phase 1, sources: ["to-source"]). Cette f…
 - `hermeneutique/frankenstein/frankenstein` (2)
   - frontmatter sources: to-source
   - L12 : - **Statut** : `to-source` — la matière est en attente de vérification primaire
@@ -3107,8 +3160,8 @@ links: []
 - `meta/2026-07-27_correctif-etendu-invariants-depot` (1)
   - L175 : | B2 | `sources_count` cohérent avec `sources` (gère le marqueur `to-source`) | erreur |
 - `meta/2026-07-27_guide-deploiement-verifier-invariants` (2)
-  - L217 : 1 hors marqueur `to-source`)`
-  - L223 : recalculer sur le lot. Le script gère `to-source` comme marqueur, pas comme source.
+  - L261 : 1 hors marqueur `to-source`)`
+  - L267 : recalculer sur le lot. Le script gère `to-source` comme marqueur, pas comme source.
 - `meta/briefs/2026-08-30_passation-claude-ai-vers-terminal` (5)
   - L65 : `to-source`** (39 lignes `- to-source` retirées, plus deux `sources: []`). C'est
   - L66 : une **décision de doctrine, pas de forme** : le `to-source` est le signal du
@@ -3128,8 +3181,8 @@ links: []
 - `meta/genealogie/samballa-kouyate` (1)
   - frontmatter sources: to-source
 - `meta/meta-annales` (2)
-  - L372 : pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
-  - L373 : décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
+  - L423 : pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
+  - L424 : décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
 - `meta/personnel/2026-08-18_initiation-virtuelle` (1)
   - frontmatter sources: to-source
 - `meta/personnel/sidy` (1)
@@ -3146,13 +3199,13 @@ links: []
   - L123 : - **`to-source`** : marqueur posé pour tout fait sans source ; levé uniquement après
   - L148 : 5. Aucune affirmation sans source (`to-source` + discipline des sources). 6. Pas
 - `meta/projet-unifie/01-contexte-demarche-etat` (2)
-  - L99 : possédé — à déposer dans `raw/` ; source de `table-28-degres`, actuellement `to-source`) ;
-  - L102 : - **Sources à compléter** : citations `to-source` ou « non vérifiée » à confronter aux textes réels
+  - L107 : possédé — à déposer dans `raw/` ; source de `table-28-degres`, actuellement `to-source`) ;
+  - L110 : - **Sources à compléter** : citations `to-source` ou « non vérifiée » à confronter aux textes réels
 - `meta/projet-unifie/02-instrument-feuille-de-route` (1)
   - L39 : (discernements `en cours`, tensions 🌐, liens `to-source`, non-syncrétismes signalés). Aussi
 - `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` (2)
-  - L112 : al-Ghazālī, le Cheikh) marquées non vérifiées ou `to-source` — à confronter aux textes réels
-  - L163 : fiche source [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] créée, `to-source` de
+  - L130 : al-Ghazālī, le Cheikh) marquées non vérifiées ou `to-source` — à confronter aux textes réels
+  - L191 : fiche source [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] créée, `to-source` de
 - `meta/projet-unifie/10-briefing-infrastructure-hermes-agent-2026-07-03` (1)
   - L222 : - **Le wiki** reste l'unique source de vérité doctrinale ; Commandement 3, vigilance apophatique, discipline `to-source`, consultation de la b…
 - `meta/projet-unifie/briefing-claude-ai` (6)
@@ -3166,7 +3219,7 @@ links: []
   - L23 : crédibilité flaguée **par item** ; à défaut de source → `to-source`.
   - L261 : Un fait de niveau D jamais recoupé reste `to-source`.
 - `meta/projet-unifie/proposition-articulation-karubi-agent10-2026-08-06` (1)
-  - L58 : (primauté du Principe, `to-source`, une page = un sujet, append-only, verdicts à
+  - L64 : (primauté du Principe, `to-source`, une page = un sujet, append-only, verdicts à
 - `meta/projet-unifie/proposition-discernement-image-organique-2026-08-27` (1)
   - L76 : `cross_links`, sourcing effectif (`sources_count` réel vs `to-source`
 - `meta/projet-unifie/proposition-pole-fiqh-2026-07-06` (6)
@@ -3177,8 +3230,8 @@ links: []
   - L104 : Acquisition = **condition de levée des marqueurs `to-source`** de l'ensemble du pôle.
   - L123 : - **to-source** : tous les faits du pôle demeurent marqués jusqu'à vérification sur texte malikite physique
 - `meta/projet-unifie/proposition-pole-rd-atelier-2026-08-08` (2)
-  - L94 : | `to-source` (fait non vérifié) | `non-reproduit` (résultat obtenu une fois, jamais reproduit) |
-  - L95 : | Levée du `to-source` par vérification primaire humaine | Levée du `non-reproduit` par **reproduction indépendante** (autre session, autre mot…
+  - L107 : | `to-source` (fait non vérifié) | `non-reproduit` (résultat obtenu une fois, jamais reproduit) |
+  - L108 : | Levée du `to-source` par vérification primaire humaine | Levée du `non-reproduit` par **reproduction indépendante** (autre session, autre mo…
 - `meta/projet-unifie/proposition-pole-usul-2026-08-27` (4)
   - L28 : base mālikite, discipline `to-source`, action EXAMEN DE FIQH). Le geste
   - L42 : préséance mālikite stricte, discipline `to-source` jusqu'à acquisition et
@@ -3216,8 +3269,8 @@ links: []
 - `atelier/materiel/neve-1073spx` → `raw/1073SPX_1.1_User_Manual-TRADUIT-Francais`, `raw/facture-woodbrass-5003818-2026-02-05-neve-1073spx`
 - `atelier/materiel/revox-a77` → `raw/REVOX A77 NOTICE MULTILINGUE`, `raw/Revox-A-77-Dolby-B-Owners-Manual`, `raw/Revox-A-77-Dolby-B-Service-Manual`
 - `atelier/materiel/tascam-model-12` → `raw/Model12_OM_EFS_RevH3`, `raw/facture-woodbrass-4902304-2025-11-07-tascam-model12`
-- `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac` → `...`
 - `atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent` → `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity.…`
+- `atelier/rd/cahiers/2026-08-30_session-corrections-rapports-rotation-hmac` → `...`
 - `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents` → `meta/projet-unifie/hermes-prompts/08-publication-site`, `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer`, `meta/projet-unifie/hermes-prompts/10-protocol-guardian`
 - `atelier/rd/cahiers/journal-optimisations` → `atelier/rd/index.md`
 - `atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31` → `doctrinal/...`
@@ -3236,24 +3289,23 @@ links: []
 - `atelier/rd/outillage/2026-08-10_methode-croisement-discernement` → `^`
 - `atelier/rd/outillage/spec-essai-graphify` → `slug`
 - `atelier/rd/outillage/spec-generer-cartographie-tolerant` → `x`, `x/y`
-- `atelier/rd/rapport-rd-memoire-persistante` → `{brut}`
-- `atelier/rd/synthese-ressources-deployees` → `{brut}`
 - `doctrinal/CLAUDE` → `autre-slug`, `doctrinal/deviations/slug`, `doctrinal/symboles-ou-autorites/slug`, `slug`, `slug-source`
 - `doctrinal/annales` → `^`, `atelier/projets/spec-anneau-zodiacal.md`, `atelier/rd/index.md`, `doctrinal/index.md`, `…`
 - `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante` → `doctrinal/sources/coran-essai-traduction-gloton`
 - `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel` → `apercus-sur-l-initiation`, `principes-et-methodes-de-l-art-sacre`
 - `doctrinal/discernement/_template` → `doctrinal/deviations/slug`, `doctrinal/etudes/YYYY-MM-DD_synthese-si-existante`, `doctrinal/symboles/slug`
 - `doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani` → `doctrinal/CLAUDE.md`
-- `doctrinal/symboles/atma` → `doctrinal/symboles/buddhi`, `doctrinal/symboles/jivatma`
 - `meta/2026-07-27_correctif-etendu-invariants-depot` → `CLAUDE.md`, `doctrinal/annales.md`, `…`
 - `meta/2026-07-27_guide-deploiement-verifier-invariants` → `CLAUDE.md`, `atelier/…`, `correctif-etendu-invariants-depot`, `doctrinal/sources/...`, `doctrinal/sources/inexistante`, `…`
 - `meta/projet-unifie/00-instructions-projet` → `autre-slug`, `slug`, `slug-source`
 - `meta/projet-unifie/04-sessions-par-fonction-et-backlogs` → `chemin`
 - `meta/projet-unifie/briefing-claude-ai` → `autre-slug`, `deviation`, `slug`, `symbole-ou-autorite`
+- `meta/projet-unifie/rapport-rd-memoire-persistante` → `{brut}`
+- `meta/projet-unifie/synthese-ressources-deployees` → `{brut}`
 - `meta/proposition-discernement` → `deviation-y`, `symbole/autorite-x`
 - `meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12` → `autre-slug`, `chemin/relatif`, `doctrinal/deviations/slug`, `doctrinal/symboles-ou-autorites/slug`, `slug`, `slug-source`
 
-### Fiches sans lien entrant (102)
+### Fiches sans lien entrant (64)
 
 - `atelier/CLAUDE`
 - `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity`
@@ -3267,11 +3319,9 @@ links: []
 - `atelier/projets/soumission-gem-reponse-visuelle-28`
 - `atelier/projets/spec-anneau-zodiacal`
 - `atelier/projets/spec-generateur-manifeste`
-- `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac`
 - `atelier/rd/bibliotheque/glossaire-unifie`
 - `atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent`
 - `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation`
-- `atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini`
@@ -3301,20 +3351,10 @@ links: []
 - `atelier/rd/infrastructure/claude-code-health-check-2026-08-11`
 - `atelier/rd/infrastructure/configuration-hermex-webui-2026-08-23`
 - `atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex`
-- `atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes`
 - `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18`
-- `atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres`
 - `atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone`
 - `atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs`
-- `atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole`
-- `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument`
 - `atelier/rd/outillage/graphify-out/GRAPH_REPORT`
-- `atelier/rd/outillage/investigation-isolation-memoire-hermes`
-- `atelier/rd/outillage/spec-srs-hermes-native`
-- `atelier/rd/plan-action-soutien-sidy`
-- `atelier/rd/rapport-rd-memoire-persistante`
-- `atelier/rd/synthese-deploiement-memoire`
-- `atelier/rd/synthese-ressources-deployees`
 - `atelier/rd/veille/2026-08-31_argentos-core`
 - `atelier/rd/veille/2026-08-31_auto-harness`
 - `atelier/rd/veille/2026-08-31_claude-smart`
@@ -3327,60 +3367,34 @@ links: []
 - `doctrinal/sources/sefer-yetsira-ramban_source`
 - `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source`
 - `hermeneutique/CLAUDE`
+- `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles`
 - `label/CLAUDE`
 - `meta/2026-07-27_guide-deploiement-verifier-invariants`
-- `meta/projet-unifie/choura/cycle-2026-08-28`
-- `meta/projet-unifie/choura/cycle-2026-08-30`
-- `meta/projet-unifie/choura/cycle-2026-08-31`
-- `meta/projet-unifie/choura/hook-contribution-sidy/README`
-- `meta/projet-unifie/choura/orchestrateur/README`
-- `meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/mandats/ar-music-artistic-direction`
-- `meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/mandats/visual-editorial-artistic-direction`
-- `meta/projet-unifie/hermes-prompts/03-production-manager/mandats/production-manager`
-- `meta/projet-unifie/hermes-prompts/04-administration-legal/mandats/administration-legal`
-- `meta/projet-unifie/hermes-prompts/05-accounting-management/mandats/accounting-management`
-- `meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution`
-- `meta/projet-unifie/hermes-prompts/07-marketing-communication/mandats/marketing-communication`
-- `meta/projet-unifie/hermes-prompts/08-publication-site/README`
-- `meta/projet-unifie/hermes-prompts/08-publication-site/deployer-prompt-agent`
-- `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/bibliothecaire`
-- `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/site-orchestration`
-- `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/veille-referencement`
-- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/infrastructure-veille`
-- `meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/studio-sound-engineer`
-- `meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/protocol-guardian`
-- `meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/veille-protocole`
-- `meta/projet-unifie/hermes-prompts/11-fanzine-editor/mandats/fanzine-editor`
-- `meta/projet-unifie/hermes-prompts/12-commerce-profitability/mandats/commerce-profitability`
-- `meta/projet-unifie/hermes-skills/spec-skill-karubi-actualisation-g0`
-- `meta/projet-unifie/proposition-discernement-image-organique-2026-08-27`
-- `meta/projet-unifie/proposition-queue-taches-2026-08-27`
-- `meta/projet-unifie/queue-idees`
 - `meta/protocole-archives/changelog-CLAUDE`
 
 ## VII. Statistiques
 
 | circuit | fiches |
 |---|---|
-| `doctrinal/` | 324 |
-| `hermeneutique/` | 27 |
-| `atelier/` | 177 |
+| `doctrinal/` | 328 |
+| `hermeneutique/` | 28 |
+| `atelier/` | 178 |
 | `label/` | 13 |
-| `meta/` | 145 |
-| **total** | **686** |
+| `meta/` | 149 |
+| **total** | **696** |
 
 | type | n |
 |---|---|
-| `source` | 116 |
-| `symbole` | 98 |
-| `meta` | 87 |
+| `source` | 118 |
+| `symbole` | 100 |
+| `meta` | 88 |
 | `discernement` | 56 |
 | `(absent)` | 45 |
+| `outillage` | 32 |
 | `autorite` | 30 |
-| `outillage` | 30 |
 | `ressource` | 25 |
+| `infrastructure` | 24 |
 | `perso` | 24 |
-| `infrastructure` | 23 |
 | `projet` | 19 |
 | `deprecated` | 13 |
 | `experience` | 13 |
@@ -3398,11 +3412,12 @@ links: []
 | `fiche-veille` | 4 |
 | `index` | 4 |
 | `brief` | 3 |
+| `concept` | 3 |
 | `production` | 3 |
 | `amorcage` | 2 |
-| `concept` | 2 |
 | `figure` | 2 |
 | `rapport-agent` | 2 |
+| `registre` | 2 |
 | `artefact-derive` | 1 |
 | `correctif` | 1 |
 | `entity` | 1 |
@@ -3412,13 +3427,12 @@ links: []
 | `procédure` | 1 |
 | `proposition-structure` | 1 |
 | `rapport-conjoint` | 1 |
-| `registre` | 1 |
 | `session` | 1 |
 
 | status | n |
 |---|---|
-| `(absent)` | 344 |
-| `traditionnel` | 240 |
+| `(absent)` | 350 |
+| `traditionnel` | 244 |
 | `speculatif` | 38 |
 | `academique` | 35 |
 | `deprecated` | 8 |

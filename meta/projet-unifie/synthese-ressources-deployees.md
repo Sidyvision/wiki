@@ -3,14 +3,27 @@ title: Synthèse ressources déployées — soutien Sidy (2026-08-23)
 type: meta
 statut: en-cours
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-01
 sources: []
 links:
 - '[[atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes]]'
-- '[[atelier/rd/plan-action-soutien-sidy]]'
+- '[[meta/projet-unifie/plan-action-soutien-sidy]]'
 ---
 
 # Synthèse ressources déployées — soutien Sidy (2026-08-23)
+
+> **Fiche versée au Domaine Réservé le 2026-09-01.** Elle a vécu jusque-là à la racine
+> de `atelier/rd/`, c'est-à-dire dans une **page neutre** — alors qu'elle porte du fait
+> personnel (situation, soutien, contenu des fichiers de mémoire d'agent). C'est
+> l'interdit du §VI : jamais de fait personnel dans une page neutre. Déplacée sur verdict
+> de Sidy, avec son historique git (`git mv`), sans retouche du corps (Cmd 10).
+>
+> Le versant **publiable** de cette matière — l'ingénierie, sans la personne — vit du côté
+> `atelier/rd/`, où il est indexé ; voir la note de renvoi ci-dessous. Le renvoi va d'ici
+> vers le neutre, jamais l'inverse.
+> **Contrepartie neutre** : `atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne.md` —
+> le script et le cron de la veille quotidienne, avec leur vérification mécanique.
+
 
 ## État des lieux
 

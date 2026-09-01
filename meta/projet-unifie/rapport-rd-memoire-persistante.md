@@ -3,14 +3,29 @@ title: Rapport R&D — incident mémoire persistante et déploiement ressources
 type: meta
 statut: en-cours
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-01
 sources: []
 links:
-- '[[atelier/rd/synthese-ressources-deployees]]'
+- '[[meta/projet-unifie/synthese-ressources-deployees]]'
 - '[[atelier/rd/outillage/spec-srs-hermes-native]]'
 ---
 
 # Rapport R&D — incident mémoire persistante et déploiement ressources
+
+> **Fiche versée au Domaine Réservé le 2026-09-01.** Elle a vécu jusque-là à la racine
+> de `atelier/rd/`, c'est-à-dire dans une **page neutre** — alors qu'elle porte du fait
+> personnel (situation, soutien, contenu des fichiers de mémoire d'agent). C'est
+> l'interdit du §VI : jamais de fait personnel dans une page neutre. Déplacée sur verdict
+> de Sidy, avec son historique git (`git mv`), sans retouche du corps (Cmd 10).
+>
+> Le versant **publiable** de cette matière — l'ingénierie, sans la personne — vit du côté
+> `atelier/rd/`, où il est indexé ; voir la note de renvoi ci-dessous. Le renvoi va d'ici
+> vers le neutre, jamais l'inverse.
+> **Contrepartie neutre** : `atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes.md`,
+> qui existait déjà et couvre le diagnostic, la cause racine et la leçon systémique. Aucune
+> quatrième fiche n'a été créée : une page = un sujet (Cmd 4), et dupliquer un contenu déjà
+> tenu ailleurs est précisément ce qui a produit la confusion qu'on répare.
+
 
 ## Résumé exécutif
 

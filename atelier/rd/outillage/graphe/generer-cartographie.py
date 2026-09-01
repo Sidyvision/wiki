@@ -68,6 +68,7 @@ Dépendance : PyYAML  (apt install python3-yaml, ou pip3 install pyyaml)
 import argparse
 import json
 import os
+import subprocess
 import re
 import sys
 from collections import defaultdict
@@ -128,6 +129,26 @@ CIRCUITS = ["doctrinal", "atelier", "label", "meta"]
 
 FICHIERS_EXCLUS = {"index.md", "annales.md", "CLAUDE.md", "README.md"}
 DOSSIERS_EXCLUS = {"_inbox", "raw", ".git", "node_modules", ".obsidian"}
+
+
+def _chemins_ignores(racine):
+    """Ce que `.gitignore` exclut n'appartient pas au dépôt, donc pas au graphe.
+
+    Ajouté le 2026-09-01 (chantier OUT-C2). Sans ce filtre, le venv de l'essai
+    Graphify et son dossier de sorties régénérables injectaient 112 anomalies de
+    frontmatter étrangères au dépôt — le même bruit qui masquait les erreurs
+    réelles de `verifier-invariants.py`. Déterministe, sans réseau ni LLM.
+    Retourne un ensemble vide si git est indisponible (le filtre des dossiers
+    cachés reste alors seul en vigueur)."""
+    try:
+        sortie = subprocess.run(
+            ["git", "ls-files", "--others", "--ignored", "--exclude-standard",
+             "--directory", "-z"],
+            cwd=racine, capture_output=True, check=True, timeout=60,
+        ).stdout.decode("utf-8", "replace")
+    except (OSError, subprocess.SubprocessError):
+        return set()
+    return {c.rstrip("/") for c in sortie.split("\0") if c}
 
 WIKILINK = re.compile(r"^\[\[([^\]|]+?)(?:\|[^\]]*)?\]\]$")
 
@@ -214,8 +235,21 @@ def collecter(depot, circuits_retenus, journal):
             journal.bloquant("structure", f"circuit absent du dépôt : {circuit}/")
             continue
 
+        ignores = _chemins_ignores(racine)
         for dossier, sous_dossiers, fichiers in os.walk(racine):
-            sous_dossiers[:] = [d for d in sous_dossiers if d not in DOSSIERS_EXCLUS]
+            # Les dossiers cachés sont hors dépôt par convention (venv de
+            # dépendances tierces, caches, état runtime) — même règle que
+            # carte-du-depot.py. Ajouté le 2026-09-01 : sans elle,
+            # `.graphify-venv/` injectait 112 anomalies de frontmatter
+            # étrangères au dépôt, du même bruit que celui qui masquait les
+            # erreurs réelles de verifier-invariants.py (chantier OUT-C2).
+            sous_dossiers[:] = [
+                d for d in sous_dossiers
+                if d not in DOSSIERS_EXCLUS
+                and not d.startswith(".")
+                and os.path.relpath(os.path.join(dossier, d), racine)
+                    .replace(os.sep, "/") not in ignores
+            ]
 
             for nom in sorted(fichiers):
                 if not nom.endswith(".md") or nom in FICHIERS_EXCLUS:

@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 128,
+  "avertissements": 137,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -472,19 +472,6 @@
       "lacunes_to_source": 0
     },
     {
-      "id": "atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac",
-      "label": "Session corrections rapports quotidiens et rotation HMAC",
-      "circuit": "atelier",
-      "sous_dossier": "rd",
-      "type": "session",
-      "status": null,
-      "tradition_cadre": null,
-      "tags": [],
-      "updated": "2026-08-30",
-      "chemin": "atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac.md",
-      "lacunes_to_source": 0
-    },
-    {
       "id": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
       "label": "Liste des abréviations — Hindouisme et Soufisme (Shayegan)",
       "circuit": "atelier",
@@ -554,7 +541,7 @@
         "ressource",
         "catalogue"
       ],
-      "updated": "2026-08-30",
+      "updated": "2026-09-01",
       "chemin": "atelier/rd/bibliotheque/catalogue-bibliotheque.md",
       "lacunes_to_source": 0
     },
@@ -1127,6 +1114,19 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/cahiers/2026-08-30_session-corrections-rapports-rotation-hmac",
+      "label": "Session corrections rapports quotidiens et rotation HMAC",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "session",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-08-30",
+      "chemin": "atelier/rd/cahiers/2026-08-30_session-corrections-rapports-rotation-hmac.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast",
       "label": "Doctrine de la contrainte : qabḍ/basṭ et infrastructure (fiche candidate)",
       "circuit": "atelier",
@@ -1170,6 +1170,48 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura",
+      "label": "Migration modulaire des 11 agents restants et intégration de la contribution de Sidy au Choura",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "hermes",
+        "agents",
+        "prompts",
+        "choura",
+        "hook",
+        "discord",
+        "conservation"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd",
+      "label": "Jalon — chronologie de l'ouverture du pôle R&D (2026-08-08 → 2026-08-31)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "cahier",
+        "jalon",
+        "chronologie"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/cahiers/bilan-2026-08-15-pont-agents",
       "label": "Bilan R&D 2026-08-15 — pont inter-agents",
       "circuit": "atelier",
@@ -1184,7 +1226,7 @@
         "pont",
         "continuite"
       ],
-      "updated": "2026-08-15",
+      "updated": "2026-09-01",
       "chemin": "atelier/rd/cahiers/bilan-2026-08-15-pont-agents.md",
       "lacunes_to_source": 0
     },
@@ -1513,7 +1555,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-08-31",
+      "updated": "2026-09-01",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
       "lacunes_to_source": 0
     },
@@ -1589,7 +1631,7 @@
         "bilan",
         "pistes-developpement"
       ],
-      "updated": "2026-08-20",
+      "updated": "2026-09-01",
       "chemin": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure.md",
       "lacunes_to_source": 0
     },
@@ -1612,6 +1654,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne",
+      "label": "Veille infrastructure quotidienne — script livré, automatisation non câblée (2026-08-23)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "veille",
+        "cron",
+        "hermes",
+        "verification"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement",
       "label": "Rapport R&D — Problème mémoire persistante et déploiement ressources soutien Sidy",
       "circuit": "atelier",
@@ -1623,10 +1685,9 @@
         "rd",
         "hermes",
         "memoire",
-        "deployement",
-        "soutien-sidy"
+        "deployement"
       ],
-      "updated": "2026-08-23",
+      "updated": "2026-09-01",
       "chemin": "atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement.md",
       "lacunes_to_source": 0
     },
@@ -1917,7 +1978,7 @@
       "status": null,
       "tradition_cadre": null,
       "tags": [],
-      "updated": "2026-08-24",
+      "updated": "2026-09-01",
       "chemin": "atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes.md",
       "lacunes_to_source": 0
     },
@@ -2060,6 +2121,24 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/synthese-deploiement-memoire",
+      "label": "Synthèse déploiement mémoire persistante — 14 profils Hermes",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "hermes",
+        "memoire",
+        "deployement"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/infrastructure/synthese-deploiement-memoire.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18",
       "label": "Traitement des 37 C4 + 12 C1 + 62 isolés — rapport monitoring 2026-08-18",
       "circuit": "atelier",
@@ -2117,7 +2196,7 @@
         "pistes-developpement",
         "feuille-de-route"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-09-01",
       "chemin": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement.md",
       "lacunes_to_source": 0
     },
@@ -2619,6 +2698,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe",
+      "label": "Inventaire de l'outillage déterministe du dépôt (relevé du 2026-09-01)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "outillage",
+        "inventaire",
+        "scripts",
+        "verification"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
       "label": "Signalement — Mise en regard du corpus Coomaraswamy/Guénon (tenon, mortaise, axe du monde) avec l'architecture de l'Instrument",
       "circuit": "atelier",
@@ -2716,6 +2814,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/spec-essai-graphify",
+      "label": "Essai — Graphify (knowledge graph de code, local/déterministe)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "outillage",
+        "graphe",
+        "essai",
+        "graphify",
+        "tree-sitter"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "atelier/rd/outillage/spec-essai-graphify.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/outillage/spec-generateur-manifeste",
       "label": "Spécification — Générateur de manifeste (wiki → wiki-manifest.json)",
       "circuit": "atelier",
@@ -2766,60 +2883,22 @@
       "lacunes_to_source": 0
     },
     {
-      "id": "atelier/rd/plan-action-soutien-sidy",
-      "label": "Plan d'action — soutien Sidy personnel et professionnel",
+      "id": "atelier/rd/registre-chantiers",
+      "label": "Registre des chantiers — carte vivante des travaux ouverts du dépôt",
       "circuit": "atelier",
       "sous_dossier": "rd",
-      "type": "meta",
-      "status": null,
-      "tradition_cadre": null,
-      "tags": [],
-      "updated": "2026-08-23",
-      "chemin": "atelier/rd/plan-action-soutien-sidy.md",
-      "lacunes_to_source": 0
-    },
-    {
-      "id": "atelier/rd/rapport-rd-memoire-persistante",
-      "label": "Rapport R&D — incident mémoire persistante et déploiement ressources",
-      "circuit": "atelier",
-      "sous_dossier": "rd",
-      "type": "meta",
-      "status": null,
-      "tradition_cadre": null,
-      "tags": [],
-      "updated": "2026-08-23",
-      "chemin": "atelier/rd/rapport-rd-memoire-persistante.md",
-      "lacunes_to_source": 0
-    },
-    {
-      "id": "atelier/rd/synthese-deploiement-memoire",
-      "label": "Synthèse déploiement mémoire persistante — 14 profils Hermes",
-      "circuit": "atelier",
-      "sous_dossier": "rd",
-      "type": "infrastructure",
+      "type": "registre",
       "status": null,
       "tradition_cadre": null,
       "tags": [
+        "atelier",
         "rd",
-        "hermes",
-        "memoire",
-        "deployement"
+        "registre",
+        "chantiers",
+        "pilotage"
       ],
-      "updated": "2026-08-23",
-      "chemin": "atelier/rd/synthese-deploiement-memoire.md",
-      "lacunes_to_source": 0
-    },
-    {
-      "id": "atelier/rd/synthese-ressources-deployees",
-      "label": "Synthèse ressources déployées — soutien Sidy (2026-08-23)",
-      "circuit": "atelier",
-      "sous_dossier": "rd",
-      "type": "meta",
-      "status": null,
-      "tradition_cadre": null,
-      "tags": [],
-      "updated": "2026-08-23",
-      "chemin": "atelier/rd/synthese-ressources-deployees.md",
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/registre-chantiers.md",
       "lacunes_to_source": 0
     },
     {
@@ -4477,7 +4556,7 @@
       "tags": [],
       "updated": "2026-08-12",
       "chemin": "doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md",
-      "lacunes_to_source": 1
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique",
@@ -4956,6 +5035,30 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique",
+      "label": "qabḍ/basṭ et upaguru : un même registre initiatique ? (dossier ouvert, non tranché)",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "universel",
+      "tags": [
+        "qabd",
+        "bast",
+        "upaguru",
+        "maqam",
+        "hal",
+        "initiation",
+        "science-sacree",
+        "kari-kumi",
+        "cmd3",
+        "en-cours"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/discernement/_template",
       "label": "Spéculation sur [Sujet de la réflexion]",
       "circuit": "doctrinal",
@@ -5322,6 +5425,30 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription",
+      "label": "Titus Burckhardt, Alchimie : Science et Sagesse — chapitre XIII, L'athanor (transcription)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": [
+        "hermetisme",
+        "hindouisme",
+        "universel"
+      ],
+      "tags": [
+        "alchimie",
+        "hermetisme",
+        "symbolisme",
+        "corps-subtil",
+        "transcription",
+        "burckhardt"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam",
       "label": "Burckhardt — Introduction aux doctrines ésotériques de l'Islam",
       "circuit": "doctrinal",
@@ -5674,6 +5801,28 @@
       ],
       "updated": "2026-08-13",
       "chemin": "doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane",
+      "label": "La Crise du Monde moderne, ch. IV : science sacrée et science profane (Guénon)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "science-sacree",
+        "science-profane",
+        "sciences-traditionnelles",
+        "point-de-vue",
+        "alchimie",
+        "astrologie",
+        "crise-monde-moderne"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane.md",
       "lacunes_to_source": 0
     },
     {
@@ -6072,6 +6221,28 @@
       ],
       "updated": "2026-08-13",
       "chemin": "doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru",
+      "label": "Initiation et Réalisation spirituelle, ch. XX : Guru et upaguru (Guénon)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "initiation",
+        "guru",
+        "upaguru",
+        "cause-occasionnelle",
+        "guru-interieur",
+        "instrument",
+        "initiation-realisation-spirituelle"
+      ],
+      "updated": "2026-08-31",
+      "chemin": "doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru.md",
       "lacunes_to_source": 0
     },
     {
@@ -6991,8 +7162,29 @@
         "grammaire",
         "prosodie"
       ],
-      "updated": "2026-08-30",
+      "updated": "2026-09-01",
       "chemin": "doctrinal/sources/kitab-al-tarifat-jurjani.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/kitab-tarifat-corps-transcription",
+      "label": "Kitāb al-Taʿrīfāt — Corps des définitions (transcription des clichés)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "lexicographie",
+        "terminologie",
+        "transcription",
+        "soufisme",
+        "logique",
+        "droit",
+        "grammaire"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "doctrinal/sources/kitab-tarifat-corps-transcription.md",
       "lacunes_to_source": 0
     },
     {
@@ -7010,7 +7202,7 @@
         "prosodie",
         "transcription"
       ],
-      "updated": "2026-06-30",
+      "updated": "2026-09-01",
       "chemin": "doctrinal/sources/kitab-tarifat-index-transcription.md",
       "lacunes_to_source": 0
     },
@@ -7729,7 +7921,7 @@
         "rene-guenon",
         "metaphysique-comparee"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-08-31",
       "chemin": "doctrinal/symboles/atma-gita-guenon.md",
       "lacunes_to_source": 0
     },
@@ -7784,6 +7976,26 @@
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/bindu.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/buddhi",
+      "label": "Buddhi (l'intellect discriminatif)",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "buddhi",
+        "intellect",
+        "discrimination",
+        "vedanta",
+        "samkhya",
+        "intuition-intellectuelle"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "doctrinal/symboles/buddhi.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/chat-en-reve",
@@ -8315,6 +8527,25 @@
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/jinns-classification-couleur.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/jivatma",
+      "label": "Jîvâtma (l'âme individuelle)",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "jivatma",
+        "ame-individuelle",
+        "atma",
+        "manifestation",
+        "vedanta"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "doctrinal/symboles/jivatma.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/khalwa",
@@ -10513,6 +10744,27 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura",
+      "target": "atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/cahiers/bilan-2026-08-15-pont-agents",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
@@ -10753,6 +11005,27 @@
     {
       "source": "atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm",
       "target": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne",
+      "target": "atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne",
+      "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -11689,6 +11962,13 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
       "target": "atelier/rd/bibliotheque/eckstein-porte-du-ciel",
       "champ": "links",
@@ -11801,29 +12081,36 @@
       "assise": "etabli"
     },
     {
-      "source": "atelier/rd/rapport-rd-memoire-persistante",
-      "target": "atelier/rd/synthese-ressources-deployees",
+      "source": "atelier/rd/registre-chantiers",
+      "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
     },
     {
-      "source": "atelier/rd/rapport-rd-memoire-persistante",
-      "target": "atelier/rd/outillage/spec-srs-hermes-native",
+      "source": "atelier/rd/registre-chantiers",
+      "target": "atelier/rd/veille/registre",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
     },
     {
-      "source": "atelier/rd/synthese-ressources-deployees",
-      "target": "atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes",
+      "source": "atelier/rd/registre-chantiers",
+      "target": "atelier/rd/cahiers/bilan-2026-08-15-pont-agents",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
     },
     {
-      "source": "atelier/rd/synthese-ressources-deployees",
-      "target": "atelier/rd/plan-action-soutien-sidy",
+      "source": "atelier/rd/registre-chantiers",
+      "target": "atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/registre-chantiers",
+      "target": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -12797,6 +13084,13 @@
     {
       "source": "doctrinal/autorites/titus-burckhardt",
       "target": "doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/titus-burckhardt",
+      "target": "doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription",
       "champ": "sources",
       "nature": "source",
       "assise": "etabli"
@@ -14651,7 +14945,28 @@
     },
     {
       "source": "doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire",
+      "target": "doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire",
       "target": "doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire",
+      "target": "doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire",
+      "target": "doctrinal/autorites/titus-burckhardt",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -15658,6 +15973,48 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique",
+      "target": "doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique",
+      "target": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique",
+      "target": "doctrinal/sources/kitab-tarifat-corps-transcription",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique",
+      "target": "doctrinal/sources/kitab-tarifat-index-transcription",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
       "source": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
       "target": "doctrinal/symboles/hadarat-khams",
       "champ": "sources",
@@ -16106,6 +16463,13 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription",
+      "target": "doctrinal/autorites/titus-burckhardt",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam",
       "target": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
       "champ": "cross_links",
@@ -16507,6 +16871,20 @@
     {
       "source": "doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles",
       "target": "doctrinal/deviations/pseudo-initiation-et-syncretisme",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane",
+      "target": "doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -17004,6 +17382,27 @@
     {
       "source": "doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet",
       "target": "doctrinal/deviations/confusion-psychique-spirituel",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru",
+      "target": "doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru",
+      "target": "doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -18053,6 +18452,13 @@
     },
     {
       "source": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "target": "doctrinal/sources/kitab-tarifat-corps-transcription",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kitab-al-tarifat-jurjani",
       "target": "doctrinal/symboles/wahdat-al-wujud",
       "champ": "cross_links",
       "nature": "lien",
@@ -18080,6 +18486,34 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/kitab-tarifat-corps-transcription",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kitab-tarifat-corps-transcription",
+      "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kitab-tarifat-corps-transcription",
+      "target": "doctrinal/sources/kitab-tarifat-index-transcription",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kitab-tarifat-corps-transcription",
+      "target": "doctrinal/autorites/al-jurjani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/kitab-tarifat-index-transcription",
       "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
       "champ": "sources",
@@ -18089,6 +18523,13 @@
     {
       "source": "doctrinal/sources/kitab-tarifat-index-transcription",
       "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/kitab-tarifat-index-transcription",
+      "target": "doctrinal/sources/kitab-tarifat-corps-transcription",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -19081,6 +19522,20 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/atma",
+      "target": "doctrinal/symboles/jivatma",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/atma",
+      "target": "doctrinal/symboles/buddhi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/atma-gita-guenon",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -19202,6 +19657,13 @@
     {
       "source": "doctrinal/symboles/bindu",
       "target": "doctrinal/traditions/sanatana-dharma",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/buddhi",
+      "target": "doctrinal/symboles/atma",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -19881,6 +20343,13 @@
     {
       "source": "doctrinal/symboles/jinns-classification-couleur",
       "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/jivatma",
+      "target": "doctrinal/symboles/atma",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

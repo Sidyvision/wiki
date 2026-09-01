@@ -60,23 +60,23 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**49 chantiers inscrits** au 2026-09-01, plus 3 versés en §9 (clos ou caducs) et 6 lignes
-en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous modifiez une
-ligne, ce tableau se recompte, il ne s'estime pas.
+**47 chantiers ouverts** au 2026-09-01, plus 5 versés en §9 (clos ou caducs) et
+6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous
+modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
 
 | Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
 |---|---|---|---|---|---|
 | `INS` Instrument | 10 | — | 1 | 3 | **14** |
 | `INF` Infrastructure & agents | 6 | 2 | 1 | 3 | **12** |
-| `OUT` Outillage & scripts | 5 | — | 1 | 1 | **7** |
+| `OUT` Outillage & scripts | 5 | — | 1 | — | **6** |
 | `BIB` Bibliothèque | 1 | — | 1 | — | **2** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
-| `PRO` Process & protocole | 3 | — | — | 4 | **7** |
+| `PRO` Process & protocole | 3 | — | — | 3 | **6** |
 | `DOC` Doctrinal | 4 | — | — | 1 | **5** |
-| **Total** | **30** | **2** | **5** | **12** | **49** |
+| **Total** | **30** | **2** | **5** | **10** | **47** |
 
-**Ce que ce tableau dit d'abord** : douze chantiers n'attendent **que** la décision de
-Sidy — rien d'autre ne leur manque. Cinq sont bloqués par une dépendance qui n'est pas
+**Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
+Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
 entre nos mains (une PR amont, une prise de vue, un texte à localiser). C'est là, et non
 dans le nombre total, que se lit ce qui peut avancer aujourd'hui.
 
@@ -132,7 +132,7 @@ non dépouillées dans cette passe → §8.*
 |---|---|---|---|---|---|
 | INF-01 | Isolation mémoire Hermes par sub-agent (`memory_enabled`) — condition du déploiement du skill Karūbī | `bloque` | dépendance amont : PR #34098 de `hermes-agent` (hors de notre main) | [[atelier/rd/synthese-deploiement-memoire]] §187-189 ; [[atelier/rd/outillage/investigation-isolation-memoire-hermes]] | jalon du 2026-08-20, P3.6 |
 | INF-02 | Sandbox R&D `/root/sandbox-rd/` — ouverte le 2026-08-18, **encore vide** : aucun montage de veille n'y a été éprouvé | `ouvert` | y éprouver un premier montage issu de la veille | [[atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18]] | 2026-08-18 |
-| INF-03 | Phase 3 — automatisation de la veille infrastructure : décisions entièrement tranchées, **aucun automatisme écrit** | `attente-verdict` | la proposition de reprise du 2026-08-31 est en `brouillon`, soumise à Sidy | [[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]] ; [[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]] | 2026-08-11, rouvert 2026-08-31 |
+| INF-03 | Phase 3 — automatisation de la veille infrastructure : décisions entièrement tranchées, **aucun automatisme écrit** — confirmé mécaniquement le 2026-09-01 : le script existe et est exécutable, mais **aucun des trois jobs cron qu'une fiche du 2026-08-23 déclarait créés n'est déclaré dans les quatorze profils Hermes** | `attente-verdict` | la proposition de reprise du 2026-08-31 est en `brouillon`, soumise à Sidy | [[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]] ; [[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]] ; [[atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne]] | 2026-08-11, rouvert 2026-08-31 |
 | INF-04 | Bureau TUI — vérification en conditions réelles jamais faite | `ouvert` | éprouver, puis consigner | [[atelier/rd/infrastructure/bureau-tui-architecture]] ; [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] | jalon du 2026-08-15 |
 | INF-05 | Migration des prompts Hermes vers la nomenclature modulaire — **1 rôle aligné sur 12** (`publication`) | `en-cours` | aligner les onze autres | [[atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura]] | 2026-08-31 |
 | INF-06 | Monitoring de charge en série temporelle — seul un instantané quotidien existe | `ouvert` | spécifier la série | jalon du 2026-08-20, P1.2 | 2026-08-20 |
@@ -147,7 +147,6 @@ non dépouillées dans cette passe → §8.*
 
 | ID | Chantier | Statut | Prochaine action | Fiche d'origine | Ouvert par |
 |---|---|---|---|---|---|
-| OUT-01 | **Périmètre de `verifier-invariants.py`** : le script parcourt le disque sans consulter `.gitignore` — **209 des 210 erreurs de la baseline sont du bruit** (venv tiers `.graphify-venv/`, `bureau/.venv/`, fichiers `raw/`). Ce bruit a réellement masqué la seule erreur vraie du 2026-09-01 | `attente-verdict` | deux options à trancher : ignorer les répertoires cachés, ou consulter `git check-ignore`. Décision d'outillage protocolaire → Sidy | constaté à la passe du 2026-09-01 | 2026-09-01 |
 | OUT-02 | Angle mort C3 : `ETANCHEITE_INTERDITE` ne porte que la clé `doctrinal` — un lien `atelier/rd/` → `meta/` n'est **jamais bloquant**, il ne remonte qu'en avertissement C4 | `ouvert` | étendre les clés, ou acter le comportement | registre des problèmes, entrée `[2026-08-15]` (`reporte`) | 2026-08-15 |
 | OUT-03 | SRS Hermes-native — format, extraction, révision, espacement non définis | `ouvert` | spécifier | [[atelier/rd/outillage/spec-srs-hermes-native]] ; [[atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole]] | verdict Sidy du 2026-08-15 |
 | OUT-04 | Trois questions d'applicabilité Cordis, non instruites (HMR des agents Hermes en priorité) | `ouvert` | instruire la première | [[atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle]] ; [[atelier/rd/veille/cordis/notes-lecture]] | 2026-08-16 |
@@ -174,7 +173,6 @@ non dépouillées dans cette passe → §8.*
 | ID | Chantier | Statut | Prochaine action | Fiche d'origine | Ouvert par |
 |---|---|---|---|---|---|
 | PRO-01 | Protection de la branche `main` contournable sans review requise. **Constaté en acte le 2026-09-01** : le push de la présente passe a été accepté avec la mention serveur `Bypassed rule violations for refs/heads/main — Changes must be made through a pull request` ; le contrôle `lint` est par ailleurs annoncé attendu et n'a bloqué aucun des cinq commits. Le point n'est donc plus théorique | `attente-verdict` | durcir la règle, ou l'acter comme voulue — décision explicitement laissée à Sidy depuis le 2026-08-29 | registre des problèmes, entrée `[2026-08-29]` ; sortie de `git push` du 2026-09-01 | 2026-08-29, démontré 2026-09-01 |
-| PRO-02 | Cinq fiches à la racine de `atelier/rd/`, hors sous-dossier et hors Sceau ; **trois portent du fait personnel dans une page neutre** (§VI) : `plan-action-soutien-sidy.md`, `synthese-ressources-deployees.md`, `rapport-rd-memoire-persistante.md` | `attente-verdict` | déplacer vers le Domaine Réservé, neutraliser, ou laisser signalé — un déplacement engage l'étanchéité | relevé de la passe du 2026-09-01 | 2026-09-01 |
 | PRO-03 | Types de fiche en usage mais absents du Sceau de `atelier/CLAUDE.md` : `registre` (`rd/veille/registre.md`, le présent fichier), `fiche-rd`, `session` | `ouvert` | régulariser le Sceau, ou aligner les fiches | relevé de la passe du 2026-09-01 | 2026-09-01 |
 | PRO-04 | Quatre fichiers `.bak-2026-08-18-pre-C4` suivis par git, référencés nulle part (`atelier/`, `atelier/rd/`, `doctrinal/` ×2) | `attente-verdict` | `deprecated` avec pointeur, ou retrait assumé (Cmd 10) | relevé de la passe du 2026-09-01 | 2026-09-01 |
 | PRO-05 | Rétroportage du champ `maturite` sur les fiches `discernement/` — **9 sur 56** le portent ; différé assumé, non borné | `ouvert` | les agents le renseignent au fil de leurs éditions de fond ; le différé n'a pas d'échéance | proposition du 2026-08-27 (cf. Domaine Réservé) | 2026-08-27 |
@@ -223,6 +221,8 @@ présenté comme un chantier ouvert** ; l'inscription au registre attend la vér
 | OUT-C1 | `graphe-cartographie.json` jamais régénéré, et 10 anomalies bloquantes | **caduc au 2026-08-31** : le graphe a été régénéré (commit `a25e482`) et le pôle intégré au protocole racine §VII. L'entrée du registre des problèmes qui l'affiche encore `ouvert` n'a jamais reçu d'entrée de clôture — c'est le comportement normal d'un cahier append-only, pas une anomalie | vérifié au disque et par `git log`, 2026-09-01 |
 | INF-C1 | Crise de crédit API du 2026-08-07 — « tous les agents restent inactifs jusqu'à résolution » | **caduc au 2026-09-01** : sortie de crise par changement de fournisseur d'inférence (bascule OmniRoute du 2026-08-26), non par nouvelle clé. Les agents tournent en continu | [[atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen]] ; commits `CHOURA: tour <agent>` du 2026-08-28 au 2026-09-01 |
 | PRO-C1 | `hermeneutique/annales.md` — `updated:` antérieur à sa dernière entrée | **clos le 2026-09-01** : corrigé dans la passe d'organisation. Seule erreur réelle que le vérificateur signalait, noyée dans 209 lignes de bruit (motif de OUT-01) | passe du 2026-09-01 |
+| OUT-C2 | Périmètre de `verifier-invariants.py` : le script parcourait le disque sans consulter `.gitignore` — 209 des 210 erreurs étaient du bruit de venv tiers, de sorties régénérables et du sas `raw/`, et ce bruit avait masqué la seule erreur vraie du jour | **clos le 2026-09-01** sur verdict de Sidy. Le script interroge désormais git (`ls-files --others --ignored --exclude-standard`) et ne contrôle que ce qui appartient au dépôt ; le périmètre appliqué est annoncé en tête de sortie, jamais silencieux ; `--tout` restitue le comportement antérieur, donc rien n'est hors de portée. Repli sur l'exclusion des dossiers cachés hors dépôt git (bacs à sable). Le dépôt passe de 210 erreurs à **0 erreur, 0 avertissement** sur 709 fiches. `generer-cartographie.py` portait le même défaut (112 anomalies venues du même venv, refus d'écrire le manifeste) — corrigé de même, le graphe se régénère | `verifier-invariants.py` ; guide de déploiement (cf. Domaine Réservé) ; entrée `[2026-09-01]` du registre des problèmes |
+| PRO-C2 | Cinq fiches à la racine de `atelier/rd/`, hors arborescence et sans lien entrant ; trois portaient du fait personnel en page neutre (§VI) | **clos le 2026-09-01** sur verdict de Sidy. Les trois fiches versées au Domaine Réservé avec leur historique git ; les deux neutres classées par leur nature (`infrastructure/`, `cahiers/`) ; la racine du pôle ne porte plus que `index.md` et le présent registre. Deux fiches restées côté `rd/` portaient le même défaut **dans leur corps** — blocs retirés, matière conservée au Domaine Réservé. Contreparties neutres écrites et indexées : déploiement de la veille quotidienne, inventaire de l'outillage ; pour la troisième, la contrepartie existait déjà (Cmd 4, pas de quatrième fiche) | passe du 2026-09-01 ; [[atelier/rd/index]] §Assainissement |
 
 ---
 

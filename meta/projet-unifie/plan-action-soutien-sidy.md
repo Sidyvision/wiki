@@ -3,12 +3,25 @@ title: Plan d'action — soutien Sidy personnel et professionnel
 type: meta
 statut: en-cours
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-01
 sources: []
 links: []
 ---
 
 # Plan d'action — soutien Sidy personnel et professionnel
+
+> **Fiche versée au Domaine Réservé le 2026-09-01.** Elle a vécu jusque-là à la racine
+> de `atelier/rd/`, c'est-à-dire dans une **page neutre** — alors qu'elle porte du fait
+> personnel (situation, soutien, contenu des fichiers de mémoire d'agent). C'est
+> l'interdit du §VI : jamais de fait personnel dans une page neutre. Déplacée sur verdict
+> de Sidy, avec son historique git (`git mv`), sans retouche du corps (Cmd 10).
+>
+> Le versant **publiable** de cette matière — l'ingénierie, sans la personne — vit du côté
+> `atelier/rd/`, où il est indexé ; voir la note de renvoi ci-dessous. Le renvoi va d'ici
+> vers le neutre, jamais l'inverse.
+> **Contrepartie neutre** : `atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe.md` —
+> l'inventaire des scripts déterministes et de ce qui leur manquait, sans le plan de soutien.
+
 
 ## État des lieux
 

@@ -8,7 +8,12 @@ modèle") : ce script est DÉTERMINISTE, sans LLM, sans réseau. Il ne corrige r
 Il constate et il sort en code non nul si un invariant est rompu.
 
 Usage :
-    python3 verifier-invariants.py [--racine /root/wiki] [--json] [--strict]
+    python3 verifier-invariants.py [--racine /root/wiki] [--json] [--strict] [--tout]
+
+Périmètre : le script ne contrôle que ce qui appartient au dépôt — il consulte
+`.gitignore` via git (venv tiers, sorties régénérables et sas `raw/` exclus).
+`--tout` lève cette restriction. Le périmètre appliqué est toujours annoncé en
+tête de sortie, jamais silencieux.
 
 Codes de sortie :
     0  aucune anomalie bloquante
@@ -22,6 +27,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import sys
 from datetime import date
 
@@ -369,15 +375,72 @@ def controler_frontmatter(chemin_rel, fm, rap):
 
 
 # --------------------------------------------------------------------------
+# Périmètre du contrôle — ce qui appartient au dépôt, et rien d'autre
+# --------------------------------------------------------------------------
+
+# Dossiers exclus en toutes circonstances, même hors dépôt git.
+DOSSIERS_EXCLUS = {".git", "node_modules", "_inbox"}
+
+
+def perimetre_ignore(racine):
+    """Ensemble des chemins relatifs que git tient pour hors dépôt.
+
+    Motif (chantier OUT-01, ouvert le 2026-09-01) : ce script parcourait le
+    disque sans jamais consulter `.gitignore`. Les venv de dépendances tierces
+    (`.graphify-venv/`, `bureau/.venv/`), les sorties régénérables et le sas
+    `raw/` produisaient 209 erreurs sur 210 — et ce bruit a réellement masqué
+    la seule erreur vraie de la journée (`hermeneutique/annales.md`, contrôle
+    A3), trouvée par tri manuel. Un validateur dont la sortie doit être triée
+    à la main ne valide plus rien.
+
+    Critère retenu : **git lui-même**. Ce qui est ignoré par `.gitignore` n'est
+    pas dans le dépôt, donc n'a pas à en respecter les invariants. Le critère
+    est déterministe, sans réseau ni LLM (§VIII), et il n'invente aucune règle
+    nouvelle : il applique celle que le dépôt s'est déjà donnée.
+
+    Retourne `(chemins, mode)` — `mode` vaut "git" si le périmètre vient de
+    git, "repli" si git est indisponible (racine hors dépôt, ex. les bacs à
+    sable de non-régression) : on se rabat alors sur les dossiers cachés, qui
+    couvrent les venv et les caches sans rien décider d'autre.
+    """
+    try:
+        sortie = subprocess.run(
+            ["git", "ls-files", "--others", "--ignored", "--exclude-standard",
+             "--directory", "-z"],
+            cwd=racine, capture_output=True, check=True, timeout=60,
+        ).stdout.decode("utf-8", "replace")
+    except (OSError, subprocess.SubprocessError):
+        return set(), "repli"
+    return {c.rstrip("/") for c in sortie.split("\0") if c}, "git"
+
+
+def hors_perimetre(rel, ignores, mode):
+    """Vrai si `rel` (chemin relatif à la racine) est hors périmètre."""
+    parts = rel.replace(os.sep, "/").split("/")
+    if DOSSIERS_EXCLUS.intersection(parts):
+        return True
+    if mode == "repli":
+        return any(p.startswith(".") for p in parts)
+    chemin = "/".join(parts)
+    return any(chemin == ig or chemin.startswith(ig + "/") for ig in ignores)
+
+
+# --------------------------------------------------------------------------
 # Contrôle C — intégrité et étanchéité des liens
 # --------------------------------------------------------------------------
 
-def collecter_cibles(racine):
-    """Index des cibles résolvables : chemins sans extension + slugs nus."""
+def collecter_cibles(racine, ignores, mode):
+    """Index des cibles résolvables : chemins sans extension + slugs nus.
+
+    Même périmètre que le parcours principal : un fichier hors dépôt ne peut
+    pas servir de cible à un wikilink."""
     par_chemin, par_slug = set(), {}
-    for base, _, fichiers in os.walk(racine):
-        if ".git" in base.split(os.sep):
-            continue
+    for base, dossiers, fichiers in os.walk(racine):
+        dossiers[:] = [
+            d for d in dossiers
+            if not hors_perimetre(
+                os.path.relpath(os.path.join(base, d), racine), ignores, mode)
+        ]
         for nom in fichiers:
             if not nom.endswith(".md"):
                 continue
@@ -460,6 +523,11 @@ def main():
     ap.add_argument("--json", action="store_true", help="sortie JSON")
     ap.add_argument("--strict", action="store_true",
                     help="les avertissements deviennent bloquants")
+    ap.add_argument("--tout", action="store_true",
+                    help="ne pas restreindre au périmètre du dépôt : contrôler "
+                         "aussi ce que .gitignore exclut (venv tiers, sorties "
+                         "régénérables, sas raw/). Rien n'est donc jamais "
+                         "hors de portée du script, c'est un choix d'appel.")
     args = ap.parse_args()
 
     racine = os.path.abspath(args.racine)
@@ -468,15 +536,26 @@ def main():
         return 2
 
     rap = Rapport()
-    par_chemin, par_slug = collecter_cibles(racine)
+    ignores, mode = (set(), "aucun") if args.tout else perimetre_ignore(racine)
+    par_chemin, par_slug = collecter_cibles(racine, ignores, mode)
+    controles = 0
 
     for base, dossiers, fichiers in os.walk(racine):
-        dossiers[:] = [d for d in dossiers if d not in (".git", "node_modules", "_inbox")]
+        dossiers[:] = [
+            d for d in dossiers
+            if (d not in DOSSIERS_EXCLUS
+                and (mode == "aucun"
+                     or not hors_perimetre(
+                         os.path.relpath(os.path.join(base, d), racine),
+                         ignores, mode)))
+        ]
         for nom in sorted(fichiers):
             if not nom.endswith(".md"):
                 continue
             chemin_abs = os.path.join(base, nom)
             chemin_rel = os.path.relpath(chemin_abs, racine)
+            if mode != "aucun" and hors_perimetre(chemin_rel, ignores, mode):
+                continue
             try:
                 texte = lire(chemin_abs)
             except Exception as exc:                       # pragma: no cover
@@ -488,12 +567,24 @@ def main():
             controler_liens(chemin_rel, corps, par_chemin, par_slug, rap)
             if nom in NOMS_ANNALES:
                 controler_annales(chemin_abs, chemin_rel, rap)
+            controles += 1
+
+    # Le périmètre est déclaré, jamais silencieux : un lecteur doit savoir ce
+    # que le script a regardé avant de lire ce qu'il a trouvé.
+    perimetre = {
+        "git": "périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé)",
+        "repli": "repli hors dépôt git : dossiers cachés exclus",
+        "aucun": "--tout : aucune exclusion, y compris ce que `.gitignore` exclut",
+    }[mode]
 
     if args.json:
-        print(json.dumps({"erreurs": rap.erreurs,
+        print(json.dumps({"perimetre": mode,
+                          "fichiers_controles": controles,
+                          "erreurs": rap.erreurs,
                           "avertissements": rap.avertissements},
                          ensure_ascii=False, indent=2))
     else:
+        print(f"{controles} fichier(s) .md contrôlé(s) — {perimetre}.\n")
         rap.imprimer()
 
     if rap.erreurs:
