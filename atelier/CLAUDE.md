@@ -37,6 +37,40 @@
 langue selon le framework. Fichiers en minuscules, ASCII, sans accents, tirets `-`.
 **Une page = un sujet.**
 
+**Dossiers de chantier — règle AJOUTÉE le 2026-09-01** (verdict Sidy, ouverture du
+triptyque `intent`/`spec`/`plan`). Il ne s'agit pas de la clarification d'une règle
+préexistante : la nomenclature ci-dessus est de forme plate et **muette** sur les
+dossiers imbriqués. Le §II bis du protocole racine voulant que ce fichier porte la
+lettre complète des règles propres au circuit, l'ajout est daté et signalé comme tel
+— la version monolithique archivée du 2026-08-12 ne peut pas en rendre compte.
+
+Un chantier d'ingénierie du pôle `rd/` qui passe de *recensé* à *instruit* reçoit un
+dossier dans son domaine, nommé par son identifiant de registre en minuscules :
+
+```
+atelier/rd/<domaine>/<id-en-minuscules>-<slug>/
+├── intent.md   ← pourquoi
+├── spec.md     ← quoi
+└── plan.md     ← comment
+```
+
+Exemple : `atelier/rd/instrument/ins-02-axe-unifie/`. Les trois fichiers portent des
+noms nus, le dossier les désambiguïse. Précédent de sous-dossier dans ce circuit :
+`assets-instrument/`. La lettre complète du triptyque — périmètre, modèles des trois
+fiches, clause de non-emprunt au lexique Sashimono — vit dans
+`atelier/rd/outillage/gabarit-triptyque-chantier.md` ; le pointeur vers chaque dossier
+est porté par la ligne du chantier dans `atelier/rd/registre-chantiers.md`.
+
+**Rapport au Cmd 6** (« pas d'écriture sans plan validé ») : pour un chantier
+d'ingénierie `rd/`, **le `plan.md` visé par Sidy *est* le plan du Cmd 6**. Aucune
+obligation nouvelle n'est créée ; une obligation existante reçoit une forme
+consultable à froid. Tant qu'un `plan.md` n'est pas visé, aucun code n'est écrit pour
+ce chantier.
+
+Les fichiers `spec-<slug>.md` déjà présents en `rd/outillage/` et `rd/instrument/`
+sont **conservés en place** et adoptés par pointeur au fil de l'eau, chantier par
+chantier : aucun renommage de masse (Cmd 10, réversibilité).
+
 ## Le Sceau atelier
 
 ```yaml
@@ -55,6 +89,11 @@ links: []
 - `projets/` et `rd/` PEUVENT pointer vers `doctrinal/` en **sens unique**, tout
   lien signalé. L'inverse est INTERDIT : aucune page doctrinale ne mentionne
   jamais un projet ni une fiche `rd/` (l'Instrument inclus).
+- **`chantier` (champ optionnel, ouvert 2026-09-01)** : identifiant de registre
+  (`chantier: INS-02`) reliant une fiche à sa ligne dans
+  `atelier/rd/registre-chantiers.md`. Obligatoire sur les trois fiches d'un dossier
+  de chantier (voir Nomenclature), facultatif ailleurs. Même précédent d'amendement
+  du Sceau que `statut_experience` et `infra_verif`.
 - **`rd/` (pôle R&D, ouvert 2026-08-08)** : pour les fiches de régime
   expérimental, champ optionnel `statut_experience: exploratoire | reproduit |
   adopte | abandonne` — la discipline de laboratoire complète (bloc 🧪 Expérience,

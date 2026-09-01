@@ -157,3 +157,23 @@ Classées par leur nature : [[atelier/rd/infrastructure/synthese-deploiement-mem
 retouche dans [[atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd]]. L'**état
 vivant des chantiers**, lui, est tenu dans [[atelier/rd/registre-chantiers]] : c'est là
 qu'un agent qui reprend le fil doit regarder en premier.
+
+## Le triptyque de chantier (ouvert 2026-09-01)
+
+Un chantier d'ingénierie du pôle — `INS-`, `INF-`, `OUT-` — qui passe de *recensé* à
+*instruit* reçoit trois fiches dans un dossier de son domaine :
+`intent.md` (pourquoi), `spec.md` (quoi), `plan.md` (comment). Le gabarit et le
+périmètre exact vivent dans [[atelier/rd/outillage/gabarit-triptyque-chantier]] ; la
+règle de nomenclature du dossier `<id>-<slug>/` est portée par `atelier/CLAUDE.md`.
+
+Deux choses à retenir ici. D'abord, **ce n'est pas une obligation nouvelle** : pour un
+chantier `rd/`, le `plan.md` visé par Sidy *est* le plan qu'exige déjà le Cmd 6 — il
+gagne seulement une forme consultable à froid, au lieu de vivre dans une session
+écoulée. Ensuite, **le triptyque ne sort pas du pôle** : les circuits documentaires ont
+leurs propres instruments (Sceau, fiche `discernement`, annales) et y greffer un
+triptyque produirait le doublon que le Cmd 14 interdit.
+
+Convention d'ingénierie, non doctrinale : elle n'emprunte aucun terme au lexique
+Sashimono, clos aux termes nouveaux sans fiche `discernement` (Cmd 3).
+
+Trois chantiers sont instruits à l'ouverture : INS-02, INS-13, INF-13.
