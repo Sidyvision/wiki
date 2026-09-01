@@ -67,7 +67,7 @@ demeure dans la transcription — et qu'il sera révoqué en fin de chantier.
 **Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
 du dépôt. 0 erreur(s), 0 avertissement(s).`
 
-- **Commit** : à compléter ci-dessous
+- **Commit** : e2d63bc
 
 ## [2026-09-01] deploiement | Dépôt de l'Instrument passé public, `main` protégée, INF-14 ouvert
 
