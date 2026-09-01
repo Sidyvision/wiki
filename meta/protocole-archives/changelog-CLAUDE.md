@@ -3,7 +3,7 @@ title: "Changelog du protocole CLAUDE.md (racine)"
 type: meta
 tags: [protocole, historique, changelog]
 created: 2026-08-28
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 # Changelog du protocole `CLAUDE.md` (racine)
@@ -16,6 +16,52 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-01] amendement | Scission du rendu de l'Instrument + triptyque de chantier au pôle rd/
+
+**Verdict Sidy**, session du 2026-09-01, à la lecture du *AI-Native SDLC Playbook*
+(Claude Academy).
+
+**Racine — §VII, Règle commune des MANIFESTES, règle 5 ajoutée.** Le rendu de
+l'Instrument est scindé vers un dépôt frère, `Sidyvision/instrument` (privé). Motif :
+la règle du sens unique `dépôt → manifeste → interface` existait déjà et tenait par la
+seule vigilance tant que la source et l'interface partageaient un arbre git ; elle
+tient désormais par construction. **Ligne de coupe : producteur/consommateur, jamais
+Instrument/reste** — la donnée (`instrument-donnees.yaml`), le producteur
+(`generer-manifeste.py`), les fiches d'architecture, les mises en regard doctrinales,
+`assets-instrument/` et les chantiers `INS-` restent au wiki ; seule l'interface part.
+Le manifeste est poussé depuis le wiki, jamais tiré par l'interface. Rien n'a été
+supprimé : `instrument-prototype.html` subsiste en stub `deprecated` (Cmd 10).
+
+**Racine — §II.** L'arbre annote `rd/` de la ligne de coupe, pour qu'un lecteur du
+seul protocole sache ce qui a quitté le dépôt et à quelles conditions (Cmd 14).
+
+**`atelier/CLAUDE.md`.** Reprise de la ligne de coupe sous *Structure du circuit*.
+Ajout — signalé comme **règle nouvelle**, non comme clarification — de la nomenclature
+des dossiers de chantier `atelier/rd/<domaine>/<id>-<slug>/` portant le triptyque
+`intent.md` / `spec.md` / `plan.md` ; la nomenclature antérieure était de forme plate
+et muette sur les dossiers imbriqués, la version monolithique archivée du 2026-08-12
+ne peut donc pas en rendre compte. Ajout du champ de Sceau optionnel `chantier:`
+(même précédent que `statut_experience` et `infra_verif`).
+
+**Périmètre du triptyque : le pôle `rd/` seul** (`INS-`, `INF-`, `OUT-`). Les circuits
+documentaires conservent leurs instruments propres — Sceau, fiche `discernement`,
+annales : y greffer un triptyque produirait le doublon que le Cmd 14 interdit. Pour un
+chantier `rd/`, le `plan.md` visé par Sidy **est** le plan du Cmd 6 — aucune obligation
+nouvelle, une obligation existante qui reçoit une forme consultable à froid.
+
+**Clause de non-emprunt.** Le triptyque est une convention d'ingénierie et n'emprunte
+aucun terme au lexique Sashimono, clos aux termes nouveaux sans fiche `discernement`
+(Cmd 3). En particulier `intent.md` n'est pas un *sumi-tsuke* — celui-ci désigne la
+fiche `discernement`, instrument doctrinal relevant du Cmd 12.
+
+**Réversibilité (Cmd 10).** L'amendement est démontable sur simple verdict de Sidy :
+supprimer la règle 5 du §VII et l'annotation du §II rend au dépôt son état antérieur ;
+le dépôt frère redevient alors un miroir sans autorité, le wiki n'ayant jamais cessé
+de porter la donnée et le producteur.
+
+**Lettre complète du triptyque** : `atelier/rd/outillage/gabarit-triptyque-chantier.md`.
+**Chantier** : `atelier/rd/infrastructure/inf-13-scission-depot-instrument/`.
 
 ## [2026-08-31] deplacement | Graphe/ → atelier/rd/outillage/graphe/ + usage explicite dans la vérification générale
 

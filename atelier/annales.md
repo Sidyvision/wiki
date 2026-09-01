@@ -10,6 +10,119 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] ouverture | Triptyque de chantier au pôle rd/ + scission du dépôt de l'Instrument
+
+Session demandée par Sidy à la lecture du *AI-Native SDLC Playbook* (Claude Academy),
+avec consigne explicite d'économie de contexte. Deux ouvertures, trois commits.
+
+**(a) Le triptyque `intent` / `spec` / `plan`.** La convention existait déjà à moitié
+sans le savoir : `rd/outillage/` portait cinq fichiers `spec-*.md` et `rd/instrument/`
+trois, écrits spontanément, sans intention consignée en amont ni plan consultable en
+aval. Le triptyque ne fonde donc rien — il complète une pratique par ses deux jambes
+manquantes et la raccorde au registre des chantiers ouvert la veille.
+
+**Périmètre : le pôle `rd/` seul** (`INS-`, `INF-`, `OUT-`), verdict de Sidy après
+question posée. Les circuits documentaires conservent leurs instruments propres — le
+Sceau porte l'intention, la fiche `discernement` instruit la question ouverte, les
+annales tiennent le comment : y greffer un triptyque produirait exactement le doublon
+que le Cmd 14 interdit.
+
+**Deux clauses posées d'emblée**, parce qu'elles auraient dérivé sinon. D'abord le
+rapport au Cmd 6 : pour un chantier `rd/`, le `plan.md` visé par Sidy **est** le plan
+qu'exige déjà « pas d'écriture sans plan validé » — aucune obligation nouvelle, une
+obligation existante qui reçoit une forme lisible à froid. Ensuite la **non-appartenance
+au lexique Sashimono** : le triptyque est une convention d'ingénierie et n'emprunte aucun
+terme au lexique, clos aux termes nouveaux sans fiche `discernement` (Cmd 3). En
+particulier `intent.md` n'est **pas** un *sumi-tsuke* — celui-ci désigne la fiche
+`discernement`, instrument doctrinal relevant du Cmd 12. La tentation de faire la
+correspondance était là ; elle aurait fait passer une convention d'outillage pour une
+affirmation doctrinale.
+
+La règle de nomenclature des dossiers `atelier/rd/<domaine>/<id>-<slug>/` est portée par
+`atelier/CLAUDE.md` et **signalée comme règle AJOUTÉE**, non comme clarification : la
+nomenclature antérieure était de forme plate et muette sur les dossiers imbriqués, la
+version monolithique archivée du 2026-08-12 ne peut donc pas en rendre compte. Champ de
+Sceau optionnel `chantier:` ouvert, même précédent que `statut_experience` et
+`infra_verif`. Trois pilotes instruits : **INS-02** (axe unifié et champ `echelle`),
+**INS-13** (bandeau zodiacal — le chantier le plus proche de l'exécutable, aucun verdict
+doctrinal en amont), **INF-13** (la scission elle-même : le triptyque se prouve en
+portant son propre chantier).
+
+Les `spec-*.md` existants sont **conservés en place**, adoptés par pointeur au fil de
+l'eau. Aucun renommage de masse (Cmd 10).
+
+- **Commit** : 2e34e22
+
+**(b) La scission du dépôt de rendu.** `Sidyvision/instrument`, privé, créé et poussé.
+Le motif n'est pas une préférence d'organisation : le §VII, *Règle commune des
+MANIFESTES*, impose déjà le flux `dépôt → manifeste → interface`, à sens unique, et
+pose que l'interface ne réécrit jamais le dépôt. Tant que la source et l'interface
+partageaient un arbre git, cette règle ne tenait que par la vigilance ; séparées, elle
+tient par construction. La scission n'est donc pas une idée neuve à approuver sur ses
+mérites — c'est une règle déjà écrite, exprimée en infrastructure.
+
+**Ligne de coupe : producteur/consommateur, jamais Instrument/reste.** Restent ici et
+font foi : `instrument-donnees.yaml`, `generer-manifeste.py`, les architectures v0.1 à
+v0.3, les mises en regard doctrinales, `assets-instrument/`, les chantiers `INS-`. Seule
+l'interface part.
+
+**La coupe a été vérifiée avant d'être décidée**, non supposée : le prototype ne porte
+aucun `src=` ni `href=` — zéro référence à `assets-instrument/`. Ses deux seules
+dépendances sont Three.js r128 par CDN et `fetch('wiki-manifest.json')`, **chemin
+relatif frère**. D'où une contrainte dure sur la disposition du dépôt frère :
+`src/index.html` et `src/wiki-manifest.json` sont côte à côte. Un dossier `data/`
+séparé, plus élégant sur le papier, aurait obligé à retoucher le code migré au moment
+même où on le déplaçait.
+
+**Pré-vol avant toute écriture.** Le manifeste a été régénéré vers une sortie temporaire
+et comparé au versionné : divergence limitée aux deux tampons `generated_at` et
+`source_commit`, contenu identique — 46 nœuds, 23 ancrages, 0 avertissement. Le
+manifeste versionné était à jour sur le fond, et le dépôt neuf ne se fonde donc pas sur
+un artefact discordant qu'on n'aurait pas regardé.
+
+**Ordre des commits délibéré** : le wiki dit la scission (commit fbe8ecb) **avant** que le
+dépôt frère existe (commit 32f4a16). Ouvrir un dépôt tourné vers l'extérieur que l'histoire
+du wiki ne référence pas encore aurait laissé un artefact orphelin si la scission avait
+été refusée.
+
+Rien n'a été supprimé : `instrument-prototype.html` subsiste en stub `deprecated` avec
+pointeur, la version complète restant dans l'historique git (Cmd 10). Le script
+`publier-manifeste-instrument.sh` installe l'**étage manuel** du flux — déterministe,
+sans LLM, et comparant **sur le fond** en excluant les deux tampons de provenance : les
+compter comme des changements ferait publier à chaque passe et rendrait l'historique du
+dépôt frère illisible.
+
+**Un critère a dû être amendé à l'exécution, et le fait est consigné plutôt que masqué.**
+Le `spec.md` d'INF-13 exigeait `enforce_admins: true` sur `main` du dépôt frère. GitHub
+réserve la protection de branche **et** les rulesets aux dépôts publics ou aux plans
+payants : `403 — Upgrade to GitHub Pro or make this repository public`, sur les deux
+API. Le critère était donc irréalisable en même temps que le choix « privé d'abord ».
+Il est **remplacé, non abandonné** : un `hooks/pre-commit` versionné dans le dépôt frère
+refuse les caractères invisibles (Cmd 15), une modification non déclarée du manifeste
+reçu, et la séparation du rendu de son manifeste frère. Ce n'est pas un pis-aller
+improvisé — le wiki avait tranché le même cas la veille au chantier PRO-01
+(`enforce_admins` acté à `false`, garde-fou local préféré à un flux par pull request
+imposé à Sidy et aux douze agents). La doctrine du dépôt est appliquée, non contournée.
+La bascule en public rendrait la protection serveur disponible : c'est un argument pour
+cette bascule, ce n'en est pas la décision (Cmd 13).
+
+**Éprouvé, non asserté** : `src/index.html` et `src/wiki-manifest.json` servis en local
+répondent HTTP 200 (99 871 et 44 201 octets, 46 nœuds relus depuis le manifeste servi) ;
+le hook a été mis en défaut volontairement sur une modification du manifeste et a
+refusé le commit. Un bogue du hook a été corrigé au passage : il appelait `file`, absent
+de ce serveur, et ne filtrait donc aucun binaire en silence.
+
+**Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
+du dépôt. 0 erreur(s), 0 avertissement(s).` Graphe non régénéré : aucune fiche
+`doctrinal/` touchée.
+
+**Différé, réservé à Sidy** (Cmd 13) : le jeton PAT et l'automatisation GitHub Actions
+de la publication du manifeste ; la bascule du dépôt frère en public ; le choix
+d'hébergement du rendu — la finalité de souveraineté du pôle `rd/` plaide pour un
+serveur propre plutôt que GitHub Pages, mais c'est un verdict, pas une conclusion.
+
+- **Commit** : 32f4a16
+
 ## [2026-09-01] correction | PRO-01 : la porte de `main` était gardée par un contrôle qui ne regardait rien
 
 Troisième et dernier chantier de la journée, sur verdict de Sidy.

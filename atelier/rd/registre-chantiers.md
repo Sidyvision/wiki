@@ -45,6 +45,14 @@ links:
 - **Discipline** : ce registre est **révisable en place**, à la différence des cahiers
   append-only. Un chantier clos n'est jamais supprimé (Cmd 10) : il garde son ID et
   descend en §9 avec sa date. L'historique, c'est git et les annales.
+- **Instruit ou seulement recensé** (2026-09-01) : un chantier d'ingénierie qui entre
+  en instruction reçoit un **triptyque** `intent.md` / `spec.md` / `plan.md` dans un
+  dossier de son domaine (`atelier/rd/<domaine>/<id>-<slug>/`, voir
+  `atelier/CLAUDE.md` §Nomenclature et le gabarit
+  [[atelier/rd/outillage/gabarit-triptyque-chantier]]). La colonne *Triptyque* porte
+  le pointeur ; vide = chantier recensé, pas encore instruit — ce n'est pas un défaut,
+  c'est un état. Le registre **pointe, il n'absorbe pas** : aucun contenu du triptyque
+  n'est recopié ici.
 - **Vérification avant inscription** : aucune ligne n'est inscrite sans avoir été
   confrontée au disque et à `git log`. Ce qui n'a pas pu l'être va en §8, **jamais
   asserté ouvert**.
@@ -106,42 +114,43 @@ une valeur recopiée est une valeur périmée. Il dit **où regarder**.
 
 ## 1. Instrument (`INS`)
 
-| ID | Chantier | Statut | Prochaine action | Fiche d'origine | Ouvert par |
-|---|---|---|---|---|---|
-| INS-01 | Transcrire le ch. II de Shayegan — pièce manquante en amont de l'unification des axes | `ouvert` | transcription (poste INGEST) | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] §6 | fiche du 2026-08-30 |
-| INS-02 | Mode « axe unifié » + champ `echelle` dans le générateur et le prototype | `ouvert` | spécifier avant de coder | même fiche, §4.2 | 2026-08-30 |
-| INS-03 | Cieux planétaires ↔ *lokas* — comparaison licite jamais tentée | `ouvert` | ouvrir une fiche `discernement` dédiée (Cmd 3) | même fiche, §6 | 2026-08-30 |
-| INS-04 | 22 sentiers séphirothiques comme réseau de canaux rayonnant de Tiferet | `bloque` | l'arrangement des sentiers n'est pas fixé au dépôt — instruire en amont | même fiche §3.3 ; `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet` (`speculatif`) | 2026-08-30 |
-| INS-05 | Bifurcation des centres surnuméraires — trois options posées, aucune implémentée | `attente-verdict` | Sidy tranche l'option | même fiche, §7.3 | 2026-08-30 |
-| INS-06 | Divergences table/planches — deux cellules vides d'*Ājñā* | `attente-verdict` | combler ou laisser : relevé explicitement remis à Sidy | même fiche, §7.5 | 2026-08-30 |
-| INS-07 | Figuration de la discontinuité — la réserve doctrinale la plus lourde que le rendu actuel ne porte pas | `ouvert` | instruire §7 « dans l'ordre, avant d'écrire une ligne de rendu » | [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] §8.6 | 2026-08-30 |
-| INS-08 | Parallèle islamique sur la couronne de la tête (Guénon ch. XX, note 3) — texte non nommé | `ouvert` | localiser la source primaire | fiche du 2026-08-30, §6 | 2026-08-30 |
-| INS-09 | Rendu d'al-Insān al-Kāmil — proposition non validée dans le prototype | `attente-verdict` | Sidy valide ou révise le rendu | [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]] P2.4 | jalon du 2026-08-20 |
-| INS-10 | Détail optique de la lentille barzakh (degrés 19-20) | `ouvert` | spécifier | même jalon, P2.5 | 2026-08-20 |
-| INS-11 | Fondation équivalente aux `hadarat-khams` pour la branche séphirothique (10 Sephiroth, 3 colonnes) — préalable à tout ancrage Kabbale complet | `ouvert` | fiche de fondation, sur source primaire | même jalon, P6.13 ; [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] | 2026-08-20 |
-| INS-12 | Colonne *faṣṣ* (Fuṣūṣ) de la table des 28 degrés — `to-source` (3 marqueurs restants) | `ouvert` | non bloquant : `instrument-donnees.yaml` ne l'utilise pas | `doctrinal/symboles/table-28-degres-nafas-rahman` | 2026-07-01 |
-| INS-13 | Bandeau zodiacal horizontal — données déjà sourcées, **rendu manquant** | `ouvert` | implémenter le rendu | [[atelier/index]] §Instrument ; [[atelier/rd/instrument/spec-anneau-zodiacal]] | 2026-07-27 |
-| INS-14 | Versant Sanātana Dharma — la fondation védantique est disponible (ch. X, XV, XVI de *L'Homme et son devenir*), la structure à 4 états n'est **pas encore ancrée** | `ouvert` | ancrer le registre `vedanta` | [[atelier/index]] §Instrument ; [[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16]] | 2026-07-16 |
+| ID | Chantier | Statut | Prochaine action | Fiche d'origine | Triptyque | Ouvert par |
+|---|---|---|---|---|---|---|
+| INS-01 | Transcrire le ch. II de Shayegan — pièce manquante en amont de l'unification des axes | `ouvert` | transcription (poste INGEST) | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] §6 | — | fiche du 2026-08-30 |
+| INS-02 | Mode « axe unifié » + champ `echelle` dans le générateur et le prototype | `ouvert` | spécifier avant de coder | même fiche, §4.2 | [[atelier/rd/instrument/ins-02-axe-unifie/intent]] | 2026-08-30 |
+| INS-03 | Cieux planétaires ↔ *lokas* — comparaison licite jamais tentée | `ouvert` | ouvrir une fiche `discernement` dédiée (Cmd 3) | même fiche, §6 | — | 2026-08-30 |
+| INS-04 | 22 sentiers séphirothiques comme réseau de canaux rayonnant de Tiferet | `bloque` | l'arrangement des sentiers n'est pas fixé au dépôt — instruire en amont | même fiche §3.3 ; `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet` (`speculatif`) | — | 2026-08-30 |
+| INS-05 | Bifurcation des centres surnuméraires — trois options posées, aucune implémentée | `attente-verdict` | Sidy tranche l'option | même fiche, §7.3 | — | 2026-08-30 |
+| INS-06 | Divergences table/planches — deux cellules vides d'*Ājñā* | `attente-verdict` | combler ou laisser : relevé explicitement remis à Sidy | même fiche, §7.5 | — | 2026-08-30 |
+| INS-07 | Figuration de la discontinuité — la réserve doctrinale la plus lourde que le rendu actuel ne porte pas | `ouvert` | instruire §7 « dans l'ordre, avant d'écrire une ligne de rendu » | [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] §8.6 | — | 2026-08-30 |
+| INS-08 | Parallèle islamique sur la couronne de la tête (Guénon ch. XX, note 3) — texte non nommé | `ouvert` | localiser la source primaire | fiche du 2026-08-30, §6 | — | 2026-08-30 |
+| INS-09 | Rendu d'al-Insān al-Kāmil — proposition non validée dans le prototype | `attente-verdict` | Sidy valide ou révise le rendu | [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]] P2.4 | — | jalon du 2026-08-20 |
+| INS-10 | Détail optique de la lentille barzakh (degrés 19-20) | `ouvert` | spécifier | même jalon, P2.5 | — | 2026-08-20 |
+| INS-11 | Fondation équivalente aux `hadarat-khams` pour la branche séphirothique (10 Sephiroth, 3 colonnes) — préalable à tout ancrage Kabbale complet | `ouvert` | fiche de fondation, sur source primaire | même jalon, P6.13 ; [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] | — | 2026-08-20 |
+| INS-12 | Colonne *faṣṣ* (Fuṣūṣ) de la table des 28 degrés — `to-source` (3 marqueurs restants) | `ouvert` | non bloquant : `instrument-donnees.yaml` ne l'utilise pas | `doctrinal/symboles/table-28-degres-nafas-rahman` | — | 2026-07-01 |
+| INS-13 | Bandeau zodiacal horizontal — données déjà sourcées, **rendu manquant** | `ouvert` | implémenter le rendu | [[atelier/index]] §Instrument ; [[atelier/rd/instrument/spec-anneau-zodiacal]] | [[atelier/rd/instrument/ins-13-bandeau-zodiacal/intent]] | 2026-07-27 |
+| INS-14 | Versant Sanātana Dharma — la fondation védantique est disponible (ch. X, XV, XVI de *L'Homme et son devenir*), la structure à 4 états n'est **pas encore ancrée** | `ouvert` | ancrer le registre `vedanta` | [[atelier/index]] §Instrument ; [[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16]] | — | 2026-07-16 |
 
 *Suites de [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] §7 :
 non dépouillées dans cette passe → §8.*
 
 ## 2. Infrastructure & agents Hermes (`INF`)
 
-| ID | Chantier | Statut | Prochaine action | Fiche d'origine | Ouvert par |
-|---|---|---|---|---|---|
-| INF-01 | Isolation mémoire Hermes par sub-agent (`memory_enabled`) — condition du déploiement du skill Karūbī | `bloque` | dépendance amont : PR #34098 de `hermes-agent` (hors de notre main) | [[atelier/rd/synthese-deploiement-memoire]] §187-189 ; [[atelier/rd/outillage/investigation-isolation-memoire-hermes]] | jalon du 2026-08-20, P3.6 |
-| INF-02 | Sandbox R&D `/root/sandbox-rd/` — ouverte le 2026-08-18, **encore vide** : aucun montage de veille n'y a été éprouvé | `ouvert` | y éprouver un premier montage issu de la veille | [[atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18]] | 2026-08-18 |
-| INF-03 | Phase 3 — automatisation de la veille infrastructure : décisions entièrement tranchées, **aucun automatisme écrit** — confirmé mécaniquement le 2026-09-01 : le script existe et est exécutable, mais **aucun des trois jobs cron qu'une fiche du 2026-08-23 déclarait créés n'est déclaré dans les quatorze profils Hermes** | `attente-verdict` | la proposition de reprise du 2026-08-31 est en `brouillon`, soumise à Sidy | [[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]] ; [[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]] ; [[atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne]] | 2026-08-11, rouvert 2026-08-31 |
-| INF-04 | Bureau TUI — vérification en conditions réelles jamais faite | `ouvert` | éprouver, puis consigner | [[atelier/rd/infrastructure/bureau-tui-architecture]] ; [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] | jalon du 2026-08-15 |
-| INF-05 | Migration des prompts Hermes vers la nomenclature modulaire — **1 rôle aligné sur 12** (`publication`) | `en-cours` | aligner les onze autres | [[atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura]] | 2026-08-31 |
-| INF-06 | Monitoring de charge en série temporelle — seul un instantané quotidien existe | `ouvert` | spécifier la série | jalon du 2026-08-20, P1.2 | 2026-08-20 |
-| INF-07 | Fonction réelle du processus `omniroute` (1040 Mo de RAM) | `en-cours` | partiellement documenté depuis (migration 2026-08-26, incident 2026-08-27) — reste à décrire le rôle nominal | [[atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen]] ; [[atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation]] | jalon du 2026-08-20, P1.1 |
-| INF-08 | Reproduction contrôlée de l'incident de robustesse persona-LLM | `ouvert` | reproduire, ou consigner l'abandon | [[atelier/rd/outillage/robustesse-documents-persona-llm]] | jalon du 2026-08-20, P4.10 |
-| INF-09 | Levier d'action du cycle Choura : le dispositif produit des perspectives, mais sans contribution de Sidy le cycle reste consultatif | `attente-verdict` | Sidy décide du hook de contribution | signalé par le Gardien dans le cycle du 2026-09-01 (cf. Domaine Réservé, dossier `choura/`) | 2026-09-01 |
-| INF-10 | Contrôle anti-fabulation `coherence-infrastructure-brute` — second job cron en échec, non documenté | `ouvert` | diagnostiquer | [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-08-18]` | 2026-08-18 |
-| INF-11 | Continuité des tâches et de l'information entre Claude Code, Hermes Terminal et Discord — angle mort structurel (un cron « créé » le 2026-08-17 n'existait pas) | `ouvert` | c'est le motif d'existence du champ `infra_verif` ; reste à couvrir le passage d'information | registre des problèmes, entrée `[2026-08-17]` | 2026-08-17 |
-| INF-12 | Positions zodiacales 5, 8 et 12 des agents : les douze brouillons existent sur disque (2026-08-15), mais le compte-rendu de chantier les donne « non traitées, en attente de verdict » — contradiction non levée | `attente-verdict` | confronter brouillons et verdict | `atelier/rd/cahiers/brouillons-extension-zodiacale/` ; jalon du 2026-08-20, P4.9 | 2026-08-11 |
+| ID | Chantier | Statut | Prochaine action | Fiche d'origine | Triptyque | Ouvert par |
+|---|---|---|---|---|---|---|
+| INF-01 | Isolation mémoire Hermes par sub-agent (`memory_enabled`) — condition du déploiement du skill Karūbī | `bloque` | dépendance amont : PR #34098 de `hermes-agent` (hors de notre main) | [[atelier/rd/synthese-deploiement-memoire]] §187-189 ; [[atelier/rd/outillage/investigation-isolation-memoire-hermes]] | — | jalon du 2026-08-20, P3.6 |
+| INF-02 | Sandbox R&D `/root/sandbox-rd/` — ouverte le 2026-08-18, **encore vide** : aucun montage de veille n'y a été éprouvé | `ouvert` | y éprouver un premier montage issu de la veille | [[atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18]] | — | 2026-08-18 |
+| INF-03 | Phase 3 — automatisation de la veille infrastructure : décisions entièrement tranchées, **aucun automatisme écrit** — confirmé mécaniquement le 2026-09-01 : le script existe et est exécutable, mais **aucun des trois jobs cron qu'une fiche du 2026-08-23 déclarait créés n'est déclaré dans les quatorze profils Hermes** | `attente-verdict` | la proposition de reprise du 2026-08-31 est en `brouillon`, soumise à Sidy | [[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]] ; [[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]] ; [[atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne]] | — | 2026-08-11, rouvert 2026-08-31 |
+| INF-04 | Bureau TUI — vérification en conditions réelles jamais faite | `ouvert` | éprouver, puis consigner | [[atelier/rd/infrastructure/bureau-tui-architecture]] ; [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] | — | jalon du 2026-08-15 |
+| INF-05 | Migration des prompts Hermes vers la nomenclature modulaire — **1 rôle aligné sur 12** (`publication`) | `en-cours` | aligner les onze autres | [[atelier/rd/cahiers/2026-08-31_rapport-migration-11-agents-et-contribution-choura]] | — | 2026-08-31 |
+| INF-06 | Monitoring de charge en série temporelle — seul un instantané quotidien existe | `ouvert` | spécifier la série | jalon du 2026-08-20, P1.2 | — | 2026-08-20 |
+| INF-07 | Fonction réelle du processus `omniroute` (1040 Mo de RAM) | `en-cours` | partiellement documenté depuis (migration 2026-08-26, incident 2026-08-27) — reste à décrire le rôle nominal | [[atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen]] ; [[atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation]] | — | jalon du 2026-08-20, P1.1 |
+| INF-08 | Reproduction contrôlée de l'incident de robustesse persona-LLM | `ouvert` | reproduire, ou consigner l'abandon | [[atelier/rd/outillage/robustesse-documents-persona-llm]] | — | jalon du 2026-08-20, P4.10 |
+| INF-09 | Levier d'action du cycle Choura : le dispositif produit des perspectives, mais sans contribution de Sidy le cycle reste consultatif | `attente-verdict` | Sidy décide du hook de contribution | signalé par le Gardien dans le cycle du 2026-09-01 (cf. Domaine Réservé, dossier `choura/`) | — | 2026-09-01 |
+| INF-10 | Contrôle anti-fabulation `coherence-infrastructure-brute` — second job cron en échec, non documenté | `ouvert` | diagnostiquer | [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-08-18]` | — | 2026-08-18 |
+| INF-11 | Continuité des tâches et de l'information entre Claude Code, Hermes Terminal et Discord — angle mort structurel (un cron « créé » le 2026-08-17 n'existait pas) | `ouvert` | c'est le motif d'existence du champ `infra_verif` ; reste à couvrir le passage d'information | registre des problèmes, entrée `[2026-08-17]` | — | 2026-08-17 |
+| INF-12 | Positions zodiacales 5, 8 et 12 des agents : les douze brouillons existent sur disque (2026-08-15), mais le compte-rendu de chantier les donne « non traitées, en attente de verdict » — contradiction non levée | `attente-verdict` | confronter brouillons et verdict | `atelier/rd/cahiers/brouillons-extension-zodiacale/` ; jalon du 2026-08-20, P4.9 | — | 2026-08-11 |
+| INF-13 | Scission du dépôt : le rendu de l'Instrument passe au dépôt frère `Sidyvision/instrument` (privé) — le §VII, *Règle commune des MANIFESTES*, exprimé en infrastructure plutôt qu'en discipline | `en-cours` | dépôt frère créé, garde-fou local posé ; restent **différés** (Cmd 13) : automatisation du manifeste (PAT + workflow), et bascule en public — qui seule rendrait la protection serveur de `main` disponible (403 sur privé en plan gratuit) | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | 2026-09-01 |
 
 ## 3. Outillage & scripts (`OUT`)
 
