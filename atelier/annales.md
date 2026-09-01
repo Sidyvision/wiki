@@ -10,6 +10,49 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] alignement | `enforce_admins` aligné sur PRO-01 — et un contrôle qui ne regardait rien, dans du code neuf
+
+Huitième passe. Sidy demande d'aligner le dépôt frère sur la doctrine du wiki.
+
+**L'alignement.** `enforce_admins` passe à `false` sur `main` du dépôt frère : le flux
+par pull request n'est pas imposé, un garde-fou local prend le relais avant que la faute
+quitte la machine — c'est le verdict de PRO-01, rendu la veille pour ne pas imposer ce
+flux à Sidy et aux douze agents. Force-push et suppression de branche restent interdits :
+la forme exacte du wiki. Contrôlé par appel d'API, non supposé, et éprouvé par une
+poussée directe qui passe désormais.
+
+**Ce que l'alignement retirait, et qu'il a fallu remettre ailleurs.** Depuis
+`publier.yml`, une poussée sur `main` touchant `src/**` **publie en production**. Tant
+que `main` exigeait une pull request, celle-ci tenait lieu de porte humaine. En la
+retirant, on retirait la garde — pas la protection formelle, la garde réelle. La porte
+**se déplace donc dans le hook `pre-push`** : une poussée de `src/` sur `main` est
+refusée sans `PUBLIER=1`, avec le motif écrit en toutes lettres (Cmd 13 ; Action
+PUBLICATION, point 4). Éprouvée dans un clone jetable, sans rien publier ni pousser :
+refus sans la variable, passage avec.
+
+**Le défaut trouvé en chemin — et il est du genre exact que PRO-01 a caractérisé.** En
+instrumentant les hooks pour une tout autre raison (leur sortie semblait manquer ; c'était
+en réalité un `tail` de ma commande qui la coupait), un contrôle s'est révélé muet. Les
+deux hooks cherchaient le motif `fetch('wiki-manifest.json')`, parenthèse fermante
+comprise ; l'appel réel du rendu est `fetch('wiki-manifest.json', {cache: 'no-cache'})`.
+**Zéro correspondance.** Le contrôle de fraternité de dossier — celui-là même qui garde
+la contrainte dure d'INF-13 — n'avait jamais rien inspecté depuis son écriture, quelques
+heures plus tôt.
+
+C'est la faute que ce dépôt a caractérisée le 2026-08-31 : une porte gardée par un
+contrôle qui ne regarde rien. Elle vient d'être reproduite dans du code neuf, le jour
+même, par la machine qui l'avait consignée. Corrigée, puis **éprouvée dans les deux
+sens** : verte sur le dépôt sain, refusant en bac à sable quand le manifeste est retiré.
+La leçon tient en une phrase, et elle s'est payée deux fois : **un contrôle dont on n'a
+pas vu l'échec n'est pas un contrôle vérifié.**
+
+Rien n'a été publié pendant cette passe : les poussées ne touchaient que `hooks/`.
+
+**Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
+du dépôt. 0 erreur(s), 0 avertissement(s).`
+
+- **Commit** : à compléter ci-dessous
+
 ## [2026-09-01] automatisation | Publication automatique du rendu — et le réflexe qu'il fallait écarter
 
 Septième passe. Sidy demande la mise à jour automatique du rendu à la poussée.

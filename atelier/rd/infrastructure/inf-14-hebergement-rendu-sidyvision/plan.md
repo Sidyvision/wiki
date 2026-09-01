@@ -63,9 +63,28 @@ intacte* → *rendu en ligne identique au dépôt* → *manifeste servi : 46 nœ
 fabriquer une modification artificielle pour le prouver n'aurait rien prouvé de bon. Il
 fera ses preuves à la première modification réelle du rendu.
 
-**Friction connue** : `main` du dépôt frère étant protégée avec `enforce_admins`, toute
-modification de `src/` passe par une pull request. C'est plus strict que la doctrine du
-wiki, où PRO-01 a délibérément écarté ce flux. Réversible sur verdict de Sidy.
+**Friction levée le jour même, sur verdict de Sidy** : `enforce_admins` est aligné sur la
+doctrine du wiki — `false`, flux par pull request non imposé, garde-fou local en relais
+(PRO-01). Force-push et suppression de branche restent interdits : la forme exacte du
+wiki.
+
+**Mais l'alignement retirait une garde qui servait.** Depuis `publier.yml`, une poussée
+sur `main` touchant `src/**` **publie en production** ; la pull request tenait lieu de
+porte humaine. Elle n'est plus exigée, donc **la porte se déplace dans le hook
+`pre-push`** — elle ne disparaît pas (Cmd 13 ; Action PUBLICATION, point 4). Le hook
+refuse une poussée de `src/` sur `main` sans `PUBLIER=1`, et le dit en toutes lettres.
+Éprouvé dans un clone jetable, sans rien publier : refus sans la variable, passage avec.
+
+**Un défaut trouvé en chemin, et il est du même genre que celui de PRO-01.** Les deux
+hooks cherchaient le motif `fetch('wiki-manifest.json')`, parenthèse fermante comprise ;
+l'appel réel est `fetch('wiki-manifest.json', {cache: 'no-cache'})`. **Zéro
+correspondance** : le contrôle de fraternité de dossier n'avait jamais rien inspecté
+depuis son écriture. C'est exactement la faute caractérisée au wiki le 2026-08-31 — une
+porte gardée par un contrôle qui ne regarde rien — reproduite le jour même dans du code
+neuf, et découverte par hasard en instrumentant les hooks pour un tout autre motif.
+Corrigé, puis **éprouvé dans les deux sens** : vert sur le dépôt sain, refus en bac à
+sable quand le manifeste manque. Un contrôle dont on n'a pas vu l'échec n'est pas
+vérifié — c'est la leçon, et elle vient de se payer deux fois.
 
 ## Étape 0 — la sauvegarde d'abord, avant tout accès
 
