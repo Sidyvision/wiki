@@ -12,9 +12,12 @@ links:
 
 # INF-14 — plan
 
-> **Statut : `vise`** — plan approuvé et exécuté jusqu'à la préversion le 2026-09-01.
-> **La mise en production reste en attente de la validation explicite de Sidy**
-> (Action PUBLICATION du label, point 4 — non négociable).
+> **Statut : `execute`** — plan approuvé, exécuté, et **mis en production le
+> 2026-09-01** après validation explicite de Sidy dans la session courante (Action
+> PUBLICATION du label, point 4). Le rendu est servi sur
+> **`https://sidyvision.com/instrument/`**. Les six critères du `spec.md` ont été
+> contrôlés en ligne, le critère 1 en premier : page d'accueil **octet pour octet
+> identique** à la capture de référence.
 
 ## Le blocage du compte, levé le 2026-09-01
 

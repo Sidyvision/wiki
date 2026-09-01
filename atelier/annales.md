@@ -10,6 +10,63 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] mise-en-production | L'Instrument est en ligne : `sidyvision.com/instrument`
+
+Sixième et dernière passe du jour. **Validation explicite de Sidy dans la session
+courante** — la condition du point 4 de l'Action PUBLICATION, non négociable — puis
+publication.
+
+**Les six critères, contrôlés en ligne et dans l'ordre, le premier d'abord :**
+
+1. Page d'accueil **octet pour octet identique** — SHA-1 `6814d7f4…3334` en ligne,
+   `6814d7f4…3334` en référence. C'est le critère qui pouvait tout arrêter ; il passe.
+2. `/instrument/` répond **200** (99 871 octets).
+3. `/instrument/wiki-manifest.json` répond **200** et parse : 46 nœuds, schéma 0.2.5.
+4. Le rendu en production est **octet pour octet** celui du dépôt frère — SHA-1
+   `1a6424cf…d0f2` des deux côtés. Rien ne s'est altéré en chemin.
+5. Le déploiement est **reproductible depuis le serveur** :
+   `publier-instrument-netlify.sh`, versionné, sans clic.
+6. Inventaire des fichiers réellement en production : exactement les trois attendus.
+   `/instrument` sans barre oblique redirige en 301 vers `/instrument/`.
+
+**Ce que ce chantier aura appris, et qui vaut d'être retenu.** Trois obstacles se sont
+présentés, et **aucun des trois n'était devinable** — chacun a été établi par une mesure :
+
+- le site n'avait **aucune source versionnée** : un déploiement manuel dont personne
+  n'aurait su refaire la page. D'où la capture de sauvegarde, prise avant tout accès ;
+- le premier jeton ouvrait un compte **créé le jour même et vide** ; le site était
+  détenu par un autre compte. L'API l'a dit, la déduction ne l'aurait pas trouvé ;
+- le montage par proxy est tombé sur le **401 *edge-access*** dont Netlify frappe
+  désormais les `*.netlify.app` des comptes gratuits récents.
+
+Le montage final est plus simple que tout ce qui avait été planifié : un déploiement
+direct par l'API — ni proxy, ni construction, ni liaison GitHub, ni secret déposé chez
+un tiers. La ligne de conduite qui a tenu tout du long est celle du §VII : **regarder
+avant d'écrire**. L'inventaire des fichiers du site avant tout envoi est ce qui a rendu
+l'opération sûre — un déploiement par empreintes remplace l'intégralité d'un site, et une
+favicon oubliée aurait disparu sans bruit.
+
+**Le flux est désormais complet, sur trois étages, et à sens unique de bout en bout :**
+
+```
+instrument-donnees.yaml → generer-manifeste.py → wiki-manifest.json
+   → dépôt Sidyvision/instrument → sidyvision.com/instrument/
+```
+
+Rien ne remonte à aucun étage. Le wiki reste seul à faire foi.
+
+**Reste, hors chantier** : la mise à jour automatique à la poussée sur `main` du dépôt
+frère exige une liaison GitHub → Netlify par navigateur, impossible depuis le serveur.
+Le script tient lieu d'automatisme — versionné et lisible, ce que la liaison ne serait
+pas. Et **le jeton Netlify est à révoquer** par Sidy : il a rempli son office.
+
+INF-14 est **clos** et descend en §9 du registre avec sa date, son ID conservé (Cmd 10).
+
+**Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
+du dépôt. 0 erreur(s), 0 avertissement(s).`
+
+- **Commit** : à compléter ci-dessous
+
 ## [2026-09-01] preversion | INF-14 : blocage levé, rendu servi en préversion sous `/instrument`
 
 Cinquième passe. Sidy rectifie le jeton — le premier ouvrait un compte créé le jour même
