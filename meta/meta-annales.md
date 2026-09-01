@@ -14,6 +14,47 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] amendement | Protocole racine §VII : le rendu de l'Instrument passe à un dépôt frère
+
+Consigné ici parce que deux choses relèvent du Domaine Réservé : l'amendement du
+protocole racine, et l'ouverture d'un **dépôt frère** — c'est-à-dire une modification
+du périmètre même de ce qu'est « le dépôt ». Le récit complet du chantier vit dans
+`atelier/annales.md`, entrée du même jour ; on ne le recopie pas.
+
+**§VII, *Règle commune des MANIFESTES*, règle 5 ajoutée.** Le rendu de l'Instrument vit
+désormais dans `Sidyvision/instrument` (privé). Le motif est intégralement contenu dans
+la règle qui précède : le flux `dépôt → manifeste → interface` est à sens unique, et
+l'interface ne réécrit jamais le dépôt. Tant que source et interface partageaient un
+arbre git, cela ne tenait que par la vigilance. La scission n'ajoute pas une règle, elle
+donne un corps à une règle existante.
+
+**Ligne de coupe : producteur/consommateur, jamais Instrument/reste.** La distinction
+n'est pas rhétorique — elle décide de ce qui bouge. La donnée, le producteur du
+manifeste, les architectures, les mises en regard doctrinales et les chantiers `INS-`
+restent au wiki et y font foi ; seule l'interface part. Déplacer les fiches doctrinales
+avec le code aurait été une infraction au Cmd 7, et c'est l'erreur que la formule
+« nouveau dépôt pour l'Instrument » invitait à commettre.
+
+**§II, arbre annoté** (Cmd 14) : un lecteur du seul protocole doit savoir ce qui a
+quitté le dépôt et à quelles conditions. `atelier/CLAUDE.md` reprend la même ligne de
+coupe sous *Structure du circuit*, et le `CLAUDE.md` du dépôt frère énonce sa
+subordination — le wiki fait foi, le dépôt frère affiche et n'établit rien (Cmd 3,
+Cmd 12).
+
+**Réversibilité (Cmd 10)**, consignée au changelog : supprimer la règle 5 et
+l'annotation du §II rend au dépôt son état antérieur. Le dépôt frère redevient alors un
+miroir sans autorité — le wiki n'ayant jamais cessé de porter la donnée et le
+producteur, rien d'irréversible n'a été engagé.
+
+**Triptyque de chantier** : périmètre `rd/` seul, pour la raison qui est du ressort de
+ce journal — le Cmd 14 interdit qu'une même règle vive à deux endroits, et les circuits
+documentaires ont déjà leurs instruments. La lettre complète est dans
+`atelier/CLAUDE.md` et le gabarit ; rien n'en est dupliqué au protocole racine.
+
+Changelog du protocole tenu à jour : `meta/protocole-archives/changelog-CLAUDE.md`.
+
+- **Commit** : fbe8ecb
+
 ## [2026-09-01] restauration | `projet-unifie/` réorganisé par régime ; l'état des travaux enfin actualisé
 
 Dernière passe de la journée, sur demande de Sidy : rafraîchir les fiches du dossier, ou
