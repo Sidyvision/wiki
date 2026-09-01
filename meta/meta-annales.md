@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-08-31
+updated: 2026-09-01
 
 ---
 
@@ -13,6 +13,57 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-01] organisation | Dossier projet-unifié remis en ordre ; le suivi des chantiers passe au R&D
+
+Passe conjointe avec le circuit `atelier/` (voir son entrée du même jour). Ce qui touche
+le Domaine Réservé :
+
+- **`meta-index.md`** : 30 fichiers de `projet-unifie/` n'avaient aucun lien entrant, en
+  violation de la règle du hub (« chacune reçoit un lien entrant légitime, intra-`meta/`
+  exclusivement ») — `queue-idees.md`, les quatre propositions du 2026-08-27, les quatre
+  cycles de `choura/` et ses deux README, les mandats des douze rôles Hermes, les pièces
+  annexes du rôle 08, la spec du skill Karūbī G0. Tous indexés, avec l'état réel de chaque
+  proposition en regard.
+- **`README.md` du dossier** : la porte ne décrivait plus la pièce. L'architecture de
+  l'Instrument y était donnée en v0.2 alors que la v0.3 est courante depuis le 2026-08-25.
+  Ajout d'une **carte du dossier par régime** — vivant / stable / jalon daté / proposition /
+  configuration d'agents : confondre ces régimes, c'est-à-dire lire un jalon daté comme un
+  état courant, est la source de confusion la plus fréquente du dossier.
+- **`01-contexte` et `04-backlogs`**, les deux pièces que le README déclare « vivantes »,
+  étaient figées au 2026-08-07 et affirmaient toutes deux que « tous les agents restent
+  inactifs jusqu'à résolution » de la crise de crédit API. Démenti par le dépôt lui-même
+  (les agents tournent en continu, cycles quotidiens et crons actifs) : la sortie de crise
+  est passée par un **changement de fournisseur d'inférence** — bascule OmniRoute du
+  2026-08-26 — et non par une nouvelle clé. Encarts de régime de lecture ajoutés, constats
+  périmés datés et démentis sur place, corps conservés (Cmd 10).
+- **§D de `04-`** recompté mécaniquement : le dépôt porte 56 fiches de discernement dont
+  **37 encore `speculatif`**. Le titre « 15 fiches » était doublement faux — la section
+  n'en énumère que 14, et trois d'entre elles ont reçu leur verdict depuis. Marquées ✅,
+  aucune retirée.
+- **Deux propositions portaient un statut faux** : celle qui a fondé le pôle R&D affichait
+  encore « rien de ce qui suit n'est exécuté » alors qu'elle l'a fondé le 2026-08-08 ;
+  celle sur l'articulation Karūbī / Agent 10 affichait « en attente du verdict de Sidy »
+  alors que le verdict est acté ici même au 2026-08-15. Encarts d'état datés, paragraphes
+  d'origine conservés. Le champ frontmatter `statut:` reste en l'état : **aucun vocabulaire
+  n'est établi au dépôt pour ce champ**, et la seule occurrence existante est précisément
+  celle qui était fausse — arrêter ce vocabulaire revient à Sidy.
+
+**Ce qui change dans la répartition des sources.** Le suivi vivant des chantiers
+d'ingénierie quitte les backlogs de `04-` pour le registre du pôle R&D
+(`atelier/rd/registre-chantiers.md`, ouvert le même jour). Le renvoi va de `meta/` vers
+`rd/`, jamais l'inverse — c'est le sens autorisé par §VI, et le registre ne pointe jamais
+en retour. Restent propres à ce domaine, et n'en bougent pas : les questions de décision
+(§B), les points de vigilance permanents (§C), les motifs sensibles, les prompts d'agents.
+
+**Points remis à Sidy** (aucun tranché) : vocabulaire du champ `statut:` ; sort des trois
+fiches à fait personnel logées en page neutre dans `rd/` ; désignation de l'agent qui tient
+le registre à jour hors passes d'intégration ; périmètre du vérificateur d'invariants
+(priorité haute) ; refonte de la nature de `04-` en mode de travail et aiguillage. Les six
+figurent au §Points ouverts du registre.
+
+- **Commit** : 13eee60 (restauration des états) · 1687350 (ouverture du registre)
+
 
 ## [2026-08-31] déploiement | Les 11 principes portés au moteur — 12/12 synchronisés
 

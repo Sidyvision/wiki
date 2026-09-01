@@ -11,6 +11,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 entrées insérées **après ce header**.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] correction | `updated` du présent fichier remonté (Cmd 8)
+
+Le frontmatter de ces annales portait `updated: 2026-08-30` alors que leur entrée la plus
+récente était datée du 2026-09-01 — écriture incomplète au sens du Cmd 8, signalée par le
+contrôle A3 du vérificateur d'invariants. Champ corrigé au 2026-09-01. Aucune entrée du
+journal n'a été touchée.
+
+Relevé au cours de la passe d'organisation des pôles `atelier/` et `meta/projet-unifie/`
+du même jour (voir `atelier/annales.md`). C'était la **seule erreur réelle** que le
+vérificateur signalait ce jour-là, noyée dans 209 lignes de bruit provenant de
+dépendances tierces — motif du chantier `OUT-01` au registre des chantiers.
+
+- **Commit** : 13eee60
+
+
 ## [2026-09-01] création | Expression : athanor-matrices-artificielles (phase 2, mise en regard)
 
 - **Fiche créée** : `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles.md` (type: concept, registre: expression, statut: brouillon)

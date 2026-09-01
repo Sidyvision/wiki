@@ -10,6 +10,76 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] organisation | Registre des chantiers ouvert ; états périmés redressés aux deux pôles
+
+**Demande de Sidy** : organiser les deux pôles `meta/projet-unifie/` et `atelier/` pour que
+l'avancement se poursuive sans confusion sur les objectifs ; puis, en cours de session,
+« répertorier les pistes et perspectives de développement et tout reporter au R&D »,
+périmètre tranché **tous les chantiers, doctrine incluse**.
+
+**Le constat qui a fondé la passe.** Les pistes de développement vivaient éclatées entre
+six registres locaux tenus à jour de façon inégale, et aucun n'avait de vue d'ensemble :
+les deux fiches de pistes du 2026-08-20 ignorent les chantiers Instrument ouverts depuis le
+2026-08-29 et affichaient encore comme ouverts des points résolus depuis. Un agent
+reprenant le fil à froid ne pouvait pas savoir où en étaient les choses — c'est exactement
+l'enlisement du 2026-08-20.
+
+**Ouvert** : [[atelier/rd/registre-chantiers]] — carte vivante de tous les chantiers du
+dépôt, `type: registre`, frère de la charte, **révisable en place** (un chantier est un
+état, pas un événement ; les cahiers append-only gardent leur discipline propre).
+36 chantiers sous identifiants stables et greppables : `INS` Instrument (14) · `INF`
+infrastructure et agents (12) · `OUT` outillage (7) · `BIB` (2) · `CAS` (2) · `PRO`
+process (7) · `DOC` doctrinal (5). Chaque ligne porte statut, prochaine action, fiche
+d'origine et l'acte qui a ouvert le chantier.
+
+**Ce que le registre ne fait pas** : il recense, il n'absorbe pas. Aucun contenu ne migre ;
+il ne recopie ni une entrée du registre des problèmes, ni une scrutation de veille, ni un
+discernement, ni une valeur qu'un script calcule — il pointe. Le §0 bis dit **où** lire
+l'état réel de l'infrastructure plutôt que de le recopier périmé. §7 (doctrinal) porte
+titre et statut seulement et **aucune priorité** : hiérarchiser des discernements serait
+déjà un jugement quasi-doctrinal (Cmd 12) ; source vivante = `doctrinal/index.md` §VII.
+Renvoi `rd/` → `doctrinal/` en sens unique, signalé (§VI). Zéro wikilink vers le Domaine
+Réservé, prouvé mécaniquement par les 0 avertissement C4.
+
+**Discipline de vérification** : aucune ligne inscrite sans confrontation au disque et à
+`git log` ; ce qui n'a pas pu l'être va en §8, jamais asserté ouvert. Trois chantiers
+réputés ouverts sont établis **caducs** et versés en §9 sans suppression (Cmd 10) — dont
+le graphe de cartographie, régénéré le 2026-08-31.
+
+**Charte allégée** : la section « État de la phase 1 partielle » de [[atelier/rd/index]],
+devenue un journal chronologique de ~95 lignes, est déplacée **sans retouche** vers
+[[atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd]] et remplacée par un résumé et
+deux pointeurs (Cmd 10 : déplacement et pointeur, jamais suppression).
+
+**Structure déclarée corrigée** : `atelier/CLAUDE.md` omettait quatre sous-dossiers actifs
+de `rd/` (`bibliotheque/`, `veille/`, `incidents/`, `citadelle-du-sham/`) ;
+[[atelier/rd/index]] omettait `incidents/`. [[atelier/index]] reçoit un encart d'entrée vers
+le registre, et sa liste « chantiers ouverts » cède la place à `INS-13`, `INS-14`, `DOC-05` —
+c'est la double tenue qui périmait les deux.
+
+**Jalons datés** : le bilan-pont du 2026-08-15 et les deux fiches de pistes du 2026-08-20
+reçoivent un encart « jalon daté — ne décrit pas l'état courant », corps non retouchés.
+Non `deprecated` : un bilan daté n'a pas été remplacé par une meilleure version de
+lui-même, sa valeur est précisément d'être daté.
+
+**Signalé sans être corrigé (VIGILANCE)** — inscrit au registre : le périmètre de
+`verifier-invariants.py`, qui parcourt le disque sans consulter `.gitignore` — 209 des 210
+erreurs de la baseline sont du bruit de venv tiers, et ce bruit a réellement masqué la
+seule erreur vraie de la journée (`OUT-01`, priorité haute) ; l'angle mort C3, où
+`ETANCHEITE_INTERDITE` ne porte que la clé `doctrinal`, de sorte qu'un lien
+`atelier/rd/` → `meta/` n'est jamais bloquant (`OUT-02`) ; cinq fiches à la racine de
+`rd/`, hors sous-dossier et hors Sceau, dont **trois portent du fait personnel en page
+neutre** — ni indexées ni déplacées, les indexer les légitimerait (`PRO-02`) ; les types
+`registre`, `fiche-rd`, `session` en usage mais absents du Sceau (`PRO-03`) ; quatre
+fichiers `.bak-2026-08-18-pre-C4` suivis par git et référencés nulle part (`PRO-04`).
+
+**Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+`209 erreur(s), 0 avertissement(s)` (210 avant la passe). Cmd 15 : aucun caractère
+invisible sur les 15 fichiers touchés.
+
+- **Commit** : 13eee60 (restauration des états) · 1687350 (ouverture du registre)
+
+
 ## [2026-09-01] correction | Entrée de catalogue contaminée + juge de paix renforcé
 
 **1. Entrée de catalogue contaminée par une collision de chaîne.** Le bloc « 2026-09-01 —
