@@ -60,7 +60,7 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**47 chantiers ouverts** au 2026-09-01, plus 5 versés en §9 (clos ou caducs) et
+**46 chantiers ouverts** au 2026-09-01, plus 6 versés en §9 (clos ou caducs) et
 6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous
 modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
 
@@ -71,11 +71,11 @@ modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
 | `OUT` Outillage & scripts | 5 | — | 1 | — | **6** |
 | `BIB` Bibliothèque | 1 | — | 1 | — | **2** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
-| `PRO` Process & protocole | 3 | — | — | 3 | **6** |
+| `PRO` Process & protocole | 3 | — | — | 2 | **5** |
 | `DOC` Doctrinal | 4 | — | — | 1 | **5** |
-| **Total** | **30** | **2** | **5** | **10** | **47** |
+| **Total** | **30** | **2** | **5** | **9** | **46** |
 
-**Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
+**Ce que ce tableau dit d'abord** : 9 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
 entre nos mains (une PR amont, une prise de vue, un texte à localiser). C'est là, et non
 dans le nombre total, que se lit ce qui peut avancer aujourd'hui.
@@ -172,7 +172,6 @@ non dépouillées dans cette passe → §8.*
 
 | ID | Chantier | Statut | Prochaine action | Fiche d'origine | Ouvert par |
 |---|---|---|---|---|---|
-| PRO-01 | Protection de la branche `main` contournable sans review requise. **Constaté en acte le 2026-09-01** : le push de la présente passe a été accepté avec la mention serveur `Bypassed rule violations for refs/heads/main — Changes must be made through a pull request` ; le contrôle `lint` est par ailleurs annoncé attendu et n'a bloqué aucun des cinq commits. Le point n'est donc plus théorique | `attente-verdict` | durcir la règle, ou l'acter comme voulue — décision explicitement laissée à Sidy depuis le 2026-08-29 | registre des problèmes, entrée `[2026-08-29]` ; sortie de `git push` du 2026-09-01 | 2026-08-29, démontré 2026-09-01 |
 | PRO-03 | Types de fiche en usage mais absents du Sceau de `atelier/CLAUDE.md` : `registre` (`rd/veille/registre.md`, le présent fichier), `fiche-rd`, `session` | `ouvert` | régulariser le Sceau, ou aligner les fiches | relevé de la passe du 2026-09-01 | 2026-09-01 |
 | PRO-04 | Quatre fichiers `.bak-2026-08-18-pre-C4` suivis par git, référencés nulle part (`atelier/`, `atelier/rd/`, `doctrinal/` ×2) | `attente-verdict` | `deprecated` avec pointeur, ou retrait assumé (Cmd 10) | relevé de la passe du 2026-09-01 | 2026-09-01 |
 | PRO-05 | Rétroportage du champ `maturite` sur les fiches `discernement/` — **9 sur 56** le portent ; différé assumé, non borné | `ouvert` | les agents le renseignent au fil de leurs éditions de fond ; le différé n'a pas d'échéance | proposition du 2026-08-27 (cf. Domaine Réservé) | 2026-08-27 |
@@ -223,6 +222,7 @@ présenté comme un chantier ouvert** ; l'inscription au registre attend la vér
 | PRO-C1 | `hermeneutique/annales.md` — `updated:` antérieur à sa dernière entrée | **clos le 2026-09-01** : corrigé dans la passe d'organisation. Seule erreur réelle que le vérificateur signalait, noyée dans 209 lignes de bruit (motif de OUT-01) | passe du 2026-09-01 |
 | OUT-C2 | Périmètre de `verifier-invariants.py` : le script parcourait le disque sans consulter `.gitignore` — 209 des 210 erreurs étaient du bruit de venv tiers, de sorties régénérables et du sas `raw/`, et ce bruit avait masqué la seule erreur vraie du jour | **clos le 2026-09-01** sur verdict de Sidy. Le script interroge désormais git (`ls-files --others --ignored --exclude-standard`) et ne contrôle que ce qui appartient au dépôt ; le périmètre appliqué est annoncé en tête de sortie, jamais silencieux ; `--tout` restitue le comportement antérieur, donc rien n'est hors de portée. Repli sur l'exclusion des dossiers cachés hors dépôt git (bacs à sable). Le dépôt passe de 210 erreurs à **0 erreur, 0 avertissement** sur 709 fiches. `generer-cartographie.py` portait le même défaut (112 anomalies venues du même venv, refus d'écrire le manifeste) — corrigé de même, le graphe se régénère | `verifier-invariants.py` ; guide de déploiement (cf. Domaine Réservé) ; entrée `[2026-09-01]` du registre des problèmes |
 | PRO-C2 | Cinq fiches à la racine de `atelier/rd/`, hors arborescence et sans lien entrant ; trois portaient du fait personnel en page neutre (§VI) | **clos le 2026-09-01** sur verdict de Sidy. Les trois fiches versées au Domaine Réservé avec leur historique git ; les deux neutres classées par leur nature (`infrastructure/`, `cahiers/`) ; la racine du pôle ne porte plus que `index.md` et le présent registre. Deux fiches restées côté `rd/` portaient le même défaut **dans leur corps** — blocs retirés, matière conservée au Domaine Réservé. Contreparties neutres écrites et indexées : déploiement de la veille quotidienne, inventaire de l'outillage ; pour la troisième, la contrepartie existait déjà (Cmd 4, pas de quatrième fiche) | passe du 2026-09-01 ; [[atelier/rd/index]] §Assainissement |
+| PRO-C3 | Protection de la branche `main` contournable sans review | **clos le 2026-09-01** sur verdict de Sidy. Le fait s'est révélé plus net que la ligne ne le disait : la protection exigeait un contrôle `lint` qui **ne validait rien** — il parcourait un dossier `wiki/` et des sous-dossiers de l'arborescence plate abandonnée le 2026-06-11, tous inexistants, et imprimait « Frontmatter OK » sur zéro fichier. Le workflow exécute désormais `verifier-invariants.py` et l'hygiène Unicode, en bloquant ; vérifié qu'il **peut échouer** (clé de Sceau absente, ZWJ), le CI inspecte 709 fiches. `enforce_admins` reste à `false`, **acté et non subi** : le durcir imposerait un flux par pull request aux treize acteurs qui poussent en direct. Contrepartie : hook `pre-push` versionné qui exécute les mêmes contrôles avant que la faute quitte la machine | `.github/workflows/lint-and-validate.yml` ; [[atelier/rd/outillage/hooks/README]] ; entrée `[2026-09-01]` du registre des problèmes |
 
 ---
 

@@ -1,0 +1,109 @@
+#!/usr/bin/env bash
+# Hook pre-push — le garde-fou local de la branche `main`.
+#
+# Ouvert le 2026-09-01 (chantier PRO-01, verdict Sidy : acter `enforce_admins:
+# false` et se doter d'un garde-fou local plutôt que d'imposer un flux par pull
+# request à Sidy et aux douze agents).
+#
+# Raison d'être. La protection GitHub de `main` exige le contrôle `lint`, mais
+# `enforce_admins` est à `false` : le propriétaire du dépôt — sous l'identité
+# duquel poussent aussi les douze agents Hermes — y échappe. Le contrôle serveur
+# ne dit donc rouge qu'APRÈS coup, sur du déjà-poussé. Ce hook déplace la même
+# vérification AVANT que la faute ne quitte la machine.
+#
+# Il exécute exactement ce que le CI exécute, dans le même ordre, pour qu'un
+# push accepté ici soit vert là-bas — un garde-fou qui diverge de la porte qu'il
+# double ne sert qu'à donner confiance à tort.
+#
+# Ce n'est pas une serrure : `git push --no-verify` le contourne, délibérément.
+# Un opérateur qui sait ce qu'il fait doit pouvoir pousser un dépôt en défaut
+# (une réparation en deux temps, par exemple). Le hook empêche l'inattention,
+# pas la décision.
+#
+# Installation : bash atelier/rd/outillage/hooks/installer-hooks.sh
+
+set -uo pipefail
+
+RACINE="$(git rev-parse --show-toplevel)"
+cd "$RACINE" || exit 1
+
+echo "── garde-fou pre-push ───────────────────────────────────────────"
+
+ECHECS=0
+
+# 1. Invariants du dépôt — Sceaux, frontmatter, liens, étanchéité, annales.
+if [ -f verifier-invariants.py ]; then
+    if ! python3 verifier-invariants.py --racine .; then
+        echo "  ✗ invariants du dépôt : en défaut"
+        ECHECS=1
+    fi
+else
+    echo "  ! verifier-invariants.py introuvable — contrôle non exécuté"
+fi
+
+# 2. Hygiène Unicode (Cmd 15) sur toutes les fiches suivies par git.
+#    Le hook pre-commit ne voit que l'index d'un commit ; celui-ci voit l'état
+#    complet qui part sur la branche — c'est ce que le CI contrôle.
+#    Les points de code sont écrits en échappement : jamais de caractère
+#    invisible littéral dans un fichier du dépôt, la règle vaut aussi pour
+#    l'outil qui la fait respecter.
+if ! python3 - <<'PY'
+import pathlib, subprocess, sys
+
+INTERDITS = {
+    "\u200b": "U+200B ZERO WIDTH SPACE",
+    "\u200c": "U+200C ZERO WIDTH NON-JOINER",
+    "\u200d": "U+200D ZERO WIDTH JOINER",
+    "\u200e": "U+200E LEFT-TO-RIGHT MARK",
+    "\u200f": "U+200F RIGHT-TO-LEFT MARK",
+}
+
+suivis = [c for c in subprocess.run(
+    ["git", "ls-files", "-z", "*.md"], capture_output=True, check=True,
+).stdout.decode("utf-8", "replace").split("\0") if c]
+
+fautes = []
+for rel in suivis:
+    texte = pathlib.Path(rel).read_text(encoding="utf-8", errors="replace")
+    for n, ligne in enumerate(texte.split("\n"), 1):
+        for car, nom in INTERDITS.items():
+            if car in ligne:
+                fautes.append(f"{rel}:{n} — {nom}")
+    if "\ufeff" in texte[1:]:
+        fautes.append(f"{rel} — U+FEFF en milieu de fichier")
+
+if fautes:
+    print(f"  ✗ hygiène Unicode : {len(fautes)} occurrence(s) (Cmd 15)")
+    for f in fautes[:10]:
+        print(f"      {f}")
+    if len(fautes) > 10:
+        print(f"      … et {len(fautes) - 10} autre(s)")
+    print("    Nettoyage (perl, JAMAIS sed — voir l'incident du 2026-08-22) :")
+    print("      perl -CSD -i -pe "
+          "'s/[\\x{200B}\\x{200C}\\x{200D}\\x{FEFF}\\x{200E}\\x{200F}]//g' <fichier>")
+    sys.exit(1)
+
+print(f"  ✓ hygiène Unicode : {len(suivis)} fiche(s), rien à signaler")
+PY
+then
+    ECHECS=1
+fi
+
+if [ "$ECHECS" -ne 0 ]; then
+    cat <<'FIN'
+
+  Push refusé : le dépôt est en défaut, et le contrôle `lint` de GitHub le
+  dirait en rouge une fois poussé.
+
+  Corriger, puis repousser. Si le push doit passer malgré tout — réparation en
+  deux temps, urgence assumée — c'est une décision, pas un oubli :
+
+      git push --no-verify
+
+FIN
+    exit 1
+fi
+
+echo "  ✓ dépôt conforme — push autorisé"
+echo "─────────────────────────────────────────────────────────────────"
+exit 0

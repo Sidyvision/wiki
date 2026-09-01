@@ -1,0 +1,65 @@
+#!/usr/bin/env bash
+# Pre-commit hook : détection de caractères Unicode invisibles
+# Installé dans /root/wiki/.git/hooks/pre-commit
+# Référence : Commandement 15 du protocole (2026-08-22)
+# Incident : atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md
+
+set -euo pipefail
+
+# Caractères Unicode invisibles à bloquer :
+# U+200B : Zero Width Space
+# U+200C : Zero Width Non-Joiner
+# U+200D : Zero Width Joiner
+# U+FEFF : Byte Order Mark (en milieu de fichier)
+# U+200E : Left-to-Right Mark
+# U+200F : Right-to-Left Mark
+
+# Fichiers en staging (markdown, yaml, json)
+FILES=$(git diff --cached --name-only --diff-filter=ACM 2>/dev/null | grep -E '\.(md|yaml|yml|json)$' || true)
+
+if [ -z "$FILES" ]; then
+    exit 0
+fi
+
+FOUND=0
+BAD_FILES=""
+
+for file in $FILES; do
+    [ -f "$file" ] || continue
+
+    # Recherche via grep avec pattern hex UTF-8 (plus fiable que perl dans ce contexte)
+    # grep -P pour Perl-compatible regex, recherche des séquences hex
+    if grep -qP '[\x{200B}\x{200C}\x{200D}\x{FEFF}\x{200E}\x{200F}]' "$file" 2>/dev/null; then
+        if [ $FOUND -eq 0 ]; then
+            echo "╔════════════════════════════════════════════════════════════════╗"
+            echo "║  BLOCAGE PRE-COMMIT : Caractères Unicode invisibles détectés  ║"
+            echo "║  (Commandement 15 — Hygiène Unicode)                          ║"
+            echo "╚════════════════════════════════════════════════════════════════╝"
+            echo ""
+        fi
+        FOUND=1
+        BAD_FILES="$BAD_FILES $file"
+        echo "  ❌ $file"
+        # Afficher les lignes problématiques (max 5)
+        grep -nP '[\x{200B}\x{200C}\x{200D}\x{FEFF}\x{200E}\x{200F}]' "$file" 2>/dev/null | head -5 | sed 's/^/     /'
+        echo ""
+    fi
+done
+
+if [ $FOUND -eq 1 ]; then
+    echo "════════════════════════════════════════════════════════════════════"
+    echo "Nettoyage individuel (perl, PAS sed — GNU sed ne supporte pas \\x{...} et"
+    echo "corrompt le fichier par correspondance littérale de classe de caractères,"
+    echo "voir atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md,"
+    echo "post-scriptum 2) :"
+    for file in $BAD_FILES; do
+        echo "  perl -CSD -i -pe 's/[\x{200B}\x{200C}\x{200D}\x{FEFF}\x{200E}\x{200F}]//g' $file"
+    done
+    echo ""
+    echo "Nettoyage complet du dépôt :"
+    echo "  find /root/wiki -name '*.md' -exec perl -CSD -i -pe 's/[\x{200B}\x{200C}\x{200D}\x{FEFF}\x{200E}\x{200F}]//g' {} \;"
+    echo "════════════════════════════════════════════════════════════════════"
+    exit 1
+fi
+
+exit 0

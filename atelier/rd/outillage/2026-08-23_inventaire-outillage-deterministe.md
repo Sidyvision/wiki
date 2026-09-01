@@ -44,6 +44,7 @@ une preuve, la sortie d'un script en est une.
 | `atelier/rd/outillage/srs.py` | Cartes de révision espacée du protocole | chantier `OUT-03`, format non arrêté |
 | `atelier/rd/bibliotheque/valider-index-livres.py` | Contrôles bloquants des index d'ouvrages (Cmd 15, pages, couverture, doublons signalés jamais fusionnés) | avant toute génération du lexique |
 | `atelier/rd/bibliotheque/generer-glossaire-unifie.py` | Lexique unifié dérivé — **refuse de générer si le validateur bloque** | après validation des index |
+| `atelier/rd/outillage/hooks/` (`pre-commit`, `pre-push`) | Garde-fous locaux : hygiène Unicode à chaque commit, invariants + Unicode à chaque push | installés une fois par clone (`installer-hooks.sh`) |
 
 Le dossier `Graphe/` que citait le plan d'origine **n'existe pas** à la racine : les deux
 scripts qu'il lui attribuait sont `carte-du-depot.py` (racine) et
@@ -57,6 +58,17 @@ scripts qu'il lui attribuait sont `carte-du-depot.py` (racine) et
 - **`OUT-05`** — aucun contrôle ne détecte un corps d'entrée d'annales orphelin. L'incident
   du 2026-08-28 (en-tête d'entrée mangé à l'insertion) n'a été vu par aucun script.
 - **`OUT-03`** — le SRS Hermes-native n'a ni format arrêté, ni mécanisme de révision.
+
+## Le contrôle serveur (ajouté le 2026-09-01)
+
+Le workflow `lint` de GitHub, qui garde la branche `main`, exécute désormais les deux
+mêmes contrôles bloquants que le hook `pre-push` — `verifier-invariants.py` puis l'hygiène
+Unicode — dans le même ordre. C'est délibéré : **un push accepté localement doit être vert
+côté serveur**, sinon le garde-fou local donne confiance à tort.
+
+Jusqu'au 2026-09-01 ce contrôle ne validait rien : il parcourait un dossier `wiki/`
+inexistant, hérité de l'arborescence abandonnée le 2026-06-11, et rendait vert sur zéro
+fichier (chantier `PRO-C3`).
 
 ## Ce qui a changé le 2026-09-01
 

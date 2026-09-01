@@ -54,6 +54,8 @@ atelier/rd/
 ├── audio/             ← ingénierie son GÉNÉRIQUE (bancs d'essai, chaînes, mesures) ;
 │                         l'ingénierie PAR MORCEAU reste au label
 ├── outillage/         ← scripts, leur documentation, leurs bancs de test
+│   └── hooks/         ← garde-fous git versionnés (pre-commit, pre-push) —
+│                          à installer après tout clone, voir son README
 ├── veille/            ← veille externe R&D (GitHub, arXiv, dépôts) —
 │                         ouvert 2026-08-18, hebdomadaire, qualitatif
 ├── cahiers/           ← cahiers append-only : registre-problemes.md (ouvert

@@ -29,6 +29,60 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-01] Une porte gardée par quelqu'un qui ne regardait personne — et l'outil qui enfreint la règle qu'il fait respecter
+
+### 1. Le contrôle `lint` exigé par la protection de `main` ne validait rien
+
+- **Symptôme** : la branche `main` est protégée par GitHub, `required_status_checks`
+  exige le contexte `lint`, et ce contrôle était **vert à chaque exécution** — y compris
+  sur des passes qui, vérification faite localement, laissaient le dépôt en défaut.
+- **Diagnostic** : le workflow parcourait `os.walk('wiki')` et exigeait la présence de
+  `wiki/entities`, `wiki/concepts`, `wiki/sources`, `wiki/analyses`, `wiki/logs`,
+  `wiki/schema` — **l'arborescence plate abandonnée par la Restauration Guénon V1 du
+  2026-06-11**. Aucun de ces chemins n'existe : la racine du dépôt *est* le wiki. Le job
+  inspectait donc zéro fichier et imprimait « Frontmatter OK » et « 0 avertissements » sur
+  rien. Preuve au log du run `33532454134`. Fossile de l'organisation antérieure, resté en
+  place presque trois mois sans que personne le relise — parce qu'un contrôle vert
+  n'attire pas le regard.
+- **Résolution** (verdict de Sidy, 2026-09-01) : le job exécute désormais
+  `verifier-invariants.py --racine .` et le contrôle d'hygiène Unicode (Cmd 15), tous deux
+  bloquants, plus deux contrôles informatifs. Le job **garde son nom** `lint` : c'est le
+  contexte exigé par la protection, le renommer laisserait la branche gardée par un
+  contrôle inexistant. Vérifié en bac à sable isolé qu'il **peut échouer** — clé de Sceau
+  absente → `exit 1`, ZWJ dans une fiche → `exit 1` annoté ligne à ligne — car un contrôle
+  qui ne peut pas échouer était précisément le défaut. Le CI inspecte 709 fiches.
+- **Compréhension tirée** : un contrôle vert ne prouve rien tant qu'on ne l'a pas vu
+  rouge. Tout contrôle installé devrait être éprouvé par un cas qui doit le faire échouer,
+  au moment de son installation ; sinon on ne mesure que sa capacité à dire oui. C'est le
+  même principe que la vérification mécanique indépendante des sessions de 2026-06-29 →
+  07-03 — *fiabilité d'action ≠ fiabilité narrative*, ici appliquée à l'outil et non au
+  modèle.
+- **Décision annexe, actée** : `enforce_admins` reste à `false`. Le durcir imposerait un
+  flux par pull request à Sidy et aux douze agents, qui poussent tous en direct sous la
+  même identité, depuis un terminal iPad ou depuis un cron. Le réglage est désormais un
+  choix documenté et non un oubli ; sa contrepartie est le hook `pre-push`.
+- **Liens** : `.github/workflows/lint-and-validate.yml` ;
+  [[atelier/rd/outillage/hooks/README]] ; [[atelier/rd/registre-chantiers]] `PRO-C3`.
+- **Statut** : `resolu`.
+
+### 2. Trois fois de suite, le contrôle d'hygiène Unicode a contenu ce qu'il interdit
+
+- **Symptôme** : en rédigeant le contrôle Cmd 15 — dans le workflow CI, puis dans le hook
+  `pre-push`, puis dans le README qui **décrit cette leçon même** — les caractères
+  invisibles ont été inscrits **littéralement** dans le fichier, au lieu d'être désignés
+  par leur point de code. Trois occurrences, trois fichiers, la même heure.
+- **Diagnostic** : écrire un détecteur oblige à manipuler la chose détectée. La forme la
+  plus naturelle d'une table de correspondance est `{caractère: nom}` — et cette forme est
+  précisément l'infraction. Le réflexe est structurel, pas distrait : il ne se corrige pas
+  par l'attention mais par une règle d'écriture.
+- **Résolution** : les trois fichiers réécrits en séquences d'échappement
+  (`"\u200d"`). La troisième occurrence a été **signalée par le hook lui-même** avant le
+  commit, ce qui est exactement son office.
+- **Compréhension tirée** : **l'outil qui fait respecter une règle est le premier endroit
+  où on l'enfreint.** Tout script de détection doit *désigner* ce qu'il cherche, jamais le
+  *contenir*. Règle d'écriture à appliquer d'emblée, pas après relecture.
+- **Statut** : `resolu`.
+
 ## [2026-09-01] Un validateur dont le bruit masquait ses propres trouvailles — et trois crons déclarés qui n'existent pas
 
 ### 1. Le périmètre du vérificateur d'invariants
