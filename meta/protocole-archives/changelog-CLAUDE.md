@@ -71,7 +71,7 @@ et le `.bak-2026-08-22-pre-deplacement-bibliotheque`) — l'historique git du fi
 suffit à la réversibilité d'un amendement de cette taille, comme pour les deux
 amendements précédents du 2026-09-01.
 
-- **Commit** : (à consigner à la clôture — voir entrée d'annales meta correspondante)
+- **Commit** : 89f5b51
 
 ## [2026-09-01] amendement | §VII — Épreuve des contrôles
 

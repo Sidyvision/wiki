@@ -14,6 +14,53 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] amendement | §I — Levée de la clôture économique PRODUCTION/INTÉGRATION
+
+Consigné ici comme tout amendement du protocole racine. Lettre complète :
+`meta/protocole-archives/changelog-CLAUDE.md`, même titre.
+
+**Fait déclencheur, signalé par la machine en clôture de la session
+précédente** : celle-ci venait de produire
+`atelier/rd/infrastructure/cartographie-routing-infrastructure.md` — une
+fiche de synthèse/rédaction — depuis le poste INTÉGRATION (Claude Code,
+terminal), que §I l'interdisait pourtant en principe (« JAMAIS de lecture
+lourde ni de production de contenu côté intégration »).
+
+**Origine réelle de la clôture, dite par Sidy en session** : elle ne
+répondait pas à un principe de méthode mais à une contrainte de fait —
+l'authentification à Claude Code (Terminal) avec le compte Claude Pro ne
+fonctionnait plus, ce qui laissait croire à un basculement d'Anthropic vers
+un accès Claude Code exclusivement facturé à l'usage (API), jugé trop
+coûteux pour absorber de la rédaction côté intégration. L'authentification
+Pro/OAuth fonctionne de nouveau — constaté « tout dernièrement » par Sidy.
+
+**Verdict, mot pour mot, à la question de savoir si une autre raison
+(discipline de workflow, app iPad seule, mode pédagogique) subsistait
+indépendamment du coût** : **« coût seul justifiait la clôture »**. Rien
+d'autre n'est retenu comme fondement — la clôture tombe avec sa prémisse.
+
+**Changement effectué (§I, protocole racine)** : colonne « Règle de coût »
+de la table des postes renommée « Régime » et son contenu réécrit ;
+« Règle économique et fonctionnelle absolue » retirée, remplacée par un
+paragraphe qui nomme le fait, cite le verdict et pointe vers l'entrée du
+changelog. Explicitement préservé : le principe « scripter le déterministe,
+réserver le modèle au jugement » (indépendant du coût) ; le sas
+`_inbox/`/`UPDATES.md` comme voie normale des lots PRODUCTION (la levée
+ajoute une voie, n'en retire aucune) ; Cmd 6 et Cmd 13 pleins et entiers —
+la levée porte sur la capacité de rédiger côté intégration, jamais sur la
+dispense de plan présenté ou de porte humaine.
+
+**Portée** : §I est transversal, racine seule (Cmd 14). Aucun `CLAUDE.md`
+local ne nommait la clôture de coût — aucune modification requise ailleurs.
+
+**Réversibilité (Cmd 10)** : si l'accès Pro/OAuth redevient indisponible ou
+de nouveau facturé à l'usage, la clôture se rétablit d'elle-même — fondée
+sur un fait vérifiable, jamais sur un principe fixe. Pas de snapshot
+`CLAUDE.md.bak-*` (réservé aux restructurations majeures) : l'historique
+git suffit, comme pour les deux amendements précédents du même jour.
+
+- **Commit** : 89f5b51
+
 ## [2026-09-01] amendement | §VII — *Épreuve des contrôles* versée au protocole racine
 
 Consigné ici comme tout amendement du protocole racine. Le récit du chantier qui l'a fait
