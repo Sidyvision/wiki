@@ -62,6 +62,6 @@ pertinents dans une fiche distincte, sur décision de Sidy.*
 ## Phase 2 — analyse (à venir, non ouverte)
 
 L'analyse en regard du discernement Barzakh (matrices artificielles) et/ou du
-circuit herméneutique (Frankenstein, cf. [[hermeneutique/frankenstein/frankenstein]])
+circuit herméneutique
 se fera dans une fiche distincte, sur décision de Sidy. Aucune piste d'analyse
 n'est consignée ici.

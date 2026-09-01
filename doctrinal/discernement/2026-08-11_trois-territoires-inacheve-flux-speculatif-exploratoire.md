@@ -14,7 +14,7 @@ description: 'Hypothèse méthodologique sur la parenté entre Discernement, R&D
 created: 2026-08-11
 updated: 2026-08-12
 sources:
-- to-source
+- '[[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]]'
 sources_count: 1
 refs:
 - CLAUDE.md (§II, §V, §VI, §VII — circuits et régimes)
@@ -23,6 +23,8 @@ refs:
 - atelier/rd/index.md (phase 1 partielle, statut_experience)
 cross_links:
 - '[[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique]]'
+- '[[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]]'
+- '[[doctrinal/autorites/titus-burckhardt]]'
 ---
 
 # Trois territoires de l'inachevé — flux spéculatif → exploratoire → finalisé
@@ -35,6 +37,16 @@ Cette architecture n'est pas une commodité technique — elle relève de la **T
 - **Herméneutique** = l'**interprétation en continu**, le travail du sens — intégration vivante de ce qui se transforme
 
 Le **Laboratoire** (Sandbox, cahiers R&D) n'est pas une "zone de test mécanique". C'est un **athanor** — l'espace où l'intention rencontre la réalité, où la hypothèse du Discernement se transmet en transformation effective. L'alchimie opérative légitime le fait que l'expérimentation *n'est jamais neutre* — chaque test est un acte de volonté structurée, une manifestation de l'intention énoncée en Discernement.
+
+> **Signalement — levée du marqueur `to-source` (2026-09-01)** : le marqueur
+> ouvert le 2026-08-11/12 (`sources: [to-source]`) portait sur l'analogie
+> athanor/Laboratoire, alors affirmée sans texte primaire. Elle s'appuie
+> maintenant sur [[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]]
+> (Titus Burckhardt, *Alchimie : Science et Sagesse*, ch. XIII, transcription
+> intégrale à partir des photographies de l'édition physique). Le rapprochement
+> reste une **application** de l'analogie de Burckhardt au fonctionnement du
+> dépôt — non une doctrine alchimique en elle-même — mais l'image n'est plus
+> `to-source` : elle est ancrée à un texte primaire vérifié.
 
 Corollaire : la non-finalité du Laboratoire (les chantiers restent réversibles, exploratoires) n'est pas une faiblesse — c'est la **discipline alchimique même** : jamais fixer ce qui doit rester ouvert au retravail. La Transmutation n'achève que si le Maître (Sidy) valide que l'état final correspond à l'Intention.
 

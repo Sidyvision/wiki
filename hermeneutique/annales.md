@@ -11,6 +11,18 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 entrées insérées **après ce header**.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] création | Expression : athanor-matrices-artificielles (phase 2, mise en regard)
+
+- **Fiche créée** : `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles.md` (type: concept, registre: expression, statut: brouillon)
+- **Contexte** : ouverture de la phase 2 analytique du discernement Barzakh (2026-06-20) et des fiches symboles Golem (2026-08-30) et Frankenstein (2026-08-30). Demande de Sidy (2026-09-01) : mise en regard de l'athanor de Burckhardt avec la figure des cinq matrices artificielles.
+- **Portance** : zōsaku. Aucun impact sur l'armature doctrinale.
+- **Substance** : (1) relevé de l'opposition structurelle — Burckhardt : autotransmutation (athanor = l'opérateur lui-même) vs. Golem/Frankenstein : fabrication de tiers ; (2) relevé de la convergence — contenant-qui-cède, danger de la rupture du scellement, Burckhardt décrit en termes très proche de la failure mode des matrices ; (3) deux blocs 🪵 Restitution (Golem, Barzakh/alam-al-mithal) ; (4) Confrontation Gizeh : matière axiale présente (calumet comme canal subtil), aucun ancrage au pôle gizeene.
+- **Clés doctrinales** : [[doctrinal/symboles/golem]], [[doctrinal/symboles/barzakh]], [[doctrinal/symboles/alam-al-mithal]] — sens unique, 🔍 suggéré par défaut.
+- **Discernement** : [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] — matière issue du discernement.
+- **Sources** : [[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]].
+- **Héritages non-levés** : Golem et Frankenstein demeurent phase 1, sources: ["to-source"]. Cette fiche les cite, elle ne les valide pas. Statut de la mise en regard : brouillon, en attente de verdict doctrinal le cas échéant.
+- **Étanchéité** : correction appliquée simultanément : les trois liens doctrinal→hermeneutique en sens interdit (golem.md:65, discernement:50, annales:229) ont été vidés de leurs wikilinks hermeneutique. Le texte narratif est conservé ; les fichiers demeurent dans une écriture append-only. Cf. correction d'étanchéité dans doctrinal/annales.md (2026-09-01).
+
 ---
 
 ## [2026-08-30] création | Frankenstein (phase 1, corpus brut)

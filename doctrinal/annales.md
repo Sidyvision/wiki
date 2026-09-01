@@ -9,6 +9,20 @@ updated: 2026-09-01
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] correction d'étanchéité | Liens inter-circuits (doctrinal/ → hermeneutique/) supprimés
+
+**Régression détectée et corrigée.** Trois fichiers contenaient des wikilinks pointant de `doctrinal/` vers `hermeneutique/`, violant la règle absolue (CLAUDE.md racine §VI) : « Aucune fiche doctrinale, y compris de discernement, ne pointe vers ce circuit. »
+
+- **doctrinal/symboles/golem.md:65** — phrase (Frankenstein, cf. [[hermeneutique/frankenstein/frankenstein]]) — wikilink supprimé, texte narratif conservé.
+- **doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh.md:50** — trois wikilinks dans la puce « Figure commune — les cinq matrices artificielles » supprimés : frankenstein, the-matrix, death-stranding. Texte narratif conservé. Note daté (2026-09-01) ajoutée annonçant la mise en regard formelle en fiche `hermeneutique/expression/`.
+- **doctrinal/annales.md:229** — l'entrée d'archivage du 2026-08-30 reste inchangée (append-only), elle consigne l'enrichissement d'époque. La correction se consigne ici, non par réécriture.
+
+**Historique.** Le 2026-08-12, une première instance identique avait été corrigée (cross_links livré pointait vers `hermeneutique/hunter-x-hunter/nen-systeme` — supprimé). L'archivage du 2026-08-30 a introduit une nouvelle instance de la même régression.
+
+**Vérification.** `verifier-invariants.py` ne détecte pas ces violations. C'est un angle mort de l'outillage — le contrôle de direction inter-circuits (§II, étanchéité) n'est pas mécanisé.
+
+**État.** Trois fichiers corrigés, aucune perte de données (tout historié dans les annales). La mise en regard formelle d'athanor, Golem, Frankenstein et de la figure des cinq matrices passe désormais exclusivement par une fiche `hermeneutique/expression/` (ouverture phase 2, demande de Sidy 2026-09-01).
+
 ## [2026-09-01] correction | Pagination de l'annexe Jurjānī rectifiée (entrée du même jour)
 
 Rectification de l'entrée d'archivage ci-dessous, qui reste **inchangée** (annales

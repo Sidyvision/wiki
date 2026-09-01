@@ -6,8 +6,8 @@ tradition_cadre: "islam"
 tags: [perennialisme, tradition, ibn-arabi, art-sacre, cosmologie, astrologie, stub]
 created: 2026-07-01
 updated: 2026-07-01
-sources: ["[[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]]"]
-sources_count: 1
+sources: ["[[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]]", "[[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]]"]
+sources_count: 2
 cross_links: ["[[rene-guenon]]", "[[ibn-arabi]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]"]
 ---
 
@@ -31,6 +31,9 @@ de l'art sacré, de la cosmologie et de l'astrologie traditionnelles.
   [[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]]).
 - *Clés spirituelles de l'astrologie musulmane* (Archè Milano, 1983) — commentaire
   d'Ibn ʿArabī sur le zodiaque et les Demeures lunaires ([[manazil-al-qamar]]).
+- *Alchimie : Science et Sagesse* (Archè) — exposé cosmologique de l'hermétisme
+  occidental ; chapitre XIII « L'athanor » transcrit intégralement dans
+  [[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]].
 
 ## Notes
 

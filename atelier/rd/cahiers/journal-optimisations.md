@@ -139,3 +139,23 @@ Insertion en tête (la plus récente en haut), marqueur ci-dessous.
   (générateur) ; `doctrinal/annales.md` (entrée du 2026-08-30). Commit `2ec5a20`.
 - **Statut** : `applique` — procédure en vigueur, en attente de la première
   intégration doctrinale avec signal d'orpheline.
+
+## [2026-09-01] Levée du `to-source` Burckhardt « Alchimie » — légitimation athanor/Laboratoire
+
+- **État avant** : la légitimation alchimique du Laboratoire-Athanor
+  (ligne 70 ci-dessus) reposait sur l'analogie athanor/Sandbox affirmée dans
+  `doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md`
+  sans texte primaire — `sources: [to-source]`.
+- **Changement effectué** : Sidy a photographié le chapitre XIII
+  (« L'athanor ») de Titus Burckhardt, *Alchimie : Science et Sagesse*, et
+  demandé l'intégration. Transcription intégrale déposée dans
+  `doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription.md`,
+  fiche `doctrinal/autorites/titus-burckhardt.md` mise à jour (2e ouvrage).
+- **État après** : `to-source` levé dans la fiche discernement, remplacé par
+  le lien vers la transcription, avec signalement daté dans le corps.
+- **Impact mesuré** : non mesuré (marqueur de sourçage, pas de métrique de
+  performance).
+- **Liens** : `doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription.md` ;
+  `doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md` ;
+  `doctrinal/autorites/titus-burckhardt.md`.
+- **Statut** : `applique`.
