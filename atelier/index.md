@@ -3,7 +3,7 @@ title: "Atelier — Ressources & Études de Cas"
 type: index
 tags: [atelier, ressources, index, instrument]
 created: 2026-07-07
-updated: 2026-08-23
+updated: 2026-09-01
 ---
 
 # Atelier — Index
@@ -12,7 +12,15 @@ Ressources opératoires, matériaux de travail, études de cas et documentation 
 
 **Deux régimes** (depuis le verdict du 2026-08-08) :
 - **référence** — `materiel/`, `entretiens/` : ce qu'on consulte ;
-- **recherche** — `rd/` (nouveau) et `etudes-de-cas/` : ce qu'on instruit.
+- **recherche** — `rd/` et `etudes-de-cas/` : ce qu'on instruit.
+
+> **Où regarder en premier si vous reprenez le fil.**
+> [[atelier/rd/registre-chantiers]] — la carte vivante de **tous** les chantiers ouverts
+> du dépôt (Instrument, infrastructure et agents, outillage, bibliothèque, études de cas,
+> process, doctrinal), ouverte le 2026-09-01 sur demande de Sidy. Elle recense et pointe,
+> elle n'absorbe rien : chaque chantier reste instruit dans sa fiche et dans son circuit.
+> Les fiches de pistes du 2026-08-20 et le bilan-pont du 2026-08-15 restent au dépôt
+> comme **jalons datés** — ils ne décrivent que leur jour.
 
 ---
 
@@ -33,7 +41,14 @@ tiers. Charte et arborescence : [[atelier/rd/index|charte du pôle R&D]].
   de développement infrastructure (2026-08-20)]]
 - `rd/audio/` — ingénierie son générique
 - `rd/outillage/` — scripts et bancs de test
-- `rd/cahiers/` — cahiers d'expérience (phase 2)
+- `rd/cahiers/` — cahiers append-only (registre des problèmes, journal des
+  optimisations, comptes-rendus de session, jalons) ; cahiers d'expérience à
+  venir (phase 2)
+- `rd/veille/` — veille externe qualifiée (GitHub, arXiv, dépôts), ouverte le
+  2026-08-18
+- `rd/incidents/` — rapports d'incident caractérisés (contamination Unicode
+  2026-08-22, crash gateway 2026-08-25) ; cf. Cmd 15 du protocole racine
+- `rd/citadelle-du-sham/` — prototype 3D reçu au sas, versé le 2026-08-22
 - `rd/bibliotheque/` — catalogue de la bibliothèque physique (déplacé de `meta/`
   le 2026-08-22) et index/glossaires transcrits des ouvrages ; instrument de
   repérage pour savoir *où chercher*, voir
@@ -91,10 +106,11 @@ de l'Arbre unique s'articulent :
   — état *kari-kumi*, six *hozo* proposés (non taillés), chantiers ouverts (branche
   Kabbale, versant Sanātana Dharma, six directions de l'espace)
 
-**Chantiers ouverts, non traités** : bandeau zodiacal horizontal (données déjà
-sourcées, rendu manquant) ; versant Sanātana Dharma (fondation védantique désormais
-disponible via ch. X/XV/XVI, structure à 4 états non encore ancrée) ; lien
-wirātha↔pôles (*Futūḥāt* ch. 36, réserve résiduelle).
+**Chantiers ouverts** : tenus au registre, plus ici — le bandeau zodiacal horizontal
+(`INS-13`), le versant Sanātana Dharma (`INS-14`) et la réserve *wirātha* ↔ pôles
+(`DOC-05`) y figurent avec leur statut et leur prochaine action. Voir
+[[atelier/rd/registre-chantiers]] §1 et §7. Cette page ne tient plus de seconde liste :
+c'est la double tenue qui périmait les deux.
 
 **État d'avancement et pistes de développement (2026-08-20)** :
 [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement|synthèse
