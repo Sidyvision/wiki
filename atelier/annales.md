@@ -27,7 +27,7 @@ l'enlisement du 2026-08-20.
 **Ouvert** : [[atelier/rd/registre-chantiers]] — carte vivante de tous les chantiers du
 dépôt, `type: registre`, frère de la charte, **révisable en place** (un chantier est un
 état, pas un événement ; les cahiers append-only gardent leur discipline propre).
-36 chantiers sous identifiants stables et greppables : `INS` Instrument (14) · `INF`
+49 chantiers sous identifiants stables et greppables : `INS` Instrument (14) · `INF`
 infrastructure et agents (12) · `OUT` outillage (7) · `BIB` (2) · `CAS` (2) · `PRO`
 process (7) · `DOC` doctrinal (5). Chaque ligne porte statut, prochaine action, fiche
 d'origine et l'acte qui a ouvert le chantier.

@@ -60,15 +60,28 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-| Pôle | ouverts / en-cours | bloqués | attente-verdict | caducs relevés |
-|---|---|---|---|---|
-| Instrument (`INS`) | 10 | 1 | 2 | — |
-| Infrastructure & agents (`INF`) | 6 | 2 | 2 | 1 |
-| Outillage & scripts (`OUT`) | 5 | — | 2 | 1 |
-| Bibliothèque (`BIB`) | 2 | — | — | — |
-| Études de cas (`CAS`) | 2 | — | — | — |
-| Process & protocole (`PRO`) | 4 | — | 3 | — |
-| Doctrinal (`DOC`) | 37 fiches `speculatif` — *non hiérarchisées, voir §7* | — | — | — |
+**49 chantiers inscrits** au 2026-09-01, plus 3 versés en §9 (clos ou caducs) et 6 lignes
+en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous modifiez une
+ligne, ce tableau se recompte, il ne s'estime pas.
+
+| Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
+|---|---|---|---|---|---|
+| `INS` Instrument | 10 | — | 1 | 3 | **14** |
+| `INF` Infrastructure & agents | 6 | 2 | 1 | 3 | **12** |
+| `OUT` Outillage & scripts | 5 | — | 1 | 1 | **7** |
+| `BIB` Bibliothèque | 1 | — | 1 | — | **2** |
+| `CAS` Études de cas | 1 | — | 1 | — | **2** |
+| `PRO` Process & protocole | 3 | — | — | 4 | **7** |
+| `DOC` Doctrinal | 4 | — | — | 1 | **5** |
+| **Total** | **30** | **2** | **5** | **12** | **49** |
+
+**Ce que ce tableau dit d'abord** : douze chantiers n'attendent **que** la décision de
+Sidy — rien d'autre ne leur manque. Cinq sont bloqués par une dépendance qui n'est pas
+entre nos mains (une PR amont, une prise de vue, un texte à localiser). C'est là, et non
+dans le nombre total, que se lit ce qui peut avancer aujourd'hui.
+
+Le `DOC-01` compte pour une ligne mais recouvre **37 fiches de discernement `speculatif`**
+en attente de verdict : elles ne sont ni listées ni hiérarchisées ici (Cmd 12), voir §7.
 
 ## 0 bis. Infrastructure — où lire l'état réel
 
