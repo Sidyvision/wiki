@@ -61,7 +61,7 @@ bloqués.
 **Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
 du dépôt. 0 erreur(s), 0 avertissement(s).`
 
-- **Commit** : à compléter ci-dessous
+- **Commit** : 8551af6
 
 ## [2026-09-01] instruction | INF-14 instruit : verdicts rendus, sauvegarde du site prise avant tout accès
 
