@@ -66,7 +66,7 @@ non négociable.
 **Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
 du dépôt. 0 erreur(s), 0 avertissement(s).`
 
-- **Commit** : à compléter ci-dessous
+- **Commit** : 6844565
 
 ## [2026-09-01] blocage | INF-14 : le jeton n'ouvre pas le compte détenteur ; le montage par proxy tombe
 
