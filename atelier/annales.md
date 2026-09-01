@@ -65,7 +65,7 @@ INF-14 est **clos** et descend en §9 du registre avec sa date, son ID conservé
 **Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
 du dépôt. 0 erreur(s), 0 avertissement(s).`
 
-- **Commit** : à compléter ci-dessous
+- **Commit** : bd96fdd
 
 ## [2026-09-01] preversion | INF-14 : blocage levé, rendu servi en préversion sous `/instrument`
 
