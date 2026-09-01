@@ -29,5 +29,3 @@ Cette distinction est purement relative : il n'existe qu'un seul Âtmâ ; Jîvâ
 ## Voir aussi
 
 - [[doctrinal/symboles/atma]] — le Soi universel
-- [[doctrinal/symboles/koshas]] — les enveloppes de l'être (si fiche existante)
-- [[doctrinal/symboles/maya]] — l'apparence illusoire de la limitation (si fiche existante)

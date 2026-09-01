@@ -36,5 +36,4 @@ Selon les écoles de Samkhya et Vedanta, Buddhi est l'instrument suprême de con
 ## Voir aussi
 
 - [[doctrinal/symboles/atma]] — le Soi universel (objet ultime de la discrimination de Buddhi)
-- [[doctrinal/symboles/manas]] — la raison discursive (distincte de Buddhi)
 - [[doctrinal/symboles/purusha]] — conscience pure (Samkhya)
