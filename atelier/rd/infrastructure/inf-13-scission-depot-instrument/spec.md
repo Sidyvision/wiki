@@ -46,8 +46,23 @@ obligerait à retoucher le code migré au moment même où on le déplace.
 ## Critères d'acceptation
 
 1. `gh api repos/Sidyvision/instrument` renvoie `"private": true`.
-2. `gh api repos/Sidyvision/instrument/branches/main/protection` renvoie une
-   protection active avec `enforce_admins.enabled: true`.
+2. ~~`gh api repos/Sidyvision/instrument/branches/main/protection` renvoie une
+   protection active avec `enforce_admins.enabled: true`.~~ **Critère amendé le
+   2026-09-01, à l'exécution.** GitHub réserve la protection de branche — et les
+   *rulesets* — aux dépôts **publics** ou aux plans payants : l'API répond `403,
+   Upgrade to GitHub Pro or make this repository public` sur les deux. Le critère
+   était donc irréalisable **en même temps** que le choix « privé d'abord », et il
+   est remplacé, non abandonné :
+   **`hooks/pre-commit` est versionné dans le dépôt frère et installé.** Il refuse
+   (a) les caractères Unicode invisibles (Cmd 15), (b) une modification de
+   `src/wiki-manifest.json` non déclarée comme publication (`MANIFESTE_RECU=1`),
+   (c) la séparation du rendu et de son manifeste frère.
+   Ce n'est pas un pis-aller improvisé : **le wiki avait déjà tranché ce cas** au
+   chantier PRO-01 le 2026-09-01 — `enforce_admins: false` acté, garde-fou local
+   préféré à un flux par pull request imposé à Sidy et aux douze agents. La doctrine
+   du dépôt est donc appliquée, non contournée. La bascule en public (Cmd 13,
+   réservée à Sidy) rendrait la protection serveur disponible : c'est un argument
+   pour cette bascule, ce n'en est pas la décision.
 3. `src/index.html` servi localement charge, et son `fetch` du manifeste frère
    résout — la coupe tient en fait, pas seulement sur le papier.
 4. Le wiki conserve `instrument-prototype.html` en stub `deprecated` pointant vers le
@@ -68,6 +83,9 @@ obligerait à retoucher le code migré au moment même où on le déplace.
   contenu identique. Le manifeste versionné était à jour sur le fond.*
 - **Le dépôt frère devient public** : le stub du wiki pointe vers une URL qui doit
   rester valable ; c'est le seul lien à revérifier lors de la bascule.
+- **Le dépôt frère bascule en public** : la protection serveur de `main` devient
+  alors disponible et doit être posée, `enforce_admins` compris — le garde-fou local
+  ne la remplace pas, il la précède.
 - **Le prototype évolue au-dehors** : le wiki ne le suit pas et n'a pas à le suivre.
   Seule l'architecture, qui reste ici, fait foi sur le *quoi*.
 
