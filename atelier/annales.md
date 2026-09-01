@@ -10,6 +10,31 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] correction | Entrée de catalogue contaminée + juge de paix renforcé
+
+**1. Entrée de catalogue contaminée par une collision de chaîne.** Le bloc « 2026-09-01 —
+corps des définitions » avait été inséré dans **deux** entrées de
+`atelier/rd/bibliotheque/catalogue-bibliotheque.md` au lieu d'une : celle d'al-Jurjânî, et
+celle de **Maurice Gloton — *Une approche du Coran par la grammaire et le lexique***, qui
+n'a aucun rapport avec ces clichés. Cause : l'insertion s'est faite par remplacement de
+chaîne sur la phrase de clôture « Transcriptions versées à la fiche source du circuit
+doctrinal (consultation humaine, sens `atelier/rd/` → `doctrinal/` signalé) », commune aux
+deux entrées. Retiré de l'entrée Gloton, corrigé dans l'entrée Jurjânî. Leçon d'outillage :
+sur un fichier où une même formule de clôture est répétée d'entrée en entrée, un
+remplacement de chaîne doit être **ancré sur la ligne**, jamais sur la formule.
+
+**2. Juge de paix renforcé** (`atelier/rd/outillage/verifier-transcription-jurjani.py`).
+Il prouvait que chaque cliché était cité — pas que chaque définition portée par un cliché
+l'était : une page dont on aurait omis deux définitions du milieu passait le test. Deux
+contrôles ajoutés : (3) à l'intérieur d'une page, la suite des numéros est ininterrompue
+(`nombre == max − min + 1`) ; (4) entre deux pages voisines dans la fiche, le premier
+numéro ne recule pas. Les 52 pages passent les deux.
+Sortie brute : `54/54 clichés cités, 0 inversion, 0 définition manquante, 0 discontinuité,
+0 caractère invisible, RESULTAT : 0 anomalie(s)`.
+
+- **Commit** : 4511388
+
+
 ## [2026-09-01] outillage | Juge de paix de la transcription Jurjānī + catalogue de bibliothèque
 
 Ajout de `atelier/rd/outillage/verifier-transcription-jurjani.py` — script de contrôle en

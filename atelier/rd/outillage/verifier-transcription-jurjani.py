@@ -4,7 +4,9 @@
 Lecture seule. Rapporte des faits bruts, ne corrige rien :
   1. chaque cliche distinct de raw/Transcription Jurjani/ est-il cite dans la fiche ?
   2. les numeros de definition croissent-ils avec les numeros de page ?
-  3. hygiene Unicode (Cmd 15) sur la fiche.
+  3. aucune definition ne manque a l'interieur d'une page (suite ininterrompue) ?
+  4. aucune definition ne manque entre deux pages consecutives photographiees ?
+  5. hygiene Unicode (Cmd 15) sur la fiche.
 Usage : python3 atelier/rd/outillage/verifier-transcription-jurjani.py [--racine /root/wiki]
 """
 import argparse, hashlib, pathlib, re, sys, unicodedata
@@ -57,8 +59,28 @@ def main():
     print(f"    inversions page/definition     : {desordre or 'aucune'}")
     erreurs += len(desordre)
 
+    blocs = re.split(r"(?m)^## ", texte)
+    lacunes, ruptures, precedent = [], [], None
+    for b in blocs:
+        titre = b.split("\n")[0]
+        if " — déf. " not in titre:
+            continue
+        nums = sorted({int(x) for x in re.findall(r"(?m)^### (?:\[déf\. )?(\d{4})", b)})
+        if not nums:
+            continue
+        attendu = nums[-1] - nums[0] + 1
+        if len(nums) != attendu:
+            manque = sorted(set(range(nums[0], nums[-1] + 1)) - set(nums))
+            lacunes.append((titre.split(" — ")[0], manque))
+        if precedent is not None and nums[0] < precedent:
+            ruptures.append((titre.split(" — ")[0], precedent, nums[0]))
+        precedent = nums[-1]
+    print(f"[3] definitions manquantes dans une page : {lacunes or 'aucune'}")
+    print(f"[4] discontinuites entre pages voisines  : {ruptures or 'aucune'}")
+    erreurs += len(lacunes) + len(ruptures)
+
     trouves = sorted({c for c in texte if c in INVISIBLES})
-    print(f"[3] caracteres invisibles (Cmd 15) : "
+    print(f"[5] caracteres invisibles (Cmd 15) : "
           f"{[unicodedata.name(c) for c in trouves] or 'aucun'}")
     erreurs += len(trouves)
 
