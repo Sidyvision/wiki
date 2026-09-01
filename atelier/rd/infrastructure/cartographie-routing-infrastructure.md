@@ -19,6 +19,7 @@ links:
   - "[[atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12]]"
   - "[[atelier/rd/infrastructure/monitoring-archive-charte]]"
   - "[[atelier/rd/registre-chantiers]]"
+  - "[[atelier/rd/cahiers/registre-problemes]]"
 ---
 
 # Infrastructure — Cartographie de routing
@@ -34,6 +35,21 @@ links:
 > assume au contraire la lecture diagnostique demandée par Sidy — c'est son
 > **objet exact** (§ci-dessous). Le verdict de toute action de remédiation
 > reste entier à Sidy (Cmd 13) ; rien ici n'est exécuté.
+
+## 0. Vue d'ensemble en un coup d'œil
+
+Pour un agent qui atterrit ici sans contexte — le détail argumenté est dans les
+sections qui suivent, cette table ne fait que le résumer :
+
+| | |
+|---|---|
+| **Hardware** | 1 serveur Hetzner — 2 vCPU AMD EPYC-Rome, 3,7 Gio RAM, 38 Gio disque |
+| **Software** | 14 profils Hermes (12 métier + 2 Karūbī `habib-*`) · `omniroute` (routing LLM, `:20128`) · `hermes-webui` (`:8787`) · Tailscale Funnel |
+| **Canaux (6)** | Git/SSH · Discord · Telegram ×2 (Mehdi, Wendel) · Terminal scopé (`mehdi`, `wendel`) · Webui/Tailscale · API LLM — tous convergent vers le sas `_inbox/` |
+| **État mesuré au 2026-08-31** | RAM libre 136 Mio (critique) · disque 76 % utilisé · 4/12 gateways métier actifs |
+| **Fragilités dominantes** | RAM structurellement sous-dimensionnée (§4.2) · `omniroute` SPoF · quota Qwen récurrent · secrets historiques non révoqués · comptes de service sous root |
+| **Points ouverts non résolus** | [[atelier/rd/cahiers/registre-problemes]], entrées `[2026-09-01]` — gateways en `failed` divergents de la décision du 2026-08-28, profil `commerce` absent |
+| **Aller plus loin** | §1 hardware · §2 software · §3 routing · §4 forts/fragiles · §5 lecture globale · §6 points ouverts |
 
 ## Nature et objet de la fiche
 
@@ -215,10 +231,13 @@ l'incident du 2026-08-28) reste entière à Sidy (Cmd 13).
 
 1. **Écart gateways du 2026-08-31** (§4.2) : pourquoi `ar-music` est actif
    hors de la liste des 3 prioritaires, et pourquoi 7 profils sont en
-   `failed` plutôt qu'`inactive`/`disabled` — à vérifier par lecture directe
-   des logs (`journalctl -u hermes-gateway-*`) avant toute hypothèse.
-2. **Profil `commerce`** absent de `systemctl --user list-units` — à
-   confirmer s'il s'agit d'un autre mécanisme de service ou d'une régression.
+   `failed` plutôt qu'`inactive`/`disabled` — versé au registre des problèmes
+   pour suivi, pas seulement signalé ici :
+   [[atelier/rd/cahiers/registre-problemes]], entrée
+   `[2026-09-01] ouvert | Gateways Discord en failed plutôt qu'inactive`.
+2. **Profil `commerce`** absent de `systemctl --user list-units` — même
+   traitement : [[atelier/rd/cahiers/registre-problemes]], entrée
+   `[2026-09-01] ouvert | Profil Hermes commerce absent du relevé systemd`.
 3. **`ANTHROPIC_AUTH_TOKEN`** redacté sur disque le 2026-08-27 : révocation
    côté fournisseur non confirmée à ce jour.
 4. **CPU / uptime** non remesurés depuis le 2026-08-11 — cette fiche ne

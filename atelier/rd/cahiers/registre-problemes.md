@@ -29,6 +29,49 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-01] ouvert | Profil Hermes `commerce` absent du relevé systemd
+
+- **Symptôme** : `systemctl --user list-units 'hermes-*'` (exécuté en root, relevé
+  persisté du 2026-08-31,
+  `atelier/rd/infrastructure/monitoring-archive/2026-08-31_41dc3e7e492c.txt`) ne
+  liste que 11 unités sur les 12 profils métier attendus — `commerce` n'apparaît
+  ni `active`, ni `failed`, ni `inactive` : absent purement et simplement.
+- **Diagnostic** : non instruit. Aucune hypothèse retenue à ce stade — à vérifier
+  par lecture directe (`systemctl --user status hermes-gateway-commerce`,
+  présence du fichier unit, présence du profil sous
+  `/root/.hermes/profiles/commerce/`) avant toute conjecture.
+- **Résolution** : aucune — signalement pur.
+- **Compréhension tirée** : rien à tirer avant diagnostic.
+- **Liens** : [[atelier/rd/infrastructure/cartographie-routing-infrastructure]]
+  §4.2/§6 (fiche où l'écart a été relevé en confrontant l'inventaire des 12
+  profils à ce relevé).
+- **Statut** : `ouvert`.
+
+## [2026-09-01] ouvert | Gateways Discord en `failed` plutôt qu'`inactive`, état divergent de la décision du 2026-08-28
+
+- **Symptôme** : le 2026-08-28, décision consignée
+  ([[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]])
+  d'arrêter et désactiver 8 gateways non essentiels (`accounting`, `admin-legal`,
+  `ar-music`, `distribution`, `fanzine`, `marketing`, `production`, `visual-da`),
+  3 restant actifs (`gardien`, `studio`, `publication`). Le relevé du 2026-08-31
+  montre un état différent : `ar-music` **actif** (hors de la liste des 3), et
+  7 profils en `failed` (`accounting`, `admin-legal`, `distribution`, `fanzine`,
+  `marketing`, `production`, `visual-da`) — `failed` signale une tentative de
+  démarrage avortée, pas un arrêt volontaire propre (qui donnerait `inactive`).
+- **Diagnostic** : non instruit. Deux pistes non tranchées, à vérifier par lecture
+  directe (`journalctl -u hermes-gateway-<profil>`) avant toute conjecture : (a)
+  les unités sont restées `enabled` malgré l'arrêt du 2026-08-28 et retentent
+  périodiquement, échouant faute de ressources ; (b) une action postérieure non
+  consignée a retenté un démarrage. Aucune des deux n'est privilégiée ici.
+- **Résolution** : aucune — signalement pur.
+- **Compréhension tirée** : un arrêt+désactivation consigné comme fait acquis
+  mérite une reconfirmation périodique — l'état d'un service systemd peut
+  diverger silencieusement de la dernière décision connue sans qu'aucune
+  fiche ne le retienne, si rien ne revient relire l'état réel.
+- **Liens** : [[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]] ;
+  [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] §4.2/§6.
+- **Statut** : `ouvert`.
+
 ## [2026-09-01] Une porte gardée par quelqu'un qui ne regardait personne — et l'outil qui enfreint la règle qu'il fait respecter
 
 ### 1. Le contrôle `lint` exigé par la protection de `main` ne validait rien
