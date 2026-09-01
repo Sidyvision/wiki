@@ -10,6 +10,65 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] instruction | INF-14 instruit : verdicts rendus, sauvegarde du site prise avant tout accès
+
+Troisième passe du jour. Sidy tranche les deux questions laissées ouvertes le matin, et
+propose de transmettre les accès au site.
+
+**Verdict 1 — `sidyvision.com/instrument`**, un chemin plutôt qu'un sous-domaine.
+**Verdict 2 — INS-09 diffusé tel quel**, marqué suggéré. Les deux vont contre la
+recommandation de la machine ; ils sont exécutés tels quels et consignés comme tels.
+
+**Le second verdict est mieux fondé que la recommandation ne le supposait, et le fait
+est établi par vérification, pas concédé par politesse.** La recommandation présumait
+qu'INS-09 laissait en suspens une *correspondance doctrinale*. Le rendu dit autre chose :
+`// -- Filament : al-Insān al-Kāmil (validé 2026-07-01) --`, `verdict Sidy 2026-07-26`,
+et un renvoi à `doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`.
+L'équivalence est **établie et datée**. Ce qu'INS-09 laisse ouvert est le rendu
+*graphique* du filament — une proposition visuelle. Diffuser ne publie donc aucune
+affirmation doctrinale non visée, et le risque que le Cmd 13 vise n'est pas engagé.
+La machinerie du §VII est par ailleurs déjà en place dans le rendu : 17 « établi »,
+libellés `SUGGÉRÉ`, styles pointillés, 10 marqueurs 🔍 ; 21 `etabli` contre 2 `suggere`
+au manifeste.
+
+**Le premier verdict, lui, a un coût qu'il fallait établir avant de promettre quoi que
+ce soit.** Recherche faite : le compte GitHub ne porte que `wiki` et `instrument`.
+**`sidyvision.com` n'a aucune source versionnée** — c'est un déploiement manuel Netlify.
+Servir un *chemin* oblige donc à toucher au déploiement du site, là où un sous-domaine
+ne l'aurait pas fait. Le travail inclut de mettre ce déploiement sous contrôle : c'est
+un gain en soi — un site qu'on ne sait pas redéployer n'est possédé qu'à moitié, ce qui
+contredit la finalité de souveraineté du pôle.
+
+**Sauvegarde prise immédiatement, avant tout accès, avant même la demande de jeton.**
+La page n'existait qu'en un exemplaire, sur le CDN. Une erreur de manipulation l'aurait
+effacée sans recours. Elle est capturée et versionnée : 466 308 octets, SHA-256
+`8411bc96…35aa6`, fiche `2026-09-01_capture-reference-sidyvision-com.md`. Cette
+empreinte devient le **critère 1** du chantier : après mise en service, la page
+d'accueil doit rester octet pour octet identique. Sauvegarder ce qui n'existe qu'une
+fois ne dépendait d'aucun verdict et n'a pas attendu.
+
+L'anomalie de forme relevée le matin — doctype et `<html>` doublés — est **conservée
+telle quelle** dans la capture, délibérément : reproduire la page à l'identique est la
+seule preuve que le chantier n'aura rien altéré. Sa réparation, si Sidy la veut, sera un
+chantier distinct (Cmd 12).
+
+**Dispositif retenu** : dépôt du site créé et rattaché au site Netlify existant (le
+déploiement devient reproductible depuis le serveur), règle `_redirects` réécrivant
+`/instrument/*` vers un second site Netlify lié au dépôt `instrument`, répertoire publié
+`src/`. Les deux dépôts restent **étanches** — le site ne contient pas le rendu, le
+dépôt de rendu ne contient pas le site. Le joint est invisible à l'usage et
+intégralement documenté dans git (art. 6 Sashimono). Aucun identifiant Netlify ne vit
+côté wiki : c'est Netlify qui tire depuis GitHub.
+
+Le `plan.md` d'INF-14 reste en **`brouillon`** : il attend le visa de Sidy et le jeton.
+Il précise que le jeton ne se colle pas dans la conversation — tout ce qui y est écrit
+demeure dans la transcription — et qu'il sera révoqué en fin de chantier.
+
+**Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
+du dépôt. 0 erreur(s), 0 avertissement(s).`
+
+- **Commit** : à compléter ci-dessous
+
 ## [2026-09-01] deploiement | Dépôt de l'Instrument passé public, `main` protégée, INF-14 ouvert
 
 Suite immédiate du chantier du même jour, sur trois verdicts de Sidy : fusionner la
