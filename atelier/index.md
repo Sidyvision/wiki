@@ -37,8 +37,11 @@ tiers. Charte et arborescence : [[atelier/rd/index|charte du pôle R&D]].
   2026-08-08, fiche par fiche ; les anciennes fiches restent en `projets/` comme
   stubs `deprecated` avec pointeur — Cmd 10)
 - `rd/infrastructure/` — serveur, agents, hardware/software ; voir
+  [[atelier/rd/infrastructure/cartographie-routing-infrastructure|cartographie
+  de routing (hardware, software, canaux, points forts/fragiles —
+  2026-09-01)]] pour la vue d'ensemble, et
   [[atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure|pistes
-  de développement infrastructure (2026-08-20)]]
+  de développement infrastructure (2026-08-20)]] pour l'historique des pistes
 - `rd/audio/` — ingénierie son générique
 - `rd/outillage/` — scripts et bancs de test
 - `rd/cahiers/` — cahiers append-only (registre des problèmes, journal des
