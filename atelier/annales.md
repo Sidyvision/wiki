@@ -10,6 +10,64 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] preversion | INF-14 : blocage levé, rendu servi en préversion sous `/instrument`
+
+Cinquième passe. Sidy rectifie le jeton — le premier ouvrait un compte créé le jour même
+et vide, comme l'API l'avait établi. Le second ouvre le compte détenteur : site
+`lively-mousse-a649f7`, domaine propre `sidyvision.com`, alias `sidykouyate.com`,
+dernier déploiement du **2026-05-11**, **aucun dépôt lié**.
+
+**Inventaire avant tout envoi.** Un déploiement Netlify par empreintes **remplace
+l'intégralité du site** : tout fichier non listé disparaît. Il fallait donc savoir ce que
+le site contenait avant d'en envoyer quoi que ce soit. Réponse de l'API : **un seul
+fichier**, `/index.html`, 466 308 octets, SHA-1 `6814d7f4…3334` — soit exactement la
+capture prise en début de journée, empreinte pour empreinte. Rien d'autre à préserver.
+
+C'est le contrôle qui rendait l'opération sûre, et il ne pouvait pas être déduit : un
+site apparemment « d'une seule page » aurait pu porter une favicon, un `robots.txt` ou
+des assets qu'un déploiement partiel aurait effacés sans bruit.
+
+**Préversion, jamais production.** Le déploiement a été monté en **brouillon** — trois
+fichiers : la page d'accueil à l'identique, le rendu sous `/instrument/index.html`, le
+manifeste sous `/instrument/wiki-manifest.json`. Éprouvé :
+
+- production **intacte** — `sidyvision.com` resservi, SHA-1 `6814d7f4…3334` inchangé, et
+  `/instrument/` toujours en **404** en production ;
+- préversion complète — `/` (466 308 o), `/instrument/` (99 871 o),
+  `/instrument/wiki-manifest.json` (44 201 o), tous en 200 ;
+- le rendu servi est **octet pour octet** celui du dépôt frère (SHA-1 `1a6424cf…d0f2`) et
+  porte bien `fetch('wiki-manifest.json', {cache: 'no-cache'})` à la ligne 164 ;
+- le manifeste servi est du JSON valide : 46 nœuds, schéma 0.2.5 ;
+- `/instrument` sans barre oblique finale redirige en **301** vers `/instrument/` —
+  nativement, sans règle à écrire : la contrainte de fraternité de dossier d'INF-13 tient
+  sur le web comme en local.
+
+**Le montage retenu est plus simple que tout ce qui avait été envisagé.** Ni proxy (401
+*edge-access*), ni construction, ni liaison GitHub, ni secret déposé chez un tiers : un
+déploiement direct par l'API, page d'accueil et rendu dans le même site.
+
+**Le garde-fou qui compte.** Puisque chaque passe renvoie la page d'accueil, le script
+vérifie son empreinte SHA-1 **avant** l'envoi et refuse si elle a bougé. Sans lui, une
+capture altérée effacerait silencieusement la page d'accueil — le déploiement par
+empreintes ne pardonne pas l'omission (Cmd 10).
+
+**Contrepartie assumée et dite** : le rendu ne se mettra pas à jour tout seul à la
+poussée sur `main` du dépôt frère. La liaison GitHub → Netlify exige une autorisation par
+navigateur, impossible depuis le serveur. `publier-instrument-netlify.sh` tient lieu
+d'automatisme — versionné, lisible, exécutable par quiconque, ce que la liaison ne serait
+pas. Il n'écrit, n'affiche et ne journalise jamais le jeton, qui vit hors du dépôt en
+`600`.
+
+INF-14 passe en `attente-verdict` : plus rien ne manque **sauf la décision de Sidy** de
+publier. C'est la définition exacte du statut, et le point 4 de l'Action PUBLICATION —
+préversion d'abord, production après validation explicite dans la session courante — est
+non négociable.
+
+**Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
+du dépôt. 0 erreur(s), 0 avertissement(s).`
+
+- **Commit** : à compléter ci-dessous
+
 ## [2026-09-01] blocage | INF-14 : le jeton n'ouvre pas le compte détenteur ; le montage par proxy tombe
 
 Quatrième passe. Sidy dépose un jeton Netlify. Deux constats l'arrêtent net, tous deux

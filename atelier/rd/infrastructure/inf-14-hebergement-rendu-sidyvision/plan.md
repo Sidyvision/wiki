@@ -12,26 +12,35 @@ links:
 
 # INF-14 — plan
 
-> **Statut : `brouillon`** — en attente du visa de Sidy, et **bloqué sur un fait
-> matériel** : le jeton transmis n'ouvre pas le compte qui détient `sidyvision.com`
-> (voir *Blocage* ci-dessous). Aucune manipulation du site en l'état.
+> **Statut : `vise`** — plan approuvé et exécuté jusqu'à la préversion le 2026-09-01.
+> **La mise en production reste en attente de la validation explicite de Sidy**
+> (Action PUBLICATION du label, point 4 — non négociable).
 
-## Blocage constaté le 2026-09-01 — le jeton n'ouvre pas le bon compte
+## Le blocage du compte, levé le 2026-09-01
 
-Le jeton fonctionne : l'API répond, l'identité est `sidyvision@gmail.com`. Mais le
-compte a été **créé le 2026-09-01** et porte **zéro site**, dans une équipe unique
-`sidyvision-qgqrdly` (Free). Or `sidyvision.com` est bien servi par Netlify — en-têtes
-`server: Netlify`, `x-nf-request-id`, DNS pointant sur les répartiteurs de Netlify — et
-un site à domaine propre suppose nécessairement un compte.
+Le premier jeton transmis ouvrait un compte **créé le jour même, portant zéro site** :
+`sidyvision.com` était détenu par un autre compte. Sidy a rectifié. Le second jeton
+ouvre le bon compte — site `lively-mousse-a649f7`, domaine propre `sidyvision.com`,
+alias `sidykouyate.com`, dernier déploiement du 2026-05-11, **aucun dépôt lié**.
 
-**Conclusion, non supposition** : le site est détenu par un **autre compte Netlify** que
-celui du jeton. Vraisemblablement une autre adresse de courriel, ou un compte ouvert par
-un tiers ayant réalisé la page. Tant que le jeton du compte détenteur n'est pas
-disponible, les étapes 2, 3 et 5 ne peuvent pas commencer — non par prudence, mais parce
-que l'API ne voit pas le site.
+## Le montage retenu, après épreuve
 
-Ce qui a pu avancer sans lui a avancé : la sauvegarde (étape 0) et la préversion
-(étape 4) sont faites.
+Le proxy est écarté (401 *edge-access*, voir étape 3). Le montage effectif est plus
+simple encore que la voie 1 envisagée : **un déploiement direct par l'API**, portant la
+page d'accueil et le rendu dans le même site. Aucune construction, aucune liaison
+GitHub, aucun secret dans un service tiers.
+
+**Conséquence à connaître** : le déploiement par empreintes **remplace l'intégralité du
+site** — tout fichier non listé disparaît. La page d'accueil est donc renvoyée à chaque
+passe, et le script vérifie son empreinte SHA-1 *avant* l'envoi. Sans ce garde-fou, une
+capture altérée effacerait silencieusement la page. C'est le contrôle le plus important
+du chantier.
+
+**Contrepartie assumée** : le rendu ne se met pas à jour tout seul à la poussée sur
+`main` du dépôt frère. La liaison GitHub → Netlify exige une autorisation par navigateur
+qui ne se fait pas depuis le serveur. Le script tient lieu d'automatisme, et il a
+l'avantage d'être lisible, versionné et exécutable par n'importe qui — ce que la
+liaison, elle, ne serait pas.
 
 ## Étape 0 — la sauvegarde d'abord, avant tout accès
 
