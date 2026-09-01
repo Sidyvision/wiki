@@ -14,6 +14,60 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] restauration | `projet-unifie/` réorganisé par régime ; l'état des travaux enfin actualisé
+
+Dernière passe de la journée, sur demande de Sidy : rafraîchir les fiches du dossier, ou
+mieux, réorganiser le dossier lui-même de façon à synthétiser l'état actuel et à séparer
+l'archive du contexte.
+
+**Le défaut.** Quarante fichiers à plat. Le README déclarait cinq régimes depuis le matin,
+mais **l'arborescence n'en portait aucun** : rien ne distinguait au premier regard une
+pièce vivante d'un compte-rendu vieux de deux mois. C'est la confusion la plus coûteuse de
+ce dossier — lire un jalon daté comme s'il décrivait l'état courant. Déclarer un régime ne
+suffit pas ; il faut que le rangement le rende évident.
+
+**Les régimes passent dans l'arborescence.** `archives/` (21 jalons datés — tests
+Ornith/Qwen, installations Hermes, architecture Discord, calibration zodiacale, briefings,
+exports, et les trois fiches du 2026-08-23 versées le matin même) ; `propositions/` (les
+sept, chacune portant l'état daté de son exécution) ; `outillage/` (les deux harnais de
+non-régression). À la racine ne reste que le **noyau de pilotage** : `00` à `04`, la file
+d'idées, la directive de discernement, le framework d'étude de cas.
+
+**Sur les chemins d'avant.** Déplacements par `git mv`, l'historique suit. Les 36 wikilinks
+vivants sont repointés ; les **8 citations logées dans les annales et les cahiers
+append-only ne le sont pas** — un journal ne se corrige pas après coup, et ces citations
+sont exactes pour leur date. Le README porte la table de correspondance : ajouter
+`archives/`, `propositions/` ou `outillage/` selon la pièce.
+
+**Les fiches actualisées.** Le §3 de `01-contexte-demarche-etat` devient une **vraie
+synthèse d'état au 2026-09-01**, relevée mécaniquement : les deux faces du projet et où
+elles en sont, l'infrastructure et les agents, le dépôt comme laboratoire, puis un tableau
+d'une phrase par poste sur ce qui bloque. L'ancien snapshot du 2026-07-01 devient §3 bis,
+conservé et ne faisant plus foi (Cmd 10) ; la chronologie est prolongée jusqu'à ce jour.
+`02` reçoit un encart disant qu'elle donne la **démarche et non l'avancement** — elle
+renvoyait encore à l'architecture v0.2 quand la v0.3 est courante depuis le 2026-08-25.
+`03` en reçoit un autre : **l'objectif de souveraineté tient, le scénario est dépassé** —
+Ornith puis Qwen sur RunPod ne sont plus en vigueur depuis la bascule OmniRoute ; ce qui
+reste vrai y est nommé, ce qui est caduc aussi.
+
+**Le README est réécrit** : la carte du dossier suit l'arborescence réelle, dit où va le
+regard en premier — l'état des travaux au §3 de `01`, les chantiers au registre du pôle
+R&D, les décisions en attente au §Points ouverts de ce registre — et sépare ce qui se
+charge dans un projet Claude.ai de ce qui reste au serveur. `meta-index` est restructuré
+par sous-dossier, chaque entrée portant son régime ; toute fiche du dossier a bien un lien
+entrant intra-`meta/` (règle du hub, vérifiée mécaniquement).
+
+**Ce qui ne bouge pas de ce domaine** : les motifs sensibles, la configuration des agents,
+la matière personnelle (§VI). Le suivi des chantiers, lui, a définitivement quitté les
+backlogs de `04-` pour le registre du pôle R&D — le renvoi va de `meta/` vers `rd/`,
+jamais l'inverse.
+
+**Vérification** : `verifier-invariants.py` → `0 erreur(s), 0 avertissement(s)` sur
+711 fiches. Cmd 15 : aucun caractère invisible.
+
+- **Commit** : dad047c
+
+
 ## [2026-09-01] versement | Trois fiches de fait personnel rapatriées d'`atelier/rd/` ; guide du vérificateur amendé
 
 Second volet de la journée, sur verdict de Sidy (voir `atelier/annales.md`, même date).
