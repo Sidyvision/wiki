@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [lexicographie, terminologie, theologie, logique, soufisme, droit, grammaire, prosodie]
 created: 2026-06-30
-updated: 2026-08-30
+updated: 2026-09-01
 sources: ["[[doctrinal/autorites/al-jurjani]]"]
 sources_count: 1
-cross_links: ["[[doctrinal/autorites/al-jurjani]]", "[[doctrinal/sources/kitab-tarifat-index-transcription]]", "[[doctrinal/symboles/wahdat-al-wujud]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/symboles/al-insan-al-kamil]]"]
+cross_links: ["[[doctrinal/autorites/al-jurjani]]", "[[doctrinal/sources/kitab-tarifat-index-transcription]]", "[[doctrinal/sources/kitab-tarifat-corps-transcription]]", "[[doctrinal/symboles/wahdat-al-wujud]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/symboles/al-insan-al-kamil]]"]
 ---
 
 # Kitāb al-Taʿrīfāt — Le Livre des définitions
@@ -25,7 +25,23 @@ Le corps du texte est organisé par lettre de l'alphabet arabe, de l'alif jusqu'
 
 ## Périmètre de cette ingestion (2026-06-30)
 
-L'appareil de fin d'ouvrage a été intégralement transcrit (88 pages) — voir le document compagnon [[doctrinal/sources/kitab-tarifat-index-transcription]] : tableau de translittération, classification des mètres, classement par thèmes (légende), index coranique complet, index des noms de personnes complet, index des termes arabes complet (A → Z), lexique français complet (A → Z), et table des matières complète de l'ouvrage. **Le corps des définitions lui-même n'a pas été ingéré** — cette fiche-ci documente la structure et l'identité bibliographique de l'ouvrage ; le document compagnon documente son appareil de référence. Une ingestion ultérieure du corps du texte (par lettre ou par thème) reste à mener si Sidy le souhaite.
+L'appareil de fin d'ouvrage a été intégralement transcrit (88 pages) — voir le document compagnon [[doctrinal/sources/kitab-tarifat-index-transcription]] : tableau de translittération, classification des mètres, classement par thèmes (légende), index coranique complet, index des noms de personnes complet, index des termes arabes complet (A → Z), lexique français complet (A → Z), et table des matières complète de l'ouvrage. **Le corps des définitions n'avait pas été ingéré à cette date** (levé le 2026-09-01, voir ci-dessous) — cette fiche-ci documente la structure et l'identité bibliographique de l'ouvrage ; le document compagnon documente son appareil de référence. Une ingestion ultérieure du corps du texte (par lettre ou par thème) reste à mener si Sidy le souhaite.
+
+## Corps des définitions — versement du 2026-09-01
+
+Les 54 clichés distincts de `raw/Transcription Jurjani/` ont été transcrits intégralement
+dans le document compagnon [[doctrinal/sources/kitab-tarifat-corps-transcription]] :
+**52 pages, 205 définitions**, plus une annexe de **15 définitions** (déf. 0561-0567 et
+1235-1242) reprise d'une transcription antérieure de `raw/` dont les pages ne figurent
+pas parmi les clichés — soit **220 définitions distinctes, de 0010 à 1864**. Les pages
+photographiées ne forment pas un intervalle continu : l'inventaire du document compagnon
+donne la liste exacte. Contrôle mécanique :
+`atelier/rd/outillage/verifier-transcription-jurjani.py` (54/54 clichés cités, 0 anomalie).
+
+Deux définitions de cette annexe portent sur un dossier ouvert : **déf. 0563** (*al-ḥâl*)
+et **déf. 1237** (*al-qabḍ* / *al-basṭ*) classent qabḍ et basṭ parmi les *aḥwāl* et
+donnent la règle qui distingue *ḥâl* de *maqâm* — voir
+[[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]].
 
 ## Transcriptions intégrées (2026-08-25)
 
