@@ -10,6 +10,64 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] deploiement | Dépôt de l'Instrument passé public, `main` protégée, INF-14 ouvert
+
+Suite immédiate du chantier du même jour, sur trois verdicts de Sidy : fusionner la
+branche dans `main`, passer le dépôt frère en public, servir le rendu depuis
+`sidyvision.com`.
+
+**Contrôle avant bascule.** La mise en public n'a pas été faite sur la seule
+autorisation : le manifeste et le prototype ont d'abord été passés au crible
+(identifiants, chemins serveur, adresses, renvois vers `meta/`). Résultat — rien
+au-delà de vingt mentions de « Sidy », qui sont des mentions de verdict. Et le dépôt
+`wiki` étant **lui-même déjà public**, la bascule n'exposait rien de neuf. Le contrôle
+valait quand même : il ne pouvait être connu qu'après avoir été fait.
+
+**Ce que la mise en public a débloqué.** La protection serveur de `main`, refusée en
+403 quelques minutes plus tôt sur le dépôt privé, est devenue disponible et a été
+posée : `enforce_admins` actif, force-push et suppression interdits. **Épreuve réelle
+faite** — un commit vide poussé sur `main` a été refusé, `remote rejected (protected
+branch hook declined)`, propriétaire compris. C'est précisément le contrôle que PRO-01
+enseignait à exiger : la veille, une protection existait sur ce dépôt-ci sans rien
+regarder. Le garde-fou local du dépôt frère reste en place — il ne fait plus double
+emploi, il agit **avant** le push, là où la protection agit après.
+
+**Conséquence de flux à signaler.** `enforce_admins: true` impose désormais un passage
+par pull request pour toute modification du dépôt frère, propriétaire inclus. C'est
+plus strict que la doctrine de ce dépôt-ci, où PRO-01 a délibérément **écarté** le flux
+par pull request pour ne pas l'imposer à Sidy et aux douze agents. Écart assumé et
+tenable ici — le dépôt frère est petit et ne reçoit pas d'écriture d'agent — mais il
+est consigné pour ne pas se découvrir en travers d'une session pressée.
+
+**INF-14 ouvert — hébergement sur `sidyvision.com`.** Le dépôt ne portait aucune trace
+du site : zéro occurrence sur `.md`, `.yml`, `.py`. Le site a donc été **sondé plutôt
+que supposé**. Il répond `HTTP 200`, `www` y redirige, l'en-tête `server: Netlify` et
+l'identifiant `x-nf-request-id` désignent l'hébergeur. Page unique, statique, « Dans
+l'Absolu — Sidy Kouyaté », dont le corps entier est une image JPEG en base64 (≈466 Ko).
+Pas de CMS.
+
+*Anomalie relevée et non corrigée* (Cmd 12) : la page porte **deux `<!DOCTYPE html>` et
+deux `<html>` imbriqués** — un document complet collé dans un autre. Les navigateurs le
+tolèrent, le document est invalide. Sans rapport avec l'Instrument ; signalé parce que
+constaté.
+
+Le dossier INF-14 ne porte **qu'un `intent.md`**, et c'est un état régulier de la
+convention ouverte ce matin : la spécification attend deux verdicts (sous-domaine ou
+chemin ; sort d'INS-09, rendu non validé, dans une première diffusion publique).
+Spécifier un hébergement qu'on n'a pas encore décidé serait de la colle, pas un joint.
+
+La table de synthèse §0 du registre était en retard de deux chantiers ; elle a été
+**recomptée mécaniquement** depuis les lignes elles-mêmes, non ajustée à la main —
+48 chantiers, 31 ouverts, 3 en cours.
+
+**Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
+du dépôt. 0 erreur(s), 0 avertissement(s).`
+
+**Reste différé** (Cmd 13) : l'automatisation du manifeste (PAT + workflow) ; les deux
+verdicts d'INF-14.
+
+- **Commit** : 074aa9c
+
 ## [2026-09-01] ouverture | Triptyque de chantier au pôle rd/ + scission du dépôt de l'Instrument
 
 Session demandée par Sidy à la lecture du *AI-Native SDLC Playbook* (Claude Academy),

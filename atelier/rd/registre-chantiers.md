@@ -75,13 +75,13 @@ modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
 | Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
 |---|---|---|---|---|---|
 | `INS` Instrument | 10 | — | 1 | 3 | **14** |
-| `INF` Infrastructure & agents | 6 | 2 | 1 | 3 | **12** |
+| `INF` Infrastructure & agents | 7 | 3 | 1 | 3 | **14** |
 | `OUT` Outillage & scripts | 5 | — | 1 | — | **6** |
 | `BIB` Bibliothèque | 1 | — | 1 | — | **2** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 2 | **5** |
 | `DOC` Doctrinal | 4 | — | — | 1 | **5** |
-| **Total** | **30** | **2** | **5** | **9** | **46** |
+| **Total** | **31** | **3** | **5** | **9** | **48** |
 
 **Ce que ce tableau dit d'abord** : 9 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
@@ -150,7 +150,8 @@ non dépouillées dans cette passe → §8.*
 | INF-10 | Contrôle anti-fabulation `coherence-infrastructure-brute` — second job cron en échec, non documenté | `ouvert` | diagnostiquer | [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-08-18]` | — | 2026-08-18 |
 | INF-11 | Continuité des tâches et de l'information entre Claude Code, Hermes Terminal et Discord — angle mort structurel (un cron « créé » le 2026-08-17 n'existait pas) | `ouvert` | c'est le motif d'existence du champ `infra_verif` ; reste à couvrir le passage d'information | registre des problèmes, entrée `[2026-08-17]` | — | 2026-08-17 |
 | INF-12 | Positions zodiacales 5, 8 et 12 des agents : les douze brouillons existent sur disque (2026-08-15), mais le compte-rendu de chantier les donne « non traitées, en attente de verdict » — contradiction non levée | `attente-verdict` | confronter brouillons et verdict | `atelier/rd/cahiers/brouillons-extension-zodiacale/` ; jalon du 2026-08-20, P4.9 | — | 2026-08-11 |
-| INF-13 | Scission du dépôt : le rendu de l'Instrument passe au dépôt frère `Sidyvision/instrument` (privé) — le §VII, *Règle commune des MANIFESTES*, exprimé en infrastructure plutôt qu'en discipline | `en-cours` | dépôt frère créé, garde-fou local posé ; restent **différés** (Cmd 13) : automatisation du manifeste (PAT + workflow), et bascule en public — qui seule rendrait la protection serveur de `main` disponible (403 sur privé en plan gratuit) | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | 2026-09-01 |
+| INF-13 | Scission du dépôt : le rendu de l'Instrument passe au dépôt frère `Sidyvision/instrument` (privé) — le §VII, *Règle commune des MANIFESTES*, exprimé en infrastructure plutôt qu'en discipline | `en-cours` | **clos pour l'essentiel** : dépôt frère créé, **passé public** le 2026-09-01 (verdict Sidy), `main` protégée avec `enforce_admins` actif et **épreuve réelle du refus faite**. Reste différée (Cmd 13) : l'automatisation du manifeste (PAT + workflow) — l'étage manuel fonctionne | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | 2026-09-01 |
+| INF-14 | Hébergement du rendu de l'Instrument sur `sidyvision.com` (Netlify, constaté le 2026-09-01) — un dépôt n'est pas une diffusion | `ouvert` | deux verdicts de Sidy attendus : sous-domaine ou chemin ; et le sort d'INS-09, rendu non validé, dans une première diffusion publique | [[atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/intent]] | [[atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/intent]] (intention seule — la spécification attend les verdicts) | 2026-09-01 |
 
 ## 3. Outillage & scripts (`OUT`)
 

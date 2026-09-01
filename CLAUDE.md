@@ -369,7 +369,8 @@ jamais le markdown directement. Deux manifestes existent :
 
 5. **Le producteur reste en amont, le consommateur part en aval** (amendement
    2026-09-01, verdict Sidy — chantier INF-13). Le rendu de l'Instrument vit dans un
-   **dépôt frère**, `Sidyvision/instrument` (privé), séparé de ce dépôt-ci. Ce n'est
+   **dépôt frère**, `Sidyvision/instrument` (public depuis le 2026-09-01, `main`
+   protégée, `enforce_admins` actif), séparé de ce dépôt-ci. Ce n'est
    pas une commodité d'organisation : c'est la règle du sens unique ci-dessus
    exprimée en infrastructure plutôt qu'en discipline — tant que la source et
    l'interface partagent un arbre git, le sens unique ne tient que par la vigilance.
@@ -380,7 +381,13 @@ jamais le markdown directement. Deux manifestes existent :
    **poussé depuis ce dépôt**, jamais tiré par l'interface — un dépôt destiné à
    devenir public ne détient à aucun moment de droit de lecture sur celui-ci. Le
    dépôt frère n'établit aucune correspondance (Cmd 3, Cmd 12) et ne réécrit rien
-   ici. Chantier : `atelier/rd/infrastructure/inf-13-scission-depot-instrument/`.
+   ici. **Le rendu est servi depuis `sidyvision.com`** (verdict Sidy, 2026-09-01) —
+   le dépôt frère porte la source, le site porte la diffusion ; ce troisième étage
+   ne change pas le sens du flux, il le prolonge. La porte humaine de la
+   *préversion avant production* vaut ici comme pour le site du label
+   (`label/CLAUDE.md`, Action PUBLICATION, point 4) : aucune exception. Chantiers :
+   `atelier/rd/infrastructure/inf-13-scission-depot-instrument/` (la scission) et
+   INF-14 (l'hébergement).
 
 Le détail propre au flux de publication du site (`label/`) vit dans
 `label/CLAUDE.md`, Action PUBLICATION.
