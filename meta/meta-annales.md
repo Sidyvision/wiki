@@ -49,7 +49,7 @@ fraternité de dossier rendu/manifeste, et la porte humaine `PUBLIER=1`.
 Réversible sur simple verdict — retirer la sous-section et le pointeur rend au protocole
 son état antérieur (Cmd 10).
 
-- **Commit** : à compléter ci-dessous
+- **Commit** : e02f519
 
 ## [2026-09-01] amendement | Protocole racine §VII : le rendu de l'Instrument passe à un dépôt frère
 

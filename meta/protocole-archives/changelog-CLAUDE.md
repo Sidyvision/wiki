@@ -49,7 +49,7 @@ seule (Cmd 14).
 **Réversibilité (Cmd 10)** : retirer la sous-section du §VII et le pointeur de clôture
 rend au protocole son état antérieur.
 
-- **Commit** : à compléter ci-dessous
+- **Commit** : e02f519
 
 ## [2026-09-01] amendement | Scission du rendu de l'Instrument + triptyque de chantier au pôle rd/
 

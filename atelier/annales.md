@@ -44,7 +44,7 @@ une session pressée.
 **Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
 du dépôt. 0 erreur(s), 0 avertissement(s).`
 
-- **Commit** : à compléter ci-dessous
+- **Commit** : e02f519
 
 ## [2026-09-01] alignement | `enforce_admins` aligné sur PRO-01 — et un contrôle qui ne regardait rien, dans du code neuf
 
