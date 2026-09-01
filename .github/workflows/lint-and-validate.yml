@@ -1,5 +1,20 @@
 name: Lint & Validate Wiki
 
+# Le job s'appelle `lint` et ne doit PAS être renommé : c'est le contexte exigé
+# par la protection de la branche `main` (`required_status_checks.contexts`).
+# Le renommer laisserait la branche gardée par un contrôle qui n'existe plus.
+#
+# Réparé le 2026-09-01 (chantier PRO-01). Jusque-là, ce workflow parcourait un
+# dossier `wiki/` et exigeait des dossiers `wiki/entities`, `wiki/concepts`,
+# `wiki/schema`… — l'arborescence plate abandonnée par la Restauration Guénon V1
+# du 2026-06-11. Aucun de ces chemins n'existe. Le job inspectait donc zéro
+# fichier et affichait « Frontmatter OK » et « 0 avertissements » sur rien : un
+# feu vert qui ne pouvait pas passer au rouge, exigé par la protection de `main`.
+# Il gardait une porte en ne regardant jamais personne.
+#
+# Il exécute désormais les contrôles déterministes que le dépôt s'est réellement
+# donnés (§VIII : sans LLM, sans réseau, le script est le seul verdict autorisé).
+
 on:
   push:
     branches: [main]
@@ -19,83 +34,68 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install deps
-        run: pip install pyyaml markdown
+      # verifier-invariants.py n'utilise que la bibliothèque standard : aucune
+      # dépendance à installer, donc rien qui puisse casser le contrôle en amont
+      # de ce qu'il contrôle.
 
-      - name: Validate frontmatter (YAML)
+      - name: Invariants du dépôt (bloquant)
+        run: python3 verifier-invariants.py --racine .
+
+      - name: Hygiène Unicode — Cmd 15 (bloquant)
         run: |
-          python3 -c "
-          import yaml, sys, os
-          errors = 0
-          for root, dirs, files in os.walk('wiki'):
-              for f in files:
-                  if f.endswith('.md'):
-                      path = os.path.join(root, f)
-                      with open(path) as fp:
-                          content = fp.read()
-                      if content.startswith('---'):
-                          try:
-                              fm_end = content.index('---', 3)
-                              fm = content[3:fm_end]
-                              yaml.safe_load(fm)
-                          except Exception as e:
-                              print(f'::error file={path}::Frontmatter YAML invalide: {e}')
-                              errors += 1
-                      else:
-                          print(f'::warning file={path}::Pas de frontmatter')
-                          errors += 1
-          if errors:
+          python3 - <<'PY'
+          import pathlib, subprocess, sys
+          # Caractères invisibles interdits sans réserve par le Cmd 15 : ils
+          # peuvent masquer du code, contourner un filtre ou corrompre une
+          # donnée structurée. Motif : l'incident ZWJ du 2026-08-22
+          # (atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md).
+          # Jamais de caractère invisible littéral dans ce fichier : on les
+          # désigne par leur point de code (Cmd 15 vaut aussi pour l'outil qui
+          # le fait respecter).
+          INTERDITS = {
+              "\u200b": "U+200B ZERO WIDTH SPACE",
+              "\u200c": "U+200C ZERO WIDTH NON-JOINER",
+              "\u200d": "U+200D ZERO WIDTH JOINER",
+              "\u200e": "U+200E LEFT-TO-RIGHT MARK",
+              "\u200f": "U+200F RIGHT-TO-LEFT MARK",
+          }
+          suivis = subprocess.run(
+              ["git", "ls-files", "-z", "*.md"],
+              capture_output=True, check=True,
+          ).stdout.decode("utf-8", "replace").split("\0")
+
+          fautes = 0
+          for rel in filter(None, suivis):
+              texte = pathlib.Path(rel).read_text(encoding="utf-8", errors="replace")
+              for n, ligne in enumerate(texte.split("\n"), 1):
+                  for car, nom in INTERDITS.items():
+                      if car in ligne:
+                          print(f"::error file={rel},line={n}::Cmd 15 — {nom} interdit")
+                          fautes += 1
+              # BOM toléré en tête de fichier, jamais en son milieu.
+              if "\ufeff" in texte[1:]:
+                  print(f"::error file={rel}::Cmd 15 — U+FEFF en milieu de fichier")
+                  fautes += 1
+
+          print(f"{len(list(filter(None, suivis)))} fiche(s) suivie(s) par git inspectée(s).")
+          if fautes:
+              print(f"{fautes} occurrence(s) de caractère invisible.")
               sys.exit(1)
-          print('Frontmatter OK')
-          "
+          print("Hygiène Unicode OK.")
+          PY
 
-      - name: Check internal links
+      - name: Cohérence de l'infrastructure déclarée (informatif)
+        # Confronte les `infra_verif` des fiches à la configuration Hermes
+        # réelle. Non bloquant en CI : le runner n'a pas accès aux profils
+        # `/root/.hermes/` de la machine d'exécution, le contrôle n'y est donc
+        # pas concluant. Il reste bloquant côté serveur, où il a du sens.
         run: |
-          python3 -c "
-          import os, re, sys
-          errors = 0
-          md_files = {}
-          for root, dirs, files in os.walk('wiki'):
-              for f in files:
-                  if f.endswith('.md'):
-                      path = os.path.join(root, f)
-                      rel = os.path.relpath(path, 'wiki')
-                      md_files[rel] = path
-                      md_files[rel.replace('.md', '')] = path
-          for rel, path in md_files.items():
-              with open(path) as fp:
-                  content = fp.read()
-              links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', content)
-              for text, link in links:
-                  if link.startswith('http') or link.startswith('mailto:'):
-                      continue
-                  if link.startswith('#'):
-                      continue
-                  target = link.split('#')[0]
-                  if target and target not in md_files:
-                      base = os.path.dirname(rel)
-                      candidate = os.path.normpath(os.path.join(base, target))
-                      if candidate not in md_files and target + '.md' not in md_files:
-                          print(f'::warning file={path}::Lien interne potentiellement cassé: {link}')
-                          errors += 1
-          print(f'Vérification liens: {errors} avertissements')
-          "
+          if [ -f atelier/rd/outillage/verifier-coherence-infrastructure.py ]; then
+            python3 atelier/rd/outillage/verifier-coherence-infrastructure.py || true
+          fi
 
-      - name: Validate structure
+      - name: Fichiers présents mais non suivis par git (informatif)
         run: |
-          python3 -c "
-          import os, sys
-          required_dirs = [
-              'wiki/entities', 'wiki/concepts', 'wiki/sources',
-              'wiki/analyses', 'wiki/logs', 'wiki/schema',
-              'raw/assets'
-          ]
-          missing = []
-          for d in required_dirs:
-              if not os.path.isdir(d):
-                  missing.append(d)
-          if missing:
-              print(f'::warning::Dossiers manquants: {missing}')
-          else:
-              print('Structure OK')
-          "
+          if [ -f atelier/rd/outillage/detecter-non-tracke.py ]; then
+            python3 atelier/rd/outillage/detecter-non-tracke.py || true
+          fi
