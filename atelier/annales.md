@@ -66,7 +66,7 @@ du dépôt. 0 erreur(s), 0 avertissement(s).`
 **Reste différé** (Cmd 13) : l'automatisation du manifeste (PAT + workflow) ; les deux
 verdicts d'INF-14.
 
-- **Commit** : 074aa9c
+- **Commit** : 52b23a0
 
 ## [2026-09-01] ouverture | Triptyque de chantier au pôle rd/ + scission du dépôt de l'Instrument
 
