@@ -10,6 +10,42 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] epreuve | Les quatre contrôles du jour, éprouvés par leur échec
+
+Neuvième et dernière passe. Sidy verse au protocole la règle dégagée à la passe
+précédente (§VII, *Épreuve des contrôles* — voir `meta/meta-annales.md` pour
+l'amendement lui-même). Reste à ne pas en faire une phrase : elle s'applique d'abord à ce
+qui vient d'être écrit.
+
+**Quatre contrôles écrits aujourd'hui n'avaient été vus que verts.** Chacun a été mis en
+défaut dans un bac à sable, sur la faute exacte qu'il doit attraper, puis l'état sain
+restauré :
+
+| Contrôle | Faute fabriquée | Résultat observé |
+|---|---|---|
+| Garde-fou d'empreinte du workflow GitHub | page d'accueil altérée d'un commentaire | refus — `9caa43d0…` ≠ `6814d7f4…` |
+| Garde-fou d'empreinte de `publier-instrument-netlify.sh` | capture de référence altérée | refus, sortie 3, empreintes affichées |
+| Hygiène Unicode du hook `pre-commit` | ZWJ injecté dans un fichier suivi | refus — « Cmd 15 — caractères Unicode invisibles détectés » |
+| Divergence de fond de `publier-manifeste-instrument.sh` | un nœud retiré du manifeste | refus — « DIVERGENCE DE FOND », renvoi au Cmd 12 |
+
+Deux autres avaient déjà été éprouvés dans les deux sens plus tôt : la fraternité de
+dossier rendu/manifeste (verte sur le dépôt sain, refusant quand le manifeste est retiré)
+et la porte humaine `PUBLIER=1` (refusant sans la variable, passant avec).
+
+Aucun dépôt vivant n'a été touché pour ces épreuves : copies jetables et clones
+temporaires, supprimés ensuite.
+
+**Ce que la journée aura montré, et qui dépasse ces quatre lignes.** La règle n'a pas été
+déduite : elle a été payée. Deux fois, à un jour d'intervalle, et la seconde par la
+machine qui venait de consigner la première. C'est la raison pour laquelle elle entre au
+protocole plutôt que de rester une bonne habitude — une bonne habitude ne survit pas à
+une session pressée.
+
+**Vérification structurelle** (§VII, brut) : `721 fichier(s) .md contrôlé(s) — périmètre
+du dépôt. 0 erreur(s), 0 avertissement(s).`
+
+- **Commit** : à compléter ci-dessous
+
 ## [2026-09-01] alignement | `enforce_admins` aligné sur PRO-01 — et un contrôle qui ne regardait rien, dans du code neuf
 
 Huitième passe. Sidy demande d'aligner le dépôt frère sur la doctrine du wiki.

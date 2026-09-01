@@ -14,6 +14,43 @@ reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] amendement | §VII — *Épreuve des contrôles* versée au protocole racine
+
+Consigné ici comme tout amendement du protocole racine. Le récit du chantier qui l'a fait
+naître vit dans `atelier/annales.md`, même jour.
+
+**La règle** : *un contrôle dont on n'a pas vu l'échec n'est pas un contrôle vérifié.*
+Elle est versée au §VII, après *Double contrôle systématique*, dont elle partage la
+nature — un contrôle de relevé, qui ne tranche rien.
+
+**Elle ne vient pas d'une idée, mais d'une facture payée deux fois.** Le 2026-08-31,
+PRO-01 établissait que la porte de `main` était gardée par un contrôle `lint` qui ne
+regardait rien. Le 2026-09-01, les hooks du dépôt de rendu se sont révélés porter un
+motif `grep` sans aucune correspondance — écrits le jour même, par la machine qui venait
+de consigner PRO-01, et découverts par accident. Deux fois la même forme : le contrôle
+n'est pas faux, il est **muet**, donc il paraît vert.
+
+**Application immédiate à la session qui l'a produite**, sans quoi la règle serait restée
+une phrase. Les quatre contrôles écrits ce jour et jamais vus refuser ont été éprouvés en
+bac à sable, et tous ont refusé :
+
+| Contrôle | Faute fabriquée | Résultat |
+|---|---|---|
+| Garde-fou d'empreinte, workflow GitHub | page d'accueil altérée | refus, empreintes affichées |
+| Garde-fou d'empreinte, `publier-instrument-netlify.sh` | capture altérée | refus, sortie 3 |
+| Hygiène Unicode, hook `pre-commit` | ZWJ injecté dans un fichier suivi | refus, commit bloqué |
+| Divergence de fond, `publier-manifeste-instrument.sh` | un nœud retiré du manifeste | refus, renvoi au Cmd 12 |
+
+S'y ajoutent les deux contrôles déjà éprouvés dans les deux sens en cours de session : la
+fraternité de dossier rendu/manifeste, et la porte humaine `PUBLIER=1`.
+
+**Placement et non-duplication** (Cmd 14) : la lettre vit au §VII racine, transversal ; la
+*Vigilance documentaire (clôture de session)* n'en porte qu'un pointeur d'une ligne.
+Réversible sur simple verdict — retirer la sous-section et le pointeur rend au protocole
+son état antérieur (Cmd 10).
+
+- **Commit** : à compléter ci-dessous
+
 ## [2026-09-01] amendement | Protocole racine §VII : le rendu de l'Instrument passe à un dépôt frère
 
 Consigné ici parce que deux choses relèvent du Domaine Réservé : l'amendement du

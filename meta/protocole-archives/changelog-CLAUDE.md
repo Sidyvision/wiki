@@ -17,6 +17,40 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-01] amendement | §VII — Épreuve des contrôles
+
+**Verdict Sidy**, en clôture de la session du 2026-09-01, sur signalement de la machine.
+
+**La règle** : *un contrôle dont on n'a pas vu l'échec n'est pas un contrôle vérifié.*
+Tout dispositif mécanique de vérification — hook git, tâche de CI, validateur, garde-fou
+de script, champ `infra_verif` — doit avoir été **vu refuser**, sur une faute fabriquée
+exprès dans un bac à sable, avant qu'on lui fasse confiance. Passer au vert est une
+condition nécessaire et jamais suffisante.
+
+**Pourquoi elle entre au protocole.** Le dépôt a payé deux fois la même erreur à un jour
+d'intervalle : le contrôle `lint` qui gardait `main` sans rien inspecter (PRO-01,
+2026-08-31), et les hooks du dépôt de rendu dont le motif `grep` ne correspondait à rien
+(INF-14, 2026-09-01) — ce second cas écrit le jour même par la machine qui venait de
+consigner le premier. La forme de la faute est invariable : le contrôle est **muet**, non
+pas faux, donc il paraît vert. Un motif qui ne correspond à rien, une liste de fichiers
+vide, une dépendance absente, un chemin périmé.
+
+**Le geste exigé** : vert sur l'état sain, puis refus observé sur la faute fabriquée,
+puis retour à l'état sain — les deux résultats consignés aux annales. Un contrôle dont
+l'entrée ne rapporte que le vert est réputé non éprouvé. Corollaire : un dispositif
+hérité jamais vu échouer n'est pas réputé fonctionner ; le doute se rapporte et ne se
+corrige pas d'office (Cmd 12).
+
+**Placement** : §VII, après *Double contrôle systématique*, dont il partage la nature —
+un contrôle de relevé, qui ne tranche rien. Un pointeur, sans duplication de la lettre,
+est posé dans la *Vigilance documentaire (clôture de session)*. Transversal, donc racine
+seule (Cmd 14).
+
+**Réversibilité (Cmd 10)** : retirer la sous-section du §VII et le pointeur de clôture
+rend au protocole son état antérieur.
+
+- **Commit** : à compléter ci-dessous
+
 ## [2026-09-01] amendement | Scission du rendu de l'Instrument + triptyque de chantier au pôle rd/
 
 **Verdict Sidy**, session du 2026-09-01, à la lecture du *AI-Native SDLC Playbook*

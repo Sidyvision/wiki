@@ -10,7 +10,9 @@ la dispersion mentale.
 
 > **Historique des révisions** : conservé intégralement dans
 > `meta/protocole-archives/changelog-CLAUDE.md` (append-only, chronologique
-> inverse). Dernières révisions : **2026-09-01** (§VII, règle 5 des manifestes —
+> inverse). Dernières révisions : **2026-09-01** (§VII, *Épreuve des contrôles* —
+> un contrôle dont on n'a pas vu l'échec n'est pas vérifié ; motifs PRO-01 et
+> INF-14 ; §VII, règle 5 des manifestes —
 > scission du rendu de l'Instrument vers le dépôt frère `Sidyvision/instrument`,
 > ligne de coupe producteur/consommateur ; arbre du §II annoté ; triptyque de
 > chantier ouvert au pôle `rd/`, lettre dans `atelier/CLAUDE.md`), **2026-08-31** (`Graphe/` déplacé et renommé
@@ -305,6 +307,51 @@ demande :
 Ces deux gestes sont des **contrôles de relevé**, pas des décisions : ils signalent
 et qualifient, ils ne tranchent jamais la validité métaphysique (Cmd 12).
 
+### Épreuve des contrôles (transversal — ajouté 2026-09-01)
+
+**Un contrôle dont on n'a pas vu l'échec n'est pas un contrôle vérifié.**
+
+Tout dispositif mécanique de vérification — hook git, tâche de CI, validateur,
+garde-fou d'un script, champ `infra_verif` — doit avoir été **vu refuser** avant qu'on
+lui fasse confiance. Non pas « avoir été écrit », ni « avoir affiché vert » : avoir
+produit son refus, sur une faute fabriquée exprès, dans un bac à sable.
+
+**Pourquoi cette règle existe.** Le dépôt a payé deux fois la même erreur, à un jour
+d'intervalle :
+
+- **2026-08-31, PRO-01** : la branche `main` était protégée par un contrôle `lint`
+  obligatoire qui **ne validait rien** — il parcourait une arborescence abandonnée le
+  2026-06-11, tous chemins inexistants, et imprimait « Frontmatter OK » sur zéro
+  fichier. La porte existait, la garde était vide.
+- **2026-09-01, INF-14** : les hooks du dépôt de rendu cherchaient
+  `fetch('wiki-manifest.json')`, parenthèse fermante comprise, quand l'appel réel porte
+  `fetch('wiki-manifest.json', {cache: 'no-cache'})`. Zéro correspondance : le contrôle
+  n'a jamais rien inspecté. Écrit le jour même par la machine qui venait de consigner
+  PRO-01, et découvert par accident.
+
+**La forme de la faute est toujours la même** : le contrôle est **muet**, non pas faux.
+Il ne se plaint jamais, donc il paraît vert. Un motif qui ne correspond à rien, une
+liste de fichiers vide, une dépendance absente (`file` manquant sur le serveur a rendu
+un filtrage silencieusement inopérant le 2026-09-01), un chemin qui n'existe plus : dans
+tous les cas la sortie est rassurante et le contrôle ne regarde rien.
+
+**Le geste exigé**, à l'écriture comme à la modification d'un contrôle :
+
+1. Le faire passer au vert sur l'état sain — condition nécessaire, jamais suffisante.
+2. **Fabriquer la faute exacte qu'il doit attraper**, dans un bac à sable ou une copie
+   jetable — jamais dans le dépôt vivant —, et **observer le refus**.
+3. Remettre l'état sain, et consigner les deux résultats dans l'entrée d'annales :
+   « vert sur X, refus sur Y ». Un contrôle dont l'annales ne rapporte que le vert est
+   à considérer comme non éprouvé.
+
+**Corollaire pour les contrôles hérités** : un dispositif en place mais jamais vu
+échouer n'est pas réputé fonctionner. Il se traite comme une pièce à éprouver, non comme
+un acquis — et le doute se rapporte, il ne se corrige pas d'office (Cmd 12).
+
+Cette règle est un **contrôle de relevé**, comme le double contrôle ci-dessus : elle ne
+tranche rien, elle interdit seulement de tenir pour gardée une porte dont personne n'a
+vu la serrure mordre.
+
 ### Action : ARCHIVAGE & MAILLAGE (intégration d'une source)
 
 Quand une nouvelle source est déposée dans `raw/` (lue côté PRODUCTION) :
@@ -402,6 +449,9 @@ Proactif, jamais sur demande seulement. Toute divergence constatée entre ce
 protocole et un document d'instructions dérivé est signalée : **le CLAUDE.md
 concerné fait foi** (racine pour le transversal, local pour le propre au circuit —
 §II bis).
+
+Tout contrôle mécanique écrit ou modifié pendant la session relève de l'**Épreuve des
+contrôles** (§VII ci-dessus) : son refus doit avoir été observé, et le résultat consigné.
 
 **Vérification structurelle obligatoire** (amendement 2026-07-27, verdict Sidy) :
 exécuter `python3 verifier-invariants.py --racine /root/wiki` et consigner le
