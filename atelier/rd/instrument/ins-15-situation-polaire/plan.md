@@ -32,8 +32,8 @@ links:
 1. ✅ `proto-geometrie.html` — scène Three.js r128 autonome : horizon, sphère
    céleste, axe du monde, soleil, cercle du jour, trace de l'année, astres en
    révolution, aurore tournante, roue du Manvantara, esquisse de la bascule.
-2. ✅ `verifier-geometrie.py` — **8 contrôles**, chacun rejoué sous biais.
-   Résultat : 8 passent sur la géométrie réelle, **les 8 tombent** quand on la
+2. ✅ `verifier-geometrie.py` — **10 contrôles**, chacun rejoué sous biais.
+   Résultat : 10 passent sur la géométrie réelle, **les 10 tombent** quand on la
    fausse. L'épreuve des contrôles est faite (§VII, motif PRO-01).
 3. ✅ `comparer-js-python.js` + `comparer.py` — les fonctions de géométrie sont
    **extraites du HTML lui-même** (non recopiées : un contrôle qui recopie
@@ -46,7 +46,12 @@ links:
    — l'aurore polaire avait d'abord été présentée comme **confirmant** le chiffre
    de Tilak, alors qu'elle **en montre l'origine** : sa fourchette 45-60 j est
    l'image de sa propre fourchette de seuils 16°-20°. Contrôle 7 ajouté pour
-   l'établir, et `spec.md` §2.2 porte la rectification.
+   l'établir, et `spec.md` §2.2 porte la rectification ;
+   — la part de nuit continue avait été écrite `arcsin(k)/pi`, ce qui donnait
+   **douze mois de soleil au pôle**, c'est-à-dire un pôle sans nuit. La bonne
+   expression est `1/2 - arcsin(k)/pi`. L'erreur ne se voyait pas à l'œil : elle
+   n'est apparue qu'en contrôlant les **deux bornes connues d'avance** (6 mois au
+   pôle, 12 au cercle arctique). Contrôle 9 écrit sur ces bornes, pour cette raison.
 5. ✅ Prototype envoyé à Sidy.
 
 ### Phase 1 — le triptyque (FAITE, c'est le présent dossier)
@@ -128,7 +133,7 @@ Les commandes qui **prouvent** chaque critère du `spec.md` §4 :
 # Critères 1, 2 — la géométrie, et l'accord scène ↔ contrôle
 #   AVANT le versement (Phase 0, bac à sable jetable) :
 cd /root/sandbox-rd/ins-15-polaire
-python3 verifier-geometrie.py                 # 8 OK passe 1, 8 ÉCHEC passe 2
+python3 verifier-geometrie.py                 # 10 OK passe 1, 10 ÉCHEC passe 2
 node comparer-js-python.js && python3 comparer.py
 python3 comparer.py --fausser                 # DOIT détecter
 #   APRÈS le versement (étape 6 bis) — c'est cette forme qui fait foi :

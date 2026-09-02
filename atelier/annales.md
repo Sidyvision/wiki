@@ -10,6 +10,87 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] chantier | INS-15 — les deux modes reçoivent leur sens, et le soleil ses états
+
+Deux verdicts de Sidy, rendus après l'ouverture du chantier, et un troisième apport.
+
+**1. Ce que les deux modes SONT.** Verdict cité *verbatim* : « les deux modes
+cosmologique/cosmique et métaphysique sont **en lien direct avec les petits mystères
+et les grands mystères, l'état primordial et la Délivrance** ». Les deux modes cessent
+d'être deux vues commutables d'un même objet : ils figurent **deux ordres de
+réalisation**.
+
+**La chaîne était déjà au dépôt, entière.** [[doctrinal/symboles/janus-bifrons]] porte
+les deux clefs des deux portes solsticiales et précise que « ces mêmes clefs sont,
+sous un autre rapport, celles des "grands mystères" et des "petits mystères" (clef
+d'or / clef d'argent) », les deux portes donnant accès « aux deux moitiés ascendante
+et descendante » — *dêva-yâna* / *pitri-yâna*. La révolution ascendante et descendante
+que ce chantier figure **est donc déjà, dans la source, l'affaire des deux ordres de
+mystères**. La machine a instruit cela ; elle ne l'a pas rendu (Cmd 12).
+
+**Et la charnière tient géométriquement.** L'état primordial est l'achèvement de
+l'état humain, donc du **plan** — un centre, non un sommet ; la Délivrance procède
+**selon l'axe**. Le point où l'axe perce le plan est unique : **la bascule a un lieu,
+et ce lieu est le centre**. Conséquence de rendu : le Pôle est le seul point où l'axe
+du monde et la verticale du lieu coïncident, donc le seul où la bascule ne soit pas un
+changement de sujet.
+
+⚠️ Trois réserves portées : Pôle ↔ état primordial n'est qu'un **rapport signalé** par
+Guénon, non établi (donc suggéré au rendu) ; le discernement
+`2026-08-30_chute-realisation-deux-aspects-de-qaf` (`speculatif`, en cours) instruit
+cette matière et **n'est pas clos** par ce chantier ; **aucun degré de réalisation ne
+sera figuré** — ni parcours, ni progression, ni position de quiconque.
+
+**2. Les états du soleil et de l'aurore.** Sidy : « le Rig-Véda nomme les différents
+états du soleil comme les divers états de l'aurore ». La spec ne portait jusqu'ici
+qu'**un** soleil et **une** aurore. Versés en §2 ter :
+
+- **Les Ādityas** (RV X, 72, 8-9) : huit fils d'Aditi, sept retenus, **Mārtāṇḍa
+  rejeté** ; nommés par paires au *Taittirīya Brāhmaṇa* — Dhātṛ/Aryaman,
+  Mitra/Varuṇa, Aṃśa/Bhaga, Indra/Vivasvat. Septénaire solaire indépendamment attesté
+  (*sapta-aśva*, char à sept roues, cheval aux sept noms, sept rayons de l'*Atharva*).
+  Tilak les lit comme les **mois de soleil**, variables « from seven to eleven ».
+- **Les aurores** (ch. V) : *Uṣas* / *Vyuṣṭi*, division par trois ou par cinq,
+  et surtout **trente sœurs** (*Taittirīya Saṃhitā* IV, 3, 1) dites **continues, non
+  séparées**, ailleurs **trente marches d'une seule aurore**, de mouvement
+  **rotatoire, comme une roue**.
+
+**Ce que la géométrie en dit, et c'est vérifiable.** Les mois de soleil : 6 au pôle,
+12 au cercle arctique — la fourchette 7-11 de Tilak tombe **exactement entre les deux
+bornes connues d'avance**, donc dans la seule zone circum-polaire (7 → 83,93° N ;
+11 → 67,36° N). Et les trente sœurs sont **trente tours d'horizon** : au pôle l'aurore
+fait un tour toutes les 24 h (contrôle 2), de sorte que « trente sœurs » et « trente
+marches d'une seule aurore » disent le même fait sous deux aspects. Le rendu **comptera**
+l'aurore au lieu de l'afficher en bloc.
+
+⚠️ **Un écart laissé visible, et non résorbé** : trente tours correspondraient à un
+seuil crépusculaire d'environ −11,6°, quand Tilak retient 16° à 20° ailleurs. C'est un
+écart de **donnée**, pas d'artefact — l'ajuster fabriquerait un accord que la source ne
+donne pas. Mārtāṇḍa, lui, sera rendu **par son absence** : ce qui est rejeté ne se
+dessine pas au même titre que ce qui demeure (procédé retenu en INS-07 §8).
+
+🔍 **Signalé et non instruit** : sept Ādityas / sept Ṛṣis de la Grande Ourse / sept
+Pôles feraient un troisième septénaire jeté sur deux autres. Le chantier s'en abstient
+(Cmd 3) ; le rapprochement est nommé pour qu'il ne se fasse pas à l'insu de quelqu'un.
+
+**3. Une seconde erreur de calcul, trouvée par les bornes.** La part de nuit continue
+avait d'abord été écrite `arcsin(k)/pi`, ce qui donnait **douze mois de soleil au
+pôle** — un pôle sans nuit. La bonne expression est `1/2 - arcsin(k)/pi`. Elle ne se
+voyait pas à l'œil : elle n'est apparue qu'en contrôlant les **deux bornes connues
+d'avance**. Le contrôle 9 est écrit sur ces bornes, pour cette raison précise.
+
+**Contrôles : 10 passent sur la géométrie réelle, les 10 tombent sous biais.**
+
+- **Modifié** : [[atelier/rd/instrument/ins-15-situation-polaire/intent]] (§ des deux
+  modes), [[atelier/rd/instrument/ins-15-situation-polaire/spec]] (§2 ter, critères
+  12-18), [[atelier/rd/instrument/ins-15-situation-polaire/plan]] (10 contrôles,
+  seconde erreur consignée)
+- **Non tranché** : le discernement ouvert sur la chute et l'état primordial
+- **Hors dépôt** : contrôles 9 et 10 ajoutés au vérificateur du bac à sable
+
+---
+
+
 ## [2026-09-02] rectification | « Atlantide et Hyperborée » était au dépôt — et la réserve prêtée à Guénon sur Tilak n'existe pas
 
 Sidy signale `raw/Formes traditionnelles et Cycles cosmiques | René Guénon`. C'était
@@ -71,7 +152,6 @@ présenté avant l'écriture (Cmd 6) — le plan est proposé, il n'est pas exé
 - **Proposé, non exécuté** : fiche `doctrinal/sources/guenon-atlantide-hyperboree`
 - **Hors dépôt** : contrôle 8 ajouté au vérificateur du bac à sable
 - **Commit** : 9fcc0d0
-- **Commit** : cae4d28
 
 ---
 

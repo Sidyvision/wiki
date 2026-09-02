@@ -260,6 +260,152 @@ par confirmation de Sidy qu'il possède le volume — pas autrement.
 **Question à Sidy** : possédez-vous *Formes traditionnelles et Cycles cosmiques* en
 exemplaire physique ? Si oui, le marqueur se lève comme il s'est levé pour SSS.
 
+## 2 ter. Les états du soleil et de l'aurore — demande de Sidy du 2026-09-02
+
+> « L'instrument devra aussi représenter les différentes phases du soleil que Tilak
+> expose : le Rig-Véda nomme les différents états du soleil comme les divers états de
+> l'aurore. »
+
+Le point est juste et il manquait : jusqu'ici la spec ne portait qu'**un** soleil et
+**une** aurore. Le Rig-Véda les **nomme au pluriel**, et Tilak montre que ces pluriels
+sont des états, non des redites.
+
+### 2ter.1 Les états du soleil — les Ādityas
+
+*Rig-Veda* X, 72, 8-9, cité par Tilak (ch. VII) :
+
+> « Des huit fils d'Aditi, qui naquirent de son corps, elle s'approcha des dieux avec
+> **sept**, et **rejeta Mārtāṇḍa**. Avec sept fils Aditi s'approcha (des dieux) dans
+> l'âge antérieur (*pūrvyam yugam*) ; elle amena de nouveau Mārtāṇḍa pour la naissance
+> et pour la mort. »
+
+Les huit, nommés par le *Taittirīya Brāhmaṇa* (I, 1, 9), par paires : **Dhātṛ** et
+**Aryaman** · **Mitra** et **Varuṇa** · **Aṃśa** et **Bhaga** · **Indra** et
+**Vivasvat**. Le huitième rejeté est **Mārtāṇḍa** — « l'œuf imparfait » de la
+*Taittirīya Saṃhitā*.
+
+Le septénaire solaire est indépendamment attesté : le soleil est *sapta-aśva*
+(« aux sept chevaux », V, 45, 9), son char est « à sept roues » tiré de « sept
+coursiers bais » (I, 50, 8), ou d'un cheval unique « aux sept noms » (I, 164, 2) ;
+l'*Atharva-Veda* parle des « sept rayons brillants du soleil » (VII, 107, 1).
+
+**La lecture de Tilak** : les Ādityas sont les **mois de soleil**, et leur nombre
+varie avec la latitude — « the months of sunshine will vary from **seven to
+eleven** ». Le huitième rejeté est le mois que la nuit continue emporte.
+
+**Ce que la géométrie en dit, et c'est vérifiable** (contrôle 9, éprouvé par l'échec) :
+
+| mois de soleil | latitude |
+|---|---|
+| 6 (jour et nuit de six mois) | **90,00° N — le Pôle** |
+| 7 | 83,93° N |
+| 8 | 78,28° N |
+| 9 | 73,43° N |
+| 10 | 69,70° N |
+| 11 | 67,36° N |
+| 12 (plus de nuit continue) | **66,56° N — le cercle arctique** |
+
+La fourchette 7-11 de Tilak tombe donc **exactement entre les deux bornes que la
+géométrie connaît d'avance**, c'est-à-dire dans la seule zone circum-polaire. Le
+curseur de latitude devient ainsi lisible d'une troisième façon : il **compte les
+Ādityas**.
+
+> ⚠️ Ce que cela établit : la lecture de Tilak est **géométriquement cohérente** et
+> son intervalle est celui de la zone qu'il désigne. Ce que cela n'établit pas : que
+> les Ādityas *soient* les mois. C'est son interprétation, elle reste `academique`,
+> et le rendu l'affiche comme telle.
+
+> 🔍 **Signalé, non instruit** : le dépôt porte déjà un septénaire polaire — les sept
+> Ṛṣis de la Grande Ourse ([[doctrinal/sources/guenon-roi-du-monde-ch10]]) — et un
+> septénaire de Pôles. Les rapprocher des sept Ādityas serait un troisième septénaire
+> jeté sur les deux autres. **Le chantier s'en abstient** (Cmd 3) ; le rapprochement
+> est nommé ici pour qu'il ne se fasse pas à l'insu de quelqu'un.
+
+### 2ter.2 Les états de l'aurore — Uṣas au pluriel
+
+Tilak, ch. V. Le Rig-Véda distingue **Uṣas** et **Vyuṣṭi**, et divise l'aurore en
+**trois** ou en **cinq** — divisions qui, l'une et l'autre, « impliquent une longue
+aurore ».
+
+Surtout, l'aurore y est adressée **au pluriel**, et Tilak établit que ce pluriel n'est
+ni honorifique ni celui des aurores de jours consécutifs : c'est **un attelage
+d'aurores continues**. La *Taittirīya Saṃhitā* (IV, 3, 1) les donne comme **trente
+sœurs** ; le *Brāhmaṇa* précise qu'elles sont **continues, non séparées** ; ailleurs
+les trente sont dites **trente marches d'une seule aurore**. Leur mouvement est
+**rotatoire, comme une roue**, et elles « atteignent le même lieu assigné, jour après
+jour ».
+
+**Ce que la géométrie en dit** : au pôle, la lumière de l'aurore fait **un tour
+d'horizon toutes les 24 h** (contrôle 2 — l'azimut avance de 15°/h). Les « trente
+sœurs » sont donc **trente tours**, et « trente marches d'une seule aurore » est la
+description exacte du même fait sous l'autre aspect : une seule aurore, trente
+révolutions.
+
+C'est **la pièce qui manquait au rendu**. L'aurore ne sera pas une bande statique :
+elle sera **comptée**. Chaque tour complet incrémente un compteur de sœurs, et la
+trentième est marquée.
+
+> ⚠️ Le **nombre** trente vient du texte, la **durée** vient du seuil (§2 bis... voir
+> §2.2). Les deux ne se déduisent pas l'un de l'autre : trente tours correspondraient
+> à un seuil d'environ −11,6°, quand Tilak retient 16° à 20° ailleurs. **Le rendu
+> n'ajuste pas l'un sur l'autre** — il affiche le compte du texte et la durée du
+> seuil, et laisse l'écart visible. C'est un écart de DONNÉE, pas d'artefact : le
+> résorber serait fabriquer un accord que la source ne donne pas.
+
+### 2ter.3 Forme de donnée
+
+```yaml
+  phases:
+    soleil:
+      statut: academique
+      source: "tilak-arctic-home-ch7 ; Rig-Veda X, 72, 8-9 ; Taittiriya Brahmana I, 1, 9"
+      lecture: "Les Adityas comme mois de soleil — interprétation de Tilak"
+      adityas:
+        - {rang: 1, nom: "Dhātṛ",    paire: 1}
+        - {rang: 2, nom: "Aryaman",  paire: 1}
+        - {rang: 3, nom: "Mitra",    paire: 2}
+        - {rang: 4, nom: "Varuṇa",   paire: 2}
+        - {rang: 5, nom: "Aṃśa",     paire: 3}
+        - {rang: 6, nom: "Bhaga",    paire: 3}
+        - {rang: 7, nom: "Indra",    paire: 4}
+        - {rang: 8, nom: "Vivasvat", paire: 4}
+      rejete:
+        nom: "Mārtāṇḍa"
+        note: "Le huitième, « rejeté » — l'œuf imparfait. Rendu en creux, jamais
+               comme un huitième mois affiché : ce qui est rejeté ne se dessine pas
+               au même titre que ce qui demeure."
+      septenaire_atteste:
+        - "sapta-aśva, aux sept chevaux (RV V, 45, 9)"
+        - "char à sept roues, sept coursiers bais (RV I, 50, 8)"
+        - "un cheval aux sept noms (RV I, 164, 2)"
+        - "les sept rayons brillants du soleil (AV VII, 107, 1)"
+    aurore:
+      statut: academique
+      source: "tilak-arctic-home-ch5 ; Taittiriya Samhita IV, 3, 1"
+      couple: {ushas: "Uṣas", vyushti: "Vyuṣṭi"}
+      divisions: [3, 5]          # « trois ou cinq », l'une et l'autre impliquant une longue aurore
+      soeurs: 30                 # trente sœurs — CONTINUES, non séparées
+      lecture_double: "trente sœurs / trente marches d'une seule aurore"
+      mouvement: "rotatoire, comme une roue ; même lieu assigné, jour après jour"
+```
+
+### 2ter.4 Ce que le rendu fait de ces états
+
+1. **Le compteur d'aurores.** Chaque révolution de la bande d'aurore autour de
+   l'horizon incrémente le compte ; la trentième est marquée. Le double énoncé du
+   texte — trente sœurs / trente marches — s'affiche comme **deux lectures du même
+   fait**, jamais comme deux choses.
+2. **Le compte des Ādityas.** À toute latitude circum-polaire, le rendu affiche le
+   nombre de mois de soleil, et le nomme du nom de l'Āditya correspondant à ce rang.
+   À 90°, il en affiche **six** — et **Mārtāṇḍa n'apparaît pas** : le rejeté est rendu
+   par son absence, non par une marque de plus (procédé déjà retenu au dépôt pour
+   figurer ce qui n'a pas de commune mesure, INS-07 §8).
+3. **Les divisions de l'aurore**, par trois ou par cinq, sont un mode d'affichage
+   commutable de la bande — non deux objets.
+
+**Aucun de ces états n'est fondu avec l'établi** : tous portent `academique`, donc
+pointillé + 🔍.
+
 ## 3. Données consommées / produites
 
 Sens unique **`dépôt → manifeste → interface`** (§VII). L'interface ne réécrit jamais
@@ -425,7 +571,13 @@ Chacun est **bloquant**, jamais un avertissement — même forme que la garde du
 | 9 | Aucune valeur en dur dans le calque | `grep -n "23.44\|25920\|66.56\|64800" index.html` **borné au calque polaire** → aucune occurrence (le fichier porte ailleurs un bloc « Données de REPLI » assumé, l. 181 : un grep global ne prouverait rien) |
 | 10 | Le point de vue est déclaré | en mode cosmologique, « plan déterminé comme état humain » est lisible à l'écran ; en métaphysique, « plan indéterminé en principe » |
 | 11 | Rien n'est fondu | toute entrée `academique` ou `suggere` s'affiche en pointillé + 🔍 ; aucune ne partage le trait plein de l'établi |
-| 12 | La révolution ascendante et descendante se voit | en parcourant l'année à latitude 90°, la trace du soleil monte six mois puis descend six mois, et ne franchit l'horizon que deux fois |
+| 12 | Les trente sœurs se comptent | à 90°, en animation, le compteur d'aurores s'incrémente d'une unité par tour d'horizon (24 h) et marque la trentième |
+| 13 | Les Ādityas se comptent | à 83,93° le rendu annonce 7 mois de soleil, à 67,36° il en annonce 11, à 90° il en annonce **6** ; contrôle 9 du vérificateur, éprouvé par l'échec |
+| 14 | Mārtāṇḍa n'est pas dessiné | le huitième rejeté n'apparaît sous aucune marque — son absence est le rendu |
+| 15 | L'écart trente-tours / seuil reste visible | le rendu affiche le compte du texte ET la durée du seuil ; aucun ajustement de l'un sur l'autre (écart de DONNÉE) |
+| 16 | La bascule a un lieu | le passage cosmologique ↔ métaphysique s'énonce au centre, là où l'axe perce le plan — et le rendu dit que le Pôle est le seul lieu où axe du monde et verticale coïncident |
+| 17 | Aucun degré de réalisation n'est figuré | ni parcours, ni progression, ni position : le rendu montre deux domaines et leur charnière (Cmd 12) |
+| 18 | La révolution ascendante et descendante se voit | en parcourant l'année à latitude 90°, la trace du soleil monte six mois puis descend six mois, et ne franchit l'horizon que deux fois |
 
 ## 5. Cas limites
 

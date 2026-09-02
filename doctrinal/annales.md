@@ -9,6 +9,74 @@ updated: 2026-09-02
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] archivage | « Atlantide et Hyperborée » (Guénon) — l'origine polaire, sur texte ; `to-source` levé sur le recueil
+
+Sidy confirme posséder *Formes traditionnelles et Cycles cosmiques* en exemplaire
+physique et ordonne l'ouverture de la fiche. Le clipping était déposé en
+`raw/Formes traditionnelles et Cycles cosmiques | René Guénon/`.
+
+**Ce que l'article apporte, et qui n'était pas au dépôt sous cette forme.** L'origine
+des traditions y est dite **polaire** sans réserve, et l'appui n'est pas une
+conjecture : « nous disons qu'elle est polaire […] puisque cela est **expressément
+affirmé dans le Vêda** ». La description suit — « **la terre où le soleil faisait le
+tour de l'horizon sans se coucher** devait être en effet située bien près du pôle,
+sinon au pôle même » — et une seconde localisation, donnée par une **condition
+astronomique** et non par un nom : « une région où le jour le plus long était double
+du jour le plus court ». Guénon ne situe géographiquement ni l'une ni l'autre ; la
+fiche ne s'y risque pas davantage.
+
+**Confirmations sur texte de choses déjà portées.** La subordination du courant
+atlantéen — la *Tula* atlante « ne régit qu'un cycle historique secondaire,
+subordonné au *Manvantara* », quand la *Tula* hyperboréenne est « le centre premier et
+suprême » et « sa situation était littéralement polaire à l'origine » : c'est la
+vigilance polaire/solaire du §VII, confirmée par l'autorité elle-même.
+
+**Apports neufs.** *Borée* = sanscrit *Varâha*, ou *Vârâhî* pour une terre : la
+« terre du sanglier », devenue « terre de l'ours » pendant la prédominance des
+*Kshatriyas* — ce qui éclaire le couple sanglier/ourse et le nom du cycle. Et le
+swastika : « nous ne *faisons* point du swastika le signe du pôle : nous disons qu'il
+**est** cela et qu'il l'a toujours été ».
+
+**Une attribution fautive corrigée.** Guénon déclare n'avoir « **jamais écrit un seul
+mot** » sur un déplacement du pôle depuis le début du Manvantara, question qu'il tient
+pour « secondaire ». À retenir contre une allégation répandue.
+
+**Le critère du Cmd 3 sous sa plume** : « **il ne faut pas confondre le "syncrétisme"
+avec la véritable synthèse** » — dit à propos de la dualité *Aor-Agni*, qu'il écarte
+parce qu'elle associe un mot hébreu et un mot sanscrit.
+
+🔍 **Signalé, non tranché.** Note 2 : l'inclinaison de l'axe terrestre « n'aurait pas
+existé dès l'origine, mais serait une conséquence de […] la "chute de l'homme" ».
+Guénon rapporte au conditionnel, en note, sans nommer ses sources. Versé comme
+**matière** au discernement ouvert
+[[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]]
+(`speculatif`, en cours) — il n'y clôt rien.
+
+**Sur Tilak, note 3.** Guénon renvoie au « **remarquable ouvrage** de B. G. Tilak,
+*The Arctic Home in the Veda* », resté « complètement inconnu en Europe, sans doute
+parce que son auteur était un Hindou non occidentalisé ». C'est une recommandation, et
+le reproche vise le silence européen, non le livre. **Tilak ne change pas de statut
+pour autant** : l'estime d'une autorité pour un travail d'érudition n'en fait pas une
+source traditionnelle — [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]]
+reste `academique`.
+
+**`to-source` levé — portée exacte.** La levée vaut pour le **recueil entier**, par
+verdict humain au titre du §VII point 2 (Sidy confirme la possession), non par
+collation ligne à ligne, et se rouvre sur doute précis. Même forme et même précédent
+que la levée du 2026-08-30 sur *Symboles de la Science sacrée*.
+[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]], du même recueil, en
+bénéficie et est mise à jour. ⚠️ **Pagination non établie** : le clipping ne la porte
+pas ; les citations sont localisées par section et par numéro de note, jamais par page.
+
+- **Créé** : [[doctrinal/sources/guenon-atlantide-hyperboree]] (`traditionnel`)
+- **Modifié** : [[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]
+  (`to-source` levé, `updated`) ; [[doctrinal/index]] (§ sources)
+- **Non modifié** : aucun statut d'autre fiche, aucun ancrage, aucun discernement clos
+- **Graphe** régénéré ; la fiche neuve n'est pas orpheline
+
+---
+
+
 ## [2026-09-02] correction de fiche | Tilak — le texte intégral est arrivé au sas, la mention de fiabilité était devenue fausse
 
 La notice [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] portait, en

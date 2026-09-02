@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Le Catalogue Universel
@@ -269,6 +269,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes|Majmaʿ al-Baḥrayn, ch. VII : les quatre mondes (Dârâ Shukûh)]] — `traditionnel` ; appariement quaternaire de Dârâ lui-même, dissentiment de Shayegan consigné en 🌐
 - [[doctrinal/sources/guenon-zodiaque-pythagoriciens|Le symbolisme du Zodiaque chez les pythagoriciens (Guénon)]]
 - [[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques|Quelques remarques sur la doctrine des cycles cosmiques (Guénon)]]
+- [[doctrinal/sources/guenon-atlantide-hyperboree|Atlantide et Hyperborée (Guénon)]] — `traditionnel`, `to-source` **levé le 2026-09-02** (exemplaire physique confirmé par Sidy, recueil entier). L'origine des traditions y est dite **polaire** sans réserve et **« expressément affirmée dans le *Vêda* »** ; « la terre où le soleil faisait le tour de l'horizon sans se coucher » ; une seconde région donnée par la seule condition « le jour le plus long double du jour le plus court » ; *Borée* = *Varâha*/*Vârâhî*, « terre du sanglier » devenue « terre de l'ours » ; *Tula* hyperboréenne ≠ *Tula* atlante (celle-ci ne régit qu'un cycle **subordonné** au Manvantara) ; le swastika **est** le signe du pôle. 🔍 Note 2 : l'inclinaison de l'axe terrestre « n'aurait pas existé dès l'origine » — **signalé, non tranché**, verse au dossier de l'état primordial. Corrige une attribution fautive (Guénon n'a **jamais** écrit sur un déplacement du pôle) et donne le critère du Cmd 3 sous sa plume : « il ne faut pas confondre le "syncrétisme" avec la véritable synthèse »
 - [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel|Le Symbolisme de la Croix, ch. II-III : L'Homme universel (Guénon)]]
 - [[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace|Le Symbolisme de la Croix, ch. IV : Les quatre directions de l'espace (Guénon)]]
 - [[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques|Le Symbolisme de la Croix, ch. XI-XIII : Représentations géométriques (Guénon)]]

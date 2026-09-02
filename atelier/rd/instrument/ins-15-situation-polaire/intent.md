@@ -116,6 +116,67 @@ des deux voies telle que la source l'établit ; il n'affirme pas que l'une **fon
 l'autre. Le pas de plus — le devayâna est-il polaire d'origine ? — est la thèse de
 Tilak, elle est `academique`, et elle s'affiche comme telle.
 
+## Ce que les deux modes SONT — verdict de Sidy du 2026-09-02
+
+Second verdict, rendu après l'ouverture du chantier, et qui en change la portée :
+
+> « les deux modes cosmologique/cosmique et métaphysique sont **en lien direct avec
+> les petits mystères et les grands mystères, l'état primordial et la Délivrance** »
+
+Les deux modes ne sont donc pas deux vues d'un même objet, commodément commutables :
+ils figurent **deux ordres de réalisation**, et le passage de l'un à l'autre figure
+le passage entre eux.
+
+| | mode **cosmologique** | mode **métaphysique** |
+|---|---|---|
+| domaine | le plan horizontal, l'état humain | l'axe vertical, les états multiples |
+| mystères | **petits mystères** — clef d'argent | **grands mystères** — clef d'or |
+| terme | l'**état primordial** | la **Délivrance** |
+| extension | intégralité d'un seul état | totalité des états |
+
+**Ce n'est pas un rapprochement neuf : la chaîne est déjà au dépôt, entière.**
+[[doctrinal/symboles/janus-bifrons]] porte les **deux clefs** des deux portes
+solsticiales, et précise que « ces mêmes clefs sont, sous un autre rapport, celles
+des "grands mystères" et des "petits mystères" (clef d'or / clef d'argent) », les
+deux portes donnant accès « aux deux moitiés ascendante et descendante » —
+*dêva-yâna* / *pitri-yâna*. La révolution ascendante et descendante que ce chantier
+figure **est donc déjà, dans la source, l'affaire des deux ordres de mystères**.
+
+**Et la charnière tient géométriquement.** L'état primordial est le terme des petits
+mystères : achèvement de l'état humain, donc du **plan** — c'est un centre, non un
+sommet. La Délivrance est le terme des grands mystères : elle procède **selon l'axe**,
+à travers les états supérieurs. Or le point où l'axe perce le plan est unique. **La
+bascule entre les deux modes a donc un lieu, et ce lieu est le centre.**
+
+### Conséquence de rendu, et elle est forte
+
+Le curseur de latitude cesse d'être un réglage : parcourir du pôle vers le sud, c'est
+s'éloigner du lieu où l'axe est vertical. **Le Pôle est le seul point où l'axe du
+monde et la verticale du lieu coïncident** — donc le seul où la bascule ne soit pas
+un changement de sujet. Ailleurs, l'axe est incliné : le rendu le montrera, sans le
+commenter.
+
+### Les réserves, et elles sont nettes
+
+1. **Ce verdict est de Sidy, pas de la machine** (Cmd 12). Il est daté et cité ici
+   *verbatim*. La machine l'a instruit — elle a vérifié que la chaîne est au dépôt et
+   que la géométrie suit — elle ne l'a pas rendu.
+2. **Pôle ↔ état primordial n'est qu'un rapport SIGNALÉ par Guénon**, non établi : le
+   dépôt le porte comme tel depuis [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]
+   (« le retour à l'état primordial et un symbolisme polaire »). Le rendu l'affiche
+   donc **suggéré** — pointillé + 🔍 — quoique le verdict de Sidy porte sur les modes,
+   pas sur ce maillon.
+3. **Un discernement est ouvert sur cette matière** :
+   [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]]
+   (`speculatif`, *en cours*), qui instruit précisément le sens de parcours entre
+   descente et remontée au regard de l'état primordial. **Ce chantier ne le clôt pas**
+   et ne s'y substitue pas : il verse la note 2 d'« Atlantide et Hyperborée » à son
+   dossier, rien de plus.
+4. **Aucun degré de réalisation ne sera figuré.** Le rendu montre deux domaines et
+   leur charnière ; il ne représente ni parcours initiatique, ni progression, ni
+   position de quiconque. Le Cmd 12 vaut ici pleinement — et le ch. XXVII rappelle
+   que le rang de l'état humain nous est **inconnaissable**.
+
 ## Hors périmètre
 
 - **La refonte du mode métaphysique.** Le calque des 38 degrés, des registres et des

@@ -2365,7 +2365,7 @@
         "phase-5",
         "to-source"
       ],
-      "updated": "2026-07-26",
+      "updated": "2026-09-02",
       "chemin": "atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles.md",
       "lacunes_to_source": 1
     },
@@ -6213,6 +6213,30 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "label": "Atlantide et Hyperborée — René Guénon",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "hyperboree",
+        "atlantide",
+        "pole",
+        "tradition-primordiale",
+        "tula",
+        "varaha",
+        "swastika",
+        "cycles-cosmiques",
+        "formes-traditionnelles"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "doctrinal/sources/guenon-atlantide-hyperboree.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane",
       "label": "La Crise du Monde moderne, ch. IV : science sacrée et science profane (Guénon)",
       "circuit": "doctrinal",
@@ -6950,7 +6974,7 @@
         "meru-qaf",
         "formes-traditionnelles"
       ],
-      "updated": "2026-07-14",
+      "updated": "2026-09-02",
       "chemin": "doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques.md",
       "lacunes_to_source": 0
     },
@@ -17677,6 +17701,69 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "target": "doctrinal/symboles/atlantide",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "target": "doctrinal/symboles/manvantara",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "target": "doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "target": "doctrinal/sources/guenon-roi-du-monde-ch10",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "target": "doctrinal/sources/2026-07-03_guenon-tombeau-hermes",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "target": "doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "target": "doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "target": "doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -18533,6 +18620,13 @@
     {
       "source": "doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques",
       "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques",
+      "target": "doctrinal/sources/guenon-atlantide-hyperboree",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
