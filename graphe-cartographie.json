@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 133,
+  "avertissements": 134,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -3207,6 +3207,27 @@
       ],
       "updated": "2026-08-23",
       "chemin": "atelier/rd/outillage/investigation-isolation-memoire-hermes.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent",
+      "label": "OUT-08 — OCR arabe de la Futūḥāt Maymaniyya : intention",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "ocr",
+        "arabe",
+        "chantier",
+        "intent"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent.md",
       "lacunes_to_source": 0
     },
     {
@@ -13052,6 +13073,20 @@
     {
       "source": "atelier/rd/outillage/gabarit-triptyque-chantier",
       "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent",
+      "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"

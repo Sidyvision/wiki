@@ -10,6 +10,33 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] archivage | OUT-08 — triptyque ouvert, premier relevé (intent.md)
+
+Suite du verdict DOC-07 (« nouvel essai d'OCR d'abord », Cmd 12) : ouverture du
+chantier OUT-08 selon la convention triptyque
+([[atelier/rd/outillage/gabarit-triptyque-chantier]]) — dossier
+`atelier/rd/outillage/out-08-ocr-arabe-futuhat/`, premier fichier `intent.md` posé.
+
+**Relevé empirique** (bac à sable `/tmp`, hors dépôt, non committé, effacé après
+usage) : sur la page 300 de `raw/Al Futuhat Al Makkiyya - maymaniya_p1.pdf`, faire
+varier le DPI (300 → 400) et le mode de segmentation Tesseract (`--psm` 3, 4, 6) ne
+change rien à la nature de la corruption relevée en DOC-07 — les mots restent
+recomposés au hasard dans les quatre sorties. Le réglage de paramètres seul ne suffit
+donc probablement pas.
+
+**Outillage serveur** : ni ImageMagick/`convert`, ni OpenCV (`cv2`), ni `ocrmypdf`,
+ni moteur OCR alternatif (Kraken, cloud) ne sont installés. Toute piste de
+prétraitement d'image ou de changement de moteur suppose une installation ou une
+dépense — verdict Sidy avant tout essai (Cmd 13). Une piste sans installation reste à
+vérifier (`--oem 1`, LSTM seul).
+
+Ligne OUT-08 du registre mise à jour avec le pointeur vers l'`intent.md`. Graphe
+régénéré (536 nœuds, 1845 arêtes), `verifier-invariants.py` : 0 erreur, 0
+avertissement sur 1351 fichiers. `spec.md`/`plan.md` restent à écrire — aucun code
+n'est autorisé avant un `plan.md` visé (Cmd 6).
+
+- **Commit** : (à suivre)
+
 ## [2026-09-02] execution | Chaîne OCR ouverte à l'arabe et au français — et un découpage refusé
 
 Consigne de Sidy : convertir deux ouvrages de `raw/`, puis — sur verdict —
