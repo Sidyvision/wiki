@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "hindouisme"
 tags: [tilak, vedas, origine-polaire, philologie, academique]
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-09-02
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]"]
@@ -36,7 +36,17 @@ intégral (p. 367-380) transcrits dans
 ## Fiabilité de la source
 
 Table des matières et index photographiés sur exemplaire physique de Sidy
-(2026-07-14). Texte intégral non consulté.
+(2026-07-14).
+
+**Mise à jour du 2026-09-02** : la mention « texte intégral non consulté », exacte
+jusqu'ici, ne l'est plus. Le **texte intégral de l'original anglais** — *The Arctic
+Home in the Vedas* (1903, 544 p.) — est arrivé au sas `_inbox/`, converti en Markdown
+et découpé par chapitres, avec le premier ouvrage de l'auteur, *The Orion* (1893,
+237 p.). Il a été lu.
+
+⚠ **L'exemplaire de Sidy est la traduction française** (Jean et Claire Remy, Arché,
+Milano, 1979) ; le sas porte l'**original anglais**. Toute pagination relevée sur l'un
+ne vaut pas pour l'autre, et aucune correspondance de pages n'est établie.
 
 ## Utilisation dans le dépôt
 

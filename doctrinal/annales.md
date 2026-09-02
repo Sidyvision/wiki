@@ -9,6 +9,31 @@ updated: 2026-09-02
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] correction de fiche | Tilak — le texte intégral est arrivé au sas, la mention de fiabilité était devenue fausse
+
+La notice [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] portait, en
+§ *Fiabilité de la source*, la mention « Texte intégral non consulté ». Exacte au
+2026-07-14, elle ne l'était plus : le texte intégral de l'**original anglais** —
+*The Arctic Home in the Vedas* (1903, 544 p.) — est arrivé au sas `_inbox/`, converti
+et découpé par chapitres, avec le premier ouvrage de l'auteur, *The Orion* (1893).
+Il a été lu. La mention est corrigée, datée, et l'état antérieur conservé dans sa
+formulation (Cmd 10).
+
+**Réserve portée au passage, parce qu'elle est de nature à induire en erreur** :
+l'exemplaire physique de Sidy est la **traduction française** (Arché, Milano, 1979),
+le sas porte l'**original anglais**. Les paginations ne se correspondent pas, et
+aucune table de correspondance n'est établie. Toute citation relevée sur l'un ne
+vaut pas comme référence de page pour l'autre.
+
+**Ce qui n'est pas fait** : aucune fiche doctrinale n'est tirée de ces deux ouvrages.
+Le texte est au sas, non ingéré ; la thèse de Tilak reste `academique`, non adoptée.
+
+- **Modifié** : [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]]
+  (§ *Fiabilité de la source*, `updated`)
+- **Non modifié** : aucun statut, aucun ancrage, aucune adoption doctrinale
+
+---
+
 ## [2026-09-02] correction | `sources:` nu corrigé en `[]` sur deux fiches (suggestion Publication)
 
 Signalement du rapport quotidien Publication (`veille-referencement-investigation-08`,

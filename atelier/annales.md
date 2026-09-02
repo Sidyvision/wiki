@@ -10,6 +10,70 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] chantier | INS-15 ouvert — la situation polaire, et le plan de base qui reçoit son second état
+
+Sidy demande un bloc annexe à l'Instrument : la situation polaire décrite par Tilak,
+complétée par Guénon, la doctrine des cycles et la doctrine métaphysique, pour voir
+« le lever du soleil et la révolution ascendante et descendante autour de l'horizon ».
+Trois verdicts rendus en session : **deux modes commutables** (cosmologique /
+métaphysique) plutôt qu'une scène séparée, périmètre **tout d'un bloc**, et épreuve de
+la géométrie en bac à sable avant tout visa.
+
+**Ce que le chantier n'invente pas.** Le mode cosmologique ne crée aucun objet neuf :
+il **détermine** le disque du plan de base qui existe déjà dans le rendu, mobile le
+long de l'axe et commenté « indéterminé en principe » d'après *États multiples* ch. XI.
+Que ce plan puisse être secondairement déterminé comme l'état humain est du texte, et
+le rendre ainsi est un verdict **déjà rendu** le 2026-08-30 (INS-07 §6bis.5), à
+l'exigence près que le choix soit déclaré à l'écran. Les deux modes sont donc les deux
+états d'un même plan, ce qui est exactement ce que « il s'agit bien d'un seul
+instrument » demandait.
+
+**L'articulation était au dépôt, il a suffi de la relever.** Sidy nomme « la révolution
+ascendante et descendante » ; Guénon nomme les mêmes deux moitiés — « les portes
+solsticiales donnent accès aux deux moitiés, ascendante et descendante, du cycle
+zodiacal ; Janus est Maître des deux voies (*dêva-yâna* / *pitri-yâna*) » (SSS
+ch. XXXVII, `to-source` levé le 2026-08-30) — et c'est le couple que Tilak instruit au
+ch. IV de l'*Arctic Home*. Au pôle, les deux moitiés cessent d'être une division du
+zodiaque pour devenir un fait visible : six mois au-dessus de l'horizon, six mois
+au-dessous. **Ce que le rendu n'affirme pas** : que le devayâna soit d'origine polaire —
+c'est la thèse de Tilak, elle est `academique`, elle s'affiche suggérée (Cmd 3).
+
+**Géométrie éprouvée, hors dépôt.** `/root/sandbox-rd/ins-15-polaire/` : scène Three.js,
+7 contrôles numériques, **tous rejoués sous biais et tous vus tomber** (§VII, motif
+PRO-01). Les fonctions de géométrie ont été **extraites du HTML lui-même**, non
+recopiées — recopier aurait produit un contrôle qui s'observe lui-même — et confrontées
+à la référence Python sur 560 cas : écart maximal 3,7 × 10⁻¹⁴°, et un écart injecté d'1°
+est bien détecté.
+
+**Le résultat qui vaut d'être noté.** L'aurore polaire se calcule à **50,9 jours** ;
+Tilak annonce « from 45 to 60 days ». Son chiffre est confirmé sans qu'on ait à le
+croire sur parole — c'est le régime épistémique visé : la géométrie est établie, la
+thèse reste académique.
+
+**Une erreur commise et conservée.** Le contrôle « le soleil ne passe jamais au nord »,
+traduction littérale de « the sun rises in the south », tombait à 90° d'écart — et il
+avait tort. Au pôle exact le repère d'azimut est **dégénéré** : le soleil parcourt bien
+les 360°. La formule est une proposition de géographie (*l'équateur est dans toutes les
+directions*), non une contrainte sur un axe de la scène. Erreur de catégorie, consignée
+dans le commentaire du contrôle plutôt qu'effacée.
+
+**Amendement du §I signalé.** Sidy amende en session la clause « jamais de lecture
+lourde côté intégration » pour ce chantier — les chapitres de Tilak ont donc été lus,
+non seulement cités. ⚠ **L'amendement n'est pas encore poussé sur `main`** : le disque
+dit encore l'inverse de ce qui a été appliqué. Porté au `plan.md` comme point de retour.
+
+- **Créé** : [[atelier/rd/instrument/ins-15-situation-polaire/intent]],
+  [[atelier/rd/instrument/ins-15-situation-polaire/spec]],
+  [[atelier/rd/instrument/ins-15-situation-polaire/plan]] (statut `brouillon`)
+- **Modifié** : [[atelier/rd/registre-chantiers]] (ligne INS-15, `attente-verdict`)
+- **Hors dépôt** : `/root/sandbox-rd/ins-15-polaire/` — jetable, non versionné
+- **En attente de Sidy** : visa du `plan.md` ; le refus d'ouverture sans manifeste, qui
+  tranche *contre* le précédent du repli ; l'ouverture d'un chantier `DOC-` pour
+  l'ingest des deux Tilak, dont la matière intégrale est au sas
+
+---
+
+
 ## [2026-09-02] outillage | Registre de traitement des rapports — répondre mécaniquement à « ce rapport a-t-il déjà été regardé ? »
 
 Sidy signale, à raison, qu'un rapport traité dans cette session avait peut-être
