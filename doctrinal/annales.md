@@ -9,6 +9,20 @@ updated: 2026-09-02
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] archivage | DOC-07 — second lien entrant, depuis Ibn ʿArabī
+
+Sidy relève que le second candidat proposé, [[doctrinal/autorites/ibn-arabi]],
+n'avait pas été traité — ajout du lien vers
+[[doctrinal/sources/osman-yahia-histoire-classification-1964]] (`cross_links`,
+`updated` remonté, Cmd 8). La fiche autorité n'est pas *source de* mais
+*sur* Ibn ʿArabī : lien porté en `cross_links`, non en `sources`, cohérent
+avec l'usage déjà en place sur cette fiche (ex. malamatiyah-futuhat-ch23).
+
+Graphe régénéré : la notice a désormais 2 liens entrants.
+`verifier-invariants.py` : 0 erreur, 0 avertissement sur 1350 fichiers.
+
+Commit à suivre.
+
 ## [2026-09-02] archivage | DOC-07 — orpheline résolue : lien depuis Gloton
 
 Suite à l'entrée précédente (orpheline signalée) : Sidy tranche — ajout du

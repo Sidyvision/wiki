@@ -3889,7 +3889,7 @@
         "andalousie",
         "akbarisme"
       ],
-      "updated": "2026-08-23",
+      "updated": "2026-09-02",
       "chemin": "doctrinal/autorites/ibn-arabi.md",
       "lacunes_to_source": 0
     },
@@ -13738,6 +13738,13 @@
     {
       "source": "doctrinal/autorites/ibn-arabi",
       "target": "doctrinal/sources/malamatiyah-futuhat-ch23",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ibn-arabi",
+      "target": "doctrinal/sources/osman-yahia-histoire-classification-1964",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

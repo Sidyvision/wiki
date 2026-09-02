@@ -9,7 +9,7 @@ tags:
 - andalousie
 - akbarisme
 created: 2026-06-02
-updated: 2026-08-23
+updated: 2026-09-02
 sources:
 - '[[awrad-ibn-arabi]]'
 - '[[jesus-and-enoch-in-ibn-arabi]]'
@@ -28,6 +28,7 @@ cross_links:
 - '[[ilm-al-nujum]]'
 - '[[doctrinal/symboles/malamatiyya]]'
 - '[[doctrinal/sources/malamatiyah-futuhat-ch23]]'
+- '[[doctrinal/sources/osman-yahia-histoire-classification-1964]]'
 ---
 
 # Ibn ʿArabī
