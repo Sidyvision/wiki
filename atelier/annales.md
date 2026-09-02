@@ -79,6 +79,8 @@ manifeste). Rien ne circule vers un circuit.
 
 Invariants : 1329 fichiers `.md`, 0 erreur, 0 avertissement.
 
+`ddb64c0`
+
 ## [2026-09-02] execution | PRO-08 clos — `textes/` ouvert, 560 fichiers rendus visibles, §II amendé
 
 Trois verdicts de Sidy, cités *verbatim* : « **`textes/` validé, dédoublonne
