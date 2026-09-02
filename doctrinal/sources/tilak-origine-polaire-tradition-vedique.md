@@ -8,7 +8,7 @@ created: 2026-07-14
 updated: 2026-09-02
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]", "[[doctrinal/sources/tilak-orion-antiquite-vedas-1893]]", "[[doctrinal/sources/guenon-atlantide-hyperboree]]", "[[doctrinal/symboles/adityas-mois-du-soleil]]", "[[doctrinal/symboles/ushas-les-trente-aurores]]"]
+cross_links: ["[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]", "[[doctrinal/sources/tilak-orion-antiquite-vedas-1893]]", "[[doctrinal/sources/guenon-atlantide-hyperboree]]", "[[doctrinal/symboles/adityas-mois-du-soleil]]", "[[doctrinal/symboles/ushas-les-trente-aurores]]", "[[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]]"]
 ---
 
 # Origine polaire de la tradition védique — Bâl Gangâdhar Tilak
@@ -39,7 +39,7 @@ suit n'est plus une table des matières mais un relevé de ce que l'ouvrage port
 | VIII-X | La marche des vaches · Les eaux captives · Les divinités matutines | relectures polaires des mythes (Indra/Vṛtra, les Aśvins) |
 | XI | Le témoignage avestique | le *Vara* de Yima, où le soleil se lève et se couche une fois l'an |
 | XII | Mythologie comparée | parallèles grecs et nordiques |
-| XIII | Portée sur la culture aryenne primitive | **écarté du dépôt** — voir ci-dessous |
+| XIII | Portée sur la culture aryenne primitive | voir [[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] |
 
 ### Le partage qui gouverne l'emploi de cet ouvrage
 
@@ -63,9 +63,11 @@ que la durée « demeure une matière d'incertitude » (ch. III, p. 78).
 
 ### Ce que le dépôt écarte de cet ouvrage, et pourquoi
 
-**Le chapitre XIII** (« Bearing on Primitive Aryan Culture ») n'est pas repris :
-matière d'histoire raciale telle qu'on l'écrivait en 1903, sans emploi ici.
-Écarté sur décision, et dit — non omis en silence.
+**Le chapitre XIII** (« Bearing on Primitive Aryan Culture ») est catalogué à
+part, dans [[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] : matière
+d'histoire raciale telle qu'on l'écrivait en 1903, sans emploi ici et non reprise
+par une catégorie du dépôt — mais dite, non tue (revirement du 2026-09-02 sur la
+décision initiale d'exclusion pure).
 
 **Les datations** ne sont pas adoptées non plus : voir
 [[doctrinal/sources/tilak-orion-antiquite-vedas-1893]], où la méthode

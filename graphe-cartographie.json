@@ -8045,6 +8045,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/tilak-culture-aryenne-primitive-ch13",
+      "label": "Culture aryenne primitive — chapitre XIII de *The Arctic Home in the Vedas* (Tilak)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "tilak",
+        "vedas",
+        "chronologie",
+        "glaciation",
+        "historiographie-1903"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "doctrinal/sources/tilak-culture-aryenne-primitive-ch13.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
       "label": "Origine polaire de la tradition védique — Bâl Gangâdhar Tilak",
       "circuit": "doctrinal",
@@ -20061,6 +20080,13 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/tilak-culture-aryenne-primitive-ch13",
+      "target": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
       "target": "doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra",
       "champ": "cross_links",
@@ -20091,6 +20117,13 @@
     {
       "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
       "target": "doctrinal/symboles/ushas-les-trente-aurores",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "target": "doctrinal/sources/tilak-culture-aryenne-primitive-ch13",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

@@ -9,6 +9,38 @@ updated: 2026-09-02
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] archivage | Réouverture DOC-06 — sixième fiche sur le chapitre XIII, et vidage du sas
+
+Chantier DOC-06 (ingest des deux Tilak, cinq fiches, commit `47b03c5`) rouvert le
+jour même sur nouveau verdict de Sidy : l'exclusion pure du chapitre XIII
+(« Bearing on Primitive Aryan Culture ») est remplacée par un catalogage
+explicite, avertissement en tête. **CRÉÉ** :
+[[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] (`academique`) —
+résumé chronologique/géologique du chapitre, vocabulaire « aryen » de 1903
+rapporté comme fait historiographique sur l'auteur, non repris par une catégorie
+du dépôt. **ENRICHI** : [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]]
+— la ligne XIII de la table et le paragraphe d'exclusion pointent désormais vers
+la nouvelle fiche au lieu de la dire écartée.
+
+Ce revirement a été demandé sur la base d'un plan (`_inbox/MASTER-UPDATE.md`)
+que Sidy croyait encore en attente de verdict, alors que le chantier avait déjà
+été exécuté par une session antérieure le même jour — écart signalé et confirmé
+par Sidy avant toute écriture (double vérification, aucun auto-accept).
+
+**Vidage du sas, sur confirmation explicite** : `_inbox/MASTER-UPDATE.md` (plan
+déjà exécuté, jamais retiré du sas comme prévu à son étape 5), et deux doublons
+bruts non découpés du même contenu déjà converti proprement dans `textes/` —
+`_inbox/conversions/9566.md` (source `raw/9566.pdf`, doublon de
+`textes/tilak-the-arctic-home-in-the-vedas-1903/`) et
+`_inbox/conversions/orion-tilak-1893.md` (source
+`raw/orionortheantiqu021979mbp.pdf`, doublon de
+`textes/tilak-the-orion-1893/`) — retirés du sas (Cmd 10 : suppression actée sur
+verdict, non silencieuse). `_inbox/conversions/chapitres-arctic-home/` et `chapitres-orion/`
+(16 + 12 fichiers, diff vide contre `textes/`, repérés après coup et retirés sur
+même confirmation) — mêmes doublons, non repérés au premier passage.
+`_inbox/conversions/chapitres-osman-yahya/` (matière neuve, hors DOC-06) reste au
+sas dans l'attente d'un plan propre.
+
 ## [2026-09-02] archivage | Ingest des deux Tilak (DOC-06) — cinq fiches, et ce qui est écarté
 
 Ingest lancé sur verdict de Sidy, plan visé (`_inbox/MASTER-UPDATE.md`), écarts
