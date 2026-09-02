@@ -50,6 +50,35 @@ retombe donc déjà sur LSTM seul, faute d'alternative installée.
 faire : un seul est présent. Piste épuisée sans qu'aucune installation n'ait été
 nécessaire pour la clore.
 
+### Piste 3 — bibliothèques de conversion documentaire (`markitdown`, `anydoc`)
+
+Examinée le 2026-09-02, `anydoc` sur signalement de Sidy. **Piste close, et non
+pas seulement négative** : elle est fermée par le protocole, pas par la mesure.
+
+| | OCR local | Chemin OCR proposé |
+|---|---|---|
+| `markitdown` (Microsoft) | aucun | plugin → API LLM Vision (clé OpenAI) ou Azure |
+| `anydoc` (Firecrawl) | aucun | `--ocr hosted` → API Firecrawl Parse |
+
+`markitdown` a été **exécuté** sur un extrait de la Maymaniyya : **0 octet**. Il
+repose sur `pdfminer`/`pdfplumber`, qui ne lisent que du texte déjà encodé.
+`anydoc` n'a pas eu besoin de l'être, sa documentation étant explicite — *« does
+no OCR, so a PDF with scanned or image-only pages fails with `NeedsOcr` »*.
+
+Les deux échouent **au même endroit et pour la même raison** : ce sont des
+convertisseurs de documents *déjà porteurs de texte*, non des moteurs d'OCR. Leur
+option OCR est un renvoi vers un service tiers — et pour `anydoc`, *« the whole
+document goes, since Parse has no page selection »* : les 779 pages du tome
+partiraient chez un tiers. Contraire au §VIII (déterministe, sans LLM, sans
+réseau).
+
+**Verdict** : la piste « OCR cloud » de `intent.md` ne bute pas sur une dépense
+ou un paquet manquant, mais sur le protocole. **Ne pas re-tester ces outils sur
+un scan** sans élément neuf. Ils restent en veille pour les formats nativement
+structurés (`.docx`, `.epub`, `.pptx`, `.xlsx`) — usage **non éprouvé ici**, à
+mesurer sur pièce le jour où un tel fichier arrivera, jamais à inscrire sur la
+foi d'une documentation.
+
 ## Critères d'acceptation (pour une piste qui franchirait le seuil)
 
 1. Sur la page 300, un échantillon de texte reconnu redevient lisible mot à mot
@@ -75,7 +104,11 @@ Cmd 5) — rien à sourcer ici.
 ## Verdict de cette spécification
 
 Les deux pistes ne demandant **aucune installation** sont épuisées, toutes deux
-négatives. Toute piste restante identifiée en `intent.md` (prétraitement d'image,
-moteur alternatif, OCR cloud) suppose un paquet absent du serveur ou une dépense
-tierce — point de retour à Sidy (Cmd 13) avant tout nouvel essai. Sans ce verdict,
-aucun `plan.md` ne peut être écrit (Cmd 6, gabarit §2).
+négatives. Une troisième — les bibliothèques de conversion documentaire
+(`markitdown`, `anydoc`) — est **close par le §VIII** et non par la mesure :
+aucune ne fait d'OCR local, toutes deux renvoient vers un service tiers.
+
+Restent donc, parmi les pistes de `intent.md` : le **prétraitement d'image** et
+un **moteur alternatif** installé localement. L'une et l'autre supposent un
+paquet absent du serveur — point de retour à Sidy (Cmd 13) avant tout nouvel
+essai. Sans ce verdict, aucun `plan.md` ne peut être écrit (Cmd 6, gabarit §2).

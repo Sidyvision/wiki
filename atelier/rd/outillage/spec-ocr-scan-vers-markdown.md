@@ -157,10 +157,23 @@ numériques et le doute est signalé.
   ClearScan, donc *reproduit* les défauts qu'on avait écartés, et invente en
   prime de faux tableaux Markdown à partir des colonnes de chiffres du
   répertoire. Son plugin OCR passe par une API LLM Vision (clé OpenAI) ou
-  Azure Document Intelligence : réseau + tiers, contraire au §VIII. **En
-  revanche il est le bon outil pour les formats nativement structurés**
-  (`.docx`, `.pptx`, `.xlsx`, `.epub`, `.html`), où il préserve titres, listes
-  et vraies tables — usage à retenir le jour où de tels fichiers arrivent.
+  Azure Document Intelligence : réseau + tiers, contraire au §VIII. Pour les
+  formats nativement structurés (`.docx`, `.pptx`, `.xlsx`, `.epub`, `.html`),
+  il ferait sans doute mieux que notre chaîne — mais **cela n'a pas été
+  éprouvé ici**, faute de tel fichier au dépôt : ne pas l'inscrire comme
+  recommandation avant de l'avoir fait tourner sur pièce.
+- **`anydoc` (Firecrawl) — à évaluer le jour venu, non éprouvé.** Signalé par
+  Sidy le 2026-09-02, lu mais **non exécuté ici**. Sur le papier il couvre
+  mieux les formats bureautiques que `markitdown` (Rust, ~5 ms/document, 14
+  formats dont les vieux `.doc`/`.xls`/`.ppt`, équations en LaTeX, cellules
+  fusionnées, détection par les octets), MIT et auto-hébergeable. **Mais il ne
+  fait aucun OCR local** : un scan échoue en `NeedsOcr`, et l'option
+  `--ocr hosted` expédie *le document entier* à l'API Firecrawl Parse (pas de
+  sélection de page) — donc inutilisable pour nos scans, et contraire au
+  §VIII. Ligne de conduite retenue avec Sidy : **on l'éprouvera sur pièce le
+  jour où un `.docx`/`.epub` arrivera réellement**, pas avant. Inscrire un
+  outil sur la foi de sa documentation, c'est le self-report qu'on refuse
+  partout ailleurs.
 - **La langue de l'étiquette n'est pas la langue de la commande.** Le
   frontmatter portait `(eng)` en dur : patcher la commande `tesseract` à la
   main sans toucher l'étiquette produisait un fichier qui **mentait sur sa

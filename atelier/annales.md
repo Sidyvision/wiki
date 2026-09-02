@@ -10,6 +10,48 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] archivage | OUT-08 — `anydoc` (Firecrawl) examiné : piste OCR cloud fermée par le §VIII
+
+Sidy signale `firecrawl/anydoc` et demande s'il serait plus utile. Lecture de la
+source **sans exécution** — l'examen suffit à trancher, la documentation de
+l'outil étant explicite sur le point décisif.
+
+**Réponse : non, et la piste est close.** *« anydoc reads text-based PDFs
+locally but does no OCR, so a PDF with scanned or image-only pages fails with
+`NeedsOcr` »* — dit par ses propres auteurs. La *Futūḥāt* est un scan image pur.
+Le seul chemin vers de l'OCR est `--ocr hosted`, qui expédie **le document
+entier** à l'API Firecrawl Parse : *« the whole document goes, since Parse has
+no page selection »*. Soit 779 pages d'un ouvrage chez un tiers. Le crate Rust,
+lui, *« never makes network calls »* — mais ne fait alors aucun OCR.
+
+Cela **ferme la piste « OCR cloud »** listée en `intent.md` parmi celles qui
+restaient : elle ne bute pas sur une dépense ou un paquet à installer, mais sur
+le §VIII (outillage déterministe, sans LLM, sans réseau). Même motif que
+`markitdown`, examiné plus tôt dans la journée : 0 octet sur un scan pur, aucun
+OCR local, plugin OCR passant par une API LLM Vision ou Azure. **Les deux
+outils échouent au même endroit et pour la même raison.** Ne pas les re-tester
+sur un scan sans élément neuf.
+
+**Rectification d'une affirmation trop ferme de ce matin.** L'entrée
+« Chaîne OCR ouverte à l'arabe et au français » et la spec de la chaîne
+présentaient `markitdown` comme « le bon outil » pour `.docx`/`.pptx`/`.xlsx`/
+`.epub`. Or il n'a été éprouvé que sur nos deux PDF : cette recommandation-là
+était **déduite d'une documentation, jamais mesurée**. Sur le papier `anydoc`
+couvre d'ailleurs mieux ces formats (Rust, ~5 ms/document, 14 formats dont les
+`.doc`/`.xls`/`.ppt` de 2003, équations LaTeX, cellules fusionnées, MIT,
+auto-hébergeable) — mais l'inscrire comme acquis répéterait la faute.
+
+**Verdict de Sidy** (option 2 de deux proposées) : ne rien inscrire comme
+éprouvé, **évaluer sur pièce le jour où un `.docx`/`.epub` arrivera
+réellement**. `spec-ocr-scan-vers-markdown.md` §6 porte désormais les deux
+outils en veille explicite, avec la mention « non éprouvé ici », et non en
+recommandation.
+
+Leçon, de la même famille que le refus de découper les *Futūḥāt* : **une
+lecture de documentation n'est pas une mesure**. Un outil ne s'inscrit au
+catalogue qu'après avoir tourné sur une pièce du dépôt. Ici l'examen suffisait
+à écarter, il n'aurait pas suffi à recommander.
+
 ## [2026-09-02] archivage | OUT-08 — `spec.md` : deux pistes sans installation épuisées
 
 Sur demande de Sidy (« Essaie `--oem 1` d'abord, sans installation »), test sur
