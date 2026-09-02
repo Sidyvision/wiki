@@ -31,6 +31,22 @@ try:
 except ImportError:
     sys.exit("ERREUR : PyYAML manquant. Installer avec : apt install python3-yaml")
 
+# --- Constantes du schéma v0.2.6 ---
+#
+#   v0.2.6 (2026-09-02) : propage le bloc `polaire:` (chantier INS-15, plan visé
+#     par Sidy le 2026-09-02) — le MODE COSMOLOGIQUE de l'Instrument : stations,
+#     seuils crépusculaires, états du soleil et de l'aurore, roue du Manvantara,
+#     caractères polaires et circum-polaires de Tilak.
+#     DEUX POINTS DE MÉTHODE, l'un et l'autre nés de fautes réelles :
+#     1. `obliquite_deg` et `epoque_reference` ne sont PAS redéclarés dans
+#        `polaire:` — ils sont DÉRIVÉS de `zodiaque:` (Cmd 14, jamais deux fois).
+#        Une garde REFUSE leur redéclaration : contrôler la concordance de deux
+#        copies serait la rustine du doublon, pas sa correction.
+#     2. Toute entrée portant un `statut` doit porter une `source`, quel que soit
+#        le statut. La première rédaction ne l'exigeait que sur `etabli` : un
+#        scalaire conventionnel (`crepuscule_deg: -18.0`) passait dessous sans
+#        source, alors que toute la durée de l'aurore en dépendait.
+#
 # --- Constantes du schéma v0.2.5 --------------------------------------------
 #
 #   v0.2.5 (2026-08-25) : propage le bloc `maisons:` d'instrument-donnees.yaml
@@ -83,7 +99,7 @@ except ImportError:
 #     manifeste — écart signalé dans rd/instrument/2026-08-20_etat-avancement-
 #     pistes-developpement.md §5, fermé ici sur demande de Sidy.
 
-SCHEMA_VERSION = "0.2.5"
+SCHEMA_VERSION = "0.2.6"
 TYPES_ANCRAGE = {"equivalence", "complementarite", "subversion", "parodie"}
 ETATS_ANCRAGE = {"etabli", "suggere", "identifie"}
 DIRECTIONNALITES = {"none", "ascendant", "descendant"}
@@ -237,6 +253,144 @@ def valider_maisons(maisons, erreurs, avertissements):
     return maisons
 
 
+STATUTS_POLAIRE = {"etabli", "suggere", "academique"}
+# Clés dont la redéclaration dans `polaire:` est REFUSÉE : elles vivent en
+# `zodiaque:` et n'ont pas à exister deux fois (Cmd 14).
+CLES_INTERDITES_POLAIRE = {"obliquite_deg", "epoque_reference"}
+
+
+def _statuts_et_sources(noeud, chemin, erreurs):
+    """G7 — toute entrée portant un `statut` porte une `source` non vide, QUEL QUE
+    SOIT le statut. Descend récursivement : une hypothèse enfouie est une hypothèse
+    quand même. Retourne le nombre d'entrées contrôlées (pour le rapport)."""
+    n = 0
+    if isinstance(noeud, dict):
+        if "statut" in noeud:
+            n += 1
+            st = noeud.get("statut")
+            if st not in STATUTS_POLAIRE:
+                erreurs.append(
+                    f"{chemin} : statut invalide ({st!r}) — attendu {sorted(STATUTS_POLAIRE)}"
+                )
+            if not str(noeud.get("source", "")).strip():
+                erreurs.append(
+                    f"{chemin} : porte un statut ({st!r}) sans « source » — "
+                    "rien n'est asserté sans source (§VII)"
+                )
+        for k, v in noeud.items():
+            n += _statuts_et_sources(v, f"{chemin}.{k}", erreurs)
+    elif isinstance(noeud, list):
+        for i, v in enumerate(noeud):
+            n += _statuts_et_sources(v, f"{chemin}[{i}]", erreurs)
+    return n
+
+
+def valider_polaire(polaire, zodiaque, erreurs, avertissements):
+    """Valide le bloc `polaire:` (peut être absent) et retourne la valeur à
+    inscrire au manifeste, `obliquite_deg` et `epoque_reference` DÉRIVÉS de
+    `zodiaque:`. Huit gardes, toutes BLOQUANTES — voir
+    rd/instrument/ins-15-situation-polaire/spec.md §3.2."""
+    if not polaire:
+        return None
+    if not isinstance(polaire, dict):
+        erreurs.append("polaire : doit être une table")
+        return None
+
+    obliquite = None
+    if isinstance(zodiaque, dict):
+        obliquite = zodiaque.get("obliquite_deg")
+
+    # G3 — refus du doublon, jamais tolérance silencieuse.
+    for cle in sorted(CLES_INTERDITES_POLAIRE & set(polaire)):
+        erreurs.append(
+            f"polaire.{cle} : redéclaration interdite — cette valeur vit dans "
+            "`zodiaque:` et le générateur la dérive (Cmd 14, jamais deux fois)"
+        )
+
+    # G1 — le cercle arctique n'est pas une valeur libre : il EST 90 - obliquité.
+    lat_min = polaire.get("latitude_min_deg")
+    if lat_min is None:
+        erreurs.append("polaire : `latitude_min_deg` manquante")
+    elif obliquite is None:
+        erreurs.append(
+            "polaire : `latitude_min_deg` ne peut être contrôlée — "
+            "`zodiaque.obliquite_deg` est absente"
+        )
+    elif abs(float(lat_min) - (90.0 - float(obliquite))) > 0.01:
+        erreurs.append(
+            f"polaire.latitude_min_deg = {lat_min} — attendu "
+            f"{90.0 - float(obliquite):.2f} (= 90 - zodiaque.obliquite_deg). "
+            "Le cercle arctique n'est pas une valeur libre"
+        )
+
+    # G2 — la station par défaut est dans le domaine du module.
+    lat = polaire.get("latitude_deg")
+    if lat is None:
+        erreurs.append("polaire : `latitude_deg` manquante")
+    elif lat_min is not None and not (float(lat_min) <= float(lat) <= 90.0):
+        erreurs.append(
+            f"polaire.latitude_deg = {lat} — hors de [{lat_min}, 90] : "
+            "le module n'a pas d'objet à cette latitude"
+        )
+
+    # G4/G7 — statuts valides, et sources partout où il y a un statut.
+    nb_statuts = _statuts_et_sources(polaire, "polaire", erreurs)
+
+    # G8 — pas de scalaire conventionnel nu à la racine du bloc.
+    for cle, val in polaire.items():
+        if isinstance(val, (int, float)) and cle not in {"latitude_deg", "latitude_min_deg"}:
+            erreurs.append(
+                f"polaire.{cle} : scalaire nu — une valeur conventionnelle se "
+                "déclare en table `statut`/`source`/`valeurs`, jamais en nombre seul"
+            )
+
+    # G5 — la roue du Manvantara est fausse si les proportions ne sont pas 4:3:2:1.
+    cycles = polaire.get("cycles")
+    if isinstance(cycles, dict):
+        yugas = cycles.get("yugas") or []
+        if len(yugas) != 4:
+            erreurs.append(f"polaire.cycles.yugas : {len(yugas)} déclaré(s), 4 attendus")
+        else:
+            ans = [float(y.get("ans", 0)) for y in yugas]
+            unite = ans[3]
+            attendus = [4 * unite, 3 * unite, 2 * unite, 1 * unite]
+            if any(abs(a - b) > 1e-6 for a, b in zip(ans, attendus)):
+                erreurs.append(
+                    f"polaire.cycles.yugas : proportions {ans} — attendu "
+                    f"{attendus} (4:3:2:1). La roue serait fausse"
+                )
+            total = cycles.get("manvantara_ans")
+            if total is not None and abs(sum(ans) - float(total)) > 1e-6:
+                erreurs.append(
+                    f"polaire.cycles.manvantara_ans = {total} — la somme des "
+                    f"Yugas vaut {sum(ans):.0f}"
+                )
+
+    # G6 — les deux jeux de Tilak sont complets ou absents, jamais à moitié.
+    cars = polaire.get("caracteristiques") or []
+    if cars:
+        ids = [c.get("id") for c in cars]
+        if len(ids) != len(set(ids)):
+            erreurs.append("polaire.caracteristiques : identifiants en double")
+        for regime, attendu in (("polaire", 4), ("circum-polaire", 4)):
+            n = sum(1 for c in cars if c.get("regime") == regime)
+            if n != attendu:
+                erreurs.append(
+                    f"polaire.caracteristiques : {n} entrée(s) de régime "
+                    f"« {regime} », {attendu} attendues — les deux jeux de "
+                    "Tilak sont complets ou absents"
+                )
+
+    sortie = dict(polaire)
+    # Dérivation, jamais redéclaration.
+    if obliquite is not None:
+        sortie["obliquite_deg"] = obliquite
+    if isinstance(zodiaque, dict):
+        sortie["epoque_reference"] = zodiaque.get("epoque_reference")
+    sortie["_statuts_controles"] = nb_statuts
+    return sortie
+
+
 AXES_REGISTRE = {"principal", "parallele"}
 # v0.2.6 (2026-08-30) : échelle de lecture d'un registre. Une comparaison
 # inter-registres doit respecter l'échelle — apparier un macrocosme à un
@@ -366,6 +520,7 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     decl_ancrages = donnees.get("ancrages", []) or []
     decl_zodiaque = donnees.get("zodiaque") or {}
     decl_maisons = donnees.get("maisons") or []
+    decl_polaire = donnees.get("polaire") or {}
     decl_registres = donnees.get("registres") or []
 
     # 2. Indexer la vérité doctrinale.
@@ -507,6 +662,11 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
     # 5 bis. Valider et intégrer le bloc maisons (indépendant, domification générique).
     maisons_valide = valider_maisons(decl_maisons, erreurs, avertissements)
 
+    # 5 ter. Valider et intégrer le bloc polaire (v0.2.6, chantier INS-15).
+    #        Il LIT `zodiaque:` pour en dériver l'obliquité et l'époque — il ne
+    #        les redéclare jamais (Cmd 14).
+    polaire_valide = valider_polaire(decl_polaire, decl_zodiaque, erreurs, avertissements)
+
     # 6. Rapport et sortie.
     for w in avertissements:
         print(f"⚠ AVERTISSEMENT : {w}")
@@ -527,6 +687,8 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
         manifeste["zodiaque"] = zodiaque_valide
     if maisons_valide is not None:
         manifeste["maisons"] = maisons_valide
+    if polaire_valide is not None:
+        manifeste["polaire"] = polaire_valide
     if registres_valides is not None:
         manifeste["registres"] = registres_valides
     chemin_sortie.parent.mkdir(parents=True, exist_ok=True)
@@ -549,6 +711,13 @@ def generer(repo: Path, chemin_donnees: Path, chemin_sortie: Path) -> int:
           f"zodiaque {'inclus' if zodiaque_valide is not None else 'absent'}, "
           f"maisons {'incluses' if maisons_valide is not None else 'absentes'}, "
           f"{len(registres_valides or [])} registre(s), "
+          # Le bloc polaire est ANNONCÉ, et compté : un rapport qui tait un bloc
+          # peut masquer son absence — c'est la forme même de PRO-01.
+          f"polaire {'inclus' if polaire_valide is not None else 'ABSENT'}"
+          + (f" ({polaire_valide['_statuts_controles']} statut(s) contrôlé(s), "
+             f"{sum(len(l.get('etats', [])) for l in polaire_valide.get('etats_du_soleil', {}).get('listes', []))} "
+             f"état(s) du soleil nommé(s))" if polaire_valide is not None else "")
+          + ", "
           f"{len(avertissements)} avertissement(s), commit {manifeste['source_commit'][:12]}")
     return 0
 

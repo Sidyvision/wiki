@@ -10,6 +10,101 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] chantier | INS-15 phases 2 et 3 — le mode cosmologique existe, et deux gardes ont mordu sur du réel
+
+Plan visé par Sidy. Exécution des phases 2 (donnée et producteur) et 3 (rendu).
+
+**La donnée.** Bloc `polaire:` ouvert dans `instrument-donnees.yaml` (v0.8.0) :
+deux stations sourcées, seuils crépusculaires en liste, obliquité variable, deux
+voies, septénaire polaire, roue du Manvantara, les deux jeux de caractères de
+Tilak — et **tous les états du soleil**, sur demande expresse de Sidy. Les trois
+listes sont portées **séparément** : les huit fils d'Aditi (Mārtāṇḍa nommé comme
+rejeté), les huit soleils du Taittirīya Āraṇyaka (Kaśyapa, qui ne quitte jamais le
+Mahāmeru et donne sa lumière aux sept visibles), et les douze Ādityas en 🌐
+divergence. Les fondre eût fabriqué un accord que les textes ne donnent pas.
+
+⚠️ **Décision de rendu changée sur ordre.** J'avais prévu de figurer Mārtāṇḍa
+**par sa seule absence** (procédé d'INS-07 §8). Sidy demande que *tous* les états
+soient nommés **et représentés** : le rejeté l'est donc explicitement, dans un
+encadré distinct, avec la réserve textuelle. Le procédé de l'absence n'est pas
+abandonné — il n'est pas appliqué ici.
+
+⚠️ **Réserve textuelle conservée** : le Taittirīya Āraṇyaka donne les huit noms
+mais **ne dit pas lequel est Mārtāṇḍa**. La lacune est du texte. Le rendu ne
+l'attribue à aucun des huit.
+
+🔍 **Signalé, non instruit** : Kaśyapa, soleil qui ne quitte jamais la montagne
+polaire et éclaire les sept visibles, touche de très près l'axe du mode
+métaphysique et le hozo Meru=Qâf clos au dépôt. Le rapprochement est **nommé dans
+la donnée elle-même** pour qu'il ne se fasse pas à l'insu de quelqu'un, et il
+n'est **pas déclaré** : il exigerait sa propre fiche de discernement (Cmd 3).
+
+**Le producteur.** `generer-manifeste.py` en schéma **v0.2.6** : propagation du
+bloc, **dérivation** de `obliquite_deg` et `epoque_reference` depuis `zodiaque:`
+— jamais redéclarés (Cmd 14) —, et **huit gardes bloquantes**. La ligne de rapport
+annonce désormais le bloc et le compte : un rapport qui tait un bloc peut masquer
+son absence.
+
+**Deux gardes ont mordu sur des fautes RÉELLES, non fabriquées.**
+1. **G7, dès le premier essai** : `cycles.precession` portait un statut sans
+   source — omission de ma propre donnée. La garde a refusé, le manifeste n'a pas
+   été produit.
+2. **Le garde-fou du dépôt frère** a refusé le commit du manifeste, et il avait
+   raison : `publier-manifeste-instrument.sh` — **la seule voie légitime de
+   publication** — ne posait pas `MANIFESTE_RECU=1`, de sorte qu'il était
+   systématiquement bloqué par le hook écrit pour le protéger. Le défaut n'avait
+   jamais paru parce que `--publier` n'avait pas été rejoué depuis la pose du hook
+   (INF-14). Corrigé et daté dans le script. Même famille que PRO-01 : un
+   dispositif dont on n'avait pas éprouvé le comportement réel.
+
+**L'épreuve des huit gardes** est versée au dépôt :
+`atelier/rd/outillage/eprouver-gardes-polaire.py` fabrique chaque faute dans une
+**copie jetable**, la présente au générateur et vérifie qu'il refuse **en nommant
+la bonne garde**. Résultat : état sain accepté, rapport annonçant le bloc, et
+**les 8 gardes refusant chacune SA faute**.
+
+**Les contrôles de géométrie sont versés** (étape 6 bis du plan) :
+`verifier-geometrie-polaire.py` (10 contrôles, tous vus tomber sous biais) et
+`comparer-geometrie-rendu.py`, qui **extrait les fonctions du rendu réel** — non
+du prototype, et sans les recopier — et les confronte à la référence Python sur
+560 cas : écart maximal **3,7 × 10⁻¹⁴°**, et un écart injecté d'1° est détecté.
+Motif du versement : les critères d'acceptation désignaient un bac à sable
+déclaré jetable — une phase ultérieure aurait trouvé une section *Vérification*
+dont aucune commande n'existe.
+
+**Le rendu.** Calque `polaire` au dépôt frère, bascule sur bouton et touche C.
+Le calque ne crée aucun objet neuf : il **détermine** le plan de base existant.
+Le mode métaphysique n'est pas détruit mais **mis en retrait**, sa visibilité
+propre mémorisée — sans quoi l'aller-retour rallumerait ce qu'une station avait
+éteint. Les tours d'aurore sont **comptés** : trente sœurs = trente tours.
+
+**Deux valeurs en dur retirées du rendu**, que mon premier contrôle n'avait pas
+vues parce qu'il ne grepait que le corps du calque : un repli `-18` dans
+`seuilDeg()` — sans seuil déclaré, l'aurore ne se dessine plus, une donnée absente
+n'est jamais suppléée — et `max="23.44"` dans le **balisage** du curseur
+d'obliquité, dont les bornes sont désormais dérivées du manifeste au démarrage.
+
+**Deux défauts de code corrigés** : `PIECES` est local à l'IIFE des stations et
+n'était pas visible du calque (la syntaxe passait, l'exécution aurait jeté) ; et
+une ligne blanchissait la texture d'une étiquette au lieu de la refaire.
+
+**Ce qui n'est PAS fait, et qui vous appartient** : la mise en production. Le
+commit existe côté frère, le push n'est pas fait (Cmd 13, `PUBLIER=1`).
+
+- **Modifié** : `atelier/rd/instrument/instrument-donnees.yaml` (v0.8.0, bloc
+  `polaire:`), `atelier/rd/outillage/generer-manifeste.py` (v0.2.6),
+  [[atelier/rd/outillage/spec-generateur-manifeste]] (§5 quinquies),
+  `atelier/rd/outillage/publier-manifeste-instrument.sh` (défaut `MANIFESTE_RECU`),
+  [[atelier/rd/registre-chantiers]] (INS-15 `en-cours`, table recomptée),
+  `atelier/rd/instrument/wiki-manifest.json` (régénéré — artefact, jamais édité)
+- **Créé** : `atelier/rd/outillage/verifier-geometrie-polaire.py`,
+  `atelier/rd/outillage/comparer-geometrie-rendu.py`,
+  `atelier/rd/outillage/eprouver-gardes-polaire.py`
+- **Dépôt frère** : commit `362f19e`, **non poussé**
+
+---
+
+
 ## [2026-09-02] chantier | INS-15 — les deux modes reçoivent leur sens, et le soleil ses états
 
 Deux verdicts de Sidy, rendus après l'ouverture du chantier, et un troisième apport.

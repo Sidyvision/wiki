@@ -71,7 +71,8 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 **50 chantiers ouverts** au 2026-09-02, plus 6 versés en §9 (clos ou caducs) et
 6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous
 modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
-Mis à jour le 2026-09-02 : ouverture de `BIB-03`, puis de `INS-15`.
+Mis à jour le 2026-09-02 : ouverture de `BIB-03`, puis de `INS-15` — celui-ci
+passé `attente-verdict` → `en-cours` le même jour (plan visé, phases 2 et 3 faites).
 
 > **Note de recomptage (2026-09-02).** Deux sessions concurrentes ont porté deux
 > totaux différents sur cette ligne — 31/3/5/9 d'un côté, 30/3/5/10 de l'autre, tous
@@ -81,14 +82,14 @@ Mis à jour le 2026-09-02 : ouverture de `BIB-03`, puis de `INS-15`.
 
 | Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
 |---|---|---|---|---|---|
-| `INS` Instrument | 10 | — | 1 | 4 | **15** |
+| `INS` Instrument | 10 | 1 | 1 | 3 | **15** |
 | `INF` Infrastructure & agents | 7 | 3 | 1 | 3 | **14** |
 | `OUT` Outillage & scripts | 5 | — | 1 | — | **6** |
 | `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 2 | **5** |
 | `DOC` Doctrinal | 4 | — | — | 1 | **5** |
-| **Total** | **31** | **3** | **5** | **11** | **50** |
+| **Total** | **31** | **4** | **5** | **10** | **50** |
 
 **Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
@@ -137,7 +138,7 @@ une valeur recopiée est une valeur périmée. Il dit **où regarder**.
 | INS-12 | Colonne *faṣṣ* (Fuṣūṣ) de la table des 28 degrés — `to-source` (3 marqueurs restants) | `ouvert` | non bloquant : `instrument-donnees.yaml` ne l'utilise pas | `doctrinal/symboles/table-28-degres-nafas-rahman` | — | 2026-07-01 |
 | INS-13 | Bandeau zodiacal horizontal — données déjà sourcées, **rendu manquant** | `ouvert` | implémenter le rendu | [[atelier/index]] §Instrument ; [[atelier/rd/instrument/spec-anneau-zodiacal]] | [[atelier/rd/instrument/ins-13-bandeau-zodiacal/intent]] | 2026-07-27 |
 | INS-14 | Versant Sanātana Dharma — la fondation védantique est disponible (ch. X, XV, XVI de *L'Homme et son devenir*), la structure à 4 états n'est **pas encore ancrée** | `ouvert` | ancrer le registre `vedanta` | [[atelier/index]] §Instrument ; [[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16]] | — | 2026-07-16 |
-| INS-15 | Situation polaire — **mode cosmologique** de l'Instrument : horizon, sphère céleste, révolution ascendante et descendante du soleil, roue du Manvantara ; bascule cosmologique/métaphysique sur le plan de base | `attente-verdict` | Sidy vise le `plan.md` — géométrie déjà éprouvée hors dépôt (7 contrôles, épreuvés par l'échec) | demande de Sidy du 2026-09-02 ; [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] ; [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] §6bis.5 | [[atelier/rd/instrument/ins-15-situation-polaire/intent]] | 2026-09-02 |
+| INS-15 | Situation polaire — **mode cosmologique** de l'Instrument : horizon, sphère céleste, révolution ascendante et descendante du soleil, roue du Manvantara ; bascule cosmologique/métaphysique sur le plan de base | `en-cours` | plan **visé** le 2026-09-02 ; phases 2 et 3 faites (donnée, générateur v0.2.6, rendu) — reste la mise en production (Cmd 13) | demande de Sidy du 2026-09-02 ; [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] ; [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] §6bis.5 | [[atelier/rd/instrument/ins-15-situation-polaire/intent]] | 2026-09-02 |
 
 *Suites de [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] §7 :
 non dépouillées dans cette passe → §8.*

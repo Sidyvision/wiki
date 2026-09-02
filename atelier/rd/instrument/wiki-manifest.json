@@ -1,7 +1,7 @@
 {
-  "schema_version": "0.2.5",
-  "generated_at": "2026-08-30T17:35:53+00:00",
-  "source_commit": "bc155cb925cb3fe8cb332b21eb8fd440d160ff98",
+  "schema_version": "0.2.6",
+  "generated_at": "2026-09-02T08:03:09+00:00",
+  "source_commit": "9017e2bb52cacec4def76daa175e31c7c25fae95",
   "nodes": [
     {
       "id": "tasawwuf/hadarat-khams",
@@ -656,6 +656,332 @@
       "type": "mutable"
     }
   ],
+  "polaire": {
+    "latitude_deg": 90.0,
+    "latitude_min_deg": 66.56,
+    "stations": [
+      {
+        "id": "pole",
+        "lat_deg": 90.0,
+        "statut": "etabli",
+        "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+        "label": "Le Pôle",
+        "citation": "La terre où le soleil faisait le tour de l'horizon sans se coucher"
+      },
+      {
+        "id": "jour-double",
+        "lat_deg": 49.07,
+        "statut": "etabli",
+        "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+        "label": "La région du jour double",
+        "citation": "une région où le jour le plus long était double du jour le plus court",
+        "note": "Latitude DÉRIVÉE de la condition 16 h / 8 h, non citée par Guénon. Elle ne désigne aucun lieu : un parallèle n'est pas une adresse.\n"
+      }
+    ],
+    "seuils_crepusculaires": {
+      "statut": "academique",
+      "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "defaut_deg": -18.0,
+      "valeurs": [
+        {
+          "deg": -16.0,
+          "note": "zone tropicale, selon Tilak"
+        },
+        {
+          "deg": -18.0,
+          "note": "hautes latitudes, borne basse de Tilak"
+        },
+        {
+          "deg": -20.0,
+          "note": "hautes latitudes, borne haute de Tilak"
+        }
+      ]
+    },
+    "obliquite_variable": {
+      "statut": "suggere",
+      "source": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "min_deg": 0.0,
+      "note": "Note 2 de l'article : l'inclinaison de l'axe « n'aurait pas existé dès l'origine, mais serait une conséquence de […] la chute de l'homme ». Guénon rapporte au conditionnel, en note, sans nommer ses sources. À obliquité nulle : plus de saisons, soleil sur l'horizon au pôle.\n"
+    },
+    "deux_voies": {
+      "statut": "etabli",
+      "source": "doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices",
+      "ascendante": {
+        "nom": "dêva-yâna",
+        "porte": "solstice d'hiver",
+        "clef": "clef d'or",
+        "mystères": "grands mystères"
+      },
+      "descendante": {
+        "nom": "pitri-yâna",
+        "porte": "solstice d'été",
+        "clef": "clef d'argent",
+        "mystères": "petits mystères"
+      },
+      "note": "Les deux portes solsticiales donnent accès aux deux moitiés ascendante et descendante ; leurs clefs sont « sous un autre rapport » celles des grands et des petits mystères. Ce que le rendu N'AFFIRME PAS : que le dêva-yâna soit d'origine polaire — c'est la thèse de Tilak, `academique`.\n"
+    },
+    "septenaire": {
+      "statut": "etabli",
+      "source": "doctrinal/sources/guenon-roi-du-monde-ch10",
+      "hyperboreen": "Grande Ourse (sapta-ṛkṣa)",
+      "atlante": "Pléiades"
+    },
+    "etats_du_soleil": {
+      "statut": "academique",
+      "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "lecture_tilak": "Les Ādityas sont les mois de soleil, et leur nombre varie avec la latitude — « the months of sunshine will vary from seven to eleven ». Interprétation de Tilak, `academique` : le rendu la porte comme lecture, jamais comme fait.\n",
+      "listes": [
+        {
+          "id": "fils-aditi",
+          "titre": "Les huit fils d'Aditi",
+          "source_texte": "Rig-Veda X, 72, 8-9 ; Taittirīya Brāhmaṇa I, 1, 9 ; Taittirīya Āraṇyaka",
+          "citation": "Des huit fils d'Aditi, qui naquirent de son corps, elle s'approcha des dieux avec sept, et rejeta Mārtāṇḍa. Avec sept fils Aditi s'approcha (des dieux) dans l'âge antérieur (pūrvyam yugam) ; elle amena de nouveau Mārtāṇḍa pour la naissance et pour la mort.\n",
+          "etats": [
+            {
+              "rang": 1,
+              "nom": "Dhātṛ",
+              "paire": 1
+            },
+            {
+              "rang": 2,
+              "nom": "Aryaman",
+              "paire": 1
+            },
+            {
+              "rang": 3,
+              "nom": "Mitra",
+              "paire": 2
+            },
+            {
+              "rang": 4,
+              "nom": "Varuṇa",
+              "paire": 2
+            },
+            {
+              "rang": 5,
+              "nom": "Aṃśa",
+              "paire": 3
+            },
+            {
+              "rang": 6,
+              "nom": "Bhaga",
+              "paire": 3
+            },
+            {
+              "rang": 7,
+              "nom": "Indra",
+              "paire": 4
+            },
+            {
+              "rang": 8,
+              "nom": "Vivasvat",
+              "paire": 4
+            }
+          ],
+          "rejete": {
+            "nom": "Mārtāṇḍa",
+            "citation_variante": "Le Taittirīya Āraṇyaka lit « tat parā Mārtāṇḍam ā abharat » (elle mit Mārtāṇḍa DE CÔTÉ pour la naissance et la mort), au lieu de « tat punaḥ » (elle l'amena de nouveau).\n",
+            "shatapatha": "Śatapatha Brāhmaṇa III, 1, 3, 3 : sept seulement sont appelés Devāḥ Ādityāḥ par les hommes ; le huitième, Mārtāṇḍa, naquit non développé, et les dieux Ādityas créèrent de lui l'homme et les autres animaux.\n",
+            "reserve_textuelle": "⚠ Le Taittirīya Āraṇyaka donne les huit noms mais NE DIT PAS lequel est Mārtāṇḍa. Cette lacune est du texte, non de la transcription : le rendu ne l'attribue à aucun des huit.\n"
+          }
+        },
+        {
+          "id": "soleils-aranyaka",
+          "titre": "Les huit soleils du Taittirīya Āraṇyaka",
+          "source_texte": "Taittirīya Āraṇyaka I, 7, 1-6",
+          "etats": [
+            {
+              "rang": 1,
+              "nom": "Aroga"
+            },
+            {
+              "rang": 2,
+              "nom": "Bhrāja"
+            },
+            {
+              "rang": 3,
+              "nom": "Paṭara"
+            },
+            {
+              "rang": 4,
+              "nom": "Pataṅga"
+            },
+            {
+              "rang": 5,
+              "nom": "Svarṇara"
+            },
+            {
+              "rang": 6,
+              "nom": "Jyotiṣmat"
+            },
+            {
+              "rang": 7,
+              "nom": "Vibhāsa"
+            }
+          ],
+          "huitieme": {
+            "nom": "Kaśyapa",
+            "demeure": "Mahāmeru",
+            "citation": "Kaśyapa ne quitte jamais le grand Meru ; il communique sa lumière aux sept Ādityas et illumine perpétuellement la montagne. Les sept seuls sont visibles aux hommes.\n",
+            "signale_non_instruit": "🔍 Un soleil qui ne quitte jamais la montagne polaire et donne sa lumière aux sept visibles touche de très près l'axe du mode métaphysique, et le hozo Meru=Qâf clos au dépôt. Le rapprochement est NOMMÉ pour qu'il ne se fasse pas à l'insu de quelqu'un, et il n'est PAS déclaré : il exigerait sa propre fiche de discernement (Cmd 3).\n"
+          }
+        },
+        {
+          "id": "douze-adityas",
+          "titre": "Les douze Ādityas",
+          "source_texte": "Śatapatha Brāhmaṇa VI, 1, 2, 8 et XI, 6, 3, 8 ; Upaniṣads ; littérature post-védique",
+          "note": "🌐 DIVERGENCE, non résolue et non fondue. Les douze Ādityas sont identifiés aux douze mois de l'année, et ce nombre est celui de la littérature post-védique. L'Āraṇyaka, lui, oppose « aṣṭau te vyavasitāḥ » — le nombre huit est fixé par l'Écriture, il n'y a pas à en discuter. Les deux comptes sont portés séparément.\n",
+          "nombre": 12,
+          "identification": "les douze mois de l'année"
+        }
+      ],
+      "lectures_du_septenaire": {
+        "source_texte": "Taittirīya Āraṇyaka I, 7, rapporté par Tilak ch. VII",
+        "lectures": [
+          "les sept manifestations des Prāṇas, les puissances vitales dans l'homme",
+          "les types des sept prêtres officiants (ṛtvijaḥ)",
+          "les effets différents des rayons du soleil selon les mois et les saisons"
+        ],
+        "reserve": "Objection de Vaishampāyana rapportée : à ce compte il faudrait des milliers de soleils, les caractères des saisons étant innombrables. L'Āraṇyaka en admet la force et répond « aṣṭau te vyavasitāḥ ».\n"
+      },
+      "septenaire_atteste": [
+        {
+          "formule": "sapta-aśva — aux sept chevaux",
+          "source_texte": "Rig-Veda V, 45, 9"
+        },
+        {
+          "formule": "char à sept roues, tiré de sept coursiers bais",
+          "source_texte": "Rig-Veda I, 50, 8"
+        },
+        {
+          "formule": "un cheval unique aux sept noms",
+          "source_texte": "Rig-Veda I, 164, 2"
+        },
+        {
+          "formule": "les sept rayons brillants du soleil",
+          "source_texte": "Atharva-Veda VII, 107, 1"
+        }
+      ]
+    },
+    "etats_de_l_aurore": {
+      "statut": "academique",
+      "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "source_texte": "Tilak ch. V ; Taittirīya Saṃhitā IV, 3, 1 ; Taittirīya Brāhmaṇa",
+      "couple": [
+        {
+          "nom": "Uṣas",
+          "note": "l'aurore"
+        },
+        {
+          "nom": "Vyuṣṭi",
+          "note": "le point du jour — le second mot, qui implique la durée"
+        }
+      ],
+      "divisions": [
+        3,
+        5
+      ],
+      "soeurs": 30,
+      "citations": [
+        "trente sœurs, CONTINUES et non séparées",
+        "trente marches d'une seule aurore",
+        "mouvement rotatoire, comme une roue",
+        "elles atteignent le même lieu assigné, jour après jour"
+      ],
+      "ecart_assume": "⚠ Le NOMBRE trente vient du texte, la DURÉE vient du seuil crépusculaire. Trente tours correspondraient à un seuil d'environ -11,6°, quand Tilak retient 16° à 20° ailleurs. Le rendu affiche les deux et LAISSE L'ÉCART VISIBLE : c'est un écart de DONNÉE, pas d'artefact. Le résorber fabriquerait un accord que la source ne donne pas.\n"
+    },
+    "cycles": {
+      "statut": "etabli",
+      "source": "doctrinal/symboles/manvantara",
+      "figure": "raw/assets/Manvantara - Yuga.JPG",
+      "manvantara_ans": 64800,
+      "yugas": [
+        {
+          "nom": "Satya-Yuga",
+          "ans": 25920
+        },
+        {
+          "nom": "Trêtâ-Yuga",
+          "ans": 19440
+        },
+        {
+          "nom": "Dwâpara-Yuga",
+          "ans": 12960
+        },
+        {
+          "nom": "Kali-Yuga",
+          "ans": 6480
+        }
+      ],
+      "precession": {
+        "statut": "suggere",
+        "source": "doctrinal/symboles/manvantara",
+        "periode_ans": 25920,
+        "note": "Durée de la grande année astronomique, égale à celle du Satya-Yuga. Coïncidence RELEVÉE par la fiche du dépôt ; ce qu'elle veut dire n'est pas tranché (Cmd 3). Aucune datation du présent n'est portée — Guénon met en garde contre toute datation précise.\n"
+      }
+    },
+    "caracteristiques": [
+      {
+        "id": "pol-1",
+        "regime": "polaire",
+        "statut": "academique",
+        "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+        "label": "Le soleil se lève au sud"
+      },
+      {
+        "id": "pol-2",
+        "regime": "polaire",
+        "statut": "academique",
+        "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+        "label": "Les astres ne se lèvent ni ne se couchent : ils tournent en plans horizontaux, un tour en 24 h ; l'hémisphère céleste austral est toujours invisible"
+      },
+      {
+        "id": "pol-3",
+        "regime": "polaire",
+        "statut": "academique",
+        "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+        "label": "L'année est un seul long jour et une seule longue nuit de six mois chacun"
+      },
+      {
+        "id": "pol-4",
+        "regime": "polaire",
+        "statut": "academique",
+        "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+        "label": "Une seule aurore par an ; sa lumière tourne le long de l'horizon comme une roue de potier, un tour toutes les 24 h"
+      },
+      {
+        "id": "cir-1",
+        "regime": "circum-polaire",
+        "statut": "academique",
+        "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+        "label": "Le soleil est toujours au sud du zénith — trait partagé avec la zone tempérée, donc non distinctif"
+      },
+      {
+        "id": "cir-2",
+        "regime": "circum-polaire",
+        "statut": "academique",
+        "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+        "label": "Beaucoup d'astres sont circum-polaires et toujours visibles ; les autres se lèvent et se couchent, mais en cercles plus obliques"
+      },
+      {
+        "id": "cir-3",
+        "regime": "circum-polaire",
+        "statut": "academique",
+        "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+        "label": "L'année a trois parties : une longue nuit au solstice d'hiver, un long jour au solstice d'été, et des jours et nuits ordinaires pour le reste"
+      },
+      {
+        "id": "cir-4",
+        "regime": "circum-polaire",
+        "statut": "academique",
+        "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+        "label": "L'aurore dure plusieurs jours, d'autant moins que la latitude est basse ; près du pôle, la lumière tournante reste observable"
+      }
+    ],
+    "obliquite_deg": 23.44,
+    "epoque_reference": null,
+    "_statuts_controles": 18
+  },
   "registres": [
     {
       "id": "tasawwuf",

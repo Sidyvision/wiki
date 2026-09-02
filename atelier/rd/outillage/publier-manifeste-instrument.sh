@@ -89,7 +89,16 @@ SHA="$(git -C "$WIKI" rev-parse --short HEAD)"
 mkdir -p "$(dirname "$CIBLE")"
 cp "$MANIFESTE" "$CIBLE"
 git -C "$FRERE" add src/wiki-manifest.json
-git -C "$FRERE" commit -q -m "manifeste reçu du wiki ($SHA)
+# `MANIFESTE_RECU=1` : le garde-fou pre-commit du dépôt frère refuse toute
+# modification de src/wiki-manifest.json, sauf publication légitime déclarée.
+# Ce script EST cette voie — il le déclare donc lui-même.
+#
+# ⚠ DÉFAUT CORRIGÉ LE 2026-09-02 : il ne le déclarait pas, de sorte que la seule
+# voie légitime de publication était systématiquement REFUSÉE par le garde-fou
+# écrit pour la protéger. Le défaut n'avait jamais paru parce que `--publier`
+# n'avait pas été rejoué depuis la pose du hook (INF-14). Même famille que
+# PRO-01 : un contrôle dont on n'avait pas éprouvé le comportement réel.
+MANIFESTE_RECU=1 git -C "$FRERE" commit -q -m "manifeste reçu du wiki ($SHA)
 
 Poussé par publier-manifeste-instrument.sh. Le manifeste est reçu, jamais
 édité ici : la source est instrument-donnees.yaml au dépôt wiki (§VII, flux

@@ -3,7 +3,7 @@ title: "Spécification — Générateur de manifeste (wiki → wiki-manifest.jso
 type: projet
 tags: [instrument, manifeste, generateur, phase-1, spec]
 created: 2026-07-01
-updated: 2026-08-20
+updated: 2026-09-02
 sources: []
 links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]"]
 ---
@@ -185,6 +185,65 @@ tranchée. La règle cesse d'être seulement écrite dans le protocole : elle es
 Corollaire de méthode : **déclarer un registre ne pose aucun joint** — c'est
 documenter une tradition dans son expression propre. Les ancrages
 inter-registres restent hors de ce bloc et sous verdict (Cmd 3, Cmd 12).
+
+## 5 quinquies. Bloc `polaire:` (schéma v0.2.6, ajouté 2026-09-02)
+
+Chantier INS-15, plan visé par Sidy le 2026-09-02. Porte le **mode
+cosmologique** : stations, seuils crépusculaires, obliquité variable, deux
+voies, septénaire polaire, états du soleil, états de l'aurore, roue du
+Manvantara, et les deux jeux de caractères de Tilak.
+
+### Ce que le générateur DÉRIVE, et ne laisse jamais redéclarer
+
+`obliquite_deg` et `epoque_reference` vivent dans `zodiaque:` et **nulle part
+ailleurs** (Cmd 14). Le générateur les recopie vers le bloc polaire du manifeste ;
+une garde **refuse** leur présence dans `polaire:`. Ce refus est délibéré :
+contrôler la concordance de deux copies serait la **rustine** du doublon, pas sa
+correction.
+
+### Les huit gardes, toutes bloquantes
+
+| # | Ce qu'elle refuse | Motif |
+|---|---|---|
+| G1 | `latitude_min_deg` ≠ 90 − `zodiaque.obliquite_deg` (à 0,01 près) | le cercle arctique n'est pas une valeur libre |
+| G2 | `latitude_deg` hors de [`latitude_min_deg`, 90] | le module n'a pas d'objet ailleurs |
+| G3 | présence de `obliquite_deg` ou `epoque_reference` dans `polaire:` | Cmd 14 — jamais deux fois |
+| G4 | `statut` hors de {`etabli`, `suggere`, `academique`} | c'est lui qui commande le style de rendu |
+| G5 | quatre Yugas absents, hors proportion 4:3:2:1, ou somme ≠ `manvantara_ans` | la roue serait fausse |
+| G6 | jeux de Tilak incomplets (4 + 4) ou `id` en double | complets ou absents, jamais à moitié |
+| G7 | une entrée portant un `statut`, **quel qu'il soit**, sans `source` | rien n'est asserté sans source (§VII) |
+| G8 | un scalaire nu à la racine du bloc (hors les deux latitudes) | une hypothèse se déclare, elle ne se glisse pas en nombre |
+
+**G7 descend récursivement.** La première rédaction ne l'exigeait que sur
+`etabli` : un scalaire conventionnel — `crepuscule_deg: -18.0` — passait dessous
+sans source, alors que **toute la durée de l'aurore en dépendait**. G8 prend la
+même faute à sa racine plutôt que dans son occurrence.
+
+**La garde G7 a mordu dès le premier essai**, sur une omission réelle de la
+donnée nouvelle (`cycles.precession` portait un statut sans source). Ce n'est pas
+un incident : c'est le comportement attendu, et il est consigné parce qu'il
+prouve que la garde regarde.
+
+### Le rapport annonce le bloc
+
+La ligne de sortie porte `polaire inclus (N statut(s) contrôlé(s), M état(s) du
+soleil nommé(s))`, ou `polaire ABSENT`. **Un rapport qui tait un bloc peut
+masquer son absence** — c'est la forme même de PRO-01.
+
+### Épreuve des gardes
+
+`atelier/rd/outillage/eprouver-gardes-polaire.py` fabrique, une par une, la faute
+exacte que chaque garde doit attraper, la présente au générateur **dans une copie
+jetable du dépôt**, et vérifie qu'il refuse **en nommant la bonne garde**. Il
+contrôle aussi l'état sain — condition nécessaire, jamais suffisante — et que le
+rapport annonce bien le bloc.
+
+```bash
+python3 atelier/rd/outillage/eprouver-gardes-polaire.py
+# état sain accepté, rapport annonçant le bloc, et les 8 gardes refusant chacune SA faute
+```
+
+Le dépôt vivant n'est jamais modifié par cette épreuve.
 
 ## 6. Ce que le script ne fait pas
 
