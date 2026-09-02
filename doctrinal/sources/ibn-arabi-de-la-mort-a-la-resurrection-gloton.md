@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ibn-arabi, gloton, nafas-rahmani, maratib-al-wujud, manazil-al-qamar, ilm-al-huruf, asma-al-husna, hadarat-khams, futuhât, albouraq]
 created: 2026-07-01
-updated: 2026-08-30
+updated: 2026-09-02
 sources: []
 sources_count: 0
-cross_links: ["[[table-28-degres-nafas-rahman]]", "[[nafas-rahmani]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "[[ilm-al-huruf]]", "[[asma-al-husna]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[eschatologie]]"]
+cross_links: ["[[table-28-degres-nafas-rahman]]", "[[nafas-rahmani]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "[[ilm-al-huruf]]", "[[asma-al-husna]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[eschatologie]]", "[[doctrinal/sources/osman-yahia-histoire-classification-1964]]"]
 ---
 
 # De la mort à la résurrection — Ibn ʿArabī (trad. Maurice Gloton, Albouraq)

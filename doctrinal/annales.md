@@ -9,6 +9,25 @@ updated: 2026-09-02
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] archivage | DOC-07 — orpheline résolue : lien depuis Gloton
+
+Suite à l'entrée précédente (orpheline signalée) : Sidy tranche — ajout du
+lien entrant depuis [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]
+vers [[doctrinal/sources/osman-yahia-histoire-classification-1964]]
+(`cross_links`, `updated` remonté, Cmd 8). Question posée en retour sur une
+éventuelle levée de `to-source` dans cette même fiche (motif initial de
+Sidy) : **aucun `to-source` d'attribution/datation** n'y existe — seuls des
+`to-source` sur le contenu du tableau `table-28-degres-nafas-rahman`
+(déjà quasi entièrement levés depuis le 2026-08-30, hors périmètre de
+cette demande). Sidy confirme : rien à lever, malentendu clos sans
+modification supplémentaire (discipline des sources, Cmd 5 — aucune levée
+sans vérification exacte de ce qui est affirmé).
+
+Graphe régénéré : la notice Osman Yahia a désormais 1 lien entrant.
+`verifier-invariants.py` : 0 erreur, 0 avertissement sur 1350 fichiers.
+
+Commit à suivre.
+
 ## [2026-09-02] archivage | DOC-07 — Osman Yahia versé, Futūḥāt Maymaniyya ajournée (OUT-08)
 
 Plan `_inbox/MASTER-UPDATE.md` (DOC-07) visé par Sidy pour sa partie Osman

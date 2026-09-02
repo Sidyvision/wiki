@@ -7433,7 +7433,7 @@
         "futuhât",
         "albouraq"
       ],
-      "updated": "2026-08-30",
+      "updated": "2026-09-02",
       "chemin": "doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton.md",
       "lacunes_to_source": 0
     },
@@ -19275,6 +19275,13 @@
     {
       "source": "doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton",
       "target": "doctrinal/symboles/eschatologie",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton",
+      "target": "doctrinal/sources/osman-yahia-histoire-classification-1964",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
