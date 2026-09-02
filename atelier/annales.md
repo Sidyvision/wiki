@@ -101,6 +101,7 @@ commit existe côté frère, le push n'est pas fait (Cmd 13, `PUBLIER=1`).
   `atelier/rd/outillage/comparer-geometrie-rendu.py`,
   `atelier/rd/outillage/eprouver-gardes-polaire.py`
 - **Dépôt frère** : commit `362f19e`, **non poussé**
+- **Commit** : ea7073f
 
 ---
 
