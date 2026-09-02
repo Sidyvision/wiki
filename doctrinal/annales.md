@@ -31,6 +31,7 @@ Le texte est au sas, non ingéré ; la thèse de Tilak reste `academique`, non a
 - **Modifié** : [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]]
   (§ *Fiabilité de la source*, `updated`)
 - **Non modifié** : aucun statut, aucun ancrage, aucune adoption doctrinale
+- **Commit** : eebb25d
 
 ---
 

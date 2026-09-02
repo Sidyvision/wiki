@@ -70,6 +70,7 @@ dit encore l'inverse de ce qui a été appliqué. Porté au `plan.md` comme poin
 - **En attente de Sidy** : visa du `plan.md` ; le refus d'ouverture sans manifeste, qui
   tranche *contre* le précédent du repli ; l'ouverture d'un chantier `DOC-` pour
   l'ingest des deux Tilak, dont la matière intégrale est au sas
+- **Commit** : eebb25d
 
 ---
 
