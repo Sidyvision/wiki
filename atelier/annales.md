@@ -52,6 +52,8 @@ lecture de documentation n'est pas une mesure**. Un outil ne s'inscrit au
 catalogue qu'après avoir tourné sur une pièce du dépôt. Ici l'examen suffisait
 à écarter, il n'aurait pas suffi à recommander.
 
+`b78fd96`
+
 ## [2026-09-02] archivage | OUT-08 — `spec.md` : deux pistes sans installation épuisées
 
 Sur demande de Sidy (« Essaie `--oem 1` d'abord, sans installation »), test sur
