@@ -1,0 +1,20 @@
+---
+title: "Erreurs des interprétations systématiques | L'Ésotérisme de Dante | Index de l’œuvre de René Guénon"
+source: "https://www.index-rene-guenon.org/index.php?Chapitre=659&sigle=ED&affichage=aff_chap&TableMat=0&Scroll_bar=0&police=Times+New+Roman&taille=3&Lang=FR&largeur=45"
+author:
+published:
+created: 2026-08-30
+description: "Index de l’œuvre de René Guénon"
+tags:
+  - "clippings"
+---
+Erreurs des interprétations systématiques | L'Ésotérisme de Dante | Index de l’œuvre de René Guénon
+
+|  |  |  | [**I NDEX DE L’ŒUVRE ET DE LA CORRESPONDANCE DE R ENÉ G UÉNON**](https://www.index-rene-guenon.org/?Lang=FR) |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+
+|  | *L’Ésotérisme de Dante*, René Guénon, éd. Gallimard, 1957 | p... |
+| --- | --- | --- |
+|  | Chapitre IX      ERREUR DES INTERPRÉTATIONS SYSTÉMATIQUES        Certains penseront peut-être que cette étude pose encore plus de questions qu’elle n’en résout, et, à vrai dire, nous ne saurions protester contre une semblable critique, si toutefois c’en est une; mais ce ne peut en être une que de la part de ceux qui ignorent combien la connaissance initiatique diffère de tout savoir profane. C’est pourquoi, dès le début, nous avons eu soin d’avertir que nous n’entendions point donner un exposé complet, car la nature même du sujet nous interdisait une semblable prétention; et, d’ailleurs, tout se tient tellement dans ce domaine, qu’il faudrait assurément plusieurs volumes pour développer comme elles le mériteraient les questions multiples auxquelles nous avons fait allusion au cours de notre travail, sans parler de toutes celles que nous n’avons pas eu l’occasion d’envisager, mais que ce développement, si nous voulions l’entreprendre, introduirait à leur tour inévitablement.   En terminant, nous dirons seulement, pour que personne ne puisse se méprendre sur nos intentions, que les points de vue que nous avons indiqués ne sont nullement exclusifs, et qu’il en est sans doute encore bien d’autres auxquels on pourrait se placer également et dont on tirerait des conclusions non moins importantes, tous ces points de vue se complétant en parfaite concordance dans l’unité de la synthèse totale. Il est de l’essence même du symbolisme initiatique de ne pouvoir se réduire à des formules plus ou moins étroitement systématiques, comme celles où se complaît la philosophie profane; le rôle des symboles est d’être le support de conceptions dont les possibilités d’extension sont véritablement illimitées, et toute expression n’est elle-même qu’un symbole; il faut donc toujours réserver la part de l’inexprimable, qui est même, dans l’ordre de la métaphysique pure, ce qui importe le plus.   Dans ces conditions, on comprendra sans peine que nos prétentions se bornent à fournir un point de départ à la réflexion de ceux qui, s’intéressant vraiment à ces études, sont capables d’en comprendre la portée réelle, et à leur indiquer la voie de certaines recherches dont il nous semble qu’on pourrait tirer un profit tout particulier. Si donc ce travail avait pour effet d’en susciter d’autres dans le même sens, ce seul résultat serait loin d’être négligeable, d’autant plus que, pour nous, il ne s’agit point là d’érudition plus ou moins vaine, mais de compréhension vraie, et ce n’est sans doute que par de tels moyens qu’il sera possible quelque jour de faire sentir à nos contemporains l’étroitesse et l’insuffisance de leurs conceptions habituelles. Le but que nous avons ainsi en vue est peut-être bien lointain, mais nous ne pouvons pourtant nous empêcher d’y penser et d’y tendre, tout en contribuant pour notre part, si faible soit-elle, à apporter quelque lumière sur un côté trop peu connu de l’œuvre de Dante. |  |
+|  |  |  |
+| [‹‹      ](https://www.index-rene-guenon.org/index.php?sigle=ED&page=60&affichage=aff_chap&TableMat=0&Scroll_bar=0&police=Times%20New%20Roman&taille=3&largeur=45&mode=livre&Lang=FR) |  | ›› |

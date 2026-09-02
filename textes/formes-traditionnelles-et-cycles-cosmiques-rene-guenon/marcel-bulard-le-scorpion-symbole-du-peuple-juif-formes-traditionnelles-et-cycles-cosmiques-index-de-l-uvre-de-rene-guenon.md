@@ -1,0 +1,20 @@
+---
+title: "Marcel Bulard: Le Scorpion, symbole du peuple juif | Formes traditionnelles et Cycles cosmiques | Index de l’œuvre de René Guénon"
+source: "https://www.index-rene-guenon.org/index.php?Chapitre=535&sigle=FTCC&affichage=aff_chap&TableMat=0&Scroll_bar=0&police=Times+New+Roman&taille=3&Lang=FR&largeur=45"
+author:
+published:
+created: 2026-09-02
+description: "Index de l’œuvre de René Guénon"
+tags:
+  - "clippings"
+---
+Marcel Bulard: Le Scorpion, symbole du peuple juif | Formes traditionnelles et Cycles cosmiques | Index de l’œuvre de René Guénon
+
+|  |  |  | [**I NDEX DE L’ŒUVRE ET DE LA CORRESPONDANCE DE R ENÉ G UÉNON**](https://www.index-rene-guenon.org/?Lang=FR) |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- |
+
+|  | *Formes traditionnelles et Cycles cosmiques*, René Guénon, éd. Gallimard, 1970 | p... |
+| --- | --- | --- |
+|  | *Comptes rendus*        MARCEL BULARD: *Le Scorpion, symbole du peuple juif dans l’art religieux des XIV <sup>e</sup>, XV <sup>e</sup>, XVI <sup>e</sup> siècles.* (E. de Boccard, Paris.)      L’auteur, parti de l’examen de peintures de la chapelle Saint-Sébastien de Lans-le-Villard, en Savoie, a rassemblé tous les documents similaires qu’il a pu découvrir, et il en fait une étude très détaillée, accompagnée de nombreuses reproductions. Il s’agit de figurations du scorpion, soit, sur l’étendard porté par la Synagogue personnifiée, soit plus fréquemment, dans la représentation de certaines scènes de la Passion; dans ce dernier cas, l’étendard au scorpion est généralement associé à des étendards portant d’autres emblèmes et surtout les lettres S P Q R, manifestement pour indiquer à la fois la participation des Juifs et celle des Romains; chose assez curieuse et qui semble avoir échappé à l’auteur, on pourrait remarquer aussi que ces mêmes lettres, disposées dans un autre ordre (S Q R P), évoquent phonétiquement le nom même du scorpion. Quant à l’interprétation de ce symbole, l’auteur, s’appuyant sur les « Bestiaires », ainsi que sur la poésie dramatique de la fin du moyen âge, montre qu’il signifie surtout fausseté et perfidie; il remarque d’ailleurs, ce qui est tout à fait juste, que, à l’époque dont il s’agit, le symbolisme, de « dogmatique » qu’il était précédemment, était devenu principalement « moral », ce qui revient en somme à dire qu’il était bien près de dégénérer en simple « allégorie », conséquence directe et inévitable de l’affaiblissement de l’esprit traditionnel. Quoi qu’il en soit, nous pensons cependant que, originairement tout au moins, il a dû y avoir là autre chose encore, peut-être une allusion au signe zodiacal du Scorpion, auquel est attachée l’idée de la mort; nous pouvons d’ailleurs noter à ce propos que, sans une telle allusion, le passage même de l’Évangile où le scorpion est mis en opposition avec l’œuf (*Saint Luc*, XI, 11-12) demeure parfaitement incompréhensible. Un autre point intéressant et énigmatique est l’attribution de symboles communs, notamment le scorpion et le basilic, à la Synagogue et à la Dialectique; ici, les explications envisagées, telles que la réputation d’habilité dialectique qu’avaient les Juifs, nous paraissent vraiment insuffisantes pour rendre compte d’une telle association; et nous ne pouvons nous empêcher de penser à une tradition d’après laquelle les œuvres d’Aristote, considéré comme le maître de la Dialectique, renfermeraient un sens caché qui ne pourra être pénétré et appliqué que par l’Antéchrist, lequel, d’autre part, est dit devoir être de descendance juive; ne semble-t-il pas qu’il pourrait y avoir quelque chose à chercher de ce côté? |  |
+|  |  |  |
+| [‹‹      ](https://www.index-rene-guenon.org/index.php?sigle=FTCC&page=105&affichage=aff_chap&TableMat=0&Scroll_bar=0&police=Times%20New%20Roman&taille=3&largeur=45&mode=livre&Lang=FR) |  | [››      ](https://www.index-rene-guenon.org/index.php?sigle=FTCC&page=113&affichage=aff_chap&TableMat=0&Scroll_bar=0&police=Times%20New%20Roman&taille=3&largeur=45&mode=livre&Lang=FR) |

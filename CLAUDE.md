@@ -10,7 +10,11 @@ la dispersion mentale.
 
 > **Historique des révisions** : conservé intégralement dans
 > `meta/protocole-archives/changelog-CLAUDE.md` (append-only, chronologique
-> inverse). Dernières révisions : **2026-09-01** (§VII, *Épreuve des contrôles* —
+> inverse). Dernières révisions : **2026-09-02** (§II, ouverture de `textes/`, le
+> cabinet de lecture — les sources CONVERTIES sont versionnées, les binaires
+> restent hors git ; la ligne de coupe est le **format**, non le contenu ;
+> `textes/` n'est **pas un sixième circuit** ; chantier PRO-08, verdict Sidy),
+> **2026-09-01** (§VII, *Épreuve des contrôles* —
 > un contrôle dont on n'a pas vu l'échec n'est pas vérifié ; motifs PRO-01 et
 > INF-14 ; §VII, règle 5 des manifestes —
 > scission du rendu de l'Instrument vers le dépôt frère `Sidyvision/instrument`,
@@ -89,8 +93,13 @@ wiki/  (= /root/wiki)
 ├── CLAUDE.md              ← Le présent protocole (transversal, invariant sauf ordre humain)
 ├── README.md              ← Présentation publique du dépôt (sans contexte personnel)
 ├── _inbox/                ← Sas de déchargement (vidé après chaque intégration)
-├── raw/                   ← Sources brutes IMMUABLES
+├── raw/                   ← Sources brutes IMMUABLES, hors git (`/raw/*` ignoré) :
+│   │                        binaires, PDF, exports, pièces nominatives
 │   └── assets/            ← Iconographie, schémas, scans (dessins inclus)
+├── textes/                ← Sources CONVERTIES, versionnées (PRO-08, 2026-09-02)
+│                            N'EST PAS UN SIXIÈME CIRCUIT : aucun Sceau, aucun
+│                            régime de liens, cible d'aucun wikilink. Le cabinet
+│                            de lecture du dépôt — voir textes/LISEZ-MOI.md
 ├── doctrinal/             ← Le corps vivant des connaissances (Sceau Recteur)
 │   ├── CLAUDE.md          ← Protocole local (Sceau, nomenclature, actions propres)
 │   ├── index.md · annales.md
@@ -159,6 +168,32 @@ wiki/  (= /root/wiki)
 références), `label/` (la maison de création et le label), `hermeneutique/` (la
 navigation du domaine intermédiaire et le bureau de Direction Artistique), `meta/`
 (le personnel et l'outillage, Domaine Réservé). Règles de liens : §VI.
+
+### `textes/` — le cabinet de lecture (ouvert 2026-09-02, verdict Sidy, PRO-08)
+
+`textes/` **n'est pas un sixième circuit**, pas plus que `meta/` n'en est un. Il ne
+porte aucun Sceau, n'entre dans aucun régime de liens (§VI), n'est la cible d'aucun
+wikilink, et le graphe l'ignore. Il contient la **source primaire convertie**, telle
+qu'elle a été reçue.
+
+**Motif de son ouverture** : `/raw/*` est exclu de git, de sorte que 708 fichiers
+Markdown convertis — tout le corpus Guénon, Jurjani, Avalon, Shayegan — ne se
+synchronisaient **jamais** vers Obsidian. Le poste CONSULTATION était aveugle sur la
+matière même que les fiches doctrinales citent en source.
+
+**La ligne de coupe est le format, non le contenu** : `raw/` garde les **binaires**
+(PDF, images, exports, pièces nominatives) — c'est là que porte le motif de
+confidentialité du `.gitignore`, et il y porte pleinement. `textes/` reçoit le
+**texte converti**, mesuré sans aucune donnée personnelle.
+
+**Règle d'immuabilité** : un texte de `textes/` ne se corrige pas. Une conversion
+meilleure le remplace, datée. Ce qui se dit d'un texte se dit dans une fiche
+`doctrinal/sources/`, qui porte le Sceau et le statut.
+
+**Conséquence outillée** : `verifier-invariants.py` exempte `textes/` du contrôle B0
+par une ligne nommée dans `PREFIXES_SANS_FM`. L'exemption est **ciblée** — un `.md`
+sans frontmatter *hors* `textes/` continue de lever B0, et cette seconde face a été
+éprouvée.
 
 ## II bis. Carte des protocoles locaux (ouverture 2026-08-12, méthode à l'essai)
 

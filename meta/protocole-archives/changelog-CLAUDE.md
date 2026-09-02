@@ -17,6 +17,88 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] amendement | §II — Ouverture de `textes/`, le cabinet de lecture
+
+**Verdict de Sidy**, 2026-09-02, cité *verbatim* : « `textes/` validé,
+dédoublonne avant migration, et amende le §II ». Chantier PRO-08
+(`atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/`).
+
+### Ce qui a motivé l'amendement
+
+Constat de Sidy : « Aucun fichier Markdown n'a d'intérêt à rester en `raw/`
+sachant qu'en y étant ils restent masqués et je ne peux pas travailler avec ces
+ressources en dehors du terminal. »
+
+Vérifié au disque : `/raw/*` est dans `.gitignore`, et `raw/` contenait **708
+fichiers `.md`, zéro suivi par git**. Tout le corpus converti — Guénon (*Symboles
+de la Science sacrée*, *Le Théosophisme*, *Aperçus sur l'initiation*, *Le Règne
+de la Quantité*, *Le Symbolisme de la Croix*, *La Grande Triade*, *L'Homme et son
+devenir*, *Les états multiples*, *Le Roi du Monde*…), Jurjani, Avalon, Shayegan,
+Vâlsan — ne se synchronisait **jamais** vers Obsidian. Le poste CONSULTATION
+(§I) était aveugle sur la matière même que les fiches doctrinales citent en
+source.
+
+### Les deux motifs de l'exclusion, MESURÉS avant d'être écartés
+
+Le `.gitignore` porte ses raisons — « peuvent contenir des données personnelles +
+fichiers volumineux » — et aucune n'avait jamais été vérifiée.
+
+| motif | mesure |
+|---|---|
+| fichiers volumineux | **14 Mo** de Markdown contre **2,6 Go** pour `raw/` entier : le texte en est 0,5 % |
+| données personnelles | **0** adresse e-mail, **0** IBAN, **0** téléphone sur 708 fichiers |
+
+Le motif de confidentialité **tient pleinement pour les binaires** : `raw/` porte
+des factures nominatives, un export ChatGPT, un dossier `Downloads`. D'où la
+ligne de coupe retenue : **le format, non le contenu**.
+
+⚠️ **Un faux positif consigné.** Le premier balayage avait signalé « IBAN » dans
+*Le Roi du Monde* : c'était **« Liban »**, la recherche insensible à la casse
+trouvant la sous-chaîne. Le motif a été resserré sur bornes de mot **avant** de
+conclure — sans quoi le corpus aurait porté un soupçon faux.
+
+### Ce que le §II dit désormais
+
+- Entrée `textes/` dans l'arbre, et `raw/` explicité comme **hors git**.
+- Une section de statut : `textes/` **n'est pas un sixième circuit**, pas plus
+  que `meta/` n'en est un. Aucun Sceau, aucun régime de liens (§VI), cible
+  d'aucun wikilink, ignoré du graphe.
+- La **règle d'immuabilité** : un texte de `textes/` ne se corrige pas ; une
+  conversion meilleure le remplace, datée. Ce qui se dit d'un texte se dit dans
+  une fiche `doctrinal/sources/`, qui porte le Sceau et le statut.
+
+### Conséquence outillée, et son épreuve
+
+`verifier-invariants.py` exempte `textes/` du contrôle B0, par une ligne nommée
+dans `PREFIXES_SANS_FM` — mécanisme **qui existait déjà** pour « les fichiers
+légitimement sans frontmatter ». Sans elle, la migration aurait produit **560
+erreurs**, c'est-à-dire le bruit même qui avait masqué la seule erreur vraie du
+2026-09-01 (chantier OUT-C2).
+
+**L'exemption est CIBLÉE, et les deux faces ont été éprouvées** (§VII) :
+
+- un `.md` nu **dans** `textes/` → accepté, 0 erreur ;
+- un `.md` nu **hors** `textes/` → **`B0` levé**.
+
+Sans la seconde face, rien ne distinguerait un amendement ciblé d'un
+désarmement général du contrôle.
+
+### Réversibilité (Cmd 10)
+
+La migration **copie**, elle ne déplace pas : les 708 originaux demeurent dans
+`raw/`. Retirer `textes/` et la ligne d'exemption rétablit l'état antérieur sans
+perte. Le retrait des originaux serait une **seconde décision**, non préparée
+ici.
+
+### Ce qui reste ouvert
+
+Le **régime des futurs** textes convertis — passent-ils encore par `raw/`, ou
+directement du sas vers `textes/` ? Posé à Sidy, **non tranché**. C'est la
+question qui décide si le problème peut se reformer.
+
+---
+
+
 ## [2026-09-01] amendement | §I — Levée de la clôture économique PRODUCTION/INTÉGRATION
 
 **Verdict Sidy**, en session, sur signalement fait à la clôture de la session

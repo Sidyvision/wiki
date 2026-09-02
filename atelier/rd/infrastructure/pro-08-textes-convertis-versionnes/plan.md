@@ -13,20 +13,26 @@ links:
 
 # PRO-08 — plan
 
-> **Statut : `brouillon`.** Aucun fichier n'est déplacé, aucun script n'est écrit
-> tant que Sidy n'a pas visé ce plan (Cmd 6). L'instruction porte sur **la
-> seconde voie**, sur demande de Sidy du 2026-09-02 : un dossier versionné pour
-> les textes convertis, `raw/` conservant les binaires.
+> **Statut : `vise`** — Sidy, 2026-09-02. Les trois verdicts préalables sont
+> rendus, et ils sont ici *verbatim* : « **`textes/` validé, dédoublonne avant
+> migration, et amende le §II** ».
+>
+> Le plan visé *est* le plan du Cmd 6. L'exécution est donc autorisée pour les
+> phases 1 à 4.
+>
+> ⚠️ **Reste non tranché** : le régime des **futurs** textes convertis
+> (phase 5, point 17). Il n'est pas requis pour exécuter, et il n'est pas
+> supposé.
 
 ## Étapes
 
-### ⛔ Préalable — trois verdicts avant la première ligne
+### ✅ Préalable — les trois verdicts, rendus le 2026-09-02
 
-1. **Le nom et la place.** `textes/` est recommandé (`spec.md` §1) ; les deux
-   autres candidats sont pesés. Sidy tranche.
-2. **Les 147 doublons** : migrés tels quels, ou résolus d'abord ?
-3. **L'amendement du `§II`** du protocole racine : c'est une révision de
-   protocole, elle appartient à Sidy.
+1. **Le nom et la place** : **`textes/`**, dossier de premier niveau. Retenu.
+2. **Les doublons** : **dédoublonnés AVANT migration**. Ce n'est donc plus un
+   signalement mais un geste, et il lui faut une règle explicite de conservation
+   — voir `spec.md` §4 amendé et l'étape 9 bis.
+3. **L'amendement du `§II`** : autorisé.
 
 ### Phase 1 — la garde avant le geste
 
@@ -57,6 +63,15 @@ links:
 ### Phase 3 — la migration, en copie
 
 9. `--constater` d'abord : lire le rapport en entier (comptes, doublons, refus).
+9 bis. **Dédoublonnage, sur verdict de Sidy.** Règle de conservation, arrêtée
+    parce que le verdict dit *quoi* faire et non *lequel garder* : entre deux
+    copies identiques au bit près, on **conserve celle qui n'est pas sous
+    `Downloads/`** — ce dossier est un dépôt de téléchargement, non un corpus
+    rangé, et il redouble intégralement deux corpus déjà classés. À égalité
+    (toutes sous `Downloads/`), on garde le premier chemin par ordre
+    alphabétique, de façon déterministe. **Chaque écart est rapporté**, jamais
+    silencieux. Les doublons ne sont pas supprimés de `raw/` (Cmd 10) : ils ne
+    sont simplement **pas migrés**.
 10. `--migrer` : **copie**, jamais déplacement. `raw/` reste intact (Cmd 10).
 11. Écrire `textes/LISEZ-MOI.md` (Sceau atelier) : nature du dossier, provenance
     par corpus, règle d'immuabilité.

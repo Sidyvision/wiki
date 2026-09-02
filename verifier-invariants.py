@@ -56,6 +56,14 @@ FICHIERS_SANS_FM = {
 }
 PREFIXES_SANS_FM = (
     "meta/projet-unifie/hermes-prompts/",
+    # `textes/` — sources converties, versionnées le 2026-09-02 (chantier PRO-08,
+    # verdict de Sidy). Ce sont des TEXTES, pas des fiches : ils ne portent aucun
+    # Sceau, n'entrent dans aucun régime de liens, et ne sont la cible d'aucun
+    # wikilink. Sans cette ligne, la migration lèverait 560 erreurs B0 — soit
+    # exactement le bruit qui avait masqué la seule erreur vraie du 2026-09-01
+    # (chantier OUT-C2). L'exemption est CIBLÉE : un `.md` nu hors de `textes/`
+    # continue de lever B0, et c'est la seconde face de l'épreuve.
+    "textes/",
 )
 
 # Fichiers dont les liens sortants ne sont PAS soumis au contrôle C3 d'étanchéité

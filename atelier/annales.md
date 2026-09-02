@@ -10,6 +10,89 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] execution | PRO-08 clos — `textes/` ouvert, 560 fichiers rendus visibles, §II amendé
+
+Trois verdicts de Sidy, cités *verbatim* : « **`textes/` validé, dédoublonne
+avant migration, et amende le §II** ». Plan visé, phases 1 à 4 exécutées.
+
+**La garde avant le geste.** `migrer-textes-convertis.py` écrit d'abord, éprouvé
+ensuite, employé en dernier. Six contrôles, chacun mis devant la faute exacte
+qu'il prétend attraper, dans une copie jetable — dont celui-ci, qui n'aurait pas
+existé sans le faux positif de l'instruction : **« Liban » ne doit pas être pris
+pour un IBAN**. Les six mordent.
+
+**Le constat, puis la migration.**
+
+| | |
+|---|---|
+| fichiers `.md` examinés | **708** |
+| refusés pour donnée personnelle | **0** |
+| hors corpus, signalés et non migrés | **1** (*Build Your Own Perplexity with Exa*) |
+| doublons écartés | **147** |
+| **migrés** | **560** |
+| contrôle du compte | 708 == 708 ✓ |
+
+**Dédoublonnage, et sa règle.** Le verdict disait *quoi* faire, non *lequel
+garder* : entre deux copies identiques au bit près, on conserve celle qui n'est
+**pas** sous `Downloads/` — dépôt de téléchargement, non corpus rangé, qui
+redoublait intégralement *Symboles de la Science sacrée* (91) et *Études sur
+l'Hindouisme* (39). À égalité, ordre alphabétique, donc rejouable. **Aucun
+doublon n'est supprimé de `raw/`** (Cmd 10) : il n'est simplement pas migré.
+
+**L'ordre des opérations n'était pas indifférent.** Le vérificateur a été amendé
+**avant** la migration : dans l'autre sens, le dépôt serait passé à 560 erreurs —
+le bruit même qui avait masqué la seule erreur vraie du 2026-09-01 (OUT-C2).
+
+**L'exemption B0 est CIBLÉE, et les deux faces sont éprouvées** :
+
+- un `.md` nu **dans** `textes/` → accepté, 0 erreur ;
+- un `.md` nu **hors** `textes/` → **`B0` levé**.
+
+Sans la seconde face, rien ne distinguerait un amendement ciblé d'un désarmement
+général du contrôle. C'est la leçon de PRO-01 appliquée à une exemption plutôt
+qu'à une garde.
+
+**Les huit critères d'acceptation** : vérificateur à 0 erreur sur un dépôt qui
+porte 560 fichiers sans Sceau · `raw/` **intact**, `git status raw/` vide ·
+`textes/` à **11 Mo**, 23 corpus · graphe à **0 nœud** sous `textes/` · hygiène
+Unicode propre sur les 560. Le huitième — « Sidy ouvre un chapitre dans
+Obsidian » — **n'est pas automatisable et reste à faire par lui**.
+
+**Le §II amendé**, et la ligne de coupe qu'il pose : **le format, non le
+contenu**. `raw/` garde les binaires — c'est là que le motif de confidentialité
+du `.gitignore` porte, et il y porte pleinement ; `textes/` reçoit le texte
+converti, mesuré sans aucune donnée personnelle. La section dit aussi ce que
+`textes/` **n'est pas** : pas un sixième circuit, aucun Sceau, aucun régime de
+liens, cible d'aucun wikilink. Et la **règle d'immuabilité** : un texte ne se
+corrige pas, une conversion meilleure le remplace ; ce qui se dit d'un texte se
+dit dans une fiche `doctrinal/sources/`.
+
+**Réversible de plein droit** (Cmd 10) : la migration copie, les 708 originaux
+demeurent. Retirer `textes/` et la ligne d'exemption rétablit l'état antérieur
+sans perte.
+
+- **Créé** : `textes/` (560 fichiers, 23 corpus), `textes/LISEZ-MOI.md`,
+  `atelier/rd/outillage/migrer-textes-convertis.py`
+- **Modifié** : `CLAUDE.md` §II (amendement de protocole),
+  `meta/protocole-archives/changelog-CLAUDE.md`, `verifier-invariants.py`
+  (une ligne, `PREFIXES_SANS_FM`),
+  [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/plan]] (`vise`),
+  [[atelier/rd/registre-chantiers]] (PRO-08 **clos**, descendu en §9)
+- **Inchangé** : `raw/` — copie, jamais déplacement
+- **Second versement, dans la même passe** : les 28 conversions Tilak du sas
+  (*Arctic Home*, *Orion*) sont versées en `textes/`. Elles ne venaient pas de
+  `raw/` mais du sas — **premier cas d'usage du régime nouveau** : une conversion
+  n'a plus à transiter par un dossier masqué. Les deux fichiers monolithiques
+  ne sont **pas** migrés (ils redoublent les chapitres, même règle que le
+  dédoublonnage). Ceci **referme l'écart signalé plus haut** : le sas n'avait pas
+  été vidé faute de destination, il en a une.
+- **Reste ouvert, non tranché** : le régime des **futurs** textes convertis —
+  passent-ils encore par `raw/` ? La question de DOC-06 reçoit ici sa réponse de
+  fait ; sa réponse de **règle** appartient toujours à Sidy
+
+---
+
+
 ## [2026-09-02] chantier | PRO-08 instruit — les deux motifs de l'exclusion de `raw/`, mesurés et non présumés
 
 Sidy demande d'instruire **la seconde voie** : un dossier versionné pour les
