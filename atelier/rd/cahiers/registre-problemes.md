@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-09-01
+updated: 2026-09-02
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,136 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-02] Reprise des rapports Studio/Publication des derniers jours — un écart réel corrigé, une fausse alerte de script, un angle mort d'archivage signalé
+
+Passe d'INTÉGRATION sur instruction de Sidy : reprendre les rapports R&D des
+agents Studio et Publication des derniers jours et traiter leurs suggestions
+correctives et de sourcing. Seuls les rapports quotidiens Studio sont archivés
+dans le dépôt (`atelier/rd/infrastructure/monitoring-archive/`, charte
+`monitoring-archive-charte.md`, job `41dc3e7e492c`) ; aucun mécanisme
+équivalent n'archive les rapports Publication (`veille-referencement-
+investigation-08`) — voir point 3.
+
+### 1. Écart `DISCORD_HOME_CHANNEL` du profil `gardien` — résolu, six jours de fausse alerte
+
+- **Symptôme** : `verifier-coherence-infrastructure.py`, cité verbatim dans le rapport
+  Studio, signalait le même écart chaque jour depuis le 2026-08-26 (constaté aux
+  rapports archivés du 28, 29, 30 et 31) : `[atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md]
+  DISCORD_HOME_CHANNEL attendu 1535804669300052039, réel '1534858103185473627'
+  (profil gardien)`. Le rapport du 2026-08-29 l'avait déjà requalifié
+  correctement : « conflit entre deux fiches R&D, non une dérive de
+  configuration ».
+- **Diagnostic** : la fiche `2026-08-26_migration-omniroute-quota-qwen.md`
+  documente une migration de fournisseur d'inférence (Qwen → OmniRoute) ; son
+  corps ne mentionne à aucun moment une configuration de canal Discord pour le
+  profil `gardien`. La valeur `1535804669300052039` portée dans son
+  `infra_verif` n'est pas un `DISCORD_HOME_CHANNEL` : c'est le canal `--deliver`
+  du job cron `investigation-doctrinale-gardien` (id `431fcacadca2`, déployé le
+  2026-08-23, cf. `2026-08-23_memoire-persistante-deploiement.md`), un job
+  remplacé depuis par le mandat Publication §B (2026-08-24, cf.
+  `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/veille-referencement.md`)
+  et absent des profils Hermes actuels (cf. entrée `[2026-09-01]` #2 de ce
+  registre, « trois jobs cron déclarés créés, introuvables »). Une cible de
+  livraison de job cron a été transcrite comme variable d'environnement de
+  profil — deux faits distincts confondus à la rédaction du 2026-08-26. La
+  valeur réelle et déjà correctement établie ailleurs
+  (`1534858103185473627`) figure sans ambiguïté dans
+  [[atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex]].
+- **Résolution** : les deux champs non supportés (`discord_home_channel`,
+  `discord_allowed_channels`) retirés de l'entrée `gardien` de
+  `2026-08-26_migration-omniroute-quota-qwen.md` — pas corrigés vers la bonne
+  valeur, retirés, puisque cette fiche ne l'a jamais elle-même vérifiée ;
+  l'assertion correcte reste portée par la fiche qui l'établit. Note de
+  correction ajoutée au corps de la fiche, `updated:` remonté (Cmd 8).
+  `verifier-coherence-infrastructure.py` ne pourra plus produire cet écart.
+- **Compréhension tirée** : même famille que l'entrée `[2026-08-17]` qui a fondé
+  le champ `infra_verif` — un champ de vérification mécanique n'est fiable que
+  si chaque valeur qu'il porte est établie par le corps de la fiche qui le
+  porte. Une valeur juste ailleurs, recopiée dans une fiche qui n'a rien
+  vérifié elle-même, produit un faux négatif aussi silencieusement qu'une
+  valeur fausse — six jours de bruit identique dans un rapport quotidien avant
+  traitement.
+- **Liens** : `atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md` ;
+  [[atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex]] ;
+  rapports archivés `monitoring-archive/2026-08-{28,29,30,31}_41dc3e7e492c.txt`.
+- **Statut** : `resolu`.
+
+### 2. « Script détecteur manquant » — fausse alerte du volet R&D Studio
+
+- **Symptôme** : le rapport Studio du 2026-08-31 (§4) affirme : « Script
+  détecteur manquant : `/atelier/rd/outillage/detecter-nouvelles-fiches-rd.sh`
+  est introuvable. » Vérification directe : le fichier existe, est exécutable,
+  daté du 2026-08-29 (`ls -la` + `git log` confirmés dans cette passe).
+- **Diagnostic** : le chemin cité par le rapport porte un `/` de tête —
+  chemin absolu depuis la racine du système de fichiers, jamais depuis
+  `/root/wiki`. Le script lui-même résout ses propres chemins en dur depuis
+  `/root/wiki` (`SNAPSHOT_DIR="/root/wiki/atelier/rd/outillage/.snapshots-rd"`,
+  `find atelier/rd` relatif) : il n'a pas de défaut de portabilité connu. Le
+  rapport, produit par le pôle Studio lui-même à l'intérieur d'une session
+  agent plutôt que par un script déterministe wrappé (contrairement au volet 1,
+  cron 12:00/12:05), a vraisemblablement mal résolu son propre chemin de
+  lecture — hypothèse posée, non confirmée : cette session n'a pas accès au
+  serveur Hermes pour inspecter l'exécution réelle.
+- **Résolution** : aucune action sur le script (rien n'y est cassé). Fausse
+  alerte consignée pour que le prochain rapport Studio ne la reproduise pas
+  sans vérification.
+- **Compréhension tirée** : même motif que PRO-01/INF-14 (2026-09-01) —
+  « un contrôle dont on n'a pas vu l'échec n'est pas vérifié » s'applique aussi
+  à l'affirmation d'échec elle-même : un rapport qui dit « fichier introuvable »
+  mérite la même épreuve qu'un contrôle qui dit « tout va bien ». Ici c'est le
+  narratif de l'agent, non un script déterministe, qui a fabulé — rappel direct
+  de la distinction *fiabilité d'action ≠ fiabilité narrative* (protocole
+  racine §VIII.2).
+- **Liens** : `atelier/rd/outillage/detecter-nouvelles-fiches-rd.sh` ;
+  rapport `monitoring-archive/2026-08-31_41dc3e7e492c.txt`, §4.
+- **Statut** : `resolu` (fausse alerte close ; pas de défaut réel à corriger).
+
+### 3. Angle mort d'archivage — les rapports Publication ne laissent aucune trace au dépôt
+
+- **Symptôme** : `monitoring-archive-charte.md` archive explicitement et
+  uniquement le job Studio `monitoring-infrastructure-quotidien`
+  (id `41dc3e7e492c`). Le job Publication `veille-referencement-investigation-08`
+  (mandat §B, investigation documentaire — la fonction la plus directement
+  utile à la discipline des sources, §VII du protocole racine) n'a aucun
+  mécanisme équivalent. Cette passe d'INTÉGRATION, instruite de reprendre les
+  suggestions de sourcing du pôle Publication des derniers jours, n'a trouvé
+  aucun rapport Publication accessible depuis le dépôt — seulement son mandat
+  et des tours Choura hors périmètre (surveillance `label/`, pas investigation
+  documentaire).
+- **Diagnostic** : tant que ce rapport n'est vu que sur Discord, toute
+  suggestion de sourcing qu'il porte est invisible à une session d'INTÉGRATION
+  qui ne travaille qu'à partir du dépôt git — elle dépend d'une copie manuelle
+  par Sidy dans `_inbox/` (vide au moment de cette passe) ou de l'extension de
+  l'archive de `monitoring-archive/` au profil `publication`.
+- **Résolution** : aucune — hors périmètre de cette session (pas d'accès
+  serveur/Hermes depuis cet environnement distant, seulement le dépôt git).
+  Signalé, non corrigé (Cmd 12/13 : la décision d'étendre l'archive appartient
+  à Sidy).
+- **Compréhension tirée** : la charte de `monitoring-archive/` a été écrite
+  pour un seul job (2026-08-18) et n'a jamais été révisée à l'ouverture du
+  mandat Publication (2026-08-24) — angle mort resté silencieux faute d'usage.
+- **Liens** : `atelier/rd/infrastructure/monitoring-archive-charte.md` ;
+  `meta/projet-unifie/hermes-prompts/08-publication-site/mandats/veille-referencement.md`.
+- **Statut** : `ouvert` — attente verdict Sidy sur l'extension de l'archive.
+
+### 4. Suggestions déjà closes, vérifiées à nouveau dans cette passe
+
+Deux autres suggestions des mêmes rapports Studio (2026-08-30/31) ne demandaient
+plus d'action, confirmé par exécution directe des scripts cités :
+`generer-cartographie.py --verifier` (0 anomalie bloquante, contre 149 au
+2026-08-31 — clos par OUT-C2 le 2026-09-01) et `detecter-non-tracke.py`
+(0 fichier non suivi, contre 1 au 2026-08-31). La suggestion de frontmatter
+manquant sur `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac.md`
+(devenue `atelier/rd/cahiers/2026-08-30_session-corrections-rapports-rotation-hmac.md`)
+avait déjà été traitée le 2026-08-30 même, avec signalement explicite des
+points non tranchés (`type: session`, doublon `date:`/`created:`, emplacement)
+— cf. `PRO-03` du registre des chantiers. Les six services `hermes-gateway-*`
+en échec (`accounting`, `admin-legal`, `distribution`, `marketing`,
+`production`, `visual-da`, constatés à chaque rapport archivé du 28 au 31) ne
+sont pas actionnables depuis cette session (pas d'accès `systemctl` au
+serveur) : signalés, non redémarrés — rejoint le blocage déjà consigné en
+`[2026-08-25]` (« Discord Gateway Gardien — socket fermé, non récupéré »).
+
 ## [2026-09-01] Une porte gardée par quelqu'un qui ne regardait personne — et l'outil qui enfreint la règle qu'il fait respecter
 
 ### 1. Le contrôle `lint` exigé par la protection de `main` ne validait rien

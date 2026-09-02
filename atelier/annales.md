@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,48 @@ updated: 2026-09-01
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-02] correctif | Reprise des rapports Studio/Publication des derniers jours
+
+Sur instruction de Sidy : reprise des rapports R&D des agents Studio et
+Publication des derniers jours, traitement de leurs suggestions correctives et
+de sourcing. Seuls les rapports Studio sont archivés au dépôt
+(`atelier/rd/infrastructure/monitoring-archive/`) ; ceux de Publication ne le
+sont pas — angle mort signalé (point 4).
+
+1. **Écart `DISCORD_HOME_CHANNEL` du profil `gardien` corrigé** : six jours de
+   fausse alerte identique dans le rapport Studio (2026-08-26 → 31) tenaient à
+   une valeur transcrite par erreur dans `2026-08-26_migration-omniroute-quota-qwen.md`
+   — la cible de livraison d'un job cron depuis remplacé, confondue avec la
+   variable d'environnement du profil. Champs non supportés par le corps de la
+   fiche retirés de son `infra_verif`, plutôt que corrigés vers une valeur
+   qu'elle n'a jamais elle-même vérifiée.
+2. **Fausse alerte « script détecteur manquant »** (rapport Studio du
+   2026-08-31) consignée : le script existe, est exécutable ; aucun défaut réel
+   trouvé.
+3. **Deux suggestions déjà closes** reconfirmées par exécution directe :
+   `generer-cartographie.py --verifier` (0 anomalie, contre 149 au 2026-08-31,
+   clos par OUT-C2 le 2026-09-01) et `detecter-non-tracke.py` (0 fichier, contre
+   1 au 2026-08-31).
+4. **Angle mort signalé, non corrigé** : `monitoring-archive-charte.md`
+   n'archive que le job Studio — aucune trace au dépôt des rapports Publication
+   (mandat §B, investigation documentaire). Sans copie manuelle de Sidy dans
+   `_inbox/`, une session d'INTÉGRATION ne peut pas traiter ses suggestions de
+   sourcing. Consigné `INF-15`, `attente-verdict`.
+5. **Six services `hermes-gateway-*` en échec** (`accounting`, `admin-legal`,
+   `distribution`, `marketing`, `production`, `visual-da`) : signalés, non
+   redémarrés — hors de portée de cette session (pas d'accès `systemctl` au
+   serveur), rejoint le blocage déjà consigné le 2026-08-25.
+
+Détail complet (format Symptôme/Diagnostic/Résolution/Compréhension tirée) :
+[[atelier/rd/cahiers/registre-problemes]], entrée `[2026-09-02]`. Ligne
+`INF-15` ouverte dans [[atelier/rd/registre-chantiers]].
+
+**Vérification structurelle** (§VII, brut) : `725 fichier(s) .md contrôlé(s) —
+périmètre du dépôt. 0 erreur(s), 0 avertissement(s).`
+`generer-cartographie.py --verifier` : 519 nœuds, 1768 arêtes, 139
+avertissements non bloquants (inchangé par cette passe, hors périmètre de la
+consigne).
 
 ## [2026-09-01] epreuve | Les quatre contrôles du jour, éprouvés par leur échec
 

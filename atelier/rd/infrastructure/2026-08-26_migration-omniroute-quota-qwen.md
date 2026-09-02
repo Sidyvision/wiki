@@ -3,16 +3,13 @@ title: "Migration OmniRoute — profils prioritaires sous quota Qwen épuisé (2
 type: fiche-rd
 date: 2026-08-26
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-09-02
 circuit: rd/infrastructure
 statut: consignation
 infra_verif:
   - profil: gardien
     provider: omniroute
     cron_job: veille-protocole-gardien
-    discord_home_channel: 1535804669300052039
-    discord_allowed_channels:
-      - 1534858103185473627
   - profil: studio
     provider: omniroute
     cron_job: monitoring-infrastructure-quotidien
@@ -135,6 +132,29 @@ les logs au cours de la session : exécution des gateways sous compte root,
 authentification SSH par mot de passe activée sur l'hôte. Ces éléments sont
 rapportés ici à titre de signalement ; aucune action de remédiation n'a été
 demandée ni entreprise dans cette session.
+
+## Correction du frontmatter (2026-09-02, station d'INTÉGRATION, §I)
+
+Le bloc `infra_verif` de l'entrée `gardien` portait `discord_home_channel:
+1535804669300052039` et `discord_allowed_channels: [1534858103185473627]` —
+deux champs que le corps de la présente fiche n'établit ni ne discute jamais
+(cette fiche documente une migration de fournisseur d'inférence, pas une
+configuration Discord). `verifier-coherence-infrastructure.py` a signalé
+l'écart chaque jour depuis le 2026-08-26 : `DISCORD_HOME_CHANNEL attendu
+1535804669300052039, réel '1534858103185473627'` — repéré par le pôle Studio
+dès le 2026-08-28, requalifié le 2026-08-29 comme « conflit entre deux fiches
+R&D, non une dérive de configuration ». Origine tracée : `1535804669300052039`
+est le canal `--deliver` du job cron `investigation-doctrinale-gardien`
+(431fcacadca2, cf. `atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement.md`),
+un job depuis remplacé par le mandat Publication §B (2026-08-24) — une cible
+de livraison de job, pas le `DISCORD_HOME_CHANNEL` du profil, deux faits
+distincts que la transcription initiale a confondus. La valeur correcte du
+`DISCORD_HOME_CHANNEL` réel du profil `gardien` (`1534858103185473627`) est
+déjà établie par
+[[atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex]] ;
+les deux champs non supportés par cette fiche-ci sont retirés plutôt que
+corrigés vers une valeur qu'elle n'a jamais elle-même vérifiée. Détail :
+`atelier/rd/cahiers/registre-problemes.md`, entrée `[2026-09-02]`.
 
 ## Références
 
