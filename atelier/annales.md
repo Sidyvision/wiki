@@ -56,6 +56,7 @@ de lire le prototype pour lire **le rendu réel**.
   [[atelier/rd/instrument/ins-15-situation-polaire/plan]] (étape 6 bis, vérification)
 - **Non modifié** : l'entrée d'ouverture du même jour — append-only (Cmd 9)
 - **Hors dépôt** : contrôle 7 ajouté au vérificateur du bac à sable
+- **Commit** : cf54424
 
 ---
 
