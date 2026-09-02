@@ -26,7 +26,7 @@ sans vérification exacte de ce qui est affirmé).
 Graphe régénéré : la notice Osman Yahia a désormais 1 lien entrant.
 `verifier-invariants.py` : 0 erreur, 0 avertissement sur 1350 fichiers.
 
-Commit à suivre.
+- **Commit** : 0823e53
 
 ## [2026-09-02] archivage | DOC-07 — Osman Yahia versé, Futūḥāt Maymaniyya ajournée (OUT-08)
 
