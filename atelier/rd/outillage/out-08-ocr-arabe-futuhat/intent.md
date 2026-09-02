@@ -10,6 +10,7 @@ links:
   - "[[atelier/rd/registre-chantiers]]"
   - "[[atelier/rd/outillage/gabarit-triptyque-chantier]]"
   - "[[atelier/rd/outillage/ocr-scan-vers-markdown]]"
+  - "[[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]]"
 ---
 
 # OUT-08 — OCR arabe de la Futūḥāt Maymaniyya : intention
@@ -92,8 +93,9 @@ conclusion est « aucune piste disponible ne suffit, le tome reste hors dépôt 
   probablement un résultat net meilleur sur de l'arabe classique non vocalisé, mais
   suppose un compte/crédit tiers — dépense et souveraineté externalisée à trancher
   par Sidy avant tout essai (Cmd 13, finalité de souveraineté du pôle `rd/`).
-  Piste à vérifier sans installation : une combinaison `--oem 1` (LSTM seul) contre
-  le défaut de Tesseract 5, non encore testée.
+  Piste `--oem 1` (LSTM seul) contre le défaut : **testée, sans objet** —
+  `ara.traineddata` ne porte pas les composants du moteur legacy, le défaut retombe
+  déjà sur LSTM seul faute d'alternative installée (détail : `spec.md`).
 - **Amplitude du défaut sur l'ensemble du tome.** Le relevé de DOC-07 portait sur un
   seul échantillon (ligne 5000) et celui-ci sur une seule page (300) — rien ne dit
   encore si la corruption est uniforme sur les 779 pages ou si certaines zones (texte

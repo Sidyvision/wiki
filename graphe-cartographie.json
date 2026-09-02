@@ -3231,6 +3231,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec",
+      "label": "OUT-08 — OCR arabe de la Futūḥāt Maymaniyya : spécification",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "ocr",
+        "arabe",
+        "chantier",
+        "spec"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/outillage/robustesse-documents-persona-llm",
       "label": "Lecture défensive d'un document-persona par un LLM neuf — cas du dispositif Karūbī",
       "circuit": "atelier",
@@ -13086,6 +13107,34 @@
     },
     {
       "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent",
+      "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent",
+      "target": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec",
+      "target": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec",
       "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
       "champ": "links",
       "nature": "lien",

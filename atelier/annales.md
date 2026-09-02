@@ -10,6 +10,26 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] archivage | OUT-08 — `spec.md` : deux pistes sans installation épuisées
+
+Sur demande de Sidy (« Essaie `--oem 1` d'abord, sans installation »), test sur
+l'échantillon commun de `intent.md` (page 300, bac à sable `/tmp`, non committé) :
+`tesseract page-300.png out --oem 1 --psm 3` produit une sortie **strictement
+identique** au défaut sans `--oem`. Cause : `ara.traineddata` ne porte pas les
+composants du moteur legacy (`--oem 0` échoue explicitement) — le défaut retombe
+déjà sur LSTM seul. Piste négative et sans objet, aucune installation requise pour
+le constater.
+
+Avec le relevé DPI/psm de `intent.md`, cela fait deux pistes comparées sur
+échantillon commun, toutes deux négatives — signe de réussite du chantier atteint
+(`spec.md` écrit, `atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec.md`). Toute
+piste restante (prétraitement d'image, moteur alternatif, OCR cloud) suppose un
+paquet absent du serveur ou une dépense tierce — verdict Sidy à venir (Cmd 13)
+avant tout `plan.md` (Cmd 6). Registre mis à jour, graphe régénéré (1596 arêtes
+établies), `verifier-invariants.py` : 0 erreur, 0 avertissement sur 1352 fichiers.
+
+- **Commit** : (à suivre)
+
 ## [2026-09-02] archivage | OUT-08 — triptyque ouvert, premier relevé (intent.md)
 
 Suite du verdict DOC-07 (« nouvel essai d'OCR d'abord », Cmd 12) : ouverture du
