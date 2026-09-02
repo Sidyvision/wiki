@@ -10,6 +10,75 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] execution | Chaîne OCR ouverte à l'arabe et au français — et un découpage refusé
+
+Consigne de Sidy : convertir deux ouvrages de `raw/`, puis — sur verdict —
+découper, amender l'outillage, et laisser les sorties au sas.
+
+**Deux transcriptions, contrôlées et non présumées.**
+
+| | pages | langue | durée | intégrité |
+|---|---|---|---|---|
+| *al-Futūḥāt al-makkiyya*, t. I (Maymaniyya) | 779 | `ara` | 1 h 20 | 779/779, 0 manquante, 0 dupliquée |
+| Osman Yahia, *Histoire et classification de l'œuvre d'Ibn 'Arabi* | 696 | `fra` | 29 min | 696/696, 0 manquante, 0 dupliquée |
+
+Les 12 pages sans texte (1 + 11) ont toutes été vérifiées **à la source**, par
+comptage des pixels sombres de l'image rendue : vraies pages blanches ou bruit
+de scan pur dont rien n'émerge même en `--psm 3` et `--psm 11`. Aucune perte.
+
+**Le choix de l'OCR neuf, mesuré.** Le PDF d'Osman Yahia portait une couche
+Acrobat ClearScan. Éprouvée contre `tesseract` sur la même page (spec §6) :
+elle brise les nombres — `1 89` pour 189, `2 1 8` pour 218 — dans un volume qui
+**est** un répertoire de numéros d'ouvrages. Écartée. `-l fra+ara` écarté de
+même : il dégrade les italiques latines (`Fihris` → `17/715`) sans rendre
+l'arabe.
+
+**Le découpage refusé.** Les 560 bâbs des *Futūḥāt* ont des en-têtes
+calligraphiés que l'OCR rend en bouillie. Analyseur d'ordinaux arabes et
+appariement par programmation dynamique écrits et éprouvés : 253 rangs
+cohérents sur l'index, mais ~50 bâbs sur le corps, avec des fautes vérifiables
+(bâbs 75 et 81 sur la même page 617 ; « الحادى والسبعون » lu 81 au lieu de 71).
+**Décision : pas de découpage** — de fausses références sont pires qu'un fichier
+entier. Travail versé en `essais-non-retenus/`, avec ses quatre leçons, non
+jeté. Règle qui s'en dégage : *quand le contrôle externe ne peut pas trancher,
+on ne découpe pas* ; le §5 vaut aussi par son refus.
+
+**Le découpage accepté.** Osman Yahia : 18 sections, intégrité 696/696
+re-vérifiée après copie au sas. Contrôle externe §5 conduit sur une source
+indépendante du script — le numéro de page **imprimé** dans le titre courant :
+**576 pages sur 594 vérifient `imprimé = pdf + 5`**, décalage rigoureusement
+constant, les 18 exceptions étant des coquilles d'OCR sur le numéro lui-même
+(`18]` pour 181). Le plan général du volume confirme l'ordre des sections.
+
+**Trois défauts d'outillage trouvés en éprouvant, non en lisant.**
+
+1. Le frontmatter portait `(eng)` **en dur** : patcher la commande à la main
+   produisait un fichier qui mentait sur sa propre fabrication. La langue est
+   désormais un paramètre, l'étiquette la suit.
+2. Une langue non installée rendait un Markdown **vide sans erreur** — une
+   tâche de fond aurait échoué en silence (famille du `chmod +x` refusé).
+   Garde ajoutée : code 2, message, aucun fichier trompeur. Éprouvée par son
+   échec.
+3. `ADDENDA` nu coupait le chapitre V en deux : il n'ouvre une section que
+   sous sa forme titrée «A»/«B»/«C».
+
+**`markitdown` (Microsoft), soumis par Sidy, éprouvé sur nos deux fichiers.**
+Sur le scan pur : **0 octet** (il repose sur `pdfminer`, aucun OCR local). Sur
+Osman Yahia : il lit la couche ClearScan, donc en reproduit les défauts, et
+invente de faux tableaux Markdown à partir des colonnes de chiffres. Son
+plugin OCR exige une API LLM Vision ou Azure — réseau et tiers, contraire au
+§VIII. **Retenu en revanche comme le bon outil pour `.docx`, `.pptx`, `.xlsx`,
+`.epub`** le jour où de tels fichiers arriveront ; consigné dans la spec.
+
+**Non-régression vérifiée sur pièce** avant de toucher au découpeur : Orion
+237/237 et Arctic Home 544/544, sections identiques aux références.
+
+Sorties **laissées au sas** sur verdict de Sidy : `_inbox/` (deux Markdown
+entiers) et `_inbox/conversions/chapitres-osman-yahya/` (18 fichiers +
+manifeste). Rien ne circule vers un circuit.
+
+Invariants : 1329 fichiers `.md`, 0 erreur, 0 avertissement.
+
 ## [2026-09-02] execution | PRO-08 clos — `textes/` ouvert, 560 fichiers rendus visibles, §II amendé
 
 Trois verdicts de Sidy, cités *verbatim* : « **`textes/` validé, dédoublonne

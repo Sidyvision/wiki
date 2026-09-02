@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
 """Decoupe un .md OCR page-par-page en fichiers par chapitre.
 Usage: decouper_chapitres.py <fichier.md> <dossier_sortie> <slug-prefixe>
-Detecte les en-tetes CHAPTER <romain>, PREFACE, APPENDIX, INDEX, CONTENTS
-en debut de page (tolerance OCR)."""
+                             [page-de-debut] [--langue=en|fr]
+
+Detecte les en-tetes de chapitre en debut de page (tolerance OCR) :
+  --langue=en (defaut) : CHAPTER <romain>, PREFACE, APPENDIX, INDEX, CONTENTS
+  --langue=fr          : CHAPITRE <romain|PREMIER>, <n>e PARTIE, INTRODUCTION,
+                         CONCLUSION, REPERTOIRE GENERAL, TABLE DES..., etc.
+Jeu francais ajoute le 2026-09-02 pour Osman Yahia, Histoire et classification
+de l'oeuvre d'Ibn 'Arabi (696 p.)."""
 import re, sys, os, unicodedata
 
 # tolerance OCR : I/l/1/T confondus, V/Y/U, X/K ; suffixes parasites
 ROM = r"[IVXLTilU1Y|]{1,8}"
-PATS = [
+PATS_EN = [
     (re.compile(rf"^[\s|.,'\"]*[COG0][HKN]?A[PF]?TER\s*[-—]?\s*({ROM})\s*[.,;:\s]*$", re.I), "chapitre"),
     (re.compile(r"^\s*PREFACE\s*[.]?\s*$", re.I), "preface"),
     (re.compile(r"^\s*(?:TABLE OF )?CONTENTS\s*[.]?\s*$", re.I), "sommaire"),
@@ -15,6 +21,41 @@ PATS = [
     (re.compile(r"^\s*(?:GENERAL )?INDEX\s*[.]?\s*$", re.I), "index"),
     (re.compile(r"^\s*ERRATA\s*[.]?\s*$", re.I), "errata"),
 ]
+
+# Jeu francais. 'CHAPITRE PREMIER' vaut I ; les titres courants repetes
+# (REPERTOIRE GENERAL page apres page) sont fusionnes en aval comme 'index'.
+PATS_FR = [
+    (re.compile(rf"^[\s|.,'\"]*[C(]HAP[I1lT]TRE\s*[-—]?\s*(PREM[I1l]ER|{ROM})\s*[.,;:\s]*$", re.I), "chapitre"),
+    (re.compile(r"^\s*(PREMI[EÈ]RE|DEUXI[EÈ]ME|TROISI[EÈ]ME|QUATRI[EÈ]ME|CINQUI[EÈ]ME)\s+PARTIE\s*[.]?\s*$", re.I), "partie"),
+    (re.compile(r"^\s*(?:AVANT[-\s]PROPOS|PR[EÉ]FACE)\s*[.]?\s*$", re.I), "preface"),
+    (re.compile(r"^\s*INTRODUCTION\s*[.]?\s*$", re.I), "introduction"),
+    (re.compile(r"^\s*CONCLUSION\s*[.]?\s*$", re.I), "conclusion"),
+    (re.compile(r"^\s*R[EÉ]PERTO[I1l]RE\s+G[EÉ]N[EÉ]RAL\b.*$", re.I), "repertoire"),
+    (re.compile(r"^\s*B[I1l]BL[I1l]OGRAPH[I1l]E\s*[.]?\s*$", re.I), "bibliographie"),
+    (re.compile(r"^\s*TABLE\s+DES\s+S[I1lC]GLES.*$", re.I), "sigles"),
+    # ADDENDA n'ouvre une section que sous sa forme titree «A»/«B»/«C» : nu,
+    # c'est un intertitre au fil du chapitre (constate p.117 d'Osman Yahia,
+    # ou il coupait le chapitre V en deux).
+    (re.compile(r"^\s*ADDENDA\s*[«\"'‹]\s*[A-Z0O]\s*[»\"'›]?.*$", re.I), "addenda"),
+    # Tables recapitulatives : chacune a sa nature propre, sinon la fusion des
+    # titres courants les agglomere en un seul bloc (constate : 156 pages
+    # d'un coup pour la 3e partie d'Osman Yahia).
+    (re.compile(r"^\s*TABLE\s+(?:ALPHAB[EÉ]TIQUE\s+)?DES\s+OUVRAGES\s+DU\s+R[EÉ]PERTO[I1l]RE.*$", re.I), "table-ouvrages"),
+    (re.compile(r"^\s*TABLE\s+DES\s+OUVRAGES\s+(?:IMPRIM[EÉ]S|COMMENT[EÉ]S|TRADU[I1l]TS).*$", re.I), "table-ouvrages-imprimes"),
+    (re.compile(r"^\s*TABLE\s+DES\s+CORRESPONDANCES.*$", re.I), "table-correspondances"),
+    (re.compile(r"^\s*TABLE\s+(?:ALPHAB[EÉ]TIQUE\s+)?DES\s+NOMS\s+PROPRES.*$", re.I), "table-noms-propres"),
+    (re.compile(r"^\s*TABLE\s+(?:ALPHAB[EÉ]TIQUE\s+)?DES\s+NOMS\s+D['’]OUVRAGES.*$", re.I), "table-noms-ouvrages"),
+    (re.compile(r"^\s*TABLE\s+DES\s+MANUSCR[I1l]TS.*$", re.I), "table-manuscrits"),
+    (re.compile(r"^\s*TABLE\s+DES\s+MATI[EÈ]RES\b[\s.,:;-]*$", re.I), "table-matieres"),
+    (re.compile(r"^\s*(?:INDEX|ERRATA)\s*[.]?\s*$", re.I), "index"),
+]
+JEUX = {"en": PATS_EN, "fr": PATS_FR}
+
+# Sections a fusionner quand elles se repetent (titre courant de page).
+FUSION = ("index", "errata", "sommaire", "repertoire", "sigles", "bibliographie",
+          "addenda", "table-ouvrages", "table-correspondances",
+          "table-noms-propres", "table-noms-ouvrages", "table-manuscrits",
+          "table-matieres", "table-ouvrages-imprimes")
 
 def slug(s):
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
@@ -38,6 +79,9 @@ def _val(t):
 def rom_candidates(s):
     """Toutes les valeurs entieres plausibles d'un romain OCR-bruite."""
     s = s.upper()
+    # 'CHAPITRE PREMIER' (francais) vaut I.
+    if s.startswith("PREM"):
+        return {1}
     out = set()
     for src in (s, s[:-1]):  # dernier caractere = point mal lu
         variants = [""]
@@ -58,7 +102,8 @@ def rom_candidates(s):
     return out
 
 
-def main(src, outdir, prefix, start_page=1):
+def main(src, outdir, prefix, start_page=1, langue="en"):
+    pats = JEUX[langue]
     txt = open(src, encoding="utf-8", errors="replace").read()
     # separer frontmatter
     fm = ""
@@ -75,7 +120,7 @@ def main(src, outdir, prefix, start_page=1):
         head = None
         if num >= start_page:
             for line in body.strip().splitlines()[:14]:
-                for pat, kind in PATS:
+                for pat, kind in pats:
                     m = pat.match(line)
                     if not m:
                         continue
@@ -108,7 +153,7 @@ def main(src, outdir, prefix, start_page=1):
     # (index/errata : l'en-tete est un titre courant repete a chaque page)
     fused = []
     for s in sections:
-        if fused and s["kind"] in ("index", "errata", "sommaire") and fused[-1]["kind"] == s["kind"]:
+        if fused and s["kind"] in FUSION and fused[-1]["kind"] == s["kind"]:
             fused[-1]["pages"].extend(s["pages"])
         else:
             fused.append(s)
@@ -150,5 +195,14 @@ def main(src, outdir, prefix, start_page=1):
     return 0
 
 if __name__ == "__main__":
-    sp = int(sys.argv[4]) if len(sys.argv) > 4 else 1
-    sys.exit(main(sys.argv[1], sys.argv[2], sys.argv[3], sp))
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    opts = [a for a in sys.argv[1:] if a.startswith("--")]
+    langue = "en"
+    for o in opts:
+        if o.startswith("--langue="):
+            langue = o.split("=", 1)[1].strip().lower()
+    if langue not in ("en", "fr"):
+        print(f"langue inconnue: {langue} (attendu: en, fr)", file=sys.stderr)
+        sys.exit(2)
+    sp = int(args[3]) if len(args) > 3 else 1
+    sys.exit(main(args[0], args[1], args[2], sp, langue))
