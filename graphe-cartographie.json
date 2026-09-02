@@ -2268,6 +2268,70 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent",
+      "label": "PRO-08 — un dossier versionné pour les textes convertis : intention",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "intent",
+        "raw",
+        "obsidian",
+        "synchronisation"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/plan",
+      "label": "PRO-08 — un dossier versionné pour les textes convertis : plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "plan",
+        "migration"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/spec",
+      "label": "PRO-08 — un dossier versionné pour les textes convertis : spécification",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "spec",
+        "raw",
+        "gitignore",
+        "invariants"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/spec.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20",
       "label": "Rapport conjoint d'état du dépôt — exploration 2026-08-20 (préparation Gardien)",
       "circuit": "atelier",
@@ -11830,6 +11894,41 @@
     {
       "source": "atelier/rd/infrastructure/monitoring-archive/registre-traitement",
       "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent",
+      "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/plan",
+      "target": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/plan",
+      "target": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/spec",
+      "target": "atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"

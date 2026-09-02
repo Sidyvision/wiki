@@ -10,6 +10,82 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] chantier | PRO-08 instruit — les deux motifs de l'exclusion de `raw/`, mesurés et non présumés
+
+Sidy demande d'instruire **la seconde voie** : un dossier versionné pour les
+textes convertis, `raw/` gardant les binaires. Triptyque écrit
+(`atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/`), `plan.md` en
+`brouillon` — rien n'est déplacé.
+
+**L'instruction a consisté d'abord à mesurer**, parce que le `.gitignore` porte
+deux motifs explicites et qu'aucun n'avait jamais été vérifié.
+
+| motif d'exclusion | ce que la mesure donne |
+|---|---|
+| « fichiers volumineux » | **14 Mo** de Markdown contre **2,6 Go** pour `raw/` entier. Le volume est fait des PDF et des exports ; le texte en est **0,5 %**. Le motif vise les binaires, pas le texte |
+| « données personnelles » | **zéro** adresse e-mail, **zéro** IBAN, **zéro** numéro de téléphone sur les 708 fichiers. En revanche il tient **pleinement** pour les binaires : `raw/` porte des factures nominatives, un export ChatGPT, un dossier `Downloads` |
+
+Autres mesures : **708** fichiers `.md`, **561 distincts** — donc **147 doublons
+exacts**, dont 130 dans `Downloads/`, qui redouble intégralement *Symboles de la
+Science sacrée* (91) et *Études sur l'Hindouisme* (39).
+
+**Un faux positif consigné, parce qu'il aurait pu conclure à ma place.** Le
+premier balayage a signalé « IBAN » dans *Le Roi du Monde*. C'était **« Liban »** :
+la recherche insensible à la casse trouvait la sous-chaîne. Le motif a été
+resserré sur bornes de mot **avant** de conclure. Un contrôle non éprouvé sur ce
+qu'il prétend attraper ne vaut rien — et celui-là aurait fait porter au corpus un
+soupçon faux.
+
+**La contrainte technique dure, éprouvée et non déduite.** Un `.md` sans
+frontmatter, dans un dossier de premier niveau hors circuit, lève `B0` :
+
+```
+[B0] textes-essai/essai.md — aucun frontmatter délimité par `---`
+1 erreur(s), 0 avertissement(s).
+```
+
+Sans amendement, la migration produirait donc **561 erreurs** — c'est-à-dire
+exactement le bruit qui avait masqué la seule erreur vraie du 2026-09-01 (OUT-C2).
+Le remède tient en une ligne, dans `PREFIXES_SANS_FM`, mécanisme **qui existe
+déjà** pour « les fichiers légitimement sans frontmatter » : aucune exception
+nouvelle n'est inventée.
+
+⚠️ **Et l'épreuve devra avoir deux faces** : un `.md` nu **dans** `textes/`
+accepté, **et** un `.md` nu **hors** `textes/` toujours refusé. Sans la seconde,
+rien ne distinguerait un amendement ciblé d'un désarmement général de B0.
+
+**Ce que la spec recommande** : `textes/`, dossier de premier niveau, déclaré
+**« pas un sixième circuit »** sur le modèle exact de ce que le protocole fait
+déjà pour `meta/`. Les deux autres candidats sont pesés et écartés avec leur
+motif — `raw/textes/` contredirait le constat de Sidy (le dossier resterait dans
+ce qui masque) ; `doctrinal/textes/` serait faux, ces textes ne relevant d'aucun
+circuit.
+
+**Normalisation des noms exigée, et pour une raison rencontrée deux fois ce
+jour** : les dossiers de `raw/` portent leurs noms en Unicode **décomposé**
+(NFD), là où un chemin tapé l'est en composé — l'accès littéral échoue sur « No
+such file or directory » sans rien dire de plus. Les noms migrés passent en
+minuscules ASCII (§III), ce qui supprime le piège à la racine.
+
+**Ce que le plan refuse de faire d'office** : dédoublonner (décision de contenu,
+Cmd 10/13) ; retirer les originaux de `raw/` (seconde décision, jamais dans la
+même passe) ; et trancher le **régime des futurs** textes convertis — la seule
+question qui empêche le problème de se reformer dans six mois. Elle est posée,
+non tranchée.
+
+**Le critère qui compte n'est pas automatisable** : « Sidy ouvre un chapitre de
+Guénon dans Obsidian, sans passer par le terminal ». Les sept autres contrôles
+prouvent que rien n'est cassé ; celui-là seul prouve que le besoin est comblé.
+
+- **Créé** : triptyque `pro-08-textes-convertis-versionnes/` (intent, spec, plan)
+- **Modifié** : [[atelier/rd/registre-chantiers]] (PRO-08 pointe son triptyque)
+- **Rien n'est déplacé** : `plan.md` en `brouillon`, trois verdicts attendus
+- **En attente de Sidy** : le nom du dossier · le sort des 147 doublons ·
+  l'amendement du §II du protocole racine
+
+---
+
+
 ## [2026-09-02] chantier | DOC-06 exécuté, et PRO-08 ouvert : 708 fichiers Markdown invisibles dans `raw/`
 
 **DOC-06 fait.** Ingest des deux Tilak lancé sur verdict de Sidy, écarts validés :
