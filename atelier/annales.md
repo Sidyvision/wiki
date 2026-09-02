@@ -82,6 +82,7 @@ prouvent que rien n'est cassé ; celui-là seul prouve que le besoin est comblé
 - **Rien n'est déplacé** : `plan.md` en `brouillon`, trois verdicts attendus
 - **En attente de Sidy** : le nom du dossier · le sort des 147 doublons ·
   l'amendement du §II du protocole racine
+- **Commit** : 023ddda
 
 ---
 
