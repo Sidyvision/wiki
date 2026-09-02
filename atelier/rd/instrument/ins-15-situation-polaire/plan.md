@@ -32,17 +32,21 @@ links:
 1. ✅ `proto-geometrie.html` — scène Three.js r128 autonome : horizon, sphère
    céleste, axe du monde, soleil, cercle du jour, trace de l'année, astres en
    révolution, aurore tournante, roue du Manvantara, esquisse de la bascule.
-2. ✅ `verifier-geometrie.py` — **7 contrôles**, chacun rejoué sous biais.
-   Résultat : 7 passent sur la géométrie réelle, **les 7 tombent** quand on la
+2. ✅ `verifier-geometrie.py` — **8 contrôles**, chacun rejoué sous biais.
+   Résultat : 8 passent sur la géométrie réelle, **les 8 tombent** quand on la
    fausse. L'épreuve des contrôles est faite (§VII, motif PRO-01).
 3. ✅ `comparer-js-python.js` + `comparer.py` — les fonctions de géométrie sont
    **extraites du HTML lui-même** (non recopiées : un contrôle qui recopie
    s'observe lui-même, c'est le motif PRO-01) et confrontées à la référence
    Python sur 560 cas. Écart maximal **3,7 × 10⁻¹⁴°** ; l'option `--fausser`
    détecte bien un écart injecté d'1°.
-4. ✅ Une erreur commise et conservée : le contrôle « le soleil ne passe jamais
-   au nord » tombait à 90° et **avait tort** — au pôle exact le repère d'azimut
-   est dégénéré. Consignée dans le commentaire du contrôle et dans le `LISEZ-MOI`.
+4. ✅ Deux erreurs commises et conservées, plutôt qu'effacées :
+   — le contrôle « le soleil ne passe jamais au nord » tombait à 90° et **avait
+   tort** (au pôle exact, le repère d'azimut est dégénéré) ;
+   — l'aurore polaire avait d'abord été présentée comme **confirmant** le chiffre
+   de Tilak, alors qu'elle **en montre l'origine** : sa fourchette 45-60 j est
+   l'image de sa propre fourchette de seuils 16°-20°. Contrôle 7 ajouté pour
+   l'établir, et `spec.md` §2.2 porte la rectification.
 5. ✅ Prototype envoyé à Sidy.
 
 ### Phase 1 — le triptyque (FAITE, c'est le présent dossier)
@@ -52,6 +56,25 @@ links:
 ### ⛔ VISA DE SIDY — rien au-delà de cette ligne sans lui
 
 ### Phase 2 — la donnée et le producteur
+
+6 bis. **Verser les contrôles au dépôt — première étape de la phase, avant toute
+    autre.** Défaut relevé à la relecture du présent plan : les critères 1 et 2 du
+    `spec.md` désignent `verifier-geometrie.py` et `comparer.py`, qui vivent dans un
+    bac à sable **déclaré jetable et non versionné en trois endroits**. Une phase 2
+    conduite par une autre session — ou par celle-ci après nettoyage — trouverait donc
+    une section *Vérification* dont **aucune commande n'existe**, et l'épreuve des
+    contrôles ne serait attestée nulle part dans le dépôt. C'est exactement la forme
+    de PRO-01 : une garde dont on croit qu'elle tient parce qu'un rapport l'a dit une
+    fois.
+
+    Geste : `verifier-geometrie.py` et le couple `comparer-js-python.js` /
+    `comparer.py` sont versés en `atelier/rd/outillage/`, avec un
+    `spec-controles-geometrie-polaire.md`, sur le patron de
+    `valider-index-livres.py` et de sa spec. Le comparateur cesse alors de lire le
+    prototype du bac à sable pour lire **le rendu réel** du dépôt frère — ce qui le
+    rend plus utile qu'il ne l'est aujourd'hui, puisqu'il gardera la géométrie
+    effectivement servie. Le bac à sable, lui, reste jetable et peut disparaître sans
+    rien emporter.
 
 7. Ouvrir le bloc `polaire:` dans `instrument-donnees.yaml`, à la forme du
    `spec.md` §3.1. Version de la déclaration : **v0.8.0** (bloc nouveau).
@@ -88,6 +111,9 @@ links:
 | `atelier/rd/instrument/instrument-donnees.yaml` | modifié — bloc `polaire:` (**après visa**) |
 | `atelier/rd/outillage/generer-manifeste.py` | modifié — schéma v0.2.6 (**après visa**) |
 | `atelier/rd/outillage/spec-generateur-manifeste.md` | modifié (**après visa**) |
+| `atelier/rd/outillage/verifier-geometrie-polaire.py` | **créé** — versement des contrôles (**après visa**, étape 6 bis) |
+| `atelier/rd/outillage/comparer-geometrie-rendu.py` | **créé** — idem, lit le rendu réel |
+| `atelier/rd/outillage/spec-controles-geometrie-polaire.md` | **créé** — idem |
 | `atelier/rd/instrument/wiki-manifest.json` | **régénéré** — artefact, jamais édité |
 | `/root/instrument/src/index.html` | modifié — calque polaire (**après visa**) |
 | `/root/sandbox-rd/ins-15-polaire/` | **hors dépôt**, jetable, non versionné |
@@ -100,10 +126,15 @@ Les commandes qui **prouvent** chaque critère du `spec.md` §4 :
 
 ```bash
 # Critères 1, 2 — la géométrie, et l'accord scène ↔ contrôle
+#   AVANT le versement (Phase 0, bac à sable jetable) :
 cd /root/sandbox-rd/ins-15-polaire
-python3 verifier-geometrie.py                 # 7 OK passe 1, 7 ÉCHEC passe 2
+python3 verifier-geometrie.py                 # 8 OK passe 1, 8 ÉCHEC passe 2
 node comparer-js-python.js && python3 comparer.py
 python3 comparer.py --fausser                 # DOIT détecter
+#   APRÈS le versement (étape 6 bis) — c'est cette forme qui fait foi :
+cd /root/wiki
+python3 atelier/rd/outillage/verifier-geometrie-polaire.py
+python3 atelier/rd/outillage/comparer-geometrie-rendu.py --rendu /root/instrument/src/index.html
 
 # Critère 6 — le manifeste porte le bloc
 cd /root/wiki

@@ -10,6 +10,56 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] rectification | INS-15 — l'aurore polaire ne confirme pas Tilak, elle montre d'où vient son chiffre
+
+**Ce qui avait été écrit, et qui était trop fort.** L'entrée d'ouverture d'INS-15
+(même jour, commit `31cca25`) affirme que l'aurore polaire « se calcule à 50,9 jours »
+quand Tilak annonce 45 à 60, et en conclut que « son chiffre est confirmé sans qu'on
+ait à le croire sur parole ». La `spec.md` portait la même phrase. **L'entrée
+d'origine est conservée telle quelle** (append-only) ; la présente rectification la
+corrige sans l'effacer.
+
+**Le défaut.** Le calcul reposait sur un seuil crépusculaire de −18°, écrit en dur et
+**sans source** — une convention moderne prise pour une donnée. Or toute la durée en
+dépend. La garde G7 de la spec ne réclamait alors une source que sur les entrées
+`statut: etabli` : un scalaire nu passait dessous.
+
+**Ce que dit le texte, vérifié au chapitre.** Tilak traite lui-même la question
+(ch. III, p. 78) : « The exact duration of this morning or evening twilight is,
+however, still a matter of uncertainty. » Il nomme ~16° sous l'horizon en zone
+tropicale, et « from 18° to 20° » aux hautes latitudes. Le calcul mené sur **ses
+trois seuils** donne 43,7 j · 50,9 j · 59,4 j.
+
+**Le résultat juste, et il est meilleur que celui qu'il remplace.** La fourchette
+« 45 to 60 days » de Tilak est **exactement l'image de sa propre fourchette de
+seuils**. La géométrie ne le confirme donc pas indépendamment : elle montre d'où
+vient son chiffre. C'est une cohérence interne, pas une vérification — et c'est plus
+instructif que l'affirmation écartée.
+
+**Ce qui a été fait.** Contrôle 7 ajouté au vérificateur (les seuils 16°-20°
+encadrent-ils 45-60 j ?), éprouvé par l'échec comme les autres : **8 contrôles
+passent, 8 tombent sous biais**. Le seuil devient une liste sourcée
+(`seuils_crepusculaires`, `statut: academique`) au lieu d'un scalaire ; G7 est
+étendue à **tout** statut, et une garde G8 interdit désormais le scalaire
+conventionnel nu à la racine du bloc — la faute prise à sa racine, pas seulement
+dans son occurrence.
+
+**Second défaut corrigé dans la même passe.** Les critères d'acceptation 1 et 2
+désignaient des scripts vivant dans un bac à sable **déclaré jetable**. Une phase 2
+menée par une autre session aurait trouvé une section *Vérification* dont aucune
+commande n'existe — la forme même de PRO-01. Le `plan.md` reçoit une étape 6 bis :
+les contrôles sont versés en `rd/outillage/` avec leur spec, et le comparateur cesse
+de lire le prototype pour lire **le rendu réel**.
+
+- **Modifié** : [[atelier/rd/instrument/ins-15-situation-polaire/spec]] (§2.2 neuf,
+  bloc `seuils_crepusculaires`, gardes G7 étendue et G8),
+  [[atelier/rd/instrument/ins-15-situation-polaire/plan]] (étape 6 bis, vérification)
+- **Non modifié** : l'entrée d'ouverture du même jour — append-only (Cmd 9)
+- **Hors dépôt** : contrôle 7 ajouté au vérificateur du bac à sable
+
+---
+
+
 ## [2026-09-02] chantier | INS-15 ouvert — la situation polaire, et le plan de base qui reçoit son second état
 
 Sidy demande un bloc annexe à l'Instrument : la situation polaire décrite par Tilak,

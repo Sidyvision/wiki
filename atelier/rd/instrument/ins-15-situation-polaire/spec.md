@@ -136,10 +136,37 @@ Ces énoncés sont de **deux natures**, et le rendu ne les traite pas de même :
   situation, donc la tradition védique est d'origine arctique — est `academique`. Elle
   est rendue **suggérée**, et le rendu ne l'affirme pas.
 
-Le vérificateur de la Phase 0 a montré que le partage tient : l'aurore polaire **se
-calcule à 50,9 jours**, quand Tilak annonce « from 45 to 60 days ». Son chiffre est
-donc confirmé *sans qu'on ait à le croire sur parole* — ce qui est exactement le
-régime voulu.
+### 2.2 L'aurore polaire — et une formulation qu'il a fallu corriger
+
+Une première rédaction de cette spec affirmait que l'aurore polaire « se calcule à
+50,9 jours, quand Tilak annonce 45 à 60 », et en concluait que son chiffre était
+« confirmé sans qu'on ait à le croire sur parole ». **C'était trop fort, et il faut
+le dire ici plutôt que le laisser passer.**
+
+La durée de l'aurore est **entièrement fonction du seuil crépusculaire adopté**, et
+ce seuil n'est pas une donnée de la nature : c'est une hypothèse. Tilak l'écrit
+lui-même (ch. III, p. 78) — « The exact duration of this morning or evening twilight
+is, however, still a matter of uncertainty » — puis nomme ses valeurs : environ 16°
+sous l'horizon en zone tropicale, « from 18° to 20° » aux hautes latitudes.
+
+Le calcul, mené sur **les trois seuils qu'il nomme** :
+
+| seuil | durée de l'aurore au pôle |
+|---|---|
+| −16° | 43,7 jours |
+| −18° | 50,9 jours |
+| −20° | 59,4 jours |
+
+Sa fourchette annoncée — « Dawn lasting from 45 to 60 days » — est donc **exactement
+l'image de sa propre fourchette de seuils**. Ce que la géométrie établit n'est pas
+une confirmation indépendante : c'est **d'où vient son chiffre**. Le résultat est
+plus intéressant que l'affirmation qu'il remplace, et il est vérifiable (contrôle 7
+de la Phase 0, éprouvé par l'échec).
+
+**Conséquence de rendu, et c'est pourquoi le point figure ici** : le seuil est un
+paramètre déclaré, sourcé et **commutable**, jamais une constante enfouie dans le
+code. Un chiffre d'aurore affiché sans son seuil serait une valeur doctrinale en dur
+— exactement ce que la règle 2 du dépôt frère interdit.
 
 ## 3. Données consommées / produites
 
@@ -163,7 +190,19 @@ polaire:
   # générateur puisse contrôler qu'on ne l'a pas dérivé de travers.
   latitude_deg: 90.0
   latitude_min_deg: 66.56
-  crepuscule_deg: -18.0          # seuil de la nuit astronomique — borne de l'aurore
+  # Le seuil crépusculaire n'est PAS une constante, et c'est le point sensible du
+  # bloc : la durée de l'aurore en dépend entièrement. Tilak l'écrit lui-même
+  # (ch. III, p. 78) : « The exact duration of this morning or evening twilight is,
+  # however, still a matter of uncertainty. » Il nomme trois valeurs — d'où une
+  # LISTE sourcée, jamais un scalaire nu qui ferait passer un choix pour un fait.
+  seuils_crepusculaires:
+    statut: academique
+    source: "tilak-arctic-home-ch3-p78"
+    defaut_deg: -18.0
+    valeurs:
+      - {deg: -16.0, note: "zone tropicale, selon Tilak"}
+      - {deg: -18.0, note: "hautes latitudes, borne basse de Tilak"}
+      - {deg: -20.0, note: "hautes latitudes, borne haute de Tilak"}
 
   # PAS de obliquite_deg ni de epoque_reference ici (Cmd 14) : tous deux sont
   # DÉJÀ déclarés dans `zodiaque:`. Le générateur les dérive vers le manifeste.
@@ -248,7 +287,8 @@ polaire:
 | G4 | tout `statut` ∈ {`etabli`, `suggere`, `academique`} | c'est lui qui commande le pointillé au rendu |
 | G5 | les quatre Yuga présents, en proportion exacte 4:3:2:1, somme == `manvantara_ans` | la roue est fausse sinon |
 | G6 | huit `caracteristiques`, quatre par `regime`, `id` uniques | les deux jeux de Tilak sont complets ou absents |
-| G7 | toute entrée `statut: etabli` porte une `source` non vide | rien n'est établi sans source (§VII) |
+| G7 | **toute** entrée portant un `statut` — `etabli`, `suggere` ou `academique` — porte une `source` non vide | rien n'est asserté sans source (§VII). La première rédaction ne visait que `etabli` : un scalaire conventionnel (`crepuscule_deg: -18.0`) passait dessous sans source, alors que toute la durée de l'aurore en dépendait |
+| G8 | aucun scalaire de premier niveau du bloc ne porte de valeur conventionnelle nue : une hypothèse se déclare en liste `statut`/`source`/`valeurs` | c'est la faute que G7 laissait passer, prise à sa racine |
 
 Chacun est **bloquant**, jamais un avertissement — même forme que la garde du bloc
 `maisons:` et que la garde inter-registres de la v0.2.5.
