@@ -1,13 +1,32 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-02] correction | `sources:` nu corrigé en `[]` sur deux fiches (suggestion Publication)
+
+Signalement du rapport quotidien Publication (`veille-referencement-investigation-08`,
+2026-08-31, §1) collé par Sidy dans une session d'INTÉGRATION : `sources:` présent
+mais vide au lieu de `[]` (règle du Sceau Recteur) sur
+[[doctrinal/symboles/asma-al-husna]] et [[doctrinal/symboles/ilm-al-huruf]].
+Vérifié à la ligne, corrigé, `updated:` remonté. Aucun autre champ touché.
+`verifier-invariants.py` : 725 fiches, 0 erreur, 0 avertissement. Graphe
+régénéré : 519 nœuds, 1768 arêtes, 139 avertissements non bloquants (inchangé).
+
+Le même rapport signalait deux liens « non résolus » sur
+[[doctrinal/symboles/atma]] (`jivatma`, `buddhi`) : fausse alerte — les deux
+fiches existent et sont correctement liées, confirmé par la sortie complète de
+`generer-cartographie.py --verifier`. Aucune correction nécessaire.
+
+Détail complet (deux rapports Publication traités, format Symptôme/Diagnostic/
+Résolution) : [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-09-02]`
+« Deux rapports Publication collés par Sidy depuis Discord ».
 
 ## [2026-09-01] correction d'étanchéité | Liens inter-circuits (doctrinal/ → hermeneutique/) supprimés
 

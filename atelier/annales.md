@@ -10,6 +10,43 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] correctif | Deux rapports Publication collés par Sidy — un défaut réel, un lien mort fabulé
+
+Suite de l'entrée précédente (même jour) : Sidy a collé dans la session les
+deux rapports quotidiens Publication (`veille-referencement-investigation-08`)
+du 2026-08-31 et du 2026-09-01, faute d'archive au dépôt pour ce job (`INF-15`).
+
+1. **Défaut réel corrigé** : `sources:` nu (YAML `null`) au lieu de `[]` sur
+   `doctrinal/symboles/asma-al-husna.md` et `doctrinal/symboles/ilm-al-huruf.md`
+   — violation du Sceau Recteur, non détectable par `verifier-invariants.py`
+   (contrôle sémantique, pas syntaxique). Corrigé, `updated:` remonté. Entrée
+   miroir dans `doctrinal/annales.md` (fiches doctrinales touchées).
+2. **Fausse alerte close** : deux « liens non résolus » signalés sur
+   `doctrinal/symboles/atma.md` (`jivatma`, `buddhi`) — les deux fiches
+   existent, correctement liées ; confirmé par la sortie complète de
+   `generer-cartographie.py --verifier`, qui ne les cite pas. Deuxième
+   fabulation narrative du jour (après le « script détecteur manquant » de
+   Studio) — les deux mandats partagent la même fenêtre de risque depuis que
+   la résolution de wikilink n'est plus systématiquement citée verbatim d'un
+   script déterministe pour ce point précis.
+3. **Hors de portée, signalé** : trois recommandations de sourcing
+   (`awrad-ibn-arabi.md`, `jesus-and-enoch-in-ibn-arabi.md`,
+   `shams-al-maarif.md`, PDF donnés présents dans `raw/`) — `raw/` est
+   intégralement exclu de git, cette session ne peut ni confirmer ni infirmer.
+   Fiches inchangées, vérification humaine du texte primaire requise.
+4. **Rapport du 2026-09-01, partiellement corrompu au collage** : ses deux
+   points substantiels étaient déjà clos le jour même par d'autres passes
+   (`OUT-C2`, `PRO-C1`) ; ses items « 4 »/« 5 » sont un duplicata exact des
+   items de la veille — écartés comme artefact, non traités comme constats
+   nouveaux.
+
+Détail complet : [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-09-02]`
+« Deux rapports Publication collés par Sidy depuis Discord ».
+
+**Vérification structurelle** (§VII, brut) : `725 fichier(s) .md contrôlé(s) —
+périmètre du dépôt. 0 erreur(s), 0 avertissement(s).` Graphe régénéré : 519
+nœuds, 1768 arêtes, 139 avertissements non bloquants (inchangé).
+
 ## [2026-09-02] correctif | Reprise des rapports Studio/Publication des derniers jours
 
 Sur instruction de Sidy : reprise des rapports R&D des agents Studio et

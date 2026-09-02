@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 137,
+  "avertissements": 139,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -1555,7 +1555,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
       "lacunes_to_source": 0
     },
@@ -1719,7 +1719,7 @@
       "status": null,
       "tradition_cadre": null,
       "tags": [],
-      "updated": "2026-08-26",
+      "updated": "2026-09-02",
       "chemin": "atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md",
       "lacunes_to_source": 0
     },
@@ -1734,6 +1734,26 @@
       "tags": [],
       "updated": "2026-08-30",
       "chemin": "atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-09-01_capture-reference-sidyvision-com",
+      "label": "Capture de référence de sidyvision.com — sauvegarde préalable à INF-14",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "sauvegarde",
+        "netlify",
+        "sidyvision"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/infrastructure/2026-09-01_capture-reference-sidyvision-com.md",
       "lacunes_to_source": 0
     },
     {
@@ -2019,6 +2039,134 @@
       "tags": [],
       "updated": "2026-08-20",
       "chemin": "atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent",
+      "label": "INF-13 — scission du dépôt Instrument : intention",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "intent",
+        "instrument",
+        "git"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/plan",
+      "label": "INF-13 — scission du dépôt Instrument : plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "plan",
+        "instrument",
+        "git"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/spec",
+      "label": "INF-13 — scission du dépôt Instrument : spécification",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "spec",
+        "instrument",
+        "git"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/spec.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/intent",
+      "label": "INF-14 — hébergement du rendu sur sidyvision.com : intention",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "intent",
+        "instrument",
+        "hebergement"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/intent.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/plan",
+      "label": "INF-14 — hébergement du rendu sur sidyvision.com : plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "plan",
+        "instrument",
+        "hebergement",
+        "netlify"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/spec",
+      "label": "INF-14 — hébergement du rendu sur sidyvision.com : spécification",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "spec",
+        "instrument",
+        "hebergement",
+        "netlify"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/spec.md",
       "lacunes_to_source": 0
     },
     {
@@ -2308,6 +2456,123 @@
       ],
       "updated": "2026-07-01",
       "chemin": "atelier/rd/instrument/angles-de-l-espace.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/ins-02-axe-unifie/intent",
+      "label": "INS-02 — mode « axe unifié » et champ echelle : intention",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "instrument",
+        "chantier",
+        "intent"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/instrument/ins-02-axe-unifie/intent.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/ins-02-axe-unifie/plan",
+      "label": "INS-02 — mode « axe unifié » et champ echelle : plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "instrument",
+        "chantier",
+        "plan"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/instrument/ins-02-axe-unifie/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/ins-02-axe-unifie/spec",
+      "label": "INS-02 — mode « axe unifié » et champ echelle : spécification",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "instrument",
+        "chantier",
+        "spec"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/instrument/ins-02-axe-unifie/spec.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/ins-13-bandeau-zodiacal/intent",
+      "label": "INS-13 — bandeau zodiacal : intention",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "instrument",
+        "chantier",
+        "intent",
+        "zodiaque"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/instrument/ins-13-bandeau-zodiacal/intent.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/ins-13-bandeau-zodiacal/plan",
+      "label": "INS-13 — bandeau zodiacal : plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "instrument",
+        "chantier",
+        "plan",
+        "zodiaque"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/instrument/ins-13-bandeau-zodiacal/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/ins-13-bandeau-zodiacal/spec",
+      "label": "INS-13 — bandeau zodiacal : spécification",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "instrument",
+        "chantier",
+        "spec",
+        "zodiaque"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/instrument/ins-13-bandeau-zodiacal/spec.md",
       "lacunes_to_source": 0
     },
     {
@@ -2738,6 +3003,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "label": "Gabarit du triptyque de chantier — intent / spec / plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "gabarit",
+        "chantiers",
+        "methode"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/outillage/gabarit-triptyque-chantier.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/outillage/investigation-isolation-memoire-hermes",
       "label": "Investigation — Isolation mémoire Hermes par sub-agent",
       "circuit": "atelier",
@@ -2897,7 +3182,7 @@
         "chantiers",
         "pilotage"
       ],
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "chemin": "atelier/rd/registre-chantiers.md",
       "lacunes_to_source": 0
     },
@@ -7862,7 +8147,7 @@
         "dhikr",
         "al-buni"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-02",
       "chemin": "doctrinal/symboles/asma-al-husna.md",
       "lacunes_to_source": 0
     },
@@ -8412,7 +8697,7 @@
         "cosmologie",
         "al-buni"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-09-02",
       "chemin": "doctrinal/symboles/ilm-al-huruf.md",
       "lacunes_to_source": 0
     },
@@ -11031,6 +11316,13 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/infrastructure/2026-09-01_capture-reference-sidyvision-com",
+      "target": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/plan",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
@@ -11096,6 +11388,62 @@
     {
       "source": "atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes",
       "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent",
+      "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/plan",
+      "target": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/spec",
+      "target": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/intent",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/intent",
+      "target": "atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/plan",
+      "target": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/spec",
+      "target": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/intent",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -11584,6 +11932,90 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/instrument/ins-02-axe-unifie/intent",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-02-axe-unifie/intent",
+      "target": "atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-02-axe-unifie/intent",
+      "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-02-axe-unifie/plan",
+      "target": "atelier/rd/instrument/ins-02-axe-unifie/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-02-axe-unifie/spec",
+      "target": "atelier/rd/instrument/ins-02-axe-unifie/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-02-axe-unifie/spec",
+      "target": "atelier/rd/outillage/spec-generateur-manifeste",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-13-bandeau-zodiacal/intent",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-13-bandeau-zodiacal/intent",
+      "target": "atelier/rd/instrument/spec-anneau-zodiacal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-13-bandeau-zodiacal/intent",
+      "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-13-bandeau-zodiacal/plan",
+      "target": "atelier/rd/instrument/ins-13-bandeau-zodiacal/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-13-bandeau-zodiacal/spec",
+      "target": "atelier/rd/instrument/spec-anneau-zodiacal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-13-bandeau-zodiacal/spec",
+      "target": "atelier/rd/instrument/ins-13-bandeau-zodiacal/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/instrument/instrument-feuille-de-route-v2",
       "target": "atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16",
       "champ": "links",
@@ -12013,6 +12445,13 @@
     {
       "source": "atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument",
       "target": "doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "target": "atelier/rd/registre-chantiers",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"

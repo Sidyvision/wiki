@@ -10,8 +10,8 @@ tags:
 - cosmologie
 - al-buni
 created: 2026-06-02
-updated: 2026-06-11
-sources:
+updated: 2026-09-02
+sources: []
 sources_count: 0
 cross_links:
 - '[[ahmad-al-buni]]'

@@ -29,6 +29,131 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-02] Deux rapports Publication collés par Sidy depuis Discord — un défaut réel corrigé, un lien mort fabulé, une vérification hors de portée
+
+Suite de l'entrée du même jour ci-dessous : Sidy a collé directement dans la
+session les deux rapports quotidiens Publication (`veille-referencement-
+investigation-08`, job `ad3152b237bb`) du 2026-08-31 et du 2026-09-01, faute
+d'archive au dépôt pour ce job (point 3 de l'entrée précédente, `INF-15`).
+Traitement fiche par fiche.
+
+### 1. `sources:` nu au lieu de `[]` — défaut réel, corrigé sur deux fiches
+
+- **Symptôme** : le rapport du 2026-08-31 (§1, « signaux sémantiques »)
+  signalait `doctrinal/symboles/asma-al-husna.md` et
+  `doctrinal/symboles/ilm-al-huruf.md` : `sources:` présent mais vide au lieu
+  de `[]`. Vérifié à la ligne : les deux fiches portaient bien `sources:` suivi
+  d'aucune valeur (YAML `null`), et non `sources: []`.
+- **Diagnostic** : violation directe de la règle du Sceau Recteur
+  (`doctrinal/CLAUDE.md`, et règle transversale CLAUDE.md racine §IV) —
+  « liste vide = `[]`, jamais » de valeur nue. `verifier-invariants.py` ne
+  l'attrape pas (contrôle sémantique, pas syntaxique — la clé existe, sa
+  valeur est un YAML valide). C'est exactement le type d'anomalie que le
+  mandat Publication §A est chargé de trouver au-delà du contrôle mécanique.
+- **Résolution** : `sources: []` sur les deux fiches, `updated:` remonté
+  (Cmd 8). `verifier-invariants.py` : 725 fiches, `0 erreur(s), 0
+  avertissement(s)` après correction. Graphe régénéré (règle du pôle rd/,
+  toute session qui modifie `doctrinal/` régénère `graphe-cartographie.json`) :
+  519 nœuds, 1768 arêtes, 139 avertissements non bloquants — inchangé, ce
+  défaut n'était pas de ceux que le graphe détecte.
+- **Compréhension tirée** : le mandat Publication §A trouve exactement ce
+  pour quoi il a été ouvert le 2026-08-24 — un défaut de frontmatter que
+  `verifier-invariants.py` ne parse pas sémantiquement. La suggestion était
+  juste et actionnable telle quelle.
+- **Statut** : `resolu`.
+
+### 2. « Lien non résolu » `atma.md → jivatma/buddhi` — fausse alerte, deuxième occurrence du motif du jour
+
+- **Symptôme** : le rapport du 2026-08-31 (§1, `[C1]`) signalait deux liens non
+  résolus dans `doctrinal/symboles/atma.md` : `[[doctrinal/symboles/jivatma]]`
+  et `[[doctrinal/symboles/buddhi]]`.
+- **Diagnostic** : les deux fichiers existent (`doctrinal/symboles/jivatma.md`,
+  `doctrinal/symboles/buddhi.md`), correctement wikilinkés en frontmatter et
+  en corps. `generer-cartographie.py --verifier --rapport` (sortie complète,
+  pas seulement le compte) ne cite ni `atma`, ni `jivatma`, ni `buddhi` parmi
+  ses 89 liens morts. Le rapport Publication a affirmé une erreur qu'aucun
+  contrôle déterministe ne reproduit.
+- **Résolution** : aucune action sur les fiches (rien n'y est cassé). Fausse
+  alerte consignée.
+- **Compréhension tirée** : même famille que le point 2 de l'entrée
+  précédente (« script détecteur manquant », rapport Studio du 2026-08-31,
+  même journée) — un second agent, le même jour, a fabulé une résolution de
+  lien. Les deux mandats partagent la même fenêtre de risque : au 2026-08-24,
+  le contrôle `verifier-invariants.py` a été retiré du volet Studio et confié
+  entièrement au mandat Publication §A, qui l'exécute désormais **narrativement
+  en partie** (« signaux sémantiques » au-delà du script cité verbatim) plutôt
+  que par script déterministe pour cette classe de contrôle précise (résolution
+  de wikilink). Une piste à consigner pour Sidy : la résolution de lien est
+  déjà mécanisée par `generer-cartographie.py` — le mandat Publication §A
+  gagnerait à citer sa sortie verbatim pour ce point, comme il le fait déjà
+  pour `verifier-invariants.py`, plutôt que de la reconstituer par lecture.
+- **Statut** : `resolu` (fausse alerte close).
+
+### 3. Sources candidates en `raw/` — hors de portée mécanique de cette session
+
+- **Symptôme** : le rapport du 2026-08-31 (§2) recommande de faire passer
+  `sources_count` à 1 sur `doctrinal/sources/awrad-ibn-arabi.md`,
+  `doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md` et
+  `doctrinal/sources/shams-al-maarif.md`, chacune donnée comme correspondant à
+  un PDF nommément présent dans `raw/`.
+- **Diagnostic** : `raw/` est intégralement exclu de git (`.gitignore` :
+  `/raw/*`, seul `raw/assets/.gitkeep` suivi) — ce dépôt distant ne clone que
+  ce que git suit. Cette session ne peut donc ni confirmer ni infirmer la
+  présence des trois PDF cités : ce n'est pas une absence constatée, c'est une
+  question à laquelle cet environnement ne peut pas répondre. Seule une
+  session avec accès au disque réel du serveur (ou Sidy directement) le peut.
+  Distinct, en tout état de cause, de la levée du `to-source` elle-même : le
+  protocole (§VII racine, discipline des sources, point 2) exige la
+  vérification du **texte primaire** par Sidy, pas seulement la constatation
+  qu'un fichier existe — la présence du PDF est un préalable mécanique, non
+  la vérification elle-même.
+- **Résolution** : aucune — hors périmètre. Les trois fiches restent
+  `sources: [], sources_count: 0`, inchangées.
+- **Compréhension tirée** : recoupe le point 3 de l'entrée précédente
+  (`INF-15`) — sans archive ni accès serveur, une session d'INTÉGRATION
+  distante peut lire et qualifier les suggestions Publication, mais pas
+  vérifier tout ce qu'elles avancent sur `raw/`.
+- **Liens** : `doctrinal/sources/awrad-ibn-arabi.md` ;
+  `doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md` ;
+  `doctrinal/sources/shams-al-maarif.md`.
+- **Statut** : `ouvert` — vérification humaine du texte primaire requise
+  (Sidy, ou session avec accès serveur).
+
+### 4. Rapport du 2026-09-01 — une alerte déjà close le jour même, et un collage visiblement corrompu
+
+- **Symptôme** : §1 du rapport du 2026-09-01 cite les 210 erreurs de
+  `verifier-invariants.py` d'avant le correctif OUT-C2 (même jour) et
+  signale `hermeneutique/annales.md` : `updated: 2026-08-30` antérieur à sa
+  dernière entrée. §2 s'interrompt en milieu de phrase à l'item 3
+  (`doctrinal/autorites/ibn-qayyim.md`) et reprend avec des items numérotés
+  « 4 » et « 5 » strictement identiques, caractère pour caractère, aux items 3
+  à 5 du rapport de la veille (`shams-al-maarif.md`, `asma-al-husna.md`,
+  `ilm-al-huruf.md`).
+- **Diagnostic** : l'alerte `hermeneutique/annales.md` était déjà résolue le
+  2026-09-01 même par une passe distincte (`PRO-C1`, registre des chantiers) —
+  vérifié : `updated: 2026-09-01` désormais, conforme. Les 210 erreurs
+  relèvent du même défaut que `OUT-C2` (venv/`raw/` non exclus), clos le jour
+  même. Les items « 4 »/« 5 » ne peuvent pas être des constats du 2026-09-01 :
+  un duplicata exact, espaces et tirets compris, d'un rapport de la veille
+  n'est pas une coïncidence d'investigation — c'est un artefact de collage
+  (deux messages Discord fusionnés en un seul copier-coller) ou un défaut du
+  job cron lui-même. Cette session ne peut pas trancher lequel : elle n'a vu
+  que le texte collé, pas Discord.
+- **Résolution** : aucune action requise sur le dépôt — les deux points
+  substantiels du rapport étaient déjà clos. Les items « 4 »/« 5 » ne sont
+  **pas** traités comme des constats valides pour le 2026-09-01 : ce sont les
+  mêmes fiches, déjà traitées au point 1/3 ci-dessus depuis le rapport de la
+  veille.
+- **Compréhension tirée** : sans archive mécanique (point 3 de l'entrée
+  précédente), un rapport collé à la main n'est vérifiable ni dans son
+  intégrité ni dans sa datation — un rapport qu'on ne peut pas confronter à sa
+  propre source n'est pas mieux qu'un rapport qu'on n'a pas vu échouer
+  (§VII racine, Épreuve des contrôles). Renforce plutôt qu'affaiblit le
+  besoin d'une archive `monitoring-archive/` étendue au profil `publication`.
+- **Liens** : `[2026-09-01]` #1 de ce registre (OUT-C2) ; `PRO-C1`, registre
+  des chantiers ; `hermeneutique/annales.md`.
+- **Statut** : `resolu` (rien à faire — déjà clos ailleurs, duplicata écarté).
+
 ## [2026-09-02] Reprise des rapports Studio/Publication des derniers jours — un écart réel corrigé, une fausse alerte de script, un angle mort d'archivage signalé
 
 Passe d'INTÉGRATION sur instruction de Sidy : reprendre les rapports R&D des
