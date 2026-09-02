@@ -28,6 +28,8 @@ Détail complet (deux rapports Publication traités, format Symptôme/Diagnostic
 Résolution) : [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-09-02]`
 « Deux rapports Publication collés par Sidy depuis Discord ».
 
+- **Commit** : 2910adf
+
 ## [2026-09-01] correction d'étanchéité | Liens inter-circuits (doctrinal/ → hermeneutique/) supprimés
 
 **Régression détectée et corrigée.** Trois fichiers contenaient des wikilinks pointant de `doctrinal/` vers `hermeneutique/`, violant la règle absolue (CLAUDE.md racine §VI) : « Aucune fiche doctrinale, y compris de discernement, ne pointe vers ce circuit. »

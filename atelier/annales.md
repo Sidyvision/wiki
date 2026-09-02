@@ -47,6 +47,8 @@ Détail complet : [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-09-0
 périmètre du dépôt. 0 erreur(s), 0 avertissement(s).` Graphe régénéré : 519
 nœuds, 1768 arêtes, 139 avertissements non bloquants (inchangé).
 
+- **Commit** : 2910adf
+
 ## [2026-09-02] correctif | Reprise des rapports Studio/Publication des derniers jours
 
 Sur instruction de Sidy : reprise des rapports R&D des agents Studio et
