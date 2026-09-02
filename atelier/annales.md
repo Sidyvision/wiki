@@ -52,6 +52,8 @@ périmètre du dépôt. 0 erreur(s), 0 avertissement(s).`
 avertissements non bloquants (inchangé par cette passe, hors périmètre de la
 consigne).
 
+- **Commit** : 79b253b
+
 ## [2026-09-01] epreuve | Les quatre contrôles du jour, éprouvés par leur échec
 
 Neuvième et dernière passe. Sidy verse au protocole la règle dégagée à la passe
