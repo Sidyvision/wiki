@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 139,
+  "avertissements": 133,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -1450,7 +1450,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-08-30",
+      "updated": "2026-09-02",
       "chemin": "atelier/rd/cahiers/journal-optimisations.md",
       "lacunes_to_source": 0
     },
@@ -1899,6 +1899,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "label": "Infrastructure — Cartographie de routing (hardware, software, canaux d'entrée/sortie)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "routing",
+        "hardware",
+        "software",
+        "cartographie",
+        "points-fragiles"
+      ],
+      "updated": "2026-09-01",
+      "chemin": "atelier/rd/infrastructure/cartographie-routing-infrastructure.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/claude-code-health-check-2026-08-11",
       "label": "Infrastructure — Audit de santé Claude Code (/doctor, 2026-08-11)",
       "circuit": "atelier",
@@ -2186,7 +2207,7 @@
         "omniroute",
         "serveur"
       ],
-      "updated": "2026-08-11",
+      "updated": "2026-09-01",
       "chemin": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11.md",
       "lacunes_to_source": 0
     },
@@ -2223,8 +2244,27 @@
         "hermes",
         "archive"
       ],
-      "updated": "2026-08-19",
+      "updated": "2026-09-02",
       "chemin": "atelier/rd/infrastructure/monitoring-archive-charte.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/monitoring-archive/registre-traitement",
+      "label": "Registre de traitement des rapports quotidiens (Studio/Publication)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "meta",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "monitoring",
+        "registre"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "atelier/rd/infrastructure/monitoring-archive/registre-traitement.md",
       "lacunes_to_source": 0
     },
     {
@@ -2573,6 +2613,70 @@
       ],
       "updated": "2026-09-01",
       "chemin": "atelier/rd/instrument/ins-13-bandeau-zodiacal/spec.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "label": "INS-15 — situation polaire, mode cosmologique de l'Instrument : intention",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "instrument",
+        "chantier",
+        "intent",
+        "polaire",
+        "cycles",
+        "tilak"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "atelier/rd/instrument/ins-15-situation-polaire/intent.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/ins-15-situation-polaire/plan",
+      "label": "INS-15 — situation polaire, mode cosmologique de l'Instrument : plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "instrument",
+        "chantier",
+        "plan",
+        "polaire"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "atelier/rd/instrument/ins-15-situation-polaire/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/instrument/ins-15-situation-polaire/spec",
+      "label": "INS-15 — situation polaire, mode cosmologique de l'Instrument : spécification",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "projet",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "instrument",
+        "chantier",
+        "spec",
+        "polaire",
+        "cycles",
+        "tilak"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "atelier/rd/instrument/ins-15-situation-polaire/spec.md",
       "lacunes_to_source": 0
     },
     {
@@ -2977,7 +3081,7 @@
         "scripts",
         "verification"
       ],
-      "updated": "2026-09-01",
+      "updated": "2026-09-02",
       "chemin": "atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe.md",
       "lacunes_to_source": 0
     },
@@ -3152,6 +3256,26 @@
       ],
       "updated": "2026-08-11",
       "chemin": "atelier/rd/outillage/spec-generer-cartographie-tolerant.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/spec-ocr-scan-vers-markdown",
+      "label": "Spécification — Chaîne OCR scan vers Markdown découpé par chapitre",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "outillage",
+        "ocr",
+        "pdf",
+        "numerisation",
+        "bibliotheque"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "atelier/rd/outillage/spec-ocr-scan-vers-markdown.md",
       "lacunes_to_source": 0
     },
     {
@@ -7847,7 +7971,7 @@
         "philologie",
         "academique"
       ],
-      "updated": "2026-07-14",
+      "updated": "2026-09-02",
       "chemin": "doctrinal/sources/tilak-origine-polaire-tradition-vedique.md",
       "lacunes_to_source": 0
     },
@@ -11365,6 +11489,104 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/synchro-obsidian-working-copy-github",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/infrastructure-ssh-statu-quo",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/configuration-hermex-webui-2026-08-23",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/infrastructure/monitoring-archive-charte",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/infrastructure/claude-code-health-check-2026-08-11",
       "target": "atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11",
       "champ": "links",
@@ -11449,6 +11671,13 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
+      "target": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/infrastructure/infrastructure-ssh-statu-quo",
       "target": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
       "champ": "links",
@@ -11471,6 +11700,20 @@
     },
     {
       "source": "atelier/rd/infrastructure/monitoring-archive-charte",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/monitoring-archive/registre-traitement",
+      "target": "atelier/rd/infrastructure/monitoring-archive-charte",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/monitoring-archive/registre-traitement",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
       "nature": "lien",
@@ -12016,6 +12259,111 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "target": "atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "target": "atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "target": "doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "target": "doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "target": "doctrinal/symboles/manvantara",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "target": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/plan",
+      "target": "atelier/rd/instrument/ins-15-situation-polaire/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/plan",
+      "target": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/spec",
+      "target": "atelier/rd/instrument/ins-15-situation-polaire/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/spec",
+      "target": "atelier/rd/outillage/spec-generateur-manifeste",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/spec",
+      "target": "atelier/rd/instrument/spec-anneau-zodiacal",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/spec",
+      "target": "doctrinal/symboles/manvantara",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/instrument/ins-15-situation-polaire/spec",
+      "target": "doctrinal/sources/guenon-roi-du-monde-ch10",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/instrument/instrument-feuille-de-route-v2",
       "target": "atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16",
       "champ": "links",
@@ -12508,6 +12856,20 @@
     {
       "source": "atelier/rd/outillage/spec-generer-cartographie-tolerant",
       "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/spec-ocr-scan-vers-markdown",
+      "target": "atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/spec-ocr-scan-vers-markdown",
+      "target": "atelier/rd/bibliotheque/catalogue-bibliotheque",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"

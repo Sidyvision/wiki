@@ -135,9 +135,11 @@ qui ne correspondait jamais, la même faute reproduite dans du code neuf).
 4. **Verdicts doctrinaux, aucun n'appartient à la machine** : Balance polaire ↔
    Balance zodiacale ; sapta-ṛkṣa ↔ sept Aqtâb ; ouverture d'un chantier `DOC-` pour
    l'ingest des deux ouvrages de Tilak, dont la matière intégrale est au sas.
-5. **L'amendement de la clause de lecture lourde** (§I du protocole racine), rendu en
-   session le 2026-09-02 et **pas encore poussé sur `main`** : à porter au protocole,
-   sans quoi le disque continuera de dire l'inverse de ce qui a été appliqué.
+5. **Rien à porter au protocole** : la clause de lecture lourde était réputée non
+   poussée, mais vérification faite elle est bien sur `main` depuis le 2026-09-01
+   (`89f5b51`, §I, « Clôture économique PRODUCTION/INTÉGRATION — levée »). C'était la
+   session locale qui n'avait pas tiré. Aucune action ; le point est clos et laissé
+   ici pour que le doute ne se rouvre pas.
 
 ## Journalisation
 

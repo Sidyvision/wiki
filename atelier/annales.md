@@ -70,7 +70,7 @@ dit encore l'inverse de ce qui a été appliqué. Porté au `plan.md` comme poin
 - **En attente de Sidy** : visa du `plan.md` ; le refus d'ouverture sans manifeste, qui
   tranche *contre* le précédent du repli ; l'ouverture d'un chantier `DOC-` pour
   l'ingest des deux Tilak, dont la matière intégrale est au sas
-- **Commit** : eebb25d
+- **Commit** : 31cca25
 
 ---
 
@@ -202,6 +202,56 @@ consigne).
 
 - **Commit** : 79b253b
 
+## [2026-09-02] outillage | Chaîne OCR versée en `rd/outillage/`, deux Tilak convertis au sas
+
+Sidy demande la conversion en Markdown de deux PDF de `raw/`, puis — la conversion
+faite — le rangement du script en outillage R&D et un rapport sur ce qui peut servir
+aux missions suivantes. Les deux temps sont consignés ici.
+
+**Ce qui a été converti.** `raw/orionortheantiqu021979mbp.pdf` = *The Orion, or
+Researches into the Antiquity of the Vedas* (Tilak, 1893, 237 p.) ;
+`raw/9566.pdf` = *The Arctic Home in the Vedas* (Tilak, 1903, 544 p.). Le second
+est **l'original anglais de l'ouvrage dont le dépôt possédait déjà** la table des
+matières et l'index de la traduction Arché 1979
+(`doctrinal/sources/transcription-index-tilak-origine-polaire.md`). Cette pièce
+préexistante n'a pas servi d'illustration : elle a servi de **juge du découpage** —
+les 13 chapitres détectés par le script y correspondent un à un, et c'est cette
+correspondance, non la sortie de la machine, qui autorise à nommer les fichiers par
+leurs titres réels.
+
+**Deux constats de méthode.** D'abord, le premier PDF *portait* une couche texte
+(LuraDocument, 2006) — inutilisable : « Prajapatit=Yaj Da », « Bevayana ». Un OCR
+neuf est nettement plus fidèle ; une couche texte présente n'est pas une couche
+texte utilisable, et trois minutes de comparaison d'échantillon le montrent. Ensuite,
+le second n'en portait aucune (scan pur). Les deux cas relèvent de la même chaîne.
+
+**Ce qui est versé au dépôt.** Les deux scripts, écrits hors dépôt pendant la
+session, sont rangés en `rd/outillage/` (`ocr-scan-vers-markdown.sh`,
+`decouper-ouvrage-chapitres.py`) avec leur spécification
+[[atelier/rd/outillage/spec-ocr-scan-vers-markdown]]. Un **contrôle d'intégrité**
+leur a été ajouté au passage — il n'existait pas dans la version de session, où la
+vérification était faite à la main : le découpage doit restituer toutes les pages du
+source, aucune perdue ni dupliquée, sortie en code non nul sinon.
+
+**Le contrôle a été éprouvé par son échec** (§VII), et non seulement vu vert : sur
+une copie en bac à sable dont la fusion des sections d'index a été volontairement
+rendue fautive, il rapporte `540 pages reparties / 544 lues`, nomme les quatre pages
+perdues (508, 510, 514, 526) et sort en code 1. État sain restauré : `544 / 544`,
+code 0. Le découpage rejoué depuis le nouvel emplacement rend par ailleurs un
+résultat identique à celui de la session (`diff` nul sur les chapitres 1, 9 et 13).
+
+**Où vit la sortie.** Au sas, `_inbox/conversions/`, avec un index de conversion par
+ouvrage portant la table de correspondance chapitre/pages PDF. Elle n'entre dans
+aucun circuit : c'est de la **sortie brute de machine, non relue**, dont les
+translittérations diacritées et le devanāgarī sont mal rendus. Elle sert à savoir où
+chercher, jamais à conclure (§VII) — même statut que l'instrument de repérage de
+`rd/bibliotheque/`. Chantier `BIB-03` ouvert en `attente-verdict` : le versement,
+sa destination et son éventuelle relecture relèvent de Sidy (Cmd 12).
+
+Journal des optimisations et registre des chantiers mis à jour dans la même passe ;
+le décompte du registre a été **recompté mécaniquement**, non estimé (48 lignes,
+10 en attente de verdict).
+
 ## [2026-09-01] archivage | Correctifs de la cartographie de routing + pause du cycle Choura (INF-09)
 
 Suite de l'entrée précédente, même jour. Deux passes distinctes.
@@ -270,56 +320,6 @@ fiche).
 contrôlés, 0 erreur, 0 avertissement.
 
 - **Commit** : 0617c79
-## [2026-09-02] outillage | Chaîne OCR versée en `rd/outillage/`, deux Tilak convertis au sas
-
-Sidy demande la conversion en Markdown de deux PDF de `raw/`, puis — la conversion
-faite — le rangement du script en outillage R&D et un rapport sur ce qui peut servir
-aux missions suivantes. Les deux temps sont consignés ici.
-
-**Ce qui a été converti.** `raw/orionortheantiqu021979mbp.pdf` = *The Orion, or
-Researches into the Antiquity of the Vedas* (Tilak, 1893, 237 p.) ;
-`raw/9566.pdf` = *The Arctic Home in the Vedas* (Tilak, 1903, 544 p.). Le second
-est **l'original anglais de l'ouvrage dont le dépôt possédait déjà** la table des
-matières et l'index de la traduction Arché 1979
-(`doctrinal/sources/transcription-index-tilak-origine-polaire.md`). Cette pièce
-préexistante n'a pas servi d'illustration : elle a servi de **juge du découpage** —
-les 13 chapitres détectés par le script y correspondent un à un, et c'est cette
-correspondance, non la sortie de la machine, qui autorise à nommer les fichiers par
-leurs titres réels.
-
-**Deux constats de méthode.** D'abord, le premier PDF *portait* une couche texte
-(LuraDocument, 2006) — inutilisable : « Prajapatit=Yaj Da », « Bevayana ». Un OCR
-neuf est nettement plus fidèle ; une couche texte présente n'est pas une couche
-texte utilisable, et trois minutes de comparaison d'échantillon le montrent. Ensuite,
-le second n'en portait aucune (scan pur). Les deux cas relèvent de la même chaîne.
-
-**Ce qui est versé au dépôt.** Les deux scripts, écrits hors dépôt pendant la
-session, sont rangés en `rd/outillage/` (`ocr-scan-vers-markdown.sh`,
-`decouper-ouvrage-chapitres.py`) avec leur spécification
-[[atelier/rd/outillage/spec-ocr-scan-vers-markdown]]. Un **contrôle d'intégrité**
-leur a été ajouté au passage — il n'existait pas dans la version de session, où la
-vérification était faite à la main : le découpage doit restituer toutes les pages du
-source, aucune perdue ni dupliquée, sortie en code non nul sinon.
-
-**Le contrôle a été éprouvé par son échec** (§VII), et non seulement vu vert : sur
-une copie en bac à sable dont la fusion des sections d'index a été volontairement
-rendue fautive, il rapporte `540 pages reparties / 544 lues`, nomme les quatre pages
-perdues (508, 510, 514, 526) et sort en code 1. État sain restauré : `544 / 544`,
-code 0. Le découpage rejoué depuis le nouvel emplacement rend par ailleurs un
-résultat identique à celui de la session (`diff` nul sur les chapitres 1, 9 et 13).
-
-**Où vit la sortie.** Au sas, `_inbox/conversions/`, avec un index de conversion par
-ouvrage portant la table de correspondance chapitre/pages PDF. Elle n'entre dans
-aucun circuit : c'est de la **sortie brute de machine, non relue**, dont les
-translittérations diacritées et le devanāgarī sont mal rendus. Elle sert à savoir où
-chercher, jamais à conclure (§VII) — même statut que l'instrument de repérage de
-`rd/bibliotheque/`. Chantier `BIB-03` ouvert en `attente-verdict` : le versement,
-sa destination et son éventuelle relecture relèvent de Sidy (Cmd 12).
-
-Journal des optimisations et registre des chantiers mis à jour dans la même passe ;
-le décompte du registre a été **recompté mécaniquement**, non estimé (48 lignes,
-10 en attente de verdict).
-
 ## [2026-09-01] epreuve | Les quatre contrôles du jour, éprouvés par leur échec
 
 Neuvième et dernière passe. Sidy verse au protocole la règle dégagée à la passe

@@ -68,21 +68,27 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**48 chantiers ouverts** au 2026-09-02, plus 6 versés en §9 (clos ou caducs) et
+**50 chantiers ouverts** au 2026-09-02, plus 6 versés en §9 (clos ou caducs) et
 6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous
 modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
-Mis à jour le 2026-09-02 : ouverture de `BIB-03` (47 lignes en §1-7).
+Mis à jour le 2026-09-02 : ouverture de `BIB-03`, puis de `INS-15`.
+
+> **Note de recomptage (2026-09-02).** Deux sessions concurrentes ont porté deux
+> totaux différents sur cette ligne — 31/3/5/9 d'un côté, 30/3/5/10 de l'autre, tous
+> deux à 48. Ni l'un ni l'autre n'a été retenu : le tableau a été **recompté depuis
+> les lignes elles-mêmes**, statut par statut, conformément à la règle que cette
+> section énonce. Le compte exact est celui ci-dessous.
 
 | Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
 |---|---|---|---|---|---|
-| `INS` Instrument | 10 | — | 1 | 3 | **14** |
+| `INS` Instrument | 10 | — | 1 | 4 | **15** |
 | `INF` Infrastructure & agents | 7 | 3 | 1 | 3 | **14** |
 | `OUT` Outillage & scripts | 5 | — | 1 | — | **6** |
 | `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 2 | **5** |
 | `DOC` Doctrinal | 4 | — | — | 1 | **5** |
-| **Total** | RECOMPTE | RECOMPTE | RECOMPTE | RECOMPTE | RECOMPTE |
+| **Total** | **31** | **3** | **5** | **11** | **50** |
 
 **Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas

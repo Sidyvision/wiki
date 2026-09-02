@@ -128,23 +128,40 @@ Tilak, elle est `academique`, et elle s'affiche comme telle.
 - **L'ingest doctrinal de Tilak.** Voir la note ci-dessous : ce n'est plus une
   interdiction, c'est une **séparation de chantiers**.
 
-### Note sur la lecture lourde — verdict du 2026-09-02, non encore au protocole
+### Note sur la lecture lourde — la clôture est levée au protocole depuis le 2026-09-01
 
-Le §I du protocole racine pose « JAMAIS de lecture lourde ni de production de contenu
-côté intégration ». **Sidy a amendé cette clause pour ce chantier** (session du
-2026-09-02) : la contrainte de lecture lourde ne s'y applique pas.
+Sidy signale en session (2026-09-02) que la contrainte de lecture lourde ne s'applique
+pas à ce chantier, en précisant avoir amendé la clause « mais elle n'a pas encore été
+poussée sur `main` ».
 
-⚠ **L'amendement n'est pas encore poussé sur `main`.** Un lecteur à froid trouvera
-donc au disque un protocole qui dit l'inverse de ce qui a été appliqué ici. La
-mention est portée pour qu'il ne conclue pas à une infraction : le verdict est
-antérieur à l'écriture, c'est le texte du protocole qui est en retard.
+**Vérification faite au dépôt : l'amendement y est.** Il est arrivé sur `main` par
+`89f5b51`, daté du 2026-09-01, et le §I du protocole racine porte désormais la section
+« **Clôture économique PRODUCTION/INTÉGRATION — levée le 2026-09-01 (verdict Sidy)** ».
+La session locale ne l'avait simplement pas encore tiré. Aucun écart ne subsiste entre
+le disque et ce qui a été appliqué ici.
 
-Conséquence pratique : les chapitres de Tilak ont été lus, et non seulement cités. Ce
-qui reste hors périmètre n'est plus la *lecture* mais l'**ingest doctrinal** — la
-production des fiches `doctrinal/sources/` tirées des deux ouvrages intégraux. *Raison* :
-c'est un travail de circuit doctrinal, d'un autre ordre et d'un autre volume que la
-construction d'un module de rendu ; le mêler à INS-15 rendrait les deux illisibles.
-Il est signalé à Sidy comme chantier à ouvrir (`DOC-`), avec la matière déjà au sas.
+**Le motif est plus large que ce chantier, et il vaut d'être rapporté exactement.** La
+clôture ne reposait pas sur un principe mais sur un **fait de coût** : le poste
+INTÉGRATION était présumé facturé à l'usage, contre le forfait du poste PRODUCTION. Le
+fait a changé — l'authentification Claude Pro/OAuth fonctionne de nouveau pour l'outil
+CLI — et la règle tombe avec lui. Sidy, cité au protocole : « le coût seul justifiait
+la clôture ». La levée est **réversible de plein droit** (Cmd 10) : si l'accès
+redevenait facturé à l'usage, la clôture se rétablit d'elle-même.
+
+Ce que la levée **ne change pas**, et qui continue de s'appliquer ici : « scripter le
+déterministe, réserver le modèle au jugement » ; le sas `_inbox/` et les `UPDATES.md`
+restent la voie normale des lots produits côté PRODUCTION — la levée ouvre une voie
+**supplémentaire**, elle n'abolit pas la première ; et les Cmd 6 / Cmd 13 restent
+« pleins et entiers : pas d'écriture sans plan présenté, pas d'initiative autonome au
+long cours ».
+
+Conséquence pratique pour INS-15 : les chapitres de Tilak ont été **lus**, et non
+seulement cités. Ce qui reste hors périmètre n'est donc plus la *lecture* mais
+l'**ingest doctrinal** — la production des fiches `doctrinal/sources/` tirées des deux
+ouvrages intégraux. *Raison* : c'est un travail de circuit doctrinal, d'un autre ordre
+et d'un autre volume que la construction d'un module de rendu ; le mêler à INS-15
+rendrait les deux illisibles. Signalé à Sidy comme chantier à ouvrir (`DOC-`), la
+matière étant déjà au sas.
 
 ## Contraintes doctrinales
 
