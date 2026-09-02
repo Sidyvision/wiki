@@ -109,6 +109,7 @@ deux candidats naturels — l'un et l'autre nomment déjà les deux voies. **Ver
 - **Sas NON vidé** : les conversions sont la seule copie et **ne sont pas
   suivies par git** ; leur destination est une question ouverte (PRO-08)
 - **En attente de Sidy** : les liens de l'orpheline ; le sort des conversions
+- **Commit** : 47b03c5
 
 ---
 

@@ -45,6 +45,7 @@ signalé ; il se referme dès que PRO-08 est tranché.
 - **Modifié** : [[atelier/rd/registre-chantiers]] (DOC-06 `en-cours`, PRO-08
   ouvert, table recomptée : 52)
 - **En attente de Sidy** : destination et régime des Markdown de `raw/`
+- **Commit** : 47b03c5
 
 ---
 
