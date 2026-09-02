@@ -10,6 +10,71 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] rectification | « Atlantide et Hyperborée » était au dépôt — et la réserve prêtée à Guénon sur Tilak n'existe pas
+
+Sidy signale `raw/Formes traditionnelles et Cycles cosmiques | René Guénon`. C'était
+la pièce que le chantier INS-15 venait de déclarer « la seule du périmètre qui manque
+matériellement ». Elle ne manquait pas. Trois conséquences, dont une correction d'un
+fait porté au dépôt depuis le 2026-07-26.
+
+**1. La réserve attribuée à Guénon est fausse.** La fiche d'investigation du
+2026-07-26 porte que Guénon se réfère à Tilak « avec réserves sur la portée ». Le
+texte dit l'inverse (note 3) : « les trouver dans le **remarquable ouvrage** de
+B. G. Tilak, *The Arctic Home in the Veda*, qui semble malheureusement être resté
+complètement inconnu en Europe, sans doute parce que son auteur était un Hindou non
+occidentalisé ». Recommandation, non réserve — et le reproche vise le silence
+européen, pas l'ouvrage. La fiche fautive s'annonçait elle-même « reconstruction de
+mémoire de modèle » : c'est exactement le risque qu'elle signalait, réalisé.
+Rectifiée par encart daté, mention d'origine barrée et non effacée (Cmd 10).
+
+**2. L'objet demandé par Sidy est nommé par Guénon.** « **La terre où le soleil
+faisait le tour de l'horizon sans se coucher** devait être en effet située bien près
+du pôle, sinon au pôle même. » Le module ne repose donc plus sur la seule source
+`academique` : l'origine polaire est affirmée sans réserve — « nous disons qu'elle
+est polaire […] puisque cela est expressément affirmé dans le *Vêda* ».
+
+**3. Une seconde station, et elle est calculable.** « une région où le jour le plus
+long était double du jour le plus court » n'est pas une image mais une spécification
+géométrique : par symétrie annuelle, 16 h / 8 h, donc **49,07° N** — rapport vérifié
+à 2,0000. Contrôle 8 ajouté ; **9 contrôles passent, 9 tombent sous biais**. Le
+curseur de latitude cesse d'être un réglage libre : il devient un parcours entre deux
+stations données par la doctrine. ⚠ Le rendu ne dira pas *où* était cette région :
+Guénon ne la localise pas, et un parallèle n'est pas une adresse (Cmd 3).
+
+**4. Un mode, pas une thèse.** Note 2 : l'inclinaison de l'axe « n'aurait pas existé
+dès l'origine, mais serait une conséquence de […] la "chute de l'homme" ». Le rendu
+en tire une obliquité réglable jusqu'à 0 — à obliquité nulle, plus de saisons et le
+soleil sur l'horizon en permanence au pôle. Conséquence calculable, affichée
+`suggere` : Guénon rapporte en note sans trancher.
+
+**`to-source` NON levé.** Le texte est un clipping web (index-rene-guenon.org) ; le
+§VII exige la vérification sur exemplaire physique par Sidy. Le marqueur change de
+nature — « texte introuvable » devient « clipping à confronter » — il ne tombe pas.
+Précédent : la fiche Janus, même site, levée le 2026-08-30 sur confirmation de
+possession, pas autrement. **Question posée à Sidy dans la spec.**
+
+**Piège technique consigné.** Les noms de ce dossier `raw/` sont en Unicode
+**décomposé** (NFD : `Rene` + accent combinant) quand un chemin tapé l'est en composé
+(NFC) : l'accès littéral échoue sur « No such file or directory » sans rien dire de
+plus. Tout script visant ce dossier passera par `find`. Parent du Cmd 15 — l'Unicode
+qu'on ne voit pas, ici en nom de fichier.
+
+**Ce qui n'est pas fait, et qui appartient à Sidy** : aucune fiche
+`doctrinal/sources/` n'est créée pour cet article. L'Action ARCHIVAGE veut le plan
+présenté avant l'écriture (Cmd 6) — le plan est proposé, il n'est pas exécuté.
+
+- **Modifié** : [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]]
+  (encart de rectification, `updated`),
+  [[atelier/rd/instrument/ins-15-situation-polaire/spec]] (§2 bis neuf, bloc
+  `stations`, `obliquite_variable`),
+  [[atelier/rd/instrument/ins-15-situation-polaire/intent]]
+- **Proposé, non exécuté** : fiche `doctrinal/sources/guenon-atlantide-hyperboree`
+- **Hors dépôt** : contrôle 8 ajouté au vérificateur du bac à sable
+- **Commit** : cae4d28
+
+---
+
+
 ## [2026-09-02] rectification | INS-15 — l'aurore polaire ne confirme pas Tilak, elle montre d'où vient son chiffre
 
 **Ce qui avait été écrit, et qui était trop fort.** L'entrée d'ouverture d'INS-15

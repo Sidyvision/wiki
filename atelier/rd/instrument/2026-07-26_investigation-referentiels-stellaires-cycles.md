@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "none"
 tags: [instrument, gizeh, polaire-solaire, cycles, precession, zodiaque, manazil, phase-5, to-source]
 created: 2026-07-26
-updated: 2026-07-26
+updated: 2026-09-02
 sources: ["to-source"]
 links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence]]", "[[doctrinal/symboles/manvantara]]", "[[doctrinal/symboles/atlantide]]", "[[doctrinal/symboles/manazil-al-qamar]]", "[[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]]", "[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]"]
 ---
@@ -107,7 +107,8 @@ L'intuition « Balance » de Sidy correspond très exactement à un point guéno
 
 - *The Arctic Home in the Vedas* (1903) : caractéristiques polaires dans les hymnes
   védiques (aurores longues, jour/nuit de six mois) — appui de la thèse hyperboréenne.
-  Guénon s'y réfère (avec réserves sur la portée) dans « Atlantide et Hyperborée »
+  Guénon s'y réfère (~~avec réserves sur la portée~~ — **voir la rectification
+  ci-dessous**) dans « Atlantide et Hyperborée »
   (*Formes traditionnelles et cycles cosmiques* — recueil **déjà partiellement au
   dépôt** via « Le Tombeau d'Hermès »). `to-source`.
 - **Nuance** : le *premier* livre de Tilak s'appelle précisément… *The Orion* (1893).
@@ -119,6 +120,30 @@ L'intuition « Balance » de Sidy correspond très exactement à un point guéno
   connues* mais *quelle fonction elles remplissent* (repère principiel immuable vs
   horloge cyclique). Cette distinction fonctionnelle est peut-être le cœur du
   « quelque chose d'autre » (voir H1-H2).
+
+> ⚠ **Rectification du 2026-09-02, sur texte.** La mention « avec réserves sur la
+> portée » est **fausse**, et c'est exactement le risque que l'avertissement en tête
+> de cette fiche annonçait : elle a été écrite de mémoire de modèle, sans consulter
+> le texte. Le texte est au dépôt — `raw/Formes traditionnelles et Cycles cosmiques |
+> René Guénon/… 5.md`, article « Atlantide et Hyperborée » — et sa note 3 dit :
+>
+> > « Ceux qui voudraient avoir des références précises à cet égard pourraient les
+> > trouver dans le **remarquable ouvrage** de B. G. Tilak, *The Arctic Home in the
+> > Veda*, qui semble malheureusement être resté complètement inconnu en Europe, sans
+> > doute parce que son auteur était un Hindou non occidentalisé. »
+>
+> Ce n'est pas une réserve : c'est une recommandation, assortie d'une explication du
+> silence européen qui met en cause ce silence, non l'ouvrage. Le même article donne
+> en outre, sans réserve aucune, l'origine **polaire** de la tradition — « nous disons
+> qu'elle est polaire […] puisque cela est expressément affirmé dans le *Vêda* » —
+> et la phrase que le chantier INS-15 avait cherchée sans la trouver : « **La terre
+> où le soleil faisait le tour de l'horizon sans se coucher** devait être en effet
+> située bien près du pôle, sinon au pôle même. »
+>
+> `to-source` **non levé pour autant** : le texte est un clipping web
+> (index-rene-guenon.org), et la discipline du §VII veut la vérification sur
+> exemplaire physique par Sidy. La rectification porte sur ce que le texte disponible
+> dit — elle ne s'autorise pas à lever le marqueur.
 
 ### 1.5 Versant arabe et islamique du polaire (ancrage interne)
 

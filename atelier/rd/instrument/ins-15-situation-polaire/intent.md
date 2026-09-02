@@ -97,6 +97,18 @@ devenir **un fait visible** — le soleil est au-dessus de l'horizon six mois, a
 six mois. La demande de Sidy vise donc le lieu où la doctrine des deux voies et
 l'observation coïncident. C'est le cœur du module.
 
+**Ajout du 2026-09-02 — l'objet demandé est nommé par Guénon lui-même.** Sidy a
+signalé que *Formes traditionnelles et Cycles cosmiques* est au dépôt. L'article
+« Atlantide et Hyperborée » y porte, mot pour mot, ce que ce chantier devait figurer :
+
+> « **La terre où le soleil faisait le tour de l'horizon sans se coucher** devait
+> être en effet située bien près du pôle, sinon au pôle même »
+
+et il donne, dans la même phrase, une **seconde station calculable** — « une région
+où le jour le plus long était double du jour le plus court », soit 49,07° N. Le
+curseur de latitude cesse donc d'être un réglage libre : il devient un parcours entre
+**deux stations données par la doctrine**. Voir `spec.md` §2 bis.
+
 ⚠ **Réserve, et elle est stricte.** Que la doctrine des deux voies et le fait polaire
 coïncident *à cet endroit* est un rapprochement que **ni la machine ni ce chantier ne
 tranchent** (Cmd 3, Cmd 12). Le rendu figure la géométrie, et il figure la doctrine
@@ -207,6 +219,6 @@ Observable, en quatre points :
 |---|---|
 | **Le repli.** Le mode cosmologique s'ouvre-t-il sur données de repli si le manifeste ne résout pas, ou refuse-t-il de s'ouvrir ? | Tranché dans le `spec.md` (refus), **soumis à Sidy** car il inaugure un comportement que le rendu n'a pas |
 | **Balance polaire ↔ Balance zodiacale.** Guénon ouvre sans refermer ; un discernement est annoncé « en cours de rédaction » au dépôt | Sidy — verdict |
-| **« Atlantide et Hyperborée »** (Guénon citant Tilak « avec réserves sur la portée ») : **pas au dépôt** | `to-source` — c'est la seule pièce du périmètre qui manque matériellement |
+| **« Atlantide et Hyperborée »** : ~~pas au dépôt~~ — **il y est**, signalé par Sidy le 2026-09-02 (`raw/Formes traditionnelles et Cycles cosmiques \| René Guénon/`). Et la « réserve » que le dépôt prêtait à Guénon sur Tilak était **fausse** : il écrit « remarquable ouvrage » | Marqueur maintenu mais de nature changée : clipping web à confronter à l'exemplaire physique. **Question à Sidy** : possédez-vous le volume ? (précédent SSS, levé le 2026-08-30) |
 | **Sapta-ṛkṣa / sept Ṛṣis ↔ sept Aqtâb.** Septénaire stellaire contre septénaire planétaire : rapprochement « évident et dangereux », déjà signalé non instruit | Sidy — exigerait sa propre fiche `discernement` |
 | **Ouverture d'un chantier `DOC-` pour l'ingest de Tilak** (deux ouvrages intégraux au sas) | Sidy — décision d'ouverture |

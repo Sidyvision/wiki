@@ -168,6 +168,98 @@ paramètre déclaré, sourcé et **commutable**, jamais une constante enfouie da
 code. Un chiffre d'aurore affiché sans son seuil serait une valeur doctrinale en dur
 — exactement ce que la règle 2 du dépôt frère interdit.
 
+## 2 bis. « Atlantide et Hyperborée » — la pièce qu'on croyait manquante
+
+Le `to-source` le plus lourd de ce chantier portait sur cet article : Guénon citant
+Tilak, réputé **absent du dépôt**. Sidy l'a signalé le 2026-09-02 — il y est, dans
+`raw/Formes traditionnelles et Cycles cosmiques | René Guénon/`. Ce qu'il contient
+change trois choses.
+
+> **Note de chemin.** Les noms de fichiers de ce dossier sont en Unicode **décomposé**
+> (NFD : `Rene` + accent combinant), là où un chemin tapé à la main l'est en composé
+> (NFC). Un accès littéral échoue silencieusement avec « No such file or directory ».
+> Tout script qui visera ce dossier passera par `find`, jamais par un chemin en dur.
+> Parent du Cmd 15 : l'Unicode qui ne se voit pas, ici en nom de fichier.
+
+### 2bis.1 — La réserve attribuée à Guénon n'existe pas
+
+Le dépôt portait, depuis le 2026-07-26, que Guénon se réfère à Tilak « avec réserves
+sur la portée ». **C'est faux.** Note 3 de l'article :
+
+> « Ceux qui voudraient avoir des références précises à cet égard pourraient les
+> trouver dans le **remarquable ouvrage** de B. G. Tilak, *The Arctic Home in the
+> Veda*, qui semble malheureusement être resté complètement inconnu en Europe, sans
+> doute parce que son auteur était un Hindou non occidentalisé. »
+
+Recommandation, non réserve — et le reproche vise le silence européen, pas l'ouvrage.
+La fiche fautive était explicitement une « reconstruction de mémoire de modèle » ;
+elle est rectifiée en place, par encart daté, sans rien effacer.
+
+**Conséquence de rendu** : Tilak reste `academique` — son statut ne dépend pas de
+l'estime de Guénon — mais le rendu ne peut plus laisser entendre une défiance
+guénonienne qui n'est pas dans le texte.
+
+### 2bis.2 — La phrase que ce chantier cherchait, et elle est de Guénon
+
+> « **La terre où le soleil faisait le tour de l'horizon sans se coucher** devait
+> être en effet située bien près du pôle, sinon au pôle même »
+
+C'est, mot pour mot, l'objet que Sidy a demandé de figurer. Il n'est donc plus porté
+seulement par une source `academique` : il l'est par Guénon, sur le registre
+`traditionnel`, et adossé au *Vêda* — « nous disons qu'elle est polaire […] puisque
+cela est **expressément affirmé dans le Vêda** ».
+
+### 2bis.3 — Une seconde station, et elle est calculable
+
+> « il est dit aussi que, plus tard, les représentants de la tradition se
+> transportèrent en une région où **le jour le plus long était double du jour le plus
+> court** »
+
+Ce n'est pas une image : c'est une **spécification géométrique**. Par symétrie
+annuelle, le jour court vaut 24 h − le jour long ; la condition donne 16 h / 8 h,
+donc **une latitude unique : 49,07° N** (contrôle 8 de la Phase 0 — rapport vérifié
+à 2,0000, éprouvé par l'échec).
+
+L'Instrument reçoit donc **deux stations déclarées**, l'une et l'autre données par la
+doctrine et non choisies : le Pôle, et cette seconde région. Le curseur de latitude
+cesse d'être un réglage libre pour devenir un **parcours entre deux stations
+sourcées**.
+
+⚠ **Ce que le rendu n'affirmera pas** : *où* se trouvait cette région. Guénon ne la
+localise pas, et la latitude calculée ne désigne aucun lieu — un parallèle n'est pas
+une adresse. Toute identification géographique serait une correspondance née à
+l'écran (Cmd 3).
+
+### 2bis.4 — L'obliquité n'est peut-être pas originelle
+
+Note 2 du même article :
+
+> « Cette question paraît être liée à celle de **l'inclinaison de l'axe terrestre**,
+> inclinaison qui, d'après certaines données traditionnelles, **n'aurait pas existé
+> dès l'origine**, mais serait une conséquence de ce qui est désigné en langage
+> occidental comme la "chute de l'homme". »
+
+Le rendu en tire un **mode**, non une thèse : l'obliquité devient réglable jusqu'à 0.
+À obliquité nulle, la géométrie se dit d'elle-même — plus de saisons, le soleil au
+pôle **sur l'horizon en permanence**, équinoxe perpétuel. C'est une conséquence
+calculable, pas une affirmation cosmologique.
+
+Statut : **`suggere`**, pointillé + 🔍. Guénon rapporte (« paraît être liée »,
+« d'après certaines données traditionnelles », « n'aurait pas existé ») sans trancher,
+en note de bas de page. Le rendu ne tranchera pas davantage.
+
+### 2bis.5 — Ce qui reste `to-source`, et pourquoi
+
+Le texte est au dépôt, mais c'est un **clipping web** (index-rene-guenon.org). La
+discipline du §VII veut la vérification sur exemplaire physique **par Sidy** : le
+marqueur n'est donc **pas levé** par la présente découverte. Ce qui change est que la
+matière est désormais *lisible et citable*, non plus absente. Précédent exact : la
+fiche Janus (SSS ch. XXXVII), clipping du même site, `to-source` levé le 2026-08-30
+par confirmation de Sidy qu'il possède le volume — pas autrement.
+
+**Question à Sidy** : possédez-vous *Formes traditionnelles et Cycles cosmiques* en
+exemplaire physique ? Si oui, le marqueur se lève comme il s'est levé pour SSS.
+
 ## 3. Données consommées / produites
 
 Sens unique **`dépôt → manifeste → interface`** (§VII). L'interface ne réécrit jamais
@@ -190,6 +282,31 @@ polaire:
   # générateur puisse contrôler qu'on ne l'a pas dérivé de travers.
   latitude_deg: 90.0
   latitude_min_deg: 66.56
+
+  # DEUX STATIONS DÉCLARÉES, l'une et l'autre données par la doctrine — jamais
+  # choisies pour la commodité du rendu. Voir §2 bis.3.
+  stations:
+    - id: pole
+      lat_deg: 90.0
+      statut: etabli
+      source: "guenon-atlantide-hyperboree"
+      label: "Le Pôle — « la terre où le soleil faisait le tour de l'horizon sans se coucher »"
+    - id: jour-double
+      lat_deg: 49.07
+      statut: etabli
+      source: "guenon-atlantide-hyperboree"
+      label: "« une région où le jour le plus long était double du jour le plus court »"
+      note: "Latitude DÉRIVÉE de la condition 16 h / 8 h, non citée par Guénon.
+             Elle ne désigne aucun lieu : un parallèle n'est pas une adresse."
+
+  # L'obliquité vient de `zodiaque:` (Cmd 14) ; ce bloc n'en déclare que la
+  # VARIABILITÉ de rendu, et son motif. Voir §2 bis.4.
+  obliquite_variable:
+    statut: suggere
+    source: "guenon-atlantide-hyperboree"
+    min_deg: 0.0
+    note: "Guénon, note 2 : l'inclinaison de l'axe « n'aurait pas existé dès
+           l'origine ». Rapporté sans être tranché — mode de rendu, pas thèse." 
   # Le seuil crépusculaire n'est PAS une constante, et c'est le point sensible du
   # bloc : la durée de l'aurore en dépend entièrement. Tilak l'écrit lui-même
   # (ch. III, p. 78) : « The exact duration of this morning or evening twilight is,
@@ -325,7 +442,7 @@ Chacun est **bloquant**, jamais un avertissement — même forme que la garde du
 
 | marqueur | source primaire à atteindre |
 |---|---|
-| Guénon citant Tilak « avec réserves sur la portée » | « Atlantide et Hyperborée », in *Formes traditionnelles et cycles cosmiques* — **pas au dépôt** ; le recueil n'y est que partiellement présent (via « Le Tombeau d'Hermès ») |
+| « Atlantide et Hyperborée » — ~~pas au dépôt~~ **il y est** (signalé par Sidy, 2026-09-02) | Le recueil entier est en `raw/Formes traditionnelles et Cycles cosmiques \| René Guénon/`. Le marqueur reste posé, mais il a changé de nature : ce n'est plus « texte introuvable », c'est « clipping web à confronter à l'exemplaire physique ». Voir §2 bis.5 — la réserve attribuée à Guénon, elle, était **fausse** et est rectifiée |
 | Rapport Balance polaire ↔ Balance zodiacale | Guénon l'ouvre sans le refermer (*Roi du Monde* ch. X) ; discernement annoncé « en cours de rédaction » au dépôt |
 | Sapta-ṛkṣa ↔ sept Aqtâb | rapprochement signalé « évident et dangereux », non instruit ; exigerait sa propre fiche `discernement` |
 | Pagination de Tilak | l'exemplaire de Sidy est la traduction française (Arché, Milano, 1979) ; le sas porte l'**original anglais**. Les pages citées ici (89-90) sont celles de l'anglais et **ne valent pas** pour l'exemplaire physique |
