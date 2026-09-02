@@ -28,7 +28,7 @@ paquet absent du serveur ou une dépense tierce — verdict Sidy à venir (Cmd 1
 avant tout `plan.md` (Cmd 6). Registre mis à jour, graphe régénéré (1596 arêtes
 établies), `verifier-invariants.py` : 0 erreur, 0 avertissement sur 1352 fichiers.
 
-- **Commit** : (à suivre)
+- **Commit** : 20b307b
 
 ## [2026-09-02] archivage | OUT-08 — triptyque ouvert, premier relevé (intent.md)
 
