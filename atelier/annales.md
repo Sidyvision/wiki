@@ -73,6 +73,7 @@ doivent-elles être versées à `raw/` ou rester hors git (elles sont aujourd'hu
 - **Modifié** : [[atelier/rd/registre-chantiers]] (DOC-06, table recomptée : 51)
 - **Dépôt frère** : `362f19e` poussé, workflow `33608817186` réussi
 - **En attente de Sidy** : visa du plan d'ingest et ses quatre questions
+- **Commit** : 22d73d0
 
 ---
 
