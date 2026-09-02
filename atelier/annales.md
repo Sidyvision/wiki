@@ -89,6 +89,7 @@ sans perte.
 - **Reste ouvert, non tranché** : le régime des **futurs** textes convertis —
   passent-ils encore par `raw/` ? La question de DOC-06 reçoit ici sa réponse de
   fait ; sa réponse de **règle** appartient toujours à Sidy
+- **Commit** : d5a52d0
 
 ---
 
