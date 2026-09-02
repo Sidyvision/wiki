@@ -9,6 +9,110 @@ updated: 2026-09-02
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] archivage | Ingest des deux Tilak (DOC-06) — cinq fiches, et ce qui est écarté
+
+Ingest lancé sur verdict de Sidy, plan visé (`_inbox/MASTER-UPDATE.md`), écarts
+validés. **Cinq fiches, pas quinze** : le volume d'une source ne commande pas le
+volume au dépôt.
+
+**Le motif n'était pas que la matière existe** mais qu'elle était **déjà
+consommée sans être fichée** — les Ādityas et les trente aurores étaient cités
+ailleurs quand aucune page doctrinale ne les portait.
+
+### Deux notices d'ouvrage
+
+- **[[doctrinal/sources/tilak-orion-antiquite-vedas-1893]]** (créée,
+  `academique`) — *The Orion* (1893), premier ouvrage de l'auteur, absent du
+  dépôt. Retenu pour sa **méthode** (la précession comme chronomètre) et pour la
+  distinction entre **repère principiel immuable** et **horloge cyclique**. Ses
+  quatre périodes datées ne sont **pas adoptées**.
+- **[[doctrinal/sources/tilak-origine-polaire-tradition-vedique]]** (enrichie) —
+  passe de la notice de catalogue à la notice d'ouvrage **lu** : relevé chapitre
+  par chapitre, et le partage qui gouverne tout emploi de ce livre — la
+  **géométrie** du ch. III se calcule et se vérifie ; la **thèse** qu'il en tire
+  est `academique` et n'est pas adoptée.
+
+### Trois fiches de matière
+
+- **[[doctrinal/symboles/adityas-mois-du-soleil]]** — **trois listes distinctes,
+  portées séparément** : les huit fils d'Aditi (Mārtāṇḍa rejeté), les huit
+  soleils du *Taittirīya Āraṇyaka* (Kaśyapa, qui ne quitte jamais le Mahāmeru),
+  et 🌐 les **douze** du *Śatapatha*. L'Āraṇyaka tranche par *aṣṭau te
+  vyavasitāḥ* ; la littérature post-védique dit douze. **Non fondues.**
+- **[[doctrinal/symboles/ushas-les-trente-aurores]]** — *Uṣas* / *Vyuṣṭi*,
+  division par trois ou par cinq, **trente sœurs continues, non séparées**, dites
+  ailleurs **trente marches d'une seule aurore**.
+- **[[doctrinal/symboles/devayana-pitriyana]]** (`traditionnel`) — le couple était
+  **nommé au dépôt sans y avoir de page**. Charpente guénonienne : portes
+  solsticiales, moitiés ascendante et descendante, et les deux clefs qui sont
+  « sous un autre rapport » celles des **grands** et des **petits mystères**.
+  Versant védique `academique`, distingué dans le corps.
+
+### Ce qui est ÉCARTÉ, sur validation de Sidy
+
+- **Le chapitre XIII** d'*Arctic Home* (« Bearing on Primitive Aryan Culture ») :
+  matière d'histoire raciale telle qu'on l'écrivait en 1903, sans emploi ici.
+  **Écarté sur décision, et dit** — non omis en silence.
+- **Les datations** de Tilak : exposées dans les notices pour être lisibles,
+  jamais employées.
+
+### Trois réserves posées d'avance, pour qu'elles ne se rouvrent pas fiche à fiche
+
+1. **Tilak est un index, pas une source primaire.** Toute citation védique
+   relevée chez lui reste `to-source` jusqu'à vérification sur édition du texte.
+   C'est ce qui fixe le statut `academique` des deux fiches de matière : il
+   s'aligne sur **la voie d'accès**, non sur la dignité du texte visé.
+2. **L'estime de Guénon ne change pas le statut.** « Remarquable ouvrage » est
+   une recommandation de lecture, non un adoubement traditionnel.
+3. **Lacune conservée** : le *Taittirīya Āraṇyaka* donne les huit noms mais **ne
+   dit pas lequel est Mārtāṇḍa**. Aucun des huit ne reçoit ici l'attribution que
+   le texte ne fait pas.
+
+### Deux rapprochements nommés et NON posés (Cmd 3)
+
+- 🔍 **Kaśyapa au Mahāmeru** — un soleil qui ne quitte jamais la montagne polaire
+  et donne sa lumière aux sept visibles touche de très près le hozo **Meru = Qâf**
+  clos au dépôt. *Kari-kumi* au mieux ; exigerait sa propre fiche.
+- 🔍 **Au pôle, les deux voies sont un seul jour et une seule nuit.** Que la
+  doctrine des deux voies et le fait polaire coïncident là est remarquable ; il
+  n'en résulte **pas** que la première dérive du second. Le sens de la relation
+  n'est pas établi (Cmd 12).
+
+⚠️ **Interdit posé** : ne pas rapprocher les **trois septénaires** — Ādityas
+solaires, Ṛṣis stellaires de la Grande Ourse, Aqtāb planétaires. Le nombre ne
+fait pas le joint.
+
+### Double contrôle (§VII)
+
+- **Qualification sashimono** : les joints de cette passe sont *kari-kumi*
+  (Kaśyapa/Meru, deux voies/fait polaire) ; aucun hozo, aucun kumiko posé.
+- **Confrontation Gizeh** : faite, et **résultat consigné même négatif**. La
+  matière est massivement polaire et **conforte** la subordination déjà établie
+  (Tradition primordiale polaire / courant secondaire solaire) ; aucun ancrage
+  nouveau n'en résulte, aucune conflation polaire/solaire relevée.
+
+### Une orpheline, signalée et non corrigée d'office
+
+[[doctrinal/symboles/devayana-pitriyana]] a **zéro lien entrant** au graphe (qui
+ne compte que le maillage du frontmatter, non les liens de corps). Suivant la
+procédure du protocole local, les liens sont **proposés, non inscrits** :
+`janus-bifrons` et `guenon-symboles-science-sacree-ch37-janus-solstices` sont les
+deux candidats naturels — l'un et l'autre nomment déjà les deux voies. **Verdict
+à Sidy.**
+
+- **Créé** : [[doctrinal/sources/tilak-orion-antiquite-vedas-1893]],
+  [[doctrinal/symboles/adityas-mois-du-soleil]],
+  [[doctrinal/symboles/ushas-les-trente-aurores]],
+  [[doctrinal/symboles/devayana-pitriyana]]
+- **Modifié** : [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]],
+  [[doctrinal/index]]
+- **Sas NON vidé** : les conversions sont la seule copie et **ne sont pas
+  suivies par git** ; leur destination est une question ouverte (PRO-08)
+- **En attente de Sidy** : les liens de l'orpheline ; le sort des conversions
+
+---
+
+
 ## [2026-09-02] archivage | « Atlantide et Hyperborée » (Guénon) — l'origine polaire, sur texte ; `to-source` levé sur le recueil
 
 Sidy confirme posséder *Formes traditionnelles et Cycles cosmiques* en exemplaire

@@ -10,6 +10,45 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] chantier | DOC-06 exécuté, et PRO-08 ouvert : 708 fichiers Markdown invisibles dans `raw/`
+
+**DOC-06 fait.** Ingest des deux Tilak lancé sur verdict de Sidy, écarts validés :
+cinq fiches au circuit doctrinal, détail dans `doctrinal/annales.md` (le présent
+journal ne le recopie pas — Cmd 14).
+
+**PRO-08 ouvert, sur un constat de Sidy qui dépasse largement Tilak.**
+
+> « Aucun fichier Markdown n'a d'intérêt à rester en `raw/` sachant qu'en y étant
+> ils restent masqués et je ne peux pas travailler avec ces ressources en dehors
+> du terminal. »
+
+Vérifié au disque : `/raw/*` est dans `.gitignore`, et `raw/` contient **708
+fichiers `.md`**, dont **zéro suivi par git**. Tout le corpus converti — Guénon
+(*Symboles de la Science sacrée*, *Le Roi du Monde*, *Formes traditionnelles*, *La
+Crise du Monde Moderne*, *La Grande Triade*…), Jurjani, Avalon — ne se
+synchronise donc **jamais** vers Obsidian. Sidy ne peut le lire que depuis le
+terminal, ce qui est précisément le poste où il ne travaille pas.
+
+**Ce n'est pas un oubli** : le `.gitignore` porte son motif — « peuvent contenir
+des données personnelles + fichiers volumineux ». Lever l'exclusion engage donc
+deux choses réelles, et c'est pourquoi le chantier est `attente-verdict` et non
+exécuté : le **poids** du dépôt, et le **motif de confidentialité** d'origine.
+Trancher appartient à Sidy (Cmd 13).
+
+**Conséquence immédiate, appliquée** : les conversions des deux Tilak **ne sont
+pas déposées dans `raw/`**, sur instruction expresse. Elles restent au sas, non
+suivies. **Le sas n'est donc PAS vidé** à l'issue de l'ingest, contrairement à la
+procédure ordinaire — les vider détruirait la seule copie, puisqu'elles ne sont
+ni versionnées ni logées ailleurs. L'écart à la procédure est délibéré et
+signalé ; il se referme dès que PRO-08 est tranché.
+
+- **Modifié** : [[atelier/rd/registre-chantiers]] (DOC-06 `en-cours`, PRO-08
+  ouvert, table recomptée : 52)
+- **En attente de Sidy** : destination et régime des Markdown de `raw/`
+
+---
+
+
 ## [2026-09-02] mise-en-production | L'Instrument sert le mode cosmologique — et DOC-06 ouvert pour Tilak
 
 **Mise en production, sur verdict de Sidy** (Cmd 13). `PUBLIER=1`, garde-fou

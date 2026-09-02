@@ -68,12 +68,12 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**51 chantiers ouverts** au 2026-09-02, plus 6 versés en §9 (clos ou caducs) et
+**52 chantiers ouverts** au 2026-09-02, plus 6 versés en §9 (clos ou caducs) et
 6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous
 modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
 Mis à jour le 2026-09-02 : ouverture de `BIB-03`, puis de `INS-15` — celui-ci
 passé `attente-verdict` → `en-cours` le même jour (plan visé, phases 2 et 3 faites),
-et ouverture de `DOC-06` (ingest des deux Tilak).
+et ouverture de `DOC-06` (ingest des deux Tilak, **fait** le jour même) puis de `PRO-08`.
 
 > **Note de recomptage (2026-09-02).** Deux sessions concurrentes ont porté deux
 > totaux différents sur cette ligne — 31/3/5/9 d'un côté, 30/3/5/10 de l'autre, tous
@@ -88,9 +88,9 @@ et ouverture de `DOC-06` (ingest des deux Tilak).
 | `OUT` Outillage & scripts | 5 | — | 1 | — | **6** |
 | `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
-| `PRO` Process & protocole | 3 | — | — | 2 | **5** |
-| `DOC` Doctrinal | 4 | — | — | 2 | **6** |
-| **Total** | **31** | **4** | **5** | **11** | **51** |
+| `PRO` Process & protocole | 3 | — | — | 3 | **6** |
+| `DOC` Doctrinal | 4 | 1 | — | 1 | **6** |
+| **Total** | **31** | **5** | **5** | **11** | **52** |
 
 **Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
@@ -198,6 +198,7 @@ non dépouillées dans cette passe → §8.*
 | PRO-05 | Rétroportage du champ `maturite` sur les fiches `discernement/` — **9 sur 56** le portent ; différé assumé, non borné | `ouvert` | les agents le renseignent au fil de leurs éditions de fond ; le différé n'a pas d'échéance | proposition du 2026-08-27 (cf. Domaine Réservé) | 2026-08-27 |
 | PRO-06 | File d'idées pour les agents : dispositif validé le 2026-08-27, **encore vide** — jamais éprouvé en usage réel | `ouvert` | y verser une première idée | `queue-idees.md` (cf. Domaine Réservé) | 2026-08-27 |
 | PRO-07 | Nature de `04-sessions-par-fonction-et-backlogs` : cesser d'être un backlog vivant pour devenir mode de travail + aiguillage | `attente-verdict` | refonte documentaire — décision de Sidy | relevé de la passe du 2026-09-01 | 2026-09-01 |
+| PRO-08 | **708 fichiers Markdown invisibles dans `raw/`** — `/raw/*` est dans `.gitignore`, donc tout le corpus converti (Guénon, Jurjani, Avalon, les deux Tilak à venir) **ne se synchronise pas vers Obsidian** : Sidy ne peut le lire que depuis le terminal. Constat de Sidy, 2026-09-02 : « aucun fichier Markdown n'a d'intérêt à rester en `raw/` » | `attente-verdict` | trancher la destination et le régime : versionner engage le poids du dépôt et le motif d'exclusion d'origine (« données personnelles + fichiers volumineux », `.gitignore`) | `.gitignore` ; `_inbox/MASTER-UPDATE.md` §6 question 4 | — | 2026-09-02 |
 
 ## 7. Doctrinal (`DOC`)
 
@@ -215,7 +216,7 @@ non dépouillées dans cette passe → §8.*
 | DOC-03 | Sources primaires à localiser : *ʿUqlat al-mustawfiz*, *Kitāb al-Inshāʾ al-Dawāʾir*, Meftah *Arma Artis* | `ouvert` | discipline des sources, §VII du protocole racine |
 | DOC-04 | Citations attribuées non vérifiées (Ibn ʿArabī, al-Ghazālī, le Cheikh) marquées `to-source` — cas le plus net signalé : `symboles/chercheur-manifestant-akbarien` | `ouvert` | levée par vérification primaire humaine, jamais par le modèle |
 | DOC-05 | Réserve résiduelle : lien explicite *wirātha* ↔ *aqtāb* non localisé dans le *Futūḥāt* ch. 36 — l'ancrage (c) de l'Instrument en dépend | `ouvert` | [[doctrinal/index]] §VII ; conséquence instrumentale en INS-11 |
-| DOC-06 | **Ingest des deux Tilak** — *The Arctic Home in the Vedas* (1903) et *The Orion* (1893), texte intégral anglais au sas depuis le 2026-09-02, **33 000 lignes d'OCR** non intégrées. La matière est déjà CONSOMMÉE par la donnée de l'Instrument (états du soleil, aurores) sans qu'aucune page doctrinale ne la porte — c'est le défaut à corriger | `attente-verdict` | Sidy vise le plan d'ingest `_inbox/MASTER-UPDATE.md` (5 fiches proposées, 4 questions posées) | [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] ; [[doctrinal/sources/guenon-atlantide-hyperboree]] (note 3) | — | 2026-09-02 |
+| DOC-06 | **Ingest des deux Tilak** — *The Arctic Home in the Vedas* (1903) et *The Orion* (1893), texte intégral anglais au sas depuis le 2026-09-02, **33 000 lignes d'OCR** non intégrées. La matière est déjà CONSOMMÉE par la donnée de l'Instrument (états du soleil, aurores) sans qu'aucune page doctrinale ne la porte — c'est le défaut à corriger | `en-cours` | plan visé et **ingest fait** le 2026-09-02 (5 fiches) — reste le sort des conversions du sas (PRO-08) | [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] ; [[doctrinal/sources/guenon-atlantide-hyperboree]] (note 3) | — | 2026-09-02 |
 
 ## 8. À vérifier — non asserté ouvert
 

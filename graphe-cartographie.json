@@ -8000,6 +8000,28 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/tilak-orion-antiquite-vedas-1893",
+      "label": "The Orion, ou Recherches sur l'antiquité des Vêdas — Bâl Gangâdhar Tilak (1893)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "tilak",
+        "vedas",
+        "orion",
+        "krittikas",
+        "precession",
+        "chronologie",
+        "philologie",
+        "academique"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "doctrinal/sources/tilak-orion-antiquite-vedas-1893.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
       "label": "Traité de l'Émanation Gauche — Isaac ben Jacob ha-Kohen (XIIIe s.)",
       "circuit": "doctrinal",
@@ -8185,6 +8207,30 @@
       ],
       "updated": "2026-08-25",
       "chemin": "doctrinal/sources/wazifa.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "doctrinal/symboles/adityas-mois-du-soleil",
+      "label": "Les Ādityas — les états du soleil, et le huitième rejeté",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "academique",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "adityas",
+        "aditi",
+        "martanda",
+        "kashyapa",
+        "soleil",
+        "septenaire",
+        "meru",
+        "vedas",
+        "tilak",
+        "to-source"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "doctrinal/symboles/adityas-mois-du-soleil.md",
       "lacunes_to_source": 1
     },
     {
@@ -8553,6 +8599,29 @@
       ],
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/desir-theophanie.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/devayana-pitriyana",
+      "label": "Dêva-yâna et pitri-yâna — les deux voies, et les deux moitiés du cycle",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "deva-yana",
+        "pitri-yana",
+        "deux-voies",
+        "portes-solsticiales",
+        "janus",
+        "mysteres",
+        "delivrance",
+        "uttarayana",
+        "vedas"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "doctrinal/symboles/devayana-pitriyana.md",
       "lacunes_to_source": 0
     },
     {
@@ -9888,6 +9957,28 @@
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/uriner-en-reve.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/ushas-les-trente-aurores",
+      "label": "Uṣas et les trente aurores — l'aurore au pluriel dans le Ṛg-Veda",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "academique",
+      "tradition_cadre": "hindouisme",
+      "tags": [
+        "ushas",
+        "vyushti",
+        "aurore",
+        "trente-soeurs",
+        "vedas",
+        "tilak",
+        "roue",
+        "to-source"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "doctrinal/symboles/ushas-les-trente-aurores.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/voiles-naqshbandiyya",
@@ -19878,6 +19969,55 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "target": "doctrinal/sources/tilak-orion-antiquite-vedas-1893",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "target": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "target": "doctrinal/symboles/adityas-mois-du-soleil",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "target": "doctrinal/symboles/ushas-les-trente-aurores",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/tilak-orion-antiquite-vedas-1893",
+      "target": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/tilak-orion-antiquite-vedas-1893",
+      "target": "doctrinal/symboles/manvantara",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/tilak-orion-antiquite-vedas-1893",
+      "target": "doctrinal/sources/guenon-atlantide-hyperboree",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen",
       "target": "doctrinal/sources/sefer-yetsira-ramban",
       "champ": "cross_links",
@@ -20139,6 +20279,34 @@
     {
       "source": "doctrinal/sources/wazifa",
       "target": "doctrinal/symboles/asma-al-husna",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/adityas-mois-du-soleil",
+      "target": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/adityas-mois-du-soleil",
+      "target": "doctrinal/symboles/ushas-les-trente-aurores",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/adityas-mois-du-soleil",
+      "target": "doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/adityas-mois-du-soleil",
+      "target": "doctrinal/sources/guenon-roi-du-monde-ch10",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -20706,6 +20874,48 @@
     {
       "source": "doctrinal/symboles/desir-theophanie",
       "target": "doctrinal/symboles/asma-al-husna",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/devayana-pitriyana",
+      "target": "doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/devayana-pitriyana",
+      "target": "doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/devayana-pitriyana",
+      "target": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/devayana-pitriyana",
+      "target": "doctrinal/symboles/janus-bifrons",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/devayana-pitriyana",
+      "target": "doctrinal/symboles/adityas-mois-du-soleil",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/devayana-pitriyana",
+      "target": "doctrinal/symboles/manvantara",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -22323,6 +22533,27 @@
     {
       "source": "doctrinal/symboles/uriner-en-reve",
       "target": "doctrinal/autorites/ibn-sirin",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/ushas-les-trente-aurores",
+      "target": "doctrinal/sources/tilak-origine-polaire-tradition-vedique",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/ushas-les-trente-aurores",
+      "target": "doctrinal/symboles/adityas-mois-du-soleil",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/ushas-les-trente-aurores",
+      "target": "doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
