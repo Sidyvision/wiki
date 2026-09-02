@@ -35,7 +35,7 @@ régénéré (536 nœuds, 1845 arêtes), `verifier-invariants.py` : 0 erreur, 0
 avertissement sur 1351 fichiers. `spec.md`/`plan.md` restent à écrire — aucun code
 n'est autorisé avant un `plan.md` visé (Cmd 6).
 
-- **Commit** : (à suivre)
+- **Commit** : 5ffb1c7
 
 ## [2026-09-02] execution | Chaîne OCR ouverte à l'arabe et au français — et un découpage refusé
 
