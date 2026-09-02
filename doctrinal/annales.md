@@ -34,7 +34,14 @@ avant toute décision de versement — chantier **OUT-08** ouvert dans
 au sas sur demande explicite de Sidy (pas de suppression malgré son état) ; le
 PDF source demeure intact en `raw/`.
 
-Commit à suivre.
+**Orpheline signalée, non corrigée** (procédure `doctrinal/CLAUDE.md`) : la
+notice Osman Yahia a 0 lien entrant au graphe après régénération — candidats
+possibles [[doctrinal/autorites/ibn-arabi]] et
+[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]], non
+inscrits ; verdict à Sidy. `verifier-invariants.py` : 0 erreur, 0
+avertissement sur 1350 fichiers.
+
+- **Commit** : b8529f4
 
 ## [2026-09-02] archivage | Réouverture DOC-06 — sixième fiche sur le chapitre XIII, et vidage du sas
 
