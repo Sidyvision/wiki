@@ -73,6 +73,7 @@ pas ; les citations sont localisées par section et par numéro de note, jamais 
   (`to-source` levé, `updated`) ; [[doctrinal/index]] (§ sources)
 - **Non modifié** : aucun statut d'autre fiche, aucun ancrage, aucun discernement clos
 - **Graphe** régénéré ; la fiche neuve n'est pas orpheline
+- **Commit** : 62f98a7
 
 ---
 

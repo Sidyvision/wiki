@@ -87,6 +87,7 @@ d'avance**. Le contrôle 9 est écrit sur ces bornes, pour cette raison précise
   seconde erreur consignée)
 - **Non tranché** : le discernement ouvert sur la chute et l'état primordial
 - **Hors dépôt** : contrôles 9 et 10 ajoutés au vérificateur du bac à sable
+- **Commit** : 62f98a7
 
 ---
 
