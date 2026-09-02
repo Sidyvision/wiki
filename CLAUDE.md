@@ -15,7 +15,10 @@ la dispersion mentale.
 > INF-14 ; §VII, règle 5 des manifestes —
 > scission du rendu de l'Instrument vers le dépôt frère `Sidyvision/instrument`,
 > ligne de coupe producteur/consommateur ; arbre du §II annoté ; triptyque de
-> chantier ouvert au pôle `rd/`, lettre dans `atelier/CLAUDE.md`), **2026-08-31** (`Graphe/` déplacé et renommé
+> chantier ouvert au pôle `rd/`, lettre dans `atelier/CLAUDE.md` ; §I, clôture
+> économique PRODUCTION/INTÉGRATION **levée** — la prémisse (accès Claude Code
+> facturé à l'usage) s'est révélée caduque, l'authentification Pro/OAuth ayant
+> été rétablie ; réversible si le fait change), **2026-08-31** (`Graphe/` déplacé et renommé
 > `atelier/rd/outillage/graphe/` — outillage rejoint le pôle R&D plutôt que de
 > rester à la racine ; usage explicite du graphe ajouté à la vérification
 > structurelle obligatoire et à l'Action VIGILANCE, §VII), **2026-08-29** (§VII, discipline des sources,
@@ -41,20 +44,36 @@ L'utilisateur travaille **exclusivement depuis un iPad Pro**. Le dépôt vit sur
 serveur (Ubuntu, `/root/wiki`). Les postes sont définis par leur **fonction**, jamais
 par le produit qui l'exécute — les moteurs changent, les fonctions demeurent :
 
-| Fonction | Incarnation actuelle | Rôle | Règle de coût |
+| Fonction | Incarnation actuelle | Rôle | Régime |
 |---|---|---|---|
-| **PRODUCTION** (lecture lourde, rédaction) | Assistant conversationnel au forfait (app iPad) | Lire les sources (PDF, longs textes), produire pages `.md` + `UPDATES.md`, concevoir | Jamais côté serveur |
-| **INTÉGRATION** (mécanique) | Outil CLI sur le serveur, moteur interchangeable (API Anthropic ou modèle local vLLM/Qwen via `ANTHROPIC_BASE_URL`) | Ranger, réparer le frontmatter, MAJ `index.md`/`annales.md`, VIGILANCE, commit/push | Applique, ne rédige JAMAIS |
+| **PRODUCTION** (lecture lourde, rédaction) | Assistant conversationnel au forfait (app iPad) | Lire les sources (PDF, longs textes), produire pages `.md` + `UPDATES.md`, concevoir | Toujours disponible |
+| **INTÉGRATION** (mécanique) | Outil CLI sur le serveur, moteur interchangeable (accès Claude Pro/OAuth ou API Anthropic, ou modèle local vLLM/Qwen via `ANTHROPIC_BASE_URL`) | Ranger, réparer le frontmatter, MAJ `index.md`/`annales.md`, VIGILANCE, commit/push — **et, depuis le 2026-09-01, lecture lourde et production de contenu sur consigne directe de Sidy en session** (voir note ci-dessous) | Cmd 6/Cmd 13 pleins et entiers : pas d'écriture sans plan présenté, pas d'initiative autonome au long cours |
 | **AGENTS DE FONCTION** (à venir) | Hermes Agent (12 rôles configurés, voir `meta/projet-unifie/hermes-prompts/`) | Une session = un agent = une fonction ; orchestrent des scripts, ne décident pas ; sortie quotidienne normalisée : le **Rapport du matin** (signalement pur — verdicts en attente, tâches de l'humain, signaux, échéances, état des sas) | Mêmes règles de supervision que l'intégration (§VIII) |
 | **CONSULTATION** | Obsidian (iPad, auto-pull) | Lire le dépôt | — |
 
-**Règle économique et fonctionnelle absolue** :
-- JAMAIS de lecture lourde ni de production de contenu côté intégration.
-- L'intégration travaille à partir des fichiers du sas `_inbox/` et des consignes des
-  `UPDATES.md` (ou `MASTER-UPDATE.md` pour les lots volumineux, traités fiche par fiche
-  dans l'ordre du manifeste).
+**Clôture économique PRODUCTION/INTÉGRATION — levée le 2026-09-01 (verdict Sidy).**
+La séparation stricte qui prévalait jusqu'ici (« JAMAIS de lecture lourde ni de
+production de contenu côté intégration ») ne reposait que sur une seule prémisse :
+l'accès à Claude Code (poste INTÉGRATION) était présumé facturé à l'usage (API),
+contre le forfait de l'app conversationnelle (PRODUCTION) — écart de coût jugé trop
+lourd pour absorber de la rédaction côté intégration. Cette prémisse s'est révélée
+caduque : l'authentification via l'abonnement Claude Pro (OAuth) fonctionne de
+nouveau pour Claude Code. Sidy, en session : « le coût seul justifiait la clôture » —
+elle tombe avec lui. Détail de l'amendement :
+`meta/protocole-archives/changelog-CLAUDE.md`, entrée `[2026-09-01] amendement |
+§I — Levée de la clôture économique PRODUCTION/INTÉGRATION`.
+
+Ce qui ne change **pas** :
 - **Scripter le déterministe, réserver le modèle au jugement** : tout ce qui peut être
-  un script (frontmatter, index, manifestes, déploiement) le devient.
+  un script (frontmatter, index, manifestes, déploiement) le devient — principe
+  indépendant du coût, maintenu tel quel.
+- Le sas `_inbox/` et les `UPDATES.md`/`MASTER-UPDATE.md` restent la voie normale des
+  lots produits côté PRODUCTION (app iPad) ; la levée ouvre une **voie
+  supplémentaire** (rédaction directe en session INTÉGRATION, sur consigne explicite),
+  elle n'abolit pas la première.
+- **Réversibilité (Cmd 10)** : si l'accès Pro/OAuth redevenait indisponible, ou de
+  nouveau facturé à l'usage, la clôture se rétablit d'elle-même — la règle a toujours
+  été fondée sur un fait vérifiable, jamais sur un principe fixe.
 
 **Mode pédagogique obligatoire** : toute manipulation technique est expliquée **point
 par point** (la commande exacte, ce qu'elle fait, pourquoi), sans supposer d'acquis,

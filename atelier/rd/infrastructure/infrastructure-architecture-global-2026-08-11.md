@@ -3,9 +3,9 @@ title: "Infrastructure — Architecture globale du système (2026-08-11)"
 type: infrastructure
 tags: [rd, infrastructure, architecture, systeme, hermes, omniroute, serveur]
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-09-01
 sources: []
-links: []
+links: ["[[atelier/rd/infrastructure/cartographie-routing-infrastructure]]"]
 ---
 
 # Architecture Infrastructure — Vue globale
@@ -195,3 +195,9 @@ Pas de surcharge CPU.
 - [[infrastructure-ssh-statu-quo]] — décision statu quo SSH
 - `meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07.md` — détails profils Hermes
 - `atelier/rd/cahiers/registre-problemes.md` — diagnostics ouverts
+- [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] — suite
+  datée du 2026-09-01 : reprend cette topologie, la recroise avec les
+  incidents survenus depuis (saturation RAM du 2026-08-28, daemonisation
+  omniroute/webui du 2026-08-27, canaux Telegram), et ajoute la lecture
+  points forts/points fragiles que cette fiche-ci s'interdisait
+  volontairement (§VIII.2, constat pur)

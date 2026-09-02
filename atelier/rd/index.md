@@ -48,7 +48,10 @@ atelier/rd/
 │    un sous-dossier, assaini le 2026-09-01)
 ├── instrument/        ← l'Instrument (migration depuis atelier/projets/, fiche par fiche)
 ├── infrastructure/    ← setup réel : serveur, agents, hardware/software
-│                         (destination de la transposition Mother Base §5 bis)
+│                         (destination de la transposition Mother Base §5 bis) —
+│                         voir cartographie-routing-infrastructure pour la vue
+│                         d'ensemble (hardware, software, canaux, points
+│                         forts/fragiles — 2026-09-01)
 │   └── monitoring-archive/  ← archive .txt du rapport monitoring quotidien
 │                              (rétention 40 j, ouvert 2026-08-18)
 ├── audio/             ← ingénierie son GÉNÉRIQUE (bancs d'essai, chaînes, mesures) ;
@@ -97,7 +100,7 @@ humaine, sans wikilink.
 | Matière | Destination |
 |---|---|
 | Specs, itérations, notes d'impact de l'Instrument | `rd/instrument/` (migration de `projets/`) |
-| Architecture générique du serveur et des agents, bancs, mesures | `rd/infrastructure/` (ex. [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]], [[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]]) |
+| Architecture générique du serveur et des agents, bancs, mesures | `rd/infrastructure/` — vue d'ensemble : [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] ; détail : [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]], [[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]] |
 | Motifs des décisions, credentials, prompts d'agents | **reste en `meta/projet-unifie/`** (sensible — §VI) |
 | Ingénierie d'une œuvre, par morceau | **reste au label** (`label/musique/ingenierie/`) |
 | Expression créative : œuvre, écriture, direction artistique | **label** (direction-artistique / production) — jamais `rd/` |

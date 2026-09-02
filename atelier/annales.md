@@ -137,6 +137,75 @@ consigne).
 
 - **Commit** : 79b253b
 
+## [2026-09-01] archivage | Correctifs de la cartographie de routing + pause du cycle Choura (INF-09)
+
+Suite de l'entrée précédente, même jour. Deux passes distinctes.
+
+**1. Revue de la cartographie de routing infrastructure**, sur question de Sidy
+(« est-ce que la fiche donne une carte instantanée comme le §II de CLAUDE.md ? »).
+Constat : partiellement — les §1-3 (hardware/software/canaux) sont structurels
+comme le §II, mais les §4-6 (points forts/fragiles) sont un constat daté,
+périssable, sans schéma compact en tête. Quatre correctifs validés, exécutés :
+
+- Section 0 « Vue d'ensemble en un coup d'œil » ajoutée en tête de
+  [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] — table
+  compacte, lecture instantanée sans traverser les 7 sections.
+- Pointeur renforcé dans `atelier/rd/index.md` (arborescence + table « Ce qui
+  vit où »), **pas** dans `atelier/CLAUDE.md` — les `CLAUDE.md` portent des
+  règles, jamais un inventaire de contenu (précédent déjà établi :
+  `infrastructure-architecture-global-2026-08-11` n'y est pas non plus citée).
+- Les deux écarts non instruits (gateways en `failed`, profil `commerce`
+  absent) versés comme entrées `ouvert` dans
+  [[atelier/rd/cahiers/registre-problemes]] plutôt que laissés seulement dans
+  la fiche — pour qu'ils restent suivis même si la fiche n'est pas relue.
+- Lien vers le registre des problèmes ajouté au frontmatter de la fiche.
+
+**2. INF-09 clos par verdict** — Sidy, à titre informatif : le cycle Choura est
+mis en pause (plutôt que doté d'un hook de contribution, l'alternative que la
+ligne INF-09 posait depuis le 2026-09-01). Registre des chantiers mis à jour :
+statut `attente-verdict` → `ouvert` (le verdict attendu vient d'être rendu :
+pause, pas une nouvelle attente), tableau §0 recompté (règle du registre :
+décompte mécanique, jamais estimé).
+
+`verifier-invariants.py --racine /home/user/wiki` : 726 fichiers `.md`
+contrôlés, 0 erreur, 0 avertissement, aux deux passes.
+
+- **Commit** : 6962a88 (correctifs cartographie), 87e6d08 (INF-09)
+
+## [2026-09-01] archivage | Cartographie de routing infrastructure (hardware, software, canaux, points forts/fragiles)
+
+Sur demande de Sidy : pendant du routing du studio musique
+([[atelier/materiel/studio-principal]]) pour l'infrastructure informatique
+globale. Nouvelle fiche
+[[atelier/rd/infrastructure/cartographie-routing-infrastructure]] :
+inventaire hardware (serveur Hetzner) et software (14 profils Hermes,
+`omniroute`, `hermes-webui`, Tailscale Funnel, fournisseurs LLM), routing
+des six canaux d'entrée/sortie (Git/SSH, Discord, Telegram ×2, Terminal
+scopé, webui/Tailscale, API LLM) convergeant sur le sas `_inbox/`, et lecture
+croisée **points forts/stables vs points fragiles** — geste demandé
+explicitement, absent des fiches de constat pur existantes (§VIII.2).
+
+Aucune mesure nouvelle exécutée sur le serveur : synthèse de fiches déjà
+consignées (architecture globale du 2026-08-11, incidents omniroute/RAM du
+2026-08-27/28, canaux Telegram Mehdi/Wendel, configuration Hermex/Tailscale)
+croisée avec le relevé de monitoring déjà persisté du 2026-08-31
+(`monitoring-archive/2026-08-31_41dc3e7e492c.txt`). Deux écarts non
+instruits signalés dans la nouvelle fiche (§6) plutôt que résolus d'office :
+état `failed` (au lieu d'`inactive`) de 7 gateways Discord au 2026-08-31,
+divergent de la décision consignée le 2026-08-28 ; profil `commerce` absent
+du relevé systemd.
+
+Pointeur ajouté dans `atelier/index.md` (bullet `rd/infrastructure/`) ;
+renvoi ajouté depuis
+[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11]]
+(`updated` bumpé au 2026-09-01, seule modification de fond apportée à cette
+fiche).
+
+`verifier-invariants.py --racine /home/user/wiki` : 726 fichiers `.md`
+contrôlés, 0 erreur, 0 avertissement.
+
+- **Commit** : 0617c79
+
 ## [2026-09-01] epreuve | Les quatre contrôles du jour, éprouvés par leur échec
 
 Neuvième et dernière passe. Sidy verse au protocole la règle dégagée à la passe
