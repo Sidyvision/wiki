@@ -41,6 +41,8 @@ même confirmation) — mêmes doublons, non repérés au premier passage.
 `_inbox/conversions/chapitres-osman-yahya/` (matière neuve, hors DOC-06) reste au
 sas dans l'attente d'un plan propre.
 
+Commit `8ac7d58`.
+
 ## [2026-09-02] archivage | Ingest des deux Tilak (DOC-06) — cinq fiches, et ce qui est écarté
 
 Ingest lancé sur verdict de Sidy, plan visé (`_inbox/MASTER-UPDATE.md`), écarts
