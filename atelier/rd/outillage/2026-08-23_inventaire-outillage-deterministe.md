@@ -3,7 +3,7 @@ title: "Inventaire de l'outillage déterministe du dépôt (relevé du 2026-09-0
 type: outillage
 tags: [rd, outillage, inventaire, scripts, verification]
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-02
 sources: []
 links:
   - "[[atelier/rd/index]]"
@@ -44,6 +44,8 @@ une preuve, la sortie d'un script en est une.
 | `atelier/rd/outillage/srs.py` | Cartes de révision espacée du protocole | chantier `OUT-03`, format non arrêté |
 | `atelier/rd/bibliotheque/valider-index-livres.py` | Contrôles bloquants des index d'ouvrages (Cmd 15, pages, couverture, doublons signalés jamais fusionnés) | avant toute génération du lexique |
 | `atelier/rd/bibliotheque/generer-glossaire-unifie.py` | Lexique unifié dérivé — **refuse de générer si le validateur bloque** | après validation des index |
+| `atelier/rd/outillage/ocr-scan-vers-markdown.sh` | Scan PDF (image) → Markdown page par page, marqueurs `<!-- page N -->` ; `pdftoppm` 300 dpi + `tesseract` | conversion d'un ouvrage de `raw/` — en tâche de fond, ~13 p/min |
+| `atelier/rd/outillage/decouper-ouvrage-chapitres.py` | Découpe le converti en un fichier par chapitre ; **contrôle d'intégrité bloquant** (aucune page perdue ni dupliquée, code non nul sinon) | juste après la conversion, avant tout examen du texte |
 | `atelier/rd/outillage/hooks/` (`pre-commit`, `pre-push`) | Garde-fous locaux : hygiène Unicode à chaque commit, invariants + Unicode à chaque push | installés une fois par clone (`installer-hooks.sh`) |
 
 Le dossier `Graphe/` que citait le plan d'origine **n'existe pas** à la racine : les deux

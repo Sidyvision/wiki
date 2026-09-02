@@ -2,7 +2,7 @@
 title: "Journal des optimisations — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-02
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -40,6 +40,39 @@ généralisation — il consigne.
 Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-02] Chaîne OCR versée en outillage — le scan d'ouvrage devient reproductible
+
+- **Procédure modifiée** : conversion des scans d'ouvrages de `raw/` vers du
+  Markdown exploitable. Aucune procédure n'existait : les deux conversions
+  précédentes du dépôt (Jurjani, index Tilak) étaient des **transcriptions
+  humaines de photographies**, pas des conversions de PDF.
+- **État avant** : deux scripts écrits en session, hors dépôt
+  (`/root/ocr_pdf2md.sh`, `/root/decouper_chapitres.py`), non versionnés, non
+  documentés, non éprouvés — donc perdus à la session suivante.
+- **Changement effectué** : versés en `atelier/rd/outillage/` sous
+  `ocr-scan-vers-markdown.sh` et `decouper-ouvrage-chapitres.py`, avec leur
+  spécification `spec-ocr-scan-vers-markdown.md`. Un **contrôle d'intégrité** a
+  été ajouté au découpeur (aucune page perdue ni dupliquée, sortie en code non
+  nul sinon) — il n'existait pas dans la version de session, où la vérification
+  était faite à la main.
+- **État après** : le découpage rejoué depuis le nouvel emplacement rend un
+  résultat **identique octet pour octet** au résultat de session (contrôlé par
+  `diff` sur les chapitres 1, 9 et 13). Le contrôle d'intégrité rend
+  `544 / 544 pages, 0 manquante, 0 doublon`, code 0.
+- **Impact mesuré** : 781 pages converties (237 + 544), ~13 pages/minute,
+  0 page perdue, 0 dupliquée sur les deux ouvrages. Sur le premier ouvrage,
+  l'OCR neuf remplace une couche texte de 2006 rendant « Prajapatit=Yaj Da »
+  là où `tesseract` rend « Prajapati=Yajna ».
+- **Épreuve du contrôle** (§VII) : le contrôle d'intégrité a été **mis en défaut
+  dans un bac à sable** avant d'être déclaré. Sur une copie dont la fusion des
+  sections d'index a été volontairement rendue fautive, il rapporte
+  `540 pages reparties / 544 lues`, nomme les quatre pages perdues (508, 510,
+  514, 526) et sort en code 1. État sain restauré : `544 / 544`, code 0.
+- **Liens** : [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] ·
+  [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]] ·
+  chantier `BIB-03`.
+- **Statut** : `applique`.
 
 ## [2026-08-30] Validation formelle — reconnaissance, pas ajout (item 3 clos)
 

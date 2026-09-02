@@ -71,19 +71,20 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 **48 chantiers ouverts** au 2026-09-02, plus 6 versés en §9 (clos ou caducs) et
 6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous
 modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
+Mis à jour le 2026-09-02 : ouverture de `BIB-03` (47 lignes en §1-7).
 
 | Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
 |---|---|---|---|---|---|
 | `INS` Instrument | 10 | — | 1 | 3 | **14** |
 | `INF` Infrastructure & agents | 7 | 3 | 1 | 3 | **14** |
 | `OUT` Outillage & scripts | 5 | — | 1 | — | **6** |
-| `BIB` Bibliothèque | 1 | — | 1 | — | **2** |
+| `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 2 | **5** |
 | `DOC` Doctrinal | 4 | — | — | 1 | **5** |
-| **Total** | **31** | **3** | **5** | **9** | **48** |
+| **Total** | RECOMPTE | RECOMPTE | RECOMPTE | RECOMPTE | RECOMPTE |
 
-**Ce que ce tableau dit d'abord** : 9 chantiers n'attendent **que** la décision de
+**Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
 entre nos mains (une PR amont, une prise de vue, un texte à localiser). C'est là, et non
 dans le nombre total, que se lit ce qui peut avancer aujourd'hui.
@@ -170,6 +171,7 @@ non dépouillées dans cette passe → §8.*
 |---|---|---|---|---|---|
 | BIB-01 | Appendices non photographiés — aucune fiche possible en l'état | `bloque` | nouvelle prise de vue (geste humain) | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] | 2026-08-22 |
 | BIB-02 | *Symboles de la Science sacrée* : couverture d'index à 100 %, mais chapitres non traités en fiches au-delà des XVIII et XXXVII | `ouvert` | choisir les chapitres suivants | même catalogue | 2026-08-22 |
+| BIB-03 | Deux ouvrages de Tilak scannés (`raw/`) convertis en Markdown par OCR : *The Orion* (1893, 237 p.) et *The Arctic Home in the Vedas* (1903, 544 p.) — sortie brute de machine au sas `_inbox/conversions/`, non relue | `attente-verdict` | verdict de Sidy sur le versement (destination, relecture, statut) — rien d'autre ne manque | [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] ; `_inbox/conversions/` ; [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | 2026-09-02 |
 
 ## 5. Études de cas (`CAS`)
 
