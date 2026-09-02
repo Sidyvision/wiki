@@ -30,6 +30,8 @@ format et gouvernance du gabarit respectés.
 **Vérification structurelle** (§VII, brut) : `726 fichier(s) .md
 contrôlé(s) — périmètre du dépôt. 0 erreur(s), 0 avertissement(s).`
 
+- **Commit** : 22fdbc7
+
 ## [2026-09-01] amendement | §VII — *Épreuve des contrôles* versée au protocole racine
 
 Consigné ici comme tout amendement du protocole racine. Le récit du chantier qui l'a fait

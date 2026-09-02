@@ -52,6 +52,8 @@ détail dans le registre lui-même.
 périmètre du dépôt. 0 erreur(s), 0 avertissement(s).` Épreuve du script :
 sain → 0, faute fabriquée → 1 (nommée), registre absent → 2.
 
+- **Commit** : 22fdbc7
+
 ## [2026-09-02] correctif | Deux rapports Publication collés par Sidy — un défaut réel, un lien mort fabulé
 
 Suite de l'entrée précédente (même jour) : Sidy a collé dans la session les
