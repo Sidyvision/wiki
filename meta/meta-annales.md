@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-09-01
+updated: 2026-09-02
 
 ---
 
@@ -13,6 +13,22 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-02] queue-idees | Trois tâches hors de portée consignées
+
+Sur demande de Sidy, à la clôture de la session de traitement des rapports
+Studio/Publication : consignation des tâches identifiées comme hors de
+portée de cette session distante (accès dépôt git seul, ni serveur ni
+Discord) — `etendre-archive-rapports-publication` (haute — condition de la
+nouvelle fonction de traçabilité, voir `atelier/annales.md` même jour),
+`verifier-redemarrer-gateways-hermes-en-echec` (normale), et
+`verification-humaine-sources-raw-trois-fiches` (normale, partagée avec
+08-publication-site pour le constat, réservée à Sidy pour la levée du
+`to-source`). Trois entrées ajoutées à `meta/projet-unifie/queue-idees.md`,
+format et gouvernance du gabarit respectés.
+
+**Vérification structurelle** (§VII, brut) : `726 fichier(s) .md
+contrôlé(s) — périmètre du dépôt. 0 erreur(s), 0 avertissement(s).`
 
 ## [2026-09-01] amendement | §VII — *Épreuve des contrôles* versée au protocole racine
 

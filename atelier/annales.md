@@ -10,6 +10,48 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] outillage | Registre de traitement des rapports — répondre mécaniquement à « ce rapport a-t-il déjà été regardé ? »
+
+Sidy signale, à raison, qu'un rapport traité dans cette session avait peut-être
+déjà été regardé par lui dans une autre session Claude Code — deux sessions ne
+pouvaient pas le savoir l'une de l'autre. Demande : une fonction pour marquer
+un rapport traité.
+
+**Conçu et implémenté** :
+
+1. `atelier/rd/infrastructure/monitoring-archive/registre-traitement.md` —
+   nouveau cahier append-only (même famille que `registre-problemes.md`) :
+   une entrée par rapport traité (`profil | job_id | date du rapport`), qui a
+   traité, résumé, lien vers le détail, commit. Couvre les rapports archivés
+   **et** les rapports collés en session (Publication, faute d'archive —
+   `INF-15`). Ouvert le 2026-09-02 : ne couvre par construction que les
+   rapports à partir de cette date — les huit rapports Studio déjà archivés
+   restent traçables via `registre-problemes.md` seul, absence d'entrée ici
+   pour eux n'étant pas un signal.
+2. `atelier/rd/outillage/verifier-rapports-traites.py` — script déterministe
+   (même famille que `detecter-non-tracke.py`) : confronte
+   `monitoring-archive/*.txt` au registre, signale tout rapport Studio
+   postérieur au 2026-09-02 sans entrée. Limite dite en sortie, pas tue : ne
+   couvre pas Publication (non archivé).
+3. `monitoring-archive-charte.md` renvoie vers les deux.
+
+**Épreuve du contrôle** (§VII racine), en bac à sable, jamais dans le dépôt
+vivant : état sain reconstitué → `0` ; rapport fabriqué daté du 2026-09-03
+sans entrée → `1`, correctement nommé en sortie ; registre supprimé → `2`,
+erreur propre. Un premier essai a d'ailleurs révélé deux défauts avant cette
+épreuve : le script ne captait pas une entrée écrite « rapport**s** du »
+(pluriel, hors gabarit) au lieu de « rapport du », et cette entrée elle-même
+violait le format documenté (une entrée par rapport, jamais un lot en une
+seule) — les deux corrigés dans le registre, pas dans le script.
+
+Trois entrées rétroactives consignées pour les deux rapports Publication et
+les quatre rapports Studio traités dans la passe précédente (même journée) —
+détail dans le registre lui-même.
+
+**Vérification structurelle** (§VII, brut) : `726 fichier(s) .md contrôlé(s) —
+périmètre du dépôt. 0 erreur(s), 0 avertissement(s).` Épreuve du script :
+sain → 0, faute fabriquée → 1 (nommée), registre absent → 2.
+
 ## [2026-09-02] correctif | Deux rapports Publication collés par Sidy — un défaut réel, un lien mort fabulé
 
 Suite de l'entrée précédente (même jour) : Sidy a collé dans la session les

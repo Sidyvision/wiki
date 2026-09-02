@@ -3,7 +3,7 @@ title: "Charte — Archive du monitoring infrastructure quotidien"
 type: infrastructure
 tags: [rd, infrastructure, monitoring, hermes, archive]
 created: 2026-08-18
-updated: 2026-08-19
+updated: 2026-09-02
 sources: []
 links: ["[[atelier/rd/outillage/spec-archiver-monitoring-quotidien]]", "[[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17]]", "[[atelier/rd/cahiers/registre-problemes]]"]
 infra_verif:
@@ -33,6 +33,16 @@ une copie par exécution du job Hermes `monitoring-infrastructure-quotidien`
 déclencher `verifier-invariants.py`/`generer-cartographie.py` sur l'archive
 elle-même). Ces fichiers ne portent pas de Sceau : ce ne sont pas des fiches
 du dépôt, mais un journal technique brut.
+
+## Traitement — a-t-on déjà regardé ce rapport ?
+
+Ouvert le 2026-09-02 (verdict Sidy) : `registre-traitement.md` consigne, pour
+chaque rapport traité (archivé ou collé en session), qui l'a regardé et ce qui
+en a été fait — pour qu'une session n'ignore pas qu'une autre est déjà passée.
+Vérification mécanique : `atelier/rd/outillage/verifier-rapports-traites.py`
+(déterministe, sans LLM). Limite assumée : ne couvre que les rapports Studio
+archivés ici ; les rapports Publication n'ont aucune trace mécanique tant
+qu'`INF-15` (`registre-chantiers.md`) n'étend pas cette archive à leur profil.
 
 ## Alimentation
 
