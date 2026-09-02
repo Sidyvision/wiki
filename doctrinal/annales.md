@@ -21,7 +21,7 @@ avec l'usage déjà en place sur cette fiche (ex. malamatiyah-futuhat-ch23).
 Graphe régénéré : la notice a désormais 2 liens entrants.
 `verifier-invariants.py` : 0 erreur, 0 avertissement sur 1350 fichiers.
 
-Commit à suivre.
+- **Commit** : 75dcbad
 
 ## [2026-09-02] archivage | DOC-07 — orpheline résolue : lien depuis Gloton
 
