@@ -121,8 +121,33 @@ en devanāgarī translittéré illisibles. La règle d'immuabilité s'applique :
 corrige pas**, on remplace par une conversion meilleure, datée. Ce qui est établi
 sur ces textes l'est dans les fiches `doctrinal/sources/`, qui portent le statut.
 
+## Troisième versement du 2026-09-02 — Osman Yahia
+
+*Histoire et classification de l'œuvre d'Ibn ʿArabī* (Institut Français de
+Damas, 1964) — catalogue critique de référence de l'œuvre d'Ibn ʿArabī (851
+ouvrages numérotés, « numéros OY »). Conversion arrivée au sas le jour même,
+versée directement du sas — deuxième cas d'usage du régime nouveau, sur
+verdict de Sidy (chantier DOC-07).
+
+- `osman-yahya-histoire-classification-oeuvre-ibn-arabi/` — 17 fichiers
+  (parties I-III, répertoire général de 851 numéros, tables de correspondance
+  manuscrits/imprimés, table des noms propres, front matter, index)
+
+Chaîne : `pdftoppm 300dpi` + `tesseract 5 (fra)` — français uniquement, les
+passages en graphie arabe ne sont pas OCRisés. Qualité **contrôlée et
+documentée dans la conversion elle-même** : translittérations diacritées
+approximatives, à ne jamais citer sans retour au scan. Le fichier
+`osman-yahya-08-repertoire.md` (18 111 lignes, numéros 1-851) reste d'un seul
+tenant, non découpé par chapitre.
+
+Ce que le dépôt en tire est porté dans
+`doctrinal/sources/osman-yahia-histoire-classification-1964.md`.
+
 ## Ce qui reste ouvert
 
 Le **régime des futurs** textes convertis — passent-ils encore par `raw/`, ou
 directement du sas vers `textes/` ? Question posée à Sidy, **non tranchée** :
-c'est elle qui décidera si le problème peut se reformer.
+c'est elle qui décidera si le problème peut se reformer. Deux versements
+directs sas→`textes/` sont maintenant faits (les deux Tilak, puis Osman Yahia)
+sans que la question ait été rouverte — précédent qui s'accumule, pas
+tranché pour autant.

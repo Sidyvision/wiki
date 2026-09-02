@@ -9,6 +9,33 @@ updated: 2026-09-02
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] archivage | DOC-07 — Osman Yahia versé, Futūḥāt Maymaniyya ajournée (OUT-08)
+
+Plan `_inbox/MASTER-UPDATE.md` (DOC-07) visé par Sidy pour sa partie Osman
+Yahia uniquement. **CRÉÉ** :
+[[doctrinal/sources/osman-yahia-histoire-classification-1964]] (`academique`)
+— notice sur le catalogue critique de l'œuvre d'Ibn ʿArabī (851 numéros OY),
+instrument de vérification pour les `to-source` déjà ouverts sur l'attribution
+de textes akbariens, ne levant aucun d'entre eux par elle-même. **VERSÉ** :
+`textes/osman-yahya-histoire-classification-oeuvre-ibn-arabi/` (17 fichiers,
+deuxième cas de versement direct sas→`textes/`, régime toujours non tranché —
+voir `textes/LISEZ-MOI.md`). Doublon monolithique brut
+(`_inbox/osman-yahya-histoire-classification-oeuvre-ibn-arabi.md`) retiré du
+sas, même règle que les doublons Tilak (Cmd 10, redouble intégralement les
+chapitres déjà versés).
+
+**Al-Futūḥāt al-Makkiyya, édition Maymaniyya, tome 1** — texte arabe original
+d'Ibn ʿArabī, `traditionnel`, rang le plus élevé du dépôt sur ce
+tradition_cadre. OCR (`tesseract 5 ara`) jugé **structurellement corrompu**, pas
+seulement ponctuellement dégradé comme chez Tilak — aucune fiche proposée,
+aucune citation possible en l'état (Cmd 5). Sidy tranche : nouvel essai d'OCR
+avant toute décision de versement — chantier **OUT-08** ouvert dans
+`atelier/rd/registre-chantiers.md`. Le fichier `.md` actuel, illisible, reste
+au sas sur demande explicite de Sidy (pas de suppression malgré son état) ; le
+PDF source demeure intact en `raw/`.
+
+Commit à suivre.
+
 ## [2026-09-02] archivage | Réouverture DOC-06 — sixième fiche sur le chapitre XIII, et vidage du sas
 
 Chantier DOC-06 (ingest des deux Tilak, cinq fiches, commit `47b03c5`) rouvert le

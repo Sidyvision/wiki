@@ -7874,6 +7874,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/osman-yahia-histoire-classification-1964",
+      "label": "Histoire et classification de l'œuvre d'Ibn ʿArabī — Osman Yahia (1964)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "islam",
+      "tags": [
+        "ibn-arabi",
+        "catalogue",
+        "classification",
+        "orientalisme",
+        "bibliographie"
+      ],
+      "updated": "2026-09-02",
+      "chemin": "doctrinal/sources/osman-yahia-histoire-classification-1964.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/platon-oeuvres-completes-brisson-2011",
       "label": "Œuvres complètes — Platon (Flammarion, 2011, dir. Luc Brisson)",
       "circuit": "doctrinal",
@@ -19879,6 +19898,20 @@
     {
       "source": "doctrinal/sources/nezami-pavillon-sept-princesses-barry",
       "target": "doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/osman-yahia-histoire-classification-1964",
+      "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/osman-yahia-histoire-classification-1964",
+      "target": "doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
