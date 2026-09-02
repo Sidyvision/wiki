@@ -10,6 +10,73 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-02] mise-en-production | L'Instrument sert le mode cosmologique — et DOC-06 ouvert pour Tilak
+
+**Mise en production, sur verdict de Sidy** (Cmd 13). `PUBLIER=1`, garde-fou
+`pre-push` vert, workflow de publication réussi. Vérifié **en ligne**, dans
+l'ordre imposé par INF-14 :
+
+1. **Page d'accueil intacte** — SHA-1 `6814d7f4846b6683e3854e6fa1a62df886723334`,
+   **identique à la capture de référence** prise avant tout accès au site.
+   C'était le premier contrôle, et c'est celui qui compte : une publication qui
+   écraserait la page d'accueil serait un dégât, pas une livraison.
+2. **Rendu servi identique au dépôt** — SHA-1 `c210d46b…` des deux côtés.
+3. **Manifeste servi** en schéma 0.2.6, bloc polaire présent : 2 stations,
+   3 listes d'états du soleil (15 noms + Mārtāṇḍa + Kaśyapa = **17 états
+   nommés**), 30 sœurs de l'aurore, obliquité dérivée 23,44°.
+
+Le mode cosmologique est donc **en ligne** sur `sidyvision.com/instrument/`.
+
+---
+
+**DOC-06 ouvert** sur verdict de Sidy : ingest des deux ouvrages de Tilak,
+33 000 lignes d'OCR au sas depuis ce matin.
+
+**Le motif du chantier n'est pas que la matière existe, mais qu'elle est déjà
+CONSOMMÉE sans être fichée** : la donnée de l'Instrument cite les Ādityas et les
+trente aurores, quand aucune page doctrinale ne les porte. C'est le défaut à
+corriger — pas « verser Tilak au dépôt ».
+
+**Plan d'ingest écrit et non exécuté** : `_inbox/MASTER-UPDATE.md`, instrument
+prévu par le §I pour les lots volumineux (« traités fiche par fiche dans l'ordre
+du manifeste »). Il satisfait l'Action ARCHIVAGE point 2 — le plan présenté avant
+toute écriture — sous forme consultable à froid plutôt qu'en échange de session.
+
+Ce qu'il propose : **cinq fiches, pas quinze**. Deux notices d'ouvrage (le sujet
+d'une notice est l'ouvrage, non le chapitre — Cmd 4) et trois fiches de matière,
+chacune justifiée par un besoin **déjà exprimé au dépôt**, jamais par le fait que
+la matière existe.
+
+Ce qu'il écarte, et le dit : la thèse historique de Tilak (résumée dans les
+notices, non installée dans le corps doctrinal) ; le chapitre XIII, matière
+d'histoire raciale de son époque, sans emploi au dépôt — **écarter une part d'une
+source est une décision**, elle est donc soumise, non exécutée.
+
+Six signalements doctrinaux arrêtés d'avance, dont : **Tilak est un index, pas
+une source primaire** (toute citation védique relevée chez lui reste `to-source`
+jusqu'à vérification sur édition du texte) ; la divergence 🌐 8 / 12 Ādityas,
+portée séparément et jamais fondue ; la lacune du Taittirīya Āraṇyaka, qui donne
+les huit noms sans dire lequel est Mārtāṇḍa — **à conserver comme lacune, non à
+combler** ; et l'interdiction d'office de rapprocher les **trois septénaires**
+(Ādityas solaires, Ṛṣis stellaires, Aqtāb planétaires).
+
+⚠️ **Le statut de Tilak est tranché d'avance pour que l'ingest ne le rouvre pas
+fiche par fiche** : `academique`, et l'estime de Guénon (« remarquable ouvrage »)
+n'y change rien — c'est une recommandation de lecture, non un adoubement.
+
+**Quatre questions posées à Sidy**, dont deux qui ne m'appartiennent pas : le
+découpage en cinq fiches est-il proportionné, et les 33 000 lignes d'OCR
+doivent-elles être versées à `raw/` ou rester hors git (elles sont aujourd'hui
+**non suivies**, et je les ai retirées de l'index lors de la première passe).
+
+- **Créé** : `_inbox/MASTER-UPDATE.md` (plan d'ingest, non exécuté)
+- **Modifié** : [[atelier/rd/registre-chantiers]] (DOC-06, table recomptée : 51)
+- **Dépôt frère** : `362f19e` poussé, workflow `33608817186` réussi
+- **En attente de Sidy** : visa du plan d'ingest et ses quatre questions
+
+---
+
+
 ## [2026-09-02] chantier | INS-15 phases 2 et 3 — le mode cosmologique existe, et deux gardes ont mordu sur du réel
 
 Plan visé par Sidy. Exécution des phases 2 (donnée et producteur) et 3 (rendu).

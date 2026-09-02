@@ -68,11 +68,12 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**50 chantiers ouverts** au 2026-09-02, plus 6 versés en §9 (clos ou caducs) et
+**51 chantiers ouverts** au 2026-09-02, plus 6 versés en §9 (clos ou caducs) et
 6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous
 modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
 Mis à jour le 2026-09-02 : ouverture de `BIB-03`, puis de `INS-15` — celui-ci
-passé `attente-verdict` → `en-cours` le même jour (plan visé, phases 2 et 3 faites).
+passé `attente-verdict` → `en-cours` le même jour (plan visé, phases 2 et 3 faites),
+et ouverture de `DOC-06` (ingest des deux Tilak).
 
 > **Note de recomptage (2026-09-02).** Deux sessions concurrentes ont porté deux
 > totaux différents sur cette ligne — 31/3/5/9 d'un côté, 30/3/5/10 de l'autre, tous
@@ -88,8 +89,8 @@ passé `attente-verdict` → `en-cours` le même jour (plan visé, phases 2 et 3
 | `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 2 | **5** |
-| `DOC` Doctrinal | 4 | — | — | 1 | **5** |
-| **Total** | **31** | **4** | **5** | **10** | **50** |
+| `DOC` Doctrinal | 4 | — | — | 2 | **6** |
+| **Total** | **31** | **4** | **5** | **11** | **51** |
 
 **Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
@@ -214,6 +215,7 @@ non dépouillées dans cette passe → §8.*
 | DOC-03 | Sources primaires à localiser : *ʿUqlat al-mustawfiz*, *Kitāb al-Inshāʾ al-Dawāʾir*, Meftah *Arma Artis* | `ouvert` | discipline des sources, §VII du protocole racine |
 | DOC-04 | Citations attribuées non vérifiées (Ibn ʿArabī, al-Ghazālī, le Cheikh) marquées `to-source` — cas le plus net signalé : `symboles/chercheur-manifestant-akbarien` | `ouvert` | levée par vérification primaire humaine, jamais par le modèle |
 | DOC-05 | Réserve résiduelle : lien explicite *wirātha* ↔ *aqtāb* non localisé dans le *Futūḥāt* ch. 36 — l'ancrage (c) de l'Instrument en dépend | `ouvert` | [[doctrinal/index]] §VII ; conséquence instrumentale en INS-11 |
+| DOC-06 | **Ingest des deux Tilak** — *The Arctic Home in the Vedas* (1903) et *The Orion* (1893), texte intégral anglais au sas depuis le 2026-09-02, **33 000 lignes d'OCR** non intégrées. La matière est déjà CONSOMMÉE par la donnée de l'Instrument (états du soleil, aurores) sans qu'aucune page doctrinale ne la porte — c'est le défaut à corriger | `attente-verdict` | Sidy vise le plan d'ingest `_inbox/MASTER-UPDATE.md` (5 fiches proposées, 4 questions posées) | [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] ; [[doctrinal/sources/guenon-atlantide-hyperboree]] (note 3) | — | 2026-09-02 |
 
 ## 8. À vérifier — non asserté ouvert
 
