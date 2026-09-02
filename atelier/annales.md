@@ -70,6 +70,7 @@ présenté avant l'écriture (Cmd 6) — le plan est proposé, il n'est pas exé
   [[atelier/rd/instrument/ins-15-situation-polaire/intent]]
 - **Proposé, non exécuté** : fiche `doctrinal/sources/guenon-atlantide-hyperboree`
 - **Hors dépôt** : contrôle 8 ajouté au vérificateur du bac à sable
+- **Commit** : 9fcc0d0
 - **Commit** : cae4d28
 
 ---
