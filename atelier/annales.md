@@ -9,6 +9,40 @@ updated: 2026-09-03
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-03] incident | Un `index()` non ancré détruit 1 600 lignes d'une transcription en cours
+
+Au cours de la transcription Gloton (pp. 17-77, archivée côté doctrinal), un script
+de correction du tableau de la p. 64 a ancré son `s.index()` sur un motif présent
+**deux fois** dans le fichier — le tableau de l'alphabet arabe figure identique aux
+pages 18 et 64. Le point de départ a été trouvé p. 18, le point d'arrivée p. 64 :
+le découpage a emporté l'intervalle, soit 17 blocs de page (pp. 31 à 62), 1 618
+lignes sur 2 355. **Le script s'est terminé sans erreur.**
+
+Rendu visible dans la minute par le contrôle mécanique qui suit chaque écriture
+(§VIII.2) : 737 lignes et 13 blocs contre 2 355 et 44 attendus.
+
+Récupération intégrale depuis le journal de session, qui conserve le corps de chaque
+heredoc d'ajout : 17 blocs réextraits et réinsérés, 44 blocs recomptés. Le fichier
+n'étant pas encore suivi par git, aucun `checkout` n'était possible — la récupération
+a dépendu d'un artefact extérieur au dépôt.
+
+**CRÉÉ** : `atelier/rd/incidents/2026-09-03_splice-index-non-ancre-destruction-partielle.md`
+— déroulé, méthode de récupération, quatre enseignements (ancrage unique vérifié,
+`assert` sur l'invariant, contrôle mécanique après écriture, commit intermédiaire sur
+pièce longue).
+
+**Post-scriptum, relevé en écrivant cette entrée** : la première tentative d'insertion
+a échoué sur son propre garde-fou — `<!-- INSERTION: EN-TÊTE -->` apparaît **deux
+fois** dans ce fichier, le marqueur réel en tête et une citation du marqueur dans une
+entrée de 2026-08. Exactement la faute décrite ci-dessus. Cette fois l'`assert` a
+tenu et rien n'a été écrit.
+
+**Question ouverte à Sidy** : les deux premiers enseignements — ancrage unique et
+`assert` d'invariant avant tout découpage de fichier — relèvent-ils d'une consigne
+`CLAUDE.md`, ou restent-ils en retour d'expérience R&D ?
+
+`verifier-invariants.py` : 0 erreur, 0 avertissement sur 1356 fichiers.
 ## [2026-09-03] correctif | OmniRoute relevé d'une mise à jour npm coupée par un arrêt serveur — et le serveur refermé
 
 Sidy signale OmniRoute et Hermes hors service au retour d'un redémarrage.
