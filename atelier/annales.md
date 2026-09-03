@@ -53,6 +53,8 @@ jeton de rafraîchissement, et le pare-feu cloud Hetzner à vérifier.
 
 `verifier-invariants.py` : 0 erreur, 0 avertissement sur 1353 fichiers.
 
+- **Commit** : d1c3542
+
 
 ## [2026-09-02] archivage | OUT-08 — `anydoc` (Firecrawl) examiné : piste OCR cloud fermée par le §VIII
 
