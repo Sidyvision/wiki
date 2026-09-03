@@ -1,13 +1,57 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-03] archivage | Transcription Gloton pp. 17-77 — 28 photographies, lecture directe
+
+Second lot de photographies versé par Sidy dans `raw/Une approche du Coran -
+Gloton/` (IMG_0414 à IMG_0442, `raw/` *gitignored*, immuable — §II). Transcrit par
+**lecture directe** des images : l'OCR (`tesseract -l fra`) a été essayé puis écarté
+— sur une double page il lit en travers des deux pages, mélange les colonnes et
+détruit les diacritiques de la translittération, donc inutilisable pour une source
+(Cmd 5).
+
+**CRÉÉ**, en source convertie sous `textes/` (PRO-08), donc sans Sceau, cible
+d'aucun wikilink et ne levant aucun `to-source` :
+
+- `textes/une-approche-du-coran-gloton/corps-du-texte.md` — 44 blocs de page,
+  **pp. 17-77** : abréviations, tableau de l'alphabet, l'*Introduction* entière,
+  les termes grammaticaux, et la section **A — Graphisme et phonétique** des
+  repères **Aa** à **Ah**.
+- `textes/une-approche-du-coran-gloton/table-des-matieres.md` — sommaire pp. 9-10,
+  pièce strictement documentaire et d'orientation (§VII.1).
+
+**Trois lacunes du lot** déclarées dans la pièce et non comblées : IMG_0418 absent
+de la séquence (pp. 19-30) ; pp. 59-60 non photographiées — établi par deux indices
+concordants, le décalque au dos de la p. 62 et le sommaire qui annonce *II —
+Grammaire* p. 59 ; p. 63 non photographiée. Les colonnes non textuelles et la
+grille de catégories illisible des pp. 68-69 sont signalées sur place comme **non
+restituées**, avec la raison, plutôt que reconstituées de force.
+
+**Incident de manipulation, signalé sans être masqué (§VIII.2).** Une correction du
+tableau de la p. 64 par script a ancré son `index()` sur le premier tableau de même
+en-tête — celui de la p. 18 — et a supprimé les 1 600 lignes intermédiaires (blocs
+pp. 31 à 62), avant tout commit. Récupération intégrale depuis le journal de session,
+qui conserve chaque commande d'ajout : les 17 blocs ont été réextraits de leurs
+heredocs d'origine et réinsérés, le décompte de blocs vérifié (44) et le fichier
+recontrôlé. Rien n'est perdu. **Leçon retenue** : un `index()` non ancré sur un motif
+unique n'est pas un outil d'édition sûr sur un fichier à sections répétées.
+
+Fiche [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] complétée d'une
+section sur cette transcription (`updated` remonté, Cmd 8) ; index mis à jour ;
+graphe régénéré.
+Cmd 15 (caractères Unicode invisibles) : 0 occurrence.
+`verifier-invariants.py` : **0 erreur, 0 avertissement sur 1355 fichiers**.
+
+- **Commit** : 2b2d647
+
 
 ## [2026-09-02] archivage | DOC-07 — second lien entrant, depuis Ibn ʿArabī
 
