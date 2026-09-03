@@ -91,6 +91,15 @@ sécurité avait remplacé le jeton, en laissant une espace après le `=`. Le
 `source` échouait donc sur `not a valid identifier` et la variable se chargeait
 **vide**. Le jeton d'origine est à considérer comme compromis.
 
+**Résolu en fin d'intervention.** L'opérateur a fourni une clé API OmniRoute
+(`sk-0125…`), validée contre `/v1/models` (HTTP 200, 878 modèles) puis posée
+dans le fichier, désormais en `600` :
+
+```bash
+export ANTHROPIC_BASE_URL=http://localhost:20128
+export ANTHROPIC_AUTH_TOKEN=sk-…
+```
+
 ### L'authentification d'OmniRoute dépend de l'endpoint
 
 Erreur de raisonnement commise puis corrigée en cours d'intervention :
@@ -193,7 +202,13 @@ préfixe `!` ne vaut que dans l'invite de Claude Code, jamais dans un shell.
 
 ## Reste à faire
 
+- [x] Poser une clé API OmniRoute valide dans `/root/.omniroute-env.sh`
+      *(fait — validée contre `/v1/models`, HTTP 200)*
 - [ ] Réautoriser la connexion OAuth Claude : `bash /root/reconnecter-claude.sh`
+      *(le flux démarre — le `401` initial venait de l'absence de `--api-key`
+      pour OmniRoute lui-même, non de Claude ; les identifiants Claude Code
+      locaux sont valides jusqu'au 2026-09-26, mais l'import automatique
+      retombe sur le flux navigateur, qui reste interactif)*
 - [ ] Décider du sort de `cerebras` (crédits épuisés)
 - [ ] Vérifier le pare-feu **cloud Hetzner**, distinct du pare-feu hôte
 - [ ] Le jeton caviardé étant à considérer comme compromis, envisager la

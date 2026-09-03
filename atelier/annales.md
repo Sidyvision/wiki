@@ -40,7 +40,7 @@ conclusion trop large corrigée en cours de route sur l'authentification
 d'OmniRoute, qui **dépend de l'endpoint**.
 
 Reste ouvert : la connexion OAuth Claude, réactivée mais **expirée**
-(`reconnect-claude.sh` prêt), et le pare-feu cloud Hetzner à vérifier.
+(`reconnecter-claude.sh` prêt), et le pare-feu cloud Hetzner à vérifier.
 
 → [[atelier/rd/infrastructure/incident-2026-09-03-omniroute-npm-interrompu-durcissement-ssh]]
 
