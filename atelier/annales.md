@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,41 @@ updated: 2026-09-02
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-03] correctif | OmniRoute relevé d'une mise à jour npm coupée par un arrêt serveur — et le serveur refermé
+
+Sidy signale OmniRoute et Hermes hors service au retour d'un redémarrage.
+Cause : `npm install -g omniroute` (3.8.49 → 3.8.50), lancé à 14:02, coupé par
+l'extinction à 15:15 **entre le retrait de l'ancien paquet et la pose du
+nouveau**. Corps du paquet absent, lien `/usr/bin/omniroute` détruit,
+`status=203/EXEC`, **450 redémarrages** en boucle. Hermes tombait par ricochet,
+son `ANTHROPIC_BASE_URL` visant le port 20128 muet.
+
+Réinstallation après mise de côté (et non suppression) de la 3.8.49 intacte,
+retrouvée dans le dossier temporaire npm. Vérifié **bout en bout** et non au
+seul niveau du processus : `health` sain, `providers test-all` au vert,
+complétion réelle routée vers `openai/gpt-oss-20b`. 3,5 Go rendus après
+validation.
+
+Le diagnostic a mis au jour une exposition antérieure à l'incident : OmniRoute
+écoutait sur `0.0.0.0`, sans pare-feu, **neuf clés fournisseurs** offertes à
+qui atteignait le port ; et **6 659 tentatives SSH échouées en 24 h** contre un
+root en mot de passe sans aucune clé publique. `ufw` posé (règles avant
+activation), clé ED25519 installée, `PasswordAuthentication no` — vérifié par
+un `Permission denied (publickey)` réel, pas par la seule lecture de la
+configuration.
+
+Trois enseignements retenus en fiche : l'ordre des `Include` de sshd
+(`50-cloud-init.conf` primait silencieusement sur le fichier principal) ; le
+repli d'affichage du terminal iPad qui **injecte de vrais retours à la ligne**
+dans les commandes collées, d'où le passage par des scripts courts ; et une
+conclusion trop large corrigée en cours de route sur l'authentification
+d'OmniRoute, qui **dépend de l'endpoint**.
+
+Reste ouvert : la connexion OAuth Claude, réactivée mais **expirée**
+(`reconnect-claude.sh` prêt), et le pare-feu cloud Hetzner à vérifier.
+
+→ [[atelier/rd/infrastructure/incident-2026-09-03-omniroute-npm-interrompu-durcissement-ssh]]
+
 
 ## [2026-09-02] archivage | OUT-08 — `anydoc` (Firecrawl) examiné : piste OCR cloud fermée par le §VIII
 
