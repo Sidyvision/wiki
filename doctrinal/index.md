@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 # Le Catalogue Universel
@@ -313,7 +313,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation|Le Règne de la Quantité, avant-propos et ch. III : science des nombres, mesure et manifestation (Guénon)]] — nombre principiel vs quantitatif ; définition du rite comme conformité à l'« ordre »
 - [[doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres|La Grande Triade, ch. VIII : nombres célestes et nombres terrestres (Guénon)]] — métaphysique du Nombre, échange hiérogamique 5/6, la mesure et non la nature
 - [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi|Al-Rāzī, Traité sur les Noms divins, ch. XVIII : al-Khāfiḍ et al-Rāfiʿ]] — les deux Noms « déterminent l'élévation ou la chute **en degrés** » ; Coran LVI, 3 attribue les deux à un seul événement ; ⚠️ `to-source` sur l'apparat éditorial (traducteur/pagination non vérifiés), non sur le texte
-- [[doctrinal/sources/gloton-approche-coran-grammaire-lexique|Une approche du Coran par la grammaire et le lexique (Maurice Gloton, Albouraq)]] — lexique des racines coraniques ; p. 412 (racine ر ف ع, 29 occurrences) et p. 857 (table des sourates, pièce documentaire) photographiées le 2026-08-30
+- [[doctrinal/sources/gloton-approche-coran-grammaire-lexique|Une approche du Coran par la grammaire et le lexique (Maurice Gloton, Albouraq)]] — lexique des racines coraniques ; p. 412 (racine ر ف ع, 29 occurrences) et p. 857 (table des sourates, pièce documentaire) photographiées le 2026-08-30 ; **pp. 17-77 transcrites le 2026-09-03** par lecture directe de 28 nouvelles photographies, déposées en source convertie dans `textes/une-approche-du-coran-gloton/` avec le sommaire (pp. 9-10) — trois lacunes du lot déclarées (pp. 19-30, 59-60, 63)
 
 ---
 

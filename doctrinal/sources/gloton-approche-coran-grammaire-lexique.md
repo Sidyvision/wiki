@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [gloton, lexique, racines-arabes, coran, rafa, darajat, transcription, albouraq]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-03
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]"]
@@ -147,6 +147,39 @@ de Gloton donne pour la sourate 7 : **206 versets**. ✅ **Concordance.**
 > Ces contrôles ne valident que la **cohérence des renvois**. Ils ne valident aucun
 > contenu doctrinal et ne substituent pas la vérification du texte primaire par
 > Sidy (§VII.2).
+
+## Transcription des pp. 17-77 (2026-09-03)
+
+Un second lot de **28 photographies** a été versé par Sidy dans
+`raw/Une approche du Coran - Gloton/` (IMG_0414 à IMG_0442, `raw/` *gitignored*).
+Il a été transcrit par **lecture directe** — l'OCR a été essayé (`tesseract -l fra`)
+puis écarté : sur une double page il lit en travers des deux pages, mélange les
+colonnes et détruit les diacritiques de la translittération.
+
+La transcription est déposée en **source convertie** dans `textes/` (PRO-08), pas en
+fiche :
+
+- `textes/une-approche-du-coran-gloton/corps-du-texte.md` — 44 blocs de page,
+  couvrant les **pp. 17-77** : abréviations, tableau de l'alphabet, l'*Introduction*
+  entière (But et méthode ; Que faut-il entendre par Coran ; Le symbolisme du Livre),
+  les termes grammaticaux, et le début de la section **A — Graphisme et phonétique**
+  (repères **Aa** à **Ah**).
+- `textes/une-approche-du-coran-gloton/table-des-matieres.md` — le sommaire complet
+  (pp. 9-10), pièce **strictement documentaire et d'orientation** (§VII.1) : elle dit
+  *où chercher* dans l'exemplaire physique.
+
+> ⚠️ **Trois lacunes du lot photographique**, déclarées dans la pièce et non comblées :
+> IMG_0418 est absent de la séquence (**pp. 19-30** non couvertes) ; les **pp. 59-60**
+> n'ont pas été photographiées (ouverture de la section *II — Grammaire*, établie par
+> le décalque au dos de la p. 62 et par le sommaire) ; la **p. 63** n'a pas été
+> photographiée. Les colonnes non textuelles (tracés de lettres, grilles de catégories
+> illisibles, reports sur schéma anatomique) sont signalées sur place comme non
+> restituées plutôt que reconstituées de force.
+
+> Comme toute pièce de `textes/`, cette transcription **ne porte aucun Sceau**, n'est
+> la cible d'aucun wikilink, et **ne lève par elle-même aucun `to-source`** : elle
+> reste une conversion de format, et le contrôle du texte primaire par Sidy demeure
+> requis (§VII.2, Cmd 5).
 
 ## Emploi de cet ouvrage dans le dépôt
 
