@@ -134,6 +134,39 @@ preuve, seul l'appel réel tranche.**
 Relevé au passage : le fournisseur `cerebras` s'est auto-désactivé sur
 `credits_exhausted`.
 
+**Résolu — et l'occasion d'une erreur instructive.** La réautorisation par
+l'opérateur n'a pas rafraîchi la connexion existante : elle en a créé une
+**seconde**, sous `sidyvision@gmail.com`, laissant l'ancienne
+(`56xfmzr7kj@privaterelay.appleid.com`) active mais `expired` — « No refresh
+token available ».
+
+Voyant deux connexions actives sous le même fournisseur, j'ai supposé que la
+nouvelle était l'intruse et je l'ai désactivée. **C'était l'inverse** :
+`sidyvision@gmail.com` *est* le compte d'OmniRoute et de `claude-omni` ; la
+connexion `privaterelay` est l'ancienne, périmée. L'opérateur a corrigé, la
+connexion a été réactivée aussitôt.
+
+Vérification après coup : `cc/claude-haiku-4-5-20251001` — le modèle exact du
+profil `claude-omni` — répond **HTTP 200** avec une complétion réelle.
+
+**Leçon** : deux comptes Claude coexistent sur cette machine. L'appartenance
+d'une connexion ne se déduit **pas** de son ancienneté ni de son format
+d'adresse. Le seul juge est l'opérateur — à lui demander avant toute
+désactivation.
+
+### Comment `claude-omni` s'articule
+
+L'alias est défini dans `/root/.bashrc` :
+
+```bash
+alias claude-omni='CLAUDE_CONFIG_DIR=~/.claude/profiles/cc-claude-haiku-4-5-20251001 claude'
+```
+
+Il tire sa configuration du `settings.json` **de ce profil** (`ANTHROPIC_BASE_URL`
+vers le port 20128, `ANTHROPIC_MODEL=cc/claude-haiku-4-5-20251001`), et **non**
+de `/root/.omniroute-env.sh` — lequel ne sert qu'aux shells interactifs. Les
+deux chemins sont indépendants : modifier l'un n'affecte pas l'autre.
+
 ## Volet sécurité — exposition découverte et refermée
 
 Le diagnostic a mis au jour une exposition antérieure à l'incident :
@@ -204,11 +237,13 @@ préfixe `!` ne vaut que dans l'invite de Claude Code, jamais dans un shell.
 
 - [x] Poser une clé API OmniRoute valide dans `/root/.omniroute-env.sh`
       *(fait — validée contre `/v1/models`, HTTP 200)*
-- [ ] Réautoriser la connexion OAuth Claude : `bash /root/reconnecter-claude.sh`
-      *(le flux démarre — le `401` initial venait de l'absence de `--api-key`
-      pour OmniRoute lui-même, non de Claude ; les identifiants Claude Code
-      locaux sont valides jusqu'au 2026-09-26, mais l'import automatique
-      retombe sur le flux navigateur, qui reste interactif)*
+- [x] Réautoriser la connexion OAuth Claude *(fait — `sidyvision@gmail.com`
+      reconnecté, `cc/claude-haiku-4-5-20251001` valide à HTTP 200. Le `401`
+      initial venait de l'absence de `--api-key` pour OmniRoute lui-même, non
+      de Claude)*
+- [ ] Décider du sort de la connexion `56xfmzr7kj@privaterelay.appleid.com`,
+      active mais **expirée sans jeton de rafraîchissement** — à réautoriser
+      si elle sert encore, à retirer sinon
 - [ ] Décider du sort de `cerebras` (crédits épuisés)
 - [ ] Vérifier le pare-feu **cloud Hetzner**, distinct du pare-feu hôte
 - [ ] Le jeton caviardé étant à considérer comme compromis, envisager la

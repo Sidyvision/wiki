@@ -39,10 +39,19 @@ dans les commandes collées, d'où le passage par des scripts courts ; et une
 conclusion trop large corrigée en cours de route sur l'authentification
 d'OmniRoute, qui **dépend de l'endpoint**.
 
-Reste ouvert : la connexion OAuth Claude, réactivée mais **expirée**
-(`reconnecter-claude.sh` prêt), et le pare-feu cloud Hetzner à vérifier.
+Connexion OAuth Claude réautorisée en clôture — `cc/claude-haiku-4-5-20251001`,
+le modèle même de `claude-omni`, répond HTTP 200. À noter : la réautorisation
+crée une **seconde** connexion au lieu de rafraîchir l'ancienne, et j'ai d'abord
+désactivé la mauvaise des deux, croyant l'ancienne légitime. Sidy a rectifié :
+`sidyvision@gmail.com` est bien le compte d'OmniRoute. **L'appartenance d'une
+connexion ne se déduit pas — elle se demande.**
+
+Reste ouvert : l'ancienne connexion `privaterelay`, active mais expirée sans
+jeton de rafraîchissement, et le pare-feu cloud Hetzner à vérifier.
 
 → [[atelier/rd/infrastructure/incident-2026-09-03-omniroute-npm-interrompu-durcissement-ssh]]
+
+`verifier-invariants.py` : 0 erreur, 0 avertissement sur 1353 fichiers.
 
 
 ## [2026-09-02] archivage | OUT-08 — `anydoc` (Firecrawl) examiné : piste OCR cloud fermée par le §VIII
