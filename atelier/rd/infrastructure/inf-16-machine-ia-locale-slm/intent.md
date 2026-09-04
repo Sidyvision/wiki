@@ -119,5 +119,5 @@ résultat serait connu d'avance n'en serait pas une.
 | Le budget, ou la fourchette, que Sidy accepte d'engager | **Sidy** (Cmd 13) |
 | Le lieu d'installation (proximité du studio → contrainte de bruit réelle ou non) | **Sidy** |
 | Prix exacts des configurations NVIDIA et des paliers Apple au-delà de l'entrée de gamme | **mesure** : relevé daté à faire (étape 2 du plan) |
-| Débits réels (tok/s) d'un SLM candidat sur chaque famille de matériel | **mesure** : non mesurable sans essai (étape 4 du plan) |
+| Débits réels (tok/s) d'un SLM candidat sur chaque famille de matériel | **Sidy** : depuis la fermeture de l'option E (2026-09-04), il n'existe plus de moyen de mesurer avant d'acheter — trois voies de remplacement sont posées à l'étape 4 du plan, le choix lui revient |
 | Coût récurrent réel de la couche modèle actuelle (API + abonnements) | **mesure** : à relever, jamais estimé |

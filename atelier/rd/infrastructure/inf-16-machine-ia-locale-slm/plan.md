@@ -44,25 +44,39 @@ et les autres circuits) ; (c) la taille mémoire des modèles candidats, d'aprè
 leurs fiches publiées. Cette étape retire à elle seule plusieurs cellules du
 « non relevé ».
 
-**Étape 3 bis — Retrouver le motif de la suspension des containers GPU cloud.**
-Il conditionne l'honnêteté de l'option E et n'est consigné nulle part
-(`to-source` du `spec.md`). Si le motif reste introuvable, l'écrire tel quel :
-« motif non retrouvé », plutôt que de trancher l'option sans lui.
+**~~Étape 3 bis~~ — sans objet depuis le 2026-09-04.** Le motif de la suspension
+des containers GPU cloud est établi (verdict de Sidy, §*Verdict* du `spec.md`) :
+configuration trop fastidieuse, facturation maintenue à l'arrêt, coût
+disproportionné pour du matériel non possédé. L'étape est conservée barrée
+plutôt que retirée (Cmd 10) — c'est la trace de ce qui a été cherché.
 
-**Étape 4 — Montage à blanc avant tout achat.** Louer quelques heures de GPU
-cloud (option E utilisée comme **instrument de mesure**, pas comme solution) et y
-éprouver la charge de référence retenue sur un SLM candidat : débit réel,
-qualité de sortie sur les tâches U1/U2, durée d'un fine-tuning de référence pour
-U4. C'est la seule façon de remplir les critères 4, 5 et 6 par une mesure plutôt
-que par une réputation — et le premier montage réel de la sandbox `/root/sandbox-rd/`,
-ouverte le 2026-08-18 et **encore vide** (`INF-02`).
+**Étape 4 — refondue le 2026-09-04.** La version initiale prévoyait de louer
+quelques heures de GPU cloud comme **instrument de mesure** avant tout achat.
+Elle tombe : le premier point du verdict — la configuration fastidieuse — vaut
+identiquement pour un essai d'une heure et pour un usage durable, et le
+troisième vaut a fortiori pour une dépense qui ne laisse aucun bien. Prétendre
+maintenir l'étape en la disant « petite » reviendrait à contourner le verdict
+plutôt qu'à en tenir compte.
 
-Deux gardes non négociables sur cette étape :
-- **Aucune matière de `meta/` ne quitte le dépôt**, ni pour un essai, ni sous
-  forme d'extrait (§VI). L'essai se fait sur du corpus neutre — `doctrinal/`,
-  `textes/` — ou sur des données fabriquées pour l'occasion.
-- **La dépense, si modeste soit-elle, est un point de retour à l'humain**
-  (Cmd 13, ci-dessous).
+Il n'existe donc **plus de moyen de mesurer avant d'acheter**. C'est un fait du
+chantier, pas un échec : il faut le porter, non le masquer. Trois voies de
+remplacement, à trancher par Sidy :
+
+| Voie | Ce qu'elle donne | Ce qu'elle coûte |
+|---|---|---|
+| **4a — Décider sur données publiées** | débits et durées repris de mesures tierces, sourcées et datées | ce ne sont pas *nos* mesures sur *notre* charge : la matrice le porte en toutes lettres, jamais fondu avec du mesuré (§VII) |
+| **4b — La machine la moins chère devient l'instrument de mesure** | on acquiert d'abord le plus petit matériel qu'on voudrait de toute façon (option B), on y mesure la charge de référence réelle, et l'on ne décide qu'ensuite d'un éventuel palier supérieur | une dépense engagée avant la comparaison complète — mais sur un bien possédé, revendable, et utile même si le verdict final va ailleurs |
+| **4c — Renoncer à la mesure préalable** | on tranche sur la seule matrice documentaire | risque assumé de surdimensionner ou de sous-dimensionner, à couvrir par le critère 10 (réversibilité) |
+
+**La voie 4b mérite d'être regardée en premier** : elle retourne la contrainte
+en méthode. Le matériel devient lui-même le banc d'essai, la dépense reste
+proportionnée, et la réversibilité (Cmd 10) y est réelle — un bien possédé se
+revend ou se réaffecte, une heure de location ne laisse rien. C'est aussi, dans
+l'esprit du dépôt, un montage à blanc au sens propre : on éprouve avant
+d'engager le gros.
+
+Garde maintenue quelle que soit la voie : **aucune matière de `meta/` ne quitte
+le dépôt** (§VI), y compris pour un essai et y compris sous forme d'extrait.
 
 **Étape 5 — Remplir la matrice.** Les 7 options × 12 critères, chaque cellule
 mesurée, sourcée+datée, ou explicitement « non relevé ». L'option F (statu quo)
@@ -119,11 +133,19 @@ Quatre, dont deux avant toute action :
 
 1. **Le visa de ce plan** (Cmd 6) — rien ne démarre sans lui.
 2. **L'arrêt de la charge de référence** (étape 1) — Sidy seul.
-3. **La location de calcul de l'étape 4** — dépense, si petite soit-elle
-   (Cmd 13), et sortie de matière du dépôt vers un tiers (§VI) : le corpus
-   exact envoyé est soumis avant l'essai.
-4. **La décision d'achat** (étape 6) — préparée par la machine, tranchée par
+3. **Le sort de l'option D** (serveur GPU dédié loué) — le critère qui a fermé E
+   (« trop coûteux pour du matériel dont on n'est pas propriétaire ») semble
+   l'emporter de la même façon, mais l'écarter serait une décision, pas un
+   relevé (Cmd 13). Question posée à Sidy, non tranchée ici.
+4. **Le choix de la voie de mesure** (étape 4 : 4a documentaire, 4b la petite
+   machine comme banc d'essai, 4c sans mesure préalable) — la voie 4b engage une
+   dépense avant la fin de la comparaison, donc elle relève de Sidy.
+5. **La décision d'achat** (étape 6) — préparée par la machine, tranchée par
    Sidy. C'est l'objet même du chantier, et son seul terme.
+
+> **Ce que le verdict du 2026-09-04 a déjà retiré du plan** : la location de
+> calcul, qui figurait ici en point 3. Elle n'est pas reportée, elle est fermée
+> (option E, §*Verdict* du `spec.md`).
 
 ## Journalisation
 

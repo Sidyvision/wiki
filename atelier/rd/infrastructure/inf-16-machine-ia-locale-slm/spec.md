@@ -42,15 +42,37 @@ d'avance ; l'ordre ci-dessous n'est pas un classement.
 | **A** | Mac Studio (M5 Max / M5 Ultra) | SLM **et** modèles de référence larges (jusqu'à 512 Go de mémoire unifiée) | rien d'obligé — le LLM cloud devient facultatif |
 | **B** | Mac mini (M6 ou M5 Pro) + LLM cloud (hypothèse de Sidy) | le SLM seul | le LLM : abonnements/API |
 | **C** | Poste NVIDIA mono-GPU (24–32 Go de VRAM) | le SLM, entraînement compris, en écosystème CUDA | le LLM, sauf modèle ouvert de taille moyenne quantifié |
-| **D** | Serveur GPU dédié loué (hébergeur) | le SLM, mais **chez un tiers** — souveraineté d'usage, pas de possession | le matériel lui-même, et le LLM |
-| **E** | GPU à l'heure (RunPod, Vast, Lambda) pour rafales d'entraînement | rien en continu ; l'entraînement ponctuel seulement | tout le reste |
+| **D** | Serveur GPU dédié loué (hébergeur) | le SLM, mais **chez un tiers** — souveraineté d'usage, pas de possession | le matériel lui-même, et le LLM — ⚠ voir le verdict ci-dessous |
+| **E** | GPU à l'heure (RunPod, Vast, Lambda) pour rafales d'entraînement | rien en continu ; l'entraînement ponctuel seulement | tout le reste — ⚠ **écartée le 2026-09-04**, voir ci-dessous |
 | **F** | Statu quo — aucune machine, montée de RAM du Hetzner seule | rien | tout (état actuel) — **c'est la référence à battre** |
 | **G** | Combinaisons étagées (ex. B maintenant + C plus tard ; ou E pour entraîner + B pour servir) | selon l'étage | selon l'étage |
 
-**Note sur E** : les containers GPU cloud ont déjà été utilisés puis suspendus
-(mentionné dans [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]]
-§État actuel). Le motif exact de la suspension n'est pas consigné au dépôt — à
-retrouver avant de conclure quoi que ce soit sur cette option.
+### Verdict de Sidy du 2026-09-04 — l'option E est fermée
+
+Le motif de la suspension des containers GPU cloud, qui manquait au dépôt
+(`to-source` levé ce jour par Sidy en session), tient en trois points :
+
+1. **Configuration trop fastidieuse** dans l'état actuel du setup — le poste de
+   travail est un iPad, aucune machine locale n'accompagne la mise en route.
+2. **Facturation même à l'arrêt** : le conteneur éteint continue de coûter.
+3. **Coût disproportionné pour du matériel dont on n'est pas propriétaire.**
+
+Le troisième point n'est pas une remarque de circonstance : c'est un **critère**,
+et il ne vise pas que E. Il frappe **l'option D de la même façon** — un serveur
+GPU dédié est loué au mois, qu'on s'en serve ou non, et ne devient jamais un
+bien. La conséquence est portée dans la matrice au critère 10 (réversibilité),
+pas seulement au critère 2 (coût).
+
+Statut retenu : **E est écartée comme solution permanente** (verdict de Sidy).
+Elle reste mentionnée dans la matrice — un chantier de comparaison consigne
+pourquoi une option tombe, il ne l'efface pas (Cmd 10). **D reste ouverte
+jusqu'à confirmation de Sidy** : le même critère semble l'emporter, mais
+l'écarter serait une décision, pas un relevé (Cmd 13).
+
+Conséquence de méthode, portée au `plan.md` : la mesure préalable à l'achat
+passait par E. Elle n'est plus disponible, et le premier point du verdict — la
+configuration fastidieuse — vaut identiquement pour un essai ponctuel et pour un
+usage durable. Le plan est repris sur ce point plutôt que maintenu tel quel.
 
 ## Les critères de comparaison
 
@@ -162,9 +184,10 @@ programme.
 
 ## Ce qui reste `to-source`
 
-- Le motif de la **suspension des containers GPU cloud** : mentionné dans la
-  fiche AngelSpec, jamais consigné en propre. Sans lui, l'option E ne peut être
-  ni retenue ni écartée honnêtement.
+- ~~Le motif de la **suspension des containers GPU cloud**~~ — **levé le
+  2026-09-04** par Sidy en session : configuration trop fastidieuse dans l'état
+  du setup, facturation maintenue à l'arrêt, coût disproportionné pour du
+  matériel non possédé. Consigné au §*Verdict de Sidy* ci-dessus.
 - Les **débits réels** (tok/s en inférence, durée d'un fine-tuning de référence)
   par famille de matériel : aucune valeur publiée ne remplace une mesure sur la
   charge de référence retenue. Marqués `to-source` jusqu'à l'essai de l'étape 4
