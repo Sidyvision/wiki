@@ -3,7 +3,7 @@ title: "Registre des chantiers — carte vivante des travaux ouverts du dépôt"
 type: registre
 tags: [atelier, rd, registre, chantiers, pilotage]
 created: 2026-09-01
-updated: 2026-09-02
+updated: 2026-09-04
 sources: []
 links:
   - "[[atelier/rd/index]]"
@@ -68,10 +68,12 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**51 chantiers ouverts** au 2026-09-02, plus 7 versés en §9 (clos ou caducs) et
+**52 chantiers ouverts** au 2026-09-04, plus 7 versés en §9 (clos ou caducs) et
 6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous
 modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
-Mis à jour le 2026-09-02 : ouverture de `BIB-03`, puis de `INS-15` — celui-ci
+Mis à jour le 2026-09-04 : ouverture de `INF-16` (machine d'IA locale et
+développement SLM, chantier de comparaison, triptyque posé, plan en `brouillon`).
+Avant cela, le 2026-09-02 : ouverture de `BIB-03`, puis de `INS-15` — celui-ci
 passé `attente-verdict` → `en-cours` le même jour (plan visé, phases 2 et 3 faites),
 et ouverture de `DOC-06` (ingest des deux Tilak, **fait** le jour même) puis de `PRO-08`.
 
@@ -84,13 +86,13 @@ et ouverture de `DOC-06` (ingest des deux Tilak, **fait** le jour même) puis de
 | Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
 |---|---|---|---|---|---|
 | `INS` Instrument | 10 | 1 | 1 | 3 | **15** |
-| `INF` Infrastructure & agents | 7 | 3 | 1 | 3 | **14** |
+| `INF` Infrastructure & agents | 8 | 3 | 1 | 3 | **15** |
 | `OUT` Outillage & scripts | 5 | — | 1 | — | **6** |
 | `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 2 | **5** |
 | `DOC` Doctrinal | 4 | 1 | — | 1 | **6** |
-| **Total** | **31** | **5** | **5** | **10** | **51** |
+| **Total** | **32** | **5** | **5** | **10** | **52** |
 
 **Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
@@ -162,6 +164,7 @@ non dépouillées dans cette passe → §8.*
 | INF-12 | Positions zodiacales 5, 8 et 12 des agents : les douze brouillons existent sur disque (2026-08-15), mais le compte-rendu de chantier les donne « non traitées, en attente de verdict » — contradiction non levée | `attente-verdict` | confronter brouillons et verdict | `atelier/rd/cahiers/brouillons-extension-zodiacale/` ; jalon du 2026-08-20, P4.9 | — | 2026-08-11 |
 | INF-13 | Scission du dépôt : le rendu de l'Instrument passe au dépôt frère `Sidyvision/instrument` (privé) — le §VII, *Règle commune des MANIFESTES*, exprimé en infrastructure plutôt qu'en discipline | `en-cours` | **clos pour l'essentiel** : dépôt frère créé, **passé public** le 2026-09-01 (verdict Sidy), `main` protégée avec `enforce_admins` actif et **épreuve réelle du refus faite**. Reste différée (Cmd 13) : l'automatisation du manifeste (PAT + workflow) — l'étage manuel fonctionne | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | 2026-09-01 |
 | INF-15 | `monitoring-archive-charte.md` n'archive que le job Studio (`41dc3e7e492c`) — le rapport quotidien Publication (`veille-referencement-investigation-08`, mandat §B, investigation documentaire) n'a aucune trace au dépôt ; une session d'INTÉGRATION ne peut traiter ses suggestions de sourcing que si Sidy les recopie à la main dans `_inbox/` | `attente-verdict` | Sidy tranche : étendre la charte au profil `publication`, ou assumer la copie manuelle | [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-09-02]` §3 | — | 2026-09-02 |
+| INF-16 | Machine d'IA locale et développement SLM — aucune capacité d'inférence locale n'existe (le serveur n'a pas de GPU), alors que la charte du pôle vise l'émancipation des intermédiaires tiers. Ouvert **comme comparaison**, sur consigne de Sidy : explorer les options (Mac Studio, Mac mini + LLM cloud, poste NVIDIA, GPU loué, GPU à l'heure, statu quo, montages étagés) jusqu'à la meilleure | `ouvert` | **étape 1** : Sidy arrête la charge de référence (lesquels des cinq usages U1–U5 comptent) — rien ne peut être comparé avant. Plan en `brouillon`, visa attendu (Cmd 6) | demande de Sidy du 2026-09-04 ; [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] §1 et §4.2 ; [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] (OUT-07, `bloque` sur cette absence même) | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]] | 2026-09-04 |
 
 ## 3. Outillage & scripts (`OUT`)
 
