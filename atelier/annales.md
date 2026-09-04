@@ -9,6 +9,47 @@ updated: 2026-09-04
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-04] chantier | INF-16 — le GPU loué écarté : un critère de propriété entre dans la comparaison
+
+Le `to-source` ouvert quelques heures plus tôt est levé par Sidy en session. Le
+motif de la suspension des containers GPU cloud tient en trois points :
+configuration trop fastidieuse dans l'état du setup — le poste de travail est un
+iPad, aucune machine locale n'accompagne la mise en route ; **facturation
+maintenue même conteneur éteint** ; et coût disproportionné pour du matériel dont
+on n'est pas propriétaire.
+
+Le troisième point n'a pas été traité comme une remarque de circonstance mais
+comme un **critère**, et il ne vise pas que l'option E : un serveur GPU dédié
+loué (option D) se paie au mois qu'on s'en serve ou non et ne devient jamais un
+bien. E est donc écartée comme solution permanente ; D est **laissée ouverte**,
+la question posée à Sidy — l'écarter d'office serait une décision, pas un relevé
+(Cmd 13). Rien n'est effacé : une option qui tombe reste dans la matrice avec le
+motif de sa chute (Cmd 10).
+
+La conséquence la plus lourde porte sur la méthode, pas sur la liste. L'étape 4
+du plan prévoyait de louer quelques heures de GPU comme **instrument de mesure**
+avant tout achat. Elle tombe avec E : le motif de configuration vaut identiquement
+pour un essai d'une heure et pour un usage durable, et maintenir l'étape en la
+disant « petite » aurait contourné le verdict au lieu d'en tenir compte.
+**Il n'existe donc plus de moyen de mesurer avant d'acheter** — porté comme un
+fait du chantier, non masqué.
+
+Trois voies de remplacement sont posées, verdict à Sidy : décider sur données
+publiées sourcées (4a, jamais fondues avec du mesuré) ; faire de la machine la
+moins chère l'instrument de mesure du palier supérieur (4b) ; ou renoncer à la
+mesure préalable en couvrant le risque par la réversibilité (4c). La 4b est
+signalée comme méritant d'être regardée en premier : elle retourne la contrainte
+en méthode — un bien possédé se revend ou se réaffecte, une heure de location ne
+laisse rien.
+
+→ [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] §Verdict ·
+[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan]] §Étape 4
+
+`verifier-invariants.py` : 0 erreur, 0 avertissement sur 1356 fichiers.
+
+- **Commit** : 7673053
+
+
 ## [2026-09-04] chantier | INF-16 — ouverture d'un chantier de comparaison pour la machine d'IA locale et le développement SLM
 
 Sidy s'intéresse à la nouvelle gamme Mac Studio, puis formule une hypothèse
