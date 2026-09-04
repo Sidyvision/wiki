@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-03
+updated: 2026-09-04
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,70 @@ updated: 2026-09-03
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-04] chantier | INF-16 — ouverture d'un chantier de comparaison pour la machine d'IA locale et le développement SLM
+
+Sidy s'intéresse à la nouvelle gamme Mac Studio, puis formule une hypothèse
+propre : héberger le SLM en local sur un Mac mini et garder l'accès au LLM par
+abonnement/API. Consigne donnée en session : **ouvrir le chantier en explorant
+les diverses options jusqu'à trouver la meilleure** — donc ne pas partir d'une
+solution. `INF-16` est ouvert sous cette forme : son objet n'est pas une
+machine, c'est une comparaison.
+
+Trois faits déjà au dépôt le motivent, aucun supposé. Le serveur Hetzner n'a
+**aucun GPU** (§1 de la cartographie de routing) et sa RAM est déjà la
+contrainte dominante du système. `OUT-07` (speculative decoding, Tencent) est au
+statut `bloque` avec pour prochaine action exacte « rouvrir si un chantier
+d'inférence GPU locale est ouvert » — le présent chantier est cette ouverture.
+Et la couche modèle est entièrement chez des tiers, avec des fragilités
+mesurées : quota Qwen épuisé, combo `auto/best-free` instable, `omniroute` en
+point de défaillance unique, coupé net le 2026-09-03 par une mise à jour npm
+interrompue.
+
+Le triptyque est posé. Le `spec.md` tient **sept** options ouvertes — Mac
+Studio, Mac mini + LLM cloud, poste NVIDIA, serveur GPU loué, GPU à l'heure,
+statu quo, montages étagés — comparées sur douze critères dont la souveraineté
+réelle (quelle couche cesse de dépendre d'un tiers), la réversibilité (Cmd 10)
+et l'étanchéité §VI. L'option « ne rien acheter » y est renseignée comme les
+autres : c'est la référence à battre, et le chantier peut réussir en la
+retenant.
+
+Le point de bascule est nommé et n'est pas budgétaire : il tient à la **charge
+de référence**. Cinq usages candidats sont posés (tri des tâches Hermes, filtre
+d'étanchéité §VI mécanisé, recherche sémantique du dépôt, fine-tuning d'un SLM,
+distillation depuis un modèle large). Si le dernier est retenu, une très grande
+mémoire unifiée se justifie ; sinon elle est un surdimensionnement. Arrêter
+cette liste est l'étape 1, et elle appartient à Sidy seul — rien ne peut être
+comparé avant.
+
+Les faits Apple relevés ce jour sont datés et sourcés (annonce du 25 août,
+expédition du 22 septembre, 512 Go repoussés à fin octobre, 2 499 $ d'entrée de
+gamme pour le Studio, 899 $ pour le mini). Tout le reste — paliers supérieurs,
+prix NVIDIA, tarifs d'hébergeurs, consommation électrique, et le **coût
+récurrent réel de la couche modèle actuelle** — est explicitement marqué non
+relevé plutôt qu'estimé (Cmd 5).
+
+Le `plan.md` reste en `brouillon` : aucun de ses sept pas n'est engagé sans visa
+(Cmd 6). Il porte quatre points de retour à l'humain, dont la location de
+quelques heures de GPU cloud à l'étape 4 — utilisée comme **instrument de
+mesure**, pas comme solution, et qui serait le premier montage réel de la
+sandbox `/root/sandbox-rd/`, ouverte le 2026-08-18 et encore vide (`INF-02`).
+Garde posée sur cet essai : aucune matière de `meta/` ne quitte le dépôt, pas
+même sous forme d'extrait.
+
+Contrôle d'hygiène Unicode (Cmd 15) éprouvé dans les deux sens avant commit :
+0 caractère invisible sur les 4 fichiers touchés, et refus effectivement observé
+sur une chaîne portant un ZWJ fabriqué pour l'occasion (§VII, épreuve des
+contrôles).
+
+→ [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]] ·
+[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] ·
+[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan]]
+
+`verifier-invariants.py` : 0 erreur, 0 avertissement sur 1356 fichiers.
+
+- **Commit** : 81dc622
+
+
 ## [2026-09-03] correctif | OmniRoute relevé d'une mise à jour npm coupée par un arrêt serveur — et le serveur refermé
 
 Sidy signale OmniRoute et Hermes hors service au retour d'un redémarrage.
