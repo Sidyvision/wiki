@@ -9,6 +9,17 @@ updated: 2026-09-05
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-05] rd | Cahier — critère de discernement pour l'attribution du `status`
+
+- **Action** : ouverture de `atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique.md` (`type: experience`, `statut_experience: reproduit`, 194 lignes). Consigne le critère énoncé par Sidy le 2026-09-05 — la démarche académique occidentale moderne étant structurellement biaisée, `academique` qualifie une **allégeance épistémologique**, non une position institutionnelle ; discerner entre les agents de cette démarche et les acteurs traditionnels qui investissent l'institution pour opérer un redressement depuis l'intérieur.
+- **Fait déclencheur** : la machine avait cherché à fixer le `status` d'Al-Akili en s'alignant sur le précédent du dossier `doctrinal/autorites/`. Sidy a corrigé — « Hamza Yusuf et Faraz Rabbani sont des figures traditionnelles » : le précédent invoqué ne documentait pas une règle mais un classement erroné. Erreur de méthode consignée, rapprochée de l'incident du 2026-09-03 (motif du corpus pris pour règle du corpus).
+- **Appui doctrinal** : quatre passages de Guénon relevés dans `textes/la-crise-du-monde-moderne/` sur l'apologétique — position défensive, registre de l'excuse, doctrine mise sur le même plan qu'une théorie moderne, accord recherché avec la science moderne (« travail parfaitement illusoire et toujours à refaire »). Contre-épreuve du même texte : « on peut se dire "traditionaliste" sans avoir la moindre notion du véritable esprit traditionnel ». Table de six marques observables tirée de ces passages.
+- **Catalogue** : *Orient et Occident* (Guénon, 1924) porté à la section René Guénon de `atelier/rd/bibliotheque/catalogue-bibliotheque.md` — **en possession, non converti**, signalé par Sidy comme le complément le plus instructif de *La Crise*. Vérification préalable faite (absent du catalogue, de `textes/` et de `raw/`) conformément à la discipline des sources, §VII point 1.
+- **Étanchéité** : liens vers `doctrinal/` à sens unique et signalés en tête de fiche (§VI). Le sens inverse reste interdit — la consigne doctrinale issue de ce cahier ne le cite pas.
+- **Suite** : critère porté en consigne dans `doctrinal/CLAUDE.md` sur verdict de Sidy du 2026-09-05 (entrée propre aux annales doctrinales). Passe de relevé ouverte sur les six fiches `status: academique` de `doctrinal/autorites/`.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` → `0 erreur(s), 3 avertissement(s)` (les trois `[C1]` connus, antérieurs et étrangers à cette passe). Cmd 15 : propre.
+- **Commit** : 2d3d531
 ## [2026-09-05] outillage | Script de conversion Ibn Seerin's Dictionary of Dreams
 
 - **Action** : Dépôt du script reproductible `atelier/rd/outillage/convertir-ibnsirin-dictionnaire-reves.py` — conversion du PDF `raw/IbnSirin_dictionary_of_dreams.pdf` (552 pages, OCR anglais Adobe Paper Capture) vers `textes/ibn-sirin-dictionary-of-dreams/` (30 fichiers : front matter, A-Z, index, bibliographie).
