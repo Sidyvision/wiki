@@ -1,13 +1,55 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-03
+updated: 2026-09-05
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-05] archivage | Ibn Seerin's Dictionary of Dreams (Al-Akili) — versement au cabinet de lecture
+
+Versement fait côté Hermes par Sidy, passé ici pour contrôle de routine et
+intégration. **CRÉÉ** : `textes/ibn-sirin-dictionary-of-dreams/` — 30 fichiers,
+34 791 lignes, PRO-08 (cabinet de lecture : pas de Sceau, aucun wikilink, hors
+graphe). Aucune fiche doctrinale n'est ouverte sur cette source à ce stade.
+
+**Chaîne de conversion** — à ne pas confondre avec celle d'Osman Yahia et de la
+Futūḥāt (`pdftoppm 300dpi + tesseract 5`) : ici, extraction par `pymupdf` de la
+couche texte **déjà présente** dans le PDF, produite en amont par Adobe Acrobat 8
+Paper Capture (OCR anglais). L'OCR est donc réel mais étranger au dépôt, et
+défectueux — en-têtes en casseau de glyphes, lettres recollées, translittérations
+arabes approximatives. L'index porte l'avertissement : aide au repérage, jamais
+texte critique, toute citation exige le retour au scan.
+
+**Contrôles mécaniques** (résultats bruts) :
+- Couverture des pages : les 29 plages de l'index pavent 2→552 sans trou ni
+  recouvrement ; 551 marqueurs `<!-- page N -->` uniques, min 2, max 552, aucun
+  doublon. La page 1 (couverture) est absente — cohérent avec une couche texte
+  sans couverture.
+- Hygiène Unicode (Cmd 15) : aucun U+200B/C/D/E/F ni U+FEFF sur les 30 fichiers.
+- `verifier-invariants.py` : `exit=0`, 1394 fichiers contrôlés, **0 erreur,
+  3 avertissements** — tous C1 et tous étrangers à ce versement (fiches
+  `rafi-ad-darajat` et `sashimono`). Zéro ligne ibn-sirin.
+  *Réserve* : `verifier-invariants.py` est lui-même modifié et non commité par
+  une session en cours — c'est le verdict d'un contrôleur non versionné.
+
+**Aucune mise en forme appliquée.** L'alignement de l'en-tête sur celui d'Osman
+Yahia (`type: conversion`, `links:`) avait été proposé puis **retiré** : PRO-08
+`spec.md` pose que `textes/` ne porte aucun Sceau, donc aucune convention
+n'impose ce vocabulaire. Toucher le fichier aurait été du cosmétique déguisé en
+conformité.
+
+**RETIRÉ du sas** : `_inbox/conversions/` (copie octet pour octet de l'original
+versé, `diff -rq` muet — non suivi par git, donc retrait sans trace d'historique)
+et `_inbox/MASTER-UPDATE.md` (plan DOC-07, périmé : son intégration est faite ;
+suivi par git, récupérable en `b8529f4`). **Conservés** : `.gitkeep` (incident ACL
+du 2026-08-31) et `al-futuhat-al-makkiyya-maymaniya-p1.md`, matière de travail du
+chantier OUT-08 — sa destination reste une question ouverte à Sidy.
+
+- **Commit** : c2abc84
 
 ## [2026-09-03] archivage | Transcription Gloton pp. 17-77 — 28 photographies, lecture directe
 
