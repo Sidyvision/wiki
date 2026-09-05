@@ -15,6 +15,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Chantier** : `OUT-15` ouvert dans `registre-chantiers.md` (statut `ouvert`).
 - **Diagnostique** : la veille Cordis (août 2026) a identifié 7 repos externes mais n'a jamais émis le rapport événementiel Discord requis par la gouvernance Discord-Validation (Volet 2). Le chaînon manquant : le passage de la piste repérée à l'échantillon validé puis consigné.
 - **Preuve** : `verifier-invariants.py` passe sans erreur (0 erreur, 3 avertissements pré-existants). Commit `9099506`.
+- **Échantillon A** : skill `spatiotemporal-composability` réappropriée et consignée dans `atelier/rd/outillage/out-15-sampling-cordis/skill-prototype/SKILL.md`. Commit `2cf63f7`. Vérifiée `verifier-invariants.py` (0 erreur).
 - **Prochaine étape** : rapport Discord `#infrastructure` (Volet 2) → verdict Sidy sur l'échantillon A (skill).
 - **Précautions** : réappropriation conceptuelle uniquement (pas de copie directe, license absente). Fiche créée après échec de `skill_manage` : patience nécessaire.
 
