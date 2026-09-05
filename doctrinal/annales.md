@@ -9,6 +9,18 @@ updated: 2026-09-05
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-05] amendement | `doctrinal/CLAUDE.md` — précision sur `status: academique`
+
+- **Action** : ajout d'une précision aux *Définitions des Statuts*, immédiatement à la suite de la précision du 2026-07-28 sur `type: deviation`, dont elle reprend exactement la forme (blockquote, amendement daté, verdict Sidy).
+- **Lettre** : la démarche académique occidentale moderne est **épistémologiquement et structurellement biaisée**. Il ne s'ensuit pas que tout auteur inscrit dans ce cadre reçoive `academique` — le titre universitaire n'est pas le critère, l'**allégeance épistémologique** l'est. Discerner entre les **agents de cette démarche**, qui en portent les présupposés (`academique`), et les **acteurs traditionnels qui investissent l'institution** pour opérer un redressement depuis l'intérieur (`traditionnel`).
+- **Indice** : l'**écart** — une caution, un cadrage ou une concession empruntés au registre moderne. Marque donnée par Guénon (*La Crise du monde moderne*) : l'attitude apologétique, « purement défensive », qui « pour paraître conciliant » admet « des conceptions qui n'ont été inventées que pour ruiner toute religion » ; l'accord recherché avec la science moderne, « travail parfaitement illusoire et toujours à refaire ».
+- **Contre-épreuve inscrite dans la consigne** : « on peut même se dire "traditionaliste" sans avoir la moindre notion du véritable esprit traditionnel ». Le critère coupe dans les deux sens — une revendication d'appartenance n'est pas plus un verdict qu'un titre.
+- **Garde-fou** : la consigne borne explicitement l'office de la machine — relever les écarts et les porter en « points de vigilance », **matériau du discernement et non réserve sur un statut déjà attribué** ; ne jamais en conclure une valeur de `status` (Cmd 12), ni s'aligner sur le classement des fiches voisines (« un précédent de dossier n'est pas une règle »). Cette dernière clause est la contrepartie normative de l'erreur commise le 2026-09-05 sur la fiche Al-Akili.
+- **Origine** : verdict de Sidy du 2026-09-05, en réponse à la question portée par le cahier R&D ouvert le même jour. Ce cahier n'est **pas** cité dans la consigne : `doctrinal/` → `atelier/rd/` est interdit (§VI), la consigne se suffit à elle-même, citations de Guénon comprises.
+- **Portée** : aucune fiche existante n'est reclassée par cet amendement. Les six fiches `status: academique` de `doctrinal/autorites/` restent en l'état ; une passe de relevé est ouverte, fiche par fiche, sans modification de valeur par la machine.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` → `0 erreur(s), 3 avertissement(s)` (les trois `[C1]` connus, antérieurs et étrangers à cette passe). Cmd 15 : propre.
+- **Commit** : 39c8f49
+
 ## [2026-09-05] rectification | Al-Akili — `status: traditionnel`
 
 Rectification de l'entrée ci-dessous, le jour même. Le verdict de Sidy du
