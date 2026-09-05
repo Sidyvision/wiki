@@ -9,6 +9,25 @@ updated: 2026-09-05
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-05] rectification | Al-Akili — `status: traditionnel`
+
+Rectification de l'entrée ci-dessous, le jour même. Le verdict de Sidy du
+2026-09-05 (« Status Traditionnel avec une fiche du traducteur à créer »)
+portait sur **l'homme comme sur l'ouvrage** ; il avait été rapporté au seul
+ouvrage, et `doctrinal/autorites/muhammad-al-akili.md` versée en
+`STATUT-A-TRANCHER`. Erreur de lecture de la machine, non du verdict, signalée
+par Sidy.
+
+`status:` porté à `traditionnel`, section *Statut* réécrite en conséquence. Les
+trois *Points de vigilance* sont **maintenus** au dossier : ils consignent des
+faits relevés dans l'ouvrage (absence de chaîne de transmission déclarée, cadre
+jungien de l'avant-propos d'Ayoub qui n'est pas de la main d'Al-Akili), non des
+réserves sur la valeur attribuée.
+
+Contrôle : `verifier-invariants.py` — **0 erreur, 3 avertissements**, inchangé.
+
+- **Commit** : 662fd27
+
 ## [2026-09-05] integration | Ibn Seerin (Al-Akili) — fiche source et instruction du compilateur
 
 Suite du versement du même jour. Deux fiches créées sur verdict de Sidy, plus
