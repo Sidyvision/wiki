@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-09-02
+updated: 2026-09-04
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -2913,3 +2913,31 @@ empiriquement (nouvelle tentative du destinataire concerné à consigner).
   `CLAUDE.md` §VI, Cmd 10.
 - **Statut** : `resolu`.
 
+
+## [2026-09-04] Un contrôle vert n'attestait pas que les liens du cartouche aboutissent
+
+- **Problème** : `verifier-invariants.py` appliquait C1 (« lien non résolu ») au
+  **corps** des fiches seulement. Les wikilinks déclarés en `sources:`,
+  `cross_links:` et `links:` n'étaient vus que par B2, qui compare `sources_count`
+  à la longueur de la liste sans vérifier qu'une cible existe. Sept liens de
+  cartouche ne résolvaient pas, sans qu'aucun contrôle ne le dise.
+- **Découverte** : épreuve §VII lors de l'intégration *The Sabri Ben Rommane's
+  Theory*. La **même chaîne morte** levait C1 dans le corps et passait en silence
+  dans `cross_links:`.
+- **Fausse piste d'abord consignée** : la conclusion « le script ne contrôle pas
+  l'existence des cibles de wikilinks » — trop large, rectifiée le jour même
+  (Cmd 5). Le contrôle existait ; c'est son **périmètre de lecture** qui était en
+  cause.
+- **Résolution** : `controler_liens_cartouche()` (C1/C2 seulement, C3/C4 non
+  reportés — ce serait un changement de règle). Épreuve §VII refaite en copie
+  jetable : sain 7 → faute 8 → restauré 7. Ligne de base du dépôt portée de 0/0 à
+  **0 erreur / 7 avertissements**.
+- **Compréhension tirée** : deux relevés faits à la main ont chacun manqué des cas
+  que le contrôle outillé trouve — listes YAML en blocs à guillemets simples,
+  identifiant arXiv employé comme wikilink, chemin à slash final. Le repérage
+  manuel d'un invariant n'est pas un contrôle : il ne se reproduit pas et
+  n'échoue pas visiblement.
+- **Liens** : `atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md` ;
+  `doctrinal/annales.md`, entrée du 2026-09-04 ; `CLAUDE.md` §VII.
+- **Statut** : `resolu` pour le contrôle ; **sept cibles en cours d'instruction**
+  avec Sidy, une par une.
