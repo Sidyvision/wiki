@@ -521,6 +521,59 @@ def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
                         f"l'exemption C3 — [[{brut}]]")
 
 
+# Champs du cartouche dont les valeurs peuvent porter des wikilinks.
+CHAMPS_LIENS_CARTOUCHE = ("sources", "cross_links", "links")
+
+
+def controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap):
+    """C1/C2 appliqués aux wikilinks déclarés dans le frontmatter.
+
+    Extension du 2026-09-04 (verdict Sidy), motivée par une épreuve §VII : la
+    même chaîne morte levait C1 dans le corps et passait en silence dans
+    `cross_links:`. B2 ne comptait que la longueur de la liste, sans jamais
+    vérifier qu'une cible existe — un cartouche vert attestait des listes bien
+    formées, non des liens qui aboutissent.
+
+    Portée volontairement étroite : **C1 et C2 seulement**. L'étanchéité des
+    champs de cartouche relève de B4 (`sources:` doctrinal → meta/) ; C3/C4 ne
+    sont PAS reportés ici, ce serait un changement de règle, non une extension
+    de couverture — il demanderait son propre verdict.
+
+    Ne sont pas des wikilinks et sont ignorés sans bruit : le marqueur
+    `to-source`, et les chemins nus vers `raw/` (circuit hors régime de liens,
+    binaires non résolvables par construction — reprise du 2026-09-04).
+    """
+    nom = os.path.basename(chemin_rel)
+    if fm is None:
+        return
+    if chemin_rel in FICHIERS_EXEMPTS_C1 or nom in FICHIERS_EXEMPTS_C1:
+        return
+    for champ in CHAMPS_LIENS_CARTOUCHE:
+        valeur = fm.get(champ)
+        if valeur is None:
+            continue
+        entrees = valeur if isinstance(valeur, list) else [valeur]
+        for entree in entrees:
+            if not isinstance(entree, str):
+                continue
+            for brut in RE_WIKILINK.findall(entree):
+                cible = brut.strip().replace("\\", "/")
+                if cible.endswith(".md"):
+                    cible = cible[:-3]
+                if RE_LIEN_PLACEHOLDER.match(cible):
+                    continue
+                if cible in par_chemin:
+                    continue
+                candidats = par_slug.get(os.path.basename(cible), [])
+                if not candidats:
+                    rap.avertir(chemin_rel, "C1",
+                                f"lien non résolu au cartouche (`{champ}:`) : [[{brut}]]")
+                elif len(candidats) > 1:
+                    rap.avertir(chemin_rel, "C2",
+                                f"slug ambigu au cartouche (`{champ}:`) [[{brut}]] "
+                                f"→ {len(candidats)} cibles possibles")
+
+
 # --------------------------------------------------------------------------
 # Orchestration
 # --------------------------------------------------------------------------
@@ -573,6 +626,7 @@ def main():
             fm, corps, _ = separer_frontmatter(texte)
             controler_frontmatter(chemin_rel, fm, rap)
             controler_liens(chemin_rel, corps, par_chemin, par_slug, rap)
+            controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap)
             if nom in NOMS_ANNALES:
                 controler_annales(chemin_abs, chemin_rel, rap)
             controles += 1
