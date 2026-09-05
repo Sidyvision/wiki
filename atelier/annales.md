@@ -9,6 +9,14 @@ updated: 2026-09-05
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-05] outillage | Script de conversion Ibn Seerin's Dictionary of Dreams
+
+- **Action** : Dépôt du script reproductible `atelier/rd/outillage/convertir-ibnsirin-dictionnaire-reves.py` — conversion du PDF `raw/IbnSirin_dictionary_of_dreams.pdf` (552 pages, OCR anglais Adobe Paper Capture) vers `textes/ibn-sirin-dictionary-of-dreams/` (30 fichiers : front matter, A-Z, index, bibliographie).
+- **Chaîne** : extraction pymupdf page par page, découpage par section lettre, conservation des marqueurs `<!-- page N -->`.
+- **Statut** : sortie brute de machine, qualité OCR médiocre (en-têtes de pages mués en glyphes, ligatures recollées) — aide au repérage, jamais texte critique. Qualité documentée dans `textes/ibn-sirin-dictionary-of-dreams/index-conversion.md`.
+- **Intégration** : fichiers committés côté Claude Code (commit `c2abc84`, puis `bf0dad5` pour les annales). Ce script est le reproductible ajouté à l'outillage.
+- **Vérification** : `verifier-invariants.py` passe (0 erreur). Commit `7f3a9c1`.
+
 ## [2026-09-05] integration | Sampling comme fonction de Studio — première fiche (OUT-15)
 
 - **Action** : Création de la fiche `atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis.md` — positionnement du *sampling* comme fonction opérationnelle de l'agent Studio via le mandat `infrastructure-veille` Volet 2, avec premier échantillon : la skill `spatiotemporal-composability` (eSaadster) et le pattern sandbox `cordis-wasm` (inso1337), tous deux Cordis, réappropriation conceptuelle imposée par l'absence de license déclarée (SPDX None).
