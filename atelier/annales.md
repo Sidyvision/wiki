@@ -6201,3 +6201,14 @@ des fiches `doctrinal/discernement/`.
   * Réserve résiduelle (fiche doctrinal) : lien explicite wirātha↔aqtāb non localisé dans
     extrait transmis du Futūḥāt ch. 36 — à rechercher pour ancrage (c) plus complet.
 - **Génération manifeste** : `wiki-manifest.json` produit sans anomalie.
+
+<!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-05] integration | Sampling comme fonction de Studio — première fiche (OUT-15)
+
+- **Action** : Création de la fiche `atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis.md` — positionnement du *sampling* comme fonction opérationnelle de l'agent Studio via le mandat `infrastructure-veille` Volet 2, avec premier échantillon : la skill `spatiotemporal-composability` (eSaadster) et le pattern sandbox `cordis-wasm` (inso1337), tous deux Cordis, réappropriation conceptuelle imposée par l'absence de license déclarée (SPDX None).
+- **Chantier** : `OUT-15` ouvert dans `registre-chantiers.md` (statut `ouvert`).
+- **Diagnostique** : la veille Cordis (août 2026) a identifié 7 repos externes mais n'a jamais émis le rapport événementiel Discord requis par la gouvernance Discord-Validation (Volet 2). Le chaînon manquant : le passage de la piste repérée à l'échantillon validé puis consigné.
+- **Preuve** : `verifier-invariants.py` passe sans erreur (0 erreur, 3 avertissements pré-existants). Commit `9099506`.
+- **Prochaine étape** : rapport Discord `#infrastructure` (Volet 2) → verdict Sidy sur l'échantillon A (skill).
+- **Précautions** : réappropriation conceptuelle uniquement (pas de copie directe, license absente). Fiche créée après échec de `skill_manage` : patience nécessaire.
