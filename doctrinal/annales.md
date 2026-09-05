@@ -4163,3 +4163,131 @@ Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection
 - **Étanchéité** : fiches tenues hors doctrinal/discernement/ ; aucune adoption doctrinale ; aucune prétention métaphysique dans la fiche d'expression.
 
 ---
+
+## 2026-09-04 — INTÉGRATION : *The Sabri Ben Rommane's Theory*
+
+- **Opération** : INTÉGRATION (source convertie + fiche source + discernement)
+- **Source brute** : `raw/The Sabri Ben Rommane's Theory/` — 42 captures d'écran
+  (IMG_0443 → IMG_0486) d'un entretien vidéo **Blogging Theology** (hôte : Paul
+  Williams). Lien communiqué par Sidy en cours de session :
+  `https://youtu.be/-8P-D_agsdc` — la consultation automatique a été refusée par
+  une page anti-robot ; **les métadonnées ont été fournies par Sidy le même jour**
+  et inscrites à la fiche : *Did the Qur'an Hide a Secret Algorithm for 1400
+  Years?*, chaîne **Blogging Theology**, mise en ligne le **2 mai 2026**. La bande
+  elle-même n'a pas été visionnée par la machine — la fiche repose sur les
+  captures. `raw/` non modifié.
+- **Auteur** : Sabri B. Rommane
+- **Créé** :
+  - `textes/sabri-ben-rommane-theory/corps-du-texte.md` — transcription des **41
+    diapositives distinctes** (42 fichiers − 1 doublon), par lecture directe (PRO-08, sans Sceau)
+  - `doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat.md` —
+    `status: academique` (verdict Sidy)
+  - `doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite.md` —
+    `status: speculatif`, ouvert **sur verdict exprès de Sidy** (« Fiche
+    Discernement à rédiger »), contre la recommandation de la machine — qui avait
+    argué que le genre `discernement` vise les spéculations propres de
+    l'utilisateur. Le verdict tranche : c'est bien la reprise à son compte qui
+    fait entrer la matière dans le genre.
+  - `atelier/rd/outillage/verifier-recursion-qaf.py` et sa spécification —
+    *scripter le déterministe*
+- **Verdict de Sidy sur le plan présenté** : « Academique, garde textes/, et les
+  deux cross_links proposés. Fiche Discernement à rédiger ». Les deux
+  `cross_links` (ilm-al-huruf et gloton-approche-coran-grammaire-lexique) sont
+  donc **inscrits**, non plus proposés.
+- **Diagnostic territorial (grille des trois territoires, 2026-08-11)** :
+  **Doctrine** pour la fiche source (fait de structure établi et sourçable) ;
+  **Discernement** pour la portée métaphysique (dossier ouvert, non tranché) ;
+  **R&D** pour l'outil de contrôle. Les trois volets sont tenus séparés.
+- **Signalements doctrinaux** :
+  1. **Contradiction interne au diaporama.** La règle énoncée (« Hamza = terminal
+     node », IMG_0445 / IMG_0479) donne la série 3, 9, 25, 67, **179**. La série
+     publiée (IMG_0480) est 3, 8, 21, 56, **151**, qui exige que la hamza ne soit
+     **jamais émise**. L'exemple travaillé par l'auteur lui-même (IMG_0446 :
+     ق ا ف ا ل ف ف ا, huit lettres, aucune hamza) suit la règle **opérante**, pas
+     la règle **énoncée**.
+  2. **Résultat reproduit.** Sous la règle opérante, le découpage publié suit
+     exactement : motif `[3,3,2,3,3,2,2,3,3,3,2,3,3,3,2,3,2]` identique terme à
+     terme, somme **45** sans troncature, **et suite des lettres-parents
+     identique** aux étiquettes des diapositives de groupe. Le constat 1 porte sur
+     l'énoncé de la règle, pas sur l'arithmétique du découpage.
+  3. **Légende fautive, IMG_0447** : *Alif* et *Fā* figurent chacun dans les deux
+     colonnes de longueur. Sans effet sur le motif publié.
+  4. **Incertitude de lecture consignée sans être tranchée** : la vignette
+     d'IMG_0446 se lit « 131 » à la résolution disponible ; IMG_0480 et IMG_0481
+     donnent **151** ; le calcul donne **151**. Les trois observations sont
+     enregistrées ; **aucune coquille n'est affirmée** sur une image non relisible.
+  5. **Lacunes du lot** : IMG_0456 et IMG_0471 absents ; IMG_0474 et IMG_0475 sont
+     deux captures d'une même diapositive ; anomalie d'ordre entre IMG_0457 (qui
+     récapitule le Groupe 6) et IMG_0458 (qui l'expose). Signalées sur place, non
+     comblées.
+  6. **Contrôle lexical par Gloton — portée bornée.** L'auteur invoque « school of
+     thought of arabic grammar » sans la nommer. Gloton atteste qu'une telle
+     position existe (hamza sans valeur numérique, alphabet compté à 28, al-Khalîl
+     et Blachère, *hamzat al-waṣl* qui « ne s'écrit ni ne se prononce » en
+     liaison). Cela **borne** la plausibilité de la règle opérante ; cela ne
+     **fournit pas** la référence manquante.
+  7. **Double ancrage signalé** sur le discernement : filiation orthodoxe
+     (ilm-al-huruf) **et** parenté hétérodoxe (technologisation-pseudo-scientifique).
+     Signal de vigilance appelant l'arbitrage humain, jamais porte automatique.
+  8. **Non-lien délibéré** : Sūrat Qāf ≠ Mont Qāf cosmologique. Le dépôt avait
+     déjà tranché ce refus le 2026-08-30 (fiche *khafḍ/rafʿ*, « rejet explicite du
+     rapprochement ق-lettre / Jabal Qāf comme coïncidence nominale »).
+  9. **Déséquilibre déclaré** : **aucune page sur les *muqaṭṭaʿāt* n'existe au
+     dépôt**. La matière est entrée par une source `academique` avant d'avoir été
+     instruite du côté traditionnel. Signalé, non corrigé de force.
+  10. **Condition de l'auteur non remplie** : « Only three surahs tested […] Need
+      peer-review » (IMG_0485), « if confirmed » (IMG_0461). Toute la charge
+      argumentative d'IMG_0478 à IMG_0484 repose sur cette condition.
+- **Graphe** : régénéré (`generer-cartographie.py`). Fiche source : **2 liens
+  entrants** — non orpheline. Discernement : **0 lien entrant**, ce qui est ici
+  **conforme** et non un défaut : l'étanchéité inversée interdit à une page
+  orthodoxe de pointer vers un discernement non tranché. Le catalogue
+  (`doctrinal/index.md`) est hors périmètre du graphe et référence les deux fiches.
+
+**Rectification en cours de session (avant clôture)** : le compte de diapositives
+distinctes, d'abord porté à 39 dans les trois pièces, était faux — il soustrayait des
+42 fichiers les deux fichiers **absents**, qui n'y ont jamais figuré. Le compte exact
+est **41** (42 − 1 doublon IMG_0474/0475), conforme aux 41 sections de la
+transcription. Corrigé dans `textes/`, dans la fiche source et ici. Aucun contrôle
+automatique n'attrape une erreur de compte en prose : `sources_count` seul est vérifié.
+
+**Contrôle des liens — matière versée au pôle R&D (verdict Sidy, 2026-09-04).**
+L'épreuve §VII menée à cette intégration a mis au jour un trou de couverture de
+`verifier-invariants.py`, puis conduit à l'étendre. Cette matière est de l'outillage,
+non de la doctrine : le rapport complet — trou exact, reprise des renvois `raw/`,
+extension de C1 au cartouche, épreuve refaite, et les sept cibles non résolues en
+cours d'instruction — vit désormais dans
+`atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md`.
+Les blocs détaillés d'abord consignés ici y ont été reportés intégralement, rien
+n'est perdu (Cmd 10). Ce qu'il faut en retenir côté doctrinal : **la ligne de base
+du dépôt est passée de 0/0 à 0 erreur et 7 avertissements** à l'ouverture de
+l'épreuve — le contrôle étendu voyait ce qu'il ne voyait pas avant —, puis
+**ramenée à 0 erreur et 3 avertissements** le 2026-09-04 après correction de quatre
+des sept cibles sur verdict de Sidy (détail au cahier R&D) ; les trois restantes
+sont doctrinales et en instruction. Un cartouche
+vert atteste que ses listes sont bien formées, non que tous ses liens aboutissent.
+Deux renvois de fiches doctrinales sont touchés par la reprise `raw/` :
+`doctrinal/deviations/body-types.md` (renvoi converti en chemin nu, `updated:` au
+2026-09-04).
+
+### Épreuve des contrôles (§VII) — « vert sur X, refus sur Y »
+
+- **Vert sur le dépôt vivant** : `python3 verifier-invariants.py` → **1360
+  fichiers, 0 erreur, 0 avertissement**. Le piège connu de l'auto-déclenchement
+  (`wiki-verifier-self-trip`) ne s'est **pas** produit : tous les wikilinks cités
+  dans les nouvelles fiches résolvent.
+- **Refus sur faute fabriquée** — dans **`/tmp/bac-sable-qaf/`, copie jetable
+  hors du dépôt vivant**, ligne de base ramenée à 0 erreur puis deux fautes
+  injectées dans la fiche source :
+  - `sources_count: 1` → `3` : **refus obtenu**, `[B2] … sources_count: 3 ≠ nombre
+    réel de sources (1 …)`. ✅ Contrôle vérifié.
+  - `cross_links` pointant vers `ilm-al-huruf-INEXISTANT` : **aucun refus, aucun
+    avertissement**. ⚠️ Trou de couverture réel — mais la conclusion tirée sur le
+    moment (« le script ne contrôle pas l'existence des cibles ») **était fausse et
+    a été rectifiée le jour même** : C1 contrôlait le **corps**, pas le cartouche.
+    Instruction complète, extension du contrôle et seconde épreuve : voir le
+    rapport R&D `atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md`.
+- Le dépôt vivant n'a à aucun moment porté la faute. La copie de bac à sable est
+  laissée en place (pas de suppression sèche, Cmd 10).
+
+---
