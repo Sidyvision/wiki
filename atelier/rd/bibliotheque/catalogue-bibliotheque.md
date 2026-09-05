@@ -47,6 +47,7 @@ déviations modernes.*
 - *Le Règne de la Quantité et les Signes des Temps* (Gallimard) — solidification du monde, déviation cyclique.
 - *La Crise du monde moderne* (Gallimard) — diagnostic du Kali-Yuga.
 - *Formes traditionnelles et Cycles cosmiques* (Gallimard) — directement lié aux calculs cycliques de l'app.
+- *Orient et Occident* (1924) — **en possession, non converti** (recensé le 2026-09-05). Complément de *La Crise du monde moderne*, signalé par Sidy comme le plus instructif sur l'apologétique et sur l'alignement idéologique de ceux qui cherchent l'approbation des institutions modernes. Voir [[atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique]].
 - *Comptes Rendus* (Éditions Traditionnelles) — modèle méthodologique pour VIGILANCE.
 
 ### Gaston Georgel (disciple guénonien, doctrine des cycles appliquée à l'histoire)
