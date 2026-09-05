@@ -1,7 +1,7 @@
 ---
 title: "Muhammad M. Al-Akili"
 type: autorite
-status: STATUT-A-TRANCHER
+status: traditionnel
 tradition_cadre: "islam"
 tags: [oniromancie, taabir-al-ruya, traduction, transmission-occident, ibn-sirin, a-instruire]
 created: 2026-09-05
@@ -27,22 +27,16 @@ l'ouvrage lui-même — préface, avant-propos, bibliographie — et de rien d'a
 
 ## Statut
 
-**Non tranché — `STATUT-A-TRANCHER` en attente du verdict de Sidy (Cmd 12).**
-Cette fiche est ouverte *pour instruire* la filiation et la démarche
-d'Al-Akili : lui apposer une valeur de statut avant l'instruction reviendrait à
-préjuger de ce qu'elle a pour objet d'établir.
+`traditionnel` — **verdict de Sidy du 2026-09-05**, portant sur l'homme comme
+sur son ouvrage. Ce que la fiche établit, et qui va dans ce sens : le corpus
+qu'il compile est entièrement interne à la tradition (section *Filiation
+déclarée*), et il subordonne explicitement son livre à un maître vivant, refusant
+le régime du manuel (section *Démarche déclarée*).
 
-L'ouvrage, lui, est reçu en `traditionnel` sur verdict de Sidy du 2026-09-05 —
-la valeur y qualifie la nature du contenu reproduit. La question ici est
-distincte : elle porte sur **l'homme et sa démarche**, non sur le corpus qu'il
-transmet.
-
-Ce que le dépôt établit et qui pèse dans les deux sens : le corpus qu'il compile
-est entièrement interne à la tradition (section *Filiation déclarée*), et il
-subordonne explicitement son livre à un maître vivant (section *Démarche
-déclarée*) ; mais il ne revendique nulle part de chaîne de transmission, se
-présente en compilateur, et son travail est adossé par un garant universitaire
-dont le cadre est étranger au sien (*Points de vigilance* 2 et 3).
+Le verdict ne dissout pas pour autant les *Points de vigilance* consignés plus
+bas — l'absence de chaîne de transmission déclarée, et le cadre jungien de
+l'avant-propos, qui n'est pas de sa main. Ils restent portés au dossier comme
+faits relevés, non comme réserves sur la valeur attribuée.
 
 ## Filiation déclarée
 
