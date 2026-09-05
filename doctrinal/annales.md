@@ -9,6 +9,45 @@ updated: 2026-09-05
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-05] integration | Ibn Seerin (Al-Akili) — fiche source et instruction du compilateur
+
+Suite du versement du même jour. Deux fiches créées sur verdict de Sidy, plus
+deux mises à jour d'inventaire.
+
+- `doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili.md` — `status:
+  traditionnel`, **verdict de Sidy**. La valeur qualifie la nature du contenu
+  reproduit (principe posé au protocole du circuit pour `type: deviation`) : la
+  matière compilée est celle de l'oniromancie islamique classique, entièrement
+  interne à la tradition.
+- `doctrinal/autorites/muhammad-al-akili.md` — fiche d'instruction ouverte à la
+  demande de Sidy pour établir la **filiation des idées** et la **démarche** du
+  compilateur. Tout y est tiré de l'ouvrage lui-même : filiation nominale de
+  huit maîtres du taʿbīr (éditions arabes de base, Le Caire 1964) ; ouvrage
+  qualifié d'« adaptation » et non de traduction, le mot étant de Mahmoud Ayoub ;
+  subordination explicite du livre à un maître vivant ; aveu de l'auteur que ses
+  références restent à documenter. Trois points de vigilance signalés et **non
+  jugés** (Cmd 12), dont le cadre jungien de l'avant-propos d'Ayoub.
+  `status:` laissé **non tranché** — une fiche ouverte pour instruire une
+  filiation ne peut la préjuger. Verdict attendu de Sidy.
+- `doctrinal/autorites/ibn-sirin.md` — première source comptée
+  (`sources_count` 0 → 1), `updated` porté au 2026-09-05. **Aucune levée de
+  `to-source`** : une attribution à Ibn Sīrīn exige une source arabe, que cette
+  adaptation anglaise n'est pas.
+- `textes/LISEZ-MOI.md` — inventaire complété de deux versements : Sabri Ben
+  Rommane (2026-09-04, autre session, quatrième voie d'entrée par transcription
+  de captures) et Ibn Seerin (2026-09-05).
+
+Point relevé et non traité : le précédent de statut du dossier `autorites/` est
+peu fiable — Sidy signale que `hamza-yusuf` et `faraz-rabbani`, portés
+`academique`, sont des figures traditionnelles. Six fiches portent cette valeur ;
+une passe de vérification reste à ouvrir.
+
+Contrôle : `verifier-invariants.py` — 1396 fichiers, **0 erreur, 3
+avertissements**, tous trois antérieurs et étrangers à cette passe. Cmd 15
+propre sur les quatre fichiers.
+
+- **Commit** : 4a24422
+
 ## [2026-09-05] archivage | Ibn Seerin's Dictionary of Dreams (Al-Akili) — versement au cabinet de lecture
 
 Versement fait côté Hermes par Sidy, passé ici pour contrôle de routine et
