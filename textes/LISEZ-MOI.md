@@ -4,7 +4,7 @@ type: infrastructure
 chantier: PRO-08
 tags: [textes, sources, conversions, obsidian, infrastructure]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-05
 sources: []
 links:
   - "[[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent]]"
@@ -143,11 +143,63 @@ tenant, non découpé par chapitre.
 Ce que le dépôt en tire est porté dans
 `doctrinal/sources/osman-yahia-histoire-classification-1964.md`.
 
+## Versement du 2026-09-04 — Sabri Ben Rommane (transcription de captures)
+
+*The Sabri Ben Rommane's Theory* — transcription du diaporama d'un entretien
+**Blogging Theology** (hôte : Paul Williams) avec Sabri B. Rommane, portant un
+modèle récursif des lettres isolées du Coran (*muqaṭṭaʿāt*). Versement fait par
+une autre session.
+
+- `sabri-ben-rommane-theory/` — 1 fichier (`corps-du-texte.md`, 621 lignes)
+
+Chaîne : **quatrième voie d'entrée**, distincte des trois autres. Ni conversion
+de PDF ni passage par le sas, mais **transcription par lecture directe** de 42
+captures d'écran (`raw/The Sabri Ben Rommane's Theory/`, IMG_0443 → IMG_0486).
+Il n'y a donc pas de marqueurs `<!-- page N -->` : la pièce se repère par ses
+noms de capture. Le lot est collationné dans le fichier lui-même — 41
+diapositives distinctes, **deux captures manquantes** (IMG_0456, IMG_0471,
+lacunes non comblées), un doublon (IMG_0474/0475), et **une anomalie d'ordre
+signalée et non résolue** autour du Groupe 6. Restitué tel que capté ; les
+vignettes illisibles sont signalées sur place, jamais reconstituées.
+
+Ce que le dépôt en tire est porté dans
+`doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat.md`.
+
+## Quatrième versement du 2026-09-05 — Ibn Seerin (Al-Akili)
+
+*Ibn Seerin's Dictionary of Dreams*, compilé et adapté en anglais par
+Muhammad M. Al-Akili (Philadelphie, 1991 — 552 pages) — dictionnaire
+d'interprétation des rêves d'après le corpus attribué à Muḥammad ibn Sīrīn.
+Versement fait côté Hermes par Sidy, passé en contrôle de routine et intégré
+ici — troisième cas d'usage du régime nouveau (versement direct sas→`textes/`).
+
+- `ibn-sirin-dictionary-of-dreams/` — 30 fichiers (front matter, 25 sections
+  alphabétiques A-Z, page blanche, index des entrées, bibliographie, plus
+  l'index de conversion)
+
+Chaîne : **différente des trois versements précédents**. Le PDF portait déjà
+une couche texte, produite en amont par Adobe Acrobat 8 Paper Capture (OCR
+anglais) ; elle a été extraite page à page par `pymupdf`, puis découpée par
+section. L'OCR est donc réel mais étranger au dépôt — et très défectueux :
+en-têtes mués en casseau de glyphes (`1N1'RUlJU(;1'1UN` pour INTRODUCTION),
+lettres recollées (`Ifone`, `a/her`), translittérations arabes approximatives.
+Aide au repérage, **jamais texte critique** : toute citation exige le retour
+au scan. Les marqueurs `<!-- page N -->` pavent les pages 2 à 552 sans trou ni
+recouvrement (551 marqueurs uniques ; la page 1, couverture, est absente de la
+couche texte).
+
+Ce que le dépôt en tire est porté dans
+`doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili.md`, et la démarche
+du compilateur est instruite à part dans
+`doctrinal/autorites/muhammad-al-akili.md`.
+
 ## Ce qui reste ouvert
 
 Le **régime des futurs** textes convertis — passent-ils encore par `raw/`, ou
 directement du sas vers `textes/` ? Question posée à Sidy, **non tranchée** :
-c'est elle qui décidera si le problème peut se reformer. Deux versements
-directs sas→`textes/` sont maintenant faits (les deux Tilak, puis Osman Yahia)
-sans que la question ait été rouverte — précédent qui s'accumule, pas
-tranché pour autant.
+c'est elle qui décidera si le problème peut se reformer. Trois versements
+directs sas→`textes/` sont maintenant faits (les deux Tilak, Osman Yahia, puis
+Ibn Seerin) sans que la question ait été rouverte — précédent qui s'accumule,
+pas tranché pour autant. Le versement Sabri Ben Rommane, lui, suit une
+quatrième voie encore : ni `raw/` binaire ni sas, mais transcription directe de
+captures d'écran.
