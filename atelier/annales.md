@@ -16,6 +16,9 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Diagnostique** : la veille Cordis (août 2026) a identifié 7 repos externes mais n'a jamais émis le rapport événementiel Discord requis par la gouvernance Discord-Validation (Volet 2). Le chaînon manquant : le passage de la piste repérée à l'échantillon validé puis consigné.
 - **Preuve** : `verifier-invariants.py` passe sans erreur (0 erreur, 3 avertissements pré-existants). Commit `9099506`.
 - **Échantillon A** : skill `spatiotemporal-composability` réappropriée et consignée dans `atelier/rd/outillage/out-15-sampling-cordis/skill-prototype/SKILL.md`. Commit `2cf63f7`. Vérifiée `verifier-invariants.py` (0 erreur).
+- **Échantillon B** : pattern sandbox `cordis-wasm` (isolation physique des composants via bind-mount) consigné dans `atelier/rd/outillage/out-15-sampling-cordis/echantillon-B-sandbox-cordis-wasm.md`. Commit `5a7e909`. Vérifiée `verifier-invariants.py` (0 erreur).
+- **Issues GitHub** : demandes de license MIT/Apache-2.0 ouvertes sur `eSaadster/spatiotemporal-composability-skill#1` et `inso1337/cordis-wasm#1`.
+- **Skill testée** : `~/.hermes/skills/spatiotemporal-composability/SKILL.md` chargée et fonctionnelle (`skill_view` OK).
 - **Prochaine étape** : rapport Discord `#infrastructure` (Volet 2) → verdict Sidy sur l'échantillon A (skill).
 - **Précautions** : réappropriation conceptuelle uniquement (pas de copie directe, license absente). Fiche créée après échec de `skill_manage` : patience nécessaire.
 
