@@ -3,8 +3,8 @@ title: "Revox A77 — magnétophone à bande"
 type: materiel
 tags: [audio, magnétophone, bande, revox]
 created: 2026-08-18
-updated: 2026-08-18
-sources: ["[[raw/REVOX A77 NOTICE MULTILINGUE]]", "[[raw/Revox-A-77-Dolby-B-Owners-Manual]]", "[[raw/Revox-A-77-Dolby-B-Service-Manual]]"]
+updated: 2026-09-04
+sources: ["raw/REVOX A77 NOTICE MULTILINGUE.pdf", "raw/Revox-A-77-Dolby-B-Owners-Manual.pdf", "raw/Revox-A-77-Dolby-B-Service-Manual.pdf"]
 links: ["[[atelier/materiel/studio-principal]]", "[[atelier/materiel/tascam-model-12]]"]
 ---
 

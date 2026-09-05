@@ -3,8 +3,8 @@ title: "Neve 1073SPX — préampli/EQ analogique"
 type: materiel
 tags: [audio, preampli, neve]
 created: 2026-06-20
-updated: 2026-08-18
-sources: ["[[chatgpt-export-2026-05-10]]", "[[raw/facture-woodbrass-5003818-2026-02-05-neve-1073spx]]", "[[raw/1073SPX_1.1_User_Manual-TRADUIT-Francais]]"]
+updated: 2026-09-04
+sources: ["[[chatgpt-export-2026-05-10]]", "raw/facture-woodbrass-5003818-2026-02-05-neve-1073spx.pdf", "raw/1073SPX_1.1_User_Manual-TRADUIT-Francais.pdf"]
 links: ["[[atelier/materiel/tascam-model-12]]", "[[atelier/materiel/studio-principal]]"]
 ---
 
