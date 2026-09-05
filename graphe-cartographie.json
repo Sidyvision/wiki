@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 134,
+  "avertissements": 136,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -1618,6 +1618,19 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/incidents/2026-09-03_splice-index-non-ancre-destruction-partielle",
+      "label": "Incident d'édition : un `index()` non ancré détruit 1 600 lignes d'une pièce en cours",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": "resolu",
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-09-03",
+      "chemin": "atelier/rd/incidents/2026-09-03_splice-index-non-ancre-destruction-partielle.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
       "label": "Pistes de développement — infrastructure et outillage R&D (2026-08-20)",
       "circuit": "atelier",
@@ -2047,6 +2060,19 @@
       "tags": [],
       "updated": "2026-08-28",
       "chemin": "atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/incident-2026-09-03-omniroute-npm-interrompu-durcissement-ssh",
+      "label": "Incident R&D — OmniRoute : mise à jour npm interrompue par un arrêt serveur, et durcissement SSH consécutif (2026-09-03)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "fiche-rd",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-09-03",
+      "chemin": "atelier/rd/infrastructure/incident-2026-09-03-omniroute-npm-interrompu-durcissement-ssh.md",
       "lacunes_to_source": 0
     },
     {
@@ -3395,6 +3421,26 @@
       "tags": [],
       "updated": "2026-08-23",
       "chemin": "atelier/rd/outillage/spec-srs-hermes-native.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/spec-verifier-recursion-qaf",
+      "label": "Spécification — Contrôle du modèle récursif de Sabri B. Rommane (Sūrat Qāf)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "outillage",
+        "coran",
+        "muqattaat",
+        "verification",
+        "deterministe"
+      ],
+      "updated": "2026-09-04",
+      "chemin": "atelier/rd/outillage/spec-verifier-recursion-qaf.md",
       "lacunes_to_source": 0
     },
     {
@@ -5574,6 +5620,28 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite",
+      "label": "Une structure algorithmique dans le Coran : nombre principiel ou quantité ? (dossier ouvert, non tranché)",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "islam",
+      "tags": [
+        "muqattaat",
+        "ilm-al-huruf",
+        "sourate-qaf",
+        "recursion",
+        "quantite",
+        "ijaz",
+        "cmd3",
+        "en-cours"
+      ],
+      "updated": "2026-09-04",
+      "chemin": "doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/discernement/_template",
       "label": "Spéculation sur [Sujet de la réflexion]",
       "circuit": "doctrinal",
@@ -6202,7 +6270,7 @@
         "transcription",
         "albouraq"
       ],
-      "updated": "2026-08-30",
+      "updated": "2026-09-03",
       "chemin": "doctrinal/sources/gloton-approche-coran-grammaire-lexique.md",
       "lacunes_to_source": 0
     },
@@ -8020,6 +8088,28 @@
       ],
       "updated": "2026-07-09",
       "chemin": "doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat",
+      "label": "Sabri B. Rommane — modèle récursif des muqaṭṭaʿāt (Sūrat Qāf)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "islam",
+      "tags": [
+        "muqattaat",
+        "coran",
+        "sourate-qaf",
+        "recursion",
+        "structure",
+        "iltifat",
+        "ijaz",
+        "blogging-theology"
+      ],
+      "updated": "2026-09-04",
+      "chemin": "doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat.md",
       "lacunes_to_source": 0
     },
     {
@@ -13218,6 +13308,13 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/outillage/spec-verifier-recursion-qaf",
+      "target": "doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/registre-chantiers",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
@@ -17159,6 +17256,48 @@
       "assise": "suggere"
     },
     {
+      "source": "doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite",
+      "target": "doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite",
+      "target": "doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite",
+      "target": "doctrinal/sources/gloton-approche-coran-grammaire-lexique",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite",
+      "target": "doctrinal/symboles/ilm-al-huruf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite",
+      "target": "doctrinal/deviations/technologisation-pseudo-scientifique",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
       "source": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
       "target": "doctrinal/symboles/hadarat-khams",
       "champ": "sources",
@@ -20108,6 +20247,27 @@
     {
       "source": "doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription",
       "target": "doctrinal/sources/malamatiyah-futuhat-ch23",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat",
+      "target": "doctrinal/sources/gloton-approche-coran-grammaire-lexique",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat",
+      "target": "doctrinal/symboles/ilm-al-huruf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat",
+      "target": "doctrinal/sources/gloton-approche-coran-grammaire-lexique",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
