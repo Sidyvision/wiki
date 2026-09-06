@@ -1,11 +1,11 @@
 ---
 title: "Faraz Rabbani"
 type: autorite
-status: academique
+status: traditionnel
 tradition_cadre: "islam"
 tags: [hanafi, fiqh, tasawwuf, seekersguidance, dawa]
 created: 2026-06-18
-updated: 2026-06-20
+updated: 2026-09-06
 sources: ["[[hasbiyallah-rabbani]]"]
 sources_count: 1
 cross_links: ["[[hasbiyallah-rabbani]]", "[[tawakkul]]", "[[tasawwuf]]"]
@@ -31,4 +31,11 @@ Institut islamique mondial à but non lucratif, fondé en 2008, enregistré aux 
 
 ## Notes
 
-Statut *academique* et non *traditionnel* au sens strict — érudit contemporain reconnu, non saint autorisé (*walī* avec *silsila* établie dans le wiki). À réévaluer si des éléments de transmission initiatique apparaissent dans de futures sources.
+Le motif antérieur, qui justifiait `academique` par l'absence de *silsila* établie dans le wiki, est **retiré comme erroné** — et non comme périmé.
+
+## Statut
+
+`traditionnel` — **verdict de Sidy du 2026-09-06**. Aucun motif doctrinal n'est
+consigné ici : la distinction de fonctions qu'engage cette valeur est en cours
+d'instruction et son énoncé appartient à Sidy (Cmd 12). La valeur antérieure,
+`academique`, reposait sur un critère reconnu fautif.

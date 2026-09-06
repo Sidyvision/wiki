@@ -1,7 +1,7 @@
 ---
 title: Ali Hussain
 type: autorite
-status: academique
+status: traditionnel
 tradition_cadre: islam
 tags:
 - traducteur
@@ -10,7 +10,7 @@ tags:
 - isca
 - jmias
 created: 2026-06-02
-updated: 2026-08-23
+updated: 2026-09-06
 sources:
 - '[[awrad-ibn-arabi]]'
 - '[[jesus-and-enoch-in-ibn-arabi]]'
@@ -44,3 +44,10 @@ Dr. Ali Hussain est un chercheur et traducteur spécialisé dans l'œuvre d'[[ib
 ## Notes
 
 Deux publications connues à ce stade : une traduction (ISCA, 2022) et un article académique (JMIAS, 2016). D'autres publications éventuelles restent à documenter.
+
+## Statut
+
+`traditionnel` — **verdict de Sidy du 2026-09-06**. Aucun motif doctrinal n'est
+consigné ici : la distinction de fonctions qu'engage cette valeur est en cours
+d'instruction et son énoncé appartient à Sidy (Cmd 12). La valeur antérieure,
+`academique`, reposait sur un critère reconnu fautif.
