@@ -9,6 +9,46 @@ updated: 2026-09-06
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-06] integration | Report des renvois `raw/` vers `textes/` (fiches *Aperçus sur l'Initiation*)
+
+Les trois fiches sœurs `guenon-apercus-initiation-ch5-8`, `-ch7` et `-ch20`
+renvoyaient encore le lecteur vers `raw/` au lieu de `textes/` — reliquat de la
+reprise PRO-08, signalé dans l'entrée du même jour (commit `fd0cd8a`) comme
+« signalé, non corrigé dans ce lot ». **Cette ligne est ici close** : elle était
+exacte au moment où elle a été écrite, aucune rectification ne lui est due.
+
+- **Cibles confirmées, non déduites** — le marqueur `CHAPITRE` a été relevé dans
+  chacun des fichiers de `textes/apercu-sur-l-initiation/` avant toute écriture :
+  ch. V → `de-la-regularite-initiatique-…`, ch. VIII →
+  `de-la-transmission-initiatique-…`, ch. VII →
+  `contre-le-melange-des-formes-traditionnelles-…`, ch. XX →
+  `a-propos-de-magie-ceremonielle-…`. L'écart de pagination du site
+  (`Chapitre=NN` = N+25) n'a servi qu'à orienter la recherche, jamais à conclure.
+- **Retour sur `fd0cd8a`** — le même relevé confirme
+  `…-rene-guenon-7.md` = ch. XIV. La quatrième fiche est juste telle que commitée.
+- **Forme** — chemins nus entre backticks, jamais `[[…]]` : `textes/` n'est la
+  cible d'aucun wikilink (PRO-08). La fiche `ch5-8` reçoit **deux** chemins, le
+  sigle désignant les chapitres V et VIII et non la plage V–VIII.
+- **Trace** — chaque renvoi porte une ligne datée du 2026-09-06 rappelant qu'il
+  visait jusque-là `raw/`, avec l'identifiant de site correspondant (Cmd 5 :
+  rectifier avec trace, ne pas effacer).
+- **Non substitué** — `ch20` ligne 138, sous *Fiabilité de la source*, énonçait
+  une **provenance** (« transcription index-rene-guenon.org en `raw/` ») et non un
+  renvoi. Cet énoncé est vrai. Il a été reformulé, non remplacé : le texte est
+  reporté en `textes/`, son origine reste la transcription du site. Une
+  substitution en aveugle y aurait transformé un fait en contrevérité.
+- **Non levé** — les marqueurs `Pagination to-source` des trois fiches restent en
+  place. Leur levée demeure suspendue à la vérification sur exemplaire physique
+  par Sidy ; elle n'était pas demandée.
+- **Cartouche** — `updated:` porté à 2026-09-06 sur les trois fiches (Cmd 8).
+
+**Vérification** — les 5 chemins nus existent sur disque ; `grep 'raw/'` ne
+retourne plus que les lignes de trace, aucune en position de renvoi ;
+`python3 verifier-invariants.py` → *0 erreur(s), 0 avertissement(s)* sur 1399
+fichiers. Étanchéité : seuls les 3 chemins de ce lot ont été indexés.
+
+- **Commit** : a0cc069
+
 ## [2026-09-06] contrôle | Clôture des trois dernières cibles C1 doctrinales
 
 Dernier volet de la passe ouverte le 2026-09-04 par l'extension de C1/C2 au
