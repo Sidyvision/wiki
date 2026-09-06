@@ -9,6 +9,15 @@ updated: 2026-09-06
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-06] création | Fiche source Shayegan — Les Disciplines Spirituelles
+
+- **Action** — création de `doctrinal/sources/shayegan-disciplines-spirituelles.md`, premier exemple d'application de la convention `texte_converti:` établie le même jour.
+- **Motif** — le texte *Hindouisme et Soufisme* de Daryush Shayegan (ch. II : Les Disciplines Spirituelles) est transcrit dans `textes/les-disciplines-spirituelles-daryush-shayegan/les-disciplines-spirituelles.md`. Il apporte la pièce manquante pour la comparaison *laṭāʾif* ↔ *chakra* (micro ↔ micro) dans le contexte de l'unification des axes (chantier INS-01, passé `en-cours` le 2026-09-06).
+- **Convention appliquée** — le frontmatter porte le champ `texte_converti: "textes/les-disciplines-spirituelles-daryush-shayegan/les-disciplines-spirituelles.md"`. Cette convention permet de référencer un texte dans `textes/` sans violer l'étanchéité des circuits (pas de wikilink vers `textes/`, qui n'est pas un circuit). Voir `atelier/rd/infrastructure/convention-textes-references-doctrinales.md` pour le détail.
+- **Contenu de la fiche** — identification de l'auteur et de l'ouvrage, résumé des points clés (ajapâ, hamsa mantra, correspondances symboliques, souffles), statut `academique`, pertinence pour le dépôt (lien avec l'unification des axes), lien avec le registre des chantiers (INS-01).
+- **Étanchéité** — aucune violation §VI. Pas de lien vers `hermeneutique/`, `meta/`, ou `atelier/`. Les mentions de ces dossiers sont en texte clair, sans wikilinks.
+- **Vérification** — `verifier-invariants.py` : 0 erreur, 0 avertissement sur 1406 fichiers.
+
 ## [2026-09-06] versement | Fiche source Guénon (CMM, ch. V) et fiche de discernement sur le partage ẓāhir / bāṭin
 
 - **Action** — deux fiches créées, dans l'ordre imposé par Sidy (« fiche source
