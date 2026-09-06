@@ -286,18 +286,18 @@ terme à terme** :
 - Elle explique *pourquoi* les deux séries prophétiques diffèrent, et lève
   l'objection de forme. Elle ne fournit pas la liste ordonnée des sept *laṭāʾif*
   et de leurs régents, qui manque toujours au dépôt.
-- La pièce identifiée reste la même : le **ch. II du commentaire de Shayegan**
-  (« Les disciplines spirituelles », §III), qui porte l'exposé des sept centres
-  de Semnânî et leur homologie aux sept *cakra*. Ouvrage en bibliothèque
-  physique, chapitre non transcrit.
-- Avec ce chapitre, la comparaison *laṭāʾif* ↔ *chakra* (micro ↔ micro) devient
-  directement instruisible — et c'est celle qui a du sens, non celle que
-  j'avais tentée.
+- **La transcription est maintenant disponible** dans
+  `textes/les-disciplines-spirituelles-daryush-shayegan/les-disciplines-spirituelles.md`
+  (OCR brut relu, 2026-09-06). Elle porte l'exposé des sept centres de Semnânî
+  et leur homologie aux sept *cakra*. Avec ce texte, la comparaison *laṭāʾif* ↔
+  *chakra* (micro ↔ micro) devient directement instruisible — et c'est celle qui
+  a du sens, non celle que j'avais tentée.
 
 ## 6. Suites proposées
 
-1. **Transcrire le ch. II de Shayegan** — seule pièce manquante, et elle
-   débloque la comparaison licite.
+1. ~~**Transcrire le ch. II de Shayegan** — seule pièce manquante, et elle
+   débloque la comparaison licite.~~ → **FAIT** (2026-09-06, transcription dans
+   `textes/les-disciplines-spirituelles-daryush-shayegan/`).
 2. **Implémenter le mode « axe unifié »** et le champ `echelle` (§4.2).
 3. **Instruire les cieux planétaires ↔ *lokas*** (macro ↔ macro) : les deux
    séries sont au dépôt, la comparaison est licite, elle n'a jamais été tentée.
