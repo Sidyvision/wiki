@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-05
+updated: 2026-09-06
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,15 @@ updated: 2026-09-05
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-06] rd | Cahier de contrôle clos + rectification d'attribution au catalogue
+
+- **Action** : clôture de `atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md`. Les trois dernières cibles `[C1]` — celles-là mêmes signalées comme « les trois avertissements connus » dans l'entrée du 2026-09-05 — sont instruites et closes sur verdict de Sidy. Le §6 passe de `⏳ en instruction` à `✅ corrigé` sur les lignes 5, 6 et 7 ; le §7 reçoit trois blocs **Issue (2026-09-06)**, un par cas. Le texte d'instruction du 2026-09-04 est **conservé verbatim** en dessous (Cmd 5) : l'issue s'ajoute, elle n'écrase pas.
+- **Catalogue** : rectification d'attribution portée à `atelier/rd/bibliotheque/catalogue-bibliotheque.md`. *Principes et méthodes de l'art sacré* était inscrit au crédit de **Coomaraswamy** ; l'ouvrage est de **Titus Burckhardt** (Dervy). Le titre est retiré de la liste Coomaraswamy avec un renvoi daté vers la section Burckhardt du §IV, où une entrée est ajoutée en **❌ non détenu** — entrée conservée pour l'orientation, non pour la possession. Rectification avec trace aux deux endroits, jamais par effacement.
+- **Réserve consignée, non levée** : Sidy suppose l'ouvrage cité par Coomaraswamy dans *La Porte du ciel*. La filiation se heurte à une contrainte de datation — Coomaraswamy meurt en 1947, l'ouvrage de Burckhardt paraît en 1958. L'hypothèse est portée au dossier comme **non vérifiée**, sur consigne explicite (« on verra ça plus tard »). Le cahier ne la tranche pas.
+- **Étanchéité** : les liens de ce cahier vers `doctrinal/` restent à sens unique. La création de la fiche source Guénon ch. XIV et les corrections des deux fiches discernement relèvent du circuit doctrinal et sont consignées à `doctrinal/annales.md` (entrée du 2026-09-06), non ici.
+- **Vérification** : `python3 verifier-invariants.py` → `1399 fichier(s) .md contrôlé(s) — 0 erreur(s), 0 avertissement(s).` La ligne de base du dépôt passe de 0/3 à **0/0** ; les trois avertissements que l'entrée du 2026-09-05 déclarait « antérieurs et étrangers à cette passe » n'existent plus.
+- **Commit** : fd0cd8a
 
 ## [2026-09-05] rd | Cahier — critère de discernement pour l'attribution du `status`
 
