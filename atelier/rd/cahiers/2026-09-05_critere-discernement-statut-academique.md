@@ -4,7 +4,7 @@ type: experience
 statut_experience: reproduit
 tags: [rd, cahier, methode, discernement, statut, doctrinal, vigilance, apologetique]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-06
 sources: []
 links: ["[[doctrinal/autorites/muhammad-al-akili]]", "[[doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili]]", "[[atelier/rd/cahiers/registre-problemes]]"]
 ---
@@ -180,11 +180,13 @@ après conversion.
 
 ## Suites
 
-- **Ouvert, non fait** : passe de relevé sur les six fiches de
-  `doctrinal/autorites/` portant `status: academique`, dont Sidy a déjà invalidé
-  deux. Méthode proposée : pour chacune, relever les écarts effectifs dans ce que
-  le dépôt cite d'elle, et porter le relevé à Sidy fiche par fiche. **Aucune
-  valeur n'est modifiée par la machine.**
+- **Fait le 2026-09-05** : la passe de relevé sur les six fiches de
+  `doctrinal/autorites/` portant `status: academique` a été ouverte sur ordre de
+  Sidy et conduite dans
+  `[[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]]`. Écarts
+  effectifs relevés fiche par fiche, citations à l'appui. **Aucune valeur de
+  `status` n'a été modifiée par la machine** — y compris sur les deux fiches dont
+  Sidy a déjà rendu le verdict, dont l'écriture attend un visa (§VIII.1, Cmd 13).
 - **Ouvert** : Mahmoud Ayoub n'a pas de fiche au dépôt. L'écart le concernant est
   documenté dans `[[doctrinal/autorites/muhammad-al-akili]]`, point de vigilance 2.
 - **Tranché le 2026-09-05 — Sidy** : « ce critère a bien vocation à être monté en
