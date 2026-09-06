@@ -10,6 +10,40 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-06] rd | Ouverture du chantier DOC-08 — exotérisme/ésotérisme et attribution de `status`
+
+- **Action** — chantier `DOC-08` ouvert au statut `recensé` dans
+  `[[atelier/rd/registre-chantiers]]` §7, instruit dans
+  `[[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]]`. Ouvert
+  sur autorisation de Sidy (« un excellent chantier à ouvrir convenablement… je te
+  laisse rédiger »).
+- **Origine** — le verdict du 2026-09-06 sur quatre autorités a mis au jour un défaut
+  de catégorie et non une erreur d'appréciation : le dépôt traitait `academique`
+  comme le **résiduel** de `traditionnel`, y faisant tomber un savant faute de
+  *silsila*. Or `academique` nomme une allégeance **hors** de la tradition.
+- **Forme** — pas de triptyque `intent`/`spec`/`plan` : `atelier/CLAUDE.md` le réserve
+  au chantier **d'ingénierie** du pôle `rd/`. Forme retenue : cahier, comme les deux
+  documents qui précèdent sur le même fil.
+- **Méthode — trois registres tenus séparés** : (1) l'**établi**, qui ne tient que par
+  visa humain ; (2) la **lecture provisoire de la machine**, datée et étiquetée comme
+  telle, sans visa ; (3) le **réservé**, laissé délibérément vide de contenu et réduit
+  à quatre questions ouvertes. Sidy a jugé la lecture juste de direction et
+  **insuffisante** — « encore plus subtil que ça », « des notions sur lesquelles nous
+  aurons à revenir » : la machine ne comble pas cette réserve par une reconstruction
+  plausible (Cmd 12).
+- **Ce qui n'a pas été fait** — aucune fiche `doctrinal/discernement/` créée : elle est
+  **proposée en prochaine action, en attente de visa**, DOC-01 recensant déjà 37 fiches
+  de discernement en attente de verdict.
+- **Étanchéité** — les renvois du cahier vers `doctrinal/` sont sens unique et signalés
+  ; aucune page doctrinale ne mentionne le cahier ni la chaîne `DOC-08` (§VI).
+- **Graphe** — `generer-cartographie.py` relancé après écriture doctrinale (§VII) :
+  138 avertissements non bloquants, préexistants. Les quatre fiches touchées ne sont
+  pas orphelines (2 à 4 liens entrants chacune) ; aucun lien proposé ni inscrit.
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` :
+  `1400 fichier(s) .md contrôlé(s) — 0 erreur(s), 0 avertissement(s)`. Cmd 15 : propre.
+  `updated:` du registre porté au 2026-09-06 (Cmd 8).
+- **Commit** : `68de555` (chantier + graphe) ; `41cea73` et `0ab2016` côté `doctrinal/`.
+
 ## [2026-09-06] rd | Relevé des six fiches `status: academique` de `doctrinal/autorites/`
 
 *Cahier rédigé le 2026-09-05, vérifié et commité le 2026-09-06 — l'entrée porte la
