@@ -9,6 +9,31 @@ updated: 2026-09-06
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-06] discernement | Quatre autorités passent en `status: traditionnel` (verdict Sidy)
+
+- **Action** — `hamza-yusuf`, `ali-hussain`, `faraz-rabbani` et `yaqub-chaudhary`
+  passent de `academique` à `traditionnel`. Valeur portée **sur verdict explicite de
+  Sidy du 2026-09-06**, nommant les quatre. La machine n'a tranché aucune des quatre
+  (Cmd 12, Cmd 13).
+- **Motif retiré** — la note de `faraz-rabbani` justifiant `academique` par l'absence
+  de *silsila* établie est retirée **comme erronée**, non comme périmée : elle mesurait
+  une fonction à l'aune d'une autre. Le bandeau stub de `hamza-yusuf`, qui annonçait le
+  statut « à réévaluer selon la source », est mis à jour ; le fond de la fiche reste à
+  compléter.
+- **Prose doctrinale volontairement absente** — chaque fiche reçoit une section
+  `## Statut` qui porte la valeur, la date et l'auteur du verdict, **et rien de plus**.
+  L'énoncé de la distinction de fonctions qu'engage cette valeur est en cours
+  d'instruction et appartient à Sidy ; l'inscrire aujourd'hui aurait été le préempter.
+- **Non touché** — `raphael-afilalo` et `aiman-attar` restent `academique` : ils
+  n'étaient pas nommés au verdict, et le silence n'est pas une confirmation. Question
+  reportée à Sidy.
+- **Étanchéité** — aucune de ces fiches ne mentionne de chantier ni de page `atelier/`
+  (§VI). Deux fiches ne demandaient aucun texte à défaire (`ali-hussain`,
+  `yaqub-chaudhary`) : elles ne portaient aucun motif assertant `academique`.
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` :
+  `1400 fichier(s) .md contrôlé(s) — 0 erreur(s), 0 avertissement(s)`. Cmd 15 : propre.
+- **Commit** : `41cea73`.
+
 ## [2026-09-06] integration | Report des renvois `raw/` vers `textes/` (fiches *Aperçus sur l'Initiation*)
 
 Les trois fiches sœurs `guenon-apercus-initiation-ch5-8`, `-ch7` et `-ch20`
