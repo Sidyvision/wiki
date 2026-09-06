@@ -9,6 +9,57 @@ updated: 2026-09-06
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-06] versement | Fiche source Guénon (CMM, ch. V) et fiche de discernement sur le partage ẓāhir / bāṭin
+
+- **Action** — deux fiches créées, dans l'ordre imposé par Sidy (« fiche source
+  produite d'abord ») : `doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme.md`,
+  puis `doctrinal/discernement/2026-09-06_status-traditionnel-et-partage-zahir-batin.md`,
+  qui l'ancre en `sources` au lieu de porter `to-source`.
+- **Motif de la fiche source** — les deux citations sur lesquelles s'appuie
+  l'amendement `status: academique` du 2026-09-05 ne se trouvent **pas** dans la
+  seule fiche CMM que portait le dépôt (ch. IV) : `grep` sur
+  `apolog|défensive|conciliant` y donne zéro occurrence. Le passage est au ch. V
+  (`Chapitre=692` contre `691`). Catalogue consulté au préalable (§VII, point 1) :
+  *La Crise du monde moderne* est en possession et converti — l'absence n'était
+  jamais une absence de livre, seulement de fiche.
+- **Ce que la fiche de discernement ne fait pas** — `status: speculatif`,
+  **Conclusion : aucune**, registre réservé délibérément vide. Elle relève un défaut
+  de forme (une valeur ne peut être à la fois un genre disjoint et le complément
+  d'un autre) et énonce explicitement que ce constat n'établit rien sur ce qui
+  devrait le remplacer. Le verdict appartient à Sidy (Cmd 12).
+- **Signalements portés, non comblés** — pas de fiche pour le chapitre
+  « L'opposition de l'Orient et de l'Occident », dont une formulation voisine et
+  plus tranchée est distinguée dans un bloc dédié ; *Orient et Occident* (1924) en
+  possession, non converti ; `walaya-fath-adab` à `sources_count: 0`, filiation
+  notée et **non armée** ; pôle hétérodoxe **sans candidat au dépôt**, absence
+  consignée telle quelle ; le constat « des fiches ont traité `academique` comme le
+  résiduel » signalé comme non vérifiable sur la page, sa trace vivant dans une
+  fiche que le plan visé n'autorisait pas à citer (Cmd 5).
+- **Convention d'ancrage** — la fiche ch. V ancre `sources` sur `textes/` (versionné
+  depuis PRO-08) quand sa sœur du ch. IV ancre sur `raw/` (exclu de git, donc
+  invisible depuis le poste de consultation). Relevé mécanique : sur
+  `doctrinal/sources/`, trois fiches seulement portent un `sources` non vide qui ne
+  soit pas un wikilink — deux sur `raw/`, celle-ci sur `textes/`. **C'est le premier
+  ancrage `textes/` du dépôt** : usage introduit, signalé, soumis à Sidy. La fiche
+  voisine n'a pas été touchée (Action VIGILANCE).
+- **Étanchéité** — contrôle scripté sur la fiche de discernement : aucune occurrence
+  de `DOC-`, de `chantier`, de `rd/` ni de `atelier` (§VI ; aucune page doctrinale
+  ne mentionne un chantier). Aucun lien vers `hermeneutique/`. Aucun lien retour
+  inscrit dans les pages orthodoxes.
+- **Graphe** — régénéré au mandat du §VII. Les cinq arêtes des deux fiches
+  résolvent toutes vers un nœud existant (aucun lien mort introduit).
+  `Avertissements : 140 (non bloquants)` — dont `lien mort 94`, `isolée 39`. La
+  fiche de discernement **compte zéro lien entrant** : elle est isolée. Des liens
+  entrants peuvent être proposés, ils ne sont **pas inscrits** — Sidy tranche
+  (Cmd 12). L'écart de +1 `isolée` avec le relevé de la veille tient à un fichier
+  apparu entre deux exécutions et relevant d'une session concurrente, non aux
+  présentes fiches.
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` :
+  `1403 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que .gitignore exclut
+  n'est pas contrôlé). / 0 erreur(s), 0 avertissement(s).` Contrôle Cmd 15 sur les
+  deux fiches : aucun caractère invisible.
+- **Commit** : 61ae381
+
 ## [2026-09-06] correction | Retrait d'une assertion fautive du bloc `## Statut` de quatre autorités
 
 - **Action** — la phrase finale « La valeur antérieure, `academique`, reposait sur
