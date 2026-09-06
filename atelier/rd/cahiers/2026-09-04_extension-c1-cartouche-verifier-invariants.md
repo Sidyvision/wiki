@@ -4,7 +4,7 @@ type: experience
 statut_experience: adopte
 tags: [rd, cahier, outillage, verifier-invariants, controle, epreuve-vii, wikilinks, methode]
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-06
 sources: []
 links: ["[[atelier/rd/cahiers/registre-problemes]]"]
 ---
@@ -115,16 +115,23 @@ l'issue de chaque cas sera consignée ici.
 | 2 | `atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent.md` | `atelier/rd/outillage/ocr-scan-vers-markdown` | ✅ **corrigé** → `spec-ocr-scan-vers-markdown`. Deux voisins portaient ce nom : un `.sh` (script, non liable) et la spec ; seule la spec est une page. Délégation. |
 | 3 | `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md` | `atelier/rd/infrastructure/` | ✅ **corrigé** → `synchro-obsidian-working-copy-github`, seule fiche du domaine traitant du sujet du cahier. Le renvoi visait un **dossier** — écriture d'agent. Délégation. |
 | 4 | `atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm.md` | `2608.09867` | ✅ **corrigé** → `to-source`, identifiant `arXiv:2608.09867v1` conservé en commentaire et dans le corps. Verdict Sidy : « l'ingest de l'étude n'a pas été fait, il n'y a pas de fiche où pointer ». |
-| 5 | `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante.md` | `doctrinal/sources/coran-essai-traduction-gloton` | ⏳ en instruction — voir §7 |
-| 6 | `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md` | `apercus-sur-l-initiation` | ⏳ en instruction — voir §7 |
-| 7 | idem | `principes-et-methodes-de-l-art-sacre` | ⏳ en instruction — voir §7 |
+| 5 | `doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante.md` | `doctrinal/sources/coran-essai-traduction-gloton` | ✅ corrigé 2026-09-06 — `to-source` + dette de fiche signalée (§7) |
+| 6 | `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md` | `apercus-sur-l-initiation` | ✅ corrigé 2026-09-06 — quatrième fiche ch. XIV créée, lien repointé (§7) |
+| 7 | idem | `principes-et-methodes-de-l-art-sacre` | ✅ corrigé 2026-09-06 — `to-source` + attribution rectifiée en deux endroits (§7) |
 
 **Quatre des sept résolus. Ligne de base : 0 erreur, 3 avertissements.** Les trois
 restants sont doctrinaux et relèvent tous du même fond : une `sources:` pointe vers
 un **ouvrage réel, cité en propre, dont aucune fiche source n'existe**. Ce n'est pas
 une faute de lien mais une **dette de fiches**, et `to-source` est le marqueur prévu.
 
-## 7. Les trois cas doctrinaux — instruction en cours
+## 7. Les trois cas doctrinaux — instruits et clos le 2026-09-06
+
+> **État au 2026-09-06 : les trois cas sont corrigés**, sur verdicts de Sidy des
+> 2026-09-05 et 2026-09-06. La ligne de base du dépôt passe de **0 erreur / 3
+> avertissements** à **0 erreur / 0 avertissement** (1399 fichiers). L'instruction
+> ci-dessous est conservée telle qu'elle a été écrite le 2026-09-04 (Cmd 5 : on
+> rectifie avec trace, on n'efface pas) ; ce qui a été décidé est ajouté sous chaque
+> cas en « Issue ».
 
 État au 2026-09-04 : **rien n'a été écrit dans ces trois fiches.** Deux des trois
 verdicts reçus entrent en contradiction avec ce que le dépôt consigne lui-même ;
@@ -149,6 +156,17 @@ diverge. La cible manquante (`doctrinal/sources/coran-essai-traduction-gloton`)
 n'existe pas : l'édition Gloton est citée en propre dans plusieurs fiches sans avoir
 jamais reçu la sienne. **Dette de fiche, pas erreur de lien.**
 
+**Issue (2026-09-06).** Sidy rectifie son propre verdict : « je me souviens mieux,
+il s'agit d'un élément complément au dossier que j'avais fourni ». Le cliché
+d'al-Aʿrâf était un complément de dossier, non la source de la citation — la
+contradiction relevée ci-dessus se dissout d'elle-même, la citation de *Ghâfir*
+40:15 tient, et la clôture du 2026-07-14 n'est pas rouverte. Reste la seule dette
+de fiche : le lien mort est remplacé par `to-source` (`sources_count: 3` inchangé)
+et un bloc de signalement précise en fin de fiche que **le marqueur porte sur
+l'absence de fiche, non sur la citation** — celle-ci ayant été vérifiée par Sidy
+sur exemplaire physique, condition de levée du §VII. Mention explicite de ne pas
+confondre avec la fiche du lexique Gloton, qui porte sur un autre ouvrage.
+
 ### Cas 6 — `sashimono` : la matière existe, mais dans `textes/`
 
 Verdict reçu : « renvoi à ce que Guénon dit sur l'initiation de métier dans
@@ -162,6 +180,29 @@ Mais **`textes/` n'est la cible d'aucun wikilink** (PRO-08) et ne lève aucun
 `to-source`. Le lien ne peut donc pas viser cette page. Trois fiches
 `guenon-apercus-initiation-chNN-…` existent déjà dans `doctrinal/sources/` : la voie
 normale est une quatrième, sur le chapitre 39.
+
+**Issue (2026-09-06).** Sidy pose la question de la forme : « puisque les textes de
+Guénon sont dans `textes/`, est-ce qu'il ne serait pas plus propre de citer la
+référence dans la fiche (chapitre, pages, etc.) et pointer directement vers le
+livre en `textes/` ? » — instinct juste, et déjà le patron du dépôt : la référence
+précise et le renvoi vivent dans une fiche `doctrinal/sources/`, qui est l'objet
+pointable, et le renvoi vers `textes/` s'y fait en **chemin nu entre accents
+graves**, jamais en wikilink. Aucune tension avec PRO-08 : la fiche est
+l'intermédiaire qui la résout.
+
+Créée : `doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques.md`.
+Le `sources:` de la fiche sashimono pointe désormais vers elle, `sources_count: 2`
+tient, C1 tombe.
+
+**Le numéro de chapitre a été établi, non supposé** : le `Chapitre=39` de l'URL est
+la pagination interne du site source, pas le chapitre du livre. Le décalage
+constant de 25 est recoupé sur la fiche ch. VII existante, dont la transcription
+porte `Chapitre=32` — d'où **ch. XIV**, confirmé par le corps du texte
+(« Des qualifications initiatiques »). La **pagination**, elle, reste `to-source` :
+la transcription ne porte pas de numéros de page. Le `to-source` de chapitre de la
+fiche sashimono (ligne 33) est levé ; le renvoi de Guénon à
+*Le Règne de la Quantité*, ch. VIII (note [5]) est signalé comme piste d'ingest, pas
+comme lien mort.
 
 ### Cas 7 — `principes-et-methodes-de-l-art-sacre` : une attribution fautive dans le dépôt
 
@@ -182,7 +223,20 @@ recopié. Burckhardt figure bien au catalogue (lignes 99, 100, 162) mais avec tr
 Sur la citation supposée, une réserve de datation : Coomaraswamy meurt en 1947,
 l'ouvrage de Burckhardt paraît en 1958 — une citation **par lui** est impossible.
 Un apparat éditorial moderne dans une anthologie pourrait en porter une ; ce n'est
-pas la même chose et cela demanderait vérification sur pièce. `Burckhardt` est par
+pas la même chose et cela demanderait vérification sur pièce.
+
+**Issue (2026-09-06).** Verdict de Sidy : « corrige comme tu peux ou bien on verra
+ça plus tard ». Corrigé aux deux endroits, **avec trace et non par effacement**
+(Cmd 5) : au catalogue, le titre sort de la liste Coomaraswamy avec une ligne de
+rectification datée, et une entrée Burckhardt est ajoutée au §IV marquée
+**❌ non détenu** ; dans le corps de la fiche sashimono, un bloc de rectification
+précède la ligne fautive, désormais réduite à « Coomaraswamy (ouvrage exact
+`to-source`) ». Le lien mort devient `to-source`. La piste de Sidy (cité par
+Coomaraswamy dans *La Porte du ciel*) est **consignée comme hypothèse non
+vérifiée**, avec la réserve de datation portée dans la fiche elle-même : « on verra
+ça plus tard » vaut consignation, pas résolution.
+
+`Burckhardt` est par
 ailleurs **absent** de `bibliographie-porte-du-ciel.md` et de
 `notices-porte-du-ciel.md`.
 

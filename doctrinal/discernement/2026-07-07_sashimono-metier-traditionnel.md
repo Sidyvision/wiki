@@ -5,8 +5,8 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [metier, art-sacre, initiation, sashimono, methode, architecture-chinoise]
 created: 2026-07-07
-updated: 2026-08-29
-sources: ["[[apercus-sur-l-initiation]]", "[[principes-et-methodes-de-l-art-sacre]]"]
+updated: 2026-09-06
+sources: ["[[doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques]]", "to-source"]
 sources_count: 2
 cross_links: ["[[meta/philosophie-sashimono]]"]
 ---
@@ -30,15 +30,33 @@ cette analogie a-t-elle un **fondement doctrinal** ? Autrement dit :
 
 ## Éléments favorables
 
-- Guénon traite du lien entre initiation et métiers, notamment dans *Aperçus sur
-  l'Initiation* (bibliothèque physique — chapitre exact `to-source`, vérification
-  primaire requise) : le métier traditionnel comme prolongement de la nature propre
-  de l'individu et support possible d'initiation.
-- Coomaraswamy, *Principes et méthodes de l'art sacré* (bibliothèque physique —
-  passages exacts `to-source`) : dans les civilisations traditionnelles, l'artisan
-  opère par imitation des modèles principiels ; « l'artiste n'est pas un homme
-  spécial, mais tout homme est un artiste spécial » — formulation exacte et
-  localisation `to-source`.
+- Guénon traite du lien entre initiation et métiers dans *Aperçus sur
+  l'Initiation*, **ch. XIV, « Des qualifications initiatiques »** — chapitre
+  identifié et fiché le 2026-09-06, le `to-source` de chapitre est levé :
+  [[doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques]].
+  Le texte y pose qu'« une certaine forme d'initiation peut être liée à l'exercice
+  d'un métier déterminé, ce qui ne peut avoir toute sa valeur effective que si le
+  métier qu'exerce chaque individu est bien celui auquel il est destiné par les
+  aptitudes inhérentes à sa nature même », et ne reconnaît en Occident que le
+  Compagnonnage et la Maçonnerie comme formes subsistantes basées sur un métier.
+  La **pagination** reste `to-source` (transcription sans numéros de page).
+  Le métier traditionnel comme prolongement de la nature propre de l'individu et
+  support possible d'initiation est donc **sourcé** ; ce qui reste ouvert est
+  l'application de ce régime au *sashimono* — objet même de la présente fiche.
+- ⚠️ **Rectification d'attribution (2026-09-06, Cmd 5)** — la ligne qui suit
+  attribuait *Principes et méthodes de l'art sacré* à Coomaraswamy : l'ouvrage est
+  de **Titus Burckhardt** (Dervy). Verdict de Sidy : il ne le détient pas, et
+  suppose qu'il a été **cité par** Coomaraswamy dans *La Porte du ciel*. Cette
+  filiation reste une **hypothèse non vérifiée** et se heurte à une réserve de
+  datation : Coomaraswamy meurt en 1947, l'ouvrage de Burckhardt paraît en 1958 —
+  une citation par Coomaraswamy est chronologiquement impossible en l'état. La
+  réserve est **consignée, non résolue** (« on verra ça plus tard », Sidy). Il se
+  peut que la thèse retenue vienne en réalité de *La Porte du ciel* elle-même, ou
+  d'un autre titre de Coomaraswamy : à instruire sur texte primaire.
+- Coomaraswamy (ouvrage exact `to-source`, cf. rectification ci-dessus) : dans les
+  civilisations traditionnelles, l'artisan opère par imitation des modèles
+  principiels ; « l'artiste n'est pas un homme spécial, mais tout homme est un
+  artiste spécial » — formulation exacte et localisation `to-source`.
 - Le Japon a conservé des corporations de métiers du bois à transmission
   maître-apprenti (menuiserie sashimono, charpente de temples *miyadaiku*)
   `to-source` — structure formellement analogue aux corporations initiatiques de

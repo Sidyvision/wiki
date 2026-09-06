@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 136,
+  "avertissements": 138,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -173,7 +173,7 @@
         "limiteur",
         "distressor"
       ],
-      "updated": "2026-08-18",
+      "updated": "2026-09-04",
       "chemin": "atelier/materiel/distressor-el8.md",
       "lacunes_to_source": 0
     },
@@ -226,7 +226,7 @@
         "preampli",
         "neve"
       ],
-      "updated": "2026-08-18",
+      "updated": "2026-09-04",
       "chemin": "atelier/materiel/neve-1073spx.md",
       "lacunes_to_source": 0
     },
@@ -244,7 +244,7 @@
         "bande",
         "revox"
       ],
-      "updated": "2026-08-18",
+      "updated": "2026-09-04",
       "chemin": "atelier/materiel/revox-a77.md",
       "lacunes_to_source": 0
     },
@@ -281,7 +281,7 @@
         "tascam",
         "mastering"
       ],
-      "updated": "2026-08-18",
+      "updated": "2026-09-04",
       "chemin": "atelier/materiel/tascam-model-12.md",
       "lacunes_to_source": 0
     },
@@ -541,7 +541,7 @@
         "ressource",
         "catalogue"
       ],
-      "updated": "2026-09-01",
+      "updated": "2026-09-06",
       "chemin": "atelier/rd/bibliotheque/catalogue-bibliotheque.md",
       "lacunes_to_source": 0
     },
@@ -1212,6 +1212,72 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants",
+      "label": "Extension du contrôle C1 au cartouche — verifier-invariants.py (épreuve §VII)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "cahier",
+        "outillage",
+        "verifier-invariants",
+        "controle",
+        "epreuve-vii",
+        "wikilinks",
+        "methode"
+      ],
+      "updated": "2026-09-06",
+      "chemin": "atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique",
+      "label": "Critère de discernement pour l'attribution du `status` — agent de l'académie moderne ou acteur traditionnel dans l'institution",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "cahier",
+        "methode",
+        "discernement",
+        "statut",
+        "doctrinal",
+        "vigilance",
+        "apologetique"
+      ],
+      "updated": "2026-09-05",
+      "chemin": "atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique",
+      "label": "Relevé des six fiches `status: academique` de `doctrinal/autorites/` — écarts effectifs, sans verdict",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "cahier",
+        "methode",
+        "discernement",
+        "statut",
+        "doctrinal",
+        "releve",
+        "vigilance"
+      ],
+      "updated": "2026-09-05",
+      "chemin": "atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/cahiers/bilan-2026-08-15-pont-agents",
       "label": "Bilan R&D 2026-08-15 — pont inter-agents",
       "circuit": "atelier",
@@ -1555,7 +1621,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-09-02",
+      "updated": "2026-09-04",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
       "lacunes_to_source": 0
     },
@@ -1664,7 +1730,7 @@
       ],
       "updated": "2026-08-23",
       "chemin": "atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "atelier/rd/infrastructure/2026-08-23_deploiement-veille-infrastructure-quotidienne",
@@ -3197,6 +3263,28 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis",
+      "label": "Sampling comme fonction de Studio — premier échantillon Cordis (spatiotemporal-composability + cordis-wasm)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "sampling",
+        "cordis",
+        "infrastructure-veille",
+        "skill",
+        "sandbox"
+      ],
+      "updated": "2026-09-05",
+      "chemin": "atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis.md",
+      "lacunes_to_source": 2
+    },
+    {
       "id": "atelier/rd/outillage/gabarit-triptyque-chantier",
       "label": "Gabarit du triptyque de chantier — intent / spec / plan",
       "circuit": "atelier",
@@ -3276,6 +3364,51 @@
       "updated": "2026-09-02",
       "chemin": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/out-15-sampling-cordis/echantillon-B-sandbox-cordis-wasm",
+      "label": "OUT-15 — Échantillon B : pattern sandbox cordis-wasm (isolation physique des composants)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "sampling",
+        "cordis",
+        "wasm",
+        "sandbox",
+        "isolation",
+        "confinement"
+      ],
+      "updated": "2026-09-05",
+      "chemin": "atelier/rd/outillage/out-15-sampling-cordis/echantillon-B-sandbox-cordis-wasm.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "atelier/rd/outillage/out-15-sampling-cordis/skill-prototype/SKILL",
+      "label": "OUT-15 — Échantillon A : skill spatiotemporal-composability (sampling Cordis)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "sampling",
+        "cordis",
+        "skill",
+        "composabilite",
+        "reversible"
+      ],
+      "updated": "2026-09-05",
+      "chemin": "atelier/rd/outillage/out-15-sampling-cordis/skill-prototype/SKILL.md",
+      "lacunes_to_source": 2
     },
     {
       "id": "atelier/rd/outillage/robustesse-documents-persona-llm",
@@ -4030,7 +4163,7 @@
         "oniromancie",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-05",
       "chemin": "doctrinal/autorites/ibn-sirin.md",
       "lacunes_to_source": 0
     },
@@ -4110,6 +4243,26 @@
       ],
       "updated": "2026-08-30",
       "chemin": "doctrinal/autorites/michel-valsan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/autorites/muhammad-al-akili",
+      "label": "Muhammad M. Al-Akili",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "oniromancie",
+        "taabir-al-ruya",
+        "traduction",
+        "transmission-occident",
+        "ibn-sirin",
+        "a-instruire"
+      ],
+      "updated": "2026-09-05",
+      "chemin": "doctrinal/autorites/muhammad-al-akili.md",
       "lacunes_to_source": 0
     },
     {
@@ -4276,7 +4429,7 @@
         "deviation",
         "herbalism"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-04",
       "chemin": "doctrinal/deviations/body-types.md",
       "lacunes_to_source": 0
     },
@@ -4737,9 +4890,9 @@
         "nafas-rahmani",
         "clos"
       ],
-      "updated": "2026-07-14",
+      "updated": "2026-09-06",
       "chemin": "doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/discernement/2026-07-02_coudee-royale-convergence-28",
@@ -4861,9 +5014,9 @@
         "methode",
         "architecture-chinoise"
       ],
-      "updated": "2026-08-29",
+      "updated": "2026-09-06",
       "chemin": "doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm",
@@ -6319,6 +6472,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques",
+      "label": "Aperçus sur l'initiation, ch. XIV : « Des qualifications initiatiques » (Guénon)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "initiation",
+        "qualifications-initiatiques",
+        "metier",
+        "compagnonnage",
+        "maconnerie",
+        "apercus-sur-l-initiation"
+      ],
+      "updated": "2026-09-06",
+      "chemin": "doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle",
       "label": "Guénon — Aperçus sur l'Initiation, ch. XX : à propos de « magie cérémonielle »",
       "circuit": "doctrinal",
@@ -7617,6 +7791,26 @@
       ],
       "updated": "2026-07-16",
       "chemin": "doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
+      "label": "Ibn Seerin's Dictionary of Dreams — Muhammad M. Al-Akili",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "ibn-sirin",
+        "oniromancie",
+        "taabir-al-ruya",
+        "dictionnaire",
+        "traduction",
+        "conversion"
+      ],
+      "updated": "2026-09-05",
+      "chemin": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili.md",
       "lacunes_to_source": 0
     },
     {
@@ -11446,6 +11640,13 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation",
+      "target": "atelier/rd/infrastructure/synchro-obsidian-working-copy-github",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
@@ -11518,6 +11719,48 @@
     {
       "source": "atelier/rd/cahiers/2026-09-01_jalon-chronologie-phase1-rd",
       "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique",
+      "target": "doctrinal/autorites/muhammad-al-akili",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique",
+      "target": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique",
+      "target": "atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique",
+      "target": "doctrinal/autorites/muhammad-al-akili",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -13182,6 +13425,20 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis",
+      "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/outillage/gabarit-triptyque-chantier",
       "target": "atelier/rd/registre-chantiers",
       "champ": "links",
@@ -13198,6 +13455,13 @@
     {
       "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent",
       "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent",
+      "target": "atelier/rd/outillage/spec-ocr-scan-vers-markdown",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -13226,6 +13490,34 @@
     {
       "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec",
       "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-15-sampling-cordis/echantillon-B-sandbox-cordis-wasm",
+      "target": "atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-15-sampling-cordis/echantillon-B-sandbox-cordis-wasm",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-15-sampling-cordis/skill-prototype/SKILL",
+      "target": "atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-15-sampling-cordis/skill-prototype/SKILL",
+      "target": "atelier/rd/registre-chantiers",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -13974,6 +14266,13 @@
     },
     {
       "source": "doctrinal/autorites/ibn-sirin",
+      "target": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ibn-sirin",
       "target": "doctrinal/symboles/taabir-al-ruya",
       "champ": "cross_links",
       "nature": "lien",
@@ -14073,6 +14372,34 @@
     {
       "source": "doctrinal/autorites/michel-valsan",
       "target": "doctrinal/autorites/charles-andre-gilis",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/muhammad-al-akili",
+      "target": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/muhammad-al-akili",
+      "target": "doctrinal/autorites/ibn-sirin",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/muhammad-al-akili",
+      "target": "doctrinal/autorites/al-nabulusi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/muhammad-al-akili",
+      "target": "doctrinal/symboles/taabir-al-ruya",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -15580,6 +15907,13 @@
       "target": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel",
+      "target": "doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques",
+      "champ": "sources",
+      "nature": "source",
       "assise": "suggere"
     },
     {
@@ -18068,6 +18402,27 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques",
+      "target": "doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques",
+      "target": "doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle",
       "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
@@ -19568,6 +19923,27 @@
     {
       "source": "doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi",
       "target": "doctrinal/symboles/walaya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
+      "target": "doctrinal/autorites/ibn-sirin",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
+      "target": "doctrinal/autorites/muhammad-al-akili",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
+      "target": "doctrinal/symboles/taabir-al-ruya",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

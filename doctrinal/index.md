@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-09-05
+updated: 2026-09-06
 ---
 
 # Le Catalogue Universel
@@ -301,6 +301,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26|L'Homme et son devenir selon le Vêdânta, ch. VIII et XXII-XXVI (Guénon)]]
 - [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission|Aperçus sur l'initiation, ch. V et VIII : régularité initiatique et transmission (Guénon)]]
 - [[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles|Aperçus sur l'initiation, ch. VII : contre le mélange des formes traditionnelles (Guénon)]]
+- [[doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques|Aperçus sur l'initiation, ch. XIV : des qualifications initiatiques (Guénon)]] — les qualifications relèvent de l'individualité ; le métier comme support d'initiation, à condition d'accorder avec la nature propre
 - [[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs|Initiation et Réalisation spirituelle, ch. V, XXI et XXIV : rattachement, instructeurs, rôle du guru (Guénon)]]
 - [[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores|Initiation et Réalisation spirituelle, ch. VI : influences spirituelles et « égrégores » (Guénon)]]
 - [[doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet|Initiation et Réalisation spirituelle, ch. XVI : contemplation directe et contemplation par reflet (Guénon)]]

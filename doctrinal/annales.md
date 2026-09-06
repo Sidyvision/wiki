@@ -1,7 +1,7 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-05
+updated: 2026-09-06
 ---
 
 # Annales du Secrétariat Doctrinal
@@ -4264,7 +4264,9 @@ du dépôt est passée de 0/0 à 0 erreur et 7 avertissements** à l'ouverture d
 l'épreuve — le contrôle étendu voyait ce qu'il ne voyait pas avant —, puis
 **ramenée à 0 erreur et 3 avertissements** le 2026-09-04 après correction de quatre
 des sept cibles sur verdict de Sidy (détail au cahier R&D) ; les trois restantes
-sont doctrinales et en instruction. Un cartouche
+étaient doctrinales et en instruction — **elles ont été closes le 2026-09-06
+(entrée du jour), et la ligne de base est désormais à 0 erreur et 0 avertissement
+sur 1399 fichiers.** Un cartouche
 vert atteste que ses listes sont bien formées, non que tous ses liens aboutissent.
 Deux renvois de fiches doctrinales sont touchés par la reprise `raw/` :
 `doctrinal/deviations/body-types.md` (renvoi converti en chemin nu, `updated:` au
