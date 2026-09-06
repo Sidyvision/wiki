@@ -202,3 +202,25 @@ les deux relève d'un examen ouvert, non d'une assimilation.
 établi ici avec le **Mont Qāf** cosmologique (voir
 `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex.md`) :
 le rapprochement serait fondé sur le seul nom. **Non-lien délibéré.**
+
+---
+
+## Exécution déterministe confirmée (2026-09-06)
+
+Le script `atelier/rd/outillage/verifier-recursion-qaf.py` a été exécuté le
+2026-09-06 et confirme **les deux constats consignés ci-dessus** :
+
+- **Variante A** (règle énoncée par l'auteur, hamza émise puis terminale) :
+  produit L1..L5 = `[3, 9, 25, 67, 179]` — **ne concorde pas** avec IMG_0480
+  `[3, 8, 21, 56, 151]`.
+
+- **Variante B** (règle opérante déduite des chiffres, hamza jamais émise) :
+  produit L1..L5 = `[3, 8, 21, 56, 151]` — **concorde exactement** avec IMG_0480.
+
+- **Découpage en 17 groupes** (variante B) : suite dérivée `[3, 3, 2, 3, 3, 2,
+  2, 3, 3, 3, 2, 3, 3, 3, 2, 3, 2]` **identique** à IMG_0447 ; somme = 45
+  āyāt de Sūrat Qāf.
+
+**Code de sortie : 0** (les deux contrôles concordent avec les chiffres publiés).
+La concordance arithmétique de la variante B est un **fait vérifié**, non une
+interprétation.

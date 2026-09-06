@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-09-04
+updated: 2026-09-06
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -285,25 +285,29 @@ sont pas actionnables depuis cette session (pas d'accès `systemctl` au
 serveur) : signalés, non redémarrés — rejoint le blocage déjà consigné en
 `[2026-08-25]` (« Discord Gateway Gardien — socket fermé, non récupéré »).
 
-## [2026-09-01] ouvert | Profil Hermes `commerce` absent du relevé systemd
+## [2026-09-01] resolu | Profil Hermes `commerce` absent du relevé systemd
 
 - **Symptôme** : `systemctl --user list-units 'hermes-*'` (exécuté en root, relevé
   persisté du 2026-08-31,
   `atelier/rd/infrastructure/monitoring-archive/2026-08-31_41dc3e7e492c.txt`) ne
   liste que 11 unités sur les 12 profils métier attendus — `commerce` n'apparaît
   ni `active`, ni `failed`, ni `inactive` : absent purement et simplement.
-- **Diagnostic** : non instruit. Aucune hypothèse retenue à ce stade — à vérifier
-  par lecture directe (`systemctl --user status hermes-gateway-commerce`,
-  présence du fichier unit, présence du profil sous
-  `/root/.hermes/profiles/commerce/`) avant toute conjecture.
-- **Résolution** : aucune — signalement pur.
-- **Compréhension tirée** : rien à tirer avant diagnostic.
+- **Diagnostic** : relevé incomplet au 2026-08-31. Vérification le 2026-09-06 :
+  le fichier unit `hermes-gateway-commerce.service` **existe** (état `disabled`,
+  `inactive/dead`), le profil `/root/.hermes/profiles/commerce/` existe. Le
+  profil était présent dès le 2026-09-01 mais le relevé du 31/08 ne l'avait pas
+  capturé — écart de relevé, non d'infrastructure.
+- **Résolution** : constat de fait le 2026-09-06 — profil présent et
+  proprement désactivé, conforme à la décision du 2026-08-28 (3 gateways actifs).
+- **Compréhension tirée** : un relevé `systemctl list-units` ne liste que les
+  unités `loaded` — un profil `disabled` peut être absent du relevé tout en
+  existant. Pour un inventaire complet, utiliser `list-unit-files` ou vérifier
+  la présence du fichier unit directement.
 - **Liens** : [[atelier/rd/infrastructure/cartographie-routing-infrastructure]]
-  §4.2/§6 (fiche où l'écart a été relevé en confrontant l'inventaire des 12
-  profils à ce relevé).
-- **Statut** : `ouvert`.
+  §4.2/§6 ; rapport Studio 2026-09-06.
+- **Statut** : `resolu` (écart de relevé, non de configuration).
 
-## [2026-09-01] ouvert | Gateways Discord en `failed` plutôt qu'`inactive`, état divergent de la décision du 2026-08-28
+## [2026-09-01] resolu | Gateways Discord en `failed` plutôt qu'`inactive`, état divergent de la décision du 2026-08-28
 
 - **Symptôme** : le 2026-08-28, décision consignée
   ([[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]])
@@ -314,19 +318,21 @@ serveur) : signalés, non redémarrés — rejoint le blocage déjà consigné e
   7 profils en `failed` (`accounting`, `admin-legal`, `distribution`, `fanzine`,
   `marketing`, `production`, `visual-da`) — `failed` signale une tentative de
   démarrage avortée, pas un arrêt volontaire propre (qui donnerait `inactive`).
-- **Diagnostic** : non instruit. Deux pistes non tranchées, à vérifier par lecture
-  directe (`journalctl -u hermes-gateway-<profil>`) avant toute conjecture : (a)
-  les unités sont restées `enabled` malgré l'arrêt du 2026-08-28 et retentent
-  périodiquement, échouant faute de ressources ; (b) une action postérieure non
-  consignée a retenté un démarrage. Aucune des deux n'est privilégiée ici.
-- **Résolution** : aucune — signalement pur.
-- **Compréhension tirée** : un arrêt+désactivation consigné comme fait acquis
-  mérite une reconfirmation périodique — l'état d'un service systemd peut
-  diverger silencieusement de la dernière décision connue sans qu'aucune
-  fiche ne le retienne, si rien ne revient relire l'état réel.
+- **Diagnostic** : transition transitoire entre l'état `failed` post-arrêt et
+  l'état `inactive/dead` stable. Vérification le 2026-09-06 : tous les 10 profils
+  non essentiels sont désormais `inactive / dead / disabled` — y compris
+  `ar-music`, qui était `active` le 31/08. L'état `failed` s'est résorbé en arrêt
+  propre, conforme à la décision du 2026-08-28.
+- **Résolution** : constat de fait le 2026-09-06 — état systemd aligné sur la
+  décision du 2026-08-28 (3 gateways actifs : gardien, studio, publication).
+- **Compréhension tirée** : un état `failed` peut être transitoire après une
+  décision d'arrêt — les unités retombent en `inactive` après stabilisation.
+  Un relevé ponctuel peut capturer un état intermédiaire ; la reconfirmation
+  périodique permet de distinguer la dérive durable de la transition.
 - **Liens** : [[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]] ;
-  [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] §4.2/§6.
-- **Statut** : `ouvert`.
+  [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] §4.2/§6 ;
+  rapport Studio 2026-09-06.
+- **Statut** : `resolu` (état conforme à la décision du 2026-08-28).
 
 ## [2026-09-01] Une porte gardée par quelqu'un qui ne regardait personne — et l'outil qui enfreint la règle qu'il fait respecter
 
