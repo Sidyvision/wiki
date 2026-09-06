@@ -10,6 +10,19 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-06] rd | Traitement des suggestions Publication (4 derniers jours) — corrections frontmatter, convention textes/, correction §VI
+
+- **Action** — traitement des suggestions récurrentes des rapports Publication du 2026-09-03 au 2026-09-06 (profil `publication`, job `veille-referencement-investigation-08`) :
+  1. **Corrections frontmatter** (4 fiches avec `sources:` nu → `sources: []`) : `doctrinal/sources/mawlid-al-rasul.md`, `doctrinal/autorites/imam-malik.md`, `doctrinal/traditions/madhhab-maliki.md`. La 4e fiche signalée (`doctrinal/autorites/ibn-sirin.md`) avait déjà été corrigée le 2026-09-05.
+  2. **Renseignement sources** (2 fiches autorités akbariennes) : `doctrinal/autorites/charles-andre-gilis.md` (4 sources : `sept-etendards-califat`, `gilis-ordo-ab-chao`, `ibn-arabi-fard-afrad-gilis`, `valsan-investiture-cheikh-al-akbar`) et `doctrinal/autorites/michel-valsan.md` (2 sources : `sept-etendards-califat`, `valsan-investiture-cheikh-al-akbar`).
+  3. **Correction anomalies sources_count** (2 fiches symboles) : `doctrinal/symboles/asma-al-husna.md` (1 source : `shams-al-maarif`) et `doctrinal/symboles/ilm-al-huruf.md` (2 sources : `shams-al-maarif`, `jesus-and-enoch-in-ibn-arabi`). Les fiches citaient ces sources dans le corps mais déclaraient `sources: []` dans le frontmatter.
+  4. **Suppression données personnelles** : retrait des numéros de téléphone du traducteur dans `doctrinal/sources/shams-al-maarif.md` (lignes 34, 38). Ces données étaient dans une fiche `type: source` du circuit neutre `doctrinal/` — violation §VI.
+  5. **Correction §VI dans doctrinal/index.md** : suppression du lien `[[hermeneutique/hunter-x-hunter/nen-systeme]]` (doctrinal → hermeneutique, sens interdit) et retrait du wikilink `[[label/production/album-personnel|...]]` (doctrinal → label, sens interdit). Les descriptions textuelles sont conservées.
+  6. **Création convention textes/ → doctrinal/sources/** : nouvelle fiche `[[atelier/rd/infrastructure/convention-textes-pointage-doctrinal]]` qui définit le champ optionnel `texte_converti:` dans le frontmatter des fiches `doctrinal/sources/`. Ce champ permet de pointer vers un dossier dans `textes/` sans violer §VI (n'est pas dans `sources:` ni `cross_links:`, pas contrôlé par `verifier-invariants.py`, pas d'arête dans le graphe).
+- **Portée** — corrections frontmatter (8 fiches modifiées), suppression données personnelles (1 fiche), correction §VI (1 fiche), création convention (1 fiche nouvelle).
+- **Vérification** — `verifier-invariants.py` : à exécuter avant commit (pas de changement structural majeur, mais 8 fiches frontmatter modifiées).
+- **Commit** : à compléter après vérification.
+
 ## [2026-09-06] rd | Désactivation de la protection de branche `main` et bascule GitHub Pages en mode workflow
 
 - **Action** — à la demande de Sidy, deux paramétrages GitHub appliqués au dépôt

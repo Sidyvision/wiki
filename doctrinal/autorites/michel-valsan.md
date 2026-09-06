@@ -4,8 +4,10 @@ type: autorite
 status: traditionnel
 tradition_cadre: islam
 tags: [califat, ibn-arabi, guenon, triangle-androgyne, realisation-descendante, etudes-traditionnelles]
-sources: []
-sources_count: 0
+sources:
+  - "[[doctrinal/sources/sept-etendards-califat]]"
+  - "[[doctrinal/sources/valsan-investiture-cheikh-al-akbar]]"
+sources_count: 2
 cross_links:
   - "[[doctrinal/autorites/ibn-arabi]]"
   - "[[doctrinal/autorites/rene-guenon]]"

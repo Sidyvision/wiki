@@ -382,7 +382,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre|Les awfāq de Shams al-Maʿārif au regard de la métaphysique guénonienne du Nombre]] 🔍 (en cours, speculatif) — quatrième axe du même chantier ; six avenues instruites, une avenue écartée par construction (recherche de concordances chiffrées = procédé pseudo-initiatique) ; quatre critères diagnostiques dégagés, dont le critère décisif de **transmission** ; **Avenue 6** — hypothèse de Sidy (2026-08-14) : le matériau opératif comme seuil discriminant selon l'intention, image de l'épreuve des anges Hārūt et Mārūt (Coran 2:102, `to-source`) — cinquième registre **fonctionnel**, distinct des quatre critères ; reformulation critériologique de la machine engagée par Sidy le 2026-08-14, sans verdict sur sa validité métaphysique (Cmd 12) ; Gizeh confronté, **tension ouverte sur le 28 lettrique face au 22 hébraïque** (documentée telle quelle) ; défaut de sourçage sur [[doctrinal/symboles/ilm-al-awfaq]] **corrigé le 2026-08-14** (sources: to-source, signalement ajouté) ; aucun verdict rendu
 
 ### Herméneutique — joints ouverts depuis `hermeneutique/`
-- [[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique|Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction volontaire]] 🔍 (en cours, speculatif) — quatre avenues instruites (ascèse générale, nadhr/mīthāq islamique, qualification initiatique guénonienne, ekāgratā/siddhi yogique) face au mécanisme du Nen (*Hunter x Hunter*) ; hozo exclu, joint *zōsaku* depuis [[hermeneutique/hunter-x-hunter/nen-systeme]] ; Gizeh confronté, négatif ; aucun verdict rendu
+- [[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique|Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction volontaire]] 🔍 (en cours, speculatif) — quatre avenues instruites (ascèse générale, nadhr/mīthāq islamique, qualification initiatique guénonienne, ekāgratā/siddhi yogique) face au mécanisme du Nen (*Hunter x Hunter*) ; hozo exclu, joint *zōsaku* ; Gizeh confronté, négatif ; aucun verdict rendu
 
 ---
 
@@ -399,7 +399,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 *(vide)*
 
 ### Projets (`atelier/projets/`)
-- [[label/production/album-personnel|Album personnel — home studio et production]] (déplacé vers `label/` le 2026-08-08, verdict Sidy)
+- Album personnel — home studio et production (déplacé vers `label/` le 2026-08-08, verdict Sidy)
 - [[atelier/rd/instrument/instrument-tradition-primordiale-architecture|Instrument de la Tradition Primordiale — architecture (esquisse v0.1)]]
 - [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2|Instrument — architecture v0.2 (développée)]]
 - [[atelier/rd/instrument/instrument-feuille-de-route-v2|Instrument — feuille de route et pile technique (v2)]]
