@@ -10,7 +10,10 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
-## [2026-09-05] rd | Relevé des six fiches `status: academique` de `doctrinal/autorites/`
+## [2026-09-06] rd | Relevé des six fiches `status: academique` de `doctrinal/autorites/`
+
+*Cahier rédigé le 2026-09-05, vérifié et commité le 2026-09-06 — l'entrée porte la
+date du commit qu'elle décrit (Cmd 9).*
 
 - **Action** : ouverture et conduite, sur ordre de Sidy, de la passe de relevé
   annoncée en suites du cahier
