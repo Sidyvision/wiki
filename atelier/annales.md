@@ -10,6 +10,30 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-06] rd | Désactivation de la protection de branche `main` et bascule GitHub Pages en mode workflow
+
+- **Action** — à la demande de Sidy, deux paramétrages GitHub appliqués au dépôt
+  `Sidyvision/wiki` et consignés en fiche infrastructure
+  (`[[atelier/rd/infrastructure/2026-09-06_desactivation-protection-branche-main-et-pages-workflow]]`) :
+  1. **Protection de branche `main` supprimée** (DELETE `/branches/main/protection`,
+     HTTP 204, vérifié 404 « Branch not protected ») — levait le status check
+     obligatoire `lint` et la revue de PR requise qui bloquaient des sessions au
+     commit/push et perturbaient l'arbre de travail.
+  2. **GitHub Pages basculé de `legacy` (Jekyll) vers `workflow`** (PUT
+     `/pages` avec `build_type=workflow`, HTTP 204, vérifié `build_type: workflow`)
+     — élimine le build Jekyll fantôme du workflow système `pages-build-deployment`
+     (en échec chronique « Build with Jekyll ») qui doublonnait `pages.yml` (MkDocs,
+     en réussite).
+- **Portée** — paramétrage côté GitHub uniquement, aucun fichier du dépôt modifié
+  par ces deux actions elles-mêmes.
+- **Ce qui reste à vérifier** — au prochain push sur `main` : `pages-build-deployment`
+  ne doit plus apparaître/échouer, et `Deploy Wiki to GitHub Pages` (pages.yml) doit
+  continuer de réussir, site publié sur https://sidyvision.github.io/wiki/.
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` : voir la
+  passe de contrôle du jour ; la présente fiche est neuve, aucun invariant structural
+  touché.
+- **Commit** : <SHA à l'issue de la passe>
+
 ## [2026-09-06] rd | Clôture des questions 1, 3 et 4 du relevé `status: academique`, et anomalie de forme au registre
 
 - **Action** — dans `[[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]]`,
