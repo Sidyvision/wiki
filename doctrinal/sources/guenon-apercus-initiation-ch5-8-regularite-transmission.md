@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, initiation, rattachement, silsila, chaine-initiatique, qualification, regularite, apercus-sur-l-initiation]
 created: 2026-08-13
-updated: 2026-08-25
+updated: 2026-09-06
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]]", "[[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles]]", "[[doctrinal/sources/guenon-hermetisme-hermes-thoth]]", "[[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]]"]
@@ -17,8 +17,16 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 **René Guénon**, *Aperçus sur l'initiation*, éd. Éditions Traditionnelles.
 Chapitres couverts : **V, « De la régularité initiatique »** et **VIII, « De la
-transmission initiatique »**. Texte consulté dans `raw/` (identifiants de
-chapitre `30` et `33`, sigle `AI`), **lus intégralement**.
+transmission initiatique »**. Textes disponibles dans le dépôt, **lus
+intégralement** :
+
+- ch. V — `textes/apercu-sur-l-initiation/de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md`
+- ch. VIII — `textes/apercu-sur-l-initiation/de-la-transmission-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md`
+
+Chemins nus, non des liens : `textes/` n'est la cible d'aucun wikilink (PRO-08).
+Renvois reportés le 2026-09-06 ; ils visaient jusque-là `raw/` (identifiants
+`30` et `33`, sigle `AI` — index de pagination du site source, non les numéros
+de chapitre).
 
 > ⚠️ **Pagination `to-source`** — non relevée. Levée du marqueur réservée à la
 > vérification sur exemplaire physique par Sidy (discipline des sources,
