@@ -8,7 +8,7 @@ created: 2026-07-07
 updated: 2026-09-06
 sources: ["[[doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques]]", "to-source"]
 sources_count: 2
-cross_links: ["[[meta/philosophie-sashimono]]"]
+cross_links: []
 ---
 
 # Le sashimono comme métier traditionnel — fondement doctrinal de l'analogie opératoire 🔍
