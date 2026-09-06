@@ -3,7 +3,7 @@ title: "Registre des chantiers — carte vivante des travaux ouverts du dépôt"
 type: registre
 tags: [atelier, rd, registre, chantiers, pilotage]
 created: 2026-09-01
-updated: 2026-09-02
+updated: 2026-09-06
 sources: []
 links:
   - "[[atelier/rd/index]]"
@@ -219,6 +219,7 @@ non dépouillées dans cette passe → §8.*
 | DOC-05 | Réserve résiduelle : lien explicite *wirātha* ↔ *aqtāb* non localisé dans le *Futūḥāt* ch. 36 — l'ancrage (c) de l'Instrument en dépend | `ouvert` | [[doctrinal/index]] §VII ; conséquence instrumentale en INS-11 |
 | DOC-06 | **Ingest des deux Tilak** — *The Arctic Home in the Vedas* (1903) et *The Orion* (1893). La matière était déjà CONSOMMÉE par la donnée de l'Instrument (états du soleil, aurores) sans qu'aucune page doctrinale ne la porte — c'est le défaut corrigé | `fait` | ingest fait le 2026-09-02 (5 fiches, commit `47b03c5`), **rouvert le même jour** pour une 6ᵉ fiche sur le chapitre XIII (verdict Sidy, exclusion pure remplacée par catalogage averti) ; sas vidé des reliquats (plan exécuté + doublons OCR bruts) | [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] ; [[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] ; [[doctrinal/sources/guenon-atlantide-hyperboree]] (note 3) | — | 2026-09-02 |
 | DOC-07 | **Osman Yahia, catalogue critique de l'œuvre d'Ibn ʿArabī (1964)** — versé. La **Futūḥāt al-Makkiyya, éd. Maymaniyya t. 1** (texte arabe original, `traditionnel`) est ajournée : OCR jugé structurellement corrompu, pas seulement dégradé — aucune fiche, aucune citation possible en l'état (Cmd 5) | `partiel` | Osman Yahia notice + `textes/` faits le 2026-09-02 ; Futūḥāt renvoyée à **OUT-08** (nouvel essai d'OCR avant toute décision de versement), fichier au sas conservé sur demande de Sidy | [[doctrinal/sources/osman-yahia-histoire-classification-1964]] | — | 2026-09-02 |
+| DOC-08 | **Exotérisme et ésotérisme dans l'attribution de `status`** — le verdict du 2026-09-06 sur quatre autorités a mis au jour un défaut de catégorie : `academique` était traité comme le résiduel de `traditionnel`, alors qu'il nomme une allégeance hors de la tradition. Sidy indique que la matière est « encore plus subtil que ça » et réserve le retour | `recensé` | `[[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]]` — trois registres tenus séparés (établi / lecture provisoire de la machine / réservé). Prochaine action proposée, **non faite, en attente de visa** : fiche `doctrinal/discernement/` |
 
 ## 8. À vérifier — non asserté ouvert
 

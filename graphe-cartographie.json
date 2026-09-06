@@ -1251,7 +1251,7 @@
         "vigilance",
         "apologetique"
       ],
-      "updated": "2026-09-05",
+      "updated": "2026-09-06",
       "chemin": "atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique.md",
       "lacunes_to_source": 0
     },
@@ -1275,6 +1275,29 @@
       ],
       "updated": "2026-09-05",
       "chemin": "atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut",
+      "label": "DOC-08 — Exotérisme et ésotérisme dans l'attribution de `status` : ouverture de chantier",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "cahier",
+        "chantier",
+        "doctrinal",
+        "discernement",
+        "statut",
+        "zahir",
+        "batin",
+        "ouvert"
+      ],
+      "updated": "2026-09-06",
+      "chemin": "atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut.md",
       "lacunes_to_source": 0
     },
     {
@@ -3591,7 +3614,7 @@
         "chantiers",
         "pilotage"
       ],
-      "updated": "2026-09-02",
+      "updated": "2026-09-06",
       "chemin": "atelier/rd/registre-chantiers.md",
       "lacunes_to_source": 0
     },
@@ -4006,7 +4029,7 @@
       "circuit": "doctrinal",
       "sous_dossier": "autorites",
       "type": "autorite",
-      "status": "academique",
+      "status": "traditionnel",
       "tradition_cadre": "islam",
       "tags": [
         "traducteur",
@@ -4015,7 +4038,7 @@
         "isca",
         "jmias"
       ],
-      "updated": "2026-08-23",
+      "updated": "2026-09-06",
       "chemin": "doctrinal/autorites/ali-hussain.md",
       "lacunes_to_source": 0
     },
@@ -4046,7 +4069,7 @@
       "circuit": "doctrinal",
       "sous_dossier": "autorites",
       "type": "autorite",
-      "status": "academique",
+      "status": "traditionnel",
       "tradition_cadre": "islam",
       "tags": [
         "hanafi",
@@ -4055,7 +4078,7 @@
         "seekersguidance",
         "dawa"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-06",
       "chemin": "doctrinal/autorites/faraz-rabbani.md",
       "lacunes_to_source": 0
     },
@@ -4084,7 +4107,7 @@
       "circuit": "doctrinal",
       "sous_dossier": "autorites",
       "type": "autorite",
-      "status": "academique",
+      "status": "traditionnel",
       "tradition_cadre": "islam",
       "tags": [
         "zaytuna",
@@ -4092,7 +4115,7 @@
         "contemporain",
         "stub"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-09-06",
       "chemin": "doctrinal/autorites/hamza-yusuf.md",
       "lacunes_to_source": 1
     },
@@ -4381,7 +4404,7 @@
       "circuit": "doctrinal",
       "sous_dossier": "autorites",
       "type": "autorite",
-      "status": "academique",
+      "status": "traditionnel",
       "tradition_cadre": "islam",
       "tags": [
         "chercheur",
@@ -4389,7 +4412,7 @@
         "intelligence-artificielle",
         "ethique-numerique"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-09-06",
       "chemin": "doctrinal/autorites/yaqub-chaudhary.md",
       "lacunes_to_source": 0
     },
@@ -6513,7 +6536,7 @@
         "psychologisme",
         "pseudo-initiation"
       ],
-      "updated": "2026-08-14",
+      "updated": "2026-09-06",
       "chemin": "doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle.md",
       "lacunes_to_source": 0
     },
@@ -6535,7 +6558,7 @@
         "regularite",
         "apercus-sur-l-initiation"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-09-06",
       "chemin": "doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission.md",
       "lacunes_to_source": 0
     },
@@ -6556,7 +6579,7 @@
         "unite-des-traditions",
         "apercus-sur-l-initiation"
       ],
-      "updated": "2026-08-13",
+      "updated": "2026-09-06",
       "chemin": "doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles.md",
       "lacunes_to_source": 0
     },
@@ -11761,6 +11784,48 @@
     {
       "source": "atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique",
       "target": "doctrinal/autorites/muhammad-al-akili",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut",
+      "target": "atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut",
+      "target": "atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut",
+      "target": "doctrinal/autorites/hamza-yusuf",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut",
+      "target": "doctrinal/autorites/faraz-rabbani",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut",
+      "target": "doctrinal/autorites/ali-hussain",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut",
+      "target": "doctrinal/autorites/yaqub-chaudhary",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
