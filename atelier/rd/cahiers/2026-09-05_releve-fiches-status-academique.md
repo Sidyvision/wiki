@@ -4,7 +4,7 @@ type: experience
 statut_experience: exploratoire
 tags: [rd, cahier, methode, discernement, statut, doctrinal, releve, vigilance]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-06
 sources: []
 links: ["[[atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique]]", "[[doctrinal/autorites/muhammad-al-akili]]"]
 ---
@@ -155,14 +155,17 @@ les deux sens et matière insuffisante pour départager (n° 5). La sixième por
 
 ## Suites, à trancher par Sidy
 
-1. **Exécution des deux verdicts déjà rendus** : `hamza-yusuf` et `faraz-rabbani`
-   passent-ils en `traditionnel` — et, si oui, le motif inscrit à chaque fiche
-   est-il réécrit, ou seulement la valeur ?
+1. **Fait le 2026-09-06** — verdict de Sidy : `hamza-yusuf` et `faraz-rabbani`
+   passent en `traditionnel`. Le motif de `faraz-rabbani` a été **retiré comme
+   erroné** (et non comme périmé) ; le bandeau de stub de `hamza-yusuf` a été
+   réécrit. Voir [[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]].
 2. **`raphael-afilalo` et l'incohérence avec Al-Akili** : laquelle des deux lectures
    du rôle de traducteur fait règle au dépôt ?
-3. **`ali-hussain`** : aucun écart trouvé — la valeur en place tient-elle ?
-4. **`yaqub-chaudhary`** : verser un de ses textes au dépôt pour trancher, ou laisser
-   la fiche en l'état avec la tension consignée ?
+3. **Fait le 2026-09-06** — `ali-hussain` passe en `traditionnel` par le même
+   verdict. La fiche ne portait aucun motif assertant `academique` : rien à défaire.
+4. **Fait le 2026-09-06** — `yaqub-chaudhary` passe en `traditionnel` par le même
+   verdict, sans qu'un versement de texte ait été nécessaire. La fiche ne portait
+   aucun motif assertant `academique` : rien à défaire.
 5. **`aiman-attar`** : question déplacée du couple `academique`/`traditionnel` vers
    le couple `academique`/`profane`, au vu du bloc ⚠️ déjà porté à sa source.
 6. **Anomalie de forme, hors statut** : `sources_count` comptant `to-source` comme
