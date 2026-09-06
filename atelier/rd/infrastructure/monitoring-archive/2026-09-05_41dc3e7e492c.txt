@@ -1,0 +1,190 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+J'ai tout ce qu'il faut. Voici le rapport quotidien du pôle Studio (profil `studio`, canal #infrastructure).
+
+---
+
+# Rapport quotidien Studio — 2026-09-05
+
+## §1 — Cartographie et cohérence structurelle
+
+**1. Graphe (`generer-cartographie.py --depot /root/wiki --verifier`)**
+```
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 546
+      doctrinal    334
+      atelier      202
+      label        10
+
+  Arêtes : 1868
+      établies    1609
+      suggérées   259
+
+  Lacunes to-source : 55
+
+  Avertissements : 141 (non bloquants)
+      lien mort      96
+      isolée         38
+      lien           4
+      compteur       3
+  Mode --verifier : aucun manifeste écrit.
+```
+
+**2. Non-suivi (`detecter-non-tracke.py --racine /root/wiki`)** — *exit code 1*
+```
+23 fichier(s) non tracké(s), par circuit :
+
+  [atelier] 13
+    M   atelier/materiel/distressor-el8.md
+    M   atelier/materiel/neve-1073spx.md
+    M   atelier/materiel/revox-a77.md
+    M   atelier/materiel/tascam-model-12.md
+    M   atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md
+    ??  atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md
+    M   atelier/rd/cahiers/registre-problemes.md
+    M   atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm.md
+    ??  atelier/rd/infrastructure/monitoring-archive/2026-09-03_41dc3e7e492c.txt
+    ??  atelier/rd/infrastructure/monitoring-archive/2026-09-04_41dc3e7e492c.txt
+    M   atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent.md
+    ??  atelier/rd/outillage/spec-verifier-recursion-qaf.md
+    ??  atelier/rd/outillage/verifier-recursion-qaf.py
+
+  [doctrinal] 5
+    M   doctrinal/annales.md
+    M   doctrinal/deviations/body-types.md
+    ??  doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite.md
+    M   doctrinal/index.md
+    ??  doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat.md
+
+  [hors-circuit] 1
+    ??  _inbox/al-futuhat-al-makkiyya-maymaniya-p1.md
+
+  [hors-circuit-inconnu] ⚠ 1
+    ??  textes/sabri-ben-rommane-theory/
+
+  [meta] 1
+    M   meta/2026-07-27_guide-deploiement-verifier-invariants.md
+
+  [racine] 2
+    M   graphe-cartographie.json
+    M   verifier-invariants.py
+
+  ⚠ des chemins ci-dessus n'appartiennent à aucun circuit reconnu (doctrinal/atelier/label/hermeneutique/meta) ni aux dossiers de service usuels — à vérifier : nouveau dossier racine ? faute de frappe de chemin ?
+```
+
+**3. Cohérence infra (`verifier-coherence-infrastructure.py --racine /root/wiki`)** — *10/10, 0 écart*
+```
+10 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ [2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ✅ [2026-08-26_migration-omniroute-quota-qwen.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ [activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+```
+
+> **Note anti-fabulation** : le point 1 affiche 546 nœuds / 0 erreur bloquante (le `verifier-invariants.py` a été sorti du volet Studio le 2026-08-24, repris par le job Publication 11:00 UTC — c'est bien ce que le script fournit aujourd'hui). Le point 2 remonte à 23 fichiers non suivis (contre 0 au 31/08 aux derniers comptes, cf. registre ligne 274-275) : la passe d'INTÉGRATION du 2026-09-04/05 n'a pas encore commité les fiches Sabri Ben Rommane ni les archives monitoring des 09-03 et 09-04. Le `git log` local montre que **les fiches OUT-15 (sampling Cordis) sont, elles, déjà commitées** (dernier commit `102678b`, 2026-09-05 06:57).
+
+## §2 — Empreinte serveur
+
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   30G  6.1G  84% /
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       3.1Gi       216Mi       4.0Mi       668Mi       597Mi
+Swap:          2.0Gi       1.7Gi       319Mi
+```
+- **Disque : 84 %** (6.1 G libres). Tendance à surveiller — voir §5.
+- **RAM : tendue** — 597 Mi disponibles (buff/cache 668 Mi), échange 1.7/2.0 G utilisé. Cohérent avec l'historique de saturation (`incident-2026-08-28-saturation-ram`). Les 3 gateways actifs (gardien, studio, publication) tournent ; les 10 autres sont proprement arrêtés (voir §3).
+
+## §3 — Registre Hermes-Terminal
+
+**Gateways actifs** (`systemctl --user list-units 'hermes-*'`) — 3 actifs :
+```
+hermes-gateway-gardien.service     loaded active running
+hermes-gateway-publication.service loaded active running
+hermes-gateway-studio.service      loaded active running
+```
+Les 10 unités non essentielles sont toutes **`inactive / dead / disabled`** (vérifié profil par profil : accounting, admin-legal, ar-music, commerce, distribution, fanzine, karubi, marketing, production, visual-da).
+
+**Bind-mounts** — présents et conformes à la conception (§6.1 Cordis, échantillon B) : lecture seule (`ro`) vers `/home/mehdi/depot-lecture/*` (doctrinal, hermeneutique, karubi-mehdi.md, rd/cahiers, rd/instrument, rd/outillage) et `/home/wendel/depot-lecture/*` ; écriture réduite à `/home/mehdi/depot-ecriture/inbox` (`rw`). Frontière physique effective.
+
+**_inbox/ staleness** — non vide, 4 éléments non commités :
+```
+al-futuhat-al-makkiyya-maymaniya-p1.md   (4.4 Mo, 2026-09-02)
+MASTER-UPDATE.md                         (2026-09-02)
+conversions/                             (2026-09-02)
+.gitkeep
+```
+Sas non vidé depuis le 2026-09-02 — lot Futuhat Maymaniya en attente d'intégration.
+
+## §4 — R&D — analyse engagée
+
+**Nouvelles fiches détectées** (`detecter-nouvelles-fiches-rd.sh`) :
+```
+Nouvelles fiches :
+atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis.md
+atelier/rd/outillage/out-15-sampling-cordis/echantillon-B-sandbox-cordis-wasm.md
+atelier/rd/outillage/out-15-sampling-cordis/skill-prototype/SKILL.md
+Fiches modifiées :
+atelier/rd/registre-chantiers.md
+```
+*(Le 3e « fichier » est en réalité intitulé `skill-prototype/SKILL.md` — chemin affiché tel quel par le script ; les trois sont le triptyque OUT-15.)*
+
+### 4A–4E. Analyse des fiches nouvelles
+
+**OUT-15 — « Sampling comme fonction de Studio » (le triptyque, chantier ouvert 2026-09-05)**
+Il s'agit de la production propre de ce profil (mandat `infrastructure-veille` Volet 2), désormais consignée. Trois pièces, déjà commitées (commits `9099506` → `102678b`).
+
+- **2026-09-05_sampling-fonction-studio-cordis.md** — fiche-mère. (1) Pose le *sampling* (réappropriation d'éléments de code externes) comme traduction opérationnelle du Volet 2 du mandat infra-veille. (2) Consigne une **rupture : la veille Cordis (août) a repéré 7 repos mais n'a jamais émis le rapport Discord requis ni demandé verdict ni ouvert de chantier** — le geste de sampler ne s'est pas fait. (3) Propose deux échantillons concrets. Règles de gouvernance respectées : `sources: to-source` (SPDX None sur les deux repos), réappropriation **conceptuelle** et non copie (éthique du sampling : l'idée, pas l'enregistrement), pas de décision — tout attend verdict Sidy, la fiche devient le triptyque officiel seulement après ✅.
+- **echantillon-B-sandbox-cordis-wasm.md** — second échantillon (frontière physique des composants, §6.1 du papier Cordis). **Point notable** : la fiche observe que les bind-mounts existants (`depot-lecture` ro / `depot-ecriture/inbox` rw) sont *déjà* une implémentation de la §6.1 Cordis. Mapping riche et honnête sur les limites (pas d'implémentation Wasm, pas de WIT, pas d'async-inverses).
+- **skill-prototype/SKILL.md** — prototype d'échantillon A : skill `spatiotemporal-composability` (contrat `inject/provide/apply`, effets réversibles, HMR, réalmes, confluence). Bien rédigée en vocabulaire Sashimono, réappropriation (pas de copie du repo source).
+
+**Rapprochement avec `registre-problemes.md`** : aucun de ces fichiers ne consigne un *problème* au sens du registre (erreur/blocage/anomalie). C'est un montage à blanc de laboratoire, pas une entrée de registre. Rien à ajouter au cahier des problèmes. La « rupture » (veille faite sans rapport) est un **processus inabouti**, correctement traité par la fiche elle-même et par la ligne OUT-15 du registre-chantiers.
+
+**Dépendances entre fiches R&D** :
+- OUT-15 (sampling) **dépend de** : `atelier/rd/veille/cordis/{implementations-github,methodes,equations}.md` (le crate-digging), de la skill `infrastructure-veille` Volet 2 (le mandat), et **alimente** `registre-chantiers.md` (ligne OUT-15, statut `ouvert`).
+- OUT-15 est **lié à OUT-04** (applicabilité Cordis, fiche-mère `2026-08-16_cordis-composabilite-spatiotemporelle`) et **OUT-06** (restes veille) — registre-chantiers le dit explicitement.
+- **Angle mort latent** : l'échantillon B fonde sa validation sur l'existence des bind-mounts ; si la cartographie des bind-mounts n'est pas consignée en fiche (je n'en vois pas de trace dédiée sous `rd/`), la dépendance de l'échantillon B sur l'infra réelle n'est pas vérifiable mécaniquement depuis le dépôt. L'échantillon A vit à `out-15-sampling-cordis/skill-prototype/SKILL.md` — **pas encore installé** comme skill Hermes active (c'est voulu : verdict Sidy d'abord).
+
+**Handoffs agents** : OUT-15 implique **ce profil Studio** (émission du rapport Discord Volet 2, avec la présente synthèse) et une **session INTEGRATION** (consignation en fiche triptyque si verdict ✅). Aucun autre agent nommé dans la fiche. L'échantillon B, s'il est validé, touche la **frontière du dépôt** et donc le périmètre Gardien/INTEGRATION — à flécher explicitement à ce moment-là, pas avant.
+
+### 8. Les 5 entrées les plus récentes du registre-problemes
+
+Lecture des lignes 33–375 (entrées datées 2026-09-02 et 2026-09-01). **Changements d'état depuis la dernière exécution réelle** :
+
+1. **`[2026-09-02]` Deux rapports Publication collés…** — pt 1 (`sources:` nu) `resolu` ; pt 2 (lien mort fabulé atma/jivatma/buddhi) `resolu` (fausse alerte close) ; pt 3 (vérification `raw/` hors portée) `ouvert` — **inchangé**, dépend de Sidy/Serveur.
+2. **`[2026-09-02]` Reprise des rapports Studio/Publication** — pt 1 (DISCORD_HOME_CHANNEL gardien) `resolu` ; pt 2 (script détecteur « manquant ») `resolu` (fausse alerte close) ; pt 3 (**angle mort d'archivage Publication**) `ouvert` — **inchangé**, attente verdict Sidy sur l'extension de `monitoring-archive/`. Le problème demeure : les suggestions Publication ne laissent pas de trace au dépôt, hors copie manuelle.
+3. **`[2026-09-01]` Profil `commerce` absent du relevé systemd** — `ouvert`, diagnostic non instruit. **CHANGEMENT D'ÉTAT constaté aujourd'hui** : le fichier unit `hermes-gateway-commerce.service` **existe** désormais (état `disabled`, `inactive/dead` ; `journalctl` montre un dernier échec de démarrage le 2026-09-01 09:00, puis arrêt propre). Le profil `/root/.hermes/profiles/commerce/` existe. Le relevé du 31/08 ne le listait pas ; il est aujourd'hui **présent et proprement désactivé**. L'entrée reste `ouvert` mais son symptôme s'est dégonflé : il faut soit la clore en « resolu (relevé incomplet) », soit la maintenir pour documenter le dernier échec du 01/09. → **PROPOSITION** : trancher et consigner.
+4. **`[2026-09-01]` Gateways en `failed` plutôt qu'`inactive`** — `ouvert` (diagnostic non instruit, deux pistes). **CHANGEMENT D'ÉTAT : résolu de fait.** Tous les 10 profils non essentiels sont aujourd'hui `inactive / dead / disabled` — y compris `ar-music`, qui était `active` le 31/08. L'état `failed` s'est résorbé en arrêt propre, conforme à la décision du 2026-08-28. L'entrée n'a jamais été refermée. → **PROPOSITION** : acter la résolution et fermer l'entrée.
+5. **`[2026-09-01]` « Une porte gardée par quelqu'un qui ne regardait personne »** — pt 1 (job `lint` vide) `resolu` (job réparé, épreuve faite) ; pt 2 (ZWJ dans les contrôleurs) traité/`resolu`. **Inchangé**, aucune relance nécessaire.
+
+**Pistes stagnantes** : le point 3 de l'entrée `[2026-09-02] #2` (archivage Publication) est resté sans verdict — il bloque la traçabilité des rapports Publication depuis le 2026-09-02. C'est la stagnation la plus coûteuse.
+
+### 9. Synthèse R&D — pistes prioritaires (toutes PROPOSITION)
+
+1. **PROPOSITION (P1, urgence haute / faisabilité immédiate)** — Clore les 2 entrées registre devenues caduques : `commerce` (entry 3) et `gateways failed` (entry 4), état vérifié en direct aujourd'hui. Ça allège le registre et fixe la vérité d'état systemd du jour. (Fiche `registre-problemes.md`, append-only, insertion en tête.)
+2. **PROPOSITION (P2, urgence haute / faisabilité immédiate)** — **Émettre le rapport Discord Volet 2 pour verdict Sidy sur OUT-15** (échantillon A, skill `spatiotemporal-composability`, pilote agent). C'est la prochaine action *exactement* prévue par la fiche-mère et par la ligne OUT-15 du registre-chantiers ; sans ce signal, le triptyque reste un montage à blanc, non validé (Cmd 13).
+3. **PROPOSITION (P3, urgence moyenne / faisabilité session INTEGRATION)** — Pousser au commit la passe d'INTÉGRATION du 2026-09-04/05 : les 23 fichiers non suivis (fiches Sabri Ben Rommane, extension C1, archives monitoring 09-03/09-04, spec+script `verifier-recursion-qaf`) sont **prêts mais non commités** — c'est la principale dette d'intégrité du dépôt ce matin (le compteur remonte de 0 à 23).
+4. **PROPOSITION (P4, urgence moyenne)** — Traiter le verdict d'archivage Publication (point 3, entrée 09-02) : étendre `monitoring-archive/` au profil publication, ou assumer la copie manuelle. C'est la stagnation la plus ancienne et la plus dommageable à la discipline des sources.
+5. **PROPOSITION (P5, urgence basse / faisabilité SS)** — Documenter la cartographie des bind-mounts (le relevé `mount` ci-dessus) en fiche `rd/`, pour rendre l'échantillon B d'OUT-15 vérifiable depuis le dépôt (sa prémisse repose sur ces montages).
+
+## §5 — Suggestions transversales
+
+- **Empreinte serveur (P, urgence moyenne)** : disque 84 %, RAM tendue, échange 85 %. Les 3 gateways actifs + 10 arrêtés correspondent exactement à la décision 2026-08-28 — aucune nouvelle saturation observée. Recommande de surveiller la pente disque (le lot Futuhat Maymaniya de 4.4 Mo est encore dans `_inbox/` non commité, mais `raw/` est hors git ; à confirmer ce qui grossit sur `/dev/sda1` avant que 6.1 G ne fonde).
+- **Sas `_inbox/` non vidé** depuis le 2026-09-02 (Futuhat Maymaniya). Intégration en attente — signalement, pas action (Cmd 13).
+- **Hygiène Cmd 15** : aucun ZWJ/BOM détecté dans les sorties ou les fichiers vérifiés ce matin — contrôle conforme (rappel : ce point a fait l'objet de l'épreuve 2026-09-01, entrée registre n°5).
+- **Aucune violation d'étanchéité** repérée dans les nouvelles fiches : les liens `rd/` vers `doctrinal/` sont bien en sens unique et signalés (ex. `spec-verifier-recursion-qaf.md` → `[[doctrinal/sources/sabri-ben-rommane...]]`, signalé).
+
+---
+*Session de veille Studio, 2026-09-05. Vérification structurelle obligatoire exécutée (script 3 : 10/10, 0 écart). Contrôle anti-fabulation respecté — sorties scripts collées verbatim. Aucune action d'écriture effectuée : pure veille + propositions (gouvernance Discord-Validation).*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").
