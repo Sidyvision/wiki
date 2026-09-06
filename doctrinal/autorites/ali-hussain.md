@@ -49,5 +49,4 @@ Deux publications connues à ce stade : une traduction (ISCA, 2022) et un articl
 
 `traditionnel` — **verdict de Sidy du 2026-09-06**. Aucun motif doctrinal n'est
 consigné ici : la distinction de fonctions qu'engage cette valeur est en cours
-d'instruction et son énoncé appartient à Sidy (Cmd 12). La valeur antérieure,
-`academique`, reposait sur un critère reconnu fautif.
+d'instruction et son énoncé appartient à Sidy (Cmd 12).
