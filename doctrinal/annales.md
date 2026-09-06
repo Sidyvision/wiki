@@ -9,6 +9,31 @@ updated: 2026-09-06
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-06] correction | Retrait d'une assertion fautive du bloc `## Statut` de quatre autorités
+
+- **Action** — la phrase finale « La valeur antérieure, `academique`, reposait sur
+  un critère reconnu fautif. » est retirée des quatre fiches passées en
+  `traditionnel` le jour même : `hamza-yusuf`, `ali-hussain`, `faraz-rabbani`,
+  `yaqub-chaudhary`. Le verdict, sa date et son auteur subsistent seuls.
+- **Motif** — la phrase avait été appliquée uniformément aux quatre, sans distinguer
+  les deux groupes que le relevé du 2026-09-05 avait pourtant déjà séparés. Elle est
+  **fausse** pour `ali-hussain` et `yaqub-chaudhary` : ces fiches ne portaient aucun
+  motif assertant `academique`, aucun critère n'y avait donc été consigné et aucun
+  ne pouvait être reconnu fautif. Elle contredisait de surcroît l'entrée d'annales
+  de la passe précédente, qui constatait expressément que « deux fiches ne
+  demandaient aucun texte à défaire ».
+- **Ce qui n'est pas touché** — le motif de `faraz-rabbani`, retiré comme erroné en
+  `## Notes`, et le bandeau de stub de `hamza-yusuf` restent en l'état : ces deux
+  fiches portaient effectivement un motif, et son retrait y était fondé. Aucune
+  élaboration doctrinale n'est ajoutée nulle part : la distinction de fonctions
+  qu'engage cette valeur reste réservée à Sidy (Cmd 12).
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` :
+  `1400 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que .gitignore exclut
+  n'est pas contrôlé). / 0 erreur(s), 0 avertissement(s).` Graphe régénéré au
+  mandat du §VII (commit `c3bfd6f`) : aucun nœud ni arête modifié — les corrections
+  sont de prose seule, sans changement de lien ni de frontmatter doctrinal.
+- **Commit** : 3055965
+
 ## [2026-09-06] discernement | Quatre autorités passent en `status: traditionnel` (verdict Sidy)
 
 - **Action** — `hamza-yusuf`, `ali-hussain`, `faraz-rabbani` et `yaqub-chaudhary`

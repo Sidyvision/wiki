@@ -10,6 +10,35 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-06] rd | Clôture des questions 1, 3 et 4 du relevé `status: academique`, et anomalie de forme au registre
+
+- **Action** — dans `[[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]]`,
+  section `## Suites`, les questions 1, 3 et 4 deviennent des constats datés
+  « Fait le 2026-09-06 », renvoyant au cahier DOC-08. Le verdict de Sidy y a
+  répondu : les quatre autorités nommées passent en `traditionnel`. `updated:`
+  remonté au 2026-09-06 (Cmd 8).
+- **Ce qui reste ouvert** — les questions 2 (`raphael-afilalo`) et 5
+  (`aiman-attar`). Ces deux fiches n'étaient pas nommées au verdict et conservent
+  `status: academique`. Le silence n'est pas une confirmation : la question est
+  portée à Sidy, elle n'est pas tranchée ici (Cmd 12).
+- **Inchangé** — les constats 1 à 6 du relevé lui-même. Un document daté consigne
+  ce qu'il a trouvé au jour où il l'a trouvé ; il ne se réécrit pas à la lumière
+  d'un verdict postérieur.
+- **Anomalie rapportée, non corrigée (Action VIGILANCE)** — au §7 de
+  `[[atelier/rd/registre-chantiers]]`, l'en-tête de la table `DOC-` compte quatre
+  colonnes, et les lignes DOC-01 à DOC-05 ainsi que DOC-08 s'y conforment. **Les
+  lignes DOC-06 et DOC-07 portent huit barres verticales, soit sept colonnes** :
+  elles excèdent l'en-tête, et un moteur de rendu Markdown écarte silencieusement
+  les cellules au-delà. L'anomalie est antérieure à cette passe. `verifier-invariants.py`
+  ne contrôle pas l'arité des tables Markdown : sa sortie verte n'est aucune
+  garantie sur ce point. Correction non faite, en attente de verdict (Cmd 12).
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` :
+  `1400 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que .gitignore exclut
+  n'est pas contrôlé). / 0 erreur(s), 0 avertissement(s).` Graphe régénéré
+  (commit `c3bfd6f`) : seul le champ `updated` du cahier de relevé change, aucun
+  nœud ni arête.
+- **Commit** : f3db8d3
+
 ## [2026-09-06] rd | Ouverture du chantier DOC-08 — exotérisme/ésotérisme et attribution de `status`
 
 - **Action** — chantier `DOC-08` ouvert au statut `recensé` dans
