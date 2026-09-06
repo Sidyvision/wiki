@@ -9,6 +9,67 @@ updated: 2026-09-06
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-06] contrôle | Clôture des trois dernières cibles C1 doctrinales
+
+Dernier volet de la passe ouverte le 2026-09-04 par l'extension de C1/C2 au
+cartouche. Sur les sept cibles alors relevées, quatre avaient été corrigées le
+jour même ; les trois restantes étaient doctrinales et attendaient verdict.
+Elles sont instruites et closes ce jour, une par une, sur verdict de Sidy.
+
+- **Cas 5 — `2026-07-01_rafi-ad-darajat-fonction-traversante`** : la troisième
+  entrée de `sources:` pointait vers `doctrinal/sources/coran-essai-traduction-gloton`,
+  fiche **jamais créée** — l'ingest de la traduction du Coran de Maurice Gloton
+  n'a pas été fait. Lien mort remplacé par `to-source`, `sources_count: 3`
+  conservé. Un signalement inscrit dans la fiche distingue l'**absence de fiche**
+  d'un **doute sur la citation** : Qurʾân 40:15 (sourate *Ghâfir*, p. 468) reste
+  vérifiée par Sidy sur exemplaire physique, et le verdict de clôture du
+  2026-07-14 n'est pas rouvert. Le signalement met aussi en garde contre la
+  confusion avec [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]],
+  qui porte sur un autre ouvrage du même traducteur.
+
+- **Cas 6 — renvoi Guénon depuis `2026-07-07_sashimono-metier-traditionnel`** :
+  question de Sidy — les textes de Guénon étant dans `textes/`, ne serait-il pas
+  plus propre de citer la référence et de pointer vers le livre ? L'instinct est
+  juste et n'entre pas en tension avec PRO-08 : le dépôt a déjà l'idiome. La
+  **fiche source** est l'objet wikilinkable, le **chemin nu** en backticks est la
+  façon dont elle atteint `textes/`. Création de
+  [[doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques]],
+  quatrième fiche sur *Aperçus sur l'Initiation*. Le chapitre **XIV** est établi
+  par recoupement et non par inférence : le `Chapitre=39` de l'URL est la
+  pagination interne du site, l'écart constant de 25 se recoupe sur la fiche
+  ch. VII qui porte `Chapitre=32`, et le titre est confirmé dans le corps du
+  texte. **La pagination des pages reste `to-source`** — elle n'est pas
+  reconstituée. Le renvoi de la fiche vers le discernement `speculatif` non
+  tranché est porté au titre de l'**exception généalogique signalée** prévue par
+  `doctrinal/CLAUDE.md`, explicitement inscrite dans la fiche : elle fonde, elle
+  ne conclut pas. Sans quoi C3 restait **muet** — le chemin nu ne portant pas de
+  wikilink — et un contrôle muet n'est pas un contrôle satisfait (§VII).
+
+- **Cas 7 — attribution de *Principes et méthodes de l'art sacré*** : l'ouvrage
+  est de **Titus Burckhardt** (Dervy), non de Coomaraswamy. Rectification avec
+  trace **aux deux endroits** (Cmd 5) : corps de la fiche discernement et
+  `atelier/rd/bibliotheque/catalogue-bibliotheque.md`, où une entrée Burckhardt
+  est ajoutée en **non détenu**. L'hypothèse de Sidy — l'ouvrage aurait été cité
+  par Coomaraswamy dans *La Porte du ciel* — est **consignée non résolue**, avec
+  sa réserve de datation : Coomaraswamy meurt en 1947, l'ouvrage paraît en 1958,
+  une citation par lui est chronologiquement impossible en l'état. Consignée,
+  non tranchée, sur consigne de Sidy (« on verra ça plus tard »).
+
+**Répercussion** : cahier R&D `2026-09-04_extension-c1-cartouche-verifier-invariants`
+§6 et §7 clos (le texte d'instruction du 2026-09-04 est conservé verbatim, Cmd 5,
+et l'issue de chaque cas ajoutée en dessous) ; `doctrinal/index.md` ; phrase
+périmée de l'entrée du 2026-09-04 rectifiée ; `graphe-cartographie.json` régénéré.
+
+**Signalé, non corrigé dans ce lot** : les trois fiches sœurs sur *Aperçus sur
+l'Initiation* (ch5-8, ch7, ch20) portent encore des renvois vers `raw/` au lieu
+de `textes/` — reliquat de la même reprise.
+
+**Vérification** : `python3 verifier-invariants.py` →
+`1399 fichier(s) .md contrôlé(s) — 0 erreur(s), 0 avertissement(s).`
+La ligne de base passe de 0 erreur / 3 avertissements à **0 / 0**.
+
+- **Commit** : fd0cd8a
+
 ## [2026-09-05] amendement | `doctrinal/CLAUDE.md` — précision sur `status: academique`
 
 - **Action** : ajout d'une précision aux *Définitions des Statuts*, immédiatement à la suite de la précision du 2026-07-28 sur `type: deviation`, dont elle reprend exactement la forme (blockquote, amendement daté, verdict Sidy).
