@@ -68,12 +68,10 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**51 chantiers ouverts** au 2026-09-02, plus 7 versés en §9 (clos ou caducs) et
+**51 chantiers ouverts** au 2026-09-06, plus 7 versés en §9 (clos ou caducs) et
 6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous
 modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
-Mis à jour le 2026-09-02 : ouverture de `BIB-03`, puis de `INS-15` — celui-ci
-passé `attente-verdict` → `en-cours` le même jour (plan visé, phases 2 et 3 faites),
-et ouverture de `DOC-06` (ingest des deux Tilak, **fait** le jour même) puis de `PRO-08`.
+Mis à jour le 2026-09-06 : INS-01 passé `ouvert` → `en-cours` (transcription du ch. II de Shayegan faite dans `textes/`, relecture OCR en attente).
 
 > **Note de recomptage (2026-09-02).** Deux sessions concurrentes ont porté deux
 > totaux différents sur cette ligne — 31/3/5/9 d'un côté, 30/3/5/10 de l'autre, tous
@@ -125,7 +123,7 @@ une valeur recopiée est une valeur périmée. Il dit **où regarder**.
 
 | ID | Chantier | Statut | Prochaine action | Fiche d'origine | Triptyque | Ouvert par |
 |---|---|---|---|---|---|---|
-| INS-01 | Transcrire le ch. II de Shayegan — pièce manquante en amont de l'unification des axes | `ouvert` | transcription (poste INGEST) | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] §6 | — | fiche du 2026-08-30 |
+| INS-01 | Transcription du ch. II de Shayegan (*Les Disciplines Spirituelles*) — **faite** dans `textes/les-disciplines-spirituelles-daryush-shayegan/` | `en-cours` | relecture de la transcription OCR (artefacts de ligne signalés) | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] §6 | — | fiche du 2026-08-30, transcription 2026-08-30 |
 | INS-02 | Mode « axe unifié » + champ `echelle` dans le générateur et le prototype | `ouvert` | spécifier avant de coder | même fiche, §4.2 | [[atelier/rd/instrument/ins-02-axe-unifie/intent]] | 2026-08-30 |
 | INS-03 | Cieux planétaires ↔ *lokas* — comparaison licite jamais tentée | `ouvert` | ouvrir une fiche `discernement` dédiée (Cmd 3) | même fiche, §6 | — | 2026-08-30 |
 | INS-04 | 22 sentiers séphirothiques comme réseau de canaux rayonnant de Tiferet | `bloque` | l'arrangement des sentiers n'est pas fixé au dépôt — instruire en amont | même fiche §3.3 ; `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet` (`speculatif`) | — | 2026-08-30 |
