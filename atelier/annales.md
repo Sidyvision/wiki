@@ -10,6 +10,61 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-05] rd | Relevé des six fiches `status: academique` de `doctrinal/autorites/`
+
+- **Action** : ouverture et conduite, sur ordre de Sidy, de la passe de relevé
+  annoncée en suites du cahier
+  `[[atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique]]`.
+  Nouveau cahier
+  `[[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]]` (169 lignes,
+  `statut_experience: exploratoire`) : pour chacune des six fiches, relevé des
+  **écarts effectifs** au sens de l'amendement du 2026-09-05 à
+  `doctrinal/CLAUDE.md`, dans ce que le dépôt cite d'elle et rien d'autre.
+- **Méthode** : le titre universitaire, l'affiliation, l'éditeur et la revue sont
+  explicitement écartés comme n'étant pas des écarts — la consigne pose
+  l'allégeance épistémologique, non la position institutionnelle.
+- **Résultat** : cinq fiches sur six ne portent **aucun écart** du type décrit
+  (`hamza-yusuf` faute de matière citée, `faraz-rabbani`, `raphael-afilalo` et
+  `ali-hussain` aucun, ce dernier portant des marques inverses) ;
+  `yaqub-chaudhary` est le seul cas mixte, indécidable en l'état, rien de lui
+  n'étant versé au dépôt. `aiman-attar` porte un écart réel, mais qui déplace la
+  question du couple `academique`/`traditionnel` vers `academique`/`profane` : sa
+  seule source au dépôt, `doctrinal/deviations/body-types.md`, est classée
+  `profane` — la fiche autorité est la seule des six dont la source est classée
+  plus sévèrement qu'elle.
+- **Incohérences de dossier signalées, non corrigées** : le motif de
+  `faraz-rabbani` (« non saint autorisé, *walī* avec *silsila* établie ») fait de
+  `academique` un défaut résiduel, ce que la consigne interdit désormais ; et
+  `raphael-afilalo` porte `academique` quand son propre ouvrage,
+  `doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations.md`, porte
+  `traditionnel` — configuration que Sidy a tranchée le même jour sur Al-Akili,
+  « sur l'homme comme sur son ouvrage ».
+- **Ce qui n'a pas été fait** : aucune valeur de `status` modifiée — y compris sur
+  `hamza-yusuf` et `faraz-rabbani`, dont Sidy a rendu le verdict le 2026-09-05,
+  l'écriture attendant un visa (§VIII.1, Cmd 13) ; aucun `cross_link` touché ;
+  aucune fiche ouverte pour Mahmoud Ayoub. Six questions restent portées à Sidy
+  en section `## Suites` du cahier.
+- **Vérification des citations** : les cinq attributions verbatim du relevé
+  (`hamza-yusuf` `sources: ["to-source"]` / `sources_count: 1`, le motif *walī*
+  de `faraz-rabbani`, le motif « médiateur, non primaire » de `raphael-afilalo`,
+  la phrase « s'efforce d'expérimenter les œuvres d'Ibn ʿArabī plutôt que de les
+  réduire à un objet d'étude académique » d'`ali-hussain`, et « d'abord un
+  problème métaphysique islamique » de `yaqub-chaudhary`) ont été recontrôlées
+  une à une par `grep` contre leur fiche avant commit (§VIII.2), la première
+  lecture groupée ayant été tronquée.
+- **Étanchéité** : les liens du cahier vers `doctrinal/` sont à sens unique et
+  signalés (§VI) ; aucune fiche doctrinale ne pointe vers lui.
+- **Changelog du protocole** : aucune entrée due dans
+  `meta/protocole-archives/changelog-CLAUDE.md` — ce fichier ne suit que les
+  révisions du **protocole racine**, et l'amendement du 2026-09-05 porte sur
+  `doctrinal/CLAUDE.md`, journalisé dans `doctrinal/annales.md`. Contrôle fait
+  sur le précédent du 2026-07-28 (`type: deviation`), lui non plus absent du
+  changelog.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `1399 fichier(s) .md contrôlé(s)` — `0 erreur(s), 0 avertissement(s)`. Cmd 15 :
+  propre sur les deux cahiers.
+- **Commit** : c51ee7e
+
 ## [2026-09-06] rd | Cahier de contrôle clos + rectification d'attribution au catalogue
 
 - **Action** : clôture de `atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md`. Les trois dernières cibles `[C1]` — celles-là mêmes signalées comme « les trois avertissements connus » dans l'entrée du 2026-09-05 — sont instruites et closes sur verdict de Sidy. Le §6 passe de `⏳ en instruction` à `✅ corrigé` sur les lignes 5, 6 et 7 ; le §7 reçoit trois blocs **Issue (2026-09-06)**, un par cas. Le texte d'instruction du 2026-09-04 est **conservé verbatim** en dessous (Cmd 5) : l'issue s'ajoute, elle n'écrase pas.
