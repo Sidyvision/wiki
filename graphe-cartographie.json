@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 138,
+  "avertissements": 140,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -1856,6 +1856,24 @@
       ],
       "updated": "2026-09-01",
       "chemin": "atelier/rd/infrastructure/2026-09-01_capture-reference-sidyvision-com.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-09-06_desactivation-protection-branche-main-et-pages-workflow",
+      "label": "Désactivation de la protection de branche main et bascule GitHub Pages en mode workflow",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "github",
+        "infrastructure",
+        "pages",
+        "branche"
+      ],
+      "updated": "2026-09-06",
+      "chemin": "atelier/rd/infrastructure/2026-09-06_desactivation-protection-branche-main-et-pages-workflow.md",
       "lacunes_to_source": 0
     },
     {
@@ -5818,6 +5836,28 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/discernement/2026-09-06_status-traditionnel-et-partage-zahir-batin",
+      "label": "Le statut `traditionnel` et le partage ẓāhir / bāṭin : question ouverte, non tranchée",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "islam",
+      "tags": [
+        "zahir",
+        "batin",
+        "walaya",
+        "alim",
+        "statut",
+        "taxinomie",
+        "defaut-de-categorie",
+        "en-cours"
+      ],
+      "updated": "2026-09-06",
+      "chemin": "doctrinal/discernement/2026-09-06_status-traditionnel-et-partage-zahir-batin.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/discernement/_template",
       "label": "Spéculation sur [Sujet de la réflexion]",
       "circuit": "doctrinal",
@@ -6627,6 +6667,28 @@
       ],
       "updated": "2026-08-31",
       "chemin": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme",
+      "label": "La Crise du Monde moderne, ch. V : l'individualisme (Guénon)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "individualisme",
+        "apologetique",
+        "autorite-spirituelle",
+        "esprit-traditionnel",
+        "protestantisme",
+        "rationalisme",
+        "crise-monde-moderne"
+      ],
+      "updated": "2026-09-06",
+      "chemin": "doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme.md",
       "lacunes_to_source": 0
     },
     {
@@ -17697,6 +17759,27 @@
       "assise": "suggere"
     },
     {
+      "source": "doctrinal/discernement/2026-09-06_status-traditionnel-et-partage-zahir-batin",
+      "target": "doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-06_status-traditionnel-et-partage-zahir-batin",
+      "target": "doctrinal/symboles/walaya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-06_status-traditionnel-et-partage-zahir-batin",
+      "target": "doctrinal/symboles/walaya-fath-adab",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
       "source": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
       "target": "doctrinal/symboles/hadarat-khams",
       "champ": "sources",
@@ -18651,6 +18734,20 @@
     {
       "source": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane",
       "target": "doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme",
+      "target": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
