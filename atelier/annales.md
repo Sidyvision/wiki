@@ -32,7 +32,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` : voir la
   passe de contrôle du jour ; la présente fiche est neuve, aucun invariant structural
   touché.
-- **Commit** : <SHA à l'issue de la passe>
+- **Commit** : 0027fb0
 
 ## [2026-09-06] rd | Clôture des questions 1, 3 et 4 du relevé `status: academique`, et anomalie de forme au registre
 
