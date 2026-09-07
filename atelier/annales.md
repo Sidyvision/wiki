@@ -9,6 +9,53 @@ updated: 2026-09-04
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-04] chantier | INF-16 — le GPU loué rouvert sous condition, et le chantier mis en veille consultable
+
+Sidy revient le même jour sur le verdict consigné quelques heures plus tôt :
+« il y avait quelque chose que je n'avais pas tout à fait compris concernant
+l'option du GPU Cloud dans la perspective spécifique du développement SLM —
+effectivement c'est une option qui peut se justifier dans le contexte du setup
+Mac Mini ».
+
+Les deux verdicts sont conservés, datés, dans leur ordre. Le second n'annule pas
+le premier : il en **borne la portée**, et le tri se fait objection par objection.
+La configuration fastidieuse visait un setup dont le seul poste est un iPad —
+une station de travail locale la lève, l'objection était conditionnelle au setup
+et non intrinsèque à l'option. La facturation à l'arrêt et l'absence de propriété,
+elles, tiennent toujours : mais elles pèsent contre une capacité *permanente*
+louée, non contre des rafales d'entraînement intermittentes lancées depuis une
+machine possédée.
+
+Le fond que la révision met au jour vaut mieux que le verdict lui-même :
+**servir un SLM et l'entraîner ne sont pas la même charge**. Servir demande une
+capacité continue et modeste — la place d'un bien possédé. Entraîner demande une
+capacité forte et rare — la place, précisément, d'un GPU pris à l'heure. Les
+traiter comme une seule question était l'erreur d'origine, des deux côtés de la
+discussion. E passe donc à `rouverte sous condition` (complément de B, pour
+l'entraînement seul, jamais comme capacité de service), et l'option G — montage
+étagé — cesse d'être une case de complétude pour devenir l'hypothèse la plus
+consistante à instruire. Hypothèse, pas verdict : la matrice reste vide.
+
+Le critère né du premier verdict, lui, survit intact et vaut pour tout le
+chantier : **ce qui est loué ne devient jamais un bien**. Il pèse toujours sur
+l'option D, qui reste non tranchée (Cmd 13).
+
+Sidy manquant de temps pour poursuivre, le chantier est **mis en veille de façon
+consultable** plutôt que laissé en suspens : un paragraphe *Point de reprise* est
+posé en tête du `plan.md`, qui tient en un coup d'œil ce qui est acquis (cinq
+points à ne pas réinstruire), les quatre questions en attente **classées par
+ordre de blocage**, la prochaine action concrète — une seule ligne suffit, les
+usages retenus — et ce qui peut avancer entre deux reprises sans aucun verdict :
+le relevé des prix et celui du coût récurrent réel de la couche modèle actuelle.
+
+→ [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] §Révision ·
+[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan]] §Point de reprise
+
+`verifier-invariants.py` : 0 erreur, 0 avertissement sur 1356 fichiers.
+
+- **Commit** : 3d09ea1
+
+
 ## [2026-09-04] chantier | INF-16 — le GPU loué écarté : un critère de propriété entre dans la comparaison
 
 Le `to-source` ouvert quelques heures plus tôt est levé par Sidy en session. Le
