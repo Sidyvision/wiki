@@ -263,3 +263,41 @@ téléchargés, effaçables. Débit mesuré ~10 s/page à 2 CPU, prétraitement 
 soit **~2 h 10 pour le tome 1** et **~7 h 20 pour les 2 630 pages des quatre
 tomes**. Ce budget rend la reprise après coupure nécessaire, et c'est la seule
 raison d'écrire un lanceur propre au chantier (voir `plan.md`, étape 6).
+
+## Verdict du critère 1 — rendu par Sidy le 2026-09-07
+
+> « il y a des fautes sur les deux échantillons. En gros, si la transcription est
+> faite dans l'état il faudrait systématiquement que je réalise une vérification
+> sur pdf »
+
+**Le critère 1 n'est pas franchi.** Aucune des chaînes essayées ne rend le texte
+lisible mot à mot. Le gain mesuré est réel — l'indice de violation positionnelle
+passe de 4,72-8,67 % à 1,56-2,97 % selon la page — et il ne suffit pas : les deux
+échantillons portent des fautes, y compris le meilleur.
+
+**Ce que le verdict établit, au-delà du rejet.** « Vérification systématique sur le
+PDF » n'est pas un jugement flou : c'est la définition exacte de ce que le dépôt
+appelle un **texte de repérage, jamais texte critique** — le régime sous lequel la
+conversion Osman Yahia a été versée dans `textes/`. Le texte ne peut fonder aucune
+citation (Cmd 5) ; il peut, au plus, servir à *localiser* un passage que la lecture
+humaine du scan viendra ensuite établir. Ce n'est pas rien sur un corpus de
+2 630 pages sans couche texte, mais c'est un tout autre usage que celui visé par
+`intent.md`, et il appelle sa propre décision (DOC-07).
+
+**Ce que la mesure aura servi à faire.** Elle n'a pas certifié une qualité — elle a
+classé quatorze sorties pour désigner les deux que Sidy lirait, et la lecture a
+tranché contre la meilleure d'entre elles. C'est le partage prévu (Cmd 12) : la
+machine range, l'humain juge. La réserve que la machine avait elle-même portée
+(« à l'œil le texte reste corrompu ») va dans le même sens que le verdict, elle ne
+le remplaçait pas.
+
+**Pistes restantes, et ce qu'on peut honnêtement en attendre.** Les pistes C
+(ImageMagick, seuillage adaptatif local) et D (numpy + OpenCV, binarisation
+Sauvola) sont couvertes par le verdict Cmd 13 du 2026-09-07 et restent ouvertes.
+Mais il faut le dire sans enjoliver : elles jouent sur la **binarisation**, or la
+corruption observée porte sur les **formes de lettres de la lithographie
+elle-même**, que le prétraitement ne recrée pas. Passer de « vérification
+systématique nécessaire » à « citable » est un saut, non un réglage. Le seul
+candidat crédible pour ce saut serait un **moteur entraîné sur la lithographie
+arabe imprimée** (Kraken avec un modèle adapté) — et il est bloqué par le disque,
+non par un verdict.

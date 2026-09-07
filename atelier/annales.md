@@ -10,6 +10,17 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-07] rd | OUT-08 — critère 1 tranché par Sidy : non franchi, et ce que ce refus établit
+
+- **Verdict** — lecture faite par Sidy sur les deux échantillons : « il y a des fautes sur les deux échantillons. En gros, si la transcription est faite dans l'état il faudrait systématiquement que je réalise une vérification sur pdf ». **Le critère 1 de `spec.md` n'est pas franchi.** Aucune chaîne essayée ne rend le texte lisible mot à mot ; le texte ne fonde aucune citation (Cmd 5).
+- **Le gain était réel et ne suffit pas.** L'indice de violation positionnelle passe de 4,72-8,67 % à 1,56-2,97 % selon la page. Un indice qui s'améliore d'un facteur trois n'est pas un texte qui devient citable — c'est exactement la distinction que la mesure portait en tête (« aucun de ces chiffres ne dit qu'un texte est lisible ») et que le verdict confirme.
+- **Le partage a fonctionné comme prévu (Cmd 12).** La machine a classé quatorze sorties pour désigner les deux que Sidy lirait ; la lecture a tranché contre la meilleure d'entre elles. La réserve que la machine avait elle-même portée — « à l'œil le texte reste corrompu » — allait dans le même sens, mais elle ne remplaçait pas le verdict et n'a pas été présentée comme tel.
+- **Ce que le refus établit, au-delà du rejet.** « Vérification systématique sur le PDF » est la définition exacte de ce que le dépôt appelle un **texte de repérage, jamais texte critique** — le régime sous lequel la conversion Osman Yahia a été versée dans `textes/`. Le texte peut au plus servir à *localiser* un passage que la lecture du scan viendra établir. Sur 2 630 pages sans couche texte, ce n'est pas rien ; mais c'est un usage distinct de celui visé par `intent.md`, il relève de **DOC-07**, et il n'est **pas tranché**.
+- **Pistes restantes, sans enjoliver.** C (ImageMagick, seuillage adaptatif) et D (numpy + OpenCV, Sauvola) sont couvertes par le verdict Cmd 13 mais **peu prometteuses** : elles jouent sur la binarisation, quand la corruption tient aux **formes de lettres de la lithographie elle-même**. Passer de « vérification systématique » à « citable » est un saut, non un réglage. Le seul candidat crédible serait un moteur entraîné sur la lithographie arabe imprimée (Kraken) — bloqué par le disque à 90 %, non par un verdict.
+- **Registre** — OUT-08 repasse `attente-verdict` → `ouvert` : le verdict est rendu, le chantier ne l'est pas. Tableau du §0 recompté par script après ce changement (OUT 7/0/1/0 ; total 33 ouverts, 10 attente-verdict, 53 dans les quatre statuts déclarés).
+- **Vérification** — `verifier-invariants.py` : 0 erreur, 0 avertissement.
+- **Commit** : à remplir
+
 ## [2026-09-07] rd | Deux paginations confondues — les échantillons OCR d'OUT-08 étaient étiquetés d'une page que Sidy ne lisait pas
 
 - **Signalement de Sidy.** Ayant comparé les extraits d'OUT-08 à ce qu'il lisait « page 300 » du PDF, il constate que **rien ne se recoupe**. Il avait raison, et la faute est dans l'étiquette, non dans sa lecture ni dans la chaîne OCR.
