@@ -15,9 +15,14 @@ links:
 
 # OUT-08 — OCR arabe de la Futūḥāt Maymaniyya : plan
 
-> **Statut** : `execute-partiellement` — les pistes A et B ont été menées le
-> 2026-09-07 sous le verdict Cmd 13 de Sidy du même jour. L'étape 6 (conversion
-> du tome) reste **non écrite** : elle attend le verdict du critère 1.
+> **Statut** : `brouillon`.
+>
+> **Rapport au Cmd 6.** Le plan qui a autorisé les essais du 2026-09-07 est le plan
+> de session visé par Sidy ce jour-là, pas ce fichier : `plan.md` a été écrit
+> **après** les pistes, pour consigner ce qui a été fait et ce qui reste. C'est la
+> séquence réelle, dite plutôt qu'arrangée. Le fichier reste `brouillon` — seul un
+> plan `vise` autorise l'étape 6 (conversion du tome), qui attend de toute façon le
+> verdict du critère 1.
 
 ## Le fait qui a rouvert le chantier
 

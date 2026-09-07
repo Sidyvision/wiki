@@ -1,13 +1,26 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-06
+updated: 2026-09-07
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-07] archivage | Fiche source — corpus Futūḥāt al-Makkiyya, éd. Maymaniyya, les quatre volumes (scan)
+
+- **Action** — création de `doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan.md`. La fiche décrit **le scan, non son texte** : elle recense la source physique (quatre volumes, pagination, bornes) et ne verse aucun contenu. Le Cmd 5 est satisfait parce que les PDF **sont** la source et que tout ce qui est affirmé sort de `pdfinfo` ou de la lecture d'une page nommée.
+- **État du corpus** — les quatre volumes sont **intègres** : la taille sur disque égale exactement la longueur `/L` déclarée par la linéarisation de chaque PDF, et `pdfinfo` ne lève aucune erreur. **2 630 pages scannées** (779 + 704 + 575 + 572). Ce sont des pages *scannées*, non la pagination imprimée — distinction portée dans la fiche, la seconde n'étant pas établie.
+- **Épisode consigné** — les volumes II à IV avaient d'abord été déposés **tronqués** (3,4 Mo reçus contre 64,7 Mo déclarés pour le volume II, soit ~5 %), illisibles. Redéposés par Sidy le même jour. Le fait est porté dans la fiche parce qu'un PDF tronqué de cette façon **s'ouvre sans erreur visible dans certains lecteurs** : c'est l'écart taille/`/L` qui le révèle, pas l'apparence du fichier.
+- **Bornes des bābs — l'épreuve n'a pas entièrement réussi, et c'est dit.** La règle fixée *avant* lecture était que les quatre clôtures et les quatre ouvertures de volume s'accordent deux à deux. Résultat : **deux charnières établies** par énoncé explicite — le volume II s'ouvre sur le **bāb 73** (colophon du volume I, p. 779) et le volume IV sur le **bāb 401** (colophon du volume III, p. 575) —, **une provisoire** — le volume III s'ouvre sur le bāb 301, attesté par son seul fihrist (p. 2), aucun colophon n'ayant été trouvé en fin de volume II, dont les dernières pages sont un index —, et **une non établie** (dernier bāb du volume IV). Les pages de titre des volumes II et IV n'ont rendu aucun texte. Les bornes provisoires sont marquées comme telles et demandent une relecture à l'œil avant citation.
+- **Deux numérotations, non confondues** — le colophon du volume I mentionne dans la même phrase le **bāb** 73 et le ***juzʾ*** 75, en précisant « على حسب تجزئة المؤلف » (*selon la division de l'auteur*). Les numéros de *juzʾ* **ne correspondent pas** aux quatre volumes physiques : le volume I s'achève sur le *juzʾ* 74. Signalé dans la fiche pour éviter le contresens.
+- **Ce que la fiche ne fait pas** — aucun versement dans `textes/` (DOC-07 n'est pas rouvert), **aucun découpage en bābs** (refusé au dépôt sur mesures : le taux d'erreur produisait de *fausses* références ; les bornes ci-dessus sont d'une autre nature — quelques énoncés explicites lus en clair, non un appariement statistique), et **aucune levée de `to-source`** : disposer du scan n'est pas avoir vérifié une citation.
+- **Graphe** — la fiche est **orpheline** (0 lien entrant). Conformément à la procédure, un lien entrant est **proposé et non inscrit** : depuis `doctrinal/autorites/ibn-arabi.md`, qui est le hub de rattachement akbarien et porte déjà quatre sources. **Verdict à Sidy** (Cmd 12) — la machine ne l'écrit pas.
+- **Avertissements de graphe** — les quatre chemins `raw/` du cartouche remontent en « lien mort », `raw/` étant hors git. Ce n'est **pas** un défaut introduit ici : le motif est celui que la convention prescrit pour un renvoi `raw/`, et **17 avertissements du même type préexistaient** (fiches `atelier/materiel/`, `doctrinal/symboles/atma-gita-guenon`). Signalé comme limite connue du graphe, non contourné en s'écartant de la convention. La hausse antérieure de 93 à 99 liens morts est, elle, imputable au chantier `INF-16` d'une autre session, non à cette passe.
+- **Vérification** — `verifier-invariants.py` : **1411 fichiers, 0 erreur, 0 avertissement**. Contrôle §VI (C3) : la fiche ne porte **aucun** lien vers `atelier/`, `meta/` ou `label/`, bien que le chantier OCR y vive — il est cité en prose, jamais en wikilink. Contrôle Cmd 15 : propre. Les quatre chemins de `sources:` ont été **générés depuis `ls`**, jamais retapés (`raw/` est en Unicode décomposé et l'un des noms porte des espaces) ; `sources_count: 4` concorde (B2).
+- **Commit** : à remplir
 
 ## [2026-09-06] création | Fiche source Shayegan — Les Disciplines Spirituelles
 
