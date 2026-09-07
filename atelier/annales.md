@@ -17,7 +17,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Écart mesuré et vérifié en deux points** du volume I : page PDF 300 → folio 284, page PDF 700 → folio 684. Soit **folio = page PDF − 16** pour le corps du volume. Les pages liminaires ne suivent pas cette numérotation ; l'écart des volumes II à IV n'a pas été mesuré.
 - **Ce que le contrôle n'attrapait pas.** La chaîne OCR était juste, la mesure était juste, l'épreuve du §VII était passée — et le résultat restait inutilisable pour son destinataire, parce qu'aucun de ces contrôles ne porte sur *ce que l'étiquette désigne*. Un chiffre exact sous un intitulé ambigu vaut un chiffre faux. Aucun script n'attrape cela ; c'est la confrontation d'un humain à sa propre page qui l'a fait, exactement comme pour les comptes en prose.
 - **Correction** — `spec.md` porte désormais un avertissement en tête de la section des extraits, et **la comparaison refaite sur le folio 300**, la page que Sidy a réellement sous les yeux (témoin I1 = 8,67 %, chaîne retenue **2,69 %** — le rapport se confirme sur cette troisième page). Toute page nommée dans le chantier est qualifiée « page PDF n » ou « folio n », jamais « page n » seule. La fiche source du corpus, qui déclarait la pagination imprimée « non établie », porte l'écart mesuré.
-- **Commit** : à remplir
+- **Commit** : 6fc970f
 ## [2026-09-07] chantier | INF-16 — le GPU loué rouvert sous condition, et le chantier mis en veille consultable
 
 Sidy revient le même jour sur le verdict consigné quelques heures plus tôt :

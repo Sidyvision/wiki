@@ -15,7 +15,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Origine** — signalement de Sidy : comparant des échantillons OCR annoncés « page 300 », il constatait que rien ne se recoupait avec ce qu'il lisait. Les deux lectures portaient sur des pages distantes de seize, la machine comptant en pages de fichier et le lecteur en folios imprimés.
 - **Portée pour le dépôt** — la *Futūḥāt* se cite par la pagination Maymaniyya dans toute la littérature akbarienne. Une citation future qui prendrait un numéro de page PDF pour un folio serait **fausse de seize pages**. La fiche porte donc la règle d'écriture : « page PDF n » ou « folio n », jamais « page n ».
 - **Vérification** — `verifier-invariants.py` : 0 erreur, 0 avertissement.
-- **Commit** : à remplir
+- **Commit** : 6fc970f
 
 ## [2026-09-07] archivage | Fiche source — corpus Futūḥāt al-Makkiyya, éd. Maymaniyya, les quatre volumes (scan)
 
