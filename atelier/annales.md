@@ -19,7 +19,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Pistes restantes, sans enjoliver.** C (ImageMagick, seuillage adaptatif) et D (numpy + OpenCV, Sauvola) sont couvertes par le verdict Cmd 13 mais **peu prometteuses** : elles jouent sur la binarisation, quand la corruption tient aux **formes de lettres de la lithographie elle-même**. Passer de « vérification systématique » à « citable » est un saut, non un réglage. Le seul candidat crédible serait un moteur entraîné sur la lithographie arabe imprimée (Kraken) — bloqué par le disque à 90 %, non par un verdict.
 - **Registre** — OUT-08 repasse `attente-verdict` → `ouvert` : le verdict est rendu, le chantier ne l'est pas. Tableau du §0 recompté par script après ce changement (OUT 7/0/1/0 ; total 33 ouverts, 10 attente-verdict, 53 dans les quatre statuts déclarés).
 - **Vérification** — `verifier-invariants.py` : 0 erreur, 0 avertissement.
-- **Commit** : à remplir
+- **Commit** : e12bc8d
 
 ## [2026-09-07] rd | Deux paginations confondues — les échantillons OCR d'OUT-08 étaient étiquetés d'une page que Sidy ne lisait pas
 
