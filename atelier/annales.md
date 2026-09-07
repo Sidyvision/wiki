@@ -182,7 +182,7 @@ contrôles).
 - **Sas** — fiche djinns : `sources:` nu avec `sources_count: 1` (B2 se serait déclenché à l'intégration) et renvoi `raw/` en wikilink, contraire à la convention ; les deux corrigés d'un coup en portant le chemin nu dans `sources:`. `tradition_cadre` normalisé à `islam`. Le `status: transcripcion-en-cours`, hors de tout vocabulaire du dépôt, est **laissé tel quel** : choisir parmi les cinq statuts est un acte doctrinal (Cmd 12). `_inbox/audio/` documenté par un `.gitkeep`, son objet confirmé par Sidy.
 - **Corpus Futūḥāt** — les tomes 2 à 4 d'abord déposés étaient **tronqués** (3,4 Mo reçus contre 64,7 Mo déclarés pour le tome 2, soit ~5 %) ; redéposés par Sidy le même jour, ils sont intègres : taille sur disque égale à la longueur `/L` de linéarisation, `pdfinfo` propre. **2 630 pages scannées** sur les quatre volumes (779 + 704 + 575 + 572). Le tome 1 couvre les **bābs 1 à 72** — colophon final : « ثم الجلد الاول من الفتوحات المكية ويتلوه المجلد الثاني أوله الباب الثالث والسبعون ». Aucun versement, aucun découpage : DOC-07 n'est pas rouvert.
 - **Vérification** — `verifier-invariants.py --racine /root/wiki` : **1406 fichiers, 0 erreur, 0 avertissement**. `verifier-rapports-traites.py` : plus aucun rapport du périmètre sans entrée. Contrôle Cmd 15 passé sur tous les fichiers commités.
-- **Commit** : 5ad48b8 (retard : rapports, registres, instrument), à compléter (OUT-08 : plan, spec, ligne de registre)
+- **Commit** : 5ad48b8 (retard : rapports, registres, instrument), e0af790 (OUT-08 : plan, spec, ligne de registre)
 
 ## [2026-09-06] rd | Traitement des suggestions Publication (4 derniers jours) — corrections frontmatter, convention textes/, correction §VI
 
