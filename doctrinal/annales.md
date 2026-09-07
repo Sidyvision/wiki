@@ -9,6 +9,14 @@ updated: 2026-09-07
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-07] correction | Fiche source du corpus Futūḥāt — la pagination imprimée est établie pour le volume I
+
+- **Action** — la fiche `doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan.md` déclarait la pagination imprimée « non établie ». Elle l'est désormais pour le **volume I** : **folio = page PDF − 16**, mesuré en deux points (page PDF 300 → folio ٢٨٤, page PDF 700 → folio ٦٨٤). L'écart vaut pour le corps du volume, non pour les pages liminaires ; celui des volumes II à IV n'a pas été mesuré.
+- **Origine** — signalement de Sidy : comparant des échantillons OCR annoncés « page 300 », il constatait que rien ne se recoupait avec ce qu'il lisait. Les deux lectures portaient sur des pages distantes de seize, la machine comptant en pages de fichier et le lecteur en folios imprimés.
+- **Portée pour le dépôt** — la *Futūḥāt* se cite par la pagination Maymaniyya dans toute la littérature akbarienne. Une citation future qui prendrait un numéro de page PDF pour un folio serait **fausse de seize pages**. La fiche porte donc la règle d'écriture : « page PDF n » ou « folio n », jamais « page n ».
+- **Vérification** — `verifier-invariants.py` : 0 erreur, 0 avertissement.
+- **Commit** : à remplir
+
 ## [2026-09-07] archivage | Fiche source — corpus Futūḥāt al-Makkiyya, éd. Maymaniyya, les quatre volumes (scan)
 
 - **Action** — création de `doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan.md`. La fiche décrit **le scan, non son texte** : elle recense la source physique (quatre volumes, pagination, bornes) et ne verse aucun contenu. Le Cmd 5 est satisfait parce que les PDF **sont** la source et que tout ce qui est affirmé sort de `pdfinfo` ou de la lecture d'une page nommée.

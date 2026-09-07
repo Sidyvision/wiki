@@ -47,8 +47,18 @@ chaque PDF, et `pdfinfo` ne lève aucune erreur de syntaxe.
 
 Commande : `pdfinfo <chemin> | grep Pages` sur les quatre chemins ci-dessus.
 
-Ce sont des **pages scannées**, non la pagination imprimée des volumes. Les deux
-peuvent différer (pages de garde, planches) et la seconde n'est pas établie ici.
+Ce sont des **pages scannées**, non la pagination imprimée. La distinction n'est
+pas théorique : pour le **volume I**, l'écart est mesuré à **16 pages** — la page
+PDF 300 porte le folio ٢٨٤ (284), la page PDF 700 porte le folio ٦٨٤ (684). Donc
+**folio = page PDF − 16** pour le corps de ce volume ; les pages liminaires ne
+suivent pas cette numérotation, et l'écart des volumes II à IV n'a pas été mesuré.
+
+> **Conséquence pratique, apprise à ses dépens.** Toute page citée doit dire
+> **laquelle** des deux numérotations elle emploie. Le 2026-09-07, une comparaison
+> d'échantillons OCR a été présentée sous l'intitulé « page 300 » — entendu comme
+> page PDF par la machine, comme folio par le lecteur : **rien ne se recoupait**, et
+> le désaccord venait de l'étiquette, non du texte. Écrire « page PDF n » ou
+> « folio n », jamais « page n ».
 
 Les noms de fichiers sont hétérogènes — le premier porte un intitulé long, les
 trois autres un nom court. `raw/` étant immuable, ils sont cités tels quels et

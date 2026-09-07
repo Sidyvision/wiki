@@ -172,7 +172,55 @@ Le **redressement ne sert à rien** : l'angle détecté est `+0,00°` sur neuf e
 sur dix — le scan n'est pas de travers. Retiré de la chaîne retenue, qui se
 réduit à **agrandissement ×2, binarisation Otsu, `--psm 6`**.
 
+### ⚠ Deux paginations — lever l'ambiguïté avant toute comparaison
+
+**Défaut relevé par Sidy le 2026-09-07** : ayant comparé les extraits ci-dessous à
+ce qu'il lisait « page 300 » du PDF, il a constaté que **rien ne se recoupait**. Il
+avait raison, et la faute est dans l'étiquetage, non dans la lecture.
+
+`pdftoppm -f 300` extrait la **300ᵉ page du fichier**. Or cette page porte le folio
+imprimé **٢٨٤ = 284**. Le folio **300** est, lui, la page **PDF 316**.
+
+**Écart mesuré : folio = page PDF − 16**, vérifié en deux points du volume I
+(PDF 300 → folio 284 ; PDF 700 → folio 684). L'écart tient pour le corps du
+volume ; il ne s'applique pas aux pages liminaires, qui ne suivent pas la même
+numérotation.
+
+Toute page nommée dans ce chantier est désormais qualifiée : **« page PDF n »** ou
+**« folio n »**, jamais « page n » seule. L'échantillon commun de cette
+spécification, fixé en 2026-09-02, est la **page PDF 300** — donc le folio 284.
+
 ### Critère 1 — extraits à lire (le verdict appartient à Sidy, Cmd 12)
+
+#### Sur le folio 300 (page PDF 316) — la page effectivement lue par Sidy
+
+Refait à sa demande, sur la page qu'il a sous les yeux. Témoin I1 = 8,67 %,
+chaîne retenue I1 = **2,69 %**.
+
+**Témoin — modèle Debian, sans prétraitement**
+
+```text
+أخباربلاشكعندكل عقلعار ف بالكلام فان 'للهأخيرناان هذ اسرام وهذ !لال واذاقال تعالىف ذم من قالع الله
+مالريةقل ولاتقولوال صف الست الكذب هذا-لالوهذاسوام لتفترواعلىالله الكذب فانه 1ق 1ك
+بالخبرلانه بر بلاشك الاانه ليس فى قوةالبثمرف؟ كثرالاث_ياءادراك قبسو الاشياء ولاحسنهافاذاعرفنا الم ها
+عرفناهاومنهامايدرك قبحهعقلافى عفنام لكالكذب وكفر الم وحسنه عقلامثل الصد قوشكرالمنم وكون
+الانميتعاق بع ض أ نواع الصدق والاجر يتعاق بيعض أنواعالسكذب فذ اك ننةيءملى الاجرءلى ماأشاءه من قبح
+وحسن ولاءدل ذلك على حسن الشيءولاةبحهكالكذ ب فى نحاة مؤمن من هلاك يؤسرعايهالانان وان كان ظ
+```
+
+**Chaîne retenue — `x2 + Otsu`, `--psm 6`**
+
+```text
+أخباربلاشك عت دكل يقل عارف بالكلا م فان اللا خيرنا ان هذ ا حوام وهذ ١ ءلال وا قال تعالى في ذم من قال عن الله
+مالمريقل ولانقواوال تف السنشك الكذب هذاحلال وهذاحرام لتفتر واعلى الله الكذب فانهأ لح الحم
+الرلانه ير بلاشك الاانه لبس فى قو البشرفا كثرالاش ياءادراك قب الاشياء ولا حسنها فا ذاعراف الحق مها
+عرف '<اومتهاما يدرك قبحه عقلاق عر فنامث ل كالكذذب ور المذم وحسثهعقلاثلااأصد قءه. شك رال مام وكو 2
+الاثم ريتعاق رعض أنواع الصدق والاجر يعاق بعض أنواع اللكذب فذ لاك للب ملى الاجزءلى ماشاءة من قح |
+وحن ولادل ذلك على حمس الشي ولا ةبح #االكذب قنجاة مؤم م هلاك بوصرعاء هالا نان وان كن ؤ
+```
+
+#### Sur la page PDF 300 (folio 284) — l'échantillon commun de cette spécification
+
 
 Même passage, page 300, sept lignes. Le seul écart entre les deux blocs est la
 chaîne de conversion.
