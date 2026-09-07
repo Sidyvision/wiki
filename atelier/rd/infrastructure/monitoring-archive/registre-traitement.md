@@ -75,6 +75,30 @@ datées du jour de la passe et renvoyant au même détail) :
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-08] traite | publication | ad3152b237bb | rapport du 2026-09-06
+
+**Rapport** : cron output `ad3152b237bb/2026-09-06_11-04-41.md`, non archivé — cf. `INF-15` (archive monitoring limitée au profil studio).
+**Traité par** : session Hermes Agent (cette session).
+**Résumé** : conformité frontmatter stable (1400 fiches, 0 erreur, identique à la passe précédente) ; investigation documentaire sur 5 fiches doctrinales `sources_count: 0` les plus anciennes — **toutes 5 ont des PDF correspondants dans `raw/`** (Awrad_Ibn_Arabi.pdf, Jesus_And_Enoch_In_Ibn_'arabi.pdf, shams-al-maarif-traduit-complet.pdf). Recommandation 09-06 de renseigner les deux fiches autorités akbariennes (Valsan, Gilis) **déjà exécutée** (created 2026-08-30, sources renseignées, count 2 et 4). Signal : 75 fiches doctrinales `sources:` null au lieu de `[]` — non détecté par le script.
+**Détail** : [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-09-02]` point 3 (sources raw hors portée mécanique) ; [[doctrinal/sources/awrad-ibn-arabi.md]], [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md]], [[doctrinal/sources/shams-al-maarif.md]], [[doctrinal/symboles/salawat.md]], [[doctrinal/symboles/talisman-sihr.md]].
+**Commit** : (aucun — signalement uniquement, verdict Sidy attendu)
+
+## [2026-09-08] traite | publication | ad3152b237bb | rapport du 2026-09-07
+
+**Rapport** : cron output `ad3152b237bb/2026-09-07_11-03-25.md`, non archivé — cf. `INF-15`.
+**Traité par** : session Hermes Agent (cette session).
+**Résumé** : conformité frontmatter stable (1406 fiches, 0 erreur). Investigation 5 fiches `sources_count: 0` suivantes — **3 sources candidates identifiées dans `raw/`** (mêmes 3 PDF que la veille, confirmés présents). **Signal confirmé et vivant** : 76 fiches doctrinales portent `sources:` (YAML null) au lieu de `sources: []` — discrepancy interne sur `doctrinal/symboles/salawat.md` (cite `[[awrad-ibn-arabi]]` dans le corps, `sources_count: 0`, `sources:` null) et `doctrinal/symboles/talisman-sihr.md` (cite `[[shams-al-maarif]]`, `sources_count: 0`, `sources:` null). Autorités Valsan/Gilis déjà renseignées (non actionnable). État disque/RAM amélioré vs rapport (84% / swap 912Mi).
+**Détail** : [[atelier/rd/cahiers/registre-problemes]], signal 76 fiches `sources:` null ; [[doctrinal/symboles/salawat.md]], [[doctrinal/symboles/talisman-sihr.md]] ; raw/ PDFs confirmés.
+**Commit** : (aucun — signalement uniquement, verdict Sidy attendu)
+
+## [2026-09-08] traite | gardien | 431fcacadca2 | rapport du 2026-09-07
+
+**Rapport** : cron output `431fcacadca2/2026-09-07_12-31-22.md`, non archivé (pas d'archive monitoring pour gardien).
+**Traité par** : session Hermes Agent (cette session).
+**Résumé** : 0 signal détecté. Scan 24h : aucun commit sur `label/` depuis 7 jours (dernier f70a495 2026-08-30, conversion mécanique chemins nus→wikilinks). Revue approfondie des 7 textes-cadres (`doctrine-du-don.md`, `protocole-cercles-token.md`, `strategie-vinyle-300-depositaires.md`, `merchandising.md`, `modele-economique.md`, `equipe-agents-hermes.md`, `fanzine.md`) : vocabulaire public verrouillé (jamais NFT/token/blockchain), non-transférabilité + absence bénéfice promis maintenues, tension Gardien↔Commerce institutionnalisée. `strategie-vinyle-300-depositaires.md:49` (« clientèle de collectionneurs ») qualifié correctement : critère de sélection de relais physiques, pas confusion don/marchandise. Cohérence structurelle triple : doctrine↔protocoles-cercles↔stratégie-vinyle OK, doctrine↔modele-economique OK, doctrine↔textes publics OK (fanzine seul organe public actif, *Dans l'Absolu* non déployé).
+**Détail** : [[label/distribution/doctrine-du-don.md]], [[label/distribution/protocole-cercles-token.md]], [[label/distribution/strategie-vinyle-300-depositaires.md]], [[label/production/modele-economique.md]], [[label/production/equipe-agents-hermes.md]], [[label/marketing-communication/fanzine.md]].
+**Commit** : (aucun — signalement uniquement)
+
 ## [2026-09-07] traite | studio | 41dc3e7e492c | rapport du 2026-09-07
 
 **Rapport** : `monitoring-archive/2026-09-07_41dc3e7e492c.txt`, lu dans la même
