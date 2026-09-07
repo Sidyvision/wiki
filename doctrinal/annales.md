@@ -20,7 +20,7 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Graphe** — la fiche est **orpheline** (0 lien entrant). Conformément à la procédure, un lien entrant est **proposé et non inscrit** : depuis `doctrinal/autorites/ibn-arabi.md`, qui est le hub de rattachement akbarien et porte déjà quatre sources. **Verdict à Sidy** (Cmd 12) — la machine ne l'écrit pas.
 - **Avertissements de graphe** — les quatre chemins `raw/` du cartouche remontent en « lien mort », `raw/` étant hors git. Ce n'est **pas** un défaut introduit ici : le motif est celui que la convention prescrit pour un renvoi `raw/`, et **17 avertissements du même type préexistaient** (fiches `atelier/materiel/`, `doctrinal/symboles/atma-gita-guenon`). Signalé comme limite connue du graphe, non contourné en s'écartant de la convention. La hausse antérieure de 93 à 99 liens morts est, elle, imputable au chantier `INF-16` d'une autre session, non à cette passe.
 - **Vérification** — `verifier-invariants.py` : **1411 fichiers, 0 erreur, 0 avertissement**. Contrôle §VI (C3) : la fiche ne porte **aucun** lien vers `atelier/`, `meta/` ou `label/`, bien que le chantier OCR y vive — il est cité en prose, jamais en wikilink. Contrôle Cmd 15 : propre. Les quatre chemins de `sources:` ont été **générés depuis `ls`**, jamais retapés (`raw/` est en Unicode décomposé et l'un des noms porte des espaces) ; `sources_count: 4` concorde (B2).
-- **Commit** : à remplir
+- **Commit** : 169eb93
 
 ## [2026-09-06] création | Fiche source Shayegan — Les Disciplines Spirituelles
 
