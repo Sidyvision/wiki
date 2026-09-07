@@ -1,0 +1,172 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+I have everything needed. Compiling the report.
+
+---
+
+# 📊 Rapport quotidien — Pôle Studio · Profil `studio` · Canal #infrastructure
+**Date :** 2026-09-07 ~10:02 UTC (12:02 CEST) — exécution cron `monitoring-infrastructure-quotidien`
+
+---
+
+## §1 — Cartographie et cohérence structurelle
+
+### 1. `generer-cartographie.py --depot /root/wiki --verifier`
+```
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 558
+      doctrinal    340
+      atelier      208
+      label        10
+
+  Arêtes : 1905
+      établies    1642
+      suggérées   263
+
+  Lacunes to-source : 57
+
+  Avertissements : 142 (non bloquants)
+      lien mort      93
+      isolée         42
+      lien           4
+      compteur       3
+  Mode --verifier : aucun manifeste écrit.
+```
+Sortie brute, verbatim. Exit 0, aucun avertissement bloquant. *(À noter : le manifeste est généré sur la racine `/root/wiki` comme demanded par le §1 du job ; nœuds/arêtes stables.)*
+
+### 2. `detecter-non-tracke.py --racine /root/wiki`
+```
+1 fichier(s) non tracké(s), par circuit :
+
+  [hors-circuit] 1
+    ??  _inbox/al-futuhat-al-makkiyya-maymaniya-p1.md
+```
+Exit 1 (présence d'un fichier non suivi). Le seul fichier est `_inbox/al-futuhat-al-makkiyya-maymaniya-p1.md` (4,4 Mo, caractères arabes). **Connu et documenté** — cf. rapport-conjoint 2026-09-06 §5.3 et §4 ci-dessous. Rien d'autre, aucun `hors-circuit-inconnu` inédit.
+
+### 3. `verifier-coherence-infrastructure.py --racine /root/wiki` (anti-fabulation)
+```
+10 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+```
+Sortie brute, verbatim. **0 écart** — l'écart `gradien` DISCORD_HOME_CHANNEL de 6 jours, clos le 2026-09-02, ne réapparaît pas. Cohérence fiche↔état réel intacte.
+
+---
+
+## §2 — Empreinte serveur
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   31G  5.5G  85% /
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       3.2Gi       174Mi       4.0Mi       654Mi       584Mi
+Swap:          2.0Gi       2.0Gi        25Mi
+```
+**Signal fort.** Disque à **85%** (5,5 G libres sur 38 G — à surveiller, tendance montante). RAM : **3,7 Gi total, seulement 584 Mi disponibles**, et **swap entièrement consommé** (2,0/2,0 Gi, 25 Mi libres). Ceci recoupe le profil d'incident RAM du 2026-08-28 (saturation, indisponibilité). PROPOSITION : surveiller la pente disque/RAM ; si le disque passe ~90 %, déclencher un état des lieux des gros fichiers (ex. `_inbox`, crons outputs).
+
+---
+
+## §3 — Registre Hermes-Terminal
+
+### Bind-mounts (intégrité inodes — Mehdi & Wendel)
+Tous **OK** (canonical inode = mounted inode, aucun bind mount périmé) :
+```
+Mehdi : karubi-mehdi.md / rd.instrument / rd.outillage / rd.cahiers / doctrinal / hermeneutique / _inbox → 7 OK
+Wendel: karubi-wendel.md / doctrinal / hermeneutique / label.direction-artistique / _inbox → 5 OK
+```
+Aucun MISMATCH. Le risk documenté (bind mount single-file périmé quand l'outil remplace par troncature) ne s'est pas manifesté.
+
+### Gateways — santé des services
+`systemctl --user list-units 'hermes-*'` : **3 services actifs** — `hermes-gateway-gardien.service`, `hermes-gateway-publication.service`, `hermes-gateway-studio.service`, tous `active (running)`. **Conforme à la décision du 2026-08-28** (3 gateways actifs) et aux deux entrées registre closes le 2026-09-06 (commerce présent/disabled ; états `failed` résorbés en `inactive/dead`). 14 profils présents dans `/root/.hermes/profiles/`.
+
+**Connectivité Discord** (logs `gateway.log`, dernière ligne `Connected as`) :
+- **publication** : actif — le cron `veille-referencement-investigation-08` a livré aujourd'hui **09:03** (`ad3152b237bb_20260907_090325.txt`, 10 344 o). Preuve de livraison réelle.
+- **gardien** : dernier `Connected as` 2026-09-05 13:49, dernière ligne de log 2026-09-05 13:59 (relié au `CRITICAL shutdown_watchdog exit 75` du 05/09 puis recréé proprement). Pas d'activité récente de cron depuis.
+- **studio** : dernier `Connected as` 2026-09-05 13:49 ; dernière ligne **2026-09-07 05:18** = `WARNING ... WebSocket unhealthy (socket_closed, 1/2)`. C'est **transitoire** (compte 1/2, le gateway se reconnecte en fond — la présente exécution cron, une heure plus tard, est la preuve que la chaîne de livraison fonctionne). `ERROR` count sur 2000 dernières lignes : studio 14, gardien 12, publication 42 (publication — plus bruité, mais délivre).
+
+*Note :* la dernière ligne de log studio (05:18, un `1/2`) précède ce run ; je n'observe pas d'échec durable de reconnect.
+
+### Staleness `_inbox/`
+```
+=== _inbox/ ===
+-rw-r--r--  1 root root 4478843 Sep  2 09:31 al-futuhat-al-makkiyya-maymaniya-p1.md
+```
+Un seul fichier, daté du **2026-09-02** (> 3 jours, seuil de staleness) : `al-futuhat-al-makkiyya-maymaniya-p1.md`. **Il est bloqué volontairement** — voir §4 (caractères arabes vs pre-commit hook), ne relève pas d'un oubli d'intégration.
+
+---
+
+## §4 — Volet R&D (analyse engagée)
+
+### 4.1 Nouvelles fiches détectées (`detecter-nouvelles-fiches-rd.sh`)
+```
+Nouvelles fiches :
+atelier/rd/cahiers/rapport-conjoint-studio-gardien-traitement-suggestions-2026-09-06.md
+atelier/rd/infrastructure/2026-09-06_desactivation-protection-branche-main-et-pages-workflow.md
+atelier/rd/infrastructure/convention-textes-references-doctrinales.md
+Fiches modifiées :
+atelier/rd/cahiers/registre-problemes.md
+atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles.md
+atelier/rd/registre-chantiers.md
+```
+
+### 4.2 Lecture & rapprochement fiche par fiche
+
+**Fiche A — `cahiers/rapport-conjoint-studio-gardien-traitement-suggestions-2026-09-06.md`** (type `rapport-conjoint`, statut `remis-a-inbox`)
+- Contenu : traitement des suggestions des rapports 09-03→09-06. Clôture de 2 entrées registre (commerce, gateways failed — objet des §3 ci-dessus), exécution déterministe de `verifier-recursion-qaf.py` (variante B confirmée : L1..L5 = [3,8,21,56,151], somme 45 āyāt, exit 0), et une liste de **4 suggestions non traitées** restant en attente.
+- Ce rapport **est déjà le traitant des deux entrées registre que je relis** (§4.3) — il *porte* leur clôture. Pas d'entrée registre 09-06 dédiée au-delà.
+- **Le point le plus directement actionnable pour ce poste Studio :** §5.3 → le fichier `_inbox/al-futuhat` bloqué (caractères arabes qui déclenchent le pre-commit hook Unicode Cmd 15). Trois options (A = amender le hook pour `textes/` ; B = exclure le fichier ; C = nettoyer). **Recommandation Studio du rapport : Option A, restreinte à `textes/`** (PRO-08). Ce poste appuie cette recommandation — c'est exactement le même fichier que mes §1.2 et §3 signalent. **PROPOSITION :** trancher l'Option A (amendement ciblé du hook pour autoriser l'arabe dans `textes/`), avec épreuve de refus en bac à sable avant application (Épreuve des contrôles).
+
+**Fiche B — `infrastructure/2026-09-06_desactivation-protection-branche-main-et-pages-workflow.md`** (type `infrastructure`)
+- Deux paramétrages GitHub appliqués 09-06 sur `Sidyvision/wiki` : (1) suppression **totale** de la protection de branche `main` (qui exigeait le status check `lint` + revue de PR), à la demande de Sidy car elle bloquait les commits ; (2) bascule des GitHub Pages en mode `workflow` (élimine le build Jekyll fantôme `pages-build-deployment` qui échouait à chaque push).
+- **Rapprochement registre :** cette fiche touche **directement l'entrée `[2026-09-01]` « Une porte gardée par quelqu'un qui ne regardait personne »** (le contrôle `lint` vert-sur-rien). La porte a été **déverrouillée** : la protection de branche n'existe plus. Le workflow `lint` subsiste dans le dépôt mais **ne bloque plus rien au push**. Changement d'état réel depuis ma dernière exécution.
+- **Angle mort :** fiche B admet elle-même que le test Pages est *non passé* (dépend d'un prochain push post-bascule) — « Si le workflow fantôme réapparaissait, le signaler ». **PROPOSITION :** au prochain push sur `main`, vérifier que `pages-build-deployment` ne réapparaît pas, et que `pages.yml` (`Deploy Wiki`) continue de réussir.
+- **Conséquence transversale (résiduelle) :** avec la protection de branche désactivée, la charge de garde repose désormais uniquement sur le hook `pre-push` + la discipline `verifier-invariants.py` manuelle (Cmd 6/13). C'est un choix documenté de Sidy, non un oubli — mais je le signale comme risque résiduel à garder en tête.
+
+**Fiche C — `infrastructure/convention-textes-references-doctrinales.md`** (type `infrastructure`)
+- Nouvelle convention : les fiches `doctrinal/sources/` peuvent référencer les textes convertis de `textes/` **sans wikilink** (§VI), via champ frontmatter `texte_converti:` + mention chemin en backticks dans le corps. Exemple : fiche Shayegan créée au dernier commit (1c5a91b).
+- **Rapprochement registre :** répond au besoin PRO-08 (le cabinet de lecture) ; correct du point de vue étanchéité (pas de wikilink vers un non-circuit).
+- **Angle mort (significatif) :** la fiche C reconnaît que « `verifier-invariants.py` ne contrôle **pas** les champs `texte_converti:` ni les chemins dans le corps » — **vérification manuelle pure**. C'est exactement le motif que l'Épreuve des contrôles dénonce (un contrôle qui ne regarde rien / un champ non contrôlé). Un `texte_converti:` qui pointe vers un chemin inexistant passera sans échec. **PROPOSITION :** ajouter au `verifier-invariants.py` un contrôle du champ `texte_converti:` (le chemin doit exister sous `textes/`), éprouvé en bac à sable ; à défaut, documenter explicitement l'absence de contrôle dans le registre comme dette d'outillage.
+
+### 4.3 Dépendances entre fiches R&D & angles morts
+- **A → registre** : A *clôt* les 2 entrées registre `[2026-09-01] commerce` et `[2026-09-01] gateways failed` (confirmées closes — voir §4.4). A *alimente* la décision pending sur `_inbox/al-futuhat` (§5.3).
+- **B ↔ registre `[2026-09-01]` porte gardée** : B modifie l'état du dispositif décrit par cette entrée (protection de branche retirée). Interdépendance réelle à surveiller.
+- **C → `textes/`** (PRO-08) et → `verifier-invariants.py` (devrait le contrôler, ne le fait pas). C est consommée par les fiches `doctrinal/sources/` (ex. Shayegan).
+- **Angle mort ouvert transversal :** l'archivage des rapports **Publication** (INF-15, registre `[2026-09-02]` #3 + §4 du rapport de 09-02) reste `ouvert` — les rapports Publication ne laissent toujours pas de trace au dépôt (seuls les rapports Studio sont archivés via `monitoring-archive/`). Rien n'a changé côté Studio ; c'est une décision Sidy.
+- **Pôle studio-métier (`rd/audio/`)** : **vide** — aucun fiche audio/R&D n'est nouvelle cette passe. Pas de chevauchement avec la chaîne Model 12 → Neve 1073SPX.
+
+### 4.4 Relecture des 5 entrées registre les plus récentes (état depuis la dernière exécution)
+1. **`[2026-09-02]` Deux rapports Publication collés** — les 3 points : défaut `sources:` nu corrigé (resolu) ; lien mort fabulé atma (resolu) ; vérification `raw/` hors de portée (**ouvert**, attente vérification primaire Sidy). *Non changé. Proposition antérieure du poste (mécanisation résolution de lien via sortie verbatim de `generer-cartographie.py`) : non appliquée — reste une piste pour le mandat Publication.*
+2. **`[2026-09-02]` Reprise rapports Studio/Publication** — écart gardien DISCORD_HOME_CHANNEL **résolu** (champs retirés) → confirmé : §1.3 affiche 0 écart. Fausse alerte script close. **Angle mort archivage Publication : `ouvert`**, stagnant (INF-15).
+3. **`[2026-09-01]` resolu | commerce absent** — **clos** (09-06, par rapport-conjoint A). Confirmé : profil présent/disabled. Aucune action.
+4. **`[2026-09-01]` resolu | gateways failed** — **clos** (09-06). Confirmé : 3 gateways actifs (§3). Aucune action.
+5. **`[2026-09-01]` Une porte gardée par quelqu'un qui ne regardait personne** — « resolu » au plan du contrôle `lint` désormais éveillé (sept. 01) ; **mais l'état du dispositif a bougé depuis** : fiche B (09-06) a **supprimé la protection de branche** → le contrôle ne bloque plus les pushes. Proposition antérieure (épreuve du refus à l'installation) : appliquée pour `lint` ; la nouvelle réalité est que la porte n'est plus gardée du tout au niveau infra.
+
+### 4.5 Synthèse — pistes prioritaires R&D (PROPOSITIONS, non décisions)
+1. **PROPOSITION (urgente, faible coût)** : trancher l'**Option A** sur `_inbox/al-futuhat-al-makkiyya-maymaniya-p1.md` — amender le pre-commit hook pour autoriser l'arabe **ciblé `textes/`** (PRO-08), avec épreuve de refus en bac à sable. Débloque un fichier signalé par 3 volets (Untracked, Register A, _inbox staleness).
+2. **PROPOSITION (faisable, alignée Épreuve des contrôles)** : étendre `verifier-invariants.py` au champ `texte_converti:` de la convention C (chemin doit exister sous `textes/`), éprouvé. Comble l'angle mort que la fiche C admet en « vérification manuelle ».
+3. **PROPOSITION (infra, à suivre)** : au prochain push sur `main`, vérifier que `pages-build-deployment` ne réapparaît pas et que `pages.yml` réussit — test non encore passé de la fiche B. À confirmer par une passe d'INTÉGRATION après le prochain commit.
+4. **PROPOSITION (signalement)** : la suppression de la protection de `main` (fiche B) laisse la garde au seul hook `pre-push` + discipline manuelle — risque résiduel à documenter, et à reconsidérer si la protection redevenait souhaitable.
+5. **PROPOSITION (à surveiller)** : veiller à la pente disque 85% / RAM saturée (swap 100%) — recoupe l'historique d'incident 2026-08-28 ; déclencher un état des lieux si disque →90% ou si RAM disponible persiste < 600 Mi.
+
+---
+
+## §5 — Suggestions transversales
+- **Handoff implicite Studio↔INTÉGRATION** : les points 1 et 2 ci-dessus (hook `textes/` + contrôle `texte_converti:`) touchent les scripts de vérification — leur application relève d'une session INTÉGRATION (ou Gardien pour la dimension protocolaire Cmd 15), sous verdict Sidy. Ce poste Studio se limite au signalement.
+- **Handoff Gardien** : la fiche B (protection de branche) relève de la vigilance protocolaire — je la signale pour relecture du registre `[2026-09-01]` porte gardée, dont la « résolution » est désormais partiellement caduque en pratique.
+- **Un commentaire métier (chaîne audio)** : aucun fiche `rd/audio/` nouvelle ; le pôle reste vide. Si une fiche de session de prise de son doit être consignée sous `atelier/rd/audio/`, elle est à créer (chaîne Model 12 → Neve 1073SPX → Distressor, recall sheets) — pour l'instant le savoir-vivre reste dans le skill `studio-sound-engineer`, pas dans le dépôt. **PROPOSITION** : envisager une première fiche `rd/audio/` à la prochaine session réelle.
+
+---
+**Contrôle anti-fabulation :** toutes les sorties de scripts (§1, §2) sont collées verbatim, non reformulées. Le point 3 de contrôle (coherence-infra) affiche 0 écart. Aucune décision prise — uniquement des PROPOSITIONS, conformément à la gouvernance Discord-Validation. À faire valider par Sidy sur #infrastructure avant toute action.
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

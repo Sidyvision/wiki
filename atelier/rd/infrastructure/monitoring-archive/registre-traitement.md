@@ -2,7 +2,7 @@
 title: "Registre de traitement des rapports quotidiens (Studio/Publication)"
 type: meta
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-07
 tags: [atelier, rd, infrastructure, monitoring, registre]
 sources: []
 links:
@@ -74,6 +74,76 @@ datées du jour de la passe et renvoyant au même détail) :
 ```
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-07] traite | studio | 41dc3e7e492c | rapport du 2026-09-07
+
+**Rapport** : `monitoring-archive/2026-09-07_41dc3e7e492c.txt`, lu dans la même
+passe que les quatre entrées suivantes (2026-09-03 à 06).
+**Traité par** : session Claude Code.
+**Résumé** : 0 écart de cohérence infra, 3 gateways actifs conformes à la
+décision du 2026-08-28, bind-mounts tous OK. **Signal fort retenu** : disque à
+85 % et **swap entièrement consommé** (2,0/2,0 Gi, 25 Mi libres) — pente
+confirmée sur les cinq rapports (81 → 83 → 84 → 85 → 85 %). Le rapport dit le
+fichier du sas « bloqué volontairement (caractères arabes vs pre-commit hook) » :
+la cause exacte est mesurée à cette passe — **1 302 U+200F et 810 U+200E**,
+interdits par le Cmd 15. Constat conservé, fichier non corrigé (une conversion
+se remplace, elle ne se retouche pas).
+**Détail** : [[atelier/annales]], entrée `[2026-09-07]`.
+**Commit** : à remplir
+
+## [2026-09-07] traite | studio | 41dc3e7e492c | rapport du 2026-09-06
+
+**Rapport** : `monitoring-archive/2026-09-06_41dc3e7e492c.txt`, même passe que
+l'entrée du 2026-09-07 ci-dessus.
+**Traité par** : session Claude Code.
+**Résumé** : constate la résorption des états `failed` des gateways (amélioration
+nette vs `[2026-09-01]`) et 0 écart infra. Volet R&D : la chaîne DOC-08
+(critère de statut académique, relevé des six fiches, ouverture du chantier) est
+déjà consignée au dépôt et **n'appelle aucune action de cette passe** — son
+verdict appartient à Sidy (Cmd 12). Deux questions restent ouvertes et sont
+laissées telles : divergence afilalo/al-akili, et aiman-attar.
+**Détail** : [[atelier/annales]], entrée `[2026-09-07]`.
+**Commit** : à remplir
+
+## [2026-09-07] traite | studio | 41dc3e7e492c | rapport du 2026-09-05
+
+**Rapport** : `monitoring-archive/2026-09-05_41dc3e7e492c.txt`, même passe.
+**Traité par** : session Claude Code.
+**Résumé** : 23 fichiers non suivis au moment du rapport — **résorbés depuis**
+par les passes d'intégration des 2026-09-05 et 09-06 ; le contrôle du jour n'en
+voit plus que ceux de cette session. RAM signalée tendue (597 Mi disponibles,
+swap 1,7/2,0 G) : constat repris dans le signal transversal de la présente passe.
+Rien d'autre d'actionnable.
+**Détail** : [[atelier/annales]], entrée `[2026-09-07]`.
+**Commit** : à remplir
+
+## [2026-09-07] traite | studio | 41dc3e7e492c | rapport du 2026-09-04
+
+**Rapport** : `monitoring-archive/2026-09-04_41dc3e7e492c.txt`, même passe.
+**Traité par** : session Claude Code.
+**Résumé** : rapport le plus dense des cinq. Ses cinq pistes ont été confrontées
+au disque : la n°4 (exécuter `verifier-recursion-qaf.py`) est **close depuis le
+2026-09-06** ; les n°1 et 2 (consigner les deux incidents du 2026-09-03,
+instruire les trois cas doctrinaux C1) sont **closes le 2026-09-06** ; la n°3
+(pare-feu cloud Hetzner) **reste ouverte** et n'est pas actionnable depuis cette
+session ; la n°5 (intégrer le fichier du sas) relève de DOC-07/OUT-08 et a reçu
+un verdict de Sidy ce jour — la porte du Cmd 13 est ouverte pour OUT-08.
+**Détail** : [[atelier/annales]], entrée `[2026-09-07]`.
+**Commit** : à remplir
+
+## [2026-09-07] traite | studio | 41dc3e7e492c | rapport du 2026-09-03
+
+**Rapport** : `monitoring-archive/2026-09-03_41dc3e7e492c.txt`, même passe.
+**Traité par** : session Claude Code.
+**Résumé** : rapport le plus faible des cinq — son §4 est en partie **fabulé**.
+Ses cinq « problèmes identifiés » (`infra-01` … `scission-01`) portent des
+identifiants qui **n'existent dans aucun registre du dépôt**, et sont présentés
+comme une « lecture des 5 entrées récentes » du registre des problèmes qu'ils ne
+reflètent pas. Écartés à ce titre, non traités comme des constats. Ses deux
+constats vérifiables sont retenus : 7 gateways en `failed` (résorbés depuis, cf.
+rapport du 2026-09-06) et disque à 81 % (pente confirmée depuis).
+**Détail** : [[atelier/annales]], entrée `[2026-09-07]`.
+**Commit** : à remplir
 
 ## [2026-09-02] traite | publication | ad3152b237bb | rapport du 2026-09-01
 

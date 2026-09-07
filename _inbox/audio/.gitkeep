@@ -1,0 +1,11 @@
+Sas audio du sas d'ingest. Point de dépôt des fichiers sonores destinés à la
+transcription (ASR), avant que le texte produit ne rejoigne `_inbox/` puis un
+circuit.
+
+Créé le 2026-09-07, en même temps que la première fiche issue d'ASR
+(`2026-09-07_djinns-aident-humains-koly-cherif-keita.md`). Son objet a été
+confirmé par Sidy le jour même ; ce marqueur l'inscrit pour que le répertoire ne
+reste pas une trace muette.
+
+Comme le sas lui-même, ce répertoire doit exister même vide — même motif qu'au
+2026-08-31 (un sas vide n'est pas un sas absent).
