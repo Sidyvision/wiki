@@ -4,7 +4,7 @@ type: outillage
 chantier: OUT-08
 tags: [atelier, rd, outillage, ocr, arabe, chantier, spec]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-07
 sources: []
 links:
   - "[[atelier/rd/registre-chantiers]]"
@@ -112,3 +112,106 @@ Restent donc, parmi les pistes de `intent.md` : le **prétraitement d'image** et
 un **moteur alternatif** installé localement. L'une et l'autre supposent un
 paquet absent du serveur — point de retour à Sidy (Cmd 13) avant tout nouvel
 essai. Sans ce verdict, aucun `plan.md` ne peut être écrit (Cmd 6, gabarit §2).
+
+## Pistes 4 et 5 — modèle de langue et prétraitement (2026-09-07)
+
+Menées après le verdict Cmd 13 de Sidy du 2026-09-07. **Fait relevé à
+l'ouverture, et qui commande tout ce qui suit** : le modèle en service,
+`/usr/share/tesseract-ocr/5/tessdata/ara.traineddata`, fait **1 432 056 octets et
+date du 30 octobre 2019** — c'est `tessdata_fast`, la variante **la moins précise
+des trois**. Les pistes 1 et 2 de cette spécification avaient donc toutes deux
+été mesurées sur le modèle le plus faible disponible, sans que ce soit relevé.
+
+### Protocole
+
+Pages d'épreuve **fixées avant tout essai** : page 300 (échantillon commun) et
+page 600 (règle déterministe 300 + 300). Mesure par
+`atelier/rd/outillage/mesurer-qualite-ocr-arabe.py`, dont l'épreuve du §VII est
+passée (vert sur du Coran normalisé à I1 = 0,44 %, dégradation monotone sous
+corruption croissante, refus sur entrée muette). Épreuve **E0** faite d'abord :
+`--tessdata-dir` sur un dossier vide **échoue** (code 1), et la sortie diffère du
+témoin — le modèle désigné est réellement celui qui travaille.
+
+### Piste 4 — modèle de langue seul (aucune installation)
+
+Quatre modèles téléchargés dans `/root/out08/tessdata/` (sha256 au journal du
+chantier) : `tessdata` standard (2 494 806 o), `tessdata_best` (12 603 724 o),
+`script/Arabic` standard (10 021 388 o) et best (17 095 279 o). `/usr/share/`
+n'a pas été touché.
+
+**Verdict : négative.** Le meilleur modèle seul (`tessdata` standard) donne
+I1 = 2,38 % sur la page 300 — sous le seuil — mais **5,20 % sur la page 600**,
+au-dessus du seuil de 4,07 %. Le critère 2 (reproduction sur une seconde page)
+n'est pas satisfait.
+
+Trois constats acquis au passage :
+- **`tessdata_best` est moins bon que `tessdata` standard** sur ce scan. Le
+  modèle le plus lourd n'est pas le meilleur ici.
+- Les modèles `script/Arabic` sont les pires **et** injectent 89 à 95 caractères
+  invisibles interdits par le **Cmd 15**. Écartés à double titre.
+- 400 dpi reste négatif **y compris recombiné au nouveau modèle** : la conclusion
+  de la piste 1 tient, elle n'était pas un artefact du modèle rapide.
+
+### Piste 5 — prétraitement d'image, Pillow seul (aucune installation)
+
+Pillow 12.3.0 était **déjà installé** — la supposition qu'un prétraitement
+exigeait un paquet absent était fausse. Binarisation Otsu (seuil sur
+`im.histogram()`, Python pur), agrandissement ×2 Lanczos, redressement par
+variance du profil de lignes, marge blanche.
+
+**Verdict : franchit le seuil mécanique sur les deux pages.**
+
+| variante | page 300 | page 600 |
+|---|---|---|
+| témoin (modèle Debian, `--psm 1`) | 4,72 | 8,13 |
+| seuil de passage (moitié du témoin) | ≤ 2,36 | ≤ 4,07 |
+| piste 4 — meilleur modèle seul | 2,38 | 5,20 ✗ |
+| **piste 5 — `x2 + Otsu`, `--psm 6`** | **1,56** ✅ | **2,97** ✅ |
+
+Le **redressement ne sert à rien** : l'angle détecté est `+0,00°` sur neuf essais
+sur dix — le scan n'est pas de travers. Retiré de la chaîne retenue, qui se
+réduit à **agrandissement ×2, binarisation Otsu, `--psm 6`**.
+
+### Critère 1 — extraits à lire (le verdict appartient à Sidy, Cmd 12)
+
+Même passage, page 300, sept lignes. Le seul écart entre les deux blocs est la
+chaîne de conversion.
+
+**Témoin — modèle Debian, sans prétraitement (I1 = 4,72 %)**
+
+```text
+أوالمند ؤب غيرا نك اذانص رفت ف المباح فتهمرف فيه على حضورانه مبام وان الشارع لولاما أباحسهلكمانصمرّفت
+فئّهفتسكون مأجورافسباحك لامن حي ثكونهمباحاالامن حيث اعانك بهانه شرع من عند النهفان 11> لاينتة لل
+بعدمؤت رسو لاله صل التهع ليهو سإ فان ال1->م هوعين الشسرع وقد سد ذلك البابفالمباح مباحلا يكون واجبا
+ولاحظورا ,بدا وك ذلك كل واحدمن الاحكام وان خط رلاك شاطرفى فرض فتماليهبلاث_لك فانهمن الملأث واذا
+خظرلك ناظرفمندوت فاحفظ أولالخاطرفانهة_د يكونمن ابلس فاًثستعليه فاذاخطرلكانتتر كه لدوب
+نوهو على منه وول فلاتك_د لعن الاولوأثيت عليهواحفتا الثاقوافعلالاولولايد فاذافرغتمئه اشرعى
+الثانى فافءله أيضافان ا لشنيءلان برجع نا سما بلا لك حيث م شفق لهمةصودهو بهذا الدواءيذهب ميض الث_يطان
+```
+
+**Chaîne retenue — `x2 + Otsu`, `--psm 6` (I1 = 1,56 %)**
+
+```text
+ولا محظلورا أبدا وكذ لاك كل واحد من الاحكاروان خطارلاك خا طرف فرض ,اليه بلاش_.ك فأنه من الملا واذا
+خط رلك تاطرق مندوب فاحفظ أول الخاطرفائه ةد يكون من ! بلاس فأنت عليه فاذا خطارلاك ان ثتر كهلادوب
+اخ هوا على م نه وا ولى فلات دل عن الاول واثنبت عليه واحفنا الثاق وافعلالاول ولايد فاذاف رغتمنه اشرع ف
+الثاتى فا فمإم ا إضافان 'لشيءلان برجم شاسثابلاشك حيث لم فق له مقع ود هو هذا الدواء يذهب عرض | لش_يطان
+من نفسك ونكون ججرىالقاءما بلقاك الشرطان فج الاسلك اغير فك !اذ اعاماته ل هذا فافظ على مانوتك
+عليه قان الله قدا نتى على الذبن يسارءون فىالخيرات وهرطاسابقون و يان هذا القدر وا يقول احاتى وهو
+بهد السبيل
+```
+
+> **Réserve portée par la machine qui a mené les essais.** L'indice est divisé
+> par trois, mais **à l'œil le texte reste corrompu** : mots soudés et lettres
+> fausses subsistent dans les deux blocs. Cette réserve est consignée parce
+> qu'elle tempère la mesure — elle ne tranche pas. Un chiffre qui s'améliore
+> n'est pas un texte qui devient citable, et aucune de ces lignes ne dit que
+> le critère 1 est franchi.
+
+### Critère 3 — coût nommé
+
+Aucune installation de paquet n'a été nécessaire : 42 Mo de fichiers de données
+téléchargés, effaçables. Débit mesuré ~10 s/page à 2 CPU, prétraitement compris —
+soit **~2 h 10 pour le tome 1** et **~7 h 20 pour les 2 630 pages des quatre
+tomes**. Ce budget rend la reprise après coupure nécessaire, et c'est la seule
+raison d'écrire un lanceur propre au chantier (voir `plan.md`, étape 6).

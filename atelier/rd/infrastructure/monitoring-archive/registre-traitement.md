@@ -89,7 +89,7 @@ la cause exacte est mesurée à cette passe — **1 302 U+200F et 810 U+200E**,
 interdits par le Cmd 15. Constat conservé, fichier non corrigé (une conversion
 se remplace, elle ne se retouche pas).
 **Détail** : [[atelier/annales]], entrée `[2026-09-07]`.
-**Commit** : à remplir
+**Commit** : 5ad48b8
 
 ## [2026-09-07] traite | studio | 41dc3e7e492c | rapport du 2026-09-06
 
@@ -103,7 +103,7 @@ déjà consignée au dépôt et **n'appelle aucune action de cette passe** — s
 verdict appartient à Sidy (Cmd 12). Deux questions restent ouvertes et sont
 laissées telles : divergence afilalo/al-akili, et aiman-attar.
 **Détail** : [[atelier/annales]], entrée `[2026-09-07]`.
-**Commit** : à remplir
+**Commit** : 5ad48b8
 
 ## [2026-09-07] traite | studio | 41dc3e7e492c | rapport du 2026-09-05
 
@@ -115,7 +115,7 @@ voit plus que ceux de cette session. RAM signalée tendue (597 Mi disponibles,
 swap 1,7/2,0 G) : constat repris dans le signal transversal de la présente passe.
 Rien d'autre d'actionnable.
 **Détail** : [[atelier/annales]], entrée `[2026-09-07]`.
-**Commit** : à remplir
+**Commit** : 5ad48b8
 
 ## [2026-09-07] traite | studio | 41dc3e7e492c | rapport du 2026-09-04
 
@@ -129,7 +129,7 @@ instruire les trois cas doctrinaux C1) sont **closes le 2026-09-06** ; la n°3
 session ; la n°5 (intégrer le fichier du sas) relève de DOC-07/OUT-08 et a reçu
 un verdict de Sidy ce jour — la porte du Cmd 13 est ouverte pour OUT-08.
 **Détail** : [[atelier/annales]], entrée `[2026-09-07]`.
-**Commit** : à remplir
+**Commit** : 5ad48b8
 
 ## [2026-09-07] traite | studio | 41dc3e7e492c | rapport du 2026-09-03
 
@@ -143,7 +143,7 @@ reflètent pas. Écartés à ce titre, non traités comme des constats. Ses deux
 constats vérifiables sont retenus : 7 gateways en `failed` (résorbés depuis, cf.
 rapport du 2026-09-06) et disque à 81 % (pente confirmée depuis).
 **Détail** : [[atelier/annales]], entrée `[2026-09-07]`.
-**Commit** : à remplir
+**Commit** : 5ad48b8
 
 ## [2026-09-02] traite | publication | ad3152b237bb | rapport du 2026-09-01
 

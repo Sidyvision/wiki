@@ -17,3 +17,7 @@ citations-ghazali/
 # (voir atelier/rd/outillage/spec-essai-graphify.md)
 /atelier/rd/outillage/.graphify-venv/
 /atelier/rd/outillage/graphify-out/
+
+# Caches Python — produits par les epreuves qui importent un script d outillage.
+__pycache__/
+*.pyc

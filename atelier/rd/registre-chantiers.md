@@ -115,14 +115,14 @@ Le 2026-09-06 : ouverture de `OUT-15` et `INS-01` passé `ouvert` → `en-cours`
 |---|---|---|---|---|---|
 | `INS` Instrument | 9 | 2 | 1 | 3 | **15** |
 | `INF` Infrastructure & agents | 8 | 3 | 1 | 3 | **15** |
-| `OUT` Outillage & scripts | 7 | — | 1 | — | **8** |
+| `OUT` Outillage & scripts | 6 | — | 1 | 1 | **8** |
 | `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 2 | **5** |
 | `DOC` Doctrinal | 4 | — | — | 1 | **5** (+3 hors vocabulaire) |
-| **Total** | **33** | **5** | **5** | **10** | **53** (+3 = 56 lignes) |
+| **Total** | **32** | **5** | **5** | **11** | **53** (+3 = 56 lignes) |
 
-**Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
+**Ce que ce tableau dit d'abord** : 11 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
 entre nos mains (une PR amont, une prise de vue, un texte à localiser). C'est là, et non
 dans le nombre total, que se lit ce qui peut avancer aujourd'hui.
@@ -204,7 +204,7 @@ non dépouillées dans cette passe → §8.*
 | OUT-05 | Contrôle A6 « corps d'entrée orphelin » du vérificateur — proposé, non implémenté ; l'incident append-only du 2026-08-28 (en-tête d'entrée mangé à l'insertion) n'a été vu par aucun contrôle | `ouvert` | implémenter | [[atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder]] | 2026-08-28 |
 | OUT-06 | Restes de veille Cordis : dépôt source (TS d'origine), identité du contributeur `inso1337`, nature du repo `spatiotemporal-composability-skill` | `ouvert` | scrutation complémentaire | [[atelier/rd/veille/registre]], entrée `[2026-08-18]` | 2026-08-18 |
 | OUT-07 | Speculative decoding (Tencent/AngelSpec) — matériau qualifié, **non exploitable sans GPU local** | `bloque` | rouvrir si un chantier d'inférence GPU locale est ouvert ; re-vérifier l'état du repo avant tout engagement | [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] | 2026-08-31 |
-| OUT-08 | OCR arabe — `tesseract 5 (ara)` sur *Al-Futūḥāt al-Makkiyya* (Maymaniyya, t. 1) donne un texte structurellement corrompu (pas seulement des coquilles ponctuelles ; DOC-07). À qualifier : autre moteur, prétraitement du scan, ou correction manuelle assistée | `ouvert` | deux pistes sans installation épuisées, négatives (DPI/psm, `--oem 1`) ; `spec.md` posé, verdict Sidy attendu sur la piste suivante (prétraitement, moteur alternatif ou OCR cloud — Cmd 13) avant tout `plan.md` | `_inbox/MASTER-UPDATE.md` (DOC-07 §2) ; [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent]] ; [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]] | 2026-09-02 |
+| OUT-08 | OCR arabe — `tesseract 5 (ara)` sur *Al-Futūḥāt al-Makkiyya* (Maymaniyya, t. 1) donne un texte structurellement corrompu (pas seulement des coquilles ponctuelles ; DOC-07). À qualifier : autre moteur, prétraitement du scan, ou correction manuelle assistée | `attente-verdict` | **Verdict Cmd 13 obtenu le 2026-09-07** (installation autorisée) ; deux pistes menées le jour même, sans qu'aucune installation soit finalement nécessaire. Fait qui a rouvert le chantier : le modèle en service est `tessdata_fast` (1 432 056 o, 30 oct. 2019), le moins précis des trois — les pistes 1 et 2 avaient toutes deux été mesurées dessus. Piste 4 (modèle seul) **négative** : tient sur une page, échoue sur l'autre. Piste 5 (`x2 + Otsu`, `--psm 6`, Pillow déjà installé) **franchit le seuil mécanique sur les deux pages** — I1 de 4,72 → 1,56 % et 8,13 → 2,97 %. **Reste : le verdict du critère 1 par Sidy** (extraits portés dans `spec.md`), la machine constatant pour sa part que le texte reste corrompu à l'œil malgré la mesure. Écartés en chemin : `tessdata_best` (moins bon que le standard), `script/Arabic` (pire, et 89-95 invisibles Cmd 15), le redressement (angle nul) et 400 dpi | `_inbox/MASTER-UPDATE.md` (DOC-07 §2) ; [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent]] ; [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]] ; [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan]] | 2026-09-02 |
 | OUT-15 | Sampling externe — mandat already present in infrastructure-veille Volet 2, never activated. Premier échantillon : skill `spatiotemporal-composability` (eSaadster) + sandbox pattern `cordis-wasm` (inso1337), réappropriation conceptuelle (license absente SPDX None). Lié à OUT-04 (applicabilité Cordis) et OUT-06 (restes veille). | `ouvert` | rapport Discord Volet 2 → verdict Sidy → session INTEGRATION | [[atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis]] ; [[atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle]] | 2026-09-05 |
 
 ## 4. Bibliothèque (`BIB`)
