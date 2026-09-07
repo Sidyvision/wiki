@@ -43,7 +43,7 @@ d'avance ; l'ordre ci-dessous n'est pas un classement.
 | **B** | Mac mini (M6 ou M5 Pro) + LLM cloud (hypothèse de Sidy) | le SLM seul | le LLM : abonnements/API |
 | **C** | Poste NVIDIA mono-GPU (24–32 Go de VRAM) | le SLM, entraînement compris, en écosystème CUDA | le LLM, sauf modèle ouvert de taille moyenne quantifié |
 | **D** | Serveur GPU dédié loué (hébergeur) | le SLM, mais **chez un tiers** — souveraineté d'usage, pas de possession | le matériel lui-même, et le LLM — ⚠ voir le verdict ci-dessous |
-| **E** | GPU à l'heure (RunPod, Vast, Lambda) pour rafales d'entraînement | rien en continu ; l'entraînement ponctuel seulement | tout le reste — ⚠ **écartée le 2026-09-04**, voir ci-dessous |
+| **E** | GPU à l'heure (RunPod, Vast, Lambda) pour rafales d'entraînement | rien en continu ; l'entraînement ponctuel seulement | tout le reste — ⚠ écartée puis **rouverte sous condition** le 2026-09-04 : justifiable en complément de B, jamais seule (voir ci-dessous) |
 | **F** | Statu quo — aucune machine, montée de RAM du Hetzner seule | rien | tout (état actuel) — **c'est la référence à battre** |
 | **G** | Combinaisons étagées (ex. B maintenant + C plus tard ; ou E pour entraîner + B pour servir) | selon l'étage | selon l'étage |
 
@@ -63,16 +63,49 @@ GPU dédié est loué au mois, qu'on s'en serve ou non, et ne devient jamais un
 bien. La conséquence est portée dans la matrice au critère 10 (réversibilité),
 pas seulement au critère 2 (coût).
 
-Statut retenu : **E est écartée comme solution permanente** (verdict de Sidy).
-Elle reste mentionnée dans la matrice — un chantier de comparaison consigne
-pourquoi une option tombe, il ne l'efface pas (Cmd 10). **D reste ouverte
-jusqu'à confirmation de Sidy** : le même critère semble l'emporter, mais
-l'écarter serait une décision, pas un relevé (Cmd 13).
+Statut retenu ce jour-là : **E écartée comme solution permanente**. Elle reste
+mentionnée dans la matrice — un chantier de comparaison consigne pourquoi une
+option tombe, il ne l'efface pas (Cmd 10). **D reste ouverte jusqu'à
+confirmation de Sidy** : le même critère semble l'emporter, mais l'écarter
+serait une décision, pas un relevé (Cmd 13).
 
-Conséquence de méthode, portée au `plan.md` : la mesure préalable à l'achat
-passait par E. Elle n'est plus disponible, et le premier point du verdict — la
-configuration fastidieuse — vaut identiquement pour un essai ponctuel et pour un
-usage durable. Le plan est repris sur ce point plutôt que maintenu tel quel.
+### Révision du même jour — E rouverte sous condition
+
+Sidy revient sur ce verdict quelques heures plus tard, en session : « il y avait
+quelque chose que je n'avais pas tout à fait compris concernant l'option du GPU
+Cloud dans la perspective spécifique du développement SLM — effectivement c'est
+une option qui peut se justifier dans le contexte du setup Mac Mini ».
+
+Les deux verdicts sont conservés, datés, dans leur ordre : le second ne
+disqualifie pas le premier, il en **borne la portée**. Ce qui change tient à la
+condition, et elle est précise :
+
+- **L'objection 1 tombe dans le scénario B.** « Configuration trop fastidieuse
+  dans l'état actuel du setup » visait un setup où le seul poste est un iPad.
+  Un Mac Mini fournit la station de travail qui manquait : la mise en route d'un
+  GPU distant cesse d'être fastidieuse quand une vraie machine locale la pilote.
+  L'objection était **conditionnelle au setup**, pas intrinsèque à l'option.
+- **Les objections 2 et 3 ne tombent pas — elles se repondèrent.** La
+  facturation à l'arrêt et l'absence de propriété restent vraies. Mais elles
+  pèsent contre une capacité *permanente* louée ; elles pèsent beaucoup moins
+  contre des **rafales d'entraînement**, intermittentes par nature, quand le
+  service courant tourne, lui, sur une machine possédée.
+- **La perspective SLM est ce qui rend la distinction opérante.** Servir un SLM
+  (U1, U2, U3) demande une capacité continue et modeste : la place d'une machine
+  possédée. Entraîner ou affiner (U4, U5) demande une capacité forte et rare :
+  la place, précisément, d'un GPU pris à l'heure. Ce n'est pas la même charge, ce
+  n'est pas le même matériel — les traiter comme une seule question était
+  l'erreur d'origine, des deux côtés.
+
+**Statut de E au 2026-09-04, après révision** : `rouverte sous condition` —
+justifiable **en complément** de l'option B (Mac Mini), pour l'entraînement
+seulement, jamais comme capacité de service permanente. Elle reste écartée si
+elle est prise isolément, ce qui était le cadre du premier verdict.
+
+**Conséquence sur l'option G** (montages étagés) : elle cesse d'être une case de
+complétude pour devenir l'hypothèse la plus consistante à instruire — machine
+possédée pour servir, GPU loué par rafales pour entraîner, LLM cloud pour le
+raisonnement lourd. À instruire, pas à retenir : la matrice n'est pas remplie.
 
 ## Les critères de comparaison
 

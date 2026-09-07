@@ -18,6 +18,53 @@ links:
 > Ce chantier ne produit pas de code ; ce que le visa autorise ici, ce sont les
 > **dépenses de mesure** de l'étape 4 et l'ordre des étapes.
 
+## Point de reprise — où en est le chantier
+
+> **Lire ceci d'abord.** Chantier explicitement mené **par reprises successives**
+> (demande de Sidy, 2026-09-04 : « je n'ai pas le temps de continuer là-dessus
+> pour le moment, consigne le projet pour qu'on puisse y revenir au fur et à
+> mesure »). Cette section est tenue à jour à chaque reprise et dit, en un coup
+> d'œil, ce qui est acquis et ce qui attend. Elle **résume, elle ne remplace
+> pas** les sections ci-dessous.
+
+**État au 2026-09-04** — chantier ouvert, aucune dépense engagée, aucune décision
+prise.
+
+*Acquis (ne pas réinstruire) :*
+
+1. Le serveur Hetzner ne peut rien porter — pas de GPU, RAM déjà saturée. Toute
+   option passe par une machine nouvelle ou par du calcul distant.
+2. Sept options et douze critères sont posés (`spec.md`). Aucune cellule de la
+   matrice n'est encore remplie.
+3. Le GPU à l'heure (E) a été **écarté puis rouvert sous condition** le même
+   jour. Fond retenu : servir un SLM et l'entraîner sont deux charges
+   différentes — capacité continue et modeste d'un côté, forte et rare de
+   l'autre. Les confondre était l'erreur d'origine.
+4. Un critère est né du premier verdict et vaut désormais pour tout le
+   chantier : **ce qui est loué ne devient jamais un bien**. Il pèse sur D
+   autant que sur E.
+5. L'option **G** (montage étagé) est, à ce stade, l'hypothèse la plus
+   consistante — machine possédée pour servir, GPU loué par rafales pour
+   entraîner, LLM cloud pour le raisonnement lourd. **Hypothèse, pas verdict.**
+
+*En attente de Sidy, par ordre de blocage :*
+
+| # | Question | Pourquoi elle bloque |
+|---|---|---|
+| 1 | **La charge de référence** : lesquels des cinq usages U1–U5 comptent ? | Commande la taille de modèle, donc la machine, donc le prix. Rien ne peut être comparé avant. |
+| 2 | Le **budget** ou sa fourchette | Sans elle, la matrice classe sans pouvoir conclure (Cmd 13). |
+| 3 | Le sort de l'**option D** (serveur GPU loué au mois) | Le critère de propriété semble l'emporter, mais l'écarter serait une décision, pas un relevé. |
+| 4 | Le **lieu d'installation** (proximité du studio → le bruit est-il une contrainte réelle ?) | Renseigne le critère 7. |
+
+*Prochaine action concrète, dès qu'il y a du temps* : répondre à la question 1.
+Une seule ligne suffit — les usages retenus — et l'étape 2 (relevé des prix)
+peut démarrer sans rien d'autre.
+
+*Ce qui n'a pas besoin de Sidy et peut être fait entre deux reprises* : l'étape 2
+(relever les prix datés et sourcés) et l'étape 3a (relever le coût récurrent
+réel de la couche modèle actuelle). Ces deux relevés ne dépendent d'aucun
+verdict et rempliraient déjà deux colonnes de la matrice.
+
 ## Étapes
 
 **Étape 1 — Arrêter la charge de référence.** Sidy retient, parmi les cinq usages
@@ -74,6 +121,20 @@ proportionnée, et la réversibilité (Cmd 10) y est réelle — un bien posséd
 revend ou se réaffecte, une heure de location ne laisse rien. C'est aussi, dans
 l'esprit du dépôt, un montage à blanc au sens propre : on éprouve avant
 d'engager le gros.
+
+**Révision du 2026-09-04 (même jour, second verdict de Sidy).** La location
+horaire redevient disponible, mais **dans un ordre**, et cet ordre est le fond de
+l'affaire : l'objection de configuration visait un setup où le seul poste est un
+iPad ; une station de travail locale la lève. Donc la séquence n'est plus
+« mesurer puis acheter », elle est **acquérir le petit poste, puis mesurer avec
+lui — y compris à distance**.
+
+Cela ne restaure pas la version initiale de l'étape 4 : elle prévoyait de louer
+un GPU *pour décider s'il faut acheter*, ce que le premier verdict a rendu
+impraticable et que le second ne rétablit pas. Ce qui devient possible est autre
+chose — louer un GPU *depuis* la machine acquise, pour les rafales
+d'entraînement que cette machine ne peut pas porter (U4, U5). La voie 4b et
+l'option E cessent d'être concurrentes : elles s'enchaînent.
 
 Garde maintenue quelle que soit la voie : **aucune matière de `meta/` ne quitte
 le dépôt** (§VI), y compris pour un essai et y compris sous forme d'extrait.
