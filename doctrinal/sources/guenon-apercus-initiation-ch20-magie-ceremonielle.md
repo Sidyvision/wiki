@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, apercus-initiation, magie, sorcellerie, occultisme, rite, ceremonie, transmission, science-traditionnelle, psychologisme, pseudo-initiation]
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-09-06
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]", "[[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
@@ -13,8 +13,13 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 # Guénon — Aperçus sur l'Initiation, ch. XX : à propos de « magie cérémonielle »
 
-Chapitre XX d'*Aperçus sur l'Initiation* (1946). Transcription en
-`raw/Aperçu sur l'initiation/` (index-rene-guenon.org). Lu intégralement et fiché le
+Chapitre XX d'*Aperçus sur l'Initiation* (1946). Texte disponible dans le dépôt :
+
+`textes/apercu-sur-l-initiation/a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md`
+
+Chemin nu, non un lien : `textes/` n'est la cible d'aucun wikilink (PRO-08).
+Renvoi reporté le 2026-09-06 ; il visait jusque-là `raw/`.
+Lu intégralement et fiché le
 2026-08-14 dans le cadre du chantier *Shams al-Maʿārif* / Guénon (axe 4). **Chapitre
 entier consacré au sujet** — le seul du corpus disponible dans ce cas.
 
@@ -135,7 +140,8 @@ traditionnelles). Notion de *mantra* pour la poésie non profane.
 
 ## Fiabilité de la source
 
-Transcription index-rene-guenon.org en `raw/`. Non recoupée avec un exemplaire
+Transcription index-rene-guenon.org, reçue en `raw/` puis reportée en `textes/`
+(l'origine reste la transcription du site). Non recoupée avec un exemplaire
 physique — voir `meta/bibliotheque-physique.md`.
 
 ## Utilisation dans le dépôt

@@ -57,7 +57,7 @@ cross_links:
 
 Ouvert à la demande explicite de Sidy (session ingest Hunter x Hunter,
 2026-08-12), à partir du mécanisme fictionnel du **vœu/limitation** (chikai
-to seiyaku) décrit dans [[hermeneutique/hunter-x-hunter/nen-systeme]] §5 : un
+to seiyaku) décrit dans le système de Nen (`hermeneutique/hunter-x-hunter/nen-systeme`) §5 : un
 praticien restreint volontairement l'usage de sa capacité, sous peine
 sévère (souvent mortelle), et reçoit en échange une amplification
 proportionnée et **garantie** de cette capacité.

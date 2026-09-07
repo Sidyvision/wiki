@@ -35,7 +35,7 @@ sources: []
 - **Date du PDF** : novembre 2025 (compilé via PDF24)
 - **Pages** : 631 (Tomes 1 & 2 compilés)
 - **Langue** : français, avec passages en arabe
-- **Contact traducteur** : +225 0759597977 / +225 0546954410
+
 - **Couverture** : Tome 1 = pages 9 à 88 de l'original arabe seulement ; Tome 2 = ouvrage complémentaire du traducteur sur noms divins, invocations, géomancie
 
 ## Avertissement sur la source

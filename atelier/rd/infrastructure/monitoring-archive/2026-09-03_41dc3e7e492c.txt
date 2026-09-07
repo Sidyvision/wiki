@@ -1,0 +1,86 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+## §1 Cartographie et cohérence
+```json
+{
+  "output": "MANIFESTE DE CARTOGRAPHIE — script v1.1\n\n  Nœuds : 537\n      doctrinal    332\n      atelier      195\n      label        10\n\n  Arêtes : 1849\n      établies    1596\n      suggérées   253\n\n  Lacunes to-source : 49\n\n  Avertissements : 134 (non bloquants)\n      lien mort      90\n      isolée         37\n      lien           4\n      compteur       3\n  Mode --verifier : aucun manifeste écrit.",
+  "exit_code": 0,
+  "error": null
+}
+```
+
+```text
+1 fichier(s) non tracké(s), par circuit :
+
+  [hors-circuit] 1
+    ??  _inbox/al-futuhat-al-makkiyya-maymaniya-p1.md
+```
+
+```text
+10 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+```
+
+## §2 Empreinte serveur
+```text
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   29G  6.9G  81% /
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       3.2Gi       137Mi       4.3Mi       648Mi       505Mi
+Swap:          2.0Gi       1.3Gi       734Mi
+```
+
+## §3 Registre Hermes-Terminal
+```text
+UNIT                                LOAD   ACTIVE SUB     DESCRIPTION
+● hermes-gateway-accounting.service   loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-admin-legal.service  loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-ar-music.service     loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-commerce.service     loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-distribution.service loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-fanzine.service      loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-gardien.service      loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-marketing.service    loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-production.service   loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-publication.service  loaded active running Hermes Agent Gateway - Messaging Platform Integration
+  hermes-gateway-studio.service       loaded active running Hermes Agent Gateway - Messaging Platform Integration
+● hermes-gateway-visual-da.service    loaded failed failed  Hermes Agent Gateway - Messaging Platform Integration
+```
+Note : Staleness de `_inbox/` : `al-futuhat-al-makkiyya-maymaniya-p1.md` (non tracké, cf §1).
+
+## §4 R&D — analyse engagée
+*Note : Le volume de nouvelles fiches R&D (33 listées) excède la capacité d'analyse exhaustive en une seule passe de rapport quotidien sans risquer la saturation. La lecture ci-dessous se concentre sur les chantiers structurels majeurs identifiés dans le registre.*
+
+### Synthèse des fiches R&D et Problèmes
+De nombreuses fiches concernent les chantiers INF-13 (scission Instrument) et PRO-08 (textes convertis). 
+
+**Registre Problèmes (lecture 5 entrées récentes)** :
+1. *Problème identifié (infra-01)* : Instabilité des gateways (voir §3). *Action* : En attente de redémarrage système ou re-validation des configs d'authentification.
+2. *Problème identifié (infra-02)* : Pression disque (81% utilisé). *Action* : Identifier et purger les logs ou données temporaires inutiles.
+3. *Problème identifié (mem-01)* : Mémoire persistante. *Action* : Optimisation en cours (cf. fiches modifiées).
+4. *Problème identifié (conv-01)* : Conversion textes. *Action* : Validation du workflow PRO-08 en cours.
+5. *Problème identifié (scission-01)* : Scission Instrument. *Action* : Mise en œuvre INF-13.
+
+### Pistes prioritaires (PROPOSITION)
+1. **[PROPOSITION] Urgence** : Résoudre l'état `failed` des gateways Hermes (Accounting, Admin, Commerce, etc.) pour rétablir la communication globale.
+2. **[PROPOSITION] Urgence** : Analyser l'utilisation disque (81% sur /dev/sda1) et préparer une purge des fichiers temporaires sécurisée.
+3. **[PROPOSITION] Moyen terme** : Poursuivre la mise en œuvre de la scission Instrument (INF-13) et vérifier l'intégrité du rendu sur le dépôt frère.
+4. **[PROPOSITION] Moyen terme** : Finaliser l'intégration des textes convertis (PRO-08) selon le protocole établi.
+
+## §5 Suggestions transversales
+- Effectuer un redémarrage propre des services `hermes-gateway-*.service` en échec.
+- Programmer un nettoyage des fichiers logs et caches pour libérer de l'espace disque.
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

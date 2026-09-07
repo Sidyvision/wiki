@@ -6,7 +6,7 @@ tags: [meta, infrastructure, verification, deployment]
 created: 2026-07-27
 updated: 2026-09-01
 sources: []
-links: ["[[CLAUDE.md]]", "[[meta/philosophie-sashimono]]", "[[correctif-etendu-invariants-depot]]"]
+links: ["[[CLAUDE.md]]", "[[meta/philosophie-sashimono]]", "[[meta/2026-07-27_correctif-etendu-invariants-depot]]"]
 ---
 
 # Guide de déploiement — `verifier-invariants.py`

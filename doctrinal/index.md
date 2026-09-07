@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-09-02
+updated: 2026-09-06
 ---
 
 # Le Catalogue Universel
@@ -301,6 +301,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26|L'Homme et son devenir selon le Vêdânta, ch. VIII et XXII-XXVI (Guénon)]]
 - [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission|Aperçus sur l'initiation, ch. V et VIII : régularité initiatique et transmission (Guénon)]]
 - [[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles|Aperçus sur l'initiation, ch. VII : contre le mélange des formes traditionnelles (Guénon)]]
+- [[doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques|Aperçus sur l'initiation, ch. XIV : des qualifications initiatiques (Guénon)]] — les qualifications relèvent de l'individualité ; le métier comme support d'initiation, à condition d'accorder avec la nature propre
 - [[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs|Initiation et Réalisation spirituelle, ch. V, XXI et XXIV : rattachement, instructeurs, rôle du guru (Guénon)]]
 - [[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores|Initiation et Réalisation spirituelle, ch. VI : influences spirituelles et « égrégores » (Guénon)]]
 - [[doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet|Initiation et Réalisation spirituelle, ch. XVI : contemplation directe et contemplation par reflet (Guénon)]]
@@ -313,7 +314,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation|Le Règne de la Quantité, avant-propos et ch. III : science des nombres, mesure et manifestation (Guénon)]] — nombre principiel vs quantitatif ; définition du rite comme conformité à l'« ordre »
 - [[doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres|La Grande Triade, ch. VIII : nombres célestes et nombres terrestres (Guénon)]] — métaphysique du Nombre, échange hiérogamique 5/6, la mesure et non la nature
 - [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi|Al-Rāzī, Traité sur les Noms divins, ch. XVIII : al-Khāfiḍ et al-Rāfiʿ]] — les deux Noms « déterminent l'élévation ou la chute **en degrés** » ; Coran LVI, 3 attribue les deux à un seul événement ; ⚠️ `to-source` sur l'apparat éditorial (traducteur/pagination non vérifiés), non sur le texte
-- [[doctrinal/sources/gloton-approche-coran-grammaire-lexique|Une approche du Coran par la grammaire et le lexique (Maurice Gloton, Albouraq)]] — lexique des racines coraniques ; p. 412 (racine ر ف ع, 29 occurrences) et p. 857 (table des sourates, pièce documentaire) photographiées le 2026-08-30
+- [[doctrinal/sources/gloton-approche-coran-grammaire-lexique|Une approche du Coran par la grammaire et le lexique (Maurice Gloton, Albouraq)]] — lexique des racines coraniques ; p. 412 (racine ر ف ع, 29 occurrences) et p. 857 (table des sourates, pièce documentaire) photographiées le 2026-08-30 ; **pp. 17-77 transcrites le 2026-09-03** par lecture directe de 28 nouvelles photographies, déposées en source convertie dans `textes/une-approche-du-coran-gloton/` avec le sommaire (pp. 9-10) — trois lacunes du lot déclarées (pp. 19-30, 59-60, 63)
+- [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat|Sabri B. Rommane — modèle récursif des muqaṭṭaʿāt (Sūrat Qāf)]] — thèse structurelle **non publiée et non relue par les pairs** (l'auteur le dit lui-même : « Need peer-review »), versée depuis 42 captures d'un entretien Blogging Theology ; contrôle déterministe fait : le **découpage publié est exactement reproduit** (17 groupes, somme 45, suite des lettres-parents identique), mais la **règle énoncée sur la hamza contredit la règle opérante** — contradiction interne au diaporama ; **métadonnées de la vidéo établies par Sidy le 2026-09-04** (titre, chaîne, date de publication) ; lacunes IMG_0456 et IMG_0471 déclarées ; transcription en source convertie dans `textes/sabri-ben-rommane-theory/`
 
 ---
 
@@ -340,6 +342,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf|La chute, la réalisation, et les deux aspects de Qâf — muraille et apex — au regard de l'état primordial]] 🔍 (en cours, speculatif) — **thèse d'unification de Sidy** : les trois fiches ouvertes du dossier seraient les faces d'une seule doctrine (descente → remontée). Pivot **déjà sourcé** : Guénon donne la restauration de l'état primordial comme « première étape essentielle de la réalisation ». Apport net sur la fiche close de juillet : celle-ci établit la **double nature** de Qâf, jamais le **sens de parcours** entre ses deux aspects. ⚠️ « Chute » signalé comme le mot le plus dangereux du dossier (le *hubūṭ* coranique ne porte pas le péché originel)
 - [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities|Les gens d'al-Aʿrāf sont-ils les initiés ?]] 🔍 (en cours, speculatif) — intuition **ancienne** de Sidy, antérieure au dossier *khafḍ*/*rafʿ* et indépendante de lui. Appuis : *rijāl* comme terme technique (*rijāl Allāh*), la reconnaissance par la marque (*sīmā*) qui est la définition même de la *firāsa*, et la position de *barzakh*. Objection principale assumée : « *ils n'y sont pas entrés, et ils espèrent* » (VII, 46). Reformulation soumise : initiés **au seuil**, non accomplis. Deux rapprochements refusés — les deux « Balances », et le ternaire ʿāmma/khāṣṣa
 - [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres|Le couple khafḍ / rafʿ : l'axe des degrés est-il parcouru dans un seul sens ?]] 🔍 (en cours, speculatif) — *al-Rāfiʿ* n'est jamais reçu seul : Rāzī le traite avec *al-Khāfiḍ*, et deux sources akbariennes déjà au dépôt attachent le couple à la fonction polaire et califale. Trois avertissements de forme portés : équivoque sur « descente » (*isqāṭ* ≠ réalisation descendante), *darajāt* à deux référents, et **rejet explicite du rapprochement ق-lettre / Jabal Qāf** comme coïncidence nominale
+- [[doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite|Une structure algorithmique dans le Coran : nombre principiel ou quantité ?]] 🔍 (en cours, speculatif) — ouvert sur verdict de Sidy à l'intégration de [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]]. ⚠️ **Double ancrage signalé** : filiation orthodoxe par [[doctrinal/symboles/ilm-al-huruf]] (les caractères alphabétiques relèvent du symbolisme figuré chez Guénon) **et** parenté hétérodoxe par [[doctrinal/deviations/technologisation-pseudo-scientifique]] (le diaporama qualifie le Coran de système « termination-aware computational »). Tension de plan relevée sans être tranchée : objet qualitatif, argumentation quantitative. **Champ « Hypothèse » laissé formellement ouvert** — Sidy n'a pas encore énoncé de thèse propre et la machine ne lui en prête aucune. ⚠️ **Non-lien délibéré** avec le Mont Qāf (coïncidence nominale — même refus que la fiche *khafḍ/rafʿ* ci-dessus)
 
 ### Gizeh / science traditionnelle antédiluvienne
 - [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien|Gizeh comme pôle de science traditionnelle antédiluvienne]] — close (traditionnel) : filiation guénonienne directe (Le Tombeau d'Hermès), deux réserves permanentes conservées (non-confusion atlantéen/primordial, fragments infimes), fondées sur la distinction polaire/solaire
@@ -379,7 +382,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre|Les awfāq de Shams al-Maʿārif au regard de la métaphysique guénonienne du Nombre]] 🔍 (en cours, speculatif) — quatrième axe du même chantier ; six avenues instruites, une avenue écartée par construction (recherche de concordances chiffrées = procédé pseudo-initiatique) ; quatre critères diagnostiques dégagés, dont le critère décisif de **transmission** ; **Avenue 6** — hypothèse de Sidy (2026-08-14) : le matériau opératif comme seuil discriminant selon l'intention, image de l'épreuve des anges Hārūt et Mārūt (Coran 2:102, `to-source`) — cinquième registre **fonctionnel**, distinct des quatre critères ; reformulation critériologique de la machine engagée par Sidy le 2026-08-14, sans verdict sur sa validité métaphysique (Cmd 12) ; Gizeh confronté, **tension ouverte sur le 28 lettrique face au 22 hébraïque** (documentée telle quelle) ; défaut de sourçage sur [[doctrinal/symboles/ilm-al-awfaq]] **corrigé le 2026-08-14** (sources: to-source, signalement ajouté) ; aucun verdict rendu
 
 ### Herméneutique — joints ouverts depuis `hermeneutique/`
-- [[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique|Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction volontaire]] 🔍 (en cours, speculatif) — quatre avenues instruites (ascèse générale, nadhr/mīthāq islamique, qualification initiatique guénonienne, ekāgratā/siddhi yogique) face au mécanisme du Nen (*Hunter x Hunter*) ; hozo exclu, joint *zōsaku* depuis [[hermeneutique/hunter-x-hunter/nen-systeme]] ; Gizeh confronté, négatif ; aucun verdict rendu
+- [[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique|Le pacte de puissance du Nen face aux doctrines traditionnelles de la restriction volontaire]] 🔍 (en cours, speculatif) — quatre avenues instruites (ascèse générale, nadhr/mīthāq islamique, qualification initiatique guénonienne, ekāgratā/siddhi yogique) face au mécanisme du Nen (*Hunter x Hunter*) ; hozo exclu, joint *zōsaku* ; Gizeh confronté, négatif ; aucun verdict rendu
 
 ---
 
@@ -396,7 +399,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 *(vide)*
 
 ### Projets (`atelier/projets/`)
-- [[label/production/album-personnel|Album personnel — home studio et production]] (déplacé vers `label/` le 2026-08-08, verdict Sidy)
+- Album personnel — home studio et production (déplacé vers `label/` le 2026-08-08, verdict Sidy)
 - [[atelier/rd/instrument/instrument-tradition-primordiale-architecture|Instrument de la Tradition Primordiale — architecture (esquisse v0.1)]]
 - [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2|Instrument — architecture v0.2 (développée)]]
 - [[atelier/rd/instrument/instrument-feuille-de-route-v2|Instrument — feuille de route et pile technique (v2)]]

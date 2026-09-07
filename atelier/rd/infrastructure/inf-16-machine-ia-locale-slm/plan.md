@@ -3,8 +3,8 @@ title: "INF-16 — Machine d'IA locale et développement SLM : plan"
 type: infrastructure
 chantier: INF-16
 tags: [atelier, rd, infrastructure, chantier, plan, slm, materiel]
-created: 2026-09-04
-updated: 2026-09-04
+created: 2026-09-07
+updated: 2026-09-07
 sources: []
 links:
   - "[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]]"
@@ -21,13 +21,13 @@ links:
 ## Point de reprise — où en est le chantier
 
 > **Lire ceci d'abord.** Chantier explicitement mené **par reprises successives**
-> (demande de Sidy, 2026-09-04 : « je n'ai pas le temps de continuer là-dessus
+> (demande de Sidy, 2026-09-07 : « je n'ai pas le temps de continuer là-dessus
 > pour le moment, consigne le projet pour qu'on puisse y revenir au fur et à
 > mesure »). Cette section est tenue à jour à chaque reprise et dit, en un coup
 > d'œil, ce qui est acquis et ce qui attend. Elle **résume, elle ne remplace
 > pas** les sections ci-dessous.
 
-**État au 2026-09-04** — chantier ouvert, aucune dépense engagée, aucune décision
+**État au 2026-09-07** — chantier ouvert, aucune dépense engagée, aucune décision
 prise.
 
 *Acquis (ne pas réinstruire) :*
@@ -91,13 +91,13 @@ et les autres circuits) ; (c) la taille mémoire des modèles candidats, d'aprè
 leurs fiches publiées. Cette étape retire à elle seule plusieurs cellules du
 « non relevé ».
 
-**~~Étape 3 bis~~ — sans objet depuis le 2026-09-04.** Le motif de la suspension
+**~~Étape 3 bis~~ — sans objet depuis le 2026-09-07.** Le motif de la suspension
 des containers GPU cloud est établi (verdict de Sidy, §*Verdict* du `spec.md`) :
 configuration trop fastidieuse, facturation maintenue à l'arrêt, coût
 disproportionné pour du matériel non possédé. L'étape est conservée barrée
 plutôt que retirée (Cmd 10) — c'est la trace de ce qui a été cherché.
 
-**Étape 4 — refondue le 2026-09-04.** La version initiale prévoyait de louer
+**Étape 4 — refondue le 2026-09-07.** La version initiale prévoyait de louer
 quelques heures de GPU cloud comme **instrument de mesure** avant tout achat.
 Elle tombe : le premier point du verdict — la configuration fastidieuse — vaut
 identiquement pour un essai d'une heure et pour un usage durable, et le
@@ -122,7 +122,7 @@ revend ou se réaffecte, une heure de location ne laisse rien. C'est aussi, dans
 l'esprit du dépôt, un montage à blanc au sens propre : on éprouve avant
 d'engager le gros.
 
-**Révision du 2026-09-04 (même jour, second verdict de Sidy).** La location
+**Révision du 2026-09-07 (même jour, second verdict de Sidy).** La location
 horaire redevient disponible, mais **dans un ordre**, et cet ordre est le fond de
 l'affaire : l'objection de configuration visait un setup où le seul poste est un
 iPad ; une station de travail locale la lève. Donc la séquence n'est plus
@@ -156,9 +156,9 @@ si — et seulement si — l'option retenue apporte un GPU local.
 
 | Fichier | Nature |
 |---|---|
-| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent.md` | créé (2026-09-04) |
-| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec.md` | créé (2026-09-04) |
-| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan.md` | créé (2026-09-04), le présent fichier |
+| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent.md` | créé (2026-09-07) |
+| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec.md` | créé (2026-09-07) |
+| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan.md` | créé (2026-09-07), le présent fichier |
 | `atelier/rd/registre-chantiers.md` | modifié — ligne `INF-16` + recomptage du §0 |
 | `atelier/annales.md` | modifié — entrée append-only en tête (Cmd 9) |
 | `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/matrice.md` | **à créer** à l'étape 5, pas avant |
@@ -204,7 +204,7 @@ Quatre, dont deux avant toute action :
 5. **La décision d'achat** (étape 6) — préparée par la machine, tranchée par
    Sidy. C'est l'objet même du chantier, et son seul terme.
 
-> **Ce que le verdict du 2026-09-04 a déjà retiré du plan** : la location de
+> **Ce que le verdict du 2026-09-07 a déjà retiré du plan** : la location de
 > calcul, qui figurait ici en point 3. Elle n'est pas reportée, elle est fermée
 > (option E, §*Verdict* du `spec.md`).
 

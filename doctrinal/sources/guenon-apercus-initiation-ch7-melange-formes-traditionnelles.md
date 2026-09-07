@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, non-syncretisme, formes-traditionnelles, avarna, ativarna, unite-des-traditions, apercus-sur-l-initiation]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-06
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]"]
@@ -16,8 +16,13 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 ## Référence
 
 **René Guénon**, *Aperçus sur l'initiation*, ch. VII, éd. Éditions
-Traditionnelles. Texte consulté dans `raw/` (`Chapitre=32`, sigle `AI`), **lu
-intégralement**.
+Traditionnelles. Texte disponible dans le dépôt, **lu intégralement** :
+
+`textes/apercu-sur-l-initiation/contre-le-melange-des-formes-traditionnelles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md`
+
+Chemin nu, non un lien : `textes/` n'est la cible d'aucun wikilink (PRO-08).
+Renvoi reporté le 2026-09-06 ; il visait jusque-là `raw/` (`Chapitre=32`,
+sigle `AI` — index de pagination du site source, non le numéro de chapitre).
 
 > ⚠️ **Pagination `to-source`** — non relevée.
 

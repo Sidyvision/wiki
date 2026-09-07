@@ -1,7 +1,7 @@
 ---
 title: Yaqub Chaudhary
 type: autorite
-status: academique
+status: traditionnel
 tradition_cadre: islam
 tags:
 - chercheur
@@ -9,7 +9,7 @@ tags:
 - intelligence-artificielle
 - ethique-numerique
 created: 2026-06-04
-updated: 2026-06-11
+updated: 2026-09-06
 sources:
 - '[[islam-and-artificial-intelligence]]'
 sources_count: 1
@@ -40,3 +40,9 @@ Chercheur académique spécialisé dans la philosophie islamique, l’éthique n
 ## Notes
 
 Affilié à Cambridge (téléchargement via University of Cambridge Centre of International Studies). D’autres détails biographiques ne sont pas disponibles dans le document source.
+
+## Statut
+
+`traditionnel` — **verdict de Sidy du 2026-09-06**. Aucun motif doctrinal n'est
+consigné ici : la distinction de fonctions qu'engage cette valeur est en cours
+d'instruction et son énoncé appartient à Sidy (Cmd 12).

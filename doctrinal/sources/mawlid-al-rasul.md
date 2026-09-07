@@ -12,7 +12,7 @@ tags:
 - devotionnel
 created: 2026-06-05
 updated: 2026-06-20
-sources:
+sources: []
 sources_count: 0
 cross_links:
 - '[[abd-al-qadir-al-jilani]]'

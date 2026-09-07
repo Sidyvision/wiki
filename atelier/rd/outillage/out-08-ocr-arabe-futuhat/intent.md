@@ -9,7 +9,7 @@ sources: []
 links:
   - "[[atelier/rd/registre-chantiers]]"
   - "[[atelier/rd/outillage/gabarit-triptyque-chantier]]"
-  - "[[atelier/rd/outillage/ocr-scan-vers-markdown]]"
+  - "[[atelier/rd/outillage/spec-ocr-scan-vers-markdown]]"
   - "[[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]]"
 ---
 

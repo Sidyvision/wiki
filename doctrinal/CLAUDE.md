@@ -69,6 +69,38 @@ cross_links: ["[[autre-slug]]"]
 > (Guénon analyse) = `traditionnel` ; [[doctrinal/symboles/archeometre]] (l'objet
 > lui-même est exposé, reçu et discuté comme tel) = `contre-traditionnel`.
 
+> **Précision pour `status: academique`** (amendement du 2026-09-05, verdict Sidy) :
+> la démarche académique occidentale moderne est **épistémologiquement et
+> structurellement biaisée**. Il ne s'ensuit pas que tout auteur inscrit dans ce
+> cadre reçoive `academique` : **le titre universitaire n'est pas le critère,
+> l'allégeance épistémologique l'est.** Discerner entre :
+>
+> - les **agents de cette démarche**, qui en portent les présupposés → `academique` ;
+> - les **acteurs traditionnels qui investissent l'institution** avec le but d'opérer
+>   un redressement depuis l'intérieur → `traditionnel`.
+>
+> L'indice qui permet de trancher est l'**écart** : une caution, un cadrage ou une
+> concession empruntés au registre moderne. Guénon en donne la marque dans *La Crise
+> du monde moderne* : l'attitude « apologétique », « purement défensive », qui « pour
+> paraître conciliant » va « jusqu'à admettre des conceptions qui n'ont été inventées
+> que pour ruiner toute religion » — ceux qui agissent ainsi « fournissent eux-mêmes
+> la preuve qu'ils sont parfaitement inconscients du véritable caractère de la
+> doctrine dont ils se croient les représentants ». La recherche d'accord avec les
+> résultats de la science moderne y est dite « travail parfaitement illusoire et
+> toujours à refaire ».
+>
+> **Contre-épreuve, posée par le même texte** : « on peut même se dire
+> "traditionaliste" sans avoir la moindre notion du véritable esprit traditionnel ».
+> Une revendication d'appartenance n'est pas plus un verdict qu'un titre : c'est
+> l'écart effectivement relevé dans ce que la personne écrit qui fait indice, dans
+> les deux sens.
+>
+> **Ce que fait la machine** : relever les écarts, les citer, les porter en section
+> « points de vigilance » de la fiche — matériau du discernement, non réserve sur un
+> statut déjà attribué. **Ce qu'elle ne fait pas** : en conclure une valeur de
+> `status` (Cmd 12), ni s'aligner sur le classement des fiches voisines — **un
+> précédent de dossier n'est pas une règle**.
+
 ## Règles de liens propres au circuit
 
 - Étanchéité inversée : une page orthodoxe ne pointe jamais vers un `discernement`

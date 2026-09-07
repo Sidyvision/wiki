@@ -3,8 +3,8 @@ title: "INF-16 — Machine d'IA locale et développement SLM : spécification"
 type: infrastructure
 chantier: INF-16
 tags: [atelier, rd, infrastructure, chantier, spec, slm, materiel, comparaison]
-created: 2026-09-04
-updated: 2026-09-04
+created: 2026-09-07
+updated: 2026-09-07
 sources:
   - "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"
   - "https://www.macworld.com/article/2973459/2026-mac-studio-m5-release-date-specs-price-rumors.html"
@@ -43,11 +43,11 @@ d'avance ; l'ordre ci-dessous n'est pas un classement.
 | **B** | Mac mini (M6 ou M5 Pro) + LLM cloud (hypothèse de Sidy) | le SLM seul | le LLM : abonnements/API |
 | **C** | Poste NVIDIA mono-GPU (24–32 Go de VRAM) | le SLM, entraînement compris, en écosystème CUDA | le LLM, sauf modèle ouvert de taille moyenne quantifié |
 | **D** | Serveur GPU dédié loué (hébergeur) | le SLM, mais **chez un tiers** — souveraineté d'usage, pas de possession | le matériel lui-même, et le LLM — ⚠ voir le verdict ci-dessous |
-| **E** | GPU à l'heure (RunPod, Vast, Lambda) pour rafales d'entraînement | rien en continu ; l'entraînement ponctuel seulement | tout le reste — ⚠ écartée puis **rouverte sous condition** le 2026-09-04 : justifiable en complément de B, jamais seule (voir ci-dessous) |
+| **E** | GPU à l'heure (RunPod, Vast, Lambda) pour rafales d'entraînement | rien en continu ; l'entraînement ponctuel seulement | tout le reste — ⚠ écartée puis **rouverte sous condition** le 2026-09-07 : justifiable en complément de B, jamais seule (voir ci-dessous) |
 | **F** | Statu quo — aucune machine, montée de RAM du Hetzner seule | rien | tout (état actuel) — **c'est la référence à battre** |
 | **G** | Combinaisons étagées (ex. B maintenant + C plus tard ; ou E pour entraîner + B pour servir) | selon l'étage | selon l'étage |
 
-### Verdict de Sidy du 2026-09-04 — l'option E est fermée
+### Verdict de Sidy du 2026-09-07 — l'option E est fermée
 
 Le motif de la suspension des containers GPU cloud, qui manquait au dépôt
 (`to-source` levé ce jour par Sidy en session), tient en trois points :
@@ -97,7 +97,7 @@ condition, et elle est précise :
   n'est pas le même matériel — les traiter comme une seule question était
   l'erreur d'origine, des deux côtés.
 
-**Statut de E au 2026-09-04, après révision** : `rouverte sous condition` —
+**Statut de E au 2026-09-07, après révision** : `rouverte sous condition` —
 justifiable **en complément** de l'option B (Mac Mini), pour l'entraînement
 seulement, jamais comme capacité de service permanente. Elle reste écartée si
 elle est prise isolément, ce qui était le cadre du premier verdict.
@@ -127,7 +127,7 @@ critère qui ne l'est pas est retiré plutôt que rempli au jugé.
 | 11 | **Étanchéité §VI** | ce qui sort du dépôt vers un tiers, et sous quelle garantie |
 | 12 | **Charge d'exploitation** | qui l'entretient, et ce que ça ajoute à une infrastructure déjà tendue |
 
-## Ce qui est déjà établi (relevé du 2026-09-04)
+## Ce qui est déjà établi (relevé du 2026-09-07)
 
 Valeurs sourcées ce jour, à re-vérifier avant tout engagement — un prix est une
 photographie :
@@ -218,7 +218,7 @@ programme.
 ## Ce qui reste `to-source`
 
 - ~~Le motif de la **suspension des containers GPU cloud**~~ — **levé le
-  2026-09-04** par Sidy en session : configuration trop fastidieuse dans l'état
+  2026-09-07** par Sidy en session : configuration trop fastidieuse dans l'état
   du setup, facturation maintenue à l'arrêt, coût disproportionné pour du
   matériel non possédé. Consigné au §*Verdict de Sidy* ci-dessus.
 - Les **débits réels** (tok/s en inférence, durée d'un fine-tuning de référence)

@@ -3,8 +3,8 @@ title: "INF-16 — Machine d'IA locale et développement SLM : intention"
 type: infrastructure
 chantier: INF-16
 tags: [atelier, rd, infrastructure, chantier, intent, slm, souverainete, materiel]
-created: 2026-09-04
-updated: 2026-09-04
+created: 2026-09-07
+updated: 2026-09-07
 sources: []
 links:
   - "[[atelier/rd/registre-chantiers]]"
@@ -50,7 +50,7 @@ moyen matériel n'a jamais été instruit en regard de cette finalité.
 
 ## Qui le porte
 
-Sidy — la demande est venue en session le 2026-09-04, à partir d'un intérêt
+Sidy — la demande est venue en session le 2026-09-07, à partir d'un intérêt
 déclaré pour la nouvelle gamme Mac Studio, puis d'une hypothèse propre : héberger
 le SLM en local sur un Mac mini et garder l'accès au LLM par abonnement/API. La
 consigne donnée est explicite : **ouvrir le chantier en explorant les diverses
@@ -119,5 +119,5 @@ résultat serait connu d'avance n'en serait pas une.
 | Le budget, ou la fourchette, que Sidy accepte d'engager | **Sidy** (Cmd 13) |
 | Le lieu d'installation (proximité du studio → contrainte de bruit réelle ou non) | **Sidy** |
 | Prix exacts des configurations NVIDIA et des paliers Apple au-delà de l'entrée de gamme | **mesure** : relevé daté à faire (étape 2 du plan) |
-| Débits réels (tok/s) d'un SLM candidat sur chaque famille de matériel | **Sidy** : depuis la fermeture de l'option E (2026-09-04), il n'existe plus de moyen de mesurer avant d'acheter — trois voies de remplacement sont posées à l'étape 4 du plan, le choix lui revient |
+| Débits réels (tok/s) d'un SLM candidat sur chaque famille de matériel | **Sidy** : depuis la fermeture de l'option E (2026-09-07), il n'existe plus de moyen de mesurer avant d'acheter — trois voies de remplacement sont posées à l'étape 4 du plan, le choix lui revient |
 | Coût récurrent réel de la couche modèle actuelle (API + abonnements) | **mesure** : à relever, jamais estimé |

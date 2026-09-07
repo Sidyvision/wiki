@@ -3,7 +3,7 @@ title: "Catalogue de la bibliothèque physique de travail"
 type: ressource
 tags: [bibliotheque, lectures-suggerees, ressource, catalogue]
 created: 2026-06-28
-updated: 2026-09-01
+updated: 2026-09-06
 sources: []
 links: []
 ---
@@ -47,6 +47,7 @@ déviations modernes.*
 - *Le Règne de la Quantité et les Signes des Temps* (Gallimard) — solidification du monde, déviation cyclique.
 - *La Crise du monde moderne* (Gallimard) — diagnostic du Kali-Yuga.
 - *Formes traditionnelles et Cycles cosmiques* (Gallimard) — directement lié aux calculs cycliques de l'app.
+- *Orient et Occident* (1924) — **en possession, non converti** (recensé le 2026-09-05). Complément de *La Crise du monde moderne*, signalé par Sidy comme le plus instructif sur l'apologétique et sur l'alignement idéologique de ceux qui cherchent l'approbation des institutions modernes. Voir [[atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique]].
 - *Comptes Rendus* (Éditions Traditionnelles) — modèle méthodologique pour VIGILANCE.
 
 ### Gaston Georgel (disciple guénonien, doctrine des cycles appliquée à l'histoire)
@@ -58,7 +59,8 @@ déviations modernes.*
 - *Écrits pour Regnabit* (Archè Milano) — symbolisme universel du Cœur.
 
 ### Autorités de la perspective traditionnelle
-- **Ananda K. Coomaraswamy** — *La Porte du ciel* ; *Le Temps et l'Éternité* (Asiathèque/Archè) ; *Principes et méthodes de l'art sacré* (Dervy) ; *Deux études sur la Katha Upanishad*.
+- **Ananda K. Coomaraswamy** — *La Porte du ciel* ; *Le Temps et l'Éternité* (Asiathèque/Archè) ; *Deux études sur la Katha Upanishad*.
+  - ⚠️ *Rectification 2026-09-06 (Cmd 5)* : *Principes et méthodes de l'art sacré* (Dervy) figurait ici sous Coomaraswamy — l'ouvrage est de **Titus Burckhardt**, et **n'est pas détenu** (verdict Sidy). Voir la ligne Burckhardt §IV.
 - **Frithjof Schuon** — *Forme et substance dans les religions* (Dervy) ; *Le Soufisme, voile et quintessence* (Albin Michel) ; *Ésotérisme comme principe et comme voie* (Dervy).
 
 ### Monographies et études biographiques
@@ -160,6 +162,7 @@ déviations modernes.*
 - **Platon** — *Œuvres complètes* (Flammarion, 2011, dir. Luc Brisson) — intégrale ; passages ingérés : Timée (24e–25d) et Critias (113b–114a) sur l'Atlantide. Source primaire de la tradition hellénique sur les cycles, reçue par Guénon. Fiché : [[doctrinal/sources/platon-oeuvres-completes-brisson-2011]], [[doctrinal/symboles/atlantide]].
 - **Simone Weil** — *La Pesanteur et la Grâce* / *L'Enracinement* / *Réflexions sur les causes de la liberté...*
 - **Titus Burckhardt** — *Alchimie : Science et Sagesse* (Archè) — exposé régulier sur l'hermétisme cosmologique.
+- **Titus Burckhardt** — *Principes et méthodes de l'art sacré* (Dervy) — ❌ **non détenu** (à acquérir ; entrée conservée pour l'orientation — rectification d'attribution du 2026-09-06, l'ouvrage était porté au crédit de Coomaraswamy § supra).
 - **Cheikh Anta Diop** — *Nations nègres et culture*
 - **Sun Tzu** — *L'Art de la guerre*
 - **Homère** — *L'Iliade* / *L'Odyssée*

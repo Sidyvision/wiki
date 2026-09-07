@@ -5,8 +5,8 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [discernement, asma-al-husna, insan-kamil, degres, nafas-rahmani, clos]
 created: 2026-07-01
-updated: 2026-07-14
-sources: ["[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sources/coran-essai-traduction-gloton]]"]
+updated: 2026-09-06
+sources: ["[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "to-source"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/hadarat-khams]]"]
 ---
@@ -71,3 +71,16 @@ cross_links: ["[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/
 
 *Fiche ouverte le 2026-07-01, close le 2026-07-14 sur verdict de Sidy, citation
 coranique vérifiée sur exemplaire physique (photographie).*
+
+> ⚠️ **Dette de fiche (signalement, 2026-09-06)** — la troisième entrée de
+> `sources:` pointait vers `doctrinal/sources/coran-essai-traduction-gloton`, fiche
+> qui n'a **jamais été créée** : l'ingest de la traduction du Coran de Maurice
+> Gloton (Albouraq) n'a pas été fait. Le lien mort est remplacé par le marqueur
+> `to-source` conformément au Sceau Recteur ; la référence bibliographique et la
+> citation demeurent intactes dans le corps ci-dessus (Qurʾân 40:15, sourate
+> *Ghâfir*, p. 468), vérifiées par Sidy sur exemplaire physique — **le `to-source`
+> marque l'absence de fiche, non un doute sur la citation**, et le verdict de
+> clôture du 2026-07-14 n'est pas rouvert. À ne pas confondre avec
+> [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]], qui porte sur un
+> **autre ouvrage** du même traducteur (grammaire et lexique).
+> Levée du marqueur : à la création de la fiche de la traduction.

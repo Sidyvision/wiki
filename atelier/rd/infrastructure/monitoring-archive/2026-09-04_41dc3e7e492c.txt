@@ -1,0 +1,231 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+---
+
+# Rapport quotidien — Pôle Studio  
+**Date** : 2026-09-04, ~04:00 UTC+2  
+**Job** : cron studio (monitoring-infrastructure-quotidien)
+
+---
+
+## §1 — Cartographie et cohérence structurelle
+
+### 1. Graphe / Generer-cartographie.py --verifier
+
+```
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 543
+      doctrinal    334
+      atelier      199
+      label        10
+
+  Arêtes : 1862
+      établies    1603
+      suggérées   259
+
+  Lacunes to-source : 50
+
+  Avertissements : 132 (non bloquants)
+      lien mort      87
+      isolée         38
+      lien           4
+      compteur       3
+  Mode --verifier : aucun manifeste écrit.
+```
+
+### 2. detecter-non-tracke.py
+
+```
+22 fichier(s) non tracké(s), par circuit :
+
+  [atelier] 12
+    M   atelier/materiel/distressor-el8.md
+    M   atelier/materiel/neve-1073spx.md
+    M   atelier/materiel/revox-a77.md
+    M   atelier/materiel/tascam-model-12.md
+    M   atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md
+    ??  atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md
+    M   atelier/rd/cahiers/registre-problemes.md
+    M   atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm.md
+    ??  atelier/rd/infrastructure/monitoring-archive/2026-09-03_41dc3e7e492c.txt
+    M   atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent.md
+    ??  atelier/rd/outillage/spec-verifier-recursion-qaf.md
+    ??  atelier/rd/outillage/verifier-recursion-qaf.py
+
+  [doctrinal] 5
+    M   doctrinal/annales.md
+    M   doctrinal/deviations/body-types.md
+    ??  doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite.md
+    M   doctrinal/index.md
+    ??  doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat.md
+
+  [hors-circuit] 1
+    ??  _inbox/al-futuhat-al-makkiyya-maymaniya-p1.md
+
+  [hors-circuit-inconnu] ⚠ 1
+    ??  textes/sabri-ben-rommane-theory/
+
+  [meta] 1
+    M   meta/2026-07-27_guide-deploiement-verifier-invariants.md
+
+  [racine] 2
+    M   graphe-cartographie.json
+    M   verifier-invariants.py
+
+  ⚠ des chemins ci-dessus n'appartiennent à aucun circuit reconnu ni aux dossiers de service usuels — à vérifier.
+```
+
+### 3. verifier-coherence-infrastructure.py
+
+```
+10 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ cron 'veille-protocole-gardien' présent (profil gardien)
+  ✅ cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ cron 'coherence-infrastructure-brute' présent (profil studio)
+```
+
+---
+
+## §2 — Empreinte serveur
+
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   30G  6.2G  83% /
+
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       2.5Gi       517Mi       3.9Mi       1.0Gi       1.2Gi
+Swap:          2.0Gi       143Mi       1.9Gi
+```
+
+**Signal** : disque à **83 %** — 6,2 G restants sur 38 G. Seuil critique (< 2 G) pas encore atteint mais tendance à surveiller. L'incident OmniRoute du 2026-09-03 a déjà récupéré 3,5 G (nettoyage backup 3.8.49). RAM stable, swap négligeable.
+
+---
+
+## §3 — Registre Hermes-Terminal
+
+**Gateways systemd :**
+
+```
+UNIT                               LOAD   ACTIVE SUB     DESCRIPTION
+  hermes-gateway-gardien.service     loaded active running Hermes Agent Gateway
+  hermes-gateway-publication.service loaded active running Hermes Agent Gateway
+  hermes-gateway-studio.service      loaded active running Hermes Agent Gateway
+```
+
+3 gateways actifs sur 12 (9 absentes — probablement désactivées manuellement ou non installées sur ce serveur).
+
+**Bind-mounts** : aucun overlay/hermes trouvé via `mount | grep` — les montages ne sont probablement pas visibles depuis ce contexte ou les gateways partagent le même arbre `/root/wiki` sans bind-mount dédié.
+
+**Staleness _inbox/** : l'inbox Studio n'existe pas (`/root/.hermes/profiles/studio/inbox/` absent). L' `_inbox/` du dépôt contient :
+
+```
+al-futuhat-al-makkiyya-maymaniya-p1.md   (4,5 Mo, daté 2026-09-02)
+conversions/                              (dossier, daté 2026-09-02)
+MASTER-UPDATE.md                         (daté 2026-09-02)
+```
+
+**Staleness** : 2 jours (depuis le 2026-09-02). Lot en attente d'intégration — le MASTER-UPDATE reference le chantier OUT-08 (OCR arabe Futūḥāt).
+
+**Texte extrait hors-circuit-inconnu** : `textes/sabri-ben-rommane-theory/corps-du-texte.md` (34 Ko, 2026-09-04) — nouvelle conversion non trackée, hors tout circuit reconnu. Chemin à intégrer dans `textes/` ou à affecter.
+
+---
+
+## §4 — R&D — Analyse engagée
+
+### A. Fiches R&D nouvelles (4)
+
+#### 1. `atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md`
+
+**Résumé** : Épreuve §VII du contrôle C1 (lien non résolu) — découverte que C1 ne couvrait que le corps des fiches, pas le cartouche frontmatter (`sources:`, `cross_links:`, `links:`). Extension de `controler_liens_cartouche()` au script. 7 wikilinks du cartouche non résolus identifiés, 4 corrigés (conversion `[[raw/…]]` en chemin nu, cibles mal nommées), 3 en instruction doctrinale.
+
+**Lien registre** : prolonge l'entrée [2026-08-17] (motif `infra_verif`). Problème nouveau : **dette de fiches sources** — trois ouvrages cités dans des fiches doctrinales n'ont jamais reçu leur fiche source (Gloton Coran, Guénon Aperçus ch.39, Burckhardt Art Sacré).
+
+**PROPOSITION** : (a) Consigner les 3 cas doctrinaux restants comme dette dans le registre-problemes (to-source, non erreur de lien). (b) La correction de l'attribution Burckhardt/Coomaraswamy dans `catalogue-bibliotheque.md` + la fiche `sashimono-metier-traditionnel` relève d'une correction factuelle — **handoff Studio/Gardien** pour validation croisée. (c) L'extension C1 cartouche est **éprouvée et adoptée** — à documenter dans le README de `verifier-invariants.py`.
+
+**Angles morts ouverts** : les 3 cas doctrinaux ne sont pas clos. L'attribution Burckhardt/Coomaraswamy dans le catalogue bibliographique est une erreur factuelle documentée mais non corrigée dans le fichier.
+
+#### 2. `atelier/rd/incidents/2026-09-03_splice-index-non-ancre-destruction-partielle.md`
+
+**Résumé** : `str.index()` sur un motif non unique a détruit 1 618 lignes d'une transcription Gloton (p. 31–62) avant commit. Récupération depuis le journal de session Claude. Leçons : assert sur occurrences uniques, contrôle `wc -l` systématique après écriture, commit intermédiaire.
+
+**Lien registre** : problème **nouveau** — aucune entrée registre ne couvre les destructions silencieuses par `index()` non ancré. Proche thématiquement de [2026-09-03] (OmniRoute) par la date, mais cause complètement différente.
+
+**PROPOSITION** : (a) Portée disciplinaire — porter les points 1 et 2 dans le CLAUDE.md local atelier (discipline d'écriture de script) ou laisser en retour d'expérience (question posée dans la fiche, verdict Sidy attendu). (b) L'incident fait aussi la preuve inverse du §VIII.2 : le contrôle mécanique `wc -l` après écriture est exactement ce qui a rendu l'incident visible dans la minute. **Profil** : Gardien (pour la consignation registre) ou Studio (si verdict Sidy requis).
+
+**Angle mort** : le journal de session (`~/.claude/.../session.jsonl`) n'est pas un filet de sécurité du dépôt — c'est un artifact de session qui peut être purgé. Un commit intermédiaire systématique sur les pièces longues réduirait ce risque.
+
+#### 3. `atelier/rd/infrastructure/incident-2026-09-03-omniroute-npm-interrompu-durcissement-ssh.md`
+
+**Résumé** : `npm install -g omniroute` interrompu par arrêt serveur → OmniRoute hors service (450 cycles `203/EXEC`). Résolution : réinstallation 3.8.50, vérification bout en bout. Découvertes : (a) fichier `.omniroute-env.sh` caviardé (`[REDACTED]` après le `=`), jeton ANTHROPIC compromis ; (b) connexion Claude OAuth expirée sans refresh token ; (c) durcissement SSH appliqué (6 659 tentatives brute-force en 24 h, `ufw` activé, `PasswordAuthentication no`).
+
+**Lien registre** : prolonge [2026-08-27] (EADDRINUSE OmniRoute) et [2026-08-30] (clé ANTHROPIC compromise). **Entrée registre absente** pour cet incident.
+
+**PROPOSITION** : (a) **Cons`/usr/lib/node_modules/` ne contenait plus que `node_modules/` — ni `bin/`, ni `dist/`, ni `src/`** → consigner l'entrée dans registre-problemes (problème nouveau : fragilité atomique de `npm install -g`). (b) Vérifier le pare-feu **cloud Hetzner** (resté à faire). (c) Décider du sort de la connexion `56xfmzr7kj@privaterelay.appleid.com` (expirée, pas de refresh token). (d) Rotation des clés fournisseurs exposées avant le pare-feu (Gemini, Groq, Mistral…). **Profil** : Studio (attente verdicts Sidy) + Infrastructure (exécution technique).
+
+**Angles morts ouverts** : le pare-feu cloud Hetzner (distinct du pare-feu hôte) n'a pas été vérifié. Les clés fournisseurs exposées pendant la fenêtre de vulnérabilité n'ont pas été tournées.
+
+#### 4. `atelier/rd/outillage/spec-verifier-recursion-qaf.md`
+
+**Résumé** : Spécification d'un script déterministe (`verifier-recursion-qaf.py`) vérifiant le modèle récursif de Sabri B. Rommane (Sūrat Qāf). Deux variantes de règles ; concordance confirmée sous la variante B (règle opérante : hamza non émise, noms fāʾ/yāʾ tronqués à 2 lettres).
+
+**Lien registre** : problème spécifique couvert par la fiche source correspondante. Aucune entrée registre — c'est un outil de vérification, pas un problème d'infrastructure.
+
+**PROPOSITION** : (a) Exécuter `verifier-recursion-qaf.py` et consigner la sortie dans `doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat.md` (levée partielle du `to-source` sur le plan arithmétique, Cmd 12 préservé pour la portée métaphysique). (b) Le script pointe `textes/une-approche-du-coran-gloton/corps-du-texte.md` pour les noms de lettres — vérifier que ce chemin est valide après les mouvements récents dans `textes/`. **Profil** : Studio (exécution déterministe) + Publication (si vérification enregistrement).
+
+### B. Fiches R&D modifiées (4)
+
+| Fiche | Modification | Lien registre |
+|---|---|---|
+| `2026-08-29_compte-rendu-github-automation.md` | Lien mort corrigé → `synchro-obsidian-working-copy-github` (verdict Sidy, via C1 cartouche) | Prolonge [2026-08-30] (secret HMAC — déjà résolu) |
+| `2026-08-22_stealing-reasoning-traces-llm.md` | `[[2608.09867]]` → `to-source` (verdict Sidy : ingest non fait, pas de fiche cible) | Nouveau : étude arXiv jamais ingestée |
+| `out-08-ocr-arabe-futuhat/intent.md` | `[[ocr-scan-vers-markdown]]` → `[[spec-ocr-scan-vers-markdown]]` (seule la spec est une page) | Prolonge [2026-09-02] (ouverture OUT-08) |
+| `registre-problemes.md` | Ajout entrée [2026-09-04] Extension C1 cartouche ; `updated:` au 2026-09-04 | — |
+
+### C. État des 5 entrées les plus récentes du registre-problemes
+
+| # | Date | Titre | Statut | Changement depuis dernière exécution |
+|---|---|---|---|---|
+| 1 | 2026-09-04 | Extension C1 cartouche — 7 liens morts, 4 corrigés, 3 doctrinaux en instruction | **En cours** | **Nouvelle** — pas encore vue par le job précédent |
+| 2 | 2026-09-02 | Deux rapports Publication collés (3 sous-points) | **Résolu** | Inchangé depuis dernière exécution |
+| 3 | 2026-08-31 | Qualification joint qabḍ/basṭ — deux erreurs de fait Atma-Gita | **Résolu** (partie factuelle) | Inchangé ; verdict de fond (qualification) reste entier — Cmd 12 |
+| 4 | 2026-08-31 | Écriture dans raw/ par agent de veille | **Résolu** (verdict rendu) | Inchangé ; deux points reportés (correctif V-INV, clarification mandat agents) toujours ouverts |
+| 5 | 2026-08-30 | Nettoyage sas _inbox/ — pathspec NFD/NFC | **Résolu** | Inchangé ; aucun correctif d'outil nécessaire (contournement identifié) |
+
+**Observation** : les deux incidents du 2026-09-03 (OmniRoute npm + splice-index destruction) n'ont **aucune entrée registre** — ils existent uniquement comme fiches R&D séparées. L'entrée registre [2026-09-04] couvre l'extension C1 mais ne reprend pas ces deux incidents.
+
+### D. Synthèse R&D — 5 pistes prioritaires
+
+1. **URGENCE HAUTE — Consigner les 2 incidents du 2026-09-03 dans le registre** (PROPOSITION). L'OmniRoute npm a 5 restes à faire non résolus (dont pare-feu Hetzner et rotation clés exposées). Le splice-index a un verdict Sidy attendu (consignation CLAUDE.md vs retour d'expérience). **Handoff** : Studio (verdicts) → Infrastructure (exécution).
+
+2. **URGENCE HAUTE — Instruire les 3 cas doctrinaux C1** (PROPOSITION). Les 3 wikilinks non résolus (Gloton, Guénon Aperçus ch.39, Burckhardt) sont une dette de fiches sources, pas des erreurs de lien. Nécessite : (a) création de la fiche source Gloton Coran (Sidy détenu,照片 existantes), (b) création de la fiche Guénon Aperçus ch.39, (c) correction de l'attribution Burckhardt/Coomaraswamy dans le catalogue. **Handoff** : Gardien (exécution fiches) + Studio (verdicts attribution).
+
+3. **URGENCE MOYENNE — Vérifier le pare-feu cloud Hetzner** (PROPOSITION). Resté à faire depuis le 2026-09-03. Le pare-feu hôte (ufw) est actif ; le pare-feu Hetzner (distinct) n'a pas été vérifié. Risque : si le serveur expose des ports via la console Hetzner au-delà de ce que ufw bloque localement. **Handoff** : Infrastructure (vérification technique) → Studio (verdict).
+
+4. **URGENCE MOYENNE — Exécuter verifier-recursion-qaf.py** (PROPOSITION). Le script est spécifié mais non encore exécuté. La concordance arithmétique est un fait vérifiable. Exécution déterministe, pas de verdict requis pour le résultat brut (Cmd 12 ne s'applique qu'à la portée métaphysique). **Handoff** : Studio (exécution + consignation dans la fiche source).
+
+5. **URGENCE BASSE — Intégrer al-futuhat-al-makkiyya-maymaniya-p1.md depuis _inbox/** (PROPOSITION). Lot en attente depuis 2026-09-02 (2 jours). Le MASTER-UPDATE référence le chantier OUT-08. Le texte OCR est structurellement corrompu (lettres recomposées au hasard) — pas de citation possible en l'état (Cmd 5). Intégration : verser la fiche dans le circuit concerné (ou laisser en sas tant que OUT-08 n'est pas résolu). **Handoff** : Studio (verdict intégration).
+
+---
+
+## §5 — Suggestions transversales
+
+1. **Disque** : 83 % utilisé — 6,2 G libres. L'incident OmniRoute a récupéré 3,5 G le 2026-09-03. Surveiller ; si le seuil de 4 G est franchi, investiguer les gros consommateurs (`textes/`, `raw/`, `.claude/` sessions).
+
+2. **Dossier `textes/sabri-ben-rommane-theory/`** : contenu non tracké (34 Ko, `corps-du-texte.md`), détecté comme "hors-circuit-inconnu" par `detecter-non-tracke.py`. À affecter dans `textes/` (après vérification qu'il s'agit d'une source primaire convertie, PRO-08).
+
+3. **12 gateways attendues, 3 actives** : les 9 absentes ne sont pas un incident — elles ne sont probablement pas configurées sur ce serveur. À documenter si Sidy souhaite un inventaire complet.
+
+4. **Entrées registre manquantes** : les 2 incidents du 2026-09-03 (OmniRoute npm + splice-index) existent comme fiches R&D mais pas comme entrées registre. Leur consignation dans le registre permettrait un suivi unifié.
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

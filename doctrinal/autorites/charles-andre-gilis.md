@@ -4,8 +4,12 @@ type: autorite
 status: traditionnel
 tradition_cadre: islam
 tags: [califat, ibn-arabi, guenon, valsan, traduction, etudes-traditionnelles, turban-noir]
-sources: []
-sources_count: 0
+sources:
+  - "[[doctrinal/sources/sept-etendards-califat]]"
+  - "[[doctrinal/sources/gilis-ordo-ab-chao]]"
+  - "[[doctrinal/sources/ibn-arabi-fard-afrad-gilis]]"
+  - "[[doctrinal/sources/valsan-investiture-cheikh-al-akbar]]"
+sources_count: 4
 cross_links:
   - "[[doctrinal/autorites/ibn-arabi]]"
   - "[[doctrinal/autorites/rene-guenon]]"

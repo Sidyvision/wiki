@@ -3,8 +3,8 @@ title: "Tascam Model 12 — table/interface centrale"
 type: materiel
 tags: [audio, interface, tascam, mastering]
 created: 2026-06-20
-updated: 2026-08-18
-sources: ["[[chatgpt-export-2026-05-10]]", "[[raw/facture-woodbrass-4902304-2025-11-07-tascam-model12]]", "[[raw/Model12_OM_EFS_RevH3]]"]
+updated: 2026-09-04
+sources: ["[[chatgpt-export-2026-05-10]]", "raw/facture-woodbrass-4902304-2025-11-07-tascam-model12.pdf", "raw/Model12_OM_EFS_RevH3.pdf"]
 links: ["[[atelier/materiel/neve-1073spx]]", "[[atelier/materiel/studio-principal]]"]
 ---
 

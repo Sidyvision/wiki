@@ -10,7 +10,7 @@ tags:
 created: 2026-08-22
 updated: 2026-08-23
 sources:
-  - "[[2608.09867]]"
+  - "to-source"   # arXiv:2608.09867v1 — ingest non fait, aucune fiche cible (verdict Sidy 2026-09-04)
 links:
   - "[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11]]"
 ---

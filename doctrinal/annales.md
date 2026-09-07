@@ -1,13 +1,371 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-02
+updated: 2026-09-06
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-06] versement | Fiche source Guénon (CMM, ch. V) et fiche de discernement sur le partage ẓāhir / bāṭin
+
+- **Action** — deux fiches créées, dans l'ordre imposé par Sidy (« fiche source
+  produite d'abord ») : `doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme.md`,
+  puis `doctrinal/discernement/2026-09-06_status-traditionnel-et-partage-zahir-batin.md`,
+  qui l'ancre en `sources` au lieu de porter `to-source`.
+- **Motif de la fiche source** — les deux citations sur lesquelles s'appuie
+  l'amendement `status: academique` du 2026-09-05 ne se trouvent **pas** dans la
+  seule fiche CMM que portait le dépôt (ch. IV) : `grep` sur
+  `apolog|défensive|conciliant` y donne zéro occurrence. Le passage est au ch. V
+  (`Chapitre=692` contre `691`). Catalogue consulté au préalable (§VII, point 1) :
+  *La Crise du monde moderne* est en possession et converti — l'absence n'était
+  jamais une absence de livre, seulement de fiche.
+- **Ce que la fiche de discernement ne fait pas** — `status: speculatif`,
+  **Conclusion : aucune**, registre réservé délibérément vide. Elle relève un défaut
+  de forme (une valeur ne peut être à la fois un genre disjoint et le complément
+  d'un autre) et énonce explicitement que ce constat n'établit rien sur ce qui
+  devrait le remplacer. Le verdict appartient à Sidy (Cmd 12).
+- **Signalements portés, non comblés** — pas de fiche pour le chapitre
+  « L'opposition de l'Orient et de l'Occident », dont une formulation voisine et
+  plus tranchée est distinguée dans un bloc dédié ; *Orient et Occident* (1924) en
+  possession, non converti ; `walaya-fath-adab` à `sources_count: 0`, filiation
+  notée et **non armée** ; pôle hétérodoxe **sans candidat au dépôt**, absence
+  consignée telle quelle ; le constat « des fiches ont traité `academique` comme le
+  résiduel » signalé comme non vérifiable sur la page, sa trace vivant dans une
+  fiche que le plan visé n'autorisait pas à citer (Cmd 5).
+- **Convention d'ancrage** — la fiche ch. V ancre `sources` sur `textes/` (versionné
+  depuis PRO-08) quand sa sœur du ch. IV ancre sur `raw/` (exclu de git, donc
+  invisible depuis le poste de consultation). Relevé mécanique : sur
+  `doctrinal/sources/`, trois fiches seulement portent un `sources` non vide qui ne
+  soit pas un wikilink — deux sur `raw/`, celle-ci sur `textes/`. **C'est le premier
+  ancrage `textes/` du dépôt** : usage introduit, signalé, soumis à Sidy. La fiche
+  voisine n'a pas été touchée (Action VIGILANCE).
+- **Étanchéité** — contrôle scripté sur la fiche de discernement : aucune occurrence
+  de `DOC-`, de `chantier`, de `rd/` ni de `atelier` (§VI ; aucune page doctrinale
+  ne mentionne un chantier). Aucun lien vers `hermeneutique/`. Aucun lien retour
+  inscrit dans les pages orthodoxes.
+- **Graphe** — régénéré au mandat du §VII. Les cinq arêtes des deux fiches
+  résolvent toutes vers un nœud existant (aucun lien mort introduit).
+  `Avertissements : 140 (non bloquants)` — dont `lien mort 94`, `isolée 39`. La
+  fiche de discernement **compte zéro lien entrant** : elle est isolée. Des liens
+  entrants peuvent être proposés, ils ne sont **pas inscrits** — Sidy tranche
+  (Cmd 12). L'écart de +1 `isolée` avec le relevé de la veille tient à un fichier
+  apparu entre deux exécutions et relevant d'une session concurrente, non aux
+  présentes fiches.
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` :
+  `1403 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que .gitignore exclut
+  n'est pas contrôlé). / 0 erreur(s), 0 avertissement(s).` Contrôle Cmd 15 sur les
+  deux fiches : aucun caractère invisible.
+- **Commit** : 61ae381
+
+## [2026-09-06] correction | Retrait d'une assertion fautive du bloc `## Statut` de quatre autorités
+
+- **Action** — la phrase finale « La valeur antérieure, `academique`, reposait sur
+  un critère reconnu fautif. » est retirée des quatre fiches passées en
+  `traditionnel` le jour même : `hamza-yusuf`, `ali-hussain`, `faraz-rabbani`,
+  `yaqub-chaudhary`. Le verdict, sa date et son auteur subsistent seuls.
+- **Motif** — la phrase avait été appliquée uniformément aux quatre, sans distinguer
+  les deux groupes que le relevé du 2026-09-05 avait pourtant déjà séparés. Elle est
+  **fausse** pour `ali-hussain` et `yaqub-chaudhary` : ces fiches ne portaient aucun
+  motif assertant `academique`, aucun critère n'y avait donc été consigné et aucun
+  ne pouvait être reconnu fautif. Elle contredisait de surcroît l'entrée d'annales
+  de la passe précédente, qui constatait expressément que « deux fiches ne
+  demandaient aucun texte à défaire ».
+- **Ce qui n'est pas touché** — le motif de `faraz-rabbani`, retiré comme erroné en
+  `## Notes`, et le bandeau de stub de `hamza-yusuf` restent en l'état : ces deux
+  fiches portaient effectivement un motif, et son retrait y était fondé. Aucune
+  élaboration doctrinale n'est ajoutée nulle part : la distinction de fonctions
+  qu'engage cette valeur reste réservée à Sidy (Cmd 12).
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` :
+  `1400 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que .gitignore exclut
+  n'est pas contrôlé). / 0 erreur(s), 0 avertissement(s).` Graphe régénéré au
+  mandat du §VII (commit `c3bfd6f`) : aucun nœud ni arête modifié — les corrections
+  sont de prose seule, sans changement de lien ni de frontmatter doctrinal.
+- **Commit** : 3055965
+
+## [2026-09-06] discernement | Quatre autorités passent en `status: traditionnel` (verdict Sidy)
+
+- **Action** — `hamza-yusuf`, `ali-hussain`, `faraz-rabbani` et `yaqub-chaudhary`
+  passent de `academique` à `traditionnel`. Valeur portée **sur verdict explicite de
+  Sidy du 2026-09-06**, nommant les quatre. La machine n'a tranché aucune des quatre
+  (Cmd 12, Cmd 13).
+- **Motif retiré** — la note de `faraz-rabbani` justifiant `academique` par l'absence
+  de *silsila* établie est retirée **comme erronée**, non comme périmée : elle mesurait
+  une fonction à l'aune d'une autre. Le bandeau stub de `hamza-yusuf`, qui annonçait le
+  statut « à réévaluer selon la source », est mis à jour ; le fond de la fiche reste à
+  compléter.
+- **Prose doctrinale volontairement absente** — chaque fiche reçoit une section
+  `## Statut` qui porte la valeur, la date et l'auteur du verdict, **et rien de plus**.
+  L'énoncé de la distinction de fonctions qu'engage cette valeur est en cours
+  d'instruction et appartient à Sidy ; l'inscrire aujourd'hui aurait été le préempter.
+- **Non touché** — `raphael-afilalo` et `aiman-attar` restent `academique` : ils
+  n'étaient pas nommés au verdict, et le silence n'est pas une confirmation. Question
+  reportée à Sidy.
+- **Étanchéité** — aucune de ces fiches ne mentionne de chantier ni de page `atelier/`
+  (§VI). Deux fiches ne demandaient aucun texte à défaire (`ali-hussain`,
+  `yaqub-chaudhary`) : elles ne portaient aucun motif assertant `academique`.
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` :
+  `1400 fichier(s) .md contrôlé(s) — 0 erreur(s), 0 avertissement(s)`. Cmd 15 : propre.
+- **Commit** : `41cea73`.
+
+## [2026-09-06] integration | Report des renvois `raw/` vers `textes/` (fiches *Aperçus sur l'Initiation*)
+
+Les trois fiches sœurs `guenon-apercus-initiation-ch5-8`, `-ch7` et `-ch20`
+renvoyaient encore le lecteur vers `raw/` au lieu de `textes/` — reliquat de la
+reprise PRO-08, signalé dans l'entrée du même jour (commit `fd0cd8a`) comme
+« signalé, non corrigé dans ce lot ». **Cette ligne est ici close** : elle était
+exacte au moment où elle a été écrite, aucune rectification ne lui est due.
+
+- **Cibles confirmées, non déduites** — le marqueur `CHAPITRE` a été relevé dans
+  chacun des fichiers de `textes/apercu-sur-l-initiation/` avant toute écriture :
+  ch. V → `de-la-regularite-initiatique-…`, ch. VIII →
+  `de-la-transmission-initiatique-…`, ch. VII →
+  `contre-le-melange-des-formes-traditionnelles-…`, ch. XX →
+  `a-propos-de-magie-ceremonielle-…`. L'écart de pagination du site
+  (`Chapitre=NN` = N+25) n'a servi qu'à orienter la recherche, jamais à conclure.
+- **Retour sur `fd0cd8a`** — le même relevé confirme
+  `…-rene-guenon-7.md` = ch. XIV. La quatrième fiche est juste telle que commitée.
+- **Forme** — chemins nus entre backticks, jamais `[[…]]` : `textes/` n'est la
+  cible d'aucun wikilink (PRO-08). La fiche `ch5-8` reçoit **deux** chemins, le
+  sigle désignant les chapitres V et VIII et non la plage V–VIII.
+- **Trace** — chaque renvoi porte une ligne datée du 2026-09-06 rappelant qu'il
+  visait jusque-là `raw/`, avec l'identifiant de site correspondant (Cmd 5 :
+  rectifier avec trace, ne pas effacer).
+- **Non substitué** — `ch20` ligne 138, sous *Fiabilité de la source*, énonçait
+  une **provenance** (« transcription index-rene-guenon.org en `raw/` ») et non un
+  renvoi. Cet énoncé est vrai. Il a été reformulé, non remplacé : le texte est
+  reporté en `textes/`, son origine reste la transcription du site. Une
+  substitution en aveugle y aurait transformé un fait en contrevérité.
+- **Non levé** — les marqueurs `Pagination to-source` des trois fiches restent en
+  place. Leur levée demeure suspendue à la vérification sur exemplaire physique
+  par Sidy ; elle n'était pas demandée.
+- **Cartouche** — `updated:` porté à 2026-09-06 sur les trois fiches (Cmd 8).
+
+**Vérification** — les 5 chemins nus existent sur disque ; `grep 'raw/'` ne
+retourne plus que les lignes de trace, aucune en position de renvoi ;
+`python3 verifier-invariants.py` → *0 erreur(s), 0 avertissement(s)* sur 1399
+fichiers. Étanchéité : seuls les 3 chemins de ce lot ont été indexés.
+
+- **Commit** : a0cc069
+
+## [2026-09-06] contrôle | Clôture des trois dernières cibles C1 doctrinales
+
+Dernier volet de la passe ouverte le 2026-09-04 par l'extension de C1/C2 au
+cartouche. Sur les sept cibles alors relevées, quatre avaient été corrigées le
+jour même ; les trois restantes étaient doctrinales et attendaient verdict.
+Elles sont instruites et closes ce jour, une par une, sur verdict de Sidy.
+
+- **Cas 5 — `2026-07-01_rafi-ad-darajat-fonction-traversante`** : la troisième
+  entrée de `sources:` pointait vers `doctrinal/sources/coran-essai-traduction-gloton`,
+  fiche **jamais créée** — l'ingest de la traduction du Coran de Maurice Gloton
+  n'a pas été fait. Lien mort remplacé par `to-source`, `sources_count: 3`
+  conservé. Un signalement inscrit dans la fiche distingue l'**absence de fiche**
+  d'un **doute sur la citation** : Qurʾân 40:15 (sourate *Ghâfir*, p. 468) reste
+  vérifiée par Sidy sur exemplaire physique, et le verdict de clôture du
+  2026-07-14 n'est pas rouvert. Le signalement met aussi en garde contre la
+  confusion avec [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]],
+  qui porte sur un autre ouvrage du même traducteur.
+
+- **Cas 6 — renvoi Guénon depuis `2026-07-07_sashimono-metier-traditionnel`** :
+  question de Sidy — les textes de Guénon étant dans `textes/`, ne serait-il pas
+  plus propre de citer la référence et de pointer vers le livre ? L'instinct est
+  juste et n'entre pas en tension avec PRO-08 : le dépôt a déjà l'idiome. La
+  **fiche source** est l'objet wikilinkable, le **chemin nu** en backticks est la
+  façon dont elle atteint `textes/`. Création de
+  [[doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques]],
+  quatrième fiche sur *Aperçus sur l'Initiation*. Le chapitre **XIV** est établi
+  par recoupement et non par inférence : le `Chapitre=39` de l'URL est la
+  pagination interne du site, l'écart constant de 25 se recoupe sur la fiche
+  ch. VII qui porte `Chapitre=32`, et le titre est confirmé dans le corps du
+  texte. **La pagination des pages reste `to-source`** — elle n'est pas
+  reconstituée. Le renvoi de la fiche vers le discernement `speculatif` non
+  tranché est porté au titre de l'**exception généalogique signalée** prévue par
+  `doctrinal/CLAUDE.md`, explicitement inscrite dans la fiche : elle fonde, elle
+  ne conclut pas. Sans quoi C3 restait **muet** — le chemin nu ne portant pas de
+  wikilink — et un contrôle muet n'est pas un contrôle satisfait (§VII).
+
+- **Cas 7 — attribution de *Principes et méthodes de l'art sacré*** : l'ouvrage
+  est de **Titus Burckhardt** (Dervy), non de Coomaraswamy. Rectification avec
+  trace **aux deux endroits** (Cmd 5) : corps de la fiche discernement et
+  `atelier/rd/bibliotheque/catalogue-bibliotheque.md`, où une entrée Burckhardt
+  est ajoutée en **non détenu**. L'hypothèse de Sidy — l'ouvrage aurait été cité
+  par Coomaraswamy dans *La Porte du ciel* — est **consignée non résolue**, avec
+  sa réserve de datation : Coomaraswamy meurt en 1947, l'ouvrage paraît en 1958,
+  une citation par lui est chronologiquement impossible en l'état. Consignée,
+  non tranchée, sur consigne de Sidy (« on verra ça plus tard »).
+
+**Répercussion** : cahier R&D `2026-09-04_extension-c1-cartouche-verifier-invariants`
+§6 et §7 clos (le texte d'instruction du 2026-09-04 est conservé verbatim, Cmd 5,
+et l'issue de chaque cas ajoutée en dessous) ; `doctrinal/index.md` ; phrase
+périmée de l'entrée du 2026-09-04 rectifiée ; `graphe-cartographie.json` régénéré.
+
+**Signalé, non corrigé dans ce lot** : les trois fiches sœurs sur *Aperçus sur
+l'Initiation* (ch5-8, ch7, ch20) portent encore des renvois vers `raw/` au lieu
+de `textes/` — reliquat de la même reprise.
+
+**Vérification** : `python3 verifier-invariants.py` →
+`1399 fichier(s) .md contrôlé(s) — 0 erreur(s), 0 avertissement(s).`
+La ligne de base passe de 0 erreur / 3 avertissements à **0 / 0**.
+
+- **Commit** : fd0cd8a
+
+## [2026-09-05] amendement | `doctrinal/CLAUDE.md` — précision sur `status: academique`
+
+- **Action** : ajout d'une précision aux *Définitions des Statuts*, immédiatement à la suite de la précision du 2026-07-28 sur `type: deviation`, dont elle reprend exactement la forme (blockquote, amendement daté, verdict Sidy).
+- **Lettre** : la démarche académique occidentale moderne est **épistémologiquement et structurellement biaisée**. Il ne s'ensuit pas que tout auteur inscrit dans ce cadre reçoive `academique` — le titre universitaire n'est pas le critère, l'**allégeance épistémologique** l'est. Discerner entre les **agents de cette démarche**, qui en portent les présupposés (`academique`), et les **acteurs traditionnels qui investissent l'institution** pour opérer un redressement depuis l'intérieur (`traditionnel`).
+- **Indice** : l'**écart** — une caution, un cadrage ou une concession empruntés au registre moderne. Marque donnée par Guénon (*La Crise du monde moderne*) : l'attitude apologétique, « purement défensive », qui « pour paraître conciliant » admet « des conceptions qui n'ont été inventées que pour ruiner toute religion » ; l'accord recherché avec la science moderne, « travail parfaitement illusoire et toujours à refaire ».
+- **Contre-épreuve inscrite dans la consigne** : « on peut même se dire "traditionaliste" sans avoir la moindre notion du véritable esprit traditionnel ». Le critère coupe dans les deux sens — une revendication d'appartenance n'est pas plus un verdict qu'un titre.
+- **Garde-fou** : la consigne borne explicitement l'office de la machine — relever les écarts et les porter en « points de vigilance », **matériau du discernement et non réserve sur un statut déjà attribué** ; ne jamais en conclure une valeur de `status` (Cmd 12), ni s'aligner sur le classement des fiches voisines (« un précédent de dossier n'est pas une règle »). Cette dernière clause est la contrepartie normative de l'erreur commise le 2026-09-05 sur la fiche Al-Akili.
+- **Origine** : verdict de Sidy du 2026-09-05, en réponse à la question portée par le cahier R&D ouvert le même jour. Ce cahier n'est **pas** cité dans la consigne : `doctrinal/` → `atelier/rd/` est interdit (§VI), la consigne se suffit à elle-même, citations de Guénon comprises.
+- **Portée** : aucune fiche existante n'est reclassée par cet amendement. Les six fiches `status: academique` de `doctrinal/autorites/` restent en l'état ; une passe de relevé est ouverte, fiche par fiche, sans modification de valeur par la machine.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` → `0 erreur(s), 3 avertissement(s)` (les trois `[C1]` connus, antérieurs et étrangers à cette passe). Cmd 15 : propre.
+- **Commit** : 39c8f49
+
+## [2026-09-05] rectification | Al-Akili — `status: traditionnel`
+
+Rectification de l'entrée ci-dessous, le jour même. Le verdict de Sidy du
+2026-09-05 (« Status Traditionnel avec une fiche du traducteur à créer »)
+portait sur **l'homme comme sur l'ouvrage** ; il avait été rapporté au seul
+ouvrage, et `doctrinal/autorites/muhammad-al-akili.md` versée en
+`STATUT-A-TRANCHER`. Erreur de lecture de la machine, non du verdict, signalée
+par Sidy.
+
+`status:` porté à `traditionnel`, section *Statut* réécrite en conséquence. Les
+trois *Points de vigilance* sont **maintenus** au dossier : ils consignent des
+faits relevés dans l'ouvrage (absence de chaîne de transmission déclarée, cadre
+jungien de l'avant-propos d'Ayoub qui n'est pas de la main d'Al-Akili), non des
+réserves sur la valeur attribuée.
+
+Contrôle : `verifier-invariants.py` — **0 erreur, 3 avertissements**, inchangé.
+
+- **Commit** : 662fd27
+
+## [2026-09-05] integration | Ibn Seerin (Al-Akili) — fiche source et instruction du compilateur
+
+Suite du versement du même jour. Deux fiches créées sur verdict de Sidy, plus
+deux mises à jour d'inventaire.
+
+- `doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili.md` — `status:
+  traditionnel`, **verdict de Sidy**. La valeur qualifie la nature du contenu
+  reproduit (principe posé au protocole du circuit pour `type: deviation`) : la
+  matière compilée est celle de l'oniromancie islamique classique, entièrement
+  interne à la tradition.
+- `doctrinal/autorites/muhammad-al-akili.md` — fiche d'instruction ouverte à la
+  demande de Sidy pour établir la **filiation des idées** et la **démarche** du
+  compilateur. Tout y est tiré de l'ouvrage lui-même : filiation nominale de
+  huit maîtres du taʿbīr (éditions arabes de base, Le Caire 1964) ; ouvrage
+  qualifié d'« adaptation » et non de traduction, le mot étant de Mahmoud Ayoub ;
+  subordination explicite du livre à un maître vivant ; aveu de l'auteur que ses
+  références restent à documenter. Trois points de vigilance signalés et **non
+  jugés** (Cmd 12), dont le cadre jungien de l'avant-propos d'Ayoub.
+  `status:` laissé **non tranché** — une fiche ouverte pour instruire une
+  filiation ne peut la préjuger. Verdict attendu de Sidy.
+- `doctrinal/autorites/ibn-sirin.md` — première source comptée
+  (`sources_count` 0 → 1), `updated` porté au 2026-09-05. **Aucune levée de
+  `to-source`** : une attribution à Ibn Sīrīn exige une source arabe, que cette
+  adaptation anglaise n'est pas.
+- `textes/LISEZ-MOI.md` — inventaire complété de deux versements : Sabri Ben
+  Rommane (2026-09-04, autre session, quatrième voie d'entrée par transcription
+  de captures) et Ibn Seerin (2026-09-05).
+
+Point relevé et non traité : le précédent de statut du dossier `autorites/` est
+peu fiable — Sidy signale que `hamza-yusuf` et `faraz-rabbani`, portés
+`academique`, sont des figures traditionnelles. Six fiches portent cette valeur ;
+une passe de vérification reste à ouvrir.
+
+Contrôle : `verifier-invariants.py` — 1396 fichiers, **0 erreur, 3
+avertissements**, tous trois antérieurs et étrangers à cette passe. Cmd 15
+propre sur les quatre fichiers.
+
+- **Commit** : 4a24422
+
+## [2026-09-05] archivage | Ibn Seerin's Dictionary of Dreams (Al-Akili) — versement au cabinet de lecture
+
+Versement fait côté Hermes par Sidy, passé ici pour contrôle de routine et
+intégration. **CRÉÉ** : `textes/ibn-sirin-dictionary-of-dreams/` — 30 fichiers,
+34 791 lignes, PRO-08 (cabinet de lecture : pas de Sceau, aucun wikilink, hors
+graphe). Aucune fiche doctrinale n'est ouverte sur cette source à ce stade.
+
+**Chaîne de conversion** — à ne pas confondre avec celle d'Osman Yahia et de la
+Futūḥāt (`pdftoppm 300dpi + tesseract 5`) : ici, extraction par `pymupdf` de la
+couche texte **déjà présente** dans le PDF, produite en amont par Adobe Acrobat 8
+Paper Capture (OCR anglais). L'OCR est donc réel mais étranger au dépôt, et
+défectueux — en-têtes en casseau de glyphes, lettres recollées, translittérations
+arabes approximatives. L'index porte l'avertissement : aide au repérage, jamais
+texte critique, toute citation exige le retour au scan.
+
+**Contrôles mécaniques** (résultats bruts) :
+- Couverture des pages : les 29 plages de l'index pavent 2→552 sans trou ni
+  recouvrement ; 551 marqueurs `<!-- page N -->` uniques, min 2, max 552, aucun
+  doublon. La page 1 (couverture) est absente — cohérent avec une couche texte
+  sans couverture.
+- Hygiène Unicode (Cmd 15) : aucun U+200B/C/D/E/F ni U+FEFF sur les 30 fichiers.
+- `verifier-invariants.py` : `exit=0`, 1394 fichiers contrôlés, **0 erreur,
+  3 avertissements** — tous C1 et tous étrangers à ce versement (fiches
+  `rafi-ad-darajat` et `sashimono`). Zéro ligne ibn-sirin.
+  *Réserve* : `verifier-invariants.py` est lui-même modifié et non commité par
+  une session en cours — c'est le verdict d'un contrôleur non versionné.
+
+**Aucune mise en forme appliquée.** L'alignement de l'en-tête sur celui d'Osman
+Yahia (`type: conversion`, `links:`) avait été proposé puis **retiré** : PRO-08
+`spec.md` pose que `textes/` ne porte aucun Sceau, donc aucune convention
+n'impose ce vocabulaire. Toucher le fichier aurait été du cosmétique déguisé en
+conformité.
+
+**RETIRÉ du sas** : `_inbox/conversions/` (copie octet pour octet de l'original
+versé, `diff -rq` muet — non suivi par git, donc retrait sans trace d'historique)
+et `_inbox/MASTER-UPDATE.md` (plan DOC-07, périmé : son intégration est faite ;
+suivi par git, récupérable en `b8529f4`). **Conservés** : `.gitkeep` (incident ACL
+du 2026-08-31) et `al-futuhat-al-makkiyya-maymaniya-p1.md`, matière de travail du
+chantier OUT-08 — sa destination reste une question ouverte à Sidy.
+
+- **Commit** : c2abc84
+
+## [2026-09-03] archivage | Transcription Gloton pp. 17-77 — 28 photographies, lecture directe
+
+Second lot de photographies versé par Sidy dans `raw/Une approche du Coran -
+Gloton/` (IMG_0414 à IMG_0442, `raw/` *gitignored*, immuable — §II). Transcrit par
+**lecture directe** des images : l'OCR (`tesseract -l fra`) a été essayé puis écarté
+— sur une double page il lit en travers des deux pages, mélange les colonnes et
+détruit les diacritiques de la translittération, donc inutilisable pour une source
+(Cmd 5).
+
+**CRÉÉ**, en source convertie sous `textes/` (PRO-08), donc sans Sceau, cible
+d'aucun wikilink et ne levant aucun `to-source` :
+
+- `textes/une-approche-du-coran-gloton/corps-du-texte.md` — 44 blocs de page,
+  **pp. 17-77** : abréviations, tableau de l'alphabet, l'*Introduction* entière,
+  les termes grammaticaux, et la section **A — Graphisme et phonétique** des
+  repères **Aa** à **Ah**.
+- `textes/une-approche-du-coran-gloton/table-des-matieres.md` — sommaire pp. 9-10,
+  pièce strictement documentaire et d'orientation (§VII.1).
+
+**Trois lacunes du lot** déclarées dans la pièce et non comblées : IMG_0418 absent
+de la séquence (pp. 19-30) ; pp. 59-60 non photographiées — établi par deux indices
+concordants, le décalque au dos de la p. 62 et le sommaire qui annonce *II —
+Grammaire* p. 59 ; p. 63 non photographiée. Les colonnes non textuelles et la
+grille de catégories illisible des pp. 68-69 sont signalées sur place comme **non
+restituées**, avec la raison, plutôt que reconstituées de force.
+
+**Incident de manipulation, signalé sans être masqué (§VIII.2).** Une correction du
+tableau de la p. 64 par script a ancré son `index()` sur le premier tableau de même
+en-tête — celui de la p. 18 — et a supprimé les 1 600 lignes intermédiaires (blocs
+pp. 31 à 62), avant tout commit. Récupération intégrale depuis le journal de session,
+qui conserve chaque commande d'ajout : les 17 blocs ont été réextraits de leurs
+heredocs d'origine et réinsérés, le décompte de blocs vérifié (44) et le fichier
+recontrôlé. Rien n'est perdu. **Leçon retenue** : un `index()` non ancré sur un motif
+unique n'est pas un outil d'édition sûr sur un fichier à sections répétées.
+
+Fiche [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] complétée d'une
+section sur cette transcription (`updated` remonté, Cmd 8) ; index mis à jour ;
+graphe régénéré.
+Cmd 15 (caractères Unicode invisibles) : 0 occurrence.
+`verifier-invariants.py` : **0 erreur, 0 avertissement sur 1355 fichiers**.
+
+- **Commit** : 2b2d647
+
 
 ## [2026-09-02] archivage | DOC-07 — second lien entrant, depuis Ibn ʿArabī
 
@@ -4005,5 +4363,135 @@ Photographies déposées par Sidy (Ibn ʿArabī, *De la mort à la résurrection
   4. Article Part 1 d'un dyptique — le Part 2 (annoncé, non disponible) théoriserait systématiquement l'islamofuturisme. Ingest incomplet, documenté.
 - **Ciblage de liens** : [[doctrinal/symboles/barzakh]], [[doctrinal/symboles/alam-al-mithal]] — signalés comme cibles de cross-link, non modifiés (pas d'enrichissement doctrinal depuis une source descriptive non doctrinale).
 - **Étanchéité** : fiches tenues hors doctrinal/discernement/ ; aucune adoption doctrinale ; aucune prétention métaphysique dans la fiche d'expression.
+
+---
+
+## 2026-09-04 — INTÉGRATION : *The Sabri Ben Rommane's Theory*
+
+- **Opération** : INTÉGRATION (source convertie + fiche source + discernement)
+- **Source brute** : `raw/The Sabri Ben Rommane's Theory/` — 42 captures d'écran
+  (IMG_0443 → IMG_0486) d'un entretien vidéo **Blogging Theology** (hôte : Paul
+  Williams). Lien communiqué par Sidy en cours de session :
+  `https://youtu.be/-8P-D_agsdc` — la consultation automatique a été refusée par
+  une page anti-robot ; **les métadonnées ont été fournies par Sidy le même jour**
+  et inscrites à la fiche : *Did the Qur'an Hide a Secret Algorithm for 1400
+  Years?*, chaîne **Blogging Theology**, mise en ligne le **2 mai 2026**. La bande
+  elle-même n'a pas été visionnée par la machine — la fiche repose sur les
+  captures. `raw/` non modifié.
+- **Auteur** : Sabri B. Rommane
+- **Créé** :
+  - `textes/sabri-ben-rommane-theory/corps-du-texte.md` — transcription des **41
+    diapositives distinctes** (42 fichiers − 1 doublon), par lecture directe (PRO-08, sans Sceau)
+  - `doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat.md` —
+    `status: academique` (verdict Sidy)
+  - `doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite.md` —
+    `status: speculatif`, ouvert **sur verdict exprès de Sidy** (« Fiche
+    Discernement à rédiger »), contre la recommandation de la machine — qui avait
+    argué que le genre `discernement` vise les spéculations propres de
+    l'utilisateur. Le verdict tranche : c'est bien la reprise à son compte qui
+    fait entrer la matière dans le genre.
+  - `atelier/rd/outillage/verifier-recursion-qaf.py` et sa spécification —
+    *scripter le déterministe*
+- **Verdict de Sidy sur le plan présenté** : « Academique, garde textes/, et les
+  deux cross_links proposés. Fiche Discernement à rédiger ». Les deux
+  `cross_links` (ilm-al-huruf et gloton-approche-coran-grammaire-lexique) sont
+  donc **inscrits**, non plus proposés.
+- **Diagnostic territorial (grille des trois territoires, 2026-08-11)** :
+  **Doctrine** pour la fiche source (fait de structure établi et sourçable) ;
+  **Discernement** pour la portée métaphysique (dossier ouvert, non tranché) ;
+  **R&D** pour l'outil de contrôle. Les trois volets sont tenus séparés.
+- **Signalements doctrinaux** :
+  1. **Contradiction interne au diaporama.** La règle énoncée (« Hamza = terminal
+     node », IMG_0445 / IMG_0479) donne la série 3, 9, 25, 67, **179**. La série
+     publiée (IMG_0480) est 3, 8, 21, 56, **151**, qui exige que la hamza ne soit
+     **jamais émise**. L'exemple travaillé par l'auteur lui-même (IMG_0446 :
+     ق ا ف ا ل ف ف ا, huit lettres, aucune hamza) suit la règle **opérante**, pas
+     la règle **énoncée**.
+  2. **Résultat reproduit.** Sous la règle opérante, le découpage publié suit
+     exactement : motif `[3,3,2,3,3,2,2,3,3,3,2,3,3,3,2,3,2]` identique terme à
+     terme, somme **45** sans troncature, **et suite des lettres-parents
+     identique** aux étiquettes des diapositives de groupe. Le constat 1 porte sur
+     l'énoncé de la règle, pas sur l'arithmétique du découpage.
+  3. **Légende fautive, IMG_0447** : *Alif* et *Fā* figurent chacun dans les deux
+     colonnes de longueur. Sans effet sur le motif publié.
+  4. **Incertitude de lecture consignée sans être tranchée** : la vignette
+     d'IMG_0446 se lit « 131 » à la résolution disponible ; IMG_0480 et IMG_0481
+     donnent **151** ; le calcul donne **151**. Les trois observations sont
+     enregistrées ; **aucune coquille n'est affirmée** sur une image non relisible.
+  5. **Lacunes du lot** : IMG_0456 et IMG_0471 absents ; IMG_0474 et IMG_0475 sont
+     deux captures d'une même diapositive ; anomalie d'ordre entre IMG_0457 (qui
+     récapitule le Groupe 6) et IMG_0458 (qui l'expose). Signalées sur place, non
+     comblées.
+  6. **Contrôle lexical par Gloton — portée bornée.** L'auteur invoque « school of
+     thought of arabic grammar » sans la nommer. Gloton atteste qu'une telle
+     position existe (hamza sans valeur numérique, alphabet compté à 28, al-Khalîl
+     et Blachère, *hamzat al-waṣl* qui « ne s'écrit ni ne se prononce » en
+     liaison). Cela **borne** la plausibilité de la règle opérante ; cela ne
+     **fournit pas** la référence manquante.
+  7. **Double ancrage signalé** sur le discernement : filiation orthodoxe
+     (ilm-al-huruf) **et** parenté hétérodoxe (technologisation-pseudo-scientifique).
+     Signal de vigilance appelant l'arbitrage humain, jamais porte automatique.
+  8. **Non-lien délibéré** : Sūrat Qāf ≠ Mont Qāf cosmologique. Le dépôt avait
+     déjà tranché ce refus le 2026-08-30 (fiche *khafḍ/rafʿ*, « rejet explicite du
+     rapprochement ق-lettre / Jabal Qāf comme coïncidence nominale »).
+  9. **Déséquilibre déclaré** : **aucune page sur les *muqaṭṭaʿāt* n'existe au
+     dépôt**. La matière est entrée par une source `academique` avant d'avoir été
+     instruite du côté traditionnel. Signalé, non corrigé de force.
+  10. **Condition de l'auteur non remplie** : « Only three surahs tested […] Need
+      peer-review » (IMG_0485), « if confirmed » (IMG_0461). Toute la charge
+      argumentative d'IMG_0478 à IMG_0484 repose sur cette condition.
+- **Graphe** : régénéré (`generer-cartographie.py`). Fiche source : **2 liens
+  entrants** — non orpheline. Discernement : **0 lien entrant**, ce qui est ici
+  **conforme** et non un défaut : l'étanchéité inversée interdit à une page
+  orthodoxe de pointer vers un discernement non tranché. Le catalogue
+  (`doctrinal/index.md`) est hors périmètre du graphe et référence les deux fiches.
+
+**Rectification en cours de session (avant clôture)** : le compte de diapositives
+distinctes, d'abord porté à 39 dans les trois pièces, était faux — il soustrayait des
+42 fichiers les deux fichiers **absents**, qui n'y ont jamais figuré. Le compte exact
+est **41** (42 − 1 doublon IMG_0474/0475), conforme aux 41 sections de la
+transcription. Corrigé dans `textes/`, dans la fiche source et ici. Aucun contrôle
+automatique n'attrape une erreur de compte en prose : `sources_count` seul est vérifié.
+
+**Contrôle des liens — matière versée au pôle R&D (verdict Sidy, 2026-09-04).**
+L'épreuve §VII menée à cette intégration a mis au jour un trou de couverture de
+`verifier-invariants.py`, puis conduit à l'étendre. Cette matière est de l'outillage,
+non de la doctrine : le rapport complet — trou exact, reprise des renvois `raw/`,
+extension de C1 au cartouche, épreuve refaite, et les sept cibles non résolues en
+cours d'instruction — vit désormais dans
+`atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md`.
+Les blocs détaillés d'abord consignés ici y ont été reportés intégralement, rien
+n'est perdu (Cmd 10). Ce qu'il faut en retenir côté doctrinal : **la ligne de base
+du dépôt est passée de 0/0 à 0 erreur et 7 avertissements** à l'ouverture de
+l'épreuve — le contrôle étendu voyait ce qu'il ne voyait pas avant —, puis
+**ramenée à 0 erreur et 3 avertissements** le 2026-09-04 après correction de quatre
+des sept cibles sur verdict de Sidy (détail au cahier R&D) ; les trois restantes
+étaient doctrinales et en instruction — **elles ont été closes le 2026-09-06
+(entrée du jour), et la ligne de base est désormais à 0 erreur et 0 avertissement
+sur 1399 fichiers.** Un cartouche
+vert atteste que ses listes sont bien formées, non que tous ses liens aboutissent.
+Deux renvois de fiches doctrinales sont touchés par la reprise `raw/` :
+`doctrinal/deviations/body-types.md` (renvoi converti en chemin nu, `updated:` au
+2026-09-04).
+
+### Épreuve des contrôles (§VII) — « vert sur X, refus sur Y »
+
+- **Vert sur le dépôt vivant** : `python3 verifier-invariants.py` → **1360
+  fichiers, 0 erreur, 0 avertissement**. Le piège connu de l'auto-déclenchement
+  (`wiki-verifier-self-trip`) ne s'est **pas** produit : tous les wikilinks cités
+  dans les nouvelles fiches résolvent.
+- **Refus sur faute fabriquée** — dans **`/tmp/bac-sable-qaf/`, copie jetable
+  hors du dépôt vivant**, ligne de base ramenée à 0 erreur puis deux fautes
+  injectées dans la fiche source :
+  - `sources_count: 1` → `3` : **refus obtenu**, `[B2] … sources_count: 3 ≠ nombre
+    réel de sources (1 …)`. ✅ Contrôle vérifié.
+  - `cross_links` pointant vers `ilm-al-huruf-INEXISTANT` : **aucun refus, aucun
+    avertissement**. ⚠️ Trou de couverture réel — mais la conclusion tirée sur le
+    moment (« le script ne contrôle pas l'existence des cibles ») **était fausse et
+    a été rectifiée le jour même** : C1 contrôlait le **corps**, pas le cartouche.
+    Instruction complète, extension du contrôle et seconde épreuve : voir le
+    rapport R&D `atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md`.
+- Le dépôt vivant n'a à aucun moment porté la faute. La copie de bac à sable est
+  laissée en place (pas de suppression sèche, Cmd 10).
 
 ---

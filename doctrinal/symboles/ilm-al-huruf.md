@@ -11,8 +11,10 @@ tags:
 - al-buni
 created: 2026-06-02
 updated: 2026-09-02
-sources: []
-sources_count: 0
+sources:
+  - "[[doctrinal/sources/shams-al-maarif]]"
+  - "[[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]]"
+sources_count: 2
 cross_links:
 - '[[ahmad-al-buni]]'
 - '[[asma-al-husna]]'

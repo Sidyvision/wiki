@@ -3,8 +3,8 @@ title: "Distressor EL8 — compresseur-limiteur"
 type: materiel
 tags: [audio, compresseur, limiteur, distressor]
 created: 2026-08-18
-updated: 2026-08-18
-sources: ["[[raw/distressor_manual]]"]
+updated: 2026-09-04
+sources: ["raw/distressor_manual.pdf"]
 links: ["[[atelier/materiel/studio-principal]]"]
 ---
 

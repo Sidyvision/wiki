@@ -14,7 +14,7 @@ tags:
 sources: []
 links:
 - '[[atelier/rd/index.md]]'
-- '[[atelier/rd/infrastructure/]]'
+- '[[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]]'
 - '[[meta/protocole-archives/changelog-CLAUDE.md]]'
 ---
 

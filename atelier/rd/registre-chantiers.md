@@ -3,7 +3,7 @@ title: "Registre des chantiers — carte vivante des travaux ouverts du dépôt"
 type: registre
 tags: [atelier, rd, registre, chantiers, pilotage]
 created: 2026-09-01
-updated: 2026-09-04
+updated: 2026-09-07
 sources: []
 links:
   - "[[atelier/rd/index]]"
@@ -68,14 +68,42 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**52 chantiers ouverts** au 2026-09-04, plus 7 versés en §9 (clos ou caducs) et
-6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous
-modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
-Mis à jour le 2026-09-04 : ouverture de `INF-16` (machine d'IA locale et
+**56 lignes de chantier** au 2026-09-07 — dont **53 dans les quatre statuts
+déclarés** et 3 hors vocabulaire (voir la note ci-dessous) —, plus 7 versés en §9
+(clos ou caducs) et 6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte
+mécanique — si vous modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
+Mis à jour le 2026-09-07 : ouverture de `INF-16` (machine d'IA locale et
 développement SLM, chantier de comparaison, triptyque posé, plan en `brouillon`).
-Avant cela, le 2026-09-02 : ouverture de `BIB-03`, puis de `INS-15` — celui-ci
-passé `attente-verdict` → `en-cours` le même jour (plan visé, phases 2 et 3 faites),
-et ouverture de `DOC-06` (ingest des deux Tilak, **fait** le jour même) puis de `PRO-08`.
+Le 2026-09-06 : ouverture de `OUT-15` et `INS-01` passé `ouvert` → `en-cours`
+(transcription du ch. II de Shayegan faite dans `textes/`, relecture OCR en attente).
+
+> **Note de recomptage (2026-09-07).** Deux branches concurrentes ont été fusionnées
+> ce jour : l'une portait `OUT-15` et `DOC-08`, l'autre `INF-16`. Ni l'un ni l'autre
+> des deux totaux n'a été repris — le tableau a été **recompté depuis les lignes
+> elles-mêmes**, ligne par ligne et statut par statut, comme la règle de cette section
+> l'exige.
+>
+> Ce recomptage a mis au jour **quatre écarts antérieurs à la fusion**, tous
+> signalés et **aucun corrigé d'office** (Cmd 12) — ils ne relèvent pas de la passe
+> qui les découvre :
+>
+> 1. **`INS`** — `INS-01` est passé `en-cours` le 2026-09-06, mais la ligne du
+>    tableau portait toujours 10 `ouvert` / 1 `en-cours`. Recomptée : 9 / 2.
+> 2. **`OUT`** — 8 lignes réelles (`OUT-02` à `OUT-08`, plus `OUT-15`), quand le
+>    tableau en portait 6 puis 7. L'écart précédait l'ajout d'`OUT-15`.
+> 3. **`DOC`** — 8 lignes réelles pour 6 annoncées, et surtout **trois statuts hors
+>    du vocabulaire déclaré** par la section *Comment lire ce registre* : `DOC-06`
+>    porte `fait`, `DOC-07` porte `partiel`, `DOC-08` porte `recensé`. Aucune des
+>    quatre colonnes ne peut les accueillir : ils sont comptés à part, jamais
+>    répartis d'autorité dans une colonne qui ne les nomme pas.
+> 4. **Forme** — les lignes `DOC-06` et `DOC-07` portent 7 colonnes dans un tableau
+>    qui en déclare 4.
+>
+> **Point soumis à Sidy** : soit le vocabulaire des statuts s'élargit (`fait`,
+> `partiel`, `recensé` deviennent déclarés), soit ces trois lignes se ramènent au
+> vocabulaire existant. Tant que ce n'est pas tranché, le total des quatre colonnes
+> (53) et le nombre de lignes (56) diffèrent — et c'est l'écart lui-même qui est
+> l'information.
 
 > **Note de recomptage (2026-09-02).** Deux sessions concurrentes ont porté deux
 > totaux différents sur cette ligne — 31/3/5/9 d'un côté, 30/3/5/10 de l'autre, tous
@@ -85,14 +113,14 @@ et ouverture de `DOC-06` (ingest des deux Tilak, **fait** le jour même) puis de
 
 | Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
 |---|---|---|---|---|---|
-| `INS` Instrument | 10 | 1 | 1 | 3 | **15** |
+| `INS` Instrument | 9 | 2 | 1 | 3 | **15** |
 | `INF` Infrastructure & agents | 8 | 3 | 1 | 3 | **15** |
-| `OUT` Outillage & scripts | 5 | — | 1 | — | **6** |
+| `OUT` Outillage & scripts | 7 | — | 1 | — | **8** |
 | `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 2 | **5** |
-| `DOC` Doctrinal | 4 | 1 | — | 1 | **6** |
-| **Total** | **32** | **5** | **5** | **10** | **52** |
+| `DOC` Doctrinal | 4 | — | — | 1 | **5** (+3 hors vocabulaire) |
+| **Total** | **33** | **5** | **5** | **10** | **53** (+3 = 56 lignes) |
 
 **Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
@@ -127,7 +155,7 @@ une valeur recopiée est une valeur périmée. Il dit **où regarder**.
 
 | ID | Chantier | Statut | Prochaine action | Fiche d'origine | Triptyque | Ouvert par |
 |---|---|---|---|---|---|---|
-| INS-01 | Transcrire le ch. II de Shayegan — pièce manquante en amont de l'unification des axes | `ouvert` | transcription (poste INGEST) | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] §6 | — | fiche du 2026-08-30 |
+| INS-01 | Transcription du ch. II de Shayegan (*Les Disciplines Spirituelles*) — **faite** dans `textes/les-disciplines-spirituelles-daryush-shayegan/` | `en-cours` | relecture de la transcription OCR (artefacts de ligne signalés) | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] §6 | — | fiche du 2026-08-30, transcription 2026-08-30 |
 | INS-02 | Mode « axe unifié » + champ `echelle` dans le générateur et le prototype | `ouvert` | spécifier avant de coder | même fiche, §4.2 | [[atelier/rd/instrument/ins-02-axe-unifie/intent]] | 2026-08-30 |
 | INS-03 | Cieux planétaires ↔ *lokas* — comparaison licite jamais tentée | `ouvert` | ouvrir une fiche `discernement` dédiée (Cmd 3) | même fiche, §6 | — | 2026-08-30 |
 | INS-04 | 22 sentiers séphirothiques comme réseau de canaux rayonnant de Tiferet | `bloque` | l'arrangement des sentiers n'est pas fixé au dépôt — instruire en amont | même fiche §3.3 ; `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet` (`speculatif`) | — | 2026-08-30 |
@@ -164,7 +192,7 @@ non dépouillées dans cette passe → §8.*
 | INF-12 | Positions zodiacales 5, 8 et 12 des agents : les douze brouillons existent sur disque (2026-08-15), mais le compte-rendu de chantier les donne « non traitées, en attente de verdict » — contradiction non levée | `attente-verdict` | confronter brouillons et verdict | `atelier/rd/cahiers/brouillons-extension-zodiacale/` ; jalon du 2026-08-20, P4.9 | — | 2026-08-11 |
 | INF-13 | Scission du dépôt : le rendu de l'Instrument passe au dépôt frère `Sidyvision/instrument` (privé) — le §VII, *Règle commune des MANIFESTES*, exprimé en infrastructure plutôt qu'en discipline | `en-cours` | **clos pour l'essentiel** : dépôt frère créé, **passé public** le 2026-09-01 (verdict Sidy), `main` protégée avec `enforce_admins` actif et **épreuve réelle du refus faite**. Reste différée (Cmd 13) : l'automatisation du manifeste (PAT + workflow) — l'étage manuel fonctionne | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | 2026-09-01 |
 | INF-15 | `monitoring-archive-charte.md` n'archive que le job Studio (`41dc3e7e492c`) — le rapport quotidien Publication (`veille-referencement-investigation-08`, mandat §B, investigation documentaire) n'a aucune trace au dépôt ; une session d'INTÉGRATION ne peut traiter ses suggestions de sourcing que si Sidy les recopie à la main dans `_inbox/` | `attente-verdict` | Sidy tranche : étendre la charte au profil `publication`, ou assumer la copie manuelle | [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-09-02]` §3 | — | 2026-09-02 |
-| INF-16 | Machine d'IA locale et développement SLM — aucune capacité d'inférence locale n'existe (le serveur n'a pas de GPU), alors que la charte du pôle vise l'émancipation des intermédiaires tiers. Ouvert **comme comparaison**, sur consigne de Sidy : explorer les options (Mac Studio, Mac mini + LLM cloud, poste NVIDIA, GPU loué, GPU à l'heure, statu quo, montages étagés) jusqu'à la meilleure | `ouvert` | **étape 1** : Sidy arrête la charge de référence (lesquels des cinq usages U1–U5 comptent) — rien ne peut être comparé avant. Plan en `brouillon`, visa attendu (Cmd 6). **2026-09-04** : option E (GPU à l'heure) écartée puis **rouverte sous condition** le même jour — justifiable en complément d'un Mac Mini pour les rafales d'entraînement, jamais seule ni comme capacité permanente ; le critère de propriété né du premier verdict pèse toujours sur D, non tranché. Chantier mené **par reprises successives** (demande de Sidy) : l'état vivant et le prochain pas tiennent dans le §*Point de reprise* du `plan.md` | demande de Sidy du 2026-09-04 ; [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] §1 et §4.2 ; [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] (OUT-07, `bloque` sur cette absence même) | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]] | 2026-09-04 |
+| INF-16 | Machine d'IA locale et développement SLM — aucune capacité d'inférence locale n'existe (le serveur n'a pas de GPU), alors que la charte du pôle vise l'émancipation des intermédiaires tiers. Ouvert **comme comparaison**, sur consigne de Sidy : explorer les options (Mac Studio, Mac mini + LLM cloud, poste NVIDIA, GPU loué, GPU à l'heure, statu quo, montages étagés) jusqu'à la meilleure | `ouvert` | **étape 1** : Sidy arrête la charge de référence (lesquels des cinq usages U1–U5 comptent) — rien ne peut être comparé avant. Plan en `brouillon`, visa attendu (Cmd 6). **2026-09-07** : option E (GPU à l'heure) écartée puis **rouverte sous condition** le même jour — justifiable en complément d'un Mac Mini pour les rafales d'entraînement, jamais seule ni comme capacité permanente ; le critère de propriété né du premier verdict pèse toujours sur D, non tranché. Chantier mené **par reprises successives** (demande de Sidy) : l'état vivant et le prochain pas tiennent dans le §*Point de reprise* du `plan.md` | demande de Sidy du 2026-09-07 ; [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] §1 et §4.2 ; [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] (OUT-07, `bloque` sur cette absence même) | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]] | 2026-09-07 |
 
 ## 3. Outillage & scripts (`OUT`)
 
@@ -177,6 +205,7 @@ non dépouillées dans cette passe → §8.*
 | OUT-06 | Restes de veille Cordis : dépôt source (TS d'origine), identité du contributeur `inso1337`, nature du repo `spatiotemporal-composability-skill` | `ouvert` | scrutation complémentaire | [[atelier/rd/veille/registre]], entrée `[2026-08-18]` | 2026-08-18 |
 | OUT-07 | Speculative decoding (Tencent/AngelSpec) — matériau qualifié, **non exploitable sans GPU local** | `bloque` | rouvrir si un chantier d'inférence GPU locale est ouvert ; re-vérifier l'état du repo avant tout engagement | [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] | 2026-08-31 |
 | OUT-08 | OCR arabe — `tesseract 5 (ara)` sur *Al-Futūḥāt al-Makkiyya* (Maymaniyya, t. 1) donne un texte structurellement corrompu (pas seulement des coquilles ponctuelles ; DOC-07). À qualifier : autre moteur, prétraitement du scan, ou correction manuelle assistée | `ouvert` | deux pistes sans installation épuisées, négatives (DPI/psm, `--oem 1`) ; `spec.md` posé, verdict Sidy attendu sur la piste suivante (prétraitement, moteur alternatif ou OCR cloud — Cmd 13) avant tout `plan.md` | `_inbox/MASTER-UPDATE.md` (DOC-07 §2) ; [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent]] ; [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]] | 2026-09-02 |
+| OUT-15 | Sampling externe — mandat already present in infrastructure-veille Volet 2, never activated. Premier échantillon : skill `spatiotemporal-composability` (eSaadster) + sandbox pattern `cordis-wasm` (inso1337), réappropriation conceptuelle (license absente SPDX None). Lié à OUT-04 (applicabilité Cordis) et OUT-06 (restes veille). | `ouvert` | rapport Discord Volet 2 → verdict Sidy → session INTEGRATION | [[atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis]] ; [[atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle]] | 2026-09-05 |
 
 ## 4. Bibliothèque (`BIB`)
 
@@ -221,6 +250,7 @@ non dépouillées dans cette passe → §8.*
 | DOC-05 | Réserve résiduelle : lien explicite *wirātha* ↔ *aqtāb* non localisé dans le *Futūḥāt* ch. 36 — l'ancrage (c) de l'Instrument en dépend | `ouvert` | [[doctrinal/index]] §VII ; conséquence instrumentale en INS-11 |
 | DOC-06 | **Ingest des deux Tilak** — *The Arctic Home in the Vedas* (1903) et *The Orion* (1893). La matière était déjà CONSOMMÉE par la donnée de l'Instrument (états du soleil, aurores) sans qu'aucune page doctrinale ne la porte — c'est le défaut corrigé | `fait` | ingest fait le 2026-09-02 (5 fiches, commit `47b03c5`), **rouvert le même jour** pour une 6ᵉ fiche sur le chapitre XIII (verdict Sidy, exclusion pure remplacée par catalogage averti) ; sas vidé des reliquats (plan exécuté + doublons OCR bruts) | [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] ; [[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] ; [[doctrinal/sources/guenon-atlantide-hyperboree]] (note 3) | — | 2026-09-02 |
 | DOC-07 | **Osman Yahia, catalogue critique de l'œuvre d'Ibn ʿArabī (1964)** — versé. La **Futūḥāt al-Makkiyya, éd. Maymaniyya t. 1** (texte arabe original, `traditionnel`) est ajournée : OCR jugé structurellement corrompu, pas seulement dégradé — aucune fiche, aucune citation possible en l'état (Cmd 5) | `partiel` | Osman Yahia notice + `textes/` faits le 2026-09-02 ; Futūḥāt renvoyée à **OUT-08** (nouvel essai d'OCR avant toute décision de versement), fichier au sas conservé sur demande de Sidy | [[doctrinal/sources/osman-yahia-histoire-classification-1964]] | — | 2026-09-02 |
+| DOC-08 | **Exotérisme et ésotérisme dans l'attribution de `status`** — le verdict du 2026-09-06 sur quatre autorités a mis au jour un défaut de catégorie : `academique` était traité comme le résiduel de `traditionnel`, alors qu'il nomme une allégeance hors de la tradition. Sidy indique que la matière est « encore plus subtil que ça » et réserve le retour | `recensé` | `[[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]]` — trois registres tenus séparés (établi / lecture provisoire de la machine / réservé). Prochaine action proposée, **non faite, en attente de visa** : fiche `doctrinal/discernement/` |
 
 ## 8. À vérifier — non asserté ouvert
 

@@ -1,0 +1,145 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+Rapport complet. Voici la synthèse du pôle Studio (profil `studio`, canal #infrastructure), exécuté depuis `/root/wiki` le 2026-09-06.
+
+---
+
+# RAPPORT QUOTIDIEN — Pôle Studio (cron, 2026-09-06)
+
+## §1 — Cartographie et cohérence structurelle
+
+### 1. Graphe (generer-cartographie.py --verifier)
+```
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 552
+      doctrinal    337
+      atelier      205
+      label        10
+
+  Arêtes : 1891
+      établies    1631
+      suggérées   260
+
+  Lacunes to-source : 57
+
+  Avertissements : 138 (non bloquants)
+      lien mort      93
+      isolée         38
+      lien           4
+      compteur       3
+  Mode --verifier : aucun manifeste écrit.
+```
+
+### 2. detecter-non-tracke.py
+```
+6 fichier(s) non tracké(s), par circuit :
+
+  [atelier] 5
+    ??  atelier/rd/infrastructure/monitoring-archive/2026-09-03_41dc3e7e492c.txt
+    ??  atelier/rd/infrastructure/monitoring-archive/2026-09-04_41dc3e7e492c.txt
+    ??  atelier/rd/infrastructure/monitoring-archive/2026-09-05_41dc3e7e492c.txt
+    ??  atelier/rd/outillage/spec-verifier-recursion-qaf.md
+    ??  atelier/rd/outillage/verifier-recursion-qaf.py
+
+  [hors-circuit] 1
+    ??  _inbox/al-futuhat-al-makkiyya-maymaniya-p1.md
+```
+
+### 3. verifier-coherence-infrastructure.py (anti-fabulation)
+```
+10 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+```
+→ **0 écart**. Cohérence infra intacte.
+
+## §2 — Empreinte serveur
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   31G  5.6G  85% /
+---
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       3.0Gi       250Mi       4.0Mi       749Mi       741Mi
+Swap:          2.0Gi       782Mi       1.2Gi
+```
+Disque à 85 % (5,6 G libres) ; RAM tendue (741 Mi disponibles sur 3,7 G, 782 Mi de swap utilisés) — dans la continuité de la sensibilité mémoire déjà consignée, sans seuil critique atteint aujourd'hui.
+
+## §3 — Registre Hermes-Terminal
+
+**Bind-mounts (intégrité inodes)** — tous OK, aucune dérive :
+```
+OK  karubi-mehdi.md  canonique == monté (inode 561242)
+OK  karubi-wendel.md canonique == monté (inode 561361)
+OK  rd/cahiers == monté (inode 1184623)
+OK  doctrinal == monté (inode 517720)
+OK  _inbox == monté (inode 299497)
+```
+Fstab et points de montage actifs concordent (12 montages Mehdi/Wendel, `ro` sauf les deux `depot-ecriture/inbox` en `rw`).
+
+**Gateways** — `systemctl --user list-units 'hermes-*'` :
+```
+  hermes-gateway-gardien.service     loaded active running
+  hermes-gateway-publication.service loaded active running
+  hermes-gateway-studio.service      loaded active running
+```
+Seulement **3 unités actives** (gardien, publication, studio), **aucune en `failed`**. C'est une **amélioration nette** vs l'entrée `[2026-09-01]` du registre qui constatait 7 profils en `failed` + ar-music actif : l'état se réaligne désormais sur la décision du 2026-08-28 (3 actifs, les autres arrêtés). Le profil `commerce` reste **absent** de tout relevé (question ouverte).
+
+*Remarque de fiabilité* : les lignes « Connected as » des `gateway.log` datent toutes du 2026-08-06/07 (y compris témoignages croisés inversés — ex. gardien log affiche « Marketing »). Les logs de connexion ne sont pas fiables pour trancher la fraîcheur réelle des connexions ; je m'appuie sur l'état systemd ci-dessus, plus actuel.
+
+**_inbox/ staleness** : 2 fichiers > 3 jours
+```
+/root/wiki/_inbox/.gitkeep
+/root/wiki/_inbox/al-futuhat-al-makkiyya-maymaniya-p1.md   (4,4 Mo, daté 02-09)
+```
+Le PDF converti d'Al-Futūḥāt al-Makkiyya (partie 1) attend une intégration depuis le 02-09.
+
+## §4 — R&D — analyse engagée
+
+### Nouvelles fiches (3) — chaîne de chantier DOC-08
+
+**A. `2026-09-05_critere-discernement-statut-academique.md`** — critère reçu de Sidy pour l'attribution du `status` (académique = allégeance épistémologique, non titre ; indice = l'écart), appuyé sur quatre passages de Guénon (*La Crise du Monde Moderne*). **Déjà élevé en consigne** (`doctrinal/CLAUDE.md`, amendement 2026-09-05). Consigne méthodologique de premier ordre, `statut_experience: reproduit`.
+
+**B. `2026-09-05_releve-fiches-status-academique.md`** — relevé sans verdict des six fiches `status: academique`. Résultat net : 5/6 sans écart de la nature visée ; une seule (n°5, yaqub-chaudhary) en cas mixte faute de matière versée. **Verdicts Sidy du 06-09 déjà appliqués** (hamza-yusuf, faraz-rabbani, ali-hussain, yaqub-chaudhary → `traditionnel`). Deux questions restent **ouvertes** : la divergence afilalo/al-akili sur le rôle de traducteur, et aiman-attar (déplacée vers le couple académique/profane).
+
+**C. `2026-09-06_doc-08-exoterique-esoterique-statut.md`** — **ouverture de chantier DOC-08** en trois registres (établi / lecture machine provisoire / réservé). Ne statue rien (Cmd 12). La lecture machine sur l'articulation ẓāhir/bāṭin est jugée « juste de direction et insuffisante » par Sidy ; le registre réservé (4 questions) est **délibérément vide de contenu**.
+
+**Rapprochement registre-problemes** : l'entrée `[2026-09-04]` (C1 cartouche, 7 cibles en cours d'instruction avec Sidy) est le précurseur mécanique de ce fil ; les trois nouvelles fiches forment un **même problème continu** (attribution du statut), pas trois problèmes distincts. Aucune entrée existante ne portait ce problème comme tel → **problème nouveau, en cours d'instruction**.
+
+**Dépendances entre fiches** : A (critère) ← nourrit B (relevé, table des marques) ← nourrit C (DOC-08, registres). A et B sont **ancrés** (critère selon Sidy, relevés cités) ; C est le point d'attente : sa matière à instruire alimenterait, **le moment venu**, une fiche `doctrinal/discernement/` — **explicitement non créée** (file DOC-01 déjà à 37 speculatifs). Angle mort principal : **yaqub-chaudhary reste en cas mixte non départageable** faute de texte versé — aucun de ses travaux n'est au dépôt.
+
+**Handoffs** : matière 100 % doctrinale → **verdict Sidy uniquement** (le pôle studio ne tranche pas). Le versement d'un texte de yaqub-chaudhary relèverait du mandat **Publication §B** (sourcing) si Sidy l'ouvre. La passe d'application des verdicts déjà rendus relève d'une session **INTÉGRATION** (commit du 06-09 déjà fait : `d087749`).
+
+### 5 entrées les plus récentes du registre — état
+1. **[2026-09-02] Deux rapports Publication collés** — `resolu` (défaut `sources:` corrigé, fausse alerte close) ; seul point 3 reste `ouvert` (vérif PDF `raw/` hors portée serveur).
+2. **[2026-09-02] Reprise rapports** — `resolu` (écart gardien corrigé).
+3. **[2026-09-01] ouvert | Profil `commerce` absent** — **toujours `ouvert`** : toujours absent du relevé systemd (non instruit). *PROPOSITION de diagnostic direct pour une session avec accès serveur* : `systemctl --user status hermes-gateway-commerce`, présence de l'unit et du profil.
+4. **[2026-09-01] ouvert | Gateways en `failed` vs décision 08-28** — **état amélioré aujourd'hui** : plus aucune unité en `failed`, 3 actives conformes à la décision. À réévaluer en `resolu`/`reporte` prochainement si l'état se maintient.
+5. **[2026-09-01] Une porte gardée (PRO-01, contrôle lint)** — `resolu` (lint corrigé, épreuve passée).
+
+### 3-5 pistes prioritaires (PROPOSITIONS)
+1. **PROPOSITION — Trancher les deux questions ouvertes du relevé** (afilalo vs al-akili ; aiman-attar académique/profane) : relèvent de Sidy seul (Cmd 12/13). La machine tient les dossiers prêts, aucun verdict n'est préempté.
+2. **PROPOSITION — Versement du texte de yaqub-chaudhary** (angle mort épinglé) pour départager le cas mixte : piste à ouvrir au mandat Publication §B, sur décision Sidy.
+3. **PROPOSITION — Diagnostic du profil `commerce`** (absent) lors de la prochaine session INTÉGRATION à accès serveur — vérification directe non actionnable d'ici.
+4. **PROPOSITION — Anomalie de forme `sources_count` comptant `to-source` comme source** (relevé §6) : examen sur l'ensemble des fiches, hors statut, à planifier.
+
+## §5 — Suggestions transversales
+1. **PROPOSITION — Intégrer les 5 fichiers non trackés du circuit atelier** : les 3 rapports d'archive monitoring (09-03/04/05) et le binôme `spec-`+`verifier-recursion-qaf.py` issus de l'intégration Sabri Ben Rommane (09-04) sont restés non commités. Ils constituent la trace du job quotidien et une pièce d'outillage ; leur absence au dépôt affaiblit l'audit.
+2. **PROPOSITION — Intégrer `_inbox/al-futuhat-al-makkiyya-maymaniya-p1.md`** (4,4 Mo, daté 02-09, >3 jours en sas) — conversion longue du corpus Ibn ʿArabī qui n'attend que l'intégration.
+3. **PROPOSITION — Surveillance mémoire** : RAM tendue (≈741 Mi disponibles) dans un contexte de sensibilité déjà documentée (incident 08-28). Aucune action requise aujourd'hui ; à garder à l'œil, la tenue à 3 gateways seulement aide.
+
+---
+*Contrôle anti-fabulation* : toutes les sorties de scripts sont collées verbatim, non reformulées. Pas d'écriture au dépôt (aucune autorisation de cette session cron) ; signalement pur. Rien ne relève du périmètre Studio sonore aujourd'hui (aucune fiche ingénierie nouvelle).
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

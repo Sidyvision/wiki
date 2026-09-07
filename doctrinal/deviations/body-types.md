@@ -10,9 +10,9 @@ tags:
 - deviation
 - herbalism
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-09-04
 sources:
-- '[[raw/Body_Types_Book.pdf]]'
+- 'raw/Body_Types_Book.pdf'
 sources_count: 1
 cross_links:
 - '[[morphopsychologie]]'

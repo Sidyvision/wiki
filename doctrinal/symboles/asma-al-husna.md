@@ -11,8 +11,9 @@ tags:
 - al-buni
 created: 2026-06-02
 updated: 2026-09-02
-sources: []
-sources_count: 0
+sources:
+  - "[[doctrinal/sources/shams-al-maarif]]"
+sources_count: 1
 cross_links:
 - '[[ahmad-al-buni]]'
 - '[[ilm-al-huruf]]'

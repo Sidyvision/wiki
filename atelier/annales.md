@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-04
+updated: 2026-09-07
 ---
 
 # Annales de l'Atelier
@@ -9,7 +9,7 @@ updated: 2026-09-04
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
-## [2026-09-04] chantier | INF-16 — le GPU loué rouvert sous condition, et le chantier mis en veille consultable
+## [2026-09-07] chantier | INF-16 — le GPU loué rouvert sous condition, et le chantier mis en veille consultable
 
 Sidy revient le même jour sur le verdict consigné quelques heures plus tôt :
 « il y avait quelque chose que je n'avais pas tout à fait compris concernant
@@ -56,7 +56,7 @@ le relevé des prix et celui du coût récurrent réel de la couche modèle actu
 - **Commit** : 3d09ea1
 
 
-## [2026-09-04] chantier | INF-16 — le GPU loué écarté : un critère de propriété entre dans la comparaison
+## [2026-09-07] chantier | INF-16 — le GPU loué écarté : un critère de propriété entre dans la comparaison
 
 Le `to-source` ouvert quelques heures plus tôt est levé par Sidy en session. Le
 motif de la suspension des containers GPU cloud tient en trois points :
@@ -97,7 +97,7 @@ laisse rien.
 - **Commit** : 7673053
 
 
-## [2026-09-04] chantier | INF-16 — ouverture d'un chantier de comparaison pour la machine d'IA locale et le développement SLM
+## [2026-09-07] chantier | INF-16 — ouverture d'un chantier de comparaison pour la machine d'IA locale et le développement SLM
 
 Sidy s'intéresse à la nouvelle gamme Mac Studio, puis formule une hypothèse
 propre : héberger le SLM en local sur un Mac mini et garder l'accès au LLM par
@@ -161,6 +161,240 @@ contrôles).
 - **Commit** : 81dc622
 
 
+
+## [2026-09-06] rd | Traitement des suggestions Publication (4 derniers jours) — corrections frontmatter, convention textes/, correction §VI
+
+- **Action** — traitement des suggestions récurrentes des rapports Publication du 2026-09-03 au 2026-09-06 (profil `publication`, job `veille-referencement-investigation-08`) :
+  1. **Corrections frontmatter** (4 fiches avec `sources:` nu → `sources: []`) : `doctrinal/sources/mawlid-al-rasul.md`, `doctrinal/autorites/imam-malik.md`, `doctrinal/traditions/madhhab-maliki.md`. La 4e fiche signalée (`doctrinal/autorites/ibn-sirin.md`) avait déjà été corrigée le 2026-09-05.
+  2. **Renseignement sources** (2 fiches autorités akbariennes) : `doctrinal/autorites/charles-andre-gilis.md` (4 sources : `sept-etendards-califat`, `gilis-ordo-ab-chao`, `ibn-arabi-fard-afrad-gilis`, `valsan-investiture-cheikh-al-akbar`) et `doctrinal/autorites/michel-valsan.md` (2 sources : `sept-etendards-califat`, `valsan-investiture-cheikh-al-akbar`).
+  3. **Correction anomalies sources_count** (2 fiches symboles) : `doctrinal/symboles/asma-al-husna.md` (1 source : `shams-al-maarif`) et `doctrinal/symboles/ilm-al-huruf.md` (2 sources : `shams-al-maarif`, `jesus-and-enoch-in-ibn-arabi`). Les fiches citaient ces sources dans le corps mais déclaraient `sources: []` dans le frontmatter.
+  4. **Suppression données personnelles** : retrait des numéros de téléphone du traducteur dans `doctrinal/sources/shams-al-maarif.md` (lignes 34, 38). Ces données étaient dans une fiche `type: source` du circuit neutre `doctrinal/` — violation §VI.
+  5. **Correction §VI dans doctrinal/index.md** : suppression du lien `[[hermeneutique/hunter-x-hunter/nen-systeme]]` (doctrinal → hermeneutique, sens interdit) et retrait du wikilink `[[label/production/album-personnel|...]]` (doctrinal → label, sens interdit). Les descriptions textuelles sont conservées.
+  6. **Correction §VI dans 2 fiches discernement** : `doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md` (suppression wikilink `[[meta/philosophie-sashimono]]` du frontmatter) et `doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique.md` (suppression wikilink `[[hermeneutique/hunter-x-hunter/nen-systeme]]`).
+  7. **Convention textes/ → doctrinal/** : création de `[[atelier/rd/infrastructure/convention-textes-references-doctrinales]]` qui définit le champ optionnel `texte_converti:` dans le frontmatter des fiches `doctrinal/sources/`. Ce champ contient un chemin texte clair (pas un wikilink) vers un fichier dans `textes/`, permettant la traçabilité sans violer §VI (n'est pas dans `sources:` ni `cross_links:`, pas contrôlé par `verifier-invariants.py`, pas d'arête dans le graphe).
+  8. **Mise à jour registre des chantiers** : INS-01 passé `ouvert` → `en-cours` (transcription du ch. II de Shayegan faite dans `textes/les-disciplines-spirituelles-daryush-shayegan/`, relecture OCR en attente). Mise à jour de la fiche projet `2026-08-30_reseau-subtil-unification-axes-deux-echelles.md` pour refléter que la pièce manquante est maintenant disponible.
+- **Portée** — corrections frontmatter (8 fiches modifiées), suppression données personnelles (1 fiche), correction §VI (3 fiches), création convention (1 fiche nouvelle), mise à jour registre chantiers (1 fiche), mise à jour fiche projet (1 fiche).
+- **Vérification** — `verifier-invariants.py` : 0 erreur, 0 avertissement.
+- **Commit** : e45766d (suggestions Publication), 5d49ee9 (registre INS-01), 66587ee (§VI + convention)
+
+## [2026-09-06] rd | Désactivation de la protection de branche `main` et bascule GitHub Pages en mode workflow
+
+- **Action** — à la demande de Sidy, deux paramétrages GitHub appliqués au dépôt
+  `Sidyvision/wiki` et consignés en fiche infrastructure
+  (`[[atelier/rd/infrastructure/2026-09-06_desactivation-protection-branche-main-et-pages-workflow]]`) :
+  1. **Protection de branche `main` supprimée** (DELETE `/branches/main/protection`,
+     HTTP 204, vérifié 404 « Branch not protected ») — levait le status check
+     obligatoire `lint` et la revue de PR requise qui bloquaient des sessions au
+     commit/push et perturbaient l'arbre de travail.
+  2. **GitHub Pages basculé de `legacy` (Jekyll) vers `workflow`** (PUT
+     `/pages` avec `build_type=workflow`, HTTP 204, vérifié `build_type: workflow`)
+     — élimine le build Jekyll fantôme du workflow système `pages-build-deployment`
+     (en échec chronique « Build with Jekyll ») qui doublonnait `pages.yml` (MkDocs,
+     en réussite).
+- **Portée** — paramétrage côté GitHub uniquement, aucun fichier du dépôt modifié
+  par ces deux actions elles-mêmes.
+- **Ce qui reste à vérifier** — au prochain push sur `main` : `pages-build-deployment`
+  ne doit plus apparaître/échouer, et `Deploy Wiki to GitHub Pages` (pages.yml) doit
+  continuer de réussir, site publié sur https://sidyvision.github.io/wiki/.
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` : voir la
+  passe de contrôle du jour ; la présente fiche est neuve, aucun invariant structural
+  touché.
+- **Commit** : 0027fb0
+
+## [2026-09-06] rd | Clôture des questions 1, 3 et 4 du relevé `status: academique`, et anomalie de forme au registre
+
+- **Action** — dans `[[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]]`,
+  section `## Suites`, les questions 1, 3 et 4 deviennent des constats datés
+  « Fait le 2026-09-06 », renvoyant au cahier DOC-08. Le verdict de Sidy y a
+  répondu : les quatre autorités nommées passent en `traditionnel`. `updated:`
+  remonté au 2026-09-06 (Cmd 8).
+- **Ce qui reste ouvert** — les questions 2 (`raphael-afilalo`) et 5
+  (`aiman-attar`). Ces deux fiches n'étaient pas nommées au verdict et conservent
+  `status: academique`. Le silence n'est pas une confirmation : la question est
+  portée à Sidy, elle n'est pas tranchée ici (Cmd 12).
+- **Inchangé** — les constats 1 à 6 du relevé lui-même. Un document daté consigne
+  ce qu'il a trouvé au jour où il l'a trouvé ; il ne se réécrit pas à la lumière
+  d'un verdict postérieur.
+- **Anomalie rapportée, non corrigée (Action VIGILANCE)** — au §7 de
+  `[[atelier/rd/registre-chantiers]]`, l'en-tête de la table `DOC-` compte quatre
+  colonnes, et les lignes DOC-01 à DOC-05 ainsi que DOC-08 s'y conforment. **Les
+  lignes DOC-06 et DOC-07 portent huit barres verticales, soit sept colonnes** :
+  elles excèdent l'en-tête, et un moteur de rendu Markdown écarte silencieusement
+  les cellules au-delà. L'anomalie est antérieure à cette passe. `verifier-invariants.py`
+  ne contrôle pas l'arité des tables Markdown : sa sortie verte n'est aucune
+  garantie sur ce point. Correction non faite, en attente de verdict (Cmd 12).
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` :
+  `1400 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que .gitignore exclut
+  n'est pas contrôlé). / 0 erreur(s), 0 avertissement(s).` Graphe régénéré
+  (commit `c3bfd6f`) : seul le champ `updated` du cahier de relevé change, aucun
+  nœud ni arête.
+- **Commit** : f3db8d3
+
+## [2026-09-06] rd | Ouverture du chantier DOC-08 — exotérisme/ésotérisme et attribution de `status`
+
+- **Action** — chantier `DOC-08` ouvert au statut `recensé` dans
+  `[[atelier/rd/registre-chantiers]]` §7, instruit dans
+  `[[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]]`. Ouvert
+  sur autorisation de Sidy (« un excellent chantier à ouvrir convenablement… je te
+  laisse rédiger »).
+- **Origine** — le verdict du 2026-09-06 sur quatre autorités a mis au jour un défaut
+  de catégorie et non une erreur d'appréciation : le dépôt traitait `academique`
+  comme le **résiduel** de `traditionnel`, y faisant tomber un savant faute de
+  *silsila*. Or `academique` nomme une allégeance **hors** de la tradition.
+- **Forme** — pas de triptyque `intent`/`spec`/`plan` : `atelier/CLAUDE.md` le réserve
+  au chantier **d'ingénierie** du pôle `rd/`. Forme retenue : cahier, comme les deux
+  documents qui précèdent sur le même fil.
+- **Méthode — trois registres tenus séparés** : (1) l'**établi**, qui ne tient que par
+  visa humain ; (2) la **lecture provisoire de la machine**, datée et étiquetée comme
+  telle, sans visa ; (3) le **réservé**, laissé délibérément vide de contenu et réduit
+  à quatre questions ouvertes. Sidy a jugé la lecture juste de direction et
+  **insuffisante** — « encore plus subtil que ça », « des notions sur lesquelles nous
+  aurons à revenir » : la machine ne comble pas cette réserve par une reconstruction
+  plausible (Cmd 12).
+- **Ce qui n'a pas été fait** — aucune fiche `doctrinal/discernement/` créée : elle est
+  **proposée en prochaine action, en attente de visa**, DOC-01 recensant déjà 37 fiches
+  de discernement en attente de verdict.
+- **Étanchéité** — les renvois du cahier vers `doctrinal/` sont sens unique et signalés
+  ; aucune page doctrinale ne mentionne le cahier ni la chaîne `DOC-08` (§VI).
+- **Graphe** — `generer-cartographie.py` relancé après écriture doctrinale (§VII) :
+  138 avertissements non bloquants, préexistants. Les quatre fiches touchées ne sont
+  pas orphelines (2 à 4 liens entrants chacune) ; aucun lien proposé ni inscrit.
+- **Vérification** — `python3 verifier-invariants.py --racine /root/wiki` :
+  `1400 fichier(s) .md contrôlé(s) — 0 erreur(s), 0 avertissement(s)`. Cmd 15 : propre.
+  `updated:` du registre porté au 2026-09-06 (Cmd 8).
+- **Commit** : `68de555` (chantier + graphe) ; `41cea73` et `0ab2016` côté `doctrinal/`.
+
+## [2026-09-06] rd | Relevé des six fiches `status: academique` de `doctrinal/autorites/`
+
+*Cahier rédigé le 2026-09-05, vérifié et commité le 2026-09-06 — l'entrée porte la
+date du commit qu'elle décrit (Cmd 9).*
+
+- **Action** : ouverture et conduite, sur ordre de Sidy, de la passe de relevé
+  annoncée en suites du cahier
+  `[[atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique]]`.
+  Nouveau cahier
+  `[[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]]` (169 lignes,
+  `statut_experience: exploratoire`) : pour chacune des six fiches, relevé des
+  **écarts effectifs** au sens de l'amendement du 2026-09-05 à
+  `doctrinal/CLAUDE.md`, dans ce que le dépôt cite d'elle et rien d'autre.
+- **Méthode** : le titre universitaire, l'affiliation, l'éditeur et la revue sont
+  explicitement écartés comme n'étant pas des écarts — la consigne pose
+  l'allégeance épistémologique, non la position institutionnelle.
+- **Résultat** : cinq fiches sur six ne portent **aucun écart** du type décrit
+  (`hamza-yusuf` faute de matière citée, `faraz-rabbani`, `raphael-afilalo` et
+  `ali-hussain` aucun, ce dernier portant des marques inverses) ;
+  `yaqub-chaudhary` est le seul cas mixte, indécidable en l'état, rien de lui
+  n'étant versé au dépôt. `aiman-attar` porte un écart réel, mais qui déplace la
+  question du couple `academique`/`traditionnel` vers `academique`/`profane` : sa
+  seule source au dépôt, `doctrinal/deviations/body-types.md`, est classée
+  `profane` — la fiche autorité est la seule des six dont la source est classée
+  plus sévèrement qu'elle.
+- **Incohérences de dossier signalées, non corrigées** : le motif de
+  `faraz-rabbani` (« non saint autorisé, *walī* avec *silsila* établie ») fait de
+  `academique` un défaut résiduel, ce que la consigne interdit désormais ; et
+  `raphael-afilalo` porte `academique` quand son propre ouvrage,
+  `doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations.md`, porte
+  `traditionnel` — configuration que Sidy a tranchée le même jour sur Al-Akili,
+  « sur l'homme comme sur son ouvrage ».
+- **Ce qui n'a pas été fait** : aucune valeur de `status` modifiée — y compris sur
+  `hamza-yusuf` et `faraz-rabbani`, dont Sidy a rendu le verdict le 2026-09-05,
+  l'écriture attendant un visa (§VIII.1, Cmd 13) ; aucun `cross_link` touché ;
+  aucune fiche ouverte pour Mahmoud Ayoub. Six questions restent portées à Sidy
+  en section `## Suites` du cahier.
+- **Vérification des citations** : les cinq attributions verbatim du relevé
+  (`hamza-yusuf` `sources: ["to-source"]` / `sources_count: 1`, le motif *walī*
+  de `faraz-rabbani`, le motif « médiateur, non primaire » de `raphael-afilalo`,
+  la phrase « s'efforce d'expérimenter les œuvres d'Ibn ʿArabī plutôt que de les
+  réduire à un objet d'étude académique » d'`ali-hussain`, et « d'abord un
+  problème métaphysique islamique » de `yaqub-chaudhary`) ont été recontrôlées
+  une à une par `grep` contre leur fiche avant commit (§VIII.2), la première
+  lecture groupée ayant été tronquée.
+- **Étanchéité** : les liens du cahier vers `doctrinal/` sont à sens unique et
+  signalés (§VI) ; aucune fiche doctrinale ne pointe vers lui.
+- **Changelog du protocole** : aucune entrée due dans
+  `meta/protocole-archives/changelog-CLAUDE.md` — ce fichier ne suit que les
+  révisions du **protocole racine**, et l'amendement du 2026-09-05 porte sur
+  `doctrinal/CLAUDE.md`, journalisé dans `doctrinal/annales.md`. Contrôle fait
+  sur le précédent du 2026-07-28 (`type: deviation`), lui non plus absent du
+  changelog.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` →
+  `1399 fichier(s) .md contrôlé(s)` — `0 erreur(s), 0 avertissement(s)`. Cmd 15 :
+  propre sur les deux cahiers.
+- **Commit** : c51ee7e
+
+## [2026-09-06] rd | Cahier de contrôle clos + rectification d'attribution au catalogue
+
+- **Action** : clôture de `atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md`. Les trois dernières cibles `[C1]` — celles-là mêmes signalées comme « les trois avertissements connus » dans l'entrée du 2026-09-05 — sont instruites et closes sur verdict de Sidy. Le §6 passe de `⏳ en instruction` à `✅ corrigé` sur les lignes 5, 6 et 7 ; le §7 reçoit trois blocs **Issue (2026-09-06)**, un par cas. Le texte d'instruction du 2026-09-04 est **conservé verbatim** en dessous (Cmd 5) : l'issue s'ajoute, elle n'écrase pas.
+- **Catalogue** : rectification d'attribution portée à `atelier/rd/bibliotheque/catalogue-bibliotheque.md`. *Principes et méthodes de l'art sacré* était inscrit au crédit de **Coomaraswamy** ; l'ouvrage est de **Titus Burckhardt** (Dervy). Le titre est retiré de la liste Coomaraswamy avec un renvoi daté vers la section Burckhardt du §IV, où une entrée est ajoutée en **❌ non détenu** — entrée conservée pour l'orientation, non pour la possession. Rectification avec trace aux deux endroits, jamais par effacement.
+- **Réserve consignée, non levée** : Sidy suppose l'ouvrage cité par Coomaraswamy dans *La Porte du ciel*. La filiation se heurte à une contrainte de datation — Coomaraswamy meurt en 1947, l'ouvrage de Burckhardt paraît en 1958. L'hypothèse est portée au dossier comme **non vérifiée**, sur consigne explicite (« on verra ça plus tard »). Le cahier ne la tranche pas.
+- **Étanchéité** : les liens de ce cahier vers `doctrinal/` restent à sens unique. La création de la fiche source Guénon ch. XIV et les corrections des deux fiches discernement relèvent du circuit doctrinal et sont consignées à `doctrinal/annales.md` (entrée du 2026-09-06), non ici.
+- **Vérification** : `python3 verifier-invariants.py` → `1399 fichier(s) .md contrôlé(s) — 0 erreur(s), 0 avertissement(s).` La ligne de base du dépôt passe de 0/3 à **0/0** ; les trois avertissements que l'entrée du 2026-09-05 déclarait « antérieurs et étrangers à cette passe » n'existent plus.
+- **Commit** : fd0cd8a
+
+## [2026-09-05] rd | Cahier — critère de discernement pour l'attribution du `status`
+
+- **Action** : ouverture de `atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique.md` (`type: experience`, `statut_experience: reproduit`, 194 lignes). Consigne le critère énoncé par Sidy le 2026-09-05 — la démarche académique occidentale moderne étant structurellement biaisée, `academique` qualifie une **allégeance épistémologique**, non une position institutionnelle ; discerner entre les agents de cette démarche et les acteurs traditionnels qui investissent l'institution pour opérer un redressement depuis l'intérieur.
+- **Fait déclencheur** : la machine avait cherché à fixer le `status` d'Al-Akili en s'alignant sur le précédent du dossier `doctrinal/autorites/`. Sidy a corrigé — « Hamza Yusuf et Faraz Rabbani sont des figures traditionnelles » : le précédent invoqué ne documentait pas une règle mais un classement erroné. Erreur de méthode consignée, rapprochée de l'incident du 2026-09-03 (motif du corpus pris pour règle du corpus).
+- **Appui doctrinal** : quatre passages de Guénon relevés dans `textes/la-crise-du-monde-moderne/` sur l'apologétique — position défensive, registre de l'excuse, doctrine mise sur le même plan qu'une théorie moderne, accord recherché avec la science moderne (« travail parfaitement illusoire et toujours à refaire »). Contre-épreuve du même texte : « on peut se dire "traditionaliste" sans avoir la moindre notion du véritable esprit traditionnel ». Table de six marques observables tirée de ces passages.
+- **Catalogue** : *Orient et Occident* (Guénon, 1924) porté à la section René Guénon de `atelier/rd/bibliotheque/catalogue-bibliotheque.md` — **en possession, non converti**, signalé par Sidy comme le complément le plus instructif de *La Crise*. Vérification préalable faite (absent du catalogue, de `textes/` et de `raw/`) conformément à la discipline des sources, §VII point 1.
+- **Étanchéité** : liens vers `doctrinal/` à sens unique et signalés en tête de fiche (§VI). Le sens inverse reste interdit — la consigne doctrinale issue de ce cahier ne le cite pas.
+- **Suite** : critère porté en consigne dans `doctrinal/CLAUDE.md` sur verdict de Sidy du 2026-09-05 (entrée propre aux annales doctrinales). Passe de relevé ouverte sur les six fiches `status: academique` de `doctrinal/autorites/`.
+- **Vérification** : `python3 verifier-invariants.py --racine /root/wiki` → `0 erreur(s), 3 avertissement(s)` (les trois `[C1]` connus, antérieurs et étrangers à cette passe). Cmd 15 : propre.
+- **Commit** : 2d3d531
+## [2026-09-05] outillage | Script de conversion Ibn Seerin's Dictionary of Dreams
+
+- **Action** : Dépôt du script reproductible `atelier/rd/outillage/convertir-ibnsirin-dictionnaire-reves.py` — conversion du PDF `raw/IbnSirin_dictionary_of_dreams.pdf` (552 pages, OCR anglais Adobe Paper Capture) vers `textes/ibn-sirin-dictionary-of-dreams/` (30 fichiers : front matter, A-Z, index, bibliographie).
+- **Chaîne** : extraction pymupdf page par page, découpage par section lettre, conservation des marqueurs `<!-- page N -->`.
+- **Statut** : sortie brute de machine, qualité OCR médiocre (en-têtes de pages mués en glyphes, ligatures recollées) — aide au repérage, jamais texte critique. Qualité documentée dans `textes/ibn-sirin-dictionary-of-dreams/index-conversion.md`.
+- **Intégration** : fichiers committés côté Claude Code (commit `c2abc84`, puis `bf0dad5` pour les annales). Ce script est le reproductible ajouté à l'outillage.
+- **Vérification** : `verifier-invariants.py` passe (0 erreur). Commit `7f3a9c1`.
+
+## [2026-09-05] integration | Sampling comme fonction de Studio — première fiche (OUT-15)
+
+- **Action** : Création de la fiche `atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis.md` — positionnement du *sampling* comme fonction opérationnelle de l'agent Studio via le mandat `infrastructure-veille` Volet 2, avec premier échantillon : la skill `spatiotemporal-composability` (eSaadster) et le pattern sandbox `cordis-wasm` (inso1337), tous deux Cordis, réappropriation conceptuelle imposée par l'absence de license déclarée (SPDX None).
+- **Chantier** : `OUT-15` ouvert dans `registre-chantiers.md` (statut `ouvert`).
+- **Diagnostique** : la veille Cordis (août 2026) a identifié 7 repos externes mais n'a jamais émis le rapport événementiel Discord requis par la gouvernance Discord-Validation (Volet 2). Le chaînon manquant : le passage de la piste repérée à l'échantillon validé puis consigné.
+- **Preuve** : `verifier-invariants.py` passe sans erreur (0 erreur, 3 avertissements pré-existants). Commit `9099506`.
+- **Échantillon A** : skill `spatiotemporal-composability` réappropriée et consignée dans `atelier/rd/outillage/out-15-sampling-cordis/skill-prototype/SKILL.md`. Commit `2cf63f7`. Vérifiée `verifier-invariants.py` (0 erreur).
+- **Échantillon B** : pattern sandbox `cordis-wasm` (isolation physique des composants via bind-mount) consigné dans `atelier/rd/outillage/out-15-sampling-cordis/echantillon-B-sandbox-cordis-wasm.md`. Commit `5a7e909`. Vérifiée `verifier-invariants.py` (0 erreur).
+- **Issues GitHub** : demandes de license MIT/Apache-2.0 ouvertes sur `eSaadster/spatiotemporal-composability-skill#1` et `inso1337/cordis-wasm#1`.
+- **Skill testée** : `~/.hermes/skills/spatiotemporal-composability/SKILL.md` chargée et fonctionnelle (`skill_view` OK).
+- **Prochaine étape** : rapport Discord `#infrastructure` (Volet 2) → verdict Sidy sur l'échantillon A (skill).
+- **Précautions** : réappropriation conceptuelle uniquement (pas de copie directe, license absente). Fiche créée après échec de `skill_manage` : patience nécessaire.
+
+## [2026-09-03] incident | Un `index()` non ancré détruit 1 600 lignes d'une transcription en cours
+
+Au cours de la transcription Gloton (pp. 17-77, archivée côté doctrinal), un script
+de correction du tableau de la p. 64 a ancré son `s.index()` sur un motif présent
+**deux fois** dans le fichier — le tableau de l'alphabet arabe figure identique aux
+pages 18 et 64. Le point de départ a été trouvé p. 18, le point d'arrivée p. 64 :
+le découpage a emporté l'intervalle, soit 17 blocs de page (pp. 31 à 62), 1 618
+lignes sur 2 355. **Le script s'est terminé sans erreur.**
+
+Rendu visible dans la minute par le contrôle mécanique qui suit chaque écriture
+(§VIII.2) : 737 lignes et 13 blocs contre 2 355 et 44 attendus.
+
+Récupération intégrale depuis le journal de session, qui conserve le corps de chaque
+heredoc d'ajout : 17 blocs réextraits et réinsérés, 44 blocs recomptés. Le fichier
+n'étant pas encore suivi par git, aucun `checkout` n'était possible — la récupération
+a dépendu d'un artefact extérieur au dépôt.
+
+**CRÉÉ** : `atelier/rd/incidents/2026-09-03_splice-index-non-ancre-destruction-partielle.md`
+— déroulé, méthode de récupération, quatre enseignements (ancrage unique vérifié,
+`assert` sur l'invariant, contrôle mécanique après écriture, commit intermédiaire sur
+pièce longue).
+
+**Post-scriptum, relevé en écrivant cette entrée** : la première tentative d'insertion
+a échoué sur son propre garde-fou — `<!-- INSERTION: EN-TÊTE -->` apparaît **deux
+fois** dans ce fichier, le marqueur réel en tête et une citation du marqueur dans une
+entrée de 2026-08. Exactement la faute décrite ci-dessus. Cette fois l'`assert` a
+tenu et rien n'a été écrit.
+
+**Question ouverte à Sidy** : les deux premiers enseignements — ancrage unique et
+`assert` d'invariant avant tout découpage de fichier — relèvent-ils d'une consigne
+`CLAUDE.md`, ou restent-ils en retour d'expérience R&D ?
+
+`verifier-invariants.py` : 0 erreur, 0 avertissement sur 1356 fichiers.
 ## [2026-09-03] correctif | OmniRoute relevé d'une mise à jour npm coupée par un arrêt serveur — et le serveur refermé
 
 Sidy signale OmniRoute et Hermes hors service au retour d'un redémarrage.
@@ -6319,3 +6553,4 @@ des fiches `doctrinal/discernement/`.
   * Réserve résiduelle (fiche doctrinal) : lien explicite wirātha↔aqtāb non localisé dans
     extrait transmis du Futūḥāt ch. 36 — à rechercher pour ancrage (c) plus complet.
 - **Génération manifeste** : `wiki-manifest.json` produit sans anomalie.
+
