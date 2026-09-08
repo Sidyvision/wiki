@@ -10,6 +10,29 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-08] rd | Archivage — Serveur MCP wiki (accès partageable aux outils déterministes)
+
+- **Source** : fiche déjà rédigée, déposée au sas `_inbox/` du serveur réel
+  (`_inbox/2026-09-08_serveur-mcp-wiki-outils-deterministes.md`), transmise à cette session
+  d'intégration cloud par upload de fichier (Sidy). Sceau déjà complet et valide à la
+  réception ; les 4 liens sortants déclarés vérifiés existants avant écriture.
+- **Nature** : documente `/root/mcp-servers/wiki/`, serveur MCP qui expose 14 scripts
+  déterministes déjà existants du dépôt (`verifier-invariants.py`, lecture de registres,
+  `etat_serveur`, `ajouter_inbox`, etc.) à Claude Code, Hermes et Qoder — aucun nouveau
+  script, aucun LLM dans la boucle, transposition du §VIII racine au format MCP.
+- **Écriture** : créé `atelier/rd/outillage/2026-09-08_serveur-mcp-wiki.md` (contenu repris
+  tel quel) ; traitement identique au précédent direct
+  [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]] (hors triptyque de
+  chantier, pas de `chantier:` en Sceau).
+- **Maillage** : lien entrant ajouté dans [[atelier/rd/index]], section « État du pôle »,
+  à côté de la mention de l'inventaire du 2026-08-23 — évite l'orphelinage pour le graphe.
+- **Sas non vidé d'ici** : le fichier source reste présent dans `_inbox/` du serveur réel
+  (`/root/wiki`), hors de portée de cette session cloud (`/home/user/wiki`, clone séparé
+  sans accès au disque du serveur). Une fois cette branche fusionnée et tirée côté serveur,
+  le retrait du fichier du sas reste à faire là-bas (§IX, point 8).
+- **Vérification** — `verifier-invariants.py` : 1412 fiches contrôlées, 0 erreur, 0 avertissement.
+- **Commit** : 781359d
+
 ## [2026-09-08] rd | Addendum incident RAM du 28 août — récidive et arrêt temporaire d'OmniRoute
 
 - **Signalement de Sidy** : terminal du serveur extrêmement lent. Diagnostic établi depuis
