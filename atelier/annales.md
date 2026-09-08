@@ -10,6 +10,16 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-08] rd | Publication sur `main` — fusion, et resolution du conflit d annales
+
+- **Action** — fusion de `origin/main` dans `claude/kamon-japonais-glossaire-6hbn9h`, puis avance de `main` en *fast-forward* et publication (`182be36..46bdef4`), sur ordre de Sidy (« commite et pousse sur principale »).
+- **Un seul conflit, et il portait sur ce fichier.** Deux sessions ont inséré au même marqueur d'en-tête le même jour. **Aucune entrée n'a été écrasée** — le régime append-only l'interdit (Cmd 9) : les trois entrées du 2026-09-08 sont conservées, réordonnées **rétro-chronologiquement par heure de commit** — Serveur MCP wiki (17h44), addendum OmniRoute (17h43), outillage `liens_doctrinal` (13h49). Résolution par script, avec **contrôle par témoin sur les trois titres avant écriture** plutôt qu'à la main dans les marqueurs de conflit : 6650 lignes + 13 = 6663, le compte ferme.
+- **Le piège du marqueur cité en prose s'est déclenché, et le garde-fou l'a attrapé.** Le marqueur d'insertion apparaît **trois fois** dans ce fichier : une fois comme marqueur réel, deux fois **cité en prose** dans des entrées antérieures — dont l'une qui relate justement une session antérieure tombée dans ce piège. L'assertion d'unicité a refusé l'écriture ; la cible a été corrigée en « **première occurrence, et vérifiée antérieure à la première entrée** ». Signalé ici parce que le piège est structurel : il se redéclenchera à chaque session qui écrira dans un fichier append-only dont une entrée cite son propre marqueur.
+- **Le graphe a été régénéré, non fusionné.** `graphe-cartographie.json` est un fichier **généré** : il ne se résout pas au diff. Régénéré après fusion — 568 nœuds, 1935 arêtes, la fiche `atelier/rd/outillage/2026-09-08_serveur-mcp-wiki.md` venue de `main` y entrant.
+- **Aucune réécriture d'historique** : fusion, jamais rebase ni force-push — les copies de travail existantes restent valides. Vérifié avant publication que `origin/main` est bien ancêtre de la tête poussée : **aucun commit distant perdu**.
+- **Vérification** — `verifier-invariants.py` après fusion : **1416 fichiers, 0 erreur, 0 avertissement** (1415 avant, plus la fiche venue de `main`).
+- **Commit** : 46bdef4
+
 ## [2026-09-08] rd | Archivage — Serveur MCP wiki (accès partageable aux outils déterministes)
 
 - **Source** : fiche déjà rédigée, déposée au sas `_inbox/` du serveur réel
