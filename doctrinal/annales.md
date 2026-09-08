@@ -9,6 +9,19 @@ updated: 2026-09-08
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-08] archivage | Annotation de `doctrinal/traditions/` et `doctrinal/autorites/` — 45 poses
+
+- **Ordre de Sidy** : « annote traditions/ et autorites/ maintenant ». Même pipeline déterministe et **même critère explicite** que la passe `symboles/` du même jour — un candidat est un `tags:` ou une cible de wikilink de la fiche (condition D1), retrouvé dans le corps **avec ses diacritiques**, hors titre, wikilink, code et bloc cité.
+- **Périmètre** : `traditions/` 6 fiches dont **3 annotables** (7 poses) ; `autorites/` 31 fiches dont **20 annotables** (38 poses). **23 fiches, 45 poses.**
+- **66 poses proposées, 45 retenues, 21 rejetées** (18 clés).
+- **Le rejet le plus instructif : les formes courtes.** `guenon` et `valsan` **coexistent** avec `rene-guenon` et `michel-valsan` dans les mêmes fiches (`charles-andre-gilis.md`, `michel-valsan.md`). Les poser toutes deux typerait **la même personne sous deux clés distinctes** — et **D5 ne l'attraperait pas**, puisqu'il compte par clé, non par référent. Vérifié fiche par fiche avant de trancher ; les formes courtes sont écartées, les formes pleines conservées. C'est un angle mort du contrôle, signalé ici : *D5 garantit l'unicité de la clé, jamais celle du référent.*
+- **Autres rejets** : noms communs de discipline (`cosmologie`, `grammaire`, `logique`, `théologie`, `métaphysique`, `soufisme`), `auteure`, `traduction`, `shaikh` (titre, non terme technique), l'adjectif `lurianique`, les syntagmes `médecine islamique` et `réalisation descendante` (ce dernier capté dans un **titre d'article cité**) ; et surtout `califat`, `Éditions Le Turban Noir`, `Nurasunna`, `SeekersGuidance` — institution historique, maison d'édition, organisations contemporaines : **aucun genre du vocabulaire clos ne leur convient**, et forcer `entite`, réservé au métaphysique, aurait été une **faute de catégorie**. Le vocabulaire clos a ici joué son rôle : il refuse plutôt que de s'étirer.
+- **Classement des 30 clés retenues** : **14 `<dfn>`** (*fiqh, ṭarīqa, walāya, walī, ghawth, silsila, dhikr, ṣalawāt, barzakh, ʿilm al-ḥurūf, waḥdat al-wujūd, al-Insān al-Kāmil, contre-initiation, Tibb-e-Nabawi*), `data-tradition` pris mécaniquement du `tradition_cadre` ; **8 `autorite`** (*Ibn ʿArabī*, *Ibn Sīrīn*, *René Guénon*, *al-Nābulusī*, *Charles-André Gilis*, *Michel Vâlsan*, *Ḥaïm Vital*, *Imam Mālik*) ; **3 `ouvrage`** (*Shams al-Maʿārif*, *Études Traditionnelles*, *Mawlid al-Rasūl*) ; **2 `ecole`** (*Qādiriyya*, *Haqqaniyya*) ; **2 `entite`** (*Idrīs*, *Poséidon*) ; **1 `lieu`** (*Safed*).
+- **Contrôles** — `valider-annotations.py` v1.1 : « 86 fiches annotées, 202 annotations. OK — aucune anomalie », exit 0. `verifier-invariants.py` : **1417 fichiers, 0 erreur(s), 0 avertissement(s)**. Diff de **64 lignes pour 64** : aucun texte modifié. `updated:` remonté (Cmd 8). L'index passe de 82 à **97 termes portant le rôle `annotation`**.
+- **Le régime apparié tient une seconde fois, et c'est vérifié et non allégué.** Graphe régénéré : **arêtes rigoureusement identiques** (1937), comparées terme à terme après tri. 45 annotations de plus, **zéro lien créé**. Les nœuds ne diffèrent que des `updated:` remontés.
+- **Reste ouvert (Cmd 12)** : 3 fiches de `traditions/` et 11 de `autorites/` sans candidat annotable — leur vocabulaire n'est ni tagué ni lié, et D1 le leur interdit ; les 21 poses rejetées sont listées ci-dessus avec leur motif ; `doctrines/`, `deviations/`, `etudes/`, `discernement/` et `sources/` n'ont pas été touchés.
+- **Commit** : bde135d
+
 ## [2026-09-08] archivage | Annotation des 58 fiches restantes de `doctrinal/symboles/` — 136 poses
 
 - **Ordre de Sidy** : « annote les 37 fiches restantes de doctrinal/symboles/ ». Périmètre corrigé puis **validé par Sidy** avant toute écriture (Cmd 6) : **58 fiches, 136 poses**.
