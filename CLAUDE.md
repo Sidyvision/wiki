@@ -20,7 +20,9 @@ la dispersion mentale.
 > toutes les écritures et toutes les fiches, marqueur d'absence `to-original`, aucune
 > passe de masse ; §IV, ouverture du champ **`original:`** sur les Sceaux des cinq
 > circuits, domicile du marqueur, câblé le même jour à sa garde (B5/B6/B7 de
-> `verifier-invariants.py`, éprouvés sur faute fabriquée) ; rang égal à la discipline des sources ; verdicts Sidy),
+> `verifier-invariants.py`, éprouvés sur faute fabriquée) ; §VII, index lexical —
+> ouverture du champ **`jurjani`**, rang 2 des appariements (autorité textuelle
+> transcrite, numéro de définition cité), strictement séparé du rang 1 `apparie` ; rang égal à la discipline des sources ; verdicts Sidy),
 > **2026-09-02** (§II, ouverture de `textes/`, le
 > cabinet de lecture — les sources CONVERTIES sont versionnées, les binaires
 > restent hors git ; la ligne de coupe est le **format**, non le contenu ;

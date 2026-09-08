@@ -10,6 +10,18 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-08] rd | Champ `jurjani` — le rang 2 des appariements entre à l'index
+
+- **Ordre de Sidy** : « donne un champ propre à Jurjani et intègre les 132 à l'index ».
+- **Deux champs, jamais fondus.** `apparie` — **rang 1**, la paire que la fiche énonce elle-même (59 paires) ; `jurjani` — **rang 2**, la paire qu'une autorité textuelle transcrite au dépôt établit, portant son **numéro de définition**, qui est sa source (132 appariements). Les fusionner aurait rendu les deux rangs **indistinguables** : c'est ce que la règle « établi vs suggéré » interdit (§VII, manifestes, règle 3). **Le rang 1 prime** — une clé que la fiche apparie d'elle-même ne reçoit aucun renvoi Jurjānī.
+- **Le condensé les distingue à l'œil** : renvoi nu pour le rang 1, `— Jurjānī déf. NNNN` pour le rang 2. Un lecteur n'a jamais à deviner d'où vient une paire. Colonne *appariement* ajoutée à `index-lexical.md`.
+- **Réciprocité partielle, dite comme telle** (§VII, point 6) : **84** des 132 portent le renvoi dans les deux sens ; les **48** autres dans un seul, leur translittération n'apparaissant nulle part dans le dépôt. **On n'injecte pas le vocabulaire du dictionnaire** dans un index qui est celui du wiki — ce serait indexer Jurjānī, non le dépôt. L'écart est déclaré, non comblé.
+- **ÉPREUVE DES CONTRÔLES — vert sur X, refus sur Y.** Deux refus francs gardent le rang 2, éprouvés **hors dépôt vivant** : *source absente* — « REFUS : source Jurjānī absente … un index privé de son rang 2 sans le dire serait un index muet », code 2, rien écrit ; *récolte sous le plancher* — bac portant une transcription tronquée à 10 entrées : « REFUS : récolte Jurjānī sous le plancher : 10 entrées pour 150 attendues au minimum », code 2, rien écrit. *Vert* : dépôt vivant, 10 648 termes, 132 appariements / 84 réciproques, code 0 ; `verifier-invariants.py` **0 erreur / 0 avertissement**.
+- **Pourquoi un plancher.** Un dictionnaire vide **ne se plaint jamais de lui-même** : motif de lecture caduc, fiche renommée ou transcription tronquée, et l'index perdrait tout son rang 2 en affichant la même sortie verte. C'est la forme de PRO-01 et INF-14, appliquée par avance à un dispositif neuf plutôt que constatée après coup.
+- **Le relevé de la passe** (`2026-09-08_passe-jurjani-orphelines.md`) passe en `type: artefact-derive` : il portait 132 formes arabes et s'ajoutait lui-même comme fiche-source de chacune. L'index ne s'indexe pas lui-même.
+- **Reste ouvert (Cmd 12)** : les 48 appariements à sens unique ; la limitation des syntagmes (`chikai to seiyaku / 誓約と制約`, que des clés-tokens ne peuvent porter) ; les 5 fiches pilotes de `doctrinal/symboles/`, toujours gelées en attente du verdict sur les phases 1-2 ; les artefacts dérivés `index-lexical.json` / `.md`, toujours hors dépôt.
+- **Commit** : b034972
+
 ## [2026-09-08] rd | Garde du marqueur `to-original` (§IV, B5/B6/B7) et passe Jurjānī sur les orphelines
 
 - **Ordre de Sidy** : « occupe-toi de to-original puis lance la passe Jurjani sur les clés orphelines ensuite ».

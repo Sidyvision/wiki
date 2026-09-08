@@ -17,6 +17,77 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-08] amendement | §VII — Champ `jurjani` de l'index lexical : le rang 2 des appariements
+
+**Verdict de Sidy**, 2026-09-08 : « donne un champ propre à Jurjani et intègre les 132 à
+l'index ».
+
+**Ce qui est institué.** L'index lexical porte désormais **deux** champs d'appariement,
+qui ne se fondent jamais :
+- **`apparie` — rang 1** : la paire que **la fiche énonce elle-même**, dans son `title:`
+  ou son H1 (`Tomoe (巴)`) ou en tête de définition (`**Buddhi** (Sanskrit : बुद्धि)`).
+  59 paires.
+- **`jurjani` — rang 2** : la paire qu'une **autorité textuelle transcrite au dépôt**
+  établit — le *Kitāb al-Taʿrīfāt* d'al-Jurjānī —, chacune portant son **numéro de
+  définition**, qui est sa source et se vérifie au texte. 132 appariements.
+
+**Pourquoi deux champs et non un.** Deux rangs de crédibilité versés dans un même champ
+seraient **indistinguables** : c'est très exactement ce que la règle « établi vs
+suggéré » interdit (§VII, manifestes, règle 3), et ce que l'onglet apophatique de
+l'Instrument matérialise par ailleurs. **Le rang 1 prime** : une clé que la fiche
+apparie d'elle-même ne reçoit aucun renvoi Jurjānī. Le condensé `index-lexical.md` les
+distingue à l'œil — renvoi nu pour le rang 1, `— Jurjānī déf. NNNN` pour le rang 2 : un
+lecteur n'a jamais à deviner d'où vient une paire.
+
+**Réciprocité partielle, et dite comme telle** (§VII, point 6). Sur les 132, **84**
+portent le renvoi dans les deux sens ; les **48** autres ne l'ont que dans un seul, leur
+translittération n'apparaissant nulle part dans le dépôt. On **n'injecte pas** le
+vocabulaire du dictionnaire dans un index qui est celui du wiki — ce serait indexer
+Jurjānī, non le dépôt. L'écart est déclaré, non comblé.
+
+**Ce que la passe a trouvé, et qui vaut plus que les 132.** Sur **1141** clés orphelines,
+**1009 ne sont pas des termes** : ce sont les lettres de l'alphabet relevées des tableaux
+de translittération, des particules, des fragments de corpus. Le résidu terminologique
+réel est de **6 clés**, et **aucune n'a demandé une translittération de mon fait** —
+chacune est résolue par une source déjà présente au dépôt. Le **rang 3** que Sidy avait
+par avance autorisé (« sinon tu feras la traduction par tes propres moyens et on sourcera
+plus tard ») s'est donc trouvé **vide** : aucun `to-source` de ce chef n'est à poser.
+
+**Épreuve des contrôles (§VII) — vert sur X, refus sur Y.** Deux refus francs gardent le
+rang 2, tous deux éprouvés **hors dépôt vivant** :
+- *Source absente* — bac à sable sans les fiches de transcription : « REFUS : source
+  Jurjānī absente … un index privé de son rang 2 sans le dire serait un index muet »,
+  code 2, rien écrit.
+- *Récolte sous le plancher* — bac à sable portant une transcription tronquée à 10
+  entrées : « REFUS : récolte Jurjānī sous le plancher : 10 entrées pour 150 attendues au
+  minimum — motif de lecture probablement caduc », code 2, rien écrit.
+- *Vert* : dépôt vivant, 10 648 termes, 132 appariements, 84 réciproques ;
+  `verifier-invariants.py` 0 erreur / 0 avertissement.
+
+Le plancher existe parce qu'un dictionnaire vide **ne se plaint jamais de lui-même** : si
+le motif de lecture devenait caduc (fiche renommée, transcription tronquée, forme
+changée), l'index perdrait tout son rang 2 en affichant la même sortie verte. C'est la
+forme de PRO-01 et INF-14 appliquée par avance à un dispositif neuf.
+
+**Deux faux appariements du rang 1, trouvés par la mesure et corrigés le même jour** :
+`systeme` ↔ `α` (les H2 étaient lus ; retirés — seuls `title:` et H1 y entrent, le site
+que le point 3 déclare canonique) et `conversion` ↔ `δ`. **Une lettre grecque isolée est
+un label dans ce dépôt** (α, δ, γ, π, φ, tous employés comme variables ou numéros de
+système), jamais un terme ; un caractère han isolé, lui, est un terme plein (巴) — d'où
+une exclusion **par écriture**, non par longueur. 61 → **59 paires, toutes vraies**.
+
+**Une limitation structurelle rapportée, non contournée** : `chikai to seiyaku /
+誓約と制約` est un appariement de **syntagmes** ; les clés de cet index sont des
+**tokens**, il ne peut pas le porter. Une extension à la barre oblique a été essayée puis
+**retirée** — aucune paire vraie, et une fausse.
+
+**Relevé complet de la passe** :
+`atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines.md`
+(`type: artefact-derive` — l'index ne s'indexe pas lui-même).
+
+**Réversibilité (Cmd 10)** : le champ `jurjani` est additif et régénérable ; le retirer ne
+touche ni `apparie` ni aucune fiche du dépôt.
+
 ## [2026-09-08] amendement | §IV — Champ `original:` du Sceau (transversal) et sa garde mécanique
 
 **Verdict de Sidy**, 2026-09-08, en réponse à la question du domicile du marqueur :
