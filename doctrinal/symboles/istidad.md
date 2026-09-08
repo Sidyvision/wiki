@@ -8,7 +8,7 @@ tags:
 - metaphysique
 - non-syncretisme
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -21,7 +21,7 @@ cross_links:
 
 ## Définition
 
-Chez Ibn ʿArabī (*Futūḥāt al-Makkiyya*, *Fuṣūṣ al-Ḥikam*), l'*istiʿdād* désigne la capacité ontologique propre à chaque être de recevoir une détermination divine donnée — la forme même du réceptacle (*qābiliyya*) à travers lequel l'Être se manifeste. Principe associé : *al-ḥukm li-l-istiʿdād* (« le jugement appartient à la disposition réceptive »). L'*istiʿdād* est lié à l'*ʿayn thābita* (l'entité immuable) dans la science divine pré-éternelle.
+Chez <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> (*Futūḥāt al-Makkiyya*, *Fuṣūṣ al-Ḥikam*), l'*istiʿdād* désigne la capacité ontologique propre à chaque être de recevoir une détermination divine donnée — la forme même du réceptacle (*qābiliyya*) à travers lequel l'Être se manifeste. Principe associé : *al-ḥukm li-l-istiʿdād* (« le jugement appartient à la disposition réceptive »). L'*istiʿdād* est lié à l'*ʿayn thābita* (l'entité immuable) dans la science divine pré-éternelle.
 
 ## Développement
 

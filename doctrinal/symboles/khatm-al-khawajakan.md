@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [naqshbandiyya, dhikr, wird-awrad, tasawwuf, khatm, silsila, ceremonie-collective]
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-09-08
 sources: ["[[wazifa]]"]
 sources_count: 1
 cross_links: ["[[naqshbandiyya]]", "[[wird-awrad]]", "[[tasawwuf]]", "[[salawat]]", "[[walaya]]"]
@@ -15,13 +15,13 @@ cross_links: ["[[naqshbandiyya]]", "[[wird-awrad]]", "[[tasawwuf]]", "[[salawat]
 
 ## Définition
 
-Cérémonie collective distinctive de la [[naqshbandiyya]], consistant en une séquence codifiée d'invocations, de récitations coraniques, de ṣalawāt et de dhikr réunis sous l'autorité spirituelle du shaikh ou de son représentant.
+Cérémonie collective distinctive de la [[naqshbandiyya]], consistant en une séquence codifiée d'invocations, de récitations coraniques, de <dfn data-terme="salawat" data-translit="ṣalawāt" data-tradition="islam">ṣalawāt</dfn> et de <dfn data-terme="dhikr" data-translit="dhikr" data-tradition="islam">dhikr</dfn> réunis sous l'autorité spirituelle du shaikh ou de son représentant.
 
 ## Développement
 
 ### Sens du terme
 
-*Khatm* signifie « sceau / clôture » ; *Khawājagān* désigne les maîtres (« les seigneurs ») de la silsila naqshbandie. Le Khatm est donc le « sceau des maîtres » — une cérémonie qui convoque spirituellement la présence de toute la chaîne des maîtres jusqu'au Prophète ﷺ.
+*<dfn data-terme="khatm" data-translit="Khatm" data-tradition="islam">Khatm</dfn>* signifie « sceau / clôture » ; *Khawājagān* désigne les maîtres (« les seigneurs ») de la <dfn data-terme="silsila" data-translit="silsila" data-tradition="islam">silsila</dfn> naqshbandie. Le Khatm est donc le « sceau des maîtres » — une cérémonie qui convoque spirituellement la présence de toute la chaîne des maîtres jusqu'au Prophète ﷺ.
 
 ### Structure de la cérémonie (selon [[wazifa]], pp. 80–95)
 
@@ -30,7 +30,7 @@ La séquence numérotée suit un ordre précis, dirigé par un imam (*al-imām*)
 1. **Niyyā (intention)** — l'imam formule l'intention pour tous
 1. **Kalimatu l-Shahāda** (3×)
 1. **Istigfār** — *Astaghfiru l-Llāh* (25×), suivi de la formule longue de l'Āl 25
-1. **Rābiṭa** — lien spirituel avec le shaikh (pratique spécifique à la Naqshbandiyya)
+1. **Rābiṭa** — lien spirituel avec le shaikh (pratique spécifique à la <span data-nom="naqshbandiyya" data-genre="ecole">Naqshbandiyya</span>)
 1. **Al-Fātiha** (7×)
 1. **Ṣalawāt** — *Allāhumma ṣalli 'alā Muḥammad wa 'alā Āl Muḥammad wa sallim* (10×)
 1. **Du'ā' de l'imam** — supplications pour la communauté

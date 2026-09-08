@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [tawakkul, hasb, asbab, tasawwuf, adab, fiqh-du-coeur]
 created: 2026-06-18
-updated: 2026-06-20
+updated: 2026-09-08
 sources: ["[[hasbiyallah-rabbani]]"]
 sources_count: 1
 cross_links: ["[[hasbiyallah-rabbani]]", "[[futuwwa]]", "[[shukr]]", "[[ghafla]]", "[[wird-awrad]]", "[[tasawwuf]]", "[[walaya]]", "[[platon]]"]
@@ -15,13 +15,13 @@ cross_links: ["[[hasbiyallah-rabbani]]", "[[futuwwa]]", "[[shukr]]", "[[ghafla]]
 
 ## Définition
 
-Acte du cœur par lequel le croyant s'appuie totalement sur Allāh dans la gestion de ses affaires, tout en accomplissant pleinement les moyens (*asbāb*) mis à sa disposition.
+Acte du cœur par lequel le croyant s'appuie totalement sur Allāh dans la gestion de ses affaires, tout en accomplissant pleinement les moyens (*<dfn data-terme="asbab" data-translit="asbāb" data-tradition="islam">asbāb</dfn>*) mis à sa disposition.
 
 ## Développement
 
 ### Distinction fondamentale : acte et état
 
-Le *tawakkul* (confiance, acte) mène au *ḥasb* (suffisance, état). Le premier est la cause, le second est le fruit. Le croyant s'appuie — Allāh devient sa suffisance. — source : [[hasbiyallah-rabbani]], Coran 65:2-3, Imam Qurṭubī
+Le *tawakkul* (confiance, acte) mène au *<dfn data-terme="hasb" data-translit="ḥasb" data-tradition="islam">ḥasb</dfn>* (suffisance, état). Le premier est la cause, le second est le fruit. Le croyant s'appuie — Allāh devient sa suffisance. — source : [[hasbiyallah-rabbani]], Coran 65:2-3, Imam Qurṭubī
 
 ### Ce que le tawakkul n'est pas
 
@@ -41,7 +41,7 @@ Ces deux niveaux ne se contredisent pas — ils se superposent. Le maître attac
 
 ~~Savoir n'est pas encore être.~~ *(formulation inexacte — voir correction)*
 
-La formulation juste, qui ne contrevient pas à Platon (*epistémè* et être sont co-extensifs — le mal ne peut venir que de l'ignorance, *amathia*) : la connaissance *virtuelle* (conceptuelle, informationnelle) du *tawakkul* peut coexister avec un *ḥāl* non transformé. La connaissance *effective* (réalisée, transformatrice) ne le peut pas — elle *est* transformation. Entre le savoir virtuel et l'être transformé, il y a le chemin. — source : [[platon]], entretien du 2026-06-18
+La formulation juste, qui ne contrevient pas à <span data-nom="platon" data-genre="autorite">Platon</span> (*epistémè* et être sont co-extensifs — le mal ne peut venir que de l'ignorance, *amathia*) : la connaissance *virtuelle* (conceptuelle, informationnelle) du *tawakkul* peut coexister avec un *ḥāl* non transformé. La connaissance *effective* (réalisée, transformatrice) ne le peut pas — elle *est* transformation. Entre le savoir virtuel et l'être transformé, il y a le chemin. — source : [[platon]], entretien du 2026-06-18
 
 ### Le portrait prophétique du tawakkul réalisé
 

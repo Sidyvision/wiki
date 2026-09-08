@@ -8,7 +8,7 @@ tags:
 - soufisme
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources:
 sources_count: 0
 cross_links:
@@ -32,7 +32,7 @@ Page parente regroupant plusieurs symboles spécifiques rencontrés dans le corp
 - [[doctrinal/symboles/cheveux-blancs-en-reve]]
 - [[doctrinal/symboles/elephant-en-reve]]
 
-**Point de vigilance transversal** : plusieurs conversations de l'export citent des passages arabes précis attribués à Ibn Sīrīn, al-Nābulusī ou Ibn ʿArabī, avec une apparence de citation directe (guillemets, parfois translitération + arabe). Aucune de ces citations n'a été vérifiée dans une édition fiable — même motif déjà signalé dans les fiches `discernement` de ce corpus (citations non sourcées). À traiter avec prudence avant toute réutilisation.
+**Point de vigilance transversal** : plusieurs conversations de l'export citent des passages arabes précis attribués à <span data-nom="ibn-sirin" data-genre="autorite">Ibn Sīrīn</span>, <span data-nom="al-nabulusi" data-genre="autorite">al-Nābulusī</span> ou <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, avec une apparence de citation directe (guillemets, parfois translitération + arabe). Aucune de ces citations n'a été vérifiée dans une édition fiable — même motif déjà signalé dans les fiches `discernement` de ce corpus (citations non sourcées). À traiter avec prudence avant toute réutilisation.
 
 ## Concepts liés
 

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: judaisme
 tags: [golem, creation-artificielle, kabbale, tradition-juive, homoncule]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["to-source"]
 sources_count: 1
 cross_links: []
@@ -36,7 +36,7 @@ pertinents dans une fiche distincte, sur décision de Sidy.*
 ## Données brutes à verser (en attente)
 
 - **Ancrage doctrinal** : le Golem est directement lié à la **Kabbalah Maasit**
-  (Kabbale pratique/opérative) — la branche de la Kabbale qui concerne
+  (<span data-nom="kabbale" data-genre="ecole">Kabbale</span> pratique/opérative) — la branche de la Kabbale qui concerne
   l'action sur le réel par les combinaisons de lettres et les Noms divins.
   Ce n'est pas une spéculation : c'est l'ancrage traditionnel de la figure.
   `to-source` sur les textes primaires (Sefer Yetzirah, writings du Gaon de

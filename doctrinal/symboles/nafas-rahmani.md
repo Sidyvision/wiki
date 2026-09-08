@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, ibn-arabi, nafas-rahmani, cosmogonie, alam-al-huruf, 28-degres, stub]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq]]"]
 sources_count: 1
 cross_links: ["[[ibn-arabi]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]", "[[ilm-al-huruf]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]"]
@@ -34,7 +34,7 @@ Cinq Présences ([[hadarat-khams]]).
 
 ## Concepts liés
 
-- [[al-insan-al-kamil]] — l'Alif / Intellect Premier comme *barzakh* suprême de l'axe.
+- [[al-insan-al-kamil]] — l'Alif / Intellect Premier comme *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>* suprême de l'axe.
 - [[barzakh]] — la polarisation *al-raḥmān* / *al-rūḥ* du Souffle.
 
 ## Sources

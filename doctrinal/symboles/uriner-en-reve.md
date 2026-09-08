@@ -7,7 +7,7 @@ tags:
 - oniromancie
 - stub
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -19,7 +19,7 @@ cross_links:
 
 ## Définition
 
-Selon Ibn Sīrīn (citation rapportée, non vérifiée — voir réserve ci-dessous), uriner sur soi-même en rêve peut signifier, selon le contexte : soulagement/libération d'une tension, perte de maîtrise émotionnelle, questions financières (dépenses, pertes), ou avertissement moral/spirituel appelant à la purification.
+Selon <span data-nom="ibn-sirin" data-genre="autorite">Ibn Sīrīn</span> (citation rapportée, non vérifiée — voir réserve ci-dessous), uriner sur soi-même en rêve peut signifier, selon le contexte : soulagement/libération d'une tension, perte de maîtrise émotionnelle, questions financières (dépenses, pertes), ou avertissement moral/spirituel appelant à la purification.
 
 ## Développement
 

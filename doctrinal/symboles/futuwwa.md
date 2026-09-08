@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [futuwwa, adab, akhlaq, tasawwuf, service, noblesse]
 created: 2026-06-18
-updated: 2026-06-20
+updated: 2026-09-08
 sources: ["[[hasbiyallah-rabbani]]"]
 sources_count: 1
 cross_links: ["[[tawakkul]]", "[[tasawwuf]]", "[[walaya]]", "[[hasbiyallah-rabbani]]"]
@@ -35,7 +35,7 @@ Question ouverte : quel est le statut de celui qui se laisse violer dans son int
 
 ### Rapport au tawakkul
 
-La *futuwwa* authentique implique le *tawakkul* comme non-dépendance structurelle au regard extérieur. Celui qui a besoin de la reconnaissance pour maintenir sa noblesse n'est pas encore libre. — source : entretien du 2026-06-18
+La *futuwwa* authentique implique le *<dfn data-terme="tawakkul" data-translit="tawakkul" data-tradition="islam">tawakkul</dfn>* comme non-dépendance structurelle au regard extérieur. Celui qui a besoin de la reconnaissance pour maintenir sa noblesse n'est pas encore libre. — source : entretien du 2026-06-18
 
 ### Modèles
 

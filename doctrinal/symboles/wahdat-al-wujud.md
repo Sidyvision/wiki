@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, ontologie, ibn-arabi, unite-de-letre]
 created: 2026-06-02
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[jesus-and-enoch-in-ibn-arabi]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]]"]
 sources_count: 3
 cross_links: ["[[ibn-arabi]]", "[[barzakh]]", "[[tasawwuf]]", "[[walaya]]", "[[hadarat-khams]]"]
@@ -23,7 +23,7 @@ Le terme *waḥdat al-wujūd* n'est pas d'Ibn ʿArabī lui-même mais de ses com
 
 Le fondement en est le *ḥadīth qudsī* : « J'étais un trésor caché et j'aimais être connu, alors j'ai créé la création afin d'être connu d'eux. » La création est ainsi un acte d'auto-révélation divine dans le miroir de l'autre. Le monde (*ʿālam*) est nommé ainsi parce qu'il est *ʿalāma* (signe) du Créateur.
 
-Cette doctrine ne doit pas être confondue avec le panthéisme : Ibn ʿArabī maintient la distinction entre le Créateur et la créature tout en affirmant que l'Être de la créature est un emprunt (*iʿāra*) de l'Être divin. Le *[[barzakh]]* est la catégorie qui rend compte de cette tension entre identité et distinction.
+Cette doctrine ne doit pas être confondue avec le panthéisme : <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> maintient la distinction entre le Créateur et la créature tout en affirmant que l'Être de la créature est un emprunt (*iʿāra*) de l'Être divin. Le *[[barzakh]]* est la catégorie qui rend compte de cette tension entre identité et distinction.
 
 ### Réfutation védantique de la lecture panthéiste : argument transposable
 

@@ -7,7 +7,7 @@ tags:
 - oniromancie
 - comparatisme
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -18,7 +18,7 @@ cross_links:
 
 ## Définition
 
-Motif comparatif rassemblé dans une conversation de l'export ChatGPT : dans plusieurs traditions, lier/maîtriser une force chaotique (plutôt que la détruire) par un geste d'enroulement autour d'un axe est une image de mise en ordre — Indra liant le dragon Vṛtra (mythologie védique) sans le tuer, pour libérer les eaux et restaurer l'ordre cosmique (*ṛta*) ; le *ḥabl Allāh* coranique comme lien vertical rattachant au Centre.
+Motif comparatif rassemblé dans une conversation de l'export ChatGPT : dans plusieurs traditions, lier/maîtriser une force chaotique (plutôt que la détruire) par un geste d'enroulement autour d'un axe est une image de mise en ordre — Indra liant le dragon Vṛtra (mythologie védique) sans le tuer, pour libérer les eaux et restaurer l'ordre cosmique (*ṛta*) ; le *<dfn data-terme="habl-allah" data-translit="ḥabl Allāh" data-tradition="universel">ḥabl Allāh</dfn>* coranique comme lien vertical rattachant au Centre.
 
 ## Développement
 

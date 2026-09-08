@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ghafla, nafs, tasawwuf, dhikr, dunya]
 created: 2026-06-18
-updated: 2026-06-20
+updated: 2026-09-08
 sources: ["[[hasbiyallah-rabbani]]"]
 sources_count: 1
 cross_links: ["[[tawakkul]]", "[[shukr]]", "[[wird-awrad]]", "[[tasawwuf]]"]
@@ -21,7 +21,7 @@ L'oubli de Dieu — distraction structurelle de la conscience hors du Principe. 
 
 ### Ghafla et condition humaine
 
-La *dunya* comme épreuve structurelle : tout concourt à distraire de l'essentiel. C'est dans cette distraction que s'installent l'anxiété, la peine, la tristesse et la solitude. La *ghafla* n'est pas un accident — c'est la condition ordinaire de l'homme non vigilant dans le monde. — source : entretien du 2026-06-18
+La *<dfn data-terme="dunya" data-translit="dunya" data-tradition="islam">dunya</dfn>* comme épreuve structurelle : tout concourt à distraire de l'essentiel. C'est dans cette distraction que s'installent l'anxiété, la peine, la tristesse et la solitude. La *ghafla* n'est pas un accident — c'est la condition ordinaire de l'homme non vigilant dans le monde. — source : entretien du 2026-06-18
 
 ### Résonances traditionnelles comparées
 
@@ -29,8 +29,8 @@ La *dunya* comme épreuve structurelle : tout concourt à distraire de l'essenti
 
 ### Remède
 
-Le *dhikr* — la remémoration — est le remède direct à la *ghafla*. Le *wird* quotidien de *Ḥasbiyallāh* (sept fois matin et soir) est précisément conçu pour atteindre le lieu où vit le souci — là où la *ghafla* s'installe. — source : [[hasbiyallah-rabbani]]
+Le *<dfn data-terme="dhikr" data-translit="dhikr" data-tradition="islam">dhikr</dfn>* — la remémoration — est le remède direct à la *ghafla*. Le *wird* quotidien de *Ḥasbiyallāh* (sept fois matin et soir) est précisément conçu pour atteindre le lieu où vit le souci — là où la *ghafla* s'installe. — source : [[hasbiyallah-rabbani]]
 
 ## Notes
 
-Page à enrichir à partir des sources coraniques et des traités de *tasawwuf* sur la vigilance (*murāqaba*). #stub
+Page à enrichir à partir des sources coraniques et des traités de *<dfn data-terme="tasawwuf" data-translit="tasawwuf" data-tradition="islam">tasawwuf</dfn>* sur la vigilance (*murāqaba*). #stub

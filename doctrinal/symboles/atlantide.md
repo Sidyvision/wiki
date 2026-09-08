@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "hellenisme"
 tags: [platon, atlantide, cycles-cosmiques, poseidon, hellenisme, mythe-sacre, deluge]
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-09-08
 sources: ["[[platon-oeuvres-completes-brisson-2011]]"]
 sources_count: 1
 cross_links: ["[[manvantara]]", "[[poseidon]]", "[[rene-guenon]]"]
@@ -21,10 +21,10 @@ sur l'Atlantide :
 - **Timée**, 24e–25d — récit en discours indirect (Solon → prêtres égyptiens → Critias
   l'Ancien → Critias le Jeune → Socrate) : description géographique, puissance de l'empire
   atlantéen, conflit avec Athènes, catastrophe finale.
-- **Critias**, 113b–114a — récit direct : fondation par Poséidon, organisation de l'île,
+- **Critias**, 113b–114a — récit direct : fondation par <span data-nom="poseidon" data-genre="entite">Poséidon</span>, organisation de l'île,
   généalogie des dix rois.
 
-Source : Platon, *Œuvres complètes* (Flammarion, 2011, éd. Luc Brisson).
+Source : <span data-nom="platon" data-genre="autorite">Platon</span>, *Œuvres complètes* (Flammarion, 2011, éd. Luc Brisson).
 
 ## Le récit platonicien — éléments essentiels
 
@@ -73,7 +73,7 @@ La zone reste depuis impraticable, encombrée de la boue déposée par l'île en
 
 ## Lecture guénonienne — position dans le Manvantara
 
-Dans la doctrine des cycles cosmiques (Guénon), le cycle atlantéen s'étend sur une durée
+Dans la doctrine des <span data-nom="cycles-cosmiques" data-genre="cycle">cycles cosmiques</span> (Guénon), le cycle atlantéen s'étend sur une durée
 équivalente à une « grande année » (12 960 ans) : sa disparition, survenue vers l'an 7 200
 avant le début du *Kali-Yuga*, s'étend sur 6 480 ans du *Trêtâ-Yuga* et sur une période
 équivalente dans la première moitié du *Dwâpara-Yuga* — source : [[manvantara]].

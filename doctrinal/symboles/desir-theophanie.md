@@ -8,7 +8,7 @@ tags:
 - tajalli
 - noms-divins
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -20,7 +20,7 @@ cross_links:
 
 ## Définition
 
-Chez Ibn ʿArabī, le désir n'est jamais autonome : il est toujours la manifestation d'un Nom divin apparaissant dans l'âme selon sa capacité de réception (*istiʿdād*, voir [[doctrinal/symboles/istidad]]). La question n'est donc pas « ce désir est-il bon ou mauvais ? » mais « quel Nom se manifeste ici, et à quel niveau ? ».
+Chez <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, le désir n'est jamais autonome : il est toujours la manifestation d'un Nom divin apparaissant dans l'âme selon sa capacité de réception (*<dfn data-terme="istidad" data-translit="istiʿdād" data-tradition="islam">istiʿdād</dfn>*, voir [[doctrinal/symboles/istidad]]). La question n'est donc pas « ce désir est-il bon ou mauvais ? » mais « quel Nom se manifeste ici, et à quel niveau ? ».
 
 ## Développement
 

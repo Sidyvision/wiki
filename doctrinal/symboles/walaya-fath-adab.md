@@ -9,7 +9,7 @@ tags:
 - adab
 - soufisme
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -27,9 +27,9 @@ Examen doctrinal de la licéité et des conditions d'une invocation demandant à
 ## Développement
 
 - **Toucher la Pierre Noire** : acte légiféré, sur le modèle de ʿUmar ibn al-Khaṭṭāb (« Je sais que tu n'es qu'une pierre... », Bukhārī) — la pierre est un lieu de baraka, non une source autonome.
-- **Demander la *walāya*** : licite si elle n'est pas prétention à un statut mais demande de purification (al-Qushayrī, *Risāla* : « La *walāya* n'est pas revendication, mais protection divine accordée dans le secret »).
+- **Demander la *<dfn data-terme="walaya" data-translit="walāya" data-tradition="islam">walāya</dfn>*** : licite si elle n'est pas prétention à un statut mais demande de purification (al-Qushayrī, *Risāla* : « La *walāya* n'est pas revendication, mais protection divine accordée dans le secret »).
 - **Demander à être compté parmi les *ʿulamāʾ*** : licite comme demande de science utile (*ʿilm nāfiʿ*) menant à la crainte d'Allah, non comme demande de statut.
-- ***Al-Fatḥ*** : non un pouvoir ni une illumination spectaculaire, mais une ouverture dans la compréhension et la proximité. Ibn ʿArabī (*Futūḥāt*, citation à vérifier) : « Le *fatḥ* ne vient pas par la demande, mais par l'anéantissement de celui qui demande. »
+- ***Al-Fatḥ*** : non un pouvoir ni une illumination spectaculaire, mais une ouverture dans la compréhension et la proximité. <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> (*Futūḥāt*, citation à vérifier) : « Le *fatḥ* ne vient pas par la demande, mais par l'anéantissement de celui qui demande. »
 - **Le point décisif (adab)** : ce n'est ni le lieu ni les mots qui déterminent la valeur de l'invocation, mais l'état intérieur — humilité et acceptation de l'épreuve d'un côté, projection de statut de l'autre (risque d'*istidrāj*, séduction spirituelle déguisée en faveur).
 
 ## Concepts liés

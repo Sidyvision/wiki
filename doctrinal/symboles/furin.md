@@ -8,7 +8,7 @@ tags:
 - comparatisme
 - son
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -25,7 +25,7 @@ Carillon traditionnel japonais (verre, métal ou céramique), suspendu aux avant
 ## Développement
 
 - **Le vent** (*kaze*) comme métaphore du principe animateur invisible — rapproché, par comparaison, du *nafas al-Raḥmān* (Souffle du Miséricordieux) chez Ibn ʿArabī, sans identification entre les deux cadres.
-- **Le son** (*suzu*) comme rappel du monde subtil (*malakūt*, *ʿālam al-mithāl*) juste au-delà de la perception sensible.
+- **Le son** (*suzu*) comme rappel du monde subtil (*malakūt*, *<dfn data-terme="alam-al-mithal" data-translit="ʿālam al-mithāl" data-tradition="shintoisme">ʿālam al-mithāl</dfn>*) juste au-delà de la perception sensible.
 - **Le tanzaku** (bande de papier réceptrice du vent) comme image de la réceptivité de l'âme.
 - Fonction rituelle : purification de l'atmosphère, éloignement du *kegare* (voir [[doctrinal/traditions/shinto]]).
 

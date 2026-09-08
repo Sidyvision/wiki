@@ -8,7 +8,7 @@ tags:
 - platon
 - comparatisme
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -27,7 +27,7 @@ Dieu grec des mers et des eaux, frère de Zeus et d'Hadès, dont le domaine (la 
 Du sang de Méduse décapitée par Persée naissent Pégase (cheval ailé) et Chrysaor, enfants de Poséidon et de Méduse. Lecture symbolique : transmutation d'une puissance ténébreuse et chtonienne (Méduse) en élan lumineux et ascensionnel (Pégase) — union de l'élément marin (Poséidon, fluide) et de l'élément aérien (les ailes).
 
 ### Lecture platonicienne
-Chez Platon (*Phèdre*), le cheval ailé devient image de l'âme humaine, les ailes représentant la faculté de s'élever vers le monde intelligible.
+Chez <span data-nom="platon" data-genre="autorite">Platon</span> (*Phèdre*), le cheval ailé devient image de l'âme humaine, les ailes représentant la faculté de s'élever vers le monde intelligible.
 
 > 🌐 **Forme Traditionnelle Divergente** : un parallèle est suggéré, sans développement dans la conversation source, avec *al-Burāq* dans la tradition islamique (monture céleste du *miʿrāj*) — convergence fonctionnelle (monture/véhicule de l'élévation spirituelle) à traiter séparément du mythe grec si développée davantage, sans fusion des cadres.
 

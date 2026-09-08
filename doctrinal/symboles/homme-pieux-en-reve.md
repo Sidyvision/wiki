@@ -8,7 +8,7 @@ tags:
 - soufisme
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -30,7 +30,7 @@ Repères rapportés dans la conversation source (citations à vérifier) :
 - La faiblesse corporelle apparente d'une figure pieuse en rêve symbolise généralement le dépouillement (*tajrīd*) ou la lourdeur de la charge spirituelle, non une faiblesse réelle.
 - Prier derrière une telle figure dans un rêve symbolise le fait de recevoir une orientation (*tawjīh*) et de bénéficier d'une baraka transmise par alignement, non par contact direct.
 - Avancer progressivement du dernier au premier rang dans une salât rêvée indique une progression accordée, non arrachée — à ne pas confondre avec de l'orgueil spirituel.
-- Le rêve « véridique » (*ruʾyā ṣāliḥa*) est une invitation à continuer, non une annonce d'accomplissement (point d'adab attribué à al-Ghazālī).
+- Le rêve « véridique » (*ruʾyā ṣāliḥa*) est une invitation à continuer, non une annonce d'accomplissement (point d'adab attribué à <span data-nom="al-ghazali" data-genre="autorite">al-Ghazālī</span>).
 
 ## Concepts liés
 

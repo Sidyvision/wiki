@@ -8,7 +8,7 @@ tags:
 - nombre
 - ibn-arabi
 created: 2026-06-20
-updated: 2026-08-14
+updated: 2026-09-08
 sources: ["to-source"]
 sources_count: 1
 cross_links:
@@ -22,15 +22,15 @@ cross_links:
 
 ## Définition
 
-**ʿIlm al-Awfāq** (علم الأوفاق, « science des harmonies/concordances ») : nom traditionnel de la science islamique des carrés magiques — arrangements numériques où chaque ligne, colonne et diagonale donne la même somme, reflétant une harmonie cosmique. Rattachée à *ʿilm al-ḥurūf* (science des lettres) et aux *Asmāʾ al-Ḥusnā*.
+**ʿIlm al-Awfāq** (علم الأوفاق, « science des harmonies/concordances ») : nom traditionnel de la science islamique des carrés magiques — arrangements numériques où chaque ligne, colonne et diagonale donne la même somme, reflétant une harmonie cosmique. Rattachée à *<dfn data-terme="ilm-al-huruf" data-translit="ʿilm al-ḥurūf" data-tradition="islam">ʿilm al-ḥurūf</dfn>* (science des lettres) et aux *Asmāʾ al-Ḥusnā*.
 
 ## Développement
 
 ### Auteurs de référence
-Aḥmad al-Būnī (*Shams al-Maʿārif al-Kubrā*, déjà documenté dans le wiki), les Ikhwān al-Ṣafāʾ, allusions chez al-Ghazālī. Dans l'orthodoxie sunnite, cette science est soit symbolique/contemplative, soit opérative mais strictement conditionnée (intention, licéité, transmission) — distinction nette entre *ḥikma* (sagesse traditionnelle) et *siḥr* (magie illicite), conforme à la distinction déjà établie dans [[doctrinal/symboles/talisman-sihr]].
+<span data-nom="ahmad-al-buni" data-genre="autorite">Aḥmad al-Būnī</span> (*<span data-nom="shams-al-maarif" data-genre="ouvrage">Shams al-Maʿārif</span> al-Kubrā*, déjà documenté dans le wiki), les Ikhwān al-Ṣafāʾ, allusions chez al-Ghazālī. Dans l'orthodoxie sunnite, cette science est soit symbolique/contemplative, soit opérative mais strictement conditionnée (intention, licéité, transmission) — distinction nette entre *ḥikma* (sagesse traditionnelle) et *siḥr* (magie illicite), conforme à la distinction déjà établie dans [[doctrinal/symboles/talisman-sihr]].
 
 ### Ibn ʿArabī : métaphysicien du Nombre, non praticien des carrés
-Ibn ʿArabī ne transmet pas l'*ʿilm al-awfāq* comme technique opérative, mais en donne le fondement ontologique. Pour lui, le Nombre n'ajoute rien à l'Un (*al-Aḥad*) : il en est la différenciation apparente, une lecture relationnelle de l'Un, non une entité. Repères : le 1 (*al-Wāḥid*) comme source du comptage, non un nombre parmi d'autres ; le 2 comme apparition de la relation (*Ḥaqq*/*khalq*) ; le 3 comme médiation complète (Connaissant/Connu/Connaissance) ; le 4 comme stabilisation du monde sensible. Un *wafq* (carré harmonique) y devient une figuration de l'égalité des rapports, image de la Justice divine (*al-ʿAdl*), plutôt qu'un objet magique en soi.
+<span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> ne transmet pas l'*ʿilm al-awfāq* comme technique opérative, mais en donne le fondement ontologique. Pour lui, le Nombre n'ajoute rien à l'Un (*al-Aḥad*) : il en est la différenciation apparente, une lecture relationnelle de l'Un, non une entité. Repères : le 1 (*al-Wāḥid*) comme source du comptage, non un nombre parmi d'autres ; le 2 comme apparition de la relation (*Ḥaqq*/*khalq*) ; le 3 comme médiation complète (Connaissant/Connu/Connaissance) ; le 4 comme stabilisation du monde sensible. Un *wafq* (carré harmonique) y devient une figuration de l'égalité des rapports, image de la Justice divine (*al-ʿAdl*), plutôt qu'un objet magique en soi.
 
 > ⚠️ **Signalement (discipline des sources, corrigé le 2026-08-14)** : le contenu
 > de cette page — l'attribution akbarienne comme le détail des repères 1-2-3-4 —

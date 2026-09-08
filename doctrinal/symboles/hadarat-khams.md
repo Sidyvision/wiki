@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, cosmologie, hadarat, degres-ontologiques, axe-vertical, ibn-arabi]
 created: 2026-06-29
-updated: 2026-06-29
+updated: 2026-09-08
 sources: ["[[burckhardt-introduction-doctrines-esoteriques-islam]]", "[[awrad-ibn-arabi]]", "[[barzakh-nur-lh]]"]
 sources_count: 3
 cross_links: ["[[barzakh]]", "[[al-insan-al-kamil]]", "[[wahdat-al-wujud]]", "[[tasawwuf]]"]
@@ -52,7 +52,7 @@ simple classification descriptive a posteriori.
 
 Le wiki documente déjà une mention directe : dans la *Ṣalāt al-Fayḍiyya
 al-Kubrā* d'Ibn ʿArabī, le Prophète est décrit comme réunissant les Cinq
-Présences divines, *barzakh* entre existence et non-existence — source :
+Présences divines, *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>* entre existence et non-existence — source :
 [[awrad-ibn-arabi]] (déjà citée dans [[al-insan-al-kamil]]). Il est ainsi le
 seul être qui **traverse verticalement** l'ensemble des cinq degrés, plutôt
 que d'être circonscrit à l'un d'eux.

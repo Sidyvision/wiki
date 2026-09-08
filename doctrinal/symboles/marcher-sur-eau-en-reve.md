@@ -7,7 +7,7 @@ tags:
 - oniromancie
 - stub
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -19,7 +19,7 @@ cross_links:
 
 ## Définition
 
-Selon Ibn Sīrīn (citation rapportée, non vérifiée), marcher sur l'eau en rêve est un symbole généralement positif lié à la foi solide, à la confiance en Dieu et à la persévérance dans l'épreuve.
+Selon <span data-nom="ibn-sirin" data-genre="autorite">Ibn Sīrīn</span> (citation rapportée, non vérifiée), marcher sur l'eau en rêve est un symbole généralement positif lié à la foi solide, à la confiance en Dieu et à la persévérance dans l'épreuve.
 
 ## Développement
 

@@ -9,7 +9,7 @@ tags:
 - shinto
 - rene-guenon
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -27,7 +27,7 @@ Le *Miḥrāb* (niche orientée vers la Qibla dans une mosquée) et le *Torii* (
 ## Développement
 
 ### Miḥrāb (islam)
-Racine *ḥ-r-b* (combat/lutte intérieure, *jihād al-nafs*). Niche indiquant la direction de la Kaaba ; chez Ibn ʿArabī, le cœur purifié est le *miḥrāb* intérieur (*maḥall nuzūl al-anwār*, « lieu de descente des lumières ») — le temple extérieur comme miroir du temple intérieur.
+Racine *ḥ-r-b* (combat/lutte intérieure, *jihād al-nafs*). Niche indiquant la direction de la Kaaba ; chez <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, le cœur purifié est le *miḥrāb* intérieur (*maḥall nuzūl al-anwār*, « lieu de descente des lumières ») — le temple extérieur comme miroir du temple intérieur.
 
 ### Torii (shintoïsme)
 Voir [[doctrinal/traditions/shinto]]. Portique vide marquant l'entrée d'un espace purifié, précédé d'un rituel de purification (*temizu*) — la vacuité du portique indiquant l'invisible plutôt que de l'abriter.

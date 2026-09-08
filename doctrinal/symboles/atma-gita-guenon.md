@@ -8,7 +8,7 @@ tags:
 - rene-guenon
 - metaphysique-comparee
 created: 2026-06-20
-updated: 2026-08-31
+updated: 2026-09-08
 sources:
   - "raw/Études sur l’Hindouïsme/Études sur l'Hindouisme  Index de l’œuvre de René Guénon.md"
   - "raw/Autorité Spirituelle et Pouvoir Temporel/Dépendance de la royauté à l'égard du sacerdoce  Autorité Spirituelle et Pouvoir Temporel  Index de l’œuvre de René Guénon.md"
@@ -31,7 +31,7 @@ cross_links:
 
 _Rédaction d'origine (2026-06-20), non modifiée :_
 
-L'**Ātma-Gītā** (« Chant du Soi »), court texte védantique en vers sanskrits traditionnellement rattaché à Śaṅkarācārya, enseigne sans détour le non-dualisme (*Advaita*) : l'Ātman est non-né, éternel, sans forme ni qualités (*nirguṇa*), et le monde phénoménal est *māyā*. René Guénon en a publié une traduction commentée sous le titre « L'Atma-Gîta » dans la revue *Le Voile d'Isis* (1926) — référence réelle et vérifiable, à distinguer des nombreuses citations non sourcées présentes ailleurs dans ce corpus.
+L'**Ātma-Gītā** (« Chant du Soi »), court texte védantique en vers sanskrits traditionnellement rattaché à Śaṅkarācārya, enseigne sans détour le non-dualisme (*Advaita*) : l'Ātman est non-né, éternel, sans forme ni qualités (*nirguṇa*), et le monde phénoménal est *māyā*. <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span> en a publié une traduction commentée sous le titre « L'Atma-Gîta » dans la revue *Le Voile d'Isis* (1926) — référence réelle et vérifiable, à distinguer des nombreuses citations non sourcées présentes ailleurs dans ce corpus.
 
 ### ⛔ Rectification sourcée — 2026-08-31
 
@@ -79,7 +79,7 @@ portée du côté du pôle R&D, qui pointe vers cette fiche : l'étanchéité de
 ## Développement
 
 ### Lecture comparative guénonienne (légitime, méthode traditionnelle de convergence)
-- **Universalité de l'Ātman** : l'Ātman comme Soi suprême identique à Brahman, rapproché par Guénon de la doctrine de l'Unicité de l'Être (*Waḥdat al-Wujūd*) chez Ibn ʿArabī — voir [[doctrinal/symboles/wahdat-al-wujud]].
+- **Universalité de l'Ātman** : l'Ātman comme Soi suprême identique à Brahman, rapproché par Guénon de la doctrine de l'Unicité de l'Être (*<dfn data-terme="wahdat-al-wujud" data-translit="Waḥdat al-Wujūd" data-tradition="hindouisme">Waḥdat al-Wujūd</dfn>*) chez <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> — voir [[doctrinal/symboles/wahdat-al-wujud]].
 - **Méthode apophatique** : le procédé du *neti neti* (« ce n'est pas ceci, ce n'est pas cela ») est rapproché du *Tawḥīd* islamique (*Lā ilāha illā Llāh*) comme négation de toute relativité au profit de l'affirmation de l'Unique Réel.
 - **Réalisation et libération** : la réalisation de l'Identité suprême (*mokṣa*) est rapprochée de *al-fanāʾ fī Llāh* (l'extinction dans le Réel) du soufisme.
 - **Connaissance par identité** : la connaissance libératrice (*jñāna*, *buddhi*) comme intuition métaphysique directe et non discursive, rapprochée de la distinction soufie entre *ʿaql* et *nafs*.

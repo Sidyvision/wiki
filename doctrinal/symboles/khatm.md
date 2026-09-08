@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [khatm, khatim, nubuwwa, walaya, qutbiyya, insan-kamil, isa, ibn-arabi, hierarchie-initiatique]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sources/valsan-investiture-cheikh-al-akbar]]", "[[doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh]]", "[[doctrinal/sources/dalail-al-khayrat-jazuli]]"]
 sources_count: 4
 cross_links: ["[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -40,7 +40,7 @@ prophètes [Muhammad] et le sceau des saints [Jésus] » (*ḫâtim al-anbiyâʾ
 ḫâtim al-awliyâʾ*) — deux Sceaux, deux porteurs distincts, posés dans une même
 définition.
 
-René Guénon (*Aperçus sur l'Ésotérisme islamique et le Taoïsme*, ch. V,
+<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span> (*Aperçus sur l'Ésotérisme islamique et le Taoïsme*, ch. V,
 « Er-Rûh ») développe la fonction en termes akbariens : *Er-Rûh
 el-mohammediyah*, « en qui tous les prophètes et les envoyés divins ne sont
 qu'un », a « dans le monde d'en bas son expression ultime dans celui qui est
@@ -78,7 +78,7 @@ sa seconde venue, clôturant le cycle de la sainteté.
 
 ## III. Khatm al-Wilāya al-Muḥammadiyya — le Sceau de la Sainteté muhammadienne
 
-**Porteur** : Ibn ʿArabī, le Cheikh al-Akbar.
+**Porteur** : <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, le Cheikh al-Akbar.
 
 Vâlsan (même source) : le Cheikh al-Akbar est le Sceau de la Sainteté
 muhammadienne, « le saint totalisateur de tous les types prophétiques
@@ -105,7 +105,7 @@ traduite par Vâlsan, le Pôle siège au centre de l'Assemblée Sublime (avec
 *aṣ-Ṣiddîq* à sa droite et *al-Fârûq* à sa gauche), tandis que le Sceau se
 tient devant lui — deux positions, deux personnes.
 
-⚠️ **Conséquence pour tout travail sur la fonction polaire** : la Quṭbiyya et
+⚠️ **Conséquence pour tout travail sur la fonction polaire** : la <dfn data-terme="qutbiyya" data-translit="Quṭbiyya" data-tradition="islam">Quṭbiyya</dfn> et
 le Khatm relèvent de deux ordres qu'aucune source du dépôt ne confond. Voir
 [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]],
 qui porte sur la fonction polaire et doit rester distinct des dossiers portant
@@ -115,14 +115,14 @@ sur le Sceau.
 
 | Fonction | Dénomination technique | Porteur | Source |
 |---|---|---|---|
-| Sceau de la Prophétie | *Khātim al-Nubuwwa* / *Khâtam el-anbiâï wa'l-mursalîn* | Muhammad | Jurjānī 0215 ; Guénon ch. V |
+| Sceau de la Prophétie | *<dfn data-terme="khatim" data-translit="Khātim" data-tradition="islam">Khātim</dfn> al-Nubuwwa* / *Khâtam el-anbiâï wa'l-mursalîn* | Muhammad | Jurjānī 0215 ; Guénon ch. V |
 | Sceau de la Sainteté universelle | *Khatm al-Wilāya al-ʿĀmma* | ʿĪsā (Jésus) | Jurjānī 0215 ; Vâlsan |
 | Sceau de la Sainteté muhammadienne | *Khatm al-Wilāya al-Muḥammadiyya* | Ibn ʿArabī | Vâlsan |
 | Pôlarité suprême (**n'est pas un Sceau**) | *al-Quṭbiyya al-Kubrā* | — | Jurjānī 1281 |
 
 ## VI. Rapport à al-Insān al-Kāmil
 
-Al-Jurjānī, déf. **0246** (*al-insān al-kāmil*) : « il totalise tous les
+Al-Jurjānī, déf. **0246** (*<dfn data-terme="al-insan-al-kamil" data-translit="al-insān al-kāmil" data-tradition="islam">al-insān al-kāmil</dfn>*) : « il totalise tous les
 domaines divins et tous les mondes produits ». La fonction de synthèse est donc
 attestée pour al-Insān al-Kāmil **en général**, indépendamment de la question
 du Khatm.
@@ -145,6 +145,6 @@ Sainteté. Voir [[doctrinal/symboles/al-insan-al-kamil]].
   autorité, et le dépôt n'en produit pas.
 - ⚠️ Pagination des sources Guénon et Vâlsan : `to-source` (authenticité
   attestée par Sidy, 2026-08-04 ; pagination non urgente).
-- La tension *walāya* (*quṭbiyya* / *khatm*) signalée aux annales du
+- La tension *<dfn data-terme="walaya" data-translit="walāya" data-tradition="islam">walāya</dfn>* (*quṭbiyya* / *khatm*) signalée aux annales du
   2026-06-29 reste à l'arbitrage de Sidy — cette page la documente sans la
   trancher.

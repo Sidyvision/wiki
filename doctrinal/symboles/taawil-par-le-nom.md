@@ -8,7 +8,7 @@ tags:
 - etymologie
 - stub
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources:
 sources_count: 0
 cross_links:
@@ -20,7 +20,7 @@ cross_links:
 
 ## Définition
 
-Technique classique d'interprétation des rêves consistant à dégager le sens d'un rêve à partir de l'étymologie ou de la signification du nom propre d'une personne apparue en songe, plutôt qu'à partir de la personne elle-même — rapportée comme remontant à Ibn Sīrīn (citation non vérifiée).
+Technique classique d'interprétation des rêves consistant à dégager le sens d'un rêve à partir de l'étymologie ou de la signification du nom propre d'une personne apparue en songe, plutôt qu'à partir de la personne elle-même — rapportée comme remontant à <span data-nom="ibn-sirin" data-genre="autorite">Ibn Sīrīn</span> (citation non vérifiée).
 
 ## Développement
 

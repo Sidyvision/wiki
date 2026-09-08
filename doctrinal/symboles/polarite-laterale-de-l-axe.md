@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [axe-du-monde, nadis, ida, pingala, sushumna, sephiroth, colonnes, soleil-lune, caducee, polarite]
 created: 2026-08-29
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/deviations/renversement-des-symboles]]"]
@@ -26,14 +26,14 @@ Kundalinî-yoga et dans l'arbre séphirothique de la Kabbale, l'identité des de
 
 ### Les trois nâdîs (Kundalinî-yoga)
 
-Les *nâdîs* « ne sont pas plus des nerfs qu'ils ne sont des vaisseaux
+Les *<dfn data-terme="nadis" data-translit="nâdîs" data-tradition="universel">nâdîs</dfn>* « ne sont pas plus des nerfs qu'ils ne sont des vaisseaux
 sanguins » : ce sont « les lignes de direction que suivent les forces vitales ».
 Les trois principaux :
 
 | Canal | Position | Qualité | Correspondance cosmique |
 |---|---|---|---|
 | *suṣumnā* | **centrale**, à l'intérieur de l'axe cérébro-spinal | porte les centres eux-mêmes | le **principe igné** |
-| *piṅgalā* | **droite**, extérieure à l'axe | masculine, positive | le **Soleil** |
+| *<dfn data-terme="pingala" data-translit="piṅgalā" data-tradition="universel">piṅgalā</dfn>* | **droite**, extérieure à l'axe | masculine, positive | le **Soleil** |
 | *iḍā* | **gauche**, extérieure à l'axe | féminine, négative | la **Lune** |
 
 *Iḍā* et *piṅgalā* sont « à l'extérieur de ce même axe, autour duquel elles
@@ -46,12 +46,12 @@ son intérieur ». La latéralité est une **qualité de voie**, non un lieu d'�
 
 ### Les trois colonnes (arbre séphirothique)
 
-L'arbre séphirothique répartit ses dix Sephiroth sur trois colonnes : celle du
+L'arbre séphirothique répartit ses dix <span data-nom="sephiroth" data-genre="entite">Sephiroth</span> sur trois colonnes : celle du
 milieu (Équilibre), celle de droite (Miséricorde), celle de gauche (Rigueur).
 
 Guénon pose l'identité des deux ternaires dans une seule phrase : les
 projections des Sephiroth se font « sur l'axe central ou "colonne du milieu",
-**qui correspond à *sushumnâ*** (les deux "colonnes" latérales étant **en
+**qui correspond à *<dfn data-terme="sushumna" data-translit="sushumnâ" data-tradition="universel">sushumnâ</dfn>*** (les deux "colonnes" latérales étant **en
 relation avec *idâ* et *pingalâ***) » ; et en note : « les différents "canaux"
 qui relient les Séphiroth entre elles ne sont pas sans analogie avec les
 *nâdîs* ».

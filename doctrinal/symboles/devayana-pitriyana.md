@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [deva-yana, pitri-yana, deux-voies, portes-solsticiales, janus, mysteres, delivrance, uttarayana, vedas]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]]", "[[doctrinal/sources/tilak-origine-polaire-tradition-vedique]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/janus-bifrons]]", "[[doctrinal/symboles/adityas-mois-du-soleil]]", "[[doctrinal/symboles/manvantara]]"]
@@ -14,7 +14,7 @@ cross_links: ["[[doctrinal/symboles/janus-bifrons]]", "[[doctrinal/symboles/adit
 # Dêva-yâna et pitri-yâna — les deux voies, et les deux moitiés du cycle
 
 Le couple était **nommé au dépôt sans y avoir de page** : il apparaissait dans la
-fiche de Janus, dans celle du *Vêdânta*, dans les portes solsticiales. Cette page
+fiche de <span data-nom="janus" data-genre="entite">Janus</span>, dans celle du *Vêdânta*, dans les <span data-nom="portes-solsticiales" data-genre="cycle">portes solsticiales</span>. Cette page
 le rassemble. Sa charpente est **guénonienne** ; le versant védique la complète,
 avec un statut distinct qui est signalé partout où il intervient.
 
@@ -23,10 +23,10 @@ avec un statut distinct qui est signalé partout où il intervient.
 *L'Homme et son devenir selon le Vêdânta*, ch. XXII, tel que porté au dépôt
 ([[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]]) :
 
-| | ***dêva-yâna*** | ***pitri-yâna*** |
+| | ***<span data-nom="deva-yana" data-genre="cycle">dêva-yâna</span>*** | ***<span data-nom="pitri-yana" data-genre="cycle">pitri-yâna</span>*** |
 |---|---|---|
 | nom | Voie des Dieux | Voie des Ancêtres |
-| pour qui | ceux qui obtiendront la **Délivrance** à partir de l'état humain | ceux qui passeront dans d'autres états de manifestation individuelle |
+| pour qui | ceux qui obtiendront la **<span data-nom="delivrance" data-genre="principe">Délivrance</span>** à partir de l'état humain | ceux qui passeront dans d'autres états de manifestation individuelle |
 | portée | vers les états supérieurs, vers l'assimilation à l'essence de la Lumière intelligible | ne conduit **pas au-delà de la Sphère de la Lune** |
 | retour | **sans retour** | l'être n'est pas libéré de la forme |
 
@@ -42,7 +42,7 @@ de la terminaison de la *suṣumnā* jusqu'à sa source.
 > — pour la voie obscure.
 
 **Le signe est astronomique.** Les deux voies sont marquées par les deux
-semestres — *uttarāyaṇa* et *dakṣiṇāyana* —, c'est-à-dire par la marche du soleil
+semestres — *<span data-nom="uttarayana" data-genre="cycle">uttarāyaṇa</span>* et *dakṣiṇāyana* —, c'est-à-dire par la marche du soleil
 entre les solstices.
 
 ## II. Les deux portes, et les deux clefs

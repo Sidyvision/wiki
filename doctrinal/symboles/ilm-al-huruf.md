@@ -10,7 +10,7 @@ tags:
 - cosmologie
 - al-buni
 created: 2026-06-02
-updated: 2026-09-02
+updated: 2026-09-08
 sources:
   - "[[doctrinal/sources/shams-al-maarif]]"
   - "[[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]]"
@@ -32,7 +32,7 @@ L'*ʿilm al-ḥurūf* (science des lettres) est une discipline de l'occultisme i
 ## Développement
 
 ### Fondements cosmologiques
-Selon [[ahmad-al-buni]] dans le *Shams al-Maʿārif al-Kubrā* (source : [[shams-al-maarif]]), le cosmos est organisé en une chaîne d'influences descendantes :
+Selon [[ahmad-al-buni]] dans le *<span data-nom="shams-al-maarif" data-genre="ouvrage">Shams al-Maʿārif</span> al-Kubrā* (source : [[shams-al-maarif]]), le cosmos est organisé en une chaîne d'influences descendantes :
 
 **Trône** (*ʿarsh*) → **Siège** (*kursī*) → **Saturne** → **Jupiter** → **Mars** → **Soleil** → **Vénus** → **Mercure** → **Lune** → **4 éléments** (feu, air, eau, terre) → **terre**
 
@@ -63,7 +63,7 @@ Exemple : la lettre *dāl* (د, valeur 4) — associée au Trône, à la permane
 Chaque lettre et chaque Nom divin génère un *wafq* (carré magique) dont les cases contiennent des nombres dont la somme est identique sur toutes les lignes, colonnes et diagonales. Ces carrés sont des outils centraux de la pratique al-būnienne, gravés sur métaux, soies ou parchemins.
 
 ### Lien avec la science des lettres chez Ibn ʿArabī
-[[ibn-arabi]] mobilise également la science des lettres, notamment dans le deuxième ciel de son *miʿrāj* (ciel de Jésus/Jean-Baptiste), associé à la *sīmiyāʾ* (science des lettres et des noms). Mais là où al-Būnī développe une pratique talismanique élaborée, Ibn ʿArabī l'intègre à sa métaphysique de la Parole divine créatrice — source : [[jesus-and-enoch-in-ibn-arabi]].
+[[ibn-arabi]] mobilise également la science des lettres, notamment dans le deuxième ciel de son *miʿrāj* (ciel de Jésus/Jean-Baptiste), associé à la *sīmiyāʾ* (science des lettres et des noms). Mais là où al-Būnī développe une pratique talismanique élaborée, <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> l'intègre à sa métaphysique de la Parole divine créatrice — source : [[jesus-and-enoch-in-ibn-arabi]].
 
 ## Concepts liés
 

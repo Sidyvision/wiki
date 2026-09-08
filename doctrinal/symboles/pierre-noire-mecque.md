@@ -8,7 +8,7 @@ tags:
 - hadith
 - axis-mundi
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -33,8 +33,8 @@ Pierre sertie dans l'angle de la Kaʿba, dite descendue du Paradis, plus blanche
 - Parole de ʿUmar ibn al-Khaṭṭāb (« Je sais que tu n'es qu'une pierre... ») : Bukhārī 1597 ; Muslim 1270.
 
 ### Lectures spirituelles
-- **Ibn ʿArabī** (*Futūḥāt*) : la Kaʿba comme Centre du Monde, projection terrestre du Temple céleste (*al-Bayt al-Maʿmūr*) ; la Pierre comme matrice réceptive et pacte primordial (*mīthāq*) matérialisé ; lecture ésotérique faisant de la Pierre un symbole du Cœur (*al-qalb*), noircie par les voiles des passions.
-- **Al-Ghazālī** (*Iḥyāʾ*, *Kitāb Asrār al-Ḥajj*) : toucher la Pierre comme acte d'allégeance intérieure et de réactivation de la sincérité (*ikhlāṣ*) — comparée à la main d'un roi qu'on embrasse, en précisant : « ce n'est pas la Pierre que l'on honore, mais Celui qui l'a ordonné ».
+- **<span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>** (*Futūḥāt*) : la Kaʿba comme Centre du Monde, projection terrestre du Temple céleste (*al-Bayt al-Maʿmūr*) ; la Pierre comme matrice réceptive et pacte primordial (*mīthāq*) matérialisé ; lecture ésotérique faisant de la Pierre un symbole du Cœur (*al-qalb*), noircie par les voiles des passions.
+- **<span data-nom="al-ghazali" data-genre="autorite">Al-Ghazālī</span>** (*Iḥyāʾ*, *Kitāb Asrār al-Ḥajj*) : toucher la Pierre comme acte d'allégeance intérieure et de réactivation de la sincérité (*ikhlāṣ*) — comparée à la main d'un roi qu'on embrasse, en précisant : « ce n'est pas la Pierre que l'on honore, mais Celui qui l'a ordonné ».
 - **Lecture guénonienne** : la Kaʿba comme Pôle, pierre angulaire, centre immobile du cosmos ; la Pierre Noire comme *axis mundi* condensé.
 
 ### Adab recommandé

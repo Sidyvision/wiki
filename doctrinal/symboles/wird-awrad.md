@@ -9,7 +9,7 @@ tags:
 - litanie
 - wird
 created: 2026-06-02
-updated: 2026-06-20
+updated: 2026-09-08
 sources:
 sources_count: 0
 cross_links:
@@ -35,7 +35,7 @@ Un *wird* (pl. *awrād*) est une litanie ou formule de dhikr assignée, récité
 Le *wird* est l'une des pratiques fondamentales du [[tasawwuf]]. Il se distingue du dhikr libre par son caractère prescrit : un maître (*shaykh*) attribue un *wird* spécifique à son disciple, qui s'engage à le réciter quotidiennement sans interruption (*dawām*).
 
 Les *awrād* peuvent prendre différentes formes :
-- **Ṣalawāt** : bénédictions sur le Prophète (voir [[salawat]])
+- **<dfn data-terme="salawat" data-translit="Ṣalawāt" data-tradition="islam">Ṣalawāt</dfn>** : bénédictions sur le Prophète (voir [[salawat]])
 - **Adhkār** : formules de rappel de Dieu (tahlīl, tasbīḥ, taḥmīd…)
 - **Aḥzāb** : litanies structurées, souvent longues, associant invocations et versets coraniques
 
@@ -48,7 +48,7 @@ La relation entre le *wird* et la [[walaya]] est directe dans la tradition akbar
 - [[salawat]] — composante principale des awrād akbariens
 - [[walaya]] — finalité spirituelle visée par la pratique du wird
 - [[tasawwuf]] — cadre global dont le wird est une pratique centrale
-- [[wazifa]] — recueil d'awrād de la Naqshbandiyya (manuel haqqani)
+- [[wazifa]] — recueil d'awrād de la <span data-nom="naqshbandiyya" data-genre="ecole">Naqshbandiyya</span> (manuel haqqani)
 - [[khatm-al-khawajakan]] — wird collectif naqshbandi codifié
 - [[tawakkul]] — le dhikr quotidien de *Ḥasbiyallāh* (7× matin et soir, cf. [[hasbiyallah-rabbani]]) comme wird de la confiance
 

@@ -8,7 +8,7 @@ tags:
 - occultisme-populaire
 - distinction-doctrinale
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -26,7 +26,7 @@ cross_links:
 
 ## Développement
 
-Le sens premier, non contestable, du terme : *akhmar* signifie simplement « rouge » en arabe classique. Les associations symboliques rapportées dans la conversation source (le rouge comme couleur de la Majesté divine *jalāl* chez Ibn ʿArabī, ou comme élément feu dans l'astrologie/alchimie) sont, elles, documentées par ailleurs dans la littérature soufie classique et peuvent être distinguées de la classification populaire des jinns, qui reste, elle, non sourcée scripturairement.
+Le sens premier, non contestable, du terme : *akhmar* signifie simplement « rouge » en arabe classique. Les associations symboliques rapportées dans la conversation source (le rouge comme couleur de la Majesté divine *jalāl* chez <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, ou comme élément feu dans l'astrologie/alchimie) sont, elles, documentées par ailleurs dans la littérature soufie classique et peuvent être distinguées de la classification populaire des jinns, qui reste, elle, non sourcée scripturairement.
 
 ## Concepts liés
 

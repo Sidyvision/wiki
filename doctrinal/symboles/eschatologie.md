@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [eschatologie, fin-des-temps, resurrection, barzakh, miraj, cycles, ibn-arabi]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"]
 sources_count: 1
 cross_links: ["[[walaya]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[manvantara]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[manazil-al-qamar]]", "[[nafas-rahmani]]"]
@@ -16,7 +16,7 @@ cross_links: ["[[walaya]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[manvantar
 ## Définition
 
 L'eschatologie (*maʿād*, « le retour ») désigne la doctrine des **fins dernières** :
-la mort, le *barzakh* ([[barzakh]]) comme séjour intermédiaire, la résurrection et
+la mort, le *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>* ([[barzakh]]) comme séjour intermédiaire, la résurrection et
 la destinée dernière. Chez [[ibn-arabi|Ibn ʿArabī]], le traité *De la mort à la
 résurrection* (traité issu du **chapitre 198 des *Futūhāt al-Makkiyya***, « Sur la
 connaissance du Souffle ») ne l'expose pas comme un récit isolé, mais l'articule à
@@ -53,7 +53,7 @@ sphères manifestées, comme, eschatologiquement, entre la mort et la résurrect
 ## Le Miʿrāj comme paradigme de la remontée
 
 Aux degrés 21-27, la source associe à chaque **sphère planétaire** un **Nom divin**,
-une **lettre** et un **prophète rencontré lors du Miʿrāj**, avec le jour
+une **lettre** et un **prophète rencontré lors du <dfn data-terme="miraj" data-translit="Miʿrāj" data-tradition="islam">Miʿrāj</dfn>**, avec le jour
 correspondant (fiche source, pp. 38-39) :
 
 | Sphère | Prophète (Miʿrāj) | Jour |
@@ -75,7 +75,7 @@ trajet dans la trame phonatoire et zodiacale du *nafas* ([[nafas-rahmani]]).
 ## Le terme : l'Homme parfait
 
 Le **degré 38** — *Rafīʿ ad-Darajāt* (« Celui qui élève les degrés »), lettre *wāw* —
-est celui de l'**Homme parfait** (*al-insān al-kāmil*), donné par la source comme
+est celui de l'**Homme parfait** (*<dfn data-terme="al-insan-al-kamil" data-translit="al-insān al-kāmil" data-tradition="islam">al-insān al-kāmil</dfn>*), donné par la source comme
 « **synthèse de tous les degrés antérieurs** » (fiche source, p. 40). Il n'est donc
 pas un degré parmi d'autres, mais la **récapitulation** de toute l'échelle : le point
 où le retour s'achève en rejoignant, par le bas de la manifestation, ce que le Calame
@@ -92,7 +92,7 @@ classées du plus profond (*hamza* = glotte = Intellect premier) au plus extéri
 
 Cette eschatologie **ontologique et individuelle** (le retour de l'être à travers les
 degrés) se distingue — **sans s'y opposer** — de l'eschatologie **cyclique**
-d'inspiration guénonienne, qui situe la fin d'un cycle (la fin des temps modernes)
+d'inspiration guénonienne, qui situe la fin d'un cycle (la <span data-nom="fin-des-temps" data-genre="cycle">fin des temps</span> modernes)
 dans le déroulement du [[manvantara|Manvantara]]. La première décrit le retour de
 l'individu à son Principe ; la seconde, la clôture d'un cycle cosmique. Les deux
 perspectives se recoupent sur la notion de **retour au Principe**, à des échelles
@@ -102,7 +102,7 @@ différentes (l'être individuel / le cycle du monde).
 
 La source disponible ([[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]])
 est la **fiche de lecture du chapitre 198** : elle établit la **structure
-cosmologique** dans laquelle Ibn ʿArabī inscrit le passage de la mort à la
+cosmologique** dans laquelle <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> inscrit le passage de la mort à la
 résurrection, mais **ne transcrit pas** le détail du récit eschatologique proprement
 dit (états du *barzakh*, modalités de la Résurrection, Jugement, Jardin). Ces
 développements — présents dans l'ouvrage mais non encore versés au dépôt — restent à

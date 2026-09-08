@@ -11,7 +11,7 @@ tags:
 - nutrition
 - hijama
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -35,7 +35,7 @@ Il a confirmé certaines pratiques médicales de son époque (miel, graine de ni
 
 ### Pratiques et thérapies clés
 
-- **Miel** : nettoyage du phlegme, remède universel selon Ibn Qayyim ; à consommer à jeun dans de l’eau (miel dissous la nuit précédente)
+- **Miel** : nettoyage du phlegme, remède universel selon <span data-nom="ibn-qayyim" data-genre="autorite">Ibn Qayyim</span> ; à consommer à jeun dans de l’eau (miel dissous la nuit précédente)
 - **Graine de nigelle** (habba as-sauda / nigelle sativa) : “guérison de tout sauf la mort” (Tirmidhi 2041) ; antihistaminique, anti-tumoral
 - **Hijama** (ventouses humides) : thérapie de rééquilibrage, particulièrement bénéfique pour le type Cholérique
 - **Jeûne prophétique** (12–18h) : autophagie, cétose, réparation cellulaire, détoxification
@@ -54,7 +54,7 @@ Il a confirmé certaines pratiques médicales de son époque (miel, graine de ni
 ### Distinction avec la médecine islamique
 
 - **Tibb-e-Nabawi** = enseignements directs du Prophète ﷺ
-- **Médecine islamique** = édifice scientifique bâti ensuite par les savants musulmans (Ibn Sina, Al-Razi, Al-Zahrawi…) sur cette base, en intégrant médecine grecque, persane, ayurvédique et chinoise à travers le filtre de la shariah
+- **Médecine islamique** = édifice scientifique bâti ensuite par les savants musulmans (<span data-nom="ibn-sina" data-genre="autorite">Ibn Sina</span>, Al-Razi, Al-Zahrawi…) sur cette base, en intégrant médecine grecque, persane, ayurvédique et chinoise à travers le filtre de la shariah
 
 ### Rapport à la médecine moderne
 

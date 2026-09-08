@@ -5,7 +5,7 @@ status: contre-traditionnel
 tradition_cadre: "universel"
 tags: [archeometre, saint-yves-dalveydre, rene-guenon, rose-croix, comparatisme, non-syncretisme, vigilance]
 created: 2026-06-29
-updated: 2026-06-29
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/figure-archeometre-islamise-mahdi-rouge]]", "[[doctrinal/sources/archeometre-saint-yves-papus-1911]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/wahdat-al-wujud]]", "[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/symboles/ilm-al-nujum]]", "[[doctrinal/symboles/talisman-sihr]]"]
@@ -33,8 +33,8 @@ l'Antiquité* pour sauver ce travail de la perte. C'est cette édition,
 possédée en bibliothèque physique par Sidy, qui constitue la source primaire
 de référence pour cette fiche — source :
 [[doctrinal/sources/archeometre-saint-yves-papus-1911]]. C'est par ailleurs
-Charles Barlet qui transmit des documents inédits de Saint-Yves à René
-Guénon, lequel, avec ses collaborateurs de la revue *La Gnose*, en publia un
+Charles Barlet qui transmit des documents inédits de Saint-Yves à <span data-nom="rene-guenon" data-genre="autorite">René
+Guénon</span>, lequel, avec ses collaborateurs de la revue *La Gnose*, en publia un
 commentaire plus clair (voir ci-dessous).
 
 ## La réception guénonienne — un cas à part dans le corpus
@@ -67,7 +67,7 @@ des lettres arabes, *manāzil al-qamar*, **الله** au centre) ne documentent 
 *pas* une correspondance akbarienne ou traditionnelle attestée par les
 autorités du Taçawwuf ; elles documentent une **transposition d'un instrument
 occidental** sur un matériau islamique. Toute lecture de cette figure en
-termes de *Waḥdat al-Wujūd*, de *ʿilm al-ḥurūf* ou de *ʿilm al-nujūm* doit être
+termes de *<dfn data-terme="wahdat-al-wujud" data-translit="Waḥdat al-Wujūd" data-tradition="universel">Waḥdat al-Wujūd</dfn>*, de *<dfn data-terme="ilm-al-huruf" data-translit="ʿilm al-ḥurūf" data-tradition="universel">ʿilm al-ḥurūf</dfn>* ou de *<dfn data-terme="ilm-al-nujum" data-translit="ʿilm al-nujūm" data-tradition="universel">ʿilm al-nujūm</dfn>* doit être
 traitée comme une **proposition extérieure à confronter**, jamais comme une
 équivalence établie — cf. le précédent de distinction doctrinale opérée au
 sein même d'une page symbole : [[doctrinal/symboles/talisman-sihr]].

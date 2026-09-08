@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "hindouisme"
 tags: [ushas, vyushti, aurore, trente-soeurs, vedas, tilak, roue, to-source]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/tilak-origine-polaire-tradition-vedique]]", "to-source"]
 sources_count: 2
 cross_links: ["[[doctrinal/symboles/adityas-mois-du-soleil]]", "[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]"]
@@ -23,7 +23,7 @@ l'aurore, et s'arrête là.
 
 ## I. Deux mots, non un
 
-Le corpus distingue **Uṣas** — l'aurore — et **Vyuṣṭi**, le point du jour. Tilak
+Le corpus distingue **Uṣas** — l'aurore — et **Vyuṣṭi**, le point du jour. <span data-nom="tilak" data-genre="autorite">Tilak</span>
 tient cette dualité pour un premier indice de **durée** : là où l'aurore est
 brève, un seul mot suffit.
 

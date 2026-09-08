@@ -26,9 +26,9 @@ effilée s'enroulant autour d'elle — employée seule, mais presque toujours gr
 par deux, trois ou quatre autour d'un centre commun, toutes tournées dans le même
 sens. C'est simultanément :
 
-- un **kamon** (emblème de maison), largement porté par la caste guerrière ;
+- un **<dfn data-terme="kamon" data-translit="kamon" data-tradition="shintoisme">kamon</dfn>** (emblème de maison), largement porté par la caste guerrière ;
 - un ***shinmon*** (神紋, emblème de sanctuaire), au premier chef celui des
-  sanctuaires du kami **Hachiman** ;
+  sanctuaires du kami **<span data-nom="hachiman" data-genre="entite">Hachiman</span>** ;
 - un **motif d'architecture**, placé sur la tuile faîtière (*onigawara*, *tomoe-gawara*).
 
 ## Le blason et le tracé

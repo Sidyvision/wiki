@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [malamatiyya, afrad, walaya, sainteté, dissimulation, tasawwuf]
 created: 2026-07-09
-updated: 2026-08-04
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/malamatiyah-futuhat-ch23]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/ibn-arabi]
 
 ## Définition
 
-Les *malâmiyya* ou *malâmatiyya* — « gens du blâme » (*ahl al-malâma*) — désignent, selon Ibn ʿArabī (*Futūḥāt*, ch. 23), l'une des plus hautes catégories de la sainteté islamique, que seule la prophétie surpasse. Leur nom vient de ce qu'ils dissimulent volontairement leur degré spirituel réel sous des dehors ordinaires, au point de s'exposer parfois au blâme de ceux qui jugent selon les apparences — sans que leurs actes soient en rien répréhensibles au regard de la Loi, qu'ils observent et enseignent au contraire avec un soin particulier.
+Les *malâmiyya* ou *malâmatiyya* — « gens du blâme » (*ahl al-malâma*) — désignent, selon <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> (*Futūḥāt*, ch. 23), l'une des plus hautes catégories de la sainteté islamique, que seule la prophétie surpasse. Leur nom vient de ce qu'ils dissimulent volontairement leur degré spirituel réel sous des dehors ordinaires, au point de s'exposer parfois au blâme de ceux qui jugent selon les apparences — sans que leurs actes soient en rien répréhensibles au regard de la Loi, qu'ils observent et enseignent au contraire avec un soin particulier.
 
 ## Statut au regard de la sainteté (*wilâya*)
 
@@ -23,7 +23,7 @@ Leur station est celle de la proximité au cœur de la *wilâya* (la sainteté).
 
 ## Les Afrâd (« esseulés »)
 
-Les *malâmiyya* portent également le nom d'*afrâd* (sing. *fard*, « solitaire »), parce qu'ils sont totalement absorbés par une théophanie perpétuelle qui leur fait oublier jusqu'à leur propre personne. Cette absorption ininterrompue les distingue des autres catégories de saints, dont les théophanies ne sont pas continues.
+Les *malâmiyya* portent également le nom d'*<dfn data-terme="afrad" data-translit="afrâd" data-tradition="islam">afrâd</dfn>* (sing. *fard*, « solitaire »), parce qu'ils sont totalement absorbés par une théophanie perpétuelle qui leur fait oublier jusqu'à leur propre personne. Cette absorption ininterrompue les distingue des autres catégories de saints, dont les théophanies ne sont pas continues.
 
 ## Rapport à la prophétie : la question de la *taswîd* (seigneurie)
 
@@ -49,4 +49,4 @@ Le chapitre 23 situe les *malâmiyya*/*afrâd* parmi les catégories les plus é
 
 ---
 
-*Source unique : [[doctrinal/sources/malamatiyah-futuhat-ch23]] — Ibn ʿArabī, Futūḥāt al-Makkiyya, ch. 23, trad. A. Penot (Entrelacs, 2009) ; annexes René Guénon.*
+*Source unique : [[doctrinal/sources/malamatiyah-futuhat-ch23]] — Ibn ʿArabī, Futūḥāt al-Makkiyya, ch. 23, trad. A. Penot (Entrelacs, 2009) ; annexes <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>.*

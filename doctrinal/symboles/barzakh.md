@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, isthme, ontologie, ibn-arabi]
 created: 2026-06-02
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[jesus-and-enoch-in-ibn-arabi]]", "[[awrad-ibn-arabi]]", "[[barzakh-nur-lh]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 4
 cross_links: ["[[ibn-arabi]]", "[[wahdat-al-wujud]]", "[[walaya]]", "[[tasawwuf]]", "[[idris]]", "[[hadarat-khams]]", "[[doctrinal/symboles/alam-al-mithal]]"]
@@ -19,7 +19,7 @@ Le *barzakh* (isthme, barrière, intermédiaire) désigne dans la métaphysique 
 
 ## Développement
 
-Le terme coranique *barzakh* (Q.55:20 — « Entre eux deux, un isthme qu'ils ne franchissent pas ») est élevé par Ibn ʿArabī au rang de catégorie ontologique fondamentale. Tout ce qui existe est, d'une certaine façon, un *barzakh* : une réalité intermédiaire entre le pur Être divin et le néant absolu.
+Le terme coranique *barzakh* (Q.55:20 — « Entre eux deux, un isthme qu'ils ne franchissent pas ») est élevé par <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> au rang de catégorie ontologique fondamentale. Tout ce qui existe est, d'une certaine façon, un *barzakh* : une réalité intermédiaire entre le pur Être divin et le néant absolu.
 
 ### Jésus comme archétype du *barzakh*
 

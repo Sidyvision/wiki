@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "kabbale"
 tags: [kabbale, gilgul, ibur, tikun, reincarnation, ame-soeur, teshuva, lurianique]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/cinq-noms-ame]]", "[[doctrinal/deviations/reincarnation-vies-anterieures]]", "[[doctrinal/autorites/isaac-louria-arizal]]", "[[doctrinal/autorites/haim-vital]]"]
@@ -18,7 +18,7 @@ cross_links: ["[[doctrinal/symboles/cinq-noms-ame]]", "[[doctrinal/deviations/re
 Le *Gilgul* (« roue », réincarnation) est, selon
 [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]], le
 mécanisme par lequel une âme endommagée par le péché revient dans un autre
-corps pour être rectifiée (*tikun*). Un premier retour est un premier Gilgul ;
+corps pour être rectifiée (*<dfn data-terme="tikun" data-translit="tikun" data-tradition="kabbale">tikun</dfn>*). Un premier retour est un premier Gilgul ;
 si la rectification n'aboutit pas, un second suit, et ainsi de suite.
 
 Origine des âmes : elles étaient toutes contenues en Adam Harishon ; à sa
@@ -47,7 +47,7 @@ pécheur — plus haut le niveau, plus loin remonte le dommage.
 
 ## Ibur (attachement sans naissance)
 
-L'*Ibur* est distinct du Gilgul proprement dit : c'est l'attachement d'une
+L'*<dfn data-terme="ibur" data-translit="Ibur" data-tradition="kabbale">Ibur</dfn>* est distinct du Gilgul proprement dit : c'est l'attachement d'une
 âme à une autre personne déjà vivante, sans passer par une nouvelle naissance
 propre. La source rapporte, dans le contexte spécifique des âmes féminines
 (réputées pouvoir se purifier plus rapidement au Gehinom et ne pas toujours
@@ -67,7 +67,7 @@ doublement quand un père enseigne la Torah à son fils.
 
 ## Réincarnation dans le minéral ou le végétal
 
-La source rapporte, par l'intermédiaire de Rabbi Haïm Vital observant
+La source rapporte, par l'intermédiaire de Rabbi <span data-nom="haim-vital" data-genre="autorite">Haïm Vital</span> observant
 l'Arizal, des cas où l'âme d'un érudit fautif se serait réincarnée dans une
 pierre ou un végétal — anecdotes présentées comme vérifiées après enquête,
 sans que l'Arizal ait connu personnellement les individus concernés.
@@ -85,7 +85,7 @@ modernes » étrangère à la tradition hindoue authentique (*L'Homme et son
 devenir selon le Vêdânta*, ch. XXII : « un être, quel qu'il soit, ne peut
 passer deux fois par le même état »). Le Gilgul kabbalistique décrit ici n'est
 pas la même doctrine que le « réincarnationnisme » occidental moderne visé
-par Guénon — il appartient à une chaîne de transmission distincte (kabbale
+par Guénon — il appartient à une chaîne de transmission distincte (<span data-nom="kabbale" data-genre="ecole">kabbale</span>
 lurianique, texte consigné par Haïm Vital) et n'a pas été confronté au
 critère guénonien dans cette fiche.
 

@@ -8,7 +8,7 @@ tags:
 - oniromancie
 - hadith
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -26,7 +26,7 @@ Prier à *al-Masjid an-Nabawī* possède une valeur spirituelle particulière, f
 ## Développement
 
 ### Sens réel
-Lieu saturé de présence prophétique (enseignement, vie communautaire primitive, tombeau du Prophète ﷺ). La visite (*ziyāra*) est recommandée par al-Ghazālī (*Iḥyāʾ*) comme manifestation d'amour et de gratitude envers le Prophète. Ibn ʿArabī la rattache à la *ḥaqīqa al-muḥammadiyya* (réalité muhammadienne).
+Lieu saturé de présence prophétique (enseignement, vie communautaire primitive, tombeau du Prophète ﷺ). La visite (*ziyāra*) est recommandée par al-Ghazālī (*Iḥyāʾ*) comme manifestation d'amour et de gratitude envers le Prophète. <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> la rattache à la *ḥaqīqa al-muḥammadiyya* (réalité muhammadienne).
 
 ### Sens onirique
 Dans le *taʿbīr al-ruʾyā* classique (Ibn Sīrīn, al-Nābulusī), rêver de prier dans cette mosquée est généralement un rêve favorable, signe de rectitude religieuse, de proximité avec la Sunna et de bénédiction. Lecture intérieure (soufie) : la mosquée représente le cœur purifié, Médine la proximité de la miséricorde, la prière l'orientation totale vers Dieu. Les détails du rêve affinent le sens (prier calmement → paix ; prier dans la Rawḍa → grâce particulière ; chercher la mosquée sans la trouver → quête inachevée).

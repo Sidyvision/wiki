@@ -8,7 +8,7 @@ tags:
 - hadith
 - geographie-sacree
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -32,8 +32,8 @@ Espace situé entre la Tombe du Prophète ﷺ et son minbar, à l'intérieur de 
 
 ### Lectures des autorités
 - **Fuqahāʾ** (Mālik, Shāfiʿī, Aḥmad, Abū Ḥanīfa) : prière recommandée (*mustaḥabb*) dans la Rawḍa, valeur spirituelle accrue, sans croire qu'il s'agit littéralement du Paradis terrestre.
-- **Al-Ghazālī** (*Iḥyāʾ*) : lieu de dévoilement d'une douceur spirituelle (*ladhdha rūḥāniyya*).
-- **Ibn ʿArabī** (*Futūḥāt*, *Fuṣūṣ*) : *maqām de tajallī*, lieu où le monde sensible s'ouvre sur l'archétype céleste (*al-mithāl al-aʿlā*).
+- **<span data-nom="al-ghazali" data-genre="autorite">Al-Ghazālī</span>** (*Iḥyāʾ*) : lieu de dévoilement d'une douceur spirituelle (*ladhdha rūḥāniyya*).
+- **<span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>** (*Futūḥāt*, *Fuṣūṣ*) : *maqām de tajallī*, lieu où le monde sensible s'ouvre sur l'archétype céleste (*al-mithāl al-aʿlā*).
 - **Lecture guénonienne (Guénon, Burckhardt)** : la Rawḍa comme « Centre du Centre » de la géographie sacrée islamique, point de jonction entre monde formel et monde principiel.
 
 ## Concepts liés

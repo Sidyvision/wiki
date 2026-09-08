@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, homme-universel, jili, ibn-arabi, prophetologie]
 created: 2026-06-05
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[universal-man-jili]]", "[[jesus-and-enoch-in-ibn-arabi]]", "[[awrad-ibn-arabi]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 4
 cross_links: ["[[abd-al-karim-al-jili]]", "[[ibn-arabi]]", "[[wahdat-al-wujud]]", "[[barzakh]]", "[[walaya]]", "[[tasawwuf]]", "[[hadarat-khams]]"]
@@ -23,7 +23,7 @@ cross_links: ["[[abd-al-karim-al-jili]]", "[[ibn-arabi]]", "[[wahdat-al-wujud]]"
 
 Le concept est central dans l'œuvre d'[[ibn-arabi]] (*al-Shaykh al-Akbar*) et reçoit sa systématisation la plus complète dans *al-Insān al-Kāmil* de [[abd-al-karim-al-jili]] (source : [[universal-man-jili]]).
 
-L'Homme Universel n'est pas réellement distinct de Dieu : il est comme le visage de Dieu dans Ses créatures. Jīlī écrit : « Il est le pôle (*quṭb*) autour duquel évoluent les sphères de l'existence, du premier au dernier ; il est unique tant que dure l'existence. » — source : [[universal-man-jili]]
+L'Homme Universel n'est pas réellement distinct de Dieu : il est comme le visage de Dieu dans Ses créatures. <span data-nom="jili" data-genre="autorite">Jīlī</span> écrit : « Il est le pôle (*quṭb*) autour duquel évoluent les sphères de l'existence, du premier au dernier ; il est unique tant que dure l'existence. » — source : [[universal-man-jili]]
 
 ### Synthèse totalisatrice (définition de Jurjānī)
 
@@ -48,7 +48,7 @@ Vérifié sur l'édition physique (trad. Maurice Gloton, Albouraq).
 
 Dans la perspective islamique, l'Homme Universel est identifié au Prophète Muḥammad. C'est en lui que se concentre la totalité des Noms et Qualités divins. Jīlī affirme avoir rencontré l'Homme Universel dans la forme de son maître al-Jabartī, sans savoir initialement qu'il s'agissait du Prophète — montrant que l'Homme Universel peut se manifester sous différentes formes selon les époques — source : [[universal-man-jili]].
 
-Dans la Ṣalāt al-Fayḍiyya al-Kubrā d'Ibn ʿArabī, le Prophète est décrit comme : premier des êtres déterminés (*awwal al-taʿayyunāt*), réunissant les Cinq Présences divines, *barzakh* entre existence et non-existence — source : [[awrad-ibn-arabi]].
+Dans la Ṣalāt al-Fayḍiyya al-Kubrā d'Ibn ʿArabī, le Prophète est décrit comme : premier des êtres déterminés (*awwal al-taʿayyunāt*), réunissant les Cinq Présences divines, *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>* entre existence et non-existence — source : [[awrad-ibn-arabi]].
 
 Dans la prophétologie d'Ibn ʿArabī, Jésus (*ʿĪsā*) est l'archétype du *[[barzakh]]* — l'Homme Universel dans sa dimension de médiation — source : [[jesus-and-enoch-in-ibn-arabi]].
 
@@ -164,7 +164,7 @@ Bien que dans l'islam l'Homme Universel soit identifié au Prophète Muḥammad,
 
 ### Lien avec la *walāya*
 
-L'Homme Universel est le *quṭb* (pôle) suprême de la hiérarchie de la [[walaya]]. Ibn ʿArabī revendique pour lui-même le rang de *khatm al-walāya al-muḥammadiyya* (Sceau de la Sainteté Muhammadienne), rang analogue à celui d'Homme Universel — source : [[awrad-ibn-arabi]].
+L'Homme Universel est le *quṭb* (pôle) suprême de la hiérarchie de la [[walaya]]. <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> revendique pour lui-même le rang de *khatm al-walāya al-muḥammadiyya* (Sceau de la Sainteté Muhammadienne), rang analogue à celui d'Homme Universel — source : [[awrad-ibn-arabi]].
 
 ### Lien avec les Cinq Présences divines (point de vigilance)
 

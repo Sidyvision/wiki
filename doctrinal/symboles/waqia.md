@@ -9,7 +9,7 @@ tags:
 - stub
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-08-25
+updated: 2026-09-08
 sources:
 - '[[doctrinal/sources/kitab-al-tarifat-jurjani]]'
 sources_count: 1
@@ -21,7 +21,7 @@ cross_links:
 
 ## Définition
 
-*Waqiʿa* (واقعة) : dans le vocabulaire soufi, un événement intérieur réel qui survient à l'âme sans avoir été cherché ni imaginé, distinct du rêve ordinaire (*ru'yā*) et de la pensée discursive. À distinguer de *al-Wāqiʿa*, nom de la 56e sourate du Coran, désignant l'Heure dernière — événement cosmique, collectif et irréversible. Le rapport entre les deux relève, chez Ibn ʿArabī, d'une analogie de structure (« ce qui se manifestera totalement à la fin se manifeste partiellement à certains cœurs par anticipation »), jamais d'une identité.
+*Waqiʿa* (واقعة) : dans le vocabulaire soufi, un événement intérieur réel qui survient à l'âme sans avoir été cherché ni imaginé, distinct du rêve ordinaire (*ru'yā*) et de la pensée discursive. À distinguer de *al-Wāqiʿa*, nom de la 56e sourate du Coran, désignant l'Heure dernière — événement cosmique, collectif et irréversible. Le rapport entre les deux relève, chez <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, d'une analogie de structure (« ce qui se manifestera totalement à la fin se manifeste partiellement à certains cœurs par anticipation »), jamais d'une identité.
 
 ## Occurrence vérifiée dans le *Taʿrīfāt* (déf. 1333)
 

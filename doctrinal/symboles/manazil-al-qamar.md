@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ilm-al-nujum, manazil-al-qamar, demeures-lunaires, zodiaque, ibn-arabi, fusus-al-hikam, walaya, eschatologie, khatm-al-walaya]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-09-08
 sources: ["[[fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]]"]
 sources_count: 1
 cross_links: ["[[ilm-al-nujum]]", "[[walaya]]", "[[al-insan-al-kamil]]", "[[asma-al-husna]]", "[[barzakh]]", "[[ibn-arabi]]"]
@@ -15,11 +15,11 @@ cross_links: ["[[ilm-al-nujum]]", "[[walaya]]", "[[al-insan-al-kamil]]", "[[asma
 
 ## Définition
 
-Les *manāzil al-qamar* (منازل القمر) sont les 28 Demeures ou stations lunaires — les 28 secteurs du zodiaque que la Lune parcourt en un mois (révolution sidérale de 27,3 jours, arrondie à 28 stations). Le Coran y fait référence : « Il a décrété des Demeures à la Lune afin que vous sachiez compter les années et calculer le temps » (*Yūnus*, 5). Elles constituent la base de l'astrologie lunaire islamique (*ʿilm al-nujūm*), distincte du calcul planétaire solaire — source : [[fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]].
+Les *manāzil al-qamar* (منازل القمر) sont les 28 Demeures ou stations lunaires — les 28 secteurs du zodiaque que la Lune parcourt en un mois (révolution sidérale de 27,3 jours, arrondie à 28 stations). Le Coran y fait référence : « Il a décrété des Demeures à la Lune afin que vous sachiez compter les années et calculer le temps » (*Yūnus*, 5). Elles constituent la base de l'astrologie lunaire islamique (*<dfn data-terme="ilm-al-nujum" data-translit="ʿilm al-nujūm" data-tradition="islam">ʿilm al-nujūm</dfn>*), distincte du calcul planétaire solaire — source : [[fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]].
 
 ## Les 28 Demeures et le zodiaque
 
-Les 28 Demeures se répartissent sur les 12 signes du Zodiaque (environ 2,33 Demeures par signe). La structure de référence est l'axe équinoxial Bélier/Balance, point de départ du cycle zodiacal standard ; mais pour le cycle islamique selon Ibn ʿArabī, le cycle zodiacal commence avec la **Balance** (voir [[manvantara]] et [[fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]]).
+Les 28 Demeures se répartissent sur les 12 signes du Zodiaque (environ 2,33 Demeures par signe). La structure de référence est l'axe équinoxial Bélier/Balance, point de départ du cycle zodiacal standard ; mais pour le cycle islamique selon <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, le cycle zodiacal commence avec la **Balance** (voir [[manvantara]] et [[fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]]).
 
 ## La 14ème et la 28ème Demeure — seuil eschatologique
 
@@ -28,7 +28,7 @@ Ce couple de Demeures structure le passage entre Petits et Grands Mystères, sel
 ### 14ème Demeure — *al-simāk* (l'Épi)
 
 - **Position** : 17°8'37" au 30° de la Vierge (*al-sunbulah*)
-- ***Façç*** : celui de ʿUzayr dans les *Fuṣūṣ al-Ḥikam* d'Ibn ʿArabī
+- ***Façç*** : celui de ʿUzayr dans les *<span data-nom="fusus-al-hikam" data-genre="ouvrage">Fuṣūṣ al-Ḥikam</span>* d'Ibn ʿArabī
 - **Lettre** : *nūn* (ن)
 - **Nom divin** : *al-Nūr* (النور — la Lumière)
 - **Sagesse** : Providentielle (*qadiriyyah*)
@@ -39,7 +39,7 @@ Ce couple de Demeures structure le passage entre Petits et Grands Mystères, sel
 
 ### 28ème Demeure — terme du cycle
 
-- **Signification eschatologique** : correspondances avec le « Sceau de la Sainteté muhammadienne » (*khatm al-walāya al-muḥammadiyya*) — préfigure la fonction du Mahdī, qui s'achèvera à la fin du cycle humain actuel
+- **Signification eschatologique** : correspondances avec le « Sceau de la Sainteté muhammadienne » (*<dfn data-terme="khatm-al-walaya" data-translit="khatm al-walāya" data-tradition="islam">khatm al-walāya</dfn> al-muḥammadiyya*) — préfigure la fonction du Mahdī, qui s'achèvera à la fin du cycle humain actuel
 - **Lien** : [[walaya]] (*khatm al-walāya*), [[al-insan-al-kamil]]
 - Source : [[fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]]
 
@@ -57,7 +57,7 @@ Les Signes Mutables, « synthétisant l'immutabilité spirituelle et l'expansivi
 
 ## Pertinence pour l'Instrument
 
-Les Demeures lunaires constituent un système de degrés horizontaux (28 stations sur le plan écliptique) directement articulé à l'axe vertical des *Ḥaḍarāt al-Khams* via la correspondance Ciel du Soleil ↔ 14ème Demeure ↔ *façç* de ʿUzayr. Ce lien est une des rares correspondances entre le système des demeures lunaires et le système des Présences divines explicitement sourcé dans les *Fuṣūṣ*. Pertinent pour la **Phase 5 (couche astrologique)** de l'Instrument et pour la question ouverte des directions horizontales (§8.2 de l'architecture v0.2).
+Les <span data-nom="demeures-lunaires" data-genre="cycle">Demeures lunaires</span> constituent un système de degrés horizontaux (28 stations sur le plan écliptique) directement articulé à l'axe vertical des *Ḥaḍarāt al-Khams* via la correspondance Ciel du Soleil ↔ 14ème Demeure ↔ *façç* de ʿUzayr. Ce lien est une des rares correspondances entre le système des demeures lunaires et le système des Présences divines explicitement sourcé dans les *Fuṣūṣ*. Pertinent pour la **Phase 5 (couche astrologique)** de l'Instrument et pour la question ouverte des directions horizontales (§8.2 de l'architecture v0.2).
 
 ## Concepts liés
 

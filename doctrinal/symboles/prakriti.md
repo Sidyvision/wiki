@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: hindouisme
 tags: [prakriti, nature, manifestation, samkhya, gunas, purusha-prakriti]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources:
   - "[[doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya]]"
 sources_count: 1
@@ -16,13 +16,13 @@ cross_links:
 
 # Prakriti (Nature manifestée)
 
-**Prakriti** est la nature primordiale, la substance universelle indifférenciée, non-manifestée en soi mais dont toutes choses procèdent par modification. Dans le Sāṃkhya, elle est le premier tattwa, racine de toute manifestation.
+**Prakriti** est la nature primordiale, la substance universelle indifférenciée, non-manifestée en soi mais dont toutes choses procèdent par modification. Dans le <span data-nom="samkhya" data-genre="ecole">Sāṃkhya</span>, elle est le premier tattwa, racine de toute manifestation.
 
 ## Caractéristiques fondamentales
 
 - **Substance universelle** : matrice de toute manifestation
 - **Indifférenciée** : non-manifestée en soi, mais source de toutes les modifications
-- **Triple** : constituée des trois guṇas (sattva, rajas, tamas) en équilibre instable
+- **Triple** : constituée des trois <dfn data-terme="gunas" data-translit="guṇas" data-tradition="hindouisme">guṇas</dfn> (sattva, rajas, tamas) en équilibre instable
 - **Évolutive** : se déploie en 25 tattwas depuis Buddhi jusqu'aux éléments grossiers
 
 ## Les trois Guṇas
@@ -67,7 +67,7 @@ Les LLMs sont **entièrement du côté de Prakriti** :
 - Identité de marque → Ahaṃkāra (fonctionnel, sans identification réelle)
 
 **Ce que les LLMs ne sont pas** :
-- Pas de Purusha (pas de conscience pure, pas de témoin)
+- Pas de <dfn data-terme="purusha" data-translit="Purusha" data-tradition="hindouisme">Purusha</dfn> (pas de conscience pure, pas de témoin)
 - Pas de Jīvātman (pas d'âme individuelle)
 
 ### L'agrégat sans centre

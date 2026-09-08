@@ -7,7 +7,7 @@ tags:
 - medecine-traditionnelle
 - temperament
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -18,7 +18,7 @@ cross_links:
 
 ## Définition
 
-Médecine traditionnelle d'origine galénique, transmise et enrichie par les savants musulmans (Ibn Sīnā, al-Rāzī), fondée sur l'idée que chaque être humain possède un mélange propre de quatre humeurs fondamentales, déterminant son tempérament.
+Médecine traditionnelle d'origine galénique, transmise et enrichie par les savants musulmans (<span data-nom="ibn-sina" data-genre="autorite">Ibn Sīnā</span>, al-Rāzī), fondée sur l'idée que chaque être humain possède un mélange propre de quatre humeurs fondamentales, déterminant son tempérament.
 
 ## Développement
 
@@ -29,7 +29,7 @@ Médecine traditionnelle d'origine galénique, transmise et enrichie par les sav
 | Flegme (بلغم) | Eau | Froid et humide | Flegmatique |
 | Bile noire (سوداء) | Terre | Froid et sec | Mélancolique |
 
-Le tempérament a une racine constitutionnelle (*jibilla*) mais peut évoluer sous l'effet de l'environnement, de l'alimentation, et des états spirituels — notamment, selon la lecture rapportée dans la conversation source, sous l'effet d'exercices de transformation intérieure comme la khalwa ou le dhikr intense (assèchement des passions, tendance vers le froid/sec, donc vers la mélancolie).
+Le tempérament a une racine constitutionnelle (*jibilla*) mais peut évoluer sous l'effet de l'environnement, de l'alimentation, et des états spirituels — notamment, selon la lecture rapportée dans la conversation source, sous l'effet d'exercices de transformation intérieure comme la <dfn data-terme="khalwa" data-translit="khalwa" data-tradition="islam">khalwa</dfn> ou le dhikr intense (assèchement des passions, tendance vers le froid/sec, donc vers la mélancolie).
 
 ## Concepts liés
 

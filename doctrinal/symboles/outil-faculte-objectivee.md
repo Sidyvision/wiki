@@ -8,7 +8,7 @@ tags:
 - metaphysique
 - instrument
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -28,11 +28,11 @@ Principe métaphysique selon lequel l'instrument extérieur est la cristallisati
 
 ### Tradition islamique
 - Distinction classique entre la faculté (*quwwa*) et l'organe/instrument (*āla*).
-- **Ibn ʿArabī** : chaque organe, chaque outil, chaque acte correspond à un Nom divin ; l'organe est le lieu de manifestation de la puissance, qui ne lui appartient pas en propre. Dans certains états (rêve, Barzakh, vision spirituelle), l'outil disparaît et la fonction demeure (l'arme devient *qudra*, la plume devient *ʿilm*).
-- **Al-Ghazālī** (*Iḥyāʾ*) : les membres du corps sont des serviteurs, les outils extérieurs des « serviteurs des serviteurs » ; à la mort ou au dévoilement, les montures (outils) tombent, les armées (facultés) demeurent.
+- **<span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>** : chaque organe, chaque outil, chaque acte correspond à un Nom divin ; l'organe est le lieu de manifestation de la puissance, qui ne lui appartient pas en propre. Dans certains états (rêve, Barzakh, vision spirituelle), l'outil disparaît et la fonction demeure (l'arme devient *qudra*, la plume devient *ʿilm*).
+- **<span data-nom="al-ghazali" data-genre="autorite">Al-Ghazālī</span>** (*Iḥyāʾ*) : les membres du corps sont des serviteurs, les outils extérieurs des « serviteurs des serviteurs » ; à la mort ou au dévoilement, les montures (outils) tombent, les armées (facultés) demeurent.
 
 ### Tradition platonicienne
-Chez Platon (*Phédon*, *Timée*), le corps est un instrument (*organon*) dont l'âme est l'agent véritable ; l'outil extérieur imite la faculté intelligible, comme l'artisan humain imite l'Artisan divin.
+Chez <span data-nom="platon" data-genre="autorite">Platon</span> (*Phédon*, *Timée*), le corps est un instrument (*organon*) dont l'âme est l'agent véritable ; l'outil extérieur imite la faculté intelligible, comme l'artisan humain imite l'Artisan divin.
 
 ### Tradition hindoue
 Dans le Vedānta et le Sāṅkhya, *indriya* (faculté/organe/pouvoir) et *karaṇa* (instrument) peuvent désigner le même terme à plusieurs niveaux ; dans les états subtils (rêve, *samādhi*), l'outil matériel disparaît tandis que la fonction subsiste (la parole devient *vāk paśyantī*, l'arme devient *śakti*).

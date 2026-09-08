@@ -9,7 +9,7 @@ tags:
 - stub
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources:
 sources_count: 0
 cross_links:
@@ -31,7 +31,7 @@ Repères rassemblés (statut `academique` : collecte comparative, pas une doctri
 - **Christianisme mystique** : certaines visions rapportées (Thérèse d'Avila, Hildegarde de Bingen) évoquent des rayons lumineux d'origine supérieure, sans que le rapprochement avec la fontanelle spécifiquement soit établi de façon rigoureuse dans la conversation source.
 - **Chamanisme** : le sommet du crâne envisagé comme point de contact entre le monde spirituel et le monde matériel, avec des perceptions d'énergie ou de lumière descendante.
 - **Témoignages contemporains (EMI)** : certains récits d'expérience de mort imminente mentionnent un rayon perçu comme pénétrant la tête.
-- **Soufisme (Ibn ʿArabī)** : **résultat négatif, à conserver tel quel** — la recherche menée dans la conversation source n'a identifié aucune référence explicite à la fontanelle ou au sommet du crâne dans le corpus d'Ibn ʿArabī. Ses écrits sur la lumière divine et la perception spirituelle (*Futūḥāt al-Makkiyya*) restent pertinents par analogie, mais ne doivent pas être présentés comme traitant directement de cette zone anatomique.
+- **Soufisme (<span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>)** : **résultat négatif, à conserver tel quel** — la recherche menée dans la conversation source n'a identifié aucune référence explicite à la fontanelle ou au sommet du crâne dans le corpus d'Ibn ʿArabī. Ses écrits sur la lumière divine et la perception spirituelle (*Futūḥāt al-Makkiyya*) restent pertinents par analogie, mais ne doivent pas être présentés comme traitant directement de cette zone anatomique.
 - **Terminologie arabe** : *aʿlā al-raʾs* (sommet de la tête, descriptif général) ; *al-nāfūkha* (fontanelle, surtout chez le nourrisson, racine *n-f-kh*, « souffler/gonfler ») ; *qimmat al-raʾs* (point culminant de la tête, registre plus formel/poétique).
 
 ## Concepts liés

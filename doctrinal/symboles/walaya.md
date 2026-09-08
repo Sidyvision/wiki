@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, saintete, walaya, metaphysique]
 created: 2026-06-02
-updated: 2026-08-25
+updated: 2026-09-08
 sources: ["[[awrad-ibn-arabi]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 2
 cross_links: ["[[ibn-arabi]]", "[[tasawwuf]]", "[[wird-awrad]]", "[[salawat]]", "[[al-insan-al-kamil]]", "[[doctrinal/symboles/walaya-fath-adab]]"]
@@ -43,7 +43,7 @@ l'édition physique (trad. Maurice Gloton, Albouraq).
 
 ### Hiérarchie : la *walāya* comme réalité hiérarchisée
 
-Dans la métaphysique d'[[ibn-arabi]], la *walāya* est une réalité hiérarchisée. Au sommet se trouve le *quṭb* (pôle spirituel), et au-dessus encore le *ghawth* (le secours), représentant singulier de la création. Ibn ʿArabī revendiquait pour lui-même le rang de *khatm al-walāya al-muḥammadiyya* — le Sceau de la Sainteté Muhammadienne — rang spirituel analogue à celui de Sceau des Prophètes pour Muḥammad.
+Dans la métaphysique d'[[ibn-arabi]], la *walāya* est une réalité hiérarchisée. Au sommet se trouve le *quṭb* (pôle spirituel), et au-dessus encore le *ghawth* (le secours), représentant singulier de la création. <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> revendiquait pour lui-même le rang de *khatm al-walāya al-muḥammadiyya* — le Sceau de la Sainteté Muhammadienne — rang spirituel analogue à celui de Sceau des Prophètes pour Muḥammad.
 
 ### La Polarité suprême et sa distinction d'avec le Sceau de la Sainteté (Jurjānī)
 

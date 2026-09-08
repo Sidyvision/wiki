@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [nafas-rahmani, hadarat-khams, maratib-al-wujud, fusus-al-hikam, manazil-al-qamar, ilm-al-huruf, ibn-arabi, futuhât, gloton, wiki-manifest]
 created: 2026-07-01
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[meftah-symbolisme-universel-chatons-albouraq]]", "[[ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"]
 sources_count: 2
 cross_links: ["[[nafas-rahmani]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]", "[[ilm-al-huruf]]", "[[al-insan-al-kamil]]", "[[barzakh]]"]
@@ -57,7 +57,7 @@ cross_links: ["[[nafas-rahmani]]", "[[hadarat-khams]]", "[[manazil-al-qamar]]", 
 
 | Système | Étendue | Origine | Statut |
 |---|---|---|---|
-| **(γ) Degrés du Nafas al-Raḥmān** — **CANONIQUE** | 1–38 : degrés 1–10 pré-lettrés + **degrés 11–38 = les 28 lettres** | Table courante de Gloton, **pp. 35-40, intégralement photographiée** (p. 35 collationnée le 2026-08-30 au soir) | **fait foi** |
+| **(γ) Degrés du Nafas al-Raḥmān** — **CANONIQUE** | 1–38 : degrés 1–10 pré-lettrés + **degrés 11–38 = les 28 lettres** | Table courante de <span data-nom="gloton" data-genre="autorite">Gloton</span>, **pp. 35-40, intégralement photographiée** (p. 35 collationnée le 2026-08-30 au soir) | **fait foi** |
 | (δ) Indice de lettre | 1–28 | Anneau externe de la **Figure 4**, p. 94 | valide, mais **c'est un indice de lettre, pas un degré** |
 | (α) Distribution en 28 degrés dans les *Ḥaḍarāt* | 1–28 | **Gem René Guénon**, 2026-07-01 | §VII.3 — **reconstruction plausible, jamais source** |
 
@@ -143,7 +143,7 @@ Degrés purement principiels, avant la manifestation effective.
 
 ### Jabarūt — Manifestation informelle / spirituelle (degrés 9–12)
 
-Premier seuil (*barzakh*) : création sous forme purement spirituelle et universelle.
+Premier seuil (*<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>*) : création sous forme purement spirituelle et universelle.
 
 | N° | Degré cosmique | Lettre | Nom Divin | Façç | Manzil |
 |---|---|---|---|---|---|
@@ -213,7 +213,7 @@ Les sept cieux planétaires — séjours des fonctions spirituelles et des types
 
 ## Statut d'achèvement
 
-✅ **Tableau complet des 38 degrés** — Table à quatre colonnes (degrés 11–38, les 28 lettres) intégralement sourcée depuis les pages 45–48 de *De la mort à la résurrection* (Ibn ʿArabī, trad. Gloton, Albouraq). Validation du Gem actée (2026-07-01). Intégration finale en date du 2026-07-14 (addenda Gloton), 2026-07-15/16 (correction et consolidation).
+✅ **Tableau complet des 38 degrés** — Table à quatre colonnes (degrés 11–38, les 28 lettres) intégralement sourcée depuis les pages 45–48 de *De la mort à la résurrection* (<span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, trad. Gloton, Albouraq). Validation du Gem actée (2026-07-01). Intégration finale en date du 2026-07-14 (addenda Gloton), 2026-07-15/16 (correction et consolidation).
 
 **Colonnes complètes** : Degré | Manzil | Lettre | Nom Divin | Degré cosmique / Planète / Prophète | Manzil (nom + étoile) | Signe Zodiaque.
 
@@ -354,7 +354,7 @@ C'est à partir de lui que l'ordre (*amr*) et la défense (*nahy*) interviennent
 | 25 | Règne végétal | — | — | — |
 | 26 | Règne minéral | — | — | — |
 | 27 | L'Humain (*al-Insān*) | — | — | — |
-| 28 | L'Homme parfait (*al-Insān al-Kāmil*) | — | Muḥammad | 28ème Manzil |
+| 28 | L'Homme parfait (*<dfn data-terme="al-insan-al-kamil" data-translit="al-Insān al-Kāmil" data-tradition="islam">al-Insān al-Kāmil</dfn>*) | — | Muḥammad | 28ème Manzil |
 
 > **Note critique — Figure 4** : L'Humain (degré 27) et l'Homme parfait (degré 28)
 > sont deux degrés **distincts** dans le diagramme d'Ibn ʿArabī. Le 28ème degré n'est
@@ -594,7 +594,7 @@ alternative sur les mêmes données.
 4. La correspondance nūn = Soleil est triply confirmée :
    - *Fuçûç* (façç ʿUzayr, lettre nūn)
    - *De la mort à la résurrection* p. 39 (degré 24 = nūn = Soleil)
-   - *Manāzil al-Qamar* : 14ème Manzil (al-Simāk) = Soleil = nūn
+   - *<dfn data-terme="manazil-al-qamar" data-translit="Manāzil al-Qamar" data-tradition="islam">Manāzil al-Qamar</dfn>* : 14ème Manzil (al-Simāk) = Soleil = nūn
 
 ---
 
@@ -604,7 +604,7 @@ alternative sur les mêmes données.
   pp. 35 à 40 sont désormais intégralement collationnées (p. 35 le 2026-08-30 au
   soir, pp. 36-38 le 2026-08-30 au matin, pp. 39-40 le 2026-07-01).
 - Reste ouvert, hors de cette page : la colonne « Prophète façç (*Fuṣūṣ*) » des
-  degrés 21-23 et 25-27, à sourcer depuis les *Fuṣūṣ al-Ḥikam* — non requise par
+  degrés 21-23 et 25-27, à sourcer depuis les *<span data-nom="fusus-al-hikam" data-genre="ouvrage">Fuṣūṣ al-Ḥikam</span>* — non requise par
   l'Instrument.
 
 ---

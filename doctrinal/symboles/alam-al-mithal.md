@@ -9,7 +9,7 @@ tags:
 - ibn-arabi
 - stub
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources:
 sources_count: 0
 cross_links:
@@ -29,7 +29,7 @@ Degré intermédiaire de l'être, situé entre le monde sensible (*mulk*) et le 
 
 ## Concepts liés
 
-- [[doctrinal/symboles/barzakh]] — l'intermonde au sens large ; le monde imaginal en est une modalité spécifique chez Ibn ʿArabī.
+- [[doctrinal/symboles/barzakh]] — l'intermonde au sens large ; le monde imaginal en est une modalité spécifique chez <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>.
 
 ## Sources
 

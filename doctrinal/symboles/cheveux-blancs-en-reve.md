@@ -8,7 +8,7 @@ tags:
 - soufisme
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -27,9 +27,9 @@ cross_links:
 ## Développement
 
 Lectures rapportées dans la conversation source (citations précises non vérifiées, à traiter avec prudence) :
-- **Ibn Sīrīn** : dignité/respect pour un homme jeune, parfois avertissement si l'apparition est soudaine ; rattachement évoqué au verset de Yūsuf (12:84) sur le blanchissement lié à la douleur.
-- **Al-Nābulusī** : signe de longévité ; signification variable selon la condition du rêveur (pauvreté/respect selon le contexte social) ; pour le soufi, apparition de la « lumière de l'intellect spirituel ».
-- **Lecture akbarienne** (Ibn ʿArabī, non vérifiée) : les cheveux comme rayons de la manifestation (*tajallī*) ; le blanchiment comme transmutation de la chaleur vitale (*nafs*) en lumière de l'esprit (*rūḥ*).
+- **<span data-nom="ibn-sirin" data-genre="autorite">Ibn Sīrīn</span>** : dignité/respect pour un homme jeune, parfois avertissement si l'apparition est soudaine ; rattachement évoqué au verset de Yūsuf (12:84) sur le blanchissement lié à la douleur.
+- **<span data-nom="al-nabulusi" data-genre="autorite">Al-Nābulusī</span>** : signe de longévité ; signification variable selon la condition du rêveur (pauvreté/respect selon le contexte social) ; pour le soufi, apparition de la « lumière de l'intellect spirituel ».
+- **Lecture akbarienne** (<span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, non vérifiée) : les cheveux comme rayons de la manifestation (*tajallī*) ; le blanchiment comme transmutation de la chaleur vitale (*nafs*) en lumière de l'esprit (*rūḥ*).
 - **Poils blancs sur le corps/animaux** : fatigue ou temps de service pour l'humain ; pureté/miséricorde pour l'animal.
 - **Référence prophétique réelle et bien attestée** : « Sourate Hūd et ses sœurs m'ont rendu les cheveux blancs » (hadith rapporté par al-Tirmidhī) — celle-ci est une référence connue et largement citée, à distinguer des citations non vérifiées ci-dessus.
 

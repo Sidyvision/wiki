@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: hindouisme
 tags: [buddhi, intellect, discrimination, vedanta, samkhya, intuition-intellectuelle]
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-08
 sources: ["to-source"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/atma]]"]
@@ -17,9 +17,9 @@ cross_links: ["[[doctrinal/symboles/atma]]"]
 
 ## Phase 1 — corpus brut
 
-**Buddhi** (Sanskrit : बुद्धि) est l'intellect discriminatif — la faculté directe de connaissance intégrale, distincte de la raison discursive (*manas*). Buddhi est la capacité de percevoir instantanément la nature véritable d'une chose, notamment la distinction entre Âtmâ (le Soi immuable) et tout ce qui change.
+**Buddhi** (Sanskrit : बुद्धि) est l'intellect discriminatif — la faculté directe de connaissance intégrale, distincte de la raison discursive (*manas*). Buddhi est la capacité de percevoir instantanément la nature véritable d'une chose, notamment la distinction entre <dfn data-terme="atma" data-translit="Âtmâ" data-tradition="hindouisme">Âtmâ</dfn> (le Soi immuable) et tout ce qui change.
 
-Selon les écoles de Samkhya et Vedanta, Buddhi est l'instrument suprême de connaissance, immédiatement adjacent au Soi (*Purusha*), mais restant du côté de la manifestation (*Prakriti*).
+Selon les écoles de <span data-nom="samkhya" data-genre="ecole">Samkhya</span> et <span data-nom="vedanta" data-genre="ecole">Vedanta</span>, Buddhi est l'instrument suprême de connaissance, immédiatement adjacent au Soi (*<dfn data-terme="purusha" data-translit="Purusha" data-tradition="hindouisme">Purusha</dfn>*), mais restant du côté de la manifestation (*Prakriti*).
 
 ## Caractéristiques
 

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "hellenisme"
 tags: [janus, bifrons, temps, passe-futur-present, polarite, portes-solsticiales, axe, troisieme-oeil]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]]", "[[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]]"]
 sources_count: 4
 cross_links: ["[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -63,7 +63,7 @@ vue** : nul du côté du manifesté, plénier du côté du principe.
 
 ### Une seconde attestation, du côté kabbalistique
 
-Ce n'est pas la seule fois que Guénon met Janus en rapport avec un ternaire à
+Ce n'est pas la seule fois que Guénon met <span data-nom="janus" data-genre="entite">Janus</span> en rapport avec un ternaire à
 deux termes latéraux. Dans *Le Roi du Monde*, ch. III, la « colonne de droite »
 (Miséricorde) et la « colonne de gauche » (Rigueur) de l'arbre séphirothique
 portent les deux faces — « main de justice » et « main bénissante » — qu'il
@@ -89,7 +89,7 @@ levé le 2026-08-30** : Sidy confirme posséder l'exemplaire physique
 l'ensemble du corpus *Symboles de la Science sacrée* (§VII.2).
 
 Janus, en tant que *Janitor*, ouvre et ferme le cycle annuel avec **deux
-clefs**, celles des **deux portes solsticiales** : *Janua Cœli* (solstice
+clefs**, celles des **deux <span data-nom="portes-solsticiales" data-genre="cycle">portes solsticiales</span>** : *Janua Cœli* (solstice
 d'hiver) et *Janua Inferni* (solstice d'été). Ces mêmes clefs sont, sous un
 autre rapport, celles des « grands mystères » et des « petits mystères »
 (clef d'or / clef d'argent). Les deux portes donnent accès aux deux moitiés

@@ -8,7 +8,7 @@ tags:
 - comparatisme
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -21,7 +21,7 @@ cross_links:
 
 ## Définition
 
-Symbole ambivalent selon les traditions : dans l'oniromancie islamique classique (Ibn Sīrīn, al-Nābulusī), le chat peut représenter un voleur, un serviteur malhonnête, une personne rusée, ou un lien avec les jinns selon son comportement et sa couleur. Dans l'Égypte antique, il est sacré (déesse Bastet, protection). Dans la symbolique hermétique, le chat noir peut évoquer la *nigredo* alchimique.
+Symbole ambivalent selon les traditions : dans l'oniromancie islamique classique (<span data-nom="ibn-sirin" data-genre="autorite">Ibn Sīrīn</span>, <span data-nom="al-nabulusi" data-genre="autorite">al-Nābulusī</span>), le chat peut représenter un voleur, un serviteur malhonnête, une personne rusée, ou un lien avec les jinns selon son comportement et sa couleur. Dans l'Égypte antique, il est sacré (déesse Bastet, protection). Dans la symbolique hermétique, le chat noir peut évoquer la *nigredo* alchimique.
 
 ## Développement
 
