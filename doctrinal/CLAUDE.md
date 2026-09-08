@@ -39,6 +39,7 @@ updated: YYYY-MM-DD
 sources: ["[[slug-source]]"]   # liste de "[[slug]]" — traçabilité machine-lisible
 sources_count: 1               # entier = longueur de la liste ci-dessus
 cross_links: ["[[autre-slug]]"]
+original: ["巴"]               # facultatif — écriture d'origine, ou ["to-original"]
 ---
 ```
 

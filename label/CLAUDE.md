@@ -47,6 +47,7 @@ sources: []
 liens: []                  # liens internes au circuit label
 liens_atelier: []          # renvois sens unique vers atelier/materiel/ uniquement
 liens_doctrinal: []        # renvois sens unique vers doctrinal/ (ouvert 2026-09-08)
+original: []               # facultatif — écriture d'origine, ou ["to-original"] (§IV racine)
 ---
 ```
 

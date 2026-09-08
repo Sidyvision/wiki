@@ -17,6 +17,76 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-08] amendement | §IV — Champ `original:` du Sceau (transversal) et sa garde mécanique
+
+**Verdict de Sidy**, 2026-09-08, en réponse à la question du domicile du marqueur :
+le champ **`original:` du Sceau**, miroir exact de `sources:`.
+
+**Ce qui a rendu la question nécessaire.** L'amendement du même jour (§VII, discipline
+des langues originales) instituait le marqueur `to-original` « sur le modèle exact de
+`to-source` » — mais `to-source` a un domicile précis (`sources: ["to-source"]`,
+contrôlé en B2) là où `to-original` n'en avait aucun. Une garde ne peut pas couvrir un
+champ que nul texte ne nomme : sa portée serait inconnaissable, ce qui est la faute de
+la porte-sans-garde retournée. La question a donc été posée plutôt que tranchée par la
+machine (Cmd 13).
+
+**Ce qui est institué.** §IV, règle transversale : tout Sceau des cinq circuits admet un
+champ **facultatif** `original:`, liste YAML de chaînes entre guillemets droits, portant
+la ou les formes du sujet dans son écriture d'origine (`original: ["巴"]`), ou le
+marqueur `original: ["to-original"]`. Liste vide = le sujet n'appelle aucune écriture
+d'origine. Le champ est **facultatif** : son absence n'est pas une faute, et aucune passe
+de masse ne l'ajoute (§VII, point 5). Inscrit aux cartouches de `doctrinal/`, `atelier/`,
+`label/` et `hermeneutique/` ; pour `meta/`, admis sur les fiches de contenu du domaine
+mais **jamais dans le cartouche scellé d'une instance Karūbī**, que `generer-karubi.py`
+fige et dont toute clé ajoutée à la main romprait l'empreinte.
+
+**Garde mécanique, câblée le même jour — le champ ne naît pas sans elle.** C'est le
+manque que l'ouverture de `liens_doctrinal` (2026-09-08, entrée précédente) avait su
+éviter et que le marqueur `to-original` avait, lui, reproduit pendant une passe.
+`verifier-invariants.py` porte trois codes nouveaux :
+- **B5** — contradiction : `original: ["to-original"]` déclare l'absence d'une forme que
+  le `title:` ou le H1 porte déjà.
+- **B6** — graphie fautive du marqueur (`to_original`, `tooriginal`, `to-originel`...).
+  Un marqueur mal orthographié est **invisible** : il paraît posé et n'est vu de
+  personne.
+- **B7** — forme du champ : liste YAML de chaînes ; marqueur et formes jamais mêlés ;
+  une translittération refusée comme forme originale.
+
+**Ce que la garde NE FAIT PAS**, et ne peut pas faire : exiger le champ. Savoir si le
+sujet d'une fiche *appelle* une écriture d'origine demande la perception du sujet, non
+la lecture de sa forme — jugement réservé (Cmd 12), et interdit d'office par le point 5.
+La garde contrôle la **cohérence**, jamais la complétude.
+
+**Définition canonique partagée.** `est_ecriture_originale()` vit désormais dans
+`verifier-invariants.py` — le contrôleur racine, toujours présent — et
+`generer-index-lexical.py` l'en **importe**. Le sens de la dépendance est délibéré :
+l'outil de R&D dépend du contrôleur, jamais l'inverse. Son absence provoque un **refus
+franc et nommé**, jamais un repli silencieux sur une copie locale : un index construit
+sur une seconde définition paraîtrait juste sans l'être.
+
+**Épreuve des contrôles (§VII) — vert sur X, refus sur Y.**
+- *Vert* : dépôt vivant, 1417 fichiers, **0 erreur, 0 avertissement**. Bac à sable ne
+  contenant que la fiche saine (`original: ["巴"]` avec `巴` au titre) : **0 erreur**.
+- *Refus* : bac à sable de quatre fautes fabriquées, hors dépôt vivant — **B5** sur
+  `to-original` contre un titre portant `巴` ; **B6** sur `to_original` ; **B7** sur
+  `original: ["bindu"]` (translittération) ; **B7** sur `["नाद", "to-original"]`
+  (marqueur mêlé à une forme). Quatre refus, un par faute, chacun nommant son fichier,
+  code de sortie **1**.
+- *Refus du partage* : générateur exécuté depuis une arborescence privée du contrôleur
+  racine — « REFUS — définition canonique de l'écriture originale introuvable », code 1.
+
+**Deux défauts de mes propres contrôles, trouvés par la faute fabriquée et non par la
+relecture** — c'est très exactement ce que l'Épreuve existe pour trouver :
+- **B6 refusait la graphie VALIDE.** L'alternative `to-originals?` de la première
+  rédaction matchait `to-original` lui-même : le contrôle n'était pas muet mais
+  **bavard à tort**, et aurait rendu le champ inutilisable dès sa première pose.
+- **Le refus du partage était illisible.** `refus()` étant défini plus bas dans le
+  fichier, l'appeler à l'import levait un `NameError` : refus obtenu, cause masquée. Un
+  refus doit **nommer** sa cause ; remplacé par un `sys.exit` explicite.
+
+**Réversibilité (Cmd 10)** : champ facultatif, aucune fiche existante n'en porte, aucune
+migration n'est due ; les trois codes se retirent sans effet rétroactif.
+
 ## [2026-09-08] amendement | §VII — Discipline des langues originales (rang égal à la discipline des sources)
 
 **Verdicts de Sidy**, 2026-09-08, en session : « il faut impérativement que le

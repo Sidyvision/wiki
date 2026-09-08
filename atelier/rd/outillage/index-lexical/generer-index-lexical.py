@@ -68,6 +68,7 @@ index vert.
 """
 
 import argparse
+import importlib.util
 import json
 import re
 import subprocess
@@ -169,24 +170,34 @@ RE_TETE_TITRE = re.compile(r"\s+[—–:]\s+|\s+-\s+")
 # Écritures d'origine reconnues par plage : hébreu, arabe, devanagari, grec,
 # han, kana. Une lettre hors de l'alphabet latin — au sens de la catégorie
 # Unicode L* et du bloc — vaut forme originale.
-def est_ecriture_originale(token: str) -> bool:
-    """Le token est-il écrit dans une écriture non latine ?
+def _invariants():
+    """Charge `verifier-invariants.py` (racine du dépôt) comme module.
 
-    Les LETTRES MODIFICATIVES (catégorie Lm) sont exclues : `ʿ` (ʿayn) et `ʾ`
-    (hamza) ne portent pas le nom LATIN, or ils appartiennent au dispositif de
-    TRANSLITTÉRATION latine, pas à l'écriture d'origine. Sans cette exclusion,
-    `Chaussure (naʿl)` et `Laṭāʾif (subtils)` étaient lus comme des paires
-    latin/original — mesuré, deux faux appariements sur 97.
+    Le contrôleur racine détient la définition CANONIQUE de « écriture
+    originale ». On l'importe plutôt que d'en garder une copie : deux
+    définitions divergentes dans deux scripts, c'est la dérive que le partage
+    de `fichiers_suivis()` avait déjà été écrit pour empêcher. Le sens de la
+    dépendance est délibéré — l'outil de R&D dépend du contrôleur, jamais
+    l'inverse. Son absence est une ERREUR FRANCHE, jamais un repli silencieux
+    sur une copie locale : un index construit sur une seconde définition
+    paraîtrait juste et ne le serait pas (§VII, Épreuve des contrôles).
     """
-    for c in token:
-        if unicodedata.category(c) not in ("Lo", "Ll", "Lu", "Lt"):
-            continue
-        try:
-            if "LATIN" not in unicodedata.name(c):
-                return True
-        except ValueError:
-            continue
-    return False
+    chemin = Path(__file__).resolve().parents[4] / "verifier-invariants.py"
+    if not chemin.is_file():
+        # `refus()` est défini plus bas dans le fichier : l'appeler ici lève un
+        # NameError, refus obtenu mais illisible. Constaté à l'épreuve du
+        # 2026-09-08, corrigé — un refus doit NOMMER sa cause.
+        sys.exit(f"REFUS — définition canonique de l'écriture originale "
+                 f"introuvable : {chemin}\n"
+                 f"Le générateur ne se replie JAMAIS sur une copie locale "
+                 f"(§VII, Épreuve des contrôles).")
+    spec = importlib.util.spec_from_file_location("_invariants", chemin)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+est_ecriture_originale = _invariants().est_ecriture_originale
 
 
 # Appariement attesté PAR LE TEXTE : « Tomoe (巴) », « Bindu (बिंदु) »,

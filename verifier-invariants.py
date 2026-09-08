@@ -28,6 +28,7 @@ import json
 import os
 import re
 import subprocess
+import unicodedata
 import sys
 from datetime import date
 
@@ -326,6 +327,115 @@ def controler_annales(chemin_abs, chemin_rel, rap):
 # --------------------------------------------------------------------------
 # Contrôle B — hygiène du frontmatter
 # --------------------------------------------------------------------------
+
+# --------------------------------------------------------------------------
+# Écriture d'origine — définition CANONIQUE du dépôt
+# --------------------------------------------------------------------------
+# Cette fonction fait foi pour tout le dépôt. `generer-index-lexical.py`
+# l'IMPORTE d'ici plutôt que d'en garder une copie : deux définitions
+# divergentes de « écriture originale » dans deux scripts, c'est la dérive que
+# le partage de `fichiers_suivis()` avait déjà été écrit pour empêcher. Le sens
+# de la dépendance est délibéré — l'outil de R&D dépend du contrôleur racine,
+# jamais l'inverse : le contrôleur doit tourner même si le pôle `rd/` est
+# absent.
+#
+# Les LETTRES MODIFICATIVES (catégorie Lm) sont exclues : `ʿ` (ʿayn, U+02BF) et
+# `ʾ` (hamza, U+02BE) ne portent pas le nom Unicode LATIN, or ils appartiennent
+# au dispositif de TRANSLITTÉRATION latine, pas à l'écriture d'origine.
+def est_ecriture_originale(token):
+    """Le token contient-il une lettre d'une écriture non latine ?"""
+    for c in token:
+        if unicodedata.category(c) not in ("Lo", "Ll", "Lu", "Lt"):
+            continue
+        try:
+            if "LATIN" not in unicodedata.name(c):
+                return True
+        except ValueError:
+            continue
+    return False
+
+
+# Marqueur d'absence de la forme originale (CLAUDE.md §VII, discipline des
+# langues originales, point 4 ; domicile : champ `original:` du Sceau, §IV,
+# verdict Sidy 2026-09-08).
+MARQUEUR_ORIGINAL = "to-original"
+
+# Graphies fautives du marqueur. Un marqueur mal orthographié est INVISIBLE :
+# il paraît posé et n'est vu de personne — la forme muette exacte que §VII
+# (Épreuve des contrôles) interdit de laisser passer.
+# `to-original` lui-même n'en fait PAS partie — l'alternative `to-originals?`
+# d'une première rédaction matchait la graphie VALIDE et la refusait. Attrapé
+# par la faute fabriquée du 2026-09-08, jamais par la relecture : c'est très
+# exactement ce que l'Épreuve des contrôles (§VII) existe pour trouver — un
+# contrôle qui, ici, n'était pas muet mais bavard à tort.
+VARIANTES_MARQUEUR = re.compile(
+    r"^(?:to[_ ]original|tooriginal|to-originals|to-orginal|to-originel|"
+    r"to-origine[l]?)$", re.IGNORECASE)
+
+RE_H1_INVARIANTS = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
+
+
+def controler_original(chemin_rel, fm, corps, rap):
+    """B5/B6/B7 — cohérence du champ `original:` et de son marqueur.
+
+    Ce que le contrôle NE FAIT PAS, et ne peut pas faire : exiger le champ.
+    Savoir si le sujet d'une fiche « appelle une écriture d'origine » demande
+    la perception du sujet, non la lecture de sa forme — c'est un jugement, il
+    revient à Sidy (Cmd 12). Le point 5 de la discipline l'interdit d'ailleurs
+    explicitement : aucune passe de masse. Le contrôle se borne donc à ce qui
+    est décidable sur le texte seul.
+    """
+    if fm is None:
+        return
+    valeur = fm.get("original")
+
+    # B6 — graphie fautive du marqueur, où qu'elle se trouve dans le Sceau.
+    for cle, v in fm.items():
+        for item in (v if isinstance(v, list) else [v]):
+            if isinstance(item, str) and VARIANTES_MARQUEUR.match(item.strip().strip('"\'')):
+                rap.erreur(chemin_rel, "B6",
+                           f"graphie fautive du marqueur dans `{cle}:` : "
+                           f"{item.strip()!r} — la seule forme valide est "
+                           f"`{MARQUEUR_ORIGINAL}`")
+
+    if valeur is None:
+        return
+
+    # B7 — forme du champ : liste YAML de chaînes, comme `sources:` (§IV).
+    if not isinstance(valeur, list):
+        rap.erreur(chemin_rel, "B7",
+                   f"`original:` doit être une liste YAML de chaînes, "
+                   f"reçu {type(valeur).__name__} : {valeur!r}")
+        return
+    items = [str(x).strip().strip('"\'') for x in valeur]
+    marque = [x for x in items if x.lower() == MARQUEUR_ORIGINAL]
+    # Une graphie fautive est déjà refusée en B6 : ne pas la refuser deux fois
+    # sous un second code, ce qui masquerait la vraie cause au lecteur.
+    formes = [x for x in items
+              if x.lower() != MARQUEUR_ORIGINAL
+              and not VARIANTES_MARQUEUR.match(x)]
+    if marque and formes:
+        rap.erreur(chemin_rel, "B7",
+                   f"`original:` mêle le marqueur d'absence et des formes : "
+                   f"{valeur!r} — l'un ou l'autre, jamais les deux")
+    for x in formes:
+        if not est_ecriture_originale(x):
+            rap.erreur(chemin_rel, "B7",
+                       f"`original:` porte {x!r}, qui ne contient aucune lettre "
+                       f"d'une écriture non latine — une translittération n'est "
+                       f"pas une forme originale (§IV)")
+
+    # B5 — contradiction : le marqueur déclare une absence que le texte dément.
+    if marque:
+        candidats = [str(fm.get("title", ""))] + RE_H1_INVARIANTS.findall(corps or "")
+        for src in candidats:
+            if est_ecriture_originale(src):
+                rap.erreur(chemin_rel, "B5",
+                           f"`original: [\"{MARQUEUR_ORIGINAL}\"]` déclare la forme "
+                           f"d'origine absente, mais le titre ou le H1 la porte "
+                           f"déjà : {src.strip()!r}")
+                break
+
 
 def controler_frontmatter(chemin_rel, fm, rap):
     circ = circuit_de(chemin_rel)
@@ -634,6 +744,7 @@ def main():
 
             fm, corps, _ = separer_frontmatter(texte)
             controler_frontmatter(chemin_rel, fm, rap)
+            controler_original(chemin_rel, fm, corps, rap)
             controler_liens(chemin_rel, corps, par_chemin, par_slug, rap)
             controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap)
             if nom in NOMS_ANNALES:

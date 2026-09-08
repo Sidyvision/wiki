@@ -93,6 +93,7 @@ created: YYYY-MM-DD
 updated: YYYY-MM-DD
 sources: []
 links: []
+original: []      # facultatif — écriture d'origine, ou ["to-original"] (§IV racine)
 ---
 ```
 

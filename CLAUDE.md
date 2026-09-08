@@ -18,7 +18,9 @@ la dispersion mentale.
 > renvoi `label/ → doctrinal/` était permis sans être déclarable ; §VII, ouverture de
 > la **discipline des langues originales** — la forme latinisée ne suffit jamais seule,
 > toutes les écritures et toutes les fiches, marqueur d'absence `to-original`, aucune
-> passe de masse ; rang égal à la discipline des sources ; verdicts Sidy),
+> passe de masse ; §IV, ouverture du champ **`original:`** sur les Sceaux des cinq
+> circuits, domicile du marqueur, câblé le même jour à sa garde (B5/B6/B7 de
+> `verifier-invariants.py`, éprouvés sur faute fabriquée) ; rang égal à la discipline des sources ; verdicts Sidy),
 > **2026-09-02** (§II, ouverture de `textes/`, le
 > cabinet de lecture — les sources CONVERTIES sont versionnées, les binaires
 > restent hors git ; la ligne de coupe est le **format**, non le contenu ;
@@ -281,6 +283,17 @@ Règle transversale, valable pour tout Sceau comportant `sources`/`cross_links`/
 (`"[[slug]]"`), liste vide = `[]`, jamais `[[a], [b]]` ni `[a, b]`. Fait sans
 source → `sources: ["to-source"]` + signalement (§VII, discipline des sources).
 
+**Champ `original:` (transversal, ouvert le 2026-09-08, verdict Sidy).** Tout Sceau
+des cinq circuits admet un champ **facultatif** `original:`, liste YAML de chaînes
+entre guillemets droits, **miroir exact de `sources:`** : il porte la ou les formes du
+sujet dans son écriture d'origine (`original: ["巴"]`), ou le marqueur d'absence
+`original: ["to-original"]` quand cette forme est due mais non possédée (§VII,
+discipline des langues originales, point 4). Liste vide = `[]` = le sujet n'appelle
+aucune écriture d'origine. Le champ est **facultatif** : son absence n'est pas une
+faute, et aucune passe de masse ne l'ajoute (point 5). Ce qu'il n'est pas : une
+translittération, un wikilink, ni une glose — la forme s'y écrit telle que le texte
+primaire la donne, ou le marqueur y tient sa place.
+
 -----
 
 ## V. (retiré — contenu migré)
@@ -396,8 +409,9 @@ se fabrique pour combler un vide.
    dans le corps de la fiche.
 
 4. **Marqueur d'absence : `to-original`.** Une fiche dont le sujet appelle une écriture
-   d'origine que l'on ne possède pas porte ce marqueur, sur le modèle exact de
-   `to-source` — signalement, jamais fabrication. **Une forme originale ne se restitue ni
+   d'origine que l'on ne possède pas porte ce marqueur **dans le champ `original:` du
+   Sceau** (`original: ["to-original"]`, §IV — verdict Sidy, 2026-09-08), sur le modèle
+   exact de `to-source` dans `sources:` — signalement, jamais fabrication. **Une forme originale ne se restitue ni
    de mémoire ni par un modèle** : elle se prend au texte, ou elle se déclare absente.
    Le marqueur se lève aux mêmes conditions que `to-source` (point 2 ci-dessus :
    vérification du texte primaire par l'utilisateur lui-même). Une écriture originale
@@ -441,12 +455,23 @@ le texte du dépôt **énonce lui-même** — `Tomoe (巴)`, `**Buddhi** (Sanskr
 orpheline plutôt que complétée — aucune translittération n'est devinée par le modèle,
 application au lexique de la règle « établi vs suggéré » (§VII, manifestes, règle 3).
 
-**Ce qui reste ouvert et n'est pas réputé fait** : le marqueur `to-original` du point 4
-**naît sans garde mécanique** — ni `verifier-invariants.py` ni `valider-annotations.py`
-ne le connaissent, de sorte qu'une fiche qui l'omet, ou qui le porte à tort, passe en
-silence. C'est exactement le manque que l'ouverture de `liens_doctrinal`, la veille,
-avait su éviter en câblant le champ *avec* sa couverture. L'écart est rapporté, non
-corrigé d'office (Cmd 12) : le câblage demande son propre verdict.
+**Garde mécanique du marqueur** (câblée le même jour, verdict Sidy). Le champ
+`original:` du §IV est contrôlé par `verifier-invariants.py` sous trois codes, tous
+éprouvés sur faute fabriquée : **B5** — le marqueur `to-original` déclare une absence
+que le `title:` ou le H1 dément déjà ; **B6** — graphie fautive du marqueur
+(`to_original`, `tooriginal`, `to-originel`), qui le rendrait invisible ; **B7** — forme
+du champ : liste YAML de chaînes, marqueur et formes jamais mêlés, et une
+translittération refusée comme forme originale. La définition canonique d'« écriture
+originale » vit dans `verifier-invariants.py` et l'index l'en **importe**, sans repli
+possible sur une copie locale — deux définitions divergentes seraient la dérive même
+que ce partage empêche.
+
+**Ce que la garde ne fait pas, et ne peut pas faire** : exiger le champ. Savoir si le
+sujet d'une fiche *appelle* une écriture d'origine demande la perception du sujet, non
+la lecture de sa forme — c'est un jugement, il revient à Sidy (Cmd 12), et le point 5
+l'interdit d'ailleurs de toute façon. La garde est un contrôle de **cohérence**, jamais
+de complétude ; l'écart de couverture du dépôt se rapporte, il ne se comble pas
+d'office.
 
 ### Double contrôle systématique (transversal — ajouté 2026-07-16)
 

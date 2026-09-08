@@ -86,6 +86,12 @@ updated: YYYY-MM-DD
 ```
 
 Règles propres au circuit :
+- **Champ `original:`** (§IV racine, ouvert le 2026-09-08) : admis sur les fiches de
+  contenu du domaine (`personnel/`, `genealogie/`, `journal/`, `briefs/`,
+  `projet-unifie/`), **jamais dans le cartouche scellé d'une instance Karūbī** —
+  celui-ci est figé par `generer-karubi.py` et toute clé ajoutée à la main y romp
+  l'empreinte. Une transmission dont le nom appelle une écriture d'origine la porte
+  dans son corps, non dans son Sceau.
 - **Zones scellées** (`<!-- SCEAU:DEBUT -->` / `<!-- SCEAU:FIN -->`) : intouchables
   hors édition G0 ; intégrité vérifiée mécaniquement (`generer-karubi.py
   verifier`), jamais sur déclaration.

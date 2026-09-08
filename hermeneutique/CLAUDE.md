@@ -58,6 +58,7 @@ cles_doctrinales: []                 # sens unique vers doctrinal/, suggéré �
 discernement: []                     # sens unique vers doctrinal/discernement/ (obligatoire si registre: expression et matière issue d'un discernement existant)
 liens_label: []                      # sens unique optionnel vers label/direction-artistique/
 liens_atelier: []                    # sens unique vers atelier/etudes-de-cas/ et atelier/rd/
+original: []                         # facultatif — écriture d'origine, ou ["to-original"] (§IV racine)
 ---
 ```
 
