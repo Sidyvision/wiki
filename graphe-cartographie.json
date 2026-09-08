@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 152,
+  "avertissements": 153,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -2193,11 +2193,11 @@
       "label": "Incident R&D — Saturation RAM critique et indisponibilité des agents (2026-08-28)",
       "circuit": "atelier",
       "sous_dossier": "rd",
-      "type": "fiche-rd",
+      "type": "infrastructure",
       "status": null,
       "tradition_cadre": null,
       "tags": [],
-      "updated": "2026-08-28",
+      "updated": "2026-09-08",
       "chemin": "atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite.md",
       "lacunes_to_source": 0
     },
@@ -2493,7 +2493,7 @@
         "monitoring",
         "registre"
       ],
-      "updated": "2026-09-07",
+      "updated": "2026-09-08",
       "chemin": "atelier/rd/infrastructure/monitoring-archive/registre-traitement.md",
       "lacunes_to_source": 0
     },
@@ -3421,6 +3421,25 @@
       "updated": "2026-09-05",
       "chemin": "atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis.md",
       "lacunes_to_source": 2
+    },
+    {
+      "id": "atelier/rd/outillage/2026-09-08_serveur-mcp-wiki",
+      "label": "Serveur MCP wiki — accès partageable aux outils déterministes",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "mcp",
+        "outils-deterministes",
+        "interop"
+      ],
+      "updated": "2026-09-08",
+      "chemin": "atelier/rd/outillage/2026-09-08_serveur-mcp-wiki.md",
+      "lacunes_to_source": 0
     },
     {
       "id": "atelier/rd/outillage/gabarit-triptyque-chantier",
@@ -13856,6 +13875,27 @@
     {
       "source": "atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis",
       "target": "atelier/rd/outillage/gabarit-triptyque-chantier",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-09-08_serveur-mcp-wiki",
+      "target": "atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-09-08_serveur-mcp-wiki",
+      "target": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-09-08_serveur-mcp-wiki",
+      "target": "atelier/rd/registre-chantiers",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"

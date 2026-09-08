@@ -9,6 +9,57 @@ updated: 2026-09-08
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-08] rd | Archivage — Serveur MCP wiki (accès partageable aux outils déterministes)
+
+- **Source** : fiche déjà rédigée, déposée au sas `_inbox/` du serveur réel
+  (`_inbox/2026-09-08_serveur-mcp-wiki-outils-deterministes.md`), transmise à cette session
+  d'intégration cloud par upload de fichier (Sidy). Sceau déjà complet et valide à la
+  réception ; les 4 liens sortants déclarés vérifiés existants avant écriture.
+- **Nature** : documente `/root/mcp-servers/wiki/`, serveur MCP qui expose 14 scripts
+  déterministes déjà existants du dépôt (`verifier-invariants.py`, lecture de registres,
+  `etat_serveur`, `ajouter_inbox`, etc.) à Claude Code, Hermes et Qoder — aucun nouveau
+  script, aucun LLM dans la boucle, transposition du §VIII racine au format MCP.
+- **Écriture** : créé `atelier/rd/outillage/2026-09-08_serveur-mcp-wiki.md` (contenu repris
+  tel quel) ; traitement identique au précédent direct
+  [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]] (hors triptyque de
+  chantier, pas de `chantier:` en Sceau).
+- **Maillage** : lien entrant ajouté dans [[atelier/rd/index]], section « État du pôle »,
+  à côté de la mention de l'inventaire du 2026-08-23 — évite l'orphelinage pour le graphe.
+- **Sas non vidé d'ici** : le fichier source reste présent dans `_inbox/` du serveur réel
+  (`/root/wiki`), hors de portée de cette session cloud (`/home/user/wiki`, clone séparé
+  sans accès au disque du serveur). Une fois cette branche fusionnée et tirée côté serveur,
+  le retrait du fichier du sas reste à faire là-bas (§IX, point 8).
+- **Vérification** — `verifier-invariants.py` : 1412 fiches contrôlées, 0 erreur, 0 avertissement.
+- **Commit** : 781359d
+
+## [2026-09-08] rd | Addendum incident RAM du 28 août — récidive et arrêt temporaire d'OmniRoute
+
+- **Signalement de Sidy** : terminal du serveur extrêmement lent. Diagnostic établi depuis
+  la session cloud d'intégration (`/home/user/wiki`, sans accès direct au serveur) —
+  commandes de mesure transmises pour exécution par Sidy dans Termius, résultats relus.
+- **Mesure initiale** : RAM à 90 % (3,5/3,7 Gi), swap **plein à 100 %** (2,0/2,0 Gi),
+  `kswapd0` cumulant 119h32 de CPU depuis le 3 septembre — thrashing filé sur cinq jours.
+  `git status` (0,099 s) et la taille de `raw/`/`textes/` écartés comme causes.
+- **Diagnostic** : récidive de la fragilité déjà nommée dans
+  [[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]] —
+  `omniroute.service` à 1,9 Gio RSS + 1,6 Gio de swap, au-dessus de la fourchette
+  historique (1,0–1,6 Gio, relevé du 2026-08-31).
+- **Action, verdict Sidy** : `systemctl stop omniroute` — arrêt temporaire (service resté
+  `enabled`, non `disable`). RAM disponible 207 Mio → 2,0 Gio, swap 2,0/2,0 Gio → 400 Mio.
+  Arrêt terminé en `failed (exit-code 143)` plutôt qu'`inactive (dead)` — SIGTERM non
+  intercepté proprement par le process Node, sans conséquence sur la RAM effectivement
+  libérée ; écart consigné tel quel plutôt que présenté comme un arrêt propre (Épreuve des
+  contrôles, §VII).
+- **Effet de bord assumé** : routage LLM de `gardien`/`studio`/`publication`/Terminal
+  indisponible tant qu'OmniRoute reste arrêté — décision structurelle (RAM ou régime
+  « gateway à la demande ») non tranchée, laissée à Sidy (Cmd 13).
+- **Écriture** : addendum daté versé dans la fiche du 28 août plutôt qu'une fiche séparée
+  (Cmd 4, même cause structurelle) ; `type` de son Sceau corrigé de `fiche-rd` (hors liste
+  valide du Sceau atelier) à `infrastructure`, sur consigne de Sidy.
+- **Vérification** — `verifier-invariants.py` : 1411 fiches contrôlées, 0 erreur, 0 avertissement.
+- **Commit** : 6ba51a2
+
 ## [2026-09-08] rd | Outillage — `generer-cartographie.py` lit `liens_doctrinal` ; le contrôle muet démontré
 
 - **Origine** — verdict de Sidy le 2026-09-08 (« Ajoute un lien label/ → doctrinal/ ») ouvrant le champ `liens_doctrinal` au Sceau label. Le champ n'a d'effet que si l'outillage le lit : c'est le volet atelier de l'amendement.
