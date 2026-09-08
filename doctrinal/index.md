@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-09-06
+updated: 2026-09-08
 ---
 
 # Le Catalogue Universel
@@ -143,6 +143,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/espace-sacre-shinto|Sacralité et désacralisation d'un espace shintoïste]]
 - [[doctrinal/symboles/furin|Furin (風鈴) — le carillon à vent japonais]]
 - [[doctrinal/symboles/lignees-celestes-taoisme|Lignées célestes dans le taoïsme]]
+- [[doctrinal/symboles/tomoe|Tomoe (巴) — la virgule tournante]] — `academique` (statut **proposé**, matière documentaire de seconde main) ; ternaire tournant sans miroir, *shinmon* d'Hachiman ; **trois rapprochements explicitement refusés** (triskèle, *yin/yang*, tourbillon principiel) ; Gizeh confronté, négatif
 
 ### Symbolisme comparé des formes, du seuil et des figures
 - [[doctrinal/symboles/polarite-laterale-de-l-axe|La polarité latérale de l'axe — Soleil et Lune de part et d'autre du canal médian]]
@@ -220,6 +221,9 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana|Être et psyché, Intellect et raison discursive (upakarana)]]
 - [[doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi|LLM et ontologie islamique automatisée — cas d'école de dérive kari-kumi]] — méthodologie du contrôle qualité vs. automatisation de correspondances
 - [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani|Base terminologique du pôle Usûl — triade uṣūl / furūʿ / iṣṭilāḥ selon al-Jurjānī]] — fondement du pôle Usûl, définitions-têtes de Jurjānī (déf. 0156-0160, 0174-0175, 0739-0741, 0954)
+
+### Japon — répertoire des kamon
+- [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique|Le kamon japonais — glossaire systématique : tracé, morphologie, répertoire des motifs et maisons]] — `academique`, **intégralement `to-source`** (aucun ouvrage japonais ni héraldique au dépôt, catalogue consulté, résultat nul). Le plus solide y est la **grammaire du tracé** (§ III) et la **morphologie des variantes** (§ IV), vérifiables par le tracé lui-même ; le plus fragile, les attributions de maisons (§ VI). Deux planches de construction géométrique générées par script (`assets-kamon/`) ; les motifs organiques ne sont **délibérément pas** figurés. Gizeh confronté sur quatre points, **négatif**
 
 ### Gizeh / science traditionnelle antédiluvienne
 - [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh|Données géométriques, géodésiques et métrologiques de la Grande Pyramide]] — relevé comparatif brut, `to-source`
@@ -360,6 +364,9 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ### Sashimono et métiers traditionnels
 - [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel|Le sashimono comme métier traditionnel — fondement doctrinal de l'analogie opératoire]] 🔍 (verdict réservé)
+
+### Japon — kamon et lecture des symboles
+- [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique|Le kamon relève-t-il du symbolisme traditionnel, ou de la convention héraldique ?]] 🔍 (en cours, speculatif) — ouvert sur la prémisse énoncée par Sidy le 2026-09-08 (« le symbolisme est une science universelle… mieux préservée en certaines régions »), dont **ni l'universalité ni l'inégale conservation ne sont en cause** : seule l'**application au corpus des kamon** est instruite. Cinq éléments défavorables, dont le plus lourd est **l'absence de tout corps d'exégèse reçu** (ce qui en tient lieu se ramène au rébus, à la vertu naturelle et à la fonction) ; trois favorables, dont le troisième est **porté avec sa réfutation** (la prédominance du ternaire s'explique entièrement par le coût du tracé au compas). **Distinction proposée** : support formel / science du sens / symboles transportés — le mon serait un véhicule d'une justesse formelle remarquable sans être le lieu d'une science du symbole. **Proposition réfutable, et la réfutation est nommée** : que soit produit un corps d'interprétation japonais du mon. Joint kamon ↔ métier traditionnel **non posé** — il attend le verdict de la fiche sashimono jumelle. Gizeh confronté, négatif
 
 ### L'Homme Universel à travers les traditions
 - [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara|Adam Qadmôn, al-Insān al-Kāmil, Wang, Vaishwânara — l'Homme Universel à travers quatre voiles traditionnels]] — close (traditionnel) : identité verdictée par Sidy (2026-07-26), extension du hozo Adam Qadmôn=al-Insān al-Kāmil=Wang à Vaishwânara/Virâj ; vigilance signalée sur la non-conflation avec le septénaire des sept Aqtâb/Malakūt planétaire

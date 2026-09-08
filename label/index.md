@@ -3,7 +3,7 @@ title: "Index — Circuit Label (Dans l'Absolu)"
 type: index
 tags: [label, index, entreprise]
 created: 2026-07-05
-updated: 2026-08-08
+updated: 2026-09-08
 ---
 
 # Circuit Label — Index
@@ -17,6 +17,7 @@ Direction artistique, production, distribution, et communication du label.
 ### Amorçages conceptuels
 - [[label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs|Imaginaire NEN, ruche, échecs — univers ludique comme laboratoire]] (`en-gestation`)
 - [[label/direction-artistique/amorcage/generation-non-cumulative|Génération non-cumulative — principe créatif]] (`en-gestation`)
+- [[label/direction-artistique/amorcage/kamon-personnel|Kamon personnel — établi de conception]] (`en-gestation`) — méthode, quatre épreuves de validation, six questions réservées à Sidy. Renvois 🔍 en sens unique vers `doctrinal/` (glossaire et discernement). **Contrainte principale posée** : un mon se compose d'un *fait* (nom, lieu, charge, lignée), jamais d'un sens choisi d'avance
 
 ---
 

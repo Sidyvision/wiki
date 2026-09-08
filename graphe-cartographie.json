@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 140,
+  "avertissements": 153,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -1617,6 +1617,19 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/cahiers/rapport-conjoint-studio-gardien-traitement-suggestions-2026-09-06",
+      "label": "Traitement des suggestions Publication (2026-09-03 au 2026-09-06)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "rapport-conjoint",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-09-06",
+      "chemin": "atelier/rd/cahiers/rapport-conjoint-studio-gardien-traitement-suggestions-2026-09-06.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/cahiers/rapport-studio-exploration-preliminaire",
       "label": "Rapport Studio — Exploration préliminaire du dépôt",
       "circuit": "atelier",
@@ -1644,7 +1657,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-09-04",
+      "updated": "2026-09-06",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
       "lacunes_to_source": 0
     },
@@ -2079,6 +2092,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/convention-textes-references-doctrinales",
+      "label": "Convention — Référence aux textes convertis depuis les fiches doctrinales",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "textes",
+        "convention",
+        "references",
+        "doctrinal",
+        "protocole"
+      ],
+      "updated": "2026-09-06",
+      "chemin": "atelier/rd/infrastructure/convention-textes-references-doctrinales.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11",
       "label": "État mesuré du serveur (matériel + empreinte Hermes/omniroute) — 2026-08-11",
       "circuit": "atelier",
@@ -2324,6 +2356,71 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
+      "label": "INF-16 — Machine d'IA locale et développement SLM : intention",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "intent",
+        "slm",
+        "souverainete",
+        "materiel"
+      ],
+      "updated": "2026-09-07",
+      "chemin": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan",
+      "label": "INF-16 — Machine d'IA locale et développement SLM : plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "plan",
+        "slm",
+        "materiel"
+      ],
+      "updated": "2026-09-07",
+      "chemin": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec",
+      "label": "INF-16 — Machine d'IA locale et développement SLM : spécification",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "spec",
+        "slm",
+        "materiel",
+        "comparaison"
+      ],
+      "updated": "2026-09-07",
+      "chemin": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
       "label": "Infrastructure — Architecture globale du système (2026-08-11)",
       "circuit": "atelier",
@@ -2396,7 +2493,7 @@
         "monitoring",
         "registre"
       ],
-      "updated": "2026-09-02",
+      "updated": "2026-09-07",
       "chemin": "atelier/rd/infrastructure/monitoring-archive/registre-traitement.md",
       "lacunes_to_source": 0
     },
@@ -3386,6 +3483,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan",
+      "label": "OUT-08 — OCR arabe de la Futūḥāt Maymaniyya : plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "ocr",
+        "arabe",
+        "chantier",
+        "plan"
+      ],
+      "updated": "2026-09-07",
+      "chemin": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec",
       "label": "OUT-08 — OCR arabe de la Futūḥāt Maymaniyya : spécification",
       "circuit": "atelier",
@@ -3402,7 +3520,7 @@
         "chantier",
         "spec"
       ],
-      "updated": "2026-09-02",
+      "updated": "2026-09-07",
       "chemin": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec.md",
       "lacunes_to_source": 0
     },
@@ -3632,7 +3750,7 @@
         "chantiers",
         "pilotage"
       ],
-      "updated": "2026-09-06",
+      "updated": "2026-09-07",
       "chemin": "atelier/rd/registre-chantiers.md",
       "lacunes_to_source": 0
     },
@@ -5858,6 +5976,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique",
+      "label": "Le kamon relève-t-il du symbolisme traditionnel, ou de la convention héraldique ?",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "universel",
+      "tags": [
+        "japon",
+        "kamon",
+        "symbolisme",
+        "methode",
+        "metier",
+        "heraldique",
+        "vigilance"
+      ],
+      "updated": "2026-09-08",
+      "chemin": "doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/discernement/_template",
       "label": "Spéculation sur [Sujet de la réflexion]",
       "circuit": "doctrinal",
@@ -6022,6 +6161,27 @@
       "updated": "2026-08-31",
       "chemin": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/etudes/2026-09-08_kamon-glossaire-systematique",
+      "label": "Le kamon japonais — glossaire systématique : tracé, morphologie, répertoire des motifs et maisons",
+      "circuit": "doctrinal",
+      "sous_dossier": "etudes",
+      "type": "etude",
+      "status": "academique",
+      "tradition_cadre": "shintoisme",
+      "tags": [
+        "japon",
+        "symbolisme",
+        "heraldique",
+        "kamon",
+        "tracé",
+        "geometrie",
+        "nomenclature"
+      ],
+      "updated": "2026-09-08",
+      "chemin": "doctrinal/etudes/2026-09-08_kamon-glossaire-systematique.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/sources/2026-07-03_guenon-tombeau-hermes",
@@ -7850,6 +8010,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan",
+      "label": "Al-Futūḥāt al-Makkiyya — édition Maymaniyya, les quatre volumes (scan)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "ibn-arabi",
+        "futuhat",
+        "maymaniyya",
+        "arabe",
+        "scan",
+        "corpus"
+      ],
+      "updated": "2026-09-07",
+      "chemin": "doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi",
       "label": "Ibn ʿArabī (trad. Abdul-Hâdî/Ivan Aguéli) — Tartîbut-Taçawwuf, les catégories de l'initiation",
       "circuit": "doctrinal",
@@ -8472,6 +8652,19 @@
       ],
       "updated": "2026-06-11",
       "chemin": "doctrinal/sources/shams-al-maarif.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/shayegan-disciplines-spirituelles",
+      "label": "Shayegan — Les Disciplines Spirituelles (ch. II de Hindouisme et Soufisme)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "islam",
+      "tags": [],
+      "updated": "2026-09-06",
+      "chemin": "doctrinal/sources/shayegan-disciplines-spirituelles.md",
       "lacunes_to_source": 0
     },
     {
@@ -10437,6 +10630,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/symboles/tomoe",
+      "label": "Tomoe (巴) — la virgule tournante",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "academique",
+      "tradition_cadre": "shintoisme",
+      "tags": [
+        "japon",
+        "shinto",
+        "kamon",
+        "symbolisme",
+        "rotation",
+        "hachiman"
+      ],
+      "updated": "2026-09-08",
+      "chemin": "doctrinal/symboles/tomoe.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/symboles/tughyan",
       "label": "Al-Ṭuġyān",
       "circuit": "doctrinal",
@@ -10782,6 +10995,25 @@
       ],
       "updated": "2026-07-05",
       "chemin": "label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "label/direction-artistique/amorcage/kamon-personnel",
+      "label": "Kamon personnel — établi de conception",
+      "circuit": "label",
+      "sous_dossier": "direction-artistique",
+      "type": "amorcage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "kamon",
+        "embleme",
+        "identite-visuelle",
+        "geometrie",
+        "japon"
+      ],
+      "updated": "2026-09-08",
+      "chemin": "label/direction-artistique/amorcage/kamon-personnel.md",
       "lacunes_to_source": 0
     },
     {
@@ -12390,6 +12622,69 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
+      "target": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
+      "target": "atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec",
+      "target": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
       "target": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
       "champ": "links",
@@ -13601,6 +13896,34 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan",
+      "target": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan",
+      "target": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan",
+      "target": "atelier/rd/outillage/spec-ocr-scan-vers-markdown",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec",
       "target": "atelier/rd/registre-chantiers",
       "champ": "links",
@@ -14155,6 +14478,34 @@
     },
     {
       "source": "doctrinal/autorites/charles-andre-gilis",
+      "target": "doctrinal/sources/sept-etendards-califat",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/charles-andre-gilis",
+      "target": "doctrinal/sources/gilis-ordo-ab-chao",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/charles-andre-gilis",
+      "target": "doctrinal/sources/ibn-arabi-fard-afrad-gilis",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/charles-andre-gilis",
+      "target": "doctrinal/sources/valsan-investiture-cheikh-al-akbar",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/charles-andre-gilis",
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
       "nature": "lien",
@@ -14480,6 +14831,20 @@
       "target": "doctrinal/symboles/cinq-noms-ame",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/michel-valsan",
+      "target": "doctrinal/sources/sept-etendards-califat",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/michel-valsan",
+      "target": "doctrinal/sources/valsan-investiture-cheikh-al-akbar",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
@@ -17780,6 +18145,34 @@
       "assise": "suggere"
     },
     {
+      "source": "doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique",
+      "target": "doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique",
+      "target": "doctrinal/etudes/2026-09-08_kamon-glossaire-systematique",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique",
+      "target": "doctrinal/symboles/tomoe",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique",
+      "target": "doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
       "source": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
       "target": "doctrinal/symboles/hadarat-khams",
       "champ": "sources",
@@ -18006,6 +18399,27 @@
     {
       "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
       "target": "doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-08_kamon-glossaire-systematique",
+      "target": "doctrinal/traditions/shinto",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-08_kamon-glossaire-systematique",
+      "target": "doctrinal/symboles/tomoe",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-08_kamon-glossaire-systematique",
+      "target": "doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -20062,6 +20476,20 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan",
+      "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan",
+      "target": "doctrinal/sources/osman-yahia-histoire-classification-1964",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi",
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
@@ -21442,6 +21870,13 @@
     },
     {
       "source": "doctrinal/symboles/asma-al-husna",
+      "target": "doctrinal/sources/shams-al-maarif",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/asma-al-husna",
       "target": "doctrinal/autorites/ahmad-al-buni",
       "champ": "cross_links",
       "nature": "lien",
@@ -22236,6 +22671,20 @@
       "target": "doctrinal/sources/shams-al-maarif",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/ilm-al-huruf",
+      "target": "doctrinal/sources/shams-al-maarif",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/ilm-al-huruf",
+      "target": "doctrinal/sources/jesus-and-enoch-in-ibn-arabi",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
@@ -23473,6 +23922,27 @@
     {
       "source": "doctrinal/symboles/tibb-yunani",
       "target": "doctrinal/autorites/ibn-sina",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tomoe",
+      "target": "doctrinal/traditions/shinto",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tomoe",
+      "target": "doctrinal/etudes/2026-09-08_kamon-glossaire-systematique",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tomoe",
+      "target": "doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

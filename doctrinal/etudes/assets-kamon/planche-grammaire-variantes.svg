@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1592" font-family="ui-monospace, 'SF Mono', Menlo, monospace">
+<rect x="0" y="0" width="1400" height="1592" fill="#ffffff"/>
+<text x="40" y="42" font-size="20" font-weight="bold" fill="#111111">KAMON — PLANCHE DE GRAMMAIRE DES VARIANTES</text>
+<text x="40" y="64" font-size="12.5" fill="#444444">Le nom d un mon EST sa description. Ordre de lecture : [enceinte] ni [nombre][disposition][alteration][motif].</text>
+<text x="40" y="82" font-size="12.5" fill="#444444">Motif temoin : le mitsu-uroko (trois ecailles), choisi parce qu il est purement geometrique — rien n y est approxime.</text>
+<text x="40" y="128" font-size="14" font-weight="bold" fill="#111111">I. LES ENCEINTES (kakomi) — le contenant se nomme avant le contenu, articule par la particule NI</text>
+<line x1="40" y1="137" x2="1360" y2="137" stroke="#9a9a9a" stroke-width="1"/>
+<path fill="#111111" fill-rule="evenodd" d="M 123.00,250.00 a 82.00,82.00 0 1 0 164.00,0 a 82.00,82.00 0 1 0 -164.00,0 Z M 129.83,250.00 a 75.17,75.17 0 1 0 150.33,0 a 75.17,75.17 0 1 0 -150.33,0 Z"/>
+<polygon points="205.00,199.68 181.70,240.04 228.30,240.04" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="180.30,244.08 157.00,284.44 203.60,284.44" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="229.70,244.08 206.40,284.44 253.00,284.44" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="205.0" y="374.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">maru ni</text>
+<text x="205.0" y="393.0" font-size="11.5" text-anchor="middle" fill="#444444">dans un cercle</text>
+<path fill="#111111" fill-rule="evenodd" d="M 453.00,250.00 a 82.00,82.00 0 1 0 164.00,0 a 82.00,82.00 0 1 0 -164.00,0 Z M 455.41,250.00 a 79.59,79.59 0 1 0 159.18,0 a 79.59,79.59 0 1 0 -159.18,0 Z"/>
+<polygon points="535.00,196.73 510.33,239.46 559.67,239.46" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="508.85,243.73 484.17,286.47 533.52,286.47" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="561.15,243.73 536.48,286.47 585.83,286.47" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="535.0" y="374.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">ito-maru ni</text>
+<text x="535.0" y="393.0" font-size="11.5" text-anchor="middle" fill="#444444">cercle de fil</text>
+<path fill="#111111" fill-rule="evenodd" d="M 783.00,250.00 a 82.00,82.00 0 1 0 164.00,0 a 82.00,82.00 0 1 0 -164.00,0 Z M 786.73,250.00 a 78.27,78.27 0 1 0 156.55,0 a 78.27,78.27 0 1 0 -156.55,0 Z"/>
+<path fill="#111111" fill-rule="evenodd" d="M 794.48,250.00 a 70.52,70.52 0 1 0 141.04,0 a 70.52,70.52 0 1 0 -141.04,0 Z M 798.21,250.00 a 66.79,66.79 0 1 0 133.59,0 a 66.79,66.79 0 1 0 -133.59,0 Z"/>
+<polygon points="865.00,205.29 844.29,241.15 885.71,241.15" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="843.05,244.74 822.35,280.60 863.76,280.60" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="886.95,244.74 866.24,280.60 907.65,280.60" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="865.0" y="374.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">futae-maru ni</text>
+<text x="865.0" y="393.0" font-size="11.5" text-anchor="middle" fill="#444444">double cercle</text>
+<path fill="#111111" fill-rule="evenodd" d="M 1119.56,174.56 L 1270.44,174.56 L 1270.44,325.44 L 1119.56,325.44 Z M 1126.39,181.39 L 1263.61,181.39 L 1263.61,318.61 L 1126.39,318.61 Z"/>
+<polygon points="1195.00,204.08 1173.73,240.91 1216.27,240.91" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="1172.46,244.60 1151.19,281.43 1193.72,281.43" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="1217.54,244.60 1196.28,281.43 1238.81,281.43" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="1195.0" y="374.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">kaku ni</text>
+<text x="1195.0" y="393.0" font-size="11.5" text-anchor="middle" fill="#444444">dans un carre</text>
+<path fill="#111111" fill-rule="evenodd" d="M 205.00,420.00 L 287.00,502.00 L 205.00,584.00 L 123.00,502.00 Z M 205.00,429.70 L 277.30,502.00 L 205.00,574.30 L 132.70,502.00 Z"/>
+<polygon points="205.00,470.06 190.21,495.68 219.79,495.68" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="189.32,498.24 174.53,523.86 204.11,523.86" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="220.68,498.24 205.89,523.86 235.47,523.86" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="205.0" y="626.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">sumitate-kaku ni</text>
+<text x="205.0" y="645.0" font-size="11.5" text-anchor="middle" fill="#444444">carre sur pointe</text>
+<path fill="#111111" fill-rule="evenodd" d="M 617.00,502.00 L 576.00,573.01 L 494.00,573.01 L 453.00,502.00 L 494.00,430.99 L 576.00,430.99 Z M 609.14,502.00 L 572.07,566.21 L 497.93,566.21 L 460.86,502.00 L 497.93,437.79 L 572.07,437.79 Z"/>
+<polygon points="535.00,458.73 514.96,493.44 555.04,493.44" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="513.76,496.91 493.72,531.62 533.80,531.62" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="556.24,496.91 536.20,531.62 576.28,531.62" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="535.0" y="626.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">kikko ni</text>
+<text x="535.0" y="645.0" font-size="11.5" text-anchor="middle" fill="#444444">dans un hexagone</text>
+<path fill="#111111" fill-rule="evenodd" d="M 783.00,502.00 a 82.00,82.00 0 1 0 164.00,0 a 82.00,82.00 0 1 0 -164.00,0 Z M 807.60,502.00 a 57.40,57.40 0 1 0 114.80,0 a 57.40,57.40 0 1 0 -114.80,0 Z"/>
+<polygon points="865.00,463.58 847.21,494.40 882.79,494.40" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="846.14,497.48 828.34,528.30 863.93,528.30" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="883.86,497.48 866.07,528.30 901.66,528.30" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="865.0" y="626.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">janome ni</text>
+<text x="865.0" y="645.0" font-size="11.5" text-anchor="middle" fill="#444444">anneau epais</text>
+<rect x="1113.00" y="460.18" width="164.00" height="8.20" fill="#111111"/>
+<rect x="1153.18" y="420.00" width="8.20" height="164.00" fill="#111111"/>
+<rect x="1113.00" y="535.62" width="164.00" height="8.20" fill="#111111"/>
+<rect x="1228.62" y="420.00" width="8.20" height="164.00" fill="#111111"/>
+<polygon points="1195.00,466.65 1178.63,495.01 1211.37,495.01" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="1177.65,497.84 1161.28,526.20 1194.02,526.20" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="1212.35,497.84 1195.98,526.20 1228.72,526.20" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="1195.0" y="626.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">igeta ni</text>
+<text x="1195.0" y="645.0" font-size="11.5" text-anchor="middle" fill="#444444">margelle de puits</text>
+<text x="40" y="676" font-size="14" font-weight="bold" fill="#111111">II. LE REGIME DE PLEIN — une echelle de FORMALITE, non une difference de motif</text>
+<line x1="40" y1="685" x2="1360" y2="685" stroke="#9a9a9a" stroke-width="1"/>
+<circle cx="205.00" cy="798.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<polygon points="205.00,744.88 180.40,787.49 229.60,787.49" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="178.92,791.75 154.32,834.36 203.52,834.36" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="231.08,791.75 206.48,834.36 255.68,834.36" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="205.0" y="922.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">hinata-mon</text>
+<text x="205.0" y="941.0" font-size="11.5" text-anchor="middle" fill="#444444">au soleil : PLEIN</text>
+<circle cx="535.00" cy="798.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<polygon points="535.00,744.88 510.40,787.49 559.60,787.49" fill="none" stroke="#111111" stroke-width="5.5"/>
+<polygon points="508.92,791.75 484.32,834.36 533.52,834.36" fill="none" stroke="#111111" stroke-width="5.5"/>
+<polygon points="561.08,791.75 536.48,834.36 585.68,834.36" fill="none" stroke="#111111" stroke-width="5.5"/>
+<text x="535.0" y="922.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">chukage-mon</text>
+<text x="535.0" y="941.0" font-size="11.5" text-anchor="middle" fill="#444444">ombre mediane</text>
+<circle cx="865.00" cy="798.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<polygon points="865.00,744.88 840.40,787.49 889.60,787.49" fill="none" stroke="#111111" stroke-width="2"/>
+<polygon points="838.92,791.75 814.32,834.36 863.52,834.36" fill="none" stroke="#111111" stroke-width="2"/>
+<polygon points="891.08,791.75 866.48,834.36 915.68,834.36" fill="none" stroke="#111111" stroke-width="2"/>
+<text x="865.0" y="922.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">kage-mon</text>
+<text x="865.0" y="941.0" font-size="11.5" text-anchor="middle" fill="#444444">d ombre : CONTOUR</text>
+<text x="40" y="972" font-size="14" font-weight="bold" fill="#111111">III. LE NOMBRE — le prefixe change le mon, pas son echelle</text>
+<line x1="40" y1="981" x2="1360" y2="981" stroke="#9a9a9a" stroke-width="1"/>
+<circle cx="205.00" cy="1094.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<polygon points="205.00,1067.49 182.04,1107.26 227.96,1107.26" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="205.0" y="1218.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">hitotsu</text>
+<text x="205.0" y="1237.0" font-size="11.5" text-anchor="middle" fill="#444444">une</text>
+<circle cx="535.00" cy="1094.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<polygon points="509.74,1067.49 486.78,1107.26 532.70,1107.26" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="560.26,1067.49 537.30,1107.26 583.22,1107.26" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="535.0" y="1218.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">futatsu</text>
+<text x="535.0" y="1237.0" font-size="11.5" text-anchor="middle" fill="#444444">deux</text>
+<circle cx="865.00" cy="1094.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<polygon points="865.00,1044.42 842.04,1084.19 887.96,1084.19" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="840.66,1088.17 817.70,1127.94 863.62,1127.94" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="889.34,1088.17 866.38,1127.94 912.30,1127.94" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="865.0" y="1218.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">mitsu</text>
+<text x="865.0" y="1237.0" font-size="11.5" text-anchor="middle" fill="#444444">trois</text>
+<circle cx="1195.00" cy="1094.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<polygon points="1195.00,1025.73 1172.04,1065.50 1217.96,1065.50" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="1170.66,1067.49 1147.70,1107.26 1193.62,1107.26" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="1219.34,1067.49 1196.38,1107.26 1242.30,1107.26" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="1195.00,1109.24 1172.04,1149.01 1217.96,1149.01" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="1195.0" y="1218.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">yotsu</text>
+<text x="1195.0" y="1237.0" font-size="11.5" text-anchor="middle" fill="#444444">quatre</text>
+<text x="40" y="1268" font-size="14" font-weight="bold" fill="#111111">IV. LA DISPOSITION — comment les elements se tiennent entre eux</text>
+<line x1="40" y1="1277" x2="1360" y2="1277" stroke="#9a9a9a" stroke-width="1"/>
+<circle cx="205.00" cy="1390.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<rect x="168.92" y="1324.40" width="16.40" height="131.20" fill="#111111"/>
+<rect x="224.68" y="1324.40" width="16.40" height="131.20" fill="#111111"/>
+<text x="205.0" y="1514.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">narabi</text>
+<text x="205.0" y="1533.0" font-size="11.5" text-anchor="middle" fill="#444444">ranges cote a cote</text>
+<circle cx="535.00" cy="1390.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<rect x="526.80" y="1324.40" width="16.40" height="131.20" fill="#111111" transform="rotate(-32 535.00 1390.00)"/>
+<rect x="526.80" y="1324.40" width="16.40" height="131.20" fill="#111111" transform="rotate(32 535.00 1390.00)"/>
+<text x="535.0" y="1514.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">chigai</text>
+<text x="535.0" y="1533.0" font-size="11.5" text-anchor="middle" fill="#444444">croises en sautoir</text>
+<circle cx="865.00" cy="1390.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<rect x="810.88" y="1335.88" width="82.00" height="82.00" fill="#ffffff" stroke="#111111" stroke-width="2.5"/>
+<rect x="837.12" y="1362.12" width="82.00" height="82.00" fill="#111111"/>
+<text x="865.0" y="1514.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">kasane</text>
+<text x="865.0" y="1533.0" font-size="11.5" text-anchor="middle" fill="#444444">superposes</text>
+<circle cx="1195.00" cy="1390.00" r="82.00" fill="none" stroke="#9a9a9a" stroke-width="1" stroke-dasharray="5 5"/>
+<polygon points="1186.80,1390.00 1142.77,1364.58 1142.77,1415.42" fill="#111111" stroke="none" stroke-width="0"/>
+<polygon points="1203.20,1390.00 1247.23,1364.58 1247.23,1415.42" fill="#111111" stroke="none" stroke-width="0"/>
+<text x="1195.0" y="1514.0" font-size="13" font-weight="bold" text-anchor="middle" fill="#111111">mukai</text>
+<text x="1195.0" y="1533.0" font-size="11.5" text-anchor="middle" fill="#444444">affrontes</text>
+<text x="40" y="1566" font-size="11.5" fill="#666666">Trace genere par script deterministe — doctrinal/etudes/assets-kamon/. Exemple de lecture : maru ni mitsu-uroko = trois ecailles dans un cercle.</text>
+</svg>
