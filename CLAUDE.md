@@ -15,7 +15,10 @@ la dispersion mentale.
 > fiches, sans Sceau ni régime de liens, ligne de coupe **format** comme pour
 > `textes/` ; convention constatée sur `assets-instrument/`, non instituée ;
 > `label/CLAUDE.md`, ouverture du champ `liens_doctrinal` au Sceau label — le
-> renvoi `label/ → doctrinal/` était permis sans être déclarable ; verdicts Sidy),
+> renvoi `label/ → doctrinal/` était permis sans être déclarable ; §VII, ouverture de
+> la **discipline des langues originales** — la forme latinisée ne suffit jamais seule,
+> toutes les écritures et toutes les fiches, marqueur d'absence `to-original`, aucune
+> passe de masse ; rang égal à la discipline des sources ; verdicts Sidy),
 > **2026-09-02** (§II, ouverture de `textes/`, le
 > cabinet de lecture — les sources CONVERTIES sont versionnées, les binaires
 > restent hors git ; la ligne de coupe est le **format**, non le contenu ;
@@ -369,6 +372,70 @@ Publication : `label/CLAUDE.md` — vivent désormais dans leur `CLAUDE.md` loca
 4. **Stratification de crédibilité** : pour les données factuelles disputées
    (mesures, datations), compiler en tableau comparatif avec marges, crédibilité
    flaguée **par item**, jamais en jugement global.
+
+### Discipline des langues originales (transversale — ajouté 2026-09-08)
+
+**Cette discipline est de même rang que la discipline des sources ci-dessus** (verdict
+Sidy, 2026-09-08 : « c'est aussi important que la discipline des sources »). Elle en
+partage la logique : ce qui manque se signale, ce qui est allégué se marque, et rien ne
+se fabrique pour combler un vide.
+
+1. **La forme latinisée ne suffit jamais seule.** Toute fiche dont le sujet possède une
+   forme dans son écriture d'origine porte cette forme explicitement, **à côté** de la
+   translittération — jamais à sa place, jamais sans elle. `Tomoe` seul est une fiche
+   incomplète ; `Tomoe (巴)` est la forme due.
+
+2. **Portée : toutes les écritures, toutes les fiches** (verdict Sidy, 2026-09-08).
+   Aucune écriture n'est privilégiée ni exclue — arabe, hébreu, devanagari, grec, han,
+   kana, et toute autre. Aucun circuit n'est exempté : la règle vaut identiquement pour
+   les cinq. `textes/` en est hors, mais par sa règle d'immuabilité propre (§II) et non
+   par exemption : une source convertie se reçoit telle quelle. Elle reste indexée.
+
+3. **Lieu de la forme originale** : le `title:` du Sceau et le H1 en premier lieu — site
+   canonique, atteignable sans heuristique. À défaut, la première définition du terme
+   dans le corps de la fiche.
+
+4. **Marqueur d'absence : `to-original`.** Une fiche dont le sujet appelle une écriture
+   d'origine que l'on ne possède pas porte ce marqueur, sur le modèle exact de
+   `to-source` — signalement, jamais fabrication. **Une forme originale ne se restitue ni
+   de mémoire ni par un modèle** : elle se prend au texte, ou elle se déclare absente.
+   Le marqueur se lève aux mêmes conditions que `to-source` (point 2 ci-dessus :
+   vérification du texte primaire par l'utilisateur lui-même). Une écriture originale
+   ajoutée sans source est une faute **plus grave** que son absence.
+
+5. **Aucune passe de masse.** Le dépôt ne satisfait pas aujourd'hui à cette règle et n'a
+   pas à y être mis en conformité d'office : les fiches se complètent au fil des sessions
+   qui les touchent, et l'écart se rapporte (Cmd 12). Le geste est celui de la
+   restauration, jamais de la réforme (Cmd 11).
+
+6. **Réciprocité de l'index** : l'outillage doit atteindre le terme **dans les deux
+   sens** — de la forme originale vers la latinisée, et l'inverse. Une forme originale
+   indexée sans lien vers sa latinisée est une clé orpheline, non une indexation.
+
+**Ce qui a motivé la règle** (mesuré le 2026-09-08, non allégué). Le tokeniseur de
+`atelier/rd/outillage/index-lexical/` employait `[^\W\d_]+` ; or `\w` de Python **exclut**
+les marques combinantes (catégories Unicode Mn/Mc). Toute écriture qui en emploie était
+donc éclatée en débris — `बिंदु` en deux fragments, l'hébreu vocalisé en quatre — quand
+l'arabe non vocalisé et le han, qui n'en emploient pas, passaient intacts. D'où un index
+affichant 469 clés arabes et **zéro** devanagari : sa richesse apparente masquait
+exactement l'angle mort qu'il aurait dû lever. Le défaut mordait jusqu'au français en
+encodage NFD (`réalisation` coupé en `re` + `alisation`). Corrigé le jour même.
+
+**Deux mesures, deux unités** — à ne pas confondre. *Avant* correction, en balayage à
+blanc du tokeniseur sur les 2131 fichiers du dépôt et au niveau des **clés brutes**
+(avant le filtre de rétention) : 3043 clés en écriture originale recollées, 2578
+fragments résorbés, et 3 seules clés latines disparues (`alisation`, `pendance`,
+`tudes`) — elles-mêmes des débris NFD que le correctif recolle, de sorte qu'**aucune
+clé latine véritable n'est altérée**. *Après* correction, sur l'artefact d'index
+lui-même et au niveau des **termes retenus** : 9687 → 9841 (**+154**), arabe 469 → 532,
+hébreu 97 → 183, devanagari 0 → 5, grec / han / kana inchangés — conformes à la
+prédiction, ces écritures n'employant pas de marques combinantes.
+
+**Ce qui reste ouvert et n'est pas réputé fait** : les clés en écriture originale que
+l'index porte sont des **orphelines** — aucun champ ne les relie à leur forme latinisée,
+de sorte que le point 6 ci-dessus n'est pas encore tenu par l'outillage. De même, le
+`title:` du Sceau n'est pas récolté, alors que le point 3 en fait le site canonique.
+Les deux écarts sont rapportés, non corrigés d'office (Cmd 12).
 
 ### Double contrôle systématique (transversal — ajouté 2026-07-16)
 

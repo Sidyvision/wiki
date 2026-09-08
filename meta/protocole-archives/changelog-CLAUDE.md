@@ -17,6 +17,72 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-08] amendement | §VII — Discipline des langues originales (rang égal à la discipline des sources)
+
+**Verdicts de Sidy**, 2026-09-08, en session : « il faut impérativement que le
+protocole intègre les termes dans leurs langues originelles, pas juste la forme
+latinisée », puis « c'est aussi important que la discipline des sources », puis, sur la
+question de portée : « Toutes les écritures, toutes les fiches ».
+
+**Ce qui est institué.** Une nouvelle discipline transversale au §VII, insérée
+immédiatement à la suite de la discipline des sources et **de même rang** qu'elle. Six
+points : (1) la forme latinisée ne suffit jamais seule — la forme d'origine se porte
+*à côté* d'elle, jamais à sa place ; (2) portée universelle, aucune écriture
+privilégiée ni exclue, aucun circuit exempté (`textes/` en est hors par sa règle
+d'immuabilité propre, non par exemption, et reste indexé) ; (3) le `title:` du Sceau et
+le H1 sont le site canonique de la forme originale ; (4) marqueur d'absence
+**`to-original`**, calqué sur `to-source` — une forme originale ne se restitue ni de
+mémoire ni par un modèle, et son ajout sans source est une faute *plus grave* que son
+absence ; (5) **aucune passe de masse** — les fiches se complètent au fil des sessions
+qui les touchent, restauration et non réforme (Cmd 11) ; (6) réciprocité de l'index,
+dans les deux sens.
+
+**Ce qui a motivé l'amendement** (mesuré, non allégué). Le tokeniseur de
+`atelier/rd/outillage/index-lexical/generer-index-lexical.py` employait `[^\W\d_]+` ;
+or `\w` de Python exclut les marques combinantes (catégories Unicode Mn/Mc). Les
+écritures qui en emploient étaient donc éclatées en débris — devanagari, hébreu vocalisé
+— tandis que l'arabe non vocalisé et le han, qui n'en emploient pas, passaient intacts.
+D'où un index affichant 469 clés arabes et **zéro** devanagari : l'abondance apparente
+masquait exactement l'angle mort qu'il aurait dû lever. C'est la forme de faute que le
+dépôt a déjà payée deux fois (PRO-01, INF-14) : le dispositif n'était pas faux, il était
+**muet**.
+
+**Correctif appliqué le jour même** (« correctif A », verdict Sidy) : `RE_MOT` construit
+sa classe de lettres par **catégorie Unicode** (Mn/Mc admises) plutôt qu'à la main. Deux
+mesures, deux unités, consignées telles quelles au §VII — avant correction, en balayage
+à blanc sur les 2131 fichiers du dépôt et au niveau des clés brutes : 3043 clés en
+écriture originale recollées, 2578 fragments résorbés, 3 clés latines disparues
+(`alisation`, `pendance`, `tudes`), elles-mêmes des débris NFD que le correctif recolle ;
+après correction, sur l'artefact d'index et au niveau des termes retenus : 9687 → 9841
+(+154), arabe 469 → 532, hébreu 97 → 183, devanagari 0 → 5, grec / han / kana inchangés.
+
+**Épreuve des contrôles — ce qui est dû et ce qui ne l'est pas.** `RE_MOT` est une règle
+d'**extraction**, non une garde : aucun refus ne lui est dû, et le geste éprouvant est
+ici la table de tokenisation avant/après sur les six écritures (`बिंदु`, `बुद्धि`,
+`जीवात्मन्`, `巴`, `مقرنص`, `תּוֹרָה`), observée éclatée puis entière.
+
+**Ce qui reste ouvert et n'est PAS réputé fait** (Cmd 12 — rapporté, non corrigé
+d'office) :
+- **`to-original` naît sans garde mécanique.** Ni `verifier-invariants.py` ni
+  `valider-annotations.py` ne connaissent ce marqueur : une fiche qui l'omet, ou qui le
+  porte à tort, passe en silence. C'est exactement le manque que l'ouverture de
+  `liens_doctrinal`, la veille, avait su éviter en câblant le champ *avec* sa
+  couverture C1/C2. L'écart est déclaré ici plutôt que comblé d'office : le câblage
+  demande son propre verdict.
+- **Point 6 non tenu par l'outillage** : les clés en écriture originale que l'index
+  porte sont des orphelines — aucun champ ne les relie à leur forme latinisée.
+- **Point 3 non tenu par l'outillage** : le `title:` du Sceau et les H1/H2 ne sont pas
+  récoltés par le générateur, alors que le point 3 en fait le site canonique. C'est la
+  cause pour laquelle `tomoe` et `巴` restent absents de l'index malgré une fiche
+  entière qui leur est consacrée. Correctif non appliqué, en attente de verdict.
+- **Le dépôt ne satisfait pas aujourd'hui à la règle**, et le point 5 interdit de l'y
+  mettre en conformité d'office.
+
+**Réversibilité (Cmd 10)** : l'amendement est un texte de §VII, démontable sur simple
+verdict de Sidy ; le correctif du tokeniseur l'est également — la version antérieure du
+générateur est conservée hors dépôt et l'ancienne classe est documentée en commentaire
+dans le fichier.
+
 ## [2026-09-08] amendement | §II — Convention des dossiers `assets-<sujet>/` ; `label/CLAUDE.md` — ouverture du champ `liens_doctrinal`
 
 **Deux verdicts de Sidy**, 2026-09-08, en réponse à deux signalements portés à la
