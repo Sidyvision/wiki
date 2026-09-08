@@ -10,7 +10,7 @@ tags:
 - droit
 - ecole
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -40,7 +40,7 @@ La bibliothèque physique porte déjà cette aire (Cheikh Ahmadou Bamba — voir
 
 ## Chaîne textuelle de l'école (repères)
 
-1. **al-Muwaṭṭaʾ** (Imam Mālik) — l'ouvrage fondateur.
+1. **al-Muwaṭṭaʾ** (<span data-nom="imam-malik" data-genre="autorite">Imam Mālik</span>) — l'ouvrage fondateur.
 2. **al-Risāla** (Ibn Abī Zayd al-Qayrawānī) — exposé classique de la doctrine et de
    la pratique.
 3. **Mukhtaṣar al-Akhḍarī** — abrégé d'entrée dans l'école, portant sur les
@@ -59,6 +59,6 @@ La bibliothèque physique porte déjà cette aire (Cheikh Ahmadou Bamba — voir
 
 ## Rôle dans le dépôt
 
-École de **préséance** du pôle Fiqh (protocole, §V.c.6) : toute question est
+École de **préséance** du pôle <dfn data-terme="fiqh" data-translit="Fiqh" data-tradition="islam">Fiqh</dfn> (protocole, §V.c.6) : toute question est
 instruite d'abord dans ses sources ; le recours aux autres écoles est subsidiaire,
 documenté question par question, jamais par talfīq.

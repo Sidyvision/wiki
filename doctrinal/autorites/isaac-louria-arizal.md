@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "kabbale"
 tags: [kabbale, safed, lurianique, gilgul, transmission-orale]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/haim-vital]]", "[[doctrinal/symboles/gilgul]]", "[[doctrinal/symboles/cinq-noms-ame]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/haim-vital]]", "[[doctrinal/symboles/gilgul
 
 ## Présentation
 
-Isaac Louria (1534-1572), kabbaliste de Safed, connu sous l'acronyme *ha-ARI*
+Isaac Louria (1534-1572), kabbaliste de <span data-nom="safed" data-genre="lieu">Safed</span>, connu sous l'acronyme *ha-ARI*
 (« le Lion ») ou *Arizal*. N'a lui-même rien écrit : son enseignement, transmis
 oralement à un cercle restreint de disciples, a été consigné principalement par
 [[doctrinal/autorites/haim-vital]]. La *Shaar Hagilgulim* (« Porte des

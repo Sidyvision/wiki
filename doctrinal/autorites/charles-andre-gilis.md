@@ -15,12 +15,12 @@ cross_links:
   - "[[doctrinal/autorites/rene-guenon]]"
   - "[[doctrinal/autorites/michel-valsan]]"
 created: 2026-07-09
-updated: 2026-08-30
+updated: 2026-09-08
 ---
 
 # Charles-André Gilis (Abd ar-Razzâq Yahyâ)
 
-Traducteur et éditeur français, disciple de Michel Vâlsan et continuateur des *Études Traditionnelles*. Fondateur des **Éditions Le Turban Noir** (site : leturbannoir.com), maison d'édition dédiée aux écrits de la lignée guénonienne et akbarienne.
+Traducteur et éditeur français, disciple de <span data-nom="michel-valsan" data-genre="autorite">Michel Vâlsan</span> et continuateur des *<span data-nom="etudes-traditionnelles" data-genre="ouvrage">Études Traditionnelles</span>*. Fondateur des **Éditions Le Turban Noir** (site : leturbannoir.com), maison d'édition dédiée aux écrits de la lignée guénonienne et akbarienne.
 
 ## Nom initiatique
 
@@ -60,7 +60,7 @@ Abd ar-Razzâq Yahyâ (عبد الرزاق يحيى)
 - N°24 (mars 2015) — *L'Ombre de l'Antéchrist*
 - N°25 (mars 2015) — *Le Crépuscule des revues traditionnelles*
 - N°26 (avr. 2015) — *Une femme savante*
-- N°27 (juil. 2015) — *Un nouveau recueil d'études sur René Guénon*
+- N°27 (juil. 2015) — *Un nouveau recueil d'études sur <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>*
 - N°28 (juil. 2016) — *Quelques publications récentes*
 - N°29 (oct. 2016) — *Un dérapage québécois*
 - N°30 (oct. 2017) — *Une maladie incurable*
@@ -101,7 +101,7 @@ Abd ar-Razzâq Yahyâ (عبد الرزاق يحيى)
 ## Filiations spirituelles
 
 - **Maître** : Michel Vâlsan (Cheikh Mustafâ Abd al-Azîz)
-- **Lignée** : Ibn ʿArabī → René Guénon (Sheikh ʿAbd al-Wāḥid Yaḥyā) → Michel Vâlsan (Cheikh Mustafâ Abd al-Azîz) → Charles-André Gilis (Abd ar-Razzâq Yahyâ)
+- **Lignée** : <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> → René Guénon (Sheikh ʿAbd al-Wāḥid Yaḥyā) → Michel Vâlsan (Cheikh Mustafâ Abd al-Azîz) → Charles-André Gilis (Abd ar-Razzâq Yahyâ)
 - **Continuateur** : direction effective des *Études Traditionnelles* après Vâlsan
 
 ## Pertinence doctrinale

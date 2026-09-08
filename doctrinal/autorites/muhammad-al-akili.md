@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [oniromancie, taabir-al-ruya, traduction, transmission-occident, ibn-sirin, a-instruire]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/ibn-sirin]]", "[[doctrinal/autorites/al-nabulusi]]", "[[doctrinal/symboles/taabir-al-ruya]]"]
@@ -43,9 +43,9 @@ faits relevés, non comme réserves sur la valeur attribuée.
 Al-Akili nomme lui-même, en préface, les maîtres dont il compile les opinions.
 La chaîne est explicite et vérifiable dans le texte :
 
-- **Muḥammad ibn Sīrīn**, *Muntakhab al-Kalām fī Tafsīr al-Aḥlām* — l'ouvrage de
+- **Muḥammad <span data-nom="ibn-sirin" data-genre="autorite">ibn Sīrīn</span>**, *Muntakhab al-Kalām fī Tafsīr al-Aḥlām* — l'ouvrage de
   base, qu'il présente comme « son œuvre étendue ».
-- **ʿAbd al-Ghanī al-Nābulusī**, *Taʿṭīr al-Anām fī Taʿbīr al-Manām*
+- **ʿAbd al-Ghanī <span data-nom="al-nabulusi" data-genre="autorite">al-Nābulusī</span>**, *Taʿṭīr al-Anām fī Taʿbīr al-Manām*
   ([[doctrinal/autorites/al-nabulusi]]).
 - **Naṣr b. Abī Yaʿqūb b. Ibrāhīm al-Dīnawarī**, traité composé pour le calife
   abbasside al-Qādir bi-llāh.

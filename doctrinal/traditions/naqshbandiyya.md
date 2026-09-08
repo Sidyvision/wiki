@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [tariqa, tasawwuf, naqshbandiyya, soufisme, dhikr, silsila]
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-09-08
 sources: ["[[wazifa]]"]
 sources_count: 1
 cross_links: ["[[tasawwuf]]", "[[wird-awrad]]", "[[khatm-al-khawajakan]]", "[[muhammad-nazim-al-haqqani]]", "[[abdullah-daghestani]]", "[[walaya]]", "[[salawat]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[tasawwuf]]", "[[wird-awrad]]", "[[khatm-al-khawajakan]]", "[[mu
 
 ## Identité
 
-L'une des principales confréries soufies (*ṭuruq*) de l'Islam, fondée au 14e siècle en Asie centrale, se réclamant d'une silsila remontant au Prophète Muhammad ﷺ via Abū Bakr al-Ṣiddīq. Caractérisée par le dhikr silencieux (du cœur) et une forte observance de la sharī'a.
+L'une des principales confréries soufies (*ṭuruq*) de l'Islam, fondée au 14e siècle en Asie centrale, se réclamant d'une <dfn data-terme="silsila" data-translit="silsila" data-tradition="islam">silsila</dfn> remontant au Prophète Muhammad ﷺ via Abū Bakr al-Ṣiddīq. Caractérisée par le <dfn data-terme="dhikr" data-translit="dhikr" data-tradition="islam">dhikr</dfn> silencieux (du cœur) et une forte observance de la sharī'a.
 
 ## Faits
 
@@ -24,7 +24,7 @@ L'une des principales confréries soufies (*ṭuruq*) de l'Islam, fondée au 14e
 - Suit généralement le madhhab hanafī en fiqh — source : [[wazifa]]
 - La branche **Naqshbandiyya-Haqqaniyya** est dirigée au 20e–21e siècle par [[muhammad-nazim-al-haqqani]], dont le shaikh était [[abdullah-daghestani]] — source : [[wazifa]]
 - Ses pratiques quotidiennes sont compilées dans le manuel [[wazifa]] (*Kitāb al-Awrād wa-l-Wazā'if*)
-- Le [[khatm-al-khawajakan]] est la cérémonie collective centrale de la ṭarīqa — source : [[wazifa]]
+- Le [[khatm-al-khawajakan]] est la cérémonie collective centrale de la <dfn data-terme="tariqa" data-translit="ṭarīqa" data-tradition="islam">ṭarīqa</dfn> — source : [[wazifa]]
 - La silsila (chaîne de transmission) est une liste de maîtres de chaque génération jusqu'au Prophète ﷺ ; sa récitation fait partie du Khatm — source : [[wazifa]]
 
 ## Relations

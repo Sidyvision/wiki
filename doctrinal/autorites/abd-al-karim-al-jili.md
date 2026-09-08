@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, insan-al-kamil, akbarisme, irak-medieval]
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-09-08
 sources: ["[[universal-man-jili]]"]
 sources_count: 1
 cross_links: ["[[ibn-arabi]]", "[[al-insan-al-kamil]]", "[[wahdat-al-wujud]]", "[[tasawwuf]]", "[[walaya]]"]
@@ -20,9 +20,9 @@ cross_links: ["[[ibn-arabi]]", "[[al-insan-al-kamil]]", "[[wahdat-al-wujud]]", "
 ## Faits
 
 - Né en 767H/1366 à Jīl (région de Bagdad) ; son maître était Shaykh Sharaf al-Dīn Ismāʿīl al-Jabartī — source : [[universal-man-jili]]
-- Auteur d’*al-Insān al-Kāmil fī Maʿrifat al-Awākhir wa-l-Awāʾil* (L’Homme Universel dans la Connaissance des Premiers et des Derniers), son œuvre maîtresse — source : [[universal-man-jili]]
+- Auteur d’*<dfn data-terme="al-insan-al-kamil" data-translit="al-Insān al-Kāmil" data-tradition="islam">al-Insān al-Kāmil</dfn> fī Maʿrifat al-Awākhir wa-l-Awāʾil* (L’Homme Universel dans la Connaissance des Premiers et des Derniers), son œuvre maîtresse — source : [[universal-man-jili]]
 - Se situe dans la continuité de la métaphysique d’[[ibn-arabi]] dont il systématise l’enseignement avec une architecture dialectique plus explicite — source : [[universal-man-jili]]
-- Quand il contredit Ibn ʿArabī, c’est en apparence seulement : il rappelle lui-même que « toutes les vérités contradictoires sont unies dans la Vérité » — source : [[universal-man-jili]]
+- Quand il contredit <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, c’est en apparence seulement : il rappelle lui-même que « toutes les vérités contradictoires sont unies dans la Vérité » — source : [[universal-man-jili]]
 - Développe la doctrine des Degrés Divins : Essence (*adh-dhāt*), Qualité de Divinité (*al-ulūhiyya*), Unité (*al-aḥadiyya*), Unicité (*al-wāḥidiyya*), Béatitude Compatissante (*ar-raḥmāniyya*), Obscurité Divine (*al-ʿamāʾ*) — source : [[universal-man-jili]]
 - Développe la doctrine des quatre *tajalliyyāt* (théophanies) : des Activités, des Noms, des Qualités, de l’Essence — source : [[universal-man-jili]]
 - Identifie l’Homme Universel (*[[al-insan-al-kamil]]*) au Prophète Muḥammad dans la perspective islamique, tout en reconnaissant que chaque tradition connaît l’Homme Universel à travers son propre pôle spirituel — source : [[universal-man-jili]]

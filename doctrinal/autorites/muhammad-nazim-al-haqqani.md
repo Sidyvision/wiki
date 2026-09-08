@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [naqshbandiyya, tasawwuf, shaikh, wali, haqqaniyya]
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-09-08
 sources: ["[[wazifa]]"]
 sources_count: 1
 cross_links: ["[[naqshbandiyya]]", "[[tasawwuf]]", "[[walaya]]", "[[abdullah-daghestani]]", "[[khatm-al-khawajakan]]"]
@@ -28,8 +28,8 @@ Shaikh soufi naqshbandi chypriote (1922–2014), figure centrale de la diffusion
 ## Relations
 
 - [[abdullah-daghestani]] — son shaikh et prédécesseur dans la silsila.
-- [[naqshbandiyya]] — tête de la branche Haqqaniyya.
-- [[walaya]] — reconnu comme *walī* (saint) par ses murīdīn.
+- [[naqshbandiyya]] — tête de la branche <span data-nom="haqqaniyya" data-genre="ecole">Haqqaniyya</span>.
+- [[walaya]] — reconnu comme *<dfn data-terme="wali" data-translit="walī" data-tradition="islam">walī</dfn>* (saint) par ses murīdīn.
 
 ## Notes
 

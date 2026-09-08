@@ -8,7 +8,7 @@ tags:
 - tradition
 - perennialisme
 created: 2026-06-02
-updated: 2026-08-28
+updated: 2026-09-08
 sources_count: 4
 cross_links:
 - '[[doctrinal/symboles/malamatiyya]]'
@@ -87,7 +87,7 @@ indépendamment du vocabulaire employé pour la désigner.
 Source : [[doctrinal/deviations/contre-initiation]] et
 [[doctrinal/deviations/pseudo-initiation-et-syncretisme]] (*Le Règne de la
 Quantité*, ch. XXVIII-XL). Guénon distingue nettement :
-- la **contre-initiation**, réelle dans son ordre mais à valeur négative, dont le
+- la **<dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="universel">contre-initiation</dfn>**, réelle dans son ordre mais à valeur négative, dont le
   champ ne dépasse jamais le « monde intermédiaire » (domaine psychique) — le
   domaine métaphysique et spirituel lui est absolument fermé ;
 - la **pseudo-initiation**, contrefaçon vide, de valeur nulle et non négative, mais
@@ -114,4 +114,4 @@ préjuger d'emblée de sa nature : réelle-et-déviée, ou simplement vide.
 ## Notes
 Stub créé lors de l'INGEST du profil utilisateur (2026-06-02). Enrichi le 2026-08-13
 (doctrine magie/théurgie/influences spirituelles, ancrage du chantier
-Shams al-Maʿārif).
+<span data-nom="shams-al-maarif" data-genre="ouvrage">Shams al-Maʿārif</span>).

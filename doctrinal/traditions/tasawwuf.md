@@ -10,7 +10,7 @@ tags:
 - tasawwuf
 - ihsan
 created: 2026-06-02
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 1
 cross_links:
@@ -84,9 +84,9 @@ C'est encore, dit-on, la saisie (*aḥḏ*) des Réalités essentielles (*ḥaq�
 ## Concepts liés
 
 - [[ahl-al-sunnah-wa-l-jamaa]] — le taṣawwuf en constitue le degré de l'*iḥsān*.
-- [[naqshbandiyya]] — ṭarīqa soufie majeure (dhikr silencieux, rābiṭa, Khatm al-Khawājagān).
+- [[naqshbandiyya]] — <dfn data-terme="tariqa" data-translit="ṭarīqa" data-tradition="islam">ṭarīqa</dfn> soufie majeure (dhikr silencieux, rābiṭa, Khatm al-Khawājagān).
 - [[tawakkul]], [[futuwwa]], [[shukr]], [[ghafla]] — stations et états du « fiqh du cœur ».
-- [[walaya]] — la walāya est la finalité du chemin soufi.
+- [[walaya]] — la <dfn data-terme="walaya" data-translit="walāya" data-tradition="islam">walāya</dfn> est la finalité du chemin soufi.
 - [[tariqa]] — la Voie en tant que démarche itinérante.
 
 ## Sources

@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "kabbale"
 tags: [kabbale, traduction, annotation, mediation]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/haim-vital]]", "[[doctrinal/autorites/isaac-louria-arizal]]"]
@@ -16,7 +16,7 @@ cross_links: ["[[doctrinal/autorites/haim-vital]]", "[[doctrinal/autorites/isaac
 ## Présentation
 
 Traducteur et annotateur contemporain de la *Shaar Hagilgulim* de l'Arizal
-(via Haïm Vital) vers l'anglais.
+(via <span data-nom="haim-vital" data-genre="autorite">Haïm Vital</span>) vers l'anglais.
 
 ## Statut dans le dépôt
 

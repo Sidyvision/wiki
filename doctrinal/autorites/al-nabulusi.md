@@ -8,7 +8,7 @@ tags:
 - soufisme
 - stub
 created: 2026-06-20
-updated: 2026-08-25
+updated: 2026-09-08
 sources:
 - to-source
 sources_count: 1
@@ -20,7 +20,7 @@ cross_links:
 
 ## Identité
 
-Savant et soufi damascène (m. 1143 H / 1731), auteur de *Taʿṭīr al-Anām fī Taʿbīr al-Manām*, ouvrage de référence de l'oniromancie islamique postérieur à Ibn Sīrīn.
+Savant et soufi damascène (m. 1143 H / 1731), auteur de *Taʿṭīr al-Anām fī Taʿbīr al-Manām*, ouvrage de référence de l'oniromancie islamique postérieur à <span data-nom="ibn-sirin" data-genre="autorite">Ibn Sīrīn</span>.
 
 ## Faits
 

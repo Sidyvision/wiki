@@ -9,7 +9,7 @@ tags:
 - theologie
 - stub
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -21,6 +21,6 @@ cross_links:
 
 ## Identité
 
-Savant musulman hanbalite (1292–1350), disciple d’Ibn Taymiyya. Auteur de *Zad al-Ma’ad* et de *Guérir avec la médecine du Prophète* (*Al-Tibb al-Nabawi*), références classiques du Tibb-e-Nabawi.
+Savant musulman hanbalite (1292–1350), disciple d’Ibn Taymiyya. Auteur de *Zad al-Ma’ad* et de *Guérir avec la médecine du Prophète* (*Al-Tibb al-Nabawi*), références classiques du <dfn data-terme="tibb-e-nabawi" data-translit="Tibb-e-Nabawi" data-tradition="islam">Tibb-e-Nabawi</dfn>.
 
 #stub

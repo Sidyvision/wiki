@@ -10,7 +10,7 @@ tags:
 - medine
 - hadith
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -22,7 +22,7 @@ cross_links:
 
 Imam de Médine (m. 179 H.), traditionniste et juriste, éponyme du
 [[madhhab-maliki|madhhab mālikite]]. Auteur du **al-Muwaṭṭaʾ**, l'un des plus
-anciens recueils composés de ḥadīth et de fiqh, organisé par chapitres de droit.
+anciens recueils composés de ḥadīth et de <dfn data-terme="fiqh" data-translit="fiqh" data-tradition="islam">fiqh</dfn>, organisé par chapitres de droit.
 — source : to-source (dates et faits biographiques à confronter aux textes de
 l'école dès acquisition).
 

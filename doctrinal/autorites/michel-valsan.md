@@ -13,12 +13,12 @@ cross_links:
   - "[[doctrinal/autorites/rene-guenon]]"
   - "[[doctrinal/autorites/charles-andre-gilis]]"
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 ---
 
 # Michel Vâlsan (Cheikh Mustafâ Abd al-Azîz / Abd ar-Razzâq Yahyâ)
 
-Disciple de René Guénon (Sheikh ʿAbd al-Wāḥid Yaḥyā), traducteur et commentateur de l'œuvre d'Ibn ʿArabī. Fondateur et directeur des *Études Traditionnelles* en France. Auteur d'études fondamentales sur la métaphysique du Califat et la réalisation spirituelle dans la tradition akbarienne.
+Disciple de <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span> (Sheikh ʿAbd al-Wāḥid Yaḥyā), traducteur et commentateur de l'œuvre d'Ibn ʿArabī. Fondateur et directeur des *<span data-nom="etudes-traditionnelles" data-genre="ouvrage">Études Traditionnelles</span>* en France. Auteur d'études fondamentales sur la métaphysique du Califat et la réalisation spirituelle dans la tradition akbarienne.
 
 ## Noms initiatiques
 
@@ -28,9 +28,9 @@ Disciple de René Guénon (Sheikh ʿAbd al-Wāḥid Yaḥyā), traducteur et com
 ## Filiations spirituelles
 
 - **Maître** : René Guénon (Sheikh ʿAbd al-Wāḥid Yaḥyā)
-- **Disciple** : Charles-André Gilis (Abd ar-Razzâq Yahyâ)
+- **Disciple** : <span data-nom="charles-andre-gilis" data-genre="autorite">Charles-André Gilis</span> (Abd ar-Razzâq Yahyâ)
 - **Fondateur** : *Études Traditionnelles* (directeur)
-- **Lignée** : Ibn ʿArabī → René Guénon → Michel Vâlsan → Charles-André Gilis
+- **Lignée** : <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> → René Guénon → Michel Vâlsan → Charles-André Gilis
 
 ## Contributions doctrinales majeures
 

@@ -9,7 +9,7 @@ tags:
 - afrique-ouest
 - tijaniyya
 created: 2026-06-02
-updated: 2026-08-23
+updated: 2026-09-08
 sources:
 - '[[shams-al-maarif]]'
 sources_count: 1
@@ -22,7 +22,7 @@ cross_links:
 
 ## Identité
 
-Praticien soufi et traducteur ivoirien, auteur de la traduction française du *Shams al-Maʿārif al-Kubrā* d'[[ahmad-al-buni]] ainsi que de plusieurs ouvrages complémentaires sur la science divine et la spiritualité islamique. Basé en Côte d'Ivoire.
+Praticien soufi et traducteur ivoirien, auteur de la traduction française du *<span data-nom="shams-al-maarif" data-genre="ouvrage">Shams al-Maʿārif</span> al-Kubrā* d'[[ahmad-al-buni]] ainsi que de plusieurs ouvrages complémentaires sur la science divine et la spiritualité islamique. Basé en Côte d'Ivoire.
 
 ## Faits
 

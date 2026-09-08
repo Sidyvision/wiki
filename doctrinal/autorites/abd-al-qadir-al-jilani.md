@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [soufisme, hanbalisme, walaya, qadiriyya, ghawth, medieval]
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-09-08
 sources: ["[[mawlid-al-rasul]]"]
 sources_count: 1
 cross_links: ["[[tasawwuf]]", "[[walaya]]", "[[salawat]]", "[[wird-awrad]]", "[[ibn-arabi]]"]
@@ -15,14 +15,14 @@ cross_links: ["[[tasawwuf]]", "[[walaya]]", "[[salawat]]", "[[wird-awrad]]", "[[
 
 ## Identité
 
-Muḥyī al-Dīn Abū Muḥammad ʿAbd al-Qādir ibn Abī Ṣāliḥ al-Jīlānī al-Ḥanbalī (470–561/1077–1166), surnommé *Ghawth al-Aʿẓam* (le Plus Grand Secours) et *Sulṭān al-Awliyāʾ* (Sultan des Saints). Fondateur de la voie Qādiriyya, l’une des principales confréries soufies de l’islam.
+Muḥyī al-Dīn Abū Muḥammad ʿAbd al-Qādir ibn Abī Ṣāliḥ al-Jīlānī al-Ḥanbalī (470–561/1077–1166), surnommé *<dfn data-terme="ghawth" data-translit="Ghawth" data-tradition="islam">Ghawth</dfn> al-Aʿẓam* (le Plus Grand Secours) et *Sulṭān al-Awliyāʾ* (Sultan des Saints). Fondateur de la voie <span data-nom="qadiriyya" data-genre="ecole">Qādiriyya</span>, l’une des principales confréries soufies de l’islam.
 
 ## Faits
 
 - Surnommé *Ghawth al-Aʿẓam* — le Plus Grand Secours — titre désignant le pôle (*quṭb*) suprême de la hiérarchie spirituelle islamique de son époque — source : [[mawlid-al-rasul]]
 - Surnommé *Sulṭān al-Awliyāʾ* — Sultan des Saints — source : [[mawlid-al-rasul]]
 - Juriste hanbalite et maître soufi ; fondateur de la confrérie Qādiriyya, l’une des plus répandues dans le monde islamique — source : [[mawlid-al-rasul]]
-- Auteur du *Mawlid al-Rasūl al-Aʿẓam*, composition dévotionnelle en arabe classique rythmé célébrant la naissance et les qualités du Prophète, transmise avec *sanad* par Al-Madrasah Al-Ḥanbaliyyah (édition 2024) — source : [[mawlid-al-rasul]]
+- Auteur du *<span data-nom="mawlid-al-rasul" data-genre="ouvrage">Mawlid al-Rasūl</span> al-Aʿẓam*, composition dévotionnelle en arabe classique rythmé célébrant la naissance et les qualités du Prophète, transmise avec *sanad* par Al-Madrasah Al-Ḥanbaliyyah (édition 2024) — source : [[mawlid-al-rasul]]
 - Son titre *Ghawth al-Aʿẓam* correspond dans la cosmologie soufie au rang de *quṭb* (pôle) suprême — rang parallèle à celui qu’[[ibn-arabi]] attribue à Idrīs et, dans une autre perspective, à lui-même (*khatm al-walāya*) — source : [[mawlid-al-rasul]]
 - La transmission de son mawlid s’appuie sur un *sanad* (chaîne de transmission) détaillé, conforme aux pratiques soufies de transmission des textes dévotionnels — source : [[mawlid-al-rasul]]
 - Né à Jīlān (Gilan, actuel nord de l’Iran), mort à Bagdad — source : to-source

@@ -10,7 +10,7 @@ tags:
 - maghreb
 - medieval
 created: 2026-06-02
-updated: 2026-08-23
+updated: 2026-09-08
 sources:
 - '[[shams-al-maarif]]'
 sources_count: 1
@@ -26,13 +26,13 @@ cross_links:
 
 ## Identité
 
-Abū al-ʿAbbās Aḥmad ibn ʿAlī ibn Yūsuf al-Qurashī al-Būnī (m. 622/1225), mystique et érudit musulman originaire de Bône (auj. Annaba, Algérie). Principal auteur de la tradition de l'occultisme islamique (*ʿilm al-ḥurūf*, *simiyāʾ*).
+Abū al-ʿAbbās Aḥmad ibn ʿAlī ibn Yūsuf al-Qurashī al-Būnī (m. 622/1225), mystique et érudit musulman originaire de Bône (auj. Annaba, Algérie). Principal auteur de la tradition de l'occultisme islamique (*<dfn data-terme="ilm-al-huruf" data-translit="ʿilm al-ḥurūf" data-tradition="islam">ʿilm al-ḥurūf</dfn>*, *simiyāʾ*).
 
 ## Faits
 
-- Auteur du *Shams al-Maʿārif al-Kubrā* (Le Grand Soleil des Gnoses), encyclopédie de l'occultisme islamique médiéval — source : [[shams-al-maarif]]
+- Auteur du *<span data-nom="shams-al-maarif" data-genre="ouvrage">Shams al-Maʿārif</span> al-Kubrā* (Le Grand Soleil des Gnoses), encyclopédie de l'occultisme islamique médiéval — source : [[shams-al-maarif]]
 - L'ouvrage couvre la science des lettres (*[[ilm-al-huruf]]*), les carrés magiques (*awfāq*), les propriétés des 99 Noms divins (*[[asma-al-husna]]*) et les pratiques talismaniques (*[[talisman-sihr]]*) — source : [[shams-al-maarif]]
-- Contemporain d'[[ibn-arabi]] (m. 1240) ; les deux auteurs partagent un univers conceptuel soufi commun (cosmologie des lettres, *tajallī*, hiérarchie spirituelle) mais avec des orientations distinctes : al-Būnī est orienté vers la pratique (*ʿamal*), Ibn ʿArabī vers la métaphysique pure — source : [[shams-al-maarif]]
+- Contemporain d'[[ibn-arabi]] (m. 1240) ; les deux auteurs partagent un univers conceptuel soufi commun (cosmologie des lettres, *tajallī*, hiérarchie spirituelle) mais avec des orientations distinctes : al-Būnī est orienté vers la pratique (*ʿamal*), <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> vers la métaphysique pure — source : [[shams-al-maarif]]
 - Son système cosmologique repose sur une chaîne d'influences descendantes : Trône (*ʿarsh*) → Siège (*kursī*) → 7 sphères planétaires → 4 éléments — source : [[shams-al-maarif]]
 - Chaque lettre arabe est mise en correspondance avec une planète, un nombre (*abjad*), un élément et des propriétés géométriques (triangles, carrés magiques) — source : [[shams-al-maarif]]
 - Son œuvre a exercé une influence durable dans les traditions soufies d'Afrique de l'Ouest (Sénégal, Mali, Côte d'Ivoire, Burkina Faso) — source : [[shams-al-maarif]]

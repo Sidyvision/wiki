@@ -8,7 +8,7 @@ tags:
 - antiquite
 - metaphysique
 created: 2026-06-02
-updated: 2026-08-23
+updated: 2026-09-08
 sources:
 - '[[platon-oeuvres-completes-brisson-2011]]'
 - '[[guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]]'
@@ -35,12 +35,12 @@ Platon (vers 428–348 av. J.-C.), philosophe grec, fondateur de l'Académie ; p
 ## Faits
 
 - Auteur du *Timée* et du *Critias*, source primaire unique de la tradition sur l'Atlantide ; le récit y parvient par une chaîne de transmission explicite : prêtres égyptiens de Saïs → Solon → Critias l'Ancien → Critias le Jeune — source : [[platon-oeuvres-completes-brisson-2011]]
-- *Timée* (24e–25d) : puissance atlantéenne, conflit avec Athènes, engloutissement en un jour et une nuit ; *Critias* (113b–114a) : fondation de l'île par Poséidon, anneaux concentriques, dix royaumes — source : [[platon-oeuvres-completes-brisson-2011]]
+- *Timée* (24e–25d) : puissance atlantéenne, conflit avec Athènes, engloutissement en un jour et une nuit ; *Critias* (113b–114a) : fondation de l'île par <span data-nom="poseidon" data-genre="entite">Poséidon</span>, anneaux concentriques, dix royaumes — source : [[platon-oeuvres-completes-brisson-2011]]
 - Avertit lui-même, dans le préambule du *Critias*, que les noms grecs des personnages sont des traductions de noms égyptiens transposés depuis une source antérieure — source : [[platon-oeuvres-completes-brisson-2011]]
 - « Dieu géométrise toujours » ; « Que nul n'entre ici s'il n'est géomètre » — conceptions assimilant l'activité divine ordonnatrice à la géométrie et à l'architecture, rapportées par Guénon aux côtés du « Grand Architecte de l'Univers » et du *Vishwakarma* hindou — source : [[guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]]
 - L'allégorie de la caverne : les modernes qui ne connaissent que « les nombres de l'arithmétique vulgaire » prennent « l'ombre pour la réalité même, comme les prisonniers de la caverne de Platon » (cité par Guénon) — source : [[guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]]
 - La « réminiscence » platonicienne : la connaissance des degrés de l'être advient comme reconnaissance de ce qui est déjà en soi, « d'une façon en quelque sorte "intemporelle" » — Guénon y lit une des significations profondes de la reconnaissance initiatique — source : [[guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise]]
-- Ibn ʿArabī « fut appelé Ibn Aflatûn, le "fils de Platon" » — attesté dans la préface de la traduction des *Révélations mecquoises* (A. Penot, Entrelacs 2009) — source : [[revelations-mecque-penot-entrelacs-2009-annexes-transcription]]
+- <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> « fut appelé Ibn Aflatûn, le "fils de Platon" » — attesté dans la préface de la traduction des *Révélations mecquoises* (A. Penot, Entrelacs 2009) — source : [[revelations-mecque-penot-entrelacs-2009-annexes-transcription]]
 - Figure indexée dans le *Kitāb al-Taʿrīfāt* d'al-Jurjānī (lexique traditionnel islamique) : entrée « Platon : 652 » — source : [[kitab-tarifat-index-transcription]]
 
 ## Relations

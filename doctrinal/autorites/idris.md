@@ -11,7 +11,7 @@ tags:
 - enoch
 - qutb
 created: 2026-06-02
-updated: 2026-08-23
+updated: 2026-09-08
 sources:
 - '[[jesus-and-enoch-in-ibn-arabi]]'
 sources_count: 1
@@ -30,7 +30,7 @@ Idrīs est un prophète coranique (Q.19:56–57 ; Q.21:85) identifié dans la tr
 
 ## Faits
 
-- Identifié par Ibn ʿArabī à Élie (Ilyas) : même figure prophétique se manifestant sous deux noms/rôles distincts — source : [[jesus-and-enoch-in-ibn-arabi]]
+- Identifié par <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> à Élie (Ilyas) : même figure prophétique se manifestant sous deux noms/rôles distincts — source : [[jesus-and-enoch-in-ibn-arabi]]
 - Identifié dans la tradition médiévale (*via* al-Qazwīnī) à Hermès Trismégiste, bâtisseur légendaire des pyramides d'Égypte, qui aurait stocké le savoir pour le préserver du *durūs* (extinction) — source : [[jesus-and-enoch-in-ibn-arabi]]
 - Réside dans le **quatrième ciel** (orbite du soleil) selon Ibn ʿArabī ; il est vivant dans son corps dans ce monde — source : [[jesus-and-enoch-in-ibn-arabi]]
 - Occupe le rang de *quṭb* (pôle) dans la hiérarchie des saints (*awliyāʾ*) : il est le site du regard du Réel (*al-Ḥaqq*) sur ce monde — source : [[jesus-and-enoch-in-ibn-arabi]]
@@ -41,7 +41,7 @@ Idrīs est un prophète coranique (Q.19:56–57 ; Q.21:85) identifié dans la tr
 ## Relations
 
 - [[ibn-arabi]] — l'a placé au rang de *quṭb* résidant dans le quatrième ciel
-- [[barzakh]] — sa station de *quṭb* fait de lui un *barzakh* entre Dieu et la création
+- [[barzakh]] — sa station de *quṭb* fait de lui un *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>* entre Dieu et la création
 - [[walaya]] — il est la figure du *quṭb* suprême dans la hiérarchie de la sainteté
 
 ## Notes
