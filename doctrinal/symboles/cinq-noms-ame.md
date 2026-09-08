@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "kabbale"
 tags: [kabbale, ame, nefesh, ruah, neshama, haya, yehida, quatre-mondes, lurianique]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/gilgul]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/coeurs-subtils]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]"]
@@ -17,7 +17,7 @@ cross_links: ["[[doctrinal/symboles/gilgul]]", "[[doctrinal/symboles/hadarat-kha
 
 Selon [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]],
 la kabbale lurianique distingue cinq niveaux de l'âme, du plus bas au plus
-haut : **Nefesh**, **Ruaḥ**, **Neshama**, **Ḥaya**, **Yeḥida**. Le corps n'est
+haut : **<dfn data-terme="nefesh" data-translit="Nefesh" data-tradition="kabbale">Nefesh</dfn>**, **<dfn data-terme="ruah" data-translit="Ruaḥ" data-tradition="kabbale">Ruaḥ</dfn>**, **<dfn data-terme="neshama" data-translit="Neshama" data-tradition="kabbale">Neshama</dfn>**, **<dfn data-terme="haya" data-translit="Ḥaya" data-tradition="kabbale">Ḥaya</dfn>**, **<dfn data-terme="yehida" data-translit="Yeḥida" data-tradition="kabbale">Yeḥida</dfn>**. Le corps n'est
 que le vêtement de l'âme — non l'individu lui-même (Ex 30:32, Zohar,
 *Parashat Bereishit* 20b).
 

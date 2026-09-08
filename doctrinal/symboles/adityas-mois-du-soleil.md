@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "hindouisme"
 tags: [adityas, aditi, martanda, kashyapa, soleil, septenaire, meru, vedas, tilak, to-source]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/tilak-origine-polaire-tradition-vedique]]", "to-source"]
 sources_count: 2
 cross_links: ["[[doctrinal/symboles/ushas-les-trente-aurores]]", "[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]", "[[doctrinal/sources/guenon-roi-du-monde-ch10]]"]
@@ -58,8 +58,8 @@ Mārtāṇḍam ā abharat* (« elle l'amena **de nouveau** »), l'Āraṇyaka l
 Mārtāṇḍam ā abharat* (« elle mit Mārtāṇḍa **de côté** »).
 
 Le *Śatapatha Brāhmaṇa* (III, 1, 3, 3) ajoute : sept seulement sont appelés
-*Devāḥ Ādityāḥ* par les hommes ; le huitième, Mārtāṇḍa, **naquit non développé**,
-et les dieux Ādityas créèrent de lui l'homme et les autres animaux.
+*Devāḥ Ādityāḥ* par les hommes ; le huitième, <span data-nom="martanda" data-genre="entite">Mārtāṇḍa</span>, **naquit non développé**,
+et les dieux <dfn data-terme="adityas" data-translit="Ādityas" data-tradition="hindouisme">Ādityas</dfn> créèrent de lui l'homme et les autres animaux.
 
 ## II. Les huit soleils de l'Āraṇyaka — et Kaśyapa au Mahāmeru
 
@@ -96,7 +96,7 @@ huitième :
 
 ## IV. Le septénaire solaire, attesté indépendamment
 
-Le caractère septénaire du soleil ne tient pas à la seule légende d'Aditi :
+Le caractère septénaire du soleil ne tient pas à la seule légende d'<span data-nom="aditi" data-genre="entite">Aditi</span> :
 
 | formule | référence |
 |---|---|
@@ -124,7 +124,7 @@ force, et répond seulement *aṣṭau te vyavasitāḥ*.
 
 ## VI. La lecture de Tilak — et son statut
 
-Tilak (ch. VII) tient les Ādityas pour les **mois de soleil** : le nombre de mois
+<span data-nom="tilak" data-genre="autorite">Tilak</span> (ch. VII) tient les Ādityas pour les **mois de soleil** : le nombre de mois
 où le soleil paraît varie avec la latitude, « de sept à onze », et le huitième
 rejeté est le mois que la nuit continue emporte.
 

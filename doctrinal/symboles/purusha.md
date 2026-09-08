@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: hindouisme
 tags: [purusha, conscience, temoin, samkhya, purusha-prakriti, atma]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources:
   - "[[doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya]]"
 sources_count: 1
@@ -16,13 +16,13 @@ cross_links:
 
 # Purusha (Conscience pure)
 
-Le **Purusha** est la conscience pure, le témoin impassible (*sākṣin*) qui observe sans jamais agir. Dans la philosophie Sāṃkhya, il est le principe conscient éternel, distinct de la nature manifestée (*Prakriti*).
+Le **<dfn data-terme="purusha" data-translit="Purusha" data-tradition="hindouisme">Purusha</dfn>** est la conscience pure, le témoin impassible (*sākṣin*) qui observe sans jamais agir. Dans la philosophie Sāṃkhya, il est le principe conscient éternel, distinct de la nature manifestée (*Prakriti*).
 
 ## Caractéristiques fondamentales
 
 - **Conscience pure** : témoin silencieux de toutes les modifications de la nature
 - **Immuabilité** : ne change pas, n'agit pas, ne se modifie jamais
-- **Multiplicité** : dans le Sāṃkhya classique, il existe une multiplicité de Purushas (âmes individuelles), chacun étant un témoin distinct
+- **Multiplicité** : dans le <span data-nom="samkhya" data-genre="ecole">Sāṃkhya</span> classique, il existe une multiplicité de Purushas (âmes individuelles), chacun étant un témoin distinct
 - **Transcendance** : dans l'Advaita Vedānta, la multiplicité des Purushas est transcendée par l'unité de l'Ātman (identique à Brahman)
 
 ## Distinction fondamentale : Purusha vs Prakriti
@@ -35,7 +35,7 @@ Le **Purusha** est la conscience pure, le témoin impassible (*sākṣin*) qui o
 | Libre | Liée (par les guṇas) |
 | Subjecte | Objecte |
 
-La manifestation cosmique naît du **contact illusoire** entre Purusha et Prakriti. Purusha, bien qu'éternellement libre, semble s'identifier à Prakriti par ignorance (*avidyā*).
+La manifestation cosmique naît du **contact illusoire** entre Purusha et Prakriti. Purusha, bien qu'éternellement libre, semble s'identifier à <span data-nom="prakriti" data-genre="principe">Prakriti</span> par ignorance (*avidyā*).
 
 ## Purusha vs Jīvātman
 

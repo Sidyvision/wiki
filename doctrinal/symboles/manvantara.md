@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, manvantara, yuga, kali-yuga, satya-yuga, cycles-cosmiques, eschatologie, hindouisme]
 created: 2026-06-30
-updated: 2026-08-20
+updated: 2026-09-08
 sources: ["[[fin-des-temps-modernes-manvantara-mahdi-rouge]]"]
 sources_count: 1
 cross_links: ["[[rene-guenon]]", "[[sanatana-dharma]]", "[[atlantide]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[rene-guenon]]", "[[sanatana-dharma]]", "[[atlantide]]"]
 
 ## Définition
 
-Le *Manvantara* est, dans la doctrine hindoue des cycles cosmiques reprise par Guénon comme cadre général de la Tradition Primordiale, la période d'application d'un Manu — une grande division temporelle elle-même subdivisée en quatre âges ou *Yuga* d'étendue décroissante : *Satya-Yuga* (Âge d'or), *Trêtâ-Yuga*, *Dwâpara-Yuga*, et *Kali-Yuga* (Âge de fer, l'âge actuel) — source : [[fin-des-temps-modernes-manvantara-mahdi-rouge]].
+Le *<dfn data-terme="manvantara" data-translit="Manvantara" data-tradition="universel">Manvantara</dfn>* est, dans la doctrine hindoue des cycles cosmiques reprise par <span data-nom="guenon" data-genre="autorite">Guénon</span> comme cadre général de la Tradition Primordiale, la période d'application d'un Manu — une grande division temporelle elle-même subdivisée en quatre âges ou *Yuga* d'étendue décroissante : *Satya-Yuga* (Âge d'or), *Trêtâ-Yuga*, *Dwâpara-Yuga*, et *Kali-Yuga* (Âge de fer, l'âge actuel) — source : [[fin-des-temps-modernes-manvantara-mahdi-rouge]].
 
 ## Repères du Manvantara actuel
 
@@ -29,7 +29,7 @@ D'après les indications de Guénon rapportées par la source, le Manvantara act
 | Tour de Babel | inauguration du *Kali-Yuga* (Âge de fer) |
 | Naissance de Muhammad | repère final du schéma graphique de la source |
 
-Durées (en années) des quatre Yuga telles que rapportées : Satya-Yuga 25 920, Trêtâ-Yuga 19 440, Dwâpara-Yuga 12 960, Kali-Yuga 6 480 — source : [[fin-des-temps-modernes-manvantara-mahdi-rouge]].
+Durées (en années) des quatre <span data-nom="yuga" data-genre="cycle">Yuga</span> telles que rapportées : <span data-nom="satya-yuga" data-genre="cycle">Satya-Yuga</span> 25 920, Trêtâ-Yuga 19 440, Dwâpara-Yuga 12 960, <span data-nom="kali-yuga" data-genre="cycle">Kali-Yuga</span> 6 480 — source : [[fin-des-temps-modernes-manvantara-mahdi-rouge]].
 
 ## Point doctrinal central : la non-coïncidence des points de départ traditionnels
 

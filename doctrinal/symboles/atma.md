@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: hindouisme
 tags: [atma, soi, conscience-pure, vedanta, samkhya, purusha, identite-supreme]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources:
   - "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]"
   - "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]"
@@ -24,7 +24,7 @@ cross_links:
 
 ## Définition
 
-**Âtmâ** (Sanskrit : आत्मन्) désigne le **Soi véritable**, la personnalité permanente et immuable qui sous-tend toutes les manifestations de l'être. Il ne doit pas être confondu avec le « moi » individuel (*ahamkâra*), qui est contingent et limité.
+**<dfn data-terme="atma" data-translit="Âtmâ" data-tradition="hindouisme">Âtmâ</dfn>** (Sanskrit : आत्मन्) désigne le **Soi véritable**, la personnalité permanente et immuable qui sous-tend toutes les manifestations de l'être. Il ne doit pas être confondu avec le « moi » individuel (*ahamkâra*), qui est contingent et limité.
 
 ---
 
@@ -54,7 +54,7 @@ Les trois premières conditions appartiennent à l'ordre manifesté ; Turîya es
 
 ## Âtmâ et Jîvâtma
 
-Quand Âtmâ se manifeste dans l'individualité humaine, on le nomme **Jîvâtma** (âme individuelle). Cette distinction est purement relative : Jîvâtma est Âtmâ lui-même, mais limité par les enveloppes (*koshas*) de la manifestation.
+Quand Âtmâ se manifeste dans l'individualité humaine, on le nomme **<dfn data-terme="jivatma" data-translit="Jîvâtma" data-tradition="hindouisme">Jîvâtma</dfn>** (âme individuelle). Cette distinction est purement relative : Jîvâtma est Âtmâ lui-même, mais limité par les enveloppes (*koshas*) de la manifestation.
 
 ---
 
@@ -62,8 +62,8 @@ Quand Âtmâ se manifeste dans l'individualité humaine, on le nomme **Jîvâtma
 
 | Tradition | Concept équivalent |
 |-----------|-------------------|
-| Vêdânta | Brahma (en tant qu'identique au Soi) |
-| Samkhya | Purusha (conscience pure) |
+| <span data-nom="vedanta" data-genre="ecole">Vêdânta</span> | Brahma (en tant qu'identique au Soi) |
+| <span data-nom="samkhya" data-genre="ecole">Samkhya</span> | Purusha (conscience pure) |
 | Soufisme | al-Rūh (l'Esprit), al-Haqq (la Vérité) |
 | Kabbale | Yehidah (l'unité essentielle) |
 | Taoïsme | Tao (en tant que nature propre) |

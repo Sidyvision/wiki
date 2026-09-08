@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 153,
+  "avertissements": 154,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -3459,6 +3459,38 @@
       ],
       "updated": "2026-09-01",
       "chemin": "atelier/rd/outillage/gabarit-triptyque-chantier.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines",
+      "label": "Passe Jurjānī sur les clés orphelines de l'index lexical — relevé mécanique",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "langues-originales",
+        "jurjani",
+        "appariement",
+        "releve"
+      ],
+      "updated": "2026-09-08",
+      "chemin": "atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/index-lexical",
+      "label": "Index lexical — termes, noms et definitions du depot",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-09-08",
+      "chemin": "atelier/rd/outillage/index-lexical/index-lexical.md",
       "lacunes_to_source": 0
     },
     {
@@ -8954,7 +8986,7 @@
         "tilak",
         "to-source"
       ],
-      "updated": "2026-09-02",
+      "updated": "2026-09-08",
       "chemin": "doctrinal/symboles/adityas-mois-du-soleil.md",
       "lacunes_to_source": 1
     },
@@ -9108,7 +9140,7 @@
         "purusha",
         "identite-supreme"
       ],
-      "updated": "2026-08-30",
+      "updated": "2026-09-08",
       "chemin": "doctrinal/symboles/atma.md",
       "lacunes_to_source": 0
     },
@@ -9287,7 +9319,7 @@
         "quatre-mondes",
         "lurianique"
       ],
-      "updated": "2026-08-31",
+      "updated": "2026-09-08",
       "chemin": "doctrinal/symboles/cinq-noms-ame.md",
       "lacunes_to_source": 0
     },
@@ -9931,7 +9963,7 @@
         "eschatologie",
         "hindouisme"
       ],
-      "updated": "2026-08-20",
+      "updated": "2026-09-08",
       "chemin": "doctrinal/symboles/manvantara.md",
       "lacunes_to_source": 0
     },
@@ -10225,7 +10257,7 @@
         "purusha-prakriti",
         "atma"
       ],
-      "updated": "2026-08-30",
+      "updated": "2026-09-08",
       "chemin": "doctrinal/symboles/purusha.md",
       "lacunes_to_source": 0
     },
@@ -13905,6 +13937,20 @@
       "target": "atelier/rd/registre-chantiers",
       "champ": "links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines",
+      "target": "doctrinal/sources/kitab-tarifat-corps-transcription",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines",
+      "target": "doctrinal/sources/kitab-tarifat-index-transcription",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
