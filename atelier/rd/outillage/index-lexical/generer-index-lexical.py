@@ -355,6 +355,14 @@ class Index:
         """Enregistre une paire ATTESTÉE PAR LE TEXTE, dans les deux sens."""
         if not est_ecriture_originale(original) or est_ecriture_originale(latin):
             return
+        # Une lettre grecque isolée est un LABEL dans ce dépôt, jamais un
+        # terme : mesuré sur α, δ, γ, π, φ, tous employés comme variables ou
+        # numéros de système (« système (α) », « conversion (δ) → (γ) »). Un
+        # caractère han isolé, lui, est un terme plein (巴) — d'où la
+        # distinction par écriture et non par longueur.
+        if len(original.strip()) == 1 and "GREEK" in unicodedata.name(
+                original.strip(), ""):
+            return
         a, b = normaliser(latin), normaliser(original)
         if not a or not b or a == b:
             return
@@ -474,6 +482,15 @@ def recolter(racine: Path, index: Index, rapport: dict, suivis):
             # Différé — les deux clés d'une paire ne sont pas nécessairement
             # récoltées par le même fichier ; on apparie une fois la récolte
             # close, jamais au fil de l'eau.
+            # Sources d'appariement : le `title:` et le H1 SEULEMENT — le
+            # site que le §VII, point 3, déclare canonique. Les H2 y ont été
+            # essayés puis RETIRÉS le 2026-09-08 : ce sont des intertitres de
+            # section, et ils ont produit `systeme` ↔ `α` depuis
+            # « ... — système (α) ». La forme à barre oblique
+            # (« chikai to seiyaku / 誓約と制約 ») a été essayée et retirée de
+            # même : aucune paire vraie, et c'est d'ailleurs une paire de
+            # SYNTAGMES, que cet index — dont les clés sont des tokens — ne peut
+            # structurellement pas porter. Limitation rapportée, non contournée.
             for src in sources_titre:
                 paires.extend(RE_APPARIEMENT.findall(src))
             for ligne in corps.splitlines():
