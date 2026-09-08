@@ -17,6 +17,75 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-08] amendement | §VII — Ratification des règles de placement des annotations HTML
+
+**Verdict de Sidy**, 2026-09-08 : « Ratifie les règles de placement au protocole ». Ces
+règles étaient **appliquées depuis l'ouverture du chantier d'indexation mais non
+ratifiées** — signalées comme telles à la validation des cinq fiches pilotes.
+
+**Ce qui est institué**, au §VII, transversal aux cinq circuits : cinq règles de
+placement, dont quatre outillées.
+1. **Jamais dans un wikilink** — le texte d'un wikilink est l'étiquette du lien ; le
+   graphe est le porteur légitime du renvoi. *Refus D4.*
+2. **Jamais dans un titre** (H1..H6) — le `title:`/H1 est le site canonique de la forme
+   originale (langues originales, point 3) et l'index l'y récolte déjà. *Refus D4.*
+3. **Jamais dans du code** — une balise entre chevrons dans du code est un **exemple
+   cité**. Tenu non par un refus mais par le **masquage amont** : le code est masqué
+   avant la recherche des balises, donc une convention citée en prose n'est jamais lue
+   comme une pose.
+4. **Une seule occurrence par terme et par fiche** — l'annotation *type* le terme, elle
+   ne le *compte* pas. *Refus D5.*
+5. **Jamais dans un texte reçu** (transcription, citation mot pour mot). **Non
+   outillée**, et l'écart est déclaré : rien ne distingue mécaniquement une citation
+   transcrite d'un bloc de la voix propre du dépôt. Elle lie le rédacteur, non le script.
+
+**Ce que la mesure a écarté — le point le plus important de cet amendement.** Une
+première rédaction de la règle 5 disait « jamais dans une citation », entendue comme
+« jamais dans un blockquote ». Relevé sur `doctrinal/` avant d'écrire : les blocs `>` y
+sont **massivement la voix propre du dépôt** — `> **Statut**` (53),
+`> **Généalogie des idées**` (53), `> **Examen formel**` (50), `> **Conclusion**` (50),
+`> 🔍 **Discernement — Spéculation Personnelle**` (49), sans compter les blocs
+`> 🌐 **Forme Traditionnelle Divergente**` et `> ⚠️ **Déviation Profane**` que le §VII
+prescrit lui-même. Ce sont **les blocs les plus denses en terminologie de tout le
+circuit**. La règle inférée aurait fermé la porte principale de l'annotation, et l'aurait
+fermée **en silence** — personne ne remarque une annotation qui n'est pas posée. Elle a
+été resserrée sur le **texte reçu**, qui est le motif réel. Une prohibition dont la
+portée est inférée, et non mesurée, est une faute de la même famille que la porte sans
+garde.
+
+**Épreuve des contrôles (§VII) — vert sur X, refus sur Y.**
+- *Vert* : dépôt vivant, « 5 fiches annotées, 21 annotations. OK — aucune anomalie »,
+  code 0 ; bac à sable ne contenant qu'une fiche saine — dont une **citation de la
+  convention en prose**, qui doit précisément ne PAS être lue — aucun refus.
+- *Refus* : trois fautes fabriquées hors dépôt vivant — **D4** annotation dans un titre,
+  **D4** annotation dans un wikilink, **D5** terme annoté une seconde fois (le refus
+  nomme la ligne de la première pose). Trois refus, un par faute, code 2.
+- Conformité préalable des 21 annotations existantes **vérifiée mécaniquement** avant de
+  faire des règles des refus : aucun doublon, aucun placement interdit. Un contrôle ne se
+  cable pas sans savoir s'il refuserait l'état sain.
+
+**Deux défauts du validateur v1.0, trouvés en câblant les nouveaux et corrigés.**
+- **Une convention citée en prose était lue comme une annotation.** Le code n'était masqué
+  qu'après la recherche des balises : une entrée d'annales décrivant la convention entre
+  chevrons a produit un refus faux. C'est le **piège structurel déjà rencontré** avec le
+  marqueur d'insertion cité en prose dans un fichier append-only. Corrigé : le masquage
+  passe avant la recherche, en préservant les longueurs pour que les positions de D4
+  restent justes.
+- **Une branche D4 « dans du code » était inatteignable** — le masquage amont la rendait
+  morte. Retirée : un contrôle qui ne peut pas se déclencher est la forme muette même que
+  le §VII interdit, et il est pire de la laisser en place, car elle donne l'apparence
+  d'une garde.
+
+**Une limite rapportée, non corrigée** (Cmd 12) : le motif de code inline n'admet pas de
+retour à la ligne, de sorte qu'un incise de code **coupé sur deux lignes** échappe au
+masquage. Constaté sur la présente section même, à sa rédaction. Le correctif évident —
+tolérer le retour à la ligne — a été **mesuré et écarté** : rendu glouton par les
+backticks orphelins du dépôt, il avalerait 186 819 caractères de `doctrinal/annales.md`.
+La règle reste donc tenue par le rédacteur.
+
+**Réversibilité (Cmd 10)** : les cinq règles se démontent sur verdict ; D4 et D5 se
+retirent sans effet rétroactif, aucune fiche existante ne les enfreignant.
+
 ## [2026-09-08] amendement | §VII — Champ `jurjani` de l'index lexical : le rang 2 des appariements
 
 **Verdict de Sidy**, 2026-09-08 : « donne un champ propre à Jurjani et intègre les 132 à

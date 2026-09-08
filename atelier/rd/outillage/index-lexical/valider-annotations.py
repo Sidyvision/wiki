@@ -18,6 +18,18 @@ des controles) :
   D3  plancher de non-vacuite — un terme annote qui ne produit aucune entree
       dans l'index. C'est la lecon de `glossaire-unifie.md` : un index vide
       n'est pas un index vert.
+  D4  placement interdit — annotation posee dans un wikilink ou dans un
+      titre (H1..H6). Ratifie au protocole le 2026-09-08 (CLAUDE.md SVII,
+      regles de placement des annotations).
+      LE CODE N'EST PAS UN CAS DE D4 : il est masque AVANT la recherche des
+      balises, de sorte qu'une balise dans du code n'est jamais lue comme une
+      annotation — ce qui est la semantique juste. Une branche D4 « dans du
+      code » a d'abord ete ecrite, puis RETIREE le 2026-09-08 : le masquage
+      amont la rendait inatteignable, et un controle qui ne peut pas se
+      declencher est la forme muette meme que le SVII interdit.
+  D5  occurrence unique — le meme terme annote deux fois dans la meme fiche.
+      L'annotation type le terme, elle ne le compte pas : la seconde pose
+      n'apprend rien et double le poids du terme a la lecture machine.
 
 Et un controle de vocabulaire : la convention est CLOSE a trois elements.
 
@@ -41,7 +53,7 @@ def _generateur():
     m = importlib.util.module_from_spec(s); s.loader.exec_module(m)
     return m
 
-VERSION = "1.0"
+VERSION = "1.1"
 ELEMENTS_CLOS = ("dfn", "span", "abbr")
 # Vocabulaire clos. Etendu le 2026-09-08 sur verdict de Sidy : les quatre
 # genres d'origine ne savaient typer ni les ecoles (darsana), ni les cycles,
@@ -58,6 +70,14 @@ RE_BALISE = re.compile(r"<(dfn|span|abbr)\b([^>]*)>", re.IGNORECASE)
 RE_ATTR = re.compile(r'([a-zA-Z-]+)\s*=\s*"([^"]*)"')
 RE_WL = re.compile(r"\[\[([^\]|#]+)(?:\|[^\]]*)?\]\]")
 RE_FM = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
+# Wikilink COMPLET (avec ses crochets) : D4 teste un chevauchement de spans,
+# la un simple test d'appartenance ne suffirait pas.
+RE_WL_SPAN = re.compile(r"\[\[[^\]]*\]\]")
+# Titre markdown, en debut de ligne. Le `title:`/H1 est le site canonique de
+# la forme originale (SVII, point 3) et l'index l'y recolte deja : annoter
+# dedans double le terme sans rien apprendre, et alourdit un titre qui doit
+# rester lisible tel quel.
+RE_TITRE_LIGNE = re.compile(r"^\s{0,3}#{1,6}\s")
 RE_TAGS = re.compile(r"^tags:\s*\[(.*?)\]\s*$", re.MULTILINE)
 
 
@@ -96,20 +116,39 @@ def valider(racine: Path, chemin_index: Path):
         if suivis is not None and rel not in suivis:
             continue
         texte, corps, apparies = lire(f)
-        balises = list(RE_BALISE.finditer(corps))
+        # Le code est masque AVANT la recherche des balises. Une convention
+        # CITEE EN PROSE — « `<dfn data-terme ...>` sur les termes » — n'est
+        # pas une annotation, et la lire comme telle produit un refus faux.
+        # Defaut de la v1.0, trouve le 2026-09-08 quand une entree d'annales
+        # a decrit la convention entre chevrons : c'est le piege structurel
+        # deja rencontre avec le marqueur d'insertion cite en prose. Le
+        # masque preserve les LONGUEURS, donc les offsets restent ceux de
+        # `corps` et les positions de D4 demeurent justes.
+        gen = _generateur()
+        masque_code = gen.RE_CODE.sub(lambda m: "\x00" * len(m.group(0)), corps)
+        balises = list(RE_BALISE.finditer(masque_code))
         if not balises:
             continue
         n_fiches += 1
+        spans_wl = [(m.start(), m.end()) for m in RE_WL_SPAN.finditer(corps)]
+        # D5 : la comparaison se fait avec le `normaliser` DU GENERATEUR, non
+        # avec celui d'ici — le local decape jusqu'a [a-z0-9-] et fondrait des
+        # cles que le generateur tient pour distinctes. Deux notions de
+        # « meme terme » dans une meme chaine, c'est le controle qui ment.
+        vus_dans_la_fiche = {}
         for b in balises:
             n_annot += 1
-            elem, brut = b.group(1).lower(), b.group(2)
-            attrs = dict(RE_ATTR.findall(brut))
+            # Les groupes proviennent du texte MASQUE : on relit la balise
+            # dans `corps` aux memes offsets pour en extraire les attributs.
+            brut_reel = corps[b.start():b.end()]
+            elem = b.group(1).lower()
+            attrs = dict(RE_ATTR.findall(brut_reel))
 
             # D2 — Unicode invisible dans l'annotation (portee : le balisage)
             for ch, nom in INVISIBLES.items():
-                if ch in b.group(0):
+                if ch in brut_reel:
                     anomalies.append(("D2", rel, "%s dans l'annotation %r"
-                                      % (nom, b.group(0)[:60])))
+                                      % (nom, brut_reel[:60])))
 
             # vocabulaire clos
             if elem not in ELEMENTS_CLOS:
@@ -131,6 +170,28 @@ def valider(racine: Path, chemin_index: Path):
                 g = attrs.get("data-genre")
                 if g not in GENRES_CLOS:
                     anomalies.append(("VOC", rel, "data-genre=%r hors vocabulaire clos" % g))
+
+            # D4 — placement interdit
+            deb = b.start()
+            fin_ligne = corps.find("\n", deb)
+            debut_ligne = corps.rfind("\n", 0, deb) + 1
+            ligne = corps[debut_ligne:fin_ligne if fin_ligne >= 0 else len(corps)]
+            if RE_TITRE_LIGNE.match(ligne):
+                anomalies.append(("D4", rel,
+                    "annotation dans un titre : %r" % ligne[:60]))
+            if any(a <= deb < z for a, z in spans_wl):
+                anomalies.append(("D4", rel,
+                    "annotation dans un wikilink : %r" % brut_reel[:60]))
+
+            # D5 — occurrence unique par terme et par fiche
+            cle_g = gen.normaliser(cle or "")
+            if cle_g:
+                if cle_g in vus_dans_la_fiche:
+                    anomalies.append(("D5", rel,
+                        "terme %r annote une seconde fois (premiere pose "
+                        "ligne %d)" % (cle, vus_dans_la_fiche[cle_g])))
+                else:
+                    vus_dans_la_fiche[cle_g] = corps.count("\n", 0, deb) + 1
 
             # D1 — appariement
             if normaliser(cle or "") not in apparies:

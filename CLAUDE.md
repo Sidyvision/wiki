@@ -20,7 +20,10 @@ la dispersion mentale.
 > toutes les écritures et toutes les fiches, marqueur d'absence `to-original`, aucune
 > passe de masse ; §IV, ouverture du champ **`original:`** sur les Sceaux des cinq
 > circuits, domicile du marqueur, câblé le même jour à sa garde (B5/B6/B7 de
-> `verifier-invariants.py`, éprouvés sur faute fabriquée) ; §VII, index lexical —
+> `verifier-invariants.py`, éprouvés sur faute fabriquée) ; §VII, **ratification des
+> règles de placement des annotations HTML** — jamais dans un wikilink, un titre, du
+> code ni un texte reçu, une seule occurrence par terme et par fiche ; refus D4/D5
+> câblés et éprouvés ; §VII, index lexical —
 > ouverture du champ **`jurjani`**, rang 2 des appariements (autorité textuelle
 > transcrite, numéro de définition cité), strictement séparé du rang 1 `apparie` ; rang égal à la discipline des sources ; verdicts Sidy),
 > **2026-09-02** (§II, ouverture de `textes/`, le
@@ -482,6 +485,69 @@ la lecture de sa forme — c'est un jugement, il revient à Sidy (Cmd 12), et le
 l'interdit d'ailleurs de toute façon. La garde est un contrôle de **cohérence**, jamais
 de complétude ; l'écart de couverture du dépôt se rapporte, il ne se comble pas
 d'office.
+
+### Règles de placement des annotations HTML (transversal — ratifié 2026-09-08)
+
+**Le régime est celui de l'annotation appariée** (verdict Sidy, ouverture du chantier
+d'indexation) : le HTML **type** pour la machine ce que le graphe voit déjà, il ne porte
+**jamais** l'existence d'un lien. Une annotation qui introduirait un renvoi que ni les
+`tags:` ni un wikilink de la fiche ne portent est refusée (D1). La convention est **close
+à trois éléments** — `<dfn>` porteur de `data-terme` / `data-translit` /
+`data-tradition`, `<span>` porteur de `data-nom` / `data-genre`, et `<abbr>` porteur de
+`title` — avec `data-genre` restreint à un vocabulaire clos de sept valeurs :
+`autorite`, `lieu`, `ouvrage`, `entite`, `ecole`, `cycle`, `principe`.
+
+**Les règles de placement**, appliquées depuis l'ouverture du chantier et ratifiées ce
+jour sur verdict de Sidy :
+
+1. **Jamais dans un wikilink.** Le texte d'un wikilink est l'étiquette du lien : y poser
+   une balise brouille la lecture du graphe, qui est le porteur légitime du renvoi.
+   *Refus D4.*
+2. **Jamais dans un titre** (H1..H6). Le `title:` du Sceau et le H1 sont le **site
+   canonique** de la forme originale (discipline des langues originales, point 3) et
+   l'index les récolte déjà : annoter dedans double le terme sans rien apprendre, et
+   alourdit un titre qui doit rester lisible tel quel. *Refus D4.*
+3. **Jamais dans du code.** Une balise entre chevrons dans un bloc ou un incise de code
+   est un **exemple cité**, non une annotation — le code est masqué avant la recherche
+   des balises, de sorte qu'une convention citée en prose (« `<dfn data-terme…>` sur les
+   termes ») n'est jamais lue comme une pose. Ce n'est **pas** un refus, c'est la
+   sémantique juste.
+4. **Une seule occurrence par terme et par fiche.** L'annotation **type** le terme, elle
+   ne le **compte** pas : la seconde pose n'apprend rien à la machine et double le poids
+   du terme à la lecture. *Refus D5.*
+5. **Jamais dans un texte reçu** — une transcription, une citation reproduite mot pour
+   mot, un extrait de source primaire. Annoter dedans altère ce qui doit être transmis
+   tel quel. **Cette règle n'est pas outillée**, et l'écart est déclaré plutôt que
+   comblé : une citation transcrite et un bloc de la voix propre du dépôt s'écrivent tous
+   deux en blockquote, et rien ne les distingue mécaniquement. Elle lie donc le
+   rédacteur, non le script.
+
+**Ce que la mesure a écarté.** Une première rédaction de la règle 5 disait « jamais dans
+une citation », entendue comme « jamais dans un blockquote ». Relevé sur `doctrinal/` :
+les blocs `>` y sont **massivement la voix propre du dépôt** — `> **Statut**` (53),
+`> **Généalogie des idées**` (53), `> **Examen formel**` (50), `> **Conclusion**` (50),
+`> 🔍 **Discernement — Spéculation Personnelle**` (49), et les blocs
+`> 🌐 **Forme Traditionnelle Divergente**` / `> ⚠️ **Déviation Profane**` que le §VII
+prescrit lui-même. Ces blocs sont **les plus denses en terminologie de tout le circuit** :
+les interdire à l'annotation aurait fermé la porte principale, et l'aurait fermée en
+silence. La règle a donc été resserrée sur le **texte reçu**, qui est le motif réel.
+
+**Une limite du masquage, rapportée et non corrigée** (Cmd 12) : le motif de code inline
+n'admet pas de retour à la ligne, de sorte qu'un incise de code **coupé en deux lignes**
+n'est pas masqué et peut être lu comme une annotation. Constaté sur la présente section
+même, à sa rédaction. Le correctif évident — tolérer le retour à la ligne — a été
+**mesuré et écarté** : rendu glouton par les backticks orphelins du dépôt, il avalerait
+186 819 caractères de `doctrinal/annales.md`. La règle est donc tenue par le rédacteur :
+**ne jamais couper un incise de code sur deux lignes**.
+
+**Portée**. Ces règles valent pour les cinq circuits. `textes/` en est hors par sa règle
+d'immuabilité propre (§II) : une source convertie ne s'annote pas.
+
+**Garde mécanique** : `atelier/rd/outillage/index-lexical/valider-annotations.py`, refus
+D1 (appariement), D2 (Unicode invisible, Cmd 15), D3 (plancher de non-vacuité), D4
+(placement), D5 (occurrence unique), plus le contrôle de vocabulaire clos. Les règles 1,
+2 et 4 sont **outillées et éprouvées** ; la règle 3 est tenue par le masquage amont ; la
+règle 5 ne l'est pas, et le dit.
 
 ### Double contrôle systématique (transversal — ajouté 2026-07-16)
 
