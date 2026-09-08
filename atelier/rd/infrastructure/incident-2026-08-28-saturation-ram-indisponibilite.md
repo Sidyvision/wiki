@@ -1,9 +1,9 @@
 ---
 title: "Incident R&D — Saturation RAM critique et indisponibilité des agents (2026-08-28)"
-type: fiche-rd
+type: infrastructure
 date: 2026-08-28
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-08
 circuit: rd/infrastructure
 statut: resolu
 resolution_date: 2026-08-28
@@ -36,6 +36,44 @@ resolution_date: 2026-08-28
 - **Pattern "Multi-Gateway"** : Le déploiement de 14 gateways Hermes est structurellement incompatible avec la RAM actuelle. Le paradigme "1 profil = 1 gateway active" doit être révisé : adopter une logique de *gateway à la demande* ou de regroupement de profils sur une même instance si le seuil mémoire est atteint.
 - **Règle de sécurité vs opérationnalité** : La rédaction automatique des jetons de sécurité lors d'un audit est nécessaire, mais elle doit être immédiatement suivie d'une procédure de re-configuration sécurisée des jetons (via `hermes auth` et non `edit .env`) pour ne pas couper les services critiques.
 
+## Addendum (2026-09-08) — récidive et arrêt temporaire d'OmniRoute
+
+**Symptôme** : terminal extrêmement lent signalé par Sidy. Mesures prises côté serveur à
+17:19-17:24 UTC : RAM à 90 % (3,5/3,7 Gi utilisés), **swap plein à 100 %** (2,0/2,0 Gi),
+`kswapd0` (démon noyau de gestion du swap) cumulant 119h32 de CPU depuis le 3 septembre —
+signe d'un état de thrashing (échange RAM/disque permanent) filé sur cinq jours, pas d'un
+pic ponctuel.
+
+**Diagnostic** : `omniroute.service`, actif en continu depuis le 2026-09-07 14:28:40 UTC
+(~27h), consommait à ce moment **1,9 Gio de RSS + 1,6 Gio de swap** (pic mesuré 2,3 Gio /
+pic swap 1,6 Gio) — au-dessus de la fourchette historique 1,0–1,6 Gio relevée le
+2026-08-31 ([[atelier/rd/infrastructure/cartographie-routing-infrastructure]], §1). La
+cause structurelle est **inchangée depuis cet incident** : 3,7 Gio de RAM physique,
+plafond matériel fixe, insuffisant pour la charge combinée des gateways Hermes et
+d'OmniRoute — la même contrainte que la cartographie nomme non résolue en §4-5
+(« la pression est revenue »).
+
+**Résolution (temporaire)** : `systemctl stop omniroute` exécuté par Sidy le 2026-09-08 à
+17:35:39 UTC. Effet mesuré : RAM disponible passée de 207 Mio à **2,0 Gio**, swap de
+2,0/2,0 Gio (plein) à **400 Mio**. Arrêt **non permanent** : le service reste `enabled` au
+disque (pas de `disable` exécuté), il repartirait au prochain redémarrage du serveur. Le
+service s'est arrêté en état `failed (Result: exit-code)`, code 143 — SIGTERM non
+intercepté proprement par le process Node, plutôt que le `inactive (dead)` attendu d'un
+arrêt propre. Écart de forme sans conséquence sur le résultat mesuré (la RAM a bien été
+libérée) : à distinguer du motif de `failed` du 28 août, qui signalait alors de vraies
+tentatives de démarrage avortées après reboot, pas un arrêt volontaire.
+
+**Effet de bord assumé** : le routage LLM des profils `gardien`, `studio`, `publication`
+et du Terminal est indisponible tant qu'OmniRoute reste arrêté.
+
+**Compréhension tirée** : récidive de la fragilité structurelle du 28 août, jamais levée
+depuis. Signal nouveau à surveiller dans la durée : l'empreinte mémoire d'OmniRoute ce
+jour (1,9 Gio) dépasse la fourchette historique — reste à établir si c'est une charge de
+routage simplement plus lourde ou une dérive mémoire progressive. La décision structurelle
+(upgrade RAM, ou régime « gateway à la demande » déjà nommé comme piste le 28 août) reste
+entière à Sidy (Cmd 13) ; cet arrêt est un geste conservatoire, pas une résolution.
+
 ## Liens
 - [[atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation]]
+- [[atelier/rd/infrastructure/cartographie-routing-infrastructure]]
 - [[atelier/rd/cahiers/registre-problemes]]

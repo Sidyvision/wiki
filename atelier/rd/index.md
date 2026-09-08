@@ -3,7 +3,7 @@ title: "Pôle R&D de l'atelier — charte du lieu"
 type: index
 tags: [atelier, rd, infrastructure, souverainete]
 created: 2026-08-08
-updated: 2026-09-01
+updated: 2026-09-08
 sources: []
 links: []
 ---
@@ -148,6 +148,8 @@ Le versant **publiable** de la matière versée est écrit en propre, et indexé
   que l'incident du 2026-08-17 qui a fait naître le champ `infra_verif`.
 - [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]] — quels contrôles
   mécaniques le dépôt possède, lequel appeler, et ce qui manque encore.
+- [[atelier/rd/outillage/2026-09-08_serveur-mcp-wiki]] — serveur MCP exposant ces mêmes
+  scripts déterministes à Claude Code, Hermes et Qoder, sans divergence entre agents.
 - Pour la troisième fiche versée, la contrepartie **existait déjà** :
   [[atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes]]. Aucune
   quatrième fiche n'a été créée — une page = un sujet (Cmd 4).
