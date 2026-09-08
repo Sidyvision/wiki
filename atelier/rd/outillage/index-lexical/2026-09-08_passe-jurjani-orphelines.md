@@ -1,6 +1,6 @@
 ---
 title: "Passe Jurjānī sur les clés orphelines de l'index lexical — relevé mécanique"
-type: outillage
+type: artefact-derive
 tags: [index-lexical, langues-originales, jurjani, appariement, releve]
 created: 2026-09-08
 updated: 2026-09-08
@@ -11,10 +11,14 @@ original: []
 
 # Passe Jurjānī sur les clés orphelines de l'index lexical
 
-> ⚙️ **Relevé mécanique, aucun verdict.** Ce document est produit par croisement
-> déterministe entre `index-lexical.json` et les deux transcriptions du *Kitāb
-> al-Taʿrīfāt* versées au dépôt. Il **ne modifie pas l'index** : les appariements
-> ci-dessous sont proposés, non posés. Le verdict appartient à Sidy (Cmd 12).
+> ⚙️ **Relevé mécanique.** Ce document est produit par croisement déterministe entre
+> `index-lexical.json` et les deux transcriptions du *Kitāb al-Taʿrīfāt* versées au
+> dépôt. Il porte `type: artefact-derive` : l'index ne s'indexe pas lui-même.
+>
+> **Verdict rendu par Sidy le 2026-09-08** : « donne un champ propre à Jurjani et
+> intègre les 132 à l'index ». Les appariements du §4 sont désormais **posés**, dans
+> un champ `jurjani` **distinct de `apparie`** — le rang 2 ne se fond jamais dans le
+> rang 1. Ce document reste le relevé de la passe et la trace de sa mesure.
 
 ## 1. Objet
 
@@ -35,7 +39,13 @@ suggéré) :
 |---|---|---|
 | **1 — attesté par la fiche** | la fiche énonce la paire dans son `title:`/H1 ou en tête de définition | **59 paires** (déjà dans `apparie`) |
 | **2 — attesté par Jurjānī** | correspondance exacte avec une définition transcrite du *Kitāb al-Taʿrīfāt*, numéro de définition cité | **132 clés** (§4) |
-| **3 — de mon fait, non sourcé** | translittération produite par la machine, `to-source` obligatoire | **voir §5 — le rang est presque vide** |
+| **3 — de mon fait, non sourcé** | translittération produite par la machine, `to-source` obligatoire | **voir §5 — le rang est VIDE** |
+
+Les rangs 1 et 2 vivent désormais tous deux à l'index, **dans deux champs séparés** :
+`apparie` (rang 1) et `jurjani` (rang 2, portant le numéro de définition). Le condensé
+`index-lexical.md` les distingue à l'œil dans sa colonne *appariement* — un renvoi nu
+pour le rang 1, `— Jurjānī déf. NNNN` pour le rang 2. Un lecteur n'a jamais à deviner
+d'où vient une paire.
 
 ## 3. Mesure
 
@@ -233,11 +243,16 @@ aucun `to-source` de ce chef n'est à poser.
 
 ## 6. Ce qui n'a pas été fait, et pourquoi
 
-- **Rien n'est versé dans l'index.** Le champ `apparie` reste strictement réservé à ce
-  que la fiche énonce elle-même. Verser Jurjānī dedans mêlerait deux rangs dans un même
-  champ, sans moyen de les distinguer — exactement ce que la règle « établi vs suggéré »
-  interdit. Si Sidy veut que le rang 2 entre à l'index, il lui faut **son propre champ**,
-  portant le numéro de définition.
+- **Le rang 2 n'entre pas dans `apparie`** — verdict Sidy : il a reçu **son propre
+  champ**, `jurjani`, portant le numéro de définition. Les fusionner aurait mêlé deux
+  rangs de crédibilité dans un même champ sans moyen de les distinguer, ce que la règle
+  « établi vs suggéré » interdit. **Le rang 1 prime** : une clé que la fiche apparie
+  elle-même ne reçoit aucun renvoi Jurjānī.
+- **Réciprocité partielle, et dite comme telle** (§VII, point 6) : sur les 132, **84**
+  portent le renvoi dans les deux sens — la forme latine de Jurjānī y était déjà une clé
+  de l'index. Les **48** autres ne l'ont que dans un sens : leur translittération
+  n'apparaît nulle part dans le dépôt. On n'injecte pas le vocabulaire du dictionnaire
+  dans un index qui est celui du **wiki** — ce serait indexer Jurjānī, non le dépôt.
 - **Aucun `to-source` n'est levé.** Les 132 correspondances du §4 sont exactes au
   caractère près après normalisation, mais la levée du marqueur demande la vérification
   du texte primaire par Sidy lui-même (§VII, point 2).

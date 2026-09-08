@@ -58,6 +58,26 @@ orpheline plutôt que complétée. C'est la règle « établi vs suggéré » du
 (manifestes, règle 3) appliquée au lexique.
 
 --------------------------------------------------------------------------------
+RANG 2 — APPARIEMENT PAR AUTORITÉ TEXTUELLE (champ `jurjani`)
+--------------------------------------------------------------------------------
+Verdict Sidy, 2026-09-08. Un second champ, `jurjani`, porte les appariements
+que le *Kitāb al-Taʿrīfāt* d'al-Jurjānī — transcrit au dépôt — établit, chacun
+avec son NUMÉRO DE DÉFINITION, qui est sa source. Il est **strictement séparé**
+de `apparie` et ne s'y déverse jamais : deux rangs de crédibilité dans un même
+champ seraient indistinguables. **Le rang 1 prime** — une clé que la fiche
+apparie elle-même ne reçoit aucun renvoi Jurjānī.
+
+Réciprocité (§VII, point 6) : la forme latine reçoit le renvoi inverse
+SEULEMENT si elle est déjà une clé de l'index. On n'injecte pas le vocabulaire
+du dictionnaire dans un index qui est celui du DÉPÔT — ce serait indexer
+Jurjānī, non le wiki. Mesure du 2026-09-08 : 132 appariements, dont 84
+réciproques.
+
+Deux refus francs gardent ce rang, éprouvés le 2026-09-08 : source absente, et
+récolte sous le plancher de non-vacuité (207 entrées mesurées, plancher 150).
+Un dictionnaire vide ne se plaint jamais de lui-même.
+
+--------------------------------------------------------------------------------
 PLANCHER DE NON-VACUITÉ (refus D3)
 --------------------------------------------------------------------------------
 Le script REFUSE d'écrire un index vide, ou dont un circuit déclaré ne produit
@@ -165,6 +185,34 @@ RE_H2 = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
 # de la prose : seule la TÊTE porte le sujet de la fiche. Mesuré sur les 716
 # titres : 434 portent `—`, 114 `:`, 3 `–`, 1 ` - ` ; le reste est une tête
 # nue (« René Guénon »).
+# --- Appariement JURJĀNĪ (rang 2) — champ `jurjani`, distinct de `apparie` ---
+# Verdict Sidy, 2026-09-08 : « donne un champ propre à Jurjani et intègre les
+# 132 à l'index ». Le champ est SÉPARÉ de `apparie` et ne s'y déverse jamais :
+# `apparie` porte ce que la fiche énonce d'elle-même (rang 1), `jurjani` porte
+# ce qu'une autorité textuelle transcrite au dépôt établit (rang 2). Deux rangs
+# de crédibilité dans un même champ seraient indistinguables — c'est très
+# exactement ce que la règle « établi vs suggéré » interdit (§VII, manifestes,
+# règle 3).
+#
+# La source est le *Kitāb al-Taʿrīfāt* d'al-Jurjānī, transcrit au dépôt. Chaque
+# appariement porte son NUMÉRO DE DÉFINITION : c'est sa source, vérifiable au
+# texte. Aucun modèle n'intervient — le motif ci-dessous est la seule forme que
+# ces deux fiches emploient.
+SOURCES_JURJANI = (
+    "doctrinal/sources/kitab-tarifat-corps-transcription.md",
+    "doctrinal/sources/kitab-tarifat-index-transcription.md",
+)
+
+RE_JURJANI = re.compile(
+    r"^###\s+(\d{4})\s+—\s+\*([^*]+?)\*\s+—\s+(\S.*?)\s*$", re.MULTILINE)
+
+# Plancher de non-vacuité propre à la source (même motif que le refus D3) :
+# 207 entrées mesurées le 2026-09-08. Si l'extraction s'effondre — motif changé,
+# fiche renommée, transcription tronquée —, le script REFUSE au lieu de produire
+# un index silencieusement privé de son rang 2. Un dictionnaire vide ne se
+# plaint jamais de lui-même.
+PLANCHER_JURJANI = 150
+
 RE_TETE_TITRE = re.compile(r"\s+[—–:]\s+|\s+-\s+")
 
 # Écritures d'origine reconnues par plage : hébreu, arabe, devanagari, grec,
@@ -329,6 +377,10 @@ class Index:
                 # sa forme originale et réciproquement. Renseigné SEULEMENT
                 # sur appariement attesté par le texte du dépôt.
                 "apparie": set(),
+                # Rang 2 — appariement par une autorité textuelle transcrite
+                # au dépôt, avec son numéro de définition. JAMAIS fondu dans
+                # `apparie`, qui est le rang 1.
+                "jurjani": None,
             }
         return self.termes[cle]
 
@@ -410,6 +462,62 @@ def retenir(f: Path, racine: Path, base: Path, rel: str, suivis) -> bool:
     if suivis is not None:
         return rel in suivis
     return not vendorise(f, base)      # repli quand git est indisponible
+
+
+def charger_jurjani(racine: Path) -> dict:
+    """Dictionnaire {forme arabe normalisée -> (n° de définition, translit)}.
+
+    Refus francs plutôt que dégradation silencieuse : source absente, ou
+    récolte sous le plancher de non-vacuité.
+    """
+    dico = {}
+    for rel in SOURCES_JURJANI:
+        f = racine / rel
+        if not f.is_file():
+            refus(f"source Jurjānī absente : {rel} — le rang 2 de l'index ne "
+                  f"peut pas être produit, et un index privé de son rang 2 "
+                  f"sans le dire serait un index muet")
+        for num, lat, ar in RE_JURJANI.findall(f.read_text(encoding="utf-8")):
+            lat = re.sub(r"\s*\([^)]*\)", "", lat).strip()
+            if est_ecriture_originale(ar) and not est_ecriture_originale(lat):
+                dico.setdefault(normaliser(ar), (num, lat, ar))
+    if len(dico) < PLANCHER_JURJANI:
+        refus(f"récolte Jurjānī sous le plancher : {len(dico)} entrées pour "
+              f"{PLANCHER_JURJANI} attendues au minimum — motif de lecture "
+              f"probablement caduc")
+    return dico
+
+
+def apparier_jurjani(index: Index, racine: Path, rapport: dict):
+    """Rang 2 — pose le champ `jurjani`, dans les deux sens quand c'est possible.
+
+    Ne touche JAMAIS `apparie` (rang 1), et ne s'applique qu'aux clés que le
+    rang 1 n'a pas déjà appariées : une paire que la fiche énonce elle-même
+    prime toute autorité extérieure.
+    """
+    dico = charger_jurjani(racine)
+    rapport["jurjani_entrees"] = len(dico)
+    n_orig = n_retour = 0
+    for cle, e in list(index.termes.items()):
+        if e["apparie"] or not est_ecriture_originale(cle):
+            continue
+        trouve = dico.get(cle)
+        if not trouve:
+            continue
+        num, lat, forme_ar = trouve
+        e["jurjani"] = {"translit": lat, "definition": num}
+        n_orig += 1
+        # Réciprocité (§VII, point 6) : la forme latine reçoit le renvoi
+        # inverse — mais SEULEMENT si elle est déjà une clé de l'index. On
+        # n'injecte pas le vocabulaire du dictionnaire dans un index qui est
+        # celui du DÉPÔT : ce serait indexer Jurjānī, non le wiki.
+        cle_lat = normaliser(lat)
+        if cle_lat in index.termes and not index.termes[cle_lat]["apparie"]:
+            index.termes[cle_lat]["jurjani"] = {"original": forme_ar,
+                                                "definition": num}
+            n_retour += 1
+    rapport["jurjani_apparies"] = n_orig
+    rapport["jurjani_reciproques"] = n_retour
 
 
 def recolter(racine: Path, index: Index, rapport: dict, suivis):
@@ -640,6 +748,7 @@ def serialiser(index: Index, rapport: dict, avec_textes: bool) -> dict:
             "formes": sorted(e["formes"]),
             "roles": sorted(e["roles"]),
             "apparie": sorted(e["apparie"]),
+            "jurjani": e["jurjani"],
             "occurrences": e["occurrences"],
             # [renvoi_chemin, occurrences, roles]
             "fiches": [[ref(rel), v["n"], sorted(v["roles"])]
@@ -720,8 +829,9 @@ def rendre_md(data: dict, max_renvois: int = 5) -> str:
 
     for initiale in sorted(groupes):
         L += [f"## {initiale}", "",
-              "| terme | formes attestees | roles | fiches | textes/ | occ. |",
-              "|---|---|---|---|---|---|"]
+              "| terme | formes attestees | appariement | roles | fiches |"
+              " textes/ | occ. |",
+              "|---|---|---|---|---|---|---|"]
         for cle, e in sorted(groupes[initiale], key=lambda x: -x[1]["occurrences"]):
             formes = ", ".join(e["formes"][:4])
             if len(e["formes"]) > 4:
@@ -741,7 +851,19 @@ def rendre_md(data: dict, max_renvois: int = 5) -> str:
             textes = "—" if not nt else (
                 Path(chemins[e["textes"][0][0]]).name
                 + (f" +{nt - 1}" if nt > 1 else ""))
-            L.append(f"| `{cle}` | {formes} | {', '.join(e['roles'])} | "
+            # Colonne d'appariement — les deux rangs y sont LISIBLEMENT
+            # distincts : le rang 1 (attesté par la fiche) est nu, le rang 2
+            # porte le sigle de son autorité et son numéro de définition. Un
+            # lecteur ne doit jamais avoir à deviner d'où vient une paire.
+            if e["apparie"]:
+                app = " · ".join(f"`{x}`" for x in e["apparie"])
+            elif e.get("jurjani"):
+                j = e["jurjani"]
+                forme = j.get("translit") or j.get("original")
+                app = f"`{forme}` — Jurjānī déf. {j['definition']}"
+            else:
+                app = "—"
+            L.append(f"| `{cle}` | {formes} | {app} | {', '.join(e['roles'])} | "
                      f"{' · '.join(fiches) or '—'} | {textes} | "
                      f"{e['occurrences']} |")
         L.append("")
@@ -781,6 +903,9 @@ def main():
     index = Index()
     recolter(racine, index, rapport, suivis)
     filtrer_etiquettes(index, rapport)
+    # Après le filtre des étiquettes (une clé déclassée ne doit pas recevoir de
+    # renvoi Jurjānī) et avant le comptage, qui ne touche pas aux appariements.
+    apparier_jurjani(index, racine, rapport)
     compter(racine, index, rapport, avec_textes, suivis)
     controler(index, rapport, avec_textes)
 

@@ -451,9 +451,17 @@ déclare canonique : `tomoe` et `巴` sont entrés à l'index, qui les ignorait 
 malgré une fiche entière qui leur est consacrée. Un champ `apparie` porte la
 réciprocité du point 6, **dans les deux sens**, et n'est renseigné que sur une paire que
 le texte du dépôt **énonce lui-même** — `Tomoe (巴)`, `**Buddhi** (Sanskrit : बुद्धि)` :
-60 paires attestées. Là où le dépôt se tait, le champ reste vide et la clé est déclarée
+59 paires attestées. Là où le dépôt se tait, le champ reste vide et la clé est déclarée
 orpheline plutôt que complétée — aucune translittération n'est devinée par le modèle,
 application au lexique de la règle « établi vs suggéré » (§VII, manifestes, règle 3).
+
+Un **second champ**, `jurjani`, porte le **rang 2** : les appariements qu'une autorité
+textuelle transcrite au dépôt établit — le *Kitāb al-Taʿrīfāt* d'al-Jurjānī —, chacun
+avec son **numéro de définition**, qui est sa source (verdict Sidy, 2026-09-08 ; 132
+appariements, dont 84 réciproques). Les deux champs ne se fondent **jamais** : le rang 1
+prime, et le condensé les distingue à l'œil. Un troisième rang — la translittération
+produite par la machine — resterait dû d'un `to-source` ; la passe du 2026-09-08 l'a
+trouvé **vide**, aucune forme n'ayant eu à être devinée.
 
 **Garde mécanique du marqueur** (câblée le même jour, verdict Sidy). Le champ
 `original:` du §IV est contrôlé par `verifier-invariants.py` sous trois codes, tous
