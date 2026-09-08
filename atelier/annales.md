@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-07
+updated: 2026-09-08
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,33 @@ updated: 2026-09-07
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-08] rd | Addendum incident RAM du 28 août — récidive et arrêt temporaire d'OmniRoute
+
+- **Signalement de Sidy** : terminal du serveur extrêmement lent. Diagnostic établi depuis
+  la session cloud d'intégration (`/home/user/wiki`, sans accès direct au serveur) —
+  commandes de mesure transmises pour exécution par Sidy dans Termius, résultats relus.
+- **Mesure initiale** : RAM à 90 % (3,5/3,7 Gi), swap **plein à 100 %** (2,0/2,0 Gi),
+  `kswapd0` cumulant 119h32 de CPU depuis le 3 septembre — thrashing filé sur cinq jours.
+  `git status` (0,099 s) et la taille de `raw/`/`textes/` écartés comme causes.
+- **Diagnostic** : récidive de la fragilité déjà nommée dans
+  [[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]] —
+  `omniroute.service` à 1,9 Gio RSS + 1,6 Gio de swap, au-dessus de la fourchette
+  historique (1,0–1,6 Gio, relevé du 2026-08-31).
+- **Action, verdict Sidy** : `systemctl stop omniroute` — arrêt temporaire (service resté
+  `enabled`, non `disable`). RAM disponible 207 Mio → 2,0 Gio, swap 2,0/2,0 Gio → 400 Mio.
+  Arrêt terminé en `failed (exit-code 143)` plutôt qu'`inactive (dead)` — SIGTERM non
+  intercepté proprement par le process Node, sans conséquence sur la RAM effectivement
+  libérée ; écart consigné tel quel plutôt que présenté comme un arrêt propre (Épreuve des
+  contrôles, §VII).
+- **Effet de bord assumé** : routage LLM de `gardien`/`studio`/`publication`/Terminal
+  indisponible tant qu'OmniRoute reste arrêté — décision structurelle (RAM ou régime
+  « gateway à la demande ») non tranchée, laissée à Sidy (Cmd 13).
+- **Écriture** : addendum daté versé dans la fiche du 28 août plutôt qu'une fiche séparée
+  (Cmd 4, même cause structurelle) ; `type` de son Sceau corrigé de `fiche-rd` (hors liste
+  valide du Sceau atelier) à `infrastructure`, sur consigne de Sidy.
+- **Vérification** — `verifier-invariants.py` : 1411 fiches contrôlées, 0 erreur, 0 avertissement.
+- **Commit** : 6ba51a2
 
 ## [2026-09-07] rd | OUT-08 — critère 1 tranché par Sidy : non franchi, et ce que ce refus établit
 
