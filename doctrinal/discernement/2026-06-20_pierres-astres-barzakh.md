@@ -10,7 +10,7 @@ tags:
 - citations-a-verifier
 - validation-non-hedgee
 created: 2026-06-20
-updated: 2026-08-10
+updated: 2026-09-08
 sources: []
 sources_count: 0
 cross_links:
@@ -26,7 +26,7 @@ cross_links:
 
 ## Le Récit
 
-Après une discussion documentaire sur la symbolique culturelle du jade en Chine/Vietnam (légitime et bien attestée), Sidy expose une question personnelle : il porte ou a porté successivement une cornaline, une turquoise, puis un jade (disque *bi*), et demande si ces pierres pourraient « enrichir » ou « développer » son Barzakh personnel (l'intermédiaire subtil, au sens akbarien). Il établit ensuite lui-même, de façon explicitement intuitive, des correspondances planétaires : Cornaline → Mars (ou Vénus), Turquoise → Mercure, Jade → Jupiter, et demande si cette intuition se vérifie dans la Tradition. Il relie enfin cette réflexion à l'expérience déjà documentée dans [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]] (le rayon doré au sommet du crâne), précisant des détails supplémentaires : un fluide bleu-turquoise parsemé de scintillements dorés, accompagné d'un son comparé à une volée d'oiseaux — et propose que la turquoise qu'il portait alors ait facilité la nature de cette expérience.
+Après une discussion documentaire sur la symbolique culturelle du jade en Chine/Vietnam (légitime et bien attestée), Sidy expose une question personnelle : il porte ou a porté successivement une cornaline, une turquoise, puis un jade (disque *bi*), et demande si ces pierres pourraient « enrichir » ou « développer » son <dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn> personnel (l'intermédiaire subtil, au sens akbarien). Il établit ensuite lui-même, de façon explicitement intuitive, des correspondances planétaires : Cornaline → Mars (ou Vénus), Turquoise → Mercure, Jade → Jupiter, et demande si cette intuition se vérifie dans la Tradition. Il relie enfin cette réflexion à l'expérience déjà documentée dans [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]] (le rayon doré au sommet du crâne), précisant des détails supplémentaires : un fluide bleu-turquoise parsemé de scintillements dorés, accompagné d'un son comparé à une volée d'oiseaux — et propose que la turquoise qu'il portait alors ait facilité la nature de cette expérience.
 
 ---
 

@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [vigilance, methodologie, contrefacon, discernement, protocole, contre-initiation]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]", "[[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/renversement-des-symboles]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]", "[[doctrinal/deviations/deviation-et-subversion]]"]
@@ -117,7 +117,7 @@ humain.
 
 **11. L'imputation à l'orthodoxie** (ch. XXX). Faire attribuer au symbolisme orthodoxe
 lui-même — et surtout à celui des organisations initiatiques — l'interprétation à
-rebours qui est le fait de la contre-initiation. Guénon la nomme **la ruse la plus
+rebours qui est le fait de la <dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="universel">contre-initiation</dfn>. Guénon la nomme **la ruse la plus
 diabolique de toutes**, et signale que ceux qui la servent le font le plus souvent sans
 le savoir, croyant combattre le diable.
 

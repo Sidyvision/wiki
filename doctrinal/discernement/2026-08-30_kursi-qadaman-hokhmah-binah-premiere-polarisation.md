@@ -6,7 +6,7 @@ maturite: fruit-vert
 tradition_cadre: "universel"
 tags: [kursi, arsh, qadaman, hokhmah, binah, polarite, dualite-cosmique, nafas-rahmani, kabbale, tasawwuf, ibn-arabi, gloton, kumiko]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]", "[[doctrinal/sources/kitab-al-tarifat-jurjani]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/symboles/merkavah-muraqaba]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]", "[[doctrinal/autorites/ibn-arabi]]"]
@@ -76,7 +76,7 @@ cross_links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrina
 
 ## 1. Ce que le texte akbarien dit du Kursī, mot pour mot
 
-Gloton, *De la mort à la résurrection*, p. 38 (cliché `raw/assets/IMG_0363`,
+<span data-nom="gloton" data-genre="autorite">Gloton</span>, *De la mort à la résurrection*, p. 38 (cliché `raw/assets/IMG_0363`,
 collationné le 2026-08-30) — table courante, degré 18, lettre *kâf* :
 
 > « Il produit le Piédestal (*kursî*) et **les deux "Pieds" ou les deux polarités
@@ -92,10 +92,10 @@ collationné le 2026-08-30) — table courante, degré 18, lettre *kâf* :
 
 Trois éléments portent, et aucun n'est d'interprétation :
 
-1. **Le Kursī est nommé « la première polarisation »** — non pas *une*
+1. **Le <dfn data-terme="kursi" data-translit="Kursī" data-tradition="universel">Kursī</dfn> est nommé « la première polarisation »** — non pas *une*
    polarisation parmi d'autres, la *première*, et elle est la condition (« pour
    que ») de la manifestation formelle.
-2. **Ce qui s'y pose est un duel** : les deux Pieds, *qadamān*, que Gloton glose
+2. **Ce qui s'y pose est un duel** : les deux Pieds, *<dfn data-terme="qadaman" data-translit="qadamān" data-tradition="universel">qadamān</dfn>*, que Gloton glose
    lui-même « les deux polarités ».
 3. **C'est de là que procède la bipartition normative** : l'ordre (*amr*) et la
    défense (*nahy*) — soit la première distinction opérante.
@@ -121,7 +121,7 @@ d'al-Jurjānī ([[doctrinal/sources/kitab-al-tarifat-jurjani]], clichés `IMG_03
   « **4 - piedestal, trône** » à un seul et même niveau, le Piédestal nommé avant
   le Trône dans l'ordre montant ;
 - entrée **1655** — le *mulk*, « monde attesté » (*ʿālam al-shahāda*), est composé
-  des réalités perceptibles « **comme le Trône (*ʿarsh*), le Piédestal
+  des réalités perceptibles « **comme le Trône (*<dfn data-terme="arsh" data-translit="ʿarsh" data-tradition="universel">ʿarsh</dfn>*), le Piédestal
   (*kursî*)** » — ce qui recoupe le « Corps sensible (*jism maḥsūs*) » de Gloton.
 
 C'est bien, comme Sidy l'écrit, **la charnière** : le lieu où s'achève un ordre et
@@ -129,11 +129,11 @@ où commence l'autre.
 
 ## 3. Ce que le côté kabbalistique porte déjà, et qui n'est pas rapporté du dehors
 
-[[doctrinal/sources/kabbale-10-sefirot-structure]] donne **Hokhmah au rang 2,
-colonne droite** et **Binah au rang 3, colonne gauche** : c'est le **premier
+[[doctrinal/sources/kabbale-10-sefirot-structure]] donne **<dfn data-terme="hokhmah" data-translit="Hokhmah" data-tradition="universel">Hokhmah</dfn> au rang 2,
+colonne droite** et **<dfn data-terme="binah" data-translit="Binah" data-tradition="universel">Binah</dfn> au rang 3, colonne gauche** : c'est le **premier
 couple** de l'Arbre, la première fois qu'un rang se dédouble en deux colonnes sous
 Kether (rang 1, colonne du milieu). Structurellement, **c'est le niveau où la
-dualité apparaît** — ce que Sidy nomme « le niveau de la dualité cosmique ».
+dualité apparaît** — ce que Sidy nomme « le niveau de la <span data-nom="dualite-cosmique" data-genre="principe">dualité cosmique</span> ».
 
 Le dépôt tient par ailleurs, **sur texte de Guénon et non par construction**, que
 Hokhmah et Binah sont rapportées aux **deux yeux droit et gauche**,
@@ -172,7 +172,7 @@ exactement du procédé écarté en [[doctrinal/symboles/merkavah-muraqaba]].
 
 ### 4.3 Aucun auteur ne pose ce rapprochement
 
-Ni Gloton, ni Ibn ʿArabī, ni Guénon dans ce qui est au dépôt ne mettent le Kursī en
+Ni Gloton, ni <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, ni Guénon dans ce qui est au dépôt ne mettent le Kursī en
 regard de Hokhmah/Binah. **L'intuition est de Sidy.** Ce qui est sourcé, c'est
 chacun des deux termes séparément, et la fonction que chaque tradition lui
 attribue. C'est ce qui rend le joint *kari-kumi* et non *hozo* — et c'est ce qui

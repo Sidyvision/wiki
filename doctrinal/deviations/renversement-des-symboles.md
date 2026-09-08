@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [symbolisme, subversion, dualite, complementarisme, benefique-malefique, methodologie]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/deviations/deviation-et-subversion]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -19,7 +19,7 @@ symbolique du dépôt, **y compris l'Instrument**.
 ## Le double sens des symboles est légitime
 
 Point de départ : la **dualité** est présupposée par toute manifestation et se retrouve
-dans tous ses modes. Cette dualité est proprement un **complémentarisme**, non une
+dans tous ses modes. Cette dualité est proprement un **<dfn data-terme="complementarisme" data-translit="complémentarisme" data-tradition="universel">complémentarisme</dfn>**, non une
 opposition ; mais deux termes réellement complémentaires peuvent, à un point de vue plus
 extérieur et plus contingent, **apparaître** comme opposés.
 
@@ -76,7 +76,7 @@ Guénon emploie ces deux termes **faute de mieux** et pose trois réserves expli
 ## Les deux formes de la subversion
 
 Le renversement proprement dit — l'une des « marques » caractéristiques de ce qui relève
-de la contre-initiation ou subit son influence — peut prendre deux formes :
+de la <dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="universel">contre-initiation</dfn> ou subit son influence — peut prendre deux formes :
 
 1. Attribuer à l'aspect maléfique, **tout en le reconnaissant comme tel**, la place qui
    revient normalement à l'aspect bénéfique, voire une suprématie sur lui.

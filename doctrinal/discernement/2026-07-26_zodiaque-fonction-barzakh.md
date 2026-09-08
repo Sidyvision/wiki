@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [barzakh, zodiaque, ilm-al-nujum, falak-al-buruj, instrument, socle-metaphysique]
 created: 2026-07-26
-updated: 2026-07-26
+updated: 2026-09-08
 sources: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/ilm-al-nujum]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/manazil-al-qamar]]"]
@@ -17,7 +17,7 @@ cross_links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrina
 
 Ouvert et clos dans la même session claude.ai (2026-07-26), à l'occasion de la
 spécification de rendu de l'anneau zodiacal de l'Instrument. Le degré vérifié pour le
-*falak al-buruj* (19, Gloton) place l'anneau au contact immédiat de la zone **Barzakh
+*<dfn data-terme="falak-al-buruj" data-translit="falak al-buruj" data-tradition="islam">falak al-buruj</dfn>* (19, Gloton) place l'anneau au contact immédiat de la zone **<dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn>
 supérieur** (degrés 19-20), déjà rendue dans le prototype comme lentille de transition
 (architecture v0.3 §3.4). Signalée d'abord comme simple observation géométrique sans
 verdict, cette adjacence a été reconnue par Sidy comme significative et non fortuite.
@@ -50,7 +50,7 @@ l'autre affirmée par l'autorité qualifiée :
 3. *(conclusion)* Le zodiaque remplit, à son degré propre, une fonction de *barzakh*.
 
 Cohérence logique et terminologique confirmée — aucune tension formelle relevée. **Réserve
-identique à celle déjà actée pour hadarat-khams** : la prémisse 2 est une formulation de
+identique à celle déjà actée pour <dfn data-terme="hadarat-khams" data-translit="hadarat-khams" data-tradition="islam">hadarat-khams</dfn>** : la prémisse 2 est une formulation de
 Sidy, non une citation littérale d'un texte nommant expressément le zodiaque comme
 « interface conductrice des influences spirituelles ». Le principe général (prémisse 1)
 est sourcé ; son application spécifique au zodiaque relève du même statut que

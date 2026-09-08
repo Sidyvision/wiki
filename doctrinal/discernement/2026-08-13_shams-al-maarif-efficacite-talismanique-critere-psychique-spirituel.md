@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [shams-al-maarif, al-buni, talisman, simiya, guenon, psychique-spirituel, chantier-guenon-buni]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/shams-al-maarif]]", "[[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ahmad-al-buni]]", "[[doctrinal/symboles/talisman-sihr]]", "[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]"]
@@ -46,7 +46,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ahma
 
 ## 0. Objet et origine du discernement
 
-Ouvert à la demande de Sidy (2026-08-13) : le *Shams al-Maʿārif al-Kubrā*
+Ouvert à la demande de Sidy (2026-08-13) : le *<span data-nom="shams-al-maarif" data-genre="ouvrage">Shams al-Maʿārif</span> al-Kubrā*
 d'[[doctrinal/autorites/ahmad-al-buni]] est une œuvre à la fois de référence
 et très controversée dans le champ soufi/occultiste islamique. Le chantier
 vise à la confronter systématiquement au corpus guénonien — dont la fonction
@@ -75,7 +75,7 @@ Guénon examine dans *Le Règne de la Quantité*, ch. XXXV : une pratique dont
 la validité se juge, en apparence, à ses résultats sensibles.
 
 Le point à instruire n'est donc pas « la pratique talismanique est-elle
-condamnable » (déjà tranché en amont par la distinction *simiyāʾ*/*siḥr*),
+condamnable » (déjà tranché en amont par la distinction *<dfn data-terme="simiya" data-translit="simiyāʾ" data-tradition="islam">simiyāʾ</dfn>*/*siḥr*),
 mais : **le critère d'efficacité mis en avant par le texte est-il, en
 lui-même, un critère de validité spirituelle recevable ?**
 
@@ -110,7 +110,7 @@ facilitée — ne prouvent **rien par elles-mêmes** de la nature de leur cause.
 Guénon écrit que de telles manifestations peuvent être « tout à fait
 semblables chez un saint et chez un sorcier ».
 
-Appliqué au *Shams al-Maʿārif* : qu'un talisman produise ou non l'effet
+Appliqué au *Shams al-Maʿārif* : qu'un <dfn data-terme="talisman" data-translit="talisman" data-tradition="islam">talisman</dfn> produise ou non l'effet
 recherché ne permet à lui seul aucune conclusion sur son rattachement
 principiel. Le critère guénonien, s'il est reçu comme tel, **déplace** donc
 la question de vérification : non « est-ce que ça marche » mais « quelle est
@@ -169,5 +169,5 @@ tension à documenter.
 Shams al-Maʿārif/Guénon — voir [[doctrinal/autorites/rene-guenon]] §« Doctrine
 — Magie, théurgie et influences spirituelles » pour l'ancrage doctrinal
 complet. Axes suivants du chantier : statut du *siḥr* face à la grille
-contre-initiation/pseudo-initiation ; cosmologie astrale ; carrés magiques et
+<dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="islam">contre-initiation</dfn>/pseudo-initiation ; cosmologie astrale ; carrés magiques et
 métaphysique du Nombre.

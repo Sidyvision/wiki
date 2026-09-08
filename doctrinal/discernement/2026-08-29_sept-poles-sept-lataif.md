@@ -6,7 +6,7 @@ maturite: germe
 tradition_cadre: "islam"
 tags: [aqtab, lataif, semnani, najm-kobra, prophetes, malakut-planetaire, miraj, septenaire]
 created: 2026-08-29
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["to-source"]
 sources_count: 0
 cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]", "[[doctrinal/symboles/coeurs-subtils]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]"]
@@ -81,7 +81,7 @@ conservé (Art. 5 du sashimono — l'assemblage reste démontable et traçable).
 Les deux séries que l'on voulait apparier **rangent les Prophètes dans deux
 ordres différents**.
 
-Ordre du *miʿrāj* (celui que porte le dépôt pour les sept Pôles,
+Ordre du *<dfn data-terme="miraj" data-translit="miʿrāj" data-tradition="islam">miʿrāj</dfn>* (celui que porte le dépôt pour les sept Pôles,
 [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]), en
 montant :
 
@@ -95,7 +95,7 @@ montant :
 | Jupiter | Moïse |
 | Saturne | Abraham |
 
-Ordre des *laṭāʾif* selon la doctrine kubrawî de Semnânî, telle qu'elle circule
+Ordre des *<dfn data-terme="lataif" data-translit="laṭāʾif" data-tradition="islam">laṭāʾif</dfn>* selon la doctrine kubrawî de <span data-nom="semnani" data-genre="autorite">Semnânî</span>, telle qu'elle circule
 communément, en montant : Adam, Noé, Abraham, Moïse, David, Jésus, Muhammad.
 
 **Les deux listes ne coïncident ni en composition ni en rang.** Adam est premier
@@ -136,12 +136,12 @@ Le rapprochement ne repose pas sur une simple coïncidence de nombre :
 1. **Le septénaire est structurel des deux côtés**, et rapporté à un même
    étagement — sept cieux astronomiques, sept cieux intérieurs de l'âme, sept
    centres subtils, sept prophètes : Shayegan atteste que ces homologies sont
-   posées par les auteurs eux-mêmes (Najm Kobrâ, Semnânî), non par le dépôt.
+   posées par les auteurs eux-mêmes (<span data-nom="najm-kobra" data-genre="autorite">Najm Kobrâ</span>, Semnânî), non par le dépôt.
 2. **Les Prophètes sont bien le terme moyen**, comme Sidy le pose : ils sont
    régents dans les deux séries, et non simple ornement.
 3. **Le dépôt porte déjà un précédent** :
    [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]
-   documente le rapport Aqtâb/Prophètes aux degrés 21-27.
+   documente le rapport <dfn data-terme="aqtab" data-translit="Aqtâb" data-tradition="islam">Aqtâb</dfn>/Prophètes aux degrés 21-27.
 
 ## La pièce trouvée (2026-08-30) — table de correspondance, à l'état de proposition
 

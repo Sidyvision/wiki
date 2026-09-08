@@ -6,7 +6,7 @@ maturite: germe
 tradition_cadre: universel
 tags: [qabd, bast, upaguru, maqam, hal, initiation, science-sacree, kari-kumi, cmd3, en-cours]
 created: 2026-08-31
-updated: 2026-09-01
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]]", "[[doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane]]", "[[doctrinal/sources/kitab-tarifat-corps-transcription]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/sources/kitab-tarifat-index-transcription]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -26,7 +26,7 @@ cross_links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/sources/kitab-ta
 > états (*maqâm*, *hâl*) et de la différence radicale de la perspective initiatique et
 > profane. »
 
-Renvoi donné : *La Crise du Monde moderne*, ch. IV, « Science sacrée et science profane ».
+Renvoi donné : *La Crise du Monde moderne*, ch. IV, « <span data-nom="science-sacree" data-genre="principe">Science sacrée</span> et science profane ».
 
 ## Ce que le renvoi établit — et ce qu'il restreint
 
@@ -55,8 +55,8 @@ soit tu au profit de l'autre.
 
 | Pièce | État |
 |---|---|
-| Un texte traditionnel appariant qabḍ/basṭ et upaguru | **absent** — aucun trouvé au dépôt |
-| Classement de qabḍ/basṭ comme *aḥwāl* (et non *maqāmāt*) | ✅ **sourcé depuis le 2026-09-01** — al-Jurjānī, déf. 0563 et 1237 (voir § ci-dessous). *La source des §52-53, elle, ne porte toujours ni* maqām *ni* ḥāl. |
+| Un texte traditionnel appariant <dfn data-terme="qabd" data-translit="qabḍ" data-tradition="universel">qabḍ</dfn>/<dfn data-terme="bast" data-translit="basṭ" data-tradition="universel">basṭ</dfn> et <dfn data-terme="upaguru" data-translit="upaguru" data-tradition="universel">upaguru</dfn> | **absent** — aucun trouvé au dépôt |
+| Classement de qabḍ/basṭ comme *aḥwāl* (et non *maqāmāt*) | ✅ **sourcé depuis le 2026-09-01** — al-Jurjānī, déf. 0563 et 1237 (voir § ci-dessous). *La source des §52-53, elle, ne porte toujours ni* <dfn data-terme="maqam" data-translit="maqām" data-tradition="universel">maqām</dfn> *ni* ḥāl. |
 | Définitions d'al-Jurjānī (*Kitāb al-Taʿrīfāt*) | ✅ **versées le 2026-09-01** — [[doctrinal/sources/kitab-tarifat-corps-transcription]] |
 | Perspective initiatique / profane | **établie** — *CMM* ch. IV |
 | Doctrine de l'*upaguru* | **établie** — *IRS* ch. XX |

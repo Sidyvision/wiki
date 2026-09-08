@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [janus, nadis, ida, pingala, sushumna, temps, passe-futur-present, troisieme-oeil, hozo, polarite]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/janus-bifrons]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]"]
@@ -57,7 +57,7 @@ cross_links: ["[[doctrinal/symboles/janus-bifrons]]", "[[doctrinal/symboles/pola
 ## 1. Ce que dit exactement le texte
 
 *L'Homme et son devenir selon le Vêdânta*, ch. XX (= XXI en 1ʳᵉ éd.), note 7 — après avoir posé
-que *piṅgalā* correspond au Soleil et à l'œil droit, *iḍā* à la Lune et à l'œil
+que *<dfn data-terme="pingala" data-translit="piṅgalā" data-tradition="universel">piṅgalā</dfn>* correspond au Soleil et à l'œil droit, *iḍā* à la Lune et à l'œil
 gauche, et *suṣumnā* au troisième œil :
 
 > « Dans l'aspect de ce symbolisme qui se réfère à la condition temporelle, le
@@ -72,7 +72,7 @@ gauche, et *suṣumnā* au troisième œil :
 Le mot porteur est **« identique »**, non « comparable » ni « analogue ». Guénon
 emploie ailleurs, dans la même note, « très comparable » pour l'alchimie humaine
 et l'*athanor* : il distingue donc lui-même les deux registres, et le dépôt doit
-respecter cette distinction (l'alchimie reste *kari-kumi*, Janus est *hozo*).
+respecter cette distinction (l'alchimie reste *kari-kumi*, <span data-nom="janus" data-genre="entite">Janus</span> est *<dfn data-terme="hozo" data-translit="hozo" data-tradition="universel">hozo</dfn>*).
 
 ## 2. La correspondance terme à terme
 

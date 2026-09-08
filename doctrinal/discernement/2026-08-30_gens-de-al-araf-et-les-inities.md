@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [araf, rijal, rijal-allah, sima, firasa, barzakh, initiation, petits-grands-mysteres, eschatologie, kari-kumi, en-cours]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/sept-etendards-califat]]", "[[doctrinal/sources/meftah-chatons-sagesses-transcription]]", "to-source"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/firasa]]", "[[doctrinal/autorites/michel-valsan]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]]"]
@@ -130,7 +130,7 @@ forme, elle ne redéfinit pas l'intuition.
 
 ### 4. Une convergence interne à la sourate — et le piège qu'elle tend
 
-La sourate qui porte la scène des Aʿrāf porte aussi, quelques versets plus haut,
+La sourate qui porte la scène des <dfn data-terme="araf" data-translit="Aʿrāf" data-tradition="islam">Aʿrāf</dfn> porte aussi, quelques versets plus haut,
 **la pesée** : « *Et la pesée, ce jour-là, est la Vérité* » (VII, 8-9 — lourd /
 léger). Le dépôt tient par ailleurs, via
 [[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]], que « **la Balance
@@ -181,7 +181,7 @@ localiser les pages utiles sans rien rephotographier. Relevé fait le 2026-08-30
 
 | Terme (index) | Pages | Intérêt |
 |---|---|---|
-| ***rijāl Allāh*** | **245** | le terme technique du verset — **et il suit immédiatement** *khafḍ* p. 244 |
+| ***<dfn data-terme="rijal-allah" data-translit="rijāl Allāh" data-tradition="islam">rijāl Allāh</dfn>*** | **245** | le terme technique du verset — **et il suit immédiatement** *khafḍ* p. 244 |
 | *khafḍ*, *al-Khāfiḍ* | **104**, 123, 124, **244** | le couple du dossier de la veille |
 | *rafʿ* | **104** | **même page que *khafḍ*** |
 | *Rafʿ ad-darajāt* | **29** | le Nom du degré 38 |
@@ -192,7 +192,7 @@ localiser les pages utiles sans rien rephotographier. Relevé fait le 2026-08-30
 
 1. ***khafḍ* et *rafʿ* figurent tous deux à la page 104.** C'est très probablement
    là que l'ouvrage traite le couple pour lui-même.
-2. ***khafḍ* p. 244 et *rijāl Allāh* p. 245 sont adjacents.** Si un texte relie
+2. ***khafḍ* p. 244 et *<dfn data-terme="rijal" data-translit="rijāl" data-tradition="islam">rijāl</dfn> Allāh* p. 245 sont adjacents.** Si un texte relie
    l'opération d'élever-et-abaisser aux « Hommes d'Allāh », c'est le lieu le plus
    probable du dépôt pour l'y trouver.
 
@@ -224,7 +224,7 @@ seuil »). Note 14, sur *tāba* :
 
 Gilis lit donc un terme coranique de retour comme le **commencement** d'un processus
 initiatique. Le précédent de méthode est net : un vocabulaire eschatologique ou
-pénitentiel peut recevoir, chez Ibn ʿArabī, une signification **initiatique et
+pénitentiel peut recevoir, chez <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, une signification **initiatique et
 inchoative**. **Ce n'est pas une preuve pour al-Aʿrāf** — c'est un précédent de
 lecture, et il rend l'hypothèse moins étrange qu'elle ne paraissait.
 
@@ -257,12 +257,12 @@ Trois questions sont soumises :
 2. Le verdict attend-il l'établissement du *tafsīr* (point 4 de la généalogie,
    `to-source` intégral), ou l'intuition se tient-elle sur les seuls appuis lexical
    et fonctionnel ?
-3. État d'ensemble : ***kari-kumi***. Le joint « gens d'al-Aʿrāf ↔ initiés » est
+3. État d'ensemble : ***<dfn data-terme="kari-kumi" data-translit="kari-kumi" data-tradition="islam">kari-kumi</dfn>***. Le joint « gens d'al-Aʿrāf ↔ initiés » est
    **pressenti, non taillé**.
 
 **Lectures suggérées**
 
-1. **Michel Vâlsan, *Les états des initiés au moment de leur mort*** (*Futūḥāt*
+1. **<span data-nom="michel-valsan" data-genre="autorite">Michel Vâlsan</span>, *Les états des initiés au moment de leur mort*** (*Futūḥāt*
    chap. 176, 1964) — recensé en [[doctrinal/autorites/michel-valsan]]. **Le pont
    requis par le §2** : la seule pièce qui articule nommément « initiés » et état
    posthume. À obtenir en priorité.

@@ -10,7 +10,7 @@ tags:
 - deviation
 - herbalism
 created: 2026-06-05
-updated: 2026-09-04
+updated: 2026-09-08
 sources:
 - 'raw/Body_Types_Book.pdf'
 sources_count: 1
@@ -39,7 +39,7 @@ Guide pratique de médecine islamique centré sur les quatre types constitutionn
 
 ## Structure du livre
 
-- **Ch. 1 — Histoire de la médecine :** médecine ancienne (ayurvédique, chinoise), grecque (Hippocrate), prophétique (Tibb-e-Nabawi), islamique (âge d’or, Ibn Sina, Al-Razi, Al-Zahrawi).
+- **Ch. 1 — Histoire de la médecine :** médecine ancienne (ayurvédique, chinoise), grecque (Hippocrate), prophétique (<dfn data-terme="tibb-e-nabawi" data-translit="Tibb-e-Nabawi" data-tradition="islam">Tibb-e-Nabawi</dfn>), islamique (âge d’or, <span data-nom="ibn-sina" data-genre="autorite">Ibn Sina</span>, Al-Razi, Al-Zahrawi).
 - **Ch. 2 — L’avènement de la médecine moderne :** critique de la théorie des germes (Pasteur vs Claude Bernard), rôle de Rockefeller et du Flexner Report (1910) dans l’élimination des médecines alternatives.
 - **Ch. 3 — Revivifier la médecine islamique :** concept des énergétiques (chaud/froid, humide/sec) appliqués aux aliments, saisons, et corps.
 - **Ch. 4 — Les types corporels :** description détaillée des quatre tempéraments (voir [[morphopsychologie]]).

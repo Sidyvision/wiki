@@ -6,7 +6,7 @@ maturite: fruit-mur
 tradition_cadre: "universel"
 tags: [axe-du-monde, qutb, insan-al-kamil, sushumna, colonne-du-milieu, meru-danda, unification, socle-metaphysique]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/guenon-dome-et-la-roue]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/symboles/al-insan-al-kamil]]"]
@@ -17,7 +17,7 @@ cross_links: ["[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transve
 ## Contexte
 
 Verdict rendu par Sidy le 2026-08-30, formulé ainsi : *« l'axe du monde, le
-filament de l'Insān al-Kāmil, le Pôle, la colonne du milieu sont la même
+filament de l'Insān al-Kāmil, le Pôle, la <span data-nom="colonne-du-milieu" data-genre="principe">colonne du milieu</span> sont la même
 chose »*, et : *« il ne s'agit, encore une fois, que d'un seul Être, d'où la
 correspondance macrocosme-microcosme »*.
 
@@ -30,8 +30,8 @@ que les verdicts antérieurs supposaient sans la dire.
 
 | Identité | Fiche | État |
 |---|---|---|
-| *skambha* = *qutb* = *stauros*, et *Mêru* / *Mêru-danda* | [[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]] | validée |
-| Adam Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara | [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]] | close |
+| *skambha* = *<dfn data-terme="qutb" data-translit="qutb" data-tradition="universel">qutb</dfn>* = *stauros*, et *Mêru* / *<span data-nom="meru-danda" data-genre="lieu">Mêru-danda</span>* | [[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]] | validée |
+| Adam Qadmôn = <dfn data-terme="al-insan-al-kamil" data-translit="al-Insān al-Kāmil" data-tradition="universel">al-Insān al-Kāmil</dfn> = Wang = Vaishwânara | [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]] | close |
 | colonne du milieu = *suṣumnā* | [[doctrinal/symboles/polarite-laterale-de-l-axe]] | acquis du texte de Guénon |
 | les sept Pôles siègent aux degrés du *Malakūt* planétaire | [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] | close |
 

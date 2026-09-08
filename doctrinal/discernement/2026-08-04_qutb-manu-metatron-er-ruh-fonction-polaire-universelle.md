@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [qutb, manu, metatron, er-ruh, melki-tsedeq, shekinah, axe-du-monde, aqtab, kabbale, vedanta]
 created: 2026-08-04
-updated: 2026-08-10
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]", "[[doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq]]", "[[doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh]]", "[[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]", "[[doctrinal/sources/valsan-investiture-cheikh-al-akbar]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]]", "[[doctrinal/sources/sefer-yetsira-ramban]]"]
 sources_count: 11
 cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]"]
@@ -17,12 +17,12 @@ cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-plan
 
 Le discernement clos du 2026-07-16
 ([[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]])
-avait établi, en *hozo*, l'identité entre les sept Pôles/Aqtâb guénoniens et le
+avait établi, en *hozo*, l'identité entre les sept Pôles/<dfn data-terme="aqtab" data-translit="Aqtâb" data-tradition="universel">Aqtâb</dfn> guénoniens et le
 Malakūt planétaire akbarien. La présente fiche prolonge ce chantier vers
 l'amont : non plus les sept Pôles multiples, mais **la fonction polaire unique**
-— celle que l'ésotérisme islamique nomme *Qutb*, la tradition hindoue *Manu*, la
-Kabbale hébraïque *Metatron*, et que l'ésotérisme islamique nomme encore,
-lorsqu'il en vise le principe plutôt que la fonction déléguée, *Er-Rûh*.
+— celle que l'ésotérisme islamique nomme *<dfn data-terme="qutb" data-translit="Qutb" data-tradition="universel">Qutb</dfn>*, la tradition hindoue *<span data-nom="manu" data-genre="entite">Manu</span>*, la
+<span data-nom="kabbale" data-genre="ecole">Kabbale</span> hébraïque *<span data-nom="metatron" data-genre="entite">Metatron</span>*, et que l'ésotérisme islamique nomme encore,
+lorsqu'il en vise le principe plutôt que la fonction déléguée, *<span data-nom="er-ruh" data-genre="entite">Er-Rûh</span>*.
 
 L'ouverture de la Phase 3 de l'Instrument (2026-08-04, nœuds universels) rend
 cette fiche structurellement utile : si l'identité est confirmée, elle fournit

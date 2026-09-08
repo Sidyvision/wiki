@@ -5,7 +5,7 @@ status: contre-traditionnel
 tradition_cadre: "universel"
 tags: [speculation, metaphysique, intellect, llm, neoplatonisme, tawil, non-dualite, erreur-conservee, clos]
 created: 2026-06-11
-updated: 2026-07-14
+updated: 2026-09-08
 sources: ["[[conversation-llm-intellect-2026-06-11]]"]
 sources_count: 1
 cross_links: ["[[2026-06-11_llm-wiki-correction-doctrinale]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/wahdat-al-wujud]]"]
@@ -101,7 +101,7 @@ points repris et tranchés dans la correction doctrinale — voir ci-dessous.)*
 - [[doctrinal/autorites/platon]] — Nous, Psyché, triade néoplatonicienne
 - [[doctrinal/autorites/ibn-arabi]] — ta'wīl, fayḍ, modalités de la manifestation
 - [[doctrinal/autorites/rene-guenon]] — rapport au Principe, critique de la modernité
-- [[doctrinal/symboles/wahdat-al-wujud]] — unité de l'être, non-dualité
+- [[doctrinal/symboles/wahdat-al-wujud]] — unité de l'être, <span data-nom="non-dualite" data-genre="principe">non-dualité</span>
 - [[doctrinal/traditions/tasawwuf]] — cadre de la démarche
 
 ---

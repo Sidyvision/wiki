@@ -11,7 +11,7 @@ tags:
 - en-cours
 - pseudo-science-a-surveiller
 created: 2026-06-20
-updated: 2026-08-13
+updated: 2026-09-08
 sources:
 - '[[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]]'
 - '[[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]]'
@@ -31,9 +31,9 @@ cross_links:
 
 ## Le Récit (l'idée telle qu'apportée par Sidy)
 
-Après sa khalwa, Sidy dit avoir saisi l'extrême importance de l'isolement et du confinement pour accéder à un état qu'il nomme « monde 2 » — comme si le monde commun comportait plusieurs niveaux de réalité simultanés. Il évoque la perception d'une pratique de confinement (« dans un coffre ou quelque chose de similaire ») produisant une forme de méditation forcée permettant ce passage. Il rapproche ensuite cette intuition, découverte après coup, des caissons d'isolation sensorielle (*float tanks*) modernes, pressentant leur normalisation prochaine dans le grand public.
+Après sa <dfn data-terme="khalwa" data-translit="khalwa" data-tradition="islam">khalwa</dfn>, Sidy dit avoir saisi l'extrême importance de l'isolement et du confinement pour accéder à un état qu'il nomme « monde 2 » — comme si le monde commun comportait plusieurs niveaux de réalité simultanés. Il évoque la perception d'une pratique de confinement (« dans un coffre ou quelque chose de similaire ») produisant une forme de méditation forcée permettant ce passage. Il rapproche ensuite cette intuition, découverte après coup, des caissons d'isolation sensorielle (*float tanks*) modernes, pressentant leur normalisation prochaine dans le grand public.
 
-Relancé, il précise avoir « vu, dans le Barzakh », que certains entrent dans un monde adjacent pour y poursuivre leur itinéraire spirituel — formulant lui-même l'expression « science de matrices artificielles ». Il interroge ensuite la possibilité d'un dispositif individuel inspiré de l'architecture sacrée (proportions, orientation), en faisant le lien avec l'alternance posturale des Compagnons de la Caverne (Sourate al-Kahf) et le séjour de Yûnus dans le ventre du poisson (Sourate al-Sāffāt), qu'il interroge comme évocations possibles d'un « contenant vivant ». Il demande enfin si la respiration liquide du film *Abyss* existe réellement (point factuel, confirmé : oui, recherche réelle sur les perfluorocarbures, usage néonatal, sans application humaine adulte aboutie).
+Relancé, il précise avoir « vu, dans le <dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn> », que certains entrent dans un monde adjacent pour y poursuivre leur itinéraire spirituel — formulant lui-même l'expression « science de matrices artificielles ». Il interroge ensuite la possibilité d'un dispositif individuel inspiré de l'architecture sacrée (proportions, orientation), en faisant le lien avec l'alternance posturale des Compagnons de la Caverne (Sourate al-Kahf) et le séjour de Yûnus dans le ventre du poisson (Sourate al-Sāffāt), qu'il interroge comme évocations possibles d'un « contenant vivant ». Il demande enfin si la respiration liquide du film *Abyss* existe réellement (point factuel, confirmé : oui, recherche réelle sur les perfluorocarbures, usage néonatal, sans application humaine adulte aboutie).
 
 ---
 

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [gizeh, pyramides, science-sacree, antediluvien, polaire-solaire, clos]
 created: 2026-07-02
-updated: 2026-07-14
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/sources/guenon-mysteres-lettre-nun]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]", "[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]", "[[d
 
 ## Récit / contexte
 
-À l'ouverture d'un nouveau pôle d'étude sur le complexe des grandes Pyramides de Gizeh,
+À l'ouverture d'un nouveau pôle d'étude sur le complexe des grandes Pyramides de <span data-nom="gizeh" data-genre="lieu">Gizeh</span>,
 Sidy formule l'intuition suivante : le complexe ne saurait être réduit ni à un ensemble de
 tombeaux (lecture profane matérialiste), ni à un objet de spéculation ésotérisante moderne
 (pyramidologie, néo-spiritualisme). Il constituerait un monument de la **science

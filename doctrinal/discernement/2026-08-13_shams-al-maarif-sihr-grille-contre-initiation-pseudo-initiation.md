@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [shams-al-maarif, al-buni, sihr, simiya, guenon, contre-initiation, pseudo-initiation, syncretisme, chantier-guenon-buni]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-08
 sources: ["[[doctrinal/symboles/talisman-sihr]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/sources/shams-al-maarif]]"]
 sources_count: 4
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ahmad-al-buni]]", "[[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
@@ -50,7 +50,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ahma
 Deuxième fiche du chantier ouvert le 2026-08-13 (voir
 [[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel]]
 pour la première, consacrée à l'efficacité talismanique). Celle-ci instruit le
-deuxième axe annoncé : la place du *siḥr* — déjà écarté comme illicite à
+deuxième axe annoncé : la place du *<dfn data-terme="sihr" data-translit="siḥr" data-tradition="islam">siḥr</dfn>* — déjà écarté comme illicite à
 l'intérieur du cadre islamique lui-même
 ([[doctrinal/symboles/talisman-sihr]] §« Distinction Doctrinale ») — sur la
 grille que Guénon construit dans *Le Règne de la Quantité* pour classer toute
@@ -69,10 +69,10 @@ explicite de Guénon lui-même, ch. XXXVI, cité dans
 [[doctrinal/deviations/contre-initiation]] : « on ne confond pas le
 contrefacteur avec la contrefaçon ») :
 
-- La **contre-initiation** : réelle dans son ordre, valeur négative, confinée
+- La **<dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="islam">contre-initiation</dfn>** : réelle dans son ordre, valeur négative, confinée
   absolument au « monde intermédiaire » (domaine psychique) — le domaine
   métaphysique et spirituel lui est fermé « à tous les degrés ».
-- La **pseudo-initiation** : contrefaçon vide, valeur nulle (ni positive ni
+- La **<dfn data-terme="pseudo-initiation" data-translit="pseudo-initiation" data-tradition="islam">pseudo-initiation</dfn>** : contrefaçon vide, valeur nulle (ni positive ni
   négative), dont l'action est nécessairement « mécanique » et non
   « organique », et dont le procédé privilégié est le **syncrétisme**
   (fondement du Commandement 3 du dépôt).
@@ -150,7 +150,7 @@ syncrétisme comme procédé — voir
 [[doctrinal/deviations/pseudo-initiation-et-syncretisme]] §« Le
 syncrétisme — fondement doctrinal du Commandement 3 » — offre un test
 supplémentaire, applicable non au texte mais à un **usage hypothétique** :
-une réception qui (1) prélèverait des éléments du *Shams al-Maʿārif* hors de
+une réception qui (1) prélèverait des éléments du *<span data-nom="shams-al-maarif" data-genre="ouvrage">Shams al-Maʿārif</span>* hors de
 tout l'appareil doctrinal soufi qui les porte, (2) les regrouperait autour
 d'une idée directrice profane (ex. « développement personnel »,
 « pouvoirs »), (3) en détournant le sens jusqu'à l'opposer à la doctrine

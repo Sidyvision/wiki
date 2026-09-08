@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, qutb, aqtab, meru-qaf, malakut-planetaire, khidr, idris, sept-cieux, wiratha, afrad, clos]
 created: 2026-07-16
-updated: 2026-08-04
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]", "[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]", "[[doctrinal/sources/guenon-mysteres-lettre-nun]]", "[[doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot]]", "[[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]]", "[[doctrinal/sources/malamatiyah-futuhat-ch23]]"]
 sources_count: 7
 cross_links: ["[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]", "[[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]"]
@@ -16,11 +16,11 @@ cross_links: ["[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]
 ## Récit / contexte
 
 Dans « Quelques remarques sur la doctrine des cycles cosmiques », Guénon écrit que les
-sept « Pôles » terrestres (*Aqtâb*, régissant chacun l'une des sept terres/*tabaqât* de
+sept « Pôles » terrestres (*<dfn data-terme="aqtab" data-translit="Aqtâb" data-tradition="universel">Aqtâb</dfn>*, régissant chacun l'une des sept terres/*tabaqât* de
 l'ésotérisme islamique) sont « les reflets des sept "Pôles" célestes, qui président
-respectivement aux sept cieux planétaires ». L'Instrument de la Tradition Primordiale
+respectivement aux <span data-nom="sept-cieux" data-genre="principe">sept cieux</span> planétaires ». L'Instrument de la Tradition Primordiale
 possède déjà, dans son axe des 38 degrés (table cosmologique akbarienne, ch. 198 des
-*Futūḥāt*, trad. Gloton), une bande **Malakūt planétaire** (degrés 21-27) : sept degrés,
+*Futūḥāt*, trad. Gloton), une bande **<span data-nom="malakut-planetaire" data-genre="principe">Malakūt planétaire</span>** (degrés 21-27) : sept degrés,
 un par planète (Saturne, Jupiter, Mars, Soleil, Vénus, Mercure, Lune), chacun associé à
 un prophète « siégeant ». L'hypothèse rapproche ces deux structures septénaires.
 

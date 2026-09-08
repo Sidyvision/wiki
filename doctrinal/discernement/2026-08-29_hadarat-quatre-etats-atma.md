@@ -6,7 +6,7 @@ maturite: fruit-mur
 tradition_cadre: "universel"
 tags: [hadarat, atman, turiya, jabarut, malakut, nasut, lahut, dara-shukuh, comparatisme, socle-metaphysique]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"]
@@ -30,10 +30,10 @@ siècle, situé à l'intérieur des deux, les a lui-même appariées.
 
 | État d'Âtmâ (Vêdânta) | Monde (Tasawwuf) | Contesté ? |
 |---|---|---|
-| *jāgrat* — l'état de veille | *nāsūt* | non |
-| *svapna* — l'état de rêve | *malakūt* | non — au contraire appuyé |
-| *susupta* — le sommeil profond | *jabarūt* | **oui**, par le commentateur |
-| *turīya* — le Quatrième | *lāhūt* | non |
+| *jāgrat* — l'état de veille | *<dfn data-terme="nasut" data-translit="nāsūt" data-tradition="universel">nāsūt</dfn>* | non |
+| *svapna* — l'état de rêve | *<dfn data-terme="malakut" data-translit="malakūt" data-tradition="universel">malakūt</dfn>* | non — au contraire appuyé |
+| *susupta* — le sommeil profond | *<dfn data-terme="jabarut" data-translit="jabarūt" data-tradition="universel">jabarūt</dfn>* | **oui**, par le commentateur |
+| *<dfn data-terme="turiya" data-translit="turīya" data-tradition="universel">turīya</dfn>* — le Quatrième | *<dfn data-terme="lahut" data-translit="lāhūt" data-tradition="universel">lāhūt</dfn>* | non |
 
 Les quatre états d'Âtmâ sont par ailleurs attestés au dépôt indépendamment de
 Dârâ, par Guénon d'après la *Māṇḍūkya Upaniṣad*

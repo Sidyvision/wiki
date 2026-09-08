@@ -6,7 +6,7 @@ maturite: fruit-vert
 tradition_cadre: "universel"
 tags: [sephiroth, chakras, kabbale, tantra, guenon, axe-vertical, socle-metaphysique]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]"]
@@ -26,7 +26,7 @@ reçue**, non une construction du dépôt.
 
 ## La réduction de dix à sept
 
-Point de méthode d'abord, car il commande tout le reste. Les Sephiroth sont
+Point de méthode d'abord, car il commande tout le reste. Les <span data-nom="sephiroth" data-genre="entite">Sephiroth</span> sont
 **dix**, les centres hindous **sept**. La réduction n'est pas ajoutée de
 l'extérieur : elle tombe de la structure séphirothique elle-même, telle que la
 donne [[doctrinal/sources/kabbale-10-sefirot-structure]]. Les Sephiroth sont
@@ -119,7 +119,7 @@ seconde. La dette signalée au matin n'a plus d'objet.
 
 **4. Nature du joint.** **Homologie** de structure entre deux expositions d'un
 même axe, non **restitution** généalogique. Guénon ne soutient aucune filiation
-historique de la Kabbale au Tantra ni l'inverse.
+historique de la <span data-nom="kabbale" data-genre="ecole">Kabbale</span> au <span data-nom="tantra" data-genre="ecole">Tantra</span> ni l'inverse.
 
 ---
 

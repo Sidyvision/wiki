@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [contre-initiation, septenaire, sitra-ahra, qabbale, aqtab, non-syncretisme, kari-kumi]
 created: 2026-07-28
-updated: 2026-08-10
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]]", "[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/deviations/sept-tours-du-diable]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/antitradition-et-contre-tradition]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]"]
@@ -86,9 +86,9 @@ cross_links: ["[[doctrinal/deviations/sept-tours-du-diable]]", "[[doctrinal/devi
 | Élément | Statut |
 | --- | --- |
 | Septénaire contre-initiatique (registre islamique) | **établi**, Guénon, recension Seabrook |
-| Opposition aux sept *Aqtâb*, et son caractère illusoire | **établi**, même source |
+| Opposition aux sept *<dfn data-terme="aqtab" data-translit="Aqtâb" data-tradition="universel">Aqtâb</dfn>*, et son caractère illusoire | **établi**, même source |
 | Articulation Guénon ↔ matériau kabbalistique sur la contre-tradition | **établie ponctuellement** (Metatron, ch. XXXIX n. 7) |
-| Correspondance sept tours ↔ *Sitra Aḥra* | **non établie** — hypothèse de Sidy, *kari-kumi* |
+| Correspondance sept tours ↔ *<span data-nom="sitra-ahra" data-genre="entite">Sitra Aḥra</span>* | **non établie** — hypothèse de Sidy, *<dfn data-terme="kari-kumi" data-translit="kari-kumi" data-tradition="universel">kari-kumi</dfn>* |
 | Concordance numérique 7↔7 côté kabbalistique | **à instruire** — source manquante |
 | Inscription à l'Instrument | **exclue en l'état** |
 

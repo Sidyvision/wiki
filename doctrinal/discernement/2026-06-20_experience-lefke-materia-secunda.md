@@ -10,7 +10,7 @@ tags:
 - en-cours
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-08-13
+updated: 2026-09-08
 sources:
 - '[[doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet]]'
 sources_count: 1
@@ -59,5 +59,5 @@ Plusieurs années auparavant, après la visite d'un ami revenu de Lefke, de reto
 
 ## Liens Transversaux
 
-- [[doctrinal/symboles/waqia]] — à créer (stub) : la notion de *waqiʿa* (irruption intérieure) et son rapport contrôlé à *al-Wāqiʿa* (sourate 56, l'Heure), avec la définition d'al-Jurjānī recueillie dans la conversation source (à vérifier).
-- À surveiller : le motif des citations précises non vérifiables (Ibn ʿArabī, al-Ghazālī, Guénon) revient dans plusieurs conversations de l'export — point de VIGILANCE transversal déjà noté dans les fiches #100 et #24.
+- [[doctrinal/symboles/waqia]] — à créer (stub) : la notion de *<dfn data-terme="waqia" data-translit="waqiʿa" data-tradition="islam">waqiʿa</dfn>* (irruption intérieure) et son rapport contrôlé à *al-Wāqiʿa* (sourate 56, l'Heure), avec la définition d'al-Jurjānī recueillie dans la conversation source (à vérifier).
+- À surveiller : le motif des citations précises non vérifiables (<span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, <span data-nom="al-ghazali" data-genre="autorite">al-Ghazālī</span>, Guénon) revient dans plusieurs conversations de l'export — point de VIGILANCE transversal déjà noté dans les fiches #100 et #24.

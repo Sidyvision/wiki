@@ -10,7 +10,7 @@ tags:
 - en-cours
 - syncretisme-a-surveiller
 created: 2026-06-20
-updated: 2026-08-13
+updated: 2026-09-08
 sources:
 - '[[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]]'
 - '[[doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet]]'
@@ -70,7 +70,7 @@ Intuition propre formulée par Sidy, sans pouvoir l'expliquer : il s'agirait d'u
 
 ## Liens Transversaux
 
-- [[doctrinal/symboles/alam-al-mithal]] — à créer (stub) : le monde imaginal selon Ibn ʿArabī.
+- [[doctrinal/symboles/alam-al-mithal]] — à créer (stub) : le monde imaginal selon <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>.
 - [[doctrinal/deviations/reincarnation-vies-anterieures]] — à créer (stub) : analyse de l'incompatibilité doctrinale entre réincarnation et eschatologie islamique orthodoxe.
 - [[doctrinal/symboles/influx-spirituel-sommet-cranien]] — comparatisme traditionnel sur l'influx au sommet du crâne (Sahasrāra, Kundalinī, EMI, chamanisme), rassemblé par Sidy dans une recherche documentaire distincte (« Rayon fontanelle et spiritualité ») portant sur le même phénomène que celui décrit ici (ouverture/réception au sommet du crâne). Résultat notable : aucune référence explicite trouvée chez Ibn ʿArabī sur ce point précis — à ne pas sur-interpréter.
 - À surveiller : d'autres entrées `discernement` issues du même export pourraient recouper ce motif (attirance pour l'Asie, expériences nocturnes récurrentes) — voir notamment la fiche perso sur l'enfance et la figure de Gani, si elle est traitée séparément (domaine `meta/`, hors de cette fiche).

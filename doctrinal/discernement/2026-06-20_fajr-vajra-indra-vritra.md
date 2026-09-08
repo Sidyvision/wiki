@@ -11,7 +11,7 @@ tags:
 - complementarite-investiguee
 - clos
 created: 2026-06-20
-updated: 2026-08-10
+updated: 2026-09-08
 sources:
 - '[[doctrinal/sources/guenon-mysteres-lettre-nun]]'
 - '[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]'
@@ -30,7 +30,7 @@ cross_links:
 
 ## Le Récit (la construction telle qu'élaborée par Sidy)
 
-Partant d'un rapprochement phonétique entre *al-Fajr* (l'aube, arabe) et *Vajra* (la foudre/diamant, sanskrit) — rapprochement que l'IA elle-même reconnaît n'avoir « aucune racine linguistique commune directe » — Sidy formule une intuition personnelle structurée : en l'être individuel existerait un agent intérieur (Indra) chargé d'ouvrir la voie aux influences spirituelles, obstruées par un principe intérieur (Vritra, assimilé à l'aspect inférieur non éveillé de la Kundalini et à la *nafs ammāra* islamique). En restituant le Vajra à cet agent intérieur, une percée (*al-Fath*) deviendrait possible, favorisée par le moment cosmique de l'aube. Sidy demande ensuite une analyse gématrique/abjad pour « établir des liens encore plus explicites », construit un tableau de valeurs numériques (Fajr = 283, Fath = 488, leur différence = 205 rapprochée de *Nūr* + alif), introduit la particule définie pour les Noms divins correspondants, puis demande une « entrée récapitulative » destinée à son propre journal Obsidian — et relie enfin la discussion au Merkavah/Muraqaba déjà exploré ailleurs (voir [[doctrinal/symboles/merkavah-muraqaba]]).
+Partant d'un rapprochement phonétique entre *al-Fajr* (l'aube, arabe) et *Vajra* (la foudre/diamant, sanskrit) — rapprochement que l'IA elle-même reconnaît n'avoir « aucune racine linguistique commune directe » — Sidy formule une intuition personnelle structurée : en l'être individuel existerait un agent intérieur (Indra) chargé d'ouvrir la voie aux influences spirituelles, obstruées par un principe intérieur (Vritra, assimilé à l'aspect inférieur non éveillé de la Kundalini et à la *nafs ammāra* islamique). En restituant le Vajra à cet agent intérieur, une percée (*al-Fath*) deviendrait possible, favorisée par le moment cosmique de l'aube. Sidy demande ensuite une analyse gématrique/abjad pour « établir des liens encore plus explicites », construit un tableau de valeurs numériques (Fajr = 283, Fath = 488, leur différence = 205 rapprochée de *Nūr* + alif), introduit la particule définie pour les Noms divins correspondants, puis demande une « entrée récapitulative » destinée à son propre journal Obsidian — et relie enfin la discussion au <dfn data-terme="merkavah-muraqaba" data-translit="Merkavah/Muraqaba" data-tradition="universel">Merkavah/Muraqaba</dfn> déjà exploré ailleurs (voir [[doctrinal/symboles/merkavah-muraqaba]]).
 
 ---
 

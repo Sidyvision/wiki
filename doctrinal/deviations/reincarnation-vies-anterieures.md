@@ -8,7 +8,7 @@ tags:
 - eschatologie
 - stub
 created: 2026-06-20
-updated: 2026-08-31
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]]", "[[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]]", "[[doctrinal/symboles/gilgul]]"]
@@ -34,7 +34,7 @@ Guénon, dans *L'Homme et son devenir selon le Vêdânta* ch. XXII (« Le voyage
 
 L'ingest de [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]]
 (kabbale lurianique, l'Arizal via Haïm Vital) apporte un troisième cas de
-figure, distinct des deux déjà signalés ci-dessus : le *gilgul*, exposé en
+figure, distinct des deux déjà signalés ci-dessus : le *<dfn data-terme="gilgul" data-translit="gilgul" data-tradition="universel">gilgul</dfn>*, exposé en
 détail dans [[doctrinal/symboles/gilgul]]. Ce n'est ni le « réincarnationnisme »
 occidental moderne que Guénon vise (théosophisme, spiritisme), ni une doctrine
 dharmique — c'est une transmission propre à la kabbale, consignée par un
@@ -52,7 +52,7 @@ avant (Cmd 12).
 ## Occurrences notées
 
 - [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]] (2026-06-20) — première occurrence : fusion non avertie entre le monde imaginal akbarien et le tantra hindou (sahasrāra, amṛta), avec glissement vers une « mémoire pré-existentielle ».
-- [[doctrinal/symboles/istidad]] (2026-06-20) — deuxième occurrence : tableau d'équivalence directe entre l'*istiʿdād* akbarien et la doctrine du *tülku* (Vajrayāna), présentés comme une « même loi universelle ». Motif récurrent à surveiller : la tentation de présenter une convergence métaphysique réelle entre traditions comme une équivalence terme à terme, plutôt que de la montrer avec ses nuances propres.
+- [[doctrinal/symboles/istidad]] (2026-06-20) — deuxième occurrence : tableau d'équivalence directe entre l'*<dfn data-terme="istidad" data-translit="istiʿdād" data-tradition="universel">istiʿdād</dfn>* akbarien et la doctrine du *tülku* (Vajrayāna), présentés comme une « même loi universelle ». Motif récurrent à surveiller : la tentation de présenter une convergence métaphysique réelle entre traditions comme une équivalence terme à terme, plutôt que de la montrer avec ses nuances propres.
 
 ## Concepts liés
 

@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [khafid, rafi, darajat, degres, asma-al-husna, qutb, califat, qaf, meru, guenon, kari-kumi, en-cours]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]]", "[[doctrinal/sources/gloton-approche-coran-grammaire-lexique]]", "[[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]]", "[[doctrinal/sources/sept-etendards-califat]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas]]"]
 sources_count: 5
 cross_links: ["[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]", "[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/waqia]]", "[[doctrinal/autorites/michel-valsan]]"]
@@ -17,7 +17,7 @@ cross_links: ["[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-trav
 
 Sidy dépose le 2026-08-30 (soir) trois pièces photographiées et un clipping, avec
 cette consigne : *« Intègre ces éléments au dépôt. Mène ton investigation à la
-lumière des pièces jointes, de l'instrument et la notion de ق / Meru (fiche
+lumière des pièces jointes, de l'instrument et la notion de ق / <span data-nom="meru" data-genre="lieu">Meru</span> (fiche
 discernement) et de l'œuvre de Guénon. »*
 
 Les pièces : **(1)** Gloton, *Une approche du Coran par la grammaire et le lexique*,
@@ -162,7 +162,7 @@ Le dépôt porte deux mouvements descendants qui n'ont **rien à voir** :
 | | Nature | Source |
 |---|---|---|
 | *isqāṭ* — la **chute** | châtiment : « abaissant les Infidèles au degré le plus bas » | al-Rāzī, ch. XVIII |
-| la **« réalisation descendante »** | perfection : le *walī* « renvoyé vers la création » pour une mission | Michel Vâlsan, cité dans [[doctrinal/sources/sept-etendards-califat]] |
+| la **« réalisation descendante »** | perfection : le *walī* « renvoyé vers la création » pour une mission | <span data-nom="michel-valsan" data-genre="autorite">Michel Vâlsan</span>, cité dans [[doctrinal/sources/sept-etendards-califat]] |
 
 Les confondre serait faire d'une perfection une déchéance, ou l'inverse. **Cmd 2
 (rigueur des termes)** s'applique ici avec la dernière rigueur. Or c'est bien la
@@ -175,7 +175,7 @@ registre du *dīn* (*iḍlāl*/*irshād*) et celui de ce bas-monde (*iʿlāʾ*/*
 
 ### 2. « Degrés » : un mot français, deux référents
 
-*Darajāt* en 40:15 et 58:11 désigne des degrés de **rang et de réalisation**
+*<dfn data-terme="darajat" data-translit="Darajāt" data-tradition="islam">Darajāt</dfn>* en 40:15 et 58:11 désigne des degrés de **rang et de réalisation**
 spirituelle. Les degrés du chapitre 198 des *Futūḥāt* sont des degrés
 **cosmologiques** de la procession du Souffle. La fiche
 [[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]] a relevé
@@ -223,7 +223,7 @@ textuelle ». **Même figure d'erreur, refusée de la même façon.**
 Ce qui reste légitime, et seulement cela : la **convergence fonctionnelle** (ce qui
 entoure / ce qui enveloppe) est une question qu'on peut instruire — à condition de
 chercher un **texte qui la pose**, jamais un calcul ni une homonymie qui la
-suggèrent. État *kari-kumi* : joint pressenti, non taillé.
+suggèrent. État *<dfn data-terme="kari-kumi" data-translit="kari-kumi" data-tradition="islam">kari-kumi</dfn>* : joint pressenti, non taillé.
 
 ## Ce que la Sourate al-Aʿrāf ajoute — et une mise en garde
 
@@ -356,7 +356,7 @@ qu'elles soient tranchées dans cet ordre :
    point bloquant** — rien ne peut être figuré avant lui.
 2. Le couple *khafḍ*/*rafʿ* doit-il être reçu comme attribut de la **fonction
    polaire** (ce que suggèrent les deux attestations akbariennes déjà au dépôt), ou
-   comme opération générale sans rapport privilégié au *Quṭb* ?
+   comme opération générale sans rapport privilégié au *<dfn data-terme="qutb" data-translit="Quṭb" data-tradition="islam">Quṭb</dfn>* ?
 3. Le joint *kumiko* avec la relativité guénonienne des guṇas au plan de base :
    retenu, ou écarté ?
 

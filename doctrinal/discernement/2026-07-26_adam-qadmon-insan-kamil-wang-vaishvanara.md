@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [homme-universel, adam-qadmon, insan-al-kamil, vaishvanara, viraj, wang, socle-metaphysique]
 created: 2026-07-26
-updated: 2026-07-26
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]"]
@@ -15,9 +15,9 @@ cross_links: ["[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/sources/q
 
 ## Contexte
 
-Ouvert en session claude.ai le 2026-07-26, dans le prolongement du socle métaphysique
+Ouvert en session claude.ai le 2026-07-26, dans le prolongement du <span data-nom="socle-metaphysique" data-genre="principe">socle métaphysique</span>
 universel constitué le 2026-07-16 (trilogie guénonienne). Le hozo *Adam
-Qadmôn=al-Insān al-Kāmil=Wang* y avait été qualifié depuis [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel|*Le Symbolisme de la Croix*, ch. II, note 1]].
+Qadmôn=<dfn data-terme="al-insan-al-kamil" data-translit="al-Insān al-Kāmil" data-tradition="universel">al-Insān al-Kāmil</dfn>=<span data-nom="wang" data-genre="entite">Wang</span>* y avait été qualifié depuis [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel|*Le Symbolisme de la Croix*, ch. II, note 1]].
 Sidy a verdicté l'extension de cette identité à *Vaishwânara* (Vêdânta) ; la présente
 fiche instruit et clôt le discernement correspondant à cette extension, conformément au
 Commandement 3 (non-syncrétisme — aucune correspondance inter-traditionnelle sans fiche
@@ -55,7 +55,7 @@ condition de Vaishwânara ») — identité posée en toutes lettres :
 Le texte précise que, *dans ce chapitre*, l'extension du terme « semble même être
 restreinte à l'un de ces états, le plus extérieur de tous, celui de la manifestation
 grossière » — pris comme symbole de l'ensemble. *Vaishwânara* y est également identifié
-à *Virâj*, « l'Intelligence cosmique en tant qu'elle régit et unifie... l'ensemble du
+à *<span data-nom="viraj" data-genre="entite">Virâj</span>*, « l'Intelligence cosmique en tant qu'elle régit et unifie... l'ensemble du
 monde corporel », et son « corps macrocosmique » y est décrit en sept membres (têtes/
 sphères lumineuses, soleil-lune/yeux, feu/bouche, directions de l'espace/oreilles,
 atmosphère/poumons, région intermédiaire/estomac, terre/pieds).
@@ -107,7 +107,7 @@ Sidy (ci-dessous) :
 ## Qualification sashimono
 
 **Hozo** (tenon-mortaise, équivalence établie) — extension du hozo déjà qualifié le
-2026-07-16 : *Adam Qadmôn = al-Insān al-Kāmil = Wang* devient *Adam Qadmôn = al-Insān
+2026-07-16 : *<span data-nom="adam-qadmon" data-genre="entite">Adam Qadmôn</span> = al-Insān al-Kāmil = Wang* devient *Adam Qadmôn = al-Insān
 al-Kāmil = Wang = Vaishwânara/Virâj*. Le joint est taillé dans le corps de la présente
 fiche ; **aucun ancrage n'est inscrit dans `instrument-donnees.yaml`** à ce stade — les
 nœuds `vedanta/` et `kabbale/` n'existent pas encore dans le manifeste (Phase 3, non

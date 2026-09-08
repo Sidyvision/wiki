@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [psychique, spirituel, neo-spiritualisme, psychanalyse, eaux-superieures, phenomene, methodologie]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviati
 
 # La confusion du psychique et du spirituel
 
-*Le Règne de la Quantité*, ch. XXXV (avec ch. XXXII sur le néo-spiritualisme et
+*Le Règne de la Quantité*, ch. XXXV (avec ch. XXXII sur le <dfn data-terme="neo-spiritualisme" data-translit="néo-spiritualisme" data-tradition="universel">néo-spiritualisme</dfn> et
 ch. XXXIV sur la psychanalyse). **Fondement doctrinal direct du Commandement 2 du
 dépôt** : « psychique » ≠ « spirituel ».
 
@@ -122,7 +122,7 @@ et, à plus forte raison, tout ce qui induit l'être à se dissoudre dans une «
 cosmique » exclusive de toute **transcendance** — panthéisme, immanentisme, naturalisme.
 
 Il ajoute que le « satanisme inconscient » de certains n'est au fond qu'un instrument au
-service du satanisme conscient des représentants de la contre-initiation.
+service du satanisme conscient des représentants de la <dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="universel">contre-initiation</dfn>.
 
 ## Prolongements dans les chapitres voisins
 

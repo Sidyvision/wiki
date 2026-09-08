@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [agents, hermes, zodiaque, individuel, universel, sashimono, zosaku]
 created: 2026-08-09
-updated: 2026-08-10
+updated: 2026-09-08
 sources: ["to-source", "[[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]]", "[[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]]", "[[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/discernement/2026-07-05_correspondances-fonctions-ini
 
 ## Contexte
 
-Ouvert dans le cadre du chantier des 12 agents Hermes (compte rendu du 2026-08-09),
+Ouvert dans le cadre du chantier des 12 agents <span data-nom="hermes" data-genre="entite">Hermes</span> (compte rendu du 2026-08-09),
 qui propose d'enrichir neuf prompts d'agents d'une seconde section rapportant la
 position du signe correspondant dans le thème natal vérifié de Sidy (fiche
 personnelle, hors circuit doctrinal — étanchéité §VI), en plus du principe zodiacal
@@ -26,7 +26,7 @@ un principe (valide indépendamment de tout individu) et une détermination
 individuelle (propre à Sidy, à sa date et son lieu de naissance). Le risque
 identifié est que la juxtaposition, si elle n'est pas qualifiée, laisse croire que
 l'individuel définit ou limite le principe — inversant le rapport réel, et
-introduisant un joint non nommé au sens sashimono (§VII, Art. 3 : « jamais de joint
+introduisant un joint non nommé au sens <dfn data-terme="sashimono" data-translit="sashimono" data-tradition="universel">sashimono</dfn> (§VII, Art. 3 : « jamais de joint
 forcé »).
 
 ## Généalogie des idées
@@ -59,7 +59,7 @@ zodiacal et le thème natal appartiennent au même cadre astrologique
 ([[doctrinal/symboles/ilm-al-nujum]]) ; ce n'est donc pas, à proprement parler, un
 cas visé par le Commandement 3 (non-syncrétisme inter-traditionnel). C'est un cas
 de **portance** au sens sashimono (§VII) : le joint entre le principe et la
-détermination individuelle est de nature ***zōsaku*** — une extrémité (la
+détermination individuelle est de nature ***<dfn data-terme="zosaku" data-translit="zōsaku" data-tradition="universel">zōsaku</dfn>*** — une extrémité (la
 détermination individuelle) est contingente, réelle, mais ne porte rien
 structurellement. Le déclarer ainsi, explicitement, dans le texte même où les deux
 éléments coexistent, est la condition pour que la juxtaposition ne devienne pas un

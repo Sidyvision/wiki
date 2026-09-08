@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [pseudo-initiation, syncretisme, contrefacon, non-syncretisme, neo-spiritualisme]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]", "[[doctrinal/symboles/archeometre]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -15,9 +15,9 @@ cross_links: ["[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviati
 
 ## Position exacte de la notion
 
-*Le Règne de la Quantité*, ch. XXXVI. La pseudo-initiation est une **contrefaçon**, non
+*Le Règne de la Quantité*, ch. XXXVI. La <dfn data-terme="pseudo-initiation" data-translit="pseudo-initiation" data-tradition="universel">pseudo-initiation</dfn> est une **contrefaçon**, non
 un contrefacteur. Elle est un des produits de l'état de désordre provoqué par l'action
-qui a son point de départ conscient dans la contre-initiation, et peut servir
+qui a son point de départ conscient dans la <dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="universel">contre-initiation</dfn>, et peut servir
 d'instrument à celle-ci — **de façon inconsciente**.
 
 Sa valeur intrinsèque n'est ni positive comme celle de l'initiation, ni négative comme

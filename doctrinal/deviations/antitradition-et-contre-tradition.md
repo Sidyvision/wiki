@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [antitradition, contre-tradition, spiritualite-a-rebours, antechrist, dajjal, eschatologie, cycles]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/deviation-et-subversion]]", "[[doctrinal/symboles/eschatologie]]", "[[doctrinal/symboles/manvantara]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -17,16 +17,16 @@ cross_links: ["[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviati
 
 ## Les deux termes
 
-- **Antitradition** — la négation pure et simple. Son expression la plus complète fut le
+- **<dfn data-terme="antitradition" data-translit="Antitradition" data-tradition="universel">Antitradition</dfn>** — la négation pure et simple. Son expression la plus complète fut le
   matérialisme « intégral » de la fin du XIX<sup>e</sup> siècle. Correspond à la phase
   de **déviation**.
-- **Contre-tradition** — non plus la négation, mais la **contrefaçon de l'idée
+- **<dfn data-terme="contre-tradition" data-translit="Contre-tradition" data-tradition="universel">Contre-tradition</dfn>** — non plus la négation, mais la **contrefaçon de l'idée
   traditionnelle elle-même**, jusque dans ses applications extérieures à tous les
   domaines. Correspond à la phase de **subversion**. Guénon dit n'en voir, à son époque,
   que les signes précurseurs.
 
 Rapport entre les deux : l'antitradition négative n'était que la **préparation obligée**
-du but réellement poursuivi. Guénon souligne que la contre-initiation, tout en inventant
+du but réellement poursuivi. Guénon souligne que la <dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="universel">contre-initiation</dfn>, tout en inventant
 et propageant les idées modernes, **est parfaitement consciente de leur fausseté** — ce
 qui indique qu'il ne peut s'agir là, dans son intention, que d'une phase transitoire.
 
@@ -87,7 +87,7 @@ projettera sur le monde.
 Éléments doctrinaux relevés (appuis islamiques et hindous mobilisés par Guénon
 lui-même — relevé factuel, Cmd 3) :
 
-- ***dajjâl*** — « imposteur », désignation arabe habituelle ; son règne ne sera que la
+- ***<span data-nom="dajjal" data-genre="entite">dajjâl</span>*** — « imposteur », désignation arabe habituelle ; son règne ne sera que la
   « grande parodie » par excellence.
 - ***El-Mesîkh*** — désignation de l'Antéchrist, déformation de ***El-Mesîha*** (le
   Messie) par simple adjonction d'un point à la lettre finale ; le mot signifie par

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [contre-initiation, subversion, hierarchie-inversee, awliya-shaytan, monde-intermediaire]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]", "[[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/antitradition-et-contre-tradition]]", "[[doctrinal/deviations/sept-tours-du-diable]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[do
 
 ## Définition
 
-Terme forgé par René Guénon pour désigner ce à quoi se rattachent, **à des degrés
+Terme forgé par <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span> pour désigner ce à quoi se rattachent, **à des degrés
 divers**, les agents humains par lesquels s'accomplit l'action antitraditionnelle
 (*Le Règne de la Quantité*, ch. XXVIII). Guénon précise expressément qu'il ne s'agit
 pas d'une dénomination conventionnelle employée par commodité, mais d'une expression
@@ -42,7 +42,7 @@ unique dont procède toute initiation — mais **par dégénérescence poussée 
 degré extrême**, c'est-à-dire jusqu'au renversement qui constitue le satanisme
 proprement dit. Guénon suggère que cette dégénérescence remonte à la perversion de
 quelque civilisation ancienne appartenant à l'un des continents disparus au cours du
-présent *Manvantara*, et renvoie, sous forme symbolique, au chapitre VI de la *Genèse*.
+présent *<span data-nom="manvantara" data-genre="cycle">Manvantara</span>*, et renvoie, sous forme symbolique, au chapitre VI de la *Genèse*.
 Voir [[doctrinal/symboles/manvantara]] et [[doctrinal/symboles/atlantide]].
 
 ## La limite absolue
@@ -51,7 +51,7 @@ Le domaine métaphysique et spirituel lui est **absolument interdit**, étant pr
 au-delà de toutes les oppositions. Elle ne peut ni l'atteindre ni s'y opposer
 réellement : tout ce qu'elle peut faire est de l'ignorer ou de le nier.
 
-Son champ ne dépasse en aucun cas le **« monde intermédiaire »**, c'est-à-dire le
+Son champ ne dépasse en aucun cas le **« <span data-nom="monde-intermediaire" data-genre="principe">monde intermédiaire</span> »**, c'est-à-dire le
 domaine psychique (ch. XXXVI). Voir [[doctrinal/symboles/alam-al-mithal]] et
 [[doctrinal/symboles/barzakh]].
 

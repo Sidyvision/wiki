@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [contre-initiation, septenaire, aqtab, pole, yezidis, awliya-shaytan, centres]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]]", "[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -23,8 +23,8 @@ C'est, à ce jour dans le dépôt, l'énoncé guénonien le plus explicite sur c
 ## Définition
 
 **Centres de projection des influences sataniques à travers le monde**, au nombre de
-sept, dont l'une est située chez les Yézidis. Guénon les identifie comme les **supports
-tangibles et localisés des centres de la contre-initiation**.
+sept, dont l'une est située chez les <span data-nom="yezidis" data-genre="entite">Yézidis</span>. Guénon les identifie comme les **supports
+tangibles et localisés des centres de la <dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="islam">contre-initiation</dfn>**.
 
 Éléments de doctrine :
 
@@ -32,7 +32,7 @@ tangibles et localisés des centres de la contre-initiation**.
    degré de la hiérarchie contre-initiatique. Voir
    [[doctrinal/deviations/contre-initiation]].
 2. **Intention** — par la constitution de ces sept centres, ceux-ci **prétendent
-   s'opposer à l'influence des sept *Aqtâb* ou « Pôles » terrestres**, eux-mêmes
+   s'opposer à l'influence des sept *<dfn data-terme="aqtab" data-translit="Aqtâb" data-tradition="islam">Aqtâb</dfn>* ou « Pôles » terrestres**, eux-mêmes
    subordonnés au **Pôle suprême**.
 3. **Verdict de Guénon** — cette opposition **ne peut être qu'illusoire**, le domaine
    spirituel étant nécessairement fermé à la contre-initiation.

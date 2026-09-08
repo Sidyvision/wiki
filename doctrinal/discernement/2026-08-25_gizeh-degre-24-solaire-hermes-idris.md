@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [guenon, gizeh, hermes, idris, degre-24, malakut-planetaire, soleil, table-38-degres, symbole, archetype, macrocosme-microcosme]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/autorites/idris]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes]]", "[[doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes]]", "[[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]]", "[[doctrinal/sources/guenon-hermetisme-hermes-thoth]]", "[[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]"]
 sources_count: 9
 cross_links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]"]
@@ -17,7 +17,7 @@ cross_links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-anted
 
 L'Instrument de la Tradition Primordiale (`atelier/rd/instrument/`) modélise l'axe des
 38 degrés de la table cosmologique akbarienne (ch. 198 des *Futūḥāt*, trad. Gloton), qui
-comporte une bande Malakūt planétaire (degrés 21-27, un degré par ciel/planète). Gizeh
+comporte une bande <span data-nom="malakut-planetaire" data-genre="principe">Malakūt planétaire</span> (degrés 21-27, un degré par ciel/planète). <span data-nom="gizeh" data-genre="lieu">Gizeh</span>
 constitue par ailleurs un pôle doctrinal propre du dépôt, déjà instruit et clos sous
 l'angle de sa vigilance polaire/solaire
 ([[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]). La
@@ -276,10 +276,10 @@ l'axe des 38 degrés, être rapportée au degré 24 (Ciel du Soleil) ?
 *Fiche ouverte le 2026-08-25 sur autorisation de Sidy (« Tu peux, oui et à mon sens
 l'hypothèse est très plausible »), synthèse de trois maillons doctrinaux déjà sourcés
 séparément dans le dépôt, enrichie le même jour d'un quatrième maillon méthodologique
-(symbole/archétype, macrocosme/microcosme), d'un renfort du deuxième maillon (Hermès =
+(symbole/archétype, <span data-nom="macrocosme-microcosme" data-genre="principe">macrocosme/microcosme</span>), d'un renfort du deuxième maillon (<span data-nom="hermes" data-genre="entite">Hermès</span> =
 Thoth égyptien, ch. XLI d'*Aperçus sur l'Initiation*), et d'un cinquième maillon
 recadrant la nature de la question posée — reconnaissance de la filiation notoire
-Hermès/Thoth/Hénoch/Idrīs (pythagorisme, Égypte antique) comme cas de **tradition
+Hermès/Thoth/Hénoch/<span data-nom="idris" data-genre="entite">Idrīs</span> (pythagorisme, Égypte antique) comme cas de **tradition
 morte** au sens guénonien, survivant par isolement puis incorporation/transposition
 dans des traditions tierces vivantes, plutôt que recherche d'une citation nommant
 Gizeh — tous sur instruction/confirmation de Sidy. Non close : l'application précise

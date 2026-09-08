@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [metier, art-sacre, initiation, sashimono, methode, architecture-chinoise]
 created: 2026-07-07
-updated: 2026-09-06
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-apercus-initiation-ch14-qualifications-initiatiques]]", "to-source"]
 sources_count: 2
 cross_links: []
@@ -15,7 +15,7 @@ cross_links: []
 
 ## Question posée
 
-Le dépôt a adopté (2026-07-07) le sashimono comme **philosophie d'assemblage
+Le dépôt a adopté (2026-07-07) le <dfn data-terme="sashimono" data-translit="sashimono" data-tradition="universel">sashimono</dfn> comme **philosophie d'assemblage
 opératoire** (`meta/philosophie-sashimono.md`), à titre d'analogie d'outillage
 explicitement non doctrinale. La présente fiche instruit la question distincte :
 cette analogie a-t-elle un **fondement doctrinal** ? Autrement dit :

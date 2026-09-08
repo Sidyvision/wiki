@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [contre-initiation, wahhabisme, califat, kshatriya, protestantisme, subversion, geopolitique]
 created: 2026-08-09
-updated: 2026-08-09
+updated: 2026-09-08
 sources: ["to-source"]
 sources_count: 1
 cross_links: ["[[doctrinal/deviations/antitradition-et-contre-tradition]]"]
@@ -32,16 +32,16 @@ cross_links: ["[[doctrinal/deviations/antitradition-et-contre-tradition]]"]
 
 **Statut** : en cours
 
-**Hypothèse initiale** (reformulée fidèlement, 2026-08-09) : le Wahhabisme et la maison
+**Hypothèse initiale** (reformulée fidèlement, 2026-08-09) : le <span data-nom="wahhabisme" data-genre="ecole">Wahhabisme</span> et la maison
 des Saoud constituent l'une des dérives les plus graves subies par le monde traditionnel
-depuis le Protestantisme, auquel ils s'assimilent structurellement sur le plan
+depuis le <span data-nom="protestantisme" data-genre="ecole">Protestantisme</span>, auquel ils s'assimilent structurellement sur le plan
 idéologique. Cette dérive n'est pas un accident isolé mais l'une des manifestations
 extérieures et historiques d'une même dynamique subversive orientée vers un dessein
 précis. Trois événements — l'abolition du Califat ottoman (1924), la conquête du Hedjaz
 par Ibn Saoud (1924-1925) mettant fin à la prétention califale hachémite, et l'alliance
 anglo-saoudienne scellée ultérieurement (traité de Djeddah, 1927) — sont, selon Sidy, des
 étapes reliées d'un même mouvement, plutôt que des faits juxtaposés par coïncidence. Cette
-dynamique est en outre rapprochée de la notion guénonienne de « révolte des Kshatriya »
+dynamique est en outre rapprochée de la notion guénonienne de « révolte des <span data-nom="kshatriya" data-genre="entite">Kshatriya</span> »
 (inversion de la hiérarchie légitime pouvoir spirituel / pouvoir temporel).
 
 **Précision factuelle actée avant tout examen doctrinal** (signalement, non un
@@ -66,7 +66,7 @@ condition de la discipline des sources du dépôt.
 
 **Généalogie des idées** :
 - *Filiation orthodoxe possible* : [[doctrinal/deviations/contre-initiation]] — la
-  distinction guénonienne entre contre-initiation agissante et ses manifestations
+  distinction guénonienne entre <dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="islam">contre-initiation</dfn> agissante et ses manifestations
   historiques diverses et en apparence disjointes est la structure formelle la plus
   proche de l'hypothèse de Sidy (une dynamique unique, des agents multiples, parfois
   non coordonnés consciemment). *Autorité spirituelle et Pouvoir temporel* (Guénon,

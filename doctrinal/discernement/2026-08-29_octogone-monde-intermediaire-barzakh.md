@@ -6,7 +6,7 @@ maturite: fruit-mur
 tradition_cadre: "universel"
 tags: [guenon, octogone, monde-intermediaire, vayu, barzakh, ibn-arabi, instrument]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-octogone]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]"]
@@ -19,10 +19,10 @@ cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/discernement/2026-0
 Dans « L'Octogone » (*Symboles de la Science sacrée*, ch. XLII), Guénon
 explique que la transition architecturale entre la base carrée (Terre) et le
 dôme circulaire (Ciel) d'un édifice traditionnel exige une forme
-intermédiaire, généralement octogonale, qui incarne le « monde intermédiaire »
+intermédiaire, généralement octogonale, qui incarne le « <span data-nom="monde-intermediaire" data-genre="principe">monde intermédiaire</span> »
 manquant à la seule opposition carré/cercle. Sidy demande, à la suite de la
 lecture du 2026-08-29, d'instruire le rapprochement entre cette fonction et le
-*barzakh* soufi ([[doctrinal/symboles/barzakh]]), déjà mobilisé par
+*<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="universel">barzakh</dfn>* soufi ([[doctrinal/symboles/barzakh]]), déjà mobilisé par
 l'Instrument (`atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3.md`,
 §3.4 — la « lentille de transition visuelle entre degrés adjacents de l'axe » ;
 consultation R&D, mention en prose sans wikilink).

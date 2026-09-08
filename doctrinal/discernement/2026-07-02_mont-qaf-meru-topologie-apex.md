@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [qaf, meru, apex, topologie, hierarchie-initiatique, rafi-ad-darajat, qutb, clos]
 created: 2026-07-02
-updated: 2026-07-14
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]"]
@@ -21,11 +21,11 @@ modèle sphérique centré sur une montagne axiale ne sont pas contradictoires m
 d'un même **basculement de perspective topologique** — si l'on regroupe en un point unique
 la chaîne de montagnes bordant un disque plan, le plan s'enroule et cette circonférence
 périphérique devient l'apex vertical unique d'une sphère. L'intuition rapproche ce
-basculement du Mont Qâf (tasawwuf) et du Mont Meru (tradition hindoue), tous deux à la
+basculement du Mont Qâf (tasawwuf) et du Mont <span data-nom="meru" data-genre="lieu">Meru</span> (tradition hindoue), tous deux à la
 fois périphérie contenant le monde manifesté et sommet/centre axial. Une seconde piste,
 distincte, propose de rattacher l'apex géométrique de la pyramide au degré 38 de la table
-cosmologique akbarienne (*Rafîʿ ad-Darajât*, « l'Élévateur des degrés »), via la notion de
-hiérarchie initiatique et du Pôle (*al-Qutb*).
+cosmologique akbarienne (*<dfn data-terme="rafi-ad-darajat" data-translit="Rafîʿ ad-Darajât" data-tradition="universel">Rafîʿ ad-Darajât</dfn>*, « l'Élévateur des degrés »), via la notion de
+<span data-nom="hierarchie-initiatique" data-genre="principe">hiérarchie initiatique</span> et du Pôle (*al-Qutb*).
 
 ---
 

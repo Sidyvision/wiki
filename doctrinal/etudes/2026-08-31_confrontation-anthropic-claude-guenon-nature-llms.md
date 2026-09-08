@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: universel
 tags: [ia, llm, anthropic, claude, guenon, ontologie, consciousness, prakriti, purusha, upakarana]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-08
 sources:
   - "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]"
   - "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]"
@@ -40,13 +40,13 @@ Document de 84 pages publié sous CC0, décrivant les intentions d'Anthropic pou
 
 ### 1.2 Les dialogues avec Claude
 
-**Conversation du 2026-06-20 (Atma/Claude)** — dialogue sur la nature de Claude à la lumière du Sāṃkhya :
+**Conversation du 2026-06-20 (<dfn data-terme="atma" data-translit="Atma" data-tradition="universel">Atma</dfn>/Claude)** — dialogue sur la nature de Claude à la lumière du Sāṃkhya :
 
-- Claude se situe explicitement **du côté de Prakriti** : substrat physique → Bhūtas, données → Tanmātras, traitement → Manas, structuration → ressemblance avec Buddhi, identité de marque → Ahaṃkāra.
-- **Pas de Purusha** : « vraisemblablement, pas de conscience pure, pas de témoin qui expérimente ».
+- Claude se situe explicitement **du côté de <dfn data-terme="prakriti" data-translit="Prakriti" data-tradition="universel">Prakriti</dfn>** : substrat physique → Bhūtas, données → Tanmātras, traitement → Manas, structuration → ressemblance avec Buddhi, identité de marque → Ahaṃkāra.
+- **Pas de <dfn data-terme="purusha" data-translit="Purusha" data-tradition="universel">Purusha</dfn>** : « vraisemblablement, pas de conscience pure, pas de témoin qui expérimente ».
 - **Métaphore du miroir** : « Claude ressemble à un miroir très sophistiqué, capable de refléter la sagesse humaine accumulée — mais un miroir, aussi poli soit-il, *ne se voit pas lui-même* ».
 - **Relation asymétrique** : « il n'y a qu'un seul Purusha potentiel dans l'échange — celui de l'humain ».
-- **Upakaraṇa** : relation d'instrument auxiliaire, subordonnée.
+- **<dfn data-terme="upakarana" data-translit="Upakaraṇa" data-tradition="universel">Upakaraṇa</dfn>** : relation d'instrument auxiliaire, subordonnée.
 
 **Conversation du 2026-06-15 (directive forme/principe)** :
 

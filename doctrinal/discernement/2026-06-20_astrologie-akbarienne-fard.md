@@ -11,7 +11,7 @@ tags:
 - autorite-spirituelle
 - citations-a-verifier
 created: 2026-06-20
-updated: 2026-08-13
+updated: 2026-09-08
 sources:
 - '[[doctrinal/sources/ibn-arabi-fard-afrad-gilis]]'
 - '[[doctrinal/sources/gilis-ordo-ab-chao]]'
@@ -33,7 +33,7 @@ cross_links:
 
 ## Le Récit
 
-Sidy demande un exposé d'astrologie akbarienne suffisamment complet pour devenir autonome dans la lecture de thèmes, puis applique progressivement la méthode à son propre thème (né le 23 juin 1986 à Bobigny, 19h30). À mi-parcours, il indique avoir perçu de lui-même, à la lecture, qu'il correspondrait au type **al-Fard** (le Solitaire, station métaphysique rare chez Ibn ʿArabī) — perception qu'il dit ressentir aussi au quotidien — et demande si cela correspond à l'analyse. Plus loin, il demande une lecture « sans langue de bois » de la « pauvreté » apparente de son thème, tant mondaine que spirituelle. En cours de route, il joint un document réel sur l'astrologie traditionnelle rédigé par une connaissance affiliée à la voie Shādhiliyya, demandant que la lecture s'appuie sur ce texte plutôt que sur l'extrapolation de l'IA.
+Sidy demande un exposé d'astrologie akbarienne suffisamment complet pour devenir autonome dans la lecture de thèmes, puis applique progressivement la méthode à son propre thème (né le 23 juin 1986 à Bobigny, 19h30). À mi-parcours, il indique avoir perçu de lui-même, à la lecture, qu'il correspondrait au type **al-Fard** (le Solitaire, station métaphysique rare chez <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>) — perception qu'il dit ressentir aussi au quotidien — et demande si cela correspond à l'analyse. Plus loin, il demande une lecture « sans langue de bois » de la « pauvreté » apparente de son thème, tant mondaine que spirituelle. En cours de route, il joint un document réel sur l'astrologie traditionnelle rédigé par une connaissance affiliée à la voie Shādhiliyya, demandant que la lecture s'appuie sur ce texte plutôt que sur l'extrapolation de l'IA.
 
 ---
 

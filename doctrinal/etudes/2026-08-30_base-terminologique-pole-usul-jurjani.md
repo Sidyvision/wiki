@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [usul, furu, istilâh, jurjani, terminologie, pole, fondement]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/al-jurjani]]", "[[doctrinal/sources/kitab-tarifat-index-transcription]]"]
@@ -23,14 +23,14 @@ cross_links: ["[[doctrinal/autorites/al-jurjani]]", "[[doctrinal/sources/kitab-t
 
 ## 1. Objet de l'étude
 
-Le pôle Usûl du dépôt (validé le 2026-08-27) élargit l'ancien pôle Fiqh en accueillant trois branches — `fiqh`, `mantiq`, `mustalah-hadith` — sans que leur architecture terminologique propre ait été instruite. Cette étude pose la **base saine** : les termes qui fondent le pôle lui-même, tels qu'établis par une autorité textuelle classique.
+Le pôle <dfn data-terme="usul" data-translit="Usûl" data-tradition="islam">Usûl</dfn> du dépôt (validé le 2026-08-27) élargit l'ancien pôle Fiqh en accueillant trois branches — `fiqh`, `mantiq`, `mustalah-hadith` — sans que leur architecture terminologique propre ait été instruite. Cette étude pose la **base saine** : les termes qui fondent le pôle lui-même, tels qu'établis par une autorité textuelle classique.
 
 ## 2. La triade *uṣūl / furūʿ / iṣṭilāḥ*
 
 L'architecture classique des sciences traditionnelles islamiques repose sur une triade articulant :
 
 1. **Uṣūl** (أصول, les racines/fondements) — ce sur quoi une science est fondée, qui n'est pas lui-même fondé sur autre chose.
-2. **Furūʿ** (فروع, les branches) — ce qui découle des racines, les applications dérivées.
+2. **<dfn data-terme="furu" data-translit="Furūʿ" data-tradition="islam">Furūʿ</dfn>** (فروع, les branches) — ce qui découle des racines, les applications dérivées.
 3. **Iṣṭilāḥāt** (اصطلاحات, les termes techniques) — le langage conventionnel propre à chaque science, qui garantit la rigueur des énoncés.
 
 Cette triade est **structurelle** : elle s'applique à toute science traditionnelle, y compris aux trois branches du pôle Usûl. Chaque branche a ses propres *uṣūl*, *furūʿ* et *iṣṭilāḥāt*, mais la structure formelle est identique.
@@ -53,7 +53,7 @@ Cette triade est **structurelle** : elle s'applique à toute science traditionne
 >
 > Cette expression désigne les **règles fondamentales (*qawāʿid*) permettant l'élaboration du droit religieux (*fiqh*)**. Leur définition précise a été consignée par (les savants), dans leurs recueils, tels le petit recueil, *al-Jāmiʿ al-ṣaghīr* et le grand recueil, *al-Jāmiʿ al-kabīr* [tous deux composés par as-Shaybānī Muḥammad al-Ḥasan], le traité développé appelé *al-Mabsūṭ* [de as-Sarakhsī] et le traité des additifs dénommé *al-Ziyādāt*.
 
-**Portée pour le pôle Usûl** : cette définition établit la distinction *uṣūl / furūʿ* propre au fiqh. Les *uṣūl al-fiqh* sont les règles méthodologiques (comment déduire un jugement d'un texte) ; les *furūʿ al-fiqh* sont les applications concrètes (les jugements eux-mêmes dans les cas particuliers). Les ouvrages cités (as-Shaybānī, as-Sarakhsī) sont ḥanafites — Jurjānī ne présuppose pas de *madhhab* particulier, ce qui corrobore le point ouvert de la proposition du 2026-08-27 : les *uṣūl* en tant que science transcendent les écoles, même si la préséance mālikite reste propre à la branche `fiqh` du pôle.
+**Portée pour le pôle Usûl** : cette définition établit la distinction *uṣūl / furūʿ* propre au fiqh. Les *uṣūl al-fiqh* sont les règles méthodologiques (comment déduire un jugement d'un texte) ; les *furūʿ al-fiqh* sont les applications concrètes (les jugements eux-mêmes dans les cas particuliers). Les ouvrages cités (as-Shaybānī, as-Sarakhsī) sont ḥanafites — <span data-nom="jurjani" data-genre="autorite">Jurjānī</span> ne présuppose pas de *madhhab* particulier, ce qui corrobore le point ouvert de la proposition du 2026-08-27 : les *uṣūl* en tant que science transcendent les écoles, même si la préséance mālikite reste propre à la branche `fiqh` du pôle.
 
 ### 3.3. *Al-iṣṭilāḥ* (déf. 0160, p. 77)
 
@@ -97,7 +97,7 @@ L'index signale *furūʿ* aux p. 954 et 1033. La page 1033 reste à vérifier �
 
 ## 5. Articulation avec les trois branches du pôle
 
-La triade *uṣūl / furūʿ / iṣṭilāḥ* s'applique à chaque branche :
+La triade *uṣūl / furūʿ / <dfn data-terme="istilah" data-translit="iṣṭilāḥ" data-tradition="islam">iṣṭilāḥ</dfn>* s'applique à chaque branche :
 
 | Branche | Uṣūl (fondements) | Furūʿ (applications) | Iṣṭilāḥāt (termes propres) |
 |---|---|---|---|

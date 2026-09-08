@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]]", "[
 
 ## Question posée
 
-L'ouverture du dossier kamon (2026-09-08) procède d'une demande de Sidy qui
+L'ouverture du dossier <dfn data-terme="kamon" data-translit="kamon" data-tradition="universel">kamon</dfn> (2026-09-08) procède d'une demande de Sidy qui
 énonce, en passant, une prémisse. Elle est reprise ici **dans ses termes**, parce
 que c'est elle, et non le répertoire, qui engage :
 
@@ -134,7 +134,7 @@ transmet de maître à apprenti dans un corps de métier constitué (*monshō-uw
 **C'est exactement la configuration qu'instruit la fiche sashimono**, et la
 réponse aux deux devrait être la même.
 
-**2. Les *shinmon* sont attachés à des rites.** Le *tomoe* d'Hachiman, le
+**2. Les *shinmon* sont attachés à des rites.** Le *<dfn data-terme="tomoe" data-translit="tomoe" data-tradition="universel">tomoe</dfn>* d'Hachiman, le
 *yatagarasu* de Kumano, le *kaji* de Suwa ne sont pas des ornements : ce sont les
 emblèmes de sanctuaires en fonction, et leur port engage un rattachement effectif.
 Il y a là **autre chose** qu'une marque de famille — sans qu'on puisse encore dire

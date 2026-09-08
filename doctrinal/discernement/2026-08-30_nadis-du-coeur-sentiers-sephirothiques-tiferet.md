@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [nadis, sentiers, netivot, tiferet, anahata, coeur, reseau, kabbale, hindouisme, lettres, kari-kumi]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]"]
 sources_count: 4
 cross_links: ["[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]", "[[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]"]
@@ -81,7 +81,7 @@ cross_links: ["[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveau
 
 C'est le point fort de l'hypothèse, et il n'est pas mince. Le dépôt a passé la
 session à distinguer, dans l'axe, **les stations** (degrés, Sephiroth, *cakra*)
-et **les voies** (canaux, *nâdîs*). Or les sentiers séphirothiques sont, du côté
+et **les voies** (canaux, *<dfn data-terme="nadis" data-translit="nâdîs" data-tradition="universel">nâdîs</dfn>*). Or les sentiers séphirothiques sont, du côté
 kabbalistique, exactement ce que les *nâdîs* sont du côté hindou : **ce qui
 relie**, et non ce qui est relié.
 
@@ -93,7 +93,7 @@ la plus banale.
 
 ### 1.2 Le cœur est déjà, des deux côtés, dans le dépôt
 
-- **Côté kabbalistique** : `kabbale-10-sefirot-structure` donne pour Tiferet,
+- **Côté kabbalistique** : `kabbale-10-sefirot-structure` donne pour <dfn data-terme="tiferet" data-translit="Tiferet" data-tradition="universel">Tiferet</dfn>,
   sans que rien y ait été ajouté aujourd'hui : « **Cœur de l'Arbre** » ;
   « colonne du milieu, 6ᵉ Sephira (**centre de l'Arbre**) » ; et, dans le Ramban,
   « le Palais de la Sainteté est exactement **au centre** ».
@@ -101,7 +101,7 @@ la plus banale.
   séjour (**le centre de l'individualité, désigné symboliquement comme le
   cœur**) », et c'est de ce **centre vital** que « **cent une artères** (*nâdîs*)
   sortent […] **comme les rais d'une roue sortent de son moyeu** ».
-- **Et le joint est déjà fait au niveau des stations** : Tiferet ↔ Anāhata est un
+- **Et le joint est déjà fait au niveau des stations** : Tiferet ↔ <dfn data-terme="anahata" data-translit="Anāhata" data-tradition="universel">Anāhata</dfn> est un
   ancrage `etabli` depuis le 2026-08-29.
 
 L'hypothèse ne pose donc pas le cœur : elle **le trouve posé des deux côtés**, et
@@ -123,7 +123,7 @@ et il l'a établi sur son propre texte, dans une seule note :
 | Formule de Guénon | Objet | Qualification retenue au dépôt |
 |---|---|---|
 | « **identique** » | Janus Bifrons / ternaire des canaux | ***hozo*** — joint établi |
-| « **très comparable** » | alchimie humaine, *athanor* / *haṭha-yoga* | ***kari-kumi*** — suggéré |
+| « **très comparable** » | alchimie humaine, *athanor* / *haṭha-yoga* | ***<dfn data-terme="kari-kumi" data-translit="kari-kumi" data-tradition="universel">kari-kumi</dfn>*** — suggéré |
 | « **ne sont pas sans analogie** » | **sentiers séphirothiques / nâdîs** | **plus faible encore** |
 
 Une litote négative (« pas sans ») est, dans ce registre, **le degré le plus bas
@@ -213,7 +213,7 @@ Donc :
 
 | | Ce qui porte les lettres | Vu comment |
 |---|---|---|
-| **Kabbale** | les sentiers | **le long de leur parcours** (entre deux Sephiroth) |
+| **<span data-nom="kabbale" data-genre="ecole">Kabbale</span>** | les sentiers | **le long de leur parcours** (entre deux Sephiroth) |
 | **Tantra** | les pétales, c'est-à-dire **les nâdîs** | **à leur point d'aboutissement** (au centre) |
 
 **Les lettres sont sur les canaux des deux côtés.** Il n'y a pas d'inversion : il

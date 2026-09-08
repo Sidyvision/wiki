@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [kabbale, tasawwuf, palais-saintete, hadarat, centre, merkava, shekinah, qabbalah, comparaison]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"]
@@ -19,7 +19,7 @@ L'archivage du *Sefer Yetsira* (avec commentaire du Ramban) met à disposition d
 dépôt un texte primaire kabbalistique. En le traversant, une convergence
 structurelle émerge immédiatement : le **Palais de la Sainteté** (היכל הקודש) du
 Ch. IV, §3 du *Sefer Yetsira* correspond structurellement au **Centre des cinq
-Présences divines** (al-Ḥaḍarāt al-Ilāhiyya al-Khams) du tasawwuf akbarien
+Présences divines** (al-Ḥaḍarāt al-Ilāhiyya al-Khams) du <dfn data-terme="tasawwuf" data-translit="tasawwuf" data-tradition="universel">tasawwuf</dfn> akbarien
 ([[doctrinal/symboles/hadarat-khams]]).
 
 Cette convergence n'est **pas énoncée par Sidy**. Elle est soulevée par le
@@ -64,7 +64,7 @@ l'équivalent du Palais : point central qui supporte et relie tous les degrés.
 
 ### Points de convergence structurelle
 
-| Point | Kabbale (Sefer Yetsira / Ramban) | Tasawwuf (akbarien) | Nature du rapprochement |
+| Point | <span data-nom="kabbale" data-genre="ecole">Kabbale</span> (<dfn data-terme="sefer-yetsira-ramban" data-translit="Sefer Yetsira / Ramban" data-tradition="universel">Sefer Yetsira / Ramban</dfn>) | Tasawwuf (akbarien) | Nature du rapprochement |
 |-------|-----------------------------------|----------------------|--------------------------|
 | **Le Centre comme support de tous les degrés** | Le Palais de la Sainteté « supporte » les 6 directions | La 5e Présence totalise les 4 autres | Identité de fonction : centre totalisateur |
 | **La descente en degrés depuis le Principe** | 4 opérations cosmogoniques (Graver, Tailler, Couvrir, Élever) | 5 Présences de descente | Analogie de structure hiérarchique |
@@ -81,7 +81,7 @@ l'équivalent du Palais : point central qui supporte et relie tous les degrés.
 
 ### Points de vigilance
 
-1. **Non-superposition des découpages** : les 10 Sefirot ≠ les 5 Ḥaḍarāt.
+1. **Non-superposition des découpages** : les 10 Sefirot ≠ les 5 <dfn data-terme="hadarat" data-translit="Ḥaḍarāt" data-tradition="universel">Ḥaḍarāt</dfn>.
    On ne peut pas superposer terme à terme. Le rapprochement est sur la
    **fonction du Centre**, pas sur la structure des degrés.
 
@@ -99,7 +99,7 @@ l'équivalent du Palais : point central qui supporte et relie tous les degrés.
    Tout ancrage kabbalistique sérieux exigerait un recoupement avec
    d'autres sources (Moïse de Léon, Isaac l'Aveugle, etc.).
 
-4. **Le Palais ≠ la Shekinah** : attention à ne pas confler le Palais de la
+4. **Le Palais ≠ la <span data-nom="shekinah" data-genre="entite">Shekinah</span>** : attention à ne pas confler le Palais de la
    Sainteté (lieu central, structurel) avec la Shekinah (présence divine
    immanente, qui est un degré plutôt qu'un centre). La Shekinah est
    mentionnée par Guénon comme la partie la plus intérieure du Temple

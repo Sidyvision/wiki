@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [kabbale, etat-des-lieux, instrumentation, phase-3, bilan, sefer-yetsira, qabbalah]
 created: 2026-08-20
-updated: 2026-08-31
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]", "[[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]", "[[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]]"]
 sources_count: 6
 cross_links: ["[[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]"]
@@ -15,9 +15,9 @@ cross_links: ["[[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorc
 
 ## Récit / contexte
 
-L'archivage du *Sefer Yetsira* (commentaire du Ramban, 2026-08-20) complète le
+L'archivage du *<span data-nom="sefer-yetsira" data-genre="ouvrage">Sefer Yetsira</span>* (commentaire du Ramban, 2026-08-20) complète le
 dépôt en matière kabbalistique primaire. Cette fiche fait le bilan de tout ce
-qui est disponible sur la kabbale dans le dépôt, pour permettre à Sidy de
+qui est disponible sur la <span data-nom="kabbale" data-genre="ecole">kabbale</span> dans le dépôt, pour permettre à Sidy de
 décider en connaissance de cause s'il engage un chantier kabbalistique
 structuré ou non.
 
@@ -162,4 +162,4 @@ manques listés en §3 (Zohar, Bahir, 3 colonnes, 22 sentiers,
 `instrument-donnees.yaml`) reste ouvert pour les ingests futurs. La
 vigilance méthodologique §5 s'applique intégralement à ce chantier
 désormais engagé, y compris la **réserve explicite de Sidy sur l'orthodoxie
-du gilgul** (non tranchée — cf. [[doctrinal/symboles/gilgul]]).
+du <dfn data-terme="gilgul" data-translit="gilgul" data-tradition="universel">gilgul</dfn>** (non tranchée — cf. [[doctrinal/symboles/gilgul]]).

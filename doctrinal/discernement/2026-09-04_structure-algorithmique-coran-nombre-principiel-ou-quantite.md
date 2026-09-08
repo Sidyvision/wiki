@@ -6,7 +6,7 @@ maturite: germe
 tradition_cadre: islam
 tags: [muqattaat, ilm-al-huruf, sourate-qaf, recursion, quantite, ijaz, cmd3, en-cours]
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]]", "[[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]]", "[[doctrinal/sources/gloton-approche-coran-grammaire-lexique]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/deviations/technologisation-pseudo-scientifique]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -117,7 +117,7 @@ cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/deviations/tec
 
 ## Ce que ce dossier ne contient pas
 
-- **Aucune page sur les *muqaṭṭaʿāt* n'existe au dépôt.** La matière est entrée
+- **Aucune page sur les *<dfn data-terme="muqattaat" data-translit="muqaṭṭaʿāt" data-tradition="islam">muqaṭṭaʿāt</dfn>* n'existe au dépôt.** La matière est entrée
   ici par une source `academique` avant d'avoir été instruite du côté traditionnel.
   C'est un déséquilibre, signalé et non corrigé de force.
 - **Aucun rapprochement avec le Mont Qāf.** Le dossier
@@ -136,7 +136,7 @@ cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/deviations/tec
    invérifiée : ce ne sont pas la même chose.
 2. **Une autorité traditionnelle** se prononçant sur le statut d'une structure
    formelle engendrée depuis les noms de lettres — soit pour l'accueillir dans le
-   ʿilm al-ḥurūf, soit pour l'en écarter.
+   <dfn data-terme="ilm-al-huruf" data-translit="ʿilm al-ḥurūf" data-tradition="islam">ʿilm al-ḥurūf</dfn>, soit pour l'en écarter.
 3. **Le verdict de Sidy** (Cmd 12), qui seul tranche — y compris pour décider que
    la question est mal posée.
 

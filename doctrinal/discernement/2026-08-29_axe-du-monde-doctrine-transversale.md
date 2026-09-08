@@ -6,7 +6,7 @@ maturite: fruit-mur
 tradition_cadre: "universel"
 tags: [guenon, axe-du-monde, skambha, qutb, stauros, omphalos, nœud-universel, instrument]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-symbolisme-du-dome]]", "[[doctrinal/sources/guenon-dome-et-la-roue]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -122,7 +122,7 @@ recoupement microcosmique**, sans qu'il faille rien construire :
 
 Portée exacte de cet apport, sans extension :
 
-1. **Guénon emploie la formule « axe du monde » sous sa plume, en propre**, pour
+1. **Guénon emploie la formule « <span data-nom="axe-du-monde" data-genre="principe">axe du monde</span> » sous sa plume, en propre**, pour
    le *Mêru* — l'identité posée par cette fiche ne repose donc pas sur le seul
    énoncé de *La Grande Triade*/*Le Dôme et la Roue*, mais sur un second texte
    indépendant.
@@ -136,7 +136,7 @@ Portée exacte de cet apport, sans extension :
    nœuds, et le caducée — l'axe y est la tige centrale.
 
 **Ce que cet apport ne fait pas** : il n'étend pas le verdict. Le hozo tranché
-porte sur *skambha* = *qutb* = *stauros* ; *Mêru*/*Mêru-danda* vient s'y adjoindre
+porte sur *<span data-nom="skambha" data-genre="principe">skambha</span>* = *<dfn data-terme="qutb" data-translit="qutb" data-tradition="universel">qutb</dfn>* = *<span data-nom="stauros" data-genre="principe">stauros</span>* ; *Mêru*/*Mêru-danda* vient s'y adjoindre
 comme confirmation convergente d'un même enseignement chez la même autorité, non
 comme un cinquième terme dont l'équivalence aurait été séparément instruite.
 Signalé comme tel, à la disposition de Sidy s'il juge utile de l'intégrer

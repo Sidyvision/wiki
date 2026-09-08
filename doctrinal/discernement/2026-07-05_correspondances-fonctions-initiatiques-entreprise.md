@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [discernement, cinq-presences, duodenaire, entreprise, label, archetypes, en-cours]
 created: 2026-07-05
-updated: 2026-08-15
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-zodiaque-pythagoriciens]]"]
 sources_count: 1
 cross_links: ["[[hadarat-khams]]", "[[ilm-al-nujum]]", "[[manazil-al-qamar]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]", "[[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]]"]
@@ -20,7 +20,7 @@ cross_links: ["[[hadarat-khams]]", "[[ilm-al-nujum]]", "[[manazil-al-qamar]]", "
 **Hypothèse initiale** (2026-07-05, reformulée fidèlement) : l'organisation du label
 de Sidy — cinq archétypes fonctionnels (Dépositaire, Transmetteur, Faiseur, Tisseur,
 Gardien) traversant douze fonctions opératives — pourrait refléter des réalités
-traditionnelles : les cinq archétypes feraient écho aux Cinq Présences
+traditionnelles : les cinq archétypes feraient écho aux <span data-nom="cinq-presences" data-genre="principe">Cinq Présences</span>
 ([[hadarat-khams]]), les douze fonctions au duodénaire zodiacal ([[ilm-al-nujum]]).
 
 ---

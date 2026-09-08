@@ -7,7 +7,7 @@ auteur_texte: "Rabbi Isaac ben Jacob ha-Kohen"
 date_texte: "vers 1240-1270"
 tags: [sitra-ahra, emanation-gauche, 10-sephirot-maléfiques, samael, lilith, asmodee, metatron, qliphoth, demonologie, mondes-detruits, hekhaleth, castille, pre-zohar, isaac-ha-kohen]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]", "[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]"]
 sources_count: 4
 cross_links: ["[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]"]
@@ -18,7 +18,7 @@ cross_links: ["[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]", "[[
 ## Ce qui est déposé
 
 3 parties du *Traité de l'Émanation Gauche* de Rabbi Isaac ben Jacob ha-Kohen
-(Castille, première moitié du XIIIe siècle), traduites en français par Spartakus
+(<span data-nom="castille" data-genre="lieu">Castille</span>, première moitié du XIIIe siècle), traduites en français par Spartakus
 FreeMann (2015) depuis l'anglais avec corrections hébreu.
 
 ## Ce qui entre dans le tas
@@ -41,7 +41,7 @@ Référence : « Il a construit des mondes et les a détruit » (*Bereshith Rabb
 
 ### 3. Samaël-Lilith-Tanin'iver — la triade démoniaque
 
-- **Samaël** et **Lilith** nés un, comme Adam-Ève, reflétant le supernel
+- **<span data-nom="samael" data-genre="entite">Samaël</span>** et **<span data-nom="lilith" data-genre="entite">Lilith</span>** nés un, comme Adam-Ève, reflétant le supernel
 - **Lilith** = Celle du Nord, émanée de dessous le Trône de Gloire
 - **Tanin'iver** = le serpent aveugle, intermédiaire entre les deux, lien de leur
   union sexuelle cosmique
@@ -52,7 +52,7 @@ Référence : « Il a construit des mondes et les a détruit » (*Bereshith Rabb
 Cadre cosmologique distinct :
 1. Éther des armées célestes (Qedoshi'el)
 2. Éther de la prophétie
-3. Éther des démons — subdivisé en 3 parties (supérieure/Asmodée,
+3. Éther des démons — subdivisé en 3 parties (supérieure/<span data-nom="asmodee" data-genre="entite">Asmodée</span>,
    médiane/Qafqafoni, inférieure/démons créés)
 
 ### 5. Les 7 princes de la jalousie
@@ -75,18 +75,18 @@ L'émanation du Repentir produit un écran entre saint et maléfique. De cet éc
 ### 8. Métatron visionnaire
 
 Isaac ben Jacob prétend avoir reçu certains enseignements **directement de
-l'ange Métatron** par visions. C'est une source primaire pour le lien
+l'ange <span data-nom="metatron" data-genre="entite">Métatron</span>** par visions. C'est une source primaire pour le lien
 Métatron / Er-Rûh posé dans le dépôt akbarien.
 
 ## Ce qui complète le dépôt existant
 
 | Dépôt existant | Apport du Traité |
 |---|---|
-| Sitra Ahra (signalé, pas structuré) | 10 Sephiroth maléfiques nommées |
+| <span data-nom="sitra-ahra" data-genre="entite">Sitra Ahra</span> (signalé, pas structuré) | 10 Sephiroth maléfiques nommées |
 | Fonction polaire Metatron (lumineux/obscur) | Samaël-Lilith-Tanin'iver (triade) |
 | 7 tours Sitra Ahra (non qualifié) | 7 princes de la jalousie |
-| Cosmogonie du *iod* (Aïn → Kether) | Mondes détruits avant Création |
-| Métatron/Er-Rûh (identité posée) | Isaac ha-Kohen visionnaire de Métatron |
+| Cosmogonie du *iod* (Aïn → Kether) | <span data-nom="mondes-detruits" data-genre="cycle">Mondes détruits</span> avant Création |
+| Métatron/Er-Rûh (identité posée) | <span data-nom="isaac-ha-kohen" data-genre="autorite">Isaac ha-Kohen</span> visionnaire de Métatron |
 
 ## Questions ouvertes
 

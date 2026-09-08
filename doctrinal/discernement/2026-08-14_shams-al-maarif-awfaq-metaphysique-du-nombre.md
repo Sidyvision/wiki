@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [shams-al-maarif, al-buni, awfaq, carre-magique, nombre, ilm-al-huruf, guenon, magie, transmission, rite, critere-de-validite, science-traditionnelle]
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf]]", "[[doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle]]", "[[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]]", "[[doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres]]", "[[doctrinal/symboles/ilm-al-awfaq]]", "to-source"]
 sources_count: 6
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
@@ -69,7 +69,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/discernement/2
 
 ## 0. Objet et origine du discernement
 
-Axe 4 du chantier de confrontation *Shams al-Maʿārif* / Guénon, ouvert le 2026-08-12,
+Axe 4 du chantier de confrontation *<span data-nom="shams-al-maarif" data-genre="ouvrage">Shams al-Maʿārif</span>* / Guénon, ouvert le 2026-08-12,
 désigné par Sidy comme le plus important « en ce qu'il implique la méthodologie
 opérative des opérations ». Les axes 1 (efficacité talismanique) et 2 (statut du
 *siḥr*) sont clos et versés au dépôt.
@@ -84,10 +84,10 @@ Dépouillement des onze titres disponibles en `raw/` (307 fichiers), le 2026-08-
 
 | Terme cherché | Occurrences |
 |---|---|
-| al-Būnī, *Shams al-Maʿārif* (toutes graphies testées) | **0** |
-| *wafq*, *awfâq*, *abjad* | **0** |
+| <span data-nom="al-buni" data-genre="autorite">al-Būnī</span>, *Shams al-Maʿārif* (toutes graphies testées) | **0** |
+| *wafq*, *<dfn data-terme="awfaq" data-translit="awfâq" data-tradition="islam">awfâq</dfn>*, *abjad* | **0** |
 | *jafr*, *sîmiyâ*, gématrie, pentacle, amulette | **0** |
-| « carré magique » | **2**, un seul fichier (*La Grande Triade*, ch. XVI) |
+| « <dfn data-terme="carre-magique" data-translit="carré magique" data-tradition="islam">carré magique</dfn> » | **2**, un seul fichier (*La Grande Triade*, ch. XVI) |
 | « science des lettres » | 2 (une seule définition) |
 | talisman / talismanique | 4 |
 | théurgie | 4 |
@@ -118,7 +118,7 @@ constater une coïncidence chiffrée, en inférer une correspondance doctrinale,
 tirer une filiation. Guénon lui-même en donne l'interdit dans *La Grande Triade*
 ch. VIII : la correspondance pair/impair se retrouve partout « sans qu'il soit
 évidemment possible de supposer en cela le moindre « emprunt » », **parce qu'il s'agit
-d'une vérité reconnue partout où existe la science traditionnelle des nombres**. Une
+d'une vérité reconnue partout où existe la <span data-nom="science-traditionnelle" data-genre="principe">science traditionnelle</span> des nombres**. Une
 concordance numérique s'explique par identité de l'objet connu — ce qui **interdit**
 d'en tirer une filiation et **n'autorise pas davantage** à conclure d'un chiffre à une
 doctrine.

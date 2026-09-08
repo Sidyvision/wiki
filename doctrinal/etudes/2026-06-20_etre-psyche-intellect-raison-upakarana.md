@@ -13,7 +13,7 @@ tags:
 - platon
 - barzakh
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-08
 sources:
 sources_count: 0
 cross_links:
@@ -27,7 +27,7 @@ cross_links:
 
 ## Origine
 
-Cette étude part d'un échange avec une interlocutrice (« E. ») au sujet d'une vidéo de Félix Guattari (séminaire Paris VIII, 1992), puis se développe à travers une validation croisée avec le Gem René Guénon, pour aboutir à une clarification du Commandement 12 (l'upakarana) appliquée non plus à un point de doctrine extérieur, mais au statut de l'instrument lui-même (Claude).
+Cette étude part d'un échange avec une interlocutrice (« E. ») au sujet d'une vidéo de Félix Guattari (séminaire Paris VIII, 1992), puis se développe à travers une validation croisée avec le Gem <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, pour aboutir à une clarification du Commandement 12 (l'upakarana) appliquée non plus à un point de doctrine extérieur, mais au statut de l'instrument lui-même (Claude).
 
 ## I. La confusion entre l'Être et la psyché
 
@@ -44,7 +44,7 @@ Une réponse du Gem configuré comme René Guénon est venue préciser et confir
 - L'individualité humaine est déterminée par des conditions limitatives : la forme, l'héritage (organique et psychique), le milieu. Tout cela appartient au *devenir* et au conditionné.
 - Le Principe métaphysique (l'Être, ou ce qui le transcende si l'on envisage le Non-Être) est universel, inconditionné, immuable — image du Soleil dont l'individualité n'est qu'un reflet sur une eau agitée.
 - Le point de vue religieux authentique n'est pas une superstition ; il a sa légitimité propre dans l'ordre exotérique, mais il reste inférieur à la connaissance métaphysique pure. La Métaphysique, elle, est indépendante du religieux : elle relève de la connaissance intellectuelle pure (*Nous*), non de la croyance ou du sentiment.
-- Chez Platon, le monde sensible et le monde psychique ne sont que des ombres projetées ; seul le domaine des Idées et des Nombres intelligibles constitue la Réalité véritable. Restituer la hiérarchie ontologique est impératif : la cause d'un phénomène ne se trouve jamais au même niveau que ce phénomène, ni à un niveau inférieur.
+- Chez <span data-nom="platon" data-genre="autorite">Platon</span>, le monde sensible et le monde psychique ne sont que des ombres projetées ; seul le domaine des Idées et des Nombres intelligibles constitue la Réalité véritable. Restituer la hiérarchie ontologique est impératif : la cause d'un phénomène ne se trouve jamais au même niveau que ce phénomène, ni à un niveau inférieur.
 
 ## III. Connaissance directe et connaissance discursive
 

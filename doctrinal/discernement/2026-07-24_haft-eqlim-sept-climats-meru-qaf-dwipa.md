@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [haft-eqlim, sept-climats, nezami, meru, qaf, dwipa, karshvar, jambudvipa, non-syncretisme]
 created: 2026-07-24
-updated: 2026-07-24
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/nezami-pavillon-sept-princesses-barry]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"]
@@ -17,8 +17,8 @@ cross_links: ["[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]
 
 **Statut** : en cours
 
-**Hypothèse initiale** (Sidy, 2026-07-24) : à propos de la question du Meru/Qâf et
-de ses sept *Dwipa*, intuition que le *Pavillon des Sept Princesses* de Nezâmî
+**Hypothèse initiale** (Sidy, 2026-07-24) : à propos de la question du <span data-nom="meru" data-genre="lieu">Meru</span>/Qâf et
+de ses sept *<span data-nom="dwipa" data-genre="lieu">Dwipa</span>*, intuition que le *Pavillon des Sept Princesses* de <span data-nom="nezami" data-genre="autorite">Nezâmî</span>
 pourrait apporter une matière supplémentaire — sans que la nature exacte de cet
 apport (confirmation, nuance, ou simple parenté formelle) soit préjugée.
 
@@ -33,13 +33,13 @@ apport (confirmation, nuance, ou simple parenté formelle) soit préjugée.
   [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]] (transcription de
   couverture/table des matières) et d'une recherche secondaire d'appoint (Cmd 7,
   persona/recherche non-primaire — flaguée comme telle) :
-  1. Le schéma des sept climats/planètes/couleurs mis en scène par Nezâmî
-     (*haft eqlim*/*haft keshvar*) descend de la **doctrine avestique du
-     karshvar** — sept régions organisées en anneaux concentriques autour d'une
+  1. Le schéma des <span data-nom="sept-climats" data-genre="principe">sept climats</span>/planètes/couleurs mis en scène par Nezâmî
+     (*<dfn data-terme="haft-eqlim" data-translit="haft eqlim" data-tradition="universel">haft eqlim</dfn>*/*haft keshvar*) descend de la **doctrine avestique du
+     <dfn data-terme="karshvar" data-translit="karshvar" data-tradition="universel">karshvar</dfn>** — sept régions organisées en anneaux concentriques autour d'une
      montagne cosmique — fusionnée ultérieurement avec les sept climats
      ptolémaïques.
   2. Une source tertiaire (encyclopédique, non spécialisée en ésotérisme
-     islamique) rapproche formellement ce *karshvar* avestique du **Jambudvīpa**
+     islamique) rapproche formellement ce *karshvar* avestique du **<span data-nom="jambudvipa" data-genre="lieu">Jambudvīpa</span>**
      hindou, l'un des sept *dvīpa* concentriques autour du Mont Meru dans les
      Purāṇas — deux généalogies parallèles d'un schéma heptadique de géographie
      sacrée centrée sur une montagne cosmique.

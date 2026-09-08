@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [chute, hubut, realisation-spirituelle, etat-primordial, qaf, meru, muraille, apex, pole, guenon, araf, khafd, raf, kari-kumi, en-cours]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]", "[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "to-source"]
 sources_count: 4
 cross_links: ["[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]", "[[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]]", "[[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]]", "[[doctrinal/symboles/barzakh]]"]
@@ -22,7 +22,7 @@ Sidy, le 2026-08-30, après l'ouverture des deux fiches précédentes :
 > chaîne/muraille et apex en rapport avec l'état primordial que présente Guénon. »*
 
 C'est une **thèse d'unification** : elle ne porte pas sur un rapprochement de plus,
-elle propose que les pièces accumulées depuis deux jours — le couple *khafḍ*/*rafʿ*,
+elle propose que les pièces accumulées depuis deux jours — le couple *<dfn data-terme="khafd" data-translit="khafḍ" data-tradition="universel">khafḍ</dfn>*/*rafʿ*,
 les gens d'al-Aʿrāf, la double nature de Qâf — soient **les faces d'une seule
 doctrine**.
 
@@ -82,12 +82,12 @@ doctrine**.
 
 ### 1. ⚠️ « Chute » — le mot le plus dangereux du dossier (Cmd 2)
 
-Le français « chute » recouvre ici **au moins trois choses distinctes**, et les
+Le français « <span data-nom="chute" data-genre="cycle">chute</span> » recouvre ici **au moins trois choses distinctes**, et les
 confondre ruinerait la thèse plutôt que de la servir :
 
 | Terme | Nature | Registre |
 |---|---|---|
-| *hubūṭ* (VII, 13 et 24) | la **descente** d'Adam et d'Iblīs hors du Jardin | événement scripturaire |
+| *<span data-nom="hubut" data-genre="cycle">hubūṭ</span>* (VII, 13 et 24) | la **descente** d'Adam et d'Iblīs hors du Jardin | événement scripturaire |
 | la « chute » guénonienne | la **descente cyclique** de l'humanité, éloignement progressif de l'état primordial | doctrine des cycles |
 | *isqāṭ* (ar-Râzî, ch. XVIII) | l'**abaissement-châtiment** en degrés | opération divine |
 
@@ -114,7 +114,7 @@ Elle ne dit rien du **sens de parcours**.
 
 La thèse de Sidy ajoute exactement cela : les deux aspects ne seraient pas deux
 descriptions d'une même montagne selon deux points de vue, mais **les deux bornes
-d'un trajet** — la muraille comme limite de l'état déchu, l'apex comme lieu de
+d'un trajet** — la <dfn data-terme="muraille" data-translit="muraille" data-tradition="universel">muraille</dfn> comme limite de l'état déchu, l'apex comme lieu de
 l'état primordial recouvré. **C'est un ajout net, et il est non tranché.** La
 fiche close ne peut pas le porter (Cmd 10 : on n'amende pas un verdict rendu) : il
 vit ici.
@@ -124,7 +124,7 @@ vit ici.
 Que l'apex de Qâf soit le lieu de l'état primordial suppose deux maillons :
 
 - apex ↔ Pôle : **tenu** (fiche close, sur texte guénonien) ;
-- Pôle ↔ état primordial : le *Tombeau d'Hermès* met le retour à l'état primordial
+- Pôle ↔ <span data-nom="etat-primordial" data-genre="cycle">état primordial</span> : le *Tombeau d'Hermès* met le retour à l'état primordial
   « en rapport » avec un symbolisme polaire — ce qui est un **rapport signalé par
   Guénon**, non une identité posée. `to-source` sur une formulation plus ferme.
 
@@ -227,7 +227,7 @@ qu'elle est vraie.
 1. **Guénon, *Aperçus sur l'Initiation*, ch. V-VIII** — déjà versé ; à relire pour
    le passage exact sur l'état primordial comme première étape.
 2. **Guénon, *Le Roi du Monde*** — le symbolisme de la montagne polaire et du
-   centre suprême ; possédé, signalé dès la fiche Qâf/Meru de juillet, jamais
+   centre suprême ; possédé, signalé dès la fiche Qâf/<span data-nom="meru" data-genre="lieu">Meru</span> de juillet, jamais
    transcrit.
 3. **Guénon, *L'Ésotérisme de Dante* / *Le Symbolisme de la Croix*** — le Paradis
    terrestre au sommet de la montagne, et son enceinte. `to-source` : le dépôt ne
@@ -235,4 +235,4 @@ qu'elle est vraie.
 
 ---
 
-*Fiche ouverte le 2026-08-30. Aucun verdict rendu. État d'ensemble : **kari-kumi**.*
+*Fiche ouverte le 2026-08-30. Aucun verdict rendu. État d'ensemble : **<dfn data-terme="kari-kumi" data-translit="kari-kumi" data-tradition="universel">kari-kumi</dfn>**.*

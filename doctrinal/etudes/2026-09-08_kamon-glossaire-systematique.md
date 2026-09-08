@@ -58,7 +58,7 @@ donnée comme **piste de recherche**, jamais comme état civil.
 
 ## I. Ce qu'est un kamon, et ce qu'il n'est pas
 
-Le **mon** (紋) — dit *monshō* (紋章), et **kamon** (家紋) quand il désigne
+Le **mon** (紋) — dit *monshō* (紋章), et **<dfn data-terme="kamon" data-translit="kamon" data-tradition="shintoisme">kamon</dfn>** (家紋) quand il désigne
 l'emblème d'une maison — est une figure emblématique japonaise, close, portée par
 une famille, une institution, un sanctuaire ou un commerce, et reproduite sur le
 vêtement, l'arme, le mobilier, la tuile faîtière et la pierre tombale.
@@ -198,7 +198,7 @@ Le mon est presque toujours symétrique, selon l'un des trois régimes :
   *taka-no-ha*.
 - **Symétrie de rotation d'ordre n** — la figure se superpose à elle-même par
   rotation de 360°/n. Ordre 3 dominant (*mitsu-*, très majoritaire), puis 4, 2, 5, 6.
-- **Symétrie brisée intentionnellement** — rare et signifiante : le *tomoe* est
+- **Symétrie brisée intentionnellement** — rare et signifiante : le *<dfn data-terme="tomoe" data-translit="tomoe" data-tradition="shintoisme">tomoe</dfn>* est
   d'ordre 3 **sans** miroir, ce qui lui donne un **sens de rotation** (droite ou
   gauche) et fait de cette asymétrie sa caractéristique la plus notable
   ([[doctrinal/symboles/tomoe]]).
@@ -407,7 +407,7 @@ distincts**. Les chiffres bien plus élevés qu'on rencontre couramment (« plus
 locales, non les figures distinctes. `to-source`.
 
 **Les cinq grands mon (*godaimon*, 五大紋)** — les cinq motifs les plus largement
-portés dans tout le Japon : **fuji** (glycine), **kiri** (paulownia), **taka-no-ha**
+portés dans tout le <span data-nom="japon" data-genre="lieu">Japon</span> : **fuji** (glycine), **kiri** (paulownia), **taka-no-ha**
 (plumes de faucon), **mokkō**, **katabami** (oxalis).
 
 **Les dix grands mon (*jūdaimon*, 十大紋)** ajoutent aux cinq précédents :
@@ -520,7 +520,7 @@ motifs distincts.
   三つ柏) ; nombreuses variantes en deux ou une feuille. — *sens* : sacerdotal.
   La feuille de *kashiwa* sert de plat aux offrandes ; l'arbre ne perd ses vieilles
   feuilles qu'une fois les nouvelles sorties, d'où la lecture de continuité de la
-  lignée. C'est le mon des familles de prêtres shintō par excellence. —
+  lignée. C'est le mon des familles de prêtres <dfn data-terme="shinto" data-translit="shintō" data-tradition="shintoisme">shintō</dfn> par excellence. —
   *maisons* : Yamanouchi (*mitsu-gashiwa*), Makino, et une grande part des
   lignées sacerdotales de sanctuaire.
 

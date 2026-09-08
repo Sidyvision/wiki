@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [ia, ontologie, epistemologie, kari-kumi, methodologie, gpt-4, correspondances]
 created: 2026-08-09
-updated: 2026-08-10
+updated: 2026-09-08
 sources: ["[[doctrinal/sources/alshammari-llm-ontologie-hadith-2026]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion]]"]
@@ -45,7 +45,7 @@ le chiffre seul ne suffit jamais à qualifier la nature d'un rapprochement.
 
 ## 3. Diagnostic structurel — pourquoi ce cas concerne le dépôt
 
-Ce que l'article documente sans le nommer ainsi est une **dérive de kari-kumi** : une
+Ce que l'article documente sans le nommer ainsi est une **dérive de <dfn data-terme="kari-kumi" data-translit="kari-kumi" data-tradition="islam">kari-kumi</dfn>** : une
 correspondance techniquement plausible (score de similarité, raisonnement OWL cohérent,
 absence de contradiction logique détectée par HermiT/Pellet) est produite et intégrée à une
 structure de connaissance *avant* qu'une autorité qualifiée n'ait statué sur sa nature — et
