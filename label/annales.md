@@ -21,7 +21,6 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Vérification** — `verifier-invariants.py` : 1415 fichiers, 0 erreur, 0 avertissement.
 - **Commit** : 8d4159c
 
-
 ---
 
 ## [2026-08-08] arbitrage | album-personnel — tranché, intégration en `label/production/`
