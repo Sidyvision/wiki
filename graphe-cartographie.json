@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 153,
+  "avertissements": 152,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -24441,6 +24441,20 @@
       "source": "label/direction-artistique/amorcage/imaginaire-nen-ruche-echecs",
       "target": "label/direction-artistique/amorcage/generation-non-cumulative",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/direction-artistique/amorcage/kamon-personnel",
+      "target": "doctrinal/etudes/2026-09-08_kamon-glossaire-systematique",
+      "champ": "liens_doctrinal",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/direction-artistique/amorcage/kamon-personnel",
+      "target": "doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique",
+      "champ": "liens_doctrinal",
       "nature": "lien",
       "assise": "etabli"
     },

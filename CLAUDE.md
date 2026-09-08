@@ -10,7 +10,13 @@ la dispersion mentale.
 
 > **Historique des révisions** : conservé intégralement dans
 > `meta/protocole-archives/changelog-CLAUDE.md` (append-only, chronologique
-> inverse). Dernières révisions : **2026-09-02** (§II, ouverture de `textes/`, le
+> inverse). Dernières révisions : **2026-09-08** (§II, inscription de la convention
+> des dossiers `assets-<sujet>/` — pièces graphiques versionnables adjacentes aux
+> fiches, sans Sceau ni régime de liens, ligne de coupe **format** comme pour
+> `textes/` ; convention constatée sur `assets-instrument/`, non instituée ;
+> `label/CLAUDE.md`, ouverture du champ `liens_doctrinal` au Sceau label — le
+> renvoi `label/ → doctrinal/` était permis sans être déclarable ; verdicts Sidy),
+> **2026-09-02** (§II, ouverture de `textes/`, le
 > cabinet de lecture — les sources CONVERTIES sont versionnées, les binaires
 > restent hors git ; la ligne de coupe est le **format**, non le contenu ;
 > `textes/` n'est **pas un sixième circuit** ; chantier PRO-08, verdict Sidy),
@@ -105,6 +111,8 @@ wiki/  (= /root/wiki)
 │   ├── index.md · annales.md
 │   ├── doctrines/ · traditions/ · symboles/ · autorites/ · deviations/
 │   ├── etudes/ (YYYY-MM-DD_) · discernement/ (YYYY-MM-DD_) · sources/
+│   │       └── assets-<sujet>/  ← Schémas versionnables adjacents à leur fiche
+│   │                              (ex. etudes/assets-kamon/, ouvert 2026-09-08)
 ├── atelier/               ← Circuit NON-doctrinal : métier et références
 │   ├── CLAUDE.md          ← Protocole local
 │   ├── index.md · annales.md
@@ -121,6 +129,8 @@ wiki/  (= /root/wiki)
 │                             charte : rd/index.md ; finalité de souveraineté
 │                             (entretien, optimisation, émancipation des
 │                             intermédiaires de service tiers)
+│                             rd/instrument/assets-instrument/ ← schémas et
+│                             photographies versionnés (mesurés, non nominatifs)
 │                             ⚠ rd/instrument/ garde la doctrine, l'architecture,
 │                             la donnée et le producteur du manifeste ; le RENDU
 │                             vit au dépôt frère Sidyvision/instrument (privé,
@@ -163,6 +173,33 @@ wiki/  (= /root/wiki)
 ├── verifier-invariants.py ← Vérification structurelle obligatoire (§VII, clôture de session)
 └── graphe-cartographie.json ← Données du graphe (généré — ne jamais éditer à la main)
 ```
+
+### Les dossiers d'assets (`assets-<sujet>/`, inscrit 2026-09-08, verdict Sidy)
+
+Un dossier `assets-<sujet>/` peut être ouvert **à côté des fiches qu'il sert**, dans
+n'importe quel circuit, pour recevoir les pièces graphiques versionnables — schémas,
+planches, photographies mesurées. Ce n'est **pas** un nouveau circuit, ni un
+sous-circuit : c'est un dossier de service, sans Sceau, hors régime de liens (§VI),
+cible d'aucun wikilink et ignoré du graphe — même statut que `textes/`.
+
+**La ligne de coupe est la même qu'entre `raw/` et `textes/` : le format, non le
+contenu.** `raw/assets/` garde les **binaires lourds** et toute pièce nominative —
+c'est là que porte le motif de confidentialité du `.gitignore`, et il y porte
+pleinement. Un `assets-<sujet>/` ne reçoit que ce qui est **versionnable et
+mesuré** : SVG et schémas au premier chef, images de référence dépersonnalisées
+ensuite.
+
+**Trois règles.** (1) Le dossier porte le préfixe `assets-` et le nom de son sujet,
+et vit au plus près des fiches qui le citent. (2) Il se cite **en prose, par chemin
+relatif**, jamais en wikilink — il n'est la cible d'aucun lien. (3) Ce qui s'y trouve
+est **produit ou vérifié**, jamais approximé : une planche générée par script
+déterministe est préférable à un dessin à l'estime, et un schéma qui figurerait de
+façon approximative une forme reçue n'a pas sa place au dépôt — il se transmettrait
+comme s'il était juste.
+
+Instances ouvertes à ce jour : `atelier/rd/instrument/assets-instrument/` (2026-08,
+antérieur à l'inscription — la convention est ici **constatée**, non instituée) et
+`doctrinal/etudes/assets-kamon/` (2026-09-08).
 
 **Cinq circuits étanches** : `doctrinal/` (la doctrine), `atelier/` (le métier et les
 références), `label/` (la maison de création et le label), `hermeneutique/` (la

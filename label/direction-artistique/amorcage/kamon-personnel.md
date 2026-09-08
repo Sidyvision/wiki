@@ -15,6 +15,9 @@ updated: 2026-09-08
 sources: []
 liens: []
 liens_atelier: []
+liens_doctrinal:
+- '[[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]]'
+- '[[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]]'
 ---
 
 # Kamon personnel — établi de conception
@@ -28,7 +31,10 @@ n'appartient qu'à Sidy**.
 
 Le dossier documentaire vit hors de ce circuit, au doctrinal — renvoi en sens
 unique, signalé, et **marqué suggéré (🔍)** tant que le discernement afférent
-n'est pas tranché :
+n'est pas tranché. Ces deux renvois sont **déclarés au cartouche** dans
+`liens_doctrinal`, champ ouvert au Sceau label le 2026-09-08 sur verdict de Sidy
+(`label/CLAUDE.md`) : la règle les autorisait, aucun champ ne permettait de les
+inscrire, et la fiche remontait « isolée » au graphe pour cette seule raison.
 
 - 🔍 [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] — la grammaire du
   tracé (§ III), la morphologie des variantes (§ IV), le répertoire (§ V), les

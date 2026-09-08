@@ -3,7 +3,7 @@ title: "Changelog du protocole CLAUDE.md (racine)"
 type: meta
 tags: [protocole, historique, changelog]
 created: 2026-08-28
-updated: 2026-09-01
+updated: 2026-09-08
 ---
 
 # Changelog du protocole `CLAUDE.md` (racine)
@@ -16,6 +16,101 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-08] amendement | §II — Convention des dossiers `assets-<sujet>/` ; `label/CLAUDE.md` — ouverture du champ `liens_doctrinal`
+
+**Deux verdicts de Sidy**, 2026-09-08, en réponse à deux signalements portés à la
+clôture de la session d'ouverture du dossier kamon : « Ajoute un lien
+label/ → doctrinal/ » et « Oui, ajoute assets-instrument/ à Claude.md ».
+
+### A — §II, les dossiers d'assets
+
+**Ce qui a motivé l'amendement.** La session du 2026-09-08 a produit deux planches
+SVG (`doctrinal/etudes/assets-kamon/`) en reprenant une convention qui existait
+**en fait** depuis 2026-08 — `atelier/rd/instrument/assets-instrument/` — mais qui
+ne figurait **nulle part** au protocole. Le §II ne mentionnait aucun dossier
+d'assets, alors que le dépôt en versionnait déjà six fichiers. L'écart a été
+signalé plutôt que corrigé d'office (Cmd 12) ; le verdict le referme.
+
+**Ce que l'amendement inscrit.** Un `assets-<sujet>/` peut s'ouvrir à côté des
+fiches qu'il sert, dans n'importe quel circuit. **Ce n'est pas un circuit** : pas
+de Sceau, hors régime de liens (§VI), cible d'aucun wikilink, ignoré du graphe —
+**même statut que `textes/`**, et pour la même raison. La **ligne de coupe est
+identique à celle de `textes/` : le format, non le contenu.** `raw/assets/` garde
+les binaires lourds et toute pièce nominative, et le motif de confidentialité du
+`.gitignore` y porte pleinement ; `assets-<sujet>/` ne reçoit que le versionnable
+et le mesuré.
+
+Trois règles portées : préfixe `assets-` + nom du sujet, au plus près des fiches ;
+citation **en prose par chemin relatif**, jamais en wikilink ; contenu **produit ou
+vérifié, jamais approximé**. La troisième vient d'une décision de la session qui a
+motivé l'amendement : les motifs organiques du répertoire kamon (*kiri*, *aoi*,
+*fuji*, *kiku*) ont été **délibérément non figurés**, un dessin approximatif dans
+un dépôt de transmission se transmettant comme s'il était juste.
+
+**La convention est constatée, non instituée** : `assets-instrument/` la précède
+de plusieurs semaines. Le protocole enregistre un usage, il n'en crée pas un.
+
+### B — `label/CLAUDE.md`, le champ `liens_doctrinal`
+
+**Ce qui a motivé l'amendement.** `label/CLAUDE.md` autorise depuis toujours le
+renvoi `label/ → doctrinal/` (sens unique, signalé, 🔍 tant que non tranché), mais
+**aucun champ du Sceau label ne permettait de le déclarer** : `liens:` est réservé
+aux liens internes au circuit, `liens_atelier:` aux renvois vers
+`atelier/materiel/`. Conséquence mécanique constatée le 2026-09-08 : une fiche
+label dont les seuls renvois sortants sont doctrinaux remonte « isolée » au graphe.
+La règle permettait le lien, la forme interdisait de l'inscrire.
+
+**Ce que l'amendement ouvre.** Le champ `liens_doctrinal: []` au Sceau label, sur
+le modèle exact de `liens_atelier`. Il **ne relâche aucune étanchéité** : il rend
+déclarable ce qui était déjà permis, sous les mêmes contraintes (sens unique,
+signalé, 🔍), et ne doit jamais porter de cible `atelier/`, `hermeneutique/` ou
+`meta/`.
+
+**Deux contrôles ont été étendus en conséquence, et le second est le point qui
+compte.**
+
+1. `atelier/rd/outillage/graphe/generer-cartographie.py` — `liens_doctrinal` ajouté
+   à `_CHAMPS_LIENS_TOUS`. **Sans cette ligne, le champ aurait été écrit et jamais
+   lu** : la fiche serait restée isolée et le dépôt aurait cru le problème résolu.
+   C'est la forme exacte de PRO-01 et INF-14 — le contrôle muet.
+2. `verifier-invariants.py` — `liens_doctrinal` ajouté à `CHAMPS_LIENS_CARTOUCHE`,
+   **en même temps que son ouverture**, pour qu'un champ de liens nouveau ne
+   naisse pas hors de la couverture C1/C2. Ajout **sans effet rétroactif** :
+   aucune fiche du dépôt ne portait ce champ auparavant.
+
+**Manque hérité, signalé et NON corrigé** (il demande son propre verdict) : `liens:`
+et `liens_atelier:` du Sceau label restent hors de `CHAMPS_LIENS_CARTOUCHE` — une
+cible morte y passe en silence. Le commentaire du code le porte désormais en clair.
+Le même besoin existe pour `atelier/rd/` et `atelier/projets/`, qui peuvent aussi
+pointer vers `doctrinal/` : **hors périmètre du présent verdict**, non traité.
+
+### Épreuve des contrôles (§VII) — les deux refus ont été observés
+
+Les deux scripts ayant été modifiés, l'épreuve était due. Conduite en **copie
+jetable**, jamais dans le dépôt vivant :
+
+- **Vert sur l'état sain** : `verifier-invariants.py` — 1415 fichiers, 0 erreur,
+  0 avertissement ; graphe — 1932 arêtes (**+2**, exactement les deux liens
+  déclarés), isolées **43 → 42**, la fiche label ayant quitté la liste.
+- **Refus sur la faute fabriquée** (cible morte dans `liens_doctrinal`) : le
+  vérificateur lève `[C1] … lien non résolu au cartouche (\`liens_doctrinal:\`)`,
+  et le graphe lève `'liens_doctrinal' → [[…]] (absent du dépôt)`. **Chacun nomme
+  le champ**, ce qui atteste qu'il le lit réellement.
+- **Contre-épreuve du muet** : l'ancienne liste de champs remise dans la copie
+  jetable, le graphe retombe à 1930 arêtes et 43 isolées, la fiche redevenant
+  isolée alors que son cartouche déclare les deux liens. La nécessité de la
+  modification n° 1 est ainsi **démontrée, non affirmée**.
+
+### Réversibilité (Cmd 10)
+
+Les deux volets sont additifs — **rien n'est supprimé**, ce pourquoi aucune archive
+complète du protocole n'est déposée (mêmes précédents que les amendements des
+2026-09-01 et 2026-09-02). Retrait sur simple verdict : ôter la section du §II ;
+ôter `liens_doctrinal` du Sceau label, des deux scripts, et du cartouche de
+`label/direction-artistique/amorcage/kamon-personnel.md` — la fiche redeviendrait
+« isolée », état antérieur exact.
+
 
 ## [2026-09-02] amendement | §II — Ouverture de `textes/`, le cabinet de lecture
 

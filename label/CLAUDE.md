@@ -46,6 +46,7 @@ updated: YYYY-MM-DD
 sources: []
 liens: []                  # liens internes au circuit label
 liens_atelier: []          # renvois sens unique vers atelier/materiel/ uniquement
+liens_doctrinal: []        # renvois sens unique vers doctrinal/ (ouvert 2026-09-08)
 ---
 ```
 
@@ -55,6 +56,16 @@ liens_atelier: []          # renvois sens unique vers atelier/materiel/ uniqueme
 - **`musique/ingenierie/`** : champs additionnels recommandés `bpm`, `tonalite`,
   `signature`, `daw` (données objectives ; les captures d'écran du DAW sont une
   source valide pour les renseigner).
+- **`liens_doctrinal`** (ouvert le 2026-09-08, verdict Sidy) : porte au cartouche
+  le renvoi `label/ → doctrinal/` que la règle ci-dessous autorisait déjà mais
+  qu'aucun champ ne permettait de **déclarer**. Motif : une fiche label dont les
+  seuls renvois sortants sont doctrinaux remontait « isolée » au graphe, faute
+  d'un champ où l'inscrire — `liens:` est réservé aux liens internes au circuit,
+  et l'y détourner aurait violé sa sémantique déclarée. Mêmes contraintes que le
+  lien lui-même : **sens unique**, **signalé**, **marqué suggéré (🔍)** tant qu'un
+  discernement afférent n'est pas tranché. Ne jamais y porter une cible
+  `atelier/`, `hermeneutique/` ou `meta/` — le champ ne relâche aucune
+  étanchéité, il ne fait que rendre déclarable ce qui était déjà permis.
 - **Règles de liens** : `label/ → atelier/materiel/` autorisé (sens unique, via
   `liens_atelier`) ; `label/ → doctrinal/` pour une œuvre s'inspirant d'un
   principe **ou pour un acte de structure réglant sa conduite sur un principe**

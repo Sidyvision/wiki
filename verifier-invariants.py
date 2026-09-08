@@ -522,7 +522,16 @@ def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
 
 
 # Champs du cartouche dont les valeurs peuvent porter des wikilinks.
-CHAMPS_LIENS_CARTOUCHE = ("sources", "cross_links", "links")
+#
+# `liens_doctrinal` y est ajouté le 2026-09-08 en même temps que son ouverture au
+# Sceau label : un champ de liens nouveau ne doit pas naître hors de la couverture
+# C1/C2 (PRO-01, INF-14 — la porte sans garde). L'ajout est **sans effet
+# rétroactif** : aucune fiche du dépôt ne portait ce champ avant ce jour.
+#
+# Restent volontairement hors couverture, et c'est un manque HÉRITÉ, signalé et
+# non corrigé d'office (il demanderait son propre verdict) : `liens:` et
+# `liens_atelier:` du Sceau label, dont une cible morte passe en silence.
+CHAMPS_LIENS_CARTOUCHE = ("sources", "cross_links", "links", "liens_doctrinal")
 
 
 def controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap):

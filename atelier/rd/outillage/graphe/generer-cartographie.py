@@ -110,7 +110,11 @@ RANG_ETANCHEITE = {
 # faisait passer ces liens valides pour inexistants → faux nœuds isolés.
 # Un champ absent d'un fichier est silencieusement ignoré (get(champ) or []).
 # Le contrôle d'étanchéité §VI (construire_aretes) s'applique à TOUT champ lu.
-_CHAMPS_LIENS_TOUS = ["sources", "liens", "liens_atelier", "links", "cross_links"]
+# `liens_doctrinal` ouvert au Sceau label le 2026-09-08 (verdict Sidy) : sans
+# cette entrée, le champ serait ecrit et JAMAIS lu — le lien resterait invisible
+# au graphe et la fiche continuerait de remonter « isolée ».
+_CHAMPS_LIENS_TOUS = ["sources", "liens", "liens_atelier", "liens_doctrinal",
+                      "links", "cross_links"]
 CHAMPS_LIENS = {
     "doctrinal": _CHAMPS_LIENS_TOUS,
     "atelier": _CHAMPS_LIENS_TOUS,
