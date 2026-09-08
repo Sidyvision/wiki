@@ -1,7 +1,7 @@
 ---
 title: Annales du Circuit Label
 type: meta
-updated: 2026-08-08
+updated: 2026-09-08
 ---
 
 # Annales du Circuit Label
@@ -9,6 +9,18 @@ updated: 2026-08-08
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-08] ouverture | Établi de conception du kamon personnel (`amorcage/`)
+
+- **Action** — création de [[label/direction-artistique/amorcage/kamon-personnel]], `statut: en-gestation`. La fiche ne dessine rien et ne tranche rien : elle rassemble ce qui contraint la conception, expose une méthode en six étapes, pose quatre épreuves de validation éliminatoires (échelle 5 mm, négatif, tangence des arcs, soustraction), et **nomme six questions dont la réponse n'appartient qu'à Sidy** (Cmd 13).
+- **La contrainte principale, posée avant toute idée** — et elle est contre-intuitive : **un mon ne se compose pas à partir d'un sens qu'on veut dire.** Les quatre voies historiquement attestées procèdent toutes d'un **fait** : le nom (rébus), la brisure d'un mon reçu, le lieu ou le culte, la charge ou le métier. Composer en cherchant le motif qui « signifie » ce qu'on veut exprimer est la seule voie que la tradition du mon n'emprunte pas — et c'est précisément la pente que le discernement doctrinal identifie comme la **parenté hétérodoxe** du dossier (le dictionnaire universel des symboles). Cette contrainte **vaut dès maintenant, sans attendre le verdict**.
+- **Étanchéité (§VI)** — deux renvois `label/` → `doctrinal/`, en **sens unique**, **signalés**, et **marqués suggérés (🔍)** tant que le discernement afférent n'est pas tranché, conformément à `label/CLAUDE.md`. Aucun renvoi vers `meta/` ni vers `atelier/`. Les chemins d'assets (`doctrinal/etudes/assets-kamon/`) sont cités **en prose, jamais en wikilink**.
+- **Ce que la machine s'est explicitement interdit**, et qui est porté dans la fiche : dessiner le mon à la place de Sidy ; proposer un motif « qui lui correspondrait » (ce serait franchir la contrainte principale et substituer son jugement au sien sur ce qui le définit) ; trancher un sens (Cmd 12).
+- **Dossier documentaire** — hors circuit, au doctrinal, entrée propre à `doctrinal/annales.md` du même jour. Il est **intégralement `to-source`** : le dépôt ne possède aucun ouvrage japonais ni héraldique. La conception reste néanmoins possible, **la grammaire du tracé étant vérifiable par le tracé lui-même** ; c'est le sens et les attributions qui attendent.
+- **Graphe** — la fiche remonte « isolée », par **limite du Sceau label** (aucun champ de cartouche ne prévoit le renvoi vers `doctrinal/`) et non par défaut de la fiche. Signalé, non corrigé d'office ; verdict à Sidy — détail dans l'entrée doctrinale du jour.
+- **Vérification** — `verifier-invariants.py` : 1415 fichiers, 0 erreur, 0 avertissement.
+- **Commit** : 8d4159c
+
 
 ---
 
