@@ -9,7 +9,16 @@ updated: 2026-09-08
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-08] amendement | Sceau label — ouverture du champ `liens_doctrinal` (verdict Sidy)
 
+- **Verdict de Sidy**, 2026-09-08 : « Ajoute un lien label/ → doctrinal/ », en réponse au signalement porté la veille dans l'entrée d'ouverture de l'établi kamon — la fiche remontait « isolée » au graphe faute d'un champ où inscrire ses renvois doctrinaux.
+- **Le défaut, tel qu'il était** — `label/CLAUDE.md` autorise **depuis toujours** le renvoi `label/ → doctrinal/` (sens unique, signalé, 🔍 tant qu'un discernement afférent n'est pas tranché). Mais le Sceau n'offrait que `liens:` (**internes au circuit**) et `liens_atelier:` (vers `atelier/materiel/`). **La règle permettait le lien, la forme interdisait de l'inscrire** — et détourner `liens:` aurait violé la sémantique que le Sceau lui déclare.
+- **Action** — ouverture de `liens_doctrinal: []` au Sceau label, sur le modèle exact de `liens_atelier`, avec sa règle propre portée dans `label/CLAUDE.md`. Le champ **ne relâche aucune étanchéité** : il rend déclarable ce qui était déjà permis, sous les mêmes contraintes, et ne doit jamais porter de cible `atelier/`, `hermeneutique/` ou `meta/`. Première fiche à le porter : [[label/direction-artistique/amorcage/kamon-personnel]], deux renvois déclarés.
+- **La porte ouverte a été gardée dans le même geste** — `liens_doctrinal` a été ajouté à `CHAMPS_LIENS_CARTOUCHE` de `verifier-invariants.py` **en même temps que son ouverture**, pour qu'un champ de liens nouveau ne naisse pas hors de la couverture C1/C2. Ajout **sans effet rétroactif** : aucune fiche du dépôt ne le portait auparavant. Volet graphe : `atelier/annales.md` du même jour.
+- **Épreuve des contrôles (§VII)** — vert sur l'état sain (1415 fichiers, 0 erreur, 0 avertissement) ; **refus observé** sur cible morte fabriquée en copie jetable : `[C1] label/direction-artistique/amorcage/kamon-personnel.md — lien non résolu au cartouche (liens_doctrinal:)`. Le contrôle **nomme le champ**.
+- **Manque hérité, signalé et NON corrigé d'office** — `liens:` et `liens_atelier:` du Sceau label restent **hors** de `CHAMPS_LIENS_CARTOUCHE` : une cible morte y passe en silence aujourd'hui encore. Ce n'est pas un défaut introduit ici, et l'étendre serait un **changement de règle**, non une extension de couverture : il demande son propre verdict (même raisonnement que la note du 2026-09-04 sur C3/C4). Le commentaire du code le porte désormais en clair, pour qu'il ne se redécouvre pas par accident.
+- **Réversibilité (Cmd 10)** — retrait sur simple verdict : ôter le champ du Sceau, des deux scripts et du cartouche de la fiche ; celle-ci redeviendrait « isolée », état antérieur exact.
+- **Commit** : f59a99f
 ## [2026-09-08] ouverture | Établi de conception du kamon personnel (`amorcage/`)
 
 - **Action** — création de [[label/direction-artistique/amorcage/kamon-personnel]], `statut: en-gestation`. La fiche ne dessine rien et ne tranche rien : elle rassemble ce qui contraint la conception, expose une méthode en six étapes, pose quatre épreuves de validation éliminatoires (échelle 5 mm, négatif, tangence des arcs, soustraction), et **nomme six questions dont la réponse n'appartient qu'à Sidy** (Cmd 13).

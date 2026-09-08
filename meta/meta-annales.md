@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-09-02
+updated: 2026-09-08
 
 ---
 
@@ -13,7 +13,17 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-08] amendement | Protocole racine §II — convention des dossiers `assets-<sujet>/` (verdict Sidy)
 
+- **Verdict de Sidy**, 2026-09-08 : « Oui, ajoute assets-instrument/ à Claude.md », en réponse au signalement porté à la clôture de la session kamon — le §II ne mentionnait **aucun** dossier d'assets alors que le dépôt en versionnait déjà six fichiers sous `atelier/rd/instrument/assets-instrument/` depuis 2026-08.
+- **Action** — amendement du §II de `CLAUDE.md` (arbre annoté aux deux emplacements + section de convention), mise à jour de l'en-tête de révision, et consignation intégrale dans `meta/protocole-archives/changelog-CLAUDE.md`, entrée `[2026-09-08] amendement`.
+- **Ce que la convention inscrit** — un `assets-<sujet>/` peut s'ouvrir à côté des fiches qu'il sert, dans n'importe quel circuit. **Ce n'est pas un circuit** : pas de Sceau, hors régime de liens (§VI), cible d'aucun wikilink, ignoré du graphe — **statut calqué sur celui de `textes/`**, et la **ligne de coupe est la même : le format, non le contenu**. `raw/assets/` garde les binaires lourds et toute pièce nominative, où le motif de confidentialité du `.gitignore` porte pleinement ; `assets-<sujet>/` ne reçoit que le versionnable et le mesuré.
+- **Trois règles portées** : préfixe `assets-` + nom du sujet, au plus près des fiches ; citation **en prose par chemin relatif, jamais en wikilink** ; contenu **produit ou vérifié, jamais approximé**. La troisième n'est pas décorative : elle vient de la décision prise à la session du 2026-09-08 de **ne pas figurer** les motifs organiques du répertoire kamon (*kiri*, *aoi*, *fuji*, *kiku*), un dessin approximatif dans un dépôt de transmission se transmettant comme s'il était juste.
+- **La convention est constatée, non instituée** — `assets-instrument/` la précède de plusieurs semaines. Le protocole **enregistre un usage**, il n'en crée pas un ; c'est ce qui rend l'amendement peu risqué.
+- **Réversibilité (Cmd 10)** — volet strictement **additif**, rien n'est supprimé. Aucune archive complète du protocole n'est déposée, conformément aux précédents des amendements des 2026-09-01 et 2026-09-02 (seuls les remaniements structurels en ont reçu une). Retrait sur simple verdict : ôter la section du §II et les deux annotations de l'arbre.
+- **Vigilance documentaire** — l'en-tête `rév. 2026-08-28` du titre H1 de `CLAUDE.md` n'a **pas** été touché : les deux amendements précédents ne l'avaient pas bougé non plus, ce champ ne suivant manifestement pas les amendements ponctuels. Signalé plutôt que corrigé unilatéralement.
+- **Vérification** — `verifier-invariants.py` : 1415 fichiers, 0 erreur, 0 avertissement. Cmd 15 : 6 fichiers touchés, 0 caractère invisible.
+- **Commit** : f59a99f
 ## [2026-09-02] queue-idees | Trois tâches hors de portée consignées
 
 Sur demande de Sidy, à la clôture de la session de traitement des rapports

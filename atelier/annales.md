@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-07
+updated: 2026-09-08
 ---
 
 # Annales de l'Atelier
@@ -9,7 +9,18 @@ updated: 2026-09-07
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-08] rd | Outillage — `generer-cartographie.py` lit `liens_doctrinal` ; le contrôle muet démontré
 
+- **Origine** — verdict de Sidy le 2026-09-08 (« Ajoute un lien label/ → doctrinal/ ») ouvrant le champ `liens_doctrinal` au Sceau label. Le champ n'a d'effet que si l'outillage le lit : c'est le volet atelier de l'amendement.
+- **Action** — `atelier/rd/outillage/graphe/generer-cartographie.py` : `"liens_doctrinal"` ajouté à `_CHAMPS_LIENS_TOUS`, avec le commentaire qui dit **pourquoi** la ligne existe. Le fichier racine `verifier-invariants.py` a reçu l'extension symétrique (`CHAMPS_LIENS_CARTOUCHE`) — détail dans `label/annales.md` et au changelog du protocole.
+- **Le point qui compte** — **sans cette ligne, le champ aurait été écrit et jamais lu.** Le cartouche aurait déclaré deux liens, la fiche serait restée « isolée », et le dépôt aurait tenu le problème pour résolu. C'est la **forme exacte de PRO-01 et INF-14** : le contrôle n'est pas faux, il est **muet**.
+- **Épreuve des contrôles (§VII) — conduite en copie jetable, jamais dans le dépôt vivant.**
+  - *Vert sur l'état sain* : 1932 arêtes (**+2**, exactement les deux liens déclarés), isolées **43 → 42**, `kamon-personnel.md` ayant quitté la liste des fiches sans lien.
+  - *Refus sur la faute fabriquée* (cible morte dans le champ) : `'liens_doctrinal' → [[doctrinal/etudes/cible-qui-nexiste-pas]] (absent du dépôt)`. Le graphe **nomme le champ**, ce qui atteste qu'il le lit réellement et ne se contente pas de passer.
+  - *Contre-épreuve du muet* : l'ancienne liste de champs remise dans la copie jetable, le graphe **retombe à 1930 arêtes et 43 isolées** alors que le cartouche de la fiche déclare bien ses deux liens. **La nécessité de la modification est démontrée, non affirmée** — c'est précisément ce que l'Épreuve des contrôles exige et que PRO-01 avait manqué.
+- **Signalement, non corrigé** — le même besoin existe pour `atelier/rd/` et `atelier/projets/`, qui peuvent eux aussi pointer vers `doctrinal/` en sens unique sans disposer d'un champ de cartouche pour le déclarer. **Hors périmètre du verdict du jour** (qui portait sur `label/`) : non traité, verdict à Sidy.
+- **Vérification** — `verifier-invariants.py` : 1415 fichiers, 0 erreur, 0 avertissement. Syntaxe des deux scripts revalidée après modification.
+- **Commit** : f59a99f
 ## [2026-09-07] rd | OUT-08 — critère 1 tranché par Sidy : non franchi, et ce que ce refus établit
 
 - **Verdict** — lecture faite par Sidy sur les deux échantillons : « il y a des fautes sur les deux échantillons. En gros, si la transcription est faite dans l'état il faudrait systématiquement que je réalise une vérification sur pdf ». **Le critère 1 de `spec.md` n'est pas franchi.** Aucune chaîne essayée ne rend le texte lisible mot à mot ; le texte ne fonde aucune citation (Cmd 5).
