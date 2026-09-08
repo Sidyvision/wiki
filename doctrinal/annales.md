@@ -9,6 +9,18 @@ updated: 2026-09-08
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-08] archivage | Validation des 5 fiches pilotes annotées (phases 1-2 du chantier d'indexation)
+
+- **Verdict de Sidy** : « Valide les 5 fiches pilotes des phases 1-2 ». Ces fiches attendaient ce verdict depuis leur production, le plan approuvé les ayant expressément gelées (« Phases 1 et 2 présentées pour verdict avant d'enchaîner »).
+- **Les cinq fiches** : `purusha`, `atma`, `manvantara`, `adityas-mois-du-soleil`, `cinq-noms-ame` — toutes en `doctrinal/symboles/`. **21 annotations** au total.
+- **Ce que l'annotation fait, et ce qu'elle ne fait pas.** Régime **appariée** (verdict de Sidy en ouverture du chantier) : l'HTML ne fait que **typer pour la machine** ce que le graphe voit déjà. Deux éléments seulement — `<dfn data-terme data-translit data-tradition>` sur les termes doctrinaux (*Âtmâ*, *Jîvâtma*, *Purusha*, *Manvantara*, les cinq noms de l'âme hébraïques), `<span data-nom data-genre>` sur les noms, autorités, écoles, cycles et principes (*Mārtāṇḍa*, *Aditi*, *Tilak*, *Guénon*, *Vêdânta*, *Sāṃkhya*, *Yuga*, *Prakriti*). **Aucun texte n'est modifié** : les balises enveloppent, elles ne réécrivent rien — le diff est de 19 lignes pour 19, chacune inchangée hors balisage. **Aucun lien n'est créé.**
+- **Ce que l'annotation n'apporte pas, et qui a été mesuré** : **zéro terme nouveau** à l'index. Le jeu de termes avant et après annotation est identique. L'annotation contribue le **typage**, jamais la couverture — ce sont les 5 208 translittérations récoltées en phase 1 qui ont fermé l'angle mort. Le fait est consigné ici pour qu'on ne prête pas à l'axe A un mérite qui n'est pas le sien.
+- **Contrôles** — `valider-annotations.py` : « 5 fiches annotées, 21 annotations. OK — aucune anomalie », exit 0. `verifier-invariants.py --racine /root/wiki` : **1417 fichiers contrôlés, 0 erreur(s), 0 avertissement(s)**.
+- **Graphe régénéré et consulté** (§VII, obligation pour toute session touchant `doctrinal/`) : 570 nœuds, 1937 arêtes (1670 établies, 267 suggérées), 60 lacunes `to-source`, 154 avertissements non bloquants. **Aucun avertissement ne touche les cinq fiches** ; les deux occurrences voisines relevées portent sur `atma-gita-guenon.md` (liens `sources:` vers `raw/`, hors dépôt) — anomalie **héritée**, antérieure à cette passe, rapportée et non corrigée d'office (Cmd 12).
+- **`updated:` remonté** sur les cinq (Cmd 8).
+- **Reste ouvert** : 66 des 103 fiches de `doctrinal/symboles/` ne portent aucun candidat annotable ; les règles de placement (jamais dans un wikilink, un titre, du code ou une citation ; une occurrence par terme et par fiche ; cellules de table admises) sont **appliquées mais non ratifiées** — elles demandent leur propre verdict.
+- **Commit** : 013676c
+
 ## [2026-09-08] archivage | Ouverture du dossier kamon — glossaire systématique, fiche *tomoe*, discernement
 
 - **Origine** — demande de Sidy le 2026-09-08 : un glossaire exhaustif des kamon japonais (image, sens, règles de tracé, familles, maisons), à double fin — concevoir son propre kamon, et affiner sa lecture des symboles, « le symbolisme [étant] une science universelle [qui] se préserve et se perpétue mieux en certaines régions du monde que d'autres ».
