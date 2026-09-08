@@ -431,11 +431,22 @@ lui-même et au niveau des **termes retenus** : 9687 → 9841 (**+154**), arabe 
 hébreu 97 → 183, devanagari 0 → 5, grec / han / kana inchangés — conformes à la
 prédiction, ces écritures n'employant pas de marques combinantes.
 
-**Ce qui reste ouvert et n'est pas réputé fait** : les clés en écriture originale que
-l'index porte sont des **orphelines** — aucun champ ne les relie à leur forme latinisée,
-de sorte que le point 6 ci-dessus n'est pas encore tenu par l'outillage. De même, le
-`title:` du Sceau n'est pas récolté, alors que le point 3 en fait le site canonique.
-Les deux écarts sont rapportés, non corrigés d'office (Cmd 12).
+**Ce que l'outillage tient désormais** (correctif B, même jour, verdict Sidy). Le
+`title:` du Sceau, les H1 et les H2 sont récoltés — le point 3 est tenu au site qu'il
+déclare canonique : `tomoe` et `巴` sont entrés à l'index, qui les ignorait tous deux
+malgré une fiche entière qui leur est consacrée. Un champ `apparie` porte la
+réciprocité du point 6, **dans les deux sens**, et n'est renseigné que sur une paire que
+le texte du dépôt **énonce lui-même** — `Tomoe (巴)`, `**Buddhi** (Sanskrit : बुद्धि)` :
+60 paires attestées. Là où le dépôt se tait, le champ reste vide et la clé est déclarée
+orpheline plutôt que complétée — aucune translittération n'est devinée par le modèle,
+application au lexique de la règle « établi vs suggéré » (§VII, manifestes, règle 3).
+
+**Ce qui reste ouvert et n'est pas réputé fait** : le marqueur `to-original` du point 4
+**naît sans garde mécanique** — ni `verifier-invariants.py` ni `valider-annotations.py`
+ne le connaissent, de sorte qu'une fiche qui l'omet, ou qui le porte à tort, passe en
+silence. C'est exactement le manque que l'ouverture de `liens_doctrinal`, la veille,
+avait su éviter en câblant le champ *avec* sa couverture. L'écart est rapporté, non
+corrigé d'office (Cmd 12) : le câblage demande son propre verdict.
 
 ### Double contrôle systématique (transversal — ajouté 2026-07-16)
 

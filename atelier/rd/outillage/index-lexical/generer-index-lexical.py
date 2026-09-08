@@ -37,6 +37,25 @@ CE QUI EST RÉCOLTÉ COMME TERME
                 de carte-du-depot.py, RE_SOUS_SECTION)
   annotation  — <dfn data-terme>, <span data-nom>, <abbr title> (phase 2 ;
                 aucune n'existe encore, le lecteur est en place avant elles)
+  titre       — tête du `title:` du Sceau, des H1 et des H2 (correctif B,
+                2026-09-08). CLAUDE.md §VII, discipline des langues
+                originales, point 3 : le `title:` et le H1 sont le SITE
+                CANONIQUE de la forme originale. Trois portes d'admission,
+                toutes déterministes — écriture originale, translittération,
+                composant du slug de la fiche (cette dernière réservée au
+                `title:`/H1). Aucune heuristique de capitale : elle ferait
+                entrer « Proposition », « Rapport », « Désactivation ».
+
+--------------------------------------------------------------------------------
+APPARIEMENT LATIN <-> ÉCRITURE ORIGINALE (champ `apparie`)
+--------------------------------------------------------------------------------
+CLAUDE.md §VII, point 6 — réciprocité : l'index doit atteindre le terme DANS
+LES DEUX SENS. Le champ `apparie` est renseigné SEULEMENT sur une paire que le
+texte du dépôt énonce lui-même — « Tomoe (巴) », « **Buddhi** (Sanskrit :
+बुद्धि) ». Aucun jugement de modèle n'y entre, aucune translittération n'y est
+devinée : là où le dépôt se tait, le champ reste vide, et la clé est déclarée
+orpheline plutôt que complétée. C'est la règle « établi vs suggéré » du §VII
+(manifestes, règle 3) appliquée au lexique.
 
 --------------------------------------------------------------------------------
 PLANCHER DE NON-VACUITÉ (refus D3)
@@ -131,6 +150,53 @@ RE_CODE = re.compile(r"```.*?```|`[^`\n]+`", re.DOTALL)
 RE_LIGNE_TABLE = re.compile(r"^\s*\|.+\|\s*$", re.MULTILINE)
 RE_SEPARATEUR = re.compile(r"^\s*\|[\s:|-]+\|\s*$")
 RE_PREFIXE_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}[_-]")
+
+# --- Correctif B (2026-09-08, CLAUDE.md §VII, discipline des langues
+# originales, points 3 et 6) ------------------------------------------------
+# Le `title:` du Sceau et le H1 sont déclarés SITE CANONIQUE de la forme
+# originale. Ils n'étaient pas récoltés : `tomoe` et `巴` restaient absents de
+# l'index malgré une fiche entière qui leur est consacrée. Forme exacte de la
+# faute muette (PRO-01, INF-14) — l'index paraissait riche à 9841 termes.
+RE_H1 = re.compile(r"^#\s+(.+?)\s*$", re.MULTILINE)
+RE_H2 = re.compile(r"^##\s+(.+?)\s*$", re.MULTILINE)
+
+# Un titre du dépôt se lit « Terme — glose » ou « Terme : glose ». La glose est
+# de la prose : seule la TÊTE porte le sujet de la fiche. Mesuré sur les 716
+# titres : 434 portent `—`, 114 `:`, 3 `–`, 1 ` - ` ; le reste est une tête
+# nue (« René Guénon »).
+RE_TETE_TITRE = re.compile(r"\s+[—–:]\s+|\s+-\s+")
+
+# Écritures d'origine reconnues par plage : hébreu, arabe, devanagari, grec,
+# han, kana. Une lettre hors de l'alphabet latin — au sens de la catégorie
+# Unicode L* et du bloc — vaut forme originale.
+def est_ecriture_originale(token: str) -> bool:
+    """Le token est-il écrit dans une écriture non latine ?
+
+    Les LETTRES MODIFICATIVES (catégorie Lm) sont exclues : `ʿ` (ʿayn) et `ʾ`
+    (hamza) ne portent pas le nom LATIN, or ils appartiennent au dispositif de
+    TRANSLITTÉRATION latine, pas à l'écriture d'origine. Sans cette exclusion,
+    `Chaussure (naʿl)` et `Laṭāʾif (subtils)` étaient lus comme des paires
+    latin/original — mesuré, deux faux appariements sur 97.
+    """
+    for c in token:
+        if unicodedata.category(c) not in ("Lo", "Ll", "Lu", "Lt"):
+            continue
+        try:
+            if "LATIN" not in unicodedata.name(c):
+                return True
+        except ValueError:
+            continue
+    return False
+
+
+# Appariement attesté PAR LE TEXTE : « Tomoe (巴) », « Bindu (बिंदु) »,
+# « **Buddhi** (Sanskrit : बुद्धि) ». Aucun jugement de modèle n'entre ici —
+# le dépôt énonce lui-même la paire, ou elle n'existe pas (§VII, règle 3 des
+# manifestes : établi vs suggéré, jamais fondus).
+RE_APPARIEMENT = re.compile(
+    r"\*{0,2}([A-Za-z\u00C0-\u024F\u1E00-\u1EFF\u02BF\u02BE'\u2019-]{2,30})\*{0,2}"
+    r"\s*\(\s*(?:[^():]{0,30}:\s*)?([^()]{1,40}?)\s*\)"
+)
 
 # Bruit de balisage et mots-outils : jamais des termes d'index.
 ARRET = {
@@ -248,12 +314,20 @@ class Index:
                 "fiches": defaultdict(lambda: {"roles": set(), "n": 0}),
                 "textes": defaultdict(int),
                 "occurrences": 0,
+                # Réciprocité de l'index (§VII, point 6) : la clé latine porte
+                # sa forme originale et réciproquement. Renseigné SEULEMENT
+                # sur appariement attesté par le texte du dépôt.
+                "apparie": set(),
             }
         return self.termes[cle]
 
     def declarer(self, forme: str, role: str, chemin_rel: str):
         cle = normaliser(forme)
-        if len(cle) < MIN_LONGUEUR:
+        # Le plancher de longueur est une heuristique LATINE : « il », « du »
+        # n'apprennent rien. Il ne vaut pas pour une écriture originale, où le
+        # caractère est dense — 巴 (tomoe) et 神道 (shintō) sont des termes
+        # pleins que MIN_LONGUEUR faisait tomber en silence.
+        if len(cle) < MIN_LONGUEUR and not est_ecriture_originale(cle):
             return None
         # `tag` et `annotation` sont posés à la main par Sidy : ce vocabulaire
         # fait autorité et ne se filtre pas. Seul l'heuristique est filtré.
@@ -264,6 +338,50 @@ class Index:
         e["roles"].add(role)
         e["fiches"][chemin_rel]["roles"].add(role)
         return cle
+
+
+    def apparier(self, latin: str, original: str):
+        """Enregistre une paire ATTESTÉE PAR LE TEXTE, dans les deux sens."""
+        if not est_ecriture_originale(original) or est_ecriture_originale(latin):
+            return
+        a, b = normaliser(latin), normaliser(original)
+        if not a or not b or a == b:
+            return
+        if a not in self.termes or b not in self.termes:
+            return
+        self.termes[a]["apparie"].add(b)
+        self.termes[b]["apparie"].add(a)
+
+
+def recolter_titre(index: Index, source: str, rel: str, slug: str,
+                   role: str, avec_slug: bool):
+    """Récolte la TÊTE d'un titre (§VII, point 3 — site canonique).
+
+    Trois portes d'admission, toutes déterministes, aucune heuristique de
+    capitale — celle-ci ferait entrer « Désactivation », « Proposition »,
+    « Rapport » et noierait l'index sous le vocabulaire de gouvernance :
+      (a) écriture originale — toujours, quelle que soit la longueur ;
+      (b) translittération — le signal déjà établi du corpus ;
+      (c) composant du slug de la fiche — c'est très exactement ce que le
+          défaut faisait perdre (`bindu`, `furin`, `muqarnas`, `tomoe`,
+          `tughyan`, `voilette`, `morphopsychologie` : sept fiches invisibles
+          dans leur propre index). Réservé au `title:`/H1, jamais aux H2.
+    """
+    tete = RE_TETE_TITRE.split(source, maxsplit=1)[0]
+    morceaux = f"-{slug}-"
+    for token in RE_MOT.findall(tete):
+        if est_ecriture_originale(token) or est_translittere(token):
+            index.declarer(token, role, rel)
+    if not avec_slug:
+        return
+    # La porte du slug s'applique au titre ENTIER, non à sa seule tête : elle
+    # est déjà close par elle-même — le token doit être un composant du nom de
+    # fichier. Restreinte à la tête, elle manquait `voilette`, dont le titre
+    # est « Le voile du visage — hijab/niqab islamique et voilette... ».
+    for token in RE_MOT.findall(source):
+        cle = normaliser(token)
+        if cle and (cle == slug or f"-{cle}-" in morceaux):
+            index.declarer(token, role, rel)
 
 
 def retenir(f: Path, racine: Path, base: Path, rel: str, suivis) -> bool:
@@ -277,6 +395,7 @@ def retenir(f: Path, racine: Path, base: Path, rel: str, suivis) -> bool:
 
 def recolter(racine: Path, index: Index, rapport: dict, suivis):
     """Passe 1 — le vocabulaire, récolté sur les circuits SEULEMENT."""
+    paires = []
     for circuit in CIRCUITS:
         base = racine / circuit
         if not base.is_dir():
@@ -329,10 +448,36 @@ def recolter(racine: Path, index: Index, rapport: dict, suivis):
                             index.declarer(token, "table", rel)
 
             slug = slug_de(f)
+
+            # --- Correctif B : le titre et les intertitres -----------------
+            titre = fm.get("title", "").strip().strip("\"'")
+            sources_titre = ([titre] if titre else []) + RE_H1.findall(corps)
+            for src in sources_titre:
+                recolter_titre(index, src, rel, slug, "titre", True)
+            # Les H2 sont 4054 contre 881 H1 : ce sont des intertitres de
+            # section, donc de la prose française. Admission STRICTE — jamais
+            # la porte du slug, sans quoi le vocabulaire de gouvernance entre.
+            for src in RE_H2.findall(corps):
+                recolter_titre(index, src, rel, slug, "titre", False)
+            # Appariement attesté : seulement là où le dépôt énonce la paire.
+            # Différé — les deux clés d'une paire ne sont pas nécessairement
+            # récoltées par le même fichier ; on apparie une fois la récolte
+            # close, jamais au fil de l'eau.
+            for src in sources_titre:
+                paires.extend(RE_APPARIEMENT.findall(src))
+            for ligne in corps.splitlines():
+                if ligne.lstrip().startswith("**"):
+                    paires.extend(RE_APPARIEMENT.findall(ligne))
+
             for cle in list(index.termes):
                 if cle and (cle == slug or f"-{cle}-" in f"-{slug}-"):
                     index.termes[cle]["fiches"][rel]["roles"].add("fiche")
         rapport["fiches_par_circuit"][circuit] = n_fiches
+
+    for latin, orig in paires:
+        index.apparier(latin, orig)
+    rapport["appariements"] = sum(
+        1 for e in index.termes.values() if e["apparie"])
 
 
 def filtrer_etiquettes(index: Index, rapport: dict):
@@ -466,6 +611,7 @@ def serialiser(index: Index, rapport: dict, avec_textes: bool) -> dict:
         termes[cle] = {
             "formes": sorted(e["formes"]),
             "roles": sorted(e["roles"]),
+            "apparie": sorted(e["apparie"]),
             "occurrences": e["occurrences"],
             # [renvoi_chemin, occurrences, roles]
             "fiches": [[ref(rel), v["n"], sorted(v["roles"])]
