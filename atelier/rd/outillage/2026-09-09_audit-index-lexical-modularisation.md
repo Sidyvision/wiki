@@ -6,8 +6,7 @@ created: 2026-09-09
 updated: 2026-09-09
 sources: []
 links:
-  - "[[atelier/rd/outillage/index-lexical/generer-index-lexical]]"
-  - "[[atelier/rd/outillage/index-lexical/valider-annotations]]"
+  - "[[atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise]]"
   - "[[atelier/rd/outillage/2026-09-08_serveur-mcp-wiki]]"
   - "[[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]]"
 ---
@@ -17,6 +16,18 @@ links:
 > Audit externe (Qoder, 2026-09-09). Le générateur (1 216 lignes), le
 > validateur (361 lignes) et leurs sorties ont été relus ligne à ligne, puis
 > exécutés en live. Ce rapport est versé au registre R&D pour traitement.
+>
+> **Pièces auditées** — citées **en prose, par chemin relatif**, jamais en
+> wikilink : `atelier/rd/outillage/index-lexical/generer-index-lexical.py` et
+> `atelier/rd/outillage/index-lexical/valider-annotations.py`. Ce sont des
+> **scripts**, et le régime de liens du dépôt ne connaît que des cibles `.md` :
+> un wikilink vers un `.py` ne se résout pas et lève un avertissement C1. La
+> convention employée ici est celle déjà en vigueur pour ce qui n'est cible
+> d'aucun lien — les dossiers `assets-<sujet>/` et `textes/` (§II).
+>
+> **Écart de protocole que cet audit a révélé, et qui le dépasse** : aucune
+> fiche ne décrit ces deux scripts, et **le dépôt n'a pas de forme pour citer
+> un script en `links:`**. Rapporté, non tranché (Cmd 12).
 
 ---
 
