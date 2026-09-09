@@ -13,7 +13,7 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `dream` | DREAM, Dream, dream | — | — | table | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[meta/personnel/sidy]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +28 | 13006 |
-| `deux` | DEUX, Deux, deux | — | — | table, titre | **448 fiches** | LISEZ-MOI.md +463 | 6208 |
+| `deux` | DEUX, Deux, deux | — | — | table, titre | **448 fiches** | LISEZ-MOI.md +463 | 6209 |
 | `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **433 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +37 | 1815 |
 | `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **353 fiches** | LISEZ-MOI.md +17 | 1740 |
 | `doctrine` | DOCTRINE, Doctrine, doctrine | — | — | table, titre | **247 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +235 | 1433 |

@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 184,
+  "avertissements": 185,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -3536,6 +3536,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/index-lexical/2026-09-09_termes-sans-tradition-sourcee",
+      "label": "Les 127 termes annotés sans tradition sourcée — relevé pour verdict",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "annotation",
+        "tradition",
+        "releve",
+        "verdict-attendu"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/2026-09-09_termes-sans-tradition-sourcee.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/outillage/index-lexical/condense/a",
       "label": "Index lexical — a",
       "circuit": "atelier",
@@ -6333,7 +6352,7 @@
         "kari-kumi",
         "en-cours"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "chemin": "doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities.md",
       "lacunes_to_source": 1
     },

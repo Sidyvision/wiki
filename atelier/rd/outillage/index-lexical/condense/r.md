@@ -95,8 +95,8 @@ links: []
 | `reversible` | Réversible, reversible, réversible | — | — | table, tag | **22 fiches** | le-centre-et-la-circonference-le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon.md | 37 |
 | `rita` | Rita, rita | — | — | annotation, table, tag | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +11 | 34 |
 | `recurrent` | recurrent, récurrent | — | — | tag | **24 fiches** | — | 33 |
-| `rijal` | rijal, rijâl, rijāl | — | ⚖ islam | annotation, tag, translit | **10 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 33 |
 | `rasa` | Rasa, Rasâ, rasa | — | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · +2 | la-puissance-du-serpent.md +9 | 31 |
+| `rijal` | rijal, rijâl, rijāl | — | ⚖ islam | tag, translit | **10 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 31 |
 | `revox` | Revox, revox | — | — | table, tag, titre | **13 fiches** | — | 29 |
 | `robert` | Robert | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/autorites/michel-valsan]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-21.md +17 | 29 |
 | `readme` | README | — | — | table | **16 fiches** | — | 28 |

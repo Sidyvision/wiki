@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [araf, rijal, rijal-allah, sima, firasa, barzakh, initiation, petits-grands-mysteres, eschatologie, kari-kumi, en-cours]
 created: 2026-08-30
-updated: 2026-09-08
+updated: 2026-09-09
 sources: ["[[doctrinal/sources/sept-etendards-califat]]", "[[doctrinal/sources/meftah-chatons-sagesses-transcription]]", "to-source"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/firasa]]", "[[doctrinal/autorites/michel-valsan]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]]"]
@@ -192,7 +192,7 @@ localiser les pages utiles sans rien rephotographier. Relevé fait le 2026-08-30
 
 1. ***khafḍ* et *rafʿ* figurent tous deux à la page 104.** C'est très probablement
    là que l'ouvrage traite le couple pour lui-même.
-2. ***khafḍ* p. 244 et *<dfn data-terme="rijal" data-translit="rijāl" data-tradition="islam">rijāl</dfn> Allāh* p. 245 sont adjacents.** Si un texte relie
+2. ***khafḍ* p. 244 et *rijāl Allāh* p. 245 sont adjacents.** Si un texte relie
    l'opération d'élever-et-abaisser aux « Hommes d'Allāh », c'est le lieu le plus
    probable du dépôt pour l'y trouver.
 

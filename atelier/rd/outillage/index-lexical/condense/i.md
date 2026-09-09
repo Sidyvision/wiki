@@ -21,7 +21,7 @@ links: []
 | `identite` | IDENTITÉ, Identité, identite, identité | — | — | table, tag | **136 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +80 | 431 |
 | `idees` | Idées, idées | — | — | titre | **85 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +158 | 427 |
 | `infrastructure` | INFRASTRUCTURE, Infrastructure, infrastructure | — | — | definition, table, tag, titre | **112 fiches** | — | 427 |
-| `islam` | ISLAM, Islam, Islâm, Isläm (+3) | — | — | table, titre, translit | **143 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +26 | 358 |
+| `islam` | ISLAM, Islam, Islâm, Isläm (+3) | — | — | table, titre, translit | **143 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +26 | 357 |
 | `initiation` | INITIATION, Initiation, initiation | — | — | table, tag, titre | **46 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +109 | 355 |
 | `individuel` | Individuel, individuel | — | — | tag | **44 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +126 | 349 |
 | `initiatiques` | INITIATIQUES, initiatiques | — | — | titre | **29 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +121 | 343 |

@@ -52,7 +52,7 @@ Le cycle zodiacal islamique **commence avec la Balance** : les traditions antér
 
 ### 3. Les trois mondes et les trois modalités de signes
 
-Commentaire de <span data-nom="burckhardt" data-genre="autorite">Burckhardt</span> (*Clés spirituelles de l'astrologie musulmane*, Archè Milano, 1983) sur Ibn ʿArabī :
+Commentaire de Burckhardt (*Clés spirituelles de l'astrologie musulmane*, Archè Milano, 1983) sur Ibn ʿArabī :
 - **Signes Fixes** : monde supérieur (orientation spirituelle)
 - **Signes Cardinaux** : développement de notre monde
 - **Signes Mutables** : monde intermédiaire (*barzakh*) et les différents règnes naturels (métaux, plantes, animaux, homme comme synthèse)

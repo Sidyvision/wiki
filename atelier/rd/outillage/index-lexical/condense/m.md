@@ -16,7 +16,7 @@ links: []
 | `manifestation` | MANIFESTATION, Manifestation, manifestation | — | — | table, tag, titre | **121 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +287 | 1708 |
 | `mort` | MORT, Mort, mort | — | — | table, titre | **103 fiches** | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +125 | 1064 |
 | `metaphysique` | MÉTAPHYSIQUE, Métaphysique, metaphysique, métaphysique | — | — | table, tag, titre | **164 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +213 | 894 |
-| `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | — | table, tag, titre | **109 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +261 | 829 |
+| `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | — | table, tag, titre | **110 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +261 | 830 |
 | `moderne` | MODERNE, Moderne, moderne | — | — | table, titre | **81 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +218 | 820 |
 | `man` | Man, man, manʿ | — | — | titre, translit | **13 fiches** | les-limites-du-mental-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +65 | 803 |
 | `manifeste` | Manifeste, Manifesté, manifeste, manifesté | — | — | table, tag, titre | **135 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +207 | 775 |

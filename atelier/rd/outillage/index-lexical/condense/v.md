@@ -13,7 +13,7 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `vers` | VERS, Vers, vers | — | — | titre | **314 fiches** | LISEZ-MOI.md +234 | 1533 |
-| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **312 fiches** | LISEZ-MOI.md +10 | 1068 |
+| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **313 fiches** | LISEZ-MOI.md +10 | 1069 |
 | `veille` | VEILLE, Veille, veille | — | — | table, tag, titre | **89 fiches** | la-puissance-du-serpent.md +15 | 469 |
 | `vigilance` | VIGILANCE, Vigilance, vigilance | — | — | definition, table, tag, titre | **166 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +38 | 460 |
 | `verification` | VÉRIFICATION, Vérification, verification, vérification | — | ⚖ hindouisme | definition, table, tag | **190 fiches** | karubi-mehdi-navette-20260812.md +3 | 454 |

@@ -73,9 +73,9 @@ links: []
 | `ajna` | AJNÂ, Ajna, Ajnâ, ajna (+5) | — | — | table, translit | **15 fiches** | la-puissance-du-serpent.md +3 | 91 |
 | `articulation` | Articulation, articulation | — | — | table, titre | **56 fiches** | la-puissance-du-serpent.md | 87 |
 | `archetypes` | Archétypes, archetypes, archétypes | — | — | tag | **24 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +12 | 85 |
+| `axes` | Axes, axes | — | — | titre | **31 fiches** | place-de-la-tradition-atlanteenne-dans-le-manvantara-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +13 | 85 |
 | `ahl` | Ahl, ahl | — | — | titre | **15 fiches** | sept-etendards-califat-transcription.md +6 | 84 |
 | `astrologique` | Astrologique, astrologique | — | — | table, titre | **40 fiches** | paradis-terrestre-et-paradis-celeste-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +13 | 84 |
-| `axes` | Axes, axes | — | — | titre | **30 fiches** | place-de-la-tradition-atlanteenne-dans-le-manvantara-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +13 | 84 |
 | `aditi` | Aditi, aditi | — | — | annotation, table, tag | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · +1 | les-trois-fonctions-supremes-le-roi-du-monde-index-de-l-uvre-de-rene-guenon.md +14 | 83 |
 | `avant-propos` | AVANT-PROPOS, Avant-Propos, Avant-propos, avant-propos | — | — | table, titre | **17 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +17 | 83 |
 | `afrad` | Afrad, Afrâd, Afrād, afrad (+1) | — | — | annotation, table, tag, titre, translit | **22 fiches** | initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon-13.md | 81 |
