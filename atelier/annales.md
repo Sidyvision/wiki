@@ -10,6 +10,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] rd | Les syntagmes — trois élargissements mesurés, aucun retenu, et le porteur qui existait déjà
+
+- **Ordre de Sidy** : « qu'est-ce que tu proposes pour les syntagmes ? » puis « inscris-le au §VII ». **Ma proposition a été de ne rien construire**, et la mesure l'a dictée contre mon propre réflexe.
+- **Le problème** : les clés de l'index sont des **tokens**. Il ne peut donc structurellement pas apparier `chikai to seiyaku` à `誓約と制約`, qui est une paire de **syntagmes**. Limitation rapportée depuis le 2026-09-08.
+- **Trois élargissements essayés, chacun mesuré, les trois écartés** :
+  - **Élargir le côté latin de la regex** à un syntagme de 1 à 4 mots : 10 correspondances, **5 distinctes dont 3 de déchet** — la regex avale l'article et la conjonction : `et Muraqaba` (tiré de « Merkavah **et** Muraqaba »), `Le Shintō`.
+  - **Ancrer sur le slug de la fiche** plutôt que sur la regex : 5 candidats, **2 valables**. Les trois autres échouent de **trois façons différentes**, dont `merkavah-muraqaba` — une fiche qui traite **deux** termes, et qu'on ne peut donc apparier **en bloc** à chacune des deux écritures qu'elle porte.
+  - **La barre oblique**, essayée le 2026-09-08 : aucune paire vraie, **une fausse** (`systeme` ↔ `α`).
+- **C'est le troisième cas de la session où un signal élargi cesse de mesurer ce qu'on lui demande**, après le rôle `titre` (les 60 fiches `guenon-*.md` « traitant » de Guénon) et le consensus des `tradition_cadre` (110 divergences sur 160). La forme se répète : **on élargit pour couvrir davantage, et l'on couvre autre chose**.
+- **Et le gisement réel est nul.** Les deux seules paires de syntagmes légitimes du dépôt — `hideo-kojima ↔ 小島秀夫` et `yoji-shinkawa ↔ 新川洋司` — sont **déjà appariées** par leur nom de famille (`kojima`, `shinkawa`) ; le syntagme n'ajouterait que le prénom. Idem pour `merkavah`, `muraqaba` et `consultation`, appariés chacun de son côté. **Bâtir une machinerie pour zéro paire manquante aurait été du travail contre la mesure.**
+- **Ce qui est inscrit au §VII** : la réciprocité d'un syntagme se porte dans le champ **`original:` du Sceau** (§IV), qui accueille la **chaîne entière** et est **ancré sur la fiche** — immune à la fois à la gourmandise d'une regex et à la découpe en tokens. **Aucun outillage n'est à bâtir** : le porteur existe depuis le 2026-09-08, il attend d'être rempli.
+- **Fait mesuré et consigné, qui vaut au-delà de cette passe** : **aucun `original:` n'est peuplé dans le dépôt à ce jour**. Ni l'axe langue, ni l'appariement des syntagmes ne se renforceront tant qu'il reste vide. **Les deux problèmes ont la même issue, et c'est la discipline qui la porte, non l'outillage** — au fil des sessions, jamais en passe de masse (point 5).
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 0 avertissement**. Clarification de texte : aucun code ni aucune fiche touchés.
+- **Commit** : 7c8c699
+
 ## [2026-09-09] rd | Les deux axes rendus au consommateur, et un troisième piège d'auto-référence
 
 - **Ordre de Sidy** : « continue ». Achèvement du travail précédent plutôt qu'ouverture d'un chantier neuf : le champ `langue` existait dans l'index, **rien ne le consommait**.
