@@ -480,6 +480,35 @@ prime, et le condensé les distingue à l'œil. Un troisième rang — la transl
 produite par la machine — resterait dû d'un `to-source` ; la passe du 2026-09-08 l'a
 trouvé **vide**, aucune forme n'ayant eu à être devinée.
 
+**L'axe de la LANGUE, distinct de celui de la tradition** (verdict Sidy, 2026-09-09 :
+« une alternative serait de classifier par langue plutôt que par tradition, puisque chaque
+tradition trouve son véhicule en une langue »). Le principe est **ontologiquement plus
+juste** que la tradition, et il explique un échec mesuré : **la langue est une propriété
+du TERME, la tradition une propriété du CADRE où on le cite**. C'est pourquoi compter les
+`tradition_cadre` des fiches qui mentionnent un terme ne donne rien — `barzakh` y sort
+`islam 36 / universel 12 / kabbale 2`, non par accident mais parce que les fiches
+comparatives déclarent `universel` comme cadre de *leur propos*.
+
+L'index porte donc **deux champs distincts, jamais fondus** : `tradition` (le cadre,
+sourcé par la fiche qui a le terme pour sujet, ou par verdict) et `langue` (la langue du
+terme). La langue n'est posée que sur trois sources, chacune **déclarée avec la valeur** :
+le champ **`original:` du Sceau** (§IV) de la fiche dont le slug est le terme — l'écriture
+y donne la langue ; la langue **énoncée en prose** (« **Buddhi** (Sanskrit : बुद्धि) ») ;
+ou l'écriture de la **forme appariée**. Aucune quatrième voie, et en particulier **aucune
+déduction depuis la graphie de la translittération** (`al-`, `ḥ`, `ṣ`) : ce serait une
+heuristique d'orthographe, et une heuristique n'est pas une source.
+
+**Seules les écritures exclusives donnent la langue.** Le **han** en est écarté : il sert
+le chinois *et* le japonais, et `巴` y aurait été déclaré « chinois » alors que le terme
+est japonais. *Une écriture partagée ne source pas une langue — elle source une écriture,
+ce qui n'est pas la même chose.*
+
+**Conséquence architecturale, et c'est le fait à retenir** : la couverture de l'axe langue
+est aujourd'hui faible parce que le dépôt n'énonce presque jamais la langue de ses termes.
+Mais il a déjà l'endroit pour le faire — **le champ `original:`**. **L'axe de la langue se
+renforce donc exactement au rythme de la discipline des langues originales**, sans travail
+propre : chaque `original:` posé sur une fiche donne la langue de son terme.
+
 **Garde mécanique du marqueur** (câblée le même jour, verdict Sidy). Le champ
 `original:` du §IV est contrôlé par `verifier-invariants.py` sous trois codes, tous
 éprouvés sur faute fabriquée : **B5** — le marqueur `to-original` déclare une absence

@@ -94,7 +94,7 @@ import re
 import subprocess
 import sys
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import date, datetime
 from pathlib import Path
 
@@ -384,6 +384,9 @@ class Index:
                 # Tradition SOURCÉE par la ou les fiches qui DÉFINISSENT le
                 # terme — jamais par un décompte des fiches qui le citent.
                 "tradition": None,
+                # Langue DU TERME — axe distinct de la tradition, qui est un
+                # cadre. Verdict Sidy 2026-09-09.
+                "langue": None,
             }
         return self.termes[cle]
 
@@ -491,6 +494,133 @@ def charger_jurjani(racine: Path) -> dict:
     return dico
 
 
+# --- Langue du terme (verdict Sidy, 2026-09-09) ----------------------------
+# « une alternative serait de classifier par langue plutôt que par tradition,
+#   puisque chaque tradition trouve son véhicule en une langue ».
+# L'axe est ONTOLOGIQUEMENT plus juste que la tradition : la langue est une
+# propriété DU TERME, la tradition une propriété du CADRE où on le cite — d'où
+# la divergence structurelle qui a fait échouer la voie du consensus.
+# Il n'a qu'un défaut, mesuré : le dépôt n'énonce presque jamais la langue.
+# Mais il a l'endroit pour le faire — le champ `original:` du Sceau (§IV,
+# ouvert le 2026-09-08). L'axe se renforce donc EXACTEMENT au rythme de la
+# discipline des langues originales, sans travail propre.
+# Seules les écritures EXCLUSIVES donnent la langue. Le han (CJK) est
+# volontairement absent : il sert le chinois ET le japonais, et `巴` (tomoe) y
+# aurait été déclaré « chinois » alors que le terme est japonais. Une écriture
+# partagée ne source pas une langue — elle source une écriture, ce qui n'est
+# pas la même chose. Constaté à la première génération, retiré.
+# Le devanagari sert aussi le hindi et le marathi ; dans CE dépôt il ne porte
+# que du sanskrit, mais c'est un fait de corpus et non de l'écriture : la
+# provenance est donc toujours déclarée avec la valeur.
+ECRITURES_LANGUE = (("ARABIC", "arabe"), ("HEBREW", "hebreu"),
+                    ("DEVANAGARI", "sanskrit"),
+                    ("HIRAGANA", "japonais"), ("KATAKANA", "japonais"),
+                    ("GREEK", "grec"), ("SYRIAC", "syriaque"))
+
+LANGUES_NOMMEES = ("sanskrit", "arabe", "hebreu", "grec", "latin", "japonais",
+                   "chinois", "persan", "arameen", "tibetain", "pali",
+                   "avestique", "syriaque")
+
+RE_LANGUE_PROSE = re.compile(
+    r"\*\*([^*\n]{2,40})\*\*\s*\(\s*(%s)\s*[:,]"
+    % "|".join(LANGUES_NOMMEES).replace("hebreu", "h[ée]breu")
+                               .replace("arameen", "aram[ée]en")
+                               .replace("tibetain", "tib[ée]tain"),
+    re.IGNORECASE)
+
+
+def langue_de_lecriture(txt: str):
+    """Langue déduite de l'ÉCRITURE — déterministe, jamais devinée."""
+    for c in txt:
+        try:
+            nom = unicodedata.name(c)
+        except ValueError:
+            continue
+        for prefixe, langue in ECRITURES_LANGUE:
+            if nom.startswith(prefixe):
+                return langue
+    return None
+
+
+def langue_par_terme(racine: Path, index: Index, rapport: dict):
+    """Pose `langue`, avec sa PROVENANCE, sur trois sources et jamais autrement.
+
+      1. `original:` du Sceau de la fiche dont le slug EST le terme — la forme
+         y est déclarée par Sidy, l'écriture donne la langue. Source la plus
+         forte, et celle qui grandira.
+      2. La langue ÉNONCÉE en prose : « **Buddhi** (Sanskrit : बुद्धि) ».
+      3. L'écriture de la forme appariée (`apparie`, rang 1) ou de la forme
+         originale que Jurjānī donne (`jurjani`, rang 2).
+
+    Aucune quatrième voie. En particulier, PAS de déduction depuis la graphie
+    de la translittération (`al-`, `ḥ`, `ṣ`) : ce serait une heuristique
+    d'orthographe, et une heuristique n'est pas une source (Cmd 5).
+    """
+    par_original = {}
+    base = racine / "doctrinal"
+    if base.is_dir():
+        for f in base.rglob("*.md"):
+            try:
+                fm = lire_frontmatter(f.read_text(encoding="utf-8"))
+            except OSError:
+                continue
+            brut = str(fm.get("original", "")).strip()
+            if not brut or "to-original" in brut.lower():
+                continue
+            lg = langue_de_lecriture(brut)
+            if lg:
+                par_original[slug_de(f)] = (lg, str(f.relative_to(racine)))
+
+    prose = defaultdict(set)
+    for circuit in CIRCUITS:
+        b = racine / circuit
+        if not b.is_dir():
+            continue
+        for f in b.rglob("*.md"):
+            try:
+                txt = f.read_text(encoding="utf-8")
+            except OSError:
+                continue
+            for terme, lg in RE_LANGUE_PROSE.findall(txt):
+                prose[normaliser(terme)].add(
+                    (lg.lower().replace("é", "e"), str(f.relative_to(racine))))
+
+    n = Counter()
+    for cle, e in index.termes.items():
+        if cle in par_original:
+            lg, src = par_original[cle]
+            e["langue"] = {"langue": lg, "provenance": "sceau-original",
+                           "source": [src]}
+            n["sceau-original"] += 1
+            continue
+        p = prose.get(cle)
+        if p and len({x[0] for x in p}) == 1:
+            lg = next(iter(p))[0]
+            e["langue"] = {"langue": lg, "provenance": "prose",
+                           "source": sorted(x[1] for x in p)}
+            n["prose"] += 1
+            continue
+        forme = None
+        if e["apparie"]:
+            forme = sorted(e["apparie"])[0]
+        elif e["jurjani"] and e["jurjani"].get("original"):
+            forme = e["jurjani"]["original"]
+        elif e["jurjani"] and e["jurjani"].get("translit"):
+            # Le Kitāb al-Taʿrīfāt est un lexique de la langue arabe : un terme
+            # qui y a son entrée est arabe, et le numéro de définition le source.
+            e["langue"] = {"langue": "arabe", "provenance": "jurjani",
+                           "source": ["definition " + e["jurjani"]["definition"]]}
+            n["jurjani"] += 1
+            continue
+        if forme:
+            lg = langue_de_lecriture(forme)
+            if lg:
+                e["langue"] = {"langue": lg, "provenance": "forme-appariee",
+                               "source": [forme]}
+                n["forme-appariee"] += 1
+    rapport["langue_posee"] = dict(n)
+
+
 def tradition_par_terme(racine: Path, index: Index, rapport: dict):
     """Tradition d'un terme, SOURCÉE par la fiche qui le DÉFINIT.
 
@@ -524,9 +654,29 @@ def tradition_par_terme(racine: Path, index: Index, rapport: dict):
             if t and not t.startswith("["):
                 trad_fiche[str(f.relative_to(racine))] = t
 
+    # Traditions RATIFIÉES par Sidy — la source est le verdict, non un
+    # décompte. Elles priment toute dérivation, et sont marquées comme telles.
+    ratifiees = {}
+    f_rat = racine / "atelier/rd/outillage/index-lexical/traditions-ratifiees.json"
+    if f_rat.is_file():
+        try:
+            bloc = json.loads(f_rat.read_text(encoding="utf-8"))
+            ratifiees = bloc.get("ratifie", {})
+            rapport["traditions_ratifiees"] = len(ratifiees)
+        except (OSError, json.JSONDecodeError):
+            refus(f"table de ratification illisible : {f_rat}")
+
     n_pose = 0
     divergents = {}
+    for cle, cadre in ratifiees.items():
+        if cle in index.termes:
+            index.termes[cle]["tradition"] = {
+                "cadre": cadre, "degre": "ratifie-sidy",
+                "source": ["verdict Sidy 2026-09-09"]}
+            n_pose += 1
     for cle, e in index.termes.items():
+        if e["tradition"]:
+            continue                       # ratifiée : le verdict prime
         # Deux degrés de source, le premier primant absolument sur le second.
         #  1. La fiche DONT LE SLUG EST LE TERME : elle a le terme pour sujet,
         #     sans ambiguïté possible. C'est la source la plus forte.
@@ -819,6 +969,7 @@ def serialiser(index: Index, rapport: dict, avec_textes: bool) -> dict:
             "apparie": sorted(e["apparie"]),
             "jurjani": e["jurjani"],
             "tradition": e["tradition"],
+            "langue": e["langue"],
             "occurrences": e["occurrences"],
             # [renvoi_chemin, occurrences, roles]
             "fiches": [[ref(rel), v["n"], sorted(v["roles"])]
@@ -1043,6 +1194,7 @@ def main():
     # Après le filtre des étiquettes (une clé déclassée ne doit pas recevoir de
     # renvoi Jurjānī) et avant le comptage, qui ne touche pas aux appariements.
     tradition_par_terme(racine, index, rapport)
+    langue_par_terme(racine, index, rapport)
     apparier_jurjani(index, racine, rapport)
     compter(racine, index, rapport, avec_textes, suivis)
     controler(index, rapport, avec_textes)
