@@ -33,18 +33,14 @@ recense par sous-dossier (`personnel/`, `genealogie/`, `journal/`, `transmission
 (sens interdit). `meta-annales.md` suit la même discipline append-only que les
 annales de circuit (marqueur `<!-- INSERTION: EN-TÊTE -->`).
 
-## Rappel d'étanchéité (règle complète : CLAUDE.md racine §VI)
+## Rappel d'étanchéité
 
-Hiérarchie du plus sensible au plus neutre : `meta/` → `hermeneutique/` →
-`label/` → `atelier/projets/` et `atelier/rd/` → `doctrinal/` et `atelier/`
-(neutres). Liens autorisés : du sensible VERS le neutre uniquement.
-
-- INTERDIT : inscrire un fait personnel dans une page neutre. `meta/projet-unifie/`
-  garde ce qui est **sensible** (motifs, credentials, prompts d'agents) ;
-  `atelier/rd/infrastructure/` reçoit ce qui est **publiable** (voir
-  `atelier/CLAUDE.md`).
-- Ne jamais copier de contenu `meta/` ailleurs sans demande explicite.
-- En cas de doute sur le circuit d'une nouvelle page : demander avant de créer.
+**Règle transversale — lettre intégrale au `CLAUDE.md` racine, §VI** (Cmd 14 : ce qui est
+transversal ne vit qu'à la racine, chargée par construction en toute circonstance ; le présent
+fichier ne la recopie pas). Ce qui en découle pour ce domaine : `meta/` est le pôle **le plus
+sensible** — liens sortants seulement, **jamais** de lien entrant depuis un circuit, et jamais
+de contenu `meta/` copié ailleurs sans demande explicite. En cas de doute sur le circuit d'une
+nouvelle page : demander avant de créer.
 
 ## Sceau Transmissions (`meta/transmissions/`, dispositif Karūbī)
 

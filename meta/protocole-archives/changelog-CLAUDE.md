@@ -17,6 +17,74 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] consolidation | Phase 1 de l'audit Qoder — relocalisation pure, sans perte de lettre
+
+**Verdict de Sidy** : « Commence par la Phase 1 sans amendement ». La Phase 2 (extraction
+en `meta/protocoles/` et enveloppes `.claude/skills/`) reste **différée** : elle exigerait
+un amendement au Cmd 14, qui n'a pas été demandé.
+
+**Ce qui est déplacé, et rien d'autre.** Phase 1 est une relocalisation : aucune règle
+n'est abrogée, aucune n'est réécrite. Le corollaire d'auto-suffisance du Cmd 14 tient donc
+inchangé — la lettre de toute règle en vigueur figure intégralement dans l'ensemble
+{racine + `CLAUDE.md` locaux}.
+
+- **R1 — historique des révisions → pointeur.** Le bloc de citation des révisions (62 l.)
+  devient un renvoi de 5 lignes vers le présent fichier. La « Note technique » sur
+  l'agnosticisme du moteur est **délibérément conservée** en tête : elle n'est pas de
+  l'historique, c'est une règle en vigueur.
+- **R2 — §V supprimée.** Titre, corps et séparateur retirés ; le seul fait qu'elle portait
+  encore est versé au §II bis.
+- **R3 — redondances fusionnées.** Gain réel : ~6 lignes, non les ~40 estimées par l'audit.
+  Les renvois croisés de la racine étaient déjà des **pointeurs**, non des redites. La seule
+  vraie prise est dans `meta/CLAUDE.md` : un rappel d'étanchéité qui **recopiait** la
+  hiérarchie transversale (violation directe du Cmd 14) devient un renvoi au §VI racine,
+  suivi de la seule conséquence propre au domaine.
+- **R4 — chiffres et récits → annales et registre.** (a) Le récit du tokeniseur et ses
+  mesures se condensent en un bloc de motif de 13 lignes qui renvoie à `atelier/annales.md`,
+  entrée du 2026-09-08 (Cmd 9 : le protocole porte la règle, les annales portent la mesure).
+  (b) Le récit des incidents PRO-01 / INF-14 devient 6 lignes renvoyant à
+  `atelier/rd/registre-chantiers.md` et `atelier/annales.md`.
+
+**Trois pertes de lettre commises par la condensation, détectées puis réparées.** C'est le
+résultat le plus utile de cette passe, et il est rapporté comme tel :
+1. **§VII, le rang 2 (`jurjani`)** — les 7 lignes portant le second champ d'appariement
+   (autorité textuelle transcrite, *Kitāb al-Taʿrīfāt* d'al-Jurjānī, numéro de définition,
+   132 appariements dont 84 réciproques, non-fusion des deux rangs, troisième rang trouvé
+   vide) avaient disparu entièrement dans la condensation R4a. Réinsérées **verbatim**
+   depuis l'archive.
+2. **§VIII, la clause « Cf. aussi »** — le renvoi au corollaire agentique de
+   `meta/CLAUDE.md` (hiérarchie ontologique explicite obligatoire dans les prompts
+   d'agents) avait été avalé par la fusion R3. Restauré.
+3. **§II bis, note de migration du §V** — « Herméneutique » manquait à la liste des
+   sous-sections migrées. Rétabli.
+
+Les trois relèvent du même mode de défaillance : une condensation qui emporte une clause
+normative adjacente à la prose qu'elle visait. C'est le contrôle mécanique qui les a
+trouvées, non la relecture.
+
+**Contrôle mécanique (§VIII.2).** La table d'inventaire exigée par le garde-fou n° 3 du
+plan a d'abord été écrite en `grep` — et elle était **muette** : `grep` est ici `ugrep`,
+qui ignore silencieusement `--include=*.md` et `--exclude-dir=`. Deux lectures successives
+(« 96 orphelines » puis « 0 orpheline ») étaient l'une et l'autre sans valeur. Le contrôle
+a été réécrit en Python pur sur un corpus en mémoire de 2180 fichiers `.md`, avec
+**contrôle négatif** (un fragment fabriqué doit être déclaré absent) et normalisation des
+blancs pour survivre au reflux des lignes. C'est en exécutant le contrôle négatif que
+l'échec du premier contrôle est apparu : *un contrôle dont on n'a pas vu l'échec n'est pas
+un contrôle vérifié.* Le même différentiel a ensuite été passé sur `meta/CLAUDE.md` contre
+sa version `HEAD` — ses 4 lignes retirées sont couvertes au §VI racine (l. 285-293) et à
+`atelier/CLAUDE.md` (l. 114-116).
+
+**Comptes, sans arrondi favorable.** Racine 1020 → **937 lignes** (`wc -l`), soit **−83** ;
+`meta/CLAUDE.md` 173 → 169, soit **−4** ; **−87 au total**, contre les ~−138 annoncés au
+plan. L'écart tient à R3 (~6 l. au lieu de ~40) et aux trois restaurations, qui rendent
+légitimement des lignes.
+
+**Rollback.** `meta/protocole-archives/CLAUDE-v3_2026-09-09.md` conserve la version
+pré-consolidation intégrale (Cmd 10). `verifier-invariants.py` : **1468 fichiers contrôlés,
+0 erreur, 0 avertissement** (le fichier d'archive a reçu son frontmatter après un premier
+passage en échec sur B0).
+
+
 ## [2026-09-09] clarification | §VII — Le champ `original:` porte les appariements de syntagmes
 
 **Verdict de Sidy** : « inscris-le au §VII », après examen de la limitation rapportée
