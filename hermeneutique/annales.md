@@ -2,7 +2,7 @@
 title: Annales du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-09-01
+updated: 2026-09-09
 ---
 
 # Annales du circuit Herméneutique
@@ -10,6 +10,20 @@ updated: 2026-09-01
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only,
 entrées insérées **après ce header**.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-09] archivage | Vocabulaire d'annotation propre au circuit, et 13 poses qu'il ouvre
+
+- **Ordre de Sidy** : « étends le vocabulaire clos pour hermeneutique/ ». Les sept genres transversaux (`autorite`, `lieu`, `ouvrage`, `entite`, `ecole`, `cycle`, `principe`) ne savaient nommer ni une œuvre profane, ni un personnage, ni un dispositif d'œuvre : sur 90 poses proposées ici la veille, **53 avaient dû être rejetées faute de mot**.
+- **Cinq genres propres, et ce ne sont pas des mots nouveaux.** `oeuvre`, `auteur`, `figure`, `dispositif`, `concept` sont, **terme pour terme, les valeurs du champ `type:` que ce protocole local déclare déjà**. L'annotation emprunte au circuit son propre vocabulaire et hérite du même coup de la garde Cmd 3 qui y est attachée : `auteur` « emprunte la forme d'archivage de `doctrinal/autorites/` sans en partager la fonction — aucun statut d'autorité conféré ni supposé » ; **`oeuvre` ne se fond jamais dans `ouvrage`**, réservé au traité traditionnel. Ne pas fondre ces deux registres est le fond même du non-syncrétisme.
+- **`entite` reste admis ici**, à côté de `figure`. J'avais d'abord voulu l'exclure du circuit, en tirant argument de « le *hozo* y est exclu par défaut » — mais cette clause régit les **joints entre traditions**, non la faculté de nommer une entité reçue. Une fiche du circuit en cite légitimement une dans la même phrase qu'une figure de fiction : c'est même son sujet. La garde **ouvre les deux mots** au lieu de trancher à la place de Sidy (Cmd 12).
+- **Migration des annotations de la veille, dans le même commit que l'amendement** : les 35 poses employaient `ouvrage` pour *Death Stranding*, *Metal Gear*, *Frankenstein* et `autorite` pour Kojima, Mary Shelley, Naoki Urasawa. **16 passent à `oeuvre`, 5 à `auteur`.** Sans cela, deux conventions auraient coexisté dans le circuit — et le validateur les aurait acceptées **toutes deux**, de sorte que rien n'en aurait averti plus tard.
+- **13 poses nouvelles**, ouvertes par l'extension : 4 `figure` (Big Boss, Chimera Ant, monstre), 4 `dispositif` (Mother Base, iDroid, matrices artificielles), 4 `concept` (restriction, autotransmutation, immortalité, transposition), 1 `oeuvre`. **Genres en usage dans le circuit** : 17 `oeuvre`, 5 `auteur`, 4 `figure`, 4 `dispositif`, 4 `concept`, 1 `entite`, 1 `principe`.
+- **Un défaut du proposeur trouvé et fermé** : il **sautait toute fiche déjà annotée**, de sorte qu'une extension du vocabulaire n'aurait **jamais** pu atteindre les 15 fiches de la passe précédente — 20 fiches et 52 poses étaient invisibles, et rien ne l'aurait dit. Il n'écarte désormais que les **clés** déjà posées, ce qui tient D5 sans geler la fiche, et il masque les balises existantes pour qu'une pose nouvelle ne puisse pas s'**emboîter** dans une ancienne. Contrôle après passe : **0 emboîtement**.
+- **Un trou hérité, découvert en câblant la garde et comblé** : `verifier-invariants.py` portait `CIRCUITS = ["doctrinal", "atelier", "label", "meta"]`. **`hermeneutique` n'y figurait pas** — `circuit_de()` renvoyait `None`, de sorte que **B1** (clés de Sceau requises) et **C3** (étanchéité) n'ont **jamais contrôlé aucune des 28 fiches** de ce circuit depuis son ouverture. Le contrôle ne se plaignait pas : il ne regardait rien — forme exacte de PRO-01. Trouvé parce que le nouveau refus **D6** avait besoin d'un résolveur de circuit. **Mesuré avant de combler** : les 28 fiches passent B1 sans une seule erreur. `ETANCHEITE_INTERDITE` inscrit enfin « `doctrinal/` → `hermeneutique/` : jamais », que ce protocole local énonçait **sans que rien ne le garde**.
+- **Épreuve des contrôles (§VII)** — le refus **D6** ne porte pas sur un genre inconnu (VOC le refusait déjà) mais sur un genre **valide posé dans le mauvais circuit**, et c'est cette face-là qui a été éprouvée. *Vert* : dépôt vivant, 320 fiches / 926 annotations, aucune anomalie ; bac à sable où `oeuvre` en herméneutique et `entite` en doctrinal ne lèvent **rien**. *Refus* : `data-genre="oeuvre"` dans `doctrinal/symboles/` et `data-genre="dispositif"` dans `atelier/rd/` — **deux refus**, chacun nommant son fichier **et son circuit**, code 2.
+- **Ce qui reste sans genre, et le reste sciemment** (Cmd 12) : les catégories et genres éditoriaux — *shōnen*, *seinen*, *mangaka*, *thriller*, *gothique*, *comédie*, *roman*, *saga* — et les structures de production (*Kojima Productions*). Le vocabulaire `type:` du circuit ne les nomme pas, et **leur inventer un genre aurait été un mot de la machine, non du protocole**.
+- **Vérification** — `verifier-invariants.py` : 1418 fichiers, **0 erreur, 0 avertissement**. Graphe régénéré : **arêtes identiques** — septième vérification du régime apparié.
+- **Commits** : 4ccd523 (amendement et migration), cdee8f8 (les 13 poses).
 
 ## [2026-09-01] correction | `updated` du présent fichier remonté (Cmd 8)
 
