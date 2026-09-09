@@ -21,7 +21,8 @@ entrées insérées **après ce header**.
 - **Genres en usage dans le circuit** : 18 `oeuvre`, 10 `categorie-editoriale`, 5 `auteur`, 5 `dispositif`, 4 `figure`, 4 `concept`, 1 `entite`, 1 `principe`.
 - **Épreuve des contrôles (§VII)** — *vert* : dépôt vivant, « 321 fiches annotées, 936 annotations. OK — aucune anomalie », code 0 ; bac à sable, `categorie-editoriale` dans une fiche du circuit ne lève **rien**. *Refus* : le même genre posé dans `doctrinal/symboles/` — « data-genre='categorie-editoriale' est valide, mais son circuit (doctrinal) ne l'admet pas », **D6**, code 2.
 - **Vérification** — `verifier-invariants.py` : 1418 fichiers, **0 erreur, 0 avertissement**. Graphe régénéré : **arêtes identiques** — huitième vérification du régime apparié.
-- **Commit** : à renseigner ci-dessous.
+- **Écart de forme, signalé plutôt que masqué (Cmd 9)** : cette entrée a été versée dans le commit d'archivage lui-même, avec un SHA en attente, alors que la règle veut qu'elle soit rédigée **après** le commit. Le SHA est renseigné ici par un commit de journal séparé ; la faute est consignée pour ce qu'elle est.
+- **Commit** : a656cb5
 
 ## [2026-09-09] archivage | Vocabulaire d'annotation propre au circuit, et 13 poses qu'il ouvre
 
