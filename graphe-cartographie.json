@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 154,
+  "avertissements": 184,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -1301,6 +1301,29 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations",
+      "label": "Rapport de session — indexation HTML, langues originales et convention d'annotation (2026-09-08 → 09)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "cahier",
+        "rapport",
+        "indexation",
+        "annotation",
+        "langues-originales",
+        "epreuve-des-controles",
+        "methode",
+        "verification-mecanique"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/cahiers/bilan-2026-08-15-pont-agents",
       "label": "Bilan R&D 2026-08-15 — pont inter-agents",
       "circuit": "atelier",
@@ -1733,6 +1756,19 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/incidents/2026-09-09_marques-de-direction-ocr-futuhat",
+      "label": "Incident Cmd 15 — marques de direction (U+200E/U+200F) dans l'OCR des Futūḥāt",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": "resolu",
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/incidents/2026-09-09_marques-de-direction-ocr-futuhat.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
       "label": "Pistes de développement — infrastructure et outillage R&D (2026-08-20)",
       "circuit": "atelier",
@@ -1887,6 +1923,25 @@
       ],
       "updated": "2026-09-06",
       "chemin": "atelier/rd/infrastructure/2026-09-06_desactivation-protection-branche-main-et-pages-workflow.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder",
+      "label": "Feedback extérieur — audit du wiki par Qoder (2026-09-09)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "etude",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "audit",
+        "feedback",
+        "methode",
+        "outillage",
+        "structure"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder.md",
       "lacunes_to_source": 0
     },
     {
@@ -3437,7 +3492,7 @@
         "outils-deterministes",
         "interop"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-09",
       "chemin": "atelier/rd/outillage/2026-09-08_serveur-mcp-wiki.md",
       "lacunes_to_source": 0
     },
@@ -3478,6 +3533,454 @@
       ],
       "updated": "2026-09-08",
       "chemin": "atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/a",
+      "label": "Index lexical — a",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/a.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/b",
+      "label": "Index lexical — b",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/b.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/c",
+      "label": "Index lexical — c",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/c.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/d",
+      "label": "Index lexical — d",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/d.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/e",
+      "label": "Index lexical — e",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/e.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/ecritures-originales",
+      "label": "Index lexical — ecritures-originales",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/ecritures-originales.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/f",
+      "label": "Index lexical — f",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/f.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/g",
+      "label": "Index lexical — g",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/g.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/h",
+      "label": "Index lexical — h",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/h.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/hub",
+      "label": "Index lexical — hub du condensé éclaté",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/hub.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/i",
+      "label": "Index lexical — i",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/i.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/j",
+      "label": "Index lexical — j",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/j.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/k",
+      "label": "Index lexical — k",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/k.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/l",
+      "label": "Index lexical — l",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/l.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/m",
+      "label": "Index lexical — m",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/m.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/n",
+      "label": "Index lexical — n",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/n.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/o",
+      "label": "Index lexical — o",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/o.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/p",
+      "label": "Index lexical — p",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/p.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/q",
+      "label": "Index lexical — q",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/q.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/r",
+      "label": "Index lexical — r",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/r.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/s",
+      "label": "Index lexical — s",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/s.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/t",
+      "label": "Index lexical — t",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/t.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/u",
+      "label": "Index lexical — u",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/u.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/v",
+      "label": "Index lexical — v",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/v.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/w",
+      "label": "Index lexical — w",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/w.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/x",
+      "label": "Index lexical — x",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/x.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/y",
+      "label": "Index lexical — y",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/y.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/condense/z",
+      "label": "Index lexical — z",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "artefact-derive",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "artefact-derive"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/index-lexical/condense/z.md",
       "lacunes_to_source": 0
     },
     {
@@ -12171,6 +12674,20 @@
     {
       "source": "atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut",
       "target": "doctrinal/autorites/yaqub-chaudhary",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations",
+      "target": "atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"

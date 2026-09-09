@@ -51,7 +51,7 @@ links:
 
 | Outil | Rôle |
 |---|---|
-| `chercher_terme` | Recherche déterministe dans `index-lexical.json`, **dans les deux sens** : `tomoe` trouve `巴`, `巴` trouve `tomoe` (§VII, point 6). |
+| `chercher_terme` | Recherche déterministe dans `index-lexical.json`, **dans les deux sens** : `tomoe` trouve `巴`, `巴` trouve `tomoe`, et `al-ittifâqiyya` trouve `الاتفاقية` (§VII, point 6). |
 | `etat_index_lexical` | Totaux, rangs d'appariement, et **fraîcheur déclarée** de l'index. |
 
 **Quatre passes, de la plus stricte à la plus large, et la passe qui a répondu est
@@ -74,6 +74,16 @@ requête. *Un index périmé ne se plaint jamais de lui-même : il répond, et i
 Un silence n'est jamais rendu tel quel : une recherche sans correspondance renvoie les
 **clés proches** et rappelle de vérifier `index_perime`, plutôt que de laisser croire que
 le terme n'existe pas.
+
+**Réciprocité tenue chez le consommateur** (2026-09-09). La translittération que
+Jurjānī donne d'une forme arabe **n'est pas une clé de l'index** — on n'injecte pas le
+vocabulaire du dictionnaire dans un index qui est celui du wiki. Elle restait donc
+introuvable par la recherche directe, et le point 6 du §VII n'était tenu qu'à moitié :
+**48 des 132 appariements** étaient à sens unique. Une cinquième passe,
+`translitteration-jurjani`, cherche dans les formes latines du champ `jurjani` — et
+**les 132 sont désormais atteintes dans les deux sens**, sans qu'une seule clé de
+dictionnaire soit entrée dans l'index. La réciprocité est tenue là où elle coûte le
+moins : **chez le consommateur, non dans l'artefact.**
 
 **Une divergence déclarée** : le serveur vit **hors du dépôt** (`/root/mcp-servers/`) et
 doit rester exécutable si le pôle `rd/` est absent. Il réimplémente donc la

@@ -29,6 +29,11 @@ citations-ghazali/
 # consultation Obsidian est l'un des deux consommateurs déclarés du chantier
 # (verdict Sidy à son ouverture), et l'exclure la supprimerait.
 /atelier/rd/outillage/index-lexical/index-lexical.json
+# Le condensé d'un seul tenant est SUPERSÉDÉ par `condense/`, éclaté par
+# initiale (2026-09-09) : 28 fichiers de 200 Ko au plus, au lieu d'un de
+# 1,2 Mo. Garder les deux doublerait le poids sans rien ajouter. Le monolithe
+# reste régénérable par `--sortie-md`.
+/atelier/rd/outillage/index-lexical/index-lexical.md
 
 # Caches Python — produits par les epreuves qui importent un script d outillage.
 __pycache__/

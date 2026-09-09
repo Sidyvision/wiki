@@ -870,11 +870,78 @@ def rendre_md(data: dict, max_renvois: int = 5) -> str:
     return "\n".join(L) + "\n"
 
 
+def rendre_md_eclate(data: dict, dossier: Path, max_renvois: int = 5) -> int:
+    """Écrit le condensé ÉCLATÉ : un hub + un fichier par initiale.
+
+    Motif mesuré : le condensé d'un seul tenant pesait 1,2 Mo, ce qui est
+    hostile à Obsidian sur iPad — or la consultation Obsidian est l'un des deux
+    consommateurs déclarés du chantier. Éclater ne change rien au contenu :
+    c'est le même rendu, découpé sur la même frontière (l'initiale) que le
+    fichier unique employait déjà pour ses sections.
+
+    Tous les fichiers produits portent `type: artefact-derive` : l'index ne
+    s'indexe pas lui-même.
+    """
+    dossier.mkdir(parents=True, exist_ok=True)
+    entier = rendre_md(data, max_renvois)
+    tete, _, reste = entier.partition("\n## ")
+    sections = ("## " + reste).split("\n## ") if reste else []
+    sections = [s if s.startswith("## ") else "## " + s for s in sections]
+
+    def _fm(titre: str) -> str:
+        return ("---\n"
+                f'title: "{titre}"\n'
+                "type: artefact-derive\n"
+                "tags: [index-lexical, artefact-derive]\n"
+                f"created: {date.today().isoformat()}\n"
+                f"updated: {date.today().isoformat()}\n"
+                "sources: []\n"
+                "links: []\n"
+                "---\n\n")
+
+    def _nom(initiale: str) -> str:
+        c = initiale.strip("# ").strip()[:1]
+        if c.isascii() and c.isalpha():
+            return c.lower()
+        if c.isdigit() or c == "#":
+            return "chiffres-et-symboles"
+        return "ecritures-originales"
+
+    groupes: dict[str, list[str]] = {}
+    for sec in sections:
+        groupes.setdefault(_nom(sec.splitlines()[0]), []).append(sec)
+
+    ecrits = 0
+    for nom, secs in sorted(groupes.items()):
+        cible = dossier / f"{nom}.md"
+        cible.write_text(_fm(f"Index lexical — {nom}") + "\n".join(secs),
+                         encoding="utf-8")
+        ecrits += 1
+
+    lignes = [_fm("Index lexical — hub du condensé éclaté").rstrip("\n"), "",
+              "# Index lexical — hub", "",
+              "> Condensé **éclaté par initiale**. Le contenu est identique au",
+              "> rendu d'un seul tenant ; seul le découpage change, sur la même",
+              "> frontière que les sections employaient déjà. L'index intégral",
+              "> reste `index-lexical.json` (outil MCP `chercher_terme`).", ""]
+    t = data.get("totaux", {})
+    lignes += [f"**Termes distincts : {t.get('termes')} — occurrences : "
+               f"{t.get('occurrences')} — fiches indexees : "
+               f"{t.get('fiches_indexees')} — textes balayes : "
+               f"{t.get('textes_balayes')}**", "", "## Tranches", ""]
+    for nom in sorted(groupes):
+        lignes.append(f"- [[atelier/rd/outillage/index-lexical/condense/{nom}]]")
+    (dossier / "hub.md").write_text("\n".join(lignes) + "\n", encoding="utf-8")
+    return ecrits + 1
+
+
 def main():
     ap = argparse.ArgumentParser(description="Index lexical du depot.")
     ap.add_argument("--racine", default="/root/wiki")
     ap.add_argument("--sortie-json", default="")
     ap.add_argument("--sortie-md", default="")
+    ap.add_argument("--sortie-md-eclate", default="",
+                    help="dossier du condense ECLATE (un fichier par initiale)")
     ap.add_argument("--sans-textes", action="store_true",
                     help="exclut textes/ du perimetre")
     args = ap.parse_args()
@@ -914,6 +981,9 @@ def main():
         json.dumps(data, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8")
     sortie_md.write_text(rendre_md(data), encoding="utf-8")
+    if args.sortie_md_eclate:
+        n = rendre_md_eclate(data, Path(args.sortie_md_eclate))
+        print(f"  \u2192 {args.sortie_md_eclate} ({n} fichiers)")
 
     t = data["totaux"]
     print(f"OK — {t['termes']} termes distincts, {t['occurrences']} occurrences, "
