@@ -572,11 +572,23 @@ def langue_par_terme(racine: Path, index: Index, rapport: dict):
                 par_original[slug_de(f)] = (lg, str(f.relative_to(racine)))
 
     prose = defaultdict(set)
+    # Les DOCUMENTS DE GOUVERNANCE sont exclus de la lecture. Un protocole, un
+    # journal ou un changelog qui écrit « **Buddhi** (Sanskrit : बुद्धि) » le
+    # fait à titre d'EXEMPLE : il ne source rien, il illustre une règle.
+    # Constaté le 2026-09-09 — `buddhi` citait `atelier/annales.md` et
+    # `meta/protocole-archives/changelog-CLAUDE.md` parmi ses sources de langue,
+    # c'est-à-dire des textes que cette même session venait d'écrire. C'est le
+    # piège de l'auto-référence, déjà rencontré deux fois : le marqueur
+    # d'insertion cité en prose, et la convention d'annotation citée en prose.
+    GOUVERNANCE = ("meta/protocole-archives/",)
     for circuit in CIRCUITS:
         b = racine / circuit
         if not b.is_dir():
             continue
         for f in b.rglob("*.md"):
+            rel_f = str(f.relative_to(racine))
+            if f.name in EXCLUS or rel_f.startswith(GOUVERNANCE):
+                continue
             try:
                 txt = f.read_text(encoding="utf-8")
             except OSError:
@@ -1034,6 +1046,12 @@ def rendre_md(data: dict, max_renvois: int = 5) -> str:
          "> Les renvois vers `textes/` sont des **chemins nus**, jamais des",
          "> wikilinks : `textes/` n'est pas un circuit et n'est la cible",
          "> d'aucun lien (CLAUDE.md §II).",
+         ">",
+         "> Colonne *cadre / langue* : **✓** = cadre lu sur la fiche qui a le",
+         "> terme pour sujet · **⚖** = cadre **ratifie par verdict**, non mesure",
+         "> · *italique* = langue du terme. Les deux axes sont distincts : la",
+         "> tradition est le cadre ou l on cite, la langue une propriete du",
+         "> terme (CLAUDE.md §VII, verdict Sidy 2026-09-09).",
          "",
          f"**Termes distincts : {t['termes']} — occurrences : {t['occurrences']}"
          f" — fiches indexees : {t['fiches_indexees']}"
@@ -1050,9 +1068,9 @@ def rendre_md(data: dict, max_renvois: int = 5) -> str:
 
     for initiale in sorted(groupes):
         L += [f"## {initiale}", "",
-              "| terme | formes attestees | appariement | roles | fiches |"
-              " textes/ | occ. |",
-              "|---|---|---|---|---|---|---|"]
+              "| terme | formes attestees | appariement | cadre / langue |"
+              " roles | fiches | textes/ | occ. |",
+              "|---|---|---|---|---|---|---|---|"]
         for cle, e in sorted(groupes[initiale], key=lambda x: -x[1]["occurrences"]):
             formes = ", ".join(e["formes"][:4])
             if len(e["formes"]) > 4:
@@ -1084,7 +1102,19 @@ def rendre_md(data: dict, max_renvois: int = 5) -> str:
                 app = f"`{forme}` — Jurjānī déf. {j['definition']}"
             else:
                 app = "—"
-            L.append(f"| `{cle}` | {formes} | {app} | {', '.join(e['roles'])} | "
+            # Colonne des deux axes. La PROVENANCE est rendue visible : un
+            # cadre ratifié par verdict et un cadre lu sur la fiche du terme
+            # n'ont pas la même force, et le lecteur doit le voir sans avoir à
+            # ouvrir le JSON.
+            axes = []
+            if e.get("tradition"):
+                t = e["tradition"]
+                marque = "✓" if t["degre"] == "fiche-propre" else "⚖"
+                axes.append(f"{marque} {t['cadre']}")
+            if e.get("langue"):
+                axes.append(f"*{e['langue']['langue']}*")
+            L.append(f"| `{cle}` | {formes} | {app} | {' · '.join(axes) or '—'} "
+                     f"| {', '.join(e['roles'])} | "
                      f"{' · '.join(fiches) or '—'} | {textes} | "
                      f"{e['occurrences']} |")
         L.append("")

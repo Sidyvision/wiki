@@ -75,6 +75,14 @@ Un silence n'est jamais rendu tel quel : une recherche sans correspondance renvo
 **clés proches** et rappelle de vérifier `index_perime`, plutôt que de laisser croire que
 le terme n'existe pas.
 
+**Les deux axes, rendus avec leur provenance** (2026-09-09). `chercher_terme` renvoie
+`tradition` **et** `langue`, jamais fondus : la tradition est le **cadre** où le terme est
+cité, la langue une propriété **du terme**. Chacun porte sa provenance — `fiche-propre`,
+`definition` ou `ratifie-sidy` pour la tradition ; `sceau-original`, `prose` ou
+`forme-appariee` pour la langue. **Un verdict et une mesure n'ont pas la même force, et
+le client doit pouvoir le voir sans ouvrir le JSON.** `etat_index_lexical` en donne la
+répartition.
+
 **Réciprocité tenue chez le consommateur** (2026-09-09). La translittération que
 Jurjānī donne d'une forme arabe **n'est pas une clé de l'index** — on n'injecte pas le
 vocabulaire du dictionnaire dans un index qui est celui du wiki. Elle restait donc
