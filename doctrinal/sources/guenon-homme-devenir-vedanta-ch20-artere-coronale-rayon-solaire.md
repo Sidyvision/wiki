@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "hindouisme"
 tags: [guenon, vedanta, sushumna, ida, pingala, nadis, rayon-solaire, troisieme-oeil, janus, vaishvanara, coronale, posthume, axe]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/polar
 
 # L'Homme et son devenir selon le Vêdânta, ch. XX (= XXI en 1ʳᵉ éd.)
 
-*René Guénon, chapitre XX : « L'artère coronale et le "Rayon solaire" », p. 159 de
+*<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, chapitre XX : « L'artère <dfn data-terme="coronale" data-translit="coronale" data-tradition="hindouisme">coronale</dfn> et le "<span data-nom="rayon-solaire" data-genre="principe">Rayon solaire</span>" », p. 159 de
 l'exemplaire de Sidy — **chapitre XXI de la 1ʳᵉ édition**, dont l'index web reprend
 la numérotation. Voir la note d'édition ci-dessous.*
 
@@ -156,8 +156,8 @@ Deux conséquences, toutes deux de forme :
    « la dualité de *Hokmah* et *Binah* peut être mise en relation symbolique
    avec les deux yeux droit et gauche, correspondance "microcosmique" du Soleil
    et de la Lune ». Guénon donne ici l'autre moitié : ces mêmes deux yeux sont
-   ceux de *Vaishwânara*, et ils sont en relation avec *iḍā* et *piṅgalā*. La
-   chaîne colonnes ↔ yeux ↔ luminaires ↔ *nâdîs* est **entièrement guénonienne**,
+   ceux de *Vaishwânara*, et ils sont en relation avec *iḍā* et *<dfn data-terme="pingala" data-translit="piṅgalā" data-tradition="hindouisme">piṅgalā</dfn>*. La
+   chaîne colonnes ↔ yeux ↔ luminaires ↔ *<dfn data-terme="nadis" data-translit="nâdîs" data-tradition="hindouisme">nâdîs</dfn>* est **entièrement guénonienne**,
    sans aucun maillon rapporté du dehors.
 2. **Le milieu reçoit un nom.** Le dépôt disait de *suṣumnā* qu'elle est
    rapportée au « principe igné », tierce qualité irréductible. Le troisième œil
@@ -227,7 +227,7 @@ Et, décisif :
 > l'Universel). »
 
 Note 11 : « **Le rayon qui est en connexion avec l'artère coronale est appelé
-aussi *sushumnâ*.** »
+aussi *<dfn data-terme="sushumna" data-translit="sushumnâ" data-tradition="hindouisme">sushumnâ</dfn>*.** »
 
 > **Ce que cela établit.** L'axe ne s'arrête pas au sommet de la tête : il s'y
 > **prolonge** comme rayon, et ce prolongement porte **le même nom** que le

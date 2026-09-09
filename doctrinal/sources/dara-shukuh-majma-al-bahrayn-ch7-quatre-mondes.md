@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [dara-shukuh, majma-al-bahrayn, quatre-mondes, hadarat, atman, turiya, comparatisme]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]]"]
@@ -18,7 +18,7 @@ cross_links: ["[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/alam
 **Auteur** : Dârâ Shokûh (1615-1659), prince moghol, arrière-petit-fils d'Akbar,
 traducteur des Upanishads en persan (*Sirr-i Akbar*).
 
-**Œuvre** : *Majmaʿ al-Bahrayn* (« Le Confluent des deux Océans »), étude
+**Œuvre** : *<span data-nom="majma-al-bahrayn" data-genre="ouvrage">Majmaʿ al-Bahrayn</span>* (« Le Confluent des deux Océans »), étude
 comparative des principales notions métaphysiques indiennes et islamiques.
 
 **Édition consultée** : traduction française de Daryush Shayegan, dans
@@ -81,7 +81,7 @@ deux hiérarchies : il les apparie explicitement.
 | *jāgrat* — veille | *nāsūt* |
 | *svapna* — rêve | *malakūt* |
 | *susupta* — sommeil profond | *jabarūt* |
-| *turīya* — le Quatrième | *lāhūt* |
+| *<dfn data-terme="turiya" data-translit="turīya" data-tradition="universel">turīya</dfn>* — le Quatrième | *lāhūt* |
 
 **2. Le double sens de parcours.** L'ascension (*nāsūt* → *lāhūt*) est dite
 « progrès spirituel » ; la descente (*lāhūt* → *nāsūt*) est celle de la Vérité

@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "hindouisme"
 tags: [tilak, vedas, orion, krittikas, precession, chronologie, philologie, academique]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/sources/tilak-origine-polaire-tradition-vedique]]", "[[doctrinal/symboles/manvantara]]", "[[doctrinal/sources/guenon-atlantide-hyperboree]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/sources/tilak-origine-polaire-tradition-vedique]]", "
 
 # The Orion, ou Recherches sur l'antiquité des Vêdas — Tilak (1893)
 
-*The Orion, or Researches into the Antiquity of the Vedas*, Bombay, 1893, 237 p.
+*The <span data-nom="orion" data-genre="entite">Orion</span>, or Researches into the Antiquity of the <span data-nom="vedas" data-genre="ouvrage">Vedas</span>*, Bombay, 1893, 237 p.
 **Premier ouvrage de l'auteur**, antérieur de dix ans à *The Arctic Home in the
 Vedas* — et il faut le lire dans cet ordre : *Orion* établit la méthode,
 *Arctic Home* en tire la conséquence extrême.
@@ -22,10 +22,10 @@ Vedas* — et il faut le lire dans cet ordre : *Orion* établit la méthode,
 
 `academique` — philologie comparée et archéo-astronomie du XIXe siècle. **À ne
 pas confondre avec une source doctrinale.** Le dépôt le retient pour sa
-**méthode** — la précession comme chronomètre — et pour les **repères
+**méthode** — la <span data-nom="precession" data-genre="cycle">précession</span> comme chronomètre — et pour les **repères
 astronomiques** qu'il relève dans le texte védique, non pour ses datations.
 
-⚠️ **Tilak est un index, pas une source primaire.** Toute citation védique
+⚠️ **<span data-nom="tilak" data-genre="autorite">Tilak</span> est un index, pas une source primaire.** Toute citation védique
 relevée chez lui reste `to-source` tant qu'elle n'a pas été vue sur une édition
 du texte. Il indique **où chercher**, jamais ce qu'il faut conclure.
 
@@ -66,7 +66,7 @@ doctrinal :
 |---|---|---|
 | I | Introduction | l'enjeu de dater les Vêdas |
 | II | *Sacrifice alias the Year* | le sacrifice comme figure de l'année — la pièce charnière |
-| III | *The Krittikas* | les Pléiades en tête de la liste des *nakṣatra* |
+| III | *The <span data-nom="krittikas" data-genre="entite">Krittikas</span>* | les Pléiades en tête de la liste des *nakṣatra* |
 | IV | *Agrahāyaṇa* | le nom du mois qui « commence l'année », et ce qu'il trahit |
 | V | *The Antelope's Head* | *Mṛgaśiras*, la tête de l'antilope — Orion |
 | VI | *Orion and his Belt* | la ceinture, et ses noms védiques |

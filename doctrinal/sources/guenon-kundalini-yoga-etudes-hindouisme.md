@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, kundalini, yoga, chakras, sephiroth, nadis, hindouisme-islam, etudes-hindouisme]
 created: 2026-07-14
-updated: 2026-08-29
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]"]
@@ -51,7 +51,7 @@ faculté : terre (*prithvî*) → eau (*ap*) → feu (*têjas*) → air (*vâyu*
 
 ## Les canaux (nâdîs) — et leur triple polarisation
 
-Les *nâdîs* « ne sont pas plus des nerfs qu'ils ne sont des vaisseaux
+Les *<dfn data-terme="nadis" data-translit="nâdîs" data-tradition="universel">nâdîs</dfn>* « ne sont pas plus des nerfs qu'ils ne sont des vaisseaux
 sanguins » : ce sont « les lignes de direction que suivent les forces vitales ».
 Les trois principaux :
 
@@ -89,7 +89,7 @@ contradiction formelle » avec leur localisation.
 | *sahasrâra* | sommet de la tête, *Brahma-randhra* | 1000 | *Paramashiva* | *Satyaloka* |
 
 **Réserve capitale sur le septième** : *sahasrâra* « n'est pas compté au nombre
-des *chakras*, parce que […] il se rapporte, en tant que "centre de conscience",
+des *<dfn data-terme="chakras" data-translit="chakras" data-tradition="universel">chakras</dfn>*, parce que […] il se rapporte, en tant que "centre de conscience",
 à un état qui est **au-delà des limites de l'individualité** ». Les six *chakras*
 et *sahasrâra « ne forment qu'un total de sept »*, mais le septième n'est pas de
 même ordre que les six.
@@ -100,7 +100,7 @@ fois (50 × 20 = 1000).
 
 ## Kundalinî
 
-*Kundalinî* est « un aspect de la *Shakti* considérée comme force cosmique […]
+*<dfn data-terme="kundalini" data-translit="Kundalinî" data-tradition="universel">Kundalinî</dfn>* est « un aspect de la *Shakti* considérée comme force cosmique […]
 en tant qu'elle réside dans l'être humain ». Enroulée trois fois et demie autour
 du *linga* de *Shiva* (*Swayambhu*) dans le *mûlâdhâra*, elle couvre de sa tête
 le *Brahma-dwâra*, entrée de *sushumnâ*. Éveillée, elle monte en « perçant »
@@ -126,7 +126,7 @@ n'avoir encore été faite nulle part ».
 **La réduction de dix à sept.** L'objection du nombre « tombe si l'on observe
 que, dans la disposition de l'"arbre séphirothique", il y a **trois couples
 placés symétriquement sur les "colonnes" de droite et de gauche**, de sorte que
-l'ensemble des *Sephiroth* se répartit à **sept niveaux différents seulement** ».
+l'ensemble des *<span data-nom="sephiroth" data-genre="entite">Sephiroth</span>* se répartit à **sept niveaux différents seulement** ».
 
 > **Point à ne pas manquer — les colonnes correspondent aux *nâdîs*.** Guénon
 > écrit, dans la même phrase : « en envisageant leurs projections sur l'axe

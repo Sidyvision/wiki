@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [mahdi-rouge, balance, mizan, ange-zodiaque, 14e-demeure, idris, ciel-soleil, pôle-monde]
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-09-09
 sources: ["[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/manazil-al-qamar]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-plan
 
 # Mahdi Rouge — L'Islam et le signe de la Balance : article I
 
-Article du projet Mahdi Rouge, portant sur la 14ᵉ Demeure lunaire (*al-simāk*, Vierge 17°08′37″ → 30°) et sa signification dans le cycle zodiacal islamique.
+Article du projet <span data-nom="mahdi-rouge" data-genre="cycle">Mahdi Rouge</span>, portant sur la 14ᵉ Demeure lunaire (*al-simāk*, Vierge 17°08′37″ → 30°) et sa signification dans le cycle zodiacal islamique.
 
 ## La 14ᵉ Demeure — données structurales
 
@@ -23,7 +23,7 @@ Article du projet Mahdi Rouge, portant sur la 14ᵉ Demeure lunaire (*al-simāk*
 - **Sagesse coranique associée** : *qadariyya* (sagesse du décret divin)
 - **Sphère cosmique** : « Ciel du Soleil, *samāʾ al-shams*, Demeure d'Idrīs »
 - **Fonctions** : Cœur du Monde, Cœur de l'Homme, Cœur des Sphères
-- **Présence du Pôle dans le monde** : « la présence du Pôle dans le monde se situe dans le quatrième Ciel, celui du Soleil (Idrīs) »
+- **Présence du Pôle dans le monde** : « la présence du Pôle dans le monde se situe dans le quatrième Ciel, celui du Soleil (<span data-nom="idris" data-genre="entite">Idrīs</span>) »
 
 ## La Balance comme seuil des Mystères
 

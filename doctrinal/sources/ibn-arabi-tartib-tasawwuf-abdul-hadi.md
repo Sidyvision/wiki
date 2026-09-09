@@ -21,7 +21,7 @@ tags:
 - qutb-meru-1911
 - incomplete
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-09-09
 sources:
 sources_count: 0
 cross_links:
@@ -33,9 +33,9 @@ cross_links:
 
 # Ibn ʿArabī — Tartîbut-Taçawwuf, les catégories de l'initiation (trad. Abdul-Hâdî)
 
-Traité du Cheikh al-Akbar Ibn ʿArabī sur les neuf catégories (*Tartîbut-Taçawwuf* —
+Traité du Cheikh al-Akbar <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> sur les neuf catégories (*Tartîbut-Taçawwuf* —
 « les ordres de l'initiation ») des initiés soufis, traduit et annoté par Abdul-Hâdî
-(Ivan Aguéli), publié dans ***La Gnose*** (revue de René Guénon), décembre 1911, N°12.
+(Ivan Aguéli), publié dans ***La Gnose*** (revue de <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>), décembre 1911, N°12.
 C'est le texte auquel Guénon renvoie explicitement en note 8 du ch. XIII des *États
 multiples de l'être*, comme équivalent akbarien de ses « hiérarchies spirituelles ».
 Transcription transmise par Sidy (2026-07-16), qui possède la collection intégrale de

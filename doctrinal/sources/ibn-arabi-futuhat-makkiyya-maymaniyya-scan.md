@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ibn-arabi, futuhat, maymaniyya, arabe, scan, corpus]
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-09
 sources:
   - "raw/Al Futuhat Al Makkiyya - maymaniya_p1.pdf"
   - "raw/maymaniya_p2.pdf"
@@ -26,8 +26,8 @@ cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/sources/osman-ya
 
 ## Identification
 
-*Al-Futūḥāt al-Makkiyya* de Muḥyī al-Dīn Ibn ʿArabī, dans l'édition du Caire dite
-**Maymaniyya** (al-Maṭbaʿa al-Maymaniyya), lithographie ancienne en quatre volumes.
+*Al-Futūḥāt al-Makkiyya* de Muḥyī al-Dīn <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, dans l'édition du Caire dite
+**<span data-nom="maymaniyya" data-genre="ouvrage">Maymaniyya</span>** (al-Maṭbaʿa al-Maymaniyya), lithographie ancienne en quatre volumes.
 C'est l'édition de référence classique, celle dont la pagination est citée par la
 littérature akbarienne avant l'édition critique d'Osman Yahia.
 
@@ -102,7 +102,7 @@ sur le scan avant d'être citées.
 
 ## Ce que cette fiche ne fait pas
 
-- **Elle ne verse aucun texte.** Aucun contenu de la *Futūḥāt* n'entre dans le dépôt
+- **Elle ne verse aucun texte.** Aucun contenu de la *<span data-nom="futuhat" data-genre="ouvrage">Futūḥāt</span>* n'entre dans le dépôt
   par elle. La conversion OCR du volume I existe, hors intégration, et son texte est
   jugé corrompu : il ne fonde aucune citation.
 - **Elle ne découpe rien.** Le repérage des 560 bābs dans le corps du texte a été

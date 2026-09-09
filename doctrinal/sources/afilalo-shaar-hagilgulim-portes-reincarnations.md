@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "kabbale"
 tags: [kabbale, gilgul, ibur, tikun, ame, nefesh, ruah, neshama, haya, yehida, arizal, isaac-louria, haim-vital, ame-soeur]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-09
 sources: ["[[doctrinal/autorites/isaac-louria-arizal]]", "[[doctrinal/autorites/haim-vital]]", "[[doctrinal/autorites/raphael-afilalo]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/cinq-noms-ame]]", "[[doctrinal/symboles/gilgul]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]", "[[doctrinal/deviations/reincarnation-vies-anterieures]]", "[[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]"]
@@ -18,7 +18,7 @@ cross_links: ["[[doctrinal/symboles/cinq-noms-ame]]", "[[doctrinal/symboles/gilg
 *Shaar Hagilgulim* (« Porte des Réincarnations »), chapitre du corpus de
 l'enseignement oral d'[[doctrinal/autorites/isaac-louria-arizal]] consigné par
 [[doctrinal/autorites/haim-vital]]. Traduction et annotation anglaises par
-[[doctrinal/autorites/raphael-afilalo]]. Texte primaire de la kabbale
+[[doctrinal/autorites/raphael-afilalo]]. Texte primaire de la <span data-nom="kabbale" data-genre="ecole">kabbale</span>
 lurianique (Safed, XVIe s.), premier de cette filiation à entrer dans le
 dépôt — cf. [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] qui
 notait l'absence de matière lurianique.
@@ -27,13 +27,13 @@ notait l'absence de matière lurianique.
 
 ## Contenu
 
-Le texte expose la doctrine du *gilgul* (réincarnation de l'âme) selon
+Le texte expose la doctrine du *<dfn data-terme="gilgul" data-translit="gilgul" data-tradition="kabbale">gilgul</dfn>* (réincarnation de l'âme) selon
 l'Arizal, en plusieurs volets détaillés dans les fiches dédiées :
 
-- [[doctrinal/symboles/cinq-noms-ame]] — les cinq noms de l'âme (Nefesh,
-  Ruaḥ, Neshama, Ḥaya, Yeḥida), leur rattachement aux quatre mondes (Asiah,
+- [[doctrinal/symboles/cinq-noms-ame]] — les cinq noms de l'âme (<dfn data-terme="nefesh" data-translit="Nefesh" data-tradition="kabbale">Nefesh</dfn>,
+  <dfn data-terme="ruah" data-translit="Ruaḥ" data-tradition="kabbale">Ruaḥ</dfn>, <dfn data-terme="neshama" data-translit="Neshama" data-tradition="kabbale">Neshama</dfn>, <dfn data-terme="haya" data-translit="Ḥaya" data-tradition="kabbale">Ḥaya</dfn>, <dfn data-terme="yehida" data-translit="Yeḥida" data-tradition="kabbale">Yeḥida</dfn>), leur rattachement aux quatre mondes (Asiah,
   Yetsirah, Beriah, Atsilut), et leur acquisition progressive selon le mérite.
-- [[doctrinal/symboles/gilgul]] — le mécanisme du gilgul et de l'*ibur*
+- [[doctrinal/symboles/gilgul]] — le mécanisme du gilgul et de l'*<dfn data-terme="ibur" data-translit="ibur" data-tradition="kabbale">ibur</dfn>*
   (attachement d'âme sans naissance), le but de la réincarnation, la teshuva
   par niveau d'âme, l'âme sœur, et les cas rapportés de réincarnation dans le
   minéral ou le végétal.

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, hyperboree, atlantide, pole, tradition-primordiale, tula, varaha, swastika, cycles-cosmiques, formes-traditionnelles]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/atlantide]]", "[[doctrinal/symboles/manvantara]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]", "[[doctrinal/sources/guenon-roi-du-monde-ch10]]", "[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]"]
@@ -14,12 +14,12 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/atlan
 # Atlantide et Hyperborée — René Guénon
 
 Article paru dans *Le Voile d'Isis* (octobre 1929), repris dans *Formes
-traditionnelles et Cycles cosmiques* (Gallimard). Réponse à deux notes de Paul Le
+traditionnelles et <span data-nom="cycles-cosmiques" data-genre="cycle">Cycles cosmiques</span>* (Gallimard). Réponse à deux notes de Paul Le
 Cour parues dans *Atlantis* (juin puis juillet-août 1929).
 
 ## Identification et statut
 
-`traditionnel` : Guénon y expose la doctrine reçue de la Tradition primordiale et de
+`traditionnel` : Guénon y expose la doctrine reçue de la <span data-nom="tradition-primordiale" data-genre="cycle">Tradition primordiale</span> et de
 sa localisation, en corrigeant des confusions. Le texte est **polémique de forme**
 mais **doctrinal de fond** — la réfutation sert à énoncer positivement ce qui est.
 
@@ -59,7 +59,7 @@ géographiquement, et cette fiche ne s'y risque pas davantage.
 
 ### 3. Hyperborée et Atlantide ne se confondent pas
 
-Le motif même de l'article. Guénon récuse l'expression « Atlantide hyperboréenne »
+Le motif même de l'article. Guénon récuse l'expression « <span data-nom="atlantide" data-genre="lieu">Atlantide</span> hyperboréenne »
 (Le Cour) et l'usage du terme « nord-atlantique » pour la région d'origine (Herman
 Wirth, *Der Aufgang der Menschheit*). Reprenant *Le Roi du Monde* :
 
@@ -105,7 +105,7 @@ occidentale à Fabre d'Olivet, qui aurait mêlé *Parashu-Râma* et *Râma-Chand
 > cela et qu'il l'a toujours été**, que telle est sa véritable signification
 > traditionnelle, ce qui est tout différent. »
 
-Le passage porte, au-delà du swastika, une distinction de méthode que le dépôt a
+Le passage porte, au-delà du <dfn data-terme="swastika" data-translit="swastika" data-tradition="universel">swastika</dfn>, une distinction de méthode que le dépôt a
 intérêt à retenir : Guénon oppose le « chercheur » qui « propose des explications
 selon des vues personnelles », n'étant « rattaché à aucune tradition actuellement
 vivante », à la **science initiatique** — « deux points de vue qui, même quand ils
@@ -176,7 +176,7 @@ Récupéré via clipping web (index-rene-guenon.org), déposé par Sidy dans
 `raw/Formes traditionnelles et Cycles cosmiques | René Guénon/`.
 
 **`to-source` levé le 2026-09-02** : Sidy confirme posséder l'exemplaire physique de
-*Formes traditionnelles et Cycles cosmiques*. Levée par **verdict humain** au titre du
+*<span data-nom="formes-traditionnelles" data-genre="ouvrage">Formes traditionnelles</span> et Cycles cosmiques*. Levée par **verdict humain** au titre du
 §VII (discipline des sources, point 2), non par collation ligne à ligne faite ce jour
 — à rouvrir ponctuellement si un doute précis se présentait sur une citation. Même
 forme et même précédent que la levée du 2026-08-30 sur le corpus *Symboles de la
@@ -191,10 +191,10 @@ Science sacrée*.
 - Fournit l'affirmation **explicite et sourcée** de l'origine **polaire** de la
   Tradition primordiale, adossée au *Vêda* — appui direct de la vigilance
   polaire/solaire (§VII du protocole racine).
-- Confirme sur texte la subordination du courant atlantéen au *Manvantara*, et la
-  distinction *Tula* hyperboréenne / *Tula* atlante déjà portée par
+- Confirme sur texte la subordination du courant atlantéen au *<span data-nom="manvantara" data-genre="cycle">Manvantara</span>*, et la
+  distinction *<span data-nom="tula" data-genre="lieu">Tula</span>* hyperboréenne / *Tula* atlante déjà portée par
   [[doctrinal/sources/guenon-roi-du-monde-ch10]].
-- Apporte *Borée* = *Varâha* / *Vârâhî* (« terre du sanglier », devenue « terre de
+- Apporte *Borée* = *<span data-nom="varaha" data-genre="entite">Varâha</span>* / *Vârâhî* (« terre du sanglier », devenue « terre de
   l'ours »), qui éclaire le couple sanglier/ourse et le nom du cycle.
 - Verse au dossier de l'état primordial la note 2 sur l'inclinaison de l'axe —
   **signalée, non tranchée**.

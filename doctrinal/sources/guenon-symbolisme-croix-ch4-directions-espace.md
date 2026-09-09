@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, symbolisme-croix, directions-espace, septenaire, qabbalah, sepher-ietsirah, axe-polaire, solsticial-equinoxial]
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", ""]
@@ -23,7 +23,7 @@ maçonnique, Ragon) : ni l'intersection écliptique/équateur (qui ne se coupent
 angle droit), ni la ligne des points équinoxiaux (une seule droite), ne forment
 géométriquement une véritable croix.
 
-**Structure correcte** : la **croix verticale** = plan de l'équateur + axe polaire qui
+**Structure correcte** : la **croix verticale** = plan de l'équateur + <span data-nom="axe-polaire" data-genre="principe">axe polaire</span> qui
 lui est perpendiculaire, joignant les deux pôles. La **croix horizontale** = ligne
 joignant les deux points solsticiaux + ligne joignant les deux points équinoxiaux.
 L'ensemble, de même centre, forme la **croix à trois dimensions**, dont les six branches
@@ -34,10 +34,10 @@ cardinaux qui, avec le centre lui-même, forment le **septénaire**.
 - Clément d'Alexandrie : Dieu, « Cœur de l'Univers », d'où partent six étendues
   indéfinies (haut/bas, droite/gauche, avant/arrière) — « c'est là le secret du nombre
   7 ».
-- *Qabbalah* hébraïque : le « Saint Palais »/« Palais intérieur » situé au centre des
+- *<span data-nom="qabbalah" data-genre="ecole">Qabbalah</span>* hébraïque : le « Saint Palais »/« Palais intérieur » situé au centre des
   six directions ; les trois lettres distinctes du Tétragramme (*iod he vau he*, le *he*
   répété) par permutation sextuple selon les six directions indiquent l'immanence du
-  *Logos* au centre. Long développement du *Sepher Ietsirah* (via Vulliaud et Moïse de
+  *Logos* au centre. Long développement du *<span data-nom="sepher-ietsirah" data-genre="ouvrage">Sepher Ietsirah</span>* (via Vulliaud et Moïse de
   Léon) : émanation du point primordial (*Kether*, l'insaisissable *Avir*/éther) vers la
   lettre *iod*, puis vers le Palais intérieur par les lignes des six directions.
 - Correspondance temporelle : six phases/millénaires bibliques (six mots de la Genèse,
@@ -70,6 +70,6 @@ Trédaniel 1996). Non encore recoupée avec un exemplaire physique.
 Pièce du socle métaphysique universel de l'Instrument, en continuité avec
 [[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]] —
 fournit l'origine septénaire (six directions + centre) de la croix à trois dimensions,
-et une précision doctrinale (axe polaire = axe principal, axes solsticial/équinoxial =
+et une précision doctrinale (axe polaire = axe principal, axes <span data-nom="solsticial-equinoxial" data-genre="principe">solsticial/équinoxial</span> =
 secondaires) utile à toute future clarification de la géométrie de l'Instrument, sous
 réserve du point de vigilance ci-dessus.

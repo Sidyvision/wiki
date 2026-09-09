@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, homme-devenir-vedanta, brahma, atma, turiya, vaishvanara, viraj, sat-chit-ananda, ibn-arabi, risalatul-ahadiyah, prajna, echelle-ontologique]
 created: 2026-07-16
-updated: 2026-08-11
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]"]
@@ -14,15 +14,15 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-
 # Guénon — L'Homme et son devenir selon le Vêdânta, ch. X, XV, XVI
 
 Chapitres X (« Unité et identité essentielles du "Soi" dans tous les états de
-l'être »), XV (« L'état de sommeil profond ou la condition de Prâjna ») et XVI
+l'être »), XV (« L'état de sommeil profond ou la condition de <dfn data-terme="prajna" data-translit="Prâjna" data-tradition="universel">Prâjna</dfn> ») et XVI
 (« L'état inconditionné d'Âtmâ ») de *L'Homme et son devenir selon le Vêdânta* (1925).
 Transcription transmise par Sidy (2026-07-16, index-rene-guenon.org).
 
 ## Ch. X — synthèse fidèle, paraphrase
 
 Tous les principes/éléments décrits comme distincts au point de vue individuel ne sont
-en réalité que des modalités manifestées de l'« Esprit Universel » (*Âtmâ*) — en
-principe, rien de distinct d'*Âtmâ*. Ils sont *Brahma* même, « sans dualité » (citation
+en réalité que des modalités manifestées de l'« Esprit Universel » (*<dfn data-terme="atma" data-translit="Âtmâ" data-tradition="universel">Âtmâ</dfn>*) — en
+principe, rien de distinct d'*Âtmâ*. Ils sont *<span data-nom="brahma" data-genre="entite">Brahma</span>* même, « sans dualité » (citation
 de la *Bhagavad-Gîtâ* : « Tous les êtres sont en moi et moi je ne suis pas en eux »).
 Longue citation des *Brahma-Sûtras* : la mer et ses eaux, la terre et ses minéraux, le
 lait qui devient caillé — autant d'images de la modification sans altération de
@@ -31,8 +31,8 @@ l'Unité. *Brahma* est *nirguna* (Suprême, *Para-Brahma*) en tant que cause, *s
 n'affecte Sa non-dualité (*adwaita*), le second n'étant qu'illusoire par rapport au
 premier.
 
-**Note 1, capitale — équivalence akbarienne directe** : Guénon cite **Ibn ʿArabī, dans
-son *Traité de l'Unité* (*Risâlatul-Ahadiyah*)** : « *Allah* — qu'Il soit exalté — est
+**Note 1, capitale — équivalence akbarienne directe** : Guénon cite **<span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, dans
+son *Traité de l'Unité* (*<span data-nom="risalatul-ahadiyah" data-genre="ouvrage">Risâlatul-Ahadiyah</span>*)** : « *Allah* — qu'Il soit exalté — est
 exempt de tout semblable ainsi que de tout rival, contraste ou opposant. » Et conclut :
 « Il y a d'ailleurs, à cet égard encore, une parfaite concordance entre le *Vêdânta* et
 l'ésotérisme islamique. »
@@ -66,7 +66,7 @@ est ce qu'il a appelé l'« Homme Universel », envisagé dans le développement
 ses états de manifestation. Dans ce chapitre, l'extension du terme est restreinte à
 l'état le plus extérieur (manifestation grossière), pris comme symbole de l'ensemble —
 « il suffira... d'effectuer les transpositions convenables suivant les degrés auxquels
-la conception devra s'appliquer ». *Vaishwânara* est aussi identifié à *Virâj*,
+la conception devra s'appliquer ». *Vaishwânara* est aussi identifié à *<span data-nom="viraj" data-genre="entite">Virâj</span>*,
 l'Intelligence cosmique régissant le monde corporel, et signifie encore « ce qui est
 commun à tous les hommes » (le « génie de l'espèce »).
 
@@ -112,7 +112,7 @@ l'Être "qui Se connaît Soi-même par Soi-même". »
 
 Citation de la *Mândûkya Upanishad* : « Veille, rêve, sommeil profond, et ce qui est
 au-delà, tels sont les quatre états d'*Âtmâ* ; le plus grand est le Quatrième
-(*Turīya*). » Des quatre « pieds » (*pâdas*) d'*Âtmâ*, les trois premiers ne comptent
+(*<dfn data-terme="turiya" data-translit="Turīya" data-tradition="universel">Turīya</dfn>*). » Des quatre « pieds » (*pâdas*) d'*Âtmâ*, les trois premiers ne comptent
 que pour un quart en importance métaphysique — le Quatrième vaut les trois autres
 quarts. Le Quatrième est invisible, non-agissant, incompréhensible, indéfinissable,
 impensable, indescriptible — « l'unique essence fondamentale du "Soi" », totalement
@@ -123,7 +123,7 @@ affranchi des conditions de la manifestation.
 **Qualification sashimono** (convention, cf. `philosophie-sashimono.md` §6-7) : les
 deux équivalences relevées ci-dessus se qualifient en **hozo** — Risâlatul-Ahadiyah
 d'Ibn ʿArabī ↔ non-dualité de *Brahma* (même réalité, deux voiles) ; *El-Aqlu/El-Âqil/
-El-Maqûl* ↔ *Sat-Chit-Ānanda* (même triade, deux voiles). Toutes deux posées par
+El-Maqûl* ↔ *<dfn data-terme="sat-chit-ananda" data-translit="Sat-Chit-Ānanda" data-tradition="universel">Sat-Chit-Ānanda</dfn>* (même triade, deux voiles). Toutes deux posées par
 Guénon, non construites par ce dépôt. **État : kari-kumi** — proposées à blanc, aucun
 joint taillé dans le YAML.
 

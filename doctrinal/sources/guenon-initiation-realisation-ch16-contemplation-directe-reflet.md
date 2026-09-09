@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, contemplation, vision, imagination, activite-passivite, illusion, initiation-realisation-spirituelle]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/con
 
 ## Référence
 
-**René Guénon**, *Initiation et Réalisation spirituelle*, ch. XVI, éd. Éditions
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Initiation et Réalisation spirituelle*, ch. XVI, éd. Éditions
 Traditionnelles, 1967. Texte consulté dans `raw/` (`Chapitre=566`, sigle `IRS`),
 **lu intégralement**.
 

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, initiation, rattachement, silsila, chaine-initiatique, qualification, regularite, apercus-sur-l-initiation]
 created: 2026-08-13
-updated: 2026-09-06
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]]", "[[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles]]", "[[doctrinal/sources/guenon-hermetisme-hermes-thoth]]", "[[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 ## Référence
 
-**René Guénon**, *Aperçus sur l'initiation*, éd. Éditions Traditionnelles.
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Aperçus sur l'initiation*, éd. Éditions Traditionnelles.
 Chapitres couverts : **V, « De la régularité initiatique »** et **VIII, « De la
 transmission initiatique »**. Textes disponibles dans le dépôt, **lus
 intégralement** :

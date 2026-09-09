@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, egregore, entite-collective, influences-spirituelles, confusion-psychique-spirituel, occultisme, initiation-realisation-spirituelle]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]", "[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/con
 
 ## Référence
 
-**René Guénon**, *Initiation et Réalisation spirituelle*, ch. VI, éd. Éditions
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Initiation et Réalisation spirituelle*, ch. VI, éd. Éditions
 Traditionnelles, 1967. Texte consulté dans `raw/` (`Chapitre=556`, sigle `IRS`),
 **lu intégralement**.
 

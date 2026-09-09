@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [mahdi-rouge, balance, mizan, commencement-temps, arc-diurne-nocturne, cycles-Ibn-Arabi, poitrine-temps]
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-09-09
 sources: ["[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/ilm-al-nujum]]", "[[doctrinal/symboles/manvantara]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrina
 
 # Mahdi Rouge — L'Islam et le signe de la Balance : article II
 
-Article du projet Mahdi Rouge portant sur la Balance comme **commencement du cycle temporel** et **interface entre traditions antérieures et Islam**.
+Article du projet <span data-nom="mahdi-rouge" data-genre="cycle">Mahdi Rouge</span> portant sur la Balance comme **commencement du cycle temporel** et **interface entre traditions antérieures et Islam**.
 
 ## La Balance comme commencement du temps
 
@@ -56,7 +56,7 @@ Titres et attributs de la Balance :
 
 **Total : 78 000 ans.** Analyse de l'annotateur : 
 - Grande Année guénonienne = 12 960 ans
-- Manvantara = 5 Grandes Années = 64 800 ans
+- <span data-nom="manvantara" data-genre="cycle">Manvantara</span> = 5 Grandes Années = 64 800 ans
 - Douze *burūj* ≈ 6 Grandes Années = 77 760 ans (écart de ~240 ans, ~0,3 %)
 - La régression de 1 000 ans par signe code l'**accélération progressive du temps** dans le déroulement cyclique
 

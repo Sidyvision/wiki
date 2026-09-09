@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, hermes, thoth, hermetisme, egypte, sacerdoce, initiation-royale, alchimie]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/idris]]", "[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]]"]
@@ -17,11 +17,11 @@ Chapitre XLI (« Quelques considérations sur l'hermétisme ») d'*Aperçus sur 
 (Éditions Traditionnelles). Transcription en `raw/Aperçu sur l'initiation/`. Lu et fiché
 le 2026-08-25, sur confirmation de Sidy (« Oui, Guénon en parle quelque part »), à l'appui
 du deuxième maillon de
-[[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] (Idrīs = Hermès).
+[[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] (<span data-nom="idris" data-genre="entite">Idrīs</span> = <span data-nom="hermes" data-genre="entite">Hermès</span>).
 
 ## Contenu (synthèse fidèle, citation)
 
-Guénon établit que le mot « hermétisme » désigne « une tradition d'origine égyptienne,
+Guénon établit que le mot « <span data-nom="hermetisme" data-genre="ecole">hermétisme</span> » désigne « une tradition d'origine égyptienne,
 revêtue par la suite d'une forme hellénisée [...] à l'époque alexandrine », puis précise
 le fondement de ce nom :
 
@@ -53,7 +53,7 @@ puis incorporation dans des traditions tierces encore vivantes :
 
 La note 7 attachée à ce passage précise la condition de validité d'une telle
 transposition : « dès lors que le lien avec un principe supérieur et véritablement
-transcendant n'est pas rompu ». Ce point, distinct de l'identité Hermès=Thoth elle-même,
+transcendant n'est pas rompu ». Ce point, distinct de l'identité Hermès=<span data-nom="thoth" data-genre="entite">Thoth</span> elle-même,
 est retenu ici pour son usage propre dans
 [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] — voir
 « Utilisation dans le dépôt » ci-dessous.

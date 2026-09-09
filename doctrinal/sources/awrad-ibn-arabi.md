@@ -11,7 +11,7 @@ tags:
 - ibn-arabi
 - traduction
 created: 2026-06-02
-updated: 2026-08-30
+updated: 2026-09-09
 sources_count: 0
 cross_links:
 - '[[ibn-arabi]]'
@@ -40,7 +40,7 @@ sources: []
 
 ## Résumé
 
-Recueil des litanies et bénédictions prophétiques ([[salawat]]) attribuées à [[ibn-arabi]], compilées, translitérées et traduites en anglais pour la première fois par Dr. Ali Hussain. Le livre est publié par l'ISCA, institution associée à la voie Naqshbandiyya-Haqqaniyya (Mawlana Shaykh Hisham Kabbani est cité dans l'introduction).
+Recueil des litanies et bénédictions prophétiques ([[salawat]]) attribuées à [[ibn-arabi]], compilées, translitérées et traduites en anglais pour la première fois par Dr. <span data-nom="ali-hussain" data-genre="autorite">Ali Hussain</span>. Le livre est publié par l'ISCA, institution associée à la voie Naqshbandiyya-Haqqaniyya (Mawlana Shaykh Hisham Kabbani est cité dans l'introduction).
 
 L'ouvrage se présente comme une édition critique collationnée à partir de plusieurs éditions arabes existantes. L'introduction souligne qu'Ibn ʿArabī occupait le rang spirituel de *khatm al-walāya al-muḥammadiyya* (le sceau de la sainteté muhammadienne), rang central dans sa métaphysique.
 
@@ -71,7 +71,7 @@ Litanies pour chaque nuit et chaque jour de la semaine (dimanche→samedi), soit
 - [[wird-awrad]] — pratique des litanies quotidiennes
 - [[walaya]] — sainteté soufie, thème du Ḥizb al-Wiqāya
 - [[tasawwuf]] — cadre spirituel général
-- *Khatm al-walāya al-muḥammadiyya* — rang spirituel suprême attribué à Ibn ʿArabī
+- *Khatm al-walāya al-muḥammadiyya* — rang spirituel suprême attribué à <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>
 - *Al-ḥaḍarāt al-ilāhiyya al-khams* — les Cinq Présences divines
 - *Nafas al-raḥmānī* — le Souffle du Miséricordieux, concept cosmologique akbarien
 - *Barzakh* — isthme entre deux réalités, ici entre existence et non-existence

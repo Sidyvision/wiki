@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, vedanta, om, matras, prajna, sushumna, nadis, rayon-solaire, krama-mukti, posthume, axe]
 created: 2026-08-04
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/eschatologie]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coro
 
 # L'Homme et son devenir selon le Vêdânta, ch. XV-XXI en 1ʳᵉ éd. (= XIV-XX de l'exemplaire)
 
-*René Guénon, éd. Bossard, 1925.*
+*<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, éd. Bossard, 1925.*
 
 ⚠️ **Pagination to-source** — transcription via index-rene-guenon.org.
 Authenticité confirmée par Sidy (2026-08-04) ; pagination à fournir
@@ -76,14 +76,14 @@ Vérifier la couverture avant tout complément.
 ## Ch. XVII — Représentation symbolique d'*Âtmâ* et de ses conditions par le monosyllabe sacré *Om*
 
 Traduction commentée de la fin de la *Mândûkya Upanishad* (shrutis 8 à 12) :
-les *mâtrâs* d'*Om* **sont** les conditions (*pâdas*) d'*Âtmâ*, et
+les *<dfn data-terme="matras" data-translit="mâtrâs" data-tradition="universel">mâtrâs</dfn>* d'*Om* **sont** les conditions (*pâdas*) d'*Âtmâ*, et
 réciproquement.
 
 | *Mâtrâ* | Condition | Raison symbolique |
 |---|---|---|
 | **A** | *Vaishwânara* (veille) | la connexion (*âpti*) de tous les sons, et le commencement (*âdi*) |
 | **U** | *Taijasa* (rêve) | l'élévation (*utkarsha*) et la participation des deux (*ubhaya*) — intermédiaire, *sandhyâ* |
-| **M** | *Prâjna* (sommeil profond) | la mesure (*miti*) des deux autres, et l'aboutissement |
+| **M** | *<dfn data-terme="prajna" data-translit="Prâjna" data-tradition="universel">Prâjna</dfn>* (sommeil profond) | la mesure (*miti*) des deux autres, et l'aboutissement |
 | *amâtra* | le Quatrième | « non-caractérisé », non-agissant (*avyavahârya*), sans trace du développement de la manifestation (*prapancha-upashama*), toute Béatitude et sans dualité (*Shiva Adwaita*) — *Omkâra*, *Âtmâ* en Soi |
 
 **Quatre degrés de réalisation** correspondants (méditation, *upâsanâ*) :
@@ -132,10 +132,10 @@ les cinq *bhûtas*.
 
 ## Ch. XIX — Suite ; les *Nâdis* et la circulation des énergies
 
-Structure et rôle des *nâdis*, canaux subtils de circulation de l'énergie vitale
-(*prâna*), en particulier la *Sushumnâ*, principal nadi central qui monte de la
+Structure et rôle des *<dfn data-terme="nadis" data-translit="nâdis" data-tradition="universel">nâdis</dfn>*, canaux subtils de circulation de l'énergie vitale
+(*prâna*), en particulier la *<dfn data-terme="sushumna" data-translit="Sushumnâ" data-tradition="universel">Sushumnâ</dfn>*, principal nadi central qui monte de la
 base de la colonne vertébrale au sommet du crâne (*Brahma-randhra*, « trou de
-Brahma »), par où transite le rayon solaire.
+Brahma »), par où transite le <span data-nom="rayon-solaire" data-genre="principe">rayon solaire</span>.
 
 ⚠️ **Vigilance conservée** : le nadi central *Sushumnâ* n'est pas à confondre
 avec la *sushumna* du système Nadi comme canal énergétique, et le

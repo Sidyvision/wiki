@@ -9,7 +9,7 @@ traduction: "française, par Gilen"
 pages: 20
 tags: [kabbale, sefer-yetsira, ramban, transcription-brute]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: []
@@ -24,9 +24,9 @@ cross_links: []
 ---
 
 ED
-Sefer Yetsira
+<span data-nom="sefer-yetsira" data-genre="ouvrage">Sefer Yetsira</span>
 Livre de la Création
-Avec le Commentaire du Ramban
+Avec le Commentaire du <span data-nom="ramban" data-genre="autorite">Ramban</span>
 Traduction française par Gilen
 ---
 ## Chapitre I

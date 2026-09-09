@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, dome, roue, axe-du-monde, skambha, qutb, stauros, metier-traditionnel, symboles-science-sacree]
 created: 2026-08-29
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]"]
@@ -22,10 +22,10 @@ et l'*ushnîsha*).
 
 - **Passage central (identité nommée de l'Axe du Monde à travers trois
   traditions)** : à propos de l'essieu du char cosmique, « [cet essieu]
-  représente ici l'"Axe du Monde", et [...] équivaut au pilier (*skambha*)
+  représente ici l'"<span data-nom="axe-du-monde" data-genre="principe">Axe du Monde</span>", et [...] équivaut au pilier (*<span data-nom="skambha" data-genre="principe">skambha</span>*)
   central d'un édifice » ; et plus loin, en note, dans un développement sur le
   même axe : **« avec notre Axe de l'Univers (*skambha*, *divo dharuna*,
-  etc.), *qutb* islamique et *stauros* gnostique »** — Guénon réunit
+  etc.), *<dfn data-terme="qutb" data-translit="qutb" data-tradition="universel">qutb</dfn>* islamique et *<span data-nom="stauros" data-genre="principe">stauros</span>* gnostique »** — Guénon réunit
   explicitement, dans un même énoncé, le terme védique (*skambha*), le terme
   islamique (*qutb*) et le terme gnostique (*stauros*) comme désignant un seul
   et même axe.

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "hindouisme"
 tags: [guenon, etudes-hindouisme, nama-rupa, archetype, idee-platonicienne, monde-intelligible, symbolisme, reflet]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 # Guénon — Nâma-Rûpa : la nature du rapport entre l'archétype et l'individu
 
-Article « Nâma-Rûpa » d'*Études sur l'Hindouisme* (Éditions Traditionnelles, 1968 ;
+Article « <dfn data-terme="nama-rupa" data-translit="Nâma-Rûpa" data-tradition="hindouisme">Nâma-Rûpa</dfn> » d'*Études sur l'Hindouisme* (Éditions Traditionnelles, 1968 ;
 paru d'abord dans *Études traditionnelles*, mars 1940). Transcription en
 `raw/Études sur l'Hindouïsme/`. Lu et fiché le 2026-08-25 à l'appui de l'instruction
 de Sidy : « vois ce que dit Guénon encore au sujet du Symbole et de l'archétype. Il

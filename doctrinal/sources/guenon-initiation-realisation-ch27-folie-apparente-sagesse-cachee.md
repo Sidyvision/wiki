@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, majdhub, quietisme, fous-en-christ, jongleur, desequilibre, simulation, initiation-realisation-spirituelle]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]", "[[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/con
 
 ## Référence
 
-**René Guénon**, *Initiation et Réalisation spirituelle*, ch. XXVII, éd. Éditions
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Initiation et Réalisation spirituelle*, ch. XXVII, éd. Éditions
 Traditionnelles, 1967. Texte consulté dans `raw/` (`Chapitre=577`, sigle `IRS`),
 **lu intégralement**.
 
@@ -70,7 +70,7 @@ un obstacle ».
 ### 3. Le véritable *majdhûb*
 
 Cas islamique, « très différent » malgré la ressemblance extérieure : il ne s'agit
-« plus de simulation, ni d'ailleurs de mysticisme ». Le *majdhûb* « appartient
+« plus de simulation, ni d'ailleurs de mysticisme ». Le *<dfn data-terme="majdhub" data-translit="majdhûb" data-tradition="universel">majdhûb</dfn>* « appartient
 normalement à une *tarîqah* » et a suivi une voie initiatique au moins dans ses
 premiers stades. Une « attraction » (*jadhb*) s'est exercée sur lui,
 

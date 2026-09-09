@@ -17,7 +17,7 @@ tags:
 - litterature-americano-anglophone
 - politique-onirique
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links:
@@ -84,8 +84,8 @@ pas encore — mais il devrait.
    les choses). L'islamofuturisme est nécessairement *anti-anti-utopien*. 1984 (Orwell)
    = dystopie ; *Brave New World* (Huxley) = anti-utopie.
 
-6. **ʿĀlam al-mithāl / ʿĀlam al-khayāl** — le « monde imaginal » élaboré par Ibn ʿArabī
-   (m. 1240) et Shāh Walī Allāh (m. 1762) comme *barzakh* entre le monde matériel des
+6. **<dfn data-terme="alam-al-mithal" data-translit="ʿĀlam al-mithāl" data-tradition="islam">ʿĀlam al-mithāl</dfn> / ʿĀlam al-khayāl** — le « monde imaginal » élaboré par Ibn ʿArabī
+   (m. 1240) et Shāh Walī Allāh (m. 1762) comme *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>* entre le monde matériel des
    corps et le monde immatériel des esprits. Herbert aurait repris ce concept. Elbenni
    localise dans ce barzakh l'origine des rêves de la science fiction — entre directive
    d'un autre monde et expérience empirique.

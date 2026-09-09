@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ibn-arabi, fusus-al-hikam, nafas-rahmani, maratib-al-wujud, barzakh, al-insan-al-kamil, alam-al-huruf, manazil-al-qamar, meftah, albouraq]
 created: 2026-07-01
-updated: 2026-07-09
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[ibn-arabi]]", "[[nafas-rahmani]]", "[[barzakh]]", "[[al-insan-al-kamil]]", "[[ilm-al-huruf]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "[[meftah-chatons-sagesses-transcription]]"]
@@ -15,9 +15,9 @@ cross_links: ["[[ibn-arabi]]", "[[nafas-rahmani]]", "[[barzakh]]", "[[al-insan-a
 
 ## Identification
 
-- **Auteur** : Abdel-Bâqî Meftah
+- **Auteur** : Abdel-Bâqî <span data-nom="meftah" data-genre="autorite">Meftah</span>
 - **Traduction et notes** : D. Tournepiche
-- **Éditeur** : Albouraq, collection « Héritage Spirituel »
+- **Éditeur** : <span data-nom="albouraq" data-genre="ouvrage">Albouraq</span>, collection « Héritage Spirituel »
 - **Nature** : 3ème et nouvelle version de l'étude de Meftah sur les *Fuçûç al-Ḥikam*
   d'Ibn ʿArabī — exposé complet des clés de compréhension.
 - **Statut en bibliothèque** : confirmé (photo tranche, 2026-07-01)
@@ -44,7 +44,7 @@ proviennent de la 2ème édition (Arma Artis). Leurs équivalents se trouvent da
 Les 28 chapitres des *Fuçûç al-Ḥikam* correspondent à autant de :
 - **Lettres de l'alphabet arabe** (28 lettres)
 - **Sagesses prophétiques** symbolisant les diverses modalités du Verbe divin / Logos universel
-- **Degrés de la procession du Principe** dans la manifestation — les *marātib al-wujūd*
+- **Degrés de la procession du Principe** dans la manifestation — les *<dfn data-terme="maratib-al-wujud" data-translit="marātib al-wujūd" data-tradition="islam">marātib al-wujūd</dfn>*
 
 Cette triple correspondance est fondée sur les sections 11 à 38 du **chapitre 198 des
 *Futūhāt al-Makkiyya*** d'Ibn ʿArabī, intitulé : « Sur la connaissance du Souffle (*nafas*) »
@@ -68,11 +68,11 @@ L'Intellect premier (*al-ʿaql al-awwal*) reçoit plusieurs désignations équiv
 | Désignation | Tradition |
 |---|---|
 | *Al-qalam al-aʿlā* (le Calame suprême) | Islam |
-| *Alif* (symbole de l'axe du monde) | ʿIlm al-ḥurūf islamique |
+| *Alif* (symbole de l'axe du monde) | <dfn data-terme="ilm-al-huruf" data-translit="ʿIlm al-ḥurūf" data-tradition="islam">ʿIlm al-ḥurūf</dfn> islamique |
 | *Sūtrātmā* | Doctrine hindoue |
 | *Al-ḥaqīqa al-muḥammadiyya* (la Réalité muhammadienne) | Tasawwuf akbarien |
 
-Cette réalité est **polarisée dans les deux faces du *barzakh*** :
+Cette réalité est **polarisée dans les deux faces du *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>*** :
 - *Al-raḥmān* ↔ *ātmā* (doctrine hindoue)
 - *Al-rūḥ* (l'Esprit) ↔ *buddhi* (doctrine hindoue)
 
@@ -87,7 +87,7 @@ Ce passage établit une convergence quadruple, entièrement interne à la Tradit
 et sourcée dans les *Futūhāt* (chap. 198, §§ 11–38) :
 
 **28 *fuçûç*** = **28 lettres arabes** = **28 degrés du *nafas al-raḥmān*** = **28 Demeures
-lunaires** (*manāzil al-qamar* — voir [[manazil-al-qamar]])
+lunaires** (*<dfn data-terme="manazil-al-qamar" data-translit="manāzil al-qamar" data-tradition="islam">manāzil al-qamar</dfn>* — voir [[manazil-al-qamar]])
 
 Cette quadruple convergence est le fondement doctrinal le plus solide disponible pour
 la **Phase 5 (couche astrologique)** de l'Instrument : les 28 Demeures ne sont pas un
@@ -102,7 +102,7 @@ Proposition à soumettre au Gem René Guénon avant d'établir comme corresponda
 - Sections 11–38 du chap. 198 des *Futūhāt* (doctrine du *nafas al-raḥmān*) — non encore
   transcrites
 - Les 28 *fuçûç* et leur correspondance lettrière — non encore transcrits
-- Ibn ʿArabī, *Le Livre du Mīm, du Wāw et du Nūn*, § 18 (éd. et trad. C. A. Gilis, Paris,
+- <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span>, *Le Livre du Mīm, du Wāw et du Nūn*, § 18 (éd. et trad. C. A. Gilis, Paris,
   2002) — cité en note 3 sur *al-jawhāniyya* et *al-maʿnā al-faḥwāniyya*
 
 ## Concepts liés

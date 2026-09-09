@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "hindouisme"
 tags: [tilak, vedas, origine-polaire, philologie, academique]
 created: 2026-07-14
-updated: 2026-09-02
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]", "[[doctrinal/sources/tilak-orion-antiquite-vedas-1893]]", "[[doctrinal/sources/guenon-atlantide-hyperboree]]", "[[doctrinal/symboles/adityas-mois-du-soleil]]", "[[doctrinal/symboles/ushas-les-trente-aurores]]", "[[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]", "
 
 # Origine polaire de la tradition védique — Bâl Gangâdhar Tilak
 
-Traduction française de *The Arctic Home in the Vedas being also New Key to the
+Traduction française de *The Arctic Home in the <span data-nom="vedas" data-genre="ouvrage">Vedas</span> being also New Key to the
 Interpretation of Many Vedic Texts and Legends* (Jean et Claire Remy, Arché, Milano,
 1979).
 
@@ -49,7 +49,7 @@ même :
 - **la géométrie** décrite au ch. III — soleil levant au sud, astres en plans
   horizontaux, jour et nuit de six mois, aurore tournant comme une roue de
   potier — est de l'**astronomie sphérique**. Elle se calcule, se vérifie, et ne
-  dépend en rien de ce qu'on pense de Tilak ;
+  dépend en rien de ce qu'on pense de <span data-nom="tilak" data-genre="autorite">Tilak</span> ;
 - **la thèse** qu'il en tire — les hymnes védiques conservent le souvenir de
   cette situation, donc la tradition védique est d'origine arctique — est
   `academique`, disputée, et n'est **pas adoptée** par le dépôt.

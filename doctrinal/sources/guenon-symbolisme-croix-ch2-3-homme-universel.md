@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, symbolisme-croix, homme-universel, insan-al-kamil, ibn-arabi, jili, ampleur-exaltation, identite-supreme, macrocosme-microcosme]
 created: 2026-07-16
-updated: 2026-08-11
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]]"]
@@ -20,15 +20,15 @@ transmise par Sidy (2026-07-16, index-rene-guenon.org).
 ## Ch. II — synthèse fidèle, paraphrase
 
 La réalisation effective des états multiples de l'être se réfère à la conception de
-l'« Homme Universel », établissant l'analogie constitutive entre manifestation
-universelle et modalité individuelle humaine (macrocosme/microcosme).
+l'« <span data-nom="homme-universel" data-genre="entite">Homme Universel</span> », établissant l'analogie constitutive entre manifestation
+universelle et modalité individuelle humaine (<span data-nom="macrocosme-microcosme" data-genre="principe">macrocosme/microcosme</span>).
 
 **Note capitale (note 1)** : Guénon précise que l'« Homme Universel » (en arabe
 ***El-Insânul-kâmil***) est l'*Adam Qadmôn* de la Qabbalah hébraïque, et le « Roi »
 (*Wang*) de la tradition extrême-orientale. Il ajoute : « il existe, dans l'ésotérisme
 islamique, un assez grand nombre de traités de différents auteurs sur *El-Insânul-kâmil*
 ; nous mentionnerons seulement ici, comme plus particulièrement importants à notre
-point de vue, ceux de **Mohyiddin ibn Arabi et d'Abdul-Karîm El-Jîli**. »
+point de vue, ceux de **Mohyiddin <span data-nom="ibn-arabi" data-genre="autorite">ibn Arabi</span> et d'Abdul-Karîm El-Jîli**. »
 
 Toute transposition métaphysique de ce type est une analogie appliquée **en sens
 inverse** (symbole du sceau de Salomon) : ce qui est premier dans l'ordre principiel
@@ -48,7 +48,7 @@ la totalité des états de l'être, hiérarchisés, en épanouissement selon deu
 base, toutes ses modalités, non la seule partie corporelle) et **l'« exaltation »**
 (vertical — hiérarchie indéfinie des états multiples, chacun un « monde » ou degré).
 
-**Note capitale (note 1)** : « Ces termes [ampleur/exaltation] sont empruntés au
+**Note capitale (note 1)** : « Ces termes [<span data-nom="ampleur-exaltation" data-genre="principe">ampleur/exaltation</span>] sont empruntés au
 langage de l'ésotérisme islamique, qui est particulièrement précis sur ce point. »
 Citation retenue, de l'*Épître sur la Manifestation du Prophète* (Sheikh Mohammed ibn
 Fadlallah El-Hindi) : « Lorsque l'homme, dans le "degré universel", s'exalte vers le
@@ -61,7 +61,7 @@ L'état dont le développement est figuré par la ligne horizontale peut être u
 quelconque — pour nous, l'état humain, sans que cela en fasse un cas privilégié au
 plan métaphysique pur. La totalisation effective de l'être, au-delà de toute condition,
 est identique à ce que la doctrine hindoue appelle la « Délivrance » (*Moksha*), et ce
-que l'ésotérisme islamique appelle l'**« Identité Suprême »**. L'ensemble « Adam-Ève »
+que l'ésotérisme islamique appelle l'**« <span data-nom="identite-supreme" data-genre="principe">Identité Suprême</span> »**. L'ensemble « Adam-Ève »
 a le nombre d'Allah (66), expression de cette Identité Suprême — l'état édénique étant
 déjà une réalisation virtuelle, l'état de « communication directe avec les autres
 états ».
@@ -84,7 +84,7 @@ ces joints sont proposés à blanc, non taillés dans le YAML.
   (degrés)/verticale (axe) déjà construite pour l'Instrument suit la même structure que
   Guénon désigne comme d'origine akbarienne.
 - La mention nommée d'**Ibn ʿArabī et d'al-Jīlī** comme sources de référence sur
-  *al-Insān al-Kāmil* fournit une assise supplémentaire, venant de Guénon lui-même, au
+  *<dfn data-terme="al-insan-al-kamil" data-translit="al-Insān al-Kāmil" data-tradition="universel">al-Insān al-Kāmil</dfn>* fournit une assise supplémentaire, venant de Guénon lui-même, au
   filament déjà rendu dans le prototype — et signale al-Jīlī (*De l'Homme Universel*,
   déjà présent au catalogue de la bibliothèque physique de Sidy) comme lecture
   complémentaire naturelle à Ibn ʿArabī sur ce point précis.

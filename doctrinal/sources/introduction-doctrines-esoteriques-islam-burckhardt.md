@@ -7,7 +7,7 @@ deprecated: true
 note: "Superseded by [[burckhardt-introduction-doctrines-esoteriques-islam]] (2026-07-10, intégration v2 avec transcription fidèle)"
 tags: [soufisme, metaphysique, cosmologie, hadarat, burckhardt, doctrines-esoteriques]
 created: 2026-06-29
-updated: 2026-06-29
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[hadarat-khams]]", "[[barzakh]]"]
@@ -17,7 +17,7 @@ cross_links: ["[[hadarat-khams]]", "[[barzakh]]"]
 
 ## Référence
 
-Titus Burckhardt, *Introduction aux doctrines ésotériques de l'Islam*, chapitre II
+Titus <span data-nom="burckhardt" data-genre="autorite">Burckhardt</span>, *Introduction aux <span data-nom="doctrines-esoteriques" data-genre="principe">doctrines ésotériques</span> de l'Islam*, chapitre II
 « Fondements doctrinaux », pp. 111-115 (édition de référence à préciser dans la
 bibliothèque physique de Sidy).
 

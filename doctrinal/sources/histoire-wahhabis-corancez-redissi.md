@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [wahhabisme, corancez, histoire, redissi, sources-primaires, a-revoir]
 created: 2026-08-09
-updated: 2026-08-09
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion]]"]
@@ -21,9 +21,9 @@ cross_links: ["[[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-calif
 
 ## Notice bibliographique
 
-- **Auteur** : Louis Alexandre Olivier de Corancez
+- **Auteur** : Louis Alexandre Olivier de <span data-nom="corancez" data-genre="autorite">Corancez</span>
 - **Titre** : *L'Histoire des Wahabis et la naissance du Royaume Saoudien*
-- **Préface** : Hamadi Redissi
+- **Préface** : Hamadi <span data-nom="redissi" data-genre="autorite">Redissi</span>
 - **Éditeur** : Albouraq, collection « Études »
 - **Contenu de l'édition** : Préface (p. 7), Biographie [de Corancez] (p. 15),
   Avant-propos [de l'édition] (p. 21), Présentation de l'ouvrage (p. 25), puis le texte
@@ -131,7 +131,7 @@ Le paradoxe est que l'accord du grand imām ne constitue nullement en soi une pr
 canonique. L'emploi du qiyās (syllogisme, simple raisonnement analogique) n'est
 légitime qu'en cas de nécessité absolue.
 
-Une des principales caractéristiques du wahhabisme est l'affirmation de la priorité
+Une des principales caractéristiques du <span data-nom="wahhabisme" data-genre="ecole">wahhabisme</span> est l'affirmation de la priorité
 du texte (naṣṣ), mais cette affirmation est littérale, toute métaphore, allégorie est
 bannie. La compréhension la plus évidente est la signification apparente (ẓawāhir)
 des textes.

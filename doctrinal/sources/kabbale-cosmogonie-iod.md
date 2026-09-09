@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "kabbale"
 tags: [kabbale, cosmogonie, iod, point-primordial, avir, aor, lettres-hebraiques, creation, palais-interieur, tetragramme]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-09
 sources: ["[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]]", "[[doctrinal/sources/sefer-yetsira-ramban]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]]"]
@@ -27,7 +27,7 @@ doctrine complète et la confronte au commentaire du Ramban.
 
 ### 1. Aïn — Le mystère de l'éther pur
 
-- **Aïn** (אַיִן) : « le mystère de l'éther pur et insaisissable » (*Avir*)
+- **Aïn** (אַיִן) : « le mystère de l'éther pur et insaisissable » (*<dfn data-terme="avir" data-translit="Avir" data-tradition="kabbale">Avir</dfn>*)
 - Nommé par simple négation (incompréhensibilité)
 - Avant le point, rien ne peut être compté : « Avant l'Un, que peux-tu compter ? »
 - Correspond à l'Absolu non manifesté
@@ -37,7 +37,7 @@ doctrine complète et la confronte au commentaire du Ramban.
 - **Kether** (כֶּתֶר) : première des 10 Sephiroth, la « Couronne suprême »
 - Correspond au pur éther — « cause de toutes les causes »
 - Le « vêtement » d'Aïn-Soph (Guénon, *Homme et son devenir*, ch. X, note 9)
-- Triptyque : Kether/Aïn-Soph (Kabbale) = Asrâr rabbâniyah (Islam) = Mâyâ/Shakti
+- Triptyque : Kether/Aïn-Soph (<span data-nom="kabbale" data-genre="ecole">Kabbale</span>) = Asrâr rabbâniyah (Islam) = Mâyâ/Shakti
   de Brahma (Vêdânta)
 
 ### 3. Le point caché — La lettre *iod*
@@ -50,21 +50,21 @@ doctrine complète et la confronte au commentaire du Ramban.
 
 ### 4. Les trois points du *iod*
 
-- Le point primordial forme **trois points** (Commencement, Milieu, Fin) dans le *iod*
+- Le <span data-nom="point-primordial" data-genre="principe">point primordial</span> forme **trois points** (Commencement, Milieu, Fin) dans le *iod*
 - L'Un manifesté
 - Comparés aux trois éléments du monosyllabe *Aum* (A-U-M)
 - Structure ternaire dans l'unité
 
 ### 5. L'émanation du Palais intérieur
 
-- Du point caché émane le **Saint Palais intérieur** par les lignes des **six
+- Du point caché émane le **Saint <span data-nom="palais-interieur" data-genre="principe">Palais intérieur</span>** par les lignes des **six
   directions de l'espace**
 - Saint des Saints, « cinquantième année » (Jubilé, retour au primordial)
 - 50 = 7² + 1 ; *kol* (כֹּל, « tout ») vaut 50 en hébreu et en arabe
 
 ### 6. Le Tétragramme et les six directions
 
-- Les trois lettres du Tétragramme (*iod he vau he*, le *he* répété) par
+- Les trois lettres du <dfn data-terme="tetragramme" data-translit="Tétragramme" data-tradition="kabbale">Tétragramme</dfn> (*iod he vau he*, le *he* répété) par
   **permutation sextuple** selon les six directions
 - Immanence du *Logos* au centre de toutes choses
 - 6 permutations possibles
@@ -108,7 +108,7 @@ sur un point géométrique primordial.
 
 ### Le point primordial et le Barzakh
 
-Le point caché (*iod*) peut être rapproché du **Barzakh** (barrière, isthme) :
+Le point caché (*iod*) peut être rapproché du **<dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="kabbale">Barzakh</dfn>** (barrière, isthme) :
 - Le Barzakh est l'isthme entre les Présences divines
 - Le point est l'isthme entre l'Infini (Aïn-Soph) et le manifesté
 - Fonction liminale partagée

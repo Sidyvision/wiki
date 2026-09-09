@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, octogone, monde-intermediaire, vayu, baptistere, ming-tang, symboles-science-sacree]
 created: 2026-08-29
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/barzakh]]"]
@@ -23,7 +23,7 @@ pas été développé.
 
 - La structure carré/dôme (Terre/Ciel) est **incomplète** si elle se réduit à
   ces deux parties : dans la superposition des « trois mondes », il manquerait
-  un élément correspondant au **« monde intermédiaire »**. « le dôme ou la
+  un élément correspondant au **« <span data-nom="monde-intermediaire" data-genre="principe">monde intermédiaire</span> »**. « le dôme ou la
   voûte circulaire ne peut pas reposer directement sur la base carrée, et il
   faut, pour permettre le passage de l'une à l'autre, une forme de transition
   qui soit en quelque sorte intermédiaire entre le carré et le cercle, forme
@@ -31,11 +31,11 @@ pas été développé.
 - Géométriquement, l'octogone est le premier terme de la série des polygones
   qui, en doublant indéfiniment le nombre de côtés à partir du carré, tend
   vers le cercle sans jamais s'y confondre.
-- Correspondance védique : dans le ternaire *Agni* (foyer, base)/*Vâyu*
+- Correspondance védique : dans le ternaire *Agni* (foyer, base)/*<span data-nom="vayu" data-genre="entite">Vâyu</span>*
   (monde intermédiaire)/*Āditya* (œil du dôme, sommet), **c'est *Vâyu* qui
   correspond au monde intermédiaire** — et *Vâyu*, identifié au souffle
   vital, est « en relation immédiate avec le domaine psychique ».
-- Exemple chinois : le *Ming-tang*, « toit rond [...] supporté par huit
+- Exemple chinois : le *<span data-nom="ming-tang" data-genre="lieu">Ming-tang</span>*, « toit rond [...] supporté par huit
   colonnes qui reposent sur une base carrée [...] pour réaliser cette
   quadrature du cercle [...] il faut passer par l'octogone, qui est en
   rapport avec le monde intermédiaire des huit directions, des huit portes et
@@ -57,7 +57,7 @@ pas été développé.
   monde céleste » — il ne pose donc pas ce dernier point comme une identité
   simple, mais comme un rattachement possible, sous réserve.
 
-**Point de méthode** : Guénon **n'emploie pas le mot « barzakh »** dans ce
+**Point de méthode** : Guénon **n'emploie pas le mot « <dfn data-terme="barzakh" data-translit="barzakh" data-tradition="universel">barzakh</dfn> »** dans ce
 chapitre. Le rapprochement avec la notion soufie de *barzakh*
 ([[doctrinal/symboles/barzakh]]) est une lecture fonctionnelle du dépôt (même
 fonction structurale — interface/passage entre deux domaines adjacents —

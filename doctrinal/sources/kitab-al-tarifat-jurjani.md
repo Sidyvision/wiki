@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [lexicographie, terminologie, theologie, logique, soufisme, droit, grammaire, prosodie]
 created: 2026-06-30
-updated: 2026-09-01
+updated: 2026-09-09
 sources: ["[[doctrinal/autorites/al-jurjani]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/al-jurjani]]", "[[doctrinal/sources/kitab-tarifat-index-transcription]]", "[[doctrinal/sources/kitab-tarifat-corps-transcription]]", "[[doctrinal/symboles/wahdat-al-wujud]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/symboles/al-insan-al-kamil]]"]
@@ -53,7 +53,7 @@ Définitions transcrites depuis l'édition physique (trad. Maurice Gloton, Albou
 
 **Lot p. 280-281** (lettre ṭāʾ, suite) :
 - déf. 0986 — al-ṭibb al-rūḥānī (الطب الروحاني) : [[doctrinal/symboles/tibb-ruhani|La thérapeutique spirituelle]]
-- déf. 0987 — al-ṭabīb al-rūḥānī (الطبيب الروحاني) : le thérapeute spirituel (intégré dans la fiche tibb-ruhani)
+- déf. 0987 — al-ṭabīb al-rūḥānī (الطبيب الروحاني) : le thérapeute spirituel (intégré dans la fiche <dfn data-terme="tibb-ruhani" data-translit="tibb-ruhani" data-tradition="islam">tibb-ruhani</dfn>)
 - déf. 0988 — al-ṭabʿ (الطبع) : [[doctrinal/symboles/tabii|Le caractère naturel, le tempérament]]
 - déf. 0989 — al-ṭabīʿa (الطبيعة) : [[doctrinal/symboles/tabia|La nature, la constitution]]
 - déf. 0990 — al-ṭarīq (الطريق) : [[doctrinal/symboles/tariq|La voie spirituelle, les prescriptions divines]]
@@ -74,7 +74,7 @@ enrichissement des fiches déjà ancrées :
 - déf. 1831 — al-walī (الوَلىّ) : [[doctrinal/symboles/walaya]]
 - déf. 1833 — al-walāya (الوَلاية) : [[doctrinal/symboles/walaya]]
 - déf. 1281 — al-quṭbiyyat al-kubrā (القطبية الكُبرى) : [[doctrinal/symboles/walaya]] et [[doctrinal/symboles/khatm]] (§IV)
-- déf. 0246 — al-insān al-kāmil (الإنسان الكامل) : [[doctrinal/symboles/al-insan-al-kamil]]
+- déf. 0246 — <dfn data-terme="al-insan-al-kamil" data-translit="al-insān al-kāmil" data-tradition="islam">al-insān al-kāmil</dfn> (الإنسان الكامل) : [[doctrinal/symboles/al-insan-al-kamil]]
 - déf. 0879 — al-šajara (الشجرة) : [[doctrinal/symboles/al-insan-al-kamil]]
 - déf. 1018 — ẓill al-ilāh (ظلّ الآله) : [[doctrinal/symboles/al-insan-al-kamil]]
 - déf. 1370 — lisān al-ḥaqq (لسان الحقّ) : [[doctrinal/symboles/al-insan-al-kamil]]
@@ -101,7 +101,7 @@ Sidy), transcription Gardien 2026-08-25 :
   principal de la fiche
 - déf. 1214 — al-fiʿl al-ġayr al-ʿilājī (terme de logique/grammaire, pas de fiche cible)
 - déf. 1215 — al-fiʿl al-iṣṭilāḥī (terme de grammaire, pas de fiche cible)
-- déf. 1217 — al-faqr (الفقر) : l'indigence, la pauvreté — terme du tasawwuf sans
+- déf. 1217 — al-faqr (الفقر) : l'indigence, la pauvreté — terme du <dfn data-terme="tasawwuf" data-translit="tasawwuf" data-tradition="islam">tasawwuf</dfn> sans
   fiche à ce jour ; définition conservée ici pour un futur ancrage : « C'est le
   manque (*faqd*) d'une chose dont on a besoin. Le manque d'une chose dont on n'a
   pas besoin ne se nomme pas pauvreté. »
@@ -111,12 +111,12 @@ Sidy), transcription Gardien 2026-08-25 :
   al-ṣawt, al-ṣawāb. ⚠️ L'index transcrit porte `siḥr : 952` — c'est une **erreur de
   l'index imprimé** (confusion صهر/سحر) ; vérifié sur la photographie IMG_0163.JPG.
   Le *Taʿrīfāt* ne comporte **aucune définition autonome du siḥr** (magie).
-- p. 276, déf. 0973-0979 : termes de fiqh (ḍimār, ḍamān ×4) + al-ḍanāʾin + al-ḍiyāʾ
+- p. 276, déf. 0973-0979 : termes de <dfn data-terme="fiqh" data-translit="fiqh" data-tradition="islam">fiqh</dfn> (ḍimār, ḍamān ×4) + al-ḍanāʾin + al-ḍiyāʾ
   (la brillance — vision par l'Œil de Dieu). Pas de fiche cible directe.
 - p. 298, déf. 1064-1069 : al-ʿazīma, al-ʿazl, **al-ʿuzla** (1066 → [[doctrinal/symboles/khalwa]]),
   al-ʿaṣaba ×3 (droit successoral).
 - p. 361, déf. 1331-1333 : al-kalima, kalimat al-ḥaḍra, **al-kalimāt al-qawliyya
-  wa-l-wujūdiyya** (1333 → occurrence de *wāqiʿa ʿalā al-nafas* → [[doctrinal/symboles/waqia]]).
+  wa-l-wujūdiyya** (1333 → occurrence de *<dfn data-terme="waqia" data-translit="wāqiʿa" data-tradition="islam">wāqiʿa</dfn> ʿalā al-nafas* → [[doctrinal/symboles/waqia]]).
 - p. 390, déf. 1436-1439 : al-mutaqaddim bi-l-ʿilliyya, al-mutaʿaddī, **al-miṯāl**
   (1438 — définition GRAMMATICALE : racine verbale à première consonne faible /
   l'exemple. N'est PAS le ʿālam al-miṯāl cosmologique), al-muṯannā.
@@ -924,4 +924,4 @@ transcrite ici intégralement pour un futur ancrage dans les fiches
 
 ## Cross-links confirmés
 
-La transcription intégrale de l'index des termes arabes a permis de **vérifier empiriquement** la présence des notions suivantes dans le *Taʿrīfāt*, confirmant les rapprochements pressentis lors de la première ingestion : [[doctrinal/symboles/barzakh|Barzakh]] (def. 295-296, 509-529), [[doctrinal/symboles/walaya|Walāya]] (walî/walâya, def. 1831-1833), [[doctrinal/symboles/al-insan-al-kamil|Al-Insān al-Kāmil]] (« insân kâmil » / « homme parfait », def. 246-879-1018-1370, et son rang spécifique def. 1503), [[doctrinal/symboles/wahdat-al-wujud|Waḥdat al-Wujūd]] (vocabulaire de l'aḥadiyya, de la waḥdâniyya et de l'ulûhiyya, très présent dans la lettre A). Numéros de définition à reporter dans ces 4 fiches si Sidy souhaite les enrichir lors d'une passe ultérieure.
+La transcription intégrale de l'index des termes arabes a permis de **vérifier empiriquement** la présence des notions suivantes dans le *Taʿrīfāt*, confirmant les rapprochements pressentis lors de la première ingestion : [[doctrinal/symboles/barzakh|Barzakh]] (def. 295-296, 509-529), [[doctrinal/symboles/walaya|Walāya]] (walî/<dfn data-terme="walaya" data-translit="walâya" data-tradition="islam">walâya</dfn>, def. 1831-1833), [[doctrinal/symboles/al-insan-al-kamil|Al-Insān al-Kāmil]] (« insân kâmil » / « homme parfait », def. 246-879-1018-1370, et son rang spécifique def. 1503), [[doctrinal/symboles/wahdat-al-wujud|Waḥdat al-Wujūd]] (vocabulaire de l'aḥadiyya, de la waḥdâniyya et de l'ulûhiyya, très présent dans la lettre A). Numéros de définition à reporter dans ces 4 fiches si Sidy souhaite les enrichir lors d'une passe ultérieure.

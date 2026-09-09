@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, vedanta, koshas, vayus, nadis, taijasa, vaishwanara, atma, om, nombres-cycliques]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/traditions/sanatana-dharma]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 # L'Homme et son devenir selon le Vêdânta, ch. IX-XIV
 
-*René Guénon, éd. Bossard, 1925.*
+*<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, éd. Bossard, 1925.*
 
 ⚠️ **Pagination to-source** — transcription via index-rene-guenon.org.
 Authenticité confirmée par Sidy (2026-08-04) ; pagination à fournir
@@ -36,8 +36,8 @@ ultérieurement, non urgente.
 
 ## Ch. IX — Les enveloppes du « Soi » ; les cinq *Vâyus* ou fonctions vitales
 
-*Purusha*/*Âtmâ*, se manifestant comme *jîvâtmâ*, est décrit comme se revêtant
-d'une série d'« enveloppes » (*koshas*) — jamais des « corps », puisque seule
+*Purusha*/*<dfn data-terme="atma" data-translit="Âtmâ" data-tradition="universel">Âtmâ</dfn>*, se manifestant comme *jîvâtmâ*, est décrit comme se revêtant
+d'une série d'« enveloppes » (*<dfn data-terme="koshas" data-translit="koshas" data-tradition="universel">koshas</dfn>*) — jamais des « corps », puisque seule
 la dernière phase est d'ordre corporel, et *Âtmâ* n'y est en réalité pas
 « contenu », n'étant susceptible d'aucune limitation.
 
@@ -46,7 +46,7 @@ la dernière phase est d'ordre corporel, et *Âtmâ* n'y est en réalité pas
 | *ânandamaya-kosha* | « faite de Béatitude » (*Ānanda*) — ensemble des possibilités de manifestation à l'état principiel indifférencié ; degré de l'Être pur, caractéristique d'*Īshwara* ; forme causale (*kārana-sharīra*) |
 | *vijnānamaya-kosha* | Lumière intelligible réfléchie de la Connaissance universelle (*Jñāna*) ; cinq *tanmātras* ; jonction de *Buddhi* aux facultés principielles de perception |
 | *manomaya-kosha* | jonction du sens interne (*manas*) — conscience mentale, d'ordre exclusivement individuel et formel |
-| *prānamaya-kosha* | facultés procédant du « souffle vital » (*prāna*) : les cinq *vāyus*, facultés d'action et de sensation |
+| *prānamaya-kosha* | facultés procédant du « souffle vital » (*prāna*) : les cinq *<dfn data-terme="vayus" data-translit="vāyus" data-tradition="universel">vāyus</dfn>*, facultés d'action et de sensation |
 
 Les trois dernières constituent ensemble la **forme subtile** (*sūkshma-sharīra*
 ou *linga-sharīra*), par opposition à la forme grossière ou corporelle
@@ -106,8 +106,8 @@ la fiche existante.
 
 ## Ch. XIV — Les trois états de manifestation du *Jîva-Âtmâ* : *Vaishwânara*, *Taijasa*, *Prâjna*
 
-Réduction des trois états — veille (*Vaishwânara*, le « possesseur d'une grande
-demeure », état corporel), rêve (*Taijasa*, l'« au cœur de la lumière »,
+Réduction des trois états — veille (*<dfn data-terme="vaishwanara" data-translit="Vaishwânara" data-tradition="universel">Vaishwânara</dfn>*, le « possesseur d'une grande
+demeure », état corporel), rêve (*<dfn data-terme="taijasa" data-translit="Taijasa" data-tradition="universel">Taijasa</dfn>*, l'« au cœur de la lumière »,
 manifestation subtile), sommeil profond (*Prâjna*, « le connaissant »,
 manifestation causale) — aux trois *mâtrâs* du *om* (A-U-M), développé plus
 largement en détail au ch. XVII (voir

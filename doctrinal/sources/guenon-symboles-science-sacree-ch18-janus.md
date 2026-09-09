@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, janus, symboles-science-sacree, portes-solsticiales, initiation, sceptre-clef]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/janus-bifrons]]"]
@@ -20,10 +20,10 @@ transcrite : `doctrinal/sources/transcription-table-matieres-symboles-science-sa
 ## Contenu clé pour le dépôt
 
 - Point de départ : un document (Charbonneau-Lassay, *Regnabit*) représentant
-  le Christ sous les traits de *Janus Bifrons* — visage masculin et visage
+  le Christ sous les traits de *<span data-nom="janus-bifrons" data-genre="entite">Janus Bifrons</span>* — visage masculin et visage
   féminin, couronne, sceptre d'une main, clef de l'autre.
 - **Le troisième visage invisible** : « entre le passé qui n'est plus et
-  l'avenir qui n'est pas encore, le véritable visage de Janus, celui qui
+  l'avenir qui n'est pas encore, le véritable visage de <span data-nom="janus" data-genre="entite">Janus</span>, celui qui
   regarde le présent, n'est, dit-on, ni l'un ni l'autre de ceux que l'on peut
   voir » — rapproché de l'œil frontal de Shiva, également invisible, « sens de
   l'éternité ». Janus = « Maître du triple temps » et « Seigneur de
@@ -33,7 +33,7 @@ transcrite : `doctrinal/sources/transcription-table-matieres-symboles-science-sa
   Kabbale (Miséricorde/*Hesed* à droite, Justice/*Din* à gauche) et l'arabe
   (*Djemâl*/Beauté, *Djelâl*/Majesté). Les deux pouvoirs réunis en
   Melchissédec.
-- **Les deux clefs** : celles des **deux portes solsticiales**, *Janua Cœli*
+- **Les deux clefs** : celles des **deux <span data-nom="portes-solsticiales" data-genre="cycle">portes solsticiales</span>**, *Janua Cœli*
   (solstice d'hiver) et *Janua Inferni* (solstice d'été) — Janus comme
   *Janitor* ouvrant et fermant le cycle annuel. Rattachement étymologique
   *initiatio* ← *in-ire* et *Janus* ← *ire* (« aller »), rapproché du sanscrit
@@ -63,6 +63,6 @@ présentait sur une citation.
 ## Utilisation dans le dépôt
 
 Rend disponible, pour [[doctrinal/symboles/janus-bifrons]], le contenu du volet
-solsticial/initiatique (sceptre, clef, deux voies, portes solsticiales). Volet
+solsticial/initiatique (<span data-nom="sceptre-clef" data-genre="principe">sceptre, clef</span>, deux voies, portes solsticiales). Volet
 strictement solsticial (Cancer/Capricorne, deux saints Jean) traité par
 [[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]].

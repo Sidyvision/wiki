@@ -11,7 +11,7 @@ tags:
 - soufisme
 - adab
 created: 2026-06-18
-updated: 2026-06-20
+updated: 2026-09-09
 sources:
 sources_count: 0
 cross_links:
@@ -29,7 +29,7 @@ cross_links:
 
 ## Identité du document
 
-Livret de Shaykh Faraz Rabbani, publié par SeekersGuidance en 1447H / 2026.
+Livret de Shaykh <span data-nom="faraz-rabbani" data-genre="autorite">Faraz Rabbani</span>, publié par SeekersGuidance en 1447H / 2026.
 Sous-titre : *The Phrase That Turns Fire Into Peace*.
 Compagnon d'un ouvrage plus long : *Allah Is Sufficient for Us — A Believer's Walk with the Verses, the Sunna, and the Masters of the Path*.
 Vocation : *daʿwa* intérieure à l'Oumma au sens large — accessibilité populaire et introductive, non destinée aux initiés.
@@ -62,7 +62,7 @@ Reprise par le Prophète ﷺ et ses Compagnons après Uḥud, face à l'ennemi q
 
 ### Tawakkul et asbāb
 
-Le Coran joint les deux réalités (65:2-3) : *tawakkul* (acte — s'appuyer sur Allāh) mène au *ḥasb* (état — être suffisamment pourvu par Lui). L'un conduit à l'autre. — source : Imam Qurṭubī, *al-Jāmiʿ li-Aḥkām al-Qurʾān*
+Le Coran joint les deux réalités (65:2-3) : *<dfn data-terme="tawakkul" data-translit="tawakkul" data-tradition="islam">tawakkul</dfn>* (acte — s'appuyer sur Allāh) mène au *ḥasb* (état — être suffisamment pourvu par Lui). L'un conduit à l'autre. — source : Imam Qurṭubī, *al-Jāmiʿ li-Aḥkām al-Qurʾān*
 
 Le *tawakkul* n'est pas la passivité. Trois commandements prophétiques en un souffle : agir, demander l'aide d'Allāh, refuser l'impuissance. — source : Ṣaḥīḥ Muslim
 

@@ -12,7 +12,7 @@ tags:
 - tariqa
 - manuel-devotionnel
 created: 2026-06-05
-updated: 2026-08-25
+updated: 2026-09-09
 sources:
 - to-source
 sources_count: 1
@@ -79,7 +79,7 @@ La wazīfa naqshbandī du matin est une longue séquence numérotée incluant :
 - **Āyat al-Kursī + Āl 'Imrān 3:18 + 3:26-27**
 - **Sūrat Yā-Sīn** (complète — 36)
 - **Asmā' Allāh al-Ḥusnā** (les 99 noms — [[asma-al-husna]] — 32)
-- **Ṣalawāt** multiples sur le Prophète ﷺ (voir [[salawat]])
+- **<dfn data-terme="salawat" data-translit="Ṣalawāt" data-tradition="islam">Ṣalawāt</dfn>** multiples sur le Prophète ﷺ (voir [[salawat]])
 - **Sūrat al-Fath** (48), Sūrat al-Wāqi'a (56), Sūrat al-Mulk (67), Sūrat al-Muzzammil (73), Sūrat al-Inshirāh (94), Sūrat al-Ikhlāṣ (112), Sūrat al-Falaq (113), Sūrat al-Nās (114)
 - **Du'ā's** de protection, du matin, intercession des prophètes et awliyā'
 

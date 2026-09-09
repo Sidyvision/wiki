@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [ibn-arabi, catalogue, classification, orientalisme, bibliographie]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]"]
@@ -35,7 +35,7 @@ table des noms d'ouvrages.
 
 ## Pourquoi cette fiche existe
 
-Le dépôt porte déjà plusieurs fiches Ibn ʿArabī avec des marqueurs `to-source`
+Le dépôt porte déjà plusieurs fiches <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> avec des marqueurs `to-source`
 sur l'attribution ou la datation d'un texte cité sous son nom (voir
 [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]). Cette
 notice donne l'instrument de vérification — **elle ne lève aucun `to-source`

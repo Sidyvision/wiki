@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [soufisme, metaphysique, barzakh, nur, ibn-arabi, jurjani, burckhardt, guenon, hadarat]
 created: 2026-06-29
-updated: 2026-06-29
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[barzakh]]", "[[hadarat-khams]]", "[[al-insan-al-kamil]]", "[[ibn-arabi]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[barzakh]]", "[[hadarat-khams]]", "[[al-insan-al-kamil]]", "[[ib
 
 ## Référence
 
-Luc de la Hilay, « Rapports symboliques entre Nûr et Barzakh », *Le Porteur de Savoir*,
+Luc de la Hilay, « Rapports symboliques entre Nûr et <dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn> », *Le Porteur de Savoir*,
 publié le 21 août 2011 (extrait d'une étude plus conséquente sur la « Prière de la Lumière
 Essentielle » du Cheikh Abû el-Hasan el-Châdhilî).
 Source : https://leporteurdesavoir.fr/rapports-symboliques-entre-nur-et-barzakh-l-d-l-h
@@ -25,7 +25,7 @@ Source : https://leporteurdesavoir.fr/rapports-symboliques-entre-nur-et-barzakh-
 L'article établit l'identité foncière entre le *Nūr* (Lumière) et le *Barzakh* (Isthme) à
 travers la doctrine akbarienne. Le Prophète Muḥammad, comme *Nūr muḥammadī* et comme
 *Barzakh* suprême (*al-Barzakh al-aʿẕam*), est l'Intermédiaire entre le Non-Manifesté
-(*ʿadam*) et le Manifesté (*wujūd*) — citant Ibn ʿArabī : le Prophète y est décrit comme
+(*ʿadam*) et le Manifesté (*wujūd*) — citant <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> : le Prophète y est décrit comme
 « l'Intermédiaire situé entre le Manifesté et le Non-Manifesté » et le « Lien du
 rattachement de l'éphémère à l'éternel ».
 
@@ -41,13 +41,13 @@ fonctionne comme un pôle (*quṭb*) régissant un domaine de l'existence, quali
 
 ### Définition de Jurjānī
 
-L'article rapporte la définition de Jurjānī du *Barzakh el-Jāmiʿ* (le Barzakh englobant) :
+L'article rapporte la définition de <span data-nom="jurjani" data-genre="autorite">Jurjānī</span> du *Barzakh el-Jāmiʿ* (le Barzakh englobant) :
 « la Présence de l'Unicité (*wāḥidiyah*) et la Première détermination, principe de tous
 les barâzikh ; elle est appelée le Barzakh primordial suprême et sublime. »
 
 ### Citation de Burckhardt (via Tadilî)
 
-L'article cite l'article de Burckhardt « Du Barzakh » (*Symboles de la Science sacrée*),
+L'article cite l'article de <span data-nom="burckhardt" data-genre="autorite">Burckhardt</span> « Du Barzakh » (*Symboles de la Science sacrée*),
 qui rapporte le commentaire de Cheikh Mohammed Tadilî : « Tous les barzakh-s de l'homme
 […] dépendent de son barzakh central, qui est le cœur (*qalb*) médiateur entre les
 domaines de l'Esprit (*rûh*) et de l'âme individuelle (*nafs*). » Tadilî y précise

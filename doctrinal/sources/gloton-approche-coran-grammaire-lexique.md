@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [gloton, lexique, racines-arabes, coran, rafa, darajat, transcription, albouraq]
 created: 2026-08-30
-updated: 2026-09-03
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]"]
@@ -15,12 +15,12 @@ cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/symboles/asma-
 
 ## Identification
 
-- **Auteur** : Maurice Gloton
-- **Titre complet** : *Une approche du Coran par la grammaire et le lexique* —
+- **Auteur** : Maurice <span data-nom="gloton" data-genre="autorite">Gloton</span>
+- **Titre complet** : *Une approche du <span data-nom="coran" data-genre="ouvrage">Coran</span> par la grammaire et le lexique* —
   sous-titre porté en couverture : « **2500 versets traduits · Lexique coranique
   complet** »
 - **Avant-propos** : **Mahmoud Azab** et **Pierre Lory** (deux avant-propos distincts)
-- **Éditeur** : **Albouraq**
+- **Éditeur** : **<span data-nom="albouraq" data-genre="ouvrage">Albouraq</span>**
 - **Nature** : lexique des racines coraniques, entrées numérotées, avec pour chaque
   racine le nombre d'occurrences dans le texte coranique, les dérivés classés par
   catégorie grammaticale, et des versets-témoins.

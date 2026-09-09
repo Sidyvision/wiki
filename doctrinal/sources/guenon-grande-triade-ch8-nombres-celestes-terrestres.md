@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, grande-triade, nombre, metaphysique-du-nombre, ciel-terre, yang-yin, pair-impair, mesure, hierogamie, science-traditionnelle-des-nombres]
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]"]
@@ -13,10 +13,10 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 # Guénon — La Grande Triade, ch. VIII : nombres célestes et nombres terrestres
 
-Chapitre VIII de *La Grande Triade* (1946). Transcription en `raw/La Grande Triade/`
+Chapitre VIII de *La <span data-nom="grande-triade" data-genre="ouvrage">Grande Triade</span>* (1946). Transcription en `raw/La Grande Triade/`
 (index-rene-guenon.org, ingérée 2026-08-13). Chapitre lu intégralement le 2026-08-13,
 fiche établie le 2026-08-14 dans le cadre du chantier de confrontation
-*Shams al-Maʿārif* / Guénon (axe 4 : carrés magiques et métaphysique du Nombre).
+*Shams al-Maʿārif* / Guénon (axe 4 : carrés magiques et <span data-nom="metaphysique-du-nombre" data-genre="principe">métaphysique du Nombre</span>).
 
 ## Contenu (synthèse fidèle, paraphrase et citations)
 
@@ -51,7 +51,7 @@ paraissant avant le Ciel dans la série, comme le *yin* apparaît avant le *yang
 
 Renversement apparent : c'est 5 (impair) qui est attribué à la Terre et 6 (pair) au
 Ciel. Guénon reçoit la qualification d'« échange "hiérogamique" » (Granet), en
-précisant qu'on ne peut parler proprement de hiérogamie que lorsque les deux
+précisant qu'on ne peut parler proprement de <span data-nom="hierogamie" data-genre="principe">hiérogamie</span> que lorsque les deux
 complémentaires sont envisagés comme masculin et féminin l'un par rapport à l'autre.
 
 **La clé est l'état sous lequel les termes sont pris** : un tel échange « ne peut se
@@ -76,7 +76,7 @@ du Ciel et de la Terre ».
   multiplicité ».
 
 Note de Guénon : l'échange du pair et de l'impair découle nécessairement de ce mode de
-formation (somme pair+impair = impair ; produit pair×impair = pair). Le caractère
+formation (somme <span data-nom="pair-impair" data-genre="principe">pair+impair</span> = impair ; produit pair×impair = pair). Le caractère
 « conjonctif » de 5 et 6 est reconnu très généralement dans le symbolisme des
 différentes traditions.
 

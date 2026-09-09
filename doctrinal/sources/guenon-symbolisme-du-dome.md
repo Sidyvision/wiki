@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, dome, axe-du-monde, omphalos, symboles-science-sacree]
 created: 2026-08-29
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]"]
@@ -27,9 +27,9 @@ bibliothèque physique, sans wikilink).
 - Le point sous le sommet du dôme est **toujours identifié virtuellement au
   "Centre du Monde"** : « celui-ci [...] n'est pas un "lieu" au sens
   topographique et littéral du mot, mais en un sens transcendant et
-  principiel [...] Le point dont il s'agit est donc un véritable *omphalos*
+  principiel [...] Le point dont il s'agit est donc un véritable *<span data-nom="omphalos" data-genre="lieu">omphalos</span>*
   (*nâbhih prithivyâh*) ».
-- L'axe de la structure (matérialisé ou non) est nommé « l'"Axe du Monde",
+- L'axe de la structure (matérialisé ou non) est nommé « l'"<span data-nom="axe-du-monde" data-genre="principe">Axe du Monde</span>",
   dont il est l'image » — l'axe n'a donc pas besoin d'être matériellement
   figuré pour être réel : « ce qui importe, c'est que le centre du sol
   occupé par l'édifice [...] est toujours identifié virtuellement au "Centre

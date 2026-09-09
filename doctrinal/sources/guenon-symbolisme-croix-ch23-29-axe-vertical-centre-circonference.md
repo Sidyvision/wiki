@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, symbolisme-croix, axe-vertical, invariable-milieu, volonte-du-ciel, centre-circonference, voie-verite-vie, tchoung-young]
 created: 2026-07-16
-updated: 2026-08-11
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]"]
@@ -20,9 +20,9 @@ index-rene-guenon.org).
 
 ## Ch. XXIII — synthèse fidèle, paraphrase
 
-L'axe vertical est le lieu métaphysique de la manifestation de la « Volonté du Ciel » ;
+L'axe vertical est le lieu métaphysique de la manifestation de la « <span data-nom="volonte-du-ciel" data-genre="principe">Volonté du Ciel</span> » ;
 il traverse chaque plan horizontal en son centre, point où se réalise l'équilibre —
-l'**« Invariable Milieu »** (*Tchoung-young*), image de l'Unité principielle dans le
+l'**« <span data-nom="invariable-milieu" data-genre="principe">Invariable Milieu</span> »** (*<span data-nom="tchoung-young" data-genre="ouvrage">Tchoung-young</span>*), image de l'Unité principielle dans le
 manifesté. L'axe vertical est le symbole de la « Voie personnelle » menant à la
 Perfection, spécification de la « Voie universelle ». Discussion des notions chinoises
 *Khien* (perfection active, volonté capable de se manifester, correspond au Ciel/*Tien*)
@@ -33,7 +33,7 @@ constante — la « force attractive de la Divinité » agit toujours avec la m�
 loi d'harmonie universelle exigeant la proportionnalité de toutes les variations.
 
 Interprétation métaphysique (non religieuse) de la parole évangélique « Je suis la Voie,
-la Vérité et la Vie » : la **Voie** = axe vertical (identifiée à l'Homme Universel/le
+la Vérité et la Vie » : la **Voie** = <span data-nom="axe-vertical" data-genre="principe">axe vertical</span> (identifiée à l'Homme Universel/le
 Soi) ; la **Vérité** = l'axe horizontal qui traverse perpendiculairement toutes les
 modalités (homme intellectuel) ; la **Vie** = l'axe parallèle à la direction de
 développement de chaque modalité (homme corporel). Correspondants hébraïques : *Adam*
@@ -65,7 +65,7 @@ se décrit appartient à la manifestation, donc à la circonférence.
 - Le rôle de l'« Invariable Milieu » comme centre de chaque plan horizontal donne une
   assise doctrinale supplémentaire au rôle déjà attribué au filament d'al-Insān
   al-Kāmil traversant chaque degré de l'axe des 38 degrés.
-- La triade Voie/Vérité/Vie (axe vertical/deux axes horizontaux) est une piste non
+- La triade <span data-nom="voie-verite-vie" data-genre="principe">Voie/Vérité/Vie</span> (axe vertical/deux axes horizontaux) est une piste non
   instruite pour un possible enrichissement futur de la lecture de l'axe — à ne pas
   imposer sans discernement dédié si elle devait être rapprochée d'éléments akbariens.
 

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "kabbale"
 tags: [kabbale, sitra-ahra, emanation-gauche, 10-sephirot-maléfiques, samael, lilith, asmodee, metatron, qliphoth, demonologie, hekhaleth, isaac-ha-kohen, castille, pre-zohar]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]", "[[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]"]
@@ -20,7 +20,7 @@ ha-Kohen, kabbaliste castillan de la première moitié du XIIIe siècle (mort ve
 1270-1280 à Béziers). C'est un texte **pré-zoharique** qui a exercé une influence
 déterminante sur Moïse de Léon et l'émergence du *Zohar*.
 
-**Statut** : texte primaire de la kabbale castillane, transmis via traduction
+**Statut** : texte primaire de la <span data-nom="kabbale" data-genre="ecole">kabbale</span> castillane, transmis via traduction
 française en ligne (Spartakus FreeMann, 2015, depuis l'anglais avec corrections
 sur l'hébreu). Sources académiques : Scholem (*Early Kabbalah*), Idel & Dan
 (Paulist Press 1986), Mopsik (*Cabale et cabalistes*).
@@ -72,8 +72,8 @@ Le Traite décrit 3 éthers en haut :
 
 3. **Troisième éther** : connaissance secrète des **démons** — subdivisé en 3
    parties :
-   - **Supérieure** : **Asmodée** (AShMDAY), grand roi des démons, soumis à
-     Samaël. Compagne : Lilith Inférieure (Petite Lilith).
+   - **Supérieure** : **<span data-nom="asmodee" data-genre="entite">Asmodée</span>** (AShMDAY), grand roi des démons, soumis à
+     <span data-nom="samael" data-genre="entite">Samaël</span>. Compagne : <span data-nom="lilith" data-genre="entite">Lilith</span> Inférieure (Petite Lilith).
    - **Médiane** : **Qafqafoni**, roi des esprits. Compagne : Tsar'ita (6 mois)
      et Sagrirta (6 mois).
    - **Inférieure** : démons créés et façonnés — chiens, boucs, 'Aza et
@@ -123,7 +123,7 @@ a causé cette calamité via la Femme du Nord.
 ### F. Métatron
 
 - Isaac ben Jacob prétend avoir reçu certains enseignements sous forme de
-  **visions accordées par l'ange Métatron**.
+  **visions accordées par l'ange <span data-nom="metatron" data-genre="entite">Métatron</span>**.
 - Le *Sepher ha-Orah* contient les révélations données par Métatron.
 - **Lien avec le dépôt** : Métatron = Er-Rûh (identité intégrale) dans
   [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]].
@@ -153,7 +153,7 @@ a causé cette calamité via la Femme du Nord.
 ### Pièces nouvelles
 
 1. **10 Sephiroth de l'Émanation Gauche** : système miroir complet avec noms
-   propres — documente le versant Sitra Ahra qui n'était que signalé dans
+   propres — documente le versant <span data-nom="sitra-ahra" data-genre="entite">Sitra Ahra</span> qui n'était que signalé dans
    [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]].
 
 2. **Doctrine des mondes détruits** : Qamti'el → Beli'el → 'Iti'el. Éclairage
@@ -174,7 +174,7 @@ a causé cette calamité via la Femme du Nord.
 
 ### Convergences avec le tasawwuf akbarien
 
-| Kabbale (Émanation Gauche) | Tasawwuf (akbarien) | Statut |
+| Kabbale (<span data-nom="emanation-gauche" data-genre="entite">Émanation Gauche</span>) | Tasawwuf (akbarien) | Statut |
 |---|---|---|
 | Écran séparateur (Masukhi'el) du Repentir | Barzakh (isthme entre Présences) | Convergence structurelle, non qualifiée |
 | Samaël-Lilith-Tanin'iver (triade) | Double face Metatron | Convergence structurelle, non qualifiée |
@@ -238,7 +238,7 @@ académiques citées : Scholem, Idel & Dan, Mopsik, Dennis.
 
 - Pièce primaire pour le versant Sitra Ahra de l'Instrument (Phase 3)
 - Complète la matière signalée dans la fiche Sitra Ahra (2026-07-28)
-- Documente le lien Métatron/Isaac ha-Kohen (source visionnaire directe)
+- Documente le lien Métatron/<span data-nom="isaac-ha-kohen" data-genre="autorite">Isaac ha-Kohen</span> (source visionnaire directe)
 - Éclaire la fonction polaire (double face lumineuse/obscure)
 
 ---

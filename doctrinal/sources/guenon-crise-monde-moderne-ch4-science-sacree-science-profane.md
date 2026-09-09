@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, science-sacree, science-profane, sciences-traditionnelles, point-de-vue, alchimie, astrologie, crise-monde-moderne]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-09
 sources: ["raw/La Crise du Monde Moderne/Science sacrée et science profane  La Crise du Monde Moderne  Index de l’œuvre de René Guénon.md"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]]"]
@@ -15,8 +15,8 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 ## Référence
 
-**René Guénon**, *La Crise du Monde moderne*. Chapitre couvert : **IV, « Science
-sacrée et science profane »**. Texte consulté dans `raw/` (`Chapitre=691`, sigle
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *La Crise du Monde moderne*. Chapitre couvert : **IV, « Science
+sacrée et <span data-nom="science-profane" data-genre="principe">science profane</span> »**. Texte consulté dans `raw/` (`Chapitre=691`, sigle
 `CMM`), **lu intégralement**.
 
 > ⚠️ **Pagination `to-source`** — non relevée.

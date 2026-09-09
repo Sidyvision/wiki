@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, etats-multiples, hierarchie, intellect, mental, individualite]
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/discernement/2
 
 # Guénon — Les États multiples de l'être, ch. IX : La hiérarchie des facultés individuelles
 
-Chapitre IX de *Les États multiples de l'être* (1932, éd. Véga/Trédaniel). Transcription
+Chapitre IX de *Les <span data-nom="etats-multiples" data-genre="ouvrage">États multiples</span> de l'être* (1932, éd. Véga/Trédaniel). Transcription
 transmise par Sidy (2026-07-16, index-rene-guenon.org).
 
 ## Contenu (synthèse fidèle, paraphrase)

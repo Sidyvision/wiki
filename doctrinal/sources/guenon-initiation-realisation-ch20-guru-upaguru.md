@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, initiation, guru, upaguru, cause-occasionnelle, guru-interieur, instrument, initiation-realisation-spirituelle]
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-09
 sources: ["raw/Initiation et Réalisation Spirituel/Initiation et Réalisation spirituelle  Index de l’œuvre de René Guénon 9.md"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]]", "[[doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise]]"]
@@ -15,8 +15,8 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 ## Référence
 
-**René Guénon**, *Initiation et Réalisation spirituelle*, éd. Éditions
-Traditionnelles, 1967. Chapitre couvert : **XX, « Guru et upaguru »**. Texte
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Initiation et Réalisation spirituelle*, éd. Éditions
+Traditionnelles, 1967. Chapitre couvert : **XX, « Guru et <dfn data-terme="upaguru" data-translit="upaguru" data-tradition="universel">upaguru</dfn> »**. Texte
 consulté dans `raw/` (`Chapitre=570`, sigle `IRS`), **lu intégralement**.
 
 > ⚠️ **Pagination `to-source`** — non relevée.
@@ -42,7 +42,7 @@ L'extension est donnée par Guénon dans la phrase suivante, et elle est essenti
 
 ## 2. La cause n'est pas dans l'objet
 
-C'est le point qui coupe. La « cause occasionnelle » n'est pas une cause :
+C'est le point qui coupe. La « <span data-nom="cause-occasionnelle" data-genre="principe">cause occasionnelle</span> » n'est pas une cause :
 
 > « il va de soi que celle-ci n'est pas une cause au sens propre de ce mot, et qu'en
 > réalité la **cause véritable se trouve dans la nature même de celui sur qui s'exerce

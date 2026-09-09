@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [contre-initiation, aqtab, septenaire, yezidis, druses, pole]
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/sept-tours-du-diable]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/symboles/walaya]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/sep
 
 ## Référence bibliographique
 
-**René Guénon**, compte rendu de W. B. Seabrook, *Aventures en Arabie* (Gallimard,
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, compte rendu de W. B. Seabrook, *Aventures en Arabie* (Gallimard,
 Paris), paru dans *Le Voile d'Isis* / *Études Traditionnelles*, **1935, pp. 42-43**.
 Repris dans le recueil posthume *Aperçus sur l'Ésotérisme islamique et le Taoïsme*.
 
@@ -40,9 +40,9 @@ Il remarque incidemment que dans les livres occidentaux destinés au grand publi
 fait est purement accidentel.
 
 Les parties retenues comme substantielles concernent les Derviches (propos d'un cheikh
-Mawlawi sur la pluralité indéfinie des sentiers vers Dieu), les **Druses** (culte
+Mawlawi sur la pluralité indéfinie des sentiers vers Dieu), les **<span data-nom="druses" data-genre="entite">Druses</span>** (culte
 supposé rendu à une « tête de veau », que Guénon laisse ouvert en notant que l'auteur
-a du moins compris que symbolisme n'est pas idolâtrie) et les **Yézidis**.
+a du moins compris que symbolisme n'est pas idolâtrie) et les **<span data-nom="yezidis" data-genre="entite">Yézidis</span>**.
 
 ## Le passage capital — les sept tours
 
@@ -62,10 +62,10 @@ comme des **centres de projection des influences sataniques à travers le monde*
    souvent y séjourner plusieurs jours. Guénon pose la question de ce que représentent
    ces derniers personnages — et ne la referme pas.
 3. **La tour n'a pas besoin d'être habitée en permanence** si elle n'est que le support
-   tangible et localisé d'un des centres de la **contre-initiation**.
+   tangible et localisé d'un des centres de la **<dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="islam">contre-initiation</dfn>**.
 4. **Présidence** : ces centres sont présidés par les ***awliyâ esh-Shaytân***.
 5. **Intention déclarée** : par la constitution de ces sept centres, ceux-ci
-   **prétendent s'opposer à l'influence des sept *Aqtâb* ou « Pôles » terrestres,
+   **prétendent s'opposer à l'influence des sept *<dfn data-terme="aqtab" data-translit="Aqtâb" data-tradition="islam">Aqtâb</dfn>* ou « Pôles » terrestres,
    eux-mêmes subordonnés au Pôle suprême**.
 6. **Verdict de Guénon sur cette prétention** : l'opposition **ne peut être
    qu'illusoire**, le domaine spirituel étant nécessairement fermé à la

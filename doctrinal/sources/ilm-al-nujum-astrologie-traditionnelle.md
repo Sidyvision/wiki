@@ -11,7 +11,7 @@ tags:
 - maisons
 - aspects
 created: 2026-06-03
-updated: 2026-06-11
+updated: 2026-09-09
 sources_count: 0
 cross_links:
 - '[[ilm-al-nujum]]'
@@ -24,7 +24,7 @@ sources: []
 
 ## Référence
 
-- **Titre complet** : *La Fin des Temps Modernes — ʿIlm al-Nujûm : Astrologique Traditionnelle — Les Bases de la Science Astrologique Traditionnelle*
+- **Titre complet** : *La Fin des Temps Modernes — <dfn data-terme="ilm-al-nujum" data-translit="ʿIlm al-Nujûm" data-tradition="islam">ʿIlm al-Nujûm</dfn> : Astrologique Traditionnelle — Les Bases de la Science Astrologique Traditionnelle*
 - **Auteur** : anonyme
 - **Source** : <https://lafindestempsmodernes.blogspot.com>
 - **Date** : mercredi 24 avril 2024

@@ -11,7 +11,7 @@ tags:
 - ijaza
 - asanid
 created: 2026-07-06
-updated: 2026-07-06
+updated: 2026-09-09
 sources:
 sources_count: 0
 cross_links:
@@ -23,7 +23,7 @@ cross_links:
 
 **URL** : https://almadrasahalhanbaliyyah.com
 **Nature** : institut d'apprentissage islamique traditionnel centré sur le madhhab
-ḥanbalite — cours en ligne (fiqh, ḥadīth, ʿaqīdah, tasawwuf, adab), enseignants à
+ḥanbalite — cours en ligne (<dfn data-terme="fiqh" data-translit="fiqh" data-tradition="islam">fiqh</dfn>, ḥadīth, ʿaqīdah, tasawwuf, adab), enseignants à
 chaînes de transmission vérifiées (asānīd), ijāzāt délivrées à l'issue des cursus.
 Enseignement disponible en anglais (défaut), arabe, néerlandais et français.
 

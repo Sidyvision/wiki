@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "kabbale"
 tags: [qabbalah, guenon, sepher-ietsirah, adam-qadmon, kether, ain-soph, palais-interieur, iod, tetragramme, sephiroth, arbre-sephirotique]
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-09-09
 sources: ["[[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/al-insan-al-kamil]]"]
@@ -13,30 +13,30 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/al-in
 
 # Matière kabbalistique dans la trilogie guénonienne (session 2026-07-16)
 
-Fiche de consolidation : réunit les éléments de la *Qabbalah* hébraïque cités par
+Fiche de consolidation : réunit les éléments de la *<span data-nom="qabbalah" data-genre="ecole">Qabbalah</span>* hébraïque cités par
 Guénon dans les chapitres transcrits en session du 2026-07-16, avec leur localisation
 précise. **Statut** : matière rapportée par Guénon (autorité qualifiée, sources
-secondaires : Vulliaud *La Kabbale juive*, Moïse de Léon, *Sepher Ietsirah*, *Zohar*)
+secondaires : Vulliaud *La Kabbale juive*, Moïse de Léon, *<span data-nom="sepher-ietsirah" data-genre="ouvrage">Sepher Ietsirah</span>*, *Zohar*)
 — non vérifiée sur les textes kabbalistiques primaires eux-mêmes (`to-source` sur
 toute utilisation qui exigerait le texte hébreu ou une édition savante directe).
 
 ## 1. Adam Qadmôn = l'Homme Universel (Symbolisme de la Croix, ch. II, note 1)
 
 Guénon pose explicitement l'équivalence : l'« Homme Universel » de l'ésotérisme
-islamique (*El-Insânul-kâmil*) **est l'*Adam Qadmôn* de la Qabbalah hébraïque** (et le
+islamique (*El-Insânul-kâmil*) **est l'*<span data-nom="adam-qadmon" data-genre="entite">Adam Qadmôn</span>* de la Qabbalah hébraïque** (et le
 « Roi », *Wang*, de la tradition extrême-orientale). Identité posée par Guénon
 lui-même, du même type que Meru=Qâf — trois expressions d'une même réalité dans trois
 traditions.
 
 ## 2. Le point primordial et le Palais intérieur (Symbolisme de la Croix, ch. IV)
 
-Développement le plus étendu. Le « Saint Palais » ou « Palais intérieur » est situé
+Développement le plus étendu. Le « Saint Palais » ou « <span data-nom="palais-interieur" data-genre="principe">Palais intérieur</span> » est situé
 **au centre des six directions de l'espace**. Doctrine cosmogonique du *Sepher
 Ietsirah* (via Vulliaud et le commentaire de Moïse de Léon) :
 - *Aïn* — le « mystère de l'éther pur et insaisissable » (*Avir*), nommé par simple
   négation à cause de son incompréhensibilité ; avant le point, rien ne peut être
   compté (« Avant l'Un, que peux-tu compter ? »).
-- *Kether* (première des dix *Sephiroth*, la « Couronne suprême ») correspond à ce pur
+- *<dfn data-terme="kether" data-translit="Kether" data-tradition="kabbale">Kether</dfn>* (première des dix *<span data-nom="sephiroth" data-genre="entite">Sephiroth</span>*, la « Couronne suprême ») correspond à ce pur
   éther — « cause de toutes les causes ».
 - Le **point caché** (la lettre ***iod***) naît dans ce mystère : l'éther rendu
   « palpable » par concentration ; d'elle sont formées toutes les autres lettres de
@@ -49,7 +49,7 @@ Ietsirah* (via Vulliaud et le commentaire de Moïse de Léon) :
   suivant les six directions de l'espace** — c'est le Saint des Saints, la
   « cinquantième année » (Jubilé, retour à l'état primordial ; 50 = 7² + 1 ; *kol*,
   « tout », vaut 50 en hébreu et en arabe).
-- Les trois lettres distinctes du Tétragramme (*iod he vau he*), par permutation
+- Les trois lettres distinctes du <dfn data-terme="tetragramme" data-translit="Tétragramme" data-tradition="kabbale">Tétragramme</dfn> (*iod he vau he*), par permutation
   sextuple selon les six directions, indiquent l'immanence du *Logos* au centre de
   toutes choses.
 - Concordance temporelle : six millénaires (six jours de la création) + le septième
@@ -62,7 +62,7 @@ Ietsirah* (via Vulliaud et le commentaire de Moïse de Léon) :
 
 Dans la comparaison des formulations de la *Shakti*/*Mâyâ* : « d'une façon toute
 semblable encore dans la *Qabbalah* hébraïque, *Kether* (la première des dix
-*Sephiroth*) est le "vêtement" d'*Aïn-Soph* (l'Infini ou l'Absolu). » Guénon aligne
+*Sephiroth*) est le "vêtement" d'*<span data-nom="ain-soph" data-genre="entite">Aïn-Soph</span>* (l'Infini ou l'Absolu). » Guénon aligne
 ainsi trois formulations : *Mâyâ*/*Shakti* de *Brahma* (Vêdânta), *Asrâr rabbâniyah*
 comme « surface réverbérante » (ésotérisme islamique), *Kether*/*Aïn-Soph* (Qabbalah).
 
@@ -79,7 +79,7 @@ comme « surface réverbérante » (ésotérisme islamique), *Kether*/*Aïn-Soph
 
 **Qualification sashimono des joints** (convention, cf. `philosophie-sashimono.md`
 §6-7) : les points 1 et 3 de cette fiche sont des **hozo** (tenon-mortaise —
-équivalence établie par autorité qualifiée) : Adam Qadmôn = al-Insān al-Kāmil = Wang
+équivalence établie par autorité qualifiée) : Adam Qadmôn = <dfn data-terme="al-insan-al-kamil" data-translit="al-Insān al-Kāmil" data-tradition="kabbale">al-Insān al-Kāmil</dfn> = Wang
 (§1), et le triptyque Kether/Aïn-Soph = Asrâr rabbâniyah = Mâyā/Shakti de Brahma
 (§3) — trois voiles traditionnels (Kabbale, Islam, Vêdânta) d'un même point. Le
 point 2 (cosmogonie du *iod*, Palais intérieur, six directions) n'est pas encore

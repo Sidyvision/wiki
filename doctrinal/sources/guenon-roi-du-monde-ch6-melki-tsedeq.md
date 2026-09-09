@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, manu, melki-tsedeq, manvantara, dharma-raja, roi-du-monde]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]"]
@@ -18,8 +18,8 @@ confirmée par Sidy (2026-08-04) ; pagination à fournir ultérieurement.
 
 ## Contexte
 
-Guénon identifie *Melki-Tsedeq* (Melchisédech), roi de *Salem* et prêtre du
-« Dieu Très-Haut » (*Genèse* XIV), à la fonction même du « Roi du Monde » dans
+Guénon identifie *<span data-nom="melki-tsedeq" data-genre="entite">Melki-Tsedeq</span>* (Melchisédech), roi de *Salem* et prêtre du
+« Dieu Très-Haut » (*Genèse* XIV), à la fonction même du « <span data-nom="roi-du-monde" data-genre="ouvrage">Roi du Monde</span> » dans
 la tradition judéo-chrétienne, en s'appuyant sur le commentaire de saint Paul
 (*Épître aux Hébreux*, VII).
 
@@ -32,14 +32,14 @@ la tradition judéo-chrétienne, en s'appuyant sur le commentaire de saint Paul
 > prototype de l'homme. »
 
 Identité posée sans détour : le personnage « sans généalogie », de l'Épître aux
-Hébreux, s'explique **par** la fonction de Manu — non par analogie construite.
+Hébreux, s'explique **par** la fonction de <span data-nom="manu" data-genre="entite">Manu</span> — non par analogie construite.
 
 ## Autres points retenus
 
 - Trois aspects distingués sous *Melki-Tsedeq* : *Adoni-Tsedeq* (« Seigneur de
   Justice »), *Kohen-Tsedeq* (« Prêtre de Justice »), *Melki-Tsedeq* (« Roi de
   Justice ») — rapportés par Guénon aux mêmes trois fonctions que
-  *Brahâtmâ/Mahâtmâ/Mahânga* (ch. IV). *Dharma-Râja* est donné comme
+  *Brahâtmâ/Mahâtmâ/Mahânga* (ch. IV). *<span data-nom="dharma-raja" data-genre="entite">Dharma-Râja</span>* est donné comme
   littéralement équivalent à *Melki-Tsedeq*.
 - *Malkuth*, dernière des dix *Sephiroth*, porte le synonyme *Tsedeq* — jonction
   Royauté/Justice retrouvée dans le nom même de Melki-Tsedeq. La Justice

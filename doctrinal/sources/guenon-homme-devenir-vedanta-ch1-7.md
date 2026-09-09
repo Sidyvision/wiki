@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, vedanta, atma, purusha, prakriti, buddhi, manu, tribhuvana, arbre-inverse, kabbale, insan-al-kamil]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/manvantara]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/traditions/sanatana-dharma]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 # L'Homme et son devenir selon le Vêdânta, ch. I-VII
 
-*René Guénon, éd. Bossard, 1925 (l'exemplaire de la bibliothèque physique est
+*<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, éd. Bossard, 1925 (l'exemplaire de la bibliothèque physique est
 l'édition Éditions Traditionnelles).*
 
 ⚠️ **Pagination to-source** — transcription via index-rene-guenon.org (édition
@@ -32,13 +32,13 @@ ultérieurement, non urgente.
 
 ## Ch. I — Généralités sur le Vêdânta
 
-Exposé du *Vêdânta* comme fin du *Vêda*, doctrine métaphysique et non système
+Exposé du *<span data-nom="vedanta" data-genre="ecole">Vêdânta</span>* comme fin du *Vêda*, doctrine métaphysique et non système
 philosophique ; primauté du commentaire de Shankarâchârya, suivi par Guénon
 dans l'ensemble de l'ouvrage.
 
 ## Ch. II — Distinction fondamentale du « Soi » et du « moi »
 
-Distinction du « Soi » (*Âtmâ*, personnalité, principe permanent de l'être à
+Distinction du « Soi » (*<dfn data-terme="atma" data-translit="Âtmâ" data-tradition="universel">Âtmâ</dfn>*, personnalité, principe permanent de l'être à
 travers tous ses états) et du « moi » (individualité, contingente).
 
 ## Ch. III — Le centre vital de l'être humain, séjour de *Brahma*
@@ -60,17 +60,17 @@ travers tous ses états) et du « moi » (individualité, contingente).
 - *Âtmâ* résidant dans le cœur est dit à la fois plus petit que le plus petit
   grain et plus grand que la terre (manifestation grossière), l'atmosphère
   (manifestation subtile), le ciel (manifestation informelle) — les trois
-  degrés déjà nommés au ch. V comme *Tribhuvana*.
+  degrés déjà nommés au ch. V comme *<dfn data-terme="tribhuvana" data-translit="Tribhuvana" data-tradition="universel">Tribhuvana</dfn>*.
 
 ## Ch. IV — *Purusha* et *Prakriti*
 
-- Le couple *Purusha*/*Prakriti* = **essence/substance**, non « esprit/matière »
+- Le couple *<dfn data-terme="purusha" data-translit="Purusha" data-tradition="universel">Purusha</dfn>*/*<dfn data-terme="prakriti" data-translit="Prakriti" data-tradition="universel">Prakriti</dfn>* = **essence/substance**, non « esprit/matière »
   (Guénon écarte explicitement le dualisme cartésien, et rapproche *hylè* et
   *eidos* d'Aristote). Première de toutes les dualités, dont toutes les autres
   dérivent ; polarisation de l'Être Universel, sans atteinte à son unité.
 - ***Prajâpati***, « Seigneur des êtres produits », expression de *Brahma* en
   tant que Volonté Divine et Ordonnateur Suprême.
-- **Point capital pour le chantier Qutb/Manu** : « Cette Volonté se manifeste
+- **Point capital pour le chantier Qutb/<span data-nom="manu" data-genre="entite">Manu</span>** : « Cette Volonté se manifeste
   plus particulièrement, dans chaque cycle spécial d'existence, comme le *Manu*
   de ce cycle, qui lui donne sa Loi (*Dharma*) » ; *Manu* n'est ni un
   personnage ni un mythe, mais **« un principe, qui est proprement
@@ -90,7 +90,7 @@ travers tous ses états) et du « moi » (individualité, contingente).
   constitutive macrocosme/microcosme.
   **Précision de Sidy (2026-08-04)** : l'équivalence porte ici sur un **couple
   polarisé** (*Purusha-Prakriti*) là où le *hozo* clos le 2026-07-26 (Adam
-  Qadmôn = al-Insān al-Kāmil = Wang = Vaishwânara) porte sur un terme unique.
+  Qadmôn = <dfn data-terme="al-insan-al-kamil" data-translit="al-Insān al-Kāmil" data-tradition="universel">al-Insān al-Kāmil</dfn> = Wang = Vaishwânara) porte sur un terme unique.
   Il n'y a pas là deux joints distincts : le couple non encore séparé **est**
   l'**androgyne primordial**, c'est-à-dire Adam avant la distinction d'avec
   Ève. Ainsi entendu, *Purusha-Prakriti* désigne le même Homme Universel que

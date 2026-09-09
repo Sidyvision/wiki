@@ -12,7 +12,7 @@ tags:
 - comparatisme
 - source-secondaire
 created: 2026-06-29
-updated: 2026-06-29
+updated: 2026-09-09
 sources:
 sources_count: 0
 cross_links:
@@ -29,7 +29,7 @@ cross_links:
 Image/diagramme circulaire trouvé sur le blog *La fin des temps modernes*
 (lafindestempsmodernes.blogspot.com), tenu par un auteur signant « Mahdi Rouge »,
 spécialisé dans le commentaire guénonien et l'ésotérisme akbarien (catégories du
-blog : Archéomètre, Cosmologie musulmane, Ibn ʿArabî, René Guénon, Taçawwuf,
+blog : <span data-nom="archeometre" data-genre="ouvrage">Archéomètre</span>, Cosmologie musulmane, Ibn ʿArabî, <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, Taçawwuf,
 Textes critiques). Le blog republie notamment un article intitulé « La figure de
 l'Archéomètre », signé « Y.B. » (« Études guénoniennes »), qui commente la figure
 originale de Saint-Yves d'Alveydre.

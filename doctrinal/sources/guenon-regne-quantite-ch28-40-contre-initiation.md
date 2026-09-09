@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [contre-initiation, subversion, cycles, eschatologie, symbolisme, methodologie]
 created: 2026-07-28
-updated: 2026-08-04
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/antitradition-et-contre-tradition]]", "[[doctrinal/deviations/deviation-et-subversion]]", "[[doctrinal/deviations/renversement-des-symboles]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]", "[[doctrinal/symboles/manvantara]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/con
 
 ## Référence bibliographique
 
-**René Guénon**, *Le Règne de la Quantité et les Signes des Temps*, éd. Gallimard,
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Le Règne de la Quantité et les Signes des Temps*, éd. Gallimard,
 1970. Exemplaire en collection (cf. `meta/bibliotheque-physique.md`, section René
 Guénon).
 
@@ -26,8 +26,8 @@ son agent :
 | Ch.    | Titre                                              |
 | ------ | -------------------------------------------------- |
 | XXVIII | Les étapes de l'action antitraditionnelle          |
-| XXIX   | Déviation et subversion                            |
-| XXX    | Le renversement des symboles                       |
+| XXIX   | <span data-nom="deviation-et-subversion" data-genre="ouvrage">Déviation et subversion</span>                            |
+| XXX    | Le <span data-nom="renversement-des-symboles" data-genre="principe">renversement des symboles</span>                       |
 | XXXII  | Le néo-spiritualisme                               |
 | XXXIV  | Les méfaits de la psychanalyse                     |
 | XXXV   | La confusion du psychique et du spirituel          |
@@ -63,7 +63,7 @@ primordial (ch. XXIX, XXXVIII, XL).
 
 ## Notions fixées par ce bloc
 
-- **Contre-initiation** — l'agent humain de l'action antitraditionnelle, organisé en
+- **<dfn data-terme="contre-initiation" data-translit="Contre-initiation" data-tradition="universel">Contre-initiation</dfn>** — l'agent humain de l'action antitraditionnelle, organisé en
   degrés comme l'initiation qu'il inverse. Voir [[doctrinal/deviations/contre-initiation]].
 - **Distinction contrefacteur / contrefaçon** (ch. XXXVI) — la contre-initiation n'est
   *pas* la pseudo-initiation. Distinction capitale, développée en fiche propre :

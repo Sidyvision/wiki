@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, janus, symboles-science-sacree, solstices, deux-saints-jean, portes-solsticiales, initiation]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/janus-bifrons]]"]
@@ -22,7 +22,7 @@ exposé au ch. XVIII (voir
 
 ## Contenu clé pour le dépôt
 
-- Janus = *janitor* qui ouvre et ferme les portes (*januæ*) du cycle annuel
+- <span data-nom="janus" data-genre="entite">Janus</span> = *janitor* qui ouvre et ferme les portes (*januæ*) du cycle annuel
   avec ses clefs — la clef est ici explicitement nommée « symbole axial ».
 - Rappel du **troisième visage invisible** (le présent, insaisissable côté
   manifesté, « contient toute réalité » côté principe) — même développement
@@ -31,14 +31,14 @@ exposé au ch. XVIII (voir
   premier mois, ouvrant l'année au solstice d'hiver. La fête de Janus, à Rome,
   était célébrée **aux deux solstices** par les *Collegia Fabrorum*
   (corporations d'artisans).
-- Les portes solsticiales donnent accès aux deux moitiés — ascendante et
+- Les <span data-nom="portes-solsticiales" data-genre="cycle">portes solsticiales</span> donnent accès aux deux moitiés — ascendante et
   descendante — du cycle zodiacal ; Janus, « Maître du triple temps », est
   donc aussi « Maître des deux voies » (*dêva-yâna* / *pitri-yâna*, figurées
   par la lettre Y pythagoricienne).
 - **Janus, dieu de l'initiation** : présidait les *Collegia Fabrorum*,
   dépositaires des initiations liées à l'exercice des métiers.
 - **Transmission au christianisme** : dans le christianisme, les fêtes
-  solsticiales de Janus deviennent celles des **deux saints Jean** (Saint-Jean
+  solsticiales de Janus deviennent celles des **<span data-nom="deux-saints-jean" data-genre="entite">deux saints Jean</span>** (Saint-Jean
   d'hiver, proche de Noël — solstice d'hiver ; Saint-Jean d'été — solstice
   d'été). L'ésotérisme chrétien est dit « johannite ». Les *Collegia Fabrorum*
   se transmettent aux corporations de constructeurs du moyen âge, qui ont pour

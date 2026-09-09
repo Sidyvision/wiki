@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, individualisme, apologetique, autorite-spirituelle, esprit-traditionnel, protestantisme, rationalisme, crise-monde-moderne]
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-09
 sources: ["textes/la-crise-du-monde-moderne/la-crise-du-monde-moderne-index-de-l-uvre-de-rene-guenon-4.md"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 ## Référence
 
-**René Guénon**, *La Crise du Monde moderne*. Chapitre couvert : **V,
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *La Crise du Monde moderne*. Chapitre couvert : **V,
 « L'individualisme »**. Texte consulté dans `textes/` (`Chapitre=692`, sigle
 `CMM`), **lu intégralement**.
 
@@ -153,7 +153,7 @@ au-dessus de tout », d'où le « rationalisme » ; puis le « naturalisme », q
 « le seul aboutissement logique du "rationalisme" » ; et au terme le « pragmatisme »,
 substitution de l'« utilité » à la « vérité ».
 
-En religion : le protestantisme est « l'individualisme lui-même considéré dans son
+En religion : le <span data-nom="protestantisme" data-genre="ecole">protestantisme</span> est « l'individualisme lui-même considéré dans son
 application à la religion » — le « libre examen » y étant « l'interprétation laissée à
 l'arbitraire de chacun, même des ignorants et des incompétents ». Faute de pouvoir
 s'entendre sur la doctrine, « c'est le côté secondaire de la religion, nous voulons dire

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, zodiaque, pythagore, portes-solsticiales, symboles-science-sacree]
 created: 2026-07-14
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]]", "[[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]]", "[[doctrinal/autorites/rene-guenon]]"]
@@ -21,7 +21,7 @@ synthèse fidèle intégrale du chapitre.
 
 ## Contenu clé pour le dépôt
 
-Prolonge le chapitre XXXV (« Les Portes solsticiales ») : la doctrine des portes
+Prolonge le chapitre XXXV (« Les <span data-nom="portes-solsticiales" data-genre="cycle">Portes solsticiales</span> ») : la doctrine des portes
 solsticiales (Cancer « porte des hommes », Capricorne « porte des dieux ») se
 retrouve, sous les mêmes termes, chez les pythagoriciens (via Proclos, Porphyre sur
 Nouménios) mais aussi bien avant eux, chez Homère (grotte des Nymphes, *Odyssée*).

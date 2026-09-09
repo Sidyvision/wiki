@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [guenon, er-ruh, metatron, qutb, alif, barzakh, sayyid-al-awwalin-wal-akhirin, insan-al-kamil]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/al-insan-al-kamil]]", "[[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]"]
@@ -22,9 +22,9 @@ exacte à fournir ultérieurement.
 
 ## Contexte
 
-Guénon y expose la doctrine de *Er-Rûh* (l'Esprit) selon la science des lettres
+Guénon y expose la doctrine de *<span data-nom="er-ruh" data-genre="entite">Er-Rûh</span>* (l'Esprit) selon la science des lettres
 islamique : créé par le *bâ* (seconde lettre, principe de la dualité et de la
-manifestation) plutôt que par l'*alif* (première lettre, principe un), *Er-Rûh*
+manifestation) plutôt que par l'*<dfn data-terme="alif" data-translit="alif" data-tradition="islam">alif</dfn>* (première lettre, principe un), *Er-Rûh*
 est l'Esprit total de l'Existence universelle, identifié à *En-Nûr* (la
 Lumière).
 
@@ -36,14 +36,14 @@ Lumière).
 > *Seyidnâ Mîtatrûn*, (le *Metatron* de la Kabbale hébraïque). »
 
 Guénon ajoute que dans la figuration du Trône (*El-Arsh*), *Er-Rûh* occupe le
-centre — place qui est « effectivement celle de *Metatron* » — le Trône étant
+centre — place qui est « effectivement celle de *<span data-nom="metatron" data-genre="entite">Metatron</span>* » — le Trône étant
 le lieu de la *Shekinah*, « parèdre » de Metatron dans la tradition hébraïque.
 L'identité est donc doublement appuyée : par le rôle (l'Esprit distinct des
 anges) et par la position (le centre du Trône).
 
 ## Points doctrinaux connexes, capitaux pour l'Instrument
 
-- ***Er-Rûh* est « le *barzakh* par excellence »** — limite entre *El-Haqq* et
+- ***Er-Rûh* est « le *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>* par excellence »** — limite entre *El-Haqq* et
   *el-Khalq*, qui sépare et unit la création de son Principe selon le point de
   vue. ⚠️ **Échelle à ne pas confondre** : c'est le *barzakh* absolu,
   principiel — non le barzakh supérieur de la bande 19-20 de la table des 38
@@ -61,12 +61,12 @@ anges) et par la position (le centre du Trône).
   (ouverte 2026-07-14, statut `en cours`) portait précisément sur ce concept.
   Cette pièce lui apporte une assise textuelle guénonienne directe et devrait
   être versée à cette fiche en priorité — indépendamment du présent chantier
-  Qutb/Manu/Metatron.
+  <dfn data-terme="qutb" data-translit="Qutb" data-tradition="islam">Qutb</dfn>/Manu/Metatron.
 - **Tous les titres du Prophète sont « ceux-mêmes de l'Homme universel »
   (*El-Insân el-Kâmil*)** — celui-ci « totalisant finalement en lui tous les
   degrés de l'Existence, comme il les contenait tous en lui dès l'origine ».
   ⚠️ **Précision de rigueur (Cmd 2)** : le texte ne dit pas « Metatron =
-  Al-Insān al-Kāmil » en identité directe. La chaîne exacte est : Metatron =
+  <dfn data-terme="al-insan-al-kamil" data-translit="Al-Insān al-Kāmil" data-tradition="islam">Al-Insān al-Kāmil</dfn> » en identité directe. La chaîne exacte est : Metatron =
   *Er-Rûh el-mohammediyah* (principe, « monde d'en-haut ») → son expression
   ultime dans le « monde d'en-bas » est le Sceau des prophètes → les titres de
   celui-ci sont ceux d'Al-Insān al-Kāmil. Trois maillons, pas une équation à

@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [muqattaat, coran, sourate-qaf, recursion, structure, iltifat, ijaz, blogging-theology]
 created: 2026-09-04
-updated: 2026-09-04
+updated: 2026-09-09
 sources: ["[[doctrinal/sources/gloton-approche-coran-grammaire-lexique]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/sources/gloton-approche-coran-grammaire-lexique]]"]
@@ -17,7 +17,7 @@ cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/sources/gloton
 
 - **Auteur de la thèse** : **Sabri B. Rommane** (graphie de la diapositive ;
   le dossier `raw/` porte « Sabri Ben Rommane »).
-- **Support** : entretien vidéo de la chaîne **Blogging Theology** (hôte : Paul
+- **Support** : entretien vidéo de la chaîne **<span data-nom="blogging-theology" data-genre="ouvrage">Blogging Theology</span>** (hôte : Paul
   Williams), diaporama projeté par l'auteur.
 - **Titre de la vidéo** : *Did the Qur'an Hide a Secret Algorithm for 1400 Years?*
 - **Chaîne** : **Blogging Theology**. **Mise en ligne** : **2 mai 2026**.
@@ -57,7 +57,7 @@ parent de niveau 4**, la taille de chaque groupe valant la longueur du nom du
 parent (IMG_0447). Appliqué à **Sūrat Qāf** (45 āyāt), cela donne 17 groupes, eux-mêmes
 emboîtés en *Subsections* et *Major Sections*. La prétention centrale est
 **prédictive** : les frontières ainsi engendrées doivent coïncider avec les
-ruptures thématiques et les ***iltifāt*** du texte.
+ruptures thématiques et les ***<dfn data-terme="iltifat" data-translit="iltifāt" data-tradition="islam">iltifāt</dfn>*** du texte.
 
 ## Collation du lot photographique
 
@@ -176,7 +176,7 @@ un **référent réel**, et rien de plus :
   analyzed · **Need peer-review**. »
 
 La charge argumentative des diapositives IMG_0478 à IMG_0484 (récursion, automate
-fini, ensembles stables, anachronisme de 1300 ans, *hiddenness problem*, *iʿjāz*)
+fini, ensembles stables, anachronisme de 1300 ans, *hiddenness problem*, *<dfn data-terme="ijaz" data-translit="iʿjāz" data-tradition="islam">iʿjāz</dfn>*)
 repose **entièrement** sur cette condition non encore remplie.
 
 ## Texte converti
@@ -193,12 +193,12 @@ anomalie d'ordre signalées sur place plutôt que reconstituées.
 ## Emploi de cette source dans le dépôt
 
 Instrument de **repérage structurel**, à convoquer là où une thèse porte sur
-l'architecture formelle du texte coranique et sur les *muqaṭṭaʿāt*. Elle ne
+l'architecture formelle du texte coranique et sur les *<dfn data-terme="muqattaat" data-translit="muqaṭṭaʿāt" data-tradition="islam">muqaṭṭaʿāt</dfn>*. Elle ne
 constitue **pas** une autorité sur le sens des lettres isolées : sur ce terrain,
 [[doctrinal/symboles/ilm-al-huruf]] tient la doctrine reçue, et le rapport entre
 les deux relève d'un examen ouvert, non d'une assimilation.
 
-⚠️ **Piège d'homonymie signalé.** La sourate **Qāf** (Coran L) n'a aucun rapport
+⚠️ **Piège d'homonymie signalé.** La sourate **Qāf** (<span data-nom="coran" data-genre="ouvrage">Coran</span> L) n'a aucun rapport
 établi ici avec le **Mont Qāf** cosmologique (voir
 `doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex.md`) :
 le rapprochement serait fondé sur le seul nom. **Non-lien délibéré.**

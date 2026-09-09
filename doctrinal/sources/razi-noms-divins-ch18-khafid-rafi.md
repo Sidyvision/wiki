@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [asma-al-husna, razi, lawami-al-bayyinat, khafid, rafi, degres, darajat, resurrection, transcription]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]", "[[doctrinal/symboles/waqia]]"]
@@ -16,7 +16,7 @@ cross_links: ["[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/symboles/tabl
 ## Identification
 
 - **Auteur** : Ar-Râzî (Fakhr al-Dīn al-Rāzī)
-- **Ouvrage** : *Traité sur les Noms divins* (*Lawāmiʿ al-bayyināt*)
+- **Ouvrage** : *Traité sur les Noms divins* (*<span data-nom="lawami-al-bayyinat" data-genre="ouvrage">Lawāmiʿ al-bayyināt</span>*)
 - **Introduction, traduction et annotations** : **Maurice Gloton**
 - **Préface** : **Pierre Lory**
 - **Éditeur** : **Albouraq**, collection « **Héritage Spirituel** »
@@ -102,9 +102,9 @@ Quatre éléments, dont trois n'y figuraient pas.
 
 1. **Les deux Noms forment un couple indissociable, et leur objet est le degré.**
    « Ces deux noms déterminent l'élévation (*iʿlāʾ*) ou la chute (*isqāṭ*) **en
-   degrés** ». Le dépôt portait déjà *al-Rāfiʿ* sous la forme du Nom *Rafīʿ
+   degrés** ». Le dépôt portait déjà *al-Rāfiʿ* sous la forme du Nom *<dfn data-terme="rafi" data-translit="Rafīʿ" data-tradition="islam">Rafīʿ</dfn>
    al-Darajāt* (degré 38 de la table du *Nafas*, discernement clos le 2026-07-14) —
-   mais **jamais son envers**. Rāzī pose que l'un ne va pas sans l'autre.
+   mais **jamais son envers**. <span data-nom="razi" data-genre="autorite">Rāzī</span> pose que l'un ne va pas sans l'autre.
 
 2. **Deux registres distincts, explicitement séparés par Rāzī.** *(1)* dans le *dīn*
    — *iḍlāl* / *irshād*, égarement et bonne direction ; *(2)* dans ce bas-monde —
@@ -125,7 +125,7 @@ Quatre éléments, dont trois n'y figuraient pas.
 ## Convergence lexicale avec le Nom du degré 38
 
 Le verset placé en exergue du chapitre est **Coran LVIII, 11**. Sa fin — non citée
-sur la page photographiée mais bien connue — porte le mot *darajāt*, celui-là même
+sur la page photographiée mais bien connue — porte le mot *<dfn data-terme="darajat" data-translit="darajāt" data-tradition="islam">darajāt</dfn>*, celui-là même
 du Nom *Rafīʿ al-Darajāt* de **Coran XL, 15**, déjà versé au dépôt
 ([[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]).
 
@@ -186,7 +186,7 @@ rapprochées :
   [[doctrinal/sources/sept-etendards-califat]], p. 116 : le Calife « se manifeste
   par le pouvoir des Noms divins : *il donne et il refuse ; il fait mourir et il
   donne la vie ; **il élève et il abaisse*** ». L'index des termes arabes du même
-  ouvrage porte l'entrée « *khafḍ*, *Khāfiḍ* (al-), 104, 123, 124, 244 » — quatre
+  ouvrage porte l'entrée « *khafḍ*, *<dfn data-terme="khafid" data-translit="Khāfiḍ" data-tradition="islam">Khāfiḍ</dfn>* (al-), 104, 123, 124, 244 » — quatre
   occurrences dont le corps du texte n'est pas encore photographié (`to-source`).
 
 Le couple est donc attesté, chez Ibn ʿArabī et dans deux ouvrages distincts, comme

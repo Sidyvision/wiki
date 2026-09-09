@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [guenon, aperçus-esoterisme-islamique-taoisme, archetype, angelologie, alphabet-arabe, monde-celeste, science-des-lettres, jafr]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-grande-triade-ch10-homme-trois-mondes]]"]
@@ -23,7 +23,7 @@ l'appui de l'instruction méthodologique demandée par Sidy pour la fiche
 ## Contenu (synthèse fidèle, citation centrale)
 
 Le texte traite du passage de l'alphabet arabe de 22 à 28 lettres (petit et grand
-*Jafr*) et de la répartition des huit noms angéliques qui soutiennent le « Trône »
+*<dfn data-terme="jafr" data-translit="Jafr" data-tradition="islam">Jafr</dfn>*) et de la répartition des huit noms angéliques qui soutiennent le « Trône »
 divin (*El-Arsh El-Muhît*), un nom par groupe de lettres aux quatre points
 cardinaux et aux quatre points intermédiaires. Guénon observe que ce changement du
 nombre de lettres a nécessairement modifié les « entités » désignées par les noms

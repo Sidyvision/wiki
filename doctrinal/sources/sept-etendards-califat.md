@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [califat, gilis, ibn-arabi, guenon, transcription, index]
 created: 2026-07-09
-updated: 2026-08-30
+updated: 2026-09-09
 sources: ["[[doctrinal/autorites/charles-andre-gilis]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/michel-valsan]]"]
@@ -19,9 +19,9 @@ cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-g
 
 ## Avant-propos (p. 7-8) — transcription intégrale
 
-La doctrine des sept Étendards se rapporte exclusivement au Califat ésotérique. Prévenons, dès l'abord, un malentendu. Nous n'avons cherché, ni ouvertement, ni de manière indirecte ou déguisée, à établir la nécessité de restaurer en Islam le Califat extérieur auquel, selon Ibn Arabî, appartient l'Épée. Il convient d'y insister d'autant plus que cette restauration, qui doit être opérée par le Mahdî, peut être considérée à bon droit comme une des applications cycliques de la doctrine dont il s'agit. Le Mahdî est désigné comme « le dernier des Califes », au sens habituel et institutionnel du terme ; en même temps, il assumera, comme les quatre premiers successeurs du Prophète, une fonction majeure dans l'ordre ésotérique. Son avènement résultera d'une Élection divine, sans l'intervention d'une volonté ou, à plus forte raison, d'une « politique » humaine quelconque. Elle viendra à son heure, qui n'est connue que d'Allâh.
+La doctrine des sept Étendards se rapporte exclusivement au Califat ésotérique. Prévenons, dès l'abord, un malentendu. Nous n'avons cherché, ni ouvertement, ni de manière indirecte ou déguisée, à établir la nécessité de restaurer en Islam le Califat extérieur auquel, selon <span data-nom="ibn-arabi" data-genre="autorite">Ibn Arabî</span>, appartient l'Épée. Il convient d'y insister d'autant plus que cette restauration, qui doit être opérée par le Mahdî, peut être considérée à bon droit comme une des applications cycliques de la doctrine dont il s'agit. Le Mahdî est désigné comme « le dernier des Califes », au sens habituel et institutionnel du terme ; en même temps, il assumera, comme les quatre premiers successeurs du Prophète, une fonction majeure dans l'ordre ésotérique. Son avènement résultera d'une Élection divine, sans l'intervention d'une volonté ou, à plus forte raison, d'une « politique » humaine quelconque. Elle viendra à son heure, qui n'est connue que d'Allâh.
 
-La doctrine cyclique du Califat, dont traite la troisième partie de notre ouvrage, développe, dans le sens de l'« ampleur » propre à un état particulier d'existence, la notion de « Califat axial » défini et décrit dans la deuxième partie ; elle présente un intérêt particulier dans la perspective ouverte par l'œuvre de René Guénon car elle montre comment l'Islam envisage la diversité des formes traditionnelles issues de la Tradition primordiale, ainsi que sa propre fonction eschatologique ; elle a pour point de départ une note de Michel Vâlsan dont l'importance nous paraît soulignée par le fait qu'elle a été ajoutée à la version initiale de son étude sur *Le Triangle de l'Androgyne* (1).
+La doctrine cyclique du Califat, dont traite la troisième partie de notre ouvrage, développe, dans le sens de l'« ampleur » propre à un état particulier d'existence, la notion de « Califat axial » défini et décrit dans la deuxième partie ; elle présente un intérêt particulier dans la perspective ouverte par l'œuvre de <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span> car elle montre comment l'Islam envisage la diversité des formes traditionnelles issues de la Tradition primordiale, ainsi que sa propre fonction eschatologique ; elle a pour point de départ une note de <span data-nom="michel-valsan" data-genre="autorite">Michel Vâlsan</span> dont l'importance nous paraît soulignée par le fait qu'elle a été ajoutée à la version initiale de son étude sur *Le Triangle de l'Androgyne* (1).
 
 > (1) Cf. *Études Traditionnelles*, 1964, p. 276. Cette note a été reprise dans *L'Islam et la fonction de René Guénon*, conformément à l'indication donnée par son auteur ; elle constitue le dernier paragraphe de la note 8, à la page 116.
 
@@ -385,7 +385,7 @@ p. 123 et p. 119.
 Citation d'Ibn ʿArabī : quand l'homme « se tourne vers Allâh et fait retour (à
 Lui : *tāba*) », son âme éprouve un sentiment de supériorité issu de la
 non-similitude ; il cherche alors à s'isoler, « il fuit tout seul vers des lieux
-distants ; **il hante les montagnes et les vallées profondes** ». Gilis commente que
+distants ; **il hante les montagnes et les vallées profondes** ». <span data-nom="gilis" data-genre="autorite">Gilis</span> commente que
 ce texte illustre *a contrario* l'importance de la « communauté traditionnelle » et
 de la « Loi sacrée », qui « répondent aux exigences spécifiques de la période finale
 du cycle humain ».

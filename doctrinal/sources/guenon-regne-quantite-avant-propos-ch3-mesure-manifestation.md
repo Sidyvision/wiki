@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, regne-quantite, nombre, mesure, quantite, qualite, geometrie-sacree, rite, ordre, rita, manifestation, science-traditionnelle-des-nombres]
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres]]", "[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]"]
@@ -79,7 +79,7 @@ toujours une certaine imperfection dans son expression numérique ».
 Hors du monde corporel, la mesure se transpose analogiquement : elle devient « une
 "assignation" ou une "détermination", nécessairement impliquée par toute manifestation ».
 Elle « ne fait qu'un avec le processus même de la manifestation ». D'où la connexion
-intime avec l'idée d'« ordre » (sanscrit *rita*, apparenté à *ordo*) : le « cosmos »
+intime avec l'idée d'« ordre » (sanscrit *<dfn data-terme="rita" data-translit="rita" data-tradition="universel">rita</dfn>*, apparenté à *ordo*) : le « cosmos »
 est la production de l'ordre à partir du chaos, assimilée par toutes les traditions à
 une illumination (*Fiat Lux*).
 

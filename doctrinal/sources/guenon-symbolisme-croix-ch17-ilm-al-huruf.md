@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, symbolisme-croix, ilm-al-huruf, science-des-lettres, lettres-transcendantes, livre-du-monde, esoterisme-islamique, nombre, magie, hierarchie-des-sciences]
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", "[[doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle]]", "[[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]]"]
@@ -22,7 +22,7 @@ Guénon.
 `raw/` (onze titres, 307 fichiers), **la seule occurrence du terme `ilmul-hurûf`** et la
 seule définition que Guénon en donne. Elle situe hiérarchiquement la discipline même
 dont relève *Shams al-Maʿārif*. Une page = un sujet (Cmd 4) : le sujet ici est la
-science des lettres, non l'ontologie du chapitre qui la porte.
+<span data-nom="science-des-lettres" data-genre="principe">science des lettres</span>, non l'ontologie du chapitre qui la porte.
 
 ## 1. Le contexte immédiat de la note
 
@@ -39,7 +39,7 @@ Puis il en donne l'équivalence, qui est le fondement doctrinal de tout ce qui s
 > transcendantes" qui composent ce Livre sont toutes les créatures** ».
 
 C'est **de cette doctrine seule** que découlent les trois degrés : la science des lettres
-est possible parce que les êtres *sont* des lettres du Livre du Monde. Le fondement est
+est possible parce que les êtres *sont* des lettres du <span data-nom="livre-du-monde" data-genre="ouvrage">Livre du Monde</span>. Le fondement est
 ontologique, non technique.
 
 ## 2. **Les trois degrés** (citation intégrale)

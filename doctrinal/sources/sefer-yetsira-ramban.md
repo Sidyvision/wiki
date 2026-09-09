@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "kabbale"
 tags: [sefer-yetsira, ramban, kabbale, lettres-hebraiques, sefirot, trois-meres, sept-doubles, douze-simples, cosmogonie-lettres, tsimtsum]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]"]
@@ -15,8 +15,8 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/ilm-a
 
 ## Présentation
 
-Texte intégral du *Sefer Yetsira* (Livre de la Création) en hébreu, accompagné du
-commentaire du Ramban (Rabbi Moshe ben Nahman, 1194-1270) et de la traduction
+Texte intégral du *<span data-nom="sefer-yetsira" data-genre="ouvrage">Sefer Yetsira</span>* (Livre de la Création) en hébreu, accompagné du
+commentaire du <span data-nom="ramban" data-genre="autorite">Ramban</span> (Rabbi Moshe ben Nahman, 1194-1270) et de la traduction
 française par Gilen. Source brute archivée sous `raw/sefer_yetsira_-_Ramban.pdf`
 (20 pages) ; transcription Markdown sous `raw/sefer-yetsira-ramban.md`.
 
@@ -27,9 +27,9 @@ une classe de la cosmogonie par les lettres :
 
 | Chapitre | Matière | Éléments |
 |----------|---------|----------|
-| I | Les 32 Sentiers de Sagesse | 10 Sefirot du Néant (בלימה) + 22 lettres de fondement ; triple signature divine (Séphar, Sopher, Sippour) ; les 10 Sefirot comme les 10 doigts, 5 contre 5, l'Alliance au milieu |
+| I | Les 32 Sentiers de Sagesse | 10 <dfn data-terme="sefirot" data-translit="Sefirot" data-tradition="kabbale">Sefirot</dfn> du Néant (בלימה) + 22 lettres de fondement ; triple signature divine (Séphar, Sopher, Sippour) ; les 10 Sefirot comme les 10 doigts, 5 contre 5, l'Alliance au milieu |
 | II | Les 22 lettres de fondement | Gravure, taille, épuration, pesée, interchange (231 portes) ; les 5 lieux d'articulation (gorge, palais, langue, dents, lèvres) |
-| III | Les 3 Mères (אמש) | Alef (Air/Souffle), Mem (Eau), Shin (Feu) ; correspondances monde/année/être vivant ; Tsimtsum, gravure comme une plate-bande, taille comme une muraille, couverture comme un plafond |
+| III | Les 3 Mères (אמש) | Alef (Air/Souffle), Mem (Eau), Shin (Feu) ; correspondances monde/année/être vivant ; <span data-nom="tsimtsum" data-genre="entite">Tsimtsum</span>, gravure comme une plate-bande, taille comme une muraille, couverture comme un plafond |
 | IV | Les 7 Doubles (בגדכפרת) | Vie/Mort, Paix/Mal, Sagesse/Sottise, Richesse/Pauvreté, Grâce/Laideur, Semence/Désolation, Gouvernement/Servitude ; 7 planètes, 7 jours, 7 orifices ; le Palais de la Sainteté au centre |
 | V | Les 12 Simples | 12 constellations, 12 mois, 12 gouvernants dans l'être vivant ; 12 limites obliques ; 12 fonctions (vision, ouïe, odorat, parole, goût, coït, action, marche, colère, rire, réflexion, sommeil) |
 | VI | Synthèse — Les 3 Pères, 7 Étoiles, 12 Limites | Tali/Galgal/Lev (axe/roue/cœur) ; l'Alliance avec Avraham ; les 22 lettres attachées sur sa langue, plongées dans l'Eau, brûlées par le Feu, ébranlées par le Souffle |
@@ -137,7 +137,7 @@ particulier :
 
 Ce texte est archivé comme pièce de référence kabbalistique. **Aucun ancrage
 direct** dans l'Instrument n'est proposé à ce stade. L'équivalence fonctionnelle
-entre le Palais de la Sainteté (kabbale) et le Centre des ḥaḍarāt (tasawwuf)
+entre le Palais de la Sainteté (<span data-nom="kabbale" data-genre="ecole">kabbale</span>) et le Centre des ḥaḍarāt (tasawwuf)
 est du domaine de la spéculation comparatiste — à instruire dans une fiche de
 discernement dédiée si Sidy le juge utile, en suivant la méthode sashimono
 établie.

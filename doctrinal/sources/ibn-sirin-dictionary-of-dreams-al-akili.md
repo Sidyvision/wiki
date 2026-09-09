@@ -5,16 +5,16 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ibn-sirin, oniromancie, taabir-al-ruya, dictionnaire, traduction, conversion]
 created: 2026-09-05
-updated: 2026-09-05
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/ibn-sirin]]", "[[doctrinal/autorites/muhammad-al-akili]]", "[[doctrinal/symboles/taabir-al-ruya]]"]
 ---
 # Ibn Seerin's Dictionary of Dreams — Muhammad M. Al-Akili
 
-Dictionnaire d'interprétation des rêves en anglais (552 pages), compilé et
+<span data-nom="dictionnaire" data-genre="ouvrage">Dictionnaire</span> d'interprétation des rêves en anglais (552 pages), compilé et
 adapté par Muhammad M. Al-Akili (Philadelphie, 1991) d'après le corpus
-d'oniromancie attribué à Muḥammad ibn Sīrīn. Entrées classées alphabétiquement
+d'oniromancie attribué à Muḥammad <span data-nom="ibn-sirin" data-genre="autorite">ibn Sīrīn</span>. Entrées classées alphabétiquement
 de A à Z, précédées d'un appareil de présentation, suivies d'un index des
 entrées et d'une bibliographie.
 

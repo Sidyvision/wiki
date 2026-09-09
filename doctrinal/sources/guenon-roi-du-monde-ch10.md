@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, roi-du-monde, balance, tulā, grande-ourse, pléiades, pôle, septénaire, hyperboréen, atlante]
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante]]"]
@@ -13,11 +13,11 @@ cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-plan
 
 # Guénon — Le Roi du Monde, ch. X : Tulā et le septénaire stellaire
 
-Chapitre X de *Le Roi du Monde* (1927), édition Gallimard. Trois notes capitales pour l'étude du septénaire transversal.
+Chapitre X de *Le <span data-nom="roi-du-monde" data-genre="ouvrage">Roi du Monde</span>* (1927), édition Gallimard. Trois notes capitales pour l'étude du septénaire transversal.
 
 ## Le corps du chapitre
 
-*Tulā* = balance en sanskrit, désigne traditionnellement le signe zodiacal de la Balance. Guénon rapporte une tradition chinoise selon laquelle **la Balance céleste fut primitivement la Grande Ourse**. Il en tire deux conséquences :
+*<span data-nom="tula" data-genre="lieu">Tulā</span>* = balance en sanskrit, désigne traditionnellement le signe zodiacal de la Balance. Guénon rapporte une tradition chinoise selon laquelle **la Balance céleste fut primitivement la <span data-nom="grande-ourse" data-genre="entite">Grande Ourse</span>**. Il en tire deux conséquences :
 
 1. La Grande Ourse se rattache au **symbolisme du Pôle** (tradition hyperboréenne) — elle est le support polaire d'une fonction septénaire.
 2. La Balance zodiacale, elle, est **le signe du Jugement** — interface de passage du principe au cyclique.
@@ -29,7 +29,7 @@ La Grande Ourse a été appelée « **Balance de jade** » ; ailleurs, Grande et
 
 ## Note 2 — Le pivot : fonction transversale
 
-La Grande Ourse est le *sapta-ṛkṣa* (les sept Ṛṣis), support septénaire de la **tradition hyperboréenne**. Mais « **dans la tradition atlante, la Grande Ourse est remplacée dans ce rôle par les Pléiades**, également sept étoiles — filles d'Atlas, dites *Atlantides* ».
+La Grande Ourse est le *sapta-ṛkṣa* (les sept Ṛṣis), support septénaire de la **tradition hyperboréenne**. Mais « **dans la tradition <span data-nom="atlante" data-genre="cycle">atlante</span>, la Grande Ourse est remplacée dans ce rôle par les <span data-nom="pleiades" data-genre="entite">Pléiades</span>**, également sept étoiles — filles d'Atlas, dites *Atlantides* ».
 
 **Implication doctrinale capitale** : une même fonction septénaire, deux supports stellaires, deux courants traditionnels. C'est un **remplacement fonctionnel documenté**, non une analogie — « dans ce rôle » signifie qu'un seul rôle est effectué, par deux hiérarchies selon le courant traditionnel.
 

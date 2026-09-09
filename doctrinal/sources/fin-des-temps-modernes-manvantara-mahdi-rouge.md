@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, manvantara, cycles-cosmiques, yuga, kali-yuga, eschatologie, source-secondaire]
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[manvantara]]", "[[rene-guenon]]"]
@@ -18,14 +18,14 @@ cross_links: ["[[manvantara]]", "[[rene-guenon]]"]
 - **Auteur du billet** : Mahdi Rouge
 - **Blog** : *La fin des temps modernes*
 - **Date de publication** : mardi 3 décembre 2013
-- **Nature** : exposé graphique (deux schémas) résumant, à partir des indications de René Guénon, la position de notre *Manvantara* actuel dans le cycle des quatre Yuga, avec citation directe du *Roi du Monde*.
+- **Nature** : exposé graphique (deux schémas) résumant, à partir des indications de <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, la position de notre *<span data-nom="manvantara" data-genre="cycle">Manvantara</span>* actuel dans le cycle des quatre <span data-nom="yuga" data-genre="cycle">Yuga</span>, avec citation directe du *Roi du Monde*.
 
 ## Contenu
 
 Le billet présente deux représentations graphiques de notre *Manvantara* selon Guénon :
 
 1. **Schéma linéaire** — frise allant d'Adam à la naissance de Muhammad et au début de l'ère Jésus, situant l'Atlantide, la Tour de Babel, Noé et la succession des quatre Yuga (Satya, Trêtâ, Dwâpara, Kali).
-2. **Schéma circulaire** — même contenu disposé en spirale/cercle, des mêmes repères (Adam, Atlantide, Noé, Tour de Babel, Muhammad), avec les durées en années pour chaque Yuga (Satya-Yuga 25 920, Trêtâ-Yuga 19 440, Dwâpara-Yuga 12 960, Kali-Yuga 6 480).
+2. **Schéma circulaire** — même contenu disposé en spirale/cercle, des mêmes repères (Adam, Atlantide, Noé, Tour de Babel, Muhammad), avec les durées en années pour chaque Yuga (Satya-Yuga 25 920, Trêtâ-Yuga 19 440, Dwâpara-Yuga 12 960, <span data-nom="kali-yuga" data-genre="cycle">Kali-Yuga</span> 6 480).
 
 ### Données cycliques rapportées
 
@@ -39,7 +39,7 @@ Le billet présente deux représentations graphiques de notre *Manvantara* selon
 
 ### Référence complémentaire indiquée par l'auteur
 
-« Quelques remarques sur la doctrine des cycles cosmiques », *Études traditionnelles*, oct. 1938 ; repris dans *Formes traditionnelles et cycles cosmiques*, Gallimard, 1970 (déjà recensé dans `meta/bibliotheque-physique.md`).
+« Quelques remarques sur la doctrine des <span data-nom="cycles-cosmiques" data-genre="cycle">cycles cosmiques</span> », *Études traditionnelles*, oct. 1938 ; repris dans *Formes traditionnelles et cycles cosmiques*, Gallimard, 1970 (déjà recensé dans `meta/bibliotheque-physique.md`).
 
 ### Lectures suggérées (bibliothèque physique)
 

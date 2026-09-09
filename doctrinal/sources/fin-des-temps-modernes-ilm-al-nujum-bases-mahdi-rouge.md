@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ilm-al-nujum, zodiaque, domification, planetes, aspects, noeuds-lunaires, buruj, kursî, hadarat-khams, lune-noire, guenon, ibn-arabi, mahdi-rouge]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[ilm-al-nujum]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "[[barzakh]]", "[[asma-al-husna]]", "[[rene-guenon]]", "[[ibn-arabi]]"]
@@ -15,12 +15,12 @@ cross_links: ["[[ilm-al-nujum]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "
 
 ## Identification
 
-- **Auteur** : Mahdi Rouge
+- **Auteur** : <span data-nom="mahdi-rouge" data-genre="cycle">Mahdi Rouge</span>
 - **Blog** : *La fin des temps modernes*
 - **Date** : 24 avril 2024
 - **URL** : `https://lafindestempsmodernes.blogspot.com/search?q=Précession`
 - **Nature** : exposé systématique des bases de l'astrologie traditionnelle islamique —
-  douze signes, sept planètes, dignités, domification, aspects, nœuds lunaires, Lune Noire.
+  douze signes, sept planètes, dignités, domification, aspects, nœuds lunaires, <span data-nom="lune-noire" data-genre="entite">Lune Noire</span>.
 
 ---
 
@@ -76,8 +76,8 @@ polarité (Jour/Nuit) et des qualités (Chaud/Froid + Sec/Humide) :
 ### *Falak al-burūj* et *al-Kursī* — connexion doctrinale majeure
 
 Dans les *Futūhāt al-Makkiyya* (cité dans l'article via Meftah, *Les Clés ontologiques et
-coraniques des Fuṣūṣ*, Éd. Arma Artis 2011, p. 144), Ibn ʿArabī associe explicitement la
-sphère zodiacale (*falak al-burūj*) au *Kursī* (الكرسي — le Piédestal divin) :
+coraniques des Fuṣūṣ*, Éd. Arma Artis 2011, p. 144), <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> associe explicitement la
+sphère zodiacale (*falak al-burūj*) au *<dfn data-terme="kursi" data-translit="Kursī" data-tradition="islam">Kursī</dfn>* (الكرسي — le Piédestal divin) :
 
 > « C'est à l'intérieur d'*al-Kursī* que s'effectue son mouvement dont on ne connait ni début
 > ni fin [...]. C'est par son existence que surviennent les jours, les mois, les années. »
@@ -189,7 +189,7 @@ Citation de Guénon (*Le Règne de la Quantité et les Signes des Temps*, ch. XX
 
 ## Sources mobilisées dans l'article
 
-- **Ibn ʿArabī** — *Futūhāt al-Makkiyya* (sur la sphère des *burūj* / *al-Kursī*),
+- **Ibn ʿArabī** — *Futūhāt al-Makkiyya* (sur la sphère des *<dfn data-terme="buruj" data-translit="burūj" data-tradition="islam">burūj</dfn>* / *al-Kursī*),
   via Meftah p. 144
 - **Guénon** — *Le Règne de la Quantité et les Signes des Temps* (ch. XX, note 3)
 - **Guénon** — *Introduction Générale à l'Étude des Doctrines Hindoues* (ch. VIII,

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ibn-arabi, valsan, qutb, imam-droite-imam-gauche, manu, melki-tsedeq, aqtab, nujaba, awtad, khatm, khidr]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq]]", "[[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]", "[[doctrinal/symboles/malamatiyya]]", "[[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]"]
@@ -34,10 +34,10 @@ disponible en français sur ce passage précis de la Khuṭba.
 ## Contexte
 
 Vâlsan y traduit et annote des extraits de l'Avant-Propos des *Futūḥāt*, dans
-lesquels Ibn ʿArabī relate sa vision du Centre Suprême de la Tradition
+lesquels <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> relate sa vision du Centre Suprême de la Tradition
 Primordiale et Universelle — l'*al-Malâ'u-l-Aʿlâ* (« Plérome Suprême » ou
 « Assemblée Sublime ») — et son investiture comme Sceau de la Sainteté
-Muhammadienne (*Khatm al-Wilâyat al-Muhammadiyya*), survenue lors de son séjour
+Muhammadienne (*<dfn data-terme="khatm" data-translit="Khatm" data-tradition="islam">Khatm</dfn> al-Wilâyat al-Muhammadiyya*), survenue lors de son séjour
 à la Mecque (598-600 H. / 1198-1201).
 
 ## Points doctrinaux retenus
@@ -47,8 +47,8 @@ Muhammadienne (*Khatm al-Wilâyat al-Muhammadiyya*), survenue lors de son séjou
 Vâlsan écrit que l'Être Muhammadien primordial présidant l'Assemblée Sublime a
 des attributs qui, compte tenu des particularités de formulation islamiques,
 « correspondent assez clairement » à ceux que Guénon indique pour la
-personnification du **Manu Primordial**, et à ceux que la doctrine chrétienne
-présente sous la figure de **Melki-Tsedeq** — cité dans les mêmes termes
+personnification du **<span data-nom="manu" data-genre="entite">Manu</span> Primordial**, et à ceux que la doctrine chrétienne
+présente sous la figure de **<span data-nom="melki-tsedeq" data-genre="entite">Melki-Tsedeq</span>** — cité dans les mêmes termes
 pauliniens que la fiche
 [[doctrinal/sources/guenon-roi-du-monde-ch6-melki-tsedeq]] (« sans père, sans
 mère, sans généalogie [...] qui demeure prêtre à perpétuité »). C'est une
@@ -80,7 +80,7 @@ al-Wilâyat al-ʿĀmma*) — fonction de clôture du cycle de la sainteté à sa
 seconde venue. ʿAlī y tient le rôle de *Tarjumân* (Interprète) ; Uthmân
 (*Dhû-n-Nûrayn*) se tient devant, assis sur les genoux du Sceau.
 
-⚠️ Ce ternaire (Qutb + deux Imâms) est celui de la **Khuṭba**, distinct de
+⚠️ Ce ternaire (<dfn data-terme="qutb" data-translit="Qutb" data-tradition="islam">Qutb</dfn> + deux Imâms) est celui de la **Khuṭba**, distinct de
 celui — potentiellement différent — des sept cieux planétaires déjà ancré aux
 degrés 21-27. Question expressément non tranchée à ce stade (verdict Sidy,
 2026-08-04) : voir
@@ -90,11 +90,11 @@ degrés 21-27. Question expressément non tranchée à ce stade (verdict Sidy,
 
 Dans la partie cosmogonique de la Khuṭba (postérieure dans le texte),
 Ibn ʿArabī énumère, comme des classes distinctes issues d'Adam :
-- les **Aqtâb** (les Pôles), « comme des soleils qui voguent dans les Sphères
+- les **<dfn data-terme="aqtab" data-translit="Aqtâb" data-tradition="islam">Aqtâb</dfn>** (les Pôles), « comme des soleils qui voguent dans les Sphères
   des Stations spirituelles (*al-maqâmât*) » ;
-- les **Nujabâ'** (les Nobles), « comme des étoiles qui circulent dans les
+- les **<dfn data-terme="nujaba" data-translit="Nujabâ" data-tradition="islam">Nujabâ</dfn>'** (les Nobles), « comme des étoiles qui circulent dans les
   Sphères des pouvoirs prodigieux (*al-karamât*) » ;
-- les quatre **Awtâd** (les Piliers), établis aux quatre Coins de la Terre
+- les quatre **<dfn data-terme="awtad" data-translit="Awtâd" data-tradition="islam">Awtâd</dfn>** (les Piliers), établis aux quatre Coins de la Terre
   pour la garde des djinns et des hommes.
 
 ⚠️ Trois classes distinctes énumérées en série — signal d'un septénaire

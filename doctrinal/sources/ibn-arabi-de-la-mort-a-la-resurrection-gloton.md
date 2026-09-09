@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ibn-arabi, gloton, nafas-rahmani, maratib-al-wujud, manazil-al-qamar, ilm-al-huruf, asma-al-husna, hadarat-khams, futuhât, albouraq]
 created: 2026-07-01
-updated: 2026-09-02
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[table-28-degres-nafas-rahman]]", "[[nafas-rahmani]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "[[ilm-al-huruf]]", "[[asma-al-husna]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[eschatologie]]", "[[doctrinal/sources/osman-yahia-histoire-classification-1964]]"]
@@ -15,11 +15,11 @@ cross_links: ["[[table-28-degres-nafas-rahman]]", "[[nafas-rahmani]]", "[[manazi
 
 ## Identification
 
-- **Auteur** : Ibn ʿArabī (Muḥyī al-Dīn, 560–638 H / 1165–1240)
-- **Traduction, introduction et annotation** : Maurice Gloton
-- **Éditeur** : Albouraq, collection « Héritage Spirituel »
+- **Auteur** : <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabī</span> (Muḥyī al-Dīn, 560–638 H / 1165–1240)
+- **Traduction, introduction et annotation** : Maurice <span data-nom="gloton" data-genre="autorite">Gloton</span>
+- **Éditeur** : <span data-nom="albouraq" data-genre="ouvrage">Albouraq</span>, collection « Héritage Spirituel »
 - **Nature** : texte primaire d'Ibn ʿArabī — extrait ou adaptation du chapitre 198
-  des *Futūhāt al-Makkiyya* consacré à la doctrine du *nafas al-raḥmān*
+  des *<span data-nom="futuhat" data-genre="ouvrage">Futūhāt</span> al-Makkiyya* consacré à la doctrine du *nafas al-raḥmān*
 - **Statut en bibliothèque** : confirmé (photo couverture et intérieur, 2026-07-01)
 
 ## Relation avec les *Futūhāt al-Makkiyya*
@@ -101,7 +101,7 @@ Dix **commentaires** — chaque ligne de la table est un « Commentaire de… »
 
 ### Section 4 — « Les sphères célestes » — Malakūt (degrés 19–27, pp. 38–39)
 
-Degrés 19–20 : *Barzakh* supérieur (zone de transition Jabarūt / Malakūt planétaire).
+Degrés 19–20 : *<dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn>* supérieur (zone de transition Jabarūt / Malakūt planétaire).
 
 | N° | Lettre | Nom Divin | Degré cosmique | Prophète (Miʿrāj) | Jour |
 |---|---|---|---|---|---|

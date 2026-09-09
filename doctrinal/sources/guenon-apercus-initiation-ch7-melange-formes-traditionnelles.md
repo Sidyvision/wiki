@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, non-syncretisme, formes-traditionnelles, avarna, ativarna, unite-des-traditions, apercus-sur-l-initiation]
 created: 2026-08-13
-updated: 2026-09-06
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 ## Référence
 
-**René Guénon**, *Aperçus sur l'initiation*, ch. VII, éd. Éditions
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Aperçus sur l'initiation*, ch. VII, éd. Éditions
 Traditionnelles. Texte disponible dans le dépôt, **lu intégralement** :
 
 `textes/apercu-sur-l-initiation/contre-le-melange-des-formes-traditionnelles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md`
@@ -51,8 +51,8 @@ extérieurement à une forme définie ».
 
 ## L'appui doctrinal : *avarna* et *ativarna*
 
-Le chapitre transpose aux formes traditionnelles la distinction hindoue de
-l'***avarna*** (en deçà des castes, hors caste par défaut) et de l'***ativarna***
+Le chapitre transpose aux <span data-nom="formes-traditionnelles" data-genre="ouvrage">formes traditionnelles</span> la distinction hindoue de
+l'***<dfn data-terme="avarna" data-translit="avarna" data-tradition="universel">avarna</dfn>*** (en deçà des castes, hors caste par défaut) et de l'***<dfn data-terme="ativarna" data-translit="ativarna" data-tradition="universel">ativarna</dfn>***
 (au-delà des castes, ayant dépassé leur distinction) — deux positions
 extérieurement semblables et intérieurement opposées.
 
@@ -62,7 +62,7 @@ l'au-delà y est reconnue, nommée, et déclarée non discriminante par elle-mê
 
 ## Lien avec le protocole du dépôt
 
-Ce chapitre fournit l'appui direct du **Commandement 3 (non-syncrétisme)** — les
+Ce chapitre fournit l'appui direct du **Commandement 3 (<span data-nom="non-syncretisme" data-genre="principe">non-syncrétisme</span>)** — les
 cloisons rituelles restent respectées quand bien même la convergence métaphysique
 supérieure est aperçue. Il précise que la reconnaissance théorique de l'unité des
 traditions n'autorise en rien le mélange de leurs moyens.

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, symbolisme-croix, incommensurabilite, etre-total, individualite, anthropomorphisme, rayon-celeste, transformation, delivrance, dimensions, axe]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference]]", "[[doctrinal/sources/guenon-etats-multiples-ch4-fondement]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 # Le Symbolisme de la Croix, ch. XXVI-XXVII
 
-*René Guénon, ch. XXVI « Incommensurabilité de l'être total et de l'individualité »
+*<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, ch. XXVI « <span data-nom="incommensurabilite" data-genre="principe">Incommensurabilité</span> de l'être total et de l'individualité »
 et ch. XXVII « Place de l'état individuel humain dans l'ensemble de l'être ».*
 
 ## Identification et statut
@@ -116,7 +116,7 @@ Et, sur la possibilité même de le connaître :
 > état central. »
 
 Le **centre n'est donc pas fixé d'avance** : il est déterminé par « la
-détermination préalable d'un **plan de réflexion du "Rayon Céleste"**, de telle
+détermination préalable d'un **plan de réflexion du "<span data-nom="rayon-celeste" data-genre="principe">Rayon Céleste</span>"**, de telle
 sorte que l'état correspondant devienne par là même l'état central de l'être ».
 
 ### La discontinuité est unique, et ce n'est pas un écart entre degrés
@@ -147,7 +147,7 @@ Vêdânta* en précisant explicitement « **3ᵉ éd.** » :
 
 | Renvoi de Guénon | Sujet visé | Ch. dans l'exemplaire de Sidy |
 |---|---|---|
-| ch. XVII, 3ᵉ éd. | la « Délivrance » (*Moksha*/*Mukti*) | XXII (La Délivrance finale) |
+| ch. XVII, 3ᵉ éd. | la « <span data-nom="delivrance" data-genre="principe">Délivrance</span> » (*Moksha*/*Mukti*) | XXII (La Délivrance finale) |
 | ch. XVIII, 3ᵉ éd. | la *jîvan-mukti* | XXIII (Vidéha-mukti et jîvan-mukti) |
 | ch. XIV, 3ᵉ éd. | l'« ordonnateur interne » (*antar-yāmī*) | — à vérifier |
 

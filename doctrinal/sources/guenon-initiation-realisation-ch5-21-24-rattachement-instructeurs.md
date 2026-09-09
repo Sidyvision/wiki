@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, initiation, rattachement, guru, shaykh, initiation-virtuelle, initiation-effective, initiation-realisation-spirituelle]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]", "[[doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 ## Référence
 
-**René Guénon**, *Initiation et Réalisation spirituelle*, éd. Éditions
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Initiation et Réalisation spirituelle*, éd. Éditions
 Traditionnelles, 1967. Chapitres couverts : **V, « À propos du rattachement
 initiatique »**, **XXI, « Vrais et faux instructeurs spirituels »**, **XXIV, « Sur
 le rôle du guru »**. Texte consulté dans `raw/` (`Chapitre=555`, `571`, `574`,

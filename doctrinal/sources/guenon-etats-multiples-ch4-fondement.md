@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, etats-multiples, etre, non-etre, existence, wahdat-al-wujud, degres-ontologiques]
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/wahdat-al-wujud]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/wahda
 
 # Guénon — Les États multiples de l'être, ch. IV : Fondement de la théorie des états multiples
 
-Chapitre IV de *Les États multiples de l'être* (1932, éd. Véga/Trédaniel), lu en ligne
+Chapitre IV de *Les <span data-nom="etats-multiples" data-genre="ouvrage">États multiples</span> de l'être* (1932, éd. Véga/Trédaniel), lu en ligne
 sur oeuvre-de-rene-guenon.org (2026-07-16). Ce livre forme, avec *Le Symbolisme de la
 Croix* (1931) et *L'Homme et son devenir selon le Vêdânta* (1925), la trilogie de
 métaphysique pure de Guénon — les trois ouvrages se renvoient constamment l'un à
@@ -26,7 +26,7 @@ comporter, au moins virtuellement, des états de manifestation et des états de
 non-manifestation — sans quoi on n'aurait qu'une portion fragmentaire de l'être, non
 l'« être total ». Seule la non-manifestation possède le caractère de permanence
 absolue ; c'est d'elle que la manifestation, transitoire, tire sa réalité. Le
-Non-Être n'est donc pas le néant mais l'exact inverse — la « négativité » absolue
+<span data-nom="non-etre" data-genre="principe">Non-Être</span> n'est donc pas le néant mais l'exact inverse — la « négativité » absolue
 n'ayant pas de contraire réel.
 
 Distinction technique centrale : l'**Être** est le principe même de la manifestation ;
@@ -60,7 +60,7 @@ l'être total.
 
 ## Renvois internes notés par Guénon (trilogie)
 
-- *Le Symbolisme de la Croix*, ch. I §5 (Waḥdat al-Wujūd)
+- *Le Symbolisme de la Croix*, ch. I §5 (<dfn data-terme="wahdat-al-wujud" data-translit="Waḥdat al-Wujūd" data-tradition="universel">Waḥdat al-Wujūd</dfn>)
 - *Le Symbolisme de la Croix*, ch. XI §2 ; ch. XII §1 ; ch. XXVII (modalités,
   conditions, « moi » individuel)
 - *L'Homme et son devenir selon le Vêdânta*, ch. II (possibilités de l'être
@@ -75,7 +75,7 @@ Véga/Trédaniel). Non encore recoupé avec l'exemplaire physique de Sidy.
 
 Pièce fondatrice pour l'ouverture du socle métaphysique universel de l'Instrument
 (demande de Sidy, 2026-07-16) — établit la distinction Être/Existence/manifestation
-sur laquelle toute échelle de degrés ontologiques (Tasawwuf compris) peut être relue.
+sur laquelle toute échelle de <span data-nom="degres-ontologiques" data-genre="principe">degrés ontologiques</span> (Tasawwuf compris) peut être relue.
 Confirme, sur texte primaire guénonien, le rapprochement déjà pressenti avec *Waḥdat
 al-Wujūd* côté akbarien — Guénon cite lui-même ce terme arabe comme équivalent de son
 « unicité de l'Existence ».

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, vedanta, manas, tanmatras, bhutas, deva-yana, pitri-yana, jivan-mukti, identite-supreme, jainas, panthéisme]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/deviations/reincarnation-vies-anterieures]]", "[[doctrinal/symboles/wahdat-al-wujud]]", "[[doctrinal/symboles/manvantara]]", "[[doctrinal/traditions/sanatana-dharma]]"]
@@ -13,7 +13,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 # L'Homme et son devenir selon le Vêdânta, ch. VIII et XXII-XXVI
 
-*René Guénon, éd. Bossard, 1925.* Fiche de clôture de l'ouvrage.
+*<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, éd. Bossard, 1925.* Fiche de clôture de l'ouvrage.
 
 ⚠️ **Pagination to-source** — transcription via index-rene-guenon.org.
 Authenticité confirmée par Sidy (2026-08-04) ; pagination à fournir
@@ -36,16 +36,16 @@ ultérieurement, non urgente.
 
 ## Ch. VIII — *Manas* ou le sens interne ; les dix facultés externes
 
-- **Les cinq *tanmātras*** (« essences élémentaires ») : *shabda* (sonore),
+- **Les cinq *<dfn data-terme="tanmatras" data-translit="tanmātras" data-tradition="universel">tanmātras</dfn>*** (« essences élémentaires ») : *shabda* (sonore),
   *sparsha* (tangible), *rūpa* (visible — forme **et** couleur), *rasa*
   (sapide), *gandha* (olfactive). Guénon précise l'étymologie : *tanmātra* =
   « assignation » (*mātra*, mesure) délimitant le domaine d'une qualité, *tad*
   au sens de « quiddité », **« comme l'arabe *dhāt* »** — quatrième équivalence
   terminologique sanskrit/arabe posée par Guénon dans cet ouvrage.
-- **Les cinq *bhūtas***, dans leur ordre de production : Éther (*Ākāsha*), Air
+- **Les cinq *<dfn data-terme="bhutas" data-translit="bhūtas" data-tradition="universel">bhūtas</dfn>***, dans leur ordre de production : Éther (*Ākāsha*), Air
   (*Vāyu*), Feu (*Tejas*), Eau (*Ap*), Terre (*Prithwī*).
 - **Onze facultés** procédant d'*ahankāra* : cinq de sensation, cinq d'action,
-  et le sens interne (*manas*), onzième, tenant des unes et des autres et uni
+  et le sens interne (*<dfn data-terme="manas" data-translit="manas" data-tradition="universel">manas</dfn>*), onzième, tenant des unes et des autres et uni
   directement à la conscience.
 - ⚠️ **Distinction de rigueur** : la pensée individuelle (raison, mémoire,
   imagination) relève de *manas*, d'ordre **formel** ; elle n'est « nullement
@@ -65,11 +65,11 @@ Chapitre capital pour l'eschatologie et pour le dossier cyclique.
   terminaison de la *sushumnā* jusqu'à sa source — continuation directe du ch.
   XXI.
 - **Deux itinéraires distincts** :
-  - ***dēva-yāna*** (« Voie des Dieux ») — pour ceux qui obtiendront la
+  - ***<span data-nom="deva-yana" data-genre="cycle">dēva-yāna</span>*** (« Voie des Dieux ») — pour ceux qui obtiendront la
     Délivrance à partir de l'état humain ; conduit vers les états supérieurs,
     vers l'assimilation à l'essence de la Lumière intelligible ; **sans
     retour**.
-  - ***pitri-yāna*** (« Voie des Ancêtres ») — pour ceux qui passeront dans
+  - ***<span data-nom="pitri-yana" data-genre="cycle">pitri-yāna</span>*** (« Voie des Ancêtres ») — pour ceux qui passeront dans
     d'autres états de manifestation individuelle ; ne conduit **pas au-delà de
     la Sphère de la Lune** ; l'être n'y est donc pas libéré de la forme.
 - **Signes des deux Voies** (*Bhagavad-Gītā*) : « Feu, lumière, jour, lune
@@ -104,7 +104,7 @@ leur cours normal).
 Exposé du système djaïniste de libération (libération de la substance *jîva* de
 la substance non-consciente *ajîva*, à travers les trois degrés de connaissance).
 
-⚠️ **Statut éditorial** : Guénon rapporte ici une doctrine hétérodoxe au Vêdânta
+⚠️ **Statut éditorial** : Guénon rapporte ici une doctrine hétérodoxe au <span data-nom="vedanta" data-genre="ecole">Vêdânta</span>
 pour en montrer les écarts et les contrefaçons du principe au sein même d'une
 tradition de l'Inde. Chapitre éducatif, jamais cité comme exposant la position
 guénonienne elle-même.
@@ -132,6 +132,6 @@ celui qui accède à la Délivrance ultime.**
 
 ⚠️ **Formulation à respecter dans tout usage** : l'argument est **transposable**
 entre traditions, il n'établit pas une identité de vocabulaire. Ne pas déclarer
-que Guénon « traite » de *waḥdat al-wujūd* dans ce chapitre — il analyse la
+que Guénon « traite » de *<dfn data-terme="wahdat-al-wujud" data-translit="waḥdat al-wujūd" data-tradition="universel">waḥdat al-wujūd</dfn>* dans ce chapitre — il analyse la
 structure du lien du Monde au Principe, dont *waḥdat al-wujūd* est une
 formulation islamique distincte.

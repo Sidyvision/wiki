@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "hindouisme"
 tags: [guenon, symbolisme-croix, gunas, sattva, rajas, tamas, prakriti, tribhuvana, axe, plan-horizontal, sphere, couleurs]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 ## Identification et statut
 
-*René Guénon, chapitre V : « Théorie hindoue des trois gunas ».* Exposition de
+*<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, chapitre V : « Théorie hindoue des trois <dfn data-terme="gunas" data-translit="gunas" data-tradition="hindouisme">gunas</dfn> ».* Exposition de
 doctrine reçue, citant le *Vêda* et la *Chhāndogya Upaniṣad* — `status:
 traditionnel`.
 
@@ -37,7 +37,7 @@ Le point est posé d'emblée, et il corrige une lecture courante :
 > "trois mondes" (*Tribhuvana*), c'est-à-dire de tous les degrés de l'Existence
 > universelle. »
 
-Ils sont inhérents à *Prakriti*, « racine » (*mūla*) de la manifestation
+Ils sont inhérents à *<dfn data-terme="prakriti" data-translit="Prakriti" data-tradition="hindouisme">Prakriti</dfn>*, « racine » (*mūla*) de la manifestation
 universelle, où ils sont « en parfait équilibre dans son indifférenciation
 primordiale, **et toute manifestation représente une rupture de cet équilibre** »
 (note 2).
@@ -53,9 +53,9 @@ qui désignent les conditions limitatives d'existence (*upādhis*).
 
 | Guṇa | Définition de Guénon | Tendance | Couleur |
 |---|---|---|---|
-| ***sattva*** | « la conformité à l'essence pure de l'Être (*Sat*), qui est identique à la lumière de la Connaissance (*Jñāna*) », symbolisée par la luminosité des sphères célestes | **ascendante** | blanc |
-| ***rajas*** | « l'impulsion qui provoque l'expansion de l'être dans un état déterminé », le développement des possibilités situées à un certain niveau | **horizontale** | rouge |
-| ***tamas*** | « l'obscurité, assimilée à l'ignorance (*avidyā*), racine ténébreuse de l'être considéré dans ses états inférieurs » | **descendante** | noir |
+| ***<dfn data-terme="sattva" data-translit="sattva" data-tradition="hindouisme">sattva</dfn>*** | « la conformité à l'essence pure de l'Être (*Sat*), qui est identique à la lumière de la Connaissance (*Jñāna*) », symbolisée par la luminosité des sphères célestes | **ascendante** | blanc |
+| ***<dfn data-terme="rajas" data-translit="rajas" data-tradition="hindouisme">rajas</dfn>*** | « l'impulsion qui provoque l'expansion de l'être dans un état déterminé », le développement des possibilités situées à un certain niveau | **horizontale** | rouge |
+| ***<dfn data-terme="tamas" data-translit="tamas" data-tradition="hindouisme">tamas</dfn>*** | « l'obscurité, assimilée à l'ignorance (*avidyā*), racine ténébreuse de l'être considéré dans ses états inférieurs » | **descendante** | noir |
 
 Couleurs : *Chhāndogya Upaniṣad*, 6ᵉ Prapāṭhaka, 3ᵉ Khaṇḍa, shruti 1 (note 4).
 
@@ -83,7 +83,7 @@ C'est une correspondance **explicite**, non une transposition :
 
 | Guṇa | Lieu sur la croix à trois dimensions |
 |---|---|
-| *rajas* | « **toute la ligne horizontale**, ou mieux […] l'ensemble des **deux lignes qui définissent le plan horizontal** » |
+| *rajas* | « **toute la ligne horizontale**, ou mieux […] l'ensemble des **deux lignes qui définissent le <span data-nom="plan-horizontal" data-genre="principe">plan horizontal</span>** » |
 | *tamas* | « la **partie inférieure de la ligne verticale**, c'est-à-dire celle qui est située au-dessous de ce plan horizontal » |
 | *sattva* | « la **partie supérieure de cette même ligne verticale** », au-dessus du plan |
 

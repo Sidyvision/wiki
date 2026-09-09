@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "hindouisme"
 tags: [avalon, woodroffe, serpent-power, nadis, ida, pingala, sushumna, chakras, reseau, kundalini]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]"]
@@ -15,10 +15,10 @@ cross_links: ["[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "
 
 ## Identification et statut de la source
 
-**Auteur** : Arthur Avalon (sir John Woodroffe, 1865-1936), orientaliste.
+**Auteur** : Arthur <span data-nom="avalon" data-genre="autorite">Avalon</span> (sir John <span data-nom="woodroffe" data-genre="autorite">Woodroffe</span>, 1865-1936), orientaliste.
 
 **Édition** : *La Puissance du Serpent*, trad. Charles Vachot sur la 4ᵉ édition
-anglaise (*The Serpent Power*, Ganesh & Cie, Madras, 1950), préface Jean Herbert.
+anglaise (*The <span data-nom="serpent-power" data-genre="ouvrage">Serpent Power</span>*, Ganesh & Cie, Madras, 1950), préface Jean Herbert.
 Exemplaire possédé par Sidy (Dervy, coll. « L'Être et l'Esprit ») ; texte
 consulté dans l'édition Paul Derain, Lyon, 1959. L'ouvrage comprend une longue
 introduction, puis la traduction du *Shatchakranirûpana* et du
@@ -55,11 +55,11 @@ n'est pas une image : il est chiffré et hiérarchisé.
 
 | Étage | Nombre | Référence donnée par Avalon |
 |---|---|---|
-| Nâdîs du corps | « par milliers » — **72 000** | *Bhûtashuddi Tantra* |
+| <dfn data-terme="nadis" data-translit="Nâdîs" data-tradition="hindouisme">Nâdîs</dfn> du corps | « par milliers » — **72 000** | *Bhûtashuddi Tantra* |
 | » (autres comptes) | **300 000** / **350 000** | *Prapanchasâra Tantra* / *Shiva Samhitâ* |
 | Cordons du système | **700** | (cité d'après une source médicale hindoue) |
 | Nâdîs **principales** | **14** | |
-| Les **plus importantes** | **3** — *Iḍā*, *Piṅgalā*, *Suṣumnā* | |
+| Les **plus importantes** | **3** — *Iḍā*, *<dfn data-terme="pingala" data-translit="Piṅgalā" data-tradition="hindouisme">Piṅgalā</dfn>*, *Suṣumnā* | |
 | La principale | **1** — *Suṣumnā*, « toutes les autres lui sont subordonnées » | |
 
 Image donnée par le texte : « De même que dans la feuille de l'arbre *Ashvattha*
@@ -101,7 +101,7 @@ le canal central et caché.
 | *Brahma Nāḍī* (l'intérieur de la précédente) | — | — | — |
 
 Elles « constituent le triple aspect du *Śabdabrahman* ». C'est par *Chitriṇī*,
-« Voie royale » (*Kula Mārga*), que monte Kundalinī — non par *Suṣumnā* prise
+« Voie royale » (*Kula Mārga*), que monte <dfn data-terme="kundalini" data-translit="Kundalinī" data-tradition="hindouisme">Kundalinī</dfn> — non par *Suṣumnā* prise
 largement. L'ouverture à son extrémité est la **porte de Brahman**
 (*Brahmadvāra*).
 

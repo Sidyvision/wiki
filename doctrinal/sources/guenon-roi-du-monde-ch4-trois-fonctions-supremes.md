@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, qutb, manu, tribhuvana, brahatma, mahatma, mahanga, roi-du-monde]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]"]
@@ -19,7 +19,7 @@ confirmée par Sidy (2026-08-04) ; pagination à fournir ultérieurement.
 ## Contexte
 
 Guénon expose ici le ternaire hiérarchique de l'*Agarttha* selon Saint-Yves
-d'Alveydre (*Brahâtmâ* / *Mahâtmâ* / *Mahânga*), qu'il rattache au *Tribhuvana*
+d'Alveydre (*<span data-nom="brahatma" data-genre="autorite">Brahâtmâ</span>* / *<dfn data-terme="mahatma" data-translit="Mahâtmâ" data-tradition="universel">Mahâtmâ</dfn>* / *<span data-nom="mahanga" data-genre="autorite">Mahânga</span>*), qu'il rattache au *<dfn data-terme="tribhuvana" data-translit="Tribhuvana" data-tradition="universel">Tribhuvana</dfn>*
 hindou (*Bhû* / *Bhuvas* / *Swar* — les trois éléments du monosyllabe *Om*) et,
 en note, aux trois principes universels *Ishwara* / *Hiranyagarbha* / *Virâj*.
 
@@ -29,16 +29,16 @@ en note, aux trois principes universels *Ishwara* / *Hiranyagarbha* / *Virâj*.
 > de son époque; ne serait-ce pas pour cette raison, d'ailleurs, que la Kabbale
 > dit qu'il fut instruit par *Metatron* lui-même? »
 
-Guénon lie ici, dans la même phrase, la fonction islamique du Qutb et l'agent
+Guénon lie ici, dans la même phrase, la fonction islamique du <dfn data-terme="qutb" data-translit="Qutb" data-tradition="universel">Qutb</dfn> et l'agent
 kabbalistique Metatron, en s'appuyant sur le rapprochement biblique
-Moïse-descendant-du-Sinaï/« Roi du Monde rayonnant de la Lumière divine ».
+Moïse-descendant-du-Sinaï/« <span data-nom="roi-du-monde" data-genre="ouvrage">Roi du Monde</span> rayonnant de la Lumière divine ».
 Il précise aussitôt la nécessité de distinguer le **centre spirituel principal**
 des **centres secondaires** subordonnés (adaptations traditionnelles
 particulières) — nuance à conserver dans tout usage de ce rapprochement.
 
 Il ajoute : « la fonction de "législateur" (en arabe *rasûl*), qui est celle de
 Moïse, suppose nécessairement une délégation du pouvoir que désigne le nom de
-*Manu* ». **Manu apparaît ici en position de principe délégant**, dont le
+*<span data-nom="manu" data-genre="entite">Manu</span>* ». **Manu apparaît ici en position de principe délégant**, dont le
 *rasûl*/Qutb reçoit fonction.
 
 ## Autres points retenus

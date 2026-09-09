@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, etats-multiples, etre-non-etre, possibilite-universelle, indefini, ampleur, exaltation, plan-de-base, eaux-superieures, eaux-inferieures, rayon-celeste, formel-informel, axe]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-etats-multiples-ch4-fondement]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]"]
@@ -33,7 +33,7 @@ Structure posée :
 | **la manifestation** | les possibilités de manifestation *en tant qu'elles se manifestent* |
 | **l'Être** | principe de la manifestation ; contient tout le manifesté ; **lui-même non manifesté** |
 | **le Non-Être** | tout le non-manifesté, **y compris l'Être lui-même** ; contient le *non-manifestable* et le *manifestable non manifesté* |
-| **la Possibilité universelle** | l'ensemble de l'Être **et** du Non-Être — **seule elle est infinie** |
+| **la <span data-nom="possibilite-universelle" data-genre="principe">Possibilité universelle</span>** | l'ensemble de l'Être **et** du Non-Être — **seule elle est infinie** |
 
 > « **l'infinité n'appartient qu'à l'ensemble de l'Être et du Non-Être** […] dès
 > lors qu'on oppose le Non-Être à l'Être, ou même qu'on les distingue simplement,
@@ -133,7 +133,7 @@ unique […] envisagé à la fois positivement et négativement ».
 
 ## Ch. XII — Les deux chaos : Eaux supérieures et Eaux inférieures
 
-La distinction **formel / informel** est « sans doute la plus importante de
+La distinction **<span data-nom="formel-informel" data-genre="principe">formel / informel</span>** est « sans doute la plus importante de
 toutes » parmi celles fondées sur une condition d'existence, car elle est « un des
 aspects de la distinction de l'individuel et de l'universel ».
 
@@ -141,12 +141,12 @@ aspects de la distinction de l'individuel et de l'universel ».
   individuelle » — commune à tous les modes *individuels*, non à tous les modes de
   manifestation. Elle n'est **pas nécessairement spatiale et temporelle** : elle ne
   peut l'être que dans la modalité humaine corporelle.
-- **Eaux inférieures** = l'ensemble des possibilités **formelles** ;
-  **Eaux supérieures** = l'ensemble des possibilités **informelles**. Les Eaux en
+- **<span data-nom="eaux-inferieures" data-genre="principe">Eaux inférieures</span>** = l'ensemble des possibilités **formelles** ;
+  **<span data-nom="eaux-superieures" data-genre="principe">Eaux supérieures</span>** = l'ensemble des possibilités **informelles**. Les Eaux en
   général représentent la Possibilité comme « perfection passive », principe
   plastique universel, qui dans l'Être se détermine comme la « substance ».
 - La « **surface des Eaux** », leur plan de séparation, **est le plan de réflexion
-  du « Rayon Céleste »** : elle « marque l'état dans lequel s'opère le passage de
+  du « <span data-nom="rayon-celeste" data-genre="principe">Rayon Céleste</span> »** : elle « marque l'état dans lequel s'opère le passage de
   l'individuel à l'universel ». Le symbole de la « **marche sur les Eaux** » figure
   « l'affranchissement de la forme, ou la libération de la condition individuelle ».
 - L'être parvenu à cette surface sans s'élever au-dessus « se trouve comme
@@ -164,5 +164,5 @@ aspects de la distinction de l'individuel et de l'universel ».
 
 Matière du chantier de figuration de l'incommensurable (pôle R&D, consultation
 humaine sans wikilink — §VI) : le couple **ampleur / exaltation**, la réduction
-d'un état entier à **un point** sur l'axe, le **plan de base indéterminé en
+d'un état entier à **un point** sur l'axe, le **<span data-nom="plan-de-base" data-genre="principe">plan de base</span> indéterminé en
 principe**, et la **surface des Eaux** comme plan de réflexion.

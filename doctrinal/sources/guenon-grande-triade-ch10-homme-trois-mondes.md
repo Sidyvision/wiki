@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, grande-triade, macrocosme, microcosme, analogie, ternaire, esprit-ame-corps, trois-mondes, centre-du-monde]
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres]]", "[[doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes]]", "[[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]]"]
@@ -13,12 +13,12 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 # Guénon — La Grande Triade, ch. X : l'analogie constitutive du macrocosme et du microcosme
 
-Chapitre X (« L'Homme et les trois mondes ») de *La Grande Triade* (Gallimard,
+Chapitre X (« L'Homme et les <span data-nom="trois-mondes" data-genre="principe">trois mondes</span> ») de *La <span data-nom="grande-triade" data-genre="ouvrage">Grande Triade</span>* (Gallimard,
 1946). Transcription en `raw/La Grande Triade/`. Complété d'un extrait du chapitre
 XVI du même ouvrage (le Ming-t'ang comme image concentrique de l'Univers). Lu et
 fiché le 2026-08-25 à l'appui de l'instruction de Sidy : « La correspondance du site
 de Gizeh avec un degré cosmologique s'explique dans l'exposé doctrinal de la
-correspondance du microcosme et du macrocosme, notion sur laquelle Guénon revient
+correspondance du <span data-nom="microcosme" data-genre="principe">microcosme</span> et du <span data-nom="macrocosme" data-genre="principe">macrocosme</span>, notion sur laquelle Guénon revient
 souvent, voir raw/ ».
 
 ## Contenu (synthèse fidèle, citations)
@@ -67,7 +67,7 @@ Deux pièces distinctes, à ne pas fondre :
 2. Le §2 (Ming-t'ang) est la pièce la plus proche d'une application à un
    **édifice traditionnel** : un centre construit peut, selon Guénon, contenir «
    en archétype » l'ensemble de ce dont il est le centre — mais Guénon parle ici
-   d'un édifice explicitement conçu et occupé comme *centre du monde* (l'Empereur y
+   d'un édifice explicitement conçu et occupé comme *<span data-nom="centre-du-monde" data-genre="principe">centre du monde</span>* (l'Empereur y
    résidant), non de n'importe quel site traditionnel. Toute application à Gizeh
    supposerait donc, en plus, d'établir que Gizeh est qualifiable de « centre » en
    ce sens précis — pas fait à ce jour, non couvert par cette fiche.

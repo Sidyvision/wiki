@@ -11,7 +11,7 @@ tags:
 - academique
 - jmias
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-09-09
 sources_count: 0
 cross_links:
 - '[[ibn-arabi]]'
@@ -28,9 +28,9 @@ sources: []
 
 ## Référence
 
-- **Titre complet** : *Jesus and Enoch in the Barzakh of Muhyi al-Din Ibn al-ʿArabi — Role playing and Myth weaving in the Drama of Creation*
+- **Titre complet** : *Jesus and Enoch in the <dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn> of Muhyi al-Din Ibn al-ʿArabi — Role playing and Myth weaving in the Drama of Creation*
 - **Auteur** : Dr. [[ali-hussain]]
-- **Publication** : *Journal of the Muhyiddin Ibn ʿArabi Society* (JMIAS), Vol. 60, 2016
+- **Publication** : *Journal of the Muhyiddin <span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabi</span> Society* (JMIAS), Vol. 60, 2016
 - **Type** : article académique à comité de lecture
 - **Pages** : 53–63 (11 pages)
 - **Langue** : anglais
@@ -54,7 +54,7 @@ Le *barzakh* qu'il incarne est triple : entre *lāhūt* (divin) et *nāsūt* (hu
 ### 3. Idrīs/Énoch et la suprématie du rôle cosmique
 [[idris]] (Énoch biblique, identifié à Hermès Trismégiste et au prophète Élie/Ilyas dans la tradition d'Ibn ʿArabī) est le *quṭb* (pôle) résidant dans le **quatrième ciel** (orbite du soleil). Il représente la voie de la transcendance (*tanzīh*) pure, tandis que son alter ego Ilyas/Élie représente l'immanence (*tashbīh*) sur terre.
 
-Ibn ʿArabī identifie Idrīs à *mudāwī al-kulūm* (le guérisseur des blessures) — titre du pôle suprême de la hiérarchie des saints. Ces « blessures » ne sont pas physiques mais épistémiques : le *quṭb* cache une partie de la connaissance secrète à ses disciples par bienveillance, et c'est en cela qu'il les guérit.
+Ibn ʿArabī identifie <span data-nom="idris" data-genre="entite">Idrīs</span> à *mudāwī al-kulūm* (le guérisseur des blessures) — titre du pôle suprême de la hiérarchie des saints. Ces « blessures » ne sont pas physiques mais épistémiques : le *quṭb* cache une partie de la connaissance secrète à ses disciples par bienveillance, et c'est en cela qu'il les guérit.
 
 ### 4. L'échange de rôles entre Jésus et Idrīs
 L'article construit un parallèle étymologique fort : la racine *k-l-m* de *kalima* (parole) contient aussi *kalm* (blessure). La Parole divine (*kalimat Allāh* = Jésus) *blesse* le cosmos en s'y imprimant, comme l'encre sur une page vierge (*habāʾ*). Idrīs, le guérisseur des blessures, *répare* cette empreinte par la gnose (*maʿrifa*) protégée.

@@ -12,7 +12,7 @@ tags:
 - burckhardt
 - wahdat-al-wujud
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-09-09
 sources:
 sources_count: 0
 cross_links:
@@ -29,7 +29,7 @@ cross_links:
 
 ## Référence
 
-- **Titre original arabe** : *al-Insān al-Kāmil fī Maʿrifat al-Awākhir wa-l-Awāʾil*
+- **Titre original arabe** : *<dfn data-terme="al-insan-al-kamil" data-translit="al-Insān al-Kāmil" data-tradition="islam">al-Insān al-Kāmil</dfn> fī Maʿrifat al-Awākhir wa-l-Awāʾil*
 - **Titre traduit** : *Universal Man* (anglais) / *De l’Homme Universel* (français)
 - **Auteur** : [[abd-al-karim-al-jili]] (1366–c.1424)
 - **Traducteur/commentateur** : Titus Burckhardt (français)

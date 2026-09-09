@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, symboles-science-sacree, manifeste, corpus, mecanique]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]]"]
@@ -17,7 +17,7 @@ Travail **mécanique de mappage**, pas de rédaction doctrinale chapitre par
 chapitre (§VIII.3 : un lot doctrinal se traite fiche par fiche, jamais par
 consigne large — 75 fiches n'ont pas été demandées ni produites). Objet de
 cette fiche : rendre l'ensemble du dossier `raw/Symboles de la Science sacrée
-- René Guénon/` (92 fichiers `.md`, web-clippings index-rene-guenon.org, +
+- <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>/` (92 fichiers `.md`, web-clippings index-rene-guenon.org, +
 4 `.png` d'illustration) **adressable** pour tout chantier futur, en le
 rapprochant de la table des matières déjà transcrite depuis l'exemplaire
 physique ([[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]]).

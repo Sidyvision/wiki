@@ -11,7 +11,7 @@ tags:
 - hanbalisme
 - devotionnel
 created: 2026-06-05
-updated: 2026-06-20
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links:
@@ -43,7 +43,7 @@ Texte dévotionnel public, sans dédicace nominale à un destinataire particulie
 
 ## Résumé
 
-Le *Mawlid al-Rasūl al-Aʿẓam* est une composition dévotionnelle (*mawlid*) en arabe classique rythmé, attribuée à ʿAbd al-Qādir al-Jīlānī (m. 561/1166), le « Grand Pôle » (*Ghawth al-Aʿẓam*) du soufisme. Il célèbre la naissance et les qualités du Prophète Muḥammad à travers dix-sept chapitres (*ajzāʾ*) de poésie rythmée mêlant louange prophétique (*madīḥ*), intercession (*shafāʿa*) et élévation spirituelle.
+Le *Mawlid al-Rasūl al-Aʿẓam* est une composition dévotionnelle (*mawlid*) en arabe classique rythmé, attribuée à <span data-nom="abd-al-qadir-al-jilani" data-genre="autorite">ʿAbd al-Qādir al-Jīlānī</span> (m. 561/1166), le « Grand Pôle » (*Ghawth al-Aʿẓam*) du soufisme. Il célèbre la naissance et les qualités du Prophète Muḥammad à travers dix-sept chapitres (*ajzāʾ*) de poésie rythmée mêlant louange prophétique (*madīḥ*), intercession (*shafāʿa*) et élévation spirituelle.
 
 L’édition publiée par Al-Madrasah Al-Ḥanbaliyyah est établie sur un manuscrit autographe (*relied upon manuscript*) reproduit en fac-similé, accompagné d’un *sanad* (chaîne de transmission) détaillé.
 
@@ -59,7 +59,7 @@ Le texte est organisé en **17 chapitres** (*ajzāʾ*, sing. *juzʾ*) en arabe, 
 - **Nasab** (généalogie prophétique) : rappel de la lignée noble du Prophète jusqu’à Ibrāhīm (Abraham)
 - **Mawlid** (naissance) : récit de la naissance miraculeuse, des signes cosmiques l’accompagnant, de la joie des cieux et de la terre
 - **Shafāʿa** (intercession) : invocation de l’intercession prophétique, demande de pardon et de grâce
-- **Ṣalawāt** (bénédictions) : formules de [[salawat]] récurrentes tout au long du texte, conforme à la pratique des [[wird-awrad]]
+- **<dfn data-terme="salawat" data-translit="Ṣalawāt" data-tradition="islam">Ṣalawāt</dfn>** (bénédictions) : formules de [[salawat]] récurrentes tout au long du texte, conforme à la pratique des [[wird-awrad]]
 
 ### Formule de ṣalawāt récurrente
 

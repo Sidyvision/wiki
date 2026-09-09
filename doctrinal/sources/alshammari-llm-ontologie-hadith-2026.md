@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [ia, llm, gpt-4, ontologie, coran, hadith, semantique, knowledge-representation, outils-computationnels]
 created: 2026-08-10
-updated: 2026-08-10
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi]]"]
@@ -36,7 +36,7 @@ Cet article propose une approche automatisée pour unifier les ressources qurʾ�
 
 1. **QuranOntology** — ontologie structurée du Qurʾān couvrant les métadonnées qurʾāniques provenant du site Tanzil, exégèses (Tafsīr al-Jalālayn, al-Muyassar, Ibn Kathīr), données sémantiques QurSim, et annotations du dataset QurAna.
 
-2. **Corpus Hadith LK (Leeds and King Saud University)** — corpus bilingue arabe-anglais de 39 038 aḥādīth annotés des six collections canoniques (Kutub al-Sitta), segmentés en Isnād et Matn, contenant plus de 10 millions de tokens et 238 chapitres de hadith distincts.
+2. **Corpus <dfn data-terme="hadith" data-translit="Hadith" data-tradition="islam">Hadith</dfn> LK (Leeds and King Saud University)** — corpus bilingue arabe-anglais de 39 038 aḥādīth annotés des six collections canoniques (Kutub al-Sitta), segmentés en Isnād et Matn, contenant plus de 10 millions de tokens et 238 chapitres de hadith distincts.
 
 3. **RQHT (Related Qurʾan–Hadith Topics) ontology** — lie topics qurʾāniques et hadithiques via embeddings de similarité sémantique et le plugin Cellfie, basée sur le QH_dataset d'Altammami et al. intégrant paires verset/enseignement avec métadonnées associées.
 

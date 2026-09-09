@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, sagesse-innee, etats-multiples, reminiscence, guru-interieur, cheng-jen, tchen-jen, initiation-realisation-spirituelle]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]]", "[[doctrinal/sources/guenon-etats-multiples-ch4-fondement]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 ## Référence
 
-**René Guénon**, *Initiation et Réalisation spirituelle*, ch. XXII, éd. Éditions
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Initiation et Réalisation spirituelle*, ch. XXII, éd. Éditions
 Traditionnelles, 1967. Texte consulté dans `raw/` (`Chapitre=572`, sigle `IRS`),
 **lu intégralement**.
 

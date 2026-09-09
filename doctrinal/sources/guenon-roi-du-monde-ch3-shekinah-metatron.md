@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, kabbale, shekinah, metatron, qutb, axe-du-monde, roi-du-monde]
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-roi-du-monde-ch10]]"]
@@ -20,17 +20,17 @@ ultérieurement (non urgent).
 
 ## Contexte
 
-Guénon y réfute l'assimilation erronée du « Roi du Monde » au *Princeps hujus
+Guénon y réfute l'assimilation erronée du « <span data-nom="roi-du-monde" data-genre="ouvrage">Roi du Monde</span> » au *Princeps hujus
 mundi* évangélique, puis expose la doctrine kabbalistique des deux
-« intermédiaires célestes » : la *Shekinah* (présence réelle de la Divinité) et
-*Metatron*, son « parèdre » masculin.
+« intermédiaires célestes » : la *<span data-nom="shekinah" data-genre="entite">Shekinah</span>* (présence réelle de la Divinité) et
+*<span data-nom="metatron" data-genre="entite">Metatron</span>*, son « parèdre » masculin.
 
 ## Points doctrinaux retenus
 
 - **L'axe du Monde, énoncé littéralement** : « comme le chef de la hiérarchie
   initiatique est le "Pôle terrestre", *Metatron* est le "Pôle céleste"; et
   celui-ci a son reflet dans celui-là, avec lequel il est en relation directe
-  suivant l'"Axe du Monde". » — structure verticale à deux pôles reliés par un
+  suivant l'"<span data-nom="axe-du-monde" data-genre="principe">Axe du Monde</span>". » — structure verticale à deux pôles reliés par un
   axe, énoncée par Guénon lui-même, indépendamment de toute construction de ce
   dépôt.
 - **Double face de Metatron** : *Mikaël* (aspect lumineux, « Grand Prêtre »,
@@ -54,7 +54,7 @@ mundi* évangélique, puis expose la doctrine kabbalistique des deux
 ## Vigilance
 
 Ce chapitre pose la structure Pôle terrestre/Pôle céleste en termes strictement
-kabbalistiques, sans mention du Qutb islamique — le rapprochement avec le Qutb
+kabbalistiques, sans mention du <dfn data-terme="qutb" data-translit="Qutb" data-tradition="universel">Qutb</dfn> islamique — le rapprochement avec le Qutb
 n'apparaît explicitement que dans le ch. IV du même ouvrage (voir
 [[doctrinal/sources/guenon-roi-du-monde-ch4-trois-fonctions-supremes]]) et dans
 *Aperçus sur l'Ésotérisme islamique et le Taoïsme*, ch. V (voir

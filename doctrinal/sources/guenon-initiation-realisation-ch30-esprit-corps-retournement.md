@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, atma, jivatma, centre, sens-inverse, retournement, barzakh, symbolisme-spatial, initiation-realisation-spirituelle]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/sources/guenon-etats-multiples-ch4-fondement]]", "[[doctrinal/sources/guenon-initiation-realisation-ch16-contemplation-directe-reflet]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/barza
 
 ## Référence
 
-**René Guénon**, *Initiation et Réalisation spirituelle*, ch. XXX, éd. Éditions
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Initiation et Réalisation spirituelle*, ch. XXX, éd. Éditions
 Traditionnelles, 1967. Texte consulté dans `raw/` (`Chapitre=580`, sigle `IRS`),
 **lu intégralement**. Chapitre déposé dans `raw/` le 2026-08-13, dernier manquant
 de l'œuvre.
@@ -25,7 +25,7 @@ de l'œuvre.
 ## La question posée
 
 La conception courante loge l'esprit dans le corps. Guénon la juge d'emblée
-renversée : l'esprit « n'est autre qu'*Âtmâ* », principe de tous les états de
+renversée : l'esprit « n'est autre qu'*<dfn data-terme="atma" data-translit="Âtmâ" data-tradition="universel">Âtmâ</dfn>* », principe de tous les états de
 l'être ; or « toutes choses sont nécessairement contenues dans leur principe » et
 « le "moins" ne peut pas contenir le "plus", pas plus qu'il ne peut le produire ».
 
@@ -42,7 +42,7 @@ Point qui commande toute lecture du chapitre :
 > effectivement le caractère spatial »
 
 L'espace n'est « rien de plus ni d'autre qu'une des conditions propres à
-l'existence corporelle ». L'usage du symbolisme spatial reste « non seulement
+l'existence corporelle ». L'usage du <span data-nom="symbolisme-spatial" data-genre="principe">symbolisme spatial</span> reste « non seulement
 légitime, mais même inévitable » — à condition de « ne jamais oublier que tout ce
 qui n'appartient pas au monde corporel ne saurait, par là même, être en réalité ni
 dans l'espace ni dans le temps ».
@@ -53,7 +53,7 @@ que vient la difficulté, mais « des doctrines traditionnelles elles-mêmes ».
 
 ## Ce qui rend la conception courante partiellement vraie
 
-*Jîvâtmâ* — *Âtmâ* considéré dans son rapport avec l'individualité humaine —
+*<dfn data-terme="jivatma" data-translit="Jîvâtmâ" data-tradition="universel">Jîvâtmâ</dfn>* — *Âtmâ* considéré dans son rapport avec l'individualité humaine —
 « réside au centre de cette individualité, qui est désigné symboliquement comme le
 cœur », sans être « enfermé dans l'organe corporel qui porte ce nom, ni même dans
 un organe subtil correspondant ».
@@ -117,7 +117,7 @@ par l'Alpha et l'Oméga chrétien.
 
 ## Le *barzakh* dans ce chapitre
 
-Occurrence à retenir, car elle qualifie le *barzakh* par l'**état de l'être**, non
+Occurrence à retenir, car elle qualifie le *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="universel">barzakh</dfn>* par l'**état de l'être**, non
 par un lieu :
 
 > « l'être qui est passé de l'autre côté du *barzakh* est en quelque sorte à
@@ -140,7 +140,7 @@ supérieurs dans notre monde ».
 
 ## Vigilance
 
-Le chapitre est un exercice d'**analogie en sens inverse**, non une description.
+Le chapitre est un exercice d'**analogie en <span data-nom="sens-inverse" data-genre="principe">sens inverse</span>**, non une description.
 Trois usages qu'il interdit par sa lettre même :
 
 - traiter le centre comme un **lieu** : il « n'est aucunement "situé" » ;

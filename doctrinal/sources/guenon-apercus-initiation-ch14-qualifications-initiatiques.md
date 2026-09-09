@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, initiation, qualifications-initiatiques, metier, compagnonnage, maconnerie, apercus-sur-l-initiation]
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]]", "[[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles]]"]
@@ -15,7 +15,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 
 ## Référence
 
-**René Guénon**, *Aperçus sur l'initiation*, ch. XIV, éd. Éditions
+**<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *Aperçus sur l'initiation*, ch. XIV, éd. Éditions
 Traditionnelles. Transcription déposée en **source convertie** dans `textes/`
 (PRO-08) :
 
@@ -36,7 +36,7 @@ ci-dessus est un **chemin nu**, non un lien.
 
 ## Ce que le chapitre établit
 
-Les qualifications initiatiques relèvent **exclusivement du domaine de
+Les <span data-nom="qualifications-initiatiques" data-genre="principe">qualifications initiatiques</span> relèvent **exclusivement du domaine de
 l'individualité** : envisagée sous le rapport de la personnalité ou du « Soi »,
 la question ne se poserait pas, tous les êtres étant également qualifiés. Elle se
 pose parce que l'individualité doit être prise « comme moyen et comme support de

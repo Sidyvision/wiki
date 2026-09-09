@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, symbolisme-croix, degres-existence, etats-etre, macrocosme, microcosme, succession-simultaneite, axe-vertical, geometrie-metaphysique]
 created: 2026-07-16
-updated: 2026-08-11
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-etats-multiples-ch4-fondement]]", "[[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]]"]
@@ -45,10 +45,10 @@ qu'un point particulier soit effectivement déterminé pour tracer la croix, c'e
 la direction horizontale (modalités d'un même état) implique une idée de **succession
 logique** (non chronologique) ; les plans verticaux perpendiculaires à cette direction
 correspondent à une idée de **simultanéité logique**. Par projection, on peut passer de
-la représentation microcosmique à la représentation macrocosmique : chaque « macrocosme »
+la représentation microcosmique à la représentation macrocosmique : chaque « <span data-nom="macrocosme" data-genre="principe">macrocosme</span> »
 (un monde/possibilité particulière) a son centre sur l'axe vertical (« axe de
 l'Univers »), son plan horizontal étant son « équateur » — exactement comme chaque
-« microcosme » (un être) a son centre sur l'axe dans l'autre représentation. Analogie
+« <span data-nom="microcosme" data-genre="principe">microcosme</span> » (un être) a son centre sur l'axe dans l'autre représentation. Analogie
 macrocosme/microcosme : chaque partie de l'Univers est analogue aux autres et à
 l'Univers total.
 
@@ -59,7 +59,7 @@ l'Univers total.
   vertical de l'Instrument.
 - « L'axe vertical, lieu des centres » formalise géométriquement le rôle déjà attribué au
   filament d'al-Insān al-Kāmil dans le prototype.
-- La distinction succession/simultanéité (ch. XIII) est **la source géométrique formelle**
+- La distinction <span data-nom="succession-simultaneite" data-genre="principe">succession/simultanéité</span> (ch. XIII) est **la source géométrique formelle**
   de la même distinction déjà rencontrée dans
   [[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]] à propos des sept
   *Dwîpas* (états successifs coexistant pourtant simultanément) — ce n'était donc pas une

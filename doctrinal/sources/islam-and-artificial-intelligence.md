@@ -11,7 +11,7 @@ tags:
 - academique
 - cambridge
 created: 2026-06-04
-updated: 2026-06-11
+updated: 2026-09-09
 sources_count: 0
 cross_links:
 - '[[yaqub-chaudhary]]'
@@ -68,7 +68,7 @@ L’IA opère depuis derrière deux voiles : (1) le matérialisme/physicalisme, 
 
 ### 3. L’âme en pensée islamique — et l’impossibilité de l’IA forte
 
-Ibn Sīnā ([[ibn-sina]]) : l’âme rationnelle est une substance immatérielle, non-corporelle, qui subsiste par elle-même. Elle est le lieu des universaux, de la conscience et du libre arbitre. Son argument du « Floating Man » (l’Homme flottant) : imaginons un être créé d’un coup, les sens coupés — il ne pourrait qu’affirmer l’existence de son propre soi, distincte du corps. Cela démontre la séparabilité de l’âme du corps.
+<span data-nom="ibn-sina" data-genre="autorite">Ibn Sīnā</span> ([[ibn-sina]]) : l’âme rationnelle est une substance immatérielle, non-corporelle, qui subsiste par elle-même. Elle est le lieu des universaux, de la conscience et du libre arbitre. Son argument du « Floating Man » (l’Homme flottant) : imaginons un être créé d’un coup, les sens coupés — il ne pourrait qu’affirmer l’existence de son propre soi, distincte du corps. Cela démontre la séparabilité de l’âme du corps.
 
 Pour al-Attas : l’âme est une substance spirituelle subtile et indivisible, locus des intelligibles. Elle se nomme différemment selon ses modes :
 
@@ -91,15 +91,15 @@ L’argument de Fakhr al-Dīn al-Rāzī sur l’unité et la simplicité de la c
 
 ### 5. Automata islamiques et pré-histoire de l’IA
 
-**Al-Jazarī** ([[al-jazari]], m. 1206) : *Kitāb fī Maʿrifat al-Ḥiyal al-Handasiyya* (Livre de la connaissance des dispositifs mécaniques ingénieux) — automata à eau, systèmes de contrôle automatique, précurseur médiéval de la cybernétique.
+**<span data-nom="al-jazari" data-genre="autorite">Al-Jazarī</span>** ([[al-jazari]], m. 1206) : *Kitāb fī Maʿrifat al-Ḥiyal al-Handasiyya* (Livre de la connaissance des dispositifs mécaniques ingénieux) — automata à eau, systèmes de contrôle automatique, précurseur médiéval de la cybernétique.
 
 Nadarajan : les automata islamiques expriment l’automatisation comme « manière de soumission » plutôt que de contrôle — produisant des comportements non spécifiés à l’avance, laissant les forces divines se déployer. Proche conceptuellement de certains courants de l’IA moderne (émergence).
 
-**Al-Ghazālī** ([[al-ghazali]], m. 1111) : utilise l’horloge à eau pour expliquer la création et l’ordonnancement de l’univers — sans pour autant mécaniser la nature humaine.
+**<span data-nom="al-ghazali" data-genre="autorite">Al-Ghazālī</span>** ([[al-ghazali]], m. 1111) : utilise l’horloge à eau pour expliquer la création et l’ordonnancement de l’univers — sans pour autant mécaniser la nature humaine.
 
 ### 6. Contributions islamiques aux mathématiques et à l’informatique
 
-**Al-Khwarizmi** ([[al-khwarizmi]], c. 780–850 CE) : fondateur de l’algèbre ; le mot « algorithme » dérive de la latinisation de son nom. Il développa ses œuvres pour aider les juristes islamiques (héritage, commerce, succession). Ironie historique : aujourd’hui, les algorithmes servent surtout la surveillance et la dépossession dans le capitalisme de surveillance.
+**<span data-nom="al-khwarizmi" data-genre="autorite">Al-Khwarizmi</span>** ([[al-khwarizmi]], c. 780–850 CE) : fondateur de l’algèbre ; le mot « algorithme » dérive de la latinisation de son nom. Il développa ses œuvres pour aider les juristes islamiques (héritage, commerce, succession). Ironie historique : aujourd’hui, les algorithmes servent surtout la surveillance et la dépossession dans le capitalisme de surveillance.
 
 **Ibn al-Haytham** : plus de 200 traités mathématiques, notamment en géométrie et optique — influença les mathématiques européennes.
 

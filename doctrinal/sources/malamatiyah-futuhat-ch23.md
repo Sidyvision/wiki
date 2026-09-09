@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ibn-arabi, malamatiyya, afrad, walaya, rene-guenon, futuhat]
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-09-09
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/symboles/malamatiyya]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]]"]
@@ -19,7 +19,7 @@ Sache — que Dieu t'assiste — que ce chapitre contient la mention des servite
 
 C'est d'eux que Dieu a dit par la bouche de Son Envoyé : « *Le plus cher de Mes amis à Mes yeux est un croyant qui a peu de charges, qui prend bonne part à la prière, excelle dans le culte rendu à son Seigneur et qui lui obéit en public comme dans l'intimité tout en se dissimulant parmi les hommes.* » (4) Ce qu'Il veut signifier par là c'est qu'ils ne sont pas connus pour leur excès de piété sans que pour autant ils transgressent les interdits.
 
-Certain spirituel (litt. : homme), interrogé sur les qualités présentées par le connaissant, en a donné cette description : « Son visage est assombri (*wajh muswadd*) ici-bas comme dans l'Ultime Demeure. » S'il avait en vue ce que nous venons de dire à propos des états propres à cette catégorie de spirituels [*tâʾifah*], il voulait signifier par cette métaphore qu'ils sont totalement absorbés, en ce monde et dans l'autre, par les théophanies qui se présentent à eux. Or, l'homme, lorsque Dieu Se manifeste à lui, ne voit dans le miroir divin que son propre être et sa propre station ; il n'est qu'un être (un monde : *kawn*) (5) parmi d'autres et chacun des « mondes » n'est que ténèbres [comparé] à la lumière de Dieu en sorte qu'il ne contemple que sa propre noirceur (*sawâd*) puisque le visage (*wajh*) est l'expression de la réalité et de l'essence d'un être. Les théophanies ne sont perpétuelles que pour cette catégorie spirituelle de contemplatifs : ils demeurent avec Dieu dans ce monde et dans l'autre sous l'emprise de cette théophanie perpétuelle que nous avons évoquée, ils sont donc les esseulés (*afrâd*) (6).
+Certain spirituel (litt. : homme), interrogé sur les qualités présentées par le connaissant, en a donné cette description : « Son visage est assombri (*wajh muswadd*) ici-bas comme dans l'Ultime Demeure. » S'il avait en vue ce que nous venons de dire à propos des états propres à cette catégorie de spirituels [*tâʾifah*], il voulait signifier par cette métaphore qu'ils sont totalement absorbés, en ce monde et dans l'autre, par les théophanies qui se présentent à eux. Or, l'homme, lorsque Dieu Se manifeste à lui, ne voit dans le miroir divin que son propre être et sa propre station ; il n'est qu'un être (un monde : *kawn*) (5) parmi d'autres et chacun des « mondes » n'est que ténèbres [comparé] à la lumière de Dieu en sorte qu'il ne contemple que sa propre noirceur (*sawâd*) puisque le visage (*wajh*) est l'expression de la réalité et de l'essence d'un être. Les théophanies ne sont perpétuelles que pour cette catégorie spirituelle de contemplatifs : ils demeurent avec Dieu dans ce monde et dans l'autre sous l'emprise de cette théophanie perpétuelle que nous avons évoquée, ils sont donc les esseulés (*<dfn data-terme="afrad" data-translit="afrâd" data-tradition="islam">afrâd</dfn>*) (6).
 
 Si maintenant c'est de la seigneurie (*taswîd*) que ce spirituel voulait parler, cela est également vrai à condition de préciser que l'homme qui accède à la seigneurie en ce monde et dans l'autre ne peut être qu'un envoyé, car ce qui constitue une perfection pour les prophètes est un défaut pour les saints. Les prophètes sont en effet tenus de se mettre en avant à cause de leur qualité de législateurs, mais cela n'est pas accordé aux saints.
 
@@ -39,7 +39,7 @@ Nous avons déjà expliqué que c'est à partir de cette « présence » que son
 
 ## Notes du traducteur (A. Penot)
 
-1. Les « gens du blâme » (appelés aussi *malâmiyya* ou *malâmatiyya*) que le *shaykh* considère comme l'une des plus hautes catégories de la spiritualité islamique sont ainsi nommés parce qu'ils dissimuleront leur véritable condition sous des dehors blâmables.
+1. Les « gens du blâme » (appelés aussi *malâmiyya* ou *<span data-nom="malamatiyya" data-genre="ecole">malâmatiyya</span>*) que le *shaykh* considère comme l'une des plus hautes catégories de la spiritualité islamique sont ainsi nommés parce qu'ils dissimuleront leur véritable condition sous des dehors blâmables.
 2. Cor. 55, 72 [: *ḥûrun maqçûrâtun fî-l-khiyâmi*].
 3. L'Islam établit un distinguo entre les œuvres obligatoires, celles que Dieu impose à tous les croyants sans distinction, et les œuvres surérogatoires que certains croyants s'imposent à eux-mêmes en vue de se rapprocher de Dieu.
 4. [*inna aghbaṭa awliyâʾî ʿindî la-muʾmin khafîfu-l-ḥâḍi dhû ḥaḍḍ ṣalâti aḥsan ʿibâdata rabbihi wa atâʾahu fî-s-sirri wa-l-ʿalâniyyah wa kâna ghâmidan fî-n-nâssi*.]
@@ -55,7 +55,7 @@ Nous avons déjà expliqué que c'est à partir de cette « présence » que son
 14. [*manâhij as-subul mina-Llâh*].
 15. Cor. 33, 4 : [*wa-Llâhu yaqûlu-l-ḥaqq wa Huwa yahdî as-sabîl*].
 
-*[Ibn ʿArabî, Futûhât, chapitre 23 — Des pôles préservés à l'abri des regards et des secrets de leur préservation (fî maʿrifat al-aqṭâb al-maṣûnîn wa asrâr ṣûnihim). Traduction et annotations d'A. Penot, Les Révélations de la Mecque, Entrelacs, 2009, p. 304-309.]*
+*[<span data-nom="ibn-arabi" data-genre="autorite">Ibn ʿArabî</span>, <span data-nom="futuhat" data-genre="ouvrage">Futûhât</span>, chapitre 23 — Des pôles préservés à l'abri des regards et des secrets de leur préservation (fî maʿrifat al-aqṭâb al-maṣûnîn wa asrâr ṣûnihim). Traduction et annotations d'A. Penot, Les Révélations de la Mecque, Entrelacs, 2009, p. 304-309.]*
 
 ---
 
@@ -78,4 +78,4 @@ Nous avons déjà expliqué que c'est à partir de cette « présence » que son
 1. Voir Abdul-Hâdi, *El-Malâmatiyah*, dans le n° d'octobre 1933 du *Voile d'Isis* et appendices du présent ouvrage, pp. 270 et ss.
 2. Nous ne voulons pas dire par là que la totalité ne puisse être réalisée que de cette façon, mais seulement qu'elle peut l'être effectivement ainsi suivant le mode qui est propre à la voie des *Malâmatiyah*.
 
-*[René Guénon, Initiation et Réalisation spirituelle, Éditions Traditionnelles, chs. XXVIII et XXIX.]*
+*[<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>, Initiation et Réalisation spirituelle, Éditions Traditionnelles, chs. XXVIII et XXIX.]*

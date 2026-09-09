@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "kabbale"
 tags: [kabbale, 10-sephirot, arbre-sephirotique, structure, kether, hokhma, bina, hesed, gevurah, tiferet, netzach, hod, yesod, malkhut]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-09
 sources: ["[[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]]", "[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/kabbale-cosmogonie-iod]]"]
@@ -16,13 +16,13 @@ cross_links: ["[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/discernement/
 ## Présentation
 
 Les 10 Sephiroth (סְפִירוֹת, *Sefirot*) constituent la structure fondamentale de
-l'Arbre séphirothique en kabbale. Elles sont les 10 émanations divines par lesquelles
+l'Arbre séphirothique en <span data-nom="kabbale" data-genre="ecole">kabbale</span>. Elles sont les 10 émanations divines par lesquelles
 l'Infini (Aïn-Soph) se manifeste dans la création.
 
 **Statut** : matière rapportée par Guénon (via Vulliaud) dans la trilogie, complétée
 par le texte primaire du *Sefer Yetsira* (commentaire du Ramban). Les 10 Sephiroth
 ne sont pas toutes nommées individuellement dans le commentaire du Ramban — seules
-9 sont explicitement mentionnées (Malkhut n'apparaît pas). La structure complète de
+9 sont explicitement mentionnées (<dfn data-terme="malkhut" data-translit="Malkhut" data-tradition="kabbale">Malkhut</dfn> n'apparaît pas). La structure complète de
 l'Arbre (3 colonnes, 22 sentiers) n'est pas détaillée dans les sources actuellement
 disponibles dans le dépôt.
 
@@ -49,7 +49,7 @@ disponibles dans le dépôt.
 - **Position** : colonne de gauche, 3e Sephira
 - **Attribut** : Intelligence, discernement
 - **Correspondance** : Mère (Imma)
-- **Dans le Ramban** : « Yod-He-Waw-He ponctué Eloqim, et c'est Bina
+- **Dans le Ramban** : « Yod-He-Waw-He ponctué Eloqim, et c'est <dfn data-terme="bina" data-translit="Bina" data-tradition="kabbale">Bina</dfn>
   (Compréhension) » ; le Fondement de l'Édifice (Ch. I, §1)
 - **Nom divin** : YHWH Elohim (יהוה אלהים)
 
@@ -73,7 +73,7 @@ disponibles dans le dépôt.
 - **Attribut** : Beauté, harmonie, compassion
 - **Correspondance** : Cœur de l'Arbre ; Fils (Ben)
 - **Dans le Ramban** : « la Gloire » ; le Palais de la Sainteté est exactement au
-  centre (Ch. IV, §3) — correspond structurellement à Tiferet
+  centre (Ch. IV, §3) — correspond structurellement à <dfn data-terme="tiferet" data-translit="Tiferet" data-tradition="kabbale">Tiferet</dfn>
 - **Nom divin** : YHWH (יהוה)
 
 ### 7. Netzach (נֶצַח) — La Victoire
@@ -109,13 +109,13 @@ disponibles dans le dépôt.
 
 ### Les 3 colonnes
 
-1. **Colonne de droite** (Miséricorde) : Hokhma, Hesed, Netzach
+1. **Colonne de droite** (Miséricorde) : <dfn data-terme="hokhma" data-translit="Hokhma" data-tradition="kabbale">Hokhma</dfn>, <dfn data-terme="hesed" data-translit="Hesed" data-tradition="kabbale">Hesed</dfn>, <dfn data-terme="netzach" data-translit="Netzach" data-tradition="kabbale">Netzach</dfn>
    - Masculine, expansive, active
 
-2. **Colonne de gauche** (Rigueur) : Bina, Gevurah, Hod
+2. **Colonne de gauche** (Rigueur) : Bina, <dfn data-terme="gevurah" data-translit="Gevurah" data-tradition="kabbale">Gevurah</dfn>, Hod
    - Féminine, restrictive, passive
 
-3. **Colonne du milieu** (Équilibre) : Kether, Tiferet, Yesod, Malkhut
+3. **Colonne du milieu** (Équilibre) : <dfn data-terme="kether" data-translit="Kether" data-tradition="kabbale">Kether</dfn>, Tiferet, <dfn data-terme="yesod" data-translit="Yesod" data-tradition="kabbale">Yesod</dfn>, Malkhut
    - Neutre, harmonisante
 
 **Note** : la structure complète (3 colonnes, 22 sentiers) n'est PAS détaillée dans
