@@ -1,13 +1,29 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-08
+updated: 2026-09-09
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-09] archivage | Achèvement de l'annotation de `doctrinal/` — `deviations/`, `etudes/`, `discernement/`, `sources/` (587 poses)
+
+- **Ordre de Sidy** : « continue ». Reprise du même pipeline déterministe et du même critère explicite que les passes `symboles/`, `traditions/` et `autorites/`.
+- **Périmètre** : `deviations/` 11 fiches, 8 annotées, 20 poses · `etudes/` 7 fiches, 5 annotées, 15 poses · `discernement/` 59 fiches, 45 annotées, 155 poses · `sources/` 125 fiches, **7 exclues en bloc**, 101 annotées, 397 poses. **Total : 159 fiches, 587 poses.** `doctrinal/doctrines/`, cité à l'arbre du §II, **est absent du disque** — écart déjà signalé antérieurement, toujours non corrigé (Cmd 12).
+- **La règle 5 du §VII appliquée à la main, faute de pouvoir l'outiller.** Les 7 fiches de **transcription** de `sources/` — corps et index du *Kitāb al-Taʿrīfāt*, Meftah, annexes des *Révélations de la Mecque*, anneau des 28 lettres, index Tilak, table des matières de *L'Homme et son devenir* — reproduisent une source primaire **mot pour mot** : elles sont exclues **en bloc**. Rien ne distingue mécaniquement une citation transcrite d'un bloc de la voix propre du dépôt : l'exclusion est donc **déclarée et nommée**, jamais devinée par un script. Les passages en blockquote, eux, étaient déjà écartés mécaniquement.
+- **Deux défauts du proposeur trouvés et fermés pendant la passe**, tous deux invisibles jusqu'à ce que le corpus les fasse apparaître :
+  - **Une pose pouvait enjamber un retour à la ligne** — « Adam\nQadmôn », « point\nprimordial », « Volonté du\nCiel » — et porter le saut de ligne **dans `data-translit`**. Écartée ; la pose se reporte sur une occurrence d'un seul tenant s'il en existe une.
+  - **Une pose pouvait enjamber un marqueur d'emphase markdown** — « chaîne\*\* initiatique », « sourate \*\*Qāf », « Guru\* intérieur » — enfermant les astérisques dans la balise et **coupant le gras au rendu**. La ponctuation **ordinaire** (`/`, `,`, `=`) reste admise, et c'est délibéré : « Merkavah/Muraqaba » est un composé que le dépôt traite lui-même comme une unité et qui porte une fiche sous ce nom.
+  - **Contrôle a posteriori sur les passes déjà appliquées** : les trois annotations existantes portant une barre oblique ont été revérifiées une à une — aucune n'enferme de marqueur d'emphase. Balayage complet de `doctrinal/` : **zéro balise contenant `*`, `_`, un backtick ou un crochet**.
+- **241 clés nouvelles classées** pour `sources/`, s'ajoutant aux 158 de la passe précédente. **Aucun conflit de genre et aucune clé à la fois classée et rejetée**, vérifié mécaniquement avant toute écriture — deux clés (`nezami`, `semnani`) figuraient d'abord en `dfn` *et* en `autorite` : conflit détecté par le contrôle, tranché en faveur de `autorite`.
+- **Les rejets, 163 pour `sources/` seule.** Noms communs français que le repli ASCII rend homographes d'un tag (`être`, `mesure`, `balance`, `ordre`, `sphère`, `reflet`, `vision`, `création`, `histoire`, `droit`, `mental`…), noms de disciplines (`philologie`, `cosmogonie`, `prosodie`, `sémantique`, `apologétique`), et le **vocabulaire de gouvernance du dépôt lui-même** (`transcription`, `manifeste`, `scan`, `source primaire`, `catalogue`, `lexique`) — qui n'a rien à faire dans un index doctrinal.
+- **Contrôles** — `valider-annotations.py` v1.1 : « **245 fiches annotées, 789 annotations.** OK — aucune anomalie », exit 0. `verifier-invariants.py` : **1417 fichiers, 0 erreur(s), 0 avertissement(s)**. Diffs de 225 puis 462 lignes, **pour autant** : aucun texte modifié. `updated:` remonté ; les 101 fiches de `sources/` portent **2026-09-09**, la date ayant basculé pendant la passe (Cmd 8).
+- **Le régime apparié tient une quatrième et une cinquième fois.** Graphe régénéré après chaque passe : **arêtes rigoureusement identiques** (1937), comparées terme à terme après tri. 587 annotations de plus, **zéro lien créé**. Les nœuds ne diffèrent que des `updated:`.
+- **État du circuit `doctrinal/` à la clôture** : 245 fiches annotées, 789 annotations. Restent sans candidat annotable — leur vocabulaire n'étant ni tagué ni lié, ce que l'appariement D1 interdit de contourner : 41 fiches de `symboles/`, 3 de `traditions/`, 11 de `autorites/`, 3 de `deviations/`, 2 de `etudes/`, 14 de `discernement/`, 24 de `sources/`. Les 7 transcriptions sont exclues **par règle**, non faute de candidats.
+- **Commits** : 20d5615 (deviations, etudes, discernement), 99d86b1 (sources).
 
 ## [2026-09-08] archivage | Annotation de `doctrinal/traditions/` et `doctrinal/autorites/` — 45 poses
 
