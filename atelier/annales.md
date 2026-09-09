@@ -10,6 +10,20 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] rd | Rapport de session versé au cahier de laboratoire — indexation HTML et annotations
+
+- **Ordre de Sidy** : « après ça tu enrichiras le R&D de ton rapport de session ». Fiche : `atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations.md`, couvrant les **28 commits** `274ddc6..a4c7d32`.
+- **Ce que le rapport retient et que les annales ne portaient pas.** Les annales journalisent les opérations ; le cahier extrait ce qui se transmet comme méthode. Cinq constats :
+  - **Neuf défauts, aucun trouvé par relecture.** Tous par faute fabriquée, mesure sur l'artefact, ou refus d'un contrôle existant. La forme est invariablement la même : le dispositif est **muet**, non pas faux. **Corollaire pratique** : un contrôle qui rapporte un **compte** vaut mieux qu'un contrôle qui rapporte un état — deux défauts (le balayage limité à la racine, la fiche gelée par une annotation antérieure) ont été trouvés parce qu'un chiffre était *invraisemblable*, non parce qu'une erreur était levée.
+  - **Une correction peut créer un contrôle mort.** Après avoir masqué le code *avant* la recherche des balises, la branche D4 « dans du code » est devenue inatteignable. Corriger un dispositif oblige à **revérifier ce que la correction rend inutile** — sans quoi on laisse en place l'apparence d'une garde.
+  - **Un trou de contrôle ne se trouve pas en le cherchant**, mais en construisant autre chose qui a besoin de la pièce manquante. Les trois trous hérités de la session — dont `hermeneutique` absent de `CIRCUITS` depuis l'ouverture du circuit, six semaines sans B1 ni C3 — l'ont tous été ainsi.
+  - **Trois règles écartées avant d'être inscrites**, chacune par un relevé préalable : la prohibition des blockquotes, l'exclusion d'`entite` hors de sa portée, la tolérance de `RE_CODE` au retour à la ligne. Une prohibition dont la portée est **inférée et non mesurée** est de la même famille que la porte sans garde : elle paraît protéger, et elle ferme.
+  - **Le régime apparié vérifié huit fois** : arêtes du graphe comparées **terme à terme après tri**, 1937 rigoureusement identiques à chaque passe, **936 annotations, zéro lien créé**. Ce n'est plus une discipline qu'on affirme, c'est un fait qu'on remesure — et toute passe future doit refaire la comparaison sur le **contenu trié**, non sur le compte, qui peut coïncider par hasard.
+- **Le rapport consigne aussi** : le partage des trois définitions canoniques (`fichiers_suivis`, `est_ecriture_originale`, `circuit_de`) et le **sens délibéré** de leur dépendance — l'outil de R&D dépend du contrôleur racine, jamais l'inverse ; ce qui relève du jugement et n'a pas été scripté (la classification, versée en tables JSON relisibles, jamais dans le code) ; la gestion d'une règle **non outillable** par exclusion nommée à chaque application ; **onze écarts ouverts** ; et **quatre reprises classées par rendement**.
+- **Un écart de forme de la session, signalé plutôt que masqué (Cmd 9)** : l'entrée d'annales herméneutiques sur `categorie-editoriale` a été versée *dans* le commit d'archivage avec un SHA en attente, alors que la règle veut qu'elle soit rédigée **après**. Corrigée par un commit de journal séparé. La faute est structurelle : elle guette chaque lot qui groupe protocole, outillage et annales.
+- **Vérification** — `verifier-invariants.py` : 1418 fichiers, **0 erreur, 0 avertissement**. `valider-annotations.py` v1.2 : aucune anomalie.
+- **Commit** : 8d691e6
+
 ## [2026-09-09] rd | Annotation des circuits `atelier/`, `hermeneutique/` et `meta/` — 124 poses
 
 - **Ordre de Sidy** : « Continuons ». Extension de la passe d'annotation aux quatre circuits non doctrinaux, même pipeline déterministe.
