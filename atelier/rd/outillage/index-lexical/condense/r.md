@@ -12,10 +12,10 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `rapport` | RAPPORT, Rapport, rapport | — | — | definition, table, tag, titre | **212 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +418 | 2261 |
+| `rapport` | RAPPORT, Rapport, rapport | — | — | definition, table, tag, titre | **212 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +418 | 2262 |
 | `raison` | Raison, Raïson, raison | — | — | definition, table, titre | **98 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +402 | 1330 |
 | `rene` | René | — | — | table, titre | **113 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +404 | 1156 |
-| `role` | ROLE, Role, RÔLE, Rôle (+3) | — | — | definition, table | **148 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +294 | 1025 |
+| `role` | ROLE, Role, RÔLE, Rôle (+3) | — | — | definition, table | **149 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +294 | 1026 |
 | `roman` | Roman, roman | — | — | annotation, tag | [[doctrinal/sources/gilis-ordo-ab-chao]] · [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/frankenstein/frankenstein]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] · +1 | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +406 | 815 |
 | `realisation` | Realisation, RÉALISATION, Réalisation, réalisation (+1) | — | — | table, titre | **73 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +207 | 789 |
 | `reference` | Reference, Référence, reference, référence (+1) | — | ⚖ islam | definition, table, tag, titre | **249 fiches** | LISEZ-MOI.md +55 | 659 |
@@ -24,8 +24,8 @@ links: []
 | `rendu` | RENDU, Rendu, rendu | — | — | definition, table, tag, titre | **114 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +64 | 483 |
 | `rapports` | RAPPORTS, Rapports, rapports | — | — | titre | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +202 | 464 |
 | `rapprochement` | Rapprochement, rapprochement | — | — | titre | **163 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +103 | 464 |
-| `regle` | Règle, regle, règle, réglé | — | — | definition, table | **169 fiches** | LISEZ-MOI.md +39 | 458 |
-| `registre` | Registre, registre | — | — | definition, table, tag, titre | **149 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +5 | 431 |
+| `regle` | Règle, regle, règle, réglé | — | — | definition, table | **169 fiches** | LISEZ-MOI.md +39 | 459 |
+| `registre` | Registre, registre | — | — | definition, table, tag, titre | **150 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +5 | 432 |
 | `resultat` | RESULTAT, Résultat, résultat | — | — | definition, table | **113 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +115 | 371 |
 | `reve` | RÊVE, Rêve, reve, révé (+2) | — | — | table, tag, titre | **58 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +23 | 332 |
 | `regne` | Règne, règne, régné | — | — | table, titre | **51 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +143 | 329 |
@@ -58,7 +58,7 @@ links: []
 | `rotation` | Rotation, rotation | — | — | tag, titre | **38 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +28 | 118 |
 | `reincarnation` | Reincarnation, Réincarnation, reincarnation, réincarnation | — | — | tag, titre | **11 fiches** | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +34 | 117 |
 | `rajas` | Rajas, rajas, râjas | — | — | annotation, table, tag | **11 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +17 | 116 |
-| `reprise` | Reprise, reprise | — | — | titre | **67 fiches** | sept-etendards-califat-transcription.md +4 | 113 |
+| `reprise` | Reprise, reprise | — | — | titre | **68 fiches** | sept-etendards-califat-transcription.md +4 | 114 |
 | `razi` | Razi, Razî, Râzi, Râzî (+4) | — | — | annotation, table, tag, translit | **11 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +3 | 108 |
 | `runpod` | RunPod | — | — | table | **21 fiches** | — | 107 |
 | `registres` | REGISTRES, Registres, registres | — | — | table, tag, titre | **50 fiches** | les-quatre-mondes.md | 101 |

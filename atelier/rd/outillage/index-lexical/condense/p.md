@@ -12,10 +12,10 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `principe` | PRINCIPE, Principe, principe | — | — | definition, table, titre | **297 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +328 | 2241 |
-| `porte` | PORTE, Porte, porte, porté | — | — | table, titre | **305 fiches** | LISEZ-MOI.md +163 | 1395 |
+| `principe` | PRINCIPE, Principe, principe | — | — | definition, table, titre | **297 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +328 | 2242 |
+| `porte` | PORTE, Porte, porte, porté | — | — | table, titre | **305 fiches** | LISEZ-MOI.md +163 | 1398 |
 | `place` | Place, Placé, place, placé | — | — | table, titre | **160 fiches** | LISEZ-MOI.md +323 | 1229 |
-| `premiere` | PREMIERE, PREMIÈRE, Premiere, Première (+3) | — | — | table, titre | **188 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +329 | 1102 |
+| `premiere` | PREMIERE, PREMIÈRE, Premiere, Première (+3) | — | — | table, titre | **189 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +329 | 1103 |
 | `pole` | POLE, Pole, Pôle, pole (+1) | — | — | table, tag, titre | **201 fiches** | initiation-sacerdotale-et-initiation-royale-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +94 | 963 |
 | `pourquoi` | POURQUOI, Pourquoi, pourquoi | — | — | definition, table | **111 fiches** | LISEZ-MOI.md +311 | 890 |
 | `plan` | PLAN, Plan, plan | — | — | definition, table, tag, titre | **160 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +138 | 881 |
@@ -96,9 +96,9 @@ links: []
 | `productions` | Productions, productions | — | — | table, titre | **12 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +29 | 60 |
 | `pythagoriciens` | Pythagoriciens, pythagoriciens | — | — | titre | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-6.md +23 | 60 |
 | `pacte` | Pacte, pacte | — | — | titre | **23 fiches** | karubi-mehdi-navette-20260812.md +4 | 56 |
+| `porteur` | Porteur, porteur | — | ⚖ islam | definition, table | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +13 | 56 |
 | `paradigme` | Paradigme, paradigme | — | — | tag | **25 fiches** | corps-du-texte.md | 55 |
 | `persistante` | persistante | — | — | titre | **19 fiches** | mythologie-scientifique-et-vulgarisation-le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon.md | 55 |
-| `porteur` | Porteur, porteur | — | ⚖ islam | definition, table | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +13 | 55 |
 | `pseudo-initiation` | PSEUDO-INITIATION, pseudo-initiation | — | — | annotation, tag, titre | **11 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +14 | 55 |
 | `python` | Python, python | — | — | table, tag | **27 fiches** | symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon-11.md +2 | 52 |
 | `polarisation` | polarisation | — | — | titre | **11 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +15 | 51 |

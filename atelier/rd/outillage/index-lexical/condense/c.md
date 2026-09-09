@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `cas` | CAS, Cas, cas | — | — | titre | **209 fiches** | LISEZ-MOI.md +457 | 2518 |
+| `cas` | CAS, Cas, cas | — | — | titre | **209 fiches** | LISEZ-MOI.md +457 | 2519 |
 | `centre` | CENTRE, Centre, centre, centré | — | — | table, tag, titre | **111 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +235 | 1625 |
 | `corps` | CORPS, Corps, corps | — | — | table, titre | **186 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +135 | 1441 |
 | `ciel` | CIEL, Ciel, ciel | — | — | table, titre | **90 fiches** | initiation-sacerdotale-et-initiation-royale-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +136 | 904 |
@@ -24,14 +24,14 @@ links: []
 | `cinq` | CINQ, Cinq, cinq | — | — | table, titre | **118 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +48 | 553 |
 | `croix` | Croix, croix | — | — | table, titre | **57 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-4.md +143 | 541 |
 | `contexte` | Contexte, contexte | — | — | definition, table, tag, titre | **178 fiches** | intellect-et-conscience-selon-valsan.md +6 | 521 |
-| `code` | Code, code, codé | — | — | table, titre | **135 fiches** | karubi-mehdi-navette-20260812.md +6 | 498 |
+| `code` | Code, code, codé | — | — | table, titre | **135 fiches** | karubi-mehdi-navette-20260812.md +6 | 499 |
 | `concepts` | Concepts, concepts | — | — | table | **143 fiches** | isaghuji-cours01-introduction-transcription.md +8 | 480 |
 | `creation` | Creation, Création, creation, création | — | — | table, tag | **119 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +77 | 473 |
 | `controle` | Contrôle, controle, contrôle, contrôlé | — | — | table, tag | **145 fiches** | LISEZ-MOI.md +31 | 461 |
 | `corpus` | CORPUS, Corpus, corpus | — | — | tag, titre | **150 fiches** | LISEZ-MOI.md +28 | 446 |
 | `classification` | CLASSIFICATION, Classification, classification | — | — | tag, titre | **25 fiches** | LISEZ-MOI.md +28 | 432 |
 | `centres` | CENTRES, Centres, centres, centrés | — | — | table, tag | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-5.md +60 | 427 |
-| `chantier` | Chantier, chantier | — | — | definition, table, tag, titre | **134 fiches** | LISEZ-MOI.md +1 | 421 |
+| `chantier` | Chantier, chantier | — | — | definition, table, tag, titre | **135 fiches** | LISEZ-MOI.md +1 | 423 |
 | `conclusion` | CONCLUSION, Conclusion, conclusion | — | — | definition, table | **117 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +90 | 403 |
 | `confusion` | CONFUSION, Confusion, confusion | — | — | titre | **53 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +194 | 393 |
 | `consequence` | Conséquence, consequence, conséquence | — | — | definition, table | **89 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +170 | 374 |
@@ -40,7 +40,7 @@ links: []
 | `coomaraswamy` | Coomaraswamy, coomaraswamy | — | — | table, tag, titre | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +61 | 312 |
 | `conversation` | Conversation, conversation | — | — | table, titre | **115 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +9 | 301 |
 | `coran` | CORAN, Coran, Corân, coran | — | — | annotation, table, tag, titre | **56 fiches** | LISEZ-MOI.md +16 | 297 |
-| `correspondances` | CORRESPONDANCES, Correspondances, correspondances | — | — | table, tag, titre | **79 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +63 | 295 |
+| `correspondances` | CORRESPONDANCES, Correspondances, correspondances | — | — | table, tag, titre | **80 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +63 | 296 |
 | `correction` | CORRECTION, Correction, correction | — | — | definition, table, tag, titre | **89 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +27 | 251 |
 | `comparaison` | Comparaison, comparaison | — | — | table, tag | **58 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +110 | 246 |
 | `cron` | Cron, cron | — | — | definition, table, tag, titre | **67 fiches** | — | 234 |
@@ -323,6 +323,7 @@ links: []
 | `ce que le depot porte deja, et qui est le terme decisif` | Ce que le dépôt porte déjà, et qui est le terme décisif | — | — | definition | [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] | — | 0 |
 | `ce que le texte etablit reellement, et rien de plus` | Ce que le texte établit réellement, et rien de plus | — | ⚖ islam | definition | [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] | — | 0 |
 | `ce qui en decoule, et qui est le vrai defaut` | Ce qui en découle, et qui est le vrai défaut | — | — | definition | [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent]] | — | 0 |
+| `ce qui est clarifie, et ce n'est pas une regle nouvelle` | Ce qui est clarifié, et ce n'est pas une règle nouvelle | — | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 0 |
 | `ce qui manque, et qu'aucun travail de machine ne remplacera` | Ce qui manque, et qu'aucun travail de machine ne remplacera | — | ⚖ shintoisme | definition | [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] | — | 0 |
 | `ce qui n'est pas fait, et volontairement` | Ce qui n'est pas fait, et volontairement | — | — | definition | [[meta/briefs/2026-08-30_passation-claude-ai-vers-terminal]] | — | 0 |
 | `ce qui pourrait avancer sans verdict, si sidy le souhaite` | Ce qui pourrait avancer sans verdict, si Sidy le souhaite | — | — | definition | [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] | — | 0 |

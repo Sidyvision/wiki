@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `nom` | NOM, Nom, nom | — | — | definition, tag, titre | **220 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +339 | 2354 |
+| `nom` | NOM, Nom, nom | — | — | definition, tag, titre | **220 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +339 | 2355 |
 | `nature` | NATURE, Nature, nature | — | ⚖ islam | definition, table, tag, titre | **268 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +379 | 1906 |
 | `nombre` | NOMBRE, Nombre, nombre, nombré | — | — | table, tag, titre | **95 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +219 | 1147 |
 | `noms` | NOMS, Noms, noms | — | — | table, titre | **137 fiches** | LISEZ-MOI.md +123 | 835 |

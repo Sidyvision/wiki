@@ -13,7 +13,7 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `vers` | VERS, Vers, vers | — | — | titre | **314 fiches** | LISEZ-MOI.md +234 | 1533 |
-| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **313 fiches** | LISEZ-MOI.md +10 | 1069 |
+| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **313 fiches** | LISEZ-MOI.md +10 | 1070 |
 | `veille` | VEILLE, Veille, veille | — | — | table, tag, titre | **89 fiches** | la-puissance-du-serpent.md +15 | 469 |
 | `vigilance` | VIGILANCE, Vigilance, vigilance | — | — | definition, table, tag, titre | **166 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +38 | 460 |
 | `verification` | VÉRIFICATION, Vérification, verification, vérification | — | ⚖ hindouisme | definition, table, tag | **190 fiches** | karubi-mehdi-navette-20260812.md +3 | 454 |
@@ -28,6 +28,7 @@ links: []
 | `vritra` | VRITRA, Vritra | — | — | table, titre | **10 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-33.md +17 | 220 |
 | `verdict sidy` | Verdict Sidy | — | — | definition | **98 fiches** | — | 196 |
 | `vedique` | Védique, vedique, védique, vêdique | — | — | titre | **37 fiches** | la-puissance-du-serpent.md +41 | 157 |
+| `verdict de sidy` | Verdict de Sidy | — | — | definition | **83 fiches** | LISEZ-MOI.md +1 | 155 |
 | `valsan` | Valsan, Valsän, Vàlsan, Vâlsan (+2) | — | — | table, tag, titre | **25 fiches** | sept-etendards-califat-transcription.md +8 | 132 |
 | `verifiee` | Vérifiée, vérifiée | — | ⚖ universel | definition | **93 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 132 |
 | `vishnu` | Vishnu | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +2 | la-puissance-du-serpent.md +27 | 124 |

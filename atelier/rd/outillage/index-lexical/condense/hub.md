@@ -15,7 +15,7 @@ links: []
 > frontière que les sections employaient déjà. L'index intégral
 > reste `index-lexical.json` (outil MCP `chercher_terme`).
 
-**Termes distincts : 10695 — occurrences : 420103 — fiches indexees : 758 — textes balayes : 657**
+**Termes distincts : 10698 — occurrences : 420303 — fiches indexees : 758 — textes balayes : 657**
 
 ## Tranches
 

@@ -16,7 +16,7 @@ links: []
 | `auteur` | AUTEUR, Auteur, auteur | — | — | definition, table, tag | **104 fiches** | erreurs-diverses-concernant-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +85 | 616 |
 | `arctic` | ARCTIC, ARcTIC, Arctic | — | — | table | **13 fiches** | LISEZ-MOI.md +18 | 579 |
 | `allah` | Allah, Allàh, Allâh, Alläh (+4) | — | — | table, titre, translit | **57 fiches** | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +48 | 535 |
-| `atelier` | Atelier, atelier | — | — | table, tag | **175 fiches** | karubi-mehdi-navette-20260812.md +3 | 510 |
+| `atelier` | Atelier, atelier | — | — | table, tag | **175 fiches** | karubi-mehdi-navette-20260812.md +3 | 511 |
 | `arabe` | ARABE, Arabe, arabe | — | — | table, tag, titre | **110 fiches** | LISEZ-MOI.md +96 | 501 |
 | `aspects` | Aspects, aspects | — | — | tag, titre | **65 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +200 | 499 |
 | `al-din` | al-Din, al-Dîn, al-Dīn, al-din (+1) | `الدين` — Jurjānī déf. 0746 | — | titre, translit | **26 fiches** | isaghuji-cours01-introduction-transcription.md +12 | 494 |
@@ -189,6 +189,7 @@ links: []
 | `atman` | Atman, atman, âtman, Ātman (+1) | — | — | tag, translit | **13 fiches** | la-puissance-du-serpent.md +5 | 28 |
 | `ayat` | Ayat, ayat, âyât, äyat (+2) | — | — | translit | **10 fiches** | osman-yahya-08-repertoire.md +4 | 28 |
 | `ahadiyya` | AHADIYYA, ahadiyya, aḥadiyya | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 27 |
+| `ancre` | ancre, ancré | — | — | titre | **20 fiches** | — | 27 |
 | `arthur` | Arthur | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | la-puissance-du-serpent.md +11 | 27 |
 | `atlante` | Atlante, atlante | — | — | annotation, table, tag | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon]] · [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-roi-du-monde-ch10]] · +2 | formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon-5.md +3 | 27 |
 | `al-awliya` | al-Awliya, al-Awliyāʾ, al-awliya, al-awliyâ (+2) | — | — | translit | **9 fiches** | osman-yahya-08-repertoire.md +3 | 26 |
@@ -197,7 +198,6 @@ links: []
 | `al-tawhid` | Al-Tawḥīd, al-Tawhid, al-Tawhïd, al-tawhid (+2) | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/wahdat-al-wujud]] | osman-yahya-06-chapitre-05.md +4 | 26 |
 | `al-walaya` | al-Waläya, al-Walāya, al-walaya, al-walâya (+2) | — | — | translit | **12 fiches** | osman-yahya-08-repertoire.md +1 | 26 |
 | `amorcage` | Amorcage, Amorçage, amorcage, amorçage | — | — | tag | **18 fiches** | — | 26 |
-| `ancre` | ancre, ancré | — | — | titre | **19 fiches** | — | 26 |
 | `atri` | Atri | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] | arctic-00-front-matter.md +5 | 26 |
 | `abjad` | Abjad, abjad | — | — | table, tag | **9 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +4 | 25 |
 | `ada` | Ada, ada, adâ, adâʾ (+5) | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +5 | 25 |
@@ -856,6 +856,7 @@ links: []
 | `asharisme` | Ashʿarisme, ashʿarisme | — | — | tag, translit | [[doctrinal/autorites/al-jurjani]] · [[doctrinal/sources/islam-and-artificial-intelligence]] | — | 1 |
 | `aucun champ du sceau label ne permettait de le declarer` | aucun champ du Sceau label ne permettait de le déclarer | — | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 1 |
 | `aucun de ces etats n'est fondu avec l'etabli` | Aucun de ces états n'est fondu avec l'établi | — | — | definition | [[atelier/rd/instrument/ins-15-situation-polaire/spec]] | — | 1 |
+| `aucun outillage n'est donc a batir` | Aucun outillage n'est donc à bâtir | — | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 1 |
 | `auteure` | Auteure, auteure | — | — | tag | [[doctrinal/autorites/aiman-attar]] | — | 1 |
 | `avantage attaque` | Avantage attaque | — | — | definition | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] | — | 1 |
 | `axe-polaire` | axe-polaire | — | — | annotation, tag | [[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]] | — | 1 |

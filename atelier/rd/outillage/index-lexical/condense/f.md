@@ -26,9 +26,9 @@ links: []
 | `faculte` | Faculté, faculté | — | — | table, titre | **34 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-9.md +62 | 195 |
 | `futur` | FUTUR, Futur, futur, futûr (+1) | — | — | table, translit | **71 fiches** | voie-initiatique-et-voie-mystique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +42 | 174 |
 | `france` | France | — | — | table, titre | **14 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +49 | 157 |
-| `fil` | Fil, fil, fiʿl, fîʿl | — | — | translit | **49 fiches** | karubi-mehdi-navette-20260812.md +23 | 149 |
+| `fil` | Fil, fil, fiʿl, fîʿl | — | — | translit | **49 fiches** | karubi-mehdi-navette-20260812.md +23 | 150 |
 | `fiqh` | FIQH, Fiqh, fiqh | — | ✓ islam | annotation, table, tag, titre | **33 fiches** | isaghuji-cours01-introduction-transcription.md +4 | 143 |
-| `famille` | Famille, famille | — | — | tag | **78 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +32 | 136 |
+| `famille` | Famille, famille | — | — | tag | **78 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +32 | 137 |
 | `formulation` | Formulation, formulation | — | — | definition, table | **70 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +11 | 115 |
 | `fusus` | Fusus, Fusûs, Fusüs, Fuṣûṣ (+3) | — | — | table, translit | **26 fiches** | karubi-mehdi-navette-20260812.md +6 | 100 |
 | `fille` | Fille, fille | — | — | titre | **25 fiches** | la-puissance-du-serpent.md +12 | 96 |

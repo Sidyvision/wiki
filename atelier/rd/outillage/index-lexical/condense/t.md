@@ -12,11 +12,11 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `trois` | TROIS, Trois, trois, troìs | — | — | table, titre | **275 fiches** | LISEZ-MOI.md +207 | 2153 |
+| `trois` | TROIS, Trois, trois, troìs | — | — | table, titre | **275 fiches** | LISEZ-MOI.md +207 | 2157 |
 | `tradition` | TRADITION, Tradition, tradition | — | — | table, tag, titre | **206 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +365 | 2123 |
 | `temps` | TEMPS, Temps, temps | — | — | table, tag, titre | **141 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +404 | 1568 |
 | `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | — | titre | **100 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +182 | 1237 |
-| `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | — | table, titre | **130 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +93 | 1000 |
+| `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | — | table, titre | **130 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +93 | 1001 |
 | `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **111 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +333 | 945 |
 | `table` | TABLE, Table, table | — | — | table, titre | **153 fiches** | LISEZ-MOI.md +61 | 823 |
 | `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | — | table, titre | **160 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +207 | 741 |

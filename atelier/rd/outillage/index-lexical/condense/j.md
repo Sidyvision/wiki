@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `jour` | JOUR, Jour, jour | — | — | table, titre | **244 fiches** | LISEZ-MOI.md +148 | 1014 |
+| `jour` | JOUR, Jour, jour | — | — | table, titre | **244 fiches** | LISEZ-MOI.md +148 | 1015 |
 | `janus` | Janus, janus | — | — | annotation, table, tag, titre | **22 fiches** | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +23 | 190 |
 | `jeu` | Jeu, jeu | — | — | titre | **60 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +41 | 184 |
 | `jean` | JEAN, Jean | — | — | table | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +61 | 179 |

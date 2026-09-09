@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **476 fiches** | LISEZ-MOI.md +4 | 2573 |
+| `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **476 fiches** | LISEZ-MOI.md +4 | 2574 |
 | `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **504 fiches** | LISEZ-MOI.md +150 | 2329 |
 | `symbolisme` | SYMBOLISME, Symbolisme, symbolisme | — | — | table, tag, titre | **134 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +323 | 1910 |
 | `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **374 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +51 | 1358 |
@@ -24,10 +24,10 @@ links: []
 | `spirituelle` | SPIRITUELLE, Spirituelle, spirituelle | — | — | table, titre | **159 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +191 | 942 |
 | `spirituel` | SPIRITUEL, Spirituel, spirituel | — | — | tag, titre | **146 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +200 | 827 |
 | `soleil` | Soleil, soleil | — | — | table, tag, titre | **95 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +109 | 786 |
-| `session` | Session, session | — | — | titre | **181 fiches** | LISEZ-MOI.md +9 | 755 |
+| `session` | Session, session | — | — | titre | **181 fiches** | LISEZ-MOI.md +9 | 756 |
 | `soi` | SOI, Soi, soi | — | — | tag | **88 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +229 | 752 |
 | `structure` | STRUCTURE, Structure, structure, structuré | — | — | definition, table, tag, titre | **239 fiches** | karubi-mehdi-navette-20260812.md +36 | 617 |
-| `sceau` | SCEAU, Sceau, sceau | — | — | table | **127 fiches** | LISEZ-MOI.md +37 | 497 |
+| `sceau` | SCEAU, Sceau, sceau | — | — | table | **127 fiches** | LISEZ-MOI.md +37 | 498 |
 | `shakti` | Shakti, Shaktî, shakti | — | — | table | [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +2 | la-puissance-du-serpent.md +19 | 492 |
 | `signe` | SIGNE, Signe, signe, signé | — | — | table, titre | **115 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +134 | 476 |
 | `sacree` | SACRÉE, Sacrée, sacree, sacrée | — | — | table, titre | **85 fiches** | LISEZ-MOI.md +133 | 453 |
@@ -76,8 +76,8 @@ links: []
 | `symptome` | Symptôme, symptome, symptôme | — | — | definition | **22 fiches** | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +12 | 120 |
 | `samhita` | SAMHITA, SamhitA, Samhita, Samhitâ (+1) | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · +2 | la-puissance-du-serpent.md +13 | 117 |
 | `s'at` | S'at | — | — | table | **18 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +72 | 114 |
+| `sessions` | Sessions, sessions | — | — | tag, titre | **59 fiches** | isaghuji-cours01-introduction-transcription.md +4 | 113 |
 | `sidy's` | Sidy's | — | — | table | **35 fiches** | — | 113 |
-| `sessions` | Sessions, sessions | — | — | tag, titre | **59 fiches** | isaghuji-cours01-introduction-transcription.md +4 | 112 |
 | `s'an` | S'ân | — | — | table | **9 fiches** | distinction-fondamentale-du-soi-et-du-moi-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +8 | 111 |
 | `securite` | Sécurité, securite, sécurité | — | — | titre | **29 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +28 | 111 |
 | `systematique` | systématique | — | — | titre | **58 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +21 | 107 |

@@ -6,7 +6,7 @@ tags: [rd, cahier, rapport, indexation, annotation, langues-originales, epreuve-
 created: 2026-09-09
 updated: 2026-09-09
 sources: []
-links: ["[[atelier/rd/cahiers/registre-problemes]]", "[[atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines]]"]
+links: ["[[atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise]]", "[[atelier/rd/cahiers/registre-problemes]]", "[[atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines]]"]
 original: []
 ---
 
@@ -14,6 +14,12 @@ original: []
 
 > Circuit **atelier**, pôle R&D, cahier de laboratoire. Document de méthode, non
 > doctrinal. Ce qu'il rapporte est **mesuré ou observé** ; ce qui reste supposé le dit.
+>
+> **Ce rapport couvre la première moitié du chantier** (`274ddc6..a4c7d32`). L'état au
+> soir du 2026-09-09, les verdicts en attente, le registre des voies écartées et les
+> commandes de reprise vivent dans
+> [[atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise]] — **c'est ce
+> second document qu'il faut ouvrir pour reprendre le chantier.**
 
 ## 1. Ce que la session a produit
 
