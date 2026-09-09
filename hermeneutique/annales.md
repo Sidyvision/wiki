@@ -11,6 +11,18 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 entrées insérées **après ce header**.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] archivage | `categorie-editoriale` — le seul mot ajouté au vocabulaire d'annotation
+
+- **Ordre de Sidy** : « ajoute un genre pour les catégories éditoriales ». Comble le manque que l'entrée précédente avait **rapporté sans le combler** : le champ `type:` de ce protocole ne nomme pas cette catégorie, et l'inventer d'office aurait été un mot de la machine, non du protocole. Sur verdict, il devient un mot du protocole.
+- **`categorie-editoriale`** — la catégorie de publication ou de classement sous laquelle une œuvre paraît ou se range : *shōnen*, *seinen*, *thriller*, *gothique*, *comédie*, *roman*. **10 poses** dans le circuit.
+- **C'est le seul mot de tout ce vocabulaire qui ne vienne pas du champ `type:`**, et donc le seul à devoir **porter sa limite dans son nom**. Il la porte : *éditoriale* dit que la catégorie est celle du **marché du livre et de l'édition**, jamais une catégorie de connaissance. **Un *shōnen* n'est pas une `ecole`** — les confondre serait exactement la faute de catégorie que le Cmd 3 poursuit, avec la rigueur accrue que ce circuit lui doit.
+- **Deux noms voisins écartés pour collision**, et la raison vaut d'être consignée : **`registre`** est déjà un champ du Sceau de ce circuit (`registre: analyse | expression`) — l'employer aurait donné deux sens à un même mot au même endroit ; **`genre`** seul se serait confondu avec `data-genre`, l'attribut qui le porte.
+- **Ce que le mot ne couvre pas, et qui reste sans genre** (Cmd 12) : un **métier** (*mangaka*), une **structure de production** (studio, éditeur), et **`saga`**, que ce protocole traite déjà comme une règle de fiche-hub. Le manque est rapporté plutôt que comblé **en étirant le mot** — un genre qui s'étire cesse d'être clos, et le vocabulaire perdrait la seule propriété qui le rend contrôlable.
+- **Genres en usage dans le circuit** : 18 `oeuvre`, 10 `categorie-editoriale`, 5 `auteur`, 5 `dispositif`, 4 `figure`, 4 `concept`, 1 `entite`, 1 `principe`.
+- **Épreuve des contrôles (§VII)** — *vert* : dépôt vivant, « 321 fiches annotées, 936 annotations. OK — aucune anomalie », code 0 ; bac à sable, `categorie-editoriale` dans une fiche du circuit ne lève **rien**. *Refus* : le même genre posé dans `doctrinal/symboles/` — « data-genre='categorie-editoriale' est valide, mais son circuit (doctrinal) ne l'admet pas », **D6**, code 2.
+- **Vérification** — `verifier-invariants.py` : 1418 fichiers, **0 erreur, 0 avertissement**. Graphe régénéré : **arêtes identiques** — huitième vérification du régime apparié.
+- **Commit** : à renseigner ci-dessous.
+
 ## [2026-09-09] archivage | Vocabulaire d'annotation propre au circuit, et 13 poses qu'il ouvre
 
 - **Ordre de Sidy** : « étends le vocabulaire clos pour hermeneutique/ ». Les sept genres transversaux (`autorite`, `lieu`, `ouvrage`, `entite`, `ecole`, `cycle`, `principe`) ne savaient nommer ni une œuvre profane, ni un personnage, ni un dispositif d'œuvre : sur 90 poses proposées ici la veille, **53 avaient dû être rejetées faute de mot**.

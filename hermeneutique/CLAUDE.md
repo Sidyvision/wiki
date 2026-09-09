@@ -119,9 +119,11 @@ une œuvre profane, ni un personnage, ni un dispositif d'œuvre. Le circuit reç
 | `figure` | un personnage, ou une entité non personnelle fonctionnant comme tel |
 | `dispositif` | lieu, vaisseau, appareil, système, interface ou institution de l'œuvre |
 | `concept` | une notion propre à l'œuvre |
+| `categorie-editoriale` | la catégorie de publication ou de classement sous laquelle une œuvre paraît ou se range — *shōnen*, *seinen*, *thriller*, *gothique*, *comédie*, *roman* |
 
-**Ce ne sont pas des mots nouveaux** : ce sont, terme pour terme, les valeurs du champ
-`type:` que ce protocole déclare déjà ci-dessus. L'annotation ne fait qu'emprunter au
+**Cinq de ces six ne sont pas des mots nouveaux** : `oeuvre`, `auteur`, `figure`,
+`dispositif` et `concept` sont, terme pour terme, les valeurs du champ `type:` que ce
+protocole déclare déjà ci-dessus. L'annotation ne fait qu'emprunter au
 circuit son propre vocabulaire, avec la garde Cmd 3 qui y est déjà attachée —
 `auteur` ne confère aucun statut d'autorité, `oeuvre` ne se fond jamais dans `ouvrage`.
 
@@ -130,11 +132,19 @@ une entité reçue dans la même phrase qu'une figure de fiction — c'est même
 Distinguer les deux est un **jugement**, réservé à Sidy (Cmd 12) : la garde ouvre les
 deux mots, elle ne tranche pas à sa place.
 
-**Ce qui reste sans genre, et le reste sciemment** : les catégories éditoriales
-(*shōnen*, *seinen*, *thriller*, *gothique*) et les structures de production (studios,
-éditeurs). Le vocabulaire `type:` du circuit ne les nomme pas, et leur inventer un genre
-serait un mot de la machine et non du protocole. Elles ne sont pas annotées ; le manque
-est rapporté (Cmd 12).
+**`categorie-editoriale` est le seul mot ajouté** (2026-09-09, verdict Sidy), le champ
+`type:` ne nommant pas cette catégorie. Étant le seul à ne pas venir du protocole, il est
+aussi le seul à devoir **porter sa limite dans son nom**, et il la porte : *éditoriale*
+dit que la catégorie est celle du marché du livre et de l'édition, **jamais une catégorie
+de connaissance**. Un *shōnen* n'est pas une `ecole`, et les confondre serait exactement
+la faute de catégorie que le Cmd 3 poursuit. Deux mots voisins ont été écartés pour
+collision : `registre`, déjà un champ du Sceau ci-dessus, et `genre`, qui se confondrait
+avec `data-genre` lui-même.
+
+**Ce que `categorie-editoriale` ne couvre pas** : un **métier** (*mangaka*), une
+**structure de production** (studio, éditeur), ni **`saga`**, que ce protocole traite
+déjà comme une règle de fiche-hub. Ces trois-là restent sans genre ; le manque est
+rapporté (Cmd 12), non comblé par extension du mot.
 
 **Garde mécanique** : un genre valide **posé hors de son circuit** — `oeuvre` dans
 `doctrinal/`, `dispositif` dans `atelier/` — est refusé (**D6** de

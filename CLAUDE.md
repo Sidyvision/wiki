@@ -11,9 +11,11 @@ la dispersion mentale.
 > **Historique des révisions** : conservé intégralement dans
 > `meta/protocole-archives/changelog-CLAUDE.md` (append-only, chronologique
 > inverse). Dernières révisions : **2026-09-09** (§VII, **vocabulaire de `data-genre`
-> scopé par circuit** — cinq genres propres ouverts à `hermeneutique/` : `oeuvre`,
+> scopé par circuit** — six genres propres ouverts à `hermeneutique/` : `oeuvre`,
 > `auteur`, `figure`, `dispositif`, `concept`, repris terme pour terme de son champ
-> `type:`, avec refus **D6** sur un genre valide posé hors de son circuit ; annotations
+> `type:`, et `categorie-editoriale`, seul mot ajouté, portant sa limite dans son nom —
+> la catégorie du marché du livre, jamais une catégorie de connaissance ; avec refus
+> **D6** sur un genre valide posé hors de son circuit ; annotations
 > du circuit migrées dans le même commit ; `verifier-invariants.py` reconnaît enfin
 > **`hermeneutique` comme circuit** — B1 et C3 n'y contrôlaient aucune des 28 fiches
 > depuis l'ouverture, trou hérité mesuré puis comblé sans effet rétroactif ; verdict
@@ -542,13 +544,17 @@ silence. La règle a donc été resserrée sur le **texte reçu**, qui est le mo
 **Vocabulaire de `data-genre` : clos, et scopé par circuit** (étendu 2026-09-09, verdict
 Sidy). Les sept valeurs transversales — `autorite`, `lieu`, `ouvrage`, `entite`,
 `ecole`, `cycle`, `principe` — valent dans les cinq circuits. `hermeneutique/` en reçoit
-**cinq de plus, admises chez lui seul** : `oeuvre`, `auteur`, `figure`, `dispositif`,
-`concept`. Ce ne sont pas des mots nouveaux mais, terme pour terme, les valeurs du champ
-`type:` que `hermeneutique/CLAUDE.md` déclare déjà — l'annotation emprunte au circuit son
+**six de plus, admises chez lui seul** : `oeuvre`, `auteur`, `figure`, `dispositif`,
+`concept` et `categorie-editoriale`. Les cinq premières ne sont pas des mots nouveaux
+mais, terme pour terme, les valeurs du champ `type:` que `hermeneutique/CLAUDE.md`
+déclare déjà — l'annotation emprunte au circuit son
 propre vocabulaire avec la garde Cmd 3 qui y est attachée : `oeuvre` ne se fond **jamais**
 dans `ouvrage`, réservé au traité traditionnel, et `auteur` ne confère aucun statut
-d'autorité. Un genre valide **posé hors de son circuit** est refusé (D6). La lettre du
-vocabulaire herméneutique vit dans son `CLAUDE.md` local (§II bis).
+d'autorité. `categorie-editoriale` (2026-09-09) est le **seul mot ajouté** de tout ce vocabulaire, et
+donc le seul à devoir porter sa limite dans son nom : *éditoriale* dit que la catégorie
+est celle du marché du livre, **jamais une catégorie de connaissance** — un *shōnen*
+n'est pas une `ecole`. Un genre valide **posé hors de son circuit** est refusé (D6). La
+lettre du vocabulaire herméneutique vit dans son `CLAUDE.md` local (§II bis).
 
 **Une limite du masquage, rapportée et non corrigée** (Cmd 12) : le motif de code inline
 n'admet pas de retour à la ligne, de sorte qu'un incise de code **coupé en deux lignes**

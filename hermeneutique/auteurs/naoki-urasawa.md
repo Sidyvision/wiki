@@ -8,7 +8,7 @@ createur: ""
 statut_analyse: brouillon
 tags: [auteur, mangaka, seinen, thriller]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-09-09
 sources:
   - "https://www.fredzone.org/naoki-urasawa-biographie-oeuvres-recompenses-toutes-les-actus-rmm112/"
   - "https://bdmaniac.fr/biographie-de-naoki-urasawa-un-maitre-du-manga-avec-monster-et-20th-century-boys/"
@@ -40,9 +40,9 @@ Sa première histoire longue, *Odoru Keikan* (« Le policier dansant »), paraî
 1984. Dès 1985 débute sa collaboration durable avec le scénariste Takashi Nagasaki,
 partenariat qui structurera la plupart de ses grandes œuvres ultérieures. La
 percée grand public vient avec *Yawara!* (1986), récit centré sur une jeune judoka,
-puis surtout avec *Monster* (1994), thriller psychologique centré sur un médecin
+puis surtout avec *Monster* (1994), <span data-nom="thriller" data-genre="categorie-editoriale">thriller</span> psychologique centré sur un médecin
 confronté à un tueur en série, qui installe Urasawa comme référence internationale du
-seinen. Suivront notamment *20th Century Boys*, *Pluto*, *Master Keaton* et *Happy!*.
+<span data-nom="seinen" data-genre="categorie-editoriale">seinen</span>. Suivront notamment *20th Century Boys*, *Pluto*, *Master Keaton* et *Happy!*.
 
 ## Influences et méthode
 

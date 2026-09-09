@@ -102,7 +102,21 @@ GENRES_CLOS = {"autorite", "lieu", "ouvrage", "entite",
 # recue en meme temps qu'une figure de fiction, et c'est meme son sujet. La
 # distinction entre les deux est un JUGEMENT, reserve a Sidy (Cmd 12) — la
 # garde ne la tranche pas, elle ouvre les deux mots.
-GENRES_HERMENEUTIQUE = {"oeuvre", "auteur", "figure", "dispositif", "concept"}
+#   `categorie-editoriale` — la categorie de PUBLICATION ou de CLASSEMENT sous
+#                  laquelle une oeuvre parait ou se range : shonen, seinen,
+#                  thriller, gothique, comedie, roman. Ajoute le 2026-09-09 sur
+#                  verdict de Sidy, et c'est le SEUL mot de ce vocabulaire qui
+#                  ne vienne pas du champ `type:` du circuit — il est donc le
+#                  seul a devoir porter sa limite dans son nom. Il la porte :
+#                  « editoriale » dit que la categorie est celle du marche du
+#                  livre et de l'edition, jamais une categorie de connaissance.
+#                  Un shonen n'est pas une ecole, et le confondre serait
+#                  exactement la faute de categorie que le Cmd 3 poursuit.
+#                  NE COUVRE PAS : un metier (`mangaka`), une structure de
+#                  production (un studio, un editeur), ni `saga`, que ce
+#                  protocole traite deja comme une regle de fiche-hub.
+GENRES_HERMENEUTIQUE = {"oeuvre", "auteur", "figure", "dispositif", "concept",
+                        "categorie-editoriale"}
 
 # Genres admis par circuit. Un genre VALIDE mais POSE DANS LE MAUVAIS CIRCUIT
 # est refuse (D6) : c'est la seule face nouvelle de ce controle, l'inconnu

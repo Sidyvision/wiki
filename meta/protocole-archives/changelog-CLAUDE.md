@@ -17,6 +17,44 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] amendement | §VII — `categorie-editoriale`, seul mot ajouté au vocabulaire d'annotation
+
+**Verdict de Sidy**, 2026-09-09 : « ajoute un genre pour les catégories éditoriales ».
+Complète l'amendement du même jour ci-dessous, qui avait laissé ce manque **rapporté et
+non comblé** — le champ `type:` de `hermeneutique/CLAUDE.md` ne nommant pas cette
+catégorie, l'inventer d'office aurait été un mot de la machine et non du protocole.
+
+**Ce qui est institué** : un sixième genre propre à `hermeneutique/`,
+**`categorie-editoriale`** — la catégorie de publication ou de classement sous laquelle
+une œuvre paraît ou se range : *shōnen*, *seinen*, *thriller*, *gothique*, *comédie*,
+*roman*. **10 poses** dans le circuit.
+
+**C'est le seul mot de tout ce vocabulaire qui ne vienne pas du protocole**, et il est
+donc le seul à devoir **porter sa limite dans son nom**. Il la porte : *éditoriale* dit
+que la catégorie est celle du **marché du livre et de l'édition**, jamais une catégorie
+de connaissance. Un *shōnen* n'est pas une `ecole`, et les confondre serait exactement la
+faute de catégorie que le Cmd 3 poursuit — d'autant que ce circuit y est soumis avec une
+rigueur accrue.
+
+**Deux noms voisins écartés pour collision**, et la raison mérite d'être consignée :
+`registre` est **déjà un champ du Sceau herméneutique** (`registre: analyse | expression`)
+et l'employer aurait créé deux sens pour un même mot dans un même circuit ; `genre` seul
+se serait confondu avec `data-genre`, l'attribut qui le porte.
+
+**Ce que le mot ne couvre pas, et qui reste sans genre** (Cmd 12) : un **métier**
+(*mangaka*), une **structure de production** (studio, éditeur), et **`saga`**, que
+`hermeneutique/CLAUDE.md` traite déjà comme une règle de fiche-hub. Le manque est
+rapporté plutôt que comblé en étirant le mot — un genre qui s'étire cesse d'être clos.
+
+**Épreuve des contrôles (§VII)** — *vert* : dépôt vivant, « 321 fiches annotées, 936
+annotations. OK — aucune anomalie », code 0 ; bac à sable, `categorie-editoriale` dans une
+fiche `hermeneutique/` ne lève **rien**. *Refus* : même genre posé dans
+`doctrinal/symboles/` — « data-genre='categorie-editoriale' est valide, mais son circuit
+(doctrinal) ne l'admet pas », **D6**, code 2.
+
+**Réversibilité (Cmd 10)** : le genre se retire sur verdict ; ses 10 poses sont un
+remplacement littéral, réversible de même.
+
 ## [2026-09-09] amendement | §VII — Vocabulaire de `data-genre` scopé par circuit ; `hermeneutique` reconnu comme circuit par le contrôleur
 
 **Verdict de Sidy**, 2026-09-09 : « étends le vocabulaire clos pour hermeneutique/ ».

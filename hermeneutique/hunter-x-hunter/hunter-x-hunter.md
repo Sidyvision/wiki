@@ -22,7 +22,7 @@ liens_atelier: []
 ## 1. Identification
 
 Manga de Yoshihiro Togashi, sérialisé de façon très irrégulière dans le *Weekly
-Shōnen Jump* depuis 1998 (interruptions longues et récurrentes liées à des
+<span data-nom="shonen" data-genre="categorie-editoriale">Shōnen</span> Jump* depuis 1998 (interruptions longues et récurrentes liées à des
 problèmes de santé chroniques de l'auteur, notamment dorsaux — `to-source` sur la
 chronologie précise des hiatus). Œuvre inachevée à ce jour dans son arc final (le
 « Dark Continent »). *(Sourçage à faire sur tomes physiques de Sidy.)*

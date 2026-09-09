@@ -33,7 +33,7 @@ travaille brièvement comme graphiste en agence de publicité avant de quitter c
 jugé trop contraignant pour une expression personnelle. Il meurt le 1er mars 2024.
 
 Sa carrière de mangaka démarre en 1978 avec *Wonder Island*, publié dans le *Weekly
-Shōnen <span data-nom="jump" data-genre="oeuvre">Jump</span>* — travail repéré par l'éditeur Kazuhiko Torishima, qui deviendra sa
+<span data-nom="shonen" data-genre="categorie-editoriale">Shōnen</span> <span data-nom="jump" data-genre="oeuvre">Jump</span>* — travail repéré par l'éditeur Kazuhiko Torishima, qui deviendra sa
 figure tutélaire éditoriale. Le vrai décollage a lieu avec *<span data-nom="dr-slump" data-genre="oeuvre">Dr Slump</span>* (1980-1984), puis
 avec *<span data-nom="dragon-ball" data-genre="oeuvre">Dragon Ball</span>* (1984-1995), qui installe Toriyama comme l'un des piliers du
 *Weekly Shōnen Jump* et, plus largement, comme une référence structurelle du genre

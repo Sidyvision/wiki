@@ -25,7 +25,7 @@ liens_atelier: []
 
 ## Présentation
 
-Première grande série de Toriyama, publiée dans le *Weekly Shōnen <span data-nom="jump" data-genre="oeuvre">Jump</span>* de 1980 à
+Première grande série de Toriyama, publiée dans le *Weekly <span data-nom="shonen" data-genre="categorie-editoriale">Shōnen</span> <span data-nom="jump" data-genre="oeuvre">Jump</span>* de 1980 à
 1984 (18 volumes reliés). Elle installe Toriyama comme mangaka de premier plan et lui
 vaut le Shogakukan Manga Award de la meilleure série shōnen/shōjo de l'année 1981.
 Le récit suit le quotidien du scientifique excentrique Senbei Norimaki et de son
@@ -34,7 +34,7 @@ Village, aux côtés d'une galerie de personnages fantasques.
 
 ## Registre et style
 
-Le ton est celui d'une comédie loufoque, volontiers scatologique, construite sur le
+Le ton est celui d'une <span data-nom="comedie" data-genre="categorie-editoriale">comédie</span> loufoque, volontiers scatologique, construite sur le
 gag visuel et le jeu de mots. Toriyama y déploie un procédé récurrent de rupture du
 quatrième mur — la case et le phylactère deviennent eux-mêmes objets de plaisanterie
 — et se met en scène personnellement à plusieurs reprises, dans un geste d'auto-

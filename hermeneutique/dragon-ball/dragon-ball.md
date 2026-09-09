@@ -27,7 +27,7 @@ cles_doctrinales:
 
 ## Présentation
 
-Série publiée dans le *Weekly Shōnen <span data-nom="jump" data-genre="oeuvre">Jump</span>* de 1984 à 1995, *Dragon Ball* suit Son
+Série publiée dans le *Weekly <span data-nom="shonen" data-genre="categorie-editoriale">Shōnen</span> <span data-nom="jump" data-genre="oeuvre">Jump</span>* de 1984 à 1995, *Dragon Ball* suit Son
 Goku, jeune guerrier à queue de singe, à travers une succession de quêtes, de
 tournois d'arts martiaux et d'affrontements dont l'enjeu croît par paliers (Armée du
 Ruban Rouge, Saiyans, Freezer, Cell, Buu). Elle deviendra la deuxième série manga la
