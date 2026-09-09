@@ -10,6 +10,28 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] rd | `S1` — le signalement de doublon de référent, et l'ouverture d'un canal non bloquant
+
+- **Ordre de Sidy** : « continue ». Reprise de la première des quatre pistes classées par rendement au rapport de session.
+- **L'angle mort comblé** : **`D5` garantit l'unicité de la clé, jamais celle du référent.** `guenon` et `rene-guenon` désignent la même personne sous **deux clés distinctes** ; D5, qui compte par clé, ne le voit pas. Le cas avait dû être écarté **à la main** lors de l'annotation de `autorites/` — c'était précisément la faiblesse rapportée à la clôture.
+- **`S1` relève les paires coannotées dans une même fiche dont l'une est composant de l'autre.**
+- **Et c'est un signalement, non un refus — c'est le fond de la passe.** Mesure préalable sur les 936 annotations : **6 paires**, et la moitié sont **légitimes**.
+
+| paire | lecture |
+|---|---|
+| `burckhardt` / `titus-burckhardt` | **même personne** — doublon vrai |
+| `janus` / `janus-bifrons` | même figure sous deux formes — doublon probable |
+| `rijal` / `rijal-allah` | *rijāl* et *rijāl Allāh* — voisins, distincts ? |
+| `yuga` / `kali-yuga` (×2), `yuga` / `satya-yuga` | **genre et espèce** — parfaitement légitime |
+
+- **En faire un refus aurait interdit d'annoter un genre à côté de son espèce** — une contrainte que rien dans le protocole ne fonde, et qu'on n'aurait découverte qu'en butant dessus. Distinguer un doublon d'un rapport générique est un **jugement**, réservé à Sidy (Cmd 12) : le contrôle **montre la paire, il ne tranche pas**. C'est la première fois de ce chantier qu'un contrôle est délibérément câblé **en deçà** du refus.
+- **Conséquence de forme** : `valider-annotations.py` (v1.3) sépare deux canaux — les **refus**, code 2, et les **signalements**, sortie standard, code 0. Les signalements s'impriment **toujours**, y compris quand tout est vert : *un signalement tu est un signalement perdu*.
+- **Épreuve** — *silencieux* : bac à sable ne contenant qu'une fiche à annotation unique, **aucun signalement**. *Déclenché* : bac portant `guenon` et `rene-guenon` coannotés — le signalement paraît, **nomme la paire**, et le code reste **0**, ce qui est le comportement attendu. Dépôt vivant : **6 signalements, 0 anomalie, code 0**.
+- **Ce que `S1` ne voit pas, et qui est déclaré (Cmd 12)** : deux clés du même référent **sans composant commun** — `Ibn ʿArabī` et `al-Shaykh al-Akbar` en seraient l'exemple — lui échappent entièrement. Le signal est la **containment lexicale**, non l'identité : il attrape une famille de cas, jamais toutes. Le dire vaut mieux que laisser croire l'angle mort fermé.
+- **Les 6 paires ne sont PAS corrigées.** Elles sont relevées, lues ci-dessus, et attendent le verdict de Sidy. Deux au moins (`burckhardt`, `janus`) sont des poses de cette session : les défaire serait à ma portée, mais choisir laquelle des deux formes garder est un jugement, pas une mécanique.
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 0 avertissement**. `valider-annotations.py` v1.3 : 321 fiches, 936 annotations, 6 signalements, aucune anomalie.
+- **Commit** : 64a770d
+
 ## [2026-09-09] rd | *Futūḥāt al-Makkiyya* t.1 versé dans `textes/` — et incident Cmd 15 ouvert avant le versement
 
 - **Ordre de Sidy** : « oui verse-les dans textes/ ». Le sas est vidé de ce lot ; il reste `2026-09-07_djinns-aident-humains-koly-cherif-keita.md` et `audio/`, qui ne relèvent pas de cette passe.
