@@ -10,6 +10,17 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] rd | Les deux axes rendus au consommateur, et un troisième piège d'auto-référence
+
+- **Ordre de Sidy** : « continue ». Achèvement du travail précédent plutôt qu'ouverture d'un chantier neuf : le champ `langue` existait dans l'index, **rien ne le consommait**.
+- **Une passe écartée avant d'être commencée** : poser `original:` en masse sur les fiches dont la forme originale est déjà attestée aurait renforcé l'axe langue d'un coup — mais le **point 5** de la discipline des langues originales, que Sidy a ratifié la veille, l'interdit expressément : « aucune passe de masse … les fiches se complètent au fil des sessions qui les touchent ». La règle m'a arrêté sur le geste qu'elle prévoyait d'arrêter.
+- **`chercher_terme` renvoie désormais `tradition` ET `langue`**, jamais fondus, **chacun avec sa provenance**. Un cadre `ratifie-sidy` est un **verdict**, un cadre `fiche-propre` est une **mesure** : ils n'ont pas la même force, et le client doit le voir **sans ouvrir le JSON**. `etat_index_lexical` en donne la répartition — 77 `fiche-propre`, 191 `definition`, 42 `ratifie-sidy` ; 48 `forme-appariee`, 4 `prose`.
+- **Le condensé porte la même distinction à l'œil** : **✓** cadre lu sur la fiche qui a le terme pour sujet · **⚖** cadre **ratifié par verdict, non mesuré** · *italique* pour la langue. Un lecteur d'Obsidian voit la force de l'assertion en la lisant.
+- **Un troisième piège d'auto-référence, trouvé et fermé.** `buddhi` citait `atelier/annales.md` et `meta/protocole-archives/changelog-CLAUDE.md` parmi les **sources de sa langue** — c'est-à-dire des textes que **cette même session venait d'écrire**, où `**Buddhi** (Sanskrit : बुद्धि)` figure comme **exemple** d'une règle. *Un document de gouvernance qui cite un exemple ne source rien : il illustre.* Les fichiers de service et les archives du protocole sont exclus de la lecture ; après correction, `buddhi` ne cite plus que `doctrinal/symboles/buddhi.md`.
+- **Les deux précédents de la même famille**, cette session : le **marqueur d'insertion** cité en prose dans un fichier append-only, et la **convention d'annotation** citée en prose dans une entrée d'annales. **Le motif se répète chaque fois qu'un document décrit sa propre syntaxe**, et il se répétera : c'est une propriété d'un dépôt qui documente son propre outillage, non un accident. Tout scan qui lit le dépôt pour en tirer un fait doit exclure ce que le dépôt dit **de lui-même**.
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 0 avertissement**. `valider-annotations.py` v1.3 : 0 anomalie, 6 signalements S1.
+- **Commit** : b4acf5e
+
 ## [2026-09-09] rd | Ratification des 42 unanimes, et ouverture de l'axe LANGUE
 
 - **Deux verdicts de Sidy** : « ratifie les 42 unanimes », et « une alternative serait de classifier par langue plutôt que par tradition, puisque chaque tradition trouve son véhicule en une langue ».
