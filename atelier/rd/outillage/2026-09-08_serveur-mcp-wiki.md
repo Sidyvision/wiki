@@ -3,7 +3,7 @@ title: "Serveur MCP wiki — accès partageable aux outils déterministes"
 type: outillage
 tags: [rd, infrastructure, mcp, outils-deterministes, interop]
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-09-09
 sources: []
 links:
   - "[[atelier/rd/index]]"
@@ -27,13 +27,13 @@ links:
 
 ```
 /root/mcp-servers/wiki/
-├── wiki_mcp_server.py    ← serveur (601 lignes, mcp SDK v2)
+├── wiki_mcp_server.py    ← serveur (~800 lignes, mcp SDK v2)
 ├── .venv/                ← venv isolé (mcp 2.2.0, pyyaml)
 ├── .mcp.json             ← config Claude Code (gitignored)
 └── README.md             ← documentation complète
 ```
 
-## 14 outils exposés
+## 16 outils exposés
 
 ### VÉRIFICATION (scripts déterministes — source de vérité)
 
@@ -46,6 +46,40 @@ links:
 | `valider_index_livres` | `valider-index-livres.py` | Validation mécanique des fiches `type: index-livre`. |
 | `generer_glossaire_unifie` | `generer-glossaire-unifie.py` | Lexique unifié dérivé — refuse si validateur bloque. |
 | `carte_du_depot` | `carte-du-depot.py` | Cartographie mécanique. **Lecture seule** (écrit dans /tmp). |
+
+### INDEX LEXICAL (ajouté 2026-09-09 — phase 3 du chantier d'indexation)
+
+| Outil | Rôle |
+|---|---|
+| `chercher_terme` | Recherche déterministe dans `index-lexical.json`, **dans les deux sens** : `tomoe` trouve `巴`, `巴` trouve `tomoe` (§VII, point 6). |
+| `etat_index_lexical` | Totaux, rangs d'appariement, et **fraîcheur déclarée** de l'index. |
+
+**Quatre passes, de la plus stricte à la plus large, et la passe qui a répondu est
+toujours nommée** dans le résultat : clé exacte, clé normalisée (diacritiques repliés —
+`al-ṭarīqa` trouve `al-tariqa`), forme attestée, sous-chaîne. Cette dernière est
+**signalée comme approximative** ; le client n'a jamais à deviner la qualité de sa
+correspondance.
+
+**Les deux rangs d'appariement ne sont jamais fondus** : `apparie` porte ce que la fiche
+énonce elle-même (rang 1), `jurjani` ce qu'une autorité textuelle transcrite au dépôt
+établit, **avec son numéro de définition** (rang 2). C'est la règle « établi vs suggéré »
+(§VII, manifestes, règle 3) portée jusqu'au consommateur.
+
+**Trois refus francs, tous éprouvés sur faute fabriquée** (§VII, Épreuve des contrôles) :
+index absent (le remède, commande complète, est renvoyé avec le refus), index vide
+(« jamais un index vert » — reprise du refus D3 du générateur), et **fraîcheur** : la
+date de génération et le nombre de fiches plus récentes sont renvoyés à **chaque**
+requête. *Un index périmé ne se plaint jamais de lui-même : il répond, et il répond faux.*
+
+Un silence n'est jamais rendu tel quel : une recherche sans correspondance renvoie les
+**clés proches** et rappelle de vérifier `index_perime`, plutôt que de laisser croire que
+le terme n'existe pas.
+
+**Une divergence déclarée** : le serveur vit **hors du dépôt** (`/root/mcp-servers/`) et
+doit rester exécutable si le pôle `rd/` est absent. Il réimplémente donc la
+normalisation du générateur au lieu de l'importer — contrairement aux trois définitions
+canoniques partagées à l'intérieur du dépôt. La divergence possible est **déclarée en
+commentaire** plutôt que niée, et rattrapée par la remontée des clés proches.
 
 ### LECTURE DE REGISTRES (structurée, pas brute)
 
@@ -99,6 +133,21 @@ mcp-servers/
 - **Pas de hot-reload** : modification config = redémarrage client.
 - **Jamais d'auto-accept** : `ajouter_inbox` dépose, ne intègre pas.
 - **Self-report interdit** : les scripts déterministes sont la vérité.
+
+## Tests (2026-09-09 — outils d'index lexical)
+
+Épreuve des contrôles (§VII), dans le venv du serveur :
+- **Vert** — `etat_index_lexical` : 10 688 termes, 756 fiches, 641 textes ; 118 clés
+  appariées rang 1, 214 rang 2, 401 portant une annotation ; `perime: False`.
+  `chercher_terme` : `tomoe` → `巴` (clé exacte) ; `巴` → `tomoe` ; `البرزخ` → jurjānī
+  déf. 0295 ; `al-ṭarīqa` → `al-tariqa` par clé normalisée.
+- **Refus** — index absent : refus nommé, **avec la commande de régénération** ; index
+  vide : « jamais un index vert » ; index périmé : `perime: True` nommant la fiche plus
+  récente.
+- **Un faux positif trouvé par l'épreuve et corrigé** : le générateur écrit le condensé
+  `.md` **après** le `.json`, de sorte que l'index se déclarait périmé **par lui-même** à
+  chaque génération. Les artefacts dérivés sont exclus de la comparaison. *Un contrôle
+  qui crie toujours vaut celui qui se tait.*
 
 ## Tests (2026-09-08)
 
