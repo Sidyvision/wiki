@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-08
+updated: 2026-09-09
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,23 @@ updated: 2026-09-08
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-09] rd | Annotation des circuits `atelier/`, `hermeneutique/` et `meta/` — 124 poses
+
+- **Ordre de Sidy** : « Continuons ». Extension de la passe d'annotation aux quatre circuits non doctrinaux, même pipeline déterministe.
+- **Périmètre** : `atelier/` 30 fiches, `hermeneutique/` 15, `meta/` 26, `label/` **aucune**. **952 poses proposées, 124 retenues, 828 rejetées** — le taux de rejet, ici de 87 %, dit à lui seul que ces circuits ne parlent pas la langue de la convention.
+- **`data-tradition` décrit LE TERME, jamais la fiche qui le cite.** C'est le point de doctrine de cette passe. Hors `doctrinal/`, la fiche citante n'a pas de `tradition_cadre` : ma première rédaction repliait sur « universel », ce qui aurait **attribué un cadre traditionnel à de la matière qui n'en déclare aucun** — un import silencieux que Cmd 3 et Cmd 7 interdisent. La tradition est donc lue **à la fiche doctrinale du terme** et, à défaut, le `<dfn>` n'est **pas posé** : sur 158 clés `<dfn>`, **33 seulement** possèdent leur propre fiche doctrinale portant `tradition_cadre`. Les 125 autres avaient été annotées *dans* `doctrinal/`, où la fiche citante déclare son cadre — ce qui était licite là et ne l'est plus ici.
+- **Le vocabulaire clos de sept genres ne couvre pas `hermeneutique/`**, et rien n'a été forcé. Un personnage de fiction n'est pas une `entite` au sens métaphysique ; `shōnen` et `seinen` ne sont pas des `ecole` ; `Kojima Productions` n'est ni un `ouvrage` ni une `autorite`. Cmd 3 s'applique avec une rigueur **accrue** à ce circuit (`hermeneutique/CLAUDE.md`) : seuls les **ouvrages** (*Death Stranding*, *Metal Gear*, *Dragon Ball*, *Hunter x Hunter*, *Frankenstein*, *Xiyouji*, *Dr Slump*, *Jump*), les **auteurs** (Kojima, Mary Shelley, Naoki Urasawa) et deux termes (`alchimie`, `athanor`) y sont typés. **Le manque est rapporté, non comblé** : étendre le vocabulaire clos demande son propre verdict.
+- **Le gros du rejet est le vocabulaire de gouvernance du dépôt lui-même** — `chantier` (21 occurrences), `infrastructure` (12), `atelier`, `veille`, `registre`, `monitoring`, `spec`, `README`, `cahier`, `méthode`, `plan`, `mémoire`. Il n'a rien à faire dans un index doctrinal, et le laisser entrer aurait noyé les 913 annotations utiles sous le bruit de l'outillage.
+- **Trois défauts trouvés et fermés pendant la passe :**
+  - **Le proposeur ne balayait que la racine de chaque dossier** (`glob` au lieu de `rglob`) : `atelier/` paraissait n'avoir que **2 fiches annotables sur 377**. Le chiffre était rassurant et faux — la forme muette exacte que le §VII poursuit. Les passes `doctrinal/` n'en ont pas souffert, leurs sous-dossiers étant adressés un par un.
+  - **Il annotait les fichiers de service** (`index.md`, `annales.md`, `CLAUDE.md`), que le générateur n'indexe pas : **refus D3** sur `hermeneutique/index.md` — « le terme annoté `naoki-urasawa` ne produit aucune entrée dans l'index ». Le contrôle a fait son office. La liste des exclus est désormais **lue chez le générateur** plutôt que recopiée ; les trois fichiers touchés ont été rendus à leur état.
+  - **Quatre fiches n'avaient reçu que la remontée d'`updated:`**, toutes leurs poses ayant été écartées faute de tradition sourcée. Une date remontée sans écriture de fond est une **fausse édition** : rendues à leur état.
+- **Règle 5 du §VII, seconde application à la main** : `atelier/rd/bibliotheque/` (21 fiches) est la **transcription des sommaires, index et glossaires d'ouvrages physiques** — du texte reçu, au même titre que les transcriptions de `doctrinal/sources/`. Exclue en bloc, l'exclusion **nommée** et non devinée. Sa finalité documentaire est établie au §VII (discipline des sources, point 1) : ces fiches disent *où chercher*, elles ne portent pas de doctrine.
+- **Contrôles** — `valider-annotations.py` v1.1 : « **316 fiches annotées, 913 annotations.** OK — aucune anomalie », exit 0. `verifier-invariants.py` : **0 erreur, 0 avertissement**. Index : **10 675 termes**, dont **384 portant le rôle `annotation`**.
+- **Sixième vérification du régime apparié, et la première hors `doctrinal/`** — là où l'étanchéité inter-circuits (§VI) était réellement en jeu. Graphe régénéré : **arêtes rigoureusement identiques** (1937), comparées terme à terme après tri. Les cinq wikilinks apparaissant aux lignes modifiées **préexistaient** ; vérifié un par un. **Aucun renvoi créé, dans aucun sens.**
+- **Reste ouvert (Cmd 12)** : le vocabulaire clos ne couvre pas `hermeneutique/` ; 125 clés `<dfn>` n'ont pas de fiche doctrinale et restent donc intypables hors `doctrinal/` ; `label/` n'a produit aucune pose retenue, son vocabulaire étant entièrement de gouvernance.
+- **Commit** : d0a4dc1
 
 ## [2026-09-08] rd | Ratification des règles de placement des annotations (§VII) et refus D4/D5
 
