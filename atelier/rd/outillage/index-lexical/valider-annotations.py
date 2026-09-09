@@ -37,6 +37,17 @@ des controles) :
 
 Et un controle de vocabulaire : la convention est CLOSE a trois elements.
 
+SIGNALEMENTS (non bloquants — le script sort 0)
+-----------------------------------------------
+  S1  doublon de referent possible — deux cles coannotees dans une meme fiche
+      dont l'une est COMPOSANT de l'autre : `burckhardt` et `titus-burckhardt`
+      designent la meme personne sous deux cles, et D5 ne le voit pas, car il
+      compte par CLE et jamais par REFERENT.
+      C'est un SIGNALEMENT et non un refus, parce que la meme forme couvre un
+      rapport parfaitement legitime : `yuga` et `kali-yuga` sont un genre et
+      une espece, non un doublon. Distinguer les deux est un JUGEMENT, reserve
+      a Sidy (Cmd 12) — le controle montre la paire, il ne tranche pas.
+
 Aucun LLM dans la boucle. Lecture seule : ce script n'ecrit jamais.
 """
 import argparse, importlib.util, json, re, sys, unicodedata
@@ -74,7 +85,7 @@ def _generateur():
     m = importlib.util.module_from_spec(s); s.loader.exec_module(m)
     return m
 
-VERSION = "1.2"
+VERSION = "1.3"
 INV = None
 ELEMENTS_CLOS = ("dfn", "span", "abbr")
 # Vocabulaire clos. Etendu le 2026-09-08 sur verdict de Sidy : les quatre
@@ -167,6 +178,7 @@ def lire(f: Path):
 
 def valider(racine: Path, chemin_index: Path):
     anomalies, annotes, n_fiches, n_annot = [], set(), 0, 0
+    signalements = []
 
     global INV
     INV = _invariants()
@@ -267,6 +279,20 @@ def valider(racine: Path, chemin_index: Path):
                 else:
                     vus_dans_la_fiche[cle_g] = corps.count("\n", 0, deb) + 1
 
+            # S1 — doublon de referent possible (signalement, jamais refus)
+            if cle_g:
+                for autre in vus_dans_la_fiche:
+                    if autre == cle_g:
+                        continue
+                    if (f"-{autre}-" in f"-{cle_g}-"
+                            or f"-{cle_g}-" in f"-{autre}-"):
+                        signalements.append(("S1", rel,
+                            "%r et %r sont coannotes et l'un est composant de "
+                            "l'autre : meme referent sous deux cles, ou genre "
+                            "et espece ? D5 ne voit pas la difference."
+                            % (sorted((autre, cle_g))[0],
+                               sorted((autre, cle_g))[1])))
+
             # D1 — appariement
             if normaliser(cle or "") not in apparies:
                 anomalies.append(("D1", rel,
@@ -295,7 +321,7 @@ def valider(racine: Path, chemin_index: Path):
                     "le terme %r est indexe mais sans role `annotation` : "
                     "la recolte n'a pas vu le HTML" % cle))
 
-    return anomalies, n_fiches, n_annot
+    return anomalies, signalements, n_fiches, n_annot
 
 
 def main():
@@ -307,9 +333,20 @@ def main():
     idx = Path(a.index) if a.index else (
         racine / "atelier/rd/outillage/index-lexical/index-lexical.json")
 
-    anomalies, n_fiches, n_annot = valider(racine, idx)
+    anomalies, signalements, n_fiches, n_annot = valider(racine, idx)
     print("valider-annotations v%s — %d fiches annotees, %d annotations."
           % (VERSION, n_fiches, n_annot))
+    # Les signalements s'impriment TOUJOURS, y compris quand tout est vert :
+    # un signalement tu est un signalement perdu.
+    vus = set()
+    for code, ou, quoi in signalements:
+        if (code, ou, quoi) in vus:
+            continue
+        vus.add((code, ou, quoi))
+        print("SIGNALEMENT %s | %s | %s" % (code, ou, quoi))
+    if vus:
+        print("%d signalement(s) — non bloquants, verdict reserve (Cmd 12)."
+              % len(vus))
     if not anomalies:
         print("OK — aucune anomalie.")
         return 0

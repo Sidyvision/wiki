@@ -17,6 +17,53 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] amendement | §VII — `S1`, signalement de doublon de référent (et non refus)
+
+**Motif** : l'angle mort le plus large qui restait à la clôture de la passe d'annotation,
+identifié et rapporté la veille. **`D5` garantit l'unicité de la CLÉ, jamais celle du
+RÉFÉRENT** : `guenon` et `rene-guenon` désignent la même personne sous deux clés
+distinctes, et D5, qui compte par clé, ne le voit pas. Le cas avait dû être écarté **à la
+main** lors de l'annotation de `autorites/`.
+
+**Ce qui est institué** : `S1`, qui relève les paires coannotées dans une même fiche dont
+l'une est **composant** de l'autre.
+
+**Et c'est un SIGNALEMENT, non un refus — le point est le fond de l'amendement.** La
+mesure préalable sur les 936 annotations du dépôt donne **6 paires**, et elles ne sont
+pas de même nature :
+
+| paire | lecture |
+|---|---|
+| `burckhardt` / `titus-burckhardt` | **même personne** — doublon vrai |
+| `janus` / `janus-bifrons` | même figure sous deux formes — doublon probable |
+| `rijal` / `rijal-allah` | *rijāl* et *rijāl Allāh* — termes voisins, distincts ? |
+| `yuga` / `kali-yuga` (×2), `yuga` / `satya-yuga` | **genre et espèce** — parfaitement légitime |
+
+**La moitié des cas relevés sont légitimes.** En faire un refus aurait interdit d'annoter
+un genre à côté de son espèce — une contrainte que rien dans le protocole ne fonde, et
+qui aurait été découverte seulement en butant dessus. Distinguer un doublon d'un rapport
+générique est un **jugement**, réservé à Sidy (Cmd 12) : le contrôle **montre la paire, il
+ne tranche pas**.
+
+**Conséquence de forme** : `valider-annotations.py` (v1.3) sépare désormais deux canaux —
+les **refus**, qui sortent en code 2, et les **signalements**, qui s'impriment sur la
+sortie standard et laissent le code à 0. Les signalements s'impriment **toujours**, y
+compris quand tout est vert : *un signalement tu est un signalement perdu*.
+
+**Épreuve** — *vert et silencieux* : bac à sable ne contenant qu'une fiche à annotation
+unique, **aucun signalement**. *Déclenchement* : bac à sable portant `guenon` et
+`rene-guenon` coannotés — **le signalement paraît, nommant la paire**, et le code reste
+**0**, ce qui est le comportement attendu d'un signalement. Sur le dépôt vivant : 6
+signalements, 0 anomalie, code 0.
+
+**Ce que S1 ne voit pas**, et qui est déclaré : deux clés désignant le même référent
+**sans partager de composant** (`Ibn ʿArabī` et `al-Shaykh al-Akbar`, par exemple) lui
+échappent entièrement. Le signal est la **containment lexicale**, pas l'identité — il
+attrape une famille de cas, non toutes. Rapporté (Cmd 12).
+
+**Réversibilité (Cmd 10)** : signalement additif, sans effet sur le code de sortie ni sur
+aucune fiche ; se retire sans trace.
+
 ## [2026-09-09] amendement | §VII — `categorie-editoriale`, seul mot ajouté au vocabulaire d'annotation
 
 **Verdict de Sidy**, 2026-09-09 : « ajoute un genre pour les catégories éditoriales ».

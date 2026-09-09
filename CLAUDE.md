@@ -10,7 +10,10 @@ la dispersion mentale.
 
 > **Historique des révisions** : conservé intégralement dans
 > `meta/protocole-archives/changelog-CLAUDE.md` (append-only, chronologique
-> inverse). Dernières révisions : **2026-09-09** (§VII, **vocabulaire de `data-genre`
+> inverse). Dernières révisions : **2026-09-09** (§VII, **`S1`, signalement de doublon
+> de référent** — `D5` garantit l'unicité de la clé, jamais celle du référent ; canal de
+> signalement non bloquant ouvert au validateur, le verdict restant réservé (Cmd 12) ;
+> §VII, **vocabulaire de `data-genre`
 > scopé par circuit** — six genres propres ouverts à `hermeneutique/` : `oeuvre`,
 > `auteur`, `figure`, `dispositif`, `concept`, repris terme pour terme de son champ
 > `type:`, et `categorie-editoriale`, seul mot ajouté, portant sa limite dans son nom —
@@ -569,7 +572,19 @@ d'immuabilité propre (§II) : une source convertie ne s'annote pas.
 
 **Garde mécanique** : `atelier/rd/outillage/index-lexical/valider-annotations.py`, refus
 D1 (appariement), D2 (Unicode invisible, Cmd 15), D3 (plancher de non-vacuité), D4
-(placement), D5 (occurrence unique), plus le contrôle de vocabulaire clos. Les règles 1,
+(placement), D5 (occurrence unique), D6 (genre hors de son circuit), plus le contrôle de
+vocabulaire clos.
+
+**Un signalement, non un refus — `S1`, doublon de référent possible** (ouvert 2026-09-09).
+**D5 garantit l'unicité de la clé, jamais celle du référent** : `burckhardt` et
+`titus-burckhardt` désignent la même personne sous deux clés, et D5 ne le voit pas, car
+il compte par clé. `S1` relève les paires coannotées dans une même fiche dont l'une est
+**composant** de l'autre. Ce n'est **pas** un refus, et ce ne doit pas en devenir un : la
+même forme couvre un rapport parfaitement légitime — `yuga` et `kali-yuga` sont un
+**genre et une espèce**, non un doublon. Distinguer les deux est un **jugement réservé**
+(Cmd 12) : le contrôle montre la paire, il ne tranche pas. Les signalements s'impriment
+**toujours**, y compris quand tout est vert, et ne changent pas le code de sortie — *un
+signalement tu est un signalement perdu*. Les règles 1,
 2 et 4 sont **outillées et éprouvées** ; la règle 3 est tenue par le masquage amont ; la
 règle 5 ne l'est pas, et le dit.
 
