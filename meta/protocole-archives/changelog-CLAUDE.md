@@ -17,6 +17,63 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] amendement | §VII — L'axe de la LANGUE, distinct de celui de la tradition ; ratification des 42 unanimes
+
+**Deux verdicts de Sidy**, 2026-09-09 : « ratifie les 42 unanimes » et « une alternative
+serait de classifier par langue plutôt que par tradition, puisque chaque tradition trouve
+son véhicule en une langue ».
+
+**Le second est un amendement de principe, et il explique un échec mesuré la veille.** La
+tentative de dériver la tradition d'un terme du consensus des fiches qui le citent avait
+donné 110 divergences sur 160 — `barzakh` sortant `islam 36 / universel 12 / kabbale 2`.
+Le verdict de Sidy en donne la raison exacte : **la langue est une propriété du TERME, la
+tradition une propriété du CADRE où on le cite.** Les fiches comparatives déclarent
+`universel` comme cadre de *leur propos*, non comme origine des termes qu'elles
+rassemblent. La méthode ne mesurait donc pas ce qu'on lui demandait — et l'axe proposé
+n'est pas un contournement, c'est la correction de l'objet.
+
+**Ce qui est institué** : l'index porte **deux champs distincts, jamais fondus** —
+`tradition` (le cadre) et `langue` (la langue du terme). `langue` n'est posée que sur
+trois sources, chacune **déclarée avec la valeur** : (1) le champ **`original:` du Sceau**
+(§IV) de la fiche dont le slug est le terme, l'écriture y donnant la langue ; (2) la
+langue **énoncée en prose** ; (3) l'écriture de la **forme appariée** (`apparie` ou
+`jurjani`). **Aucune quatrième voie**, et en particulier aucune déduction depuis la
+graphie de la translittération (`al-`, `ḥ`, `ṣ`) : ce serait une heuristique d'orthographe,
+et une heuristique n'est pas une source (Cmd 5).
+
+**Seules les écritures EXCLUSIVES donnent la langue.** Le **han** est écarté : il sert le
+chinois *et* le japonais, et `巴` y avait été déclaré « chinois » alors que *tomoe* est
+japonais — constaté à la première génération, retiré. *Une écriture partagée ne source pas
+une langue : elle source une écriture, ce qui n'est pas la même chose.* Le devanagari est
+retenu bien qu'il serve aussi le hindi, parce que dans ce dépôt il ne porte que du
+sanskrit — mais c'est un fait de **corpus**, non d'écriture, d'où la provenance toujours
+déclarée à côté de la valeur.
+
+**Conséquence architecturale, et c'est le fait à retenir.** La couverture de l'axe est
+aujourd'hui faible — **52 termes** — parce que le dépôt n'énonce presque jamais la langue.
+Mais il a déjà l'endroit pour le faire : **le champ `original:`**, ouvert la veille.
+**L'axe de la langue se renforce donc exactement au rythme de la discipline des langues
+originales, sans travail propre** : chaque `original:` posé donne la langue de son terme.
+Deux amendements écrits à un jour d'intervalle, et le second se nourrit du premier sans
+qu'on l'ait prévu.
+
+**Ratification des 42 unanimes.** Table `traditions-ratifiees.json`, lue par le générateur,
+qui **prime toute dérivation** et marque le degré `ratifie-sidy` : **la source est le
+verdict**, non le décompte qui l'a préparé. Les clés `<dfn>` portant une tradition sourcée
+passent de **33 à 75 sur 160**.
+
+**Neuf de ces ratifications sont signalées sous réserve** dans la table elle-même :
+`bhutas`, `matras`, `sat-chit-ananda`, `avarna`, `ativarna`, `swastika`, `mahatma`,
+`upaguru` portent `universel` alors que leur écriture d'origine est **sanskrite** ;
+`hokhmah` alors qu'elle est **hébraïque**. C'est le biais structurel mesuré, sous une
+autre forme : l'unanimité vient de fiches guénoniennes comparatives. **Signalées, non
+modifiées** — une ratification est un verdict de Sidy, pas une mesure, et la corriger
+d'office serait substituer la machine à lui. L'axe langue les tranchera de lui-même dès
+que leur `original:` sera posé.
+
+**Réversibilité (Cmd 10)** : la table de ratification est un fichier de données ; le champ
+`langue` est additif et régénérable. Les deux se retirent sans toucher une seule fiche.
+
 ## [2026-09-09] amendement | §VII — `S1`, signalement de doublon de référent (et non refus)
 
 **Motif** : l'angle mort le plus large qui restait à la clôture de la passe d'annotation,

@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] rd | Ratification des 42 unanimes, et ouverture de l'axe LANGUE
+
+- **Deux verdicts de Sidy** : « ratifie les 42 unanimes », et « une alternative serait de classifier par langue plutôt que par tradition, puisque chaque tradition trouve son véhicule en une langue ».
+
+**I — L'axe langue, et pourquoi il corrige l'objet plutôt que de contourner le problème.**
+- Le verdict donne **la raison exacte** de l'échec mesuré la veille : **la langue est une propriété du TERME, la tradition une propriété du CADRE où on le cite**. Les 110 divergences sur 160 ne venaient pas d'un bruit à filtrer, mais de ce que la mesure portait sur autre chose que son objet — les fiches comparatives déclarent `universel` comme cadre de *leur propos*, non comme origine des termes qu'elles rassemblent. **L'axe proposé n'est pas un contournement : c'est la correction de l'objet.**
+- **Deux champs distincts, jamais fondus** : `tradition` (le cadre) et `langue` (la langue du terme). `langue` n'est posée que sur **trois sources, chacune déclarée avec la valeur** : le champ **`original:` du Sceau** (l'écriture y donne la langue), la langue **énoncée en prose** (« **Buddhi** (Sanskrit : बुद्धि) »), ou l'écriture de la **forme appariée**. **Aucune quatrième voie** — et surtout aucune déduction depuis la graphie de la translittération (`al-`, `ḥ`, `ṣ`), qui aurait couvert bien davantage : **une heuristique d'orthographe n'est pas une source** (Cmd 5). C'est la même retenue qui a fait écarter le vote la veille.
+- **Le han est écarté des écritures qui donnent la langue.** Il sert le chinois *et* le japonais, et `巴` y avait été déclaré « chinois » alors que *tomoe* est japonais — **constaté à la première génération, retiré**. *Une écriture partagée ne source pas une langue : elle source une écriture, ce qui n'est pas la même chose.* Le devanagari est retenu bien qu'il serve aussi le hindi, parce que dans ce dépôt il ne porte que du sanskrit — mais c'est un fait de **corpus**, non d'écriture, d'où la provenance toujours déclarée à côté de la valeur.
+- **La conséquence architecturale est le fait à retenir.** La couverture est aujourd'hui de **52 termes** seulement, parce que le dépôt n'énonce presque jamais la langue. Mais il a déjà l'endroit pour le faire : **le champ `original:`**, ouvert la veille. **L'axe langue se renforce exactement au rythme de la discipline des langues originales, sans travail propre** — chaque `original:` posé donne la langue de son terme. Deux amendements écrits à un jour d'intervalle, et le second se nourrit du premier sans qu'on l'ait prévu.
+
+**II — Ratification des 42 unanimes.**
+- Table `traditions-ratifiees.json`, lue par le générateur, qui **prime toute dérivation** et marque le degré **`ratifie-sidy`** : **la source est le verdict**, non le décompte qui l'a préparé. Les clés `<dfn>` portant une tradition sourcée passent de **33 à 75 sur 160**.
+- **Neuf de ces ratifications sont signalées sous réserve dans la table elle-même** : `bhutas`, `matras`, `sat-chit-ananda`, `avarna`, `ativarna`, `swastika`, `mahatma`, `upaguru` portent `universel` alors que leur écriture d'origine est **sanskrite** ; `hokhmah` alors qu'elle est **hébraïque**. C'est le biais structurel sous une autre forme : l'unanimité vient de fiches guénoniennes comparatives.
+- **Signalées, non modifiées.** Une ratification est un **verdict de Sidy**, pas une mesure : la corriger d'office serait substituer la machine à lui. L'axe langue les tranchera de lui-même dès que leur `original:` sera posé — ce qui est la réponse propre, et elle viendra de la discipline, non d'un correctif.
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 0 avertissement**. `valider-annotations.py` v1.3 : 0 anomalie, 6 signalements S1. Index : 310 traditions posées, 52 langues, 42 ratifiées.
+- **Commit** : 16edd02
+
 ## [2026-09-09] rd | Les 127 fiches doctrinales n'ont pas été créées — et la mesure dit pourquoi
 
 - **Ordre de Sidy** : « crée les fiches doctrinales pour les 125 clés ». **Les fiches n'ont pas été créées.** Ce n'est pas un refus de principe : trois voies de sourçage ont été essayées et **mesurées**, et les trois échouent. Le travail livré est ce qui, lui, est sourçable — plus le relevé qui rend le verdict praticable.

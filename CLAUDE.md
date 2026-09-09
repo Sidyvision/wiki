@@ -10,7 +10,13 @@ la dispersion mentale.
 
 > **Historique des révisions** : conservé intégralement dans
 > `meta/protocole-archives/changelog-CLAUDE.md` (append-only, chronologique
-> inverse). Dernières révisions : **2026-09-09** (§VII, **`S1`, signalement de doublon
+> inverse). Dernières révisions : **2026-09-09** (§VII, **axe de la LANGUE, distinct de
+> celui de la tradition** — la langue est une propriété du *terme*, la tradition une
+> propriété du *cadre* ; champ `langue` sourcé par `original:`, la prose ou la forme
+> appariée, jamais par heuristique d'orthographe ; les écritures partagées (han) en sont
+> écartées ; l'axe se renforce au rythme de la discipline des langues originales ;
+> ratification des 42 traditions unanimes, neuf signalées sous réserve ; verdicts Sidy),
+> **2026-09-09** (§VII, **`S1`, signalement de doublon
 > de référent** — `D5` garantit l'unicité de la clé, jamais celle du référent ; canal de
 > signalement non bloquant ouvert au validateur, le verdict restant réservé (Cmd 12) ;
 > §VII, **vocabulaire de `data-genre`
