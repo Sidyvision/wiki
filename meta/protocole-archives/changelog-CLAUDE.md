@@ -16,6 +16,44 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-09] extraction | Phase 2 — décantation de `CLAUDE.md` : la procédure descend en `protocoles/`
+
+**Verdict de Sidy** : « 1. Protocoles/ à la racine 2. Validé 3. Le MCP
+Entre dans le périmètre de la Phase 2, à inscrire dans claude.md »
+
+Suite de la Phase 1 (`309be23`, `73aba58`), sur l'ordre d'origine : « Je suis d'avis
+de decanté CLAUDE.md de tout ce qui peux etre changer en skill, pour en garder
+l'essentiel, les principes ». Le critère d'extraction n'est pas la longueur mais le
+régime : ce qui se **déclenche sur une action** descend, ce qui est **toujours en
+vigueur** reste. 286 lignes de procédure sorties en 10 fiches ; la racine passe de
+937 à 761 lignes, le principe et le pointeur demeurant en haut.
+
+- **`protocoles/` à la racine**, non sous `meta/` — verdict 1 de Sidy. Il **corrige
+  la ligne de l'entrée de Phase 1** qui annonçait `meta/protocoles/` : cette mention
+  est caduque. `protocoles/` n'est pas un circuit : aucun Sceau, aucun régime de
+  liens, cible d'aucun wikilink.
+- **Cmd 14, corollaire d'auto-suffisance amendé** (verdict 2). L'auto-suffisance
+  porte désormais sur la racine, les `CLAUDE.md` locaux de circuit **et les fiches de
+  `protocoles/` que la racine nomme**. La première moitié du Cmd 14 — agnosticisme du
+  moteur — est inchangée. **Discipline du renvoi** : tout pointeur est nominatif et
+  inconditionnel, « avant tout X, lire `protocoles/Y.md` », jamais « si besoin »,
+  jamais « voir aussi ».
+- **Garde mécanique neuve** dans `verifier-invariants.py` (798 → 866 lignes) : **P1**,
+  un renvoi vers une fiche de `protocoles/` qui n'existe pas ; **P2**, une fiche que
+  nul pointeur racine ne nomme. Les deux codes ont subi l'Épreuve des contrôles.
+- **Serveur MCP inscrit en §VIII.11** (verdict 3) : 16 outils de lecture et de
+  contrôle. MCP étant un protocole ouvert, l'inscription satisfait le Cmd 14 là où une
+  enveloppe propre à un éditeur ne l'aurait pas fait.
+- **Écart déclaré, non comblé (Cmd 12)** : les enveloppes `.claude/skills/`, portées au
+  plan comme optionnelles, ne sont pas créées — surface B0 pour un gain normatif nul,
+  et logement propre à un éditeur pour un protocole voulu agnostique.
+- **Régression rattrapée avant commit** : le differ a révélé que le **Cmd 13, « Porte
+  humaine sur tout ce qui engage »**, avait disparu de la liste (elle sautait de 12 à
+  14). Restauré mot pour mot depuis `HEAD`.
+
+Réversible : `meta/protocole-archives/CLAUDE-v4_2026-09-09.md` porte l'état
+pré-extraction, comme `CLAUDE-v2-monolithique_2026-08-12.md` avant lui.
+
 
 ## [2026-09-09] consolidation | Phase 1 de l'audit Qoder — relocalisation pure, sans perte de lettre
 

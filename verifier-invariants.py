@@ -72,6 +72,14 @@ PREFIXES_SANS_FM = (
     # (chantier OUT-C2). L'exemption est CIBLÉE : un `.md` nu hors de `textes/`
     # continue de lever B0, et c'est la seconde face de l'épreuve.
     "textes/",
+    # `protocoles/` — procédure des règles transversales, sortie de `CLAUDE.md`
+    # le 2026-09-09 (Phase 2, verdict de Sidy). Même statut que `textes/` : ce
+    # ne sont pas des fiches mais le PROLONGEMENT du protocole racine — aucun
+    # Sceau, aucun régime de liens, cible d'aucun wikilink (Cmd 14). Le contrôle
+    # qui leur est propre n'est pas B0 mais la paire P1/P2 ci-dessous : la
+    # question n'est pas « ce fichier est-il une fiche conforme ? » mais « ce
+    # protocole est-il appelé, et ce qu'on appelle existe-t-il ? ».
+    "protocoles/",
 )
 
 # Fichiers dont les liens sortants ne sont PAS soumis au contrôle C3 d'étanchéité
@@ -129,6 +137,13 @@ RE_CLOTURE = re.compile(r"^\s*(```|~~~)")
 RE_SPAN_CODE = re.compile(r"`[^`\n]+`")
 RE_WIKILINK = re.compile(r"\[\[([^\]\|#]+)(?:#[^\]\|]+)?(?:\|[^\]]*)?\]\]")
 RE_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+# Renvoi vers une fiche de `protocoles/`, tel que la discipline du renvoi
+# l'impose (Cmd 14) : nominatif, entre accents graves.
+RE_RENVOI_PROTOCOLE = re.compile(r"`protocoles/([A-Za-z0-9._-]+\.md)`")
+# Une formule CITÉE entre guillemets français (« … ») n'est pas un renvoi :
+# c'est le protocole qui se décrit lui-même. Cmd 14 cite ainsi son propre
+# gabarit, « avant tout X, lire `protocoles/Y.md` », qui ne vise aucune fiche.
+RE_CITATION = re.compile(r"«[^»]*»")
 
 
 # --------------------------------------------------------------------------
@@ -711,6 +726,57 @@ def controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap):
 # Orchestration
 # --------------------------------------------------------------------------
 
+def controler_protocoles(racine, rap):
+    """P1/P2 — la garde mécanique du corollaire d'auto-suffisance (Cmd 14).
+
+    P1 : un renvoi nomme une fiche de `protocoles/` qui n'existe pas — la
+         lettre annoncée est introuvable, l'auto-suffisance est rompue.
+    P2 : une fiche de `protocoles/` que nul pointeur de `CLAUDE.md` racine ne
+         nomme — « un protocole que rien n'appelle n'est pas un protocole,
+         c'est un oubli ».
+
+    Les renvois sont relevés dans le `CLAUDE.md` racine ET dans les `CLAUDE.md`
+    locaux de circuit (§II bis) pour P1 ; seuls ceux de la racine comptent pour
+    P2, conformément à la lettre (« que nul pointeur racine ne nomme »).
+    """
+    dossier = os.path.join(racine, "protocoles")
+    if not os.path.isdir(dossier):
+        return
+    presentes = {n for n in os.listdir(dossier) if n.endswith(".md")}
+
+    def renvois(chemin_abs):
+        try:
+            texte = lire(chemin_abs)
+        except Exception:                                     # pragma: no cover
+            return {}
+        trouves = {}
+        for num, ligne in enumerate(texte.split("\n"), 1):
+            for m in RE_RENVOI_PROTOCOLE.finditer(RE_CITATION.sub("", ligne)):
+                trouves.setdefault(m.group(1), num)
+        return trouves
+
+    racine_md = os.path.join(racine, "CLAUDE.md")
+    nommees = renvois(racine_md) if os.path.isfile(racine_md) else {}
+
+    sources = [("CLAUDE.md", nommees)]
+    for circ in CIRCUITS:
+        local = os.path.join(racine, circ, "CLAUDE.md")
+        if os.path.isfile(local):
+            sources.append((f"{circ}/CLAUDE.md", renvois(local)))
+
+    for rel, trouves in sources:
+        for cible, num in sorted(trouves.items()):
+            if cible not in presentes:
+                rap.erreur(rel, "P1",
+                           f"renvoi vers `protocoles/{cible}` : la fiche "
+                           f"n'existe pas", num)
+
+    for fiche in sorted(presentes - set(nommees)):
+        rap.erreur(f"protocoles/{fiche}", "P2",
+                   "aucun pointeur de `CLAUDE.md` racine ne nomme cette fiche "
+                   "(Cmd 14 : un protocole que rien n'appelle est un oubli)")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--racine", default=".", help="racine du dépôt (défaut : .)")
@@ -764,6 +830,8 @@ def main():
             if nom in NOMS_ANNALES:
                 controler_annales(chemin_abs, chemin_rel, rap)
             controles += 1
+
+    controler_protocoles(racine, rap)
 
     # Le périmètre est déclaré, jamais silencieux : un lecteur doit savoir ce
     # que le script a regardé avant de lire ce qu'il a trouvé.
