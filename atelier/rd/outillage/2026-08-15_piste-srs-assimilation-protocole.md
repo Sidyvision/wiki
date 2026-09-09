@@ -4,7 +4,7 @@ type: outillage
 statut: brouillon
 tags: [rd, outillage, protocole, memoire, assimilation, hermes, srs]
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11]]", "[[atelier/rd/cahiers/registre-problemes]]"]
 ---
@@ -25,7 +25,7 @@ links: ["[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-
 
 Cette instruction est ouverte pour répondre à un double constat :
 
-1. **Optimisation infrastructure Hermes** : la mémoire des agents Hermes
+1. **Optimisation infrastructure <span data-nom="hermes" data-genre="entite">Hermes</span>** : la mémoire des agents Hermes
    (`memory` tool) est injectée automatiquement dans chaque session — mais
    certains éléments protocolaux ne sont pas systématiquement respectés
    malgré cette injection : violations, redemandes, frictions sur Cmd 9 /

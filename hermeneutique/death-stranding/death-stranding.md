@@ -8,7 +8,7 @@ createur: "Hideo Kojima"
 statut_analyse: brouillon
 tags: [oeuvre, death-stranding, jeu-video, lien, portage, domaine-intermediaire]
 created: 2026-08-08
-updated: 2026-08-13
+updated: 2026-09-09
 sources: ["to-source", "[[hermeneutique/sources/art-of-death-stranding]]"]
 liens: ["[[hermeneutique/auteurs/hideo-kojima]]", "[[hermeneutique/auteurs/yoji-shinkawa]]", "[[hermeneutique/death-stranding/dhv-magellan]]", "[[hermeneutique/metal-gear/metal-gear]]"]
 cles_doctrinales: ["[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/habl-allah]]"]
@@ -104,7 +104,7 @@ défini dans les mails et le Corpus.
 
 Cette section a été **retaillée** le 2026-08-08 sur objection de Sidy. Une
 première rédaction refusait tout joint entre la « plage » de l'œuvre et le
-Barzakh. Le refus était trop raide : il confondait *marquer un lien comme
+<dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn>. Le refus était trop raide : il confondait *marquer un lien comme
 mineur* et *ne pas le marquer du tout*. La correction est instrumentale — voir
 l'amendement de portance v2, qui introduit le *zōsaku*.
 

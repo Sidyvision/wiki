@@ -8,7 +8,7 @@ createur: "Akira Toriyama"
 statut_analyse: brouillon
 tags: [shonen, jump, arts-martiaux, xiyouji, immortalite]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-09-09
 sources:
   - "https://www.cbr.com/dragon-ball-journey-to-the-west-inspiration/"
   - "https://collider.com/dragon-ball-journey-to-the-west/"
@@ -27,7 +27,7 @@ cles_doctrinales:
 
 ## Présentation
 
-Série publiée dans le *Weekly Shōnen Jump* de 1984 à 1995, *Dragon Ball* suit Son
+Série publiée dans le *Weekly Shōnen <span data-nom="jump" data-genre="ouvrage">Jump</span>* de 1984 à 1995, *Dragon Ball* suit Son
 Goku, jeune guerrier à queue de singe, à travers une succession de quêtes, de
 tournois d'arts martiaux et d'affrontements dont l'enjeu croît par paliers (Armée du
 Ruban Rouge, Saiyans, Freezer, Cell, Buu). Elle deviendra la deuxième série manga la
@@ -38,7 +38,7 @@ animée.
 ## Matrice source : la Pérégrination vers l'Ouest
 
 *Dragon Ball* emprunte librement à un classique de la littérature chinoise du XVIe
-siècle, la *Pérégrination vers l'Ouest* (西遊記, *Xiyouji*), qui narre le pèlerinage du
+siècle, la *Pérégrination vers l'Ouest* (西遊記, *<span data-nom="xiyouji" data-genre="ouvrage">Xiyouji</span>*), qui narre le pèlerinage du
 moine Xuanzang escorté de disciples surnaturels vers l'Inde, en quête de sûtras
 bouddhiques. Le nom même du protagoniste, Son Goku (孫悟空), est la transcription
 japonaise de Sun Wukong, le Roi des Singes du roman — sa queue de singe, son bâton

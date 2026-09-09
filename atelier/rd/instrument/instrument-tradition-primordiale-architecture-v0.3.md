@@ -3,7 +3,7 @@ title: "Instrument de la Tradition Primordiale — Architecture Fondamentale (v0
 type: projet
 tags: [architecture, mandala, tradition-primordiale, tasawwuf, kabbale, conceptuel]
 created: 2026-06-28
-updated: 2026-08-25
+updated: 2026-09-09
 sources: []
 links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference]]"]
 ---
@@ -52,7 +52,7 @@ links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/alam-al-mitha
 
 Ce n'est ni une application de visualisation comparative entre traditions séparées, ni un
 simple habillage graphique du wiki. C'est un **mandala** — objet de contemplation
-personnelle — qui est simultanément un **instrument d'étude** de la Tradition Primordiale :
+personnelle — qui est simultanément un **instrument d'étude** de la <span data-nom="tradition-primordiale" data-genre="cycle">Tradition Primordiale</span> :
 l'unité de principe sous-jacente aux formes traditionnelles multiples, telle que Guénon la
 pose. L'app est conçue comme l'**interface graphique du LLM-Wiki**, le complétant sous
 certains aspects, jamais comme un doublon ou une source de vérité autonome.
@@ -75,7 +75,7 @@ réelle de travail doctrinal dans le wiki (correspondances confirmées, discerne
 ### 1.1 Comportement au basculement de tradition
 
 - La tradition sélectionnée s'affiche en **sur-brillance**, dans sa géométrie native réelle
-  (les degrés effectifs du Tasawwuf, les dix Sephiroth de la Kabbale, etc. — jamais une
+  (les degrés effectifs du <dfn data-terme="tasawwuf" data-translit="Tasawwuf" data-tradition="islam">Tasawwuf</dfn>, les dix Sephiroth de la <span data-nom="kabbale" data-genre="ecole">Kabbale</span>, etc. — jamais une
   géométrie générique imposée).
 - Les traditions non sélectionnées restent visibles en **transparence**, sur la même scène —
   jamais masquées complètement. C'est l'affirmation visuelle de l'unité de principe : les
@@ -185,7 +185,7 @@ toujours accessible, jamais en conflit avec le contenu.
 
 Le Tasawwuf est la première tradition implémentée, en cohérence avec son développement déjà
 avancé dans le wiki (`doctrinal/traditions/tasawwuf`, et les nombreuses pages liées :
-barzakh, walaya, al-insan-al-kamil, etc.). Les autres traditions apparaissent dans la bande
+<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>, walaya, <dfn data-terme="al-insan-al-kamil" data-translit="al-insan-al-kamil" data-tradition="islam">al-insan-al-kamil</dfn>, etc.). Les autres traditions apparaissent dans la bande
 de sélection mais peuvent rester à l'état "à venir" sans bloquer l'architecture.
 
 **Base doctrinale du déploiement vertical (acquis le 2026-06-29)** — la loi de déploiement
@@ -381,7 +381,7 @@ géométrie de l'axe l'est aussi (spec technique des 38 degrés).
 canonique est l'**échelle des 38 degrés** de la spec technique (*Hāhūt* 1-10 →
 *Nāsūt* 28-38). Valeurs décimales admises pour les positions de bande (ex. 19.5 =
 Barzakh supérieur, bande 19-20) ; `null` = nœud **traversant** (Al-Insān al-Kāmil,
-*nafas raḥmānī*) ou **structurant** (fiches décrivant l'axe lui-même : hadarat-khams,
+*nafas raḥmānī*) ou **structurant** (fiches décrivant l'axe lui-même : <dfn data-terme="hadarat-khams" data-translit="hadarat-khams" data-tradition="islam">hadarat-khams</dfn>,
 table des 28-38 degrés). Constat structurel assumé : les fiches notionnelles actuelles
 sont presque toutes traversantes ou structurantes — l'axe sera réellement peuplé par
 les **38 degrés eux-mêmes**, déclarés comme nœuds sourçant la fiche

@@ -4,7 +4,7 @@ type: projet
 statut_experience: exploratoire
 tags: [instrument, incommensurabilite, inconditionne, nirguna, gunas, kursi, arsh, echelle, design, rendu]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 links: ["[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/symboles/janus-bifrons]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]]", "[[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]]"]
 ---
@@ -69,7 +69,7 @@ d'un goût graphique :
 
 ## 3. La piste que cette session a produite sans la chercher
 
-Le joint verdicté aujourd'hui — ternaire des canaux ↔ *Janus Bifrons*
+Le joint verdicté aujourd'hui — ternaire des canaux ↔ *<span data-nom="janus-bifrons" data-genre="entite">Janus Bifrons</span>*
 ([[doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons]]) —
 porte un **procédé de figuration traditionnel** qui répond terme à terme au
 problème :
@@ -305,7 +305,7 @@ Une mention permanente en légende, sans modification de la figure.
 
 ### 6bis.1 L'incommensurabilité est ABSOLUE — et le chantier avait raison de s'en inquiéter
 
-Guénon, ch. XXVI : c'est « **une incommensurabilité absolue, ne dépendant
+Guénon, ch. XXVI : c'est « **une <span data-nom="incommensurabilite" data-genre="principe">incommensurabilité</span> absolue, ne dépendant
 d'aucune convention plus ou moins arbitraire, comme l'est toujours le choix de
 certaines unités relatives dans les mesures quantitatives ordinaires** ».
 

@@ -3,7 +3,7 @@ title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-09
 sources: []
 links: []
 ---
@@ -50,7 +50,7 @@ links: []
 | `doctrinal/autorites/hamza-yusuf` | autorite | academique | 2026-08-25 | 1 | Hamza Yusuf |
 | `doctrinal/autorites/ibn-arabi` | autorite | traditionnel | 2026-09-02 | 4 | Ibn ʿArabī |
 | `doctrinal/autorites/ibn-qayyim` | autorite | traditionnel | 2026-06-20 | 0 | Ibn Qayyim al-Jawziyya |
-| `doctrinal/autorites/ibn-sina` | autorite | traditionnel | 2026-08-30 | 1 | Ibn Sīnā (Avicenne) |
+| `doctrinal/autorites/ibn-sina` | autorite | traditionnel | 2026-08-30 | 1 | <span data-nom="ibn-sina" data-genre="autorite">Ibn Sīnā</span> (Avicenne) |
 | `doctrinal/autorites/ibn-sirin` | autorite | traditionnel | 2026-06-20 | 0 | Muḥammad ibn Sīrīn |
 | `doctrinal/autorites/idris` | autorite | traditionnel | 2026-08-23 | 1 | Idrīs |
 | `doctrinal/autorites/imam-malik` | autorite | traditionnel | 2026-07-06 | 0 | L'Imam Mālik b. Anas |
@@ -125,7 +125,7 @@ links: []
 | `doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres` | discernement | speculatif | 2026-08-30 | 5 | Le couple khafḍ / rafʿ : l'axe des degrés est-il parcouru dans un seul sens ? |
 | `doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation` | discernement | traditionnel | 2026-08-30 | 3 | Le Kursī et les deux Pieds (qadamān) au regard de Hokhmah et Binah — la première polarisa… |
 | `doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet` | discernement | speculatif | 2026-08-30 | 4 | Les nâdîs issues du cœur et les sentiers séphirothiques émanant de Tiferet |
-| `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons` | discernement | traditionnel | 2026-08-30 | 3 | Le ternaire temporel des nâdîs et Janus Bifrons — un même symbolisme sous deux voiles |
+| `doctrinal/discernement/2026-08-30_ternaire-temporel-nadis-janus-bifrons` | discernement | traditionnel | 2026-08-30 | 3 | Le ternaire temporel des nâdîs et <span data-nom="janus-bifrons" data-genre="entite">Janus Bifrons</span> — un même symbolisme sous deux voiles |
 | `doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions` | discernement | traditionnel | 2026-08-30 | 3 | L'unification des axes verticaux : un seul axe sous tous les voiles traditionnels |
 | `doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique` | discernement | speculatif | 2026-09-01 | 3 | qabḍ/basṭ et upaguru : un même registre initiatique ? (dossier ouvert, non tranché) |
 | `doctrinal/discernement/_template` | discernement | speculatif | 2026-06-20 | 0 | Spéculation sur [Sujet de la réflexion] |
@@ -282,7 +282,7 @@ links: []
 | `doctrinal/symboles/eschatologie` | symbole | traditionnel | 2026-07-01 | 1 | Eschatologie (la doctrine des fins dernières) |
 | `doctrinal/symboles/espace-sacre-shinto` | symbole | traditionnel | 2026-06-20 | 0 | Sacralité et désacralisation d'un espace shintoïste |
 | `doctrinal/symboles/fal-wa-tatayyur` | symbole | traditionnel | 2026-06-20 | 0 | Al-Fal wa-l-Taṭayyur (le bon augure et la divination superstitieuse) |
-| `doctrinal/symboles/fiqh` | symbole | traditionnel | 2026-08-25 | 1 | Le Fiqh (la science des statuts de la Loi) |
+| `doctrinal/symboles/fiqh` | symbole | traditionnel | 2026-08-25 | 1 | Le <dfn data-terme="fiqh" data-translit="Fiqh" data-tradition="islam">Fiqh</dfn> (la science des statuts de la Loi) |
 | `doctrinal/symboles/firasa` | symbole | traditionnel | 2026-06-20 | 0 | ʿIlm al-Firāsa (la science du discernement intuitif) |
 | `doctrinal/symboles/furin` | symbole | traditionnel | 2026-06-20 | 0 | Furin (風鈴) — le carillon à vent japonais |
 | `doctrinal/symboles/futuwwa` | symbole | traditionnel | 2026-06-20 | 1 | Futuwwa — La Chevalerie Spirituelle |
@@ -321,7 +321,7 @@ links: []
 | `doctrinal/symboles/outil-faculte-objectivee` | symbole | traditionnel | 2026-06-20 | 0 | L'outil comme faculté objectivée — comparatisme islamo-platonico-védantin |
 | `doctrinal/symboles/pierre-noire-mecque` | symbole | traditionnel | 2026-06-20 | 0 | La Pierre Noire de la Mecque (al-Ḥajar al-Aswad) |
 | `doctrinal/symboles/polarite-laterale-de-l-axe` | symbole | traditionnel | 2026-08-30 | 3 | La polarité latérale de l'axe : les deux canaux solaire et lunaire |
-| `doctrinal/symboles/poseidon` | symbole | academique | 2026-06-20 | 0 | Poséidon — lecture mythologique et philosophique |
+| `doctrinal/symboles/poseidon` | symbole | academique | 2026-06-20 | 0 | <span data-nom="poseidon" data-genre="entite">Poséidon</span> — lecture mythologique et philosophique |
 | `doctrinal/symboles/prakriti` | symbole | traditionnel | 2026-08-30 | 1 | Prakriti (Nature manifestée) |
 | `doctrinal/symboles/priere-mosquee-prophete` | symbole | traditionnel | 2026-06-20 | 0 | Signification de la prière à la Mosquée du Prophète (réelle et onirique) |
 | `doctrinal/symboles/purusha` | symbole | traditionnel | 2026-08-30 | 1 | Purusha (Conscience pure) |
@@ -385,9 +385,9 @@ links: []
 | `hermeneutique/dragon-ball/dragon-ball` | oeuvre | — | 2026-08-16 | — | Dragon Ball |
 | `hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire` | concept | — | 2026-08-20 | — | Barzakh onirique et interface littéraire — l'ʿālam al-mithāl comme espace de la fiction |
 | `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` | concept | — | 2026-09-01 | — | L'athanor de Burckhardt et la figure des matrices artificielles — autotransmutation vs. c… |
-| `hermeneutique/frankenstein/frankenstein` | oeuvre | — | 2026-08-30 | — | Frankenstein ou le Prométhée moderne |
+| `hermeneutique/frankenstein/frankenstein` | oeuvre | — | 2026-08-30 | — | <span data-nom="frankenstein" data-genre="ouvrage">Frankenstein</span> ou le Prométhée moderne |
 | `hermeneutique/hunter-x-hunter/hunter-association-licence` | dispositif | — | 2026-08-12 | — | Hunter — association et licence |
-| `hermeneutique/hunter-x-hunter/hunter-x-hunter` | oeuvre | — | 2026-08-12 | — | Hunter x Hunter |
+| `hermeneutique/hunter-x-hunter/hunter-x-hunter` | oeuvre | — | 2026-08-12 | — | <span data-nom="hunter-x-hunter" data-genre="ouvrage">Hunter x Hunter</span> |
 | `hermeneutique/hunter-x-hunter/nen-systeme` | concept | — | 2026-08-12 | — | Le Nen — système complet |
 | `hermeneutique/index` | meta | — | 2026-08-16 | — | Index du circuit Herméneutique |
 | `hermeneutique/lost/jacob` | figure | — | 2026-08-28 | — | Jacob (Lost) |

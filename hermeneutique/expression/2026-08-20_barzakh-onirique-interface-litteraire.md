@@ -15,7 +15,7 @@ tags:
 - literature
 - islamofuturisme
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-09
 sources:
 - '[[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]]'
 liens: []
@@ -45,7 +45,7 @@ l'intention et la manifestation — et c'est précisément dans cet espace inter
 que naît la science fiction.
 
 **Formulation** : la science fiction n'est pas un simple divertissement spéculatif ;
-c'est une activité de traduction depuis le *barzakh* (l'espace liminal entre corps et
+c'est une activité de traduction depuis le *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>* (l'espace liminal entre corps et
 esprits) vers le monde manifesté. Le rêveur (l'auteur, le lecteur) est le **medium
 liminal** par lequel d'autres mondes sont traduits dans celui-ci.
 
@@ -63,7 +63,7 @@ structurant de la science fiction :
 
 Cette formulation est **esthétique et littéraire**, non doctrinale. Elbenni ne prétend
 pas transmettre le Principe — il décrit un phénomène culturel (la genèse de la fiction
-spéculative) en mobilisant un vocabulaire traditionnel (barzakh, ʿālam al-mithāl).
+spéculative) en mobilisant un vocabulaire traditionnel (barzakh, <dfn data-terme="alam-al-mithal" data-translit="ʿālam al-mithāl" data-tradition="islam">ʿālam al-mithāl</dfn>).
 
 ---
 

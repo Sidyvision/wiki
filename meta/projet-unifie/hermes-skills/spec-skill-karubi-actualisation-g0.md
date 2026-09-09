@@ -3,7 +3,7 @@ title: "Spécification — rôle G0 de brouillon §4 (actualisation Karūbī)"
 type: meta
 tags: [outillage, hermes, skill, karubi, transmissions, proposition]
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-09
 ---
 
 # Spécification — rôle G0 « brouillon §4 » (actualisation Karūbī)
@@ -35,7 +35,7 @@ Explicite, par Sidy, **après** une intégration de navette réussie via
 enchaîné à l'intégration elle-même, jamais pendant une session avec un
 destinataire (Cmd 13 : rien qui engage ne se déclenche seul).
 
-**Canal et commande** (2026-08-15) : ce rôle n'ouvre pas de sub-agent Hermes
+**Canal et commande** (2026-08-15) : ce rôle n'ouvre pas de sub-agent <span data-nom="hermes" data-genre="entite">Hermes</span>
 dédié — il s'exécute **côté Claude Code** (poste INTÉGRATION/AGENTS DE FONCTION,
 CLAUDE.md racine §I), qui dispose déjà nativement de la lecture des hubs
 `index.md`/`annales.md` des cinq circuits sans configuration supplémentaire.

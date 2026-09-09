@@ -3,7 +3,7 @@ title: "Signalement — Mise en regard du corpus Coomaraswamy/Guénon (tenon, mo
 type: outillage
 tags: [outillage, instrument, sashimono, hozo, kumiko, axe-du-monde, signalement]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/bibliotheque/eckstein-porte-du-ciel]]", "[[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]]", "[[atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]]", "[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh]]"]
 ---
@@ -101,7 +101,7 @@ non encore instruit comme tel :
 
 ### 2.3 La lentille *barzakh* et l'« œil du dôme » comme passage
 
-L'architecture (§3.4) rend le *barzakh* comme « lentille de transition
+L'architecture (§3.4) rend le *<dfn data-terme="barzakh" data-translit="barzakh" data-tradition="islam">barzakh</dfn>* comme « lentille de transition
 visuelle entre degrés adjacents de l'axe ». Le corpus lu décrit l'« œil du
 dôme » dans des termes structurellement proches : « source d'illumination,
 mortaise [...] moyen de passage de l'intérieur à l'extérieur du dôme »,

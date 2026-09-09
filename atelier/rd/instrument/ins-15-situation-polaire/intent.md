@@ -4,7 +4,7 @@ type: projet
 chantier: INS-15
 tags: [atelier, rd, instrument, chantier, intent, polaire, cycles, tilak]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-09
 sources: []
 links:
   - "[[atelier/rd/registre-chantiers]]"
@@ -36,7 +36,7 @@ sans le montrer.
 ## Qui le porte
 
 Sidy, demande du 2026-09-02 : un bloc annexe figurant la situation polaire décrite
-par les travaux de Tilak, complétée par Guénon, la doctrine des cycles cosmiques et
+par les travaux de <span data-nom="tilak" data-genre="autorite">Tilak</span>, complétée par Guénon, la doctrine des cycles cosmiques et
 la doctrine métaphysique. Objet nommé explicitement : **le lever du soleil et la
 révolution ascendante et descendante autour de l'horizon**.
 
@@ -187,7 +187,7 @@ commenter.
   qu'il est. *Raison* : le zodiaque du dépôt est une partition sourcée de l'écliptique
   (INS-13), pas une éphéméride ; les faire coïncider à l'écran suggérerait un calcul
   qui n'a pas lieu.
-- **Toute datation du présent dans le Manvantara.** *Raison* : la fiche
+- **Toute datation du présent dans le <span data-nom="manvantara" data-genre="cycle">Manvantara</span>.** *Raison* : la fiche
   [[doctrinal/symboles/manvantara]] porte l'avertissement de Guénon contre la datation
   précise, et pose que la position du présent « n'a de pertinence que relative à un
   usage précis […] jamais comme fait établi une fois pour toutes » (Cmd 12,

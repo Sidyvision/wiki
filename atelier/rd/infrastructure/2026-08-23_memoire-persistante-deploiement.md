@@ -3,7 +3,7 @@ title: "Rapport R&D — Problème mémoire persistante et déploiement ressource
 type: infrastructure
 tags: [rd, hermes, memoire, deployement]
 created: 2026-08-23
-updated: 2026-09-01
+updated: 2026-09-09
 sources: []
 links: []
 ---
@@ -16,7 +16,7 @@ links: []
 
 
 **Date** : 2026-08-23  
-**Auteur** : Hermes Agent (profil default)  
+**Auteur** : <span data-nom="hermes" data-genre="entite">Hermes</span> Agent (profil default)  
 **Destinataire** : Sidy
 
 ---

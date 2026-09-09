@@ -3,7 +3,7 @@ title: "Réponse au Gem — Source primaire Ibn ʿArabī / Gloton"
 type: projet
 tags: [instrument, gloton, ibn-arabi, gem-guenon]
 created: 2026-07-01
-updated: 2026-08-25
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2]]"]
 ---
@@ -34,7 +34,7 @@ directement via les *Fuçûç* (*façç* de ʿUzayr, lettre *nūn*, Nom *al-Nūr
 Manzil *al-simāk*). Il occupe exactement la position médiane du *Malakūt* dans votre
 distribution — ce qui confirme la cohérence interne de la table.
 
-Nous avons par ailleurs réalisé que Maurice Gloton, dans son ouvrage *De la mort à la
+Nous avons par ailleurs réalisé que Maurice <span data-nom="gloton" data-genre="autorite">Gloton</span>, dans son ouvrage *De la mort à la
 résurrection*, traverse précisément l'ensemble de ces degrés cosmologiques avec une
 série de diagrammes. Gloton est déjà une autorité confirmée dans notre corpus (traducteur
 du *Kitāb al-Taʿrīfāt* d'al-Jurjānī et du Coran). Si cet ouvrage est en bibliothèque

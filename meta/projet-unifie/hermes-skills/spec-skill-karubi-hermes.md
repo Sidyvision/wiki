@@ -3,7 +3,7 @@ title: "Spécification — skill Hermes KARUBI"
 type: meta
 tags: [outillage, hermes, skill, karubi, transmissions, proposition]
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-09-09
 ---
 
 # Spécification — skill `KARUBI` (Hermes Agent)
@@ -48,7 +48,7 @@ au-dehors sans l'altérer. Les deux sont dépositaires du même tronc commun
 
 ## Étape 1 — lancement du sub-agent isolé
 
-- Nouveau sub-agent Hermes, contexte et outillage propres (mécanisme déjà en place
+- Nouveau sub-agent <span data-nom="hermes" data-genre="entite">Hermes</span>, contexte et outillage propres (mécanisme déjà en place
   pour les pipelines `raw/`, cf. briefing infrastructure §4).
 - **Mémoire native désactivée** pour ce sub-agent (pas d'écriture SQLite/
   `MEMORY.md`) — à confirmer/paramétrer selon les capacités réelles de Hermes

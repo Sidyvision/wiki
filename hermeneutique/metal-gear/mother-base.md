@@ -8,7 +8,7 @@ createur: "Hideo Kojima"
 statut_analyse: en-cours
 tags: [dispositif, metal-gear, mgsv, base, gameplay, interface, idroid, transposition, infrastructure]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-09-09
 sources: ["to-source"]
 liens: ["[[hermeneutique/metal-gear/metal-gear]]", "[[hermeneutique/metal-gear/big-boss]]", "[[hermeneutique/death-stranding/dhv-magellan]]"]
 cles_doctrinales: []
@@ -266,7 +266,7 @@ paragraphe de plus dans une fiche de lecture (Cmd 4, Cmd 13).
 
 **La thèse rappelée** (voir [[hermeneutique/metal-gear/metal-gear]] §2) : une
 arme de dissuasion n'écarte rien, elle produit ce qu'elle prétend écarter. Dans
-la fiction, chaque Metal Gear construit pour dissuader pousse un autre acteur à
+la fiction, chaque <span data-nom="metal-gear" data-genre="ouvrage">Metal Gear</span> construit pour dissuader pousse un autre acteur à
 vouloir le sien — la dissuasion, par le seul fait d'exister, **enseigne
 qu'elle est possible**, et cet enseignement se propage plus vite que l'arme
 elle-même ne peut être contenue.

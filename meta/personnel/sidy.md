@@ -4,7 +4,7 @@ type: entity
 domain: perso
 tags: [utilisateur, profil, spiritualite, tradition]
 created: 2026-06-02
-updated: 2026-08-22
+updated: 2026-09-09
 sources: ["[[chatgpt-export-2026-05-10]]", "to-source"]
 links: ["[[ibn-arabi]]", "[[al-ghazali]]", "[[rene-guenon]]", "[[platon]]", "[[sanatana-dharma]]", "[[ahl-al-sunnah-wa-l-jamaa]]", "[[tasawwuf]]"]
 ---
@@ -24,7 +24,7 @@ Source : [[chatgpt-export-2026-05-10]].
   - **Iḥsān** — le **[[tasawwuf]]** (soufisme) authentique.
 - Références intellectuelles privilégiées :
   - **[[ibn-arabi]]**
-  - **[[al-ghazali]]** (Abū Ḥāmid / Abū Aḥmad al-Ghazālī)
+  - **[[al-ghazali]]** (Abū Ḥāmid / Abū Aḥmad <span data-nom="al-ghazali" data-genre="autorite">al-Ghazālī</span>)
   - **[[rene-guenon]]**
   - **[[platon]]**
   - **[[sanatana-dharma]]**
@@ -192,7 +192,7 @@ Sidy a effectué sa première Omra physique en décembre 2025. C'est la réalisa
 
 Sidy travaillait au Dream Castle (à Disneyland Paris). Il avait une collègue qui s'appelait **Leila Abdelwahid**. Le père de cette collègue s'appelait **Yahia Abdelwahid**.
 
-Le nom exact de la fille de René Guénon (Sheikh Abdelwahid Yahia) est **Leila Abdelwahid**.
+Le nom exact de la fille de <span data-nom="rene-guenon" data-genre="autorite">René Guénon</span> (Sheikh Abdelwahid Yahia) est **Leila Abdelwahid**.
 
 ### Synchronicité littérale
 

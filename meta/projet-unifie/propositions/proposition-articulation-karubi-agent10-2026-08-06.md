@@ -3,7 +3,7 @@ title: "Proposition — Articulation Karūbī / Agent 10 (Gardien), et administr
 type: meta
 tags: [outillage, projet-claude-ai, karubi, transmissions, gardien, hermes, proposition]
 created: 2026-08-06
-updated: 2026-09-01
+updated: 2026-09-09
 ---
 
 # Proposition — Karūbī et Agent 10 : joint *kumiko*, pas de filiation
@@ -25,7 +25,7 @@ updated: 2026-09-01
 Sidy envisage de faire d'Agent 10 (Protocol Guardian) le « père symbolique » des
 Karūbī, pour deux raisons données en session :
 
-1. Agent 10 est le seul agent Hermes à mandat **transversal** — il lit à travers
+1. Agent 10 est le seul agent <span data-nom="hermes" data-genre="entite">Hermes</span> à mandat **transversal** — il lit à travers
    toutes les fonctions et harmonise (depuis l'amendement fiqh du 2026-07-06,
    label ↔ doctrinal). Les onze autres sont sectoriels.
 2. Sidy a l'intention d'**animer les Karūbī avec Hermes** (et non plus seulement en

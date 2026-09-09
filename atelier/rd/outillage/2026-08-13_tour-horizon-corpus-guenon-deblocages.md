@@ -3,7 +3,7 @@ title: "Signalement — Tour d'horizon : ce que le corpus Guénon déposé débl
 type: outillage
 tags: [outillage, discernement, corpus, guenon, grande-triade, deblocage, signalement]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon]]", "[[atelier/rd/outillage/2026-08-10_methode-croisement-discernement]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]", "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]"]
 ---
@@ -37,7 +37,7 @@ frontmatter (identifiant stable, indépendant du nom de fichier).
 |---|---|---|---|
 | Aperçus sur l'initiation | AI | 26–73 | ch. I–XLVIII |
 | Initiation et Réalisation Spirituelle | IRS | 551–582 | ch. I–XXXII (**id 580 = ch. XXX manquant**) ; id 583 = index de l'œuvre, pas un chapitre |
-| La Grande Triade | GT | 698–723 | 26 chapitres, sans trou (doublon d'id 720) |
+| La <span data-nom="grande-triade" data-genre="ouvrage">Grande Triade</span> | GT | 698–723 | 26 chapitres, sans trou (doublon d'id 720) |
 | Le Roi du Monde | RM | 766–777 | ch. I–XII |
 | Le Symbolisme de la Croix | SC | 779–808 | ch. I–XXX |
 | Le Règne de la Quantité | RQST | 726–765 | pas d'entête `CHAPITRE` — identification par le titre |

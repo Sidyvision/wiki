@@ -3,7 +3,7 @@ title: "Infrastructure — Architecture globale du système (2026-08-11)"
 type: infrastructure
 tags: [rd, infrastructure, architecture, systeme, hermes, omniroute, serveur]
 created: 2026-08-11
-updated: 2026-09-01
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/infrastructure/cartographie-routing-infrastructure]]"]
 ---
@@ -91,7 +91,7 @@ dans des salons assignés (allowlist stricte de salons autorisés).
 | Fonction | ? | À déterminer |
 
 Observation brute : omniroute seul consomme plus de RAM que les 12 profils
-Hermes réunis.
+<span data-nom="hermes" data-genre="entite">Hermes</span> réunis.
 
 ### 2.3 Autres services
 

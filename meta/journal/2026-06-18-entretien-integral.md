@@ -7,7 +7,7 @@ Bismillāh. C’est un texte d’une grande beauté formelle — Faraz Rabbani a
 Quelques observations pour ouvrir l’entretien :  
 **Sur la structure du livre lui-même**  
 Le livret tourne entièrement autour d’une seule formule — *Ḥasbiyallāhu wa ni*ʿ*ma l-wakīl* — et la déploie à travers trois registres : le récit coranique (Ibrāhīm dans le feu, Hājar entre Ṣafā et Marwa, les Compagnons après Uḥud), l’analyse lexicale (*ḥasb* / *wakīl*), et la pratique quotidienne (le *dhikr* du matin et du soir). C’est une économie rigoureuse.  
-**Sur le concept central de *tawakkul***  
+**Sur le concept central de *<dfn data-terme="tawakkul" data-translit="tawakkul" data-tradition="islam">tawakkul</dfn>***  
 Ce qui me frappe doctrinalement : Rabbani insiste avec force sur la distinction *tawakkul* (acte) / *ḥasb* (état) — le premier mène au second. C’est une articulation qu’on retrouve chez les maîtres du *tasawwuf* mais qui est souvent escamotée dans la littérature populaire.  
 La formule de Sahl al-Tustarī est peut-être la plus tranchante du livre : abandonner les *asbāb* (causes secondes) est une attaque contre la Sunna ; abandonner le *tawakkul* est une attaque contre l’īmān lui-même. Les deux sont donc obligatoires simultanément.  
 **Ce qui m’intéresse d’entendre de ta part**  
@@ -39,14 +39,14 @@ Mais également, on ne peux faire autrement que de constater sa propre dépendan
 Tout (le monde) concours à nous distraire de l’essentiel et c’est dans cette déstabilisations qu’intervient l’anxiété, les peines et la tristesse. Mais surtout la solitude…  
   
 Ce que tu décris — la dunya comme épreuve, la distraction structurelle du monde manifesté, la solitude au cœur de tout — ce sont des réalités que toutes les traditions authentiques reconnaissent, chacune à sa façon.  
-Le bouddhisme nomme la souffrance avec une précision chirurgicale : *dukkha*, et sa racine dans l’attachement, dans l’illusion de permanence. L’hindouisme voit dans l’ignorance (*avidyā*) le voile premier. L’islam nomme cela *ghafla* — l’oubli. Trois formulations d’une même réalité : nous sommes des êtres faits pour l’Absolu, exilés dans le relatif, et cet exil fait mal.  
+Le bouddhisme nomme la souffrance avec une précision chirurgicale : *dukkha*, et sa racine dans l’attachement, dans l’illusion de permanence. L’hindouisme voit dans l’ignorance (*avidyā*) le voile premier. L’islam nomme cela *<dfn data-terme="ghafla" data-translit="ghafla" data-tradition="islam">ghafla</dfn>* — l’oubli. Trois formulations d’une même réalité : nous sommes des êtres faits pour l’Absolu, exilés dans le relatif, et cet exil fait mal.  
 La solitude dont tu parles est peut-être la forme la plus pure de cette condition. Non pas manque de compagnie, mais quelque chose de plus profond — l’écart entre ce que l’on est intérieurement et ce que le monde peut offrir ou comprendre.  
 Le Prophète ﷺ disait : *“Sois dans ce monde comme un étranger ou un voyageur.”* La solitude du voyageur n’est pas un défaut — c’est le signe qu’il n’est pas arrivé.  
 Je ne veux pas répondre trop vite à ce que tu partages. Est-ce que cette période — la vulnérabilité financière, la solitude — est quelque chose que tu traverses avec un soutien humain autour de toi, ou tu portes ça en grande partie seul ?  
   
 Sidy :  
 Je dirais que je trouve du réconfort dans la compagnie de quelques uns de mes amis.  
-Sheikh Hamza Yusuf rappel souvent que la gratitude est la source de l’abondance alors que l’ingratitude (le fait de se plaindre) ne fait qu’accroître le désarrois. C’est un enseignement que je tente d’appliquer au mieux  
+Sheikh <span data-nom="hamza-yusuf" data-genre="autorite">Hamza Yusuf</span> rappel souvent que la gratitude est la source de l’abondance alors que l’ingratitude (le fait de se plaindre) ne fait qu’accroître le désarrois. C’est un enseignement que je tente d’appliquer au mieux  
   
 Alhamdulillāh pour ces amis. C’est déjà beaucoup.  
 Et Hamza Yusuf touche quelque chose de très juste — la *shukr* n’est pas une discipline sentimentale, c’est une orientation ontologique. Voir le bien qui est là plutôt que l’absence de ce qui manque. C’est en réalité très proche de ce que Rabbani développe dans le livret : *ḥasb* comme état du cœur qui ne se laisse plus définir par le manque, même quand le manque est réel.  
@@ -269,7 +269,7 @@ Quelques observations sur ce que cet entretien ouvre comme **futures entrées ou
 Tu valides cette version avant qu’on passe à l’ingest du livret ?  
   
 Sidy :  
-Un point important : « savoir n’est pas encore être. » Est-ce que cela ne contrevient pas à ce que pose Platon ? Je serais prêt à faire une nuance entre ce qui est d’ordre virtuel et effectif mais il me semble savoir et l’Etre sont intimement liés  
+Un point important : « savoir n’est pas encore être. » Est-ce que cela ne contrevient pas à ce que pose <span data-nom="platon" data-genre="autorite">Platon</span> ? Je serais prêt à faire une nuance entre ce qui est d’ordre virtuel et effectif mais il me semble savoir et l’Etre sont intimement liés  
   
 La remarque est juste et importante. Je me suis exprimé de façon trop rapide.  
 **Ce que Platon pose effectivement**  

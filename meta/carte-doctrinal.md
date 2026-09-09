@@ -3,7 +3,7 @@ title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-09-09
 sources: []
 links: []
 ---
@@ -46,7 +46,7 @@ links: []
 | `doctrinal/autorites/hamza-yusuf` | autorite | academique | 2026-06-20 | 0 | Hamza Yusuf |
 | `doctrinal/autorites/ibn-arabi` | autorite | traditionnel | 2026-07-09 | 0 | Ibn ʿArabī |
 | `doctrinal/autorites/ibn-qayyim` | autorite | traditionnel | 2026-06-20 | 0 | Ibn Qayyim al-Jawziyya |
-| `doctrinal/autorites/ibn-sina` | autorite | traditionnel | 2026-06-11 | 0 | Ibn Sīnā (Avicenne) |
+| `doctrinal/autorites/ibn-sina` | autorite | traditionnel | 2026-06-11 | 0 | <span data-nom="ibn-sina" data-genre="autorite">Ibn Sīnā</span> (Avicenne) |
 | `doctrinal/autorites/ibn-sirin` | autorite | traditionnel | 2026-06-20 | 0 | Muḥammad ibn Sīrīn |
 | `doctrinal/autorites/idris` | autorite | traditionnel | 2026-06-11 | 0 | Idrīs |
 | `doctrinal/autorites/imam-malik` | autorite | traditionnel | 2026-07-06 | 0 | L'Imam Mālik b. Anas |
@@ -226,7 +226,7 @@ links: []
 | `doctrinal/symboles/noblesse-spirituelle` | symbole | traditionnel | 2026-06-20 | 0 | La noblesse spirituelle et sociale (comparatisme) |
 | `doctrinal/symboles/outil-faculte-objectivee` | symbole | traditionnel | 2026-06-20 | 0 | L'outil comme faculté objectivée — comparatisme islamo-platonico-védantin |
 | `doctrinal/symboles/pierre-noire-mecque` | symbole | traditionnel | 2026-06-20 | 0 | La Pierre Noire de la Mecque (al-Ḥajar al-Aswad) |
-| `doctrinal/symboles/poseidon` | symbole | academique | 2026-06-20 | 0 | Poséidon — lecture mythologique et philosophique |
+| `doctrinal/symboles/poseidon` | symbole | academique | 2026-06-20 | 0 | <span data-nom="poseidon" data-genre="entite">Poséidon</span> — lecture mythologique et philosophique |
 | `doctrinal/symboles/priere-mosquee-prophete` | symbole | traditionnel | 2026-06-20 | 0 | Signification de la prière à la Mosquée du Prophète (réelle et onirique) |
 | `doctrinal/symboles/rawda-sharif` | symbole | traditionnel | 2026-06-20 | 0 | Al-Rawḍa al-Sharīfa (le Jardin Béni de Médine) |
 | `doctrinal/symboles/salawat` | symbole | traditionnel | 2026-06-20 | 0 | Ṣalawāt |

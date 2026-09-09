@@ -4,7 +4,7 @@ type: projet
 statut_experience: exploratoire
 tags: [instrument, axe-unifie, nadis, reseau, macrocosme, microcosme, lataif, aqtab, registres, deduction]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: []
 links: ["[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]]", "[[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]]", "[[doctrinal/symboles/polarite-laterale-de-l-axe]]", "[[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]]", "[[doctrinal/sources/avalon-serpent-power-nadis-reseau]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]"]
 ---
@@ -83,7 +83,7 @@ n'a besoin d'être forcé, parce qu'aucun n'était requis.
 
 C'est la conséquence qui a le plus de portée. Si résidence et régence sont deux
 relations à deux **échelles** — cosmique et humaine — alors comparer les cieux
-planétaires aux *laṭāʾif* revient à comparer un macrocosme à un microcosme.
+planétaires aux *laṭāʾif* revient à comparer un <span data-nom="macrocosme" data-genre="principe">macrocosme</span> à un <span data-nom="microcosme" data-genre="principe">microcosme</span>.
 **C'est une erreur de catégorie, et c'est celle que j'ai commise.**
 
 Les comparaisons tractables sont celles qui respectent l'échelle :

@@ -3,7 +3,7 @@ title: "Activation du monitoring quotidien (cron) et correction HOME_CHANNEL —
 type: infrastructure
 tags: [rd, infrastructure, hermes, discord, studio, phase-3, cron, monitoring]
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16]]", "[[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]]"]
 infra_verif:
@@ -67,7 +67,7 @@ DISCORD_HOME_CHANNEL=1535173127695241248
 DISCORD_HOME_CHANNEL=1536564394690084925
 ```
 
-**Vérification** : après redémarrage du gateway (`hermes --profile
+**Vérification** : après redémarrage du gateway (`<span data-nom="hermes" data-genre="entite">hermes</span> --profile
 studio gateway restart`, PID 2011978, 04:54:16 UTC), le log confirme :
 
 ```

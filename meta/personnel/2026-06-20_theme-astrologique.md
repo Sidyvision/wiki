@@ -3,7 +3,7 @@ title: "Thème astrologique personnel (astrologie occidentale)"
 type: perso
 tags: [astrologie, profil-personnel]
 created: 2026-06-20
-updated: 2026-08-09
+updated: 2026-09-09
 sources: ["[[chatgpt-export-2026-05-10]]"]
 links: ["[[doctrinal/symboles/ilm-al-nujum]]", "[[meta/projet-unifie/archives/16-mise-en-regard-theme-natal-roue-agents-2026-08-08]]"]
 ---
@@ -26,7 +26,7 @@ indépendant par éphémérides (Swiss Ephemeris). Les positions vérifiées, co
 entre les deux sources à la minute d'arc près, sont :
 
 **23 juin 1986, 19h30 CEST (17h30 UT), Bobigny — domification Placidus.
-Placements retenus sous le cadre de l'*ʿilm al-nujūm* traditionnel
+Placements retenus sous le cadre de l'*<dfn data-terme="ilm-al-nujum" data-translit="ʿilm al-nujūm" data-tradition="islam">ʿilm al-nujūm</dfn>* traditionnel
 ([[doctrinal/symboles/ilm-al-nujum]]) : seules les sept planètes visibles.**
 
 | Point      | Signe / position | Maison | Dignité  |

@@ -8,7 +8,7 @@ createur: "Hideo Kojima"
 statut_analyse: en-cours
 tags: [auteur, jeu-video, kojima, japon, these-interactive]
 created: 2026-08-08
-updated: 2026-08-13
+updated: 2026-09-09
 sources: ["to-source"]
 liens: ["[[hermeneutique/auteurs/yoji-shinkawa]]", "[[hermeneutique/metal-gear/metal-gear]]", "[[hermeneutique/death-stranding/death-stranding]]", "[[hermeneutique/sources/art-of-death-stranding]]"]
 cles_doctrinales: ["[[doctrinal/symboles/outil-faculte-objectivee]]"]
@@ -25,7 +25,7 @@ liens_atelier: ["[[atelier/etudes-de-cas/kojima-productions]]"]
 
 ## 1. Position dans le circuit
 
-Kojima est versé ici comme **auteur**, c'est-à-dire comme l'instance de
+<span data-nom="kojima" data-genre="autorite">Kojima</span> est versé ici comme **auteur**, c'est-à-dire comme l'instance de
 production d'un ensemble d'interfaces vers le domaine intermédiaire — non comme
 une autorité. La forme de classement emprunte à `doctrinal/autorites/` ; la
 fonction ne s'y transporte pas (Cmd 3, voir l'amendement de taxonomie du
@@ -46,7 +46,7 @@ circuit.
 | Enfance | Kansai (région de Hyōgo) ; mort du père vers ses 13 ans | C |
 | Formation | études d'économie ; ambition première de cinéma et de littérature | C |
 | Entrée chez Konami | 1986, division MSX | C |
-| Première œuvre dirigée | *Metal Gear* (1987, MSX2) | B |
+| Première œuvre dirigée | *<span data-nom="metal-gear" data-genre="ouvrage">Metal Gear</span>* (1987, MSX2) | B |
 | Rupture avec Konami | 2015, à la sortie de *MGSV: The Phantom Pain* | B |
 | Kojima Productions (indépendant) | fondée en décembre 2015, Tokyo | B |
 
@@ -75,7 +75,7 @@ Trois procédés reviennent d'une œuvre à l'autre. Ils sont ici décrits comme
 laissée au jugement de Sidy.
 
 **a. La contrainte comme argument.** Le propos est logé dans ce que le jeu rend
-pénible, lent ou impossible. Le portage de *Death Stranding* n'illustre pas
+pénible, lent ou impossible. Le portage de *<span data-nom="death-stranding" data-genre="ouvrage">Death Stranding</span>* n'illustre pas
 l'effort du lien : il l'impose. La règle du non-létal dans *Metal Gear Solid*
 ne recommande pas la retenue : elle la tarifie. L'énoncé n'est jamais séparable
 de sa mise à l'épreuve.

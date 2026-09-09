@@ -3,7 +3,7 @@ title: Mamadou Doudou Sissoko
 type: meta
 tags: [genealogie, famille, sissoko, grand-pere-maternel, spiritualite, qadiriyya]
 created: 2026-06-07
-updated: 2026-08-22
+updated: 2026-09-09
 sources: ["[[arbre-genealogique-sissoko]]", "to-source"]
 links: ["[[sissoko-kankounan]]", "[[keme-kante]]", "[[hawa-kante]]", "[[fatoumata-sissoko]]", "[[sidy]]"]
 ---
@@ -22,7 +22,7 @@ Grand-père maternel de [[sidy]]. 4ème enfant de [[sissoko-kankounan]] et [[kem
 
 ## Lien spirituel
 
-- Sheikh : **Sheikh Sidy-Lamine Kunta** — branche de la Tariqa des Kunta, **Qadiriyya** (lien formel, attesté).
+- Sheikh : **Sheikh Sidy-Lamine Kunta** — branche de la Tariqa des Kunta, **<span data-nom="qadiriyya" data-genre="ecole">Qadiriyya</span>** (lien formel, attesté).
 - Fait remarquable : Sidy (petit-fils) porte le prénom du Sheikh de son grand-père maternel, pas celui du grand-père lui-même.
 
 ## Relations

@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [tawakkul, futuwwa, shukr, ghafla, journal, nafs, dunya]
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-09-09
 sources_count: 3
 cross_links: ["[[hasbiyallah-rabbani]]", "[[tawakkul]]", "[[futuwwa]]", "[[shukr]]", "[[ghafla]]", "[[hamza-yusuf]]", "[[platon]]"]
 ---
@@ -20,9 +20,9 @@ Réception du livret *Ḥasbiyallāh* de Faraz Rabbani (SeekersGuidance, 1447H) 
 
 ## Sur la condition humaine et la dunya
 
-La *dunya* comme épreuve structurelle — tout concourt à distraire de l'essentiel, et c'est dans cette distraction qu'interviennent l'anxiété, la peine et la solitude. Résonance avec le bouddhisme sur la souffrance et ses racines dans l'attachement (*dukkha*), et avec l'hindouisme sur l'ignorance (*avidyā*) comme racine du mal — trois formulations d'une même réalité : des êtres faits pour l'Absolu, exilés dans le relatif. En islam : *ghafla*, l'oubli.
+La *dunya* comme épreuve structurelle — tout concourt à distraire de l'essentiel, et c'est dans cette distraction qu'interviennent l'anxiété, la peine et la solitude. Résonance avec le bouddhisme sur la souffrance et ses racines dans l'attachement (*dukkha*), et avec l'hindouisme sur l'ignorance (*avidyā*) comme racine du mal — trois formulations d'une même réalité : des êtres faits pour l'Absolu, exilés dans le relatif. En islam : *<dfn data-terme="ghafla" data-translit="ghafla" data-tradition="islam">ghafla</dfn>*, l'oubli.
 
-Réconfort trouvé dans la compagnie de quelques amis. Application de l'enseignement de Sheikh Hamza Yusuf sur la *shukr* comme source d'abondance — la gratitude non comme discipline sentimentale mais comme orientation ontologique : voir ce qui est là plutôt que l'absence de ce qui manque. — source : [[hamza-yusuf]]
+Réconfort trouvé dans la compagnie de quelques amis. Application de l'enseignement de Sheikh <span data-nom="hamza-yusuf" data-genre="autorite">Hamza Yusuf</span> sur la *shukr* comme source d'abondance — la gratitude non comme discipline sentimentale mais comme orientation ontologique : voir ce qui est là plutôt que l'absence de ce qui manque. — source : [[hamza-yusuf]]
 
 ## Sur la démission
 
@@ -42,7 +42,7 @@ Question ouverte : quel est le statut de celui qui se laisse violer dans son int
 
 ~~Distinction entre *ʿilm* et *ḥāl* — savoir n'est pas encore être.~~ *(formulation inexacte — voir correction)*
 
-La formulation juste, qui ne contrevient pas à Platon (*epistémè* et être sont co-extensifs — le mal ne peut venir que de l'ignorance, *amathia*) : la connaissance *virtuelle* du *tawakkul* peut coexister avec un *ḥāl* non transformé. La connaissance *effective* ne le peut pas — elle *est* transformation. Entre le savoir virtuel et l'être transformé, il y a le chemin. — source : [[platon]], [[tawakkul]]
+La formulation juste, qui ne contrevient pas à <span data-nom="platon" data-genre="autorite">Platon</span> (*epistémè* et être sont co-extensifs — le mal ne peut venir que de l'ignorance, *amathia*) : la connaissance *virtuelle* du *<dfn data-terme="tawakkul" data-translit="tawakkul" data-tradition="islam">tawakkul</dfn>* peut coexister avec un *ḥāl* non transformé. La connaissance *effective* ne le peut pas — elle *est* transformation. Entre le savoir virtuel et l'être transformé, il y a le chemin. — source : [[platon]], [[tawakkul]]
 
 Hājar ﷺ entre Ṣafā et Marwa comme modèle : mouvement actif dans l'incertitude, sans garantie visible, sans passivité. Recherche active d'emploi en cours. Le chameau est attaché.
 

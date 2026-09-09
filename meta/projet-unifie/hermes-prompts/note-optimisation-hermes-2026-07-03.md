@@ -3,7 +3,7 @@ title: "Note d'optimisation — préparation de l'intégration Hermes Agent (202
 type: meta
 tags: [outillage, projet-claude-ai, infrastructure, hermes, qwen, decisions]
 created: 2026-07-03
-updated: 2026-07-08
+updated: 2026-09-09
 ---
 
 # Note d'optimisation — vers l'intégration Hermes
@@ -19,7 +19,7 @@ Le briefing 10 conditionnait tout à « endpoint vLLM répond, test de régressi
 - Endpoint `Qwen/Qwen3.6-27B-FP8` opérationnel (A100 PCIe, vLLM 0.19.1).
 - Régression atelier **8 ✓ / 0 ✗**, doctrinal **12 ✓ / 0 ✗** (détail : `11-…`).
 
-La voie est ouverte pour la **Phase 1** (installation Hermes sur Hetzner, `hermes model` pointant
+La voie est ouverte pour la **Phase 1** (installation <span data-nom="hermes" data-genre="entite">Hermes</span> sur Hetzner, `hermes model` pointant
 l'endpoint RunPod, validation en CLI pur).
 
 ## 2. Point structurel favorable : Hermes échappe au bug Claude Code

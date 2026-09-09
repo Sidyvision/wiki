@@ -3,7 +3,7 @@ title: "Spécification — Archivage du rapport de monitoring infrastructure quo
 type: outillage
 tags: [rd, outillage, infrastructure, monitoring, hermes]
 created: 2026-08-18
-updated: 2026-08-19
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/infrastructure/monitoring-archive-charte]]", "[[atelier/rd/cahiers/registre-problemes]]"]
 ---
@@ -19,7 +19,7 @@ links: ["[[atelier/rd/infrastructure/monitoring-archive-charte]]", "[[atelier/rd
 
 ## 1. Problème traité
 
-Le job Hermes `monitoring-infrastructure-quotidien` (profil `studio`, cron
+Le job <span data-nom="hermes" data-genre="entite">Hermes</span> `monitoring-infrastructure-quotidien` (profil `studio`, cron
 `0 12 * * *`) livre son rapport uniquement sur Discord (canal
 `#infrastructure`) — aucune trace n'en subsiste dans le dépôt. Un rapport
 manqué, un incident Discord, ou simplement le besoin de relire l'historique

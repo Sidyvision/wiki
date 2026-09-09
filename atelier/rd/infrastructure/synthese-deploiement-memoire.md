@@ -3,7 +3,7 @@ title: "Synthèse déploiement mémoire persistante — 14 profils Hermes"
 type: infrastructure
 tags: [rd, hermes, memoire, deployement]
 created: 2026-08-23
-updated: 2026-09-01
+updated: 2026-09-09
 sources: []
 links: []
 ---
@@ -22,7 +22,7 @@ links: []
 
 ## Problème initial
 
-**Symptôme** : après 20+ sessions, Hermes ne se souvenait de rien. Chaque session démarrait à zéro, obligeant Sidy à réexpliquer le contexte complet.
+**Symptôme** : après 20+ sessions, <span data-nom="hermes" data-genre="entite">Hermes</span> ne se souvenait de rien. Chaque session démarrait à zéro, obligeant Sidy à réexpliquer le contexte complet.
 
 **Cause racine** : les fichiers USER.md et MEMORY.md du profil default n'existaient pas. Hermes Agent injecte automatiquement ces fichiers dans chaque session, mais ils n'avaient jamais été créés.
 

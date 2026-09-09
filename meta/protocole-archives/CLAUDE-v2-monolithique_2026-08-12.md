@@ -3,7 +3,7 @@ title: "CLAUDE.md — Protocole du Dépôt V2 (version monolithique, archivée)"
 type: meta
 status: deprecated
 created: 2026-06-11
-updated: 2026-08-12
+updated: 2026-09-09
 ---
 
 # ⚠️ Version archivée — pré-éclatement (2026-08-12)
@@ -491,7 +491,7 @@ liens_atelier: []                    # sens unique vers atelier/etudes-de-cas/ e
 - **Clause de plasticité (structurelle).** La souplesse de ce circuit tient à ce
   qu'une idée peut y exister et mûrir *sans rien engager doctrinalement* — non à ce
   que les outils de discernement y soient suspendus. Le domaine intermédiaire est
-  par nature ambivalent : la grille des 11 marqueurs de contre-initiation reste
+  par nature ambivalent : la grille des 11 marqueurs de <dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="universel">contre-initiation</dfn> reste
   disponible en référence, et tout passage où une production (humaine ou IA)
   encouragerait l'abandon du discernement critique, ou présenterait une expérience
   comme irréversible et soustraite à toute vérification, doit être signalé avec la

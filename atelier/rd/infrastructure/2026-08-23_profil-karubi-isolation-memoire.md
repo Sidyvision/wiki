@@ -3,7 +3,7 @@ title: "Déploiement profil karubi — Isolation mémoire sub-agent"
 type: infrastructure
 tags: [rd, hermes, memoire, isolation, karubi]
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-09
 sources: []
 links: []
 ---
@@ -14,7 +14,7 @@ links: []
 
 **Problème identifié** : Le skill Karūbī-Hermes nécessite un sub-agent qui ne doit pas avoir accès à la mémoire principale (MEMORY.md/USER.md du profil gardien).
 
-**Investigation code source Hermes v0.20.5** :
+**Investigation code source <span data-nom="hermes" data-genre="entite">Hermes</span> v0.20.5** :
 - Fichier `agent/agent_init.py` ligne 578 : paramètre `skip_memory` dans signature `_create_agent()`
 - Fichier `agent/agent_init.py` lignes 1842-1871 : logique initialisation mémoire
 - Fichier `tools/async_delegation.py` : sub-agents héritent configuration profil parent

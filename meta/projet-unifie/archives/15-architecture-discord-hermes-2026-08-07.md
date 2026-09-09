@@ -3,7 +3,7 @@ title: "15 — Architecture Discord des 12 agents Hermes (2026-08-07)"
 type: meta
 tags: [outillage, projet-claude-ai, infrastructure, hermes, discord, runbook]
 created: 2026-08-07
-updated: 2026-08-16
+updated: 2026-09-09
 ---
 
 # 15 — Architecture Discord des 12 agents Hermes (2026-08-07)
@@ -40,7 +40,7 @@ Git, y compris après suppression du fichier).
 Un serveur Discord privé unique héberge tous les agents. Chaque agent = une application
 Discord distincte (bot séparé, token séparé — pas de token partagé entre profils).
 
-| # | Profil Hermes | Rôle (prompt source) | Salon(s) Discord |
+| # | Profil <span data-nom="hermes" data-genre="entite">Hermes</span> | Rôle (prompt source) | Salon(s) Discord |
 |---|---|---|---|
 | 01 | `ar-music` | Direction artistique musicale | `#marketing` |
 | 02 | `visual-da` | Direction artistique visuelle (+ technique image, cf. commit `0d96231`) | `#analog-wizard` |

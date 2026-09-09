@@ -8,7 +8,7 @@ createur: "Yoji Shinkawa (direction artistique) — Kojima Productions"
 statut_analyse: en-cours
 tags: [source, source-visuelle, artbook, death-stranding, concept-art, traduction-machine]
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-09-09
 sources: []
 liens: ["[[hermeneutique/death-stranding/death-stranding]]", "[[hermeneutique/auteurs/yoji-shinkawa]]", "[[hermeneutique/auteurs/hideo-kojima]]"]
 cles_doctrinales: []
@@ -36,7 +36,7 @@ PDF 1.6, 258 pages, 62 672 551 octets, producteur `iLovePDF`, ModDate 2025-07-29
 | Étage | |
 |---|---|
 | Original | Titan Books, Londres |
-| Édition intermédiaire | *Мир игры Death Stranding* — М.: ЭКСМО, 2019, 256 p., ISBN 978-5-04-109283-2, tirage 2 500 ex., BAT 15/12/2019, éd. russe Comme il Faut LTD |
+| Édition intermédiaire | *Мир игры <span data-nom="death-stranding" data-genre="ouvrage">Death Stranding</span>* — М.: ЭКСМО, 2019, 256 p., ISBN 978-5-04-109283-2, tirage 2 500 ex., BAT 15/12/2019, éd. russe Comme il Faut LTD |
 | Exemplaire déposé | retraduction **automatique** russe → anglais (`onlinedoctranslator.com`, mention en p. 1 du PDF) |
 
 **Rang : artefact linguistique tertiaire** (anglais → russe → anglais-machine).

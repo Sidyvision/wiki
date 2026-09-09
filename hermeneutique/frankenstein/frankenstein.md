@@ -8,7 +8,7 @@ createur: "Mary Shelley"
 statut_analyse: brouillon
 tags: [roman, gothique, creation-artificielle, monstre, promethee, alchimie]
 created: 2026-08-30
-updated: 2026-08-30
+updated: 2026-09-09
 sources: ["to-source"]
 liens: ["[[hermeneutique/auteurs/mary-shelley]]"]
 cles_doctrinales: []
@@ -28,7 +28,7 @@ pertinents dans une fiche distincte, sur décision de Sidy.*
 - **Statut** : `to-source` — la matière est en attente de vérification primaire
   par Sidy. Les données ci-dessous sont consignées comme corpus brut, aucune
   n'est ancrée.
-- **Nature du corpus** : roman de Mary Shelley (1818), figure moderne de la
+- **Nature du corpus** : roman de <span data-nom="mary-shelley" data-genre="autorite">Mary Shelley</span> (1818), figure moderne de la
   création artificielle d'un être par un savant. Motif à mettre en regard avec
   d'autres figures analogues (figure traditionnelle : Golem, cf. doctrinal).
 - **Lien avec le discernement en cours** : le discernement
@@ -53,7 +53,7 @@ pertinents dans une fiche distincte, sur décision de Sidy.*
   suicider dans les glaces arctiques.
 - Thèmes centraux : responsabilité du créateur, limites de la science,
   solitude du monstre, transgression des bornes naturelles.
-- Portée symbolique : Frankenstein comme avatar moderne du Prométhée (voleur
+- Portée symbolique : Frankenstein comme avatar moderne du <span data-nom="promethee" data-genre="entite">Prométhée</span> (voleur
   du feu divin), comme écho sécularisé du Golem (création artificielle d'un
   être par un sage), comme mise en garde contre l'hybris scientifique.
 

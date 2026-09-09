@@ -3,7 +3,7 @@ title: "Mise en regard du thème natal vérifié avec la roue zodiacale des agen
 type: meta
 tags: [zodiaque, agents, label, astrologie, discernement, harmonisation, en-cours]
 created: 2026-08-08
-updated: 2026-08-09
+updated: 2026-09-09
 sources:
   - "[[doctrinal/symboles/ilm-al-nujum]]"
   - "[[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]]"
@@ -37,7 +37,7 @@ status: analyse — aucune décision prise, signalement pour verdict
    al-burūj* conduit, module et particularise l'influence spirituelle vers les degrés
    de la manifestation qui lui sont subordonnés, selon les conditions propres du degré
    où elle s'applique.
-3. **Le cadre de lecture est celui de l'*ʿilm al-nujūm* traditionnel**
+3. **Le cadre de lecture est celui de l'*<dfn data-terme="ilm-al-nujum" data-translit="ʿilm al-nujūm" data-tradition="islam">ʿilm al-nujūm</dfn>* traditionnel**
    ([[doctrinal/symboles/ilm-al-nujum]]) : seules les **sept planètes visibles**
    (Soleil, Lune, Mercure, Vénus, Mars, Jupiter, Saturne) sont considérées ; Uranus,
    Neptune, Pluton sont exclues par construction ; zodiaque tropical ; dignités

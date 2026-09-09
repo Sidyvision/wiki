@@ -4,7 +4,7 @@ type: meta
 statut: brouillon
 cible: "atelier/rd/index.md — État de la phase 1 partielle, §« Non inclus »"
 created: 2026-08-11
-updated: 2026-08-16
+updated: 2026-09-09
 tags: [atelier, rd, phase3, hermes, veille, infrastructure]
 sources: []
 links: ["[[atelier/rd/index]]"]
@@ -70,7 +70,7 @@ Trois questions distinctes, tranchées séparément — verdicts Sidy du
 2026-08-11 :
 
 1. **Qui** — ~~**routine côté poste INTÉGRATION** (session Claude Code
-   périodique/planifiée sur le serveur), **pas un agent Hermes dédié**.
+   périodique/planifiée sur le serveur), **pas un agent <span data-nom="hermes" data-genre="entite">Hermes</span> dédié**.
    Motif retenu : cohérent avec le statu quo du cloisonnement technique
    Hermes (accès FS restreint, retour d'expérience en cours — cf. mémoire
    « Cloisonnement technique Hermes ») ; réutilise un poste déjà cadré par le

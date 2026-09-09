@@ -8,7 +8,7 @@ createur: "Akira Toriyama"
 statut_analyse: brouillon
 tags: [shonen, jump, comedie, science-fiction]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-09-09
 sources:
   - "https://www.universalis.fr/encyclopedie/toriyama-akira-1955-2024/"
   - "https://lecture-facile.fr/blogs/blog-lecture/akira-toriyama-biographie"
@@ -25,7 +25,7 @@ liens_atelier: []
 
 ## Présentation
 
-Première grande série de Toriyama, publiée dans le *Weekly Shōnen Jump* de 1980 à
+Première grande série de Toriyama, publiée dans le *Weekly Shōnen <span data-nom="jump" data-genre="ouvrage">Jump</span>* de 1980 à
 1984 (18 volumes reliés). Elle installe Toriyama comme mangaka de premier plan et lui
 vaut le Shogakukan Manga Award de la meilleure série shōnen/shōjo de l'année 1981.
 Le récit suit le quotidien du scientifique excentrique Senbei Norimaki et de son

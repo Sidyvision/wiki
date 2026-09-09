@@ -8,7 +8,7 @@ createur: ""
 statut_analyse: brouillon
 tags: [auteur, mangaka, shonen, jump]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-09-09
 sources:
   - "https://www.universalis.fr/encyclopedie/toriyama-akira-1955-2024/"
   - "https://www.manga-news.com/index.php/auteur/Toriyama-Akira"
@@ -33,9 +33,9 @@ travaille brièvement comme graphiste en agence de publicité avant de quitter c
 jugé trop contraignant pour une expression personnelle. Il meurt le 1er mars 2024.
 
 Sa carrière de mangaka démarre en 1978 avec *Wonder Island*, publié dans le *Weekly
-Shōnen Jump* — travail repéré par l'éditeur Kazuhiko Torishima, qui deviendra sa
-figure tutélaire éditoriale. Le vrai décollage a lieu avec *Dr Slump* (1980-1984), puis
-avec *Dragon Ball* (1984-1995), qui installe Toriyama comme l'un des piliers du
+Shōnen <span data-nom="jump" data-genre="ouvrage">Jump</span>* — travail repéré par l'éditeur Kazuhiko Torishima, qui deviendra sa
+figure tutélaire éditoriale. Le vrai décollage a lieu avec *<span data-nom="dr-slump" data-genre="ouvrage">Dr Slump</span>* (1980-1984), puis
+avec *<span data-nom="dragon-ball" data-genre="ouvrage">Dragon Ball</span>* (1984-1995), qui installe Toriyama comme l'un des piliers du
 *Weekly Shōnen Jump* et, plus largement, comme une référence structurelle du genre
 shōnen — à l'égal, par l'ampleur de l'influence stylistique, d'un Osamu Tezuka pour la
 génération précédente.

@@ -3,7 +3,7 @@ title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-09-09
 sources: []
 links: []
 ---
@@ -218,7 +218,7 @@ tradition permettrait de distinguer — sans jamais forcer la coïncidence.
 
 #### `doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`
 
-*Sayyid al-Awwalîn wa-l-Âkhirîn, jonction cyclique premier/dernier, et allusion au Khatm*
+*Sayyid al-Awwalîn wa-l-Âkhirîn, jonction cyclique premier/dernier, et allusion au <dfn data-terme="khatm" data-translit="Khatm" data-tradition="islam">Khatm</dfn>*
 
 **Statut** : en cours
 **Hypothèse initiale** (Sidy, 2026-07-14, reformulée fidèlement) : le titre prophétique
@@ -617,7 +617,7 @@ valide, ici même. Discernement clos.
 *Équipe d'agents Hermes — 12 fonctions, 5 archétypes*
 
 ⚠️ La correspondance des deux plans avec la doctrine (5 archétypes ↔ Cinq Présences
-*hadarat khams* ; 12 fonctions ↔ duodénaire zodiacal) est **suggérée, non validée** :
+*<dfn data-terme="hadarat-khams" data-translit="hadarat khams" data-tradition="islam">hadarat khams</dfn>* ; 12 fonctions ↔ duodénaire zodiacal) est **suggérée, non validée** :
 elle fait l'objet d'une fiche `discernement/` côté doctrinal
 (`2026-07-05_correspondances-fonctions-initiatiques-entreprise`), dont le verdict
 appartient à Sidy (Cmd 12). Tant qu'elle n'est pas validée, la traiter comme une

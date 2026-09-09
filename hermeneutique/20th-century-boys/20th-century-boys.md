@@ -8,7 +8,7 @@ createur: "Naoki Urasawa"
 statut_analyse: brouillon
 tags: [seinen, secte, prophetie, symbole, manipulation-des-masses]
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-09-09
 sources:
   - "https://www.nautiljon.com/mangas/20th+century+boys.html"
   - "https://www.bdgest.com/forum/je-sais-qui-est-ami-20th-century-boys-t10249-840.html"
@@ -84,7 +84,7 @@ opposées selon la main qui le porte.
   Century Boys* — un pouvoir qui se donne les habits du sauveur en étant la source
   du mal annoncé, et qui retourne un symbole de sens positif en instrument de
   domination — présente une **analogie de forme** avec les mécanismes que Guénon
-  décrit sous les catégories de contre-initiation et de renversement des symboles.
+  décrit sous les catégories de <dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="universel">contre-initiation</dfn> et de <span data-nom="renversement-des-symboles" data-genre="principe">renversement des symboles</span>.
   Les auteurs eux-mêmes ancrent cette matière dans un référent historique daté et
   non ésotérique (la secte Aum, 1995).
 - **Ce que ces rapprochements n'établissent pas** : aucune identification n'est

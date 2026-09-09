@@ -3,7 +3,7 @@ title: "Charte — Archive du monitoring infrastructure quotidien"
 type: infrastructure
 tags: [rd, infrastructure, monitoring, hermes, archive]
 created: 2026-08-18
-updated: 2026-09-02
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/outillage/spec-archiver-monitoring-quotidien]]", "[[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17]]", "[[atelier/rd/cahiers/registre-problemes]]"]
 infra_verif:
@@ -26,7 +26,7 @@ surveille).
 ## Contenu du dossier
 
 `atelier/rd/infrastructure/monitoring-archive/<YYYY-MM-DD>_<job_id>.txt` —
-une copie par exécution du job Hermes `monitoring-infrastructure-quotidien`
+une copie par exécution du job <span data-nom="hermes" data-genre="entite">Hermes</span> `monitoring-infrastructure-quotidien`
 (profil `studio`, id `41dc3e7e492c`), format `.txt` **délibérément**, jamais
 `.md` (raison détaillée : [[atelier/rd/outillage/spec-archiver-monitoring-quotidien]]
 §3 — le rapport cite des tokens `[[...]]` littéraux qui feraient s'auto-

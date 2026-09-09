@@ -4,7 +4,7 @@ type: projet
 statut_experience: exploratoire
 tags: [instrument, phase-3, kabbale, sephiroth, registres, architecture]
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]", "[[atelier/rd/outillage/spec-generateur-manifeste]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/sources/kabbale-10-sefirot-structure]]", "[[doctrinal/sources/sefer-yetsira-ramban]]", "[[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]]", "[[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]", "[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]"]
 ---
@@ -31,7 +31,7 @@ Rappel du cadre, tel que Sidy l'a restitué :
 - L'identité *al-Insān al-Kāmil = Adam Qadmôn = Wang = Vaishwânara* étant
   **close** ([[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]],
   2026-07-26), **il s'agit du même axe vertical**.
-- *Sephiroth* et *chakras* sont des **centres décrivant des domaines** qui
+- *<span data-nom="sephiroth" data-genre="entite">Sephiroth</span>* et *chakras* sont des **centres décrivant des domaines** qui
   s'établissent le long de cet axe.
 - Chaque tradition orthodoxe est l'expression particulière de la **même**
   Réalité, et **n'a pas à rendre une même notion par une même expression**.
@@ -53,7 +53,7 @@ Rappel du cadre, tel que Sidy l'a restitué :
    n'est pas importer une correspondance : c'est employer un verdict rendu.
 
 Une troisième affirmation était fausse : la fiche prétendait qu'il manquait
-« une fondation équivalente à `hadarat-khams` pour la Kabbale ». Elle existe —
+« une fondation équivalente à `hadarat-khams` pour la <span data-nom="kabbale" data-genre="ecole">Kabbale</span> ». Elle existe —
 [[doctrinal/sources/kabbale-10-sefirot-structure]], `status: traditionnel`,
 donnant les 10 Sephiroth, leurs **trois colonnes** et leurs rangs, sourcée
 Guénon (via Vulliaud) et texte primaire du *Sefer Yetsira* (commentaire du

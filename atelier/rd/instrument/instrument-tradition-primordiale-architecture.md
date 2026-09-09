@@ -3,7 +3,7 @@ title: "Instrument de la Tradition Primordiale — Architecture Fondamentale (v0
 type: projet
 tags: [architecture, mandala, tradition-primordiale, tasawwuf, kabbale, conceptuel]
 created: 2026-06-28
-updated: 2026-06-28
+updated: 2026-09-09
 sources: []
 links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/alam-al-mithal]]"]
 ---
@@ -34,7 +34,7 @@ links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/alam-al-mitha
 
 Ce n'est ni une application de visualisation comparative entre traditions séparées, ni un
 simple habillage graphique du wiki. C'est un **mandala** — objet de contemplation
-personnelle — qui est simultanément un **instrument d'étude** de la Tradition Primordiale :
+personnelle — qui est simultanément un **instrument d'étude** de la <span data-nom="tradition-primordiale" data-genre="cycle">Tradition Primordiale</span> :
 l'unité de principe sous-jacente aux formes traditionnelles multiples, telle que Guénon la
 pose. L'app est conçue comme l'**interface graphique du LLM-Wiki**, le complétant sous
 certains aspects, jamais comme un doublon ou une source de vérité autonome.
@@ -57,7 +57,7 @@ réelle de travail doctrinal dans le wiki (correspondances confirmées, discerne
 ### 1.1 Comportement au basculement de tradition
 
 - La tradition sélectionnée s'affiche en **sur-brillance**, dans sa géométrie native réelle
-  (les degrés effectifs du Tasawwuf, les dix Sephiroth de la Kabbale, etc. — jamais une
+  (les degrés effectifs du <dfn data-terme="tasawwuf" data-translit="Tasawwuf" data-tradition="islam">Tasawwuf</dfn>, les dix Sephiroth de la <span data-nom="kabbale" data-genre="ecole">Kabbale</span>, etc. — jamais une
   géométrie générique imposée).
 - Les traditions non sélectionnées restent visibles en **transparence**, sur la même scène —
   jamais masquées complètement. C'est l'affirmation visuelle de l'unité de principe : les
@@ -152,7 +152,7 @@ toujours accessible, jamais en conflit avec le contenu.
 
 Le Tasawwuf est la première tradition implémentée, en cohérence avec son développement déjà
 avancé dans le wiki (`doctrinal/traditions/tasawwuf`, et les nombreuses pages liées :
-barzakh, walaya, al-insan-al-kamil, etc.). Les autres traditions apparaissent dans la bande
+barzakh, walaya, <dfn data-terme="al-insan-al-kamil" data-translit="al-insan-al-kamil" data-tradition="islam">al-insan-al-kamil</dfn>, etc.). Les autres traditions apparaissent dans la bande
 de sélection mais peuvent rester à l'état "à venir" sans bloquer l'architecture.
 
 ---

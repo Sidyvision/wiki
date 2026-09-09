@@ -3,7 +3,7 @@ title: "Activation du salon #infrastructure — allowlist du profil studio (2026
 type: infrastructure
 tags: [rd, infrastructure, hermes, discord, studio, phase-3]
 created: 2026-08-16
-updated: 2026-08-17
+updated: 2026-09-09
 sources: []
 links: ["[[meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07]]", "[[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]]", "[[atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16]]"]
 infra_verif:
@@ -75,7 +75,7 @@ deux gestes sont distincts :
 
 - **Création du salon** : acte Discord (humain ou bot admin).
 - **Autorisation de l'agent à y répondre** : acte de configuration
-  Hermes (édition du `.env` du profil concerné + restart).
+  <span data-nom="hermes" data-genre="entite">Hermes</span> (édition du `.env` du profil concerné + restart).
 
 Cette fiche documente le deuxième geste, qui avait été omis après
 la création du salon. Pour tout futur salon confié à un agent

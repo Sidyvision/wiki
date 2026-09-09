@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-09-06
+updated: 2026-09-09
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -490,7 +490,7 @@ serveur) : signalés, non redémarrés — rejoint le blocage déjà consigné e
   reste suivait mécaniquement — deux choses distinctes ne peuvent se rapporter que par
   ressemblance de forme (`homologie`), et rapprocher deux ordres distincts déclenche
   l'alarme du Non-Syncrétisme (renvoi Cmd 3). Les textes localisés ensuite disent qu'il
-  n'y a pas deux termes : « *jîvâtmâ* ne se distingue d'*Âtmâ* qu'en mode illusoire »
+  n'y a pas deux termes : « *<dfn data-terme="jivatma" data-translit="jîvâtmâ" data-tradition="hindouisme">jîvâtmâ</dfn>* ne se distingue d'*Âtmâ* qu'en mode illusoire »
   (Âtmâ-Gîtâ), et que la contingence est le **mode d'action même** de l'*upaguru*, non
   sa disqualification — « le rôle propre de celui-ci n'est nullement diminué par là »
   (IRS ch. XX). J'avais lu une définition comme un déclassement.

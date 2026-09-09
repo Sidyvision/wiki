@@ -3,7 +3,7 @@ title: "Proposition — Pôle Usûl (supersède le Pôle Fiqh du 2026-07-06)"
 type: meta
 tags: [outillage, projet-claude-ai, usul, fiqh, doctrinal, proposition]
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-09
 ---
 
 # Proposition — Pôle Usûl du dépôt
@@ -20,7 +20,7 @@ updated: 2026-08-27
 Cette proposition **remplace**
 `meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06.md`, validée par Sidy le
 2026-07-06. Rien du contenu déjà validé n'est perdu : il est **migré
-intégralement** comme la branche Fiqh du pôle Usûl (§2 ci-dessous). Si cette
+intégralement** comme la branche <dfn data-terme="fiqh" data-translit="Fiqh" data-tradition="islam">Fiqh</dfn> du pôle Usûl (§2 ci-dessous). Si cette
 proposition est validée, la fiche du 2026-07-06 passe en `deprecated` avec
 pointeur vers la présente fiche (Cmd 10 — jamais de suppression sèche),
 suivant le même geste que la migration `atelier/projets/` → `atelier/rd/`

@@ -4,7 +4,7 @@ type: projet
 chantier: INS-15
 tags: [atelier, rd, instrument, chantier, spec, polaire, cycles, tilak]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-09
 sources: []
 links:
   - "[[atelier/rd/instrument/ins-15-situation-polaire/intent]]"
@@ -54,13 +54,13 @@ comme tel. Le mode cosmologique ne s'ouvre jamais sans elle.
    dès qu'on en descend.
 6. **L'aurore** — une bande sur l'horizon sous le soleil, quand celui-ci est entre le
    seuil crépusculaire et l'horizon ; elle tourne avec lui, un tour par 24 h.
-7. **La roue du Manvantara** — les quatre Yuga en secteurs proportionnels, posée sous
+7. **La roue du <span data-nom="manvantara" data-genre="cycle">Manvantara</span>** — les quatre Yuga en secteurs proportionnels, posée sous
    l'horizon (échelle du cycle, non du jour), avec son aiguille précessionnelle.
 
 ### 1.3 Le curseur de latitude — ce qu'il sert à montrer
 
 De 90° à 66,56°, il fait **voir** le passage du régime polaire au régime
-circum-polaire. Ce n'est pas un réglage de confort : c'est la distinction que Tilak
+circum-polaire. Ce n'est pas un réglage de confort : c'est la distinction que <span data-nom="tilak" data-genre="autorite">Tilak</span>
 établit au ch. III, et elle se démontre seule dès que la latitude bouge.
 
 ## 2. La matière de Tilak, transcrite

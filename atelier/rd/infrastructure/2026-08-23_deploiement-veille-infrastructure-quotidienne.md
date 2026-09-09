@@ -4,7 +4,7 @@ type: infrastructure
 statut_experience: exploratoire
 tags: [rd, infrastructure, veille, cron, hermes, verification]
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-09
 sources: []
 links:
   - "[[atelier/rd/index]]"
@@ -25,7 +25,7 @@ links:
 | Pièce | État constaté |
 |---|---|
 | `atelier/rd/infrastructure/scripts/veille-infrastructure-quotidien.sh` | **existe**, exécutable (`-rwxr-xr-x`, 1745 octets, 2026-08-23) |
-| Job cron `veille-infrastructure-quotidien` | **n'existe dans aucun profil Hermes** |
+| Job cron `veille-infrastructure-quotidien` | **n'existe dans aucun profil <span data-nom="hermes" data-genre="entite">Hermes</span>** |
 | Job cron `veille-rd-hebdomadaire` | **n'existe dans aucun profil Hermes** |
 | Job cron `investigation-doctrinale-gardien` | **n'existe dans aucun profil Hermes** |
 

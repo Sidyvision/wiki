@@ -3,7 +3,7 @@ title: "Sessions par fonction + backlogs (questions / vigilance / discernement)"
 type: meta
 tags: [outillage, projet-claude-ai, sessions, backlog, vigilance, discernement, questions]
 created: 2026-06-28
-updated: 2026-09-01
+updated: 2026-09-09
 ---
 
 # Sessions par fonction + backlogs
@@ -172,7 +172,7 @@ Pour chaque fonction : *objectif · poste(s) · entrées → sorties · mini-pro
 - ✅ **tranchée (`traditionnel`)** — `2026-06-11_llm-wiki-correction-doctrinale` — rectification guénonienne (supra-/infra-rationnel,
   contrefaçon cyclique, khalīfa, agrégat artificiel).
 - `2026-06-20_visions-centre-nocturne` — Centre nocturne, monde imaginal, « mémoire pré-existentielle ».
-- `2026-06-20_matrices-artificielles-barzakh` — « technologisation du miracle » vs Barzakh.
+- `2026-06-20_matrices-artificielles-barzakh` — « technologisation du miracle » vs <dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn>.
 - `2026-06-20_triptyque-medine-jeu-de-piste` — méthode du « jeu de piste » (clôture narrative, ṭiyara).
 - `2026-06-20_experience-lefke-materia-secunda` — cordon dorsal, « Mère », petites entités.
 - `2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya` — **point sensible** : question d'autorité spirituelle ;

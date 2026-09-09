@@ -3,7 +3,7 @@ title: "Le rêve de l'oiseau vert à quatre yeux et le « frère-serpent » de l
 type: perso
 tags: [reve, jumeau-spirituel, genealogie, tariqa, confidentiel]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-09
 sources: ["[[chatgpt-export-2026-05-10]]"]
 links: ["[[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]]", "[[meta/2026-06-20_signature-kouyate]]"]
 ---
@@ -14,7 +14,7 @@ links: ["[[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]
 
 ## Le rêve de l'oiseau (fait rapporté)
 
-Sidy se voit, dans un rêve, sous la forme d'un oiseau vert à quatre yeux, battu par un individu identifié comme une **figure publique d'une Tariqa renommée**, agissant sur l'insistance d'un de ses aînés au sein du même groupe — l'idée étant de lui faire subir une « épreuve de passage ». Sidy précise être lui-même cet oiseau dans le rêve.
+Sidy se voit, dans un rêve, sous la forme d'un oiseau vert à quatre yeux, battu par un individu identifié comme une **figure publique d'une <dfn data-terme="tariqa" data-translit="Tariqa" data-tradition="islam">Tariqa</dfn> renommée**, agissant sur l'insistance d'un de ses aînés au sein du même groupe — l'idée étant de lui faire subir une « épreuve de passage ». Sidy précise être lui-même cet oiseau dans le rêve.
 
 > Note de confidentialité : la « figure publique d'une Tariqa renommée » n'est pas nommée par Sidy dans cette conversation. Si elle l'était dans une conversation ultérieure, l'identité ne devrait jamais être répercutée dans une page doctrinale publique du wiki.
 

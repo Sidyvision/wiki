@@ -3,7 +3,7 @@ title: "Bourdonnement perçu à la tempe (post-khalwa)"
 type: perso
 tags: [sante, khalwa, suivi]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-09
 sources: ["[[chatgpt-export-2026-05-10]]"]
 links: ["[[doctrinal/symboles/khalwa]]"]
 ---
@@ -18,7 +18,7 @@ Question sur l'existence de témoignages de personnes percevant un son (bourdonn
 
 ## Contexte donné directement par Sidy (2026-06-20)
 
-Ce symptôme est survenu à la suite d'une khalwa — c'est ce lien qui justifie le classement de cette fiche en regard du symbole [[doctrinal/symboles/khalwa]], plutôt qu'en simple question de santé isolée.
+Ce symptôme est survenu à la suite d'une <dfn data-terme="khalwa" data-translit="khalwa" data-tradition="islam">khalwa</dfn> — c'est ce lien qui justifie le classement de cette fiche en regard du symbole [[doctrinal/symboles/khalwa]], plutôt qu'en simple question de santé isolée.
 
 ## Troisième occurrence (2026-06-20, source : conversation « Bourdonnement tempe droite », #77, 2025-09-09)
 

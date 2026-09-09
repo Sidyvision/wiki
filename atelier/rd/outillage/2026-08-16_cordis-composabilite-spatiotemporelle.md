@@ -4,7 +4,7 @@ type: outillage
 tags: [rd, outillage, paradigme, composition-dynamique, hermes, cordis, sashimono]
 statut: brouillon
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/index]]", "[[atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11]]", "[[atelier/rd/cahiers/registre-problemes]]", "[[meta/philosophie-sashimono]]", "[[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]]"]
 statut_experience: exploratoire
@@ -122,7 +122,7 @@ n'est qu'un éclairage.
 
 Ce que cette résonance **ne dit pas** : elle ne fait pas de Cordis une
 « application » de la philosophie du dépôt (aucune généalogie), et elle ne
-tranche pas la piste Hermes du §8 — elle observe seulement qu'un paradigme
+tranche pas la piste <span data-nom="hermes" data-genre="entite">Hermes</span> du §8 — elle observe seulement qu'un paradigme
 d'ingénierie logicielle indépendant, formalisé et validé en production
 (Koishi), converge de forme avec un vocabulaire déjà opératoire ici. Verdict
 sur la portée de ce rapprochement : à Sidy (Cmd 12).

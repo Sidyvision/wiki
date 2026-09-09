@@ -3,7 +3,7 @@ title: "Carte du dépôt — inventaire mécanique"
 type: meta
 tags: [outillage, carte, derive, genere]
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-09
 sources: []
 links: []
 ---
@@ -45,9 +45,9 @@ links: []
 | `hermeneutique/dragon-ball/dragon-ball` | oeuvre | — | 2026-08-16 | — | Dragon Ball |
 | `hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire` | concept | — | 2026-08-20 | — | Barzakh onirique et interface littéraire — l'ʿālam al-mithāl comme espace de la fiction |
 | `hermeneutique/expression/2026-09-01_athanor-matrices-artificielles` | concept | — | 2026-09-01 | — | L'athanor de Burckhardt et la figure des matrices artificielles — autotransmutation vs. c… |
-| `hermeneutique/frankenstein/frankenstein` | oeuvre | — | 2026-08-30 | — | Frankenstein ou le Prométhée moderne |
+| `hermeneutique/frankenstein/frankenstein` | oeuvre | — | 2026-08-30 | — | <span data-nom="frankenstein" data-genre="ouvrage">Frankenstein</span> ou le Prométhée moderne |
 | `hermeneutique/hunter-x-hunter/hunter-association-licence` | dispositif | — | 2026-08-12 | — | Hunter — association et licence |
-| `hermeneutique/hunter-x-hunter/hunter-x-hunter` | oeuvre | — | 2026-08-12 | — | Hunter x Hunter |
+| `hermeneutique/hunter-x-hunter/hunter-x-hunter` | oeuvre | — | 2026-08-12 | — | <span data-nom="hunter-x-hunter" data-genre="ouvrage">Hunter x Hunter</span> |
 | `hermeneutique/hunter-x-hunter/nen-systeme` | concept | — | 2026-08-12 | — | Le Nen — système complet |
 | `hermeneutique/index` | meta | — | 2026-08-16 | — | Index du circuit Herméneutique |
 | `hermeneutique/lost/jacob` | figure | — | 2026-08-28 | — | Jacob (Lost) |

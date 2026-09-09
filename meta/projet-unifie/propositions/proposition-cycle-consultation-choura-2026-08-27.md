@@ -3,7 +3,7 @@ title: "Proposition — Cycle de Consultation (الشورى) entre les 12 agents
 type: meta
 tags: [outillage, projet-claude-ai, choura, hermes, gardien, proposition]
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-09
 ---
 
 # Proposition — Cycle de Consultation (الشورى)
@@ -121,5 +121,5 @@ antérieur.
   lieu naturel où une idée émergente d'un agent est proposée pour la queue —
   à examiner si les deux propositions sont validées ensemble.
 - Le Gardien portant à la fois l'ouverture/clôture de la choura et son rôle de
-  vigilance protocolaire (§10 des prompts Hermes) : vérifier que la charge
+  vigilance protocolaire (§10 des prompts <span data-nom="hermes" data-genre="entite">Hermes</span>) : vérifier que la charge
   cumulée ne dilue pas sa fonction première de dire non.

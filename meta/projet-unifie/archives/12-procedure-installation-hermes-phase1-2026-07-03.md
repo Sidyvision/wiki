@@ -3,7 +3,7 @@ title: "12 — Procédure Phase 1 : Installation Hermes Agent + validation CLI (
 type: meta
 tags: [outillage, projet-claude-ai, infrastructure, hermes, qwen, runbook, deprecated]
 created: 2026-07-03
-updated: 2026-07-07
+updated: 2026-09-09
 ---
 
 > ⚠️ **Déprécié** : remplacé par
@@ -98,7 +98,7 @@ curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash
 ```
 
 *Ce que ça fait* : télécharge et installe `uv` (gestionnaire d'environnements Python moderne,
-remplace pip/venv), provisionne Python 3.11 si absent, puis installe Hermes sous `~/.hermes/`
+remplace pip/venv), provisionne Python 3.11 si absent, puis installe <span data-nom="hermes" data-genre="entite">Hermes</span> sous `~/.hermes/`
 (config, logs, skills, mémoire y vivront). Aucun conflit avec l'installation Node.js/Claude Code
 existante — Hermes vit dans son propre répertoire.
 

@@ -3,7 +3,7 @@ title: "Spécification technique — Anneau zodiacal de l'Instrument"
 type: projet
 tags: [instrument, rendu, zodiaque, manazil, three-js, phase-2]
 created: 2026-07-26
-updated: 2026-08-25
+updated: 2026-09-09
 sources: []
 links: ["[[doctrinal/symboles/table-28-degres-nafas-rahman]]", "[[doctrinal/symboles/manazil-al-qamar]]", "[[doctrinal/symboles/ilm-al-nujum]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]"]
 ---
@@ -35,7 +35,7 @@ inter-traditionnelle. Elle visualise une matière déjà sourcée et déjà tran
   [[doctrinal/symboles/table-28-degres-nafas-rahman]], sourcées Gloton
   (*De la mort à la résurrection*, Albouraq, pp. 45–48).
 - **Convergence des 28** — premier ancrage `etabli` du dépôt (*Futūḥāt* ch. 198) :
-  28 fuṣūṣ = 28 lettres = 28 degrés du *Nafas al-Raḥmān* = 28 *Manāzil al-Qamar*.
+  28 fuṣūṣ = 28 lettres = 28 degrés du *Nafas al-Raḥmān* = 28 *<dfn data-terme="manazil-al-qamar" data-translit="Manāzil al-Qamar" data-tradition="islam">Manāzil al-Qamar</dfn>*.
   C'est ce qui rend légitime, sans engagement nouveau, l'affichage conjoint des degrés
   et des arcs de l'écliptique : un *manzil* **est** un arc de l'écliptique.
 

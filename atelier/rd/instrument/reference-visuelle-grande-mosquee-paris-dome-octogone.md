@@ -3,7 +3,7 @@ title: "Référence visuelle — dôme, octogone et lanterne, Grande Mosquée de
 type: projet
 tags: [instrument, references-visuelles, assets, octogone, dome, barzakh, sashimono]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh]]", "[[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]]"]
 ---
@@ -31,7 +31,7 @@ Vue de bas en haut, sur l'axe central de la pièce :
 2. **L'octogone** — tambour à huit pans, chacun percé d'une baie à vitrail
    (huit fenêtres visibles, lumière colorée filtrée) : la forme même dont
    `atelier/rd/instrument/instrument-prototype.html` rend désormais le contour
-   pour le Barzakh supérieur, et l'origine directe de l'association
+   pour le <dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn> supérieur, et l'origine directe de l'association
    « octogone / vitrail » signalée par Sidy le même jour dans
    `atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument.md`.
 3. **Le dôme** — voûte à côtes rayonnantes convergeant vers un médaillon

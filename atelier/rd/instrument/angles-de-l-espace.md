@@ -3,7 +3,7 @@ title: "Les Angles de l'Espace — schéma manuscrit (directions horizontales de
 type: projet
 tags: [instrument, phase-5, angles, astrologie, schema-manuscrit, directions-horizontales]
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-09-09
 sources: ["[[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]]"]
 links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[doctrinal/symboles/ilm-al-nujum]]"]
 ---
@@ -58,7 +58,7 @@ perpendiculaires à l'axe vertical du Principe.
 
 ## 3. Garde-fou
 
-Le schéma est une synthèse de travail de Sidy adossée aux sources ʿilm al-nujūm du
+Le schéma est une synthèse de travail de Sidy adossée aux sources <dfn data-terme="ilm-al-nujum" data-translit="ʿilm al-nujūm" data-tradition="islam">ʿilm al-nujūm</dfn> du
 corpus (voir `sources`) ; il ordonne l'espace de l'app. Il n'établit par lui-même
 aucune équivalence doctrinale inter-traditions : toute correspondance de ce type
 suivrait le circuit normal (fiche discernement, Cmd 3 et 12).

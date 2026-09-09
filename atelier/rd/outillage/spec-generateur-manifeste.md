@@ -3,7 +3,7 @@ title: "Spécification — Générateur de manifeste (wiki → wiki-manifest.jso
 type: projet
 tags: [instrument, manifeste, generateur, phase-1, spec]
 created: 2026-07-01
-updated: 2026-09-02
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]"]
 ---
@@ -255,7 +255,7 @@ Le dépôt vivant n'est jamais modifié par cette épreuve.
 ## 7. Premier contenu (v0.1 des données)
 
 `instrument-donnees.yaml` est livré avec : les nœuds Tasawwuf déjà mûrs dans le wiki
-(barzakh, walaya, al-insān al-kāmil, waḥdat al-wujūd, hadarat-khams, table des 28-38
+(barzakh, walaya, al-insān al-kāmil, waḥdat al-wujūd, <dfn data-terme="hadarat-khams" data-translit="hadarat-khams" data-tradition="islam">hadarat-khams</dfn>, table des 28-38
 degrés, manāzil al-qamar, nafas raḥmānī), tous à `degre_vertical: null` (Phase 2 les
 peuplera fiche par fiche), et **un premier ancrage établi : la convergence des 28**
 (*Futūḥāt* ch. 198, validée par le Gem le 2026-07-01), reliant la table des 28 degrés

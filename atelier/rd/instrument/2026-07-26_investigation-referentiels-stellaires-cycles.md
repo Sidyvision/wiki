@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "none"
 tags: [instrument, gizeh, polaire-solaire, cycles, precession, zodiaque, manazil, phase-5, to-source]
 created: 2026-07-26
-updated: 2026-09-02
+updated: 2026-09-09
 sources: ["to-source"]
 links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]", "[[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence]]", "[[doctrinal/symboles/manvantara]]", "[[doctrinal/symboles/atlantide]]", "[[doctrinal/symboles/manazil-al-qamar]]", "[[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]]", "[[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]]", "[[atelier/rd/instrument/spec-anneau-zodiacal]]"]
 ---
@@ -33,13 +33,13 @@ links: ["[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvie
 L'intuition posée : les traditions ne prennent pas toutes les mêmes repères célestes.
 Certaines regardent le **pôle** (Grande Ourse, axe, et — par un chemin particulier — la
 Balance) ; d'autres regardent des **étoiles de l'écliptique et du ciel austral** (Orion,
-Sirius, Pléiades, signes zodiacaux). La vigilance polaire/solaire du pôle Gizeh, déjà
+Sirius, Pléiades, signes zodiacaux). La vigilance polaire/solaire du pôle <span data-nom="gizeh" data-genre="lieu">Gizeh</span>, déjà
 formalisée (CLAUDE.md §VII ; discernement Gizeh clos le 2026-07-14 : Tradition
 primordiale = polaire, courant atlantéen = solaire/secondaire), serait donc non
 seulement un garde-fou mais un **instrument de lecture** : le référentiel stellaire
 d'une tradition comme *signature* de sa provenance cyclique.
 
-L'évidence relevée par Sidy — repère cosmique et cyclique (Manvantara) — est confirmée
+L'évidence relevée par Sidy — repère cosmique et cyclique (<span data-nom="manvantara" data-genre="cycle">Manvantara</span>) — est confirmée
 par tout ce qui suit. Le « quelque chose d'autre » pressenti reçoit ci-dessous quatre
 hypothèses candidates (§6), dont une convergence interne au dépôt qui mérite attention
 particulière (H3, Idrīs/Hermès/degré 24).
@@ -108,11 +108,11 @@ L'intuition « Balance » de Sidy correspond très exactement à un point guéno
 - *The Arctic Home in the Vedas* (1903) : caractéristiques polaires dans les hymnes
   védiques (aurores longues, jour/nuit de six mois) — appui de la thèse hyperboréenne.
   Guénon s'y réfère (~~avec réserves sur la portée~~ — **voir la rectification
-  ci-dessous**) dans « Atlantide et Hyperborée »
+  ci-dessous**) dans « <span data-nom="atlantide" data-genre="lieu">Atlantide</span> et Hyperborée »
   (*Formes traditionnelles et cycles cosmiques* — recueil **déjà partiellement au
   dépôt** via « Le Tombeau d'Hermès »). `to-source`.
 - **Nuance** : le *premier* livre de Tilak s'appelle précisément… *The Orion* (1893).
-  Il y date les Veda par la **précession** : l'équinoxe de printemps dans
+  Il y date les Veda par la **<span data-nom="precession" data-genre="cycle">précession</span>** : l'équinoxe de printemps dans
   Mṛgaśiras/Orion (~4500 av. J.-C.), puis dans les Krittikā/**Pléiades** (~2500).
   Orion et les Pléiades ne sont donc pas « la part égyptienne » contre « la part
   védique » : ce sont des **marqueurs d'époque** utilisés par les deux versants. Ceci

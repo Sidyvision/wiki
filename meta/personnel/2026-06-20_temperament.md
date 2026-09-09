@@ -3,7 +3,7 @@ title: "Profil de tempérament personnel (Tibb) — sanguin de base, mélancoliq
 type: perso
 tags: [sante, temperament, khalwa]
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-09-09
 sources: ["[[chatgpt-export-2026-05-10]]"]
 links: ["[[doctrinal/symboles/tibb-yunani]]", "[[doctrinal/symboles/khalwa]]"]
 ---
@@ -18,7 +18,7 @@ Physique mince, peau sèche, appétit moyen, digestion facile, préférence pour
 
 ## Hypothèse retenue (validée par Sidy lui-même)
 
-Tempérament constitutionnel sanguin de base (test antérieur du site Nura Sunna), évolué vers une composante mélancolique acquise après la khalwa — lecture que Sidy confirme explicitement comme étant aussi sa propre hypothèse. Voir [[doctrinal/symboles/tibb-yunani]] pour le cadre général.
+Tempérament constitutionnel sanguin de base (test antérieur du site Nura Sunna), évolué vers une composante mélancolique acquise après la <dfn data-terme="khalwa" data-translit="khalwa" data-tradition="islam">khalwa</dfn> — lecture que Sidy confirme explicitement comme étant aussi sa propre hypothèse. Voir [[doctrinal/symboles/tibb-yunani]] pour le cadre général.
 
 ## Note
 

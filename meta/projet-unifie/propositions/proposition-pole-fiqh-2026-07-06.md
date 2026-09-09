@@ -4,7 +4,7 @@ type: meta
 status: deprecated
 tags: [outillage, projet-claude-ai, fiqh, label, gardien, hermes, proposition, deprecated]
 created: 2026-07-06
-updated: 2026-08-27
+updated: 2026-09-09
 ---
 
 # Proposition — Pôle Fiqh du dépôt et harmonisation Label ↔ Doctrine
@@ -38,7 +38,7 @@ updated: 2026-08-27
 ## 1. Principe et périmètre
 
 L'ancrage éthique (§V.c) a posé que les actes contractuels et commerciaux du label se
-règlent sur les principes ancrés. Le Fiqh est précisément **la science traditionnelle
+règlent sur les principes ancrés. Le <dfn data-terme="fiqh" data-translit="Fiqh" data-tradition="islam">Fiqh</dfn> est précisément **la science traditionnelle
 qui norme les actes** — son introduction n'est donc pas une extension arbitraire mais
 le **reflet nécessaire** du §V.c : là où le §V.c disait « examinable contre les
 principes », le pôle Fiqh fournit le corpus normatif de cet examen, pour les activités

@@ -4,7 +4,7 @@ type: projet
 statut_experience: exploratoire
 tags: [instrument, registres, majma-al-bahrayn, dara-shukuh, shayegan, hadarat, atman, phase-3]
 created: 2026-08-29
-updated: 2026-08-29
+updated: 2026-09-09
 sources: []
 links: ["[[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]]", "[[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]]", "[[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/barzakh]]", "[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]]", "[[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]]"]
 ---
@@ -26,7 +26,7 @@ Trois transcriptions du même ouvrage sont désormais au dépôt, toutes en
 | Fiche | Nature | Statut de source |
 |---|---|---|
 | `majma-al-bahrayn-hindouisme-soufisme` | **Texte primaire médiéval** — le traité de Dârâ Shokûh (1615-1659), traduit | OCR brute non relue |
-| `quatre-mondes-hindouisme-soufisme` | Commentaire moderne de Shayegan, ch. III (sur le ch. VII du traité) | Relue sur clichés |
+| `quatre-mondes-hindouisme-soufisme` | Commentaire moderne de <span data-nom="shayegan" data-genre="autorite">Shayegan</span>, ch. III (sur le ch. VII du traité) | Relue sur clichés |
 | `lumiere-hindouisme-soufisme` | Commentaire moderne de Shayegan, ch. IV (sur le ch. IX du traité) | Relue sur clichés |
 
 **Distinction de statut à ne jamais aplatir** : le traité de Dârâ est un texte
@@ -108,7 +108,7 @@ C'est une condition nécessaire, non suffisante.
 
 **4.2 — Obstacle : 5 contre 4.** Le registre `tasawwuf` de l'Instrument porte
 **cinq** bandes, le registre `vedanta` **quatre** rangs. Le terme surnuméraire
-côté Instrument est le **Barzakh supérieur** (19-20). Or Dârâ nomme exactement
+côté Instrument est le **<dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn> supérieur** (19-20). Or Dârâ nomme exactement
 ce cas de figure : le cinquième terme des soufis qui comptent cinq, c'est
 *ʿālam-e mithāl*, le monde des Archétypes-Images. Convergence structurelle
 remarquable — et à ne pas précipiter, à cause du point suivant.
@@ -205,7 +205,7 @@ l'autre de forme :
    refusé : instruction phase 3, §2).
 2. **De forme** — la matière n'existe pour l'instant qu'en
    `atelier/rd/bibliotheque/`, pôle documentaire qui ne lève aucun `to-source`.
-   Aucune fiche `doctrinal/sources/` ne porte le *Majmaʿ al-Bahrayn*. Le
+   Aucune fiche `doctrinal/sources/` ne porte le *<span data-nom="majma-al-bahrayn" data-genre="ouvrage">Majmaʿ al-Bahrayn</span>*. Le
    chaînage réglementaire (source doctrinale → discernement → ancrage) n'a donc
    même pas son premier maillon.
 

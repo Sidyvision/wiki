@@ -1,0 +1,206 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+Now I have all the data. Let me compile the final report.
+
+---
+
+**Rapport quotidien — Pôle Studio Sound Engineer (veille-frontière)**
+**Date** : 2026-09-08 13:35 CEST
+
+---
+
+## §1 — Cartographie et cohérence structurelle
+
+### Script 1 : `generer-cartographie.py --depot /root/wiki --verifier`
+
+```
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 563
+      doctrinal    341
+      atelier      212
+      label        10
+
+  Arêtes : 1920
+      établies    1657
+      suggérées   263
+
+  Lacunes to-source : 57
+
+  Avertissements : 152 (non bloquants)
+      lien mort      103
+      isolée         42
+      lien           4
+      compteur       3
+  Mode --verifier : aucun manifeste écrit.
+```
+
+**Delta** : nœuds 562→563 (+1 : INF-16 ouvert le 2026-09-07). Liens morts 104→103 (−1). Isolées 43→42 (−1). Lacunes to-source 57 (inchangé). L'ajout d'INF-16 et la modification d'OUT-08 ont intégré proprement le graphe.
+
+### Script 2 : `detecter-non-tracke.py --racine /root/wiki`
+
+```
+3 fichier(s) non tracké(s), par circuit :
+
+  [hors-circuit] 2
+    ??  _inbox/2026-09-08_serveur-mcp-wiki-outils-deterministes.md
+    ??  _inbox/al-futuhat-al-makkiyya-maymaniya-p1.md
+
+  [racine] 1
+    M   .gitignore
+```
+
+**Observation** : deux fichiers dans `_inbox/` non commités — le premier (serveur MCP) date du jour même (2026-09-08 06:27), le second (Futūḥāt) du 2026-09-07. Le `.gitignore` en racine a une modification non commitée (subtype `M`). Aucun `hors-circuit-inconnu` : tous les fichiers sont soit dans `_inbox/`, soit à la racine — pas de fiche égarée.
+
+### Script 3 : `verifier-coherence-infrastructure.py --racine /root/wiki`
+
+```
+10 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+```
+
+**Aucun écart**. Les 10 assertions `infra_verif` vérifiées sont conformes. État stable par rapport à la veille (10 affirmations, 0 écart).
+
+---
+
+## §2 — Empreinte serveur
+
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   25G   12G  69% /
+
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       3.4Gi       150Mi       4.0Mi       398Mi       298Mi
+Swap:          2.0Gi       2.0Gi       7.5Mi
+```
+
+**Tendances** : disque passé de 84–85 % (rapport 2026-09-07) à **69 %** — nettoyage réalisé entre les deux rapports (fiches supprimées, cache vidé, etc.). RAM toujours à 92 % utilisée (3,4/3,7 Gi), cache buffer 398 Mo. **Swap toujours entièrement consommé** (2,0/2,0 Gi, 7,5 Mi libres) — contrairement au rapport 2026-09-07 qui montrait 912 Mi de swap libre. La consommation de swap s'est aggravée depuis la dernière passe : il y avait encore 912 Mi de swap libre le 2026-09-07, aujourd'hui il n'en reste que 7,5 Mi. Ceci confirme que le serveur fonctionne en régime de saturation mémoire permanente.
+
+---
+
+## §3 — Registre Hermes-Terminal
+
+### Bind-mounts
+Stat inode du fichier de référence Mehdi : `1163623 atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md` — inode stable, pas de renouvellement déclenché. L'entrée n'a pas changé depuis le dernier contrôle.
+
+### Gateways (systemctl --user)
+```
+hermes-gateway-gardien.service     loaded active running
+hermes-gateway-publication.service loaded active running
+hermes-gateway-studio.service      loaded active running
+```
+
+3 gateways actifs, conformes à la décision du 2026-08-28. Les 9 autres profils (accounting, admin-legal, ar-music, commerce, distribution, fanzine, marketing, production, visual-da) sont `disabled/inactive/dead` — décision maintenue.
+
+### Staleness `_inbox/`
+```
+2026-08-31+13:16 .gitkeep
+2026-09-07+19:23 2026-09-07_djinns-aident-humains-koly-cherif-keita.md
+2026-09-07+19:31 al-futuhat-al-makkiyya-maymaniya-p1.md
+2026-09-08+06:27 2026-09-08_serveur-mcp-wiki-outils-deterministes.md
+```
+
+Trois fichiers d'attente (hors `.gitkeep`) : le plus ancien (Djinns) a 1 jour, le plus récent (serveur MCP) est du jour. **Aucun fichier ne dépasse le seuil de 3 jours** — pas de stagnation.
+
+### Gateway logs
+Aucun profil n'affiche de ligne `Connected as` dans les logs récents (les logs ne sont pas configurés en mode persistant pour cette détection). Les erreurs `ERROR` dans les logs existent (studio: 14, gardien: 12, publication: 42) — ce sont des erreurs historiques accumulées, pas un signal d'échec actif (les 3 gateways sont `active running`).
+
+---
+
+## §4 — R&D — analyse engagée
+
+### A. Fiches nouvelles depuis la dernière exécution
+
+Le script `detecter-nouvelles-fiches-rd.sh` a identifié **4 fiches nouvelles** et **4 modifiées** :
+
+**Fiches nouvelles :**
+
+#### 1. `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent.md` + `plan.md` + `spec.md`
+
+**Triptyque complet INF-16** — Machine d'IA locale et développement SLM. Ouvert le 2026-09-07, plan en `brouillon` (attente visa Sidy, Cmd 6).
+
+**Rapprochement registre-problemes.md** : pas d'entrée existante qui couvre exactement ce problème. Les entrées `[2026-08-25]` (Discord Gateway socket fermé) et `[2026-09-01]` (gateways en `failed`) documentent les fragilités de la couche cloud qui ont motivé INF-16, mais ne constituent pas un diagnostic de « il manque une machine d'IA locale » — c'est un problème **nouveau**, né de l'analyse des incidents cumulés.
+
+**Proposition d'action** :
+- PROPOSITION : la priorité #1 reste le **visa du plan** (Cmd 6) par Sidy, puis l'**arrêt de la charge de référence** (étape 1 du plan). Sans ces deux verdicts, aucun des relevés d'étape 2–3 ne peut être mis en contexte.
+- PROPOSITION : entre deux reprises, les étapes 2–3 (relevé de prix datés + coût récurrent réel de la couche modèle) peuvent avancer sans verdict Sidy — elles remplissent des colonnes de la matrice sans engager de dépense.
+
+**Dépendances** :
+- INF-16 dépend de **Sidy** pour 4 décisions (charge de référence, budget, sort de l'option D, lieu d'installation).
+- INF-16 est **un supplier** pour `OUT-07` (speculative decoding, statut `bloque`) : si INF-16 aboutit à une machine avec GPU local, OUT-07 se rouvre.
+- INF-16 dépend de `cartographie-routing-infrastructure.md` pour les données de fragilité de la couche cloud.
+- **Angle mort** : le coût récurrent réel de la couche modèle actuelle (API + abonnements) n'a jamais été mesuré — c'est la cellule F (statu quo) qui permet de comparer. PROPOSITION de prioriser ce relevé dès la prochaine session.
+
+**Handoff** : pas d'autre agent concerné directement. La fiche produit une **recommandation**, pas du code. Le handoff naturel est vers Sidy (Cmd 13).
+
+#### 2. `atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan.md`
+
+Plan post-essais pour l'OCR arabe de la Futūḥāt Maymaniyya (OUT-08). Le plan a été écrit **après** les essais (ce que Sidy a explicitement consigné comme séquence réelle). Piste B (`x2 + Otsu`, `--psm 6`) divise l'indice de violation positionnelle par ~3 et passe le seuil fixé. Le texte reste cependant « corrompu » à l'œil (constat de la machine qui a mené les essais, porté en transparence).
+
+**Rapprochement registre-problemes.md** : OUT-08 a déjà des entrées liées à `spec.md` modifié, mais pas d'entrée problème spécifique — c'est un chantier de qualification, pas un incident.
+
+**Proposition d'action** :
+- PROPOSITION : le verdict du critère 1 (lecture acceptable ?) par Sidy est le blocage unique. Si « oui » : écrire `ocr-futuhat-reprenable.sh` (~2h10 pour le tome 1). Si « non » : pistes C et D restent ouvertes.
+- PROPOSITION : la piste Kraken est documentée comme hors périmètre tant que le disque est à 90 % — aujourd'hui le disque est à 69 %, ce qui lève cet obstacle matériel. PROPOSITION de rouvrir l'évaluation de Kraken si le critère 1 échoue.
+
+**Dépendances** :
+- OUT-08 dépend de **Sidy** pour le critère 1.
+- OUT-08 est un **supplier** pour le `textes/` futur : la conversion des 4 tomes de la Futūḥāt (~2630 pages) nécessite cet OCR.
+- OUT-08 est **dépendant de** `textes/LISEZ-MOI.md` pour le régime d'immuabilité des textes convertis (Cmd 10).
+
+**Handoff** : pas d'autre agent. L'exécution de la conversion (si validée) pourrait être une tâche INTÉGRATION (déterministe, script).
+
+### B. Fiches modifiées
+
+- `atelier/rd/cahiers/registre-problemes.md` : pas de nouvelle entrée depuis la dernière exécution (dernière modification 2026-09-07, pas de `[2026-09-08]`).
+- `atelier/rd/infrastructure/monitoring-archive/registre-traitement.md` : **3 nouvelles entrées** du 2026-09-08 (rapports Publication du 06/07 et rapports Gardien du 07). L'entrée Studio du 07 était déjà consignée. Les rapports ont été traités par cette session.
+- `atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec.md` : `updated` remonté au 2026-09-07 (ajout des résultats de la Piste B et des deux verdicts Sidy du jour).
+- `atelier/rd/registre-chantiers.md` : `updated` remonté au 2026-09-07 (ouverture INF-16, passage OUT-15 et INS-01 en `en-cours`, recomptage avec note de 4 écarts antérieurs).
+
+### C. État des 5 entrées les plus récentes de registre-problemes.md
+
+| # | Date | Problème | Statut | Changement vs dernière exécution |
+|---|---|---|---|---|
+| 1 | 2026-09-04 | Contrôle vert ne validait pas liens du cartouche | `resolu` (7 cibles en cours d'instruction avec Sidy) | Inchangé. Les 7 cibles restent en instruction — pas de levée de `to-source` supplémentaire signalée. |
+| 2 | 2026-09-02 | Deux rapports Publication collés — défauts multiples | 4 sous-points : `resolu`×3, `ouvert`×1 (sources candidates raw/) | Inchangé. Le point `ouvert` (vérification humaine de 3 PDFs dans raw/) reste en attente — aujourd'hui le registre-traitement confirme les 3 PDFs comme **présents** dans raw/ (relevé du 2026-09-08), mais la levée de `to-source` n'est pas faite (exige vérification du texte primaire par Sidy). |
+| 3 | 2026-09-02 | Reprise rapports Studio/Publication | 4 sous-points : `resolu`×3, `ouvert`×1 (archivage rapports Publication) | Inchangé. L'angle mort d'archivage des rapports Publication reste ouvert — la charte `monitoring-archive/` ne couvre toujours que le profil Studio. Le registre-traitement a été enrichi aujourd'hui (3 nouvelles entrées), ce qui réduit partiellement l'angle mort, mais la charte formelle n'est pas révisée. |
+| 4 | 2026-09-01 | Profil `commerce` absent de `systemctl list-units` | `resolu` (écart de relevé, pas de config) | Inchangé. |
+| 5 | 2026-09-01 | Gateways en `failed` plutôt qu'`inactive` | `resolu` (transition transitoire) | Inchangé. Les 3 gateways actifs restent conformes. |
+
+### D. Signal frontmatter `sources:` null (signal vivant, non résolu)
+
+Le rapport de traitement de 2026-09-08 (registre-traitement.md) confirme et étend le signal : **76 fiches doctrinales** portent `sources:` (YAML null) au lieu de `sources: []`. Ce chiffre a augmenté de 75 (rapport du matin) à 76 au cours de la journée. Ce défaut n'est **pas détecté** par `verifier-invariants.py` (le script vérifie la clé `sources` mais pas la sémantique de sa valeur vide). C'est un **angle mort du script** : les 76 fiches passent au vert du contrôle structural tout en portant une violation du Sceau Recteur.
+
+### E. Synthèse R&D — pistes prioritaires
+
+| # | Piste | Urgence | Faisabilité | Statut |
+|---|---|---|---|---|
+| 1 | **INF-16 — visa du plan + arrêt charge de référence** | Haute | Fait dépendre de Sidy | PROPOSITION : prioriser la réponse à la question 1 du plan (quels usages U1–U5 comptent). C'est le seul blocage qui empêche toutes les étapes suivantes. |
+| 2 | **OUT-08 — verdict critère 1** (OCR Futūḥāt) | Haute | Fait dépendre de Sidy | PROPOSITION : Sidy examine les extraits du `spec.md` et tranche. Si oui : script de conversion possible sous 1 session. Si non : Kraken réévaluable (disque descendu à 69%). |
+| 3 | **76 fiches `sources:` null** (défaut frontmatter) | Moyenne | Scriptable | PROPOSITION : écrire un script déterministe qui repère les fiches avec `sources:` vide (YAML null) et les passe à `sources: []` — geste répétable,.Cmd 15 compatible, peut être automatisé en session INTÉGRATION. C'est l'angle mort du Sceau le plus large actuellement. |
+| 4 | **Swap saturation** (7,5 Mi libres / 2,0 Gi) | Moyenne | Diagnostic | PROPOSITION : établir un relevé de la consommation mémoire par processus (qu'est-ce qui mange la RAM ?). Le rapport 2026-09-07 montrait 912 Mi de swap libre ; aujourd'hui 7,5 Mi. Soit un processus a été lancé depuis, soit le nettoyage de disque a été remplacé par une charge mémoire nouvelle. Investigation recommandée. |
+| 5 | **Charte monitoring-archive/** (couverture publication) | Basse | Décision Sidy | PROPOSITION : étendre la charte `monitoring-archive/` pour couvrir le profil `publication` — le registre-traitement compense partiellement, mais la charte formelle n'est pas révisée. |
+
+---
+
+## §5 — Suggestions transversales
+
+1. **PROPOSITION — disque** : le nettoyage récent (84% → 69%) a donné une marge confortable. Cependant, si INF-16 progresse et que Kraken est évalué (PyTorch ~2 Go), la marge se refermerait rapidement. PROPOSITION de garder un œil sur l'usage du disque dans les prochaines passes, surtout si un pip install se déclenche.
+
+2. **PROPOSITION — `_inbox/`** : les 2 fichiers non commitées sont toutes deux des fiches d'analyse (serveur MCP et Futūḥāt). La première est du jour même. PROPOSITION : pas d'urgence, mais les valider en commit le moment venu pour ne pas alourdir le backlog `_inbox/`.
+
+3. **PROPOSITION — `registre-traitement.md` enrichi** : trois nouvelles entrées du 2026-09-08 ont été consignées. C'est le bon usage — le registre trace ce qui a été regardé avant qu'on ne retraite un rapport. Maintenir cette discipline.
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

@@ -8,7 +8,7 @@ createur: ""
 statut_analyse: brouillon
 tags: [athanor, alchimie, golem, frankenstein, matrices-artificielles, burckhardt, autotransmutation, containment]
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-09
 sources:
 - "[[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]]"
 liens: []
@@ -24,7 +24,7 @@ liens_atelier: []
 
 # L'athanor de Burckhardt et la figure des matrices artificielles
 
-*Fiche de mise en regard de la matière alchimique occidentale (athanor, Titus Burckhardt) avec la figure des cinq matrices artificielles (Golem, Frankenstein, The Matrix, Death Stranding, Barzakh-dispositif), en contexte du discernement sur la science des matrices artificielles. Ouverture de phase 2 analytique (discernement Barzakh, fiches symboles Golem et Frankenstein). Statut : brouillon ; portance : zōsaku. Aucun jugement doctrinal sur la validité ou la profondeur de la convergence.*
+*Fiche de mise en regard de la matière alchimique occidentale (athanor, Titus <span data-nom="burckhardt" data-genre="autorite">Burckhardt</span>) avec la figure des cinq matrices artificielles (Golem, <span data-nom="frankenstein" data-genre="ouvrage">Frankenstein</span>, The Matrix, Death Stranding, Barzakh-dispositif), en contexte du discernement sur la science des matrices artificielles. Ouverture de phase 2 analytique (discernement <dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn>, fiches symboles Golem et Frankenstein). Statut : brouillon ; portance : zōsaku. Aucun jugement doctrinal sur la validité ou la profondeur de la convergence.*
 
 ## 1. Point de vigilance majeure — autotransmutation vs. tiers
 

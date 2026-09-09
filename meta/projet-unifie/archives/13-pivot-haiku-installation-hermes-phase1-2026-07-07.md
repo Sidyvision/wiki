@@ -3,7 +3,7 @@ title: "13 — Pivot Haiku & Procédure Phase 1 révisée : Installation Hermes 
 type: meta
 tags: [outillage, projet-claude-ai, infrastructure, hermes, haiku, decisions, runbook]
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-09-09
 ---
 
 # 13 — Pivot Haiku & Procédure Phase 1 révisée : Installation Hermes Agent
@@ -20,7 +20,7 @@ updated: 2026-07-07
 
 | | Avant (doc 12) | Maintenant |
 |---|---|---|
-| Moteur de Hermes | Qwen3.6-27B-FP8 auto-hébergé (RunPod/vLLM) | Claude Haiku via API Anthropic directe |
+| Moteur de <span data-nom="hermes" data-genre="entite">Hermes</span> | Qwen3.6-27B-FP8 auto-hébergé (RunPod/vLLM) | Claude Haiku via API Anthropic directe |
 | Connexion | Tunnel SSH + script `tunnel-runpod.sh` | Aucune — appel HTTPS direct à `api.anthropic.com` |
 | Dépendances infra | Pod RunPod à démarrer/éteindre, GPU à choisir | Aucune |
 | Coût | Gratuit à l'usage (hors GPU-heure du Pod) | **Facturé au token**, comme Claude Code aujourd'hui |
