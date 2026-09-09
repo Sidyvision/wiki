@@ -10,6 +10,31 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] rd | Phase 3 — l'index lexical reçoit son consommateur (`chercher_terme`), et sort du dépôt à moitié
+
+- **Ordre de Sidy** : « procède comme suggéré » — les deux points recommandés à la clôture précédente, dans l'ordre.
+
+**I — Les artefacts dérivés : une erreur de ma part, corrigée.**
+- J'avais annoncé à trois reprises que `index-lexical.json` et `.md` restaient **hors dépôt**. **C'était faux** : ils avaient été committés au passage dans `d0a4dc1`, emportés par un `git add -- atelier` trop large. Le fait est rapporté ici tel quel plutôt que corrigé en silence.
+- **La coupe juste n'est pas « les deux dehors », mais la destination de chacun.** `index-lexical.json` (3,7 Mo) est lu **par le serveur MCP, sur le serveur** : il n'a aucune raison de descendre sur l'iPad, et réécrit intégralement à chaque régénération il battrait l'historique — `git rm --cached` + `.gitignore`. `index-lexical.md` (1,2 Mo) **reste versionné** : la consultation Obsidian est l'un des **deux consommateurs déclarés** du chantier (verdict de Sidy à son ouverture), et l'exclure l'aurait purement supprimée.
+- **Le poids du condensé reste un écart ouvert** (Cmd 12) : 1,2 Mo de markdown est hostile à Obsidian sur iPad. Découpage par initiale ou restriction aux termes multi-fiches — à instruire, non tranché.
+- Le commit emporte une ligne `.gitignore` (`/.mcp.json`) **qui n'est pas de moi**, présente non commitée depuis le début de la session : signalée plutôt que séparée artificiellement.
+
+**II — Phase 3 : l'index avait tout, sauf un consommateur.**
+- C'était la dernière phase du plan approuvé, **jamais faite**. Le serveur MCP portait 14 outils, **aucun ne cherchait dans l'index** : 10 688 termes, 936 annotations et 61 appariements attestés ne servaient à personne. **16 outils désormais.**
+- **`chercher_terme` cherche dans les deux sens** (§VII, point 6) : `tomoe` trouve `巴`, `巴` trouve `tomoe`. **Quatre passes**, de la plus stricte à la plus large — clé exacte, clé normalisée (`al-ṭarīqa` → `al-tariqa`), forme attestée, sous-chaîne — et **la passe qui a répondu est toujours nommée** dans le résultat, la sous-chaîne étant signalée comme approximative. Le client n'a jamais à deviner la qualité de sa correspondance.
+- **Les deux rangs d'appariement ne se fondent pas, jusqu'au consommateur** : `apparie` porte ce que la fiche énonce elle-même, `jurjani` ce qu'une autorité textuelle transcrite établit, **avec son numéro de définition**. La règle « établi vs suggéré » ne s'arrête pas à l'artefact, elle va jusqu'à l'interface.
+- **`etat_index_lexical`** sert de juge de paix avant toute interrogation : totaux, rangs, et **fraîcheur**.
+- **ÉPREUVE DES CONTRÔLES — vert sur X, refus sur Y.** *Vert* : 10 688 termes, 756 fiches, 641 textes ; 118 clés appariées rang 1, 214 rang 2, 401 portant une annotation ; `perime: False`. *Refus*, trois, tous sur faute fabriquée hors dépôt vivant : **index absent** — le refus renvoie la **commande de régénération complète**, non un simple constat ; **index vide** — « jamais un index vert », reprise explicite du refus D3 du générateur ; **index périmé** — `perime: True`, nommant la fiche plus récente.
+- **La fraîcheur est déclarée à chaque requête, et c'est délibéré** : *un index périmé ne se plaint jamais de lui-même — il répond, et il répond faux.* Le contrôle a d'ailleurs mordu **immédiatement sur le dépôt vivant** à sa première exécution, l'index datant d'avant les derniers commits.
+- **Un silence n'est jamais rendu tel quel** : une recherche sans correspondance renvoie les **clés proches** et rappelle de vérifier `index_perime`, plutôt que de laisser croire que le terme n'existe pas.
+- **Un faux positif trouvé par l'épreuve et corrigé** : le générateur écrit le condensé `.md` **après** le `.json`, de sorte que l'index se déclarait **périmé par lui-même** à chaque génération. Les artefacts dérivés sont exclus de la comparaison. *Un contrôle qui crie toujours vaut celui qui se tait* — c'est la face symétrique du contrôle muet que le §VII poursuit, et elle mérite d'être nommée.
+- **Une divergence déclarée, non niée** : le serveur vit **hors du dépôt** (`/root/mcp-servers/`) et doit rester exécutable si le pôle `rd/` est absent. Il **réimplémente** donc la normalisation du générateur au lieu de l'importer — contrairement aux trois définitions canoniques partagées à l'intérieur du dépôt. La divergence possible est **déclarée en commentaire** et rattrapée par la remontée des clés proches. C'est le seul endroit de la session où le partage canonique n'a pas été appliqué, et la raison en est écrite.
+- **Le serveur lui-même n'est pas versionné ici** (il vit hors dépôt) : seule sa fiche l'est, mise à jour en conséquence.
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 0 avertissement**. `valider-annotations.py` v1.2 : aucune anomalie.
+- **Reste ouvert** : le poids du condensé (ci-dessus) ; `_inbox/al-futuhat-al-makkiyya-maymaniya-p1.md` — les *Futūḥāt* tome 1, **779 pages OCRisées**, qui attendent au sas alors que depuis PRO-08 leur place est `textes/` ; et les écarts du rapport de session (`2026-09-09_rapport-session-indexation-html-annotations`).
+- **Commits** : 2768e1c (artefacts dérivés), 927a823 (phase 3).
+
 ## [2026-09-09] rd | Rapport de session versé au cahier de laboratoire — indexation HTML et annotations
 
 - **Ordre de Sidy** : « après ça tu enrichiras le R&D de ton rapport de session ». Fiche : `atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations.md`, couvrant les **28 commits** `274ddc6..a4c7d32`.
