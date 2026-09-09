@@ -10,6 +10,31 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] rd | Les trois pistes restantes — deux fermées, une démontrée non fermable
+
+- **Ordre de Sidy** : « fais tout le reste en une seule passe ». Les trois pistes classées par rendement au rapport de session, traitées d'un trait.
+
+**1 — Poids du condensé : fermée.**
+- `generer-index-lexical.py` reçoit `--sortie-md-eclate` : un **hub** et **28 fichiers par initiale**, **207 Ko au plus** contre **1,2 Mo** d'un seul tenant. La consultation Obsidian sur iPad redevient possible, et c'était l'un des **deux consommateurs déclarés** du chantier.
+- **Le découpage se fait sur la frontière que le rendu unique employait déjà** pour ses sections : le contenu est identique au caractère près, seul le fichier change. Ce n'est pas une réécriture du condensé, c'est sa pagination.
+- Tous les fichiers produits portent `type: artefact-derive` — **l'index ne s'indexe pas lui-même**. Le monolithe est **supersédé** et sort du dépôt : garder les deux aurait doublé le poids sans rien ajouter. Il reste régénérable par `--sortie-md`.
+
+**2 — Réciprocité (§VII, point 6) : fermée, et chez le consommateur.**
+- La translittération que Jurjānī donne d'une forme arabe **n'est pas une clé de l'index** — on n'injecte pas le vocabulaire du dictionnaire dans un index qui est celui du **wiki**. **48 des 132 appariements** restaient donc à sens unique : `al-ittifâqiyya` ne ramenait rien, quand `الاتفاقية` portait pourtant son renvoi.
+- Une **cinquième passe** de `chercher_terme`, `translitteration-jurjani`, cherche dans les formes latines du champ `jurjani`. **Les 132 sont désormais atteintes dans les deux sens**, et **pas une seule clé de dictionnaire n'est entrée dans l'artefact**.
+- **La réciprocité est tenue là où elle coûte le moins : chez le consommateur, non dans l'index.** C'est la même logique que la séparation des rangs — l'artefact reste ce que le dépôt énonce, l'interface fait le reste.
+- **Témoins** : la passe **ne fabrique rien** (`al-inexistantqqq` → 0 résultat) et **ne masque aucune passe meilleure** (`tomoe` reste trouvé par `cle-exacte`, `al-ṭarīqa` par `cle-normalisee`). Elle ne s'exécute que si les quatre précédentes n'ont rien rendu.
+
+**3 — Les 125 clés `<dfn>` sans tradition sourcée : NON fermée, et la mesure dit pourquoi.**
+- J'ai voulu **dériver** la tradition d'un terme du **consensus** des fiches doctrinales qui le portent. Mesuré sur les 160 clés : **50 unanimes, 110 divergentes**. `barzakh` donne `islam 36 / universel 12 / kabbale 2 / judaisme 1` ; `atma` donne `universel 7 / islam 6 / hindouisme 7`.
+- **La divergence est structurelle, non accidentelle** : `tradition_cadre` décrit **le cadre de la fiche**, jamais l'origine du terme — et les fiches comparatives portent `universel` tout en citant des termes de partout. Le signal mesure donc autre chose que ce qu'on lui demande.
+- **La majorité aurait donné le bon résultat sur `barzakh`.** C'est précisément ce qui rendait la méthode tentante, et c'est pourquoi elle devait être écartée : **un vote n'est pas une source** (Cmd 5), et une méthode qui a raison par majorité a tort par construction. Elle aurait produit 110 assertions de tradition non sourcées, indiscernables des 50 justes.
+- **La piste ne se ferme que par des fiches doctrinales dédiées** — production de contenu, verdict de Sidy, hors de portée de l'outillage. Elle est donc **rendue avec sa mesure**, non livrée.
+
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 0 avertissement**. `valider-annotations.py` v1.3 : **0 anomalie, 6 signalements S1** (verdict réservé). Graphe régénéré.
+- **Reste ouvert après cette passe** : les 6 paires signalées par S1 ; les 125 clés sans tradition sourcée (ci-dessus) ; `doctrinal/doctrines/`, cité au §II et absent du disque ; les syntagmes non appariables ; le sas comme angle mort mécanique ; et la qualité de l'OCR des *Futūḥāt*.
+- **Commit** : 27031da
+
 ## [2026-09-09] rd | `S1` — le signalement de doublon de référent, et l'ouverture d'un canal non bloquant
 
 - **Ordre de Sidy** : « continue ». Reprise de la première des quatre pistes classées par rendement au rapport de session.
