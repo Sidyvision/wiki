@@ -266,7 +266,7 @@ paragraphe de plus dans une fiche de lecture (Cmd 4, Cmd 13).
 
 **La thèse rappelée** (voir [[hermeneutique/metal-gear/metal-gear]] §2) : une
 arme de dissuasion n'écarte rien, elle produit ce qu'elle prétend écarter. Dans
-la fiction, chaque <span data-nom="metal-gear" data-genre="ouvrage">Metal Gear</span> construit pour dissuader pousse un autre acteur à
+la fiction, chaque <span data-nom="metal-gear" data-genre="oeuvre">Metal Gear</span> construit pour dissuader pousse un autre acteur à
 vouloir le sien — la dissuasion, par le seul fait d'exister, **enseigne
 qu'elle est possible**, et cet enseignement se propage plus vite que l'arme
 elle-même ne peut être contenue.

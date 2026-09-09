@@ -32,7 +32,7 @@ liens_atelier: []
 
 ## 1. Ce que c'est
 
-Le vaisseau qui sert de base mobile dans *<span data-nom="death-stranding" data-genre="ouvrage">Death Stranding</span> 2: On the Beach*. Il
+Le vaisseau qui sert de base mobile dans *<span data-nom="death-stranding" data-genre="oeuvre">Death Stranding</span> 2: On the Beach*. Il
 est rattaché à l'organisation qui emploie le protagoniste dans ce second volet,
 transporte son équipage, et se déplace à travers les régions traversées par le
 jeu.
@@ -45,7 +45,7 @@ un lieu de retour, de gestion et d'attachement, distinct du terrain.
 
 C'est le point qui justifie la fiche, et il est structurel :
 
-| | Mother Base | DHV <span data-nom="magellan" data-genre="autorite">Magellan</span> |
+| | Mother Base | DHV <span data-nom="magellan" data-genre="auteur">Magellan</span> |
 |---|---|---|
 | Nature | Plateforme **fixe**, hors juridiction | Vaisseau **mobile**, qui suit le joueur |
 | Rapport au terrain | On y **revient** ; le terrain est ailleurs | Il **accompagne** ; le terrain vient à lui |

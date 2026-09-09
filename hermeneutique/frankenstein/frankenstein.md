@@ -28,7 +28,7 @@ pertinents dans une fiche distincte, sur décision de Sidy.*
 - **Statut** : `to-source` — la matière est en attente de vérification primaire
   par Sidy. Les données ci-dessous sont consignées comme corpus brut, aucune
   n'est ancrée.
-- **Nature du corpus** : roman de <span data-nom="mary-shelley" data-genre="autorite">Mary Shelley</span> (1818), figure moderne de la
+- **Nature du corpus** : roman de <span data-nom="mary-shelley" data-genre="auteur">Mary Shelley</span> (1818), figure moderne de la
   création artificielle d'un être par un savant. Motif à mettre en regard avec
   d'autres figures analogues (figure traditionnelle : Golem, cf. doctrinal).
 - **Lien avec le discernement en cours** : le discernement

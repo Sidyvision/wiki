@@ -18,7 +18,7 @@ liens: []
 ## Données brutes (en attente)
 
 - **Nom complet** : Mary Wollstonecraft Shelley (1797-1851)
-- **Œuvre principale versée** : *<span data-nom="frankenstein" data-genre="ouvrage">Frankenstein</span> ou le Prométhée moderne* (1818)
+- **Œuvre principale versée** : *<span data-nom="frankenstein" data-genre="oeuvre">Frankenstein</span> ou le Prométhée moderne* (1818)
 - **Contexte de création** : été 1816, Villa Diodati (Genève), avec Lord Byron, Percy Bysshe Shelley, John Polidori. Concours de nouvelles de fantômes.
 - **Portée** : figure majeure du roman gothique, auteur précoce de science-fiction.
 

@@ -10,7 +10,14 @@ la dispersion mentale.
 
 > **Historique des révisions** : conservé intégralement dans
 > `meta/protocole-archives/changelog-CLAUDE.md` (append-only, chronologique
-> inverse). Dernières révisions : **2026-09-08** (§II, inscription de la convention
+> inverse). Dernières révisions : **2026-09-09** (§VII, **vocabulaire de `data-genre`
+> scopé par circuit** — cinq genres propres ouverts à `hermeneutique/` : `oeuvre`,
+> `auteur`, `figure`, `dispositif`, `concept`, repris terme pour terme de son champ
+> `type:`, avec refus **D6** sur un genre valide posé hors de son circuit ; annotations
+> du circuit migrées dans le même commit ; `verifier-invariants.py` reconnaît enfin
+> **`hermeneutique` comme circuit** — B1 et C3 n'y contrôlaient aucune des 28 fiches
+> depuis l'ouverture, trou hérité mesuré puis comblé sans effet rétroactif ; verdict
+> Sidy), **2026-09-08** (§II, inscription de la convention
 > des dossiers `assets-<sujet>/` — pièces graphiques versionnables adjacentes aux
 > fiches, sans Sceau ni régime de liens, ligne de coupe **format** comme pour
 > `textes/` ; convention constatée sur `assets-instrument/`, non instituée ;
@@ -531,6 +538,17 @@ les blocs `>` y sont **massivement la voix propre du dépôt** — `> **Statut**
 prescrit lui-même. Ces blocs sont **les plus denses en terminologie de tout le circuit** :
 les interdire à l'annotation aurait fermé la porte principale, et l'aurait fermée en
 silence. La règle a donc été resserrée sur le **texte reçu**, qui est le motif réel.
+
+**Vocabulaire de `data-genre` : clos, et scopé par circuit** (étendu 2026-09-09, verdict
+Sidy). Les sept valeurs transversales — `autorite`, `lieu`, `ouvrage`, `entite`,
+`ecole`, `cycle`, `principe` — valent dans les cinq circuits. `hermeneutique/` en reçoit
+**cinq de plus, admises chez lui seul** : `oeuvre`, `auteur`, `figure`, `dispositif`,
+`concept`. Ce ne sont pas des mots nouveaux mais, terme pour terme, les valeurs du champ
+`type:` que `hermeneutique/CLAUDE.md` déclare déjà — l'annotation emprunte au circuit son
+propre vocabulaire avec la garde Cmd 3 qui y est attachée : `oeuvre` ne se fond **jamais**
+dans `ouvrage`, réservé au traité traditionnel, et `auteur` ne confère aucun statut
+d'autorité. Un genre valide **posé hors de son circuit** est refusé (D6). La lettre du
+vocabulaire herméneutique vit dans son `CLAUDE.md` local (§II bis).
 
 **Une limite du masquage, rapportée et non corrigée** (Cmd 12) : le motif de code inline
 n'admet pas de retour à la ligne, de sorte qu'un incise de code **coupé en deux lignes**

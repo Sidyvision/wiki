@@ -42,7 +42,14 @@ from datetime import date
 NOMS_ANNALES = {"annales.md", "meta-annales.md"}
 
 # Circuits et leurs racines relatives.
-CIRCUITS = ["doctrinal", "atelier", "label", "meta"]
+# `hermeneutique` y est ajouté le 2026-09-09. Son ABSENCE était un trou hérité et
+# muet : `circuit_de()` y renvoyait `None`, de sorte que B1 (clés de Sceau
+# requises) et C3 (étanchéité) ne contrôlaient AUCUNE de ses 28 fiches depuis
+# l'ouverture du circuit. Le contrôle ne se plaignait pas — il ne regardait rien
+# (§VII, Épreuve des contrôles ; forme de PRO-01). Mesuré avant de combler :
+# les 28 fiches passent B1 sans une seule erreur, la fermeture est donc sans
+# effet rétroactif.
+CIRCUITS = ["doctrinal", "atelier", "label", "meta", "hermeneutique"]
 
 # Fichiers légitimement sans frontmatter YAML (protocole, README, prompts Hermes…).
 # Ne pas leur appliquer B0.
@@ -96,12 +103,19 @@ CLES_REQUISES = {
     "atelier":   ["title", "type", "created", "updated"],
     "label":     ["title", "type", "created", "updated"],
     "meta":      ["title", "type"],
+    # Clés du Sceau herméneutique (hermeneutique/CLAUDE.md). `registre` y est
+    # requis : c'est lui qui distingue `analyse` de `expression`, et donc le
+    # régime de production de la fiche.
+    "hermeneutique": ["title", "type", "registre", "created", "updated", "sources"],
 }
 
 # Étanchéité des circuits : circuit source -> circuits interdits en cible.
 # Règle du dépôt : doctrinal ne pointe JAMAIS vers atelier ni meta.
 ETANCHEITE_INTERDITE = {
-    "doctrinal": {"atelier", "meta", "label"},
+    "doctrinal": {"atelier", "meta", "label", "hermeneutique"},
+    # `hermeneutique/CLAUDE.md` : « doctrinal/ → hermeneutique/ : JAMAIS. »
+    # L'inverse est permis en sens unique (cles_doctrinales, discernement).
+    "hermeneutique": {"meta"},
 }
 
 # Le champ `sources:` du frontmatter doctrinal ne doit jamais viser meta/.

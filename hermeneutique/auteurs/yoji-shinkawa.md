@@ -26,7 +26,7 @@ liens_atelier: ["[[atelier/etudes-de-cas/kojima-productions]]"]
 Shinkawa est le second `type: auteur` de ce premier ingest, et sa présence
 demande une justification, puisqu'il n'est pas le signataire des œuvres.
 
-Elle tient à ceci : dans les œuvres de <span data-nom="kojima" data-genre="autorite">Kojima</span>, **la forme visuelle n'illustre
+Elle tient à ceci : dans les œuvres de <span data-nom="kojima" data-genre="auteur">Kojima</span>, **la forme visuelle n'illustre
 pas la thèse, elle en fait partie**. Un objet dessiné par Shinkawa arrive avec
 sa fonction, son usure et son histoire déjà inscrites dans son tracé. Le lecteur
 d'une fiche du circuit qui ne disposerait que de l'auteur-scénariste manquerait
@@ -43,7 +43,7 @@ en outre la fiche la plus directement opératoire du lot.
 | Formation | Université Seika de Kyoto, cursus artistique | C |
 | Entrée chez Konami | 1994 | C |
 | Premier travail notable | *Policenauts* (1994) | C |
-| Rôle depuis 1998 | design des personnages et des mécaniques de *<span data-nom="metal-gear" data-genre="ouvrage">Metal Gear</span> Solid* | B |
+| Rôle depuis 1998 | design des personnages et des mécaniques de *<span data-nom="metal-gear" data-genre="oeuvre">Metal Gear</span> Solid* | B |
 | Aujourd'hui | directeur artistique de Kojima Productions | B |
 
 ## 3. La technique comme argument
@@ -64,7 +64,7 @@ des points de faiblesse articulaires ; leurs proportions sont animales avant
 d'être industrielles. Réciproquement, ses corps humains sont sanglés, harnachés,
 équipés au point que l'équipement devient une seconde peau. La frontière entre
 le porté et le porteur est délibérément floue — motif qui traverse toute l'œuvre
-de Kojima et culmine dans le portage de *<span data-nom="death-stranding" data-genre="ouvrage">Death Stranding</span>*.
+de Kojima et culmine dans le portage de *<span data-nom="death-stranding" data-genre="oeuvre">Death Stranding</span>*.
 
 **Filiations déclarées** `to-source` : l'école japonaise du design mécanique
 « usé » (notamment le courant issu de *Maschinen Krieger* de Kow Yokoyama) est

@@ -27,6 +27,10 @@ des controles) :
       code » a d'abord ete ecrite, puis RETIREE le 2026-09-08 : le masquage
       amont la rendait inatteignable, et un controle qui ne peut pas se
       declencher est la forme muette meme que le SVII interdit.
+  D6  genre hors de son circuit — un `data-genre` valide en soi mais pose la
+      ou son circuit ne l'admet pas (`oeuvre` dans doctrinal/, `dispositif`
+      dans atelier/). Ouvert le 2026-09-09 avec le vocabulaire propre a
+      `hermeneutique/`.
   D5  occurrence unique — le meme terme annote deux fois dans la meme fiche.
       L'annotation type le terme, elle ne le compte pas : la seconde pose
       n'apprend rien et double le poids du terme a la lecture machine.
@@ -41,6 +45,23 @@ from pathlib import Path
 ICI = Path(__file__).resolve().parent
 
 
+def _invariants():
+    """Le controleur racine porte la definition CANONIQUE de « circuit ».
+
+    On l'importe plutot que d'ecrire ici une seconde regle chemin -> circuit :
+    deux resolveurs qui divergent, c'est le controle qui ment sans se plaindre
+    (meme motif que le partage de `est_ecriture_originale` et de
+    `fichiers_suivis`).
+    """
+    sys.dont_write_bytecode = True
+    chemin = ICI.parents[3] / "verifier-invariants.py"
+    if not chemin.is_file():
+        sys.exit("REFUS — controleur racine introuvable : %s" % chemin)
+    s = importlib.util.spec_from_file_location("_invariants", chemin)
+    m = importlib.util.module_from_spec(s); s.loader.exec_module(m)
+    return m
+
+
 def _generateur():
     """Le generateur porte la definition de « matiere du depot ».
 
@@ -53,13 +74,43 @@ def _generateur():
     m = importlib.util.module_from_spec(s); s.loader.exec_module(m)
     return m
 
-VERSION = "1.1"
+VERSION = "1.2"
+INV = None
 ELEMENTS_CLOS = ("dfn", "span", "abbr")
 # Vocabulaire clos. Etendu le 2026-09-08 sur verdict de Sidy : les quatre
 # genres d'origine ne savaient typer ni les ecoles (darsana), ni les cycles,
 # ni les principes metaphysiques — trois categories massives de doctrinal/.
 GENRES_CLOS = {"autorite", "lieu", "ouvrage", "entite",
                "ecole", "cycle", "principe"}
+
+# --- Vocabulaire propre a `hermeneutique/` (etendu le 2026-09-09, verdict Sidy)
+# Les sept genres ci-dessus ne savaient nommer ni une oeuvre profane, ni un
+# personnage, ni un dispositif d'oeuvre. Plutot que d'inventer des mots, on
+# reprend EXACTEMENT le vocabulaire `type:` que `hermeneutique/CLAUDE.md`
+# declare deja — il porte sa garde Cmd 3 avec lui :
+#   `oeuvre`     — une oeuvre ou une saga (JAMAIS `ouvrage`, reserve au traite
+#                  traditionnel : ne pas fondre les deux registres est le fond
+#                  meme du Cmd 3) ;
+#   `auteur`     — createur reel. Emprunte la FORME de `autorite` sans en
+#                  partager la fonction : aucun statut d'autorite confere ni
+#                  suppose (hermeneutique/CLAUDE.md) ;
+#   `figure`     — personnage, ou entite non personnelle fonctionnant comme tel ;
+#   `dispositif` — lieu, vaisseau, appareil, systeme, interface ou institution
+#                  de l'oeuvre, tenu pour support operatoire de sa these ;
+#   `concept`    — notion propre a l'oeuvre.
+# `entite` reste ADMIS ici : une fiche du circuit cite legitimement une entite
+# recue en meme temps qu'une figure de fiction, et c'est meme son sujet. La
+# distinction entre les deux est un JUGEMENT, reserve a Sidy (Cmd 12) — la
+# garde ne la tranche pas, elle ouvre les deux mots.
+GENRES_HERMENEUTIQUE = {"oeuvre", "auteur", "figure", "dispositif", "concept"}
+
+# Genres admis par circuit. Un genre VALIDE mais POSE DANS LE MAUVAIS CIRCUIT
+# est refuse (D6) : c'est la seule face nouvelle de ce controle, l'inconnu
+# etant deja refuse par VOC.
+def genres_admis(circuit):
+    if circuit == "hermeneutique":
+        return GENRES_CLOS | GENRES_HERMENEUTIQUE
+    return GENRES_CLOS
 # Cmd 15 : ce detecteur NOMME les points de code, il ne les porte pas.
 # Les ecrire litteralement ici ferait du garde-fou lui-meme une infraction —
 # c'est le controle qui l'a trouve sur sa propre premiere version.
@@ -103,6 +154,8 @@ def lire(f: Path):
 def valider(racine: Path, chemin_index: Path):
     anomalies, annotes, n_fiches, n_annot = [], set(), 0, 0
 
+    global INV
+    INV = _invariants()
     suivis = _generateur().fichiers_suivis(racine)
     if suivis is None:
         print("  git indisponible : parcours integral.", file=sys.stderr)
@@ -168,7 +221,14 @@ def valider(racine: Path, chemin_index: Path):
                 anomalies.append(("VOC", rel, "<dfn data-terme=%r> sans data-tradition" % cle))
             if "data-nom" in attrs:
                 g = attrs.get("data-genre")
-                if g not in GENRES_CLOS:
+                admis = genres_admis(INV.circuit_de(rel))
+                if g in admis:
+                    pass
+                elif g in (GENRES_CLOS | GENRES_HERMENEUTIQUE):
+                    anomalies.append(("D6", rel,
+                        "data-genre=%r est valide, mais son circuit (%s) ne "
+                        "l'admet pas" % (g, INV.circuit_de(rel) or "hors circuit")))
+                else:
                     anomalies.append(("VOC", rel, "data-genre=%r hors vocabulaire clos" % g))
 
             # D4 — placement interdit

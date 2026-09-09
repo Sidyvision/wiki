@@ -3,7 +3,7 @@ title: "Changelog du protocole CLAUDE.md (racine)"
 type: meta
 tags: [protocole, historique, changelog]
 created: 2026-08-28
-updated: 2026-09-08
+updated: 2026-09-09
 ---
 
 # Changelog du protocole `CLAUDE.md` (racine)
@@ -16,6 +16,81 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-09] amendement | §VII — Vocabulaire de `data-genre` scopé par circuit ; `hermeneutique` reconnu comme circuit par le contrôleur
+
+**Verdict de Sidy**, 2026-09-09 : « étends le vocabulaire clos pour hermeneutique/ ».
+
+**Le motif, mesuré.** La passe d'annotation des circuits non doctrinaux avait buté : les
+sept genres transversaux ne savent nommer ni une œuvre profane, ni un personnage, ni un
+dispositif d'œuvre. Sur 90 poses proposées dans `hermeneutique/`, 53 avaient dû être
+rejetées faute de mot — et forcer `entite`, réservé au métaphysique, sur un personnage de
+fiction aurait été une **faute de catégorie** exactement là où le Cmd 3 s'applique avec
+une rigueur accrue.
+
+**Ce qui est institué — et ce ne sont pas des mots nouveaux.** `hermeneutique/` reçoit
+cinq genres propres, admis **chez lui seul** : `oeuvre`, `auteur`, `figure`,
+`dispositif`, `concept`. Ce sont, **terme pour terme, les valeurs du champ `type:` que
+`hermeneutique/CLAUDE.md` déclare déjà**. L'annotation emprunte au circuit son propre
+vocabulaire, et hérite du même coup de la garde Cmd 3 qui y est attachée : `auteur`
+« emprunte la forme d'archivage de `doctrinal/autorites/` sans en partager la fonction —
+aucun statut d'autorité conféré ni supposé » ; `oeuvre` ne se fond **jamais** dans
+`ouvrage`, réservé au traité traditionnel. Ne pas fondre ces deux registres est le fond
+même du non-syncrétisme.
+
+**`entite` reste admis dans `hermeneutique/`**, à côté de `figure`. J'avais d'abord voulu
+l'en exclure, en tirant argument de « le hozo y est exclu par défaut » — mais cette clause
+régit les **joints entre traditions**, non la faculté de nommer une entité reçue. Une
+fiche du circuit en cite légitimement une dans la même phrase qu'une figure de fiction :
+c'est même son sujet. Distinguer les deux est un **jugement réservé** (Cmd 12) — la garde
+ouvre les deux mots plutôt que de trancher à la place de Sidy.
+
+**Ce qui reste sans genre, et le reste sciemment** : les catégories éditoriales (*shōnen*,
+*seinen*, *thriller*, *gothique*) et les structures de production (studios, éditeurs). Le
+vocabulaire `type:` du circuit ne les nomme pas ; leur inventer un genre aurait été un mot
+**de la machine et non du protocole**. Le manque est rapporté, non comblé.
+
+**Migration des annotations déjà posées.** Les 35 annotations versées la veille dans
+`hermeneutique/` employaient `ouvrage` pour *Death Stranding*, *Metal Gear*,
+*Frankenstein*, et `autorite` pour Kojima, Mary Shelley, Naoki Urasawa. Migrées dans le
+**même commit** : 16 `oeuvre`, 5 `auteur`. Sans cela, deux conventions auraient coexisté
+dans le circuit — et le validateur les aurait acceptées toutes deux, de sorte que rien
+n'en aurait averti plus tard.
+
+**Un trou hérité, trouvé en câblant et comblé — `hermeneutique` n'était pas un circuit
+pour le contrôleur.** `verifier-invariants.py` portait
+`CIRCUITS = ["doctrinal", "atelier", "label", "meta"]` : `circuit_de()` renvoyait `None`
+pour toute fiche du circuit, de sorte que **B1** (clés de Sceau requises) et **C3**
+(étanchéité) n'ont **jamais contrôlé aucune des 28 fiches** depuis l'ouverture du circuit.
+Le contrôle ne se plaignait pas : il ne regardait rien. C'est la forme exacte de PRO-01,
+découverte ici parce que le nouveau contrôle D6 avait besoin d'un résolveur de circuit.
+**Mesuré avant de combler** : les 28 fiches passent B1 sans une seule erreur, la fermeture
+est donc sans effet rétroactif. `CLES_REQUISES` reçoit
+`["title", "type", "registre", "created", "updated", "sources"]` — `registre` y est requis
+car il distingue `analyse` de `expression`, donc le régime de production de la fiche. Et
+`ETANCHEITE_INTERDITE` inscrit enfin « doctrinal/ → hermeneutique/ : jamais », que le
+protocole local énonçait sans que rien ne le garde.
+
+**Définition canonique partagée, troisième application.** `valider-annotations.py`
+**importe** `circuit_de()` du contrôleur racine au lieu d'écrire une seconde règle
+chemin → circuit. Même motif que le partage de `est_ecriture_originale()` et de
+`fichiers_suivis()` : deux résolveurs qui divergent, c'est le contrôle qui ment sans se
+plaindre.
+
+**Épreuve des contrôles (§VII) — vert sur X, refus sur Y.** Le refus **D6** ne porte pas
+sur un genre inconnu — VOC le refusait déjà — mais sur un genre **valide posé dans le
+mauvais circuit**, et c'est cette face-là qui a été éprouvée.
+- *Vert* : dépôt vivant, « 316 fiches annotées, 913 annotations. OK — aucune anomalie »,
+  code 0 ; `verifier-invariants.py` 1418 fichiers, **0 erreur, 0 avertissement**. Bac à
+  sable : `oeuvre` dans une fiche `hermeneutique/` et `entite` dans une fiche
+  `doctrinal/` ne lèvent **rien**.
+- *Refus* : bac à sable, `data-genre="oeuvre"` dans `doctrinal/symboles/` et
+  `data-genre="dispositif"` dans `atelier/rd/` — **deux refus D6**, chacun nommant son
+  fichier et son circuit, code 2.
+
+**Réversibilité (Cmd 10)** : les cinq genres se retirent sur verdict ; la migration
+`ouvrage`→`oeuvre` / `autorite`→`auteur` est un remplacement littéral, réversible de
+même. Le comblement du trou de `CIRCUITS` est sans effet rétroactif, mesuré comme tel.
 
 ## [2026-09-08] amendement | §VII — Ratification des règles de placement des annotations HTML
 

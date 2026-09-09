@@ -105,6 +105,41 @@ original: []                         # facultatif — écriture d'origine, ou ["
 - `doctrinal/` → `hermeneutique/` : **jamais**. Aucune fiche doctrinale, y compris
   de discernement, ne pointe vers ce circuit.
 
+## Vocabulaire d'annotation propre au circuit (étendu 2026-09-09, verdict Sidy)
+
+Les sept genres du vocabulaire clos transversal (`autorite`, `lieu`, `ouvrage`,
+`entite`, `ecole`, `cycle`, `principe` — CLAUDE.md racine §VII) ne savaient nommer ni
+une œuvre profane, ni un personnage, ni un dispositif d'œuvre. Le circuit reçoit donc
+**cinq genres propres**, admis par `data-genre` **ici seulement** :
+
+| genre | ce qu'il nomme |
+|---|---|
+| `oeuvre` | une œuvre ou une saga — **jamais `ouvrage`**, réservé au traité traditionnel |
+| `auteur` | un créateur réel — emprunte la **forme** de `autorite` sans en partager la fonction |
+| `figure` | un personnage, ou une entité non personnelle fonctionnant comme tel |
+| `dispositif` | lieu, vaisseau, appareil, système, interface ou institution de l'œuvre |
+| `concept` | une notion propre à l'œuvre |
+
+**Ce ne sont pas des mots nouveaux** : ce sont, terme pour terme, les valeurs du champ
+`type:` que ce protocole déclare déjà ci-dessus. L'annotation ne fait qu'emprunter au
+circuit son propre vocabulaire, avec la garde Cmd 3 qui y est déjà attachée —
+`auteur` ne confère aucun statut d'autorité, `oeuvre` ne se fond jamais dans `ouvrage`.
+
+**`entite` reste admis ici**, à côté de `figure`. Une fiche du circuit cite légitimement
+une entité reçue dans la même phrase qu'une figure de fiction — c'est même son sujet.
+Distinguer les deux est un **jugement**, réservé à Sidy (Cmd 12) : la garde ouvre les
+deux mots, elle ne tranche pas à sa place.
+
+**Ce qui reste sans genre, et le reste sciemment** : les catégories éditoriales
+(*shōnen*, *seinen*, *thriller*, *gothique*) et les structures de production (studios,
+éditeurs). Le vocabulaire `type:` du circuit ne les nomme pas, et leur inventer un genre
+serait un mot de la machine et non du protocole. Elles ne sont pas annotées ; le manque
+est rapporté (Cmd 12).
+
+**Garde mécanique** : un genre valide **posé hors de son circuit** — `oeuvre` dans
+`doctrinal/`, `dispositif` dans `atelier/` — est refusé (**D6** de
+`valider-annotations.py`), éprouvé sur faute fabriquée le 2026-09-09.
+
 ## Portance et garde-fou (Cmd 3)
 
 Tout joint de ce circuit est de portance ***zōsaku*** : il ne porte rien, et sa

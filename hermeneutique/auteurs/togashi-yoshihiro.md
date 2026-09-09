@@ -22,7 +22,7 @@ liens_atelier: []
 ## 1. Repères biographiques (mémoire générale — `to-source` intégral)
 
 Né en 1966 dans la préfecture de Yamagata, Japon. Débute chez Shūeisha à la fin
-des années 1980. Œuvres majeures avant <span data-nom="hunter-x-hunter" data-genre="ouvrage">Hunter x Hunter</span> : *Yu Yu Hakusho*
+des années 1980. Œuvres majeures avant <span data-nom="hunter-x-hunter" data-genre="oeuvre">Hunter x Hunter</span> : *Yu Yu Hakusho*
 (1990-1994, succès public majeur), *Level E* (1995-1997, one-shot puis série
 courte, déjà marqué par une construction très cérébrale du récit). Marié à
 Naoko Takeuchi (créatrice de *Sailor Moon*) — fait biographique à traiter avec
