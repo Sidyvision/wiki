@@ -17,6 +17,44 @@ ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] clarification | §VII — Le champ `original:` porte les appariements de syntagmes
+
+**Verdict de Sidy** : « inscris-le au §VII », après examen de la limitation rapportée
+depuis le 2026-09-08 (« les syntagmes ne sont pas appariables »).
+
+**Ce qui est clarifié, et ce n'est pas une règle nouvelle** : les clés de l'index lexical
+sont des **tokens**. L'index ne peut donc structurellement pas apparier
+`chikai to seiyaku` à `誓約と制約`. La réciprocité d'un syntagme (§VII, point 6) se porte
+dans le champ **`original:` du Sceau** (§IV), qui accueille la chaîne entière et est
+ancré sur la fiche.
+
+**Trois élargissements essayés et mesurés, les trois écartés** — et c'est la mesure qui a
+tranché, non le principe :
+- **Élargir le côté latin de la regex** à un syntagme de 1 à 4 mots : 10 correspondances,
+  5 distinctes, **3 de déchet** — la regex avale l'article et la conjonction
+  (`et Muraqaba`, `Le Shintō`).
+- **Ancrer sur le slug de la fiche** : 5 candidats, **2 valables**. Les trois autres
+  échouent de trois façons différentes, dont `merkavah-muraqaba`, fiche qui traite **deux**
+  termes et que l'on ne peut apparier en bloc à chacune des deux écritures.
+- **Admettre la barre oblique** (essayée le 2026-09-08) : aucune paire vraie, une fausse
+  (`systeme` ↔ `α`).
+
+C'est le troisième cas de la session où un signal élargi cesse de mesurer ce qu'on lui
+demande — après le rôle `titre` et le consensus des `tradition_cadre`.
+
+**Le gisement réel est nul.** Les deux seules paires de syntagmes légitimes du dépôt —
+`hideo-kojima ↔ 小島秀夫` et `yoji-shinkawa ↔ 新川洋司` — sont **déjà appariées** par leur
+nom de famille (`kojima`, `shinkawa`), le syntagme n'ajoutant que le prénom. Bâtir une
+machinerie pour zéro paire manquante aurait été du travail contre la mesure.
+
+**Aucun outillage n'est donc à bâtir** : le porteur existe depuis le 2026-09-08, il attend
+d'être rempli — au fil des sessions, jamais en passe de masse (point 5). Fait mesuré et
+consigné : **aucun `original:` n'est peuplé dans le dépôt à ce jour**. Ni l'axe langue ni
+l'appariement des syntagmes ne se renforceront tant qu'il reste vide : les deux ont la
+même issue, et c'est la **discipline** qui la porte, non l'outillage.
+
+**Réversibilité (Cmd 10)** : clarification de texte, aucun code ni aucune fiche touchés.
+
 ## [2026-09-09] amendement | §VII — L'axe de la LANGUE, distinct de celui de la tradition ; ratification des 42 unanimes
 
 **Deux verdicts de Sidy**, 2026-09-09 : « ratifie les 42 unanimes » et « une alternative

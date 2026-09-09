@@ -10,7 +10,9 @@ la dispersion mentale.
 
 > **Historique des révisions** : conservé intégralement dans
 > `meta/protocole-archives/changelog-CLAUDE.md` (append-only, chronologique
-> inverse). Dernières révisions : **2026-09-09** (§VII, **axe de la LANGUE, distinct de
+> inverse). Dernières révisions : **2026-09-09** (§VII, clarification — **le champ
+> `original:` porte les appariements de syntagmes**, l'index ne portant que des tokens ;
+> trois élargissements mesurés et écartés, gisement réel nul ; §VII, **axe de la LANGUE, distinct de
 > celui de la tradition** — la langue est une propriété du *terme*, la tradition une
 > propriété du *cadre* ; champ `langue` sourcé par `original:`, la prose ou la forme
 > appariée, jamais par heuristique d'orthographe ; les écritures partagées (han) en sont
@@ -485,6 +487,27 @@ appariements, dont 84 réciproques). Les deux champs ne se fondent **jamais** : 
 prime, et le condensé les distingue à l'œil. Un troisième rang — la translittération
 produite par la machine — resterait dû d'un `to-source` ; la passe du 2026-09-08 l'a
 trouvé **vide**, aucune forme n'ayant eu à être devinée.
+
+**Le champ `original:` porte les appariements de SYNTAGMES ; l'index ne porte que des
+tokens** (clarification 2026-09-09, verdict Sidy). Les clés de l'index lexical sont des
+**tokens** : il ne peut structurellement pas apparier `chikai to seiyaku` à `誓約と制約`,
+qui est une paire de **syntagmes**. Trois voies d'élargissement ont été essayées et
+**mesurées** — élargir le côté latin de la regex d'appariement, l'ancrer sur le slug de
+la fiche, admettre la barre oblique. Les trois produisent **plus de déchet que de
+signal** : la regex avale l'article et la conjonction (`et Muraqaba`, `Le Shintō`), le
+slug se méprend sur les fiches qui traitent **deux** termes (`merkavah-muraqaba`), et la
+barre oblique n'a donné aucune paire vraie pour une fausse.
+
+Et le gisement réel est **nul** : les deux seules paires de syntagmes légitimes du
+dépôt — `hideo-kojima ↔ 小島秀夫`, `yoji-shinkawa ↔ 新川洋司` — sont **déjà appariées**
+par leur nom de famille, le syntagme n'ajoutant que le prénom.
+
+**La réciprocité d'un syntagme se porte donc là où elle est ancrée et sourcée : dans le
+champ `original:` du Sceau** (§IV). Une fiche dont le sujet est un syntagme y déclare la
+chaîne entière — `original: ["誓約と制約"]` —, ce qui l'immunise à la fois contre la
+gourmandise d'une regex et contre la découpe en tokens. **Aucun outillage n'est à bâtir
+pour cela** : le porteur existe, il attend seulement d'être rempli, au fil des sessions
+et jamais en passe de masse (point 5).
 
 **L'axe de la LANGUE, distinct de celui de la tradition** (verdict Sidy, 2026-09-09 :
 « une alternative serait de classifier par langue plutôt que par tradition, puisque chaque
