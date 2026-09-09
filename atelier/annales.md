@@ -10,6 +10,26 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] rd | Les 127 fiches doctrinales n'ont pas été créées — et la mesure dit pourquoi
+
+- **Ordre de Sidy** : « crée les fiches doctrinales pour les 125 clés ». **Les fiches n'ont pas été créées.** Ce n'est pas un refus de principe : trois voies de sourçage ont été essayées et **mesurées**, et les trois échouent. Le travail livré est ce qui, lui, est sourçable — plus le relevé qui rend le verdict praticable.
+- **Le nœud** : le Sceau Recteur exige `tradition_cadre` sur toute fiche `doctrinal/`. Créer ces fiches, c'est **asserter 127 traditions**. Le dépôt n'en source aucune.
+
+**Les trois voies, et leur mesure.**
+1. **Le consensus des fiches qui CITENT le terme** — **50 unanimes sur 160, 110 divergentes**. `barzakh` y donne `islam 36 / universel 12 / kabbale 2 / judaisme 1` ; `atma` donne `universel 7 / islam 6 / hindouisme 7`. La divergence est **structurelle et non accidentelle** : `tradition_cadre` décrit le cadre de **la fiche**, jamais l'origine du **terme**, et les fiches comparatives portent `universel` tout en citant des termes de partout. **La majorité aurait eu raison sur `barzakh`** — c'est exactement ce qui rendait la méthode tentante. Mais **un vote n'est pas une source** (Cmd 5), et une méthode qui a raison par majorité a **tort par construction** : elle aurait produit 110 assertions indiscernables des 50 justes.
+2. **La fiche qui TRAITE le terme** — retenue, et **livrée**. Nouveau champ `tradition` dans l'index (`tradition_par_terme`), posé **seulement** sur la fiche dont le slug **est** le terme, ou sur celles qui le **définissent** en prose, et **seulement à l'unanimité**. **268 traditions posées, 5 divergences signalées** et non tranchées. `barzakh` → `islam`, sourcé par `doctrinal/symboles/barzakh.md` : une assertion citable, non un décompte.
+   - **Le rôle `titre` a d'abord été admis, puis retiré**, et l'erreur vaut d'être notée : il se pose dès que le terme est **composant du slug**, si bien que les **60 fiches `guenon-*.md`** « traitaient » de Guénon et faisaient diverger le cadre. **Un signal trop large ne mesure plus ce qu'on lui demande** — 808 traditions posées dont la moitié fausses, contre 268 justes après resserrement.
+   - Mais cette voie ne couvre que les **33 clés qui ont déjà leur propre fiche** : c'est la **définition même du manque**, non son comblement.
+3. **L'écriture d'origine ou l'appariement Jurjānī** — un terme apparié à une définition du *Kitāb al-Taʿrīfāt* appartient au vocabulaire technique islamique, et **le numéro de définition en est la source**. C'était la voie la plus prometteuse. Mesuré sur les 127 : **zéro appariement Jurjānī, zéro écriture originale attestée**. Aucun des 127 ne porte le moindre signal.
+- **Il n'existe donc, dans le dépôt, aucun signal sourcé pour ces 127 traditions.** Les asserter serait produire 127 affirmations factuelles sans source dans le **circuit doctrinal** — ce que le Cmd 5 interdit et ce que le Cmd 12 réserve à Sidy.
+
+**Ce qui est livré à la place.**
+- Le **champ `tradition`** dans l'index, sourcé et régénérable, avec son degré (`fiche-propre` ou `definition`) et le chemin de sa ou ses sources.
+- Le relevé **`2026-09-09_termes-sans-tradition-sourcee.md`** : les 127 termes avec, pour chacun, ses occurrences, le nombre de fiches qui le portent, et les cadres déclarés par ces fiches — **pour qu'un verdict de 127 décisions se prenne sur une table** et non terme par terme dans le vide. **42 des 127** sont portés par des fiches déclarant toutes le même cadre : verdict facile à rendre, mais **une unanimité reste un vote, pas une source**, et le relevé le dit.
+- **Trois voies ouvertes, aucune retenue d'office** : ratifier en bloc les 42 unanimes ; créer les fiches avec `sources: ["to-source"]` et une tradition **déclarée par Sidy**, ce pour quoi le marqueur existe précisément ; ou ne rien créer — à l'intérieur de `doctrinal/` la fiche citante fournit déjà le cadre et l'annotation fonctionne, la conséquence est donc mesurée et limitée.
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 0 avertissement**. `valider-annotations.py` v1.3 : 0 anomalie, 6 signalements S1.
+- **Commit** : 2b15479
+
 ## [2026-09-09] rd | Les trois pistes restantes — deux fermées, une démontrée non fermable
 
 - **Ordre de Sidy** : « fais tout le reste en une seule passe ». Les trois pistes classées par rendement au rapport de session, traitées d'un trait.
