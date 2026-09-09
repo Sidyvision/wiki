@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
-| `wiki` | Wiki, wiki | — | table, titre | **125 fiches** | karubi-mehdi-navette-20260812.md | 370 |
+| `wiki` | Wiki, wiki | — | table, titre | **125 fiches** | karubi-mehdi-navette-20260812.md | 371 |
 | `working` | Working, working | — | table, titre | **19 fiches** | 01-a.md +22 | 110 |
 | `walaya` | Waläya, Walāya, walaya, walâya (+1) | — | annotation, table, tag, titre, translit | **43 fiches** | sept-etendards-califat-transcription.md +1 | 91 |
 | `waw` | Waw, Wâw, Wāw, waw (+2) | `و` | translit | **16 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 62 |

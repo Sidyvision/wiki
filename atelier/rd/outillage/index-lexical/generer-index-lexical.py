@@ -381,6 +381,9 @@ class Index:
                 # au dépôt, avec son numéro de définition. JAMAIS fondu dans
                 # `apparie`, qui est le rang 1.
                 "jurjani": None,
+                # Tradition SOURCÉE par la ou les fiches qui DÉFINISSENT le
+                # terme — jamais par un décompte des fiches qui le citent.
+                "tradition": None,
             }
         return self.termes[cle]
 
@@ -486,6 +489,72 @@ def charger_jurjani(racine: Path) -> dict:
               f"{PLANCHER_JURJANI} attendues au minimum — motif de lecture "
               f"probablement caduc")
     return dico
+
+
+def tradition_par_terme(racine: Path, index: Index, rapport: dict):
+    """Tradition d'un terme, SOURCÉE par la fiche qui le DÉFINIT.
+
+    Distinction décisive, mesurée le 2026-09-09. Compter les `tradition_cadre`
+    de toutes les fiches qui MENTIONNENT un terme est un vote, et un vote n'est
+    pas une source (Cmd 5) : `barzakh` y donnerait islam 36 / universel 12 /
+    kabbale 2, parce que `tradition_cadre` décrit LE CADRE DE LA FICHE et non
+    l'origine du terme — les fiches comparatives portent `universel` tout en
+    citant des termes de partout.
+
+    Ne sont donc retenues que les fiches qui **traitent** le terme : celles où
+    il porte le rôle `definition` (amorce `**Terme** :`) ou `titre` (il est le
+    sujet du `title:`/H1). Une fiche qui définit un terme déclare le cadre dans
+    lequel elle le définit : c'est une assertion sourcée, citable, et non un
+    décompte.
+
+    Le champ n'est posé que sur UNANIMITÉ des fiches traitantes. Divergence =
+    pas de champ, et le désaccord est rapporté : deux fiches qui définissent un
+    même terme sous deux cadres différents posent une question doctrinale, que
+    la machine signale et ne tranche pas (Cmd 12).
+    """
+    trad_fiche = {}
+    base = racine / "doctrinal"
+    if base.is_dir():
+        for f in base.rglob("*.md"):
+            try:
+                fm = lire_frontmatter(f.read_text(encoding="utf-8"))
+            except OSError:
+                continue
+            t = str(fm.get("tradition_cadre", "")).strip().strip('"')
+            if t and not t.startswith("["):
+                trad_fiche[str(f.relative_to(racine))] = t
+
+    n_pose = 0
+    divergents = {}
+    for cle, e in index.termes.items():
+        # Deux degrés de source, le premier primant absolument sur le second.
+        #  1. La fiche DONT LE SLUG EST LE TERME : elle a le terme pour sujet,
+        #     sans ambiguïté possible. C'est la source la plus forte.
+        #  2. À défaut, les fiches qui le DÉFINISSENT en prose (amorce
+        #     `**Terme** :`, rôle `definition`).
+        # Le rôle `titre` a d'abord été admis, puis RETIRÉ : il se pose dès que
+        # le terme est composant du slug, si bien que les soixante fiches
+        # `guenon-*.md` « traitaient » de `guenon` et faisaient diverger le
+        # cadre. Un signal trop large ne mesure plus ce qu'on lui demande.
+        propres = {rel: trad_fiche[rel] for rel in e["fiches"]
+                   if rel in trad_fiche and slug_de(Path(rel)) == cle}
+        traitantes = propres or {
+            rel: trad_fiche[rel]
+            for rel, v in e["fiches"].items()
+            if rel in trad_fiche and "definition" in v["roles"]
+        }
+        if not traitantes:
+            continue
+        cadres = set(traitantes.values())
+        if len(cadres) == 1:
+            e["tradition"] = {"cadre": cadres.pop(),
+                              "source": sorted(traitantes),
+                              "degre": "fiche-propre" if propres else "definition"}
+            n_pose += 1
+        else:
+            divergents[cle] = {r: t for r, t in sorted(traitantes.items())}
+    rapport["tradition_posee"] = n_pose
+    rapport["tradition_divergente"] = divergents
 
 
 def apparier_jurjani(index: Index, racine: Path, rapport: dict):
@@ -749,6 +818,7 @@ def serialiser(index: Index, rapport: dict, avec_textes: bool) -> dict:
             "roles": sorted(e["roles"]),
             "apparie": sorted(e["apparie"]),
             "jurjani": e["jurjani"],
+            "tradition": e["tradition"],
             "occurrences": e["occurrences"],
             # [renvoi_chemin, occurrences, roles]
             "fiches": [[ref(rel), v["n"], sorted(v["roles"])]
@@ -972,6 +1042,7 @@ def main():
     filtrer_etiquettes(index, rapport)
     # Après le filtre des étiquettes (une clé déclassée ne doit pas recevoir de
     # renvoi Jurjānī) et avant le comptage, qui ne touche pas aux appariements.
+    tradition_par_terme(racine, index, rapport)
     apparier_jurjani(index, racine, rapport)
     compter(racine, index, rapport, avec_textes, suivis)
     controler(index, rapport, avec_textes)

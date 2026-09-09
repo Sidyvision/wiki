@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
-| `index` | INDEX, Index, index | — | tag | **87 fiches** | LISEZ-MOI.md +404 | 1530 |
+| `index` | INDEX, Index, index | — | tag | **87 fiches** | LISEZ-MOI.md +404 | 1531 |
 | `ibn` | IBN, IBn, Ibn, ibn | — | titre | **180 fiches** | LISEZ-MOI.md +79 | 1463 |
 | `initiatique` | INITIATIQUE, Initiatique, initiatique | — | table, titre | **73 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +180 | 845 |
 | `islamique` | Islamique, islamique | — | table, titre | **167 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +142 | 685 |

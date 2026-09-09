@@ -13,7 +13,7 @@ links: []
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
 | `dream` | DREAM, Dream, dream | — | table | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[meta/personnel/sidy]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +28 | 13006 |
-| `deux` | DEUX, Deux, deux | — | table, titre | **448 fiches** | LISEZ-MOI.md +463 | 6203 |
+| `deux` | DEUX, Deux, deux | — | table, titre | **448 fiches** | LISEZ-MOI.md +463 | 6204 |
 | `doctrinal` | Doctrinal, doctrinal | — | table, tag, titre | **433 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +37 | 1815 |
 | `depot` | Depot, Dépôt, depot, dépôt | — | tag | **353 fiches** | LISEZ-MOI.md +17 | 1738 |
 | `doctrine` | DOCTRINE, Doctrine, doctrine | — | table, titre | **247 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +235 | 1433 |
@@ -28,7 +28,7 @@ links: []
 | `double` | DOUBLE, Double, double, doublé | — | table, tag | **125 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +192 | 682 |
 | `date` | Date, Daté, date, daté | — | definition, table | **148 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +104 | 678 |
 | `donnees` | Données, donnees, données | — | table, titre | **154 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +132 | 592 |
-| `directe` | DIRECTE, directe | — | titre | **160 fiches** | LISEZ-MOI.md +161 | 523 |
+| `directe` | DIRECTE, directe | — | titre | **161 fiches** | LISEZ-MOI.md +161 | 524 |
 | `devenir` | Devenir, devenir | — | titre | **82 fiches** | LISEZ-MOI.md +187 | 493 |
 | `doctrines` | Doctrines, doctrines | — | titre | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +172 | 421 |
 | `dreams` | DREAMS, Dreams, dreams | — | table, titre | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili]] · [[hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | LISEZ-MOI.md +29 | 393 |
@@ -91,9 +91,9 @@ links: []
 | `deliberement` | délibérément | — | definition | **26 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +6 | 37 |
 | `dad` | dad, dâd, däd, Ḍâd (+3) | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | osman-yahya-06-chapitre-05.md +7 | 35 |
 | `dal` | Dâl, Dāl, dal, dâl (+2) | — | translit | **9 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 33 |
+| `dictionnaire` | Dictionnaire, dictionnaire | — | annotation, table, tag | **17 fiches** | LISEZ-MOI.md +6 | 33 |
 | `darmesteter` | Darmesteter, Darmésteter | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch08-the-cows-walk.md +4 | 32 |
 | `dawud` | DAwüD, DawuD, Dawud, DawüD (+5) | — | translit | [[doctrinal/sources/hasbiyallah-rabbani]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/tibb-e-nabawi]] | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +6 | 32 |
-| `dictionnaire` | Dictionnaire, dictionnaire | — | annotation, table, tag | **16 fiches** | LISEZ-MOI.md +6 | 31 |
 | `d'al-insan` | d'Al-Insān, d'al-Insān | — | titre, translit | **19 fiches** | — | 30 |
 | `dira` | dira, ḏirâʿ | — | translit | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation]] · [[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/transmissions/karubi-mehdi]] | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +21 | 29 |
 | `discrimination` | Discrimination, discrimination | — | tag | **9 fiches** | voie-initiatique-et-voie-mystique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +8 | 29 |

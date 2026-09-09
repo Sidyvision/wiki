@@ -17,7 +17,7 @@ links: []
 | `arctic` | ARCTIC, ARcTIC, Arctic | — | table | **13 fiches** | LISEZ-MOI.md +18 | 579 |
 | `allah` | Allah, Allàh, Allâh, Alläh (+4) | — | table, titre, translit | **57 fiches** | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +48 | 535 |
 | `atelier` | Atelier, atelier | — | table, tag | **175 fiches** | karubi-mehdi-navette-20260812.md +3 | 510 |
-| `arabe` | ARABE, Arabe, arabe | — | table, tag, titre | **109 fiches** | LISEZ-MOI.md +96 | 500 |
+| `arabe` | ARABE, Arabe, arabe | — | table, tag, titre | **110 fiches** | LISEZ-MOI.md +96 | 501 |
 | `aspects` | Aspects, aspects | — | tag, titre | **65 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +200 | 499 |
 | `al-din` | al-Din, al-Dîn, al-Dīn, al-din (+1) | `الدين` — Jurjānī déf. 0746 | titre, translit | **26 fiches** | isaghuji-cours01-introduction-transcription.md +12 | 494 |
 | `abd` | ABD, Abd, abd, ʿAbd (+1) | — | titre, translit | **29 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-5.md +10 | 490 |

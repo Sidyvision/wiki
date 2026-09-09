@@ -18,7 +18,7 @@ links: []
 | `jean` | JEAN, Jean | — | table | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +61 | 179 |
 | `journal` | Journal, journal | — | tag, titre | **50 fiches** | karubi-mehdi-navette-20260812.md +43 | 173 |
 | `jabarut` | Jabarut, Jabarût, Jabarūt, jabarut (+3) | — | annotation, table, tag, translit | **44 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 170 |
-| `jurjani` | Jurjani, Jurjânî, Jurjäni, Jurjānī (+2) | — | annotation, table, tag, titre, translit | **52 fiches** | karubi-mehdi-navette-20260812.md +1 | 169 |
+| `jurjani` | Jurjani, Jurjânî, Jurjäni, Jurjānī (+2) | — | annotation, table, tag, titre, translit | **52 fiches** | karubi-mehdi-navette-20260812.md +1 | 170 |
 | `jesus` | Jesus, JÉSUS, Jésus | — | table, titre | **39 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +26 | 162 |
 | `jiva` | Jîva, Jīva, jiva, jîva (+1) | — | translit | **12 fiches** | la-puissance-du-serpent.md +6 | 156 |
 | `jacob` | JACOB, Jacob | — | table, titre | **12 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-5.md +28 | 139 |
