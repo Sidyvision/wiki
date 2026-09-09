@@ -10,6 +10,19 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] rd | Document de reprise du chantier d'indexation — état des lieux, registre des voies écartées, commandes
+
+- **Ordre de Sidy** : « rends ton compte-rendu R&D … surtout de façon à pouvoir reprendre plus tard ». Le premier rapport (`2026-09-09_rapport-session-indexation-html-annotations`) **raconte** la première moitié du chantier ; celui-ci, `2026-09-09_etat-des-lieux-indexation-et-reprise`, **sert à reprendre**. Pointeur ajouté du premier vers le second.
+- **Neuf sections, dont trois qui n'existaient nulle part** :
+  - **Le goulot, nommé.** Le champ `original:` porte **à lui seul trois choses** — la forme d'origine, la **langue** du terme (provenance la plus forte, et la seule qui grandira), et les appariements de **syntagmes** que l'index, dont les clés sont des tokens, ne peut structurellement pas porter. **Mesuré : aucun `original:` n'est peuplé dans le dépôt.** Tant qu'il reste vide, l'axe langue plafonne à 52 termes et les syntagmes n'ont pas de porteur. **Aucun outillage n'y changera rien** — c'est la discipline, et le point 5 interdit la passe de masse. C'est le point de reprise **le plus rentable, et il ne demande aucun code**.
+  - **Le registre des voies écartées**, dix entrées, chacune avec **ce qui la rendait tentante** et **ce que la mesure a donné**. Le motif est constant, et c'est lui qu'il fallait écrire : *on élargit un signal pour couvrir davantage, et l'on se met à couvrir autre chose.* Une reprise ne doit en rouvrir aucune sans mesure nouvelle.
+  - **Les trois pièges structurels** qui se redéclencheront — marqueur d'insertion, convention d'annotation, langue citée en exemple —, tous trois lus comme des **faits** alors qu'ils **illustraient une règle**. Ce ne sont pas des accidents : c'est une propriété d'un dépôt qui documente son propre outillage.
+- Plus : les **commandes exactes** de régénération et de vérification, les **huit verdicts en attente**, et le **témoin du régime apparié** à refaire à chaque passe — comparer les **arêtes triées**, jamais le compte, qui peut coïncider par hasard.
+- **L'audit de Sidy est signalé, non traité.** `atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation.md`, conduit par Qoder et déposé ce jour à 06:42, relit ligne à ligne le générateur et le validateur bâtis par cette session. **Ses conclusions ne sont pas reprises**, et c'est délibéré : les vérifier demande une passe propre, et les résumer sans les avoir vérifiées leur prêterait une autorité qu'elles n'ont pas encore acquise (Cmd 12). Ce n'est pas une réserve sur l'auditeur — c'est la règle qui vaut pour tout ce que la session qui écrit n'a pas mesuré elle-même. **Une reprise doit l'ouvrir en premier** : c'est le seul regard porté depuis l'extérieur de la session qui a bâti l'outil, donc le seul qui puisse voir ce qu'elle n'a pas su voir. Ses mesures d'en-tête concordent avec les miennes — recoupement indépendant.
+- **Un écart de protocole révélé par cet audit, rapporté et non corrigé (Cmd 12)** : ses `links:` pointent `[[…/generer-index-lexical]]` et `[[…/valider-annotations]]`, qui sont des fichiers **`.py`**. Le contrôle C1 ne résout que des cibles `.md` — **le régime de liens du dépôt n'a pas de forme pour citer un script**. Deux avertissements C1 en découlent, qui ne sont pas des fautes de la fiche.
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 2 avertissements** (les deux ci-dessus, sur une fiche non suivie par git). `valider-annotations.py` v1.3 : 0 anomalie, 4 signalements S1.
+- **Commit** : ee34719
+
 ## [2026-09-09] rd | Les syntagmes — trois élargissements mesurés, aucun retenu, et le porteur qui existait déjà
 
 - **Ordre de Sidy** : « qu'est-ce que tu proposes pour les syntagmes ? » puis « inscris-le au §VII ». **Ma proposition a été de ne rien construire**, et la mesure l'a dictée contre mon propre réflexe.
