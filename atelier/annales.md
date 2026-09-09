@@ -10,6 +10,56 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] protocole | Phase 2 — décantation de `CLAUDE.md` en `protocoles/`
+
+- **Ordre de Sidy** : « Je suis d'avis de decanté CLAUDE.md de tout ce qui peux etre
+  changer en skill, pour en garder l'essentiel, les principes », puis, sur le plan
+  présenté : « 1. Protocoles/ à la racine 2. Validé 3. Le MCP / Entre dans le
+  périmètre de la Phase 2, à inscrire dans claude.md ».
+- **Fait** : 286 lignes de procédure sorties de la racine en 10 fiches de
+  `protocoles/` — texte inchangé, chacune portant son en-tête de rattachement.
+  Racine 937 → 761 lignes. Cmd 14 amendé (auto-suffisance étendue aux fiches que la
+  racine nomme ; discipline du renvoi nominatif et inconditionnel). Serveur MCP
+  inscrit en §VIII.11. Archive de réversion :
+  `meta/protocole-archives/CLAUDE-v4_2026-09-09.md`.
+- **`protocoles/` à la racine**, non sous `meta/` : le verdict 1 de Sidy corrige la
+  ligne caduque de l'entrée de Phase 1.
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 0 avertissement, 1479
+  fichiers contrôlés**, exit 0 (sortie brute du MCP :
+  `{"ok":true,"code":0,"perimetre":"git","fichiers_controles":1479,"erreurs":[],"avertissements":[]}`).
+- **Épreuve des contrôles sur P1 et P2**, les deux codes neufs de la garde mécanique
+  du Cmd 14 — pas de vert seul : **vert sur l'état sain** (0 erreur, 0 avertissement,
+  1479 fichiers) ; **refus observé sur P1** (`CLAUDE.md:760`, renvoi vers
+  `protocoles/fiche-inexistante.md`, exit 1) et **sur P2** (`protocoles/orphelin.md`,
+  « aucun pointeur de `CLAUDE.md` racine ne nomme cette fiche », exit 1) ; **état sain
+  rétabli** dans les deux cas. Le chemin circuit-local de P1, resté du code non
+  exercé, a été éprouvé séparément : refus sur `atelier/CLAUDE.md:142` (exit 1), sain
+  rétabli (exit 0). Les trois chemins sont couverts.
+- **Régression rattrapée avant commit** : le differ ligne à ligne (`HEAD:CLAUDE.md`
+  contre racine + `protocoles/`, normalisation des blancs, contrôle négatif) a montré
+  que le **Cmd 13, « Porte humaine sur tout ce qui engage »**, avait disparu — la
+  liste sautait de 12 à 14, alors que trois fiches du dépôt le citent
+  (`meta/CLAUDE.md:105`, `meta/philosophie-sashimono.md:51`,
+  `atelier/rd/cahiers/registre-problemes.md:751`). Restauré mot pour mot depuis
+  `HEAD`. Les 6 lignes orphelines restantes sont toutes expliquées : un titre reformé
+  et l'ancien Cmd 14, amendé sur verdict. Leçon : une extraction « sans perte » n'est
+  pas une extraction *dite* sans perte — c'est le differ qui l'établit.
+- **Discipline du renvoi vérifiée à l'œil** : les 10 pointeurs racine sont nominatifs
+  et inconditionnels ; aucun « si besoin », aucun « voir aussi ». P2 ne contrôle que
+  la présence du nom, pas la formule — la lettre reste sous garde humaine.
+- **Cmd 15** : aucun caractère invisible dans les 13 fichiers touchés.
+- **Écart déclaré, non comblé (Cmd 12)** : les enveloppes `.claude/skills/`, portées
+  au plan comme optionnelles, ne sont pas créées — `.claude/` est dans le périmètre
+  git, chaque fichier y lèverait B0 pour un gain normatif nul, et une enveloppe propre
+  à un éditeur loge mal un protocole que le Cmd 14 veut agnostique au moteur. La
+  mécanisation agnostique est le serveur MCP.
+- **Piège re-rencontré** : le garde-fou `assert count==1` sur le marqueur d'insertion
+  a échoué (le marqueur est cité 3 fois dans le fichier, l. 806 et 4929 le décrivant
+  en prose) et l'AssertionError a été avalée par le filtre de sortie de la session.
+  Insertion refaite par numéro de ligne. Une entrée antérieure décrivait déjà ce
+  piège — le consigner ne suffit pas, il faut viser la ligne, non le motif.
+- **Commit** : e13253a
+
 ## [2026-09-09] chantier | CLAUDE.md, Phase 1 de l'audit Qoder — relocalisation pure, et trois pertes de lettre rattrapées par le contrôle
 
 - **Ordre de Sidy** : « Commence par la Phase 1 sans amendement ». La Phase 2 (extraction en `meta/protocoles/` et enveloppes `.claude/skills/`) **reste différée** : elle exigerait un amendement au Cmd 14, qui n'a pas été demandé. Aucune règle n'est abrogée ni réécrite ; le corollaire d'auto-suffisance tient inchangé.
