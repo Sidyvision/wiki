@@ -9,6 +9,19 @@ updated: 2026-09-09
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] archivage | Verdict sur les 6 paires signalées par `S1` — deux fautes corrigées, trois maintenues
+
+- **Verdict de Sidy**, après lecture des six paires en contexte : corriger `rijāl` et `burckhardt`, maintenir `yuga`/espèces et `janus`/`janus-bifrons`, rapporter l'asymétrie des quatre Yuga sans y toucher.
+- **Les deux fautes étaient la même en réalité** : une **seconde pose** là où le terme était déjà typé ailleurs dans la fiche.
+  - **`rijāl`** — `doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities.md:195` annotait `*<dfn>rijāl</dfn> Allāh*` : **une partie du syntagme nommée comme si elle était le tout**, alors que la ligne 184 de la même fiche typait déjà `rijāl Allāh` entier. **Annotation retirée** — la re-clé aurait violé D5.
+  - **`burckhardt`** — même personne que `titus-burckhardt`, dont le dépôt porte la fiche `doctrinal/autorites/titus-burckhardt.md` et vers laquelle la fiche pointe déjà en wikilink. La clé courte n'existait que comme **tag**. Annotation retirée.
+- **D5 a attrapé ma propre correction, et c'est le fait de la passe.** J'avais d'abord **re-clé** `burckhardt` en `titus-burckhardt` — le contrôle a **refusé** : le terme était déjà annoté plus haut dans la même fiche. Le geste juste était celui appliqué à `rijāl` : **retirer, non renommer**. *Le contrôle a corrigé le correcteur* — et il l'a fait sur une correction validée par verdict, ce qui est précisément le service qu'on attend de lui.
+- **Trois maintenues.** `yuga` avec `satya-yuga` et `kali-yuga`, dans deux fiches : c'est un **genre et ses espèces dans une même phrase** — « Durées des quatre *Yuga* : *Satya-Yuga* 25 920 … *Kali-Yuga* 6 480 » —, exactement le rapport pour lequel `S1` a été câblé en **signalement et non en refus**. `janus` / `janus-bifrons` : même entité, mais l'un nomme l'**aspect** à deux visages, et `janus-bifrons` possède sa propre fiche.
+- **Rapporté, non corrigé (Cmd 12), et `S1` ne pouvait pas le voir** : dans cette même phrase de `manvantara.md`, **`Trêtâ-Yuga` et `Dwâpara-Yuga` ne sont pas annotés** quand leurs deux sœurs le sont. Ce n'est pas une faute de placement — l'appariement **D1** l'interdit, ces deux-là n'étant ni tags ni cibles de wikilink de la fiche. Le résultat visible est **une énumération à moitié typée** : c'est une conséquence directe du régime apparié, et mieux vaut la nommer ici que la laisser découvrir plus tard.
+- **`S1` passe de 6 à 4 signalements**, tous légitimes.
+- **Vérification** — `valider-annotations.py` v1.3 : **0 anomalie**, exit 0. `verifier-invariants.py` : **0 erreur, 0 avertissement**. Graphe régénéré : **arêtes identiques**.
+- **Commit** : 79ba7f7
+
 ## [2026-09-09] archivage | Achèvement de l'annotation de `doctrinal/` — `deviations/`, `etudes/`, `discernement/`, `sources/` (587 poses)
 
 - **Ordre de Sidy** : « continue ». Reprise du même pipeline déterministe et du même critère explicite que les passes `symboles/`, `traditions/` et `autorites/`.
