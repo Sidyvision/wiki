@@ -8,7 +8,7 @@ createur: "Hideo Kojima"
 statut_analyse: en-cours
 tags: [oeuvre, saga, metal-gear, jeu-video, dissuasion, transmission]
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-09-09
 sources: ["to-source"]
 liens: ["[[hermeneutique/auteurs/hideo-kojima]]", "[[hermeneutique/auteurs/yoji-shinkawa]]", "[[hermeneutique/metal-gear/big-boss]]", "[[hermeneutique/metal-gear/mother-base]]", "[[hermeneutique/death-stranding/death-stranding]]"]
 cles_doctrinales: ["[[doctrinal/symboles/alam-al-mithal]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
@@ -64,7 +64,7 @@ transmissions manquées**, qui est le sujet réel de l'œuvre :
 
 1. **The Boss** formule une volonté — un monde non divisé, des soldats qui ne
    soient pas les outils d'un camp. Elle meurt en l'exécutant, sans l'expliquer.
-2. **Big Boss** la reçoit sans la comprendre et la retourne : il fonde pour les
+2. **<span data-nom="big-boss" data-genre="figure">Big Boss</span>** la reçoit sans la comprendre et la retourne : il fonde pour les
    soldats une nation à eux (voir [[hermeneutique/metal-gear/big-boss]]).
 3. **Zero** la reçoit autrement et fonde un système de contrôle destiné à
    maintenir la volonté après la mort de ceux qui la portaient — ce qui la tue.

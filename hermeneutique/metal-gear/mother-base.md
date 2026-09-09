@@ -41,7 +41,7 @@ faire sur le terrain.
 ## 2. Contexte narratif
 
 Le nom dit la thèse : *mother*, la maison, la matrice — pour une organisation
-composée d'hommes que leur pays a rejetés ou consommés. Big Boss ne fonde pas
+composée d'hommes que leur pays a rejetés ou consommés. <span data-nom="big-boss" data-genre="figure">Big Boss</span> ne fonde pas
 une entreprise militaire, il fonde un **foyer pour ceux qui n'en ont plus**
 (voir [[hermeneutique/metal-gear/big-boss]] §3 : c'est là qu'il croit exécuter
 la volonté de The Boss, et c'est là qu'il la manque).
@@ -115,7 +115,7 @@ joueur, et non un personnage, ait fait le travail.
 
 ## 5. Menus et interface `to-source`
 
-L'accès se fait par l'**iDroid**, terminal portable que le personnage déploie en
+L'accès se fait par l'**<span data-nom="idroid" data-genre="dispositif">iDroid</span>**, terminal portable que le personnage déploie en
 projetant une interface lumineuse devant lui. Point de forme important : le
 personnage **ne quitte pas le monde** pour consulter ses menus — il reste
 vulnérable, l'interface est un objet dans la fiction, pas une pause.
@@ -241,7 +241,7 @@ le plus dangereux à transposer tel quel — dans le jeu, le coût humain de la
 scène *est* le message ; dans un système réel, le protocole de confinement
 doit rester net et documenté, jamais dramatisé pour lui-même.
 
-**Expérimentation concrète** : aucune n'est proposée ici. Si la transposition
+**Expérimentation concrète** : aucune n'est proposée ici. Si la <span data-nom="transposition" data-genre="concept">transposition</span>
 doit produire quelque chose de concret pour l'infrastructure réelle, c'est un
 document propre à `meta/projet-unifie/` ou `atelier/projets/`, pas un
 paragraphe de plus dans une fiche de lecture (Cmd 4, Cmd 13).

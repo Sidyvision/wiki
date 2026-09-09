@@ -45,7 +45,7 @@ déposé n'est pas mesuré et reste `to-source`.
 
 ## Nature de la pièce
 
-Document **visuel** de production — concept art et légendes d'atelier. Ce n'est ni
+Document **visuel** de production — <span data-nom="concept-art" data-genre="oeuvre">concept art</span> et légendes d'atelier. Ce n'est ni
 un corpus de l'œuvre, ni un recueil d'entretiens. La couche texte est purement
 légendaire : 2 091 lignes, ≈ 29 Ko pour 258 pages ; le corps de l'ouvrage est de
 l'image. **Toute lecture par extraction de texte est structurellement partielle** —

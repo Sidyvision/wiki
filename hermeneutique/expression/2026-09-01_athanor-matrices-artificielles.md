@@ -24,7 +24,7 @@ liens_atelier: []
 
 # L'athanor de Burckhardt et la figure des matrices artificielles
 
-*Fiche de mise en regard de la matière alchimique occidentale (athanor, Titus <span data-nom="burckhardt" data-genre="auteur">Burckhardt</span>) avec la figure des cinq matrices artificielles (Golem, <span data-nom="frankenstein" data-genre="oeuvre">Frankenstein</span>, The Matrix, Death Stranding, Barzakh-dispositif), en contexte du discernement sur la science des matrices artificielles. Ouverture de phase 2 analytique (discernement <dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn>, fiches symboles Golem et Frankenstein). Statut : brouillon ; portance : zōsaku. Aucun jugement doctrinal sur la validité ou la profondeur de la convergence.*
+*Fiche de mise en regard de la matière alchimique occidentale (athanor, Titus <span data-nom="burckhardt" data-genre="auteur">Burckhardt</span>) avec la figure des cinq <span data-nom="matrices-artificielles" data-genre="dispositif">matrices artificielles</span> (Golem, <span data-nom="frankenstein" data-genre="oeuvre">Frankenstein</span>, The Matrix, Death Stranding, Barzakh-dispositif), en contexte du discernement sur la science des matrices artificielles. Ouverture de phase 2 analytique (discernement <dfn data-terme="barzakh" data-translit="Barzakh" data-tradition="islam">Barzakh</dfn>, fiches symboles Golem et Frankenstein). Statut : brouillon ; portance : zōsaku. Aucun jugement doctrinal sur la validité ou la profondeur de la convergence.*
 
 ## 1. Point de vigilance majeure — autotransmutation vs. tiers
 
@@ -34,7 +34,7 @@ La plus grande tension gît en ceci : chez Burckhardt, **le véritable athanor n
 
 > « Ce n'est pas un feu extérieur qui doit agir sur la matière première, mais un feu qui en sort en quelque sorte […] ce feu latent qui se trouve dans la matière elle-même » (§10, les trois feux)
 
-C'est donc une **autotransmutation**, l'opérateur comme materia et agens à la fois. Le "Grand Œuvre" concerne l'opérateur seul.
+C'est donc une **<span data-nom="autotransmutation" data-genre="concept">autotransmutation</span>**, l'opérateur comme materia et agens à la fois. Le "Grand Œuvre" concerne l'opérateur seul.
 
 Par contraste :
 

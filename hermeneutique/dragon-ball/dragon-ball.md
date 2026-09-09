@@ -78,7 +78,7 @@ d'éveil.
   doctrinale.
 - **Ce que ce rapprochement établit** : que le personnage-source (Sun Wukong, dans le
   roman chinois du XVIe siècle) porte, dans sa tradition d'origine, une charge
-  symbolique liée à des motifs taoïstes (alchimie intérieure, immortalité) et
+  symbolique liée à des motifs taoïstes (alchimie intérieure, <span data-nom="immortalite" data-genre="concept">immortalité</span>) et
   bouddhiques (éveil) — fait attesté dans la littérature secondaire sur le roman.
 - **Ce que ce rapprochement n'établit pas** : aucune équivalence doctrinale n'est
   posée entre *Dragon Ball* lui-même (œuvre de divertissement du XXe siècle,

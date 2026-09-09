@@ -8,7 +8,7 @@ createur: ""
 statut_analyse: brouillon
 tags: [nen, pouvoir, energie-vitale, voeu, restriction, systeme-de-combat]
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-09-09
 sources: ["to-source"]
 liens: ["[[hermeneutique/hunter-x-hunter/hunter-x-hunter]]"]
 cles_doctrinales: ["[[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique]]"]
@@ -100,7 +100,7 @@ qu'une absence de précision.
 **Point pivot de cette fiche — objet de la fiche discernement associée.**
 
 Principe central : un praticien peut **s'imposer volontairement une
-restriction** sur l'usage de sa capacité (Hatsu) — restriction de portée,
+<span data-nom="restriction" data-genre="concept">restriction</span>** sur l'usage de sa capacité (Hatsu) — restriction de portée,
 de cible, de condition d'emploi — assortie d'une **pénalité** en cas de
 transgression (souvent la mort du praticien lui-même, ou la perte définitive
 du pouvoir). En échange, la puissance de la capacité concernée est

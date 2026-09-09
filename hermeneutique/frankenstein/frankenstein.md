@@ -52,7 +52,7 @@ pertinents dans une fiche distincte, sur décision de Sidy.*
   son créateur. Elle demande une compagne, se venge du refus, finit par se
   suicider dans les glaces arctiques.
 - Thèmes centraux : responsabilité du créateur, limites de la science,
-  solitude du monstre, transgression des bornes naturelles.
+  solitude du <span data-nom="monstre" data-genre="figure">monstre</span>, transgression des bornes naturelles.
 - Portée symbolique : Frankenstein comme avatar moderne du <span data-nom="promethee" data-genre="entite">Prométhée</span> (voleur
   du feu divin), comme écho sécularisé du Golem (création artificielle d'un
   être par un sage), comme mise en garde contre l'hybris scientifique.

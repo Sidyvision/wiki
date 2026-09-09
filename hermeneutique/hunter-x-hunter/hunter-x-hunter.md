@@ -8,7 +8,7 @@ createur: "Yoshihiro Togashi"
 statut_analyse: brouillon
 tags: [shonen, pouvoir, initiation-fictionnelle, quete, mgc, chimera-ant]
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-09-09
 sources: ["to-source"]
 liens: ["[[hermeneutique/auteurs/togashi-yoshihiro]]", "[[hermeneutique/hunter-x-hunter/hunter-association-licence]]", "[[hermeneutique/hunter-x-hunter/nen-systeme]]"]
 cles_doctrinales: []
@@ -43,7 +43,7 @@ arc après arc, la nature du pouvoir, ses conditions d'acquisition et son prix.
 3. **Yorknew City** — la Brigade Fantôme (Phantom Troupe), le massacre du clan
    Kurta et la vengeance de Kurapika ; introduction dense du système Nen.
 4. **Greed Island** — jeu-monde comme dispositif d'apprentissage accéléré du Nen.
-5. **Fourmis Chimères (Chimera Ant)** — considéré comme le sommet narratif et
+5. **Fourmis Chimères (<span data-nom="chimera-ant" data-genre="figure">Chimera Ant</span>)** — considéré comme le sommet narratif et
    moral de l'œuvre : Meruem, Neferpitou, la question de l'humanité/instinct/
    amour chez des créatures non humaines, la dérive de Gon (rage jusqu'à
    l'auto-destruction).

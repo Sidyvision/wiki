@@ -45,7 +45,7 @@ un lieu de retour, de gestion et d'attachement, distinct du terrain.
 
 C'est le point qui justifie la fiche, et il est structurel :
 
-| | Mother Base | DHV <span data-nom="magellan" data-genre="auteur">Magellan</span> |
+| | <span data-nom="mother-base" data-genre="dispositif">Mother Base</span> | DHV <span data-nom="magellan" data-genre="auteur">Magellan</span> |
 |---|---|---|
 | Nature | Plateforme **fixe**, hors juridiction | Vaisseau **mobile**, qui suit le joueur |
 | Rapport au terrain | On y **revient** ; le terrain est ailleurs | Il **accompagne** ; le terrain vient à lui |

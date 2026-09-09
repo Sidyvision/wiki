@@ -8,7 +8,7 @@ createur: "Hideo Kojima"
 statut_analyse: brouillon
 tags: [idroid, mother-base, interface, mediation, telecommunication, big-boss]
 created: 2026-08-11
-updated: 2026-08-12
+updated: 2026-09-09
 sources: ["to-source"]
 liens: ["[[hermeneutique/metal-gear/mother-base]]"]
 cles_doctrinales: []
@@ -24,7 +24,7 @@ liens_atelier: []
 L'iDroid est le dispositif de communication et de commandement individuel porté
 par Venom Snake (*Metal Gear Solid V*), fixé à l'avant-bras. Il sert d'interface
 unique entre l'agent isolé sur le terrain et l'ensemble de l'infrastructure de
-Mother Base : appel de soutien aérien (largage, exfiltration), sélection et
+<span data-nom="mother-base" data-genre="dispositif">Mother Base</span> : appel de soutien aérien (largage, exfiltration), sélection et
 déploiement des Buddies, carte et renseignement tactique en temps réel, gestion
 de l'équipement, et accès à une bibliothèque de cassettes audio (journaux de
 développement, musique, mémoire du joueur lui-même via les enregistrements
