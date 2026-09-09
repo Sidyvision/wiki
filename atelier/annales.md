@@ -10,6 +10,17 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] rd | Audit index-lexical (Qoder) — `links:` corrigés, fiche versée, et un écart de protocole qui dépasse l'audit
+
+- **Ordre de Sidy** : « corrige les links de l'audit ». La fiche est de lui, conduite par Qoder, déposée le 2026-09-09 à 06:42.
+- **Le défaut** : ses `links:` pointaient `[[…/generer-index-lexical]]` et `[[…/valider-annotations]]`, qui sont des fichiers **`.py`**. Le contrôle **C1** ne résout que des cibles `.md` — deux avertissements, et **aucun n'était une faute de la fiche** : elle citait exactement les pièces qu'elle auditait.
+- **La correction** : les deux scripts sont cités **en prose, par chemin relatif**, jamais en wikilink — c'est la convention **déjà en vigueur** dans le dépôt pour ce qui n'est cible d'aucun lien : les dossiers `assets-<sujet>/` et `textes/` (§II). Les `links:` pointent désormais trois fiches existantes : l'état des lieux du chantier, la fiche du serveur MCP, et le feedback d'audit. La fiche est **versée au dépôt**.
+- **L'écart de protocole que cet audit a révélé, et qui le dépasse.** Le contournement employé est correct **mais ce n'est pas une règle**, et la question reste entière : **aucune fiche ne décrit ces deux scripts, et le dépôt n'a pas de forme pour citer un script en `links:`**. **Tout l'outillage du pôle `rd/` est dans ce cas** — `verifier-invariants.py`, `carte-du-depot.py`, `generer-cartographie.py`, `generer-karubi.py`, `generer-manifeste.py` : aucun n'est citable autrement qu'en prose. Rapporté, non tranché (Cmd 12).
+- **Ce que cela dit du geste d'auditer** : la fiche a levé un avertissement **parce qu'elle était juste** — elle nommait ses pièces. Un contrôle qui refuse la citation exacte de ce qu'on examine signale une lacune du régime, non une faute de l'auteur. C'est le premier écart de cette session trouvé **par un regard extérieur** et non par la session elle-même.
+- **L'audit lui-même n'est pas traité** : le vérifier demande une passe propre, et le résumer sans l'avoir vérifié lui prêterait une autorité qu'il n'a pas encore acquise (Cmd 12). Il est signalé au document de reprise comme **la première chose à ouvrir**.
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 0 avertissement** (2 avant).
+- **Commit** : 8bf9799
+
 ## [2026-09-09] rd | Document de reprise du chantier d'indexation — état des lieux, registre des voies écartées, commandes
 
 - **Ordre de Sidy** : « rends ton compte-rendu R&D … surtout de façon à pouvoir reprendre plus tard ». Le premier rapport (`2026-09-09_rapport-session-indexation-html-annotations`) **raconte** la première moitié du chantier ; celui-ci, `2026-09-09_etat-des-lieux-indexation-et-reprise`, **sert à reprendre**. Pointeur ajouté du premier vers le second.

@@ -190,7 +190,7 @@ ne se plaint jamais de lui-même — il répond, et il répond faux.*
 `atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation.md` — **audit
 commandé par Sidy** et conduit par Qoder, déposé le 2026-09-09 à 06:42, 450 lignes. Il
 relit ligne à ligne le générateur et le validateur décrits ici, et les exécute en live.
-Encore **non suivi par git** au moment où ces lignes sont écrites.
+**Versé au dépôt le 2026-09-09** (`8bf9799`), après correction de ses `links:`.
 
 **Ses conclusions ne sont pas reprises ici, et c'est délibéré** : les vérifier demande une
 passe propre, et les résumer sans les avoir vérifiées reviendrait à leur prêter une
@@ -203,11 +203,17 @@ depuis l'extérieur de la session qui l'a bâti — donc le seul qui puisse voir
 n'a pas su voir. Ses mesures d'en-tête concordent avec celles du § 1, ce qui est déjà un
 recoupement indépendant.
 
-**Deux avertissements C1 qu'il lève**, et qui ne sont pas des fautes de sa part : ses
-`links:` pointent `[[…/generer-index-lexical]]` et `[[…/valider-annotations]]`, qui sont
-des fichiers **`.py`**. Le contrôle C1 ne résout que des cibles `.md` — **le régime de
-liens du dépôt n'a pas de forme pour citer un script**. C'est un écart de protocole
-révélé par cet audit, rapporté et non corrigé.
+**L'écart de protocole qu'il a révélé, et qui le dépasse.** Ses `links:` pointaient
+`[[…/generer-index-lexical]]` et `[[…/valider-annotations]]`, qui sont des fichiers
+**`.py`** : C1 ne résout que des cibles `.md`, d'où deux avertissements. Les deux scripts
+sont désormais cités **en prose, par chemin relatif** — la convention déjà en vigueur
+pour ce qui n'est cible d'aucun lien (`assets-<sujet>/`, `textes/`, §II).
+
+**Mais le contournement n'est pas une règle**, et la question reste entière : **aucune
+fiche ne décrit ces deux scripts, et le dépôt n'a pas de forme pour citer un script en
+`links:`**. Tout l'outillage du pôle `rd/` est dans ce cas. Rapporté, non tranché
+(Cmd 12) — c'est un neuvième verdict en attente, et il n'est pas dans la table du § 4
+parce qu'il n'appartient pas au chantier d'indexation : il appartient au régime de liens.
 
 ## 9. Ce qu'une reprise devrait faire, dans l'ordre
 
