@@ -18,6 +18,18 @@ citations-ghazali/
 /atelier/rd/outillage/.graphify-venv/
 /atelier/rd/outillage/graphify-out/
 
+# Configuration MCP locale (chemins absolus, pas versionnés)
+/.mcp.json
+
+# Index lexical — artefact DÉRIVÉ, régénérable par
+# `atelier/rd/outillage/index-lexical/generer-index-lexical.py`.
+# Seul le JSON est exclu : 3,7 Mo réécrits intégralement à chaque régénération,
+# lus par le serveur MCP **sur le serveur** — ils n'ont aucune raison de
+# descendre sur l'iPad. Le condensé `.md`, lui, RESTE versionné : la
+# consultation Obsidian est l'un des deux consommateurs déclarés du chantier
+# (verdict Sidy à son ouverture), et l'exclure la supprimerait.
+/atelier/rd/outillage/index-lexical/index-lexical.json
+
 # Caches Python — produits par les epreuves qui importent un script d outillage.
 __pycache__/
 *.pyc

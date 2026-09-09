@@ -22,9 +22,9 @@ links: []
 > wikilinks : `textes/` n'est pas un circuit et n'est la cible
 > d'aucun lien (CLAUDE.md §II).
 
-**Termes distincts : 10675 — occurrences : 372994 — fiches indexees : 755 — textes balayes : 641**
+**Termes distincts : 10679 — occurrences : 373186 — fiches indexees : 755 — textes balayes : 641**
 
-Condense : 5651 termes affiches, 5024 termes d'occurrence
+Condense : 5655 termes affiches, 5024 termes d'occurrence
 isolee omis de cette vue. L'index integral est dans
 `index-lexical.json` (outil MCP `chercher_terme`).
 
@@ -44,7 +44,7 @@ isolee omis de cette vue. L'index integral est dans
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
 | `arabi` | ARABI, ARABÏ, ARaBï, Arabi (+11) | — | table, titre, translit | **153 fiches** | LISEZ-MOI.md +51 | 1579 |
-| `auteur` | AUTEUR, Auteur, auteur | — | definition, table, tag | **101 fiches** | erreurs-diverses-concernant-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +85 | 610 |
+| `auteur` | AUTEUR, Auteur, auteur | — | definition, table, tag | **103 fiches** | erreurs-diverses-concernant-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +85 | 615 |
 | `arctic` | ARCTIC, ARcTIC, Arctic | — | table | **13 fiches** | LISEZ-MOI.md +18 | 579 |
 | `allah` | Allah, Allàh, Allâh, Alläh (+4) | — | table, titre, translit | **56 fiches** | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +48 | 534 |
 | `atelier` | Atelier, atelier | — | table, tag | **173 fiches** | karubi-mehdi-navette-20260812.md +3 | 503 |
@@ -57,7 +57,7 @@ isolee omis de cette vue. L'index integral est dans
 | `axe` | Axe, axe | — | tag, titre | **97 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +75 | 385 |
 | `ali` | ALI, Ali, Alî, ali (+5) | — | titre, translit | **18 fiches** | quelques-considerations-sur-l-hermetisme-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +24 | 367 |
 | `agents` | AGENTS, Agents, agents | — | table, tag, titre | **112 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +24 | 353 |
-| `ajoute` | Ajoute, Ajouté, ajoute, ajouté | — | definition | **109 fiches** | karubi-mehdi-navette-20260812.md +54 | 311 |
+| `ajoute` | Ajoute, Ajouté, ajoute, ajouté | — | definition | **109 fiches** | karubi-mehdi-navette-20260812.md +54 | 313 |
 | `a faire` | À faire | — | definition | **54 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +147 | 288 |
 | `arbre` | Arbre, arbre | — | titre | **43 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +53 | 287 |
 | `atma` | Atma, Atmâ, atma, Âtmâ (+3) | — | annotation, table, tag, titre, translit | **33 fiches** | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +49 | 286 |
@@ -423,6 +423,7 @@ isolee omis de cette vue. L'index integral est dans
 | `arabie` | Arabie | — | table, titre | [[doctrinal/autorites/michel-valsan]] · [[doctrinal/deviations/sept-tours-du-diable]] · [[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md | 9 |
 | `arid` | arid, ârid, ʿâriḍ | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +3 | 9 |
 | `astronomie` | Astronomie, astronomie | — | tag | [[atelier/etudes-de-cas/zellige-grande-mosquee-paris]] · [[atelier/rd/instrument/references-visuelles-astronomiques-phase-5]] · [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] | isaghuji-cours01-introduction-transcription.md +2 | 9 |
+| `autotransmutation` | autotransmutation | — | annotation, tag | [[hermeneutique/expression/2026-09-01_athanor-matrices-artificielles]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | — | 9 |
 | `avarna` | avarna | — | annotation, tag | [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-apercus-initiation-ch7-melange-formes-traditionnelles]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | contre-le-melange-des-formes-traditionnelles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +1 | 9 |
 | `abad` | abad, abʿad, abʿâd, abʿād (+1) | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 8 |
 | `ahad` | Ahad, Aḥad, ahad, aḥad (+2) | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/shams-al-maarif]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-2.md | 8 |
@@ -445,7 +446,6 @@ isolee omis de cette vue. L'index integral est dans
 | `angiras` | Angiras | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch07-months-and-seasons.md | 8 |
 | `antediluvien` | antediluvien, antédiluvien | — | tag | [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] · [[doctrinal/sources/2026-07-03_guenon-tombeau-hermes]] · [[doctrinal/sources/guenon-hermetisme-hermes-thoth]] | formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon-13.md | 8 |
 | `arag` | Arag | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch11-the-avestic-evidence.md | 8 |
-| `autotransmutation` | autotransmutation | — | tag | [[hermeneutique/expression/2026-09-01_athanor-matrices-artificielles]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | — | 8 |
 | `aventures` | Aventures, aventures | — | table, titre | [[doctrinal/deviations/sept-tours-du-diable]] · [[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +1 | 8 |
 | `azam` | Azam, azam, aʿẓam | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +1 | 8 |
 | `a-a` | A-ʿA, a-a | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-2-kabbale-en-ligne.md +2 | 7 |
@@ -1040,6 +1040,7 @@ isolee omis de cette vue. L'index integral est dans
 | `barth` | Barth | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +2 | 5 |
 | `batil` | bâtil, bâṭil, bāṭil | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md | 5 |
 | `bhuvarloka` | Bhuvarloka | — | table | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | la-puissance-du-serpent.md +1 | 5 |
+| `big-boss` | big-boss | — | annotation, tag | [[hermeneutique/auteurs/hideo-kojima]] · [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/idroid]] · [[hermeneutique/metal-gear/metal-gear]] · [[hermeneutique/metal-gear/mother-base]] | — | 5 |
 | `bula` | Bula, Bulaʿ, bula | — | table, translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 5 |
 | `balaga` | balâġa | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
 | `balgham` | Balgham, balgham | — | table | [[doctrinal/deviations/body-types]] · [[doctrinal/deviations/morphopsychologie]] · [[meta/personnel/2026-06-20_herbes-pratiques]] | — | 4 |
@@ -1059,7 +1060,6 @@ isolee omis de cette vue. L'index integral est dans
 | `bi-anfusi-ha` | bi-anfusi-hâ, bi-anfusi-hā | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `bi-gayri-ha` | bi-ġayri-hâ, bi-ġayri-hā | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `bi-smi-llah` | Bi-smi-Llah, Bi-smi-Llāh | — | table, translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 3 |
-| `big-boss` | big-boss | — | tag | [[hermeneutique/auteurs/hideo-kojima]] · [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/idroid]] · [[hermeneutique/metal-gear/metal-gear]] · [[hermeneutique/metal-gear/mother-base]] | — | 3 |
 | `bootes` | Bootes, Bootès | — | table | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 3 |
 | `brisaya` | Brisaya | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] | arctic-ch10-vedic-myths-the-matutinal-deities.md | 3 |
 | `budala` | budalâ, budalâʾ | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 3 |
@@ -1102,14 +1102,14 @@ isolee omis de cette vue. L'index integral est dans
 | `contenu` | Contenu, contenu | — | table | **260 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +86 | 721 |
 | `claude` | CLAUDE, Claude, claude | — | definition, table, tag, titre | **160 fiches** | karubi-mehdi-navette-20260812.md +1 | 665 |
 | `compte` | Compte, compte, compté | — | titre | **105 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +279 | 640 |
-| `cinq` | CINQ, Cinq, cinq | — | table, titre | **115 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +48 | 545 |
+| `cinq` | CINQ, Cinq, cinq | — | table, titre | **115 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +48 | 547 |
 | `croix` | Croix, croix | — | table, titre | **57 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-4.md +143 | 541 |
 | `contexte` | Contexte, contexte | — | definition, table, tag, titre | **176 fiches** | intellect-et-conscience-selon-valsan.md +6 | 518 |
+| `code` | Code, code, codé | — | table, titre | **133 fiches** | karubi-mehdi-navette-20260812.md +6 | 482 |
 | `concepts` | Concepts, concepts | — | table | **143 fiches** | isaghuji-cours01-introduction-transcription.md +8 | 480 |
-| `code` | Code, code, codé | — | table, titre | **133 fiches** | karubi-mehdi-navette-20260812.md +6 | 478 |
 | `creation` | Creation, Création, creation, création | — | table, tag | **118 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +77 | 471 |
+| `controle` | Contrôle, controle, contrôle, contrôlé | — | table, tag | **142 fiches** | LISEZ-MOI.md +31 | 444 |
 | `corpus` | CORPUS, Corpus, corpus | — | tag, titre | **149 fiches** | LISEZ-MOI.md +28 | 442 |
-| `controle` | Contrôle, controle, contrôle, contrôlé | — | table, tag | **142 fiches** | LISEZ-MOI.md +31 | 440 |
 | `classification` | CLASSIFICATION, Classification, classification | — | tag, titre | **24 fiches** | LISEZ-MOI.md +28 | 431 |
 | `centres` | CENTRES, Centres, centres, centrés | — | table, tag | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-5.md +60 | 427 |
 | `chantier` | Chantier, chantier | — | definition, table, tag, titre | **133 fiches** | LISEZ-MOI.md +1 | 420 |
@@ -1135,8 +1135,8 @@ isolee omis de cette vue. L'index integral est dans
 | `contemplation` | CONTEMPLATION, Contemplation, contemplation, contemplatìon | — | table, tag, titre | **28 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +38 | 196 |
 | `colonnes` | COLONNES, Colonnes, colonnes | — | table, tag | **57 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +23 | 190 |
 | `couleur` | Couleur, couleur | — | definition, table, titre | **37 fiches** | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +35 | 188 |
+| `categorie` | Catégorie, categorie, catégorie | — | definition, table | **65 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +37 | 180 |
 | `couverture` | Couverture, couverture | — | tag | **38 fiches** | LISEZ-MOI.md +12 | 180 |
-| `categorie` | Catégorie, categorie, catégorie | — | definition, table | **65 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +37 | 174 |
 | `caverne` | Caverne, caverne | — | table | **11 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +30 | 173 |
 | `contre-initiation` | Contre-initiation, contre-initiation | — | annotation, tag, titre | **27 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +24 | 167 |
 | `corrige` | CORRIGÉ, Corrige, Corrigé, corrige (+1) | — | titre | **70 fiches** | LISEZ-MOI.md +5 | 166 |
@@ -1144,14 +1144,14 @@ isolee omis de cette vue. L'index integral est dans
 | `couronne` | Couronne, couronne, couronné | — | table | **23 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +28 | 164 |
 | `celestes` | CÉLESTES, Célestes, celestes, célestes | — | table, titre | **34 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +55 | 154 |
 | `confrontation` | Confrontation, confrontation | — | table, tag, titre | **60 fiches** | osman-yahya-08-repertoire.md | 153 |
+| `clos` | CLOS, clos | — | tag | **64 fiches** | purusha-inaffecte-par-les-modifications-individuelles-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +8 | 150 |
 | `constat` | Constat, constat | — | definition, table | **79 fiches** | corps-du-texte.md | 150 |
-| `clos` | CLOS, clos | — | tag | **64 fiches** | purusha-inaffecte-par-les-modifications-individuelles-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +8 | 148 |
 | `configuration` | Configuration, configuration | — | definition, table, titre | **59 fiches** | formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon-15.md +3 | 146 |
 | `culture` | CULTURE, Culture, culture | — | titre | **27 fiches** | connaissance-initiatique-et-culture-profane-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +36 | 145 |
 | `couple` | Couple, couple, couplé | — | table, titre | **43 fiches** | la-puissance-du-serpent.md +18 | 139 |
 | `carte` | Carte, carte | — | table, tag, titre | **52 fiches** | karubi-mehdi-navette-20260812.md +9 | 136 |
+| `ce qui reste` | Ce qui reste | — | definition | **52 fiches** | LISEZ-MOI.md +8 | 135 |
 | `commandement` | Commandement, commandement | — | table | **65 fiches** | sur-deux-devises-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 135 |
-| `ce qui reste` | Ce qui reste | — | definition | **52 fiches** | LISEZ-MOI.md +8 | 134 |
 | `couleurs` | Couleurs, couleurs | — | tag | **16 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +27 | 131 |
 | `catalogue` | Catalogue, catalogue, catalogué | — | table, tag, titre | **62 fiches** | LISEZ-MOI.md +3 | 129 |
 | `chute` | Chute, chute, chuté | — | annotation, table, tag, titre | **27 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +39 | 127 |
@@ -1163,8 +1163,8 @@ isolee omis de cette vue. L'index integral est dans
 | `cordis` | Cordis, cordis | — | table, tag, titre | **21 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 110 |
 | `chantiers` | Chantiers, chantiers | — | tag, titre | **42 fiches** | — | 108 |
 | `commentaires` | COMMENTAIRES, Commentaires, commentaires | — | definition | **20 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +35 | 107 |
+| `concept` | Concept, concept | — | definition, table | **50 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +9 | 106 |
 | `consultation` | CONSULTATION, Consultation, consultation | `الشورى` | table, titre | **60 fiches** | LISEZ-MOI.md +4 | 105 |
-| `concept` | Concept, concept | — | definition, table | **46 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +9 | 102 |
 | `cloud` | Cloud, cloud | — | table, titre | **30 fiches** | 00-front-matter.md +12 | 101 |
 | `cheikh` | Cheikh, cheikh | — | table, titre | **38 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +2 | 99 |
 | `comprehension tiree` | Compréhension tirée | — | definition | **10 fiches** | — | 97 |
@@ -1223,12 +1223,12 @@ isolee omis de cette vue. L'index integral est dans
 | `check` | Check, check | — | titre | [[atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation]] · [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/2026-09-06_desactivation-protection-branche-main-et-pages-workflow]] · [[atelier/rd/infrastructure/claude-code-health-check-2026-08-11]] · [[meta/carte-du-depot-atelier]] · +3 | 24-y.md +2 | 27 |
 | `custom` | Custom, custom | — | table | [[atelier/rd/cahiers/bilan-2026-08-15-pont-agents]] · [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] · [[meta/projet-unifie/03-transition-modele-open-source]] · [[meta/projet-unifie/archives/09-briefing-transition-qwen36-27B-v2-2026-07-02]] · [[meta/projet-unifie/archives/09-briefing-transition-qwen36-27B-v3-2026-07-03]] · +2 | 02-b.md +6 | 27 |
 | `cœli` | Cœli, cœli | — | table | [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]] · [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] · [[doctrinal/symboles/devayana-pitriyana]] · +1 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-9.md +11 | 27 |
+| `comedie` | Comédie, comedie, comédie | — | annotation, tag | [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[hermeneutique/dr-slump/dr-slump]] · [[meta/protocole-archives/changelog-CLAUDE]] | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +13 | 26 |
 | `coronale` | CORONALE, coronale | — | annotation, tag, titre | **9 fiches** | la-puissance-du-serpent.md +4 | 26 |
 | `century` | Century, century | — | table, titre | [[atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks]] · [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | 00-front-matter.md +9 | 25 |
 | `criteres d'acceptation` | Critères d'acceptation | — | definition | **13 fiches** | — | 25 |
 | `critias` | Critias, critias | — | annotation, tag | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/platon]] · [[doctrinal/sources/platon-oeuvres-completes-brisson-2011]] · [[doctrinal/symboles/atlantide]] | le-symbolisme-du-dome-symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon.md | 25 |
 | `cheveux` | Cheveux, cheveux | — | titre | **10 fiches** | la-puissance-du-serpent.md +8 | 24 |
-| `comedie` | Comédie, comedie, comédie | — | tag | [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[hermeneutique/dr-slump/dr-slump]] | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +13 | 24 |
 | `comptabilite` | Comptabilité, comptabilité | — | table | **11 fiches** | — | 23 |
 | `cas limites` | Cas limites | — | definition | **11 fiches** | l-etre-et-le-non-etre-les-etats-multiples-de-l-etre-index-de-l-uvre-de-rene-guenon.md | 22 |
 | `charles-andre` | Charles-André | — | table, titre | **9 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md | 22 |
@@ -1273,6 +1273,7 @@ isolee omis de cette vue. L'index integral est dans
 | `conformation` | Conformation, conformation | — | table | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 7 |
 | `consequence pour l'instrument` | Conséquence pour l'Instrument | — | definition | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] · [[meta/carte-doctrinal]] · +2 | — | 7 |
 | `castille` | Castille, castille | — | annotation, table, tag | [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +1 | 6 |
+| `ce qui est institue` | Ce qui est institué | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 6 |
 | `chaudhary` | Chaudhary | — | table, titre | [[doctrinal/autorites/yaqub-chaudhary]] · [[doctrinal/sources/islam-and-artificial-intelligence]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 6 |
 | `claude-smart` | claude-smart | — | titre | [[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]] · [[atelier/rd/veille/2026-08-31_claude-smart]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 6 |
 | `cloudflare` | Cloudflare | — | table | [[atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation]] · [[atelier/rd/cahiers/2026-08-30_session-corrections-rapports-rotation-hmac]] · [[atelier/rd/cahiers/registre-problemes]] · [[meta/projet-unifie/archives/10-briefing-infrastructure-hermes-agent-2026-07-03]] | — | 6 |
@@ -1356,6 +1357,7 @@ isolee omis de cette vue. L'index integral est dans
 | `chapitre le plus directement pertinent pour le depot` | Chapitre le plus directement pertinent pour le dépôt | — | definition | [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 1 |
 | `chapitres deja exploites dans le depot` | Chapitres déjà exploités dans le dépôt | — | definition | [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | — | 1 |
 | `chez d'autres editeurs` | Chez d'autres éditeurs | — | definition | [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 1 |
+| `chimera-ant` | chimera-ant | — | annotation, tag | [[hermeneutique/hunter-x-hunter/hunter-x-hunter]] | — | 1 |
 | `ciel-terre` | Ciel-Terre, ciel-terre | — | tag | [[doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres]] | la-grande-triade-index-de-l-uvre-de-rene-guenon-11.md | 1 |
 | `cieux-planetaires` | cieux-planetaires | — | annotation, tag | [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]] | — | 1 |
 | `cinq tours manquants` | Cinq tours manquants | — | definition | [[meta/projet-unifie/choura/cycle-2026-08-30]] | — | 1 |
@@ -1365,6 +1367,7 @@ isolee omis de cette vue. L'index integral est dans
 | `colonnes completes` | Colonnes complètes | — | definition | [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 1 |
 | `commande cli` | Commande CLI | — | definition | [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] | — | 1 |
 | `comment jouer le duo` | Comment jouer le duo | — | definition | [[meta/transmissions/karubi-habiba-nour]] | — | 1 |
+| `concept-art` | concept-art | — | annotation, tag | [[hermeneutique/sources/art-of-death-stranding]] | — | 1 |
 | `conclusion de controle` | Conclusion de contrôle | — | definition | [[meta/projet-unifie/archives/16-mise-en-regard-theme-natal-roue-agents-2026-08-08]] | — | 1 |
 | `conclusion islamique sur l'ia forte` | Conclusion islamique sur l’IA forte | — | definition | [[doctrinal/sources/islam-and-artificial-intelligence]] | — | 1 |
 | `confidentiel` | confidentiel | — | tag | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[meta/genealogie/2026-06-20_oiseau-serpent-jumeau]] · [[meta/personnel/2026-06-20_reve-leila]] | — | 1 |
@@ -1400,6 +1403,7 @@ isolee omis de cette vue. L'index integral est dans
 | `ce qui n'est pas fait, et volontairement` | Ce qui n'est pas fait, et volontairement | — | definition | [[meta/briefs/2026-08-30_passation-claude-ai-vers-terminal]] | — | 0 |
 | `ce qui pourrait avancer sans verdict, si sidy le souhaite` | Ce qui pourrait avancer sans verdict, si Sidy le souhaite | — | definition | [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] | — | 0 |
 | `ce qui reste non eprouve, et il faut le dire` | Ce qui reste non éprouvé, et il faut le dire | — | definition | [[atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/plan]] | — | 0 |
+| `ce qui reste sans genre, et le reste sciemment` | Ce qui reste sans genre, et le reste sciemment | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 0 |
 | `ce qui te concerne directement, jean-marc` | Ce qui te concerne directement, Jean-Marc | — | definition | [[meta/transmissions/karubi-jean-marc]] | — | 0 |
 | `centre-circonference` | centre-circonference | — | tag | [[doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference]] | — | 0 |
 | `ceremonie-collective` | ceremonie-collective | — | tag | [[doctrinal/symboles/khatm-al-khawajakan]] | — | 0 |
@@ -1407,7 +1411,6 @@ isolee omis de cette vue. L'index integral est dans
 | `changement effectue (§i)` | Changement effectué (§I) | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 0 |
 | `chantier-guenon-buni` | chantier-guenon-buni | — | tag | [[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel]] · [[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation]] | — | 0 |
 | `chapitre xxiii, « la montagne du califat »` | chapitre XXIII, « La Montagne du Califat » | — | definition | [[meta/briefs/2026-08-30_passation-claude-ai-vers-terminal]] | — | 0 |
-| `chimera-ant` | chimera-ant | — | tag | [[hermeneutique/hunter-x-hunter/hunter-x-hunter]] | — | 0 |
 | `ciel-soleil` | ciel-soleil | — | tag | [[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]] | — | 0 |
 | `clause (2026-08-11, reouverture du §iii.1)` | Clause (2026-08-11, réouverture du §III.1) | — | definition | [[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]] | — | 0 |
 | `cmd3` | cmd3 | — | tag | [[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]] · [[doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite]] | — | 0 |
@@ -1419,7 +1422,6 @@ isolee omis de cette vue. L'index integral est dans
 | `composant 3 — audit de fuites` | Composant 3 — Audit de fuites | — | definition | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] | — | 0 |
 | `composition-dynamique` | composition-dynamique | — | tag | [[atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle]] | — | 0 |
 | `comprehension tiree (self-improvement, reutilisable)` | Compréhension tirée (self-improvement, réutilisable) | — | definition | [[atelier/rd/cahiers/registre-problemes]] | — | 0 |
-| `concept-art` | concept-art | — | tag | [[hermeneutique/sources/art-of-death-stranding]] | — | 0 |
 | `concept-personnel` | concept-personnel | — | tag | [[meta/personnel/2026-08-18_initiation-virtuelle]] | — | 0 |
 | `conclusion (2026-07-14, tenue jusqu'au 2026-08-15)` | Conclusion (2026-07-14, tenue jusqu'au 2026-08-15) | — | definition | [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]] | — | 0 |
 | `confirmation du degre 19 — point ouvert 5 clos` | Confirmation du degré 19 — Point ouvert 5 clos | — | definition | [[atelier/rd/instrument/spec-anneau-zodiacal]] | — | 0 |
@@ -1455,9 +1457,9 @@ isolee omis de cette vue. L'index integral est dans
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
 | `dream` | DREAM, Dream, dream | — | table | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[meta/personnel/sidy]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +28 | 13006 |
-| `deux` | DEUX, Deux, deux | — | table, titre | **445 fiches** | LISEZ-MOI.md +463 | 6175 |
-| `doctrinal` | Doctrinal, doctrinal | — | table, tag, titre | **431 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +37 | 1804 |
-| `depot` | Depot, Dépôt, depot, dépôt | — | tag | **350 fiches** | LISEZ-MOI.md +17 | 1699 |
+| `deux` | DEUX, Deux, deux | — | table, titre | **445 fiches** | LISEZ-MOI.md +463 | 6184 |
+| `doctrinal` | Doctrinal, doctrinal | — | table, tag, titre | **431 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +37 | 1806 |
+| `depot` | Depot, Dépôt, depot, dépôt | — | tag | **350 fiches** | LISEZ-MOI.md +17 | 1701 |
 | `degre` | DEGRÉ, Degre, Degré, degre (+1) | — | table, titre | **155 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +238 | 1430 |
 | `doctrine` | DOCTRINE, Doctrine, doctrine | — | table, titre | **245 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +235 | 1427 |
 | `degres` | DEGRÉS, Degres, Degrés, degres (+1) | — | table, tag, titre | **161 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +188 | 1285 |
@@ -1465,8 +1467,8 @@ isolee omis de cette vue. L'index integral est dans
 | `discernement` | DISCERNEMENT, Discernement, discernement | — | table, tag, titre | **278 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +10 | 1043 |
 | `developpement` | DÉVELOPPEMENT, Développement, développement | — | table, titre | **173 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +210 | 927 |
 | `distinction` | DISTINCTION, Distinction, distinction | — | definition, titre | **161 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +244 | 800 |
-| `death` | Death, death | — | table, titre | **13 fiches** | shaar-hagilgulim-gate-of-reincarnations.md +41 | 703 |
-| `definition` | Définition, definition, définition | — | table | **167 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +115 | 700 |
+| `death` | Death, death | — | table, titre | **14 fiches** | shaar-hagilgulim-gate-of-reincarnations.md +41 | 704 |
+| `definition` | Définition, definition, définition | — | table | **167 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +115 | 701 |
 | `double` | DOUBLE, Double, double, doublé | — | table, tag | **125 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +192 | 682 |
 | `date` | Date, Daté, date, daté | — | definition, table | **145 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +104 | 675 |
 | `donnees` | Données, donnees, données | — | table, titre | **153 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +132 | 591 |
@@ -1494,10 +1496,10 @@ isolee omis de cette vue. L'index integral est dans
 | `deploiement` | Déploiement, deploiement, déploiement | — | table, titre | **65 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +19 | 167 |
 | `dualite` | Dualité, dualite, dualité | — | table, tag | **22 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-8.md +51 | 153 |
 | `doctrinales` | doctrinales | — | titre | **69 fiches** | LISEZ-MOI.md +14 | 146 |
+| `dispositif` | Dispositif, dispositif | — | tag | **56 fiches** | isaghuji-cours01-introduction-transcription.md | 145 |
 | `desir` | Désir, desir, désir | — | table, titre | **24 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 144 |
 | `dharma` | DHARMA, Dharma, dharma | — | table, titre | **20 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-4.md +24 | 144 |
 | `distribution` | Distribution, distribution | — | table, titre | **56 fiches** | note-sur-l-angelologie-de-l-alphabet-arabe-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +13 | 142 |
-| `dispositif` | Dispositif, dispositif | — | tag | **55 fiches** | isaghuji-cours01-introduction-transcription.md | 140 |
 | `dissolution` | DISSOLUTION, Dissolution, dissolution | — | tag, titre | **23 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +39 | 136 |
 | `devotion` | Devotion, Dévotion, devotion, dévotion | — | tag | [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/dalail-al-khayrat-jazuli]] · [[doctrinal/symboles/animaux-en-reve-comparatisme]] · [[doctrinal/symboles/marcher-sur-eau-en-reve]] · [[meta/projet-unifie/directive-discernement-domaines]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +31 | 128 |
 | `deterministe` | Déterministe, deterministe, déterministe | — | table, tag, titre | **64 fiches** | — | 119 |
@@ -1521,7 +1523,7 @@ isolee omis de cette vue. L'index integral est dans
 | `doc` | DOC, Doc, doc | — | titre | **24 fiches** | LISEZ-MOI.md +3 | 53 |
 | `dashagvas` | Dashagvas | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +6 | 52 |
 | `design` | DESIGN, Design, design | — | table, tag | **32 fiches** | — | 52 |
-| `decouverte` | Découverte, découverte | — | definition | **22 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-17.md +15 | 48 |
+| `decouverte` | Découverte, découverte | — | definition | **23 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-17.md +15 | 49 |
 | `directive` | DIRECTIVE, Directive, directive | — | definition, titre | **19 fiches** | — | 48 |
 | `david` | DAVID, David | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]] · +3 | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +16 | 47 |
 | `demonstration` | Démonstration, démonstration | — | definition | **15 fiches** | doctrine-des-etats-multiples-en-christianisme-pdf-esoterisme-occidental.md +10 | 46 |
@@ -1715,7 +1717,7 @@ isolee omis de cette vue. L'index integral est dans
 
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
-| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | table, tag, titre | **351 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +508 | 5693 |
+| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | table, tag, titre | **351 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +508 | 5694 |
 | `etat` | ETAT, etat, État, état | — | definition, table, titre | **245 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +300 | 1875 |
 | `etats` | Etats, etats, ÉTATS, États (+1) | — | table, titre | **120 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +215 | 1391 |
 | `exemple` | Exemple, exemple | — | definition, table | **78 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +307 | 838 |
@@ -1730,8 +1732,8 @@ isolee omis de cette vue. L'index integral est dans
 | `erreurs` | ERREURS, Erreurs, erreurs | — | tag | **45 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +58 | 188 |
 | `etapes` | ÉTAPES, Étapes, étapes | — | definition | **54 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +39 | 181 |
 | `enseignement` | Enseignement, enseignement, enseìgnement | — | definition | **34 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +59 | 135 |
+| `etancheite` | etancheite, etanchéité, Étanchéité, étanchéité | — | definition, table, tag | **83 fiches** | karubi-mehdi-navette-20260812.md | 127 |
 | `etendue` | etendue, Étendue, étendue | — | definition, table | **33 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +67 | 127 |
-| `etancheite` | etancheite, etanchéité, Étanchéité, étanchéité | — | definition, table, tag | **83 fiches** | karubi-mehdi-navette-20260812.md | 126 |
 | `examen formel` | Examen formel | — | definition | **71 fiches** | karubi-mehdi-navette-20260812.md | 120 |
 | `espace` | ESPACE, Espace, espace | — | table, titre | **46 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-14.md +23 | 114 |
 | `en arabe` | En arabe | — | definition | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +49 | 113 |
@@ -1870,16 +1872,16 @@ isolee omis de cette vue. L'index integral est dans
 |---|---|---|---|---|---|---|
 | `formes` | FORMES, Formes, formes, formés | — | table, titre | **113 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +310 | 1285 |
 | `fin` | FIN, Fin, fin | — | titre | **154 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +205 | 991 |
-| `fonction` | FONCTION, Fonction, fonction | — | definition, table, titre | **172 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +161 | 910 |
-| `figure` | Figure, figure, figuré | — | table, tag, titre | **131 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +192 | 834 |
-| `fichier` | Fichier, fichier | — | definition, table | **150 fiches** | LISEZ-MOI.md +5 | 629 |
+| `fonction` | FONCTION, Fonction, fonction | — | definition, table, titre | **172 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +161 | 911 |
+| `figure` | Figure, figure, figuré | — | table, tag, titre | **134 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +192 | 839 |
+| `fichier` | Fichier, fichier | — | definition, table | **150 fiches** | LISEZ-MOI.md +5 | 630 |
 | `futuhat` | FUTÛHÂT, Futuhat, Futuhät, Futûhât (+8) | — | annotation, table, tag, titre, translit | **75 fiches** | karubi-mehdi-navette-20260812.md +12 | 425 |
-| `fichiers` | FICHIERS, Fichiers, fichiers | — | definition, table | **122 fiches** | LISEZ-MOI.md +5 | 388 |
+| `fichiers` | FICHIERS, Fichiers, fichiers | — | definition, table | **122 fiches** | LISEZ-MOI.md +5 | 389 |
 | `fonctions` | FONCTIONS, Fonctions, fonctions | — | titre | **70 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +93 | 342 |
 | `facultes` | FACULTÉS, facultes, facultés | — | titre | **27 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +79 | 233 |
 | `fondement` | FONDEMENT, Fondement, fondement | — | table, tag, titre | **84 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-9.md +56 | 230 |
 | `fiabilite` | Fiabilité, fiabilité | — | table | **80 fiches** | corps-du-texte.md | 220 |
-| `faculte` | Faculté, faculté | — | table, titre | **32 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-9.md +62 | 193 |
+| `faculte` | Faculté, faculté | — | table, titre | **33 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-9.md +62 | 194 |
 | `futur` | FUTUR, Futur, futur, futûr (+1) | — | table, translit | **71 fiches** | voie-initiatique-et-voie-mystique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +42 | 174 |
 | `france` | France | — | table, titre | **14 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +49 | 157 |
 | `fil` | Fil, fil, fiʿl, fîʿl | — | translit | **49 fiches** | karubi-mehdi-navette-20260812.md +23 | 149 |
@@ -1895,8 +1897,8 @@ isolee omis de cette vue. L'index integral est dans
 | `fail` | Fail, FâʿiL, fail, faʿīl (+1) | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/walaya]] | 00-front-matter.md +22 | 46 |
 | `futuwwa` | Futuwwa, Futüwwa, futuwwa, futüwwa | — | table, tag, titre | **13 fiches** | osman-yahya-08-repertoire.md +1 | 44 |
 | `furu` | Furūʿ, furu, furûʿ, furūʿ | — | annotation, table, tag, titre, translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 43 |
+| `frankenstein` | Frankenstein, frankenstein | — | annotation, table, tag, titre | **9 fiches** | — | 38 |
 | `fana` | Fana, Fanâ, Fanāʾ, fana (+3) | — | translit | **14 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +8 | 37 |
-| `frankenstein` | Frankenstein, frankenstein | — | annotation, table, tag, titre | [[atelier/rd/cahiers/journal-optimisations]] · [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[doctrinal/symboles/golem]] · [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/expression/2026-09-01_athanor-matrices-artificielles]] · +3 | — | 37 |
 | `fath` | Fath, fath, fatḥ | — | table, translit | **14 fiches** | sept-etendards-califat-transcription.md +6 | 33 |
 | `franc-maconnerie` | FRANC-MAÇONNERIE, Franc-Maçonnerie, franc-maçonnerie | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/charles-andre-gilis]] · [[doctrinal/sources/gilis-ordo-ab-chao]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | dante-et-le-rosicrucianisme-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md +12 | 32 |
 | `fass` | Faṣṣ, Fâss, fass, faṣṣ | — | translit | **13 fiches** | osman-yahya-08-repertoire.md +1 | 30 |
@@ -2053,7 +2055,7 @@ isolee omis de cette vue. L'index integral est dans
 | `grammaire` | GRAMMAIRE, Grammaire, grammaire | — | tag, titre | **18 fiches** | isaghuji-cours01-introduction-transcription.md +8 | 46 |
 | `gilgul` | Gilgul, gilgul | — | annotation, tag, titre | [[doctrinal/autorites/isaac-louria-arizal]] · [[doctrinal/deviations/reincarnation-vies-anterieures]] · [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · [[doctrinal/symboles/cinq-noms-ame]] · +3 | shaar-hagilgulim-gate-of-reincarnations.md | 43 |
 | `genealogique` | Généalogique, généalogique | — | titre | **23 fiches** | corps-du-texte.md +1 | 40 |
-| `gear` | Gear, gear | — | table, titre | **9 fiches** | arctic-ch05-the-vedic-dawns.md | 29 |
+| `gear` | Gear, gear | — | table, titre | **10 fiches** | arctic-ch05-the-vedic-dawns.md | 30 |
 | `glaciation` | glaciation | — | tag | [[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] | arctic-00-front-matter.md +7 | 28 |
 | `ghafla` | Ghafla, ghafla | — | annotation, table, tag, titre | **9 fiches** | — | 26 |
 | `glossaires` | Glossaires, glossaires | — | titre | **12 fiches** | — | 24 |
@@ -2079,6 +2081,7 @@ isolee omis de cette vue. L'index integral est dans
 | `ganga` | Ganga, Gangâ, Gangā, Gaṅgā | — | table, translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] | la-puissance-du-serpent.md +3 | 10 |
 | `grassmann` | Grassmann | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch05-the-vedic-dawns.md +3 | 9 |
 | `garageband` | GarageBand, Garageband | — | table | [[atelier/materiel/neve-1073spx]] · [[atelier/materiel/tascam-model-12]] · [[label/production/album-personnel]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 8 |
+| `gothique` | gothique | — | annotation, tag | [[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]] · [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/frankenstein/frankenstein]] · [[meta/protocole-archives/changelog-CLAUDE]] | chapitre-xiii-l-athanor-titus-burckartt.md +2 | 8 |
 | `gevurah` | Gevurah, gevurah | — | annotation, table, tag | [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/kabbale-10-sefirot-structure]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/symboles/polarite-laterale-de-l-axe]] | — | 7 |
 | `gotama` | Gotama | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-23.md +2 | 7 |
 | `graphify` | Graphify, graphify | — | table, tag, titre | [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]] · [[atelier/rd/outillage/spec-essai-graphify]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 7 |
@@ -2088,7 +2091,6 @@ isolee omis de cette vue. L'index integral est dans
 | `geburah` | Geburah | — | table | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md | 5 |
 | `ghafr` | Ghafr | — | table | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 5 |
 | `golshan-e` | Golshan-e | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | iv.md +1 | 5 |
-| `gothique` | gothique | — | tag | [[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]] · [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/frankenstein/frankenstein]] | chapitre-xiii-l-athanor-titus-burckartt.md +2 | 5 |
 | `guitare` | Guitare, guitare | — | table | [[label/production/album-personnel]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 5 |
 | `gange` | Gange | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md | 4 |
 | `gani` | Gani, gani | — | tag | [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire]] · [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]] · [[meta/personnel/2026-06-20_triptyque-animaux]] | — | 4 |
@@ -2155,8 +2157,8 @@ isolee omis de cette vue. L'index integral est dans
 | `historique` | Historique, historique | — | tag | **84 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +86 | 258 |
 | `hindouisme` | HINDOUISME, HINDOUIsME, Hindouisme, hindouisme | — | table, tag, titre | **38 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-24.md +6 | 123 |
 | `hamza` | Hamza, hamza, Ḥamza | — | table, titre, translit | **28 fiches** | sept-etendards-califat-transcription.md +8 | 111 |
+| `hozo` | Hozo, hozo | — | annotation, table, tag | **52 fiches** | — | 109 |
 | `hamsa` | Hamsa, hamsa, ḫamsa | — | table, tag, translit | **9 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 108 |
-| `hozo` | Hozo, hozo | — | annotation, table, tag | **51 fiches** | — | 108 |
 | `hindoues` | Hindoues, hindoues | — | titre | **15 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-2.md +49 | 103 |
 | `hadith` | Hadith, Hadîth, hadith, hadîth (+4) | — | annotation, table, tag, translit | **35 fiches** | les-limites-du-mental-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +16 | 102 |
 | `hetzner` | Hetzner | — | table | **45 fiches** | — | 98 |
@@ -2462,7 +2464,7 @@ isolee omis de cette vue. L'index integral est dans
 | `ihsan` | Ihsan, Iḥsân, Iḥsān, ihsân (+2) | — | translit | **10 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +4 | 25 |
 | `ilm-al-huruf` | ilm-al-huruf | — | annotation, tag | **19 fiches** | — | 25 |
 | `imaginaire` | Imaginaire, imaginaire | — | titre | **9 fiches** | la-puissance-du-serpent.md +12 | 25 |
-| `immortalite` | Immortalité, immortalite, immortalité | — | tag | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/lost/jacob]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +12 | 24 |
+| `immortalite` | Immortalité, immortalite, immortalité | — | annotation, tag | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/lost/jacob]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +12 | 25 |
 | `ilm-al-nujum` | ilm-al-nujum | — | annotation, tag | **15 fiches** | — | 23 |
 | `imams` | Imams, Imâms, imams | — | table, titre | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 23 |
 | `inconvenient` | Inconvénient, inconvenient, inconvénient | — | definition | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +19 | 23 |
@@ -2486,9 +2488,9 @@ isolee omis de cette vue. L'index integral est dans
 | `interaction` | Interaction, interaction | — | definition, table | **13 fiches** | la-puissance-du-serpent.md | 15 |
 | `isbn` | ISBN | — | table | **10 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 15 |
 | `ibad` | Ibad, Ibâd, Ibâḍ, Ibäd (+2) | — | translit | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +4 | 14 |
+| `idroid` | iDroid, idroid | — | annotation, tag, titre | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/bureau-tui-architecture]] · [[hermeneutique/metal-gear/idroid]] · [[hermeneutique/metal-gear/mother-base]] · [[meta/carte-du-depot-hermeneutique]] · +1 | — | 14 |
 | `incommensurabilite` | Incommensurabilité, incommensurabilite, incommensurabilité | — | annotation, tag, titre | [[atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session]] · [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[atelier/rd/instrument/spec-anneau-zodiacal]] · [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]] · +2 | incommensurabilite-de-l-etre-total-et-de-l-individualite-le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon.md | 14 |
 | `ittihad` | ittihad, ittihâd, ittiḥâd | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +3 | 14 |
-| `idroid` | iDroid, idroid | — | tag, titre | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/bureau-tui-architecture]] · [[hermeneutique/metal-gear/idroid]] · [[hermeneutique/metal-gear/mother-base]] · [[meta/carte-du-depot-hermeneutique]] · +1 | — | 13 |
 | `ihtisar` | Ihtisar, ihtisar, ihtiṣâr, Îhtisar | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +1 | 13 |
 | `ijaza` | ijâza, ijāza | — | translit | **10 fiches** | isaghuji-cours01-introduction-transcription.md +1 | 13 |
 | `ibadat` | ibâdat, ʿIbādāt, ʿibâdât, ʿibādāt | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/barzakh]] · +3 | sept-etendards-califat-transcription.md | 12 |
@@ -2685,7 +2687,7 @@ isolee omis de cette vue. L'index integral est dans
 
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
-| `jour` | JOUR, Jour, jour | — | table, titre | **241 fiches** | LISEZ-MOI.md +148 | 1009 |
+| `jour` | JOUR, Jour, jour | — | table, titre | **241 fiches** | LISEZ-MOI.md +148 | 1010 |
 | `janus` | Janus, janus | — | annotation, table, tag, titre | **22 fiches** | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +23 | 190 |
 | `jeu` | Jeu, jeu | — | titre | **60 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +41 | 184 |
 | `jean` | JEAN, Jean | — | table | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +61 | 179 |
@@ -2778,9 +2780,9 @@ isolee omis de cette vue. L'index integral est dans
 | `kali` | Kali, Kâli, Kâlî, kali | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge]] | la-puissance-du-serpent.md +8 | 45 |
 | `khanda` | Khanda, Khaṇḍa, khanda | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas]] | la-puissance-du-serpent.md +21 | 44 |
 | `krishna` | Krishna | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md +16 | 40 |
+| `kojima` | Kojima, kojima | `小島秀夫` | annotation, table, tag, titre | **15 fiches** | — | 39 |
 | `kaaba` | Kaaba | — | table | **11 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +2 | 38 |
 | `kalimat` | Kalimat, Kalimât, Kalimät, Kalîmat (+3) | — | translit | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/autorites/ibn-arabi]] · [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · +3 | sept-etendards-califat-transcription.md +4 | 38 |
-| `kojima` | Kojima, kojima | `小島秀夫` | annotation, table, tag, titre | **14 fiches** | — | 38 |
 | `kamon` | Kamon, kamon | — | annotation, table, tag, titre | [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/symboles/tomoe]] · [[label/direction-artistique/amorcage/kamon-personnel]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 35 |
 | `kundalini-yoga` | KUNDALINÎ-YOGA, Kundalinî-Yoga, Kundalinî-yoga, Kundalinī-yoga | — | table, titre, translit | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +3 | 32 |
 | `kshatriya` | Kshatriya, kshatriya | — | annotation, tag | [[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion]] · [[doctrinal/symboles/noblesse-spirituelle]] | initiation-sacerdotale-et-initiation-royale-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +11 | 31 |
@@ -3044,9 +3046,9 @@ isolee omis de cette vue. L'index integral est dans
 | `monde` | MONDE, Monde, monde | — | table, titre | **244 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +412 | 3528 |
 | `manifestation` | MANIFESTATION, Manifestation, manifestation | — | table, tag, titre | **121 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +287 | 1708 |
 | `mort` | MORT, Mort, mort | — | table, titre | **100 fiches** | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +125 | 1059 |
-| `metaphysique` | MÉTAPHYSIQUE, Métaphysique, metaphysique, métaphysique | — | table, tag, titre | **162 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +213 | 892 |
+| `metaphysique` | MÉTAPHYSIQUE, Métaphysique, metaphysique, métaphysique | — | table, tag, titre | **163 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +213 | 893 |
 | `moderne` | MODERNE, Moderne, moderne | — | table, titre | **81 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +218 | 820 |
-| `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | table, tag, titre | **106 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +261 | 807 |
+| `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | table, tag, titre | **106 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +261 | 810 |
 | `man` | Man, man, manʿ | — | titre, translit | **13 fiches** | les-limites-du-mental-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +65 | 803 |
 | `manifeste` | Manifeste, Manifesté, manifeste, manifesté | — | table, tag, titre | **135 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +207 | 775 |
 | `matiere` | Matière, matière | — | table, titre | **174 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +77 | 668 |
@@ -3081,12 +3083,12 @@ isolee omis de cette vue. L'index integral est dans
 | `marqueur` | Marqueur, marqueur | — | definition | **65 fiches** | karubi-mehdi-navette-20260812.md | 179 |
 | `mere` | Mère, mere, mère | — | table, tag | **29 fiches** | abu-yazid-al-bistami-et-son-enseignement-pdf-coran.md +51 | 172 |
 | `metatron` | METATRON, Metatron, Métatron, metatron | — | annotation, table, tag, titre | **20 fiches** | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 171 |
-| `metier` | metier, métier | — | tag, titre | **30 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +25 | 159 |
+| `metier` | metier, métier | — | tag, titre | **31 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +25 | 160 |
 | `matieres` | MATIÈRES, matieres, matières | — | titre | **46 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +14 | 157 |
 | `manvantara` | Manvantara, manvantara | — | annotation, table, tag, titre | **28 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-10.md +27 | 154 |
 | `meru` | Meru, Méru, Mêru, meru | — | annotation, table, tag, titre | **35 fiches** | la-puissance-du-serpent.md +25 | 152 |
 | `microcosme` | MICROCOSME, Microcosme, microcosme | — | annotation, tag | **26 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +47 | 145 |
-| `migration` | MIGRATION, Migration, migration | — | tag, titre | **64 fiches** | LISEZ-MOI.md +13 | 140 |
+| `migration` | MIGRATION, Migration, migration | — | tag, titre | **64 fiches** | LISEZ-MOI.md +13 | 142 |
 | `manu` | Manu, manu | — | annotation, table, tag, titre | **13 fiches** | l-ecorce-et-le-noyau-el-qishr-wa-el-lobb-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +24 | 136 |
 | `mercure` | MERCURE, Mercure, mercure | — | table | **31 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +22 | 125 |
 | `marques` | Marques, Marqués, marques, marqués | — | titre | **42 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +32 | 123 |
@@ -3110,8 +3112,8 @@ isolee omis de cette vue. L'index integral est dans
 | `malik` | Malik, Mâlik, Mālik, malik (+1) | — | table, titre, translit | **20 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +8 | 72 |
 | `mahdi` | Mahdi, Mahdî, Mahdī, mahdî | — | table, titre, translit | **27 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +4 | 70 |
 | `mazda` | Mazda, mazda | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +9 | 70 |
+| `metal` | Metal, metal, métal | — | table, titre | **17 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +19 | 70 |
 | `maurice` | Maurice | — | table | **38 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-23.md +3 | 69 |
-| `metal` | Metal, metal, métal | — | table, titre | **16 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +19 | 69 |
 | `mahapurusa` | Mahâpurusa, Mahâpûrusa, Mahāpuruṣa | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/sommaire-hindouisme-soufisme]] | — | 66 |
 | `manazil` | Manazil, Manäzil, Manāzil, manazil (+3) | — | table, tag, titre, translit | **30 fiches** | sept-etendards-califat-transcription.md +3 | 64 |
 | `master` | Master, master | — | table | **10 fiches** | shaar-hagilgulim-gate-of-reincarnations.md +21 | 64 |
@@ -3202,6 +3204,7 @@ isolee omis de cette vue. L'index integral est dans
 | `maqamat` | Maqämat, maqâmât, maqāmāt | — | translit | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 14 |
 | `marcher` | Marcher, marcher | — | table, titre | [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]] · [[doctrinal/symboles/marcher-sur-eau-en-reve]] · [[doctrinal/symboles/voiles-naqshbandiyya]] · [[hermeneutique/death-stranding/death-stranding]] · [[meta/carte-doctrinal]] · +3 | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +2 | 14 |
 | `marifat` | Marifat, Maʿrifat, marifat, maʿrifat | — | titre, translit | [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/autorites/al-jazari]] · [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/sources/islam-and-artificial-intelligence]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +2 | osman-yahya-08-repertoire.md +1 | 14 |
+| `mary` | Mary, mary | — | table, titre | [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/frankenstein/frankenstein]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · [[meta/protocole-archives/changelog-CLAUDE]] | 00-front-matter.md +5 | 14 |
 | `maymaniyya` | Maymaniyya, maymaniyya | — | annotation, table, tag, titre | [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent]] · [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan]] · [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]] · [[atelier/rd/registre-chantiers]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · +1 | — | 14 |
 | `mcp` | MCP, mcp | — | tag, titre | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/claude-code-health-check-2026-08-11]] · [[atelier/rd/outillage/2026-09-08_serveur-mcp-wiki]] · [[atelier/rd/veille/2026-08-31_sentrux]] · [[meta/projet-unifie/03-transition-modele-open-source]] | — | 14 |
 | `meru-danda` | Mêru-danda, meru-danda | — | annotation, table, tag | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]] · [[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md +1 | 14 |
@@ -3209,7 +3212,6 @@ isolee omis de cette vue. L'index integral est dans
 | `madhhab` | madhhab | — | titre | **11 fiches** | — | 13 |
 | `mahmud` | Mahmûd, Mahmüd, Maḥmūd, mahmûd (+1) | — | translit | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] · [[doctrinal/sources/dalail-al-khayrat-jazuli]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 13 |
 | `malamatiyya` | Malamatiyya, Malàmatiyya, Malämatiyya, Malāmatiyya (+3) | — | annotation, tag, translit | [[doctrinal/autorites/ibn-arabi]] · [[doctrinal/autorites/rene-guenon]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot]] · [[doctrinal/sources/malamatiyah-futuhat-ch23]] · +3 | abu-yazid-al-bistami-et-son-enseignement-pdf-coran.md +1 | 13 |
-| `mary` | Mary, mary | — | table, titre | [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/frankenstein/frankenstein]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | 00-front-matter.md +5 | 13 |
 | `mawdu` | mawḍûʿ, mawḍūʿ | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 13 |
 | `merkavah` | Merkavah | `מרכבה` | table, titre | [[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]] · [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]] · [[doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation]] · [[doctrinal/symboles/merkavah-muraqaba]] · [[meta/carte-doctrinal]] · +3 | — | 13 |
 | `mizan` | Mizan, Mīzān, mizan, mizân (+2) | — | tag, translit | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 13 |
@@ -3241,6 +3243,7 @@ isolee omis de cette vue. L'index integral est dans
 | `mala` | Mala, Malà, mala, malâʾ (+1) | — | translit | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | abu-yazid-al-bistami-et-son-enseignement-pdf-coran.md +3 | 9 |
 | `masdar` | maṣdar | — | translit | [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | corps-du-texte.md | 9 |
 | `mazahir` | mazâhir, mazâʾhir, mazähir, maẓâhir (+1) | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/animaux-en-reve-comparatisme]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 9 |
+| `monstre` | monstre | — | annotation, tag | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[hermeneutique/frankenstein/frankenstein]] | les-mysteres-de-la-lettre-nun-symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon.md +1 | 9 |
 | `muhibb` | Muhibb, Muḥibb, muḥibb | — | translit | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-06-chapitre-05.md +3 | 9 |
 | `munfasil` | munfasil, munfaṣil | — | translit | [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/barzakh]] · +1 | — | 9 |
 | `mustalah` | Mustalah, Muṣṭalaḥ, mustalah, muṣṭalaḥ | — | table, translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] · [[meta/projet-unifie/propositions/proposition-pole-usul-2026-08-27]] | osman-yahya-02-chapitre-01.md +1 | 9 |
@@ -3249,7 +3252,6 @@ isolee omis de cette vue. L'index integral est dans
 | `mawlid-al-rasul` | mawlid-al-rasul | — | annotation | [[doctrinal/autorites/abd-al-qadir-al-jilani]] · [[doctrinal/sources/mawlid-al-rasul]] · [[doctrinal/symboles/salawat]] | — | 8 |
 | `michel-valsan` | michel-valsan | — | annotation | [[doctrinal/autorites/charles-andre-gilis]] · [[doctrinal/autorites/michel-valsan]] · [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/sept-etendards-califat]] | — | 8 |
 | `misbah` | Misbah, Misbâh, Misbäh, misbah (+2) | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | osman-yahya-08-repertoire.md +1 | 8 |
-| `monstre` | monstre | — | tag | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[hermeneutique/frankenstein/frankenstein]] | les-mysteres-de-la-lettre-nun-symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon.md +1 | 8 |
 | `moog` | Moog, moog | — | table, tag, titre | [[atelier/materiel/moog-voyager]] · [[atelier/materiel/studio-principal]] · [[label/production/album-personnel]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 8 |
 | `morphopsychologie` | Morphopsychologie, morphopsychologie | — | titre | [[doctrinal/autorites/aiman-attar]] · [[doctrinal/deviations/body-types]] · [[doctrinal/deviations/morphopsychologie]] · [[doctrinal/symboles/tibb-e-nabawi]] · [[meta/carte-doctrinal]] · +2 | — | 8 |
 | `muamalat` | Muʿāmalāt, muʿāmalāt | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/symboles/fiqh]] · [[doctrinal/traditions/madhhab-maliki]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] | — | 8 |
@@ -3260,12 +3262,14 @@ isolee omis de cette vue. L'index integral est dans
 | `mahbub` | Mahbüb, maḥbûb | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +2 | 7 |
 | `mahw` | mahw, maḥw | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | les-disciplines-spirituelles.md | 7 |
 | `makruh` | makrûh, makrūh | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/fiqh]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | — | 7 |
+| `mangaka` | Mangaka, mangaka | — | tag | [[hermeneutique/auteurs/akira-toriyama]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[hermeneutique/auteurs/togashi-yoshihiro]] · [[hermeneutique/dr-slump/dr-slump]] · [[meta/carte-du-depot-hermeneutique]] · +2 | — | 7 |
 | `marut` | Marut, Mārūt | — | translit | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] | — | 7 |
 | `mastur` | Masṭûr, mastûr, masṭûr, mašṭûr | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | corps-du-texte.md | 7 |
 | `matrix` | Matrix | — | table, titre | [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[hermeneutique/expression/2026-09-01_athanor-matrices-artificielles]] · [[hermeneutique/lost/jacob]] · [[hermeneutique/the-matrix/the-matrix]] · [[meta/carte-du-depot-hermeneutique]] · +1 | — | 7 |
 | `meknes` | Meknes, Meknès | — | table, titre | [[doctrinal/symboles/maqamat-meknes]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 7 |
 | `meshi'hiel` | Meshi'hiel | — | table | [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-3-kabbale-en-ligne.md +1 | 7 |
 | `mode pedagogique obligatoire` | Mode pédagogique obligatoire | — | definition | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/projet-unifie/00-instructions-projet]] · [[meta/projet-unifie/hermes-prompts/02-visual-editorial-artistic-direction/02-principe]] · +2 | — | 7 |
+| `mother-base` | mother-base | — | annotation, tag | [[atelier/rd/infrastructure/bureau-tui-architecture]] · [[hermeneutique/death-stranding/dhv-magellan]] · [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/idroid]] · [[hermeneutique/metal-gear/metal-gear]] · +1 | — | 7 |
 | `muhammadiyya` | Muhammadiyya, Muḥammadiyya, muhammadiyya, muḥammadiyya | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/khatm]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 7 |
 | `mund` | Mund | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] | iv.md | 7 |
 | `mutables` | Mutables | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]] · [[doctrinal/symboles/ilm-al-nujum]] · [[doctrinal/symboles/manazil-al-qamar]] | — | 7 |
@@ -3282,7 +3286,6 @@ isolee omis de cette vue. L'index integral est dans
 | `mali` | Mali, mâlî, mālī | — | translit | [[doctrinal/autorites/ahmad-al-buni]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/genealogie/samballa-kouyate]] · [[meta/personnel/sidy]] | — | 6 |
 | `mamadou` | Mamadou | — | table, titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/genealogie/mamadou-doudou-sissoko]] · [[meta/genealogie/sidy-lamine-kouyate]] · +1 | — | 6 |
 | `manava-loka` | mânava-loka, mānava-loka | — | translit | [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats]] · [[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas]] | le-voyage-divin-de-l-etre-en-voie-de-liberation-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +2 | 6 |
-| `mangaka` | Mangaka, mangaka | — | tag | [[hermeneutique/auteurs/akira-toriyama]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[hermeneutique/auteurs/togashi-yoshihiro]] · [[hermeneutique/dr-slump/dr-slump]] · [[meta/carte-du-depot-hermeneutique]] · +1 | — | 6 |
 | `manipuraka` | MANIPÜRAKA, Manipûraka, Manipūraka, Maṇipūraka | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] | la-puissance-du-serpent.md +1 | 6 |
 | `maqulat` | maqûlât, maʿqûlât | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 6 |
 | `marquage visuel` | Marquage visuel | — | definition | [[atelier/rd/instrument/instrument-feuille-de-route-v2]] · [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2]] · [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]] · [[atelier/rd/instrument/instrument-tradition-primordiale-architecture]] | — | 6 |
@@ -3290,6 +3293,7 @@ isolee omis de cette vue. L'index integral est dans
 | `matiere brute` | Matière brute | — | definition | [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/conversation-llm-intellect-2026-06-11]] | la-puissance-du-serpent.md +2 | 6 |
 | `matiere source` | Matière source | — | definition | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[meta/plan-fiche-discernement-septenaire-transversal-2026-07-27]] | — | 6 |
 | `mawla` | MaWLâ, mawlâ, mawlā | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/khalwa]] | — | 6 |
+| `meme commit` | même commit | — | definition | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]] · [[meta/briefs/2026-08-30_passation-session-reseau-subtil-vers-terminal]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 6 |
 | `mercedes` | Mercedes | — | table | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/personnel/2026-06-20_noms-symboles-financiers]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 6 |
 | `mithra` | Mithra | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | rapprochements-maconniques-et-hermetiques-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md +2 | 6 |
 | `moytura` | Moytura | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +1 | 6 |
@@ -3310,7 +3314,6 @@ isolee omis de cette vue. L'index integral est dans
 | `mimamsa` | Mimâmsa, Mîmâmsa, Mîmâmsâ | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md | 5 |
 | `mimamsakas` | Mimamsakas, Mîmamsakas | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch08-the-cows-walk.md +1 | 5 |
 | `moksa` | Mokṣa, moksa, mokṣa | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/sommaire-hindouisme-soufisme]] · [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]] · [[doctrinal/symboles/atma-gita-guenon]] | les-disciplines-spirituelles.md | 5 |
-| `mother-base` | mother-base | — | tag | [[atelier/rd/infrastructure/bureau-tui-architecture]] · [[hermeneutique/death-stranding/dhv-magellan]] · [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/idroid]] · [[hermeneutique/metal-gear/metal-gear]] · +1 | — | 5 |
 | `mouru` | Mouru, Môuru | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch11-the-avestic-evidence.md | 5 |
 | `muakkada` | muʾakkada | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
 | `mudmar` | muḍmar | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
@@ -3427,6 +3430,7 @@ isolee omis de cette vue. L'index integral est dans
 | `mashurat` | mašhûrât | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `masraa` | mašraʿa | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `mastura` | Mašṭûra, mašṭūra | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
+| `matrices-artificielles` | matrices-artificielles | — | annotation, tag | [[hermeneutique/expression/2026-09-01_athanor-matrices-artificielles]] · [[meta/carte-du-depot-doctrinal]] | — | 2 |
 | `maturidi` | Māturīdī | — | translit | [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]] · [[meta/personnel/sidy]] | — | 2 |
 | `mazhariyya` | maẓhariyya | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] | — | 2 |
 | `meherjirana` | Meherjirana | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |
@@ -3482,8 +3486,8 @@ isolee omis de cette vue. L'index integral est dans
 | `muzawala` | muzâwala, muzāwala | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `maratib-al-wujud` | maratib-al-wujud | — | annotation, tag | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 1 |
 | `mary-shelley` | mary-shelley | — | annotation | [[hermeneutique/frankenstein/frankenstein]] | — | 1 |
-| `matrices-artificielles` | matrices-artificielles | — | tag | [[hermeneutique/expression/2026-09-01_athanor-matrices-artificielles]] · [[meta/carte-du-depot-doctrinal]] | — | 1 |
 | `meru-qaf` | meru-qaf | — | annotation, tag | [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]] · [[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]] | — | 1 |
+| `mesure avant de combler` | Mesuré avant de combler | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 1 |
 | `metaphysique-du-nombre` | metaphysique-du-nombre | — | annotation, tag | [[doctrinal/sources/guenon-grande-triade-ch8-nombres-celestes-terrestres]] | — | 1 |
 | `methode de la reprise` | Méthode de la reprise | — | definition | [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]] | — | 1 |
 | `modification technique` | Modification technique | — | definition | [[atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18]] | — | 1 |
@@ -3515,10 +3519,10 @@ isolee omis de cette vue. L'index integral est dans
 
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
-| `nom` | NOM, Nom, nom | — | definition, tag, titre | **219 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +339 | 2351 |
+| `nom` | NOM, Nom, nom | — | definition, tag, titre | **219 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +339 | 2352 |
 | `nature` | NATURE, Nature, nature | — | definition, table, tag, titre | **268 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +379 | 1905 |
 | `nombre` | NOMBRE, Nombre, nombre, nombré | — | table, tag, titre | **93 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +219 | 1145 |
-| `noms` | NOMS, Noms, noms | — | table, titre | **135 fiches** | LISEZ-MOI.md +123 | 833 |
+| `noms` | NOMS, Noms, noms | — | table, titre | **136 fiches** | LISEZ-MOI.md +123 | 834 |
 | `notes` | NOTES, Notes, notes, notés | — | definition, table, titre | **129 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +56 | 512 |
 | `nombres` | NOMBRES, Nombres, nombres, nombrés | — | titre | **26 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +83 | 466 |
 | `notions` | NOTIONS, Notions, notions | — | titre | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +73 | 168 |
@@ -3538,7 +3542,7 @@ isolee omis de cette vue. L'index integral est dans
 | `nasr` | NASR, Nasr, Naṣr, našr | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +1 | 54 |
 | `nefesh` | Nefesh, nefesh | — | annotation, table, tag | [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · [[doctrinal/symboles/cinq-noms-ame]] · [[doctrinal/symboles/gilgul]] · [[doctrinal/symboles/golem]] · [[meta/carte-du-depot-doctrinal]] · +1 | shaar-hagilgulim-gate-of-reincarnations.md | 54 |
 | `nur` | Nur, Nùr, Nûr, Nür (+5) | — | tag, titre, translit | **13 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +7 | 48 |
-| `non-syncretisme` | Non-Syncrétisme, Non-syncrétisme, non-syncretisme, non-syncrétisme | — | annotation, tag | **42 fiches** | karubi-mehdi-navette-20260812.md | 46 |
+| `non-syncretisme` | Non-Syncrétisme, Non-syncrétisme, non-syncretisme, non-syncrétisme | — | annotation, tag | **43 fiches** | karubi-mehdi-navette-20260812.md | 47 |
 | `neve` | Neve, neve | — | table, tag, titre | **21 fiches** | — | 45 |
 | `noblesse` | Noblesse, noblesse | — | table, tag, titre | **13 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-3.md +3 | 38 |
 | `nen` | Nen, nen | — | tag, titre | **11 fiches** | orion-ch03-the-krittikas.md +1 | 37 |
@@ -3601,13 +3605,13 @@ isolee omis de cette vue. L'index integral est dans
 | `nna` | Nna | — | titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/genealogie/fanta-nna-diabate]] · [[meta/genealogie/kouyate]] · [[meta/genealogie/samballa-kouyate]] | — | 6 |
 | `note-impact-instrument-socle-universel` | note-impact-instrument-socle-universel | — | titre | [[atelier/projets/note-impact-instrument-socle-universel-2026-07-16]] · [[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16]] · [[atelier/rd/registre-chantiers]] · [[meta/carte-atelier]] · [[meta/carte-du-depot-atelier]] · +1 | — | 6 |
 | `nafas-rahmani` | nafas-rahmani | — | tag | **10 fiches** | — | 5 |
+| `naoki` | Naoki | — | table, titre | [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 5 |
 | `nehasti` | nehâsti, nêhâsti, nēhāsti | — | translit | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]] · [[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]] | la-puissance-du-serpent.md +1 | 5 |
 | `neoplatonisme` | Néoplatonisme, neoplatonisme, néoplatonisme | — | tag | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect]] · [[doctrinal/sources/conversation-llm-intellect-2026-06-11]] | — | 5 |
 | `nima` | niʿma | — | translit | [[doctrinal/sources/hasbiyallah-rabbani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
 | `nizam` | Nizam, Nizäm, niẓâm | — | translit | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +1 | 5 |
 | `naam` | naʿam | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
 | `nafsiya` | nafsîya, nafsīya | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] | les-disciplines-spirituelles.md | 4 |
-| `naoki` | Naoki | — | table, titre | [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | — | 4 |
 | `natsi'hiriron` | Natsi'hiriron | — | table | [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +1 | 4 |
 | `nature commune` | Nature commune | — | definition | [[doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire]] | de-la-sphere-au-cube-le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon.md +2 | 4 |
 | `nurasunna` | Nurasunna, nurasunna | — | tag | [[doctrinal/autorites/aiman-attar]] · [[doctrinal/deviations/body-types]] | — | 4 |
@@ -3694,11 +3698,11 @@ isolee omis de cette vue. L'index integral est dans
 | `omniroute` | OmniRoute, Omniroute, omniroute | — | table, tag, titre | **26 fiches** | — | 71 |
 | `orientation` | Orientation, orientation | — | titre | **28 fiches** | l-ecorce-et-le-noyau-el-qishr-wa-el-lobb-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +15 | 59 |
 | `organique` | Organique, organique | — | titre | **16 fiches** | le-rejet-des-pouvoirs-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +21 | 52 |
+| `oeuvre` | Oeuvre, oeuvre | — | tag | **16 fiches** | chapitre-xiii-l-athanor-titus-burckartt.md +1 | 45 |
 | `opus` | Opus, opus | — | table | **20 fiches** | le-roi-du-monde-index-de-l-uvre-de-rene-guenon.md | 45 |
 | `omphalos` | Omphalos, omphalos | — | annotation, tag | [[atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue]] · [[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · [[doctrinal/sources/guenon-symbolisme-du-dome]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md +10 | 39 |
 | `oceans` | Oceans, Océans, oceans, océans | — | table | **17 fiches** | paradis-terrestre-et-paradis-celeste-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +5 | 36 |
 | `onirique` | onirique | — | titre | **20 fiches** | les-quatre-mondes.md | 32 |
-| `oeuvre` | Oeuvre, oeuvre | — | tag | [[hermeneutique/death-stranding/death-stranding]] · [[hermeneutique/metal-gear/metal-gear]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · [[meta/carte-hermeneutique]] | chapitre-xiii-l-athanor-titus-burckartt.md +1 | 28 |
 | `ordo` | Ordo, ordo | — | table, titre | **10 fiches** | sur-deux-devises-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +3 | 25 |
 | `ontologie` | Ontologie, ontologie | — | tag, titre | **9 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-15.md +5 | 18 |
 | `osman` | OSMAN, Osman, Osmân | — | table, titre | [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]] · [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] · [[atelier/rd/registre-chantiers]] · [[doctrinal/sources/osman-yahia-histoire-classification-1964]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +1 | LISEZ-MOI.md +2 | 17 |
@@ -3742,8 +3746,8 @@ isolee omis de cette vue. L'index integral est dans
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
 | `principe` | PRINCIPE, Principe, principe | — | definition, table, titre | **295 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +328 | 2236 |
-| `porte` | PORTE, Porte, porte, porté | — | table, titre | **301 fiches** | LISEZ-MOI.md +163 | 1381 |
-| `place` | Place, Placé, place, placé | — | table, titre | **157 fiches** | LISEZ-MOI.md +323 | 1224 |
+| `porte` | PORTE, Porte, porte, porté | — | table, titre | **301 fiches** | LISEZ-MOI.md +163 | 1384 |
+| `place` | Place, Placé, place, placé | — | table, titre | **157 fiches** | LISEZ-MOI.md +323 | 1225 |
 | `premiere` | PREMIERE, PREMIÈRE, Premiere, Première (+3) | — | table, titre | **187 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +329 | 1100 |
 | `pole` | POLE, Pole, Pôle, pole (+1) | — | table, tag, titre | **198 fiches** | initiation-sacerdotale-et-initiation-royale-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +94 | 959 |
 | `pourquoi` | POURQUOI, Pourquoi, pourquoi | — | definition, table | **109 fiches** | LISEZ-MOI.md +311 | 888 |
@@ -3753,18 +3757,18 @@ isolee omis de cette vue. L'index integral est dans
 | `physique` | Physique, physique | — | titre | **193 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +80 | 583 |
 | `produit` | Produit, produit | — | definition | **124 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +173 | 563 |
 | `puis` | Puis, puis | — | definition | **189 fiches** | LISEZ-MOI.md +98 | 560 |
-| `profane` | PROFANE, Profane, profane | — | titre | **55 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +175 | 541 |
+| `profane` | PROFANE, Profane, profane | — | titre | **56 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +175 | 542 |
 | `portee` | Portée, portee, portée | — | definition, table | **143 fiches** | LISEZ-MOI.md +140 | 486 |
 | `pierre` | Pierre, pierre | — | table, titre | **40 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +72 | 460 |
-| `protocole` | Protocole, protocole | — | definition, table, tag, titre | **156 fiches** | LISEZ-MOI.md +1 | 431 |
-| `production` | PRODUCTION, Production, production | — | table, titre | **134 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +68 | 426 |
+| `protocole` | Protocole, protocole | — | definition, table, tag, titre | **156 fiches** | LISEZ-MOI.md +1 | 435 |
+| `production` | PRODUCTION, Production, production | — | table, titre | **134 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +68 | 429 |
 | `prophete` | Prophete, Prophète, prophete, prophète | — | table, titre | **80 fiches** | de-la-transmission-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +48 | 424 |
 | `paris` | Paris, paris | — | table, titre | **49 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +85 | 410 |
 | `polaire` | Polaire, polaire, pôlaire | — | table, tag, titre | **95 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +35 | 407 |
 | `philosophie` | PHILOSOPHIE, Philosophie, philosophie | — | table, titre | **34 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +109 | 373 |
 | `primordiale` | PRIMORDIALE, Primordiale, primordiale | — | table, titre | **66 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +113 | 350 |
 | `peace` | Peace, peace | — | table | [[doctrinal/sources/hasbiyallah-rabbani]] · [[hermeneutique/metal-gear/metal-gear]] · [[hermeneutique/metal-gear/mother-base]] | 00-front-matter.md +28 | 301 |
-| `publication` | PUBLICATION, Publication, publication | — | table, titre | **77 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +51 | 288 |
+| `publication` | PUBLICATION, Publication, publication | — | table, titre | **77 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +51 | 289 |
 | `proposition` | PROPOSITION, Proposition, proposition | — | definition, table, tag, titre | **93 fiches** | karubi-mehdi-navette-20260812.md +10 | 261 |
 | `profil` | Profil, profil | — | definition, table, tag, titre | **64 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md | 259 |
 | `prakriti` | PRAKRITI, Prakriti, prakriti | — | annotation, table, tag, titre | **18 fiches** | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +45 | 257 |
@@ -3785,7 +3789,7 @@ isolee omis de cette vue. L'index integral est dans
 | `prophetes` | PROPHÈTES, Prophetes, Prophètes, prophetes (+1) | — | table, tag | **47 fiches** | voie-initiatique-et-voie-mystique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +31 | 168 |
 | `pagination` | Pagination, pagination | — | table | **64 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 164 |
 | `principiel` | principiel | — | titre | **38 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +75 | 164 |
-| `partage` | partage, partagé | — | titre | **51 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +37 | 150 |
+| `partage` | partage, partagé | — | titre | **51 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +37 | 151 |
 | `pain` | Pain, pain | — | table | **10 fiches** | 00-front-matter.md +25 | 149 |
 | `prototype` | Prototype, prototype, prototypé | — | table, tag | **47 fiches** | karubi-mehdi-navette-20260812.md +29 | 146 |
 | `priere` | PRIÈRE, Priere, Prière, priere (+1) | — | table, titre | **34 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +20 | 141 |
@@ -4090,8 +4094,8 @@ isolee omis de cette vue. L'index integral est dans
 | `qabd` | qabd, qabḍ | — | annotation, tag, titre, translit | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 36 |
 | `quotidienne` | quotidienne | — | titre | **22 fiches** | la-puissance-du-serpent.md +2 | 35 |
 | `quota` | Quota, quota | — | table, titre | **13 fiches** | — | 30 |
+| `qui le porte` | Qui le porte | — | definition | **16 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 29 |
 | `quran` | Quran, Qurʾan, Qurʾân, Qurʾān (+1) | — | translit | **12 fiches** | — | 29 |
-| `qui le porte` | Qui le porte | — | definition | **16 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 28 |
 | `question ouverte` | Question ouverte | — | definition | **22 fiches** | — | 26 |
 | `qalam` | Qalam, Qâlam, qalam | — | table | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · +1 | les-quatre-mondes.md +1 | 24 |
 | `quete` | Quête, quete, quête | — | tag | **11 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +3 | 23 |
@@ -4143,10 +4147,10 @@ isolee omis de cette vue. L'index integral est dans
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
 | `rapport` | RAPPORT, Rapport, rapport | — | definition, table, tag, titre | **211 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +418 | 2259 |
-| `raison` | Raison, Raïson, raison | — | definition, table, titre | **98 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +402 | 1328 |
+| `raison` | Raison, Raïson, raison | — | definition, table, titre | **98 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +402 | 1329 |
 | `rene` | René | — | table, titre | **113 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +404 | 1156 |
 | `role` | ROLE, Role, RÔLE, Rôle (+3) | — | definition, table | **146 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +294 | 1021 |
-| `roman` | Roman, roman | — | tag | [[doctrinal/sources/gilis-ordo-ab-chao]] · [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/frankenstein/frankenstein]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +406 | 812 |
+| `roman` | Roman, roman | — | annotation, tag | [[doctrinal/sources/gilis-ordo-ab-chao]] · [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/frankenstein/frankenstein]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] · +1 | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +406 | 815 |
 | `realisation` | Realisation, RÉALISATION, Réalisation, réalisation (+1) | — | table, titre | **73 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +207 | 789 |
 | `reference` | Reference, Référence, reference, référence (+1) | — | definition, table, tag, titre | **249 fiches** | LISEZ-MOI.md +55 | 659 |
 | `roi` | Roi, roi | — | titre | **66 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +112 | 502 |
@@ -4154,7 +4158,7 @@ isolee omis de cette vue. L'index integral est dans
 | `rendu` | RENDU, Rendu, rendu | — | definition, table, tag, titre | **112 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +64 | 481 |
 | `rapports` | RAPPORTS, Rapports, rapports | — | titre | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +202 | 464 |
 | `rapprochement` | Rapprochement, rapprochement | — | titre | **162 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +103 | 463 |
-| `regle` | Règle, regle, règle, réglé | — | definition, table | **166 fiches** | LISEZ-MOI.md +39 | 444 |
+| `regle` | Règle, regle, règle, réglé | — | definition, table | **166 fiches** | LISEZ-MOI.md +39 | 446 |
 | `registre` | Registre, registre | — | definition, table, tag, titre | **148 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +5 | 428 |
 | `resultat` | RESULTAT, Résultat, résultat | — | definition, table | **111 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +115 | 368 |
 | `reve` | RÊVE, Rêve, reve, révé (+2) | — | table, tag, titre | **58 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +23 | 332 |
@@ -4192,14 +4196,14 @@ isolee omis de cette vue. L'index integral est dans
 | `razi` | Razi, Razî, Râzi, Râzî (+4) | — | annotation, table, tag, translit | **11 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +3 | 108 |
 | `runpod` | RunPod | — | table | **21 fiches** | — | 107 |
 | `rudra` | Rudra, Rudrâ, rudra | — | table | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +1 | la-puissance-du-serpent.md +8 | 100 |
-| `registres` | REGISTRES, Registres, registres | — | table, tag, titre | **49 fiches** | les-quatre-mondes.md | 98 |
+| `registres` | REGISTRES, Registres, registres | — | table, tag, titre | **49 fiches** | les-quatre-mondes.md | 99 |
 | `ring` | Ring, ring | — | table | [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]] · [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +2 | 01-a.md +15 | 97 |
 | `royale` | ROYALE, Royale, royale | — | titre | **10 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +25 | 96 |
 | `retenu` | Retenu, retenu | — | definition | **59 fiches** | la-puissance-du-serpent.md +8 | 94 |
 | `ressources` | Ressources, ressources | — | table, titre | **31 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +7 | 93 |
 | `representations` | REPRÉSENTATIONS, Representations, Représentations, representations (+1) | — | titre | **12 fiches** | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +48 | 90 |
 | `ruh` | Ruh, Rûh, Rüh, rûh (+4) | — | translit | **19 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +15 | 88 |
-| `restriction` | Restriction, restriction | — | tag, titre | **14 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +46 | 86 |
+| `restriction` | Restriction, restriction | — | annotation, tag, titre | **14 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +46 | 87 |
 | `recherches` | RECHERCHES, Recherches, recherches, recherchés | — | table | **12 fiches** | noms-profanes-et-noms-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +47 | 83 |
 | `renversement` | RENVERSEMENT, Renversement, renversement | — | titre | **14 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +41 | 81 |
 | `ramban` | Ramban, ramban | — | annotation, table, tag, titre | **14 fiches** | sefer-yetsira-ramban.md | 79 |
@@ -4222,7 +4226,7 @@ isolee omis de cette vue. L'index integral est dans
 | `ramadan` | Ramadan, Ramadän, Ramaḍān, ramadân (+1) | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/genealogie/samballa-kouyate]] · [[meta/personnel/2026-06-20_triptyque-animaux]] | l-ecorce-et-le-noyau-el-qishr-wa-el-lobb-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +11 | 42 |
 | `research` | Research, research | — | tag | **9 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-29.md +11 | 37 |
 | `retournement` | retournement | — | tag | [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/deviations/deviation-et-subversion]] · [[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]] · [[doctrinal/symboles/janus-bifrons]] · [[hermeneutique/metal-gear/big-boss]] · +2 | l-ecorce-et-le-noyau-el-qishr-wa-el-lobb-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +20 | 37 |
-| `reversible` | Réversible, reversible, réversible | — | table, tag | **22 fiches** | le-centre-et-la-circonference-le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon.md | 35 |
+| `reversible` | Réversible, reversible, réversible | — | table, tag | **22 fiches** | le-centre-et-la-circonference-le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon.md | 37 |
 | `rita` | Rita, rita | — | annotation, table, tag | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +11 | 34 |
 | `recurrent` | recurrent, récurrent | — | tag | **24 fiches** | — | 33 |
 | `rasa` | Rasa, Rasâ, rasa | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · +2 | la-puissance-du-serpent.md +9 | 31 |
@@ -4393,23 +4397,23 @@ isolee omis de cette vue. L'index integral est dans
 
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
-| `sidy` | SIDY, Sidy, sidy | — | definition, table, titre | **474 fiches** | LISEZ-MOI.md +4 | 2560 |
+| `sidy` | SIDY, Sidy, sidy | — | definition, table, titre | **474 fiches** | LISEZ-MOI.md +4 | 2563 |
 | `source` | SOURCE, Source, source, sourcé | — | table, tag | **502 fiches** | LISEZ-MOI.md +150 | 2318 |
 | `symbolisme` | SYMBOLISME, Symbolisme, symbolisme | — | table, tag, titre | **134 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +323 | 1910 |
 | `sources` | SOURCES, Sources, sources, sourcés | — | definition, table | **371 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +51 | 1350 |
 | `science` | SCIENCE, Science, science | — | table, titre | **143 fiches** | LISEZ-MOI.md +284 | 1347 |
 | `symboles` | SYMBOLES, Symboles, symboles | — | table, titre | **229 fiches** | LISEZ-MOI.md +197 | 1143 |
 | `symbole` | SYMBOLE, Symbole, symbole | — | table, tag | **79 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +208 | 1051 |
-| `statut` | Statut, statut | — | tag | **330 fiches** | LISEZ-MOI.md +10 | 951 |
-| `sept` | SEPT, Sept, sept | — | table, titre | **112 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-8.md +81 | 943 |
+| `statut` | Statut, statut | — | tag | **330 fiches** | LISEZ-MOI.md +10 | 952 |
+| `sept` | SEPT, Sept, sept | — | table, titre | **113 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-8.md +81 | 944 |
 | `spirituelle` | SPIRITUELLE, Spirituelle, spirituelle | — | table, titre | **158 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +191 | 941 |
 | `spirituel` | SPIRITUEL, Spirituel, spirituel | — | tag, titre | **146 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +200 | 827 |
 | `soleil` | Soleil, soleil | — | table, tag, titre | **95 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +109 | 786 |
 | `soi` | SOI, Soi, soi | — | tag | **87 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +229 | 750 |
 | `session` | Session, session | — | titre | **178 fiches** | LISEZ-MOI.md +9 | 739 |
-| `structure` | STRUCTURE, Structure, structure, structuré | — | definition, table, tag, titre | **238 fiches** | karubi-mehdi-navette-20260812.md +36 | 612 |
+| `structure` | STRUCTURE, Structure, structure, structuré | — | definition, table, tag, titre | **238 fiches** | karubi-mehdi-navette-20260812.md +36 | 613 |
+| `sceau` | SCEAU, Sceau, sceau | — | table | **125 fiches** | LISEZ-MOI.md +37 | 492 |
 | `shakti` | Shakti, Shaktî, shakti | — | table | [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +2 | la-puissance-du-serpent.md +19 | 492 |
-| `sceau` | SCEAU, Sceau, sceau | — | table | **125 fiches** | LISEZ-MOI.md +37 | 490 |
 | `signe` | SIGNE, Signe, signe, signé | — | table, titre | **114 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +134 | 475 |
 | `sacree` | SACRÉE, Sacrée, sacree, sacrée | — | table, titre | **85 fiches** | LISEZ-MOI.md +133 | 453 |
 | `script` | Script, script | — | definition, table | **115 fiches** | — | 406 |
@@ -4420,7 +4424,7 @@ isolee omis de cette vue. L'index integral est dans
 | `sagesse` | SAGESSE, Sagesse, sagesse | — | table, titre | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +64 | 351 |
 | `sphere` | SPHÈRE, Sphere, Spheré, Sphère (+2) | — | table, tag | **51 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +65 | 325 |
 | `spirituelles` | SPIRITUELLES, Spirituelles, spirituelles | — | table, titre | **58 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +81 | 311 |
-| `studio` | Studio, studio | — | table, tag, titre | **83 fiches** | osman-yahya-08-repertoire.md | 303 |
+| `studio` | Studio, studio | — | table, tag, titre | **84 fiches** | osman-yahya-08-repertoire.md | 304 |
 | `sommet` | Sommet, sommet | — | table, titre | **61 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +67 | 295 |
 | `serpent` | SERPENT, Serpent, serpent | — | table, titre | **20 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +55 | 292 |
 | `sashimono` | Sashimono, sashimono | — | annotation, table, tag, titre | **103 fiches** | karubi-mehdi-navette-20260812.md | 261 |
@@ -4473,7 +4477,7 @@ isolee omis de cette vue. L'index integral est dans
 | `shayegan` | SHAYEGAN, Shayegan, shayegan | — | annotation, table, tag, titre | **23 fiches** | — | 88 |
 | `sentiers` | Sentiers, sentiers | — | table, tag, titre | **15 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +2 | 87 |
 | `srs` | SRS, srs | — | tag, titre | **14 fiches** | — | 86 |
-| `scope` | Scope, scope, scopé | — | definition, table, titre | **38 fiches** | arctic-99-general-index.md +4 | 84 |
+| `scope` | Scope, scope, scopé | — | definition, table, titre | **39 fiches** | arctic-99-general-index.md +4 | 85 |
 | `skill` | SKILL, Skill, skill | — | table, tag, titre | **27 fiches** | 00-front-matter.md +4 | 84 |
 | `samkhya` | Samkhya, Sâmkhya, Sāṃkhya, samkhya | — | annotation, table, tag, translit | **17 fiches** | la-puissance-du-serpent.md +2 | 82 |
 | `samael` | Samael, Samaël, samael | — | annotation, tag | [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] · [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] · +1 | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +4 | 81 |
@@ -4568,7 +4572,7 @@ isolee omis de cette vue. L'index integral est dans
 | `spiegel` | Spiegel | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +5 | 27 |
 | `synchronisation` | Synchronisation, synchronisation | — | tag | **16 fiches** | karubi-mehdi-navette-20260812.md | 27 |
 | `solid` | Solid, solid | — | table | [[atelier/etudes-de-cas/kojima-productions]] · [[hermeneutique/auteurs/hideo-kojima]] · [[hermeneutique/auteurs/yoji-shinkawa]] · [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/idroid]] · +1 | 00-front-matter.md +10 | 26 |
-| `stranding` | Stranding | — | table, titre | **11 fiches** | — | 25 |
+| `stranding` | Stranding | — | table, titre | **12 fiches** | — | 26 |
 | `sephirah` | Sephirah | — | table | [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation]] · [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +2 | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +5 | 24 |
 | `stellaires` | stellaires | — | titre | **14 fiches** | paradis-terrestre-et-paradis-celeste-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +4 | 24 |
 | `sadashiva` | Sadâshiva | — | table | [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | la-puissance-du-serpent.md +1 | 23 |
@@ -4611,6 +4615,7 @@ isolee omis de cette vue. L'index integral est dans
 | `sulami` | SuLAMI, SuLAMi, SuLaMï, SuLami (+3) | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/hasbiyallah-rabbani]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/tawakkul]] | osman-yahya-08-repertoire.md +1 | 16 |
 | `samballa` | Samballa | — | table, titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/genealogie/fanta-nna-diabate]] · [[meta/genealogie/kouyate]] · [[meta/genealogie/samballa-kouyate]] | — | 15 |
 | `shah` | Shah, Shâh, Shāh | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/autorites/charles-andre-gilis]] · [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]] · +1 | les-quatre-mondes.md | 15 |
+| `shonen` | Shōnen, shonen, shōnen | — | annotation, tag, translit | [[hermeneutique/auteurs/akira-toriyama]] · [[hermeneutique/dr-slump/dr-slump]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/hunter-x-hunter/hunter-x-hunter]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 15 |
 | `sidyvision` | Sidyvision, sidyvision | — | tag, titre | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/2026-09-01_capture-reference-sidyvision-com]] · [[atelier/rd/infrastructure/2026-09-06_desactivation-protection-branche-main-et-pages-workflow]] · [[atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18]] · [[doctrinal/sources/mawlid-al-rasul]] · +3 | — | 15 |
 | `simulation` | simulation | — | tag | [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[hermeneutique/metal-gear/metal-gear]] · +1 | folie-apparente-et-sagesse-cachee-initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon.md +2 | 15 |
 | `sina` | Sina, Sînâ, Sīnā, sina | — | table, titre, translit | **9 fiches** | isaghuji-cours01-introduction-transcription.md +1 | 15 |
@@ -4659,6 +4664,7 @@ isolee omis de cette vue. L'index integral est dans
 | `schedule` | Schedule, schedule | — | definition, table | [[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]] · [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] · [[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17]] · [[atelier/rd/infrastructure/synthese-deploiement-memoire]] · [[meta/projet-unifie/archives/rapport-rd-memoire-persistante]] · +3 | — | 9 |
 | `seabrook` | SEABROOK, Seabrook | — | table, titre | [[doctrinal/deviations/sept-tours-du-diable]] · [[doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance]] · [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] · [[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]] · [[meta/carte-doctrinal]] · +3 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md | 9 |
 | `shari'a` | Sharī'a, sharī'a | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/autorites/michel-valsan]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/traditions/naqshbandiyya]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 9 |
+| `shelley` | Shelley | — | table, titre | [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/frankenstein/frankenstein]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 9 |
 | `siva` | Siva, Śiva | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/symboles/coeurs-subtils]] | les-disciplines-spirituelles.md | 9 |
 | `sources consultees` | Sources consultées | — | definition | [[atelier/etudes-de-cas/forteresses-architecture-defensive]] · [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] · [[doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh]] · [[doctrinal/symboles/barzakh]] · [[meta/carte-du-depot-atelier]] · +1 | — | 9 |
 | `spec-anneau-zodiacal` | spec-anneau-zodiacal | — | titre | **9 fiches** | — | 9 |
@@ -4669,8 +4675,6 @@ isolee omis de cette vue. L'index integral est dans
 | `sentrux` | sentrux | — | titre | [[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]] · [[atelier/rd/veille/2026-08-31_sentrux]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 8 |
 | `shambhu` | Shambhu, Shambhû | — | table | [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | la-puissance-du-serpent.md +1 | 8 |
 | `shaytan` | Shaytan, Shaytân, Shayṭān, shayṭân | — | table, translit | [[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon-19.md +1 | 8 |
-| `shelley` | Shelley | — | table, titre | [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/frankenstein/frankenstein]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | — | 8 |
-| `shonen` | Shōnen, shonen, shōnen | — | tag, translit | [[hermeneutique/auteurs/akira-toriyama]] · [[hermeneutique/dr-slump/dr-slump]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/hunter-x-hunter/hunter-x-hunter]] | — | 8 |
 | `suhuf` | suhuf, Ṣuḥuf, ṣuḥuf, ṣuḥûf | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +1 | 8 |
 | `sulayman` | Sulaymân, Sulaymān | — | translit | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | corps-du-texte.md | 8 |
 | `sariyya` | šarʿiyya | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 7 |
@@ -4743,6 +4747,7 @@ isolee omis de cette vue. L'index integral est dans
 | `sayful-islam` | Sayful-Islam | — | table | [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon-12.md | 4 |
 | `sayyidna` | Sayyidnā, sayyidnâ | — | translit | [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/malamatiyya]] | — | 4 |
 | `seforiron` | Seforiron | — | table | [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +1 | 4 |
+| `seinen` | seinen | — | annotation, tag | [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 4 |
 | `shaban` | Shabān | — | translit | [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820]] · [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20]] · [[atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20]] | — | 4 |
 | `shatyayanins` | ShatyAyanins, Shatyayanins, Shâtyâyanins, Shâtyâyânins | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md +1 | 4 |
 | `shichiyo` | shichiyō | — | translit | [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] | — | 4 |
@@ -4848,7 +4853,6 @@ isolee omis de cette vue. L'index integral est dans
 | `script de generation memoire` | Script de génération mémoire | — | definition | [[atelier/rd/infrastructure/synthese-deploiement-memoire]] | — | 1 |
 | `script srs` | Script SRS | — | definition | [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] | — | 1 |
 | `scripts disponibles` | Scripts disponibles | — | definition | [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] | — | 1 |
-| `seinen` | seinen | — | tag | [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] | — | 1 |
 | `sens-inverse` | sens-inverse | — | annotation, tag | [[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]] | — | 1 |
 | `sept-cieux` | sept-cieux | — | annotation, tag | [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] | — | 1 |
 | `serpent-power` | serpent-power | — | annotation, tag | [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] | — | 1 |
@@ -4913,8 +4917,8 @@ isolee omis de cette vue. L'index integral est dans
 | `trois` | TROIS, Trois, trois, troìs | — | table, titre | **271 fiches** | LISEZ-MOI.md +207 | 2141 |
 | `tradition` | TRADITION, Tradition, tradition | — | table, tag, titre | **203 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +365 | 2113 |
 | `temps` | TEMPS, Temps, temps | — | table, tag, titre | **141 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +404 | 1568 |
-| `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | titre | **99 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +182 | 1236 |
-| `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | table, titre | **129 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +93 | 997 |
+| `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | titre | **100 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +182 | 1237 |
+| `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | table, titre | **129 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +93 | 999 |
 | `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | titre | **111 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +333 | 945 |
 | `table` | TABLE, Table, table | — | table, titre | **152 fiches** | LISEZ-MOI.md +61 | 818 |
 | `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | table, titre | **160 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +207 | 741 |
@@ -4933,11 +4937,11 @@ isolee omis de cette vue. L'index integral est dans
 | `temple` | TEMPLE, Temple, temple, templé | — | table, titre | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +69 | 229 |
 | `trone` | Trone, Trône, trone, tròne (+1) | — | table | **44 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +29 | 229 |
 | `test` | Test, test | — | definition, table, titre | **72 fiches** | corps-du-texte.md +3 | 219 |
-| `tard` | tard, ṭard | — | translit | **31 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +121 | 214 |
+| `tard` | tard, ṭard | — | translit | **31 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +121 | 215 |
 | `tantra` | Tantra, tantra | — | annotation, table, tag | **14 fiches** | la-puissance-du-serpent.md +4 | 204 |
 | `triade` | Triade, triade | — | table, titre | **37 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +50 | 203 |
 | `tasawwuf` | Tasawwuf, Taṣawwuf, tasawwuf, taṣawwuf | — | annotation, table, tag, titre, translit | **100 fiches** | karubi-mehdi-navette-20260812.md +5 | 191 |
-| `transposition` | Transposition, transposition | — | tag | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +84 | 185 |
+| `transposition` | Transposition, transposition | — | annotation, tag | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +84 | 186 |
 | `ternaire` | TERNAIRE, Ternaire, ternaire | — | tag, titre | **29 fiches** | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +34 | 174 |
 | `tension` | Tension, tension | — | table, titre | **87 fiches** | la-puissance-du-serpent.md +3 | 160 |
 | `theme` | Thème, theme, thème | — | table, titre | **61 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +9 | 157 |
@@ -5096,6 +5100,7 @@ isolee omis de cette vue. L'index integral est dans
 | `tapoloka` | Tapoloka, tapoloka | — | table | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | la-puissance-du-serpent.md +1 | 6 |
 | `tarab` | tarab, ṭarab | — | translit | [[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tarab]] | jurjani-definitions.md | 6 |
 | `technologisation` | technologisation | — | titre | [[doctrinal/deviations/technologisation-pseudo-scientifique]] · [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · +1 | — | 6 |
+| `thriller` | thriller | — | annotation, tag | [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 6 |
 | `tsimtsum` | Tsimtsum, tsimtsum | — | annotation, table, tag | [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/sources/sefer-yetsira-ramban]] · [[doctrinal/sources/sefer-yetsira-ramban_source]] | sefer-yetsira-ramban.md | 6 |
 | `taa` | Taʿā, taa, tấa, ṭâʿa | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | jurjani-definitions.md +1 | 5 |
 | `taalluq` | taʿalluq | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/malamatiyah-futuhat-ch23]] · [[doctrinal/symboles/malamatiyya]] · [[doctrinal/traditions/tasawwuf]] | — | 5 |
@@ -5152,7 +5157,6 @@ isolee omis de cette vue. L'index integral est dans
 | `thargelia` | Thargelia | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch12-comparative-mythology.md | 3 |
 | `thithrya` | Thithrya | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] | — | 3 |
 | `thridi` | Thridi | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md | 3 |
-| `thriller` | thriller | — | tag | [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] | — | 3 |
 | `tool-call` | Tool-call, tool-call | — | table | [[meta/projet-unifie/03-transition-modele-open-source]] · [[meta/projet-unifie/archives/05-runbook-test-ornith-gpu-cloud]] · [[meta/projet-unifie/archives/09-briefing-transition-qwen36-27b-2026-07-01]] | — | 3 |
 | `traitana` | Traitana | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch07-months-and-seasons.md | 3 |
 | `tubut` | ṯubût, ṯubūt | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tard]] | — | 3 |
@@ -5258,7 +5262,7 @@ isolee omis de cette vue. L'index integral est dans
 | `universal` | Universal, universal | — | titre | [[doctrinal/sources/universal-man-jili]] · [[label/production/album-personnel]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | 00-front-matter.md +3 | 13 |
 | `umar` | Umar, ʿUmar | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]] · +2 | isaghuji-cours01-introduction-transcription.md | 12 |
 | `uranus` | Uranus | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · [[doctrinal/symboles/ilm-al-nujum]] · [[meta/personnel/2026-06-20_theme-astrologique]] · +2 | la-question-des-mahatmas-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +1 | 12 |
-| `urasawa` | Urasawa | — | table, titre | [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | — | 11 |
+| `urasawa` | Urasawa | — | table, titre | [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · +1 | — | 12 |
 | `utarid` | utarid, ʿutarid, ʿutârid, ʿuṭārid | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 9 |
 | `udana` | Udâna, udâna, udāna, ûdana | — | translit | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | la-puissance-du-serpent.md +1 | 8 |
 | `uluhiyya` | Ulūhiyya, ulûhiyya, ulūhiyya | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] · +1 | sept-etendards-califat-transcription.md | 8 |
@@ -5305,15 +5309,15 @@ isolee omis de cette vue. L'index integral est dans
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
 | `vers` | VERS, Vers, vers | — | titre | **313 fiches** | LISEZ-MOI.md +234 | 1526 |
-| `verdict` | VERDICT, Verdict, verdict | — | definition, table | **311 fiches** | LISEZ-MOI.md +10 | 1059 |
-| `veille` | VEILLE, Veille, veille | — | table, tag, titre | **88 fiches** | la-puissance-du-serpent.md +15 | 464 |
+| `verdict` | VERDICT, Verdict, verdict | — | definition, table | **311 fiches** | LISEZ-MOI.md +10 | 1063 |
+| `veille` | VEILLE, Veille, veille | — | table, tag, titre | **88 fiches** | la-puissance-du-serpent.md +15 | 465 |
 | `vigilance` | VIGILANCE, Vigilance, vigilance | — | definition, table, tag, titre | **165 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +38 | 459 |
 | `verification` | VÉRIFICATION, Vérification, verification, vérification | — | definition, table, tag | **188 fiches** | karubi-mehdi-navette-20260812.md +3 | 448 |
 | `viii` | VIII, viii | — | table | **115 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +89 | 425 |
 | `vedanta` | Vedanta, Vedânta, Vedānta, VÊDÂNTA (+6) | — | annotation, table, tag, titre, translit | **64 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +121 | 405 |
 | `vedas` | VEDAS, VEDAs, Vedas, Védas (+3) | — | annotation, table, tag, titre | **15 fiches** | LISEZ-MOI.md +32 | 389 |
 | `vision` | VISION, Vision, vision | — | table, tag | **57 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +52 | 288 |
-| `vivant` | Vivant, vivant | — | table, titre | **68 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +63 | 265 |
+| `vivant` | Vivant, vivant | — | table, titre | **68 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +63 | 267 |
 | `vertical` | Vertical, vertical | — | titre | **54 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +58 | 262 |
 | `volume` | Volume, volume | — | definition, table | **48 fiches** | LISEZ-MOI.md +76 | 252 |
 | `veda` | Veda, VÊDA, Véda, Vêda (+2) | — | table | **17 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +54 | 251 |
@@ -5650,7 +5654,7 @@ isolee omis de cette vue. L'index integral est dans
 
 | terme | formes attestees | appariement | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|
-| `œuvre` | ŒUVRE, Œuvre, œuvre | — | definition, table | **62 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +123 | 315 |
+| `œuvre` | ŒUVRE, Œuvre, œuvre | — | definition, table | **62 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +123 | 317 |
 
 ## ʻ
 
