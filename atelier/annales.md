@@ -10,6 +10,19 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-09] chantier | CLAUDE.md, Phase 1 de l'audit Qoder — relocalisation pure, et trois pertes de lettre rattrapées par le contrôle
+
+- **Ordre de Sidy** : « Commence par la Phase 1 sans amendement ». La Phase 2 (extraction en `meta/protocoles/` et enveloppes `.claude/skills/`) **reste différée** : elle exigerait un amendement au Cmd 14, qui n'a pas été demandé. Aucune règle n'est abrogée ni réécrite ; le corollaire d'auto-suffisance tient inchangé.
+- **Le détail des quatre recommandations est au changelog**, non ici : `meta/protocole-archives/changelog-CLAUDE.md`, entrée du 2026-09-09 (Cmd 9 — le protocole porte la règle, son changelog porte l'histoire de la règle, les annales portent la mesure).
+- **Trois pertes de lettre commises par la condensation, trouvées et réparées** : le rang 2 du §VII (champ `jurjani`, 7 lignes disparues entièrement, réinsérées **verbatim** depuis l'archive), la clause « Cf. aussi » du §VIII (corollaire agentique de `meta/CLAUDE.md`), et « Herméneutique » manquant à la note de migration du §II bis. **Les trois relèvent du même mode de défaillance** : une condensation qui emporte une clause normative adjacente à la prose qu'elle visait. Aucune n'a été vue à la relecture ; les trois ont été trouvées par le contrôle mécanique.
+- **Le contrôle mécanique était lui-même faux, et c'est le fait le plus utile de la passe.** La table d'inventaire exigée par le garde-fou n° 3 était écrite en `grep` — or `grep` est ici **`ugrep`**, qui ignore silencieusement `--include=*.md` et `--exclude-dir=` (avertissement sur `stderr`, code de retour 2). Deux lectures successives, « 96 orphelines » puis « 0 orpheline », étaient l'une et l'autre **sans valeur**. Réécrit en Python pur sur un corpus en mémoire de **2180 fichiers `.md`**, avec **contrôle négatif** (un fragment fabriqué doit être déclaré absent) et normalisation des blancs pour survivre au reflux des lignes. *Un contrôle dont on n'a pas vu l'échec n'est pas un contrôle vérifié* — c'est l'exécution du contrôle négatif, non le chiffre propre, qui a révélé la panne.
+- **Le différentiel a ensuite été passé sur `meta/CLAUDE.md`** contre sa version `HEAD` — il ne l'avait pas été, et c'est le fichier où 12 lignes ont été retirées pour 7 écrites. Ses 4 lignes orphelines sont le rappel **transversal** d'étanchéité, correctement retiré (Cmd 14), et sa moitié **propre au domaine** (`meta/projet-unifie/` sensible ↔ `rd/infrastructure/` publiable, interdit du fait personnel en page neutre) est portée en toutes lettres au §VI racine (l. 285-293) et à `atelier/CLAUDE.md` (l. 114-116). Rien n'est perdu.
+- **Comptes, sans arrondi favorable** : racine 1020 → **937 lignes** (`wc -l`), soit **−83** ; `meta/CLAUDE.md` 173 → 169, soit **−4** ; **−87 au total**, contre les **~−138 annoncés** au plan. L'écart tient à R3, qui a rendu ~6 lignes au lieu des ~40 estimées par l'audit — les renvois croisés de la racine étaient **déjà des pointeurs**, non des redites —, et aux trois restaurations, qui rendent légitimement des lignes.
+- **Rollback** : `meta/protocole-archives/CLAUDE-v3_2026-09-09.md` conserve la version pré-consolidation intégrale (Cmd 10). Son premier dépôt a **échoué** le contrôle B0 (aucun frontmatter) : l'archive a reçu son en-tête et sa note de version archivée sur le modèle de la v2 monolithique.
+- **Vérification** — `verifier-invariants.py` : **1468 fichiers contrôlés, 0 erreur, 0 avertissement**. Hygiène Unicode (Cmd 15) : les quatre fichiers touchés propres.
+- **Commit** : 309be23
+
+
 ## [2026-09-09] rd | Audit index-lexical (Qoder) — `links:` corrigés, fiche versée, et un écart de protocole qui dépasse l'audit
 
 - **Ordre de Sidy** : « corrige les links de l'audit ». La fiche est de lui, conduite par Qoder, déposée le 2026-09-09 à 06:42.
