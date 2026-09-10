@@ -1,13 +1,22 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-10] archivage | Versement `textes/` — Yamakage, *Shinto : sagesse et pratique* (transcription de photographies)
+
+- **Opération** : versement de `textes/` seul (PRO-08) — ni fiche `doctrinal/sources/`, ni discernement, non demandés dans cette session.
+- **Source brute** : ouvrage physique, chapitre 2 « Qu'est-ce que le shinto ? », pages 44 à 59, photographié en librairie par Sidy (10 images, deux lots successifs) et transcrit par lecture directe — même voie que le versement Sabri Ben Rommane (2026-09-04), hors `raw/` et hors sas.
+- **Créé** : `textes/shinto-sagesse-et-pratique-yamakage/corps-du-texte.md` — 1 fichier, pages 44-59 continues, marqueurs `<!-- page N -->`. Deux illustrations (*kagami*, *hakuhei*) signalées à leur place, non redessinées.
+- **Modifié** : `textes/LISEZ-MOI.md` — inventaire complété (cinquième versement).
+- **Écart déclaré, non comblé** (Cmd 12) : aucune fiche `doctrinal/sources/` — geste distinct qui suppose la vérification de la bibliothèque physique et un plan propre (Cmd 6, §VII).
+- **Commit** : 556544e
 
 ## [2026-09-09] archivage | Verdict sur les 6 paires signalées par `S1` — deux fautes corrigées, trois maintenues
 
