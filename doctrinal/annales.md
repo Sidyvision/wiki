@@ -8,6 +8,15 @@ updated: 2026-09-10
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-10] correctifs | Étanchéité inversée, slug rompu, entrée d'index — suite de d584107
+- **Opération** : CORRECTIFS sur la passe de sourçage Bocking, trois défauts relevés après coup, dont deux de ma main.
+- **Slug rompu.** Les `cross_links` des trois fiches orthodoxes pointaient vers `2026-09-10_honden-saint-des-saints-interiorite`, slug abandonné en cours de rédaction au profit de `2026-09-10_tabernacle-honden-interiorite` — Sidy ayant précisé que la notion visée était le **Tabernacle** et non le Temple. Le commit `d584107` a figé les anciens liens. Aucun résidu ne subsiste au dépôt (vérifié par recherche plein texte).
+- **Étanchéité inversée.** Trois fiches `status: traditionnel` — `traditions/shinto`, `symboles/espace-sacre-shinto`, `symboles/mihrab-torii` — portaient à leur **cartouche** un discernement `speculatif` non tranché, ce que `doctrinal/CLAUDE.md` interdit. **Le vérificateur mécanique ne contrôle pas cette règle** : elle ne se tient qu'à la main, et c'est le point à retenir de cette entrée.
+- **Le renvoi n'a pas été coupé, il a été requalifié.** Supprimer les liens aurait masqué une relation réelle. Les entrées sont retirées du frontmatter ; les renvois demeurent **en corps seulement**, marqués 🔍 et portant les mots « lien généalogique signalé », au titre de l'exception documentée par la règle elle-même. Le dispositif reprend le précédent `label/` → `doctrinal/`, où 🔍 marque le lien comme suggéré tant que le discernement afférent n'est pas tranché. La distinction est désormais lisible dans le texte : cartouche non, corps oui, avec la mention « non tranché ».
+- **Index.** La fiche `2026-09-10_tabernacle-honden-interiorite` manquait au Registre du Discernement (§VII) ; entrée insérée en place chronologique.
+- **Vérification** : `verifier-invariants.py` — 0 erreur, 1 avertissement préalable et sans rapport (`inf-16-machine-ia-locale-slm`). Hygiène Unicode (Cmd 15) : propre sur les quatre fichiers.
+- **Commit** : 09b9ee5
+
 
 ## [2026-09-10] archivage | Versement `textes/` — Yamakage, *Shinto : sagesse et pratique* (transcription de photographies)
 
