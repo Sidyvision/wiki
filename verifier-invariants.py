@@ -723,6 +723,164 @@ def controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap):
 
 
 # --------------------------------------------------------------------------
+# Contrôle C5/C6/C7 — étanchéité INVERSÉE (ajouté le 2026-09-10)
+# --------------------------------------------------------------------------
+
+# Règle encodée, `doctrinal/CLAUDE.md`, § « Règles de liens propres au circuit » :
+#
+#     « Étanchéité inversée : une page orthodoxe ne pointe jamais vers un
+#       `discernement` non tranché (exception : lien défensif/généalogique
+#       signalé). »
+#
+# Elle ne se tenait qu'à la main jusqu'à ce jour — l'annales doctrinal du
+# 2026-09-10 (commit 09b9ee5) le constate après une violation commise par la
+# machine elle-même. Ce contrôle est la garde mécanique correspondante.
+#
+# TROIS CHOIX DE PORTÉE, volontairement étroits, et qu'un verdict de Sidy peut
+# élargir (Cmd 12 — la machine ne décide pas seule d'une règle) :
+#
+# 1. « Page orthodoxe » = `status: traditionnel`, et rien d'autre. Le
+#    vocabulaire clos du Sceau fait de `contre-traditionnel` et de `profane`
+#    l'inverse d'une page orthodoxe ; `academique` est le cas limite, laissé
+#    hors périmètre faute de verdict.
+# 2. « Non tranché » = `status: speculatif` au cartouche de la fiche cible,
+#    ce que le Sceau définit lui-même comme « statut transitoire — doit évoluer
+#    vers un statut définitif à la clôture du discernement ». Le champ
+#    `**Statut** : en cours` du bloc 🔍 dit la même chose dans le corps, mais
+#    trois fiches `type: discernement` ne portent aucun bloc 🔍 : le cartouche
+#    est le seul signal présent partout.
+# 3. « Signalé » = le marqueur 🔍 sur la ligne du lien, seule marque que le
+#    protocole nomme (clause `label/` → `doctrinal/` : « marqué suggéré (🔍)
+#    tant qu'un discernement afférent n'est pas tranché »). Aucune formule
+#    littérale n'est exigée : le protocole n'en impose pas.
+#
+# NIVEAU D'ÉMISSION : avertissement, jamais erreur. Au jour de l'ajout, le
+# dépôt porte 71 renvois hérités qui tombent sous la règle (26 au cartouche,
+# 45 au corps), tous antérieurs à ce contrôle. Les porter en erreur
+# casserait rétroactivement un dépôt vert et forcerait 71 corrections que la
+# machine n'a pas qualité pour décider (Cmd 12). Même raison, même forme que
+# l'avertissement C4. Le passage en erreur relève d'un verdict de Sidy, une
+# fois l'assiette traitée.
+
+STATUTS_SCEAU = {"traditionnel", "academique", "profane",
+                 "contre-traditionnel", "speculatif"}
+# Portée du contrôle côté source — cf. choix 1 ci-dessus.
+STATUTS_ORTHODOXES = {"traditionnel"}
+MARQUEUR_SUGGERE = "\U0001F50D"          # 🔍
+DOSSIER_DISCERNEMENT = "doctrinal/discernement"
+
+
+def indexer_discernements(racine, ignores, mode, rap):
+    """Ensemble des fiches de discernement NON TRANCHÉES (`status: speculatif`).
+
+    Passe étroite : seul `doctrinal/discernement/` est lu, la nomenclature du
+    circuit y fixant ces fiches sans exception. `collecter_cibles` reste
+    inchangé — il n'ouvre aucun fichier, et deux contrôles en dépendent.
+
+    C7 y est émis au passage : une fiche de discernement dont le `status` sort
+    du vocabulaire clos du Sceau rend le contrôle C5/C6 indécidable sur elle.
+    Le vérificateur ne le devine pas et ne la tient pas pour tranchée en
+    silence — il le dit.
+    """
+    non_tranches = set()
+    dossier = os.path.join(racine, *DOSSIER_DISCERNEMENT.split("/"))
+    if not os.path.isdir(dossier):
+        return non_tranches
+    for base, dossiers, fichiers in os.walk(dossier):
+        dossiers[:] = [
+            d for d in dossiers
+            if (d not in DOSSIERS_EXCLUS
+                and (mode == "aucun"
+                     or not hors_perimetre(
+                         os.path.relpath(os.path.join(base, d), racine),
+                         ignores, mode)))
+        ]
+        for nom in sorted(fichiers):
+            if not nom.endswith(".md"):
+                continue
+            chemin_rel = os.path.relpath(os.path.join(base, nom), racine)
+            if mode != "aucun" and hors_perimetre(chemin_rel, ignores, mode):
+                continue
+            try:
+                fm, _, _ = separer_frontmatter(lire(os.path.join(base, nom)))
+            except Exception:                              # pragma: no cover
+                continue                    # X0 est déjà émis par la passe principale
+            statut = str((fm or {}).get("status", "")).strip()
+            if statut == "speculatif":
+                non_tranches.add(chemin_rel[:-3].replace(os.sep, "/"))
+            elif statut and statut not in STATUTS_SCEAU:
+                rap.avertir(chemin_rel, "C7",
+                            f"`status: {statut}` hors du vocabulaire clos du Sceau "
+                            f"— l'étanchéité inversée (C5/C6) ne peut pas dire si "
+                            f"cette fiche est tranchée ; elle n'est pas comptée "
+                            f"comme non tranchée")
+    return non_tranches
+
+
+def resoudre_cible(brut, par_chemin, par_slug):
+    """Chemin sans extension visé par `[[brut]]`, ou None s'il ne résout pas.
+
+    Même route que C1/C2 : chemin exact, sinon premier candidat par slug nu.
+    Aucun avertissement n'est émis ici — la résolution est déjà contrôlée."""
+    cible = brut.strip().replace("\\", "/")
+    if cible.endswith(".md"):
+        cible = cible[:-3]
+    if RE_LIEN_PLACEHOLDER.match(cible):
+        return None
+    if cible in par_chemin:
+        return cible
+    candidats = par_slug.get(os.path.basename(cible), [])
+    return candidats[0] if candidats else None
+
+
+def controler_etancheite_inversee(chemin_rel, fm, corps, n_fm,
+                                  par_chemin, par_slug, non_tranches, rap):
+    """C5/C6 — une page orthodoxe pointant vers un discernement non tranché.
+
+    C5 (cartouche) : aucune exception n'y atteint. Le cartouche est la
+        déclaration de rattachement de la fiche, il ne porte pas de signalement
+        — la clause d'exception vit dans une phrase, et une phrase vit dans le
+        corps. C'est la forme retenue par les correctifs du 2026-09-10.
+    C6 (corps) : permis, mais seulement signalé — 🔍 sur la ligne du lien.
+    """
+    if circuit_de(chemin_rel) != "doctrinal" or not fm:
+        return
+    if str(fm.get("status", "")).strip() not in STATUTS_ORTHODOXES:
+        return
+    if os.path.basename(chemin_rel) in FICHIERS_EXEMPTS_C3:
+        return                      # annales/index : mêmes liens de service qu'en C3
+
+    # C5 — champs de liens du cartouche.
+    for champ in CHAMPS_LIENS_CARTOUCHE:
+        valeurs = fm.get(champ)
+        if not isinstance(valeurs, list):
+            continue
+        for valeur in valeurs:
+            for brut in RE_WIKILINK.findall(str(valeur)):
+                if resoudre_cible(brut, par_chemin, par_slug) in non_tranches:
+                    rap.avertir(chemin_rel, "C5",
+                                f"étanchéité inversée : page `traditionnel` → "
+                                f"discernement non tranché au cartouche "
+                                f"(`{champ}:`) — [[{brut}]]. L'exception "
+                                f"« lien défensif/généalogique signalé » ne "
+                                f"porte qu'au corps")
+
+    # C6 — corps, ligne à ligne : `masquer_code` conserve le nombre de lignes,
+    # les indices restent donc alignés sur le fichier (n_fm lignes de cartouche).
+    for i, ligne in enumerate(masquer_code(corps).split("\n")):
+        if MARQUEUR_SUGGERE in ligne:
+            continue
+        for brut in RE_WIKILINK.findall(ligne):
+            if resoudre_cible(brut, par_chemin, par_slug) in non_tranches:
+                rap.avertir(chemin_rel, "C6",
+                            f"étanchéité inversée : page `traditionnel` → "
+                            f"discernement non tranché — [[{brut}]] — sans le "
+                            f"marqueur {MARQUEUR_SUGGERE} qui signale "
+                            f"l'exception (lien défensif/généalogique)",
+                            ligne=n_fm + i + 1)
+
+
+# --------------------------------------------------------------------------
 # Orchestration
 # --------------------------------------------------------------------------
 
@@ -798,6 +956,7 @@ def main():
     rap = Rapport()
     ignores, mode = (set(), "aucun") if args.tout else perimetre_ignore(racine)
     par_chemin, par_slug = collecter_cibles(racine, ignores, mode)
+    non_tranches = indexer_discernements(racine, ignores, mode, rap)
     controles = 0
 
     for base, dossiers, fichiers in os.walk(racine):
@@ -822,11 +981,13 @@ def main():
                 rap.erreur(chemin_rel, "X0", f"lecture impossible : {exc}")
                 continue
 
-            fm, corps, _ = separer_frontmatter(texte)
+            fm, corps, n_fm = separer_frontmatter(texte)
             controler_frontmatter(chemin_rel, fm, rap)
             controler_original(chemin_rel, fm, corps, rap)
             controler_liens(chemin_rel, corps, par_chemin, par_slug, rap)
             controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap)
+            controler_etancheite_inversee(chemin_rel, fm, corps, n_fm,
+                                          par_chemin, par_slug, non_tranches, rap)
             if nom in NOMS_ANNALES:
                 controler_annales(chemin_abs, chemin_rel, rap)
             controles += 1
