@@ -74,6 +74,103 @@ datées du jour de la passe et renvoyant au même détail) :
 ```
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-08] traite | studio | 41dc3e7e492c | rapport du 2026-09-08
+
+**Rapport** : `monitoring-archive/2026-09-08_41dc3e7e492c.txt`.
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 563 nœuds, 1920 arêtes (INF-16 intégré au graphe). 152 avertissements, 103 liens morts (−1). 2 fichiers `_inbox/` non commités. R&D : triptyque INF-16 complet (machine IA locale, visa plan attendu) ; OUT-08 OCR Futūḥāt post-essais (piste B validée, verdict critère 1 attendu). Signal : 76 fiches `sources:` null (augmenté de 75 à 76). Swap à 7,5 Mi / 2,0 Gi (saturation) — le RAM revient comme problème récurrent. Piste 5 de la synthèse (charte monitoring pour Publication) est aujourd'hui résolue (INF-15 clôturé cette session).
+**Détail** : [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm]], [[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]].
+**Commit** : — (registre, en cours)
+
+
+## [2026-09-10] traite | publication | ad3152b237bb | rapport du 2026-09-10
+
+**Rapport** : `monitoring-archive/2026-09-10_ad3152b237bb.txt` (INF-15 clôturé, premier rapport Publication archivé depuis le mandat).
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1504 fiches .md contrôlées, 0 erreur, 0 avertissement (première passe Publication sans delta disponible). Signal majeur : 75 fiches doctrinales avec mismatch `sources_count` vs longueur réelle `sources:` — surévaluation du compteur ou `sources:` vide quand `sources_count` > 0 (exemples : jivatma.md, adityas-mois-du-soleil.md, tomoe.md, golem.md + 71 autres). Fiches symboles `sources:` vide mais conformes : salawat.md, alam-al-mithal.md, fal-wa-tatayyur.md, ilm-al-nujum.md, taabir-al-ruya.md, tarbiyya-rabbaniyya.md, influx-spirituel-sommet-cranien.md, fiqh.md, maqamat-meknes.md, prakriti.md. Investigation 5 fiches `sources_count: 0` : awrad-ibn-arabi.md (PDF source raw/ identifié), jesus-and-enoch-in-ibn-arabi.md (PDF source raw/ identifié), shams-al-maarif.md (PDF source raw/ identifié) — les trois fiches sont des `type: source`, `sources_count: 0` structurellement correct. Recommandation : lifting `sources:` sur les fiches dont le corps cite des sources non reportées au cartouche.
+**Détail** : 75 fiches mismatch sources_count/sources signalées (validation mécanique requise) ; fiches awrad/jesus/shams déjà investiguées le 05/09.
+**Commit** : — (registre, en cours)
+
+## [2026-09-08] traite | publication | ad3152b237bb | rapport du 2026-09-08
+
+**Rapport** : `monitoring-archive/2026-09-08_ad3152b237bb.txt`.
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1411 fiches .md, 0 erreur, 0 avertissement. Signaux sémantiques : talisman-sihr.md et salawat.md avec `sources:` sans valeur YAML (syntaxe invalide, non détectée par le script) ; awrad-ibn-arabi.md, shams-al-maarif.md, jesus-and-enoch-in-ibn-arabi.md avec `sources: []` quand le corps cite des sources (cartouche vide mais corps référencé). Note : 155 fiches dans doctrinal/ portent `sources_count: 0` — écart de surface entre validation script et sémantique. Investigation 5 fiches : même trio akbarien (awrad, jesus, shams) + ibn-arabi-fard-afrad-gilis.md (10+ sources doctrinales candidates, aucune raw) + valsan-investiture-cheikh-al-akbar.md (PDF raw absent, 4 sources doctrinales candidates). Recommandation : conversion PDF raw/ → textes/ pour alimenter le cartouche.
+**Détail** : 155 fiches `sources_count: 0` en surface ; fiches talisman-sihr.md, salawat.md pour syntaxe frontmatter.
+**Commit** : — (registre, en cours)
+
+## [2026-09-05] traite | publication | ad3152b237bb | rapport du 2026-09-05
+
+**Rapport** : `monitoring-archive/2026-09-05_ad3152b237bb.txt`.
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1364 fiches, 0 erreur, 3 avertissements [C1] inchangés (liens non résolus : coran-essai-traduction-gloton, apercus-sur-l-initiation, principes-et-methodes-de-l-art-sacre — déjà signalés les dates antérieures). Signaux : asma-al-husna.md et ilm-al-huruf.md avec `sources_count: 0` alors que le corps cite explicitement `[[shams-al-maarif]]` et `[[jesus-and-enoch-in-ibn-arabi]]` — référencement non reporté au cartouche. Investigation 5 fiches : awrad-ibn-arabi.md (fiche-source, `sources_count: 0` structurellement correct, PDF raw/ présent), jesus-and-enoch-in-ibn-arabi.md (fiche-source, `sources_count: 0` structurellement correct, PDF raw/ présent), shams-al-maarif.md (fiche-source, `sources_count: 0` structurellement correct, PDF raw/ présent) — les trois premières fiches sont des `type: source`, pas des fiches doctrinales à alimenter.
+**Détail** : asma-al-husna.md, ilm-al-huruf.md pour mismatch cartouche/corps.
+**Commit** : — (registre, en cours)
+
+## [2026-09-04] traite | publication | ad3152b237bb | rapport du 2026-09-04
+
+**Rapport** : `monitoring-archive/2026-09-04_ad3152b237bb.txt`.
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1361 fiches, 0 erreur, 3 avertissements [C1] (mêmes liens non résolus que la veille). Signaux sémantiques : doctrinal/index.md contient des wikilinks depuis doctrinal/ vers label/ (line 401) et hermeneutique/ (line 384) — violations §VI (liens du sensible vers le neutre, pas l'inverse) ; ibn-sirin.md et imam-malik.md avec `sources:` sans valeur YAML. Investigation 5 fiches : charles-andre-gilis.md (10+ sources doctrinales candidates, aucune raw), ibn-qayyim.md (stub, aucune source raw ou doctrinale), ibn-sirin.md (stub, aucune source), imam-malik.md (stub, aucune source). Recommandation : valider les sources akbariennes (Gilis) depuis les fiches sources existantes ; Zad al-Ma'ad et Al-Tibb al-Nabawi restent absents du dépôt.
+**Détail** : doctrinal/index.md pour violations §VI ; charles-andre-gilis.md pour sources candidates.
+**Commit** : — (registre, en cours)
+
+## [2026-09-03] traite | publication | ad3152b237bb | rapport du 2026-09-03
+
+**Rapport** : `monitoring-archive/2026-09-03_ad3152b237bb.txt`.
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1352 fiches, 0 erreur, 0 avertissement (corpus stable). Signaux : récidive `sources:` nu (4 fiches : mawlid-al-rasul.md, ibn-sirin.md, imam-malik.md, madhhab-maliki.md) — même anomalie signalée le 2026-08-31 et corrigée en intégration le 2026-09-02, mais 4 fiches subsistent. Investigation 5 fiches : ibn-qayyim.md (stub, aucune source), mawlid-al-rasul.md (fiche-source, `sources_count: 0` structurellement correct, anomalie formelle uniquement), ibn-sirin.md (stub, aucune source raw/), imam-malik.md (stub, aucune source raw/), madhhab-maliki.md (stub, aucune source raw/).
+**Détail** : mawlid-al-rasul.md, ibn-sirin.md, imam-malik.md, madhhab-maliki.md pour récidive `sources:` nu.
+**Commit** : — (registre, en cours)
+
+## [2026-08-30] traite | publication | ad3152b237bb | rapport du 2026-08-30
+
+**Rapport** : `monitoring-archive/2026-08-30_ad3152b237bb.txt` (rétroactivement archivé, hors périmètre ouverture registre 2026-09-02 — traitement volontaire pour boucler l'historique).
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1344 fiches, 0 erreur, 8 avertissements [C1] (liens non résolus, mêmes marqueurs syntaxiques qu'aux dates précédentes). Signaux : `sources:` nu sur 3 fiches (mawlid-al-rasul.md, ibn-sirin.md, imam-malik.md). Investigation 5 fiches : awrad-ibn-arabi.md, jesus-and-enoch-in-ibn-arabi.md, shams-al-maarif.md (les trois mêmes fiches-type-source investiguées ensuite les 03, 04, 05, 06, 07, 08, 10/09 — pattern récurrent lié à `sources_count: 0` structurel). Recommandation : les sources primaires existent dans raw/ (PDF), conversion en textes/ recommandée.
+**Détail** : 8 avertissements [C1] (marqueurs syntaxiques annales/outillage).
+**Commit** : — (registre, en cours)
+
+## [2026-08-29] traite | publication | ad3152b237bb | rapport du 2026-08-29
+
+**Rapport** : `monitoring-archive/2026-08-29_ad3152b237bb.txt` (rétroactivement archivé, hors périmètre).
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1338 fiches, 0 erreur, 8 avertissements [C1]. Même pattern que le 30/08 : `sources:` nu sur les mêmes fiches, même recommandation de conversion PDF raw/. Investigation portait sur les mêmes 3 fiches sources akbariennes (awrad, jesus, shams) — la boucle d'investigation était déjà en place avant l'ouverture du registre.
+**Détail** : patterns conformes aux rapports suivants (mêmes fiches investiguées).
+**Commit** : — (registre, en cours)
+
+## [2026-08-28] traite | publication | ad3152b237bb | rapport du 2026-08-28
+
+**Rapport** : `monitoring-archive/2026-08-28_ad3152b237bb.txt` (rétroactivement archivé, hors périmètre).
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1336 fiches, 0 erreur, 8 avertissements [C1]. Investigation sur les 3 mêmes fiches sources akbariennes (awrad, jesus, shams). Premier rapport à documenter explicitement la présence de `shams-al-maarif-traduit-complet.pdf` dans raw/. Recommandation : même pattern que les dates suivantes.
+**Détail** : pattern récurrent awrad/jesus/shams, bien avant INF-15.
+**Commit** : — (registre, en cours)
+
+## [2026-08-27] traite | publication | ad3152b237bb | rapport du 2026-08-27
+
+**Rapport** : `monitoring-archive/2026-08-27_ad3152b237bb.txt` (rétroactivement archivé, hors périmètre).
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1332 fiches, 0 erreur, 8 avertissements [C1]. Même corpus que la veille, même pattern d'investigation. Premier rapport à mentionner explicitement la corrélation entre `sources:` nu et `sources_count: 0` comme anomalie systémique (et non ponctuelle).
+**Détail** : premiers signaux d'une anomalie systémique `sources:` nu.
+**Commit** : — (registre, en cours)
+
+## [2026-08-25] traite | publication | ad3152b237bb | rapport du 2026-08-25
+
+**Rapport** : `monitoring-archive/2026-08-25_ad3152b237bb.txt` (rétroactivement archivé, hors périmètre).
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1318 fiches, 0 erreur, 15 avertissements [C1] (liens non résolus, mêmes marqueurs syntaxiques). Signaux : 5 fiches avec `sources:` nu au lieu de `[]` (abdullah-daghestani.md, al-jazari.md, al-khwarizmi.md, al-nabulusi.md, hamza-yusuf.md) — les deux premières (al-jazari.md, al-khwarizmi.md) citent `[[islam-and-artificial-intelligence]]` ×4 dans le corps, fiche source et PDF raw existent. Investigation 5 fiches : les mêmes 3 fiches sources akbariennes + 2 autorités avec anomalies de `sources:` nu.
+**Détail** : 5 fiches `sources:` nu signalées, 2 avec source candidate identifiée (islam-and-artificial-intelligence).
+**Commit** : — (registre, en cours)
+
+## [2026-08-24] traite | publication | ad3152b237bb | rapport du 2026-08-24
+
+**Rapport** : `monitoring-archive/2026-08-24_ad3152b237bb.txt` (rétroactivement archivé, hors périmètre).
+**Traité par** : session Hermes Agent (cette session, verdict Sidy).
+**Résumé** : 1318 fiches, 0 erreur, 15 avertissements [C1]. Signaux : 5 fiches avec `sources:` nu (abdullah-daghestani.md, al-jazari.md, al-khwarizmi.md, al-nabulusi.md, hamza-yusuf.md) — même pattern que le 25/08. Investigation 5 fiches : abdullah-daghestani.md (source absente), al-jazari.md (source candidate : `[[islam-and-artificial-intelligence]]`), al-khwarizmi.md (source candidate : même fiche), al-nabulusi.md (source absente), hamza-yusuf.md (source absente). Première occurrence du signal : le marqueur `to-source` est incohérent avec `sources_count: 0`.
+**Détail** : al-jazari.md, al-khwarizmi.md pour sources candidates identifiées dans `islam-and-artificial-intelligence.md`.
+**Commit** : — (registre, en cours)
+
 
 ## [2026-09-08] traite | publication | ad3152b237bb | rapport du 2026-09-06
 
