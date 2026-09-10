@@ -18,6 +18,16 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Écart déclaré, non comblé** (Cmd 12) : aucune fiche `doctrinal/sources/` — geste distinct qui suppose la vérification de la bibliothèque physique et un plan propre (Cmd 6, §VII).
 - **Commit** : 556544e
 
+## [2026-09-10] archivage | A Popular Dictionary of Shinto (Bocking) — conversion textes/ + fiche source
+
+- **Opération** : ARCHIVAGE & MAILLAGE, dépôt `raw/A-Popular-Dictionary-of-Shinto - Brian Bocking.pdf` (220 pages, Curzon Press, éd. révisée 1997). Plan présenté et validé par Sidy avant écriture (Cmd 6).
+- **Conversion** : `textes/a-popular-dictionary-of-shinto-bocking/` — 23 fichiers via `pdftotext -layout` (couche texte native, pas d'OCR). Découpage par lettre fait sur la vedette détectée par script, jamais sur les en-têtes courants (« Introduction N » / « A popular dictionary of shinto N » — artefact d'imposition recto/verso constant, sans rapport avec le contenu réel, y compris en plein corps alphabétique). Absences d'entrées L, P, Q, V, X confirmées par progression alphabétique continue — non des lacunes d'extraction. `index-conversion.md` documente le piège et la table complète des pages.
+- **Créé** : [[doctrinal/sources/a-popular-dictionary-of-shinto-bocking]] (`status: academique` — allégeance épistémologique d'un universitaire occidental, position d'historien des religions ; précision du 2026-09-05). Écart relevé : romaji sans kanji, `to-original` sur toute forme japonaise tirée de cette source tant qu'un texte donnant le kanji n'est pas consulté.
+- **Maillage** : `index.md` mis à jour (section VI, une entrée).
+- **Usage prévu** : extraction des définitions vers `symboles/`/`traditions/shinto.md` au fil des besoins, jamais en passe de masse (consigne de Sidy).
+- **Vérification** : `verifier-invariants.py` — 0 erreur, 0 avertissement.
+- **Commit** : cc5ca0b (JOURNAL: annales doctrinal — archivage source Bocking (cc5ca0b))
+
 ## [2026-09-09] archivage | Verdict sur les 6 paires signalées par `S1` — deux fautes corrigées, trois maintenues
 
 - **Verdict de Sidy**, après lecture des six paires en contexte : corriger `rijāl` et `burckhardt`, maintenir `yuga`/espèces et `janus`/`janus-bifrons`, rapporter l'asymétrie des quatre Yuga sans y toucher.
