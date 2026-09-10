@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-09-08
+updated: 2026-09-10
 ---
 
 # Le Catalogue Universel
@@ -232,6 +232,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 
 ## VI. Les Sources (`sources/`)
 
+- [[doctrinal/sources/a-popular-dictionary-of-shinto-bocking|A Popular Dictionary of Shinto (Brian Bocking)]] — dictionnaire académique de référence, romaji sans kanji ; extraction des définitions au fil des besoins, jamais en masse
 - [[doctrinal/sources/al-madrasah-al-hanbaliyyah|Al-Madrasah Al-Hanbaliyyah (institut d'enseignement traditionnel ḥanbalite)]]
 - [[doctrinal/sources/awrad-ibn-arabi|Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)]]
 - [[doctrinal/sources/alshammari-llm-ontologie-hadith-2026|Large Language Models for Automated Islamic Ontology Construction]] — Alshammari, Atwell, Alsalka (2026) ; GPT-4 + corpus Hadith LK (39k aḥādīth) → ontologie OWL ; cas de rupture méthodologique (Table 2, kari-kumi)
