@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-09
+updated: 2026-09-10
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,59 @@ updated: 2026-09-09
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-10] outillage | Étanchéité inversée mécanisée — C5/C6/C7
+
+- **Ordre de Sidy** : « Ajoute le contrôle d'échantéïté inversé au vérificateur
+  mécanique », puis « commite le contrôle et journalise au R&D ».
+- **Origine** : l'entrée du 2026-09-10 aux annales doctrinal (09b9ee5) constate que
+  la règle du § « Règles de liens » de `doctrinal/CLAUDE.md` — « une page orthodoxe
+  ne pointe jamais vers un `discernement` non tranché (exception : lien
+  défensif/généalogique signalé) » — **ne se tenait qu'à la main**, et le constate
+  après une violation commise par la machine elle-même. C'est la garde manquante.
+- **Fait** — trois codes neufs dans `verifier-invariants.py` (+162 lignes) :
+  **C5** au cartouche (`sources`, `cross_links`, `links`, `liens_doctrinal`), où
+  l'exception ne porte pas : elle vit dans une phrase, et une phrase vit dans le
+  corps ; **C6** au corps, où le renvoi est permis mais seulement porteur du
+  marqueur 🔍 sur la ligne du lien ; **C7** quand le `status` d'une fiche de
+  discernement sort du vocabulaire clos du Sceau — le contrôle ne peut alors pas
+  dire si elle est tranchée, et il le dit au lieu de la supposer close.
+- **Passe d'index étroite** (`indexer_discernements`) sur `doctrinal/discernement/`
+  seul, la nomenclature du circuit y fixant ces fiches sans exception.
+  `collecter_cibles` reste **inchangé** — il n'ouvre aucun fichier et deux contrôles
+  en dépendent ; l'élargir aurait doublé les lectures de tout l'arbre.
+- **Vérification** — `verifier-invariants.py` : **0 erreur, 73 avertissements, 1505
+  fichiers contrôlés**, exit 0. Répartition : 26 C5, 45 C6, 1 C7
+  (`2026-08-11_trois-territoires-inacheve`, `status: adopte`), 1 C1 préexistant et
+  sans rapport (`atelier/rd/infrastructure/monitoring-archive/registre-traitement.md`).
+- **Épreuve du déclenchement, pas de vert seul** : copie du dépôt sous `/tmp/wt`,
+  `doctrinal/symboles/mihrab-torii.md` remis à sa forme pré-correctif (discernement
+  réinscrit au cartouche, 🔍 retiré du renvoi de corps) — **C5 et C6 tirent tous
+  deux**, avec numéro de ligne exact (65). Copie détruite, arbre de travail intact.
+  À l'inverse, les trois fiches shinto corrigées le matin même **passent** : leur
+  renvoi est de corps et marqué 🔍. Numéros de ligne recontrôlés par sondage sur
+  `rene-guenon.md:46-48` et `isaac-louria-arizal.md:31`.
+- **Trois choix de portée non tranchés par la machine** (Cmd 12), écrits en
+  commentaire dans le fichier même :
+  1. « Page orthodoxe » = `status: traditionnel` **seul** — le vocabulaire clos fait
+     de `contre-traditionnel` et de `profane` l'inverse d'une page orthodoxe ;
+     **`academique` est le cas limite, laissé hors périmètre** faute de verdict.
+  2. « Non tranché » = `status: speculatif` **au cartouche**, non le
+     `**Statut** : en cours` du bloc 🔍 : trois fiches `type: discernement` ne
+     portent aucun bloc 🔍, le cartouche est le seul signal présent partout.
+  3. **Avertissement et non erreur.** Les 71 renvois relevés sont **tous antérieurs
+     au contrôle** — aucun n'est de cette session. Les porter en erreur casserait
+     rétroactivement un dépôt vert et forcerait 71 corrections que la machine n'a
+     pas qualité pour décider. Même raison et même forme que l'avertissement C4.
+     Le passage en erreur relève d'un verdict, l'assiette une fois traitée.
+- **Point signalé, non corrigé** : parmi les 45 C6, trois viennent de fiches
+  `type: discernement` elles-mêmes `status: traditionnel` qui nomment d'autres
+  discernements ouverts dans leur bloc « Généalogie des idées ». Aucune exemption
+  n'a été créée pour ce cas — le protocole n'en prévoit pas.
+- **Angle mort assumé** : `controler_frontmatter` ne valide toujours pas le
+  vocabulaire clos de `status`. C7 le contourne pour les seules fiches de
+  discernement ; ailleurs, un statut hors vocabulaire passe encore en silence.
+- **Commit** : 0884ae6
 
 ## [2026-09-09] protocole | Phase 2 — décantation de `CLAUDE.md` en `protocoles/`
 
