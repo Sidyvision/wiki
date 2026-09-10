@@ -10,6 +10,29 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-10] verdict | Portée de C5/C6/C7 tranchée — pas de passage en erreur
+
+- **Verdict de Sidy** (Cmd 12), rendu le jour même sur les trois points que l'entrée
+  précédente lui soumettait : « Les trois choix de portée que tu m'as soumis sont la
+  lecture correcte. pour 3. pas de passage en erreur. »
+- **Ce qui est désormais établi**, et non plus en attente d'arbitrage : « page
+  orthodoxe » = `status: traditionnel` seul, `academique` restant hors périmètre —
+  non plus « faute de verdict » mais par lecture confirmée ; « non tranché » =
+  `status: speculatif` au cartouche ; « signalé » = le marqueur 🔍 sur la ligne.
+- **Le passage en erreur est écarté, non différé.** L'entrée précédente le renvoyait
+  à un verdict ultérieur, « l'assiette une fois traitée ». Il n'aura pas lieu :
+  C5, C6 et C7 avertissent, et rien de plus. Rendre ces codes bloquants irait
+  désormais contre un verdict rendu (Cmd 10). Les 71 renvois hérités restent donc
+  visibles sans jamais casser l'arbre.
+- **Une ambiguïté levée dans le fichier** : le « 3. » du verdict vise le **niveau
+  d'émission** — le troisième point de la question posée — alors que la liste
+  numérotée du commentaire compte « signalé » en 3. La distinction est écrite
+  explicitement, pour qu'un lecteur ultérieur ne lise pas le verdict comme portant
+  sur le marqueur 🔍.
+- **Portée technique** : commentaires seuls. Aucun changement de comportement —
+  **0 erreur, 73 avertissements, 1505 fichiers**, exit 0, identique avant et après.
+- **Commit** : 6cd1b14
+
 ## [2026-09-10] outillage | Étanchéité inversée mécanisée — C5/C6/C7
 
 - **Ordre de Sidy** : « Ajoute le contrôle d'échantéïté inversé au vérificateur
