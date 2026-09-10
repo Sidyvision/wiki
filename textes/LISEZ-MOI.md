@@ -4,7 +4,7 @@ type: infrastructure
 chantier: PRO-08
 tags: [textes, sources, conversions, obsidian, infrastructure]
 created: 2026-09-02
-updated: 2026-09-05
+updated: 2026-09-10
 sources: []
 links:
   - "[[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent]]"
@@ -192,6 +192,29 @@ Ce que le dépôt en tire est porté dans
 `doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili.md`, et la démarche
 du compilateur est instruite à part dans
 `doctrinal/autorites/muhammad-al-akili.md`.
+
+## Cinquième versement du 2026-09-10 — Motohisa Yamakage (transcription de photographies)
+
+*Shinto : sagesse et pratique*, Motohisa Yamakage — chapitre 2, « Qu'est-ce que
+le shinto ? », pages 44 à 59. Ouvrage physique photographié en librairie par
+Sidy (10 images, double-pages), transmis en deux lots au fil de la session, et
+transcrit par lecture directe.
+
+- `shinto-sagesse-et-pratique-yamakage/corps-du-texte.md` — 1 fichier, pages 44
+  à 59 continues, marqueurs `<!-- page N -->`
+
+Chaîne : **même voie que le versement Sabri Ben Rommane** — transcription
+directe de photographies, ni conversion de PDF ni passage par le sas ni par
+`raw/` (l'ouvrage physique n'a pas été numérisé). Les deux illustrations de la
+section (*kagami*, *hakuhei*) sont signalées à leur place, non redessinées ;
+un dossier `assets-shinto-sagesse-et-pratique/` pourrait les recevoir sous
+forme de schéma si le besoin s'en présente — non ouvert à ce jour, la
+matière ne l'appelant pas encore.
+
+**Non fait à ce stade** : aucune fiche `doctrinal/sources/` n'accompagne ce
+versement — geste distinct (discipline des sources, CLAUDE.md racine §VII),
+qui suppose la vérification de la bibliothèque physique et un plan propre
+(Cmd 6), non demandés dans cette session. Écart déclaré, non comblé (Cmd 12).
 
 ## Ce qui reste ouvert
 
