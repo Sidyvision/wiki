@@ -18,7 +18,6 @@ cross_links:
 - '[[doctrinal/traditions/shinto]]'
 - '[[doctrinal/autorites/ibn-arabi]]'
 - '[[doctrinal/autorites/rene-guenon]]'
-- '[[doctrinal/discernement/2026-09-10_honden-saint-des-saints-interiorite]]'
 original:
 - 'to-original'
 ---
@@ -62,7 +61,7 @@ Le seul terme shintō qui assume vraiment une visée à distance est le *yōhai-
 - [[doctrinal/traditions/shinto]] — cadre d'origine du Torii.
 - [[doctrinal/autorites/ibn-arabi]] — lecture intérieure du Miḥrāb.
 - [[doctrinal/autorites/rene-guenon]] — cadre de la Tradition Primordiale mobilisé pour la comparaison.
-- [[doctrinal/discernement/2026-09-10_honden-saint-des-saints-interiorite]] — fiche jumelle, portant sur l'**intériorité** (honden / Saint des Saints) et non sur le seuil. Les deux structures sont distinctes et ne doivent pas être fondues : un seuil est un lieu de passage, un sanctuaire intérieur est un terme.
+- 🔍 [[doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite]] — **lien généalogique signalé** (étanchéité inversée), fiche jumelle **non tranchée**, portant sur l'**intériorité** (honden / Tabernacle) et non sur le seuil. Les deux structures sont distinctes et ne doivent pas être fondues : un seuil est un lieu de passage, un sanctuaire intérieur est un terme.
 
 ## Sources
 

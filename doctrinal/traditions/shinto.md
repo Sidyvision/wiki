@@ -16,7 +16,6 @@ sources_count: 2
 cross_links:
 - '[[doctrinal/symboles/espace-sacre-shinto]]'
 - '[[doctrinal/symboles/mihrab-torii]]'
-- '[[doctrinal/discernement/2026-09-10_honden-saint-des-saints-interiorite]]'
 ---
 
 # Le Shintō (神道) — la voie des kami
@@ -106,7 +105,7 @@ Bocking confirme le geste — *kashiwade*, « frapper des mains devant un kami �
 
 - [[doctrinal/symboles/espace-sacre-shinto]] — développement spécifique des règles de sacralité/désacralisation.
 - [[doctrinal/symboles/mihrab-torii]] — le *torii* comme Seuil, rapproché du *miḥrāb*.
-- [[doctrinal/discernement/2026-09-10_honden-saint-des-saints-interiorite]] — examen du rapprochement entre la disposition du sanctuaire et le Temple abrahamique (non tranché).
+- 🔍 [[doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite]] — **lien généalogique signalé** (étanchéité inversée, `doctrinal/CLAUDE.md`) : examen **non tranché** du rapprochement entre la disposition du sanctuaire et le Tabernacle abrahamique. Renvoi de corps uniquement, non porté au cartouche.
 
 ## Sources
 

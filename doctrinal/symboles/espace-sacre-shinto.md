@@ -14,7 +14,6 @@ sources:
 sources_count: 2
 cross_links:
 - '[[doctrinal/traditions/shinto]]'
-- '[[doctrinal/discernement/2026-09-10_honden-saint-des-saints-interiorite]]'
 ---
 
 # Sacralité et désacralisation d'un espace shintoïste
@@ -40,7 +39,7 @@ Sur les zones interdites mentionnées ci-dessus : Bocking **n'atteste aucune rè
 ## Concepts liés
 
 - [[doctrinal/traditions/shinto]] — page parente.
-- [[doctrinal/discernement/2026-09-10_honden-saint-des-saints-interiorite]] — examen non tranché du rapprochement entre cette structure « bordure + centre » et le Tabernacle abrahamique.
+- 🔍 [[doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite]] — **lien généalogique signalé** (étanchéité inversée) : examen **non tranché** du rapprochement entre cette structure « bordure + centre » et le Tabernacle abrahamique. Renvoi de corps uniquement, non porté au cartouche.
 
 ## Sources
 
