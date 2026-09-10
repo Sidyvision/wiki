@@ -1,0 +1,169 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+I now have all the data needed. Here is the report:
+
+```
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-04
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+1361 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+AVERTISSEMENTS :
+  [C1] doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante.md —
+       lien non résolu au cartouche (`sources:`) : [[doctrinal/sources/coran-essai-traduction-gloton]]
+  [C1] doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md —
+       lien non résolu au cartouche (`sources:`) : [[apercus-sur-l-initiation]]
+  [C1] doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md —
+       lien non résolu au cartouche (`sources:`) : [[principes-et-methodes-de-l-art-sacre]]
+
+0 erreur(s), 3 avertissement(s).
+
+Signaux sémantiques (au-delà du script) :
+
+• Fichier : doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md, ligne 11
+  cross_links: ["[[meta/philosophie-sashimono]]"]
+  Anomalie : lien朝着 meta/ (Domaine Réservé) depuis doctrinal/ — autorisé par §VI
+  (sensible → neutre), mais documenter cette anomalie frontière.
+
+• Fichier : doctrinal/index.md, ligne 401
+  [[label/production/album-personnel|Album personnel — home studio et production]]
+  Anomalie : lien depuis doctrinal/ (neutre) VERS label/ (plus sensible) —
+  violation §VI (les liens autorisés vont du sensible vers le neutre, pas l'inverse).
+  Note : cet index documente les circuits du dépôt, mais le wikilink traverse §VI.
+
+• Fichier : doctrinal/index.md, ligne 384
+  [[hermeneutique/hunter-x-hunter/nen-systeme]]
+  Anomalie : lien depuis doctrinal/ (neutre) VERS hermeneutique/ (plus sensible) —
+  même violation §VI que ci-dessus.
+
+• Fiches autorites/ibn-sirin.md (ligne 11) et autorites/imam-malik.md (ligne 14) :
+  champ `sources:` sans valeur YAML (ni [] ni liste) — frontmage structurellement
+  incomplet. Doit être `sources: []` pour conformité au Sceau Recteur.
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────────
+
+FICHES INVESTIGUÉES (limit 5) — sources_count: 0 les plus anciennes d'abord
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. doctrinal/autorites/charles-andre-gilis.md
+   Titre : Charles-André Gilis (Abd ar-Razzâq Yahyâ)
+   Mots-clés : turban noir, guenon, valsan, ibn-arabi, études traditionnelles
+
+   Correspondances raw/ : aucune
+
+   Correspondances atelier/rd/bibliotheque/ : aucune
+     (bibliothèque physique ne répertorie pas cette source)
+
+   Correspondances doctrinal/ :
+   - doctrinal/sources/gilis-ordo-ab-chao.md — source directe sur Gilis
+   - doctrinal/sources/ibn-arabi-fard-afrad-gilis.md — Gilis commentateur d'Ibn Arabi
+   - doctrinal/sources/sept-etendards-califat.md — Gilis cité dans contexte califat
+   - doctrinal/sources/valsan-investiture-cheikh-al-akbar.md — filiation maître-disciple
+   - doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription.md — Turban Noir comme éditeur
+   - doctrinal/sources/razi-noms-divins-ch18-khafid-rafi.md — Turban Noir comme éditeur
+   - doctrinal/sources/meftah-chatons-sagesses-transcription.md — Turban Noir comme éditeur
+   - doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq.md — Turban Noir comme éditeur
+   - doctrinal/sources/mahdi-rouge-islam-signe-balance-I.md — Turban Noir cité
+   - doctrinal/sources/mahdi-rouge-islam-signe-balance-II.md — Turban Noir cité
+   - doctrinal/sources/histoire-wahhabis-corancez-redissi.md — Turban Noir cité
+   - doctrinal/autorites/michel-valsan.md — filiation croisée
+
+   Recommandation : 10+ sources candidates identifiées — fiche très bien référencée
+   dans les sources, mais aucune source primaire (PDF/raw) ni dans la bibliothèque.
+   Le `sources: []` pourrait être alimenté par gilis-ordo-ab-chao.md ou
+   valsan-investiture-cheikh-al-akbar.md.
+
+2. doctrinal/autorites/ibn-qayyim.md
+   Titre : Ibn Qayyim al-Jawziyya
+   Mots-clés : Zad al-Ma'ad, Tibb-e-Nabawi, hanbalite, Ibn Taymiyya
+
+   Correspondances raw/ : aucune
+   Correspondances atelier/rd/bibliotheque/ : aucune
+   Correspondances doctrinal/ : aucune (hors fiche elle-même)
+
+   Recommandation : fiche stub très dépouillée. Zad al-Ma'ad et Al-Tibb al-Nabawi
+   sont des ouvrages majeurs — aucun PDF ni fiche source ne les documente dans le
+   dépôt. Source absente à compléter.
+
+3. doctrinal/autorites/ibn-sirin.md
+   Titre : Muḥammad ibn Sīrīn
+   Mots-clés : oniromancie, ta'bir al-ru'ya, onirologue omeyyade
+
+   Correspondances raw/ : aucune
+   Correspondances atelier/rd/bibliotheque/ : aucune
+   Correspondances doctrinal/ :
+   - doctrinal/autorites/al-nabulusi.md — auteur postérieur souvent cité en complément
+
+   Recommandation : fiche stub. Ibn Sirin est la figure de référence de l'oniromancie
+   islamique ; aucune source primaire ni dans la bibliothèque physique. Le corpus
+   archivé (export ChatGPT, noté dans la fiche) n'est pas sourcé.
+
+4. doctrinal/autorites/imam-malik.md
+   Titre : L'Imam Mālik b. Anas
+   Mots-clés : Muwaṭṭa', Médine, fiqh mālikite, hadith
+
+   Correspondances raw/ : aucune
+   Correspondances atelier/rd/bibliotheque/ : aucune
+   Correspondances doctrinal/ :
+   - doctrinal/traditions/madhhab-maliki.md — école juridique éponyme (lien attendu)
+
+   Recommandation : fiche stub contenant 3 to-source non levés (dates, faits
+   biographiques, méthodes). Le Muwaṭṭa' n'est pas dans la bibliothèque physique
+   ni dans raw/. Ajouter : `sources: []` (champ actuellement vide en YAML).
+
+5. doctrinal/autorites/michel-valsan.md
+   Titre : Michel Vâlsan (Cheikh Mustafâ Abd al-Azîz)
+   Mots-clés : triangle androgyne, califat, études traditionnelles, ibn-arabi
+
+   Correspondances raw/ : aucune
+   Correspondances atelier/rd/bibliotheque/ : aucune
+
+   Correspondances doctrinal/ :
+   - doctrinal/sources/sept-etendards-califat.md — source directe (avant-propos mentionne Valsan)
+   - doctrinal/sources/valsan-investiture-cheikh-al-akbar.md — source majeure (titrée Valsan)
+   - doctrinal/autorites/charles-andre-gilis.md — filiation croisée
+
+   Recommandation : 3 sources candidates identifiées. valsan-investiture-cheikh-al-akbar.md
+   est la source primaire la plus pertinente pour alimenter `sources: []`.
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 16
+  - raw/ : 0
+  - atelier/rd/bibliotheque/ : 0
+  - doctrinal/ : 16
+Sources absentes du dépôt : 0
+  (toutes les sources candidates existent dans doctrinal/)
+
+=== SIGNALLEMENTS ===
+1. C1 (avertissement script) : 3 wikilinks non résolus dans sources: de
+   fiches discernement — confirmés par verifier-invariants.py.
+2. §VI violation : doctrinal/index.md contient des wikilinks vers
+   label/, hermeneutique/, et atelier/ — links depuis circuit neutre
+   vers circuits plus sensibles, interdits par §VI.
+3. Frontmage incomplet : ibn-sirin.md et imam-malik.md ont un champ
+   `sources:` sans valeur YAML valide (devrait être `sources: []`).
+4. Aucun raw/ ni aucune entrée bibliothèque physique ne correspond
+   aux 5 autorités investiguées — écart documentaire confirmé.
+
+=== CONCLUSION ===
+Référencement structurel : script vert (0 erreurs), 3 avertissements wikilinks
+et 2 anomalies sémantiques §VI documentées. Investigation documentaire : les
+5 autorités investiguées sont des stubs `sources_count: 0` sans source primaire
+ni dans la bibliothèque physique ; 16 fiches doctrinales existantes peuvent
+alimenter 3 d'entre elles (Gilis, Valsan). Prochaine priorité : vérifier
+les 4 fiches autorites restantes (al-nabulusi, ibn-arabi, rene-guenon,
+autres) avant de passer aux symboles.
+
+Signé : Publication (veille référencement & investigation)
+```
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

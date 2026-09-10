@@ -1,0 +1,224 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+J'ai assez de matière. Signalement notable pour le §1 : plusieurs fiches présentent encore `sources:` nu (sans `[]`) — même anomalie que celle corrigée le 2026-09-02 sur suggestion antérieure de Publication.
+
+---
+
+```
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-03
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+Sortie brute `python3 verifier-invariants.py --racine /root/wiki` :
+
+    1352 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore`
+    exclut n'est pas contrôlé).
+
+    0 erreur(s), 0 avertissement(s).
+
+Diff vs run précédent : identique (0/0). Corpus contrôlé stable.
+
+Signaux sémantiques (non capturés par le script) :
+
+Récidive du motif « `sources:` nu au lieu de `[]` » — même famille que
+l'anomalie signalée par Publication le 2026-08-31 (§1) et corrigée en
+INTÉGRATION le 2026-09-02 (annales.md, l. 313). Quatre fiches subsistent :
+
+  • `doctrinal/sources/mawlid-al-rasul.md`      — l. 15 : `sources:` (nu),
+    puis `sources_count: 0` l. 16
+  • `doctrinal/autorites/ibn-sirin.md`          — l. 11 : `sources:` (nu),
+    puis `sources_count: 0` l. 12
+  • `doctrinal/autorites/imam-malik.md`         — l. 14 : `sources:` (nu),
+    puis `sources_count: 0` l. 15
+  • `doctrinal/traditions/madhhab-maliki.md`    — l. ~ : `sources:` (nu),
+    puis `sources_count: 0`
+
+Discipline du Sceau Recteur : `sources: []` obligatoire quand la liste
+est vide. Aucune correction, signalement seul (Cmd 12).
+
+Aucune autre anomalie sémantique repérée pendant la passe (pas de fait
+personnel infiltré, pas de wikilink violant §VI dans le sens interdit
+parmi les fiches lues).
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (limit 5, priorité chronologique)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. doctrinal/autorites/ibn-qayyim.md         (created 2026-06-05)
+   Titre : Ibn Qayyim al-Jawziyya
+   Mots-clés : Ibn Qayyim al-Jawziyya, Ibn Taymiyya, Zad al-Maʿad,
+               Tibb al-Nabawi, hanbalisme, médecine islamique
+
+   Correspondances raw/ : aucune
+   Correspondances atelier/rd/bibliotheque/ : aucune
+     (grep `qayyim|tibb|taymiyya|zad al` sur `catalogue-bibliotheque.md`,
+     `bibliographie-ihwan-al-safa.md`, `bibliographie-porte-du-ciel.md`,
+     `index-noms-ihwan-al-safa.md` — vide)
+   Correspondances doctrinal/ : aucune fiche source ; seule occurrence =
+     la fiche elle-même (auto-référence)
+
+   Recommandation : SOURCE ABSENTE DU DÉPÔT. Fiche stub depuis 3 mois.
+   Priorité d'acquisition : *Zad al-Maʿad* et *Al-Tibb al-Nabawi*
+   (également absents de la bibliothèque physique cataloguée).
+
+2. doctrinal/sources/mawlid-al-rasul.md      (created 2026-06-05)
+   Titre : Mawlid al-Rasūl al-Aʿẓam
+   Mots-clés : mawlid, ʿAbd al-Qādir al-Jīlānī, Ghawth al-Aʿẓam,
+               Al-Madrasah Al-Ḥanbaliyyah, ḥanbalisme, ṣalawāt
+
+   Correspondances raw/ : aucune (ni fichier PDF nommé ainsi, ni entrée
+     dans le catalogue physique)
+   Correspondances atelier/rd/bibliotheque/ : aucune
+   Correspondances doctrinal/ :
+     - doctrinal/autorites/abd-al-qadir-al-jilani.md — auteur du texte
+       (déjà en cross_links)
+     - doctrinal/sources/al-madrasah-al-hanbaliyyah.md — éditeur du texte
+       (candidat naturel à `sources:` si la convention retient l'édition
+       comme fiche source amont ; à trancher par Sidy)
+
+   Recommandation : la fiche EST elle-même une fiche `type: source`
+   (le texte primaire). `sources_count: 0` est cohérent avec ce statut.
+   L'anomalie n'est donc pas documentaire mais formelle (§1 : `sources:`
+   nu à corriger en `sources: []`). Aucune source amont manquante.
+
+3. doctrinal/autorites/ibn-sirin.md          (created 2026-06-20)
+   Titre : Muḥammad ibn Sīrīn
+   Mots-clés : Ibn Sīrīn, oniromancie islamique, taʿbīr al-ruʾyā
+
+   Correspondances raw/ : aucune
+   Correspondances atelier/rd/bibliotheque/ : aucune
+   Correspondances doctrinal/ :
+     - doctrinal/autorites/al-nabulusi.md — auteur postérieur cité en
+       Relations dans la fiche elle-même (contraste/complément)
+     - doctrinal/symboles/taabir-al-ruya (déjà en cross_links) — la fiche
+       elle-même y renvoie pour signaler que des citations attribuées à
+       Ibn Sīrīn dans l'export ChatGPT ne sont PAS vérifiées
+
+   Recommandation : SOURCE ABSENTE DU DÉPÔT. Le corpus attribué à
+   Ibn Sīrīn (*Muntakhab al-kalām fī tafsīr al-aḥlām* et compléments
+   postérieurs) est à acquérir. Fiche stub explicitement flaguée
+   « citations non vérifiées » — priorité si le pôle oniromancie
+   redevient actif.
+
+4. doctrinal/autorites/imam-malik.md         (created 2026-07-06)
+   Titre : L'Imam Mālik b. Anas
+   Mots-clés : Imam Mālik, Muwaṭṭaʾ, madhhab mālikite, Médine,
+               ʿamal ahl al-Madīna, ḥadīth, fiqh
+
+   Correspondances raw/ : aucune
+   Correspondances atelier/rd/bibliotheque/ : aucune (le catalogue
+     confirme, cf. fiche `madhhab-maliki.md` : « Aucun de ces textes
+     n'est encore en bibliothèque physique — acquisition prioritaire »)
+   Correspondances doctrinal/ :
+     - doctrinal/traditions/madhhab-maliki.md — école dont il est
+       l'éponyme (déjà en cross_links, elle-même `sources_count: 0`,
+       même chantier documentaire)
+     - doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-
+       transcription.md — occurrence secondaire (à confirmer)
+
+   Recommandation : SOURCE ABSENTE DU DÉPÔT. Deux fiches liées bloquées
+   sur le même chantier d'acquisition (`imam-malik` + `madhhab-maliki`).
+   Priorité déjà déclarée par le protocole pôle Fiqh (`al-Muwaṭṭaʾ`,
+   `al-Risāla` d'Ibn Abī Zayd al-Qayrawānī, `Mukhtaṣar Khalīl`).
+
+5. doctrinal/autorites/charles-andre-gilis.md  (created 2026-07-09)
+   Titre : Charles-André Gilis (Abd ar-Razzâq Yahyâ)
+   Mots-clés : Gilis, Éditions Le Turban Noir, Michel Vâlsan,
+               Ibn ʿArabī, califat, traduction, Études Traditionnelles
+
+   Correspondances raw/ : aucune
+   Correspondances atelier/rd/bibliotheque/ :
+     - catalogue-bibliotheque.md l. 66  — *René Guénon 1907-1961* (Gilis)
+     - catalogue-bibliotheque.md l. 88  — *Fusûs al-Hikam*, trad. Gilis
+     - catalogue-bibliotheque.md l. 89  — *Kitâb al-Mawâqif* (Émir Abd
+       el-Kader), trad. Chodkiewicz & Gilis
+     - catalogue-bibliotheque.md l. 90  — *Kitâb al-Isfrâ*, trad. Gilis
+     - catalogue-bibliotheque.md l. 92  — *Le Mahdi et ses Conseillers*,
+       trad. Gilis
+     - catalogue-bibliotheque.md l. 115 — *L'Arbre de Lumière*,
+       *Métaphysique de la Zakât* (coll. Le Turban Noir),
+       *Les Sept Étendards du Califat* (1993),
+       *La profanation d'un texte sacré*
+     - catalogue-bibliotheque.md l. 116 — *Ordo ab Chao*
+     - catalogue-bibliotheque.md l. 117 — *Études complémentaires sur
+       le Califat* (Paris, 1994)
+   Correspondances doctrinal/ (déjà présentes comme fiches source
+   citant Gilis comme traducteur/auteur) :
+     - doctrinal/sources/sept-etendards-califat.md
+     - doctrinal/sources/gilis-ordo-ab-chao.md
+     - doctrinal/sources/ibn-arabi-fard-afrad-gilis.md
+     - doctrinal/sources/meftah-chatons-sagesses-transcription.md
+     - doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq.md
+     - doctrinal/sources/valsan-investiture-cheikh-al-akbar.md
+     - doctrinal/sources/mahdi-rouge-islam-signe-balance-I.md
+     - doctrinal/sources/mahdi-rouge-islam-signe-balance-II.md
+     - doctrinal/sources/histoire-wahhabis-corancez-redissi.md
+     - doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-
+       transcription.md
+
+   Recommandation : SOURCES CANDIDATES ABONDANTES. Trois fiches sources
+   du dépôt ont Gilis comme auteur direct (traducteur+éditeur) et
+   peuvent être portées à `sources:` immédiatement, sous réserve
+   verdict Sidy :
+     - sept-etendards-califat.md          (traduction Gilis 1993)
+     - gilis-ordo-ab-chao.md              (ouvrage propre, déjà nommé)
+     - ibn-arabi-fard-afrad-gilis.md      (traduction/étude Gilis)
+   Anomalie du `sources_count: 0` prononcée : l'autorité est parmi
+   les mieux couvertes du dépôt côté fiches sources ; le compteur ne
+   reflète pas l'état documentaire réel.
+
+=== STATISTIQUES ===
+Fiches investiguées                    : 5
+Sources candidates identifiées         : 3 fiches doctrinales portables
+                                          immédiatement (toutes sur
+                                          charles-andre-gilis.md)
+  - raw/                               : 0
+  - atelier/rd/bibliotheque/           : 9 entrées catalogue (Gilis)
+  - doctrinal/                         : 3 fiches directement candidates
+                                          (Gilis) + correspondances
+                                          secondaires sur mawlid / malik /
+                                          sirin
+Sources absentes du dépôt              : 3 fiches (ibn-qayyim, ibn-sirin,
+                                          imam-malik) — corpus primaire
+                                          à acquérir
+
+=== SIGNALEMENTS ===
+
+Formel (§1) — 4 fiches à `sources:` nu (à passer en `[]`) :
+  - doctrinal/sources/mawlid-al-rasul.md
+  - doctrinal/autorites/ibn-sirin.md
+  - doctrinal/autorites/imam-malik.md
+  - doctrinal/traditions/madhhab-maliki.md
+
+Documentaire (§2) — 1 fiche prête à recevoir des `sources:` :
+  - doctrinal/autorites/charles-andre-gilis.md
+    → candidates : [[sept-etendards-califat]], [[gilis-ordo-ab-chao]],
+      [[ibn-arabi-fard-afrad-gilis]] (au minimum ; jusqu'à 10 possibles).
+
+Documentaire (§2) — 3 fiches en attente d'acquisition primaire :
+  - doctrinal/autorites/ibn-qayyim.md      (Zad al-Maʿad, Tibb al-Nabawi)
+  - doctrinal/autorites/ibn-sirin.md       (Muntakhab al-kalām)
+  - doctrinal/autorites/imam-malik.md      (Muwaṭṭaʾ, Risāla, Khalīl —
+                                            acquisition déjà déclarée
+                                            prioritaire par madhhab-maliki)
+
+=== CONCLUSION ===
+Passe frontmatter mécanique verte, mais quatre récidives du motif
+`sources:` nu à traiter groupément (même geste que la correction
+2026-09-02). Priorité d'investigation suivante : les 5 fiches
+`sources_count: 0` datées 2026-07-* à 2026-08-* (`imam-malik` déjà
+faite ; restent notamment `charles-andre-gilis`, `michel-valsan`
+2026-08-30, et les fiches sources anciennes du bloc `guenon-*`).
+
+Signé : Publication (veille référencement & investigation)
+```
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

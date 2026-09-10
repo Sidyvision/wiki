@@ -3,7 +3,7 @@ title: "Charte — Archive du monitoring infrastructure quotidien"
 type: infrastructure
 tags: [rd, infrastructure, monitoring, hermes, archive]
 created: 2026-08-18
-updated: 2026-09-09
+updated: 2026-09-10
 sources: []
 links: ["[[atelier/rd/outillage/spec-archiver-monitoring-quotidien]]", "[[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17]]", "[[atelier/rd/cahiers/registre-problemes]]"]
 infra_verif:
@@ -11,6 +11,8 @@ infra_verif:
     cron_job: archiver-monitoring-quotidien
   - profil: studio
     cron_job: coherence-infrastructure-brute
+  - profil: publication
+    cron_job: archiver-veille-publication
 ---
 
 # Charte — `atelier/rd/infrastructure/monitoring-archive/`
@@ -40,9 +42,9 @@ Ouvert le 2026-09-02 (verdict Sidy) : `registre-traitement.md` consigne, pour
 chaque rapport traité (archivé ou collé en session), qui l'a regardé et ce qui
 en a été fait — pour qu'une session n'ignore pas qu'une autre est déjà passée.
 Vérification mécanique : `atelier/rd/outillage/verifier-rapports-traites.py`
-(déterministe, sans LLM). Limite assumée : ne couvre que les rapports Studio
-archivés ici ; les rapports Publication n'ont aucune trace mécanique tant
-qu'`INF-15` (`registre-chantiers.md`) n'étend pas cette archive à leur profil.
+(déterministe, sans LLM). Couvre les rapports Studio **et** Publication
+depuis le 2026-09-10 (clôture INF-15 : même script d'archivage paramétré
+pour les deux profils, enveloppe dédiée `archiver-veille-publication-cron.sh`).
 
 ## Alimentation
 
@@ -67,6 +69,17 @@ arguments en dur. Vérifié par lecture directe de la sortie persistée du job
 racine) : « 2 sortie(s) source, 2 déjà archivée(s), 0 à copier » — état
 attendu, cohérent avec l'archivage manuel déjà fait le 2026-08-18.
 `infra_verif` ci-dessus trace la présence du job de façon mécanique.
+
+**Ingestion Publication — cron dédié, mis en place le 2026-09-10** (verdict
+Sidy, clôture INF-15). Job Hermes créé, profil `publication` :
+`archiver-veille-publication` (id `d3176b389ed8`, `no_agent`, cron
+`10 11 * * *` — 10 minutes après `veille-referencement-investigation-08`,
+pour que la sortie `.txt` du jour soit déjà persistée sur disque au moment
+de la copie). Même script déterministe (`archiver-monitoring-quotidien.py`),
+enveloppe dédiée `archiver-veille-publication-cron.sh` avec `--source`
+pointant vers le dossier de sortie du profil `publication` et `--job-id`
+fixé à `ad3152b237bb`. Rétention identique (40 jours). Les 13 sorties
+historiques existantes ont été rétroactivement archivées le jour même.
 
 ## Rétention
 

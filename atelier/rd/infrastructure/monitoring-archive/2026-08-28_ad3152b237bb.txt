@@ -1,0 +1,139 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-08-28
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+0 erreur(s), 17 avertissement(s).
+
+[C1] atelier/annales.md — lien non résolu : [[^]]
+[C1] atelier/annales.md — lien non résolu : [[^]]
+[C1] atelier/rd/rapport-rd-memoire-persistante.md — lien non résolu : [[{brut}]]
+[C1] atelier/rd/synthese-ressources-deployees.md — lien non résolu : [[{brut}]]
+[C1] atelier/rd/citadelle-du-sham/note.md — lien non résolu : [[wikilinks]]
+[C1] atelier/rd/outillage/2026-08-10_methode-croisement-discernement.md — lien non résolu : [[^]]
+[C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — lien non résolu : [[x]]
+[C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — lien non résolu : [[x/y]]
+[C1] atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md — lien non résolu : [[^]]
+[C1] atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md — lien non résolu : [[x/y]]
+[C1] atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md — lien non résolu : [[meta/...]]
+[C1] atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md — lien non résolu : [[doctrinal/discernement]]
+[C4] doctrinal/annales.md — lien `doctrinal` (neutre, fichier de service) → `meta/` — sens interdit par §VI, hors périmètre bloquant de l'exemption C3 — [[meta/projet-unifie/proposition-pole-usul-2026-08-27]]
+[C1] doctrinal/annales.md — lien non résolu : [[^]]
+[C1] doctrinal/annales.md — lien non résolu : [[^]]
+[C1] doctrinal/annales.md — lien non résolu : [[^]]
+[C1] doctrinal/autorites/rene-guenon.md — lien non résolu : [[doctrinal/discernement]]
+
+Signaux sémantiques (si aucun) :
+• Fichier : `doctrinal/annales.md`
+• Ligne(s) : Diverses
+• Anomalie : Liens internes brisés (wikilinks mal formés).
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (limit 5)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. doctrinal/autorites/ibn-qayyim.md
+   Titre : Ibn Qayyim al-Jawziyya
+   Mots-clés : hanbalite, médecine, tibb, médecine prophétique
+   
+   Correspondances raw/ :
+   - Aucune
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - Aucune
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi.md (référence potentielle dans le corpus akbarien)
+   
+   Recommandation : source absente, fiche stub à enrichir.
+
+2. doctrinal/autorites/ibn-sina.md
+   Titre : Ibn Sīnā (Avicenne)
+   Mots-clés : péripatétisme, âme rationnelle, homme flottant
+   
+   Correspondances raw/ :
+   - Aucune
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - Aucune
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7.md (comparatisme avec Vedanta)
+   - doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes.md
+   
+   Recommandation : source candidate identifiée (textes de René Guénon pour les aspects doctrinaux de l'âme).
+
+3. doctrinal/autorites/ibn-sirin.md
+   Titre : Muḥammad ibn Sīrīn
+   Mots-clés : oniromancie, taʿbīr al-ruʾyā, rêves
+   
+   Correspondances raw/ :
+   - Aucune
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - Aucune
+   
+   Correspondances doctrinal/ :
+   - doctrinal/symboles/taabir-al-ruya.md
+   - doctrinal/symboles/animaux-en-reve-comparatisme.md
+   - doctrinal/symboles/chat-en-reve.md
+   
+   Recommandation : source absente, fiche stub à enrichir.
+
+4. doctrinal/autorites/imam-malik.md
+   Titre : L'Imam Mālik b. Anas
+   Mots-clés : fiqh, maliki, médine, hadith, Muwaṭṭaʾ
+   
+   Correspondances raw/ :
+   - Aucune
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - Aucune
+   
+   Correspondances doctrinal/ :
+   - doctrinal/traditions/madhhab-maliki.md
+   
+   Recommandation : source absente, nécessite recherche textuelle sur le Muwaṭṭaʾ.
+
+5. doctrinal/deviations/body-types.md
+   Titre : Islamic Medicine's Guide to the Body Types
+   Mots-clés : médecine, tibb, humeurs, déviation
+   
+   Correspondances raw/ :
+   - raw/assets/Body_Types_Book.pdf
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - Aucune
+   
+   Correspondances doctrinal/ :
+   - doctrinal/symboles/tibb-e-nabawi.md
+   - doctrinal/symboles/tibb-yunani.md
+   
+   Recommandation : source candidate identifiée (raw/assets/Body_Types_Book.pdf).
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 2
+  - raw/ : 1
+  - atelier/rd/bibliotheque/ : 0
+  - doctrinal/ : 1
+Sources absentes du dépôt : 3
+
+=== SIGNALLEMENTS ===
+- Correspondance trouvée pour `doctrinal/deviations/body-types.md` : `raw/assets/Body_Types_Book.pdf`
+
+=== CONCLUSION ===
+État du référencement initial : les fiches autorités nécessitent des sources primaires (Muwaṭṭaʾ, textes d'Ibn Qayyim/Ibn Sīnā). Prochaine priorité : enrichir les fiches stub avec les références identifiées.
+
+Signé : Publication (veille référencement & investigation)
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

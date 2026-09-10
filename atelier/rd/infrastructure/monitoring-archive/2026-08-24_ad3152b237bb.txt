@@ -1,0 +1,153 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+```
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-08-24
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+$ python3 verifier-invariants.py --racine /root/wiki
+0 erreur(s), 15 avertissement(s).
+
+AVERTISSEMENTS (C1 — liens non résolus) :
+  [C1] atelier/annales.md — [[^]] (×2)
+  [C1] atelier/rd/rapport-rd-memoire-persistante.md — [[{brut}]]
+  [C1] atelier/rd/synthese-ressources-deployees.md — [[{brut}]]
+  [C1] atelier/rd/citadelle-du-sham/note.md — [[wikilinks]]
+  [C1] atelier/rd/outillage/2026-08-10_methode-croisement-discernement.md — [[^]]
+  [C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — [[x]], [[x/y]]
+  [C1] atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md — [[^]], [[x/y]], [[meta/...]], [[doctrinal/discernement]]
+  [C1] doctrinal/annales.md — [[^]] (×2)
+  [C1] doctrinal/autorites/rene-guenon.md — [[doctrinal/discernement]]
+
+Signaux sémantiques (anomalies non capturées par le script) :
+• Fichier : `doctrinal/autorites/abdullah-daghestani.md`
+  Ligne(s) : 14-16
+  Anomalie : `sources: - to-source` avec `sources_count: 0` — incohérence de déclaration. Le marqueur `to-source` est présent mais le compteur est à zéro (devrait être 1 si `to-source` compte comme placeholder, ou 0 sans le marqueur).
+
+• Fichier : `doctrinal/autorites/al-jazari.md`
+  Ligne(s) : 14-16
+  Anomalie : Idem — `sources: - to-source` / `sources_count: 0`. Or le corps cite explicitement `[[islam-and-artificial-intelligence]]` ×4 comme source. La fiche source existe (`doctrinal/sources/islam-and-artificial-intelligence.md`), le PDF est dans `raw/`. Le champ `sources:` devrait pointer vers `"[[islam-and-artificial-intelligence]]"` avec `sources_count: 1`.
+
+• Fichier : `doctrinal/autorites/al-khwarizmi.md`
+  Ligne(s) : 13-15
+  Anomalie : Idem — `sources: - to-source` / `sources_count: 0`. Corps cite `[[islam-and-artificial-intelligence]]` ×4. Source fiche et PDF raw existent.
+
+• Fichier : `doctrinal/autorites/al-nabulusi.md`
+  Ligne(s) : 12-14
+  Anomalie : `sources: - to-source` / `sources_count: 0`. Fiche stub, aucune source primaire identifiable dans le dépôt pour le moment. Marqueur justifié mais compteur incohérent.
+
+• Fichier : `doctrinal/autorites/hamza-yusuf.md`
+  Ligne(s) : 13-15
+  Anomalie : Idem — `sources: - to-source` / `sources_count: 0`. Corps mentionne « source : to-source » en ligne 27.
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (limit 5)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. `doctrinal/autorites/abdullah-daghestani.md`
+   Titre : Shaikh 'Abdullāh ad-Dāghistānī an-Naqshbandī
+   Mots-clés : naqshbandiyya, tasawwuf, silsila, daghestan, wazifa, muhammad-nazim-al-haqqani
+
+   Correspondances raw/ : aucune
+   Correspondances atelier/rd/bibliotheque/ : aucune
+   Correspondances doctrinal/ : aucune fiche source dédiée trouvée
+
+   Recommandation : **source absente du dépôt**. Aucun PDF, aucun ouvrage du catalogue, aucune fiche `sources/` ne documente cette autorité. La fiche est un stub créé le 2026-06-05. Les cross_links (`[[naqshbandiyya]]`, `[[muhammad-nazim-al-haqqani]]`, `[[wazifa]]`) suggèrent un contexte Naqshbandī-Haqqanī, mais aucune source primaire n'est disponible pour lever le `to-source`.
+
+2. `doctrinal/autorites/al-jazari.md`
+   Titre : Al-Jazarī
+   Mots-clés : ingenierie, automates, mecanique, islam-medieval, cybernetique, Kitāb al-Ḥiyal
+
+   Correspondances raw/ :
+   - `raw/islam-and-artificial-intelligence.pdf` — source primaire citée 4× dans le corps
+
+   Correspondances atelier/rd/bibliotheque/ : aucune mention spécifique
+
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/islam-and-artificial-intelligence.md` — fiche source existante (status: academique), contient une section §5 « Automata islamiques et pré-histoire de l'IA » qui documente directement al-Jazarī
+   - `doctrinal/autorites/ibn-sina.md` — cité dans la source comme comparaison
+   - `doctrinal/autorites/al-ghazali.md` — idem
+   - `doctrinal/autorites/yaqub-chaudhary.md` — auteur de la source
+
+   Recommandation : **source candidate identifiée** — `sources: ["[[islam-and-artificial-intelligence]]"]`, `sources_count: 1`. Le `to-source` peut être levé par validation humaine (la fiche source existe, le PDF est dans raw/).
+
+3. `doctrinal/autorites/al-khwarizmi.md`
+   Titre : Al-Khwārizmī
+   Mots-clés : mathematiques, algebre, algorithme, islam-medieval, fiqh
+
+   Correspondances raw/ :
+   - `raw/islam-and-artificial-intelligence.pdf` — même source que pour al-Jazarī (section §6 « Contributions islamiques aux mathématiques et à l'informatique »)
+
+   Correspondances atelier/rd/bibliotheque/ : aucune mention spécifique
+
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/islam-and-artificial-intelligence.md` — section §6 documentant al-Khwārizmī
+
+   Recommandation : **source candidate identifiée** — `sources: ["[[islam-and-artificial-intelligence]]"]`, `sources_count: 1`. Même situation que al-Jazarī : la fiche source et le PDF existent, le frontmatter n'a jamais été mis à jour.
+
+4. `doctrinal/autorites/al-nabulusi.md`
+   Titre : ʿAbd al-Ghanī al-Nābulusī
+   Mots-clés : oniromancie, soufisme, damas, taabir-al-ruya, Ibn Sirin
+
+   Correspondances raw/ : aucune fiche spécifique à al-Nābulusī
+   Correspondances atelier/rd/bibliotheque/ : aucune mention
+
+   Correspondances doctrinal/ :
+   - `doctrinal/autorites/ibn-sirin.md` — auteur antérieur cité comme référence (fiche existante)
+   - Le cross_link `[[doctrinal/symboles/taabir-al-ruya]]` pointe vers un symbole existant
+
+   Recommandation : **source absente du dépôt**. L'ouvrage majeur de al-Nābulusī (*Taʿṭīr al-Anām fī Taʿbīr al-Manām*) n'est ni dans raw/, ni dans le catalogue de la bibliothèque. La fiche est un stub (2026-06-20) avec des citations non vérifiées selon sa propre note.
+
+5. `doctrinal/autorites/hamza-yusuf.md`
+   Titre : Hamza Yusuf
+   Mots-clés : zaytuna, dawa, contemporain, SeekersGuidance, faraz-rabbani
+
+   Correspondances raw/ :
+   - `raw/Intro_to_Logic-FULL-(Zaytuna_College).pdf` — ouvrage de Zaytuna College (contexte institutionnel partagé, pas un texte de Hamza Yusuf lui-même)
+
+   Correspondances atelier/rd/bibliotheque/ : aucune mention
+
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/hasbiyallah-rabbani.md` — source de Faraz Rabbani (SeekersGuidance), contexte intellectuel proche mais pas une source directe pour cette fiche
+
+   Recommandation : **source absente du dépôt**. Aucun texte de Hamza Yusuf lui-même n'est archivé. La fiche est un stub créé pour fermer un lien entrant ([[shukr]]). Le PDF Zaytuna logic est un cours institutionnel, pas une source primaire pour l'autorité.
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 2
+  - raw/ : 2 (islam-and-artificial-intelligence.pdf → al-Jazarī + al-Khwārizmī)
+  - atelier/rd/bibliotheque/ : 0
+  - doctrinal/ : 2 (islam-and-artificial-intelligence.md → al-Jazarī + al-Khwārizmī)
+Sources absentes du dépôt : 3
+  - abdullah-daghestani : aucun texte Naqshbandī disponible
+  - al-nabulusi : Taʿṭīr al-Anām non archivé
+  - hamza-yusuf : aucun texte propre de l'auteur
+
+=== SIGNALLEMENTS ===
+1. **Incohérence sources/sources_count** (5 fiches) : toutes les fiches investiguées déclarent `sources: - to-source` avec `sources_count: 0`. Si `to-source` est un placeholder, `sources_count` devrait refléter soit 0 (sans le marqueur), soit 1 (avec). Cette incohérence est mécanique, pas sémantique — le script ne la capture pas.
+   Fichiers affectés :
+   - `doctrinal/autorites/abdullah-daghestani.md` (l.14-16)
+   - `doctrinal/autorites/al-jazari.md` (l.14-16)
+   - `doctrinal/autorites/al-khwarizmi.md` (l.13-15)
+   - `doctrinal/autorites/al-nabulusi.md` (l.12-14)
+   - `doctrinal/autorites/hamza-yusuf.md` (l.13-15)
+
+2. **Sources existantes non liées** (2 fiches) : `al-jazari.md` et `al-khwarizmi.md` citent `[[islam-and-artificial-intelligence]]` dans leur corps (×4 chacun) mais le champ frontmatter `sources:` reste à `to-source`. La fiche source existe, le PDF aussi. Le référencement machine est rompu alors que la traçabilité humaine est présente dans le texte.
+
+3. **15 warnings C1** (liens non résolus) : tous des marqueurs syntaxiques (`[[^]]`, `[[{brut}]]`, `[[x]]`, `[[x/y]]`, `[[wikilinks]]`, `[[meta/...]]`, `[[doctrinal/discernement]]`) dans des fichiers `atelier/rd/` et `doctrinal/annales.md`. Aucun n'est dans les fiches investiguées ce jour.
+
+=== CONCLUSION ===
+Le référencement machine (frontmatter) de 5 fiches autorité est rompu : 2 ont leur source disponible dans le dépôt mais non liée en frontmatter, 3 n'ont aucune source archivée. Prochaine priorité d'investigation : les fiches `doctrinal/autorites/` restantes avec `sources_count: 0` (au-delà des 5 de ce batch) et les fiches `doctrinal/sources/` avec `sources_count: 0` (la fiche `islam-and-artificial-intelligence.md` elle-même a `sources_count: 0` — cohérent car c'est une source primaire, mais à vérifier dans le lot suivant).
+
+Signé : Publication (veille référencement & investigation)
+```
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

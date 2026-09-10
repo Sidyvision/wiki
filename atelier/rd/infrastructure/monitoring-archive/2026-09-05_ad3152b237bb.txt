@@ -1,0 +1,193 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+I have all the data needed. Here is my report.
+
+```
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-05
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+[verifier-invariants.py --racine /root/wiki — sortie brute]
+1364 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+
+AVERTISSEMENTS :
+  [C1] doctrinal/discernement/2026-07-01_rafi-ad-darajat-fonction-traversante.md — lien non résolu au cartouche (`sources:`) : [[doctrinal/sources/coran-essai-traduction-gloton]]
+  [C1] doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md — lien non résolu au cartouche (`sources:`) : [[apercus-sur-l-initiation]]
+  [C1] doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel.md — lien non résolu au cartouche (`sources:`) : [[principes-et-methodes-de-l-art-sacre]]
+
+0 erreur(s), 3 avertissement(s).
+```
+
+Avertissements [C1] inchangés par rapport au run précédent (trois liens non résolus
+au cartouche, déjà signalés aux dates antérieures). Aucune erreur nouvelle.
+
+Signaux sémantiques (script muet, §1 mandate) :
+• Fichier : doctrinal/symboles/asma-al-husna.md
+• Ligne(s) : 14 (`sources: []`, `sources_count: 0`) vs lignes 42–48 et 79
+• Anomalie : le cartouche déclare 0 source alors que le corps cite explicitement
+  `[[shams-al-maarif]]` comme source (lignes 42, 48) et dresse une section
+  « Sources » (ligne 79) listant `[[shams-al-maarif]]`. La fiche source
+  `doctrinal/sources/shams-al-maarif.md` existe au dépôt. `sources_count` est donc
+  faux sémantiquement — référencement non tracé, jamais corrigé d'office.
+
+• Fichier : doctrinal/symboles/ilm-al-huruf.md
+• Ligne(s) : 14 (`sources: []`, `sources_count: 0`) vs lignes 33, 58, 64, 75–76
+• Anomalie : idem — le corps cite `[[shams-al-maarif]]` et
+  `[[jesus-and-enoch-in-ibn-arabi]]` comme sources (avec l'expression « source : »
+  en toutes lettres), toutes deux existantes
+  (`doctrinal/sources/shams-al-maarif.md`,
+  `doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md`), et dresse une section
+  « Sources » (lignes 75–76). `sources_count: 0` trahit un référencement non
+  reporté au cartouche.
+
+Aucune fuite de fait personnel dans un circuit neutre, aucun lien §VI en sens
+interdit détecté sur les fiches examinées.
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (limit 5 — plus anciennes `sources_count: 0` d'abord, toutes datées 2026-06-02)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. doctrinal/sources/awrad-ibn-arabi.md
+   Titre : Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)
+   Mots-clés : ibn-arabi, awrad, salawat, litanies, ali-hussain, walaya, tasawwuf
+
+   Correspondances raw/ :
+   - raw/Awrad_Ibn_Arabi.pdf — source brute déclarée en fiche (ligne 39, 177 p., présence confirmée au dépôt, 3.4 Mo)
+   - raw/Histoire et Classification de l'oeuvre d'Ibn Arabi-Osman Yahya.pdf — contexte bibliographique (pas cité en fiche)
+   - raw/Al Futuhat Al Makkiyya - maymaniya_p1.pdf — corpus akbarien (pas cité en fiche)
+
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune (études hindouisme/soufisme et Porte du Ciel ; pas d'entrée Ibn ʿArabī au catalogue)
+
+   Correspondances doctrinal/ :
+   - doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot.md — même auteur/tradition
+   - doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton.md — corpus akbarien
+   - doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md — même auteur (Ali Hussain)
+
+   Recommandation : source primaire identifiée — la fiche est la fiche-source
+   elle-même (type: source) ; son `sources_count: 0` est structurellement correct
+   (rien au-dessus d'elle), le PDF raw/ est présent et déclaré. RAS.
+
+2. doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md
+   Titre : Jesus and Enoch in the Barzakh of Ibn al-ʿArabī (JMIAS Vol. 60, 2016)
+   Mots-clés : ibn-arabi, barzakh, idris, jesus, wahdat-al-wujud, ali-hussain, miraj
+
+   Correspondances raw/ :
+   - raw/Jesus_And_Enoch_In_Ibn_'arabi.pdf — source brute, présence confirmée au dépôt
+   - raw/Al Futuhat Al Makkiyya - maymaniya_p1.pdf — sources primaires mobilisées (Futūḥāt)
+
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune
+
+   Correspondances doctrinal/ :
+   - doctrinal/sources/awrad-ibn-arabi.md — même auteur (Ali Hussain)
+   - doctrinal/symboles/ilm-al-huruf.md — cite cette fiche comme source (ligne 64)
+   - doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf.md — même champ (science des lettres)
+
+   Recommandation : source primaire identifiée ; fiche-source `type: source`, PDF
+   present. `sources_count: 0` structurellement correct. RAS.
+
+3. doctrinal/sources/shams-al-maarif.md
+   Titre : Shams al-Maʿārif al-Kubrā — Traduction française (Tomes 1 & 2)
+   Mots-clés : ahmad-al-buni, ilm-al-huruf, asma-al-husna, talisman-sihr, ouattara-brahima
+
+   Correspondances raw/ :
+   - raw/shams-al-maarif-traduit-complet.pdf — source brute, presence confirmée au dépôt
+   - FAIT PERSONNEL AU CORPS DE FICHE NEUTRE : lignes 34, 38 — numéros de
+     téléphone du traducteur (+225 0759597977 / +225 0546954410) et contact;
+     données nominatives/privées portées dans une fiche `type: source` neutre du
+     circuit doctrinal/ — à signaler, §VI.
+
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune
+
+   Correspondances doctrinal/ :
+   - doctrinal/autorites/ahmad-al-buni.md — autorité-mère déjà établie
+   - doctrinal/symboles/asma-al-husna.md — cite cette fiche comme source
+   - doctrinal/symboles/ilm-al-huruf.md — cite cette fiche comme source (l. 33, 58)
+   - doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle.md — même domaine (occultisme islamique)
+
+   Recommandation : source primaire identifiée, PDF present, fiche-source.
+   Signalement : pièces de contact (téléphone) à retirer/regrouper en meta/
+   (Cmd §VI), décision Sidy.
+
+4. doctrinal/symboles/asma-al-husna.md
+   Titre : Asmāʾ al-Ḥusnā
+   Mots-clés : noms-divins, asma-al-husna, dhikr, al-buni, ibn-arabi, tawakkul
+
+   Correspondances raw/ :
+   - raw/shams-al-maarif-traduit-complet.pdf — source réelle des propriétés des Noms (via [[shams-al-maarif]])
+
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune
+
+   Correspondances doctrinal/ :
+   - doctrinal/sources/shams-al-maarif.md — source citée au corps, NON reportée au cartouche (anomalie §1)
+   - doctrinal/autorites/ahmad-al-buni.md — autorité mobilisée (l. 42)
+   - doctrinal/sources/hasbiyallah-rabbani.md — cible du cross_link (existe, mais dans sources/)
+   - doctrinal/sources/wazifa.md — même matière (noms divins, récitation)
+
+   Recommandation : source candidate identifiée et déjà citée au corps —
+   `[[shams-al-maarif]]` à reporter dans `sources:`/`sources_count` du cartouche
+   (décision Sidy, jamais correction d'office).
+
+5. doctrinal/symboles/ilm-al-huruf.md
+   Titre : ʿIlm al-Ḥurūf
+   Mots-clés : ilm-al-huruf, abjad, cosmologie, al-buni, ibn-arabi
+
+   Correspondances raw/ :
+   - raw/shams-al-maarif-traduit-complet.pdf — cosmologie des lettres (via [[shams-al-maarif]])
+
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune
+
+   Correspondances doctrinal/ :
+   - doctrinal/sources/shams-al-maarif.md — source citée au corps (l. 33, 58, 75), NON au cartouche (anomalie §1)
+   - doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md — source citée au corps (l. 64, 76), NON au cartouche
+   - doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf.md — même matière (science des lettres)
+   - doctrinal/sources/sefer-yetsira-ramban.md — lettres/abjad (parallèle)
+
+   Recommandation : sources candidates identifiées et déjà citées au corps —
+   `[[shams-al-maarif]]` et `[[jesus-and-enoch-in-ibn-arabi]]` à reporter au
+   cartouche (décision Sidy).
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 8
+  - raw/ : 5 (Awrad_Ibn_Arabi, Jesus_And_Enoch, shams-al-maarif, + 2 contextuelles akbariennes)
+  - atelier/rd/bibliotheque/ : 0
+  - doctrinal/ : 3 (ahmad-al-buni, + 2 déjà reportées aux corps)
+Sources absentes du dépôt : 0
+Fiches `sources_count: 0` au dépôt : 173 (non-template) — 5 investiguées (plus anciennes)
+
+=== SIGNALLEMENTS ===
+• doctrinal/symboles/asma-al-husna.md — cartouche `sources: []`/`sources_count: 0`
+  vs corps citant [[shams-al-maarif]] (l. 42, 48, 79). Fiche source existante →
+  référencement non reporté.
+• doctrinal/symboles/ilm-al-huruf.md — cartouche `sources: []`/`sources_count: 0`
+  vs corps citant [[shams-al-maarif]] et [[jesus-and-enoch-in-ibn-arabi]]
+  (l. 33, 58, 64, 75–76). Fiches sources existantes → référencement non reporté.
+• doctrinal/sources/shams-al-maarif.md — données personnelles (numéros de
+  téléphone du traducteur, l. 34, 38) dans une fiche `type: source` du circuit
+  neutre doctrinal/ (§VI) → proposition de regroupement en meta/, décision Sidy.
+
+=== CONCLUSION ===
+Les cinq plus anciennes fiches `sources_count: 0` sont des fiches-sources dont le
+PDF brut est présent et déclaré (référencement sain) ; les deux fiches-symboles
+investiguées citent au corps des sources déjà établies sans les reporter au
+cartouche — prochaine priorité : traiter ce défaut de traçage `sources_count` sur
+le cluster al-būnien, après verdict Sidy.
+
+Signé : Publication (veille référencement & investigation)
+```
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

@@ -1,0 +1,179 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-06
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+```
+1400 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+
+0 erreur(s), 0 avertissement(s).
+```
+
+Delta vs exécution précédente : **identique** (1400 fichiers, 0 erreur, 0
+avertissement) — aucun changement de conformité mécanique depuis la dernière passe.
+
+Signaux sémantiques (au-delà du script) :
+• **Aucun** wikilink traversant §VI dans le mauvais sens détecté — aucune
+  occurrence de `[[atelier/…]]` ni `[[meta/…]]` depuis `doctrinal/`.
+• Aucun vocabulaire Karūbī/personnel/généalogie infiltré dans une fiche neutre
+  (les occurrences "personnel" relevées sont des mentions contextuelles
+  préexistantes dans des `symboles/`, registre herméneutique — non signalées).
+
+OU : **Aucune anomalie frontmatter détectée.**
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (limit 5)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. doctrinal/autorites/charles-andre-gilis.md
+   Titre : Charles-André Gilis (Abd ar-Razzâq Yahyâ)
+   Mots-clés : gilis, valsan, turban-noir, etendards-califat, ordo-ab-chao, ibn-arabi, guenon
+   
+   Correspondances raw/ :
+   - aucune (pas de PDF Gilis/Valsan indexé dans `raw/`)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune (Valsan/Gilis/Turban Noir absents du catalogue et des index bibliothèques)
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/sept-etendards-califat.md — traduction majeure mobilisée
+   - doctrinal/sources/gilis-ordo-ab-chao.md — traduction majeure mobilisée
+   - doctrinal/sources/ibn-arabi-fard-afrad-gilis.md — fiche source Gilis
+   - doctrinal/sources/valsan-investiture-cheikh-al-akbar.md — reprise de l'étude
+   - doctrinal/autorites/michel-valsan.md — filiation (liste croisée) 
+   
+   Recommandation : **source primaire identifiée** — les fiches `sources/`
+   mobilisant les traductions de Gilis (sept-etendards-califat, gilis-ordo-ab-chao)
+   constituent les références légitimes à inscrire dans `sources:`. Aucune pièce
+   matérielle dans `raw/` ; ouvrages physiques non recensés au catalogue.
+
+2. doctrinal/autorites/ibn-qayyim.md
+   Titre : Ibn Qayyim al-Jawziyya
+   Mots-clés : ibn-qayyim, jawziyya, ibn-taymiyya, tibb-e-nabawi, zad-al-maad
+   
+   Correspondances raw/ :
+   - aucune (aucun PDF médecine prophétique/Ibn Qayyim dans `raw/`)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - atelier/rd/bibliotheque/index-noms-ihwan-al-safa.md:Ibn Taymiyya : 545.
+     (mention d'Ibn Taymiyya, maître d'Ibn Qayyim, dans l'index du Rasā'il —
+     lien indirect, pas une source directe sur Ibn Qayyim)
+   
+   Correspondances doctrinal/ :
+   - doctrinal/autorites/aiman-attar.md — cité (médecine islamique)
+   - doctrinal/symboles/tibb-ruhani.md — cadre du pôle Tibb
+   - doctrinal/deviations/morphopsychologie.md, body-types.md — relais formels
+   
+   Recommandation : **source absente du dépôt** — ni *Zad al-Ma'ad* ni
+   *Al-Tibb al-Nabawi* ne sont présents en `raw/`, ni au catalogue bibliothèque
+   physique. Fiche `#stub` ; le marqueur `to-source` implicite demeure. Piste à
+   confirmer au catalogue physique (voir signallement).
+
+3. doctrinal/autorites/imam-malik.md
+   Titre : L'Imam Mālik b. Anas
+   Mots-clés : malik, muwatt, madhhab-maliki, medine, fiqh, hadith
+   
+   Correspondances raw/ :
+   - aucune (pas de PDF Muwaṭṭaʾ dans `raw/`)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune (ni al-Muwaṭṭaʾ, ni Risāla, ni Mukhtaṣar Khalīl au catalogue)
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/kitab-tarifat-index-transcription.md — lexique (mention Malik)
+   - doctrinal/sources/al-madrasah-al-hanbaliyyah.md — école voisine
+   - doctrinal/traditions/madhhab-maliki.md — le madhhab (liste croisée)
+   - doctrinal/sources/universal-man-jili.md, meftah-chatons-sagesses-transcription.md
+   
+   Recommandation : **source absente du dépôt** — la fiche porte explicitement
+   `to-source` (« dates et faits biographiques à confronter aux textes de l'école
+   dès acquisition ») ; aucun al-Muwaṭṭaʾ ni ouvrage malikite primaire présent.
+   Priorité faible (fiqh, hors cœur akbarien).
+
+4. doctrinal/autorites/michel-valsan.md
+   Titre : Michel Vâlsan (Cheikh Mustafâ Abd al-Azîz / Abd ar-Razzâq Yahyâ)
+   Mots-clés : valsan, triangle-androgyne, realisation-descendante, etudes-traditionnelles, califat, ibn-arabi
+   
+   Correspondances raw/ :
+   - aucune (pas de PDF Vâlsan dans `raw/`)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune (Vâlsan absent des bibliothèques physiques ; les index Ikhwan/Rig-Veda
+     sans rapport)
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/sept-etendards-califat.md — études mobilisées (chap. XV, avant-propos)
+   - doctrinal/sources/valsan-investiture-cheikh-al-akbar.md — étude dédiée
+   - doctrinal/autorites/charles-andre-gilis.md — disciple (liste croisée)
+   
+   Recommandation : **source primaire identifiée** — les deux fiches `sources/`
+   (sept-etendards-califat, valsan-investiture-cheikh-al-akbar) sont les références
+   légitimes pour `sources:`. Pièces matérielles absentes de `raw/` et du catalogue.
+
+5. doctrinal/deviations/technologisation-pseudo-scientifique.md
+   Titre : La technologisation pseudo-scientifique du sacré
+   Mots-clés : pseudo-science, new-age, ondes-scalaires, barzakh, anciens-astronautes
+   
+   Correspondances raw/ :
+   - aucune
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune (pas de source sur la dérive technologiste au catalogue)
+   
+   Correspondances doctrinal/ :
+   - doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh.md — cas source
+   - doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite.md
+   - (autres fiches `deviations/` du même registre)
+   
+   Recommandation : **source partiellement identifiée** — la fiche est `#stub`
+   (développement et sources "À compléter"). La parenté avec la littérature
+   paléo-contact est notée mais aucun texte primaire de référence (critique de
+   la pseudo-science, position traditionnelle sur les āyāt) n'est recensé. Source
+   directe à rechercher (Guénon, Burckhardt, réfutations de la technologisation).
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 5
+  - raw/ : 0
+  - atelier/rd/bibliotheque/ : 1 (index-noms-ihwan-al-safa — lien indirect, Ibn Taymiyya)
+  - doctrinal/ : 4 (fiches `sources/` mobilisées : sept-etendards-califat ×2,
+    gilis-ordo-ab-chao, valsan-investiture-cheikh-al-akbar)
+Sources absentes du dépôt : 4 (Ibn Qayyim/Zad-al-Ma'ad, Tibb al-Nabawi,
+  al-Muwaṭṭaʾ, ouvrages Vâlsan/Gilis en pièce matérielle)
+
+=== SIGNALLEMENTS ===
+1. **Autorités akbariennes (Valsan, Gilis)** : les fiches `sources/` dédiées
+   (`doctrinal/sources/sept-etendards-califat.md`,
+   `doctrinal/sources/gilis-ordo-ab-chao.md`,
+   `doctrinal/sources/valsan-investiture-cheikh-al-akbar.md`) fournissent les
+   `sources:` légitimes — proposition de renseignement des deux fiches `autorites/`.
+   Aucune pièce matérielle en `raw/` ni au catalogue bibliothèque physique.
+2. **Imam Malik** : fiche `to-source` confirmée — ni al-Muwaṭṭaʾ ni ouvrages
+   malikites primaires présents. Renseignement suspendu à l'acquisition.
+3. **Ibn Qayyim** : *Zad al-Ma'ad* et *Al-Tibb al-Nabawi* absents ; seule trace
+   indirecte d'Ibn Taymiyya à l'index Ikhwan al-Safa (p. 545). A vérifier au
+   catalogue physique avant toute levée du `to-source`.
+4. **Technologisation** : `#stub` — aucune source primaire sur la critique de la
+   pseudo-science recensée ; à compléter avant renseignement.
+
+=== CONCLUSION ===
+Conformité frontmatter pleine et constante (0 erreur, identique à la passe
+précédente) ; le référencement documentaire progresse par la matière akbarienne
+déjà transcrite (Valsan/Gilis), tandis que la Médecine prophétique et le fiqh
+malikite restent en attente d'acquisition physique — prochaine priorité :
+renseignement des deux fiches `autorites/` akbariennes sur les `sources/`
+déjà présentes dans le dépôt.
+
+Signé : Publication (veille référencement & investigation)
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

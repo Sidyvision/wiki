@@ -1,0 +1,150 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-08-27
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+```
+AVERTISSEMENTS :
+  [C1] atelier/annales.md — lien non résolu : [[^]]
+  [C1] atelier/annales.md — lien non résolu : [[^]]
+  [C1] atelier/rd/rapport-rd-memoire-persistante.md — lien non résolu : [[{brut}]]
+  [C1] atelier/rd/synthese-ressources-deployees.md — lien non résolu : [[{brut}]]
+  [C1] atelier/rd/citadelle-du-sham/note.md — lien non résolu : [[wikilinks]]
+  [C1] atelier/rd/outillage/2026-08-10_methode-croisement-discernement.md — lien non résolu : [[^]]
+  [C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — lien non résolu : [[x]]
+  [C1] atelier/rd/outillage/spec-generer-cartographie-tolerant.md — lien non résolu : [[x/y]]
+  [C1] atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md — lien non résolu : [[^]]
+  [C1] atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md — lien non résolu : [[x/y]]
+  [C1] atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md — lien non résolu : [[meta/...]]
+  [C1] atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md — lien non résolu : [[doctrinal/discernement]]
+  [C1] doctrinal/annales.md — lien non résolu : [[^]]
+  [C1] doctrinal/annales.md — lien non résolu : [[^]]
+  [C1] doctrinal/annales.md — lien non résolu : [[^]]
+  [C1] doctrinal/autorites/rene-guenon.md — lien non résolu : [[doctrinal/discernement]]
+
+0 erreur(s), 16 avertissement(s).
+```
+
+Signaux sémantiques :
+• Aucune anomalie frontmatter sémantique détectée lors de cette passe.
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (limit 5)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. doctrinal/autorites/imam-malik.md
+   Titre : L'Imam Mālik b. Anas
+   Mots-clés : Imam Malik, Muwaṭṭaʾ, Médine, maliki, fiqh, hadith
+   
+   Correspondances raw/ :
+   - Aucune correspondance directe trouvée (pas de Muwaṭṭaʾ ni ouvrage malikite dans raw/)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - catalogue-bibliotheque.md — pas de réponse (erreur lecture, à vérifier)
+   
+   Correspondances doctrinal/ :
+   - doctrinal/traditions/madhhab-maliki.md — fiche connexe sur l'école malikite (sources_count: 0, to-source)
+   
+   Recommandation : Source absente du dépôt. Textes fondamentaux (al-Muwaṭṭaʾ, Risāla, Mukhtaṣar Khalīl) à acquérir.
+
+2. doctrinal/autorites/ibn-sirin.md
+   Titre : Muḥammad ibn Sīrīn
+   Mots-clés : Ibn Sīrīn, oniromancie, taʿbīr al-ruʾyā, rêves, stub
+   
+   Correspondances raw/ :
+   - Aucune correspondance directe trouvée
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - catalogue-bibliotheque.md — pas de réponse (erreur lecture, à vérifier)
+   
+   Correspondances doctrinal/ :
+   - doctrinal/autorites/al-nabulusi.md — auteur postérieur, souvent cité en complément (lien présent dans la fiche)
+   - doctrinal/symboles/taabir-al-ruya.md — fiche cible (cross_link présent)
+   
+   Recommandation : Source absente du dépôt. Corpus d'interprétation des rêves attribué à Ibn Sīrīn non présent.
+
+3. doctrinal/autorites/yaqub-chaudhary.md
+   Titre : Yaqub Chaudhary
+   Mots-clés : Yaqub Chaudhary, philosophie islamique, intelligence artificielle, éthique numérique
+   
+   Correspondances raw/ :
+   - islam-and-artificial-intelligence.pdf — correspondance directe (chapitre 7, Cambridge University Press)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - catalogue-bibliotheque.md — pas de réponse (erreur lecture, à vérifier)
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/islam-and-artificial-intelligence.md — fiche source complète (DOI: 10.1017/9781009031721.008)
+   
+   Recommandation : Source candidate identifiée. Fiche `yaqub-chaudhary.md` peut être liée à `[[islam-and-artificial-intelligence]]` (déjà citée dans le corps, mais pas dans le champ `sources:` qui reste à `to-source`).
+
+4. doctrinal/autorites/ibn-sina.md
+   Titre : Ibn Sīnā (Avicenne)
+   Mots-clés : Ibn Sīnā, Avicenne, philosophie islamique, métaphysique, âme, médecine, Floating Man
+   
+   Correspondances raw/ :
+   - Aucune correspondance directe (pas d'œuvre d'Ibn Sīnā dans raw/)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - catalogue-bibliotheque.md — pas de réponse (erreur lecture, à vérifier)
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/islam-and-artificial-intelligence.md — source secondaire mobilisant Ibn Sīnā (chapitre Chaudhary)
+   
+   Recommandation : Source candidate identifiée (secondaire). La fiche `islam-and-artificial-intelligence.md` cite Ibn Sīnā abondamment. Pas de source primaire dans le dépôt.
+
+5. doctrinal/autorites/ibn-qayyim.md
+   Titre : Ibn Qayyim al-Jawziyya
+   Mots-clés : Ibn Qayyim, Tibb-e-Nabawi, médecine prophétique, hanbalite, stub
+   
+   Correspondances raw/ :
+   - Aucune correspondance directe trouvée
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - catalogue-bibliotheque.md — pas de réponse (erreur lecture, à vérifier)
+   
+   Correspondances doctrinal/ :
+   - Aucune correspondance trouvée
+   
+   Recommandation : Source absente du dépôt. Œuvres majeures (Zad al-Ma'ad, Al-Tibb al-Nabawi) non présentes.
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 2
+  - raw/ : 1 (islam-and-artificial-intelligence.pdf)
+  - atelier/rd/bibliotheque/ : 0 (erreur de lecture à corriger)
+  - doctrinal/ : 2 (islam-and-artificial-intelligence.md, madhhab-maliki.md)
+Sources absentes du dépôt : 3 (textes primaires manquants : Muwaṭṭaʾ, corpus Ibn Sīrīn, Ibn Qayyim)
+
+=== SIGNALEMENTS ===
+
+**Correspondance établie :**
+- `doctrinal/autorites/yaqub-chaudhary.md` → `doctrinal/sources/islam-and-artificial-intelligence.md` (source secondaire présente, DOI confirmé, champ `sources:` à mettre à jour)
+
+**Correspondance partielle :**
+- `doctrinal/autorites/ibn-sina.md` → `doctrinal/sources/islam-and-artificial-intelligence.md` (source secondaire, pas de texte primaire d'Ibn Sīnā dans le dépôt)
+
+**Liens internes à vérifier :**
+- `doctrinal/autorites/al-nabulusi.md` — lié à Ibn Sīrīn, à investiguer lors d'une prochaine passe
+
+**Anomalie technique :**
+- `atelier/rd/bibliotheque/catalogue-bibliotheque.md` — erreur de lecture lors du grep (syntaxe bash à corriger pour la prochaine exécution)
+
+**Fiches connexes `sources_count: 0` :**
+- `doctrinal/traditions/madhhab-maliki.md` (to-source, textes de l'école à acquérir)
+
+=== CONCLUSION ===
+16 avertissements de liens non résolus (essentiellement dans atelier/rd/ et annales). 5 fiches autorités investiguées : 2 sources candidates identifiées (Chaudhary, Ibn Sīnā via `islam-and-artificial-intelligence.md`), 3 sources primaires absentes (textes de l'école malikite, Ibn Sīrīn, Ibn Qayyim). Prochaine priorité : vérification du catalogue bibliothèque et investigation des fiches `sources_count: 0` restantes.
+
+Signé : Publication (veille référencement & investigation)
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

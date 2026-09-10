@@ -1,0 +1,160 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+All data collected. Now compiling the report.
+
+```
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-08
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+verifier-invariants.py --racine /root/wiki — sortie brute :
+1411 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+0 erreur(s), 0 avertissement(s).
+
+Delta : aucune variation signalée (pas de run précédent disponible dans cette session pour comparaison).
+
+Signaux sémantiques :
+• Fichier : doctrinal/sources/awrad-ibn-arabi.md
+  Ligne(s) : 12 (sources_count: 0) + 24 (sources: [])
+  Anomalie : sources_count: 0 avec sources: [] — champ `sources` vide, le script ne le sanctionne pas.
+• Fichier : doctrinal/symboles/talisman-sihr.md
+  Ligne(s) : 10 (sources_count: 0) + 14 (sources:)
+  Anomalie : champ `sources` sans valeur YAML (ni [] ni liste) — syntaxe invalide, non détectée.
+• Fichier : doctrinal/symboles/salawat.md
+  Ligne(s) : 8 (sources_count: 0) + 11 (sources:)
+  Anomalie : même chose — `sources:` sans valeur.
+• Fichier : doctrinal/sources/shams-al-maarif.md
+  Ligne(s) : 12 (sources_count: 0) + 24 (sources: [])
+  Anomalie : champ `sources` vide.
+• Fichier : doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md
+  Ligne(s) : 12 (sources_count: 0) + 24 (sources: [])
+  Anomalie : champ `sources` vide.
+
+NOTE : ces anomalies frontmatter sont inhérentes aux fiches à sources_count: 0 — le script les comptabilise comme conformes parce que le champ existe, mais la sémantique est brisée. 155 fiches dans doctrinal/ portent sources_count: 0 (excluant annales.md et _template.md). C'est un écart de surface important entre ce que le script valide et ce que la sémantique exige.
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (limit 5 — plus anciennes, created 2026-06-02)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. doctrinal/sources/awrad-ibn-arabi.md
+   Titre : Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)
+   Mots-clés : ibn-arabi, awrad, litanies, salawat, traduction, soufisme
+   
+   Correspondances raw/ :
+   - Awrad_Ibn_Arabi.pdf — PDF source directe du texte
+   - Histoire et Classification de l'oeuvre d'Ibn Arabi-Osman Yahya.pdf — référentiel bibliographique
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune
+   
+   Correspondances doctrinal/ :
+   - doctrinal/autorites/ibn-arabi.md — autorité liée
+   - doctrinal/autorites/ali-hussain.md — cross_links
+   - doctrinal/sources/wird-awrad.md, doctrinal/symboles/wird-awrad.md — cross_links
+   - doctrinal/symboles/salawat.md — cross_links
+   
+   Recommandation : SOURCE CANDIDATE IDENTIFIÉE — Awrad_Ibn_Arabi.pdf dans raw/ est la source primaire. Le marquage `sources: ["[[awrad-ibn-arabi-source]]"]` ou equivalente pourrait être proposé, mais la source convertie n'existe pas dans textes/ ; il faudrait d'abord convertir le PDF.
+
+2. doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md
+   Titre : Jesus and Enoch in the Barzakh of Ibn al-ʿArabī
+   Mots-clés : ibn-arabi, barzakh, jesus, enoch, idris, wahdat-al-wujud
+   
+   Correspondances raw/ :
+   - Jesus_And_Enoch_In_Ibn_'arabi.pdf — PDF source directe
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - Titus Burckhardt, Clés spirituelles de l'astrologie musulmane (Archè Milano, 1983) — mentionne barzakh dans contexte ibn-arabi
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/barzakh-nur-lh.md — barzakh
+   - doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton.md — ibn-arabi
+   - doctrinal/autorites/ibn-arabi.md — autorité liée
+   - doctrinal/autorites/idris.md — cross_links
+   - doctrinal/sources/ibn-arabi-fard-afrad-gilis.md — ibn-arabi
+   
+   Recommandation : SOURCE CANDIDATE IDENTIFIÉE — le PDF raw existe. Conversion textes/ et marquage `sources:` en attente.
+
+3. doctrinal/sources/shams-al-maarif.md
+   Titre : Shams al-Maʿārif al-Kubrā — Traduction française (Tomes 1 & 2)
+   Mots-clés : al-buni, shams-al-maarif, ilm-al-huruf, talismans, noms-divins
+   
+   Correspondances raw/ :
+   - shams-al-maarif-traduit-complet.pdf — PDF source directe (traduction complète)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune (pas dans le catalogue de la bibliothèque physique)
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf.md — ilm-al-huruf
+   - doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle.md — ilm-al-huruf
+   - doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq.md — cross-reference
+   
+   Recommandation : SOURCE CANDIDATE IDENTIFIÉE — le PDF raw existe en traduction complète. Conversion textes/ et marquage `sources:` recommandé. La fiche talisman-sihr.md (investiguée ci-dessous) est aussi un cross_link sortant de cette fiche.
+
+4. doctrinal/symboles/salawat.md
+   Titre : Ṣalawāt
+   Mots-clés : salawat, benediction-prophetique, coran 33:56, soufisme
+   
+   Correspondances raw/ :
+   - aucune (pas de PDF dédié salawat dans raw/)
+   - Une approche du Coran - Gloton — mentionne bénédictions coraniques (non dédié)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/mawlid-al-rasul.md — cross_links
+   - doctrinal/symboles/wird-awrad.md — cross_links
+   - doctrinal/sources/awrad-ibn-arabi.md — liens entrants possibles
+   
+   Recommandation : SOURCE ABSENTE — pas de source primaire identifiée dans le dépôt. Le to-source devrait être levé par vérification humaine du texte coranique (33:56) et des sources soufies classiques. Cette fiche reste kari-kumi.
+
+5. doctrinal/symboles/talisman-sihr.md
+   Titre : Talisman / Simiyāʾ
+   Mots-clés : talisman, sihr, simiya, awfaq, al-buni, ilm-al-huruf
+   
+   Correspondances raw/ :
+   - aucune (pas de PDF dédié talisman/sihr en dehors de shams-al-maarif)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune
+   
+   Correspondances doctrinal/ :
+   - doctrinal/sources/shams-al-maarif.md — al-buni, source directe
+   - doctrinal/sources/guenon-symbolisme-croix-ch17-ilm-al-huruf.md — ilm-al-huruf
+   - doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle.md — ilm-al-huruf
+   - doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source.md — simiy/kabbale
+   - doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat.md — lettres divines
+   
+   Recommandation : SOURCE CANDIDATE PARTIELLE — la fiche shams-al-maarif.md (source al-buni) est un cross_link sortant pertinent, et le PDF raw correspondant existe. Le marquage `sources: ["[[shams-al-maarif]]"]` pourrait être proposé. La fiche elle-même souffre en outre d'une syntaxe YAML invalide (`sources:` sans valeur).
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 5 (dont 1 partielle)
+  - raw/ : 3 (Awrad_Ibn_Arabi.pdf, Jesus_And_Enoch_In_Ibn_'arabi.pdf, shams-al-maarif-traduit-complet.pdf)
+  - atelier/rd/bibliotheque/ : 1 (Burckhardt, barzakh)
+  - doctrinal/ : 5 (cross-références internes identifiées)
+Sources absentes du dépôt : 1 (salawat — source primaire non identifiée)
+
+=== SIGNALLEMENTS ===
+• 3 fiches sources (awrad-ibn-arabi, jesus-and-enoch, shams-al-maarif) disposent de leur PDF source dans raw/ mais n'ont pas de conversion dans textes/ ni de marquage sources: dans le frontmatter — écart entre la disponibilité de la source et son traçage frontmatter.
+• 2 fiches symboles (salawat, talisman-sihr) ont des syntaxes YAML invalides pour le champ sources: (absence de valeur après le deux-points).
+• 155 fiches dans doctrinal/ portent sources_count: 0 — c'est un écart documentaire significatif que verifier-invariants.py ne mesure pas (il ne contrôle que l'existence du champ, pas sa teneur).
+• Le script verifier-invariants.py ne détecte pas les anomalies de syntaxe YAML pour le champ sources: — c'est un gap connu entre contrôle structurel et contrôle sémantique.
+
+=== CONCLUSION ===
+Référencement : les 3 fiches sources les plus anciennes disposent toutes de leur PDF dans raw/ — le manque est la conversion textes/ et le marquage frontmatter, pas la source elle-même. La priorité d'investigation future devrait être le tri du lot de 155 fiches sources_count: 0 (par batch de 5, comme aujourd'hui) pour cartographier les sources candidats identifiés et les sources réellement absentes, afin de préparer un plan de conversion textes/ et de remise à zéro du compteur.
+
+Signé : Publication (veille référencement & investigation)
+```
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

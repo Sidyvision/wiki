@@ -1,0 +1,160 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-10
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+```
+1504 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+
+0 erreur(s), 0 avertissement(s).
+```
+
+Delta par rapport à la passe précédente : pas de rapport précédent archivé (première exécution du profil publication pour ce mandat — delta disponible dès la prochaine passe).
+
+Signaux sémantiques (script non couverts) :
+
+• **sources_count mismatch** — 75 fiches doctrinales où la longueur déclarée de la liste `sources:` ne correspond pas à la valeur de `sources_count:`. Exemples :
+  - `doctrinal/symboles/jivatma.md` : `sources` = 0 entrées, `sources_count` = 1
+  - `doctrinal/symboles/adityas-mois-du-soleil.md` : `sources` = 1 entrée, `sources_count` = 2
+  - `doctrinal/symboles/ushas-les-trente-aurores.md` : `sources` = 1 entrée, `sources_count` = 2
+  - `doctrinal/symboles/tomoe.md` : `sources` = 0 entrées, `sources_count` = 1
+  - `doctrinal/symboles/golem.md` : `sources` = 0 entrées, `sources_count` = 1
+  - **+ 70 autres fiches** (total 75). Pattern prédominant : `sources_count` surévalué par rapport à la liste réelle, ou list `sources:` vide quand `sources_count` > 0.
+
+• **Wikilinks cross-circuit** : aucun wikilink `[[hermeneutique/...]]` trouvé dans `doctrinal/` (hors `annales.md`). Les références à `hermeneutique/` dans les fiches doctrinales de discernement sont des mentions en prose (paths), pas des wikilinks — conformes à la convention.
+
+• **Fiches symboles avec `sources:` vide** (mais pas en erreur) : `salawat.md`, `alam-al-mithal.md`, `fal-wa-tatayyur.md`, `ilm-al-nujum.md`, `taabir-al-ruya.md`, `tarbiyya-rabbaniyya.md`, `influx-spirituel-sommet-cranien.md`, `fiqh.md`, `maqamat-meknes.md`, `prakriti.md` — toutes avec `sources: []` et `sources_count: 0`, conformes à leur statut mais signalées pour investigation.
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (5)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**1. doctrinal/sources/awrad-ibn-arabi.md**
+   Titre : Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)
+   Créé : 2026-06-02 | Mots-clés : awrad, ibn-arabi, litanies, salawat, wird, traduction
+   cross_links : [[ibn-arabi]], [[ali-hussain]], [[wird-awrad]], [[salawat]], [[walaya]], [[tasawwuf]]
+
+   Correspondances raw/ :
+   - `raw/Awrad_Ibn_Arabi.pdf` — PDF source directe (3.4 MB)
+   - `raw/Histoire et Classification de l'oeuvre d'Ibn Arabi-Osman Yahya.pdf` — contexte biographique
+
+   Correspondances atelier/rd/bibliotheque/ : aucune (pas de mention au catalogue)
+
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/wazifa.md` — même pratique d'awrad
+   - `doctrinal/sources/mawlid-al-rasul.md` — salawat dans contexte mawlid
+   - `doctrinal/sources/hasbiyallah-rabbani.md` — invocation liée
+   - `doctrinal/sources/dalail-al-khayrat-jazuli.md` — litanies prophetiques
+   - `doctrinal/traditions/naqshbandiyya.md` — awrad dans la chaîne
+   - `doctrinal/autorites/ibn-arabi.md`, `ali-hussain.md`, `abd-al-qadir-al-jilani.md`
+
+   Recommandation : **PDF source identifié dans raw/**. La fiche est une traduction du texte — `sources` devrait pointer vers ce PDF ou vers une fiche source qui le documente. Lifting `sources:` recommandé.
+
+---
+
+**2. doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md**
+   Titre : Jesus and Enoch in the Barzakh of Ibn al-ʿArabī
+   Créé : 2026-06-02 | Mots-clés : ibn-arabi, barzakh, jesus, enoch, idris, wahdat-al-wujud, jmias
+   cross_links : [[ibn-arabi]], [[ali-hussain]], [[barzakh]], [[wahdat-al-wujud]], [[idris]], [[walaya]], [[tasawwuf]]
+
+   Correspondances raw/ :
+   - `raw/Jesus_And_Enoch_In_Ibn_'arabi.pdf` — PDF source directe (688 KB)
+   - `raw/Histoire et Classification de l'oeuvre d'Ibn Arabi-Osman Yahya.pdf` — contexte
+
+   Correspondances atelier/rd/bibliotheque/ : aucune mention directe au catalogue
+
+   Correspondances doctrinal/ :
+   - 37 fiches doctrinales citant Ibn Arabi (autorites, sources, traditions)
+   - `doctrinal/sources/barzakh-nur-lh.md` — traitement du barzakh
+   - `doctrinal/autorites/idris.md` — Enoch/Idris
+
+   Recommandation : **PDF source identifié dans raw/**. Même schéma que la fiche 1 — `sources` à alimenter avec le PDF brut.
+
+---
+
+**3. doctrinal/sources/shams-al-maarif.md**
+   Titre : Shams al-Maʿārif al-Kubrā — Traduction française (Tomes 1 & 2)
+   Créé : 2026-06-02 | Mots-clés : al-buni, ilm-al-huruf, asma-al-husna, talismans, noms-divins
+   cross_links : [[ahmad-al-buni]], [[ouattara-brahima]], [[ilm-al-huruf]], [[asma-al-husna]], [[talisman-sihr]], [[tasawwuf]]
+
+   Correspondances raw/ :
+   - `raw/shams-al-maarif-traduit-complet.pdf` — PDF source directe (58.7 MB)
+
+   Correspondances atelier/rd/bibliotheque/ : aucune
+
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle.md` — matière liée
+   - `doctrinal/autorites/ahmad-al-buni.md` — auteur
+   - `doctrinal/autorites/ouattara-brahima.md` — figure liée
+   - `doctrinal/autorites/rene-guenon.md` — commentateur critique
+
+   Recommandation : **PDF source identifié (58 MB)**. Fiche traduction complète — `sources` à alimenter.
+
+---
+
+**4. doctrinal/symboles/salawat.md**
+   Titre : Ṣalawāt
+   Créé : 2026-06-02 | Mots-clés : salawat, soufisme, benediction-prophetique
+   cross_links : [[ibn-arabi]], [[wird-awrad]], [[walaya]], [[tasawwuf]], [[wazifa]], [[mawlid-al-rasul]]
+
+   Correspondances raw/ : aucune (pas de PDF spécifique aux salawat)
+
+   Correspondances atelier/rd/bibliotheque/ :
+   - Le catalogue cite *Le Saint Coran* et *Le Coran : Essai de traduction* (Gloton, Albouraq) — source coranique 33:56
+
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/awrad-ibn-arabi.md` — salawat dans liturgie
+   - `doctrinal/sources/wazifa.md` — salawat comme wird
+   - `doctrinal/sources/dalail-al-khayrat-jazuli.md` — litanies prophetiques
+   - `doctrinal/sources/mawlid-al-rasul.md` — contexte prophetique
+
+   Recommandation : **Pas de source brute dédiée**. La fiche est définitionnelle — lever le `to-source` sur le Coran 33:56 ou sur une autoritétextuelle (Guenon, Burckhardt) qui traite des salawat.
+
+---
+
+**5. doctrinal/symboles/talisman-sihr.md**
+   Titre : Talisman / Simiyāʾ
+   Créé : 2026-06-02 | Mots-clés : talisman, sihr, simiya, awfaq, al-buni, ilm-al-huruf
+   cross_links : [[ahmad-al-buni]], [[ilm-al-huruf]], [[asma-al-husna]]
+
+   Correspondances raw/ : aucune
+
+   Correspondances atelier/rd/bibliotheque/ : aucune
+
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/shams-al-maarif.md` — le texte principal sur la simiyāʾ
+   - `doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source.md` — tradition comparée
+   - `doctrinal/autorites/ahmad-al-buni.md` — auteur
+   - `doctrinal/autorites/rene-guenon.md` — critique
+
+   Recommandation : **Pas de source brute dédiée**, mais lien direct avec `shams-al-maarif` (dont le PDF est dans raw/). Lever le `to-source` via la fiche Shams ou via Guénon (kritik der reinen Vernunft de l'occultisme).
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 18
+  - raw/ : 3 fichiers PDF (Awrad_Ibn_Arabi.pdf, Jesus_And_Enoch_In_Ibn_'arabi.pdf, shams-al-maarif-traduit-complet.pdf)
+  - atelier/rd/bibliotheque/ : 0 directe (1 indirecte via catalogue pour salawat)
+  - doctrinal/ : 14 fiches existantes (citations croisées)
+Sources absentes du dépôt : 0 (toutes les sources primaires sont dans raw/)
+
+=== SIGNALLEMENTS ===
+1. **Sources_count mismatch** — 75 fiches doctrinales avec discordance `sources:` vs `sources_count:`. Répartition majoritaire dans `doctrinal/symboles/`. Fiche détaillée à `doctrinal/annales/` si investigation prioritaire demandée.
+2. **Fiches `sources/` avec PDF brut identifié** — 3 des 5 fiches investiguées ont leur source primaire directe dans `raw/` (awrad-ibn-arabi, jesus-and-enoch, shams-al-maarif) mais `sources: []` reste vide dans les trois cas.
+3. **Fiches `symboles/` sans sources** — 2 fiches (salawat, talisman-sihr) relèvent de la définition doctrinale et ne disposent pas de source brute dédiée ; les sources existent en texte (Coran 33:56) ou via fiches connexes (Shams al-Maarif).
+
+=== CONCLUSION ===
+172 fiches doctrinales (sur 345) portent `sources_count: 0` — soit 49,9% du corpus sans source tracée. Les 3 fiches les plus anciennes de la session (awrad-ibn-arabi, jesus-and-enoch, shams-al-maarif) disposent toutes de leur PDF brut dans `raw/` mais ne le déclarent pas : priorité d'investigation immédiate. Les 75 mismatches `sources_count` signalent une usure du frontmatter à corriger par passe ciblée. Prochaine priorité : poursuivre l'investigation sur les 5 fiches suivantes par date de création (wird-awrad.md, sanatana-dharma.md, ilm-al-nujum-astrologie-traditionnelle.md, ilm-al-nujum.md, islam-and-artificial-intelligence.md).
+
+Signé : Publication (veille référencement & investigation)
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

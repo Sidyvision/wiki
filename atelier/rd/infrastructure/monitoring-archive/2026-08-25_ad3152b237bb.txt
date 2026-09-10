@@ -1,0 +1,188 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+Now I have all the data. Let me compile the final report.
+
+```
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-08-25
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+verifier-invariants.py --racine /root/wiki (brut) :
+
+  0 erreur(s), 15 avertissement(s).
+
+  15 avertissements [C1] — liens non résolus :
+  • atelier/annales.md — [[^]] ×2
+  • atelier/rd/rapport-rd-memoire-persistante.md — [[{brut}]]
+  • atelier/rd/synthese-ressources-deployees.md — [[{brut}]]
+  • atelier/rd/citadelle-du-sham/note.md — [[wikilinks]]
+  • atelier/rd/outillage/2026-08-10_methode-croisement-discernement.md — [[^]]
+  • atelier/rd/outillage/spec-generer-cartographie-tolerant.md — [[x]], [[x/y]]
+  • atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20.md — [[^]], [[x/y]], [[meta/...]], [[doctrinal/discernement]]
+  • doctrinal/annales.md — [[^]] ×2
+  • doctrinal/autorites/rene-guenon.md — [[doctrinal/discernement]]
+
+  (Tous les liens non résolus sont des marqueurs syntaxiques ou des
+  exemples dans des documents techniques/annales — pas des fiches doctrinales.)
+
+Signaux sémantiques (non couverts par le script) :
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Fichier : doctrinal/autorites/abdullah-daghestani.md
+  Ligne : 14-16
+  Anomalie : `sources: ["to-source"]` avec `sources_count: 0`.
+  Le Sceau Recteur prescrit `sources_count` = longueur de la liste `sources`.
+  La liste `["to-source"]` a une longueur de 1, mais le count déclare 0.
+  Même pattern dans les 3 fiches ci-dessous + doctrinal/sources/wazifa.md.
+
+• Fichier : doctrinal/autorites/al-jazari.md (ligne 14-16) — idem.
+• Fichier : doctrinal/autorites/al-khwarizmi.md (ligne 13-15) — idem.
+• Fichier : doctrinal/autorites/al-nabulusi.md (ligne 12-14) — idem.
+• Fichier : doctrinal/sources/wazifa.md (ligne 17-19) — idem.
+
+  Interprétation : convention implicite (to-source ≠ source réelle, count = 0),
+  mais contredit la lettre du Sceau (« entier = longueur de la liste »).
+  Aucune correction appliquée — verdict Sidy requis sur la convention.
+
+• Fichier : doctrinal/annales.md
+  Anomalie : apparu dans le grep `sources_count: 0` mais NE contient pas ce
+  champ dans son frontmatter (type: meta, pas de sources). Le match est dans
+  le corps (entrée d'annales mentionnant une autre fiche). Fausse alerte,
+  exclu de l'investigation §2.
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (4 fiches autorites + 1 annales exclu)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. doctrinal/autorites/abdullah-daghestani.md
+   Titre : Shaikh 'Abdullāh ad-Dāghistānī an-Naqshbandī
+   Mots-clés : naqshbandiyya, tasawwuf, silsila, daghestan, wazifa
+   
+   Correspondances raw/ :
+   • aucune
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   • catalogue-bibliotheque.md — §II Tasawwuf : Al-Jurjânî (def. technique),
+     Michel Vâlsan (greffe tasawwuf). Rien de spécifique à Daghestani.
+   
+   Correspondances doctrinal/ :
+   • doctrinal/traditions/naqshbandiyya.md — cite Daghestani avec source [[wazifa]]
+     (« La branche Naqshbandiyya-Haqqaniyya est dirigée au 20e–21e siècle par
+     [[muhammad-nazim-al-haqqani]], dont le shaikh était [[abdullah-daghestani]]
+     — source : [[wazifa]] »)
+   • doctrinal/sources/wazifa.md — fiche source existante, mais elle-même
+     `sources: ["to-source"]` (non vérifiée)
+   • doctrinal/autorites/muhammad-nazim-al-haqqani.md — cross-linked
+   
+   Recommandation : source candidate = doctrinal/sources/wazifa.md (via
+   naqshbandiyya.md). MAIS wazifa.md est elle-même to-source — chaîne
+   incomplète. Aucune source primaire physique au catalogue.
+
+2. doctrinal/autorites/al-jazari.md
+   Titre : Al-Jazarī
+   Mots-clés : ingénierie, automates, mécanique, islam médiéval, Kitāb al-Ḥiyal
+   
+   Correspondances raw/ :
+   • raw/islam-and-artificial-intelligence.pdf — source directe
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   • aucune
+   
+   Correspondances doctrinal/ :
+   • doctrinal/sources/islam-and-artificial-intelligence.md — fiche source
+     existante, `status: academique`, cite al-jazari dans ses cross_links
+   • Le corps de la fiche al-jazari.md cite déjà :
+     « source : [[islam-and-artificial-intelligence]] »
+   
+   Recommandation : **source candidate identifiée** —
+   doctrinal/sources/islam-and-artificial-intelligence.md. Le lien est déjà
+   dans le corps mais absent du champ frontmatter `sources:`. Anomalie de
+   référencement : le corps connaît la source, le frontmatter l'ignore.
+
+3. doctrinal/autorites/al-khwarizmi.md
+   Titre : Al-Khwārizmī
+   Mots-clés : algèbre, algorithme, mathématiques, islam médiéval
+   
+   Correspondances raw/ :
+   • raw/islam-and-artificial-intelligence.pdf — source directe
+   • raw/Large_language_models_for_automated_Isla.pdf — potentiel (à vérifier)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   • aucune
+   
+   Correspondances doctrinal/ :
+   • doctrinal/sources/islam-and-artificial-intelligence.md — même source,
+     cross_links inclut [[al-khwarizmi]]
+   • Le corps cite déjà : « source : [[islam-and-artificial-intelligence]] » ×2
+   
+   Recommandation : **source candidate identifiée** —
+   doctrinal/sources/islam-and-artificial-intelligence.md. Même anomalie que
+   al-jazari : le corps référence la source, le frontmatter `sources: []`.
+
+4. doctrinal/autorites/al-nabulusi.md
+   Titre : ʿAbd al-Ghanī al-Nābulusī
+   Mots-clés : oniromancie, soufisme, Taʿṭīr al-Anām, damascène, Ibn Sīrīn
+   
+   Correspondances raw/ :
+   • aucune
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   • aucune (ni dans catalogue, ni dans bibliographies, ni dans index)
+   
+   Correspondances doctrinal/ :
+   • doctrinal/symboles/taabir-al-ruya.md — cross-linked, al-Nābulusī postérieur
+     à Ibn Sīrīn
+   • doctrinal/autorites/ibn-sirin.md — autorité parallèle (oniromancie)
+   • 12 fiches doctrinal/symboles/*-en-reve.md — domaine connexe
+   
+   Recommandation : **source absente du dépôt**. L'ouvrage de référence
+   *Taʿṭīr al-Anām fī Taʿbīr al-Manām* n'est ni en raw/, ni au catalogue
+   de la bibliothèque physique. La fiche elle-même signale : « Plusieurs
+   citations qui lui sont attribuées dans le corpus archivé ne sont pas
+   vérifiées ». Aucune source primaire disponible pour lever le to-source.
+
+=== STATISTIQUES ===
+Fiches investiguées : 4
+Sources candidates identifiées : 2
+  - raw/ : 2 (islam-and-artificial-intelligence.pdf, pour al-jazari et al-khwarizmi)
+  - atelier/rd/bibliotheque/ : 0
+  - doctrinal/ : 2 (fiche islam-and-artificial-intelligence.md, couplée au PDF)
+Sources candidates à chaîne incomplète : 1
+  - doctrinal/sources/wazifa.md (elle-même to-source)
+Sources absentes du dépôt : 1
+  - al-nabulusi : *Taʿṭīr al-Anām* non disponible
+
+=== SIGNALLEMENTS ===
+1. [frontmatter] 5 fiches avec incohérence sources:["to-source"] / sources_count:0
+   — doctrinal/autorites/{abdullah-daghestani,al-jazari,al-khwarizmi,al-nabulusi}.md
+   — doctrinal/sources/wazifa.md
+   — Verdict requis : la convention implicite (to-source ≠ source, count=0)
+     contredit la lettre du Sceau (count = longueur liste).
+
+2. [référencement] 2 fiches doctrinales avec source dans le corps mais pas en
+   frontmatter :
+   — doctrinal/autorites/al-jazari.md → corps cite [[islam-and-artificial-intelligence]]
+     mais sources:[] (devrait être sources:["[[islam-and-artificial-intelligence]]"])
+   — doctrinal/autorites/al-khwarizmi.md → idem
+
+3. [étanchéité] Aucun franchissement §VI détecté dans les fiches investiguées.
+
+=== CONCLUSION ===
+2 fiches sur 4 ont leur source disponible dans le dépôt mais non déclarée en
+frontmatter (corps vs Sceau désynchronisés) ; 1 chaîne est incomplète (wazifa
+to-source → daghestani to-source) ; 1 source primaire manque (al-Nābulusī).
+Prochaine priorité : investiguer les fiches `sources_count: 0` du lot suivant
+(doctrinal/annales.md exclu, 4 autres autorites après tri par date).
+
+Signé : Publication (veille référencement & investigation)
+```
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

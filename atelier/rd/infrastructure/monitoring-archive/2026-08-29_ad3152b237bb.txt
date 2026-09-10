@@ -1,0 +1,159 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-08-29
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+```
+ERREURS (bloquantes) :
+  [B1] atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md — clé de frontmatter manquante : `created`
+  [B1] atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md — clé de frontmatter manquante : `updated`
+
+AVERTISSEMENTS :
+  [A6] atelier/annales.md:1538 — corps d'entrée orphelin possible : 2 champs `- **Commit** :` dans une seule section — en-tête perdu lors d'une insertion ? (entrée [2026-08-20] rd | Lecture dynamique du manifeste par le prototype + instruction branche Kabbale)
+
+2 erreur(s), 1 avertissement(s).
+```
+
+**Signaux sémantiques** :
+• **Fichier** : `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md`
+  - **Ligne(s)** : frontmatter lignes 1-11
+  - **Anomalie** : Sceau atelier incomplet — `type: compte-rendu` non conforme à l'enum défini dans `atelier/CLAUDE.md` (valeurs attendues : `materiel | manuel | entretien | projet | etude-de-cas | experience | infrastructure | outillage`). Champs `created` et `updated` manquants (bloquant B1). La fiche porte un champ `date: 2026-08-29` qui n'existe pas dans le Sceau atelier — confusion avec un autre protocole.
+
+• **Fichier** : `doctrinal/symboles/tibb-e-nabawi.md`
+  - **Ligne(s)** : 15-17
+  - **Anomalie** : `sources: [- to-source]` suivi de `sources_count: 0` — incohérence. Le marqueur `to-source` est une chaîne, pas un wikilink. `sources_count` devrait refléter `len(sources)`, donc 1, pas 0. Le script ne le détecte pas car il vérifie la clé existe, pas sa cohérence sémantique avec `sources_count`.
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (limit 5)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**1. doctrinal/symboles/mihrab-torii.md**
+   Titre : Le Miḥrāb et le Torii — comparatisme guénonien du Seuil sacré
+   Mots-clés : Mihrab, Torii, Shinto, Ibn Arabi, René Guénon, seuil
+   
+   Correspondances raw/ :
+   - `raw/Awrad_Ibn_Arabi.pdf` — source potentielle pour la lecture akbarienne du Miḥrāb
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune trouvée
+   
+   Correspondances doctrinal/ :
+   - `doctrinal/traditions/shinto.md` — fiche existante sur le Shintō (aussi en `sources_count: 0`)
+   - `doctrinal/autorites/ibn-arabi` — autorité citée (fiche non localisée par grep)
+   - `doctrinal/autorites/rene-guenon` — autorité citée (non vérifiée)
+   
+   Recommandation : source absente — citation Guénon « toute Porte sacrée est une image du passage entre le monde manifesté et le Principe » marquée « non vérifiée ». Œuvres Guénon possibles dans `raw/Études sur l'Hindouïsme` ou `raw/Autorité Spirituelle et Pouvoir Temporel` — à vérifier manuellement.
+
+**2. doctrinal/symboles/uriner-en-reve.md**
+   Titre : Uriner en rêve
+   Mots-clés : Ibn Sīrīn, oniromancie, rêve
+   
+   Correspondances raw/ :
+   - aucune trouvée
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - `bibliographie-ihwan-al-safa.md` — correspondance partielle (mot « rêve » générique, pas Ibn Sīrīn)
+   - `index-rig-veda.md` — correspondance partielle (mot « rêve » générique)
+   
+   Correspondances doctrinal/ :
+   - `doctrinal/symboles/taabir-al-ruya` — parente (non lue, existence supposée)
+   - `doctrinal/autorites/ibn-sirin` — autorité citée (non vérifiée)
+   
+   Recommandation : source absente du dépôt — Ibn Sīrīn est cité sans référence textuelle vérifiable. La fiche elle-même signale « citation rapportée, non vérifiée ». Œuvre majeure : *Tafsīr al-Aḥlām* (Interprétation des rêves) — absente du dépôt.
+
+**3. doctrinal/symboles/chaussure-en-reve.md**
+   Titre : Chaussure (naʿl) en rêve
+   Mots-clés : chaussure, naʿl, rêve, soufisme
+   
+   Correspondances raw/ :
+   - aucune trouvée
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune trouvée
+   
+   Correspondances doctrinal/ :
+   - `doctrinal/symboles/taabir-al-ruya` — parente
+   - `doctrinal/symboles/homme-pieux-en-reve` — connexe (non vérifiée)
+   
+   Recommandation : source absente — citation soufie « rapportée, non vérifiée ». Aucun texte source identifié dans le dépôt.
+
+**4. doctrinal/symboles/tibb-e-nabawi.md**
+   Titre : Tibb-e-Nabawi (médecine prophétique)
+   Mots-clés : Tibb, médecine prophétique, Ibn Qayyim, Ibn Sina, hijama, nigelle
+   
+   Correspondances raw/ :
+   - `raw/Body_Types_Book.pdf` — source probable (ouvrage d'Aiman Attar sur les types constitutionnels en médecine islamique)
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - `catalogue-bibliotheque.md` — contient des entrées médecine/islam
+   
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/meftah-chatons-sagesses-transcription.md` — transcription (non lue)
+   - `doctrinal/sources/kitab-al-tarifat-jurjani.md` — dictionnaire technique (non lu)
+   - `doctrinal/autorites/aiman-attar.md` — fiche autorité, `sources_count: 1` (sourcée)
+   - `doctrinal/autorites/ibn-qayyim.md` — fiche autorité, `sources_count: 0` (marqué `to-source`)
+   
+   Recommandation : **source candidate identifiée** — `raw/Body_Types_Book.pdf` (Aiman Attar) est très probablement la source primaire. La fiche `doctrinal/autorites/aiman-attar.md` est déjà sourcée vers `body-types`, ce qui pourrait être une transcription de ce PDF. À vérifier : le contenu de `doctrinal/sources/body-types` (non lu).
+
+**5. doctrinal/symboles/tapisserie-navajo.md**
+   Titre : Tapisserie Navajo (Yei) — lecture comparative
+   Mots-clés : Navajo, Yei, Diné, tapisserie, comparatisme
+   
+   Correspondances raw/ :
+   - aucune trouvée
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - aucune trouvée
+   
+   Correspondances doctrinal/ :
+   - `doctrinal/autorites/ibn-arabi` — cadre mobilisé (non vérifié)
+   - `doctrinal/autorites/rene-guenon` — cadre mobilisé (non vérifié)
+   
+   Recommandation : source absente — fiche purement interprétative sur un objet personnel de Sidy. Aucune source académique ou traditionnelle Navajo dans le dépôt. Le bloc « Forme Traditionnelle Divergente » signale correctement le risque de conflation.
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 1
+  - raw/ : 1 (`Body_Types_Book.pdf` pour Tibb-e-Nabawi)
+  - atelier/rd/bibliotheque/ : 0
+  - doctrinal/ : 0 (fiches autorités existent mais non sourcées elles-mêmes)
+Sources absentes du dépôt : 4
+
+=== SIGNALEMENTS ===
+
+**1. Frontmatter bloquant** — `atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation.md`
+   - Type `compte-rendu` non conforme au Sceau atelier
+   - Champs `created` et `updated` manquants
+   - Champ `date` non prévu par le Sceau
+
+**2. Incohérence sémantique** — `doctrinal/symboles/tibb-e-nabawi.md`
+   - `sources: [- to-source]` + `sources_count: 0` — contradiction
+   - `to-source` est un marqueur, pas une source
+
+**3. Avertissement annales** — `atelier/annales.md:1538`
+   - Double champ `- **Commit** :` dans une seule section
+   - En-tête potentiellement perdu lors d'une insertion
+
+**4. Source candidate** — `raw/Body_Types_Book.pdf`
+   - Probable source de `doctrinal/symboles/tibb-e-nabawi.md`
+   - À vérifier si `doctrinal/sources/body-types` existe (transcription)
+
+**5. Fiches autorités non sourcées**
+   - `doctrinal/autorites/ibn-qayyim.md` — `to-source`
+   - `doctrinal/traditions/shinto.md` — `sources_count: 0`
+
+=== CONCLUSION ===
+Le dépôt présente 2 erreurs frontmatter bloquantes (1 fiche R&D non conforme + 1 incohérence sources/sources_count) et 4 fiches doctrinales sans sources identifiables dans le dépôt. Une source candidate (`Body_Types_Book.pdf`) a été identifiée pour Tibb-e-Nabawi. Priorité d'investigation : vérifier l'existence de `doctrinal/sources/body-types` et corriger le frontmatter de la fiche R&D GitHub automation.
+
+Signé : Publication (veille référencement & investigation)
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

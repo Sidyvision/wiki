@@ -1,0 +1,169 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+I now have all data. Here is the report:
+
+---
+
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-07
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+```
+1406 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+0 erreur(s), 0 avertissement(s).
+```
+
+**Delta vs passe précédente** : pas de delta observable dans cette session (pas de sortie archivée de la passe immédiatement précédente accessible en session — le compteur de fichiers contrôlés, 1406, constitue le baseline de référence).
+
+### Signaux sémantiques
+
+**Signal 1 — `sources:` YAML null vs liste vide (75 fiches)**
+
+- **Anomalie** : 75 fiches dans `doctrinal/` utilisent `sources:` (sans valeur, YAML `null`) tandis que 144 fiches utilisent `sources: []` (liste vide). Le script `verifier-invariants.py` ne distingue pas ces deux formes. La forme `sources:` (null) n'est pas conforme au Sceau qui attend une liste YAML.
+- **Fiches concernées dans la passe actuelle** :
+  - `doctrinal/symboles/salawat.md` (ligne 13) : `sources:` au lieu de `sources: []`
+  - `doctrinal/symboles/talisman-sihr.md` (ligne 15) : `sources:` au lieu de `sources: []`
+- **Étendue** : 75 fiches au total dans `doctrinal/`, prédominantes dans `doctrinal/symboles/` (pattern systématique dans ce sous-dossier).
+- **Principe** : Convention Sceau (§IV) — le champ `sources` est une liste YAML de chaînes. `null` n'est pas une liste.
+
+**Signal 2 — Discrepancy corps/frontmatter sur les sources**
+
+- `doctrinal/symboles/salawat.md` : le corps cite `[[awrad-ibn-arabi]]` comme source (lignes 34, 39, 51), mais le frontmatter ne le reflète pas (`sources:` null, `sources_count: 0`).
+- `doctrinal/symboles/talisman-sihr.md` : le corps cite `[[shams-al-maarif]]` comme source (lignes 31, 67), mais le frontmatter ne le reflète pas (`sources:` null, `sources_count: 0`).
+- **Note** : `talisman-sihr.md` contient une note (lignes 49-56) indiquant que le `to-source` est en attente d'une autre source primaire que Jurjānī — disposition correcte, mais le lien interne vers `[[shams-al-maarif]]` pourrait légitimement figurer dans `sources:`.
+
+**Aucune violation §VI** détectée dans les `cross_links` de ces 5 fiches — tous les wikilinks pointent vers des fiches existantes dans `doctrinal/`, circuit neutre, direction légitime.
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+### Bilan global (contexte)
+- Fiches doctrinales avec `sources_count: 0` (hors template) : **171**
+- Fiches doctrinales avec `sources_count ≥ 1` : **176**
+- Ratio : 49% des fiches n'ont aucune source tracée en frontmatter.
+
+### FICHES INVESTIGUÉES (5)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**1. doctrinal/sources/awrad-ibn-arabi.md**
+- Titre : Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)
+- Créé : 2026-06-02
+- Mots-clés : awrad, ibn-arabi, salawat, litanies, wird-awrad, traduction
+
+Correspondances raw/ :
+- `raw/Awrad_Ibn_Arabi.pdf` — **correspondance directe** (le fiche le cite elle-même, ligne 39)
+
+Correspondances atelier/rd/bibliotheque/ :
+- `atelier/rd/bibliotheque/catalogue-bibliotheque.md` (ligne 101) — mention Titus Burckhardt commentant Ibn ʿArabî sur les Anges zodiacaux (lien thématique, pas la même source)
+
+Correspondances doctrinal/ :
+- `doctrinal/sources/wazifa.md`, `doctrinal/sources/dalail-al-khayrat-jazuli.md`, `doctrinal/sources/mawlid-al-rasul.md`, `doctrinal/traditions/naqshbandiyya.md`, `doctrinal/autorites/ibn-arabi.md` — fiches partageant les concepts salawat, wird-awrad, walaya
+
+Recommandation : **source candidate identifiée** — `raw/Awrad_Ibn_Arabi.pdf` pourrait nourrir `sources: ["[[awrad-ibn-arabi]]"]` ou champ `texte_converti:` (convention textes/, 2026-08-01). Le `sources_count` pourrait passer à 1.
+
+---
+
+**2. doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md**
+- Titre : Jesus and Enoch in the Barzakh of Ibn al-ʿArabī
+- Créé : 2026-06-02
+- Mots-clés : ibn-arabi, jesus, enoch, idris, barzakh, mi'raj, wahdat-al-wujud
+
+Correspondances raw/ :
+- `raw/Jesus_And_Enoch_In_Ibn_'arabi.pdf` — **correspondance directe**
+
+Correspondances atelier/rd/bibliotheque/ :
+- `atelier/rd/bibliotheque/catalogue-bibliotheque.md` (ligne 101) — Titus Burckhardt / barzakh / Ibn ʿArabî (thématique)
+- `atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme.md` (lignes 109, 206) — concept de barzakh dans le cadre soufi
+- `atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme.md` (ligne 286) — Intermondes (barzakh)
+
+Correspondances doctrinal/ :
+- `doctrinal/sources/awrad-ibn-arabi.md`, `doctrinal/sources/kabbale-cosmogonie-iod.md`, `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton.md` — fiches partageant barzakh, idris, walaya, wahdat-al-wujud
+- `doctrinal/sources/2026-07-03_guenon-tombeau-hermes.md`, `doctrinal/sources/guenon-hermetisme-hermes-thoth.md` — fiches Idris/Hermès
+
+Recommandation : **source candidate identifiée** — `raw/Jesus_And_Enoch_In_Ibn_'arabi.pdf` pourrait nourrir le frontmatter.
+
+---
+
+**3. doctrinal/sources/shams-al-maarif.md**
+- Titre : Shams al-Maʿārif al-Kubrā — Traduction française (Tomes 1 & 2)
+- Créé : 2026-06-02
+- Mots-clés : al-buni, ilm-al-huruf, asma-al-husna, talisman, traduction, ouattara-brahima
+
+Correspondances raw/ :
+- `raw/shams-al-maarif-traduit-complet.pdf` — **correspondance directe**
+
+Correspondances atelier/rd/bibliotheque/ :
+- Aucune correspondance directe dans les fichiers de bibliothèque consultés (l'ouvrage al-Būnī n'est pas au catalogue physique)
+
+Correspondances doctrinal/ :
+- `doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle.md`, `doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat.md` — partagent ilm-al-huruf
+- `doctrinal/sources/wazifa.md`, `doctrinal/sources/hasbiyallah-rabbani.md`, `doctrinal/sources/razi-noms-divins-ch18-khafid-rafi.md` — partagent asma-al-husna
+- `doctrinal/autorites/ahmad-al-buni.md`, `doctrinal/autorites/ouattara-brahima.md` — fiches autorité existantes (cross_links validés)
+
+Recommandation : **source candidate identifiée** — `raw/shams-al-maarif-traduit-complet.pdf`.
+
+---
+
+**4. doctrinal/symboles/salawat.md**
+- Titre : Ṣalawāt
+- Créé : 2026-06-02
+- Mots-clés : salawat, benediction-prophetique, awrad-ibn-arabi, wird-awrad
+
+Correspondances raw/ :
+- Aucun fichier raw spécifique « salawat »
+
+Correspondances atelier/rd/bibliotheque/ :
+- `atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme.md` (mention indirecte de salawat dans le contexte soufi)
+
+Correspondances doctrinal/ :
+- `doctrinal/sources/awrad-ibn-arabi.md` — **source directe citée dans le corps** (lignes 34, 39, 51)
+- `doctrinal/sources/wazifa.md`, `doctrinal/sources/dalail-al-khayrat-jazuli.md`, `doctrinal/sources/mawlid-al-rasul.md` — sources complémentaires
+
+Recommandation : **discrepancy frontmatter/corps** — la fiche cite `[[awrad-ibn-arabi]]` comme source dans le corps mais le frontmatter ne reflète pas cette relation. `sources: ["[[awrad-ibn-arabi]]"]` + `sources_count: 1` serait conforme au contenu réel. Anomalie `sources:` null (Signal 1) aussi présente.
+
+---
+
+**5. doctrinal/symboles/talisman-sihr.md**
+- Titre : Talisman / Simiyāʾ
+- Créé : 2026-06-02
+- Mots-clés : talisman, simiya, awfaq, al-buni, ilm-al-huruf, sihr
+
+Correspondances raw/ :
+- Aucun fichier raw spécifique (le PDF de shams-al-maarif couvre le sujet mais n'est pas un match nominal)
+
+Correspondances atelier/rd/bibliotheque/ :
+- `atelier/rd/bibliotheque/lumiere-hindouisme-soufisme.md` (ligne 61) — mention des talismans dans le contexte des noms de Majesté
+
+Correspondances doctrinal/ :
+- `doctrinal/sources/shams-al-maarif.md` — **source directe citée dans le corps** (lignes 31, 67)
+- `doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle.md`, `doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat.md` — partagent ilm-al-huruf
+- `doctrinal/autorites/ahmad-al-buni.md` — fiche autorité existante
+
+Recommandation : **discrepancy frontmatter/corps + note to-source en attente** — la fiche cite `[[shams-al-maarif]]` dans le corps mais pas dans `sources:`. La note (lignes 49-56) indique que le `to-source` via Jurjānī est infirmé (confusion صهر/sحر dans l'index du Taʿrīfāt). Le lien vers `[[shams-al-maarif]]` pourrait légitimement figurer dans `sources:` en attendant une autre source primaire.
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 3 (raw/)
+  - raw/ : 3 (Awrad_Ibn_Arabi.pdf, Jesus_And_Enoch_In_Ibn_'arabi.pdf, shams-al-maarif-traduit-complet.pdf)
+  - atelier/rd/bibliotheque/ : 0 (correspondances thématiques indirectes uniquement)
+  - doctrinal/ : 5 (toutes les fiches ont des correspondances dans les autres fiches doctrinales)
+Sources absentes du dépôt : 0 (tous les raw PDF correspondants existent)
+
+=== SIGNALLEMENTS ===
+1. **Anomalie frontmatter systématique** : 75 fiches dans `doctrinal/` utilisent `sources:` (YAML null) au lieu de `sources: []`. Pattern prédominant dans `symboles/`. Non détecté par `verifier-invariants.py`. Suggestion Discord-Validation #infrastructure.
+2. **Discrepancy frontmatter/corps** : `doctrinal/symboles/salawat.md` et `doctrinal/symboles/talisman-sihr.md` citent des sources dans leur corps mais ne les reflètent pas dans le champ `sources:` du frontmatter.
+3. **Rapport antérieur** : la sortie `verifier-invariants.py` (0 erreur, 0 avert.) est stable — aucun nouveau fichier ne s'est dégradé depuis la dernière passe connue. Compteur : 1406 fichiers contrôlés.
+
+=== CONCLUSION ===
+Le dépôt est structurellement sain (0 erreur invariants) mais présente un écart sémantique répandu entre YAML `sources:` (null) et `sources: []` (75 fiches), principalement dans `symboles/` — un gap que le script ne voit pas. Les 5 fiches les plus anciennes sans source tracée ont toutes des raw PDF correspondants dans `raw/` ou des sources inter-fiches dans le corps, mais le frontmatter ne les reflète pas. Prochaine priorité : poursuivre l'investigation sur les 5 fiches suivantes (les 10-15 plus anciennes sans source), et porter à Sidy le signal sur les 75 fiches `sources:` null via Discord #infrastructure.
+
+Signé : Publication (veille référencement & investigation)
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

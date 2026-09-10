@@ -1,0 +1,177 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-08-30
+Profil : publication
+Canal : #infrastructure
+
+§1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+```
+ERREURS (bloquantes) :
+  [B1] atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac.md — clé de frontmatter manquante : `created`
+  [B1] atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac.md — clé de frontmatter manquante : `updated`
+  [B0] raw/La-Puissance-Du-Serpent.md — aucun frontmatter délimité par `---`
+  [B0] raw/La Lumière - Daryush Shayegan/IV.md — aucun frontmatter délimité par `---`
+  [B0] raw/Les Quatre Mondes - Daryush Shayegan/LES QUATRE MONDES.md — aucun frontmatter délimité par `---`
+
+AVERTISSEMENTS :
+  [A6] atelier/annales.md:1602 — corps d'entrée orphelin possible : 2 champs `- **Commit** :` dans une seule section — en-tête perdu lors d'une insertion ? (entrée [2026-08-20] rd | Lecture dynamique du manifeste par le prototype + instruction branche Kabbale)
+```
+
+**Signaux sémantiques** :
+
+• **Fichier** : `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac.md`
+  • **Lignes** : frontmatter lignes 1–7
+  • **Anomalie** : Frontmatter utilise `date:` au lieu de `created:`/`updated:`. Ce fichier de type `session` devrait suivre le Sceau atelier (voir `atelier/CLAUDE.md`). À corriger : remplacer `date: 2026-08-30` par `created: 2026-08-30` + `updated: 2026-08-30`.
+
+• **Fichier** : `raw/La-Puissance-Du-Serpent.md`
+  • **Ligne** : 1
+  • **Anomalie** : Fichier markdown dans `raw/` sans frontmatter. Selon le protocole, `raw/` contient des sources brutes immuables. Si ce fichier est destiné à rester en markdown, il devrait être déplacé vers un circuit approprié ou conserver son format PDF/source brute.
+
+• **Fichier** : `atelier/annales.md:1602`
+  • **Ligne** : 1602
+  • **Anomalie** : L'entrée `[2026-08-20] rd | Lecture dynamique...` semble avoir un commit orphelin à la ligne 1598 (`- **Commit** : 18e85b3`) qui pourrait être le résidu d'une insertion mal formée. L'avertissement du script signale une duplication du champ Commit dans cette zone.
+
+§2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+FICHES INVESTIGUÉES (limit 5)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**1. doctrinal/autorites/ibn-sina.md**
+   Titre : Ibn Sīnā (Avicenne)
+   Mots-clés : Avicenne, Ibn Sīnā, philosophie islamique, métaphysique de l'âme, Floating Man, péripatétisme
+   
+   Correspondances raw/ :
+   - Aucune
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - `index-rig-veda.md` — mention contextuelle (non source primaire)
+   
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/islam-and-artificial-intelligence.md` — SOURCE PRIMAIRE IDENTIFIÉE : fiche source complète citant Ibn Sīnā
+   - `doctrinal/sources/kitab-tarifat-index-transcription.md` — index, possible mention
+   - `doctrinal/autorites/al-ghazali.md` — cross-link, al-Ghazali réfute Ibn Sīnā
+   - `doctrinal/autorites/yaqub-chaudhary.md` — auteur de la source primaire
+   
+   **Recommandation** : Source candidate identifiée — `[[islam-and-artificial-intelligence]]` (PDF source en `raw/islam-and-artificial-intelligence.pdf`, fiche doctrinale `doctrinal/sources/islam-and-artificial-intelligence.md`). Cette source soutient directement les faits énoncés dans la fiche Ibn Sīnā.
+
+---
+
+**2. doctrinal/sources/awrad-ibn-arabi.md**
+   Titre : Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)
+   Mots-clés : Ibn ʿArabī, awrād, salawat, litanies, ISCA, Ali Hussain, Haqqani
+   
+   Correspondances raw/ :
+   - `raw/Awrad_Ibn_Arabi.pdf` — SOURCE PRIMAIRE IDENTIFIÉE : le PDF source de l'ouvrage
+   - `raw/Jesus_And_Enoch_In_Ibn_'arabi.pdf` — secondaire, contexte akbarien
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - `catalogue-bibliotheque.md` — mention Ibn ʿArabī (non vérifié si Awrād spécifiquement)
+   - `bibliographie-ihwan-al-safa.md`, `index-noms-ihwan-al-safa.md`, `table-ihwan-al-safa.md` — mentions contextuelles
+   
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot.md` — Ibn ʿArabī, Futūḥāt
+   - `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton.md` — Ibn ʿArabī
+   - `doctrinal/sources/mahdi-rouge-islam-signe-balance-II.md`, `ilm-al-nujum-astrologie-traditionnelle.md` — mentions
+   
+   **Recommandation** : Source candidate identifiée — le PDF source existe en `raw/Awrad_Ibn_Arabi.pdf`. La fiche elle-même est une fiche *source* décrivant l'ouvrage — elle devrait pointer vers le PDF comme source de validation de son contenu.
+
+---
+
+**3. doctrinal/autorites/ibn-qayyim.md**
+   Titre : Ibn Qayyim al-Jawziyya
+   Mots-clés : Ibn Qayyim, Jawziyya, Tibb-e-Nabawi, médecine prophétique, Ibn Taymiyya, hanbalite
+   
+   Correspondances raw/ :
+   - Aucune
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - `index-noms-ihwan-al-safa.md` — mention contextuelle (non pertinent)
+   
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/histoire-wahhabis-corancez-redissi.md` — possible mention (ouvrage sur wahhabisme, contexte hanbalite)
+   - `doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription.md` — possible mention
+   
+   **Recommandation** : Source absente du dépôt. Aucun ouvrage d'Ibn Qayyim ni étude secondaire sur lui n'est présent dans `raw/` ni catalogué dans la bibliothèque. La fiche est marquée `stub` — à enrichir quand une source sera acquise.
+
+---
+
+**4. doctrinal/etudes/2026-06-04_islam-et-ia.md**
+   Titre : Islam et Intelligence Artificielle
+   Mots-clés : Islam, IA, Yaqub Chaudhary, tawḥīd, âme, métaphysique, al-Jazari, al-Khwarizmi
+   
+   Correspondances raw/ :
+   - `raw/islam-and-artificial-intelligence.pdf` — SOURCE PRIMAIRE IDENTIFIÉE
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - `bibliographie-ihwan-al-safa.md`, `catalogue-bibliotheque.md` — mentions contextuelles
+   - `majma-al-bahrayn-hindouisme-soufisme.md`, `preface-introduction-porte-du-ciel.md`, `sommaire-hindouisme-soufisme.md` — contexte islam/soufisme
+   
+   Correspondances doctrinal/ :
+   - `doctrinal/sources/islam-and-artificial-intelligence.md` — FICHE SOURCE existante, `sources_count: 0` également
+   
+   **Recommandation** : Source candidate identifiée — `[[islam-and-artificial-intelligence]]`. Note : la fiche source correspondante (`doctrinal/sources/islam-and-artificial-intelligence.md`) a également `sources_count: 0`, ce qui est attendu pour une fiche *source* (elle EST la source, elle ne cite pas d'autres sources). La fiche *étude* devrait citer la fiche *source*.
+
+---
+
+**5. doctrinal/autorites/ibn-sirin.md**
+   Titre : Muḥammad ibn Sīrīn
+   Mots-clés : Ibn Sīrīn, oniromancie, taʿbīr al-ruʾyā, rêves, interprétation
+   
+   Correspondances raw/ :
+   - Aucune
+   
+   Correspondances atelier/rd/bibliotheque/ :
+   - Aucune
+   
+   Correspondances doctrinal/ :
+   - `doctrinal/autorites/al-nabulusi.md` — cross-link (Nābulusī, auteur postérieur sur l'oniromancie)
+   
+   **Recommandation** : Source absente du dépôt. Aucun ouvrage d'Ibn Sīrīn ni étude secondaire sur l'oniromancie islamique classique n'est présent. La fiche est marquée `stub` — à enrichir quand une source sera acquise.
+
+=== STATISTIQUES ===
+Fiches investiguées : 5
+Sources candidates identifiées : 3
+  - raw/ : 2 (Awrad_Ibn_Arabi.pdf, islam-and-artificial-intelligence.pdf)
+  - atelier/rd/bibliotheque/ : 0 (sources contextuelles uniquement)
+  - doctrinal/ : 3 (fiches sources existantes)
+Sources absentes du dépôt : 2 (Ibn Qayyim, Ibn Sīrīn)
+
+=== SIGNALLEMENTS ===
+
+**Sources candidates à ajouter aux fiches :**
+
+| Fiche | Source candidate | Action suggérée |
+|-------|-----------------|-----------------|
+| `doctrinal/autorites/ibn-sina.md` | `[[islam-and-artificial-intelligence]]` | Ajouter à `sources:` |
+| `doctrinal/sources/awrad-ibn-arabi.md` | `[[raw/Awrad_Ibn_Arabi.pdf]]` (format à définir) | Documenter la source PDF dans le corps ou via convention |
+| `doctrinal/etudes/2026-06-04_islam-et-ia.md` | `[[islam-and-artificial-intelligence]]` | Ajouter à `sources:` |
+
+**Fiches sans source dans le dépôt :**
+
+| Fiche | Source manquante |
+|-------|-----------------|
+| `doctrinal/autorites/ibn-qayyim.md` | Œuvre d'Ibn Qayyim ou étude secondaire |
+| `doctrinal/autorites/ibn-sirin.md` | Œuvre d'Ibn Sīrīn ou étude sur taʿbīr al-ruʾyā |
+
+**Anomalies frontmatter à corriger :**
+
+| Fichier | Anomalie |
+|---------|----------|
+| `atelier/rd/2026-08-30_session-corrections-rapports-rotation-hmac.md` | Remplacer `date:` par `created:`/`updated:` |
+| `raw/La-Puissance-Du-Serpent.md` | Markdown sans frontmatter dans raw/ |
+| `raw/La Lumière - Daryush Shayegan/IV.md` | Markdown sans frontmatter dans raw/ |
+| `raw/Les Quatre Mondes - Daryush Shayegan/LES QUATRE MONDES.md` | Markdown sans frontmatter dans raw/ |
+| `atelier/annales.md:1602` | Entrée potentiellement orpheline — vérifier insertion |
+
+=== CONCLUSION ===
+3 fiches sur 5 investiguées disposent de sources candidates dans le dépôt (Ibn Sīnā, Awrād Ibn ʿArabī, Islam-et-IA). 2 fiches (Ibn Qayyim, Ibn Sīrīn) sont des stubs sans source disponible. Priorité d'investigation suivante : les 13 fiches restantes avec `sources_count: 0`, en commençant par les plus anciennes (technologisation-pseudo-scientifique.md, pierres-astres-barzakh.md, signaletique-spirituelle-kiswa.md — toutes 2026-06-20).
+
+Signé : Publication (veille référencement & investigation)
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").
