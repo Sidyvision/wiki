@@ -736,13 +736,18 @@ def controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap):
 # 2026-09-10 (commit 09b9ee5) le constate après une violation commise par la
 # machine elle-même. Ce contrôle est la garde mécanique correspondante.
 #
-# TROIS CHOIX DE PORTÉE, volontairement étroits, et qu'un verdict de Sidy peut
-# élargir (Cmd 12 — la machine ne décide pas seule d'une règle) :
+# PORTÉE. Trois points ont été soumis à Sidy le jour de l'ajout — le périmètre
+# côté source, la définition de « non tranché », et le niveau d'émission — et
+# **tranchés par lui le 2026-09-10** : « Les trois choix de portée que tu m'as
+# soumis sont la lecture correcte. pour 3. pas de passage en erreur. » Le « 3. »
+# y vise le NIVEAU D'ÉMISSION, traité au paragraphe qui suit la liste ci-dessous.
+# Ce ne sont donc plus des choix de la machine en attente d'arbitrage, mais la
+# lettre reçue de la règle. Ce que le contrôle tient pour établi :
 #
 # 1. « Page orthodoxe » = `status: traditionnel`, et rien d'autre. Le
 #    vocabulaire clos du Sceau fait de `contre-traditionnel` et de `profane`
 #    l'inverse d'une page orthodoxe ; `academique` est le cas limite, laissé
-#    hors périmètre faute de verdict.
+#    hors périmètre — lecture confirmée par le verdict du 2026-09-10.
 # 2. « Non tranché » = `status: speculatif` au cartouche de la fiche cible,
 #    ce que le Sceau définit lui-même comme « statut transitoire — doit évoluer
 #    vers un statut définitif à la clôture du discernement ». Le champ
@@ -759,8 +764,10 @@ def controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap):
 # 45 au corps), tous antérieurs à ce contrôle. Les porter en erreur
 # casserait rétroactivement un dépôt vert et forcerait 71 corrections que la
 # machine n'a pas qualité pour décider (Cmd 12). Même raison, même forme que
-# l'avertissement C4. Le passage en erreur relève d'un verdict de Sidy, une
-# fois l'assiette traitée.
+# l'avertissement C4. **Le passage en erreur est écarté par le verdict du
+# 2026-09-10** — il n'est pas différé jusqu'au traitement de l'assiette, il
+# n'aura pas lieu : C5, C6 et C7 avertissent, et rien de plus. Un contributeur
+# qui voudrait les rendre bloquants irait contre un verdict rendu (Cmd 10).
 
 STATUTS_SCEAU = {"traditionnel", "academique", "profane",
                  "contre-traditionnel", "speculatif"}
