@@ -1,13 +1,59 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-10
+updated: 2026-09-12
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-12] archivage | Transcription Gloton pp. 552-553 — entrées 1013-1017, cliché versé en session
+
+Cliché unique (pp. 552-553, double page) fourni par Sidy directement dans la
+conversation — image jointe, non déposée sous nom `IMG_` dans `raw/assets/` compte
+tenu du caractère éphémère de l'environnement d'exécution distant de cette session.
+Transcrit par **lecture directe** de l'image, sur consigne explicite : « Transcris
+puis Intègre ces éléments de page au dépôt […] sans te soucier des définitions
+tronquées. »
+
+**Cinq entrées versées** dans une nouvelle section de
+[[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] : 1013 (ع س ى, 30
+occurrences, deux sens — « peut-être » et « se durcir/se dessécher »), 1014 (ع ش ر,
+27 occurrences — le nombre dix et le registre des relations sociales : ami,
+compagnon, allié, tribu), 1015 (ع ش و, 14 occurrences — entrée de la nuit, se
+diriger vers), 1016 (ع ص ب, 5 occurrences — groupe de dix à quarante, lié, serré),
+1017 (ع ص ر, 5 occurrences — presser, temps/siècle, tourbillon).
+
+**Sigle rectifié par recoupement de contenu** (même geste que la vérification
+croisée déjà pratiquée pour les pp. 412/857) : un repère lu d'abord « s.6 v.130 »
+sur le cliché, à proximité du verset « Il invoque… quel mauvais allié », a été
+recorrigé en **s.22 v.13** — le dernier mot de ce verset, *al-ʿashīr* (l'allié), est
+un dérivé sans ambiguïté de la racine ع ش ر de l'entrée 1014, ce que « s.6 v.130 »
+(le verset des djinns, Coran 6:130, cité par ailleurs pour l'entrée 1015) ne
+pouvait pas être.
+
+**Fragment liminaire signalé, non intégré comme entrée propre** : le haut de la
+p. 552 porte la fin d'un verset-témoin non numéroté sur le cliché (« … des fleuves
+de miel limpide … »), reconnaissable comme relevant de la racine ع س ل (Coran 47:15
+par recoupement de contenu, **non lu sur le cliché** — `to-source` en l'état, faute
+de vérification par Sidy sur texte primaire).
+
+**Table dense (entrée 1014, huit lignes a-h)** : la résolution ligne par ligne des
+formes arabes précises n'est pas assurée depuis le cliché (petit corps, colonnes
+serrées) ; seule la liste des gloses françaises, nettement lisible, a été reprise —
+conformément à la consigne reçue de ne pas suspendre l'intégration aux définitions
+tronquées.
+
+Fiche complétée (`updated` remonté au 2026-09-12, Cmd 8) ; `index.md` mis à jour
+(ligne Gloton).
+Cmd 15 (caractères Unicode invisibles) : 0 occurrence.
+`verifier-invariants.py` : **0 erreur, 73 avertissement(s)** — tous préexistants
+(étanchéité inversée sur des discernements non tranchés, sans rapport avec cette
+fiche ; aucune occurrence de « gloton » dans la sortie).
+
+- **Commit** : (renseigné après commit)
+
 ## [2026-09-10] recolte | Registre du Discernement — état de maturité des 58 fiches
 
 - **Rappel de Sidy** : « Le champ Discernement est une récolte, à toi de me signaler s'il s'en trouve est fruit et/l'état de maturité afin que je puisse tranché car au vue du nombre de fiche ça devient difficile à traité pour une seule personne. »

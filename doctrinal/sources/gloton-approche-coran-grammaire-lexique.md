@@ -5,7 +5,7 @@ status: academique
 tradition_cadre: "islam"
 tags: [gloton, lexique, racines-arabes, coran, rafa, darajat, transcription, albouraq]
 created: 2026-08-30
-updated: 2026-09-09
+updated: 2026-09-12
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/symboles/asma-al-husna]]", "[[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]]", "[[doctrinal/symboles/table-28-degres-nafas-rahman]]"]
@@ -180,6 +180,138 @@ fiche :
 > la cible d'aucun wikilink, et **ne lève par elle-même aucun `to-source`** : elle
 > reste une conversion de format, et le contrôle du texte primaire par Sidy demeure
 > requis (§VII.2, Cmd 5).
+
+## Pages photographiées — pp. 552-553 (2026-09-12)
+
+> **Cliché fourni par Sidy en session le 2026-09-12** (image jointe directement à
+> la conversation, non déposée sous nom `IMG_` dans `raw/assets/` compte tenu du
+> caractère éphémère de l'environnement d'exécution distant de cette session).
+> Transcription par lecture directe de l'image, sur consigne explicite : « Transcris
+> puis Intègre ces éléments de page au dépôt […] sans te soucier des définitions
+> tronquées. »
+
+### p. 552-553 — racines ع س ى, ع ش ر, ع ش و, ع ص ب, ع ص ر (entrées 1013-1017)
+
+#### Entrée 1013 — ع س ى (30 occurrences)
+
+Racine à deux sens sur le cliché. Sens **a | part** : *ʿasā* — peut-être (que), il
+est possible (que), il se peut (que). Verset-témoin **s.4 v.19** :
+
+> « Ô vous qui portez la foi ! Il ne vous est pas permis de recevoir des femmes en
+> héritage par contrainte. Ne les empêchez pas de se remarier dans le but de leur
+> soustraire une part de ce que vous leur aviez donné, sauf si elles agissent avec
+> une perversité notoire. Comportez-vous avec elles d'une manière convenable ; que
+> vous ayez de l'aversion envers elles, il se pourrait que vous ayez de l'aversion
+> envers une chose dans laquelle Allâh met un grand bien. »
+
+Second sens relevé sous la même racine, sans tableau de dérivés sur le cliché : se
+durcir, se dessécher, se flétrir, être très sombre.
+
+> ⚠️ **Fragment liminaire, entrée antérieure non couverte par ce cliché.** Le haut
+> de la p. 552 porte la fin d'un verset-témoin non numéroté sur cette page :
+> « (Voici) l'image du Jardin promis à ceux qui se gardent : là se trouvent des
+> fleuves d'une eau incorruptible ; des fleuves de lait au goût inaltérable ; des
+> fleuves de spiritueux, délectation pour les buveurs ; des fleuves de miel limpide.
+> Ceux-là ont dans le [Jardin] de tous les fruits et un recouvrement (des fautes)
+> qui proviennent de leur Enseigneur. Ceux-là sont-ils comme ceux qui se perpétuent
+> dans le Feu et sont abreuvés d'une eau bouillante qui déchire leurs entrailles ? »
+> — teneur reconnaissable (« miel limpide » → racine ع س ل). **Identification
+> proposée par recoupement de contenu, non lue sur le cliché** : Coran 47:15,
+> `to-source` faute de vérification par Sidy sur texte primaire. Rattaché ici sans
+> numéro d'entrée propre, conformément à la consigne reçue de ne pas suspendre
+> l'intégration aux définitions tronquées.
+
+#### Entrée 1014 — ع ش ر (27 occurrences)
+
+> Idée liée au nombre dix, notion de rassemblement, de communauté, de relations
+> sociales — pour la particularité de l'emploi des genres dans ces nombres, renvoi
+> encadré à une grammaire non identifiée sur le cliché (repère « Co »).
+
+Dérivés relevés (huit lignes a-h, chacune marquée d'un repère ❀ dans l'ouvrage) :
+
+- le nombre vingt, une vingtaine ;
+- (singulier nc) chamelle qui ne boit que tous les dix jours, chamelle pleine de
+  10 mois ou qui est dans son 10ᵉ mois ;
+- dixième ; ami, compagnon, époux, mari, familier, camarade, **allié**, d'amitié,
+  proche parent, tribu ;
+- proches parents, par l'affinité, famille incluse dans une communauté, tribu, clan,
+  peuplade ;
+- communauté de personnes, réunion, tribu, clan, peuplade ;
+- dixième partie, une partie de dix, chamelle qui a beaucoup de lait ;
+- cultiver la société de qqn, vivre avec qqn, avoir des contacts avec qqn,
+  fréquenter qqn, se comporter avec qqn — [impératif 2mpl].
+
+Verset-témoin **s.22 v.13** (le dérivé rouge **allié** ci-dessus y correspond au mot
+*al-ʿashīr*) :
+
+> « Il invoque, au lieu d'Allâh, ce qui ne lui nuit pas et ce qui ne lui est pas
+> profitable : voilà l'égarement extrême ! Il invoque assurément celui dont la
+> nuisance est plus probable que l'utilité. Quel mauvais protecteur et quel mauvais
+> allié ! »
+
+> ⚠️ **Sigle rectifié par recoupement.** Le cliché porte, à proximité immédiate de
+> ce verset, un repère d'abord lu comme « s.6 v.130 » ; le contenu du verset
+> (« Il invoque… quel mauvais allié ») est sans ambiguïté celui de Coran 22:13, dont
+> le dernier mot, *al-ʿashīr* (l'allié), est précisément un dérivé de la racine
+> ع ش ر de cette entrée — c'est cette concordance de contenu qui a tranché, le petit
+> corps typographique du cliché ne permettant pas de lire les deux chiffres avec
+> certitude. Même geste de vérification croisée que la section « p. 412 »
+> ci-dessus, ici appliqué au sigle lui-même plutôt qu'au renvoi.
+
+> ⚠️ **Table dense (a-h), glose seule.** Les huit lignes associent chacune un code
+> grammatical (n, na'n, v3…) et une forme translittérée à sa glose française ; la
+> résolution ligne par ligne des formes arabes précises n'est pas assurée depuis le
+> cliché (petit corps, colonnes serrées) — seule la liste des gloses françaises,
+> nettement lisible, est reprise ci-dessus, conformément à la consigne reçue de ne
+> pas suspendre l'intégration aux définitions tronquées.
+
+#### Entrée 1015 — ع ش و (14 occurrences)
+
+> Aller chez qqn la nuit, se diriger vers, s'approcher de qqn ; entrée de la nuit,
+> soirée ; période de temps où le jour disparaît et où la prière rituelle du soir
+> arrive ; être resté que le temps d'une soirée ou d'une matinée.
+
+Deux versets-témoins :
+
+- **s.79 v.46** : « Le Jour où ils la verront, c'est comme s'ils n'étaient restés
+  que le temps d'une soirée ou d'une matinée. »
+- **s.6 v.130** : « Ô assemblée des djinns et des humains ! Des messagers issus de
+  vous ne sont-ils pas venus à vous, vous exposant Mes Signes et vous avertissant
+  de la rencontre de votre jour que voici ? » Ils diront : « Nous en témoignons
+  contre nous-mêmes » — la vie de ce monde les a séduits ; ils témoigneront contre
+  eux-mêmes qu'ils se sont trouvés bel et bien mécréants.
+
+#### Entrée 1016 — ع ص ب (5 occurrences)
+
+> Serré, insupportable, difficile, critique, préjudiciable ; réunion d'hommes,
+> d'animaux, groupe de dix [à quarante], ployé, cambré, lié ; bander, serrer, être
+> sec, sécher.
+
+Verset-témoin **s.12 v.8** :
+
+> « Or ils dirent : "Assurément, Joseph et son frère sont plus aimés de notre père
+> que nous, alors que nous sommes bien un groupe (de dix)". Certes, notre père est
+> bien dans un égarement évident ! »
+
+#### Entrée 1017 — ع ص ر (5 occurrences)
+
+> Presser avec les doigts, fouler aux pieds le raisin (le linge), assurer,
+> compresser, broyer ; [actif, ind. 1sg/3mpl] temps, saison, fin d'une journée,
+> âge, siècle, époque ; tourbillon, ouragan, nuage orageux qui amène l'ouragan, la
+> tornade : cyclone, trombe ; nuages qui entraînent une violente pluie.
+
+Verset-témoin **s.2 v.266** :
+
+> « L'un de vous désire-t-il avoir un verger de palmiers et de vignes, sous lequel
+> coulent les ruisseaux, lui donnant de tous les fruits, et l'âge l'a atteint alors
+> qu'il a une descendance fragile ! Or, une tornade de feu s'est abattue sur lui et
+> l'a brûlé alors que ses enfants sont faibles. Ainsi Allâh rend explicites les
+> Signes pour vous afin que vous méditiez. »
+
+> Comme pour les pp. 412 et 857, cette transcription **ne lève aucun `to-source`**
+> par elle-même sur les points qui en portaient déjà un ailleurs dans le dépôt : elle
+> verse le contenu lexical de l'ouvrage, le contrôle du texte primaire par Sidy
+> restant la condition de toute levée (§VII.2, Cmd 5).
 
 ## Emploi de cet ouvrage dans le dépôt
 
