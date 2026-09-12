@@ -52,7 +52,7 @@ Cmd 15 (caractères Unicode invisibles) : 0 occurrence.
 (étanchéité inversée sur des discernements non tranchés, sans rapport avec cette
 fiche ; aucune occurrence de « gloton » dans la sortie).
 
-- **Commit** : (renseigné après commit)
+- **Commit** : e10d1a7
 
 ## [2026-09-10] recolte | Registre du Discernement — état de maturité des 58 fiches
 
