@@ -1,13 +1,22 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-10
+updated: 2026-09-13
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] correctifs | Sceau Recteur — 28 `sources:` nuls et 3 `sources_count` alignés au rapport de veille du jour
+
+- **Ordre de Sidy** : « tu peux exécuter les correctifs » (session du 2026-09-13), en réponse au rapport de veille-référencement qui portait ces défauts comme signaux S1, S3 et S10 — « jamais corrigés ».
+- **S10 — la forme prescrite n'était pas tenue** : 28 fiches de `doctrinal/` déclaraient `sources:` **nul** là où `doctrinal/CLAUDE.md` prescrit `[]` (« Liste vide = `[]` »). Les 28 passent à `sources: []`. Assiette : `sources/` 13 · `symboles/` 11 · `etudes/` 2 · `deviations/` 1 · `discernement/_template.md` 1. Aucun corps touché (Cmd 4, Cmd 11 — restauration, non réforme).
+- **S1 — `sources_count` faux sur 3 fiches** : `symboles/fiqh` (1→2), `discernement/2026-07-02_coudee-royale-convergence-28` (1→2), `discernement/2026-08-29_sept-poles-sept-lataif` (0→1). Règle appliquée : `sources_count` = longueur de la liste, **marqueur `to-source` compté comme un item** — convention observée sur 9 fiches du corpus, ces trois-là étant les seules à s'en écarter. Le marqueur lui-même est laissé en place : le retirer supposerait une levée de `to-source`, qui ne s'obtient que par vérification du texte primaire (§VII) et non par un correctif de comptage.
+- **Non corrigé — S2, et le motif est protocolaire** : `discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire` porte toujours `status: adopte`, hors des cinq valeurs du Sceau. `doctrinal/CLAUDE.md` est explicite sur ce champ : « Ce que fait la machine : relever les écarts […] **Ce qu'elle ne fait pas** : en conclure une valeur de `status` (Cmd 12). » Le correctif de forme s'arrête donc devant lui ; le code C7 reste ouvert, et seul Sidy peut le fermer. Valeur proposée à son arbitrage : `speculatif` (la fiche porte `verdict_date: 2026-08-11` et l'hypothèse est méthodologique, non doctrinale).
+- **État vérifié après passe** : `verifier-invariants.py` — 0 erreur, **72 avertissements** (73 avant ; C1 = 1 → 0, seule ligne non C5/C6/C7 corrigée). Hygiène Unicode (Cmd 15) : propre sur les 32 fichiers écrits. C5 = 26 et C6 = 45 inchangés (avertissements acceptés, verdict du 2026-09-10).
+- **Commit** : 4abaa8f
+
 ## [2026-09-10] recolte | Registre du Discernement — état de maturité des 58 fiches
 
 - **Rappel de Sidy** : « Le champ Discernement est une récolte, à toi de me signaler s'il s'en trouve est fruit et/l'état de maturité afin que je puisse tranché car au vue du nombre de fiche ça devient difficile à traité pour une seule personne. »

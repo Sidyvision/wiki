@@ -10,6 +10,12 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-13] correctifs | Lien de chantier du registre de traitement remis en forme conventionnelle
+
+- **Signal S3** du rapport de veille-référencement du 2026-09-13, corrigé sur ordre de Sidy (« tu peux exécuter les correctifs ») : `atelier/rd/infrastructure/monitoring-archive/registre-traitement.md` l.82 portait `[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm]]`, cible inexistante **en tant que fiche** — le chantier INF-16 vit en **dossier-triptyque** (`intent.md`/`spec.md`/`plan.md`, convention du 2026-09-01). Le lien vise désormais `…/inf-16-machine-ia-locale-slm/intent`, forme employée par les autres appelants du même chantier (`rd/registre-chantiers.md` l.195). Le C1 correspondant est fermé : le contrôle passe de 73 à 72 avertissements.
+- **Relevé, non corrigé** : les quatre sorties d'archivage `monitoring-archive/2026-09-1{2,3}_{41dc3e7e492c,ad3152b237bb}.txt` restent **non suivies par git** — c'est le signal du rapport Studio du jour (3 rapports sans entrée de traitement, dont celui de Publication). Elles n'ont pas été emportées par le commit des correctifs, qui n'a visé que les fichiers modifiés nommés.
+- **Commit** : 4abaa8f
+
 ## [2026-09-13] infrastructure | Provider LLM des trois gateways rétabli sur DeepSeek — la bascule du 11/09 n'était pas dans les configs
 
 - **Ordre de Sidy** : « Redémarre le gateway de Publication », puis, sur le
