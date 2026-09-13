@@ -6,9 +6,9 @@ maturite: germe
 tradition_cadre: "islam"
 tags: [aqtab, lataif, semnani, najm-kobra, prophetes, malakut-planetaire, miraj, septenaire]
 created: 2026-08-29
-updated: 2026-09-08
+updated: 2026-09-13
 sources: ["to-source"]
-sources_count: 0
+sources_count: 1
 cross_links: ["[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]]", "[[doctrinal/symboles/coeurs-subtils]]", "[[doctrinal/symboles/influx-spirituel-sommet-cranien]]"]
 ---
 

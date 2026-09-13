@@ -79,7 +79,7 @@ datées du jour de la passe et renvoyant au même détail) :
 **Rapport** : `monitoring-archive/2026-09-08_41dc3e7e492c.txt`.
 **Traité par** : session Hermes Agent (cette session, verdict Sidy).
 **Résumé** : 563 nœuds, 1920 arêtes (INF-16 intégré au graphe). 152 avertissements, 103 liens morts (−1). 2 fichiers `_inbox/` non commités. R&D : triptyque INF-16 complet (machine IA locale, visa plan attendu) ; OUT-08 OCR Futūḥāt post-essais (piste B validée, verdict critère 1 attendu). Signal : 76 fiches `sources:` null (augmenté de 75 à 76). Swap à 7,5 Mi / 2,0 Gi (saturation) — le RAM revient comme problème récurrent. Piste 5 de la synthèse (charte monitoring pour Publication) est aujourd'hui résolue (INF-15 clôturé cette session).
-**Détail** : [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm]], [[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]].
+**Détail** : [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]], [[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]].
 **Commit** : — (registre, en cours)
 
 

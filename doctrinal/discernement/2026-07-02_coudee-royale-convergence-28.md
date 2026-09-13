@@ -11,11 +11,11 @@ tags:
 - double-ancrage
 - discernement
 created: 2026-07-02
-updated: 2026-08-10
+updated: 2026-09-13
 sources:
 - to-source
 - '[[doctrinal/sources/gilis-ordo-ab-chao]]'
-sources_count: 1
+sources_count: 2
 cross_links:
 - '[[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]]'
 - '[[doctrinal/sources/gilis-ordo-ab-chao]]'

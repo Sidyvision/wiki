@@ -10,11 +10,11 @@ tags:
 - sharia
 - muamalat
 created: 2026-07-06
-updated: 2026-08-25
+updated: 2026-09-13
 sources:
 - '[[kitab-al-tarifat-jurjani]]'
 - to-source
-sources_count: 1
+sources_count: 2
 cross_links:
 - '[[madhhab-maliki]]'
 - '[[imam-malik]]'

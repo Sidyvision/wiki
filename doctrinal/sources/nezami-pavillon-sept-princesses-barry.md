@@ -13,8 +13,8 @@ tags:
 - litterature-persane
 - to-source
 created: 2026-07-24
-updated: 2026-07-24
-sources:
+updated: 2026-09-13
+sources: []
 sources_count: 0
 cross_links:
 - '[[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]]'

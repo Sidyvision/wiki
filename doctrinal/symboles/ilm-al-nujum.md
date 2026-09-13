@@ -11,8 +11,8 @@ tags:
 - maisons
 - tradition
 created: 2026-06-03
-updated: 2026-06-11
-sources:
+updated: 2026-09-13
+sources: []
 sources_count: 0
 cross_links:
 - '[[ilm-al-huruf]]'

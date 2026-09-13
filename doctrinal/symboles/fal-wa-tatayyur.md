@@ -9,8 +9,8 @@ tags:
 - divination
 - stub
 created: 2026-06-20
-updated: 2026-06-20
-sources:
+updated: 2026-09-13
+sources: []
 sources_count: 0
 cross_links: []
 ---

@@ -12,8 +12,8 @@ tags:
 - burckhardt
 - wahdat-al-wujud
 created: 2026-06-05
-updated: 2026-09-09
-sources:
+updated: 2026-09-13
+sources: []
 sources_count: 0
 cross_links:
 - '[[abd-al-karim-al-jili]]'

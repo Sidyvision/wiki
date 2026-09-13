@@ -10,8 +10,8 @@ tags:
 - etats-multiples
 - correspondance
 created: 2026-07-09
-updated: 2026-07-09
-sources:
+updated: 2026-09-13
+sources: []
 sources_count: 0
 cross_links:
 - '[[doctrinal/discernement/2026-06-20_visions-centre-nocturne]]'

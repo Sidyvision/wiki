@@ -11,8 +11,8 @@ tags:
 - soufisme
 - adab
 created: 2026-06-18
-updated: 2026-09-09
-sources:
+updated: 2026-09-13
+sources: []
 sources_count: 0
 cross_links:
 - '[[faraz-rabbani]]'

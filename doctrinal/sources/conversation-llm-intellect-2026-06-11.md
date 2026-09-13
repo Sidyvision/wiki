@@ -13,8 +13,8 @@ tags:
 - guenon
 - discernement
 created: 2026-06-11
-updated: 2026-06-20
-sources:
+updated: 2026-09-13
+sources: []
 sources_count: 0
 cross_links:
 - '[[2026-06-11_llm-wiki-modalite-intellect]]'
