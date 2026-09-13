@@ -12,7 +12,7 @@ tags:
 - al-buni
 - traduction
 created: 2026-06-02
-updated: 2026-06-11
+updated: 2026-09-13
 sources_count: 0
 cross_links:
 - '[[ahmad-al-buni]]'
@@ -37,6 +37,27 @@ sources: []
 - **Langue** : français, avec passages en arabe
 
 - **Couverture** : Tome 1 = pages 9 à 88 de l'original arabe seulement ; Tome 2 = ouvrage complémentaire du traducteur sur noms divins, invocations, géomancie
+
+## Éditions arabes versées dans `raw/` (2026-09-13)
+
+Deux éditions arabes numérisées ont été versées pour exploitation et comparaison, sur ordre
+de Sidy, dans ce dossier :
+
+`raw/shams-al-maarif-arabe/`
+
+Chemin nu : `raw/` est hors git et n'est la cible d'aucun lien. Le dossier contient, avec
+une fiche `PROVENANCE.md` (URLs, MD5, réserves) :
+
+- **Édition A**, « للشاملة » (archive.org `shams_al_maarif`) : PDF et texte OCR
+  **exploitable**. C'est là que se trouvent les trois occurrences de شمهورش. Voir
+  [[doctrinal/symboles/shamharush]].
+- **Édition B**, scan (archive.org `20230226_20230226_1533`) : PDF de 218 Mo et texte
+  OCR **défaillant**. C'est le témoin visuel à consulter pour vérifier sur l'image les
+  passages relevés dans A.
+- **Le texte extrait de la présente traduction**, pour la comparaison page à page.
+
+Ces éditions sont des mises en ligne anonymes. Leur rapport à une édition imprimée de
+référence reste à établir, et toute citation reste à vérifier par Sidy (`to-source`).
 
 ## Avertissement sur la source
 
