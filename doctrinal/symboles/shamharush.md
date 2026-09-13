@@ -1,5 +1,5 @@
 ---
-title: "Shamharush (Shamhûrash), roi des djinns croyants"
+title: "Shamharush (شمهورش, Shamhûrash), roi des djinns croyants"
 type: symbole
 status: traditionnel
 tradition_cadre: "islam"
@@ -9,16 +9,17 @@ updated: 2026-09-13
 sources: ["[[doctrinal/sources/guenon-lettre-genty-1937-07-14]]", "[[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]]", "[[doctrinal/sources/shams-al-maarif]]", "to-source"]
 sources_count: 4
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/traditions/tijaniyya]]", "[[doctrinal/symboles/jinns-classification-couleur]]", "[[doctrinal/symboles/talisman-sihr]]", "[[doctrinal/autorites/charles-andre-gilis]]"]
-original: ["to-original"]
+original: ["شمهورش"]
 ---
 
-# Shamharush (Shamhûrash), roi des djinns croyants
+# Shamharush (شمهورش, Shamhûrash), roi des djinns croyants
 
-> **Statut `traditionnel`** : verdict de Sidy du 2026-09-13. La forme arabe du nom est
-> déclarée absente (`to-original`). La seule qui circule au dépôt a été donnée par un
-> modèle, et une forme originale ne se restitue pas par un modèle (discipline des
-> langues originales, point 4). La mention de Gilis porte `to-source` tant que
-> l'ouvrage et la page n'ont pas été identifiés.
+> **Statut `traditionnel`** : verdict de Sidy du 2026-09-13. **Forme originale :
+> شمهورش**, relevée dans le texte arabe du *Shams al-Maʿārif al-Kubrā* et **validée par
+> Sidy le 2026-09-13** (« je valide شمهورش »). Le marqueur `to-original` est levé
+> (discipline des langues originales, point 4). La forme donnée en 2025 par un modèle
+> n'y est pour rien : elle n'a jamais servi de source. La mention de Gilis porte
+> `to-source` tant que l'ouvrage et la page n'ont pas été identifiés.
 
 ## Graphies et identification
 
@@ -33,13 +34,13 @@ s'agit bien de la même entité ». Elle ne repose pas sur un rapprochement phon
 par la machine. La fiche prend pour titre la graphie d'usage, et la graphie de Guénon
 en second.
 
-### Formes arabes attestées (recherche du 2026-09-13, à vérifier par Sidy)
+### Formes arabes attestées (recherche du 2026-09-13, شمهورش validée par Sidy)
 
 Recherche faite sur ordre de Sidy (« fais tes propres recherches sur le web »). Chaque
-forme ci-dessous est **relevée dans un texte**, jamais restituée par un modèle. Le
-marqueur `original: ["to-original"]` **reste en place** jusqu'à ce que Sidy ait vérifié
-lui-même le texte (discipline des langues originales, point 4, qui renvoie aux conditions
-de levée de `to-source`).
+forme ci-dessous est **relevée dans un texte**, jamais restituée par un modèle. **Verdict
+de Sidy (2026-09-13) : la forme شمهورش est validée** et portée au Sceau (`original:`),
+au titre et au H1. La graphie marocaine شمهروش reste un témoin d'usage : elle n'est pas
+portée au Sceau.
 
 | Forme | Témoin | Nature du témoin |
 |---|---|---|
@@ -101,7 +102,7 @@ transmis un secret (« isbou bahri » selon l'ASR) au grand khalife de la voie
 (« Sid Ali arazim Berada »). Voir [[doctrinal/traditions/tijaniyya]]. Ce sont les dires
 de l'orateur, avec des termes arabes défigurés et non reconstruits.
 
-### Le *Shams al-Maʿārif* — le nom est absent, la matière voisine est présente
+### Le *Shams al-Maʿārif* — absent de la traduction, présent dans l'arabe ; matière voisine
 
 Source : [[doctrinal/sources/shams-al-maarif]], traduction française d'Ouattara Brahima
 (PDF de 631 pages). Cherché le 2026-09-13 sur le texte extrait, sous toutes les graphies
@@ -110,8 +111,8 @@ connues.
 - **Dans la traduction française, le nom n'y figure pas**, ni Maïmûn : elle ne couvre
   que les pages 9 à 88 de l'original arabe. **Le texte arabe, lui, le porte** : trois
   occurrences de شمهورش, relevées le 2026-09-13 dans une édition numérique (voir plus
-  haut, « Formes arabes attestées »). Ces occurrences restent à vérifier par Sidy sur un
-  exemplaire (`to-source`).
+  haut, « Formes arabes attestées »). La forme a été validée par Sidy le 2026-09-13.
+  La confrontation au scan (édition B, versée dans `raw/`) reste possible.
 - **La matière voisine est présente** (pp. 93-95 du PDF). Un procédé de retraite, de
   jeûne et d'écriture permet de « prendre des frères parmi les djinns croyants ». À son
   terme, « sept personnes parmi les nobles et les dirigeants des djinns te seront
