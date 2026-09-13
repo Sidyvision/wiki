@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-09-09
+updated: 2026-09-13
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,33 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-13] Une résolution déclarée au nom de trois jobs, prouvée sur un seul
+
+- **Symptôme** : l'entrée `[2026-09-11]` du `journal-optimisations.md` déclarait
+  les `Connection error` des trois jobs cron résolues **au nom des trois**, sur la
+  foi d'un seul run réussi (celui du profil `gardien`). Le rapport Studio du
+  2026-09-13 a mesuré que le job Studio portait bien le pin attendu
+  (`model = deepseek-flash`, `provider = deepseek`, `reasoning_effort = high`,
+  `failure_streak = 0`, deux exécutions réussies les 09-12 et 09-13) — **le fait
+  est vrai, la preuve ne le portait pas**.
+- **Diagnostic** : défaut de *preuve*, non de configuration. Même classe que
+  l'entrée `[2026-09-04]` (« un contrôle vert n'attestait pas que les liens du
+  cartouche aboutissent ») et que §VII, *Épreuve des contrôles* — instance datée
+  sur le rapport lui-même.
+- **Résolution** : (à trancher) — soit relecture des `jobs.json` des trois profils
+  avec citation brute, soit entrée de correction au `journal-optimisations.md`.
+- **Compréhension tirée** : une optimisation déclarée au nom de N jobs doit citer
+  N preuves ; une preuve unique portée au nom de plusieurs objets n'est pas une
+  preuve faible, c'est une preuve absente. Le registre des optimisations hérite de
+  §VII comme les autres : ce dont on n'a pas vu l'échec n'est pas réputé tenir.
+- **Liens** : `journal-optimisations.md` `[2026-09-11]` ; rapport Studio du
+  2026-09-13 §3.4 ; [[atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio]].
+- **Statut** : `ouvert`
+
+- **Déposé par** : session Hermes `studio` (mandat `infrastructure-veille`), sur
+  consigne explicite de Sidy du 2026-09-13 **levant nominativement l'interdiction
+  de mandat pour cette entrée** — écart déclaré au §4 de la fiche de passe.
 
 ## [2026-09-04] Un contrôle vert n'attestait pas que les liens du cartouche aboutissent
 

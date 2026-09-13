@@ -68,11 +68,17 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**56 lignes de chantier** au 2026-09-07 — dont **53 dans les quatre statuts
-déclarés** et 3 hors vocabulaire (voir la note ci-dessous) —, plus 7 versés en §9
-(clos ou caducs) et 6 lignes en §8 (à vérifier, non assertées ouvertes). Décompte
-mécanique — si vous modifiez une ligne, ce tableau se recompte, il ne s'estime pas.
-Mis à jour le 2026-09-07 : ouverture de `INF-16` (machine d'IA locale et
+**56 lignes de chantier** — **toutes dans les quatre statuts déclarés** depuis
+l'alignement du 2026-09-13 : aucune valeur hors vocabulaire ne subsiste (voir les
+notes ci-dessous) —, plus **10** versés en §9 (clos ou caducs) et 6 lignes en §8
+(à vérifier, non assertées ouvertes). Décompte mécanique — si vous modifiez une
+ligne, ce tableau se recompte, il ne s'estime pas.
+Mis à jour le 2026-09-13 : `INF-09` requalifié `attente-verdict` (alignement sur
+son propre texte), `INF-17` ouvert et versé en **§9** (migration de provider), et
+les trois statuts `DOC` hors vocabulaire ramenés au vocabulaire déclaré —
+seconde passe du 2026-09-13, cf.
+[[atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio]].
+Le 2026-09-07 : ouverture de `INF-16` (machine d'IA locale et
 développement SLM, chantier de comparaison, triptyque posé, plan en `brouillon`).
 Le 2026-09-06 : ouverture de `OUT-15` et `INS-01` passé `ouvert` → `en-cours`
 (transcription du ch. II de Shayegan faite dans `textes/`, relecture OCR en attente).
@@ -104,6 +110,12 @@ Le 2026-09-06 : ouverture de `OUT-15` et `INS-01` passé `ouvert` → `en-cours`
 > vocabulaire existant. Tant que ce n'est pas tranché, le total des quatre colonnes
 > (53) et le nombre de lignes (56) diffèrent — et c'est l'écart lui-même qui est
 > l'information.
+>
+> **Tranché le 2026-09-13 (verdict Sidy)** : les trois lignes **se ramènent** au
+> vocabulaire déclaré — `DOC-06` et `DOC-07` en `en-cours`, `DOC-08` en
+> `attente-verdict`. L'écart est clos ; les nouveaux totaux sont portés par la
+> note de recomptage du 2026-09-13 (seconde), ci-dessous. Motifs du verdict au §3
+> de [[atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio]].
 
 > **Note de recomptage (2026-09-02).** Deux sessions concurrentes ont porté deux
 > totaux différents sur cette ligne — 31/3/5/9 d'un côté, 30/3/5/10 de l'autre, tous
@@ -124,18 +136,35 @@ Le 2026-09-06 : ouverture de `OUT-15` et `INS-01` passé `ouvert` → `en-cours`
 > Recompte et versement : correctif **C4** de
 > [[atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio]].
 
+> **Note de recomptage (2026-09-13, seconde).** Les trois statuts hors vocabulaire
+> ont été **ramenés au vocabulaire déclaré** sur verdict de Sidy — `DOC-06` et
+> `DOC-07` en `en-cours` (un ingest rouvert le même jour pour une 6ᵉ fiche ; une
+> pièce renvoyée à `OUT-08`), `DOC-08` en `attente-verdict` (matière réservée par
+> Sidy, action proposée en attente de visa). `INF-09` est requalifié
+> `attente-verdict` : son propre texte dit le verdict rendu. Le tableau est
+> **recompté depuis ses lignes**, statut par statut — `INF` passe de 8/2 à **7/3**
+> en `ouvert`/`attente-verdict`, `DOC` de 4/0/0/1 à **4/2/0/2**. Le nombre de
+> lignes **ne bouge pas** : **56** avant, **56** après — mais le total des quatre
+> colonnes passe de **53** (faux par construction : il laissait trois lignes
+> dehors) à **56**. `INF-17` va en **§9**. **Écart relevé en recomptant** : le §0
+> déclarait « 7 versés en **§9** » quand ce tableau en portait **9** — `INF-14` et
+> `INF-15` y ont été versés sans que ce compteur suive (le recompte C4 du matin
+> portait sur §1–§7, pas sur §9). Le compteur est corrigé à **10** lignes, après
+> versement d'`INF-17`. Passe :
+> [[atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio]].
+
 | Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
 |---|---|---|---|---|---|
 | `INS` Instrument | 9 | 2 | 1 | 3 | **15** |
-| `INF` Infrastructure & agents | 8 | 3 | 1 | 2 | **14** |
+| `INF` Infrastructure & agents | 7 | 3 | 1 | 3 | **14** |
 | `OUT` Outillage & scripts | 7 | — | 1 | — | **8** |
 | `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 3 | **6** |
-| `DOC` Doctrinal | 4 | — | — | 1 | **5** (+3 hors vocabulaire) |
-| **Total** | **33** | **5** | **5** | **10** | **53** (+3 = 56 lignes) |
+| `DOC` Doctrinal | 4 | 2 | — | 2 | **8** |
+| **Total** | **32** | **7** | **5** | **12** | **56** |
 
-**Ce que ce tableau dit d'abord** : 10 chantiers n'attendent **que** la décision de
+**Ce que ce tableau dit d'abord** : 12 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
 entre nos mains (une PR amont, une prise de vue, un texte à localiser). C'est là, et non
 dans le nombre total, que se lit ce qui peut avancer aujourd'hui.
@@ -199,7 +228,7 @@ non dépouillées dans cette passe → §8.*
 | INF-06 | Monitoring de charge en série temporelle — seul un instantané quotidien existe | `ouvert` | spécifier la série | jalon du 2026-08-20, P1.2 | — | 2026-08-20 |
 | INF-07 | Fonction réelle du processus `omniroute` (1040 Mo de RAM) | `en-cours` | partiellement documenté depuis (migration 2026-08-26, incident 2026-08-27) — reste à décrire le rôle nominal | [[atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen]] ; [[atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation]] | — | jalon du 2026-08-20, P1.1 |
 | INF-08 | Reproduction contrôlée de l'incident de robustesse persona-LLM | `ouvert` | reproduire, ou consigner l'abandon | [[atelier/rd/outillage/robustesse-documents-persona-llm]] | — | jalon du 2026-08-20, P4.10 |
-| INF-09 | Levier d'action du cycle Choura : le dispositif produit des perspectives, mais sans contribution de Sidy le cycle reste consultatif — **cycle mis en pause par Sidy (2026-09-01, dit en session)** | `ouvert` | reprise sur nouvelle décision de Sidy (hook de contribution, ou abandon) — verdict `attente-verdict` rendu : pause, pas de hook pour l'instant | signalé par le Gardien dans le cycle du 2026-09-01 (cf. Domaine Réservé, dossier `choura/`) | — | 2026-09-01 |
+| INF-09 | Levier d'action du cycle Choura : le dispositif produit des perspectives, mais sans contribution de Sidy le cycle reste consultatif — **cycle mis en pause par Sidy (2026-09-01, dit en session)** | `attente-verdict` | reprise sur nouvelle décision de Sidy (hook de contribution, ou abandon) — verdict `attente-verdict` rendu : pause, pas de hook pour l'instant | signalé par le Gardien dans le cycle du 2026-09-01 (cf. Domaine Réservé, dossier `choura/`) | — | 2026-09-01 |
 | INF-10 | Contrôle anti-fabulation `coherence-infrastructure-brute` — second job cron en échec, non documenté | `ouvert` | diagnostiquer | [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-08-18]` | — | 2026-08-18 |
 | INF-11 | Continuité des tâches et de l'information entre Claude Code, Hermes Terminal et Discord — angle mort structurel (un cron « créé » le 2026-08-17 n'existait pas) | `ouvert` | c'est le motif d'existence du champ `infra_verif` ; reste à couvrir le passage d'information | registre des problèmes, entrée `[2026-08-17]` | — | 2026-08-17 |
 | INF-12 | Positions zodiacales 5, 8 et 12 des agents : les douze brouillons existent sur disque (2026-08-15), mais le compte-rendu de chantier les donne « non traitées, en attente de verdict » — contradiction non levée | `attente-verdict` | confronter brouillons et verdict | `atelier/rd/cahiers/brouillons-extension-zodiacale/` ; jalon du 2026-08-20, P4.9 | — | 2026-08-11 |
@@ -261,9 +290,9 @@ non dépouillées dans cette passe → §8.*
 | DOC-03 | Sources primaires à localiser : *ʿUqlat al-mustawfiz*, *Kitāb al-Inshāʾ al-Dawāʾir*, Meftah *Arma Artis* | `ouvert` | discipline des sources, §VII du protocole racine |
 | DOC-04 | Citations attribuées non vérifiées (Ibn ʿArabī, al-Ghazālī, le Cheikh) marquées `to-source` — cas le plus net signalé : `symboles/chercheur-manifestant-akbarien` | `ouvert` | levée par vérification primaire humaine, jamais par le modèle |
 | DOC-05 | Réserve résiduelle : lien explicite *wirātha* ↔ *aqtāb* non localisé dans le *Futūḥāt* ch. 36 — l'ancrage (c) de l'Instrument en dépend | `ouvert` | [[doctrinal/index]] §VII ; conséquence instrumentale en INS-11 |
-| DOC-06 | **Ingest des deux Tilak** — *The Arctic Home in the Vedas* (1903) et *The Orion* (1893). La matière était déjà CONSOMMÉE par la donnée de l'Instrument (états du soleil, aurores) sans qu'aucune page doctrinale ne la porte — c'est le défaut corrigé | `fait` | ingest fait le 2026-09-02 (5 fiches, commit `47b03c5`), **rouvert le même jour** pour une 6ᵉ fiche sur le chapitre XIII (verdict Sidy, exclusion pure remplacée par catalogage averti) ; sas vidé des reliquats (plan exécuté + doublons OCR bruts) | [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] ; [[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] ; [[doctrinal/sources/guenon-atlantide-hyperboree]] (note 3) | — | 2026-09-02 |
-| DOC-07 | **Osman Yahia, catalogue critique de l'œuvre d'Ibn ʿArabī (1964)** — versé. La **Futūḥāt al-Makkiyya, éd. Maymaniyya t. 1** (texte arabe original, `traditionnel`) est ajournée : OCR jugé structurellement corrompu, pas seulement dégradé — aucune fiche, aucune citation possible en l'état (Cmd 5) | `partiel` | Osman Yahia notice + `textes/` faits le 2026-09-02 ; Futūḥāt renvoyée à **OUT-08** (nouvel essai d'OCR avant toute décision de versement), fichier au sas conservé sur demande de Sidy | [[doctrinal/sources/osman-yahia-histoire-classification-1964]] | — | 2026-09-02 |
-| DOC-08 | **Exotérisme et ésotérisme dans l'attribution de `status`** — le verdict du 2026-09-06 sur quatre autorités a mis au jour un défaut de catégorie : `academique` était traité comme le résiduel de `traditionnel`, alors qu'il nomme une allégeance hors de la tradition. Sidy indique que la matière est « encore plus subtil que ça » et réserve le retour | `recensé` | `[[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]]` — trois registres tenus séparés (établi / lecture provisoire de la machine / réservé). Prochaine action proposée, **non faite, en attente de visa** : fiche `doctrinal/discernement/` |
+| DOC-06 | **Ingest des deux Tilak** — *The Arctic Home in the Vedas* (1903) et *The Orion* (1893). La matière était déjà CONSOMMÉE par la donnée de l'Instrument (états du soleil, aurores) sans qu'aucune page doctrinale ne la porte — c'est le défaut corrigé | `en-cours` | ingest fait le 2026-09-02 (5 fiches, commit `47b03c5`), **rouvert le même jour** pour une 6ᵉ fiche sur le chapitre XIII (verdict Sidy, exclusion pure remplacée par catalogage averti) ; sas vidé des reliquats (plan exécuté + doublons OCR bruts) | [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] ; [[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] ; [[doctrinal/sources/guenon-atlantide-hyperboree]] (note 3) | — | 2026-09-02 |
+| DOC-07 | **Osman Yahia, catalogue critique de l'œuvre d'Ibn ʿArabī (1964)** — versé. La **Futūḥāt al-Makkiyya, éd. Maymaniyya t. 1** (texte arabe original, `traditionnel`) est ajournée : OCR jugé structurellement corrompu, pas seulement dégradé — aucune fiche, aucune citation possible en l'état (Cmd 5) | `en-cours` | Osman Yahia notice + `textes/` faits le 2026-09-02 ; Futūḥāt renvoyée à **OUT-08** (nouvel essai d'OCR avant toute décision de versement), fichier au sas conservé sur demande de Sidy | [[doctrinal/sources/osman-yahia-histoire-classification-1964]] | — | 2026-09-02 |
+| DOC-08 | **Exotérisme et ésotérisme dans l'attribution de `status`** — le verdict du 2026-09-06 sur quatre autorités a mis au jour un défaut de catégorie : `academique` était traité comme le résiduel de `traditionnel`, alors qu'il nomme une allégeance hors de la tradition. Sidy indique que la matière est « encore plus subtil que ça » et réserve le retour | `attente-verdict` | `[[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]]` — trois registres tenus séparés (établi / lecture provisoire de la machine / réservé). Prochaine action proposée, **non faite, en attente de visa** : fiche `doctrinal/discernement/` |
 
 ## 8. À vérifier — non asserté ouvert
 
@@ -296,6 +325,7 @@ présenté comme un chantier ouvert** ; l'inscription au registre attend la vér
 | PRO-08 | 708 fichiers Markdown invisibles dans `raw/` — le poste CONSULTATION aveugle sur la matière que les fiches citent en source | **clos le 2026-09-02** sur les trois verdicts de Sidy — « `textes/` validé, dédoublonne avant migration, et amende le §II ». Les deux motifs de l'exclusion de `raw/` avaient **n'avaient jamais été vérifiés** : mesurés, ils tombent pour le texte (14 Mo contre 2,6 Go ; **zéro** adresse, IBAN ou téléphone sur 708 fichiers) et tiennent pleinement pour les binaires (factures nominatives, export ChatGPT). D'où la ligne de coupe : **le format, non le contenu**. 560 fichiers migrés, 147 doublons écartés, 1 hors corpus, 0 refus. `raw/` **intact** — copie, jamais déplacement (Cmd 10). Un faux positif consigné en chemin : « IBAN » détecté dans *Le Roi du Monde* était **« Liban »**, motif resserré sur bornes de mot avant de conclure. Exemption B0 **ciblée** et éprouvée dans les deux sens : acceptée dans `textes/`, toujours levée ailleurs. ⚠ Reste ouvert, non tranché : le **régime des futurs** textes convertis | `atelier/rd/outillage/migrer-textes-convertis.py` (6 gardes éprouvées) ; `verifier-invariants.py` 0 erreur sur 560 fichiers sans Sceau ; `CLAUDE.md` §II + `meta/protocole-archives/changelog-CLAUDE.md` ; [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/plan]] |
 | INF-14 | Hébergement du rendu de l'Instrument sur `sidyvision.com` — un dépôt n'est pas une diffusion | **clos le 2026-09-01**, mis en production après validation explicite de Sidy dans la session (Action PUBLICATION, point 4). Le rendu est servi sur `https://sidyvision.com/instrument/`. Trois obstacles levés en chemin, chacun établi par mesure et non déduit : le site n'avait **aucune source versionnée** (déploiement manuel, capture de sauvegarde prise avant tout accès) ; le premier jeton ouvrait un compte **créé le jour même et vide** — le site était détenu par un autre compte ; le montage par proxy est tombé sur le **401 *edge-access*** dont Netlify frappe les `*.netlify.app` des comptes gratuits récents. Montage final : déploiement direct par l'API, page d'accueil et rendu dans le même site — ni proxy, ni build, ni liaison GitHub, ni secret chez un tiers. Les six critères contrôlés en ligne, le premier d'abord : page d'accueil **octet pour octet identique** à la capture. **Second temps le même jour** — Sidy demande la mise à jour automatique : elle est en place, non par liaison Netlify (qui aurait publié la racine du dépôt et **écrasé la page d'accueil**, outre l'OAuth par navigateur) mais par **GitHub Action** dans le dépôt frère, rejouant la même API et le même garde-fou d'empreinte. Éprouvée de bout en bout par `workflow_dispatch` : garde-fou vert, publication faite, et triple contrôle en ligne — page d'accueil intacte, rendu identique au dépôt, manifeste servi à 46 nœuds. **Troisième temps** : `enforce_admins` aligné sur la doctrine du wiki (`false` + garde-fou local, PRO-01), la **porte humaine déplacée dans le `pre-push`** (`PUBLIER=1` exigé pour toute poussée de `src/` sur `main`, puisqu'elle publie en production) — et, au passage, découverte que les deux hooks portaient un motif `grep` qui **ne correspondait jamais** : la faute même de PRO-01, reproduite dans du code neuf, corrigée et éprouvée dans les deux sens | [[atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/plan]] ; `atelier/rd/outillage/publier-instrument-netlify.sh` ; `.github/workflows/publier.yml` du dépôt frère (PR #1) ; capture de référence SHA-1 `6814d7f4…3334` |
 | INF-15 | `monitoring-archive-charte.md` n'archivait que le job Studio (`41dc3e7e492c`) — le rapport quotidien Publication (`veille-referencement-investigation-08`) n'avait aucune trace au dépôt | **clos le 2026-09-10** : étendu au profil `publication` — job `archiver-veille-publication` (id `d3176b389ed8`, cron `10 11 * * *`), mêmes script et rétention (40 j), 13 sorties historiques rétroactivement archivées, charte mise à jour. **Versé en §9 le 2026-09-13** : la ligne portait en §2 un statut `**clos 2026-09-10**` hors vocabulaire (correctif C4) | [[atelier/rd/cahiers/registre-problemes]] entrée `[2026-09-02]` §3 ; [[atelier/rd/infrastructure/monitoring-archive-charte]] |
+| INF-17 | Migration du fournisseur d'inférence des jobs cron — bascule vers DeepSeek et pose du pin (`model`, `provider`, `reasoning_effort`) ; documentée au journal des optimisations, sans ligne de chantier jusqu'ici | **clos le 2026-09-11** : migration effective, vérifiée le 2026-09-13 — `model = deepseek-flash`, `provider = deepseek`, `reasoning_effort = high`, `failure_streak = 0`, deux exécutions réussies (09-12 et 09-13). La migration a produit **trois jours de panne du rapport Studio** (09-10 → 09-12) : ce n'est pas une optimisation ordinaire, et un fait d'infrastructure de cette portée ne reste pas sans identifiant. **Ouverte le 2026-09-13 sur verdict de Sidy** — le rapport proposait la ligne ou la convention inverse ; elle est versée ici, close, sans feindre un chantier ouvert | [[atelier/rd/cahiers/journal-optimisations]] entrée `[2026-09-11]` ; rapport Studio du 2026-09-13 §3.4 ; [[atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio]] |
 
 ---
 

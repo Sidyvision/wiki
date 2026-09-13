@@ -203,8 +203,15 @@ change** (56 avant, 56 après).
 
 Le total des quatre colonnes passe donc de **53** (faux par construction : il
 laissait trois lignes dehors) à **56**, qui est le nombre réel de lignes — et le
-nombre de lignes, lui, ne bouge pas. `INF-17` va en **§9**, qui comptait 7 lignes
-et en compte **8**.
+nombre de lignes, lui, ne bouge pas. `INF-17` va en **§9**.
+
+**Écart de plus, relevé en recomptant les sections** : le §0 déclarait « 7 versés
+en §9 » quand le tableau **en portait 9** — `INF-14` (2026-09-01) et `INF-15`
+(2026-09-10) y ont été versés sans que ce compteur suive ; le recompte C4 du matin
+portait sur §1–§7, pas sur le §9. Le compteur est corrigé à **10** lignes après
+versement d'`INF-17`. C'est le même défaut de classe que celui que le registre
+s'est donné pour règle de combattre : un total qu'on ne recompte pas cesse de dire
+la vérité de ses lignes.
 
 ## 4. Écarts déclarés — jamais silencieux
 
@@ -425,3 +432,138 @@ Rapport quotidien du pôle Studio (profil studio, canal #infrastructure). Depuis
 
 Contrôle anti-fabulation : ne jamais reformuler la sortie des scripts, la coller telle quelle. Étape 4 est le même contrôle (registre-problemes.md, entrée 2026-08-17).
 ```
+
+## 9. État d'exécution — **exécuté le 2026-09-13**
+
+| Geste | État | Preuve |
+|---|---|---|
+| **N1** — entrée au `registre-problemes.md` | **fait** | entrée insérée après le marqueur `<!-- INSERTION: EN-TÊTE -->` (texte §5.1, verbatim) ; `updated:` du cahier remonté au 2026-09-13 → contrôle **A3** vert (§10.1) |
+| **N5** — `verifier-invariants.py` au §1 du job cron | **fait** | prompt persisté **relu** : 2779 caractères, **identique au texte préparé** (§10.3) ; commande ajoutée **exécutée réellement** : `0 erreur(s), 71 avertissement(s)`, `exit=0` |
+| **INF-09** — `ouvert` → `attente-verdict` | **fait** | ligne §2 du registre ; recompte : `INF` 8/2 → **7/3** en ouvert/attente-verdict (§10.2) |
+| **N2** — `INF-17` ouverte, close, versée en §9 | **fait** | ligne §9 ; compteur §9 corrigé de 7 à **10** (écart de compteur relevé et déclaré, §3 bis) |
+| **N3** — régime du sas énoncé | **fait** | §6 ci-dessus ; l'entrée du registre des problèmes correspondante est **préparée au §5.2 et non déposée** — la levée de Sidy porte sur « cette entrée » (N1) |
+| **Vocabulaire** — 3 statuts `DOC` alignés | **fait** | `DOC-06`/`DOC-07` → `en-cours`, `DOC-08` → `attente-verdict` ; recompte : **aucune valeur hors vocabulaire** (§10.2) |
+| **N4** — intégration des deux fiches du sas | **non exécuté** | refus explicite de Sidy (« le sas reste en attente pour l'instant ») |
+
+**Contrat d'exécution** : `febb8be` — écrit **avant** toute écriture d'exécution, c'est
+l'objet de ce commit.
+
+## 10. Sorties brutes des vérifications
+
+### 10.1 `verifier-invariants.py` — le cahier reçoit une entrée et le contrôle A le voit
+
+```
+$ python3 verifier-invariants.py --racine /root/wiki
+1509 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+0 erreur(s), 71 avertissement(s).
+exit=0
+```
+
+Les 71 avertissements sont **exclusivement** les C5/C6 d'étanchéité inversée sur
+`doctrinal/sources/*`, `doctrinal/symboles/*`, `doctrinal/deviations/*` et
+`doctrinal/autorites/rene-guenon.md` — antérieurs, inchangés, étrangers à cette
+passe. Le contrôle **A3** (le plus pertinent ici) est vert : `registre-problemes.md`
+porte `updated: 2026-09-13` et une entrée la plus récente du même jour — la faute
+exacte que le correctif C3 du matin a appris à attraper n'est pas commise par
+l'entrée qu'il fallait écrire.
+
+### 10.2 Recompte du registre des chantiers — depuis les lignes, pas depuis le §0
+
+```
+$ python3 /tmp/recompte-chantiers.py atelier/rd/registre-chantiers.md
+pole §0 declare                 reel                       verdict
+INS  [9, 2, 1, 3]               [9, 2, 1, 3]               OK  (total declare 15, reel 15)
+INF  [7, 3, 1, 3]               [7, 3, 1, 3]               OK  (total declare 14, reel 14)
+OUT  [7, 0, 1, 0]               [7, 0, 1, 0]               OK  (total declare 8, reel 8)
+BIB  [1, 0, 1, 1]               [1, 0, 1, 1]               OK  (total declare 3, reel 3)
+CAS  [1, 0, 1, 0]               [1, 0, 1, 0]               OK  (total declare 2, reel 2)
+PRO  [3, 0, 0, 3]               [3, 0, 0, 3]               OK  (total declare 6, reel 6)
+DOC  [4, 2, 0, 2]               [4, 2, 0, 2]               OK  (total declare 8, reel 8)
+
+TOT  [32, 7, 5, 12]             [32, 7, 5, 12]             OK
+ligne Total declaree §0 : ['| **Total** | **32** | **7** | **5** | **12** | **56** |']
+lignes vues §1-§7 : 56
+valeurs hors vocabulaire : aucune
+§9 : 10 ligne(s)
+§8 : 6 entrée(s)
+```
+
+Sept pôles sur sept exacts, **aucune valeur hors vocabulaire**, 56 lignes vues —
+et, au passage, le compteur du §9 confronté à ses propres lignes : **10**, là où le
+§0 en déclarait **7** avant cette passe (écart de compteur, corrigé et déclaré au
+§3 bis). Le script de recompte est un **bac à sable** jetable (`/tmp/`), pas une
+pièce du dépôt : aucun outillage nouveau n'est créé sans verdict.
+
+### 10.3 N5 — le prompt persisté, relu après édition (jamais l'auto-rapport de la CLI)
+
+```
+$ python3 - <<'PY'   (lecture de ~/.hermes/profiles/studio/cron/jobs.json)
+longueur persistée : 2779 caractères
+identique au texte préparé : True
+--- 12 premières lignes persistées ---
+Rapport quotidien du pôle Studio (profil studio, canal #infrastructure). Depuis /root/wiki, exécute dans l'ordre et cite la sortie brute de chaque script (jamais un résumé) :
+
+## §1 — Cartographie et cohérence structurelle
+
+1. python3 verifier-invariants.py --racine /root/wiki
+2. python3 atelier/rd/outillage/graphe/generer-cartographie.py --depot /root/wiki --verifier
+3. python3 atelier/rd/outillage/detecter-non-tracke.py --racine /root/wiki
+4. python3 atelier/rd/outillage/verifier-coherence-infrastructure.py --racine /root/wiki
+```
+
+Et la commande ajoutée, **exécutée réellement** — la fiche §8.2 en donne le texte
+complet, le §9 du présent document sa preuve : `verifier-invariants.py` rend
+`0 erreur(s), 71 avertissement(s)` avec `exit=0`, et le script de cartographie du
+pas 2 rend `609 nœuds / 1973 arêtes, aucun blocage`. L'édition est faite par la
+**CLI** (`hermes cron edit 41dc3e7e492c --prompt …`), pas par réécriture directe du
+fichier de jobs.
+
+### 10.4 Vérifications transversales de clôture
+
+```
+$ python3 atelier/rd/outillage/verifier-rapports-traites.py --racine /root/wiki
+Registre : 30 entrée(s) de traitement.
+Archives : 31 fichier(s) total, dont 14 antérieur(s) à l'ouverture du registre (2026-09-02, hors périmètre).
+Tous les rapports du périmètre ont une entrée de traitement.          exit=0
+
+$ python3 atelier/rd/outillage/verifier-coherence-infrastructure.py --racine /root/wiki
+  15 affirmation(s) vérifiée(s), 0 écart(s)                            exit=0
+  (13 avant cette passe ; les deux affirmations ajoutées sont celles de la présente
+   fiche — présence du job `monitoring-infrastructure-quotidien` et
+   `DISCORD_HOME_CHANNEL` du profil `studio` : le job que N5 modifie est bien
+   présent et bien adressé après édition, et le contrôle le lit dans le `jobs.json`
+   réel, non dans ce que la fiche en dit.)
+
+$ python3 atelier/rd/outillage/graphe/generer-cartographie.py --depot /root/wiki --verifier
+  Nœuds : 609   (doctrinal 346 · atelier 252 · label 11)
+  Arêtes : 1973 (établies 1693 · suggérées 280)
+  Lacunes to-source : 64
+  Avertissements : 182 (non bloquants) — lien mort 106 · isolée 72 · lien 4
+  Mode --verifier : aucun manifeste écrit.                             exit=0
+
+$ python3 atelier/rd/outillage/detecter-non-tracke.py --racine /root/wiki
+  (avant commit : 3 fichiers modifiés non commités, listés nommément — les trois
+   fichiers de la passe ; après commit : aucune ligne, voir commit ci-dessous)
+```
+
+## 11. Ce qui cette passe laisse ouvert, et à qui
+
+1. **L'entrée du régime du sas au registre des problèmes** (§5.2) — texte prêt,
+   **non déposé** : la levée de Sidy portait sur l'entrée de N1. Dépositaire à
+   désigner, ou levée à étendre d'un mot.
+2. **`INF-09`** reste `attente-verdict` : la requalification dit l'état réel, la
+   décision de reprise (hook de contribution, ou abandon) est toujours celle de
+   Sidy.
+3. **N4 — l'intégration des deux fiches du sas** : refusée pour l'instant, l'une
+   datant du 2026-09-07 (5 jours au 2026-09-12). Le sas reste en attente.
+4. **La forme des lignes `DOC-06`/`DOC-07`** : elles portent **7 cellules** dans un
+   tableau qui en déclare 4 — écart déjà signalé par la note du 2026-09-07, **non
+   corrigé ici** (hors du lot validé ; Cmd 12). Toujours ouvert.
+5. **La redondance assumée de N5** : `verifier-invariants.py` tourne désormais dans
+   deux rapports quotidiens (Studio 12:00, Publication 11:00). Si la redondance doit
+   être levée plus tard, la coupe se fera d'un côté **ou** de l'autre — jamais par
+   retrait silencieux d'un contrôle.
+6. **N1 lui-même** : l'entrée est déposée, sa **résolution** est marquée « (à
+   trancher) » — relecture des `jobs.json` des trois profils avec citation brute, ou
+   entrée de correction au `journal-optimisations.md`.
