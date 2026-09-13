@@ -42,6 +42,7 @@ updated: 2026-09-01
 - [[meta/personnel/2026-06-20_theme-astrologique|Thème astrologique personnel (astrologie occidentale)]]
 - [[meta/personnel/2026-06-20_triptyque-animaux|Triptyque onirique — rats, chiens, singes (11 avril 2025, post-khalwa)]]
 - [[meta/personnel/2026-08-18_initiation-virtuelle|Initiation virtuelle — définition personnelle de Sidy]]
+- [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha|La bague offerte avant la khalwa — inscription « الوحا العجل الساعة »]]
 - [[meta/personnel/echange-eleonore-g|Échange avec Éléonore G. — autour d'une vidéo de Félix Guattari]]
 
 ## Généalogie (`genealogie/`)

@@ -118,6 +118,22 @@ Sheikh Hamala (Waly Allah de la Tijaniyya, enterré à Monlusson) — Sidy n'y e
   *muqaddam* tijānī) et le croisement porté dans
   [[meta/genealogie/samballa-kouyate]].
 
+### Rencontre avec Koly Cherif Keita (consigné le 2026-09-13)
+
+Sidy a rencontré en personne Koly Cherif Keita, le *muqaddam* tijānī de l'exposé
+[[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]]. Son jugement, dans ses
+mots :
+
+> « Il est un authentique Tijani, cela dit il est vrai que lui comme d'autres reste
+> affecté par le paradigme moderne, scientiste, c'est donc à nous de maintenir la
+> vigilance tout en distinguant les éléments authentiques. »
+
+*(Seules les fautes de frappe sont corrigées.)* La fiche doctrinale reprend ce jugement
+comme verdict, sans mentionner la rencontre (étanchéité §VI). Sidy identifie aussi le
+djinn « Samharou » de l'exposé comme **Shamharush**, sujet qu'il avait déjà abordé en
+juin 2025 : voir [[doctrinal/symboles/shamharush]] et
+[[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]].
+
 ### Anecdote des Dalail chez le grand-père maternel
 
 Pendant la convalescence, Sidy passait beaucoup de temps à la maison de son grand-père maternel (Mamadou "Doudou" Sissoko) qui était malade. C'est là qu'il pratiquait les Dalail al-khayrat. Une amie de passage l'a surpris en train de lire les Dalail ; depuis ce jour, elle s'est mise à les lire elle aussi (sans que Sidy lui ait suggéré). Aujourd'hui, elle continue à les lire.

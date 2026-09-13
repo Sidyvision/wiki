@@ -32,6 +32,15 @@ original: []
   pas conclu cette valeur (Cmd 12). Les écarts relevés sont portés plus bas, en points
   de vigilance.
 
+## Verdict de Sidy (2026-09-13)
+
+- **Le rattachement tijānī de l'orateur est tenu pour authentique.**
+- **Imprégnation moderne** : comme d'autres, l'orateur « reste affecté par le paradigme
+  moderne, scientiste ». Le point de vigilance 2 ci-dessous en relève la trace.
+- **Consigne de lecture** : « maintenir la vigilance tout en distinguant les éléments
+  authentiques ». Les points de vigilance ne disqualifient donc pas l'exposé. Ils
+  désignent ce qu'il faut séparer de la matière reçue.
+
 ## Objet
 
 Un exposé oral sur les djinns, **sous leur aspect positif** : comment des djinns croyants
@@ -60,7 +69,8 @@ contact.
 Récits rapportés par l'orateur. **Aucun n'est sourcé dans l'exposé** au-delà d'un renvoi
 générique aux *manāqib* :
 
-- **Tijāniyya** : un djinn nommé « Samharou » (graphie de l'ASR) aurait été compagnon du
+- **Tijāniyya** : un djinn nommé « Samharou » (graphie de l'ASR ; Sidy l'identifie à
+  **Shamharush**, voir [[doctrinal/symboles/shamharush]]) aurait été compagnon du
   Prophète et tijānī, et aurait transmis au grand khalife « Sid Ali arazim Berada »
   (auteur du « jawahir », d'après l'orateur) un secret nommé « isbou bahri ». Des djinns
   croyants seraient *muqaddam* dans la voie et assisteraient à la *waẓīfa* collective.

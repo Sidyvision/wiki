@@ -41,7 +41,8 @@ expression institutionnelle du [[doctrinal/traditions/tasawwuf]].
   exposé oral en transcription automatique, termes arabes défigurés) :
   - un « grand khalife » d'Aḥmad al-Tijānī, nommé « Sid Ali arazim Berada » par la
     transcription, aurait écrit le « jawahir » ;
-  - un djinn nommé « Samharou », compagnon du Prophète et tijānī, lui aurait transmis un
+  - un djinn nommé « Samharou », que Sidy identifie à **Shamharush**
+    ([[doctrinal/symboles/shamharush]]), compagnon du Prophète et tijānī, lui aurait transmis un
     secret appelé « isbou bahri » ;
   - des djinns croyants seraient *muqaddam* dans la voie et assisteraient à la *waẓīfa*
     collective.

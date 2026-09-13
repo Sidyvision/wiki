@@ -68,6 +68,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/imams-noms-divins|Les Imams des Noms divins (hiérarchie opérative des Asmāʾ)]]
 - [[doctrinal/symboles/muqarnas|Muqarnas — géométrie sacrée de l'art islamique]]
 - [[doctrinal/symboles/jinns-classification-couleur|Classification populaire des jinns par couleur]] — ⚠️ statut contre-traditionnel (croyance populaire, conservée pour discernement)
+- [[doctrinal/symboles/shamharush|Shamharush (Shamhûrash), roi des djinns croyants]] — source primaire : lettre de Guénon à Genty (1937) ; témoignage tijānī ; Gilis `to-source`
 - [[doctrinal/symboles/archeometre|L'Archéomètre (Saint-Yves d'Alveydre) et sa réception guénonienne]] — ⚠️ statut contre-traditionnel, mise en garde non-syncrétisme
 
 ### Pratiques rituelles
@@ -240,6 +241,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/histoire-wahhabis-corancez-redissi|L'Histoire des Wahabis et la naissance du Royaume Saoudien]] — Corancez (consul de France, XIXe s.) avec préface Redissi ; transcription depuis photographies, `#a-revoir`
 - [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi|Jesus and Enoch in the Barzakh of Ibn al-ʿArabī]]
 - [[doctrinal/sources/shams-al-maarif|Shams al-Maʿārif al-Kubrā (trad. française)]]
+- [[doctrinal/sources/guenon-lettre-genty-1937-07-14|Guénon — Lettre à Patrice Genty (Le Caire, 14 juillet 1937)]] — correspondance non publiée (Index de l'œuvre de René Guénon) ; Shamhûrash roi des Jinn muminîn, succession de Maïmûn
 - [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains|Koly Cherif Keita — Les Djinns qui aident les humains]] — exposé oral d'un muqaddam tijānī (YouTube, transcription ASR) ; djinns croyants, walāya, mise en garde contre le contact ; points de vigilance portés
 - [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle|ʿIlm al-Nujûm — bases de l'astrologie traditionnelle]]
 - [[doctrinal/sources/islam-and-artificial-intelligence|Islam and Artificial Intelligence (Chaudhary, Cambridge UP)]]

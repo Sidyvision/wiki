@@ -78,7 +78,7 @@ supprime à la racine.
 | `apercus-sur-l-esoterisme-islamique-et-le-taoisme/` | 14 |
 | `autorite-spirituelle-et-pouvoir-temporel/` | 9 |
 | `autres-ressources/` | 4 |
-| `divers/` | 22 |
+| `divers/` | 23 |
 | `etudes-sur-l-hindouisme/` | 39 |
 | `formes-traditionnelles-et-cycles-cosmiques-rene-guenon/` | 32 |
 | `initiation-et-realisation-spirituel/` | 34 |
@@ -232,6 +232,23 @@ datée.
 
 Ce que le dépôt en tire est porté dans
 `doctrinal/sources/koly-cherif-keita-djinns-aident-humains.md`.
+
+## Versement du 2026-09-13 — lettre de Guénon à Patrice Genty (coupure web)
+
+Lettre de René Guénon à Patrice Genty, Le Caire, 14 juillet 1937, extraite de la
+*Correspondance avec Patrice Genty* (non publiée, 1916-1950) telle que la transcrit
+l'*Index de l'œuvre et de la correspondance de René Guénon* (sigle `C-PaGe`, page
+99). Coupure déposée par Sidy dans `raw/` et versée ici par copie.
+
+- `divers/guenon-correspondance-genty-1937-07-14-le-caire.md` — 1 fichier
+
+Chaîne : **sixième voie d'entrée**, une **coupure web** (clipping Markdown, avec
+frontmatter de l'outil de capture et mise en tableau de la page source). Le nom de
+fichier d'origine porte une apostrophe typographique qui fait échouer l'accès littéral
+sans autre message, comme le piège NFD décrit plus haut : il a été normalisé ici.
+
+Ce que le dépôt en tire est porté dans
+`doctrinal/sources/guenon-lettre-genty-1937-07-14.md`.
 
 ## Ce qui reste ouvert
 

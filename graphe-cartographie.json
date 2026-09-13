@@ -8164,6 +8164,28 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/guenon-lettre-genty-1937-07-14",
+      "label": "Guénon — Lettre à Patrice Genty (Le Caire, 14 juillet 1937)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "correspondance",
+        "genty",
+        "jinn",
+        "shamhurash",
+        "cycles",
+        "pole",
+        "vedanta"
+      ],
+      "updated": "2026-09-13",
+      "chemin": "doctrinal/sources/guenon-lettre-genty-1937-07-14.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/guenon-mysteres-lettre-nun",
       "label": "Les mystères de la lettre Nûn — René Guénon",
       "circuit": "doctrinal",
@@ -11001,6 +11023,26 @@
       "updated": "2026-06-20",
       "chemin": "doctrinal/symboles/scarabee-egyptien.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/shamharush",
+      "label": "Shamharush (Shamhûrash), roi des djinns croyants",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "jinn",
+        "djinn",
+        "shamharush",
+        "monde-invisible",
+        "tijaniyya",
+        "guenon"
+      ],
+      "updated": "2026-09-13",
+      "chemin": "doctrinal/symboles/shamharush.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/shukr",
@@ -20881,6 +20923,27 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/guenon-lettre-genty-1937-07-14",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-lettre-genty-1937-07-14",
+      "target": "doctrinal/symboles/shamharush",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-lettre-genty-1937-07-14",
+      "target": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/guenon-mysteres-lettre-nun",
       "target": "doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra",
       "champ": "cross_links",
@@ -24635,6 +24698,62 @@
     {
       "source": "doctrinal/symboles/scarabee-egyptien",
       "target": "doctrinal/symboles/ashhab",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shamharush",
+      "target": "doctrinal/sources/guenon-lettre-genty-1937-07-14",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shamharush",
+      "target": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shamharush",
+      "target": "doctrinal/sources/shams-al-maarif",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shamharush",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shamharush",
+      "target": "doctrinal/traditions/tijaniyya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shamharush",
+      "target": "doctrinal/symboles/jinns-classification-couleur",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shamharush",
+      "target": "doctrinal/symboles/talisman-sihr",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shamharush",
+      "target": "doctrinal/autorites/charles-andre-gilis",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
