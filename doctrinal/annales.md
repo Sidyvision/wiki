@@ -8,6 +8,18 @@ updated: 2026-09-13
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] maillage | Liens validés vers `tijaniyya` et vers la source Koly Cherif Keita
+
+- **Verdict de Sidy** : « oui, ajoute les liens proposés ». Il répond aux liens proposés et non inscrits de l'entrée d'archivage du jour (commit e4407f5).
+- **Ajouts aux `cross_links`**, avec `updated:` remonté au 2026-09-13 sur les quatre fiches :
+  - `[[doctrinal/traditions/tijaniyya]]` dans `traditions/tasawwuf`, `symboles/tariqa` et `autorites/ouattara-brahima` ;
+  - `[[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]]` dans `symboles/jinns-classification-couleur`.
+
+  Aucun corps n'est touché.
+- **Graphe** : régénéré. Liens entrants : `tijaniyya` passe de 1 à **4**, `koly-cherif-keita…` de 1 à **2**.
+- **Vérification** : `verifier-invariants.py --racine /root/wiki` donne **0 erreur, 71 avertissements**, sans changement par rapport à la ligne de base.
+- **Commit** : d994ad2
+
 ## [2026-09-13] archivage | Koly Cherif Keita — « Les Djinns qui aident les humains » · ébauche Tijāniyya · croisements
 
 - **Ordre de Sidy** : « intègre la fiche sur les jinns de _inbox/ ». Plan présenté puis validé (Cmd 6) : « go, statut traditionnel, copie dans textes/divers, tu peux réaliser la fiche Tijaniyya. Tout cela est croisé avec discernement/ et meta/ ».
