@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-10
+updated: 2026-09-13
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,50 @@ updated: 2026-09-10
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-13] infrastructure | Provider LLM des trois gateways rétabli sur DeepSeek — la bascule du 11/09 n'était pas dans les configs
+
+- **Ordre de Sidy** : « Redémarre le gateway de Publication », puis, sur le
+  constat que le provider de ce profil était éteint, « Bascule Gardien aussi
+  puis journalise ».
+- **Constat d'ouverture** : le gateway `publication` tournait depuis le 11/09,
+  mais son dernier appel échouait — `APIConnectionError` sur
+  `http://localhost:20128/v1` (provider `custom:omniroute`), trois tentatives,
+  `API failed after 3 retries`. Le redémarrage demandé ne pouvait rien y
+  changer : le service `omniroute` **n'existait pas** — aucun listener sur son
+  port (`curl` → code 000), aucune unité systemd ne le lançait, alors que son
+  binaire est installé (`/usr/bin/omniroute`, v3.8.50). `studio` portait la même
+  config ; `gardien` pointait `qwen` / `qwen3.7-plus` et rendait **HTTP 403**
+  `AccessDenied.Unpurchased`.
+- **Le point qui compte** : les trois `config.yaml` **ne portaient pas** la
+  bascule DeepSeek que le cahier R&D consigne comme appliquée le 2026-09-11. Le
+  fait est constaté, non expliqué — ni la date ni le mécanisme de la divergence
+  ne sont établis, et l'entrée du 11/09 n'est pas réécrite (Cmd 10). Même motif
+  que `INF-11` (un job cron déclaré créé qui n'existait pas) ; la leçon n'est pas
+  tirée ici, le fait est consigné.
+- **Fait** : sauvegarde des trois configs (`config.yaml.bak-predeepseek-20260913`),
+  `model.provider: deepseek` + `model.default: deepseek-v4-flash` dans les trois
+  profils (bloc `providers.omniroute` **conservé**, non supprimé), redémarrage
+  des trois unités systemd.
+- **Contrôle** : test d'aller-retour réel par `hermes --profile <nom> -z` — la
+  config est lue *et* une génération est demandée, ce n'est pas une relecture de
+  fichier : `publication` → `OK-PUBLICATION` (PID 292241), `studio` →
+  `OK-STUDIO` (PID 292266), `gardien` → `OK-GARDIEN` (PID 292920). **3 profils
+  sur 3 répondent, contre 0 sur 3 avant** (403 côté qwen, connexion refusée côté
+  omniroute). Journaux des trois unités : aucune erreur de provider.
+  `verifier-invariants.py` : **0 erreur, 73 avertissements**, exit 0 — identique
+  avant et après.
+- **Restes** : le coût réel de la bascule est `to-source` (aucune facturation
+  DeepSeek relevée à cette heure). `INF-07` (fonction réelle du processus
+  `omniroute`) reçoit un fait neuf — au 13/09 le processus n'existe pas —
+  consigné au cahier, **non inscrit au registre** (verdict requis, Cmd 12). Les
+  sorties de monitoring non suivies (quatre fichiers `2026-09-1{2,3}_*.txt` sous
+  `atelier/rd/infrastructure/monitoring-archive/`) restent hors du présent
+  commit.
+- **Liens** : [[atelier/rd/cahiers/journal-optimisations]], entrée
+  `[2026-09-13]` ; `~/.hermes/profiles/{gardien,publication,studio}/config.yaml` ;
+  `atelier/rd/registre-chantiers.md` (`INF-07`).
+- **Commit** : ed6160f
 
 ## [2026-09-10] verdict | Portée de C5/C6/C7 tranchée — pas de passage en erreur
 
