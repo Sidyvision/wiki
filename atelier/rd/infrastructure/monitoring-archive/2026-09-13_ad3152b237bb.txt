@@ -1,0 +1,277 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-13 (cron 11:00 UTC, job `ad3152b237bb`)
+Profil : publication
+Canal : #infrastructure
+
+## §1 — FRONTMATTER CONFORMITY
+
+Commande : `cd /root/wiki && python3 verifier-invariants.py --racine /root/wiki`
+Sortie brute (en-tête + total), sans paraphrase :
+
+```
+1506 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+0 erreur(s), 73 avertissement(s).
+```
+
+Répartition brute par code : **C6 = 45 · C5 = 26 · C7 = 1 · C1 = 1**.
+Lignes non-C5/C6, citées intégralement (les 2 avertissements de nature différente — 4 au total avec les C5 « cartouche ») :
+
+```
+[C7] doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md — `status: adopte` hors du vocabulaire clos du Sceau — l'étanchéité inversée (C5/C6) ne peut pas dire si cette fiche est tranchée ; elle n'est pas comptée comme non tranchée
+[C1] atelier/rd/infrastructure/monitoring-archive/registre-traitement.md — lien non résolu : [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm]]
+```
+
+### Delta vs exécution précédente — **ZÉRO**
+L'état chiffré du 2026-09-12 (`~/.hermes/profiles/publication/memory/last-veille-report.txt`, relu avant écriture) est reproduit à l'identique : **1506 fichiers · 0 erreur · 73 avertissements · C5=26 · C6=45 · C7=1 · C1=1**. Les 69 lignes C5/C6 portent toujours le motif unique déjà caractérisé (« étanchéité inversée : page `traditionnel` → discernement non tranché »), dont la **portée a été tranchée par Sidy le 2026-09-10** (commit `7bef4e1`, « pas de passage en erreur ») : ce sont des avertissements acceptés, **aucune régression**.
+
+Cause du zéro : **le dépôt est gelé depuis le 2026-09-10** — `HEAD = 5003f18` (« JOURNAL: annales doctrinal — récolte du Registre du Discernement », 2026-09-10 13:04:33 UTC), aucun commit depuis, aucun fichier `.md` non suivi dans `doctrinal/`. Seul changement d'arbre : `atelier/rd/cahiers/journal-optimisations.md` modifié (hors périmètre du contrôle).
+
+### Signaux sémantiques (hors portée du script, jamais corrigés)
+
+Reprise des signaux ouverts — **tous encore présents, aucun résolu à ce jour** :
+
+- **S1 — `sources_count` en contradiction avec `sources` : 4 fichiers.** Vérifiés ce jour, inchangés :
+  • `doctrinal/symboles/fiqh.md` l.14-16 (2 items : `'[[kitab-al-tarifat-jurjani]]'` **et** `to-source`) vs l.17 `sources_count: 1` ;
+  • `doctrinal/discernement/2026-07-02_coudee-royale-convergence-28.md` l.15-17 (2 items : `to-source`, `'[[doctrinal/sources/gilis-ordo-ab-chao]]'`) vs l.18 `sources_count: 1` ;
+  • `doctrinal/discernement/2026-08-29_sept-poles-sept-lataif.md` l.10 `sources: ["to-source"]` vs l.11 `sources_count: 0` ;
+  • `meta/journal/2026-06-18-tawakkul-transition.md` l.9 `sources_count: 3` **sans aucune clé `sources:`**.
+  Les deux premiers font **cohabiter un lien réel et le marqueur `to-source`** dans la même liste — le marqueur y perd sa valeur de « fait sans source ».
+- **S2 — C7, `status` hors vocabulaire clos** : `doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md` l.4 `status: adopte` (vocabulaire de `statut_experience`, `atelier/CLAUDE.md` — non du Sceau Recteur).
+- **S3 — C1, lien vers un dossier de chantier** : `atelier/rd/infrastructure/monitoring-archive/registre-traitement.md` **l.82** → `[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm]]`. La cible **existe**, mais comme **dossier-triptyque** (`intent.md`/`spec.md`/`plan.md`, convention du 2026-09-01) : aucun `.md` ne porte ce slug d'où « lien non résolu ». Forme de lien antérieure à la convention ; non corrigé (fichier d'archive).
+- **S4 — fait personnel en circuit neutre** : `doctrinal/symboles/tapisserie-navajo.md:27` — titre « Lecture symbolique proposée (**objet personnel de Sidy**) » dans une fiche doctrinale (§VI).
+- **S5 — faits personnels familiaux en `discernement`** : `doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste.md:68-69` (situation matrimoniale, rêve de la fille, inventaire d'objets).
+- **S6 — provenance « conversation source » non fichée** : **46 fiches** doctrinales citent « la conversation source » (export ChatGPT) comme origine de leur matière (**+2** depuis le 2026-09-12). **18 des 25 fiches du lot du jour** s'y adossent explicitement (voir §2) ; aucun corpus `doctrinal/sources/` ne porte cette provenance.
+
+**Signaux nouveaux de ce jour :**
+
+- **S9 — la censure textuelle (`grep 'sources_count: 0'`) surcompte : 3 faux positifs établis.** Le motif apparaît **dans le corps** (prose décrivant l'état ancien de la fiche), non dans le Sceau :
+  • `doctrinal/symboles/atma-gita-guenon.md` l.39 → Sceau dit `sources_count: 2` (fiche pleinement sourcée, `updated: 2026-09-08`) ;
+  • `doctrinal/discernement/2026-09-06_status-traditionnel-et-partage-zahir-batin.md` → Sceau dit `sources_count: 1` ;
+  • `doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite.md` → Sceau dit `sources_count: 3`.
+  Conséquence chiffrée : **censure textuelle = 172 fichiers ; corpus réel à `sources_count: 0` = 169**. L'écart avec le « 170 au frontmatter strict » du 2026-09-12 relève de la même famille d'artefact de lecture — **signalé, non résolu**.
+- **S10 — `sources:` déclaré en YAML nul au lieu de `[]` : 27 fiches doctrinales** (28 avec `discernement/_template.md`) — la forme prescrite par `doctrinal/CLAUDE.md` (« Liste vide = `[]` ») n'est pas tenue. **4 d'entre elles sont dans le lot du jour** : `fal-wa-tatayyur.md`, `influx-spirituel-sommet-cranien.md`, `lieux-saints-france.md`, `maqamat-meknes.md` (chacune `sources:` immédiatement suivi de `sources_count: 0`).
+- **S8 (répété, 3ᵉ occurrence) — dérive skill ↔ job non corrigée** : la skill `veille-referencement` (§B Phase 1) prescrit encore « Limiter à **5 fiches** par exécution » quand le prompt serveur du job porte **25** (commit `fb1791c`, 2026-09-10). Je ne l'ai **pas** appliquée — l'auto-modification de skill reste soumise à relecture de diff (statut inchangé depuis le 2026-09-12).
+
+Aucune violation §VI détectée dans le lot du jour : `grep` des liens `[[meta/…]]`, `[[hermeneutique/…]]`, `[[atelier/…]]` dans les 25 fiches → **aucune correspondance**.
+
+---
+
+## §2 — DOCUMENTARY INVESTIGATION
+
+**Périmètre** : fiches doctrinales à `sources_count: 0` — **169** (mesure stricte, S9 ci-dessus) sur **349** fiches `.md` de `doctrinal/`. **25 investiguées**, dans la continuité assignée par le rapport du 2026-09-12 (« traiter les fiches 26 à 50 par ancienneté »). Lot du jour : `doctrinal/symboles/`, **created 2026-06-20** — `atma-gita-guenon` → `nada`.
+
+**Substitution** : `atma-gita-guenon.md` **exclue** (faux positif S9, fiche déjà sourcée) ; remplacée par `nafs-qalb-irritation.md` — 25 fiches réellement investiguées.
+
+```
+ 1. doctrinal/symboles/nafs-qalb-irritation.md — Nafs, qalb, irritation — 2026-06-20 (traditionnel)
+    KW : nafs, qalb, khawatir, irritation
+    raw  : aucune (nom) ; bib : disciplines-spirituelles-…-soufisme, lumiere-…-soufisme (nafs, qalb)
+    doctr: kitab-tarifat-index-transcription, ibn-arabi-de-la-mort-à-la-resurrection-gloton, sept-etendards-califat
+    => source candidate identifiée (doctrinal) ; 1 occurrence « conversation source »
+
+ 2. doctrinal/symboles/bindu.md — Bindu (बिंदु) — le point primordial — 2026-06-20
+    KW : bindu, point primordial
+    raw  : aucune (nom) ; bib : disciplines-spirituelles-…-soufisme <bindu>
+    doctr: avalon-serpent-power-nadis-reseau <bindu> ; guenon-symbolisme-croix-ch4, kabbale-10-sefirot (point primordial)
+    => source candidate identifiée (doctrinal) ; champ `sources: []` conforme
+
+ 3. doctrinal/symboles/chat-en-reve.md — Chat en rêve — 2026-06-20 (maj 2026-09-08)
+    KW : chat, rêve
+    raw  : raw/IbnSirin_dictionary_of_dreams.pdf ; raw/Autres ressources/meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md
+    bib  : glossaires-porte-du-ciel, eckstein-porte-du-ciel, catalogue-bibliotheque, index-origine-polaire-tilak
+    doctr: sources/ibn-sirin-dictionary-of-dreams-al-akili, autorites/ibn-sirin, autorites/al-nabulusi
+    => source candidate identifiée (raw + doctrinal) — la fiche cross-linke déjà les trois fiches idoines
+
+ 4. doctrinal/symboles/chaussure-en-reve.md — Chaussure (naʿl) en rêve — 2026-06-20
+    KW : chaussure, naʿl, chameau
+    raw  : raw/IbnSirin_dictionary_of_dreams.pdf (par la grappe onirique)
+    bib  : index-rig-veda <chaussure>, <chameau>
+    doctr: guenon-recension-seabrook-aventures-arabie <naʿl> ; kitab-al-tarifat-jurjani
+    => source candidate identifiée (raw, indirecte) ; aucune fiche-source nommée au Sceau
+
+ 5. doctrinal/symboles/chercheur-manifestant-akbarien.md — Doctrine akbarienne du chercheur-manifestant — 2026-06-20 (maj 2026-09-08)
+    KW : sālik, tajallī, al-Insān al-Kāmil, Futūḥāt
+    raw  : raw/Al Futuhat Al Makkiyya - maymaniya_p1.pdf (p2-p4 voisins)
+    bib  : aucune
+    doctr: sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan, ibn-arabi-futuhat-ch36-heritiers-prophete, revelations-mecque-penot (tajallī)
+    => source candidate identifiée (raw + doctrinal) — fiche-source exacte déjà au dépôt
+
+ 6. doctrinal/symboles/cheveux-blancs-en-reve.md — Cheveux ou poils blancs en rêve — 2026-06-20 (maj 2026-09-08)
+    KW : cheveux, blancs, barbe
+    raw  : raw/IbnSirin_dictionary_of_dreams.pdf
+    bib  : index-rig-veda <cheveux>, <barbe>
+    doctr: traite-emanation-gauche-isaac-ha-kohen_source
+    => source candidate identifiée (raw + bib)
+
+ 7. doctrinal/symboles/coeurs-subtils.md — Les cœurs subtils (laṭāʾif) — 2026-06-20
+    KW : laṭāʾif, cœur, qalb, qabḍ
+    raw  : Guénon, Symboles de la Science sacrée — index « Le Cœur et la Caverne », « L'Éther dans le cœur », « Le Sacré-Cœur » ; raw/ascension-regard-soufisme-52-53-qabd-bast.md
+    bib  : disciplines-spirituelles-…-soufisme <laṭāʾif>, <qalb> ; lumiere-…-soufisme
+    doctr: meftah-chatons-sagesses-transcription <qabḍ>, kitab-al-tarifat-jurjani, kitab-tarifat-index-transcription
+    => source candidate identifiée (raw + doctrinal) — 4 passages guénoniens nommés
+
+ 8. doctrinal/symboles/desir-theophanie.md — Désir et théophanie selon Ibn ʿArabī — 2026-06-20 (maj 2026-09-08)
+    KW : ʿishq, théophanie, tajallī, Futūḥāt
+    raw  : raw/Al Futuhat Al Makkiyya - maymaniya_p1.pdf
+    bib  : disciplines-spirituelles-…-soufisme, majma-al-bahrayn (ʿishq, théophanie)
+    doctr: sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan, ibn-arabi-futuhat-ch36, revelations-mecque-penot, jesus-and-enoch-in-ibn-arabi
+    => source candidate identifiée (raw + doctrinal)
+
+ 9. doctrinal/symboles/elephant-en-reve.md — Éléphant en rêve — 2026-06-20
+    KW : éléphant, fīl
+    raw  : raw/IbnSirin_dictionary_of_dreams.pdf
+    bib  : index-rig-veda <éléphant>
+    doctr: meftah-chatons-sagesses-transcription, avalon-serpent-power-nadis-reseau
+    => source candidate identifiée (raw + bib)
+
+10. doctrinal/symboles/fal-wa-tatayyur.md — Al-Fal wa-l-Taṭayyur — 2026-06-20
+    KW : fal, taṭayyur, tiyara
+    raw  : aucune ; bib : majma-al-bahrayn <fal>, preface-introduction-porte-du-ciel, index-rig-veda <augure>
+    doctr: doctrinal/sources/bukhari-5754-tiyara-fal.md — correspondance EXACTE (titre identique)
+    => source candidate identifiée (doctrinal, directe) ; champ `sources:` nul (S10)
+
+11. doctrinal/symboles/firasa.md — ʿIlm al-Firāṣa — 2026-06-20
+    KW : firāsa, physiognomonie
+    raw  : aucune ; bib : aucune ; doctr : aucune
+    => source absente du dépôt (3 zones muettes) ; la fiche lie elle-même [[istidad]] (fiche 17)
+
+12. doctrinal/symboles/furin.md — Furin (風鈴) — 2026-06-20 (maj 2026-09-08)
+    KW : furin, shintō, cloche
+    raw  : raw/A-Popular-Dictionary-of-Shinto - Brian Bocking.pdf — correspondance directe
+    bib  : majma-al-bahrayn <cloche>, disciplines-spirituelles <vent>
+    doctr: sources/a-popular-dictionary-of-shinto-bocking, traditions/shinto
+    => source candidate identifiée (raw + doctrinal) — fiche-source exacte au dépôt
+
+13. doctrinal/symboles/habl-allah.md — Ḥabl Allāh — 2026-06-20
+    KW : ḥabl, corde, lien
+    raw  : aucune ; bib : quatre-mondes-…-soufisme <ḥabl>, 3 registres <corde>
+    doctr: kabbale-10-sefirot-structure, guenon-kundalini-yoga-etudes-hindouisme, kitab-tarifat-index-transcription
+    => source candidate indirecte (correspondances de concept, non d'ouvrage)
+
+14. doctrinal/symboles/homme-pieux-en-reve.md — Voir un homme pieux vivant en rêve — 2026-06-20 (maj 2026-09-08)
+    KW : pieux, ṣāliḥ, rêve
+    raw  : raw/IbnSirin_dictionary_of_dreams.pdf
+    bib  : index-noms-ihwan-al-safa <ṣāliḥ>, index-rig-veda, majma-al-bahrayn
+    doctr: ibn-arabi-de-la-mort-à-la-resurrection-gloton ; cross_links : taabir-al-ruya, ibn-sirin, al-ghazali
+    => source candidate identifiée (raw + doctrinal)
+
+15. doctrinal/symboles/imams-noms-divins.md — Les Imams des Noms divins — 2026-06-20
+    KW : asmāʾ, imām, noms divins
+    raw  : aucune ; bib : catalogue-bibliotheque, index-noms-ihwan-al-safa, quatre-mondes, majma-al-bahrayn
+    doctr: sources/awrad-ibn-arabi, sources/wazifa, sources/shams-al-maarif (Asmāʾ)
+    => source candidate identifiée (doctrinal)
+
+16. doctrinal/symboles/influx-spirituel-sommet-cranien.md — L'influx spirituel au sommet du crâne — 2026-06-20 (maj 2026-09-08)
+    KW : crânien, sommet, kuṇḍalinī
+    raw  : aucune ; bib : disciplines-spirituelles-…-soufisme <kuṇḍalinī>
+    doctr: guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire, guenon-kundalini-yoga-etudes-hindouisme, avalon-serpent-power-nadis-reseau, kabbale-10-sefirot-structure
+    => source candidate identifiée (doctrinal, 4 fiches) ; tag `citations-a-verifier` ; champ `sources:` nul (S10)
+
+17. doctrinal/symboles/istidad.md — Al-Istiʿdād — 2026-06-20 (maj 2026-09-08)
+    KW : istiʿdād, disposition
+    raw  : aucune ; bib : disciplines-spirituelles-…-soufisme, quatre-mondes (disposition)
+    doctr: kitab-tarifat-index-transcription, guenon-kundalini-yoga, revelations-mecque-penot
+    => source candidate identifiée (doctrinal)
+
+18. doctrinal/symboles/jinns-classification-couleur.md — Classification populaire des jinns par couleur — 2026-06-20 (maj 2026-09-08)
+    KW : jinn, akhmar, couleur
+    raw  : raw/sources/koly-cherif-keita-djinns-aident-humains.md — correspondance directe
+    bib  : catalogue-bibliotheque, disciplines-spirituelles, index-rig-veda
+    doctr: ibn-arabi-de-la-mort-à-la-resurrection-gloton, revelations-mecque-penot, meftah-chatons-sagesses, valsan-investiture
+    => source candidate identifiée (raw/sources) ; statut `contre-traditionnel`
+
+19. doctrinal/symboles/lieux-saints-france.md — Sites saints et sacrés de France — 2026-06-20
+    KW : France, lieux saints, géographie sacrée
+    raw  : index Guénon Le Théosophisme (« … en France ») — non thématique
+    bib  : index-rig-veda-table <France> ; doctr : nezami-pavillon-sept-princesses-barry <géographie sacrée>
+    => source absente du dépôt (aucune correspondance thématique) ; tag `stub` ; champ `sources:` nul (S10)
+
+20. doctrinal/symboles/lignees-celestes-taoisme.md — Lignées célestes dans le taoïsme — 2026-06-20
+    KW : taoïsme, lignée, ciel
+    raw  : raw/Aperçus sur l'Ésotérisme islamique et le Taoïsme (index d'œuvre guénonienne, 9 fichiers) ; La Grande Triade ; Le Symbolisme de la Croix
+    bib  : bibliographie-porte-du-ciel, catalogue-bibliotheque, eckstein-porte-du-ciel
+    doctr: guenon-roi-du-monde-ch3-shekinah-metatron, guenon-angelologie-alphabet-arabe
+    => source candidate identifiée (raw, index d'œuvre guénonienne)
+
+21. doctrinal/symboles/maqamat-meknes.md — Maqâm et zaouïas de Meknès — 2026-06-20
+    KW : Meknès, zaouïa, maqâm
+    raw  : aucune ; bib : aucune
+    doctr: ibn-arabi-tartib-tasawwuf-abdul-hadi <maqâm> — correspondance générique
+    => source absente du dépôt ; tag `stub` + `citations-a-verifier` ; champ `sources:` nul (S10) ;
+       la fiche déclare elle-même ses marqueurs `citeturn0searchN` non résolus
+
+22. doctrinal/symboles/marcher-sur-eau-en-reve.md — Marcher sur l'eau en rêve — 2026-06-20 (maj 2026-09-08)
+    KW : eau, marcher, surface
+    raw  : raw/Symboles de la Science sacrée — « Le passage des eaux » (index, ×2 fichiers) ; raw/IbnSirin_dictionary_of_dreams.pdf
+    bib  : catalogue-bibliotheque, glossaires-porte-du-ciel, eckstein-porte-du-ciel
+    doctr: awrad-ibn-arabi, bukhari-5754-tiyara-fal, kabbale-10-sefirot-structure ; cross_links : taabir-al-ruya, ibn-sirin
+    => source candidate identifiée (raw, passage guénonien nommé + grappe onirique)
+
+23. doctrinal/symboles/merkavah-muraqaba.md — Merkavah et Muraqaba — 2026-06-20
+    KW : merkavah, muraqaba, maʿase
+    raw  : aucune ; bib : aucune ; doctr : aucune
+    => source absente du dépôt (3 zones muettes) ; la fiche porte elle-même un avertissement
+       « ⚠️ Déviation Profane » sur l'étymologie forcée et la gematria de la conversation source
+
+24. doctrinal/symboles/muqarnas.md — Muqarnas — 2026-06-20
+    KW : muqarnas, géométrie
+    raw  : aucune ; bib : catalogue-bibliotheque <géométrie> (non thématique)
+    doctr: occurrences du seul mot « géométrie » (tilak-origine-polaire, guenon-symbolisme-croix-ch4…)
+    => source absente du dépôt ; la fiche se déclare elle-même « stub — sans développement symbolique substantiel dans la conversation source »
+
+25. doctrinal/symboles/nada.md — Nāda (नाद) — le son primordial — 2026-06-20
+    KW : nāda, son primordial, śabda
+    raw  : aucune ; bib : aucune
+    doctr: avalon-serpent-power-nadis-reseau <nāda>, guenon-homme-devenir-vedanta-ch8-22-26 <śabda>, kitab-tarifat-index-transcription, autorites/aiman-attar
+    => source candidate identifiée (doctrinal)
+```
+
+### === STATISTIQUES ===
+```
+Fiches investiguées            : 25 (sur 169 à sources_count: 0, corpus doctrinal 349)
+Sources candidates identifiées : 22
+  - raw/ (PDF/fichiers nommés ou passage cité)  : 12 fiches — 5 corpus distincts :
+        IbnSirin_dictionary_of_dreams.pdf (6 fiches : 3,4,6,9,14,22)
+        Al Futuhat Al Makkiyya – maymaniya_p1-p4.pdf (2 : 5,8)
+        A-Popular-Dictionary-of-Shinto – Bocking.pdf (1 : 12)
+        raw/sources/koly-cherif-keita-djinns-aident-humains.md (1 : 18)
+        Guénon (Symboles de la Science sacrée ; Aperçus … Taoïsme) — index d'œuvre (3 : 7,20,22)
+  - atelier/rd/bibliotheque/                      : 20 fiches (correspondances d'INDEX lexical,
+        non des sources primaires — disciplines-spirituelles, quatre-mondes, index-rig-veda…)
+  - doctrinal/ (fiches-sources & autorités)       : 23 fiches — dont 5 correspondances EXACTES :
+        sources/bukhari-5754-tiyara-fal (10) · sources/ibn-sirin-dictionary-of-dreams-al-akili (3)
+        sources/a-popular-dictionary-of-shinto-bocking (12) · sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan (5,8)
+Sources absentes du dépôt      : 3  (firasa · merkavah-muraqaba · muqarnas)
+Correspondances faibles (mot-clé non thématique) : 2  (lieux-saints-france · maqamat-meknes)
+```
+
+---
+
+## === SIGNALLEMENTS ===
+
+**Fait saillant du jour — la grappe onirique a ses sources au dépôt, et ne les déclare pas.**
+Les **6 fiches « … en rêve »** du lot (`chat-en-reve`, `chaussure-en-reve`, `cheveux-blancs-en-reve`, `elephant-en-reve`, `homme-pieux-en-reve`, `marcher-sur-eau-en-reve`) cross-linkent déjà — correctement — `[[doctrinal/symboles/taabir-al-ruya]]` et, pour quatre d'entre elles, `[[doctrinal/autorites/ibn-sirin]]`. Or le dépôt **possède** la fiche-source idoine : `doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili.md` (créée 2026-09-05, verdict de Sidy sur le statut), ainsi que le PDF `raw/IbnSirin_dictionary_of_dreams.pdf` et les deux fiches-autorités `doctrinal/autorites/ibn-sirin.md` et `doctrinal/autorites/muhammad-al-akili.md`. Le `sources_count: 0` de ces six fiches n'est donc pas une absence documentaire : c'est une **traçabilité non déclarée**. Même configuration exacte pour `fal-wa-tatayyur` (fiche-source `bukhari-5754-tiyara-fal.md`), `furin` (`a-popular-dictionary-of-shinto-bocking.md`) et la paire akbarienne 5/8 (`ibn-arabi-futuhat-makkiyya-maymaniyya-scan.md`).
+
+**Corollaire à porter à l'attention : la fiche-source `ibn-sirin-dictionary-of-dreams-al-akili.md` est elle-même à `sources_count: 0`**, avec `sources: []` et `cross_links` vers `[[doctrinal/autorites/ibn-sirin]]`, `[[doctrinal/autorites/muhammad-al-akili]]`, `[[doctrinal/symboles/taabir-al-ruya]]` — les trois cibles existent. Une fiche-source qui ne déclare pas sa source est le point de rupture de toute la grappe qu'elle sert.
+
+**Le corpus est majoritairement un dérivé d'export conversationnel.** 18 des 25 fiches du jour citent « la conversation source » ; `maqamat-meknes` porte encore les marqueurs `citeturn0searchN` (artefacts de recherche web non résolus) et le signale elle-même ; `muqarnas` et `maqamat-meknes` se déclarent stubs sans développement. Ces fiches portent correctement leur réserve (§VII, vigilance transversale) — c'est la **provenance** qui n'existe pas comme source traçable (S6, 46 fiches).
+
+**Aucun fichier du dépôt n'a été modifié.** Écritures hors dépôt : `/tmp/` (sortie brute du contrôle, listes de travail) et `~/.hermes/profiles/publication/memory/last-veille-report.txt` (état chiffré, mécanisme de diff du passage suivant — relu avant écriture).
+
+**Trois verdicts en attente** (Cmd 12/13, réservés à Sidy) : S1 (4 discordances `sources_count`), S9 (méthode de censure — quel compteur fait foi ?), S10 (forme `sources: []` vs nul sur 27 fiches). Le C7/C1 (S2/S3) et les signaux S4/S5/S6/S8 restent également ouverts, inchangés.
+
+---
+
+## === CONCLUSION ===
+État du référencement **inchangé au plan structurel** (0 erreur, 73 avertissements, delta zéro, dépôt gelé depuis le 2026-09-10) mais **précisé au plan documentaire** : sur 25 fiches investiguées, 22 ont une source traçable au dépôt — dont 5 correspondances exactes avec des fiches-sources existantes — et **3 seulement sont réellement absentes** (`firasa`, `merkavah-muraqaba`, `muqarnas`) ; le gisement le plus rentable n'est donc pas la recherche dans `raw/` mais la **déclaration des sources déjà présentes**, en commençant par la grappe onirique et par la fiche-source `ibn-sirin-dictionary-of-dreams-al-akili.md`, elle-même non sourcée.
+
+**Prochaine priorité d'investigation** : fiches 27 à 51 par ancienneté (`nafs-qalb-irritation` → `nada` couvertes ; reprendre à `noblesse-spirituelle` / `outil-faculte-objectivee` et la suite `2026-06-20`), en ouvrant par les 3 sources absentes ci-dessus et par la fiche-source onirique à déclarer.
+
+Signé : Publication (veille référencement & investigation)
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

@@ -1,0 +1,469 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+All checks complete. Composing the report.
+
+---
+
+# Rapport quotidien — pôle Studio
+**Profil `studio` · canal `#infrastructure` · 2026-09-12 10:02 UTC (12:02 CEST)**
+**Job `monitoring-infrastructure-quotidien` (`41dc3e7e492c`), exécution `cf9a56c799814bc79ae5eca75670d787`**
+
+> **Gouvernance** : ce rapport est un **signalement**. Aucune écriture au dépôt, aucun commit, aucune correction d'office n'a été faite au cours de cette passe (Cmd 12/13, Cmd 6).
+
+---
+
+## §1 — Cartographie et cohérence structurelle
+
+### 1.1 `generer-cartographie.py` — ⚠️ **le chemin consigné dans la consigne d'exécution n'existe plus**
+
+Sortie brute de la commande telle que prescrite :
+
+```
+$ cd /root/wiki && python3 Graphe/generer-cartographie.py --depot /root/wiki --verifier
+python3: can't open file '/root/wiki/Graphe/generer-cartographie.py': [Errno 2] No such file or directory
+EXIT_CODE=2
+```
+
+Le script a été déplacé le 2026-08-31 (`Graphe/` → `atelier/rd/outillage/graphe/`). Localisation vérifiée :
+
+```
+$ find . -name "generer-cartographie.py" -not -path "./.git/*"
+./atelier/rd/outillage/graphe/generer-cartographie.py
+```
+
+Sortie brute au chemin réel :
+
+```
+$ python3 atelier/rd/outillage/graphe/generer-cartographie.py --depot /root/wiki --verifier
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 606
+      doctrinal    346
+      atelier      249
+      label        11
+
+  Arêtes : 1960
+      établies    1684
+      suggérées   276
+
+  Lacunes to-source : 64
+
+  Avertissements : 184 (non bloquants)
+      lien mort      104
+      isolée         73
+      lien           4
+      compteur       3
+  Mode --verifier : aucun manifeste écrit.
+
+EXIT_CODE=0
+```
+
+### 1.2 `detecter-non-tracke.py` — sortie brute
+
+```
+$ python3 atelier/rd/outillage/detecter-non-tracke.py --racine /root/wiki
+2 fichier(s) non tracké(s), par circuit :
+
+  [atelier] 2
+    M   atelier/rd/cahiers/journal-optimisations.md
+    ??  atelier/rd/infrastructure/monitoring-archive/2026-09-12_ad3152b237bb.txt
+
+EXIT_CODE=1
+```
+
+Aucun `hors-circuit-inconnu`. Confirmation par `git status --porcelain --untracked-files=all` :
+
+```
+ M atelier/rd/cahiers/journal-optimisations.md
+?? atelier/rd/infrastructure/monitoring-archive/2026-09-12_ad3152b237bb.txt
+```
+
+### 1.3 `verifier-coherence-infrastructure.py` — sortie brute (anti-fabulation)
+
+```
+$ python3 atelier/rd/outillage/verifier-coherence-infrastructure.py --racine /root/wiki
+11 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-veille-publication' présent (profil publication)
+
+EXIT_CODE=0
+```
+
+### 1.4 Contrôle de traitement des rapports (`verifier-rapports-traites.py`)
+
+Non prescrit dans la consigne, exécuté parce que la charte du 2026-09-10 le rattache désormais à la clôture INF-15 :
+
+```
+$ python3 atelier/rd/outillage/verifier-rapports-traites.py --racine /root/wiki
+Registre : 26 entrée(s) de traitement.
+Archives : 28 fichier(s) total, dont 14 antérieur(s) à l'ouverture du registre (2026-09-02, hors périmètre).
+
+1 rapport(s) SANS entrée de traitement :
+  ! atelier/rd/infrastructure/monitoring-archive/2026-09-12_ad3152b237bb.txt
+```
+
+---
+
+## §2 — Empreinte serveur
+
+```
+$ df -h /
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   27G  8.7G  76% /
+
+$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.6Gi       764Mi       4.4Mi       1.7Gi       2.1Gi
+Swap:          2.0Gi        22Mi       2.0Gi       2.0Gi
+```
+
+**Lecture** : disque 76 % (contre **85 %** au rapport du 2026-09-07, ≈ −9 points) ; **swap 22 Mi / 2,0 Gi** (contre **2,0/2,0 Gi saturés** au 2026-09-07). La pente de saturation déjà documentée est **retournée**. `to-source` : je n'ai pas de mesure intermédiaire expliquant la reprise — le seul fait daté dont je dispose est l'entrée `[2026-09-11]` du journal des optimisations (migration de provider).
+
+---
+
+## §3 — Registre Hermes-Terminal
+
+### 3.1 Intégrité des bind-mounts — **12/12 OK**
+
+Comparaison inode canonique vs monté (`stat -c '%i'`) :
+
+| État | Montage | inode src | inode mnt |
+|---|---|---|---|
+| OK | `/home/mehdi/depot-lecture/doctrinal` | 517720 | 517720 |
+| OK | `/home/mehdi/depot-lecture/hermeneutique` | 518240 | 518240 |
+| OK | `/home/mehdi/depot-lecture/karubi-mehdi.md` | 561242 | 561242 |
+| OK | `/home/mehdi/depot-lecture/rd/cahiers` | 1184623 | 1184623 |
+| OK | `/home/mehdi/depot-lecture/rd/instrument` | 1184616 | 1184616 |
+| OK | `/home/mehdi/depot-lecture/rd/outillage` | 1184621 | 1184621 |
+| OK | `/home/mehdi/depot-ecriture/inbox` | 299497 | 299497 |
+| OK | `/home/wendel/depot-lecture/doctrinal` | 517720 | 517720 |
+| OK | `/home/wendel/depot-lecture/hermeneutique` | 518240 | 518240 |
+| OK | `/home/wendel/depot-lecture/label/direction-artistique` | 267506 | 267506 |
+| OK | `/home/wendel/depot-lecture/karubi-wendel.md` | 561361 | 561361 |
+| OK | `/home/wendel/depot-ecriture/inbox` | 299497 | 299497 |
+
+Aucun montage périmé.
+
+### 3.2 Gateways — inventaire **complet** (leçon `[2026-09-01]` « commerce absent du relevé »)
+
+`list-units` ne montre que les unités *loaded* ; relevé par `list-unit-files` d'abord :
+
+```
+$ systemctl --user list-unit-files 'hermes-*' --no-pager
+hermes-gateway-accounting.service   disabled
+hermes-gateway-admin-legal.service  disabled
+hermes-gateway-ar-music.service     disabled
+hermes-gateway-commerce.service     disabled
+hermes-gateway-distribution.service disabled
+hermes-gateway-fanzine.service      disabled
+hermes-gateway-gardien.service      enabled
+hermes-gateway-karubi.service       disabled
+hermes-gateway-marketing.service    disabled
+hermes-gateway-production.service   disabled
+hermes-gateway-publication.service  enabled
+hermes-gateway-studio.service       enabled
+hermes-gateway-visual-da.service    disabled
+13 unit files listed.
+```
+
+État par profil :
+
+```
+accounting   active=inactive  enabled=disabled     gardien      active=active  enabled=enabled
+admin-legal  active=inactive  enabled=disabled     karubi       active=inactive enabled=disabled
+ar-music     active=inactive  enabled=disabled     marketing    active=inactive enabled=disabled
+commerce     active=inactive  enabled=disabled     production   active=inactive enabled=disabled
+distribution active=inactive  enabled=disabled     publication  active=active  enabled=enabled
+fanzine      active=inactive  enabled=disabled     studio       active=active  enabled=enabled
+                                                   visual-da    active=inactive enabled=disabled
+```
+
+**Conforme à la décision du 2026-08-28** (3 gateways actifs : gardien, studio, publication ; 10 désactivés). Les 3 unités actives le sont depuis le 2026-09-11 13:24 UTC (restart de la migration).
+
+### 3.3 Santé du log des gateways
+
+| Profil | Dernier `Connected as` | `ERROR` (cumul) |
+|---|---|---|
+| gardien | 2026-09-11 13:24:45 | 12 |
+| publication | 2026-09-11 13:24:47 | 44 |
+| studio | 2026-09-11 13:24:47 | 14 |
+| 10 autres | 2026-08-31 → 09-01 (logs gelés, unités désactivées) | — |
+
+⚠️ `grep -c 'Connection error'` sur le log gateway studio = **0**. Le défaut n'est donc pas dans le log gateway ; il est dans l'historique d'exécution du **job cron** — voir §3.5.
+
+### 3.4 Staleness de `_inbox/` — **2 fichiers, dont 1 au-delà du seuil**
+
+```
+$ ls -la --time-style=long-iso /root/wiki/_inbox/
+-rw-r--r-- 1 root root  1756 2026-09-07 19:23 2026-09-07_djinns-aident-humains-koly-cherif-keita.md
+-rw-r--r-- 1 root root 11114 2026-09-10 22:37 2026-09-10_recolte-discernement-etat-maturite.md
+drwxr-xr-x 2 root root  4096 2026-09-07 19:23 audio
+
+  5d  2026-09-07_djinns-aident-humains-koly-cherif-keita.md     ← au-delà du seuil (3 j)
+  2d  2026-09-10_recolte-discernement-etat-maturite.md
+```
+
+**Fait établi en plus** : ces deux fichiers sont **suivis par git**, contrairement à ce que laisse attendre la fonction de sas (`git ls-files _inbox`) :
+
+```
+$ git ls-files _inbox
+_inbox/.gitkeep
+_inbox/2026-09-07_djinns-aident-humains-koly-cherif-keita.md
+_inbox/2026-09-10_recolte-discernement-etat-maturite.md
+_inbox/audio/.gitkeep
+
+_inbox/2026-09-07_...  ajouté par 448db16  2026-09-07
+_inbox/2026-09-10_...  ajouté par 958f20e  2026-09-10
+```
+
+Je ne tranche pas si c'est intentionnel — l'entrée `[2026-08-09]` du registre des problèmes consignait exactement cela comme un **incident** (« Contenu du sas `_inbox/` poussé par erreur sur le dépôt »). Signalé, non corrigé (Cmd 12).
+
+### 3.5 ⚠️ **Le rapport quotidien Studio est en panne depuis 3 jours**
+
+`hermes --profile studio cron list --all`, extrait brut du job qui produit ce rapport :
+
+```
+  41dc3e7e492c [active]
+    Name:      monitoring-infrastructure-quotidien
+    Schedule:  0 12 * * *
+    Deliver:   discord:1536564394690084925
+    Last run:  2026-09-11T12:00:37.862657+02:00  error: RuntimeError: Connection error.  (3 failures in a row)
+    Dispatch:  on time (scheduled 2026-09-12T12:00:00+02:00)
+    Execution: running  cf9a56c799814bc79ae5eca75670d787
+```
+
+Historique d'exécution brut :
+
+```
+$ hermes --profile studio cron history 41dc3e7e492c
+cf9a56c799814bc79ae5eca75670d787  running   2026-09-12T12:00:07
+ed2de15a58dd486a8b52e77cceba7ed6  unknown   2026-09-11T15:31:09  (owner exited before terminal state)
+924d4921c571472685371e9d1b48933a  failed    2026-09-11T12:00:13  RuntimeError: Connection error.
+f84a03df0e584863a17a9611c89bb10f  failed    2026-09-10T12:00:04  RuntimeError: HTTP 401: oc/north-mini-code-free: auth — [401]: Model north-mini-code-free is not supported (HTTP 401)
+a55a44002190417eb9476fb384e6cf03  failed    2026-09-09T12:00:06  RuntimeError: Connection error.
+057acd7dd6614648971ce419de1cb62a  completed 2026-09-08T12:00:23
+```
+
+Corroboration par les sorties persistées — dernière sortie Studio **2026-09-08** :
+
+```
+$ ls -la /root/.hermes/profiles/studio/cron/output/
+-rw-r--r-- 1 root root 15496 2026-09-08 10:04 41dc3e7e492c_20260908_100431.txt
+```
+
+Les deux autres jobs Studio (`coherence-infrastructure-brute`, `archiver-monitoring-quotidien`) sont `ok` quotidiennement — donc **le no-agent est sain, l'agent-mode est en panne**.
+
+---
+
+## §4 — R&D — analyse engagée
+
+### 4.1 `detecter-nouvelles-fiches-rd.sh` — sortie brute
+
+```
+$ ./atelier/rd/outillage/detecter-nouvelles-fiches-rd.sh
+Fiches modifiées :
+atelier/rd/cahiers/journal-optimisations.md
+atelier/rd/infrastructure/monitoring-archive-charte.md
+atelier/rd/infrastructure/monitoring-archive/registre-traitement.md
+atelier/rd/registre-chantiers.md
+```
+
+**Aucune nouvelle fiche** (le script distingue « Nouvelles fiches » et « Fiches modifiées » ; seule la seconde section est peuplée). Les quatre fiches signalées ont néanmoins été **lues intégralement** — la section n'est pas sautée.
+
+---
+
+#### Fiche A — `atelier/rd/cahiers/journal-optimisations.md`
+
+**(a) Lecture.** Une seule entrée nouvelle : `[2026-09-11] Migration provider LLM : Omniroute → DeepSeek V4.1-Flash` — provider principal, fallback, auxiliaires, clé `DEEPSEEK_API_KEY`, mise en pause des crons de 10 profils, `--reasoning-effort high` sur les 3 crons agent-mode, restart des 3 gateways. **Statut `applique`.**
+
+**(b) Rapprochement au registre des problèmes.** Le motif de fond — *une affirmation de résolution qui excède ce qui a été vérifié* — est déjà couvert : entrée `[2026-09-04]` (« un contrôle vert n'attestait pas que les liens du cartouche aboutissent »), entrée `[2026-08-17]` (naissance du champ `infra_verif`), et la règle §VII *Épreuve des contrôles*. **L'instance, elle, est nouvelle** et non consignée.
+
+**(c) PROPOSITION d'action.** L'entrée écrit :
+
+> « Les erreurs `Connection error` quotidiennes des 3 crons sont résolues (testé : run gardien succeeded). »
+
+Le job `41dc3e7e492c` — **celui qui produit ce rapport** — a échoué le **2026-09-11 à 12:00:13**, soit *après* la migration, avec exactement `RuntimeError: Connection error.`, et a échoué de nouveau les 09 et 10. La résolution a été éprouvée sur le job **gardien** ; elle a été **écrite au nom des trois**. C'est la forme exacte que la règle *Épreuve des contrôles* proscrit : un vert observé sur un contrôle qui n'est pas celui qu'on déclare.
+
+Deux défauts distincts, tous deux mesurables :
+1. **La preuve ne porte pas le périmètre de la conclusion** — proposer que l'entrée soit complétée d'un encart daté plutôt que réécrite (append-only, Cmd 10), avec l'historique brut ci-dessus.
+2. **Le pin n'a pas tenu.** L'échec du 2026-09-10 porte `oc/north-mini-code-free` — un modèle **Omniroute**, alors que la migration déclare le job pinné sur `deepseek-flash` avec Omniroute en simple *fallback*. Proposer de **vérifier le pin réel** de `41dc3e7e492c` (`hermes --profile studio cron show 41dc3e7e492c`) avant tout nouveau verdict — c'est une commande, pas une opinion.
+
+**(d) Dépendances.** Cette fiche **porte** le §3.5 : elle est la seule trace au dépôt de la migration qui a produit la panne de 3 jours. Elle **nourrit** le registre des chantiers, mais **aucune ligne de chantier ne lui correspond** — angle mort ouvert (voir Piste 5).
+
+**(e) Handoff.** **Studio** (consignation de l'encart, vérification du pin) ; **Gardien du Protocole** — la portée Cmd 8 ci-dessous relève de son mandat ; **Sidy** — verdict (Cmd 13).
+
+**Coup supplémentaire, mécaniquement établi** : cette fiche est **non commitée** et son `updated:` n'a **pas été remonté**.
+
+```
+$ stat + grep
+atelier/rd/cahiers/journal-optimisations.md   mtime=2026-09-11 13:41:08   updated: 2026-09-02
+$ git status --porcelain
+ M atelier/rd/cahiers/journal-optimisations.md
+```
+
+→ **Cmd 8 non respecté** (`updated: 2026-09-02` alors que l'entrée la plus récente est du 2026-09-11), et écriture non commitée.
+
+---
+
+#### Fiche B — `atelier/rd/infrastructure/monitoring-archive-charte.md`
+
+**(a) Lecture.** `updated: 2026-09-10` (correct). Elle documente la **clôture d'INF-15** : le profil `publication` reçoit son propre job d'archivage `archiver-veille-publication` (id `d3176b389ed8`, cron `10 11 * * *`, rétention 40 j, 13 sorties historiques rétroarchivées).
+
+**(b) Rapprochement.** Le point 3 de l'entrée `[2026-09-02]` du registre des problèmes (« Angle mort d'archivage — les rapports Publication ne laissent aucune trace au dépôt ») était `ouvert`. **Il est matériellement résolu.**
+
+**(c) PROPOSITION.** Aucune action. La clôture est **corroborée mécaniquement**, et je peux le montrer plutôt que l'affirmer : `verifier-coherence-infrastructure.py` rend `✅ cron 'archiver-veille-publication' présent (profil publication)` (§1.3), et l'archive du jour existe :
+
+```
+-rw-r--r-- 25804 2026-09-12 09:10 atelier/rd/infrastructure/monitoring-archive/2026-09-12_ad3152b237bb.txt
+  → « Cronjob Response: veille-referencement-investigation-08 (job_id: ad3152b237bb) »
+```
+
+La porte est ouverte **et quelque chose est passé par la porte**. C'est le contraire du cas PRO-01.
+
+**(d) Dépendances.** Elle **nourrit** `registre-traitement.md` (Fiche C) : c'est l'archivage qui rend le registre de traitement possible, et c'est pourquoi `verifier-rapports-traites.py` peut désormais exiger une entrée par rapport.
+
+**(e) Handoff.** **Publication** — la publication doit savoir que son rapport arrive désormais au dépôt, et que son absence d'entrée de traitement est désormais détectable.
+
+---
+
+#### Fiche C — `atelier/rd/infrastructure/monitoring-archive/registre-traitement.md`
+
+**(a) Lecture.** Une entrée nouvelle `[2026-09-10] traite | publication | ad3152b237bb`, plus 12 entrées rétroactives du 2026-08-24 au 09-10 (commit `b930273`).
+
+**(b) Rapprochement.** Directement issu de la clôture INF-15. **Nouveau** : c'est la première fois qu'un rapport Publication reçoit une entrée *au moment de son archivage* (les 12 autres sont rétroactives et étiquetées comme telles — choix explicite et argumenté en corps de fiche).
+
+**(c) PROPOSITION.** Voir la **Piste 2** (Piste transversale n° 2) : ce fichier porte la même violation Cmd 8 que la Fiche A, **et** une rupture d'ordre A2. `updated: 2026-09-08` alors que l'entrée la plus récente est `[2026-09-10]` (ligne 86) et qu'un `[2026-09-08]` (ligne 175) suit des lignes `[2026-08-24]` → rupture d'ordre.
+
+**(d) Dépendances.** Elle **consomme** la Fiche B. Elle **nourrit** `registre-chantiers.md` (Fiche D) par INF-15.
+
+**(e) Handoff.** **Publication** et **Studio** (les deux profils concernés) ; **Claude Code / INTEGRATION** pour l'écriture — la charte est explicite : « Les agents Hermes eux-mêmes n'écrivent jamais ici ».
+
+**Fait actionnable du jour** : `verifier-rapports-traites.py` signale **1 rapport sans entrée de traitement** — celui du 2026-09-12, arrivé à 09:10. Normal (il vient d'arriver), mais c'est l'item à traiter, et je ne peux pas l'écrire moi-même.
+
+---
+
+#### Fiche D — `atelier/rd/registre-chantiers.md`
+
+**(a) Lecture.** La ligne `INF-15` est passée de `attente-verdict` à **`clos 2026-09-10`** (commit `fb1791c`).
+
+**(b) Rapprochement.** Aucune entrée du registre des problèmes ne couvre le cas d'une **clôture de ligne non répercutée sur la synthèse**. Le §0 de ce registre porte pourtant sa propre règle : *« si vous modifiez une ligne, ce tableau se recompte, il ne s'estime pas »*.
+
+**(c) PROPOSITION — défaut réel, mesuré.** J'ai recompté **depuis les lignes elles-mêmes**, comme la règle du §0 l'exige (script de comptage écrit pour cette passe, sortie brute) :
+
+```
+=== COMPTAGE MECANIQUE (lignes reelles, sections 1-7) ===
+  section 1 : 15 lignes  {'en-cours': 2, 'ouvert': 9, 'bloque': 1, 'attente-verdict': 3}
+  section 2 : 15 lignes  {'bloque': 1, 'ouvert': 8, 'attente-verdict': 2, 'en-cours': 3, 'clos': 1}
+  section 3 :  8 lignes  {'ouvert': 7, 'bloque': 1}
+  section 4 :  3 lignes  {'bloque': 1, 'ouvert': 1, 'attente-verdict': 1}
+  section 5 :  2 lignes  {'bloque': 1, 'ouvert': 1}
+  section 6 :  5 lignes  {'ouvert': 3, 'attente-verdict': 2}
+  section 7 :  8 lignes  {'attente-verdict': 1, 'ouvert': 4, 'fait': 1, 'partiel': 1, 'recensé': 1}
+
+  TOTAL lignes §1-§7 : 56
+  REPARTITION        : {'en-cours': 5, 'ouvert': 33, 'bloque': 5, 'attente-verdict': 9, 'clos': 1, ...}
+
+  clotures en place (§9) :
+    OUT-C1 · INF-C1 · PRO-C1 · OUT-C2 · PRO-C2 · PRO-C3 · PRO-08 · INF-14
+
+=== CONFRONTATION AU TABLEAU §0 ===
+  ouvert           declare  33   OK
+  en-cours         declare   5   OK
+  bloque           declare   5   OK
+  attente-verdict  declare  10   ECART -> 9 reel
+```
+
+**Trois défauts, tous vérifiés :**
+
+| # | Défaut | Preuve |
+|---|---|---|
+| D1 | §0 non recompté — `INF` déclaré `8/3/1/3 = 15`, réel `8/3/1/2` + 1 `clos` | comptage ci-dessus, `attente-verdict` 10 déclaré / 9 réel |
+| D2 | §9 non mis à jour — INF-15 **absent** des chantiers clos | `awk '/^## 9\./,0' \| grep -c 'INF-15'` → **0** |
+| D3 | `updated: 2026-09-07` alors que la fiche a été modifiée le **2026-09-10** (commit `fb1791c`) | `stat` + `git log -1 --format=%ad -- <fiche>` |
+
+*Note de traçabilité* : mon premier comptage a produit un faux écart sur `INS` (16 au lieu de 15) et un total à 58 — **artefact de mon propre parseur** (une cellule contenant un chemin entre backticks comptée comme un statut ; les lignes `PRO-08`/`INF-14` de §9 capturées par la regex d'ID). Parseur corrigé, comptage refait, résultat ci-dessus. Je le signale parce qu'un instrument non éprouvé ne vaut pas mieux qu'un contrôle non éprouvé (§VII).
+
+**(d) Dépendances.** Cette fiche est le **nœud aval** des trois autres : Fiche A (migration) devrait y avoir une ligne, Fiche B/C (INF-15) y ont la leur. Elle **nourrit** toute session reprenant à froid — d'où le coût réel du défaut : un agent qui lit `53 (+3 = 56)` et cherche `INF-15` en `attente-verdict` la trouvera `clos`.
+
+**(e) Handoff.** **INTEGRATION / Claude Code** pour le recomptage et le §9 ; **Sidy** si le vocabulaire des statuts est touché (le « Point soumis à Sidy » du §0 sur `fait`/`partiel`/`recensé` reste **non tranché**).
+
+---
+
+### 4.2 Les 5 entrées les plus récentes de `registre-problemes.md` — état
+
+| Entrée | Statut au registre | État mesuré aujourd'hui |
+|---|---|---|
+| `[2026-09-04]` Un contrôle vert n'attestait pas que les liens du cartouche aboutissent | `resolu` (contrôle) ; **7 cibles en cours d'instruction** | **Inchangée.** Aucune entrée de clôture ; le rapport Publication du jour rend `0 erreur(s), 73 avertissement(s)` (C6=45 · C5=26 · C7=1 · C1=1). Les 7 cibles ne sont pas closes par cette passe. |
+| `[2026-09-02]` Deux rapports Publication collés par Sidy — point 3 (`INF-15`) | `ouvert` | **CHANGÉ — résolu par ailleurs.** INF-15 clos le 2026-09-10 (charte étendue + job créé), corroboré §1.3 et §4.1-B. L'entrée elle-même reste sans clôture : comportement normal d'un cahier append-only. |
+| `[2026-09-02]` Reprise des rapports Studio/Publication — point 3 (même angle mort) | `ouvert` | **CHANGÉ — même fait**, même résolution, même absence de clôture au registre. |
+| `[2026-09-01]` `commerce` absent du relevé systemd | `resolu` | **Confirmé.** `hermes-gateway-commerce.service` présent, `inactive/disabled` (§3.2). Le diagnostic (relevé incomplet, non défaut d'infra) tient. |
+| `[2026-09-01]` Gateways `failed` plutôt qu'`inactive` | `resolu` | **Confirmé.** Les 10 profils non essentiels sont `inactive/disabled`, les 3 attendus `active/enabled` (§3.2). |
+
+**Aucune proposition antérieure n'a été appliquée ni rejetée dans cette passe** — la seule évolution est la clôture d'INF-15 par un chemin *autre* que le registre des problèmes (charte + registre des chantiers). **Aucune entrée de cette liste n'est stagnante depuis plus de 9 jours.**
+
+---
+
+### 4.3 Synthèse R&D — pistes prioritaires pour la prochaine session
+
+*(Toutes marquées **PROPOSITION** — aucune n'est une décision.)*
+
+**Piste 1 — Le rapport Studio est muet depuis 3 jours** · **urgence HAUTE** · **faisabilité IMMÉDIATE**
+`41dc3e7e492c` a échoué les 09, 10 et 11/09 ; aujourd'hui il tourne (cette exécution). L'entrée `[2026-09-11]` du journal déclare les `Connection error` *résolues* sur la foi du run **gardien**. PROPOSITION : (i) `hermes --profile studio cron show 41dc3e7e492c` pour lire le pin réel (l'échec du 09-10 portait un modèle **Omniroute**, pas `deepseek-flash`) ; (ii) si le pin est absent ou faux, `cron edit` pour l'aligner ; (iii) consigner le trou de 3 jours comme entrée `registre-problemes.md`. **Dépendance** : la preuve s'obtient en une commande.
+
+**Piste 2 — Deux cahiers append-only hors du contrôle A (Cmd 8 et A2)** · **urgence HAUTE** · **faisabilité HAUTE**
+`verifier-invariants.py` applique les contrôles A0–A5 **uniquement** aux fichiers nommés `annales.md` / `meta-annales.md` :
+
+```python
+NOMS_ANNALES = {"annales.md", "meta-annales.md"}
+```
+
+Or `journal-optimisations.md` (`updated: 2026-09-02` < entrée `2026-09-11`) et `registre-traitement.md` (`updated: 2026-09-08` < entrée `2026-09-10`) portent des en-têtes `## [YYYY-MM-DD]` **et** la même convention d'insertion en tête. Le rapport Publication du jour rend pourtant `0 erreur(s)` : **le contrôle ne les voit pas, non parce qu'ils sont sains, mais parce qu'ils sont hors de son nom**. PROPOSITION : étendre la portée de `controler_annales()` à ces deux fichiers (liste nommée, pas glob — le dépôt refuse les passes de masse), **et éprouver le contrôle** selon §VII : sain → fabriquer la faute (`updated:` reculé) → observer le refus → restaurer. Sur l'état actuel, le contrôle ainsi étendu **mordrait deux fois** — ce qui est précisément ce qu'on veut avoir vu.
+
+**Piste 3 — Le §0 du registre des chantiers diverge de ses propres lignes** · **urgence MOYENNE** · **faisabilité HAUTE**
+D1/D2/D3 du §4.1-D. PROPOSITION : recomptage mécanique + versement d'INF-15 en §9 + `updated:` remonté, par une passe INTEGRATION. **Ne pas** y toucher depuis un agent (l'entretien du registre est explicitement une ligne de la passe d'annales, et la désignation d'un responsable de revue est en §*Points ouverts*, non tranchée).
+
+**Piste 4 — Le sas `_inbox/` : deux fichiers suivis par git, un au-delà du seuil** · **urgence MOYENNE** · **faisabilité MOYENNE**
+`2026-09-07_djinns-...` (5 j) et `2026-09-10_recolte-discernement-...` (2 j) sont **trackés** (`448db16`, `958f20e`). PROPOSITION : verdict de Sidy sur deux questions distinctes — (i) intégrer, retourner, ou laisser ; (ii) le versionnement du contenu du sas est-il voulu, ou la réapparition de l'incident `[2026-08-09]` ? Signalé, rien corrigé.
+
+**Piste 5 — La migration de provider n'a pas de ligne de chantier** · **urgence BASSE** · **faisabilité HAUTE**
+`journal-optimisations.md [2026-09-11]` documente une action d'infrastructure effective (provider, fallback, clés, pins, restart de 3 gateways) — du même ordre que ce que `INF-07` (« fonction réelle du processus omniroute ») et `INF-16` recensent — mais **aucune ligne `INF-17` n'existe**. Angle mort : la migration est consignée comme *optimisation*, donc hors du registre qui sert de carte à froid. PROPOSITION : ouvrir la ligne, ou acter qu'une optimisation n'appelle pas de ligne (verdict).
+
+---
+
+## §5 — Suggestions transversales
+
+1. **Deux consignes d'exécution de ce job pointent un chemin mort.** §1 prescrit `Graphe/generer-cartographie.py` ; le script vit en `atelier/rd/outillage/graphe/` depuis le 2026-08-31. C'est la **même classe** que la fausse alerte « script détecteur manquant » déjà close au `[2026-09-02]` : un chemin figé dans une consigne périmée produit un échec qui ressemble à un défaut, et qui en fait un dans la consigne. PROPOSITION : mettre à jour le prompt du cron — le chemin correct est aussi celui que cite déjà `registre-chantiers.md` §0 bis.
+
+2. **Le §4 de la consigne s'auto-vérifie par construction ; le §3 non.** L'instruction « lire TOUTES les fiches R&D nouvelles » est tenue (0 nouvelle, 4 modifiées, toutes lues). En revanche, « santé des 12 gateways » se satisfaisait d'un `list-units` qui n'en montre que 3 *loaded* — la leçon `[2026-09-01]` `commerce` interdit exactement cette lecture. J'ai donc relevé `list-unit-files` **et** `is-active`/`is-enabled` par profil. PROPOSITION : que le §3 prescrive l'inventaire complet, pas le seul relevé `loaded`.
+
+3. **Le motif de la Piste 1 mérite d'être nommé au registre.** Une optimisation validée sur un job a été consignée au nom de trois. Ce n'est pas un nouveau principe — §VII *Épreuve des contrôles* et `[2026-09-04]` le disent — mais c'est une **instance réelle, datée, avec un historique brut à citer**, et c'est la première fois que le contrôle trompé est *le rapport lui-même*. PROPOSITION : entrée `registre-problemes.md`, à rédiger après verdict (Cmd 9 : jamais une entrée décrivant une opération non exécutée).
+
+4. **Un angle mort d'outillage, révélé par la Piste 2.** Le dépôt compte désormais au moins quatre cahiers append-only (`registre-problemes`, `journal-optimisations`, `registre-traitement`, `registre-chantiers`) qui partagent la discipline des annales sans en partager le contrôle. PROPOSITION : après extension, **vérifier que les deux autres n'enfreignent rien** — `registre-problemes.md` (`updated: 2026-09-09`, entrée `2026-09-04`) et `registre-chantiers.md` (sans en-têtes `## [date]`, donc hors A2/A3 par nature) doivent être inspectés avant d'élargir la liste, pour ne pas livrer un contrôle qui rougit sur ce qui n'est pas une faute.
+
+---
+
+### Récapitulatif de la passe
+
+| § | Verdict |
+|---|---|
+| §1 | 606 nœuds / 1960 arêtes / 64 lacunes `to-source` / 184 avertissements non bloquants · 2 fichiers non trackés · **11 affirmations `infra_verif`, 0 écart** · 1 rapport non traité |
+| §2 | Disque **76 %** (▼ de 85 %) · swap **22 Mi/2,0 Gi** (▼ de saturation) · RAM 2,1 Gi disponibles |
+| §3 | Bind-mounts **12/12 OK** · **3/13 gateways actifs**, conformes au 2026-08-28 · `_inbox/` **2 fichiers, 1 au-delà du seuil** · ⚠️ **job Studio en échec 3 jours de suite** |
+| §4 | **0 nouvelle fiche**, 4 modifiées, toutes lues · **3 défauts Cmd 8** · **1 divergence §0 mesurée** · **1 affirmation de résolution non portée par sa preuve** |
+| §5 | **4 propositions transversales**, aucune décision |
+
+**Aucune écriture au dépôt effectuée par cette passe.** Les six points appelant une action (Pistes 1–5, §5.1) sont des **propositions** soumises à validation Discord.
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").
