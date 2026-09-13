@@ -10,12 +10,13 @@ tags:
 - tasawwuf
 - ihsan
 created: 2026-06-02
-updated: 2026-09-08
+updated: 2026-09-13
 sources: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 1
 cross_links:
 - '[[ahl-al-sunnah-wa-l-jamaa]]'
 - '[[naqshbandiyya]]'
+- '[[doctrinal/traditions/tijaniyya]]'
 - '[[tawakkul]]'
 - '[[futuwwa]]'
 - '[[walaya]]'

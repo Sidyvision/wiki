@@ -10,13 +10,14 @@ tags:
 - stations
 - tariqa
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-13
 sources: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 1
 cross_links:
 - '[[tariq]]'
 - '[[tasawwuf]]'
 - '[[naqshbandiyya]]'
+- '[[doctrinal/traditions/tijaniyya]]'
 ---
 
 # Al-Ṭarīqa

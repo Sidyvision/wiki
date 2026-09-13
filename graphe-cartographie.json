@@ -5133,7 +5133,7 @@
         "afrique-ouest",
         "tijaniyya"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/autorites/ouattara-brahima.md",
       "lacunes_to_source": 0
     },
@@ -10473,7 +10473,7 @@
         "occultisme-populaire",
         "distinction-doctrinale"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/jinns-classification-couleur.md",
       "lacunes_to_source": 0
     },
@@ -11274,7 +11274,7 @@
         "stations",
         "tariqa"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/tariqa.md",
       "lacunes_to_source": 0
     },
@@ -11694,7 +11694,7 @@
         "tasawwuf",
         "ihsan"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/traditions/tasawwuf.md",
       "lacunes_to_source": 0
     },
@@ -15906,6 +15906,13 @@
     {
       "source": "doctrinal/autorites/ouattara-brahima",
       "target": "doctrinal/symboles/ilm-al-huruf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/ouattara-brahima",
+      "target": "doctrinal/traditions/tijaniyya",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -23947,6 +23954,13 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/jinns-classification-couleur",
+      "target": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/jivatma",
       "target": "doctrinal/symboles/atma",
       "champ": "cross_links",
@@ -24906,6 +24920,13 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/tariqa",
+      "target": "doctrinal/traditions/tijaniyya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/tasdiq",
       "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
       "champ": "sources",
@@ -25468,6 +25489,13 @@
     {
       "source": "doctrinal/traditions/tasawwuf",
       "target": "doctrinal/traditions/naqshbandiyya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tasawwuf",
+      "target": "doctrinal/traditions/tijaniyya",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
