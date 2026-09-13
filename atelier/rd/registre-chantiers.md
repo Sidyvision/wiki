@@ -3,7 +3,7 @@ title: "Registre des chantiers — carte vivante des travaux ouverts du dépôt"
 type: registre
 tags: [atelier, rd, registre, chantiers, pilotage]
 created: 2026-09-01
-updated: 2026-09-07
+updated: 2026-09-13
 sources: []
 links:
   - "[[atelier/rd/index]]"
@@ -231,6 +231,7 @@ non dépouillées dans cette passe → §8.*
 | PRO-05 | Rétroportage du champ `maturite` sur les fiches `discernement/` — **9 sur 56** le portent ; différé assumé, non borné | `ouvert` | les agents le renseignent au fil de leurs éditions de fond ; le différé n'a pas d'échéance | proposition du 2026-08-27 (cf. Domaine Réservé) | 2026-08-27 |
 | PRO-06 | File d'idées pour les agents : dispositif validé le 2026-08-27, **encore vide** — jamais éprouvé en usage réel | `ouvert` | y verser une première idée | `queue-idees.md` (cf. Domaine Réservé) | 2026-08-27 |
 | PRO-07 | Nature de `04-sessions-par-fonction-et-backlogs` : cesser d'être un backlog vivant pour devenir mode de travail + aiguillage | `attente-verdict` | refonte documentaire — décision de Sidy | relevé de la passe du 2026-09-01 | 2026-09-01 |
+| PRO-09 | **Étanchéité et matériau expérientiel** — les règles §VI, §VII.2 et §VII.3 supposent toutes une origine **extérieure au déposant** (texte reçu, ouvrage, conversation). Le cas où la source est **Sidy lui-même** n'a pas de forme prévue : son vécu est soit exilé en `meta/` hors du champ du discernement, soit obligé de se dire en langue doctrinale. Mesuré sur le lot du **2026-06-20** (45 fiches à provenance conversationnelle, 32 `sources:` vides, 2 `to-source` sur 45) et sur deux fiches portant des éléments personnels nommés en circuit neutre (S4/S5, pointées non reproduites). **Cinq propositions journalisées — aucune appliquée** : P1 fiche de provenance du corpus ; P2 champ `materiau:` au Sceau ; P3 éclatement érigé en défaut ; P4 registre de l'**attestation** (trois sols : sourcé / sans source / attesté) ; P5 recevoir la contrainte comme qabḍ, non comme khawf | `attente-verdict` | reprise quand Sidy aura le temps — arbitrer les questions Q1-Q5 de la fiche. **En attendant, l'a priori du 2026-09-13 tient** : « d'a priori et instruire les fiches » ; S4/S5 non touchées | [[atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel]] | 2026-09-13 |
 
 ## 7. Doctrinal (`DOC`)
 
