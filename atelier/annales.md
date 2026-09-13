@@ -10,6 +10,16 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-13] rd | Cas journalisé — étanchéité et matériau expérientiel (PRO-09), cinq propositions non appliquées
+
+- **Consigne de Sidy** : « journalise ce cas au R&D avec tes propositions pour que nous puissions y revenir plus tard parce que je n'ai pas le temps de le faire maintenant », au terme de l'instruction du lot du 2026-06-20 et du signal S6.
+- **La tension, dans ses mots** : « la question du cloisonnement et de l'étanchéité a sa légitimité pratique mais d'un autre point de vue elle bloque l'effort de discernement direct de mes propres expériences OU m'impose une extrême rigueur de mise en forme dans la façon de les traiter » — reçue par lui comme une occurrence de la doctrine de la contrainte (qabḍ, non khawf).
+- **Ce que la machine a pu établir, et de quel ordre** : §VI, §VII.2 et §VII.3 supposent tous une origine **extérieure au déposant** ; le cas « la source est Sidy lui-même » n'a pas de forme prévue — ni `to-source` levable (aucun texte primaire), ni `sources:` déclarable (un persona n'est jamais une source), ni circuit (le vécu en page neutre est interdit). Constat mécanique qui suit : ce sont les fiches à la matière la plus personnelle qui restent le plus longtemps vides au Sceau. Relevé formel, non jugement doctrinal (Cmd 12).
+- **Livrable** : `atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel.md` (🔍 `kari-kumi`) — le cas mesuré (45 fiches, 32 `sources:` vides, 2 `to-source` ; S4/S5 pointées, non reproduites), les six dispositifs déjà en place replacés et bornés, **cinq propositions non appliquées** (P1 provenance du corpus conversationnel ; P2 champ `materiau:` au Sceau ; P3 éclatement érigé en défaut ; P4 registre de l'attestation — trois sols : sourcé / sans source / attesté ; P5 la contrainte reçue comme qabḍ), et cinq questions laissées à son arbitrage (Q1-Q5). Ligne **PRO-09** ouverte au registre, statut `attente-verdict`.
+- **Aucune écriture doctrinale, aucun verdict, aucun fait personnel reproduit** (§VI) ; S4/S5 non touchées, conformément à son mot du jour.
+- **Ce qui tient en attendant** : l'a priori « pour l'instant d'a priori et instruire les fiches » — le cas est journalisé, il ne bloque rien.
+- **Commit** : c62efee
+
 ## [2026-09-13] correctifs | Lien de chantier du registre de traitement remis en forme conventionnelle
 
 - **Signal S3** du rapport de veille-référencement du 2026-09-13, corrigé sur ordre de Sidy (« tu peux exécuter les correctifs ») : `atelier/rd/infrastructure/monitoring-archive/registre-traitement.md` l.82 portait `[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm]]`, cible inexistante **en tant que fiche** — le chantier INF-16 vit en **dossier-triptyque** (`intent.md`/`spec.md`/`plan.md`, convention du 2026-09-01). Le lien vise désormais `…/inf-16-machine-ia-locale-slm/intent`, forme employée par les autres appelants du même chantier (`rd/registre-chantiers.md` l.195). Le C1 correspondant est fermé : le contrôle passe de 73 à 72 avertissements.
