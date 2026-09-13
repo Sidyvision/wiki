@@ -41,6 +41,127 @@ Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-13] Provider LLM des trois gateways rétabli sur DeepSeek — la bascule du 11/09 absente des `config.yaml`
+
+- **Procédure modifiée** : provider LLM principal (`model.provider`,
+  `model.default`) des profils `gardien`, `publication` et `studio` ;
+  redémarrage des unités `hermes-gateway-{gardien,publication,studio}.service`.
+  Demande de Sidy en session : « Redémarre le gateway de Publication », puis
+  « Bascule Gardien aussi ».
+- **État avant** (relevé du 13/09, ~14:00 UTC) :
+  - `publication/config.yaml` et `studio/config.yaml` : `model.provider:
+    custom:omniroute`, `model.default: auto/best-free`.
+  - `gardien/config.yaml` : `model.provider: qwen`, `model.default:
+    qwen3.7-plus`.
+  - Aucun listener sur `localhost:20128` (`curl` → code 000) et **aucune unité
+    systemd** ne lance `omniroute` (binaire pourtant présent : `/usr/bin/omniroute`,
+    v3.8.50).
+  - Journal du gateway `publication`, à 13:55:37 (avant tout redémarrage) :
+    `APIConnectionError` sur `http://localhost:20128/v1`, trois tentatives,
+    `API failed after 3 retries — Connection error`.
+  - Test direct du provider `qwen` avec le modèle de la config de `gardien`
+    (`qwen3.7-plus`) : **HTTP 403** `AccessDenied.Unpurchased` (« Access to
+    model denied »).
+  - Les trois `config.yaml` **ne portaient donc pas** la bascule que l'entrée
+    `[2026-09-11]` ci-dessous consigne comme appliquée. L'écart est constaté,
+    non expliqué (ni la date ni le mécanisme de la divergence ne sont établis) ;
+    l'entrée du 11/09 n'est pas réécrite (Cmd 10).
+- **Changement effectué** :
+  1. Sauvegarde des trois fichiers en `config.yaml.bak-predeepseek-20260913`.
+  2. `model.provider: deepseek`, `model.default: deepseek-v4-flash` dans les
+     trois profils. Le bloc `providers.omniroute` est **conservé**, non
+     supprimé, pour rester disponible si le service est relancé.
+  3. Redémarrage des trois unités (`XDG_RUNTIME_DIR=/run/user/0`).
+  4. `publication` a été redémarré **deux fois** : d'abord à la demande de Sidy
+     (14:03, provider encore `custom:omniroute`), puis une seconde fois après la
+     bascule de son provider (14:06).
+- **État après** : test d'aller-retour réel par `hermes --profile <nom> -z`
+  — la config est lue *et* une génération est demandée, ce n'est pas une simple
+  relecture de fichier. Les trois rendent la réponse attendue :
+  - `publication` → `OK-PUBLICATION` (PID 292241)
+  - `studio` → `OK-STUDIO` (PID 292266)
+  - `gardien` → `OK-GARDIEN` (PID 292920)
+
+  Journaux des trois unités après redémarrage : aucune erreur de provider (les
+  seules lignes `Failed with result 'exit-code'` sont la mort des anciens
+  processus pendant l'arrêt volontaire). `verifier-invariants.py` : **0 erreur,
+  73 avertissements**, exit 0 — identique à la mesure d'avant intervention.
+- **Impact mesuré** : **3 profils sur 3 répondent** après bascule, contre
+  **0 sur 3** avant (403 côté qwen, connexion refusée côté omniroute). RAM des
+  gateways au relevé : publication 207,2 MiB (pic 229,8), studio 206,5 MiB
+  (pic 234,2), gardien 185,8 MiB (pic 205,3). Le coût de la bascule reste
+  `to-source` : aucune facturation DeepSeek relevée à cette heure.
+- **Signalement lié** : `INF-07` (fonction réelle du processus `omniroute`,
+  `en-cours`) — au 13/09 le processus **n'existe pas** : ni listener sur son
+  port, ni unité systemd. Consigné ici comme fait, **non inscrit au registre**
+  (verdict requis, Cmd 12).
+- **Liens** : `~/.hermes/profiles/{gardien,publication,studio}/config.yaml` et
+  leurs copies `.bak-predeepseek-20260913` ; `.env` des mêmes profils
+  (`DEEPSEEK_API_KEY`) ; `plugins/model-providers/deepseek/` de l'installation
+  Hermes (`/usr/local/lib/hermes-agent/`, qui documente le retrait des alias
+  `deepseek-chat`/`deepseek-reasoner` au 2026-07-24) ; `https://api.deepseek.com`
+  (`/v1/models` → `deepseek-flash`, `deepseek-v4-pro`) ; annales
+  `atelier/annales.md`, entrée du 2026-09-13.
+- **Statut** : `applique`.
+
+## [2026-09-11] Migration provider LLM : Omniroute → DeepSeek V4.1-Flash
+
+- **Procédure modifiée** : provider LLM principal, fallback chain, auxiliaires
+  (vision, compression, title_generation), clé API et crons des profils
+  gardien/publication/studio.
+- **État avant** : provider par défaut `custom:omniroute` (`localhost:20128/v1`),
+  model `auto/best-free`. Omniroute en mode forwarding reposant sur la RAM
+  locale du serveur — les 14 gateways simultanés saturaient les 3.7 GiB
+  disponibles. Les crons des 12 profils (default + 11 secondaires) tournaient
+  tous en agent-mode sur Omniroute, multipliant les requêtes concurrentes.
+  Les 3 gateways cibles (gardien/publication/studio) échouaient en
+  `RuntimeError: Connection error` quotidiennement depuis fin août. Aucun
+  mode réflexion/thinking n'était activé sur les crons.
+- **Changement effectué** :
+  1. Provider principal : `model.default = deepseek/deepseek-flash`
+     (DeepSeek-V4.1-Flash, 552B MoE, 8-16B actifs, KV cache 890 B/token).
+  2. Provider de secours : Omniroute conservé en `fallback_providers`
+     (bascule automatique sur rate-limit/erreur réseaux).
+  3. Auxiliaires : `auxiliary.vision.provider`, `auxiliary.compression.provider`,
+     `auxiliary.title_generation.provider` → deepseek.
+  4. Clé API : `DEEPSEEK_API_KEY` ajoutée dans `~/.hermes/.env` + `.env` des
+     3 profils actifs (gardien, publication, studio) — chaque gateway lit
+     son propre `$HERMES_HOME/.env`, pas la racine.
+  5. Crons : tous les crons des profils default, marketing, accounting,
+     admin-legal, ar-music, commerce, distribution, fanzine, karubi,
+     production, visual-da désactivés (pauses). Seuls restent actifs
+     gardien (`veille-protocole-gardien`), publication
+     (`veille-referencement-investigation-08` + `archiver-veille-publication`)
+     et studio (`monitoring-infrastructure-quotidien` +
+     `coherence-infrastructure-brute` + `archiver-monitoring-quotidien`).
+  6. Cible profil : `hermes --profile <nom> cron edit/pause` (la variable
+     `HERMES_PROFILE` est ignorée par le CLI cron).
+  7. Mode réflexion : `--reasoning-effort high` piné sur les 3 crons
+     agent-mode (thinking DeepSeek natif).
+  8. Horaires : tous les crons actifs tournent 11:00-12:30 UTC (off-peak
+     DeepSeek, hors 01:10h UTC lun-ven).
+  9. Gateways : les 3 services systemd ont été restartés (`systemctl --user
+     restart hermes-gateway-{gardien,publication,studio}.service`).
+- **État après** : run test `veille-protocole-gardien` → `succeeded`.
+  Les 3 gateways actifs avec PIDs neufs, chacun pointant deepseek-flash.
+  Les runs publication et studio en cours (agents scan lourds du wiki).
+  Le provider Omniroute reste disponible en fallback, pas supprimé de
+  la config.
+- **Impact mesuré** : RAM gateway gardien : ~210 MiB (stable, pic 297 MiB).
+  Coût off-peak : $0.15/M tokens entrée, $0.60/M sortie (vs Omniroute
+  dont le coût réel n'était pas mesuré car forwarding local).
+  Les erreurs `Connection error` quotidiennes des 3 crons sont résolues
+  (testé : run gardien succeeded). `to-source` pour les gains RAM globaux
+  (le serveur tourne encore à 2.7 Gi/3.7 Gi — les gateways désactivés
+  des autres profils ne sont pas encore arrêtés).
+- **Liens** : `~/.hermes/config.yaml` (provider.default, fallback_providers,
+  auxiliary.*) ; `~/.hermes/.env` (DEEPSEEK_API_KEY) ;
+  `~/.hermes/profiles/{gardien,publication,studio}/.env` (clés DeepSeek) ;
+  `~/.hermes/profiles/*/cron/jobs.json` (pins provider/model/reasoning) ;
+  https://api-docs.deepseek.com/ (documentation officielle).
+- **Statut** : `applique` — run test gardien succeeded, crons schedulés
+  activés sur deepseek-flash, gateways relancés.
+
 ## [2026-09-02] Chaîne OCR versée en outillage — le scan d'ouvrage devient reproductible
 
 - **Procédure modifiée** : conversion des scans d'ouvrages de `raw/` vers du
