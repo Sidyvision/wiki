@@ -1,7 +1,7 @@
 ---
 title: Trois territoires de l'inachevé — flux spéculatif → exploratoire → finalisé
 type: discernement
-status: adopte
+status: speculatif
 tradition_cadre: universel
 verdict_date: 2026-08-11
 description: 'Hypothèse méthodologique sur la parenté entre Discernement, R&D et Herméneutique
@@ -12,7 +12,7 @@ description: 'Hypothèse méthodologique sur la parenté entre Discernement, R&D
 
   '
 created: 2026-08-11
-updated: 2026-08-12
+updated: 2026-09-13
 sources:
 - '[[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]]'
 sources_count: 1
@@ -191,4 +191,12 @@ Cette hypothèse enrichit :
 Cmd 12 — tranché par Sidy le 2026-08-11 : **adopté**. Le flux proposé
 (Discernement → R&D → Doctrine/Archivage), la légitimité théurgique du
 Laboratoire-Sandbox, et la distinction Doctrine/Théorie sont validés comme
-description opérationnelle de la structure du dépôt. `status: adopte`.
+description opérationnelle de la structure du dépôt.
+
+**Forme du Sceau corrigée le 2026-09-13** (verdict Sidy : « oui, spéculatif, mais
+son contenu a été adopté et validé »). La fiche portait `status: adopte`, hors des
+cinq valeurs du Sceau Recteur — vocabulaire de `statut_experience` (`atelier/CLAUDE.md`).
+Le champ porte désormais `status: speculatif` : le statut qualifie la **nature du
+contenu**, non son état d'avancement. L'adoption et la validation du contenu sont
+portées par `verdict_date: 2026-08-11` et par le présent paragraphe — le vocabulaire
+clos ne connaît pas d'autre place pour elles.
