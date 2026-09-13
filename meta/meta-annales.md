@@ -13,6 +13,12 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] personnel | Fiche de la bague reliée à la fiche doctrinale de sa formule
+
+- **Occasion** : création de `doctrinal/symboles/formule-al-waha-al-ajal-al-saa`, sur ordre de Sidy, avec délégation du choix (détail dans `doctrinal/annales.md`, même date).
+- **`personnel/2026-09-13_bague-offerte-inscription-al-wiha`** : le lien vers la fiche doctrinale est ajouté à `links:`, avec un encart en tête de la section « La formule dans le *Shams al-Maʿārif* ». Sens `meta/` → `doctrinal/` uniquement (§VI). La fiche doctrinale ne mentionne pas la bague.
+- **Commit** : 26b4585
+
 ## [2026-09-13] personnel | Formule de la bague relevée dans le *Shams al-Maʿārif*
 
 - **Occasion** : la recherche des graphies arabes de Shamharush demandée par Sidy (voir `doctrinal/annales.md`, même date). Le texte arabe du *Shams al-Maʿārif* a été interrogé à cette occasion.

@@ -8,6 +8,27 @@ updated: 2026-09-13
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] archivage | La formule « الوحا العجل الساعة » — fiche symbole
+
+- **Ordre de Sidy** : « crée une fiche symbole pour la bague et/ou la citation […] je te laisse faire en fonction de ce qui est le plus pertinent ».
+- **Choix de la machine, sur cette délégation** : une fiche **pour la formule seule**, `symboles/formule-al-waha-al-ajal-al-saa`. **La bague reste en `meta/`**, où elle a déjà sa fiche : aucun fait personnel ne migre en page neutre (§VI). Le lien va de `meta/` vers `doctrinal/` uniquement.
+- **Sceau** :
+  - `status: traditionnel`, attribué par la machine **sur délégation, révisable**. Motif : le statut qualifie le contenu reproduit (*Shams*, *Lisān*), non le registre de pratique.
+  - `original: ["الوحا العجل الساعة"]` : syntagme déclaré entier (point 7), pris au texte du *Shams* et non restitué par un modèle.
+  - `sources` : `[[shams-al-maarif]]` et `to-source`, pour la vérification sur imprimé.
+- **Contenu** :
+  - **Sens lexical** : le *Lisān al-ʿArab*, article وحي (t. 15, pp. 172-173, via Islamweb), est cité en toutes lettres : « الوحى : العجلة ، يقولون : الوحى الوحى ! […] يعني البدار البدار ». Il renvoie au *Tahdhīb*, au *Ṣiḥāḥ* et à Abū al-Najm. La glose de *al-sāʿa* est laissée en `to-source`.
+  - **Le *Shams*, édition A** : 14 séquences, réparties de 22 % à 90 % du texte ; les variantes de clôture ; un **tableau des destinataires** (serviteurs des noms, lettres et sourates, anges des lettres, esprits terrestres, auxiliaires) ; les buts relevés sans jugement ; l'adjuration de Maymūn.
+  - **Contre-épreuves** : l'édition B donne 4 séquences ; la traduction française, aucune.
+  - **Réception contemporaine** : usage occultiste, où la formule est dite « sceau » ; perception adverse ; un roman qui porte ce titre.
+  - **Écart déclaré** : les deux pages susceptibles de porter un jugement religieux (oulémas syriens, Mujeb) ont refusé l'accès (403). Aucun jugement de licéité n'est rapporté ni émis.
+  - **Cinq points de vigilance** (dont Cmd 2 et *simiyāʾ*/*siḥr*), les joints qualifiés, et la confrontation Gizeh : aucun ancrage.
+- **Vérification** :
+  - `verifier-invariants.py --racine /root/wiki` : **0 erreur, 71 avertissements**. Aucune alerte B5, B6 ni B7.
+  - Cmd 15 : 0 caractère invisible.
+- **Graphe** : régénéré. La fiche a **0 lien entrant** au graphe (6 sortants). Le lien depuis la fiche `meta/` de la bague n'y est pas compté. **Proposé, non inscrit** (verdict Sidy) : ajouter la fiche aux `cross_links` de `sources/shams-al-maarif`, `symboles/talisman-sihr`, `symboles/ilm-al-huruf` et `symboles/shamharush`.
+- **Commit** : 26b4585
+
 ## [2026-09-13] langues-originales | Shamharush — شمهورش validée et portée en tête de fiche
 
 - **Verdict de Sidy** : « je valide شمهورش, inscris-la en tête de fiche ». Il répond aux formes attestées relevées le même jour (commit 51a70fd).
