@@ -8,6 +8,15 @@ updated: 2026-09-13
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] correctifs | C7 fermé — `status: adopte` → `speculatif`, l'adoption portée par `verdict_date`
+
+- **Verdict de Sidy** : « oui, spéculatif, mais son contenu a été adopté et validé. » Il ferme le signal S2, que la passe de forme du matin avait laissé ouvert au motif protocolaire — la machine ne conclut pas une valeur de `status` (Cmd 12) — et sur lequel elle avait proposé `speculatif`.
+- **Ce que le champ devient** : `discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire` passe de `status: adopte` (vocabulaire de `statut_experience`, `atelier/CLAUDE.md`) à `status: speculatif`. Le motif est porté par le verdict lui-même : le statut qualifie la **nature du contenu**, non son état d'avancement — précision déjà écrite pour `type: deviation` (amendement du 2026-07-28).
+- **Où vit l'adoption** : nulle part dans le vocabulaire clos, donc en deux lieux déclarés — `verdict_date: 2026-08-11` au Sceau, et une note en fin de section « Verdict », laquelle citait `status: adopte` et aurait contredit le Sceau après correction. Le corps n'est pas autrement touché (Cmd 4, Cmd 11).
+- **Effet mécanique** : code **C7 = 1 → 0**. Contrôle : 0 erreur, **71 avertissements** (72 avant) ; C5 = 26 et C6 = 45 inchangés.
+- **Reste ouvert, sans changement** : S4/S5 (Sidy, 2026-09-13 : « on n'y touche pas pour l'instant ») et S6 (« conversation source » — explication demandée, verdict non rendu).
+- **Commit** : 2a2796d
+
 ## [2026-09-13] correctifs | Sceau Recteur — 28 `sources:` nuls et 3 `sources_count` alignés au rapport de veille du jour
 
 - **Ordre de Sidy** : « tu peux exécuter les correctifs » (session du 2026-09-13), en réponse au rapport de veille-référencement qui portait ces défauts comme signaux S1, S3 et S10 — « jamais corrigés ».
