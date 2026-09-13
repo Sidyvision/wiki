@@ -13,6 +13,14 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] personnel | Rencontre avec Koly Cherif Keita · anecdote de la bague offerte avant la khalwa
+
+- **Ordre de Sidy** : « enregistre l'anecdote de la bague ». Le jugement sur Koly Cherif Keita a été donné en session le même jour.
+- **`personnel/sidy`** : nouvelle section « Rencontre avec Koly Cherif Keita ». Elle consigne la rencontre, que seul `meta/` peut porter (§VI), et le jugement de Sidy en ses mots : « authentique Tijani […] affecté par le paradigme moderne, scientiste […] à nous de maintenir la vigilance tout en distinguant les éléments authentiques ». Renvois vers `doctrinal/symboles/shamharush` et vers la fiche de la bague.
+- **`personnel/2026-09-13_bague-offerte-inscription-al-wiha`** (créée, recensée au `meta-index`) : l'anecdote dans les mots de Sidy, retrouvés dans la conversation ChatGPT n°58 (2025-06-09). Il y a deux bagues du même ami : la première, offerte l'année précédant la khalwa, a été transmise à un certain Sulayman ; la seconde a été apportée sans être demandée. Sidy lit sur celle-ci l'inscription « الوحا العجل الساعة ». C'est **sa lecture de l'objet**, non une restitution par un modèle. La lecture proposée par le modèle n'est pas reprise (§VII.3). Le rapprochement avec Shamharush et l'Akhmar vient **du modèle**, et il est signalé comme tel. La fiche distingue expressément cette bague de celle de Médine.
+- **Sens des liens** : `meta/` → `doctrinal/` uniquement (§VI).
+- **Commit** : e2212d4
+
 ## [2026-09-13] croisement | Djinns et Tijāniyya — renvois de `meta/` vers les nouvelles fiches doctrinales
 
 - **Ordre de Sidy** : « tout cela est croisé avec discernement/ et meta/ », à l'intégration de `doctrinal/sources/koly-cherif-keita-djinns-aident-humains` et de `doctrinal/traditions/tijaniyya` (détail : `doctrinal/annales.md`, même date).

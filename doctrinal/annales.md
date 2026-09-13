@@ -8,6 +8,28 @@ updated: 2026-09-13
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] archivage | Shamharush (Shamhûrash) — lettre de Guénon à Genty (1937) · verdict sur Koly Cherif Keita
+
+- **Ordre de Sidy** : « oui je valide le plan, shamharoush traditionnel, enregistre l'anecdote de la bague », avec la lettre de Guénon déposée dans `raw/`. Deux précisions sont venues en cours de passe : « tu devrais aussi trouver des éléments dans le Shams al Maarif », puis « Guénon écrit "Shamhûrash" mais il s'agit bien de la même entité ».
+- **Créées** :
+  - `sources/guenon-lettre-genty-1937-07-14` — `traditionnel`. C'est la lettre du Caire du 14 juillet 1937, extraite de la *Correspondance avec Patrice Genty* (non publiée) telle que la transcrit l'Index de l'œuvre de René Guénon. Passage cité : « Shamhûrash n'est ni un ange ni un archange, c'est le roi des Jinn muminîn […] le roi actuel est Maïmûn ». Les autres sujets de la lettre sont notés comme jalons et non instruits.
+  - `symboles/shamharush` — `traditionnel` par **verdict de Sidy**. L'identité des graphies (Shamhûrash / Samharou / Shamharoush) est **posée par Sidy**, non par la machine. Champ `original: ["to-original"]` : la seule forme arabe disponible venait d'un modèle et n'est pas admise. Gilis est en `to-source`, l'ouvrage n'étant pas identifié. La conversation ChatGPT n°58 est signalée comme piste de modèle, non comme source (§VII.3).
+- ***Shams al-Maʿārif* interrogé** (texte extrait par `pdftotext` hors du dépôt, 631 pages) :
+  - le nom ne figure pas dans la traduction, pas plus que Maïmûn ;
+  - l'unique occurrence brute (p. 37, « Shamhatu », ange de la lettre *ṭāʾ*) est un **faux positif**, signalé comme tel ;
+  - l'absence n'est pas probante, puisque la traduction ne couvre que les pages 9 à 88 de l'original arabe (`to-source`) ;
+  - la matière voisine est citée : pp. 93-95, les « sept […] nobles et dirigeants des djinns », et la mise en garde « tu te ferais du mal ».
+- **Enrichies** :
+  - `sources/koly-cherif-keita…` reçoit une section « Verdict de Sidy (2026-09-13) » : rattachement tijānī authentique, orateur « affecté par le paradigme moderne, scientiste », consigne de « maintenir la vigilance tout en distinguant les éléments authentiques ». La rencontre personnelle n'y figure pas : elle est portée en `meta/` (§VI).
+  - `sources/koly-cherif-keita…` et `traditions/tijaniyya` reçoivent en outre l'identification Samharou = Shamharush, attribuée à Sidy.
+- **Transcription** : la lettre est copiée dans `textes/divers/guenon-correspondance-genty-1937-07-14-le-caire.md`, avec un nom normalisé : l'apostrophe typographique du nom d'origine faisait échouer l'accès littéral. `LISEZ-MOI` est mis à jour (versement du jour, `divers/` passe de 22 à 23).
+- **Joints** : Guénon ↔ témoignage tijānī en **kari-kumi**. Convergence des trois mises en garde (Guénon, *Shams*, muqaddam) en **kumiko pressenti**. **Gizeh** : matière septénaire (les sept dirigeants du *Shams*) et polaire (le « Seigneur de la Terre » de la lettre, hors sujet) signalées, sans ancrage.
+- **Vérification** :
+  - `verifier-invariants.py --racine /root/wiki` : **0 erreur, 71 avertissements**, identique à la ligne de base.
+  - Cmd 15 : 0 caractère invisible sur les fichiers touchés.
+- **Graphe** : régénéré. Liens entrants : `koly-cherif-keita…` 4, `tijaniyya` 5, `shamharush` 1 (la lettre), `guenon-lettre-genty…` 1 (`shamharush`). **Proposé, non inscrit** (verdict Sidy) : `shamharush` dans les `cross_links` de `sources/koly-cherif-keita…`, de `traditions/tijaniyya` et de `symboles/jinns-classification-couleur`. Le lien existe déjà dans leur corps, mais le graphe ne le compte pas.
+- **Commit** : e2212d4
+
 ## [2026-09-13] maillage | Liens validés vers `tijaniyya` et vers la source Koly Cherif Keita
 
 - **Verdict de Sidy** : « oui, ajoute les liens proposés ». Il répond aux liens proposés et non inscrits de l'entrée d'archivage du jour (commit e4407f5).
