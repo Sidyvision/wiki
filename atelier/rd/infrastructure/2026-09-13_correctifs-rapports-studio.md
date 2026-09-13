@@ -115,6 +115,12 @@ c'est la règle d'usage du registre lui-même.
 > **déclaré ici, visible au dépôt, réversible par `git revert`** ; si la lecture
 > juste est que la clause « les agents Hermes n'écrivent jamais ici » n'est pas
 > levable par une consigne en canal, la correction est un seul commit arrière.
+> **Précédent du même jour** : la session Publication, sur la même consigne
+> (« tu peux exécuter les correctifs »), a corrigé le lien de chantier du même
+> registre — `registre-traitement.md`, commit `4abaa8f`, entrée d'annales
+> `[2026-09-13] correctifs | Lien de chantier du registre de traitement remis en
+> forme conventionnelle`. La lecture retenue par deux postes le même jour est donc
+> la même : la consigne explicite ouvre la porte que la clause fermait.
 > Deux des quatre entrées portent en outre leur motif propre : les rapports
 > **Publication** sont archivés et commités ici, leur **contenu n'est pas
 > instruit** par la session Studio (mandat distinct, consigne parallèle adressée
