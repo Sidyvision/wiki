@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 185,
+  "avertissements": 182,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -1301,6 +1301,28 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise",
+      "label": "État des lieux du chantier d'indexation, et document de reprise (2026-09-09)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "cahier",
+        "reprise",
+        "indexation",
+        "annotation",
+        "langues-originales",
+        "etat-des-lieux",
+        "verdicts-attendus"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations",
       "label": "Rapport de session — indexation HTML, langues originales et convention d'annotation (2026-09-08 → 09)",
       "circuit": "atelier",
@@ -1321,6 +1343,28 @@
       ],
       "updated": "2026-09-09",
       "chemin": "atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel",
+      "label": "Étanchéité et matériau expérientiel — la contrainte de mise en forme (propositions)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "etancheite",
+        "cloisonnement",
+        "discernement",
+        "experience",
+        "contrainte",
+        "kari-kumi"
+      ],
+      "updated": "2026-09-13",
+      "chemin": "atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel.md",
       "lacunes_to_source": 0
     },
     {
@@ -1562,7 +1606,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-09-02",
+      "updated": "2026-09-13",
       "chemin": "atelier/rd/cahiers/journal-optimisations.md",
       "lacunes_to_source": 0
     },
@@ -1680,7 +1724,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-13",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
       "lacunes_to_source": 0
     },
@@ -1942,6 +1986,46 @@
       ],
       "updated": "2026-09-09",
       "chemin": "atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio",
+      "label": "Correctifs des rapports de monitoring Studio — exécution du 2026-09-13",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "monitoring",
+        "hermes",
+        "correctifs"
+      ],
+      "updated": "2026-09-13",
+      "chemin": "atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio",
+      "label": "Suite des points ouverts du rapport Studio — exécution du 2026-09-13 (seconde passe)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "monitoring",
+        "hermes",
+        "correctifs",
+        "registre",
+        "sas"
+      ],
+      "updated": "2026-09-13",
+      "chemin": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio.md",
       "lacunes_to_source": 0
     },
     {
@@ -2529,7 +2613,7 @@
         "hermes",
         "archive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-10",
       "chemin": "atelier/rd/infrastructure/monitoring-archive-charte.md",
       "lacunes_to_source": 0
     },
@@ -2548,7 +2632,7 @@
         "monitoring",
         "registre"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "atelier/rd/infrastructure/monitoring-archive/registre-traitement.md",
       "lacunes_to_source": 0
     },
@@ -3497,6 +3581,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation",
+      "label": "Audit du système d'index lexical — générateur, validateur, sorties",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "outillage",
+        "index-lexical",
+        "audit",
+        "modularisation"
+      ],
+      "updated": "2026-09-09",
+      "chemin": "atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/outillage/gabarit-triptyque-chantier",
       "label": "Gabarit du triptyque de chantier — intent / spec / plan",
       "circuit": "atelier",
@@ -4323,7 +4426,7 @@
         "chantiers",
         "pilotage"
       ],
-      "updated": "2026-09-07",
+      "updated": "2026-09-13",
       "chemin": "atelier/rd/registre-chantiers.md",
       "lacunes_to_source": 0
     },
@@ -5334,7 +5437,7 @@
         "new-age",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/deviations/technologisation-pseudo-scientifique.md",
       "lacunes_to_source": 0
     },
@@ -5641,7 +5744,7 @@
         "double-ancrage",
         "discernement"
       ],
-      "updated": "2026-08-10",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/discernement/2026-07-02_coudee-royale-convergence-28.md",
       "lacunes_to_source": 1
     },
@@ -5900,7 +6003,7 @@
         "protocole",
         "contre-initiation"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance.md",
       "lacunes_to_source": 0
     },
@@ -5997,10 +6100,10 @@
       "circuit": "doctrinal",
       "sous_dossier": "discernement",
       "type": "discernement",
-      "status": "adopte",
+      "status": "speculatif",
       "tradition_cadre": "universel",
       "tags": [],
-      "updated": "2026-08-12",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md",
       "lacunes_to_source": 0
     },
@@ -6042,7 +6145,7 @@
         "psychique-spirituel",
         "chantier-guenon-buni"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel.md",
       "lacunes_to_source": 0
     },
@@ -6065,7 +6168,7 @@
         "syncretisme",
         "chantier-guenon-buni"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation.md",
       "lacunes_to_source": 0
     },
@@ -6298,7 +6401,7 @@
         "miraj",
         "septenaire"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/discernement/2026-08-29_sept-poles-sept-lataif.md",
       "lacunes_to_source": 1
     },
@@ -6570,6 +6673,29 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite",
+      "label": "Tabernacle, Saint des Saints et honden — examen d'un rapprochement d'intériorité",
+      "circuit": "doctrinal",
+      "sous_dossier": "discernement",
+      "type": "discernement",
+      "status": "speculatif",
+      "tradition_cadre": "universel",
+      "tags": [
+        "comparatisme",
+        "shinto",
+        "kabbale",
+        "tabernacle",
+        "saint-des-saints",
+        "honden",
+        "shimenawa",
+        "seuil",
+        "interiorite"
+      ],
+      "updated": "2026-09-10",
+      "chemin": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/discernement/_template",
       "label": "Spéculation sur [Sujet de la réflexion]",
       "circuit": "doctrinal",
@@ -6582,7 +6708,7 @@
         "en-cours",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/discernement/_template.md",
       "lacunes_to_source": 0
     },
@@ -6644,7 +6770,7 @@
         "platon",
         "barzakh"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana.md",
       "lacunes_to_source": 0
     },
@@ -6665,7 +6791,7 @@
         "phi",
         "coudee"
       ],
-      "updated": "2026-07-03",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh.md",
       "lacunes_to_source": 0
     },
@@ -6779,6 +6905,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/a-popular-dictionary-of-shinto-bocking",
+      "label": "A Popular Dictionary of Shinto — Brian Bocking",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "shintoisme",
+      "tags": [
+        "shinto",
+        "dictionnaire",
+        "bocking",
+        "japon",
+        "conversion"
+      ],
+      "updated": "2026-09-10",
+      "chemin": "doctrinal/sources/a-popular-dictionary-of-shinto-bocking.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations",
       "label": "Shaar Hagilgulim — La Porte des Réincarnations (trad. et annot. R. Raphael Afilalo)",
       "circuit": "doctrinal",
@@ -6822,7 +6967,7 @@
         "ijaza",
         "asanid"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/al-madrasah-al-hanbaliyyah.md",
       "lacunes_to_source": 0
     },
@@ -6952,7 +7097,7 @@
         "augure",
         "divination"
       ],
-      "updated": "2026-07-09",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/bukhari-5754-tiyara-fal.md",
       "lacunes_to_source": 0
     },
@@ -6996,7 +7141,7 @@
         "wilaya",
         "akbarien"
       ],
-      "updated": "2026-07-09",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam.md",
       "lacunes_to_source": 0
     },
@@ -7018,7 +7163,7 @@
         "guenon",
         "discernement"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/conversation-llm-intellect-2026-06-11.md",
       "lacunes_to_source": 0
     },
@@ -7103,7 +7248,7 @@
         "comparatisme",
         "source-secondaire"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/figure-archeometre-islamise-mahdi-rouge.md",
       "lacunes_to_source": 0
     },
@@ -7197,7 +7342,7 @@
         "nombre-28",
         "califat"
       ],
-      "updated": "2026-07-09",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/gilis-ordo-ab-chao.md",
       "lacunes_to_source": 0
     },
@@ -8014,7 +8159,7 @@
         "etats-multiples",
         "correspondance"
       ],
-      "updated": "2026-07-09",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05.md",
       "lacunes_to_source": 0
     },
@@ -8491,7 +8636,7 @@
         "soufisme",
         "adab"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/hasbiyallah-rabbani.md",
       "lacunes_to_source": 0
     },
@@ -8556,7 +8701,7 @@
         "pole",
         "hierarchie-sainte"
       ],
-      "updated": "2026-07-09",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/ibn-arabi-fard-afrad-gilis.md",
       "lacunes_to_source": 0
     },
@@ -8627,7 +8772,7 @@
         "qutb-meru-1911",
         "incomplete"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi.md",
       "lacunes_to_source": 0
     },
@@ -8846,6 +8991,29 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "label": "Koly Cherif Keita — Les Djinns qui aident les humains",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "djinn",
+        "tasawwuf",
+        "tijaniyya",
+        "walaya",
+        "monde-invisible",
+        "maraboutisme",
+        "afrique-ouest",
+        "youtube",
+        "transcription-asr"
+      ],
+      "updated": "2026-09-13",
+      "chemin": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/sources/mahdi-rouge-islam-signe-balance-I",
       "label": "Mahdi Rouge — L'Islam et le signe de la Balance : article I",
       "circuit": "doctrinal",
@@ -9011,7 +9179,7 @@
         "litterature-persane",
         "to-source"
       ],
-      "updated": "2026-07-24",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/nezami-pavillon-sept-princesses-barry.md",
       "lacunes_to_source": 0
     },
@@ -9438,7 +9606,7 @@
         "burckhardt",
         "wahdat-al-wujud"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/sources/universal-man-jili.md",
       "lacunes_to_source": 0
     },
@@ -9546,7 +9714,7 @@
         "ibn-arabi",
         "stub"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/alam-al-mithal.md",
       "lacunes_to_source": 0
     },
@@ -9953,9 +10121,9 @@
         "shinto",
         "purete-rituelle"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-10",
       "chemin": "doctrinal/symboles/espace-sacre-shinto.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/fal-wa-tatayyur",
@@ -9971,7 +10139,7 @@
         "divination",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/fal-wa-tatayyur.md",
       "lacunes_to_source": 0
     },
@@ -9990,7 +10158,7 @@
         "sharia",
         "muamalat"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/fiqh.md",
       "lacunes_to_source": 1
     },
@@ -10213,7 +10381,7 @@
         "maisons",
         "tradition"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/ilm-al-nujum.md",
       "lacunes_to_source": 0
     },
@@ -10249,7 +10417,7 @@
         "stub",
         "citations-a-verifier"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/influx-spirituel-sommet-cranien.md",
       "lacunes_to_source": 0
     },
@@ -10403,7 +10571,7 @@
         "geographie-sacree",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/lieux-saints-france.md",
       "lacunes_to_source": 0
     },
@@ -10503,7 +10671,7 @@
         "stub",
         "citations-a-verifier"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/maqamat-meknes.md",
       "lacunes_to_source": 0
     },
@@ -10556,9 +10724,9 @@
         "shinto",
         "rene-guenon"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-10",
       "chemin": "doctrinal/symboles/mihrab-torii.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/muqarnas",
@@ -10814,7 +10982,7 @@
         "benediction-prophetique",
         "salawat"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/salawat.md",
       "lacunes_to_source": 0
     },
@@ -10883,7 +11051,7 @@
         "soufisme",
         "citations-a-verifier"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/taabir-al-ruya.md",
       "lacunes_to_source": 0
     },
@@ -10900,7 +11068,7 @@
         "etymologie",
         "stub"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/taawil-par-le-nom.md",
       "lacunes_to_source": 0
     },
@@ -10999,7 +11167,7 @@
         "awfaq",
         "al-buni"
       ],
-      "updated": "2026-08-25",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/talisman-sihr.md",
       "lacunes_to_source": 0
     },
@@ -11051,7 +11219,7 @@
         "autorite-spirituelle",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/tarbiyya-rabbaniyya.md",
       "lacunes_to_source": 0
     },
@@ -11417,7 +11585,7 @@
         "litanie",
         "wird"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/wird-awrad.md",
       "lacunes_to_source": 0
     },
@@ -11507,9 +11675,9 @@
         "japon",
         "purete-rituelle"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-10",
       "chemin": "doctrinal/traditions/shinto.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/traditions/tasawwuf",
@@ -11529,6 +11697,27 @@
       "updated": "2026-09-08",
       "chemin": "doctrinal/traditions/tasawwuf.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/traditions/tijaniyya",
+      "label": "Ṭarīqa Tijāniyya",
+      "circuit": "doctrinal",
+      "sous_dossier": "traditions",
+      "type": "tradition",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "tariqa",
+        "tasawwuf",
+        "tijaniyya",
+        "soufisme",
+        "dhikr",
+        "afrique-ouest",
+        "maghreb"
+      ],
+      "updated": "2026-09-13",
+      "chemin": "doctrinal/traditions/tijaniyya.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "label/direction-artistique/amorcage/generation-non-cumulative",
@@ -12698,6 +12887,34 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise",
+      "target": "atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise",
+      "target": "atelier/rd/outillage/2026-09-08_serveur-mcp-wiki",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations",
+      "target": "atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
@@ -12707,6 +12924,27 @@
     {
       "source": "atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations",
       "target": "atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel",
+      "target": "atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel",
+      "target": "doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel",
+      "target": "doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -12980,6 +13218,76 @@
     {
       "source": "atelier/rd/infrastructure/2026-09-01_capture-reference-sidyvision-com",
       "target": "atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/plan",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio",
+      "target": "atelier/rd/infrastructure/monitoring-archive-charte",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio",
+      "target": "atelier/rd/infrastructure/monitoring-archive/registre-traitement",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio",
+      "target": "atelier/rd/cahiers/journal-optimisations",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio",
+      "target": "atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio",
+      "target": "atelier/rd/cahiers/journal-optimisations",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio",
+      "target": "atelier/rd/infrastructure/monitoring-archive-charte",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -14464,6 +14772,27 @@
     {
       "source": "atelier/rd/outillage/2026-09-08_serveur-mcp-wiki",
       "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation",
+      "target": "atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation",
+      "target": "atelier/rd/outillage/2026-09-08_serveur-mcp-wiki",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation",
+      "target": "atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -17637,28 +17966,28 @@
       "target": "doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription",
       "champ": "sources",
       "nature": "source",
-      "assise": "etabli"
+      "assise": "suggere"
     },
     {
       "source": "doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire",
       "target": "doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique",
       "champ": "cross_links",
       "nature": "lien",
-      "assise": "etabli"
+      "assise": "suggere"
     },
     {
       "source": "doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire",
       "target": "doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription",
       "champ": "cross_links",
       "nature": "lien",
-      "assise": "etabli"
+      "assise": "suggere"
     },
     {
       "source": "doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire",
       "target": "doctrinal/autorites/titus-burckhardt",
       "champ": "cross_links",
       "nature": "lien",
-      "assise": "etabli"
+      "assise": "suggere"
     },
     {
       "source": "doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique",
@@ -18795,6 +19124,69 @@
       "assise": "suggere"
     },
     {
+      "source": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite",
+      "target": "doctrinal/sources/a-popular-dictionary-of-shinto-bocking",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite",
+      "target": "doctrinal/sources/qabbalah-matiere-trilogie-guenonienne",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite",
+      "target": "doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite",
+      "target": "doctrinal/traditions/shinto",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite",
+      "target": "doctrinal/symboles/espace-sacre-shinto",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite",
+      "target": "doctrinal/symboles/mihrab-torii",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite",
+      "target": "doctrinal/discernement/2026-06-20_mythe-personnel-unifie",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite",
+      "target": "doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
+      "source": "doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite",
+      "target": "doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "suggere"
+    },
+    {
       "source": "doctrinal/discernement/tension-hadarat-burckhardt-jurjani",
       "target": "doctrinal/symboles/hadarat-khams",
       "champ": "sources",
@@ -19063,6 +19455,13 @@
     {
       "source": "doctrinal/sources/2026-07-03_guenon-tombeau-hermes",
       "target": "doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/a-popular-dictionary-of-shinto-bocking",
+      "target": "doctrinal/traditions/shinto",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -21490,6 +21889,62 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "target": "doctrinal/traditions/tijaniyya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "target": "doctrinal/symboles/walaya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "target": "doctrinal/autorites/abd-al-qadir-al-jilani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "target": "doctrinal/symboles/talisman-sihr",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "target": "doctrinal/symboles/jinns-classification-couleur",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "target": "doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "target": "doctrinal/deviations/confusion-psychique-spirituel",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/mahdi-rouge-islam-signe-balance-I",
       "target": "doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton",
       "champ": "sources",
@@ -23017,6 +23472,13 @@
     },
     {
       "source": "doctrinal/symboles/espace-sacre-shinto",
+      "target": "doctrinal/sources/a-popular-dictionary-of-shinto-bocking",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/espace-sacre-shinto",
       "target": "doctrinal/traditions/shinto",
       "champ": "cross_links",
       "nature": "lien",
@@ -23790,6 +24252,13 @@
       "target": "doctrinal/symboles/khalwa",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/mihrab-torii",
+      "target": "doctrinal/sources/a-popular-dictionary-of-shinto-bocking",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {
@@ -24963,7 +25432,21 @@
     },
     {
       "source": "doctrinal/traditions/shinto",
+      "target": "doctrinal/sources/a-popular-dictionary-of-shinto-bocking",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/shinto",
       "target": "doctrinal/symboles/espace-sacre-shinto",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/shinto",
+      "target": "doctrinal/symboles/mihrab-torii",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -25013,6 +25496,55 @@
     {
       "source": "doctrinal/traditions/tasawwuf",
       "target": "doctrinal/symboles/tariqa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tijaniyya",
+      "target": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tijaniyya",
+      "target": "doctrinal/sources/shams-al-maarif",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tijaniyya",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tijaniyya",
+      "target": "doctrinal/symboles/tariqa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tijaniyya",
+      "target": "doctrinal/symboles/wird-awrad",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tijaniyya",
+      "target": "doctrinal/symboles/walaya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tijaniyya",
+      "target": "doctrinal/autorites/ouattara-brahima",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [shams-al-maarif, al-buni, sihr, simiya, guenon, contre-initiation, pseudo-initiation, syncretisme, chantier-guenon-buni]
 created: 2026-08-13
-updated: 2026-09-08
+updated: 2026-09-13
 sources: ["[[doctrinal/symboles/talisman-sihr]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/sources/shams-al-maarif]]"]
 sources_count: 4
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ahmad-al-buni]]", "[[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
@@ -195,3 +195,19 @@ pour la première. Axes suivants, non encore instruits : cosmologie astrale
 d'al-Būnī ; carrés magiques et métaphysique du Nombre côté Guénon
 (dépouillement requis de *La Grande Triade*, *Aperçu sur l'initiation* en
 `raw/`).
+
+## 8. Recoupement (2026-09-13)
+
+[[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] (statut `traditionnel`,
+verdict Sidy) apporte un témoignage contemporain et oral, venu d'un praticien : un
+*muqaddam* tijānī. Il distingue trois choses :
+
+- l'autorité des saints sur des djinns, qu'il présente comme un « héritage » de
+  Salomon ;
+- la coopération contractuelle, courante selon lui dans le « maraboutisme », qu'il
+  déclare risquée ;
+- l'action des sorciers, « autre chose », qu'il ne développe pas.
+
+Cette tripartition ne coïncide pas avec le couple *simiyāʾ*/*siḥr*, et l'orateur ne
+donne aucun critère pratique pour séparer ses trois termes. Pièce posée à côté,
+**kari-kumi**, sans effet sur la synthèse provisoire (§5).

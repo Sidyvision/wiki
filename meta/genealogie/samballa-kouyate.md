@@ -3,9 +3,9 @@ title: Samballa Kouyaté
 type: meta
 tags: [genealogie, famille, kouyate, grand-pere-paternel, spiritualite, tijaniyya]
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-09-13
 sources: ["to-source"]
-links: ["[[meta/genealogie/kouyate]]", "[[meta/genealogie/fanta-nna-diabate]]", "[[meta/personnel/sidy]]"]
+links: ["[[meta/genealogie/kouyate]]", "[[meta/genealogie/fanta-nna-diabate]]", "[[meta/personnel/sidy]]", "[[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]]", "[[doctrinal/traditions/tijaniyya]]"]
 ---
 
 # Samballa Kouyaté
@@ -54,3 +54,16 @@ Samballa avait le second (Fath effectif) sans le premier (rattachement formel at
 ## Notes
 
 Source : interview Sidy, 2026-08-18. Témoignage indirect via l'oncle Moussa Kouyaté. Fiche créée le 2026-08-22 en application de la ventilation de `_inbox/interview-sidy-trame-spirituelle-corrections-2026-08-18.md` vers `meta/`.
+
+## Croisement (2026-09-13)
+
+- [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] expose, du point de
+  vue d'un *muqaddam* tijānī, le motif d'un djinn croyant qui s'attache à un aïeul pieux
+  et suit sa descendance sur plusieurs générations. Le témoignage familial sur le
+  « compagnon invisible » de Samballa entre dans le champ de ce motif **sans s'y
+  réduire**. Sidy ne l'identifie pas comme un djinn, mais plutôt comme un « Ruhan » ;
+  cette distinction est maintenue telle quelle, et la machine ne la tranche pas (Cmd 12).
+- Le lien de Samballa à la Tijāniyya (par Sheikh Fanta-Madi Chérif) a désormais sa
+  fiche : [[doctrinal/traditions/tijaniyya]] (ébauche neutre, sans fait personnel).
+- Piste rappelée, non ouverte : l'étude « généalogie des jinns chez Sidy » envisagée
+  dans `meta/proposition-discernement.md`. Ce croisement en serait une pièce.

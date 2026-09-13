@@ -4,7 +4,7 @@ type: infrastructure
 chantier: PRO-08
 tags: [textes, sources, conversions, obsidian, infrastructure]
 created: 2026-09-02
-updated: 2026-09-10
+updated: 2026-09-13
 sources: []
 links:
   - "[[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent]]"
@@ -78,7 +78,7 @@ supprime à la racine.
 | `apercus-sur-l-esoterisme-islamique-et-le-taoisme/` | 14 |
 | `autorite-spirituelle-et-pouvoir-temporel/` | 9 |
 | `autres-ressources/` | 4 |
-| `divers/` | 21 |
+| `divers/` | 22 |
 | `etudes-sur-l-hindouisme/` | 39 |
 | `formes-traditionnelles-et-cycles-cosmiques-rene-guenon/` | 32 |
 | `initiation-et-realisation-spirituel/` | 34 |
@@ -215,6 +215,23 @@ matière ne l'appelant pas encore.
 versement — geste distinct (discipline des sources, CLAUDE.md racine §VII),
 qui suppose la vérification de la bibliothèque physique et un plan propre
 (Cmd 6), non demandés dans cette session. Écart déclaré, non comblé (Cmd 12).
+
+## Versement du 2026-09-13 — Koly Cherif Keita (transcription ASR)
+
+*Les Djinns qui Aident les Humains*, exposé oral de Koly Cherif Keita (vidéo YouTube,
+32 min, en français). La transcription a été versée depuis `raw/sources/`, par copie :
+l'original y demeure (Cmd 10).
+
+- `divers/koly-cherif-keita-djinns-aident-humains.md` — 1 fichier
+
+Chaîne : **cinquième voie d'entrée**, une **transcription automatique de la parole**
+(ASR, via Piped). Les termes arabes et les noms propres y sont défigurés : « Samharou »,
+« isbou bahri », « Sid Ali arazim Berada ». La règle d'immuabilité s'applique : **on ne
+corrige pas**. Une transcription meilleure, faite sur l'audio, remplacera celle-ci,
+datée.
+
+Ce que le dépôt en tire est porté dans
+`doctrinal/sources/koly-cherif-keita-djinns-aident-humains.md`.
 
 ## Ce qui reste ouvert
 

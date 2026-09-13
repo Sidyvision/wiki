@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "universel"
 tags: [vigilance, methodologie, contrefacon, discernement, protocole, contre-initiation]
 created: 2026-07-28
-updated: 2026-09-08
+updated: 2026-09-13
 sources: ["[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]", "[[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]]"]
 sources_count: 2
 cross_links: ["[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/renversement-des-symboles]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]", "[[doctrinal/deviations/deviation-et-subversion]]"]
@@ -165,3 +165,13 @@ Le ch. XXXV, appliqué aux outils du dépôt, fonde des règles déjà en vigueu
 
 Ces règles ne sont pas des précautions d'ingénierie : elles sont l'application directe
 de la doctrine du ch. XXXV au support de travail.
+
+## Recoupement (2026-09-13) — cas d'emploi signalé, non instruit
+
+[[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] réunit dans un même
+exposé une matière reçue (sīra, récits de saints) et une offre de services payants
+(*istikhāra*, enseignement du *ʿilm al-raml*). Il le fait sous un rattachement déclaré
+à la Tijāniyya, et le statut `traditionnel` lui a été attribué par verdict de Sidy. La
+présente grille est l'outil approprié pour instruire ce mélange. Son application est
+**réservée** : la machine signale le cas, elle ne coche aucune marque (Règles d'emploi ;
+Contre-emploi).

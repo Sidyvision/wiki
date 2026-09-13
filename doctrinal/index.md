@@ -19,6 +19,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/traditions/madhhab-maliki|Le madhhab mālikite (école de l'Imam Mālik)]]
 - [[doctrinal/traditions/sanatana-dharma|Le Sanātana Dharma (hindouisme)]]
 - [[doctrinal/traditions/naqshbandiyya|La Naqshbandiyya (ṭarīqa au dhikr silencieux)]]
+- [[doctrinal/traditions/tijaniyya|La Tijāniyya (ṭarīqa, Maghreb et Afrique de l'Ouest)]] — ébauche, faits généraux `to-source`
 - [[doctrinal/traditions/shinto|Le Shintō (神道)]]
 
 ---
@@ -239,6 +240,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/histoire-wahhabis-corancez-redissi|L'Histoire des Wahabis et la naissance du Royaume Saoudien]] — Corancez (consul de France, XIXe s.) avec préface Redissi ; transcription depuis photographies, `#a-revoir`
 - [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi|Jesus and Enoch in the Barzakh of Ibn al-ʿArabī]]
 - [[doctrinal/sources/shams-al-maarif|Shams al-Maʿārif al-Kubrā (trad. française)]]
+- [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains|Koly Cherif Keita — Les Djinns qui aident les humains]] — exposé oral d'un muqaddam tijānī (YouTube, transcription ASR) ; djinns croyants, walāya, mise en garde contre le contact ; points de vigilance portés
 - [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle|ʿIlm al-Nujûm — bases de l'astrologie traditionnelle]]
 - [[doctrinal/sources/islam-and-artificial-intelligence|Islam and Artificial Intelligence (Chaudhary, Cambridge UP)]]
 - [[doctrinal/sources/hasbiyallah-rabbani|Hasbiyallah — Allah est notre Suffisance (Faraz Rabbani)]]

@@ -4,7 +4,7 @@ type: entity
 domain: perso
 tags: [utilisateur, profil, spiritualite, tradition]
 created: 2026-06-02
-updated: 2026-09-09
+updated: 2026-09-13
 sources: ["[[chatgpt-export-2026-05-10]]", "to-source"]
 links: ["[[ibn-arabi]]", "[[al-ghazali]]", "[[rene-guenon]]", "[[platon]]", "[[sanatana-dharma]]", "[[ahl-al-sunnah-wa-l-jamaa]]", "[[tasawwuf]]"]
 ---
@@ -112,6 +112,11 @@ Sheikh Hamala (Waly Allah de la Tijaniyya, enterré à Monlusson) — Sidy n'y e
 - **Rattachement comme honneur** : le lien Tijaniyya reçu est un « honneur et une distinction ».
 - **Non-pratique du wird** : ne pratique pas le wird de la Tijaniyya (ni le wird Naqshbandi).
 - **Point délicat** : reconnaît que c'est un sujet délicat et controversé.
+- **Fiche doctrinale** (2026-09-13) : la voie est documentée, de façon neutre et sans
+  fait personnel, dans [[doctrinal/traditions/tijaniyya]] (ébauche). Voir aussi
+  [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] (exposé d'un
+  *muqaddam* tijānī) et le croisement porté dans
+  [[meta/genealogie/samballa-kouyate]].
 
 ### Anecdote des Dalail chez le grand-père maternel
 

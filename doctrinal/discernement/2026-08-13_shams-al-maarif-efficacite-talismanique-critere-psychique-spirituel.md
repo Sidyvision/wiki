@@ -5,7 +5,7 @@ status: speculatif
 tradition_cadre: "islam"
 tags: [shams-al-maarif, al-buni, talisman, simiya, guenon, psychique-spirituel, chantier-guenon-buni]
 created: 2026-08-13
-updated: 2026-09-08
+updated: 2026-09-13
 sources: ["[[doctrinal/sources/shams-al-maarif]]", "[[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
 sources_count: 3
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/ahmad-al-buni]]", "[[doctrinal/symboles/talisman-sihr]]", "[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]"]
@@ -171,3 +171,14 @@ Shams al-Maʿārif/Guénon — voir [[doctrinal/autorites/rene-guenon]] §« Doc
 complet. Axes suivants du chantier : statut du *siḥr* face à la grille
 <dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="islam">contre-initiation</dfn>/pseudo-initiation ; cosmologie astrale ; carrés magiques et
 métaphysique du Nombre.
+
+## 8. Recoupement (2026-09-13)
+
+[[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] (statut `traditionnel`,
+verdict Sidy) porte des revendications d'efficacité du même ordre : des djinns
+« envoyés » par un saint, une aide obtenue « pour telle affaire » par contrat.
+L'orateur les décrit en outre dans le vocabulaire de la physique moderne (« ondes
+électromagnétiques », « monde quantique »). C'est précisément l'assimilation de l'ordre
+subtil à l'ordre corporel que le critère guénonien examiné ici écarte (point de
+vigilance 2 de la fiche source). Pièce posée à côté, **kari-kumi**, sans effet sur la
+synthèse provisoire (§5).
