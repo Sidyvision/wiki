@@ -15,6 +15,7 @@ cross_links:
 - '[[doctrinal/symboles/talisman-sihr]]'
 - '[[doctrinal/autorites/ibn-arabi]]'
 - '[[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]]'
+- '[[doctrinal/symboles/shamharush]]'
 ---
 
 # Classification populaire des jinns par couleur (Akhmar et autres)

@@ -37,6 +37,32 @@ Le dépôt n'en donne ni translittération ni traduction arrêtées. Le modèle 
 lecture de la formule dans la même conversation. Elle n'est **pas reprise ici** : c'est
 une piste, pas une source, tant qu'une autorité textuelle ne l'a pas confirmée.
 
+## La formule dans le *Shams al-Maʿārif* (relevé du 2026-09-13)
+
+Au cours de la recherche sur Shamharush demandée par Sidy, le texte arabe du *Shams
+al-Maʿārif al-Kubrā* a été interrogé : édition « للشاملة », archive.org `shams_al_maarif`,
+texte intégral. Voici ce qu'il donne, **sans interprétation** :
+
+- **La séquence الوحا … العجل … الساعة y figure 14 fois**, dans l'ordre de la bague,
+  parfois redoublée (الوحا الوحا). On trouve aussi 47 occurrences de الوحا et 46 de
+  العجل, prises séparément.
+- **Sa place dans le texte est constante** : elle **clôt des adjurations** adressées à des
+  « serviteurs » (خدام) des noms, des lettres ou des sourates, et à des esprits appelés à
+  « venir » et à « répondre » (أجيبوا، احضروا). Citations telles que l'OCR les donne :
+  - « هيا هيا الوحا الوحا العجل الساعة؛ بحق ما تلوته عليكم من هذه الأسماء الشريفة » ;
+  - « تسخر لي ملائكتك الكرام الخدام لهذه الأسماء […] هيا الوحا العجل الساعة بارك الله فيكم وعليكم » ;
+  - « احضروا إلى مكاني هنا هذا الوحا " العجل ” الساعة ».
+- **Dans une adjuration, les deux premiers mots accompagnent le nom de Maymūn** :
+  « الوحا يا ميمون وشهدان الوحا يا شهدان العجل ». Maymūn est le roi des djinns que
+  Guénon donne pour successeur de Shamhûrash
+  ([[doctrinal/sources/guenon-lettre-genty-1937-07-14]]).
+
+**Ce relevé ne tranche rien** (Cmd 12). Il établit seulement que la formule que Sidy lit
+sur la bague est, dans ce livre, une formule de clôture d'adjuration. Ce qu'il en est de
+l'objet, de son donateur ou de sa portée n'est pas l'affaire de la machine. Le relevé est
+à vérifier par Sidy sur un exemplaire imprimé, l'OCR de l'édition numérique contenant
+des coquilles.
+
 ## Faits structurants
 
 - **Deux bagues, un même donateur.** La première, offerte l'année précédant la khalwa,

@@ -8,7 +8,7 @@ created: 2026-09-13
 updated: 2026-09-13
 sources: ["[[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]]", "[[doctrinal/sources/shams-al-maarif]]", "to-source"]
 sources_count: 3
-cross_links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/tariqa]]", "[[doctrinal/symboles/wird-awrad]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/ouattara-brahima]]"]
+cross_links: ["[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/tariqa]]", "[[doctrinal/symboles/wird-awrad]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/ouattara-brahima]]", "[[doctrinal/symboles/shamharush]]"]
 original: ["to-original"]
 ---
 

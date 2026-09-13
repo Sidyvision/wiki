@@ -8,7 +8,7 @@ created: 2026-09-13
 updated: 2026-09-13
 sources: ["to-source"]
 sources_count: 1
-cross_links: ["[[doctrinal/traditions/tijaniyya]]", "[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/abd-al-qadir-al-jilani]]", "[[doctrinal/symboles/talisman-sihr]]", "[[doctrinal/symboles/jinns-classification-couleur]]", "[[doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
+cross_links: ["[[doctrinal/traditions/tijaniyya]]", "[[doctrinal/symboles/shamharush]]", "[[doctrinal/traditions/tasawwuf]]", "[[doctrinal/symboles/walaya]]", "[[doctrinal/autorites/abd-al-qadir-al-jilani]]", "[[doctrinal/symboles/talisman-sihr]]", "[[doctrinal/symboles/jinns-classification-couleur]]", "[[doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
 original: []
 ---
 

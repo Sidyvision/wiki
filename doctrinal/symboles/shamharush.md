@@ -33,6 +33,45 @@ s'agit bien de la même entité ». Elle ne repose pas sur un rapprochement phon
 par la machine. La fiche prend pour titre la graphie d'usage, et la graphie de Guénon
 en second.
 
+### Formes arabes attestées (recherche du 2026-09-13, à vérifier par Sidy)
+
+Recherche faite sur ordre de Sidy (« fais tes propres recherches sur le web »). Chaque
+forme ci-dessous est **relevée dans un texte**, jamais restituée par un modèle. Le
+marqueur `original: ["to-original"]` **reste en place** jusqu'à ce que Sidy ait vérifié
+lui-même le texte (discipline des langues originales, point 4, qui renvoie aux conditions
+de levée de `to-source`).
+
+| Forme | Témoin | Nature du témoin |
+|---|---|---|
+| **شمهورش** | *Shams al-Maʿārif al-Kubrā*, texte arabe (édition « للشاملة », archive.org `shams_al_maarif`, texte intégral) | texte de l'œuvre, **3 occurrences** |
+| **شمهورش** | blog reproduisant le chapitre des sept rois : « الملك شمهورش : خادم يوم الخميس » | reproduction sans édition ni page citée |
+| **شمهروش** | presse marocaine sur le sanctuaire de Sidi Chamharouch (Toubkal), par exemple Arabic Post, 2024 : « سيدي شمهروش », « أبو الوليد شمهروش » | usage populaire, sans source textuelle |
+
+**Les trois occurrences du *Shams al-Maʿārif*** (texte arabe, citées telles que l'OCR les
+donne, coquilles comprises) :
+
+1. et 2. Dans l'adjuration de l'ange préposé à la sphère de Jupiter :
+   « أقسمت عليك يا صرفيائيل الملك الموكل بفلك المشتري […] بحق شمهورش أجب يا شمهورش بحق
+   الملك الغالب عليك أمره يا صرفيائيل ».
+3. Dans le *wird* du jeudi : « ورد يوم الخميس […] أجب يا إسرافيل وأنت يا شمهورش سامعاً
+   مطيعاً ».
+
+**Lecture formelle, qui n'est pas un verdict.** La graphie شمهورش (*sh-m-h-w-r-sh*)
+correspond lettre pour lettre à la transcription de Guénon, *Shamhûrash* : le *wāw* rend
+le *û*. La graphie marocaine شمهروش déplace le *wāw* après le *rāʾ*, ce qui répond aux
+transcriptions « Chamharouch » et « Shamharoush ». Le *Shams* associe Shamhūrash au
+**jeudi** et à la sphère de **Jupiter**, sous l'autorité de l'ange Ṣarfiyāʾīl. Il associe
+Maymūn Abānūkh (« ميمون أبانوخ ») au **samedi** et à l'ange Kasfiyāʾīl. C'est ce même
+Maïmûn que Guénon donne pour successeur de Shamhûrash.
+
+Les témoins consultés sans résultat, et pourquoi, sont notés pour mémoire :
+- une seconde édition numérisée du *Shams* (archive.org `20230226_20230226_1533`) :
+  aucune occurrence, mais son OCR arabe (Tesseract) est défaillant, et l'absence n'est
+  pas probante ;
+- Wikipédia anglais (*Shams al-Ma'arif*) : le nom n'y figure pas ;
+- Doutté, *Magie et religion dans l'Afrique du Nord* (1909) : le texte n'a pas pu être
+  obtenu (Gallica inaccessible depuis le serveur).
+
 ## Ce que disent les sources du dépôt
 
 ### Guénon — le roi des djinns croyants
@@ -68,9 +107,11 @@ Source : [[doctrinal/sources/shams-al-maarif]], traduction française d'Ouattara
 (PDF de 631 pages). Cherché le 2026-09-13 sur le texte extrait, sous toutes les graphies
 connues.
 
-- **Le nom n'y figure pas**, ni Maïmûn. Ce silence ne prouve rien : la traduction ne
-  couvre que les pages 9 à 88 de l'original arabe. La vérification dans l'original reste
-  à faire (`to-source`).
+- **Dans la traduction française, le nom n'y figure pas**, ni Maïmûn : elle ne couvre
+  que les pages 9 à 88 de l'original arabe. **Le texte arabe, lui, le porte** : trois
+  occurrences de شمهورش, relevées le 2026-09-13 dans une édition numérique (voir plus
+  haut, « Formes arabes attestées »). Ces occurrences restent à vérifier par Sidy sur un
+  exemplaire (`to-source`).
 - **La matière voisine est présente** (pp. 93-95 du PDF). Un procédé de retraite, de
   jeûne et d'écriture permet de « prendre des frères parmi les djinns croyants ». À son
   terme, « sept personnes parmi les nobles et les dirigeants des djinns te seront

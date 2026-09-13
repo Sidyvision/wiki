@@ -21967,6 +21967,13 @@
     },
     {
       "source": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
+      "target": "doctrinal/symboles/shamharush",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains",
       "target": "doctrinal/traditions/tasawwuf",
       "champ": "cross_links",
       "nature": "lien",
@@ -24024,6 +24031,13 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/jinns-classification-couleur",
+      "target": "doctrinal/symboles/shamharush",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/jivatma",
       "target": "doctrinal/symboles/atma",
       "champ": "cross_links",
@@ -25692,6 +25706,13 @@
     {
       "source": "doctrinal/traditions/tijaniyya",
       "target": "doctrinal/autorites/ouattara-brahima",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/traditions/tijaniyya",
+      "target": "doctrinal/symboles/shamharush",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
