@@ -2,7 +2,7 @@
 title: "Registre de traitement des rapports quotidiens (Studio/Publication)"
 type: meta
 created: 2026-09-02
-updated: 2026-09-08
+updated: 2026-09-13
 tags: [atelier, rd, infrastructure, monitoring, registre]
 sources: []
 links:
@@ -74,6 +74,38 @@ datées du jour de la passe et renvoyant au même détail) :
 ```
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] traite | studio | 41dc3e7e492c | rapport du 2026-09-13
+
+**Rapport** : `monitoring-archive/2026-09-13_41dc3e7e492c.txt` (commit `2f37f28`).
+**Traité par** : session Hermes Agent, profil `studio` — **consigne explicite de Sidy** en canal `#infrastructure`, 2026-09-13 : « execute les correctifs signalés dans tes rapports ». Écriture déclarée en écart à la clause « les agents Hermes n'écrivent jamais ici » (motif et réversibilité : [[atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio]] §2/C2).
+**Résumé** : 606 nœuds / 1960 arêtes / 64 lacunes `to-source` / 184 avertissements non bloquants, identiques à la veille ; 4 fichiers non suivis par git ; 11 affirmations `infra_verif`, **0 écart** ; 3 rapports sans entrée de traitement ; ⚠️ chemin mort dans la consigne d'exécution (2ᵉ jour). Bind-mounts 12/12 ; 3/13 gateways actifs conformes au 2026-08-28 ; `_inbox/` 2 fichiers dont 1 à 5 jours ; job Studio : **pin vérifié, panne de 3 jours close**, `failure_streak = 0`. **Correctifs exécutés dans la même passe : C1** (prompt du cron — chemin du script de cartographie et relevé des gateways), **C2** (les 4 archives commitées + les 4 entrées du présent registre), **C3** (contrôle A de `verifier-invariants.py` étendu aux cahiers append-only et **éprouvé** : vert sur l'état sain, refus sur la faute fabriquée), **C4** (§0 du registre des chantiers recompté, `INF-15` versé en §9). **Cinq propositions inspectées et NON exécutées**, chacune pour un motif nommé (entrée au `registre-problemes.md` interdite par le mandat ; `INF-17` soumis à verdict ; `_inbox/` suivi par git = pratique délibérée, non un accident — correctif du rapport écarté après inspection ; intégration du sas hors périmètre ; retour du vérificateur au §1 = décision de Sidy).
+**Détail** : [[atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio]] (contrat d'exécution, écrit **avant** exécution — commit `877e8ff`) ; [[atelier/rd/cahiers/journal-optimisations]].
+**Commit** : `2f37f28` (archivage) ; correctifs et contrat : `877e8ff` et commits de la passe du 2026-09-13.
+
+## [2026-09-13] traite | publication | ad3152b237bb | rapport du 2026-09-13
+
+**Rapport** : `monitoring-archive/2026-09-13_ad3152b237bb.txt` (commit `2f37f28`).
+**Traité par** : session Hermes Agent, profil `studio` — **archivage et commit seulement**. ⚠️ **Le contenu de ce rapport n'est PAS instruit ici** : c'est un rapport Publication (veille référencement & investigation), mandat distinct, auquel une consigne parallèle a été adressée par Sidy le même jour. Cette entrée existe pour la traçabilité de l'archivage, non pour attester d'un traitement documentaire.
+**Résumé** : 0 erreur, 73 avertissements, **delta zéro** (dépôt gelé depuis le 2026-09-10). 25 fiches investiguées sur 169 à `sources_count: 0` : 22 ont une source traçable au dépôt, **3 seulement sont réellement absentes** (`firasa`, `merkavah-muraqaba`, `muqarnas`). Fait saillant : la **grappe onirique** (6 fiches « … en rêve ») a ses sources au dépôt et ne les déclare pas — la fiche-source `ibn-sirin-dictionary-of-dreams-al-akili.md` est elle-même à `sources_count: 0`. Trois verdicts en attente (S1, S9, S10).
+**Détail** : [[atelier/rd/cahiers/registre-problemes]] (signaux S1/S6/S9/S10, à porter par une passe Publication) ; aucune écriture au dépôt de la part du rapport lui-même.
+**Commit** : `2f37f28` (archivage).
+
+## [2026-09-12] traite | studio | 41dc3e7e492c | rapport du 2026-09-12
+
+**Rapport** : `monitoring-archive/2026-09-12_41dc3e7e492c.txt` (commit `2f37f28`).
+**Traité par** : session Hermes Agent, profil `studio` (consigne de Sidy du 2026-09-13). Traitement différé d'un jour — c'est l'un des « 3 rapports SANS entrée de traitement » que le contrôle `verifier-rapports-traites.py` nommait.
+**Résumé** : 606 nœuds / 1960 arêtes / 64 lacunes `to-source` / 184 avertissements ; 2 fichiers non suivis ; **11 affirmations `infra_verif`, 0 écart** ; 1 rapport non traité. ⚠️ **Le rapport quotidien Studio était en panne depuis 3 jours** (erreurs de connexion du 09-10 au 09-12) ; ⚠️ chemin mort dans la consigne d'exécution (1ᵉʳ jour) ; 3 défauts Cmd 8 mesurés sur les cahiers append-only ; 1 divergence §0 du registre des chantiers ; 1 affirmation de résolution non portée par sa preuve. Disque 76 %, swap 22 Mi/2,0 Gi.
+**Détail** : les quatre propositions de ce rapport (Piste 1 chemin mort, Piste 2 archives non commitées, Piste 3 contrôle A étendu, Piste 4 recompte §0) sont **les correctifs C1–C4** exécutés le 2026-09-13 — [[atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio]].
+**Commit** : `2f37f28` (archivage).
+
+## [2026-09-12] traite | publication | ad3152b237bb | rapport du 2026-09-12
+
+**Rapport** : `monitoring-archive/2026-09-12_ad3152b237bb.txt` (commit `2f37f28`).
+**Traité par** : session Hermes Agent, profil `studio` — **archivage et commit seulement**. ⚠️ **Le contenu de ce rapport n'est PAS instruit ici** (mandat Publication distinct, consigne parallèle de Sidy). Cette entrée trace l'archivage.
+**Résumé** : 25 fiches investiguées sur 170 à `sources_count: 0` ; 15 sources candidates identifiées, 10 absentes du dépôt ; **6 PDF présents dans `raw/` mais non déclarés** (Awrad Ibn Arabi, Jesus and Enoch in Ibn 'arabi, shams-al-maarif, 'ilm al-nujûm, islam-and-artificial-intelligence, universal-man). 44 fiches doctrinales s'appuient sur « la conversation source ». 4 discordances `sources_count` (signal S1). Exécution du 2026-09-11 échouée sur erreur de connexion — le delta portait donc sur deux jours.
+**Détail** : [[atelier/rd/cahiers/registre-problemes]] (S1, S6) ; poursuite de l'investigation fiches 26–50 annoncée par le rapport lui-même.
+**Commit** : `2f37f28` (archivage).
+
 ## [2026-09-08] traite | studio | 41dc3e7e492c | rapport du 2026-09-08
 
 **Rapport** : `monitoring-archive/2026-09-08_41dc3e7e492c.txt`.
