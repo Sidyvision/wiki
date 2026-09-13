@@ -2,7 +2,7 @@
 title: "Journal des optimisations — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-30
-updated: 2026-09-02
+updated: 2026-09-13
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []

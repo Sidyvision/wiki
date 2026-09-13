@@ -41,6 +41,21 @@ from datetime import date
 # nom préfixé pour ne jamais se confondre avec les annales.md des circuits).
 NOMS_ANNALES = {"annales.md", "meta-annales.md"}
 
+# Cahiers append-only à en-têtes datés qui ne sont PAS des annales de circuit
+# mais portent la même discipline (Cmd 8 : `updated:` cohérent avec l'entrée la
+# plus récente). LISTE NOMMÉE, jamais un glob : le dépôt refuse les passes de
+# masse. Ouvert le 2026-09-13 (correctif C3, consigne de Sidy) après que les
+# rapports quotidiens eurent mesuré l'écart trois jours de suite sans qu'aucun
+# contrôle ne puisse le voir. Ce qui leur est appliqué : A3 (`updated` vs entrée
+# la plus récente) et A4 (en-tête dupliqué) — les invariants qui les décrivent.
+# A2, A5 et A6 sont des empreintes de corps d'annales, non des règles de
+# registre : les y appliquer serait de l'accumulation, pas de la précision.
+CAHIERS_APPEND_ONLY = {
+    "journal-optimisations.md",
+    "registre-traitement.md",
+    "registre-problemes.md",
+}
+
 # Circuits et leurs racines relatives.
 # `hermeneutique` y est ajouté le 2026-09-09. Son ABSENCE était un trou hérité et
 # muet : `circuit_de()` y renvoyait `None`, de sorte que B1 (clés de Sceau
@@ -247,7 +262,7 @@ def parse_date(valeur):
 # Contrôle A — invariants des annales
 # --------------------------------------------------------------------------
 
-def controler_annales(chemin_abs, chemin_rel, rap):
+def controler_annales(chemin_abs, chemin_rel, rap, est_annales=True):
     texte = lire(chemin_abs)
     fm, corps, decalage = separer_frontmatter(texte)
     lignes = texte.split("\n")
@@ -267,15 +282,16 @@ def controler_annales(chemin_abs, chemin_rel, rap):
         return
 
     # A2 — ordre chronologique inverse strict (dates non croissantes).
-    for k in range(1, len(entetes)):
-        ligne_prec, date_prec, _ = entetes[k - 1]
-        ligne_cour, date_cour, titre_cour = entetes[k]
-        if date_cour > date_prec:
-            rap.erreur(
-                chemin_rel, "A2",
-                f"rupture d'ordre : {date_cour} apparaît après {date_prec} "
-                f"(ligne {ligne_prec}). Convention : plus récent en haut.",
-                ligne_cour)
+    if est_annales:
+        for k in range(1, len(entetes)):
+            ligne_prec, date_prec, _ = entetes[k - 1]
+            ligne_cour, date_cour, titre_cour = entetes[k]
+            if date_cour > date_prec:
+                rap.erreur(
+                    chemin_rel, "A2",
+                    f"rupture d'ordre : {date_cour} apparaît après {date_prec} "
+                    f"(ligne {ligne_prec}). Convention : plus récent en haut.",
+                    ligne_cour)
 
     # A3 — frontmatter `updated` cohérent avec l'entrée la plus récente.
     date_max = max(d for _, d, _ in entetes)
@@ -304,14 +320,15 @@ def controler_annales(chemin_abs, chemin_rel, rap):
 
     # A5 — empreinte d'append mécanique : run de lignes vides anormal.
     # Le format du dépôt utilise UNE ligne vide avant un séparateur `---`.
-    for i in range(2, len(lignes)):
-        if lignes[i].strip() == "---" and lignes[i - 1].strip() == "" \
-                and lignes[i - 2].strip() == "":
-            rap.avertir(
-                chemin_rel, "A5",
-                "double ligne vide avant un séparateur — signature possible "
-                "d'un ajout mécanique en fin de fichier plutôt qu'une insertion.",
-                i + 1)
+    if est_annales:
+        for i in range(2, len(lignes)):
+            if lignes[i].strip() == "---" and lignes[i - 1].strip() == "" \
+                    and lignes[i - 2].strip() == "":
+                rap.avertir(
+                    chemin_rel, "A5",
+                    "double ligne vide avant un séparateur — signature possible "
+                    "d'un ajout mécanique en fin de fichier plutôt qu'une insertion.",
+                    i + 1)
 
     # A6 — corps d'entrée orphelin : une même section (entre deux en-têtes
     # `## [YYYY-MM-DD]`) porte plusieurs champs `- **Commit** :`. Signature
@@ -325,32 +342,33 @@ def controler_annales(chemin_abs, chemin_rel, rap):
     # que suppression, motivé par l'entrée [2026-08-20] rd | Lecture
     # dynamique du manifeste + instruction branche Kabbale (deux livrables
     # (a)/(b), chacun son Commit).
-    for k in range(len(entetes)):
-        debut = entetes[k][0]
-        fin = entetes[k + 1][0] if k + 1 < len(entetes) else len(lignes) + 1
-        indices_commits = [
-            i for i in range(debut, fin - 1)
-            if RE_CHAMP_COMMIT.match(lignes[i])]
-        nb_commits = len(indices_commits)
-        if nb_commits <= 1:
-            continue
-        segment_debut = debut
-        tous_rattaches = True
-        for idx_commit in indices_commits:
-            segment = lignes[segment_debut:idx_commit]
-            if not any(RE_SOUS_ITEM.match(ligne) for ligne in segment):
-                tous_rattaches = False
-                break
-            segment_debut = idx_commit + 1
-        if tous_rattaches:
-            continue
-        rap.avertir(
-            chemin_rel, "A6",
-            f"corps d'entrée orphelin possible : {nb_commits} champs "
-            f"`- **Commit** :` dans une seule section, sans sous-item "
-            f"explicite (\"**(a) ...**\") rattachant chacun — en-tête perdu "
-            f"lors d'une insertion ? (entrée [{entetes[k][1]}] "
-            f"{entetes[k][2]})", debut)
+    if est_annales:
+        for k in range(len(entetes)):
+            debut = entetes[k][0]
+            fin = entetes[k + 1][0] if k + 1 < len(entetes) else len(lignes) + 1
+            indices_commits = [
+                i for i in range(debut, fin - 1)
+                if RE_CHAMP_COMMIT.match(lignes[i])]
+            nb_commits = len(indices_commits)
+            if nb_commits <= 1:
+                continue
+            segment_debut = debut
+            tous_rattaches = True
+            for idx_commit in indices_commits:
+                segment = lignes[segment_debut:idx_commit]
+                if not any(RE_SOUS_ITEM.match(ligne) for ligne in segment):
+                    tous_rattaches = False
+                    break
+                segment_debut = idx_commit + 1
+            if tous_rattaches:
+                continue
+            rap.avertir(
+                chemin_rel, "A6",
+                f"corps d'entrée orphelin possible : {nb_commits} champs "
+                f"`- **Commit** :` dans une seule section, sans sous-item "
+                f"explicite (\"**(a) ...**\") rattachant chacun — en-tête perdu "
+                f"lors d'une insertion ? (entrée [{entetes[k][1]}] "
+                f"{entetes[k][2]})", debut)
 
 
 # --------------------------------------------------------------------------
@@ -996,7 +1014,9 @@ def main():
             controler_etancheite_inversee(chemin_rel, fm, corps, n_fm,
                                           par_chemin, par_slug, non_tranches, rap)
             if nom in NOMS_ANNALES:
-                controler_annales(chemin_abs, chemin_rel, rap)
+                controler_annales(chemin_abs, chemin_rel, rap, est_annales=True)
+            elif nom in CAHIERS_APPEND_ONLY:
+                controler_annales(chemin_abs, chemin_rel, rap, est_annales=False)
             controles += 1
 
     controler_protocoles(racine, rap)
