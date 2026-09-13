@@ -301,8 +301,145 @@ Rapport quotidien du pôle Studio (profil studio, canal #infrastructure). Depuis
 Contrôle anti-fabulation : ne jamais reformuler la sortie des scripts, la coller telle quelle. Étape 3 est le même contrôle (registre-problemes.md, entrée 2026-08-17).
 ```
 
-## 8. État d'exécution
+## 8. État d'exécution — **exécuté le 2026-09-13**
 
-**Rédigée avant exécution** (2026-09-13), conformément à la règle de validation
-conditionnelle. Les résultats, les sorties brutes des vérifications et les SHA
-des commits sont versés au §9 **après** l'exécution.
+| Correctif | État | Commit | Preuve |
+|---|---|---|---|
+| **C1** — prompt du job cron | **fait** | *hors dépôt* (`~/.hermes/profiles/studio/cron/jobs.json`) | relecture du prompt persisté + exécution réelle de la commande corrigée (§9.1) |
+| **C2a** — 4 archives versées au suivi git | **fait** | `2f37f28` | `detecter-non-tracke.py` : « Aucun fichier non tracké. » |
+| **C2b** — 4 entrées au registre de traitement | **fait** | `fd79f93` | `verifier-rapports-traites.py` : « Tous les rapports du périmètre ont une entrée » |
+| **C3** — contrôle A étendu **et éprouvé** | **fait** | `fee2f47` | les deux faces observées en bac à sable (§9.2) |
+| **C4** — recompte du §0 + `INF-15` → §9 | **fait** | `c40f735` | recompte mécanique confronté aux lignes : 6 pôles sur 7 exacts, le 7ᵉ documenté (§9.3) |
+| **N1–N5** — propositions non exécutées | **assumé** | — | motifs nommés au §3 ; le texte de N1 est prêt au §5 |
+
+**Contrat d'exécution** : `877e8ff` (écrit **avant** toute écriture — c'est l'objet de ce commit).
+
+## 9. Sorties brutes des vérifications de clôture
+
+### 9.1 C1 — la commande corrigée tourne, et le prompt persisté porte le bon chemin
+
+```
+$ python3 atelier/rd/outillage/graphe/generer-cartographie.py --depot /root/wiki --verifier
+
+  Nœuds : 608
+      doctrinal    346
+      atelier      251
+      label        11
+
+  Arêtes : 1968
+      établies    1688
+      suggérées   280
+
+  Lacunes to-source : 64
+
+  Avertissements : 182 (non bloquants)
+```
+
+*(608 nœuds contre 606 au rapport du matin : la différence est cette fiche.)*
+Relecture du prompt persisté après édition — 2537 caractères, et les deux lignes
+corrigées y sont :
+
+```
+   >> 1. python3 atelier/rd/outillage/graphe/generer-cartographie.py --depot /root/wiki --verifier
+   >> 5. Intégrité des bind-mounts, santé des gateways — relevé par `systemctl --user
+      list-unit-files 'hermes-*'` d'abord (13 unités pour 14 profils ; `list-units` seul
+      ne montre que les unités chargées, leçon de l'entrée [2026-09-01] du registre des
+      problèmes) puis `is-active`/`is-enabled` par profil —, staleness de _inbox/
+```
+
+### 9.2 C3 — la double face de l'épreuve (§VII)
+
+Le contrôle a d'abord **mordu sur le dépôt vivant**, comme annoncé :
+
+```
+$ python3 verifier-invariants.py --racine /root/wiki   # état AVANT correction du cahier
+exit_code_reel=1
+  [A3] atelier/rd/cahiers/journal-optimisations.md — `updated: 2026-09-02` est antérieur
+       à l'entrée la plus récente (2026-09-13).
+1 erreur(s), 71 avertissement(s).
+```
+
+Puis l'épreuve, dans un **bac à sable jetable** (`/tmp/bac-a-sable-C3`, copie de la
+seule fiche concernée — jamais le dépôt vivant) :
+
+| Face | Geste | Résultat observé |
+|---|---|---|
+| **1 — sain** | copie fidèle | `0 erreur(s), 10 avertissement(s)`, `exit=0` |
+| **2 — faute fabriquée** | `updated:` reculé au 2026-09-01, entrée la plus récente inchangée (2026-09-13) | **`exit=1`**, `[A3] … updated: 2026-09-01 est antérieur à l'entrée la plus récente (2026-09-13)` — **seule erreur** |
+| **3 — remise** | copie fidèle replacée | `0 erreur(s)`, `exit=0` |
+
+**Vert sur X, refus sur Y** : le contrôle accepte l'état sain et **refuse** l'écart
+de `updated:` qu'il doit attraper. La faute fabriquée a été observée **exactement
+celle qu'il vise**, et le bac à sable a été détruit après l'épreuve.
+
+L'état du dépôt, remis en cohérence, est ensuite vert :
+
+```
+$ python3 verifier-invariants.py --racine /root/wiki
+exit_code_reel=0
+0 erreur(s), 71 avertissement(s).
+```
+
+Les 71 avertissements sont **exclusivement** les C5/C6 d'étanchéité inversée sur
+`doctrinal/sources/*` et `doctrinal/autorites/rene-guenon.md`, antérieurs et
+inchangés — aucun ne vient des cahiers ni de cette passe.
+
+### 9.3 C4 — recompte confronté aux lignes
+
+Recompte mécanique (tableaux §1–§7 confrontés au §0), après correction :
+
+```
+pole  §0 declare                   reel                         verdict
+INS   (9, 2, 1, 3, 15)             (9, 2, 1, 3, 15)             OK
+INF   (8, 3, 1, 2, 14)             (8, 3, 1, 2, 14)             OK
+OUT   (7, 0, 1, 0, 8)              (7, 0, 1, 0, 8)              OK
+BIB   (1, 0, 1, 1, 3)              (1, 0, 1, 1, 3)              OK
+CAS   (1, 0, 1, 0, 2)              (1, 0, 1, 0, 2)              OK
+PRO   (3, 0, 0, 3, 6)              (3, 0, 0, 3, 6)              OK
+DOC   (4, 0, 0, 1, 5)              (4, 0, 0, 1, 8)              ECART (+3 hors vocabulaire)
+```
+
+Le seul écart restant est **celui que le registre déclare lui-même** : les trois
+statuts hors vocabulaire de `DOC` (`fait` / `partiel` / `recensé`), point
+explicitement **soumis à Sidy**. Il est signalé, pas absorbé.
+
+### 9.4 Vérifications transversales de clôture
+
+```
+$ python3 atelier/rd/outillage/detecter-non-tracke.py --racine /root/wiki
+  Aucun fichier non tracké.                                    exit=0
+
+$ python3 atelier/rd/outillage/verifier-rapports-traites.py --racine /root/wiki
+Registre : 30 entrée(s) de traitement.
+Archives : 31 fichier(s) total, dont 14 antérieur(s) à l'ouverture du registre
+           (2026-09-02, hors périmètre).
+Tous les rapports du périmètre ont une entrée de traitement.   exit=0
+
+$ python3 atelier/rd/outillage/verifier-coherence-infrastructure.py --racine /root/wiki
+  13 affirmation(s) vérifiée(s), 0 écart(s)                    exit=0
+  (11 avant cette passe ; les deux affirmations ajoutées sont celles de la présente
+   fiche — présence du job `monitoring-infrastructure-quotidien` et `DISCORD_HOME_CHANNEL`
+   du profil `studio` : le correctif C1 n'a pas laissé le job dans un état inconnu.)
+
+$ git status --porcelain
+(aucune ligne — arbre propre)
+```
+
+## 10. Ce que cette passe laisse ouvert, et à qui
+
+1. **N1 — l'entrée au `registre-problemes.md`** : texte prêt au §5 ; dépositaire à
+   désigner (Sidy, ou session Claude Code).
+2. **N2 — `INF-17`** : ouvrir la ligne, ou acter qu'une optimisation n'appelle pas
+   de ligne.
+3. **N3 — le régime de `_inbox/` par rapport à Git** : doctrine écrite
+   (« intouchable par Git ») contre pratique constatée (quatre sessions délibérées).
+   Une des deux doit tomber.
+4. **N4 — l'intégration des deux fiches du sas** (dont une à 5 jours).
+5. **N5 — le retour de `verifier-invariants.py` au §1 du rapport Studio**, dès lors
+   que le contrôle A étendu mord désormais dans le rapport du profil `publication`
+   et non dans celui-ci.
+6. **`INF-09`** — statut `ouvert` alors que son texte dit le verdict rendu.
+7. **Le vocabulaire des statuts du registre des chantiers** (trois valeurs hors
+   vocabulaire, point du §*Points ouverts*).
+
+Aucun de ces sept points n'est tranché par la machine (Cmd 12/13).
