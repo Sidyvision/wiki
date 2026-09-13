@@ -8,6 +8,34 @@ updated: 2026-09-13
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] archivage | Koly Cherif Keita — « Les Djinns qui aident les humains » · ébauche Tijāniyya · croisements
+
+- **Ordre de Sidy** : « intègre la fiche sur les jinns de _inbox/ ». Plan présenté puis validé (Cmd 6) : « go, statut traditionnel, copie dans textes/divers, tu peux réaliser la fiche Tijaniyya. Tout cela est croisé avec discernement/ et meta/ ».
+- **Créées** :
+  - `sources/koly-cherif-keita-djinns-aident-humains` — `status: traditionnel` par **verdict de Sidy** : la machine n'a pas conclu cette valeur (Cmd 12). Elle porte cinq points de vigilance :
+    1. transcription ASR non fiable, termes arabes laissés tels que défigurés, sans reconstruction ;
+    2. vocabulaire « électromagnétique / quantique », confronté à Guénon, *Aperçus sur l'initiation*, ch. XX ;
+    3. sollicitation commerciale ;
+    4. récits de saints non sourcés ;
+    5. absence de critère pratique entre autorité des saints et coopération contractuelle.
+    Les hadiths et récits coraniques sont `to-source`, aucune référence n'étant restituée de mémoire.
+  - `traditions/tijaniyya` — une ébauche. Les faits généraux (fondateur, Fès, pratiques) portent tous `to-source` : le dépôt ne possède aucune source primaire de la voie. Champ `original: ["to-original"]`.
+- **Transcription** : copiée (non déplacée, Cmd 10) de `raw/sources/` vers `textes/divers/koly-cherif-keita-djinns-aident-humains.md`. `textes/LISEZ-MOI.md` est mis à jour (versement du jour, compte `divers/` passé de 21 à 22).
+- **Croisement avec `discernement/`**, fait à rebours pour respecter l'étanchéité inversée : aucune fiche orthodoxe ne pointe vers un discernement non tranché. Une section de recoupement datée, qualifiée **kari-kumi**, est ajoutée dans trois discernements :
+  - `2026-08-13_shams-al-maarif-sihr-grille…` : tripartition saints / contrat / sorciers ;
+  - `2026-08-13_shams-al-maarif-efficacite-talismanique…` : revendications d'efficacité et vocabulaire physique ;
+  - `2026-07-28_marques-de-la-contrefacon…` : cas d'emploi signalé, grille **non appliquée**.
+
+  Aucune synthèse provisoire n'est modifiée.
+- **Croisement avec `meta/`** : dans le sens autorisé seulement (`meta/` → `doctrinal/`, §VI). Consigné dans `meta/meta-annales.md`. Aucun fait personnel dans les fiches doctrinales.
+- **Joints** : lot déclaré **kari-kumi**. Gizeh : confronté, aucun ancrage.
+- **Vérification** :
+  - `verifier-invariants.py --racine /root/wiki` : **0 erreur, 71 avertissements**, identique à la ligne de base mesurée avant écriture. Aucun avertissement ne porte sur les fiches créées.
+  - Cmd 15 : 10 fichiers contrôlés, 0 caractère invisible.
+- **Graphe** : régénéré. `koly-cherif-keita…` a 1 lien entrant (`tijaniyya`) et `tijaniyya` en a 1 (`koly-cherif-keita…`). Aucune des deux n'est orpheline, mais le maillage reste mince. Liens **proposés, non inscrits** (verdict Sidy) : `tijaniyya` dans les `cross_links` de `traditions/tasawwuf`, `symboles/tariqa` et `autorites/ouattara-brahima` ; la source dans ceux de `symboles/jinns-classification-couleur`.
+- **Sas** : l'ébauche `_inbox/2026-09-07_djinns-aident-humains-koly-cherif-keita.md` a été retirée par `git rm`. Son contenu est repris dans la fiche source et l'historique git la conserve, comme au précédent du `0e89c13`. `_inbox/2026-09-10_recolte-discernement-etat-maturite.md` n'est pas concerné et reste en place.
+- **Commit** : e4407f5
+
 ## [2026-09-13] correctifs | C7 fermé — `status: adopte` → `speculatif`, l'adoption portée par `verdict_date`
 
 - **Verdict de Sidy** : « oui, spéculatif, mais son contenu a été adopté et validé. » Il ferme le signal S2, que la passe de forme du matin avait laissé ouvert au motif protocolaire — la machine ne conclut pas une valeur de `status` (Cmd 12) — et sur lequel elle avait proposé `speculatif`.

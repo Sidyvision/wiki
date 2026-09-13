@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-09-08
+updated: 2026-09-13
 
 ---
 
@@ -13,6 +13,14 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] croisement | Djinns et Tijāniyya — renvois de `meta/` vers les nouvelles fiches doctrinales
+
+- **Ordre de Sidy** : « tout cela est croisé avec discernement/ et meta/ », à l'intégration de `doctrinal/sources/koly-cherif-keita-djinns-aident-humains` et de `doctrinal/traditions/tijaniyya` (détail : `doctrinal/annales.md`, même date).
+- **Sens du croisement** : de `meta/` vers `doctrinal/` **uniquement** (§VI). Aucune fiche doctrinale ne pointe vers `meta/`, et aucun fait personnel n'y a migré.
+- **`genealogie/samballa-kouyate`** : nouvelle section « Croisement ». Le « compagnon invisible » est rapproché du motif, exposé dans la source, du djinn croyant qui suit une lignée pieuse, **sans réduction** : la distinction de Sidy (« Ruhan », non djinn) est maintenue et n'est pas tranchée (Cmd 12). Deux liens sont ajoutés à `links:`. La piste « généalogie des jinns chez Sidy » (`proposition-discernement.md`) est rappelée, non ouverte.
+- **`personnel/sidy`** : « Position sur la Tijaniyya » renvoie maintenant à la fiche doctrinale, à la source et au croisement Samballa.
+- **Commit** : e4407f5
+
 ## [2026-09-08] amendement | Protocole racine §II — convention des dossiers `assets-<sujet>/` (verdict Sidy)
 
 - **Verdict de Sidy**, 2026-09-08 : « Oui, ajoute assets-instrument/ à Claude.md », en réponse au signalement porté à la clôture de la session kamon — le §II ne mentionnait **aucun** dossier d'assets alors que le dépôt en versionnait déjà six fichiers sous `atelier/rd/instrument/assets-instrument/` depuis 2026-08.
