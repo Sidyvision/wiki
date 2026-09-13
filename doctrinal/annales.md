@@ -8,6 +8,21 @@ updated: 2026-09-13
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] maillage + recherche | Liens vers `shamharush` · formes arabes attestées du nom
+
+- **Ordre de Sidy** : « oui, ajoute les liens proposés et pour la graphie arabe de Shamharush, fais tes propres recherches sur le web ».
+- **Maillage** : `[[doctrinal/symboles/shamharush]]` est ajouté aux `cross_links` de `sources/koly-cherif-keita…`, `traditions/tijaniyya` et `symboles/jinns-classification-couleur`. Graphe régénéré : `shamharush` passe de 1 à **4** liens entrants.
+- **Recherche web, protocole relu au préalable** (`protocoles/langues-originales.md`) :
+  - **شمهورش** : **3 occurrences dans le texte arabe du *Shams al-Maʿārif al-Kubrā*** (édition « للشاملة », archive.org `shams_al_maarif`, texte intégral téléchargé hors du dépôt). Contextes : l'adjuration de Ṣarfiyāʾīl, ange préposé à la sphère de Jupiter, et le *wird* du jeudi. Cette graphie correspond lettre pour lettre au « Shamhûrash » de Guénon.
+  - **شمهروش** : usage de la presse marocaine sur le sanctuaire du Toubkal (Arabic Post, 2024), sans source textuelle.
+  - **Maymūn Abānūkh** (« ميمون أبانوخ ») : associé au samedi dans le même texte. C'est le Maïmûn de la lettre de Guénon.
+  - **Sans résultat** : la seconde édition numérisée (OCR défaillant, absence non probante), Wikipédia anglais, et Doutté (1909), dont le texte n'a pas pu être obtenu.
+- **Marqueur `original: ["to-original"]` maintenu** : les formes sont portées en corps de fiche, avec leur témoin et leur citation. La levée du marqueur et l'inscription au Sceau attendent la vérification de Sidy (discipline des langues originales, point 4).
+- **Vérification** :
+  - `verifier-invariants.py --racine /root/wiki` : **0 erreur, 71 avertissements**, sans changement.
+  - Cmd 15 : 0 caractère invisible.
+- **Commit** : 51a70fd
+
 ## [2026-09-13] archivage | Shamharush (Shamhûrash) — lettre de Guénon à Genty (1937) · verdict sur Koly Cherif Keita
 
 - **Ordre de Sidy** : « oui je valide le plan, shamharoush traditionnel, enregistre l'anecdote de la bague », avec la lettre de Guénon déposée dans `raw/`. Deux précisions sont venues en cours de passe : « tu devrais aussi trouver des éléments dans le Shams al Maarif », puis « Guénon écrit "Shamhûrash" mais il s'agit bien de la même entité ».

@@ -13,6 +13,13 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] personnel | Formule de la bague relevée dans le *Shams al-Maʿārif*
+
+- **Occasion** : la recherche des graphies arabes de Shamharush demandée par Sidy (voir `doctrinal/annales.md`, même date). Le texte arabe du *Shams al-Maʿārif* a été interrogé à cette occasion.
+- **Relevé** : la séquence **الوحا … العجل … الساعة**, que Sidy lit sur la seconde bague, y figure **14 fois**, toujours en clôture d'adjurations adressées aux « serviteurs » (خدام) et aux esprits appelés. Dans une adjuration, les deux premiers mots accompagnent le nom de **Maymūn** (« الوحا يا ميمون … العجل »).
+- **Consigné sans interprétation** dans `personnel/2026-09-13_bague-offerte-inscription-al-wiha` (Cmd 12). Le relevé est à vérifier par Sidy sur un exemplaire imprimé.
+- **Commit** : 51a70fd
+
 ## [2026-09-13] personnel | Rencontre avec Koly Cherif Keita · anecdote de la bague offerte avant la khalwa
 
 - **Ordre de Sidy** : « enregistre l'anecdote de la bague ». Le jugement sur Koly Cherif Keita a été donné en session le même jour.
