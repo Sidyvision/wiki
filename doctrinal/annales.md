@@ -8,6 +8,23 @@ updated: 2026-09-13
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] archivage | *Shams al-Maʿārif* — éditions arabes versées dans `raw/`
+
+- **Ordre de Sidy** : « verse les versions du Shams al Maarif que tu as trouvées dans raw/ pour future exploitation/comparaison ».
+- **Versé dans `raw/shams-al-maarif-arabe/`** (hors git), avec une fiche `PROVENANCE.md` :
+  - **Édition A**, « للشاملة » (archive.org `shams_al_maarif`) : PDF de 23,5 Mo et texte OCR exploitable ;
+  - **Édition B**, scan (archive.org `20230226_20230226_1533`) : PDF de 218 Mo, témoin visuel, et texte OCR défaillant ;
+  - le texte extrait de la traduction française (`pdftotext`).
+
+  **MD5 des quatre fichiers téléchargés conformes** à ceux d'archive.org. Les EPUB et les PDF texte, dérivés redondants, ne sont pas versés.
+- **Signalement** : section « Éditions arabes versées dans `raw/` » ajoutée à `sources/shams-al-maarif`, en chemin nu. `updated:` remonté au 2026-09-13.
+- **Réserves portées** : mises en ligne anonymes, rapport à une édition imprimée de référence non établi, OCR avec coquilles. Toute citation reste à vérifier sur l'image, puis par Sidy.
+- **Vérification** :
+  - `verifier-invariants.py --racine /root/wiki` : **0 erreur, 71 avertissements**.
+  - Cmd 15 : 0 caractère invisible.
+  - `raw/` confirmé ignoré par git (`.gitignore:4`).
+- **Commit** : 85a97f0
+
 ## [2026-09-13] maillage + recherche | Liens vers `shamharush` · formes arabes attestées du nom
 
 - **Ordre de Sidy** : « oui, ajoute les liens proposés et pour la graphie arabe de Shamharush, fais tes propres recherches sur le web ».
