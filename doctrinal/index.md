@@ -69,6 +69,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/muqarnas|Muqarnas — géométrie sacrée de l'art islamique]]
 - [[doctrinal/symboles/jinns-classification-couleur|Classification populaire des jinns par couleur]] — ⚠️ statut contre-traditionnel (croyance populaire, conservée pour discernement)
 - [[doctrinal/symboles/shamharush|Shamharush (شمهورش, Shamhûrash), roi des djinns croyants]] — source primaire : lettre de Guénon à Genty (1937) ; témoignage tijānī ; Gilis `to-source`
+- [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa|La formule « الوحا العجل الساعة » (al-waḥā al-ʿajal al-sāʿa)]] — injonction de hâte (Lisān al-ʿArab) qui clôt 14 adjurations du Shams al-Maʿārif ; réception occultiste contemporaine
 - [[doctrinal/symboles/archeometre|L'Archéomètre (Saint-Yves d'Alveydre) et sa réception guénonienne]] — ⚠️ statut contre-traditionnel, mise en garde non-syncrétisme
 
 ### Pratiques rituelles

@@ -5,7 +5,7 @@ tags: [objet-personnel, bague, khalwa, jinn]
 created: 2026-09-13
 updated: 2026-09-13
 sources: ["[[chatgpt-export-2026-05-10]]"]
-links: ["[[meta/personnel/sidy]]", "[[meta/personnel/2026-06-20_identification-bague]]", "[[doctrinal/symboles/shamharush]]", "[[doctrinal/symboles/jinns-classification-couleur]]"]
+links: ["[[meta/personnel/sidy]]", "[[meta/personnel/2026-06-20_identification-bague]]", "[[doctrinal/symboles/shamharush]]", "[[doctrinal/symboles/jinns-classification-couleur]]", "[[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]]"]
 ---
 
 # La bague offerte avant la khalwa — inscription « الوحا العجل الساعة »
@@ -38,6 +38,11 @@ lecture de la formule dans la même conversation. Elle n'est **pas reprise ici**
 une piste, pas une source, tant qu'une autorité textuelle ne l'a pas confirmée.
 
 ## La formule dans le *Shams al-Maʿārif* (relevé du 2026-09-13)
+
+> **Fiche doctrinale de la formule** (neutre, sans mention de la bague) :
+> [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]]. On y trouve le sens lexical
+> (*Lisān al-ʿArab*), les 14 occurrences classées par destinataire, les variantes et la
+> réception contemporaine.
 
 Au cours de la recherche sur Shamharush demandée par Sidy, le texte arabe du *Shams
 al-Maʿārif al-Kubrā* a été interrogé : édition « للشاملة », archive.org `shams_al_maarif`,

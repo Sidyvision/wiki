@@ -10201,6 +10201,28 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
+      "label": "La formule « الوحا العجل الساعة » (al-waḥā al-ʿajal al-sāʿa)",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "formule",
+        "adjuration",
+        "azima",
+        "khuddam",
+        "jinn",
+        "ilm-al-huruf",
+        "shams-al-maarif",
+        "lexique-arabe"
+      ],
+      "updated": "2026-09-13",
+      "chemin": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/symboles/furin",
       "label": "Furin (風鈴) — le carillon à vent japonais",
       "circuit": "doctrinal",
@@ -23599,6 +23621,48 @@
     {
       "source": "doctrinal/symboles/firasa",
       "target": "doctrinal/autorites/ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
+      "target": "doctrinal/sources/shams-al-maarif",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
+      "target": "doctrinal/symboles/talisman-sihr",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
+      "target": "doctrinal/symboles/shamharush",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
+      "target": "doctrinal/sources/guenon-lettre-genty-1937-07-14",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
+      "target": "doctrinal/symboles/ilm-al-huruf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
+      "target": "doctrinal/deviations/confusion-psychique-spirituel",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
