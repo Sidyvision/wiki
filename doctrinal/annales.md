@@ -8,6 +8,20 @@ updated: 2026-09-13
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-13] langues-originales | Shamharush — شمهورش validée et portée en tête de fiche
+
+- **Verdict de Sidy** : « je valide شمهورش, inscris-la en tête de fiche ». Il répond aux formes attestées relevées le même jour (commit 51a70fd).
+- **Levée du marqueur** : `original: ["to-original"]` devient `original: ["شمهورش"]`, par vérification humaine (discipline des langues originales, point 4). La forme est portée aux sites canoniques (point 3) : le `title:` et le H1 deviennent « Shamharush (شمهورش, Shamhûrash), roi des djinns croyants ». L'entrée correspondante de `doctrinal/index.md` est alignée.
+- **Corps de la fiche** : trois mises à jour.
+  - La note de tête enregistre le verdict et la levée du marqueur.
+  - La section des formes attestées précise que la graphie marocaine شمهروش reste un témoin d'usage, **non portée au Sceau**.
+  - L'intitulé sur le *Shams* est corrigé : le nom est absent de la traduction, mais présent dans l'arabe.
+- **Vérification** :
+  - `verifier-invariants.py --racine /root/wiki` : **0 erreur, 71 avertissements**. Aucune alerte B5 (le marqueur aurait contredit le titre), B6 ni B7.
+  - Cmd 15 : 0 caractère invisible.
+  - Graphe régénéré.
+- **Commit** : a22cd67
+
 ## [2026-09-13] archivage | *Shams al-Maʿārif* — éditions arabes versées dans `raw/`
 
 - **Ordre de Sidy** : « verse les versions du Shams al Maarif que tu as trouvées dans raw/ pour future exploitation/comparaison ».
