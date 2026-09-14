@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-09-13
+updated: 2026-09-14
 
 ---
 
@@ -13,6 +13,28 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-14] personnel | Ṭarīqa Hibriyya (Belqaïdiyya), zawiyya de Bobigny — première écoute d'*Ishrab Sharāb*
+
+Commit `0435137`.
+
+Section ajoutée à `meta/personnel/sidy.md` : Sidy a entendu pour la première fois la
+qasida *Ishrab Sharāb* lors d'une assemblée (*ḥaḍra*) de la ṭarīqa **Hibriyya
+(Belqaïdiyya)**, à leur **zawiyya de Bobigny** ; il la compte parmi ses qasidas préférées.
+
+Le fait est **personnel** : il vit en `meta/` et **n'est pas recopié** dans
+`doctrinal/sources/ishrab-sharab.md`, qui se contente de signaler un rattachement sans le
+nommer (§VI — interdit d'inscrire un fait personnel dans une page neutre). La fiche
+doctrinale est citée en clair depuis `meta/`, sans wikilink.
+
+Distinction tenue à l'écriture : l'attestation que **le poème varie d'une assemblée à
+l'autre** est, elle, un fait **sur le texte** et non sur la personne — elle est donc portée
+côté doctrinal, en note de transmission, et non ici.
+
+**Point ouvert** : aucune fiche de tradition n'existe au dépôt pour la Hibriyya /
+Belqaïdiyya (grep exhaustif du 2026-09-14). Elle n'a pas été ouverte — une *silsila*
+écrite de mémoire est précisément ce que la discipline des sources interdit. Le jour où
+une source de chaîne est disponible, ce rattachement pourra trouver son ancrage neutre.
+
 ## [2026-09-13] personnel | Fiche de la bague reliée à la fiche doctrinale de sa formule
 
 - **Occasion** : création de `doctrinal/symboles/formule-al-waha-al-ajal-al-saa`, sur ordre de Sidy, avec délégation du choix (détail dans `doctrinal/annales.md`, même date).

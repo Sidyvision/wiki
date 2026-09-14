@@ -1,13 +1,67 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-13
+updated: 2026-09-14
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-14] archivage | Ishrab Sharāb — « Bois la boisson des gens de la pureté »
+
+Commit `0435137`.
+
+Qasida soufie de *ḥaḍra*, neuf strophes sur trois couches (arabe vocalisé,
+translittération, traduction anglaise), refrain **Allah Allah** à chaque césure. Entrée
+par coupure web — blog `desertechoblog.wordpress.com`, billet du 2018-11-08 — déposée par
+Sidy dans `raw/`.
+
+**Deux dépôts, pas un.** La forme retenue a été vérifiée sur les fiches comparables plutôt
+que supposée : `doctrinal/sources/awrad-ibn-arabi.md` **décrit** sans reproduire, et
+`textes/` porte la source primaire. Le texte est donc versé en
+`textes/divers/ishrab-sharab-desert-echo-2018.md` (copie **octet pour octet**, `cmp`
+vérifié, sans annotation — règle 5 : on n'annote jamais un texte reçu), et la fiche
+`doctrinal/sources/ishrab-sharab.md` le décrit.
+
+**Ce qui n'a pas été écrit, et pourquoi.** L'auteur de la qasida n'est pas nommé par le
+document : il est **déclaré absent**, non fourni de mémoire. Aucune fiche
+`doctrinal/traditions/` n'a été ouverte pour la ṭarīqa d'où vient la rencontre — aucune
+n'existe au dépôt (grep exhaustif : ni Hibriyya, ni Belqaïdiyya, ni Shādhiliyya, ni
+Darqāwiyya, ni ʿAlawiyya) et une *silsila* écrite de mémoire est exactement ce que la
+discipline des sources interdit. Le rattachement est **signalé sans wikilink** plutôt
+qu'inscrit en lien mort. `cross_links` reste **vide** : la procédure d'intégration du
+circuit fait proposer les liens à la machine, jamais les inscrire — sept candidats sont
+portés en fiche, en attente du verdict de Sidy, après quoi le graphe sera régénéré.
+
+**Note de transmission, versée le même jour.** Sidy atteste que le poème **varie
+légèrement d'une assemblée à l'autre** — il n'est pas toujours chanté de la même façon. Le
+fichier versé ne porte donc pas « le » texte mais **la version que ce blog transcrit**,
+d'où son nom daté de son véhicule ; toute divergence rencontrée ailleurs se verse en
+**recension parallèle**, jamais en correction de celle-ci.
+
+**Points de vigilance portés** (relevés, non tranchés — Cmd 12) : le véhicule n'est pas
+une autorité textuelle contrôlée, d'où `sources: ["to-source"]` ; le champ `author` de la
+coupure (`[[View all posts by TheDaffTeam]]`) est un artefact du clipper et n'est pas
+repris ; surtout, strophe 4, le blog rend `bi-l-mawlā ṭābat il-adhwāq` par « By our master
+**(Ali)** » et laisse `laylah ʿalawiyyah` sans traiter — l'insertion parenthétique est un
+**ajout du traducteur** que l'arabe ne porte pas, signalé et laissé ouvert. `status:
+traditionnel` est posé par application de l'amendement du 2026-07-28 (le statut qualifie
+la nature du contenu reproduit, non son véhicule), **révisable**.
+
+**Double contrôle** : joint *kari-kumi* (assemblage provisoire — source non vérifiée,
+auteur absent, rattachement non lié, recension unique d'un texte attesté variable) ;
+confrontation au pôle Gizeh : **aucun ancrage**, résultat négatif consigné comme tel.
+
+**Circonstance personnelle** portée en `meta/personnel/sidy.md` et **non recopiée** vers
+`doctrinal/` (§VI).
+
+**Contrôles** : Cmd 15 — aucun caractère invisible sur les cinq fichiers touchés, l'arabe
+vocalisé est citable tel quel. `verifier-invariants.py` — **0 erreur, 71 avertissements**,
+tous préexistants (C5/C6 d'étanchéité inversée sur d'autres fiches), **aucun** sur les
+fichiers de cette passe.
+
 ## [2026-09-13] archivage | La formule « الوحا العجل الساعة » — fiche symbole
 
 - **Ordre de Sidy** : « crée une fiche symbole pour la bague et/ou la citation […] je te laisse faire en fonction de ce qui est le plus pertinent ».
