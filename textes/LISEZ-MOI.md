@@ -4,7 +4,7 @@ type: infrastructure
 chantier: PRO-08
 tags: [textes, sources, conversions, obsidian, infrastructure]
 created: 2026-09-02
-updated: 2026-09-13
+updated: 2026-09-14
 sources: []
 links:
   - "[[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent]]"
@@ -249,6 +249,33 @@ sans autre message, comme le piège NFD décrit plus haut : il a été normalis�
 
 Ce que le dépôt en tire est porté dans
 `doctrinal/sources/guenon-lettre-genty-1937-07-14.md`.
+
+## Versement du 2026-09-14 — *Ishrab Sharāb* (coupure web, qasida soufie)
+
+Qasida soufie en neuf strophes, chacune sur trois couches — arabe vocalisé,
+translittération, traduction anglaise —, avec le refrain **Allah Allah** à chaque
+césure. Coupure du blog `desertechoblog.wordpress.com` (billet du 2018-11-08),
+déposée par Sidy dans `raw/` et versée ici par copie **octet pour octet** (`cmp`
+vérifié).
+
+- `divers/ishrab-sharab-desert-echo-2018.md` — 1 fichier
+
+Chaîne : **coupure web** (clipping Markdown), même voie d'entrée que la lettre de
+Guénon versée la veille. Le frontmatter de l'outil de capture est conservé tel quel,
+y compris son champ `author: "[[View all posts by TheDaffTeam]]"` — qui est un
+**artefact du clipper**, non un auteur : la règle d'immuabilité interdit de le
+corriger ici, et la fiche doctrinale le signale plutôt que de le reprendre.
+
+Contrôle Cmd 15 passé sur le fichier versé : **aucun caractère invisible**
+(U+200B/200C/200D/FEFF/200E/200F), l'arabe vocalisé est donc citable tel quel.
+
+**Ce texte est une recension parmi d'autres.** Sidy atteste que la qasida varie
+légèrement d'une assemblée (*ḥaḍra*) à l'autre, le poème n'étant pas toujours chanté
+de la même façon. Le fichier versé ne porte donc pas « le » texte, mais **la version
+que ce blog transcrit** — ce qui est précisément la raison pour laquelle il est daté
+et nommé d'après son véhicule.
+
+Ce que le dépôt en tire est porté dans `doctrinal/sources/ishrab-sharab.md`.
 
 ## Ce qui reste ouvert
 

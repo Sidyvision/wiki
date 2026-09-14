@@ -4,7 +4,7 @@ type: entity
 domain: perso
 tags: [utilisateur, profil, spiritualite, tradition]
 created: 2026-06-02
-updated: 2026-09-13
+updated: 2026-09-14
 sources: ["[[chatgpt-export-2026-05-10]]", "to-source"]
 links: ["[[ibn-arabi]]", "[[al-ghazali]]", "[[rene-guenon]]", "[[platon]]", "[[sanatana-dharma]]", "[[ahl-al-sunnah-wa-l-jamaa]]", "[[tasawwuf]]"]
 ---
@@ -253,6 +253,31 @@ Le nom exact de la fille de <span data-nom="rene-guenon" data-genre="autorite">R
 - **Expérience personnelle** : état que Sidy a connu et qui l'a marqué.
 - **Lien avec la voie ?** : Sidy ne sait pas si c'est lié à la voie spirituelle ou complètement autre chose.
 - **Statut** : question ouverte, non tranchée (en attente de réponse à §15 de l'interview).
+
+## Ṭarīqa Hibriyya (Belqaïdiyya) — zawiyya de Bobigny
+
+> Section ajoutée le 2026-09-14, sur parole de Sidy, à l'occasion de l'archivage de la
+> qasida *Ishrab Sharāb*. Le fait est **personnel** : il vit ici et **n'est pas recopié**
+> dans la fiche doctrinale, qui se contente de signaler un rattachement sans le nommer
+> (CLAUDE.md racine, §VI — interdit d'inscrire un fait personnel dans une page neutre).
+
+Sidy a entendu pour la première fois la qasida **Ishrab Sharāb** — « Bois la boisson des
+gens de la pureté » — lors d'une **assemblée (*ḥaḍra*) de la ṭarīqa Hibriyya
+(Belqaïdiyya)**, à leur **zawiyya de Bobigny**. Il la compte parmi ses qasidas préférées.
+
+Il atteste par ailleurs que le poème **varie légèrement d'une assemblée à l'autre** : il
+n'est pas toujours chanté de la même façon. Cette attestation est portée, elle, dans la
+fiche doctrinale — c'est un fait sur le texte, non sur la personne.
+
+**Ce qui reste ouvert** : aucune fiche de tradition n'existe au dépôt pour la Hibriyya /
+Belqaïdiyya (grep exhaustif du 2026-09-14 — ni Shādhiliyya, ni Darqāwiyya, ni ʿAlawiyya
+non plus). Elle n'a pas été ouverte dans cette passe : une *silsila* écrite de mémoire est
+précisément ce que la discipline des sources interdit. Le jour où Sidy dispose d'une
+source de chaîne, la fiche `doctrinal/traditions/` peut s'ouvrir et ce rattachement
+trouver son ancrage neutre.
+
+Fiche doctrinale correspondante : `doctrinal/sources/ishrab-sharab.md` (citée en clair,
+sans wikilink — `meta/` ne pointe pas vers `doctrinal/`).
 
 ## Notes
 - Données extraites de l'export ChatGPT du 2026-05-10 ; à compléter au fil des sessions.

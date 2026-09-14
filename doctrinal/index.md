@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-09-10
+updated: 2026-09-14
 ---
 
 # Le Catalogue Universel
@@ -247,6 +247,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle|ʿIlm al-Nujûm — bases de l'astrologie traditionnelle]]
 - [[doctrinal/sources/islam-and-artificial-intelligence|Islam and Artificial Intelligence (Chaudhary, Cambridge UP)]]
 - [[doctrinal/sources/hasbiyallah-rabbani|Hasbiyallah — Allah est notre Suffisance (Faraz Rabbani)]]
+- [[doctrinal/sources/ishrab-sharab|Ishrab Sharāb — « Bois la boisson des gens de la pureté »]] — qasida soufie de ḥaḍra (9 strophes, refrain *Allah Allah*) ; coupure web, auteur non nommé, `to-source` — *kari-kumi* ; texte variable selon les assemblées, la recension versée est datée de son véhicule ; points de vigilance portés (glose « (Ali) » non sourcée)
 - [[doctrinal/sources/universal-man-jili|Universal Man (ʿAbd al-Karīm al-Jīlī)]]
 - [[doctrinal/sources/wazifa|Kitāb al-Awrād wa-l-Wazāʾif (manuel naqshbandi)]]
 - [[doctrinal/sources/mawlid-al-rasul|Mawlid al-Rasūl al-Aʿẓam (ʿAbd al-Qādir al-Jīlānī)]]
