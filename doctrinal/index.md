@@ -78,6 +78,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/khatm-al-khawajakan|Le Khatm al-Khawājagān (cérémonie collective naqshbandie)]]
 - [[doctrinal/symboles/tariq|Al-Ṭarīq (la voie spirituelle, les prescriptions divines)]]
 - [[doctrinal/symboles/tariqa|Al-Ṭarīqa (la Voie, démarche des itinérants)]]
+- [[doctrinal/symboles/dhikr|Dhikr (le Rappel, l'invocation)]] — répétition d'un Nom, en solitude ou en assemblée ; `to-source`, ouverte depuis une entrée de glossaire
+- [[doctrinal/symboles/sama|Samāʿ (le concert spirituel, l'audition)]] — assemblée où le chant ouvre le cœur ; impropre au novice ; `to-source`
 
 ### Vertus et états spirituels (fiqh du cœur)
 - [[doctrinal/symboles/tawakkul|Tawakkul (la confiance en Allāh)]]
@@ -89,6 +91,9 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/tard|Al-Ṭard (l'enchaînement logique, la réciprocité)]]
 - [[doctrinal/symboles/tughyan|Al-Ṭuġyān (l'impiété, la transgression)]]
 - [[doctrinal/symboles/nafs-qalb-irritation|Discerner l'irritation du nafs et celle du qalb]]
+- [[doctrinal/symboles/al-fuqara|Al-fuqarāʾ (les indigents, la pauvreté spirituelle)]] — la pauvreté du murīd affermit celle du murshid ; `to-source`
+- [[doctrinal/symboles/shawq|Shawq (le désir ardent du Bien-Aimé)]] — désir né de la séparation, sans place dans la présence ; `to-source`
+- [[doctrinal/symboles/wajd|Wajd (l'extase)]] — état subi, joie sous la Beauté ou affliction sous la Majesté ; `to-source`
 
 ### Cosmologie subtile, retraite et dispositions
 - [[doctrinal/symboles/alam-al-mithal|ʿĀlam al-Mithāl (le Monde Imaginal)]]
@@ -247,6 +252,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle|ʿIlm al-Nujûm — bases de l'astrologie traditionnelle]]
 - [[doctrinal/sources/islam-and-artificial-intelligence|Islam and Artificial Intelligence (Chaudhary, Cambridge UP)]]
 - [[doctrinal/sources/hasbiyallah-rabbani|Hasbiyallah — Allah est notre Suffisance (Faraz Rabbani)]]
+- [[doctrinal/sources/qamus-language-of-the-future|Qāmūs — « The Language of the Future » (lexique soufi)]] — dix pages coupées d'un lexique en ligne (57 entrées) ; auteur Murshid F.A. Ali ElSenossi sur attestation de Sidy, le champ `author:` du document étant vide ; `to-source` — *kari-kumi* ; a servi de base à cinq fiches de termes
 - [[doctrinal/sources/ishrab-sharab|Ishrab Sharāb — « Bois la boisson des gens de la pureté »]] — qasida soufie de ḥaḍra (9 strophes, refrain *Allah Allah*) ; coupure web, auteur non nommé, `to-source` — *kari-kumi* ; texte variable selon les assemblées, la recension versée est datée de son véhicule ; points de vigilance portés (glose « (Ali) » non sourcée)
 - [[doctrinal/sources/universal-man-jili|Universal Man (ʿAbd al-Karīm al-Jīlī)]]
 - [[doctrinal/sources/wazifa|Kitāb al-Awrād wa-l-Wazāʾif (manuel naqshbandi)]]

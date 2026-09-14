@@ -277,6 +277,30 @@ et nommé d'après son véhicule.
 
 Ce que le dépôt en tire est porté dans `doctrinal/sources/ishrab-sharab.md`.
 
+## Versement du 2026-09-14 — *Qāmūs, « The Language of the Future »* (lexique soufi, 10 pages)
+
+Dix coupures web d'un lexique de terminologie soufie publié en ligne par l'Al-Miraj Sufi
+Centre, déposées dans `raw/` par Sidy le 2026-09-14 et versées ici sous
+`qamus-language-of-the-future/`, nommées par l'identifiant de page du site
+(`qamus-0371-al-fuqara.md` ← `single/371`).
+
+**Onze fichiers déposés, dix versés.** `single/518` (*himma*) avait été déposé deux fois ;
+les deux exemplaires sont **identiques octet pour octet** (`cmp`), un seul est versé.
+
+**Vérifications** : `cmp` sur les dix — **identiques octet pour octet** à leur source dans
+`raw/`. Cmd 15 — aucun caractère invisible, ni dans les dépôts d'origine ni dans les
+versements.
+
+**Ce qui est conservé tel quel**, règle d'immuabilité : le champ `author:` **vide** des
+onze coupures — l'attribution à Murshid F.A. Ali ElSenossi repose sur l'attestation de
+Sidy, pas sur le document —, et les fautes de frappe du véhicule (`spritual` dans
+`qamus-1344-sama.md`, `shawq is he need` dans `qamus-1384-shawq.md`).
+
+**Ce que ces fichiers ne sont pas** : le lexique. Le dépôt en possède **dix pages**, qui
+portent 57 entrées distinctes par le jeu des blocs `See also:` ; rien n'y dit combien le
+lexique en compte. Ce qui se dit de ce document se dit dans
+`doctrinal/sources/qamus-language-of-the-future.md`, qui porte le Sceau et le statut.
+
 ## Ce qui reste ouvert
 
 Le **régime des futurs** textes convertis — passent-ils encore par `raw/`, ou

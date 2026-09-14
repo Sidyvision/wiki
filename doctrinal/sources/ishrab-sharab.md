@@ -22,6 +22,12 @@ cross_links:
 - '[[awrad-ibn-arabi]]'
 - '[[dalail-al-khayrat-jazuli]]'
 - '[[wazifa]]'
+- '[[dhikr]]'
+- '[[sama]]'
+- '[[wajd]]'
+- '[[shawq]]'
+- '[[al-fuqara]]'
+- '[[doctrinal/sources/qamus-language-of-the-future]]'
 original: ["إِشْرَبْ شَرَابْ أَهْلِ الصَّفَا"]
 ---
 
@@ -143,10 +149,13 @@ régénéré.
 - `[[tasawwuf]]` — cadre général.
 - `[[tariqa]]` — la Voie, dont le poème chante la condition d'entrée.
 - `[[wird-awrad]]` — régime des litanies, registre voisin.
-- `[[dhikr]]` — le refrain *Allah Allah* comme support ; **cible absente du dépôt**, non inscrite.
+- [[dhikr]] — le refrain *Allah Allah* comme support. **Fiche ouverte le 2026-09-14**, lien inscrit.
 - `[[doctrinal/sources/awrad-ibn-arabi]]`, `[[doctrinal/sources/dalail-al-khayrat-jazuli]]`,
   `[[doctrinal/sources/wazifa]]` — fiches de matière liturgique comparables.
 - `[[sabr]]` — **cible absente du dépôt**, non inscrite.
+- [[al-fuqara]], [[shawq]], [[sama]], [[wajd]] — fiches ouvertes le 2026-09-14 depuis
+  [[doctrinal/sources/qamus-language-of-the-future]], sur verdict de Sidy ; liens inscrits,
+  chaque joint qualifié *kari-kumi* dans la fiche du terme.
 
 ## Double contrôle
 
