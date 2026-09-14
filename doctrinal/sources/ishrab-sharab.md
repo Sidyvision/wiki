@@ -14,7 +14,7 @@ tags:
 created: 2026-09-14
 updated: 2026-09-14
 sources: ["to-source"]
-sources_count: 0
+sources_count: 1
 cross_links: []
 original: ["إِشْرَبْ شَرَابْ أَهْلِ الصَّفَا"]
 ---
@@ -98,15 +98,21 @@ Relevés, non tranchés (Cmd 12) — matériau du discernement :
 3. **Glose éditoriale non sourcée, à portée doctrinale.** Strophe 4 : le blog rend
    `bi-l-mawlā ṭābat il-adhwāq` par « By our master **(Ali)** », et laisse
    `laylah ʿalawiyyah` sans traiter. L'insertion parenthétique est un **ajout du
-   traducteur** que l'arabe ne porte pas — `al-mawlā` n'y est pas déterminé, et
-   `ʿalawiyyah` admet plusieurs lectures. Dans un dépôt dont le cadre déclaré est
+   traducteur** que l'arabe ne porte pas : la forme y est bien déterminée
+   (بِالْمَوْلَى), mais le texte **ne nomme personne** — le référent d'`al-mawlā` y
+   reste implicite, et `ʿalawiyyah` admet plusieurs lectures. Dans un dépôt dont le cadre déclaré est
    <span data-nom="madhhab-maliki" data-genre="ecole">mālikite</span> /
    <span data-nom="ahl-al-sunnah-wa-l-jamaa" data-genre="ecole">ahl al-sunna wa-l-jamāʿa</span>,
    l'écart est signalé et laissé ouvert.
-4. **`status: traditionnel`** est posé par application de l'amendement du 2026-07-28 — le
-   statut qualifie **la nature du contenu reproduit** (une qasida soufie reçue), non son
-   véhicule (un blog). Il reste **révisable** par Sidy ; c'est une application de règle,
-   pas un verdict de la machine.
+4. **`status: traditionnel` est posé par défaut, et attend le verdict de Sidy.** Le
+   champ est obligatoire et son énumération ne comporte **aucune valeur neutre** : il a
+   donc fallu inscrire quelque chose. L'amendement du 2026-07-28 invoqué à l'appui
+   (« le statut qualifie la nature du contenu reproduit ») est **scopé `type: deviation`**
+   et oppose le contenu au *sujet traité* ; l'étendre à une fiche `type: source` pour
+   opposer le contenu au *véhicule* est une **extension, non une application**. Or
+   `doctrinal/CLAUDE.md` interdit à la machine d'« en conclure une valeur de `status` »,
+   et « un précédent de dossier n'est pas une règle ». **La valeur est donc à confirmer
+   ou à corriger par Sidy** ; elle n'est pas acquise.
 
 ## Rattachement — signalé, non lié
 
@@ -128,7 +134,7 @@ régénéré.
 - `[[tasawwuf]]` — cadre général.
 - `[[tariqa]]` — la Voie, dont le poème chante la condition d'entrée.
 - `[[wird-awrad]]` — régime des litanies, registre voisin.
-- `[[dhikr]]` — le refrain *Allah Allah* comme support.
+- `[[dhikr]]` — le refrain *Allah Allah* comme support ; **cible absente du dépôt**, signalée à ce titre.
 - `[[doctrinal/sources/awrad-ibn-arabi]]`, `[[doctrinal/sources/dalail-al-khayrat-jazuli]]`,
   `[[doctrinal/sources/wazifa]]` — fiches de matière liturgique comparables.
 - `[[sabr]]` — **cible absente du dépôt**, signalée à ce titre.
