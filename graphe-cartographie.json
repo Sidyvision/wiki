@@ -8859,6 +8859,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/ishrab-sharab",
+      "label": "Ishrab Sharāb — « Bois la boisson des gens de la pureté »",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "soufisme",
+        "qasida",
+        "hadra",
+        "dhikr",
+        "ahl-al-safa",
+        "sabr",
+        "poesie"
+      ],
+      "updated": "2026-09-14",
+      "chemin": "doctrinal/sources/ishrab-sharab.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/sources/islam-and-artificial-intelligence",
       "label": "Islam and Artificial Intelligence",
       "circuit": "doctrinal",
@@ -21682,6 +21703,48 @@
     {
       "source": "doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt",
       "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/symboles/tariqa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/symboles/wird-awrad",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/sources/awrad-ibn-arabi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/sources/dalail-al-khayrat-jazuli",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/sources/wazifa",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

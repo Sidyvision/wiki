@@ -15,7 +15,13 @@ created: 2026-09-14
 updated: 2026-09-14
 sources: ["to-source"]
 sources_count: 1
-cross_links: []
+cross_links:
+- '[[tasawwuf]]'
+- '[[tariqa]]'
+- '[[wird-awrad]]'
+- '[[awrad-ibn-arabi]]'
+- '[[dalail-al-khayrat-jazuli]]'
+- '[[wazifa]]'
 original: ["إِشْرَبْ شَرَابْ أَهْلِ الصَّفَا"]
 ---
 
@@ -104,15 +110,18 @@ Relevés, non tranchés (Cmd 12) — matériau du discernement :
    <span data-nom="madhhab-maliki" data-genre="ecole">mālikite</span> /
    <span data-nom="ahl-al-sunnah-wa-l-jamaa" data-genre="ecole">ahl al-sunna wa-l-jamāʿa</span>,
    l'écart est signalé et laissé ouvert.
-4. **`status: traditionnel` est posé par défaut, et attend le verdict de Sidy.** Le
+4. **`status: traditionnel` — verdict de Sidy du 2026-09-14 : confirmé.** La valeur
+   avait d'abord été posée par défaut, et le motif de la réserve est conservé ici parce
+   qu'il reste vrai de la règle, non du cas : le
    champ est obligatoire et son énumération ne comporte **aucune valeur neutre** : il a
    donc fallu inscrire quelque chose. L'amendement du 2026-07-28 invoqué à l'appui
    (« le statut qualifie la nature du contenu reproduit ») est **scopé `type: deviation`**
    et oppose le contenu au *sujet traité* ; l'étendre à une fiche `type: source` pour
    opposer le contenu au *véhicule* est une **extension, non une application**. Or
    `doctrinal/CLAUDE.md` interdit à la machine d'« en conclure une valeur de `status` »,
-   et « un précédent de dossier n'est pas une règle ». **La valeur est donc à confirmer
-   ou à corriger par Sidy** ; elle n'est pas acquise.
+   et « un précédent de dossier n'est pas une règle ». **La valeur ne vaut donc pas par
+   ce raisonnement, mais par le verdict** rendu le 2026-09-14 — et ce verdict ne fait
+   pas davantage précédent pour une autre fiche.
 
 ## Rattachement — signalé, non lié
 
@@ -134,10 +143,10 @@ régénéré.
 - `[[tasawwuf]]` — cadre général.
 - `[[tariqa]]` — la Voie, dont le poème chante la condition d'entrée.
 - `[[wird-awrad]]` — régime des litanies, registre voisin.
-- `[[dhikr]]` — le refrain *Allah Allah* comme support ; **cible absente du dépôt**, signalée à ce titre.
+- `[[dhikr]]` — le refrain *Allah Allah* comme support ; **cible absente du dépôt**, non inscrite.
 - `[[doctrinal/sources/awrad-ibn-arabi]]`, `[[doctrinal/sources/dalail-al-khayrat-jazuli]]`,
   `[[doctrinal/sources/wazifa]]` — fiches de matière liturgique comparables.
-- `[[sabr]]` — **cible absente du dépôt**, signalée à ce titre.
+- `[[sabr]]` — **cible absente du dépôt**, non inscrite.
 
 ## Double contrôle
 
