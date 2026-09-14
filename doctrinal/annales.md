@@ -8,6 +8,79 @@ updated: 2026-09-14
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-14] archivage | Qāmūs « The Language of the Future » — 10 pages versées, fiche source, 5 fiches de termes
+
+Suite directe de la passe *Ishrab Sharāb* du même jour. Sidy avait demandé sept liens
+depuis la qasida ; deux existaient déjà (`tasawwuf`, `tariqa`), cinq n'avaient **aucune
+fiche** — un lien mort ne se pose pas. Il a nommé la source de ses définitions, puis
+déposé onze coupures dans `raw/`.
+
+**Provenance — un point tenu sur deux niveaux.** Le lexique est publié par l'Al-Miraj Sufi
+Centre (Australie) ; le champ `author:` des onze coupures est **vide**. L'attribution à
+**Murshid F.A. Ali ElSenossi** vient de Sidy, en session, et elle est portée partout comme
+**son attestation du 2026-09-14** — jamais comme une donnée prise au document. Même
+mécanique que la note de variabilité de la qasida : la personne est la source, et elle est
+nommée comme telle.
+
+**Versement** (`textes/qamus-language-of-the-future/`) : **onze fichiers déposés, dix
+versés** — `single/518` (*himma*) l'avait été deux fois, les deux exemplaires étant
+identiques octet pour octet au `cmp`. Les dix versements sont eux-mêmes identiques octet
+pour octet à leur source. Nommage par identifiant de page du site
+(`qamus-0371-al-fuqara.md` ← `single/371`), ce qui rend la coupure retrouvable.
+
+**Une découverte qui a changé le plan.** La première coupure déposée (`single/633`,
+*ʿishq*) ne contenait **aucun** des termes demandés : chaque page du site porte une entrée
+principale **plus un bloc `See also:`** reproduisant une dizaine d'entrées voisines. Les
+dix pages portent ainsi **57 entrées distinctes**. C'est ce qui permet d'ouvrir `wajd`, qui
+n'a pas de page propre au dépôt : son texte figure dans trois blocs de renvoi, comparés
+chaîne à chaîne et **identiques**.
+
+**Cinq fiches ouvertes** en `doctrinal/symboles/` — `al-fuqara`, `shawq`, `sama`, `dhikr`,
+`wajd`. Chacune transcrit sa définition **verbatim depuis le fichier versé**, jamais depuis
+le collage de session, qui avait perdu les articles (« These are states » pour « These are
+**the** states »). Toutes portent **`original: ["to-original"]`** : les coupures donnent la
+translittération et la traduction, **jamais la forme arabe** — elle se prendra au texte.
+
+**Ce qui a été signalé sans être comblé** : les fautes du véhicule (`spritual`, `shawq is
+he need`), conservées telles quelles et données pour ce qu'elles sont — indices d'un
+véhicule non relu, non des variantes ; le *ḥadīth* de l'*iḥsān* cité sans chaîne dans
+l'entrée `shawq` ; un dire rapporté sans nom (« *One of the lovers of Allah said* ») ; le
+caractère disputé du samāʿ entre écoles, que l'entrée expose sans signaler qu'elle prend
+position ; l'absence de la distinction *wajd* / *tawājud*.
+
+**Pistes Jurjānī, signalées sans lever le marqueur** : l'index transcrit porte `faqr`
+(déf. **867, 1217, 1222**), `tamm al-faqr` (**867**) et `wajd` (**483, 870, 1798, 1799**).
+Ces définitions ne sont pas encore transcrites au dépôt — la confrontation appartient à
+Sidy, avec son exemplaire Gloton. `shawq`, `samāʿ` et `dhikr` sont **absents de l'index** :
+aucune piste à proposer, et le fait est dit plutôt que tu.
+
+**Écart au plan, déclaré** (Cmd 12). Le plan validé portait la réciprocité
+`[[ishrab-sharab]]` sur les fiches de termes. J'y ai **aussi** inscrit des liens de terme à
+terme — `shawq` ↔ `wajd`, `sama` ↔ `dhikr` ↔ `wajd`, et `tasawwuf` — que le plan ne
+nommait pas. Chacun est **porté par la définition reçue elle-même** (l'entrée `wajd` situe
+l'extase « *during the spiritual concert* » ; l'entrée `samāʿ` subordonne le concert à la
+*Remembrance* perpétuelle), non par un rapprochement de la machine. Ils restent néanmoins
+**inscrits sans verdict**, et se retirent sur un mot. `[[tarab]]`, dont la proximité avec
+`wajd` relève d'un jugement que nul texte reçu n'énonce, **n'a pas été inscrit** — il est
+proposé.
+
+**Six pages versées n'ouvrent aucune fiche** : `ʿishq`, `himma`, `al-mīthāq`,
+`ahl as-samāʿ`, `idhn`, `sulūk`. La matière est conservée et disponible ; le chantier n'est
+pas élargi d'office.
+
+**Double contrôle.** Joints : tous ***kari-kumi*** — source non vérifiée, et l'identification
+de la ḥaḍra où se chante la qasida au *samāʿ* de cette entrée n'est pas établie par le
+dépôt. Confrontation Gizeh : **confrontée, aucun ancrage** sur les six fiches.
+
+**Contrôles mécaniques.** Cmd 15 : **0** caractère invisible sur les 16 fichiers touchés.
+`verifier-invariants.py` : `1535 fichier(s) .md contrôlé(s)`, **`0 erreur(s), 71
+avertissement(s)`** — tous préexistants (C5/C6 sur d'autres pages), **aucun sur les
+fichiers de cette passe** (grep filtrant : 0 occurrence). Graphe régénéré : **2060 arêtes**
+(2018 avant), avertissements **inchangés à 182** — aucun lien mort introduit. La qasida
+**n'est plus orpheline** : de 0, elle passe à **6 liens entrants**.
+
+- **Commit** : `1247a32`
+
 ## [2026-09-14] restauration | Ishrab Sharāb — quatre relevés portés au texte de la fiche
 
 Passe de contrôle sur la fiche archivée le jour même (`0435137`), après relecture des

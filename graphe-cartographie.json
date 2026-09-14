@@ -9291,6 +9291,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/qamus-language-of-the-future",
+      "label": "Qāmūs — « The Language of the Future » (lexique soufi, Al-Miraj Sufi Centre)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "soufisme",
+        "lexicographie",
+        "terminologie",
+        "glossaire",
+        "qamus",
+        "coupure-web"
+      ],
+      "updated": "2026-09-14",
+      "chemin": "doctrinal/sources/qamus-language-of-the-future.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/sources/razi-noms-divins-ch18-khafid-rafi",
       "label": "Al-Rāzī, Traité sur les Noms divins — chapitre XVIII : al-Khāfiḍ (Celui-qui-abaisse) et al-Rāfiʿ (Celui-qui-élève)",
       "circuit": "doctrinal",
@@ -9724,6 +9744,26 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "doctrinal/symboles/al-fuqara",
+      "label": "Al-fuqarāʾ — les indigents, la pauvreté spirituelle",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "soufisme",
+        "faqr",
+        "pauvrete-spirituelle",
+        "murid",
+        "murshid",
+        "adab"
+      ],
+      "updated": "2026-09-14",
+      "chemin": "doctrinal/symboles/al-fuqara.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/symboles/al-insan-al-kamil",
       "label": "Al-Insān al-Kāmil",
       "circuit": "doctrinal",
@@ -10112,6 +10152,26 @@
       ],
       "updated": "2026-09-08",
       "chemin": "doctrinal/symboles/devayana-pitriyana.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/dhikr",
+      "label": "Dhikr — le Rappel, l'invocation",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "soufisme",
+        "dhikr",
+        "invocation",
+        "rappel",
+        "dhakir",
+        "souffle"
+      ],
+      "updated": "2026-09-14",
+      "chemin": "doctrinal/symboles/dhikr.md",
       "lacunes_to_source": 0
     },
     {
@@ -11052,6 +11112,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/symboles/sama",
+      "label": "Samāʿ — le concert spirituel, l'audition",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "soufisme",
+        "sama",
+        "audition",
+        "hadra",
+        "musique",
+        "ecstase"
+      ],
+      "updated": "2026-09-14",
+      "chemin": "doctrinal/symboles/sama.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/symboles/scarabee-egyptien",
       "label": "Le scarabée dans l'Égypte antique",
       "circuit": "doctrinal",
@@ -11086,6 +11166,26 @@
       "updated": "2026-09-13",
       "chemin": "doctrinal/symboles/shamharush.md",
       "lacunes_to_source": 1
+    },
+    {
+      "id": "doctrinal/symboles/shawq",
+      "label": "Shawq — le désir ardent du Bien-Aimé",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "soufisme",
+        "shawq",
+        "desir",
+        "amour-divin",
+        "etats-spirituels",
+        "hudur"
+      ],
+      "updated": "2026-09-14",
+      "chemin": "doctrinal/symboles/shawq.md",
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/shukr",
@@ -11600,6 +11700,26 @@
       ],
       "updated": "2026-09-08",
       "chemin": "doctrinal/symboles/wahdat-al-wujud.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/wajd",
+      "label": "Wajd — l'extase",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "soufisme",
+        "wajd",
+        "extase",
+        "etats-spirituels",
+        "jamal",
+        "jalal"
+      ],
+      "updated": "2026-09-14",
+      "chemin": "doctrinal/symboles/wajd.md",
       "lacunes_to_source": 0
     },
     {
@@ -21750,6 +21870,48 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/symboles/dhikr",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/symboles/sama",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/symboles/wajd",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/symboles/shawq",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/symboles/al-fuqara",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ishrab-sharab",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/islam-and-artificial-intelligence",
       "target": "doctrinal/autorites/yaqub-chaudhary",
       "champ": "cross_links",
@@ -22408,6 +22570,55 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/qamus-language-of-the-future",
+      "target": "doctrinal/symboles/al-fuqara",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/qamus-language-of-the-future",
+      "target": "doctrinal/symboles/shawq",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/qamus-language-of-the-future",
+      "target": "doctrinal/symboles/sama",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/qamus-language-of-the-future",
+      "target": "doctrinal/symboles/dhikr",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/qamus-language-of-the-future",
+      "target": "doctrinal/symboles/wajd",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/qamus-language-of-the-future",
+      "target": "doctrinal/sources/ishrab-sharab",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/qamus-language-of-the-future",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/razi-noms-divins-ch18-khafid-rafi",
       "target": "doctrinal/symboles/asma-al-husna",
       "champ": "cross_links",
@@ -22935,6 +23146,41 @@
     {
       "source": "doctrinal/symboles/adityas-mois-du-soleil",
       "target": "doctrinal/sources/guenon-roi-du-monde-ch10",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/al-fuqara",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/al-fuqara",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/al-fuqara",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/al-fuqara",
+      "target": "doctrinal/symboles/tariqa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/al-fuqara",
+      "target": "doctrinal/sources/ishrab-sharab",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -23551,6 +23797,55 @@
     {
       "source": "doctrinal/symboles/devayana-pitriyana",
       "target": "doctrinal/symboles/manvantara",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/dhikr",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/dhikr",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/dhikr",
+      "target": "doctrinal/symboles/wird-awrad",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/dhikr",
+      "target": "doctrinal/symboles/sama",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/dhikr",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/dhikr",
+      "target": "doctrinal/symboles/tariqa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/dhikr",
+      "target": "doctrinal/sources/ishrab-sharab",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -24837,6 +25132,48 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/sama",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/sama",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/sama",
+      "target": "doctrinal/symboles/wajd",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/sama",
+      "target": "doctrinal/symboles/dhikr",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/sama",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/sama",
+      "target": "doctrinal/sources/ishrab-sharab",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/scarabee-egyptien",
       "target": "doctrinal/symboles/ashhab",
       "champ": "cross_links",
@@ -24895,6 +25232,41 @@
     {
       "source": "doctrinal/symboles/shamharush",
       "target": "doctrinal/autorites/charles-andre-gilis",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shawq",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shawq",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shawq",
+      "target": "doctrinal/symboles/wajd",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shawq",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/shawq",
+      "target": "doctrinal/sources/ishrab-sharab",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -25462,6 +25834,48 @@
     {
       "source": "doctrinal/symboles/wahdat-al-wujud",
       "target": "doctrinal/symboles/hadarat-khams",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/wajd",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/wajd",
+      "target": "doctrinal/sources/qamus-language-of-the-future",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/wajd",
+      "target": "doctrinal/symboles/sama",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/wajd",
+      "target": "doctrinal/symboles/shawq",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/wajd",
+      "target": "doctrinal/traditions/tasawwuf",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/wajd",
+      "target": "doctrinal/sources/ishrab-sharab",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
