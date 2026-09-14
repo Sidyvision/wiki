@@ -8,6 +8,52 @@ updated: 2026-09-14
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-14] restauration | Ishrab Sharāb — quatre relevés portés au texte de la fiche
+
+Passe de contrôle sur la fiche archivée le jour même (`0435137`), après relecture des
+étapes 1 et 3 de `protocoles/action-archivage.md` qui n'avaient pas été tenues jusqu'au
+bout. Quatre gestes, aucun d'eux n'étant un verdict :
+
+1. **Assertion fausse sur l'original, corrigée.** Le point de vigilance 3 affirmait
+   qu'`al-mawlā` « n'est pas déterminé » dans la strophe 4. Retour au texte
+   (`raw/Ishrab Sharab.md`, l. 34) : la forme y est **بِالْمَوْلَى**, article compris.
+   Le point juste — et il tient — est que **l'arabe ne nomme personne** : le référent
+   reste implicite, et la glose « (Ali) » du blog demeure un ajout du traducteur que le
+   texte ne porte pas. Une fiche dont tout l'objet est la précision sur l'original ne
+   pouvait pas porter une erreur sur l'original.
+2. **`status` : la valeur est déclarée posée, non conclue.** Le plan présenté à Sidy
+   disait en toutes lettres ne proposer aucune valeur ; la fiche en portait une,
+   `traditionnel`, justifiée par l'amendement du 2026-07-28. Or cet amendement est
+   **scopé `type: deviation`** et oppose le contenu reproduit au *sujet traité* ;
+   l'étendre à une fiche `type: source` pour opposer le contenu au *véhicule* est une
+   extension, non une application — et `doctrinal/CLAUDE.md` ferme les deux portes
+   (« n'en conclut pas une valeur de `status` » ; « un précédent de dossier n'est pas une
+   règle »). Le point de vigilance 4 est réécrit pour dire que l'énumération n'a **aucun
+   membre neutre**, qu'il a donc fallu inscrire quelque chose, et que **le verdict
+   appartient à Sidy** (Cmd 12).
+3. **Cible absente signalée.** `[[dhikr]]` était proposé sans signalement ; vérification
+   faite (`ls doctrinal/symboles doctrinal/traditions doctrinal/sources`), aucune fiche
+   ne le porte. Il est signalé comme cible absente au même titre que `[[sabr]]`. Les six
+   autres cibles proposées existent — vérifiées une à une, non supposées.
+4. **`sources_count` porté de 0 à 1.** Le Sceau définit l'entier comme la **longueur de
+   la liste** ; les fiches `to-source` du dépôt (`jivatma`, `ilm-al-awfaq`, `tomoe`)
+   portent toutes 1. L'écart n'était pas attrapé par la garde — relevé, non déduit d'un
+   vert.
+
+**Étape 1 de l'archivage, enfin tenue — consultation du graphe** :
+`graphe-cartographie.json` (2012 arêtes) donne **0 lien entrant et 0 lien sortant** sur
+la fiche. Elle est **orpheline du graphe par construction**, `cross_links` étant tenu
+vide jusqu'au verdict sur les sept liens proposés ; la régénération
+(`atelier/rd/outillage/graphe/generer-cartographie.py`, chemin vérifié présent) n'aura
+lieu qu'après ce verdict.
+
+**Contrôles** : Cmd 15 — aucun caractère invisible. `verifier-invariants.py` —
+`1519 fichier(s) .md contrôlé(s)`, **`0 erreur(s), 71 avertissement(s)`**, tous
+préexistants (C5/C6, étanchéité inversée sur d'autres pages) ; **aucun ne porte sur
+cette fiche** (grep filtrant : 0 occurrence).
+
+- **Commit** : `f7d8bf1`
+
 
 ## [2026-09-14] archivage | Ishrab Sharāb — « Bois la boisson des gens de la pureté »
 
