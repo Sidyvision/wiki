@@ -9,6 +9,21 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] archivage | Zéphyr — fiche créée par recherche machine, `to-source` et `to-original`
+
+- Consigne de Sidy : fiche pour l'entité « Zéfir » ; identité précisée en session (Zéphyr, dieu grec
+  du vent d'ouest), plan validé (« je valide l'ensemble »).
+- Relevé préalable : **aucune** occurrence au dépôt (circuits, `textes/`, `raw/`, `_inbox/`).
+- **Créé** : [[doctrinal/symboles/zephyr]] (`symbole`, `academique`, `hellenisme`). Éléments
+  mythographiques rattachés à l'œuvre (Hésiode, Homère, Ovide, Apulée), sans référence de vers ;
+  forme grecque non restituée (`original: ["to-original"]`). Double contrôle : joint *kari-kumi*
+  entre les vents cardinaux ; Gizeh confronté, aucun ancrage (figure cardinale, non polaire).
+- Signalement : *Iliade* détenue physiquement, vérifiable par Sidy ; Hésiode, Ovide, Apulée
+  proposés à l'acquisition. Liens proposés, non inscrits : `poseidon`, `atlantide`, `platon`.
+- Recensé : `doctrinal/index.md`, section « Symbolisme comparé ».
+- Contrôles : invariants 0 erreur / 71 avertissements (inchangé, aucun sur la fiche) ; Cmd 15 propre.
+- **Commit** : 7826e57
+
 ## [2026-09-15] restauration | Convention des sources : `sources: []` → `to-source` ; sources de René Guénon
 
 - Verdicts de Sidy sur le rapport Publication du 2026-09-15 (point 5 et question Guénon) : « oui ».
