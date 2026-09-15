@@ -9,6 +9,16 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] verdict | Statut `profane` validé pour ʿAbduh, Riḍā et al-Afghānī
+
+- **Verdict de Sidy** : « oui, je valide le statut profane ».
+- [[doctrinal/references/muhammad-abduh]], [[doctrinal/references/rashid-rida]],
+  [[doctrinal/references/al-afghani]] : l'avertissement « statut proposé, non tranché » remplacé par
+  la mention du verdict ; rubrique du Catalogue mise à jour. Sources primaires toujours `to-source`.
+- Contrôles : validateur sans refus sur `references/`, S2 muet ; invariants 0 erreur / 71
+  avertissements.
+- **Commit** : d90f79c
+
 ## [2026-09-15] restauration | Type neutre « référence » : quatre fiches reclassées en `references/`
 
 - **Verdict de Sidy** sur la proposition du type « référence » : « 1. Confirmé 2. Oui 3. Oui 4. Plus
