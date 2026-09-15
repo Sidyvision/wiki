@@ -105,7 +105,8 @@ meilleure, depuis un témoin nommé.
    second hémistiche est **rejeté hors de la ligne de titre**, et il est **amputé de
    son premier caractère**. Collationné le 2026-09-15 sur 維基文庫 (zh.wikisource.org,
    西遊記) : le titre reçu est `聖僧夜阻通天水　金木垂慈救小童` — le `金` manque.
-   C'est le seul 回 dont le titre soit atteint dans sa lettre.
+   C'est le titre le plus gravement atteint, **non le seul** : la collation ci-dessous
+   en relève quatre autres qui perdent de la matière.
 
 2. **第一三回 — double espace.** La ligne de titre porte **deux** U+3000 entre les
    hémistiches là où le témoin Wikisource n'en porte qu'un. Écart de blanc, sans
@@ -121,11 +122,50 @@ meilleure, depuis un témoin nommé.
 vers ou de paragraphe repliés — la source justifie à 35 caractères (11 096 lignes de
 cette largeur). Inspectées une à une : rien d'amputé.
 
-**Portée de ce relevé** : il porte sur les **titres** des 100 回, collationnés, et sur
-les anomalies de structure détectables par mesure. Le **corps** du texte n'a été
-collationné avec aucun témoin — un défaut de la nature de celui du 第四七回 peut s'y
-trouver sans que rien ne le signale. C'est la limite exacte de cette conversion, et le
-motif de la réserve ci-dessus sur l'édition.
+## Collation des 100 titres (2026-09-15)
+
+**Témoin** : 維基文庫 (zh.wikisource.org), page `西遊記`, wikitexte brut obtenu par
+`curl` et dépouillé par script — les lectures variantes qu'il porte en gabarit
+`{{另|A|B}}` sont développées et **toutes** admises. Aucun modèle dans la boucle.
+
+**Résultat brut : 87 titres sur 100 identiques à une lecture du témoin, 13 écarts.**
+
+| 回 | Dépôt (Gutenberg) | Témoin (維基文庫) | Nature mécanique |
+|---|---|---|---|
+| 18 | 高老莊大聖除魔 | 高老莊行者降魔 | hémistiche entier différent |
+| 36 | 劈破傍門見月明 | 劈破旁門見月明 | substitution, même longueur |
+| 39 | 一粒丹砂天上得 | 一粒金丹天上得 | substitution, même longueur |
+| 42 | 大聖慇懃拜南海 | 大聖慇勤拜南海 | substitution, même longueur |
+| 47 | 聖僧夜阻通天水 | 聖僧夜阻通天水　金木垂慈救小童 | **8 caractères tombés** |
+| 52 | 悟空大鬧金洞 | 悟空大鬧金兜洞 | **`兜` tombé** |
+| 56 | 道迷放心猿 | 道昧放心猿 | substitution, même longueur |
+| 62 | 縛魔歸主乃修身 | 縛魔歸正乃修身 | substitution, même longueur |
+| 71 | 行者假名降怪 ／ 觀音現像伏妖王 | 行者假名降怪犼 ／ 觀音現象伏妖王 | **`犼` tombé** + substitution `像`/`象` |
+| 75 | 心猿鑽透陰陽體 | 心猿鑽透陰陽竅 | substitution, même longueur |
+| 80 | 女育陽求配偶 | 姹女育陽求配偶 | **`姹` tombé** |
+| 87 | 孫大圣勸善施霖 | 孫大聖勸善施霖 | **caractère simplifié** `圣` pour `聖` |
+| 97 | 金酬外護遭魔蟄 | 金酬外護遭魔毒 | substitution, même longueur |
+
+**Ce que la mesure établit, et ce qu'elle ne tranche pas.** Elle établit qu'en cinq
+endroits la source **perd de la matière** — 回 47, 52, 71, 80 (caractères absents) et
+回 87 (forme simplifiée dans une édition traditionnelle). Les substitutions de même
+longueur, elles, peuvent être des **lectures de recension** légitimes autant que des
+fautes : la machine les rapporte, elle ne les arbitre pas (Cmd 12). Le verdict
+appartient à qui dispose d'un témoin nommé.
+
+**Caractères simplifiés dans tout le corpus** : deux, `圣` et `万`, tous deux au
+`xiyouji-hui-087.md` — relevé exhaustif par balayage des 100 fichiers.
+
+**Portée de ce relevé** : il porte sur les **titres**, désormais collationnés un à un,
+et sur les anomalies de structure détectables par mesure. Le **corps** du texte n'a été
+collationné avec **aucun** témoin — et la collation des titres montre que ce n'est pas
+une précaution de style : une édition qui laisse tomber `姹`, `犼` et `兜` dans ses
+titres peut en laisser tomber ailleurs sans que rien ne le signale. C'est la limite
+exacte de cette conversion, et le motif de la réserve ci-dessus sur l'édition.
+
+**Contrôle de la queue du texte** : le garde-fou G4 protège le prélude, rien ne protège
+ce qui suivrait le dernier 回. Vérifié à la main : `xiyouji-hui-100.md` s'achève sur
+`《西遊記》至此終。` et ne porte **aucune** mention de Gutenberg ni ligne de crédit.
 
 ## Table des 100 回
 Titres reproduits **tels que la source les porte** ; `／` figure l'espace

@@ -368,10 +368,14 @@ jusqu'à l'espace initiale parasite du titre du 第八三回.
 ligne non vide à ligne non vide contre la source — 23 387 lignes, **0 écart de contenu** ;
 Cmd 15 propre.
 
-**Défaut de l'édition, constaté et non corrigé** : le titre du 第四七回 est mutilé dans
-la transcription Gutenberg — second hémistiche rejeté hors de la ligne de titre et
-amputé de son `金` (`木垂慈救小童` pour `金木垂慈救小童`), collationné sur 維基文庫. Les
-100 titres ont été collationnés ; **le corps ne l'a été avec aucun témoin**.
+**Défauts de l'édition, constatés et non corrigés.** Les 100 titres ont été collationnés
+par script sur 維基文庫 (wikitexte brut, lectures variantes développées) : **87 identiques,
+13 écarts**. Cinq sont des pertes de matière — 回 47 (second hémistiche rejeté hors de la
+ligne de titre et amputé de son `金`), 回 52 (`兜`), 回 71 (`犼`), 回 80 (`姹`), et 回 87 qui
+porte le caractère **simplifié** `圣` dans une édition traditionnelle. Les huit autres sont
+des substitutions de même longueur, que la machine rapporte sans les arbitrer (Cmd 12).
+**Le corps du texte, lui, n'a été collationné avec aucun témoin** — et les titres montrent
+que cette réserve n'est pas de style.
 
 **Réserve** : Gutenberg ne déclare pas son édition de base — ce n'est pas une édition
 critique identifiable. Détail et relevé complet des défauts :
