@@ -30,6 +30,23 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] Suite — le pre-commit est aligné : les trois portes appellent le même instrument
+
+- **Suite de l'entrée précédente** (« Le garde-fou du push ne voyait que les `.md` », non
+  réécrite — append-only), qui laissait le `pre-commit` ouvert.
+- **Résolution** : `hooks/pre-commit` réécrit (`b200d95`) : il passe la liste **explicite** des
+  fichiers indexés (séparés par NUL) à `verifier-hygiene-unicode.py` au lieu de filtrer
+  `\.(md|yaml|yml|json)$` et de balayer avec sa propre expression. Réinstallé par
+  `installer-hooks.sh` (ancien conservé, horodaté). **Épreuve** (clone jetable) : `.py` piégé →
+  ancien hook **accepté**, nouveau **refusé** ; fichier piégé au nom à espaces et accent →
+  **refusé** (noms intacts) ; `.md` sain → accepté. Le commit `b200d95` lui-même est passé par le
+  nouveau hook (« PROPRE »).
+- **Écart déclaré** : le pre-commit lit le fichier **sur disque**, non le seul contenu indexé —
+  comme sa version précédente ; le pre-push et le CI voient, eux, ce qui part réellement.
+- **Compréhension tirée** : celle de l'entrée précédente — commit, push et CI appellent désormais
+  un seul instrument.
+- **Statut** : `resolu` (l'entrée précédente avec elle, sur ce point).
+
 ## [2026-09-15] Le garde-fou du push ne voyait que les `.md` — trois scripts piégés sont passés
 
 - **Symptôme** : trois scripts `.py` de la passe al-Munqidh (`convertir-jabre-munqidh.py`,

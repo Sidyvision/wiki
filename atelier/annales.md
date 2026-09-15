@@ -10,6 +10,17 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/outillage | Pre-commit aligné sur le pre-push et le CI (hygiène Unicode)
+
+- Verdict de Sidy (« oui, aligne aussi le pre-commit »). `hooks/pre-commit` appelle
+  `verifier-hygiene-unicode.py` sur la liste explicite des fichiers indexés (tous formats texte),
+  au lieu de son filtre `md|yaml|yml|json` et de sa propre expression. Réinstallé, ancien conservé.
+- **Épreuve** (clone jetable) : `.py` piégé → ancien hook accepté, nouveau **refusé** ; nom à
+  espaces et accent → **refusé** ; `.md` sain → accepté.
+- Commit, push et CI appellent désormais le même instrument. Journalisé au R&D (registre des
+  problèmes, ligne OUT-16).
+- **Commit** : b200d95
+
 ## [2026-09-15] rd/outillage | Garde-fou du push et CI : l'hygiène Unicode passe par l'instrument OUT-16
 
 - Verdict de Sidy (« oui, étends le contrôle du push et journalise au R&D »).
