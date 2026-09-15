@@ -13,7 +13,7 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `vers` | VERS, Vers, vers | — | — | titre | **335 fiches** | LISEZ-MOI.md +251 | 1653 |
-| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **343 fiches** | LISEZ-MOI.md +13 | 1313 |
+| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **344 fiches** | LISEZ-MOI.md +13 | 1314 |
 | `vigilance` | VIGILANCE, Vigilance, vigilance | — | — | definition, table, tag, titre | **188 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +40 | 529 |
 | `verification` | VÉRIFICATION, Vérification, verification, vérification | — | ⚖ hindouisme | definition, table, tag | **203 fiches** | LISEZ-MOI.md +7 | 512 |
 | `veille` | VEILLE, Veille, veille | — | — | table, tag, titre | **94 fiches** | LISEZ-MOI.md +19 | 491 |

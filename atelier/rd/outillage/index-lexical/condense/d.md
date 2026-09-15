@@ -14,8 +14,8 @@ links: []
 |---|---|---|---|---|---|---|---|
 | `dream` | DREAM, Dream, dream | — | — | table | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[meta/personnel/sidy]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +28 | 13006 |
 | `deux` | DEUX, Deux, deux | — | — | table, titre | **488 fiches** | LISEZ-MOI.md +487 | 6627 |
-| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **397 fiches** | LISEZ-MOI.md +19 | 2093 |
-| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **466 fiches** | 14-o.md +47 | 2002 |
+| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **398 fiches** | LISEZ-MOI.md +19 | 2094 |
+| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **467 fiches** | 14-o.md +47 | 2004 |
 | `doctrine` | DOCTRINE, Doctrine, doctrine | — | — | table, titre | **261 fiches** | 08-h.md +251 | 1531 |
 | `degre` | DEGRÉ, Degre, Degré, degre (+1) | — | — | table, titre | **158 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +251 | 1464 |
 | `degres` | DEGRÉS, Degres, Degrés, degres (+1) | — | — | table, tag, titre | **164 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +197 | 1301 |
@@ -53,7 +53,7 @@ links: []
 | `dome` | Dome, Dôme, dome, dôme | — | — | table, tag, titre | **22 fiches** | chapitre-xiii-l-athanor-titus-burckartt.md +24 | 177 |
 | `deploiement` | Déploiement, deploiement, déploiement | — | — | table, titre | **70 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +21 | 176 |
 | `dimensions` | Dimensions, dimensions | — | — | tag | **28 fiches** | 07-g.md +58 | 173 |
-| `doctrinales` | doctrinales | — | — | titre | **77 fiches** | LISEZ-MOI.md +15 | 168 |
+| `doctrinales` | doctrinales | — | — | titre | **78 fiches** | LISEZ-MOI.md +15 | 169 |
 | `devotion` | Devotion, Dévotion, devotion, dévotion | — | — | tag | [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/dalail-al-khayrat-jazuli]] · [[doctrinal/symboles/animaux-en-reve-comparatisme]] · [[doctrinal/symboles/marcher-sur-eau-en-reve]] · [[meta/projet-unifie/directive-discernement-domaines]] | 00-front-matter.md +45 | 161 |
 | `desir` | Désir, desir, désir | — | — | table, titre | **26 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +37 | 159 |
 | `dualite` | Dualité, dualite, dualité | — | — | table, tag | **22 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-8.md +53 | 155 |
@@ -66,7 +66,7 @@ links: []
 | `don` | DON, Don, don | — | — | titre | **34 fiches** | 17-t.md +20 | 105 |
 | `decisions` | Décisions, decisions, décisions | — | — | table, tag | **52 fiches** | 16-s.md +4 | 103 |
 | `djinns` | Djinns, djinns | — | — | table, titre | **19 fiches** | LISEZ-MOI.md +3 | 103 |
-| `deprecated` | deprecated | — | — | tag | **25 fiches** | — | 101 |
+| `deprecated` | deprecated | — | — | tag | **26 fiches** | — | 101 |
 | `devas` | Devas, Dévas, Dêvas, Dêvâs (+2) | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]] · [[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]] | 16-s.md +31 | 98 |
 | `divergence` | Divergence, divergence | — | ⚖ universel | definition, table | **55 fiches** | contre-le-melange-des-formes-traditionnelles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +11 | 95 |
 | `demarche` | Démarche, démarche | — | — | titre | **54 fiches** | LISEZ-MOI.md +5 | 92 |

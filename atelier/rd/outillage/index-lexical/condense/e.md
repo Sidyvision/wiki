@@ -66,7 +66,7 @@ links: []
 | `echecs` | Échecs, échecs | — | — | titre | **14 fiches** | les-antecedents-de-mme-besant-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +2 | 24 |
 | `eschatologie` | Eschatologie, eschatologie | — | ✓ islam | tag, titre | **20 fiches** | — | 24 |
 | `etat du depot percu` | État du dépôt perçu | — | — | definition | [[meta/projet-unifie/choura/cycle-2026-08-28]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/choura/cycle-2026-08-31]] · [[meta/projet-unifie/choura/cycle-2026-09-01]] | — | 24 |
-| `emplacement` | Emplacement, emplacement | — | — | table | **17 fiches** | la-puissance-du-serpent.md +1 | 22 |
+| `emplacement` | Emplacement, emplacement | — | — | table | **18 fiches** | la-puissance-du-serpent.md +1 | 23 |
 | `exoterisme` | Exotérisme, exotérisme | — | — | table | [[atelier/rd/registre-chantiers]] · [[meta/carte-du-depot]] | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 22 |
 | `exploratoire` | exploratoire | — | — | titre | **11 fiches** | — | 22 |
 | `eckstein` | Eckstein | — | — | table, titre | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/eckstein-porte-du-ciel]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/bibliotheque/sommaire-porte-du-ciel]] · [[atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument]] · +3 | symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon-3.md | 21 |

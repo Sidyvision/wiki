@@ -4884,6 +4884,29 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/autorites/al-afghani",
+      "label": "Jamāl al-Dīn al-Afghānī",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "profane",
+      "tradition_cadre": "islam",
+      "tags": [
+        "reformisme",
+        "modernisme-islamique",
+        "panislamisme",
+        "anti-imperialisme",
+        "al-urwa-al-wuthqa",
+        "al-radd-ala-al-dahriyyin",
+        "muhammad-abduh",
+        "renan",
+        "franc-maconnerie"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "doctrinal/autorites/al-afghani.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/autorites/al-ghazali",
       "label": "Al-Ghazālī",
       "circuit": "doctrinal",
@@ -15933,6 +15956,27 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/autorites/al-afghani",
+      "target": "doctrinal/autorites/muhammad-abduh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/al-afghani",
+      "target": "doctrinal/autorites/rashid-rida",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/al-afghani",
+      "target": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/autorites/al-ghazali",
       "target": "doctrinal/sources/islam-and-artificial-intelligence",
       "champ": "sources",
@@ -16480,6 +16524,13 @@
     },
     {
       "source": "doctrinal/autorites/muhammad-abduh",
+      "target": "doctrinal/autorites/al-afghani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/muhammad-abduh",
       "target": "doctrinal/autorites/rashid-rida",
       "champ": "cross_links",
       "nature": "lien",
@@ -16698,6 +16749,13 @@
     {
       "source": "doctrinal/autorites/rashid-rida",
       "target": "doctrinal/autorites/muhammad-abduh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rashid-rida",
+      "target": "doctrinal/autorites/al-afghani",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

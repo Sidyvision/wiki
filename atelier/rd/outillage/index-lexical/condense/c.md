@@ -18,7 +18,7 @@ links: []
 | `correspondance` | CORRESPONDANCE, Correspondance, correspondance | — | — | table, tag | **172 fiches** | LISEZ-MOI.md +477 | 1239 |
 | `ciel` | CIEL, Ciel, ciel | — | — | table, titre | **90 fiches** | initiation-sacerdotale-et-initiation-royale-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +142 | 911 |
 | `cycle` | CYCLE, Cycle, cycle | — | — | table, tag, titre | **120 fiches** | 10-j.md +174 | 856 |
-| `contenu` | Contenu, contenu | — | — | table | **286 fiches** | index-conversion.md +91 | 809 |
+| `contenu` | Contenu, contenu | — | — | table | **287 fiches** | index-conversion.md +91 | 810 |
 | `conscience` | CONSCIENCE, Conscience, conscience | — | — | table, tag | **56 fiches** | 04-d.md +152 | 799 |
 | `claude` | CLAUDE, Claude, claude | — | ⚖ universel | definition, table, tag, titre | **170 fiches** | LISEZ-MOI.md +2 | 730 |
 | `compte` | Compte, compte, compté | — | — | titre | **119 fiches** | LISEZ-MOI.md +294 | 722 |
@@ -190,6 +190,7 @@ links: []
 | `confusion-psychique-spirituel` | confusion-psychique-spirituel | — | — | tag | **11 fiches** | — | 11 |
 | `consoles` | consoles | — | — | titre | [[atelier/etudes-de-cas/dougong-consoles-bois]] · [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 11 |
 | `corancez` | Corancez, corancez | — | — | annotation, table, tag, titre | [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 11 |
+| `curt` | Curt, curt | — | — | titre | [[doctrinal/autorites/curt-jaimungal]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | LISEZ-MOI.md +2 | 10 |
 | `chand` | Chand, Chând | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | iv.md +1 | 9 |
 | `changelog` | Changelog, changelog | — | — | tag, titre | [[atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise]] · [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/plan]] · [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/plan]] · [[meta/carte-du-depot-meta]] · +3 | — | 9 |
 | `ce qui est institue` | Ce qui est institué | — | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 8 |
@@ -404,5 +405,5 @@ links: []
 | `crochet phase 5` | Crochet Phase 5 | — | — | definition | [[atelier/rd/instrument/spec-anneau-zodiacal]] | — | 0 |
 | `ctx-effect` | ctx-effect | — | — | tag | [[atelier/rd/veille/cordis/methodes]] | — | 0 |
 | `curiosite-personnelle` | curiosite-personnelle | — | — | tag | [[meta/personnel/2026-06-20_noms-symboles-financiers]] | — | 0 |
-| `curt-jaimungal` | curt-jaimungal | — | — | tag | [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | — | 0 |
+| `curt-jaimungal` | curt-jaimungal | — | ✓ none | tag | [[doctrinal/autorites/curt-jaimungal]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | — | 0 |
 | `cycles-ibn-arabi` | cycles-Ibn-Arabi | — | — | tag | [[doctrinal/sources/mahdi-rouge-islam-signe-balance-II]] | — | 0 |

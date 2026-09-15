@@ -13,9 +13,9 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **511 fiches** | LISEZ-MOI.md +10 | 2928 |
-| `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **541 fiches** | LISEZ-MOI.md +170 | 2615 |
+| `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **542 fiches** | LISEZ-MOI.md +170 | 2616 |
 | `symbolisme` | SYMBOLISME, Symbolisme, symbolisme | — | — | table, tag, titre | **137 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +325 | 1918 |
-| `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **409 fiches** | LISEZ-MOI.md +62 | 1529 |
+| `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **410 fiches** | LISEZ-MOI.md +62 | 1530 |
 | `science` | SCIENCE, Science, science | — | — | table, titre | **148 fiches** | LISEZ-MOI.md +300 | 1492 |
 | `symboles` | SYMBOLES, Symboles, symboles | — | — | table, titre | **242 fiches** | LISEZ-MOI.md +202 | 1190 |
 | `shinto` | Shinto, Shintō, shinto, shintô (+1) | `神道` | ✓ shintoisme | annotation, table, tag, titre, translit | **18 fiches** | LISEZ-MOI.md +25 | 1100 |

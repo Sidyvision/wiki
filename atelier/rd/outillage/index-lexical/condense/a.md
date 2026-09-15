@@ -35,7 +35,7 @@ links: []
 | `architecture` | ARCHITECTURE, Architecture, architecture | — | — | table, tag, titre | **88 fiches** | 00-front-matter.md +17 | 251 |
 | `agni` | Agni | — | — | table | **10 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +42 | 245 |
 | `apercus` | Aperçus, aperçus | — | — | table, titre | **42 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +93 | 238 |
-| `annales` | Annales, annales | — | — | table, tag | **85 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +9 | 229 |
+| `annales` | Annales, annales | — | — | table, tag | **86 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +9 | 230 |
 | `academique` | Académique, academique, académique | — | — | tag, titre | **55 fiches** | isaghuji-cours01-introduction-transcription.md | 227 |
 | `adam` | Adam, adam, aʿdâm, Ādam (+1) | — | — | table, titre, translit | **51 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +41 | 214 |
 | `acces` | Accès, acces, accès | — | — | definition, table, titre | **88 fiches** | LISEZ-MOI.md +30 | 211 |
@@ -534,6 +534,7 @@ links: []
 | `akira` | Akira | — | — | table, titre | [[hermeneutique/auteurs/akira-toriyama]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | — | 5 |
 | `al-abd` | al-ʿabd | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/walaya]] | — | 5 |
 | `al-adl` | al-ʿAdl, al-ʿadl | — | — | translit | [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/ilm-al-awfaq]] · [[doctrinal/symboles/imams-noms-divins]] | — | 5 |
+| `al-afghani` | al-Afghānī, al-afghani | — | *arabe* | annotation, tag, translit | [[doctrinal/autorites/muhammad-abduh]] | — | 5 |
 | `al-ahkam` | al-Ahkäm, al-ahkäm, al-aḥkâm, al-aḥkām | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/imams-noms-divins]] | osman-yahya-03-chapitre-02.md +2 | 5 |
 | `al-akhdari` | al-Akhḍarī | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/traditions/madhhab-maliki]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] · [[meta/projet-unifie/propositions/proposition-pole-usul-2026-08-27]] | — | 5 |
 | `al-arab` | al-ʿArab, al-ʿarab | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/carte-du-depot]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | — | 5 |
@@ -590,7 +591,6 @@ links: []
 | `ahsan` | ahsan, aḥsan | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/malamatiyah-futuhat-ch23]] | osman-yahya-08-repertoire.md +1 | 4 |
 | `ajiba` | Ajiba, ʿAjîba, ʿAjība | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/hasbiyallah-rabbani]] · [[meta/journal/2026-06-18-entretien-integral]] | sciences-traditionnelles-et-modernite-pdf-soufisme.md | 4 |
 | `ajnavaha` | Ajnâvahâ, Ajñāvahā | — | — | translit | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] | la-puissance-du-serpent.md | 4 |
-| `al-afghani` | al-Afghānī, al-afghani | — | — | annotation, tag, translit | [[doctrinal/autorites/muhammad-abduh]] | — | 4 |
 | `al-ajal` | al-ʿajal | — | — | titre, translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/carte-du-depot]] | — | 4 |
 | `al-anni` | al-annî, al-annī | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
 | `al-asaba` | al-ʿaṣaba | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | — | 4 |

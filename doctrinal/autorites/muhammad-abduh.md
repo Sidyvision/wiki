@@ -8,7 +8,7 @@ created: 2026-09-15
 updated: 2026-09-15
 sources: ["to-source"]
 sources_count: 1
-cross_links: ["[[doctrinal/autorites/rashid-rida]]", "[[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]"]
+cross_links: ["[[doctrinal/autorites/al-afghani]]", "[[doctrinal/autorites/rashid-rida]]", "[[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]"]
 original: ["محمد عبده"]
 ---
 
@@ -28,7 +28,7 @@ original: ["محمد عبده"]
 ## Identité
 
 Réformiste égyptien (1849-1905), figure fondatrice du modernisme islamique. Disciple de
-<span data-nom="al-afghani" data-genre="autorite">Jamāl al-Dīn al-Afghānī</span>, qu'il rencontre à al-Azhar en 1872. Grand Mufti d'Égypte de 1899 à sa
+<span data-nom="al-afghani" data-genre="autorite">Jamāl al-Dīn al-Afghānī</span> ([[doctrinal/autorites/al-afghani]]), qu'il rencontre à al-Azhar en 1872. Grand Mufti d'Égypte de 1899 à sa
 mort.
 
 ## Faits

@@ -8,7 +8,7 @@ created: 2026-09-15
 updated: 2026-09-15
 sources: ["to-source"]
 sources_count: 1
-cross_links: ["[[doctrinal/autorites/muhammad-abduh]]", "[[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]"]
+cross_links: ["[[doctrinal/autorites/muhammad-abduh]]", "[[doctrinal/autorites/al-afghani]]", "[[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]"]
 original: ["محمد رشيد رضا"]
 ---
 
