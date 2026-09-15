@@ -351,6 +351,32 @@ antagoniste. YouTube, Piped et Invidious refusant le serveur, l'audio a été ob
 **on ne corrige pas**. Détail, termes défigurés et repères horodatés :
 `jaimungal-consciousness-irreducibility-local-to-global/index-conversion.md`.
 
+## Versement du 2026-09-15 — *Xī Yóu Jì* 西遊記 (Wú Chéng'ēn), chinois traditionnel
+
+Roman du XVIᵉ siècle, domaine public, dans la transcription **Project Gutenberg n° 23962**
+(UTF-8, caractères traditionnels), déposée dans `raw/` le 2026-09-15 avec son `.epub`.
+Verdict de Sidy : « une édition chinoise traditionnel en priorité », puis « un fichier
+par 回 ». Versé dans `xi-you-ji-wu-chengen-traditionnel/` — **100 fichiers**, un par
+chapitre, par `atelier/rd/outillage/convertir-xiyouji-gutenberg.py` (déterministe,
+rapport seul par défaut, quatre garde-fous **vus refuser** sur cas fabriqués).
+
+**Retiré** : l'en-tête et le pied Gutenberg (19 184 caractères) — couche de diffusion,
+non l'œuvre, même motif que les contrôles bidi de l'Ihyâ'. **Conservé tel quel** :
+jusqu'à l'espace initiale parasite du titre du 第八三回.
+
+**Vérifications** : 100 回 numérotés de 1 à 100 sans lacune ni doublon ; comparaison
+ligne non vide à ligne non vide contre la source — 23 387 lignes, **0 écart de contenu** ;
+Cmd 15 propre.
+
+**Défaut de l'édition, constaté et non corrigé** : le titre du 第四七回 est mutilé dans
+la transcription Gutenberg — second hémistiche rejeté hors de la ligne de titre et
+amputé de son `金` (`木垂慈救小童` pour `金木垂慈救小童`), collationné sur 維基文庫. Les
+100 titres ont été collationnés ; **le corps ne l'a été avec aucun témoin**.
+
+**Réserve** : Gutenberg ne déclare pas son édition de base — ce n'est pas une édition
+critique identifiable. Détail et relevé complet des défauts :
+`xi-you-ji-wu-chengen-traditionnel/index-conversion.md`.
+
 ## Ce qui reste ouvert
 
 Le **régime des futurs** textes convertis — passent-ils encore par `raw/`, ou
