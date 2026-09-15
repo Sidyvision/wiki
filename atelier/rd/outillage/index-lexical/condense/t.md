@@ -17,15 +17,15 @@ links: []
 | `temps` | TEMPS, Temps, temps | — | — | table, tag, titre | **146 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +422 | 1643 |
 | `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | — | titre | **108 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +193 | 1308 |
 | `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | — | table, titre | **147 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +100 | 1089 |
-| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **113 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +343 | 981 |
+| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **114 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +343 | 982 |
 | `table` | TABLE, Table, table | — | — | table, titre | **160 fiches** | LISEZ-MOI.md +66 | 857 |
 | `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | — | table, titre | **166 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +216 | 783 |
-| `traduction` | TRADUCTION, Traduction, traduction | — | — | table, tag, titre | **102 fiches** | LISEZ-MOI.md +130 | 523 |
+| `traduction` | TRADUCTION, Traduction, traduction | — | — | table, tag, titre | **103 fiches** | LISEZ-MOI.md +130 | 524 |
 | `transmission` | TRANSMISSION, Transmission, transmission | — | — | tag, titre | **129 fiches** | 16-s.md +78 | 479 |
-| `transcription` | TRANSCRIPTION, Transcription, transcription | — | — | table, tag, titre | **134 fiches** | LISEZ-MOI.md +21 | 460 |
-| `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **115 fiches** | LISEZ-MOI.md +121 | 435 |
+| `transcription` | TRANSCRIPTION, Transcription, transcription | — | — | table, tag, titre | **135 fiches** | LISEZ-MOI.md +21 | 464 |
+| `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **117 fiches** | LISEZ-MOI.md +121 | 438 |
 | `three` | Three, three | — | — | table | **24 fiches** | 01-a.md +55 | 435 |
-| `type` | Type, type, typé | — | — | definition, table | **120 fiches** | 00-front-matter.md +103 | 427 |
+| `type` | Type, type, typé | — | — | definition, table | **121 fiches** | 00-front-matter.md +103 | 428 |
 | `technique` | TECHNIQUE, Technique, technique | — | — | definition, titre | **148 fiches** | LISEZ-MOI.md +74 | 412 |
 | `total` | TOTAL, Total, total | — | ⚖ islam | definition, table | **77 fiches** | 10-j.md +123 | 342 |
 | `trace` | Trace, Tracé, trace, tracé | — | — | table, tag | **96 fiches** | 08-h.md +103 | 311 |
@@ -44,7 +44,7 @@ links: []
 | `ternaire` | TERNAIRE, Ternaire, ternaire | — | — | tag, titre | **29 fiches** | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +34 | 173 |
 | `theme` | Thème, theme, thème | — | — | table, titre | **61 fiches** | 07-g.md +15 | 163 |
 | `theologie` | THÉOLOGIE, Théologie, theologie, théologie | — | — | tag | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +40 | 156 |
-| `types` | Types, types, typés | — | — | table, titre | **46 fiches** | 00-front-matter.md +42 | 146 |
+| `types` | Types, types, typés | — | — | table, titre | **47 fiches** | 00-front-matter.md +42 | 147 |
 | `traitement` | Traitement, traitement | — | — | table, titre | **64 fiches** | la-puissance-du-serpent.md +4 | 143 |
 | `table des matieres` | Table des matières | — | — | definition | **44 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +10 | 138 |
 | `tilak` | TILAK, Tilak, tilak | — | — | annotation, table, tag, titre | **30 fiches** | LISEZ-MOI.md +7 | 132 |
@@ -65,8 +65,8 @@ links: []
 | `trita` | Trita | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +6 | 89 |
 | `terminologique` | terminologique | — | — | titre | **58 fiches** | intellect-et-conscience-selon-valsan.md | 87 |
 | `tawakkul` | Tawakkul, tawakkul | — | ✓ islam | annotation, table, tag, titre | **18 fiches** | sept-etendards-califat-transcription.md +2 | 86 |
+| `tafsir` | Tafsir, Tafsīr, tafsir, tafsîr (+1) | — | — | translit | **15 fiches** | isaghuji-cours01-introduction-transcription.md +7 | 81 |
 | `trade` | Trade, trade | — | — | table | [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/hermes-prompts/06-distribution/06-principe]] · [[meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution]] | 09-i.md +22 | 76 |
-| `tafsir` | Tafsir, Tafsīr, tafsir, tafsîr (+1) | — | — | translit | **13 fiches** | isaghuji-cours01-introduction-transcription.md +7 | 75 |
 | `taches` | Tâches, taches, tâches | — | — | titre | **32 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +3 | 74 |
 | `temperament` | Tempérament, temperament, tempérament | — | — | table, tag, titre | **20 fiches** | 04-d.md +22 | 74 |
 | `tokyo` | Tokyo, Tōkyō | — | — | table | **9 fiches** | 00-front-matter.md +16 | 74 |
@@ -160,12 +160,12 @@ links: []
 | `tahlil` | tahlil, tahlîl, tahlīl, taḥlîl | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/wird-awrad]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 12 |
 | `tahqiq` | Tahqiq, tahqiq, taḥqîq, taḥqīq | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/animaux-en-reve-comparatisme]] | osman-yahya-08-repertoire.md +2 | 12 |
 | `taqlid` | taqlid, taqlîd, taqlïd, taqlīd | — | — | annotation, tag, translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] | munqidh-01-introduction-jabre.md +1 | 11 |
+| `tawil` | Taʾwīl, tawil, taʾwîl, taʾwīl (+1) | — | — | tag, titre, translit | **9 fiches** | — | 11 |
 | `tolerant` | tolérant | — | — | titre | [[atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise]] · [[atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations]] · [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/outillage/spec-generer-cartographie-tolerant]] · [[atelier/rd/registre-chantiers]] | la-duchesse-de-pomar-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +2 | 11 |
 | `tab` | TAB, Tab, tab, ṭabʿ | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 00-front-matter.md +6 | 10 |
 | `tapa` | Tapa, Tâpa | — | — | table, titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/genealogie/arbre-genealogique-sissoko]] · [[meta/genealogie/hawa-kante]] · +3 | la-puissance-du-serpent.md +1 | 10 |
 | `tasarruf` | Tasarruf, tasarruf, tašarruf, taṣarruf | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/traditions/tasawwuf]] | sept-etendards-califat-transcription.md | 10 |
 | `tasdiq` | Taṣdīq, tasdiq, tasdïq, taṣdîq (+1) | — | ✓ islam | table, titre, translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tasdiq]] · [[meta/carte-du-depot-doctrinal]] · +1 | munqidh-05-partie-3.md | 10 |
-| `tawil` | Taʾwīl, tawil, taʾwîl, taʾwīl (+1) | — | — | tag, titre, translit | [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/taawil-par-le-nom]] · [[meta/carte-doctrinal]] · +3 | — | 10 |
 | `taylor` | Taylor | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | 00-front-matter.md +3 | 10 |
 | `technics` | Technics | — | — | table, titre | [[atelier/materiel/technics-su-8080]] · [[atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18]] · [[label/production/album-personnel]] · [[meta/carte-atelier]] · [[meta/carte-du-depot-atelier]] · +3 | — | 10 |
 | `thurayya` | Thurayya, Thurayyā | — | — | table, translit | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] · [[meta/plan-fiche-discernement-septenaire-transversal-2026-07-27]] | 28-bibliographie.md | 10 |
@@ -270,6 +270,7 @@ links: []
 | `tadadd` | taḍâdd | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `tadadi` | taʿdâdî | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `tafarrug` | tafarruġ | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/traditions/tasawwuf]] | — | 2 |
+| `tafsir-al-manar` | tafsir-al-manar | — | — | annotation, tag | [[doctrinal/autorites/muhammad-abduh]] · [[doctrinal/autorites/rashid-rida]] | — | 2 |
 | `tahatub` | taḥâṭub, taḫâṭub | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `tahawwul` | taḥawwul | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `tahwil` | taḥwîl | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
@@ -320,14 +321,15 @@ links: []
 | `tatayyur-a-surveiller` | tatayyur-a-surveiller | — | — | tag | [[meta/personnel/2026-06-20_noms-symboles-financiers]] | — | 0 |
 | `telecommunication` | telecommunication | — | — | tag | [[hermeneutique/metal-gear/idroid]] | — | 0 |
 | `tentative 1 — lien symbolique` | Tentative 1 — lien symbolique | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] | — | 0 |
-| `theorie-du-tout` | theorie-du-tout | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 0 |
+| `theorie-du-tout` | theorie-du-tout | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | — | 0 |
+| `theories-of-everything` | theories-of-everything | — | — | tag | [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | — | 0 |
 | `these-interactive` | these-interactive | — | — | tag | [[hermeneutique/auteurs/hideo-kojima]] | — | 0 |
 | `three-js` | three-js | — | — | tag | [[atelier/rd/instrument/spec-anneau-zodiacal]] · [[atelier/rd/instrument/spec-technique-axe-38-degres]] | — | 0 |
 | `tradition-juive` | tradition-juive | — | — | tag | [[doctrinal/symboles/golem]] | — | 0 |
 | `tradition-orale` | tradition-orale | — | — | tag | [[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala]] · [[meta/genealogie/2026-09-15_difference-et-privilege-vecus]] · [[meta/genealogie/2026-09-15_djeliya-conception-familiale]] · [[meta/genealogie/kouyate]] | — | 0 |
 | `tranche (2026-08-15)` | Tranché (2026-08-15) | — | — | definition | [[meta/projet-unifie/archives/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]] | — | 0 |
 | `tranche (2026-08-15), verdict sidy` | Tranché (2026-08-15), verdict Sidy | — | — | definition | [[meta/projet-unifie/archives/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]] | — | 0 |
-| `transcription-asr` | transcription-asr | — | — | tag | [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] | — | 0 |
+| `transcription-asr` | transcription-asr | — | — | tag | [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] | — | 0 |
 | `transition 36→37 (djins → homme)` | Transition 36→37 (Djins → Homme) | — | — | definition | [[atelier/rd/instrument/spec-technique-axe-38-degres]] | — | 0 |
 | `transmission-occident` | transmission-occident | — | — | tag | [[doctrinal/autorites/muhammad-al-akili]] | — | 0 |
 | `transmission-orale` | transmission-orale | — | — | tag | [[doctrinal/autorites/haim-vital]] · [[doctrinal/autorites/isaac-louria-arizal]] | — | 0 |

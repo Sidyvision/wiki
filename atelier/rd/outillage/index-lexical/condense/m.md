@@ -12,33 +12,33 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `monde` | MONDE, Monde, monde | — | — | table, titre | **248 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +431 | 3671 |
+| `monde` | MONDE, Monde, monde | — | — | table, titre | **250 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +431 | 3674 |
 | `manifestation` | MANIFESTATION, Manifestation, manifestation | — | — | table, tag, titre | **121 fiches** | 04-d.md +300 | 1726 |
-| `mort` | MORT, Mort, mort | — | — | table, titre | **115 fiches** | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +132 | 1130 |
+| `mort` | MORT, Mort, mort | — | — | table, titre | **117 fiches** | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +132 | 1134 |
 | `metaphysique` | MÉTAPHYSIQUE, Métaphysique, metaphysique, métaphysique | — | — | table, tag, titre | **170 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +224 | 985 |
-| `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | — | table, tag, titre | **126 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +277 | 973 |
-| `moderne` | MODERNE, Moderne, moderne | — | — | table, titre | **89 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +234 | 950 |
+| `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | — | table, tag, titre | **127 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +277 | 974 |
+| `moderne` | MODERNE, Moderne, moderne | — | — | table, titre | **91 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +234 | 954 |
 | `man` | Man, man, manʿ | — | — | titre, translit | **13 fiches** | 04-d.md +84 | 826 |
 | `manifeste` | Manifeste, Manifesté, manifeste, manifesté | — | — | table, tag, titre | **138 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +215 | 792 |
 | `matiere` | Matière, matière | — | — | table, titre | **198 fiches** | LISEZ-MOI.md +86 | 761 |
 | `memoire` | Mémoire, memoire, mémoire | — | — | table, tag, titre | **147 fiches** | LISEZ-MOI.md +55 | 627 |
 | `maintenant` | Maintenant, maintenant | — | — | definition, table | **54 fiches** | LISEZ-MOI.md +298 | 621 |
 | `modele` | Modèle, modelé, modèle | — | — | table, titre | **155 fiches** | LISEZ-MOI.md +34 | 589 |
-| `modernes` | MODERNES, Modernes, modernes | — | — | titre | **41 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +233 | 552 |
+| `modernes` | MODERNES, Modernes, modernes | — | — | titre | **42 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +233 | 553 |
 | `methode` | MÉTHODE, Méthode, methode, méthode | — | ⚖ universel | definition, table, tag, titre | **179 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +77 | 539 |
 | `mondes` | MONDES, Mondes, mondes | — | — | table, titre | **59 fiches** | erreurs-diverses-concernant-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +106 | 516 |
 | `mise` | MISE, Mise, Misé, mise | — | — | table, titre | **172 fiches** | LISEZ-MOI.md +116 | 478 |
 | `multiples` | MULTIPLES, multiples, multìples | — | — | titre | **57 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +215 | 477 |
 | `mental` | MENTAL, Mental, mental | — | — | table, tag | **13 fiches** | 11-k.md +77 | 446 |
 | `meta` | Meta, meta, méta | — | — | table, tag | **62 fiches** | osman-yahya-02-chapitre-01.md +3 | 431 |
-| `motif` | Motif, motif | — | — | definition, table | **150 fiches** | LISEZ-MOI.md +37 | 414 |
+| `motif` | Motif, motif | — | — | definition, table | **151 fiches** | LISEZ-MOI.md +37 | 415 |
 | `main` | MAIN, Main, main, maïn | — | — | titre | **100 fiches** | LISEZ-MOI.md +73 | 401 |
 | `mysteres` | MYSTÈRES, Mystères, mysteres, mystères | — | — | tag, titre | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +113 | 380 |
 | `mecanique` | Mécanique, mecanique, mécanique | — | — | tag | **126 fiches** | connaissance-initiatique-et-culture-profane-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +20 | 324 |
 | `materiel` | Matériel, materiel, matériel | — | — | tag | **79 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +48 | 303 |
 | `malakut` | Malakut, Malakût, Malakūt, malakut (+3) | — | — | annotation, table, tag, titre, translit | **57 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 285 |
+| `muhammad` | MUHAMMAD, Muhammad, Muḥammad, muhammad | — | — | table, titre, translit | **55 fiches** | LISEZ-MOI.md +36 | 258 |
 | `modalite` | Modalité, modalité | — | — | table, titre | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +81 | 255 |
-| `muhammad` | MUHAMMAD, Muhammad, Muḥammad, muhammad | — | — | table, titre, translit | **53 fiches** | LISEZ-MOI.md +36 | 253 |
 | `marqueur` | Marqueur, marqueur | — | ⚖ islam | definition | **78 fiches** | index-conversion.md +2 | 246 |
 | `mecanisme` | MÉCANISME, Mécanisme, mécanisme | — | — | definition, table | **85 fiches** | la-puissance-du-serpent.md +17 | 235 |
 | `mehdi` | Mehdi, mehdi | — | — | table, titre | **32 fiches** | isaghuji-cours01-introduction-transcription.md +1 | 233 |
@@ -46,7 +46,7 @@ links: []
 | `mars` | MARS, Mars, mars | — | — | table | **50 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-8.md +52 | 210 |
 | `mother` | Mother, mother | — | — | table, titre | **11 fiches** | 01-a.md +44 | 210 |
 | `magie` | MAGIE, Magie, magie | — | — | tag, titre | **19 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +56 | 207 |
-| `methodes` | Méthodes, methodes, méthodes | — | — | titre | **30 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +79 | 205 |
+| `methodes` | Méthodes, methodes, méthodes | — | — | titre | **31 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +79 | 206 |
 | `mission` | Mission, mission | — | — | definition | **55 fiches** | 09-i.md +45 | 203 |
 | `manas` | MANAS, Manas, manas | — | — | annotation, table, tag | **23 fiches** | les-limites-du-mental-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +27 | 197 |
 | `muladhara` | MULADHÂRA, Mûlâdhâra, Mūlādhāra, muladhâra (+5) | — | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · +3 | la-puissance-du-serpent.md +3 | 192 |
@@ -328,6 +328,7 @@ links: []
 | `motif de son ouverture` | Motif de son ouverture | — | — | definition | [[meta/protocole-archives/CLAUDE-v3_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v4_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v5_2026-09-15]] | — | 4 |
 | `muarada` | muʿâraḍa | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
 | `mudaf` | muḍâf | — | — | translit | [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] · [[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
+| `muhammad-abduh` | muhammad-abduh | — | *arabe* | annotation, tag | [[doctrinal/autorites/rashid-rida]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 4 |
 | `muqarnas` | Muqarnas | — | ✓ islam | titre | [[doctrinal/symboles/muqarnas]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 4 |
 | `musahada` | mušâhada | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
 | `musahadat` | mušâhadat, mušâhadât | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
@@ -431,7 +432,6 @@ links: []
 | `mufassila` | mufaṣṣila | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `muhafaza` | muḥâfaẓa | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `muhafazat` | muḥâfaẓat | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
-| `muhammad-abduh` | muhammad-abduh | — | *arabe* | annotation | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 2 |
 | `muhaqqiqun` | muhaqqiqûn, muḥaqqiqûn | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 2 |
 | `muhrim` | muḥrim | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `muhtalifat` | muḫtalifât | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
@@ -497,6 +497,7 @@ links: []
 | `mise a jour du 2026-09-02` | Mise à jour du 2026-09-02 | — | ⚖ hindouisme | definition | [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] | — | 0 |
 | `mission permanente du karubi, une fois l'atelier debout` | Mission permanente du Karūbī, une fois l'atelier debout | — | — | definition | [[meta/transmissions/karubi-jean-marc]] · [[meta/transmissions/karubi-wendel]] | — | 0 |
 | `modele-local` | modele-local | — | — | tag | [[meta/projet-unifie/03-transition-modele-open-source]] | — | 0 |
+| `modernisme-islamique` | modernisme-islamique | — | — | tag | [[doctrinal/autorites/muhammad-abduh]] · [[doctrinal/autorites/rashid-rida]] | — | 0 |
 | `monde-celeste` | monde-celeste | — | — | tag | [[doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes]] | — | 0 |
 | `monde-intelligible` | monde-intelligible | — | — | tag | [[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]] | — | 0 |
 | `monde-invisible` | monde-invisible | — | — | tag | [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/symboles/shamharush]] | — | 0 |

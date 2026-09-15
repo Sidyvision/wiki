@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `guenon` | Guenon, Guénon, guenon, guénon | — | — | annotation, table, tag, titre | **270 fiches** | LISEZ-MOI.md +409 | 2578 |
+| `guenon` | Guenon, Guénon, guenon, guénon | — | — | annotation, table, tag, titre | **273 fiches** | LISEZ-MOI.md +409 | 2581 |
 | `grande` | GRANDE, Grande, grande | — | — | table, titre | **109 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +295 | 924 |
 | `gardien` | Gardien, gardien | — | — | table, tag, titre | **93 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-29.md +13 | 368 |
 | `gauche` | Gauche, gauche | — | — | table, titre | **48 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +45 | 357 |
@@ -28,12 +28,13 @@ links: []
 | `ghazali` | GHAZALI, GHAZÀLI, GHAZÂLI, Ghazali (+7) | — | — | table, tag, titre, translit | **11 fiches** | LISEZ-MOI.md +12 | 163 |
 | `github` | GitHub, github | — | — | table, tag, titre | **43 fiches** | — | 148 |
 | `guide` | GUIDE, Guide, guide, guidé | — | — | table, titre | **35 fiches** | 00-front-matter.md +58 | 144 |
-| `guenonienne` | guenonienne, guénonienne | — | — | titre | **72 fiches** | sept-etendards-califat-transcription.md +1 | 142 |
+| `guenonienne` | guenonienne, guénonienne | — | — | titre | **73 fiches** | sept-etendards-califat-transcription.md +1 | 143 |
 | `gem` | GEM, Gem, gem | — | — | titre | **36 fiches** | 03-c.md +11 | 128 |
-| `graphe` | Graphe, graphe | — | — | table, tag | **41 fiches** | LISEZ-MOI.md +4 | 120 |
+| `graphe` | Graphe, graphe | — | — | table, tag | **42 fiches** | LISEZ-MOI.md +4 | 121 |
 | `gateway` | Gateway, gateway | — | — | table, tag, titre | **33 fiches** | 10-j.md | 109 |
 | `graal` | GRAAL, Graal | — | — | table | [[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]] · [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | noms-profanes-et-noms-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +25 | 106 |
 | `gunas` | Guṇas, gunas, guṇas | — | — | annotation, tag, titre, translit | **14 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +16 | 106 |
+| `global` | Global, global | — | — | titre | **50 fiches** | LISEZ-MOI.md +6 | 102 |
 | `gloire` | Gloire, gloire | — | — | table | **14 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +27 | 98 |
 | `gilis` | Gilis, gilis | — | — | annotation, table, tag, titre | **25 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 96 |
 | `gout` | Goût, goût | — | — | table, titre | **23 fiches** | des-pretendus-pouvoirs-psychiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +22 | 95 |
@@ -48,8 +49,8 @@ links: []
 | `genere` | Génère, Généré, genere, génère (+1) | — | — | tag | **55 fiches** | karubi-mehdi-navette-20260812.md +3 | 68 |
 | `glossaire` | Glossaire, glossaire | — | — | tag, titre | **26 fiches** | la-societe-theosophique-et-le-rosicrucianisme-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md | 64 |
 | `gouvernement` | Gouvernement, gouvernement | — | — | table | [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[atelier/rd/bibliotheque/table-ihwan-al-safa]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/sources/sefer-yetsira-ramban]] · [[doctrinal/sources/sefer-yetsira-ramban_source]] · +1 | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +26 | 62 |
+| `grille` | Grille, grille | — | — | titre | **29 fiches** | corps-du-texte.md +1 | 62 |
 | `geometriques` | géométriques | — | — | titre | **18 fiches** | influence-de-la-civilisation-islamique-en-occident-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +28 | 60 |
-| `grille` | Grille, grille | — | — | titre | **28 fiches** | corps-du-texte.md +1 | 60 |
 | `grammaire` | GRAMMAIRE, Grammaire, grammaire | — | — | table, tag, titre | **21 fiches** | isaghuji-cours01-introduction-transcription.md +9 | 56 |
 | `golem` | Golem, golem | — | ✓ judaisme | table, tag, titre | **11 fiches** | — | 50 |
 | `gemeaux` | Gemeaux, Gémeaux, gémeaux | — | — | table | **22 fiches** | sefer-yetsira-ramban.md | 49 |

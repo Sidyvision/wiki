@@ -13,19 +13,19 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `dream` | DREAM, Dream, dream | — | — | table | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[meta/personnel/sidy]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +28 | 13006 |
-| `deux` | DEUX, Deux, deux | — | — | table, titre | **486 fiches** | LISEZ-MOI.md +487 | 6623 |
-| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **394 fiches** | LISEZ-MOI.md +19 | 2079 |
-| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **463 fiches** | 14-o.md +47 | 1994 |
+| `deux` | DEUX, Deux, deux | — | — | table, titre | **488 fiches** | LISEZ-MOI.md +487 | 6627 |
+| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **397 fiches** | LISEZ-MOI.md +19 | 2093 |
+| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **466 fiches** | 14-o.md +47 | 2002 |
 | `doctrine` | DOCTRINE, Doctrine, doctrine | — | — | table, titre | **261 fiches** | 08-h.md +251 | 1531 |
 | `degre` | DEGRÉ, Degre, Degré, degre (+1) | — | — | table, titre | **158 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +251 | 1464 |
 | `degres` | DEGRÉS, Degres, Degrés, degres (+1) | — | — | table, tag, titre | **164 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +197 | 1301 |
-| `dieu` | Dieu, dieu | — | — | table | **83 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +149 | 1217 |
+| `dieu` | Dieu, dieu | — | — | table | **84 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +149 | 1218 |
 | `discernement` | DISCERNEMENT, Discernement, discernement | — | — | table, tag, titre | **294 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +14 | 1103 |
 | `developpement` | DÉVELOPPEMENT, Développement, développement | — | — | table, titre | **177 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +221 | 986 |
 | `distinction` | DISTINCTION, Distinction, distinction | — | — | definition, titre | **177 fiches** | 01-a.md +257 | 842 |
 | `definition` | Définition, definition, définition | — | — | table | **183 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +123 | 776 |
 | `death` | Death, death | — | — | table, titre | **15 fiches** | 01-a.md +54 | 745 |
-| `date` | DATE, Date, Daté, date (+1) | — | ⚖ universel | definition, table | **163 fiches** | LISEZ-MOI.md +125 | 741 |
+| `date` | DATE, Date, Daté, date (+1) | — | ⚖ universel | definition, table | **164 fiches** | LISEZ-MOI.md +125 | 742 |
 | `double` | DOUBLE, Double, double, doublé | — | — | table, tag | **140 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +198 | 729 |
 | `donnees` | Données, donnees, données | — | — | table, titre | **163 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +141 | 651 |
 | `directe` | DIRECTE, directe | — | — | titre | **168 fiches** | LISEZ-MOI.md +169 | 564 |
@@ -44,7 +44,7 @@ links: []
 | `detail` | Détail, detail, détail | — | — | definition, table | **93 fiches** | LISEZ-MOI.md +81 | 264 |
 | `delivrance` | DÉLIVRANCE, Délivrance, delivrance, délivrance | — | — | annotation, table, tag | **21 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-8.md +42 | 246 |
 | `determination` | Determination, Détermination, determination, détermination | — | — | table, titre | **36 fiches** | 08-h.md +89 | 245 |
-| `deviation` | DÉVIATION, Déviation, deviation, déviation | — | — | table, tag, titre | **50 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +78 | 233 |
+| `deviation` | DÉVIATION, Déviation, deviation, déviation | — | — | table, tag, titre | **52 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +78 | 235 |
 | `dhikr` | DHIKR, Dhikr, dhikr | — | ⚖ islam | annotation, table, tag, titre | **26 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 233 |
 | `diagnostic` | Diagnostic, diagnostic | — | — | definition, table, tag | **58 fiches** | — | 215 |
 | `directions` | Directions, directions | — | — | titre | **42 fiches** | 05-e.md +59 | 206 |
@@ -65,11 +65,11 @@ links: []
 | `dragon` | Dragon, dragon | — | — | table, titre | **16 fiches** | 01-a.md +35 | 115 |
 | `don` | DON, Don, don | — | — | titre | **34 fiches** | 17-t.md +20 | 105 |
 | `decisions` | Décisions, decisions, décisions | — | — | table, tag | **52 fiches** | 16-s.md +4 | 103 |
-| `djinns` | Djinns, djinns | — | — | table, titre | **18 fiches** | LISEZ-MOI.md +3 | 102 |
+| `djinns` | Djinns, djinns | — | — | table, titre | **19 fiches** | LISEZ-MOI.md +3 | 103 |
 | `deprecated` | deprecated | — | — | tag | **25 fiches** | — | 101 |
 | `devas` | Devas, Dévas, Dêvas, Dêvâs (+2) | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]] · [[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]] | 16-s.md +31 | 98 |
 | `divergence` | Divergence, divergence | — | ⚖ universel | definition, table | **55 fiches** | contre-le-melange-des-formes-traditionnelles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +11 | 95 |
-| `demarche` | Démarche, démarche | — | — | titre | **53 fiches** | LISEZ-MOI.md +5 | 91 |
+| `demarche` | Démarche, démarche | — | — | titre | **54 fiches** | LISEZ-MOI.md +5 | 92 |
 | `destinataire` | Destinataire, destinataire | — | — | definition, table | **34 fiches** | karubi-mehdi-navette-20260812.md +2 | 91 |
 | `d'allah` | d'Allāh | — | — | translit | **22 fiches** | isaghuji-cours01-introduction-transcription.md +11 | 84 |
 | `disciplines` | DISCIPLINES, Disciplines, disciplines | — | — | table, titre | **17 fiches** | la-puissance-du-serpent.md +8 | 83 |
@@ -91,8 +91,8 @@ links: []
 | `deliberement` | délibérément | — | — | definition | **29 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +7 | 42 |
 | `diable` | Diable, diable | — | — | titre | **11 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +11 | 40 |
 | `deva-yana` | Dêva-yâna, deva-yana, deva-yāna, dêva-yâna (+2) | — | — | annotation, tag, translit | **11 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +8 | 39 |
+| `dar` | Dar, Dâr, Dār, dar (+2) | — | — | translit | **9 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +8 | 38 |
 | `dirghatamas` | Dirghatamas, Dîrghatamas | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +4 | 38 |
-| `dar` | Dar, Dâr, Dār, dar (+2) | — | — | translit | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[doctrinal/autorites/imam-malik]] · [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +3 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +8 | 37 |
 | `dad` | dad, dâd, däd, Ḍâd (+3) | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | osman-yahya-06-chapitre-05.md +7 | 35 |
 | `dal` | Dâl, Dāl, dal, dâl (+2) | — | — | translit | **10 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 34 |
 | `dira` | dira, ḏirâʿ | — | — | translit | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya]] · [[doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation]] · [[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +1 | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +23 | 34 |

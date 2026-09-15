@@ -12,14 +12,14 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `vers` | VERS, Vers, vers | — | — | titre | **334 fiches** | LISEZ-MOI.md +251 | 1651 |
-| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **340 fiches** | LISEZ-MOI.md +13 | 1308 |
-| `vigilance` | VIGILANCE, Vigilance, vigilance | — | — | definition, table, tag, titre | **185 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +40 | 526 |
+| `vers` | VERS, Vers, vers | — | — | titre | **335 fiches** | LISEZ-MOI.md +251 | 1653 |
+| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **343 fiches** | LISEZ-MOI.md +13 | 1313 |
+| `vigilance` | VIGILANCE, Vigilance, vigilance | — | — | definition, table, tag, titre | **188 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +40 | 529 |
 | `verification` | VÉRIFICATION, Vérification, verification, vérification | — | ⚖ hindouisme | definition, table, tag | **203 fiches** | LISEZ-MOI.md +7 | 512 |
 | `veille` | VEILLE, Veille, veille | — | — | table, tag, titre | **94 fiches** | LISEZ-MOI.md +19 | 491 |
 | `viii` | VIII, viii | — | — | table | **124 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +91 | 458 |
 | `vedanta` | Vedanta, Vedânta, Vedānta, VÊDÂNTA (+6) | — | — | annotation, table, tag, titre, translit | **65 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +121 | 405 |
-| `vedas` | VEDAS, VEDAs, Vedas, Védas (+3) | — | — | annotation, table, tag, titre | **16 fiches** | LISEZ-MOI.md +33 | 396 |
+| `vedas` | VEDAS, VEDAs, Vedas, Védas (+3) | — | — | annotation, table, tag, titre | **17 fiches** | LISEZ-MOI.md +33 | 397 |
 | `vision` | VISION, Vision, vision | — | — | table, tag | **60 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +59 | 312 |
 | `vivant` | Vivant, vivant | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +66 | 280 |
 | `verdict sidy` | Verdict Sidy | — | — | definition | **106 fiches** | LISEZ-MOI.md | 272 |

@@ -1,9 +1,9 @@
 ---
-title: "Curt Jaimungal"
-type: autorite
+title: "Curt Jaimungal — Consciousness, Irreducibility, and the Local to Global (conférence)"
+type: source
 status: academique
 tradition_cadre: "none"
-tags: [theories-of-everything, podcast, physique-mathematique, conscience, theorie-du-tout, elephant-inverse, antagoniste]
+tags: [curt-jaimungal, theories-of-everything, podcast, youtube, transcription-asr, physique-mathematique, conscience, theorie-du-tout, elephant-inverse, antagoniste]
 created: 2026-09-15
 updated: 2026-09-15
 sources: ["textes/jaimungal-consciousness-irreducibility-local-to-global/transcription-asr.md"]
@@ -11,19 +11,31 @@ sources_count: 1
 cross_links: ["[[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
 
-# Curt Jaimungal
+# Curt Jaimungal — *Consciousness, Irreducibility, and the Local to Global*
+
+> ℹ️ **Placement (verdict du directeur du dépôt, 2026-09-15).** Jaimungal n'est pas une
+> autorité : une première rédaction l'avait placé en `autorites/`, corrigée le jour même.
+> Comme pour l'exposé de Koly Cherif Keita, le dépôt consigne **la source** — ici une
+> conférence transcrite —, non la personne. Déplacé par `git mv`, historique conservé.
 
 > ⚠️ **Statut.** `academique` suit la qualification du directeur du dépôt : la plateforme
 > de Jaimungal « offre un horizon assez fidèle de l'intellectualité académique occidentale
 > contemporaine », et son critère — rigueur formelle, relecture par les pairs,
 > formalisation — est celui de cette démarche (étude, § I.3). Verdict réservé (Cmd 12).
 
-## Identité
+## L'orateur
 
 Cinéaste et interviewer établi à Toronto, formé en mathématiques et en physique, auteur
 et animateur de la chaîne et du podcast *Theories of Everything*, consacrés à la physique
 théorique, à la conscience, à l'IA et à Dieu. Retenu par le dépôt, le 2026-09-15, comme
 **élément antagoniste** choisi pour sa valeur.
+
+## La source
+
+Conférence plénière suivie de questions, 56 min (YouTube `q2Zgp2EhSk8`, titre et chaîne
+confirmés par oEmbed). Texte : `textes/jaimungal-consciousness-irreducibility-local-to-global/transcription-asr.md`
+(transcription automatique locale, non relue) ; chaîne d'extraction et termes défigurés dans
+l'index de conversion du même dossier. Date et nom de la conférence `to-source`.
 
 ## Faits
 

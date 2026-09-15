@@ -12,10 +12,10 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `formes` | FORMES, Formes, formes, formés | — | — | table, titre | **128 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +325 | 1364 |
-| `fin` | FIN, Fin, fin | — | — | titre | **164 fiches** | LISEZ-MOI.md +220 | 1037 |
+| `formes` | FORMES, Formes, formes, formés | — | — | table, titre | **129 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +325 | 1365 |
+| `fin` | FIN, Fin, fin | — | — | titre | **165 fiches** | LISEZ-MOI.md +220 | 1038 |
 | `fonction` | FONCTION, Fonction, fonction | — | — | definition, table, titre | **189 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +172 | 984 |
-| `figure` | Figure, figure, figuré | — | — | table, tag, titre | **144 fiches** | 08-h.md +197 | 860 |
+| `figure` | Figure, figure, figuré | — | — | table, tag, titre | **146 fiches** | 08-h.md +197 | 863 |
 | `fichier` | Fichier, fichier | — | — | definition, table | **170 fiches** | LISEZ-MOI.md +9 | 729 |
 | `fichiers` | FICHIERS, Fichiers, fichiers | — | — | definition, table | **142 fiches** | LISEZ-MOI.md +9 | 475 |
 | `futuhat` | FUTÛHÂT, Futuhat, Futuhät, Futûhât (+9) | — | — | annotation, table, tag, titre, translit | **79 fiches** | karubi-mehdi-navette-20260812.md +13 | 433 |

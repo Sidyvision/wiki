@@ -8,7 +8,7 @@ created: 2026-09-15
 updated: 2026-09-15
 sources: ["[[doctrinal/sources/guenon-orient-et-occident]]", "[[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]]", "textes/jaimungal-consciousness-irreducibility-local-to-global/transcription-asr.md", "[[doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane]]", "[[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]]", "[[doctrinal/sources/ghazali-munqidh-jabre-1959]]"]
 sources_count: 6
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana]]", "[[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/technologisation-pseudo-scientifique]]", "[[doctrinal/autorites/curt-jaimungal]]", "[[doctrinal/autorites/muhammad-abduh]]", "[[doctrinal/autorites/rashid-rida]]"]
+cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana]]", "[[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/technologisation-pseudo-scientifique]]", "[[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]]", "[[doctrinal/autorites/muhammad-abduh]]", "[[doctrinal/autorites/rashid-rida]]"]
 ---
 
 # Confrontation — Curt Jaimungal et les théoriciens assistés par machine
@@ -18,7 +18,7 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/etudes/2026-06
 Étude ouverte le 2026-09-15 sur consigne du directeur du dépôt : introduire un
 **élément antagoniste**, choisi pour sa valeur et non pour sa faiblesse, afin
 d'éprouver le corps de connaissances que le dépôt constitue. L'antagoniste retenu
-est <span data-nom="curt-jaimungal" data-genre="autorite">Curt Jaimungal</span> ([[doctrinal/autorites/curt-jaimungal]]), dont la plateforme *Theories of Everything* offre un horizon
+est Curt Jaimungal ([[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]]), dont la plateforme *Theories of Everything* offre un horizon
 assez fidèle de l'intellectualité académique occidentale contemporaine.
 
 Le dépôt se réclame de la Tradition, de ses autorités et de ses chaînes de

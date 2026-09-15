@@ -12,11 +12,11 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | — | table, tag, titre | **376 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +528 | 6051 |
+| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | — | table, tag, titre | **378 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +528 | 6053 |
 | `etat` | ETAT, etat, État, état | — | — | definition, table, titre | **268 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +314 | 1981 |
 | `etats` | Etats, etats, ÉTATS, États (+1) | — | — | table, titre | **122 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +222 | 1407 |
-| `exemple` | Exemple, exemple | — | ⚖ universel | definition, table | **90 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +326 | 918 |
-| `etude` | ETUDE, etude, Étude, étude | — | — | titre | **64 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +197 | 443 |
+| `exemple` | Exemple, exemple | — | ⚖ universel | definition, table | **92 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +326 | 920 |
+| `etude` | ETUDE, etude, Étude, étude | — | — | titre | **65 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +197 | 445 |
 | `edition` | EDITION, Edition, edition, ÉDITION (+2) | — | ⚖ hindouisme | definition, table | **125 fiches** | 00-front-matter.md +77 | 438 |
 | `existence` | Existence, existence, existencé | — | — | tag | **34 fiches** | 03-c.md +177 | 402 |
 | `editions` | editions, ÉDITIONS, Éditions, éditions | — | — | table, tag | **63 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +192 | 321 |
@@ -48,7 +48,7 @@ links: []
 | `esoteriques` | ésotériques | — | — | titre | **13 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +31 | 64 |
 | `exaltation` | Exaltation, exaltation | — | — | table, tag | **16 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +21 | 62 |
 | `entreprise` | entreprise | — | — | tag | **14 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 57 |
-| `egypte` | Egypte, egypte, Égypte | — | — | table, tag | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] · [[doctrinal/sources/guenon-hermetisme-hermes-thoth]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +3 | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +29 | 52 |
+| `egypte` | Egypte, egypte, Égypte | — | — | table, tag | **9 fiches** | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +29 | 52 |
 | `engineer` | Engineer, engineer | — | — | table | **20 fiches** | 01-a.md +5 | 51 |
 | `echange` | Échange, échange, échangé | — | — | table, titre | **18 fiches** | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +11 | 49 |
 | `echantillon` | Échantillon, échantillon | — | — | table, titre | **12 fiches** | le-theosophisme-et-le-spiritisme-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +1 | 47 |
@@ -146,7 +146,7 @@ links: []
 | `ecart possible, signale sans etre tranche` | Écart possible, signalé sans être tranché | — | — | definition | [[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]] | — | 0 |
 | `echelle-ontologique` | echelle-ontologique | — | — | tag | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] | — | 0 |
 | `effets-reversibles` | effets-reversibles | — | — | tag | [[atelier/rd/veille/cordis/equations]] | — | 0 |
-| `elephant-inverse` | elephant-inverse | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 0 |
+| `elephant-inverse` | elephant-inverse | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | — | 0 |
 | `en revanche, le motif tient pleinement pour les binaires` | En revanche, le motif tient pleinement pour les binaires | — | — | definition | [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent]] | — | 0 |
 | `energie-vitale` | energie-vitale | — | — | tag | [[hermeneutique/hunter-x-hunter/nen-systeme]] | — | 0 |
 | `enregistrement-analogique` | enregistrement-analogique | — | — | tag | [[atelier/materiel/studio-principal]] | — | 0 |

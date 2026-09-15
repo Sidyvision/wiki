@@ -13,11 +13,11 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `juz` | Juz, juz, juzʾ | — | — | translit | [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/mawlid-al-rasul]] | index-conversion.md +36 | 3401 |
-| `jour` | JOUR, Jour, jour | — | — | table, titre | **262 fiches** | LISEZ-MOI.md +166 | 1136 |
+| `jour` | JOUR, Jour, jour | — | — | table, titre | **263 fiches** | LISEZ-MOI.md +166 | 1137 |
 | `japanese` | Japanese | — | — | table | [[atelier/etudes-de-cas/kojima-productions]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +24 | 259 |
 | `jeu` | Jeu, jeu | — | — | titre | **65 fiches** | LISEZ-MOI.md +48 | 200 |
 | `janus` | Janus, janus | — | — | annotation, table, tag, titre | **23 fiches** | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +23 | 190 |
-| `journal` | Journal, journal | — | — | tag, titre | **55 fiches** | karubi-mehdi-navette-20260812.md +44 | 182 |
+| `journal` | Journal, journal | — | — | tag, titre | **56 fiches** | karubi-mehdi-navette-20260812.md +44 | 183 |
 | `jurjani` | Jurjani, Jurjânî, Jurjäni, Jurjānī (+2) | — | — | annotation, table, tag, titre, translit | **60 fiches** | karubi-mehdi-navette-20260812.md +1 | 182 |
 | `jean` | JEAN, Jean | — | — | table | **24 fiches** | 00-front-matter.md +63 | 181 |
 | `jesus` | Jesus, JÉSUS, Jésus, jesus | — | — | table, titre | **40 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +28 | 173 |
@@ -31,22 +31,23 @@ links: []
 | `john` | JoHN, John | — | — | table | **10 fiches** | 11-k.md +21 | 56 |
 | `janua` | Janua, janua | — | — | table | **12 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-32.md +8 | 46 |
 | `japon` | Japon, japon | — | — | annotation, table, tag | **13 fiches** | le-roi-du-monde-index-de-l-uvre-de-rene-guenon-3.md +10 | 46 |
+| `jinn` | Jinn, jinn | — | — | tag | **12 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +12 | 44 |
 | `jabre` | JABRE, Jabre | — | — | titre | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/ghazali-munqidh-jabre-1959]] | LISEZ-MOI.md +8 | 43 |
-| `jinn` | Jinn, jinn | — | — | tag | **11 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +12 | 43 |
 | `journalisation` | Journalisation, journalisation | — | — | definition | **23 fiches** | — | 40 |
 | `jean-marc` | Jean-Marc, jean-marc | — | — | table, titre | **12 fiches** | — | 38 |
 | `jam` | Jam, Jamʿ, Jâm, Jām (+2) | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +2 | sept-etendards-califat-transcription.md +5 | 36 |
 | `jalon` | Jalon, jalon | — | — | tag, titre | **20 fiches** | sept-etendards-califat-transcription.md | 35 |
 | `jami` | Jami, Jâmi, Jâmî, Jāmī (+6) | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +1 | sept-etendards-califat-transcription.md +5 | 32 |
 | `jim` | Jim, Jîm, jim, jîm (+1) | — | — | translit | **10 fiches** | la-puissance-du-serpent.md +2 | 28 |
+| `jaimungal` | Jaimungal | — | — | titre | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | LISEZ-MOI.md +1 | 25 |
 | `jainas` | JAINAS, Jainas, Jaïnas, jainas | — | — | table, tag | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta]] · [[meta/carte-doctrinal]] · +2 | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon.md +4 | 25 |
 | `jili` | Jili, Jîlî, Jīlī, jili | — | — | annotation, table, tag, translit | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +2 | les-quatre-mondes.md | 24 |
 | `j'etais` | J'étais | — | — | table | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] · +3 | jeanne-d-arc-et-charles-vii-analyse-historique.md +6 | 22 |
 | `jagrat` | Jâgrat, Jāgrat, jagrāt, jâgrat (+1) | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] · [[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]] · [[doctrinal/sources/dara-shukuh-majma-al-bahrayn-ch7-quatre-mondes]] | la-puissance-du-serpent.md +1 | 22 |
 | `jinns` | Jinns, jinns | — | — | table, titre | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 22 |
+| `jamal` | Jamal, Jamāl, jamâl, jamāl | — | — | translit | **9 fiches** | — | 19 |
 | `jivan-mukti` | JÎVAN-MUKTI, jivan-mukti, jîvan-mukti, jīvan-mukti | — | — | annotation, tag, translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]] · [[doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta]] · +3 | l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon-5.md +2 | 19 |
 | `jump` | Jump, jump | — | — | annotation, tag | [[hermeneutique/auteurs/akira-toriyama]] · [[hermeneutique/dr-slump/dr-slump]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/hunter-x-hunter/hunter-x-hunter]] | 08-h.md +6 | 19 |
-| `jamal` | Jamal, jamâl, jamāl | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] · [[atelier/rd/infrastructure/synthese-deploiement-memoire]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/imams-noms-divins]] · +3 | — | 18 |
 | `jihad` | Jihad, jihad, jihâd, jihād | — | — | translit | [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/mihrab-torii]] | sciences-traditionnelles-et-modernite-pdf-soufisme.md +8 | 18 |
 | `jumeau` | jumeau | — | — | titre | **11 fiches** | — | 18 |
 | `jalons` | Jalons, jalons | — | — | tag | **11 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +2 | 17 |

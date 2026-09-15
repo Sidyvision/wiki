@@ -23,7 +23,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `œuvre` | ŒUVRE, Œuvre, œuvre | — | ⚖ universel | definition, table | **68 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +135 | 347 |
+| `œuvre` | ŒUVRE, Œuvre, œuvre | — | ⚖ universel | definition, table | **69 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +135 | 348 |
 
 ## ʻ
 
@@ -454,7 +454,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ℹ` | ℹ | — | — | translit | [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]] · [[doctrinal/sources/guenon-orient-et-occident]] | — | 2 |
+| `ℹ` | ℹ | — | — | translit | [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]] · [[doctrinal/sources/guenon-orient-et-occident]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | — | 3 |
 
 ## 三
 

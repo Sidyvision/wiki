@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `nom` | NOM, Nom, nom | — | — | definition, tag, titre | **242 fiches** | LISEZ-MOI.md +361 | 2472 |
+| `nom` | NOM, Nom, nom | — | — | definition, tag, titre | **244 fiches** | LISEZ-MOI.md +361 | 2474 |
 | `nature` | NATURE, Nature, nature | — | ⚖ islam | definition, table, tag, titre | **290 fiches** | 08-h.md +405 | 2014 |
 | `nombre` | NOMBRE, Nombre, nombre, nombré | — | — | table, tag, titre | **108 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +230 | 1196 |
 | `noms` | NOMS, Noms, noms | — | — | table, titre | **145 fiches** | LISEZ-MOI.md +128 | 855 |

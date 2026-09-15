@@ -5018,20 +5018,15 @@
     },
     {
       "id": "doctrinal/autorites/curt-jaimungal",
-      "label": "Curt Jaimungal",
+      "label": "Curt Jaimungal — fiche déplacée",
       "circuit": "doctrinal",
       "sous_dossier": "autorites",
-      "type": "autorite",
+      "type": "source",
       "status": "academique",
       "tradition_cadre": "none",
       "tags": [
-        "theories-of-everything",
-        "podcast",
-        "physique-mathematique",
-        "conscience",
-        "theorie-du-tout",
-        "elephant-inverse",
-        "antagoniste"
+        "curt-jaimungal",
+        "deprecated"
       ],
       "updated": "2026-09-15",
       "chemin": "doctrinal/autorites/curt-jaimungal.md",
@@ -9206,6 +9201,30 @@
       ],
       "updated": "2026-09-09",
       "chemin": "doctrinal/sources/islam-and-artificial-intelligence.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global",
+      "label": "Curt Jaimungal — Consciousness, Irreducibility, and the Local to Global (conférence)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "none",
+      "tags": [
+        "curt-jaimungal",
+        "theories-of-everything",
+        "podcast",
+        "youtube",
+        "transcription-asr",
+        "physique-mathematique",
+        "conscience",
+        "theorie-du-tout",
+        "elephant-inverse",
+        "antagoniste"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global.md",
       "lacunes_to_source": 0
     },
     {
@@ -16111,14 +16130,7 @@
     },
     {
       "source": "doctrinal/autorites/curt-jaimungal",
-      "target": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
-      "champ": "cross_links",
-      "nature": "lien",
-      "assise": "etabli"
-    },
-    {
-      "source": "doctrinal/autorites/curt-jaimungal",
-      "target": "doctrinal/autorites/rene-guenon",
+      "target": "doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -20206,7 +20218,7 @@
     },
     {
       "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
-      "target": "doctrinal/autorites/curt-jaimungal",
+      "target": "doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -22601,6 +22613,20 @@
     {
       "source": "doctrinal/sources/islam-and-artificial-intelligence",
       "target": "doctrinal/symboles/wahdat-al-wujud",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global",
+      "target": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global",
+      "target": "doctrinal/autorites/rene-guenon",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

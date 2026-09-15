@@ -201,7 +201,6 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/autorites/titus-burckhardt|Titus Burckhardt (pérennialiste, commentateur d'Ibn ʿArabī)]] — stub
 - [[doctrinal/autorites/faraz-rabbani|Faraz Rabbani (SeekersGuidance, fiqh hanafite)]]
 - [[doctrinal/autorites/hamza-yusuf|Hamza Yusuf (Zaytuna College)]] — stub
-- [[doctrinal/autorites/curt-jaimungal|Curt Jaimungal (Theories of Everything)]] — élément antagoniste de l'étude du 2026-09-15 ; source : transcription automatique d'une conférence
 
 ### Réformisme et modernisme islamiques (statut `profane` proposé, verdict réservé)
 - [[doctrinal/autorites/muhammad-abduh|Muhammad ʿAbduh (1849-1905, Grand Mufti d'Égypte)]] — concordisme (djinns lus comme microbes, *Tafsīr al-Manār*) ; sources secondaires, textes `to-source`
@@ -255,6 +254,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/sources/shams-al-maarif|Shams al-Maʿārif al-Kubrā (trad. française)]]
 - [[doctrinal/sources/guenon-orient-et-occident|Orient et Occident (Guénon)]] — ouvrage entier, coupures de l'Index de l'œuvre de René Guénon, lu intégralement ; savoir sans principe, demi-instruction, fausses synthèses, élite et non-fusion. capture complétée le jour même (p. 228 : fin de la conclusion et addendum)
 - [[doctrinal/sources/ghazali-munqidh-jabre-1959|Al-Munqidh min aḍ-ḍalāl — Erreur et délivrance (Ghazâlî, trad. Jabre 1959)]] — autobiographie spirituelle : certitude, kalām, falsafa, taʿlīm, voie des soufis, prophétie ; traité lu intégralement en français ; texte arabe versé (OCR neuf, non relu) ; écart du traducteur relevé (p. 104)
+- [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global|Curt Jaimungal — Consciousness, Irreducibility, and the Local to Global (conférence)]] — `academique` ; élément antagoniste de l'étude du 2026-09-15 : éléphant inversé, Védas, types de théories du tout ; transcription automatique non relue
 - [[doctrinal/sources/guenon-lettre-genty-1937-07-14|Guénon — Lettre à Patrice Genty (Le Caire, 14 juillet 1937)]] — correspondance non publiée (Index de l'œuvre de René Guénon) ; Shamhûrash roi des Jinn muminîn, succession de Maïmûn
 - [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains|Koly Cherif Keita — Les Djinns qui aident les humains]] — exposé oral d'un muqaddam tijānī (YouTube, transcription ASR) ; djinns croyants, walāya, mise en garde contre le contact ; points de vigilance portés
 - [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle|ʿIlm al-Nujûm — bases de l'astrologie traditionnelle]]

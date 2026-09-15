@@ -13,16 +13,16 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `index` | INDEX, Index, index | — | — | tag | **99 fiches** | LISEZ-MOI.md +416 | 1654 |
-| `ibn` | IBN, IBn, Ibn, ibn | — | — | titre | **180 fiches** | LISEZ-MOI.md +83 | 1481 |
+| `ibn` | IBN, IBn, Ibn, ibn | — | — | titre | **181 fiches** | LISEZ-MOI.md +83 | 1482 |
 | `initiatique` | INITIATIQUE, Initiatique, initiatique | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +180 | 846 |
-| `islamique` | Islamique, islamique | — | — | table, titre | **170 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +146 | 701 |
+| `islamique` | Islamique, islamique | — | — | table, titre | **171 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +146 | 702 |
 | `indra` | Indra, indra | — | — | table, titre | **16 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-15.md +25 | 571 |
-| `idees` | Idées, idées | — | — | titre | **92 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +171 | 517 |
-| `interpretation` | INTERPRETATION, INTERPRÉTATION, Interpretation, Interprétation (+2) | — | — | definition, table | **60 fiches** | LISEZ-MOI.md +157 | 471 |
+| `idees` | Idées, idées | — | — | titre | **93 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +171 | 518 |
+| `interpretation` | INTERPRETATION, INTERPRÉTATION, Interpretation, Interprétation (+2) | — | — | definition, table | **61 fiches** | LISEZ-MOI.md +157 | 472 |
 | `infrastructure` | INFRASTRUCTURE, Infrastructure, infrastructure | — | — | definition, table, tag, titre | **119 fiches** | — | 465 |
-| `identite` | IDENTITÉ, Identité, identite, identité | — | — | table, tag | **143 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +80 | 441 |
+| `identite` | IDENTITÉ, Identité, identite, identité | — | — | table, tag | **145 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +80 | 443 |
 | `introduction` | INTRODUCTION, Introduction, introduction | — | — | table, tag, titre | **58 fiches** | LISEZ-MOI.md +121 | 406 |
-| `islam` | ISLAM, Islam, Islâm, Isläm (+3) | — | — | table, titre, translit | **151 fiches** | 01-a.md +35 | 387 |
+| `islam` | ISLAM, Islam, Islâm, Isläm (+3) | — | — | table, titre, translit | **152 fiches** | 01-a.md +35 | 388 |
 | `initiation` | INITIATION, Initiation, initiation | — | — | table, tag, titre | **46 fiches** | 08-h.md +116 | 363 |
 | `individuel` | Individuel, individuel | — | — | tag | **45 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +130 | 355 |
 | `initiatiques` | INITIATIQUES, initiatiques | — | — | titre | **29 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +121 | 344 |
@@ -124,6 +124,7 @@ links: []
 | `ibadat` | ibâdat, ʿIbādāt, ʿibâdât, ʿibādāt | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/barzakh]] · +3 | sept-etendards-califat-transcription.md | 12 |
 | `inferni` | Inferni, inferni | — | — | table | [[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]] · [[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]] · [[doctrinal/symboles/devayana-pitriyana]] · [[doctrinal/symboles/janus-bifrons]] | rapprochements-maconniques-et-hermetiques-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md +5 | 12 |
 | `innee` | INNÉE, innée | — | — | titre | [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise]] · [[doctrinal/symboles/tabia]] · [[hermeneutique/hunter-x-hunter/nen-systeme]] · [[meta/carte-du-depot-doctrinal]] · +1 | sagesse-innee-et-sagesse-acquise-initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon.md | 12 |
+| `irreducibility` | Irreducibility, irreducibility | — | — | titre | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | LISEZ-MOI.md +2 | 12 |
 | `irritation` | Irritation, irritation | — | — | table | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/nafs-qalb-irritation]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 05-e.md +6 | 12 |
 | `iesod` | Iesod | — | — | table | [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md +2 | 11 |
 | `ijad` | Ijâd, ijâd, ijād, îjâd | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 11 |
@@ -269,6 +270,7 @@ links: []
 | `iqlim` | iqlîm, iqlīm | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 2 |
 | `isaac-ha-kohen` | isaac-ha-kohen | — | — | annotation, tag | [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] | — | 2 |
 | `isal` | îṣâl | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
+| `islah` | islah, islāḥ | — | — | tag, translit | [[doctrinal/autorites/muhammad-abduh]] · [[meta/personnel/2026-06-20_bejjar-genealogie]] | osman-yahya-08-repertoire.md | 2 |
 | `istibsar` | istibṣâr | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `istigfar` | Istigfār, istiġfâr | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/khatm-al-khawajakan]] | — | 2 |
 | `istigraq` | istiġrâq | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |

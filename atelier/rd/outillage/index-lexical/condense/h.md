@@ -20,7 +20,7 @@ links: []
 | `hierarchie` | HIÉRARCHIE, Hiérarchie, hierarchie, hiérarchie | — | — | tag, titre | **102 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +108 | 388 |
 | `head` | HEAD, Head, head | — | — | table | [[atelier/rd/cahiers/registre-problemes]] · [[doctrinal/sources/tilak-orion-antiquite-vedas-1893]] | 06-f.md +49 | 328 |
 | `hypothese` | Hypothèse, hypothèse | — | — | definition, table | **115 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +49 | 296 |
-| `historique` | Historique, historique | — | — | tag | **89 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +91 | 271 |
+| `historique` | Historique, historique | — | — | tag | **90 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +91 | 272 |
 | `humains` | Humains, humains | — | — | titre | **24 fiches** | LISEZ-MOI.md +61 | 156 |
 | `hindouisme` | HINDOUISME, HINDOUIsME, Hindouisme, hindouisme | — | — | table, tag, titre | **39 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-24.md +6 | 125 |
 | `hozo` | Hozo, hozo | — | — | annotation, table, tag | **59 fiches** | — | 122 |
