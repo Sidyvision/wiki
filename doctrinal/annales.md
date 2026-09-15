@@ -9,6 +9,25 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] étude | Jaimungal — garde corrigée, déviation réformiste, Nâma-Rûpa ; liens validés
+
+- **Correction de Sidy** : la garde « aucune fiche ne dit que les Védas avaient dit… » était trop large.
+  Une théorie doit trouver sa place dans le monde ; la Tradition peut l'intégrer à la doctrine
+  cosmologique ou métaphysique, ce qui n'est pas du réductionnisme. Garde réécrite : intégration par
+  en haut (légitime, modèle de Leibniz et des figures de Fo-hi, *Orient et Occident* I ch. II) /
+  caution par en bas (la déviation).
+- **Ajout de Sidy** : la déviation réformiste et moderniste interne aux formes religieuses
+  (ʿAbduh, Riḍā — `to-source`, aucune source au dépôt) ; structure établie par *La Crise du monde
+  moderne* ch. IV et V et *Orient et Occident* I ch. III ; précédent de la juste hiérarchie chez
+  Ghazâlî (*Munqidh*, pp. 74-76).
+- **Nâma-Rûpa** lu sur indication de Sidy : la symétrie de l'étude précisée (le nom comme forme /
+  *nâma* comme essence ; le principe « au-delà du nom et de la forme »).
+- **Liens validés par Sidy** inscrits : l'étude reçoit désormais deux liens entrants en cartouche
+  (`2026-06-20_etre-psyche-intellect-raison-upakarana`,
+  `2026-08-31_confrontation-anthropic-claude-guenon-nature-llms`).
+- Contrôles : invariants 0 erreur / 71 avertissements (inchangé).
+- **Commit** : 3b58691
+
 ## [2026-09-15] étude | Jaimungal — l'éléphant inversé et les Védas portés dans l'étude antagoniste
 
 - **Verdict de Sidy** : la conférence transcrite n'est pas la vidéo décrite, mais s'inscrit dans
