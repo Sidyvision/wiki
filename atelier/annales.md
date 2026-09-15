@@ -10,6 +10,38 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] outillage | Chantier Ghazâlî — Ihyâ' arabe versé, hygiène Unicode outillée et éprouvée, §II du protocole amendé
+
+- **Verdicts de Sidy** exécutés dans cette passe, verbatim : « Intègre l'original Arabe en priorité » ; « Unifie le yâ', le lot 2 n'est plus necessaire » ; « Supprime les.bak s'il n'ont plus d'utilité et textes/ peux être corrigé sans problème lorsque que c'st qualitativement justifier » ; « Je valide la proposition, commit ».
+- **Texte versé** : `textes/ghazali-ihya-ulum-al-din-arabe/` — l'Ihyâ' arabe intégral, 36 tranches et un index de conversion. Yâ' unifié, 1562 contrôles bidirectionnels `pdftotext` retirés (étape 3 de l'index). Le **lot 2 est annulé par verdict** : la traduction anglaise n'est pas convertie.
+- **Outillage conservé** (verdict du 2026-09-14, « conserve toute pièce d'outillage ») : `verifier-hygiene-unicode.py` (Cmd 15, trois classes rapportées séparément et jamais fondues), `eprouver-hygiene-unicode.py` (11 points), `nettoyer-sauts-de-page-textes.py` (rapport seul par défaut, `--appliquer` requis), `convertir-ghazali-ihya.py`, registre d'exceptions déclarées `config/hygiene-unicode-exceptions.yaml`.
+
+### Épreuve des contrôles (§VII) — le vert ET le refus
+
+Un contrôle dont l'annales ne rapporte que le vert est à considérer comme non éprouvé. Les quatre refus ci-dessous ont été **fabriqués et vus** :
+
+- **E2 — les six codepoints du Cmd 15** injectés **séparément**, chacun vu refuser pour lui-même. Vert ensuite sur l'état sain.
+- **E8 — excédent d'exception** : une exception déclarée pour un compte supérieur au relevé fait **bloquer** l'instrument. Sans quoi une exception absorberait silencieusement une violation nouvelle.
+- **E11 — périmètre** : `git ls-files` nu ne rend que le **suivi**, or le Cmd 15 porte « avant commit » et ce qui s'apprête à être commité est encore **non suivi**. Le périmètre nu manquait donc exactement les fichiers qu'il devait lire, et rendait « PROPRE » sans les avoir ouverts — **les 36 fichiers de l'Ihyâ' arabe sont passés sous ce trou**. L'ancien périmètre a été **rétabli, l'épreuve vue échouer**, puis réparé en vue `--cached --others --exclude-standard`. E11 tient trois points indissociables : le non-suivi contaminé est vu ; le suivi sain ne lève rien ; ce que git ignore reste **hors** périmètre — sans quoi l'instrument irait corriger `raw/`, immuable.
+- **Garde-fou accolé** de `nettoyer-sauts-de-page-textes.py` : en bac à sable, un U+000C **accolé à du texte** a été vu **laissé en place et rapporté** ; seul le saut qui est le seul contenu de sa ligne est retiré, et la ligne **devient vide, elle n'est pas supprimée**.
+
+### Correction de `textes/` — sur le fondement de l'amendement, non contre la règle
+
+220 sauts de page U+000C retirés de `textes/a-popular-dictionary-of-shinto-bocking/` (23 tranches), **220 seuls sur leur ligne, 0 accolé**. Contrôle après coup ligne non vide à ligne non vide contre `git show HEAD` : **0 écart de contenu, 0 résiduel**. Motif propre, non d'élégance : le comptage des chapitres de la traduction anglaise a donné **64 au lieu de 41** pendant deux tours, la classe `[[:space:]]` d'une ancre `grep` absorbant l'invisible. Consigné dans l'`index-conversion.md` de la conversion.
+
+### Protocole
+
+`§II` amendé (proposition visée le 2026-09-15). L'immuabilité tient sur la **substance** ; l'artefact d'extraction se retire sous **trois conditions cumulatives** — non-substantialité démontrée par mesure brute, script déterministe dont le garde-fou a été vu refuser, consignation dans l'index de conversion. Version antérieure archivée en `meta/protocole-archives/CLAUDE-v5_2026-09-15.md` (Cmd 10), amendement consigné au changelog.
+
+### Ce qui reste ouvert, nommé et non tranché
+
+- Le champ **`updated:` dans `textes/`** : les tranches ne portent aucun cartouche, aucun `index-conversion.md` ne porte ce champ. Le Cmd 8 voudrait qu'une écriture le remonte ; le vérificateur ne le réclame pas. L'écart est déclaré, non comblé (Cmd 12).
+- `meta/protocole-archives/CLAUDE.md.bak-2026-08-22-pre-deplacement-bibliotheque` : conservé et signalé, en attente de verdict.
+- **Passe concurrente** : `meta/carte-du-depot.md` et deux `monitoring-archive/2026-09-14_*.txt` appartiennent à Hermes et sont **délibérément laissés hors de ce commit**, sur l'avertissement de Sidy (« attention, Hermes travail en paralèle »). Aucun `git add -A` n'a été employé : le périmètre a été indexé fichier par fichier.
+
+- **Contrôles** : `verifier-invariants.py` — **0 erreur, 71 avertissements** (base inchangée ; l'erreur `[B0]` apparue en cours de passe sur l'archive `CLAUDE-v5` a été levée en la dotant d'un cartouche, comme ses aînées `v3`/`v4`). Cmd 15 sur la vue git commitable — **1734 fichiers, PROPRE, 0 violation non couverte, 20 occurrences sous exception déclarée, 0 signalement hors Cmd 15**. Les deux épreuves (Unicode 11 points, OCR arabe) **passées**.
+- **Commit** : `554f876`
+
 ## [2026-09-15] outillage | OUT-17 ouvert — triptyque brouillon : les trois contrôles manquants de la file d'écritures de skills
 
 - **Origine** : le dépouillement de la file du 2026-09-15 a mis au jour **trois vérifications absentes** — à l'entrée (contrat du magasin de skills), en file (rien ne publie ce qui est retenu), à la sortie (les fichiers déclarés par un skill ne sont jamais confrontés au disque). Mesures : [[atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills]].

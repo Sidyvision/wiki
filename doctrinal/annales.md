@@ -1,13 +1,25 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-14
+updated: 2026-09-15
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-15] source | Ihyâ' 'ulûm al-dîn — texte arabe de référence, et mesure de la traduction anglaise abrégée
+
+- **Fiche versée** : `doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya.md` — `type: source`, `status: academique`.
+- **Deux faits, aucun verdict.** (1) La méthode que le traducteur **déclare lui-même** en préface (Dacca, 1971) : traduction « not too literally but in substance », omission des « arguments of sects and sub-sects » et des « sayings of the sages of less importance », avec la garantie qu'aucun verset ni hadîth n'est omis. (2) La mesure : **l'appareil des chapitres est complet** (41 en-têtes contre 40 kitâb) tandis que **le corps du texte est à 52 %**. Ce que la conjonction fait voir : ce qui est complet est ce qui se vérifie d'un coup d'œil ; ce qui manque ne se vérifie que par collation.
+- **Le 52 % est un plancher, non une estimation** : il compte un mot arabe pour un mot anglais, alors que l'arabe agglutine ce que l'anglais dissocie. L'écart réel est supérieur. Réserves de mesure rapportées avec l'indice (Cmd 12).
+- **Qualification de la démarche : pendante.** La fiche porte `a-trancher` et le dit explicitement. Le silence sur le verdict est ici **déclaré**, non amorti — la distinction est le sujet même de `atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya.md`, où je consigne ma propre négligence diplomatique : j'avais exigé un **aveu d'appartenance** là où j'avais déjà l'**aveu de la démarche**, alors que ce qui qualifie une démarche est sa direction et ses énoncés, non l'intention de son agent (*Le Règne de la Quantité*).
+- **Trois rattachements inscrits au cartouche sur verdict de Sidy du 2026-09-14**, proposés sans être inscrits jusque-là : `discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion`, `sources/histoire-wahhabis-corancez-redissi`, `sources/guenon-crise-monde-moderne-ch5-individualisme`. La réserve C5 formulée avant verdict ne tenait pas : C5/C6 portent sur les pages `traditionnel`, et celle-ci est `academique` — le vérificateur reste à **71 avertissements, inchangé**.
+- **Avertissement de manipulation** consigné dans la fiche : le PDF « Vol 4 » porte `VOL. Ill` en page de titre et ses pages 1-298 **redoublent le volume 3** ; le quatrième livre commence à la page 299.
+- **Conséquence** : la traduction n'entre **pas** en `textes/` (verdict du 2026-09-14). Le texte arabe intégral est le texte de référence, et il l'est seul — `textes/ghazali-ihya-ulum-al-din-arabe/`.
+- **Contrôles** : `verifier-invariants.py` — **0 erreur, 71 avertissements**, base inchangée après inscription des trois `cross_links`.
+- **Commit** : `554f876`
 ## [2026-09-14] archivage | Qāmūs « The Language of the Future » — 10 pages versées, fiche source, 5 fiches de termes
 
 Suite directe de la passe *Ishrab Sharāb* du même jour. Sidy avait demandé sept liens
