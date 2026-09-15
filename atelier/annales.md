@@ -10,6 +10,14 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] signalement | Le contrat du magasin de skills est vérifié, mais au dernier moment — précision sur OUT-17
+
+- **Ordre de Sidy** : « Je valide l'ensemble », en réponse au signalement (le contrôle du contrat `description` ≤ 60 caractères existe, mais ne se déclenche qu'à l'approbation).
+- **Ce qui est consigné** : une entrée au **registre des problèmes** — création refusée à l'approbation avec la sortie brute (`Description is 142 chars… batch aborted, all touched skills rolled back`), alors que la **mise en file l'avait acceptée** ; reprise en une seule opération (52 caractères) passée du premier coup ; positions caduques retirées par la voie sanctionnée. Diagnostic : `stage_write` ne confronte rien, la chaîne d'application seule le fait — l'écart de `OUT-17` §(1) est donc exact **à un mot près** (la confrontation existe, mais **après** la file), et une position peut dormir en file dans un état inapplicable sans que rien ne le dise.
+- **Résolution** : aucune modification d'outil (Cmd 12) — le constat est rapporté ; `OUT-17` reste `en-cours` et non modifié.
+- **Hors dépôt, dans la même passe** : la skill `wiki-lot-integration` (stagée le 2026-09-15) a été **approuvée** par la voie interne du magasin sur verdict de Sidy, puis **adoptée par le curateur** (`hermes curator adopt`) — elle n'est plus listée comme non gérée. Le magasin est hors dépôt : consigné ici pour mémoire, aucune trace au dépôt.
+- **Commit** : d189186
+
 ## [2026-09-15] ouverture | OUT-18 — l'organe de vérification était éprouvé sur une entrée, pas sur l'ensemble
 
 - **Ordre de Sidy** : « Go » — inscription au registre de la conséquence du signalement du même jour (registre des problèmes, entrée `[2026-09-15]`), l'inscription demandant un verdict (Cmd 13).
