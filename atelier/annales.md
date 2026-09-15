@@ -10,6 +10,17 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] outillage | OUT-17 ouvert — triptyque brouillon : les trois contrôles manquants de la file d'écritures de skills
+
+- **Origine** : le dépouillement de la file du 2026-09-15 a mis au jour **trois vérifications absentes** — à l'entrée (contrat du magasin de skills), en file (rien ne publie ce qui est retenu), à la sortie (les fichiers déclarés par un skill ne sont jamais confrontés au disque). Mesures : [[atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills]].
+- **Triptyque écrit** : `atelier/rd/outillage/out-17-controles-file-et-renvois-skills/` — `intent.md` (4 793 o.), `spec.md` (3 986 o.), `plan.md` (4 050 o., **statut `brouillon`** : aucun code n'est écrit avant visa, Cmd 6). Deux pièces déterministes prévues (`etat-file-skills.py`, `verifier-renvois-skills.py`) et **une ligne** dans un rapport qui existe déjà.
+- **Hors périmètre, écrit noir sur blanc** : ne patche pas le code amont de Hermes (le défaut d'entrée y vit ; ce chantier constate de l'extérieur) ; ne dépouille pas la file (acte de verdict, Cmd 13) ; ne touche ni à la porte ni au fork (options C/D tranchées le même jour).
+- **Identifiant** : `OUT-17` pris **par défaut**, la ligne `OUT-16` étant portée par une modification non commitée d'une autre passe. Si cette ligne n'est pas retenue : renuméroter, jamais supprimer (Cmd 10).
+- **Ligne de registre différée** : `atelier/rd/registre-chantiers.md` porte à cette heure une modification **non commitée d'une autre passe** (chantier `OUT-16`), et l'inscription au registre est un acte de verdict — elle se fera après coup, ou sur accord explicite.
+- **Contrôles** : `verifier-invariants.py --racine /root/wiki` — **1 erreur**, 71 avertissements. **L'erreur n'appartient pas à cette passe** : `[B0] meta/protocole-archives/CLAUDE-v5_2026-09-15.md — aucun frontmatter délimité par ---` (50 491 o., horodaté 01:27, **non suivi par git**). Le fichier appartient à une **passe concurrente** (Claude Code, qui a également `meta/protocole-archives/changelog-CLAUDE.md` modifié) et il est apparu **entre deux relevés de cette session** : 0 erreur à 01:15, 1 erreur à 01:29. Leçon de méthode : **une ligne de base sans horodatage ne vaut rien** — celle du dépôt est désormais citée avec son heure et son auteur quand il n'est pas cette passe.
+- **Ce que la passe laisse ouvert** : le **visa du plan** (Cmd 6) ; la modification du job de rapport (profil `studio`, hors dépôt — préparée, jamais appliquée sans accord) ; l'inscription au registre ; l'**audit de `drain-skill-queue.py`**, embarqué par un skill né de la file elle-même et non encore lu.
+- **Commit** : `e2b4f79` (triptyque)
+
 ## [2026-09-15] infrastructure | Verdicts de clôture — la porte et le fork conservés, le remède porté au point 3 (instruit)
 
 - **Verdict de Sidy**, verbatim : « je valide tes propositions encore ».
