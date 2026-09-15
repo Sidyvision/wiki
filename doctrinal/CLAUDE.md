@@ -16,7 +16,7 @@
 
 ## Nomenclature
 
-`doctrinal/traditions/<slug>.md`, `symboles/<slug>.md`, `autorites/<slug>.md`,
+`doctrinal/traditions/<slug>.md`, `symboles/<slug>.md`, `autorites/<slug>.md`, `references/<slug>.md`,
 `deviations/<slug>.md`, `sources/<slug>.md` ; `etudes/YYYY-MM-DD_titre-court.md` et
 `discernement/YYYY-MM-DD_titre-court.md` (préfixe daté obligatoire).
 
@@ -30,7 +30,7 @@ Chaque page de `doctrinal/` s'ouvre impérativement par ce cartouche :
 ```yaml
 ---
 title: "Titre exact de la page"
-type: doctrine | tradition | symbole | autorite | deviation | etude | source | discernement
+type: doctrine | tradition | symbole | autorite | reference | deviation | etude | source | discernement
 status: traditionnel | academique | profane | contre-traditionnel | speculatif
 tradition_cadre: "islam"   # ou "hindouisme", "hellenisme", "universel", "none"
 tags: [metaphysique, cosmologie, symbolisme]
@@ -101,6 +101,26 @@ original: ["巴"]               # facultatif — écriture d'origine, ou ["to-or
 > statut déjà attribué. **Ce qu'elle ne fait pas** : en conclure une valeur de
 > `status` (Cmd 12), ni s'aligner sur le classement des fiches voisines — **un
 > précédent de dossier n'est pas une règle**.
+
+> **Précision pour `type: reference`** (amendement du 2026-09-15, verdict Sidy, proposition
+> `meta/projet-unifie/propositions/proposition-type-reference-2026-09-15.md`) : `reference`
+> désigne une **personne ou figure citée** par le dépôt — pour être discutée, réfutée ou
+> documentée — **sans autorité** reconnue dans l'ordre traditionnel. Le type dit ce qu'est la
+> fiche ; il ne confère rien. **Le type reste neutre, le statut porte le jugement** : une
+> référence reçoit son `status` comme toute fiche (`academique`, `profane`,
+> `contre-traditionnel`…). Dossier : `doctrinal/references/`.
+>
+> | Type | Porte sur | Exemple |
+> |---|---|---|
+> | `autorite` | une personne dont l'enseignement **fait autorité** dans l'ordre traditionnel | Ibn ʿArabī, Guénon |
+> | `reference` | une personne **citée**, sans cette autorité | Curt Jaimungal, Muhammad ʿAbduh |
+> | `source` | un **texte**, un document, une conférence | la conférence de Jaimungal |
+>
+> Une référence est une **personne** ; un texte reste une `source`, même s'il est de la même
+> personne. **Homonymie à ne pas confondre** : dans `atelier/`, « (RÉFÉRENCE) » qualifie
+> `materiel/` et `entretiens/` au sens de *documentation de consultation* — autre circuit,
+> autre sens. Contrôle outillé : `verifier-invariants.py`, code **B8**, refuse toute valeur
+> de `type:` hors de la liste du Sceau (fichiers de service `type: meta` exceptés).
 
 ## Règles de liens propres au circuit
 

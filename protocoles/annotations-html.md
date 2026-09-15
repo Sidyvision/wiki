@@ -19,8 +19,10 @@ les interdire à l'annotation aurait fermé la porte principale, et l'aurait fer
 silence. La règle a donc été resserrée sur le **texte reçu**, qui est le motif réel.
 
 **Vocabulaire de `data-genre` : clos, et scopé par circuit** (étendu 2026-09-09, verdict
-Sidy). Les sept valeurs transversales — `autorite`, `lieu`, `ouvrage`, `entite`,
-`ecole`, `cycle`, `principe` — valent dans les cinq circuits. `hermeneutique/` en reçoit
+Sidy). Les huit valeurs transversales — `autorite`, `lieu`, `ouvrage`, `entite`,
+`ecole`, `cycle`, `principe` et `reference` — valent dans les cinq circuits. `reference`
+(ajoutée le 2026-09-15, verdict Sidy) type le nom d'une personne **citée sans autorité** ;
+même garde que `auteur` en `hermeneutique/` : elle ne confère aucun statut d'autorité. `hermeneutique/` en reçoit
 **six de plus, admises chez lui seul** : `oeuvre`, `auteur`, `figure`, `dispositif`,
 `concept` et `categorie-editoriale`. Les cinq premières ne sont pas des mots nouveaux
 mais, terme pour terme, les valeurs du champ `type:` que `hermeneutique/CLAUDE.md`

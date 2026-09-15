@@ -20,7 +20,7 @@ links: []
 | `idees` | Idées, idées | — | — | titre | **93 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +171 | 518 |
 | `interpretation` | INTERPRETATION, INTERPRÉTATION, Interpretation, Interprétation (+2) | — | — | definition, table | **61 fiches** | LISEZ-MOI.md +157 | 472 |
 | `infrastructure` | INFRASTRUCTURE, Infrastructure, infrastructure | — | — | definition, table, tag, titre | **119 fiches** | — | 465 |
-| `identite` | IDENTITÉ, Identité, identite, identité | — | — | table, tag | **146 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +80 | 444 |
+| `identite` | IDENTITÉ, Identité, identite, identité | — | — | table, tag | **147 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +80 | 445 |
 | `introduction` | INTRODUCTION, Introduction, introduction | — | — | table, tag, titre | **58 fiches** | LISEZ-MOI.md +121 | 406 |
 | `islam` | ISLAM, Islam, Islâm, Isläm (+3) | — | — | table, titre, translit | **152 fiches** | 01-a.md +35 | 388 |
 | `initiation` | INITIATION, Initiation, initiation | — | — | table, tag, titre | **46 fiches** | 08-h.md +116 | 363 |
@@ -270,7 +270,7 @@ links: []
 | `iqlim` | iqlîm, iqlīm | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 2 |
 | `isaac-ha-kohen` | isaac-ha-kohen | — | — | annotation, tag | [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] | — | 2 |
 | `isal` | îṣâl | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
-| `islah` | islah, islāḥ | — | — | tag, translit | [[doctrinal/autorites/muhammad-abduh]] · [[meta/personnel/2026-06-20_bejjar-genealogie]] | osman-yahya-08-repertoire.md | 2 |
+| `islah` | islah, islāḥ | — | — | tag, translit | [[doctrinal/references/muhammad-abduh]] · [[meta/personnel/2026-06-20_bejjar-genealogie]] | osman-yahya-08-repertoire.md | 2 |
 | `istibsar` | istibṣâr | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `istigfar` | Istigfār, istiġfâr | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/khatm-al-khawajakan]] | — | 2 |
 | `istigraq` | istiġrâq | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |

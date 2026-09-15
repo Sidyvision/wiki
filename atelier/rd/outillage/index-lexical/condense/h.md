@@ -26,7 +26,7 @@ links: []
 | `hozo` | Hozo, hozo | — | — | annotation, table, tag | **59 fiches** | — | 122 |
 | `hadith` | Hadith, Hadîth, hadith, hadîth (+6) | — | ⚖ islam | annotation, table, tag, translit | **41 fiches** | les-limites-du-mental-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +22 | 119 |
 | `hindoues` | Hindoues, hindoues | — | — | titre | **15 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-2.md +57 | 115 |
-| `hamza` | Hamza, hamza, Ḥamza | — | — | table, titre, translit | **30 fiches** | sept-etendards-califat-transcription.md +8 | 113 |
+| `hamza` | Hamza, hamza, Ḥamza | — | — | table, titre, translit | **31 fiches** | sept-etendards-califat-transcription.md +8 | 114 |
 | `hors perimetre` | Hors périmètre | — | — | definition | **47 fiches** | — | 110 |
 | `hamsa` | Hamsa, hamsa, ḫamsa | — | — | table, tag, translit | **9 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 108 |
 | `hetzner` | Hetzner | — | — | table | **46 fiches** | — | 99 |
@@ -131,11 +131,11 @@ links: []
 | `hayal` | ḫayâl, ḫayāl | — | — | translit | [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/barzakh]] | — | 10 |
 | `hilyat` | Hilyat, Ḥilyat | — | — | translit | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/hasbiyallah-rabbani]] | osman-yahya-08-repertoire.md +1 | 10 |
 | `hotri` | Hotri | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch05-the-vedic-dawns.md +3 | 10 |
+| `hussain` | Hussain | — | — | table, titre | [[doctrinal/autorites/ali-hussain]] · [[doctrinal/sources/awrad-ibn-arabi]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · +2 | osman-yahya-08-repertoire.md | 10 |
 | `hajar` | Hajar, Hājar | — | — | translit | [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] · [[doctrinal/sources/hasbiyallah-rabbani]] · [[doctrinal/symboles/tawakkul]] · [[meta/journal/2026-06-18-entretien-integral]] · [[meta/journal/2026-06-18-tawakkul-transition]] | — | 9 |
 | `hansu` | Hansu | — | — | table, titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/personnel/2026-06-20_taekwondo-hansu]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 9 |
 | `hayula` | hayûlâ, hayūlā | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 9 |
 | `hujja` | hujja, ḥujja | — | — | translit | [[atelier/rd/bibliotheque/table-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 9 |
-| `hussain` | Hussain | — | — | table, titre | [[doctrinal/autorites/ali-hussain]] · [[doctrinal/sources/awrad-ibn-arabi]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · +1 | osman-yahya-08-repertoire.md | 9 |
 | `hakim` | Hakim, Hakîm, hakim, hakïm (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +3 | 8 |
 | `halifa` | Halifa, ḫalîfa | — | — | translit | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +1 | 8 |
 | `hamd` | hamd, ḥamd | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md | 8 |

@@ -202,10 +202,20 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/autorites/faraz-rabbani|Faraz Rabbani (SeekersGuidance, fiqh hanafite)]]
 - [[doctrinal/autorites/hamza-yusuf|Hamza Yusuf (Zaytuna College)]] — stub
 
+
+---
+
+## III bis. Les Références (`references/`)
+
+Personnes **citées sans autorité** — type neutre `reference`, adopté le 2026-09-15 : le type dit
+ce qu'est la fiche, le statut porte le jugement.
+
+- [[doctrinal/references/curt-jaimungal|Curt Jaimungal (Theories of Everything)]] — `academique` ; élément antagoniste de l'étude du 2026-09-15 ; sa conférence en « Les Sources »
+
 ### Réformisme et modernisme islamiques (statut `profane` proposé, verdict réservé)
-- [[doctrinal/autorites/al-afghani|Jamāl al-Dīn al-Afghānī (1838/39-1897)]] — maître de ʿAbduh, panislamisme, réponse à Renan (1883), revue *al-ʿUrwa al-Wuthqā* ; sources secondaires, textes `to-source` ; placement provisoire (type « référence » en discussion)
-- [[doctrinal/autorites/muhammad-abduh|Muhammad ʿAbduh (1849-1905, Grand Mufti d'Égypte)]] — concordisme (djinns lus comme microbes, *Tafsīr al-Manār*) ; sources secondaires, textes `to-source`
-- [[doctrinal/autorites/rashid-rida|Muhammad Rashīd Riḍā (1865-1935, revue *al-Manār*)]] — du modernisme au salafisme et au soutien du wahhābisme ; sources secondaires, textes `to-source`
+- [[doctrinal/references/al-afghani|Jamāl al-Dīn al-Afghānī (1838/39-1897)]] — maître de ʿAbduh, panislamisme, réponse à Renan (1883), revue *al-ʿUrwa al-Wuthqā* ; sources secondaires, textes `to-source` 
+- [[doctrinal/references/muhammad-abduh|Muhammad ʿAbduh (1849-1905, Grand Mufti d'Égypte)]] — concordisme (djinns lus comme microbes, *Tafsīr al-Manār*) ; sources secondaires, textes `to-source`
+- [[doctrinal/references/rashid-rida|Muhammad Rashīd Riḍā (1865-1935, revue *al-Manār*)]] — du modernisme au salafisme et au soutien du wahhābisme ; sources secondaires, textes `to-source`
 
 ---
 

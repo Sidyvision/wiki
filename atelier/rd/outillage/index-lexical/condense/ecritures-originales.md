@@ -454,7 +454,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ℹ` | ℹ | — | — | translit | [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]] · [[doctrinal/sources/guenon-orient-et-occident]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | — | 3 |
+| `ℹ` | ℹ | — | — | translit | [[doctrinal/references/curt-jaimungal]] · [[doctrinal/references/muhammad-abduh]] · [[doctrinal/references/rashid-rida]] · [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]] · [[doctrinal/sources/guenon-orient-et-occident]] · +1 | — | 6 |
 
 ## 三
 

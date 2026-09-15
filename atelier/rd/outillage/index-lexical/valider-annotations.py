@@ -94,14 +94,14 @@ def _generateur():
     m = importlib.util.module_from_spec(s); s.loader.exec_module(m)
     return m
 
-VERSION = "1.4"
+VERSION = "1.5"
 INV = None
 ELEMENTS_CLOS = ("dfn", "span", "abbr")
 # Vocabulaire clos. Etendu le 2026-09-08 sur verdict de Sidy : les quatre
 # genres d'origine ne savaient typer ni les ecoles (darsana), ni les cycles,
 # ni les principes metaphysiques — trois categories massives de doctrinal/.
 GENRES_CLOS = {"autorite", "lieu", "ouvrage", "entite",
-               "ecole", "cycle", "principe"}
+               "ecole", "cycle", "principe", "reference"}  # reference : 2026-09-15, verdict Sidy
 
 # --- Vocabulaire propre a `hermeneutique/` (etendu le 2026-09-09, verdict Sidy)
 # Les sept genres ci-dessus ne savaient nommer ni une oeuvre profane, ni un

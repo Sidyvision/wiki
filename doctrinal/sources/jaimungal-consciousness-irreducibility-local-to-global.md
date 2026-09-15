@@ -8,13 +8,14 @@ created: 2026-09-15
 updated: 2026-09-15
 sources: ["textes/jaimungal-consciousness-irreducibility-local-to-global/transcription-asr.md"]
 sources_count: 1
-cross_links: ["[[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]", "[[doctrinal/autorites/rene-guenon]]"]
+cross_links: ["[[doctrinal/references/curt-jaimungal]]", "[[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]", "[[doctrinal/autorites/rene-guenon]]"]
 ---
 
 # Curt Jaimungal — *Consciousness, Irreducibility, and the Local to Global*
 
 > ℹ️ **Placement (verdict du directeur du dépôt, 2026-09-15).** Jaimungal n'est pas une
-> autorité : une première rédaction l'avait placé en `autorites/`, corrigée le jour même.
+> autorité : une première rédaction l'avait placé en `autorites/`, corrigée le jour même ;
+> la personne a désormais sa fiche de type `reference`, [[doctrinal/references/curt-jaimungal]].
 > Comme pour l'exposé de Koly Cherif Keita, le dépôt consigne **la source** — ici une
 > conférence transcrite —, non la personne. Déplacé par `git mv`, historique conservé.
 

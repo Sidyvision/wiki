@@ -8,9 +8,12 @@ updated: 2026-09-15
 
 # Proposition — le type neutre « référence »
 
-> **Statut : brouillon — plan demandé par Sidy le 2026-09-15, non visé.** Rien n'est
-> exécuté tant que ce plan n'est pas visé (Cmd 6). Idée de Sidy : « un nouveau type :
-> "référence" comme catégorie neutre ».
+> **Statut : validée par Sidy le 2026-09-15, exécution effective.** Réponses aux questions du
+> § 6 : « 1. Confirmé 2. Oui 3. Oui 4. Plus tard, ajoute à Queue-idée ». Exécuté le même jour :
+> protocoles (§ 4, points 1-4), outils (points 5-7, dont le contrôle B8 de la proposition
+> annexe), reprises des points 8 et 9 ; le point 10 est versé à
+> `meta/projet-unifie/queue-idees.md`. Idée de Sidy : « un nouveau type : "référence" comme
+> catégorie neutre ».
 
 ## 1. Constat — deux trous, révélés le même jour
 

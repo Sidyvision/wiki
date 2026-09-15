@@ -16,7 +16,7 @@ links: []
 | `etat` | ETAT, etat, État, état | — | — | definition, table, titre | **268 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +314 | 1981 |
 | `etats` | Etats, etats, ÉTATS, États (+1) | — | — | table, titre | **122 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +222 | 1407 |
 | `exemple` | Exemple, exemple | — | ⚖ universel | definition, table | **93 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +326 | 921 |
-| `etude` | ETUDE, etude, Étude, étude | — | — | titre | **65 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +197 | 445 |
+| `etude` | ETUDE, etude, Étude, étude | — | — | titre | **66 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +197 | 446 |
 | `edition` | EDITION, Edition, edition, ÉDITION (+2) | — | ⚖ hindouisme | definition, table | **125 fiches** | 00-front-matter.md +77 | 438 |
 | `existence` | Existence, existence, existencé | — | — | tag | **34 fiches** | 03-c.md +177 | 402 |
 | `editions` | editions, ÉDITIONS, Éditions, éditions | — | — | table, tag | **63 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +192 | 321 |
@@ -64,7 +64,6 @@ links: []
 | `estimation` | Estimation, estimation | — | — | definition, table | **17 fiches** | isaghuji-cours01-introduction-transcription.md | 29 |
 | `entente` | ENTENTE, Entente, entente | — | — | table | [[doctrinal/sources/guenon-orient-et-occident]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-33.md +9 | 26 |
 | `echecs` | Échecs, échecs | — | — | titre | **14 fiches** | les-antecedents-de-mme-besant-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +2 | 24 |
-| `emplacement` | Emplacement, emplacement | — | — | table | **19 fiches** | la-puissance-du-serpent.md +1 | 24 |
 | `eschatologie` | Eschatologie, eschatologie | — | ✓ islam | tag, titre | **20 fiches** | — | 24 |
 | `etat du depot percu` | État du dépôt perçu | — | — | definition | [[meta/projet-unifie/choura/cycle-2026-08-28]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/choura/cycle-2026-08-31]] · [[meta/projet-unifie/choura/cycle-2026-09-01]] | — | 24 |
 | `exoterisme` | Exotérisme, exotérisme | — | — | table | [[atelier/rd/registre-chantiers]] · [[meta/carte-du-depot]] | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 22 |
@@ -146,7 +145,7 @@ links: []
 | `ecart possible, signale sans etre tranche` | Écart possible, signalé sans être tranché | — | — | definition | [[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]] | — | 0 |
 | `echelle-ontologique` | echelle-ontologique | — | — | tag | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] | — | 0 |
 | `effets-reversibles` | effets-reversibles | — | — | tag | [[atelier/rd/veille/cordis/equations]] | — | 0 |
-| `elephant-inverse` | elephant-inverse | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | — | 0 |
+| `elephant-inverse` | elephant-inverse | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/references/curt-jaimungal]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | — | 0 |
 | `en revanche, le motif tient pleinement pour les binaires` | En revanche, le motif tient pleinement pour les binaires | — | — | definition | [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent]] | — | 0 |
 | `energie-vitale` | energie-vitale | — | — | tag | [[hermeneutique/hunter-x-hunter/nen-systeme]] | — | 0 |
 | `enregistrement-analogique` | enregistrement-analogique | — | — | tag | [[atelier/materiel/studio-principal]] | — | 0 |

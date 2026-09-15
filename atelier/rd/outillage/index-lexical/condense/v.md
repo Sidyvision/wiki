@@ -13,13 +13,13 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `vers` | VERS, Vers, vers | — | — | titre | **336 fiches** | LISEZ-MOI.md +251 | 1656 |
-| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **345 fiches** | LISEZ-MOI.md +13 | 1320 |
-| `vigilance` | VIGILANCE, Vigilance, vigilance | — | — | definition, table, tag, titre | **190 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +40 | 531 |
+| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **348 fiches** | LISEZ-MOI.md +13 | 1329 |
+| `vigilance` | VIGILANCE, Vigilance, vigilance | — | — | definition, table, tag, titre | **191 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +40 | 532 |
 | `verification` | VÉRIFICATION, Vérification, verification, vérification | — | ⚖ hindouisme | definition, table, tag | **203 fiches** | LISEZ-MOI.md +7 | 512 |
 | `veille` | VEILLE, Veille, veille | — | — | table, tag, titre | **94 fiches** | LISEZ-MOI.md +19 | 491 |
 | `viii` | VIII, viii | — | — | table | **124 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +91 | 458 |
 | `vedanta` | Vedanta, Vedânta, Vedānta, VÊDÂNTA (+6) | — | — | annotation, table, tag, titre, translit | **65 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +121 | 405 |
-| `vedas` | VEDAS, VEDAs, Vedas, Védas (+3) | — | — | annotation, table, tag, titre | **17 fiches** | LISEZ-MOI.md +33 | 397 |
+| `vedas` | VEDAS, VEDAs, Vedas, Védas (+3) | — | — | annotation, table, tag, titre | **18 fiches** | LISEZ-MOI.md +33 | 398 |
 | `vision` | VISION, Vision, vision | — | — | table, tag | **60 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +59 | 312 |
 | `vivant` | Vivant, vivant | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +66 | 280 |
 | `verdict sidy` | Verdict Sidy | — | — | definition | **106 fiches** | LISEZ-MOI.md | 272 |
@@ -27,11 +27,11 @@ links: []
 | `vertical` | Vertical, vertical | — | — | titre | **54 fiches** | 17-t.md +59 | 263 |
 | `veda` | Veda, VÊDA, Véda, Vêda (+2) | — | — | table | **17 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +54 | 251 |
 | `vritra` | VRITRA, Vritra | — | — | table, titre | **10 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-33.md +17 | 220 |
-| `verdict de sidy` | Verdict de Sidy | — | — | definition | **100 fiches** | LISEZ-MOI.md +3 | 210 |
+| `verdict de sidy` | Verdict de Sidy | — | — | definition | **105 fiches** | LISEZ-MOI.md +3 | 217 |
 | `vedique` | Védique, vedique, védique, vêdique | — | — | titre | **37 fiches** | la-puissance-du-serpent.md +41 | 156 |
 | `verifiee` | Vérifiée, vérifiée | — | ⚖ universel | definition | **102 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 143 |
 | `valsan` | Valsan, Valsän, Vàlsan, Vâlsan (+2) | — | — | table, tag, titre | **25 fiches** | sept-etendards-califat-transcription.md +8 | 132 |
-| `vise` | Visé, vise, visé | — | — | tag | **74 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +31 | 128 |
+| `vise` | Visé, vise, visé | — | — | tag | **73 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +31 | 126 |
 | `venus` | VENUS, Venus, Vénus, venus (+1) | — | — | table | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +31 | 125 |
 | `vital` | VITAL, Vital, vital | — | — | table, titre | **29 fiches** | 10-j.md +42 | 125 |
 | `vishnu` | Vishnu | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +2 | la-puissance-du-serpent.md +27 | 124 |

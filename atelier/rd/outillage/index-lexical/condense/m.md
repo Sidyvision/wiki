@@ -12,11 +12,11 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `monde` | MONDE, Monde, monde | — | — | table, titre | **251 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +431 | 3675 |
+| `monde` | MONDE, Monde, monde | — | — | table, titre | **252 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +431 | 3676 |
 | `manifestation` | MANIFESTATION, Manifestation, manifestation | — | — | table, tag, titre | **121 fiches** | 04-d.md +300 | 1726 |
 | `mort` | MORT, Mort, mort | — | — | table, titre | **118 fiches** | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +132 | 1135 |
 | `metaphysique` | MÉTAPHYSIQUE, Métaphysique, metaphysique, métaphysique | — | — | table, tag, titre | **170 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +224 | 985 |
-| `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | — | table, tag, titre | **127 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +277 | 974 |
+| `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | — | table, tag, titre | **127 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +277 | 975 |
 | `moderne` | MODERNE, Moderne, moderne | — | — | table, titre | **92 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +234 | 956 |
 | `man` | Man, man, manʿ | — | — | titre, translit | **13 fiches** | 04-d.md +84 | 826 |
 | `manifeste` | Manifeste, Manifesté, manifeste, manifesté | — | — | table, tag, titre | **138 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +215 | 792 |
@@ -37,7 +37,7 @@ links: []
 | `mecanique` | Mécanique, mecanique, mécanique | — | — | tag | **126 fiches** | connaissance-initiatique-et-culture-profane-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +20 | 324 |
 | `materiel` | Matériel, materiel, matériel | — | — | tag | **79 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +48 | 303 |
 | `malakut` | Malakut, Malakût, Malakūt, malakut (+3) | — | — | annotation, table, tag, titre, translit | **57 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 285 |
-| `muhammad` | MUHAMMAD, Muhammad, Muḥammad, muhammad | — | — | table, titre, translit | **57 fiches** | LISEZ-MOI.md +36 | 260 |
+| `muhammad` | MUHAMMAD, Muhammad, Muḥammad, muhammad | — | — | table, titre, translit | **59 fiches** | LISEZ-MOI.md +36 | 262 |
 | `modalite` | Modalité, modalité | — | — | table, titre | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +81 | 255 |
 | `marqueur` | Marqueur, marqueur | — | ⚖ islam | definition | **78 fiches** | index-conversion.md +2 | 246 |
 | `mecanisme` | MÉCANISME, Mécanisme, mécanisme | — | — | definition, table | **85 fiches** | la-puissance-du-serpent.md +17 | 235 |
@@ -238,6 +238,7 @@ links: []
 | `moog` | Moog, moog | — | — | table, tag, titre | [[atelier/materiel/moog-voyager]] · [[atelier/materiel/studio-principal]] · [[label/production/album-personnel]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 8 |
 | `morphopsychologie` | Morphopsychologie, morphopsychologie | — | ✓ islam | titre | [[doctrinal/autorites/aiman-attar]] · [[doctrinal/deviations/body-types]] · [[doctrinal/deviations/morphopsychologie]] · [[doctrinal/symboles/tibb-e-nabawi]] · [[meta/carte-doctrinal]] · +2 | — | 8 |
 | `muamalat` | Muʿāmalāt, muʿāmalāt | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/symboles/fiqh]] · [[doctrinal/traditions/madhhab-maliki]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] | — | 8 |
+| `muhammad-abduh` | muhammad-abduh | — | ✓ islam · *arabe* | annotation, tag | [[doctrinal/autorites/muhammad-abduh]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/references/al-afghani]] · [[doctrinal/references/muhammad-abduh]] · [[doctrinal/references/rashid-rida]] | — | 8 |
 | `macdonell` | Macdonell | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch05-the-vedic-dawns.md +2 | 7 |
 | `macrocosme-microcosme` | macrocosme-microcosme | — | — | annotation, tag | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] · [[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]] · [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]] · [[meta/carte-du-depot-doctrinal]] · +1 | — | 7 |
 | `mahbub` | Mahbüb, maḥbûb | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +2 | 7 |
@@ -253,7 +254,6 @@ links: []
 | `mithaq` | Mithaq, mīthāq | — | — | translit | [[doctrinal/discernement/2026-08-12_nen-pacte-restriction-ascetique]] · [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]] · [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/symboles/pierre-noire-mecque]] | qamus-0518-himma.md +1 | 7 |
 | `mlx` | MLX, mlx | — | — | tag | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] · [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]] · [[atelier/rd/veille/registre]] | — | 7 |
 | `mother-base` | mother-base | — | — | annotation, tag | [[atelier/rd/infrastructure/bureau-tui-architecture]] · [[hermeneutique/death-stranding/dhv-magellan]] · [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/idroid]] · [[hermeneutique/metal-gear/metal-gear]] · +1 | — | 7 |
-| `muhammad-abduh` | muhammad-abduh | — | ✓ islam · *arabe* | annotation, tag | [[doctrinal/autorites/al-afghani]] · [[doctrinal/autorites/muhammad-abduh]] · [[doctrinal/autorites/rashid-rida]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 7 |
 | `muhammadiyya` | Muhammadiyya, Muḥammadiyya, muhammadiyya, muḥammadiyya | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/khatm]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 7 |
 | `mund` | Mund | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] | iv.md | 7 |
 | `mutables` | Mutables | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]] · [[doctrinal/symboles/ilm-al-nujum]] · [[doctrinal/symboles/manazil-al-qamar]] | — | 7 |
@@ -497,7 +497,7 @@ links: []
 | `mise a jour du 2026-09-02` | Mise à jour du 2026-09-02 | — | ⚖ hindouisme | definition | [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] | — | 0 |
 | `mission permanente du karubi, une fois l'atelier debout` | Mission permanente du Karūbī, une fois l'atelier debout | — | — | definition | [[meta/transmissions/karubi-jean-marc]] · [[meta/transmissions/karubi-wendel]] | — | 0 |
 | `modele-local` | modele-local | — | — | tag | [[meta/projet-unifie/03-transition-modele-open-source]] | — | 0 |
-| `modernisme-islamique` | modernisme-islamique | — | — | tag | [[doctrinal/autorites/al-afghani]] · [[doctrinal/autorites/muhammad-abduh]] · [[doctrinal/autorites/rashid-rida]] | — | 0 |
+| `modernisme-islamique` | modernisme-islamique | — | — | tag | [[doctrinal/references/al-afghani]] · [[doctrinal/references/muhammad-abduh]] · [[doctrinal/references/rashid-rida]] | — | 0 |
 | `monde-celeste` | monde-celeste | — | — | tag | [[doctrinal/sources/guenon-angelologie-alphabet-arabe-archetypes-celestes]] | — | 0 |
 | `monde-intelligible` | monde-intelligible | — | — | tag | [[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]] | — | 0 |
 | `monde-invisible` | monde-invisible | — | — | tag | [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/symboles/shamharush]] | — | 0 |

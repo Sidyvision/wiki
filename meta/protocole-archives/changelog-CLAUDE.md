@@ -16,6 +16,20 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] amendement | Type neutre `reference` — Sceau Recteur, annotations, arborescence ; contrôle B8
+
+**Verdict de Sidy**, 2026-09-15, sur `meta/projet-unifie/propositions/proposition-type-reference-2026-09-15.md` :
+« 1. Confirmé 2. Oui 3. Oui 4. Plus tard ». **Ce qui change** : `doctrinal/CLAUDE.md` reçoit
+`type: reference` (définition, tableau des frontières autorite / reference / source, homonymie
+avec l'« (RÉFÉRENCE) » de l'atelier) et le dossier `doctrinal/references/` ; le §VII racine
+passe le vocabulaire `data-genre` de sept à **huit** valeurs (`reference`) ; le §II racine
+nomme `references/` ; `protocoles/annotations-html.md` suit. **Outils** :
+`valider-annotations.py` v1.5 (`reference` admis) ; `verifier-invariants.py` reçoit le
+contrôle **B8** (valeur de `type:` au Sceau, refus hors liste) — la valeur n'était jusque-là
+jamais contrôlée ; mesure préalable : zéro fiche hors liste. **Additif** : rien n'est
+supprimé, d'où aucune archive de version (même règle que les amendements additifs
+antérieurs). Réversible sur simple verdict (Cmd 10).
+
 ## [2026-09-15] amendement | `protocoles/annotations-html.md` — ordre des gestes (`git add` d'abord) et signalement S2
 
 **Verdict de Sidy**, 2026-09-15 : « je valide tes propositions » — inscrire la règle d'usage et

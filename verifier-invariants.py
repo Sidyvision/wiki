@@ -132,6 +132,13 @@ CLES_REQUISES = {
     "hermeneutique": ["title", "type", "registre", "created", "updated", "sources"],
 }
 
+# B8 — valeurs admises de `type:` au Sceau Recteur (doctrinal/CLAUDE.md).
+# Ouvert le 2026-09-15 (verdict Sidy) : jusque-la, la PRESENCE de `type:` etait
+# exigee (B1) mais sa VALEUR jamais controlee. Mesure prealable : aucune fiche
+# doctrinale hors liste (hors fichiers de service `type: meta`).
+TYPES_DOCTRINAUX = {"doctrine", "tradition", "symbole", "autorite", "reference",
+                    "deviation", "etude", "source", "discernement"}
+
 # Étanchéité des circuits : circuit source -> circuits interdits en cible.
 # Règle du dépôt : doctrinal ne pointe JAMAIS vers atelier ni meta.
 ETANCHEITE_INTERDITE = {
@@ -506,6 +513,13 @@ def controler_frontmatter(chemin_rel, fm, rap):
         for cle in CLES_REQUISES.get(circ, []):
             if cle not in fm:
                 rap.erreur(chemin_rel, "B1", f"clé de frontmatter manquante : `{cle}`")
+    # B8 — valeur de `type:` hors de la liste du Sceau Recteur.
+    if circ == "doctrinal" and not fichier_de_service and "type" in fm:
+        t_ = str(fm.get("type", "")).strip()
+        if t_ not in TYPES_DOCTRINAUX:
+            rap.erreur(chemin_rel, "B8",
+                       f"`type: {t_}` hors de la liste du Sceau Recteur "
+                       f"({', '.join(sorted(TYPES_DOCTRINAUX))})")
 
     # B2 — sources_count cohérent avec sources.
     if "sources_count" in fm and "sources" in fm:

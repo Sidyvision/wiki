@@ -2,7 +2,7 @@
 title: "Queue de tâches — idées en attente de déploiement aux agents"
 type: meta
 created: 2026-08-27
-updated: 2026-09-02
+updated: 2026-09-15
 ---
 
 # Queue de tâches
@@ -20,6 +20,21 @@ updated: 2026-09-02
 > de l'entrée.
 
 <!-- INSERTION: QUEUE -->
+
+## [2026-09-15] reexamen-rubrique-erudition-academique | non-assigné | en attente | normale
+
+**Description** : réexaminer au critère du type `reference` (adopté le 2026-09-15) les sept fiches
+de la rubrique « Érudition académique » du Catalogue doctrinal — Ali Hussain, R. Raphael Afilalo,
+Yaqub Chaudhary, Aiman Attar, Titus Burckhardt, Faraz Rabbani, Hamza Yusuf : autorité, ou
+référence ? Rien à déplacer d'office ; verdict de Sidy fiche par fiche (Cmd 12).
+**Contexte** : proposition `meta/projet-unifie/propositions/proposition-type-reference-2026-09-15.md`,
+question 4 — « Plus tard, ajoute à Queue-idée » (Sidy, 2026-09-15). Relevé à trancher au passage :
+la fiche Yaqub Chaudhary, rangée sous « Érudition académique », porte `status: traditionnel`.
+**Agent(s) concerné(s)** : `non-assigné`
+**Priorité** : normale
+**Statut** : en attente
+**Traité le** :
+**Résultat / lien** :
 
 ## Gabarit d'entrée (à copier pour chaque nouvelle idée)
 

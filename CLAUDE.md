@@ -82,7 +82,7 @@ wiki/  (= /root/wiki)
 ├── doctrinal/             ← Le corps vivant des connaissances (Sceau Recteur)
 │   ├── CLAUDE.md          ← Protocole local (Sceau, nomenclature, actions propres)
 │   ├── index.md · annales.md
-│   ├── doctrines/ · traditions/ · symboles/ · autorites/ · deviations/
+│   ├── doctrines/ · traditions/ · symboles/ · autorites/ · references/ · deviations/
 │   ├── etudes/ (YYYY-MM-DD_) · discernement/ (YYYY-MM-DD_) · sources/
 │   │       └── assets-<sujet>/  ← Schémas versionnables adjacents à leur fiche
 │   │                              (ex. etudes/assets-kamon/, ouvert 2026-09-08)
@@ -459,8 +459,9 @@ d'indexation) : le HTML **type** pour la machine ce que le graphe voit déjà, i
 `tags:` ni un wikilink de la fiche ne portent est refusée (D1). La convention est **close
 à trois éléments** — `<dfn>` porteur de `data-terme` / `data-translit` /
 `data-tradition`, `<span>` porteur de `data-nom` / `data-genre`, et `<abbr>` porteur de
-`title` — avec `data-genre` restreint à un vocabulaire clos de sept valeurs :
-`autorite`, `lieu`, `ouvrage`, `entite`, `ecole`, `cycle`, `principe`.
+`title` — avec `data-genre` restreint à un vocabulaire clos de huit valeurs :
+`autorite`, `lieu`, `ouvrage`, `entite`, `ecole`, `cycle`, `principe`, `reference` (ajoutée le
+2026-09-15 : personne citée sans autorité — elle type le nom, n'en confère aucune).
 
 **Les règles de placement**, appliquées depuis l'ouverture du chantier et ratifiées ce
 jour sur verdict de Sidy :

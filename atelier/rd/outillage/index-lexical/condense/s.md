@@ -12,17 +12,17 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **512 fiches** | LISEZ-MOI.md +10 | 2934 |
-| `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **544 fiches** | LISEZ-MOI.md +170 | 2621 |
+| `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **516 fiches** | LISEZ-MOI.md +10 | 2944 |
+| `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **543 fiches** | LISEZ-MOI.md +170 | 2621 |
 | `symbolisme` | SYMBOLISME, Symbolisme, symbolisme | — | — | table, tag, titre | **137 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +325 | 1918 |
-| `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **412 fiches** | LISEZ-MOI.md +62 | 1535 |
+| `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **413 fiches** | LISEZ-MOI.md +62 | 1536 |
 | `science` | SCIENCE, Science, science | — | — | table, titre | **149 fiches** | LISEZ-MOI.md +300 | 1495 |
 | `symboles` | SYMBOLES, Symboles, symboles | — | — | table, titre | **242 fiches** | LISEZ-MOI.md +202 | 1190 |
 | `shinto` | Shinto, Shintō, shinto, shintô (+1) | `神道` | ✓ shintoisme | annotation, table, tag, titre, translit | **18 fiches** | LISEZ-MOI.md +25 | 1100 |
 | `suite` | Suite, suite | — | — | titre | **119 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +367 | 1088 |
+| `statut` | Statut, statut | — | — | tag | **363 fiches** | LISEZ-MOI.md +12 | 1065 |
 | `symbole` | SYMBOLE, Symbole, symbole | — | — | table, tag | **81 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +211 | 1065 |
-| `statut` | Statut, statut | — | — | tag | **362 fiches** | LISEZ-MOI.md +12 | 1063 |
-| `sept` | SEPT, Sept, sept | — | — | table, titre | **124 fiches** | 09-i.md +85 | 971 |
+| `sept` | SEPT, Sept, sept | — | — | table, titre | **125 fiches** | 09-i.md +85 | 973 |
 | `spirituelle` | SPIRITUELLE, Spirituelle, spirituelle | — | — | table, titre | **165 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +196 | 957 |
 | `session` | Session, session | — | — | titre | **193 fiches** | LISEZ-MOI.md +10 | 878 |
 | `spirituel` | SPIRITUEL, Spirituel, spirituel | — | — | tag, titre | **153 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +205 | 845 |
@@ -30,7 +30,7 @@ links: []
 | `soi` | SOI, Soi, soi | — | — | tag | **91 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +242 | 781 |
 | `said` | Said, Saʿîd, said, saïd (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/shawq]] | 01-a.md +64 | 755 |
 | `structure` | STRUCTURE, Structure, structure, structuré | — | — | definition, table, tag, titre | **250 fiches** | 08-h.md +44 | 660 |
-| `sceau` | SCEAU, Sceau, sceau | — | — | table | **142 fiches** | LISEZ-MOI.md +39 | 605 |
+| `sceau` | SCEAU, Sceau, sceau | — | — | table | **142 fiches** | LISEZ-MOI.md +39 | 607 |
 | `shakti` | Shakti, Shaktî, shakti | — | — | table | [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +2 | la-puissance-du-serpent.md +19 | 492 |
 | `signe` | SIGNE, Signe, signe, signé | — | — | table, titre | **117 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +141 | 491 |
 | `script` | Script, script | — | — | definition, table | **128 fiches** | LISEZ-MOI.md +5 | 474 |
@@ -515,7 +515,7 @@ links: []
 | `synthese factuelle` | Synthèse factuelle | — | — | definition | [[meta/projet-unifie/choura/cycle-2026-08-31]] | — | 1 |
 | `sagesse-innee` | sagesse-innee | — | — | tag | [[doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise]] | — | 0 |
 | `saint-yves-dalveydre` | saint-yves-dalveydre | — | — | tag | [[doctrinal/sources/archeometre-saint-yves-papus-1911]] · [[doctrinal/symboles/archeometre]] | — | 0 |
-| `salafiyya` | salafiyya | — | — | tag | [[doctrinal/autorites/rashid-rida]] | — | 0 |
+| `salafiyya` | salafiyya | — | — | tag | [[doctrinal/references/rashid-rida]] | — | 0 |
 | `sante-spirituelle` | sante-spirituelle | — | — | tag | [[meta/personnel/2026-06-20_gout-sucre-priere]] | — | 0 |
 | `sayyid-al-awwalin-wal-akhirin` | sayyid-al-awwalin-wal-akhirin | — | — | tag | [[doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh]] | — | 0 |
 | `sceau-recteur` | sceau-recteur | — | — | tag | [[meta/projet-unifie/propositions/proposition-type-reference-2026-09-15]] | — | 0 |

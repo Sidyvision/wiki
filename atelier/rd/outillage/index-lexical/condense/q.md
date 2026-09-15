@@ -12,14 +12,14 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `question` | QUESTION, Question, queStion, question (+1) | — | — | definition, table | **219 fiches** | LISEZ-MOI.md +464 | 1849 |
+| `question` | QUESTION, Question, queStion, question (+1) | — | — | definition, table | **220 fiches** | LISEZ-MOI.md +464 | 1850 |
 | `quatre` | QUATRE, Quatre, quatre | — | — | table, titre | **194 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +117 | 1098 |
 | `quoi` | Quoi, quoi | — | — | definition | **87 fiches** | LISEZ-MOI.md +317 | 758 |
 | `quantite` | QUANTITÉ, Quantité, quantite, quantité | — | — | table, tag, titre | **48 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +151 | 547 |
-| `questions` | QUESTIONS, Questions, questions | — | — | table, tag | **85 fiches** | 04-d.md +132 | 443 |
+| `questions` | QUESTIONS, Questions, questions | — | — | table, tag | **85 fiches** | 04-d.md +132 | 444 |
 | `qualite` | QUALITÉ, Qualité, qualite, qualité | — | — | table, tag | **83 fiches** | LISEZ-MOI.md +109 | 345 |
-| `qualification` | Qualification, qualification | — | — | table, tag | **115 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +34 | 276 |
-| `qur'an` | Qur'an | — | — | table | [[doctrinal/autorites/michel-valsan]] · [[doctrinal/autorites/muhammad-abduh]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/symboles/jinns-classification-couleur]] · +2 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +34 | 273 |
+| `qualification` | Qualification, qualification | — | — | table, tag | **116 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +34 | 277 |
+| `qur'an` | Qur'an | — | — | table | [[doctrinal/autorites/michel-valsan]] · [[doctrinal/references/muhammad-abduh]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/symboles/jinns-classification-couleur]] · +2 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +34 | 273 |
 | `qutb` | Qutb, Quṭb, qutb, quṭb | — | — | annotation, table, tag, titre, translit | **51 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +10 | 212 |
 | `qwen` | Qwen, qwen | — | — | table, tag, titre | **45 fiches** | — | 154 |
 | `qaf` | Qaf, Qâf, Qāf, qaf (+2) | — | — | tag, titre, translit | **33 fiches** | sept-etendards-califat-transcription.md +6 | 134 |
@@ -52,7 +52,7 @@ links: []
 | `qamus` | Qamus, Qāmūs | — | — | titre, translit | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/qamus-language-of-the-future]] · [[meta/carte-du-depot]] | LISEZ-MOI.md +10 | 15 |
 | `qasim` | Qâsim, Qäsim, Qāsim, qasîm | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | les-quatre-mondes.md +3 | 15 |
 | `qliphoth` | Qliphoth, qliphoth | — | — | table, tag | **10 fiches** | — | 15 |
-| `qadiriyya` | Qadiriyya, Qādiriyya, qadiriyya | — | — | annotation, tag, translit | [[doctrinal/autorites/abd-al-qadir-al-jilani]] · [[doctrinal/autorites/rashid-rida]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[meta/genealogie/mamadou-doudou-sissoko]] · [[meta/personnel/2026-08-18_initiation-virtuelle]] | — | 11 |
+| `qadiriyya` | Qadiriyya, Qādiriyya, qadiriyya | — | — | annotation, tag, translit | [[doctrinal/autorites/abd-al-qadir-al-jilani]] · [[doctrinal/references/rashid-rida]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[meta/genealogie/mamadou-doudou-sissoko]] · [[meta/personnel/2026-08-18_initiation-virtuelle]] | — | 11 |
 | `qadiyya` | qaḍiyya | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 11 |
 | `qada` | Qada, qada, qadâ, qaḍâʾ | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | 06-f.md +2 | 10 |
 | `quwwat` | quwwat, quwwāt | — | — | translit | [[doctrinal/discernement/2026-06-20_experience-lefke-materia-secunda]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/discernements-blocs]] | — | 9 |
