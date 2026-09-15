@@ -10,6 +10,21 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/outillage | `valider-index-livres.py` limité aux fiches `index-livre`
+
+- Verdict de Sidy (« oui, limite le validateur »). Le validateur examinait tout `index-*.md` et
+  refusait 5 fiches sur 6 : les index antérieurs au format (`type: ressource`, transcription
+  par photo), non les fiches fautives. Désormais, seules les fiches `type: index-livre` sont
+  jugées ; les autres sont **nommées** `HORS-PERIMETRE`, et le Cmd 15 s'applique à toutes.
+- **Épreuve** (copie jetable) : dépôt réel → 0 bloquante, code 0 ; clé `livre` retirée →
+  **refus** F1 ; entête de table cassée → **refus** T1 ; invisible U+200B dans une fiche hors
+  périmètre → **refus** U1.
+- Constat : les photos du Marquet (IMG_9996-9999, IMG_0001-0004) sont absentes du serveur,
+  probablement supprimées ; celles de Tilak aussi (signal H4). Les `to-verify` de l'index des
+  noms Ihwan ne peuvent être levés sans elles.
+- Annule le « défaut réel » signalé plus tôt dans la journée : ce n'en était pas un.
+- **Commit** : c36a652
+
 ## [2026-09-15] rd/infrastructure | Exécution des propositions du rapport Studio du 2026-09-15
 
 - Consigne de Sidy : exécuter P1, P5 « et le reste ». Fiche-contrat écrite et commitée avant
