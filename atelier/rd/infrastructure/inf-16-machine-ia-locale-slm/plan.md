@@ -4,7 +4,7 @@ type: infrastructure
 chantier: INF-16
 tags: [atelier, rd, infrastructure, chantier, plan, slm, materiel]
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-15
 sources: []
 links:
   - "[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]]"
@@ -14,9 +14,13 @@ links:
 
 # INF-16 — Machine d'IA locale et développement SLM : plan
 
-> **Statut** : `brouillon` — seul un plan `vise` autorise l'écriture (Cmd 6).
-> Ce chantier ne produit pas de code ; ce que le visa autorise ici, ce sont les
-> **dépenses de mesure** de l'étape 4 et l'ordre des étapes.
+> **Statut** : `vise` — **visa donné par Sidy en session le 2026-09-15** (« Tu peux
+> passer le plan à visé »), après lecture. Ce chantier ne produit pas de code ; ce que
+> le visa autorise ici, c'est l'**ordre des étapes** et les **dépenses de mesure** de
+> l'étape 4 — dont **aucune** n'a été engagée à ce jour.
+>
+> *Historique* : le plan est resté `brouillon` du 2026-09-07 au 2026-09-15. L'état
+> antérieur n'est pas effacé — il est dans git et dans les annales.
 
 ## Point de reprise — où en est le chantier
 
@@ -26,6 +30,35 @@ links:
 > mesure »). Cette section est tenue à jour à chaque reprise et dit, en un coup
 > d'œil, ce qui est acquis et ce qui attend. Elle **résume, elle ne remplace
 > pas** les sections ci-dessous.
+
+**État au 2026-09-15** — plan **visé**, trois relevés exécutés, **aucune dépense
+engagée**.
+
+*Ce qui a changé depuis le 2026-09-07 :*
+
+1. **Le plan est visé** (Sidy, en session, 2026-09-15) : l'ordre des étapes et les
+   dépenses de mesure de l'étape 4 sont autorisés. **Aucune n'a été engagée.**
+2. **Les étapes 2, 3b et 3c sont faites** — relevés consignés au `spec.md`,
+   § *Relevés du 2026-09-15* : prix Apple / NVIDIA / GPU loués (sourcés et datés),
+   volume et forme du corpus (mesurés par script), mémoire des modèles candidats
+   (calculée depuis les `config.json` publiés).
+3. Deux faits neufs que ces relevés rendent visibles : le prix d'un Mac Studio se joue
+   sur la **mémoire** (96 → 256 Go = 4 000 $, plus qu'un Mac mini M5 Pro entier) ; et la
+   **mémoire par dollar la moins chère est l'occasion** (2 × RTX 3090 = 48 Go pour
+   ≈ 1 600 $).
+4. Deux réserves **portées, non tranchées** : les **droits** sur une partie de
+   `textes/`, à instruire avant tout U4 ; l'**exclusion de `meta/`** de tout corpus
+   d'entraînement (§VI).
+
+*Ce qui n'a pas changé :* les quatre questions en attente ci-dessous — dont la
+question 1, la seule à commander la taille de modèle, donc la machine, donc le prix ; le
+choix de la voie 4a / 4b / 4c ; et la règle qu'**aucun prix ne s'engage sans re-relevé**
+(le marché NVIDIA est en pénurie ouverte).
+
+*Ce qui reste faisable sans verdict :* l'**étape 3a** — et elle attend **vos chiffres**
+(abonnements, API). Les étapes 2, 3b et 3c sont faites.
+
+*Prochaine action, inchangée :* répondre à la question 1. **Une seule ligne suffit.**
 
 **État au 2026-09-07** — chantier ouvert, aucune dépense engagée, aucune décision
 prise.
@@ -162,6 +195,8 @@ si — et seulement si — l'option retenue apporte un GPU local.
 | `atelier/rd/registre-chantiers.md` | modifié — ligne `INF-16` + recomptage du §0 |
 | `atelier/annales.md` | modifié — entrée append-only en tête (Cmd 9) |
 | `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/matrice.md` | **à créer** à l'étape 5, pas avant |
+| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec.md` | modifié (2026-09-15) — relevés des étapes 2, 3b et 3c |
+| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan.md` | modifié (2026-09-15) — visa (`brouillon` → `vise`) et point de reprise |
 
 Rien n'est déplacé, rien n'est supprimé. Aucun fichier existant du pôle n'est
 réécrit hormis le registre et les annales, chacun selon sa discipline propre

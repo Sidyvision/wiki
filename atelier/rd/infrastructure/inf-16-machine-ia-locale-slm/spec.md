@@ -174,6 +174,147 @@ prix des cartes NVIDIA neuves et d'occasion ; tarifs des hébergeurs GPU ;
 consommation électrique de chaque option ; **coût récurrent réel de la couche
 modèle actuelle**. Aucune de ces valeurs ne sera écrite de mémoire (Cmd 5).
 
+## Relevés du 2026-09-15 — étapes 2, 3b et 3c (exécutées sans aucun verdict)
+
+> **Ce que cette section est** : les trois relevés que le `plan.md` déclarait faisables
+> « entre deux reprises », sans dépendre d'aucune décision. **Ce qu'elle n'est pas** :
+> la matrice de l'étape 5 — elle n'existe pas encore (`matrice.md` **à créer** à cette
+> étape, jamais avant), et **aucune cellule n'est déclarée remplie ici**. Ces valeurs
+> l'alimenteront, chacune avec sa source et sa date.
+>
+> **Règle de lecture** : un prix est une photographie. Rien ci-dessous n'est écrit de
+> mémoire (Cmd 5) ; là où deux sources se contredisent, l'écart est **porté**, pas
+> lissé (§VII, stratification de crédibilité).
+
+### A. Prix — étape 2
+
+**A1 · Apple — option A (Mac Studio), option B (Mac mini).** Annonce du 2026-08-25,
+mise en vente générale le **2026-09-22**. Prix constructeur, USD, hors taxes.
+
+| Configuration | Prix | Mémoire unifiée | Bande passante | Source |
+|---|---|---|---|---|
+| Mac mini M6 (12 cœurs CPU) | **899 $** (799 $ éducation) | 16 → **32 Go** | 170 Go/s | MacObserver, 2026-09-12 |
+| Mac mini M5 Pro | **1 699 $** (1 599 $ éducation) | jusqu'à **64 Go** | 307 Go/s | MacObserver, RedShark |
+| Mac Studio M5 Max (18 cœurs) | **2 499 $** (2 299 $ éducation) | jusqu'à **128 Go** | 614 Go/s | MacObserver, RedShark, Apple |
+| Mac Studio M5 Ultra (36 cœurs) | **5 499 $** (5 099 $ éducation) | jusqu'à **512 Go** | 1,2 To/s | MacObserver, RedShark, Apple |
+
+Paliers mémoire et disponibilité (AppleInsider, 2026-08-25) :
+- le M5 Ultra **part de 96 Go** ; le passage 96 → **256 Go coûte 4 000 $** ;
+- la configuration **512 Go n'est pas pré-commandable** — Apple annonce « fin octobre »
+  sans publier de prix ; c'est précisément le palier où se joue l'option A ;
+- configuration maximale commandable au 2026-09-15 : **18 299 $**
+  (M5 Ultra 36 cœurs + 256 Go + 16 To) — arithmétique vérifiée :
+  5 499 + 1 300 (CPU/GPU) + 4 000 (96→256 Go) + 7 500 (1 To→16 To).
+- AppleInsider **estime** que le 512 Go portera la machine « bien au-delà de 20 000 $ » :
+  c'est une estimation de presse, **pas un prix**, et elle est marquée comme telle.
+
+*Non relevé* : prix des paliers mémoire du Mac mini ; prix du SSD hors le palier cité ;
+prix hors États-Unis et hors Apple Store éducation.
+
+**A2 · NVIDIA — option C (poste mono-GPU).** Marché du 2026-09-15, **volatil** (pénurie
+documentée, hausses en cours).
+
+| Carte | Mémoire | Prix relevé | Crédibilité |
+|---|---|---|---|
+| RTX PRO 6000 Blackwell | 96 Go GDDR7 ECC | **≈ 16 000 $** (TweakTown : +87 % sur le MSRP de lancement ; NVNexus affiche 16 843,20 $ le même jour) | deux sources marchandes concordantes — **à re-relever** |
+| RTX 5090 | 32 Go | **disputé** : MSRP 1 999-2 000 $ · XDA « ≈ 3 500 $ au minimum » · Tom's Hardware « au moins 5 000 $ », jusqu'à 9 500 $ chez des revendeurs tiers | le MSRP est certain ; les prix de rue divergent d'un facteur ≈ 3 selon source et canal — **non tranché** |
+| RTX 3090 d'occasion | 24 Go | **≈ 800 $** (XDA, eBay) | écosystème Ampere mature ; **deux cartes = 48 Go pour ≈ 1 600 $** |
+
+**A3 · GPU loué par heure — options D et E.** Tarifs à la demande, GPU seul, relevés
+« revus le 2026-09-11 » :
+
+| GPU | Fourchette à l'heure | Points |
+|---|---|---|
+| H100 80 Go | **2,99 $** (Vultr) → **10,98 $** (Google Cloud) | Runpod 3,49 $ · Lambda 3,29 $ · Vast 5,65 $ · médiane ≈ 4-5 $ |
+| A100 80 Go | **1,09 $** (Thunder Compute) → 5,07 $ | fourchette de marché, septembre 2026 |
+
+Lecture : 40 h d'entraînement sur H100 = **120 à 140 $** selon l'hébergeur. L'heure n'est
+donc **pas** l'obstacle : le verdict du 2026-09-07 portait sur la **propriété** et la
+**friction de configuration**, pas sur le prix du calcul. Ce relevé ne rouvre ni D ni E —
+il donne à la matrice les valeurs qui leur manquaient.
+
+### B. Corpus servable — étape 3b (mesuré le 2026-09-15, par script)
+
+| Circuit | Fichiers `.md` | Caractères |
+|---|---|---|
+| `textes/` | 732 | 23 104 279 |
+| `atelier/` | 421 | 7 085 544 |
+| `doctrinal/` | 362 | 3 244 525 |
+| `meta/` | 172 | 2 848 505 |
+| `hermeneutique/` | 29 | 213 198 |
+| `label/` | 14 | 60 802 |
+| `protocoles/` | 10 | 25 143 |
+| **Total** | **1 741** | **36 592 746** |
+
+Forme : 193 fiches < 2 Ko · 686 de 2 à 10 Ko · 726 de 10 à 50 Ko · 136 > 50 Ko.
+Le rapport du 2026-09-07 annonçait « 560 fichiers » dans `textes/` ; le compte réel du
+2026-09-15 est **732** — c'est une croissance, pas une contradiction.
+
+*Estimation, et non mesure* : sans tokenizer appliqué, on ne peut donner qu'un ordre de
+grandeur. À 3,5-4,5 caractères par token en français, `textes/` ≈ **5,1 à 6,6 M tokens**
+et l'ensemble du dépôt ≈ **8,1 à 10,5 M tokens**. Le seul chiffre mesuré est celui des
+caractères ; tout token avancé ailleurs serait une estimation déguisée.
+
+**Deux réserves à porter, non tranchées ici :**
+
+1. **Droits.** `textes/` contient des œuvres converties dont certaines sont sous droits
+   (Shayegan, entre autres). Un entraînement dessus n'est pas un usage privé de lecture :
+   la question s'instruit **avant** U4, elle ne se tranche pas d'office (Cmd 12, Cmd 13).
+2. **Étanchéité (§VI).** `meta/` porte du personnel et les motifs privés des décisions
+   publiques : **inconcevable dans un corpus d'entraînement**, quelle que soit l'option
+   retenue. L'énumération ci-dessus vaut donc comme **mesure de volume**, jamais comme
+   liste de ce qui serait entraînable. Et l'artefact d'un entraînement sur `doctrinal/`
+   **porterait** le corpus : question laissée ouverte par la veille du 2026-09-15
+   ([[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]], critère 11).
+
+### C. Mémoire des modèles candidats — étape 3c
+
+**Méthode** : les `config.json` publiés (Qwen3 dense, Hugging Face) sont récupérés, la
+taille de paramètres est **calculée** depuis la configuration, puis la mémoire est
+`paramètres × octets par paramètre`. Le nom commercial n'est pas pris pour la mesure —
+il est recoupé : les valeurs calculées (0,60 · 1,72 · 4,02 · 8,19 · 14,77 · 32,76 Md)
+s'écartent du nom de la part des têtes d'embedding non liées, ce qui est attendu.
+
+| Modèle | Params (calculés) | bf16 | int8 | 4 bits | KV cache bf16 / token |
+|---|---|---|---|---|---|
+| Qwen3-0.6B | 0,60 Md | 1,19 Go | 0,60 Go | 0,30 Go | 112 Kio |
+| Qwen3-1.7B | 1,72 Md | 3,44 Go | 1,72 Go | 0,86 Go | 112 Kio |
+| Qwen3-4B | 4,02 Md | 8,04 Go | 4,02 Go | 2,01 Go | 144 Kio |
+| Qwen3-8B | 8,19 Md | 16,38 Go | 8,19 Go | 4,10 Go | 144 Kio |
+| Qwen3-14B | 14,77 Md | 29,54 Go | 14,77 Go | 7,38 Go | 160 Kio |
+| Qwen3-32B | 32,76 Md | 65,52 Go | 32,76 Go | 16,38 Go | 256 Kio |
+
+Le cache KV n'est pas un détail : il ne se quantifie pas comme les poids et il croît
+**linéairement avec le contexte**.
+
+| Modèle | 8k de contexte | 32k | 128k |
+|---|---|---|---|
+| Qwen3-4B / 8B | 1,21 Go | 4,83 Go | 19,33 Go |
+| Qwen3-32B | 2,15 Go | 8,59 Go | 34,36 Go |
+
+*Ce qui n'est pas relevé, et le restera jusqu'à la voie 4a/4b/4c* : les **débits**
+(tokens/s), les latences et la qualité après quantification. Ce sont des mesures tierces
+ou des mesures à faire — la voie 4a exige qu'elles soient marquées comme telles, jamais
+fondues avec du mesuré (§VII).
+
+### Ce que ces relevés changent — et ce qu'ils ne changent pas
+
+Ils donnent des valeurs datées aux **critères 2 (coût d'acquisition), 3 (coût récurrent)
+et 4 (mémoire accessible et bande passante)**, et ils éclairent deux faits qui n'étaient
+pas visibles avant :
+
+- **le prix se joue sur la mémoire, pas sur la machine** : passer de 96 à 256 Go coûte
+  4 000 $ sur un Mac Studio, soit plus que le prix d'un Mac mini M5 Pro entier — ce qui
+  éclaire directement l'option U5 (distillation) et le dimensionnement de l'option A ;
+- **la mémoire par dollar la moins chère du relevé est l'occasion** : deux RTX 3090
+  (48 Go) pour ≈ 1 600 $, dans l'écosystème CUDA le plus mûr — mais c'est une option C
+  (poste mono-GPU, ici bi-GPU), donc une machine à posséder et à entretenir.
+
+Ils **ne décident rien** : ils ne remplissent aucune cellule de la matrice, ne tranchent
+ni D ni E, ne préjugent pas de la voie de mesure de l'étape 4, et ne dispensent pas de la
+question 1 — la charge de référence, qui reste la seule à commander la taille de modèle,
+donc la machine, donc le prix.
+
 ## Charge de référence — les candidats à arrêter
 
 Cinq usages possibles, tirés des besoins réels du dépôt. Sidy arrête lesquels

@@ -114,7 +114,23 @@ ligne, ce tableau se recompte, il ne s'estime pas.
 > toujours 10 lignes. Le seul mouvement par rapport à la seconde passe du jour
 > est `ouvert` 33 → **34**, imputé à la ligne ajoutée.
 
-Le 2026-09-15 : ouverture de `DOC-09` et d'`OUT-18` (voir les notes de recomptage ci-dessus, seconde et troisième passes du jour).
+> **Note de recomptage (2026-09-15, quatrième passe).** `INF-16` change de statut ce
+> jour — `ouvert` → **`attente-verdict`** : son plan a été **visé** par Sidy en session,
+> et les trois relevés qui ne dépendaient d'aucun verdict (étapes 2, 3b et 3c) sont
+> exécutés et consignés au `spec.md`. Rien ne manque plus que des **décisions** : la
+> charge de référence (U1–U5), le budget, le sort de l'option D, le lieu d'installation,
+> et la voie de mesure de l'étape 4. Le tableau a été **recompté depuis les lignes**,
+> statut par statut, **par script et non par estime** : **60 lignes** en §1–§7,
+> réparties **`ouvert` 33 / `bloque` 5 / `en-cours` 9 / `attente-verdict` 13**. Lignes
+> et somme des quatre colonnes **coïncident** (60 = 60) ; aucune valeur hors vocabulaire.
+> Le seul mouvement par rapport à la troisième passe du jour est `ouvert` 34 → **33** et
+> `attente-verdict` 12 → **13** : **une seule ligne a changé de colonne**, aucune ligne
+> n'a été ajoutée ni retirée. *Le compteur employé porte sur §1–§7 ; il ne compte pas §9,
+> et cette note ne se prononce donc pas sur son nombre de lignes.*
+
+Le 2026-09-15 : ouverture de `DOC-09` et d'`OUT-18`, `INF-16` requalifié
+`attente-verdict` (voir les notes de recomptage ci-dessus, seconde à quatrième passes
+du jour).
 Mis à jour le 2026-09-13 : `INF-09` requalifié `attente-verdict` (alignement sur
 son propre texte), `INF-17` ouvert et versé en **§9** (migration de provider), et
 les trois statuts `DOC` hors vocabulaire ramenés au vocabulaire déclaré —
@@ -275,7 +291,7 @@ non dépouillées dans cette passe → §8.*
 | INF-11 | Continuité des tâches et de l'information entre Claude Code, Hermes Terminal et Discord — angle mort structurel (un cron « créé » le 2026-08-17 n'existait pas) | `ouvert` | c'est le motif d'existence du champ `infra_verif` ; reste à couvrir le passage d'information | registre des problèmes, entrée `[2026-08-17]` | — | 2026-08-17 |
 | INF-12 | Positions zodiacales 5, 8 et 12 des agents : les douze brouillons existent sur disque (2026-08-15), mais le compte-rendu de chantier les donne « non traitées, en attente de verdict » — contradiction non levée | `attente-verdict` | confronter brouillons et verdict | `atelier/rd/cahiers/brouillons-extension-zodiacale/` ; jalon du 2026-08-20, P4.9 | — | 2026-08-11 |
 | INF-13 | Scission du dépôt : le rendu de l'Instrument passe au dépôt frère `Sidyvision/instrument` (privé) — le §VII, *Règle commune des MANIFESTES*, exprimé en infrastructure plutôt qu'en discipline | `en-cours` | **clos pour l'essentiel** : dépôt frère créé, **passé public** le 2026-09-01 (verdict Sidy), `main` protégée avec `enforce_admins` actif et **épreuve réelle du refus faite**. Reste différée (Cmd 13) : l'automatisation du manifeste (PAT + workflow) — l'étage manuel fonctionne | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/intent]] | 2026-09-01 |
-| INF-16 | Machine d'IA locale et développement SLM — aucune capacité d'inférence locale n'existe (le serveur n'a pas de GPU), alors que la charte du pôle vise l'émancipation des intermédiaires tiers. Ouvert **comme comparaison**, sur consigne de Sidy : explorer les options (Mac Studio, Mac mini + LLM cloud, poste NVIDIA, GPU loué, GPU à l'heure, statu quo, montages étagés) jusqu'à la meilleure | `ouvert` | **étape 1** : Sidy arrête la charge de référence (lesquels des cinq usages U1–U5 comptent) — rien ne peut être comparé avant. Plan en `brouillon`, visa attendu (Cmd 6). **2026-09-07** : option E (GPU à l'heure) écartée puis **rouverte sous condition** le même jour — justifiable en complément d'un Mac Mini pour les rafales d'entraînement, jamais seule ni comme capacité permanente ; le critère de propriété né du premier verdict pèse toujours sur D, non tranché. Chantier mené **par reprises successives** (demande de Sidy) : l'état vivant et le prochain pas tiennent dans le §*Point de reprise* du `plan.md` | demande de Sidy du 2026-09-07 ; [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] §1 et §4.2 ; [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] (OUT-07, `bloque` sur cette absence même) ; [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]] (relevé d'outillage de post-entraînement — critères 5, 6 et 11 ; rien engagé, 2026-09-15) | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]] | 2026-09-07 |
+| INF-16 | Machine d'IA locale et développement SLM — aucune capacité d'inférence locale n'existe (le serveur n'a pas de GPU), alors que la charte du pôle vise l'émancipation des intermédiaires tiers. Ouvert **comme comparaison**, sur consigne de Sidy : explorer les options (Mac Studio, Mac mini + LLM cloud, poste NVIDIA, GPU loué, GPU à l'heure, statu quo, montages étagés) jusqu'à la meilleure | `attente-verdict` | **étape 1** : Sidy arrête la charge de référence (lesquels des cinq usages U1–U5 comptent) — rien ne peut être comparé avant. Plan en `brouillon`, visa attendu (Cmd 6). **2026-09-07** : option E (GPU à l'heure) écartée puis **rouverte sous condition** le même jour — justifiable en complément d'un Mac Mini pour les rafales d'entraînement, jamais seule ni comme capacité permanente ; le critère de propriété né du premier verdict pèse toujours sur D, non tranché. Chantier mené **par reprises successives** (demande de Sidy) : l'état vivant et le prochain pas tiennent dans le §*Point de reprise* du `plan.md`. **2026-09-15** : plan **visé** (Sidy, en session) — étapes 2, 3b et 3c exécutées et consignées au `spec.md` ; il ne reste que des **décisions** (charge de référence, budget, sort de D, lieu, voie 4a/4b/4c) | demande de Sidy du 2026-09-07 ; [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] §1 et §4.2 ; [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] (OUT-07, `bloque` sur cette absence même) ; [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]] (relevé d'outillage de post-entraînement — critères 5, 6 et 11 ; rien engagé, 2026-09-15) | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]] | 2026-09-07 |
 
 ## 3. Outillage & scripts (`OUT`)
 
