@@ -9,6 +9,42 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] archivage | *Orient et Occident* (Guénon) versé et lu ; étude antagoniste Jaimungal
+
+- **Consigne** : introduire un élément antagoniste (Curt Jaimungal, *Theories of
+  Everything*) pour éprouver le corps du dépôt ; plan présenté et validé par Sidy,
+  avec l'ordre de verser et lire d'abord *Orient et Occident*.
+- **Versement** : `textes/orient-et-occident/` — 13 coupures de l'Index de l'œuvre de
+  René Guénon (sigle `OO`, chapitres 953-964), versement **ciblé** depuis `raw/`
+  (le mode `--migrer` global aurait écrasé les nettoyages du 2026-09-14). 13/13
+  identiques octet pour octet ; G1/G2 0 refus ; Cmd 15 propre. **Lacunes de capture** :
+  conclusion tronquée (« il y a des obligations qui sont »), addendum vide — consignées
+  dans `index-conversion.md`, remède = nouvelle capture en remplacement daté.
+- **Lecture intégrale** de l'ouvrage, puis
+  [[doctrinal/sources/guenon-orient-et-occident]] (`traditionnel`) — vigilance portée
+  sur les jugements contingents de 1920-1924 (vérité de fait, non doctrine) et sur la
+  réserve d'opportunité touchant l'ésotérisme islamique.
+- **Étude** : [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]
+  (`academique`). Diagnostic commun, remède opposé (spécialiste / rattachement) ; six
+  tests que le dépôt peut échouer. **`to-source`** : la vidéo de Jaimungal n'a pas été
+  retrouvée, son propos est rapporté par Sidy ; les formules anglaises du Substack ont
+  été relevées par outil de lecture web, à confronter avant toute citation externe.
+- **Annotations HTML** : 9 poses sur les deux fiches, appariées ; validateur : aucun
+  refus ni signalement sur elles. Les **16 refus** qu'il rend portent sur 9 fichiers non
+  touchés ce jour (`ishrab-sharab` 6, `qamus` 2, `mihrab-torii` 2, `dhikr`, `shawq`,
+  `al-fuqara`, `bocking`, `meta/carte-du-depot`, un cahier `rd/`) — antérieurs, rapportés,
+  non corrigés (Cmd 12). Index lexical et graphe régénérés.
+- **Graphe** : l'étude a **0 lien entrant** en cartouche (orpheline, procédure
+  d'intégration) ; liens candidats, **non inscrits**, soumis à Sidy : depuis
+  `2026-06-20_etre-psyche-intellect-raison-upakarana` et
+  `2026-08-31_confrontation-anthropic-claude-guenon-nature-llms`.
+- **Ligne de base** : `verifier-invariants.py` → **0 erreur, 71 avertissements**, mesuré
+  **avant** toute écriture de la session et inchangé après. La ligne « 0 / 0 » du
+  2026-09-06 ne tient donc plus ; les 71 (dont C5/C6 sur `autorites/rene-guenon` vers
+  des discernements non tranchés) sont antérieurs à cette session — signalés, non
+  corrigés (verdict réservé).
+- **Commit** : 4be6fe0
+
 ## [2026-09-15] source | Ihyâ' 'ulûm al-dîn — texte arabe de référence, et mesure de la traduction anglaise abrégée
 
 - **Fiche versée** : `doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya.md` — `type: source`, `status: academique`.
@@ -4982,39 +5018,3 @@ Deux renvois de fiches doctrinales sont touchés par la reprise `raw/` :
   laissée en place (pas de suppression sèche, Cmd 10).
 
 ---
-
-## [2026-09-15] archivage | *Orient et Occident* (Guénon) versé et lu ; étude antagoniste Jaimungal
-
-- **Consigne** : introduire un élément antagoniste (Curt Jaimungal, *Theories of
-  Everything*) pour éprouver le corps du dépôt ; plan présenté et validé par Sidy,
-  avec l'ordre de verser et lire d'abord *Orient et Occident*.
-- **Versement** : `textes/orient-et-occident/` — 13 coupures de l'Index de l'œuvre de
-  René Guénon (sigle `OO`, chapitres 953-964), versement **ciblé** depuis `raw/`
-  (le mode `--migrer` global aurait écrasé les nettoyages du 2026-09-14). 13/13
-  identiques octet pour octet ; G1/G2 0 refus ; Cmd 15 propre. **Lacunes de capture** :
-  conclusion tronquée (« il y a des obligations qui sont »), addendum vide — consignées
-  dans `index-conversion.md`, remède = nouvelle capture en remplacement daté.
-- **Lecture intégrale** de l'ouvrage, puis
-  [[doctrinal/sources/guenon-orient-et-occident]] (`traditionnel`) — vigilance portée
-  sur les jugements contingents de 1920-1924 (vérité de fait, non doctrine) et sur la
-  réserve d'opportunité touchant l'ésotérisme islamique.
-- **Étude** : [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]
-  (`academique`). Diagnostic commun, remède opposé (spécialiste / rattachement) ; six
-  tests que le dépôt peut échouer. **`to-source`** : la vidéo de Jaimungal n'a pas été
-  retrouvée, son propos est rapporté par Sidy ; les formules anglaises du Substack ont
-  été relevées par outil de lecture web, à confronter avant toute citation externe.
-- **Annotations HTML** : 9 poses sur les deux fiches, appariées ; validateur : aucun
-  refus ni signalement sur elles. Les **16 refus** qu'il rend portent sur 9 fichiers non
-  touchés ce jour (`ishrab-sharab` 6, `qamus` 2, `mihrab-torii` 2, `dhikr`, `shawq`,
-  `al-fuqara`, `bocking`, `meta/carte-du-depot`, un cahier `rd/`) — antérieurs, rapportés,
-  non corrigés (Cmd 12). Index lexical et graphe régénérés.
-- **Graphe** : l'étude a **0 lien entrant** en cartouche (orpheline, procédure
-  d'intégration) ; liens candidats, **non inscrits**, soumis à Sidy : depuis
-  `2026-06-20_etre-psyche-intellect-raison-upakarana` et
-  `2026-08-31_confrontation-anthropic-claude-guenon-nature-llms`.
-- **Ligne de base** : `verifier-invariants.py` → **0 erreur, 71 avertissements**, mesuré
-  **avant** toute écriture de la session et inchangé après. La ligne « 0 / 0 » du
-  2026-09-06 ne tient donc plus ; les 71 (dont C5/C6 sur `autorites/rene-guenon` vers
-  des discernements non tranchés) sont antérieurs à cette session — signalés, non
-  corrigés (verdict réservé).
-- **Commit** : 4be6fe0
