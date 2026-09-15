@@ -30,6 +30,47 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] L'organe de vérification appelait un script avec une option qu'il n'a jamais acceptée
+
+- **Symptôme** : outil MCP `carte_du_depot` appelé depuis une session Hermes
+  `default` (WebUI), pour relever la ligne de base mécanique du dépôt. Retour :
+  `ok: false`, `code: 2`, stderr brut —
+  `usage: carte-du-depot.py [-h] [--repo REPO] [--sortie SORTIE] [--par-circuit] [--max-titres MAX_TITRES] [--blocs] [--blocs-integraux] [--blocs-seuls]`
+  puis `carte-du-depot.py: error: unrecognized arguments: --json`.
+- **Diagnostic** : `wiki_mcp_server.py` (serveur **hors du dépôt**), outil
+  `carte_du_depot` l. 235-251, construit ses arguments avec `--json`
+  (l. 246-248) ; le script `carte-du-depot.py` **n'a jamais accepté cette
+  option** — il écrit du markdown, pas du JSON, et son aide le confirme. L'option
+  est posée à **chaque** appel : l'outil ne peut donc pas fonctionner, quelle que
+  soit la demande. Les autres outils de contrôle ne sont pas touchés :
+  `verifier_invariants` a rendu son JSON le même jour, sur 1581 puis 1586
+  fichiers.
+- **Résolution** : **aucune** par cette session — le serveur vit hors du dépôt,
+  son versionnement et la levée de l'exclusion `.gitignore` ne sont pas décidés
+  (§VIII.11 : écart déclaré, non comblé, Cmd 12/13). Contournement employé et
+  rapporté tel quel : appel direct de `python3 carte-du-depot.py`, qui **écrit
+  l'artefact dans le dépôt** (`meta/carte-du-depot.md`, suivi par git, donc
+  commité) là où l'outil MCP était **conçu pour écrire en `/tmp`** — le repli a
+  donc un effet de bord que l'outil évitait.
+- **Compréhension tirée** : deux leçons. (1) Un organe de vérification **non
+  éprouvé dans son propre usage** reste une porte dont personne n'a vu la serrure
+  mordre (§VII) : `verifier_invariants` avait été éprouvé, `carte_du_depot`
+  n'apparaissait dans aucune épreuve — et c'est celui-là qui échouait. La
+  confiance portait sur l'ensemble « le serveur MCP est l'organe de
+  vérification » (Cmd/§VIII.11), alors que seule une de ses entrées avait été
+  vue refuser. (2) **Un repli n'est pas neutre** : quand l'outil est cassé, le
+  contournement déplace le périmètre d'écriture (ici : artefact commité au dépôt
+  au lieu de `/tmp`) — un contournement se rapporte, il ne se tait pas.
+- **Liens** : `/root/mcp-servers/wiki/wiki_mcp_server.py` l. 235-251 (hors dépôt ;
+  `.mcp.json` exclu par `.gitignore:22`) ; `CLAUDE.md` §VIII.11 ; annales atelier
+  `[2026-09-15]` (chantier kamon). Chantier **suggéré, non inscrit** : `OUT-18`
+  (« l'organe de vérification est éprouvé sur une entrée, pas sur
+  l'ensemble ») — l'inscription au registre demande un verdict (Cmd 13).
+- **Statut** : `ouvert`
+- **Déposé par** : session Hermes `default` (WebUI), sur accord de Sidy du
+  2026-09-15 : « Oui vas-y mais avant prend bien le temps d'investiguer le R&D
+  pour toute information instructive […] Validé ».
+
 ## [2026-09-15] Clôture du jugement — 31 positions réservées : 10 skills créés, 16 rejetées, 5 pièces greffées
 
 - **Suite des deux entrées du même jour** (append-only, non réécrites). Méthode :

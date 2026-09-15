@@ -66,7 +66,7 @@ la fiche ne la convertit pas en telle.
 | Une **parole rapportée** du grand-père, telle que transmise par le père (B) | Une élection, une supériorité, une nature particulière — **non déduites** |
 | Une **continuité perçue** entre le grand-père, le père et Sidy (A) | Une preuve de lignée particulière — **non posée** |
 
-## Point de réserve à arbitrer — signalé, non tranché
+## Point de réserve — **tranché par Sidy le 2026-09-15**
 
 Le lot range les récits familiaux attribuant au grand-père une grande
 intelligence, une profondeur particulière et des **capacités surnaturelles**
@@ -75,14 +75,20 @@ toute validation factuelle de ces capacités ».
 
 La fiche [[meta/genealogie/samballa-kouyate]] enregistre pour sa part, à propos
 du même grand-père, une **ouverture effective** (l'ouverture reçue une nuit de
-Laylatul Qadr) et un compagnon invisible. Les deux fiches ne se contredisent pas
-— l'une porte des récits, l'autre une attestation familiale — mais **la limite
-entre « récit rapporté » et « fait attesté » y est tracée différemment**.
+Laylatul Qadr) et un compagnon invisible — les deux fiches ne se contredisaient
+donc pas, mais traçaient différemment la limite entre « récit rapporté » et
+« fait attesté ».
 
-**Signalé, non arbitré** (Cmd 12) : c'est à Sidy de dire si l'ouverture effective
-reste tenue pour attestée dans sa famille, ou si elle doit être ramenée, comme le
-lot le demande, au rang de récit familial. Aucune des deux fiches n'est modifiée
-d'office.
+**Verdict de Sidy (2026-09-15)** : ce classement au rang de simple récit procède
+du
+
+> « scepticisme usuel d'un appareil profane dont on ne se souciera pas ici »
+
+Le point est **clos** : rien n'est ramené au rang de récit, et
+[[meta/genealogie/samballa-kouyate]] **conserve ses attestations telles quelles**.
+Aucune des deux fiches n'a été modifiée sur le fond ; seule la réserve qui les
+opposait est levée. Le mot du verdict est conservé ici **tel qu'il a été donné**,
+sans glose de la machine.
 
 ## Classement A–F
 
