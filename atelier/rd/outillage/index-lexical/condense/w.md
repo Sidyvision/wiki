@@ -16,8 +16,8 @@ links: []
 | `working` | Working, working | — | — | table, titre | **21 fiches** | 06-f.md +31 | 122 |
 | `walaya` | Waläya, Walāya, walaya, walâya (+1) | — | ✓ islam | annotation, table, tag, titre, translit | **45 fiches** | sept-etendards-califat-transcription.md +1 | 93 |
 | `waw` | Waw, Wâw, Wāw, waw (+2) | `و` | *arabe* | translit | **18 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 65 |
+| `west` | West, west | — | — | table | [[atelier/etudes-de-cas/stones-throw]] · [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | 07-g.md +28 | 62 |
 | `wendel` | Wendel, wendel | — | — | table, titre | **15 fiches** | — | 61 |
-| `west` | West, west | — | — | table | [[atelier/etudes-de-cas/stones-throw]] · [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | 07-g.md +26 | 59 |
 | `wali` | Wali, Walî, Walï, Walī (+6) | — | — | annotation, tag, translit | **21 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +7 | 56 |
 | `wang` | WANG, Wang, wang | — | — | annotation, table, tag, titre | **18 fiches** | 13-n.md +7 | 56 |
 | `workflow` | Workflow, workflow | — | — | table, titre | **31 fiches** | — | 55 |

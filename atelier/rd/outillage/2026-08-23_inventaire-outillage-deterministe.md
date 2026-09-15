@@ -3,7 +3,7 @@ title: "Inventaire de l'outillage déterministe du dépôt (relevé du 2026-09-0
 type: outillage
 tags: [rd, outillage, inventaire, scripts, verification]
 created: 2026-09-01
-updated: 2026-09-02
+updated: 2026-09-15
 sources: []
 links:
   - "[[atelier/rd/index]]"
@@ -46,6 +46,8 @@ une preuve, la sortie d'un script en est une.
 | `atelier/rd/bibliotheque/generer-glossaire-unifie.py` | Lexique unifié dérivé — **refuse de générer si le validateur bloque** | après validation des index |
 | `atelier/rd/outillage/ocr-scan-vers-markdown.sh` | Scan PDF (image) → Markdown page par page, marqueurs `<!-- page N -->` ; `pdftoppm` 300 dpi + `tesseract` | conversion d'un ouvrage de `raw/` — en tâche de fond, ~13 p/min |
 | `atelier/rd/outillage/decouper-ouvrage-chapitres.py` | Découpe le converti en un fichier par chapitre ; **contrôle d'intégrité bloquant** (aucune page perdue ni dupliquée, code non nul sinon) | juste après la conversion, avant tout examen du texte |
+| `atelier/rd/outillage/verser-dossier-textes.py` | Versement **ciblé** d'un dossier ou d'un fichier de `raw/` vers `textes/` — réutilise nommage et garde G1 de `migrer-textes-convertis.py` ; refus d'écraser (G2), refus Cmd 15, contrôle octet par octet (ajouté 2026-09-15) | pour verser un corpus nouveau sans relancer la migration globale, qui écraserait les nettoyages de `textes/` |
+| `atelier/rd/outillage/convertir-jabre-munqidh.py` | Couche texte native d'un PDF → `textes/`, un fichier par section, marqueurs `<!-- page N -->` ; gardes : pas d'écrasement, complétude, Cmd 15 (ajouté 2026-09-15) | modèle pour tout PDF à couche texte française exploitable |
 | `atelier/rd/outillage/hooks/` (`pre-commit`, `pre-push`) | Garde-fous locaux : hygiène Unicode à chaque commit, invariants + Unicode à chaque push | installés une fois par clone (`installer-hooks.sh`) |
 
 Le dossier `Graphe/` que citait le plan d'origine **n'existe pas** à la racine : les deux

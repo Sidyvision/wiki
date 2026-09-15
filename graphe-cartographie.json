@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 213,
+  "avertissements": 219,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -3568,7 +3568,7 @@
         "scripts",
         "verification"
       ],
-      "updated": "2026-09-02",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe.md",
       "lacunes_to_source": 0
     },
@@ -7511,6 +7511,31 @@
       ],
       "updated": "2026-09-09",
       "chemin": "doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/ghazali-munqidh-jabre-1959",
+      "label": "Al-Munqidh min aḍ-ḍalāl — Erreur et délivrance (Ghazâlî, trad. Jabre 1959)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "ghazali",
+        "munqidh",
+        "certitude",
+        "taqlid",
+        "dhawq",
+        "kalam",
+        "falsafa",
+        "talim",
+        "soufisme",
+        "prophetie",
+        "autobiographie-spirituelle"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "doctrinal/sources/ghazali-munqidh-jabre-1959.md",
       "lacunes_to_source": 0
     },
     {
@@ -20501,6 +20526,20 @@
     {
       "source": "doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge",
       "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ghazali-munqidh-jabre-1959",
+      "target": "doctrinal/autorites/al-ghazali",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ghazali-munqidh-jabre-1959",
+      "target": "doctrinal/symboles/ilm-al-awfaq",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

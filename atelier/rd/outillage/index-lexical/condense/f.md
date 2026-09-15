@@ -12,30 +12,30 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `formes` | FORMES, Formes, formes, formés | — | — | table, titre | **126 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +313 | 1311 |
-| `fin` | FIN, Fin, fin | — | — | titre | **162 fiches** | index-conversion.md +206 | 1005 |
-| `fonction` | FONCTION, Fonction, fonction | — | — | definition, table, titre | **189 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +163 | 974 |
-| `figure` | Figure, figure, figuré | — | — | table, tag, titre | **144 fiches** | 08-h.md +195 | 856 |
-| `fichier` | Fichier, fichier | — | — | definition, table | **168 fiches** | LISEZ-MOI.md +7 | 718 |
-| `fichiers` | FICHIERS, Fichiers, fichiers | — | — | definition, table | **142 fiches** | LISEZ-MOI.md +7 | 469 |
+| `formes` | FORMES, Formes, formes, formés | — | — | table, titre | **128 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +322 | 1357 |
+| `fin` | FIN, Fin, fin | — | — | titre | **163 fiches** | LISEZ-MOI.md +216 | 1025 |
+| `fonction` | FONCTION, Fonction, fonction | — | — | definition, table, titre | **189 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +170 | 982 |
+| `figure` | Figure, figure, figuré | — | — | table, tag, titre | **144 fiches** | 08-h.md +197 | 860 |
+| `fichier` | Fichier, fichier | — | — | definition, table | **169 fiches** | LISEZ-MOI.md +8 | 722 |
+| `fichiers` | FICHIERS, Fichiers, fichiers | — | — | definition, table | **142 fiches** | LISEZ-MOI.md +8 | 474 |
 | `futuhat` | FUTÛHÂT, Futuhat, Futuhät, Futûhât (+8) | — | — | annotation, table, tag, titre, translit | **79 fiches** | karubi-mehdi-navette-20260812.md +12 | 432 |
 | `fonctions` | FONCTIONS, Fonctions, fonctions | — | — | titre | **76 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +93 | 349 |
-| `formule` | Formule, formule, formulé | — | — | table, tag, titre | **94 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +89 | 309 |
-| `facultes` | FACULTÉS, facultes, facultés | — | — | titre | **27 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +79 | 233 |
+| `formule` | Formule, formule, formulé | — | — | table, tag, titre | **96 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +93 | 317 |
+| `facultes` | FACULTÉS, facultes, facultés | — | — | titre | **27 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +85 | 245 |
+| `fondement` | FONDEMENT, Fondement, fondement | — | — | table, tag, titre | **85 fiches** | index-conversion.md +62 | 239 |
 | `fiabilite` | Fiabilité, fiabilité | — | — | table | **86 fiches** | corps-du-texte.md +1 | 233 |
-| `fondement` | FONDEMENT, Fondement, fondement | — | — | table, tag, titre | **85 fiches** | index-conversion.md +57 | 232 |
-| `faculte` | Faculté, faculté | — | — | table, titre | **34 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-9.md +62 | 195 |
-| `futur` | FUTUR, Futur, futur, futûr (+1) | — | — | table, translit | **71 fiches** | voie-initiatique-et-voie-mystique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +42 | 175 |
+| `faculte` | Faculté, faculté | — | — | table, titre | **34 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-9.md +63 | 198 |
+| `futur` | FUTUR, Futur, futur, futûr (+1) | — | — | table, translit | **71 fiches** | voie-initiatique-et-voie-mystique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +43 | 176 |
 | `fil` | Fil, fil, fiʿl, fîʿl | — | — | translit | **59 fiches** | LISEZ-MOI.md +25 | 170 |
-| `famille` | Famille, famille | — | — | tag | **88 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +33 | 161 |
-| `france` | France | — | — | table, titre | **14 fiches** | 09-i.md +50 | 158 |
+| `famille` | Famille, famille | — | — | tag | **88 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +34 | 162 |
+| `france` | France | — | — | table, titre | **14 fiches** | 09-i.md +51 | 159 |
 | `fiqh` | FIQH, Fiqh, fiqh | — | ✓ islam | annotation, table, tag, titre | **38 fiches** | isaghuji-cours01-introduction-transcription.md +4 | 149 |
-| `formulation` | Formulation, formulation | — | — | definition, table | **73 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +11 | 120 |
+| `formulation` | Formulation, formulation | — | — | definition, table | **73 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +12 | 121 |
 | `file` | File, file, filé | — | — | table, titre | **24 fiches** | LISEZ-MOI.md +5 | 108 |
 | `fille` | Fille, fille | — | — | titre | **27 fiches** | guenon-correspondance-genty-1937-07-14-le-caire.md +14 | 104 |
 | `flux` | Flux, flux | — | — | titre | **59 fiches** | la-puissance-du-serpent.md +4 | 103 |
 | `fusus` | Fusus, Fusûs, Fusüs, Fuṣûṣ (+3) | — | — | table, translit | **26 fiches** | karubi-mehdi-navette-20260812.md +6 | 100 |
-| `future` | Future, future | — | — | table, titre | **39 fiches** | LISEZ-MOI.md +32 | 98 |
+| `future` | Future, future | — | — | table, titre | **39 fiches** | LISEZ-MOI.md +33 | 100 |
 | `fanzine` | Fanzine, fanzine | — | — | table, titre | **43 fiches** | — | 82 |
 | `fard` | Fard, fard, farḍ | — | — | table, titre, translit | **21 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 60 |
 | `familiale` | familiale | — | — | titre | **23 fiches** | corps-du-texte.md | 51 |
@@ -50,11 +50,11 @@ links: []
 | `franc-maconnerie` | FRANC-MAÇONNERIE, Franc-Maçonnerie, franc-maçonnerie | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/charles-andre-gilis]] · [[doctrinal/sources/gilis-ordo-ab-chao]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | dante-et-le-rosicrucianisme-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md +12 | 32 |
 | `frequence` | Fréquence, fréquence | — | — | definition, table | **19 fiches** | — | 32 |
 | `fass` | Faṣṣ, Fâss, fass, faṣṣ | — | — | translit | **13 fiches** | osman-yahya-08-repertoire.md +1 | 30 |
+| `folie` | FOLIE, Folie, folie | — | — | table, titre | [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | la-puissance-du-serpent.md +9 | 30 |
 | `fonctionnement` | Fonctionnement, fonctionnement | — | — | definition, table | **17 fiches** | la-puissance-du-serpent.md +1 | 30 |
 | `fortune` | Fortune, fortune | — | — | table | [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] | 04-d.md +21 | 30 |
 | `fiat` | Fiat, fiat | — | — | table | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats]] · [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]] · [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]] · +2 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +16 | 29 |
 | `fajr` | Fajr | — | — | table, titre | **9 fiches** | 00-front-matter.md +2 | 28 |
-| `folie` | FOLIE, Folie, folie | — | — | table, titre | [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | la-puissance-du-serpent.md +7 | 28 |
 | `fayd` | Fayd, Fayḍ, fayd, fayḍ | — | — | table, translit | [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] · [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect]] · [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]] · [[doctrinal/sources/conversation-llm-intellect-2026-06-11]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +3 | sept-etendards-califat-transcription.md +3 | 26 |
 | `fujiwara` | Fujiwara | — | — | table | [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[label/direction-artistique/amorcage/kamon-personnel]] | 02-b.md +10 | 25 |
 | `faiseur` | Faiseur, faiseur | — | — | table | **12 fiches** | la-puissance-du-serpent.md | 22 |

@@ -23,7 +23,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `œuvre` | ŒUVRE, Œuvre, œuvre | — | ⚖ universel | definition, table | **68 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +123 | 327 |
+| `œuvre` | ŒUVRE, Œuvre, œuvre | — | ⚖ universel | definition, table | **68 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +130 | 337 |
 
 ## ʻ
 
@@ -447,6 +447,12 @@ links: []
 |---|---|---|---|---|---|---|---|
 | `बिंदु` | बिंदु | `bindu` | — | titre, translit | [[doctrinal/symboles/bindu]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 4 |
 | `बुदधि` | बुद्धि | `buddhi` | — | translit | [[doctrinal/symboles/buddhi]] · [[meta/protocole-archives/CLAUDE-v3_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v4_2026-09-09]] | — | 3 |
+
+## ℹ
+
+| terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
+|---|---|---|---|---|---|---|---|
+| `ℹ` | ℹ | — | — | translit | [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]] · [[doctrinal/sources/guenon-orient-et-occident]] | — | 2 |
 
 ## 三
 

@@ -12,23 +12,23 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `humain` | HUMAIN, Humain, humain, humaïn | — | — | table, titre | **138 fiches** | index-conversion.md +254 | 1028 |
+| `humain` | HUMAIN, Humain, humain, humaïn | — | — | table, titre | **139 fiches** | index-conversion.md +257 | 1038 |
 | `hermes` | HERMES, Hermes, Hermès, hermes | — | — | annotation, table, tag, titre | **156 fiches** | LISEZ-MOI.md +14 | 871 |
 | `home` | HOME, Home, home | — | — | table | **25 fiches** | LISEZ-MOI.md +52 | 670 |
-| `histoire` | HISTOIRE, HISTOIRÉ, Histoire, histoire | — | — | tag, titre | **33 fiches** | LISEZ-MOI.md +117 | 620 |
-| `homme` | Homme, homme | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +153 | 612 |
-| `hierarchie` | HIÉRARCHIE, Hiérarchie, hierarchie, hiérarchie | — | — | tag, titre | **101 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +103 | 375 |
+| `histoire` | HISTOIRE, HISTOIRÉ, Histoire, histoire | — | — | tag, titre | **33 fiches** | LISEZ-MOI.md +120 | 623 |
+| `homme` | Homme, homme | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +155 | 616 |
+| `hierarchie` | HIÉRARCHIE, Hiérarchie, hierarchie, hiérarchie | — | — | tag, titre | **101 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +107 | 384 |
 | `head` | HEAD, Head, head | — | — | table | [[atelier/rd/cahiers/registre-problemes]] · [[doctrinal/sources/tilak-orion-antiquite-vedas-1893]] | 06-f.md +48 | 327 |
-| `hypothese` | Hypothèse, hypothèse | — | — | definition, table | **115 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +46 | 291 |
-| `historique` | Historique, historique | — | — | tag | **89 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +86 | 265 |
+| `hypothese` | Hypothèse, hypothèse | — | — | definition, table | **115 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +49 | 296 |
+| `historique` | Historique, historique | — | — | tag | **89 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +90 | 270 |
 | `humains` | Humains, humains | — | — | titre | **24 fiches** | LISEZ-MOI.md +61 | 156 |
-| `hindouisme` | HINDOUISME, HINDOUIsME, Hindouisme, hindouisme | — | — | table, tag, titre | **38 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-24.md +6 | 124 |
+| `hindouisme` | HINDOUISME, HINDOUIsME, Hindouisme, hindouisme | — | — | table, tag, titre | **39 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-24.md +6 | 125 |
 | `hozo` | Hozo, hozo | — | — | annotation, table, tag | **59 fiches** | — | 122 |
+| `hindoues` | Hindoues, hindoues | — | — | titre | **15 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-2.md +57 | 115 |
 | `hadith` | Hadith, Hadîth, hadith, hadîth (+5) | — | ⚖ islam | annotation, table, tag, translit | **40 fiches** | les-limites-du-mental-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +19 | 113 |
 | `hamza` | Hamza, hamza, Ḥamza | — | — | table, titre, translit | **29 fiches** | sept-etendards-califat-transcription.md +8 | 112 |
 | `hors perimetre` | Hors périmètre | — | — | definition | **47 fiches** | — | 110 |
 | `hamsa` | Hamsa, hamsa, ḫamsa | — | — | table, tag, translit | **9 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 108 |
-| `hindoues` | Hindoues, hindoues | — | — | titre | **15 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-2.md +49 | 103 |
 | `hetzner` | Hetzner | — | — | table | **46 fiches** | — | 99 |
 | `hunter` | Hunter, hunter | — | — | table, titre | **10 fiches** | 02-b.md +11 | 87 |
 | `hiranyagarbha` | Hiranyagarbha, hiranyagarbha, hiraṇyagarbha, hîranyagarbha | — | — | table, translit | **14 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +21 | 84 |
@@ -43,15 +43,15 @@ links: []
 | `habib` | Habib, habîb, Ḥabīb | — | — | table, titre, translit | **18 fiches** | karubi-mehdi-navette-20260812.md +5 | 55 |
 | `handoffs` | Handoffs, handoffs | — | — | table | **21 fiches** | — | 54 |
 | `hadarat` | Hadarât, hadarat, hadarât, Ḥaḍarāt (+3) | — | — | annotation, table, tag, titre, translit | **37 fiches** | — | 50 |
+| `hierarchies` | HIÉRARCHIES, hiérarchies | — | — | titre | **13 fiches** | de-la-hierarchie-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +20 | 50 |
 | `hukm` | Hukm, hukm, ḥukm | — | — | translit | **13 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 50 |
-| `hierarchies` | HIÉRARCHIES, hiérarchies | — | — | titre | **13 fiches** | de-la-hierarchie-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +18 | 48 |
 | `humide` | Humide, humide | — | — | table | **16 fiches** | voie-initiatique-et-voie-mystique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +9 | 48 |
 | `hahut` | Hâhût, Hāhūt, Ḥāhūt | — | — | translit | **23 fiches** | — | 47 |
 | `hadra` | Hadra, hadra, hadrâ, ḥaḍra | — | — | annotation, table, translit | **14 fiches** | LISEZ-MOI.md +3 | 46 |
 | `honden` | Honden, honden | — | — | table, titre | [[doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite]] · [[doctrinal/symboles/espace-sacre-shinto]] · [[doctrinal/symboles/mihrab-torii]] · [[doctrinal/traditions/shinto]] · [[meta/carte-du-depot]] | 01-a.md +9 | 46 |
 | `hadrat` | Hadrat, Hadrät, hadrat, hadrät (+3) | — | — | translit | [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] · [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +3 | 44 |
 | `hall` | Hall, hall, ḥall | — | — | translit | [[atelier/etudes-de-cas/dougong-consoles-bois]] · [[atelier/rd/citadelle-du-sham/note]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 00-front-matter.md +20 | 42 |
-| `henri` | Henri | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-8.md +21 | 40 |
+| `henri` | Henri | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-8.md +22 | 41 |
 | `hermes-native` | Hermes-native | — | — | table, titre | **14 fiches** | — | 40 |
 | `habiba-nour` | Habiba-Nour, habiba-nour | — | — | table, titre | **12 fiches** | — | 39 |
 | `hub` | Hub, hub | — | — | tag | **16 fiches** | — | 38 |
@@ -106,11 +106,11 @@ links: []
 | `haraka` | haraka, ḥaraka | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 14 |
 | `heiden` | Heiden, heiden | — | — | table | [[doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite]] · [[doctrinal/traditions/shinto]] | 07-g.md +5 | 14 |
 | `hesed` | Hesed, hesed | — | — | annotation, table, tag | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · [[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]] · [[doctrinal/sources/kabbale-10-sefirot-structure]] · +2 | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md +1 | 14 |
+| `hibbert` | Hibbert | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-superstition-de-la-science-orient-et-occident-index-de-l-uvre-de-rene-guenon.md +4 | 14 |
 | `hokhma` | Hokhma, hokhma | — | — | annotation, table, tag | **9 fiches** | sefer-yetsira-ramban.md | 14 |
 | `haim` | Haim, Haïm, haim | — | — | table, titre | [[doctrinal/autorites/haim-vital]] · [[doctrinal/autorites/raphael-afilalo]] · [[doctrinal/deviations/reincarnation-vies-anterieures]] · [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/symboles/gilgul]] · +2 | shaar-hagilgulim-gate-of-reincarnations.md +1 | 13 |
 | `hanbal` | Hanbal, Ḥanbal | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]] · [[meta/carte-doctrinal]] · +1 | jurjani-definitions.md +1 | 13 |
 | `harvard` | Harvard | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-15.md +10 | 13 |
-| `hibbert` | Hibbert | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md +3 | 13 |
 | `hayawan` | hayawan, hayawân, ḥayawân, ḥayawān | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | sept-etendards-califat-transcription.md | 12 |
 | `hod` | Hod, hod | — | — | tag | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · [[doctrinal/sources/kabbale-10-sefirot-structure]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · +1 | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +3 | 12 |
 | `hudut` | hudût, ḥudûṯ, ḥudūṯ | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | jurjani-definitions.md | 12 |

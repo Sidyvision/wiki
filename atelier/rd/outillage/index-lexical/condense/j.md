@@ -13,13 +13,13 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `juz` | Juz, juz, juzʾ | — | — | translit | [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/mawlid-al-rasul]] | index-conversion.md +36 | 3401 |
-| `jour` | JOUR, Jour, jour | — | — | table, titre | **260 fiches** | LISEZ-MOI.md +149 | 1098 |
+| `jour` | JOUR, Jour, jour | — | — | table, titre | **261 fiches** | LISEZ-MOI.md +161 | 1124 |
 | `japanese` | Japanese | — | — | table | [[atelier/etudes-de-cas/kojima-productions]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +24 | 259 |
+| `jeu` | Jeu, jeu | — | — | titre | **65 fiches** | LISEZ-MOI.md +46 | 198 |
 | `janus` | Janus, janus | — | — | annotation, table, tag, titre | **23 fiches** | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +23 | 190 |
-| `jeu` | Jeu, jeu | — | — | titre | **65 fiches** | LISEZ-MOI.md +42 | 190 |
+| `journal` | Journal, journal | — | — | tag, titre | **55 fiches** | karubi-mehdi-navette-20260812.md +44 | 182 |
 | `jurjani` | Jurjani, Jurjânî, Jurjäni, Jurjānī (+2) | — | — | annotation, table, tag, titre, translit | **60 fiches** | karubi-mehdi-navette-20260812.md +1 | 182 |
 | `jean` | JEAN, Jean | — | — | table | **24 fiches** | 00-front-matter.md +63 | 181 |
-| `journal` | Journal, journal | — | — | tag, titre | **55 fiches** | karubi-mehdi-navette-20260812.md +43 | 181 |
 | `jabarut` | Jabarut, Jabarût, Jabarūt, jabarut (+3) | — | — | annotation, table, tag, translit | **44 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 170 |
 | `jesus` | Jesus, JÉSUS, Jésus, jesus | — | — | table, titre | **40 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +27 | 170 |
 | `jiva` | Jîva, Jīva, jiva, jîva (+1) | — | — | translit | **12 fiches** | la-puissance-du-serpent.md +6 | 156 |
@@ -30,8 +30,8 @@ links: []
 | `jnana` | Jnâna, Jnânâ, Jñâna, Jñāna (+3) | — | — | table, translit | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] · [[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas]] · [[doctrinal/symboles/atma-gita-guenon]] | la-puissance-du-serpent.md +11 | 81 |
 | `john` | JoHN, John | — | — | table | **10 fiches** | 11-k.md +21 | 56 |
 | `janua` | Janua, janua | — | — | table | **12 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-32.md +8 | 46 |
+| `japon` | Japon, japon | — | — | annotation, table, tag | **13 fiches** | le-roi-du-monde-index-de-l-uvre-de-rene-guenon-3.md +10 | 46 |
 | `jinn` | Jinn, jinn | — | — | tag | **11 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +12 | 43 |
-| `japon` | Japon, japon | — | — | annotation, table, tag | **12 fiches** | le-roi-du-monde-index-de-l-uvre-de-rene-guenon-3.md +8 | 41 |
 | `journalisation` | Journalisation, journalisation | — | — | definition | **23 fiches** | — | 40 |
 | `jean-marc` | Jean-Marc, jean-marc | — | — | table, titre | **12 fiches** | — | 38 |
 | `jam` | Jam, Jamʿ, Jâm, Jām (+2) | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +2 | sept-etendards-califat-transcription.md +5 | 36 |
@@ -74,6 +74,7 @@ links: []
 | `jilani` | Jilâni, Jîlânî, Jīlānī | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | sciences-traditionnelles-et-modernite-pdf-soufisme.md | 3 |
 | `juziyya` | juzʾiyya | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `jahiz` | Jahiz, Jâḥiẓ | — | — | translit | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
+| `jihad-al-akbar` | jihad-al-akbar | — | — | annotation, tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 1 |
 | `jamais   sur un profil vivant` | Jamais   sur un profil vivant | — | — | definition | [[meta/projet-unifie/hermes-prompts/08-publication-site/deployer-prompt-agent]] | — | 0 |
 | `jazuli` | jazuli | — | — | tag | [[doctrinal/sources/dalail-al-khayrat-jazuli]] | — | 0 |
 | `jeu-video` | jeu-video | — | — | tag | [[hermeneutique/auteurs/hideo-kojima]] · [[hermeneutique/auteurs/yoji-shinkawa]] · [[hermeneutique/death-stranding/death-stranding]] · [[hermeneutique/metal-gear/metal-gear]] | — | 0 |

@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `kabbale` | Kabbale, kabbale | — | — | annotation, table, tag, titre | **63 fiches** | quelques-considerations-sur-l-hermetisme-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +73 | 465 |
+| `kabbale` | Kabbale, kabbale | — | — | annotation, table, tag, titre | **64 fiches** | quelques-considerations-sur-l-hermetisme-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +73 | 466 |
 | `karubi` | KARUBI, Karubi, Karūbī, karubi | — | — | table, tag, titre, translit | **47 fiches** | isaghuji-cours01-introduction-transcription.md +1 | 386 |
 | `kundalini` | Kundalini, Kundalinî, Kundalinī, Kuṇḍalinī (+3) | — | — | annotation, tag, translit | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +7 | 297 |
 | `kari-kumi` | Kari-kumi, kari-kumi | — | — | annotation, table, tag, titre | **119 fiches** | karubi-mehdi-navette-20260812.md | 261 |

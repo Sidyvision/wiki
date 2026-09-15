@@ -12,22 +12,23 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ordre` | ORDRE, Ordre, ordre | — | — | table, tag | **152 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +307 | 987 |
+| `ordre` | ORDRE, Ordre, ordre | — | — | table, tag | **154 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +317 | 1033 |
 | `own` | Own, own | — | — | titre | **28 fiches** | LISEZ-MOI.md +64 | 426 |
-| `ouvert` | OUVERT, Ouvert, ouvert | — | — | table, tag | **160 fiches** | LISEZ-MOI.md +15 | 411 |
+| `ouvert` | OUVERT, Ouvert, ouvert | — | — | table, tag | **160 fiches** | LISEZ-MOI.md +16 | 412 |
 | `orion` | ORION, Orion, orion | — | — | annotation, table, tag, titre | **11 fiches** | LISEZ-MOI.md +23 | 345 |
-| `origine` | Origine, origine | — | — | definition, table, titre | **81 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +126 | 334 |
+| `origine` | Origine, origine | — | — | definition, table, titre | **82 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +129 | 338 |
 | `outillage` | Outillage, outillage | — | — | table, tag | **123 fiches** | karubi-mehdi-navette-20260812.md +1 | 265 |
+| `occident` | OCCIDENT, Occident | — | — | titre | **18 fiches** | LISEZ-MOI.md +149 | 260 |
 | `ouverts` | ouverts | — | — | definition, titre | **63 fiches** | le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon-10.md +2 | 163 |
-| `observation` | Observation, observation | — | — | definition, table | **35 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-5.md +46 | 126 |
+| `observation` | Observation, observation | — | — | definition, table | **35 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-5.md +47 | 127 |
+| `orient` | ORIENT, Orient, orient | — | — | table, titre | **11 fiches** | LISEZ-MOI.md +68 | 125 |
 | `ornith` | Ornith, ornith | — | — | table, tag, titre | **25 fiches** | — | 122 |
-| `ocr` | OCR, ocr | — | — | tag, titre | **39 fiches** | LISEZ-MOI.md +4 | 112 |
-| `obsidian` | Obsidian, obsidian | — | — | table, tag, titre | **32 fiches** | LISEZ-MOI.md | 99 |
+| `ocr` | OCR, ocr | — | — | tag, titre | **39 fiches** | LISEZ-MOI.md +4 | 114 |
+| `obsidian` | Obsidian, obsidian | — | — | table, tag, titre | **32 fiches** | LISEZ-MOI.md +1 | 103 |
+| `options` | Options, options | — | — | definition, table | **28 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +23 | 97 |
 | `ourse` | Ourse, ourse | — | — | table | **14 fiches** | enel-a-message-from-the-sphinx-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +8 | 96 |
-| `orient` | ORIENT, Orient, orient | — | — | table | **9 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +57 | 95 |
-| `options` | Options, options | — | — | definition, table | **28 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +20 | 92 |
+| `objectif` | Objectif, objectif | — | — | definition | **22 fiches** | la-puissance-du-serpent.md +12 | 78 |
 | `omniroute` | OmniRoute, Omniroute, omniroute | — | — | table, tag, titre | **27 fiches** | — | 78 |
-| `objectif` | Objectif, objectif | — | — | definition | **22 fiches** | la-puissance-du-serpent.md +11 | 77 |
 | `orientation` | Orientation, orientation | — | — | titre | **29 fiches** | l-ecorce-et-le-noyau-el-qishr-wa-el-lobb-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +15 | 60 |
 | `organique` | Organique, organique | — | — | titre | **16 fiches** | le-rejet-des-pouvoirs-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +22 | 54 |
 | `oeuvre` | Oeuvre, oeuvre | — | — | tag | **17 fiches** | chapitre-xiii-l-athanor-titus-burckartt.md +1 | 46 |
@@ -65,6 +66,7 @@ links: []
 | `obsidi` | Obsidi | — | — | table | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] | — | 3 |
 | `opencv` | OpenCV | — | — | table | [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan]] · [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]] · [[atelier/rd/registre-chantiers]] | — | 3 |
 | `ovule` | Ovule, ovule | — | — | table | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | les-principes-du-calcul-infinitesimal-index-de-l-uvre-de-rene-guenon-4.md | 3 |
+| `orient-et-occident` | orient-et-occident | — | — | annotation, tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/guenon-orient-et-occident]] | — | 2 |
 | `orpo` | ORPO | — | — | table | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] · [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]] | — | 2 |
 | `observation operatoire capitale` | Observation opératoire capitale | — | ⚖ universel | definition | [[doctrinal/deviations/renversement-des-symboles]] | — | 1 |
 | `onomastique` | onomastique | — | — | tag | [[meta/personnel/2026-06-20_bejjar-genealogie]] | rene-guenon-psychologie-attribution-pdf-carl-jung.md | 1 |

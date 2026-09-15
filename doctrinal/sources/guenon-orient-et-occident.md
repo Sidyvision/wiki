@@ -6,8 +6,8 @@ tradition_cadre: "universel"
 tags: [guenon, orient-et-occident, science-profane, scientisme, vulgarisation, elite-intellectuelle, syncretisme, tradition, principes]
 created: 2026-09-15
 updated: 2026-09-15
-sources: ["textes/orient-et-occident/orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/orient-et-occident-index-de-l-uvre-de-rene-guenon-2.md", "textes/orient-et-occident/la-superstition-de-la-science-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/la-superstition-de-la-vie-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/terreurs-chimeriques-et-dangers-reels-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/orient-et-occident-index-de-l-uvre-de-rene-guenon-3.md", "textes/orient-et-occident/l-accord-sur-les-principes-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/constitution-et-role-de-l-elite-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/entente-et-non-fusion-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/orient-et-occident-index-de-l-uvre-de-rene-guenon-4.md"]
-sources_count: 10
+sources: ["textes/orient-et-occident/orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/orient-et-occident-index-de-l-uvre-de-rene-guenon-2.md", "textes/orient-et-occident/la-superstition-de-la-science-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/la-superstition-de-la-vie-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/terreurs-chimeriques-et-dangers-reels-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/orient-et-occident-index-de-l-uvre-de-rene-guenon-3.md", "textes/orient-et-occident/l-accord-sur-les-principes-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/constitution-et-role-de-l-elite-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/entente-et-non-fusion-orient-et-occident-index-de-l-uvre-de-rene-guenon.md", "textes/orient-et-occident/orient-et-occident-index-de-l-uvre-de-rene-guenon-4.md", "textes/orient-et-occident/orient-et-occident-page-228-fin-conclusion-et-addendum.md"]
+sources_count: 11
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]]", "[[doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]"]
 ---
 
@@ -16,20 +16,20 @@ cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon
 ## Référence
 
 **<span data-nom="rene-guenon" data-genre="autorite">René Guénon</span>**, *<span data-nom="orient-et-occident" data-genre="ouvrage">Orient et Occident</span>*. Ouvrage entier :
-avant-propos, deux parties de quatre chapitres chacune, conclusion. Texte consulté
+avant-propos, deux parties de quatre chapitres chacune, conclusion, addendum. Texte consulté
 dans `textes/orient-et-occident/` (sigle `OO`, chapitres `953` à `964` de l'Index
 de l'œuvre de René Guénon), **lu intégralement** le 2026-09-15.
 
-> ⚠️ **Pagination `to-source`** — non relevée ; la coupure web n'en porte pas.
-> **Date et éditeur de l'édition originale `to-source`** : le texte versé ne les
-> donne pas. Il s'y date lui-même par ses renvois (la guerre de 1914 ; un article de
-> Jacques Bainville du 1er mars 1922).
+> ⚠️ **Pagination `to-source`** pour l'essentiel : seules les coupures par chapitre
+> ont été prises, sans numéro de page — sauf la dernière, prise en mode « livre »
+> (p. 228 de l'édition Guy Trédaniel / Éditions de la Maisnie, 1987, nommée en tête
+> de page). **Date de rédaction** : 1924, d'après la note 1 de l'Addendum (« depuis
+> que ce livre a été écrit » — « 1924 »). Éditeur de l'édition originale `to-source`.
 
-> ⚠️ **Capture incomplète, signalée.** La conclusion s'interrompt au milieu de sa
-> dernière phrase (« il y a des obligations qui sont ») ; la page « Addendum »
-> (`Chapitre=964`) n'a capturé que son titre et l'habillage du site. La fin de la
-> conclusion et l'addendum sont donc **absents du dépôt**. Détail :
-> `textes/orient-et-occident/index-conversion.md`.
+> ℹ️ **Capture complétée le 2026-09-15.** La première capture de la conclusion
+> s'interrompait (« il y a des obligations qui sont ») et celle de l'addendum était
+> vide ; une seconde coupure (p. 228) porte la fin de la conclusion et l'addendum
+> entier. Détail : `textes/orient-et-occident/index-conversion.md`.
 
 Ancrage du champ `sources` sur `textes/` : même usage que
 [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]], qui l'a introduit
@@ -48,7 +48,8 @@ et signalé le 2026-09-06.
 | | II. L'accord sur les principes | `l-accord-sur-les-principes-…` |
 | | III. Constitution et rôle de l'élite | `constitution-et-role-de-l-elite-…` |
 | | IV. Entente et non fusion | `entente-et-non-fusion-…` |
-| — | Conclusion (tronquée) | `…-guenon-4.md` |
+| — | Conclusion | `…-guenon-4.md`, fin dans `…-page-228-fin-conclusion-et-addendum.md` |
+| — | Addendum | `…-page-228-fin-conclusion-et-addendum.md` |
 
 ## Ce que dit l'ouvrage
 
@@ -127,6 +128,16 @@ nous ont été transmises ».
 la connaissance pleinement effective », laquelle « est non un moyen, mais une fin en
 soi » (II, ch. III) ; le savoir « simplement "livresque" » n'est « pas utilisable »
 pour le but visé (II, ch. IV).
+
+**10. La fin et l'addendum.** La conclusion s'achève sur les obligations
+« inhérentes à toute vraie connaissance », « purement intérieures », « les seules dont
+on ne puisse jamais s'affranchir ». L'Addendum, postérieur, constate que « la
+situation est devenue pire que jamais » ; il juge désormais « plus vraisemblable que
+jamais que l'Orient ait à intervenir plus ou moins directement », précise que
+l'Orient visé est « l'Orient traditionnel », et l'Occident « la mentalité moderne et
+antitraditionnelle, où qu'elle puisse se trouver » — une opposition de points de vue,
+« non pas simplement celle de deux termes géographiques ». Il conclut que l'esprit
+traditionnel lui paraît « demeuré intact uniquement dans ses formes orientales ».
 
 ## Points de vigilance
 

@@ -12,13 +12,13 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `base` | BASE, Base, Basé, base (+1) | — | — | table, tag, titre | **124 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +163 | 654 |
+| `base` | BASE, Base, Basé, base (+1) | — | — | table, tag, titre | **124 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +169 | 666 |
 | `barzakh` | Barzakh, barzakh | — | ✓ islam | annotation, table, tag, titre | **97 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +8 | 456 |
 | `brahma` | BRAHMA, Brahma, Brahmâ, brahma (+1) | — | — | annotation, table, tag | **30 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +70 | 316 |
 | `body` | Body, body | — | — | table, titre | **14 fiches** | 00-front-matter.md +56 | 295 |
 | `balance` | Balance, balance | — | — | table, tag, titre | **44 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +29 | 294 |
 | `bibliotheque` | BIBLIOTHÈQUE, Bibliothèque, bibliotheque, bibliothèque | — | — | table, tag, titre | **138 fiches** | LISEZ-MOI.md +20 | 278 |
-| `branche` | Branche, Branché, branche, branché | — | — | table, titre | **64 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +41 | 230 |
+| `branche` | Branche, Branché, branche, branché | — | — | table, titre | **64 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +42 | 231 |
 | `bad` | Bad, bad, baʿḍ, bād | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 11-k.md +37 | 215 |
 | `buddhi` | BUDDHI, Buddhi, buddhi | `बुदधि` | ✓ hindouisme · *sanskrit* | annotation, table, tag, titre | **31 fiches** | paradis-terrestre-et-paradis-celeste-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +26 | 205 |
 | `bindu` | Bindu, bindu, bindû | `बिंदु` | ✓ hindouisme · *sanskrit* | table, titre | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/symboles/bindu]] · [[doctrinal/symboles/nada]] · [[meta/carte-doctrinal]] · +3 | la-puissance-du-serpent.md +1 | 193 |
@@ -36,7 +36,7 @@ links: []
 | `bande` | Bande, Bandé, bande | — | — | table, tag | **36 fiches** | la-puissance-du-serpent.md +1 | 70 |
 | `bibliographie` | BIBLIOGRAPHIE, Bibliographie, bibliographie | — | — | tag, titre | **22 fiches** | LISEZ-MOI.md +8 | 68 |
 | `bhagavad-gita` | Bhagavad-Gita, Bhagavad-Gitâ, Bhagavad-Gîta, Bhagavad-Gîtâ (+1) | — | — | table, translit | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] · [[atelier/rd/cahiers/registre-problemes]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · +3 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +31 | 66 |
-| `bases` | BASES, Bases, bases, basés | — | — | table, titre | **17 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +30 | 61 |
+| `bases` | BASES, Bases, bases, basés | — | — | table, titre | **17 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +32 | 64 |
 | `big` | BiG, Big, big | — | — | titre | [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/metal-gear]] · [[hermeneutique/metal-gear/mother-base]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · +1 | 17-t.md +19 | 59 |
 | `briefing` | Briefing, briefing | — | — | titre | **20 fiches** | — | 59 |
 | `bureau` | Bureau, bureau | — | — | table, titre | **25 fiches** | 01-a.md +12 | 59 |

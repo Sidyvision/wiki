@@ -12,53 +12,54 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `pdf` | PDF, pdf | — | — | tag | **55 fiches** | LISEZ-MOI.md +44 | 3546 |
-| `principe` | PRINCIPE, Principe, principe | — | — | definition, table, titre | **303 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +330 | 2276 |
-| `porte` | PORTE, Porte, Porté, porte (+1) | — | — | table, titre | **341 fiches** | LISEZ-MOI.md +166 | 1661 |
-| `place` | Place, Placé, place, placé | — | — | table, titre | **180 fiches** | LISEZ-MOI.md +344 | 1373 |
-| `points` | POINTS, Points, points | — | — | table, titre | **190 fiches** | 09-i.md +283 | 1165 |
-| `premiere` | PREMIERE, PREMIÈRE, Premiere, Première (+3) | — | — | table, titre | **202 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +330 | 1129 |
+| `pdf` | PDF, pdf | — | — | tag | **55 fiches** | LISEZ-MOI.md +44 | 3549 |
+| `principe` | PRINCIPE, Principe, principe | — | — | definition, table, titre | **305 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +337 | 2308 |
+| `porte` | PORTE, Porte, Porté, porte (+1) | — | — | table, titre | **343 fiches** | LISEZ-MOI.md +171 | 1679 |
+| `place` | Place, Placé, place, placé | — | — | table, titre | **180 fiches** | LISEZ-MOI.md +355 | 1398 |
+| `points` | POINTS, Points, points | — | — | table, titre | **192 fiches** | 09-i.md +291 | 1189 |
+| `premiere` | PREMIERE, PREMIÈRE, Premiere, Première (+3) | — | — | table, titre | **203 fiches** | LISEZ-MOI.md +340 | 1155 |
 | `pole` | POLE, Pole, Pôle, pole (+1) | — | — | table, tag, titre | **215 fiches** | 02-b.md +99 | 1005 |
-| `pourquoi` | POURQUOI, Pourquoi, pourquoi | — | — | definition, table | **122 fiches** | LISEZ-MOI.md +313 | 928 |
-| `plan` | PLAN, Plan, plan | — | — | definition, table, tag, titre | **170 fiches** | LISEZ-MOI.md +140 | 919 |
-| `pouvoir` | POUVOIR, Pouvoir, pouvoir | — | — | table, tag | **69 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +232 | 699 |
-| `phase` | Phase, phase | — | — | table, titre | **117 fiches** | 10-j.md +64 | 682 |
-| `physique` | Physique, physique | — | — | titre | **206 fiches** | LISEZ-MOI.md +83 | 621 |
-| `puis` | Puis, puis | — | — | definition | **204 fiches** | LISEZ-MOI.md +101 | 614 |
-| `produit` | Produit, produit | — | — | definition | **143 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +173 | 608 |
-| `profane` | PROFANE, Profane, profane | — | — | titre | **62 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +175 | 553 |
-| `portee` | Portée, portee, portée | — | ⚖ islam | definition, table | **165 fiches** | LISEZ-MOI.md +140 | 529 |
-| `protocole` | Protocole, protocole | — | — | definition, table, tag, titre | **172 fiches** | LISEZ-MOI.md +1 | 504 |
-| `production` | PRODUCTION, Production, production | — | — | table, titre | **143 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +69 | 482 |
+| `pourquoi` | POURQUOI, Pourquoi, pourquoi | — | — | definition, table | **122 fiches** | LISEZ-MOI.md +323 | 964 |
+| `plan` | PLAN, Plan, plan | — | — | definition, table, tag, titre | **171 fiches** | LISEZ-MOI.md +146 | 927 |
+| `principes` | PRINCIPES, Principes, principes | — | — | table, tag | **105 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +202 | 742 |
+| `pouvoir` | POUVOIR, Pouvoir, pouvoir | — | — | table, tag | **71 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +239 | 719 |
+| `phase` | Phase, phase | — | — | table, titre | **117 fiches** | 10-j.md +65 | 683 |
+| `physique` | Physique, physique | — | — | titre | **206 fiches** | LISEZ-MOI.md +87 | 628 |
+| `puis` | Puis, puis | — | — | definition | **204 fiches** | LISEZ-MOI.md +104 | 620 |
+| `produit` | Produit, produit | — | — | definition | **145 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +178 | 619 |
+| `profane` | PROFANE, Profane, profane | — | — | titre | **62 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +178 | 560 |
+| `portee` | Portée, portee, portée | — | ⚖ islam | definition, table | **167 fiches** | LISEZ-MOI.md +148 | 554 |
+| `protocole` | Protocole, protocole | — | — | definition, table, tag, titre | **173 fiches** | LISEZ-MOI.md +2 | 506 |
+| `production` | PRODUCTION, Production, production | — | — | table, titre | **144 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +69 | 483 |
 | `pierre` | Pierre, pierre | — | — | table, titre | **40 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +72 | 460 |
 | `prophete` | Prophete, Prophète, prophete, prophète | — | — | table, titre | **84 fiches** | de-la-transmission-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +49 | 445 |
+| `philosophie` | PHILOSOPHIE, Philosophie, philosophie | — | — | table, titre | **38 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +117 | 432 |
 | `polaire` | Polaire, polaire, pôlaire | — | — | table, tag, titre | **106 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +35 | 429 |
-| `paris` | Paris, paris | — | — | table, titre | **49 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +85 | 410 |
-| `philosophie` | PHILOSOPHIE, Philosophie, philosophie | — | — | table, titre | **38 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +110 | 386 |
-| `publication` | PUBLICATION, Publication, publication | — | — | table, titre | **86 fiches** | 00-front-matter.md +55 | 359 |
-| `primordiale` | PRIMORDIALE, Primordiale, primordiale | — | — | table, titre | **66 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +113 | 350 |
+| `paris` | Paris, paris | — | — | table, titre | **49 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +86 | 411 |
+| `publication` | PUBLICATION, Publication, publication | — | — | table, titre | **86 fiches** | 00-front-matter.md +56 | 360 |
+| `primordiale` | PRIMORDIALE, Primordiale, primordiale | — | — | table, titre | **67 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +114 | 354 |
 | `peace` | Peace, peace | — | — | table | [[doctrinal/sources/hasbiyallah-rabbani]] · [[hermeneutique/metal-gear/metal-gear]] · [[hermeneutique/metal-gear/mother-base]] | 03-c.md +41 | 325 |
-| `profil` | Profil, profil | — | — | definition, table, tag, titre | **72 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md | 303 |
-| `personnel` | Personnel, personnel | — | — | definition, titre | **99 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +28 | 286 |
+| `profil` | Profil, profil | — | — | definition, table, tag, titre | **72 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +1 | 304 |
+| `personnel` | Personnel, personnel | — | — | definition, titre | **99 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +29 | 289 |
 | `proposition` | PROPOSITION, Proposition, proposition | — | ⚖ universel | definition, table, tag, titre | **100 fiches** | karubi-mehdi-navette-20260812.md +10 | 285 |
 | `prakriti` | PRAKRITI, Prakriti, prakriti | — | ✓ hindouisme | annotation, table, tag, titre | **19 fiches** | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +45 | 258 |
 | `prof` | Prof | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md +24 | 249 |
 | `piste` | Piste, piste | — | — | definition, table, titre | **115 fiches** | — | 246 |
 | `psychique` | PSYCHIQUE, psychique | — | — | tag, titre | **56 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +71 | 244 |
 | `purusha` | PURUSHA, Purusha, purusha | — | ✓ hindouisme | annotation, table, tag, titre | **21 fiches** | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +46 | 242 |
-| `projet` | Projet, projet | — | — | table, titre | **68 fiches** | karubi-mehdi-navette-20260812.md +7 | 238 |
-| `preface` | PREFACE, PRÉFACE, Preface, Préface (+3) | — | — | table | **35 fiches** | LISEZ-MOI.md +31 | 233 |
-| `principal` | Principal, principal | — | — | table, titre | **62 fiches** | 00-front-matter.md +104 | 233 |
+| `projet` | Projet, projet | — | — | table, titre | **68 fiches** | karubi-mehdi-navette-20260812.md +8 | 241 |
+| `principal` | Principal, principal | — | — | table, titre | **63 fiches** | 00-front-matter.md +106 | 236 |
+| `preface` | PREFACE, PRÉFACE, Preface, Préface (+3) | — | — | table | **35 fiches** | LISEZ-MOI.md +32 | 234 |
 | `prana` | Prâna, Prânâ, Prāna, Prāṇa (+3) | — | — | translit | **10 fiches** | de-la-transmission-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 219 |
 | `protection` | Protection, protection | — | — | table, titre | **41 fiches** | 01-a.md +50 | 216 |
 | `poles` | Poles, Pôles, poles, pôles | — | — | table, titre | **49 fiches** | 02-b.md +58 | 215 |
+| `probleme` | Problème, problème | — | ⚖ kabbale | definition, table | **64 fiches** | LISEZ-MOI.md +44 | 210 |
 | `primitive` | PRIMITIVE, Primitive, primitive | — | — | titre | **10 fiches** | 16-s.md +52 | 207 |
-| `probleme` | Problème, problème | — | ⚖ kabbale | definition, table | **64 fiches** | LISEZ-MOI.md +42 | 206 |
 | `poor` | Poor, poor | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · [[doctrinal/symboles/al-fuqara]] | 09-i.md +28 | 192 |
-| `pagination` | Pagination, pagination | — | — | table | **67 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 172 |
+| `pagination` | Pagination, pagination | — | — | table | **68 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 174 |
+| `partage` | partage, partagé | — | — | titre | **58 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +40 | 173 |
 | `prophetes` | PROPHÈTES, Prophetes, Prophètes, prophetes (+1) | — | — | table, tag | **47 fiches** | voie-initiatique-et-voie-mystique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 170 |
 | `popular` | POPULAR, Popular, popular | — | — | table, titre | [[doctrinal/sources/a-popular-dictionary-of-shinto-bocking]] · [[meta/carte-du-depot]] | 00-front-matter.md +27 | 168 |
-| `partage` | partage, partagé | — | — | titre | **58 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +37 | 166 |
 | `principiel` | principiel | — | — | titre | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +75 | 165 |
 | `pain` | Pain, pain | — | — | table | **11 fiches** | guenon-correspondance-genty-1937-07-14-le-caire.md +26 | 151 |
 | `prototype` | Prototype, prototype, prototypé | — | — | table, tag | **48 fiches** | 09-i.md +33 | 151 |
@@ -72,33 +73,33 @@ links: []
 | `pierres` | Pierres, pierres | — | — | table, tag, titre | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +28 | 119 |
 | `passif` | passif | — | — | titre | **16 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +47 | 113 |
 | `propriete` | Propriété, propriété | — | — | definition, table | **47 fiches** | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +25 | 107 |
+| `phenomene` | Phénomène, phenomene, phénomène | — | — | table, tag | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +32 | 105 |
+| `provenance` | Provenance, provenance | — | — | table, tag | **42 fiches** | LISEZ-MOI.md +29 | 102 |
 | `planetes` | Planètes, planetes, planètes | — | — | tag | **32 fiches** | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +20 | 101 |
-| `provenance` | Provenance, provenance | — | — | table, tag | **42 fiches** | LISEZ-MOI.md +27 | 100 |
 | `pont` | Pont, pont | — | — | titre | **36 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +14 | 99 |
-| `phenomene` | Phénomène, phenomene, phénomène | — | — | table, tag | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +29 | 97 |
+| `problemes` | Problèmes, problèmes | — | — | titre | **37 fiches** | koly-cherif-keita-djinns-aident-humains.md +10 | 98 |
 | `prompts` | Prompts, prompts | — | — | table, tag | **33 fiches** | — | 97 |
-| `problemes` | Problèmes, problèmes | — | — | titre | **37 fiches** | koly-cherif-keita-djinns-aident-humains.md +8 | 95 |
 | `planetaire` | Planétaire, planetaire, planétaire | — | — | table, titre | **45 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +6 | 94 |
 | `pingala` | Pingalâ, Piṅgalā, pingala, pingalâ (+2) | — | — | annotation, table, tag, translit | **11 fiches** | la-puissance-du-serpent.md +4 | 93 |
 | `pistes` | Pistes, pistes | — | — | table, titre | **38 fiches** | — | 91 |
 | `prochaine` | Prochaine, prochaine | — | — | table | **37 fiches** | karubi-mehdi-navette-20260812.md +16 | 88 |
 | `paul` | PAUL, Paul, paul | — | — | table | **10 fiches** | LISEZ-MOI.md +48 | 84 |
 | `precession` | Précession, precession, précession | — | — | annotation, table, tag | **22 fiches** | gaston-georgel-les-rythmes-dans-l-histoire-2e-ed-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +13 | 83 |
+| `prepare` | prepare, prépare, préparé | — | — | titre | **34 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +33 | 80 |
 | `pertinence` | Pertinence, pertinence | — | — | table | **35 fiches** | 00-front-matter.md | 77 |
 | `para` | Para, Parâ, para, parâ (+2) | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · [[doctrinal/symboles/adityas-mois-du-soleil]] | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +20 | 76 |
 | `porteur` | Porteur, porteur | — | ⚖ islam | definition, table | **31 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +13 | 76 |
-| `prepare` | prepare, prépare, préparé | — | — | titre | **33 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +31 | 76 |
-| `personnelles` | personnelles | — | — | titre | **40 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +16 | 73 |
+| `personnelles` | personnelles | — | — | titre | **41 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +17 | 75 |
 | `paramatma` | Paramatma, Paramâtma, Paramâtmâ, paramâtmâ | — | — | table | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[meta/journal/conversation-atma-claude]] | la-puissance-du-serpent.md +16 | 68 |
+| `protestantisme` | PROTESTANTISME, Protestantisme, protestantisme | — | — | annotation, tag | [[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion]] · [[doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya]] · [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]] · [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] · [[meta/carte-du-depot]] | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +18 | 68 |
 | `proportion` | Proportion, proportion | — | — | tag | **18 fiches** | 11-k.md +22 | 67 |
-| `parodie` | PARODIE, Parodie, parodie | — | — | tag | **16 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +25 | 64 |
+| `productions` | Productions, productions | — | — | table, titre | **13 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +33 | 66 |
+| `parodie` | PARODIE, Parodie, parodie | — | — | tag | **16 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +26 | 65 |
+| `priorite` | Priorité, priorite, priorité | — | — | definition, table | **39 fiches** | la-puissance-du-serpent.md +7 | 65 |
 | `portance` | Portance, portance | — | — | definition, table | **38 fiches** | osman-yahya-00-front-matter.md +2 | 64 |
-| `priorite` | Priorité, priorite, priorité | — | — | definition, table | **39 fiches** | la-puissance-du-serpent.md +6 | 64 |
-| `protestantisme` | PROTESTANTISME, Protestantisme, protestantisme | — | — | annotation, tag | [[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion]] · [[doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya]] · [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]] · [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] · [[meta/carte-du-depot]] | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +17 | 64 |
 | `piedestal` | PIEDESTAL, Piedestal, Piédestal, piedestal (+1) | — | — | table | **12 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 63 |
 | `pleiades` | Pleiades, Pléiades, pleiades, pléiades | — | — | annotation, table, tag | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +10 | 63 |
 | `poesie` | Poesie, Poésie, poesie, poésie | — | — | table, tag | **12 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +9 | 60 |
-| `productions` | Productions, productions | — | — | table, titre | **12 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +29 | 60 |
 | `pythagoriciens` | Pythagoriciens, pythagoriciens | — | — | titre | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-6.md +23 | 60 |
 | `pacte` | Pacte, pacte | — | — | titre | **25 fiches** | karubi-mehdi-navette-20260812.md +4 | 59 |
 | `python` | Python, python | — | — | table, tag | **31 fiches** | index-conversion.md +3 | 58 |
@@ -135,9 +136,9 @@ links: []
 | `pythagore` | Pythagore, pythagore | — | — | tag | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/guenon-zodiaque-pythagoriciens]] | organisations-initiatiques-et-sectes-religieuses-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +16 | 30 |
 | `poseidon` | Poseidon, Poséidon, Poséïdon, poseidon | — | ✓ hellenisme | annotation, table, tag, titre | [[doctrinal/autorites/platon]] · [[doctrinal/sources/platon-oeuvres-completes-brisson-2011]] · [[doctrinal/symboles/atlantide]] · [[doctrinal/symboles/poseidon]] · [[meta/carte-doctrinal]] · +3 | la-triple-enceinte-druidique-symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon.md | 29 |
 | `pantheisme` | Pantheisme, panthéisme | — | — | table, tag | [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/deviations/confusion-psychique-spirituel]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[doctrinal/symboles/wahdat-al-wujud]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-5.md +13 | 28 |
+| `preliminaire` | préliminaire | — | — | titre | [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820]] · [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | connaissance-initiatique-et-culture-profane-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +11 | 27 |
 | `paramashiva` | Paramashiva | — | — | table | [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | la-puissance-du-serpent.md +1 | 26 |
 | `pasha` | Pasha, Pâsha, Päshä, pasha (+2) | — | — | translit | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas]] | la-puissance-du-serpent.md +6 | 26 |
-| `preliminaire` | préliminaire | — | — | titre | [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820]] · [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[atelier/rd/infrastructure/incident-20260820-gardien-enlisement-rapport-conjoint]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | connaissance-initiatique-et-culture-profane-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +10 | 26 |
 | `puranas` | Puranas, Purânas, Purâṇas, Purāṇas | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]] · [[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +12 | 24 |
 | `point de methode` | Point de méthode | — | ⚖ universel | definition | **20 fiches** | — | 23 |
 | `privilege` | privilege, privilège | — | — | titre | **13 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +8 | 23 |
@@ -209,6 +210,7 @@ links: []
 | `posche` | Posche | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch01-prehistoric-times.md | 4 |
 | `post-entrainement` | post-entrainement, post-entraînement | — | — | tag, titre | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] · [[atelier/rd/registre-chantiers]] · [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]] · [[atelier/rd/veille/registre]] | — | 4 |
 | `prashnopanishad` | Prashnopanishad | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch07-months-and-seasons.md +1 | 4 |
+| `premierement` | Premièrement, premièrement | — | ⚖ islam | definition | [[doctrinal/sources/meftah-chatons-sagesses-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 4 |
 | `probleme resolu` | Problème résolu | — | — | definition | [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] · [[atelier/rd/infrastructure/synthese-deploiement-memoire]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 4 |
 | `profils deployes` | Profils déployés | — | — | definition | [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] · [[atelier/rd/infrastructure/synthese-deploiement-memoire]] | — | 4 |
 | `prophetologie` | prophetologie, prophétologie | — | — | tag | [[doctrinal/autorites/ali-hussain]] · [[doctrinal/autorites/ibn-arabi]] · [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]] · [[doctrinal/symboles/al-insan-al-kamil]] | — | 4 |
@@ -225,7 +227,6 @@ links: []
 | `points saillants` | Points saillants | — | ⚖ islam | definition | [[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]] · [[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]] · [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] | — | 3 |
 | `pourvoyeur` | Pourvoyeur | — | — | table | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 3 |
 | `premiere execution` | Première exécution | — | — | definition | [[atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder]] · [[atelier/rd/cahiers/registre-problemes]] · [[meta/2026-07-27_guide-deploiement-verifier-invariants]] | — | 3 |
-| `premierement` | Premièrement, premièrement | — | ⚖ islam | definition | [[doctrinal/sources/meftah-chatons-sagesses-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 3 |
 | `pulumayi` | PulumAyi, Pulumâyi | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch09-vedic-myths-the-captive-waters.md | 3 |
 | `purumitra` | Purumitra | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch10-vedic-myths-the-matutinal-deities.md | 3 |
 | `purus` | Purus | — | — | table | [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 3 |
@@ -342,3 +343,4 @@ links: []
 | `projet-claude-ai` | projet-claude-ai | — | — | tag | **26 fiches** | — | 0 |
 | `projet-hermes` | projet-hermes | — | — | tag | [[meta/projet-unifie/archives/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]] | — | 0 |
 | `propose, non fait` | Proposé, non fait | — | — | definition | [[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]] | — | 0 |
+| `pseudo-theorie` | pseudo-theorie | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 0 |

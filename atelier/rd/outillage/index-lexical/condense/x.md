@@ -12,11 +12,11 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `xviii` | XVIII, xviii | — | — | table | **30 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +80 | 188 |
-| `xiii` | XIII, xiii | — | — | table | **42 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +54 | 169 |
-| `xvii` | XVII, xvii | — | — | table | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +52 | 112 |
+| `xviii` | XVIII, xviii | — | — | table | **30 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +83 | 195 |
+| `xiii` | XIII, xiii | — | — | table | **42 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +55 | 170 |
+| `xvii` | XVII, xvii | — | — | table | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +53 | 113 |
 | `xxiv` | XXIV, xxiv | — | — | table | **19 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 101 |
-| `xxiii` | XXIII, xxiii | — | — | table | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +40 | 98 |
+| `xxiii` | XXIII, xxiii | — | — | table | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +41 | 99 |
 | `xxii` | XXII, xxii | — | — | table | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +34 | 93 |
 | `xxviii` | XXVIII, xxviii | — | — | table | **21 fiches** | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +26 | 80 |
 | `xxvii` | XXVII, xxvii | — | — | table | **16 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +21 | 71 |

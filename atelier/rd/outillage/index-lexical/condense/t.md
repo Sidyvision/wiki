@@ -12,48 +12,48 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `trois` | TROIS, Trois, trois, troìs | — | — | table, titre | **304 fiches** | LISEZ-MOI.md +209 | 2319 |
-| `tradition` | TRADITION, Tradition, tradition | — | — | table, tag, titre | **221 fiches** | 02-b.md +378 | 2222 |
-| `temps` | TEMPS, Temps, temps | — | — | table, tag, titre | **146 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +407 | 1584 |
-| `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | — | titre | **106 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +183 | 1271 |
-| `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | — | table, titre | **146 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +95 | 1069 |
-| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **111 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +334 | 946 |
+| `trois` | TROIS, Trois, trois, troìs | — | — | table, titre | **304 fiches** | LISEZ-MOI.md +213 | 2325 |
+| `tradition` | TRADITION, Tradition, tradition | — | — | table, tag, titre | **223 fiches** | 02-b.md +387 | 2286 |
+| `temps` | TEMPS, Temps, temps | — | — | table, tag, titre | **146 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +417 | 1616 |
+| `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | — | titre | **107 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +191 | 1301 |
+| `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | — | table, titre | **146 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +96 | 1070 |
+| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **112 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +342 | 977 |
 | `table` | TABLE, Table, table | — | — | table, titre | **160 fiches** | LISEZ-MOI.md +64 | 850 |
-| `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | — | table, titre | **165 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +208 | 750 |
-| `traduction` | Traduction, traduction | — | — | table, tag, titre | **101 fiches** | LISEZ-MOI.md +121 | 493 |
-| `transmission` | TRANSMISSION, Transmission, transmission | — | — | tag, titre | **127 fiches** | 16-s.md +76 | 475 |
-| `transcription` | TRANSCRIPTION, Transcription, transcription | — | — | table, tag, titre | **132 fiches** | LISEZ-MOI.md +20 | 450 |
+| `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | — | table, titre | **165 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +215 | 781 |
+| `traduction` | Traduction, traduction | — | — | table, tag, titre | **101 fiches** | LISEZ-MOI.md +126 | 501 |
+| `transmission` | TRANSMISSION, Transmission, transmission | — | — | tag, titre | **129 fiches** | 16-s.md +77 | 478 |
+| `transcription` | TRANSCRIPTION, Transcription, transcription | — | — | table, tag, titre | **133 fiches** | LISEZ-MOI.md +20 | 451 |
+| `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **114 fiches** | LISEZ-MOI.md +120 | 431 |
 | `three` | Three, three | — | — | table | **24 fiches** | 01-a.md +54 | 429 |
-| `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **114 fiches** | LISEZ-MOI.md +118 | 427 |
-| `technique` | TECHNIQUE, Technique, technique | — | — | definition, titre | **148 fiches** | LISEZ-MOI.md +66 | 404 |
-| `type` | Type, type, typé | — | — | definition, table | **119 fiches** | 00-front-matter.md +94 | 400 |
-| `total` | TOTAL, Total, total | — | ⚖ islam | definition, table | **77 fiches** | 10-j.md +118 | 337 |
-| `trace` | Trace, Tracé, trace, tracé | — | — | table, tag | **96 fiches** | 08-h.md +96 | 303 |
+| `type` | Type, type, typé | — | — | definition, table | **120 fiches** | 00-front-matter.md +101 | 413 |
+| `technique` | TECHNIQUE, Technique, technique | — | — | definition, titre | **148 fiches** | LISEZ-MOI.md +69 | 407 |
+| `total` | TOTAL, Total, total | — | ⚖ islam | definition, table | **77 fiches** | 10-j.md +120 | 339 |
+| `trace` | Trace, Tracé, trace, tracé | — | — | table, tag | **96 fiches** | 08-h.md +101 | 308 |
 | `temple` | TEMPLE, Temple, temple, templé | — | — | table, titre | **25 fiches** | 01-a.md +84 | 284 |
 | `temporel` | Temporel, temporel | — | — | table, titre | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +81 | 265 |
 | `to-source` | to-source | — | — | tag | **43 fiches** | karubi-mehdi-navette-20260812.md | 260 |
-| `tour` | Tour, tour | — | — | table, titre | **44 fiches** | 11-k.md +81 | 248 |
+| `tour` | Tour, tour | — | — | table, titre | **44 fiches** | 11-k.md +82 | 249 |
+| `test` | Test, test | — | — | definition, table, titre | **76 fiches** | 11-k.md +4 | 235 |
 | `trone` | Trone, Trône, trone, tròne (+1) | — | — | table | **45 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +30 | 233 |
-| `test` | Test, test | — | — | definition, table, titre | **75 fiches** | 11-k.md +4 | 230 |
-| `tard` | tard, ṭard | — | ✓ islam | translit | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +122 | 222 |
+| `tard` | tard, ṭard | — | ✓ islam | translit | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +132 | 232 |
 | `tantra` | Tantra, tantra | — | — | annotation, table, tag | **14 fiches** | la-puissance-du-serpent.md +4 | 204 |
 | `triade` | Triade, triade | — | — | table, titre | **37 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +50 | 203 |
 | `tasawwuf` | Tasawwuf, Taṣawwuf, tasawwuf, taṣawwuf | — | ✓ islam | annotation, table, tag, titre, translit | **102 fiches** | karubi-mehdi-navette-20260812.md +6 | 194 |
-| `transposition` | Transposition, transposition | — | — | annotation, tag | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +84 | 186 |
-| `tension` | Tension, tension | — | — | table, titre | **98 fiches** | la-puissance-du-serpent.md +3 | 175 |
+| `transposition` | Transposition, transposition | — | — | annotation, tag | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +87 | 192 |
+| `tension` | Tension, tension | — | — | table, titre | **99 fiches** | la-puissance-du-serpent.md +3 | 176 |
 | `ternaire` | TERNAIRE, Ternaire, ternaire | — | — | tag, titre | **29 fiches** | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +34 | 173 |
-| `theme` | Thème, theme, thème | — | — | table, titre | **61 fiches** | 07-g.md +12 | 160 |
-| `theologie` | THÉOLOGIE, Théologie, theologie, théologie | — | — | tag | **18 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +35 | 149 |
+| `theme` | Thème, theme, thème | — | — | table, titre | **61 fiches** | 07-g.md +13 | 161 |
+| `theologie` | THÉOLOGIE, Théologie, theologie, théologie | — | — | tag | **18 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +37 | 151 |
 | `traitement` | Traitement, traitement | — | — | table, titre | **64 fiches** | la-puissance-du-serpent.md +3 | 142 |
-| `types` | Types, types, typés | — | — | table, titre | **45 fiches** | 00-front-matter.md +40 | 140 |
+| `types` | Types, types, typés | — | — | table, titre | **46 fiches** | 00-front-matter.md +40 | 141 |
 | `table des matieres` | Table des matières | — | — | definition | **44 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +8 | 135 |
 | `taittiriya` | TAITTIRIYA, Taittiriya, Taittirîya, Taittirīya | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · +3 | la-puissance-du-serpent.md +20 | 131 |
 | `tilak` | TILAK, Tilak, tilak | — | — | annotation, table, tag, titre | **30 fiches** | LISEZ-MOI.md +6 | 131 |
-| `traces` | Traces, traces, tracés | — | — | table, titre | **15 fiches** | 11-k.md +56 | 130 |
-| `terminologie` | Terminologie, terminologie | — | — | table, tag | **19 fiches** | LISEZ-MOI.md +79 | 120 |
-| `taoisme` | Taoïsme, taoïsme | — | — | table, titre | **21 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +38 | 119 |
-| `tache` | TÂCHE, Tâche, tache, tâche (+1) | — | — | definition, table | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +29 | 117 |
-| `transformation` | TRANSFORMATION, Transformation, transformation | — | — | tag | **26 fiches** | 01-a.md +54 | 115 |
+| `traces` | Traces, traces, tracés | — | — | table, titre | **15 fiches** | 11-k.md +57 | 131 |
+| `tache` | TÂCHE, Tâche, tache, tâche (+1) | — | — | definition, table | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +34 | 125 |
+| `terminologie` | Terminologie, terminologie | — | — | table, tag | **19 fiches** | LISEZ-MOI.md +81 | 122 |
+| `taoisme` | Taoïsme, taoïsme | — | — | table, titre | **21 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +39 | 120 |
+| `transformation` | TRANSFORMATION, Transformation, transformation | — | — | tag | **26 fiches** | 01-a.md +58 | 119 |
 | `transition` | Transition, transition | — | — | table, tag, titre | **53 fiches** | 16-s.md +12 | 114 |
 | `terminal` | Terminal, terminal | — | — | table, titre | **40 fiches** | LISEZ-MOI.md +7 | 111 |
 | `tamas` | TAMAS, Tamas, tamas, tâmas | — | — | annotation, table, tag | **11 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +21 | 110 |
@@ -70,12 +70,12 @@ links: []
 | `tafsir` | Tafsir, Tafsīr, tafsir, tafsîr (+1) | — | — | translit | **12 fiches** | isaghuji-cours01-introduction-transcription.md +7 | 74 |
 | `tokyo` | Tokyo, Tōkyō | — | — | table | **9 fiches** | 00-front-matter.md +16 | 74 |
 | `torii` | Torii, torii | — | — | annotation, table, titre | **9 fiches** | 00-front-matter.md +9 | 73 |
+| `temperament` | Tempérament, temperament, tempérament | — | — | table, tag, titre | **20 fiches** | 04-d.md +20 | 72 |
 | `theophanie` | Théophanie, theophanie, théophanie | — | — | titre | **21 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 72 |
 | `temoin` | Témoin, temoin, témoin | — | — | table, tag | **32 fiches** | karubi-mehdi-navette-20260812.md +10 | 69 |
 | `terrestres` | TERRESTRES, terrestres | — | — | titre | **12 fiches** | erreurs-diverses-concernant-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +36 | 69 |
 | `tanmatra` | Tanmatra, Tanmâtra, tanmâtra, tanmātra | — | — | table, translit | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/journal/conversation-atma-claude]] | la-puissance-du-serpent.md +2 | 66 |
 | `triptyque` | Triptyque, triptyque | — | — | table, titre | **26 fiches** | — | 66 |
-| `temperament` | Tempérament, temperament, tempérament | — | — | table, tag, titre | **20 fiches** | 04-d.md +15 | 64 |
 | `taureau` | Taureau, taureau | — | — | table | **25 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 62 |
 | `tombeau` | Tombeau, tombeau | — | — | table, titre | **23 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +6 | 62 |
 | `tokens` | Tokens, tokens | — | — | definition, table | **33 fiches** | 16-p.md | 61 |
@@ -203,6 +203,7 @@ links: []
 | `tapoloka` | Tapoloka, tapoloka | — | — | table | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | la-puissance-du-serpent.md +1 | 6 |
 | `tarab` | tarab, ṭarab | — | ✓ islam | translit | [[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tarab]] | jurjani-definitions.md | 6 |
 | `technologisation` | technologisation | — | — | titre | [[doctrinal/deviations/technologisation-pseudo-scientifique]] · [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · +1 | — | 6 |
+| `theoriciens` | Théoriciens, théoriciens | — | — | titre | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] | sciences-traditionnelles-et-modernite-pdf-soufisme.md +3 | 6 |
 | `thriller` | thriller | — | — | annotation, tag | [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 6 |
 | `tsimtsum` | Tsimtsum, tsimtsum | — | — | annotation, table, tag | [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/sources/sefer-yetsira-ramban]] · [[doctrinal/sources/sefer-yetsira-ramban_source]] | sefer-yetsira-ramban.md | 6 |
 | `taa` | Taʿā, taa, tấa, ṭâʿa | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | jurjani-definitions.md +1 | 5 |
@@ -317,6 +318,7 @@ links: []
 | `tatayyur-a-surveiller` | tatayyur-a-surveiller | — | — | tag | [[meta/personnel/2026-06-20_noms-symboles-financiers]] | — | 0 |
 | `telecommunication` | telecommunication | — | — | tag | [[hermeneutique/metal-gear/idroid]] | — | 0 |
 | `tentative 1 — lien symbolique` | Tentative 1 — lien symbolique | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] | — | 0 |
+| `theorie-du-tout` | theorie-du-tout | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 0 |
 | `these-interactive` | these-interactive | — | — | tag | [[hermeneutique/auteurs/hideo-kojima]] | — | 0 |
 | `three-js` | three-js | — | — | tag | [[atelier/rd/instrument/spec-anneau-zodiacal]] · [[atelier/rd/instrument/spec-technique-axe-38-degres]] | — | 0 |
 | `tradition-juive` | tradition-juive | — | — | tag | [[doctrinal/symboles/golem]] | — | 0 |

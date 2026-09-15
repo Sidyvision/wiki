@@ -96,7 +96,8 @@ supprime à la racine.
 | `les-etats-multiples-de-l-etre/` | 19 |
 | `les-principes-du-calcul-infinitesimal/` | 26 |
 | `les-quatre-mondes-daryush-shayegan/` | 1 |
-| `orient-et-occident/` | 13 — versé le 2026-09-15, voir plus bas |
+| `ghazali-munqidh-jabre-1959/` | 9 — versé le 2026-09-15, voir plus bas |
+| `orient-et-occident/` | 14 — versé le 2026-09-15 (13 + p. 228), voir plus bas |
 | `symboles-de-la-science-sacree-rene-guenon/` | 84 |
 
 ## Second versement du 2026-09-02 — les deux Tilak
@@ -318,6 +319,25 @@ caractère invisible.
 milieu de sa dernière phrase, et la page « Addendum » est vide. Détail et remède
 dans `orient-et-occident/index-conversion.md`. Ce qui se dit de l'ouvrage se dit dans
 `doctrinal/sources/guenon-orient-et-occident.md`.
+
+## Versement du 2026-09-15 — *al-Munqidh min aḍ-ḍalāl* (Ghazâlî, trad. Jabre 1959), partie française
+
+Scan de l'Internet Archive de l'édition UNESCO (Beyrouth, 1959), `raw/almunqidminadala00ghaz.pdf`,
+verdict de Sidy : « scan de 1959, le français d'abord ». **Cinquième voie** : ni
+coupure web ni sas, mais extraction de la **couche texte native** d'un PDF par script
+déterministe (`atelier/rd/outillage/convertir-jabre-munqidh.py`), pp. 1–122, en
+8 fichiers + index de conversion. Aucune correction ; OCR d'origine désordonné
+(fragments de lignes, notes mêlées au corps), documenté dans
+`ghazali-munqidh-jabre-1959/index-conversion.md`.
+
+**Non versé** : le texte arabe (pp. 125–172), dont la couche texte est du bruit —
+seconde passe par OCR `ara`. Écartée : la réédition d'Istanbul (2013) de la même
+traduction, qui insère des formules de bénédiction dans le texte de Jabre. Ce qui se
+dit de l'œuvre : `doctrinal/sources/ghazali-munqidh-jabre-1959.md`.
+
+**Complément à *Orient et Occident*** : la page 228 (fin de la conclusion et
+addendum), transmise par Sidy le même jour, comble les deux lacunes de la première
+capture — voir `orient-et-occident/index-conversion.md`.
 
 ## Ce qui reste ouvert
 

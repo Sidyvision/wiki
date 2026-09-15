@@ -12,43 +12,43 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `livre` | LIVRE, Livre, Livré, livre (+1) | — | — | definition, table | **122 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +470 | 1557 |
-| `lang` | Lang, lang | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +389 | 1165 |
-| `lumiere` | LUMIÈRE, Lumiere, Lumière, lumiere (+1) | — | — | table, tag, titre | **110 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +174 | 997 |
-| `lecture` | LECTURE, Lecture, lecture | — | ⚖ universel | definition, table, tag, titre | **322 fiches** | LISEZ-MOI.md +35 | 955 |
-| `lettre` | LETTRE, Lettre, lettre, lettré | — | — | table, titre | **113 fiches** | LISEZ-MOI.md +125 | 908 |
+| `livre` | LIVRE, Livre, Livré, livre (+1) | — | — | definition, table | **123 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +477 | 1581 |
+| `lang` | Lang, lang | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +392 | 1175 |
+| `lumiere` | LUMIÈRE, Lumiere, Lumière, lumiere (+1) | — | — | table, tag, titre | **110 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +177 | 1000 |
+| `lecture` | LECTURE, Lecture, lecture | — | ⚖ universel | definition, table, tag, titre | **323 fiches** | LISEZ-MOI.md +35 | 956 |
+| `lettre` | LETTRE, Lettre, lettre, lettré | — | — | table, titre | **113 fiches** | LISEZ-MOI.md +127 | 910 |
 | `lettres` | LETTRES, Lettres, Lettrés, lettres (+1) | — | — | table, tag, titre | **110 fiches** | LISEZ-MOI.md +105 | 879 |
-| `lien` | Lien, lien | — | — | table, tag | **208 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +118 | 762 |
-| `liens` | Liens, liens | — | — | definition, table | **160 fiches** | LISEZ-MOI.md +47 | 650 |
-| `l'ab` | L'Ab | — | — | table | **136 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +164 | 507 |
-| `langage` | Langage, langage | — | — | table, tag | **57 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +191 | 498 |
-| `l'al` | l'Āl | — | — | translit | **99 fiches** | LISEZ-MOI.md +97 | 409 |
+| `lien` | Lien, lien | — | — | table, tag | **209 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +121 | 773 |
+| `liens` | Liens, liens | — | — | definition, table | **160 fiches** | LISEZ-MOI.md +48 | 651 |
+| `l'ab` | L'Ab | — | — | table | **136 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +173 | 520 |
+| `langage` | Langage, langage | — | — | table, tag | **58 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +198 | 510 |
+| `l'al` | l'Āl | — | — | translit | **99 fiches** | LISEZ-MOI.md +99 | 414 |
 | `lot` | LOT, Lot, lot | — | — | tag, titre | **103 fiches** | LISEZ-MOI.md +15 | 339 |
 | `lune` | Lune, lune | — | — | table | **57 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +42 | 313 |
+| `logique` | Logique, logique | — | — | tag | **95 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +98 | 303 |
 | `label` | Label, label | — | — | definition, table, tag | **84 fiches** | 17-t.md +1 | 284 |
-| `logique` | Logique, logique | — | — | tag | **95 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +95 | 283 |
 | `local` | LOCAL, Local, local | — | — | titre | **70 fiches** | 00-front-matter.md +25 | 259 |
 | `la regle` | La règle | — | — | definition | **111 fiches** | LISEZ-MOI.md +12 | 253 |
 | `lion` | Lion, lion | — | — | table | **25 fiches** | 11-k.md +31 | 171 |
-| `llm` | LLM, llm | — | — | tag, titre | **82 fiches** | index-conversion.md | 164 |
+| `llm` | LLM, llm | — | — | tag, titre | **83 fiches** | index-conversion.md | 164 |
 | `lieux` | Lieux, lieux | — | — | titre | **44 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +52 | 151 |
+| `la limite` | La limite | — | ⚖ islam | definition | **22 fiches** | initiation-effective-et-initiation-virtuelle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +58 | 143 |
 | `lost` | Lost, lost | — | — | table, titre | [[atelier/etudes-de-cas/kojima-productions]] · [[atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks]] · [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[hermeneutique/lost/jacob]] · [[hermeneutique/lost/lost]] · +2 | 07-g.md +41 | 143 |
 | `lexique` | LEXIQUE, Lexique, lexique | — | — | tag, titre | **52 fiches** | LISEZ-MOI.md +4 | 142 |
-| `la limite` | La limite | — | ⚖ islam | definition | **21 fiches** | initiation-effective-et-initiation-virtuelle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +57 | 141 |
+| `limitation` | Limitation, limitation | — | — | definition | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +63 | 122 |
 | `language` | Language, language | — | — | table, titre | **10 fiches** | LISEZ-MOI.md +37 | 115 |
-| `limitation` | Limitation, limitation | — | — | definition | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +59 | 114 |
 | `londres` | Londres | — | — | table | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[hermeneutique/sources/art-of-death-stranding]] · [[label/distribution/strategie-vinyle-300-depositaires]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · +1 | la-puissance-du-serpent.md +24 | 105 |
 | `lilith` | Lilith, lilith | — | — | annotation, tag | [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +3 | 102 |
-| `lecon` | Leçon, leçon | — | — | definition | **56 fiches** | le-rejet-des-pouvoirs-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +5 | 97 |
+| `lecon` | Leçon, leçon | — | — | definition | **56 fiches** | le-rejet-des-pouvoirs-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +6 | 98 |
 | `lahut` | Lahut, Lâhût, Lāhūt, lahut (+5) | — | — | annotation, table, tag, translit | **34 fiches** | le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon-6.md +1 | 90 |
 | `lectures suggerees` | Lectures suggérées | — | — | definition | **69 fiches** | — | 88 |
 | `lam` | Lam, Lâm, Lām, lam (+3) | — | — | translit | [[atelier/rd/outillage/essais-non-retenus/README]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/sources/sept-etendards-califat]] · +2 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-5.md +15 | 78 |
+| `lecons` | Leçons, leçons | — | — | titre | **27 fiches** | mentalite-scolaire-et-pseudo-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +4 | 71 |
 | `lexical` | LEXICAL, lexical | — | — | titre | **22 fiches** | — | 71 |
-| `lecons` | Leçons, leçons | — | — | titre | **27 fiches** | mentalite-scolaire-et-pseudo-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +3 | 70 |
 | `laboratoire` | Laboratoire, laboratoire | — | — | tag | **26 fiches** | les-mefaits-de-la-psychanalyse-le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon.md | 69 |
 | `lahiji` | Lahiji, Lâhiji, Lâhîji, Lâhîjî (+1) | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] · +1 | iv.md +2 | 68 |
+| `le besoin` | Le besoin | — | — | definition | **23 fiches** | LISEZ-MOI.md +27 | 66 |
 | `lataif` | Lataif, Lataïf, Latäif, Latäïf (+3) | — | — | annotation, tag, titre, translit | **13 fiches** | osman-yahya-03-chapitre-02.md +5 | 60 |
-| `le besoin` | Le besoin | — | — | definition | **22 fiches** | LISEZ-MOI.md +23 | 59 |
 | `le geste` | Le geste | — | — | definition | **37 fiches** | le-rite-et-le-symbole-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +1 | 55 |
 | `l'atman` | l'Ātman, l'ātman | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · +2 | iv.md +2 | 43 |
 | `latifa` | Laṭīfa, latifa, latîfa, laṭîfa (+1) | — | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/discernement/2026-06-20_pierres-astres-barzakh]] · [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | les-disciplines-spirituelles.md +2 | 39 |
@@ -59,19 +59,19 @@ links: []
 | `labyrinthe` | Labyrinthe, labyrinthe | — | — | table | [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-34.md +6 | 35 |
 | `l'upanisad` | l'Upaniṣad | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | les-disciplines-spirituelles.md +1 | 32 |
 | `lawh` | Lawḥ, lawh, lawḥ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] · +2 | corps-du-texte.md | 29 |
-| `l'apana` | L'apāna | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +11 | 25 |
+| `l'apana` | L'apāna | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +13 | 27 |
 | `licence` | Licence, licence, licencé | — | — | table, titre | **19 fiches** | — | 25 |
 | `llm-wiki` | LLM-Wiki | — | — | table, titre | **15 fiches** | — | 24 |
 | `llms` | LLMs | — | — | table, titre | **10 fiches** | — | 24 |
 | `l'anahat` | l'anāhat | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | la-puissance-du-serpent.md +1 | 21 |
+| `lointain` | Lointain, lointain | — | — | table | [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +17 | 21 |
 | `l'alam` | L'ʿālam, l'ʿālam | — | — | translit | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire]] · [[hermeneutique/expression/2026-09-01_athanor-matrices-artificielles]] · [[meta/carte-du-depot-hermeneutique]] · +1 | iv.md +1 | 20 |
 | `lisan` | Lisân, Lisān, lisan, lisân (+2) | — | — | translit | [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] · [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · +2 | osman-yahya-08-repertoire.md +1 | 20 |
 | `lignees` | Lignées, lignées | — | — | table, titre | **12 fiches** | rene-guenon-psychologie-attribution-pdf-carl-jung.md | 18 |
 | `l'investiture` | L'investiture | — | — | table | **9 fiches** | sacrements-et-rites-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +5 | 17 |
-| `lointain` | Lointain, lointain | — | — | table | [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +12 | 16 |
 | `liii` | LIII | — | — | table | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | jurjani-definitions.md +4 | 15 |
+| `le point decisif` | Le point décisif | — | ⚖ universel | definition | **12 fiches** | — | 14 |
 | `lapsit` | Lapsit, lapsit | — | — | table | [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | notions-sur-l-agarttha-en-occident-le-roi-du-monde-index-de-l-uvre-de-rene-guenon.md +4 | 13 |
-| `le point decisif` | Le point décisif | — | ⚖ universel | definition | **11 fiches** | — | 13 |
 | `lurianique` | lurianique | — | — | tag | **9 fiches** | — | 13 |
 | `ludwig` | Ludwig | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch04-the-night-of-the-gods.md +4 | 12 |
 | `lalana` | Lalanâ, Lalanā | — | — | table, translit | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] | la-puissance-du-serpent.md | 11 |

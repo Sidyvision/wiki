@@ -58,8 +58,29 @@ d'affichage », « Mises à jour récentes ») est conservé tel quel dans les c
   obligations qui sont » — puis la note 1. La fin manque à la capture, non au livre.
 - **L'addendum (`Chapitre=964`) est vide** : la coupure ne porte que le titre et
   l'habillage du site, aucun texte.
-- Correction possible : nouvelle capture de ces deux pages, versée **en
-  remplacement datée** (règle d'immuabilité). Non faite ici.
+- ~~Correction possible : nouvelle capture de ces deux pages.~~ **Comblé le
+  2026-09-15** — voir ci-dessous.
+
+## Complément du 2026-09-15 — page 228 (fin de la conclusion et addendum)
+
+Nouvelle coupure transmise par Sidy le jour même (`raw/Orient et Occident  Index de
+l’œuvre de René Guénon.md`, à la racine de `raw/`, `created: 2026-09-15`), prise
+cette fois en **mode « livre »** du site (`page=228`, pagination de l'édition Guy
+Trédaniel / Éditions de la Maisnie, 1987, que l'en-tête de la page nomme).
+
+- Versée sous le nom `orient-et-occident-page-228-fin-conclusion-et-addendum.md` :
+  le nom normalisé par `slug()` aurait été celui de l'avant-propos
+  (`orient-et-occident-index-de-l-uvre-de-rene-guenon.md`) — **collision G2**,
+  écartée par un nom distinct plutôt que par écrasement.
+- Contenu : elle reprend **exactement** au point de coupure (« … inhérentes à toute
+  vraie connaissance, et auprès desquelles tous les engagements extérieurs
+  apparaissent vains et dérisoires ») jusqu'à la fin de la conclusion, puis porte
+  l'**Addendum entier**, dont la note 1 date la rédaction du livre : « 1924 ».
+- Contrôles : identique octet pour octet à sa source ; G1 0 refus ; Cmd 15 propre.
+- Les coupures `-4` (conclusion tronquée) et `-5` (addendum vide) **restent en
+  place** (Cmd 10) ; la page 228 les complète et fait foi pour ce qu'elles n'ont pas.
+  Le texte de la conclusion, lu bout à bout, est donc : `-4` jusqu'à « il y a des
+  obligations qui sont », puis la page 228.
 
 ## Laissé dans `raw/`, non versé
 

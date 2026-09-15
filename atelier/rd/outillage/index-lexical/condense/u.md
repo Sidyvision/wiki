@@ -12,18 +12,18 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `universel` | UNIVERSEL, Universel, universel | — | — | table, tag, titre | **149 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +151 | 814 |
-| `universelle` | Universelle, universelle | — | — | table, titre | **69 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +195 | 605 |
+| `universel` | UNIVERSEL, Universel, universel | — | — | table, tag, titre | **151 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +156 | 825 |
+| `universelle` | Universelle, universelle | — | — | table, titre | **69 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +200 | 610 |
 | `upanishad` | Upanishad, Upanishâd, upanishad | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · +3 | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +45 | 180 |
 | `utilisation` | Utilisation, utilisation | — | — | table | **56 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +3 | 154 |
 | `usul` | Usûl, Usül, Uṣūl, usul (+4) | — | ⚖ islam | annotation, table, tag, titre, translit | **14 fiches** | isaghuji-cours01-introduction-transcription.md +4 | 85 |
 | `unifie` | unifie, unifié | — | — | titre | **37 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +10 | 80 |
-| `upanishads` | UPANISHADS, Upanishads | — | — | table | **11 fiches** | la-puissance-du-serpent.md +27 | 61 |
+| `upanishads` | UPANISHADS, Upanishads | — | — | table | **11 fiches** | la-puissance-du-serpent.md +28 | 62 |
 | `ulum` | Ulüm, ulûm, ulüm, ʿUlûm (+3) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya]] · [[doctrinal/autorites/al-ghazali]] · [[doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +2 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +11 | 56 |
 | `unicode` | Unicode, unicode | — | — | table, tag | **28 fiches** | LISEZ-MOI.md | 55 |
 | `user` | USER, User, user | — | — | table | **19 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +4 | 54 |
+| `upakarana` | Upakarana, Upakaraṇa, upakarana | — | — | annotation, tag, titre, translit | **26 fiches** | — | 43 |
 | `uqlat` | Uqlat, uqlat, ʿUqlat | — | — | titre, translit | **17 fiches** | osman-yahya-02-chapitre-01.md +2 | 43 |
-| `upakarana` | Upakarana, Upakaraṇa, upakarana | — | — | annotation, tag, titre, translit | **25 fiches** | — | 40 |
 | `upaguru` | UPAGURU, upaguru | — | ⚖ universel | annotation, tag, titre | [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] · [[atelier/rd/cahiers/registre-problemes]] · [[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]] · [[doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane]] · [[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]] · +2 | initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon-9.md +1 | 39 |
 | `utilisateur` | Utilisateur, utilisateur | — | — | tag | **21 fiches** | — | 34 |
 | `url` | URL, url | — | ⚖ islam | definition | **22 fiches** | — | 29 |
@@ -45,9 +45,9 @@ links: []
 | `uluhiyya` | Ulūhiyya, ulûhiyya, ulūhiyya | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] · +1 | sept-etendards-califat-transcription.md | 8 |
 | `urf` | ʿurf | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 8 |
 | `uhud` | Uḥud, uhüd, ʿUḥud | — | — | translit | [[doctrinal/sources/hasbiyallah-rabbani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/symboles/tawakkul]] · [[meta/journal/2026-06-18-entretien-integral]] | osman-yahya-08-repertoire.md | 7 |
+| `unesco` | UNESCO | — | — | table | [[atelier/etudes-de-cas/xuankong-temple-suspendu]] · [[meta/carte-du-depot]] · [[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala]] · [[meta/lot-synthese-kamon-kouyate-2026-09-15]] | LISEZ-MOI.md | 7 |
 | `usas` | Uṣas | — | — | titre, translit | [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] · [[doctrinal/symboles/ushas-les-trente-aurores]] · [[meta/carte-du-depot]] | — | 7 |
 | `ummah` | Ummah | — | — | table, titre | [[atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20]] · [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 6 |
-| `unesco` | UNESCO | — | — | table | [[atelier/etudes-de-cas/xuankong-temple-suspendu]] · [[meta/carte-du-depot]] · [[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala]] · [[meta/lot-synthese-kamon-kouyate-2026-09-15]] | — | 6 |
 | `urfi` | ʿurfî | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 6 |
 | `uriner` | Uriner, uriner | — | — | table, titre | [[doctrinal/symboles/uriner-en-reve]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · [[meta/personnel/2026-06-20_reve-urine]] | — | 6 |
 | `ulysse` | Ulysse | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | doctrine-des-etats-multiples-en-christianisme-pdf-esoterisme-occidental.md +1 | 5 |

@@ -12,13 +12,13 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `nom` | NOM, Nom, nom | — | — | definition, tag, titre | **240 fiches** | LISEZ-MOI.md +343 | 2414 |
-| `nature` | NATURE, Nature, nature | — | ⚖ islam | definition, table, tag, titre | **288 fiches** | 08-h.md +389 | 1969 |
-| `nombre` | NOMBRE, Nombre, nombre, nombré | — | — | table, tag, titre | **108 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +221 | 1175 |
-| `noms` | NOMS, Noms, noms | — | — | table, titre | **144 fiches** | LISEZ-MOI.md +124 | 848 |
-| `notes` | NOTES, Notes, notes, notés | — | ⚖ islam | definition, table, titre | **140 fiches** | 01-a.md +57 | 531 |
-| `nombres` | NOMBRES, Nombres, nombres, nombrés | — | — | titre | **26 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +83 | 466 |
-| `notions` | NOTIONS, Notions, notions | — | — | titre | **41 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +74 | 176 |
+| `nom` | NOM, Nom, nom | — | — | definition, tag, titre | **242 fiches** | LISEZ-MOI.md +355 | 2453 |
+| `nature` | NATURE, Nature, nature | — | ⚖ islam | definition, table, tag, titre | **289 fiches** | 08-h.md +399 | 1995 |
+| `nombre` | NOMBRE, Nombre, nombre, nombré | — | — | table, tag, titre | **108 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +227 | 1187 |
+| `noms` | NOMS, Noms, noms | — | — | table, titre | **144 fiches** | LISEZ-MOI.md +126 | 850 |
+| `notes` | NOTES, Notes, notes, notés | — | ⚖ islam | definition, table, titre | **140 fiches** | LISEZ-MOI.md +58 | 532 |
+| `nombres` | NOMBRES, Nombres, nombres, nombrés | — | — | titre | **26 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +84 | 469 |
+| `notions` | NOTIONS, Notions, notions | — | — | titre | **42 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +77 | 183 |
 | `nun` | Nun, Nûn, Nün, NŪN (+4) | — | — | titre, translit | **31 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 145 |
 | `nadi` | Nadi, Nâdi, Nâdî, Nāḍī (+4) | — | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]] · +2 | la-puissance-du-serpent.md +1 | 144 |
 | `noire` | Noire, noire | — | — | table, titre | **26 fiches** | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +38 | 144 |
@@ -27,12 +27,12 @@ links: []
 | `nasut` | Nasut, Nâsût, Nāsūt, nasut (+5) | — | — | annotation, table, tag, translit | **31 fiches** | iv.md +2 | 118 |
 | `nafas` | Nafas, nafas, nafâs | — | — | table, titre | **47 fiches** | karubi-mehdi-navette-20260812.md +6 | 112 |
 | `nadis` | Nâdis, Nâdîs, nadis, nâdis (+4) | — | — | annotation, table, tag, titre, translit | **21 fiches** | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +7 | 110 |
-| `neant` | Néant, néant | — | — | table | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +40 | 106 |
+| `neant` | Néant, néant | — | — | table | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +42 | 108 |
 | `nomenclature` | Nomenclature, nomenclature | — | — | tag | **44 fiches** | la-puissance-du-serpent.md +3 | 99 |
+| `navigation` | Navigation, navigation | — | — | titre | **33 fiches** | paradis-terrestre-et-paradis-celeste-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +7 | 91 |
 | `nafs` | Nafs, nafs | — | — | tag, titre | **32 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +8 | 90 |
-| `navigation` | Navigation, navigation | — | — | titre | **33 fiches** | paradis-terrestre-et-paradis-celeste-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +6 | 89 |
 | `nada` | Nada, Nâda, Nāda, nada (+3) | `नाद` | ✓ hindouisme · *sanskrit* | table, titre, translit | **9 fiches** | la-puissance-du-serpent.md +2 | 85 |
-| `non-etre` | NON-ÊTRE, Non-Être, non-etre, non-être | — | — | annotation, table, tag | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana]] · [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats]] · [[doctrinal/sources/guenon-etats-multiples-ch4-fondement]] · [[meta/briefs/2026-08-30_passation-instrument-vers-claude-ai]] · +2 | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-16.md +13 | 65 |
+| `non-etre` | NON-ÊTRE, Non-Être, non-etre, non-être | — | — | annotation, table, tag | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana]] · [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats]] · [[doctrinal/sources/guenon-etats-multiples-ch4-fondement]] · [[meta/briefs/2026-08-30_passation-instrument-vers-claude-ai]] · +2 | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-16.md +14 | 66 |
 | `nasr` | NASR, Nasr, Naṣr, našr | — | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +1 | 54 |
 | `nefesh` | Nefesh, nefesh | — | — | annotation, table, tag | [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · [[doctrinal/symboles/cinq-noms-ame]] · [[doctrinal/symboles/gilgul]] · [[doctrinal/symboles/golem]] · [[meta/carte-du-depot-doctrinal]] · +1 | shaar-hagilgulim-gate-of-reincarnations.md | 54 |
 | `nara` | Nara, Nârâ, nara, nâra (+1) | — | — | table | [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | 00-front-matter.md +20 | 51 |
@@ -45,8 +45,8 @@ links: []
 | `nocturne` | Nocturne, nocturne | — | — | table, titre | **14 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +9 | 35 |
 | `non-dualite` | Non-Dualité, non-dualite, non-dualité | — | — | annotation, tag | **10 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +15 | 35 |
 | `naqshbandiyya` | Naqshbandiyya, naqshbandiyya | — | ✓ islam | annotation, table, tag, titre | **17 fiches** | — | 33 |
+| `neo-spiritualisme` | NÉO-SPIRITUALISME, neo-spiritualisme, néo-spiritualisme | — | ⚖ universel | annotation, tag | [[doctrinal/deviations/confusion-psychique-spirituel]] · [[doctrinal/deviations/pseudo-initiation-et-syncretisme]] · [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] · [[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]] | la-crise-du-monde-moderne-index-de-l-uvre-de-rene-guenon-6.md +11 | 31 |
 | `neshama` | Neshama, neshama | — | ⚖ kabbale | annotation, table, tag | [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · [[doctrinal/sources/sefer-yetsira-ramban_source]] · [[doctrinal/symboles/cinq-noms-ame]] · [[doctrinal/symboles/gilgul]] · [[meta/carte-du-depot-doctrinal]] · +1 | sefer-yetsira-ramban.md +1 | 31 |
-| `neo-spiritualisme` | NÉO-SPIRITUALISME, neo-spiritualisme, néo-spiritualisme | — | ⚖ universel | annotation, tag | [[doctrinal/deviations/confusion-psychique-spirituel]] · [[doctrinal/deviations/pseudo-initiation-et-syncretisme]] · [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] · [[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]] | la-crise-du-monde-moderne-index-de-l-uvre-de-rene-guenon-6.md +9 | 29 |
 | `non depose` | non déposé | — | — | definition | **19 fiches** | — | 27 |
 | `notices` | Notices, notices | — | — | tag, titre | **9 fiches** | 18-r.md +8 | 26 |
 | `naqshbandi` | Naqshbandi, Naqshbandî, naqshbandi, naqshbandī | — | — | translit | **10 fiches** | la-puissance-du-serpent.md | 25 |
