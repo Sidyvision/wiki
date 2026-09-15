@@ -10,6 +10,18 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/veille | Soup CLI (post-entraînement local d'un LLM) — scrutation consignée et rattachée à INF-16
+
+- **Ordre de Sidy** : « investigue ça pour nous : https://trysoup.dev/zero », puis « Validé » sur la proposition de consignation (fiche + registre + rattachement `INF-16`).
+- **Ce qui entre** : fiche `atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local.md`, entrée en tête du registre de veille, et rattachement au chantier — lien ajouté au cartouche de `spec.md`, section *Relevé du 2026-09-15* argumentant les critères 5, 6 et 11, et cellule *Fiche d'origine* de la ligne `INF-16` du registre des chantiers enrichie (aucune ligne ajoutée, donc aucun recomptage dû).
+- **Constat de forme d'abord** : `/zero` est une page de **concept** (« Coming soon », « Concept preview ») — 3 stations sur 10 livrées, aucun formulaire de capture ; l'outil réellement utilisable est le CLI Apache-2.0 `soup-cli`.
+- **Mesures relevées hors de la page** (le 2026-09-15, instruments nommés) : GitHub 6 495 ★ / 1 018 forks / 147 issues ouvertes / 61 contributeurs / dernier push 2026-09-14 ; PyPI `0.75.0`, 177 releases, Python `<3.13` ; DOI Zenodo 200 ; **roue 0.75.0 téléchargée et inspectée sans installation** — aucun hook d'installation, télémétrie éteinte par défaut, clé embarquée traitée comme placeholder ; téléchargements miroirs exclus **33 338** (contre 95,4 k annoncés, miroirs inclus).
+- **Motif de conservation** : le projet publie ses défauts silencieux (adaptateur inerte, gradients faux sous perte saine, fonctions jamais exécutées une seule fois) et a fait répliquer sa prétention centrale sur du matériel loué — **écho direct au §VII, *Épreuve des contrôles***. Deux motifs repérables **sans adopter le code** : verdict committable par run, exécution planifiée derrière un jeton de confirmation à usage unique.
+- **Rien engagé, rien installé** : aucune cellule de matrice remplie, `OUT-07` non levé, charge de référence toujours en attente. Statut `exploratoire` (charte de `veille/`, point 3).
+- **Vérifications mécaniques de la passe** : `verifier-invariants.py` → **0 erreur, 71 avertissements**, aucun ne concernant les fichiers touchés ; graphe `--verifier` (aucun manifeste écrit) → 629 nœuds, 2 080 arêtes, **203 avertissements** contre 182 au relevé de monitoring du 2026-09-14 — delta **non attribuable à cette seule passe** (d'autres passes ont versé des fiches le même jour) ; la part mesurée de la fiche est de **8 avertissements**, tous de la famille préexistante « URL de `sources:` lue comme lien », que porte aussi la fiche AngelSpec du 2026-08-31. La fiche n'est **pas** déclarée isolée. Hygiène Unicode (Cmd 15) vérifiée sur les quatre fichiers touchés.
+- **Non fait, et déclaré** : `meta/carte-du-depot.md` n'a **pas** été régénéré — le repli en direct écrit l'artefact dans le dépôt, ce que `OUT-18` a précisément consigné comme non neutre, et aucune régénération n'a été décidée.
+- **Commit** : c20766a
+
 ## [2026-09-15] signalement | Le contrat du magasin de skills est vérifié, mais au dernier moment — précision sur OUT-17
 
 - **Ordre de Sidy** : « Je valide l'ensemble », en réponse au signalement (le contrôle du contrat `description` ≤ 60 caractères existe, mais ne se déclenche qu'à l'approbation).
