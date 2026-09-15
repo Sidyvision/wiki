@@ -108,5 +108,15 @@ trouve ce qu'une relecture ne trouve pas.*
 **officiel** présent dans les quatorze profils, déclare `scripts/run_tests.sh` qu'il ne livre
 pas. Constaté, signalé, non touché.
 
-**Reste à faire** : la ligne de rapport dans le job périodique — préparée, **non appliquée**
-(point de retour à l'humain).
+**Reste à faire** : la ligne de rapport dans le job périodique — **faite le 2026-09-15**, sur
+verdict de Sidy (« oui vas-y »). Elle est entrée dans le job `monitoring-infrastructure-quotidien`
+(profil `studio`, id `41dc3e7e492c`, cron `0 12 * * *`, livraison Discord `#infrastructure`,
+`workdir /root/wiki`) : le §2 devient « Empreinte serveur **et file d'écritures** » et porte une
+étape 6 — `etat-file-skills.py` puis `verifier-renvois-skills.py` — qui recopie leurs sorties
+brutes comme le reste du rapport. La consigne embarque sa propre notice : **un code de sortie non
+nul est un résultat, pas une panne du job**, et le renvoi mort connu (`hermes-agent-skill-authoring`,
+skill officiel) y est nommé comme connu et non traité, pour que la ligne reste honnête au lieu de
+devenir du bruit qu'on cesse de lire. Renumérotation déclarée : les étapes 6 à 10 deviennent 7 à 11.
+
+Reste à juger sur pièce : lire le premier rapport qui portera cette ligne et vérifier que le code
+de sortie non nul y est **lisible sans déclencher de fausse alerte**.
