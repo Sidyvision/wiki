@@ -10,6 +10,15 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/outillage | Index lexical et validateur : le filtre git rend les fiches nouvelles invisibles
+
+- Les deux outils filtrent sur `git ls-files` ; une fiche non encore ajoutée n'est ni indexée ni
+  validée, sans aucun message. Leçon de la même famille que le « contrôle muet » du §VII : un vert
+  obtenu sur un périmètre qui exclut l'objet contrôlé.
+- Contournement d'usage : `git add` avant régénération. Piste d'outillage **non réalisée**, à
+  soumettre : faire signaler par le validateur les `.md` non suivis présents dans les circuits.
+- **Commit** : e1aab8e
+
 ## [2026-09-15] rd/outillage | `transcrire-audio-whisper.py` — transcription locale, tranches contre le manque de mémoire
 
 - faster-whisper 1.2.1 dans un venv isolé `atelier/rd/outillage/.whisper-venv/` (436 Mo,

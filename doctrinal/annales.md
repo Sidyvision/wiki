@@ -9,6 +9,23 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] vigilance | Les validations d'annotations faites avant `git add` ne vérifiaient pas les fiches nouvelles
+
+- **Constat** : `generer-index-lexical.py` et `valider-annotations.py` ne retiennent que les `.md`
+  **suivis par git** (`fichiers_suivis`, `git ls-files`). Régénérés avant le `git add` d'une fiche
+  nouvelle, ils l'ignorent : ses termes manquent à l'index et le validateur, qui ne l'a pas lue, se
+  tait. Révélé sur [[doctrinal/autorites/al-afghani]] (`al-urwa-al-wuthqa`,
+  `al-radd-ala-al-dahriyyin` absents, sans refus D3).
+- **Portée** : toutes les validations d'annotations de fiches créées ce jour avaient été faites
+  avant leur suivi git — leur « vert » ne prouvait rien pour ces fiches.
+- **Reprise** : index régénéré et validateur relancé une fois tout suivi. **Les 19 clés annotées ce
+  jour sont présentes avec le rôle `annotation`** ; aucun refus sur les fiches du jour ; 16 refus
+  antérieurs inchangés ; deux signalements S1 (`al-manar` / `tafsir-al-manar`), verdict réservé.
+- **Règle d'usage** (non encore inscrite au protocole, soumise à Sidy) : `git add` des fiches
+  nouvelles **avant** de régénérer l'index et de valider les annotations.
+- Contrôles : invariants 0 erreur / 71 avertissements (inchangé).
+- **Commit** : e1aab8e
+
 ## [2026-09-15] archivage | Fiche d'autorité : Jamāl al-Dīn al-Afghānī
 
 - **Consigne** : « crée une fiche aussi pour al-Afghani ».
