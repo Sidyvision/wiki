@@ -299,6 +299,13 @@ def main():
             texte = fh.read()
         controle_unicode(rap, nom, texte)
         fm, corps = lire_frontmatter(texte)
+        # Perimetre (verdict Sidy 2026-09-15) : seules les fiches `type:
+        # index-livre` relevent de ce format. Les index anterieurs (`type:
+        # ressource`, transcription par photo) sont NOMMES hors perimetre,
+        # jamais ignores en silence ; Cmd 15 s'applique a tous.
+        if fm is not None and fm.get("type") != "index-livre":
+            print("HORS-PERIMETRE %-35s type `%s` (Cmd 15 seul)" % (nom, fm.get("type")))
+            continue
         controle_frontmatter(rap, nom, fm)
         controle_pages(rap, nom, fm)
         controle_photos(rap, nom, fm, args.raw)
