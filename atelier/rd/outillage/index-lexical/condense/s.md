@@ -15,7 +15,7 @@ links: []
 | `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **511 fiches** | LISEZ-MOI.md +10 | 2928 |
 | `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **539 fiches** | LISEZ-MOI.md +170 | 2607 |
 | `symbolisme` | SYMBOLISME, Symbolisme, symbolisme | — | — | table, tag, titre | **137 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +325 | 1918 |
-| `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **407 fiches** | LISEZ-MOI.md +62 | 1522 |
+| `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **407 fiches** | LISEZ-MOI.md +62 | 1524 |
 | `science` | SCIENCE, Science, science | — | — | table, titre | **146 fiches** | LISEZ-MOI.md +300 | 1489 |
 | `symboles` | SYMBOLES, Symboles, symboles | — | — | table, titre | **242 fiches** | LISEZ-MOI.md +202 | 1190 |
 | `shinto` | Shinto, Shintō, shinto, shintô (+1) | `神道` | ✓ shintoisme | annotation, table, tag, titre, translit | **18 fiches** | LISEZ-MOI.md +25 | 1100 |
@@ -106,10 +106,10 @@ links: []
 | `samkhya` | Samkhya, Sâmkhya, Sāṃkhya, samkhya | — | — | annotation, table, tag, translit | **17 fiches** | la-puissance-du-serpent.md +2 | 82 |
 | `samadhi` | Samadhi, Samâdhi, samadhi, samâdhi (+1) | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/symboles/outil-faculte-objectivee]] | 11-k.md +6 | 81 |
 | `samael` | Samael, Samaël, samael | — | — | annotation, tag | [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] · [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] · +1 | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +4 | 81 |
+| `savant` | Savant, savant | — | — | table, titre | **20 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +25 | 81 |
 | `services` | Services, services | — | — | definition, table | **29 fiches** | 10-j.md +22 | 81 |
 | `spec` | Spec, spec | — | — | table, tag | **52 fiches** | munqidh-07-partie-5.md +2 | 81 |
 | `satan` | Satan, satan | — | — | table | **10 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-3.md +27 | 80 |
-| `savant` | Savant, savant | — | — | table, titre | **19 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +25 | 80 |
 | `suggestions` | Suggestions, suggestions | — | — | titre | **21 fiches** | 00-front-matter.md +23 | 80 |
 | `sommaire` | Sommaire, sommaire | — | — | table, tag, titre | **25 fiches** | LISEZ-MOI.md +20 | 79 |
 | `sagittaire` | Sagittaire, sagittaire | — | — | table | **28 fiches** | sefer-yetsira-ramban.md | 78 |

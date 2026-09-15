@@ -14,7 +14,7 @@ links: []
 |---|---|---|---|---|---|---|---|
 | `pdf` | PDF, pdf | — | — | tag | **56 fiches** | LISEZ-MOI.md +45 | 3558 |
 | `principe` | PRINCIPE, Principe, principe | — | — | definition, table, titre | **306 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +342 | 2330 |
-| `porte` | PORTE, Porte, Porté, porte (+1) | — | — | table, titre | **344 fiches** | LISEZ-MOI.md +174 | 1700 |
+| `porte` | PORTE, Porte, Porté, porte (+1) | — | — | table, titre | **344 fiches** | LISEZ-MOI.md +174 | 1699 |
 | `place` | Place, Placé, place, placé | — | — | table, titre | **182 fiches** | LISEZ-MOI.md +362 | 1415 |
 | `points` | POINTS, Points, points | — | — | table, titre | **193 fiches** | 09-i.md +296 | 1199 |
 | `premiere` | PREMIERE, PREMIÈRE, Premiere, Première (+3) | — | — | table, titre | **204 fiches** | LISEZ-MOI.md +345 | 1167 |

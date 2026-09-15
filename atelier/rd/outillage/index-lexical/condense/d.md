@@ -14,8 +14,8 @@ links: []
 |---|---|---|---|---|---|---|---|
 | `dream` | DREAM, Dream, dream | — | — | table | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[meta/personnel/sidy]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +28 | 13006 |
 | `deux` | DEUX, Deux, deux | — | — | table, titre | **486 fiches** | LISEZ-MOI.md +487 | 6623 |
-| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **394 fiches** | LISEZ-MOI.md +19 | 2080 |
-| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **463 fiches** | 14-o.md +47 | 1991 |
+| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **394 fiches** | LISEZ-MOI.md +19 | 2079 |
+| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **463 fiches** | 14-o.md +47 | 1994 |
 | `doctrine` | DOCTRINE, Doctrine, doctrine | — | — | table, titre | **261 fiches** | 08-h.md +251 | 1531 |
 | `degre` | DEGRÉ, Degre, Degré, degre (+1) | — | — | table, titre | **158 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +251 | 1464 |
 | `degres` | DEGRÉS, Degres, Degrés, degres (+1) | — | — | table, tag, titre | **164 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +197 | 1301 |
@@ -65,8 +65,8 @@ links: []
 | `dragon` | Dragon, dragon | — | — | table, titre | **16 fiches** | 01-a.md +35 | 115 |
 | `don` | DON, Don, don | — | — | titre | **34 fiches** | 17-t.md +20 | 105 |
 | `decisions` | Décisions, decisions, décisions | — | — | table, tag | **52 fiches** | 16-s.md +4 | 103 |
+| `djinns` | Djinns, djinns | — | — | table, titre | **18 fiches** | LISEZ-MOI.md +3 | 102 |
 | `deprecated` | deprecated | — | — | tag | **25 fiches** | — | 101 |
-| `djinns` | Djinns, djinns | — | — | table, titre | **17 fiches** | LISEZ-MOI.md +3 | 101 |
 | `devas` | Devas, Dévas, Dêvas, Dêvâs (+2) | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]] · [[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]] | 16-s.md +31 | 98 |
 | `divergence` | Divergence, divergence | — | ⚖ universel | definition, table | **55 fiches** | contre-le-melange-des-formes-traditionnelles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +11 | 95 |
 | `demarche` | Démarche, démarche | — | — | titre | **53 fiches** | LISEZ-MOI.md +5 | 91 |

@@ -66,8 +66,8 @@ links: []
 | `terminologique` | terminologique | — | — | titre | **58 fiches** | intellect-et-conscience-selon-valsan.md | 87 |
 | `tawakkul` | Tawakkul, tawakkul | — | ✓ islam | annotation, table, tag, titre | **18 fiches** | sept-etendards-califat-transcription.md +2 | 86 |
 | `trade` | Trade, trade | — | — | table | [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/hermes-prompts/06-distribution/06-principe]] · [[meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution]] | 09-i.md +22 | 76 |
+| `tafsir` | Tafsir, Tafsīr, tafsir, tafsîr (+1) | — | — | translit | **13 fiches** | isaghuji-cours01-introduction-transcription.md +7 | 75 |
 | `taches` | Tâches, taches, tâches | — | — | titre | **32 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +3 | 74 |
-| `tafsir` | Tafsir, Tafsīr, tafsir, tafsîr (+1) | — | — | translit | **12 fiches** | isaghuji-cours01-introduction-transcription.md +7 | 74 |
 | `temperament` | Tempérament, temperament, tempérament | — | — | table, tag, titre | **20 fiches** | 04-d.md +22 | 74 |
 | `tokyo` | Tokyo, Tōkyō | — | — | table | **9 fiches** | 00-front-matter.md +16 | 74 |
 | `torii` | Torii, torii | — | — | annotation, table, titre | **9 fiches** | 00-front-matter.md +9 | 73 |

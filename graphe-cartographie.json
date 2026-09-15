@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 221,
+  "avertissements": 222,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -5017,6 +5017,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/autorites/curt-jaimungal",
+      "label": "Curt Jaimungal",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "academique",
+      "tradition_cadre": "none",
+      "tags": [
+        "theories-of-everything",
+        "podcast",
+        "physique-mathematique",
+        "conscience",
+        "theorie-du-tout",
+        "elephant-inverse",
+        "antagoniste"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "doctrinal/autorites/curt-jaimungal.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/autorites/faraz-rabbani",
       "label": "Faraz Rabbani",
       "circuit": "doctrinal",
@@ -5222,6 +5243,31 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/autorites/muhammad-abduh",
+      "label": "Muhammad ʿAbduh",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "profane",
+      "tradition_cadre": "islam",
+      "tags": [
+        "reformisme",
+        "modernisme-islamique",
+        "islah",
+        "concordisme",
+        "tafsir-al-manar",
+        "risalat-al-tawhid",
+        "al-manar",
+        "al-afghani",
+        "rashid-rida",
+        "egypte",
+        "al-azhar"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "doctrinal/autorites/muhammad-abduh.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/autorites/muhammad-al-akili",
       "label": "Muhammad M. Al-Akili",
       "circuit": "doctrinal",
@@ -5312,6 +5358,28 @@
       "updated": "2026-09-08",
       "chemin": "doctrinal/autorites/raphael-afilalo.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/autorites/rashid-rida",
+      "label": "Muhammad Rashīd Riḍā",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "profane",
+      "tradition_cadre": "islam",
+      "tags": [
+        "reformisme",
+        "modernisme-islamique",
+        "salafiyya",
+        "wahhabisme",
+        "al-manar",
+        "tafsir-al-manar",
+        "muhammad-abduh",
+        "anti-soufisme"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "doctrinal/autorites/rashid-rida.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/autorites/rene-guenon",
@@ -16042,6 +16110,20 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/autorites/curt-jaimungal",
+      "target": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/curt-jaimungal",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/autorites/faraz-rabbani",
       "target": "doctrinal/sources/hasbiyallah-rabbani",
       "champ": "sources",
@@ -16385,6 +16467,20 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/autorites/muhammad-abduh",
+      "target": "doctrinal/autorites/rashid-rida",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/muhammad-abduh",
+      "target": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/autorites/muhammad-al-akili",
       "target": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
       "champ": "sources",
@@ -16583,6 +16679,20 @@
     {
       "source": "doctrinal/autorites/raphael-afilalo",
       "target": "doctrinal/autorites/isaac-louria-arizal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rashid-rida",
+      "target": "doctrinal/autorites/muhammad-abduh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rashid-rida",
+      "target": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -20090,6 +20200,27 @@
     {
       "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
       "target": "doctrinal/deviations/technologisation-pseudo-scientifique",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/autorites/curt-jaimungal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/autorites/muhammad-abduh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/autorites/rashid-rida",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

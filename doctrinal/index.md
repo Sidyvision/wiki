@@ -201,6 +201,11 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/autorites/titus-burckhardt|Titus Burckhardt (pérennialiste, commentateur d'Ibn ʿArabī)]] — stub
 - [[doctrinal/autorites/faraz-rabbani|Faraz Rabbani (SeekersGuidance, fiqh hanafite)]]
 - [[doctrinal/autorites/hamza-yusuf|Hamza Yusuf (Zaytuna College)]] — stub
+- [[doctrinal/autorites/curt-jaimungal|Curt Jaimungal (Theories of Everything)]] — élément antagoniste de l'étude du 2026-09-15 ; source : transcription automatique d'une conférence
+
+### Réformisme et modernisme islamiques (statut `profane` proposé, verdict réservé)
+- [[doctrinal/autorites/muhammad-abduh|Muhammad ʿAbduh (1849-1905, Grand Mufti d'Égypte)]] — concordisme (djinns lus comme microbes, *Tafsīr al-Manār*) ; sources secondaires, textes `to-source`
+- [[doctrinal/autorites/rashid-rida|Muhammad Rashīd Riḍā (1865-1935, revue *al-Manār*)]] — du modernisme au salafisme et au soutien du wahhābisme ; sources secondaires, textes `to-source`
 
 ---
 

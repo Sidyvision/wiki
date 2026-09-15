@@ -262,6 +262,7 @@ links: []
 | `consigne donnee` | Consigne donnée | — | — | definition | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]] · [[meta/projet-unifie/archives/08-resultats-test-ornith-cas-doctrinal-2026-06-29]] | — | 2 |
 | `contredites litteralement par le texte du fichier` | contredites littéralement par le texte du fichier | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/outillage/robustesse-documents-persona-llm]] | — | 2 |
 | `cormac` | Cormac | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |
+| `curt-jaimungal` | curt-jaimungal | — | — | annotation | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 2 |
 | `c'est la seule preuve qui vaille` | C'est la seule preuve qui vaille | — | — | definition | [[atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations]] | — | 1 |
 | `calcul de positions` | Calcul de positions | — | — | definition | [[atelier/rd/instrument/spec-technique-axe-38-degres]] | — | 1 |
 | `caracteristiques visuelles du double` | Caractéristiques visuelles du double | — | — | definition | [[meta/personnel/sidy]] | — | 1 |
