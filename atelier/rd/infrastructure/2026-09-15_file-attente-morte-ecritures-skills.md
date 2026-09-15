@@ -379,4 +379,35 @@ Les 30 réservées — familles `karubi-*`, `transmission`, `doctrinal-*`, `wiki
 2. **La vidéo n'a aucune procédure.** La famille doctrinale couvre photo (lot dans `raw/`) et PDF ; Sidy a mentionné la vidéo, et rien ne la traite.
 3. **Une position de plus est arrivée pendant la passe** — `verdict-gated-work` (7 386 o., 01:02, `background_review`), proposée par le fork **pendant** qu'on vidait sa file. Troisième occurrence du même fait : le fork propose la compétence qui décrit le travail en cours. **Non jugée.**
 
+## 8. Verdicts de clôture (2026-09-15, ~01:15 UTC)
+
+**Options C et D — « ne rien éteindre »** (verdict de Sidy : « je valide tes propositions encore »). Ni la porte (`skills.write_approval`) ni le fork (`background_review.enabled`) n'ont été touchés. Motifs exposés puis validés :
+
+- la porte est ce qui rend la revue possible ; l'éteindre ferait entrer **sans revue** des propositions écrites par un modèle — y compris celles qui touchent la transmission, le doctrinal ou les entretiens ;
+- le fork n'est pas seulement producteur de skills : c'est lui qui **capture les souvenirs**, et `memory.write_approval` est à `false` — la configuration ne sait pas séparer les deux versants, l'éteindre priverait d'une fonction qui marche ;
+- sur 215 propositions, **21 sont devenues des skills**, environ 10 %. La matière utile existe, mais elle est minoritaire et indiscernable sans relecture : argument pour **relire**, jamais pour éteindre ;
+- **aucune des deux extinctions ne corrige le défaut** : ce sont les trois vérifications manquantes du §7 — à l'entrée, en file, à la sortie. Le remède appartient au point 3, instruit ci-dessous.
+
+**Dernier item de la file** : `verdict-gated-work` (7 386 o., arrivé à 01:02, proposé par le fork pendant qu'on vidait sa file) — **approuvé et créé** (7 775 o., description 56 caractères).
+
+**Renvoi mort n°3, traité autrement que les deux premiers** : ce skill déclarait `references/cas-2026-09-15-integration-et-verdicts.md` — pièce **jamais proposée**, vérifié par recherche dans toutes les archives. Aucun fichier inventé pour boucher le trou : la déclaration a été **remplacée** par un pointeur vers les deux fiches du dépôt qui portent réellement le cas — la raison étant écrite dans le skill lui-même, pour qu'un lecteur ne prenne pas ce retrait pour une négligence.
+
+**Bilan de la journée sur ce dispositif** : **22 skills créés** (11 + 10 + 1), **134 positions rejetées** au jugement (hors les 60 retirées à la déduplication), **5 pièces greffées** depuis l'archive, **3 renvois morts** traités — deux réparés par greffe, un par retrait de la déclaration. Et la file s'est **reremplie pendant la passe** : `hermes-skill-store-operations` (00:10), `verdict-gated-work` (01:02), `hermes-profile-targeting` (01:11) — la troisième **non jugée**.
+
+## 9. Point 3 — instruit, non exécuté
+
+Le remède aux trois vérifications manquantes, soumis en trois pièces déterministes et **une seule ligne de rapport** :
+
+1. **Un état de la file**, lisible en une ligne, par profil : nombre de positions, plus ancienne, plus récente — et le **compte des propositions inaptes** (contrat du magasin : description > 60 caractères, frontmatter YAML invalide, champ `name:` absent, renvoi déclaré inexistant). C'est la vérification **à l'entrée** faite de l'extérieur, puisque le stage lui-même n'en fait aucune.
+2. **Un contrôle de sortie** : pour chaque skill installé, confronter les fichiers qu'il déclare (`references/`, `templates/`, `scripts/`, `assets/`) au disque. C'est ce contrôle, fait à la main ce soir, qui a trouvé **trois renvois morts** — dont deux auraient été invisibles autrement.
+3. **Le branchement** : une ligne dans un rapport périodique qui existe déjà (rapport Studio du matin, où `verifier-invariants.py` a déjà été réintégré le 2026-09-13), pour que la file **cesse d'être muette**.
+
+Deux obstacles nommés avant d'écrire une ligne de code :
+
+- **`atelier/rd/registre-chantiers.md` porte des modifications non commitées d'une autre passe** (visible dans `git status`). L'inscription d'un chantier au registre — acte de verdict — toucherait ce fichier : à faire soit après que l'autre passe a commité, soit avec votre accord explicite pour commiter cet état-là.
+- **`hermes-skill-store-operations` embarque `scripts/drain-skill-queue.py`** (8 866 o.), proposé par le fork et **non audité**. À lire avant de s'en servir : un script de dépouillement écrit par le dispositif qu'on est en train de contrôler ne s'adopte pas sur parole.
+
+Conformément au protocole du pôle, un chantier qui passe de *recensé* à *instruit* reçoit un dossier `intent.md` / `spec.md` / `plan.md` dans son domaine, et **aucun code n'est écrit pour ce chantier tant que le `plan.md` n'est pas visé**. Les trois pièces ci-dessus sont donc un *intent*, pas un début d'exécution.
+
+
 
