@@ -49,8 +49,30 @@ BOM). Contrôle en relecture : JSON valide, 4 jobs intact, prompt relu identique
 (PID 292266, battement 54 s) ; la prochaine exécution, aujourd'hui à 12:00, prendra la nouvelle
 consigne.
 
+**Suite immédiate (même passe — verdict « oui vas-y pour le skill »).** La leçon a été portée là
+où un agent futur la cherchera : le skill **`hermes-agent`**, référence
+`references/background-systems.md` (section *Cron*), qui reçoit — avec l'aveu du cas mesuré —
+l'invisibilité inter-profils (`cronjob(action='update')` → « job not found » sur un job d'un autre
+profil qui tourne), les règles d'écriture sûre de `jobs.json` (sauvegarde, indentation et
+`ensure_ascii` conservés, **jamais de BOM** — un `jobs.json` avec BOM est lu comme *illisible*, le
+produit porte même un test de non-régression ; relecture obligatoire pour prouver qu'aucun job n'a
+été perdu), et l'absence de redémarrage à prévoir. La porte d'écriture **a fonctionné** : elle a
+stagé la modification (`d7d78b52`), qui a été appliquée par le **chemin d'approbation du produit**
+(la fonction qu'appelle le gestionnaire `/skills approve`), sur instruction nominative de Sidy — la
+position stagée a ensuite été **retirée** pour ne pas laisser dans la file une écriture déjà
+appliquée, ce qui reproduirait exactement le défaut d'OUT-17. Vérifié sur disque après écriture
+(6 745 octets, la section présente).
+
+**Effet de bord observé, et il est sain** : pendant la passe, la file d'écritures s'est **remplie à
+nouveau** — trois positions versées par le fork `background_review` à 03:54, 03:59 et 04:00, douze
+opérations sur six skills (`deterministic-integrity-tooling`, `hermes-skill-store-operations`,
+`wiki-change-journaling`, `hermes-profile-targeting`, `artefact-integrity-audit`,
+`hermes-gateway-operations`), dont quatre pièces de référence. Le contrôle d'OUT-17 les voit
+(« 3 positions, 0 inapte, 0 alerte ») — c'est l'état voulu : le fork capture, l'humain juge, et
+désormais un rapport quotidien le dit à voix haute.
+
 **Reste** : lire le premier rapport qui portera la ligne et juger si le code de sortie non nul y est
-**lisible sans déclencher de fausse alerte**.
+**lisible sans déclencher de fausse alerte** ; puis instruire les trois positions ci-dessus.
 
 Commit : 7d21c33
 
