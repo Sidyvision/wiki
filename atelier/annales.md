@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/outillage | Deux outils conservés : conversion d'une couche texte PDF, versement ciblé vers `textes/`
+
+- **Consigne de Sidy** : « on conserve toute pièce d'outillage pour éventuel usage futur ».
+- `atelier/rd/outillage/convertir-jabre-munqidh.py` — `pdftotext` sur couche native, un
+  fichier par section, marqueurs `<!-- page N -->`, aucune correction. Gardes **vues
+  refuser** : écrasement (seconde exécution), Cmd 15 (trois cas fabriqués) ; complétude
+  122/122 pages.
+- `atelier/rd/outillage/verser-dossier-textes.py` — le versement ciblé fait d'abord en
+  script ponctuel pour *Orient et Occident*, rendu outil : réutilise `slug()`,
+  `destination()` et G1 de `migrer-textes-convertis.py` (aucune règle dupliquée), refus
+  G2 et Cmd 15, résolution NFD/NFC. G2 **vu refuser** sur le dossier réel et sur un
+  fichier seul tapé en NFC ; constat sur destination neuve sans écriture.
+- **Motif** : `migrer-textes-convertis.py --migrer` recopie tout `raw/` et écraserait les
+  nettoyages de `textes/` consignés depuis le 2026-09-14.
+- Inscrits à `2026-08-23_inventaire-outillage-deterministe.md`.
+- **Commit** : 4480383
+
 ## [2026-09-15] chantier | INF-16 — plan visé, et les trois relevés qui ne demandaient aucun verdict
 
 - **Verdicts de Sidy** : « Tu peux passer le plan à visé » (en session, pendant la passe), puis — sur la question « est-ce qu'on peut engager ça maintenant ? » — le choix explicite d'**engager les trois mesures sans verdict** (étapes 2, 3b et 3c). La réponse à cette question était **non** pour tout engagement matériel, et le relevé qui l'a motivée a été fait dans la même passe.

@@ -9,6 +9,30 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] archivage | *al-Munqidh min aḍ-ḍalāl* (Ghazâlî, trad. Jabre 1959), partie française ; *Orient et Occident* complété
+
+- **Consigne** : « go, scan de 1959, le français d'abord » (verdict Sidy sur le plan présenté).
+- **Munqidh** : couche texte native du scan UNESCO (Beyrouth, 1959), pp. 1-122, versée dans
+  `textes/ghazali-munqidh-jabre-1959/` (8 fichiers + index de conversion) par script
+  déterministe. **Arabe non versé** (couche texte = bruit ; pages en ordre inverse) —
+  seconde passe OCR. Réédition d'Istanbul (2013) écartée : formules de bénédiction
+  insérées par l'éditeur.
+- **Fiche** : [[doctrinal/sources/ghazali-munqidh-jabre-1959]] (`traditionnel`) — traité lu
+  intégralement ; introduction de Jabre versée, **non lue**. Vigilance : note de Jabre
+  p. 104 niant une faculté supra-rationnelle chez le Prophète, contre le texte traduit
+  (écart du traducteur, non tranché) ; retraite « dix ans » (p. 100) / « onze ans »
+  (p. 114) ; carré magique p. 117 (argument *ad hominem*), lien documentaire vers
+  `ilm-al-awfaq`.
+- **Orient et Occident** : la page 228 (mode « livre », éd. Trédaniel 1987), transmise par
+  Sidy, porte la fin de la conclusion et l'addendum entier — les deux lacunes de la
+  première capture sont comblées ; date de rédaction établie : **1924** (note de
+  l'addendum). Versée sous un nom distinct (le nom normalisé entrait en collision avec
+  l'avant-propos).
+- **Contrôles** : invariants 0 erreur / 71 avertissements (inchangé) ; annotations
+  validées sur les fiches du jour ; 16 refus antérieurs inchangés ; index lexical et
+  graphe régénérés. Outillage : voir annales de l'atelier du même jour.
+- **Commit** : 4480383
+
 ## [2026-09-15] archivage | *Orient et Occident* (Guénon) versé et lu ; étude antagoniste Jaimungal
 
 - **Consigne** : introduire un élément antagoniste (Curt Jaimungal, *Theories of
