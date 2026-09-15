@@ -10,6 +10,48 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] outillage | Conversion du *Xī Yóu Jì* 西遊記 vers `textes/` — 100 回, un fichier par chapitre
+
+- Consigne de Sidy : « cherche une bonne édition numérique de Xī Yóu Jì et dépose-la dans /raw »,
+  puis « une édition chinoise traditionnel en priorité », puis « convertis-le vers textes/ avec son
+  index-conversion », puis « un fichier par 回 ».
+- **Source** : Project Gutenberg n° 23962 (transcription Leong Joana Kit Ieng, 2007), UTF-8,
+  chinois traditionnel, domaine public. Déposée en `raw/` avec son `.epub` (hors git). Écartées :
+  les traductions sous droits (Yu, Jenner, Waley) ; Richard 1913 est libre mais n'est qu'un abrégé.
+- **Créé** : `atelier/rd/outillage/convertir-xiyouji-gutenberg.py` — déterministe, sans LLM, sans
+  réseau, rapport seul par défaut (`--appliquer` requis). Retire l'en-tête et le pied Gutenberg
+  (19 184 caractères, couche de diffusion — même motif que les contrôles bidi de l'Ihyâ') et
+  reporte la ligne de crédit dans l'index plutôt que de l'effacer.
+- **Épreuve des contrôles (§VII)** : vert sur l'état sain ; **refus observé** sur quatre fautes
+  fabriquées en bac à sable, 0 fichier écrit dans chaque cas — G1 bornes supprimées
+  (`borne(s) Gutenberg absente(s) : START, END`), G2 50ᵉ 回 retiré (`99 回 trouvés, 100 attendus`),
+  G3 U+200D injecté (`U+200D dans les 回 [5]`), G4 préface apocryphe (`matière non reconnue avant
+  le premier 回`).
+- **Versé** : `textes/xi-you-ji-wu-chengen-traditionnel/`, 100 fichiers `xiyouji-hui-001..100.md`
+  + `index-conversion.md` (table des 100 回 collationnés). Section de versement ajoutée à
+  `textes/LISEZ-MOI.md`.
+- **Contrôles** : 100 回 numérotés 1→100, sans lacune ni doublon, 1 titre par fichier ; comparaison
+  ligne non vide à ligne non vide contre la source — 23 387 lignes de part et d'autre,
+  **0 écart de contenu** ; invariants 0 erreur / 71 avertissements ; Cmd 15 propre au commit.
+- **Défaut de l'édition, constaté et non corrigé** (immuabilité, §II) : le titre du 第四七回 est
+  mutilé dans la transcription — second hémistiche rejeté hors de la ligne de titre et amputé de
+  son `金`. Collationné sur 維基文庫. Les 100 titres ont été collationnés ; **le corps ne l'a été
+  avec aucun témoin**, et Gutenberg ne déclare pas son édition de base : la conversion vaut pour
+  la lecture et la recherche, non pour l'établissement du texte.
+- **Incident de rédaction, rattrapé avant commit** : la première version du script portait
+  **de véritables caractères invisibles** (U+200B/C/D, U+FEFF, U+200E/F) : les échappements
+  de sa table de contrôle, écrits sous la forme barre-oblique-inverse + u + code, ont été
+  **décodés en caractères réels au moment de l'écriture du fichier**. Une violation du Cmd 15
+  dans le fichier même qui prétend la détecter. Relevée par contrôle manuel avant `git commit`,
+  corrigée par construction via `chr()`.
+- **Le hook pre-commit a été vu refuser — pour de bon, non sur un cas fabriqué.** La première
+  rédaction de la présente entrée reproduisait la faute qu'elle décrit (un U+200B en
+  `atelier/annales.md:42:91`, même mécanisme d'écriture) : le hook a bloqué le commit et le push,
+  en nommant fichier, ligne, colonne et caractère. Nettoyé au `perl -CSD` prescrit par le hook
+  lui-même, jamais au `sed` (incident du 2026-08-22). Le garde-fou hérité cesse ainsi d'être
+  présumé : il a mordu. Une fiche `atelier/rd/incidents/` reste à ouvrir si Sidy le juge utile.
+- **Commit** : 090af68
+
 ## [2026-09-15] rd/outillage | Pre-commit aligné sur le pre-push et le CI (hygiène Unicode)
 
 - Verdict de Sidy (« oui, aligne aussi le pre-commit »). `hooks/pre-commit` appelle
