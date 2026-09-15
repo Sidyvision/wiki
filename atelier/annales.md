@@ -10,6 +10,17 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/outillage | `convertir-jabre-munqidh-arabe.py` — OCR arabe en ordre de lecture
+
+- OCR `tesseract -l ara` d'un imprimé arabe relié à l'arabe : sortie en ordre de lecture,
+  double numérotation PDF / imprimée, cache des sorties brutes hors dépôt, retrait **compté**
+  des seuls invisibles Cmd 15. Garde anti-écrasement **vue refuser**.
+- Enseignement : sur un imprimé net (Beyrouth, 1959), 300 dpi + `--psm 6` suffisent —
+  le prétraitement ×2 + Otsu d'OUT-08 n'a pas été nécessaire (essai pp. 126 et 150,
+  `--psm 6` légèrement meilleur que `--psm 1`).
+- Inscrit à `2026-08-23_inventaire-outillage-deterministe.md`.
+- **Commit** : cf1d037
+
 ## [2026-09-15] rd/outillage | Deux outils conservés : conversion d'une couche texte PDF, versement ciblé vers `textes/`
 
 - **Consigne de Sidy** : « on conserve toute pièce d'outillage pour éventuel usage futur ».

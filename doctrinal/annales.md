@@ -9,6 +9,21 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] archivage | *al-Munqidh* — texte arabe versé (OCR neuf), durée de la retraite confrontée
+
+- **Consigne** : « go, lance la passe arabe du Munqidh ».
+- `textes/ghazali-munqidh-jabre-1959/munqidh-08-texte-arabe.md` — OCR neuf (`ara`, 300 dpi,
+  `--psm 6`) des pp. PDF 125-175, en **ordre de lecture** (page imprimée = 181 − page PDF).
+  **Non relu par un humain.** Qualité mesurée : I1 moyen 0,16 %, max 2,90 % (table).
+  Seul retrait : 261 invisibles Cmd 15 injectés par le moteur (règle d'immuabilité amendée,
+  conditions consignées à l'index de conversion).
+- [[doctrinal/sources/ghazali-munqidh-jabre-1959]] : l'écart « dix ans » / « onze ans » est
+  **dans l'arabe de Ghazâlî** (عشر سنين deux fois ; احدى عشرة سنة au retour), non dans la
+  traduction — rapporté, non tranché.
+- Contrôles : invariants 0 erreur / 71 avertissements (inchangé) ; 16 refus d'annotation
+  antérieurs inchangés ; index lexical et graphe régénérés.
+- **Commit** : cf1d037
+
 ## [2026-09-15] archivage | *al-Munqidh min aḍ-ḍalāl* (Ghazâlî, trad. Jabre 1959), partie française ; *Orient et Occident* complété
 
 - **Consigne** : « go, scan de 1959, le français d'abord » (verdict Sidy sur le plan présenté).
