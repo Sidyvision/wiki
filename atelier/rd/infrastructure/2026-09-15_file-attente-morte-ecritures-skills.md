@@ -161,6 +161,133 @@ Texte prêt, à déposer sur un mot de Sidy :
 > parce que personne ne le regarde, ce que §VII refuse déjà ailleurs.
 > **Statut** : `ouvert`
 
-## 7. Passe « après traitement »
+## 7. Passe « après traitement » — étape 1 : déduplication exécutée
 
-*(à écrire — traitement non décidé à l'heure de cette fiche)*
+**Verdict de Sidy du 2026-09-15** (formulaire) : « Dédupliquer puis juger par sujet — je dédup les 62 redites, je vous présente la liste courte des candidats, le reste est rejeté. » Puis, sur la seconde question : « Oui, dépose-la maintenant — c'est mon accord nominatif » (entrée de registre, cf. §6).
+
+### Ce qui a été fait (2026-09-15, ~00:45 UTC)
+
+- **Règle appliquée** : pour chaque couple (skill, action), une seule position survit — la plus récente. Une proposition identique répétée est une redite, pas un renforcement.
+
+- **Mesure** : **215 positions → 155**, soit **60 rejetées** (`default` 55, `studio` 2, `gardien` 3 ; `publication` et `marketing` sans redite).
+
+- **Voie employée** : `write_approval.discard_pending` — la fonction même qu'appelle `/skills reject`. Aucun fichier détruit : chaque position rejetée est **copiée** dans `pending/skills/rejetees-2026-09-15/` du profil concerné, avec un `MANIFESTE.md` qui porte la règle, la liste et la procédure de restauration (Cmd 10).
+
+- **Écart déclaré** : la fiche annonçait 62 redites (relevé de 00:14) ; la règle exacte appliquée à 00:45 en mesure **60**. Le stock bouge pendant qu'on le compte — c'est la réserve inscrite en tête de fiche, pas une correction.
+
+
+### Ce qui reste à juger — 155 positions, 105 sujets
+
+La déduplication exacte ne suffit pas : **105 sujets distincts subsistent**, dont beaucoup sont des quasi-synonymes du même objet (le premier jeton du nom les regroupe). La liste ci-dessous est donc présentée **par grappe**, la plus lourde d'abord ; dans chaque grappe, seule la plus volumineuse est proposée comme **candidat**, les autres comme **rejetables** (redites de sujet). Proposition mécanique, soumise — pas décidée.
+
+| grappe | sujet | pos. | poids | dernier dépôt | profil | proposition |
+|---|---|---:|---:|---|---|---|
+| wiki | wiki-change-journaling | 1 | 24620 o. | 2026-09-13 | default | **candidat** |
+| wiki | wiki-infra-correctifs | 2 | 21776 o. | 2026-09-13 | studio | rejetable |
+| wiki | wiki-depot-integration | 4 | 20656 o. | 2026-08-30 | publication | rejetable |
+| wiki | wiki-graph-maintenance | 2 | 15133 o. | 2026-08-18 | studio | rejetable |
+| wiki | wiki-depot-correctifs-forme | 1 | 15104 o. | 2026-09-13 | publication | rejetable |
+| wiki | wiki-transcription-bibliotheque | 2 | 13044 o. | 2026-08-29 | default | rejetable |
+| wiki | wiki-protocol-ops | 2 | 12486 o. | 2026-08-08 | default | rejetable |
+| wiki | wiki-sidyvision-protocol | 2 | 12403 o. | 2026-09-02 | default | rejetable |
+| wiki | wiki-protocol | 2 | 9758 o. | 2026-08-08 | default | rejetable |
+| wiki | wiki-corpus-integration | 2 | 9043 o. | 2026-08-24 | studio | rejetable |
+| wiki | wiki-rd-methodology | 2 | 8959 o. | 2026-08-15 | default | rejetable |
+| wiki | wiki-depot-restoration | 2 | 8819 o. | 2026-08-23 | gardien | rejetable |
+| wiki | wiki-repository-ops | 2 | 8482 o. | 2026-08-09 | default | rejetable |
+| wiki | wiki-repo-governance | 2 | 8194 o. | 2026-08-08 | default | rejetable |
+| wiki | wiki-transmission | 1 | 8058 o. | 2026-08-31 | default | rejetable |
+| wiki | wiki-depot-ops | 2 | 7565 o. | 2026-08-09 | default | rejetable |
+| wiki | wiki-depot-restauration | 2 | 7080 o. | 2026-08-23 | gardien | rejetable |
+| wiki | wiki-doctrinal-depot | 1 | 7028 o. | 2026-08-31 | default | rejetable |
+| wiki | wiki-vault-sync | 2 | 6707 o. | 2026-08-09 | default | rejetable |
+| wiki | wiki-protocol-v2 | 2 | 6508 o. | 2026-08-08 | default | rejetable |
+| wiki | wiki-structural-grounding | 1 | 6050 o. | 2026-08-30 | default | rejetable |
+| wiki | wiki-interview-deposit | 2 | 5867 o. | 2026-08-18 | default | rejetable |
+| wiki | wiki-repo-verification | 2 | 5581 o. | 2026-08-09 | default | rejetable |
+| wiki | wiki-source-integration | 2 | 5285 o. | 2026-08-28 | studio | rejetable |
+| wiki | wiki-integration | 1 | 5002 o. | 2026-08-18 | default | rejetable |
+| wiki | wiki-inbox-ventilation | 1 | 4510 o. | 2026-08-22 | default | rejetable |
+| wiki | wiki-invariant-maintenance | 1 | 4500 o. | 2026-08-18 | studio | rejetable |
+| hermes | hermes-gateway-operations | 2 | 19467 o. | 2026-09-13 | default | **candidat** |
+| hermes | hermes-multi-profile-ops | 2 | 17466 o. | 2026-08-25 | default | rejetable |
+| hermes | hermes-multi-profile | 2 | 12642 o. | 2026-08-23 | default | rejetable |
+| hermes | hermes-character-profiles | 2 | 11972 o. | 2026-08-15 | default | rejetable |
+| hermes | hermes-operations | 2 | 10567 o. | 2026-09-10 | default | rejetable |
+| hermes | hermes-profile-operations | 2 | 10491 o. | 2026-08-17 | default | rejetable |
+| hermes | hermes-infra-ops | 2 | 8672 o. | 2026-08-23 | default | rejetable |
+| hermes | hermes-profile-orchestration | 2 | 8653 o. | 2026-08-20 | default | rejetable |
+| hermes | hermes-infra-diagnostics | 2 | 8185 o. | 2026-08-28 | default | rejetable |
+| hermes | hermes-multiprofile-ops | 2 | 6825 o. | 2026-09-11 | default | rejetable |
+| hermes | hermes-gateway-orchestration | 1 | 6610 o. | 2026-08-30 | default | rejetable |
+| hermes | hermes-scoped-gateway | 1 | 6325 o. | 2026-08-16 | default | rejetable |
+| hermes | hermes-agent-prompt-deployment | 1 | 5848 o. | 2026-08-16 | gardien | rejetable |
+| hermes | hermes-cron-orchestration | 1 | 5451 o. | 2026-08-24 | default | rejetable |
+| hermes | hermes-profile-ops | 1 | 4330 o. | 2026-09-07 | default | rejetable |
+| hermes | hermes-profile-isolation | 1 | 3875 o. | 2026-08-15 | default | rejetable |
+| mcp | mcp-server-integration | 1 | 23198 o. | 2026-09-15 | default | **candidat** |
+| mcp | mcp-server-authoring | 2 | 9597 o. | 2026-09-08 | default | rejetable |
+| github | github-automation-infrastructure | 2 | 9071 o. | 2026-08-28 | default | **candidat** |
+| github | github-repo-audit | 1 | 7949 o. | 2026-08-31 | default | rejetable |
+| github | github-issue-authoring | 1 | 5396 o. | 2026-09-05 | default | rejetable |
+| github | github-config | 1 | 3767 o. | 2026-09-06 | default | rejetable |
+| github | github-repo-setup | 1 | 3709 o. | 2026-08-28 | default | rejetable |
+| github | github-wiki-automation | 1 | 1616 o. | 2026-08-28 | default | rejetable |
+| depot | depot-doctrinal-integration | 2 | 13014 o. | 2026-08-25 | gardien | **candidat** |
+| depot | depot-integrity-workflow | 1 | 9237 o. | 2026-08-18 | studio | rejetable |
+| depot | depot-restauration | 2 | 8901 o. | 2026-08-23 | gardien | rejetable |
+| doctrinal | doctrinal-integration | 2 | 11616 o. | 2026-08-25 | gardien | **candidat** |
+| doctrinal | doctrinal-wiki-ingest | 1 | 7015 o. | 2026-08-20 | gardien | rejetable |
+| doctrinal | doctrinal-source-integration | 1 | 6085 o. | 2026-08-25 | publication | rejetable |
+| doctrinal | doctrinal-source-ingestion | 1 | 5912 o. | 2026-08-30 | default | rejetable |
+| structured | structured-wiki-methodology | 1 | 11254 o. | 2026-08-31 | default | **candidat** |
+| structured | structured-spiritual-interview | 1 | 6917 o. | 2026-08-18 | default | rejetable |
+| structured | structured-depot-methodology | 1 | 6260 o. | 2026-08-31 | default | rejetable |
+| karubi | karubi-provisioning | 2 | 13312 o. | 2026-08-21 | gardien | **candidat** |
+| karubi | karubi-transmissions | 2 | 7566 o. | 2026-08-21 | gardien | rejetable |
+| scanned | scanned-book-to-markdown | 2 | 9492 o. | 2026-09-02 | default | **candidat** |
+| scanned | scanned-book-to-markdown-corpus | 2 | 9205 o. | 2026-09-02 | default | rejetable |
+| governed | governed-correction-pass | 1 | 17905 o. | 2026-09-13 | studio | **candidat** |
+| external | external-material-integration | 2 | 9366 o. | 2026-09-05 | default | **candidat** |
+| external | external-research-integration | 1 | 7329 o. | 2026-08-31 | default | rejetable |
+| studio | studio-documentation | 2 | 16459 o. | 2026-08-07 | marketing | **candidat** |
+| frontmatter | frontmatter-repair-pass | 1 | 15793 o. | 2026-09-13 | publication | **candidat** |
+| book | book-scan-to-markdown-corpus | 2 | 13483 o. | 2026-09-02 | default | **candidat** |
+| scan | scan-to-verified-corpus | 3 | 12520 o. | 2026-09-02 | default | **candidat** |
+| sidy | sidy-wiki-protocol | 2 | 9022 o. | 2026-08-15 | default | **candidat** |
+| sidy | sidy-wiki-interview | 1 | 3172 o. | 2026-08-18 | default | rejetable |
+| scoped | scoped-correspondent-channel | 2 | 10901 o. | 2026-08-21 | gardien | **candidat** |
+| taabir | taabir-ruya | 1 | 10076 o. | 2026-09-07 | default | **candidat** |
+| yaml | yaml-frontmatter-batch | 1 | 9980 o. | 2026-08-30 | default | **candidat** |
+| pdf | pdf-book-conversion | 1 | 8390 o. | 2026-09-05 | default | **candidat** |
+| open | open-source-project-investigation | 1 | 8275 o. | 2026-08-31 | default | **candidat** |
+| structural | structural-invariant-repair | 1 | 8071 o. | 2026-08-17 | studio | **candidat** |
+| photo | photo-page-transcription | 2 | 7976 o. | 2026-08-29 | default | rejetable |
+| multi | multi-agent-collaboration | 1 | 5969 o. | 2026-08-20 | default | rejetable |
+| multi | multi-profile-cron-fleet | 1 | 1880 o. | 2026-08-27 | default | rejetable |
+| cron | cron-multi-profile-ops | 1 | 7130 o. | 2026-08-30 | default | rejetable |
+| astrology | astrology-ephemeris | 2 | 6916 o. | 2026-08-08 | default | rejetable |
+| git | git-hooks | 1 | 6693 o. | 2026-08-22 | default | rejetable |
+| rd | rd-veille | 1 | 6411 o. | 2026-08-18 | default | rejetable |
+| document | document-archival | 1 | 6399 o. | 2026-08-20 | gardien | rejetable |
+| daily | daily-agent-report-processing | 1 | 6130 o. | 2026-08-30 | default | rejetable |
+| content | content-security-audit | 1 | 6101 o. | 2026-08-22 | default | rejetable |
+| atelier | atelier-materiel-documentation | 1 | 5632 o. | 2026-08-18 | default | rejetable |
+| deterministic | deterministic-integrity-tooling | 1 | 5099 o. | 2026-08-15 | default | rejetable |
+| agents | agents-circuits-wiki | 1 | 4955 o. | 2026-08-23 | default | rejetable |
+| choura | choura-orchestration | 1 | 4542 o. | 2026-09-01 | default | rejetable |
+| discord | discord-operations | 1 | 4498 o. | 2026-08-16 | gardien | rejetable |
+| biographical | biographical-interview-deposit | 1 | 4379 o. | 2026-08-22 | default | rejetable |
+| authenticated | authenticated-web-automation | 1 | 4352 o. | 2026-08-18 | default | rejetable |
+| research | research-paper-analysis | 1 | 4004 o. | 2026-08-22 | default | rejetable |
+| reminiscence | reminiscence-interview | 1 | 3883 o. | 2026-08-18 | default | rejetable |
+|  |  | 1 | 3088 o. | 2026-08-18 | default | rejetable |
+| sidyvision | sidyvision-wiki | 1 | 2760 o. | 2026-08-31 | default | rejetable |
+| protocol | protocol-driven-repository | 1 | 2695 o. | 2026-08-31 | default | rejetable |
+| sanad | sanad-wiki-maintenance | 1 | 2168 o. | 2026-08-27 | default | rejetable |
+| infrastructure | infrastructure-operations | 2 | 1749 o. | 2026-08-28 | default | rejetable |
+| autonomous | autonomous-ai-agents:hermes-agent | 1 | 1209 o. | 2026-08-27 | default | rejetable |
+
+**Total : 105 sujets — 22 candidats nets (≥ 8000 o.), 83 rejetables.**
+
+Rien n'est rejeté à ce stade : la liste est soumise, le jugement se fait par grappe, sur un mot. La porte et le fork restent **inchangés** — les options C et D du §5 demeurent ouvertes.

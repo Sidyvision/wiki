@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-09-13
+updated: 2026-09-15
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,38 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-15] Une porte qui retient depuis 38 jours, sans que rien ne le dise
+
+- **Symptôme** : `skills.write_approval: true` dans 12 profils sur 13 ; **215 positions**
+  stagées du 2026-08-07 au 2026-09-15 (238 opérations, 105 skills distincts, ~860 Ko au
+  seul profil `default`) ; **aucune** n'avait jamais été appliquée ; **60 positions**
+  étaient des redites exactes du même couple (skill, action), jusqu'à **29 fois** pour
+  `hermes-multi-profile-ops`. Toutes d'origine `background_review` : **aucune** demande
+  humaine dans la file.
+- **Diagnostic** : la porte n'est pas défaillante — elle *retient*, c'est sa fonction. Ce
+  qui manque est une **surface de dépouillement praticable** et un **signal** : la file
+  était invisible de tout rapport périodique, et le fork ignore son propre stock, d'où les
+  redites. Asymétrie aggravante : `memory.write_approval: false` partout — l'agent se
+  **souvenait** et n'**apprenait** pas ; toute affirmation passée du type « compétence
+  apprise » sur cette période était fausse par construction.
+- **Résolution** : (en cours) — déduplication exécutée le 2026-09-15, **215 → 155
+  positions** (60 rejetées, copiées et archivées avec manifeste avant retrait, par
+  `write_approval.discard_pending`, la voie de `/skills reject` — Cmd 10) ; jugement par
+  sujet **en cours** (22 candidats proposés sur 105 sujets) ; options « éteindre la porte »
+  et « éteindre le fork » **non tranchées**.
+- **Compréhension tirée** : un dispositif d'écriture sous approbation **sans indicateur de
+  file** n'est pas un garde-fou, c'est un puits. Tout mécanisme qui *retient* doit publier
+  **ce qu'il retient** ; sinon le contrôle est vert parce que personne ne le regarde — ce
+  que §VII refuse déjà ailleurs. Le défaut n'est pas dans l'outil, il est dans l'absence de
+  **regard** porté sur lui.
+- **Liens** : [[atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills]] ;
+  annales atelier `[2026-09-15]` (deux passes) ; même classe de défaut que l'entrée
+  `[2026-08-17]` (un job cron déclaré créé et inexistant) : une affirmation jamais
+  confrontée au réel.
+- **Statut** : `ouvert`
+- **Déposé par** : session Hermes `default` (CLI), sur accord explicite de Sidy du
+  2026-09-15 : « Oui, dépose-la maintenant — c'est mon accord nominatif ».
 
 ## [2026-09-13] Une résolution déclarée au nom de trois jobs, prouvée sur un seul
 
