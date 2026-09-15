@@ -12,8 +12,8 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `index` | INDEX, Index, index | — | — | tag | **99 fiches** | LISEZ-MOI.md +416 | 1654 |
-| `ibn` | IBN, IBn, Ibn, ibn | — | — | titre | **181 fiches** | LISEZ-MOI.md +83 | 1482 |
+| `index` | INDEX, Index, index | — | — | tag | **100 fiches** | LISEZ-MOI.md +416 | 1656 |
+| `ibn` | IBN, IBn, Ibn, ibn | — | — | titre | **182 fiches** | LISEZ-MOI.md +83 | 1483 |
 | `initiatique` | INITIATIQUE, Initiatique, initiatique | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +180 | 846 |
 | `islamique` | Islamique, islamique | — | — | table, titre | **172 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +146 | 703 |
 | `indra` | Indra, indra | — | — | table, titre | **16 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-15.md +25 | 571 |
@@ -60,8 +60,8 @@ links: []
 | `isaac` | Isaac | — | — | table, titre | **10 fiches** | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +5 | 63 |
 | `inference` | Inference, Inférence, inference, inférence | — | — | table, tag | **32 fiches** | arctic-ch01-prehistoric-times.md +9 | 60 |
 | `ila` | Ila, ila, ilâ, ilä (+4) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]] · +2 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +10 | 58 |
+| `invariants` | Invariants, invariants | — | — | table, tag, titre | **38 fiches** | — | 54 |
 | `imagination` | Imagination, imagination | — | — | tag | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/sommaire-hindouisme-soufisme]] · [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · +3 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +31 | 53 |
-| `invariants` | Invariants, invariants | — | — | table, tag, titre | **37 fiches** | — | 53 |
 | `islamic` | Islamic | — | — | table | **14 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +10 | 53 |
 | `implementation` | Implémentation, implementation, implémentation | — | — | definition, tag | **28 fiches** | — | 50 |
 | `isoles` | Isolés, isolés | — | — | titre | **12 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-5.md +9 | 47 |

@@ -57,3 +57,19 @@ même forme couvre un rapport parfaitement légitime — `yuga` et `kali-yuga` s
 signalement tu est un signalement perdu*. Les règles 1,
 2 et 4 sont **outillées et éprouvées** ; la règle 3 est tenue par le masquage amont ; la
 règle 5 ne l'est pas, et le dit.
+
+**Ordre des gestes — `git add` d'abord** (inscrit le 2026-09-15, verdict Sidy). Le
+générateur de l'index lexical et le validateur ne lisent que les `.md` **suivis par git**
+(`git ls-files`) : une fiche créée et pas encore ajoutée n'est **ni indexée ni validée**, et
+le vert obtenu ne dit rien d'elle. Constaté le 2026-09-15 : toutes les validations des
+fiches créées ce jour-là avaient été faites avant leur suivi git. Pour toute fiche
+nouvelle, l'ordre est donc : écrire → `git add` → régénérer l'index
+(`generer-index-lexical.py --sortie-md-eclate …/condense`) → `valider-annotations.py` →
+contrôler les clés sous leur forme **normalisée** (la fonction `normaliser()` du
+validateur, jamais le slug brut) → `verifier-invariants.py` → commit.
+
+**Un second signalement — `S2`, fichier non suivi** (ouvert le 2026-09-15, verdict Sidy).
+Le validateur nomme désormais chaque `.md` non suivi par git, hors `textes/`, `raw/`,
+`_inbox/` et hors des arbres que `.gitignore` exclut. Signalement et non refus : la fiche
+peut être en cours d'écriture. Comme `S1`, il s'imprime toujours et ne change pas le code
+de sortie.

@@ -47,10 +47,19 @@ SIGNALEMENTS (non bloquants — le script sort 0)
       rapport parfaitement legitime : `yuga` et `kali-yuga` sont un genre et
       une espece, non un doublon. Distinguer les deux est un JUGEMENT, reserve
       a Sidy (Cmd 12) — le controle montre la paire, il ne tranche pas.
+  S2  fichier non suivi par git (ouvert le 2026-09-15, verdict Sidy) — le
+      generateur et ce validateur ne lisent que les `.md` suivis
+      (`fichiers_suivis`) : une fiche creee mais pas encore ajoutee n'est NI
+      indexee NI validee, et le vert obtenu ne dit rien d'elle. Constate le
+      2026-09-15 : toutes les validations des fiches creees ce jour-la
+      avaient ete faites avant leur `git add`. S2 nomme chaque `.md` non
+      suivi (`git ls-files --others --exclude-standard` : les arbres ignores
+      par .gitignore restent hors champ), hors textes/, raw/, _inbox/.
+      Signalement et non refus : la fiche peut etre en cours d'ecriture.
 
 Aucun LLM dans la boucle. Lecture seule : ce script n'ecrit jamais.
 """
-import argparse, importlib.util, json, re, sys, unicodedata
+import argparse, importlib.util, json, re, subprocess, sys, unicodedata
 from pathlib import Path
 
 ICI = Path(__file__).resolve().parent
@@ -85,7 +94,7 @@ def _generateur():
     m = importlib.util.module_from_spec(s); s.loader.exec_module(m)
     return m
 
-VERSION = "1.3"
+VERSION = "1.4"
 INV = None
 ELEMENTS_CLOS = ("dfn", "span", "abbr")
 # Vocabulaire clos. Etendu le 2026-09-08 sur verdict de Sidy : les quatre
@@ -185,6 +194,17 @@ def valider(racine: Path, chemin_index: Path):
     suivis = _generateur().fichiers_suivis(racine)
     if suivis is None:
         print("  git indisponible : parcours integral.", file=sys.stderr)
+    else:
+        # S2 — ce que le filtre git rend invisible, nomme au lieu d'etre tu.
+        r = subprocess.run(["git", "-C", str(racine), "ls-files", "--others",
+                            "--exclude-standard", "-z", "*.md"],
+                           capture_output=True, text=True)
+        for rel in sorted(x for x in r.stdout.split("\0") if x):
+            if rel.startswith(("textes/", "raw/", "_inbox/")):
+                continue
+            signalements.append(("S2", rel,
+                "fichier .md non suivi par git : ni indexe ni valide — "
+                "`git add` avant de regenerer l'index et de valider"))
 
     for f in sorted(racine.rglob("*.md")):
         rel = str(f.relative_to(racine))

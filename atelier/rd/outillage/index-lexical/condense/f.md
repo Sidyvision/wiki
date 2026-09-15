@@ -15,7 +15,7 @@ links: []
 | `formes` | FORMES, Formes, formes, formés | — | — | table, titre | **129 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +325 | 1365 |
 | `fin` | FIN, Fin, fin | — | — | titre | **165 fiches** | LISEZ-MOI.md +220 | 1038 |
 | `fonction` | FONCTION, Fonction, fonction | — | — | definition, table, titre | **189 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +172 | 984 |
-| `figure` | Figure, figure, figuré | — | — | table, tag, titre | **147 fiches** | 08-h.md +197 | 864 |
+| `figure` | Figure, figure, figuré | — | — | table, tag, titre | **148 fiches** | 08-h.md +197 | 866 |
 | `fichier` | Fichier, fichier | — | — | definition, table | **170 fiches** | LISEZ-MOI.md +9 | 729 |
 | `fichiers` | FICHIERS, Fichiers, fichiers | — | — | definition, table | **142 fiches** | LISEZ-MOI.md +9 | 475 |
 | `futuhat` | FUTÛHÂT, Futuhat, Futuhät, Futûhât (+9) | — | — | annotation, table, tag, titre, translit | **79 fiches** | karubi-mehdi-navette-20260812.md +13 | 433 |
@@ -67,9 +67,9 @@ links: []
 | `feedback` | Feedback, feedback | — | — | tag, titre | [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[atelier/rd/veille/2026-08-31_sentrux]] · [[doctrinal/autorites/al-jazari]] · [[meta/carte-du-depot]] | transcription-asr.md | 19 |
 | `falasifa` | Falāsifa, falàsifa, falâsifa | — | — | translit | [[doctrinal/autorites/ibn-sina]] · [[doctrinal/sources/islam-and-artificial-intelligence]] | munqidh-01-introduction-jabre.md +2 | 16 |
 | `foundation` | Foundation, foundation | — | — | table | [[atelier/etudes-de-cas/stones-throw]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] | 05-e.md +9 | 15 |
+| `faraz` | Faraz | — | — | table, titre | **10 fiches** | — | 14 |
 | `fasseke` | Fasséké | — | — | table, titre | [[meta/carte-du-depot]] · [[meta/chantier-kamon-kouyate]] · [[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala]] · [[meta/genealogie/kouyate]] · [[meta/lot-synthese-kamon-kouyate-2026-09-15]] | — | 14 |
 | `faqih` | Faqih, faqîh, faqïh, faqīh (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/fiqh]] | munqidh-01-introduction-jabre.md +3 | 13 |
-| `faraz` | Faraz | — | — | table, titre | **9 fiches** | — | 13 |
 | `fravashis` | Fravashis | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch04-the-night-of-the-gods.md +1 | 13 |
 | `fine-tuning` | Fine-tuning, fine-tuning | — | — | tag | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] · [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]] · +2 | — | 12 |
 | `fadl` | Fadl, fadl, faḍl | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-06-chapitre-05.md +4 | 11 |
@@ -162,4 +162,5 @@ links: []
 | `founding conviction, in one sentence` | Founding conviction, in one sentence | — | — | definition | [[atelier/etudes-de-cas/kojima-productions]] | — | 0 |
 | `fous-en-christ` | fous-en-christ | — | — | tag | [[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee]] | — | 0 |
 | `friction levee le jour meme, sur verdict de sidy` | Friction levée le jour même, sur verdict de Sidy | — | — | definition | [[atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/plan]] | — | 0 |
+| `frontieres, a inscrire au protocole avec la definition` | Frontières, à inscrire au protocole avec la définition | — | — | definition | [[meta/projet-unifie/propositions/proposition-type-reference-2026-09-15]] | — | 0 |
 | `fucuc-al-hikam` | fuçûç-al-hikam | — | — | tag | [[doctrinal/sources/meftah-chatons-sagesses-transcription]] | — | 0 |

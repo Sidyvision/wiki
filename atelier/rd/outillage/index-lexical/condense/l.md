@@ -28,7 +28,7 @@ links: []
 | `lune` | Lune, lune | — | — | table | **57 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +44 | 318 |
 | `label` | Label, label | — | — | definition, table, tag | **84 fiches** | 17-t.md +1 | 284 |
 | `local` | LOCAL, Local, local | — | — | titre | **72 fiches** | LISEZ-MOI.md +28 | 284 |
-| `la regle` | La règle | — | — | definition | **111 fiches** | LISEZ-MOI.md +12 | 253 |
+| `la regle` | La règle | — | — | definition | **111 fiches** | LISEZ-MOI.md +12 | 254 |
 | `lion` | Lion, lion | — | — | table | **25 fiches** | 11-k.md +31 | 171 |
 | `llm` | LLM, llm | — | — | tag, titre | **84 fiches** | index-conversion.md +2 | 168 |
 | `lieux` | Lieux, lieux | — | — | titre | **44 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +53 | 153 |
@@ -43,8 +43,8 @@ links: []
 | `lahut` | Lahut, Lâhût, Lāhūt, lahut (+5) | — | — | annotation, table, tag, translit | **34 fiches** | le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon-6.md +1 | 90 |
 | `lectures suggerees` | Lectures suggérées | — | — | definition | **69 fiches** | — | 88 |
 | `lam` | Lam, Lâm, Lām, lam (+3) | — | — | translit | [[atelier/rd/outillage/essais-non-retenus/README]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/sources/sept-etendards-califat]] · +2 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-5.md +15 | 78 |
+| `lexical` | LEXICAL, lexical | — | — | titre | **23 fiches** | — | 73 |
 | `lecons` | Leçons, leçons | — | — | titre | **27 fiches** | mentalite-scolaire-et-pseudo-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +4 | 71 |
-| `lexical` | LEXICAL, lexical | — | — | titre | **22 fiches** | — | 71 |
 | `laboratoire` | Laboratoire, laboratoire | — | — | tag | **26 fiches** | les-mefaits-de-la-psychanalyse-le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon.md | 69 |
 | `lahiji` | Lahiji, Lâhiji, Lâhîji, Lâhîjî (+1) | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] · +1 | iv.md +2 | 68 |
 | `le besoin` | Le besoin | — | — | definition | **23 fiches** | LISEZ-MOI.md +28 | 67 |

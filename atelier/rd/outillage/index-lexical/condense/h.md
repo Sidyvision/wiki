@@ -26,7 +26,7 @@ links: []
 | `hozo` | Hozo, hozo | — | — | annotation, table, tag | **59 fiches** | — | 122 |
 | `hadith` | Hadith, Hadîth, hadith, hadîth (+6) | — | ⚖ islam | annotation, table, tag, translit | **41 fiches** | les-limites-du-mental-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +22 | 119 |
 | `hindoues` | Hindoues, hindoues | — | — | titre | **15 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-2.md +57 | 115 |
-| `hamza` | Hamza, hamza, Ḥamza | — | — | table, titre, translit | **29 fiches** | sept-etendards-califat-transcription.md +8 | 112 |
+| `hamza` | Hamza, hamza, Ḥamza | — | — | table, titre, translit | **30 fiches** | sept-etendards-califat-transcription.md +8 | 113 |
 | `hors perimetre` | Hors périmètre | — | — | definition | **47 fiches** | — | 110 |
 | `hamsa` | Hamsa, hamsa, ḫamsa | — | — | table, tag, translit | **9 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 108 |
 | `hetzner` | Hetzner | — | — | table | **46 fiches** | — | 99 |
@@ -135,6 +135,7 @@ links: []
 | `hansu` | Hansu | — | — | table, titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/personnel/2026-06-20_taekwondo-hansu]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 9 |
 | `hayula` | hayûlâ, hayūlā | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 9 |
 | `hujja` | hujja, ḥujja | — | — | translit | [[atelier/rd/bibliotheque/table-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 9 |
+| `hussain` | Hussain | — | — | table, titre | [[doctrinal/autorites/ali-hussain]] · [[doctrinal/sources/awrad-ibn-arabi]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · +1 | osman-yahya-08-repertoire.md | 9 |
 | `hakim` | Hakim, Hakîm, hakim, hakïm (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +3 | 8 |
 | `halifa` | Halifa, ḫalîfa | — | — | translit | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +1 | 8 |
 | `hamd` | hamd, ḥamd | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md | 8 |
@@ -142,7 +143,6 @@ links: []
 | `hideo` | Hideo | — | — | table, titre | [[atelier/etudes-de-cas/kojima-productions]] · [[hermeneutique/auteurs/hideo-kojima]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · [[meta/carte-hermeneutique]] | — | 8 |
 | `hokmah` | Hokmah | — | — | table | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · [[doctrinal/symboles/polarite-laterale-de-l-axe]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md +1 | 8 |
 | `hubs` | Hubs, hubs, ḥubs | — | — | translit | [[atelier/rd/cahiers/bilan-2026-08-15-pont-agents]] · [[atelier/rd/outillage/spec-essai-graphify]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] · +1 | — | 8 |
-| `hussain` | Hussain | — | — | table, titre | [[doctrinal/autorites/ali-hussain]] · [[doctrinal/sources/awrad-ibn-arabi]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | osman-yahya-08-repertoire.md | 8 |
 | `habl` | Ḥabl, ḥabl | — | — | titre, translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/axe-corde-en-reve]] · [[doctrinal/symboles/habl-allah]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | — | 7 |
 | `harut` | Harût, Hārūt | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] | — | 7 |
 | `hifz` | hifz, ḥifẓ | — | — | translit | [[atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/traditions/tasawwuf]] | sept-etendards-califat-transcription.md | 7 |

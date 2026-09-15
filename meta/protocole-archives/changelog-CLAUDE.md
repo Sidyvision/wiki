@@ -16,6 +16,19 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] amendement | `protocoles/annotations-html.md` — ordre des gestes (`git add` d'abord) et signalement S2
+
+**Verdict de Sidy**, 2026-09-15 : « je valide tes propositions » — inscrire la règle d'usage et
+outiller le signalement. **Motif** : le générateur de l'index lexical et le validateur des
+annotations filtrent sur `git ls-files` ; une fiche non encore ajoutée était ignorée sans
+message, et le validateur rendait un vert qui ne portait pas sur elle (constaté sur
+`doctrinal/autorites/al-afghani.md`). **Ce qui change** : la procédure de
+`protocoles/annotations-html.md` reçoit l'ordre des gestes (écrire → `git add` → index →
+validation → invariants → commit) ; `valider-annotations.py` passe en v1.4 avec le
+signalement non bloquant `S2`, éprouvé sur un clone jetable. Le **principe** du §VII racine
+est inchangé — seule sa procédure est complétée, là où la racine la nomme (Cmd 14).
+Réversible sur simple verdict (Cmd 10).
+
 ## [2026-09-14] amendement | §II — Règle d'immuabilité de `textes/`
 
 **Verdict de Sidy**, 2026-09-14 : « Supprime les.bak s'il n'ont plus d'utilité et

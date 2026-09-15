@@ -12,14 +12,14 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `guenon` | Guenon, Guénon, guenon, guénon | — | — | annotation, table, tag, titre | **274 fiches** | LISEZ-MOI.md +409 | 2583 |
+| `guenon` | Guenon, Guénon, guenon, guénon | — | — | annotation, table, tag, titre | **275 fiches** | LISEZ-MOI.md +409 | 2584 |
 | `grande` | GRANDE, Grande, grande | — | — | table, titre | **109 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +295 | 924 |
 | `gardien` | Gardien, gardien | — | — | table, tag, titre | **93 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-29.md +13 | 368 |
 | `gauche` | Gauche, gauche | — | — | table, titre | **48 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +45 | 357 |
 | `gens` | Gens, gens | — | — | titre | **33 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +121 | 343 |
 | `gizeh` | Gizeh, gizeh | — | — | annotation, table, tag, titre | **82 fiches** | — | 303 |
 | `gloton` | Gloton, gloton | — | — | annotation, table, tag, titre | **73 fiches** | corps-du-texte.md | 246 |
-| `git` | Git, git, gît | — | — | tag | **85 fiches** | LISEZ-MOI.md +8 | 226 |
+| `git` | Git, git, gît | — | — | tag | **86 fiches** | LISEZ-MOI.md +8 | 227 |
 | `genealogie` | Généalogie, genealogie, généalogie | — | — | tag | **121 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +8 | 213 |
 | `guru` | GURU, Guru, guru | — | — | table, tag, titre | **11 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +22 | 184 |
 | `gpu` | GPU | — | — | titre | **31 fiches** | — | 176 |
@@ -30,7 +30,7 @@ links: []
 | `guide` | GUIDE, Guide, guide, guidé | — | — | table, titre | **35 fiches** | 00-front-matter.md +58 | 144 |
 | `guenonienne` | guenonienne, guénonienne | — | — | titre | **73 fiches** | sept-etendards-califat-transcription.md +1 | 143 |
 | `gem` | GEM, Gem, gem | — | — | titre | **36 fiches** | 03-c.md +11 | 128 |
-| `graphe` | Graphe, graphe | — | — | table, tag | **42 fiches** | LISEZ-MOI.md +4 | 121 |
+| `graphe` | Graphe, graphe | — | — | table, tag | **43 fiches** | LISEZ-MOI.md +4 | 122 |
 | `gateway` | Gateway, gateway | — | — | table, tag, titre | **33 fiches** | 10-j.md | 109 |
 | `graal` | GRAAL, Graal | — | — | table | [[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]] · [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | noms-profanes-et-noms-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +25 | 106 |
 | `gunas` | Guṇas, gunas, guṇas | — | — | annotation, tag, titre, translit | **14 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +16 | 106 |
@@ -39,7 +39,7 @@ links: []
 | `gilis` | Gilis, gilis | — | — | annotation, table, tag, titre | **25 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 96 |
 | `gout` | Goût, goût | — | — | table, titre | **23 fiches** | des-pretendus-pouvoirs-psychiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +22 | 95 |
 | `garantie` | Garantie, garantie | — | — | definition | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +21 | 92 |
-| `generateur` | Générateur, generateur, générateur | — | — | table, tag, titre | **36 fiches** | la-puissance-du-serpent.md +2 | 90 |
+| `generateur` | Générateur, generateur, générateur | — | — | table, tag, titre | **36 fiches** | la-puissance-du-serpent.md +2 | 91 |
 | `guna` | Guna, Guṇa, guna, guṇa | — | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · +2 | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +8 | 86 |
 | `genealogie des idees` | Généalogie des idées | — | — | definition | **72 fiches** | karubi-mehdi-navette-20260812.md | 82 |
 | `guardian` | Guardian, guardian | — | — | table | **17 fiches** | 03-c.md +21 | 80 |

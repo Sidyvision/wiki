@@ -12,10 +12,10 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | — | table, tag, titre | **378 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +528 | 6053 |
+| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | — | table, tag, titre | **379 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +528 | 6057 |
 | `etat` | ETAT, etat, État, état | — | — | definition, table, titre | **268 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +314 | 1981 |
 | `etats` | Etats, etats, ÉTATS, États (+1) | — | — | table, titre | **122 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +222 | 1407 |
-| `exemple` | Exemple, exemple | — | ⚖ universel | definition, table | **92 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +326 | 920 |
+| `exemple` | Exemple, exemple | — | ⚖ universel | definition, table | **93 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +326 | 921 |
 | `etude` | ETUDE, etude, Étude, étude | — | — | titre | **65 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +197 | 445 |
 | `edition` | EDITION, Edition, edition, ÉDITION (+2) | — | ⚖ hindouisme | definition, table | **125 fiches** | 00-front-matter.md +77 | 438 |
 | `existence` | Existence, existence, existencé | — | — | tag | **34 fiches** | 03-c.md +177 | 402 |
@@ -64,9 +64,9 @@ links: []
 | `estimation` | Estimation, estimation | — | — | definition, table | **17 fiches** | isaghuji-cours01-introduction-transcription.md | 29 |
 | `entente` | ENTENTE, Entente, entente | — | — | table | [[doctrinal/sources/guenon-orient-et-occident]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-33.md +9 | 26 |
 | `echecs` | Échecs, échecs | — | — | titre | **14 fiches** | les-antecedents-de-mme-besant-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +2 | 24 |
+| `emplacement` | Emplacement, emplacement | — | — | table | **19 fiches** | la-puissance-du-serpent.md +1 | 24 |
 | `eschatologie` | Eschatologie, eschatologie | — | ✓ islam | tag, titre | **20 fiches** | — | 24 |
 | `etat du depot percu` | État du dépôt perçu | — | — | definition | [[meta/projet-unifie/choura/cycle-2026-08-28]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/choura/cycle-2026-08-31]] · [[meta/projet-unifie/choura/cycle-2026-09-01]] | — | 24 |
-| `emplacement` | Emplacement, emplacement | — | — | table | **18 fiches** | la-puissance-du-serpent.md +1 | 23 |
 | `exoterisme` | Exotérisme, exotérisme | — | — | table | [[atelier/rd/registre-chantiers]] · [[meta/carte-du-depot]] | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 22 |
 | `exploratoire` | exploratoire | — | — | titre | **11 fiches** | — | 22 |
 | `eckstein` | Eckstein | — | — | table, titre | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/eckstein-porte-du-ciel]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/bibliotheque/sommaire-porte-du-ciel]] · [[atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument]] · +3 | symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon-3.md | 21 |

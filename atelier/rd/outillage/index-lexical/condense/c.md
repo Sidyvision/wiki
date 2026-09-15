@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `cas` | CAS, Cas, cas | — | — | titre | **234 fiches** | LISEZ-MOI.md +478 | 2704 |
+| `cas` | CAS, Cas, cas | — | — | titre | **235 fiches** | LISEZ-MOI.md +478 | 2706 |
 | `centre` | CENTRE, Centre, centre, centré | — | — | table, tag, titre | **117 fiches** | LISEZ-MOI.md +253 | 1676 |
 | `corps` | CORPS, Corps, corps | — | — | table, titre | **198 fiches** | LISEZ-MOI.md +143 | 1491 |
 | `correspondance` | CORRESPONDANCE, Correspondance, correspondance | — | — | table, tag | **172 fiches** | LISEZ-MOI.md +477 | 1239 |
@@ -22,8 +22,8 @@ links: []
 | `conscience` | CONSCIENCE, Conscience, conscience | — | — | table, tag | **56 fiches** | 04-d.md +152 | 799 |
 | `claude` | CLAUDE, Claude, claude | — | ⚖ universel | definition, table, tag, titre | **170 fiches** | LISEZ-MOI.md +2 | 730 |
 | `compte` | Compte, compte, compté | — | — | titre | **119 fiches** | LISEZ-MOI.md +294 | 722 |
-| `controle` | Contrôle, controle, contrôle, contrôlé | — | — | table, tag | **171 fiches** | LISEZ-MOI.md +38 | 639 |
-| `cinq` | CINQ, Cinq, cinq | — | — | table, titre | **131 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +51 | 615 |
+| `controle` | Contrôle, controle, contrôle, contrôlé | — | — | table, tag | **172 fiches** | LISEZ-MOI.md +38 | 642 |
+| `cinq` | CINQ, Cinq, cinq | — | — | table, titre | **132 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +51 | 616 |
 | `code` | Code, code, codé | — | — | table, titre | **148 fiches** | karubi-mehdi-navette-20260812.md +7 | 579 |
 | `contexte` | Contexte, contexte | — | — | definition, table, tag, titre | **183 fiches** | intellect-et-conscience-selon-valsan.md +8 | 543 |
 | `croix` | Croix, croix | — | — | table, titre | **58 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-4.md +143 | 543 |
@@ -47,12 +47,13 @@ links: []
 | `citation` | Citation, citation | — | — | tag | **131 fiches** | LISEZ-MOI.md +29 | 257 |
 | `cron` | Cron, cron | — | — | definition, table, tag, titre | **73 fiches** | — | 253 |
 | `convention` | Convention, convention | — | — | table, tag, titre | **84 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-6.md +21 | 250 |
-| `critere` | Critère, critère | — | — | table, titre | **85 fiches** | mentalite-scolaire-et-pseudo-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +6 | 241 |
+| `cloture` | CLÔTURÉ, Clôture, clôture, clôturé | — | — | definition | **109 fiches** | karubi-mehdi-navette-20260812.md +8 | 246 |
+| `critere` | Critère, critère | — | — | table, titre | **86 fiches** | mentalite-scolaire-et-pseudo-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +6 | 242 |
 | `canal` | Canal, canal | — | — | table, titre | **62 fiches** | karubi-mehdi-navette-20260812.md +13 | 223 |
 | `corrige` | CORRIGÉ, Corrige, Corrigé, corrige (+1) | — | — | table, titre | **86 fiches** | LISEZ-MOI.md +9 | 222 |
 | `convergence` | Convergence, convergence | — | ⚖ universel | definition, table, titre | **92 fiches** | l-ecorce-et-le-noyau-el-qishr-wa-el-lobb-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +8 | 220 |
 | `cosmiques` | COSMIQUES, cosmiques | — | — | titre | **46 fiches** | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +66 | 214 |
-| `categorie` | Catégorie, categorie, catégorie | — | ⚖ islam | definition, table | **73 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +42 | 204 |
+| `categorie` | Catégorie, categorie, catégorie | — | ⚖ islam | definition, table | **74 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +42 | 205 |
 | `circonference` | circonférence | — | — | titre | **10 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +52 | 204 |
 | `contemplation` | CONTEMPLATION, Contemplation, contemplation, contemplatìon | — | — | table, tag, titre | **28 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +42 | 200 |
 | `colonnes` | COLONNES, Colonnes, colonnes | — | — | table, tag | **59 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +23 | 198 |
@@ -60,8 +61,8 @@ links: []
 | `confrontation` | Confrontation, confrontation | — | — | table, tag, titre | **82 fiches** | osman-yahya-08-repertoire.md | 192 |
 | `commande` | Commande, commande, commandé | — | — | definition, table | **86 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +15 | 190 |
 | `couverture` | Couverture, couverture | — | — | tag | **42 fiches** | LISEZ-MOI.md +12 | 190 |
-| `clos` | CLOS, clos | — | — | tag | **73 fiches** | purusha-inaffecte-par-les-modifications-individuelles-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +8 | 177 |
-| `constat` | Constat, constat | — | — | definition, table, titre | **85 fiches** | index-conversion.md +2 | 170 |
+| `clos` | CLOS, clos | — | — | tag | **74 fiches** | purusha-inaffecte-par-les-modifications-individuelles-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +8 | 180 |
+| `constat` | Constat, constat | — | — | definition, table, titre | **86 fiches** | index-conversion.md +2 | 172 |
 | `culture` | CULTURE, Culture, culture | — | — | titre | **27 fiches** | 00-front-matter.md +48 | 168 |
 | `contre-initiation` | Contre-initiation, contre-initiation | — | ✓ universel | annotation, tag, titre | **27 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +24 | 167 |
 | `couronne` | Couronne, couronne, couronné | — | — | table | **23 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +28 | 164 |
@@ -70,9 +71,9 @@ links: []
 | `carte` | Carte, carte | — | — | table, tag, titre | **60 fiches** | karubi-mehdi-navette-20260812.md +9 | 155 |
 | `celestes` | CÉLESTES, Célestes, celestes, célestes | — | — | table, titre | **34 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +56 | 155 |
 | `couple` | Couple, couple, couplé | — | — | table, titre | **49 fiches** | 04-d.md +22 | 150 |
+| `catalogue` | Catalogue, catalogue, catalogué | — | — | table, tag, titre | **72 fiches** | LISEZ-MOI.md +6 | 144 |
 | `commandement` | Commandement, commandement | — | — | table | **71 fiches** | sur-deux-devises-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 143 |
 | `concept` | Concept, concept | — | — | definition, table | **57 fiches** | 00-front-matter.md +21 | 143 |
-| `catalogue` | Catalogue, catalogue, catalogué | — | — | table, tag, titre | **71 fiches** | LISEZ-MOI.md +6 | 142 |
 | `certitude` | Certitude, certitude | — | — | table, tag | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +48 | 138 |
 | `conversion` | Conversion, conversion | — | — | tag, titre | **42 fiches** | LISEZ-MOI.md +21 | 137 |
 | `couleurs` | Couleurs, couleurs | — | — | tag | **16 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +31 | 136 |
@@ -83,7 +84,7 @@ links: []
 | `century` | Century, century | — | — | table, titre | [[atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks]] · [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/carte-du-depot-hermeneutique]] · +1 | 00-front-matter.md +27 | 124 |
 | `compare` | Compare, Comparé, compare, comparé | — | — | titre | **47 fiches** | de-la-hierarchie-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +42 | 124 |
 | `controles` | Contrôles, controles, contrôles, contrôlés | — | — | table, tag | **55 fiches** | index-conversion.md +3 | 123 |
-| `consultation` | CONSULTATION, Consultation, consultation | `الشورى` | *arabe* | table, titre | **65 fiches** | LISEZ-MOI.md +6 | 119 |
+| `consultation` | CONSULTATION, Consultation, consultation | `الشورى` | *arabe* | table, titre | **66 fiches** | LISEZ-MOI.md +6 | 120 |
 | `califat` | CALIFAT, Califat, califat | — | — | table, tag, titre | **17 fiches** | sept-etendards-califat-transcription.md +1 | 117 |
 | `capricorne` | Capricorne, capricorne | — | — | table | **30 fiches** | sefer-yetsira-ramban.md +8 | 116 |
 | `cordis` | Cordis, cordis | — | — | table, tag, titre | **21 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 113 |
@@ -187,13 +188,14 @@ links: []
 | `croll` | Croll | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch01-prehistoric-times.md +1 | 13 |
 | `cuda` | CUDA, cuda | — | — | table, tag | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] · [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]] · [[atelier/rd/veille/registre]] · [[meta/projet-unifie/archives/05-runbook-test-ornith-gpu-cloud]] · [[meta/projet-unifie/archives/09-briefing-transition-qwen36-27B-v2-2026-07-02]] · +2 | — | 13 |
 | `cuchulainn` | Cuchulainn | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +1 | 12 |
+| `curt` | Curt, curt | — | — | titre | [[doctrinal/autorites/curt-jaimungal]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] · [[meta/projet-unifie/propositions/proposition-type-reference-2026-09-15]] | LISEZ-MOI.md +2 | 12 |
 | `confusion-psychique-spirituel` | confusion-psychique-spirituel | — | — | tag | **11 fiches** | — | 11 |
 | `consoles` | consoles | — | — | titre | [[atelier/etudes-de-cas/dougong-consoles-bois]] · [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 11 |
 | `corancez` | Corancez, corancez | — | — | annotation, table, tag, titre | [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 11 |
-| `curt` | Curt, curt | — | — | titre | [[doctrinal/autorites/curt-jaimungal]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | LISEZ-MOI.md +2 | 10 |
 | `chand` | Chand, Chând | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | iv.md +1 | 9 |
 | `changelog` | Changelog, changelog | — | — | tag, titre | [[atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise]] · [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[atelier/rd/infrastructure/inf-13-scission-depot-instrument/plan]] · [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/plan]] · [[meta/carte-du-depot-meta]] · +3 | — | 9 |
 | `ce qui est institue` | Ce qui est institué | — | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 8 |
+| `chaudhary` | Chaudhary | — | — | table, titre | [[doctrinal/autorites/yaqub-chaudhary]] · [[doctrinal/sources/islam-and-artificial-intelligence]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · +1 | — | 8 |
 | `clippings` | clippings | — | — | tag | [[atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity]] · [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] · [[doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta]] | traite-emanation-gauche-isaac-ha-kohen.md | 8 |
 | `concept central` | Concept central | — | — | definition | [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] · [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/autorites/ibn-arabi]] · [[doctrinal/autorites/yaqub-chaudhary]] · [[doctrinal/traditions/shinto]] · +1 | 11-k.md | 8 |
 | `cycle suivant` | Cycle suivant | — | — | definition | [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/transmissions/karubi-gabarit]] · [[meta/transmissions/karubi-jean-marc]] · [[meta/transmissions/karubi-mehdi]] · [[meta/transmissions/karubi-mikael]] · +1 | karubi-mehdi-navette-20260812.md +1 | 8 |
@@ -204,7 +206,6 @@ links: []
 | `consequence pour l'instrument` | Conséquence pour l'Instrument | — | ⚖ islam | definition | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-07-26_zodiaque-fonction-barzakh]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] · [[meta/carte-doctrinal]] · +2 | — | 7 |
 | `castille` | Castille, castille | — | — | annotation, table, tag | [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +1 | 6 |
 | `charles-andre-gilis` | charles-andre-gilis | — | — | annotation | [[atelier/rd/infrastructure/monitoring-archive/registre-traitement]] · [[doctrinal/autorites/michel-valsan]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/symboles/shamharush]] | — | 6 |
-| `chaudhary` | Chaudhary | — | — | table, titre | [[doctrinal/autorites/yaqub-chaudhary]] · [[doctrinal/sources/islam-and-artificial-intelligence]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 6 |
 | `claude-smart` | claude-smart | — | — | titre | [[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]] · [[atelier/rd/veille/2026-08-31_claude-smart]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 6 |
 | `cloudflare` | Cloudflare | — | — | table | [[atelier/rd/cahiers/2026-08-29_compte-rendu-github-automation]] · [[atelier/rd/cahiers/2026-08-30_session-corrections-rapports-rotation-hmac]] · [[atelier/rd/cahiers/registre-problemes]] · [[meta/projet-unifie/archives/10-briefing-infrastructure-hermes-agent-2026-07-03]] | — | 6 |
 | `compresseur` | Compresseur, compresseur | — | — | table, tag | [[atelier/materiel/distressor-el8]] · [[atelier/materiel/neve-1073spx]] · [[label/production/album-personnel]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 6 |

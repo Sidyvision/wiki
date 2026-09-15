@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ordre` | ORDRE, Ordre, ordre | — | — | table, tag | **155 fiches** | LISEZ-MOI.md +321 | 1045 |
+| `ordre` | ORDRE, Ordre, ordre | — | — | table, tag | **155 fiches** | LISEZ-MOI.md +321 | 1046 |
 | `own` | Own, own | — | — | titre | **28 fiches** | LISEZ-MOI.md +65 | 433 |
 | `ouvert` | OUVERT, Ouvert, ouvert | — | — | table, tag | **160 fiches** | LISEZ-MOI.md +16 | 412 |
 | `orion` | ORION, Orion, orion | — | — | annotation, table, tag, titre | **11 fiches** | LISEZ-MOI.md +23 | 345 |
