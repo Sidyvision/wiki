@@ -13,6 +13,20 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] protocole | « `git add` d'abord » inscrit ; proposition du type « référence » rédigée
+
+- **Verdict de Sidy** : « je valide tes propositions et rédige le plan pour le type "référence" ».
+- **Règle inscrite** dans `protocoles/annotations-html.md` : pour toute fiche nouvelle, écrire →
+  `git add` → index → validation (clés normalisées) → invariants → commit. Changelog du
+  protocole mis à jour (principe du §VII racine inchangé, procédure complétée).
+- **Proposition** `meta/projet-unifie/propositions/proposition-type-reference-2026-09-15.md` —
+  **brouillon, non visé** : `type: reference` au Sceau Recteur et `data-genre="reference"` aux
+  annotations ; dossier `doctrinal/references/` ; frontières autorite / reference / source ;
+  reprises (Jaimungal, ʿAbduh, Riḍā, al-Afghānī) sur verdict fiche par fiche ; réexamen de
+  « Érudition académique » ; proposition annexe : faire contrôler la valeur de `type:` par
+  `verifier-invariants.py`, qui ne la contrôle pas aujourd'hui. Quatre questions posées à Sidy.
+- **Commit** : ea7e6b0
+
 ## [2026-09-15] ouverture | Lots nominatifs — la clause, et sa première fiche de provenance
 
 - **Verdict de Sidy** : « Place en meta/ », en réponse au signalement de divergence de la passe — `protocoles/action-archivage.md` prévoit une fiche `source` **dans le circuit concerné** pour toute source déposée dans `raw/`, forme qui suppose une pièce **cataloguable** ; un lot **nominatif** (matière familiale produite hors dépôt) n'en a aucune, et l'y forcer franchirait l'étanchéité (§VI).

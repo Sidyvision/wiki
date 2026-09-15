@@ -10,6 +10,15 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/outillage | `valider-annotations.py` v1.4 — signalement S2 (fichier non suivi)
+
+- Verdict de Sidy. S2 nomme chaque `.md` non suivi par git (`git ls-files --others
+  --exclude-standard`), hors `textes/`, `raw/`, `_inbox/` ; non bloquant, toujours imprimé.
+- **Épreuve** (clone jetable, dépôt vivant jamais touché) : S2 **vu se déclencher** sur une
+  fiche fabriquée non suivie ; **disparaît** une fois la fiche ajoutée ; **muet** sur un fichier
+  non suivi sous `textes/` ; muet sur le dépôt vivant (rien de non suivi).
+- **Commit** : ea7e6b0
+
 ## [2026-09-15] rd/outillage | Index lexical et validateur : le filtre git rend les fiches nouvelles invisibles
 
 - Les deux outils filtrent sur `git ls-files` ; une fiche non encore ajoutée n'est ni indexée ni
