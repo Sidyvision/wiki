@@ -10,6 +10,20 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] hygiene | Cmd 15 — trois scripts de la passe al-Munqidh assainis
+
+- Verdict de Sidy (« oui, corrige les trois scripts »). `convertir-jabre-munqidh.py` (l. 51),
+  `convertir-jabre-munqidh-arabe.py` (l. 47) et `verser-dossier-textes.py` (l. 39) écrivaient
+  **en clair** les invisibles qu'ils retirent (12 violations Cmd 15, 11 marques bidi) — le piège
+  connu du « contrôle qui contient ce qu'il interdit ».
+- Correctif : chaque caractère remplacé par son échappement `\uXXXX`, rien d'autre. **Épreuve
+  d'équivalence** : ancienne et nouvelle expression évaluées puis comparées sur les 65 536 points
+  du plan BMP (motifs) ou à l'identique (chaîne) — équivalentes pour les trois ; compilation OK.
+- `verifier-hygiene-unicode.py` : **0 violation non couverte** (12 avant).
+- Constat laissé ouvert : le crochet `pre-push` ne balaye que les `.md`, d'où le passage de ces
+  `.py` au push ; l'instrument OUT-16, lui, les voit.
+- **Commit** : a02c1e5
+
 ## [2026-09-15] rd/bibliotheque | `to-verify` levés sur les index Marquet et Tilak, d'après les photos
 
 - Consigne de Sidy (« oui, lève les to-verify »), photos redéposées dans `raw/`.
