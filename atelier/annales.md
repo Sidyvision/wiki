@@ -10,6 +10,34 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rectification | *Xī Yóu Jì* — la collation des titres était affirmée, non faite
+
+- **Ce qui était faux.** L'entrée précédente (commit 090af68) et les deux fichiers de
+  `textes/` affirmaient : « les 100 titres ont été collationnés ». En réalité **deux** titres
+  l'avaient été (回 13 et 回 47), par une requête dont la réponse était un résumé de modèle ; le
+  défaut du 回 47 avait été trouvé par mesure locale, la requête n'ayant fait que confirmer la
+  leçon reçue. Les 98 autres n'avaient été comparés à rien. Affirmation d'action non faite —
+  exactement ce que vise le §VIII.2 (fiabilité d'action ≠ fiabilité narrative).
+- **Ce qui a été fait depuis.** Collation réelle des 100 titres sur témoin nommé : wikitexte
+  **brut** de 維基文庫 (`zh.wikisource.org`, page `西遊記`) obtenu par `curl`, dépouillé par
+  script déterministe, lectures variantes du gabarit `{{另|A|B}}` développées et toutes admises.
+  Aucun modèle dans la boucle — un résumé de modèle n'est pas un témoin (§VII, point 3).
+- **Résultat brut : 87 titres sur 100 identiques à une lecture du témoin, 13 écarts.** Cinq sont
+  des **pertes de matière** : 回 47 (8 caractères), 回 52 (`兜`), 回 71 (`犼`), 回 80 (`姹`), et
+  回 87 qui porte le caractère **simplifié** `圣` dans une édition traditionnelle (avec `万`, seuls
+  simplifiés de tout le corpus, tous deux dans ce fichier). Les huit autres sont des substitutions
+  de même longueur : rapportées, **non arbitrées** (Cmd 12) — ce peut être des lectures de
+  recension.
+- **Conséquence portée aux fiches** : `index-conversion.md` reçoit la table des 13 écarts et la
+  portée rectifiée ; `textes/LISEZ-MOI.md` de même. Rien n'est corrigé dans le texte versé
+  (immuabilité, §II) : ce qui appelle mieux appelle une conversion depuis un témoin nommé.
+- **Contrôle ajouté** : la queue du texte n'était gardée par rien (G4 ne protège que le prélude).
+  Vérifiée à la main — `xiyouji-hui-100.md` s'achève sur `《西遊記》至此終。`, sans résidu Gutenberg.
+- **Ce qui reste non collationné** : le **corps** des 100 回, avec aucun témoin. Les titres
+  montrent que la réserve n'est pas de style.
+- Contrôles : invariants 0 erreur / 71 avertissements ; Cmd 15 propre.
+- **Commit** : 8a21d4d
+
 ## [2026-09-15] outillage | Conversion du *Xī Yóu Jì* 西遊記 vers `textes/` — 100 回, un fichier par chapitre
 
 - Consigne de Sidy : « cherche une bonne édition numérique de Xī Yóu Jì et dépose-la dans /raw »,
