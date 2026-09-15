@@ -9,7 +9,7 @@ dossier_raw: "Origine Polaire de la tradition Védique"
 photos_source: ["IMG_0081", "IMG_0082", "IMG_0083", "IMG_0084", "IMG_0085", "IMG_0086", "IMG_0087", "IMG_0088"]
 pages_couvertes: "367-380"
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-15
 ---
 
 | terme_ar | terme_translit | terme_fr | pages |
@@ -51,7 +51,7 @@ updated: 2026-08-25
 | | All-halloween | | 316 |
 | | Allemagne du Nord | | 313, 325 |
 | | Amenta Spentas | | 253 |
-| | Amma | le courant ascendant d' | to-verify |
+| | Amma | le courant ascendant d', dans la mythologie finnoise | 228 |
 | | Ammarik | dans la mythologie finnoise | 322 |
 | | Amsha | | 138, 139 |
 | | Anaximène | | 79 |
@@ -697,7 +697,7 @@ updated: 2026-08-25
 | | Thor | | 313, 320 |
 | | Thraêtaona | divinité avestique correspondant à Trita Aptya | 222, 253, 270, 271, 289, 320 |
 | | Thridi | ancien nom nordique d'Odin | 271 |
-| | Thithrya | correspondant avestique d'In- | to-verify |
+| | Tithtrya | correspondant avestique d'Indra | 164, 186-189, 192, 194, 195, 211, 226, 230, 240, 241, 286, 297 |
 | | Traitana | ennemi de Dîrghatamas | 149 |
 | | Trayodasharâtra | | 178 |
 | | tretâ | second yuga puranique | 334-337, 356 |
@@ -830,9 +830,9 @@ updated: 2026-08-25
 
 ## Signalements
 
-- **Amma** (p.367) : l'entrée est coupée en bas de colonne, aucune page visible — `to-verify` sur les pages.
-- **Thithrya** (p.377) : l'entrée est coupée en bas de colonne (« correspondant avestique d'In- »), la suite est sur la page suivante mais le terme complet et les pages n'ont pas pu être confirmés — `to-verify`.
+- **Amma** (p.367) : entrée coupée en bas de colonne ; **résolue le 2026-09-15** sur IMG_0082 — la suite, en tête de la p. 368, donne « dans la mythologie finnoise 228 ».
+- **Tithtrya** (p.377) : entrée coupée en bas de colonne ; **résolue le 2026-09-15** sur IMG_0086/IMG_0087 — la suite, en tête de la p. 378, est « dra 164, 186-189, … 297 » (d'In-*dra*). Le nom est lu « Tithtrya » sur gros plan (l'ancienne transcription portait « Thithrya ») ; l'index imprime ailleurs « Tishtrya » (entrée *Apaosha*, p. 368) — graphie de l'imprimé conservée, non corrigée.
 - **Renvois sans pages** : Aptya, Arag, Atri Saptavadhri, Fir-Bolg, Hara-Berezaiti, Kârttikeya, Mriga, Odysseus, pitriyâna, Pléiades, Vêh — tous notés « cf. » dans l'original, aucune page attribuée.
 - **Doubles entrées** : « Aryen » apparaît avec 4 sous-entrées (race, origine, culture, langue) ; « yuga » apparaît avec une sous-entrée (puranique). Les deux sont conservées comme entrées distinctes.
-- **Page 367 coupée en deux colonnes** : la colonne de droite contient la suite de « Amma » mais le numéro de page n'est pas visible — `to-verify`.
-- **Page 378** : l'entrée « dra » en haut de page est un fragment (fin de « Indra » ou autre terme de la page précédente). L'entrée complète n'a pas été isolée — signalée comme `to-verify` implicitement via les pages listées (164, 186-189, 192, 194, 195, 211, 226, 230, 240, 241, 286, 297).
+- **Page 367 coupée en deux colonnes** : résolu avec *Amma* ci-dessus.
+- **Page 378** : le fragment « dra » en haut de page est la fin de *Tithtrya* (« d'In-dra ») — résolu ci-dessus.
