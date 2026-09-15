@@ -48,7 +48,7 @@ SECTIONS = [
     ("munqidh-07-partie-5", "Cinquième partie — Raison de mon retour à l'enseignement", 108, 122),
 ]
 
-INTERDITS = re.compile(r"[​-‏‪-‮⁠﻿­\x00-\x08\x0b\x0e-\x1f]")
+INTERDITS = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060\ufeff­\x00-\x08\x0b\x0e-\x1f]")
 
 
 def extraire(racine):

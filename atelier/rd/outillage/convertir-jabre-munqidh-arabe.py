@@ -44,7 +44,7 @@ PDF = "raw/almunqidminadala00ghaz.pdf"
 SORTIE = "textes/ghazali-munqidh-jabre-1959/munqidh-08-texte-arabe.md"
 PREMIERE, DERNIERE = 125, 175          # périmètre PDF (arabe + table arabe)
 DECALAGE = 181                          # page imprimée = DECALAGE − page PDF
-INVISIBLES = re.compile(r"[​-‏‪-‮⁦-⁩﻿]")
+INVISIBLES = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2066-\u2069\ufeff]")
 
 
 def ocr(racine, page, cache):

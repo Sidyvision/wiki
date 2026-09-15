@@ -36,7 +36,7 @@ import shutil
 import sys
 from pathlib import Path
 
-INVISIBLES = "​‌‍⁠﻿‪‫‬‭‮‎‏"
+INVISIBLES = "\u200b\u200c\u200d\u2060\ufeff\u202a\u202b\u202c\u202d\u202e\u200e\u200f"
 
 
 def charger_migration(repo):
