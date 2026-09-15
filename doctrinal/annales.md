@@ -9,6 +9,24 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] archivage | Trois fiches d'autorité : Muhammad ʿAbduh, Rashīd Riḍā, Curt Jaimungal
+
+- **Consigne** : rédiger les fiches des personnalités citées, par recherches complémentaires, et
+  assurer l'indexation HTML.
+- [[doctrinal/autorites/muhammad-abduh]], [[doctrinal/autorites/rashid-rida]] — `status: profane`
+  **proposé** sur la qualification de Sidy (déviation réformiste et moderniste), verdict réservé
+  (Cmd 12). Sources **secondaires** seulement (Wikipédia fr/en ; Najihah et Permana 2023,
+  doi:10.54801/juquts.v2i2.213, lu sur résumé — texte refusé au serveur) ; textes des auteurs
+  `to-source`. Les textes versés de Guénon ne les nomment pas.
+- [[doctrinal/autorites/curt-jaimungal]] — `academique` sur la qualification de Sidy ; sources :
+  transcription de la conférence versée, Substack.
+- **Indexation HTML** : annotations appariées (tags ou wikilinks), validateur sans refus ni
+  signalement sur les quatre fiches touchées ; entrées présentes dans l'index lexical régénéré ;
+  l'étude annote et relie les trois noms. Catalogue : nouvelle rubrique « Réformisme et
+  modernisme islamiques ».
+- Contrôles : invariants 0 erreur / 71 avertissements (inchangé).
+- **Commit** : 7e9b44c
+
 ## [2026-09-15] étude | Jaimungal — garde corrigée, déviation réformiste, Nâma-Rûpa ; liens validés
 
 - **Correction de Sidy** : la garde « aucune fiche ne dit que les Védas avaient dit… » était trop large.
