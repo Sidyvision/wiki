@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] entretien | Les deux archives de monitoring du 2026-09-14 entrent dans l'historique
+
+- Constat fait en vérifiant l'arbre de travail **avant de pousser** : deux fichiers non suivis
+  dans `atelier/rd/infrastructure/monitoring-archive/` — `2026-09-14_41dc3e7e492c.txt`
+  (rapport Studio) et `2026-09-14_ad3152b237bb.txt` (rapport Publication).
+- La norme du dossier est qu'ils **soient suivis** : **32 archives `.txt`** l'étaient, du
+  2026-09-06 au 2026-09-13. Ces deux-là, produits par les jobs d'archivage du 14, restaient
+  hors git — donc invisibles à toute relecture du dépôt. C'est **exactement le défaut
+  qu'`INF-15` avait décrit** pour le job Publication, sous une autre forme : la trace existe,
+  mais pas au dépôt.
+- Versés tels quels, sans retouche.
+- **Trous constatés au passage, non comblés** (la production ne les reproduira pas) :
+  le `2026-09-10` n'a **aucune** archive Studio, le `2026-09-11` n'en a **aucune** des deux
+  jobs. Signalé, pas traité : la rétention est de 40 jours, ces deux journées sortiront de la
+  fenêtre sans jamais y être entrées.
+- Commit : f73144e
+
 ## [2026-09-15] outillage | OUT-17 — deux pièces livrées et éprouvées par l'échec ; six renvois morts trouvés sur cinq skills
 
 **Visa** : « Commite et pousse le tout et je valide l'ensemble pour la suite » — enregistré
