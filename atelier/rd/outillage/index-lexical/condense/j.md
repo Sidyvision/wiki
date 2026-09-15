@@ -31,6 +31,7 @@ links: []
 | `john` | JoHN, John | — | — | table | **10 fiches** | 11-k.md +21 | 56 |
 | `janua` | Janua, janua | — | — | table | **12 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-32.md +8 | 46 |
 | `japon` | Japon, japon | — | — | annotation, table, tag | **13 fiches** | le-roi-du-monde-index-de-l-uvre-de-rene-guenon-3.md +10 | 46 |
+| `jabre` | JABRE, Jabre | — | — | titre | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/ghazali-munqidh-jabre-1959]] | LISEZ-MOI.md +8 | 43 |
 | `jinn` | Jinn, jinn | — | — | tag | **11 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +12 | 43 |
 | `journalisation` | Journalisation, journalisation | — | — | definition | **23 fiches** | — | 40 |
 | `jean-marc` | Jean-Marc, jean-marc | — | — | table, titre | **12 fiches** | — | 38 |

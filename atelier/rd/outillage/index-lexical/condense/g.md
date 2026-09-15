@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `guenon` | Guenon, Guénon, guenon, guénon | — | — | annotation, table, tag, titre | **270 fiches** | LISEZ-MOI.md +409 | 2577 |
+| `guenon` | Guenon, Guénon, guenon, guénon | — | — | annotation, table, tag, titre | **270 fiches** | LISEZ-MOI.md +409 | 2578 |
 | `grande` | GRANDE, Grande, grande | — | — | table, titre | **109 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +295 | 924 |
 | `gardien` | Gardien, gardien | — | — | table, tag, titre | **93 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-29.md +13 | 368 |
 | `gauche` | Gauche, gauche | — | — | table, titre | **48 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +45 | 357 |
@@ -25,7 +25,7 @@ links: []
 | `gpu` | GPU | — | — | titre | **31 fiches** | — | 176 |
 | `generation` | Génération, generation, génération | — | — | titre | **64 fiches** | 09-i.md +35 | 167 |
 | `geometrie` | Géométrie, geometrie, géométrie | — | — | definition, table, tag | **47 fiches** | influence-de-la-civilisation-islamique-en-occident-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +33 | 167 |
-| `ghazali` | GHAZALI, GHAZÀLI, GHAZÂLI, Ghazali (+7) | — | — | table, tag, titre, translit | **10 fiches** | LISEZ-MOI.md +12 | 162 |
+| `ghazali` | GHAZALI, GHAZÀLI, GHAZÂLI, Ghazali (+7) | — | — | table, tag, titre, translit | **11 fiches** | LISEZ-MOI.md +12 | 163 |
 | `github` | GitHub, github | — | — | table, tag, titre | **43 fiches** | — | 148 |
 | `guide` | GUIDE, Guide, guide, guidé | — | — | table, titre | **35 fiches** | 00-front-matter.md +58 | 144 |
 | `guenonienne` | guenonienne, guénonienne | — | — | titre | **72 fiches** | sept-etendards-califat-transcription.md +1 | 142 |

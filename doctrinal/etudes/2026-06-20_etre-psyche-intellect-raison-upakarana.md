@@ -13,10 +13,11 @@ tags:
 - platon
 - barzakh
 created: 2026-06-20
-updated: 2026-09-13
+updated: 2026-09-15
 sources: []
 sources_count: 0
 cross_links:
+- '[[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]'
 - '[[doctrinal/symboles/barzakh]]'
 - '[[doctrinal/autorites/rene-guenon]]'
 - '[[doctrinal/autorites/platon]]'

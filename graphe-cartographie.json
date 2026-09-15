@@ -6911,7 +6911,7 @@
         "platon",
         "barzakh"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana.md",
       "lacunes_to_source": 0
     },
@@ -6998,7 +6998,7 @@
         "purusha",
         "upakarana"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms.md",
       "lacunes_to_source": 0
     },
@@ -7045,7 +7045,10 @@
         "jihad-al-akbar",
         "antagoniste",
         "elephant-inverse",
-        "unite-des-doctrines"
+        "unite-des-doctrines",
+        "concordisme",
+        "reformisme",
+        "nama-rupa"
       ],
       "updated": "2026-09-15",
       "chemin": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia.md",
@@ -19855,6 +19858,13 @@
     },
     {
       "source": "doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana",
+      "target": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana",
       "target": "doctrinal/symboles/barzakh",
       "champ": "cross_links",
       "nature": "lien",
@@ -19953,6 +19963,13 @@
     },
     {
       "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "target": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
       "target": "doctrinal/symboles/purusha",
       "champ": "cross_links",
       "nature": "lien",
@@ -20017,6 +20034,27 @@
     {
       "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
       "target": "doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/sources/ghazali-munqidh-jabre-1959",
       "champ": "sources",
       "nature": "source",
       "assise": "etabli"

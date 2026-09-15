@@ -12,10 +12,10 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `nom` | NOM, Nom, nom | — | — | definition, tag, titre | **242 fiches** | LISEZ-MOI.md +361 | 2469 |
-| `nature` | NATURE, Nature, nature | — | ⚖ islam | definition, table, tag, titre | **290 fiches** | 08-h.md +405 | 2013 |
+| `nom` | NOM, Nom, nom | — | — | definition, tag, titre | **242 fiches** | LISEZ-MOI.md +361 | 2472 |
+| `nature` | NATURE, Nature, nature | — | ⚖ islam | definition, table, tag, titre | **290 fiches** | 08-h.md +405 | 2014 |
 | `nombre` | NOMBRE, Nombre, nombre, nombré | — | — | table, tag, titre | **108 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +230 | 1196 |
-| `noms` | NOMS, Noms, noms | — | — | table, titre | **145 fiches** | LISEZ-MOI.md +128 | 854 |
+| `noms` | NOMS, Noms, noms | — | — | table, titre | **145 fiches** | LISEZ-MOI.md +128 | 855 |
 | `notes` | NOTES, Notes, notes, notés | — | ⚖ islam | definition, table, titre | **141 fiches** | LISEZ-MOI.md +62 | 542 |
 | `nombres` | NOMBRES, Nombres, nombres, nombrés | — | — | titre | **26 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +84 | 469 |
 | `notions` | NOTIONS, Notions, notions | — | — | titre | **42 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +80 | 188 |
@@ -54,9 +54,9 @@ links: []
 | `nabi` | Nabî, Nabī, nabi, nabî (+1) | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/sommaire-hindouisme-soufisme]] · [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +3 | sept-etendards-califat-transcription.md +3 | 22 |
 | `netlify` | Netlify, netlify | — | — | table, tag | [[atelier/rd/infrastructure/2026-09-01_capture-reference-sidyvision-com]] · [[atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/intent]] · [[atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/plan]] · [[atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/spec]] · [[atelier/rd/registre-chantiers]] · +1 | — | 22 |
 | `nuzul` | Nuzûl, Nuzül, nuzûl, nuzül (+1) | — | — | translit | [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/mihrab-torii]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 20 |
+| `nama-rupa` | NÂMA-RÛPA, Nâma-Rûpa, nama-rupa, nâma-rûpa | — | — | annotation, table, tag, titre | [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | noms-profanes-et-noms-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +6 | 19 |
 | `narayana` | Narayana, Nârâyana | — | — | table | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md +7 | 19 |
 | `nezami` | Nezâmî, Neẓāmi, nezami | — | — | annotation, tag, titre, translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]] · [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | — | 19 |
-| `nama-rupa` | NÂMA-RÛPA, Nâma-Rûpa, nama-rupa, nâma-rûpa | — | — | annotation, table, tag, titre | [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] · [[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | noms-profanes-et-noms-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +6 | 18 |
 | `naw` | Naw, naw, nawʿ | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +2 | 18 |
 | `nus` | Nus, nus | — | — | titre | **10 fiches** | la-duchesse-de-pomar-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md | 18 |
 | `nazim` | Nazim, Nâzim, Nāẕim | — | — | table, titre, translit | **12 fiches** | — | 17 |

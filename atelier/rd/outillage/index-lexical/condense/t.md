@@ -13,18 +13,18 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `trois` | TROIS, Trois, trois, troìs | — | — | table, titre | **305 fiches** | LISEZ-MOI.md +220 | 2354 |
-| `tradition` | TRADITION, Tradition, tradition | — | — | table, tag, titre | **223 fiches** | 02-b.md +391 | 2301 |
+| `tradition` | TRADITION, Tradition, tradition | — | — | table, tag, titre | **223 fiches** | 02-b.md +391 | 2303 |
 | `temps` | TEMPS, Temps, temps | — | — | table, tag, titre | **146 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +422 | 1643 |
-| `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | — | titre | **107 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +193 | 1307 |
+| `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | — | titre | **108 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +193 | 1308 |
 | `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | — | table, titre | **147 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +100 | 1089 |
-| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **113 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +343 | 980 |
+| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **113 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +343 | 981 |
 | `table` | TABLE, Table, table | — | — | table, titre | **160 fiches** | LISEZ-MOI.md +66 | 857 |
-| `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | — | table, titre | **165 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +216 | 782 |
+| `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | — | table, titre | **166 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +216 | 783 |
 | `traduction` | TRADUCTION, Traduction, traduction | — | — | table, tag, titre | **102 fiches** | LISEZ-MOI.md +130 | 523 |
 | `transmission` | TRANSMISSION, Transmission, transmission | — | — | tag, titre | **129 fiches** | 16-s.md +78 | 479 |
 | `transcription` | TRANSCRIPTION, Transcription, transcription | — | — | table, tag, titre | **134 fiches** | LISEZ-MOI.md +21 | 460 |
+| `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **115 fiches** | LISEZ-MOI.md +121 | 435 |
 | `three` | Three, three | — | — | table | **24 fiches** | 01-a.md +55 | 435 |
-| `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **114 fiches** | LISEZ-MOI.md +121 | 434 |
 | `type` | Type, type, typé | — | — | definition, table | **120 fiches** | 00-front-matter.md +103 | 427 |
 | `technique` | TECHNIQUE, Technique, technique | — | — | definition, titre | **148 fiches** | LISEZ-MOI.md +74 | 412 |
 | `total` | TOTAL, Total, total | — | ⚖ islam | definition, table | **77 fiches** | 10-j.md +123 | 342 |

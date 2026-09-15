@@ -3,11 +3,11 @@ title: "Confrontation — Curt Jaimungal et les théoriciens assistés par machi
 type: etude
 status: academique
 tradition_cadre: universel
-tags: [ia, llm, pseudo-theorie, theorie-du-tout, vulgarisation, demi-instruction, rattachement, guenon, orient-et-occident, upakarana, jihad-al-akbar, antagoniste, elephant-inverse, unite-des-doctrines]
+tags: [ia, llm, pseudo-theorie, theorie-du-tout, vulgarisation, demi-instruction, rattachement, guenon, orient-et-occident, upakarana, jihad-al-akbar, antagoniste, elephant-inverse, unite-des-doctrines, concordisme, reformisme, nama-rupa]
 created: 2026-09-15
 updated: 2026-09-15
-sources: ["[[doctrinal/sources/guenon-orient-et-occident]]", "[[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]]", "textes/jaimungal-consciousness-irreducibility-local-to-global/transcription-asr.md"]
-sources_count: 3
+sources: ["[[doctrinal/sources/guenon-orient-et-occident]]", "[[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]]", "textes/jaimungal-consciousness-irreducibility-local-to-global/transcription-asr.md", "[[doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane]]", "[[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]]", "[[doctrinal/sources/ghazali-munqidh-jabre-1959]]"]
+sources_count: 6
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana]]", "[[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]]", "[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]", "[[doctrinal/deviations/technologisation-pseudo-scientifique]]"]
 ---
 
@@ -164,20 +164,47 @@ millénaires. « Could the Vedic make a reference to a complete inner product sp
 with tensors and you need a Born rule for probabilities? So you can always water
 anything down and then make it alike something else. »
 
-**Convergence avec Guénon, relevée.** *Orient et Occident* condamne la même opération,
-depuis l'autre bord. S'il arrive que la « philosophie scientifique » rejoigne
-accidentellement les anciennes sciences traditionnelles, « il peut y avoir quelque
-intérêt à le faire ressortir, mais en évitant soigneusement de paraître rendre ces
-dernières solidaires de n'importe quelle théorie scientifique ou philosophique
-particulière, car toute théorie de ce genre change et passe » ; et « de ce qu'il y a
-des rencontres ou des analogies, il ne faut jamais conclure à des assimilations
-impossibles » (II, ch. II). L'antagoniste et l'autorité refusent tous deux la caution
-croisée. Ils la refusent pour des raisons inverses : Jaimungal, parce que la
-tradition ne contient pas la précision de la physique ; Guénon, parce que la
-tradition ne dépend d'aucune théorie « qui change et passe ». Le dépôt se tient du
-côté de Guénon — et ce passage de Jaimungal lui sert de **garde** : aucune fiche ne
-doit dire que les Védas « avaient dit » un résultat de la physique moderne (voir
-aussi [[doctrinal/deviations/technologisation-pseudo-scientifique]]).
+**Convergence partielle avec Guénon, et une confusion à ne pas reproduire.**
+*Orient et Occident* condamne aussi une opération de ce genre : si la « philosophie
+scientifique » rejoint accidentellement les anciennes sciences traditionnelles, « il peut
+y avoir quelque intérêt à le faire ressortir, mais en évitant soigneusement de paraître
+rendre ces dernières solidaires de n'importe quelle théorie scientifique ou philosophique
+particulière, car toute théorie de ce genre change et passe » ; et « de ce qu'il y a des
+rencontres ou des analogies, il ne faut jamais conclure à des assimilations impossibles »
+(II, ch. II).
+
+**Correction du directeur du dépôt (2026-09-15).** Une première rédaction de cette étude
+en tirait une garde trop large : qu'aucune fiche ne dise jamais que les Védas « avaient
+dit » un résultat de la physique. Le directeur du dépôt l'a corrigée : une théorie
+scientifique, si elle a quelque vérité, doit **nécessairement trouver sa place dans le
+monde d'une façon ou d'une autre**, et il se peut tout à fait que les Védas en proposent
+une interprétation qui l'**intègre** dans la doctrine cosmologique ou métaphysique — ce
+qui n'est pas à confondre avec le réductionnisme. C'est la Tradition qui a autorité et
+qui intègre les diverses sciences, non l'inverse.
+
+La correction est textuellement fondée. Le même chapitre prévoit, une fois la
+métaphysique restaurée, de conserver les sciences occidentales « dans ce qu'elles ont de
+valable et de légitime » et de « leur donner une base traditionnelle, en les rattachant
+aux principes de la façon qui convient à la nature de leurs objets, et en leur assignant
+la place qui leur appartient dans la hiérarchie des connaissances ». Et l'exemple de
+Leibniz (I, ch. II) en donne le modèle exact : son interprétation arithmétique des
+figures de Fo-hi « n'est pas fausse en elle-même », elle trouve place parmi les sens
+traditionnels, « mais seulement à un rang tout à fait accessoire et subordonné ».
+
+Deux opérations se distinguent donc, et l'attaque de Jaimungal les confond :
+
+- **l'intégration par en haut** — la doctrine assigne à une connaissance contingente sa
+  place subordonnée, comme application ou reflet d'un principe ; la connaissance y reçoit
+  sa portée, la doctrine n'y gagne ni ne perd rien ;
+- **la caution par en bas** — la doctrine est déclarée vraie *parce que* la science
+  l'aurait retrouvée ; la tradition devient solidaire d'une théorie « qui change et
+  passe ». C'est la seule que vise la moquerie de Jaimungal (« water anything down »), et
+  c'est la déviation examinée plus bas (§ 3).
+
+**Garde pour le dépôt**, dans sa forme corrigée : une fiche peut situer une théorie
+scientifique dans la doctrine, à son rang subordonné ; aucune fiche ne fait dépendre la
+doctrine d'une théorie, ni ne la présente comme confirmée par elle (voir aussi
+[[doctrinal/deviations/technologisation-pseudo-scientifique]]).
 
 ### 2. L'éléphant inversé
 
@@ -205,12 +232,21 @@ nuance : **un groupe peut s'accorder sur quelque X tout en le nommant Y.**
   est donc un accord de **comptes rendus**, non un accord **sur** quelque chose ;
   l'objection montre qu'il appelle accord ce qui, faute d'un terme un, n'en est qu'une
   apparence.
-- *La nuance est le cas symétrique du sien.* Chez Jaimungal, le **même nom**
-  (« corde ») couvre peut-être des objets différents : l'accord des mots ne garantit
-  pas l'accord des choses. Dans la nuance proposée, un **même objet** reçoit des noms
-  différents : le désaccord des mots ne prouve pas le désaccord des choses. Les deux
-  énoncés sont compatibles — ils tiennent ensemble que le nom et la chose ne se
-  recouvrent pas.
+- *La nuance est le cas symétrique du sien — à condition de distinguer deux sens du
+  nom.* Chez Jaimungal, le **même mot** (« corde ») couvre peut-être des objets
+  différents ; dans la nuance proposée, une **même chose** reçoit des noms différents.
+  Le chapitre « Nâma-Rûpa » d'*Études sur l'Hindouisme*
+  ([[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]]) interdit
+  pourtant de dire simplement que « le nom et la chose ne se recouvrent pas ». Le nom, au
+  sens littéral, « est proprement un son » et relève encore de l'ordre formel ; mais
+  *nâma*, transposé, désigne l'« essence », l'« archétype », dont le monde sensible
+  n'offre « qu'un reflet » — et « le "nom" d'un être, même entendu littéralement, est
+  effectivement une expression de son "essence" ». Relu ainsi : l'accord verbal de
+  Jaimungal (« corde ») est un accord sur des **formes** de mots, qui ne garantit rien de
+  l'essence ; l'accord de la nuance porte sur l'**essence** une (X), sous des noms qui
+  appartiennent à la forme (Y, Z). Et le principe lui-même est « au-delà du nom et de la
+  forme » : l'accord sur les principes se fait au-delà de toute nomination, ce qui
+  explique qu'il puisse tenir sous des nominations différentes.
 - *La nuance est textuellement guénonienne.* *Orient et Occident*, II, ch. II :
   « chacun exprimera à sa façon ce qu'il aura compris dans la mesure où il pourra
   l'exprimer, mais celui qui aura compris vraiment saura toujours, derrière la
@@ -229,6 +265,54 @@ nuance : **un groupe peut s'accorder sur quelque X tout en le nommant Y.**
   l'intuition intellectuelle de ceux qui ont « compris vraiment » et par l'orthodoxie
   des doctrines ; c'est un critère que l'antagoniste ne reconnaît pas, et qu'aucun
   inventaire ne peut produire.
+
+### 3. La déviation réformiste — la caution par en bas, à l'intérieur des formes religieuses
+
+**Ajout du directeur du dépôt (2026-09-15).** La confusion que Jaimungal raille chez les
+commentateurs anonymes a une forme savante et bien connue : les tendances réformistes,
+progressistes et modernistes **à l'intérieur même des formes religieuses**, qui tentent
+toujours de concilier la dernière théorie scientifique profane avec les références
+traditionnelles — en islam, Muhammad ʿAbduh, Rashīd Riḍā et bien d'autres. C'est
+précisément ce que l'œuvre de Guénon vient rectifier. **Toute la confusion est
+épistémologique : c'est la Tradition qui a autorité et intègre les sciences, et non
+l'inverse.**
+
+> ⚠️ **`to-source`** — le dépôt ne porte encore aucune source sur ʿAbduh ni Riḍā ;
+> l'identification des auteurs est celle du directeur du dépôt. Toute fiche qui les
+> exposerait devra partir de leurs textes.
+
+Ce que les sources versées établissent sur la **structure** de la déviation :
+
+- **Guénon, *La Crise du monde moderne*, ch. IV**
+  ([[doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane]]) :
+  l'« apologétique » « qui prétend se mettre d'accord avec les résultats de la science
+  moderne » est un « travail parfaitement illusoire et toujours à refaire, qui présente
+  d'ailleurs le grave danger de paraître solidariser la religion avec des conceptions
+  changeantes et éphémères, dont elle doit demeurer totalement indépendante ».
+- **Même ouvrage, ch. V**
+  ([[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]]) : l'apologétique,
+  attitude « purement "défensive" », finit par mettre la religion « sur le même plan que
+  les théories philosophiques et scientifiques […] les plus contingentes », et, « pour
+  paraître "conciliant" », par admettre « des conceptions qui n'ont été inventées que pour
+  ruiner toute religion ».
+- ***Orient et Occident*, I, ch. III** : le modernisme « ne fut pas autre chose qu'une
+  tentative faite pour introduire dans le catholicisme même la mentalité dont il
+  s'agit » — Guénon l'observe dans la forme chrétienne ; l'ajout du directeur du dépôt
+  en désigne l'équivalent dans la forme islamique.
+- **Un précédent traditionnel de la juste hiérarchie** : Ghazâlî, *al-Munqidh*
+  ([[doctrinal/sources/ghazali-munqidh-jabre-1959]]). Il refuse les deux fautes à la fois.
+  Contre le rejet : « Ceux qui croient défendre l'Islam en rejetant les sciences
+  philosophiques, lui causent, en réalité, le plus grand tort », la Révélation n'ayant
+  « d'attitude ni affirmative, ni négative dans ce domaine » (trad. Jabre, pp. 75-76).
+  Contre la caution : le danger est de transférer à la métaphysique la confiance que
+  mérite la démonstration mathématique (pp. 74-75). La science démonstrative garde sa
+  valeur dans son ordre, et n'est pas juge de la Révélation.
+
+**Portée pour l'antagoniste.** La raillerie de Jaimungal sur les Védas atteint cette
+déviation, et le dépôt peut la recevoir sans réserve sur ce point. Elle suppose en
+revanche que tout rapport entre la tradition et la science est de cette sorte ; la
+hiérarchie inverse — la doctrine qui intègre — lui est invisible, pour la même raison
+que l'accord par principe lui est invisible au § 2.
 
 ## V. Le test que le dépôt peut échouer
 

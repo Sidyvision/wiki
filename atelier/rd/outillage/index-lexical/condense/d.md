@@ -13,10 +13,10 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `dream` | DREAM, Dream, dream | — | — | table | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[meta/personnel/sidy]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +28 | 13006 |
-| `deux` | DEUX, Deux, deux | — | — | table, titre | **486 fiches** | LISEZ-MOI.md +487 | 6622 |
-| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **394 fiches** | LISEZ-MOI.md +19 | 2073 |
-| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **463 fiches** | 14-o.md +47 | 1987 |
-| `doctrine` | DOCTRINE, Doctrine, doctrine | — | — | table, titre | **261 fiches** | 08-h.md +251 | 1524 |
+| `deux` | DEUX, Deux, deux | — | — | table, titre | **486 fiches** | LISEZ-MOI.md +487 | 6623 |
+| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **394 fiches** | LISEZ-MOI.md +19 | 2080 |
+| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **463 fiches** | 14-o.md +47 | 1991 |
+| `doctrine` | DOCTRINE, Doctrine, doctrine | — | — | table, titre | **261 fiches** | 08-h.md +251 | 1531 |
 | `degre` | DEGRÉ, Degre, Degré, degre (+1) | — | — | table, titre | **158 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +251 | 1464 |
 | `degres` | DEGRÉS, Degres, Degrés, degres (+1) | — | — | table, tag, titre | **164 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +197 | 1301 |
 | `dieu` | Dieu, dieu | — | — | table | **83 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +149 | 1217 |
@@ -44,8 +44,8 @@ links: []
 | `detail` | Détail, detail, détail | — | — | definition, table | **93 fiches** | LISEZ-MOI.md +81 | 264 |
 | `delivrance` | DÉLIVRANCE, Délivrance, delivrance, délivrance | — | — | annotation, table, tag | **21 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-8.md +42 | 246 |
 | `determination` | Determination, Détermination, determination, détermination | — | — | table, titre | **36 fiches** | 08-h.md +89 | 245 |
+| `deviation` | DÉVIATION, Déviation, deviation, déviation | — | — | table, tag, titre | **50 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +78 | 233 |
 | `dhikr` | DHIKR, Dhikr, dhikr | — | ⚖ islam | annotation, table, tag, titre | **26 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 233 |
-| `deviation` | DÉVIATION, Déviation, deviation, déviation | — | — | table, tag, titre | **49 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +78 | 229 |
 | `diagnostic` | Diagnostic, diagnostic | — | — | definition, table, tag | **58 fiches** | — | 215 |
 | `directions` | Directions, directions | — | — | titre | **42 fiches** | 05-e.md +59 | 206 |
 | `dispositif` | Dispositif, dispositif | — | — | table, tag | **66 fiches** | isaghuji-cours01-introduction-transcription.md | 180 |
@@ -84,8 +84,8 @@ links: []
 | `depositaires` | Dépositaires, depositaires, dépositaires | — | — | titre | **27 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +7 | 57 |
 | `decouverte` | Découverte, découverte | — | — | definition | **26 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-17.md +16 | 53 |
 | `dashagvas` | Dashagvas | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +6 | 52 |
+| `demonstration` | Démonstration, démonstration | — | — | definition | **19 fiches** | doctrine-des-etats-multiples-en-christianisme-pdf-esoterisme-occidental.md +11 | 51 |
 | `doc` | DOC, Doc, doc | — | — | titre | **24 fiches** | LISEZ-MOI.md +3 | 51 |
-| `demonstration` | Démonstration, démonstration | — | — | definition | **18 fiches** | doctrine-des-etats-multiples-en-christianisme-pdf-esoterisme-occidental.md +11 | 50 |
 | `david` | DAVID, David | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]] · +3 | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +16 | 47 |
 | `dictionnaire` | Dictionnaire, dictionnaire | — | — | annotation, table, tag | **23 fiches** | LISEZ-MOI.md +8 | 44 |
 | `deliberement` | délibérément | — | — | definition | **29 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +7 | 42 |
@@ -103,8 +103,8 @@ links: []
 | `devayana` | Devayana, Devayâna, devayâna, devayāna | — | — | translit | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/instrument/ins-15-situation-polaire/intent]] · [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] · +2 | la-puissance-du-serpent.md +9 | 27 |
 | `d'idris` | d'Idrīs | — | — | translit | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 26 |
 | `deduction` | Déduction, deduction, déduction | — | — | tag | **16 fiches** | la-tetraktys-et-le-carre-de-quatre-symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon.md | 26 |
+| `defensive` | défensive | — | — | titre | **14 fiches** | la-crise-du-monde-moderne-index-de-l-uvre-de-rene-guenon-4.md +2 | 26 |
 | `d'al-araf` | d'al-Aʿrâf, d'al-Aʿrāf | — | — | titre, translit | [[atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants]] · [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]] · [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/sept-etendards-califat]] · +3 | — | 25 |
-| `defensive` | défensive | — | — | titre | **13 fiches** | la-crise-du-monde-moderne-index-de-l-uvre-de-rene-guenon-4.md +2 | 25 |
 | `deployees` | déployées | — | — | titre | **13 fiches** | — | 25 |
 | `dougong` | Dougong, dougong | — | — | table, titre | [[atelier/etudes-de-cas/dougong-consoles-bois]] · [[atelier/rd/registre-chantiers]] · [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 23 |
 | `deepseek` | DEEPSEEK, DeepSeek, Deepseek, deepseek | — | — | table | [[atelier/rd/cahiers/journal-optimisations]] · [[atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18]] · [[atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle]] · [[atelier/rd/registre-chantiers]] · [[atelier/rd/veille/cordis/implementations-github]] · +3 | — | 22 |

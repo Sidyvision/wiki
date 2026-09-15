@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `base` | BASE, Base, Basé, base (+1) | — | — | table, tag, titre | **124 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +173 | 680 |
+| `base` | BASE, Base, Basé, base (+1) | — | — | table, tag, titre | **125 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +173 | 681 |
 | `barzakh` | Barzakh, barzakh | — | ✓ islam | annotation, table, tag, titre | **97 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +8 | 456 |
 | `brahma` | BRAHMA, Brahma, Brahmâ, brahma (+1) | — | — | annotation, table, tag | **30 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +70 | 316 |
 | `balance` | Balance, balance | — | — | table, tag, titre | **45 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +32 | 304 |

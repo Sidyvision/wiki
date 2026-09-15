@@ -12,11 +12,11 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | — | table, tag, titre | **376 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +528 | 6050 |
+| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | — | table, tag, titre | **376 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +528 | 6051 |
 | `etat` | ETAT, etat, État, état | — | — | definition, table, titre | **268 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +314 | 1981 |
 | `etats` | Etats, etats, ÉTATS, États (+1) | — | — | table, titre | **122 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +222 | 1407 |
 | `exemple` | Exemple, exemple | — | ⚖ universel | definition, table | **90 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +326 | 918 |
-| `etude` | ETUDE, etude, Étude, étude | — | — | titre | **64 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +197 | 442 |
+| `etude` | ETUDE, etude, Étude, étude | — | — | titre | **64 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +197 | 443 |
 | `edition` | EDITION, Edition, edition, ÉDITION (+2) | — | ⚖ hindouisme | definition, table | **125 fiches** | 00-front-matter.md +77 | 438 |
 | `existence` | Existence, existence, existencé | — | — | tag | **34 fiches** | 03-c.md +177 | 402 |
 | `editions` | editions, ÉDITIONS, Éditions, éditions | — | — | table, tag | **63 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +192 | 321 |

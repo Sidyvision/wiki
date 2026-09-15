@@ -12,18 +12,18 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `monde` | MONDE, Monde, monde | — | — | table, titre | **247 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +431 | 3668 |
+| `monde` | MONDE, Monde, monde | — | — | table, titre | **248 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +431 | 3671 |
 | `manifestation` | MANIFESTATION, Manifestation, manifestation | — | — | table, tag, titre | **121 fiches** | 04-d.md +300 | 1726 |
 | `mort` | MORT, Mort, mort | — | — | table, titre | **115 fiches** | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +132 | 1130 |
-| `metaphysique` | MÉTAPHYSIQUE, Métaphysique, metaphysique, métaphysique | — | — | table, tag, titre | **170 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +224 | 982 |
+| `metaphysique` | MÉTAPHYSIQUE, Métaphysique, metaphysique, métaphysique | — | — | table, tag, titre | **170 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +224 | 985 |
 | `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | — | table, tag, titre | **126 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +277 | 973 |
-| `moderne` | MODERNE, Moderne, moderne | — | — | table, titre | **89 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +234 | 949 |
+| `moderne` | MODERNE, Moderne, moderne | — | — | table, titre | **89 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +234 | 950 |
 | `man` | Man, man, manʿ | — | — | titre, translit | **13 fiches** | 04-d.md +84 | 826 |
 | `manifeste` | Manifeste, Manifesté, manifeste, manifesté | — | — | table, tag, titre | **138 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +215 | 792 |
 | `matiere` | Matière, matière | — | — | table, titre | **198 fiches** | LISEZ-MOI.md +86 | 761 |
 | `memoire` | Mémoire, memoire, mémoire | — | — | table, tag, titre | **147 fiches** | LISEZ-MOI.md +55 | 627 |
 | `maintenant` | Maintenant, maintenant | — | — | definition, table | **54 fiches** | LISEZ-MOI.md +298 | 621 |
-| `modele` | Modèle, modelé, modèle | — | — | table, titre | **155 fiches** | LISEZ-MOI.md +34 | 588 |
+| `modele` | Modèle, modelé, modèle | — | — | table, titre | **155 fiches** | LISEZ-MOI.md +34 | 589 |
 | `modernes` | MODERNES, Modernes, modernes | — | — | titre | **41 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +233 | 552 |
 | `methode` | MÉTHODE, Méthode, methode, méthode | — | ⚖ universel | definition, table, tag, titre | **179 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +77 | 539 |
 | `mondes` | MONDES, Mondes, mondes | — | — | table, titre | **59 fiches** | erreurs-diverses-concernant-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +106 | 516 |
@@ -38,7 +38,7 @@ links: []
 | `materiel` | Matériel, materiel, matériel | — | — | tag | **79 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +48 | 303 |
 | `malakut` | Malakut, Malakût, Malakūt, malakut (+3) | — | — | annotation, table, tag, titre, translit | **57 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 285 |
 | `modalite` | Modalité, modalité | — | — | table, titre | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +81 | 255 |
-| `muhammad` | MUHAMMAD, Muhammad, Muḥammad, muhammad | — | — | table, titre, translit | **52 fiches** | LISEZ-MOI.md +36 | 252 |
+| `muhammad` | MUHAMMAD, Muhammad, Muḥammad, muhammad | — | — | table, titre, translit | **53 fiches** | LISEZ-MOI.md +36 | 253 |
 | `marqueur` | Marqueur, marqueur | — | ⚖ islam | definition | **78 fiches** | index-conversion.md +2 | 246 |
 | `mecanisme` | MÉCANISME, Mécanisme, mécanisme | — | — | definition, table | **85 fiches** | la-puissance-du-serpent.md +17 | 235 |
 | `mehdi` | Mehdi, mehdi | — | — | table, titre | **32 fiches** | isaghuji-cours01-introduction-transcription.md +1 | 233 |

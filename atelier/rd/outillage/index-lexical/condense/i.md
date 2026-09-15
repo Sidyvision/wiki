@@ -15,14 +15,14 @@ links: []
 | `index` | INDEX, Index, index | — | — | tag | **99 fiches** | LISEZ-MOI.md +416 | 1654 |
 | `ibn` | IBN, IBn, Ibn, ibn | — | — | titre | **180 fiches** | LISEZ-MOI.md +83 | 1481 |
 | `initiatique` | INITIATIQUE, Initiatique, initiatique | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +180 | 846 |
-| `islamique` | Islamique, islamique | — | — | table, titre | **170 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +146 | 700 |
+| `islamique` | Islamique, islamique | — | — | table, titre | **170 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +146 | 701 |
 | `indra` | Indra, indra | — | — | table, titre | **16 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-15.md +25 | 571 |
 | `idees` | Idées, idées | — | — | titre | **92 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +171 | 517 |
-| `interpretation` | INTERPRETATION, INTERPRÉTATION, Interpretation, Interprétation (+2) | — | — | definition, table | **59 fiches** | LISEZ-MOI.md +157 | 469 |
+| `interpretation` | INTERPRETATION, INTERPRÉTATION, Interpretation, Interprétation (+2) | — | — | definition, table | **60 fiches** | LISEZ-MOI.md +157 | 471 |
 | `infrastructure` | INFRASTRUCTURE, Infrastructure, infrastructure | — | — | definition, table, tag, titre | **119 fiches** | — | 465 |
 | `identite` | IDENTITÉ, Identité, identite, identité | — | — | table, tag | **143 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +80 | 441 |
 | `introduction` | INTRODUCTION, Introduction, introduction | — | — | table, tag, titre | **58 fiches** | LISEZ-MOI.md +121 | 406 |
-| `islam` | ISLAM, Islam, Islâm, Isläm (+3) | — | — | table, titre, translit | **151 fiches** | 01-a.md +35 | 386 |
+| `islam` | ISLAM, Islam, Islâm, Isläm (+3) | — | — | table, titre, translit | **151 fiches** | 01-a.md +35 | 387 |
 | `initiation` | INITIATION, Initiation, initiation | — | — | table, tag, titre | **46 fiches** | 08-h.md +116 | 363 |
 | `individuel` | Individuel, individuel | — | — | tag | **45 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +130 | 355 |
 | `initiatiques` | INITIATIQUES, initiatiques | — | — | titre | **29 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +121 | 344 |
@@ -36,7 +36,7 @@ links: []
 | `ilm` | Ilm, ilm, ʿIlm, ʿilm | — | — | titre, translit | **46 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +11 | 192 |
 | `idris` | Idris, Idrîs, Idrīs, idris | — | ✓ islam | annotation, table, tag, titre, translit | **38 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +6 | 186 |
 | `imam` | IMAM, Imam, Imàm, Imâm (+5) | — | — | translit | **24 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +28 | 181 |
-| `interdit` | INTERDIT, Interdit, interdit | — | — | definition | **88 fiches** | LISEZ-MOI.md +20 | 166 |
+| `interdit` | INTERDIT, Interdit, interdit | — | — | definition | **89 fiches** | LISEZ-MOI.md +20 | 167 |
 | `investigation` | Investigation, investigation | — | — | definition, table, titre | **34 fiches** | 11-k.md +17 | 139 |
 | `incident` | Incident, incident | — | — | table, titre | **60 fiches** | 04-d.md +9 | 136 |
 | `indian` | Indian | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]] · [[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]] · +1 | 02-b.md +47 | 120 |
@@ -88,8 +88,8 @@ links: []
 | `inconvenient` | Inconvénient, inconvenient, inconvénient | — | — | definition | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +23 | 30 |
 | `ihsan` | Ihsan, Iḥsân, Iḥsān, ihsân (+2) | — | — | translit | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 29 |
 | `imaginaire` | Imaginaire, imaginaire | — | — | titre | **10 fiches** | la-puissance-du-serpent.md +15 | 29 |
+| `individualisme` | individualisme | — | — | tag | [[doctrinal/discernement/2026-09-06_status-traditionnel-et-partage-zahir-batin]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]] · [[doctrinal/sources/guenon-orient-et-occident]] | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +13 | 29 |
 | `ilm-al-huruf` | ilm-al-huruf | — | ✓ islam | annotation, tag | **21 fiches** | — | 28 |
-| `individualisme` | individualisme | — | — | tag | [[doctrinal/discernement/2026-09-06_status-traditionnel-et-partage-zahir-batin]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]] · [[doctrinal/sources/guenon-orient-et-occident]] | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +13 | 28 |
 | `ishvara` | Ishvara | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md +1 | 28 |
 | `ilahiyya` | ilahiyya, ilâhiyya, ilāhiyya | — | — | translit | [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +2 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +4 | 27 |
 | `immortalite` | Immortalité, immortalite, immortalité | — | — | annotation, tag | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/lost/jacob]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +12 | 25 |

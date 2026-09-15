@@ -13,10 +13,10 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **511 fiches** | LISEZ-MOI.md +10 | 2928 |
-| `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **538 fiches** | LISEZ-MOI.md +170 | 2606 |
+| `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **539 fiches** | LISEZ-MOI.md +170 | 2607 |
 | `symbolisme` | SYMBOLISME, Symbolisme, symbolisme | — | — | table, tag, titre | **137 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +325 | 1918 |
-| `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **407 fiches** | LISEZ-MOI.md +62 | 1517 |
-| `science` | SCIENCE, Science, science | — | — | table, titre | **145 fiches** | LISEZ-MOI.md +300 | 1485 |
+| `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **407 fiches** | LISEZ-MOI.md +62 | 1522 |
+| `science` | SCIENCE, Science, science | — | — | table, titre | **146 fiches** | LISEZ-MOI.md +300 | 1489 |
 | `symboles` | SYMBOLES, Symboles, symboles | — | — | table, titre | **242 fiches** | LISEZ-MOI.md +202 | 1190 |
 | `shinto` | Shinto, Shintō, shinto, shintô (+1) | `神道` | ✓ shintoisme | annotation, table, tag, titre, translit | **18 fiches** | LISEZ-MOI.md +25 | 1100 |
 | `suite` | Suite, suite | — | — | titre | **119 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +367 | 1088 |
@@ -29,7 +29,7 @@ links: []
 | `soleil` | Soleil, soleil | — | — | table, tag, titre | **95 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +112 | 795 |
 | `soi` | SOI, Soi, soi | — | — | tag | **91 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +242 | 781 |
 | `said` | Said, Saʿîd, said, saïd (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/shawq]] | 01-a.md +64 | 755 |
-| `structure` | STRUCTURE, Structure, structure, structuré | — | — | definition, table, tag, titre | **249 fiches** | 08-h.md +44 | 657 |
+| `structure` | STRUCTURE, Structure, structure, structuré | — | — | definition, table, tag, titre | **249 fiches** | 08-h.md +44 | 658 |
 | `sceau` | SCEAU, Sceau, sceau | — | — | table | **141 fiches** | LISEZ-MOI.md +39 | 600 |
 | `shakti` | Shakti, Shaktî, shakti | — | — | table | [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +2 | la-puissance-du-serpent.md +19 | 492 |
 | `signe` | SIGNE, Signe, signe, signé | — | — | table, titre | **117 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +141 | 491 |

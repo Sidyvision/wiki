@@ -13,22 +13,22 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `pdf` | PDF, pdf | — | — | tag | **56 fiches** | LISEZ-MOI.md +45 | 3558 |
-| `principe` | PRINCIPE, Principe, principe | — | — | definition, table, titre | **306 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +342 | 2327 |
-| `porte` | PORTE, Porte, Porté, porte (+1) | — | — | table, titre | **344 fiches** | LISEZ-MOI.md +174 | 1698 |
-| `place` | Place, Placé, place, placé | — | — | table, titre | **181 fiches** | LISEZ-MOI.md +362 | 1411 |
+| `principe` | PRINCIPE, Principe, principe | — | — | definition, table, titre | **306 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +342 | 2330 |
+| `porte` | PORTE, Porte, Porté, porte (+1) | — | — | table, titre | **344 fiches** | LISEZ-MOI.md +174 | 1700 |
+| `place` | Place, Placé, place, placé | — | — | table, titre | **182 fiches** | LISEZ-MOI.md +362 | 1415 |
 | `points` | POINTS, Points, points | — | — | table, titre | **193 fiches** | 09-i.md +296 | 1199 |
-| `premiere` | PREMIERE, PREMIÈRE, Premiere, Première (+3) | — | — | table, titre | **203 fiches** | LISEZ-MOI.md +345 | 1166 |
+| `premiere` | PREMIERE, PREMIÈRE, Premiere, Première (+3) | — | — | table, titre | **204 fiches** | LISEZ-MOI.md +345 | 1167 |
 | `pole` | POLE, Pole, Pôle, pole (+1) | — | — | table, tag, titre | **215 fiches** | 02-b.md +100 | 1006 |
 | `pourquoi` | POURQUOI, Pourquoi, pourquoi | — | — | definition, table | **122 fiches** | LISEZ-MOI.md +326 | 980 |
-| `plan` | PLAN, Plan, plan | — | — | definition, table, tag, titre | **171 fiches** | LISEZ-MOI.md +147 | 931 |
-| `principes` | PRINCIPES, Principes, principes | — | — | table, tag | **105 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +205 | 750 |
+| `plan` | PLAN, Plan, plan | — | — | definition, table, tag, titre | **171 fiches** | LISEZ-MOI.md +147 | 932 |
+| `principes` | PRINCIPES, Principes, principes | — | — | table, tag | **105 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +205 | 752 |
 | `pouvoir` | POUVOIR, Pouvoir, pouvoir | — | — | table, tag | **71 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +242 | 729 |
 | `phase` | Phase, phase | — | — | table, titre | **117 fiches** | 10-j.md +65 | 683 |
 | `puis` | Puis, puis | — | — | definition | **205 fiches** | LISEZ-MOI.md +112 | 648 |
-| `physique` | Physique, physique | — | — | titre | **207 fiches** | LISEZ-MOI.md +89 | 633 |
+| `physique` | Physique, physique | — | — | titre | **207 fiches** | LISEZ-MOI.md +89 | 632 |
 | `produit` | Produit, produit | — | — | definition | **145 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +180 | 621 |
-| `profane` | PROFANE, Profane, profane | — | — | titre | **62 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +178 | 560 |
-| `portee` | Portée, portee, portée | — | ⚖ islam | definition, table | **167 fiches** | LISEZ-MOI.md +149 | 555 |
+| `profane` | PROFANE, Profane, profane | — | — | titre | **63 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +178 | 561 |
+| `portee` | Portée, portee, portée | — | ⚖ islam | definition, table | **167 fiches** | LISEZ-MOI.md +149 | 557 |
 | `protocole` | Protocole, protocole | — | — | definition, table, tag, titre | **174 fiches** | LISEZ-MOI.md +2 | 507 |
 | `production` | PRODUCTION, Production, production | — | — | table, titre | **144 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +69 | 483 |
 | `prophete` | Prophete, Prophète, prophete, prophète | — | — | table, titre | **85 fiches** | de-la-transmission-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +55 | 477 |

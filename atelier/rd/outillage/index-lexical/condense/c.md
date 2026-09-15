@@ -35,14 +35,14 @@ links: []
 | `classification` | CLASSIFICATION, Classification, classification | — | — | tag, titre | **30 fiches** | LISEZ-MOI.md +28 | 437 |
 | `centres` | CENTRES, Centres, centres, centrés | — | — | table, tag | **39 fiches** | 03-c.md +66 | 433 |
 | `consequence` | Conséquence, consequence, conséquence | — | — | definition, table | **107 fiches** | 11-k.md +181 | 421 |
-| `confusion` | CONFUSION, Confusion, confusion | — | — | titre | **56 fiches** | 11-k.md +203 | 410 |
+| `confusion` | CONFUSION, Confusion, confusion | — | — | titre | **57 fiches** | 11-k.md +203 | 413 |
 | `cycles` | CYCLES, Cycles, cycles | — | — | table, tag, titre | **83 fiches** | 09-i.md +88 | 374 |
 | `caire` | Caire | — | — | table | **13 fiches** | LISEZ-MOI.md +23 | 349 |
 | `coran` | CORAN, Coran, Corân, coran | — | — | annotation, table, tag, titre | **58 fiches** | LISEZ-MOI.md +24 | 340 |
 | `conversation` | Conversation, conversation | — | — | table, titre | **123 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +9 | 322 |
 | `coomaraswamy` | Coomaraswamy, coomaraswamy | — | — | table, tag, titre | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +61 | 313 |
 | `correspondances` | CORRESPONDANCES, Correspondances, correspondances | — | — | table, tag, titre | **88 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +63 | 308 |
-| `correction` | CORRECTION, Correction, correction | — | — | definition, table, tag, titre | **96 fiches** | LISEZ-MOI.md +35 | 281 |
+| `correction` | CORRECTION, Correction, correction | — | — | definition, table, tag, titre | **97 fiches** | LISEZ-MOI.md +35 | 283 |
 | `comparaison` | Comparaison, comparaison | — | — | table, tag | **61 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +117 | 261 |
 | `citation` | Citation, citation | — | — | tag | **130 fiches** | LISEZ-MOI.md +29 | 256 |
 | `cron` | Cron, cron | — | — | definition, table, tag, titre | **73 fiches** | — | 253 |
@@ -92,7 +92,7 @@ links: []
 | `cloud` | Cloud, cloud | — | — | table, titre | **31 fiches** | 00-front-matter.md +13 | 105 |
 | `cheikh` | Cheikh, cheikh | — | — | table, titre | **39 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +2 | 103 |
 | `confrontation gizeh` | Confrontation Gizeh | — | — | definition | **53 fiches** | — | 103 |
-| `corde` | Corde, corde | — | — | titre | **24 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +16 | 102 |
+| `corde` | Corde, corde | — | — | titre | **24 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +16 | 103 |
 | `composition` | COMPOSITION, Composition, composition | — | — | table, tag | **42 fiches** | note-sur-l-angelologie-de-l-alphabet-arabe-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +23 | 100 |
 | `correctif` | Correctif, correctif | — | — | table, tag, titre | **38 fiches** | — | 99 |
 | `chine` | Chine | — | — | table | **14 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +39 | 97 |
@@ -103,7 +103,7 @@ links: []
 | `contrefacon` | contrefacon, contrefaçon | — | — | tag, titre | **21 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +27 | 85 |
 | `commerce` | Commerce, commerce | — | — | table, titre | **48 fiches** | la-puissance-du-serpent.md +8 | 81 |
 | `capture` | Capture, capture, capturé | — | — | titre | **31 fiches** | LISEZ-MOI.md +15 | 80 |
-| `crise` | Crise, crise | — | — | table, titre | **25 fiches** | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +28 | 78 |
+| `crise` | Crise, crise | — | — | table, titre | **26 fiches** | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +28 | 79 |
 | `cosmologie` | Cosmologie, cosmologie | — | — | tag | **40 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-21.md +15 | 76 |
 | `cli` | CLI, cli | — | — | titre | **35 fiches** | arctic-ch11-the-avestic-evidence.md | 73 |
 | `contribution` | Contribution, contribution | — | — | titre | **32 fiches** | 16-s.md +11 | 72 |
@@ -373,6 +373,7 @@ links: []
 | `comprehension tiree (self-improvement, reutilisable)` | Compréhension tirée (self-improvement, réutilisable) | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] | — | 0 |
 | `concept-personnel` | concept-personnel | — | — | tag | [[meta/personnel/2026-08-18_initiation-virtuelle]] | — | 0 |
 | `conclusion (2026-07-14, tenue jusqu'au 2026-08-15)` | Conclusion (2026-07-14, tenue jusqu'au 2026-08-15) | — | ⚖ universel | definition | [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]] | — | 0 |
+| `concordisme` | concordisme | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 0 |
 | `condition dont « le prix est haut »` | condition dont « le prix est haut » | — | ⚖ islam | definition | [[doctrinal/sources/ishrab-sharab]] | — | 0 |
 | `confirmation du degre 19 — point ouvert 5 clos` | Confirmation du degré 19 — Point ouvert 5 clos | — | — | definition | [[atelier/rd/instrument/spec-anneau-zodiacal]] | — | 0 |
 | `confirmation independante, plus forte que les seules tailles` | Confirmation indépendante, plus forte que les seules tailles | — | ⚖ islam | definition | [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] | — | 0 |

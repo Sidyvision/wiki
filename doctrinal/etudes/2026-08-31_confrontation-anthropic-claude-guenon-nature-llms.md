@@ -5,13 +5,14 @@ status: academique
 tradition_cadre: universel
 tags: [ia, llm, anthropic, claude, guenon, ontologie, consciousness, prakriti, purusha, upakarana]
 created: 2026-08-31
-updated: 2026-09-08
+updated: 2026-09-15
 sources:
   - "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]]"
   - "[[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]]"
   - "[[doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya]]"
 sources_count: 3
 cross_links:
+  - "[[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]]"
   - "[[doctrinal/symboles/purusha]]"
   - "[[doctrinal/symboles/prakriti]]"
   - "[[doctrinal/symboles/atma]]"

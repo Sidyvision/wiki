@@ -12,15 +12,15 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `rapport` | RAPPORT, Rapport, rapport | — | — | definition, table, tag, titre | **227 fiches** | index-conversion.md +436 | 2460 |
-| `raison` | RAISON, Raison, Raïson, raison | — | — | definition, table, titre | **104 fiches** | LISEZ-MOI.md +422 | 1476 |
+| `rapport` | RAPPORT, Rapport, rapport | — | — | definition, table, tag, titre | **228 fiches** | index-conversion.md +436 | 2461 |
+| `raison` | RAISON, Raison, Raïson, raison | — | — | definition, table, titre | **105 fiches** | LISEZ-MOI.md +422 | 1477 |
 | `rene` | René | — | — | table, titre | **118 fiches** | LISEZ-MOI.md +411 | 1185 |
 | `role` | ROLE, Role, RÔLE, Rôle (+3) | — | — | definition, table | **158 fiches** | 00-front-matter.md +319 | 1110 |
 | `roman` | Roman, roman | — | — | annotation, tag | [[doctrinal/sources/gilis-ordo-ab-chao]] · [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/frankenstein/frankenstein]] · +2 | 00-front-matter.md +413 | 826 |
 | `realisation` | Realisation, RÉALISATION, Réalisation, realisation (+2) | — | — | table, titre | **75 fiches** | 11-k.md +215 | 805 |
 | `reference` | Reference, Référence, reference, référence (+1) | — | ⚖ islam | definition, table, tag, titre | **268 fiches** | LISEZ-MOI.md +64 | 719 |
 | `regle` | Règle, regle, règle, réglé | — | — | definition, table | **193 fiches** | LISEZ-MOI.md +46 | 623 |
-| `releve` | Relevé, Relève, releve, relevé (+2) | — | — | table, tag, titre | **222 fiches** | index-conversion.md +85 | 608 |
+| `releve` | Relevé, Relève, releve, relevé (+2) | — | — | table, tag, titre | **222 fiches** | index-conversion.md +85 | 609 |
 | `registre` | Registre, Régistre, registre | — | — | definition, table, tag, titre | **171 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +5 | 540 |
 | `rendu` | RENDU, Rendu, rendu | — | — | definition, table, tag, titre | **127 fiches** | index-conversion.md +71 | 527 |
 | `rapprochement` | RAPPROCHEMENT, Rapprochement, rapprochement | — | — | titre | **180 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +112 | 526 |
@@ -32,7 +32,7 @@ links: []
 | `regne` | Règne, règne, régné | — | — | table, titre | **52 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +148 | 336 |
 | `reponse` | RÉPONSE, Réponse, reponse, réponse | — | — | titre | **121 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-6.md +71 | 324 |
 | `rig-veda` | RIG-VEDA, Rig-Veda, Rig-Véda, Rig-Vêda (+3) | — | — | table, tag, titre | **12 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +26 | 317 |
-| `references` | References, Références, references, références (+1) | — | — | table, tag, titre | **100 fiches** | 10-j.md +58 | 315 |
+| `references` | References, Références, references, références (+1) | — | — | table, tag, titre | **101 fiches** | 10-j.md +58 | 316 |
 | `rattachement` | RATTACHEMENT, Rattachement, rattachement | — | — | tag, titre | **82 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +62 | 314 |
 | `regles` | RÈGLES, Règles, regles, règles (+2) | — | — | definition, table | **85 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +46 | 287 |
 | `relations` | Relations, relations | — | — | table, tag | **54 fiches** | 01-a.md +98 | 281 |
@@ -40,15 +40,15 @@ links: []
 | `regard` | REGARD, Regard, regard | — | — | titre | **83 fiches** | 01-a.md +84 | 271 |
 | `resume` | Resume, Résumé, resume, résume (+1) | — | — | definition | **71 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +43 | 269 |
 | `roue` | ROUE, Roue, roue | — | — | table, tag, titre | **55 fiches** | sur-deux-devises-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +52 | 266 |
-| `resultats` | RÉSULTATS, Résultats, resultats, résultats | — | — | definition, tag, titre | **47 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +95 | 260 |
-| `reflet` | REFLET, Reflet, reflet | — | — | tag, titre | **38 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +102 | 241 |
+| `resultats` | RÉSULTATS, Résultats, resultats, résultats | — | — | definition, tag, titre | **47 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +95 | 261 |
+| `reflet` | REFLET, Reflet, reflet | — | — | tag, titre | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +102 | 243 |
 | `risque` | Risque, risque, risqué | — | — | definition, table | **95 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +57 | 233 |
 | `rayon` | RAYON, Rayon, rayon | — | — | table, titre | **31 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +52 | 218 |
 | `remarques` | REMARQUES, Remarques, remarques, remarqués | — | — | table, titre | **16 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +79 | 204 |
 | `rouge` | Rouge, rouge | — | — | table, titre | **59 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +27 | 198 |
 | `resurrection` | Resurrection, RÉSURRECTION, Résurrection, resurrection (+1) | — | — | table, tag, titre | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +41 | 187 |
 | `ram` | RAM, Ram, ram | — | — | titre | **36 fiches** | la-puissance-du-serpent.md +15 | 161 |
-| `redaction` | RÉDACTION, Rédaction, redaction, rédaction | — | — | tag | **64 fiches** | doctrine-des-etats-multiples-en-christianisme-pdf-esoterisme-occidental.md +20 | 159 |
+| `redaction` | RÉDACTION, Rédaction, redaction, rédaction | — | — | tag | **65 fiches** | doctrine-des-etats-multiples-en-christianisme-pdf-esoterisme-occidental.md +20 | 160 |
 | `reseau` | Réseau, reseau, réseau | — | — | table, tag, titre | **64 fiches** | karubi-mehdi-navette-20260812.md +4 | 155 |
 | `rappel` | Rappel, rappel | — | — | definition, table | **89 fiches** | karubi-mehdi-navette-20260812.md +7 | 147 |
 | `risala` | Risala, Risâla, Risäla, Risāla (+2) | — | — | translit | **11 fiches** | isaghuji-cours01-introduction-transcription.md +8 | 140 |
@@ -144,6 +144,7 @@ links: []
 | `rahman` | Rahmân, Rahmän, Raḥmân, Raḥmān (+2) | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +2 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 10 |
 | `rahmanien` | rahmanien, rahmânien, raḥmānien | — | — | translit | [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 10 |
 | `rawda` | Rawda, Rawḍa | — | — | table, translit | [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] · [[doctrinal/symboles/priere-mosquee-prophete]] · [[doctrinal/symboles/rawda-sharif]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | osman-yahya-08-repertoire.md | 10 |
+| `rida` | Riḍā, ridâ, riḍâ, riḍâʾ (+2) | — | — | translit | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 10 |
 | `rijrashva` | Rijrashva, Rijrâshva | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch10-vedic-myths-the-matutinal-deities.md | 10 |
 | `rahma` | Rahma, rahma, raḥma | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/universal-man-jili]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 9 |
 | `retrospective` | retrospective, rétrospective | — | — | tag | [[atelier/etudes-de-cas/stones-throw]] · [[atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] · [[label/marketing-communication/fanzine]] · +3 | — | 9 |
@@ -151,7 +152,6 @@ links: []
 | `raphael` | Raphael, Raphaël | — | — | table, titre | [[doctrinal/autorites/raphael-afilalo]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | shaar-hagilgulim-gate-of-reincarnations.md +1 | 8 |
 | `ray` | Ray, ray, raʾy | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/fiqh]] | 00-front-matter.md +3 | 8 |
 | `repartition par circuit` | Répartition par circuit | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination]] · [[atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18]] · [[meta/carte-du-depot]] · [[meta/chantier-kamon-kouyate]] | — | 8 |
-| `rida` | ridâ, riḍâ, riḍâʾ, riḍâʿ (+1) | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 8 |
 | `ruhaniyya` | rûhaniyya, rûhâniyya, rûḥâniyya, rūḥāniyya | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/rawda-sharif]] | sept-etendards-califat-transcription.md | 8 |
 | `resonance theorique` | Résonance théorique | — | — | definition | [[atelier/rd/cahiers/proposition-veille-automatique-studio-2026-08-31]] · [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] | — | 7 |
 | `retraction` | Rétraction, rétraction | — | — | table | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/ilm-al-nujum]] | jurjani-definitions.md +2 | 7 |
@@ -217,6 +217,7 @@ links: []
 | `rapprochement envisage` | Rapprochement envisagé | — | — | definition | [[hermeneutique/dragon-ball/dragon-ball]] | — | 1 |
 | `recommandation comparee` | Recommandation comparée | — | — | definition | [[atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole]] | — | 1 |
 | `recommandation utilisateur` | Recommandation utilisateur | — | — | definition | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] | — | 1 |
+| `reformisme` | reformisme, réformisme | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | sciences-traditionnelles-et-modernite-pdf-soufisme.md | 1 |
 | `refusal training cible` | Refusal training ciblé | — | — | definition | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] | — | 1 |
 | `regle de fond` | Règle de fond | — | — | definition | [[meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07]] | — | 1 |
 | `regle retenue` | Règle retenue | — | — | definition | [[meta/projet-unifie/archives/14-compte-rendu-redeploiement-qwen-2026-07-08]] | — | 1 |
