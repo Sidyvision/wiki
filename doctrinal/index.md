@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-09-14
+updated: 2026-09-15
 ---
 
 # Le Catalogue Universel
@@ -162,6 +162,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/voilette|Le voile du visage — hijab/niqab et voilette occidentale]]
 - [[doctrinal/symboles/scarabee-egyptien|Le scarabée dans l'Égypte antique]]
 - [[doctrinal/symboles/poseidon|Poséidon — lecture mythologique et philosophique]]
+- [[doctrinal/symboles/zephyr|Zéphyr — le vent d'ouest dans la mythologie grecque]] — `academique`, `to-source` et `to-original` ; instruit par recherche machine, aucun texte primaire en main (Homère détenu, à vérifier par Sidy)
 - [[doctrinal/symboles/ashhab|Ashhab (أشهب) — le cheval gris-blanc dans la poésie arabe]]
 - [[doctrinal/symboles/merkavah-muraqaba|Merkavah et Muraqaba — comparatisme étymologique]] — ⚠️ mise en garde (syncrétisme gématrique)
 - [[doctrinal/symboles/tapisserie-navajo|Tapisserie Navajo (Yei) — lecture comparative]] — ⚠️ mise en garde (syncrétisme)
