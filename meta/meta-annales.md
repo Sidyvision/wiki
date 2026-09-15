@@ -13,6 +13,14 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] ouverture | Lots nominatifs — la clause, et sa première fiche de provenance
+
+- **Verdict de Sidy** : « Place en meta/ », en réponse au signalement de divergence de la passe — `protocoles/action-archivage.md` prévoit une fiche `source` **dans le circuit concerné** pour toute source déposée dans `raw/`, forme qui suppose une pièce **cataloguable** ; un lot **nominatif** (matière familiale produite hors dépôt) n'en a aucune, et l'y forcer franchirait l'étanchéité (§VI).
+- **Ce qui est ouvert** : une clause en `meta/CLAUDE.md` — la trace de provenance d'un lot nominatif est une **fiche de premier niveau de `meta/`** (`lot-<slug>-<date>.md`, `type: source`) portant nature, provenance, chemin `raw/`, **empreinte `sha256`**, citation employée et ce qu'elle a alimenté ; le fichier reste dans `raw/` (hors git) et la fiche **le décrit**, sans le remplacer. Un circuit neutre ne reçoit du lot que sa **conséquence de design**, jamais sa matière.
+- **L'écart reste déclaré, non comblé (Cmd 12)** : la clause **ne modifie pas** `action-archivage.md` — le protocole racine garde sa lettre pour les sources cataloguables, et le cas que sa forme ne couvre pas est nommé plutôt que lissé.
+- **Première application** : [[meta/lot-synthese-kamon-kouyate-2026-09-15]] (sha256 `ccc55b9d30becd3dd3aa726c0a427a84edad2c8acc89d63b61f7e6972c77d271`, 19 630 octets), qui documente la synthèse reçue le même jour, le label `[[chatgpt-synthese-kamon-kouyate-2026-09-15]]` employé par les fiches alimentées — et le fait que ce label **ne résout vers aucune page** (pratique établie du dépôt pour les lots de `raw/`, conservée telle quelle et désormais déclarée).
+- **Commit** : 1e30670
+
 ## [2026-09-15] verdict | Réserve levée sur les ouvertures du grand-père — « le scepticisme usuel d'un appareil profane »
 
 - **Verdict de Sidy**, au troisième point de la passe du jour : le classement des ouvertures du grand-père au rang de simple « récit » — demandé par le lot reçu — procède du « scepticisme usuel d'un appareil profane dont on ne se souciera pas ici ». Le point est **clos**.

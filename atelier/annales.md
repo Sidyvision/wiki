@@ -10,6 +10,14 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] ouverture | OUT-18 — l'organe de vérification était éprouvé sur une entrée, pas sur l'ensemble
+
+- **Ordre de Sidy** : « Go » — inscription au registre de la conséquence du signalement du même jour (registre des problèmes, entrée `[2026-09-15]`), l'inscription demandant un verdict (Cmd 13).
+- **Ce qui entre** : `OUT-18` en §3, statut `ouvert` — l'outil MCP `carte_du_depot` ne peut pas fonctionner (il passe `--json` à un script qui ne l'accepte pas) quand `verifier_invariants` rend son JSON sans défaut ; la prochaine action nommée est d'éprouver **une par une** les entrées du serveur, chacune avec son refus observé sur faute fabriquée (§VII). Le correctif lui-même **attend un verdict** : le serveur vit hors dépôt et n'est pas versionné (§VIII.11).
+- **Recomptage — par script, non par estime** (règle du §0 ; troisième passe du jour) : avant **59 lignes**, `ouvert` 33 / `bloque` 5 / `en-cours` 9 / `attente-verdict` 12 ; après **60 lignes**, `ouvert` **34** / 5 / 9 / 12. Lignes et somme des quatre colonnes **coïncident** ; aucune valeur hors vocabulaire ; §9 inchangé à 10 lignes.
+- **Corollaire outillé** : `meta/carte-du-depot.md` régénéré après la passe (833 fiches), en **commit dédié**, sur le précédent `b8b2d21` — **Commit carte** : 0f7532b.
+- **Commit** : 1e30670
+
 ## [2026-09-15] incident | L'organe de vérification appelait un script avec une option qu'il n'a jamais acceptée
 
 - **Ordre de Sidy** : « Oui vas-y mais avant prend bien le temps d'investiguer le R&D pour toute information instructive » — l'enquête R&D a précédé l'inscription du signalement.
