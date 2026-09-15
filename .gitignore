@@ -16,6 +16,8 @@ citations-ghazali/
 # sorties régénérables, jamais versionnées tant que l'essai n'est pas statué
 # (voir atelier/rd/outillage/spec-essai-graphify.md)
 /atelier/rd/outillage/.graphify-venv/
+# Transcription locale (faster-whisper, 2026-09-15) — venv isolé (436M), non versionné
+/atelier/rd/outillage/.whisper-venv/
 /atelier/rd/outillage/graphify-out/
 
 # Configuration MCP locale (chemins absolus, pas versionnés)

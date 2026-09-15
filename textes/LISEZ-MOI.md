@@ -96,6 +96,7 @@ supprime à la racine.
 | `les-etats-multiples-de-l-etre/` | 19 |
 | `les-principes-du-calcul-infinitesimal/` | 26 |
 | `les-quatre-mondes-daryush-shayegan/` | 1 |
+| `jaimungal-consciousness-irreducibility-local-to-global/` | 2 — versé le 2026-09-15 (transcription ASR), voir plus bas |
 | `ghazali-munqidh-jabre-1959/` | 10 — versé le 2026-09-15 (français + arabe), voir plus bas |
 | `orient-et-occident/` | 14 — versé le 2026-09-15 (13 + p. 228), voir plus bas |
 | `symboles-de-la-science-sacree-rene-guenon/` | 84 |
@@ -340,6 +341,15 @@ dit de l'œuvre : `doctrinal/sources/ghazali-munqidh-jabre-1959.md`.
 **Complément à *Orient et Occident*** : la page 228 (fin de la conclusion et
 addendum), transmise par Sidy le même jour, comble les deux lacunes de la première
 capture — voir `orient-et-occident/index-conversion.md`.
+
+## Versement du 2026-09-15 — Curt Jaimungal, *Consciousness, Irreducibility, and the Local to Global* (transcription ASR locale)
+
+Conférence de Curt Jaimungal (56 min), vidéo désignée par Sidy pour l'étude
+antagoniste. YouTube, Piped et Invidious refusant le serveur, l'audio a été obtenu par
+**notube** puis transcrit **localement** (faster-whisper, modèle `small`, tranches de
+10 minutes après deux arrêts pour manque de mémoire). Même régime que Koly Cherif Keita :
+**on ne corrige pas**. Détail, termes défigurés et repères horodatés :
+`jaimungal-consciousness-irreducibility-local-to-global/index-conversion.md`.
 
 ## Ce qui reste ouvert
 
