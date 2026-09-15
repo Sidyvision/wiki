@@ -9,6 +9,29 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] restauration | Curt Jaimungal n'est pas une autorité — fiche placée en `sources/`
+
+- **Verdict de Sidy** : « il ne me semble pas que l'on puisse placer Curt Jaimungal en autorité ».
+- Le contenu passe dans [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]]
+  (`type: source`, `academique`) : le dépôt consigne la conférence, non la personne — précédent de
+  l'exposé de Koly Cherif Keita. Déplacement par `git mv`, historique conservé.
+- **Talon `deprecated`** laissé en `doctrinal/autorites/curt-jaimungal.md` (Cmd 10), typé `source`,
+  hors Catalogue : il fait aboutir le lien de l'entrée d'annales précédente, qui sans lui levait un
+  avertissement C1 (72ᵉ) — les annales étant en ajout seul, l'ancienne entrée n'est pas retouchée.
+- Étude : lien et cartouche redirigés ; l'annotation `data-genre="autorite"` sur son nom est
+  **retirée** (le vocabulaire clos n'a pas de genre neutre pour une personne sans autorité).
+  Catalogue : entrée passée de « Érudition académique » à « Les Sources ».
+- **Incident de commit, consigné** : `4f58bbe` (déjà poussé) porte le message « JOURNAL … () » mais
+  ne contient que le déplacement du fichier — un `git add` sur l'ancien chemin, déjà déplacé par
+  `git mv`, avait rompu la chaîne. Historique publié non réécrit ; `a15ca85` porte le contenu.
+- **Indexation** : les termes annotés du jour sont présents dans l'index sous leur clé normalisée
+  (un contrôle à la main sur le slug brut les avait crus absents : erreur de contrôle). Deux
+  **signalements S1**, non bloquants : `al-manar` et `tafsir-al-manar` coannotés dans les fiches
+  ʿAbduh et Riḍā — la revue et le commentaire sont deux référents distincts de même famille ;
+  verdict réservé (Cmd 12).
+- Contrôles : invariants 0 erreur / 71 avertissements (ligne de base retrouvée).
+- **Commit** : a15ca85
+
 ## [2026-09-15] archivage | Trois fiches d'autorité : Muhammad ʿAbduh, Rashīd Riḍā, Curt Jaimungal
 
 - **Consigne** : rédiger les fiches des personnalités citées, par recherches complémentaires, et
