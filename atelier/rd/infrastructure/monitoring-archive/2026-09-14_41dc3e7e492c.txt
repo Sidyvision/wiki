@@ -1,0 +1,389 @@
+Cronjob Response: monitoring-infrastructure-quotidien
+(job_id: 41dc3e7e492c)
+-------------
+
+Rapport établi. Toutes les sorties ci-dessous sont brutes, collées telles quelles.
+
+---
+
+# Rapport quotidien — pôle Studio · 2026-09-14 (10:01 UTC)
+
+## §1 — Cartographie et cohérence structurelle
+
+### 1. `python3 verifier-invariants.py --racine /root/wiki`
+
+```
+1535 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+
+AVERTISSEMENTS :
+  [C6] doctrinal/symboles/cinq-noms-ame.md:62 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/symboles/fal-wa-tatayyur.md:26 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/symboles/golem.md:30 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/symboles/golem.md:59 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/symboles/khatm.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/symboles/khatm.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/symboles/khatm.md:18 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/symboles/khatm.md:110 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/symboles/tarbiyya-rabbaniyya.md:26 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/symboles/waqia.md:45 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_experience-lefke-materia-secunda]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation.md:186 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions.md:100 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions.md:128 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/deviations/confusion-psychique-spirituel.md:155 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/deviations/contre-initiation.md:132 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/deviations/pseudo-initiation-et-syncretisme.md:132 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/deviations/sept-tours-du-diable.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/deviations/sept-tours-du-diable.md:73 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations.md:23 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations.md:60 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/bukhari-5754-tiyara-fal.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/sources/dalail-al-khayrat-jazuli.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/dalail-al-khayrat-jazuli.md:42 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/gilis-ordo-ab-chao.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/sources/gilis-ordo-ab-chao.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-07-02_coudee-royale-convergence-28]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh.md:60 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission.md:146 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/guenon-atlantide-hyperboree.md:125 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/guenon-dome-et-la-roue.md:37 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/guenon-dome-et-la-roue.md:55 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-07_sashimono-metier-traditionnel]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/guenon-hermetisme-hermes-thoth.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/guenon-hermetisme-hermes-thoth.md:20 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/guenon-hermetisme-hermes-thoth.md:58 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/guenon-hermetisme-hermes-thoth.md:89 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7.md:84 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21.md:124 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation.md:107 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation.md:132 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-28_marques-de-la-contrefacon-grille-de-vigilance]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/guenon-zodiaque-pythagoriciens.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/guenon-zodiaque-pythagoriciens.md:47 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/ibn-arabi-fard-afrad-gilis.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/sources/kabbale-10-sefirot-structure.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/sources/kabbale-cosmogonie-iod.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/kitab-al-tarifat-jurjani.md:44 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/sefer-yetsira-ramban.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/sefer-yetsira-ramban.md:158 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen.md:129 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen.md:157 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen.md:164 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen.md:188 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen.md:223 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-28_sept-tours-sitra-ahra]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/sources/transcription-table-matieres-symboles-science-sacree.md:228 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/sources/valsan-investiture-cheikh-al-akbar.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/sources/valsan-investiture-cheikh-al-akbar.md:87 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/autorites/isaac-louria-arizal.md:31 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/autorites/michel-valsan.md:170 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C5] doctrinal/autorites/rene-guenon.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/autorites/rene-guenon.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C5] doctrinal/autorites/rene-guenon.md — étanchéité inversée : page `traditionnel` → discernement non tranché au cartouche (`cross_links:`) — [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]]. L'exception « lien défensif/généalogique signalé » ne porte qu'au corps
+  [C6] doctrinal/autorites/rene-guenon.md:46 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/autorites/rene-guenon.md:47 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/autorites/rene-guenon.md:48 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+
+0 erreur(s), 71 avertissement(s).
+```
+
+*(71/71 = C5/C6 d'étanchéité inversée — aucune autre classe. La portée de C5/C6/C7 a été tranchée le 2026-09-10 : « pas de passage en erreur ».)*
+
+### 2. `python3 atelier/rd/outillage/graphe/generer-cartographie.py --depot /root/wiki --verifier`
+
+```
+MANIFESTE DE CARTOGRAPHIE — script v1.1
+
+  Nœuds : 621
+      doctrinal    358
+      atelier      252
+      label        11
+
+  Arêtes : 2060
+      établies    1780
+      suggérées   280
+
+  Lacunes to-source : 70
+
+  Avertissements : 182 (non bloquants)
+      lien mort      106
+      isolée         72
+      lien           4
+  Mode --verifier : aucun manifeste écrit.
+```
+
+### 3. `python3 atelier/rd/outillage/detecter-non-tracke.py --racine /root/wiki`
+
+```
+1 fichier(s) non tracké(s), par circuit :
+
+  [atelier] 1
+    ??  atelier/rd/infrastructure/monitoring-archive/2026-09-14_ad3152b237bb.txt
+```
+
+*(exit 1. C'est exactement le motif du correctif C2 du 2026-09-13 — sauf que la cause a changé de nature : voir §4, piste 1.)*
+
+### 4. `python3 atelier/rd/outillage/verifier-coherence-infrastructure.py --racine /root/wiki`
+
+```
+15 affirmation(s) vérifiée(s), 0 écart(s) :
+
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-protocole-gardien' présent (profil gardien)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen.md] cron 'veille-referencement-investigation-08' présent (profil publication)
+  ✅ [atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] cron 'monitoring-infrastructure-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17.md] DISCORD_HOME_CHANNEL = 1536564394690084925 (profil studio)
+  ✅ [atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16.md] DISCORD_ALLOWED_CHANNELS couvre les 3 salon(s) attendu(s) (profil studio)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_HOME_CHANNEL = 1534858103185473627 (profil gardien)
+  ✅ [atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md] DISCORD_ALLOWED_CHANNELS couvre les 2 salon(s) attendu(s) (profil gardien)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-monitoring-quotidien' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'coherence-infrastructure-brute' présent (profil studio)
+  ✅ [atelier/rd/infrastructure/monitoring-archive-charte.md] cron 'archiver-veille-publication' présent (profil publication)
+```
+
+---
+
+## §2 — Empreinte serveur
+
+```
+$ df -h /
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G   27G  8.7G  76% /
+
+$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:           3.7Gi       1.6Gi       1.2Gi       4.0Mi       1.2Gi       2.1Gi
+Swap:          2.0Gi       645Mi       1.4Gi
+```
+
+```
+$ uptime
+ 10:01:47 up 10 days, 18:45,  0 user,  load average: 0.22, 0.10, 0.03
+```
+
+Disque **76 %** (stable, +0 par rapport au 09-13), RAM disponible **2,1 Gi**, load très basse. Les trois gateways actifs (`studio` 333 Mo, `publication` 280 Mo, `gardien` 175 Mo) plus les deux comptes scopés `habib-mehdi`/`habib-wendel` (177/176 Mo) tiennent dans l'enveloppe. Aucune alerte.
+
+---
+
+## §3 — Registre Hermes-Terminal
+
+### 3.1 Relevé des unités — `systemctl --user list-unit-files 'hermes-*'`
+
+```
+UNIT FILE                           STATE    PRESET
+hermes-gateway-accounting.service   disabled enabled
+hermes-gateway-admin-legal.service  disabled enabled
+hermes-gateway-ar-music.service     disabled enabled
+hermes-gateway-commerce.service     disabled enabled
+hermes-gateway-distribution.service disabled enabled
+hermes-gateway-fanzine.service      disabled enabled
+hermes-gateway-gardien.service      enabled  enabled
+hermes-gateway-karubi.service       disabled enabled
+hermes-gateway-marketing.service    disabled enabled
+hermes-gateway-production.service   disabled enabled
+hermes-gateway-publication.service  enabled  enabled
+hermes-gateway-studio.service       enabled  enabled
+hermes-gateway-visual-da.service    disabled enabled
+
+13 unit files listed.
+```
+
+### 3.2 `is-active` / `is-enabled` par profil
+
+```
+accounting     active=inactive   enabled=disabled
+admin-legal    active=inactive   enabled=disabled
+ar-music       active=inactive   enabled=disabled
+commerce       active=inactive   enabled=disabled
+distribution   active=inactive   enabled=disabled
+fanzine        active=inactive   enabled=disabled
+gardien        active=active     enabled=enabled
+karubi         active=inactive   enabled=disabled
+marketing      active=inactive   enabled=disabled
+production     active=inactive   enabled=disabled
+publication    active=active     enabled=enabled
+studio         active=active     enabled=enabled
+visual-da      active=inactive   enabled=disabled
+```
+
+13 unités pour **14 profils** (`default` n'a pas de gateway — attendu). **3 actifs / 10 `inactive+disabled`**, conforme à la décision du 2026-08-28, **aucun `failed`** (l'état transitoire relevé le 08-31 ne s'est pas reproduit).
+
+### 3.3 Intégrité des bind-mounts (`/etc/fstab` : 12 entrées mehdi + wendel)
+
+```
+/dev/sda1 on /home/mehdi/depot-lecture/doctrinal type ext4 (ro,relatime)
+/dev/sda1 on /home/mehdi/depot-ecriture/inbox type ext4 (rw,relatime)
+/dev/sda1 on /home/mehdi/depot-lecture/hermeneutique type ext4 (ro,relatime)
+/dev/sda1 on /home/mehdi/depot-lecture/karubi-mehdi.md type ext4 (ro,relatime)
+/dev/sda1 on /home/mehdi/depot-lecture/rd/cahiers type ext4 (ro,relatime)
+/dev/sda1 on /home/mehdi/depot-lecture/rd/instrument type ext4 (ro,relatime)
+/dev/sda1 on /home/mehdi/depot-lecture/rd/outillage type ext4 (ro,relatime)
+/dev/sda1 on /home/wendel/depot-ecriture/inbox type ext4 (rw,relatime)
+/dev/sda1 on /home/wendel/depot-lecture/doctrinal type ext4 (ro,relatime)
+/dev/sda1 on /home/wendel/depot-lecture/hermeneutique type ext4 (ro,relatime)
+/dev/sda1 on /home/wendel/depot-lecture/label/direction-artistique type ext4 (ro,relatime)
+/dev/sda1 on /home/wendel/depot-lecture/karubi-wendel.md type ext4 (ro,relatime)
+```
+
+`mountpoint -q` sur les 12 : **12/12 MOUNTED**. Les 10 lectures sont bien en `ro`, les 2 écritures de sas en `rw`. **Aucun bind-mount manquant, aucune bascule ro→rw.**
+
+### 3.4 Staleness de `_inbox/`
+
+```
+2026-08-31 13:16  _inbox/.gitkeep                     352 octets
+2026-09-07 19:23  _inbox/audio/.gitkeep                566 octets
+2026-09-10 22:37  _inbox/2026-09-10_recolte-discernement-etat-maturite.md  11114 octets
+```
+
+Sas inchangé depuis le 09-13 : **1 fiche candidate à 4 jours** (`2026-09-10_recolte-discernement-etat-maturite.md`), `audio/` ne contient qu'un `.gitkeep`. Rappel : la consigne de Sidy du 09-13 est explicite — « Non — le sas reste en attente pour l'instant » (N4, refus). **Rien à signaler, sinon que l'état est voulu.**
+
+### 3.5 Jobs des trois profils actifs — lecture brute `jobs.json`
+
+```
+--- gardien : 2 job(s)
+    veille-protocole-gardien            | enabled=True  | last_status=ok | streak=0 | model=deepseek-flash | provider=deepseek
+    cycle-choura                        | enabled=False | last_status=ok | streak=0 | model=auto/best-free | provider=custom:omniroute
+--- publication : 3 job(s)
+    veille-referencement-investigation-08 | enabled=True  | last_status=ok | streak=0 | model=deepseek-flash | provider=deepseek
+    cycle-choura                        | enabled=False | last_status=ok | streak=0 | model=auto/best-free | provider=custom:omniroute
+    archiver-veille-publication         | enabled=True  | last_status=ok | streak=0 | model=None | provider=None
+--- studio : 4 job(s)
+    monitoring-infrastructure-quotidien | enabled=True  | last_status=ok | streak=0 | model=deepseek-flash | provider=deepseek
+    coherence-infrastructure-brute      | enabled=True  | last_status=ok | streak=0 | model=None | provider=None
+    archiver-monitoring-quotidien       | enabled=True  | last_status=ok | streak=0 | model=None | provider=None
+    cycle-choura                        | enabled=False | last_status=ok | streak=0 | model=auto/best-free | provider=custom:omniroute
+```
+
+Le prompt persisté du job `monitoring-infrastructure-quotidien` porte bien **2779 caractères** et les deux corrections du 09-13 (`1. python3 verifier-invariants.py --racine /root/wiki`, puis la ligne `list-unit-files`). **Ce rapport est produit par ce prompt-là** — la preuve est le rapport lui-même.
+
+### 3.6 `omniroute` (chantier `INF-07`)
+
+```
+$ ps aux | grep -i omniroute          → (aucune ligne)
+$ ss -ltnp | grep 20128               → aucun listener 20128
+```
+
+Le processus n'existe pas, aucune unité ne le lance. **`INF-07` (« fonction réelle du processus `omniroute` », statut `en-cours`) porte une valeur de RAM — « 1040 Mo » — qui n'a plus d'objet mesurable ce jour** : la ligne reste `en-cours`, la mesure est à re-qualifier (signalement, non correction).
+
+---
+
+## §4 — R&D — analyse engagée
+
+### 4.1 Sortie brute du détecteur (étape 7)
+
+```
+Nouvelles fiches :
+atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel.md
+atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio.md
+atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio.md
+Fiches modifiées :
+atelier/rd/cahiers/journal-optimisations.md
+atelier/rd/cahiers/registre-problemes.md
+atelier/rd/infrastructure/monitoring-archive/registre-traitement.md
+atelier/rd/registre-chantiers.md
+```
+
+Les 3 fiches nouvelles et les 4 modifiées ont été **lues en entier** (les deux fiches-contracts : 451 et 569 lignes ; la fiche de cas : 254 lignes). Toutes sont **commitées** — `git status --porcelain` ne rend qu'une ligne, l'archive du 09-14 (§4.1 ci-dessus).
+
+---
+
+### 4.2 Fiche A — `2026-09-13_correctifs-rapports-studio.md` *(contract d'exécution du matin)*
+
+**(a) Contenu.** Contrat de la première passe de correctifs : C1 (prompt du cron — chemin mort + décompte des gateways), C2a/C2b (4 archives versées à git + 4 entrées de traitement), C3 (contrôle A étendu aux cahiers append-only **et éprouvé en bac à sable**, les deux faces), C4 (recompte du §0 + `INF-15` → §9). Cinq propositions écartées avec motif nommé (N1-N5). Annexe : prompt d'avant, 2310 caractères.
+
+**(b) Rapprochement `registre-problemes.md`.** Couvre **deux entrées existantes, de classes distinctes** : (i) `[2026-09-04]` — « un contrôle vert n'attestait pas que les liens du cartouche aboutissent » — même famille que **C3** (« un contrôle dont on n'a pas vu l'échec n'est pas un contrôle vérifié ») ; (ii) `[2026-09-13]` — l'entrée **déposée par N1** sous levée nominative, qui est le produit direct de cette fiche. **Aucun problème nouveau** : la fiche est un acte, pas un cas.
+
+**(c) PROPOSITION.** Ne rien rejouer. Le seul point vérifiable qui reste est la **relecture du bloc d'état d'exécution au §8** (cinq commits cités : `2f37f28`, `fd79f93`, `fee2f47`, `c40f735`, contrat `877e8ff`) — **tous présents dans `git log`**, vérifié par la lecture ci-dessus. Proposition : **classer la fiche A en « exécutée, close »** dans le registre des chantiers (elle n'y porte aucune ligne propre).
+
+**(d) Dépendances.** A → **B** (B exécute les sept points laissés ouverts au §10 de A). A → **C** : la fiche C porte en `sources:` **l'archive que C2 a commitée** (`monitoring-archive/2026-09-13_ad3152b237bb.txt`, présente sur disque, 23514 octets). Sans C2, la fiche C n'aurait pas de mesure citable. **Angle mort laissé ouvert par A :** N3 (régime de `_inbox/` vs Git) — refermé en partie par B §6, dont l'entrée de registre correspondante **n'a toujours pas de dépositaire**.
+
+**(e) Handoff.** **Publication** — la conséquence annoncée par A (le contrôle A étendu mord dans le rapport `publication`, pas dans celui de Studio) est confirmée : `verifier-invariants.py` tourne bien dans les deux rapports depuis N5. Handoff de pure information, aucune action requise du profil.
+
+---
+
+### 4.3 Fiche B — `2026-09-13_suite-points-ouverts-rapport-studio.md` *(seconde passe)*
+
+**(a) Contenu.** Lot de six gestes validés par Sidy en formulaire (réponses verbatim au §2). Exécuté intégralement : N1 (entrée déposée au registre des problèmes, écart déclaré), N5 (`verifier-invariants.py` réintroduit au §1), `INF-09` requalifié `attente-verdict`, `INF-17` ouverte/closes versée en §9, N3 (régime du sas amendé, §6), vocabulaire `DOC` ramené (aucune valeur hors vocabulaire). N4 non exécuté — refus explicite de Sidy. **§3 bis** : le §0 du registre recompté ligne à ligne (32/7/5/12 = 56), et un **écart de compteur du §9 relevé au passage** (déclaré 7, réel 10). **§5.2 : une seconde entrée préparée, non déposée.**
+
+**(b) Rapprochement.** Couvre l'entrée `[2026-08-09]` (« Contenu du sas `_inbox/` poussé par erreur sur le dépôt ») — dont B §6 **amende le périmètre** (le ramassage aveugle `git add -A` reste interdit ; le commit nominatif d'une fiche candidate est reconnu). **Problème nouveau, non encore couvert** : la contradiction doctrine/pratique du sas **n'a pas d'entrée** — elle est *préparée* au §5.2 et attend son dépositaire. C'est un état intermédiaire qui ne se reproduira pas de lui-même.
+
+**(c) PROPOSITION.** (1) **Nommer un dépositaire** pour l'entrée préparée au §5.2 (Sidy, ou session Claude Code) — sans quoi la doctrine écrite et la pratique resteront en contradiction muette. (2) Vérifier que le §7 du `journal-optimisations.md` (`updated`) couvre bien sa dernière entrée — c'est le contrôle **A3** étendu par C3 ; aujourd'hui vert (0 erreur). (3) **Ne pas** ouvrir de ligne de chantier pour B : comme A, c'est un acte.
+
+**(d) Dépendances.** B dépend d'**A** (ses sept points ouverts) ; B **nourrit** l'entrée `[2026-09-13]` du registre des problèmes (N1) ; B **et** A nourrissent **C** par l'archive. **Angle mort restant** : N4 (les deux fiches du sas, dont une à 5 jours — aujourd'hui **4 jours**) reste refusé, donc ouvert par décision, pas par omission.
+
+**(e) Handoff.** **Publication** encore : la décision N5 fait tourner `verifier-invariants.py` dans **deux** rapports quotidiens (Studio 10:00 UTC, Publication 09:00 UTC) — redondance assumée et déclarée, à ne pas « dé-dupliquer » par inadvertance lors d'une future revue. **Sidy** : les deux points qui appellent un verdict (dépositaire du §5.2 ; régime du sas à confirmer ou corriger d'un commit).
+
+---
+
+### 4.4 Fiche C — `2026-09-13_etancheite-materiau-experientiel.md` *(cas `PRO-09`, `kari-kumi`)*
+
+**(a) Contenu.** Relevé d'une **tension structurelle** : trois règles (§VI étanchéité, §VII.2 levée du `to-source`, §VII.3 dires de persona) supposent toutes une origine **extérieure au déposant**. Le cas où **Sidy est lui-même la source** n'a de forme prévue : ni texte (pas de `to-source` levable), ni persona (pas de source déclarable), ni circuit. Mesuré sur le lot du **2026-06-20** (45 fiches créées le même jour, 32 `sources:` vides, 2 `to-source`) et sur deux fiches S4/S5 **pointées, non reproduites**. Cinq propositions P1-P5, **aucune appliquée** ; cinq questions Q1-Q5 à Sidy. §6 : le statu quo provisoire — « on instruit, on ne résout pas ».
+
+**(b) Rapprochement.** **Problème réellement nouveau** — vérification faite dans le registre : aucune entrée ne traite « 45 fiches », « corpus conversationnel », « attestation », « matériau » ni « `sources:` vides ». Les entrées du registre qui touchent l'étanchéité traitent d'autres objets (C3 non couvrant `annales.md`, fuites de liens, `git rm` sur NFD). **Ni doublon, ni recouvrement partiel** : le registre n'a pas de case pour ce cas.
+
+**(c) PROPOSITION.** Ne rien exécuter (Cmd 12) — la fiche le dit elle-même. Proposition d'**ordonnancement** de la reprise, par coût décroissant de verdict :
+- **P1*** en premier (fiche de provenance du corpus) : c'est la seule qui **débloque une écriture mécanique** — rendre les 32 `sources:` vides déclarables. Elle demande de trancher un seul point (`status` de la fiche de provenance).
+- **P4*** ensuite (registre de l'attestation) : c'est la question « aiguë » — distinguer trois sols (sourcé / sans source / **attesté**). À traiter **après** Q3, car elle en dépend entièrement.
+- **P2**/**P3*** : amendements de Sceau et de traitement par défaut — idiomatiques au dépôt (précédents `statut_experience`, `infra_verif`, `chantier`, `original`, `maturite`), mais **plus lourds** et réversibles seulement par verdict.
+- **P5** n'appelle aucun acte : c'est le cadre de lecture, à conserver tel quel.
+- **Ne pas** rouvrir S4/S5 : « on n'y touche pas pour l'instant » est explicite.
+
+**(d) Dépendances.** **C dépend de A/C2** (archive source) — voir 4.2(d). **C nourrit `PRO-09`** au registre des chantiers (`attente-verdict`, dernière action : « arbitrer Q1-Q5 »). **C est nourrie par** `2026-08-31_doctrine-contrainte-qabd-bast` (le cadre P5) et par `doctrinal/discernement/2026-08-11_trois-territoires-inacheve` (le statut `speculatif`). **Angle mort ouvert par C, non nommé par elle** : P1 rendrait les `sources:` **déclarables**, mais aucun outillage ne distinguerait ensuite une fiche dont la matière est *attestée* d'une fiche simplement *sourcée* — la fiche le reconnaît pour P4, pas pour P1.
+
+**(e) Handoff.** **Sidy d'abord** (verdict — Q1-Q5). **Gardien** ensuite, si P1 ou P4 sont retenues : elles créent ou amendent des objets du circuit `doctrinal/` (`doctrinal/sources/corpus-…`, champ au Sceau Recteur), et le Gardien est le profil dont la veille porte l'orthodoxie et la forme doctrinale — c'est lui qui verrait une dérive de forme sur 45 fiches. **Aucun handoff Studio** : la fiche ne touche ni la chaîne audio ni le label.
+
+---
+
+### 4.5 Étape 9 — les 5 entrées les plus récentes de `registre-problemes.md`
+
+| # | Entrée | Statut porté | Changement depuis la dernière exécution |
+|---|---|---|---|
+| 1 | `[2026-09-13]` « Une résolution déclarée au nom de trois jobs, prouvée sur un seul » | `ouvert` | **ÉTAT MODIFIABLE — la branche de résolution est satisfaite.** Résolution portée : « soit relecture des `jobs.json` des trois profils avec citation brute, soit entrée de correction au `journal-optimisations.md` ». La **première branche est faite** : §3.5 ci-dessus donne la lecture brute des trois profils — les trois jobs (`veille-protocole-gardien`, `veille-referencement-investigation-08`, `monitoring-infrastructure-quotidien`) portent chacun `model=deepseek-flash`, `provider=deepseek`, `last_status=ok`, `failure_streak=0`. **Trois preuves pour trois jobs.** |
+| 2 | `[2026-09-04]` « Un contrôle vert n'attestait pas que les liens du cartouche aboutissent » | `resolu` **pour le contrôle** ; « sept cibles en cours d'instruction » | **PÉRIMÉ dans sa propre ligne de statut.** Le cahier `2026-09-04_extension-c1-cartouche-verifier-invariants.md` §7 consigne les **sept cibles closes** (quatre le 09-04, trois le 09-06, ligne de base passée à 0 erreur / 0 avertissement). Le contrôle lui-même est vert aujourd'hui (**0 erreur**, aucun C1/C2). La ligne de statut du registre est en retard sur son propre cahier. |
+| 3 | `[2026-09-02]` « Deux rapports Publication collés par Sidy depuis Discord… » | `resolu` | **Aucun changement** — clos, rien à faire. Elle **renforce** le besoin d'archive étendue (compréhension tirée), besoin désormais satisfait ; l'entrée n'a pas à être réécrite (Cmd 10). |
+| 4 | `[2026-09-02]` « Reprise des rapports Studio/Publication… » — points 1 et 2 | `resolu` | **Aucun changement** — les deux correctifs tiennent (vérifié ce jour : `2026-08-26_migration-omniroute-quota-qwen.md` ne produit plus d'écart ; le script détecteur existe et tourne, sortie §4.1). |
+| 4 bis | idem — **point 3** « Angle mort d'archivage — les rapports Publication ne laissent aucune trace au dépôt » | `ouvert` — « attente verdict Sidy sur l'extension de l'archive » | **RÉSOLU DE FAIT, non consigné.** `INF-15` est **clos le 2026-09-10** : job `archiver-veille-publication` créé (id `d3176b389ed8`, cron `10 11 * * *`), enveloppe dédiée, 13 sorties historiques rétro-archivées, charte mise à jour (`updated: 2026-09-10`), et `verifier-coherence-infrastructure.py` atteste le job. L'archive contient ce jour **32 fichiers**, dont 15 Publication. Le point d'attente est **satisfait, jamais refermé**. |
+| 5 | `[2026-09-01] resolu | Profil Hermes `commerce` absent du relevé systemd` | `resolu` | **Aucun changement** — confirmé ce jour : `hermes-gateway-commerce.service` figure dans `list-unit-files` (13 unités), état `disabled`/`inactive`. Et `[2026-09-01] resolu | Gateways en failed` : aucun `failed` aujourd'hui, état conforme. |
+
+**Lecture d'ensemble (étape 9).** Sur les cinq entrées : **deux stagnantes sans motif** (n° 1 et 4 bis — leur condition de clôture est remplie mais rien ne les referme), **une dont la ligne de statut est périmée** (n° 2), **deux closes et stables**. Aucune n'a été *rejetée*. Le motif commun des trois premières est le même : **une entrée de cahier append-only ne se referme que par un dépôt autorisé**, et aucun des trois dépôts n'a été demandé.
+
+---
+
+### 4.6 Étape 10 — pistes prioritaires pour la prochaine session
+
+> Toutes marquées **PROPOSITION** — aucune n'est une décision.
+
+1. **PROPOSITION — Refermer les trois entrées satisfaites du registre des problèmes (n° 1, n° 2, n° 4 bis) en une seule passe autorisée.** Urgence : moyenne-haute (elles faussent l'état du registre et masquent ce qui est vraiment ouvert). Faisabilité : **très haute** — deux des trois **ne demandent qu'une ligne de statut**, la troisième une ligne de résolution. Frein unique et nommé : l'interdiction de mandat d'écriture à `registre-problemes.md`, levée nominativement le 09-13 **pour une seule entrée**. → **Demander à Sidy une levée scopée à ces trois entrées**, la conséquence étant nommée d'avance (trois `Statut:` modifiés, `updated:` remonté, un commit réversible).
+2. **PROPOSITION — Trancher le régime quotidien des archives non commitées.** Urgence : haute (le défaut se reproduit **chaque jour** : `2026-09-14_ad3152b237bb.txt`, produit à 09:10 UTC, non tracké, sans entrée de traitement — `verifier-rapports-traites.py` le dit, exit 1). Faisabilité : haute. Le correctif C2 du 09-13 a été une **passe manuelle** ; il n'a pas installé de mécanisme. Deux branches à soumettre : (a) le job d'archivage `no_agent` ne peut pas commiter — ajouter une **étape de commit nominatif** à un job existant, sous règle ; ou (b) **acter** que les archives s'accumulent jusqu'à la passe d'intégration, et **borner** le délai accepté (aujourd'hui : moins de 24 h). Le choix est un verdict (Cmd 13).
+3. **PROPOSITION — Nommer un dépositaire pour l'entrée préparée au §5.2 de la fiche B** (contradiction doctrine/pratique du sas vs Git). Urgence : moyenne (la contradiction est **muette**, pas bruyante — mais elle laisse le dépôt en infraction avec sa propre doctrine écrite). Faisabilité : très haute (texte prêt, mot pour mot).
+4. **PROPOSITION — Re-qualifier la mesure d'`INF-07`.** La ligne porte « processus `omniroute` (1040 Mo de RAM) », statut `en-cours` ; ce jour **le processus n'existe pas** (aucun `ps`, aucun listener sur 20128). Urgence : basse-moyenne. Faisabilité : haute si la ligne est reformulée **en fait daté** (« mesuré le …, à cette date le processus n'existe plus ») — sans supprimer la ligne (Cmd 10). Note liée : les trois jobs `cycle-choura` (désactivés) pointent toujours vers `custom:omniroute` / `auto/best-free` ; **s'ils étaient réactivés, ils échoueraient** — à savoir avant toute réactivation.
+5. **PROPOSITION — Reprendre `PRO-09` dans l'ordre P1 → P4 → P2/P3, jamais dans l'autre sens.** Urgence : moyenne (le cas est `attente-verdict` par choix explicite de Sidy, non par blocage). Faisabilité : **faible sur cette session** — P1 seul est un acte d'écriture doctrinale, P4 touche §VII.2. À n'engager que sur consigne explicite.
+
+---
+
+## §5 — Suggestions transversales
+
+1. **Le mode de défaillance s'est déplacé, il n'a pas disparu.** Le 09-13, le défaut était « 4 archives non commitées » ; le 09-14, il est « 1 archive non commitée, produite ce matin par un job qui fonctionne ». Ce n'est plus un incident, c'est un **délai structurel** entre la production automatique (job `no_agent`, 09:10/10:10 UTC) et la mise en dépôt (humaine, sous consigne). Un délai qui se reproduit tous les jours mérite soit une règle, soit un mécanisme — pas une passe manuelle quotidienne.
+
+2. **Trois lignes de statut en retard sur leurs propres cahiers.** Le cas du `[2026-09-04]` (statut « sept cibles en cours » alors que la fiche dit closes depuis le 06-09) est un **motif réutilisable** : un registre append-only dont la ligne de statut n'est jamais remontée devient un registre qui se contredit. Aucun contrôle ne le voit — `verifier-invariants.py` contrôle l'`updated:` du fichier, pas la cohérence entre une entrée et son cahier. **Signalé, non corrigé** (Cmd 12).
+
+3. **Le graphe porte 106 liens morts et 72 fiches isolées, stable.** Avertissements non bloquants (182), stables depuis plusieurs jours, et **70 lacunes `to-source`** (contre 64 au 09-13 — la croissance suit les versements doctrinaux du 09-14 : 10 pages Qāmūs + 5 fiches de termes + Ishrab Sharāb, nœuds 608 → **621**, arêtes 1968 → **2060**). Ce n'est pas une alerte, c'est une dérive lente qui mériterait une passe dédiée un jour où le R&D est à jour — elle ne l'est pas encore.
+
+4. **Écart de mesure à réconcilier (bas, mais signalé).** Le `journal-optimisations.md` `[2026-09-13]` consigne « **0 erreur, 73 avertissements** » ; ce jour, `verifier-invariants.py` rend « **0 erreur, 71 avertissements** », et le rapport du 09-13 consignait 71. Deux avertissements d'écart, non expliqués par ce rapport. Aucune conséquence pratique — mais c'est **exactement le motif** que le registre s'est donné pour règle de combattre : un chiffre qu'on ne recompte pas cesse de dire la vérité de ses lignes. À confronter à l'occasion, pas à corriger d'office.
+
+5. **Aucun écart d'infrastructure ce jour.** 15 affirmations `infra_verif` vérifiées / 0 écart ; 12/12 bind-mounts actifs avec les bons modes ; 3 gateways actifs conformes à la décision du 08-28 ; disque 76 % stable ; RAM 2,1 Gi disponibles. La seule chose qui reste en mouvement dans ce rapport est **documentaire** — c'est cohérent avec le mandat.
+
+---
+
+*Rapport produit par le job `monitoring-infrastructure-quotidien` (id `41dc3e7e492c`, profil `studio`, prompt 2779 caractères, `model=deepseek-flash`), sur le prompt corrigé le 2026-09-13. Aucune écriture au dépôt n'a été faite par cette passe — les correctifs proposés aux §4.6 et §5 sont des **propositions** attendant verdict (Cmd 12/13).*
+
+To stop or manage this job, send me a new message (e.g. "stop reminder monitoring-infrastructure-quotidien").

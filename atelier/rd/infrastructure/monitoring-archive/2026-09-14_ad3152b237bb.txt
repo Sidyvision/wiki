@@ -1,0 +1,179 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-14 (exécution cron relevée à 09:00 UTC ; cadence prescrite 11:00 UTC)
+Profil : publication — Canal : #infrastructure
+
+## §1 — FRONTMATTER CONFORMITY
+────────────────────────────
+
+**Sortie brute de `verifier-invariants.py --racine /root/wiki`** (stdout intégral conservé : `/tmp/vi-2026-09-14.txt`, 77 lignes) :
+
+```
+1535 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+AVERTISSEMENTS :
+[...]
+0 erreur(s), 71 avertissement(s).
+```
+
+Histogramme mécanique des 71 lignes (dérivé du stdout, non paraphrasé) : **26 × `[C5]`** (étanchéité inversée au cartouche `cross_links:`) + **45 × `[C6]`** (même classe, au corps) ; **0 `[C1]`**, **0 `[C7]`**, **0 erreur bloquante**. **38 fichiers distincts** portent au moins un avertissement (`traite-emanation-gauche-isaac-ha-kohen.md` 8, `rene-guenon.md` 6, `sept-tours-du-diable.md` 2, `kabbale-*` 2, …). Classe unique, déjà tranchée : verdict Sidy 2026-09-10 (commit `7bef4e1`) — **pas de passage en erreur**.
+
+**Delta vs veille du 2026-09-13** (`/tmp/vi-2026-09-13.txt`, diff intégral `/tmp/vi-diff.txt`) :
+
+```
+1c1
+< 1506 fichier(s) .md contrôlé(s)
+---
+> 1535 fichier(s) .md contrôlé(s)                      (+29 fichiers)
+5,6d4
+<   [C7] doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire.md — `status: adopte` hors du vocabulaire clos
+<   [C1] atelier/rd/infrastructure/monitoring-archive/registre-traitement.md — lien non résolu : [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm]]
+79c77
+< 0 erreur(s), 73 avertissement(s).
+---
+> 0 erreur(s), 71 avertissement(s).
+```
+
+**Les deux avertissements ont disparu par correction réelle, vérifiée, non par déplacement :**
+- C7 — `doctrinal/discernement/2026-08-11_trois-territoires-…md` porte désormais `status: speculatif` (ligne 4), valeur du vocabulaire clos.
+- C1 — `atelier/rd/infrastructure/monitoring-archive/registre-traitement.md:114` nomme maintenant `[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]]`, et le dossier-triptyque existe.
+
+### Couche sémantique (ce que le script ne voit pas)
+
+Contrôles conduits sur **667 fiches** (5 circuits, hors `textes/`, `meta/`, `protocoles/`, `index.md`/`annales.md`) :
+
+- `sources_count` ≠ longueur de `sources:` → **0 anomalie** (parseur YAML réel).
+- Frontmatter YAML invalide → **0**.
+- Wikilink de `sources:`/`cross_links:` vers fiche inexistante → **0** (résolution par basename, façon Obsidian).
+- `doctrinal/` → `hermeneutique/` → **0**. `atelier/materiel|entretiens/` → `doctrinal/` → **0**.
+
+**Caveat de méthode, consigné** : un premier parseur à regex a produit **27 faux écarts** de `sources_count` — le dépôt emploie des listes YAML en bloc **à la colonne 0** (`sources:\n- '[[x]]'`), que mon motif `[ \t]+-` ne captait pas. C'est exactement le pitfall #4 de ma skill. Les 27 écarts sont des artefacts ; **aucun** n'est reporté. Les écarts réels de ce type sur le dépôt restent ceux du 2026-09-12 : **4**, non recomptés ici.
+
+**Signaux retenus** (aucune correction, verdict réservé — Cmd 12/13) :
+
+1. **`sources: []` sur 62 fiches non-`type: source` du doctrinal**, contre **16** fiches portant `to-source` — écart à la lettre de Cmd 5 (§IV local : « Fait sans source → `sources: ["to-source"]` + signalement »). Répartition : 52 `symbole`, 3 `discernement`, 2 `autorite`, 2 `tradition`, 2 `etude`, 1 `deviation`. Le script ne l'attrape pas : `[]` est syntaxiquement valide. Exemples : `doctrinal/symboles/fal-wa-tatayyur.md`, `doctrinal/symboles/firasa.md`, `doctrinal/symboles/bindu.md`, `doctrinal/traditions/madhhab-maliki.md`. **Verdict requis** : `[]` est-il un état délibéré ou une abstention non déclarée ?
+2. **`doctrinal/autorites/rene-guenon.md:22, 24, 25`** — le champ `sources:` y porte trois fiches `type: deviation` (`confusion-psychique-spirituel`, `contre-initiation`, `pseudo-initiation-et-syncretisme`) à côté d'une seule fiche `type: source`. Usage à trancher : ces fiches reproduisent l'analyse guénonienne, le renvoi est défendable — mais il porte une matière `deviation` dans un champ déclaré de traçabilité.
+3. **`atelier/materiel/technics-su-8080.md:21`** — « récupéré par Sidy auprès de sa famille, initialement destiné à un usage d'écoute domestique » : **fait personnel dans une page neutre**, §VI (« INTERDIT : inscrire un fait personnel dans une page neutre »). Contre-signal : la provenance est ici l'objet même du recensement matériel. Signalé, non corrigé. Les 40 autres occurrences du nom relevées en circuit neutre sont des attributions de verdict (« validée par Sidy », « sur consigne de Sidy »), pas des faits personnels.
+4. **Surface de publication vide** : `grep -rn '^publication:'` sur tout le dépôt → **0 occurrence** ; aucune fiche `label/` à `statut: sorti|valide` (14 fiches : 6 `en-cours`, 3 `en-gestation`, 2 `idee`). **Aucune publication en attente** pour le mandat d'orchestration de site.
+
+## §2 — DOCUMENTARY INVESTIGATION
+────────────────────────────
+
+Sélection : fiches `doctrinal/` à `sources_count: 0`, **plus anciennes d'abord**, tranche de 25. **Total détecté : 170 fiches** ; 145 hors tranche.
+*Note de sélection* : le tri brut remontait `doctrinal/discernement/_template.md` (gabarit, créé 2026-06-20) — **exclu comme non-fiche**, la 25ᵉ place revenant à `symboles/bindu.md`. Les 25 retenues portent toutes `sources: []` (aucune ne porte `to-source`).
+
+**1.** `doctrinal/sources/awrad-ibn-arabi.md` — *Litanies of the Greatest Master* (source, 2026-06-02). Mots-clés : ibn arabi, ali hussain, wird awrad.
+raw : `raw/Awrad_Ibn_Arabi.pdf` — **correspondance de titre exacte**, et la fiche le nomme déjà (`:39`, « Source brute »). biblio : `disciplines-spirituelles-hindouisme-soufisme.md`. doctrinal : `autorites/ali-hussain.md`. → **source établie, Sceau laissé `[]`** (norme des `type: source`).
+
+**2.** `doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md` (source, 2026-06-02). Mots-clés : wahdat al wujud, ali hussain, jmias.
+raw : `raw/Jesus_And_Enoch_In_Ibn_'arabi.pdf` — **titre exact**. biblio : `catalogue-bibliotheque.md`. doctrinal : `autorites/ali-hussain.md`, `sources/awrad-ibn-arabi.md`. → **source candidate forte, non nommée** (voir §Signalements).
+
+**3.** `doctrinal/sources/shams-al-maarif.md` (source, 2026-06-02). Mots-clés : ahmad al buni, ilm al huruf, asma al husna, ouattara brahima.
+raw : `raw/shams-al-maarif-traduit-complet.pdf` + `raw/shams-al-maarif-arabe/` (edition-a-shamela, edition-b-scan, PROVENANCE.md, traduction-ouattara) — **nommés dans la fiche** (`:41-48`). doctrinal : `autorites/ahmad-al-buni.md`, `autorites/ouattara-brahima.md`. → source établie et tracée.
+
+**4.** `doctrinal/symboles/salawat.md` (symbole, 2026-06-02). Mots-clés : mawlid al rasul, ibn arabi, wird awrad, benediction-prophetique.
+raw : `raw/Histoire et Classification de l'oeuvre d'Ibn Arabi-Osman Yahya.pdf`. biblio : `disciplines-spirituelles-hindouisme-soufisme.md`. doctrinal : `autorites/michel-valsan.md`, `sources/gilis-ordo-ab-chao.md`. → source candidate (Ibn ʿArabī) ; fiche non-`source` sans marqueur.
+
+**5.** `doctrinal/symboles/talisman-sihr.md` (symbole, 2026-06-02). Mots-clés : ahmad al buni, ilm al huruf, asma al husna, simiya.
+raw : `raw/shams-al-maarif-arabe/PROVENANCE.md`. biblio : `lumiere-hindouisme-soufisme.md`. doctrinal : `autorites/ahmad-al-buni.md`, `autorites/rene-guenon.md`. → source candidate (Būnī) ; `sources: []` à trancher.
+
+**6.** `doctrinal/symboles/wird-awrad.md` (symbole, 2026-06-02). Mots-clés : khatm al khawajakan, ibn arabi, hasbiyallah rabbani.
+raw : `raw/Awrad_Ibn_Arabi.pdf`, `raw/Histoire et Classification…pdf`. doctrinal : `autorites/ali-hussain.md`, `autorites/ibn-arabi.md`, `sources/awrad-ibn-arabi.md`. → source candidate.
+
+**7.** `doctrinal/traditions/sanatana-dharma.md` (tradition, 2026-06-02 — fiche de 245 o). Mots-clés : sanatana, dharma, hindouisme.
+raw : `raw/Études sur l'Hindouïsme/… Index de l'œuvre de René Guénon 24.md`. biblio : `glossaires-porte-du-ciel.md`, `index-rig-veda.md`, `disciplines-spirituelles-hindouisme-soufisme.md`. doctrinal : `sources/guenon-etats-multiples-ch13…`, `sources/guenon-homme-devenir-vedanta-ch1-7`. → source candidate (Guénon, hindouisme).
+
+**8.** `doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle.md` (source, 2026-06-03). Mots-clés : ilm al nujum, ilm al huruf, nujum.
+raw : `raw/LA FIN DES TEMPS MODERNES 'ILM AL-NUJÛM - ASTROLOGIQUE TRADITIONNELLE.pdf` — **titre exact**. biblio : `bibliographie-ihwan-al-safa.md`, `table-ihwan-al-safa.md`. doctrinal : `autorites/ibn-arabi.md`. → **source candidate forte, non nommée**.
+
+**9.** `doctrinal/symboles/ilm-al-nujum.md` (symbole, 2026-06-03). Mots-clés : ilm al huruf, asma al husna, nujum, astrologie.
+raw : même PDF `ILM AL-NUJÛM`. doctrinal : `autorites/ibn-arabi.md`, `autorites/michel-valsan.md`. → source candidate.
+
+**10.** `doctrinal/sources/islam-and-artificial-intelligence.md` (source, académique, 2026-06-04). Mots-clés : intelligence-artificielle, yaqub chaudhary, wahdat al wujud.
+raw : `raw/islam-and-artificial-intelligence.pdf` — **titre exact**. biblio : `bibliographie-ihwan-al-safa.md`. doctrinal : `autorites/al-ghazali.md`, `autorites/al-jazari.md`, `autorites/al-khwarizmi.md`. → **source candidate forte, non nommée**.
+
+**11.** `doctrinal/autorites/ibn-qayyim.md` (autorite, 2026-06-05 — 334 o). Mots-clés : tibb e nabawi, medecine-islamique, qayyim.
+raw : `raw/La-Puissance-Du-Serpent.md`, `raw/Autres ressources/isaghuji-cours01-introduction-transcription.md` (co-occurrence). biblio : `catalogue-bibliotheque.md`, `index-noms-ihwan-al-safa.md`. doctrinal : `autorites/al-ghazali.md`, `autorites/al-jurjani.md`. → source absente en propre ; piste : `doctrinal/symboles/tibb-e-nabawi.md` (fiche sœur, même vide).
+
+**12.** `doctrinal/sources/mawlid-al-rasul.md` (source, 2026-06-05). Mots-clés : abd al qadir al jilani, wird awrad, hanbalisme, mawlid.
+raw : `raw/Autorité Spirituelle et Pouvoir Temporel/…`, `raw/Le Roi du Monde/…` (co-occurrence). biblio : `sommaire-hindouisme-soufisme.md`, `majma-al-bahrayn…`. doctrinal : `autorites/abd-al-qadir-al-jilani.md`, `sources/koly-cherif-keita-djinns-aident-humains.md`. → source candidate partielle.
+
+**13.** `doctrinal/sources/universal-man-jili.md` (source, 2026-06-05). Mots-clés : abd al karim al jili, al insan al kamil, wahdat al wujud.
+raw : `raw/universal-man.pdf` — **titre exact**. biblio : `quatre-mondes-hindouisme-soufisme.md`, `abreviations-hindouisme-soufisme.md`. doctrinal : `autorites/abd-al-karim-al-jili.md`, `sources/barzakh-nur-lh.md`. → **source candidate forte, non nommée**.
+
+**14.** `doctrinal/symboles/tibb-e-nabawi.md` (symbole, 2026-06-05). Mots-clés : ibn qayyim, ibn sina, medecine-islamique, sunnah.
+raw : co-occurrence seule (`Le Théosophisme…/Dr A. Auvard Médecine ésotérique…`). biblio : `introduction-ihwan-al-safa.md`. doctrinal : `autorites/ibn-qayyim.md`, `autorites/ibn-sina.md`. → source absente.
+
+**15.** `doctrinal/sources/conversation-llm-intellect-2026-06-11.md` (source, 2026-06-11 — 12 827 o). Mots-clés : modalite intellect, tawil, intellect.
+raw : co-occurrences d'index guénoniens. biblio : `introduction-ihwan-al-safa.md`, `lumiere-hindouisme-soufisme.md`, `majma-al-bahrayn…`. doctrinal : `autorites/ibn-arabi.md`. → source absente (conversation interne ; `sources: []` plausible).
+
+**16.** `doctrinal/sources/hasbiyallah-rabbani.md` (source, 2026-06-18). Mots-clés : asma al husna, faraz rabbani, shukr, hasbiyallah.
+raw : co-occurrences (`La-Puissance-Du-Serpent.md`). biblio : `disciplines-spirituelles-hindouisme-soufisme.md`, `lumiere-hindouisme-soufisme.md`. doctrinal : `autorites/faraz-rabbani.md`, `autorites/hamza-yusuf.md`. → source candidate (`qaṣīda` ; auteur identifié).
+
+**17.** `doctrinal/deviations/technologisation-pseudo-scientifique.md` (deviation, 2026-06-20). Mots-clés : new-age, pseudo-science, technologisation.
+raw : `raw/Aperçu sur l'initiation/Mentalité scolaire et pseudo-initiation…`, `raw/Le Règne de la Quantité/Mythologie scientifique…`. doctrinal : `autorites/rene-guenon.md`, `sources/2026-07-03_guenon-tombeau-hermes.md`. → source candidate (Guénon) ; `sources: []` alors que le dossier est contre-traditionnel.
+
+**18.** `doctrinal/discernement/2026-06-20_pierres-astres-barzakh.md` (discernement, speculatif). Mots-clés : visions centre nocturne, ahmad al buni, fal wa tatayyur, citations-a-verifier.
+raw : `raw/Symboles de la Science sacrée - René Guénon/Les pierres de foudre…`. biblio : `catalogue-bibliotheque.md`. doctrinal : `sources/manifeste-corpus-symboles-science-sacree.md`. → source candidate (Guénon, *Les pierres de foudre*) ; la fiche porte elle-même `citations-a-verifier` et `validation-non-hedgee` en tags.
+
+**19.** `doctrinal/discernement/2026-06-20_signaletique-spirituelle-kiswa.md` (discernement, speculatif). Mots-clés : fal wa tatayyur, rene guenon, ibn arabi, kiswa.
+raw : `raw/Le Caire, 14 juillet 1937 Correspondance avec Patrice Genty…`. biblio : `catalogue-bibliotheque.md`, `eckstein-porte-du-ciel.md`. doctrinal : `autorites/charles-andre-gilis.md`, `autorites/michel-valsan.md`, `autorites/rene-guenon.md`. → source candidate.
+
+**20.** `doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana.md` (etude, traditionnel). Mots-clés : rene guenon, ibn arabi, raison-discursive, upakarana.
+raw : `raw/Le Caire, 14 juillet 1937 Correspondance…`. biblio : `catalogue-bibliotheque.md`. doctrinal : `autorites/rene-guenon.md`, `autorites/charles-andre-gilis.md`. → source candidate.
+
+**21.** `doctrinal/symboles/alam-al-mithal.md` (symbole, 2026-06-20 — 821 o, tag `stub`). Mots-clés : ibn arabi, mithal, imaginal.
+raw : `raw/Histoire et Classification de l'oeuvre d'Ibn Arabi-Osman Yahya.pdf`. biblio : `disciplines-spirituelles-hindouisme-soufisme.md`, `lumiere-hindouisme-soufisme.md`. doctrinal : `autorites/michel-valsan.md`. → source candidate (Ibn ʿArabī) ; fiche `stub`.
+
+**22.** `doctrinal/symboles/animaux-en-reve-comparatisme.md` (symbole, académique). Mots-clés : taabir al ruya, sanatana dharma, oniromancie.
+raw : `raw/Études sur l'Hindouïsme/… Index…31.md`, `raw/Histoire et Classification…pdf`. doctrinal : `sources/guenon-etats-multiples-ch13…`. → source candidate.
+
+**23.** `doctrinal/symboles/ashhab.md` (symbole, académique — 757 o). Mots-clés : poesie-arabe, ashhab, philologie.
+raw : co-occurrence seule (`Le don des langues…`). biblio : `glossaires-porte-du-ciel.md`, `index-rig-veda.md`. doctrinal : `sources/tilak-culture-aryenne-primitive-ch13.md`, `tilak-origine-polaire-tradition-vedique.md`. → source absente en propre ; piste : corpus Tilak.
+
+**24.** `doctrinal/symboles/axe-corde-en-reve.md` (symbole, académique). Mots-clés : habl allah, oniromancie, comparatisme.
+raw : co-occurrence seule. biblio : `catalogue-bibliotheque.md`, `index-rig-veda.md`. doctrinal : `sources/dara-shukuh-majma-al-bahrayn-ch7…`, `sources/guenon-kundalini-yoga…`. → source absente en propre.
+
+**25.** `doctrinal/symboles/bindu.md` (symbole, traditionnel). Mots-clés : sanatana dharma, nada, bindu, tantra, vedanta.
+raw : `raw/Études sur l'Hindouïsme/… Index…31.md`, `raw/La-Puissance-Du-Serpent.md`. biblio : `abreviations-hindouisme-soufisme.md`, `disciplines-spirituelles-hindouisme-soufisme.md`. doctrinal : `sources/guenon-homme-devenir-vedanta-ch10-15-16…`. → source candidate (Guénon / hindouisme).
+
+=== STATISTIQUES ===
+Fiches investiguées : **25** (sur 170 détectées ; 145 hors tranche)
+Fiches portant un **candidat fichier `raw/` (nom de fichier)** : **18**
+  — dont correspondance de **titre exact** : **6** (`Awrad_Ibn_Arabi.pdf`, `Jesus_And_Enoch_In_Ibn_'arabi.pdf`, `universal-man.pdf`, `islam-and-artificial-intelligence.pdf`, `ILM AL-NUJÛM…pdf`, `shams-al-maarif-traduit-complet.pdf`)
+Sources candidates identifiées : **raw/ : 18** · **atelier/rd/bibliotheque/ : 25** · **doctrinal/ : 25**
+Sources absentes en propre (co-occurrence seule) : **3** (`symboles/ashhab.md`, `symboles/axe-corde-en-reve.md`, `symboles/tibb-e-nabawi.md`)
+Fiches sans aucune correspondance : **0**
+Par type investigué : 10 `symbole`, 9 `source`, 2 `discernement`, 1 `autorite`, 1 `deviation`, 1 `etude`, 1 `tradition`
+
+=== SIGNALLEMENTS ===
+**A. `type: source` dont le texte primaire est dans `raw/` mais que le Sceau ni le corps ne nomment** (4 cas — les plus actionnables) :
+- `doctrinal/sources/jesus-and-enoch-in-ibn-arabi.md` ↔ `raw/Jesus_And_Enoch_In_Ibn_'arabi.pdf` (aucune mention de `raw/`, `pdf`, « source brute » dans la fiche)
+- `doctrinal/sources/universal-man-jili.md` ↔ `raw/universal-man.pdf` (idem)
+- `doctrinal/sources/islam-and-artificial-intelligence.md` ↔ `raw/islam-and-artificial-intelligence.pdf` (idem)
+- `doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle.md` ↔ `raw/LA FIN DES TEMPS MODERNES 'ILM AL-NUJÛM - ASTROLOGIQUE TRADITIONNELLE.pdf` (idem)
+*Contre-exemples, tracés correctement* : `sources/awrad-ibn-arabi.md` (`:39`) et `sources/shams-al-maarif.md` (`:41-48`) nomment leur fichier.
+*Rappel de portée* : pour un `type: source`, `sources: []` est la norme (la fiche **est** la source) — ces quatre cas sont des **candidats à instruire**, jamais une faute établie.
+
+**B. Corpus transversal** : `raw/Histoire et Classification de l'oeuvre d'Ibn Arabi-Osman Yahya.pdf` ressort sur **8 fiches** de la tranche (awrad, jesus-and-enoch, salawat, wird-awrad, ilm-al-nujum ×2, alam-al-mithal, animaux-en-reve, pierres-astres, signaletique-kiswa) — nœud documentaire du dépôt pour tout le versant Ibn ʿArabī.
+
+**C. `raw/shams-al-maarif-arabe/`** — dossier versé le 2026-09-13, contient `edition-a-shamela_shams-al-maarif.pdf`, `edition-b-scan_shams-al-maarif.pdf`, leurs OCR, `traduction-ouattara_…txt`, `PROVENANCE.md`. **Aucune fiche index-livre ne le référence** ; il n'est cité que par `doctrinal/sources/shams-al-maarif.md`.
+
+**D. Signaux de texte (§1, repris)** : `sources: []` sur 62 fiches non-`source` (vs 16 `to-source`) ; `autorites/rene-guenon.md:22/24/25` portant des fiches `deviation` dans `sources:` ; `atelier/materiel/technics-su-8080.md:21` (fait personnel en circuit neutre).
+
+**E. État publication** : aucun bloc `publication:` dans le dépôt, aucune fiche `label/` à `sorti|valide` — file d'attente du mandat site **vide**.
+
+=== CONCLUSION ===
+Référencement : le fonds ancien (juin 2026) est **entièrement couvert par au moins une piste**, six fiches `type: source` ont leur texte primaire identifié dans `raw/` sans être nommées, et la conformité mécanique est stable (0 erreur, 71 avertissements tous de la classe C5/C6 déjà tranchée, −2 par correction réelle) ; **la prochaine priorité d'investigation est la tranche 26-50 des `sources_count: 0`** (145 fiches restantes, anti-enlisement), avec inscription en tête de file des **quatre `type: source` dont le PDF est dans `raw/` sans être nommé**.
+
+**Suggestions soumises à validation** (Discord-Validation — aucune correction appliquée, aucun fichier modifié ; scripts jetables en `/tmp`, hors dépôt) :
+1. Trancher le sens de `sources: []` sur les 62 fiches non-`source` (état délibéré **ou** `to-source` dû) — une règle générale éviterait 62 verdicts au cas par cas.
+2. Trancher l'usage de `sources:` accueillant des fiches `type: deviation` (`autorites/rene-guenon.md`).
+3. Trancher `atelier/materiel/technics-su-8080.md:21` (provenance personnelle = fait neutre d'objet, ou fait personnel à déplacer ?).
+
+Signé : **Publication (veille référencement & investigation)**
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").
