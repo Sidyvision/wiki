@@ -4,7 +4,7 @@ type: infrastructure
 chantier: PRO-08
 tags: [textes, sources, conversions, obsidian, infrastructure]
 created: 2026-09-02
-updated: 2026-09-14
+updated: 2026-09-15
 sources: []
 links:
   - "[[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent]]"
@@ -96,6 +96,7 @@ supprime à la racine.
 | `les-etats-multiples-de-l-etre/` | 19 |
 | `les-principes-du-calcul-infinitesimal/` | 26 |
 | `les-quatre-mondes-daryush-shayegan/` | 1 |
+| `orient-et-occident/` | 13 — versé le 2026-09-15, voir plus bas |
 | `symboles-de-la-science-sacree-rene-guenon/` | 84 |
 
 ## Second versement du 2026-09-02 — les deux Tilak
@@ -300,6 +301,23 @@ Sidy, pas sur le document —, et les fautes de frappe du véhicule (`spritual` 
 portent 57 entrées distinctes par le jeu des blocs `See also:` ; rien n'y dit combien le
 lexique en compte. Ce qui se dit de ce document se dit dans
 `doctrinal/sources/qamus-language-of-the-future.md`, qui porte le Sceau et le statut.
+
+## Versement du 2026-09-15 — *Orient et Occident* (Guénon, coupures web)
+
+Treize coupures prises le 2026-09-13 sur l'Index de l'œuvre de René Guénon (sigle
+`OO`) par Obsidian Web Clipper, déposées dans `raw/Orient et Occident/`, versées
+dans `orient-et-occident/`. **Voie `raw/` → `textes/`**, par versement **ciblé** : le
+script de migration n'a pas été relancé en mode global, qui recopierait tout `raw/`
+et écraserait les nettoyages consignés depuis le 2026-09-14.
+
+**Vérifications** : `filecmp` — **13 / 13 identiques octet pour octet** à leur
+source ; gardes G1 et G2 rejouées sur le dossier, 0 refus ; Cmd 15 — aucun
+caractère invisible.
+
+**Lacunes de la capture, conservées telles quelles** : la conclusion s'arrête au
+milieu de sa dernière phrase, et la page « Addendum » est vide. Détail et remède
+dans `orient-et-occident/index-conversion.md`. Ce qui se dit de l'ouvrage se dit dans
+`doctrinal/sources/guenon-orient-et-occident.md`.
 
 ## Ce qui reste ouvert
 

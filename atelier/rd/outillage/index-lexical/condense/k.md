@@ -2,8 +2,8 @@
 title: "Index lexical — k"
 type: artefact-derive
 tags: [index-lexical, artefact-derive]
-created: 2026-09-09
-updated: 2026-09-09
+created: 2026-09-15
+updated: 2026-09-15
 sources: []
 links: []
 ---
@@ -13,18 +13,20 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `kabbale` | Kabbale, kabbale | — | — | annotation, table, tag, titre | **63 fiches** | quelques-considerations-sur-l-hermetisme-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +73 | 465 |
-| `karubi` | KARUBI, Karubi, Karūbī, karubi | — | — | table, tag, titre, translit | **41 fiches** | isaghuji-cours01-introduction-transcription.md +1 | 376 |
+| `karubi` | KARUBI, Karubi, Karūbī, karubi | — | — | table, tag, titre, translit | **47 fiches** | isaghuji-cours01-introduction-transcription.md +1 | 386 |
 | `kundalini` | Kundalini, Kundalinî, Kundalinī, Kuṇḍalinī (+3) | — | — | annotation, tag, translit | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +7 | 297 |
-| `kitab` | Kitab, Kitâb, Kitāb, kitab (+3) | — | — | table, titre, translit | **40 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +8 | 234 |
-| `kari-kumi` | Kari-kumi, kari-kumi | — | — | annotation, table, tag, titre | **101 fiches** | karubi-mehdi-navette-20260812.md | 211 |
+| `kari-kumi` | Kari-kumi, kari-kumi | — | — | annotation, table, tag, titre | **119 fiches** | karubi-mehdi-navette-20260812.md | 261 |
+| `kitab` | Kitab, Kitâb, Kitāb, kitab (+3) | — | — | table, titre, translit | **52 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +9 | 250 |
 | `khatm` | Khatm, khatm | — | ✓ islam | annotation, table, tag, titre | **25 fiches** | sept-etendards-califat-transcription.md | 98 |
+| `kyoto` | Kyoto, Kyōto | — | — | table, translit | [[hermeneutique/auteurs/yoji-shinkawa]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/philosophie-sashimono]] | 00-front-matter.md +15 | 92 |
+| `kouyate` | Kouyaté, kouyate | — | — | table, tag, titre | **27 fiches** | — | 91 |
 | `kursi` | Kursî, Kursī, kursi, kursî (+1) | — | — | annotation, table, tag, titre, translit | **21 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 86 |
-| `kali-yuga` | KALI-YUGA, Kali-Yuga, Kâli-Yuga, kali-yuga | — | — | annotation, table, tag | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] · [[doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge]] · [[doctrinal/symboles/atlantide]] · [[doctrinal/symboles/manvantara]] | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +35 | 79 |
-| `khalwa` | Khalwa, khalwa | — | ✓ islam | annotation, table, tag, titre | **24 fiches** | karubi-mehdi-navette-20260812.md +1 | 76 |
+| `kali-yuga` | KALI-YUGA, Kali-Yuga, Kâli-Yuga, kali-yuga | — | — | annotation, table, tag | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation]] · [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] · [[doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge]] · [[doctrinal/sources/guenon-lettre-genty-1937-07-14]] · +2 | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +36 | 83 |
+| `khalwa` | Khalwa, khalwa | — | ✓ islam | annotation, table, tag, titre | **25 fiches** | karubi-mehdi-navette-20260812.md +1 | 80 |
 | `khassa` | khassa, khāṣṣa | — | — | translit | **11 fiches** | karubi-mehdi-navette-20260812.md | 71 |
-| `kouyate` | Kouyaté, kouyate | — | — | table, tag, titre | **20 fiches** | — | 60 |
+| `kumiko` | Kumiko, kumiko | — | — | table, tag | **38 fiches** | — | 68 |
+| `kamon` | Kamon, kamon | — | — | annotation, table, tag, titre | **13 fiches** | — | 60 |
 | `krittikas` | KRITTIKAS, KrittikAs, Krittikas, Krittikâs (+1) | — | — | annotation, table, tag | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/tilak-orion-antiquite-vedas-1893]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +9 | 58 |
-| `kumiko` | Kumiko, kumiko | — | — | table, tag | **30 fiches** | — | 57 |
 | `kether` | Kether, kether | — | — | annotation, table, tag | **17 fiches** | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +9 | 56 |
 | `kalam` | Kalam, Kaläm, kalam, kalâm (+2) | — | — | translit | **14 fiches** | isaghuji-cours01-introduction-transcription.md +9 | 53 |
 | `kaf` | Kaf, Kâf, kaf, kâf (+1) | — | — | translit | **13 fiches** | sept-etendards-califat-transcription.md +3 | 50 |
@@ -33,10 +35,9 @@ links: []
 | `kali` | Kali, Kâli, Kâlî, kali | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge]] | la-puissance-du-serpent.md +8 | 45 |
 | `khanda` | Khanda, Khaṇḍa, khanda | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas]] | la-puissance-du-serpent.md +21 | 44 |
 | `krishna` | Krishna | — | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md +16 | 40 |
-| `kojima` | Kojima, kojima | `小島秀夫` | — | annotation, table, tag, titre | **15 fiches** | — | 39 |
 | `kaaba` | Kaaba | — | — | table | **11 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +2 | 38 |
 | `kalimat` | Kalimat, Kalimât, Kalimät, Kalîmat (+3) | — | — | translit | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/autorites/ibn-arabi]] · [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · +3 | sept-etendards-califat-transcription.md +4 | 38 |
-| `kamon` | Kamon, kamon | — | — | annotation, table, tag, titre | [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/symboles/tomoe]] · [[label/direction-artistique/amorcage/kamon-personnel]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 35 |
+| `kojima` | Kojima, kojima | `小島秀夫` | — | annotation, table, tag, titre | **15 fiches** | — | 38 |
 | `kundalini-yoga` | KUNDALINÎ-YOGA, Kundalinî-Yoga, Kundalinî-yoga, Kundalinī-yoga | — | — | table, titre, translit | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +3 | 32 |
 | `kshatriya` | Kshatriya, kshatriya | — | — | annotation, tag | [[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion]] · [[doctrinal/symboles/noblesse-spirituelle]] | initiation-sacerdotale-et-initiation-royale-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +11 | 31 |
 | `kulli` | kulli, kullî, kullī | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +3 | sept-etendards-califat-transcription.md +4 | 29 |
@@ -49,16 +50,21 @@ links: []
 | `khatim` | Khâtim, Khātim, khatim, khâtim (+1) | — | ⚖ islam | annotation, table, tag, titre, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] · [[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]] · [[doctrinal/symboles/khatm]] · [[meta/carte-doctrinal]] · +3 | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +1 | 20 |
 | `kobra` | Kobra, Kobrâ, Kobrā, kobrâ (+1) | — | — | translit | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] | iv.md | 17 |
 | `kha` | Kha, kha, khâ, khâʾ (+1) | — | — | translit | [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | la-puissance-du-serpent.md +1 | 15 |
+| `kumano` | Kumano | — | — | table | [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] | 01-a.md +6 | 15 |
 | `khayal` | khayal, khayâl, khayāl | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 14 |
 | `khalifa` | Khalifa, Khalīfa, khalîfa, khalīfa | — | — | translit | [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] · [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect]] · [[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]] · [[doctrinal/sources/conversation-llm-intellect-2026-06-11]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · +3 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 13 |
 | `koishi` | Koishi, koishi | — | — | definition, tag | [[atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure]] · [[atelier/rd/outillage/2026-08-16_cordis-composabilite-spatiotemporelle]] · [[atelier/rd/veille/cordis/equations]] · [[atelier/rd/veille/cordis/methodes]] · [[meta/carte-du-depot-atelier]] · +1 | — | 12 |
 | `kabir` | kabir, kabîr, kabīr | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] | formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon-12.md +1 | 11 |
+| `kante` | Kanté, kante | — | — | table, tag, titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala]] · [[meta/genealogie/arbre-genealogique-sissoko]] · +3 | — | 11 |
+| `keita` | Keita | — | — | table, titre | [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/symboles/shamharush]] · [[meta/carte-du-depot]] · [[meta/personnel/sidy]] | LISEZ-MOI.md +1 | 11 |
 | `khaja` | KHAJA, Khaja, Khâja, Khāja | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +2 | 11 |
 | `khalil` | Khalil, Khalīl | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/imam-malik]] · [[doctrinal/traditions/madhhab-maliki]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] · [[meta/projet-unifie/propositions/proposition-pole-usul-2026-08-27]] | osman-yahya-00-front-matter.md | 11 |
 | `koshas` | koshas | — | — | annotation, tag | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] · [[doctrinal/symboles/atma]] · [[doctrinal/symboles/jivatma]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | les-enveloppes-du-soi-les-cinq-vayus-ou-fonctions-vitales-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md | 11 |
-| `kante` | Kanté, kante | — | — | table, tag, titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/genealogie/arbre-genealogique-sissoko]] · [[meta/genealogie/hawa-kante]] · +2 | — | 10 |
+| `kobo` | Kōbō | — | — | translit | [[hermeneutique/auteurs/hideo-kojima]] · [[hermeneutique/death-stranding/death-stranding]] | 10-j.md +3 | 10 |
+| `koly` | Koly | — | — | table, titre | [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/symboles/shamharush]] · [[meta/carte-du-depot]] · [[meta/personnel/sidy]] | LISEZ-MOI.md | 10 |
 | `kankounan` | Kankounan | — | — | table, titre | **9 fiches** | — | 9 |
 | `kaoru` | Kaoru | — | — | table | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/personnel/2026-06-20_noms-symboles-financiers]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 9 |
+| `karim` | Karim, Karîm, karim, karîm | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya]] · [[doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | sciences-traditionnelles-et-modernite-pdf-soufisme.md +2 | 9 |
 | `karshvar` | Karshvar, karshvar | — | — | annotation, tag | [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]] · [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]] | — | 9 |
 | `kashani` | Kashâni, Kâshânî | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] · [[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]] | les-quatre-mondes.md | 9 |
 | `khidr` | Khidr, Khiḍr, khidr | — | — | table, tag, translit | [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]] · [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]] | 11-k.md +3 | 9 |
@@ -66,6 +72,7 @@ links: []
 | `khutba` | Khutba, Khuṭba, khutba | — | — | translit | [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]] · [[doctrinal/sources/wazifa]] · [[doctrinal/symboles/khatm]] | — | 8 |
 | `kuhn` | Kuhn | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md +4 | 8 |
 | `kuyo` | Kuyō, kuyō | — | — | translit | [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] | — | 8 |
+| `karana-sharira` | kârana-sharîra, kārana-sharīra | — | — | translit | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] · [[doctrinal/sources/guenon-lettre-genty-1937-07-14]] | guenon-correspondance-genty-1937-07-14-le-caire.md +3 | 7 |
 | `keme` | Kemè | — | — | table, titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/genealogie/arbre-genealogique-sissoko]] · [[meta/genealogie/keme-kante]] · +2 | — | 7 |
 | `khatam` | Khâtam | — | — | table | [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] · [[doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh]] · [[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]] · [[doctrinal/symboles/khatm]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +1 | 7 |
 | `kochab` | Kochab | — | — | table | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] | — | 7 |
@@ -74,6 +81,7 @@ links: []
 | `kutsa` | Kutsa | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch08-the-cows-walk.md +2 | 7 |
 | `keter` | Keter | — | — | table | [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] · [[doctrinal/sources/sefer-yetsira-ramban]] · [[doctrinal/sources/sefer-yetsira-ramban_source]] | sefer-yetsira-ramban.md | 6 |
 | `kheops` | Khéops | — | — | table | [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 6 |
+| `kogoshui` | Kogoshūi | — | — | translit | [[doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite]] · [[doctrinal/traditions/shinto]] | 09-i.md +1 | 6 |
 | `konami` | Konami | — | — | table | [[atelier/etudes-de-cas/kojima-productions]] · [[hermeneutique/auteurs/hideo-kojima]] · [[hermeneutique/auteurs/yoji-shinkawa]] | — | 6 |
 | `korsi` | Korsi, Korsî, korsi, korsī | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | les-disciplines-spirituelles.md +1 | 6 |
 | `krama-mukti` | krama-mukti | — | — | tag | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] | l-artere-coronale-et-le-rayon-solaire-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +4 | 6 |
@@ -91,8 +99,6 @@ links: []
 | `khafiya` | Khafiya, khafiya, khafîya, khafīya | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] | les-disciplines-spirituelles.md +1 | 5 |
 | `khaldun` | Khaldûn, Khaldün, Khaldūn | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] | osman-yahya-00-front-matter.md +1 | 5 |
 | `khurthan` | Khurthan, Khurthân | — | — | table | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 5 |
-| `kobo` | Kōbō | — | — | translit | [[hermeneutique/auteurs/hideo-kojima]] · [[hermeneutique/death-stranding/death-stranding]] | — | 5 |
-| `kyoto` | Kyoto, Kyōto | — | — | table, translit | [[hermeneutique/auteurs/yoji-shinkawa]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/philosophie-sashimono]] | — | 5 |
 | `kapila` | Kapila, kapila | — | — | annotation, tag | [[doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya]] | le-sankhya.md +1 | 4 |
 | `kasf` | Kasf, kasf, kašf | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md | 4 |
 | `khass` | khâss, khāṣṣ | — | — | translit | [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]] · [[doctrinal/sources/ibn-arabi-fard-afrad-gilis]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md | 4 |
@@ -106,7 +112,6 @@ links: []
 | `kiepert` | Kiepert | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch11-the-avestic-evidence.md | 3 |
 | `kobayakawa` | Kobayakawa | — | — | table | [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/symboles/tomoe]] | — | 3 |
 | `krttika` | Kṛttikā | — | — | table, translit | [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] · [[doctrinal/sources/tilak-orion-antiquite-vedas-1893]] | index-conversion.md | 3 |
-| `kumano` | Kumano | — | — | table | [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] | — | 3 |
 | `kalal` | kalâl, kalāl | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `katifa` | kaṯîfa | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `khadir` | Khadir, khadir | — | — | tag | [[doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 2 |
@@ -116,4 +121,6 @@ links: []
 | `koshchei` | Koshchei | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |
 | `khatm-al-walaya` | khatm-al-walaya | — | ⚖ islam | annotation, tag | [[doctrinal/symboles/manazil-al-qamar]] | — | 1 |
 | `kumiko serait trop fort` | kumiko serait trop fort | — | — | definition | [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] | — | 1 |
+| `kamon-kouyate` | kamon-kouyaté | — | — | tag | [[hermeneutique/expression/2026-09-15_kamon-kouyate-navigation-direction-artistique]] · [[meta/chantier-kamon-kouyate]] · [[meta/lot-synthese-kamon-kouyate-2026-09-15]] | — | 0 |
+| `khuddam` | khuddam | — | — | tag | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] | — | 0 |
 | `knowledge-representation` | knowledge-representation | — | — | tag | [[doctrinal/sources/alshammari-llm-ontologie-hadith-2026]] | — | 0 |

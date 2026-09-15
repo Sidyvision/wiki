@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 182,
+  "avertissements": 213,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -1724,7 +1724,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
       "lacunes_to_source": 0
     },
@@ -1810,6 +1810,19 @@
       "tags": [],
       "updated": "2026-09-09",
       "chemin": "atelier/rd/incidents/2026-09-09_marques-de-direction-ocr-futuhat.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya",
+      "label": "Incident de méthode — amortissement d'un constat doctrinal en note bibliographique (traduction Fazl-ul-Karim de l'Ihyâ')",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": "resolu",
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-09-14",
+      "chemin": "atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya.md",
       "lacunes_to_source": 0
     },
     {
@@ -2026,6 +2039,47 @@
       ],
       "updated": "2026-09-13",
       "chemin": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills",
+      "label": "File d'attente morte — 238 écritures de skills stagées, jamais appliquées",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "agents",
+        "skills",
+        "porte-ecriture",
+        "anomalie",
+        "flotte-hermes"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-09-15_integration-mcp-ansari",
+      "label": "Intégration du serveur MCP Ansari — une dépendance tierce déclarée",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "mcp",
+        "agents",
+        "interop",
+        "dependance-tiers"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "atelier/rd/infrastructure/2026-09-15_integration-mcp-ansari.md",
       "lacunes_to_source": 0
     },
     {
@@ -2533,7 +2587,7 @@
         "slm",
         "materiel"
       ],
-      "updated": "2026-09-07",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan.md",
       "lacunes_to_source": 0
     },
@@ -2555,7 +2609,7 @@
         "materiel",
         "comparaison"
       ],
-      "updated": "2026-09-07",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec.md",
       "lacunes_to_source": 0
     },
@@ -3669,7 +3723,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/a.md",
       "lacunes_to_source": 0
     },
@@ -3685,7 +3739,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/b.md",
       "lacunes_to_source": 0
     },
@@ -3701,7 +3755,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/c.md",
       "lacunes_to_source": 0
     },
@@ -3717,7 +3771,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/d.md",
       "lacunes_to_source": 0
     },
@@ -3733,7 +3787,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/e.md",
       "lacunes_to_source": 0
     },
@@ -3749,7 +3803,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/ecritures-originales.md",
       "lacunes_to_source": 0
     },
@@ -3765,7 +3819,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/f.md",
       "lacunes_to_source": 0
     },
@@ -3781,7 +3835,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/g.md",
       "lacunes_to_source": 0
     },
@@ -3797,7 +3851,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/h.md",
       "lacunes_to_source": 0
     },
@@ -3813,7 +3867,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/hub.md",
       "lacunes_to_source": 0
     },
@@ -3829,7 +3883,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/i.md",
       "lacunes_to_source": 0
     },
@@ -3845,7 +3899,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/j.md",
       "lacunes_to_source": 0
     },
@@ -3861,7 +3915,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/k.md",
       "lacunes_to_source": 0
     },
@@ -3877,7 +3931,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/l.md",
       "lacunes_to_source": 0
     },
@@ -3893,7 +3947,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/m.md",
       "lacunes_to_source": 0
     },
@@ -3909,7 +3963,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/n.md",
       "lacunes_to_source": 0
     },
@@ -3925,7 +3979,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/o.md",
       "lacunes_to_source": 0
     },
@@ -3941,7 +3995,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/p.md",
       "lacunes_to_source": 0
     },
@@ -3957,7 +4011,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/q.md",
       "lacunes_to_source": 0
     },
@@ -3973,7 +4027,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/r.md",
       "lacunes_to_source": 0
     },
@@ -3989,7 +4043,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/s.md",
       "lacunes_to_source": 0
     },
@@ -4005,7 +4059,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/t.md",
       "lacunes_to_source": 0
     },
@@ -4021,7 +4075,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/u.md",
       "lacunes_to_source": 0
     },
@@ -4037,7 +4091,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/v.md",
       "lacunes_to_source": 0
     },
@@ -4053,7 +4107,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/w.md",
       "lacunes_to_source": 0
     },
@@ -4069,7 +4123,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/x.md",
       "lacunes_to_source": 0
     },
@@ -4085,7 +4139,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/y.md",
       "lacunes_to_source": 0
     },
@@ -4101,7 +4155,7 @@
         "index-lexical",
         "artefact-derive"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/condense/z.md",
       "lacunes_to_source": 0
     },
@@ -4114,7 +4168,7 @@
       "status": null,
       "tradition_cadre": null,
       "tags": [],
-      "updated": "2026-09-09",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/outillage/index-lexical/index-lexical.md",
       "lacunes_to_source": 0
     },
@@ -4244,6 +4298,69 @@
       "updated": "2026-09-05",
       "chemin": "atelier/rd/outillage/out-15-sampling-cordis/skill-prototype/SKILL.md",
       "lacunes_to_source": 2
+    },
+    {
+      "id": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/intent",
+      "label": "OUT-17 — Contrôles manquants de la file d'écritures de skills : intention",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "chantier",
+        "intent",
+        "skills",
+        "controles"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/intent.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/plan",
+      "label": "OUT-17 — Contrôles manquants de la file d'écritures de skills : plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "chantier",
+        "plan",
+        "skills",
+        "controles"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/spec",
+      "label": "OUT-17 — Contrôles manquants de la file d'écritures de skills : spécification",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "chantier",
+        "spec",
+        "skills",
+        "controles"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/spec.md",
+      "lacunes_to_source": 0
     },
     {
       "id": "atelier/rd/outillage/robustesse-documents-persona-llm",
@@ -4426,7 +4543,7 @@
         "chantiers",
         "pilotage"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/registre-chantiers.md",
       "lacunes_to_source": 0
     },
@@ -4537,6 +4654,30 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local",
+      "label": "Soup CLI / Soup Zero — post-entraînement local d'un LLM (relevé pour INF-16)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "veille",
+        "post-entrainement",
+        "fine-tuning",
+        "lora",
+        "slm",
+        "souverainete",
+        "mlx",
+        "cuda",
+        "quantisation",
+        "infra-16"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/veille/cordis/equations",
       "label": "Cordis — équations clés du paradigme",
       "circuit": "atelier",
@@ -4630,7 +4771,7 @@
         "veille",
         "registre"
       ],
-      "updated": "2026-08-18",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/veille/registre.md",
       "lacunes_to_source": 0
     },
@@ -6883,6 +7024,32 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "label": "Confrontation — Curt Jaimungal et les théoriciens assistés par machine, au crible d'Orient et Occident",
+      "circuit": "doctrinal",
+      "sous_dossier": "etudes",
+      "type": "etude",
+      "status": "academique",
+      "tradition_cadre": "universel",
+      "tags": [
+        "ia",
+        "llm",
+        "pseudo-theorie",
+        "theorie-du-tout",
+        "vulgarisation",
+        "demi-instruction",
+        "rattachement",
+        "guenon",
+        "orient-et-occident",
+        "upakarana",
+        "jihad-al-akbar",
+        "antagoniste"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/2026-07-03_guenon-tombeau-hermes",
       "label": "René Guénon — « Le Tombeau d'Hermès » (Formes traditionnelles et Cycles cosmiques)",
       "circuit": "doctrinal",
@@ -7230,6 +7397,27 @@
       ],
       "updated": "2026-09-09",
       "chemin": "doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya",
+      "label": "La traduction anglaise de l'Ihyâ' par Fazl-ul-Karim (Dacca, 1971) — méthode déclarée et mesure de l'abrègement",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "academique",
+      "tradition_cadre": "islam",
+      "tags": [
+        "ghazali",
+        "ihya",
+        "traduction",
+        "abregement",
+        "fazl-ul-karim",
+        "sources-primaires",
+        "a-trancher"
+      ],
+      "updated": "2026-09-14",
+      "chemin": "doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya.md",
       "lacunes_to_source": 0
     },
     {
@@ -8223,6 +8411,29 @@
       ],
       "updated": "2026-09-09",
       "chemin": "doctrinal/sources/guenon-octogone.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/guenon-orient-et-occident",
+      "label": "Orient et Occident (Guénon)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "universel",
+      "tags": [
+        "guenon",
+        "orient-et-occident",
+        "science-profane",
+        "scientisme",
+        "vulgarisation",
+        "elite-intellectuelle",
+        "syncretisme",
+        "tradition",
+        "principes"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "doctrinal/sources/guenon-orient-et-occident.md",
       "lacunes_to_source": 0
     },
     {
@@ -11979,7 +12190,7 @@
         "geometrie",
         "japon"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "label/direction-artistique/amorcage/kamon-personnel.md",
       "lacunes_to_source": 0
     },
@@ -13498,6 +13709,41 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills",
+      "target": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills",
+      "target": "atelier/rd/infrastructure/2026-09-15_integration-mcp-ansari",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-15_integration-mcp-ansari",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-15_integration-mcp-ansari",
+      "target": "atelier/rd/outillage/2026-09-08_serveur-mcp-wiki",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-15_integration-mcp-ansari",
+      "target": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
@@ -13780,6 +14026,13 @@
     {
       "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec",
       "target": "atelier/rd/infrastructure/cartographie-routing-infrastructure",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec",
+      "target": "atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -15129,6 +15382,55 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/intent",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/intent",
+      "target": "atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/intent",
+      "target": "atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/plan",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/plan",
+      "target": "atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/spec",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/spec",
+      "target": "atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/outillage/robustesse-documents-persona-llm",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
@@ -15243,6 +15545,34 @@
     {
       "source": "atelier/rd/registre-chantiers",
       "target": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local",
+      "target": "atelier/rd/veille/registre",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local",
+      "target": "atelier/rd/registre-chantiers",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -19651,6 +19981,55 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/sources/guenon-orient-et-occident",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/deviations/pseudo-initiation-et-syncretisme",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "target": "doctrinal/deviations/technologisation-pseudo-scientifique",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/2026-07-03_guenon-tombeau-hermes",
       "target": "doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien",
       "champ": "cross_links",
@@ -19961,6 +20340,27 @@
     {
       "source": "doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025",
       "target": "doctrinal/symboles/alam-al-mithal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya",
+      "target": "doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya",
+      "target": "doctrinal/sources/histoire-wahhabis-corancez-redissi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya",
+      "target": "doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -21130,6 +21530,34 @@
     {
       "source": "doctrinal/sources/guenon-octogone",
       "target": "doctrinal/symboles/barzakh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-orient-et-occident",
+      "target": "doctrinal/autorites/rene-guenon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-orient-et-occident",
+      "target": "doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-orient-et-occident",
+      "target": "doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/guenon-orient-et-occident",
+      "target": "doctrinal/deviations/pseudo-initiation-et-syncretisme",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
