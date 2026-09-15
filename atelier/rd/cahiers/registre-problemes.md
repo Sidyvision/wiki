@@ -30,6 +30,36 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] Clôture du jugement — 31 positions réservées : 10 skills créés, 16 rejetées, 5 pièces greffées
+
+- **Suite des deux entrées du même jour** (append-only, non réécrites). Méthode :
+  chaque sujet présenté à Sidy avec son contenu **lu**, une recommandation et les
+  réserves qui lui appartiennent ; verdict rendu **sujet par sujet**, consigné verbatim.
+- **Résultat mesuré** : **10 skills créés** (7 `default`, 3 `gardien`), **16 positions
+  rejetées** et archivées avant retrait. Vérification indépendante : frontmatter YAML
+  valide et descriptions dans le budget de 60 caractères pour les dix.
+- **Cinq pièces greffées plutôt que perdues**, toutes reprises **de l'archive** — aucune
+  reconstruite de mémoire. Dont **deux renvois morts réparés** : un skill créé déclarait
+  des fichiers dont la position vivait dans un **autre enregistrement** de la file,
+  écarté par ailleurs. *Un skill n'est pas complet parce qu'il a été créé : ses renvois
+  doivent être confrontés au disque après création.*
+- **Compréhension tirée (complément au §VII)** : sur ce dispositif, trois vérifications
+  manquaient, et chacune a coûté un silence — **à l'entrée** (rien ne valide la
+  proposition contre le contrat du magasin : 60 caractères, YAML, champ `name:`), **en
+  file** (rien ne publie ce qui est retenu), **à la sortie** (rien ne confronte les
+  renvois déclarés aux fichiers réellement livrés). Le troisième défaut n'a été vu
+  qu'en créant : deux renvois morts sur dix skills.
+- **Fait répété, trois fois dans la même journée** : le fork a proposé la compétence qui
+  décrivait **le travail en cours** — `mcp-server-integration` en fin de matinée,
+  `hermes-skill-store-operations` à 00:10, `verdict-gated-work` à 01:02. Il ne se souvient
+  pas de ses propositions : il repart de la conversation. C'est la même cause que les 29
+  redites de `hermes-multi-profile-ops`, observée en direct.
+- **Liens** : [[atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills]]
+  (§7, étapes 1 à 3) ; annales atelier `[2026-09-15]`.
+- **Statut** : `ouvert` — options C/D (porte et fork) non tranchées, **aucun signal** sur
+  la file, et trois points nés de la passe : deux scripts de croisement quasi identiques,
+  **aucune procédure pour la vidéo**, une position neuve (`verdict-gated-work`) non jugée.
+
 ## [2026-09-15] Suite — le jugement de la file est exécuté, et un second défaut apparaît
 
 - **Suite de l'entrée du même jour** (non réécrite — append-only) : le jugement a été

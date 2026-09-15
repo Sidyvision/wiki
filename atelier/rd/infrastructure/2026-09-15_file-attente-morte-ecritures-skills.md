@@ -340,3 +340,43 @@ Les 30 réservées — familles `karubi-*`, `transmission`, `doctrinal-*`, `wiki
 - **Un signal manque toujours.** Rien ne publie l'état de la file ; c'est le défaut de fond du §3, il n'est pas corrigé.
 - **Les 30 réservées n'ont pas été jugées.**
 
+### Étape 3 — les 31 positions réservées, jugées une à une (2026-09-15, ~01:05 UTC)
+
+**Méthode** : chaque sujet présenté à Sidy avec son contenu lu, sa recommandation et les réserves qui lui appartiennent ; verdict rendu sujet par sujet, consigné verbatim. Un sujet à la fois, comme demandé.
+
+**Résultat : 10 skills créés (7 `default`, 3 `gardien`), 16 positions rejetées et archivées.**
+
+| Skill créé | Profil | Contenu | Pièces |
+|---|---|---:|---|
+| `karubi-provisioning` | `gardien` | pipeline complet d'un canal Karūbī (noms conservés : Mehdi, Wendel, bots) | + recette-canal-telegram.md, + persona-claude.md, + hermes-gateway.service.tmpl |
+| `karubi-transmissions` | `gardien` | dispositif de transmission : génération, scellement, navette, remise (Cmd 13) | + registre-format.md |
+| `depot-doctrinal-integration` | `gardien` | **posture de vérification** : discipline des sources, index d'abord, croisement | + tarifat-crossmatch.py |
+| `doctrinal-integration` | `default` | passe de production : workflows A/B/C, commits en deux temps, annales | + croisement-tarifat.py, + tarifat-corpus-state.md |
+| `hermes-skill-store-operations` | `default` | la file d'écritures de skills, son dépouillement, ses internes | + drain-skill-queue.py, + write-approval-queue-internals.md |
+| `hermes-character-profiles` | `default` | profils d'agent, SOUL.md, frontières sacrées/profanes, politique de mémoire | + karubi-soul-template.md |
+| `structured-spiritual-interview` | `default` | conduite des entretiens et dépôt dans le wiki | + raw-filename-pitfall.md, + pieges-documentes.md |
+| `taabir-ruya` | `default` | repérage littéral dans le corpus d'Ibn Sīrīn — « jamais du taʿbīr » | + symboles-clefs.md |
+| `hermes-scoped-gateway` | `default` | mécanisme générique de passerelle scopée sous compte non-root | — |
+| `deterministic-integrity-tooling` | `default` | outillage déterministe, zones scellées, append-only | — |
+
+**Seize positions rejetées**, toutes copiées à l'archive avant retrait : `scoped-correspondent-channel` (2), `sanad-wiki-maintenance`, `wiki-transmission`, `wiki-source-integration` (2), `hermes-profile-isolation`, `doctrinal-wiki-ingest`, `doctrinal-source-integration`, `doctrinal-source-ingestion`, `wiki-doctrinal-depot`, `sidy-wiki-interview`, `wiki-interview-deposit` (2), `biographical-interview-deposit`, `reminiscence-interview`.
+
+**Cinq pièces greffées plutôt que perdues**, toutes reprises **de l'archive** — aucune reconstruite de mémoire :
+
+| Pièce | Reçue par | Pourquoi elle manquait |
+|---|---|---|
+| `templates/hermes-gateway.service.tmpl` | `karubi-provisioning` | déclarée par le SKILL.md, sa position avait été écartée au jugement de masse : **renvoi mort** |
+| `references/persona-claude.md` | `karubi-provisioning` | gabarit de persona de `scoped-correspondent-channel`, écarté comme redite |
+| `references/tarifat-corpus-state.md` | `doctrinal-integration` | idem : **renvoi mort** réparé |
+| `references/raw-filename-pitfall.md` | `structured-spiritual-interview` | pièce de `wiki-interview-deposit`, écarté comme variante |
+| `references/pieges-documentes.md` | `structured-spiritual-interview` | section « Pièges documentés » de `sidy-wiki-interview`, extraite **verbatim**, ligne de provenance ajoutée |
+
+**Deux jugements corrigés en cours de route, déclarés plutôt que lissés.** Le partage proposé « famille outillage » était faux pour trois de ses cinq sujets (deux redites, un sans champ `name:`), et `doctrinal-integration` avait été annoncé côté `default` alors que sa position vivait dans la file `gardien`. Les deux erreurs sont dans l'historique de cette fiche, pas effacées.
+
+**Trois points ouverts nés de cette passe :**
+
+1. **Deux scripts de croisement quasi identiques** — `croisement-tarifat.py` (5 037 o., `default`) et `tarifat-crossmatch.py` (5 744 o., `gardien`) font le même travail. Chacun est déclaré par son skill : en retirer un casserait un renvoi. La divergence est **déclarée, non arbitrée**.
+2. **La vidéo n'a aucune procédure.** La famille doctrinale couvre photo (lot dans `raw/`) et PDF ; Sidy a mentionné la vidéo, et rien ne la traite.
+3. **Une position de plus est arrivée pendant la passe** — `verdict-gated-work` (7 386 o., 01:02, `background_review`), proposée par le fork **pendant** qu'on vidait sa file. Troisième occurrence du même fait : le fork propose la compétence qui décrit le travail en cours. **Non jugée.**
+
+
