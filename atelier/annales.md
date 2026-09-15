@@ -10,6 +10,26 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/outillage | `valider-index-livres.py` : dossier `raw/` en NFD retrouvé
+
+- Sidy a redéposé dans `raw/` les photos du Marquet et de Tilak (34 et 17 fichiers). Le
+  validateur signalait encore `H4 dossier_raw introuvable` pour Tilak : le dossier arrivé de
+  l'iPad écrit « é » en NFD, la fiche en NFC, et seul le nom déclaré était normalisé. Défaut
+  plus grave que le signal : **H1 (photo déclarée absente) ne s'armait pas** — fail-open.
+- Correctif : les noms présents sur disque sont normalisés eux aussi avant comparaison.
+- **Épreuve** (raw jetable en NFD, IMG_0088 retirée) : validateur corrigé → **refus** H1 ;
+  ancien validateur sur le même cas → vert (H4 seul). Dépôt réel → 0 bloquante, H4 disparu.
+- **Commit** : 34751e0
+
+## [2026-09-15] rectification | Autorisations : 6 règles retirées, non 7
+
+- L'entrée « Exécution des propositions du rapport Studio du 2026-09-15 » ci-dessous annonce
+  **7 règles** retirées de `settings.local.json`. La règle `Bash(python3 -c ' *)` a été
+  **rétablie** le soir même sur demande de Sidy, qui l'avait configurée délibérément : le bilan
+  réel est de **6 règles** (`allow` 233 → 227). L'entrée d'origine n'est pas réécrite
+  (append-only) ; la présente fait foi sur ce point. Fiche-contrat rectifiée au §7.
+- **Commit** : d2ef974
+
 ## [2026-09-15] rd/outillage | `valider-index-livres.py` limité aux fiches `index-livre`
 
 - Verdict de Sidy (« oui, limite le validateur »). Le validateur examinait tout `index-*.md` et
