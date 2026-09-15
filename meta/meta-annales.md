@@ -13,6 +13,14 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] restauration | Journal tawakkul-transition : sources nommées
+
+- Verdict de Sidy sur le signalement C du rapport Publication du 2026-09-15 : « Tu peux corriger ».
+- `journal/2026-06-18-tawakkul-transition.md` déclarait `sources_count: 3` sans champ `sources:`.
+  Ajouté : `[[hasbiyallah-rabbani]]`, `[[hamza-yusuf]]`, `[[platon]]` — les trois sources que le
+  corps cite lui-même (livret de Rabbani, « source : » l. 25 et l. 45).
+- **Commit** : e8733c4
+
 ## [2026-09-15] protocole | Type neutre « référence » adopté ; réexamen « Érudition académique » mis en queue
 
 - Proposition `meta/projet-unifie/propositions/proposition-type-reference-2026-09-15.md` passée à

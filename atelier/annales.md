@@ -10,6 +10,17 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] restauration | Brouillons zodiacaux : section natale retirée (§VI)
+
+- Verdict de Sidy sur le signalement D du rapport Publication du 2026-09-15 : « Corrige ».
+- Les 12 brouillons `rd/cahiers/brouillons-extension-zodiacale/` : section « Your sign in Sidy's
+  natal chart » vidée et remplacée par une note de retrait ; `README.md` (convention, point 2)
+  débarrassé des positions du thème. Vérifié avant retrait : 11 sections identiques au prompt
+  correspondant du Domaine réservé ; **`09-studio-virgo` différait** — sa version retirée ne
+  subsiste que dans l'historique git (commit parent de celui ci-dessous).
+- Contrôles : plus aucune donnée natale dans les circuits (`grep`), invariants 0 erreur / 71.
+- **Commit** : e8733c4
+
 ## [2026-09-15] rd/infrastructure | Traitement des rapports Studio et Publication des 14 et 15 septembre
 
 - Consigne de Sidy : « Traites les derniers rapport des agents Publication et Studio ». Quatre

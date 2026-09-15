@@ -9,6 +9,13 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] restauration | Discernement Fard : données de naissance retirées (§VI)
+
+- Verdict de Sidy sur le signalement D du rapport Publication du 2026-09-15 : « Corrige ».
+- [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]] : date, heure et lieu de
+  naissance retirés du Récit (ils vivent au Domaine réservé) ; aucun autre changement de fond.
+- **Commit** : e8733c4
+
 ## [2026-09-15] verdict | Statut `profane` validé pour ʿAbduh, Riḍā et al-Afghānī
 
 - **Verdict de Sidy** : « oui, je valide le statut profane ».
