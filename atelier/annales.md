@@ -10,6 +10,19 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] infrastructure | File d'attente morte — déduplication exécutée (215 → 155), jugement par sujet ouvert (traitement, étape 1)
+
+- **Verdict de Sidy** (formulaire, 2026-09-15) : « Dédupliquer puis juger par sujet — je dédup les 62 redites, je vous présente la liste courte des candidats, le reste est rejeté » ; puis, sur le registre : « Oui, dépose-la maintenant — c'est mon accord nominatif ». Les deux réponses sont consignées **verbatim** au §7 de la fiche.
+- **Déduplication exécutée** : règle — pour chaque couple (skill, action), **seule la position la plus récente survit**. **215 → 155 positions**, **60 rejetées** (`default` 55, `gardien` 3, `studio` 2 ; `publication` et `marketing` sans redite).
+- **Voie employée et réversibilité** : `write_approval.discard_pending` — la fonction même qu'appelle `/skills reject`. Le rejet se fait **par la porte**, pas à côté d'elle. **Aucun fichier détruit** : chaque position rejetée est copiée dans `pending/skills/rejetees-2026-09-15/` du profil concerné, avec un `MANIFESTE.md` portant la règle, la liste et la procédure de restauration (Cmd 10).
+- **Écart déclaré** : la fiche annonçait 62 redites (relevé de 00:14) ; la règle exacte appliquée à 00:45 en mesure **60**. Le stock bougeait pendant qu'on le comptait — réserve inscrite en tête de fiche, non lissée après coup.
+- **État de la file** : 155 positions (`default` 113, `gardien` 21, `studio` 14, `publication` 5, `marketing` 2), **105 sujets distincts**, regroupés en **46 grappes** par premier jeton du nom — la grappe `wiki` pèse à elle seule **27 sujets et 268 Ko** de contenu proposé, `hermes` 16 sujets et 147 Ko.
+- **Liste courte présentée** : **22 candidats nets** (le plus volumineux de chaque grappe, ≥ 8 Ko proposés) sur 105 sujets ; les **83 autres** proposés comme **rejetables** (redites de sujet). Tableau complet par grappe au §7 de la fiche. **Rien n'est rejeté à ce stade** : la liste est soumise, le jugement se prend par grappe, sur un mot.
+- **Le registre** : l'entrée « Une porte qui retient depuis 38 jours, sans que rien ne le dise » est **déposée** au `atelier/rd/cahiers/registre-problemes.md`, statut `ouvert`, `updated:` du cahier remonté au 2026-09-15. Seconde entrée de ce cahier à exiger un accord explicite de Sidy : la première (2026-09-13) l'avait obtenu en levée nominative de l'interdiction portée par un mandat.
+- **Ce que la passe laisse ouvert** : le jugement des 105 sujets (22 candidats proposés) ; les options **C** (éteindre la porte) et **D** (éteindre le fork) **non tranchées** — avec le fait qui pèse dessus : les éteindre ne priverait d'**aucune** écriture demandée en session, la file ne contenant **que** du `background_review`.
+- **Contrôles** : `verifier-invariants.py --racine /root/wiki` — **0 erreur**, 71 avertissements (C5/C6 antérieurs, inchangés).
+- **Commit** : `7dd8278` (fiche §7 + registre)
+
 ## [2026-09-15] infrastructure | File d'attente morte — 238 écritures de skills stagées depuis 38 jours, aucune appliquée (constat avant traitement)
 
 - **Origine du constat** : découverte incidente, en cherchant la surface d'approbation d'une correction de skill (`hermes-agent`, référence `references/native-mcp.md`). Le stock lui-même est alors apparu : 168 positions au profil `default`, 24 `gardien`, 16 `studio`, 5 `publication`, 2 `marketing`.
