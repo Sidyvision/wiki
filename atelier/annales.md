@@ -10,6 +10,20 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] infrastructure | File d'attente morte — jugement exécuté : 11 skills créés, 118 rejetées, 30 réservées (traitement, étape 2)
+
+- **Verdict de Sidy**, verbatim : « Mais il suffit d'accepter les requêtes légitimes et c'est tout », puis, en cours de passe : « oui crée le skill s'il est légitime et bon pour l'infrastructure ».
+- **Trois règles déclarées** : **R1** une requête qui en redit une autre n'est pas une requête légitime *distincte* (l'examen des descriptions montre jusqu'à 13 variantes pour le même sujet — la liste mécanique de 80 « approuvables » de l'étape 1 triait par volume, pas par sujet) ; **R2** une requête qui refait un skill **déjà installé** n'est pas appliquée (famille `github-*`, `research-paper-analysis`, `wiki-vault-sync`) ; **R3** tout ce qui touche la personne, la transmission, le doctrinal, les interviews ou les dispositifs nominatifs est **réservé**.
+- **Résultat mesuré** : **11 skills créés** (9 `default`, 1 `gardien`, 1 `studio`), **118 positions rejetées** et archivées, **30 positions réservées laissées dans la file**. Détail au §7 de la fiche.
+- **Vérification indépendante** : les 11 `SKILL.md` sont sur le disque, frontmatter YAML valide, nom conforme, description ≤ 60 caractères — **11/11** — et le chargeur les liste en `local / enabled` (`hermes skills list --source local`). Rien de tout cela ne repose sur l'auto-rapport du script d'application.
+- **Second défaut, découvert en appliquant** : **cinq des onze requêtes retenues étaient inaptes au magasin qu'elles visaient** — description au-delà du **budget de 60 caractères** du registre des skills, et deux frontmatter YAML invalides (deux-points non guillemeté). Elles n'auraient **pas pu** s'appliquer même porte ouverte : la file contenait donc deux silences superposés.
+- **Ce qui a été réparé, et rien de plus** : la seule ligne `description:` du frontmatter, remplacée par une phrase de ≤ 60 caractères (ce qui borne le bloc et répare les deux YAML). Aucun autre octet du contenu proposé. L'enregistrement d'origine de chaque requête corrigée est conservé dans l'archive (`applique-forme-reparee-<id>.json`) : la version appliquée ne se substitue pas, dans la trace, à la version proposée.
+- **Compréhension tirée** : *retenir n'est pas protéger si ce qu'on retient est inapplicable.* Un garde-fou qui stocke sans valider fabrique deux silences au lieu d'un — la file invisible, et l'inaptitude invisible. Complément au §VII : tout dispositif qui retient doit **publier ce qu'il retient** et **confronter ce qu'il retient au contrat de sa destination**.
+- **Le registre** : entrée de **suite** déposée au `atelier/rd/cahiers/registre-problemes.md` — l'entrée d'origine du même jour n'est **pas réécrite** (append-only).
+- **Ce que la passe laisse ouvert** : les options **C** (éteindre la porte) et **D** (éteindre le fork) toujours non tranchées — avec un argument de plus, la file se remplissant seule et une part de son contenu étant inapte par construction ; **aucun signal** ne publie l'état de la file (défaut de fond, non corrigé) ; les **30 réservées** non jugées.
+- **Contrôles** : `verifier-invariants.py --racine /root/wiki` — **0 erreur**, 71 avertissements (C5/C6 antérieurs, inchangés).
+- **Commit** : `b131cdf` (fiche §7 + suite au registre)
+
 ## [2026-09-15] infrastructure | File d'attente morte — déduplication exécutée (215 → 155), jugement par sujet ouvert (traitement, étape 1)
 
 - **Verdict de Sidy** (formulaire, 2026-09-15) : « Dédupliquer puis juger par sujet — je dédup les 62 redites, je vous présente la liste courte des candidats, le reste est rejeté » ; puis, sur le registre : « Oui, dépose-la maintenant — c'est mon accord nominatif ». Les deux réponses sont consignées **verbatim** au §7 de la fiche.
