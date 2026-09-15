@@ -30,6 +30,34 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] Suite — le jugement de la file est exécuté, et un second défaut apparaît
+
+- **Suite de l'entrée du même jour** (non réécrite — append-only) : le jugement a été
+  exécuté le 2026-09-15 sur trois règles déclarées — **R1** une requête qui en redit une
+  autre n'est pas une requête distincte ; **R2** une requête qui refait un skill déjà
+  installé n'est pas appliquée ; **R3** tout ce qui touche la personne, la transmission ou
+  le doctrinal est **réservé**.
+- **Résultat mesuré** : **11 skills créés** (9 `default`, 1 `gardien`, 1 `studio`),
+  **118 positions rejetées** et archivées, **30 réservées** laissées dans la file.
+  Vérification indépendante : 11/11 sur le disque, frontmatter YAML valide, description
+  ≤ 60 caractères, et contrôle croisé par le chargeur de skills.
+- **Second défaut, découvert en appliquant** : **cinq des onze requêtes retenues étaient
+  inaptes au magasin qu'elles visaient** — description au-delà du budget de 60 caractères
+  du registre des skills, et deux frontmatter YAML invalides. Elles n'auraient pas pu
+  s'appliquer **même porte ouverte**. La forme seule a été réparée (ligne `description:`
+  remplacée), l'enregistrement d'origine étant conservé dans l'archive.
+- **Compréhension tirée** : *retenir n'est pas protéger si ce qu'on retient est
+  inapplicable.* Un garde-fou qui stocke sans valider fabrique deux silences au lieu d'un :
+  la file invisible, et l'inaptitude invisible. Le complément du §VII pour ce cas : **tout
+  dispositif qui retient doit publier ce qu'il retient, et confronter ce qu'il retient au
+  contrat de sa destination** — ici, avant de mettre en file.
+- **Liens** : [[atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills]]
+  (§7, étape 2) ; annales atelier `[2026-09-15]` (trois passes) ; entrée du même jour
+  ci-dessous (diagnostic d'origine).
+- **Statut** : `ouvert` — la question du fork et de la porte n'est pas tranchée, aucun
+  signal ne publie l'état de la file, et les 30 positions réservées attendent un verdict
+  nominatif.
+
 ## [2026-09-15] Une porte qui retient depuis 38 jours, sans que rien ne le dise
 
 - **Symptôme** : `skills.write_approval: true` dans 12 profils sur 13 ; **215 positions**

@@ -291,3 +291,52 @@ La déduplication exacte ne suffit pas : **105 sujets distincts subsistent**, do
 **Total : 105 sujets — 22 candidats nets (≥ 8000 o.), 83 rejetables.**
 
 Rien n'est rejeté à ce stade : la liste est soumise, le jugement se fait par grappe, sur un mot. La porte et le fork restent **inchangés** — les options C et D du §5 demeurent ouvertes.
+
+### Étape 2 — jugement par sujet, exécuté (2026-09-15, ~00:40 UTC)
+
+**Verdict de Sidy**, consigné verbatim : « Mais il suffit d'accepter les requêtes légitimes et c'est tout », puis, en cours de passe : « oui crée le skill s'il est légitime et bon pour l'infrastructure ».
+
+**Trois règles déclarées**, appliquées à la lettre :
+
+1. **R1** — une requête qui redit une autre requête n'est pas une requête légitime *distincte* : une seule survit, la plus complète. L'examen des descriptions a montré 13 variantes pour « travailler dans `/root/wiki` », 8 pour « flotte Hermes », 7 pour « scan/OCR » : la liste mécanique de 80 « approuvables » de l'étape 1 était donc trompeuse — elle triait par volume, pas par sujet.
+2. **R2** — une requête qui refait un skill **déjà installé** n'est pas appliquée (ex. toute la famille `github-*`, qui refaisait `github-issues`, `github-repo-management`, `github-pr-workflow` ; `research-paper-analysis`, qui refaisait `research-paper-writing` ; `wiki-vault-sync`, qui refaisait `obsidian`).
+3. **R3** — tout ce qui touche la personne, la transmission, le doctrinal, les interviews ou les dispositifs nominatifs est **réservé** : ni approuvé, ni rejeté, laissé dans la file au verdict de Sidy.
+
+**Résultat mesuré** : **11 skills créés**, **118 positions rejetées** (archivées), **30 positions réservées** laissées dans la file.
+
+| Profil | Skill créé | Poids |
+|---|---|---:|
+| `default` | `mcp-server-integration` | 7 495 o. |
+| `default` | `wiki-change-journaling` | 7 122 o. |
+| `default` | `hermes-gateway-operations` | 7 175 o. |
+| `default` | `scan-to-verified-corpus` | 6 882 o. |
+| `default` | `open-source-project-investigation` | 7 831 o. |
+| `default` | `rd-veille` | 6 060 o. |
+| `default` | `multi-agent-collaboration` | 5 560 o. |
+| `default` | `git-hooks` | 6 190 o. |
+| `default` | `astrology-ephemeris` | 3 477 o. |
+| `gardien` | `discord-operations` | 3 870 o. |
+| `studio` | `governed-correction-pass` | 7 123 o. |
+
+**Vérification indépendante** : les 11 `SKILL.md` sont sur le disque, frontmatter YAML valide, nom conforme, description ≤ 60 caractères — **11/11**. Contrôle croisé par le chargeur : `hermes skills list --source local` les liste en `local / enabled`. Aucune de ces affirmations ne repose sur l'auto-rapport du script d'application.
+
+#### Le second défaut, découvert en appliquant
+
+**Cinq des onze requêtes retenues n'auraient pas pu être appliquées même porte ouverte.** Le magasin de skills refuse toute description dépassant **60 caractères** (« must fit the 60-char system-prompt budget — one sentence, trigger first, ends with a period ») et deux des frontmatter YAML proposés étaient invalides (deux-points dans une valeur non guillemetée). Ce sont des propositions **inaptes au magasin qu'elles visaient**.
+
+La forme a donc été réparée — et **seulement la forme** : la ligne `description:` du frontmatter a été remplacée par une phrase de ≤ 60 caractères (ce qui répare du même coup les deux YAML invalides, en bornant le bloc). **Aucun autre octet du contenu proposé n'a été touché.** L'enregistrement d'origine de chaque requête ainsi corrigée est copié dans l'archive (`applique-forme-reparee-<id>.json`) : la version appliquée ne se substitue pas, dans la trace, à la version proposée.
+
+Conséquence pour le diagnostic du §3 : la porte n'était pas le seul obstacle. Un dispositif qui **retient** des écritures que le magasin **refusera** produit exactement le même silence — et de fait, la file contenait les deux.
+
+#### Rejet et réserve, réversibles
+
+Les 118 positions rejetées sont **copiées** avant retrait dans `pending/skills/rejetees-2026-09-15/` du profil concerné (188 copies au total avec la passe de déduplication), et la même voie a été employée que pour l'étape 1 : `write_approval.discard_pending`, la fonction de `/skills reject` (Cmd 10).
+
+Les 30 réservées — familles `karubi-*`, `transmission`, `doctrinal-*`, `wiki-doctrinal`, interviews (`sidy-wiki-interview`, `structured-spiritual-interview`, `reminiscence-interview`, `biographical-interview-deposit`), `hermes-character-profiles` (zones sacrées/profanes), `hermes-scoped-gateway` et `scoped-correspondent-channel` (isolation de compte Unix), `deterministic-integrity-tooling` (sceaux) — **restent dans la file, intactes**. Elles attendent un verdict nominatif, sujet par sujet.
+
+#### Ce qui n'est pas résolu
+
+- **La question du fork et de la porte (options C et D du §5) n'est pas tranchée.** Le fait qui pèse dessus est désormais double : la file se remplit toute seule (une position de plus pendant cette session), et une part de ce qu'elle contient est inapte par construction — donc **le silence se reformera**, sous deux formes au lieu d'une.
+- **Un signal manque toujours.** Rien ne publie l'état de la file ; c'est le défaut de fond du §3, il n'est pas corrigé.
+- **Les 30 réservées n'ont pas été jugées.**
+
