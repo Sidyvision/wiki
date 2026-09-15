@@ -3,7 +3,7 @@ title: "Registre de veille R&D — journal des scrutations"
 type: registre
 tags: [atelier, rd, veille, registre]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-09-15
 sources: []
 links:
   - "[[atelier/rd/veille/index]]"
@@ -19,6 +19,30 @@ verdict, le lien vers la matière extraite.
 d'avoir qualifié avant de noter. Le registre n'est pas un journal de
 bord (quoi j'ai fait aujourd'hui) mais un journal de décisions (quoi
 j'ai retenu, pourquoi).
+
+---
+
+## [2026-09-15] Investigation — Soup CLI / Soup Zero (post-entraînement local d'un LLM)
+
+**Quoi** : investigation du lien pointé par Sidy (`https://trysoup.dev/zero`), menée **hors de la page** : API GitHub (étoiles, forks, issues, contributeurs, dates), PyPI (version, nombre de releases, contraintes Python), DOI Zenodo, **téléchargement et inspection de la roue 0.75.0** (présence de hooks d'installation, régime de télémétrie) et comptage des téléchargements **miroirs exclus**. Constat de forme d'abord : `/zero` est une page de **concept** (« Coming soon », « Concept preview ») — 3 stations sur 10 livrées — et l'outil réellement utilisable est le CLI Apache-2.0 `soup-cli`.
+
+**Pourquoi** : évaluer la pertinence pour le pôle de souveraineté et pour le chantier `INF-16` (machine d'IA locale et développement SLM), dont les critères 5 (aptitude au fine-tuning), 6 (maturité d'écosystème) et 11 (étanchéité §VI) sont directement concernés.
+
+**Verdict** : **retenu** comme référence technique d'`INF-16`, statut `exploratoire`, **rien engagé** — aucune machine n'existe, la charge de référence n'est pas arrêtée, et rien n'a été installé ni exécuté (le seul poste physique n'a pas de GPU). Apports : un même outil couvre **CUDA et MLX Apple** ; le projet publie ses défauts silencieux et a fait répliquer sa prétention centrale sur du matériel loué, ce qui **rejoint par un autre chemin notre §VII, *Épreuve des contrôles***. Deux motifs d'ingénierie repérables **sans adopter le code** : un verdict committable par run (`soup ship`) et l'exécution d'un run planifié derrière un **jeton de confirmation à usage unique** (`soup mcp serve --allow-execute`).
+
+**Pertinence pour le développement futur** :
+- ✅ critère 6 nourri de faits mesurés (papier, archives de mesure publiées avec leurs retraits, validation externe) plutôt que d'une réputation
+- ✅ compatibilité **MLX** native — seule pièce de ce relevé qui parle à la branche Apple d'`INF-16` (options A/B)
+- ✅ l'artefact produit (adaptateur, GGUF) **reste un bien** même si le GPU est loué — n'informe que la jambe entraînement de l'option E, ne la rouvre ni ne la ferme
+- ⚠️ projet jeune (sept mois, un mainteneur principal, cadence de publication cassante) : version à **épingler** et evals à re-passer avant tout usage
+- ⚠️ question **ouverte, non tranchée** : un adaptateur entraîné sur le corpus **porte** le corpus — le dépôt n'a pas de régime pour cet objet (§VI, critère 11)
+- ⏳ à reprendre le jour où la machine d'`INF-16` est choisie : c'est alors une ligne de matrice, pas avant
+
+**Liens** :
+- Fiche de veille : [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]]
+- Repo : <https://github.com/MakazhanAlpamys/Soup> · PyPI : <https://pypi.org/project/soup-cli/>
+- Page pointée : <https://trysoup.dev/zero> · Validation externe : <https://trysoup.dev/docs/external-validation>
+- Chantier concerné : [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]]
 
 ---
 

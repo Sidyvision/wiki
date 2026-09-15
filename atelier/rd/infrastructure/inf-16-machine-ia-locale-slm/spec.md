@@ -4,7 +4,7 @@ type: infrastructure
 chantier: INF-16
 tags: [atelier, rd, infrastructure, chantier, spec, slm, materiel, comparaison]
 created: 2026-09-07
-updated: 2026-09-07
+updated: 2026-09-15
 sources:
   - "https://www.apple.com/newsroom/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/"
   - "https://www.macworld.com/article/2973459/2026-mac-studio-m5-release-date-specs-price-rumors.html"
@@ -15,6 +15,7 @@ links:
   - "[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]]"
   - "[[atelier/rd/registre-chantiers]]"
   - "[[atelier/rd/infrastructure/cartographie-routing-infrastructure]]"
+  - "[[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]]"
 ---
 
 # INF-16 — Machine d'IA locale et développement SLM : spécification
@@ -126,6 +127,29 @@ critère qui ne l'est pas est retiré plutôt que rempli au jugé.
 | 10 | **Réversibilité (Cmd 10)** | ce qui reste si l'on change d'avis à 6 mois : valeur de revente, engagement, verrou de format |
 | 11 | **Étanchéité §VI** | ce qui sort du dépôt vers un tiers, et sous quelle garantie |
 | 12 | **Charge d'exploitation** | qui l'entretient, et ce que ça ajoute à une infrastructure déjà tendue |
+
+## Relevé du 2026-09-15 — outillage de post-entraînement (critères 5, 6, 11)
+
+Relevé d'une source externe, sur lien pointé par Sidy en session et validé pour
+consignation : [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]]
+(Soup CLI, Apache-2.0). **Il ne remplit aucune cellule** de la matrice — une cellule
+demande une valeur mesurée ou sourcée et datée, pas une aptitude générale — mais il
+informe trois critères :
+
+- **5 (aptitude au fine-tuning)** : un unique outil en ligne de commande couvre SFT,
+  DPO, ORPO, SimPO, KTO et GRPO en LoRA/QLoRA, et prétend entraîner un 8B quantifié
+  sur 4 Go de VRAM (3,32 Go de pic mesuré, répliqué sur du matériel loué).
+- **6 (maturité d'écosystème)** : le fait notable est la couverture **CUDA *et* MLX
+  Apple** par le même outil, papiers et archives de mesure publiés — constat sur un
+  projet réel, non sur une réputation.
+- **11 (étanchéité)** : exécution locale et hors ligne, télémétrie éteinte par défaut ;
+  mais un entraînement sur le corpus du dépôt produirait un **artefact dérivé portant
+  le corpus**, objet dont le dépôt n'a pas encore de régime. **Question ouverte**, non
+  tranchée ici (Cmd 12, Cmd 13).
+
+**Ce que ce relevé ne fait pas** : il ne lève pas `OUT-07` (AngelSpec reste `bloque`
+sur l'absence d'inférence locale) et il ne préjuge pas de la charge de référence, qui
+reste la question 1 en attente.
 
 ## Ce qui est déjà établi (relevé du 2026-09-07)
 
