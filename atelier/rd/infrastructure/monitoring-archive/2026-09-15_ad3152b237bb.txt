@@ -1,0 +1,223 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+```
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-15 (run 09:00 UTC)
+Profil : publication
+Canal : #infrastructure
+```
+
+## §1 — FRONTMATTER CONFORMITY
+
+**Sortie brute de `verifier-invariants.py --racine /root/wiki`** (stdout intégral : `/tmp/vi-run-2026-09-15.txt`, 77 lignes) :
+
+```
+1588 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+AVERTISSEMENTS :
+  [C6] doctrinal/symboles/cinq-noms-ame.md:62 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/symboles/fal-wa-tatayyur.md:26 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/symboles/golem.md:30 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [… 65 lignes identiques de classe, intégral à /tmp/vi-run-2026-09-15.txt …]
+  [C6] doctrinal/autorites/rene-guenon.md:48 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+
+0 erreur(s), 71 avertissement(s).
+```
+
+**Histogramme mécanique des 71 lignes** : `26 × [C5]` (étanchéité inversée au cartouche `cross_links:`) + `45 × [C6]` (même classe, au corps) = 71 · **0 `[C1]`**, **0 `[C7]`**, **0 erreur bloquante** · **38 fichiers distincts** (`traite-emanation-gauche-isaac-ha-kohen.md` 8, `rene-guenon.md` 6, `khatm.md` 4, `guenon-hermetisme-hermes-thoth.md` 4, …). Classe unique, déjà tranchée : verdict Sidy 2026-09-10 (commit `7bef4e1`) — pas de passage en erreur.
+
+**Delta vs veille du 2026-09-14** (rapport archivé `monitoring-archive/2026-09-14_ad3152b237bb.txt`) :
+
+| | 2026-09-14 | 2026-09-15 | Δ |
+|---|---|---|---|
+| fichiers .md contrôlés | 1535 | **1588** | **+53** |
+| erreurs | 0 | 0 | 0 |
+| avertissements | 71 | 71 | **0** |
+| répartition | 26 C5 + 45 C6 | 26 C5 + 45 C6 | identique |
+| C1 / C7 | 0 / 0 | 0 / 0 | — |
+| fichiers distincts | 38 | 38 | identique |
+
+Comparaison à script constant : la dernière modification de `verifier-invariants.py` est le commit `fee2f47` (2026-09-13 15:15), antérieur aux deux runs. Le delta est donc homogène. **Aucun mouvement §1 — pas de régression, pas de correction.** Le dépôt, lui, s'est remis en mouvement : dernier commit `da2db39` (2026-09-15 06:01), +53 fiches depuis la veille.
+
+### Couche sémantique (ce que le script ne voit pas)
+
+- **YAML invalide : 0.** *Faux positif de mon propre parseur, retiré et déclaré* : mon premier parseur (ligne à ligne) avait signalé `atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md:8` (`links: [`) — c'est une **séquence en flux multiligne, YAML valide** ; `yaml.safe_load` en rend 3 items. Rien à signaler au dépôt.
+- **`sources_count` vs `sources:` : 1 écart réel, hors doctrinal.**
+  • `meta/journal/2026-06-18-tawakkul-transition.md` — `sources_count: 3` (ligne 12) et **aucun champ `sources:`** dans le cartouche. Le compte déclare trois sources que rien ne nomme.
+  • Sur `doctrinal/`, **0 écart** au parseur YAML réel (les 4 écarts du 2026-09-12 ne sont pas reproduits ici).
+- **Wikilinks de frontmatter non résolus : 3 cibles distinctes.**
+  • `chatgpt-synthese-kamon-kouyate-2026-09-15` — citée par **5 fiches** : `hermeneutique/expression/2026-09-15_kamon-kouyate-navigation-direction-artistique.md`, `meta/chantier-kamon-kouyate.md`, `meta/genealogie/2026-09-15_{balla-fasseke-kouyate-sosso-bala,difference-et-privilege-vecus,djeliya-conception-familiale}.md`. La cible n'existe qu'en `raw/chatgpt-synthese-kamon-kouyate-2026-09-15.md`. **Ce n'est pas une faute** : `meta/CLAUDE.md` (« Lots nominatifs », ouvert le 2026-09-15, point 3) établit que le label de provenance d'un lot nominatif « **ne résout pas vers une page** » — la pièce est hors git. Usage conforme au protocole.
+  • `label/distribution/strategie-vinyle-300-depositaires.md:20` → `[[label/production/album-01]]` — **cible absente**. `label/production/` ne contient que `album-personnel.md`, `equipe-agents-hermes.md`, `modele-economique.md`, alors que `label/CLAUDE.md` désigne lui-même « la table des slugs de l'album 01, figée dans `label/production/album-01.md` ». Lien mort **et** renvoi protocolaire vers un fichier inexistant.
+  • `label/marketing-communication/fanzine.md:19` → `[[label/marketing-communication/site-dans-labsolu]]` — **cible absente**, aucune fiche de ce nom dans le dépôt.
+- **Étanchéité §VI — sens interdits :** `doctrinal/ → hermeneutique/` : **0** · `atelier/materiel|entretiens/ → doctrinal/` : **0** · `doctrinal/ → label/` : **0** · `label/|hermeneutique/ → meta/` : **0**.
+  • **Un seul angle mort, nouveau : `atelier/ → label/` = 132 wikilinks sur 28 fichiers.** Répartition : **105 dans `atelier/rd/outillage/index-lexical/`** (index dérivé — son cartouche porte `type: artefact-derive`, `generateur: generer-index-lexical.py` ; il cite les fiches `label/` comme occurrences de termes : `[[label/distribution/doctrine-du-don]]`, `[[label/marketing-communication/fanzine]]`, …), **6** dans `atelier/rd/infrastructure/monitoring-archive/registre-traitement.md` (registre des liens traités), **1** `atelier/projets/album-personnel.md:20` (stub `deprecated` pointant sa nouvelle demeure), **1** `atelier/rd/cahiers/registre-problemes.md`, **1** `index.md`, **1** `annales.md` (ces deux derniers **exemptés de C3 par le script** — `FICHIERS_EXEMPTS_C1/C3` — donc non signalables comme violations). Aucun de ces cas n'est consigné au `registre-problemes.md`. Signal de forme : le script exempte `index.md`/`annales.md` mais **pas les artefacts dérivés ni les registres** ; c'est par là que la classe passe.
+- **Faits personnels en circuit neutre (§VI) : 3 signaux, dont 2 nouveaux.**
+  • **NOUVEAU** — **12 fichiers** `atelier/rd/cahiers/brouillons-extension-zodiacale/*.md` (`01-ar-music-aries` → `12-commerce-pisces`, `type: outillage`, `statut_experience: exploratoire`) portent les **données natales** (« 23 June 1986, 19h30 CEST, Bobigny, Placidus ») dans un circuit neutre. Ce sont des brouillons de prompts d'agents : le corollaire agentique (`meta/CLAUDE.md`, 2026-08-09) donne à la couche agentique son propre régime, mais il le fait sous contrepartie et pour des prompts — or ceux-ci vivent en `atelier/rd/cahiers/`, non en `meta/projet-unifie/hermes-prompts/`. **Verdict requis.**
+  • **NOUVEAU** — `doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard.md:36` : « applique progressivement la méthode à **son propre thème (né le 23 juin 1986 à Bobigny, 19h30)** » — fait personnel dans le circuit le plus neutre.
+  • **REPORTÉ** (signalé le 2026-09-14, inchangé) — `atelier/materiel/technics-su-8080.md:21` : « récupéré par Sidy auprès de sa famille ».
+  • Écartés comme faux positifs : 12 occurrences dans `atelier/annales.md`/`CLAUDE.md` et les citations de source (« sa famille » dans un hadith, « loyer du chameau » chez Jurjānī, « monticule blanc » d'un sommaire) — attributions de verdict ou texte reçu, non faits personnels.
+- **Hygiène Unicode (Cmd 15)** : **0** occurrence de U+200B/200C/200D/FEFF/200E/200F sur les 1001 `.md` parcourus.
+- **Sans frontmatter** : 180 fichiers, dont **35 hors `venv`/`README.md`/`CLAUDE.md`** — 33 prompts d'agents en `meta/projet-unifie/hermes-prompts/` (hors régime du Sceau par nature), 1 sortie générée (`atelier/rd/outillage/graphify-out/GRAPH_REPORT.md`), 3 fiches de `meta/` (`migration-2026-06-11.md`, `personnel/echange-eleonore-g.md`, `journal/2026-06-18-entretien-integral.md`).
+- **Surface publication** : `grep -rn '^publication:'` → **0 occurrence** ; fiches `label/` : **6 `en-cours`, 3 `en-gestation`, 2 `idee`**. **File d'attente du mandat site-orchestration vide.**
+
+---
+
+## §2 — DOCUMENTARY INVESTIGATION
+
+Sélection : `doctrinal/` à `sources_count: 0`, **plus anciennes d'abord**, **tranche 26-50**.
+Contrôle de sélection : ma fonction de tri **reproduit exactement la tranche 1-25 du 2026-09-14** (positions 1-25 : awrad-ibn-arabi → bindu) — la sélection est donc homogène d'un jour à l'autre. **Total détecté : 169 fiches éligibles** (tous types, hors `_template.md` et `annales.md`) ; 119 hors tranche. Les 25 d'aujourd'hui sont **toutes de `type: symbole`, créées le 2026-06-20**.
+
+**26.** `doctrinal/symboles/chat-en-reve.md` — *Chat en rêve* (traditionnel). Mots-clés : *(aucun terme distinctif)*. cross_links : taabir-al-ruya, ibn-sirin, al-nabulusi.
+→ raw/ : aucune · biblio : `index-rig-veda.md:488` (« Chat-huant | 394 b » — homonymie, à ne pas confondre avec le chat) · doctrinal : taabir-al-ruya, animaux-en-reve-comparatisme.
+**Recommandation : source absente en propre ; piste = corpus d'oniromancie déjà constitué (`symboles/taabir-al-ruya.md`).**
+
+**27.** `doctrinal/symboles/chaussure-en-reve.md` — *Chaussure (naʿl) en rêve* (traditionnel, tag `stub`). cross_links : taabir-al-ruya, homme-pieux-en-reve.
+→ biblio : `index-rig-veda.md:487` « Chaussure d'Indra | n'est jamais deliee | 527 b, n. 2 ».
+**Recommandation : source candidate (index Rig Veda, occurrence ponctuelle).**
+
+**28.** `doctrinal/symboles/chercheur-manifestant-akbarien.md` — *Doctrine akbarienne du chercheur-manifestant* (traditionnel, tag `citations-fabriquees`). cross_links : ibn-arabi, al-ghazali, rene-guenon.
+→ biblio : `lumiere-hindouisme-soufisme.md:158`, `quatre-mondes-hindouisme-soufisme.md:140` (théophanies/`zohûr-e tafsîlî`) · doctrinal : `discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement.md`.
+**Recommandation : source candidate (Shayegan, *Lumière*/*Quatre mondes*). Le tag `citations-fabriquees` porte déjà le signal de vigilance.**
+
+**29.** `doctrinal/symboles/cheveux-blancs-en-reve.md` — *Cheveux ou poils blancs en rêve* (traditionnel, tag `citations-a-verifier`). cross_links : taabir-al-ruya, ibn-sirin, al-nabulusi, ibn-arabi.
+→ raw/ : `raw/Symboles de la Science sacrée - René Guénon/Le blanc et le noir…Index…md` · biblio : `index-rig-veda.md:728`, `majma-al-bahrayn…:209` · doctrinal : `symboles/ashhab.md`.
+**Recommandation : source candidate (Guénon, *Le blanc et le noir*).**
+
+**30.** `doctrinal/symboles/coeurs-subtils.md` — *Les cœurs subtils (laṭāʾif) et le motif du « deuxième cœur »* (traditionnel). cross_links : al-ghazali, ibn-arabi.
+→ raw/ : 6 fichiers d'index guénoniens (*Symboles de la Science sacrée*) sur le token `coeurs` · biblio : `lumiere-hindouisme-soufisme.md:79` (« les sept centres subtils »), `majma-al-bahrayn…:87`, `disciplines-spirituelles…:20` · doctrinal : `discernement/2026-08-29_sept-poles-sept-lataif.md`, `discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet.md`.
+**Recommandation : source candidate forte — le discernement des sept *laṭāʾif* existe déjà et traite le même objet.**
+
+**31.** `doctrinal/symboles/desir-theophanie.md` — *Désir et théophanie selon Ibn ʿArabī* (traditionnel). cross_links : ibn-arabi, asma-al-husna.
+→ biblio : `disciplines-spirituelles…:246`, `lumiere-hindouisme-soufisme.md:59`, `majma-al-bahrayn…:115` (théophanie) · doctrinal : `symboles/shawq.md`, `symboles/chercheur-manifestant-akbarien.md`.
+**Recommandation : source candidate (Najm Râzî / Shayegan) ; corollaire direct `symboles/shawq.md`.**
+
+**32.** `doctrinal/symboles/elephant-en-reve.md` — *Éléphant en rêve* (traditionnel, `stub`). cross_links : taabir-al-ruya, ibn-arabi, rene-guenon.
+→ biblio : `index-rig-veda.md:171` « Éléphant | 92 b, 95 b ».
+**Recommandation : source candidate (occurrence index), fiche `stub`.**
+
+**33.** `doctrinal/symboles/fal-wa-tatayyur.md` — *Al-Fal wa-l-Taṭayyur* (traditionnel, `stub`, **cross_links : aucun**). Mots-clés : tatayyur.
+→ aucune correspondance au filtre strict · doctrinal (fiches voisines) : `toponymes…` néant ; le terme est traité dans `discernement/2026-06-20_{pierres-astres-barzakh,signaletique-spirituelle-kiswa,triptyque-medine-jeu-de-piste}` et `etudes/2026-09-08_kamon-glossaire-systematique.md`.
+**Recommandation : source absente en propre ; la fiche est aussi **isolée au graphe** (aucun cross_link).**
+
+**34.** `doctrinal/symboles/firasa.md` — *ʿIlm al-Firāsa* (traditionnel). cross_links : istidad, ibn-arabi.
+→ aucune correspondance au filtre strict (le terme `firasa` n'apparaît dans aucun nom de fichier `raw/`, biblio ou doctrinal).
+**Recommandation : source absente ; le sujet relève du domaine oniromancie-divination, même famille que 26/33/45.**
+
+**35.** `doctrinal/symboles/furin.md` — *Furin (風鈴), carillon à vent japonais* (traditionnel). cross_links : traditions/shinto, symboles/alam-al-mithal.
+→ **raw/ : `raw/A-Popular-Dictionary-of-Shinto - Brian Bocking.pdf`** · **doctrinal : `sources/a-popular-dictionary-of-shinto-bocking.md`, `traditions/shinto.md`, `symboles/espace-sacre-shinto.md`**.
+**Recommandation : source candidate établie par tradition — la fiche ne nomme pas le PDF alors que le dépôt en a déjà tiré une fiche `source`.**
+
+**36.** `doctrinal/symboles/habl-allah.md` — *Ḥabl Allāh (corde/lien d'Allah)* (traditionnel). cross_links : axe-corde-en-reve.
+→ biblio : `catalogue-bibliotheque.md:82` (*Le Saint Coran*), `bibliographie-ihwan-al-safa.md:31`, `disciplines-spirituelles…:74` (homologation `so'ham` / `Hû Allâh`) · doctrinal : `symboles/tawakkul.md`, `sources/hasbiyallah-rabbani.md`, `sources/gloton-approche-coran-grammaire-lexique.md`.
+**Recommandation : source candidate (Coran XXXI:22 — verset à citer ; Gloton pour le lexique).**
+
+**37.** `doctrinal/symboles/homme-pieux-en-reve.md` — *Voir un homme pieux vivant en rêve* (traditionnel). cross_links : taabir-al-ruya, ibn-sirin, ibn-arabi, al-ghazali.
+→ raw/ : index guénoniens (`homme`) — co-occurrence, non pertinente · biblio : `catalogue-bibliotheque.md:37` (*L'Homme et son devenir selon le Vêdânta*) · doctrinal : `symboles/chaussure-en-reve.md`.
+**Recommandation : source absente en propre ; piste = corpus oniromancie (ibn-sirin/al-nabulusi, déjà en cross_link).**
+
+**38.** `doctrinal/symboles/imams-noms-divins.md` — *Les Imams des Noms divins — Asmāʾ al-Ḥusnā* (traditionnel). cross_links : asma-al-husna, ibn-arabi.
+→ raw/ : `raw/Le Roi du Monde/Noms et représentations symboliques des centres spirituels…md`, `raw/Aperçu sur l'initiation/Noms profanes et noms initiatiques…md` · biblio : `bibliographie-ihwan-al-safa.md:144` (« l'imam et la société »), `catalogue-bibliotheque.md:98` (**Ar-Râzî, *Traité sur les Noms Divins*, trad. Gloton**) · doctrinal : `symboles/asma-al-husna.md`, `sources/razi-noms-divins-ch18-khafid-rafi.md`, `symboles/cinq-noms-ame.md`.
+**Recommandation : source candidate forte — Ar-Râzî est nommé au catalogue et une fiche `source` en est déjà tirée.**
+
+**39.** `doctrinal/symboles/influx-spirituel-sommet-cranien.md` — *L'influx spirituel au sommet du crâne* (**academique**). cross_links : ibn-arabi, alam-al-mithal.
+→ raw/ : 5 index guénoniens (`spirituel`) ; `Le Roi du Monde/Localisation des centres spirituels…` est la piste réellement pertinente · biblio : `bibliographie-ihwan-al-safa.md:181` (« L'ascension spirituelle… »), `eckstein-porte-du-ciel.md:93` (`kût`/`kannika`, sommet) · doctrinal : `discernement/2026-06-20_origine-jumeau-spirituel.md`, `deviations/confusion-psychique-spirituel.md`.
+**Recommandation : source candidate (Guénon, *Le Roi du Monde* ; Eckstein pour le sommet).**
+
+**40.** `doctrinal/symboles/istidad.md` — *Al-Istiʿdād (disposition réceptive)* (traditionnel). cross_links : firasa, ibn-arabi, deviations/reincarnation-vies-anterieures.
+→ aucune correspondance · biblio (indirect) : corpus Ibn ʿArabī au catalogue.
+**Recommandation : source absente ; piste = `raw/Histoire et Classification de l'œuvre d'Ibn Arabi-Osman Yahya.pdf` (nœud documentaire du versant akbarien, voir Signalement B).**
+
+**41.** `doctrinal/symboles/jinns-classification-couleur.md` — *Classification populaire des jinns par couleur (Akhmar)* (**contre-traditionnel**). cross_links : talisman-sihr, ibn-arabi, sources/koly-cherif-keita-djinns-aident-humains, symboles/shamharush.
+→ raw/ : `raw/Histoire et Classification…Ibn Arabi.pdf` (`classification`) · biblio : `catalogue-bibliotheque.md:143` (Avalon, *La Puissance du Serpent*), `index-rig-veda.md:259` · doctrinal : `sources/osman-yahia-histoire-classification-1964.md`, `discernement/2026-06-20_signaletique-spirituelle-kiswa.md`.
+**Recommandation : source candidate (Osman Yahya) ; statut `contre-traditionnel` cohérent avec la règle du 2026-07-28.**
+
+**42.** `doctrinal/symboles/lieux-saints-france.md` — *Sites saints et sacrés de France — catalogue comparatif* (**academique**). cross_links : rene-guenon.
+→ raw/ : 5 index guénoniens (`sacree`/`saints`/`france`) · biblio : `catalogue-bibliotheque.md:43` (*Symboles de la Science sacrée*), `guenon-symbolisme-du-dome-et-dome-roue.md` · doctrinal : `symboles/muqarnas.md`, `sources/archeometre-saint-yves-papus-1911.md`, `discernement/2026-09-10_tabernacle-honden-interiorite.md`.
+**Recommandation : source candidate partielle (Guénon ; corpus archéométrie pour le comparatisme géographique).**
+
+**43.** `doctrinal/symboles/lignees-celestes-taoisme.md` — *Lignées célestes dans le taoïsme* (**academique**). cross_links : muqarnas.
+→ raw/ : **17 fichiers**, dont 6 index `raw/Aperçus sur l'Ésotérisme islamique et le Taoïsme/…` (token `taoisme`) et `raw/Aperçu sur l'initiation/De la transmission initiatique…` (token `transmission`) · biblio : `abreviations-hindouisme-soufisme.md:82` (*Terre Céleste et Corps de Résurrection*, Corbin), `catalogue-bibliotheque.md:100` (Dabbâgh, *Al-Ibrîz*, « transmission directe, *fatḥ* ») · doctrinal : `sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh.md`, `sources/guenon-angelologie-alphabet-arabe-archetypes-celestes.md`.
+**Recommandation : source candidate forte — Guénon *Aperçus… Taoïsme* est déjà fiché, la fiche ne le nomme pas.**
+
+**44.** `doctrinal/symboles/maqamat-meknes.md` — *Maqâm et zaouïas de Meknès — catalogue* (**academique**). cross_links : traditions/tasawwuf.
+→ raw/ : 4 index `Symboles de la Science sacrée` (token `sacree`, co-occurrence) · biblio : `catalogue-bibliotheque.md:100` (Dabbâgh) · doctrinal : `traditions/tasawwuf.md` (cross_link déclaré — résolu).
+**Recommandation : source absente en propre ; catalogue local — pas de pièce au dépôt.**
+
+**45.** `doctrinal/symboles/marcher-sur-eau-en-reve.md` — *Marcher sur l'eau en rêve* (traditionnel, `stub`). cross_links : taabir-al-ruya, ibn-sirin.
+→ aucune correspondance. **Recommandation : source absente ; même famille oniromancie que 26/33/37.**
+
+**46.** `doctrinal/symboles/merkavah-muraqaba.md` — *Merkavah (מרכבה) et Muraqaba (مراقبة)* (academique, `non-syncretisme`). cross_links : rene-guenon, symboles/khalwa.
+→ aucune correspondance au filtre strict · **pistes vérifiées par tag** : `raw/sefer_yetsira_-_Ramban.pdf` + `raw/sefer-yetsira-ramban.md` (kabbale), `doctrinal/sources/kabbale-10-sefirot-structure.md`, `doctrinal/sources/kabbale-cosmogonie-iod.md`, `doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot.md`.
+**Recommandation : source candidate (corpus Kabbale déjà fiché) ; le tag `non-syncretisme` appelle un `discernement` afférent (Cmd 3).**
+
+**47.** `doctrinal/symboles/muqarnas.md` — *Muqarnas, géométrie sacrée de l'art islamique* (academique, `stub`). cross_links : scarabee-egyptien.
+→ aucune correspondance nominative · **piste** : `atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue.md` et `eckstein-porte-du-ciel.md` (architecture traditionnelle).
+**Recommandation : source candidate (corpus architecture sacrée du catalogue).**
+
+**48.** `doctrinal/symboles/nada.md` — *Nāda (नाद), le son primordial* (traditionnel). cross_links : traditions/sanatana-dharma, symboles/bindu (fait le 2026-09-14).
+→ aucune correspondance au filtre strict (terme trop court/générique) · **piste vérifiée** : `raw/La-Puissance-Du-Serpent.md` + `raw/695841658-La-Puissance-Du-Serpent.pdf`, `doctrinal/sources/avalon-serpent-power-nadis-reseau.md`, biblio `quatre-mondes-hindouisme-soufisme.md`.
+**Recommandation : source candidate (Avalon, *La Puissance du Serpent* — corpus tantrique) ; fiche sœur `bindu.md` couverte la veille.**
+
+**49.** `doctrinal/symboles/nafs-qalb-irritation.md` — *Discerner l'irritation du nafs et celle du qalb* (traditionnel). cross_links : al-ghazali, ibn-arabi.
+→ biblio : `majma-al-bahrayn-hindouisme-soufisme.md:102` (les cinq sens internes) · doctrinal : `deviations/confusion-psychique-spirituel.md` (indirect).
+**Recommandation : source candidate (Shayegan / *Majmaʿ al-Bahrayn*) ; objet = discernement des motions, proche du corpus `nafs`/`qalb`.**
+
+**50.** `doctrinal/symboles/noblesse-spirituelle.md` — *La noblesse spirituelle et sociale (comparatisme)* (traditionnel, tags `comparatisme`, `futuwwa`). cross_links : rene-guenon.
+→ aucune correspondance nominative · **piste vérifiée** : `doctrinal/symboles/futuwwa.md`, `doctrinal/symboles/tawakkul.md`, `doctrinal/traditions/tasawwuf.md`.
+**Recommandation : source candidate interne (corpus futuwwa déjà au dépôt) ; la fiche ne le lie pas.**
+
+```
+=== STATISTIQUES ===
+Fiches investiguées : 25 (tranche 26-50 sur 169 éligibles ; 119 hors tranche)
+Fiches portant un candidat fichier raw/ (nom de fichier, appariement strict) : 6
+Fiches portant une correspondance biblio/ : 15
+Fiches portant une correspondance doctrinal/ : 9
+Sources absentes en propre (aucune correspondance) : 10
+  — 26 chat-en-reve · 33 fal-wa-tatayyur · 34 firasa · 35 furin · 40 istidad ·
+    45 marcher-sur-eau-en-reve · 46 merkavah-muraqaba · 47 muqarnas · 48 nada · 50 noblesse-spirituelle
+  (dont 5 ont une piste vérifiée par tag/voisinage : 35, 46, 47, 48, 50)
+Sources candidates identifiées : raw/ 6 · atelier/rd/bibliotheque/ 15 · doctrinal/ 9
+Sans aucune correspondance, y compris indirecte : 0
+
+=== SIGNALLEMENTS ===
+A. §1 (repris) — 132 wikilinks atelier/ → label/, dont 105 dans l'artefact dérivé
+   `atelier/rd/outillage/index-lexical/` (type: artefact-derive, generateur:
+   generer-index-lexical.py). Le script exempte index.md/annales.md, pas les
+   artefacts dérivés ni les registres. Aucune consignation au registre-problemes.md.
+B. Deux liens label/ morts : label/distribution/strategie-vinyle-300-depositaires.md:20
+   → [[label/production/album-01]] (et label/CLAUDE.md renvoie à ce même fichier absent) ;
+   label/marketing-communication/fanzine.md:19 → [[label/marketing-communication/site-dans-labsolu]].
+C. Un sources_count orphelin : meta/journal/2026-06-18-tawakkul-transition.md
+   — sources_count: 3, aucun champ `sources:`.
+D. Faits personnels en circuit neutre : 12 brouillons
+   atelier/rd/cahiers/brouillons-extension-zodiacale/ (données natales) et
+   doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard.md:36 ; report de
+   atelier/materiel/technics-su-8080.md:21 (signalé le 2026-09-14, inchangé).
+E. Corpus transversal : les index guénoniens de raw/ remontent sur 8 des 25 fiches
+   (tokens `sacree`, `spirituel`, `coeurs`, `homme`) — ils sont un nœud documentaire
+   réel mais leur appariement par token est peu discriminant : à traiter par
+   occurrence d'index, non par fiche.
+F. Fiches `stub` sans cross_link : fal-wa-tatayyur (33) — isolée au graphe.
+G. État publication : aucun bloc `publication:`, aucune fiche label/ à sorti|valide,
+   0 `type: source` doctrinal à glaner dans cette tranche — file du mandat site vide.
+
+=== CONCLUSION ===
+Le référencement du fonds du 2026-06-20 progresse mais la tranche 26-50 est
+documentairement plus pauvre que la précédente : 10 fiches sur 25 sans appariement
+strict (contre 3 la veille), toutes des `symbole` courts couvrant oniromancie,
+comparatisme et art islamique — la prochaine priorité est la **tranche 51-75**,
+avec en tête de file les **5 fiches de cette tranche dont une piste est vérifiée mais
+non liée** (35 furin, 46 merkavah-muraqaba, 47 muqarnas, 48 nada, 50 noblesse-spirituelle).
+
+**Suggestions soumises à validation** (Discord-Validation — aucune correction appliquée, **aucun fichier du dépôt modifié** ; scripts jetables en `/tmp`) :
+1. Trancher les 132 wikilinks `atelier/ → label/` : service d'index (l'artefact dérivé est hors régime §VI) **ou** violation à traiter — et, dans le premier cas, dire si l'exemption de C3 doit être étendue aux artefacts dérivés.
+2. Trancher les deux liens `label/` morts (`album-01`, `site-dans-labsolu`) : cible à créer ou lien à retirer.
+3. Trancher le `sources_count: 3` orphelin de `meta/journal/2026-06-18-tawakkul-transition.md`.
+4. Trancher les données natales en circuit neutre (12 brouillons `atelier/` + 1 fiche `discernement/`) : fait à déplacer vers `meta/`, ou fait de cadrage admis dans le circuit ?
+5. Trancher le sens de `sources: []` sur les 62 fiches non-`source` (point reporté du 2026-09-14, non instruit).
+
+Signé : **Publication (veille référencement & investigation)**
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").
