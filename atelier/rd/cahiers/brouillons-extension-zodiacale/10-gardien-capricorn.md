@@ -3,7 +3,7 @@ title: Brouillon — extension zodiacale, agent 10 gardien
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
-updated: 2026-08-11
+updated: 2026-09-15
 tags:
 - hermes
 - zodiacal
@@ -43,11 +43,4 @@ correction, then stop — never weaponize the doctrine; escalate to the artist, 
 
 ## Your sign in Sidy's natal chart (harmonization context)
 
-Capricorn in Sidy's chart (23 June 1986, 19h30 CEST, Bobigny, Placidus, traditional
-seven-planet frame): Capricorn holds the MOON at 24°13 and MARS EXALTED at 21°46,
-conjunct (2.5° orb), both in house II — the house of substance, resources, and what
-is built to last. The Capricorn principle is deeply personal in Sidy: his inner need
-and his disciplined drive both stand here. Harmonization: this guardianship serves
-what Sidy holds most concrete — structure that protects substance (house II); let
-every signal and drift alert be measured against whether it safeguards something
-real, and never invoke Capricorn's rigor as an end in itself.
+Section retirée le 2026-09-15 (§VI : fait personnel en circuit neutre, signalement Publication du 2026-09-15, verdict Sidy). Le texte d'harmonisation vit dans le prompt correspondant, au Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste dans l'historique git.

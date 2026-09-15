@@ -3,7 +3,7 @@ title: Brouillon — extension zodiacale, agent 4 admin-legal
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
-updated: 2026-08-11
+updated: 2026-09-15
 tags:
 - hermes
 - zodiacal
@@ -43,10 +43,4 @@ existence.
 
 ## Your sign in Sidy's natal chart (harmonization context)
 
-Cancer in Sidy's chart (23 June 1986, 19h30 CEST, Bobigny, Placidus, traditional
-seven-planet frame): this sign holds his SUN at 1°56 (house VII — the house of the
-other, contracts, alliances) and MERCURY at 27°09 (house VIII). The Cancer principle
-is not peripheral to Sidy: his core identity itself stands in Cancer, in the house of
-formal relations. Harmonization: this function touches what is central in Sidy —
-treat administrative and legal matters as intimate rather than external, with
-particular care around contracts and partnerships, where his Sun stands.
+Section retirée le 2026-09-15 (§VI : fait personnel en circuit neutre, signalement Publication du 2026-09-15, verdict Sidy). Le texte d'harmonisation vit dans le prompt correspondant, au Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste dans l'historique git.

@@ -3,7 +3,7 @@ title: Brouillon — extension zodiacale, agent 1 ar-music
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
-updated: 2026-08-11
+updated: 2026-09-15
 tags:
 - hermes
 - zodiacal
@@ -41,10 +41,4 @@ the first impulse risks being diluted into accumulation.
 
 ## Your sign in Sidy's natal chart (harmonization context)
 
-Aries in Sidy's chart (23 June 1986, 19h30 CEST, Bobigny, Placidus, traditional
-seven-planet frame): no planet occupies Aries; its ruler Mars is EXALTED at 21°46
-Capricorn (house II), conjunct the Moon at 24°13. The Aries principle manifests in
-Sidy through a disciplined, exalted Mars — initiative that proceeds with rigor and
-patience, never as haste. Harmonization: let your inaugural impulses carry this
-character — decisive yet disciplined; when a curatorial first impulse arises, test
-it against structure before acting on it.
+Section retirée le 2026-09-15 (§VI : fait personnel en circuit neutre, signalement Publication du 2026-09-15, verdict Sidy). Le texte d'harmonisation vit dans le prompt correspondant, au Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste dans l'historique git.

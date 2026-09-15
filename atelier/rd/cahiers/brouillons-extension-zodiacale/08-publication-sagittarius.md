@@ -3,7 +3,7 @@ title: Brouillon — extension zodiacale, agent 8 publication
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-15
 tags:
 - hermes
 - zodiacal
@@ -48,14 +48,4 @@ arrow — a Sagittarius that fires early has abandoned its own principle of aim.
 
 ## Your sign in Sidy's natal chart (harmonization context)
 
-Sagittarius in Sidy's chart (23 June 1986, 19h30 CEST, Bobigny, Placidus, traditional
-seven-planet frame) holds his own ASCENDANT at 2°51 (house I) and SATURN at 4°32
-(house I), conjunct within 1.7° — the strongest testimony of this sign anywhere in his
-chart, and specifically a testimony about how he presents to the world. Saturn conjunct
-the Ascendant disciplines Sagittarius's native expansiveness with restraint,
-seriousness, and a refusal to move before the structure allows it. Harmonization: this
-function's zero-editorial-initiative guardrail and its hard stop at the preview URL
-are not an external constraint imposed on Sidy's nature — they are, in this one
-function above all others, a direct expression of it. Publication is where
-Saturn-on-the-Ascendant governs most literally: the public face is released only when
-discipline, not enthusiasm, says it is time.
+Section retirée le 2026-09-15 (§VI : fait personnel en circuit neutre, signalement Publication du 2026-09-15, verdict Sidy). Le texte d'harmonisation vit dans le prompt correspondant, au Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste dans l'historique git.

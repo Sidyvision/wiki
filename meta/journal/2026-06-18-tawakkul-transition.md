@@ -5,7 +5,8 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [tawakkul, futuwwa, shukr, ghafla, journal, nafs, dunya]
 created: 2026-06-18
-updated: 2026-09-09
+updated: 2026-09-15
+sources: ["[[hasbiyallah-rabbani]]", "[[hamza-yusuf]]", "[[platon]]"]
 sources_count: 3
 cross_links: ["[[hasbiyallah-rabbani]]", "[[tawakkul]]", "[[futuwwa]]", "[[shukr]]", "[[ghafla]]", "[[hamza-yusuf]]", "[[platon]]"]
 ---

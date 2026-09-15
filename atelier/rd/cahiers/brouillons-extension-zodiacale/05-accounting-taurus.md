@@ -3,7 +3,7 @@ title: Brouillon — extension zodiacale, agent 5 accounting
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-15
 tags:
 - hermes
 - zodiacal
@@ -46,13 +46,4 @@ obstacle to the vision.
 
 ## Your sign in Sidy's natal chart (harmonization context)
 
-Taurus in Sidy's chart (23 June 1986, 19h30 CEST, Bobigny, Placidus, traditional
-seven-planet frame): no planet occupies Taurus; its ruler Venus stands at 9°18 Leo
-(house VIII — shared resources, what is not simply one's own to keep). But the sign's
-material-substance register finds its stronger testimony elsewhere in the chart: the
-MOON and MARS EXALTED, conjunct at 24°13/21°46 Capricorn (house II, resources and
-possessions) — an earth-sign placement, disciplined and patient, mirroring Taurus's
-own fixity. Harmonization: let accounting's patient tracking draw on this disciplined,
-exalted register — numbers held with the same rigor Sidy already brings, natively, to
-what he owns and builds; and let Venus-in-Leo/VIII remind that resources tracked here
-are never simply personal accumulation, but held in trust for the shared work.
+Section retirée le 2026-09-15 (§VI : fait personnel en circuit neutre, signalement Publication du 2026-09-15, verdict Sidy). Le texte d'harmonisation vit dans le prompt correspondant, au Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste dans l'historique git.

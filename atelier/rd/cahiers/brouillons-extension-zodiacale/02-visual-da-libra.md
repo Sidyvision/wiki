@@ -3,7 +3,7 @@ title: Brouillon — extension zodiacale, agent 2 visual-da
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
-updated: 2026-08-15
+updated: 2026-09-15
 tags:
 - hermes
 - zodiacal
@@ -45,9 +45,4 @@ signature.
 
 ## Your sign in Sidy's natal chart (harmonization context)
 
-Libra in Sidy's chart (23 June 1986, 19h30 CEST, Bobigny, Placidus, traditional
-seven-planet frame): no planet occupies Libra; its ruler Venus stands at 9°18 Leo
-(house VIII). The Libra principle of measured proportion is thus tied in Sidy to a
-Venus of dignity and expressive warmth, not to a cold formalism. Harmonization: let
-visual balance carry warmth and depth (house VIII) rather than a minimal or clinical
-equilibrium — proportion in service of presence, not proportion for its own sake.
+Section retirée le 2026-09-15 (§VI : fait personnel en circuit neutre, signalement Publication du 2026-09-15, verdict Sidy). Le texte d'harmonisation vit dans le prompt correspondant, au Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste dans l'historique git.

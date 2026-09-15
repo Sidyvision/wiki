@@ -3,7 +3,7 @@ title: Brouillon — extension zodiacale, agent 7 marketing
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
-updated: 2026-08-15
+updated: 2026-09-15
 tags:
 - hermes
 - zodiacal
@@ -44,12 +44,4 @@ not coldness here, it is the sovereign's economy of gesture.
 
 ## Your sign in Sidy's natal chart (harmonization context)
 
-Leo in Sidy's chart (23 June 1986, 19h30 CEST, Bobigny, Placidus, traditional
-seven-planet frame) holds VENUS at 9°18 (house VIII — shared resources, depth, what is
-not simply one's own to keep). Leo's sovereign radiance is thus, in Sidy, not a public
-solar placement but a Venus of dignity operating in a house of depth. Harmonization:
-let the label's public voice carry warmth and dignity rather than self-promotion; the
-sovereignty this function calls for is exercised in service of something shared (the
-catalogue, the artist's intention), never as personal display — echoing the same
-nuance already given careful weight in the 2026-08-15 doctrinal reopening for the
-Leo/management tension.
+Section retirée le 2026-09-15 (§VI : fait personnel en circuit neutre, signalement Publication du 2026-09-15, verdict Sidy). Le texte d'harmonisation vit dans le prompt correspondant, au Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste dans l'historique git.

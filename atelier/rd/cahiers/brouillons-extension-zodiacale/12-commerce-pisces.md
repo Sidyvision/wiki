@@ -3,7 +3,7 @@ title: Brouillon — extension zodiacale, agent 12 commerce
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-09-15
 tags:
 - hermes
 - zodiacal
@@ -46,13 +46,4 @@ the whole.
 
 ## Your sign in Sidy's natal chart (harmonization context)
 
-Pisces in Sidy's chart (23 June 1986, 19h30 CEST, Bobigny, Placidus, traditional
-seven-planet frame) holds his JUPITER at 22°16, in its own DOMICILE (house III —
-communication, exchange, daily transactions) — the single strongest planetary dignity
-in his entire chart. No other position in this table carries a testimony this direct:
-the sign's own ruler sits, empowered, in its own sign, in the house of exchange itself.
-Harmonization: this function draws on Sidy's clearest and most native strength — let
-Commerce operate with the same natural fluency and generosity Jupiter-in-Pisces already
-brings to exchange, trusting this placement rather than second-guessing it; the
-standing order to "put profitability back on the agenda" works with this dignity, not
-against a resistant nature.
+Section retirée le 2026-09-15 (§VI : fait personnel en circuit neutre, signalement Publication du 2026-09-15, verdict Sidy). Le texte d'harmonisation vit dans le prompt correspondant, au Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste dans l'historique git.

@@ -19,12 +19,11 @@ handoffs intacts. Texte en anglais pour rester dans la langue des prompts.
 
 1. « ## Zodiac principle » — l'étage principiel du signe, descente principe → rôle
    → « Daily work from this aspect ».
-2. « ## Your sign in Sidy's natal chart (harmonization context) » — la situation
-   natale DU SIGNE chez Sidy (fiche meta/personnel/2026-06-20_theme-astrologique.md,
-   correctif éphéméride 2026-08-08, cadre traditionnel 7 planètes) + instruction
-   d'harmonisation. Signes occupés par des planètes : Cancer (Soleil+Mercure),
-   Capricorne (Lune+Mars exalté), Sagittaire (ASC+Saturne). Signes vides : état
-   natal dérivé du maître traditionnel du signe.
+2. « ## Your sign in Sidy's natal chart (harmonization context) » — paragraphe
+   d'harmonisation personnelle. **Retiré des brouillons le 2026-09-15** (§VI : fait
+   personnel en circuit neutre, verdict Sidy) : son texte vit dans les prompts du
+   Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste
+   dans l'historique git.
 
 ## Contenu (9 brouillons, statuts du volet b respectés)
 | Fichier | Agent | Position | Signe | Statut volet b |

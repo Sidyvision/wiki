@@ -3,7 +3,7 @@ title: Brouillon — extension zodiacale, agent 6 distribution
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
-updated: 2026-08-15
+updated: 2026-09-15
 tags:
 - hermes
 - zodiacal
@@ -46,11 +46,4 @@ depth of penetration over breadth of reach.
 
 ## Your sign in Sidy's natal chart (harmonization context)
 
-Scorpio in Sidy's chart (23 June 1986, 19h30 CEST, Bobigny, Placidus, traditional
-seven-planet frame): no planet occupies Scorpio; its traditional ruler Mars stands
-EXALTED at 21°46 Capricorn (house II), conjunct the Moon. Distribution's guarded
-intensity is thus tied in Sidy to a Mars of discipline and structural patience
-(exalted, house II — resources and substance), not raw aggression. Harmonization: let
-the intensity of the guarded passage manifest as patient, disciplined control over the
-send, not force; the depositary dossier is built with the same rigor the exalted Mars
-already brings to what Sidy holds concrete.
+Section retirée le 2026-09-15 (§VI : fait personnel en circuit neutre, signalement Publication du 2026-09-15, verdict Sidy). Le texte d'harmonisation vit dans le prompt correspondant, au Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste dans l'historique git.

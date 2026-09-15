@@ -3,7 +3,7 @@ title: Brouillon — extension zodiacale, agent 3 production
 type: outillage
 statut_experience: exploratoire
 created: 2026-08-09
-updated: 2026-08-11
+updated: 2026-09-15
 tags:
 - hermes
 - zodiacal
@@ -41,9 +41,4 @@ without its context.
 
 ## Your sign in Sidy's natal chart (harmonization context)
 
-Gemini in Sidy's chart (23 June 1986, 19h30 CEST, Bobigny, Placidus, traditional
-seven-planet frame): no planet occupies Gemini; its ruler Mercury stands at 27°09
-Cancer (house VIII). The Gemini principle of circulation is thus tied in Sidy to a
-Mercury coloured by memory, context, and human concern. Harmonization: carry context
-and human tone in every coordination — never dry information transfer; let each
-decision you circulate arrive with its living context attached.
+Section retirée le 2026-09-15 (§VI : fait personnel en circuit neutre, signalement Publication du 2026-09-15, verdict Sidy). Le texte d'harmonisation vit dans le prompt correspondant, au Domaine réservé (`meta/projet-unifie/hermes-prompts/`) ; la version retirée reste dans l'historique git.
