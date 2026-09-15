@@ -2,7 +2,7 @@
 title: Annales du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-09-09
+updated: 2026-09-15
 ---
 
 # Annales du circuit Herméneutique
@@ -10,6 +10,14 @@ updated: 2026-09-09
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only,
 entrées insérées **après ce header**.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-15] ouverture | Expression — une fiche de navigation de Direction Artistique (chantier kamon)
+
+- **Verdict de Sidy** : la part de ce circuit dans le chantier kamon reçoit une fiche, contre les deux options de réserve proposées (« ne rien ouvrir avant le dossier C » et « porter la part au seul cadre du Domaine Réservé »).
+- **Ce qui est ouvert** : `hermeneutique/expression/2026-09-15_kamon-kouyate-navigation-direction-artistique` — *concept*, `registre: expression`, `medium: ""` (médium vide, sur le précédent des deux fiches `expression/` déjà au circuit), `statut_analyse: brouillon`. Elle porte la **navigation** du bureau de DA en amont de `label/direction-artistique/` : l'ordre *retrouver avant créer*, les deux régimes, les trois issues également valides, l'interdit de motif prématuré.
+- **Portance** : *zōsaku*, aucune clé doctrinale établie ; bloc 🪵 **Restitution** complet, dont le champ « ce que le joint n'établit pas » — non facultatif dans ce circuit — nomme l'absence de tout *hozo* et de tout *kumiko*. Confrontation Gizeh : **négative**, par renvoi au § VIII.2 du glossaire où elle est déjà consignée (résultat rapporté même négatif).
+- **Étanchéité tenue** : **aucun fait familial** dans la fiche — la matière personnelle reste au Domaine Réservé, et la fiche le déclare. L'index du circuit, section *Expression* (jusqu'ici vide), reçoit son premier renvoi.
+- **Commit** : ff027cb
 
 ## [2026-09-09] archivage | `categorie-editoriale` — le seul mot ajouté au vocabulaire d'annotation
 

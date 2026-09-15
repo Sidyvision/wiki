@@ -10,6 +10,13 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] ouverture | DOC-09 — le chantier kamon Kouyaté entre au registre, et le tableau est recompté
+
+- **Verdict de Sidy** : inscription en **§7 Doctrinal**, « puisque les chantiers apparentés y vivent » — contre la ligne en §0 Vue d'ensemble et la non-inscription proposées.
+- **Ce qui entre** : `DOC-09` — *retrouver avant de créer* : dossier A (mémoire familiale) au Domaine Réservé, dossier B (grammaire des *mon*) déjà porté par le glossaire, **dossier C (confrontation) NON ouvert**. La ligne nomme la condition d'ouverture du dossier C et l'exigence d'une fiche `discernement` pour tout joint inter-traditions (Cmd 3). Aucun contenu du Domaine Réservé n'est recopié ni lié ici (sens interdit, §VI).
+- **Recomptage — par script, non par estime** : la règle du §0 l'exige dès qu'une ligne est ajoutée. Avant : **58 lignes** en §1–§7, `ouvert` 32 / `bloque` 5 / `en-cours` 9 / `attente-verdict` 12 (= 58). Après : **59 lignes**, `ouvert` **33** / `bloque` 5 / `en-cours` 9 / `attente-verdict` 12 (= 59). Le seul mouvement est la ligne ajoutée, née `ouvert` ; §9 reste à 10 lignes. Aucune valeur hors vocabulaire.
+- **Commit** : ff027cb
+
 ## [2026-09-15] outillage | OUT-17 — la ligne de rapport entre dans le job Studio, et le job n'a pas eu à redémarrer
 
 **Verdict** : « oui vas-y ». La validation d'ensemble ne disait pas si elle portait aussi sur une

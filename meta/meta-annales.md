@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-09-14
+updated: 2026-09-15
 
 ---
 
@@ -13,6 +13,15 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] archivage | Chantier kamon Kouyaté — le dossier A entre au Domaine Réservé, et le cadre de méthode avec lui
+
+- **Ordre de Sidy** : verser au dépôt la synthèse d'un chantier ouvert **hors dépôt** (conversation avec un assistant), « à intégrer au dépôt ». Le lot est passé par le sas `_inbox/` avant toute intégration (§IX), puis a été intégré **fiche par fiche**, les placements étant soumis et tranchés en deux temps (dossier A d'abord ; cadre et parts par circuit ensuite). Le sas a été vidé après intégration validée (§IX.8), la copie immuable restant dans `raw/` (hors git).
+- **Ce qui entre** — [[meta/chantier-kamon-kouyate]], le cadre (question reformulée, échelle de provenance A–F, *fukugen* / *sōsaku*, les trois dossiers, l'interdit de contamination visuelle), et les trois fiches du **dossier A** : [[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala]], [[meta/genealogie/2026-09-15_djeliya-conception-familiale]], [[meta/genealogie/2026-09-15_difference-et-privilege-vecus]]. [[meta/genealogie/kouyate]] (hub de la lignée) et [[meta/meta-index]] mis à jour ; les fiches généalogiques antérieures **recoupées, non réécrites**.
+- **Deux points de méthode tenus** : la modalité de transmission est enregistrée comme **non rituelle** (conversations ordinaires de la vie quotidienne), ce qui interdit de surqualifier rétrospectivement le matériel en « transmission initiatique » ; et l'allégation externe (UNESCO pour le Sosso-Bala, « traditions ethnographiques » pour l'épervier) reste `to-source` — le catalogue de la bibliothèque physique, consulté le jour même, ne porte **rien** de mandingue, griot, Sosso ni UNESCO (résultat nul rapporté).
+- **Signalé, non tranché** : la limite entre « récit familial » et « fait attesté » autour des ouvertures du grand-père — les deux fiches du domaine la tracent différemment. Porté à Sidy (Cmd 12) ; aucune fiche modifiée d'office.
+- **Ligne de base mécanique avant toute affirmation** : `verifier-invariants` = **1581** fichiers, **0** erreur, **71** avertissements (C6 ×45, C5 ×26). **Après la passe** : **1586** fichiers, **0** erreur, **71** avertissements — compte **inchangé**, et aucun avertissement ne porte sur un fichier de la passe. Hygiène Unicode (Cmd 15) : propre. `carte-du-depot.py` régénéré : **832** fiches, **aucune** des nouvelles orpheline.
+- **Commit** : ff027cb
+
 ## [2026-09-14] personnel | Ṭarīqa Hibriyya (Belqaïdiyya), zawiyya de Bobigny — première écoute d'*Ishrab Sharāb*
 
 Commit `0435137`.

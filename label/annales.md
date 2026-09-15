@@ -1,7 +1,7 @@
 ---
 title: Annales du Circuit Label
 type: meta
-updated: 2026-09-08
+updated: 2026-09-15
 ---
 
 # Annales du Circuit Label
@@ -9,6 +9,13 @@ updated: 2026-09-08
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] amendement | Établi kamon — la démarche passe à « retrouver avant de créer »
+
+- **Ordre de Sidy**, en réponse au plan de placement du chantier kamon reçu ce jour : l'établi est amendé pour porter la démarche inversée — *retrouver avant de créer* —, les deux régimes (復元 *fukugen* / 創作 *sōsaku*), la légitimité de l'**absence de correspondance** comme résultat, l'échelle de provenance à six marques, et l'**interdit de présenter un motif avant le recueil** (une forme montrée trop tôt produit une reconnaissance artificielle et contamine la mémoire).
+- **Ce qui ne change pas** — la contrainte principale de l'établi (« un mon ne se compose pas à partir d'un sens qu'on veut dire »), ses six étapes et ses quatre épreuves. L'amendement **renforce** la contrainte au lieu de la remplacer : les étapes 2 à 4 s'appliquent une fois le fait établi, ou en régime de création explicitement déclaré.
+- **Étanchéité tenue** : la fiche ne porte que la **conséquence de design** — aucun motif familial, aucun fait personnel n'entre dans ce circuit (§VI). Le renvoi inverse (la mémoire vers l'établi) existe, en sens autorisé, depuis le Domaine Réservé ; l'établi ne pointe pas vers `meta/`.
+- **Commit** : ff027cb
+
 ## [2026-09-08] amendement | Sceau label — ouverture du champ `liens_doctrinal` (verdict Sidy)
 
 - **Verdict de Sidy**, 2026-09-08 : « Ajoute un lien label/ → doctrinal/ », en réponse au signalement porté la veille dans l'entrée d'ouverture de l'établi kamon — la fiche remontait « isolée » au graphe faute d'un champ où inscrire ses renvois doctrinaux.
