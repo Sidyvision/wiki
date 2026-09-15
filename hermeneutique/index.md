@@ -2,7 +2,7 @@
 title: Index du circuit Herméneutique
 type: meta
 created: 2026-08-04
-updated: 2026-08-16
+updated: 2026-09-15
 ---
 
 
@@ -111,5 +111,4 @@ mondes. La convergence est retenue comme **justification du nom du circuit**, en
 
 ## Expression
 
-*(vide — reprises et développements d'idées issues des fiches
-`doctrinal/discernement/` à venir.)*
+- [[hermeneutique/expression/2026-09-15_kamon-kouyate-navigation-direction-artistique|Chantier kamon Kouyaté — navigation de Direction Artistique (retrouver avant de créer)]] — *concept*, `expression`, `brouillon`. Bureau de DA en amont de [[label/direction-artistique/amorcage/kamon-personnel|l'établi de conception du label]] : l'ordre « retrouver avant de créer », les deux régimes 復元 / 創作, et les trois issues également valides. Portance *zōsaku*, aucune clé doctrinale établie ; aucun fait familial (Domaine Réservé).

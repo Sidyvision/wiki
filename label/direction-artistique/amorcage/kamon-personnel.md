@@ -11,7 +11,7 @@ tags:
 - geometrie
 - japon
 created: 2026-09-08
-updated: 2026-09-08
+updated: 2026-09-15
 sources: []
 liens: []
 liens_atelier: []
@@ -42,6 +42,48 @@ inscrire, et la fiche remontait « isolée » au graphe pour cette seule raison.
   construction géométrique.
 - 🔍 [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]]
   — **verdict réservé**, et il gouverne la portée de tout ce qui suit.
+
+---
+
+## Ordre de la démarche — retrouver avant de créer (amendement du 2026-09-15)
+
+La démarche ne commence plus par la conception. **Elle commence par la recherche
+de ce qui a pu exister**, et l'ordre est contraignant :
+
+1. **Recueillir les faits** — le nom et ce qu'il porte, la lignée et son lieu, la
+   charge (ce qui est effectivement fait, produit, tenu) — **sans les
+   interpréter** ;
+2. **établir indépendamment la grammaire héraldique des mon** (le dossier
+   documentaire, tenu au doctrinal) ;
+3. **seulement ensuite** confronter les deux ensembles, **sans forcer les
+   correspondances**.
+
+Une **absence de correspondance est un résultat valide** — et c'est elle qui
+ouvre proprement le régime de création, non l'inverse. Deux régimes ne se
+confondent jamais :
+
+| Régime | Ce qu'il désigne |
+|---|---|
+| 復元 — *fukugen* | **Restitution / reconstruction** de ce qui a existé |
+| 創作 — *sōsaku* | **Création nouvelle** |
+
+Une création éventuelle n'est légitime **qu'explicitement distinguée** de la
+restitution : jamais présentée comme la récupération d'un passé que rien ne
+démontre. Corollaire de sourçage : chaque affirmation du dossier de faits se
+marque selon son origine — fait personnel, tradition familiale rapportée,
+documentation externe, inférence, hypothèse, création —, et **une hypothèse ne
+se présente jamais comme une mémoire retrouvée**.
+
+**Interdit méthodologique, tenu dès à présent** : ne présenter **aucune**
+représentation graphique de mon — motif, forme, cercle, couleur, disposition —
+**avant que les faits aient été recueillis**. Montrer un motif prématurément peut
+produire une reconnaissance artificielle et **contaminer la mémoire** que l'on
+cherche à recueillir. La démonstration de motifs est reportée après le recueil.
+
+Les **six étapes** et les **quatre épreuves** ci-dessous restent en vigueur : les
+étapes 2 à 4 s'appliquent une fois le fait établi, ou en régime de création
+explicitement déclaré. **L'établi ne porte que les conséquences de design** :
+aucun motif familial n'entre dans ce circuit (§VI, étanchéité).
 
 ---
 

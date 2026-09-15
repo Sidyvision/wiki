@@ -3,9 +3,9 @@ title: Lignée Kouyaté (côté paternel)
 type: meta
 tags: [genealogie, famille, kouyate, griot, tradition-orale, spiritualite, tijaniyya]
 created: 2026-08-10
-updated: 2026-08-22
+updated: 2026-09-15
 sources: []
-links: ["[[meta/genealogie/sidy-lamine-kouyate]]", "[[meta/genealogie/2026-06-20_oiseau-serpent-jumeau]]", "[[meta/genealogie/2026-06-20_signature-kouyate]]", "[[meta/genealogie/samballa-kouyate]]", "[[meta/genealogie/fanta-nna-diabate]]", "[[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]]", "[[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]]"]
+links: ["[[meta/genealogie/sidy-lamine-kouyate]]", "[[meta/genealogie/2026-06-20_oiseau-serpent-jumeau]]", "[[meta/genealogie/2026-06-20_signature-kouyate]]", "[[meta/genealogie/samballa-kouyate]]", "[[meta/genealogie/fanta-nna-diabate]]", "[[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala]]", "[[meta/genealogie/2026-09-15_djeliya-conception-familiale]]", "[[meta/genealogie/2026-09-15_difference-et-privilege-vecus]]", "[[meta/chantier-kamon-kouyate]]", "[[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]]", "[[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]]"]
 ---
 
 # Lignée Kouyaté (côté paternel)
@@ -42,6 +42,27 @@ de l'infographie transmise pour le côté Sissoko.
   équivalence établie.
 - **Grand-père paternel : [[meta/genealogie/samballa-kouyate|Samballa Kouyaté]]** — être mystérieux, séclusion dans sa chambre pendant des années, ouvertures spirituelles effectives (Fath reçu une nuit de Laylatul Qadr pendant qu'il donnait une leçon dans la rue devant sa porte d'entrée), compagnon invisible (Ruhan, pas Jinn). Voir [[meta/genealogie/samballa-kouyate]] pour le détail.
 - **Lien spirituel de Samballa** : via **Sheikh Fanta-Madi Chérif** — lien à la **Tijaniyya** sans rattachement formel attesté. C'est ce même Sheikh Fanta-Madi qui a trouvé sa femme, **[[meta/genealogie/fanta-nna-diabate|Fanta « Nna » Diabaté]]** (grand-mère paternelle de Sidy).
+
+## Traditions recueillies le 2026-09-15 (dossier A du chantier kamon)
+
+Trois fiches versées ce jour, depuis la synthèse de continuité reçue du chantier
+de réminiscence autour du kamon (cadre : [[meta/chantier-kamon-kouyate]]) :
+
+- [[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala]] — Balla Fasséké
+  Kouyaté, le Sosso-Bala, la parole de l'épervier ; modalité de transmission
+  **non rituelle** (conversations ordinaires).
+- [[meta/genealogie/2026-09-15_djeliya-conception-familiale]] — la condamnation
+  familiale de la Djéliya **lucrative de louange**, et la distinction
+  fonction / prestation à tenir pour ne pas fausser la parole rapportée.
+- [[meta/genealogie/2026-09-15_difference-et-privilege-vecus]] — « Tu n'es pas
+  comme eux, nous sommes différents », le privilège perçu de l'extérieur, la
+  continuité de singularité.
+
+La tradition du **serpent à la naissance** et le caractère du **grand-père**
+étaient déjà documentés ([[meta/genealogie/2026-06-20_oiseau-serpent-jumeau]] et
+[[meta/genealogie/samballa-kouyate]]) : le lot les **recoupe** sans les contredire
+et **n'a pas conduit à les réécrire**. Un point de réserve y est signalé
+(limite entre récit familial et fait attesté), non arbitré.
 
 ## Ce qui manque
 

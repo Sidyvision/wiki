@@ -2,7 +2,7 @@
 title: "meta-index — hub du Domaine Réservé"
 type: meta
 created: 2026-08-09
-updated: 2026-09-01
+updated: 2026-09-15
 ---
 
 # meta-index — hub du Domaine Réservé (`meta/`)
@@ -61,6 +61,9 @@ updated: 2026-09-01
 - [[meta/genealogie/tapa-sissoko|Tapa Sissoko]]
 - [[meta/genealogie/2026-06-20_oiseau-serpent-jumeau|Le rêve de l'oiseau vert à quatre yeux et le « frère-serpent » de la lignée Kouyaté]]
 - [[meta/genealogie/2026-06-20_signature-kouyate|Signature calligraphique personnelle (« Kouyaté » stylisé)]]
+- [[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala|Balla Fasséké Kouyaté, le Sosso-Bala et la parole de l'épervier (tradition familiale)]]
+- [[meta/genealogie/2026-09-15_djeliya-conception-familiale|La Djéliya selon la tradition familiale — la louange rémunérée condamnée]]
+- [[meta/genealogie/2026-09-15_difference-et-privilege-vecus|« Tu n'es pas comme eux, nous sommes différents » — différence et privilège vécus]]
 
 ## Journal (`journal/`)
 
@@ -205,6 +208,7 @@ lecture : [[meta/projet-unifie/archives/README|README des archives]].*
 
 - [[meta/2026-07-27_correctif-etendu-invariants-depot|Correctif étendu — Invariants structurels du dépôt]]
 - [[meta/bibliotheque-physique|Bibliothèque physique de travail (TOMBSTONE — déplacée)]]
+- [[meta/chantier-kamon-kouyate|Chantier — Réminiscence autour du kamon Kouyaté (cadre et méthode)]]
 - [[meta/ingest-brief|Brief d'ingest (DÉPRÉCIÉ)]]
 - [[meta/migration-2026-06-11|Protocole de Restauration Traditionnelle du Wiki (archive)]]
 - [[meta/onboarding|Onboarding — État du Wiki]]

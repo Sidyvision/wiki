@@ -68,7 +68,7 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**58 lignes de chantier** — **toutes dans les quatre statuts déclarés** depuis
+**59 lignes de chantier** — **toutes dans les quatre statuts déclarés** depuis
 l'alignement du 2026-09-13 : aucune valeur hors vocabulaire ne subsiste (voir les
 notes ci-dessous) —, plus **10** versés en §9 (clos ou caducs) et 6 lignes en §8
 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous modifiez une
@@ -91,6 +91,19 @@ ligne, ce tableau se recompte, il ne s'estime pas.
 > **signalé, pas lissé** — une passe qui découvre un écart ne le corrige pas
 > d'office (Cmd 12) ; mais une passe qui ajoute une ligne doit recompter, et
 > c'est ce qui a été fait ici.
+
+> **Note de recomptage (2026-09-15, seconde passe).** `DOC-09` est ouvert ce jour
+> — chantier de réminiscence autour du kamon Kouyaté (cadre et dossier A au
+> Domaine Réservé), dont le dossier C demeure **non ouvert**. Le tableau a été
+> **recompté depuis les lignes**, statut par statut, **par script et non par
+> estime** : **59 lignes** en §1–§7, réparties **`ouvert` 33 / `bloque` 5 /
+> `en-cours` 9 / `attente-verdict` 12**. Le nombre de lignes et la somme des
+> quatre colonnes **coïncident** (59 = 59) ; aucune valeur hors vocabulaire.
+> §9 porte toujours 10 lignes ; le §8 n'est pas recompté (lignes non assertées).
+> Le seul mouvement par rapport au recomptage de la première passe du jour est
+> `ouvert` 32 → **33**, imputé intégralement à la ligne ajoutée.
+
+Le 2026-09-15 : ouverture de `DOC-09` (voir la note de recomptage ci-dessus, seconde passe du jour).
 Mis à jour le 2026-09-13 : `INF-09` requalifié `attente-verdict` (alignement sur
 son propre texte), `INF-17` ouvert et versé en **§9** (migration de provider), et
 les trois statuts `DOC` hors vocabulaire ramenés au vocabulaire déclaré —
@@ -314,6 +327,8 @@ non dépouillées dans cette passe → §8.*
 | DOC-06 | **Ingest des deux Tilak** — *The Arctic Home in the Vedas* (1903) et *The Orion* (1893). La matière était déjà CONSOMMÉE par la donnée de l'Instrument (états du soleil, aurores) sans qu'aucune page doctrinale ne la porte — c'est le défaut corrigé | `en-cours` | ingest fait le 2026-09-02 (5 fiches, commit `47b03c5`), **rouvert le même jour** pour une 6ᵉ fiche sur le chapitre XIII (verdict Sidy, exclusion pure remplacée par catalogage averti) ; sas vidé des reliquats (plan exécuté + doublons OCR bruts) | [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] ; [[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] ; [[doctrinal/sources/guenon-atlantide-hyperboree]] (note 3) | — | 2026-09-02 |
 | DOC-07 | **Osman Yahia, catalogue critique de l'œuvre d'Ibn ʿArabī (1964)** — versé. La **Futūḥāt al-Makkiyya, éd. Maymaniyya t. 1** (texte arabe original, `traditionnel`) est ajournée : OCR jugé structurellement corrompu, pas seulement dégradé — aucune fiche, aucune citation possible en l'état (Cmd 5) | `en-cours` | Osman Yahia notice + `textes/` faits le 2026-09-02 ; Futūḥāt renvoyée à **OUT-08** (nouvel essai d'OCR avant toute décision de versement), fichier au sas conservé sur demande de Sidy | [[doctrinal/sources/osman-yahia-histoire-classification-1964]] | — | 2026-09-02 |
 | DOC-08 | **Exotérisme et ésotérisme dans l'attribution de `status`** — le verdict du 2026-09-06 sur quatre autorités a mis au jour un défaut de catégorie : `academique` était traité comme le résiduel de `traditionnel`, alors qu'il nomme une allégeance hors de la tradition. Sidy indique que la matière est « encore plus subtil que ça » et réserve le retour | `attente-verdict` | `[[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]]` — trois registres tenus séparés (établi / lecture provisoire de la machine / réservé). Prochaine action proposée, **non faite, en attente de visa** : fiche `doctrinal/discernement/` |
+
+| DOC-09 | **Chantier de réminiscence autour du kamon Kouyaté** — *retrouver avant de créer* : chercher une forme héraldique plausible plutôt que d'en inventer une. Dossier A (**mémoire familiale**, traditions rapportées) recueilli au **Domaine Réservé** ; dossier B (grammaire des *mon*) déjà porté par le glossaire ; **dossier C (confrontation) NON ouvert** — aucune piste de motif n'est privilégiée tant que le dossier A n'est pas constitué, et toute correspondance inter-traditions exigerait une fiche `discernement` (Cmd 3) | `ouvert` | [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] — dossier B, matériel factuel `to-source` (aucun ouvrage japonais ni héraldique au dépôt) ; [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]] (`speculatif`, verdict réservé) ; cadre, mémoire et méthode au Domaine Réservé (non lié depuis ce circuit — sens interdit) |
 
 ## 8. À vérifier — non asserté ouvert
 
