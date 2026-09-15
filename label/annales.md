@@ -9,6 +9,13 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] vigilance | `label/index.md` — la description de l'établi suivait encore l'ancienne démarche
+
+- **Vigilance documentaire de clôture** (`protocoles/cloture-de-session.md`) : l'amendement de l'établi kamon du même jour avait **périmé** la notice que l'index du circuit portait sur lui — elle décrivait la méthode (quatre épreuves, six questions réservées) sans dire que le point de départ avait changé. Amont mis à jour, non laissé en silence.
+- **Ce qui est corrigé** : la ligne de [[label/index.md]] porte désormais l'ordre *retrouver avant de créer*, les deux régimes (復元 *fukugen* / 創作 *sōsaku*), la légitimité de l'absence de correspondance, et l'interdit de présenter un motif avant le recueil. `updated:` de l'index passé au 2026-09-15.
+- **Ce que la passe n'a pas touché** : aucune fiche `doctrinal/` créée ni modifiée — la régénération du graphe (`generer-cartographie.py`) n'est donc pas déclenchée par cette session, sa condition protocolaire n'étant pas remplie.
+- **Commit** : a7a357c
+
 ## [2026-09-15] amendement | Établi kamon — la démarche passe à « retrouver avant de créer »
 
 - **Ordre de Sidy**, en réponse au plan de placement du chantier kamon reçu ce jour : l'établi est amendé pour porter la démarche inversée — *retrouver avant de créer* —, les deux régimes (復元 *fukugen* / 創作 *sōsaku*), la légitimité de l'**absence de correspondance** comme résultat, l'échelle de provenance à six marques, et l'**interdit de présenter un motif avant le recueil** (une forme montrée trop tôt produit une reconnaissance artificielle et contamine la mémoire).
