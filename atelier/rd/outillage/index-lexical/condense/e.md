@@ -12,45 +12,45 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | — | table, tag, titre | **375 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +521 | 6000 |
-| `etat` | ETAT, etat, État, état | — | — | definition, table, titre | **268 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +309 | 1960 |
-| `etats` | Etats, etats, ÉTATS, États (+1) | — | — | table, titre | **121 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +220 | 1398 |
-| `exemple` | Exemple, exemple | — | ⚖ universel | definition, table | **90 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +319 | 899 |
-| `edition` | EDITION, Edition, edition, ÉDITION (+2) | — | ⚖ hindouisme | definition, table | **125 fiches** | 00-front-matter.md +73 | 434 |
-| `etude` | ETUDE, etude, Étude, étude | — | — | titre | **64 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +194 | 431 |
-| `existence` | Existence, existence, existencé | — | — | tag | **34 fiches** | 03-c.md +174 | 392 |
-| `editions` | editions, ÉDITIONS, Éditions, éditions | — | — | table, tag | **63 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +191 | 320 |
-| `examen` | EXAMEN, Examen, examen | — | — | table, tag | **118 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +33 | 313 |
-| `etape` | etape, Étape, étape | — | — | table | **68 fiches** | index-conversion.md +28 | 298 |
+| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | — | table, tag, titre | **376 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +527 | 6049 |
+| `etat` | ETAT, etat, État, état | — | — | definition, table, titre | **268 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +314 | 1981 |
+| `etats` | Etats, etats, ÉTATS, États (+1) | — | — | table, titre | **122 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +222 | 1407 |
+| `exemple` | Exemple, exemple | — | ⚖ universel | definition, table | **90 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +326 | 918 |
+| `etude` | ETUDE, etude, Étude, étude | — | — | titre | **64 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +197 | 442 |
+| `edition` | EDITION, Edition, edition, ÉDITION (+2) | — | ⚖ hindouisme | definition, table | **125 fiches** | 00-front-matter.md +76 | 437 |
+| `existence` | Existence, existence, existencé | — | — | tag | **34 fiches** | 03-c.md +177 | 402 |
+| `editions` | editions, ÉDITIONS, Éditions, éditions | — | — | table, tag | **63 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +192 | 321 |
+| `examen` | EXAMEN, Examen, examen | — | — | table, tag | **118 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +34 | 314 |
+| `etape` | etape, Étape, étape | — | — | table | **68 fiches** | index-conversion.md +30 | 302 |
 | `extension` | Extension, extension | — | — | table, titre | **103 fiches** | 06-f.md +88 | 294 |
-| `experience` | Expérience, experience, expérience | — | — | table, tag | **44 fiches** | 04-d.md +51 | 228 |
-| `erreurs` | ERREURS, Erreurs, erreurs | — | — | tag | **50 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +65 | 207 |
-| `etapes` | ÉTAPES, Étapes, étapes | — | — | definition | **59 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +40 | 200 |
+| `experience` | Expérience, experience, expérience | — | — | table, tag | **44 fiches** | 04-d.md +54 | 235 |
+| `erreurs` | ERREURS, Erreurs, erreurs | — | — | tag | **51 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +68 | 220 |
+| `etapes` | ÉTAPES, Étapes, étapes | — | — | definition | **59 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +42 | 208 |
+| `enseignement` | ENSEIGNEMENT, Enseignement, enseignement, enseìgnement | — | — | definition | **38 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +69 | 188 |
 | `etancheite` | etancheite, etanchéité, Étanchéité, étanchéité | — | ⚖ universel | definition, table, tag, titre | **97 fiches** | karubi-mehdi-navette-20260812.md | 155 |
-| `enseignement` | Enseignement, enseignement, enseìgnement | — | — | definition | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +65 | 147 |
 | `etendue` | etendue, Étendue, étendue | — | — | definition, table | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +71 | 135 |
-| `espace` | ESPACE, Espace, espace | — | — | table, titre | **47 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-14.md +23 | 123 |
+| `espace` | ESPACE, Espace, espace | — | — | table, titre | **47 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-14.md +24 | 124 |
 | `examen formel` | Examen formel | — | ⚖ universel | definition | **74 fiches** | karubi-mehdi-navette-20260812.md | 123 |
-| `en arabe` | En arabe | — | ⚖ islam | definition | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +50 | 114 |
+| `en arabe` | En arabe | — | ⚖ islam | definition | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +52 | 116 |
 | `etendu` | Étendu, étendu | — | — | table, titre | **34 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +57 | 114 |
-| `essai` | Essai, essai | — | — | tag, titre | **39 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-16.md +29 | 101 |
-| `etat actuel` | État actuel | — | — | definition | **20 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +46 | 94 |
+| `essai` | Essai, essai | — | — | tag, titre | **39 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-16.md +33 | 109 |
+| `etat actuel` | État actuel | — | — | definition | **20 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +47 | 95 |
+| `echelle` | echelle, Échelle, échelle | — | — | table, tag | **44 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-4.md +14 | 91 |
 | `ecritures` | Ecritures, Écritures, écritures | — | — | titre | **22 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +26 | 90 |
-| `echelle` | echelle, Échelle, échelle | — | — | table, tag | **43 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-4.md +13 | 89 |
 | `equinoxes` | equinoxes, équinoxes | — | — | tag | **14 fiches** | gaston-georgel-les-rythmes-dans-l-histoire-2e-ed-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +23 | 89 |
 | `er-ruh` | Er-Rûh, er-ruh, er-rûh | — | — | annotation, table, tag, titre | **13 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +10 | 85 |
-| `echec` | ÉCHEC, Échec, échec | — | ⚖ universel | definition, table | **45 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +6 | 81 |
-| `evolution` | Evolution, evolution, Évolution, évolution | — | — | definition | **15 fiches** | 04-d.md +28 | 74 |
+| `echec` | ÉCHEC, Échec, échec | — | ⚖ universel | definition, table | **45 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +7 | 82 |
+| `evolution` | Evolution, evolution, Évolution, évolution | — | — | definition | **15 fiches** | 04-d.md +29 | 76 |
 | `extraction` | Extraction, extraction | — | — | definition, table | **38 fiches** | LISEZ-MOI.md +8 | 71 |
 | `export` | Export, export | — | — | table, tag, titre | **58 fiches** | 19-s.md | 66 |
 | `economique` | économique | — | — | titre | **32 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +7 | 64 |
 | `esoteriques` | ésotériques | — | — | titre | **13 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +31 | 64 |
 | `exaltation` | Exaltation, exaltation | — | — | table, tag | **16 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +21 | 62 |
 | `elephant` | Elephant, elephant, Éléphant, éléphant | — | — | table, titre | **10 fiches** | la-puissance-du-serpent.md +7 | 59 |
-| `entreprise` | entreprise | — | — | tag | **14 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +32 | 56 |
+| `entreprise` | entreprise | — | — | tag | **14 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 57 |
+| `egypte` | Egypte, egypte, Égypte | — | — | table, tag | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] · [[doctrinal/sources/guenon-hermetisme-hermes-thoth]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +3 | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +29 | 52 |
 | `engineer` | Engineer, engineer | — | — | table | **20 fiches** | 01-a.md +5 | 51 |
 | `echange` | Échange, échange, échangé | — | — | table, titre | **18 fiches** | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +11 | 49 |
-| `egypte` | Egypte, egypte, Égypte | — | — | table, tag | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] · [[doctrinal/sources/guenon-hermetisme-hermes-thoth]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +3 | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +27 | 49 |
 | `echantillon` | Échantillon, échantillon | — | — | table, titre | **12 fiches** | le-theosophisme-et-le-spiritisme-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +1 | 47 |
 | `enoch` | Enoch, Énoch | — | — | table, titre | **19 fiches** | 01-a.md +3 | 43 |
 | `egypt` | Egypt | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] | 00-front-matter.md +18 | 38 |

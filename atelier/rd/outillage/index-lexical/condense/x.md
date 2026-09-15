@@ -12,25 +12,25 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `xviii` | XVIII, xviii | — | — | table | **30 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +83 | 195 |
+| `xviii` | XVIII, xviii | — | — | table | **30 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +84 | 196 |
 | `xiii` | XIII, xiii | — | — | table | **42 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +55 | 170 |
-| `xvii` | XVII, xvii | — | — | table | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +53 | 113 |
-| `xxiv` | XXIV, xxiv | — | — | table | **19 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 101 |
-| `xxiii` | XXIII, xxiii | — | — | table | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +41 | 99 |
+| `xvii` | XVII, xvii | — | — | table | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +54 | 114 |
+| `xxiv` | XXIV, xxiv | — | — | table | **19 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +34 | 102 |
+| `xxiii` | XXIII, xxiii | — | — | table | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +42 | 100 |
 | `xxii` | XXII, xxii | — | — | table | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +34 | 93 |
 | `xxviii` | XXVIII, xxviii | — | — | table | **21 fiches** | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +26 | 80 |
-| `xxvii` | XXVII, xxvii | — | — | table | **16 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +21 | 71 |
-| `xxix` | XXIX, xxix | — | — | table | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +24 | 67 |
+| `xxvii` | XXVII, xxvii | — | — | table | **16 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +22 | 72 |
+| `xxix` | XXIX, xxix | — | — | table | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +25 | 68 |
 | `xxxv` | XXXV, xxxv | — | — | table | **17 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +14 | 64 |
-| `xxvi` | XXVI, xxvi | — | — | table | **21 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +19 | 61 |
+| `xxvi` | XXVI, xxvi | — | — | table | **21 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +20 | 62 |
 | `xxxix` | XXXIX, xxxix | — | — | table | **22 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +13 | 51 |
 | `xxxii` | XXXII, xxxii | — | — | table | **17 fiches** | connaissance-initiatique-et-culture-profane-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 47 |
-| `xxxvi` | XXXVI, xxxvi | — | — | table | **14 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +8 | 46 |
+| `xxxvi` | XXXVI, xxxvi | — | — | table | **14 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +9 | 47 |
 | `xxxi` | XXXI, xxxi | — | — | table | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]] · [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] · +3 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +17 | 41 |
 | `xxxiv` | XXXIV, xxxiv | — | — | table | **13 fiches** | de-la-transmission-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +14 | 41 |
+| `xxxiii` | XXXIII, xxxiii | — | — | table | **10 fiches** | connaissance-initiatique-et-culture-profane-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 40 |
 | `xxxvii` | XXXVII, xxxvii | — | — | table | **18 fiches** | le-don-des-langues-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +12 | 40 |
 | `xxxviii` | XXXVIII, xxxviii | — | — | table | **11 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +14 | 40 |
-| `xxxiii` | XXXIII, xxxiii | — | — | table | **10 fiches** | connaissance-initiatique-et-culture-profane-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +12 | 39 |
 | `xiiie` | XIIIe | — | — | table | **13 fiches** | osman-yahya-08-repertoire.md | 18 |
 | `xlvi` | XLVI | — | — | table | [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | sur-deux-devises-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +11 | 15 |
 | `xlii` | XLII, xlii | — | — | table | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/outillage/2026-08-29_mise-en-regard-tenon-mortaise-axe-instrument]] · [[doctrinal/discernement/2026-08-29_octogone-monde-intermediaire-barzakh]] · [[doctrinal/sources/guenon-octogone]] · [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · +1 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +6 | 14 |

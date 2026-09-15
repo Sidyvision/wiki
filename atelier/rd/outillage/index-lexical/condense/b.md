@@ -12,13 +12,13 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `base` | BASE, Base, Basé, base (+1) | — | — | table, tag, titre | **124 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +169 | 666 |
+| `base` | BASE, Base, Basé, base (+1) | — | — | table, tag, titre | **124 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +173 | 680 |
 | `barzakh` | Barzakh, barzakh | — | ✓ islam | annotation, table, tag, titre | **97 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +8 | 456 |
 | `brahma` | BRAHMA, Brahma, Brahmâ, brahma (+1) | — | — | annotation, table, tag | **30 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +70 | 316 |
+| `balance` | Balance, balance | — | — | table, tag, titre | **45 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +32 | 304 |
 | `body` | Body, body | — | — | table, titre | **14 fiches** | 00-front-matter.md +56 | 295 |
-| `balance` | Balance, balance | — | — | table, tag, titre | **44 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +29 | 294 |
 | `bibliotheque` | BIBLIOTHÈQUE, Bibliothèque, bibliotheque, bibliothèque | — | — | table, tag, titre | **138 fiches** | LISEZ-MOI.md +20 | 278 |
-| `branche` | Branche, Branché, branche, branché | — | — | table, titre | **64 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +42 | 231 |
+| `branche` | Branche, Branché, branche, branché | — | — | table, titre | **64 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +44 | 234 |
 | `bad` | Bad, bad, baʿḍ, bād | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 11-k.md +37 | 215 |
 | `buddhi` | BUDDHI, Buddhi, buddhi | `बुदधि` | ✓ hindouisme · *sanskrit* | annotation, table, tag, titre | **31 fiches** | paradis-terrestre-et-paradis-celeste-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +26 | 205 |
 | `bindu` | Bindu, bindu, bindû | `बिंदु` | ✓ hindouisme · *sanskrit* | table, titre | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/symboles/bindu]] · [[doctrinal/symboles/nada]] · [[meta/carte-doctrinal]] · +3 | la-puissance-du-serpent.md +1 | 193 |
@@ -32,11 +32,11 @@ links: []
 | `belier` | Belier, Bélier, bélier | — | — | table | **25 fiches** | la-puissance-du-serpent.md +7 | 91 |
 | `blason` | Blason, blason | — | — | table | [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/symboles/tomoe]] · [[meta/carte-du-depot]] | rapprochements-maconniques-et-hermetiques-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md +1 | 81 |
 | `ball` | Ball, ball | — | — | table, titre | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · [[hermeneutique/auteurs/akira-toriyama]] · [[hermeneutique/dr-slump/dr-slump]] · +3 | 08-h.md +19 | 80 |
+| `bibliographie` | BIBLIOGRAPHIE, Bibliographie, bibliographie | — | — | tag, titre | **22 fiches** | LISEZ-MOI.md +10 | 71 |
 | `bouddha` | Bouddha | — | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]] · [[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]] · +1 | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +25 | 71 |
 | `bande` | Bande, Bandé, bande | — | — | table, tag | **36 fiches** | la-puissance-du-serpent.md +1 | 70 |
-| `bibliographie` | BIBLIOGRAPHIE, Bibliographie, bibliographie | — | — | tag, titre | **22 fiches** | LISEZ-MOI.md +8 | 68 |
+| `bases` | BASES, Bases, bases, basés | — | — | table, titre | **17 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 66 |
 | `bhagavad-gita` | Bhagavad-Gita, Bhagavad-Gitâ, Bhagavad-Gîta, Bhagavad-Gîtâ (+1) | — | — | table, translit | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] · [[atelier/rd/cahiers/registre-problemes]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · +3 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +31 | 66 |
-| `bases` | BASES, Bases, bases, basés | — | — | table, titre | **17 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +32 | 64 |
 | `big` | BiG, Big, big | — | — | titre | [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/metal-gear]] · [[hermeneutique/metal-gear/mother-base]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · +1 | 17-t.md +19 | 59 |
 | `briefing` | Briefing, briefing | — | — | titre | **20 fiches** | — | 59 |
 | `bureau` | Bureau, bureau | — | — | table, titre | **25 fiches** | 01-a.md +12 | 59 |
@@ -44,15 +44,15 @@ links: []
 | `b-fp` | B-FP | — | — | table | **16 fiches** | — | 51 |
 | `brahma-sutras` | Brahma-Sutras, Brahma-Sûtras, Brahma-Sūtras, Brâhma-Sûtras | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | intellect-et-conscience-selon-valsan.md +21 | 51 |
 | `bocking` | BOCKING, Bocking, bocking | — | — | table, tag, titre | [[doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite]] · [[doctrinal/sources/a-popular-dictionary-of-shinto-bocking]] · [[doctrinal/symboles/espace-sacre-shinto]] · [[doctrinal/symboles/mihrab-torii]] · [[doctrinal/traditions/shinto]] · +1 | 00-front-matter.md +2 | 50 |
+| `biographiques` | biographiques | — | — | titre | **17 fiches** | abu-yazid-al-bistami-et-son-enseignement-pdf-coran.md +6 | 46 |
 | `bague` | Bague, bague | — | — | tag, titre | **12 fiches** | — | 45 |
 | `bhuta` | Bhuta, Bhûta, bhûta | — | — | table | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/journal/conversation-atma-claude]] | la-puissance-du-serpent.md +2 | 45 |
-| `biographiques` | biographiques | — | — | titre | **17 fiches** | abu-yazid-al-bistami-et-son-enseignement-pdf-coran.md +5 | 44 |
 | `build` | Build, build | — | — | titre | **21 fiches** | LISEZ-MOI.md +11 | 41 |
 | `bouzouida` | Bouzouida, Bouzouïda | — | — | table | [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/projet-unifie/archives/synthese-ressources-deployees]] · +2 | isaghuji-cours01-introduction-transcription.md +1 | 40 |
+| `batin` | Batin, Batîn, Bâtin, Bāṭin (+5) | — | — | tag, titre, translit | **18 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 39 |
 | `bones` | Bones, bones | — | — | table | [[label/distribution/merchandising]] · [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/hermes-prompts/12-commerce-profitability/12-principe]] · [[meta/projet-unifie/hermes-prompts/12-commerce-profitability/mandats/commerce-profitability]] | 01-a.md +13 | 38 |
 | `brahmanda` | Brahmânda, brahmânda, brahmānda | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/sommaire-hindouisme-soufisme]] | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +12 | 38 |
 | `bast` | Bast, bast, basṭ | — | — | annotation, tag, titre, translit | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +4 | 37 |
-| `batin` | Batin, Batîn, Bâtin, Bāṭin (+5) | — | — | tag, titre, translit | **18 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +4 | 37 |
 | `bilan` | Bilan, bilan | — | — | definition, table, tag, titre | **21 fiches** | le-serment-dans-le-theosophisme-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md | 37 |
 | `biographique` | biographique | — | — | tag | **18 fiches** | isaghuji-cours01-introduction-transcription.md +2 | 36 |
 | `brief` | Brief, brief | — | — | table, tag, titre | **14 fiches** | 11-k.md +9 | 35 |
@@ -155,6 +155,7 @@ links: []
 | `bootes` | Bootes, Bootès | — | — | table | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 3 |
 | `brisaya` | Brisaya | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] | arctic-ch10-vedic-myths-the-matutinal-deities.md | 3 |
 | `budala` | budalâ, budalâʾ | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 3 |
+| `bulaq` | Bùlâq, Bûlâq, Būlāq | — | — | translit | [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/chercheur-manifestant-akbarien]] | munqidh-05-partie-3.md | 3 |
 | `bulug` | bulûġ, bulüg | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md | 3 |
 | `bactria` | Bactria | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |
 | `bakhtri` | Bâkhtri | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |
@@ -174,7 +175,6 @@ links: []
 | `bi-istima` | bi-istimāʿ | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/traditions/tasawwuf]] | — | 2 |
 | `bi-simahum` | bi-sīmāhum | — | — | translit | [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]] · [[meta/briefs/2026-08-30_passation-claude-ai-vers-terminal]] | — | 2 |
 | `bitna` | biṭna | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
-| `bulaq` | Bûlâq, Būlāq | — | — | translit | [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/chercheur-manifestant-akbarien]] | — | 2 |
 | `bulletins du turban noir` | Bulletins du Turban Noir | — | ⚖ islam | definition | [[doctrinal/autorites/charles-andre-gilis]] | — | 2 |
 | `buruda` | burûda, burūda | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `bibliotheque-physique` | bibliotheque-physique | — | — | tag | [[doctrinal/sources/archeometre-saint-yves-papus-1911]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] · [[meta/bibliotheque-physique]] | — | 1 |

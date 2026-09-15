@@ -12,34 +12,34 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `vers` | VERS, Vers, vers | — | — | titre | **333 fiches** | LISEZ-MOI.md +246 | 1634 |
-| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **340 fiches** | LISEZ-MOI.md +12 | 1303 |
-| `vigilance` | VIGILANCE, Vigilance, vigilance | — | — | definition, table, tag, titre | **184 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +40 | 525 |
-| `verification` | VÉRIFICATION, Vérification, verification, vérification | — | ⚖ hindouisme | definition, table, tag | **202 fiches** | LISEZ-MOI.md +5 | 509 |
-| `veille` | VEILLE, Veille, veille | — | — | table, tag, titre | **93 fiches** | LISEZ-MOI.md +16 | 486 |
+| `vers` | VERS, Vers, vers | — | — | titre | **334 fiches** | LISEZ-MOI.md +251 | 1651 |
+| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **340 fiches** | LISEZ-MOI.md +13 | 1307 |
+| `vigilance` | VIGILANCE, Vigilance, vigilance | — | — | definition, table, tag, titre | **185 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +40 | 526 |
+| `verification` | VÉRIFICATION, Vérification, verification, vérification | — | ⚖ hindouisme | definition, table, tag | **203 fiches** | LISEZ-MOI.md +7 | 512 |
+| `veille` | VEILLE, Veille, veille | — | — | table, tag, titre | **94 fiches** | LISEZ-MOI.md +19 | 491 |
 | `viii` | VIII, viii | — | — | table | **124 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +91 | 458 |
 | `vedanta` | Vedanta, Vedânta, Vedānta, VÊDÂNTA (+6) | — | — | annotation, table, tag, titre, translit | **65 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +121 | 405 |
 | `vedas` | VEDAS, VEDAs, Vedas, Védas (+3) | — | — | annotation, table, tag, titre | **15 fiches** | LISEZ-MOI.md +32 | 389 |
-| `vision` | VISION, Vision, vision | — | — | table, tag | **59 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +54 | 298 |
-| `vivant` | Vivant, vivant | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +65 | 279 |
-| `verdict sidy` | Verdict Sidy | — | — | definition | **106 fiches** | — | 271 |
-| `volume` | Volume, volume | — | — | definition, table | **54 fiches** | LISEZ-MOI.md +80 | 266 |
+| `vision` | VISION, Vision, vision | — | — | table, tag | **60 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +58 | 309 |
+| `vivant` | Vivant, vivant | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +66 | 280 |
+| `verdict sidy` | Verdict Sidy | — | — | definition | **106 fiches** | LISEZ-MOI.md | 272 |
+| `volume` | Volume, volume | — | — | definition, table | **54 fiches** | LISEZ-MOI.md +81 | 267 |
 | `vertical` | Vertical, vertical | — | — | titre | **54 fiches** | 17-t.md +59 | 263 |
 | `veda` | Veda, VÊDA, Véda, Vêda (+2) | — | — | table | **17 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +54 | 251 |
 | `vritra` | VRITRA, Vritra | — | — | table, titre | **10 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-33.md +17 | 220 |
-| `verdict de sidy` | Verdict de Sidy | — | — | definition | **99 fiches** | LISEZ-MOI.md +2 | 205 |
+| `verdict de sidy` | Verdict de Sidy | — | — | definition | **99 fiches** | LISEZ-MOI.md +3 | 208 |
 | `vedique` | Védique, vedique, védique, vêdique | — | — | titre | **37 fiches** | la-puissance-du-serpent.md +41 | 156 |
-| `verifiee` | Vérifiée, vérifiée | — | ⚖ universel | definition | **102 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 142 |
+| `verifiee` | Vérifiée, vérifiée | — | ⚖ universel | definition | **102 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 143 |
 | `valsan` | Valsan, Valsän, Vàlsan, Vâlsan (+2) | — | — | table, tag, titre | **25 fiches** | sept-etendards-califat-transcription.md +8 | 132 |
+| `venus` | VENUS, Venus, Vénus, venus (+1) | — | — | table | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +31 | 125 |
 | `vital` | VITAL, Vital, vital | — | — | table, titre | **29 fiches** | 10-j.md +42 | 125 |
 | `vishnu` | Vishnu | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +2 | la-puissance-du-serpent.md +27 | 124 |
-| `venus` | VENUS, Venus, Vénus, venus (+1) | — | — | table | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +29 | 123 |
+| `vise` | Visé, vise, visé | — | — | tag | **72 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +31 | 123 |
 | `voir aussi` | Voir aussi | — | ⚖ universel | definition | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-4.md +47 | 121 |
-| `vise` | Visé, vise, visé | — | — | tag | **72 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +28 | 119 |
 | `vllm` | vLLM, vllm | — | — | tag | **26 fiches** | — | 118 |
 | `vayu` | Vayu, Vâyu, Vāyu, vayu (+1) | — | — | annotation, table, tag, translit | **12 fiches** | la-puissance-du-serpent.md +13 | 105 |
 | `voiles` | Voiles, voiles, voilés | — | — | table, titre | **43 fiches** | sept-etendards-califat-transcription.md +11 | 101 |
-| `visions` | Visions, visions | — | — | table, titre | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +20 | 97 |
+| `visions` | Visions, visions | — | — | table, titre | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +21 | 98 |
 | `vierge` | Vierge, vierge | — | — | table | **29 fiches** | chapitre-xiii-l-athanor-titus-burckartt.md +15 | 96 |
 | `virtuelle` | VIRTUELLE, virtuelle | — | — | titre | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +42 | 96 |
 | `vulliaud` | Vulliaud | — | — | table | **16 fiches** | formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon-8.md +9 | 96 |
@@ -66,9 +66,9 @@ links: []
 | `vache` | Vache, vache | — | — | table | [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/deviations/morphopsychologie]] | les-quatre-mondes.md | 26 |
 | `vara` | Vara, vara | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] | le-sanglier-et-l-ourse-symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon.md +4 | 26 |
 | `vigilance documentaire` | Vigilance documentaire | — | — | definition | **18 fiches** | — | 25 |
+| `vegetaux` | Vegetaux, Végétaux, végétaux | — | — | table | [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/table-ihwan-al-safa]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +7 | 23 |
 | `vyasa` | Vyasa, Vyâsa, Vyāsa | — | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | generalites-sur-le-vedanta-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +3 | 23 |
 | `vayus` | Vayus, VÂYUS, Vâyus, vayus (+2) | — | — | annotation, tag, translit | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] · [[doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | l-etat-de-veille-ou-la-condition-de-vaishwanara-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +4 | 22 |
-| `vegetaux` | Vegetaux, Végétaux, végétaux | — | — | table | [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/table-ihwan-al-safa]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 22 |
 | `virgile` | Virgile | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | paradis-terrestre-et-paradis-celeste-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +7 | 20 |
 | `varaha` | Varâha, Varāha, varaha, varâha | — | — | annotation, tag, translit | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] | la-puissance-du-serpent.md +2 | 19 |
 | `vast` | Vast, vast | — | — | table | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] · [[meta/projet-unifie/04-sessions-par-fonction-et-backlogs]] · [[meta/projet-unifie/archives/05-runbook-test-ornith-gpu-cloud]] | 16-s.md +12 | 19 |

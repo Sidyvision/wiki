@@ -12,14 +12,14 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `question` | QUESTION, Question, queStion, question (+1) | — | — | definition, table | **219 fiches** | LISEZ-MOI.md +458 | 1819 |
-| `quatre` | QUATRE, Quatre, quatre | — | — | table, titre | **193 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +114 | 1085 |
-| `quoi` | Quoi, quoi | — | — | definition | **85 fiches** | LISEZ-MOI.md +312 | 744 |
+| `question` | QUESTION, Question, queStion, question (+1) | — | — | definition, table | **219 fiches** | LISEZ-MOI.md +463 | 1841 |
+| `quatre` | QUATRE, Quatre, quatre | — | — | table, titre | **194 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +117 | 1098 |
+| `quoi` | Quoi, quoi | — | — | definition | **86 fiches** | LISEZ-MOI.md +317 | 757 |
 | `quantite` | QUANTITÉ, Quantité, quantite, quantité | — | — | table, tag, titre | **48 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +151 | 547 |
-| `questions` | QUESTIONS, Questions, questions | — | — | table, tag | **83 fiches** | 04-d.md +127 | 423 |
-| `qualite` | QUALITÉ, Qualité, qualite, qualité | — | — | table, tag | **82 fiches** | LISEZ-MOI.md +106 | 340 |
+| `questions` | QUESTIONS, Questions, questions | — | — | table, tag | **83 fiches** | 04-d.md +130 | 433 |
+| `qualite` | QUALITÉ, Qualité, qualite, qualité | — | — | table, tag | **83 fiches** | LISEZ-MOI.md +108 | 344 |
 | `qualification` | Qualification, qualification | — | — | table, tag | **113 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +34 | 273 |
-| `qur'an` | Qur'an | — | — | table | [[doctrinal/autorites/michel-valsan]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/symboles/jinns-classification-couleur]] · [[doctrinal/symboles/noblesse-spirituelle]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +33 | 271 |
+| `qur'an` | Qur'an | — | — | table | [[doctrinal/autorites/michel-valsan]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/symboles/jinns-classification-couleur]] · [[doctrinal/symboles/noblesse-spirituelle]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +34 | 272 |
 | `qutb` | Qutb, Quṭb, qutb, quṭb | — | — | annotation, table, tag, titre, translit | **51 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +10 | 212 |
 | `qwen` | Qwen, qwen | — | — | table, tag, titre | **45 fiches** | — | 154 |
 | `qaf` | Qaf, Qâf, Qāf, qaf (+2) | — | — | tag, titre, translit | **33 fiches** | sept-etendards-califat-transcription.md +6 | 134 |
@@ -40,13 +40,13 @@ links: []
 | `question ouverte` | Question ouverte | — | — | definition | **27 fiches** | — | 31 |
 | `quota` | Quota, quota | — | — | table, titre | **14 fiches** | — | 31 |
 | `qoder` | Qoder | — | — | table, titre | **12 fiches** | — | 30 |
+| `quete` | Quête, quete, quête | — | — | tag | **11 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +7 | 29 |
 | `qasida` | Qasida, qasida, qaṣīda | — | — | translit | [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/al-fuqara]] · [[doctrinal/symboles/dhikr]] · [[doctrinal/symboles/sama]] · +3 | LISEZ-MOI.md +2 | 26 |
 | `qalam` | Qalam, Qâlam, qalam | — | — | table | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · +1 | les-quatre-mondes.md +1 | 24 |
-| `quete` | Quête, quete, quête | — | — | tag | **11 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +3 | 23 |
 | `qaysari` | Qaysari, Qaysarî | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | iv.md +1 | 19 |
+| `qiyas` | qiyàs, qiyâs, qiyās | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +1 | munqidh-01-introduction-jabre.md | 18 |
 | `qoranique` | qorânique, qorānique | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon-13.md +6 | 18 |
 | `quietisme` | QUIÉTISME, quietisme, quiétisme | — | — | tag | [[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-17.md +2 | 18 |
-| `qiyas` | qiyâs, qiyās | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +1 | — | 17 |
 | `qutbiyya` | Quṭbiyya, qutbiyya, quṭbiyya | — | ⚖ islam | annotation, tag, translit | [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]] · [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/khatm]] · [[doctrinal/symboles/malamatiyya]] · +1 | osman-yahya-11-table-ouvrages.md | 17 |
 | `qadaman` | qadaman, qadamân, qadamān | — | — | annotation, tag, titre, translit | [[doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 16 |
 | `qamus` | Qamus, Qāmūs | — | — | titre, translit | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/qamus-language-of-the-future]] · [[meta/carte-du-depot]] | LISEZ-MOI.md +10 | 15 |

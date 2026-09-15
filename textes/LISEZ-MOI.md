@@ -96,7 +96,7 @@ supprime à la racine.
 | `les-etats-multiples-de-l-etre/` | 19 |
 | `les-principes-du-calcul-infinitesimal/` | 26 |
 | `les-quatre-mondes-daryush-shayegan/` | 1 |
-| `ghazali-munqidh-jabre-1959/` | 9 — versé le 2026-09-15, voir plus bas |
+| `ghazali-munqidh-jabre-1959/` | 10 — versé le 2026-09-15 (français + arabe), voir plus bas |
 | `orient-et-occident/` | 14 — versé le 2026-09-15 (13 + p. 228), voir plus bas |
 | `symboles-de-la-science-sacree-rene-guenon/` | 84 |
 
@@ -330,8 +330,10 @@ déterministe (`atelier/rd/outillage/convertir-jabre-munqidh.py`), pp. 1–122, 
 (fragments de lignes, notes mêlées au corps), documenté dans
 `ghazali-munqidh-jabre-1959/index-conversion.md`.
 
-**Non versé** : le texte arabe (pp. 125–172), dont la couche texte est du bruit —
-seconde passe par OCR `ara`. Écartée : la réédition d'Istanbul (2013) de la même
+**Texte arabe versé le même jour** (seconde passe, verdict Sidy « go, lance la passe
+arabe ») : OCR neuf `tesseract -l ara` des pp. 125–175, en ordre de lecture,
+`munqidh-08-texte-arabe.md` ; seuls les invisibles Cmd 15 injectés par le moteur ont été
+retirés, comptés et consignés (règle d'immuabilité amendée du 2026-09-14). Écartée : la réédition d'Istanbul (2013) de la même
 traduction, qui insère des formules de bénédiction dans le texte de Jabre. Ce qui se
 dit de l'œuvre : `doctrinal/sources/ghazali-munqidh-jabre-1959.md`.
 

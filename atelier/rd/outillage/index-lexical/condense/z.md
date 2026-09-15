@@ -12,12 +12,12 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `zodiaque` | Zodiaque, zodiaque | — | — | table, tag, titre | **46 fiches** | la-grande-triade-index-de-l-uvre-de-rene-guenon-10.md +24 | 173 |
+| `zodiaque` | Zodiaque, zodiaque | — | — | table, tag, titre | **46 fiches** | munqidh-07-partie-5.md +25 | 174 |
 | `zodiacal` | Zodiacal, zodiacal | — | — | titre | **56 fiches** | 08-h.md +28 | 159 |
 | `zodiacale` | zodiacale | — | — | titre | **51 fiches** | place-de-la-tradition-atlanteenne-dans-le-manvantara-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +10 | 136 |
 | `zodiac` | Zodiac, zodiac | — | — | table | **31 fiches** | 10-j.md +12 | 99 |
 | `zosaku` | zosaku, zōsaku | — | — | annotation, tag, titre, translit | **37 fiches** | — | 68 |
-| `zahir` | Zâhir, Zähir, zahir, zâhir (+2) | — | — | tag, titre, translit | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 38 |
+| `zahir` | Zâhir, Zähir, zahir, zâhir (+2) | — | — | tag, titre, translit | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 39 |
 | `zwj` | ZWJ | — | — | titre | **14 fiches** | — | 30 |
 | `zeus` | Zeus | — | — | table | [[atelier/rd/bibliotheque/index-noms-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · [[doctrinal/symboles/poseidon]] | la-grande-triade-index-de-l-uvre-de-rene-guenon-5.md +9 | 25 |
 | `zuhur` | Zuhur, zuhûr, zuhūr, ẓuhûr | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/sources/universal-man-jili]] | sept-etendards-califat-transcription.md +3 | 20 |
@@ -35,11 +35,11 @@ links: []
 | `zill` | ẓill | — | — | translit | [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] | — | 6 |
 | `zubban` | Zubban, Zubbân | — | — | table | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 5 |
 | `zaka` | zakâ, zakâʾ | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
+| `zawiya` | zawiya, zàwiya, zäwiya, zāwiya | — | — | translit | [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[meta/personnel/sidy]] | munqidh-07-partie-5.md +1 | 4 |
 | `zequni'el` | Zequni'el | — | — | table | [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +1 | 4 |
 | `zahr` | zahr, ẓahr | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md | 3 |
 | `zamahsari` | Zamaḫšarî, zamaḫšarî | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `zaota` | Zaota | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch09-vedic-myths-the-captive-waters.md | 3 |
-| `zawiya` | zawiya, zäwiya, zāwiya | — | — | translit | [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[meta/personnel/sidy]] | osman-yahya-08-repertoire.md | 3 |
 | `zulma` | ẓulma | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/nafs-qalb-irritation]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 3 |
 | `zalim` | ẓâlim, ẓālim | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/wazifa]] | — | 2 |
 | `zann` | ẓann | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |

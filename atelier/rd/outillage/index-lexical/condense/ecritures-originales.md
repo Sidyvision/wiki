@@ -23,7 +23,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `œuvre` | ŒUVRE, Œuvre, œuvre | — | ⚖ universel | definition, table | **68 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +130 | 337 |
+| `œuvre` | ŒUVRE, Œuvre, œuvre | — | ⚖ universel | definition, table | **68 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +135 | 347 |
 
 ## ʻ
 
@@ -165,6 +165,7 @@ links: []
 | `الجمع` | الجمع, الجَمْع, اْلَجْمع, اْلَجْمَع (+2) | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p451-500.md +33 | 96 |
 | `العفو` | العفو, العَفُوّ, الَعفُو, الَعفِو (+3) | — | — | translit | [[doctrinal/sources/shams-al-maarif]] · [[doctrinal/symboles/asma-al-husna]] | futuhat-t1-p551-600.md +23 | 91 |
 | `الرسول` | الرسول | — | — | translit | [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820]] · [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20]] · [[atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20]] · [[doctrinal/sources/mawlid-al-rasul]] | futuhat-t1-p001-050.md +31 | 88 |
+| `العزلة` | العزلة, العُزْلَة, اْلُعْزَلُة | `al-ʿuzla` — Jurjānī déf. 1066 | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +11 | 77 |
 | `السابع` | السابع | — | — | translit | [[atelier/rd/instrument/angles-de-l-espace]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/mawlid-al-rasul]] | futuhat-t1-p001-050.md +31 | 76 |
 | `الطبيب` | الطبيب | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tibb-ruhani]] | juz-1-pages-001-050.md +22 | 71 |
 | `الصوت` | الصوت, الصَوْت, الصَّوْت | `al-sawt` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p701-750.md +21 | 70 |
@@ -345,6 +346,7 @@ links: []
 |---|---|---|---|---|---|---|---|
 | `على` | على, علَى, عَلى, عَلَى (+1) | — | — | translit | [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | futuhat-t1-p001-050.md +53 | 15320 |
 | `ع` | ع, عَ, عُ | — | — | translit | **9 fiches** | futuhat-t1-p001-050.md +47 | 1024 |
+| `عشر` | عشر, عَشَر, عْشٍر, عْشُر (+1) | — | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/mawlid-al-rasul]] | futuhat-t1-p001-050.md +42 | 234 |
 
 ## غ
 
@@ -389,7 +391,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `من` | من, منْ, مَن, مَنْ (+7) | — | — | translit | [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +57 | 36423 |
+| `من` | من, منْ, مَن, مَنْ (+7) | — | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +57 | 36424 |
 | `م` | م | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · +1 | futuhat-t1-p001-050.md +54 | 3597 |
 | `مال` | مآل, مال, ماٌل, ماٍل (+3) | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | futuhat-t1-p001-050.md +47 | 336 |
 | `موت` | موت, مْوٌت, مْوَت, مْوُت (+1) | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | futuhat-t1-p001-050.md +27 | 66 |

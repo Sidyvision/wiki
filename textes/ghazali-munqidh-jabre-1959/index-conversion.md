@@ -26,15 +26,45 @@ exemplaire de l'University of California, Los Angeles), 180 pages PDF.
 | 53–54 | Liste des ouvrages authentiques de Ghazâlî | versé |
 | 55–122 | **Le traité**, en cinq parties | versé |
 | 123–124 | Pages blanches | — |
-| 125–172 | **Texte arabe original** | **non versé** — seconde passe |
-| 173–181 | Table arabe, pages de garde | non versé |
+| 125–175 | **Texte arabe** (colophon, texte, table, page de la Commission) | versé le 2026-09-15 — `munqidh-08-texte-arabe.md`, OCR neuf |
+| 176–181 | Pages de garde | — |
 
-La **couche texte arabe est inutilisable** : le recodage LuraDocument du scan a
-rendu l'arabe en caractères latins sans signification (« jl 4«JcS î^i … »). Elle
-relèvera d'un OCR `tesseract -l ara`, mesuré avec les outils du dépôt. **Attention
-pour cette passe** : les pages arabes sont reliées à la manière arabe, leur
-pagination imprimée décroît dans l'ordre du PDF (p. 126 → « 55 », p. 166 → « 15 ») :
-l'ordre de lecture est l'inverse de l'ordre du fichier.
+La **couche texte arabe du scan est inutilisable** : le recodage LuraDocument a
+rendu l'arabe en caractères latins sans signification (« jl 4«JcS î^i … »).
+
+## Seconde passe — le texte arabe (2026-09-15)
+
+Verdict de Sidy : « go, lance la passe arabe du Munqidh ».
+
+- **Chaîne** : `atelier/rd/outillage/convertir-jabre-munqidh-arabe.py` —
+  `pdftoppm -r 300 -gray` puis `tesseract 5 -l ara --psm 6`, page par page. Le
+  prétraitement ×2 + Otsu retenu pour les Futûḥât (OUT-08) n'a pas été nécessaire :
+  essai préalable sur les pp. 126 et 150, `--psm 6` légèrement meilleur que `--psm 1`.
+- **Ordre de lecture** : le texte est relié à l'arabe, sa pagination imprimée décroît
+  dans le PDF. Relation constatée (pp. 126 → 55 et 166 → 15, d'après les numéros de la
+  couche d'origine) : **page imprimée = 181 − page PDF**. Le fichier suit l'ordre de
+  lecture (page PDF décroissante) ; chaque page porte `<!-- page N — arabe p. M -->`.
+  Pour les pages liminaires non numérotées (175, 174, 173) et le colophon (125), le
+  numéro « arabe » calculé est **sans valeur**.
+- **Contenu, dans l'ordre de lecture** : p. 175 page de la Commission internationale ;
+  p. 174 table arabe ; p. 173 blanche ; pp. 172–126 le traité, qui s'ouvre sur
+  « الحمد لله الذي يفتتح بحمده كل رسالة ومقالة » ; p. 125 colophon de l'Imprimerie
+  catholique de Beyrouth.
+- **Seul retrait** (règle d'immuabilité amendée du 2026-09-14, conditions 1 à 3) :
+  **261 caractères invisibles** (U+200B–200F, U+202A–202E, U+2066–2069, U+FEFF) injectés
+  par le rendu bidirectionnel de Tesseract, comptés page par page. Démontré non
+  substantiel : ce sont des marques de direction, absentes de l'imprimé. Exécuté par
+  script ; motif de retrait vu refuser par la garde Cmd 15 de la première passe (même
+  jeu de caractères). Aucun autre caractère touché.
+- **Mesure** (`mesurer-qualite-ocr-arabe.py`, sur la sortie brute) : 49 pages mesurées,
+  **I1 moyen 0,16 %**, maximum **2,90 %** sur la table (lignes de points de conduite) ;
+  deux refus légitimes de la garde anti-mutisme : p. 173 (blanche) et p. 125 (colophon,
+  17 mots). Pour mémoire, le seuil franchi par la chaîne retenue d'OUT-08 était
+  1,56–2,97 %.
+- **Non relu par un humain.** Les en-têtes de page (numéros arabes, titre courant) sont
+  mal lus ; quelques confusions de lettres attendues. Garde anti-écrasement **vue
+  refuser** à la seconde exécution.
+- Durée : 3 min 44 s pour 51 pages.
 
 ## Chaîne
 
@@ -92,6 +122,7 @@ neuf du scan) remplacerait celle-ci, datée.
 | `munqidh-05-partie-3.md` | III. Les catégories des chercheurs — ch. I scolastique (*kalām*), ch. II « philosophie » (*falsafa*), ch. III *ta'līm*, ch. IV voie mystique | 67–102 |
 | `munqidh-06-partie-4.md` | IV. La réalité de la prophétie | 103–107 |
 | `munqidh-07-partie-5.md` | V. Raison de mon retour à l'enseignement | 108–122 |
+| `munqidh-08-texte-arabe.md` | Texte arabe, ordre de lecture | 175→125 |
 
 ## Autre édition présente dans `raw/`, écartée
 

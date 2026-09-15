@@ -6,8 +6,8 @@ tradition_cadre: "islam"
 tags: [ghazali, munqidh, certitude, taqlid, dhawq, kalam, falsafa, talim, soufisme, prophetie, autobiographie-spirituelle]
 created: 2026-09-15
 updated: 2026-09-15
-sources: ["textes/ghazali-munqidh-jabre-1959/munqidh-03-partie-1.md", "textes/ghazali-munqidh-jabre-1959/munqidh-04-partie-2.md", "textes/ghazali-munqidh-jabre-1959/munqidh-05-partie-3.md", "textes/ghazali-munqidh-jabre-1959/munqidh-06-partie-4.md", "textes/ghazali-munqidh-jabre-1959/munqidh-07-partie-5.md"]
-sources_count: 5
+sources: ["textes/ghazali-munqidh-jabre-1959/munqidh-08-texte-arabe.md", "textes/ghazali-munqidh-jabre-1959/munqidh-03-partie-1.md", "textes/ghazali-munqidh-jabre-1959/munqidh-04-partie-2.md", "textes/ghazali-munqidh-jabre-1959/munqidh-05-partie-3.md", "textes/ghazali-munqidh-jabre-1959/munqidh-06-partie-4.md", "textes/ghazali-munqidh-jabre-1959/munqidh-07-partie-5.md"]
+sources_count: 6
 cross_links: ["[[doctrinal/autorites/al-ghazali]]", "[[doctrinal/symboles/ilm-al-awfaq]]"]
 original: ["المنقذ من الضلال"]
 ---
@@ -22,8 +22,10 @@ Texte consulté dans `textes/ghazali-munqidh-jabre-1959/`. **Le traité (pp. 55-
 a été lu intégralement** le 2026-09-15 ; l'introduction de Jabre (pp. 11-52) est
 versée mais **n'a pas été lue** ce jour, et rien ici ne la résume.
 
-> ⚠️ **Texte arabe non versé** — la couche OCR arabe du scan est inutilisable ;
-> seconde passe prévue. Toute citation ci-dessous est celle de **la traduction**.
+> ⚠️ **Texte arabe versé, non relu.** OCR neuf de l'édition Jabre
+> (`textes/ghazali-munqidh-jabre-1959/munqidh-08-texte-arabe.md`, ordre de lecture) ;
+> qualité mesurée bonne, mais aucune relecture humaine. Les citations ci-dessous sont
+> celles de **la traduction**, sauf mention.
 
 > ⚠️ **OCR désordonné.** Les citations sont recomposées à la lecture de fragments
 > coupés par l'OCR ; le sens et les mots sont ceux du fichier, l'ordre des
@@ -127,8 +129,13 @@ religieuse et leurs remèdes. Retour à l'enseignement à Nîshâpûr, onzième 
 > point de doctrine. Rapporté, non tranché (Cmd 12).
 
 > 🌐 **Durée de la retraite.** « Environ dix ans » (p. 100), mais « Ma retraite avait
-> duré onze ans » (p. 114) ; Jabre date de 488 à 499 H. Écart interne au texte versé,
-> à confronter à l'arabe lors de la seconde passe.
+> duré onze ans » (p. 114) ; Jabre date de 488 à 499 H. **Confronté à l'arabe le
+> 2026-09-15 : l'écart est dans le texte de Ghazâlî, non dans la traduction.** L'arabe
+> porte deux fois la dizaine — « مقدار عشر سنين », « قريباً من عشر سنين » — puis, au
+> retour, « بلغت مدة العزلة احدى عشرة سنة » (« la durée de la retraite atteignit onze
+> ans »), compté depuis 488 (citations lues sur l'OCR, non relues sur le scan). Une
+> dizaine approximative et un compte exact en années ne se contredisent pas
+> nécessairement ; rapporté, non tranché.
 
 > 🌐 **Le carré magique (p. 117).** Pour justifier que les prescriptions rituelles
 > ont des propriétés non déductibles par la raison, Ghazâlî invoque ce que les

@@ -12,55 +12,55 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **511 fiches** | LISEZ-MOI.md +8 | 2921 |
-| `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **536 fiches** | LISEZ-MOI.md +167 | 2600 |
+| `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **511 fiches** | LISEZ-MOI.md +9 | 2925 |
+| `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **537 fiches** | LISEZ-MOI.md +169 | 2604 |
 | `symbolisme` | SYMBOLISME, Symbolisme, symbolisme | — | — | table, tag, titre | **137 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +325 | 1918 |
-| `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **407 fiches** | LISEZ-MOI.md +58 | 1511 |
-| `science` | SCIENCE, Science, science | — | — | table, titre | **144 fiches** | LISEZ-MOI.md +295 | 1436 |
-| `symboles` | SYMBOLES, Symboles, symboles | — | — | table, titre | **241 fiches** | LISEZ-MOI.md +201 | 1188 |
+| `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **407 fiches** | LISEZ-MOI.md +62 | 1517 |
+| `science` | SCIENCE, Science, science | — | — | table, titre | **145 fiches** | LISEZ-MOI.md +300 | 1485 |
+| `symboles` | SYMBOLES, Symboles, symboles | — | — | table, titre | **242 fiches** | LISEZ-MOI.md +202 | 1190 |
 | `shinto` | Shinto, Shintō, shinto, shintô (+1) | `神道` | ✓ shintoisme | annotation, table, tag, titre, translit | **18 fiches** | LISEZ-MOI.md +25 | 1100 |
-| `suite` | Suite, suite | — | — | titre | **119 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +363 | 1081 |
+| `suite` | Suite, suite | — | — | titre | **119 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +367 | 1088 |
 | `symbole` | SYMBOLE, Symbole, symbole | — | — | table, tag | **81 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +211 | 1065 |
 | `statut` | Statut, statut | — | — | tag | **357 fiches** | LISEZ-MOI.md +12 | 1056 |
-| `sept` | SEPT, Sept, sept | — | — | table, titre | **122 fiches** | 09-i.md +82 | 963 |
-| `spirituelle` | SPIRITUELLE, Spirituelle, spirituelle | — | — | table, titre | **164 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +194 | 954 |
+| `sept` | SEPT, Sept, sept | — | — | table, titre | **123 fiches** | 09-i.md +85 | 967 |
+| `spirituelle` | SPIRITUELLE, Spirituelle, spirituelle | — | — | table, titre | **165 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +196 | 957 |
 | `session` | Session, session | — | — | titre | **193 fiches** | LISEZ-MOI.md +9 | 877 |
-| `spirituel` | SPIRITUEL, Spirituel, spirituel | — | — | tag, titre | **153 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +203 | 840 |
-| `soleil` | Soleil, soleil | — | — | table, tag, titre | **95 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +110 | 787 |
-| `soi` | SOI, Soi, soi | — | — | tag | **91 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +238 | 774 |
+| `spirituel` | SPIRITUEL, Spirituel, spirituel | — | — | tag, titre | **153 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +205 | 845 |
+| `soleil` | Soleil, soleil | — | — | table, tag, titre | **95 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +112 | 795 |
+| `soi` | SOI, Soi, soi | — | — | tag | **91 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +242 | 781 |
 | `said` | Said, Saʿîd, said, saïd (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/shawq]] | 01-a.md +63 | 735 |
 | `structure` | STRUCTURE, Structure, structure, structuré | — | — | definition, table, tag, titre | **248 fiches** | 08-h.md +43 | 654 |
 | `sceau` | SCEAU, Sceau, sceau | — | — | table | **141 fiches** | LISEZ-MOI.md +39 | 600 |
 | `shakti` | Shakti, Shaktî, shakti | — | — | table | [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +2 | la-puissance-du-serpent.md +19 | 492 |
-| `signe` | SIGNE, Signe, signe, signé | — | — | table, titre | **117 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +139 | 489 |
-| `script` | Script, script | — | — | definition, table | **128 fiches** | LISEZ-MOI.md +4 | 472 |
+| `signe` | SIGNE, Signe, signe, signé | — | — | table, titre | **117 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +141 | 491 |
+| `script` | Script, script | — | — | definition, table | **128 fiches** | LISEZ-MOI.md +5 | 474 |
 | `sacree` | SACRÉE, Sacrée, sacree, sacrée | — | — | table, titre | **86 fiches** | LISEZ-MOI.md +134 | 456 |
-| `systeme` | SYSTÈME, Système, systeme, système | — | — | table, tag, titre | **118 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +82 | 422 |
+| `systeme` | SYSTÈME, Système, systeme, système | — | — | table, tag, titre | **118 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +85 | 429 |
 | `subtil` | Subtil, subtil | — | — | table, titre | **73 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +68 | 408 |
 | `synthese` | SYNTHÈSE, Synthèse, synthese, synthèse | — | — | table, tag, titre | **129 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +56 | 404 |
 | `solaire` | SOLAIRE, Solaire, solaire | — | — | titre | **77 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-2.md +73 | 382 |
-| `sagesse` | SAGESSE, Sagesse, sagesse | — | — | table, titre | **39 fiches** | LISEZ-MOI.md +69 | 366 |
+| `sagesse` | SAGESSE, Sagesse, sagesse | — | — | table, titre | **39 fiches** | LISEZ-MOI.md +71 | 371 |
 | `studio` | Studio, studio | — | — | table, tag, titre | **90 fiches** | osman-yahya-08-repertoire.md | 357 |
-| `sphere` | SPHÈRE, Sphere, Spheré, Sphère (+2) | — | — | table, tag | **52 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +67 | 329 |
+| `sphere` | SPHÈRE, Sphere, Spheré, Sphère (+2) | — | — | table, tag | **52 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +68 | 330 |
 | `serveur` | SERVEUR, Serveur, serveur | — | — | table, tag, titre | **97 fiches** | karubi-mehdi-navette-20260812.md | 320 |
-| `spirituelles` | SPIRITUELLES, Spirituelles, spirituelles | — | — | table, titre | **60 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +82 | 315 |
+| `spirituelles` | SPIRITUELLES, Spirituelles, spirituelles | — | — | table, titre | **60 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +84 | 318 |
+| `serpent` | SERPENT, Serpent, serpent | — | — | table, titre | **21 fiches** | 15-r.md +59 | 302 |
 | `site` | Site, site, sité | — | — | titre | **74 fiches** | LISEZ-MOI.md +44 | 301 |
 | `sashimono` | Sashimono, sashimono | — | — | annotation, table, tag, titre | **119 fiches** | karubi-mehdi-navette-20260812.md | 296 |
-| `serpent` | SERPENT, Serpent, serpent | — | — | table, titre | **21 fiches** | 15-r.md +56 | 296 |
-| `sommet` | Sommet, sommet | — | — | table, titre | **61 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +67 | 295 |
+| `sommet` | Sommet, sommet | — | — | table, titre | **61 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +68 | 296 |
 | `signalement` | SIGNALEMENT, Signalement, signalement | — | — | definition, table, tag | **105 fiches** | index-conversion.md | 279 |
-| `service` | SERVICE, Service, service | — | — | table, tag | **86 fiches** | 02-b.md +60 | 270 |
-| `speculatif` | SPÉCULATIF, speculatif, spéculatif | — | — | titre | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +12 | 259 |
+| `service` | SERVICE, Service, service | — | — | table, tag | **86 fiches** | 02-b.md +61 | 273 |
+| `speculatif` | SPÉCULATIF, speculatif, spéculatif | — | — | titre | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +14 | 261 |
 | `sin` | Sin, Sîn, sin, sîn (+3) | — | — | translit | [[doctrinal/autorites/michel-valsan]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] · +2 | 17-t.md +43 | 255 |
 | `sama` | Sama, Samä, Samāʿ, Sâma (+7) | — | ✓ islam | annotation, titre, translit | **10 fiches** | 03-c.md +14 | 245 |
-| `seigneur` | Seigneur, seigneur | — | — | table | **29 fiches** | les-limites-du-mental-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +59 | 238 |
-| `saints` | Saints, saints | — | — | table, titre | **56 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +66 | 232 |
+| `seigneur` | Seigneur, seigneur | — | — | table | **29 fiches** | les-limites-du-mental-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +61 | 240 |
+| `saints` | Saints, saints | — | — | table, titre | **56 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +68 | 234 |
 | `shiva` | Shiva, Shivâ | — | — | table | **11 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-2.md +24 | 225 |
 | `soma` | Soma, Sôma, Sōma, soma | — | — | table, titre | **11 fiches** | 11-k.md +26 | 225 |
-| `situation` | Situation, situation | — | — | definition, table | **43 fiches** | 11-k.md +107 | 216 |
-| `speculation` | Spéculation, speculation, spéculation | — | — | table, tag | **82 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +22 | 215 |
+| `situation` | Situation, situation | — | — | definition, table | **43 fiches** | 11-k.md +110 | 222 |
+| `speculation` | Spéculation, speculation, spéculation | — | — | table, tag | **82 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +24 | 218 |
 | `status` | Status, status | — | — | table, titre | **34 fiches** | 02-b.md +35 | 214 |
-| `soufisme` | SOUFISME, Soufisme, soufisme | — | — | table, tag, titre | **55 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +12 | 187 |
+| `soufisme` | SOUFISME, Soufisme, soufisme | — | — | table, tag, titre | **56 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +14 | 213 |
 | `septenaire` | Septénaire, septenaire, septénaire | — | — | table, tag, titre | **64 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +12 | 184 |
 | `sushumna` | Sushumna, Sushumnâ, sushumna, sushumnâ (+1) | — | — | annotation, tag, translit | **12 fiches** | la-puissance-du-serpent.md +10 | 171 |
 | `soul` | SOUL, Soul, soul | — | — | table | [[atelier/etudes-de-cas/stones-throw]] · [[atelier/rd/cahiers/brouillons-extension-zodiacale/README]] · [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills]] · [[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17]] · +1 | 03-c.md +32 | 162 |
@@ -70,22 +70,22 @@ links: []
 | `sas` | Sas, sas | — | — | tag | **47 fiches** | LISEZ-MOI.md +2 | 149 |
 | `sahasrara` | Sahasrara, Sahasrâra, Sahasrāra, sahasrâra (+1) | — | — | table, translit | **12 fiches** | la-puissance-du-serpent.md +1 | 148 |
 | `specification` | Spécification, specification, spécification | — | — | definition, table | **60 fiches** | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +17 | 146 |
+| `suivi` | Suivi, suivi | — | — | tag | **64 fiches** | influence-de-la-civilisation-islamique-en-occident-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +30 | 145 |
 | `scripts` | Scripts, scripts | — | — | definition, table, tag | **60 fiches** | — | 144 |
+| `spiritualite` | SPIRITUALITÉ, Spiritualité, spiritualite, spiritualité | — | — | tag | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +65 | 142 |
 | `skill` | SKILL, Skill, skill | — | — | table, tag, titre | **36 fiches** | 00-front-matter.md +4 | 141 |
-| `spiritualite` | SPIRITUALITÉ, Spiritualité, spiritualite, spiritualité | — | — | tag | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +64 | 141 |
 | `subtils` | subtils | — | — | titre | **31 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-6.md +24 | 141 |
-| `suivi` | Suivi, suivi | — | — | tag | **63 fiches** | influence-de-la-civilisation-islamique-en-occident-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +28 | 141 |
 | `ssh` | SSH, ssh | — | — | titre | **35 fiches** | karubi-mehdi-navette-20260812.md | 137 |
+| `s'at` | S'at | — | — | table | **19 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +82 | 131 |
 | `sephiroth` | Sephiroth, Séphiroth, sephiroth | — | — | annotation, table, tag, titre | **27 fiches** | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +13 | 131 |
 | `symptome` | Symptôme, symptome, symptôme | — | — | definition | **25 fiches** | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +13 | 129 |
 | `sessions` | Sessions, sessions | — | — | tag, titre | **66 fiches** | isaghuji-cours01-introduction-transcription.md +4 | 127 |
-| `s'at` | S'at | — | — | table | **19 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +80 | 126 |
 | `scorpion` | Scorpion, scorpion | — | — | table | **21 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +14 | 125 |
-| `systematique` | systématique | — | — | titre | **61 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +28 | 123 |
+| `systematique` | systématique | — | — | titre | **61 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +29 | 124 |
 | `s'an` | S'ân | — | — | table | **15 fiches** | index-conversion.md +9 | 119 |
+| `securite` | Sécurité, securite, sécurité | — | — | titre | **30 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +33 | 118 |
 | `samhita` | SAMHITA, SamhitA, Samhita, Samhitâ (+1) | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · +2 | la-puissance-du-serpent.md +13 | 117 |
 | `seerin's` | Seerin's | — | — | table | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili]] · [[meta/carte-du-depot]] | LISEZ-MOI.md +22 | 115 |
-| `securite` | Sécurité, securite, sécurité | — | — | titre | **30 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +30 | 114 |
 | `sidy's` | Sidy's | — | — | table | **35 fiches** | — | 113 |
 | `swastika` | swastika | — | ⚖ universel | annotation, tag | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | 01-a.md +27 | 108 |
 | `shabda` | Shabda, shabda | — | — | table | [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[meta/journal/conversation-atma-claude]] | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +5 | 106 |
@@ -107,35 +107,37 @@ links: []
 | `samadhi` | Samadhi, Samâdhi, samadhi, samâdhi (+1) | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/symboles/outil-faculte-objectivee]] | 11-k.md +6 | 81 |
 | `samael` | Samael, Samaël, samael | — | — | annotation, tag | [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] · [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] · +1 | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +4 | 81 |
 | `services` | Services, services | — | — | definition, table | **29 fiches** | 10-j.md +22 | 81 |
-| `spec` | Spec, spec | — | — | table, tag | **52 fiches** | index-conversion.md +1 | 80 |
+| `spec` | Spec, spec | — | — | table, tag | **52 fiches** | munqidh-07-partie-5.md +2 | 81 |
+| `satan` | Satan, satan | — | — | table | **10 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-3.md +27 | 80 |
+| `savant` | Savant, savant | — | — | table, titre | **19 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +25 | 80 |
 | `suggestions` | Suggestions, suggestions | — | — | titre | **21 fiches** | 00-front-matter.md +23 | 80 |
-| `satan` | Satan, satan | — | — | table | **10 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-3.md +26 | 79 |
 | `sommaire` | Sommaire, sommaire | — | — | table, tag, titre | **25 fiches** | LISEZ-MOI.md +20 | 79 |
 | `sagittaire` | Sagittaire, sagittaire | — | — | table | **28 fiches** | sefer-yetsira-ramban.md | 78 |
 | `salomon` | SALOMON, Salomon | — | — | table | **12 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +39 | 77 |
+| `scan` | Scan, scan | — | — | tag, titre | **30 fiches** | LISEZ-MOI.md +6 | 77 |
 | `sandbox` | Sandbox, sandbox | — | — | table, tag, titre | **25 fiches** | — | 74 |
 | `stones` | Stones, stones | — | — | table, titre | **11 fiches** | 05-e.md +20 | 73 |
-| `scan` | Scan, scan | — | — | tag, titre | **29 fiches** | LISEZ-MOI.md +5 | 70 |
 | `shaykh` | Shaykh, shaykh | — | — | tag | **20 fiches** | isaghuji-cours01-introduction-transcription.md +8 | 70 |
 | `shankaracharya` | Shankaracharya, Shankarachârya, Shankarâchârya, Shankarāchārya | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] · [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +1 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-5.md +35 | 69 |
 | `shimenawa` | Shimenawa, shimenawa | — | — | annotation | **10 fiches** | 06-f.md +8 | 68 |
 | `signature` | Signature, signature | — | — | titre | **28 fiches** | index-conversion.md +21 | 68 |
-| `savant` | Savant, savant | — | — | table, titre | **19 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +22 | 66 |
 | `sitra` | Sitra, sitra | — | — | table, titre | **20 fiches** | orion-ch01-introduction.md +3 | 66 |
 | `sacerdoce` | SACERDOCE, Sacerdoce, sacerdoce | — | — | tag | [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] · [[doctrinal/sources/guenon-hermetisme-hermes-thoth]] · [[doctrinal/sources/ibn-arabi-fard-afrad-gilis]] · [[doctrinal/sources/sept-etendards-califat]] | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +18 | 65 |
 | `shin` | Shin, Shīn, shin, shîn (+1) | — | — | table, translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/sefer-yetsira-ramban]] · [[doctrinal/sources/sefer-yetsira-ramban_source]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | 09-i.md +7 | 65 |
+| `sante` | Santé, sante, santé | — | — | tag | **26 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +17 | 62 |
 | `sutra` | Sutra, Sûtra, Sütra, sutra (+1) | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · +1 | 02-b.md +26 | 62 |
 | `speculative` | Speculative, speculative, spéculative | — | — | titre | **20 fiches** | 17-t.md +20 | 60 |
 | `san` | San, Sañ, san, sañ (+1) | — | — | translit | [[atelier/etudes-de-cas/stones-throw]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 11-k.md +24 | 59 |
 | `shokuh` | SHOKÛH, Shokûh, Shoküh | — | — | table | **14 fiches** | iv.md +2 | 59 |
 | `silsila` | Silsila, silsila | — | — | annotation, table, tag, titre | **31 fiches** | karubi-mehdi-navette-20260812.md | 59 |
 | `sort de` | Sort de | — | — | definition | **20 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +27 | 57 |
+| `sagesses` | SAGESSES, Sagesses, sagesses | — | — | table, titre | **12 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 56 |
 | `salawat` | Salawat, Salawät, salawat, salawät (+3) | — | ✓ islam | annotation, table, tag, titre, translit | **15 fiches** | osman-yahya-08-repertoire.md +1 | 56 |
-| `sante` | Santé, sante, santé | — | — | tag | **26 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +13 | 56 |
-| `sagesses` | SAGESSES, Sagesses, sagesses | — | — | table, titre | **12 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 55 |
 | `systemd` | systemd | — | — | tag | **26 fiches** | — | 55 |
 | `sayana` | SAyana, Sayana, Sâyana, Sāyaṇa | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/symboles/adityas-mois-du-soleil]] | la-puissance-du-serpent.md +10 | 54 |
+| `sufi` | Sufi, Sûfî, Sûfï, sûfi (+2) | — | — | table | [[doctrinal/sources/qamus-language-of-the-future]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/al-fuqara]] · [[doctrinal/symboles/dhikr]] · [[doctrinal/symboles/sama]] · +1 | LISEZ-MOI.md +15 | 54 |
 | `supervision` | Supervision, supervision | — | — | tag | **30 fiches** | 11-k.md +1 | 54 |
+| `secte` | Secte, secte | — | — | tag | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[hermeneutique/20th-century-boys/20th-century-boys]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | organisations-initiatiques-et-sectes-religieuses-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +20 | 52 |
 | `sefirot` | Sefirot, sefirot | — | — | annotation, table, tag | [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] · [[doctrinal/sources/kabbale-10-sefirot-structure]] · [[doctrinal/sources/kabbale-cosmogonie-iod]] · [[doctrinal/sources/sefer-yetsira-ramban]] · +1 | sefer-yetsira-ramban.md | 52 |
 | `sadr` | Sadr, sadr, ṣadr | — | — | translit | [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] · [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/mahdi-rouge-islam-signe-balance-II]] · [[doctrinal/sources/sept-etendards-califat]] · +2 | sept-etendards-califat-transcription.md +8 | 50 |
 | `saint-yves` | Saint-Yves | — | — | table, titre | **11 fiches** | formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon-5.md +12 | 50 |
@@ -143,26 +145,24 @@ links: []
 | `sankhya` | Sankhya, Sânkhya, Sāṅkhya, sankhya (+1) | — | — | table, tag, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/annales/2026-08-31]] · [[doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya]] · [[doctrinal/symboles/outil-faculte-objectivee]] | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +17 | 50 |
 | `sattva` | Sattva, sattva | — | — | annotation, table, tag | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]] · [[doctrinal/sources/guenon-symbolisme-croix-ch5-trois-gunas]] · +1 | la-puissance-du-serpent.md +2 | 50 |
 | `salat` | Salat, Salât, Salät, salat (+5) | — | — | table, translit | **25 fiches** | sept-etendards-califat-transcription.md +4 | 49 |
-| `sufi` | Sufi, Sûfî | — | — | table | [[doctrinal/sources/qamus-language-of-the-future]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/al-fuqara]] · [[doctrinal/symboles/dhikr]] · [[doctrinal/symboles/sama]] · +1 | LISEZ-MOI.md +11 | 49 |
 | `sihr` | sihr, siḥr | — | — | annotation, tag, titre, translit | **18 fiches** | — | 48 |
 | `sir` | SIR, Sir, sir, šiʿr (+1) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · +2 | la-puissance-du-serpent.md +18 | 48 |
 | `sirr` | Sirr, sirr | — | — | annotation | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/discernement/2026-06-20_fajr-vajra-indra-vritra]] · [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +1 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +7 | 48 |
+| `sunna` | Sunna, sunna | — | — | table | **23 fiches** | sept-etendards-califat-transcription.md +5 | 48 |
 | `sanatana` | SANÂTANA, Sanatâna, Sanâtana, Sanātana (+2) | — | — | table, titre, translit | **14 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-10.md +7 | 47 |
-| `secte` | Secte, secte | — | — | tag | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[hermeneutique/20th-century-boys/20th-century-boys]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | organisations-initiatiques-et-sectes-religieuses-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +17 | 47 |
 | `shams-al-maarif` | shams-al-maarif | — | ✓ islam | annotation, tag | **19 fiches** | — | 47 |
 | `sissoko` | Sissoko, sissoko | — | — | table, tag, titre | **15 fiches** | — | 47 |
 | `strategie` | Stratégie, strategie, stratégie | — | — | definition, table, tag, titre | **25 fiches** | l-affaire-de-la-societe-des-recherches-psychiques-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md | 46 |
+| `surat` | Surat, Sûrat, Sürat, Sūrat (+4) | — | — | table, translit | **9 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +14 | 46 |
 | `sayh` | Sayh, šayḫ | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tibb-ruhani]] | osman-yahya-03-chapitre-02.md +7 | 45 |
 | `sceaux` | Sceaux, sceaux | — | — | table | **24 fiches** | karubi-mehdi-navette-20260812.md +6 | 45 |
-| `surat` | Surat, Sûrat, Sürat, Sūrat (+4) | — | — | table, translit | **9 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +13 | 45 |
+| `soumission` | Soumission, soumission | — | — | titre | **20 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +14 | 45 |
 | `sefer` | Sefer | — | — | table, titre | **15 fiches** | sefer-yetsira-ramban.md +1 | 44 |
 | `saturation` | Saturation, saturation | — | — | table, titre | **19 fiches** | sefer-yetsira-ramban.md +1 | 42 |
 | `shatapatha` | SHATAPATHA, Shatapatha | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon-12.md +11 | 42 |
-| `soumission` | Soumission, soumission | — | — | titre | **20 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +11 | 42 |
 | `scripts deterministes` | Scripts déterministes | — | — | definition | **19 fiches** | — | 41 |
 | `soutien` | Soutien, soutien | — | — | titre | **17 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 41 |
 | `souverainete` | Souveraineté, souverainete, souveraineté | — | — | tag | **29 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-2.md +2 | 41 |
-| `sunna` | Sunna, sunna | — | — | table | **23 fiches** | sept-etendards-califat-transcription.md +3 | 41 |
 | `s'appuyant sur` | S'appuyant sur | — | — | definition | **11 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +10 | 40 |
 | `sayyid` | Sayyid, sayyid | — | — | table, titre | **12 fiches** | sept-etendards-califat-transcription.md +4 | 40 |
 | `semnani` | Semnâni, Semnânî, Semnânī, Semnäni (+1) | — | — | annotation, table, tag, translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · +2 | iv.md +3 | 40 |
@@ -187,9 +187,9 @@ links: []
 | `statu` | Statu, statu | — | — | titre | **15 fiches** | — | 32 |
 | `sirin` | Sirin, Sirîn, Sīrīn | — | — | table, titre, translit | **17 fiches** | LISEZ-MOI.md +3 | 31 |
 | `slm` | SLM, slm, ṣlm | — | — | tag, translit | **9 fiches** | — | 31 |
+| `sultan` | Sultan, Sultän, Sulṭān, Sültan (+4) | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/autorites/abd-al-qadir-al-jilani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/sources/mawlid-al-rasul]] · +3 | quelques-considerations-sur-l-hermetisme-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +12 | 31 |
 | `serverless` | Serverless, serverless | — | — | table | **14 fiches** | — | 30 |
 | `skambha` | skambha | — | — | annotation, tag | **12 fiches** | le-dome-et-la-roue-symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon.md +2 | 30 |
-| `sultan` | Sultan, Sultän, Sulṭān, Sültan (+4) | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/autorites/abd-al-qadir-al-jilani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/sources/mawlid-al-rasul]] · +3 | quelques-considerations-sur-l-hermetisme-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +11 | 30 |
 | `sahih` | Sahih, Ṣaḥīḥ, ṣaḥîḥ, ṣaḥīḥ | — | — | titre, translit | **12 fiches** | 28-bibliographie.md | 29 |
 | `salih` | Salih, Sälih, salih, sälih (+4) | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/autorites/abd-al-qadir-al-jilani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | les-disciplines-spirituelles.md +4 | 28 |
 | `song` | Song, song | — | — | table | [[atelier/etudes-de-cas/dougong-consoles-bois]] · [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] · [[doctrinal/symboles/sama]] | 17-t.md +12 | 28 |
@@ -203,6 +203,7 @@ links: []
 | `solid` | Solid, solid | — | — | table | [[atelier/etudes-de-cas/kojima-productions]] · [[hermeneutique/auteurs/hideo-kojima]] · [[hermeneutique/auteurs/yoji-shinkawa]] · [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/idroid]] · +1 | 00-front-matter.md +10 | 26 |
 | `soup` | Soup, soup | — | — | titre | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] · [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]] · [[atelier/rd/veille/registre]] | 13-n.md +5 | 25 |
 | `security` | Security, security | — | — | table | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[hermeneutique/metal-gear/mother-base]] | 06-f.md +11 | 24 |
+| `sentences` | Sentences, sentences | — | — | table | [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/sources/sefer-yetsira-ramban_source]] · [[meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/protocol-guardian]] | sefer-yetsira-ramban.md +5 | 24 |
 | `sephirah` | Sephirah | — | — | table | [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/discernement/2026-08-30_kursi-qadaman-hokhmah-binah-premiere-polarisation]] · [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +2 | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +5 | 24 |
 | `shamhurash` | Shamhûrash, Shamhūrash, shamhurash | — | — | table, tag, translit | [[doctrinal/sources/guenon-lettre-genty-1937-07-14]] · [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[doctrinal/symboles/shamharush]] · [[meta/carte-du-depot]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | guenon-correspondance-genty-1937-07-14-le-caire.md | 24 |
 | `simiya` | Simiyāʾ, simiya, simiyāʾ, sîmiyâ (+1) | — | — | annotation, table, tag, titre, translit | **15 fiches** | — | 24 |
@@ -223,7 +224,6 @@ links: []
 | `sar` | Sar, Sâr, sar, sâr (+1) | — | — | translit | [[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | la-kabbale-juive-de-paul-vulliaud-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +10 | 20 |
 | `sauvegarde` | Sauvegarde, sauvegarde, sauvegardé | — | — | table, tag | **15 fiches** | doctrine-des-etats-multiples-en-christianisme-pdf-esoterisme-occidental.md +1 | 20 |
 | `sheth` | Sheth | — | — | table | [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | sciences-traditionnelles-et-modernite-pdf-soufisme.md +4 | 20 |
-| `sentences` | Sentences, sentences | — | — | table | [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/sources/sefer-yetsira-ramban_source]] · [[meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/protocol-guardian]] | sefer-yetsira-ramban.md +4 | 19 |
 | `shahada` | Shahāda, shahâda | — | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] · [[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]] · [[doctrinal/sources/kabbale-10-sefirot-structure]] · [[doctrinal/sources/kabbale-cosmogonie-iod]] · +2 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 19 |
 | `shawq` | Shawq, shawq | — | ✓ islam | annotation, titre | [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/sources/qamus-language-of-the-future]] · [[doctrinal/symboles/shawq]] · [[doctrinal/symboles/wajd]] · [[meta/carte-du-depot]] | qamus-1384-shawq.md | 19 |
 | `shukr` | Shukr, shukr | — | ✓ islam | table, tag, titre | **9 fiches** | — | 19 |
@@ -245,11 +245,11 @@ links: []
 | `sari` | Sari, Sārī, sari, sarîʿ (+4) | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/khalwa]] | les-quatre-mondes.md +2 | 16 |
 | `sidyvision` | Sidyvision, sidyvision | — | — | tag, titre | **9 fiches** | — | 16 |
 | `simulation` | simulation | — | — | tag | [[atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel]] · [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +2 | folie-apparente-et-sagesse-cachee-initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon.md +2 | 16 |
+| `sina` | Sina, Sînâ, Sīnā, sina | — | — | table, titre, translit | **9 fiches** | isaghuji-cours01-introduction-transcription.md +2 | 16 |
 | `siphra` | Siphra | — | — | table | [[atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon]] · [[atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages]] · [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · [[doctrinal/sources/guenon-roi-du-monde-ch10]] · +1 | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md +4 | 16 |
 | `sulami` | SuLAMI, SuLAMi, SuLaMï, SuLami (+3) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/hasbiyallah-rabbani]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/tawakkul]] | osman-yahya-08-repertoire.md +1 | 16 |
 | `survey` | SURVEY, Survey, survey | — | — | table | [[atelier/etudes-de-cas/kojima-productions]] · [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] | 00-front-matter.md +6 | 16 |
 | `shah` | Shah, Shâh, Shāh | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/autorites/charles-andre-gilis]] · [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]] · +1 | les-quatre-mondes.md | 15 |
-| `sina` | Sina, Sînâ, Sīnā, sina | — | — | table, titre, translit | **9 fiches** | isaghuji-cours01-introduction-transcription.md +1 | 15 |
 | `slump` | Slump, slump | — | — | table, titre | [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[hermeneutique/auteurs/akira-toriyama]] · [[hermeneutique/dr-slump/dr-slump]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] | 04-d.md +2 | 15 |
 | `software` | Software, software | — | — | table, tag | **9 fiches** | karubi-mehdi-navette-20260812.md | 15 |
 | `speculaire` | speculaire, spéculaire | — | — | tag | [[doctrinal/annales/2026-08-31]] · [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] · [[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]] · [[doctrinal/sources/conversation-llm-intellect-2026-06-11]] · [[doctrinal/symboles/prakriti]] · +3 | — | 15 |
@@ -314,6 +314,7 @@ links: []
 | `shambhu` | Shambhu, Shambhû | — | — | table | [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | la-puissance-du-serpent.md +1 | 8 |
 | `suhuf` | suhuf, Ṣuḥuf, ṣuḥuf, ṣuḥûf | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +1 | 8 |
 | `sabr` | sabr, ṣabr | — | — | annotation, translit | [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/traditions/tasawwuf]] | — | 7 |
+| `sahib` | SAHIB, Sahib, Sâhib, sahib (+2) | — | — | translit | [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]] · [[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +2 | 7 |
 | `sariyya` | šarʿiyya | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 7 |
 | `sasa` | Sasa, sasa | — | — | table | [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] | 17-t.md +1 | 7 |
 | `script d'extraction` | Script d'extraction | — | — | definition | [[atelier/rd/cahiers/bilan-2026-08-15-pont-agents]] · [[atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure]] · [[atelier/rd/infrastructure/synthese-deploiement-memoire]] · [[atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole]] | — | 7 |
@@ -325,7 +326,6 @@ links: []
 | `suyuti` | Suyüti, Suyūṭī | — | — | translit | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili]] | osman-yahya-06-chapitre-05.md +2 | 7 |
 | `svaprakas'a` | svaprakās'a | — | — | translit | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | iv.md | 7 |
 | `s'arira` | s'arīra | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | les-quatre-mondes.md | 6 |
-| `sahib` | SAHIB, Sahib, sahib, Ṣāḥib (+1) | — | — | translit | [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]] · [[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +1 | 6 |
 | `sakl` | šakl | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 6 |
 | `sakti` | Sakti, sakti, śakti | — | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/symboles/bindu]] · [[doctrinal/symboles/outil-faculte-objectivee]] | les-disciplines-spirituelles.md | 6 |
 | `sama-veda` | SAMA-VEDA, Sama-Veda, Sâma-Véda | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md +1 | 6 |
@@ -387,6 +387,7 @@ links: []
 | `shaban` | Shabān | — | — | translit | [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820]] · [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20]] · [[atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20]] | — | 4 |
 | `shatyayanins` | ShatyAyanins, Shatyayanins, Shâtyâyanins, Shâtyâyânins | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md +1 | 4 |
 | `shayatin` | shayātīn, shayāṭīn | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2]] · [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] | — | 4 |
+| `shibli` | Shibli, Shiblî, Shiblī | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | munqidh-01-introduction-jabre.md | 4 |
 | `shichiyo` | shichiyō | — | — | translit | [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] | — | 4 |
 | `siman` | Simʿân, siman | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
 | `sirriya` | sirrîya, sirrīya | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] | les-disciplines-spirituelles.md | 4 |
@@ -401,6 +402,7 @@ links: []
 | `synthetiseur` | Synthetiseur, Synthétiseur, synthétiseur | — | — | table, tag | [[atelier/materiel/moog-voyager]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] · [[label/production/album-personnel]] | — | 4 |
 | `safaqa` | šafaqa, ṣafaqa | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `safra` | Safra | — | — | table | [[doctrinal/deviations/body-types]] · [[doctrinal/deviations/morphopsychologie]] | — | 3 |
+| `safsata` | safsata, safsaṭa | — | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | munqidh-04-partie-2.md | 3 |
 | `sahaba` | saḥâba, ṣaḥâba, ṣaḥāba | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]] | — | 3 |
 | `saj` | sajʿ | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `sakk` | šakk | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
@@ -418,7 +420,6 @@ links: []
 | `shamsoddin` | Shamsoddin, Shamsoddîn | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | les-quatre-mondes.md | 3 |
 | `sharia` | sharīʿa | — | — | translit | [[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]] · [[doctrinal/symboles/fiqh]] | — | 3 |
 | `shatakratu` | Shatakratu, shatakratu | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch08-the-cows-walk.md | 3 |
-| `shibli` | Shiblî, Shiblī | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 3 |
 | `shiksha` | Shiksha, Shikshâ | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md | 3 |
 | `shuyukh` | shuyûkh, shuyūkh | — | — | translit | [[doctrinal/autorites/muhammad-nazim-al-haqqani]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/wazifa]] | — | 3 |
 | `siberie` | Sibérie | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon-12.md | 3 |

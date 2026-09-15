@@ -12,20 +12,20 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ordre` | ORDRE, Ordre, ordre | — | — | table, tag | **154 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +317 | 1033 |
+| `ordre` | ORDRE, Ordre, ordre | — | — | table, tag | **155 fiches** | LISEZ-MOI.md +321 | 1044 |
 | `own` | Own, own | — | — | titre | **28 fiches** | LISEZ-MOI.md +64 | 426 |
 | `ouvert` | OUVERT, Ouvert, ouvert | — | — | table, tag | **160 fiches** | LISEZ-MOI.md +16 | 412 |
 | `orion` | ORION, Orion, orion | — | — | annotation, table, tag, titre | **11 fiches** | LISEZ-MOI.md +23 | 345 |
-| `origine` | Origine, origine | — | — | definition, table, titre | **82 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +129 | 338 |
+| `origine` | Origine, origine | — | — | definition, table, titre | **82 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +130 | 340 |
+| `occident` | OCCIDENT, Occident | — | — | titre | **18 fiches** | LISEZ-MOI.md +150 | 265 |
 | `outillage` | Outillage, outillage | — | — | table, tag | **123 fiches** | karubi-mehdi-navette-20260812.md +1 | 265 |
-| `occident` | OCCIDENT, Occident | — | — | titre | **18 fiches** | LISEZ-MOI.md +149 | 260 |
 | `ouverts` | ouverts | — | — | definition, titre | **63 fiches** | le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon-10.md +2 | 163 |
+| `orient` | ORIENT, Orient, orient | — | — | table, titre | **11 fiches** | LISEZ-MOI.md +69 | 129 |
 | `observation` | Observation, observation | — | — | definition, table | **35 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-5.md +47 | 127 |
-| `orient` | ORIENT, Orient, orient | — | — | table, titre | **11 fiches** | LISEZ-MOI.md +68 | 125 |
 | `ornith` | Ornith, ornith | — | — | table, tag, titre | **25 fiches** | — | 122 |
-| `ocr` | OCR, ocr | — | — | tag, titre | **39 fiches** | LISEZ-MOI.md +4 | 114 |
+| `ocr` | OCR, ocr | — | — | tag, titre | **41 fiches** | LISEZ-MOI.md +5 | 119 |
 | `obsidian` | Obsidian, obsidian | — | — | table, tag, titre | **32 fiches** | LISEZ-MOI.md +1 | 103 |
-| `options` | Options, options | — | — | definition, table | **28 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +23 | 97 |
+| `options` | Options, options | — | — | definition, table | **28 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +24 | 98 |
 | `ourse` | Ourse, ourse | — | — | table | **14 fiches** | enel-a-message-from-the-sphinx-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +8 | 96 |
 | `objectif` | Objectif, objectif | — | — | definition | **22 fiches** | la-puissance-du-serpent.md +12 | 78 |
 | `omniroute` | OmniRoute, Omniroute, omniroute | — | — | table, tag, titre | **27 fiches** | — | 78 |
@@ -41,9 +41,10 @@ links: []
 | `ontologie` | Ontologie, ontologie | — | — | tag, titre | **9 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-15.md +5 | 18 |
 | `open-source` | open-source, open-sourcé | — | — | tag, titre | **11 fiches** | — | 17 |
 | `osman` | OSMAN, Osman, Osmân | — | — | table, titre | [[atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio]] · [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]] · [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] · [[atelier/rd/registre-chantiers]] · [[doctrinal/sources/osman-yahia-histoire-classification-1964]] · +2 | LISEZ-MOI.md +2 | 17 |
-| `ouest` | Ouest | — | — | table | [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] · +2 | sefer-yetsira-ramban.md | 16 |
+| `ouest` | Ouest | — | — | table | [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] · +2 | sefer-yetsira-ramban.md +1 | 17 |
 | `octogone` | Octogone, octogone | — | — | table, tag, titre | **9 fiches** | la-puissance-du-serpent.md | 15 |
 | `openai` | OpenAI, openai | — | — | table, tag | **11 fiches** | — | 15 |
+| `ordre de lecture` | Ordre de lecture | — | ⚖ shintoisme | definition | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/introduction-ihwan-al-safa]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]] · +2 | LISEZ-MOI.md +2 | 15 |
 | `occultisme` | Occultisme, occultisme | — | — | tag | [[doctrinal/sources/guenon-apercus-initiation-ch20-magie-ceremonielle]] · [[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]] · [[meta/projet-unifie/archives/briefing-claude-ai]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-10.md +8 | 13 |
 | `oharae` | Ōharae, ōharae | — | — | translit | [[doctrinal/symboles/espace-sacre-shinto]] · [[doctrinal/traditions/shinto]] | 03-c.md +3 | 13 |
 | `outillage karubi` | Outillage Karūbī | — | — | definition | [[atelier/rd/cahiers/bilan-2026-08-15-pont-agents]] · [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] · [[atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes]] · [[atelier/rd/infrastructure/synthese-deploiement-memoire]] · +3 | — | 13 |
@@ -51,7 +52,6 @@ links: []
 | `offerte` | offerte | — | — | titre | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[label/distribution/doctrine-du-don]] · [[meta/carte-du-depot]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | influence-de-la-civilisation-islamique-en-occident-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +3 | 10 |
 | `ontology` | Ontology, ontology | — | — | table | [[doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi]] · [[doctrinal/sources/alshammari-llm-ontologie-hadith-2026]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-15.md +1 | 10 |
 | `osiris` | Osiris | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +5 | 9 |
-| `ordre de lecture` | Ordre de lecture | — | ⚖ shintoisme | definition | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/introduction-ihwan-al-safa]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] | corps-du-texte.md | 8 |
 | `onboarding` | Onboarding, onboarding | — | — | table, tag, titre | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · +3 | — | 7 |
 | `orchestration` | Orchestration, orchestration | — | — | titre | [[atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent]] · [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] · [[meta/projet-unifie/choura/cycle-2026-08-31]] · [[meta/projet-unifie/hermes-prompts/08-publication-site/mandats/site-orchestration]] | — | 7 |
 | `out-c` | OUT-C | — | — | table | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/spec]] · [[atelier/rd/registre-chantiers]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 7 |
@@ -62,6 +62,7 @@ links: []
 | `otomo` | Ōtomo | — | — | table, translit | [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[hermeneutique/auteurs/naoki-urasawa]] | 11-k.md +1 | 5 |
 | `odyssee` | Odyssée | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/guenon-zodiaque-pythagoriciens]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | — | 4 |
 | `oniromancie` | oniromancie | — | — | tag | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili]] · [[doctrinal/symboles/taawil-par-le-nom]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | — | 4 |
+| `otsu` | Otsu | — | — | table | [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]] · [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]] | index-conversion.md | 4 |
 | `ouattara` | Ouattara | — | — | table, titre | [[doctrinal/autorites/ouattara-brahima]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 4 |
 | `obsidi` | Obsidi | — | — | table | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] | — | 3 |
 | `opencv` | OpenCV | — | — | table | [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan]] · [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]] · [[atelier/rd/registre-chantiers]] | — | 3 |

@@ -12,53 +12,53 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `trois` | TROIS, Trois, trois, troìs | — | — | table, titre | **304 fiches** | LISEZ-MOI.md +213 | 2325 |
-| `tradition` | TRADITION, Tradition, tradition | — | — | table, tag, titre | **223 fiches** | 02-b.md +387 | 2286 |
-| `temps` | TEMPS, Temps, temps | — | — | table, tag, titre | **146 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +417 | 1616 |
-| `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | — | titre | **107 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +191 | 1301 |
-| `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | — | table, titre | **146 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +96 | 1070 |
-| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **112 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +342 | 977 |
-| `table` | TABLE, Table, table | — | — | table, titre | **160 fiches** | LISEZ-MOI.md +64 | 850 |
-| `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | — | table, titre | **165 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +215 | 781 |
-| `traduction` | Traduction, traduction | — | — | table, tag, titre | **101 fiches** | LISEZ-MOI.md +126 | 501 |
-| `transmission` | TRANSMISSION, Transmission, transmission | — | — | tag, titre | **129 fiches** | 16-s.md +77 | 478 |
+| `trois` | TROIS, Trois, trois, troìs | — | — | table, titre | **305 fiches** | LISEZ-MOI.md +219 | 2352 |
+| `tradition` | TRADITION, Tradition, tradition | — | — | table, tag, titre | **223 fiches** | 02-b.md +391 | 2299 |
+| `temps` | TEMPS, Temps, temps | — | — | table, tag, titre | **146 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +421 | 1642 |
+| `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | — | titre | **107 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +193 | 1307 |
+| `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | — | table, titre | **147 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +100 | 1089 |
+| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **112 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +343 | 978 |
+| `table` | TABLE, Table, table | — | — | table, titre | **160 fiches** | LISEZ-MOI.md +66 | 857 |
+| `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | — | table, titre | **165 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +216 | 782 |
+| `traduction` | TRADUCTION, Traduction, traduction | — | — | table, tag, titre | **102 fiches** | LISEZ-MOI.md +130 | 523 |
+| `transmission` | TRANSMISSION, Transmission, transmission | — | — | tag, titre | **129 fiches** | 16-s.md +78 | 479 |
 | `transcription` | TRANSCRIPTION, Transcription, transcription | — | — | table, tag, titre | **133 fiches** | LISEZ-MOI.md +20 | 451 |
-| `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **114 fiches** | LISEZ-MOI.md +120 | 431 |
+| `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **114 fiches** | LISEZ-MOI.md +121 | 434 |
 | `three` | Three, three | — | — | table | **24 fiches** | 01-a.md +54 | 429 |
-| `type` | Type, type, typé | — | — | definition, table | **120 fiches** | 00-front-matter.md +101 | 413 |
-| `technique` | TECHNIQUE, Technique, technique | — | — | definition, titre | **148 fiches** | LISEZ-MOI.md +69 | 407 |
-| `total` | TOTAL, Total, total | — | ⚖ islam | definition, table | **77 fiches** | 10-j.md +120 | 339 |
-| `trace` | Trace, Tracé, trace, tracé | — | — | table, tag | **96 fiches** | 08-h.md +101 | 308 |
+| `type` | Type, type, typé | — | — | definition, table | **120 fiches** | 00-front-matter.md +102 | 415 |
+| `technique` | TECHNIQUE, Technique, technique | — | — | definition, titre | **148 fiches** | LISEZ-MOI.md +73 | 411 |
+| `total` | TOTAL, Total, total | — | ⚖ islam | definition, table | **77 fiches** | 10-j.md +123 | 342 |
+| `trace` | Trace, Tracé, trace, tracé | — | — | table, tag | **96 fiches** | 08-h.md +103 | 311 |
 | `temple` | TEMPLE, Temple, temple, templé | — | — | table, titre | **25 fiches** | 01-a.md +84 | 284 |
 | `temporel` | Temporel, temporel | — | — | table, titre | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +81 | 265 |
 | `to-source` | to-source | — | — | tag | **43 fiches** | karubi-mehdi-navette-20260812.md | 260 |
-| `tour` | Tour, tour | — | — | table, titre | **44 fiches** | 11-k.md +82 | 249 |
+| `tour` | Tour, tour | — | — | table, titre | **44 fiches** | 11-k.md +84 | 252 |
+| `tard` | tard, ṭard | — | ✓ islam | translit | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +134 | 235 |
 | `test` | Test, test | — | — | definition, table, titre | **76 fiches** | 11-k.md +4 | 235 |
 | `trone` | Trone, Trône, trone, tròne (+1) | — | — | table | **45 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +30 | 233 |
-| `tard` | tard, ṭard | — | ✓ islam | translit | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +132 | 232 |
 | `tantra` | Tantra, tantra | — | — | annotation, table, tag | **14 fiches** | la-puissance-du-serpent.md +4 | 204 |
 | `triade` | Triade, triade | — | — | table, titre | **37 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +50 | 203 |
-| `tasawwuf` | Tasawwuf, Taṣawwuf, tasawwuf, taṣawwuf | — | ✓ islam | annotation, table, tag, titre, translit | **102 fiches** | karubi-mehdi-navette-20260812.md +6 | 194 |
-| `transposition` | Transposition, transposition | — | — | annotation, tag | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +87 | 192 |
+| `tasawwuf` | Tasawwuf, Taṣawwuf, tasawwuf, taṣawwuf | — | ✓ islam | annotation, table, tag, titre, translit | **103 fiches** | karubi-mehdi-navette-20260812.md +7 | 197 |
+| `transposition` | Transposition, transposition | — | — | annotation, tag | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +88 | 196 |
 | `tension` | Tension, tension | — | — | table, titre | **99 fiches** | la-puissance-du-serpent.md +3 | 176 |
 | `ternaire` | TERNAIRE, Ternaire, ternaire | — | — | tag, titre | **29 fiches** | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +34 | 173 |
-| `theme` | Thème, theme, thème | — | — | table, titre | **61 fiches** | 07-g.md +13 | 161 |
-| `theologie` | THÉOLOGIE, Théologie, theologie, théologie | — | — | tag | **18 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +37 | 151 |
-| `traitement` | Traitement, traitement | — | — | table, titre | **64 fiches** | la-puissance-du-serpent.md +3 | 142 |
+| `theme` | Thème, theme, thème | — | — | table, titre | **61 fiches** | 07-g.md +14 | 162 |
+| `theologie` | THÉOLOGIE, Théologie, theologie, théologie | — | — | tag | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +40 | 156 |
+| `traitement` | Traitement, traitement | — | — | table, titre | **64 fiches** | la-puissance-du-serpent.md +4 | 143 |
 | `types` | Types, types, typés | — | — | table, titre | **46 fiches** | 00-front-matter.md +40 | 141 |
-| `table des matieres` | Table des matières | — | — | definition | **44 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +8 | 135 |
+| `table des matieres` | Table des matières | — | — | definition | **44 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +10 | 138 |
+| `tilak` | TILAK, Tilak, tilak | — | — | annotation, table, tag, titre | **30 fiches** | LISEZ-MOI.md +7 | 132 |
+| `traces` | Traces, traces, tracés | — | — | table, titre | **15 fiches** | 11-k.md +58 | 132 |
 | `taittiriya` | TAITTIRIYA, Taittiriya, Taittirîya, Taittirīya | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · +3 | la-puissance-du-serpent.md +20 | 131 |
-| `tilak` | TILAK, Tilak, tilak | — | — | annotation, table, tag, titre | **30 fiches** | LISEZ-MOI.md +6 | 131 |
-| `traces` | Traces, traces, tracés | — | — | table, titre | **15 fiches** | 11-k.md +57 | 131 |
-| `tache` | TÂCHE, Tâche, tache, tâche (+1) | — | — | definition, table | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +34 | 125 |
-| `terminologie` | Terminologie, terminologie | — | — | table, tag | **19 fiches** | LISEZ-MOI.md +81 | 122 |
+| `tache` | TÂCHE, Tâche, tache, tâche (+1) | — | — | definition, table | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +37 | 129 |
+| `terminologie` | Terminologie, terminologie | — | — | table, tag | **19 fiches** | LISEZ-MOI.md +83 | 125 |
 | `taoisme` | Taoïsme, taoïsme | — | — | table, titre | **21 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +39 | 120 |
 | `transformation` | TRANSFORMATION, Transformation, transformation | — | — | tag | **26 fiches** | 01-a.md +58 | 119 |
 | `transition` | Transition, transition | — | — | table, tag, titre | **53 fiches** | 16-s.md +12 | 114 |
 | `terminal` | Terminal, terminal | — | — | table, titre | **40 fiches** | LISEZ-MOI.md +7 | 111 |
 | `tamas` | TAMAS, Tamas, tamas, tâmas | — | — | annotation, table, tag | **11 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +21 | 110 |
 | `texts` | TEXTS, Texts, texts | — | — | table | [[atelier/rd/bibliotheque/sommaire-origine-polaire]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · +2 | 04-d.md +29 | 108 |
-| `temporelle` | temporelle | — | — | titre | **27 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +48 | 98 |
+| `temporelle` | temporelle | — | — | titre | **27 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +49 | 99 |
 | `transversal` | Transversal, transversal | — | — | titre | **52 fiches** | la-puissance-du-serpent.md +1 | 93 |
 | `turiya` | Turiya, Turîya, Turīya, Tûrîya (+3) | — | — | annotation, table, tag, translit | **12 fiches** | la-puissance-du-serpent.md +4 | 93 |
 | `tours` | TOURS, Tours, tours | — | — | table, titre | **33 fiches** | index-conversion.md +4 | 92 |
@@ -68,16 +68,16 @@ links: []
 | `trade` | Trade, trade | — | — | table | [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/hermes-prompts/06-distribution/06-principe]] · [[meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution]] | 09-i.md +22 | 76 |
 | `taches` | Tâches, taches, tâches | — | — | titre | **32 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +3 | 74 |
 | `tafsir` | Tafsir, Tafsīr, tafsir, tafsîr (+1) | — | — | translit | **12 fiches** | isaghuji-cours01-introduction-transcription.md +7 | 74 |
+| `temperament` | Tempérament, temperament, tempérament | — | — | table, tag, titre | **20 fiches** | 04-d.md +22 | 74 |
 | `tokyo` | Tokyo, Tōkyō | — | — | table | **9 fiches** | 00-front-matter.md +16 | 74 |
 | `torii` | Torii, torii | — | — | annotation, table, titre | **9 fiches** | 00-front-matter.md +9 | 73 |
-| `temperament` | Tempérament, temperament, tempérament | — | — | table, tag, titre | **20 fiches** | 04-d.md +20 | 72 |
 | `theophanie` | Théophanie, theophanie, théophanie | — | — | titre | **21 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 72 |
-| `temoin` | Témoin, temoin, témoin | — | — | table, tag | **32 fiches** | karubi-mehdi-navette-20260812.md +10 | 69 |
+| `temoin` | Témoin, temoin, témoin | — | — | table, tag | **32 fiches** | karubi-mehdi-navette-20260812.md +11 | 70 |
 | `terrestres` | TERRESTRES, terrestres | — | — | titre | **12 fiches** | erreurs-diverses-concernant-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +36 | 69 |
 | `tanmatra` | Tanmatra, Tanmâtra, tanmâtra, tanmātra | — | — | table, translit | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/journal/conversation-atma-claude]] | la-puissance-du-serpent.md +2 | 66 |
 | `triptyque` | Triptyque, triptyque | — | — | table, titre | **26 fiches** | — | 66 |
+| `tombeau` | Tombeau, tombeau | — | — | table, titre | **23 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +7 | 63 |
 | `taureau` | Taureau, taureau | — | — | table | **25 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 62 |
-| `tombeau` | Tombeau, tombeau | — | — | table, titre | **23 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +6 | 62 |
 | `tokens` | Tokens, tokens | — | — | definition, table | **33 fiches** | 16-p.md | 61 |
 | `typical` | Typical, typical | — | — | table | **17 fiches** | 09-i.md +6 | 61 |
 | `tariqa` | Tariqa, tariqa, tarîqa, tarīqa (+3) | — | ✓ islam | annotation, table, tag, titre, translit | **28 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 60 |
@@ -85,25 +85,25 @@ links: []
 | `tailscale` | Tailscale, tailscale | — | — | table | **22 fiches** | karubi-mehdi-navette-20260812.md | 58 |
 | `tahir` | TAHIR, Tahir, Tähir, Ṭāhir (+1) | — | — | translit | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 00-front-matter.md +5 | 53 |
 | `telegram` | Telegram, telegram | — | — | table, titre | **16 fiches** | — | 53 |
+| `transmissions` | Transmissions, transmissions | — | — | table, tag | **26 fiches** | 04-d.md +6 | 50 |
 | `typical commands` | Typical commands | — | — | definition | **17 fiches** | — | 50 |
-| `transmissions` | Transmissions, transmissions | — | — | table, tag | **26 fiches** | 04-d.md +5 | 49 |
 | `taijasa` | TAIJASA, Taijasa, taijasa | — | — | annotation, table, tag | **12 fiches** | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +8 | 48 |
 | `tanzih` | Tanzih, Tanzīh, tanzih, tanzîh (+2) | — | — | translit | **13 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 48 |
 | `tula` | Tula, Tulâ, Tulä, Tulā (+2) | — | — | annotation, table, tag, translit | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/sources/guenon-roi-du-monde-ch10]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon-5.md +8 | 48 |
 | `tabernacle` | Tabernacle, tabernacle | — | — | table, titre | [[doctrinal/discernement/2026-09-10_tabernacle-honden-interiorite]] · [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]] · [[doctrinal/symboles/espace-sacre-shinto]] · [[doctrinal/symboles/mihrab-torii]] · [[doctrinal/traditions/shinto]] · +1 | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +17 | 47 |
+| `tresor` | Tresor, Trésor, tresor, trésor | — | — | table | **11 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +16 | 46 |
+| `traite par` | Traité par | — | — | definition | **11 fiches** | munqidh-05-partie-3.md +1 | 45 |
 | `trente` | Trente, trente | — | — | titre | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[doctrinal/autorites/faraz-rabbani]] · [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · +2 | la-puissance-du-serpent.md +10 | 45 |
-| `tresor` | Tresor, Trésor, tresor, trésor | — | — | table | **11 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +15 | 45 |
-| `traite par` | Traité par | — | — | definition | **11 fiches** | osman-yahya-08-repertoire.md | 44 |
 | `throw` | Throw, throw | — | — | table, titre | **11 fiches** | 11-k.md +14 | 43 |
 | `titus` | Titus | — | — | titre | **21 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +2 | 40 |
 | `tanmatras` | Tanmatras, Tanmātras, tanmatras, tanmâtras (+1) | — | — | annotation, table, tag, translit | [[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] · [[doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya]] · +2 | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md +10 | 39 |
 | `tashbih` | tashbih, tashbîh, tashbīh, tashbīḥ | — | — | translit | **10 fiches** | sept-etendards-califat-transcription.md +2 | 37 |
 | `transmetteur` | Transmetteur, transmetteur | — | — | table | **18 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +8 | 37 |
+| `ta'wil` | Ta'wīl, ta'wīl | — | — | titre, translit | **13 fiches** | munqidh-05-partie-3.md +3 | 36 |
 | `tijaniyya` | Tijaniyya, Tijāniyya, tijaniyya | — | ✓ islam | table, tag, titre, translit | **14 fiches** | — | 36 |
-| `ta'wil` | Ta'wīl, ta'wīl | — | — | titre, translit | **13 fiches** | les-disciplines-spirituelles.md +2 | 35 |
+| `talib` | Talib, Tâlib, Tälib, Ṭâlib (+2) | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] · [[doctrinal/autorites/al-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +1 | ascension-regard-soufisme-52-53-qabd-bast.md +8 | 35 |
+| `tawhid` | Tawhid, Tawhîd, Tawhïd, Tawhīd (+5) | — | — | translit | **12 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +7 | 35 |
 | `tajalli` | Tajallī, tajalli, tajallî, tajallī | — | — | titre, translit | **19 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 34 |
-| `tawhid` | Tawhid, Tawhîd, Tawhïd, Tawhīd (+5) | — | — | translit | **12 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +6 | 34 |
-| `talib` | Talib, Tâlib, Tälib, Ṭâlib (+2) | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] · [[doctrinal/autorites/al-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +1 | ascension-regard-soufisme-52-53-qabd-bast.md +7 | 33 |
 | `tascam` | Tascam, tascam | — | — | table, tag, titre | **15 fiches** | — | 33 |
 | `tenjin` | Tenjin, tenjin | — | — | table | [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[label/direction-artistique/amorcage/kamon-personnel]] | 02-b.md +9 | 33 |
 | `tenon` | Tenon, tenon | — | — | tag, titre | **16 fiches** | — | 33 |
@@ -114,13 +114,14 @@ links: []
 | `tarifat` | Taʿrīfāt | — | — | titre, translit | **19 fiches** | — | 30 |
 | `tui` | TUI, Tui | — | — | titre | **16 fiches** | les-quatre-mondes.md | 29 |
 | `tiferet` | Tiferet, tiferet | — | — | annotation, table, tag, titre | **9 fiches** | — | 28 |
+| `ta'lim` | ta'līm | — | — | translit | [[atelier/rd/bibliotheque/table-ihwan-al-safa]] · [[doctrinal/sources/ghazali-munqidh-jabre-1959]] | index-conversion.md +3 | 26 |
 | `taches en cours` | Tâches en cours | — | — | definition | [[meta/projet-unifie/choura/cycle-2026-08-28]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/choura/cycle-2026-08-31]] · [[meta/projet-unifie/choura/cycle-2026-09-01]] · [[meta/projet-unifie/propositions/proposition-cycle-consultation-choura-2026-08-27]] | — | 26 |
 | `tha` | Tha, tha, thâ, thâʾ (+1) | — | — | translit | [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | la-puissance-du-serpent.md +5 | 26 |
+| `traite le` | Traité le | — | — | definition | **16 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +4 | 26 |
 | `tattwas` | tattwas | — | — | annotation, tag | [[doctrinal/annales/2026-08-31]] · [[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]] · [[doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya]] · [[doctrinal/symboles/prakriti]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md +6 | 25 |
 | `trilogie` | Trilogie, trilogie | — | — | titre | **14 fiches** | l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon-3.md +3 | 25 |
 | `tetragramme` | Tétragramme, tetragramme, tétragramme | — | — | annotation, table, tag | [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]] · [[doctrinal/sources/kabbale-cosmogonie-iod]] · [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]] · [[doctrinal/sources/sefer-yetsira-ramban]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-6.md +5 | 24 |
 | `tomoe` | Tomoe, tomoe | `巴` | ✓ shintoisme | annotation, titre | [[atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise]] · [[atelier/rd/infrastructure/monitoring-archive/registre-traitement]] · [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/symboles/tomoe]] · +3 | — | 24 |
-| `traite le` | Traité le | — | — | definition | **15 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 24 |
 | `territoires` | territoires | — | — | titre | **11 fiches** | l-omphalos-et-les-betyles-le-roi-du-monde-index-de-l-uvre-de-rene-guenon.md +1 | 23 |
 | `these centrale` | Thèse centrale | — | ⚖ islam | definition | **15 fiches** | — | 23 |
 | `tandya` | TAndya, Tandya, Tândya | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch08-the-cows-walk.md +5 | 22 |
@@ -130,6 +131,8 @@ links: []
 | `tariq` | Tariq, tariq, ṭarîq | — | ✓ islam | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tariq]] · +1 | osman-yahya-08-repertoire.md +2 | 19 |
 | `tibb-e-nabawi` | Tibb-e-Nabawi, tibb-e-nabawi | — | ✓ islam | annotation, table, titre | **10 fiches** | — | 19 |
 | `tijani` | Tijani, Tijânî, tijānī | — | — | translit | **9 fiches** | koly-cherif-keita-djinns-aident-humains.md +1 | 19 |
+| `tout-puissant` | Tout-Puissant, tout-puissant | — | — | table | [[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +8 | 19 |
+| `tabaqat` | Tabaqat, Tabaqât, Tabaqät, tabaqât (+2) | — | — | translit | [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]] · [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] · [[doctrinal/sources/hasbiyallah-rabbani]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +2 | sept-etendards-califat-transcription.md +5 | 18 |
 | `tanzil` | Tanzil, Tanzîl, tanzîl, tanzīl | — | — | translit | [[doctrinal/sources/alshammari-llm-ontologie-hadith-2026]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/animaux-en-reve-comparatisme]] · [[doctrinal/symboles/voiles-naqshbandiyya]] · +3 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 18 |
 | `tencent` | Tencent, tencent | — | — | table, tag, titre | [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]] · [[atelier/rd/registre-chantiers]] · [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] · [[atelier/rd/veille/registre]] · +2 | — | 17 |
 | `testament` | Testament, testament | — | — | table | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | paradis-terrestre-et-paradis-celeste-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +9 | 17 |
@@ -137,7 +140,6 @@ links: []
 | `tuhfat` | Tuhfat, Tuḥfat, tuhfat | — | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] · [[doctrinal/sources/dalail-al-khayrat-jazuli]] | osman-yahya-08-repertoire.md +2 | 17 |
 | `talismanique` | talismanique | — | — | titre | [[atelier/rd/cahiers/registre-problemes]] · [[doctrinal/autorites/rene-guenon]] · [[doctrinal/discernement/2026-08-13_shams-al-maarif-efficacite-talismanique-critere-psychique-spirituel]] · [[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation]] · [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] · +3 | symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon-4.md | 16 |
 | `tikun` | Tikun, tikun | — | ⚖ kabbale | annotation, tag | [[doctrinal/autorites/isaac-louria-arizal]] · [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · [[doctrinal/symboles/gilgul]] | shaar-hagilgulim-gate-of-reincarnations.md | 16 |
-| `tout-puissant` | Tout-Puissant, tout-puissant | — | — | table | [[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 16 |
 | `triage` | Triage, triage | — | — | titre | [[atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/projet-unifie/01-contexte-demarche-etat]] · +2 | — | 16 |
 | `tarbiyya` | Tarbiyya, tarbiyya | — | — | annotation, titre | [[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]] · [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/symboles/tarbiyya-rabbaniyya]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +3 | — | 15 |
 | `thor` | Thor | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-grande-triade-index-de-l-uvre-de-rene-guenon-6.md +5 | 15 |
@@ -152,16 +154,17 @@ links: []
 | `tabir` | Taʿbīr, taʿbīr | — | — | titre, translit | **12 fiches** | — | 13 |
 | `tibb` | Tibb, tibb, ṭibb | — | — | table, tag, titre, translit | **12 fiches** | — | 13 |
 | `turuq` | turuq, ṭuruq | — | — | translit | [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/traditions/naqshbandiyya]] · [[doctrinal/traditions/tijaniyya]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +6 | 13 |
-| `tabaqat` | Tabaqat, Tabaqät, tabaqât, tabaqāt (+1) | — | — | translit | [[doctrinal/discernement/2026-07-02_mont-qaf-meru-topologie-apex]] · [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] · [[doctrinal/sources/hasbiyallah-rabbani]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +2 | sept-etendards-califat-transcription.md +2 | 12 |
 | `tabit` | Täbit, ṯâbit, ṯābit | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/traditions/tasawwuf]] | osman-yahya-08-repertoire.md +1 | 12 |
 | `tabita` | täbita, ṯâbita, ṯābita | — | — | translit | [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] · [[doctrinal/symboles/wahdat-al-wujud]] | osman-yahya-08-repertoire.md | 12 |
 | `tafsil` | Tafsil, tafsîl, tafṣîl, tafṣīl | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/wahdat-al-wujud]] | sept-etendards-califat-transcription.md +4 | 12 |
 | `tahlil` | tahlil, tahlîl, tahlīl, taḥlîl | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/wird-awrad]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 12 |
 | `tahqiq` | Tahqiq, tahqiq, taḥqîq, taḥqīq | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/animaux-en-reve-comparatisme]] | osman-yahya-08-repertoire.md +2 | 12 |
+| `taqlid` | taqlid, taqlîd, taqlïd, taqlīd | — | — | annotation, tag, translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] | munqidh-01-introduction-jabre.md +1 | 11 |
 | `tolerant` | tolérant | — | — | titre | [[atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise]] · [[atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations]] · [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/outillage/spec-generer-cartographie-tolerant]] · [[atelier/rd/registre-chantiers]] | la-duchesse-de-pomar-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +2 | 11 |
 | `tab` | TAB, Tab, tab, ṭabʿ | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 00-front-matter.md +6 | 10 |
 | `tapa` | Tapa, Tâpa | — | — | table, titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/genealogie/arbre-genealogique-sissoko]] · [[meta/genealogie/hawa-kante]] · +3 | la-puissance-du-serpent.md +1 | 10 |
 | `tasarruf` | Tasarruf, tasarruf, tašarruf, taṣarruf | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/traditions/tasawwuf]] | sept-etendards-califat-transcription.md | 10 |
+| `tasdiq` | Taṣdīq, tasdiq, tasdïq, taṣdîq (+1) | — | ✓ islam | table, titre, translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tasdiq]] · [[meta/carte-du-depot-doctrinal]] · +1 | munqidh-05-partie-3.md | 10 |
 | `tawil` | Taʾwīl, tawil, taʾwîl, taʾwīl (+1) | — | — | tag, titre, translit | [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/taawil-par-le-nom]] · [[meta/carte-doctrinal]] · +3 | — | 10 |
 | `taylor` | Taylor | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | 00-front-matter.md +3 | 10 |
 | `technics` | Technics | — | — | table, titre | [[atelier/materiel/technics-su-8080]] · [[atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18]] · [[label/production/album-personnel]] · [[meta/carte-atelier]] · [[meta/carte-du-depot-atelier]] · +3 | — | 10 |
@@ -178,10 +181,10 @@ links: []
 | `tabii` | tabii, ṭabîʿî | — | ✓ islam | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tabia]] · [[doctrinal/symboles/tabii]] | — | 8 |
 | `table revisee` | Table révisée | — | ⚖ universel | definition | [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]] · [[meta/projet-unifie/archives/17-compte-rendu-12-agents-calibration-zodiacale-2026-08-09]] | — | 8 |
 | `tafsili` | tafsili, tafsîlî, tafṣîlî | — | — | translit | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | les-quatre-mondes.md | 8 |
+| `tahafut` | Tahâfut, Tahäfut, Tahāfut | — | — | translit | [[doctrinal/autorites/al-ghazali]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | munqidh-02-ouvrages-authentiques.md +3 | 8 |
 | `tara` | Tara, Târâ, tara, tarā (+1) | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +4 | 8 |
 | `tartibut-tacawwuf` | Tartîbut-Taçawwuf, Tartîbut-taçawwuf | — | — | table | [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]] · [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | les-etats-multiples-de-l-etre-index-de-l-uvre-de-rene-guenon-4.md | 8 |
 | `tasbih` | tasbîh, tasbîḥ, tasbīh, tasbīḥ (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/sources/wazifa]] · [[doctrinal/symboles/wahdat-al-wujud]] · [[doctrinal/symboles/wird-awrad]] | sept-etendards-califat-transcription.md | 8 |
-| `tasdiq` | Taṣdīq, tasdiq, taṣdîq, taṣdīq | — | ✓ islam | table, titre, translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tasdiq]] · [[meta/carte-du-depot-doctrinal]] · +1 | — | 8 |
 | `taslim` | taslim, taslîm, taslīm | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/khalwa]] · +1 | — | 8 |
 | `tirmidhi` | Tirmidhi, Tirmidhî, Tirmidhī | — | — | translit | [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/pierre-noire-mecque]] · [[doctrinal/symboles/rawda-sharif]] · [[doctrinal/symboles/tibb-e-nabawi]] | — | 8 |
 | `tisseur` | Tisseur | — | — | table | [[doctrinal/discernement/2026-07-05_correspondances-fonctions-initiatiques-entreprise]] · [[label/direction-artistique/amorcage/generation-non-cumulative]] · [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/hermes-prompts/03-production-manager/03-principe]] | — | 8 |
@@ -196,7 +199,6 @@ links: []
 | `tabiiyya` | ṭabîʿiyya, ṭabīʿiyya | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 6 |
 | `tadbir` | tadbîr, tadbīr | — | — | translit | [[doctrinal/sources/hasbiyallah-rabbani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/symboles/animaux-en-reve-comparatisme]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 6 |
 | `taekwondo` | Taekwondo, taekwondo | — | — | table, tag, titre | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/personnel/2026-06-20_taekwondo-hansu]] | — | 6 |
-| `tahafut` | Tahäfut, Tahāfut | — | — | translit | [[doctrinal/autorites/al-ghazali]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | osman-yahya-08-repertoire.md +1 | 6 |
 | `tahsis` | taḫṣîṣ | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 6 |
 | `tajalliyat` | tajalliyât, tajalliyāt | — | — | translit | [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/symboles/asma-al-husna]] · [[doctrinal/symboles/wahdat-al-wujud]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 6 |
 | `tajalliyyat` | Tajalliyyāt, tajalliyyat, tajalliyyât, tajalliyyāt | — | — | translit | [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/universal-man-jili]] | abu-yazid-al-bistami-et-son-enseignement-pdf-coran.md | 6 |
@@ -252,7 +254,6 @@ links: []
 | `talazum` | talâzum, talāzum | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tard]] | — | 3 |
 | `taman` | ṭaman, ṯaman | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `tamyiz` | tamyîz, tamyīz | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/nafs-qalb-irritation]] | — | 3 |
-| `taqlid` | taqlîd, taqlīd | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] | — | 3 |
 | `tarjih` | tarjîh, tarjîḥ | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md | 3 |
 | `telang` | Telang | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch10-vedic-myths-the-matutinal-deities.md | 3 |
 | `test negatif` | Test négatif | — | — | definition | [[atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16]] · [[atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21]] · [[meta/transmissions/registre-silsila]] | — | 3 |
@@ -298,6 +299,7 @@ links: []
 | `tajalli des activites` | Tajallī des Activités | — | ⚖ islam | definition | [[doctrinal/sources/universal-man-jili]] | — | 1 |
 | `tajalli des noms` | Tajallī des Noms | — | ⚖ islam | definition | [[doctrinal/sources/universal-man-jili]] | — | 1 |
 | `tajalli des qualites` | Tajallī des Qualités | — | ⚖ islam | definition | [[doctrinal/sources/universal-man-jili]] | — | 1 |
+| `talim` | talim, taʿlîm | — | — | tag, translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 1 |
 | `test propose` | Test proposé | — | ⚖ universel | definition | [[doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire]] | — | 1 |
 | `timeline estimee` | Timeline estimée | — | — | definition | [[atelier/rd/outillage/investigation-isolation-memoire-hermes]] | — | 1 |
 | `titus-burckhardt` | titus-burckhardt | — | — | annotation | [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]] | — | 1 |
