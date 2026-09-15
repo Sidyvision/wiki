@@ -15,12 +15,12 @@ links: []
 | `index` | INDEX, Index, index | — | — | tag | **99 fiches** | LISEZ-MOI.md +416 | 1654 |
 | `ibn` | IBN, IBn, Ibn, ibn | — | — | titre | **181 fiches** | LISEZ-MOI.md +83 | 1482 |
 | `initiatique` | INITIATIQUE, Initiatique, initiatique | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +180 | 846 |
-| `islamique` | Islamique, islamique | — | — | table, titre | **171 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +146 | 702 |
+| `islamique` | Islamique, islamique | — | — | table, titre | **172 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +146 | 703 |
 | `indra` | Indra, indra | — | — | table, titre | **16 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-15.md +25 | 571 |
 | `idees` | Idées, idées | — | — | titre | **93 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +171 | 518 |
 | `interpretation` | INTERPRETATION, INTERPRÉTATION, Interpretation, Interprétation (+2) | — | — | definition, table | **61 fiches** | LISEZ-MOI.md +157 | 472 |
 | `infrastructure` | INFRASTRUCTURE, Infrastructure, infrastructure | — | — | definition, table, tag, titre | **119 fiches** | — | 465 |
-| `identite` | IDENTITÉ, Identité, identite, identité | — | — | table, tag | **145 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +80 | 443 |
+| `identite` | IDENTITÉ, Identité, identite, identité | — | — | table, tag | **146 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +80 | 444 |
 | `introduction` | INTRODUCTION, Introduction, introduction | — | — | table, tag, titre | **58 fiches** | LISEZ-MOI.md +121 | 406 |
 | `islam` | ISLAM, Islam, Islâm, Isläm (+3) | — | — | table, titre, translit | **152 fiches** | 01-a.md +35 | 388 |
 | `initiation` | INITIATION, Initiation, initiation | — | — | table, tag, titre | **46 fiches** | 08-h.md +116 | 363 |
@@ -94,8 +94,8 @@ links: []
 | `ilahiyya` | ilahiyya, ilâhiyya, ilāhiyya | — | — | translit | [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +2 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +4 | 27 |
 | `immortalite` | Immortalité, immortalite, immortalité | — | — | annotation, tag | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/lost/jacob]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +12 | 25 |
 | `ilm-al-nujum` | ilm-al-nujum | — | ✓ islam | annotation, tag | **16 fiches** | — | 24 |
+| `inde` | INDE, Inde, indé | — | — | table | **10 fiches** | isaghuji-cours01-introduction-transcription.md +10 | 24 |
 | `imams` | Imams, Imâms, imams | — | — | table, titre | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 23 |
-| `inde` | INDE, Inde, indé | — | — | table | **9 fiches** | isaghuji-cours01-introduction-transcription.md +10 | 23 |
 | `istidad` | istidad, istiʿdâd, istiʿdād | — | ✓ islam | annotation, translit | **10 fiches** | — | 23 |
 | `ibn-sirin` | ibn-sirin | — | ✓ islam | annotation, tag | **11 fiches** | — | 21 |
 | `ilyas` | ILYÂS, Ilyas, Ilyâs, Ilyäs (+1) | — | — | table | [[doctrinal/autorites/ibn-arabi]] · [[doctrinal/autorites/idris]] · [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]] · [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]] · +3 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 21 |

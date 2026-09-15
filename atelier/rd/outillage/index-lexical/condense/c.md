@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `cas` | CAS, Cas, cas | — | — | titre | **233 fiches** | LISEZ-MOI.md +478 | 2703 |
+| `cas` | CAS, Cas, cas | — | — | titre | **234 fiches** | LISEZ-MOI.md +478 | 2704 |
 | `centre` | CENTRE, Centre, centre, centré | — | — | table, tag, titre | **117 fiches** | LISEZ-MOI.md +253 | 1676 |
 | `corps` | CORPS, Corps, corps | — | — | table, titre | **198 fiches** | LISEZ-MOI.md +143 | 1491 |
 | `correspondance` | CORRESPONDANCE, Correspondance, correspondance | — | — | table, tag | **172 fiches** | LISEZ-MOI.md +477 | 1239 |
@@ -38,7 +38,7 @@ links: []
 | `confusion` | CONFUSION, Confusion, confusion | — | — | titre | **57 fiches** | 11-k.md +203 | 413 |
 | `cycles` | CYCLES, Cycles, cycles | — | — | table, tag, titre | **83 fiches** | 09-i.md +88 | 374 |
 | `caire` | Caire | — | — | table | **14 fiches** | LISEZ-MOI.md +23 | 350 |
-| `coran` | CORAN, Coran, Corân, coran | — | — | annotation, table, tag, titre | **58 fiches** | LISEZ-MOI.md +24 | 340 |
+| `coran` | CORAN, Coran, Corân, coran | — | — | annotation, table, tag, titre | **59 fiches** | LISEZ-MOI.md +24 | 341 |
 | `conversation` | Conversation, conversation | — | — | table, titre | **123 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +9 | 322 |
 | `coomaraswamy` | Coomaraswamy, coomaraswamy | — | — | table, tag, titre | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +61 | 313 |
 | `correspondances` | CORRESPONDANCES, Correspondances, correspondances | — | — | table, tag, titre | **88 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +63 | 308 |
@@ -79,7 +79,7 @@ links: []
 | `chantiers` | Chantiers, chantiers | — | — | tag, titre | **51 fiches** | — | 127 |
 | `chute` | Chute, chute, chuté | — | — | annotation, table, tag, titre | **27 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +39 | 127 |
 | `contrainte` | Contrainte, contrainte | — | — | definition, table, tag, titre | **55 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +12 | 126 |
-| `cancer` | Cancer, cancer | — | — | table | **33 fiches** | sefer-yetsira-ramban.md +12 | 124 |
+| `cancer` | Cancer, cancer | — | — | table | **34 fiches** | sefer-yetsira-ramban.md +12 | 125 |
 | `century` | Century, century | — | — | table, titre | [[atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks]] · [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/carte-du-depot-hermeneutique]] · +1 | 00-front-matter.md +27 | 124 |
 | `compare` | Compare, Comparé, compare, comparé | — | — | titre | **47 fiches** | de-la-hierarchie-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +42 | 124 |
 | `controles` | Contrôles, controles, contrôles, contrôlés | — | — | table, tag | **55 fiches** | index-conversion.md +3 | 123 |

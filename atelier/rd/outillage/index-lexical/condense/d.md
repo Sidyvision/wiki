@@ -13,16 +13,16 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `dream` | DREAM, Dream, dream | — | — | table | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[meta/personnel/sidy]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +28 | 13006 |
-| `deux` | DEUX, Deux, deux | — | — | table, titre | **488 fiches** | LISEZ-MOI.md +487 | 6627 |
-| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **398 fiches** | LISEZ-MOI.md +19 | 2094 |
-| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **467 fiches** | 14-o.md +47 | 2004 |
+| `deux` | DEUX, Deux, deux | — | — | table, titre | **489 fiches** | LISEZ-MOI.md +487 | 6629 |
+| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **399 fiches** | LISEZ-MOI.md +19 | 2096 |
+| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **468 fiches** | 14-o.md +47 | 2009 |
 | `doctrine` | DOCTRINE, Doctrine, doctrine | — | — | table, titre | **261 fiches** | 08-h.md +251 | 1531 |
 | `degre` | DEGRÉ, Degre, Degré, degre (+1) | — | — | table, titre | **158 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +251 | 1464 |
 | `degres` | DEGRÉS, Degres, Degrés, degres (+1) | — | — | table, tag, titre | **164 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +197 | 1301 |
 | `dieu` | Dieu, dieu | — | — | table | **84 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +149 | 1218 |
 | `discernement` | DISCERNEMENT, Discernement, discernement | — | — | table, tag, titre | **294 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +14 | 1103 |
 | `developpement` | DÉVELOPPEMENT, Développement, développement | — | — | table, titre | **177 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +221 | 986 |
-| `distinction` | DISTINCTION, Distinction, distinction | — | — | definition, titre | **177 fiches** | 01-a.md +257 | 842 |
+| `distinction` | DISTINCTION, Distinction, distinction | — | — | definition, titre | **178 fiches** | 01-a.md +257 | 843 |
 | `definition` | Définition, definition, définition | — | — | table | **183 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +123 | 776 |
 | `death` | Death, death | — | — | table, titre | **15 fiches** | 01-a.md +54 | 745 |
 | `date` | DATE, Date, Daté, date (+1) | — | ⚖ universel | definition, table | **164 fiches** | LISEZ-MOI.md +125 | 742 |
@@ -44,7 +44,7 @@ links: []
 | `detail` | Détail, detail, détail | — | — | definition, table | **93 fiches** | LISEZ-MOI.md +81 | 264 |
 | `delivrance` | DÉLIVRANCE, Délivrance, delivrance, délivrance | — | — | annotation, table, tag | **21 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-8.md +42 | 246 |
 | `determination` | Determination, Détermination, determination, détermination | — | — | table, titre | **36 fiches** | 08-h.md +89 | 245 |
-| `deviation` | DÉVIATION, Déviation, deviation, déviation | — | — | table, tag, titre | **52 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +78 | 235 |
+| `deviation` | DÉVIATION, Déviation, deviation, déviation | — | — | table, tag, titre | **53 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +78 | 237 |
 | `dhikr` | DHIKR, Dhikr, dhikr | — | ⚖ islam | annotation, table, tag, titre | **26 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 233 |
 | `diagnostic` | Diagnostic, diagnostic | — | — | definition, table, tag | **58 fiches** | — | 215 |
 | `directions` | Directions, directions | — | — | titre | **42 fiches** | 05-e.md +59 | 206 |

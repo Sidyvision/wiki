@@ -15,7 +15,7 @@ links: []
 | `formes` | FORMES, Formes, formes, formés | — | — | table, titre | **129 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +325 | 1365 |
 | `fin` | FIN, Fin, fin | — | — | titre | **165 fiches** | LISEZ-MOI.md +220 | 1038 |
 | `fonction` | FONCTION, Fonction, fonction | — | — | definition, table, titre | **189 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +172 | 984 |
-| `figure` | Figure, figure, figuré | — | — | table, tag, titre | **146 fiches** | 08-h.md +197 | 863 |
+| `figure` | Figure, figure, figuré | — | — | table, tag, titre | **147 fiches** | 08-h.md +197 | 864 |
 | `fichier` | Fichier, fichier | — | — | definition, table | **170 fiches** | LISEZ-MOI.md +9 | 729 |
 | `fichiers` | FICHIERS, Fichiers, fichiers | — | — | definition, table | **142 fiches** | LISEZ-MOI.md +9 | 475 |
 | `futuhat` | FUTÛHÂT, Futuhat, Futuhät, Futûhât (+9) | — | — | annotation, table, tag, titre, translit | **79 fiches** | karubi-mehdi-navette-20260812.md +13 | 433 |
@@ -26,9 +26,9 @@ links: []
 | `fiabilite` | Fiabilité, fiabilité | — | — | table | **86 fiches** | corps-du-texte.md +1 | 233 |
 | `faculte` | Faculté, faculté | — | — | table, titre | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-9.md +65 | 206 |
 | `futur` | FUTUR, Futur, futur, futûr (+1) | — | — | table, translit | **71 fiches** | voie-initiatique-et-voie-mystique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +43 | 176 |
+| `famille` | Famille, famille | — | — | tag | **89 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +36 | 170 |
 | `fil` | Fil, fil, fiʿl, fîʿl | — | — | translit | **59 fiches** | LISEZ-MOI.md +25 | 170 |
-| `famille` | Famille, famille | — | — | tag | **88 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +36 | 169 |
-| `france` | France | — | — | table, titre | **14 fiches** | 09-i.md +51 | 159 |
+| `france` | France | — | — | table, titre | **15 fiches** | 09-i.md +51 | 160 |
 | `fiqh` | FIQH, Fiqh, fiqh | — | ✓ islam | annotation, table, tag, titre | **38 fiches** | isaghuji-cours01-introduction-transcription.md +5 | 156 |
 | `formulation` | Formulation, formulation | — | — | definition, table | **73 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +14 | 123 |
 | `file` | File, file, filé | — | — | table, titre | **24 fiches** | LISEZ-MOI.md +6 | 109 |
@@ -47,7 +47,7 @@ links: []
 | `frankenstein` | Frankenstein, frankenstein | — | — | annotation, table, tag, titre | **10 fiches** | — | 38 |
 | `framework` | Framework, framework | — | — | tag, titre | **17 fiches** | 05-e.md +4 | 35 |
 | `fath` | Fath, fath, fatḥ | — | — | table, translit | **14 fiches** | sept-etendards-califat-transcription.md +6 | 33 |
-| `franc-maconnerie` | FRANC-MAÇONNERIE, Franc-Maçonnerie, franc-maçonnerie | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/charles-andre-gilis]] · [[doctrinal/sources/gilis-ordo-ab-chao]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | dante-et-le-rosicrucianisme-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md +12 | 32 |
+| `franc-maconnerie` | FRANC-MAÇONNERIE, Franc-Maçonnerie, Franc-maçonnerie, franc-maconnerie (+1) | — | — | table, tag | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/al-afghani]] · [[doctrinal/autorites/charles-andre-gilis]] · [[doctrinal/sources/gilis-ordo-ab-chao]] · [[meta/carte-doctrinal]] · +2 | dante-et-le-rosicrucianisme-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md +12 | 33 |
 | `frequence` | Fréquence, fréquence | — | — | definition, table | **19 fiches** | — | 32 |
 | `fiat` | Fiat, fiat | — | — | table | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats]] · [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]] · [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]] · +2 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +17 | 31 |
 | `fonctionnement` | Fonctionnement, fonctionnement | — | — | definition, table | **17 fiches** | la-puissance-du-serpent.md +2 | 31 |

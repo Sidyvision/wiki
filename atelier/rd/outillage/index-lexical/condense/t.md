@@ -23,9 +23,9 @@ links: []
 | `traduction` | TRADUCTION, Traduction, traduction | — | — | table, tag, titre | **103 fiches** | LISEZ-MOI.md +130 | 524 |
 | `transmission` | TRANSMISSION, Transmission, transmission | — | — | tag, titre | **129 fiches** | 16-s.md +78 | 479 |
 | `transcription` | TRANSCRIPTION, Transcription, transcription | — | — | table, tag, titre | **135 fiches** | LISEZ-MOI.md +21 | 464 |
-| `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **117 fiches** | LISEZ-MOI.md +121 | 438 |
+| `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **118 fiches** | LISEZ-MOI.md +121 | 439 |
 | `three` | Three, three | — | — | table | **24 fiches** | 01-a.md +55 | 435 |
-| `type` | Type, type, typé | — | — | definition, table | **121 fiches** | 00-front-matter.md +103 | 428 |
+| `type` | Type, type, typé | — | — | definition, table | **122 fiches** | 00-front-matter.md +103 | 429 |
 | `technique` | TECHNIQUE, Technique, technique | — | — | definition, titre | **148 fiches** | LISEZ-MOI.md +74 | 412 |
 | `total` | TOTAL, Total, total | — | ⚖ islam | definition, table | **77 fiches** | 10-j.md +123 | 342 |
 | `trace` | Trace, Tracé, trace, tracé | — | — | table, tag | **96 fiches** | 08-h.md +103 | 311 |
@@ -33,8 +33,8 @@ links: []
 | `temporel` | Temporel, temporel | — | — | table, titre | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +81 | 265 |
 | `to-source` | to-source | — | — | tag | **43 fiches** | karubi-mehdi-navette-20260812.md | 260 |
 | `tour` | Tour, tour | — | — | table, titre | **44 fiches** | 11-k.md +85 | 254 |
+| `tard` | tard, ṭard | — | ✓ islam | translit | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +134 | 236 |
 | `test` | Test, test | — | — | definition, table, titre | **76 fiches** | 11-k.md +5 | 236 |
-| `tard` | tard, ṭard | — | ✓ islam | translit | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +134 | 235 |
 | `trone` | Trone, Trône, trone, tròne (+1) | — | — | table | **45 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +30 | 233 |
 | `tantra` | Tantra, tantra | — | — | annotation, table, tag | **14 fiches** | la-puissance-du-serpent.md +4 | 204 |
 | `triade` | Triade, triade | — | — | table, titre | **37 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +50 | 203 |

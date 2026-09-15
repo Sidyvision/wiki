@@ -16,7 +16,7 @@ links: []
 | `principe` | PRINCIPE, Principe, principe | — | — | definition, table, titre | **306 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +342 | 2330 |
 | `porte` | PORTE, Porte, Porté, porte (+1) | — | — | table, titre | **344 fiches** | LISEZ-MOI.md +174 | 1699 |
 | `place` | Place, Placé, place, placé | — | — | table, titre | **183 fiches** | LISEZ-MOI.md +362 | 1416 |
-| `points` | POINTS, Points, points | — | — | table, titre | **193 fiches** | 09-i.md +296 | 1199 |
+| `points` | POINTS, Points, points | — | — | table, titre | **194 fiches** | 09-i.md +296 | 1200 |
 | `premiere` | PREMIERE, PREMIÈRE, Premiere, Première (+3) | — | — | table, titre | **205 fiches** | LISEZ-MOI.md +345 | 1168 |
 | `pole` | POLE, Pole, Pôle, pole (+1) | — | — | table, tag, titre | **215 fiches** | 02-b.md +100 | 1006 |
 | `pourquoi` | POURQUOI, Pourquoi, pourquoi | — | — | definition, table | **122 fiches** | LISEZ-MOI.md +326 | 980 |
@@ -24,7 +24,7 @@ links: []
 | `principes` | PRINCIPES, Principes, principes | — | — | table, tag | **105 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +205 | 752 |
 | `pouvoir` | POUVOIR, Pouvoir, pouvoir | — | — | table, tag | **71 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +242 | 729 |
 | `phase` | Phase, phase | — | — | table, titre | **117 fiches** | 10-j.md +65 | 683 |
-| `puis` | Puis, puis | — | — | definition | **206 fiches** | LISEZ-MOI.md +112 | 649 |
+| `puis` | Puis, puis | — | — | definition | **207 fiches** | LISEZ-MOI.md +112 | 650 |
 | `physique` | Physique, physique | — | — | titre | **208 fiches** | LISEZ-MOI.md +89 | 634 |
 | `produit` | Produit, produit | — | — | definition | **145 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +180 | 621 |
 | `profane` | PROFANE, Profane, profane | — | — | titre | **64 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +178 | 562 |
@@ -35,13 +35,13 @@ links: []
 | `philosophie` | PHILOSOPHIE, Philosophie, philosophie | — | — | table, titre | **40 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +123 | 468 |
 | `pierre` | Pierre, pierre | — | — | table, titre | **40 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +76 | 464 |
 | `polaire` | Polaire, polaire, pôlaire | — | — | table, tag, titre | **106 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +35 | 429 |
-| `paris` | Paris, paris | — | — | table, titre | **49 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +89 | 420 |
+| `paris` | Paris, paris | — | — | table, titre | **50 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +89 | 422 |
 | `publication` | PUBLICATION, Publication, publication | — | — | table, titre | **86 fiches** | 00-front-matter.md +56 | 360 |
 | `primordiale` | PRIMORDIALE, Primordiale, primordiale | — | — | table, titre | **67 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +114 | 354 |
 | `peace` | Peace, peace | — | — | table | [[doctrinal/sources/hasbiyallah-rabbani]] · [[hermeneutique/metal-gear/metal-gear]] · [[hermeneutique/metal-gear/mother-base]] | 03-c.md +41 | 325 |
 | `profil` | Profil, profil | — | — | definition, table, tag, titre | **72 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +1 | 304 |
 | `personnel` | Personnel, personnel | — | — | definition, titre | **99 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +31 | 296 |
-| `proposition` | PROPOSITION, Proposition, proposition | — | ⚖ universel | definition, table, tag, titre | **102 fiches** | karubi-mehdi-navette-20260812.md +10 | 287 |
+| `proposition` | PROPOSITION, Proposition, proposition | — | ⚖ universel | definition, table, tag, titre | **103 fiches** | karubi-mehdi-navette-20260812.md +10 | 288 |
 | `prakriti` | PRAKRITI, Prakriti, prakriti | — | ✓ hindouisme | annotation, table, tag, titre | **19 fiches** | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +45 | 258 |
 | `prof` | Prof | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md +24 | 249 |
 | `piste` | Piste, piste | — | — | definition, table, titre | **115 fiches** | — | 246 |
@@ -113,10 +113,10 @@ links: []
 | `prajapati` | PrajApati, Prajapati, Prajâpati, Prajāpati | — | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/cahiers/journal-optimisations]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]] · +1 | la-puissance-du-serpent.md +10 | 49 |
 | `prajna` | PRÂJNA, Prâjna, Prājña, prajna (+2) | — | — | annotation, table, tag, translit | **11 fiches** | la-puissance-du-serpent.md +9 | 49 |
 | `philosophy` | Philosophy, philosophy | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[doctrinal/autorites/yaqub-chaudhary]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | 00-front-matter.md +16 | 43 |
+| `placement` | Placement, placement | — | — | definition | **24 fiches** | — | 42 |
 | `prithivi` | Prithivi, Prithivî, prithivi | — | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] | la-puissance-du-serpent.md +2 | 42 |
 | `publications` | Publications, publications | — | — | table | **10 fiches** | 01-a.md +16 | 42 |
 | `participants` | Participants, participants | — | ⚖ universel | definition | [[doctrinal/sources/conversation-llm-intellect-2026-06-11]] · [[label/distribution/doctrine-du-don]] · [[label/distribution/protocole-cercles-token]] | 01-a.md +16 | 40 |
-| `placement` | Placement, placement | — | — | definition | **23 fiches** | — | 40 |
 | `pharaon` | Pharaon, pharaon | — | — | table | **11 fiches** | le-rejet-des-pouvoirs-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +3 | 38 |
 | `pieux` | pieux | — | — | titre | **15 fiches** | koly-cherif-keita-djinns-aident-humains.md +8 | 38 |
 | `pitri-yana` | pitri-yana, pitri-yâna, pitri-yāna, pitrî-yâna | — | — | annotation, tag, translit | **11 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +6 | 38 |
@@ -187,6 +187,7 @@ links: []
 | `pitta` | Pitta | — | — | table | [[doctrinal/deviations/body-types]] · [[doctrinal/deviations/morphopsychologie]] | la-puissance-du-serpent.md | 6 |
 | `playstation` | PlayStation | — | — | table | [[hermeneutique/death-stranding/death-stranding]] · [[hermeneutique/metal-gear/metal-gear]] | — | 6 |
 | `point structurel` | Point structurel | — | — | definition | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/projet-unifie/archives/13-pivot-haiku-installation-hermes-phase1-2026-07-07]] · [[meta/projet-unifie/hermes-prompts/note-optimisation-hermes-2026-07-03]] | — | 6 |
+| `panislamisme` | panislamisme | — | — | tag | [[doctrinal/autorites/al-afghani]] | terreurs-chimeriques-et-dangers-reels-orient-et-occident-index-de-l-uvre-de-rene-guenon.md | 5 |
 | `parjanya` | Parjanya, parjanya | — | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | orion-ch06-orion-and-his-belt.md | 5 |
 | `parker` | Parker | — | — | table | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[atelier/rd/instrument/2026-08-20_etat-avancement-pistes-developpement]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-22.md | 5 |
 | `perimetre non couvert` | Périmètre non couvert | — | — | definition | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[atelier/rd/bibliotheque/introduction-ihwan-al-safa]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/bibliotheque/table-ihwan-al-safa]] | — | 5 |

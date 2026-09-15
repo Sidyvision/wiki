@@ -18,7 +18,7 @@ links: []
 | `lecture` | LECTURE, Lecture, lecture | — | ⚖ universel | definition, table, tag, titre | **326 fiches** | LISEZ-MOI.md +39 | 975 |
 | `lettre` | LETTRE, Lettre, lettre, lettré | — | — | table, titre | **113 fiches** | LISEZ-MOI.md +127 | 910 |
 | `lettres` | LETTRES, Lettres, Lettrés, lettres (+1) | — | — | table, tag, titre | **110 fiches** | LISEZ-MOI.md +107 | 881 |
-| `lien` | Lien, lien | — | — | table, tag | **208 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +121 | 771 |
+| `lien` | Lien, lien | — | — | table, tag | **209 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +121 | 772 |
 | `liens` | Liens, liens | — | — | definition, table | **161 fiches** | LISEZ-MOI.md +50 | 654 |
 | `l'ab` | L'Ab | — | — | table | **136 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +176 | 526 |
 | `langage` | Langage, langage | — | — | table, tag | **58 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +198 | 510 |
@@ -37,7 +37,7 @@ links: []
 | `lexique` | LEXIQUE, Lexique, lexique | — | — | tag, titre | **52 fiches** | LISEZ-MOI.md +5 | 143 |
 | `language` | Language, language | — | — | table, titre | **10 fiches** | LISEZ-MOI.md +38 | 123 |
 | `limitation` | Limitation, limitation | — | — | definition | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +63 | 122 |
-| `londres` | Londres | — | — | table | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[hermeneutique/sources/art-of-death-stranding]] · [[label/distribution/strategie-vinyle-300-depositaires]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · +1 | la-puissance-du-serpent.md +24 | 105 |
+| `londres` | Londres | — | — | table | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/autorites/al-afghani]] · [[hermeneutique/sources/art-of-death-stranding]] · [[label/distribution/strategie-vinyle-300-depositaires]] · +2 | la-puissance-du-serpent.md +24 | 106 |
 | `lilith` | Lilith, lilith | — | — | annotation, tag | [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +3 | 102 |
 | `lecon` | Leçon, leçon | — | — | definition | **56 fiches** | le-rejet-des-pouvoirs-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +7 | 99 |
 | `lahut` | Lahut, Lâhût, Lāhūt, lahut (+5) | — | — | annotation, table, tag, translit | **34 fiches** | le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon-6.md +1 | 90 |

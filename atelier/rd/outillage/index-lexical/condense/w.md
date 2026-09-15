@@ -21,11 +21,11 @@ links: []
 | `wali` | Wali, Walî, Walï, Walī (+6) | — | — | annotation, tag, translit | **21 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +7 | 56 |
 | `wang` | WANG, Wang, wang | — | — | annotation, table, tag, titre | **18 fiches** | 13-n.md +7 | 56 |
 | `workflow` | Workflow, workflow | — | — | table, titre | **31 fiches** | — | 55 |
+| `wikipedia` | Wikipedia, Wikipédia | — | — | table | **11 fiches** | transcription-asr.md | 52 |
 | `webui` | WebUI, Webui, webui | — | — | table, titre | **18 fiches** | — | 49 |
 | `walayat` | WALÂYAT, Walâyat, Walāyat, walayat (+2) | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/sommaire-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] | iv.md +1 | 43 |
 | `wahdat` | Wahdat, Waḥdat, wahdat, waḥdat | — | — | table, titre, translit | **15 fiches** | sept-etendards-califat-transcription.md +3 | 41 |
 | `wahdat-al-wujud` | wahdat-al-wujud | — | ✓ islam | annotation, tag | **19 fiches** | — | 41 |
-| `wikipedia` | Wikipedia, Wikipédia | — | — | table | **10 fiches** | transcription-asr.md | 41 |
 | `wird` | Wird, wird | — | — | table, titre | **12 fiches** | iv.md +3 | 41 |
 | `wikilinks` | wikilinks | — | — | tag, titre | **22 fiches** | — | 39 |
 | `wolf` | Wolf, wolf | — | — | table | [[atelier/etudes-de-cas/stones-throw]] · [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/01-principe]] | 00-front-matter.md +14 | 37 |
