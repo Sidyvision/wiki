@@ -9,6 +9,17 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] maillage | Zéphyr — `cross_links` inscrits sur verdict
+
+- Verdict de Sidy : « inscris les liens vers poseidon, atlantide et platon ».
+- [[doctrinal/symboles/zephyr]] : `cross_links` → `poseidon`, `atlantide`, `platon` ; section
+  « Liens proposés » devenue « Concepts liés ».
+- Graphe régénéré : 3 liens sortants `etabli` vus ; **0 lien entrant** (le recensement de
+  `index.md` n'est pas compté par le graphe). Le diff du graphe (423 lignes) inclut aussi les
+  modifications antérieures non encore régénérées.
+- Contrôles : invariants 0 erreur / 71 avertissements (inchangé, aucun sur la fiche) ; Cmd 15 propre.
+- **Commit** : 697198f
+
 ## [2026-09-15] archivage | Zéphyr — fiche créée par recherche machine, `to-source` et `to-original`
 
 - Consigne de Sidy : fiche pour l'entité « Zéfir » ; identité précisée en session (Zéphyr, dieu grec
