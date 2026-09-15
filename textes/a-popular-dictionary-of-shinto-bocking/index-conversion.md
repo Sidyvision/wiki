@@ -27,6 +27,45 @@ l'en-tête « Introduction 13 » alors qu'elle contient les entrées `Bosatsu`, 
 `Bukki`...). Le découpage par lettre ci-dessous a donc été fait sur la **vedette**
 détectée par script (ligne centrée, courte, sans point final), jamais sur les en-têtes.
 
+## Correction du 2026-09-15 — retrait des sauts de page U+000C
+
+Les 23 fichiers de tranche portaient **220 sauts de page U+000C** (FORM FEED),
+émis par `pdftotext` au passage de chaque page. Ils ont été retirés le
+2026-09-15.
+
+**Ce n'est pas une correction du texte**, que la règle d'immuabilité de `textes/`
+interdirait. C'est le même motif que le retrait des contrôles bidirectionnels
+dans la conversion de l'Ihyâ' arabe
+(`textes/ghazali-ihya-ulum-al-din-arabe/index-conversion.md`, étape 3) : ces
+marques n'appartiennent pas à l'ouvrage, elles sont émises par la couche
+d'extraction pour piloter la mise en page. Ici le repère de page est déjà porté,
+en clair et de façon lisible, par le marqueur `<!-- page N -->` qui suivait
+immédiatement chacun des 220 sauts — l'invisible ne portait donc aucune
+information que le texte ne porte pas déjà.
+
+**Motif propre** : un U+000C invisible fausse les mesures sans s'annoncer. Le
+comptage des chapitres de la traduction anglaise de l'Ihyâ' a donné **64 au lieu
+de 41** pendant deux tours, parce que la classe `[[:space:]]` d'une ancre `grep`
+absorbait ce caractère. Le fait est consigné en
+`atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya.md`.
+
+**Chaîne** : `atelier/rd/outillage/nettoyer-sauts-de-page-textes.py`
+(déterministe, rapport seul par défaut, `--appliquer` requis pour écrire).
+
+Le script ne touche qu'aux lignes dont le saut de page est **le seul contenu**,
+et la ligne devient **vide, elle n'est pas supprimée** — retirer l'invisible ne
+doit rien déplacer d'autre. Un saut accolé à du texte est laissé en place et
+rapporté au verdict ; le garde-fou a été vu refuser sur un cas fabriqué. Relevé
+sur ce corpus : **220 seuls sur leur ligne, 0 accolé**.
+
+**Contrôle après coup**, ligne non vide à ligne non vide contre `git show HEAD` :
+23 fichiers, **0 écart de contenu**, **0** saut de page résiduel.
+
+Cette correction est appliquée sur le fondement de l'amendement de la règle
+d'immuabilité de `textes/` rendu par Sidy le 2026-09-14 — un texte de `textes/`
+est corrigible **lorsque c'est qualitativement justifié**. Voir
+`meta/projet-unifie/propositions/proposition-textes-immuabilite-2026-09-15.md`.
+
 ## Fichiers
 
 | Fichier | Section | Pages PDF |

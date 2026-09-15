@@ -1,0 +1,41 @@
+# Exceptions déclarées au Cmd 15 — registre des résidus tranchés.
+#
+# Ce fichier ne rend AUCUN verdict : il porte des verdicts déjà rendus et
+# consignés, et renvoie pour chacun à la fiche qui l'a rendu. Ouvert le
+# 2026-09-14 sur verdict de Sidy, chantier OUT-16.
+#
+# Motif. Un résidu connu et motivé, rapporté indéfiniment comme violation,
+# transforme le contrôle en bruit ; un contrôle bruyant cesse d'être lu. C'est
+# le motif d'OUT-C2, où 209 anomalies de bruit avaient masqué la seule vraie.
+#
+# GARDE-FOU, et c'est le point : `occurrences` épingle le compte EXACT au jour
+# du verdict. Une exception qui couvrirait tout ce qui viendra ensuite dans le
+# même fichier serait une qualification implicite rendue sans être avouée — la
+# faute même que consigne la fiche d'incident du 2026-09-14. Donc :
+#   · compte observé  ==  compte déclaré  → exception honorée, non bloquant ;
+#   · compte observé  >   compte déclaré  → l'EXCÉDENT est une violation
+#                                           bloquante, l'exception ne l'absorbe pas ;
+#   · compte observé  <   compte déclaré  → exception CADUQUE, signalée, pour
+#                                           que ce registre ne pourrisse pas.
+# Un fichier disparu rend son exception caduque de la même manière.
+#
+# Ajouter une entrée ici est un acte qui relève du verdict de Sidy, jamais de
+# l'initiative de la machine.
+#
+# 2026-09-14 — deux entrées retirées : les sauvegardes
+# `doctrinal/annales.md.bak-2026-08-18-pre-C4` et `atelier/rd/index.md.bak-2026-08-18-pre-C4`
+# ont été supprimées sur verdict de Sidy, leur contenu étant identique octet pour
+# octet à `git show da8e9b5^:<original>`. L'instrument les avait lui-même
+# signalées caduques : c'est le mécanisme éprouvé en E9 qui a joué.
+
+exceptions:
+
+  - fichier: "atelier/rd/citadelle-du-sham/source/library-full.json"
+    codepoint: "U+200D"
+    occurrences: 20
+    motif: >-
+      Donnée importée (export de bibliothèque). La corriger altère la fidélité
+      à la source, et la contamination est peut-être en amont. Conservée telle
+      quelle tant que la source n'est pas elle-même établie.
+    fiche: "atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md"
+    verdict: 2026-08-31

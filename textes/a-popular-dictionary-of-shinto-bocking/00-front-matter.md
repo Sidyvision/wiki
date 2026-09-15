@@ -1,10 +1,10 @@
 <!-- page 1 -->
-
+
 <!-- page 2 -->
 A POPULAR DICTIONARY OF Shinto
-
+
 <!-- page 3 -->
-
+
 <!-- page 4 -->
 A POPULAR DICTIONARY OF
          Shinto
@@ -14,7 +14,7 @@ A POPULAR DICTIONARY OF
 
 
            Curzon
-
+
 <!-- page 5 -->
         First published by Curzon Press 15 The Quadrant, Richmond Surrey, TW9 1BP
                  This edition published in the Taylor & Francis e-Library, 2005.
@@ -37,12 +37,12 @@ British Library Cataloguing in Publication Data A catalogue record for this book
 
 
                                ISBN 0-7007-1051-5 (Print Edition)
-
+
 <!-- page 6 -->
 To Shelagh
-
+
 <!-- page 7 -->
-
+
 <!-- page 8 -->
                                INTRODUCTION
 
@@ -86,7 +86,7 @@ aspects of religion. The word has been used in very different ways over the cent
 Japan. It has been in common use only since the early twentieth century when it came to
 supersede taikyō ‘great religion’ as a name for the state religion (or non-religion, see
 kokka shintō) of the modern Japanese empire, and even now Japanese people do not use
-
+
 <!-- page 9 -->
                             A popular dictionary of shinto     2
 
@@ -137,7 +137,7 @@ reversed’ (Shintō and the State 1868–1988, p. 143). On the other hand, Shin
 festivals represent a major religious idiom within Japanese society and like other
 institutional religions Shintō undoubtedly has the capacity to adapt to new circumstances.
 It is sometimes helpful to view religions as like languages, and Japanese people, most of
-
+
 <!-- page 10 -->
                                      Introduction   3
 
@@ -188,4 +188,3 @@ Analytical Guide to Principal Teachings (Westport USA: Greenwood Press, 1994) is
 overview which includes more detail on the Shintō sects than is usually available as well
 as a kanji glossary; like Herbert’s Shintō, the book has line illustrations which are very
 useful for an appreciation of torii and shrine architecture. Quite indispensable for an
-

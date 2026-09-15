@@ -1,6 +1,6 @@
 <!-- page 177 -->
 A popular dictionary of shinto   170
-
+
 <!-- page 178 -->
                                             INDEX
 
@@ -43,7 +43,7 @@ Gifu 150, 181, 196
 
 Hiroshima 64, 87, 129, 132
 Hokkaidō 1, 107, 155, 191
-
+
 <!-- page 179 -->
                                             Index     172
 
@@ -94,7 +94,7 @@ Wakayama 23, 51, 109, 132
 Yamagata 63, 214
 Yamaguchi 1, 10, 34
 Yamanashi 15, 27, 50, 196, 199, 214
-
+
 <!-- page 180 -->
                                             Index     173
 
@@ -148,7 +148,7 @@ Gate 169
 Gishikiden 34
 Gongen-zukuri 36
 Go-shiki-ban 39
-
+
 <!-- page 181 -->
                           Index   174
 
@@ -203,7 +203,7 @@ Mamori 115, 138
 Masks 57, 84, 142, 155
 Mikoshi 122, 178
 Mikuji 123, 138
-
+
 <!-- page 182 -->
                               Index   175
 
@@ -258,7 +258,7 @@ Shinzō 180
 Shrine buildings 72
 Shrine garden 151
 Shrine rebuilding 92
-
+
 <!-- page 183 -->
                                      Index   176
 
@@ -305,7 +305,7 @@ Yori-shiro 225
 Yū 164, 198
 
 -Zukuri (architectural styles) 229
-
+
 <!-- page 184 -->
                                             Index    177
 
@@ -358,7 +358,7 @@ Heaven 5
 Hidden world 83
 Homeland 31
 Honesty 182
-
+
 <!-- page 185 -->
                                        Index   178
 
@@ -412,7 +412,7 @@ Pregnancy 45
 Priestly ranks 82, 171
 Purification 45, 124, 136, 212
 Purity 1, 45, 157
-
+
 <!-- page 186 -->
                                      Index   179
 
@@ -467,7 +467,7 @@ Uyamau 216
 Vinaya 79
 
 Wazawai 218
-
+
 <!-- page 187 -->
                                           Index   180
 
@@ -519,7 +519,7 @@ Kenkoku kinen no hi 94
 Ke-no-hi 46, 95
 Kiku no sekku 96
 Kodomo-no-hi 98
-
+
 <!-- page 188 -->
                                         Index   181
 
@@ -572,7 +572,7 @@ Zodiac 79
 Abstinence 148
 Accession ordination 187
 Agata-yo-matsuri 1
-
+
 <!-- page 189 -->
                                            Index     182
 
@@ -627,7 +627,7 @@ Festivals 117
 Festival of the ages 69
 Fire festivals 50, 110, 130
 Fire prevention festival 49
-
+
 <!-- page 190 -->
                                     Index   183
 
@@ -683,7 +683,7 @@ Hyakudo mairi 57
 Ichi 57
 Imperial household ceremonies 106
 Individual worship 42
-
+
 <!-- page 191 -->
                               Index   184
 
@@ -739,7 +739,7 @@ Kyōgen 112
 Kyokusui-no-en 114
 
 Lion dance 180
-
+
 <!-- page 192 -->
                                             Index     185
 
@@ -794,7 +794,7 @@ O-mikuji 138
 Ōmisoka 139
 Otome-mai 142
 O-watari 143
-
+
 <!-- page 193 -->
                                           Index   186
 
@@ -850,7 +850,7 @@ Shōgatsu 182
 Shōjin 182
 Shōrō nagashi 183
 Shrine transfer 158, 163
-
+
 <!-- page 194 -->
                                    Index   187
 
@@ -906,7 +906,7 @@ Ujigami-sai 215
 Urabon—see bon 11
 
 Village kagura 155
-
+
 <!-- page 195 -->
                                   Index   188
 
@@ -959,7 +959,7 @@ Hachimaki 40
 Hakama 42
 Hanagasa 44
 Happi 44
-
+
 <!-- page 196 -->
                                  Index   189
 
@@ -1013,7 +1013,7 @@ Sakaki 149
 Sake 23, 110, 121, 150, 170
 Sake-brewing 117
 Salt 142, 180
-
+
 <!-- page 197 -->
                                          Index   190
 
@@ -1066,7 +1066,7 @@ Government systems 20, 54, 144
 Great promulgation campaign 147
 
 Hōken system 54, 205
-
+
 <!-- page 198 -->
                                            Index   191
 
@@ -1120,7 +1120,7 @@ Shrine regulations 77
 Shrine restoration 73
 Shūkyō dantai hō 184
 Shūkyō hōjin hō 186
-
+
 <!-- page 199 -->
                                      Index    192
 
@@ -1174,7 +1174,7 @@ Catfish 131
 Cattle-demon 218
 Chien-shin 14
 Child-kami 143, 153, 175
-
+
 <!-- page 200 -->
                                      Index   193
 
@@ -1227,7 +1227,7 @@ House kami 222
 
 Inari 59
 Izanagi and Izanami 221
-
+
 <!-- page 201 -->
                                 Index   194
 
@@ -1283,7 +1283,7 @@ Mizugami 126
 Mono 126
 Moon-kami 211
 Mountain-kami 220
-
+
 <!-- page 202 -->
                                    Index   195
 
@@ -1338,7 +1338,7 @@ Shintoku 176
 Smallpox kami 56
 Soul 197
 Spirit of words 107
-
+
 <!-- page 203 -->
                                     Index   196
 
@@ -1392,7 +1392,7 @@ Zuijin 229
 
 Age-groups 62
 Ainu 1, 155, 182
-
+
 <!-- page 204 -->
                                            Index     197
 
@@ -1447,7 +1447,7 @@ En no Ozunu (En no gyōja) 27
 Family 24
 Farmers 56
 Freud 199
-
+
 <!-- page 205 -->
                                        Index   198
 
@@ -1502,7 +1502,7 @@ Kumbhira 104
 Kuni no miyatsuko 110
 Kunteki-o-shō 110
 Kurozumi, Munetada 111
-
+
 <!-- page 206 -->
                                               Index   199
 
@@ -1557,7 +1557,7 @@ Prime minister 62, 99, 222
 
 Reijin 143
 Religious Juridical Person 185
-
+
 <!-- page 207 -->
                                   Index   200
 
@@ -1613,7 +1613,7 @@ Toshi-otoko/toshi-onna 209
 Toyotomi, Hideyoshi 210
 
 Ubasoku 213
-
+
 <!-- page 208 -->
                                           Index     201
 
@@ -1667,7 +1667,7 @@ Yoshikawa, Koretari 227
 America 64, 65
 
 Chicago, World’s Parliament of Religions 70
-
+
 <!-- page 209 -->
                                       Index   202
 
@@ -1719,7 +1719,7 @@ Tokoyo 205
 Toyoashi-hara-no-mizuho-no-kuni 210
 Tsu city 69
 Tsukuba-san 212
-
+
 <!-- page 210 -->
                                            Index    203
 
@@ -1771,7 +1771,7 @@ Hōtoku 56
 
 Ise kō 62
 Ise shintō 62
-
+
 <!-- page 211 -->
                                            Index   204
 
@@ -1825,7 +1825,7 @@ Sannō ichijitsu shintō 153, 206
 Sect Shintō 112
 Seichō-no-ie 199
 Sekai kyūsei-kyō 157
-
+
 <!-- page 212 -->
                                         Index   205
 
@@ -1879,7 +1879,7 @@ Zen 79, 221
 
 Additional/included shrine 159
 Aichi-ken gokoku jinja 1
-
+
 <!-- page 213 -->
                                  Index   206
 
@@ -1933,7 +1933,7 @@ Honsha 55
 
 Ichi-no-miya 57
 Imamiya ebisu jinja 58
-
+
 <!-- page 214 -->
                                Index   207
 
@@ -1988,7 +1988,7 @@ Nijūni-sha 134
 Nikkō Tōshōgū 134
 Nishinomiya ebisu jinja 135
 Nogi jinja 135
-
+
 <!-- page 215 -->
                                   Index   208
 
@@ -2042,7 +2042,7 @@ Soreisha 187
 Suiten-gū 190
 Sumiyoshi taisha 191
 Suwa taisha 192
-
+
 <!-- page 216 -->
                                    Index   209
 
@@ -2095,7 +2095,7 @@ Founding legends 26
 Fudoki 27
 Fuku o yobu jisha jiten 30
 Fuku wa uchi, oni wa soto 140
-
+
 <!-- page 217 -->
                                          Index   210
 
@@ -2143,7 +2143,7 @@ Shintō scriptures 173, 175
 Shinten 173
 Shōbai hanjō de sasa motte 204
 Sonnō-jōi 64
-
+
 <!-- page 218 -->
                             Index   211
 
@@ -2153,9 +2153,8 @@ Takusen 197
 Three great teachings 152
 
 Yogoto 224
-
+
 <!-- page 219 -->
 REVELATION
-
+
 <!-- page 220 -->
-

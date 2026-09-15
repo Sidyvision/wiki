@@ -20,6 +20,8 @@ Indices produits :
         CONFIRMATOIRE : preuve la plus forte, mais dépend des citations
         effectivement présentes sur la page mesurée.
     I6  invisibles interdits par le Cmd 15 (U+200B/C/D/E/F, U+FEFF)
+    I7  contrôles bidi d'enrobage (U+202A-U+202E, U+2066-U+2069) —
+        hors du jeu nommé par le Cmd 15, rapporté séparément
         Ce n'est PAS un indice de qualité : c'est un contrôle d'hygiène.
 
 Normalisation : appliquée DES DEUX CÔTÉS. Le texte coranique de référence est
@@ -75,6 +77,20 @@ REPLIS_APPARIEMENT = {"ى": "ي", "ة": "ه"}
 INVISIBLES = {
     "\u200b": "ZWSP", "\u200c": "ZWNJ", "\u200d": "ZWJ",
     "\u200e": "LRM", "\u200f": "RLM", "\ufeff": "BOM",
+}
+
+# I7 — contrôles bidirectionnels d'enrobage. Ils NE figurent PAS dans le jeu
+# nommé par le Commandement 15 (U+200B/C/D, U+200E/F, U+FEFF) : ils sont donc
+# rapportés comme indice DISTINCT, jamais fondus dans I6. Étendre le
+# Commandement lui-même serait un amendement du protocole — un verdict, non
+# une modification d'instrument.
+# Motif de l'ajout : tout PDF arabe natif en produit massivement (1562
+# occurrences pour 55 000 caractères relevées sur raw/9472.pdf le 2026-09-14),
+# et I6 ne les voyait pas. Écrits en échappements, JAMAIS en littéral.
+BIDI_HORS_CMD15 = {
+    "\u202a": "LRE", "\u202b": "RLE", "\u202c": "PDF",
+    "\u202d": "LRO", "\u202e": "RLO",
+    "\u2066": "LRI", "\u2067": "RLI", "\u2068": "FSI", "\u2069": "PDI",
 }
 
 PONCTUATION_ATTENDUE = set(" \t\n\r0123456789.,;:!?()[]{}«»\"'-–—/،؛؟٪-٭")
@@ -147,6 +163,10 @@ def mesurer(chemin, ref_ngrammes):
     i6 = {nom: brut.count(c) for c, nom in INVISIBLES.items()
           if brut.count(c)}
     i6_total = sum(i6.values())
+    # I7 se mesure sur le texte BRUT, pour le même motif que I6.
+    i7 = {nom: brut.count(c) for c, nom in BIDI_HORS_CMD15.items()
+          if brut.count(c)}
+    i7_total = sum(i7.values())
 
     texte = normaliser(brut, pour_appariement=True)
     tokens = tokeniser(texte)
@@ -197,6 +217,7 @@ def mesurer(chemin, ref_ngrammes):
         "I1": i1, "I2": i2, "I3": i3, "I4": i4,
         "I5_ngrammes": i5_ng, "I5_ancres": i5_ancres,
         "I6": i6_total, "I6_detail": i6,
+        "I7": i7_total, "I7_detail": i7,
     }
 
 
@@ -229,21 +250,23 @@ def main():
     lignes.sort(key=lambda d: d["I1"])
 
     if args.tsv:
-        print("fichier\ttokens\tI1\tI2\tI3\tI4\tI5_ng\tI5_anc\tI6")
+        print("fichier\ttokens\tI1\tI2\tI3\tI4\tI5_ng\tI5_anc\tI6\tI7")
         for d in lignes:
             print(f"{d['fichier']}\t{d['tokens']}\t{d['I1']:.2f}\t{d['I2']:.2f}\t"
                   f"{d['I3']:.2f}\t{d['I4']:.2f}\t{d['I5_ngrammes']}\t"
-                  f"{d['I5_ancres']}\t{d['I6']}")
+                  f"{d['I5_ancres']}\t{d['I6']}\t{d['I7']}")
     else:
         print(f"{'fichier':<28} {'tok':>6} {'I1%':>7} {'I2%':>7} {'I3':>6} "
-              f"{'I4%':>6} {'I5ng':>5} {'I5an':>5} {'I6':>5}")
-        print("-" * 82)
+              f"{'I4%':>6} {'I5ng':>5} {'I5an':>5} {'I6':>5} {'I7':>5}")
+        print("-" * 88)
         for d in lignes:
             print(f"{d['fichier']:<28} {d['tokens']:>6} {d['I1']:>7.2f} "
                   f"{d['I2']:>7.2f} {d['I3']:>6.2f} {d['I4']:>6.2f} "
-                  f"{d['I5_ngrammes']:>5} {d['I5_ancres']:>5} {d['I6']:>5}")
+                  f"{d['I5_ngrammes']:>5} {d['I5_ancres']:>5} {d['I6']:>5} {d['I7']:>5}")
         print("\nI1 primaire (violation positionnelle) — trié dessus, croissant.")
         print("I6 n'est pas un indice de qualité : c'est le contrôle Cmd 15.")
+        print("I7 (contrôles bidi d'enrobage) est HORS du jeu nommé par le "
+              "Cmd 15 : rapporté à part, jamais fondu dans I6.")
         print("Aucun de ces chiffres ne dit qu'un texte est lisible. "
               "Ce verdict appartient à l'utilisateur (Cmd 12).")
 

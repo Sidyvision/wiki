@@ -3,7 +3,7 @@ title: "Changelog du protocole CLAUDE.md (racine)"
 type: meta
 tags: [protocole, historique, changelog]
 created: 2026-08-28
-updated: 2026-09-09
+updated: 2026-09-15
 ---
 
 # Changelog du protocole `CLAUDE.md` (racine)
@@ -16,6 +16,45 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-14] amendement | §II — Règle d'immuabilité de `textes/`
+
+**Verdict de Sidy**, 2026-09-14 : « Supprime les.bak s'il n'ont plus d'utilité et
+textes/ peux être corrigé sans problème lorsque que c'st qualitativement justifier ».
+Rédaction portée au propre et validée le 2026-09-15 :
+`meta/projet-unifie/propositions/proposition-textes-immuabilite-2026-09-15.md`.
+
+**Ce qui change.** Le §II énonçait la règle à plat : « un texte de `textes/` ne se
+corrige pas. Une conversion meilleure le remplace, datée. » Cette rédaction ne
+distinguait pas le **texte** de l'**artefact d'extraction**, et deux corrections
+avaient déjà été opérées sans qu'elle les autorise, chacune sur le même
+raisonnement : le 2026-09-14, retrait de 1562 contrôles bidirectionnels dans
+`textes/ghazali-ihya-ulum-al-din-arabe/` ; le 2026-09-15, retrait de 220 sauts de
+page U+000C dans `textes/a-popular-dictionary-of-shinto-bocking/`. Dans les deux
+cas, ce qui a été retiré n'était pas de l'œuvre : c'était de la marque injectée par
+la couche de rendu pour piloter l'affichage ou la mise en page.
+
+Le texte amendé maintient l'immuabilité **de la substance** — leçon, graphie,
+découpage appellent toujours une conversion meilleure et datée — et ouvre la
+correction de l'artefact sous **trois conditions cumulatives** : retrait démontré
+non substantiel par mesure brute ; exécution par script déterministe versionné dont
+le garde-fou a été **vu refuser** sur un cas fabriqué (§VII) ; consignation dans
+l'`index-conversion.md` de la conversion.
+
+**Motif propre, qui n'est pas d'élégance.** Un invisible fausse les mesures sans
+s'annoncer : le comptage des chapitres de la traduction anglaise de l'Ihyâ' a donné
+64 au lieu de 41 pendant deux tours, la classe `[[:space:]]` d'une ancre `grep`
+absorbant le U+000C. Un texte qu'on ne corrige jamais est un texte sur lequel on
+mesure faux indéfiniment. Consigné en
+`atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya.md`.
+
+**Point laissé ouvert, non tranché par cet amendement** : les tranches de `textes/`
+ne portent aucun cartouche, et aucun `index-conversion.md` ne porte de champ
+`updated:`. Le Cmd 8 voudrait qu'une écriture le remonte ; le vérificateur ne le
+réclame pas (`textes/` est exempté de B0). L'écart est déclaré, non comblé (Cmd 12).
+
+Version antérieure archivée : `meta/protocole-archives/CLAUDE-v5_2026-09-15.md`
+(Cmd 10). Réversible sur simple verdict.
+
 ## [2026-09-09] extraction | Phase 2 — décantation de `CLAUDE.md` : la procédure descend en `protocoles/`
 
 **Verdict de Sidy** : « 1. Protocoles/ à la racine 2. Validé 3. Le MCP

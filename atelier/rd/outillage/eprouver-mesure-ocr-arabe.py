@@ -7,7 +7,7 @@ Ce script ne mesure rien : il fabrique les fautes exactes que l'instrument doit
 attraper, et vérifie qu'il les attrape. Il sort en code 1 si une seule épreuve
 échoue.
 
-Trois épreuves :
+Quatre épreuves :
   E1a  VERT       — sur de l'arabe sain, I1 doit être proche de zéro.
   E1b  MONOTONIE  — chaque indice est éprouvé par la corruption QU'IL prétend
                     mesurer, et par elle seule :
@@ -18,6 +18,10 @@ Trois épreuves :
                     l'augmente pas. Corrigé le 2026-09-07.
   E1c  REFUS      — sur un texte en formes de présentation (U+FB50-U+FDFF),
                     l'instrument doit REFUSER, et non imprimer « 0 violation ».
+  E1d  BIDI/I7    — I7 doit compter les contrôles d'enrobage bidi, et I6 doit
+                    rester inchangé : la frontière du jeu nommé par le Cmd 15
+                    ne se franchit pas dans un instrument. Ajouté le
+                    2026-09-14, après 1562 contrôles bidi passés inaperçus.
 
 Usage : python3 eprouver-mesure-ocr-arabe.py <reference-arabe-saine.txt>
 """
@@ -58,7 +62,9 @@ def mesurer(chemin, reference):
     if len(lignes) < 2:
         return r.returncode, None
     c = lignes[1].split("\t")
-    return 0, {"I1": float(c[2]), "I2": float(c[3]), "I3": float(c[4])}
+    # Colonnes TSV : fichier, tokens, I1, I2, I3, I4, I5_ng, I5_anc, I6, I7.
+    return 0, {"I1": float(c[2]), "I2": float(c[3]), "I3": float(c[4]),
+               "I6": int(c[8]), "I7": int(c[9])}
 
 
 def corrompre(texte, taux, germe=42):
@@ -156,6 +162,36 @@ def main():
     if not ok:
         echecs.append("E1c : rapport silencieux sur un texte à zéro token arabe")
 
+    # --- E1d : I7 voit les contrôles bidi, et I6 ne les avale pas ---------
+    # Motif : I6 couvre le jeu nommé par le Cmd 15 et lui seul ; les contrôles
+    # d'enrobage (U+202A-U+202E, U+2066-U+2069) en sont absents. Avant l'ajout
+    # de I7 le 2026-09-14, un PDF arabe natif passait le contrôle en silence
+    # alors qu'il en portait 1562 pour 55 000 caractères.
+    # Le contrôle est éprouvé PAR L'ÉCHEC : un texte sain doit donner I7 = 0,
+    # le même texte enrobé doit donner exactement le nombre injecté, et I6
+    # doit rester inchangé dans les deux cas.
+    f = tmp / "bidi-absent.txt"
+    f.write_text(sain, encoding="utf-8")
+    code_a, d_a = mesurer(f, ref)
+
+    lre, rle, pdf_c = chr(0x202A), chr(0x202B), chr(0x202C)
+    lignes_b = [lre + l + pdf_c for l in sain.split("\n")]
+    injecte = 2 * len(lignes_b)
+    f = tmp / "bidi-present.txt"
+    f.write_text("\n".join(lignes_b), encoding="utf-8")
+    code_b, d_b = mesurer(f, ref)
+
+    ok = (code_a == 0 and code_b == 0
+          and d_a["I7"] == 0 and d_b["I7"] == injecte
+          and d_a["I6"] == d_b["I6"])
+    print(f"E1d  BIDI/I7    I7 sain={d_a['I7'] if code_a == 0 else '?'} "
+          f"I7 enrobé={d_b['I7'] if code_b == 0 else '?'} (attendu {injecte})  "
+          f"I6 inchangé={d_a['I6'] == d_b['I6'] if code_b == 0 else '?'}  "
+          f"{'✅' if ok else '❌ I7 aveugle, ou I6 contaminé'}")
+    if not ok:
+        echecs.append("E1d : I7 ne compte pas les contrôles bidi, "
+                      "ou I6 les absorbe (frontière du Cmd 15 franchie)")
+
     print()
     if echecs:
         print(f"ÉPREUVE ÉCHOUÉE — {len(echecs)} défaut(s) :")
@@ -163,7 +199,8 @@ def main():
             print(f"  - {e}")
         return 1
     print("ÉPREUVE PASSÉE — vert sur l'arabe sain, dégradation monotone sous "
-          "corruption, refus sur entrée muette.")
+          "corruption, refus sur entrée muette, bidi vu par I7 sans "
+          "contaminer I6.")
     return 0
 
 

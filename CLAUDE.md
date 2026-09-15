@@ -196,9 +196,27 @@ matière même que les fiches doctrinales citent en source.
 confidentialité du `.gitignore`, et il y porte pleinement. `textes/` reçoit le
 **texte converti**, mesuré sans aucune donnée personnelle.
 
-**Règle d'immuabilité** : un texte de `textes/` ne se corrige pas. Une conversion
-meilleure le remplace, datée. Ce qui se dit d'un texte se dit dans une fiche
-`doctrinal/sources/`, qui porte le Sceau et le statut.
+**Règle d'immuabilité, amendée le 2026-09-14 (verdict Sidy).** Un texte de
+`textes/` ne se corrige pas *dans sa substance* : ce qui relève de la leçon, de la
+graphie ou du découpage appelle une conversion meilleure, datée, qui remplace la
+précédente. Il se corrige en revanche **lorsque c'est qualitativement justifié**, et
+la justification est d'un seul ordre : ce qui est retiré n'appartient pas à l'œuvre,
+mais à la couche d'extraction qui l'a rendue — contrôles bidirectionnels, formes de
+présentation, sauts de page, invisibles du Cmd 15. Trois conditions tiennent
+ensemble, et aucune ne se dispense :
+
+1. **Le retrait est démontré non substantiel**, par une mesure rapportée brute —
+   non par l'appréciation de qui l'opère.
+2. **Il est exécuté par un script déterministe**, versionné au dépôt, dont le
+   garde-fou a été **vu refuser** sur un cas fabriqué (§VII, épreuve des contrôles).
+3. **Il est consigné dans l'`index-conversion.md` de la conversion** — date, objet,
+   nombre, chaîne, contrôle après coup. Le cartouche des tranches ne porte rien :
+   les tranches n'ont pas de cartouche, et l'index est le seul porteur de métadonnée
+   de la conversion.
+
+Ce qui se **dit** d'un texte continue de se dire dans une fiche
+`doctrinal/sources/`, qui porte le Sceau et le statut. L'index de conversion consigne
+ce qui a été **fait au fichier**, jamais ce qui se juge de l'œuvre.
 
 **Conséquence outillée** : `verifier-invariants.py` exempte `textes/` du contrôle B0
 par une ligne nommée dans `PREFIXES_SANS_FM`. L'exemption est **ciblée** — un `.md`
