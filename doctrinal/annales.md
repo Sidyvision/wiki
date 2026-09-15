@@ -9,6 +9,19 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] archivage | Jaimungal, *Consciousness, Irreducibility, and the Local to Global* — transcription versée ; l'étude antagoniste en attente de verdict
+
+- **Consigne** : vidéo désignée par Sidy (`youtu.be/q2Zgp2EhSk8`), extraction autorisée par notube.
+- Transcription automatique locale versée dans
+  `textes/jaimungal-consciousness-irreducibility-local-to-global/` (non relue, termes défigurés consignés).
+- **Confrontation au propos rapporté** de [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] :
+  le graphe des théories (00:12:04), la typologie A-E avec le type E « participation trophy »
+  (00:34:04) et une pique sur Gemini (00:00:55) y sont ; **la thèse d'une foire de
+  pseudo-théoriciens assistés par IA n'y est pas énoncée**. Étude **non modifiée** :
+  verdict de Sidy attendu (bonne vidéo, ou une autre).
+- Contrôles : invariants 0 erreur / 71 avertissements (inchangé).
+- **Commit** : 9d45efc
+
 ## [2026-09-15] archivage | *al-Munqidh* — texte arabe versé (OCR neuf), durée de la retraite confrontée
 
 - **Consigne** : « go, lance la passe arabe du Munqidh ».

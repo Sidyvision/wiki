@@ -10,6 +10,20 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/outillage | `transcrire-audio-whisper.py` — transcription locale, tranches contre le manque de mémoire
+
+- faster-whisper 1.2.1 dans un venv isolé `atelier/rd/outillage/.whisper-venv/` (436 Mo,
+  exclu de git) ; modèle `small` déjà en cache Hugging Face.
+- **Incident** : deux arrêts « Out of memory » du noyau (3,1 Go puis 2,7 Go sur 3 Go) sur
+  56 min d'audio décodé d'un seul tenant ; le premier est passé inaperçu parce que la
+  sortie était filtrée par `grep` — leçon : ne jamais filtrer la sortie d'une tâche de
+  fond. Correctif : découpage ffmpeg en tranches de 10 min (`--tranche`), 13,2 min de
+  calcul pour 56 min d'audio.
+- Voie d'accès consignée : YouTube, Piped et Invidious refusent l'IP du serveur ;
+  notube pilotable en trois appels (`recover_weight.php`, `recover_file.php`,
+  `download.php`).
+- **Commit** : 9d45efc
+
 ## [2026-09-15] rd/outillage | `convertir-jabre-munqidh-arabe.py` — OCR arabe en ordre de lecture
 
 - OCR `tesseract -l ara` d'un imprimé arabe relié à l'arabe : sortie en ordre de lecture,
