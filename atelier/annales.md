@@ -10,6 +10,17 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] infrastructure | Verdicts de clôture — la porte et le fork conservés, le remède porté au point 3 (instruit)
+
+- **Verdict de Sidy**, verbatim : « je valide tes propositions encore ».
+- **Options C et D : rien n'est éteint.** Ni `skills.write_approval`, ni `background_review.enabled`. Quatre motifs, exposés puis validés : la porte est ce qui rend la revue possible (l'éteindre ferait entrer sans revue des propositions écrites par un modèle, y compris sur la transmission, le doctrinal et les entretiens) ; le fork ne produit pas que des skills, il **capture les souvenirs**, et la configuration ne sait pas séparer les deux versants ; sur 215 propositions, **21 sont devenues des skills** (~10 %) — matière réelle mais minoritaire, donc argument pour **relire** ; et aucune des deux extinctions ne corrige le défaut, qui est l'absence de trois vérifications (à l'entrée, en file, à la sortie).
+- **Dernier item de la file** : `verdict-gated-work` (7 386 o., arrivé à 01:02 pendant qu'on vidait la file) — **approuvé et créé** (7 775 o.), vérifié sur disque.
+- **Renvoi mort n°3, traité par retrait** : ce skill déclarait `references/cas-2026-09-15-integration-et-verdicts.md`, pièce **jamais proposée** (recherche faite dans toutes les archives). Aucun fichier inventé : la déclaration est remplacée par un pointeur vers les deux fiches du dépôt qui portent le cas, la raison étant écrite **dans le skill** — pour qu'un lecteur ne prenne pas le retrait pour une négligence.
+- **Bilan de la journée sur ce dispositif** : **22 skills créés** (11 + 10 + 1), **134 positions rejetées** au jugement (hors 60 retirées à la déduplication), **5 pièces greffées** depuis l'archive, **3 renvois morts** traités. Et la file s'est **reremplie pendant la passe** — trois positions en une heure : `hermes-skill-store-operations` (00:10), `verdict-gated-work` (01:02), `hermes-profile-targeting` (01:11, **non jugée**).
+- **Point 3 instruit, non exécuté** : trois pièces déterministes (état de la file **avec le compte des propositions inaptes** au contrat du magasin ; contrôle de sortie confrontant les renvois déclarés au disque ; branchement d'une ligne dans le rapport Studio du matin) et **deux obstacles nommés** — `atelier/rd/registre-chantiers.md` porte des modifications non commitées d'une autre passe, et `drain-skill-queue.py`, embarqué par un skill né de cette même file, n'a **pas été audité**. Aucun code écrit : le protocole du pôle exige un `plan.md` visé.
+- **Contrôles** : `verifier-invariants.py --racine /root/wiki` — **0 erreur**, 71 avertissements (inchangés).
+- **Commit** : `17b10fb` (fiche §8 et §9)
+
 ## [2026-09-15] infrastructure | Clôture du jugement — 31 positions réservées : 10 skills créés, 16 rejetées, 5 pièces greffées (traitement, étape 3)
 
 - **Méthode** : un sujet à la fois, comme demandé — contenu **lu** avant recommandation, réserves nommées quand elles appartiennent à Sidy, verdict consigné verbatim. Sept verdicts distincts, tous rendus.
