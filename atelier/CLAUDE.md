@@ -114,6 +114,16 @@ original: []      # facultatif — écriture d'origine, ou ["to-original"] (§IV
 - `rd/infrastructure/` reçoit ce qui est **publiable dans le dépôt** (architecture
   générique, bancs, mesures) — jamais de fait personnel dans une page neutre
   (ce qui est sensible reste en `meta/projet-unifie/`, voir `meta/CLAUDE.md`).
+- **Index lexical — exempté du sens des liens (§VI), verdict Sidy 2026-09-15** :
+  les fichiers générés de `rd/outillage/index-lexical/` (`type: artefact-derive`,
+  producteur `generer-index-lexical.py`) peuvent pointer vers `label/` et
+  `hermeneutique/`. Un index recense des occurrences, il n'affirme rien : même
+  statut que les `index.md`/`annales.md` de circuit. L'exemption **ne couvre que
+  ces fichiers générés**, jamais une fiche rédigée ; elle ne couvre **jamais**
+  `meta/` (sens interdit maintenu). Constat de mesure : `verifier-invariants.py`
+  ne contrôle aucun lien sortant d'`atelier/` (`ETANCHEITE_INTERDITE` ne porte
+  que `doctrinal` et `hermeneutique`) — l'exemption n'exige donc aucun code ;
+  elle dispense les agents de signaler ces liens.
 - **`infra_verif` (champ optionnel, ouvert 2026-08-17)** : pour les fiches
   `type: infrastructure` qui documentent une action de configuration Hermes/
   Discord effectivement appliquée (pas seulement planifiée), une liste YAML en

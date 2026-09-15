@@ -16,6 +16,18 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] amendement | `atelier/CLAUDE.md` — index lexical exempté du sens des liens (§VI)
+
+**Verdict de Sidy**, 2026-09-15, sur la suggestion 1 du rapport Publication du jour
+(132 liens `atelier/ → label/`, dont 105 dans l'index lexical) : « exempter ». **Ce qui
+change** : `atelier/CLAUDE.md` (Sceau atelier) exempte les fichiers générés de
+`rd/outillage/index-lexical/` du sens des liens de §VI vers `label/` et
+`hermeneutique/` — jamais vers `meta/`, jamais pour une fiche rédigée. **Outils** :
+aucun ; `verifier-invariants.py` ne contrôle aucun lien sortant d'`atelier/`
+(mesuré). Les ~27 liens restants hors index (registres, stub `deprecated`) ne sont pas
+couverts et restent à examiner. **Additif**, sans archive de version. Réversible sur
+simple verdict (Cmd 10).
+
 ## [2026-09-15] amendement | Type neutre `reference` — Sceau Recteur, annotations, arborescence ; contrôle B8
 
 **Verdict de Sidy**, 2026-09-15, sur `meta/projet-unifie/propositions/proposition-type-reference-2026-09-15.md` :
