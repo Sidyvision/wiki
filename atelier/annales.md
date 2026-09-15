@@ -10,6 +10,20 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/infrastructure | Traitement des rapports Studio et Publication des 14 et 15 septembre
+
+- Consigne de Sidy : « Traites les derniers rapport des agents Publication et Studio ». Quatre
+  rapports n'avaient pas d'entrée de traitement (`verifier-rapports-traites.py`, code 1).
+- Archives du 2026-09-15 commitées (`c5f3825`) ; quatre entrées ajoutées à
+  `monitoring-archive/registre-traitement.md`. **Aucun correctif appliqué** : les propositions
+  sont à deux branches ou engagent un job de production, elles attendent le verdict de Sidy.
+- Vérifié en session : le correctif P1 proposé par Studio ne répare que la moitié du problème
+  (`verifier-renvois-skills.py` n'a pas d'option `--hermes-home`) ; 12 règles de
+  `settings.local.json` avec étoile avant la fin (le rapport en annonçait 4).
+- Après passe : `verifier-rapports-traites.py` **code 0** ; `verifier-invariants.py` 0 erreur,
+  71 avertissements (inchangé).
+- **Commit** : f9de4ae
+
 ## [2026-09-15] rd/outillage | Contrôle B8 (valeur de `type:` au Sceau) et genre `reference` (validateur v1.5)
 
 - `verifier-invariants.py` — **B8** : refuse toute valeur de `type:` hors de la liste du Sceau
