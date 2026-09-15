@@ -10,6 +10,53 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] outillage | OUT-17 — deux pièces livrées et éprouvées par l'échec ; six renvois morts trouvés sur cinq skills
+
+**Visa** : « Commite et pousse le tout et je valide l'ensemble pour la suite » — enregistré
+dans le plan (statut `vise`), et le fait qu'il **suive** l'écriture plutôt que de la précéder
+est écrit noir sur blanc, pas lissé.
+
+**Livré** (§Vérification du plan pour les sorties brutes) :
+
+- `atelier/rd/outillage/etat-file-skills.py` (206 lignes) — état de la file d'écritures par
+  profil : positions, plus ancienne, **inaptes au contrat du magasin** (frontmatter, champ
+  `name:`, description ≤ 60 caractères) et redites. Code de sortie non nul si anomalie.
+- `atelier/rd/outillage/verifier-renvois-skills.py` (145 lignes) — les fichiers qu'un skill
+  **déclare** existent-ils ? Il distingue une **déclaration** (ligne de liste, ligne de
+  tableau, cartouche) d'une **citation en exemple** (au fil d'une phrase, dans un bloc de
+  code) : un contrôle qui crie à tort sera ignoré, donc il mentirait par omission ensuite.
+
+**Épreuve par l'échec (§VII)** — la faute fabriquée doit faire crier, la pièce saine se
+taire : description de 61 caractères et `name:` absent → **2 inaptes nommés, code 1** ;
+position conforme → **silence, code 0** ; chemin dans un bloc de code et au fil d'une phrase
+→ classé **mention**, jamais renvoi mort. Sur la flotte réelle : **1302 skills** examinés sur
+quatorze racines, **17 renvois morts** — dont **14 fois le même**, sur un skill **officiel** —
+et 117 mentions non bloquantes.
+
+**Ce que l'instrument a trouvé d'emblée — et qui corrige mon propre constat de la nuit** :
+**six fichiers déclarés jamais livrés, sur cinq skills** — `karubi-provisioning` (unité
+systemd), `doctrinal-integration` (état de corpus Taʿrīfāt), `verdict-gated-work` (pièce de
+cas), `astrology-ephemeris` (deux pièces), `deterministic-integrity-tooling` (architecture du
+dispositif Karūbī). **Quatre réparés par greffe depuis l'archive** — les pièces existaient,
+dans des positions écartées — et **deux par retrait de la déclaration**, la pièce n'ayant
+jamais été proposée et le canon vivant ailleurs au dépôt. *Mon audit manuel de la nuit en
+avait relevé trois : un contrôle outillé trouve ce qu'une relecture ne trouve pas.*
+
+**Défaut hérité, constaté et non touché car il n'est pas à nous** :
+`hermes-agent-skill-authoring` — skill **officiel**, présent dans les quatorze profils —
+déclare `scripts/run_tests.sh` qu'il ne livre pas.
+
+**Registre** : ligne `OUT-17` en §3 et **recomptage du §0** depuis les lignes — **58 lignes**,
+`ouvert` 32 / `bloque` 5 / `en-cours` 9 / `attente-verdict` 12, la somme des quatre colonnes
+coïncidant enfin avec le nombre de lignes. L'écart avec le recomptage du 2026-09-13
+(`33 / 5 / 5 / 10`, 56 lignes) est **signalé, pas lissé** : une passe qui découvre un écart
+ne le corrige pas d'office, mais une passe qui ajoute une ligne doit recompter.
+
+**Reste** : la ligne de rapport périodique — préparée, **non appliquée** (point de retour à
+l'humain).
+
+Commit : cd3ce9d
+
 ## [2026-09-15] infrastructure | Entretien des skills — les 24 créés passés sous curateur, 3 procédures épinglées
 
 - **Verdict de Sidy** : « oui intègre la fonction curateur ».
