@@ -30,6 +30,31 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] Le garde-fou du push ne voyait que les `.md` — trois scripts piégés sont passés
+
+- **Symptôme** : trois scripts `.py` de la passe al-Munqidh (`convertir-jabre-munqidh.py`,
+  `convertir-jabre-munqidh-arabe.py`, `verser-dossier-textes.py`), porteurs de **12 invisibles
+  Cmd 15 écrits en clair**, ont été commités et poussés le 2026-09-15 sans aucune alerte.
+  L'instrument OUT-16 (`verifier-hygiene-unicode.py`) les relevait pourtant.
+- **Diagnostic** : le hook `pre-push` et l'étape CI « Hygiène Unicode » portaient chacun **leur
+  propre copie** du contrôle, écrite en ligne, limitée à `git ls-files '*.md'`. OUT-16 avait
+  élargi l'instrument à tous les formats le 2026-09-14/15 ; les deux portes n'avaient pas suivi.
+  Deux vérifications de la même règle, une seule à jour : *un rapport vrai sur un périmètre faux*,
+  troisième occurrence du motif en deux jours (OUT-16, OUT-17).
+- **Résolution** : scripts assainis (échappements `\uXXXX`, équivalence prouvée sur le plan BMP —
+  `a02c1e5`) ; puis hook `pre-push` **et** CI réécrits pour **appeler l'instrument OUT-16**
+  (stdlib seule, registre d'exceptions honoré) au lieu de leur copie (`8fc5165`). Hook réinstallé
+  par `installer-hooks.sh` (ancien conservé, horodaté). **Épreuve** (clone jetable) : état sain →
+  code 0 ; `.py` porteur d'U+200B → **ancien hook : push autorisé** ; **nouveau hook : refusé**,
+  fichier, ligne et caractère nommés ; état restauré → code 0.
+- **Compréhension tirée** : une règle vérifiée à plusieurs portes doit l'être par **un seul
+  instrument** que les portes appellent — une copie en ligne diverge au premier élargissement,
+  et en silence.
+- **Reste ouvert** : le hook `pre-commit` filtre encore `\.(md|yaml|yml|json)$` — un `.py` piégé y
+  passe au commit ; il est désormais arrêté au push. Non traité (hors consigne).
+- **Liens** : OUT-16 ; [[atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination]].
+- **Statut** : `resolu` pour le push et le CI ; `pre-commit` signalé.
+
 ## [2026-09-15] Clôture de l'entrée [2026-09-13] — les trois pins sont prouvés, un par un
 
 - **Symptôme** : l'entrée `[2026-09-13]` « Une résolution déclarée au nom de trois jobs,

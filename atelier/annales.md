@@ -10,6 +10,19 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/outillage | Garde-fou du push et CI : l'hygiène Unicode passe par l'instrument OUT-16
+
+- Verdict de Sidy (« oui, étends le contrôle du push et journalise au R&D »).
+- `hooks/pre-push` et `.github/workflows/lint-and-validate.yml` : leur contrôle Cmd 15 en ligne,
+  limité à `git ls-files '*.md'`, est remplacé par l'appel à `verifier-hygiene-unicode.py`
+  (tous formats texte, suivis et non-suivis non-ignorés, exceptions déclarées honorées,
+  bibliothèque standard seule). Hook réinstallé (`installer-hooks.sh`, ancien conservé).
+- **Épreuve** (clone jetable) : sain → code 0 ; `.py` avec U+200B → ancien hook **vert**, nouveau
+  **refus** (fichier, ligne, caractère nommés) ; restauré → code 0.
+- Journalisé au R&D : registre des problèmes `[2026-09-15]` « Le garde-fou du push ne voyait que
+  les `.md` » ; ligne OUT-16 du registre des chantiers. Reste signalé : `pre-commit`.
+- **Commit** : 8fc5165
+
 ## [2026-09-15] hygiene | Cmd 15 — trois scripts de la passe al-Munqidh assainis
 
 - Verdict de Sidy (« oui, corrige les trois scripts »). `convertir-jabre-munqidh.py` (l. 51),
