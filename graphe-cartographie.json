@@ -660,7 +660,7 @@
         "ihwan-al-safa",
         "marquet"
       ],
-      "updated": "2026-08-23",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/bibliotheque/index-noms-ihwan-al-safa.md",
       "lacunes_to_source": 1
     },
@@ -696,7 +696,7 @@
         "ihwan-al-safa",
         "marquet"
       ],
-      "updated": "2026-08-23",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/bibliotheque/index-notions-ihwan-al-safa.md",
       "lacunes_to_source": 1
     },
@@ -709,7 +709,7 @@
       "status": null,
       "tradition_cadre": null,
       "tags": [],
-      "updated": "2026-08-25",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/bibliotheque/index-origine-polaire-tilak.md",
       "lacunes_to_source": 0
     },
@@ -1399,7 +1399,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-11",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries.md",
       "lacunes_to_source": 0
     },
@@ -1416,7 +1416,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-15",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra.md",
       "lacunes_to_source": 0
     },
@@ -1433,7 +1433,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-11",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini.md",
       "lacunes_to_source": 0
     },
@@ -1450,7 +1450,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-11",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer.md",
       "lacunes_to_source": 0
     },
@@ -1467,7 +1467,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-15",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus.md",
       "lacunes_to_source": 0
     },
@@ -1484,7 +1484,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-15",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio.md",
       "lacunes_to_source": 0
     },
@@ -1501,7 +1501,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-15",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo.md",
       "lacunes_to_source": 0
     },
@@ -1518,7 +1518,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-15",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/08-publication-sagittarius.md",
       "lacunes_to_source": 0
     },
@@ -1536,7 +1536,7 @@
         "extension-principielle",
         "studio"
       ],
-      "updated": "2026-08-15",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/09-studio-virgo.md",
       "lacunes_to_source": 0
     },
@@ -1553,7 +1553,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-11",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn.md",
       "lacunes_to_source": 0
     },
@@ -1570,7 +1570,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-11",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius.md",
       "lacunes_to_source": 0
     },
@@ -1587,7 +1587,7 @@
         "zodiacal",
         "extension-principielle"
       ],
-      "updated": "2026-08-15",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/cahiers/brouillons-extension-zodiacale/12-commerce-pisces.md",
       "lacunes_to_source": 0
     },
@@ -2039,6 +2039,26 @@
       ],
       "updated": "2026-09-13",
       "chemin": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio",
+      "label": "Exécution des propositions du rapport Studio du 2026-09-15 — fiche-contrat",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "monitoring",
+        "hermes",
+        "correctifs",
+        "contrat"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio.md",
       "lacunes_to_source": 0
     },
     {
@@ -2686,7 +2706,7 @@
         "monitoring",
         "registre"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "atelier/rd/infrastructure/monitoring-archive/registre-traitement.md",
       "lacunes_to_source": 0
     },
@@ -4897,7 +4917,7 @@
       ],
       "updated": "2026-09-15",
       "chemin": "doctrinal/autorites/al-afghani.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/autorites/al-ghazali",
@@ -5136,9 +5156,9 @@
         "theologie",
         "stub"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/autorites/ibn-qayyim.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/autorites/ibn-sina",
@@ -5210,9 +5230,9 @@
         "medine",
         "hadith"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/autorites/imam-malik.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/autorites/isaac-louria-arizal",
@@ -5267,7 +5287,7 @@
       ],
       "updated": "2026-09-15",
       "chemin": "doctrinal/autorites/muhammad-abduh.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/autorites/muhammad-al-akili",
@@ -5375,7 +5395,7 @@
       ],
       "updated": "2026-09-15",
       "chemin": "doctrinal/autorites/rashid-rida.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/autorites/rene-guenon",
@@ -5390,7 +5410,7 @@
         "tradition",
         "perennialisme"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/autorites/rene-guenon.md",
       "lacunes_to_source": 0
     },
@@ -5642,9 +5662,9 @@
         "new-age",
         "stub"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/deviations/technologisation-pseudo-scientifique.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale",
@@ -5708,7 +5728,7 @@
         "autorite-spirituelle",
         "citations-a-verifier"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard.md",
       "lacunes_to_source": 0
     },
@@ -5838,9 +5858,9 @@
         "citations-a-verifier",
         "validation-non-hedgee"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/discernement/2026-06-20_pierres-astres-barzakh.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/discernement/2026-06-20_signaletique-spirituelle-kiswa",
@@ -5855,9 +5875,9 @@
         "en-cours",
         "validation-non-hedgee"
       ],
-      "updated": "2026-08-10",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/discernement/2026-06-20_signaletique-spirituelle-kiswa.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire",
@@ -6977,7 +6997,7 @@
       ],
       "updated": "2026-09-15",
       "chemin": "doctrinal/etudes/2026-06-20_etre-psyche-intellect-raison-upakarana.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh",
@@ -6996,9 +7016,9 @@
         "phi",
         "coudee"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi",
@@ -10217,9 +10237,9 @@
         "ibn-arabi",
         "stub"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/alam-al-mithal.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/animaux-en-reve-comparatisme",
@@ -10234,9 +10254,9 @@
         "comparatisme",
         "non-syncretisme"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/animaux-en-reve-comparatisme.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/archeometre",
@@ -10272,9 +10292,9 @@
         "poesie-arabe",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/ashhab.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/asma-al-husna",
@@ -10366,9 +10386,9 @@
         "oniromancie",
         "comparatisme"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/axe-corde-en-reve.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/barzakh",
@@ -10402,9 +10422,9 @@
         "vedanta",
         "comparatisme"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/bindu.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/buddhi",
@@ -10439,9 +10459,9 @@
         "comparatisme",
         "citations-a-verifier"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/chat-en-reve.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/chaussure-en-reve",
@@ -10455,9 +10475,9 @@
         "oniromancie",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/chaussure-en-reve.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/chercheur-manifestant-akbarien",
@@ -10472,9 +10492,9 @@
         "tajalli",
         "citations-fabriquees"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/chercheur-manifestant-akbarien.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/cheveux-blancs-en-reve",
@@ -10489,9 +10509,9 @@
         "soufisme",
         "citations-a-verifier"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/cheveux-blancs-en-reve.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/cinq-noms-ame",
@@ -10530,9 +10550,9 @@
         "comparatisme",
         "folklore"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/coeurs-subtils.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/desir-theophanie",
@@ -10547,9 +10567,9 @@
         "tajalli",
         "noms-divins"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/desir-theophanie.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/devayana-pitriyana",
@@ -10607,9 +10627,9 @@
         "comparatisme",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/elephant-en-reve.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/eschatologie",
@@ -10662,9 +10682,9 @@
         "divination",
         "stub"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/fal-wa-tatayyur.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/fiqh",
@@ -10697,9 +10717,9 @@
         "firasa",
         "discernement"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/firasa.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
@@ -10736,9 +10756,9 @@
         "comparatisme",
         "son"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/furin.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/futuwwa",
@@ -10832,9 +10852,9 @@
         "coran",
         "soufisme"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/habl-allah.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/hadarat-khams",
@@ -10870,9 +10890,9 @@
         "soufisme",
         "citations-a-verifier"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/homme-pieux-en-reve.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/ilm-al-awfaq",
@@ -10926,7 +10946,7 @@
         "maisons",
         "tradition"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/ilm-al-nujum.md",
       "lacunes_to_source": 0
     },
@@ -10944,9 +10964,9 @@
         "cosmologie",
         "citations-a-verifier"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/imams-noms-divins.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/influx-spirituel-sommet-cranien",
@@ -10962,9 +10982,9 @@
         "stub",
         "citations-a-verifier"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/influx-spirituel-sommet-cranien.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/istidad",
@@ -10979,9 +10999,9 @@
         "metaphysique",
         "non-syncretisme"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/istidad.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/janus-bifrons",
@@ -11018,9 +11038,9 @@
         "occultisme-populaire",
         "distinction-doctrinale"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/jinns-classification-couleur.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/jivatma",
@@ -11116,9 +11136,9 @@
         "geographie-sacree",
         "stub"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/lieux-saints-france.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/lignees-celestes-taoisme",
@@ -11133,9 +11153,9 @@
         "transmission",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/lignees-celestes-taoisme.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/malamatiyya",
@@ -11216,9 +11236,9 @@
         "stub",
         "citations-a-verifier"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/maqamat-meknes.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/marcher-sur-eau-en-reve",
@@ -11232,9 +11252,9 @@
         "oniromancie",
         "stub"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/marcher-sur-eau-en-reve.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/merkavah-muraqaba",
@@ -11251,9 +11271,9 @@
         "non-syncretisme",
         "gematrie"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/merkavah-muraqaba.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/mihrab-torii",
@@ -11286,9 +11306,9 @@
         "geometrie-sacree",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/muqarnas.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/nada",
@@ -11304,9 +11324,9 @@
         "son",
         "comparatisme"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/nada.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/nafas-rahmani",
@@ -11344,9 +11364,9 @@
         "qalb",
         "pratique"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/nafs-qalb-irritation.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/noblesse-spirituelle",
@@ -11360,9 +11380,9 @@
         "comparatisme",
         "futuwwa"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/noblesse-spirituelle.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/outil-faculte-objectivee",
@@ -11377,9 +11397,9 @@
         "metaphysique",
         "instrument"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/outil-faculte-objectivee.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/pierre-noire-mecque",
@@ -11394,9 +11414,9 @@
         "hadith",
         "axis-mundi"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/pierre-noire-mecque.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/polarite-laterale-de-l-axe",
@@ -11435,9 +11455,9 @@
         "platon",
         "comparatisme"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/poseidon.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/prakriti",
@@ -11472,9 +11492,9 @@
         "oniromancie",
         "hadith"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/priere-mosquee-prophete.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/purusha",
@@ -11509,9 +11529,9 @@
         "hadith",
         "geographie-sacree"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/rawda-sharif.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/salawat",
@@ -11527,7 +11547,7 @@
         "benediction-prophetique",
         "salawat"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/salawat.md",
       "lacunes_to_source": 0
     },
@@ -11563,9 +11583,9 @@
         "egypte-antique",
         "comparatisme"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/scarabee-egyptien.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/shamharush",
@@ -11639,9 +11659,9 @@
         "comparatisme",
         "citations-a-verifier"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/soma-vedique.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/taabir-al-ruya",
@@ -11656,9 +11676,9 @@
         "soufisme",
         "citations-a-verifier"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/taabir-al-ruya.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/taawil-par-le-nom",
@@ -11673,9 +11693,9 @@
         "etymologie",
         "stub"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/taawil-par-le-nom.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/tabia",
@@ -11772,7 +11792,7 @@
         "awfaq",
         "al-buni"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/talisman-sihr.md",
       "lacunes_to_source": 0
     },
@@ -11789,9 +11809,9 @@
         "comparatisme",
         "non-syncretisme"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/tapisserie-navajo.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/tarab",
@@ -11824,9 +11844,9 @@
         "autorite-spirituelle",
         "stub"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/tarbiyya-rabbaniyya.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/tard",
@@ -11937,9 +11957,9 @@
         "nutrition",
         "hijama"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/tibb-e-nabawi.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/tibb-ruhani",
@@ -11971,9 +11991,9 @@
         "medecine-traditionnelle",
         "temperament"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/tibb-yunani.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/tomoe",
@@ -12026,9 +12046,9 @@
         "oniromancie",
         "stub"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/uriner-en-reve.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/ushas-les-trente-aurores",
@@ -12065,9 +12085,9 @@
         "voiles",
         "citations-a-verifier"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/voiles-naqshbandiyya.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/voilette",
@@ -12083,9 +12103,9 @@
         "rite-de-passage",
         "citations-a-verifier"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/voilette.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/vol-en-reve",
@@ -12099,9 +12119,9 @@
         "oniromancie",
         "stub"
       ],
-      "updated": "2026-06-20",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/vol-en-reve.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/wahdat-al-wujud",
@@ -12174,9 +12194,9 @@
         "adab",
         "soufisme"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/walaya-fath-adab.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/symboles/waqia",
@@ -12210,9 +12230,26 @@
         "litanie",
         "wird"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/wird-awrad.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/symboles/zephyr",
+      "label": "Zéphyr — le vent d'ouest dans la mythologie grecque",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "academique",
+      "tradition_cadre": "hellenisme",
+      "tags": [
+        "mythologie-grecque",
+        "vents",
+        "hellenisme"
+      ],
+      "updated": "2026-09-15",
+      "chemin": "doctrinal/symboles/zephyr.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa",
@@ -12246,9 +12283,9 @@
         "droit",
         "ecole"
       ],
-      "updated": "2026-09-08",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/traditions/madhhab-maliki.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/traditions/naqshbandiyya",
@@ -12283,9 +12320,9 @@
         "tradition",
         "metaphysique"
       ],
-      "updated": "2026-06-11",
+      "updated": "2026-09-15",
       "chemin": "doctrinal/traditions/sanatana-dharma.md",
-      "lacunes_to_source": 0
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/traditions/shinto",
@@ -13913,6 +13950,48 @@
     {
       "source": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio",
       "target": "atelier/rd/infrastructure/monitoring-archive-charte",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio",
+      "target": "atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio",
+      "target": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/plan",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio",
+      "target": "atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -16803,13 +16882,6 @@
     },
     {
       "source": "doctrinal/autorites/rene-guenon",
-      "target": "doctrinal/deviations/confusion-psychique-spirituel",
-      "champ": "sources",
-      "nature": "source",
-      "assise": "etabli"
-    },
-    {
-      "source": "doctrinal/autorites/rene-guenon",
       "target": "doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores",
       "champ": "sources",
       "nature": "source",
@@ -16817,16 +16889,30 @@
     },
     {
       "source": "doctrinal/autorites/rene-guenon",
-      "target": "doctrinal/deviations/contre-initiation",
+      "target": "doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation",
       "champ": "sources",
       "nature": "source",
       "assise": "etabli"
     },
     {
       "source": "doctrinal/autorites/rene-guenon",
+      "target": "doctrinal/deviations/confusion-psychique-spirituel",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rene-guenon",
+      "target": "doctrinal/deviations/contre-initiation",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/rene-guenon",
       "target": "doctrinal/deviations/pseudo-initiation-et-syncretisme",
-      "champ": "sources",
-      "nature": "source",
+      "champ": "cross_links",
+      "nature": "lien",
       "assise": "etabli"
     },
     {
@@ -25161,6 +25247,13 @@
     },
     {
       "source": "doctrinal/symboles/ilm-al-nujum",
+      "target": "doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/ilm-al-nujum",
       "target": "doctrinal/symboles/ilm-al-huruf",
       "champ": "cross_links",
       "nature": "lien",
@@ -25945,6 +26038,13 @@
     },
     {
       "source": "doctrinal/symboles/salawat",
+      "target": "doctrinal/sources/awrad-ibn-arabi",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/salawat",
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
       "nature": "lien",
@@ -26296,6 +26396,13 @@
     {
       "source": "doctrinal/symboles/talaq",
       "target": "doctrinal/sources/kitab-al-tarifat-jurjani",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/talisman-sihr",
+      "target": "doctrinal/sources/shams-al-maarif",
       "champ": "sources",
       "nature": "source",
       "assise": "etabli"
@@ -26827,6 +26934,13 @@
     },
     {
       "source": "doctrinal/symboles/wird-awrad",
+      "target": "doctrinal/sources/awrad-ibn-arabi",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/wird-awrad",
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
       "nature": "lien",
@@ -26884,6 +26998,27 @@
     {
       "source": "doctrinal/symboles/wird-awrad",
       "target": "doctrinal/sources/hasbiyallah-rabbani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/zephyr",
+      "target": "doctrinal/symboles/poseidon",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/zephyr",
+      "target": "doctrinal/symboles/atlantide",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/zephyr",
+      "target": "doctrinal/autorites/platon",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"

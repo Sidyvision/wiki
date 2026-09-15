@@ -8,7 +8,7 @@ created: 2026-09-15
 updated: 2026-09-15
 sources: ["to-source"]
 sources_count: 1
-cross_links: []
+cross_links: ["[[doctrinal/symboles/poseidon]]", "[[doctrinal/symboles/atlantide]]", "[[doctrinal/autorites/platon]]"]
 original: ["to-original"]
 ---
 
@@ -73,10 +73,11 @@ et l'assimilation serait une erreur de catégorie.
   autorité traditionnelle n'est en main. Un texte de cet ordre sur Zéphyr ou sur les vents
   cardinaux justifierait de réexaminer le statut.
 
-## Liens proposés (non inscrits, verdict Sidy attendu)
+## Concepts liés (inscrits sur verdict de Sidy, 2026-09-15)
 
-Fiches voisines, candidates aux `cross_links` : `poseidon` (même corpus mythologique),
-`atlantide` (cadre hellénique), `platon`.
+- [[doctrinal/symboles/poseidon]] — même corpus mythologique grec.
+- [[doctrinal/symboles/atlantide]] — même cadre hellénique.
+- [[doctrinal/autorites/platon]] — source primaire de la tradition hellénique au dépôt.
 
 ## Sources
 
