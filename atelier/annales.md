@@ -10,6 +10,15 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] protocole | Index lexical exempté du sens des liens (§VI)
+
+- Verdict de Sidy (« exempter ») sur la suggestion 1 du rapport Publication du 2026-09-15.
+- `atelier/CLAUDE.md` : les fichiers générés de `rd/outillage/index-lexical/` peuvent pointer vers
+  `label/` et `hermeneutique/`, jamais vers `meta/`. Changelog du protocole mis à jour.
+- Mesure : `verifier-invariants.py` ne contrôle aucun lien sortant d'`atelier/` — aucun code à changer.
+  Les ~27 liens hors index restent à examiner.
+- **Commit** : e75dea1
+
 ## [2026-09-15] restauration | Brouillons zodiacaux : section natale retirée (§VI)
 
 - Verdict de Sidy sur le signalement D du rapport Publication du 2026-09-15 : « Corrige ».

@@ -9,6 +9,22 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] restauration | Convention des sources : `sources: []` → `to-source` ; sources de René Guénon
+
+- Verdicts de Sidy sur le rapport Publication du 2026-09-15 (point 5 et question Guénon) : « oui ».
+- **64 fiches non-`source`** portaient `sources: []`, contraire à la convention (« fait sans source →
+  `["to-source"]` ») : 60 passent à `["to-source"]`, `sources_count: 1` ; 4 reçoivent la fiche source
+  que leur corps cite déjà (`ilm-al-nujum` → `ilm-al-nujum-astrologie-traditionnelle` ; `salawat`,
+  `wird-awrad` → `awrad-ibn-arabi` ; `talisman-sihr` → `shams-al-maarif`). Passe par script, cartouche
+  seul ; aucun `to-source` levé. Un défaut du script (`sanatana-dharma.md` : fin de cartouche collée)
+  a été vu par le validateur (1 erreur) et réparé avant commit.
+- [[doctrinal/autorites/rene-guenon]] : `sources:` ne garde que les textes de Guénon
+  (`guenon-initiation-realisation-ch6-…`, `guenon-regne-quantite-ch28-40-contre-initiation`),
+  `sources_count` 4 → 2 ; les trois fiches `deviation` passent en `cross_links:` et en « voir aussi »
+  dans le corps.
+- Contrôles : invariants 0 erreur / 71 avertissements.
+- **Commit** : 051d30d
+
 ## [2026-09-15] restauration | Discernement Fard : données de naissance retirées (§VI)
 
 - Verdict de Sidy sur le signalement D du rapport Publication du 2026-09-15 : « Corrige ».
