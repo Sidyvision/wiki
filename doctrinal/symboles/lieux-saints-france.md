@@ -8,9 +8,9 @@ tags:
 - geographie-sacree
 - stub
 created: 2026-06-20
-updated: 2026-09-13
-sources: []
-sources_count: 0
+updated: 2026-09-15
+sources: ["to-source"]
+sources_count: 1
 cross_links:
 - '[[doctrinal/autorites/rene-guenon]]'
 ---

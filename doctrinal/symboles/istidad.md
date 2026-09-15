@@ -8,9 +8,9 @@ tags:
 - metaphysique
 - non-syncretisme
 created: 2026-06-20
-updated: 2026-09-08
-sources: []
-sources_count: 0
+updated: 2026-09-15
+sources: ["to-source"]
+sources_count: 1
 cross_links:
 - '[[doctrinal/symboles/firasa]]'
 - '[[doctrinal/autorites/ibn-arabi]]'

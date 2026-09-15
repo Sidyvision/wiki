@@ -8,9 +8,12 @@ tags:
 - tradition
 - perennialisme
 created: 2026-06-02
-updated: 2026-09-08
-sources_count: 4
+updated: 2026-09-15
+sources_count: 2
 cross_links:
+- '[[doctrinal/deviations/confusion-psychique-spirituel]]'
+- '[[doctrinal/deviations/contre-initiation]]'
+- '[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]'
 - '[[doctrinal/symboles/malamatiyya]]'
 - '[[doctrinal/sources/malamatiyah-futuhat-ch23]]'
 - '[[doctrinal/sources/shams-al-maarif]]'
@@ -19,10 +22,8 @@ cross_links:
 - '[[doctrinal/discernement/2026-08-13_shams-al-maarif-sihr-grille-contre-initiation-pseudo-initiation]]'
 - '[[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]]'
 sources:
-- '[[doctrinal/deviations/confusion-psychique-spirituel]]'
 - '[[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]]'
-- '[[doctrinal/deviations/contre-initiation]]'
-- '[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]'
+- '[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]]'
 ---
 
 # René Guénon
@@ -54,8 +55,8 @@ Dans *Initiation et Réalisation spirituelle* (chs. XXVIII « Le masque populair
 Le point d'appui central de tout jugement guénonien sur une pratique se réclamant du
 surnaturel ou de l'occulte est la distinction, jamais un simple distinguo verbal,
 entre le **psychique** et le **spirituel** — source :
-[[doctrinal/deviations/confusion-psychique-spirituel]] (*Le Règne de la Quantité*,
-ch. XXXV, XXXII, XXXIV).
+[[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]] (*Le Règne de la Quantité*,
+ch. XXXV, XXXII, XXXIV) ; voir aussi [[doctrinal/deviations/confusion-psychique-spirituel]].
 
 > Énoncé central : « les manifestations phénoméniques ne prouvent jamais rien par
 > elles-mêmes », pouvant être « tout à fait semblables chez un saint et chez un
@@ -84,9 +85,9 @@ indépendamment du vocabulaire employé pour la désigner.
 
 ### Contre-initiation et pseudo-initiation : deux issues distinctes pour une pratique déviante
 
-Source : [[doctrinal/deviations/contre-initiation]] et
-[[doctrinal/deviations/pseudo-initiation-et-syncretisme]] (*Le Règne de la
-Quantité*, ch. XXVIII-XL). Guénon distingue nettement :
+Source : [[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]] (*Le Règne de la
+Quantité*, ch. XXVIII-XL) ; voir aussi [[doctrinal/deviations/contre-initiation]] et
+[[doctrinal/deviations/pseudo-initiation-et-syncretisme]]. Guénon distingue nettement :
 - la **<dfn data-terme="contre-initiation" data-translit="contre-initiation" data-tradition="universel">contre-initiation</dfn>**, réelle dans son ordre mais à valeur négative, dont le
   champ ne dépasse jamais le « monde intermédiaire » (domaine psychique) — le
   domaine métaphysique et spirituel lui est absolument fermé ;

@@ -8,8 +8,8 @@ note: "Superseded by [[doctrinal/references/al-afghani]] (2026-09-15, verdict de
 tags: [al-afghani, deprecated]
 created: 2026-09-15
 updated: 2026-09-15
-sources: []
-sources_count: 0
+sources: ["to-source"]
+sources_count: 1
 cross_links: ["[[doctrinal/references/al-afghani]]"]
 ---
 

@@ -8,10 +8,10 @@ tags:
 - tradition
 - metaphysique
 created: 2026-06-02
-updated: 2026-06-11
-sources_count: 0
+updated: 2026-09-15
+sources_count: 1
 cross_links: []
-sources: []
+sources: ["to-source"]
 ---
 
 # Sanātana Dharma

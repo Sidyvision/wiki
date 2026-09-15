@@ -8,8 +8,8 @@ note: "Superseded by [[doctrinal/references/rashid-rida]] (2026-09-15, verdict d
 tags: [rashid-rida, deprecated]
 created: 2026-09-15
 updated: 2026-09-15
-sources: []
-sources_count: 0
+sources: ["to-source"]
+sources_count: 1
 cross_links: ["[[doctrinal/references/rashid-rida]]"]
 ---
 

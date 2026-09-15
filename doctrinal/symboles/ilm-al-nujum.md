@@ -11,9 +11,9 @@ tags:
 - maisons
 - tradition
 created: 2026-06-03
-updated: 2026-09-13
-sources: []
-sources_count: 0
+updated: 2026-09-15
+sources: ["[[ilm-al-nujum-astrologie-traditionnelle]]"]
+sources_count: 1
 cross_links:
 - '[[ilm-al-huruf]]'
 - '[[asma-al-husna]]'

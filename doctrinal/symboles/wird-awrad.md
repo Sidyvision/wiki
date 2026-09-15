@@ -9,9 +9,9 @@ tags:
 - litanie
 - wird
 created: 2026-06-02
-updated: 2026-09-13
-sources: []
-sources_count: 0
+updated: 2026-09-15
+sources: ["[[awrad-ibn-arabi]]"]
+sources_count: 1
 cross_links:
 - '[[ibn-arabi]]'
 - '[[salawat]]'

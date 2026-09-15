@@ -8,9 +8,9 @@ tags:
 - comparatisme
 - son
 created: 2026-06-20
-updated: 2026-09-08
-sources: []
-sources_count: 0
+updated: 2026-09-15
+sources: ["to-source"]
+sources_count: 1
 cross_links:
 - '[[doctrinal/traditions/shinto]]'
 - '[[doctrinal/symboles/alam-al-mithal]]'
