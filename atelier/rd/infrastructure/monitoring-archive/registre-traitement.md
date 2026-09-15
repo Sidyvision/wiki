@@ -2,7 +2,7 @@
 title: "Registre de traitement des rapports quotidiens (Studio/Publication)"
 type: meta
 created: 2026-09-02
-updated: 2026-09-13
+updated: 2026-09-15
 tags: [atelier, rd, infrastructure, monitoring, registre]
 sources: []
 links:
@@ -74,6 +74,38 @@ datées du jour de la passe et renvoyant au même détail) :
 ```
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] traite | studio | 41dc3e7e492c | rapport du 2026-09-15
+
+**Rapport** : `monitoring-archive/2026-09-15_41dc3e7e492c.txt` (commit `c5f3825`).
+**Traité par** : session Claude Code — consigne de Sidy en session : « Traites les derniers rapport des agents Publication et Studio ». **Instruction et vérification seulement, aucun correctif appliqué** : la consigne n'est pas celle du 2026-09-13 (« execute les correctifs »), et chaque proposition du rapport est à deux branches ou engage un job de production (Cmd 12/13).
+**Résumé** : §1 stable (0 erreur, 71 avertissements C5/C6 déjà tranchés ; 629 nœuds / 2080 arêtes / 70 lacunes ; 15 affirmations `infra_verif`, 0 écart). Le « 1 fichier non tracké » était exact à 10:01 ; sa propre archive (10:10) en faisait 2 — les deux commitées en `c5f3825`. **Vérifié en session** : (a) **P1 exact, mais le correctif proposé ne répare que la moitié de la ligne** — `etat-file-skills.py` accepte bien `--hermes-home` (l. 126), mais `verifier-renvois-skills.py` n'a **aucune** option de ce genre et lit `$HERMES_HOME` en dur (l. 85) ; le prompt du job appelle les deux scripts sans argument ; (b) `omniroute.service` : `enabled` + `failed`, confirmé ; (c) P2 exact : le `grep` du critère 1 d'`INF-16` rend 2 lignes (gabarit l. 109, sa propre ligne de contrôle l. 213) — vert par construction ; (d) les pins des trois jobs (`deepseek-flash` / `deepseek`) relus dans les trois `jobs.json` — **preuve vérifiée**, la clôture de l'entrée `[2026-09-13]` du registre des problèmes reste soumise à verdict (P4 iii) ; (e) `settings.local.json` : **12** règles portent une étoile avant la fin de commande (et non 4), dont 6 réellement élargissantes (`cp`/`mv`/`file` à glob) ; hors de cette forme, `Bash(python3 -c ' *)` autorise tout code Python sans prompt. P1–P5 **en attente de verdict**.
+**Détail** : compte rendu de session à Sidy (terminal, 2026-09-15) ; [[atelier/rd/cahiers/registre-problemes]] non modifié.
+**Commit** : `c5f3825` (archivage).
+
+## [2026-09-15] traite | publication | ad3152b237bb | rapport du 2026-09-15
+
+**Rapport** : `monitoring-archive/2026-09-15_ad3152b237bb.txt` (commit `c5f3825`).
+**Traité par** : session Claude Code, même consigne que l'entrée ci-dessus. **Instruction et vérification seulement, aucun correctif appliqué.**
+**Résumé** : §1 identique à Studio (0 / 71). Tranche 26-50 des `sources_count: 0` investiguée : 10 fiches sur 25 sans appariement strict, 5 avec piste vérifiée non liée (`furin`, `merkavah-muraqaba`, `muqarnas`, `nada`, `noblesse-spirituelle`). **Vérifié en session** : liens morts `label/production/album-01` (absent, alors que `label/CLAUDE.md:32` le désigne comme table de référence) et `site-dans-labsolu` (aucune fiche) ; `meta/journal/2026-06-18-tawakkul-transition.md` porte `sources_count: 3` sans champ `sources:` ; données natales présentes dans les 12 brouillons `brouillons-extension-zodiacale/` et à `doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard.md:36` ; mise à l'écart des 5 liens `chatgpt-synthese-kamon-kouyate-2026-09-15` **confirmée** (`meta/CLAUDE.md:132`, « Lots nominatifs », pièce présente en `raw/`). Suggestions 1–5 **en attente de verdict**.
+**Détail** : compte rendu de session à Sidy (terminal, 2026-09-15).
+**Commit** : `c5f3825` (archivage).
+
+## [2026-09-15] traite | studio | 41dc3e7e492c | rapport du 2026-09-14
+
+**Rapport** : `monitoring-archive/2026-09-14_41dc3e7e492c.txt` (commit `f73144e`).
+**Traité par** : session Claude Code, dans la même passe que les rapports du 2026-09-15 — c'est l'un des quatre rapports sans entrée que `verifier-rapports-traites.py` nommait.
+**Résumé** : aucun écart d'infrastructure (15 `infra_verif`, 0 écart). Propositions : délai structurel entre archivage automatique et commit ; lignes de statut en retard sur leurs cahiers (cas `[2026-09-04]`) ; dérive lente du graphe (106 liens morts, 72 isolées) ; écart 73/71 avertissements au `journal-optimisations.md` `[2026-09-13]`. **Aucune n'est instruite ici** : toutes sont des signalements sans urgence, reconduits à l'état de fait par le rapport du 2026-09-15 (graphe à 126 liens morts / 73 isolées) ; elles restent ouvertes.
+**Détail** : compte rendu de session à Sidy (terminal, 2026-09-15).
+**Commit** : `f73144e` (archivage).
+
+## [2026-09-15] traite | publication | ad3152b237bb | rapport du 2026-09-14
+
+**Rapport** : `monitoring-archive/2026-09-14_ad3152b237bb.txt` (commit `f73144e`).
+**Traité par** : session Claude Code, même passe.
+**Résumé** : tranche 1-25 des `sources_count: 0` ; quatre `type: source` dont le PDF est en `raw/` sans être nommé (`jesus-and-enoch-in-ibn-arabi`, `universal-man-jili`, `islam-and-artificial-intelligence`, `ilm-al-nujum-astrologie-traditionnelle`) ; `raw/shams-al-maarif-arabe/` non référencé par un index-livre. Ses trois suggestions (`sources: []` sur 62 fiches, fiches `deviation` dans `sources:` de `rene-guenon.md`, `technics-su-8080.md:21`) sont **reportées telles quelles** par le rapport du 2026-09-15 (points 4 et 5) — elles sont traitées par l'entrée ci-dessus, et restent en attente de verdict.
+**Détail** : compte rendu de session à Sidy (terminal, 2026-09-15).
+**Commit** : `f73144e` (archivage).
+
 ## [2026-09-13] traite | studio | 41dc3e7e492c | rapport du 2026-09-13
 
 **Rapport** : `monitoring-archive/2026-09-13_41dc3e7e492c.txt` (commit `2f37f28`).
