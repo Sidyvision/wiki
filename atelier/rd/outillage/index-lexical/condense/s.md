@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **516 fiches** | LISEZ-MOI.md +10 | 2944 |
+| `sidy` | SIDY, Sidy, sidy | — | ⚖ universel | definition, table, titre | **516 fiches** | LISEZ-MOI.md +10 | 2946 |
 | `source` | SOURCE, Source, source, sourcé | — | — | table, tag | **543 fiches** | LISEZ-MOI.md +170 | 2621 |
 | `symbolisme` | SYMBOLISME, Symbolisme, symbolisme | — | — | table, tag, titre | **137 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +325 | 1918 |
 | `sources` | SOURCES, Sources, sources, sourcés | — | — | definition, table | **413 fiches** | LISEZ-MOI.md +62 | 1536 |
@@ -20,7 +20,7 @@ links: []
 | `symboles` | SYMBOLES, Symboles, symboles | — | — | table, titre | **242 fiches** | LISEZ-MOI.md +202 | 1190 |
 | `shinto` | Shinto, Shintō, shinto, shintô (+1) | `神道` | ✓ shintoisme | annotation, table, tag, titre, translit | **18 fiches** | LISEZ-MOI.md +25 | 1100 |
 | `suite` | Suite, suite | — | — | titre | **119 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +367 | 1088 |
-| `statut` | Statut, statut | — | — | tag | **363 fiches** | LISEZ-MOI.md +12 | 1065 |
+| `statut` | Statut, statut | — | — | tag | **363 fiches** | LISEZ-MOI.md +12 | 1068 |
 | `symbole` | SYMBOLE, Symbole, symbole | — | — | table, tag | **81 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +211 | 1065 |
 | `sept` | SEPT, Sept, sept | — | — | table, titre | **125 fiches** | 09-i.md +85 | 973 |
 | `spirituelle` | SPIRITUELLE, Spirituelle, spirituelle | — | — | table, titre | **165 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +196 | 957 |

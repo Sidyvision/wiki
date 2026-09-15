@@ -14,8 +14,8 @@ links: []
 |---|---|---|---|---|---|---|---|
 | `dream` | DREAM, Dream, dream | — | — | table | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[meta/personnel/sidy]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +28 | 13006 |
 | `deux` | DEUX, Deux, deux | — | — | table, titre | **490 fiches** | LISEZ-MOI.md +487 | 6631 |
-| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **401 fiches** | LISEZ-MOI.md +19 | 2101 |
-| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **474 fiches** | 14-o.md +47 | 2018 |
+| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **401 fiches** | LISEZ-MOI.md +19 | 2096 |
+| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **474 fiches** | 14-o.md +47 | 2016 |
 | `doctrine` | DOCTRINE, Doctrine, doctrine | — | — | table, titre | **261 fiches** | 08-h.md +251 | 1531 |
 | `degre` | DEGRÉ, Degre, Degré, degre (+1) | — | — | table, titre | **158 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +251 | 1464 |
 | `degres` | DEGRÉS, Degres, Degrés, degres (+1) | — | — | table, tag, titre | **164 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +197 | 1301 |

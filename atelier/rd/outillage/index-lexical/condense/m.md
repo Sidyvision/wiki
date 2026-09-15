@@ -31,7 +31,7 @@ links: []
 | `multiples` | MULTIPLES, multiples, multìples | — | — | titre | **57 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +215 | 477 |
 | `mental` | MENTAL, Mental, mental | — | — | table, tag | **13 fiches** | 11-k.md +77 | 446 |
 | `meta` | Meta, meta, méta | — | — | table, tag | **63 fiches** | osman-yahya-02-chapitre-01.md +3 | 432 |
-| `motif` | Motif, motif | — | — | definition, table | **151 fiches** | LISEZ-MOI.md +37 | 416 |
+| `motif` | Motif, motif | — | — | definition, table | **150 fiches** | LISEZ-MOI.md +37 | 415 |
 | `main` | MAIN, Main, main, maïn | — | — | titre | **100 fiches** | LISEZ-MOI.md +73 | 401 |
 | `mysteres` | MYSTÈRES, Mystères, mysteres, mystères | — | — | tag, titre | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +113 | 380 |
 | `mecanique` | Mécanique, mecanique, mécanique | — | — | tag | **126 fiches** | connaissance-initiatique-et-culture-profane-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +20 | 324 |
@@ -238,7 +238,6 @@ links: []
 | `moog` | Moog, moog | — | — | table, tag, titre | [[atelier/materiel/moog-voyager]] · [[atelier/materiel/studio-principal]] · [[label/production/album-personnel]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 8 |
 | `morphopsychologie` | Morphopsychologie, morphopsychologie | — | ✓ islam | titre | [[doctrinal/autorites/aiman-attar]] · [[doctrinal/deviations/body-types]] · [[doctrinal/deviations/morphopsychologie]] · [[doctrinal/symboles/tibb-e-nabawi]] · [[meta/carte-doctrinal]] · +2 | — | 8 |
 | `muamalat` | Muʿāmalāt, muʿāmalāt | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/symboles/fiqh]] · [[doctrinal/traditions/madhhab-maliki]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] | — | 8 |
-| `muhammad-abduh` | muhammad-abduh | — | ✓ islam · *arabe* | annotation, tag | [[doctrinal/autorites/muhammad-abduh]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/references/al-afghani]] · [[doctrinal/references/muhammad-abduh]] · [[doctrinal/references/rashid-rida]] | — | 8 |
 | `macdonell` | Macdonell | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch05-the-vedic-dawns.md +2 | 7 |
 | `macrocosme-microcosme` | macrocosme-microcosme | — | — | annotation, tag | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] · [[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]] · [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]] · [[meta/carte-du-depot-doctrinal]] · +1 | — | 7 |
 | `mahbub` | Mahbüb, maḥbûb | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +2 | 7 |
@@ -278,6 +277,7 @@ links: []
 | `mithra` | Mithra | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | rapprochements-maconniques-et-hermetiques-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md +2 | 6 |
 | `moytura` | Moytura | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +1 | 6 |
 | `mubah` | mubâḥ, mubāḥ | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/fiqh]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | — | 6 |
+| `muhammad-abduh` | muhammad-abduh | — | ✓ islam · *arabe* | annotation, tag | [[doctrinal/autorites/muhammad-abduh]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/references/al-afghani]] · [[doctrinal/references/muhammad-abduh]] · [[doctrinal/references/rashid-rida]] | — | 6 |
 | `muhyiddin` | Muhyiddin, Muḥyīddīn | — | — | translit | [[doctrinal/autorites/ali-hussain]] · [[doctrinal/autorites/ibn-arabi]] · [[doctrinal/sources/awrad-ibn-arabi]] · [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]] · [[meta/journal/conversation-chatgpt-2026-06-15]] | — | 6 |
 | `muminin` | muminîn, muʾminīn, mûminîn | — | — | translit | [[doctrinal/sources/guenon-lettre-genty-1937-07-14]] · [[doctrinal/symboles/shamharush]] | guenon-correspondance-genty-1937-07-14-le-caire.md +1 | 6 |
 | `mutabaqa` | muṭâbaqa, muṭābaqa | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 6 |

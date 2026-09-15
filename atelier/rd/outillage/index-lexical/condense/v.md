@@ -13,7 +13,7 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `vers` | VERS, Vers, vers | — | — | titre | **336 fiches** | LISEZ-MOI.md +251 | 1656 |
-| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **348 fiches** | LISEZ-MOI.md +13 | 1329 |
+| `verdict` | VERDICT, Verdict, verdict | — | — | definition, table | **347 fiches** | LISEZ-MOI.md +13 | 1326 |
 | `vigilance` | VIGILANCE, Vigilance, vigilance | — | — | definition, table, tag, titre | **191 fiches** | comptes-rendus-de-livres-et-de-revues-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +40 | 532 |
 | `verification` | VÉRIFICATION, Vérification, verification, vérification | — | ⚖ hindouisme | definition, table, tag | **203 fiches** | LISEZ-MOI.md +7 | 512 |
 | `veille` | VEILLE, Veille, veille | — | — | table, tag, titre | **94 fiches** | LISEZ-MOI.md +19 | 491 |
@@ -27,7 +27,7 @@ links: []
 | `vertical` | Vertical, vertical | — | — | titre | **54 fiches** | 17-t.md +59 | 263 |
 | `veda` | Veda, VÊDA, Véda, Vêda (+2) | — | — | table | **17 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +54 | 251 |
 | `vritra` | VRITRA, Vritra | — | — | table, titre | **10 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-33.md +17 | 220 |
-| `verdict de sidy` | Verdict de Sidy | — | — | definition | **105 fiches** | LISEZ-MOI.md +3 | 217 |
+| `verdict de sidy` | Verdict de Sidy | — | — | definition | **104 fiches** | LISEZ-MOI.md +3 | 216 |
 | `vedique` | Védique, vedique, védique, vêdique | — | — | titre | **37 fiches** | la-puissance-du-serpent.md +41 | 156 |
 | `verifiee` | Vérifiée, vérifiée | — | ⚖ universel | definition | **102 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 143 |
 | `valsan` | Valsan, Valsän, Vàlsan, Vâlsan (+2) | — | — | table, tag, titre | **25 fiches** | sept-etendards-califat-transcription.md +8 | 132 |

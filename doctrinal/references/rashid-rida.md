@@ -17,10 +17,10 @@ original: ["محمد رشيد رضا"]
 > ℹ️ **Type `reference`** (verdict de Sidy, 2026-09-15) : personne citée, sans autorité ;
 > déplacée de `autorites/` par `git mv`, talon à l'ancien emplacement.
 
-> ⚠️ **Statut proposé, non tranché.** Même motif que pour
-> [[doctrinal/references/muhammad-abduh]] : Riḍā est cité le 2026-09-15 par le directeur
-> du dépôt comme figure de la déviation réformiste et moderniste. La valeur `profane` est
-> une proposition de la machine ; le verdict appartient au directeur du dépôt (Cmd 12).
+> ✅ **Statut `profane` validé par Sidy le 2026-09-15** (« oui, je valide le statut
+> profane »), sur sa qualification : figure de la déviation réformiste et moderniste interne
+> aux formes religieuses, qui concilie la théorie scientifique profane avec les références
+> traditionnelles.
 
 > ⚠️ **`to-source` — aucun texte de Riḍā au dépôt.** Faits tirés d'une source
 > encyclopédique secondaire et de ses références, consultées le 2026-09-15.

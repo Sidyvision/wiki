@@ -13,7 +13,7 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `juz` | Juz, juz, juzʾ | — | — | translit | [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/mawlid-al-rasul]] | index-conversion.md +36 | 3401 |
-| `jour` | JOUR, Jour, jour | — | — | table, titre | **265 fiches** | LISEZ-MOI.md +166 | 1140 |
+| `jour` | JOUR, Jour, jour | — | — | table, titre | **264 fiches** | LISEZ-MOI.md +166 | 1139 |
 | `japanese` | Japanese | — | — | table | [[atelier/etudes-de-cas/kojima-productions]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +24 | 259 |
 | `jeu` | Jeu, jeu | — | — | titre | **65 fiches** | LISEZ-MOI.md +48 | 200 |
 | `janus` | Janus, janus | — | — | annotation, table, tag, titre | **23 fiches** | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +23 | 190 |

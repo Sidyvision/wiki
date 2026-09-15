@@ -14,11 +14,10 @@ original: ["جمال الدين الأفغاني"]
 
 # Jamāl al-Dīn al-Afghānī
 
-> ⚠️ **Statut et placement proposés, non tranchés.** Al-Afghānī est le maître de
-> [[doctrinal/references/muhammad-abduh]], cité le 2026-09-15 par le directeur du dépôt comme
-> figure de la déviation réformiste et moderniste. `profane` est une proposition de la
-> machine (Cmd 12). Type `reference` adopté le même jour (verdict de Sidy) : déplacée
-> de `autorites/` par `git mv`, talon à l'ancien emplacement.
+> ✅ **Statut `profane` validé par Sidy le 2026-09-15** (« oui, je valide le statut
+> profane »), sur sa qualification : figure de la déviation réformiste et moderniste interne
+> aux formes religieuses, qui concilie la théorie scientifique profane avec les références
+> traditionnelles.
 
 > ⚠️ **`to-source` — aucun texte d'al-Afghānī au dépôt**, et les textes versés de Guénon ne
 > le nomment pas. Faits tirés de deux sources encyclopédiques secondaires, concordantes,

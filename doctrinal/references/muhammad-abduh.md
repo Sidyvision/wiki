@@ -17,12 +17,10 @@ original: ["محمد عبده"]
 > ℹ️ **Type `reference`** (verdict de Sidy, 2026-09-15) : personne citée, sans autorité ;
 > déplacée de `autorites/` par `git mv`, talon à l'ancien emplacement.
 
-> ⚠️ **Statut proposé, non tranché.** `profane` est posé sur la qualification donnée par
-> le directeur du dépôt le 2026-09-15 : ʿAbduh est cité comme figure de la déviation
-> « réformiste, progressiste, moderniste » interne aux formes religieuses, qui concilie
-> la théorie scientifique profane avec les références traditionnelles. La traduction de
-> cette qualification en valeur de `status` est une proposition de la machine ; le
-> verdict appartient au directeur du dépôt (Cmd 12).
+> ✅ **Statut `profane` validé par Sidy le 2026-09-15** (« oui, je valide le statut
+> profane »), sur sa qualification : figure de la déviation réformiste et moderniste interne
+> aux formes religieuses, qui concilie la théorie scientifique profane avec les références
+> traditionnelles.
 
 > ⚠️ **`to-source` — aucun texte de ʿAbduh au dépôt.** Les faits ci-dessous viennent de
 > sources secondaires consultées le 2026-09-15 (liste en fin de fiche). Aucune citation de

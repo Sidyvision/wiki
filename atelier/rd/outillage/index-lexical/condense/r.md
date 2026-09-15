@@ -113,8 +113,8 @@ links: []
 | `regularite` | RÉGULARITÉ, regularite, régularité | — | — | tag, titre | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]] · [[doctrinal/sources/malamatiyah-futuhat-ch23]] · [[meta/carte-du-depot-doctrinal]] · +1 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-5.md +11 | 24 |
 | `runbook` | Runbook, runbook | — | — | tag, titre | **17 fiches** | — | 24 |
 | `reflection` | Reflection, reflection | — | — | table | [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 02-b.md +14 | 23 |
-| `rida` | Rida, Riḍā, ridâ, riḍâ (+3) | — | — | titre, translit | **10 fiches** | — | 23 |
 | `routing` | Routing, routing | — | — | tag, titre | **10 fiches** | arctic-ch12-comparative-mythology.md +1 | 23 |
+| `rida` | Rida, Riḍā, ridâ, riḍâ (+3) | — | — | titre, translit | **10 fiches** | — | 22 |
 | `ressources deployees` | Ressources déployées | — | — | definition | **10 fiches** | — | 21 |
 | `rejetee` | rejetée | — | — | definition | **9 fiches** | la-puissance-du-serpent.md +6 | 20 |
 | `rumi` | Rumi, Rûmi, Rûmî, Rümi (+1) | — | — | translit | **9 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +1 | 20 |

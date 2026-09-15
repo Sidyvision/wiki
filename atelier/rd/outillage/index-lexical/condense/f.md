@@ -12,7 +12,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `formes` | FORMES, Formes, formes, formés | — | — | table, titre | **129 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +325 | 1365 |
+| `formes` | FORMES, Formes, formes, formés | — | — | table, titre | **131 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +325 | 1367 |
 | `fin` | FIN, Fin, fin | — | — | titre | **165 fiches** | LISEZ-MOI.md +220 | 1038 |
 | `fonction` | FONCTION, Fonction, fonction | — | — | definition, table, titre | **189 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +172 | 984 |
 | `figure` | Figure, figure, figuré | — | — | table, tag, titre | **148 fiches** | 08-h.md +197 | 866 |

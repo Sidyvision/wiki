@@ -17,13 +17,13 @@ links: []
 | `temps` | TEMPS, Temps, temps | — | — | table, tag, titre | **146 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +422 | 1643 |
 | `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | — | titre | **109 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +193 | 1310 |
 | `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | — | table, titre | **147 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +100 | 1090 |
-| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **114 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +343 | 982 |
+| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **116 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +343 | 984 |
 | `table` | TABLE, Table, table | — | — | table, titre | **160 fiches** | LISEZ-MOI.md +66 | 857 |
 | `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | — | table, titre | **166 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +216 | 783 |
-| `traduction` | TRADUCTION, Traduction, traduction | — | — | table, tag, titre | **103 fiches** | LISEZ-MOI.md +130 | 524 |
+| `traduction` | TRADUCTION, Traduction, traduction | — | — | table, tag, titre | **102 fiches** | LISEZ-MOI.md +130 | 523 |
 | `transmission` | TRANSMISSION, Transmission, transmission | — | — | tag, titre | **129 fiches** | 16-s.md +78 | 479 |
 | `transcription` | TRANSCRIPTION, Transcription, transcription | — | — | table, tag, titre | **136 fiches** | LISEZ-MOI.md +21 | 465 |
-| `type` | Type, type, typé | — | — | definition, table, titre | **131 fiches** | 00-front-matter.md +103 | 448 |
+| `type` | Type, type, typé | — | — | definition, table, titre | **130 fiches** | 00-front-matter.md +103 | 447 |
 | `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **119 fiches** | LISEZ-MOI.md +121 | 441 |
 | `three` | Three, three | — | — | table | **24 fiches** | 01-a.md +55 | 435 |
 | `technique` | TECHNIQUE, Technique, technique | — | — | definition, titre | **148 fiches** | LISEZ-MOI.md +74 | 412 |
