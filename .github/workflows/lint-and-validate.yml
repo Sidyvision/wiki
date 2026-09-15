@@ -42,47 +42,12 @@ jobs:
         run: python3 verifier-invariants.py --racine .
 
       - name: Hygiène Unicode — Cmd 15 (bloquant)
-        run: |
-          python3 - <<'PY'
-          import pathlib, subprocess, sys
-          # Caractères invisibles interdits sans réserve par le Cmd 15 : ils
-          # peuvent masquer du code, contourner un filtre ou corrompre une
-          # donnée structurée. Motif : l'incident ZWJ du 2026-08-22
-          # (atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination.md).
-          # Jamais de caractère invisible littéral dans ce fichier : on les
-          # désigne par leur point de code (Cmd 15 vaut aussi pour l'outil qui
-          # le fait respecter).
-          INTERDITS = {
-              "\u200b": "U+200B ZERO WIDTH SPACE",
-              "\u200c": "U+200C ZERO WIDTH NON-JOINER",
-              "\u200d": "U+200D ZERO WIDTH JOINER",
-              "\u200e": "U+200E LEFT-TO-RIGHT MARK",
-              "\u200f": "U+200F RIGHT-TO-LEFT MARK",
-          }
-          suivis = subprocess.run(
-              ["git", "ls-files", "-z", "*.md"],
-              capture_output=True, check=True,
-          ).stdout.decode("utf-8", "replace").split("\0")
-
-          fautes = 0
-          for rel in filter(None, suivis):
-              texte = pathlib.Path(rel).read_text(encoding="utf-8", errors="replace")
-              for n, ligne in enumerate(texte.split("\n"), 1):
-                  for car, nom in INTERDITS.items():
-                      if car in ligne:
-                          print(f"::error file={rel},line={n}::Cmd 15 — {nom} interdit")
-                          fautes += 1
-              # BOM toléré en tête de fichier, jamais en son milieu.
-              if "\ufeff" in texte[1:]:
-                  print(f"::error file={rel}::Cmd 15 — U+FEFF en milieu de fichier")
-                  fautes += 1
-
-          print(f"{len(list(filter(None, suivis)))} fiche(s) suivie(s) par git inspectée(s).")
-          if fautes:
-              print(f"{fautes} occurrence(s) de caractère invisible.")
-              sys.exit(1)
-          print("Hygiène Unicode OK.")
-          PY
+        # Étendu le 2026-09-15 (verdict Sidy) : l'ancienne étape, écrite en
+        # ligne, ne balayait que les `.md` suivis ; des `.py` porteurs
+        # d'invisibles littéraux passaient. Même appel que le hook pre-push :
+        # l'instrument unique du Cmd 15 (OUT-16), bibliothèque standard seule,
+        # tous formats texte, registre d'exceptions déclarées honoré.
+        run: python3 atelier/rd/outillage/verifier-hygiene-unicode.py --racine .
 
       - name: Cohérence de l'infrastructure déclarée (informatif)
         # Confronte les `infra_verif` des fiches à la configuration Hermes
