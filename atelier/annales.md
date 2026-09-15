@@ -10,6 +10,27 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/bibliotheque | `to-verify` levés sur les index Marquet et Tilak, d'après les photos
+
+- Consigne de Sidy (« oui, lève les to-verify »), photos redéposées dans `raw/`.
+- **`index-notions-ihwan-al-safa`** : retranscrit **intégralement** (IMG_0001-0004, p. 613-616).
+  L'ancienne transcription omettait plus de la moitié des têtes d'entrée et tous les renvois de
+  613-615 ; le « YVES MARQUET » de la p. 616 est le titre courant, non une entrée.
+- **`index-noms-ihwan-al-safa`** : retranscrit **intégralement** (IMG_9996-9999, p. 609-612) —
+  entrées fusionnées, renvois omis ou déplacés, une entrée fantôme (« Israfil : 427 »), un renvoi
+  faux (Zayd b. Rifā'a), diacritiques supprimés. Coupures résolues : Muḥammad b. 'Ali → 427 ;
+  Plotin → 24, 25, 53, 275, 375 n 273.
+- **`index-origine-polaire-tilak`** : *Amma* → « dans la mythologie finnoise 228 » (p. 368) ;
+  *Tithtrya* (et non « Thithrya ») → « d'Indra 164 … 297 » (p. 378), graphie de l'imprimé
+  conservée et signalée (l'index écrit ailleurs « Tishtrya »).
+- Coquilles de l'imprimé reproduites et marquées `[sic]`, jamais corrigées d'autorité.
+- Contrôles : validateur des index 0 bloquante ; invariants 0 erreur / 71 ; fiches exemptes de
+  caractères interdits. **Signalé, non traité** : `verifier-hygiene-unicode.py` relève 12
+  violations Cmd 15 dans trois scripts commités le même jour par la passe al-Munqidh
+  (`convertir-jabre-munqidh.py`, `convertir-jabre-munqidh-arabe.py`, `verser-dossier-textes.py`)
+  — invisibles écrits en clair dans leurs listes de caractères à retirer.
+- **Commit** : 6024538
+
 ## [2026-09-15] rd/outillage | `valider-index-livres.py` : dossier `raw/` en NFD retrouvé
 
 - Sidy a redéposé dans `raw/` les photos du Marquet et de Tilak (34 et 17 fichiers). Le
