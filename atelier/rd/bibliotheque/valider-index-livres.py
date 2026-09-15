@@ -170,6 +170,14 @@ def controle_photos(rap, fiche, fm, racine_raw):
         # Essayer aussi le chemin original si la normalisation échoue
         if not os.path.isdir(chemin):
             chemin = os.path.join(racine_raw, dossier)
+        # Puis normaliser AUSSI les noms présents sur disque (2026-09-15) : un
+        # dossier déposé depuis l'iPad arrive en NFD, et normaliser le seul nom
+        # déclaré ne le retrouvait pas — H4 à tort, et H1 ne s'armait pas.
+        if not os.path.isdir(chemin) and os.path.isdir(racine_raw):
+            for nom_disque in os.listdir(racine_raw):
+                if unicodedata.normalize('NFC', nom_disque) == dossier_norm:
+                    chemin = os.path.join(racine_raw, nom_disque)
+                    break
         if os.path.isdir(chemin):
             presents = set()
             for nom in os.listdir(chemin):
