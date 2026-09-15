@@ -12,25 +12,25 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | — | table, tag, titre | **376 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +527 | 6049 |
+| `etre` | ETRE, Etre, etre, ÉTRE (+4) | — | — | table, tag, titre | **376 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +528 | 6050 |
 | `etat` | ETAT, etat, État, état | — | — | definition, table, titre | **268 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +314 | 1981 |
 | `etats` | Etats, etats, ÉTATS, États (+1) | — | — | table, titre | **122 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +222 | 1407 |
 | `exemple` | Exemple, exemple | — | ⚖ universel | definition, table | **90 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +326 | 918 |
 | `etude` | ETUDE, etude, Étude, étude | — | — | titre | **64 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +197 | 442 |
-| `edition` | EDITION, Edition, edition, ÉDITION (+2) | — | ⚖ hindouisme | definition, table | **125 fiches** | 00-front-matter.md +76 | 437 |
+| `edition` | EDITION, Edition, edition, ÉDITION (+2) | — | ⚖ hindouisme | definition, table | **125 fiches** | 00-front-matter.md +77 | 438 |
 | `existence` | Existence, existence, existencé | — | — | tag | **34 fiches** | 03-c.md +177 | 402 |
 | `editions` | editions, ÉDITIONS, Éditions, éditions | — | — | table, tag | **63 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +192 | 321 |
-| `examen` | EXAMEN, Examen, examen | — | — | table, tag | **118 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +34 | 314 |
+| `examen` | EXAMEN, Examen, examen | — | — | table, tag | **118 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +34 | 315 |
 | `etape` | etape, Étape, étape | — | — | table | **68 fiches** | index-conversion.md +30 | 302 |
-| `extension` | Extension, extension | — | — | table, titre | **103 fiches** | 06-f.md +88 | 294 |
-| `experience` | Expérience, experience, expérience | — | — | table, tag | **44 fiches** | 04-d.md +54 | 235 |
-| `erreurs` | ERREURS, Erreurs, erreurs | — | — | tag | **51 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +68 | 220 |
+| `extension` | Extension, extension | — | — | table, titre | **104 fiches** | 06-f.md +89 | 296 |
+| `experience` | Expérience, experience, expérience | — | — | table, tag | **44 fiches** | 04-d.md +55 | 237 |
+| `erreurs` | ERREURS, Erreurs, erreurs | — | — | tag | **52 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +69 | 222 |
 | `etapes` | ÉTAPES, Étapes, étapes | — | — | definition | **59 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +42 | 208 |
 | `enseignement` | ENSEIGNEMENT, Enseignement, enseignement, enseìgnement | — | — | definition | **38 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +69 | 188 |
 | `etancheite` | etancheite, etanchéité, Étanchéité, étanchéité | — | ⚖ universel | definition, table, tag, titre | **97 fiches** | karubi-mehdi-navette-20260812.md | 155 |
 | `etendue` | etendue, Étendue, étendue | — | — | definition, table | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +71 | 135 |
 | `espace` | ESPACE, Espace, espace | — | — | table, titre | **47 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-14.md +24 | 124 |
-| `examen formel` | Examen formel | — | ⚖ universel | definition | **74 fiches** | karubi-mehdi-navette-20260812.md | 123 |
+| `examen formel` | Examen formel | — | ⚖ universel | definition | **75 fiches** | karubi-mehdi-navette-20260812.md | 124 |
 | `en arabe` | En arabe | — | ⚖ islam | definition | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +52 | 116 |
 | `etendu` | Étendu, étendu | — | — | table, titre | **34 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +57 | 114 |
 | `essai` | Essai, essai | — | — | tag, titre | **39 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-16.md +33 | 109 |
@@ -40,13 +40,13 @@ links: []
 | `equinoxes` | equinoxes, équinoxes | — | — | tag | **14 fiches** | gaston-georgel-les-rythmes-dans-l-histoire-2e-ed-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +23 | 89 |
 | `er-ruh` | Er-Rûh, er-ruh, er-rûh | — | — | annotation, table, tag, titre | **13 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +10 | 85 |
 | `echec` | ÉCHEC, Échec, échec | — | ⚖ universel | definition, table | **45 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +7 | 82 |
+| `elephant` | Elephant, elephant, Éléphant, éléphant | — | — | table, titre | **11 fiches** | la-puissance-du-serpent.md +9 | 76 |
 | `evolution` | Evolution, evolution, Évolution, évolution | — | — | definition | **15 fiches** | 04-d.md +29 | 76 |
 | `extraction` | Extraction, extraction | — | — | definition, table | **38 fiches** | LISEZ-MOI.md +8 | 71 |
 | `export` | Export, export | — | — | table, tag, titre | **58 fiches** | 19-s.md | 66 |
 | `economique` | économique | — | — | titre | **32 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +7 | 64 |
 | `esoteriques` | ésotériques | — | — | titre | **13 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +31 | 64 |
 | `exaltation` | Exaltation, exaltation | — | — | table, tag | **16 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +21 | 62 |
-| `elephant` | Elephant, elephant, Éléphant, éléphant | — | — | table, titre | **10 fiches** | la-puissance-du-serpent.md +7 | 59 |
 | `entreprise` | entreprise | — | — | tag | **14 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 57 |
 | `egypte` | Egypte, egypte, Égypte | — | — | table, tag | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/discernement/2026-08-25_gizeh-degre-24-solaire-hermes-idris]] · [[doctrinal/sources/guenon-hermetisme-hermes-thoth]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +3 | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +29 | 52 |
 | `engineer` | Engineer, engineer | — | — | table | **20 fiches** | 01-a.md +5 | 51 |
@@ -58,7 +58,7 @@ links: []
 | `epitre` | Epître, Épître, épître | — | — | table | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/eckstein-porte-du-ciel]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/registre-chantiers]] · [[doctrinal/autorites/michel-valsan]] · +2 | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +14 | 34 |
 | `exploration` | Exploration, exploration | — | — | table, tag, titre | **18 fiches** | technique-soufie-de-priere-du-c-ur-pdf-mahomet.md +3 | 34 |
 | `echelles` | échelles | — | — | titre | **18 fiches** | la-grande-triade-index-de-l-uvre-de-rene-guenon-15.md +3 | 33 |
-| `equations` | equations, Équations, équations | — | — | tag, titre | **12 fiches** | 20-y.md +6 | 30 |
+| `equations` | equations, Équations, équations | — | — | tag, titre | **12 fiches** | 20-y.md +7 | 33 |
 | `etabli par` | Établi par | — | — | definition | **20 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-8.md +6 | 30 |
 | `eagle` | EAGLE, Eagle, eagle | — | — | table | [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] · [[atelier/rd/veille/registre]] | 02-b.md +8 | 29 |
 | `estimation` | Estimation, estimation | — | — | definition, table | **17 fiches** | isaghuji-cours01-introduction-transcription.md | 29 |
@@ -146,6 +146,7 @@ links: []
 | `ecart possible, signale sans etre tranche` | Écart possible, signalé sans être tranché | — | — | definition | [[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]] | — | 0 |
 | `echelle-ontologique` | echelle-ontologique | — | — | tag | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] | — | 0 |
 | `effets-reversibles` | effets-reversibles | — | — | tag | [[atelier/rd/veille/cordis/equations]] | — | 0 |
+| `elephant-inverse` | elephant-inverse | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | — | 0 |
 | `en revanche, le motif tient pleinement pour les binaires` | En revanche, le motif tient pleinement pour les binaires | — | — | definition | [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent]] | — | 0 |
 | `energie-vitale` | energie-vitale | — | — | tag | [[hermeneutique/hunter-x-hunter/nen-systeme]] | — | 0 |
 | `enregistrement-analogique` | enregistrement-analogique | — | — | tag | [[atelier/materiel/studio-principal]] | — | 0 |

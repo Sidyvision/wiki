@@ -13,14 +13,14 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `formes` | FORMES, Formes, formes, formés | — | — | table, titre | **128 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +325 | 1361 |
-| `fin` | FIN, Fin, fin | — | — | titre | **163 fiches** | LISEZ-MOI.md +219 | 1035 |
+| `fin` | FIN, Fin, fin | — | — | titre | **164 fiches** | LISEZ-MOI.md +220 | 1037 |
 | `fonction` | FONCTION, Fonction, fonction | — | — | definition, table, titre | **189 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +172 | 984 |
 | `figure` | Figure, figure, figuré | — | — | table, tag, titre | **144 fiches** | 08-h.md +197 | 860 |
-| `fichier` | Fichier, fichier | — | — | definition, table | **170 fiches** | LISEZ-MOI.md +9 | 728 |
+| `fichier` | Fichier, fichier | — | — | definition, table | **170 fiches** | LISEZ-MOI.md +9 | 729 |
 | `fichiers` | FICHIERS, Fichiers, fichiers | — | — | definition, table | **142 fiches** | LISEZ-MOI.md +9 | 475 |
 | `futuhat` | FUTÛHÂT, Futuhat, Futuhät, Futûhât (+9) | — | — | annotation, table, tag, titre, translit | **79 fiches** | karubi-mehdi-navette-20260812.md +13 | 433 |
 | `fonctions` | FONCTIONS, Fonctions, fonctions | — | — | titre | **76 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +94 | 350 |
-| `formule` | Formule, formule, formulé | — | — | table, tag, titre | **96 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +95 | 323 |
+| `formule` | Formule, formule, formulé | — | — | table, tag, titre | **95 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +95 | 322 |
 | `facultes` | FACULTÉS, facultes, facultés | — | — | titre | **28 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +86 | 249 |
 | `fondement` | FONDEMENT, Fondement, fondement | — | — | table, tag, titre | **86 fiches** | index-conversion.md +63 | 242 |
 | `fiabilite` | Fiabilité, fiabilité | — | — | table | **86 fiches** | corps-du-texte.md +1 | 233 |
@@ -30,7 +30,7 @@ links: []
 | `famille` | Famille, famille | — | — | tag | **88 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +36 | 169 |
 | `france` | France | — | — | table, titre | **14 fiches** | 09-i.md +51 | 159 |
 | `fiqh` | FIQH, Fiqh, fiqh | — | ✓ islam | annotation, table, tag, titre | **38 fiches** | isaghuji-cours01-introduction-transcription.md +5 | 156 |
-| `formulation` | Formulation, formulation | — | — | definition, table | **73 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +13 | 122 |
+| `formulation` | Formulation, formulation | — | — | definition, table | **73 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +14 | 123 |
 | `file` | File, file, filé | — | — | table, titre | **24 fiches** | LISEZ-MOI.md +6 | 109 |
 | `fille` | Fille, fille | — | — | titre | **27 fiches** | guenon-correspondance-genty-1937-07-14-le-caire.md +14 | 104 |
 | `flux` | Flux, flux | — | — | titre | **59 fiches** | la-puissance-du-serpent.md +4 | 103 |
@@ -41,20 +41,20 @@ links: []
 | `familiale` | familiale | — | — | titre | **23 fiches** | corps-du-texte.md | 51 |
 | `feuille` | Feuille, feuille | — | — | titre | **20 fiches** | la-puissance-du-serpent.md | 50 |
 | `fana` | Fana, Fanâ, Fanāʾ, fana (+3) | — | — | translit | **14 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +11 | 48 |
-| `fail` | Fail, FâʿiL, fail, faʿīl (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/walaya]] | 00-front-matter.md +22 | 46 |
+| `fail` | Fail, FâʿiL, fail, faʿīl (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/walaya]] | 00-front-matter.md +23 | 47 |
 | `futuwwa` | Futuwwa, Futüwwa, futuwwa, futüwwa | — | ✓ islam | table, tag, titre | **13 fiches** | osman-yahya-08-repertoire.md +1 | 44 |
 | `furu` | Furūʿ, furu, furûʿ, furūʿ | — | ⚖ islam | annotation, table, tag, titre, translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 43 |
 | `frankenstein` | Frankenstein, frankenstein | — | — | annotation, table, tag, titre | **10 fiches** | — | 38 |
+| `framework` | Framework, framework | — | — | tag, titre | **17 fiches** | 05-e.md +4 | 35 |
 | `fath` | Fath, fath, fatḥ | — | — | table, translit | **14 fiches** | sept-etendards-califat-transcription.md +6 | 33 |
-| `framework` | Framework, framework | — | — | tag, titre | **17 fiches** | 05-e.md +3 | 33 |
 | `franc-maconnerie` | FRANC-MAÇONNERIE, Franc-Maçonnerie, franc-maçonnerie | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/charles-andre-gilis]] · [[doctrinal/sources/gilis-ordo-ab-chao]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | dante-et-le-rosicrucianisme-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md +12 | 32 |
 | `frequence` | Fréquence, fréquence | — | — | definition, table | **19 fiches** | — | 32 |
+| `fiat` | Fiat, fiat | — | — | table | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats]] · [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]] · [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]] · +2 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +17 | 31 |
 | `fonctionnement` | Fonctionnement, fonctionnement | — | — | definition, table | **17 fiches** | la-puissance-du-serpent.md +2 | 31 |
 | `fass` | Faṣṣ, Fâss, fass, faṣṣ | — | — | translit | **13 fiches** | osman-yahya-08-repertoire.md +1 | 30 |
 | `folie` | FOLIE, Folie, folie | — | — | table, titre | [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | la-puissance-du-serpent.md +9 | 30 |
 | `fortune` | Fortune, fortune | — | — | table | [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] | 04-d.md +21 | 30 |
 | `fajr` | Fajr | — | — | table, titre | **9 fiches** | munqidh-03-partie-1.md +3 | 29 |
-| `fiat` | Fiat, fiat | — | — | table | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats]] · [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]] · [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]] · +2 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +16 | 29 |
 | `fayd` | Fayd, Fayḍ, fayd, fayḍ | — | — | table, translit | [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] · [[doctrinal/discernement/2026-06-11_llm-wiki-modalite-intellect]] · [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]] · [[doctrinal/sources/conversation-llm-intellect-2026-06-11]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +3 | sept-etendards-califat-transcription.md +3 | 26 |
 | `fujiwara` | Fujiwara | — | — | table | [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[label/direction-artistique/amorcage/kamon-personnel]] | 02-b.md +10 | 25 |
 | `faiseur` | Faiseur, faiseur | — | — | table | **12 fiches** | la-puissance-du-serpent.md +1 | 23 |
@@ -64,7 +64,7 @@ links: []
 | `falsafa` | Falsafa, falsafa | — | — | tag | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | index-conversion.md +3 | 21 |
 | `fal` | FaʿL, fal, faʾl | — | — | titre, translit | [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] · [[doctrinal/sources/bukhari-5754-tiyara-fal]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/fal-wa-tatayyur]] · [[meta/carte-doctrinal]] · +2 | osman-yahya-11-table-ouvrages.md +2 | 20 |
 | `furqan` | Furqân, furqân, furqān | — | — | translit | [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[meta/discernements-blocs]] · [[meta/journal/conversation-chatgpt-2026-06-15]] · +1 | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +2 | 20 |
-| `feedback` | Feedback, feedback | — | — | tag, titre | [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[atelier/rd/veille/2026-08-31_sentrux]] · [[doctrinal/autorites/al-jazari]] · [[meta/carte-du-depot]] | — | 18 |
+| `feedback` | Feedback, feedback | — | — | tag, titre | [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[atelier/rd/veille/2026-08-31_sentrux]] · [[doctrinal/autorites/al-jazari]] · [[meta/carte-du-depot]] | transcription-asr.md | 19 |
 | `falasifa` | Falāsifa, falàsifa, falâsifa | — | — | translit | [[doctrinal/autorites/ibn-sina]] · [[doctrinal/sources/islam-and-artificial-intelligence]] | munqidh-01-introduction-jabre.md +2 | 16 |
 | `foundation` | Foundation, foundation | — | — | table | [[atelier/etudes-de-cas/stones-throw]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] | 05-e.md +9 | 15 |
 | `fasseke` | Fasséké | — | — | table, titre | [[meta/carte-du-depot]] · [[meta/chantier-kamon-kouyate]] · [[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala]] · [[meta/genealogie/kouyate]] · [[meta/lot-synthese-kamon-kouyate-2026-09-15]] | — | 14 |

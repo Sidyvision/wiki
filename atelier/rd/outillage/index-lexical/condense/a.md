@@ -14,8 +14,8 @@ links: []
 |---|---|---|---|---|---|---|---|
 | `arabi` | ARABI, ARABÏ, ARaBï, Arabi (+11) | — | — | table, titre, translit | **154 fiches** | LISEZ-MOI.md +53 | 1585 |
 | `allah` | Allah, Allàh, Allâh, Alläh (+4) | — | — | table, titre, translit | **63 fiches** | LISEZ-MOI.md +63 | 825 |
+| `arabe` | ARABE, Arabe, arabe | — | — | table, tag, titre | **129 fiches** | LISEZ-MOI.md +104 | 638 |
 | `auteur` | AUTEUR, Auteur, auteur | — | — | definition, table, tag | **107 fiches** | LISEZ-MOI.md +89 | 630 |
-| `arabe` | ARABE, Arabe, arabe | — | — | table, tag, titre | **129 fiches** | LISEZ-MOI.md +103 | 586 |
 | `arctic` | ARCTIC, ARcTIC, Arctic | — | — | table | **13 fiches** | LISEZ-MOI.md +18 | 579 |
 | `atelier` | Atelier, atelier | — | — | table, tag | **186 fiches** | karubi-mehdi-navette-20260812.md +4 | 567 |
 | `aspects` | Aspects, aspects | — | — | tag, titre | **65 fiches** | 00-front-matter.md +218 | 523 |
@@ -26,11 +26,11 @@ links: []
 | `ali` | ALI, Ali, Alî, Alï (+6) | — | — | titre, translit | **24 fiches** | LISEZ-MOI.md +39 | 391 |
 | `axe` | Axe, axe | — | — | tag, titre | **101 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +75 | 390 |
 | `agents` | AGENTS, Agents, agents | — | — | table, tag, titre | **120 fiches** | 08-h.md +26 | 387 |
-| `ajoute` | Ajoute, Ajouté, ajoute, ajouté | — | — | definition | **122 fiches** | karubi-mehdi-navette-20260812.md +57 | 353 |
+| `ajoute` | Ajoute, Ajouté, ajoute, ajouté | — | — | definition | **122 fiches** | karubi-mehdi-navette-20260812.md +58 | 355 |
 | `a faire` | À faire | — | — | definition | **58 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +159 | 322 |
 | `actuellement` | Actuellement, actuellement | — | ⚖ universel | definition | **38 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +185 | 298 |
 | `arbre` | Arbre, arbre | — | — | titre | **45 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +54 | 294 |
-| `art` | ART, ArT, Art, art (+1) | — | — | titre | **47 fiches** | 05-e.md +86 | 289 |
+| `art` | ART, ArT, Art, art (+1) | — | — | titre | **47 fiches** | 05-e.md +87 | 290 |
 | `atma` | Atma, Atmâ, atma, Âtmâ (+3) | — | ✓ hindouisme | annotation, table, tag, titre, translit | **33 fiches** | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +50 | 287 |
 | `architecture` | ARCHITECTURE, Architecture, architecture | — | — | table, tag, titre | **88 fiches** | 00-front-matter.md +17 | 251 |
 | `agni` | Agni | — | — | table | **10 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +42 | 245 |
@@ -38,7 +38,7 @@ links: []
 | `annales` | Annales, annales | — | — | table, tag | **85 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +9 | 229 |
 | `academique` | Académique, academique, académique | — | — | tag, titre | **54 fiches** | isaghuji-cours01-introduction-transcription.md | 226 |
 | `adam` | Adam, adam, aʿdâm, Ādam (+1) | — | — | table, titre, translit | **51 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +41 | 214 |
-| `acces` | Accès, acces, accès | — | — | definition, table, titre | **88 fiches** | LISEZ-MOI.md +29 | 210 |
+| `acces` | Accès, acces, accès | — | — | definition, table, titre | **88 fiches** | LISEZ-MOI.md +30 | 211 |
 | `abu` | Abu, Abù, Abû, Abü (+2) | — | — | translit | **28 fiches** | isaghuji-cours01-introduction-transcription.md +17 | 207 |
 | `analogie` | Analogie, analogie | — | — | table, tag | **64 fiches** | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +75 | 186 |
 | `analyse` | ANALYSE, Analyse, analyse | — | — | table, titre | **71 fiches** | 12-m.md +25 | 186 |
@@ -60,7 +60,7 @@ links: []
 | `aqtab` | Aqtab, Aqtâb, Aqtāb, Aqṭâb (+4) | — | — | annotation, table, tag, titre, translit | **43 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +4 | 119 |
 | `analogique` | Analogique, analogique | — | — | tag | **22 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +62 | 113 |
 | `angles` | Angles, angles | — | — | table, tag, titre | **30 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +18 | 113 |
-| `automatique` | automatique | — | — | titre | **63 fiches** | LISEZ-MOI.md +3 | 107 |
+| `automatique` | automatique | — | — | titre | **64 fiches** | LISEZ-MOI.md +4 | 110 |
 | `avalon` | AVALON, Avalon, avalon | — | — | annotation, table, tag, titre | **18 fiches** | la-puissance-du-serpent.md +4 | 107 |
 | `assimilation` | Assimilation, assimilation | — | — | tag | **11 fiches** | 16-s.md +68 | 106 |
 | `anomalie` | Anomalie, anomalie | — | — | tag | **46 fiches** | LISEZ-MOI.md +19 | 105 |
@@ -74,8 +74,8 @@ links: []
 | `ahl` | Ahl, ahl | — | — | titre | **16 fiches** | sept-etendards-califat-transcription.md +9 | 94 |
 | `avertissements` | Avertissements, avertissements | — | — | titre | **34 fiches** | la-crise-du-monde-moderne-index-de-l-uvre-de-rene-guenon-8.md +3 | 92 |
 | `ajna` | AJNÂ, Ajna, Ajnâ, ajna (+5) | — | — | table, translit | **15 fiches** | la-puissance-du-serpent.md +3 | 91 |
+| `articulation` | Articulation, articulation | — | — | table, titre | **56 fiches** | 16-s.md +2 | 89 |
 | `archive` | Archive, archive, archivé | — | — | table, tag, titre | **44 fiches** | LISEZ-MOI.md +2 | 88 |
-| `articulation` | Articulation, articulation | — | — | table, titre | **56 fiches** | 16-s.md +1 | 88 |
 | `avant-propos` | AVANT-PROPOS, Avant-Propos, Avant-propos, avant-propos | — | — | table, titre | **18 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +19 | 87 |
 | `axes` | Axes, axes | — | — | titre | **33 fiches** | place-de-la-tradition-atlanteenne-dans-le-manvantara-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +13 | 87 |
 | `animaux` | Animaux, animaux | — | — | table, titre | **20 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 86 |
@@ -94,7 +94,7 @@ links: []
 | `al-maarif` | al-Maärif, al-Maʿārif, äl-maarif | — | — | titre, translit | **23 fiches** | osman-yahya-08-repertoire.md +1 | 72 |
 | `ahmad` | Ahmad, Aḥmad | — | — | table, titre, translit | **19 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +11 | 70 |
 | `al-asrar` | Al-Asrar, Al-asrar, Al-asrär, al-Asrar (+6) | — | — | translit | [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +10 | 70 |
-| `audio` | Audio, audio | — | — | table, tag | **38 fiches** | karubi-mehdi-navette-20260812.md | 68 |
+| `audio` | Audio, audio | — | — | table, tag | **39 fiches** | karubi-mehdi-navette-20260812.md +1 | 70 |
 | `al-ma` | Al-Ma, Al-ma, al-Ma, al-ma (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-02-chapitre-01.md +8 | 66 |
 | `anahata` | ANAHATA, Anâhata, Anāhata, anahata (+2) | — | — | annotation, table, tag, translit | **10 fiches** | la-puissance-du-serpent.md +2 | 66 |
 | `al-fath` | Al-Fath, Al-Fatḥ, Al-fath, al-Fath (+4) | — | — | titre, translit | **10 fiches** | osman-yahya-02-chapitre-01.md +8 | 65 |
@@ -118,9 +118,9 @@ links: []
 | `al-asma` | Al-Asma, al-Asma, al-Asmä, al-Asmāʾ (+2) | — | — | translit | [[atelier/rd/instrument/instrument-feuille-de-route-v2]] · [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.2]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-02-chapitre-01.md +4 | 51 |
 | `al-insan-al-kamil` | al-insan-al-kamil | — | ✓ islam | annotation, tag | **27 fiches** | — | 50 |
 | `alchimie` | Alchimie, alchimie | — | — | table, tag, titre | **21 fiches** | quelques-considerations-sur-l-hermetisme-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +8 | 50 |
-| `archives` | Archives, archives, archivés | — | — | tag | **31 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +1 | 50 |
 | `avantage` | Avantage, avantage | — | — | definition, table | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]] · [[atelier/rd/outillage/out-15-sampling-cordis/skill-prototype/SKILL]] · [[atelier/rd/veille/cordis/methodes]] · +3 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +28 | 50 |
 | `akasha` | Akasha, Akâsha, Akâshâ, Âkâsha (+2) | — | — | table, translit | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +1 | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +19 | 49 |
+| `archives` | Archives, archives, archivés | — | — | tag | **30 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +1 | 49 |
 | `avatara` | Avatâra, Avatāra, avatâra, avatāra | — | — | translit | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/deviations/antitradition-et-contre-tradition]] · [[doctrinal/sources/guenon-atlantide-hyperboree]] · [[doctrinal/symboles/al-insan-al-kamil]] | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +31 | 49 |
 | `ayn` | Ayn, ayn, ʿAyn, ʿayn | — | — | translit | **15 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 49 |
 | `al-futuhat` | Al-Futuhät, Al-Futûhât, Al-Futühat, Al-Futühät (+7) | — | — | table, titre, translit | **12 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 48 |
@@ -247,6 +247,7 @@ links: []
 | `al-wahhab` | al-Wahhâb, al-Wahhäb, al-Wahhāb, al-Wähhäb (+1) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/imams-noms-divins]] | osman-yahya-00-front-matter.md +3 | 19 |
 | `ayan` | Aʿyan, Aʿyân, aʿyân, aʿyān | — | — | translit | [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] · +1 | — | 19 |
 | `actualisation` | Actualisation, actualisation | — | — | table, titre | **14 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +3 | 18 |
+| `add` | Add, add, ʿadd | — | — | translit | [[atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity]] · [[atelier/rd/infrastructure/claude-code-health-check-2026-08-11]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | shaar-hagilgulim-gate-of-reincarnations.md +10 | 18 |
 | `ahkam` | Ahkäm, ahkâm, aḥkâm, aḥkām | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 18 |
 | `al-hadarat` | Al-ḥaḍarāt, al-Hadarat, al-hadarat, al-Ḥaḍarât (+3) | — | — | titre, translit | **11 fiches** | osman-yahya-08-repertoire.md +1 | 18 |
 | `al-hal` | al-Hal, al-hal, al-hâl, al-häl (+1) | `الحال` — Jurjānī déf. 0563 | — | translit | [[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | jurjani-definitions.md +2 | 18 |
@@ -259,7 +260,6 @@ links: []
 | `arjuna` | Arjuna | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-20.md +9 | 18 |
 | `avir` | Avir, avir | — | — | annotation, table, tag | [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]] · [[doctrinal/sources/kabbale-cosmogonie-iod]] · [[doctrinal/sources/qabbalah-matiere-trilogie-guenonienne]] | les-directions-de-l-espace-le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon.md +2 | 18 |
 | `activation` | Activation, activation | — | — | table, titre | **13 fiches** | — | 17 |
-| `add` | Add, add, ʿadd | — | — | translit | [[atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity]] · [[atelier/rd/infrastructure/claude-code-health-check-2026-08-11]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | shaar-hagilgulim-gate-of-reincarnations.md +9 | 17 |
 | `al-akili` | Al-Akili, al-akili | — | — | table, titre | [[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]] · [[atelier/rd/cahiers/2026-09-06_doc-08-exoterique-esoterique-statut]] · [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-traitement-suggestions-2026-09-06]] · [[atelier/rd/infrastructure/monitoring-archive/registre-traitement]] · [[doctrinal/autorites/muhammad-al-akili]] · +2 | LISEZ-MOI.md +1 | 17 |
 | `al-islam` | al-Islam, al-Islâm, al-Isläm, al-Islām (+1) | `الاسلام` — Jurjānī déf. 0119 | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/autorites/al-ghazali]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | isaghuji-cours01-introduction-transcription.md +4 | 17 |
 | `al-jami` | al-Jami, al-Jâmiʿ, al-Jāmiʿ, al-jamʿî (+3) | — | — | translit | **10 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 17 |
@@ -321,6 +321,7 @@ links: []
 | `amd` | AMD, amd, ʿamd | — | — | translit | [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] · [[atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/projet-unifie/03-transition-modele-open-source]] | arctic-00-front-matter.md +6 | 13 |
 | `apache` | Apache | — | — | table | **10 fiches** | — | 13 |
 | `apport` | Apport, apport | — | — | table | **9 fiches** | michel-valsan-l-initiation-chretienne-reponse-a-m-marco-pallis-pdf-esoterisme-occidental.md | 13 |
+| `asr` | ASR, Asr, ʿaṣr | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/sources/wazifa]] · [[doctrinal/symboles/shamharush]] | LISEZ-MOI.md +4 | 13 |
 | `atharva-veda` | ATHARVA-VEDA, Atharva-Veda, Atharva-Vêda | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[doctrinal/symboles/adityas-mois-du-soleil]] | symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon-23.md +4 | 13 |
 | `aurores` | Aurores, aurores | — | — | table, titre | [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[atelier/rd/registre-chantiers]] · [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] · +2 | — | 13 |
 | `automatisation` | Automatisation, automatisation | — | — | table, tag | **10 fiches** | — | 13 |
@@ -361,7 +362,6 @@ links: []
 | `al-tibb` | Al-Tibb, Al-Ṭibb, al-Ṭibb, al-ṭibb | — | — | table, titre, translit | [[atelier/rd/infrastructure/monitoring-archive/registre-traitement]] · [[doctrinal/autorites/ibn-qayyim]] · [[doctrinal/sources/bukhari-5754-tiyara-fal]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +3 | osman-yahya-08-repertoire.md +1 | 11 |
 | `artis` | Artis, artis | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/registre-chantiers]] · [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq]] · +2 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 11 |
 | `ashab` | ashab, aṣḥâb, aṣḥāb | — | — | translit | [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]] | osman-yahya-08-repertoire.md +1 | 11 |
-| `asr` | ASR, Asr, ʿaṣr | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/sources/wazifa]] · [[doctrinal/symboles/shamharush]] | LISEZ-MOI.md +4 | 11 |
 | `astronomie` | Astronomie, astronomie | — | — | tag | [[atelier/etudes-de-cas/zellige-grande-mosquee-paris]] · [[atelier/rd/instrument/references-visuelles-astronomiques-phase-5]] · [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] | isaghuji-cours01-introduction-transcription.md +4 | 11 |
 | `atar` | Atar, Atär, atar, aṭar (+3) | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +3 | 11 |
 | `avatar` | Avatar, avatar, avatār | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]] · [[doctrinal/symboles/animaux-en-reve-comparatisme]] · [[doctrinal/symboles/golem]] · [[hermeneutique/frankenstein/frankenstein]] | 07-g.md +4 | 11 |
@@ -569,6 +569,7 @@ links: []
 | `asaba` | ʿaṣaba | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
 | `ashkhas` | ashkhâs, ashkhāṣ | — | — | translit | [[doctrinal/discernement/2026-06-20_experience-lefke-materia-secunda]] · [[doctrinal/sources/sept-etendards-califat]] · [[meta/discernements-blocs]] | sept-etendards-califat-transcription.md | 5 |
 | `aspt` | ASPT | — | — | table | [[atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon]] · [[atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages]] | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +1 | 5 |
+| `assistes` | assistes, assistés | — | — | titre | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[meta/projet-unifie/00-instructions-projet]] | les-organisations-auxiliaires-de-la-societe-theosophique-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md | 5 |
 | `atraf` | aṭrâf, aṭrāf | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]] | — | 5 |
 | `automated` | Automated, automated | — | — | table | [[doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi]] · [[doctrinal/sources/alshammari-llm-ontologie-hadith-2026]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 5 |
 | `avis technique` | Avis technique | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/infrastructure-ssh-statu-quo]] · [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]] | — | 5 |
@@ -719,6 +720,7 @@ links: []
 | `amsa` | Aṃśa | — | — | table, translit | [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[doctrinal/symboles/adityas-mois-du-soleil]] | — | 3 |
 | `andromede` | Andromede, Andromède | — | — | table | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 3 |
 | `anquetil` | Anquetil | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch11-the-avestic-evidence.md | 3 |
+| `antagoniste` | antagoniste | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | LISEZ-MOI.md +1 | 3 |
 | `antechrist` | Antéchrist, antechrist | — | — | tag | [[doctrinal/deviations/antitradition-et-contre-tradition]] · [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] · [[meta/discernements-blocs]] | georges-barbarin-l-enigme-du-grand-sphinx-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md | 3 |
 | `apis` | APIs | — | — | table | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 3 |
 | `application a hermes` | Application à Hermes | — | — | definition | [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] | — | 3 |
@@ -730,7 +732,6 @@ links: []
 | `as-sarakhsi` | as-Sarakhsī | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] | — | 3 |
 | `as-shaybani` | as-Shaybānī | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] | — | 3 |
 | `asharite` | ashʿarite | — | — | translit | [[doctrinal/autorites/al-ghazali]] · [[doctrinal/autorites/al-jurjani]] | — | 3 |
-| `assistes` | assistes, assistés | — | — | titre | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[meta/projet-unifie/00-instructions-projet]] | les-organisations-auxiliaires-de-la-societe-theosophique-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md | 3 |
 | `at-tabiun` | at-tâbiʿûn | — | — | translit | [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/sources/malamatiyah-futuhat-ch23]] · [[doctrinal/symboles/malamatiyya]] | — | 3 |
 | `atba` | atbâ, atbâʿ, ʿAtba | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `auge` | Auge | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch12-comparative-mythology.md | 3 |
@@ -840,7 +841,6 @@ links: []
 | `al-ziyadat` | al-Ziyādāt | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] | — | 2 |
 | `analyse pour arbitrage` | Analyse pour arbitrage | — | — | definition | [[atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18]] | — | 2 |
 | `anaximene` | Anaximène | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |
-| `antagoniste` | antagoniste | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] | le-temps-change-en-espace-le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon.md | 2 |
 | `anukramanikas` | Anukramanikas | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |
 | `apollodorus` | Apollodorus, Apollodôrus | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |
 | `apsu-jit` | Apsu-jit | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |

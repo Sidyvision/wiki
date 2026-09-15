@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 220,
+  "avertissements": 221,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -7043,7 +7043,9 @@
         "orient-et-occident",
         "upakarana",
         "jihad-al-akbar",
-        "antagoniste"
+        "antagoniste",
+        "elephant-inverse",
+        "unite-des-doctrines"
       ],
       "updated": "2026-09-15",
       "chemin": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia.md",

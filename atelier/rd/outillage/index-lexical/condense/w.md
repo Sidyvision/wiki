@@ -13,7 +13,7 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `wiki` | Wiki, wiki | — | — | table, titre | **131 fiches** | karubi-mehdi-navette-20260812.md | 413 |
-| `working` | Working, working | — | — | table, titre | **21 fiches** | 06-f.md +31 | 122 |
+| `working` | Working, working | — | — | table, titre | **21 fiches** | 06-f.md +32 | 127 |
 | `walaya` | Waläya, Walāya, walaya, walâya (+1) | — | ✓ islam | annotation, table, tag, titre, translit | **45 fiches** | sept-etendards-califat-transcription.md +1 | 93 |
 | `waw` | Waw, Wâw, Wāw, waw (+2) | `و` | *arabe* | translit | **18 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 65 |
 | `west` | West, west | — | — | table | [[atelier/etudes-de-cas/stones-throw]] · [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | 07-g.md +28 | 62 |
@@ -33,8 +33,8 @@ links: []
 | `whatsapp` | WhatsApp | — | — | table | **11 fiches** | koly-cherif-keita-djinns-aident-humains.md | 31 |
 | `wilaya` | WILÂYA, wilaya, wilâya, wilāya | — | — | translit | **12 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 31 |
 | `waqia` | Waqiʿa, waqia, waqiʿa, wâqiʿa (+1) | — | ✓ islam | annotation, titre, translit | **10 fiches** | — | 29 |
+| `wikipedia` | Wikipedia, Wikipédia | — | — | table | [[atelier/etudes-de-cas/dougong-consoles-bois]] · [[atelier/etudes-de-cas/forteresses-architecture-defensive]] · [[atelier/etudes-de-cas/xuankong-temple-suspendu]] · [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] · [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] · +3 | transcription-asr.md | 29 |
 | `wajd` | Wajd, wajd | — | ✓ islam | table, titre | [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/qamus-language-of-the-future]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/shawq]] · +2 | sept-etendards-califat-transcription.md +3 | 28 |
-| `wikipedia` | Wikipedia, Wikipédia | — | — | table | [[atelier/etudes-de-cas/dougong-consoles-bois]] · [[atelier/etudes-de-cas/forteresses-architecture-defensive]] · [[atelier/etudes-de-cas/xuankong-temple-suspendu]] · [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] · [[doctrinal/discernement/2026-08-29_sept-poles-sept-lataif]] · +3 | — | 28 |
 | `wahid` | Wahid, Wähid, wâhid, wâḥid (+1) | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +3 | 24 |
 | `wadi` | Wadi, Wädi, wadi, wadî (+2) | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 00-front-matter.md +7 | 22 |
 | `wallis` | Wallis | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-contradiction-du-nombre-infini-les-principes-du-calcul-infinitesimal-index-de-l-uvre-de-rene-guenon.md +4 | 22 |

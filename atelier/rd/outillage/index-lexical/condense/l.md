@@ -15,28 +15,28 @@ links: []
 | `livre` | LIVRE, Livre, Livré, livre (+1) | — | — | definition, table | **124 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +484 | 1609 |
 | `lang` | Lang, lang | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +393 | 1177 |
 | `lumiere` | LUMIÈRE, Lumiere, Lumière, lumiere (+1) | — | — | table, tag, titre | **111 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +183 | 1030 |
-| `lecture` | LECTURE, Lecture, lecture | — | ⚖ universel | definition, table, tag, titre | **325 fiches** | LISEZ-MOI.md +38 | 971 |
+| `lecture` | LECTURE, Lecture, lecture | — | ⚖ universel | definition, table, tag, titre | **325 fiches** | LISEZ-MOI.md +39 | 973 |
 | `lettre` | LETTRE, Lettre, lettre, lettré | — | — | table, titre | **113 fiches** | LISEZ-MOI.md +127 | 910 |
 | `lettres` | LETTRES, Lettres, Lettrés, lettres (+1) | — | — | table, tag, titre | **110 fiches** | LISEZ-MOI.md +107 | 881 |
-| `lien` | Lien, lien | — | — | table, tag | **209 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +121 | 773 |
+| `lien` | Lien, lien | — | — | table, tag | **208 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +121 | 771 |
 | `liens` | Liens, liens | — | — | definition, table | **160 fiches** | LISEZ-MOI.md +50 | 653 |
 | `l'ab` | L'Ab | — | — | table | **136 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +176 | 526 |
 | `langage` | Langage, langage | — | — | table, tag | **58 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +198 | 510 |
 | `l'al` | l'Āl | — | — | translit | **99 fiches** | LISEZ-MOI.md +102 | 417 |
-| `lot` | LOT, Lot, lot | — | — | tag, titre | **103 fiches** | LISEZ-MOI.md +15 | 339 |
+| `lot` | LOT, Lot, lot | — | — | tag, titre | **103 fiches** | LISEZ-MOI.md +16 | 341 |
 | `logique` | Logique, logique | — | — | tag | **96 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +101 | 322 |
 | `lune` | Lune, lune | — | — | table | **57 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +44 | 318 |
 | `label` | Label, label | — | — | definition, table, tag | **84 fiches** | 17-t.md +1 | 284 |
-| `local` | LOCAL, Local, local | — | — | titre | **70 fiches** | 00-front-matter.md +25 | 259 |
+| `local` | LOCAL, Local, local | — | — | titre | **71 fiches** | LISEZ-MOI.md +28 | 281 |
 | `la regle` | La règle | — | — | definition | **111 fiches** | LISEZ-MOI.md +12 | 253 |
 | `lion` | Lion, lion | — | — | table | **25 fiches** | 11-k.md +31 | 171 |
-| `llm` | LLM, llm | — | — | tag, titre | **83 fiches** | index-conversion.md +1 | 165 |
+| `llm` | LLM, llm | — | — | tag, titre | **83 fiches** | index-conversion.md +2 | 167 |
 | `lieux` | Lieux, lieux | — | — | titre | **44 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +53 | 153 |
 | `la limite` | La limite | — | ⚖ islam | definition | **22 fiches** | initiation-effective-et-initiation-virtuelle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +59 | 145 |
+| `lost` | Lost, lost | — | — | table, titre | [[atelier/etudes-de-cas/kojima-productions]] · [[atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks]] · [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[hermeneutique/lost/jacob]] · [[hermeneutique/lost/lost]] · +2 | 07-g.md +42 | 144 |
 | `lexique` | LEXIQUE, Lexique, lexique | — | — | tag, titre | **52 fiches** | LISEZ-MOI.md +5 | 143 |
-| `lost` | Lost, lost | — | — | table, titre | [[atelier/etudes-de-cas/kojima-productions]] · [[atelier/rd/infrastructure/2026-08-30_conversion-chemins-nus-wikilinks]] · [[atelier/rd/infrastructure/2026-09-09_feedback-audit-wiki-qoder]] · [[hermeneutique/lost/jacob]] · [[hermeneutique/lost/lost]] · +2 | 07-g.md +41 | 143 |
+| `language` | Language, language | — | — | table, titre | **10 fiches** | LISEZ-MOI.md +38 | 123 |
 | `limitation` | Limitation, limitation | — | — | definition | **25 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +63 | 122 |
-| `language` | Language, language | — | — | table, titre | **10 fiches** | LISEZ-MOI.md +37 | 115 |
 | `londres` | Londres | — | — | table | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[hermeneutique/sources/art-of-death-stranding]] · [[label/distribution/strategie-vinyle-300-depositaires]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · +1 | la-puissance-du-serpent.md +24 | 105 |
 | `lilith` | Lilith, lilith | — | — | annotation, tag | [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +3 | 102 |
 | `lecon` | Leçon, leçon | — | — | definition | **56 fiches** | le-rejet-des-pouvoirs-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +7 | 99 |
@@ -61,8 +61,8 @@ links: []
 | `lawh` | Lawḥ, lawh, lawḥ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] · +2 | corps-du-texte.md | 29 |
 | `l'apana` | L'apāna | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +13 | 27 |
 | `licence` | Licence, licence, licencé | — | — | table, titre | **19 fiches** | — | 25 |
+| `llms` | LLMs | — | — | table, titre | **10 fiches** | transcription-asr.md | 25 |
 | `llm-wiki` | LLM-Wiki | — | — | table, titre | **15 fiches** | — | 24 |
-| `llms` | LLMs | — | — | table, titre | **10 fiches** | — | 24 |
 | `lointain` | Lointain, lointain | — | — | table | [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +18 | 22 |
 | `l'anahat` | l'anāhat | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | la-puissance-du-serpent.md +1 | 21 |
 | `lisan` | Lisân, Lisān, lisan, lisân (+2) | — | — | translit | [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] · [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · +2 | munqidh-03-partie-1.md +2 | 21 |

@@ -15,10 +15,10 @@ links: []
 | `rapport` | RAPPORT, Rapport, rapport | — | — | definition, table, tag, titre | **227 fiches** | index-conversion.md +436 | 2460 |
 | `raison` | RAISON, Raison, Raïson, raison | — | — | definition, table, titre | **104 fiches** | LISEZ-MOI.md +422 | 1476 |
 | `rene` | René | — | — | table, titre | **118 fiches** | LISEZ-MOI.md +411 | 1185 |
-| `role` | ROLE, Role, RÔLE, Rôle (+3) | — | — | definition, table | **158 fiches** | 00-front-matter.md +318 | 1109 |
+| `role` | ROLE, Role, RÔLE, Rôle (+3) | — | — | definition, table | **158 fiches** | 00-front-matter.md +319 | 1110 |
 | `roman` | Roman, roman | — | — | annotation, tag | [[doctrinal/sources/gilis-ordo-ab-chao]] · [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/frankenstein/frankenstein]] · +2 | 00-front-matter.md +413 | 826 |
 | `realisation` | Realisation, RÉALISATION, Réalisation, realisation (+2) | — | — | table, titre | **75 fiches** | 11-k.md +215 | 805 |
-| `reference` | Reference, Référence, reference, référence (+1) | — | ⚖ islam | definition, table, tag, titre | **267 fiches** | LISEZ-MOI.md +63 | 716 |
+| `reference` | Reference, Référence, reference, référence (+1) | — | ⚖ islam | definition, table, tag, titre | **268 fiches** | LISEZ-MOI.md +64 | 719 |
 | `regle` | Règle, regle, règle, réglé | — | — | definition, table | **193 fiches** | LISEZ-MOI.md +46 | 623 |
 | `releve` | Relevé, Relève, releve, relevé (+2) | — | — | table, tag, titre | **222 fiches** | index-conversion.md +85 | 608 |
 | `registre` | Registre, Régistre, registre | — | — | definition, table, tag, titre | **171 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +5 | 540 |
@@ -26,17 +26,17 @@ links: []
 | `rapprochement` | RAPPROCHEMENT, Rapprochement, rapprochement | — | — | titre | **180 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +112 | 526 |
 | `roi` | Roi, roi | — | — | titre | **70 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +115 | 523 |
 | `rapports` | RAPPORTS, Rapports, rapports | — | — | titre | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +209 | 493 |
-| `resultat` | RESULTAT, Résultat, résultat | — | — | definition, table | **128 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +123 | 416 |
+| `resultat` | RESULTAT, Résultat, résultat | — | — | definition, table | **129 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +123 | 417 |
 | `reve` | RÊVE, Rêve, reve, révé (+2) | — | — | table, tag, titre | **61 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +27 | 345 |
 | `rite` | RITE, Rite, rite | — | — | tag | **22 fiches** | 01-a.md +79 | 340 |
 | `regne` | Règne, règne, régné | — | — | table, titre | **52 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +148 | 336 |
 | `reponse` | RÉPONSE, Réponse, reponse, réponse | — | — | titre | **121 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-6.md +71 | 324 |
 | `rig-veda` | RIG-VEDA, Rig-Veda, Rig-Véda, Rig-Vêda (+3) | — | — | table, tag, titre | **12 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +26 | 317 |
+| `references` | References, Références, references, références (+1) | — | — | table, tag, titre | **100 fiches** | 10-j.md +58 | 315 |
 | `rattachement` | RATTACHEMENT, Rattachement, rattachement | — | — | tag, titre | **82 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +62 | 314 |
-| `references` | References, Références, references, références (+1) | — | — | table, tag, titre | **100 fiches** | 10-j.md +57 | 313 |
 | `regles` | RÈGLES, Règles, regles, règles (+2) | — | — | definition, table | **85 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +46 | 287 |
 | `relations` | Relations, relations | — | — | table, tag | **54 fiches** | 01-a.md +98 | 281 |
-| `resolution` | Résolution, resolution, résolution | — | — | definition | **77 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +9 | 278 |
+| `resolution` | Résolution, resolution, résolution | — | — | definition | **77 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +10 | 280 |
 | `regard` | REGARD, Regard, regard | — | — | titre | **83 fiches** | 01-a.md +84 | 271 |
 | `resume` | Resume, Résumé, resume, résume (+1) | — | — | definition | **71 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +43 | 269 |
 | `roue` | ROUE, Roue, roue | — | — | table, tag, titre | **55 fiches** | sur-deux-devises-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +52 | 266 |
@@ -101,15 +101,15 @@ links: []
 | `reminiscence` | Reminiscence, Réminiscence, reminiscence, réminiscence | — | — | table, tag | **10 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-32.md +10 | 32 |
 | `recension` | Recension, recension | — | — | titre | **15 fiches** | LISEZ-MOI.md +3 | 31 |
 | `rijal` | rijal, rijâl, rijāl | — | ⚖ islam | tag, translit | **10 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 31 |
+| `robert` | Robert | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/autorites/michel-valsan]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-21.md +18 | 30 |
 | `revox` | Revox, revox | — | — | table, tag, titre | **13 fiches** | — | 29 |
-| `robert` | Robert | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/autorites/michel-valsan]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-21.md +17 | 29 |
 | `readme` | README | — | — | table | **16 fiches** | — | 28 |
 | `rangha` | Rangha | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +4 | 27 |
 | `russie` | Russie | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +14 | 27 |
 | `rama` | RaMâ, Rama, Râma, rama | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md +8 | 25 |
+| `rough` | Rough, rough | — | — | table | [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/hermes-prompts/06-distribution/06-principe]] · [[meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution]] | 08-h.md +16 | 25 |
 | `rasul` | Rasûl, Rasül, Rasūl, rasûl (+1) | — | — | translit | **9 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 24 |
 | `regularite` | RÉGULARITÉ, regularite, régularité | — | — | tag, titre | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]] · [[doctrinal/sources/malamatiyah-futuhat-ch23]] · [[meta/carte-du-depot-doctrinal]] · +1 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-5.md +11 | 24 |
-| `rough` | Rough, rough | — | — | table | [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/hermes-prompts/06-distribution/06-principe]] · [[meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution]] | 08-h.md +15 | 24 |
 | `runbook` | Runbook, runbook | — | — | tag, titre | **17 fiches** | — | 24 |
 | `reflection` | Reflection, reflection | — | — | table | [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 02-b.md +14 | 23 |
 | `routing` | Routing, routing | — | — | tag, titre | **10 fiches** | arctic-ch12-comparative-mythology.md +1 | 23 |

@@ -12,10 +12,10 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `nom` | NOM, Nom, nom | — | — | definition, tag, titre | **242 fiches** | LISEZ-MOI.md +360 | 2465 |
-| `nature` | NATURE, Nature, nature | — | ⚖ islam | definition, table, tag, titre | **290 fiches** | 08-h.md +404 | 2011 |
+| `nom` | NOM, Nom, nom | — | — | definition, tag, titre | **242 fiches** | LISEZ-MOI.md +361 | 2469 |
+| `nature` | NATURE, Nature, nature | — | ⚖ islam | definition, table, tag, titre | **290 fiches** | 08-h.md +405 | 2013 |
 | `nombre` | NOMBRE, Nombre, nombre, nombré | — | — | table, tag, titre | **108 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +230 | 1196 |
-| `noms` | NOMS, Noms, noms | — | — | table, titre | **144 fiches** | LISEZ-MOI.md +127 | 852 |
+| `noms` | NOMS, Noms, noms | — | — | table, titre | **145 fiches** | LISEZ-MOI.md +128 | 854 |
 | `notes` | NOTES, Notes, notes, notés | — | ⚖ islam | definition, table, titre | **141 fiches** | LISEZ-MOI.md +62 | 542 |
 | `nombres` | NOMBRES, Nombres, nombres, nombrés | — | — | titre | **26 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +84 | 469 |
 | `notions` | NOTIONS, Notions, notions | — | — | titre | **42 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +80 | 188 |

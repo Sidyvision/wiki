@@ -132,61 +132,61 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ء` | ء, ءِ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · +1 | futuhat-t1-p001-050.md +17 | 55 |
+| `ء` | ء, ءِ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · +1 | futuhat-t1-p001-050.md +18 | 64 |
 
 ## ا
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `الى` | آلى, آلَى, ألى, إلى (+6) | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +52 | 11816 |
-| `ا` | آ, أ, أَ, أُ (+7) | — | — | translit | [[doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] | futuhat-t1-p001-050.md +54 | 11152 |
-| `الله` | ألله, إلله, الله, اللهَ (+7) | — | — | translit | **10 fiches** | futuhat-t1-p001-050.md +55 | 7673 |
-| `اهل` | آهل, أهل, أَهْلَ, أَهْلِ (+7) | — | — | translit | [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +52 | 1447 |
-| `الانسان` | الأنسان, الإنسان, الانسان, الاْنسان (+5) | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] | futuhat-t1-p001-050.md +52 | 732 |
-| `الدين` | الدين, الديِن | `al-dîn` — Jurjānī déf. 0746 | — | translit | [[doctrinal/sources/awrad-ibn-arabi]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +50 | 690 |
-| `الحق` | ألحق, الحق, الحقّ, الَحق | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +49 | 672 |
-| `الاول` | الأول, الأوّل, الاول, الاوّل (+1) | — | — | translit | [[atelier/rd/instrument/angles-de-l-espace]] · [[atelier/rd/outillage/essais-non-retenus/README]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · +1 | futuhat-t1-p001-050.md +52 | 592 |
+| `الى` | آلى, آلَى, ألى, إلى (+6) | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +53 | 11941 |
+| `ا` | آ, أ, أَ, أُ (+7) | — | — | translit | [[doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] | futuhat-t1-p001-050.md +55 | 11183 |
+| `الله` | ألله, إلله, الله, اللهَ (+7) | — | — | translit | **10 fiches** | futuhat-t1-p001-050.md +56 | 7757 |
+| `اهل` | آهل, أهل, أَهْلَ, أَهْلِ (+7) | — | — | translit | [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +53 | 1475 |
+| `الانسان` | الأنسان, الإنسان, الانسان, الاْنسان (+5) | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] | futuhat-t1-p001-050.md +53 | 740 |
+| `الحق` | ألحق, الحق, الحقّ, الَحق | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +50 | 704 |
+| `الدين` | الدين, الديِن | `al-dîn` — Jurjānī déf. 0746 | — | translit | [[doctrinal/sources/awrad-ibn-arabi]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +51 | 697 |
+| `الاول` | الأول, الأوّل, الاول, الاوّل (+1) | — | — | translit | [[atelier/rd/instrument/angles-de-l-espace]] · [[atelier/rd/outillage/essais-non-retenus/README]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · +1 | futuhat-t1-p001-050.md +53 | 594 |
 | `الملك` | الملك, المُلْك, المِلْك, الُملك (+7) | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[doctrinal/symboles/shamharush]] | futuhat-t1-p051-100.md +47 | 516 |
-| `الثاني` | الثاني, الثاِني | — | — | translit | [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +40 | 439 |
-| `الشمس` | الشمس, الشَّمْس, الشَّمْسِ | — | — | translit | [[atelier/rd/instrument/references-visuelles-astronomiques-phase-5]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/symboles/ilm-al-nujum]] | futuhat-t1-p001-050.md +46 | 395 |
-| `الرحمن` | الرحمن, الرحمنَ, الرَّحْمَنِ, الرَّحْمَٰنَ (+1) | — | — | translit | [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/nafas-rahmani]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] · [[meta/protocole-archives/CLAUDE-v3_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v4_2026-09-09]] · +1 | futuhat-t1-p001-050.md +52 | 373 |
-| `اصل` | آصل, أصل, أَْصٍل, أَْصَل (+5) | `al-asl` | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] | futuhat-t1-p101-150.md +50 | 336 |
+| `الثاني` | الثاني, الثاِني | — | — | translit | [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +41 | 441 |
+| `الشمس` | الشمس, الشَّمْس, الشَّمْسِ | — | — | translit | [[atelier/rd/instrument/references-visuelles-astronomiques-phase-5]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/symboles/ilm-al-nujum]] | futuhat-t1-p001-050.md +47 | 400 |
+| `الرحمن` | الرحمن, الرحمنَ, الرَّحْمَنِ, الرَّحْمَٰنَ (+1) | — | — | translit | [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/nafas-rahmani]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] · [[meta/protocole-archives/CLAUDE-v3_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v4_2026-09-09]] · +1 | futuhat-t1-p001-050.md +53 | 377 |
+| `اصل` | آصل, أصل, أَْصٍل, أَْصَل (+5) | `al-asl` | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] | futuhat-t1-p101-150.md +51 | 343 |
 | `البيت` | البيت, الَبْيت, الَبْيِت, اْلَبْيَت (+2) | — | — | translit | [[atelier/rd/instrument/angles-de-l-espace]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] | futuhat-t1-p001-050.md +42 | 324 |
-| `الطريق` | الطريق, الطِريِق | `al-tariq` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tariq]] | futuhat-t1-p001-050.md +42 | 296 |
-| `الثالث` | الثالث, الثالُِث, الثالِث, الثاِلث | — | — | translit | [[atelier/rd/outillage/essais-non-retenus/README]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] | futuhat-t1-p001-050.md +45 | 291 |
-| `الرحيم` | الرحيم, الرَّحِيمِ, الرّحيم | — | — | translit | [[doctrinal/sources/sept-etendards-califat]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] · [[meta/protocole-archives/CLAUDE-v3_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v4_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v5_2026-09-15]] | futuhat-t1-p001-050.md +49 | 212 |
-| `الرابع` | الرابع | — | — | translit | [[atelier/rd/instrument/angles-de-l-espace]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] | futuhat-t1-p001-050.md +47 | 203 |
+| `الطريق` | الطريق, الطِريِق | `al-tariq` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tariq]] | futuhat-t1-p001-050.md +43 | 298 |
+| `الثالث` | الثالث, الثالُِث, الثالِث, الثاِلث | — | — | translit | [[atelier/rd/outillage/essais-non-retenus/README]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] | futuhat-t1-p001-050.md +46 | 292 |
+| `الرحيم` | الرحيم, الرَّحِيمِ, الرّحيم | — | — | translit | [[doctrinal/sources/sept-etendards-califat]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] · [[meta/protocole-archives/CLAUDE-v3_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v4_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v5_2026-09-15]] | futuhat-t1-p001-050.md +50 | 214 |
+| `الرابع` | الرأبع, الرابع | — | — | translit | [[atelier/rd/instrument/angles-de-l-espace]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] | futuhat-t1-p001-050.md +48 | 205 |
 | `الفقر` | الفقر, الفَقْر, الَفْقِر, اْلَفْقَر (+1) | `al-faqr` — Jurjānī déf. 1217 | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p501-550.md +24 | 171 |
 | `الاعتبار` | الأعتبار, الإعتبار, الاعتبار, اِلاْعِتَباَر (+2) | `al-itibar` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +28 | 166 |
-| `الفقه` | الفقه, الفِقْه, اْلِفْقَه, اْلِفْقُه (+1) | `al-fiqh` — Jurjānī déf. 1216 | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/fiqh]] · [[meta/carte-du-depot-doctrinal]] · +1 | juz-1-pages-001-050.md +23 | 130 |
+| `الفقه` | الفقه, الفِقْه, اْلِفْقَه, اْلِفْقُه (+1) | `al-fiqh` — Jurjānī déf. 1216 | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/fiqh]] · [[meta/carte-du-depot-doctrinal]] · +1 | juz-1-pages-001-050.md +24 | 132 |
+| `الطبع` | الطبع | `al-tab` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tabii]] | futuhat-t1-p151-200.md +32 | 124 |
 | `الاسماء` | الأسماء, الاسماء | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +19 | 123 |
-| `الطبع` | الطبع | `al-tab` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tabii]] | futuhat-t1-p151-200.md +31 | 123 |
 | `الساعة` | الساعة | — | — | titre, translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/carte-du-depot]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p151-200.md +30 | 115 |
 | `الجمع` | الجمع, الجَمْع, اْلَجْمع, اْلَجْمَع (+2) | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p451-500.md +33 | 96 |
+| `الرسول` | الرسول | — | — | translit | [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820]] · [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20]] · [[atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20]] · [[doctrinal/sources/mawlid-al-rasul]] | futuhat-t1-p001-050.md +32 | 91 |
 | `العفو` | العفو, العَفُوّ, الَعفُو, الَعفِو (+3) | — | — | translit | [[doctrinal/sources/shams-al-maarif]] · [[doctrinal/symboles/asma-al-husna]] | futuhat-t1-p551-600.md +23 | 91 |
-| `الرسول` | الرسول | — | — | translit | [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820]] · [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20]] · [[atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20]] · [[doctrinal/sources/mawlid-al-rasul]] | futuhat-t1-p001-050.md +31 | 88 |
-| `العزلة` | العزلة, العُزْلَة, اْلُعْزَلُة | `al-ʿuzla` — Jurjānī déf. 1066 | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +11 | 77 |
+| `العزلة` | العزلة, العُزْلَة, اْلُعْزَلُة | `al-ʿuzla` — Jurjānī déf. 1066 | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +12 | 85 |
 | `السابع` | السابع | — | — | translit | [[atelier/rd/instrument/angles-de-l-espace]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/mawlid-al-rasul]] | futuhat-t1-p001-050.md +31 | 76 |
-| `الطبيب` | الطبيب | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tibb-ruhani]] | juz-1-pages-001-050.md +22 | 71 |
+| `الطبيب` | الطبيب | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tibb-ruhani]] | juz-1-pages-001-050.md +23 | 73 |
+| `الطب` | الطب | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tibb-ruhani]] | futuhat-t1-p051-100.md +23 | 72 |
 | `الصوت` | الصوت, الصَوْت, الصَّوْت | `al-sawt` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p701-750.md +21 | 70 |
 | `الكامل` | الكامل, اْلَكاِمَل | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] | futuhat-t1-p101-150.md +28 | 70 |
 | `الثامن` | الثامن | — | — | translit | [[atelier/rd/outillage/essais-non-retenus/README]] · [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] | futuhat-t1-p001-050.md +25 | 64 |
 | `الكبرى` | الكبرى, الكُبرى, الكْبَرى, اْلُكْبَرى | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/shams-al-maarif]] | futuhat-t1-p351-400.md +21 | 63 |
-| `الطب` | الطب | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tibb-ruhani]] | futuhat-t1-p051-100.md +22 | 62 |
 | `الاعيان` | الأعيان, الأْعَياَن, الاعيان | `al-ayan` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p051-100.md +19 | 59 |
+| `التصديق` | التصديق | `al-tasdiq` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tasdiq]] | futuhat-t1-p101-150.md +16 | 58 |
+| `القمر` | القمر, القَمَر, اْلَقَمِر | — | — | translit | [[atelier/rd/instrument/references-visuelles-astronomiques-phase-5]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/symboles/ilm-al-nujum]] · [[doctrinal/symboles/manazil-al-qamar]] | futuhat-t1-p001-050.md +23 | 58 |
 | `الكلمة` | الكلمة, الكَلِمَة, الْكَلِمَةُ | `al-kalima` — Jurjānī déf. 1331 | — | translit | [[doctrinal/sources/bukhari-5754-tiyara-fal]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p051-100.md +22 | 58 |
-| `القمر` | القمر, القَمَر, اْلَقَمِر | — | — | translit | [[atelier/rd/instrument/references-visuelles-astronomiques-phase-5]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/symboles/ilm-al-nujum]] · [[doctrinal/symboles/manazil-al-qamar]] | futuhat-t1-p001-050.md +22 | 57 |
-| `التصديق` | التصديق | `al-tasdiq` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tasdiq]] | futuhat-t1-p101-150.md +15 | 55 |
 | `النون` | النون, النّون | — | — | titre, translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | futuhat-t1-p051-100.md +20 | 54 |
 | `اصول` | أصول | `al-usul` | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] | futuhat-t1-p201-250.md +21 | 53 |
 | `الجامع` | الجامع, اْلَجاِمُع, اْلَجاِمِع | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p101-150.md +17 | 47 |
-| `الطبيعة` | الطبيعة | `al-tabia` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tabia]] | futuhat-t1-p051-100.md +12 | 43 |
+| `الطبيعة` | الطبيعة | `al-tabia` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tabia]] | futuhat-t1-p051-100.md +13 | 47 |
 | `الوحا` | الوحا | — | — | titre, translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/carte-du-depot]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | juz-4-pages-451-500.md | 40 |
-| `التصوف` | التصوف, التصوّف | `al-tasawwuf` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/traditions/tasawwuf]] | futuhat-t1-p001-050.md +17 | 35 |
+| `التصوف` | التصوف, التصوّف | `al-tasawwuf` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/traditions/tasawwuf]] | futuhat-t1-p001-050.md +18 | 38 |
 | `الاعظم` | الأعظم, الاعظم | — | — | translit | [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820]] · [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20]] · [[atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20]] · [[doctrinal/sources/mawlid-al-rasul]] | futuhat-t1-p051-100.md +18 | 32 |
 | `العجل` | العجل, اْلِعْجَل | — | — | titre, translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/carte-du-depot]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | juz-1-pages-251-300.md +3 | 32 |
 | `المرتبة` | المرتبة, المَرْتَبَة, اْلَمْرَتَبُة | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] | futuhat-t1-p051-100.md +11 | 31 |
-| `الصواب` | الصواب | `al-sawab` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p101-150.md +16 | 28 |
+| `الصواب` | الصواب | `al-sawab` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p101-150.md +17 | 29 |
 | `الكاتب` | الكاتب | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/symboles/ilm-al-nujum]] | futuhat-t1-p151-200.md +13 | 27 |
 | `العاشر` | العاشر, الَعاِشُر | — | — | translit | [[atelier/rd/instrument/angles-de-l-espace]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] | futuhat-t1-p001-050.md +13 | 26 |
 | `الدلالة` | الدلالة | `al-dalala` | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] | futuhat-t1-p051-100.md +10 | 25 |
@@ -203,12 +203,12 @@ links: []
 | `ابيض` | أبيض | — | — | translit | [[doctrinal/symboles/cheveux-blancs-en-reve]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | juz-1-pages-151-200.md +8 | 12 |
 | `اجب` | أجب, اجب | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[doctrinal/symboles/shamharush]] | futuhat-t1-p501-550.md +6 | 12 |
 | `الطغيان` | الطغيان, الطّغيان | `al-tugyan` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/tughyan]] | juz-1-pages-001-050.md +6 | 12 |
+| `الطريقة` | الطريقة, الطّريقة | `al-tariqa` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/wazifa]] · [[doctrinal/symboles/tariqa]] | juz-2-pages-251-300.md +4 | 10 |
+| `امراض` | أمراض, اَمراضٌ | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | juz-3-pages-001-050.md +5 | 10 |
 | `العروض` | العروض, العَروض | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +5 | 9 |
 | `الوحى` | الوحى, الْوَحَى | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/carte-du-depot]] | futuhat-t1-p051-100.md +3 | 9 |
-| `امراض` | أمراض, اَمراضٌ | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | juz-3-pages-001-050.md +4 | 9 |
 | `اجازة` | إجازة, اجازة | — | — | translit | [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820]] · [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[atelier/rd/infrastructure/etude-depot-cartographie-inventaire-raw-2026-08-20]] · [[atelier/rd/infrastructure/rapport-conjoint-etat-depot-2026-08-20]] | futuhat-t1-p451-500.md +2 | 8 |
 | `ازواج` | أزواج, ازواج | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | futuhat-t1-p301-350.md +2 | 8 |
-| `الطريقة` | الطريقة, الطّريقة | `al-tariqa` | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/wazifa]] · [[doctrinal/symboles/tariqa]] | juz-2-pages-251-300.md +3 | 8 |
 | `احضروا` | أحضروا, احضروا | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | juz-1-pages-151-200.md +2 | 7 |
 | `الراء` | الراء | — | — | titre, translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | futuhat-t1-p051-100.md +2 | 7 |
 | `اباء` | آبأء, آباء, اباء, اَباءٌ | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | futuhat-t1-p151-200.md +2 | 6 |
@@ -235,9 +235,9 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ب` | ب, بٌُ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +52 | 1423 |
+| `ب` | ب, بٌُ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +53 | 1428 |
 | `باب` | بإب, باب, باَب, باُب (+2) | — | — | titre, translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | futuhat-t1-p001-050.md +50 | 510 |
-| `بسم` | بسم, بِسْمِ, بْسِم | — | — | translit | [[doctrinal/sources/sept-etendards-califat]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] · [[meta/protocole-archives/CLAUDE-v3_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v4_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v5_2026-09-15]] | futuhat-t1-p001-050.md +37 | 140 |
+| `بسم` | بسم, بِسْمِ, بْسِم | — | — | translit | [[doctrinal/sources/sept-etendards-califat]] · [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] · [[meta/protocole-archives/CLAUDE-v3_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v4_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v5_2026-09-15]] | futuhat-t1-p001-050.md +38 | 141 |
 | `بحق` | بحق | — | — | translit | [[doctrinal/symboles/shamharush]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p301-350.md +24 | 53 |
 | `بارك` | بارك, باَرَك | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p051-100.md +13 | 44 |
 | `بانفسها` | بأنفسها | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p201-250.md +6 | 12 |
@@ -247,7 +247,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ت` | ت | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +50 | 341 |
+| `ت` | ت | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +51 | 342 |
 | `تسخر` | تسخر | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | — | 2 |
 
 ## ث
@@ -260,7 +260,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ج` | ج, جٍَ, جَ, جُ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/ilm-al-huruf]] · +1 | futuhat-t1-p001-050.md +38 | 304 |
+| `ج` | ج, جٍَ, جَ, جُ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/ilm-al-huruf]] · +1 | futuhat-t1-p001-050.md +39 | 307 |
 
 ## ح
 
@@ -279,7 +279,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `د` | د, دَّ, دْ | — | — | translit | **9 fiches** | futuhat-t1-p001-050.md +49 | 1389 |
+| `د` | د, دَّ, دْ | — | — | translit | **9 fiches** | futuhat-t1-p001-050.md +50 | 1397 |
 
 ## ذ
 
@@ -304,14 +304,14 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `س` | س, سٌِ, سِ, سْ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +51 | 489 |
-| `سلطان` | سلطان, سْلَطاٍن, سْلَطاَن | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | futuhat-t1-p101-150.md +29 | 69 |
+| `سلطان` | سلطان, سْلَطاٍن, سْلَطاَن | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | futuhat-t1-p101-150.md +30 | 70 |
 | `سحر` | سحر, سَحِر | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/talisman-sihr]] | juz-1-pages-001-050.md +2 | 6 |
 
 ## ش
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ش` | ش | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +48 | 206 |
+| `ش` | ش | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +49 | 214 |
 | `شمهورش` | شمهورش | — | — | titre, translit | [[doctrinal/sources/shams-al-maarif]] · [[doctrinal/symboles/shamharush]] · [[meta/carte-du-depot]] | — | 17 |
 | `شهدان` | شهدان | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | — | 2 |
 
@@ -319,7 +319,7 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ص` | ص | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +53 | 898 |
+| `ص` | ص | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +54 | 899 |
 | `صهر` | صهر | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/talisman-sihr]] | — | 2 |
 
 ## ض
@@ -332,21 +332,21 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ط` | ط, طَ, طُُ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/ilm-al-huruf]] · +1 | futuhat-t1-p001-050.md +36 | 132 |
+| `ط` | ط, طَ, طُُ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/ilm-al-huruf]] · +1 | futuhat-t1-p001-050.md +37 | 133 |
 
 ## ظ
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ظ` | ظ, ظّ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +39 | 331 |
+| `ظ` | ظ, ظّ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +40 | 333 |
 
 ## ع
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `على` | على, علَى, عَلى, عَلَى (+1) | — | — | translit | [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | futuhat-t1-p001-050.md +53 | 15320 |
-| `ع` | ع, عَ, عُ | — | — | translit | **9 fiches** | futuhat-t1-p001-050.md +47 | 1024 |
-| `عشر` | عشر, عَشَر, عْشٍر, عْشُر (+1) | — | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/mawlid-al-rasul]] | futuhat-t1-p001-050.md +42 | 234 |
+| `على` | على, علَى, عَلى, عَلَى (+1) | — | — | translit | [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | futuhat-t1-p001-050.md +54 | 15485 |
+| `ع` | ع, عَ, عُ | — | — | translit | **9 fiches** | futuhat-t1-p001-050.md +48 | 1034 |
+| `عشر` | عشر, عَشَر, عْشٍر, عْشُر (+1) | — | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/mawlid-al-rasul]] | futuhat-t1-p001-050.md +43 | 238 |
 
 ## غ
 
@@ -359,31 +359,31 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `في` | في, فَي, فُي, فِي (+1) | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/wazifa]] | futuhat-t1-p001-050.md +57 | 24716 |
-| `ف` | ف, فْ | — | — | translit | **11 fiches** | futuhat-t1-p001-050.md +48 | 4420 |
-| `فرق` | فرق, فَرق, فَرٌق, فْرٍق | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +35 | 115 |
+| `في` | في, فَي, فُي, فِي (+1) | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/wazifa]] | futuhat-t1-p001-050.md +58 | 24958 |
+| `ف` | ف, فْ | — | — | translit | **11 fiches** | futuhat-t1-p001-050.md +49 | 4425 |
+| `فرق` | فرق, فَرق, فَرٌق, فْرٍق | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | futuhat-t1-p001-050.md +36 | 118 |
 | `فيكم` | فيكم, فيُكْم | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p151-200.md +13 | 26 |
 
 ## ق
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ق` | ق, قَّ, قۤ | — | — | translit | **12 fiches** | futuhat-t1-p001-050.md +51 | 653 |
+| `ق` | ق, قَّ, قُ, قِ (+1) | — | — | translit | **12 fiches** | futuhat-t1-p001-050.md +52 | 668 |
 
 ## ك
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `ك` | ك, كَ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +52 | 580 |
+| `ك` | ك, كَ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +53 | 584 |
 | `كلمة` | كلمة, كلَِمٍة, كَلِمَة, كِلَمٍة | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | juz-1-pages-001-050.md +31 | 111 |
 
 ## ل
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `لا` | لآ, لأ, لأَ, لأُ (+5) | — | — | translit | [[doctrinal/sources/bukhari-5754-tiyara-fal]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] | futuhat-t1-p001-050.md +54 | 14217 |
-| `ل` | ل, لٍ, لَ, لُ (+1) | — | — | translit | [[doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · +2 | futuhat-t1-p001-050.md +53 | 3236 |
-| `لي` | لئ, لي, لَي, لَُي (+6) | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +50 | 922 |
+| `لا` | لآ, لأ, لأَ, لأُ (+5) | — | — | translit | [[doctrinal/sources/bukhari-5754-tiyara-fal]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] | futuhat-t1-p001-050.md +55 | 14371 |
+| `ل` | ل, لٍ, لَ, لُ (+1) | — | — | translit | [[doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · +2 | futuhat-t1-p001-050.md +54 | 3247 |
+| `لي` | لئ, لي, لَي, لَُي (+6) | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +51 | 942 |
 | `لهذه` | لهذه, لَهِذِه, لَِهِذِه | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | juz-1-pages-051-100.md +24 | 57 |
 | `للشاملة` | للشاملة | — | — | translit | [[doctrinal/sources/shams-al-maarif]] · [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[doctrinal/symboles/shamharush]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | — | 4 |
 
@@ -391,10 +391,10 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `من` | من, منْ, مَن, مَنْ (+7) | — | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +57 | 36424 |
-| `م` | م | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · +1 | futuhat-t1-p001-050.md +54 | 3597 |
-| `مال` | مآل, مال, ماٌل, ماٍل (+3) | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | futuhat-t1-p001-050.md +47 | 336 |
-| `موت` | موت, مْوٌت, مْوَت, مْوُت (+1) | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | futuhat-t1-p001-050.md +27 | 66 |
+| `من` | من, منْ, مَن, مَنْ (+7) | — | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +58 | 36735 |
+| `م` | م | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · +1 | futuhat-t1-p001-050.md +55 | 3624 |
+| `مال` | مآل, مال, ماٌل, ماٍل (+3) | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | futuhat-t1-p001-050.md +48 | 337 |
+| `موت` | موت, مْوٌت, مْوَت, مْوُت (+1) | — | — | translit | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] | futuhat-t1-p001-050.md +28 | 67 |
 | `ميمون` | ميمون, مْيُموُن | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[doctrinal/symboles/shamharush]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | juz-1-pages-101-150.md +16 | 32 |
 | `مراقبة` | مراقبة, مَراَقَبُة | `muraqaba` | — | titre, translit | [[doctrinal/symboles/merkavah-muraqaba]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | futuhat-t1-p251-300.md +5 | 19 |
 | `مرتبة` | مرتبة, مَرْتَبة | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] | juz-1-pages-051-100.md +6 | 16 |
@@ -412,17 +412,17 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `هذا` | هذا, هَذا, هَذَا, هَٰذَا | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +53 | 4101 |
-| `هو` | هؤ, هو, هَو, هِو | — | — | translit | [[doctrinal/sources/shams-al-maarif]] · [[doctrinal/symboles/asma-al-husna]] | futuhat-t1-p001-050.md +51 | 2887 |
-| `ه` | ه, هـ, هَ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +42 | 641 |
-| `هنا` | هنأ, هنا | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p101-150.md +23 | 44 |
+| `هذا` | هذا, هَذا, هَذَا, هَٰذَا | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +54 | 4158 |
+| `هو` | هؤ, هو, هَو, هِو | — | — | translit | [[doctrinal/sources/shams-al-maarif]] · [[doctrinal/symboles/asma-al-husna]] | futuhat-t1-p001-050.md +52 | 2922 |
+| `ه` | ه, هـ, هَ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | futuhat-t1-p001-050.md +43 | 646 |
+| `هنا` | هنأ, هنا | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p101-150.md +24 | 45 |
 | `هيا` | هيأ, هيا | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | futuhat-t1-p001-050.md +7 | 15 |
 
 ## و
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `و` | ؤ, و, وَ, وُ (+2) | `waw` | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/ilm-al-huruf]] · +1 | futuhat-t1-p001-050.md +51 | 2257 |
+| `و` | ؤ, و, وَ, وُ (+2) | `waw` | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/ilm-al-huruf]] · +1 | futuhat-t1-p001-050.md +52 | 2285 |
 | `والعشرون` | والعشرون | — | — | translit | [[atelier/rd/outillage/essais-non-retenus/README]] · [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] | futuhat-t1-p001-050.md +4 | 32 |
 | `والسبعون` | والسبعون | — | — | translit | [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] · [[doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan]] | futuhat-t1-p001-050.md +2 | 31 |
 | `وعليكم` | وعليكم | — | — | translit | [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[meta/personnel/2026-09-13_bague-offerte-inscription-al-wiha]] | juz-2-pages-001-050.md +4 | 8 |

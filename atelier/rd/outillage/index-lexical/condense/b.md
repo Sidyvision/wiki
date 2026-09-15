@@ -19,7 +19,7 @@ links: []
 | `body` | Body, body | — | — | table, titre | **14 fiches** | 00-front-matter.md +56 | 295 |
 | `bibliotheque` | BIBLIOTHÈQUE, Bibliothèque, bibliotheque, bibliothèque | — | — | table, tag, titre | **138 fiches** | LISEZ-MOI.md +20 | 278 |
 | `branche` | Branche, Branché, branche, branché | — | — | table, titre | **64 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +44 | 234 |
-| `bad` | Bad, bad, baʿḍ, bād | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 11-k.md +37 | 215 |
+| `bad` | Bad, bad, baʿḍ, bād | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 11-k.md +38 | 217 |
 | `buddhi` | BUDDHI, Buddhi, buddhi | `बुदधि` | ✓ hindouisme · *sanskrit* | annotation, table, tag, titre | **31 fiches** | paradis-terrestre-et-paradis-celeste-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +26 | 205 |
 | `bindu` | Bindu, bindu, bindû | `बिंदु` | ✓ hindouisme · *sanskrit* | table, titre | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/symboles/bindu]] · [[doctrinal/symboles/nada]] · [[meta/carte-doctrinal]] · +3 | la-puissance-du-serpent.md +1 | 193 |
 | `brahman` | Brahman, brahman | — | — | table | **17 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +11 | 187 |
@@ -37,7 +37,7 @@ links: []
 | `bande` | Bande, Bandé, bande | — | — | table, tag | **36 fiches** | la-puissance-du-serpent.md +1 | 70 |
 | `bases` | BASES, Bases, bases, basés | — | — | table, titre | **17 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 66 |
 | `bhagavad-gita` | Bhagavad-Gita, Bhagavad-Gitâ, Bhagavad-Gîta, Bhagavad-Gîtâ (+1) | — | — | table, translit | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] · [[atelier/rd/cahiers/registre-problemes]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · +3 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +31 | 66 |
-| `big` | BiG, Big, big | — | — | titre | [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/metal-gear]] · [[hermeneutique/metal-gear/mother-base]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · +1 | 17-t.md +19 | 59 |
+| `big` | BiG, Big, big | — | — | titre | [[hermeneutique/metal-gear/big-boss]] · [[hermeneutique/metal-gear/metal-gear]] · [[hermeneutique/metal-gear/mother-base]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · +1 | 17-t.md +20 | 60 |
 | `briefing` | Briefing, briefing | — | — | titre | **20 fiches** | — | 59 |
 | `bureau` | Bureau, bureau | — | — | table, titre | **25 fiches** | 01-a.md +12 | 59 |
 | `bible` | Bible, bible | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/autorites/idris]] · [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · +1 | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +37 | 56 |
@@ -47,7 +47,7 @@ links: []
 | `biographiques` | biographiques | — | — | titre | **17 fiches** | abu-yazid-al-bistami-et-son-enseignement-pdf-coran.md +6 | 46 |
 | `bague` | Bague, bague | — | — | tag, titre | **12 fiches** | — | 45 |
 | `bhuta` | Bhuta, Bhûta, bhûta | — | — | table | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/journal/conversation-atma-claude]] | la-puissance-du-serpent.md +2 | 45 |
-| `build` | Build, build | — | — | titre | **21 fiches** | LISEZ-MOI.md +11 | 41 |
+| `build` | Build, build | — | — | titre | **21 fiches** | LISEZ-MOI.md +12 | 42 |
 | `bouzouida` | Bouzouida, Bouzouïda | — | — | table | [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/projet-unifie/archives/synthese-ressources-deployees]] · +2 | isaghuji-cours01-introduction-transcription.md +1 | 40 |
 | `batin` | Batin, Batîn, Bâtin, Bāṭin (+5) | — | — | tag, titre, translit | **18 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 39 |
 | `bones` | Bones, bones | — | — | table | [[label/distribution/merchandising]] · [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/hermes-prompts/12-commerce-profitability/12-principe]] · [[meta/projet-unifie/hermes-prompts/12-commerce-profitability/mandats/commerce-profitability]] | 01-a.md +13 | 38 |

@@ -15,21 +15,21 @@ links: []
 | `monde` | MONDE, Monde, monde | — | — | table, titre | **247 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +431 | 3668 |
 | `manifestation` | MANIFESTATION, Manifestation, manifestation | — | — | table, tag, titre | **121 fiches** | 04-d.md +300 | 1726 |
 | `mort` | MORT, Mort, mort | — | — | table, titre | **115 fiches** | de-la-mort-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +132 | 1130 |
-| `metaphysique` | MÉTAPHYSIQUE, Métaphysique, metaphysique, métaphysique | — | — | table, tag, titre | **170 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +224 | 981 |
-| `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | — | table, tag, titre | **125 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +277 | 972 |
-| `moderne` | MODERNE, Moderne, moderne | — | — | table, titre | **88 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +234 | 948 |
-| `man` | Man, man, manʿ | — | — | titre, translit | **13 fiches** | 04-d.md +83 | 825 |
+| `metaphysique` | MÉTAPHYSIQUE, Métaphysique, metaphysique, métaphysique | — | — | table, tag, titre | **170 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +224 | 982 |
+| `mesure` | MESURE, Mesure, Mesuré, mesure (+1) | — | — | table, tag, titre | **126 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +277 | 973 |
+| `moderne` | MODERNE, Moderne, moderne | — | — | table, titre | **89 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +234 | 949 |
+| `man` | Man, man, manʿ | — | — | titre, translit | **13 fiches** | 04-d.md +84 | 826 |
 | `manifeste` | Manifeste, Manifesté, manifeste, manifesté | — | — | table, tag, titre | **138 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +215 | 792 |
 | `matiere` | Matière, matière | — | — | table, titre | **198 fiches** | LISEZ-MOI.md +86 | 761 |
-| `memoire` | Mémoire, memoire, mémoire | — | — | table, tag, titre | **146 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +53 | 623 |
+| `memoire` | Mémoire, memoire, mémoire | — | — | table, tag, titre | **147 fiches** | LISEZ-MOI.md +55 | 627 |
 | `maintenant` | Maintenant, maintenant | — | — | definition, table | **54 fiches** | LISEZ-MOI.md +298 | 621 |
-| `modele` | Modèle, modelé, modèle | — | — | table, titre | **155 fiches** | LISEZ-MOI.md +33 | 585 |
+| `modele` | Modèle, modelé, modèle | — | — | table, titre | **155 fiches** | LISEZ-MOI.md +34 | 588 |
 | `modernes` | MODERNES, Modernes, modernes | — | — | titre | **41 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +233 | 552 |
 | `methode` | MÉTHODE, Méthode, methode, méthode | — | ⚖ universel | definition, table, tag, titre | **179 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +77 | 539 |
 | `mondes` | MONDES, Mondes, mondes | — | — | table, titre | **59 fiches** | erreurs-diverses-concernant-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +106 | 516 |
-| `mise` | MISE, Mise, Misé, mise | — | — | table, titre | **172 fiches** | LISEZ-MOI.md +115 | 477 |
+| `mise` | MISE, Mise, Misé, mise | — | — | table, titre | **172 fiches** | LISEZ-MOI.md +116 | 478 |
 | `multiples` | MULTIPLES, multiples, multìples | — | — | titre | **57 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +215 | 477 |
-| `mental` | MENTAL, Mental, mental | — | — | table, tag | **13 fiches** | 11-k.md +76 | 444 |
+| `mental` | MENTAL, Mental, mental | — | — | table, tag | **13 fiches** | 11-k.md +77 | 446 |
 | `meta` | Meta, meta, méta | — | — | table, tag | **62 fiches** | osman-yahya-02-chapitre-01.md +3 | 431 |
 | `motif` | Motif, motif | — | — | definition, table | **150 fiches** | LISEZ-MOI.md +37 | 414 |
 | `main` | MAIN, Main, main, maïn | — | — | titre | **100 fiches** | LISEZ-MOI.md +73 | 401 |
@@ -51,7 +51,7 @@ links: []
 | `manas` | MANAS, Manas, manas | — | — | annotation, table, tag | **23 fiches** | les-limites-du-mental-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +27 | 197 |
 | `muladhara` | MULADHÂRA, Mûlâdhâra, Mūlādhāra, muladhâra (+5) | — | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · +3 | la-puissance-du-serpent.md +3 | 192 |
 | `module` | MODULE, Module, module | — | — | table | **32 fiches** | — | 187 |
-| `mere` | Mère, mere, mère | — | — | table, tag | **29 fiches** | 16-s.md +53 | 175 |
+| `mere` | Mère, mere, mère | — | — | table, tag | **29 fiches** | 16-s.md +54 | 176 |
 | `metatron` | METATRON, Metatron, Métatron, metatron | — | — | annotation, table, tag, titre | **20 fiches** | verbum-lux-et-vita-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 171 |
 | `matieres` | MATIÈRES, matieres, matières | — | — | titre | **53 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +16 | 168 |
 | `metier` | metier, métier | — | — | tag, titre | **34 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +26 | 166 |
@@ -66,12 +66,12 @@ links: []
 | `macrocosme` | Macrocosme, macrocosme | — | — | annotation, tag | **23 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +38 | 112 |
 | `michel` | MICHEL, Michel, michel | — | — | table, titre | **32 fiches** | sept-etendards-califat-transcription.md +16 | 110 |
 | `manzil` | Manzil, manzil | — | — | table | **22 fiches** | sept-etendards-califat-transcription.md +2 | 105 |
+| `model` | Model, model, modèl | — | — | table, titre | **33 fiches** | 11-k.md +7 | 103 |
 | `maya` | Mayâ, MÂYÂ, Mâyâ, Mâyā (+6) | — | — | translit | **12 fiches** | la-puissance-du-serpent.md +10 | 101 |
 | `mecque` | MECQUE, Mecque | — | — | table, titre | **24 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +11 | 96 |
 | `majeste` | MAJESTÉ, Majesté, majeSté, majesté | — | — | table | **20 fiches** | autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon-2.md +14 | 93 |
-| `model` | Model, model, modèl | — | — | table, titre | **33 fiches** | 11-k.md +6 | 93 |
+| `memory` | MEMORY, memory | — | — | table | **18 fiches** | 00-front-matter.md +11 | 92 |
 | `melange` | MÉLANGE, Mélangé, melange, mélange (+1) | — | — | titre | **23 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +38 | 91 |
-| `memory` | MEMORY, memory | — | — | table | **18 fiches** | 00-front-matter.md +10 | 91 |
 | `materia` | MATERIA, Materia, materia | — | — | table, titre | **9 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +20 | 90 |
 | `mythe` | Mythe, mythe | — | — | titre | **19 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +25 | 89 |
 | `misericorde` | Miséricorde, miséricorde | — | — | table | **26 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +19 | 87 |
@@ -90,8 +90,8 @@ links: []
 | `manazil` | Manazil, Manäzil, Manāzil, manazil (+3) | — | — | table, tag, titre, translit | **30 fiches** | sept-etendards-califat-transcription.md +3 | 64 |
 | `materiau` | Matériau, matériau | — | — | titre | **38 fiches** | corps-du-texte.md | 64 |
 | `messie` | MESSIE, Messie, messie | — | — | table | **12 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +18 | 64 |
+| `markdown` | Markdown, markdown | — | — | table, titre | **40 fiches** | LISEZ-MOI.md +5 | 63 |
 | `musa` | Musa, Mûsa, Mûsâ, Müsa (+4) | — | — | translit | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/autorites/al-khwarizmi]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +7 | 63 |
-| `markdown` | Markdown, markdown | — | — | table, titre | **40 fiches** | LISEZ-MOI.md +5 | 62 |
 | `mcp` | MCP, mcp | — | — | tag, titre | **15 fiches** | — | 62 |
 | `melki-tsedeq` | MELKI-TSEDEQ, Melki-Tsedeq, melki-tsedeq | — | — | annotation, table, tag, titre | **11 fiches** | generalites-sur-le-vedanta-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +4 | 61 |
 | `muller` | Muller, Müller | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | generalites-sur-le-vedanta-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +15 | 59 |
@@ -137,16 +137,16 @@ links: []
 | `mihrab` | Mihrab, Miḥrāb, mihrab, mihrâb (+2) | — | — | table, titre, translit | **11 fiches** | sept-etendards-califat-transcription.md +3 | 28 |
 | `mustafa` | MusTAFA, Mustafa, Mustafâ, Mustafä | — | — | table | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/charles-andre-gilis]] · [[doctrinal/autorites/michel-valsan]] · [[meta/carte-du-depot-doctrinal]] · +1 | sciences-traditionnelles-et-modernite-pdf-soufisme.md +6 | 28 |
 | `mutlaq` | mutlaq, muṭlaq | — | — | translit | [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] · [[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +2 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 28 |
+| `michael` | Michael, Michaël | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] · +3 | 01-a.md +7 | 27 |
 | `molla` | Molla, Mollâ, Mollā | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] | isaghuji-cours01-introduction-transcription.md +6 | 27 |
 | `muir` | Muir | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch04-the-night-of-the-gods.md +7 | 27 |
 | `muraille` | MURAILLE, Muraille, muraille | — | — | annotation, tag | [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]] · [[doctrinal/sources/sefer-yetsira-ramban]] · [[doctrinal/sources/sefer-yetsira-ramban_source]] · [[meta/briefs/2026-08-30_passation-claude-ai-vers-terminal]] · [[meta/carte-du-depot-doctrinal]] · +1 | sciences-traditionnelles-et-modernite-pdf-soufisme.md +3 | 27 |
+| `mass` | Mass, mass, maṣṣ | — | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 09-i.md +17 | 26 |
 | `metal-gear` | metal-gear | — | — | annotation, tag | **14 fiches** | — | 25 |
-| `michael` | Michael, Michaël | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] · +3 | 01-a.md +6 | 25 |
 | `mahat` | Mahat | — | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]] · [[doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya]] | intellect-et-conscience-selon-valsan.md +9 | 24 |
 | `mand` | Mând, Mãnd, mand | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | 13-m.md +1 | 24 |
 | `modules` | Modules, modules | — | — | definition, table | **16 fiches** | — | 24 |
 | `majdhub` | Majdhûb, majdhub, majdhûb | — | — | annotation, tag | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-initiation-realisation-ch27-folie-apparente-sagesse-cachee]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | folie-apparente-et-sagesse-cachee-initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon.md +1 | 23 |
-| `mass` | Mass, mass, maṣṣ | — | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 09-i.md +16 | 23 |
 | `matras` | matras, mâtrâs | — | ⚖ universel | annotation, tag | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] · [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]] · [[meta/carte-doctrinal]] | les-differentes-conditions-d-atma-dans-l-etre-humain-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +5 | 23 |
 | `mafatih` | Mafatih, Mafâtîḥ, Mafätih, mafatih (+3) | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | isaghuji-cours01-introduction-transcription.md +5 | 22 |
 | `matrices` | matrices | — | — | titre | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 22 |

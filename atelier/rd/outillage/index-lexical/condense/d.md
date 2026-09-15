@@ -13,9 +13,9 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `dream` | DREAM, Dream, dream | — | — | table | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[meta/personnel/sidy]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 00-front-matter.md +28 | 13006 |
-| `deux` | DEUX, Deux, deux | — | — | table, titre | **486 fiches** | LISEZ-MOI.md +486 | 6614 |
-| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **394 fiches** | LISEZ-MOI.md +19 | 2067 |
-| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **463 fiches** | 14-o.md +47 | 1986 |
+| `deux` | DEUX, Deux, deux | — | — | table, titre | **486 fiches** | LISEZ-MOI.md +487 | 6622 |
+| `depot` | Depot, Dépôt, depot, dépôt | — | — | tag | **394 fiches** | LISEZ-MOI.md +19 | 2073 |
+| `doctrinal` | Doctrinal, doctrinal | — | — | table, tag, titre | **463 fiches** | 14-o.md +47 | 1987 |
 | `doctrine` | DOCTRINE, Doctrine, doctrine | — | — | table, titre | **261 fiches** | 08-h.md +251 | 1524 |
 | `degre` | DEGRÉ, Degre, Degré, degre (+1) | — | — | table, titre | **158 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +251 | 1464 |
 | `degres` | DEGRÉS, Degres, Degrés, degres (+1) | — | — | table, tag, titre | **164 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +197 | 1301 |
@@ -23,16 +23,16 @@ links: []
 | `discernement` | DISCERNEMENT, Discernement, discernement | — | — | table, tag, titre | **294 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +14 | 1103 |
 | `developpement` | DÉVELOPPEMENT, Développement, développement | — | — | table, titre | **177 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +221 | 986 |
 | `distinction` | DISTINCTION, Distinction, distinction | — | — | definition, titre | **177 fiches** | 01-a.md +257 | 842 |
-| `definition` | Définition, definition, définition | — | — | table | **183 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +122 | 770 |
-| `death` | Death, death | — | — | table, titre | **15 fiches** | 01-a.md +53 | 743 |
-| `date` | DATE, Date, Daté, date (+1) | — | ⚖ universel | definition, table | **163 fiches** | LISEZ-MOI.md +124 | 740 |
-| `double` | DOUBLE, Double, double, doublé | — | — | table, tag | **140 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +197 | 728 |
+| `definition` | Définition, definition, définition | — | — | table | **183 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +123 | 776 |
+| `death` | Death, death | — | — | table, titre | **15 fiches** | 01-a.md +54 | 745 |
+| `date` | DATE, Date, Daté, date (+1) | — | ⚖ universel | definition, table | **163 fiches** | LISEZ-MOI.md +125 | 741 |
+| `double` | DOUBLE, Double, double, doublé | — | — | table, tag | **140 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +198 | 729 |
 | `donnees` | Données, donnees, données | — | — | table, titre | **163 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-14.md +141 | 651 |
 | `directe` | DIRECTE, directe | — | — | titre | **168 fiches** | LISEZ-MOI.md +169 | 564 |
-| `difference` | DIFFÉRENCE, Difference, Différence, difference (+1) | — | — | titre | **73 fiches** | 16-s.md +239 | 515 |
+| `difference` | DIFFÉRENCE, Difference, Différence, difference (+1) | — | — | titre | **73 fiches** | 16-s.md +240 | 518 |
 | `devenir` | Devenir, devenir | — | — | titre | **85 fiches** | LISEZ-MOI.md +192 | 508 |
-| `doctrines` | Doctrines, doctrines | — | — | titre | **38 fiches** | 04-d.md +188 | 504 |
-| `direction` | Direction, direction, directìon | — | — | table, titre | **88 fiches** | 06-f.md +154 | 436 |
+| `doctrines` | Doctrines, doctrines | — | — | titre | **38 fiches** | 04-d.md +188 | 506 |
+| `direction` | Direction, direction, directìon | — | — | table, titre | **88 fiches** | 06-f.md +155 | 437 |
 | `dictionary` | DICTIONARY, Dictionary, dictionary | — | — | table, titre | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/a-popular-dictionary-of-shinto-bocking]] · [[doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili]] · [[meta/carte-du-depot]] | LISEZ-MOI.md +57 | 421 |
 | `dreams` | DREAMS, Dreams, dreams | — | — | table, titre | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili]] · [[hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire]] · [[meta/carte-du-depot]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | LISEZ-MOI.md +30 | 395 |
 | `description` | Description, description | — | — | definition, table | **83 fiches** | 08-h.md +76 | 364 |
@@ -41,24 +41,24 @@ links: []
 | `domaines` | Domaines, domaines | — | — | titre | **59 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +123 | 282 |
 | `droit` | Droit, droit | — | — | table, tag | **57 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +89 | 282 |
 | `discord` | DISCORD, Discord, discord | — | — | definition, table, tag, titre | **63 fiches** | 02-b.md +6 | 280 |
-| `detail` | Détail, detail, détail | — | — | definition, table | **93 fiches** | LISEZ-MOI.md +81 | 263 |
+| `detail` | Détail, detail, détail | — | — | definition, table | **93 fiches** | LISEZ-MOI.md +81 | 264 |
 | `delivrance` | DÉLIVRANCE, Délivrance, delivrance, délivrance | — | — | annotation, table, tag | **21 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-8.md +42 | 246 |
 | `determination` | Determination, Détermination, determination, détermination | — | — | table, titre | **36 fiches** | 08-h.md +89 | 245 |
 | `dhikr` | DHIKR, Dhikr, dhikr | — | ⚖ islam | annotation, table, tag, titre | **26 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +13 | 233 |
 | `deviation` | DÉVIATION, Déviation, deviation, déviation | — | — | table, tag, titre | **49 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +78 | 229 |
 | `diagnostic` | Diagnostic, diagnostic | — | — | definition, table, tag | **58 fiches** | — | 215 |
-| `directions` | Directions, directions | — | — | titre | **42 fiches** | 05-e.md +58 | 205 |
+| `directions` | Directions, directions | — | — | titre | **42 fiches** | 05-e.md +59 | 206 |
 | `dispositif` | Dispositif, dispositif | — | — | table, tag | **66 fiches** | isaghuji-cours01-introduction-transcription.md | 180 |
 | `dara` | Dara, DÂRÂ, Dâra, Dârâ (+3) | — | — | table, titre | **14 fiches** | la-puissance-du-serpent.md +4 | 177 |
+| `dome` | Dome, Dôme, dome, dôme | — | — | table, tag, titre | **22 fiches** | chapitre-xiii-l-athanor-titus-burckartt.md +24 | 177 |
 | `deploiement` | Déploiement, deploiement, déploiement | — | — | table, titre | **70 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +21 | 176 |
-| `dome` | Dome, Dôme, dome, dôme | — | — | table, tag, titre | **22 fiches** | chapitre-xiii-l-athanor-titus-burckartt.md +23 | 175 |
 | `dimensions` | Dimensions, dimensions | — | — | tag | **28 fiches** | 07-g.md +58 | 173 |
 | `doctrinales` | doctrinales | — | — | titre | **77 fiches** | LISEZ-MOI.md +15 | 168 |
 | `devotion` | Devotion, Dévotion, devotion, dévotion | — | — | tag | [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/dalail-al-khayrat-jazuli]] · [[doctrinal/symboles/animaux-en-reve-comparatisme]] · [[doctrinal/symboles/marcher-sur-eau-en-reve]] · [[meta/projet-unifie/directive-discernement-domaines]] | 00-front-matter.md +45 | 161 |
 | `desir` | Désir, desir, désir | — | — | table, titre | **26 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +37 | 159 |
 | `dualite` | Dualité, dualite, dualité | — | — | table, tag | **22 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-8.md +53 | 155 |
+| `distribution` | Distribution, distribution | — | — | table, titre | **59 fiches** | 03-c.md +16 | 151 |
 | `deterministe` | Déterministe, deterministe, déterministe | — | — | table, tag, titre | **72 fiches** | LISEZ-MOI.md +3 | 149 |
-| `distribution` | Distribution, distribution | — | — | table, titre | **59 fiches** | 03-c.md +15 | 149 |
 | `dharma` | DHARMA, Dharma, dharma | — | — | table, titre | **20 fiches** | 04-d.md +25 | 145 |
 | `dissolution` | DISSOLUTION, Dissolution, dissolution | — | — | tag, titre | **23 fiches** | 10-j.md +44 | 141 |
 | `documentation` | DOCUMENTATION, Documentation, documentation | — | — | definition, table | **47 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-8.md +17 | 120 |
@@ -68,7 +68,7 @@ links: []
 | `deprecated` | deprecated | — | — | tag | **25 fiches** | — | 101 |
 | `djinns` | Djinns, djinns | — | — | table, titre | **17 fiches** | LISEZ-MOI.md +3 | 101 |
 | `devas` | Devas, Dévas, Dêvas, Dêvâs (+2) | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]] · [[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]] | 16-s.md +31 | 98 |
-| `divergence` | Divergence, divergence | — | ⚖ universel | definition, table | **55 fiches** | contre-le-melange-des-formes-traditionnelles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +11 | 94 |
+| `divergence` | Divergence, divergence | — | ⚖ universel | definition, table | **55 fiches** | contre-le-melange-des-formes-traditionnelles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +11 | 95 |
 | `demarche` | Démarche, démarche | — | — | titre | **53 fiches** | LISEZ-MOI.md +5 | 91 |
 | `destinataire` | Destinataire, destinataire | — | — | definition, table | **34 fiches** | karubi-mehdi-navette-20260812.md +2 | 91 |
 | `d'allah` | d'Allāh | — | — | translit | **22 fiches** | isaghuji-cours01-introduction-transcription.md +11 | 84 |

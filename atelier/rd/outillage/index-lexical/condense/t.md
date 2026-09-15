@@ -12,29 +12,29 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `trois` | TROIS, Trois, trois, troìs | — | — | table, titre | **305 fiches** | LISEZ-MOI.md +219 | 2352 |
-| `tradition` | TRADITION, Tradition, tradition | — | — | table, tag, titre | **223 fiches** | 02-b.md +391 | 2299 |
-| `temps` | TEMPS, Temps, temps | — | — | table, tag, titre | **146 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +421 | 1642 |
+| `trois` | TROIS, Trois, trois, troìs | — | — | table, titre | **305 fiches** | LISEZ-MOI.md +220 | 2354 |
+| `tradition` | TRADITION, Tradition, tradition | — | — | table, tag, titre | **223 fiches** | 02-b.md +391 | 2301 |
+| `temps` | TEMPS, Temps, temps | — | — | table, tag, titre | **146 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +422 | 1643 |
 | `traditionnel` | TRADITIONNEL, Traditionnel, traditionnel | — | — | titre | **107 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +193 | 1307 |
 | `traite` | TRAITÉ, Traite, Traité, traite (+1) | — | — | table, titre | **147 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +100 | 1089 |
-| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **112 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +343 | 978 |
+| `traditionnelles` | TRADITIONNELLES, TRADITIONNELLÉS, Traditionnelles, Traditionñelles (+1) | — | — | titre | **113 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +343 | 980 |
 | `table` | TABLE, Table, table | — | — | table, titre | **160 fiches** | LISEZ-MOI.md +66 | 857 |
 | `traditionnelle` | TRADITIONNELLE, Traditionnelle, traditionnelle | — | — | table, titre | **165 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +216 | 782 |
 | `traduction` | TRADUCTION, Traduction, traduction | — | — | table, tag, titre | **102 fiches** | LISEZ-MOI.md +130 | 523 |
 | `transmission` | TRANSMISSION, Transmission, transmission | — | — | tag, titre | **129 fiches** | 16-s.md +78 | 479 |
-| `transcription` | TRANSCRIPTION, Transcription, transcription | — | — | table, tag, titre | **133 fiches** | LISEZ-MOI.md +20 | 451 |
+| `transcription` | TRANSCRIPTION, Transcription, transcription | — | — | table, tag, titre | **134 fiches** | LISEZ-MOI.md +21 | 460 |
+| `three` | Three, three | — | — | table | **24 fiches** | 01-a.md +55 | 435 |
 | `textes` | TEXTES, Textes, textes | — | — | table, tag, titre | **114 fiches** | LISEZ-MOI.md +121 | 434 |
-| `three` | Three, three | — | — | table | **24 fiches** | 01-a.md +54 | 429 |
-| `type` | Type, type, typé | — | — | definition, table | **120 fiches** | 00-front-matter.md +102 | 415 |
-| `technique` | TECHNIQUE, Technique, technique | — | — | definition, titre | **148 fiches** | LISEZ-MOI.md +73 | 411 |
+| `type` | Type, type, typé | — | — | definition, table | **120 fiches** | 00-front-matter.md +103 | 427 |
+| `technique` | TECHNIQUE, Technique, technique | — | — | definition, titre | **148 fiches** | LISEZ-MOI.md +74 | 412 |
 | `total` | TOTAL, Total, total | — | ⚖ islam | definition, table | **77 fiches** | 10-j.md +123 | 342 |
 | `trace` | Trace, Tracé, trace, tracé | — | — | table, tag | **96 fiches** | 08-h.md +103 | 311 |
 | `temple` | TEMPLE, Temple, temple, templé | — | — | table, titre | **25 fiches** | 01-a.md +84 | 284 |
 | `temporel` | Temporel, temporel | — | — | table, titre | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +81 | 265 |
 | `to-source` | to-source | — | — | tag | **43 fiches** | karubi-mehdi-navette-20260812.md | 260 |
-| `tour` | Tour, tour | — | — | table, titre | **44 fiches** | 11-k.md +84 | 252 |
+| `tour` | Tour, tour | — | — | table, titre | **44 fiches** | 11-k.md +85 | 254 |
+| `test` | Test, test | — | — | definition, table, titre | **76 fiches** | 11-k.md +5 | 236 |
 | `tard` | tard, ṭard | — | ✓ islam | translit | **36 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +134 | 235 |
-| `test` | Test, test | — | — | definition, table, titre | **76 fiches** | 11-k.md +4 | 235 |
 | `trone` | Trone, Trône, trone, tròne (+1) | — | — | table | **45 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +30 | 233 |
 | `tantra` | Tantra, tantra | — | — | annotation, table, tag | **14 fiches** | la-puissance-du-serpent.md +4 | 204 |
 | `triade` | Triade, triade | — | — | table, titre | **37 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +50 | 203 |
@@ -42,10 +42,10 @@ links: []
 | `transposition` | Transposition, transposition | — | — | annotation, tag | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +88 | 196 |
 | `tension` | Tension, tension | — | — | table, titre | **99 fiches** | la-puissance-du-serpent.md +3 | 176 |
 | `ternaire` | TERNAIRE, Ternaire, ternaire | — | — | tag, titre | **29 fiches** | le-symbolisme-du-theatre-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +34 | 173 |
-| `theme` | Thème, theme, thème | — | — | table, titre | **61 fiches** | 07-g.md +14 | 162 |
+| `theme` | Thème, theme, thème | — | — | table, titre | **61 fiches** | 07-g.md +15 | 163 |
 | `theologie` | THÉOLOGIE, Théologie, theologie, théologie | — | — | tag | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +40 | 156 |
+| `types` | Types, types, typés | — | — | table, titre | **46 fiches** | 00-front-matter.md +42 | 146 |
 | `traitement` | Traitement, traitement | — | — | table, titre | **64 fiches** | la-puissance-du-serpent.md +4 | 143 |
-| `types` | Types, types, typés | — | — | table, titre | **46 fiches** | 00-front-matter.md +40 | 141 |
 | `table des matieres` | Table des matières | — | — | definition | **44 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +10 | 138 |
 | `tilak` | TILAK, Tilak, tilak | — | — | annotation, table, tag, titre | **30 fiches** | LISEZ-MOI.md +7 | 132 |
 | `traces` | Traces, traces, tracés | — | — | table, titre | **15 fiches** | 11-k.md +58 | 132 |
@@ -78,8 +78,8 @@ links: []
 | `triptyque` | Triptyque, triptyque | — | — | table, titre | **26 fiches** | — | 66 |
 | `tombeau` | Tombeau, tombeau | — | — | table, titre | **23 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +7 | 63 |
 | `taureau` | Taureau, taureau | — | — | table | **25 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 62 |
+| `typical` | Typical, typical | — | — | table | **17 fiches** | 09-i.md +7 | 62 |
 | `tokens` | Tokens, tokens | — | — | definition, table | **33 fiches** | 16-p.md | 61 |
-| `typical` | Typical, typical | — | — | table | **17 fiches** | 09-i.md +6 | 61 |
 | `tariqa` | Tariqa, tariqa, tarîqa, tarīqa (+3) | — | ✓ islam | annotation, table, tag, titre, translit | **28 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 60 |
 | `transversale` | transversale | — | — | titre | **35 fiches** | — | 59 |
 | `tailscale` | Tailscale, tailscale | — | — | table | **22 fiches** | karubi-mehdi-navette-20260812.md | 58 |
@@ -94,7 +94,7 @@ links: []
 | `tresor` | Tresor, Trésor, tresor, trésor | — | — | table | **11 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +16 | 46 |
 | `traite par` | Traité par | — | — | definition | **11 fiches** | munqidh-05-partie-3.md +1 | 45 |
 | `trente` | Trente, trente | — | — | titre | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[doctrinal/autorites/faraz-rabbani]] · [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · +2 | la-puissance-du-serpent.md +10 | 45 |
-| `throw` | Throw, throw | — | — | table, titre | **11 fiches** | 11-k.md +14 | 43 |
+| `throw` | Throw, throw | — | — | table, titre | **11 fiches** | 11-k.md +15 | 44 |
 | `titus` | Titus | — | — | titre | **21 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +2 | 40 |
 | `tanmatras` | Tanmatras, Tanmātras, tanmatras, tanmâtras (+1) | — | — | annotation, table, tag, translit | [[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] · [[doctrinal/sources/guenon-introduction-doctrines-hindoues-ch11-sankhya]] · +2 | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md +10 | 39 |
 | `tashbih` | tashbih, tashbîh, tashbīh, tashbīḥ | — | — | translit | **10 fiches** | sept-etendards-califat-transcription.md +2 | 37 |

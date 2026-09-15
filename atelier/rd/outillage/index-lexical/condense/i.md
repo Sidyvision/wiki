@@ -30,14 +30,14 @@ links: []
 | `influences` | INFLUENCES, Influences, influences, influencés | — | — | table, titre | **21 fiches** | 01-a.md +132 | 323 |
 | `individuelle` | INDIVIDUELLE, individuelle | — | — | titre | **51 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +115 | 316 |
 | `image` | Image, image | — | — | table, titre | **83 fiches** | 05-e.md +129 | 314 |
-| `instrument` | INSTRUMENT, Instrument, instrument | — | — | definition, table, tag, titre | **133 fiches** | 03-c.md +48 | 311 |
+| `instrument` | INSTRUMENT, Instrument, instrument | — | — | definition, table, tag, titre | **133 fiches** | 03-c.md +49 | 312 |
 | `integration` | INTEGRATION, INTÉGRATION, Integration, Intégration (+2) | — | — | table, titre | **102 fiches** | 01-a.md +13 | 245 |
-| `identification` | Identification, identification | — | — | definition, table, titre | **65 fiches** | 01-a.md +67 | 231 |
+| `identification` | Identification, identification | — | — | definition, table, titre | **65 fiches** | 01-a.md +68 | 232 |
 | `ilm` | Ilm, ilm, ʿIlm, ʿilm | — | — | titre, translit | **46 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +11 | 192 |
 | `idris` | Idris, Idrîs, Idrīs, idris | — | ✓ islam | annotation, table, tag, titre, translit | **38 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +6 | 186 |
 | `imam` | IMAM, Imam, Imàm, Imâm (+5) | — | — | translit | **24 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +28 | 181 |
 | `interdit` | INTERDIT, Interdit, interdit | — | — | definition | **88 fiches** | LISEZ-MOI.md +20 | 166 |
-| `investigation` | Investigation, investigation | — | — | definition, table, titre | **34 fiches** | 11-k.md +16 | 137 |
+| `investigation` | Investigation, investigation | — | — | definition, table, titre | **34 fiches** | 11-k.md +17 | 139 |
 | `incident` | Incident, incident | — | — | table, titre | **60 fiches** | 04-d.md +9 | 136 |
 | `indian` | Indian | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]] · [[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]] · +1 | 02-b.md +47 | 120 |
 | `ismail` | Ismail, Ismaïl, Ismâʿîl, Ismāʿīl (+1) | — | — | translit | [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/autorites/al-jazari]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/universal-man-jili]] · [[doctrinal/symboles/maqamat-meknes]] | 01-a.md +12 | 114 |
@@ -46,23 +46,23 @@ links: []
 | `illusion` | Illusion, illusion | — | — | tag | **12 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +70 | 106 |
 | `inconditionne` | INCONDITIONNÉ, Inconditionné, inconditionne, inconditionné | — | — | tag | **17 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +42 | 98 |
 | `individualite` | individualite, individualité | — | — | tag | [[doctrinal/deviations/antitradition-et-contre-tradition]] · [[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]] · [[doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]] · [[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]] · +1 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +57 | 98 |
-| `interface` | Interface, interface | — | — | table, tag, titre | **57 fiches** | karubi-mehdi-navette-20260812.md | 97 |
+| `interface` | Interface, interface | — | — | table, tag, titre | **57 fiches** | karubi-mehdi-navette-20260812.md +1 | 98 |
 | `irs` | IRS | — | — | titre | **10 fiches** | a-propos-de-conversions-initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon.md +25 | 92 |
 | `isa` | Isa, Isä, isa, Îsä (+2) | — | — | tag, translit | [[doctrinal/autorites/ibn-arabi]] · [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]] · +3 | 00-front-matter.md +16 | 88 |
 | `ida` | Ida, Idâ, Iḍā, ida (+5) | — | — | tag, translit | **14 fiches** | la-puissance-du-serpent.md +5 | 85 |
 | `ihwan` | Ihwan, Ihwān, Iḫwān | — | — | table, titre, translit | **11 fiches** | osman-yahya-08-repertoire.md | 81 |
+| `intelligence` | Intelligence, intelligence | — | — | table, titre | **19 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +39 | 81 |
 | `indefini` | INDÉFINI, indefini, indéfini | — | — | tag | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]] · [[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]] · [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +46 | 80 |
+| `inventaire` | Inventaire, inventaire | — | — | tag, titre | **39 fiches** | karubi-mehdi-navette-20260812.md +3 | 80 |
 | `intellect` | Intellect, intellect | — | — | table, tag, titre | **34 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +12 | 79 |
-| `inventaire` | Inventaire, inventaire | — | — | tag, titre | **39 fiches** | karubi-mehdi-navette-20260812.md +3 | 79 |
-| `intelligence` | Intelligence, intelligence | — | — | table, titre | **19 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +38 | 78 |
 | `iod` | iod | — | — | tag, titre | **11 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +8 | 78 |
 | `isolation` | Isolation, isolation | — | — | table, tag, titre | **31 fiches** | 10-j.md +2 | 76 |
 | `isaac` | Isaac | — | — | table, titre | **10 fiches** | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +5 | 63 |
 | `inference` | Inference, Inférence, inference, inférence | — | — | table, tag | **32 fiches** | arctic-ch01-prehistoric-times.md +9 | 60 |
 | `ila` | Ila, ila, ilâ, ilä (+4) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]] · +2 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +10 | 58 |
+| `imagination` | Imagination, imagination | — | — | tag | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/sommaire-hindouisme-soufisme]] · [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · +3 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +31 | 53 |
 | `invariants` | Invariants, invariants | — | — | table, tag, titre | **37 fiches** | — | 53 |
 | `islamic` | Islamic | — | — | table | **14 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +10 | 53 |
-| `imagination` | Imagination, imagination | — | — | tag | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/sommaire-hindouisme-soufisme]] · [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · +3 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +30 | 52 |
 | `implementation` | Implémentation, implementation, implémentation | — | — | definition, tag | **28 fiches** | — | 50 |
 | `isoles` | Isolés, isolés | — | — | titre | **12 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-5.md +9 | 47 |
 | `izz` | Izz, izz, ʿIzz | — | — | titre, translit | [[doctrinal/autorites/titus-burckhardt]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | osman-yahya-05-chapitre-04.md +5 | 47 |
