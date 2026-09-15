@@ -10,6 +10,16 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/veille | La méthode d'audit passe en skill — `external-tool-audit` versée au magasin
+
+- **Ordre de Sidy** : « Souhaitez-vous que je codifie la méthode… » → « Oui vas-y », puis « Je valide le skill » après relecture de la pièce stagée.
+- **Ce qui entre** : la skill `external-tool-audit` au profil `studio`, catégorie `hermes` — **hors dépôt**, le magasin de skills n'étant pas versionné ici (même écart déclaré que le serveur MCP, §VIII.11). Fichier : `~/.hermes/profiles/studio/skills/hermes/external-tool-audit/SKILL.md`, 8 215 o, description `Audit an external tool, then consign the verdict.` (49 caractères). Corps : huit étapes à critère de complétion, forme de consignation, pièges, vérification.
+- **Appliquée par le chemin sanctionné, jamais à la main** : `apply_skill_pending` → `{"success": true, "operations_applied": 1}`, puis `discard_pending` → `True` ; le validateur du magasin rend **ACCEPTÉ** sur le fichier réel.
+- **Épreuve du contrôle — faute fabriquée, refus observé (§VII)** : sur une description factice de 90 caractères, le validateur refuse et nomme la règle — `Description is 90 chars — new skills must fit the 60-char system-prompt budget…`. C'est cette épreuve qui **dément un chiffre porté par la fiche** : la limite est de **60 caractères**, 57 n'étant que la fenêtre de troncature de l'index. Correction stagée (`e61d84ef`).
+- **Croyance corrigée, avec sa mesure** : l'approbation n'est **pas** automatique. Ce qu'Hermes fait en parallèle, c'est **proposer** (`origin: background_review` — deux des trois pièces en attente venaient de là). Rien n'approuve : le constat du jour est déjà consigné (« 238 écritures stagées depuis 38 jours, aucune appliquée »), `apply_skill_pending` n'est atteignable que par `/skills approve` (CLI et passerelle, même gestionnaire), et les rejets sont manuels (`pending/skills/rejetees-2026-09-15/`). Le seul levier inverse serait `/skills approval off` (config `skills.write_approval`) — non proposé : §VIII.1 pose le contraire.
+- **Laissé en place, sur son mot** : `3f29118b` (création du même nom par le réviseur d'arrière-plan, description de 187 caractères) et `6c5fe4bc`. Refus mesurés dans le code pour la première : description hors limite, puis collision de nom (`A skill named 'external-tool-audit' already exists`).
+- **Commit** : aucun de contenu — acte hors dépôt ; repère avant la passe `f157e34`. La présente entrée est le seul artefact dépôt de la passe.
+
 ## [2026-09-15] rd/veille | Soup CLI (post-entraînement local d'un LLM) — scrutation consignée et rattachée à INF-16
 
 - **Ordre de Sidy** : « investigue ça pour nous : https://trysoup.dev/zero », puis « Validé » sur la proposition de consignation (fiche + registre + rattachement `INF-16`).
