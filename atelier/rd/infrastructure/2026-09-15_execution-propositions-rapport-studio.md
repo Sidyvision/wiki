@@ -138,6 +138,38 @@ copié (`studio-jobs.avant-2026-09-15.json`, `settings.local.avant.json`,
    python3 atelier/rd/outillage/verifier-renvois-skills.py
 ```
 
-## 7. État d'exécution
+## 7. État d'exécution — exécuté le 2026-09-15
 
-*Non encore exécuté au commit de cette fiche.*
+Contrat commité avant exécution : `5caf556`. Sorties brutes :
+
+- **G1** : comparaison mots à mots de la section retirée (`e8733c4^`) et du prompt `meta/` →
+  `identique à l'espace près : True`. Aucune écriture.
+- **P1** : prompt relu **sur disque** après écriture (jamais l'auto-rapport) :
+  ```
+     HERMES_HOME=/root/.hermes python3 atelier/rd/outillage/etat-file-skills.py
+     HERMES_HOME=/root/.hermes python3 atelier/rd/outillage/verifier-renvois-skills.py
+  ```
+  `jobs.json` confronté à sa copie d'avant, prompt exclu : identique ; indentation identique ;
+  `enabled = True`. Mesures sur la flotte avec ce préfixe : `total : 9 position(s), 1
+  inapte(s), 4 alerte(s)` et `total : 1304 skill(s), 14 renvoi(s) mort(s), 115 mention(s)
+  manquante(s)`. Premier rapport à porter la ligne corrigée : celui du 2026-09-16.
+- **P2** — épreuve §VII du nouveau contrôle :
+  plan réel (charge non arrêtée) → `code=1` (**refus**) ; copie jetable portant
+  `charge de reference arretee : U1, U3 — 2026-09-20` → `code=0` (**vert**) ; copie jetable
+  portant le gabarit `<usages>` en début de ligne → `code=1` (**refus**). L'ancien motif
+  trouvait **2** lignes sur le plan réel.
+- **P3** : avant correctif, `carte-du-depot.py … --json` → `error: unrecognized arguments:
+  --json`, code 2 ; après, `carte_du_depot()` → `ok: True, code 0`. Appel de chaque entrée du
+  serveur (16) : `ok` pour 12 ; **code 1 comme résultat** pour `detecter_non_tracke` (les
+  fichiers de la passe, non encore commités) et `valider_index_livres` (**défaut réel,
+  hors serveur** : `atelier/rd/bibliotheque/index-noms-ihwan-al-safa.md` n'a pas le cartouche
+  `index-livre` — cinq clés manquantes, `type: ressource` — signalé, non corrigé) ; **non
+  appelées** : `ajouter_inbox` et `generer_glossaire_unifie` (elles écrivent). Ce sont des
+  appels, pas des épreuves de refus : OUT-18 reste ouvert pour cela.
+- **P4** : trois entrées déposées en tête du registre des problèmes ; l'entrée `[2026-09-13]`
+  est close par la première.
+- **P5** : ligne `OUT-19` ouverte ; recompte depuis les lignes après ajout :
+  `61 {'en-cours': 9, 'ouvert': 34, 'bloque': 5, 'attente-verdict': 13}` ; question (ii)
+  inscrite au point 7 des points soumis à Sidy.
+- **S** : 7 règles retirées (`allow` : 233 → 226), fichier relu et JSON valide.
+- **O** : aucun geste.

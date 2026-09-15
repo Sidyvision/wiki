@@ -105,9 +105,10 @@ candidats du `spec.md` (U1 tri des tâches Hermes, U2 filtre d'étanchéité, U3
 recherche sémantique, U4 fine-tuning, U5 distillation depuis un modèle large),
 ceux qui comptent. C'est la seule étape qui ne peut pas être préparée par la
 machine : elle décide de la taille de modèle, donc de la machine, donc du prix.
-La ligne de verdict est consignée ici même sous la forme exacte
-`charge de reference arretee : <usages> — <date>`, que le critère d'acceptation 1
-va chercher.
+La ligne de verdict est consignée ici même, **en début de ligne**, sous la forme
+exacte `charge de reference arretee : <usages> — <date>`, que le critère
+d'acceptation 1 va chercher (motif corrigé le 2026-09-15 : l'ancien contrôle
+trouvait le gabarit et sa propre ligne de tableau, donc était vert par construction).
 
 **Étape 2 — Relever les prix, datés et sourcés.** Pour chaque option A à G : prix
 d'acquisition de la configuration réellement visée (pas l'entrée de gamme, qui
@@ -210,7 +211,7 @@ réécrit hormis le registre et les annales, chacun selon sa discipline propre
 | La ligne de registre existe et pointe ici | `grep -n "INF-16" atelier/rd/registre-chantiers.md` |
 | Les trois fiches portent bien le champ `chantier:` | `grep -c "^chantier: INF-16" atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/*.md` → `1` par fichier |
 | Hygiène Unicode (Cmd 15) | contrôle du hook `pre-push` versionné (`atelier/rd/outillage/hooks/`) |
-| La charge de référence a bien été arrêtée (critère 1) | `grep -n "charge de reference arretee" atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan.md` |
+| La charge de référence a bien été arrêtée (critère 1) | `grep -nE '^charge de reference arretee : [^<]' atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan.md` — **éprouvé le 2026-09-15** : refus (code 1) sur le plan non rempli, vert sur copie jetable portant une ligne remplie |
 
 **Ce que ces contrôles ne prouvent pas** : ils portent sur la forme des fiches,
 jamais sur la justesse d'un prix ou d'une mesure. Aucun script ne peut vérifier

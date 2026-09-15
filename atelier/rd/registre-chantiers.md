@@ -68,12 +68,14 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**60 lignes de chantier** — **toutes dans les quatre statuts déclarés** depuis
+**61 lignes de chantier** — **toutes dans les quatre statuts déclarés** depuis
 l'alignement du 2026-09-13 : aucune valeur hors vocabulaire ne subsiste (voir les
 notes ci-dessous) —, plus **10** versés en §9 (clos ou caducs) et 6 lignes en §8
 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous modifiez une
 ligne, ce tableau se recompte, il ne s'estime pas.
 
+> **Note de recomptage (2026-09-15, seconde passe).** `OUT-19` ouvert (P5 du rapport Studio du jour). Recompte mécanique des lignes §1–§7 **avant** ajout : 60 = `ouvert` 33 / `bloque` 5 / `en-cours` 9 / `attente-verdict` 13 (la note ci-dessous, à 58, précède l'ajout d'`OUT-18`). **Après** ajout : **61 = 34 / 5 / 9 / 13**.
+>
 > **Note de recomptage (2026-09-15).** `OUT-17` est ajouté ce jour (contrôles
 > manquants autour de la file d'écritures de skills), en même temps que `OUT-16`,
 > versé par la passe concurrente du même jour. Le tableau a donc été **recompté
@@ -309,7 +311,9 @@ non dépouillées dans cette passe → §8.*
 
 | OUT-17 | **Trois contrôles manquants autour de la file d'écritures de skills** (établis le 2026-09-15). (1) **À l'entrée** : rien ne confronte une proposition au contrat du magasin — sur onze requêtes retenues d'un même lot, cinq étaient inaptes (description > 60 caractères), deux avaient un YAML invalide, une pas de champ `name:`. (2) **En file** : rien ne publie ce qui est retenu — 215 positions ont dormi 38 jours sans qu'aucun rapport le dise. (3) **À la sortie** : rien ne confronte les fichiers qu'un skill déclare à ceux réellement livrés — **six fichiers déclarés jamais livrés sur cinq skills** (quatre réparés par greffe depuis l'archive, deux par retrait de la déclaration, tous trouvés et traités le 2026-09-15). Deux pièces déterministes livrées et **éprouvées par l'échec** (§VII) : `etat-file-skills.py` (état de la file + compte des inaptes) et `verifier-renvois-skills.py` (renvois déclarés vs disque, qui distingue une déclaration d'une citation en exemple). | `en-cours` | introduire la ligne de rapport dans un job périodique : **faite le 2026-09-15** — étape 6 du §2 du job `monitoring-infrastructure-quotidien` (profil `studio`, id `41dc3e7e492c`) ; **suivre** désormais le taux d'inaptes et de renvois morts sur les rapports quotidiens | [[atelier/rd/outillage/out-17-controles-file-et-renvois-skills/intent]] ; [[atelier/rd/outillage/out-17-controles-file-et-renvois-skills/spec]] ; [[atelier/rd/outillage/out-17-controles-file-et-renvois-skills/plan]] | 2026-09-15 |
 
-| OUT-18 | **L'organe de vérification était réputé éprouvé en bloc, alors qu'une seule de ses entrées l'avait été** — l'outil MCP `carte_du_depot` construit ses arguments avec `--json` (`wiki_mcp_server.py` l. 246-248) que `carte-du-depot.py` n'a jamais accepté : l'outil ne peut pas fonctionner, quel que soit l'appel, quand `verifier_invariants` rend son JSON sans défaut | `ouvert` | éprouver **une par une** les entrées du serveur MCP (chacune appelée pour de vrai, avec son refus observé sur faute fabriquée, §VII) ; le correctif de `carte_du_depot` (retrait de `--json`) **attend un verdict** — le serveur vit hors dépôt et n'est pas versionné | registre des problèmes, entrée `[2026-09-15]` | 2026-09-15 |
+| OUT-18 | **L'organe de vérification était réputé éprouvé en bloc, alors qu'une seule de ses entrées l'avait été** — l'outil MCP `carte_du_depot` construit ses arguments avec `--json` (`wiki_mcp_server.py` l. 246-248) que `carte-du-depot.py` n'a jamais accepté : l'outil ne peut pas fonctionner, quel que soit l'appel, quand `verifier_invariants` rend son JSON sans défaut | `ouvert` | éprouver **une par une** les entrées du serveur MCP (chacune appelée pour de vrai, avec son refus observé sur faute fabriquée, §VII) ; le correctif de `carte_du_depot` (retrait de `--json`) **appliqué le 2026-09-15** sur consigne de Sidy — refus reproduit avant (`unrecognized arguments: --json`, code 2), appel réel après (`ok`, code 0) ; état d'avant conservé hors dépôt, trace dans [[atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio]]. Reste l'épreuve de refus entrée par entrée — le serveur vit hors dépôt et n'est pas versionné | registre des problèmes, entrée `[2026-09-15]` | 2026-09-15 |
+
+| OUT-19 | **`infra_verif` ne sait pas vérifier une entrée `mcp_servers`** — l'affirmation « trois profils portent le serveur Ansari » (fiche `2026-09-15_integration-mcp-ansari`) n'est vérifiable qu'à la main, exactement le défaut que le champ `infra_verif` a été ouvert pour combler (§VII). Étendre `verifier-coherence-infrastructure.py` à une clé `mcp_servers` (profil → nom de serveur attendu dans `config.yaml`) | `ouvert` | triptyque à rédiger et viser (Cmd 6) ; aucun code avant visa ; épreuve par l'échec exigée (§VII) | rapport Studio du 2026-09-15, P5 (i) ; [[atelier/rd/infrastructure/2026-09-15_integration-mcp-ansari]] ; [[atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio]] | 2026-09-15 |
 
 ## 4. Bibliothèque (`BIB`)
 
@@ -410,3 +414,7 @@ Aucun n'est tranché par la machine (Cmd 12/13).
    la seule occurrence existante est précisément celle qui était fausse. L'arrêter relève
    de Sidy ; en attendant, l'état réel de chaque proposition est porté en encart daté dans
    son corps.
+7. **Régime d'un artefact dérivé porteur de corpus** (rapport Studio du 2026-09-15, P5 (ii)) —
+   un adaptateur de poids entraîné sur le corpus du dépôt *contient* du corpus, vit hors du
+   dépôt et n'entre dans aucune des cinq cloisons (§VI). À nommer avant qu'une machine
+   existe (INF-16), sinon l'usage tranchera à la place du verdict.

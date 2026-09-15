@@ -30,6 +30,62 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] Clôture de l'entrée [2026-09-13] — les trois pins sont prouvés, un par un
+
+- **Symptôme** : l'entrée `[2026-09-13]` « Une résolution déclarée au nom de trois jobs,
+  prouvée sur un seul » attendait la citation brute des trois `jobs.json`.
+- **Résolution** : relecture directe en session Claude Code, 2026-09-15, des trois fichiers
+  `cron/jobs.json` des profils concernés :
+  ```
+  gardien     431fcacadca2 veille-protocole-gardien              model= deepseek-flash provider= deepseek
+  publication ad3152b237bb veille-referencement-investigation-08 model= deepseek-flash provider= deepseek
+  studio      41dc3e7e492c monitoring-infrastructure-quotidien   model= deepseek-flash provider= deepseek
+  ```
+  Trois objets, trois preuves : la déclaration de l'entrée `[2026-09-11]` du
+  `journal-optimisations.md` était vraie, elle est désormais portée.
+- **Compréhension tirée** : celle de l'entrée d'origine, inchangée.
+- **Liens** : entrée `[2026-09-13]` ci-dessous ; rapport Studio du 2026-09-15 §4.10 ;
+  [[atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio]] (P4).
+- **Statut** : `resolu` — et l'entrée `[2026-09-13]` avec elle (append-only : non réécrite).
+
+## [2026-09-15] Amortissement d'un constat doctrinal — un aveu de démarche rangé en philologie
+
+- **Symptôme** : l'abrègement déclaré par le traducteur de l'*Iḥyāʾ* (préface : « not too
+  literally but in substance », versets et hadiths conservés, arguments d'écoles retranchés)
+  a été classé comme fait philologique au lieu d'être consigné comme qualification de la
+  démarche ; un comptage (« 64 ») a en outre été tenu deux tours durant, faux, à cause d'un
+  saut de page absorbé par une capture `grep -o`.
+- **Diagnostic** : exiger un aveu d'appartenance là où l'aveu de la démarche suffisait, et
+  nommer cela « prudence » — l'amortissement se présente comme une vertu.
+- **Résolution** : incident rédigé et clos — cinq clauses opératoires (aveu suffisant, test
+  de la hiérarchie, signe du renversement offert en garantie, anti-amortissement,
+  inspection des octets avant tout comptage) :
+  [[atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya]].
+  Aucune entrée de ce registre ne le couvrait (rapport Studio du 2026-09-15, §4.9 A).
+- **Compréhension tirée** : un constat exact peut être neutralisé par son classement ; la
+  cinquième clause complète OUT-16 (le contrôle d'hygiène ne balaye que les fichiers
+  versionnés, jamais les fichiers de travail où l'on compte).
+- **Liens** : OUT-16 ; fiche doctrinale de fond annoncée par l'incident, **due au circuit
+  `doctrinal/`**, non écrite ici.
+- **Statut** : `ouvert` — la fiche doctrinale reste à produire.
+
+## [2026-09-15] Porte et fork : la question est tranchée — deux lignes de statut du jour sont périmées
+
+- **Symptôme** : les entrées `[2026-09-15]` « Clôture du jugement — 31 positions réservées »
+  et « Suite — le jugement de la file est exécuté » portent « options C/D (porte et fork)
+  **non tranchées** ». Or le verdict du même jour est consigné :
+  [[atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills]] §8 — **ne
+  rien éteindre**, porte et fork inchangés.
+- **Résolution** : constat par la présente entrée ; les deux entrées ne sont pas réécrites
+  (append-only). Sur ce seul point, **la présente entrée fait foi**. Leurs autres points
+  ouverts (scripts de croisement en double, absence de procédure vidéo) restent ouverts.
+- **Compréhension tirée** : une ligne de statut écrite avant le verdict du jour doit être
+  relue quand le verdict tombe — le motif « statut en retard sur son cahier » déjà signalé
+  par le rapport Studio du 2026-09-14.
+- **Liens** : rapport Studio du 2026-09-15 §4.10 ;
+  [[atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio]] (P4).
+- **Statut** : `resolu`
+
 ## [2026-09-15] Le contrat du magasin est bien vérifié — mais au dernier moment, et nulle part avant
 
 - **Symptôme** : une création de skill proposée le 2026-09-15 (position `e5394107`,
