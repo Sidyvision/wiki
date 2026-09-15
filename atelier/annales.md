@@ -10,6 +10,50 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] outillage | OUT-17 — la ligne de rapport entre dans le job Studio, et le job n'a pas eu à redémarrer
+
+**Verdict** : « oui vas-y ». La validation d'ensemble ne disait pas si elle portait aussi sur une
+écriture dans un job de **production** ; la question a été posée, la réponse est venue. Le point de
+retour à l'humain a été franchi dans les formes.
+
+**Ce qui a changé.** Le job `monitoring-infrastructure-quotidien` (profil `studio`, id
+`41dc3e7e492c`, cron `0 12 * * *`, livraison Discord `#infrastructure`, `workdir /root/wiki`) :
+
+- son **§2** passe de « Empreinte serveur » à « Empreinte serveur **et file d'écritures** » ;
+- l'**étape 6** y est ajoutée : `etat-file-skills.py`, puis `verifier-renvois-skills.py`, sorties
+  brutes recopiées comme pour le reste du rapport ;
+- la consigne **embarque sa propre notice**, et c'est le point qui compte : *les deux scripts
+  sortent en code non nul dès qu'une anomalie existe — **un code 1 est un RÉSULTAT, pas une panne
+  du job**, et il ne justifie pas d'arrêter les étapes suivantes*. Sans cette phrase, le rapport du
+  lendemain aurait conclu à une panne là où il y a une information — la façon la plus sûre de tuer
+  un contrôle est de le rendre illisible.
+- le **renvoi mort connu** y est **nommé comme connu et non traité** (`hermes-agent-skill-authoring`,
+  skill officiel, déclare `scripts/run_tests.sh` qu'il ne livre pas) : un contrôle qui crie chaque
+  jour sur la même chose devient du bruit qu'on cesse de lire, donc un contrôle qui ne dit plus rien.
+
+**Renumérotation déclarée** : les étapes 6 à 10 deviennent 7 à 11 (§3 et §4 suivent), et la ligne de
+format du rapport suit (« §2 … sorties brutes des scripts 5-6 »). Aucun autre champ n'a bougé :
+`deliver`, `schedule`, `workdir`, `model` (`deepseek-flash`), `provider`, `enabled`, `no_agent`,
+`reasoning_effort` sont **identiques à la sauvegarde**, vérifié champ par champ avant écriture.
+
+**Modification par le fichier, pas par l'outil.** `cronjob_manage` ne voit que le magasin du profil
+courant (`default`) et a rendu « job not found » — leçon à retenir : **les outils de cron d'une
+session ne portent pas sur les autres profils**. Écriture directe sur
+`profiles/studio/cron/jobs.json`, **après sauvegarde** `jobs.json.bak-out17-20260915-035744`,
+indentation et `ensure_ascii` conservés, **sans BOM** — trois défauts connus de ce fichier quand il
+est réécrit : BOM, indentation perdue, jobs perdus en route (le produit porte même un test pour le
+BOM). Contrôle en relecture : JSON valide, 4 jobs intact, prompt relu identique au prompt voulu.
+
+**Aucun redémarrage du gateway Studio**, et c'est établi, pas supposé : le fournisseur intégré
+« **re-reads jobs.json each tick** » (`hermes_cli/web_server.py:13121`). Le gateway tourne
+(PID 292266, battement 54 s) ; la prochaine exécution, aujourd'hui à 12:00, prendra la nouvelle
+consigne.
+
+**Reste** : lire le premier rapport qui portera la ligne et juger si le code de sortie non nul y est
+**lisible sans déclencher de fausse alerte**.
+
+Commit : 7d21c33
+
 ## [2026-09-15] entretien | Les deux archives de monitoring du 2026-09-14 entrent dans l'historique
 
 - Constat fait en vérifiant l'arbre de travail **avant de pousser** : deux fichiers non suivis
