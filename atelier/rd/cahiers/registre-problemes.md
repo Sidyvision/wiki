@@ -30,6 +30,48 @@ consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] Le contrat du magasin est bien vérifié — mais au dernier moment, et nulle part avant
+
+- **Symptôme** : une création de skill proposée le 2026-09-15 (position `e5394107`,
+  origine `assistant_tool`) a été **acceptée par la mise en file** — la position a
+  occupé la file normalement — puis **refusée à l'approbation**, avec la sortie brute :
+  `Description is 142 chars — new skills must fit the 60-char system-prompt budget
+  (one sentence, trigger first, ends with a period). The skill index truncates longer
+  descriptions to 57 chars + '...', destroying the routing signal. Move detail into
+  the skill body. — batch aborted, all touched skills rolled back.`
+  La reprise, en **une seule opération** avec une description de 52 caractères, est
+  passée du premier coup ; les deux positions devenues caduques ont été retirées par
+  la voie sanctionnée (`/skills reject`).
+- **Diagnostic** : le contrat du magasin (`description` ≤ 60 caractères) est vérifié
+  par la **chaîne d'application**, pas par `stage_write`. Conséquence : une position
+  peut séjourner en file dans un état **qui ne pourra jamais s'appliquer**, et rien ne
+  le dit — le compte de la file ne dit rien de l'applicabilité de ce qu'elle porte.
+  C'est l'écart nommé par `OUT-17` §(1) (« rien ne confronte une proposition au contrat
+  du magasin »), **à un mot près** : la confrontation existe, mais **après** la file,
+  jamais avant. Elle protège donc le magasin, pas le travail déjà retenu.
+- **Résolution** : **aucune modification d'outil** par cette session (le constat est
+  rapporté, pas corrigé d'office — Cmd 12). Contournements employés et rapportés :
+  rédiger la `description` **selon le contrat dès le staging** ; approuver une position
+  par la voie interne du magasin (`hermes_cli/write_approval_commands`,
+  `handle_pending_subcommand`) sur verdict explicite de Sidy, plutôt qu'en écrivant
+  dans le répertoire des skills.
+- **Compréhension tirée** : (1) **Un contrôle placé au dernier moment ne protège pas
+  la file** — même classe que les entrées `[2026-08-17]` (un job déclaré créé et
+  inexistant) et `[2026-09-15]` (215 positions dormantes : « tout mécanisme qui retient
+  doit publier ce qu'il retient ») : ici, il retient aussi des positions mortes, sans le
+  publier. (2) Le contrat se respecte **à l'écriture**, pas à la soumission : une
+  description hors contrat est une position morte-née. (3) La voie interne d'approbation
+  est utilisable par l'agent **sur verdict** de l'utilisateur — c'est la forme fidèle
+  (le verdict reste humain), et la seule qui ne contourne pas le magasin.
+- **Liens** : `OUT-17` (registre des chantiers §3, `en-cours`) ; entrée `[2026-09-15]`
+  « Une porte qui retient depuis 38 jours, sans que rien ne le dise » ;
+  `tools/write_approval.py` (`stage_write`, `list_pending`, `discard_pending`),
+  `hermes_cli/write_approval_commands.py` (`handle_pending_subcommand`) ; skill
+  `wiki-lot-integration` (le piège y est consigné côté outil).
+- **Statut** : `ouvert`
+- **Déposé par** : session Hermes `default` (WebUI), sur accord de Sidy du 2026-09-15 :
+  « Je valide l'ensemble ».
+
 ## [2026-09-15] L'organe de vérification appelait un script avec une option qu'il n'a jamais acceptée
 
 - **Symptôme** : outil MCP `carte_du_depot` appelé depuis une session Hermes
