@@ -9,6 +9,22 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] étude | Jaimungal — l'éléphant inversé et les Védas portés dans l'étude antagoniste
+
+- **Verdict de Sidy** : la conférence transcrite n'est pas la vidéo décrite, mais s'inscrit dans
+  la continuité de son propos ; porter l'éléphant inversé et les Védas.
+- [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] : section I.2 mise
+  sur pièces (la vidéo décrite reste `to-source`) ; nouvelle section IV. **Védas** : convergence
+  relevée avec *Orient et Occident*, II, ch. II (pas de caution croisée tradition / théorie
+  scientifique), érigée en garde pour le dépôt. **Éléphant inversé** : objection de Sidy rapportée
+  telle quelle (pas d'accord sans unité ; nuance : s'accorder sur X en le nommant Y) ; examen
+  formel — la nuance est le cas symétrique de l'éléphant inversé et se trouve textuellement chez
+  Guénon (« derrière la diversité des expressions, reconnaître la vérité une ») ; question laissée
+  ouverte : le critère extérieur d'identité de l'X. Aucun verdict de la machine (Cmd 12).
+- Citations de Jaimungal lues sur la transcription automatique, non relues sur l'audio.
+- Contrôles : invariants 0 erreur / 71 avertissements (inchangé).
+- **Commit** : 9cbd533
+
 ## [2026-09-15] archivage | Jaimungal, *Consciousness, Irreducibility, and the Local to Global* — transcription versée ; l'étude antagoniste en attente de verdict
 
 - **Consigne** : vidéo désignée par Sidy (`youtu.be/q2Zgp2EhSk8`), extraction autorisée par notube.
