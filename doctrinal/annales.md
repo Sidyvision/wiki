@@ -9,6 +9,20 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] archivage | Fiche d'autorité : Jamāl al-Dīn al-Afghānī
+
+- **Consigne** : « crée une fiche aussi pour al-Afghani ».
+- [[doctrinal/autorites/al-afghani]] — maître de ʿAbduh ; panislamisme ; réponse à Renan (1883) ;
+  *al-ʿUrwa al-Wuthqā* (Paris, 1884) ; *Réfutation des matérialistes* (1881) ; appartenance
+  maçonnique rapportée sans jugement. Sources **secondaires** concordantes (Wikipedia en, Wikipédia
+  fr) ; textes `to-source` ; Guénon ne le nomme pas dans les textes versés.
+- `status: profane` et placement en `autorites/` **proposés, provisoires** : à reclasser avec ʿAbduh
+  et Riḍā si le type neutre « référence » proposé par Sidy le même jour est adopté (plan à présenter).
+- Reliée depuis les fiches ʿAbduh (cartouche et corps) et Riḍā ; annotations appariées, validateur
+  sans refus ; entrées présentes dans l'index lexical.
+- Contrôles : invariants 0 erreur / 71 avertissements (inchangé).
+- **Commit** : 4a0533f
+
 ## [2026-09-15] restauration | Curt Jaimungal n'est pas une autorité — fiche placée en `sources/`
 
 - **Verdict de Sidy** : « il ne me semble pas que l'on puisse placer Curt Jaimungal en autorité ».
