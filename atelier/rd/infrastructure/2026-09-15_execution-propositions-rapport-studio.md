@@ -172,4 +172,8 @@ Contrat commité avant exécution : `5caf556`. Sorties brutes :
   `61 {'en-cours': 9, 'ouvert': 34, 'bloque': 5, 'attente-verdict': 13}` ; question (ii)
   inscrite au point 7 des points soumis à Sidy.
 - **S** : 7 règles retirées (`allow` : 233 → 226), fichier relu et JSON valide.
+  **Rectification (2026-09-15, même soirée)** : la règle `Bash(python3 -c ' *)` a été
+  **rétablie** sur demande de Sidy — c'est lui qui l'avait configurée. Bilan réel : **6 règles
+  retirées** (`allow` : 233 → 227) ; la règle Python reste un choix délibéré de Sidy, non un
+  défaut.
 - **O** : aucun geste.
