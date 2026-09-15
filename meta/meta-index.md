@@ -209,6 +209,7 @@ lecture : [[meta/projet-unifie/archives/README|README des archives]].*
 - [[meta/2026-07-27_correctif-etendu-invariants-depot|Correctif étendu — Invariants structurels du dépôt]]
 - [[meta/bibliotheque-physique|Bibliothèque physique de travail (TOMBSTONE — déplacée)]]
 - [[meta/chantier-kamon-kouyate|Chantier — Réminiscence autour du kamon Kouyaté (cadre et méthode)]]
+- [[meta/lot-synthese-kamon-kouyate-2026-09-15|Lot nominatif — synthèse de continuité du chantier kamon Kouyaté (fiche de provenance)]]
 - [[meta/ingest-brief|Brief d'ingest (DÉPRÉCIÉ)]]
 - [[meta/migration-2026-06-11|Protocole de Restauration Traditionnelle du Wiki (archive)]]
 - [[meta/onboarding|Onboarding — État du Wiki]]

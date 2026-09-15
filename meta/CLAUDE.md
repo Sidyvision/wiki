@@ -129,6 +129,38 @@ en écriture, cas Mehdi) — la première remise reste humaine/physique, inchang
 - §9→§10 (Questions pour Sidy → Réponses) reste une réponse directe de Sidy,
   mot pour mot, hors périmètre de tout automatisme.
 
+## Lots nominatifs — une fiche de provenance en `meta/`, jamais une fiche `source` en circuit (ouvert le 2026-09-15, verdict Sidy)
+
+Le protocole racine prévoit, pour une source déposée dans `raw/`, une **fiche
+`source`** dans le circuit concerné (`protocoles/action-archivage.md`). Cette
+forme suppose une pièce **cataloguable** — un ouvrage, un texte reçu.
+
+Un **lot nominatif** — matière familiale ou personnelle produite **hors du
+dépôt** (synthèse de conversation, document de travail) — **ne peut pas**
+recevoir de fiche `source` dans un circuit : l'y verser franchirait l'étanchéité
+(§VI — aucun fait personnel dans une page neutre). Sa forme est donc **propre au
+Domaine Réservé** :
+
+1. Sa trace de provenance est une **fiche de premier niveau de `meta/`**,
+   `lot-<slug>-<date>.md` (`type: source`), portant : nature de la pièce,
+   provenance, chemin dans `raw/`, **empreinte `sha256`**, citation employée par
+   les fiches alimentées, et **ce qu'elle a alimenté**.
+2. Le **fichier** reste dans `raw/` (hors git, pièce nominative) : la fiche le
+   **décrit**, elle ne le remplace pas.
+3. Les fiches alimentées — si elles vivent en `meta/` — citent le lot par son
+   label de provenance dans `sources:`; ce label **ne résout pas vers une page**
+   (la pièce est hors git), pratique établie du dépôt pour les lots de `raw/`.
+4. Un circuit **neutre** ne reçoit du lot que la **conséquence de design** de sa
+   matière, jamais la matière elle-même.
+
+**Écart déclaré, non comblé (Cmd 12)** : `protocoles/action-archivage.md` garde
+sa lettre pour les sources cataloguables ; la présente clause ne le modifie pas
+— elle nomme le cas que sa forme ne couvre pas. Un lot nominatif traité sans
+fiche de provenance est un lot sans trace : la fiche se crée **dans la passe qui
+l'intègre**, pas après.
+
+Verdict de Sidy du 2026-09-15 : « Place en meta/ ».
+
 ## Corollaire agentique (2026-08-09) — couche opérative Hermes
 
 L'étanchéité ci-dessus régit les **circuits du dépôt** (doctrinal, atelier,
