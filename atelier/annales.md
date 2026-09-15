@@ -10,6 +10,16 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] infrastructure | Entretien des skills — les 24 créés passés sous curateur, 3 procédures épinglées
+
+- **Verdict de Sidy** : « oui intègre la fonction curateur ».
+- **Ce qu'est le curateur**, pour mémoire : une **routine d'entretien interne de Hermes**, pas un agent ni une persona. Elle s'applique aux skills portant une marque de provenance ; `stale` à 30 jours sans usage, `archive` à 90 (le skill sort du prompt, **revient par `restore`**), sauvegarde `tar.gz` avant chaque passage, passe LLM de consolidation **désactivée** (elle tourne donc sans modèle, en ~2 s), **ne supprime jamais**, et **est par profil**.
+- **Adoption des 24 skills créés cette nuit** : `default` 58 → **77** gérés (dont **19** créés par agent), `gardien` 58 → **62**, `studio` 58 → **59**. Vérifié par `hermes curator status` sur les trois profils.
+- **Non adopté, délibérément** : la trentaine de skills **officiels** sans marque de provenance (`github-*`, `ocr-and-documents`, `nano-pdf`, `petdex`, `polymarket`, `yuanbao`…). Les adopter les soumettrait aux mêmes règles de temps et modifierait le catalogue installé : **décision laissée ouverte**, pas prise au passage.
+- **Trois épinglages** en `gardien` — `karubi-provisioning`, `karubi-transmissions`, `depot-doctrinal-integration` — parce que ces procédures s'emploient **rarement par nature**, et qu'une procédure absente au moment où on en a besoin est un **risque**, non un gain de propreté. Exempts de toute transition automatique ; `unpin` les rend au régime commun.
+- **Contrôles** : `verifier-invariants.py --racine /root/wiki` — **0 erreur**, 71 avertissements. À noter, parce que c'est la démonstration du jour : l'erreur `[B0]` signalée à 01:29 sur `meta/protocole-archives/CLAUDE-v5_2026-09-15.md` **a disparu** entre-temps — la passe concurrente l'a corrigée avant 01:44. **La ligne de base a bougé deux fois en quinze minutes, dans les deux sens, par un tiers** : la citer avec son heure n'est pas une coquetterie de méthode, c'est la seule façon de ne pas s'accuser soi-même d'une erreur qu'on n'a pas commise.
+- **Commit** : `3cb42d3` (fiche §10)
+
 ## [2026-09-15] entretien | Suppression du dernier `.bak` du dépôt — clôture du point laissé ouvert
 
 - **Verdict de Sidy**, 2026-09-15 : « Le .bak peux être supprimé ». Le point était nommé comme ouvert dans l'entrée précédente ; il est clos.
