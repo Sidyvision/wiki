@@ -10,6 +10,19 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] infrastructure | Clôture du jugement — 31 positions réservées : 10 skills créés, 16 rejetées, 5 pièces greffées (traitement, étape 3)
+
+- **Méthode** : un sujet à la fois, comme demandé — contenu **lu** avant recommandation, réserves nommées quand elles appartiennent à Sidy, verdict consigné verbatim. Sept verdicts distincts, tous rendus.
+- **Résultat mesuré** : **10 skills créés** (7 `default`, 3 `gardien`), **16 positions rejetées** et archivées avant retrait. `karubi-provisioning`, `karubi-transmissions`, `depot-doctrinal-integration` (vérification), `doctrinal-integration` (production), `hermes-skill-store-operations`, `hermes-character-profiles`, `structured-spiritual-interview`, `taabir-ruya`, `hermes-scoped-gateway`, `deterministic-integrity-tooling`.
+- **Vérification indépendante** : les dix `SKILL.md` sur le disque, frontmatter YAML valide, description dans le budget de 60 caractères — et pour les deux skills portant des renvois, **confrontation des fichiers déclarés au disque**.
+- **Cinq pièces greffées plutôt que perdues**, toutes reprises **de l'archive** — aucune reconstruite de mémoire. Dont **deux renvois morts** réparés : `templates/hermes-gateway.service.tmpl` et `references/tarifat-corpus-state.md`, déclarés par un skill mais dont la position vivait dans **un autre enregistrement** de la file, écarté par ailleurs.
+- **Écart de conduite déclaré** : deux jugements corrigés en cours de route — le partage « famille outillage » était faux pour trois de ses cinq sujets, et `doctrinal-integration` avait été annoncé côté `default` alors que sa position vivait dans la file `gardien` (appliqué quand même dans `default`, conformément au partage validé).
+- **Compréhension tirée (complément au §VII)** : trois vérifications manquaient sur ce dispositif, chacune a coûté un silence — **à l'entrée** (rien ne confronte la proposition au contrat du magasin : 60 caractères, YAML, champ `name:`), **en file** (rien ne publie ce qui est retenu), **à la sortie** (rien ne confronte les renvois déclarés aux fichiers livrés). Les trois sont désormais nommées.
+- **Fait observé trois fois dans la journée** : le fork propose la compétence qui décrit le travail en cours (`mcp-server-integration`, `hermes-skill-store-operations`, `verdict-gated-work`). Il ne se souvient pas de ses propositions — même cause que les 29 redites.
+- **Ce que la passe laisse ouvert** : options **C/D** (porte, fork) non tranchées ; **aucun signal** sur la file ; deux scripts de croisement quasi identiques à arbitrer ; **aucune procédure pour la vidéo** ; une position neuve (`verdict-gated-work`, 7 386 o., 01:02) non jugée.
+- **Contrôles** : `verifier-invariants.py --racine /root/wiki` — **0 erreur**, 71 avertissements (C5/C6 antérieurs, inchangés).
+- **Commit** : `b873d78` (fiche §7 étape 3 + registre)
+
 ## [2026-09-15] infrastructure | File d'attente morte — jugement exécuté : 11 skills créés, 118 rejetées, 30 réservées (traitement, étape 2)
 
 - **Verdict de Sidy**, verbatim : « Mais il suffit d'accepter les requêtes légitimes et c'est tout », puis, en cours de passe : « oui crée le skill s'il est légitime et bon pour l'infrastructure ».
