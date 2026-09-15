@@ -10,6 +10,15 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] entretien | Suppression du dernier `.bak` du dépôt — clôture du point laissé ouvert
+
+- **Verdict de Sidy**, 2026-09-15 : « Le .bak peux être supprimé ». Le point était nommé comme ouvert dans l'entrée précédente ; il est clos.
+- **Fichier** : `meta/protocole-archives/CLAUDE.md.bak-2026-08-22-pre-deplacement-bibliotheque`, dernier des cinq `.bak` du dépôt, les quatre autres ayant été supprimés au commit `554f876`.
+- **Réversibilité établie AVANT la suppression** (Cmd 10, jamais de suppression sèche) : le fichier était suivi par git depuis `863e147`. `git show 863e147:<chemin>` rend **40 487 octets**, de `sha256` `34ec3bac31f4…`, **identique octet pour octet** à l'empreinte du fichier sur disque. Aucun renvoi vers ce chemin dans le dépôt (recherche `.md`/`.py`/`.yaml`, hors `raw/` et hors annales).
+- **Un fait qui n'était pas acquis et qu'il faut dire** : ce `.bak` n'était identique à **aucune** archive de `meta/protocole-archives/`. Il portait un **état intermédiaire propre** du protocole — rév. 2026-08-12, pré-déplacement bibliothèque — situé entre `CLAUDE-v2-monolithique_2026-08-12.md` et `CLAUDE-v3_2026-09-09.md` (568 et 641 lignes d'écart respectivement). Cet état n'est donc plus lisible dans l'arbre de travail ; il reste lisible **dans l'historique**, à la commande citée ci-dessus. La suppression est réversible, elle n'est pas sans effet : c'est la distinction qui est consignée ici.
+- **Contrôle** : `verifier-invariants.py` — **0 erreur, 71 avertissements**, inchangé.
+- **Commit** : `ff09c49`
+
 ## [2026-09-15] outillage | Chantier Ghazâlî — Ihyâ' arabe versé, hygiène Unicode outillée et éprouvée, §II du protocole amendé
 
 - **Verdicts de Sidy** exécutés dans cette passe, verbatim : « Intègre l'original Arabe en priorité » ; « Unifie le yâ', le lot 2 n'est plus necessaire » ; « Supprime les.bak s'il n'ont plus d'utilité et textes/ peux être corrigé sans problème lorsque que c'st qualitativement justifier » ; « Je valide la proposition, commit ».
