@@ -395,7 +395,6 @@ Les 30 réservées — familles `karubi-*`, `transmission`, `doctrinal-*`, `wiki
 **Bilan de la journée sur ce dispositif** : **22 skills créés** (11 + 10 + 1), **134 positions rejetées** au jugement (hors les 60 retirées à la déduplication), **5 pièces greffées** depuis l'archive, **3 renvois morts** traités — deux réparés par greffe, un par retrait de la déclaration. Et la file s'est **reremplie pendant la passe** : `hermes-skill-store-operations` (00:10), `verdict-gated-work` (01:02), `hermes-profile-targeting` (01:11) — la troisième **non jugée**.
 
 ## 9. Point 3 — instruit, non exécuté
-
 Le remède aux trois vérifications manquantes, soumis en trois pièces déterministes et **une seule ligne de rapport** :
 
 1. **Un état de la file**, lisible en une ligne, par profil : nombre de positions, plus ancienne, plus récente — et le **compte des propositions inaptes** (contrat du magasin : description > 60 caractères, frontmatter YAML invalide, champ `name:` absent, renvoi déclaré inexistant). C'est la vérification **à l'entrée** faite de l'extérieur, puisque le stage lui-même n'en fait aucune.
@@ -408,6 +407,21 @@ Deux obstacles nommés avant d'écrire une ligne de code :
 - **`hermes-skill-store-operations` embarque `scripts/drain-skill-queue.py`** (8 866 o.), proposé par le fork et **non audité**. À lire avant de s'en servir : un script de dépouillement écrit par le dispositif qu'on est en train de contrôler ne s'adopte pas sur parole.
 
 Conformément au protocole du pôle, un chantier qui passe de *recensé* à *instruit* reçoit un dossier `intent.md` / `spec.md` / `plan.md` dans son domaine, et **aucun code n'est écrit pour ce chantier tant que le `plan.md` n'est pas visé**. Les trois pièces ci-dessus sont donc un *intent*, pas un début d'exécution.
+
+## 10. Entretien des skills créés — passage sous curateur (2026-09-15, ~01:40 UTC)
+
+Verdict de Sidy : « oui intègre la fonction curateur ».
+
+**Ce qu'est le curateur** (question posée puis traitée) : une **routine d'entretien interne de Hermes** — ni un agent, ni une persona. Périmètre : les skills portant une **marque de provenance**. Règles de temps : `stale` à **30 jours sans usage**, `archive` à **90 jours** (le skill va dans `.archive/`, sort du prompt, et **revient par `hermes curator restore`**). Sauvegarde `tar.gz` avant chaque passage. La passe LLM de consolidation est **désactivée** (`consolidate: off`) : il tourne donc **sans modèle, en ~2 secondes**. Rapport par passage : `logs/curator/<horodatage>/REPORT.md`. **Il ne supprime jamais.** Et il est **par profil** — `default`, `gardien`, `studio` ont chacun le leur.
+
+**Ce qui a été fait** : les **24 skills créés cette nuit** ont été déclarés au curateur (`hermes curator adopt`) — 19 en `default`, 4 en `gardien`, 1 en `studio`. Mesure avant/après : `default` 58 → **77** gérés (dont **19** créés par agent) ; `gardien` 58 → **62** ; `studio` 58 → **59**.
+
+**Ce qui n'a pas été fait, délibérément** : la trentaine de skills **officiels** sans marque de provenance — `github-*`, `ocr-and-documents`, `nano-pdf`, `petdex`, `polymarket`, `yuanbao`… — **n'ont pas été adoptés**. Les adopter les soumettrait aux mêmes règles : dormants à 30 jours, archivés à 90. Cela changerait le catalogue installé, et ce n'est pas une décision technique anodine : **elle reste à trancher**.
+
+**Trois épinglages** (`hermes curator pin`, profil `gardien`), parce que ces procédures s'emploient **rarement par nature** et qu'une procédure absente **au moment où on en a besoin** est un risque, pas un gain de propreté : `karubi-provisioning`, `karubi-transmissions`, `depot-doctrinal-integration`. Épinglé = exempt de **toute** transition automatique. Réversible en une commande (`unpin`).
+
+**Ce que cela change pour la suite** : les 21 autres skills de la nuit vieilliront normalement — dormants à 30 jours, archivables à 90 — ce qui est le régime voulu : *un skill qui ne sert pas ne doit pas encombrer l'index, et il revient par `restore`*. Les trois épinglés n'en sortiront jamais, et c'est assumé.
+
 
 
 
