@@ -10,6 +10,14 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] incident | L'organe de vérification appelait un script avec une option qu'il n'a jamais acceptée
+
+- **Ordre de Sidy** : « Oui vas-y mais avant prend bien le temps d'investiguer le R&D pour toute information instructive » — l'enquête R&D a précédé l'inscription du signalement.
+- **Ce qui est consigné** : une entrée au **registre des problèmes** (`atelier/rd/cahiers/registre-problemes.md`), au format à sept champs, avec la sortie brute de l'outil **non paraphrasée**. Fait : l'outil MCP `carte_du_depot` construit ses arguments avec `--json` (`wiki_mcp_server.py` l. 246-248) que `carte-du-depot.py` n'a jamais accepté — l'outil ne peut donc pas fonctionner, quel que soit l'appel, quand `verifier_invariants` rend son JSON sans défaut.
+- **Leçon tirée, consignée avec le fait** : l'organe de vérification (CLAUDE.md §VIII.11) était réputé éprouvé **en bloc**, alors qu'une seule de ses entrées l'avait été — c'est celle qui n'avait jamais été vue refuser qui échouait. Et le repli employé (script en direct) **n'est pas neutre** : il écrit l'artefact dans le dépôt là où l'outil écrivait en `/tmp`.
+- **Non corrigé d'office** (Cmd 12) : le serveur vit hors dépôt et son versionnement n'est pas décidé (§VIII.11). Chantier `OUT-18` **suggéré, non inscrit** — l'inscription au registre demande un verdict (Cmd 13).
+- **Commit** : 6be9473
+
 ## [2026-09-15] ouverture | DOC-09 — le chantier kamon Kouyaté entre au registre, et le tableau est recompté
 
 - **Verdict de Sidy** : inscription en **§7 Doctrinal**, « puisque les chantiers apparentés y vivent » — contre la ligne en §0 Vue d'ensemble et la non-inscription proposées.

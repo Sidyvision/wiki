@@ -13,6 +13,13 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] verdict | Réserve levée sur les ouvertures du grand-père — « le scepticisme usuel d'un appareil profane »
+
+- **Verdict de Sidy**, au troisième point de la passe du jour : le classement des ouvertures du grand-père au rang de simple « récit » — demandé par le lot reçu — procède du « scepticisme usuel d'un appareil profane dont on ne se souciera pas ici ». Le point est **clos**.
+- **Effet, et rien de plus** : [[meta/genealogie/samballa-kouyate]] **conserve ses attestations telles quelles** ; aucune fiche n'est modifiée sur le fond. Seule la réserve qui opposait les deux fiches est levée, dans [[meta/genealogie/2026-09-15_difference-et-privilege-vecus]], où le mot du verdict est conservé **tel qu'il a été donné** — sans glose de la machine.
+- **Ce que la machine n'en fait pas** : aucune conséquence doctrinale n'est tirée de ce verdict, et le registre spirituel reste hors de son champ (Cmd 2). La fiche constate la levée d'une réserve de classement ; elle ne qualifie rien.
+- **Commit** : 6be9473
+
 ## [2026-09-15] archivage | Chantier kamon Kouyaté — le dossier A entre au Domaine Réservé, et le cadre de méthode avec lui
 
 - **Ordre de Sidy** : verser au dépôt la synthèse d'un chantier ouvert **hors dépôt** (conversation avec un assistant), « à intégrer au dépôt ». Le lot est passé par le sas `_inbox/` avant toute intégration (§IX), puis a été intégré **fiche par fiche**, les placements étant soumis et tranchés en deux temps (dossier A d'abord ; cadre et parts par circuit ensuite). Le sas a été vidé après intégration validée (§IX.8), la copie immuable restant dans `raw/` (hors git).
