@@ -10,6 +10,30 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/infrastructure | Exécution des propositions du rapport Studio du 2026-09-15
+
+- Consigne de Sidy : exécuter P1, P5 « et le reste ». Fiche-contrat écrite et commitée avant
+  exécution : [[atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio]]
+  (`5caf556`).
+- **Brouillon 09** : rien à recopier — sa section est déjà en `meta/`, identique à l'espace près.
+- **P1** (hors dépôt) : prompt du job `monitoring-infrastructure-quotidien`, préfixe
+  `HERMES_HOME=/root/.hermes` sur les deux scripts OUT-17 ; aucun script modifié (correction de
+  ce que le registre de traitement annonçait). Flotte mesurée : 9 positions ; 1304 skills,
+  14 renvois morts.
+- **P2** : contrôle du critère 1 d'INF-16 réparé. **Épreuve** : refus sur le plan réel et sur
+  un gabarit collé en début de ligne, vert sur copie jetable remplie.
+- **P3** (hors dépôt) : `carte_du_depot` sans `--json` — code 2 avant, `ok` après ; 16 entrées
+  du serveur appelées (12 `ok`, 2 codes 1 comme résultats, 2 non appelées car elles écrivent).
+  Signalé : `index-noms-ihwan-al-safa.md` hors cartouche `index-livre`.
+- **P4** : trois entrées au registre des problèmes ; `[2026-09-13]` close.
+- **P5** : `OUT-19` ouvert (§0 : 61 lignes, recomptées) ; régime de l'artefact dérivé inscrit
+  aux points soumis à Sidy, non tranché.
+- **Autorisations** (hors dépôt) : 7 règles élargissantes retirées de `settings.local.json`.
+- **omniroute** : aucun geste — arrêt conservatoire de Sidy du 2026-09-08, déjà consigné ; le
+  rapport se trompait en le disant non signalé.
+- Contrôles : invariants 0 erreur / 71 avertissements.
+- **Commit** : 9e16387
+
 ## [2026-09-15] protocole | Index lexical exempté du sens des liens (§VI)
 
 - Verdict de Sidy (« exempter ») sur la suggestion 1 du rapport Publication du 2026-09-15.
