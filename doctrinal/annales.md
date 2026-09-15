@@ -9,6 +9,24 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] restauration | Type neutre « référence » : quatre fiches reclassées en `references/`
+
+- **Verdict de Sidy** sur la proposition du type « référence » : « 1. Confirmé 2. Oui 3. Oui 4. Plus
+  tard, ajoute à Queue-idée ».
+- [[doctrinal/references/muhammad-abduh]], [[doctrinal/references/rashid-rida]],
+  [[doctrinal/references/al-afghani]] — déplacées de `autorites/` par `git mv`, retypées
+  `reference` ; talons `deprecated` aux anciens emplacements (les entrées d'annales du jour y
+  pointent) ; statut `profane` toujours **proposé**, non tranché.
+- [[doctrinal/references/curt-jaimungal]] — fiche de la personne créée ; la conférence reste en
+  [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] ; le talon
+  `autorites/curt-jaimungal.md` est redirigé vers la référence ; l'annotation de son nom dans
+  l'étude est **rétablie** en `data-genre="reference"`.
+- Annotations `autorite` → `reference` sur ces noms dans les fiches qui les citent. Catalogue :
+  nouvelle section « III bis. Les Références ».
+- Contrôles : index régénéré après `git add` ; validateur v1.5 sans refus sur les fiches du jour ;
+  invariants 0 erreur / 71 avertissements, **B8 muet sur le dépôt**.
+- **Commit** : 30c8c17
+
 ## [2026-09-15] vigilance | Les validations d'annotations faites avant `git add` ne vérifiaient pas les fiches nouvelles
 
 - **Constat** : `generer-index-lexical.py` et `valider-annotations.py` ne retiennent que les `.md`

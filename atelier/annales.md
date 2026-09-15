@@ -10,6 +10,18 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-15] rd/outillage | Contrôle B8 (valeur de `type:` au Sceau) et genre `reference` (validateur v1.5)
+
+- `verifier-invariants.py` — **B8** : refuse toute valeur de `type:` hors de la liste du Sceau
+  Recteur (fichiers de service `type: meta` exceptés). Mesure préalable : zéro fiche hors liste,
+  d'où un contrôle bloquant d'emblée. **Épreuve** (clone jetable) : `type: etude-inventee`
+  **refusé** ; `type: reference` accepté.
+- `valider-annotations.py` v1.5 — `reference` ajouté au vocabulaire clos. **Épreuve** (clone neuf) :
+  `data-genre="reference"` accepté, `data-genre="personnage-invente"` **refusé**. Une première
+  épreuve avait porté sur la v1.4 par erreur (`git reset --hard` du clone avant l'essai) : refaite,
+  consignée.
+- **Commit** : 30c8c17
+
 ## [2026-09-15] rd/outillage | `valider-annotations.py` v1.4 — signalement S2 (fichier non suivi)
 
 - Verdict de Sidy. S2 nomme chaque `.md` non suivi par git (`git ls-files --others

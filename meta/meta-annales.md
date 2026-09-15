@@ -13,6 +13,18 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-15] protocole | Type neutre « référence » adopté ; réexamen « Érudition académique » mis en queue
+
+- Proposition `meta/projet-unifie/propositions/proposition-type-reference-2026-09-15.md` passée à
+  **validée, exécution effective**. Protocoles amendés : `doctrinal/CLAUDE.md` (type, définition,
+  frontières, homonymie), `CLAUDE.md` racine (§II arborescence, §VII huit genres),
+  `protocoles/annotations-html.md` ; changelog du protocole mis à jour (amendement additif, sans
+  archive de version).
+- Question 4 versée à `meta/projet-unifie/queue-idees.md` : `reexamen-rubrique-erudition-academique`
+  (priorité normale), avec l'incohérence Yaqub Chaudhary (`status: traditionnel` sous « Érudition
+  académique »).
+- **Commit** : 30c8c17
+
 ## [2026-09-15] protocole | « `git add` d'abord » inscrit ; proposition du type « référence » rédigée
 
 - **Verdict de Sidy** : « je valide tes propositions et rédige le plan pour le type "référence" ».
