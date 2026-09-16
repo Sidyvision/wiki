@@ -237,11 +237,34 @@ Le 2026-09-06 : ouverture de `OUT-15` et `INS-01` passé `ouvert` → `en-cours`
 | `INS` Instrument | 9 | 2 | 1 | 3 | **15** |
 | `INF` Infrastructure & agents | 7 | 3 | 1 | 3 | **14** |
 | `OUT` Outillage & scripts | 7 | — | 1 | — | **8** |
-| `BIB` Bibliothèque | 2 | — | 1 | 1 | **4** |
+| `BIB` Bibliothèque | 1 | — | 1 | 2 | **4** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 3 | **6** |
 | `DOC` Doctrinal | 4 | 2 | — | 2 | **8** |
-| **Total** | **33** | **7** | **5** | **12** | **57** |
+| **Total** | **32** | **7** | **5** | **13** | **57** |
+
+> **Note de passe (2026-09-16), clôture de `BIB-04` sur le matériau photographié.**
+> La moisson du lexique de Gloton est close sur les 107 planches extraites des 28
+> photographies : **169 racines** avec leur case 4 (`edccb13`). Treize discontinuités
+> subsistent dans la numérotation ; le contrôle par la page bornant chaque écart les
+> attribue toutes à des **pages non photographiées**, aucune à un bloc-racine omis
+> (sortie brute au journal §2). **Sidy a tranché le même jour : le reste du lexique sera
+> photographié plus tard, au gré des opportunités.** `BIB-04` passe donc d'`ouvert` à
+> **`attente-verdict`** — non parce qu'il resterait du travail en attente d'ordre, mais
+> parce que ce qui reste exécutable dépend de deux arbitrages (régénération de
+> `glossaire-unifie.md`, périmètre divergent des deux scripts). `BIB` passe de 2 à **1**
+> en `ouvert` et de 1 à **2** en `attente-verdict`, à total constant (**4**) ; le total
+> général de 33 à **32** en `ouvert` et de 12 à **13** en `attente-verdict`, à **57**
+> lignes inchangées.
+>
+> **Réserve à ne pas escamoter (Cmd 5).** Un recomptage mécanique des lignes de ce
+> registre **ne reconcilie pas** avec le tableau ci-dessus pour les pôles `DOC`, `OUT` et
+> `INF`. La cause est de forme, non de fond : les tableaux n'ont pas tous le même nombre
+> de colonnes (les lignes déjà closes en portent six, les autres huit ou neuf), si bien
+> qu'un comptage par position de colonne les écarte. Je n'ai **pas** touché à ces trois
+> pôles : l'écart préexiste à cette passe et n'appartient pas au chantier Gloton. Il est
+> signalé ici pour qu'un recomptage général soit fait sciemment, sur une forme de tableau
+> d'abord unifiée — décision qui appartient à Sidy.
 
 **Ce que ce tableau dit d'abord** : 12 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
@@ -341,7 +364,7 @@ non dépouillées dans cette passe → §8.*
 | BIB-01 | Appendices non photographiés — aucune fiche possible en l'état | `bloque` | nouvelle prise de vue (geste humain) | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] | 2026-08-22 |
 | BIB-02 | *Symboles de la Science sacrée* : couverture d'index à 100 %, mais chapitres non traités en fiches au-delà des XVIII et XXXVII | `ouvert` | choisir les chapitres suivants | même catalogue | 2026-08-22 |
 | BIB-03 | Deux ouvrages de Tilak scannés (`raw/`) convertis en Markdown par OCR : *The Orion* (1893, 237 p.) et *The Arctic Home in the Vedas* (1903, 544 p.) — sortie brute de machine au sas `_inbox/conversions/`, non relue | `attente-verdict` | verdict de Sidy sur le versement (destination, relecture, statut) — rien d'autre ne manque | [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] ; `_inbox/conversions/` ; [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | 2026-09-02 |
-| BIB-04 | **Dépouillement du lexique coranique de Gloton** (*Une approche du Coran par la grammaire et le lexique*, section A, pp. 233-782) à partir des photographies de l'exemplaire physique. La moisson retient pour chaque bloc-racine la **case 4 — les traductions de la racine** : une adresse de lexique n'instruit rien, un sens instruit (verdict Sidy du 2026-09-16). **97 racines** transcrites sur ~185, **49 planches restantes** sur 107. Deux points réservés au verdict : `glossaire-unifie.md` est **périmé et non vide** (le générateur rend 1850 termes, 6 ouvrages) et n'a jamais été régénéré depuis le 2026-08-22 ; et `generer-glossaire-unifie.py` sélectionne sur le **préfixe de nom de fichier** (`index-`) quand `valider-index-livres.py` borne au **champ** `type: index-livre` — 6 fiches `index-*`, 1 seule de ce type | `ouvert` | lire les 49 planches restantes (journal §4), puis déposer la moisson en fiche `type: index-livre` — la régénération de l'artefact et l'alignement des deux scripts attendent le verdict | [[atelier/rd/outillage/index-lexical/2026-09-16_gloton-moisson-racines-journal]] ; `moisson-racines-gloton.tsv` ; [[atelier/rd/bibliotheque/catalogue-bibliotheque]] | 2026-09-16 |
+| BIB-04 | **Dépouillement du lexique coranique de Gloton** (*Une approche du Coran par la grammaire et le lexique*, section A, pp. 233-782) à partir des photographies de l'exemplaire physique. La moisson retient pour chaque bloc-racine la **case 4 — les traductions de la racine** : une adresse de lexique n'instruit rien, un sens instruit (verdict Sidy du 2026-09-16). **Moisson close le 2026-09-16 sur le matériau photographié : 169 racines, 107 planches lues sur 107** (`edccb13`). **Treize discontinuités** subsistent dans la numérotation ; chacune est vérifiée correspondre à des pages **non photographiées** (contrôle par la page bornant chaque écart, sortie brute au journal §2), aucune à un bloc-racine omis. **Verdict Sidy du 2026-09-16 : le reste du lexique sera photographié plus tard, au gré des opportunités.** Le chantier n'est donc ni clos ni bloqué — il reprend à chaque nouvelle prise de vue, par passes d'ajout strict, sans qu'aucune campagne soit à programmer. **Deux points restent réservés au verdict** : (1) `glossaire-unifie.md` est **périmé et non vide** (le générateur rend 1850 termes, 6 ouvrages) et n'a jamais été régénéré depuis le 2026-08-22 ; (2) `generer-glossaire-unifie.py` sélectionne sur le **préfixe de nom de fichier** (`index-`) quand `valider-index-livres.py` borne au **champ** `type: index-livre` — 6 fiches `index-*`, 1 seule de ce type | `attente-verdict` | à l'arrivée de nouvelles photographies : `extraire-bandeaux-racines-gloton.py` puis passe d'ajout strict au TSV (procédure complète au journal §3, mode `--recadrer` compris). Sans photographies nouvelles, rien à exécuter : la dépose en fiche `type: index-livre`, la régénération de l'artefact dérivé et l'alignement des deux scripts attendent les deux arbitrages ci-dessus | [[atelier/rd/outillage/index-lexical/2026-09-16_gloton-moisson-racines-journal]] ; `moisson-racines-gloton.tsv` ; [[atelier/rd/bibliotheque/catalogue-bibliotheque]] | 2026-09-16 |
 
 ## 5. Études de cas (`CAS`)
 

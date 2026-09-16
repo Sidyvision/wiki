@@ -85,6 +85,32 @@ et muette sur le reste. Conformément à la règle du dépôt — *un trou de ph
 un trou de source* —, aucune ligne d'attente n'est versée au TSV pour ces plages, et
 la question de nouvelles prises de vue est **posée à Sidy** (§10), non tranchée ici.
 
+> **L'affirmation ci-dessus est mesurée, non supposée (2026-09-16, passe de clôture).**
+> Elle valait pour huit écarts ; elle a été portée à treize sans être retestée sur les
+> cinq nouveaux. Le contrôle qui discrimine est la **page de part et d'autre** de chaque
+> écart : si les deux pages sont égales ou consécutives, les numéros manquants siégeaient
+> sur du papier photographié et lu — donc une omission de lecture, et non un trou de
+> photo. Sinon, le trou est bien dans la campagne.
+> ```
+> cd atelier/rd/outillage/index-lexical && tail -n +2 moisson-racines-gloton.tsv \
+>   | sort -n | awk -F'\t' 'NR>1 && $1+0!=prev+1 \
+>       {print prev" (p."pp") -> "$1" (p."$4")"} {prev=$1;pp=$4}'
+> ```
+> Sortie brute :
+> `0005 (p.233) -> 0036 (p.244)` · `0059 (p.249) -> 0213 (p.300)` ·
+> `0219 (p.301) -> 0298 (p.324)` · `0323 (p.331) -> 0425 (p.362)` ·
+> `0438 (p.367) -> 0518 (p.390)` · `0521 (p.391) -> 0527 (p.394)` ·
+> `0535 (p.397) -> 0578 (p.412)` · `0583 (p.413) -> 0995 (p.546)` ·
+> `1012 (p.551) -> 1139 (p.594)` · `1151 (p.597) -> 1270 (p.636)` ·
+> `1278 (p.639) -> 1295 (p.646)` · `1299 (p.647) -> 1440 (p.692)` ·
+> `1459 (p.697) -> 1694 (p.772)`.
+>
+> **Aucun des treize ne borne deux pages consécutives** : le plus serré est
+> `0521 (p.391) -> 0527 (p.394)`, cinq numéros absents pour deux pages absentes
+> (392-393), et `1278 (p.639) -> 1295 (p.646)`, qui retombe exactement sur les pages
+> 640-645 que le §6 avait relevées comme non photographiées entre IMG_0602 et IMG_0603.
+> L'affirmation tient donc sur les treize, et c'est la mesure qui le dit.
+
 > **L'estimation des « 185 blocs-racines » est caduque (Cmd 10).** Elle datait d'un
 > comptage à vue, avant que les 107 planches soient toutes lues. Le chiffre réel,
 > mesuré et non estimé, est **169** : c'est tout ce que les 28 photographies de
@@ -100,6 +126,47 @@ l'autre d'une même double page ; un seuil fixe prend le papier blanc de la page
 sombre pour le bandeau gris de la page claire. Chaque ligne est donc comparée au blanc
 **propre à sa page** (90e centile des médianes de luminance), avec `ratio = 0.935`.
 Mesure par ligne : la **médiane** de luminance, robuste au texte.
+
+**Second mode : `--recadrer`, le recours quand la planche tronque.** La planche de
+bandeaux suffit à lire la plupart des case 4, mais pas toutes : quand une case 4 est
+longue, elle déborde le cadrage **à droite** (le bord de page est coupé) ou **en bas**
+(la dernière ligne est mangée par la marge). La planche est alors muette sur la fin du
+sens, et la transcription serait tronquée *sans qu'on le voie* — c'est le risque le
+plus sournois de ce dépouillement. Le recours est de revenir à l'original 5712×4284 et
+d'y découper la zone exacte, agrandie.
+
+```
+python3 atelier/rd/outillage/extraire-bandeaux-racines-gloton.py \
+  "raw/Une approche du Coran - Gloton/IMG_0610.JPG" \
+  --recadrer 0.28,0.150,0.55,0.220 --echelle 3.0 --sortie /tmp/m_0518.png
+```
+
+Coordonnées **relatives** (0.0 à 1.0) et non en pixels : elles se lisent directement
+sur un aperçu, sans connaître la définition de la photographie, et resteraient valables
+si la campagne était un jour rephotographiée autrement. Échelle **2.6 à 4.0** ; en
+dessous de 2.5 les accents français deviennent ambigus, au-delà de 4.0 on n'agrandit
+plus que le grain du capteur. Il faut parfois **deux recadrages** pour une seule case 4,
+l'un décalé à droite, l'autre vers le bas (fait pour 1446 et 1458).
+
+> **Pourquoi ce mode existe (2026-09-16).** Le recadrage ciblé a servi quatre fois à la
+> seule passe de clôture — entrées 1446, 1458, 1698/1700 et 0518 — et chaque fois en
+> `python3 -c` jetable, donc chaque fois réécrit de mémoire, avec la géométrie
+> redevinée. C'est ce gaspillage que le mode supprime. Conformément à la règle du dépôt,
+> l'outil existant est **étendu** et non dupliqué.
+>
+> **Éprouvé en voyant d'abord les refus** (§VII — un contrôle dont on n'a pas vu
+> l'échec n'est pas un contrôle vérifié) :
+> ```
+> --recadrer 0.28,0.150,1.55,0.220  (hors bornes)   -> rc=2
+> --recadrer 0.55,0.150,0.28,0.220  (x0 > x1)       -> rc=2
+> --recadrer 0.28,0.15,0.55         (trois valeurs) -> rc=2
+> cas nominal                        -> /tmp/essai_0518.png : 4626x900   rc=0
+> mode planches inchangé             -> TOTAL : 22 bandeau(x) candidat(s)
+> ```
+> La preuve qui compte est la dernière : le recadrage rendu par l'outil est **identique
+> octet pour octet** à celui obtenu à la main pour l'entrée 0518 — même
+> `md5sum 4f9dc484ca1fb53a4c081b12c404b598`. Le mode ne fait donc pas *autre chose* que
+> ce qui a servi ; il fait *la même chose*, sans la réécrire.
 
 Invocation (dépasse 120 s — à lancer en arrière-plan) :
 
@@ -178,7 +245,7 @@ Relevée au fil de la lecture. Elle n'existait jusqu'ici que dans les notes de s
 | IMG_0595 | 0578-0583 | 412-413 |
 | IMG_0596-0598 | 0995-1012 | 546-551 |
 | IMG_0599-0600 | 1139-1151 | 594-597 |
-| IMG_0601-0603 | 1270-1299 | 636-647 |
+| IMG_0601-0603 | 1270-1278 · 1295-1299 | 636-639 · 646-647 |
 | IMG_0604-0606 | 1440-1459 | 692-697 |
 | IMG_0607-0608 | 1694-1702 | 772-775 |
 | IMG_0610 | 0518-0521 | 390-391 |
@@ -234,7 +301,7 @@ fiche, conformément au Cmd 10 (corriger visiblement, jamais effacer en silence)
 > entrées 1149-1151 est établie, le folio 596 ayant été lu directement sur `IMG_0600G_00`.
 >
 > Ce qui **ne se fait plus** : reporter un numéro de page d'un groupe de photographies
-> au suivant. Pour les 31 planches restantes, le folio imprimé se lit **sur chaque
+> au suivant. Pour les 31 planches alors restantes, le folio imprimé s'est lu **sur chaque
 > groupe**, comme il l'a été jusqu'ici sur les côtés G.
 >
 > Conforme au §VII du protocole racine : *un contrôle dont on n'a pas vu l'échec n'est
@@ -345,3 +412,37 @@ glossaire.
 Tant qu'aucun verdict n'est rendu, aucune ligne d'attente n'est versée au TSV pour ces
 plages, et aucun `to-source` n'est posé : *un trou de photo n'est pas un trou de
 source*, et le geste qui le comblerait est un geste humain.
+
+---
+
+**VERDICT RENDU PAR SIDY — 2026-09-16.** *« Pour le reste du contenu du lexique de
+racines, il sera photographié plus tard au gré des opportunités. »*
+
+La question ci-dessus est close. La réponse retenue n'est aucune des trois par lesquelles
+je l'avais présentée : ni *compléter*, ni *s'en tenir*, ni *cibler*. C'est une quatrième,
+qu'il fallait que Sidy formule et que la machine n'avait pas à présumer — **compléter,
+mais sans calendrier**, au rythme des occasions.
+
+Ce que le verdict change, concrètement :
+
+1. **Le chantier n'est pas clos, et n'est pas bloqué.** Il est **dormant** : il reprend à
+   chaque arrivée de nouvelles photographies, par passes d'ajout strict, sans qu'aucune
+   campagne soit à programmer ni relancée. Au registre, `BIB-04` porte
+   `attente-verdict` — pour les deux points restants (§8), non pour celui-ci.
+2. **Aucune plage n'est à réclamer.** Il ne sera pas demandé à Sidy de photographier
+   telle ou telle ouverture ; les prises viennent quand elles viennent. Une session qui
+   trouverait de nouvelles photographies dans `raw/Une approche du Coran - Gloton/` n'a
+   pas à s'enquérir d'une autorisation : la procédure est au §3, le contrôle du folio
+   imprimé au §6, et le TSV se complète en ajout strict.
+3. **La règle du dépôt est confirmée, pas levée.** *Un trou de photo n'est pas un trou de
+   source.* Aucune ligne d'attente, aucun `to-source` n'est versé au TSV pour les treize
+   plages hors champ — et il n'y en aura pas davantage demain sous prétexte que la
+   campagne est annoncée reprenable. Les racines entrent au registre quand elles sont
+   lues, jamais quand elles sont espérées.
+
+> **Correction du 2026-09-16 (Cmd 10).** Le paragraphe ci-dessus parlait de **huit
+> plages** hors champ et d'environ **1029 numéros**. Ces chiffres valaient pour l'état
+> de la moisson à 122 racines. Après lecture des 107 planches, les plages sont
+> **treize** ; la plus large reste celle entre 0583 et 0995. Le décompte à jour, avec la
+> page bornant chaque écart, est au §2.
+
