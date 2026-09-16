@@ -10,6 +10,18 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] chantier | INF-16 — troisième verdict : E rouverte sans condition, la rafale GPU à l'heure devient recevable seule
+
+- **Verdict de Sidy** : « **On ouvre à nouveau l'option E.** » — en réponse à la question « est-ce qu'il serait possible de lancer un container Runpod tout de suite et d'avoir l'adaptateur LoRA ? », dont la réponse tenue était : la mécanique est **éprouvée au dépôt** depuis juin 2026, mais E n'était autorisée qu'**en complément** de l'option B.
+- **Ce qui change, exactement** : la **condition tombe** — E n'est plus subordonnée à l'existence préalable d'une machine possédée ; elle est **recevable seule**, pour une rafale d'entraînement.
+- **Conservation des verdicts (Cmd 10)** : les trois sont datés et conservés dans leur ordre — celui du 2026-09-07 **ferme**, sa révision du même jour **borne**, celui du 2026-09-16 **ouvre**. Aucun n'est effacé ; **c'est le dernier qui gouverne**.
+- **Ce qui n'est pas levé pour autant** : les objections 2 et 3 n'ont jamais été des interdits mais des **critères** — facturation à l'arrêt (**critère 3**) et absence de propriété (**critère 10**) ; le devis du jour les chiffre (pod arrêté = volume au double, 50 Go = 10 $/mois ; et « ce qui est loué ne devient jamais un bien — sauf l'artefact, qui reste »). Restent également les **préalables** du run (jeu de données, jeu d'évaluation, runbook d'entraînement), la **charge de référence** (étape 1), et la **dépense** elle-même, sous porte humaine (Cmd 13).
+- **Signalé, non enregistré d'office (Cmd 12)** : E ouverte **rouvre une possibilité que l'étape 4 avait fermée** — louer du GPU comme **instrument de mesure** avant tout achat (version initiale de l'étape 4, écartée le 2026-09-07). Rouvrir une option n'est pas réinstruire une étape : le point est posé au `plan.md` et à la `spec.md`, **à trancher par Sidy**.
+- **Portée du verdict** : `spec.md` (§*Troisième verdict — E est rouverte sans condition* + ligne de l'option E) ; `plan.md` (point de reprise, item 6 ; signalement sous l'étape 4) ; `devis-rafale-runpod-2026-09-16.md` §6, où le point « E seule » passe de *non tranché* à **levé le 2026-09-16** ; ligne `INF-16` du registre des chantiers.
+- **Rien lancé, rien engagé** : toujours **aucun compte RunPod, aucun paiement**, aucune donnée sortie du dépôt.
+- **Vérifications** : `verifier-invariants.py --racine /root/wiki` → **0 erreur, 71 avertissements** ; hygiène Unicode contrôlée au push par le hook.
+- **Commit** : 2e92d89
+
 ## [2026-09-16] chantier | INF-16 — le devis de la rafale RunPod est écrit (≈ 4 à 28 $), et le contrôle du critère 1 a été réparé par une passe concurrente
 
 - **Demandes de Sidy** (dans la nuit du 15 au 16 septembre) : « Est-ce qu'il serait possible de lancer un container Runpod tout de suite et d'avoir l'adaptateur LoRA ? », puis, sur les options proposées : « préparer le devis seul (runbook + coût), et je tranche après l'avoir lu ».
