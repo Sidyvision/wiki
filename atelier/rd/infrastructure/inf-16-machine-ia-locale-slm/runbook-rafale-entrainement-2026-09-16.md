@@ -145,6 +145,13 @@ liste **et** que le solde est retombé au niveau d'avant.
   saine, une clé de configuration ignorée. **Contrôle minimum après rapatriement** :
   recharger l'adaptateur et vérifier que les tenseurs portent bien leurs clés, puis lui
   poser une question de la famille F1 — s'il répond comme la base, le run est à refaire.
+- **Le collage depuis un iPad.** Une commande **collée** arrive **abîmée** : espaces
+  insérés (« `read - rs k` » au lieu de `read -rs k`) et ligne **coupée au milieu d'un
+  chemin** (`> /` puis `root/. runpod-api-key`) — **observé le 2026-09-16**, avec les
+  messages d'erreur de bash pour seule trace. Les `-options` et les chemins sont les
+  premières victimes, et l'échec est **silencieux sur le fond** : rien ne s'écrit, mais on
+  croit avoir agi. *Règle* : **taper court, ne coller qu'un seul jeton** (une clé, une
+  adresse) ; jamais une commande entière collée depuis un écran de téléphone.
 - **Le SSH.** L'image de base ne contient pas toujours de serveur SSH ; le port externe
   **change à chaque redémarrage**.
 - **Ne jamais tuer le processus 1** du conteneur (leçon de juin : un `pkill` trop large

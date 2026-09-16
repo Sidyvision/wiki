@@ -67,6 +67,27 @@ engagée**.
    est écrit et émis (13 tâches, quatre familles) ; le **runbook d'entraînement** est écrit.
    Restent le **choix du modèle de base** (proposé : Qwen3-8B) et le **compte RunPod** —
    c'est **lui**, l'engagement.
+8. **Pause le soir du 2026-09-16 — rien n'est lancé, et tout est prêt.** La rafale n'a pas
+   démarré : le seul point bloquant est l'**accès au compte RunPod**, et il a buté sur un
+   détail de manipulation, non sur une impossibilité. **Aucun pod créé, aucune dépense
+   engagée, aucune donnée sortie du dépôt.** La reprise tient en deux voies, au choix de
+   Sidy :
+   - **Voie A — sans aucune clé** : créer le Pod dans la **console** RunPod (IP public, port
+     `22/tcp`, variable `SSH_PUBLIC_KEY` = la clé publique dédiée
+     `~/.ssh/id_ed25519_runpod_inf16.pub`, empreinte `SHA256:C3Ea…`), puis communiquer
+     l'identifiant du pod et l'adresse SSH — des coordonnées, pas des secrets.
+   - **Voie B — avec la clé d'API** : taper `cd /root`, puis `cat > .runpod-api-key`,
+     **coller seulement la clé**, Entrée, `Ctrl-D`. Le fichier existe déjà — créé par la
+     passe, **vide, mode `600`** — et `cat` conserve les permissions.
+
+   **Leçon retenue, et sa cause nommée** : coller une commande structurée depuis l'iPad
+   **casse la ligne** — espaces insérés (`read - rs k`), coupure au milieu d'un chemin (`> /`
+   puis `root/. runpod-api-key`) — la commande échoue alors sans que rien ne soit écrit.
+   **Règle** : *taper court, ne coller qu'un seul jeton* (une clé, une adresse). Consignée
+   au runbook (§8).
+   Reste en suspens, **signalé et non traité** (Cmd 12) : l'historique du shell
+   (`/root/.bash_history`) contient **d'anciennes clés d'API collées en ligne de commande**
+   — à révoquer et remplacer si elles sont vivantes, et à nettoyer, sur verdict de Sidy.
 
 *Ce qui n'a pas changé :* les quatre questions en attente ci-dessous — dont la
 question 1, la seule à commander la taille de modèle, donc la machine, donc le prix ; le
