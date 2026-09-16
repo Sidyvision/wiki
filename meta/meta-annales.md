@@ -13,6 +13,38 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-16] queue | Trois entrées déposées en queue-idées à l'issue de la consignation lexicale
+
+Dépôt de trois entrées dans `meta/projet-unifie/queue-idees.md`, sur consigne de Sidy
+(*« Place ces dernières questions en queue-idée. Cette section sert de rappel de tâche à
+faire aussi bien pour moi que pour toi »*). Toutes `non-assigné`, `en attente` :
+
+- **`statut-glossaire-unifie`** (normale) — `atelier/rd/bibliotheque/glossaire-unifie.md`
+  est-il déclaré caduc ? Mesuré le jour même : **33 lignes, ZÉRO terme**. La question est
+  de nature, non d'entretien : un glossaire porte le **sens et son attribution**, un index
+  ne porte que l'**adresse** ; et le glossaire réel du vocabulaire technique est **déjà un
+  livre transcrit au dépôt** (al-Jurjānī, *Le Livre des Définitions*, trad. Gloton, 220
+  définitions). Rien n'est régénéré entre-temps — artefact dérivé, verdict à Sidy (Cmd 12).
+- **`perimetre-generateur-validateur-index`** (basse) — divergence mesurée entre
+  `generer-glossaire-unifie.py` (sélection sur le **préfixe de nom** `index-`) et
+  `valider-index-livres.py` (sélection sur le **champ** `type: index-livre`) : 5 des 6
+  fiches `index-*` portent `type: ressource`. Subordonnée à l'entrée précédente.
+- **`recomptage-tableau-registre`** (basse) — non-réconciliation du tableau de synthèse du
+  registre des chantiers pour `DOC`, `OUT` et `INF` ; réserve Cmd 5 déjà inscrite, ces
+  trois pôles n'ont pas été touchés, la cause relevée est formelle (colonnes inégales).
+
+Une quatrième entrée, un contrôle de fraîcheur des artefacts dérivés, a été **retirée**
+avant dépôt : son seul office à la naissance eût été d'exiger à chaque commit la
+régénération d'un objet dont l'existence même est en question — répondre par une fonction
+nouvelle à la consigne *« je ne veux plus développer des fonctions qui finissent dans
+l'oubli »*.
+
+Étanchéité : rien de `meta/` n'a été recopié ailleurs. La fiche de consignation qui motive
+ces entrées vit dans `atelier/` et ne pointe pas vers le Domaine Réservé ; l'entrée
+correspondante est aux annales de l'atelier.
+
+- **Commit** : 4852e98
+
 ## [2026-09-16] correctifs | Forme des liens — `oiseau-serpent-jumeau` nommait `meta/signature-kouyate`
 
 - Sur ordre de Sidy (« Exécution des recommandations »), point 1 des suggestions du

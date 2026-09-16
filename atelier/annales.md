@@ -9,6 +9,84 @@ updated: 2026-09-16
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-16] consignation | Les trois organes lexicaux, et l'état réel du versement Lisān al-ʿArab
+
+**Motif.** Consigne de Sidy en séance : *« Il faut STOPER la dispersion et le gaspillage
+qui va avec »*, et *« Il faut d'abord journaliser tout ça avant que la session arrive à
+son terme et mettre en place le chantier pour une reprise sans problèmes en cas de
+coupure »*. Passe de consignation pure : **aucune fonction nouvelle, aucun verdict**.
+
+**Fiche ouverte** : `atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab.md`.
+
+**1. Les trois organes.** Index, glossaire et grammaire ne répondent pas à la même
+question — **où** (unité : l'occurrence, clé : la chaîne de surface), **quoi, et selon
+qui** (unité : le sens attribué), **comment** (unité : la règle, clé : la racine). Seule
+la grammaire est **générative** : de ك ت ب elle rend lisibles *kitāb*, *kātib*, *maktūb*,
+*maktaba*, donc des mots jamais rencontrés ; index et glossaire sont bornés à l'attesté.
+Il suit qu'**un glossaire se reçoit d'une autorité et ne se génère pas d'un index** : un
+agrégat d'adresses ne peut pas porter d'attribution. Relevé de bibliothèque : les trois
+organes existent déjà au dépôt comme **trois livres d'un seul traducteur, Maurice
+Gloton** (catalogue, lignes 84, 85, 88).
+
+**2. État mesuré (mesures prises sur disque, non reprises d'un registre).**
+`index-lexical.md` : **6509 lignes, 6191 lignes de tableau**, `updated: 2026-09-15` —
+vivant. `glossaire-unifie.md` : **33 lignes, ZÉRO terme**. `moisson-racines-gloton.tsv` :
+**169 racines**, chantier dormant.
+
+**3. Cmd 10 — correction d'une inscription antérieure.** Le registre affirmait en
+**BIB-04** que `glossaire-unifie.md` est *« périmé et non vide (le générateur rend 1850
+termes, 6 ouvrages) »*. **C'est faux quant à ce qui existe sur disque** : 1850 décrit ce
+que le générateur *rendrait*, non ce qui est là. Cause mesurée de la vacuité : le
+générateur sélectionne sur le **préfixe de nom** `index-`, le validateur sur le **champ**
+`type: index-livre` — **5 des 6 fiches `index-*` portent `type: ressource`**. La ligne
+fautive est **maintenue et non effacée**, la correction inscrite à sa suite.
+
+**4. Lisān al-ʿArab — l'autorité est au sas, pas ici.** L'analyse du versement existe
+déjà : `_inbox/2026-09-16_lisan-al-arab-edition-versee.md`, `statut: proposition au sas —
+non versé aux circuits`. **C'est elle qui fait foi**, et elle **attend le visa de Sidy**.
+La fiche ouverte ce jour n'en est que le report utile au chantier lexical : **rien de ce
+qu'elle propose n'est appliqué** — ni `BIB-05` (index mécanique `racine → volume, page`),
+ni le retrait des **1 520 U+200C** que le Cmd 15 refuserait à juste titre, ni la
+correction de pagination signalée sur
+`doctrinal/symboles/formule-al-waha-al-ajal-al-saa.md`. **Les cinq circuits sont intacts**
+: aucun `to-source` levé, aucun index bâti. Report des mesures : `raw/lisan-al-arab/`,
+**392 Mo, 37 fichiers** ; édition A née-numérique (Šāmila, دار صادر, الثالثة 1414 هـ,
+Ibn Manẓūr ت. 711 هـ, 15 volumes, pagination conforme à l'imprimé), `pages.tsv` de
+**8117 lignes**, **24 953 771** caractères de texte, **18 trous** de pagination déclarés ;
+édition B scan-témoin, concordance vérifiée au sas.
+
+**Écart relevé et porté à la fiche** : le sas chiffre la moisson Gloton à **97 racines**,
+le TSV en porte **169** au 2026-09-16 (passe close le jour même). Le critère de mesure de
+`BIB-05` est à établir sur 169. **La fiche du sas n'a pas été modifiée** : elle attend
+visa.
+
+**5. Fait qui borne l'exploitation, et qui n'était pas relevé jusqu'ici** : le *Lisān* se
+range **par dernière radicale**, puis première, puis seconde (arrangement d'al-Ṣiḥāḥ).
+Retrouver une racine à la main dans 8 200 pages est donc le geste coûteux — c'est lui, et
+non le manque de matière, qui borne le chantier.
+
+**6. Queue-idées** — trois entrées déposées, toutes `non-assigné`, `en attente` :
+`statut-glossaire-unifie` (normale), `perimetre-generateur-validateur-index` (basse),
+`recomptage-tableau-registre` (basse). Une quatrième, un contrôle de fraîcheur des
+artefacts dérivés, avait été envisagée en séance : **retirée** — son seul office à la
+naissance eût été d'exiger à chaque commit la régénération d'un objet dont l'existence
+même est en question ; elle serait devenue la prochaine fonction oubliée.
+
+**7. Reprise après coupure** : §7 de la fiche — se situer, **ne rien régénérer**, mesurer
+plutôt que citer, contrôles rendus bruts, **jamais `git add -A`** (deux sorties cron non
+suivies doivent rester hors commit), lire le sas avant de toucher au *Lisān*.
+
+**Contrôles, rapportés bruts.** `verifier-hygiene-unicode.py` sur les trois fichiers :
+`Cmd 15 : PROPRE — 0 violation non couverte. 0 signalement(s) hors Cmd 15.` (rc=0 ; une
+exception caduque subsiste au registre, non bloquante, sur
+`atelier/rd/citadelle-du-sham/source/library-full.json`, étrangère à cette passe).
+`verifier-invariants.py` : `0 erreur(s), 71 avertissement(s)` — les 71 **préexistent**
+dans `doctrinal/autorites/rene-guenon.md` (C5/C6, étanchéité inversée) ; **zéro
+signalement ne porte sur un fichier de cette passe** (vérifié : 0 occurrence du nouveau
+nom de fiche dans le rapport).
+
+- **Commit** : 4852e98
+
 
 ## [2026-09-16] outillage | Gloton — le recadrage ciblé versé à l'outil, et le verdict de Sidy sur les photographies
 
