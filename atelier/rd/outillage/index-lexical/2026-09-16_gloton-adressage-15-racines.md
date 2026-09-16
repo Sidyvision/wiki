@@ -166,8 +166,10 @@ Photographie IMG_0593.
 ## 7. Manques et limites
 
 - **pp. 783-784 : pages blanches** — constat de Sidy sur l'exemplaire physique,
-  2026-09-16. Ce qui figurait comme le seul manque du matériau de source n'en est
-  pas un : il n'y a rien à y photographier. La table des matières annonce la
+  2026-09-16 : elles sont blanches, et c'est **pour cette raison** qu'elles n'ont pas
+  été photographiées. L'omission était délibérée ; ce qui figurait ici comme le seul
+  manque du matériau de source n'en est pas un. Un trou dans une campagne de
+  photographies n'est pas en soi un trou dans la source. La table des matières annonce la
   section B à la p. 783 ; l'index lui-même commence p. 785. Le matériau de source
   est donc **complet** pour ce qui touche à l'adressage.
 - Deux pages non relevées au tableau du §2 (0997, 1455) : le numéro et les radicales

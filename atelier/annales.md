@@ -48,7 +48,16 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 - **Réservé au verdict, non repris** (Cmd 12) : la ligne de sens de 0518 rattachant
   ذكر (le rappel) et ذكر (le mâle), Gloton citant s. 53 v. 45. Affirmation d'auteur sur
   le sens d'une racine, donc matière doctrinale — si elle entre, elle entre par `textes/`.
-- Manque restant au matériau : pp. 783-784, ouverture de la section B, non photographiées.
+- **Manque levé le jour même, et c'était une erreur de lecture de ma part.** J'avais
+  inscrit pp. 783-784 comme « seul manque restant du matériau de source ». Sidy :
+  ces pages sont blanches, et c'est **pour cette raison** qu'il ne les a pas
+  photographiées. L'omission était délibérée ; j'ai lu une absence de photographie
+  comme une lacune du corpus, là où elle était un jugement déjà porté sur la source.
+  Leçon de méthode : un trou dans une campagne de photographies n'est pas en soi un
+  trou dans la source — c'est une question à poser à celui qui tient le livre, pas un
+  constat à poser à sa place. Correction portée au §7 de la fiche et au frontmatter
+  `sources:` (commit `9f25c22`). Le matériau de source est **complet** pour ce qui
+  touche à l'adressage.
 - Non engagé, en attente de verdict : la transcription intégrale de l'index (~8 000
   entrées). Trois contrôles mécaniques sont esquissés dans la fiche, aucun n'a encore été
   vu refuser — donc aucun n'est un contrôle vérifié.
