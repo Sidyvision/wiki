@@ -10,6 +10,17 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] chantier | INF-16 — la forme d'installation est arrêtée : l'agent pilote par API, la clé se dépose sur le serveur
+
+- **Demandes de Sidy** : « Comment est-ce que je peux te communiquer mon compte ? », puis, sur les formes proposées : « Je préfère une option où tu gères toute l'installation ».
+- **Ce qui est consigné** : une section *Pilotage par API* au runbook (§10), qui fixe la **forme retenue** — et, avec elle, ce qui **ne se transmet pas**.
+- **Vérifié dans la documentation RunPod le 2026-09-16** : `POST /v1/pods` (création), `GET /v1/pods/{podId}` (état), `DELETE /v1/pods/{podId}` (destruction — l'équivalent de `Terminate`, **jamais** l'arrêt) ; la clé SSH peut être **écrasée par pod** via la variable d'environnement **`SSH_PUBLIC_KEY`** ; le SSH « basic » ne supportant **ni `scp` ni SFTP**, un **IP public** est requis — d'où `supportPublicIp: true` et le **seul** port `22/tcp`.
+- **Le point de sécurité, qui est le fond de la réponse** : la clé d'API a tous les pouvoirs sur le compte, et la documentation dit de la traiter comme un mot de passe. Elle **ne passe donc par aucun canal conversationnel**, **n'entre pas dans le dépôt** — vérifié ce jour : **`meta/` est suivi par git (184 fichiers) et poussé sur GitHub**, un secret écrit là serait donc **publié** — et **ne monte pas sur le pod**. Sidy la dépose lui-même sur le serveur, hors dépôt, en mode `600` ; l'agent n'en lit que le fichier, ne l'affiche ni ne la journalise. **Premier appel en lecture seule** (`GET /pods` : ne crée rien, ne coûte rien) ; **révocation en fin de rafale**. Le **mot de passe du compte**, lui, n'a jamais à être communiqué.
+- **Clé SSH dédiée à la rafale, créée** : `~/.ssh/id_ed25519_runpod_inf16` — privée, mode `600`, **ne quitte pas le serveur** ; publique d'empreinte `SHA256:C3Ea6hs8flikIcJOSoqDY58DGDKzFWe1HuRxRJfSoO0`, et **seule cette moitié circule** (une clé publique vérifie, elle n'ouvre rien).
+- **Rien lancé, rien engagé** : aucun compte, aucun paiement, aucun pod. Ce qui reste à Sidy tient en trois gestes : créer le compte, y porter un moyen de paiement (l'engagement, Cmd 13), déposer la clé d'API sur le serveur.
+- **Vérifications** : `verifier-invariants.py --racine /root/wiki` → **0 erreur, 71 avertissements** ; hygiène Unicode contrôlée au push par le hook.
+- **Commit** : 1a9555d
+
 ## [2026-09-16] chantier | INF-16 — les trois préalables du devis sont faits, et cinq gardes éprouvées par leur refus
 
 - **Demande de Sidy** : « Préparer les trois préalables (jeu de données, jeu d'évaluation, runbook), puis lancer. »
