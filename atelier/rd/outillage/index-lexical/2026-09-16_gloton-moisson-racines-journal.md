@@ -34,16 +34,16 @@ découle de la finalité du dépôt.
 
 ## 2. État au 2026-09-16
 
-**80 racines transcrites** avec numéro, radicales, case 2 et case 4, dans
+**97 racines transcrites** avec numéro, radicales, case 2 et case 4, dans
 `atelier/rd/outillage/index-lexical/moisson-racines-gloton.tsv` — cinq colonnes
 séparées par tabulation : `numero`, `radicales`, `case2`, `page`,
 `traductions_de_la_racine`. Trié par numéro.
 
 Numéros couverts :
-0036-0059 · 0213-0219 · 0298-0323 · 0425-0438 · 0527-0535.
+0036-0059 · 0213-0219 · 0298-0323 · 0425-0438 · 0527-0535 · 0578-0583 · 0995-1005.
 
 Sur environ **185 blocs-racines lisibles** dans les 28 photographies de section A.
-Reste donc environ 105.
+Reste donc environ 88.
 
 ## 3. L'outil
 
@@ -69,17 +69,25 @@ minutes, rien n'est perdu à ne pas la conserver.
 
 **Limites observées** : la marge de recadrage rogne parfois la parenthèse de la case 2
 sous le numéro (cas de 0434), et prend parfois du texte courant ou un bord de tissu
-pour un bandeau (faux positifs sans gravité). Une reprise gagnerait à augmenter
-légèrement `marge`.
+pour un bandeau (faux positifs sans gravité).
+
+`marge` était figée à 26 dans `extraire()`. Elle est **exposée en option** depuis le
+2026-09-16 (`--marge`, défaut inchangé à 26) : le comportement par défaut est
+identique, et une passe de rattrapage se lance sur les seules photographies
+concernées, sans relancer les 82. C'est ce qui a levé les deux refus du §7 :
+
+```
+python3 extraire-bandeaux-racines-gloton.py --marge 70 --par-planche 3 \
+  --sortie /tmp/bx-large IMG_0591.JPG IMG_0596.JPG
+```
 
 ## 4. Planches lues et planches restantes
 
-**48 planches lues**, de `IMG_0581G_00` à `IMG_0594D_01`.
+**58 planches lues** : `IMG_0581G_00` à `IMG_0594D_01`, puis IMG_0595 (4 planches),
+IMG_0596 (3) et IMG_0597 (3) à la passe du 2026-09-16 (seconde session).
 
-**59 planches restantes**, dans l'ordre :
+**49 planches restantes**, dans l'ordre :
 IMG_0580D_00 · IMG_0580G_00 · IMG_0580G_01 · IMG_0583G_01 · IMG_0583G_02 ·
-IMG_0595D_00 · IMG_0595D_01 · IMG_0595G_00 · IMG_0595G_01 · IMG_0596D_00 ·
-IMG_0596D_01 · IMG_0596G_00 · IMG_0597D_00 · IMG_0597G_00 · IMG_0597G_01 ·
 IMG_0598D_00 · IMG_0598G_00 · IMG_0598G_01 · IMG_0599D_00 · IMG_0599D_01 ·
 IMG_0599G_00 · IMG_0599G_01 · IMG_0599G_02 · IMG_0600D_00 · IMG_0600D_01 ·
 IMG_0600G_00 · IMG_0600G_01 · IMG_0600G_02 · IMG_0601D_00 · IMG_0601D_01 ·
@@ -154,27 +162,65 @@ fiche, conformément au Cmd 10 (corriger visiblement, jamais effacer en silence)
 
 ## 7. Refus de lecture assumés
 
-**0434 خ ل ط, case 2 : `?`.** Le recadrage a rogné la parenthèse sous le numéro et ce
-qui restait était illisible. Plutôt que deviner, la valeur est portée inconnue
-(Cmd 5). À récupérer par un recadrage de la page de droite d'`IMG_0591.JPG` avec une
-marge haute plus large.
+**0434 خ ل ط, case 2 — refus levé le 2026-09-16.** Le recadrage avait rogné la
+parenthèse sous le numéro ; la valeur était portée inconnue (Cmd 5). Le recadrage à
+`--marge 70` la donne lisiblement : **(6)**. Le TSV est corrigé. La même planche
+élargie recoupe au passage 0435 (1) et 0436 (127), déjà au TSV et confirmés.
+
+**0998 ع ر ض et 0999 ع ر ف — fausse alerte de troncature, 2026-09-16.** Les deux
+cases 4 se terminent par une virgule et paraissaient coupées par le recadrage. La
+planche élargie montre la **bordure inférieure du bandeau** juste après : les deux
+cases sont complètes, la virgule finale est la typographie de Gloton. Aucun `[...]`
+n'a donc été inscrit. *Une case qui paraît coupée se vérifie avant d'être déclarée
+manquante.*
 
 **0531 ر ب ب, case 4 : tronquée à droite.** La photographie coupe le bord droit du
 bandeau ; les segments manquants sont marqués `[...]` dans le TSV.
 
 ## 8. Ce qui reste à faire
 
-1. **Lire les 59 planches restantes** (§4) et porter au TSV, pour chaque bloc :
+1. **Lire les 49 planches restantes** (§4) et porter au TSV, pour chaque bloc :
    case 1 (numéro), case 2 (nombre d'entrées), case 3 (radicales), **case 4
    (traductions de la racine)**.
-2. **Récupérer la case 2 de 0434** par recadrage élargi.
+2. ~~**Récupérer la case 2 de 0434** par recadrage élargi.~~ **Fait le 2026-09-16**
+   (§7) : la case 2 vaut **(6)**, le TSV est corrigé.
 3. **Déposer la moisson** en fiche `type: index-livre` dans
    `atelier/rd/bibliotheque/`, au format à quatre colonnes que
    `generer-glossaire-unifie.py` sait lire, puis **régénérer**
    `glossaire-unifie.md` — artefact dérivé, jamais édité à la main.
-   `glossaire-unifie.md` est vide depuis le 2026-08-22 : le générateur, le
-   validateur et le format de fiche existent tous, rien n'y a jamais été versé.
-   C'est la forme concrète du « à chaque fois nous revenons au même point ».
+
+   **Correction du 2026-09-16 (Cmd 10, corriger visiblement).** Ce point affirmait :
+   « `glossaire-unifie.md` est vide depuis le 2026-08-22 [...] rien n'y a jamais été
+   versé. » C'est **faux**, et la mesure le refuse. Le générateur tourne aujourd'hui
+   sans erreur et rend, sortie brute :
+
+   ```
+   ecrit : /tmp/essai2.md (1850 termes, 6 ouvrages)
+   ```
+
+   Ce n'est donc pas la matière qui manque : c'est le fichier du dépôt qui n'a
+   **jamais été régénéré** depuis le 2026-08-22 (`updated: 2026-08-22`, table des
+   ouvrages à `| — | — | 0 |`). Artefact dérivé périmé, non artefact vide.
+
+   **Divergence de périmètre constatée, réservée au verdict (Cmd 12, Cmd 13).**
+   `generer-glossaire-unifie.py` sélectionne ses fiches sur le **préfixe de nom de
+   fichier** (`f.startswith("index-")`), quand `valider-index-livres.py` borne le
+   format au **champ** `type: index-livre` (lignes 310-315, verdict Sidy du
+   2026-09-15). Mesure, sortie brute :
+
+   | fiche | `type:` |
+   |---|---|
+   | index-noms-ihwan-al-safa.md | ressource |
+   | index-noms-porte-du-ciel.md | ressource |
+   | index-notions-ihwan-al-safa.md | ressource |
+   | index-origine-polaire-tilak.md | **index-livre** |
+   | index-rig-veda.md | ressource |
+   | index-rig-veda-table.md | ressource |
+
+   Le générateur en prend **6**, le validateur n'en reconnaît **1**. Lequel des deux
+   porte le périmètre juste n'est pas tranché ici : ni la régénération de
+   `glossaire-unifie.md`, ni l'alignement des deux scripts ne sont engagés avant
+   verdict de Sidy.
 4. **Transcription intégrale de la section B** (index, pp. 785-829, ~8000 entrées) :
    non engagée, réservée au verdict. Les trois contrôles mécaniques envisagés devront
    chacun avoir été **vus refuser** sur une faute fabriquée avant d'être tenus pour

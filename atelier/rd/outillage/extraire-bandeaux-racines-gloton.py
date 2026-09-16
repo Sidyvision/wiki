@@ -87,6 +87,9 @@ def main():
     ap.add_argument("photos", nargs="+", help="fichiers JPG de double page")
     ap.add_argument("--sortie", default="/tmp/bandeaux", help="dossier de destination")
     ap.add_argument("--par-planche", type=int, default=6)
+    ap.add_argument("--marge", type=int, default=26,
+                    help="marge de recadrage autour du bandeau, en pixels "
+                         "(elargir pour rattraper une case 2 ou une case 4 rognee)")
     a = ap.parse_args()
     os.makedirs(a.sortie, exist_ok=True)
     total = 0
@@ -94,7 +97,7 @@ def main():
         base = os.path.splitext(os.path.basename(ph))[0]
         for tag in ("G", "D"):
             try:
-                bandes = extraire(ph, tag)
+                bandes = extraire(ph, tag, marge=a.marge)
             except Exception as e:
                 print(f"{base}{tag} : ERREUR {e}", file=sys.stderr); continue
             for i in range(0, len(bandes), a.par_planche):
