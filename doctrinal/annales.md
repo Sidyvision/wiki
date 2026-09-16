@@ -9,6 +9,28 @@ updated: 2026-09-16
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] restauration | *Xī Yóu Jì* — verdict de statut rendu : `traditionnel`, cadre `taoisme`
+
+- Verdict de Sidy, en session : « traditionnel, et tradition_cadre taoisme ». La fiche
+  [[doctrinal/sources/xi-you-ji-wu-chengen]] avait été ouverte la veille en `profane` /
+  `tradition_cadre: "none"`, **à titre de proposition**, les deux côtés exposés et le verdict
+  réservé (Cmd 12, Cmd 13). Il est rendu ; le cartouche et le corps le portent.
+- **Ce que le verdict tranche** : le roman est reçu comme **support d'exposition de l'alchimie
+  interne**, non comme une œuvre littéraire à vocabulaire d'emprunt. Le relevé terminologique
+  de la fiche (`木母`, `金公`, `姹女`, `黃婆`, `嬰兒`, couple `心猿`/`意馬` dans les titres)
+  cesse d'être un fait de lexique pour devenir l'indice de ce que le texte expose.
+- **Ce qu'il ne change pas, et qui est porté dans la fiche** : le statut qualifie l'œuvre, non
+  la copie. L'exemplaire du dépôt reste défectueux (13 titres sur 100 s'écartant du témoin, dont
+  5 pertes de matière ; corps non collationné), et **aucune citation qui en serait tirée ne lève
+  un `to-source`** par elle-même. Le statut `traditionnel` rend l'acquisition d'un témoin nommé
+  plus pressante, non moins : ce qui fait autorité se cite sur un texte établi.
+- **Portée du cadre** : `taoisme` déclare le cadre sous lequel le dépôt reçoit le roman ; il ne
+  clôt pas la trame bouddhique ni l'armature confucéenne du récit, et n'autorise par lui-même
+  aucun rapprochement entre ces registres (Cmd 3).
+- Index doctrinal mis à jour (section VI). Contrôles : invariants 0 erreur / 71 avertissements ;
+  Cmd 15 propre.
+- **Commit** : 98cd445
+
 ## [2026-09-16] archivage | *Xī Yóu Jì* 西遊記 — fiche source ouverte, statut proposé et non tranché
 
 - Consigne de Sidy : « ouvre la fiche doctrinal/sources/ et le reste ».
