@@ -46,40 +46,50 @@ Gloton déclare. L'objet du dépouillement est fondé sur l'autorité du texte p
 non sur une interprétation.
 
 ## 2. État au 2026-09-16
-
-**122 racines transcrites** avec numéro, radicales, case 2 et case 4, dans
+**169 racines transcrites** avec numéro, radicales, case 2 et case 4, dans
 `atelier/rd/outillage/index-lexical/moisson-racines-gloton.tsv` — cinq colonnes
 séparées par tabulation : `numero`, `radicales`, `case2`, `page`,
-`traductions_de_la_racine`. Trié par numéro.
-
+`traductions_de_la_racine`.
 Numéros couverts :
-0001-0005 · 0036-0059 · 0213-0219 · 0298-0323 · 0425-0438 · 0527-0535 ·
-0578-0583 · 0995-1012 · 1139-1151.
+0001-0005 · 0036-0059 · 0213-0219 · 0298-0323 · 0425-0438 · 0518-0521 ·
+0527-0535 · 0578-0583 · 0995-1012 · 1139-1151 · 1270-1278 · 1295-1299 ·
+1440-1459 · 1694-1702.
 
-Sur environ **185 blocs-racines lisibles** dans les 28 photographies de section A.
-Reste donc environ 63.
+> **Correction du 2026-09-16 (Cmd 10), passe de clôture.** Le §2 annonçait plus haut
+> le TSV « trié par numéro ». Ce n'est plus exact et ne le sera plus : le fichier est
+> tenu en **ajout strict** (`git diff --numstat` rend `N 0` à chaque passe, jamais une
+> suppression), si bien que le lot 0518-0521, moissonné en dernier, siège en fin de
+> fichier au milieu de l'espace des numéros. Vérifié avant d'assumer ce choix :
+> **aucun script du dépôt ne lit ce TSV** (`grep -rln moisson-racines-gloton
+> --include=*.py` ne rend rien), donc aucune monotonie n'est invariante. Le tri est
+> une commodité de lecture, obtenue à la demande par `sort -n`, non une propriété du
+> fichier.
 
-**Forme réelle de la couverture (audit du 2026-09-16).** La numérotation n'est pas
-continue et ne le sera pas : un passage sur toute la colonne `numero` relève **huit
-discontinuités**, et chacune correspond à des pages **non photographiées**, non à des
-blocs-racines omis à la lecture.
-
+**Forme réelle de la couverture (audit du 2026-09-16, refait à la clôture).** La
+numérotation n'est pas continue et ne le sera pas : un passage sur toute la colonne
+`numero` relève **treize discontinuités**, et chacune correspond à des pages **non
+photographiées**, non à des blocs-racines omis à la lecture.
 ```
 cd atelier/rd/outillage/index-lexical && tail -n +2 moisson-racines-gloton.tsv \
   | cut -f1 | sort -n \
   | awk 'NR>1 && $1+0 != prev+1 {print prev" -> "$1" (manque "($1-prev-1)")"} {prev=$1}'
 ```
-
 Sortie brute : `0005 -> 0036 (30)` · `0059 -> 0213 (153)` · `0219 -> 0298 (78)` ·
-`0323 -> 0425 (101)` · `0438 -> 0527 (88)` · `0535 -> 0578 (42)` ·
-`0583 -> 0995 (411)` · `1012 -> 1139 (126)`.
-
+`0323 -> 0425 (101)` · `0438 -> 0518 (79)` · `0521 -> 0527 (5)` ·
+`0535 -> 0578 (42)` · `0583 -> 0995 (411)` · `1012 -> 1139 (126)` ·
+`1151 -> 1270 (118)` · `1278 -> 1295 (16)` · `1299 -> 1440 (140)` ·
+`1459 -> 1694 (234)`.
 La campagne photographique a saisi des **ouvertures choisies**, pas un balayage
 continu de 233 à 782. La moisson est donc exhaustive **sur ce qui est photographié**,
 et muette sur le reste. Conformément à la règle du dépôt — *un trou de photo n'est pas
 un trou de source* —, aucune ligne d'attente n'est versée au TSV pour ces plages, et
 la question de nouvelles prises de vue est **posée à Sidy** (§10), non tranchée ici.
 
+> **L'estimation des « 185 blocs-racines » est caduque (Cmd 10).** Elle datait d'un
+> comptage à vue, avant que les 107 planches soient toutes lues. Le chiffre réel,
+> mesuré et non estimé, est **169** : c'est tout ce que les 28 photographies de
+> section A contiennent de blocs-racines. Il ne reste donc pas « environ 63 » racines
+> à moissonner dans le matériau photographié — il n'en reste **aucune**.
 ## 3. L'outil
 
 `atelier/rd/outillage/extraire-bandeaux-racines-gloton.py` — détecte sans OCR les
@@ -117,17 +127,21 @@ python3 extraire-bandeaux-racines-gloton.py --marge 70 --par-planche 3 \
 ```
 
 ## 4. Planches lues et planches restantes
+**107 planches lues sur 107 : l'extraction est épuisée.** 76 l'étaient au terme de la
+troisième session (`IMG_0581G_00` à `IMG_0594D_01`, puis IMG_0595, IMG_0596, IMG_0597,
+IMG_0598, IMG_0599, IMG_0600, IMG_0580 et IMG_0583G_01/G_02) ; les **31 dernières** —
+IMG_0601 à IMG_0608 et IMG_0610 — l'ont été à la passe de clôture du 2026-09-16, qui a
+porté la moisson de 122 à **169 racines**.
 
-**76 planches lues** : `IMG_0581G_00` à `IMG_0594D_01`, puis IMG_0595 (4 planches),
-IMG_0596 (3) et IMG_0597 (3) à la passe du 2026-09-16 (seconde session), enfin
-IMG_0598 (3), IMG_0599 (5), IMG_0600 (5), IMG_0580 (3) et IMG_0583G_01/G_02 (2) à la
-passe du 2026-09-16 (troisième session).
+**Il ne reste aucune planche à lire.** Ce n'est pas la fin du lexique de Gloton, c'est
+la fin de ce que la campagne photographique en montre. Toute reprise suppose de
+nouvelles prises de vue, question **posée à Sidy** au §10 et non tranchée ici.
 
-**Lue n'est pas productive.** Sur ces 18 dernières planches, **5 n'ont rien donné** et
-c'est normal : `IMG_0580G_00` et `IMG_0580G_01` portent la légende du tableau (p. 232,
-aucun bloc-racine) ; `IMG_0583G_01` et `IMG_0583G_02` sont des lignes dérivées de la
-racine أ ل ه déjà moissonnée ; `IMG_0599G_01`, `IMG_0599D_01`, `IMG_0600G_02` et
-`IMG_0600D_01` sont du texte courant ou un bord de tissu pris pour un bandeau. Sans
+**Lue n'est pas productive.** Sur ces 31 dernières planches, **6 n'ont rien donné** :
+`IMG_0601D_01`, `IMG_0603D_01` et `IMG_0606D_01` portent du texte courant ou un bord de
+tissu pris pour un bandeau ; `IMG_0610G_01` et `IMG_0610D_01` sont des sous-lignes
+dérivées de la racine ذ ك ر déjà moissonnée (tables de formes, verset) ; `IMG_0610D_02`
+est une bande de papier vide. Les 25 autres ont donné les 47 entrées de la passe. Sans
 cette distinction, un lecteur ultérieur croirait à des blocs-racines perdus.
 
 > **Correction du 2026-09-16 (Cmd 10, corriger visiblement).** Ce paragraphe portait
@@ -140,18 +154,14 @@ cette distinction, un lecteur ultérieur croirait à des blocs-racines perdus.
 > sans matière à moissonner. La caractérisation « rien à moissonner » était appliquée à
 > la photographie entière alors qu'elle ne valait que pour une de ses deux pages.
 
-**31 planches restantes**, dans l'ordre :
-IMG_0601D_00 · IMG_0601D_01 ·
-IMG_0601G_00 · IMG_0601G_01 · IMG_0602D_00 · IMG_0602D_01 · IMG_0602G_00 ·
-IMG_0603D_00 · IMG_0603D_01 · IMG_0603G_00 · IMG_0604D_00 · IMG_0604D_01 ·
-IMG_0604G_00 · IMG_0604G_01 · IMG_0605D_00 · IMG_0605G_00 · IMG_0605G_01 ·
-IMG_0606D_00 · IMG_0606D_01 · IMG_0606G_00 · IMG_0607D_00 · IMG_0607G_00 ·
-IMG_0607G_01 · IMG_0608D_00 · IMG_0608G_00 · IMG_0608G_01 · IMG_0610D_00 ·
-IMG_0610D_01 · IMG_0610D_02 · IMG_0610G_00 · IMG_0610G_01.
+> **Correction du 2026-09-16 (Cmd 10), passe de clôture.** Ce §4 annonçait
+> « 31 planches restantes » et en donnait la liste nominative ; le §8 en annonçait 49.
+> Les deux chiffres sont périmés et le second était déjà faux en l'écrivant. Les 31
+> sont lues, la liste est supprimée parce qu'elle est vide, et le compte qui fait foi
+> est désormais **107 / 107**.
 
 Suffixe `G` = page de gauche, `D` = page de droite ; le numéro à deux chiffres est
 l'ordre du bandeau du haut vers le bas de la page.
-
 ## 5. Carte de couverture de la campagne
 
 Relevée au fil de la lecture. Elle n'existait jusqu'ici que dans les notes de session.
@@ -168,7 +178,7 @@ Relevée au fil de la lecture. Elle n'existait jusqu'ici que dans les notes de s
 | IMG_0595 | 0578-0583 | 412-413 |
 | IMG_0596-0598 | 0995-1012 | 546-551 |
 | IMG_0599-0600 | 1139-1151 | 594-597 |
-| IMG_0601-0603 | 1270-1298 | 636-647 |
+| IMG_0601-0603 | 1270-1299 | 636-647 |
 | IMG_0604-0606 | 1440-1459 | 692-697 |
 | IMG_0607-0608 | 1694-1702 | 772-775 |
 | IMG_0610 | 0518-0521 | 390-391 |
@@ -250,7 +260,12 @@ bandeau ; les segments manquants sont marqués `[...]` dans le TSV.
 
 ## 8. Ce qui reste à faire
 
-1. **Lire les 49 planches restantes** (§4) et porter au TSV, pour chaque bloc :
+1. ~~**Lire les 49 planches restantes** (§4)~~ **Fait le 2026-09-16, passe de
+   clôture.** Les 107 planches de `/tmp/bx/` sont lues ; le chiffre 49 était périmé
+   dès son écriture (le §4 disait 31, et 31 était le bon). Le TSV porte pour chaque
+   bloc case 1 (numéro), case 2 (nombre d'entrées), case 3 (radicales) et **case 4
+   (traductions de la racine)**. **Plus rien n'est à lire sans nouvelles photographies**
+   — voir §10.
    case 1 (numéro), case 2 (nombre d'entrées), case 3 (radicales), **case 4
    (traductions de la racine)**.
 2. ~~**Récupérer la case 2 de 0434** par recadrage élargi.~~ **Fait le 2026-09-16**
