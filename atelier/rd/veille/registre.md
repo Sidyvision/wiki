@@ -3,7 +3,7 @@ title: "Registre de veille R&D — journal des scrutations"
 type: registre
 tags: [atelier, rd, veille, registre]
 created: 2026-08-18
-updated: 2026-09-15
+updated: 2026-09-16
 sources: []
 links:
   - "[[atelier/rd/veille/index]]"
@@ -19,6 +19,24 @@ verdict, le lien vers la matière extraite.
 d'avoir qualifié avant de noter. Le registre n'est pas un journal de
 bord (quoi j'ai fait aujourd'hui) mais un journal de décisions (quoi
 j'ai retenu, pourquoi).
+
+---
+
+## [2026-09-16] Investigation — LANDR : le compte et l'API sont deux portes ; pont entrant éprouvé sur un lien de partage
+
+**Quoi** : question de Sidy — « est-ce que LANDR prévoit un accès serveur direct ? », précisée en **demande de pont entrant** (rapatrier sur le serveur des morceaux déjà déposés dans son compte LANDR). Scrutation menée **hors des pages** : spécification OpenAPI d'API récupérée et conservée (8 chemins, 10 opérations, sha256 court `14d4d164…`), sondes réseau datées sur `api.landr.com` (403 AccessDenied en périphérie hors chemins de documentation), centre d'aide interrogé par son API publique de recherche (« API » → 0 article, « Linux » → 0 article), bundle applicatif de la page de partage lu pour identifier le mécanisme d'accès anonyme (en-tête `X-LANDR-PUBLIC-TOKEN`), et **éprouve réelle** du lien de partage fourni par Sidy pour la piste « 01 - Wake up » — téléchargement du flux, mesure `ffprobe` et mesure de niveau `ebur128`, plus quatre contrôles de validité des sondes.
+
+**Pourquoi** : décider s'il existe une voie serveur-à-serveur pour l'entrant (masters déjà produits côté LANDR) dans notre contexte — serveur Ubuntu sans écran, humain sur iPad, finalité de souveraineté du pôle `rd/` (émancipation des intermédiaires de service tiers).
+
+**Verdict** : **le compte et l'API sont deux portes distinctes**. L'API (`api.landr.com`, clé d'en-tête unique, accès par « Contact sales » à partir de 2,50 $/titre) **crée du neuf à partir d'un URI et ne relit jamais l'existant** : aucune opération de bibliothèque, de compte, de crédits ou de releases. Le **pont entrant existe donc en deux étages** : (1) **écoute automatisable dès maintenant, sans identifiant** — le flux `projects.landr.com/assets/<uuid>/stream.mp3` se tire sans jeton (404 sur UUID bidon), mesuré à **3 425 637 octets**, MP3 CBR 192 kbps / 44,1 kHz / stéréo / 142,707 s, **-7,4 LUFS**, LRA 2,5 LU, **crête vraie +0,3 dBFS** ; (2) **master livrable fermé** — « Download all » redirige vers `accounts.landr.com/oauth2/register`, `chatAssetDownloadUrl` rend **`UNAUTHENTICATED`**, et le modèle de permissions déclaré par leur serveur à un visiteur anonyme porte **`canDownload: false`**. Le flux de l'étage 1 est une **copie d'écoute** (192 kbps) quand leur documentation donne le master MP3 livrable à **320 kbps** — donc utilisable pour vérifier et mesurer, pas comme master d'archive. **Conséquence** : l'entrant des masters passe par le **geste humain** vers `_inbox/` ; l'étage 1 reste à instruire comme outillage, sur verdict.
+
+**Pertinence** : directe pour le poste studio (chaîne de mastering, critère de crête vraie au-dessus de 0 dBFS avant tout passage sur bande) et pour la finalité de souveraineté du pôle `rd/` — la voie automatique de LANDR impose une clé commerciale **et** l'exposition de nos masters à une URL publique que leurs serveurs viennent chercher. **Signalé et non tranché** (Cmd 12) : l'hypothèse d'un réglage de partage autorisant le téléchargement anonyme, écartée par Sidy le jour même (« ce ne sont encore que des ébauches ») — les deux lectures possibles ne sont pas séparées par la mesure.
+
+**Liens** :
+- Fiche : [[atelier/rd/veille/2026-09-16_landr-pont-entrant-partage-et-api]]
+- Documentation d'API : <https://api.landr.com/mastering/openapi/v1/openapi.json>
+- Page API : <https://www.landr.com/pro-audio-mastering-api>
+- Copie d'éprouve (hors dépôt) : `/root/sandbox-rd/landr-inbound/stream.mp3` (sha256 `57681f46…`)
 
 ---
 
