@@ -49,6 +49,13 @@ engagée**.
 4. Deux réserves **portées, non tranchées** : les **droits** sur une partie de
    `textes/`, à instruire avant tout U4 ; l'**exclusion de `meta/`** de tout corpus
    d'entraînement (§VI).
+5. **Un devis existe, et attend d'être lu** —
+   [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16]] : une
+   rafale d'entraînement sur GPU loué, chiffrée de ≈ 4 $ (A6000) à ≈ 28 $ (H100), scénario
+   recommandé ≈ 11 $ (A100, 8 h), avec la discipline de facturation (**détruire, jamais
+   arrêter** : 50 Go de volume arrêtés coûtent 10 $/mois). Demande de Sidy dans la nuit du
+   15 au 16 septembre 2026 : « préparer le devis seul, et je tranche après l'avoir lu ».
+   **Rien n'est lancé, aucun compte n'existe, rien n'est engagé.**
 
 *Ce qui n'a pas changé :* les quatre questions en attente ci-dessous — dont la
 question 1, la seule à commander la taille de modèle, donc la machine, donc le prix ; le
@@ -56,7 +63,9 @@ choix de la voie 4a / 4b / 4c ; et la règle qu'**aucun prix ne s'engage sans re
 (le marché NVIDIA est en pénurie ouverte).
 
 *Ce qui reste faisable sans verdict :* l'**étape 3a** — et elle attend **vos chiffres**
-(abonnements, API). Les étapes 2, 3b et 3c sont faites.
+(abonnements, API) ; et, si vous le voulez, les **préalables du devis** (§5 : jeu de
+données, jeu d'évaluation, runbook d'entraînement, tous gratuits en argent). Les
+étapes 2, 3b et 3c sont faites.
 
 *Prochaine action, inchangée :* répondre à la question 1. **Une seule ligne suffit.**
 
@@ -198,6 +207,7 @@ si — et seulement si — l'option retenue apporte un GPU local.
 | `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/matrice.md` | **à créer** à l'étape 5, pas avant |
 | `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec.md` | modifié (2026-09-15) — relevés des étapes 2, 3b et 3c |
 | `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan.md` | modifié (2026-09-15) — visa (`brouillon` → `vise`) et point de reprise |
+| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16.md` | **créé** (2026-09-16) — devis d'une rafale d'entraînement RunPod, **en attente de lecture** |
 
 Rien n'est déplacé, rien n'est supprimé. Aucun fichier existant du pôle n'est
 réécrit hormis le registre et les annales, chacun selon sa discipline propre
