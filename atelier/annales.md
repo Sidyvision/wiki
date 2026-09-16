@@ -9,6 +9,54 @@ updated: 2026-09-16
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-16] moisson | Gloton — la moisson portée à 97 racines, marge de recadrage exposée, deux corrections au journal
+
+**Seconde passe du même jour.** Dix-sept racines de plus avec leur **case 4**, les
+traductions de la racine : 0578-0583 (pp. 412-413) et 0995-1005 (pp. 546-549). Le TSV
+`atelier/rd/outillage/index-lexical/moisson-racines-gloton.tsv` passe de 80 à
+**97 entrées** — cinq colonnes partout, aucun numéro en double, plus aucune case 2
+portée inconnue. Restent environ 88 blocs-racines et **49 planches** sur les 107.
+
+**L'outil étendu, non dupliqué.** La marge de recadrage était figée à 26 dans
+`extraire()` de `extraire-bandeaux-racines-gloton.py`. Elle est exposée en option
+`--marge`, défaut inchangé : le comportement par défaut est identique, et une passe de
+rattrapage se lance sur les seules photographies concernées au lieu des 82.
+
+**Un refus levé, une fausse alerte écartée.**
+- **0434 خ ل ط**, case 2 portée inconnue au Cmd 5 : le recadrage à `--marge 70` la
+  donne lisiblement, **(6)**. Le TSV est corrigé. La même planche élargie recoupe au
+  passage 0435 (1) et 0436 (127), déjà au TSV et confirmés.
+- **0998 ع ر ض et 0999 ع ر ف** : les deux cases 4 finissent par une virgule et
+  paraissaient rognées. La planche élargie montre la **bordure inférieure du bandeau**
+  juste après — elles sont complètes, la virgule est la typographie de Gloton. Aucun
+  `[...]` n'a été inscrit. *Une case qui paraît coupée se vérifie avant d'être
+  déclarée manquante.*
+
+**Un contrôle vu refuser à nouveau** (§VII, épreuve des contrôles). Le voisinage
+alphabétique a refusé 1004, lu ع ذ ر, entre 1003 ع ز ب et 1005 ع ز ز ; la lecture
+juste est ع ز ر.
+
+**Deux corrections au journal de moisson** (Cmd 10, corriger visiblement).
+- Le §8.3 affirmait que rien n'avait jamais été versé dans `glossaire-unifie.md`.
+  **C'est faux**, et la mesure le refuse : le générateur tourne et rend, sortie brute,
+  `ecrit : /tmp/essai2.md (1850 termes, 6 ouvrages)`. Le fichier du dépôt n'a
+  simplement **jamais été régénéré** depuis le 2026-08-22. Artefact dérivé périmé, non
+  artefact vide.
+- **Divergence de périmètre relevée, réservée au verdict** (Cmd 12, Cmd 13) :
+  `generer-glossaire-unifie.py` sélectionne sur le **préfixe de nom de fichier**
+  (`index-`), quand `valider-index-livres.py` borne le format au **champ**
+  `type: index-livre` (verdict du 2026-09-15). Six fiches `index-*`, une seule de type
+  `index-livre`. Ni la régénération de l'artefact ni l'alignement des deux scripts ne
+  sont engagés ici.
+
+**Vérification mécanique indépendante** (§VIII.2), sortie brute :
+`verifier-invariants.py` → `0 erreur(s), 71 avertissement(s)` (préexistants, aucun ne
+porte sur ces fichiers) ; `verifier-hygiene-unicode.py --strict` → `Cmd 15 : PROPRE —
+0 violation non couverte`, 1907 fichiers lus, 20 occurrences sous exception déclarée.
+
+- **Commit** : e6c4f1f
+
 ## [2026-09-16] moisson | Gloton, lexique coranique — 80 racines avec leurs traductions, outil de dépouillement, journal de reprise
 
 **Ce qui a changé de nature.** Les passes précédentes relevaient des *adresses* :
