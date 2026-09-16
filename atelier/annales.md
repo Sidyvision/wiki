@@ -10,6 +10,66 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] moisson | Gloton — la moisson close à 169 racines : 107 planches sur 107
+
+**Quatrième passe du même jour, et la dernière que le matériau permette.** Les 31
+planches qui restaient — IMG_0601 à IMG_0608 et IMG_0610 — sont lues. Quarante-sept
+racines de plus avec leur **case 4** : 1270-1299 (pp. 636-647), 1440-1459 (pp. 692-697),
+1694-1702 (pp. 772-775) et 0518-0521 (pp. 390-391). Le TSV
+`atelier/rd/outillage/index-lexical/moisson-racines-gloton.tsv` passe de 122 à
+**169 entrées** — cinq colonnes partout, 170 lignes, aucun numéro en double, **47 ajouts
+et 0 suppression**. L'extraction de `/tmp/bx/` est **épuisée**.
+
+**La p. 775 porte le médaillon d'Allâh** : c'est la fin du lexique, et 1702 و ي ل en est
+la dernière racine. Ce n'est pas la fin de Gloton — c'est la fin de ce que la campagne
+photographique en montre.
+
+**Lue n'est pas productive, et il faut le dire.** Six planches sur 31 n'ont rien donné :
+`IMG_0601D_01`, `IMG_0603D_01` et `IMG_0606D_01` (texte courant ou bord de tissu pris
+pour un bandeau gris), `IMG_0610G_01` et `IMG_0610D_01` (sous-lignes dérivées de ذ ك ر
+déjà moissonnée), `IMG_0610D_02` (bande de papier vide). Sans cette distinction inscrite
+au journal, une session ultérieure croirait à des blocs-racines perdus et les
+rechercherait en vain.
+
+**Trois corrections au journal, datées et visibles** (Cmd 10) :
+- L'estimation « environ 185 blocs-racines lisibles, reste environ 63 » est **caduque**.
+  Elle datait d'un comptage à vue, avant que les 107 planches soient lues. Le chiffre
+  mesuré est **169**, et il ne reste **aucune** racine à moissonner dans le photographié.
+- Le TSV n'est plus « trié par numéro » et ne le sera plus : le lot 0518-0521, moissonné
+  en dernier, siège en fin de fichier au milieu de l'espace des numéros. Avant d'assumer
+  ce choix, **vérifié qu'aucun script du dépôt ne lit ce TSV** (`grep -rln
+  moisson-racines-gloton --include=*.py` ne rend rien) — aucune monotonie n'est
+  invariante, l'ajout strict prime.
+- Le §5 portait `1270-1298` pour IMG_0601-0603 ; l'entrée **1299** ك ر ه existe bien au
+  TSV, p. 647. La carte de couverture avait été remplie par anticipation sur les aperçus,
+  la lecture des bandeaux la corrige.
+
+**Un soupçon Cmd 15 levé par la mesure, pas par l'œil.** La ligne 1452 م ل ء s'affichait
+dans la console comme si elle portait un liant invisible entre deux lettres d'« aider ».
+`hexdump -C` rend `61 69 64 65 72` — caractères simples, artefact d'affichage. Le
+verdict appartenait au script, non à la lecture : `verifier-hygiene-unicode.py` rend
+**Cmd 15 : PROPRE — 0 violation non couverte**, et le hook de pré-commit l'a repassé.
+
+**Vérifications mécaniques, sortie brute :**
+```
+Cmd 15 : PROPRE — 0 violation non couverte. 0 signalement(s) hors Cmd 15.
+0 erreur(s), 71 avertissement(s).     [verifier-invariants.py — les 71 préexistent
+                                       dans doctrinal/, hors périmètre de cette passe]
+5 | lignes=170 | doublons=0
+47	0	atelier/rd/outillage/index-lexical/moisson-racines-gloton.tsv
+```
+
+**Ce que la clôture rend exigible.** La question du §10 du journal — *faut-il photographier
+les plages non saisies ?* — cessait d'être théorique au moment où la dernière planche a
+été lue : elle est désormais la seule chose qui débloque la suite. Treize discontinuités
+subsistent dans la numérotation, chacune une plage non photographiée, aucune un
+bloc-racine omis. Conformément à la règle du dépôt — *un trou de photo n'est pas un trou
+de source* — **aucune ligne d'attente n'est versée au TSV**. La question est posée à
+Sidy ; elle n'est pas tranchée ici.
+
+- **Commit** : edccb13
+
+
 ## [2026-09-16] moisson | Gloton — la moisson portée à 122 racines, et IMG_0580 rendue à sa vérité
 
 **Troisième passe du même jour.** Vingt-cinq racines de plus avec leur **case 4**, les
