@@ -61,6 +61,12 @@ engagée**.
    d'une machine possédée. Le devis est prêt ; **les préalables du run restent à faire**
    (jeu de données, jeu d'évaluation, runbook d'entraînement) et **la dépense reste sous
    porte humaine** (Cmd 13).
+7. **Les trois préalables du devis sont faits — sauf le compte.** Le **jeu de données** est
+   constitué **par script** (872 enregistrements, 11,5 Mo, empreinte `c776d5e213814c48…`,
+   écrit **hors du dépôt** ; deux gardes éprouvées par leur refus) ; le **jeu d'évaluation**
+   est écrit et émis (13 tâches, quatre familles) ; le **runbook d'entraînement** est écrit.
+   Restent le **choix du modèle de base** (proposé : Qwen3-8B) et le **compte RunPod** —
+   c'est **lui**, l'engagement.
 
 *Ce qui n'a pas changé :* les quatre questions en attente ci-dessous — dont la
 question 1, la seule à commander la taille de modèle, donc la machine, donc le prix ; le
@@ -221,6 +227,10 @@ si — et seulement si — l'option retenue apporte un GPU local.
 | `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec.md` | modifié (2026-09-15) — relevés des étapes 2, 3b et 3c |
 | `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan.md` | modifié (2026-09-15) — visa (`brouillon` → `vise`) et point de reprise |
 | `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16.md` | **créé** (2026-09-16) — devis d'une rafale d'entraînement RunPod, **en attente de lecture** |
+| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16.md` | **créé** (2026-09-16) — jeu d'évaluation, **source de vérité** des tâches |
+| `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/runbook-rafale-entrainement-2026-09-16.md` | **créé** (2026-09-16) — runbook de la charge d'entraînement |
+| `atelier/rd/outillage/generer-jeu-donnees-entrainement.py` | **créé** (2026-09-16) — constitution du jeu de données (déterministe, deux gardes **éprouvées par leur refus**) |
+| `atelier/rd/outillage/generer-jeu-evaluation.py` | **créé** (2026-09-16) — émission du jeu d'évaluation depuis sa fiche (trois gardes **éprouvées par leur refus**) |
 
 Rien n'est déplacé, rien n'est supprimé. Aucun fichier existant du pôle n'est
 réécrit hormis le registre et les annales, chacun selon sa discipline propre
