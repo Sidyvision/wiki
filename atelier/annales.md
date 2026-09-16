@@ -10,6 +10,95 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] moisson | Gloton — la moisson portée à 122 racines, et IMG_0580 rendue à sa vérité
+
+**Troisième passe du même jour.** Vingt-cinq racines de plus avec leur **case 4**, les
+traductions de la racine : 1139-1144 (pp. 594-595), 1145-1151 (pp. 596-597) et
+**0001-0005 (p. 233)**, l'ouverture même du lexique. Le TSV
+`atelier/rd/outillage/index-lexical/moisson-racines-gloton.tsv` passe de 97 à
+**122 entrées** — cinq colonnes partout, 123 lignes, aucun numéro en double, **25 ajouts
+et 0 suppression** : strictement en append. Restent **31 planches** sur les 107.
+
+**L'objet de la moisson fondé sur l'ouvrage, non sur une lecture de machine.** La légende
+de la p. 232 nomme elle-même la case 4 : « traductions possibles des différents sens que
+**la racine** prend en français », quand la case 9 dit la même chose du **terme
+coranique**. Le principe qui gouverne ce chantier — *une adresse n'instruit pas, un sens
+instruit* — cesse ici d'être une hypothèse de travail : il est celui de Gloton. Le §1 du
+journal de moisson porte la citation.
+
+**Une caractérisation corrigée sur pièce** (Cmd 10, corriger visiblement). Le §4 tenait
+IMG_0580 pour la photographie de calibrage, sans rien à moissonner. Sa lecture montre
+**p. 233 et cinq blocs-racines réels** (0001-0005), absents du TSV. La description était
+vraie de **l'une des deux pages** de la photographie et avait été appliquée aux deux.
+La correction est datée et inscrite au §4 dans **le même commit** que la moisson qu'elle
+rend intelligible : deux fichiers suivis ne se contredisent pas le temps d'un commit.
+
+**Ce que le contrôle numérique a réellement montré.** Le voisinage numérique, passé pour
+la première fois sur **tout** le TSV, ne relève pas un trou mais **huit** discontinuités.
+La campagne photographique n'a pas balayé les pp. 233-782 : elle a saisi des ouvertures
+choisies. La fausse alerte du trou 0006-0035 est écartée sur pièce — IMG_0581D_00 porte
+le folio **245** et les entrées 0041-0043 : les photographies **ne sont pas dans l'ordre
+des pages**. *Un trou de photo n'est pas un trou de source.* Aucune ligne creuse, aucun
+`to-source` n'a été inscrit ; la question est posée à Sidy au §10 du journal, avec trois
+réponses également recevables (compléter la campagne · s'en tenir aux plages tenues ·
+cibler des plages nommées), aucune présumée.
+
+**Un contrôle vu échouer, donc ramené à son périmètre valide** (§VII, épreuve des
+contrôles). Le contrôle 3 — folio imprimé et pas de deux — supposait la continuité
+**entre** photographies. Elle est démentie à vue : IMG_0589 = 330/331 puis IMG_0590 =
+362/363, et le folio 245 d'IMG_0581D_00. Le contrôle est **restreint à l'intra-photo** au
+§6 plutôt que laissé énoncé tel quel. Corollaire de méthode inscrit : le folio imprimé se
+lit **sur chaque groupe**, jamais reporté du groupe précédent.
+
+**Lue n'est pas productive.** Des 18 planches closes, **cinq** n'ont rien donné. La
+distinction est consignée au §4 pour qu'un lecteur ultérieur n'en infère pas des
+blocs-racines perdus.
+
+**Vérification mécanique indépendante** (§VIII.2), sortie brute :
+`verifier-invariants.py` → `0 erreur(s), 71 avertissement(s)` — **identique au relevé
+d'avant édition**, donc ces écritures n'en introduisent aucun ;
+`verifier-hygiene-unicode.py --strict` → `Cmd 15 : PROPRE — 0 violation non couverte`,
+1909 fichiers lus, 20 occurrences sous exception déclarée ; `git diff --numstat` sur le
+TSV → `25  0`.
+
+- **Commit** : 1fa853d
+
+## [2026-09-16] registre | BIB-04 — le dépouillement de Gloton inscrit à la carte des chantiers
+
+> **Journalisation en retard, signalée comme telle** (Cmd 9, Cmd 10). Ce commit date de
+> **15 h 16** et précède le versement du *Lisān al-ʿArab* journalisé plus bas. Son entrée
+> manquait. Les annales s'écrivant en tête, elle est déposée ici plutôt que glissée dans
+> le corps du journal : la date de l'opération est portée par son commit, non par son
+> rang.
+
+**Sur ordre de Sidy.** Le chantier tournait depuis le 2026-09-16 avec trois fichiers
+déposés et un journal de reprise, **sans aucune ligne au registre**. Un agent reprenant le
+fil à froid par la carte ne l'aurait pas vu — c'est le défaut même que cette carte existe
+pour corriger.
+
+**Pôle `BIB`, non `OUT`.** L'outil d'extraction n'est que le moyen ; l'objet est un
+ouvrage de la bibliothèque physique.
+
+**Ce que la ligne porte** : l'état au jour de l'inscription (97 racines sur ~185,
+49 planches restantes sur 107), la prochaine action, et **les deux points réservés au
+verdict, nommés comme tels** (Cmd 12, Cmd 13) — `glossaire-unifie.md` est **périmé et non
+vide** (le générateur rend `1850 termes, 6 ouvrages`) ; et
+`generer-glossaire-unifie.py` sélectionne sur le **préfixe de nom de fichier** quand
+`valider-index-livres.py` borne au **champ** `type: index-livre`. Ni la régénération ni
+l'alignement des deux scripts ne sont engagés.
+
+**Tableau de synthèse recompté depuis ses lignes**, jamais incrémenté à l'aveugle : `BIB`
+passe de 1 à **2** en `ouvert` et de 3 à **4** lignes ; le total général de 32 à **33** en
+`ouvert` et de 56 à **57** lignes. Note de recomptage datée, selon la discipline du
+registre.
+
+**Vérification mécanique indépendante** (§VIII.2), sortie brute :
+`verifier-invariants.py` → `0 erreur(s), 71 avertissement(s)` (préexistants, aucun ne
+porte sur ce fichier) ; `verifier-hygiene-unicode.py` → `Cmd 15 : PROPRE, 0 violation non
+couverte`.
+
+- **Commit** : 88d2c83
+
 ## [2026-09-16] archivage | *Lisān al-ʿArab* — édition numérique versée dans `raw/` (texte clavé + scan-témoin, paginations vérifiées)
 
 - **Consigne de Sidy** : « trouve une bonne édition digital du *Lisan al-Arab* exploitable
