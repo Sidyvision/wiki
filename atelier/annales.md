@@ -10,6 +10,55 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] index-lexical | Adressage Gloton — numéros d'entrée de 15 racines prioritaires, et le schéma « NNNN + lettre » décodé
+
+- Sur autorisation de Sidy (« Pas besoin de me présenter de plan, tu peux t'exécuter »),
+  qui lève l'étape de présentation du Cmd 6 pour cette passe — et elle seule.
+- Dépose `atelier/rd/outillage/index-lexical/2026-09-16_gloton-adressage-15-racines.md`
+  (`type: outillage`). **Relevé d'adressage, pas de contenu** : où trouver l'entrée,
+  jamais ce qu'elle dit. Aucune définition transcrite, aucun `to-source` levé.
+- 14 racines résolues sur 15 : numéro, radicales imprimées, case 2, photographie, page.
+  Les numéros ont été lus d'abord à l'**index (section B)**, pièce d'orientation, puis
+  confrontés au **lexique lui-même (section A)**, qui est la source. C'est la seconde
+  lecture qui atteste — la première n'aurait rien pu lever seule (§VII, discipline des
+  sources, point 1).
+- L'appui est distingué du verdict dans la fiche : 12 racines lues directement sur leur
+  bloc (dont 2 sans page relevée), 1 établie par position (1277). Une colonne `appui`
+  porte la distinction plutôt qu'un « 14 sur 14 » qui l'aplatirait.
+- Schéma d'adressage **décodé et vérifié de bout en bout** sur un cas complet : une
+  référence `NNNN + lettre` se lit « racine NNNN, ligne de la case 5 ». Vérifié sur
+  ذ ك ر / 0518, où les lettres b, d, e de l'index pointent bien, en section A, sur les
+  trois mots attendus.
+- **ق ط ب : absence attestée.** La racine la plus lourde du lot dans le dépôt
+  (348 occurrences / 100 fiches) n'a aucune entrée : p. 816 imprime 1243 > 1244 > 1245
+  sans intercalaire. Ce n'est pas un échec de lecture mais une **mesure de la portée de
+  l'instrument** — le lexique est *coranique*. Même limite pour simiya, jafr, awfaq,
+  talisman, alchimie, athanor, carré magique. `alif` relève de Ac p. 67, pas du lexique
+  des racines.
+- **Épreuve des contrôles (§VII).** Le contrôle de voisinage a été **vu refuser deux
+  fois** avant d'être tenu pour fiable : 0055 avait été lu 0057, 1150 avait été lu 1157.
+  Le contrôle global de monotonie est publié comme **faible** et dit pourquoi : 20 à 50
+  de jeu par entrée, il ne rattrape pas une erreur de dizaine.
+- L'estimation linéaire de page est publiée **avec ses résidus mesurés** : elle dépasse
+  la page réelle de 0 à 8 pages sur 13 cas. On feuillette donc vers l'arrière. Les pages
+  du tableau sont les pages relevées, pas estimées.
+- Repère structurel sourcé à cette passe (IMG_0593) : p. 394 clôt le ḏāl par 0527 ذ ي ع,
+  p. 395 ouvre **LETTRE RÂ'** par **0528 ر ء س** (18). Corrige une transposition de
+  radicales que portait le brouillon et qui n'est pas entrée au dépôt.
+- **Réservé au verdict, non repris** (Cmd 12) : la ligne de sens de 0518 rattachant
+  ذكر (le rappel) et ذكر (le mâle), Gloton citant s. 53 v. 45. Affirmation d'auteur sur
+  le sens d'une racine, donc matière doctrinale — si elle entre, elle entre par `textes/`.
+- Manque restant au matériau : pp. 783-784, ouverture de la section B, non photographiées.
+- Non engagé, en attente de verdict : la transcription intégrale de l'index (~8 000
+  entrées). Trois contrôles mécaniques sont esquissés dans la fiche, aucun n'a encore été
+  vu refuser — donc aucun n'est un contrôle vérifié.
+- Contrôles de clôture (§VIII.2, résultat brut) : `verifier-hygiene-unicode.py --strict`
+  → Cmd 15 PROPRE, 0 violation ; `verifier-invariants.py` → 0 erreur(s),
+  71 avertissement(s), baseline inchangée, aucun signalement ne porte sur le fichier
+  déposé. Les deux archives de monitoring non suivies du 2026-09-16 ont été laissées
+  hors du commit.
+- Commit : `2a94372`.
+
 ## [2026-09-16] correctifs | Forme des liens — deux fiches d'infrastructure nommaient un chemin inexistant
 
 - Sur ordre de Sidy (« Exécution des recommandations »), point 1 des suggestions du
