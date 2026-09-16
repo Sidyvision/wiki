@@ -9,6 +9,52 @@ updated: 2026-09-16
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-16] moisson | Gloton, lexique coranique — 80 racines avec leurs traductions, outil de dépouillement, journal de reprise
+
+**Ce qui a changé de nature.** Les passes précédentes relevaient des *adresses* :
+où trouver telle racine dans l'exemplaire. Verdict de Sidy le même jour : le dépôt
+fait de la recherche, et ses lexiques servent à **instruire, référencer, compléter,
+renforcer**. Une adresse n'instruit rien. La moisson retient désormais la **case 4 —
+les traductions de la racine**, et non plus seulement ses coordonnées.
+
+**Déposé.**
+- `atelier/rd/outillage/index-lexical/moisson-racines-gloton.tsv` — 80 racines
+  (numéro, radicales, case 2, page, traductions de la racine). Numéros 0036-0059,
+  0213-0219, 0298-0323, 0425-0438, 0527-0535, sur ~185 blocs lisibles.
+- `atelier/rd/outillage/extraire-bandeaux-racines-gloton.py` — détection sans OCR des
+  bandeaux gris des blocs-racines, seuil **adaptatif par page** (médiane de luminance
+  contre le blanc propre de la page). 107 planches tirées de 56 pages.
+- `atelier/rd/outillage/index-lexical/2026-09-16_gloton-moisson-racines-journal.md` —
+  pièce de reprise : carte de couverture de la campagne, 59 planches restantes
+  nommées, contrôles éprouvés, refus de lecture assumés, reste à faire.
+
+**Trois corrections à une fiche déjà déposée** (Cmd 10 — corriger visiblement) :
+la clause « alif n'est pas une entrée de lexique » est fausse (0049, 0050 f, 0052,
+0053, 0054, pp. 247-248) ; la clause « le lexique ne touche jamais la magie » est trop
+large (0217 ج ب ت, p. 301) ; 0429 خ ف ض était donné p. 364, le folio imprimé le met
+p. 363.
+
+**Deux contrôles vus refuser pour la première fois** (§VII, épreuve des contrôles).
+*Photographie en double* : IMG_0586 refuse trois cases 2 lues sur IMG_0585
+sous-exposée (0298 31→21, 0299 3→2, 0302 35→25). *Folio imprimé et pas de deux pages
+par photographie* : refuse la page publiée de 0429. Un contrôle dont on n'a pas vu
+l'échec n'est pas un contrôle ; ces deux-là le sont maintenant.
+
+**Refus de lecture assumés** (Cmd 5) : case 2 de 0434 خ ل ط portée `?`, le recadrage
+l'a rognée ; case 4 de 0531 ر ب ب tronquée au bord droit, segments marqués `[...]`.
+
+**Reste ouvert.** 59 planches à lire ; puis dépôt de la moisson en fiche
+`type: index-livre` dans `atelier/rd/bibliotheque/` et régénération de
+`glossaire-unifie.md`, vide depuis le 2026-08-22 alors que le générateur, le
+validateur et le format existent tous. La transcription intégrale de la section B
+reste non engagée et réservée au verdict.
+
+**Vérification mécanique indépendante** (§VIII.2), sortie brute :
+`verifier-invariants.py` → `0 erreur(s), 71 avertissement(s)` (préexistants, aucun sur
+ces fichiers) ; `verifier-hygiene-unicode.py --strict` → `Cmd 15 : PROPRE — 0 violation
+non couverte`, 1907 fichiers lus.
+
+009a0c3
 
 ## [2026-09-16] index-lexical | Adressage Gloton — numéros d'entrée de 15 racines prioritaires, et le schéma « NNNN + lettre » décodé
 
