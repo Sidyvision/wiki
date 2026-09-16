@@ -5,8 +5,8 @@ status: academique
 tradition_cadre: "islam"
 tags: [medecine-islamique, herbalism, auteure, nurasunna]
 created: 2026-06-05
-updated: 2026-07-01
-sources: ["[[doctrinal/sources/body-types]]"]
+updated: 2026-09-16
+sources: ["[[doctrinal/deviations/body-types]]"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/tibb-e-nabawi]]", "[[doctrinal/deviations/morphopsychologie]]"]
 ---

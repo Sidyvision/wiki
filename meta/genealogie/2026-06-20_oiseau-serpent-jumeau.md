@@ -3,9 +3,9 @@ title: "Le rêve de l'oiseau vert à quatre yeux et le « frère-serpent » de l
 type: perso
 tags: [reve, jumeau-spirituel, genealogie, tariqa, confidentiel]
 created: 2026-06-20
-updated: 2026-09-09
+updated: 2026-09-16
 sources: ["[[chatgpt-export-2026-05-10]]"]
-links: ["[[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]]", "[[meta/2026-06-20_signature-kouyate]]"]
+links: ["[[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]]", "[[meta/genealogie/2026-06-20_signature-kouyate]]"]
 ---
 
 # Le rêve de l'oiseau vert à quatre yeux et le « frère-serpent » familial
@@ -22,7 +22,7 @@ Ce rêve recoupe directement la question d'autorité spirituelle et de modalité
 
 ## Le « frère-serpent » de la lignée Kouyaté (fait familial rapporté)
 
-Sidy rapporte une parole transmise par son père, elle-même transmise par les femmes aînées de la famille : « Si lorsque l'un de vos enfants naît et que vous voyez un serpent, ne le tuez pas, car il est de notre famille. » Selon Sidy, l'idée générale dans sa famille (lignée Kouyaté, griots) est que chacun naît avec un « frère » sous forme de serpent — élément qu'il rattache lui-même explicitement au thème récurrent du « double » déjà évoqué ailleurs (voir [[meta/2026-06-20_signature-kouyate]], le « jumeau spirituel » ou « mythe des deux frères »).
+Sidy rapporte une parole transmise par son père, elle-même transmise par les femmes aînées de la famille : « Si lorsque l'un de vos enfants naît et que vous voyez un serpent, ne le tuez pas, car il est de notre famille. » Selon Sidy, l'idée générale dans sa famille (lignée Kouyaté, griots) est que chacun naît avec un « frère » sous forme de serpent — élément qu'il rattache lui-même explicitement au thème récurrent du « double » déjà évoqué ailleurs (voir [[meta/genealogie/2026-06-20_signature-kouyate]], le « jumeau spirituel » ou « mythe des deux frères »).
 
 ### Lecture reçue (à manier avec une réserve)
 La conversation source rattache ce serpent familial à plusieurs registres : totem/génie familial dans les traditions africaines (lignées de griots, forgerons, lignées royales), *kuṇḍalinī* hindoue, et — plus discutable — au *Dābbat al-Arḍ* coranique (Sourate 27:82). Ce dernier rapprochement constitue un glissement notable : associer une tradition familiale totémique (probablement pré-islamique dans son origine, propre à la culture mandingue) à un signe eschatologique coranique précis relève d'une fusion non avertie, du même type que celles déjà signalées ailleurs dans ce corpus (cf. [[doctrinal/symboles/merkavah-muraqaba]]) — à ne pas retenir comme une équivalence établie.

@@ -9,13 +9,13 @@ tags:
 - telegram
 - hermes
 created: 2026-08-21
-updated: 2026-08-21
+updated: 2026-09-16
 sources: []
 links:
 - '[[atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16.md]]'
 - '[[atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md]]'
 - '[[meta/transmissions/karubi-wendel.md]]'
-- '[[meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md]]'
+- '[[meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07.md]]'
 statut_experience: exploratoire
 ---
 
