@@ -44,7 +44,7 @@ d'avance ; l'ordre ci-dessous n'est pas un classement.
 | **B** | Mac mini (M6 ou M5 Pro) + LLM cloud (hypothèse de Sidy) | le SLM seul | le LLM : abonnements/API |
 | **C** | Poste NVIDIA mono-GPU (24–32 Go de VRAM) | le SLM, entraînement compris, en écosystème CUDA | le LLM, sauf modèle ouvert de taille moyenne quantifié |
 | **D** | Serveur GPU dédié loué (hébergeur) | le SLM, mais **chez un tiers** — souveraineté d'usage, pas de possession | le matériel lui-même, et le LLM — ⚠ voir le verdict ci-dessous |
-| **E** | GPU à l'heure (RunPod, Vast, Lambda) pour rafales d'entraînement | rien en continu ; l'entraînement ponctuel seulement | tout le reste — ⚠ écartée puis **rouverte sous condition** le 2026-09-07 : justifiable en complément de B, jamais seule (voir ci-dessous) |
+| **E** | GPU à l'heure (RunPod, Vast, Lambda) pour rafales d'entraînement | rien en continu ; l'entraînement ponctuel seulement | tout le reste — ⚠ **fermée** le 2026-09-07, **rouverte sous condition** le même jour, **ouverte** le 2026-09-16 : trois verdicts conservés dans l'ordre (voir ci-dessous) |
 | **F** | Statu quo — aucune machine, montée de RAM du Hetzner seule | rien | tout (état actuel) — **c'est la référence à battre** |
 | **G** | Combinaisons étagées (ex. B maintenant + C plus tard ; ou E pour entraîner + B pour servir) | selon l'étage | selon l'étage |
 
@@ -107,6 +107,37 @@ elle est prise isolément, ce qui était le cadre du premier verdict.
 complétude pour devenir l'hypothèse la plus consistante à instruire — machine
 possédée pour servir, GPU loué par rafales pour entraîner, LLM cloud pour le
 raisonnement lourd. À instruire, pas à retenir : la matrice n'est pas remplie.
+
+### Troisième verdict — E est rouverte sans condition (2026-09-16)
+
+Sidy, en session, dans la nuit du 15 au 16 septembre 2026 : « **On ouvre à nouveau
+l'option E.** » La phrase vient en réponse à une question directe — « est-ce qu'il serait
+possible de lancer un container RunPod tout de suite et d'avoir l'adaptateur LoRA ? » — à
+laquelle la réponse tenue avait été : la mécanique est **éprouvée au dépôt** depuis juin
+2026 (pod RunPod, tunnel SSH, port jamais exposé), mais l'option E n'était autorisée
+qu'**en complément** de B.
+
+Ce que ce verdict change, exactement :
+
+- **La condition tombe.** E n'est plus subordonnée à l'existence préalable d'une machine
+  possédée : elle est **recevable seule**, pour une rafale d'entraînement.
+- **Les trois verdicts restent conservés, datés, dans leur ordre** (Cmd 10) : le premier
+  ferme, le second borne, le troisième ouvre. Aucun n'est effacé, et **c'est le dernier qui
+  gouverne**.
+- **Les objections 2 et 3 ne sont pas levées — elles n'ont jamais été des interdits.** Ce
+  sont des **critères**, et ils le restent : la facturation à l'arrêt (objection 2) est
+  portée au **critère 3** (coût récurrent), l'absence de propriété (objection 3) au
+  **critère 10** (réversibilité). Le devis du 2026-09-16 les chiffre : un pod arrêté paie
+  son volume **au double** (50 Go arrêtés = 10 $/mois) — et « ce qui est loué ne devient
+  jamais un bien », à une exception déjà relevée : **l'artefact produit, lui, reste**.
+- **Ce que ce verdict ne dit pas** : à quelle **échelle** E sera employée — rafale pour
+  U4/U5, ou capacité de service. C'est la charge de référence (étape 1) et la matrice qui
+  le diront. Il ne dispense donc ni de l'étape 1, ni des **préalables** au run (jeu de
+  données, jeu d'évaluation), ni de la **porte humaine** sur la dépense (Cmd 13).
+
+**Statut de E au 2026-09-16** : `ouverte` — sans condition de complément. Le détail chiffré
+de la rafale vit dans
+[[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16]].
 
 ## Les critères de comparaison
 

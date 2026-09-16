@@ -112,13 +112,17 @@ ici :
 
 ## 6. Ce que ce devis ne tranche pas
 
-- **Le verdict « E seule ».** Le verdict de Sidy du 2026-09-07 n'autorise le GPU à l'heure
-  qu'**en complément** de l'option B, *jamais seule ni comme capacité permanente*, et la
-  séquence votée est « **acquérir le petit poste, puis mesurer avec lui** — y compris à
-  distance ». Lancer cette rafale aujourd'hui serait E *seule* : cela demande de rouvrir
-  ce point explicitement (Cmd 13).
+- **Le verdict « E seule » — LEVÉ le 2026-09-16.** Le verdict du 2026-09-07 n'autorisait le
+  GPU à l'heure qu'**en complément** de l'option B, *jamais seule ni comme capacité
+  permanente*. Le **troisième verdict** (« On ouvre à nouveau l'option E. ») **lève cette
+  condition** : la rafale n'est plus subordonnée à l'existence préalable d'une machine
+  possédée. Ce qui n'est pas levé pour autant : les **préalables** du §5, la **charge de
+  référence** (étape 1), et la **porte humaine sur la dépense** (Cmd 13).
 - **La charge de référence** (étape 1) et le **choix de la voie 4a / 4b / 4c** (étape 4).
-- Les **droits** et le **régime de l'artefact** (§4).
+  *Signalé sans être tranché* : E ouverte **rouvre la possibilité que l'étape 4 avait
+  fermée** — louer du GPU comme instrument de mesure *avant* tout achat. Rouvrir une option
+  n'est pas réinstruire une étape.
+- Les **droits** et le **régime de l'artefact** (§4), inchangés.
 
 ## 7. Validité
 

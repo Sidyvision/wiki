@@ -56,6 +56,11 @@ engagée**.
    arrêter** : 50 Go de volume arrêtés coûtent 10 $/mois). Demande de Sidy dans la nuit du
    15 au 16 septembre 2026 : « préparer le devis seul, et je tranche après l'avoir lu ».
    **Rien n'est lancé, aucun compte n'existe, rien n'est engagé.**
+6. **E est ouverte** — **troisième verdict de Sidy, 2026-09-16** : « On ouvre à nouveau
+   l'option E. » La rafale GPU à l'heure n'est plus subordonnée à l'existence préalable
+   d'une machine possédée. Le devis est prêt ; **les préalables du run restent à faire**
+   (jeu de données, jeu d'évaluation, runbook d'entraînement) et **la dépense reste sous
+   porte humaine** (Cmd 13).
 
 *Ce qui n'a pas changé :* les quatre questions en attente ci-dessous — dont la
 question 1, la seule à commander la taille de modèle, donc la machine, donc le prix ; le
@@ -181,6 +186,14 @@ l'option E cessent d'être concurrentes : elles s'enchaînent.
 
 Garde maintenue quelle que soit la voie : **aucune matière de `meta/` ne quitte
 le dépôt** (§VI), y compris pour un essai et y compris sous forme d'extrait.
+
+**Signalé, non enregistré d'office (Cmd 12).** Le troisième verdict — **E ouverte** le
+2026-09-16 — **rouvre une possibilité que cette étape avait fermée** : louer du GPU comme
+**instrument de mesure** *avant* tout achat, ce qui était la version initiale de l'étape 4
+(écartée le 2026-09-07 : la configuration était fastidieuse pour un setup sans machine
+locale, et la dépense tombait sur du matériel non possédé). Ce n'est **pas** repris ici :
+rouvrir une option n'est pas réinstruire une étape, et la voie de l'étape 4 (4a / 4b / 4c)
+reste à trancher par Sidy. **Point signalé, à trancher.**
 
 **Étape 5 — Remplir la matrice.** Les 7 options × 12 critères, chaque cellule
 mesurée, sourcée+datée, ou explicitement « non relevé ». L'option F (statu quo)
