@@ -3,7 +3,7 @@ title: "Catalogue de la bibliothèque physique de travail"
 type: ressource
 tags: [bibliotheque, lectures-suggerees, ressource, catalogue]
 created: 2026-06-28
-updated: 2026-09-06
+updated: 2026-09-16
 sources: []
 links: []
 ---
@@ -146,6 +146,7 @@ déviations modernes.*
 - **Nezâmî** — *Le Pavillon des Sept Princesses* (*Haft Peykar*, trad. du persan, présenté et annoté par Michael Barry, Gallimard, coll. « Connaissance de l'Orient ») — CONFIRMÉ en bibliothèque physique (2026-07-24, photographie couverture + table des matières). Sept contes emboîtés dans le cadre des sept climats/planètes/couleurs (*haft eqlim*) — matière non encore lue en profondeur. Fiché côté doctrinal : [[doctrinal/sources/nezami-pavillon-sept-princesses-barry]], [[doctrinal/discernement/2026-07-24_haft-eqlim-sept-climats-meru-qaf-dwipa]].
 - **P. D. Ouspensky** — *Fragments d'un enseignement inconnu* (école de Gurdjieff)
 - **G. I. Gurdjieff** — *Rencontres avec des hommes remarquables* (Le Rocher)
+- **Wú Chéng'ēn** (attribution traditionnelle) — *Xī Yóu Jì* 西遊記, « Le Voyage en Occident » (roman Ming, cent 回) — ❌ **non détenu** en édition imprimée (à acquérir, recensé le 2026-09-16). Le dépôt n'a qu'une **transcription numérique défectueuse** (Project Gutenberg n° 23962, chinois traditionnel), convertie en `textes/xi-you-ji-wu-chengen-traditionnel/` : sur les 100 titres collationnés, 13 s'écartent du témoin 維基文庫 dont **5 par perte de matière**. Un **témoin nommé** est donc requis pour tout travail sur la lettre — 世德堂本 ou édition critique imprimée. Fiché côté doctrinal : [[doctrinal/sources/xi-you-ji-wu-chengen]] (lien sortant `atelier/` → `doctrinal/`, sens unique, signalé).
 
 ---
 
