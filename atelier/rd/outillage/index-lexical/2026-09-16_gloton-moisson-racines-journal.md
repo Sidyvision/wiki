@@ -32,18 +32,53 @@ coordonnées. Destination : une fiche `type: index-livre` dans
 `generer-glossaire-unifie.py`. Cette destination **ne se redemande pas** : elle
 découle de la finalité du dépôt.
 
+**Confirmation par l'ouvrage lui-même (2026-09-16).** La légende du tableau, lue
+directement sur `IMG_0580G_00` (p. 232), définit les colonnes en toutes lettres :
+
+> colonne **4** — « traductions possibles des différents sens que **la racine** prend
+> en français »
+> colonne **9** — « traductions françaises possibles des différents sens que prend **le
+> terme coranique** »
+
+La distinction retenue par la moisson — le sens de la **racine**, et non celui de
+chaque terme dérivé — n'est donc pas une lecture de la machine : elle est celle que
+Gloton déclare. L'objet du dépouillement est fondé sur l'autorité du texte primaire,
+non sur une interprétation.
+
 ## 2. État au 2026-09-16
 
-**97 racines transcrites** avec numéro, radicales, case 2 et case 4, dans
+**122 racines transcrites** avec numéro, radicales, case 2 et case 4, dans
 `atelier/rd/outillage/index-lexical/moisson-racines-gloton.tsv` — cinq colonnes
 séparées par tabulation : `numero`, `radicales`, `case2`, `page`,
 `traductions_de_la_racine`. Trié par numéro.
 
 Numéros couverts :
-0036-0059 · 0213-0219 · 0298-0323 · 0425-0438 · 0527-0535 · 0578-0583 · 0995-1005.
+0001-0005 · 0036-0059 · 0213-0219 · 0298-0323 · 0425-0438 · 0527-0535 ·
+0578-0583 · 0995-1012 · 1139-1151.
 
 Sur environ **185 blocs-racines lisibles** dans les 28 photographies de section A.
-Reste donc environ 88.
+Reste donc environ 63.
+
+**Forme réelle de la couverture (audit du 2026-09-16).** La numérotation n'est pas
+continue et ne le sera pas : un passage sur toute la colonne `numero` relève **huit
+discontinuités**, et chacune correspond à des pages **non photographiées**, non à des
+blocs-racines omis à la lecture.
+
+```
+cd atelier/rd/outillage/index-lexical && tail -n +2 moisson-racines-gloton.tsv \
+  | cut -f1 | sort -n \
+  | awk 'NR>1 && $1+0 != prev+1 {print prev" -> "$1" (manque "($1-prev-1)")"} {prev=$1}'
+```
+
+Sortie brute : `0005 -> 0036 (30)` · `0059 -> 0213 (153)` · `0219 -> 0298 (78)` ·
+`0323 -> 0425 (101)` · `0438 -> 0527 (88)` · `0535 -> 0578 (42)` ·
+`0583 -> 0995 (411)` · `1012 -> 1139 (126)`.
+
+La campagne photographique a saisi des **ouvertures choisies**, pas un balayage
+continu de 233 à 782. La moisson est donc exhaustive **sur ce qui est photographié**,
+et muette sur le reste. Conformément à la règle du dépôt — *un trou de photo n'est pas
+un trou de source* —, aucune ligne d'attente n'est versée au TSV pour ces plages, et
+la question de nouvelles prises de vue est **posée à Sidy** (§10), non tranchée ici.
 
 ## 3. L'outil
 
@@ -83,14 +118,30 @@ python3 extraire-bandeaux-racines-gloton.py --marge 70 --par-planche 3 \
 
 ## 4. Planches lues et planches restantes
 
-**58 planches lues** : `IMG_0581G_00` à `IMG_0594D_01`, puis IMG_0595 (4 planches),
-IMG_0596 (3) et IMG_0597 (3) à la passe du 2026-09-16 (seconde session).
+**76 planches lues** : `IMG_0581G_00` à `IMG_0594D_01`, puis IMG_0595 (4 planches),
+IMG_0596 (3) et IMG_0597 (3) à la passe du 2026-09-16 (seconde session), enfin
+IMG_0598 (3), IMG_0599 (5), IMG_0600 (5), IMG_0580 (3) et IMG_0583G_01/G_02 (2) à la
+passe du 2026-09-16 (troisième session).
 
-**49 planches restantes**, dans l'ordre :
-IMG_0580D_00 · IMG_0580G_00 · IMG_0580G_01 · IMG_0583G_01 · IMG_0583G_02 ·
-IMG_0598D_00 · IMG_0598G_00 · IMG_0598G_01 · IMG_0599D_00 · IMG_0599D_01 ·
-IMG_0599G_00 · IMG_0599G_01 · IMG_0599G_02 · IMG_0600D_00 · IMG_0600D_01 ·
-IMG_0600G_00 · IMG_0600G_01 · IMG_0600G_02 · IMG_0601D_00 · IMG_0601D_01 ·
+**Lue n'est pas productive.** Sur ces 18 dernières planches, **5 n'ont rien donné** et
+c'est normal : `IMG_0580G_00` et `IMG_0580G_01` portent la légende du tableau (p. 232,
+aucun bloc-racine) ; `IMG_0583G_01` et `IMG_0583G_02` sont des lignes dérivées de la
+racine أ ل ه déjà moissonnée ; `IMG_0599G_01`, `IMG_0599D_01`, `IMG_0600G_02` et
+`IMG_0600D_01` sont du texte courant ou un bord de tissu pris pour un bandeau. Sans
+cette distinction, un lecteur ultérieur croirait à des blocs-racines perdus.
+
+> **Correction du 2026-09-16 (Cmd 10, corriger visiblement).** Ce paragraphe portait
+> `IMG_0580` parmi les planches « susceptibles d'être des faux positifs plutôt que des
+> blocs-racines non lus », au motif qu'il s'agit de la prise de calibrage (légende +
+> ouverture, pp. 232-233). **C'est faux pour le côté droit.** `IMG_0580D_00` est la
+> page 233 — LETTRE ALIF, ouverture du lexique — et porte **cinq vrais blocs-racines**,
+> 0001 à 0005, dont aucun n'était au TSV (qui commençait à 0036). Ils y sont portés ce
+> jour. Seules les deux planches du côté gauche (p. 232, la légende) sont effectivement
+> sans matière à moissonner. La caractérisation « rien à moissonner » était appliquée à
+> la photographie entière alors qu'elle ne valait que pour une de ses deux pages.
+
+**31 planches restantes**, dans l'ordre :
+IMG_0601D_00 · IMG_0601D_01 ·
 IMG_0601G_00 · IMG_0601G_01 · IMG_0602D_00 · IMG_0602D_01 · IMG_0602G_00 ·
 IMG_0603D_00 · IMG_0603D_01 · IMG_0603G_00 · IMG_0604D_00 · IMG_0604D_01 ·
 IMG_0604G_00 · IMG_0604G_01 · IMG_0605D_00 · IMG_0605G_00 · IMG_0605G_01 ·
@@ -159,6 +210,26 @@ IMG_0594D 397).
 Ce contrôle a **refusé une page déjà publiée** : 0429 خ ف ض était donné p. 364 au §2
 de la fiche d'adressage ; le folio imprimé le met p. **363**. Correction portée à la
 fiche, conformément au Cmd 10 (corriger visiblement, jamais effacer en silence).
+
+> **Le contrôle est restreint à l'intérieur d'une photographie (2026-09-16, troisième
+> session).** Sa seconde moitié — « deux photographies consécutives avancent exactement
+> de deux pages » — est **fausse entre groupes**, et le relevé ci-dessus le montrait
+> déjà sans qu'on le nomme : IMG_0589 = 330/331 puis IMG_0590 = **362**/363. La
+> confirmation nette est venue d'`IMG_0581D_00`, dont le folio imprimé porte **245**
+> quand IMG_0580 est en 232/233 — la campagne photographique saisit des ouvertures
+> choisies, elle ne balaie pas le volume page à page (§2).
+>
+> Ce qui **tient** : à l'intérieur d'une même photographie, G et D sont les deux pages
+> d'une même ouverture, donc D = G + 1. C'est sur cette base seule que la p. 597 des
+> entrées 1149-1151 est établie, le folio 596 ayant été lu directement sur `IMG_0600G_00`.
+>
+> Ce qui **ne se fait plus** : reporter un numéro de page d'un groupe de photographies
+> au suivant. Pour les 31 planches restantes, le folio imprimé se lit **sur chaque
+> groupe**, comme il l'a été jusqu'ici sur les côtés G.
+>
+> Conforme au §VII du protocole racine : *un contrôle dont on n'a pas vu l'échec n'est
+> pas un contrôle vérifié*. L'échec a été vu ; le contrôle est réduit à son périmètre
+> valide plutôt que maintenu tel quel.
 
 ## 7. Refus de lecture assumés
 
@@ -242,3 +313,20 @@ bandeau ; les segments manquants sont marqués `[...]` dans le TSV.
 Rien de ce journal n'affirme sur le sens. Le seul point doctrinal rencontré pendant la
 passe reste consigné au §8 de `2026-09-16_gloton-adressage-15-racines.md` et n'est pas
 repris ici.
+
+**Question ouverte à Sidy — les pages non photographiées (2026-09-16).** L'audit du §2
+établit que la campagne a saisi des ouvertures choisies, laissant **huit plages hors
+champ** (environ 1029 numéros de racines, la plus large entre 0583 et 0995). Ce n'est
+**pas** un manque du dépouillement : la moisson est complète sur ce qui existe en
+photographie.
+
+La question — et elle appartient à Sidy seul, la machine n'y répond pas — est de savoir
+si ces plages doivent être photographiées. Trois réponses sont également recevables et
+aucune n'est présumée ici : **compléter** la campagne par de nouvelles prises de vue ;
+**s'en tenir** aux ouvertures déjà saisies, l'échantillon suffisant à l'usage visé ;
+**cibler** quelques plages selon les besoins des chantiers qui consommeront le
+glossaire.
+
+Tant qu'aucun verdict n'est rendu, aucune ligne d'attente n'est versée au TSV pour ces
+plages, et aucun `to-source` n'est posé : *un trou de photo n'est pas un trou de
+source*, et le geste qui le comblerait est un geste humain.
