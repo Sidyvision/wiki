@@ -10,6 +10,16 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] chantier | INF-16 — pause du soir : rien n'est lancé, tout est prêt, et la leçon du collage est consignée
+
+- **Mot de Sidy** : « Je laisse tomber pour ce soir, on verra demain. »
+- **État laissé, écrit au §*Point de reprise* du plan (item 8)** : la rafale n'a **pas** démarré ; **aucun pod créé, aucune dépense engagée, aucune donnée sortie du dépôt**. Le point bloquant est l'**accès au compte RunPod** — un détail de **manipulation**, non une impossibilité technique.
+- **Ce qui a réellement été appris** : une commande **collée depuis l'iPad arrive abîmée** — espaces insérés (`read - rs k` au lieu de `read -rs k`) et ligne **coupée au milieu d'un chemin** (`> /` puis `root/. runpod-api-key`). Les erreurs de bash (`read: '-': not a valid identifier`, `/: Is a directory`) ont servi de trace : **rien n'a été écrit, et aucune clé n'a jamais été lue** — le `read` a échoué avant de lire. *Règle consignée au runbook (§8)* : **taper court, ne coller qu'un seul jeton** — une clé, une adresse — jamais une commande entière depuis un écran de téléphone. L'échec est **silencieux sur le fond**, et c'est ce qui en fait un piège : on croit avoir agi.
+- **Reprise prête, en deux voies** : **A** — créer le Pod dans la **console** RunPod (IP public, port `22/tcp`, `SSH_PUBLIC_KEY` = la clé publique dédiée d'empreinte `SHA256:C3Ea…`), puis communiquer identifiant et adresse SSH ; **B** — taper `cd /root` puis `cat > .runpod-api-key`, coller **seulement la clé**, `Ctrl-D` (fichier déjà créé, vide, mode `600`). Les deux mènent au même endroit.
+- **Signalé, non traité (Cmd 12)** : `/root/.bash_history` contient **d'anciennes clés d'API collées en ligne de commande** (des clés Anthropic de juillet). À **révoquer puis remplacer** si elles sont vivantes, et l'historique à nettoyer — **sur verdict de Sidy**.
+- **Vérifications de clôture** : `verifier-invariants.py --racine /root/wiki` → **0 erreur, 71 avertissements** ; dépôt propre, tout poussé ; **aucun pod en cours, donc aucun coût qui court** — la seule dépense évitée ce soir est celle-là.
+- **Commit** : 47814c5
+
 ## [2026-09-16] chantier | INF-16 — la forme d'installation est arrêtée : l'agent pilote par API, la clé se dépose sur le serveur
 
 - **Demandes de Sidy** : « Comment est-ce que je peux te communiquer mon compte ? », puis, sur les formes proposées : « Je préfère une option où tu gères toute l'installation ».
