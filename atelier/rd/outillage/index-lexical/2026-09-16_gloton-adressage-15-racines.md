@@ -5,7 +5,7 @@ tags: [index-lexical, gloton, lexique-coranique, releve, transcription-photo, or
 created: 2026-09-16
 updated: 2026-09-16
 sources:
-  - "Maurice Gloton, Une approche du Coran par la grammaire et le lexique, section III : A — lexique coranique complet, pp. 233-782 ; B — index alphabétique des mots coraniques, pp. 783-829. Photographies de l'exemplaire physique de Sidy (raw/Une approche du Coran - Gloton/, hors git)."
+  - "Maurice Gloton, Une approche du Coran par la grammaire et le lexique, section III : A — lexique coranique complet, pp. 233-782 ; B — index alphabétique des mots coraniques, annoncé p. 783 à la table des matières, pp. 783-784 blanches, index imprimé pp. 785-829. Photographies de l'exemplaire physique de Sidy (raw/Une approche du Coran - Gloton/, hors git)."
 links: []
 original: []
 ---
@@ -165,8 +165,11 @@ Photographie IMG_0593.
 
 ## 7. Manques et limites
 
-- **pp. 783-784** (ouverture de la section B) non photographiées. Seul manque du
-  matériau de source.
+- **pp. 783-784 : pages blanches** — constat de Sidy sur l'exemplaire physique,
+  2026-09-16. Ce qui figurait comme le seul manque du matériau de source n'en est
+  pas un : il n'y a rien à y photographier. La table des matières annonce la
+  section B à la p. 783 ; l'index lui-même commence p. 785. Le matériau de source
+  est donc **complet** pour ce qui touche à l'adressage.
 - Deux pages non relevées au tableau du §2 (0997, 1455) : le numéro et les radicales
   sont attestés, la page ne l'est pas.
 - Les radicales de 1277 n'ont pas été lues sur le bloc.
