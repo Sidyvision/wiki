@@ -35,8 +35,8 @@ links:
 | Jeu de données constitué, empreinté | ✅ `/root/sandbox-rd/inf-16-dataset/corpus-souverain.jsonl` — 872 enregistrements, 11,5 Mo, `sha256:c776d5e213814c48…` |
 | Jeu d'évaluation émis | ✅ `taches.jsonl` — 13 tâches, fiche source `sha256:e9a635ff10520…` |
 | Modèle de base choisi | ⏳ proposé : **Qwen3-8B** (16,38 Go en bf16, 4,10 Go en 4 bits, 144 Kio de cache KV par jeton) |
-| Compte RunPod + moyen de paiement | ❌ **inexistant** — c'est l'engagement lui-même |
-| Verdict de Sidy sur la dépense (Cmd 13) | ❌ non donné |
+| Compte RunPod + moyen de paiement | ❌ **inexistant** — c'est l'engagement lui-même. **Forme retenue** : l'agent gère l'installation ; la clé d'API est déposée par Sidy **sur le serveur** (§10) |
+| Verdict de Sidy sur la dépense (Cmd 13) | ❌ non donné — l'engagement se matérialise par la création du compte et le dépôt de la clé |
 | Charge de référence (U1–U5) | ❌ non arrêtée — elle décide de la **cible**, donc de la recette |
 
 ## 1. Choisir le pod
@@ -159,7 +159,48 @@ liste **et** que le solde est retombé au niveau d'avant.
 Un run raté se consigne : commandes exactes, versions, code de sortie, message brut, coût
 réel observé. C'est ce qui distingue une rafale d'une dépense.
 
-## 10. Ce que ce runbook ne fait pas
+## 10. Pilotage par API — la forme retenue (2026-09-16)
+
+Sidy a retenu la forme où **l'agent gère toute l'installation** : la clé d'API devient donc
+nécessaire — et elle est **déposée par lui sur le serveur**, jamais transmise par un canal
+conversationnel. Ce que l'API permet, vérifié dans la documentation RunPod le 2026-09-16 :
+
+| Geste | Appel |
+|---|---|
+| **Vérifier la clé sans rien créer** | `GET https://rest.runpod.io/v1/pods` |
+| Créer le pod | `POST https://rest.runpod.io/v1/pods` |
+| Suivre l'état | `GET https://rest.runpod.io/v1/pods/{podId}` |
+| **Détruire** — jamais « arrêter » | `DELETE https://rest.runpod.io/v1/pods/{podId}` (équivalent de `Terminate`) |
+
+**Clé SSH du pod.** Deux voies existent ; la seconde est retenue : la clé publique déclarée
+au niveau du compte, ou l'**écrasement par pod** via la variable d'environnement
+**`SSH_PUBLIC_KEY`**. Le pod naît ainsi avec **notre** clé publique dédiée
+(`~/.ssh/id_ed25519_runpod_inf16.pub`, empreinte `SHA256:C3Ea6hs8flikIcJOSoqDY58DGDKzFWe1HuRxRJfSoO0`),
+et la clé **privée ne quitte pas le serveur** — elle est dédiée à la rafale, donc retirable
+sans toucher à l'identité SSH de la machine.
+
+**Transfert de fichiers.** Le SSH « basic » (proxifié par RunPod) **ne supporte ni `scp` ni
+SFTP** : il faut un **IP public**. C'est pourquoi la configuration retenue porte
+`supportPublicIp: true` et le seul port `22/tcp` — **aucun autre port n'est exposé**, et
+aucune API d'inférence n'est publiée.
+
+**Charge utile de création** — à consigner telle quelle *avant* l'appel, pour que le pod soit
+reproductible : `name`, `imageName` (PyTorch, **Python 3.10-3.12**), `gpuTypeIds`,
+`gpuCount: 1`, `containerDiskInGb: 50`, `volumeInGb: 50`, `volumeMountPath: /workspace`,
+`ports: "22/tcp"`, `supportPublicIp: true`, `env.SSH_PUBLIC_KEY`, `cloudType: "SECURE"`.
+
+**Discipline de la clé d'API** — elle a tous les pouvoirs sur le compte, et la documentation
+RunPod dit elle-même de la traiter comme un mot de passe :
+
+1. **Jamais dans un canal conversationnel**, **jamais dans le dépôt** (`meta/` compris : il est
+   suivi par git et poussé sur GitHub), **jamais sur le pod**.
+2. Déposée par Sidy **sur le serveur**, hors dépôt, en mode `600` ; l'agent n'en lit que le
+   **fichier**, ne l'affiche jamais, ne la journalise jamais.
+3. **Premier appel en lecture seule** (`GET /pods` : ne crée rien, ne coûte rien) — une clé
+   invalide se découvre là, pas au milieu d'un run.
+4. **Révocation à la fin de la rafale.** Une clé qui a servi ne survit pas à son usage.
+
+## 11. Ce que ce runbook ne fait pas
 
 - Il ne **choisit pas la recette** : elle appartient à la charge de référence (étape 1).
 - Il ne **règle pas les droits** sur `textes/` — le jeu de données actuel n'en contient
