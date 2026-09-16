@@ -3,7 +3,7 @@ title: "Registre des chantiers — carte vivante des travaux ouverts du dépôt"
 type: registre
 tags: [atelier, rd, registre, chantiers, pilotage]
 created: 2026-09-01
-updated: 2026-09-15
+updated: 2026-09-16
 sources: []
 links:
   - "[[atelier/rd/index]]"
@@ -222,16 +222,26 @@ Le 2026-09-06 : ouverture de `OUT-15` et `INS-01` passé `ouvert` → `en-cours`
 > versement d'`INF-17`. Passe :
 > [[atelier/rd/infrastructure/2026-09-13_suite-points-ouverts-rapport-studio]].
 
+> **Note de recomptage (2026-09-16).** Ouverture de **`BIB-04`** — le dépouillement du
+> lexique coranique de Gloton, sur ordre de Sidy. Le chantier tournait depuis le
+> 2026-09-16 avec trois fichiers déposés et un journal de reprise, **sans aucune ligne
+> ici** : un agent reprenant le fil à froid par le registre ne l'aurait pas vu, ce qui
+> est le défaut même que cette carte existe pour corriger. Il relève de `BIB` et non de
+> `OUT` : l'outil d'extraction n'en est que le moyen, l'objet est un ouvrage de la
+> bibliothèque physique. Tableau recompté depuis ses lignes : `BIB` passe de 1 à **2**
+> en `ouvert` et de 3 à **4** lignes ; le total général de 32 à **33** en `ouvert` et de
+> 56 à **57** lignes. Commits `e6c4f1f` et `2b4b45a`.
+
 | Pôle | ouvert | en-cours | bloqué | attente-verdict | total |
 |---|---|---|---|---|---|
 | `INS` Instrument | 9 | 2 | 1 | 3 | **15** |
 | `INF` Infrastructure & agents | 7 | 3 | 1 | 3 | **14** |
 | `OUT` Outillage & scripts | 7 | — | 1 | — | **8** |
-| `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
+| `BIB` Bibliothèque | 2 | — | 1 | 1 | **4** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 3 | **6** |
 | `DOC` Doctrinal | 4 | 2 | — | 2 | **8** |
-| **Total** | **32** | **7** | **5** | **12** | **56** |
+| **Total** | **33** | **7** | **5** | **12** | **57** |
 
 **Ce que ce tableau dit d'abord** : 12 chantiers n'attendent **que** la décision de
 Sidy — rien d'autre ne leur manque. 5 sont bloqués par une dépendance qui n'est pas
@@ -331,6 +341,7 @@ non dépouillées dans cette passe → §8.*
 | BIB-01 | Appendices non photographiés — aucune fiche possible en l'état | `bloque` | nouvelle prise de vue (geste humain) | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] | 2026-08-22 |
 | BIB-02 | *Symboles de la Science sacrée* : couverture d'index à 100 %, mais chapitres non traités en fiches au-delà des XVIII et XXXVII | `ouvert` | choisir les chapitres suivants | même catalogue | 2026-08-22 |
 | BIB-03 | Deux ouvrages de Tilak scannés (`raw/`) convertis en Markdown par OCR : *The Orion* (1893, 237 p.) et *The Arctic Home in the Vedas* (1903, 544 p.) — sortie brute de machine au sas `_inbox/conversions/`, non relue | `attente-verdict` | verdict de Sidy sur le versement (destination, relecture, statut) — rien d'autre ne manque | [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] ; `_inbox/conversions/` ; [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | 2026-09-02 |
+| BIB-04 | **Dépouillement du lexique coranique de Gloton** (*Une approche du Coran par la grammaire et le lexique*, section A, pp. 233-782) à partir des photographies de l'exemplaire physique. La moisson retient pour chaque bloc-racine la **case 4 — les traductions de la racine** : une adresse de lexique n'instruit rien, un sens instruit (verdict Sidy du 2026-09-16). **97 racines** transcrites sur ~185, **49 planches restantes** sur 107. Deux points réservés au verdict : `glossaire-unifie.md` est **périmé et non vide** (le générateur rend 1850 termes, 6 ouvrages) et n'a jamais été régénéré depuis le 2026-08-22 ; et `generer-glossaire-unifie.py` sélectionne sur le **préfixe de nom de fichier** (`index-`) quand `valider-index-livres.py` borne au **champ** `type: index-livre` — 6 fiches `index-*`, 1 seule de ce type | `ouvert` | lire les 49 planches restantes (journal §4), puis déposer la moisson en fiche `type: index-livre` — la régénération de l'artefact et l'alignement des deux scripts attendent le verdict | [[atelier/rd/outillage/index-lexical/2026-09-16_gloton-moisson-racines-journal]] ; `moisson-racines-gloton.tsv` ; [[atelier/rd/bibliotheque/catalogue-bibliotheque]] | 2026-09-16 |
 
 ## 5. Études de cas (`CAS`)
 
