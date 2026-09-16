@@ -10,6 +10,23 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] correctifs | Forme des liens — deux fiches d'infrastructure nommaient un chemin inexistant
+
+- Sur ordre de Sidy (« Exécution des recommandations »), point 1 des suggestions du
+  rapport de veille-référencement du 2026-09-16. **Forme seulement**, aucun corps
+  réécrit (Cmd 4, Cmd 11).
+- `canal-telegram-mehdi-2026-08-16.md` et `canal-telegram-wendel-2026-08-21.md` :
+  `[[meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md]]` →
+  `[[meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07.md]]`.
+  La pièce n'avait jamais quitté le dépôt : elle vit sous `archives/`. Forme alignée
+  sur celle qu'emploient déjà `meta/meta-index.md` et
+  `activation-salon-infrastructure-studio-2026-08-16.md`.
+- Signal relevé à cette occasion, **non instruit** (Cmd 12) : 78 liens `atelier/` →
+  `meta/` dans 14 fichiers `.md` — un sens que le §VI n'autorise pas, et que ni le
+  script ni le rapport du jour ne contrôlaient. Aucune consignation au registre.
+- `updated:` remonté au 2026-09-16 (Cmd 8). Hygiène Unicode (Cmd 15) : 0.
+- **Commit** : d1e5411
+
 ## [2026-09-16] rd/audio | Ouverture du domaine `rd/audio/` par un plan accepté : étage de mesure, banc analogique, enveloppes de styles
 
 - **Mot de Sidy** : « Journalise tout ça et on reprendra plus tard » — après avoir **accepté le plan** proposé en session (`#infrastructure`), puis posé une question restée ouverte (l'entrée audio depuis le Model 12) et fixé sa réserve sur le discernement esthétique.

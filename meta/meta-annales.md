@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-09-15
+updated: 2026-09-16
 
 ---
 
@@ -13,6 +13,18 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-16] correctifs | Forme des liens — `oiseau-serpent-jumeau` nommait `meta/signature-kouyate`
+
+- Sur ordre de Sidy (« Exécution des recommandations »), point 1 des suggestions du
+  rapport de veille-référencement du 2026-09-16. **Forme seulement**, aucun corps
+  réécrit (Cmd 4, Cmd 11).
+- `genealogie/2026-06-20_oiseau-serpent-jumeau.md` : `[[meta/2026-06-20_signature-kouyate]]`
+  → `[[meta/genealogie/2026-06-20_signature-kouyate]]`, au Sceau (`links:`) et au
+  corps (l. 25). La fiche visée est dans le **même répertoire** — chemin raccourci à
+  tort. Le cas était déjà « compté mort, résout par le slug » (cahier du 2026-09-04).
+- `updated:` remonté au 2026-09-16 (Cmd 8). Hygiène Unicode (Cmd 15) : 0.
+- **Commit** : d1e5411
+
 ## [2026-09-15] restauration | Journal tawakkul-transition : sources nommées
 
 - Verdict de Sidy sur le signalement C du rapport Publication du 2026-09-15 : « Tu peux corriger ».

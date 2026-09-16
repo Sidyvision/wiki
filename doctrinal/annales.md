@@ -9,6 +9,19 @@ updated: 2026-09-16
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] correctifs | Forme du Sceau — `aiman-attar.md` nommait `sources/body-types`
+
+- Sur ordre de Sidy (« Exécution des recommandations »), point 1 des suggestions du
+  rapport de veille-référencement du 2026-09-16. **Forme seulement** — le champ
+  `sources:` est corrigé, aucune valeur de `status:` n'est touchée (Cmd 12).
+- `doctrinal/autorites/aiman-attar.md` : `sources: ["[[doctrinal/sources/body-types]]"]`
+  → `["[[doctrinal/deviations/body-types]]"]`. La fiche visée existe depuis le
+  2026-06-05 et n'a jamais changé de place — c'est le chemin cité qui était faux.
+  Le cas était déjà relevé comme « compté mort, résout par le slug »
+  (`atelier/rd/cahiers/2026-09-04_extension-c1-cartouche-verifier-invariants.md`, l. 96).
+- `updated:` remonté au 2026-09-16 (Cmd 8). Hygiène Unicode (Cmd 15) : 0.
+- **Commit** : d1e5411
+
 ## [2026-09-16] restauration | *Xī Yóu Jì* — verdict de statut rendu : `traditionnel`, cadre `taoisme`
 
 - Verdict de Sidy, en session : « traditionnel, et tradition_cadre taoisme ». La fiche
