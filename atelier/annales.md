@@ -10,6 +10,20 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] veille | LANDR — le compte et l'API sont deux portes : le pont entrant est éprouvé, et il s'arrête au master
+
+- **Mot de Sidy** : « est-ce que LANDR prévoit un accès serveur direct ? », précisé ensuite en **« je voulais un pont entrant »** — rapatrier sur le serveur des morceaux déjà déposés dans son compte LANDR. Lien de partage fourni pour l'éprouve (piste « 01 - Wake up »).
+- **Ce qui a été mesuré, hors des pages** : spécification OpenAPI récupérée et conservée (8 chemins, 10 opérations, sha256 court `14d4d164…`) ; `api.landr.com` refuse l'anonyme en périphérie (**403 AccessDenied**, AmazonS3/CloudFront, POP `FRA56-P11`), seuls les chemins de documentation étant publics ; centre d'aide interrogé par son API de recherche (« API » → **0 article**, « Linux » → **0 article**) ; bundle applicatif lu pour identifier le mécanisme d'accès anonyme (`X-LANDR-PUBLIC-TOKEN`).
+- **Le fait principal** : **le compte et l'API sont deux portes distinctes**. Les dix opérations de l'API **créent du neuf à partir d'un `inputUri`** (modèle *pull* : l'état `downloading` dit que LANDR vient chercher le fichier) et **ne relisent jamais l'existant** — aucune opération de bibliothèque, de compte, de crédits, de releases. Une clé payante (« Contact sales », à partir de **2,50 $/titre**) ne rapatrierait donc rien.
+- **Étage 1 — éprouvé, sans aucun identifiant** : `projects.landr.com/assets/<uuid>/stream.mp3` se tire en `curl` nu (**404 sur UUID bidon**, 200 sinon) — **3 425 637 octets**, sha256 `57681f467146a5fb1df6c0382bd79a59…`, MP3 CBR **192 kbps** / 44,1 kHz / stéréo / **142,707 s**, et au niveau : **-7,4 LUFS**, LRA **2,5 LU**, **crête vraie +0,3 dBFS** (fait de chaîne à retenir avant tout passage sur bande). C'est une **copie d'écoute** : leur documentation donne le master MP3 livrable à **320 kbps**.
+- **Étage 2 — fermé, mesuré trois fois** : « Download all » **redirige vers `accounts.landr.com/oauth2/register`** ; `chatAssetDownloadUrl` rend **`UNAUTHENTICATED`** ; et le modèle de permissions déclaré par leur serveur à un visiteur anonyme porte **`canDownload: false`** (avec `canView: true`). **Contrôles** : mêmes requêtes **avec** le jeton → données rendues, **sans** → `ShareableLinkNotFound`, requête triviale → 200 dans les deux cas. Le jeton ouvre la lecture, précisément pas le téléchargement.
+- **Hypothèse écartée par Sidy le jour même** : le réglage de partage autorisant le téléchargement, qui aurait pu ouvrir l'étage 2 — « ce ne sont encore que des ébauches que j'avais testé ». L'hypothèse reste **ouverte et non tranchée**, l'écart est consigné tel quel dans la fiche.
+- **Conséquence pour nous** : l'entrant des **masters** passe par le **geste humain** vers `_inbox/` ; l'entrant de l'**écoute et de la mesure** est automatisable dès aujourd'hui, mais reste **à instruire comme outillage, sur verdict** (aucun code écrit). Rien n'a été installé, rien n'a été exécuté contre le dépôt ; la copie d'éprouve vit hors dépôt, `/root/sandbox-rd/landr-inbound/stream.mp3`.
+- **Vérifications de clôture** : `verifier-invariants.py --racine /root/wiki` → **0 erreur, 71 avertissements**, aucun ne nommant les fichiers touchés ; hygiène Unicode (Cmd 15) **propre** sur les deux fichiers ; graphe `--verifier` → la fiche **n'est pas** en section `isolée`, et les **9 avertissements** qu'elle porte relèvent de deux familles **préexistantes** (8 `sources:` lues comme cibles de lien, 1 `[[atelier/rd/veille/index]]` — même famille que sept autres fichiers, dont la fiche de veille du 2026-09-15).
+- **Signalé, non traité (Cmd 12)** : le hook de pré-commit déclare **une exception Unicode caduque** — `atelier/rd/citadelle-du-sham/source/library-full.json [U+200D]` n'a plus d'occurrence ; le registre d'exceptions est à mettre à jour, la décision n'appartient pas à cette passe.
+- **Commit** : d97359b
+
+
 ## [2026-09-16] chantier | INF-16 — pause du soir : rien n'est lancé, tout est prêt, et la leçon du collage est consignée
 
 - **Mot de Sidy** : « Je laisse tomber pour ce soir, on verra demain. »
