@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 222,
+  "avertissements": 238,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -472,6 +472,29 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/audio/2026-09-16_plan-etage-mesure-et-banc-analogique",
+      "label": "Plan — étage de mesure audio et banc de calibration de la chaîne analogique",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "audio",
+        "mesure",
+        "ebur128",
+        "ffmpeg",
+        "analogique",
+        "calibration",
+        "pedagogie"
+      ],
+      "updated": "2026-09-16",
+      "chemin": "atelier/rd/audio/2026-09-16_plan-etage-mesure-et-banc-analogique.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
       "label": "Liste des abréviations — Hindouisme et Soufisme (Shayegan)",
       "circuit": "atelier",
@@ -541,7 +564,7 @@
         "ressource",
         "catalogue"
       ],
-      "updated": "2026-09-06",
+      "updated": "2026-09-16",
       "chemin": "atelier/rd/bibliotheque/catalogue-bibliotheque.md",
       "lacunes_to_source": 0
     },
@@ -1826,6 +1849,19 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/incidents/2026-09-15_invisibles-injectes-par-la-couche-d-ecriture",
+      "label": "Caractères invisibles injectés par la couche d'écriture d'un modèle (U+200B et voisins)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": "resolu",
+      "tradition_cadre": null,
+      "tags": [],
+      "updated": "2026-09-16",
+      "chemin": "atelier/rd/incidents/2026-09-15_invisibles-injectes-par-la-couche-d-ecriture.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/2026-08-20_pistes-developpement-infrastructure",
       "label": "Pistes de développement — infrastructure et outillage R&D (2026-08-20)",
       "circuit": "atelier",
@@ -2220,7 +2256,7 @@
         "telegram",
         "hermes"
       ],
-      "updated": "2026-08-16",
+      "updated": "2026-09-16",
       "chemin": "atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16.md",
       "lacunes_to_source": 0
     },
@@ -2240,7 +2276,7 @@
         "telegram",
         "hermes"
       ],
-      "updated": "2026-08-21",
+      "updated": "2026-09-16",
       "chemin": "atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21.md",
       "lacunes_to_source": 0
     },
@@ -2569,6 +2605,53 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16",
+      "label": "INF-16 — Devis : une rafale d'entraînement RunPod pour produire un adaptateur LoRA",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "inf-16",
+        "devis",
+        "gpu-loue",
+        "runpod",
+        "lora",
+        "budgétisation"
+      ],
+      "updated": "2026-09-16",
+      "chemin": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16",
+      "label": "INF-16 — Jeu d'évaluation d'un modèle affiné sur le corpus du dépôt",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "inf-16",
+        "evaluation",
+        "soup-ship",
+        "jeu-de-taches",
+        "anti-fabrication"
+      ],
+      "updated": "2026-09-16",
+      "chemin": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
       "label": "INF-16 — Machine d'IA locale et développement SLM : intention",
       "circuit": "atelier",
@@ -2609,6 +2692,30 @@
       ],
       "updated": "2026-09-15",
       "chemin": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/runbook-rafale-entrainement-2026-09-16",
+      "label": "INF-16 — Runbook : rafale d'entraînement sur RunPod (charge d'entraînement, pas d'inférence)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "infrastructure",
+        "chantier",
+        "inf-16",
+        "runbook",
+        "runpod",
+        "entrainement",
+        "lora",
+        "securite"
+      ],
+      "updated": "2026-09-16",
+      "chemin": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/runbook-rafale-entrainement-2026-09-16.md",
       "lacunes_to_source": 0
     },
     {
@@ -4698,6 +4805,27 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/veille/2026-09-16_landr-pont-entrant-partage-et-api",
+      "label": "LANDR — pont entrant : partage, flux et API (relevé du 2026-09-16)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "veille",
+        "landr",
+        "mastering",
+        "api",
+        "partage",
+        "pont-entrant",
+        "souverainete"
+      ],
+      "updated": "2026-09-16",
+      "chemin": "atelier/rd/veille/2026-09-16_landr-pont-entrant-partage-et-api.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/veille/cordis/equations",
       "label": "Cordis — équations clés du paradigme",
       "circuit": "atelier",
@@ -4791,7 +4919,7 @@
         "veille",
         "registre"
       ],
-      "updated": "2026-09-15",
+      "updated": "2026-09-16",
       "chemin": "atelier/rd/veille/registre.md",
       "lacunes_to_source": 0
     },
@@ -4899,7 +5027,7 @@
         "auteure",
         "nurasunna"
       ],
-      "updated": "2026-07-01",
+      "updated": "2026-09-16",
       "chemin": "doctrinal/autorites/aiman-attar.md",
       "lacunes_to_source": 0
     },
@@ -10160,6 +10288,27 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "doctrinal/sources/xi-you-ji-wu-chengen",
+      "label": "Xī Yóu Jì 西遊記 — le Voyage en Occident (Wú Chéng'ēn)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "taoisme",
+      "tags": [
+        "chine",
+        "roman",
+        "xiyouji",
+        "ming",
+        "taoisme",
+        "bouddhisme",
+        "chinois-traditionnel"
+      ],
+      "updated": "2026-09-16",
+      "chemin": "doctrinal/sources/xi-you-ji-wu-chengen.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/symboles/adityas-mois-du-soleil",
       "label": "Les Ādityas — les états du soleil, et le huitième rejeté",
       "circuit": "doctrinal",
@@ -12940,6 +13089,20 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/audio/2026-09-16_plan-etage-mesure-et-banc-analogique",
+      "target": "atelier/rd/veille/2026-09-16_landr-pont-entrant-partage-et-api",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/audio/2026-09-16_plan-etage-mesure-et-banc-analogique",
+      "target": "atelier/materiel/tascam-model-12",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/bibliotheque/abreviations-hindouisme-soufisme",
       "target": "atelier/rd/bibliotheque/sommaire-hindouisme-soufisme",
       "champ": "links",
@@ -14256,6 +14419,69 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16",
+      "target": "atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/intent",
       "target": "atelier/rd/registre-chantiers",
       "champ": "links",
@@ -14293,6 +14519,34 @@
     {
       "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan",
       "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/runbook-rafale-entrainement-2026-09-16",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/runbook-rafale-entrainement-2026-09-16",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/runbook-rafale-entrainement-2026-09-16",
+      "target": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/runbook-rafale-entrainement-2026-09-16",
+      "target": "atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -15866,6 +16120,13 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/veille/2026-09-16_landr-pont-entrant-partage-et-api",
+      "target": "atelier/rd/veille/registre",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/veille/cordis/equations",
       "target": "atelier/rd/veille/cordis/methodes",
       "champ": "links",
@@ -16087,6 +16348,13 @@
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
       "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/aiman-attar",
+      "target": "doctrinal/deviations/body-types",
+      "champ": "sources",
+      "nature": "source",
       "assise": "etabli"
     },
     {

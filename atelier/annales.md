@@ -25,6 +25,24 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
   `meta/` dans 14 fichiers `.md` — un sens que le §VI n'autorise pas, et que ni le
   script ni le rapport du jour ne contrôlaient. Aucune consignation au registre.
 - `updated:` remonté au 2026-09-16 (Cmd 8). Hygiène Unicode (Cmd 15) : 0.
+- **Contrôles de clôture** (`protocoles/cloture-de-session.md`) : `verifier-invariants.py
+  --racine /root/wiki` — **0 erreur(s), 71 avertissement(s)** (inchangé : la classe
+  C5/C6 tranchée le 2026-09-10, **aucune régression**). Graphe régénéré
+  (`atelier/rd/outillage/graphe/generer-cartographie.py`) : **650 nœuds, 2153 arêtes,
+  134 lacunes `to-source`, 238 avertissements non bloquants** (159 liens morts,
+  75 isolées, 4 liens). `meta_inclus = False` — le domaine réservé est hors graphe,
+  les deux correctifs `meta/` ne s'y vérifient donc pas ; la correction doctrinale s'y
+  lit en revanche : l'arête `doctrinal/autorites/aiman-attar →
+  doctrinal/deviations/body-types` (`sources`) **résout**, là où elle visait une cible
+  inexistante. La hausse des lacunes `to-source` (70 → 134) n'est pas une dérive :
+  elle suit le verdict du 2026-09-15 (`051d30d`) qui a fait déclarer son état réel à
+  73 fiches — une lacune nommée vaut mieux qu'un `[]` silencieux.
+- **Relevé, non corrigé** — même signal que la passe du 2026-09-13 : les deux sorties
+  d'archivage `monitoring-archive/2026-09-16_{ad3152b237bb,41dc3e7e492c}.txt` restent
+  **non suivies par git**, et **aucune entrée de traitement** ne les porte au
+  `registre-traitement.md`. La charte de ce registre en réserve l'écriture à Sidy ou à
+  une session Claude Code ; le présent agent s'abstient donc d'y écrire — signalement
+  seulement (Discord-Validation), non consignation.
 - **Commit** : d1e5411
 
 ## [2026-09-16] rd/audio | Ouverture du domaine `rd/audio/` par un plan accepté : étage de mesure, banc analogique, enveloppes de styles
