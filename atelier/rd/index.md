@@ -3,7 +3,7 @@ title: "Pôle R&D de l'atelier — charte du lieu"
 type: index
 tags: [atelier, rd, infrastructure, souverainete]
 created: 2026-08-08
-updated: 2026-09-08
+updated: 2026-09-16
 sources: []
 links: []
 ---
@@ -107,6 +107,7 @@ humaine, sans wikilink.
 | Fiches machines, manuels, routing | **reste en `atelier/materiel/`** (référence) |
 | Scripts déterministes du dépôt et leur documentation | `rd/outillage/` |
 | Veille externe R&D (GitHub, arXiv, dépôts scrutés) | `rd/veille/` (ouvert 2026-08-18, hebdomadaire) |
+| Mesures, bancs d'essai et chaînes audio **génériques** (aucun morceau nommé) | `rd/audio/` — première fiche ouverte le 2026-09-16 : [[atelier/rd/audio/2026-09-16_plan-etage-mesure-et-banc-analogique]] |
 | Sandbox (éprouve de montages issus de veille) | **hors dépôt** (`/root/sandbox-rd/`) |
 
 La frontière `meta/` ↔ `rd/` suit la règle existante : jamais de fait personnel
