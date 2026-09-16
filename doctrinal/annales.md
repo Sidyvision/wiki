@@ -1,13 +1,38 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-15
+updated: 2026-09-16
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-16] archivage | *Xī Yóu Jì* 西遊記 — fiche source ouverte, statut proposé et non tranché
+
+- Consigne de Sidy : « ouvre la fiche doctrinal/sources/ et le reste ».
+- **Créé** : [[doctrinal/sources/xi-you-ji-wu-chengen]] (`source`, `profane` **à titre de
+  proposition**, `tradition_cadre: "none"`, `original: ["西遊記"]` pris au texte même).
+- **Statut et cadre laissés ouverts** (Cmd 12, Cmd 13) : les cinq statuts du Sceau n'ont pas de
+  case pour la littérature d'une époque traditionnelle. La fiche expose les deux côtés —
+  `profane` (œuvre littéraire sans autorité) contre `traditionnel` (support d'exposition
+  alchimique, lu comme tel en Chine) — et attend le verdict. De même pour `tradition_cadre` :
+  `taoisme` existe au dépôt, `bouddhisme` serait une valeur neuve, qui ne s'introduit pas seule.
+- **Apport propre de la fiche, mesuré et non allégué** : comptage du lexique de l'alchimie
+  interne dans les 100 lignes de titre de l'exemplaire converti — `心猿` 17 titres, `木母` 7,
+  `嬰兒` 4, `元神` 3, `姹女` 2, `金公` 1, `黃婆` 1, couple `心猿`/`意馬` structurant. Le fait
+  terminologique est établi ; sa **portée** ne l'est pas, et n'est pas décrétée.
+- **Réserve portée dans la fiche** : l'exemplaire du dépôt est défectueux (13 titres sur 100
+  s'écartent du témoin 維基文庫, dont 5 pertes de matière) et son corps n'est collationné avec
+  rien. Aucune citation qui en serait tirée ne lève un `to-source` par elle-même.
+- **Double contrôle** : sashimono *kari-kumi* (aucun joint posé) ; Gizeh **confronté, aucun
+  ancrage** (le « voyage en Occident » est un déplacement géographique, non une orientation
+  symbolique — erreur de catégorie écartée) ; Cmd 3 : aucune correspondance proposée entre
+  `心猿`/`嬰兒` et les termes d'une autre tradition, faute de fiche de discernement.
+- Recensé : `doctrinal/index.md`, section VI.
+- Contrôles : invariants 0 erreur / 71 avertissements ; Cmd 15 propre.
+- **Commit** : 7bcd4ff
 
 ## [2026-09-15] maillage | Zéphyr — `cross_links` inscrits sur verdict
 

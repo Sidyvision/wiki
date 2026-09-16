@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-15
+updated: 2026-09-16
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,30 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-16] archivage | Catalogue : *Xī Yóu Jì* « à acquérir » ; fiche d'incident sur les invisibles
+
+- Consigne de Sidy : « ouvre la fiche doctrinal/sources/ et le reste ».
+- **Catalogue** (`atelier/rd/bibliotheque/catalogue-bibliotheque.md`, section III) : entrée
+  ❌ **non détenu / à acquérir** pour le *Xī Yóu Jì*, sur le modèle de l'entrée Burckhardt. Motif
+  du choix : le catalogue recense la bibliothèque **physique**, et le dépôt n'a de cette œuvre
+  qu'un fichier — les conversions numériques antérieures (Ibn Sīrīn, Ihyâ', Osman Yahya) n'y
+  figurent d'ailleurs pas. L'entrée dit donc ce qui **manque** : un témoin nommé (世德堂本 ou
+  édition critique imprimée), requis pour tout travail sur la lettre. Lien sortant
+  `atelier/` → `doctrinal/`, sens unique, signalé.
+- **Créé** : `atelier/rd/incidents/2026-09-15_invisibles-injectes-par-la-couche-d-ecriture.md`.
+  Vecteur **neuf** au regard des incidents antérieurs (ZWJ du 2026-08-22, marques de direction
+  de l'OCR du 2026-09-09) : ni collage ni PDF, mais la **couche d'écriture** elle-même, qui a
+  décodé une notation d'échappement au lieu de la transcrire — d'abord dans le script de
+  conversion, puis dans l'entrée d'annales qui décrivait cette première faute.
+- **Ce que l'incident a établi** : le hook Cmd 15, en place depuis le 2026-08-22 et jamais vu
+  refuser en conditions réelles, a bloqué commit et push en nommant fichier, ligne, colonne et
+  caractère. Son épreuve (§VII) n'a pas eu à être fabriquée. Rien n'est entré au dépôt.
+- **Trois règles retenues** : dans le code, un invisible se construit par `chr()` et ne s'écrit
+  jamais en clair ; en prose, il se nomme par son code (« U+200B ») ; le hook reste la dernière
+  porte, non la première — le contrôle manuel avant `git add` demeure dû.
+- Contrôles : invariants 0 erreur / 71 avertissements ; Cmd 15 propre.
+- **Commit** : 7bcd4ff
 
 ## [2026-09-15] rectification | *Xī Yóu Jì* — la collation des titres était affirmée, non faite
 
