@@ -61,7 +61,7 @@ Colonne `appui` : nature de l'attestation en section A, distinguée du verdict.
 | ء ل ه | 0055 | 2697 | IMG_0583 | 248 | lu | 90 / 34 |
 | ج ب ر | 0218 | 10 | IMG_0584 | 301 | lu | 170 / 44 |
 | ح د ث | 0301 | 36 | IMG_0585 | 324 | lu | 102 / 35 |
-| خ ف ض | 0429 | 4 | IMG_0590 | 364 | lu | 55 / 12 |
+| خ ف ض | 0429 | 4 | IMG_0590 | 363 | lu | 55 / 12 |
 | ذ ك ر | 0518 | 292 | IMG_0610 | 390 | lu | 212 / 19 |
 | ر ف ع | 0580 | 29 | IMG_0595 | 412 | lu | 50 / 18 |
 | ع ر ش | 0997 | 33 | IMG_0596 | page non relevée | lu | 57 / 17 |
@@ -71,6 +71,14 @@ Colonne `appui` : nature de l'attestation en section A, distinguée du verdict.
 | ك ر س | 1297 | 2 | IMG_0603 | 646 | lu | 86 / 21 |
 | م ل ك | 1455 | 206 | IMG_0605 | page non relevée | lu | 285 / 57 |
 | و ل ي | 1696 | 233 | IMG_0607 | 772 | lu | 57 / 22 |
+
+
+> **Correction du 2026-09-16 — page de 0429.** Cette ligne portait **p. 364**. Le
+> folio imprimé la réfute : le titre courant lu sur IMG_0590 page de gauche donne
+> **362**, celui d'IMG_0591 page de gauche **364**, et chaque photographie couvre une
+> double page. 0429 est donc **p. 363**. Le résidu du §6 est recalculé en conséquence
+> (−6 et non −5). Premier refus du contrôle par folio imprimé (voir le journal de
+> moisson, `2026-09-16_gloton-moisson-racines-journal.md` §6).
 
 **Bilan honnête de l'appui** : 12 racines lues directement sur leur bloc, dont 2 sans
 numéro de page relevé ; 1 établie par position (1277, encadrée par 1276 = ق و ل,
@@ -95,9 +103,25 @@ le lexique de Gloton est *coranique*. Un terme de la technique soufie qui n'appa
 pas dans le Texte n'y figure pas. La même limite vaut pour simiya, jafr, awfaq,
 talisman, alchimie, athanor, carré magique. Ces termes demandent une autre source.
 
-Cas voisin mais distinct : `alif` (98 / 16) n'est pas une entrée de lexique non plus,
-mais parce que c'est une **lettre** — elle relève de la section Ac, p. 67 (« Les 14
-lettres isolées inaugurant 29 sourates »), pas du lexique des racines.
+> **Correction du 2026-09-16 — ce paragraphe affirmait le contraire.** Il portait :
+> « Cas voisin mais distinct : `alif` n'est pas une entrée de lexique non plus, mais
+> parce que c'est une **lettre** — elle relève de la section Ac, p. 67, pas du lexique
+> des racines. » **C'est faux, et la section A le réfute.** Les lettres isolées ont
+> bien des entrées de lexique : p. 247 imprime **0049 ء ل ر (5)** « Alif - Lâm - Râ',
+> trois lettres isolées, inaugurant 5 sourates » ; p. 248 imprime **0052 ء ل م (81)**,
+> **0053 ء ل م ر (1)** et **0054 ء ل م ص (1)** ; et l'entrée **0050, ligne f**, donne
+> ألف « lettre de l'alphabet arabe, valeur 1 ». La section Ac p. 67 traite les lettres
+> isolées, mais elle ne les retire pas du lexique. L'affirmation est retirée, non
+> effacée (Cmd 10).
+
+> **Correction du 2026-09-16 — la clause sur la magie était trop large.** Le
+> paragraphe ci-dessus range « simiya, jafr, awfaq, talisman, alchimie, athanor, carré
+> magique » sous la même limite que ق ط ب. Pour ces termes-là, pris comme termes, cela
+> tient. Mais **la notion, elle, est dans le lexique** : p. 301 imprime **0217 ج ب ت
+> (1)** « Idée d'influence ou de pouvoir magique, du monde intermédiaire », ligne a
+> جبت « idole, magie, magicien », s. 4 v. 51. La portée exacte de l'instrument est
+> donc : il ne connaît pas le *vocabulaire technique* de ces disciplines, ce qui ne
+> veut pas dire que le Texte ne nomme pas la chose.
 
 ---
 
@@ -149,7 +173,7 @@ quelle page.
 Estimation linéaire, **non attestée** : `p ≈ 233 + (N − 1) × 549 / 1725`.
 
 Résidus mesurés sur les cas où la page réelle a été relevée (réel − estimé) :
-0042 −1 · 0055 −2 · 0218 −1 · 0301 −4 · 0429 −5 · 0518 −8 · 0528 −6 · 0580 −5 ·
+0042 −1 · 0055 −2 · 0218 −1 · 0301 −4 · 0429 −6 · 0518 −8 · 0528 −6 · 0580 −5 ·
 1144 −2 · 1150 −3 · 1277 −1 · 1297 +1 · 1696 0.
 
 **Lecture** : l'estimation **dépasse** la page réelle de 0 à 8 pages sur les treize cas
@@ -183,6 +207,11 @@ Photographie IMG_0593.
   compatibilité du squelette consonantique du mot avec la racine pointée — mais
   chacun devra avoir été **vu refuser** sur une faute fabriquée avant d'être tenu pour
   un contrôle. Rien n'est engagé là-dessus : la décision revient au verdict.
+
+- **Suite de la passe** : le dépouillement intégral des blocs-racines des 28
+  photographies (numéro, case 2, radicales et **case 4, les traductions de la racine**)
+  est consigné séparément dans `2026-09-16_gloton-moisson-racines-journal.md` et
+  `moisson-racines-gloton.tsv`. Cette pièce-ci reste un relevé d'adressage.
 
 ## 8. Réservé au verdict
 
