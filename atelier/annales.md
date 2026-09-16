@@ -10,6 +10,88 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] outillage | Gloton — le recadrage ciblé versé à l'outil, et le verdict de Sidy sur les photographies
+
+**Le geste qui se refaisait de mémoire devient un mode.** Le recadrage ciblé — revenir à
+l'original 5712×4284 quand une case 4 déborde la planche **à droite** (bord de page
+coupé) ou **en bas** (dernière ligne mangée par la marge) — a servi **quatre fois** à la
+seule passe de clôture : entrées 1446, 1458, 1698/1700 et 0518. Chaque fois en
+`python3 -c` jetable, donc chaque fois la géométrie redevinée. C'est désormais un mode de
+`extraire-bandeaux-racines-gloton.py` : l'outil existant est **étendu**, non dupliqué.
+
+```
+--recadrer x0,y0,x1,y1 --echelle N --sortie fichier.png
+```
+
+Coordonnées **relatives** (0.0 à 1.0) et non en pixels : elles se lisent sur un aperçu
+sans connaître la définition de la photographie, et survivraient à une campagne
+rephotographiée autrement. Ce choix n'est pas cosmétique — c'est ce qui rend l'outil
+utilisable par la session qui recevra les prochaines photos.
+
+**Éprouvé en voyant d'abord les refus** (§VII — *un contrôle dont on n'a pas vu l'échec
+n'est pas un contrôle vérifié*) :
+
+```
+zone hors bornes                 -> rc=2
+x0 > x1                          -> rc=2
+trois valeurs au lieu de quatre  -> rc=2
+cas nominal    -> /tmp/essai_0518.png : 4626x900   rc=0
+mode planches  -> TOTAL : 22 bandeau(x) candidat(s)   (inchangé)
+```
+
+La preuve qui compte est la dernière : le recadrage rendu par l'outil est **identique
+octet pour octet** à celui obtenu à la main pour l'entrée 0518 — même
+`md5sum 4f9dc484ca1fb53a4c081b12c404b598`. Le mode ne fait pas *autre chose* que ce qui a
+servi ; il fait *la même chose*, sans la réécrire.
+
+**Verdict de Sidy, rendu le jour même.** *« Pour le reste du contenu du lexique de
+racines, il sera photographié plus tard au gré des opportunités. »* La question du §10
+lui avait été présentée sous trois options — compléter, s'en tenir, cibler. **La réponse
+n'est aucune des trois** : c'est une quatrième, *compléter sans calendrier*, qu'il
+fallait que Sidy formule et que la machine n'avait pas à présumer. Rappel utile pour les
+passes à venir : présenter des options n'est pas restreindre le verdict à ces options.
+
+Le chantier devient donc **dormant**, ni clos ni bloqué : il reprend à chaque arrivée de
+photographies, par passes d'ajout strict, sans campagne à programmer et **sans qu'aucune
+plage soit à réclamer**. La règle est confirmée, pas levée — *un trou de photo n'est pas
+un trou de source* : aucune ligne d'attente au TSV pour les treize plages hors champ, et
+pas davantage demain sous prétexte que la campagne est annoncée reprenable. Les racines
+entrent au registre quand elles sont **lues**, jamais quand elles sont espérées.
+
+**Une affirmation qui avait grandi sans être retestée.** Le §2 du journal disait que
+chaque discontinuité de la numérotation correspond à des pages non photographiées. C'était
+mesuré sur **huit** écarts, et la phrase avait été portée à **treize** en recalculant la
+liste mais en recopiant la conclusion. Le contrôle qui discrimine est la **page bornant
+chaque écart** : deux pages égales ou consécutives signeraient un bloc-racine omis à la
+lecture, non un trou de campagne. Sortie brute désormais inscrite au journal — **aucun
+des treize ne borne deux pages consécutives**, le plus serré étant
+`0521 (p.391) -> 0527 (p.394)`, et `1278 (p.639) -> 1295 (p.646)` retombant exactement sur
+les pages 640-645 relevées au §6 comme non photographiées. L'affirmation tenait ; ce qui
+manquait, c'est qu'elle soit mesurée.
+
+Deux autres corrections au journal : le §5 portait `IMG_0601-0603 | 1270-1299 | 636-647`,
+qui se lit comme une couverture **continue** que le §6 contredit — corrigé en
+`1270-1278 · 1295-1299 | 636-639 · 646-647` ; et le §6 gardait « les 31 planches
+restantes » au présent alors qu'elles sont lues.
+
+**Registre.** `BIB-04` passe d'`ouvert` à **`attente-verdict`** — pour les deux points
+qui restent (régénération de `glossaire-unifie.md`, périmètre divergent entre
+`generer-glossaire-unifie.py` et `valider-index-livres.py`), **non** pour la question des
+photographies, tranchée. `BIB` : 2 → **1** en `ouvert`, 1 → **2** en `attente-verdict`,
+total **4** inchangé ; général 33 → **32** et 12 → **13**, **57** lignes.
+
+**Réserve inscrite plutôt qu'escamotée (Cmd 5).** Un recomptage mécanique des lignes du
+registre **ne réconcilie pas** avec son tableau de synthèse pour `DOC`, `OUT` et `INF`.
+La cause est de forme : les tableaux n'ont pas tous le même nombre de colonnes — les
+lignes déjà closes en portent six, les autres huit ou neuf — si bien qu'un comptage par
+position les écarte. **Ces trois pôles n'ont pas été touchés** : l'écart préexiste à cette
+passe et n'appartient pas au chantier Gloton. Il aurait été facile de « corriger » le
+tableau en le réécrivant d'après ma propre mesure ; c'eût été trancher à la place de Sidy
+un recomptage général qui suppose d'abord d'unifier la forme des tableaux.
+
+- **Commit** : 741806a
+
+
 ## [2026-09-16] moisson | Gloton — la moisson close à 169 racines : 107 planches sur 107
 
 **Quatrième passe du même jour, et la dernière que le matériau permette.** Les 31
