@@ -10,6 +10,80 @@ Journal chronologique inverse des opérations (la plus récente en haut). Append
 
 <!-- INSERTION: EN-TÊTE -->
 
+## [2026-09-16] archivage | *Lisān al-ʿArab* — édition numérique versée dans `raw/` (texte clavé + scan-témoin, paginations vérifiées)
+
+- **Consigne de Sidy** : « trouve une bonne édition digital du *Lisan al-Arab* exploitable
+  pour transcription et verse-la dans raw/. Claude Code se chargera de la transcription plus
+  tard. » Contexte R&D consulté sur sa demande (« réfère toi au R&D ») : `BIB-04` — la moisson
+  du lexique de Gloton retient le **sens** d'une racine, non son adresse — est ce qui rend un
+  dictionnaire de référence arabe nécessaire. C'est donc **l'adressabilité par racine et par
+  page imprimée** qui a décidé du choix des éditions, non la seule disponibilité.
+- **Déposé** (hors git) : `raw/lisan-al-arab/`, **43 fichiers, 410,5 Mo**, avec `PROVENANCE.md`
+  (éditions, sources, **41 empreintes MD5 de charge utile**, mesures, réserves, signalements)
+  et `verifier-empreintes.py`, qui rejoue la mesure — conformité de la table au disque
+  contrôlée par script, pas à l'œil.
+  - **Édition A — texte né-numérique** : المكتبة الشاملة, *Lisān al-ʿArab*, **ط. دار صادر —
+    بيروت، الثالثة 1414 هـ**, 15 volumes, حواشي اليازجي (`book_id` 1687), extrait du jeu de
+    données `MoMonir/shamela_books_text` (HuggingFace, apache-2.0) par
+    `extraire-lisan-shamela.py` : **8 116 pages** (une ligne = une page imprimée), 25,0 M
+    caractères, notes de bas de page en champ séparé. Livré en TSV page par page, en texte
+    continu à marqueurs `[ج<vol> ص<page>]`, et en **15 fichiers par volume**, prêts à
+    transcrire. Voie d'accès : `shamela.ws` est derrière Cloudflare (403 « Just a moment ») —
+    c'est le **miroir textuel** du jeu de données qui est exploitable par script.
+  - **Édition B — témoin visuel** : scan **de la même impression imprimée** (دار صادر,
+    15 PDF, 8 197 pages), `archive.org/details/1_20240125_20240125_0340`. ⚠ Licence déclarée
+    **CC BY-NC-ND 4.0** → usage interne, **aucune redistribution**.
+- **Ce qui rend le couple exploitable : les paginations coïncident.** Folio imprimé lu sur
+  l'image de la page PDF de même rang — **décalage nul** — sur **cinq pages réparties en
+  quatre volumes** : ج1 p100 → ١٠٠ · ج3 p500 → ٥٠٠ · ج8 p200 → ٢٠٠ · ج11 p400 → ٤٠٠ ·
+  ج15 p382 → ٣٨٢. Et la colonne de droite de ج15 ص382 se lit **mot pour mot** comme le texte
+  extrait (titre courant des colonnes : و ح ي). Pièces visuelles conservées :
+  `raw/lisan-al-arab/verification/` (cinq folios, la colonne, la pleine page).
+- **Portée bornée, écrite comme telle** : cinq folios et une entrée. Les 8 116 pages **ne sont
+  pas** attestées une par une ; toute citation engage à vérifier l'image de *sa* page
+  (discipline des sources, §VII.2). Une vérification ponctuelle ne se généralise pas.
+- **Signalement 1 — une référence de page à corriger.** `doctrinal/symboles/formule-al-waha-al-ajal-al-saa.md`
+  cite le *Lisān* « article وحي (tome 15, **pp. 172-173**, texte consulté sur la bibliothèque
+  Islamweb le 2026-09-13) ». Sur l'édition de référence versée — texte **et** image — l'entrée
+  se trouve au **tome 15, pp. 379-382**, le passage cité à cheval sur la fin de ص381 et le
+  début de ص382. **Écart : 209 pages** — vraisemblablement une **autre pagination** (celle
+  d'Islamweb, ou d'une autre édition) reprise sans être déclarée. Contre-épreuve : les quatre
+  éléments que la fiche donnait « à vérifier sur une édition imprimée » (*Tahdhīb*, *Ṣiḥāḥ*,
+  vers d'Abū al-Najm, *tawaḥḥah*) sont **tous présents sur l'image**. Correction de la fiche
+  et levée des `to-source` **non faites** : elles appartiennent au verdict (Cmd 12, §VII.2).
+- **Signalement 2 — U+200C dans le texte clavé (Cmd 15).** **1 520 occurrences**, toutes en
+  tête de page, toutes dans le champ `texte` (**0** dans les notes) : artefact de la source,
+  **versé tel quel** (le versement est fidèle, il ne retranche rien). Conséquence déclarée :
+  le Cmd 15 refusera ce fichier à son entrée dans `textes/`. La voie de retrait du §II —
+  mesure rapportée brute, script déterministe éprouvé, consignation à l'`index-conversion.md`
+  — est **proposée, non engagée** ; un `sed` de passage serait un autre défaut que celui qu'il
+  prétend corriger.
+- **Écarté sur mesure** : l'OCR du témoin B (`15_djvu.txt`, 1,17 M caractères). Sur le volume
+  entier, **0 occurrence de « الوحاء »** alors que la forme est sur la page 382. Même constat
+  qu'`OUT-08` : l'OCR arabe de ce dépôt n'est pas citable (Cmd 5) — verser un OCR, ce serait
+  verser du bruit citable.
+- **Skill créé** (couche agentique, hors dépôt — non suivie par ce git) :
+  `gardien/versement-edition-source-raw`, la procédure éprouvée dans cette passe, pièges
+  mesurés inclus. **L'écriture a d'abord été refusée par le magasin de skills** :
+  `Description is 169 chars — new skills must fit the 60-char system-prompt budget`. Refus
+  **observé sur une faute réelle**, non fabriquée (§VII — l'épreuve des contrôles s'est
+  présentée d'elle-même). Description ramenée à 54 caractères, ré-écriture au sas, puis
+  application : `Approved 1 skills write(s)`. Ledger du magasin : `action: create`,
+  `sha256 025a9c94…`, 2026-09-16 15:45 UTC.
+- **Au sas, non intégré** : `_inbox/2026-09-16_lisan-al-arab-edition-versee.md` (propositions
+  — fiche `doctrinal/sources/lisan-al-arab` au `status` laissé au verdict, correction de la
+  référence de page, ligne de chantier d'**adressabilité par racine**, versionnement du script
+  en `rd/outillage/`, entrée d'annales) et `_inbox/2026-09-16_lisan-al-arab_extraire-shamela.py`.
+  **Aucune écriture de circuit** : `doctrinal/`, `atelier/`, `label/`, `hermeneutique/`,
+  `meta/` intacts ; la chaîne `raw/` → `_inbox/` → validation humaine → intégration est
+  intacte (§VIII.9).
+- Contrôles de la passe : `verifier-invariants.py` **0 erreur / 71 avertissements** (aucun de
+  cette passe) ; Cmd 15 **propre** sur les fichiers versés au dépôt comme sur la présente
+  entrée. Le hook `pre-commit` a par ailleurs signalé une **exception caduque** au registre
+  d'hygiène — `atelier/rd/citadelle-du-sham/source/library-full.json`, plus aucune occurrence
+  — **signalée, non corrigée** (Cmd 12).
+- **Commit** : 186375e
+
 ## [2026-09-16] moisson | Gloton — la moisson portée à 97 racines, marge de recadrage exposée, deux corrections au journal
 
 **Seconde passe du même jour.** Dix-sept racines de plus avec leur **case 4**, les
