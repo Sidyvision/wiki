@@ -2,7 +2,7 @@
 title: "Queue de tâches — idées en attente de déploiement aux agents"
 type: meta
 created: 2026-08-27
-updated: 2026-09-15
+updated: 2026-09-16
 ---
 
 # Queue de tâches
@@ -20,6 +20,51 @@ updated: 2026-09-15
 > de l'entrée.
 
 <!-- INSERTION: QUEUE -->
+## [2026-09-16] statut-glossaire-unifie | non-assigné | en attente | normale
+
+**Description** : trancher le statut de `atelier/rd/bibliotheque/glossaire-unifie.md`. Mesuré le
+2026-09-16 : **33 lignes, ZÉRO terme** — l'inscription contraire du registre (BIB-04, « 1850 termes »)
+a été corrigée au titre du Cmd 10. La question n'est pas d'entretien mais de nature : un glossaire
+porte **le sens et son attribution** (« selon qui »), un index ne porte que **l'adresse** ; un agrégat
+d'adresses ne peut donc pas être un glossaire. Le glossaire réel du vocabulaire technique est **déjà
+un livre transcrit au dépôt** — al-Jurjānī, *Le Livre des Définitions* (trad. Gloton), **220
+définitions, 0010 à 1864** (catalogue, ligne 85). Verdict attendu : le fichier est-il déclaré
+`caduc` ? Rien n'est régénéré ni édité entre-temps (artefact dérivé).
+**Contexte** : fiche `atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab.md`, §3 et §6.1.
+**Agent(s) concerné(s)** : `non-assigné`
+**Priorité** : normale
+**Statut** : en attente
+**Traité le** :
+**Résultat / lien** :
+
+## [2026-09-16] perimetre-generateur-validateur-index | non-assigné | en attente | basse
+
+**Description** : `generer-glossaire-unifie.py` sélectionne les fiches sur le **préfixe de nom de
+fichier** (`index-`) quand `valider-index-livres.py` borne au **champ** `type: index-livre`. Mesuré :
+des 6 fiches `index-*.md`, **5 portent `type: ressource`**, une seule (`index-origine-polaire-tilak.md`)
+porte `type: index-livre`. Les deux instruments ne désignent donc pas le même ensemble, et toute
+mesure prise sur l'un est à lire avec cette réserve. Aligner sur le **champ** (et non sur le nom)
+paraît le sens juste, mais c'est un verdict, non un constat.
+**Contexte** : même fiche, §3 et §6.2. Subordonné à l'entrée `statut-glossaire-unifie` : si le
+glossaire est déclaré caduc, la moitié de la divergence tombe d'elle-même.
+**Agent(s) concerné(s)** : `non-assigné`
+**Priorité** : basse
+**Statut** : en attente
+**Résultat / lien** :
+
+## [2026-09-16] recomptage-tableau-registre | non-assigné | en attente | basse
+
+**Description** : le tableau de synthèse de `atelier/rd/registre-chantiers.md` (§0) ne se réconcilie
+pas pour les pôles **DOC**, **OUT** et **INF**. Réserve Cmd 5 déjà inscrite au registre. **Ces trois
+pôles n'ont pas été touchés** par les passes récentes : la cause relevée est formelle — les tableaux
+concernés ne portent pas le même nombre de colonnes, de sorte qu'un comptage mécanique uniforme les
+lit mal. Recompter et, le cas échéant, uniformiser les colonnes.
+**Contexte** : même fiche, §6.3.
+**Agent(s) concerné(s)** : `non-assigné`
+**Priorité** : basse
+**Statut** : en attente
+**Résultat / lien** :
+
 
 ## [2026-09-15] reexamen-rubrique-erudition-academique | non-assigné | en attente | normale
 
