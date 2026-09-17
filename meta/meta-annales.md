@@ -13,6 +13,44 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-17] verdict | `BIB-05` ramené à `ouvert` — le vocabulaire des statuts ne s'élargit pas
+
+Verdict de Sidy, rendu sur la question soumise la veille : « ramène `BIB-05` à
+`ouvert`, le statut `recense` n'existe pas ». Des **deux issues** portées à la queue,
+c'est la **seconde** qui est retenue — le vocabulaire **reste aux quatre valeurs**
+déclarées au § *Comment lire ce registre*, et la valeur fautive est ramenée à une
+valeur déclarée. Appliqué le jour même au commit `aa14ab1`.
+
+- **`BIB-05` porte `ouvert`.** Le contenu de la ligne est **inchangé** ; seul le statut
+  l'est. Le chantier n'est ni rouvert ni requalifié : il est simplement dit dans les
+  mots du registre.
+- **Plus aucune ligne ne porte `recense`** — vérifié mécaniquement, 0 occurrence.
+- **Le tableau par pôle n'a donc pas besoin d'une colonne nouvelle**, et la question
+  de sa forme, que j'avais crue ouverte, ne l'était pas : elle se dissout avec la
+  valeur fautive. La ligne `BIB` **redevient exacte** (`ouvert` 1 → 2, total 3 → 4) ;
+  le total général passe `ouvert` 32 → 33 et 56 → 57.
+- **L'en-tête du §0 retrouve sa phrase d'origine** — « toutes dans les quatre statuts
+  déclarés » — redevenue vraie, l'écart y étant **daté et attribué au verdict**, non
+  effacé. Les deux notes Cmd 10 de la veille sont **conservées** ; le verdict leur est
+  ajouté en bloc et y marque l'écart **clos**.
+
+**Ce que je retiens.** J'avais posé deux issues comme également ouvertes. Elles ne
+l'étaient pas : une valeur hors vocabulaire n'appelle pas d'abord un arbitrage sur la
+**forme** du tableau, elle appelle sa propre suppression. Le tableau n'avait rien à
+apprendre de mon erreur.
+
+**Ce qui reste en attente** sous `recomptage-tableau-registre`, qui n'est donc pas
+close : l'**écart global de recomptage** — **62 lignes** réelles en §1–§7 contre **60**
+déclarées, `INF`, `OUT` et `DOC` divergents quand `BIB`, `INS`, `CAS` et `PRO` tombent
+juste.
+
+**Contrôles, rapportés bruts.** `verifier-invariants.py` : rc=0, **0 erreur(s),
+71 avertissement(s)**, tous préexistants sur `doctrinal/autorites/rene-guenon.md`,
+**zéro sur les fichiers de cette passe**. Cmd 15 : **PROPRE — 0 violation non
+couverte, 0 signalement hors Cmd 15**.
+
+- **Commit** : `aa14ab1`
+
 ## [2026-09-17] rectification | §0 : phrase cassée par ma propre ancre, et `recense` est hors vocabulaire
 
 Relecture de la passe `0eaccf4` : **deux défauts de mon fait**, corrigés au commit
