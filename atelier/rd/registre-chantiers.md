@@ -68,11 +68,30 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**60 lignes de chantier** — **dont une en `recense`, cinquième statut** (voir
-l'alignement du 2026-09-13 : aucune valeur hors vocabulaire ne subsiste (voir les
-notes ci-dessous) —, plus **11** versés en §9 (clos ou caducs) et 6 lignes en §8
+**60 lignes de chantier**, dont **une porte `recense`, valeur hors du vocabulaire
+déclaré** au § *Comment lire ce registre* (voir la note ci-dessous) — les 59 autres
+sont dans les quatre statuts déclarés depuis l'alignement du 2026-09-13 —, plus
+**11** versés en §9 (clos ou caducs) et 6 lignes en §8
 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous modifiez une
 ligne, ce tableau se recompte, il ne s'estime pas.
+
+> **Rectification du 2026-09-17 (Cmd 10), seconde passe.** Le remplacement opéré plus
+> tôt ce jour dans ce paragraphe avait **cassé la phrase** : l'ancre avait absorbé le
+> mot « depuis », laissant une parenthèse ouverte et un membre de phrase sans verbe.
+> La phrase est reprise entière ci-dessus. Mes contrôles étant tous structurels
+> (`verifier-invariants.py`, Cmd 15, recomptage), **aucun ne pouvait voir une prose
+> cassée** : c'est la relecture qui l'a vue, et le fait est inscrit plutôt que réparé
+> en silence.
+>
+> **Et le constat se durcit.** `recense`, porté par `BIB-05` depuis `dfae737`, n'est
+> pas seulement **sans colonne** au tableau par pôle : il est **hors du vocabulaire
+> déclaré** au § *Comment lire ce registre*, qui n'admet que `ouvert`, `en-cours`,
+> `bloque` et `attente-verdict`. C'est la **même classe de défaut** que l'écart
+> `DOC-06`/`DOC-07`/`DOC-08` clos le 2026-09-13, et il est de mon fait. La machine
+> **ne le résout pas d'office** : élargir le vocabulaire ou ramener `BIB-05` à une
+> valeur déclarée est un verdict (Cmd 12), soumis à Sidy sous
+> `recomptage-tableau-registre`. En attendant, `BIB-05` **reste tel quel**, et le
+> total des quatre colonnes ne peut pas le compter.
 
 > **Note de clôture et de correction (2026-09-17, Cmd 10).** `BIB-03` quitte §1–§7
 > pour §9 : le chantier était clos depuis le **2026-09-02** (versement vers

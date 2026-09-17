@@ -152,8 +152,17 @@ par pôle ne porte **que quatre colonnes de statut** (`ouvert`, `en-cours`,
 **`recense`** : il n'est donc **compté dans aucune colonne**, et la ligne `BIB`
 reste inexacte d'une unité même après la clôture de `BIB-03` ce jour. La machine
 n'ajoute pas la colonne : la **forme** du tableau relève du verdict (Cmd 12), et
-c'est l'objet même de cette entrée. Deux issues possibles à trancher — ajouter
-une colonne `recense`, ou retirer `recense` du vocabulaire des statuts.
+c'est l'objet même de cette entrée.
+
+**Rectification du même jour, seconde passe : le défaut est plus grave que « pas de
+colonne ».** Vérification faite au § *Comment lire ce registre*, le vocabulaire
+déclaré des statuts n'admet que **quatre** valeurs — `ouvert`, `en-cours`, `bloque`,
+`attente-verdict`. `recense` **n'y figure pas**. `BIB-05` porte donc une **valeur hors
+vocabulaire**, exactement la classe d'écart relevée sur `DOC-06`/`DOC-07`/`DOC-08` et
+close le 2026-09-13 — et celui-ci est de mon fait (`dfae737`). Deux issues à trancher,
+comme alors : soit le vocabulaire **s'élargit** à `recense` (et le tableau gagne une
+colonne), soit `BIB-05` est **ramené à une valeur déclarée**. La machine ne choisit
+pas ; `BIB-05` reste tel quel jusqu'au verdict.
 Recomptage mécanique du 2026-09-17 après clôture de `BIB-03` : **62 lignes** en
 §1–§7 contre **60** déclarées ; `INS`, `CAS` et `PRO` tombent juste, `INF`,
 `OUT`, `BIB` et `DOC` divergent.
