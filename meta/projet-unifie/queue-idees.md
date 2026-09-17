@@ -163,6 +163,20 @@ close le 2026-09-13 — et celui-ci est de mon fait (`dfae737`). Deux issues à 
 comme alors : soit le vocabulaire **s'élargit** à `recense` (et le tableau gagne une
 colonne), soit `BIB-05` est **ramené à une valeur déclarée**. La machine ne choisit
 pas ; `BIB-05` reste tel quel jusqu'au verdict.
+
+**VERDICT DU 2026-09-17 — ce point est clos.** Sidy tranche : « ramène `BIB-05` à
+`ouvert`, le statut `recense` n'existe pas ». Des deux issues, c'est la **seconde** :
+le vocabulaire **ne s'élargit pas**, il reste à quatre valeurs, et la valeur fautive
+est ramenée à une valeur déclarée. Appliqué le jour même — `BIB-05` porte `ouvert`,
+contenu inchangé ; plus aucune ligne du registre ne porte `recense` (vérifié : 0
+occurrence). Le tableau par pôle **n'a pas besoin de colonne nouvelle** : `BIB` passe
+à `ouvert` 2, total 4, et redevient **exact** ; le total général à `ouvert` 33, 57.
+
+**Ce qui reste en attente sous cette entrée**, et elle n'est donc pas close : l'écart
+global de recomptage. Après clôture de `BIB-03` et application du verdict,
+**62 lignes** réelles en §1–§7 contre **60** déclarées ; `BIB`, `INS`, `CAS` et `PRO`
+tombent juste, **`INF`, `OUT` et `DOC` divergent** — soit exactement les trois pôles
+nommés au premier paragraphe de cette entrée.
 Recomptage mécanique du 2026-09-17 après clôture de `BIB-03` : **62 lignes** en
 §1–§7 contre **60** déclarées ; `INS`, `CAS` et `PRO` tombent juste, `INF`,
 `OUT`, `BIB` et `DOC` divergent.

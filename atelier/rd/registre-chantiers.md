@@ -68,9 +68,9 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**60 lignes de chantier**, dont **une porte `recense`, valeur hors du vocabulaire
-déclaré** au § *Comment lire ce registre* (voir la note ci-dessous) — les 59 autres
-sont dans les quatre statuts déclarés depuis l'alignement du 2026-09-13 —, plus
+**60 lignes de chantier** — **toutes dans les quatre statuts déclarés** depuis
+l'alignement du 2026-09-13, l'écart `recense` ayant été **clos le 2026-09-17 sur
+verdict de Sidy** (voir la note ci-dessous) —, plus
 **11** versés en §9 (clos ou caducs) et 6 lignes en §8
 (à vérifier, non assertées ouvertes). Décompte mécanique — si vous modifiez une
 ligne, ce tableau se recompte, il ne s'estime pas.
@@ -92,6 +92,15 @@ ligne, ce tableau se recompte, il ne s'estime pas.
 > valeur déclarée est un verdict (Cmd 12), soumis à Sidy sous
 > `recomptage-tableau-registre`. En attendant, `BIB-05` **reste tel quel**, et le
 > total des quatre colonnes ne peut pas le compter.
+>
+> **Verdict rendu le 2026-09-17.** Sidy tranche : « ramène `BIB-05` à `ouvert`, le
+> statut `recense` n'existe pas ». Des deux issues soumises, c'est donc la seconde —
+> **le vocabulaire ne s'élargit pas**, la valeur fautive est ramenée à une valeur
+> déclarée. `BIB-05` porte `ouvert` depuis ce jour ; son contenu est inchangé, seul
+> le statut l'est. Le tableau par pôle **n'a pas besoin de colonne nouvelle** et
+> redevient exact pour `BIB` : `ouvert` 1 → 2, total 3 → 4 ; total général `ouvert`
+> 32 → 33 et 56 → 57. L'écart relevé ci-dessus est **clos** ; reste seul en attente
+> l'écart global de recomptage, sous `recomptage-tableau-registre`.
 
 > **Note de clôture et de correction (2026-09-17, Cmd 10).** `BIB-03` quitte §1–§7
 > pour §9 : le chantier était clos depuis le **2026-09-02** (versement vers
@@ -281,11 +290,11 @@ Le 2026-09-06 : ouverture de `OUT-15` et `INS-01` passé `ouvert` → `en-cours`
 | `INS` Instrument | 9 | 2 | 1 | 3 | **15** |
 | `INF` Infrastructure & agents | 7 | 3 | 1 | 3 | **14** |
 | `OUT` Outillage & scripts | 7 | — | 1 | — | **8** |
-| `BIB` Bibliothèque | 1 | — | 1 | 1 | **3** |
+| `BIB` Bibliothèque | 2 | — | 1 | 1 | **4** |
 | `CAS` Études de cas | 1 | — | 1 | — | **2** |
 | `PRO` Process & protocole | 3 | — | — | 3 | **6** |
 | `DOC` Doctrinal | 4 | 2 | — | 2 | **8** |
-| **Total** | **32** | **7** | **5** | **12** | **56** |
+| **Total** | **33** | **7** | **5** | **12** | **57** |
 
 > **Note de passe (2026-09-16), clôture de `BIB-04` sur le matériau photographié.**
 > La moisson du lexique de Gloton est close sur les 107 planches extraites des 28
@@ -408,7 +417,7 @@ non dépouillées dans cette passe → §8.*
 | BIB-01 | Appendices non photographiés — aucune fiche possible en l'état | `bloque` | nouvelle prise de vue (geste humain) | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] | 2026-08-22 |
 | BIB-02 | *Symboles de la Science sacrée* : couverture d'index à 100 %, mais chapitres non traités en fiches au-delà des XVIII et XXXVII | `ouvert` | choisir les chapitres suivants | même catalogue | 2026-08-22 |
 | BIB-04 | **Dépouillement du lexique coranique de Gloton** (*Une approche du Coran par la grammaire et le lexique*, section A, pp. 233-782) à partir des photographies de l'exemplaire physique. La moisson retient pour chaque bloc-racine la **case 4 — les traductions de la racine** : une adresse de lexique n'instruit rien, un sens instruit (verdict Sidy du 2026-09-16). **Moisson close le 2026-09-16 sur le matériau photographié : 169 racines, 107 planches lues sur 107** (`edccb13`). **Treize discontinuités** subsistent dans la numérotation ; chacune est vérifiée correspondre à des pages **non photographiées** (contrôle par la page bornant chaque écart, sortie brute au journal §2), aucune à un bloc-racine omis. **Verdict Sidy du 2026-09-16 : le reste du lexique sera photographié plus tard, au gré des opportunités.** Le chantier n'est donc ni clos ni bloqué — il reprend à chaque nouvelle prise de vue, par passes d'ajout strict, sans qu'aucune campagne soit à programmer. **Deux points restent réservés au verdict** : (1) `glossaire-unifie.md` est **périmé et non vide** (le générateur rend 1850 termes, 6 ouvrages) et n'a jamais été régénéré depuis le 2026-08-22 — **[Cmd 10, correction du 2026-09-16 : cette inscription est FAUSSE quant à ce qui existe sur disque. Mesuré ce jour : `glossaire-unifie.md` fait **33 lignes et porte ZÉRO terme** ; « 1850 termes, 6 ouvrages » décrit ce que le générateur *rendrait*, non ce qui est là. Cause mesurée : le générateur sélectionne sur le préfixe de nom `index-`, le validateur sur le champ `type: index-livre` — 5 des 6 fiches `index-*` portent `type: ressource`. La ligne fautive est maintenue et non effacée ; le verdict sur la caducité reste entier.]** ; (2) `generer-glossaire-unifie.py` sélectionne sur le **préfixe de nom de fichier** (`index-`) quand `valider-index-livres.py` borne au **champ** `type: index-livre` — 6 fiches `index-*`, 1 seule de ce type | `attente-verdict` | à l'arrivée de nouvelles photographies : `extraire-bandeaux-racines-gloton.py` puis passe d'ajout strict au TSV (procédure complète au journal §3, mode `--recadrer` compris). Sans photographies nouvelles, rien à exécuter : la dépose en fiche `type: index-livre`, la régénération de l'artefact dérivé et l'alignement des deux scripts attendent les deux arbitrages ci-dessus | [[atelier/rd/outillage/index-lexical/2026-09-16_gloton-moisson-racines-journal]] ; `moisson-racines-gloton.tsv` ; [[atelier/rd/bibliotheque/catalogue-bibliotheque]] ; [[atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab]] | 2026-09-16 |
-| BIB-05 | **Adressabilité par racine du *Lisān al-ʿArab*.** Le *Lisān* se range **par dernière radicale, puis première, puis seconde** (arrangement d'al-Ṣiḥāḥ) : retrouver une racine à la main dans 8 116 pages est le geste coûteux qui borne le chantier lexical — ce n'est pas le matériau qui manque, c'est l'accès. Objet : un index mécanique `racine → (volume, page)` construit sur le texte versé (`raw/lisan-al-arab/`, témoin A, 8 116 pages, empreintes à `PROVENANCE.md`). **Sa valeur se mesure** : combien des racines déjà moissonnées deviennent adressables. **Assiette mesurée le 2026-09-17 : 169 racines** au TSV Gloton (`edccb13`, 107/107 planches) — **la pièce de sas annonçait 97, chiffre non retenu** : l'écart n'a pas été instruit, la mesure au fichier fait foi (Cmd 10, même faute que celle corrigée à BIB-04 le 2026-09-16). Ligne **ouverte en recensement seulement** : **aucun code n'est écrit**, le triptyque `intent`/`spec`/`plan` reste à rédiger et le `plan.md` visé *sera* le plan du Cmd 6 | `recense` | rédiger le triptyque `atelier/rd/bibliotheque/bib-05-adressabilite-racine-lisan/` et le soumettre au visa. Rien à exécuter avant | [[atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab]] ; [[doctrinal/sources/lisan-al-arab]] ; `atelier/rd/outillage/extraire-lisan-shamela.py` | 2026-09-17 |
+| BIB-05 | **Adressabilité par racine du *Lisān al-ʿArab*.** Le *Lisān* se range **par dernière radicale, puis première, puis seconde** (arrangement d'al-Ṣiḥāḥ) : retrouver une racine à la main dans 8 116 pages est le geste coûteux qui borne le chantier lexical — ce n'est pas le matériau qui manque, c'est l'accès. Objet : un index mécanique `racine → (volume, page)` construit sur le texte versé (`raw/lisan-al-arab/`, témoin A, 8 116 pages, empreintes à `PROVENANCE.md`). **Sa valeur se mesure** : combien des racines déjà moissonnées deviennent adressables. **Assiette mesurée le 2026-09-17 : 169 racines** au TSV Gloton (`edccb13`, 107/107 planches) — **la pièce de sas annonçait 97, chiffre non retenu** : l'écart n'a pas été instruit, la mesure au fichier fait foi (Cmd 10, même faute que celle corrigée à BIB-04 le 2026-09-16). Ligne **ouverte en recensement seulement** : **aucun code n'est écrit**, le triptyque `intent`/`spec`/`plan` reste à rédiger et le `plan.md` visé *sera* le plan du Cmd 6 | `ouvert` | rédiger le triptyque `atelier/rd/bibliotheque/bib-05-adressabilite-racine-lisan/` et le soumettre au visa. Rien à exécuter avant | [[atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab]] ; [[doctrinal/sources/lisan-al-arab]] ; `atelier/rd/outillage/extraire-lisan-shamela.py` | 2026-09-17 |
 
 ## 5. Études de cas (`CAS`)
 
