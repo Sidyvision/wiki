@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-16
+updated: 2026-09-17
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,76 @@ updated: 2026-09-16
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-17] integration | Sas `_inbox/` vidé — récolte du discernement versée, chantier BIB-05 ouvert
+
+Intégration des trois pièces du sas sur consigne de Sidy (« intègre les fiches de
+`_inbox/` dans un premier temps ») et sur son visa du 2026-09-17. **Le sas est vide.**
+
+**Pièce 1 — la récolte du Registre du Discernement du 2026-09-10**, versée en
+[[atelier/rd/cahiers/2026-09-10_recolte-discernement-etat-maturite]], Sceau atelier
+`type: experience` sur le précédent de
+[[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]] — relevé de fiches
+doctrinales logé au même endroit. `created: 2026-09-10` (l'écriture), `updated:
+2026-09-17` (le versement).
+
+- **Le corps est maintenu sans retouche.** Les trois écarts de sept jours sont portés
+  **en tête et non corrigés en silence** (Cmd 10) : l'assiette passe de 58 à **59
+  fiches** dont **42 `speculatif`** ; le **§F.1 est caduc**, le `status: adopte` hors
+  vocabulaire ayant été ramené à `speculatif` par `2a2796d` sur verdict de Sidy ; le
+  **§F.2 nommait une forme abrégée**, le fichier réel étant
+  `2026-08-20_traite-emanation-gauche-isaac-ha-kohen.md`.
+- **Le constat du §F.2 tient** : vérifié ce jour, cette fiche et
+  `2026-08-20_etat-lieux-kabbale-depot.md` rendent toutes deux **zéro** occurrence du
+  bloc 🔍 alors qu'il est impératif pour `type: discernement`.
+- **Ce qui fait le prix de la pièce** : `17 traditionnel` et `1 contre-traditionnel`
+  sont **inchangés depuis le 2026-09-10**. Aucun verdict de discernement n'a été rendu
+  en sept jours — **les sections A à E tiennent entières**, seule la marge a vieilli.
+- **Les fiches y sont nommées en littéral, non en wikilink** : un document qui
+  *énumère* des fiches fait trébucher `verifier-invariants.py` sur ses propres
+  citations (45 faux C1 le 2026-08-18). Le document parle *des* fiches, il ne pointe
+  pas vers elles.
+
+**Pièce 2 — le versement du *Lisān al-ʿArab***, dont la part doctrinale est journalisée
+à `doctrinal/annales.md` du même jour. Au circuit `atelier/` :
+
+- **`BIB-05` ouverte au registre** — *adressabilité par racine du* Lisān. Motif : le
+  *Lisān* se range **par dernière radicale, puis première, puis seconde** (arrangement
+  d'al-Ṣiḥāḥ) ; retrouver une racine à la main dans 8 116 pages est le geste coûteux
+  qui borne le chantier lexical. **Ce n'est pas le matériau qui manque, c'est
+  l'accès.** Ligne **ouverte en recensement seul** : aucun code écrit, triptyque
+  `intent`/`spec`/`plan` à rédiger, et le `plan.md` visé *sera* le plan du Cmd 6.
+- **Assiette de mesure : 169 racines**, non 97. La pièce de sas annonçait 97 ; la
+  mesure au TSV Gloton (`edccb13`, 107/107 planches) donne **169**, et c'est elle qui
+  est inscrite. L'écart est nommé dans la ligne même. **C'était exactement la faute
+  corrigée à `BIB-04` le 2026-09-16** — inscrire au registre un chiffre non mesuré.
+- **`extraire-lisan-shamela.py` versé en `rd/outillage/`**, **sans refactorisation** :
+  la fidélité à ce qui a produit l'artefact est l'objet même du versionnement. Un
+  signalement en tête note que les chemins `/tmp/lisan` sont codés en dur — le script
+  n'est donc pas rejouable tel quel, et la correction n'est **pas** faite ici, car elle
+  l'écarterait de celui qui a produit `raw/`.
+- **`f0` de [[atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab]]
+  repointé *avant* le retrait du sas.** L'étape faisait de la pièce de sas le premier
+  geste de la reprise ; la supprimer sans réécrire `f0` aurait laissé un pointeur mort
+  — précisément ce que le Cmd 10 existe pour empêcher. Le §4 reçoit une mise à jour qui
+  dit où la matière vit désormais, le paragraphe d'origine étant maintenu.
+
+**Ce qui n'est pas engagé, faute de verdict** : le retrait des 1 520 U+200C et la
+conversion vers `textes/`. Aucune des deux voies du §4 de la pièce de sas n'est ouverte.
+
+**Sas vidé** (§II, pas 8, « le sas est vidé après intégration validée »). Git a retenu
+les deux versements comme des **renommages** — la filiation `_inbox/` → circuit reste
+lisible dans l'historique. Le signalement de conservation porté par la queue est
+éteint : la matière est dans les circuits. Stage explicite, jamais `git add -A` : les
+deux fichiers cron de `rd/infrastructure/monitoring-archive/` sont restés hors index.
+
+Contrôles, sortie brute : `verifier-invariants.py` → rc=0, **0 erreur(s), 71
+avertissement(s)**, tous préexistants sur `doctrinal/autorites/rene-guenon.md`, **0**
+sur les fichiers de cette passe. Cmd 15 : **PROPRE — 0 violation non couverte**, avec
+une exception caduque préexistante et non bloquante sur
+`citadelle-du-sham/source/library-full.json`.
+
+- **Commit** : `dfae737`
+
 ## [2026-09-16] consignation | Les trois organes lexicaux, et l'état réel du versement Lisān al-ʿArab
 
 **Motif.** Consigne de Sidy en séance : *« Il faut STOPER la dispersion et le gaspillage

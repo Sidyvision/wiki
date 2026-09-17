@@ -13,6 +13,41 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-17] integration | Sas vidé — deux entrées de queue mouvementées
+
+Passe d'intégration du sas `_inbox/` (`dfae737`). Au circuit `meta/`, deux
+mouvements dans `meta/projet-unifie/queue-idees.md`.
+
+- **`visa-versement-lisan-al-arab` close** — ouverte le 2026-09-17 pour que la pièce
+  en attente de visa ne dorme pas dans un corps de fiche, elle passe à `machine |
+  traité`. La clôture dit point par point ce que le visa a réglé et ce qu'il n'a pas
+  réglé : `BIB-05` ouverte en recensement seul, les 1 520 U+200C **laissés en place**,
+  la correction de pagination faite et **un seul `to-source` sur trois** levé, le
+  script versé. Elle acte aussi la réconciliation **97 / 169** au profit de 169, la
+  mesure au fichier faisant foi. Le **signalement de conservation** qu'elle portait
+  — le sas est vidé par protocole, ce qui aurait privé la procédure de reprise de son
+  premier geste — est **éteint** : la matière est dans les circuits, et `f0` de la
+  fiche des trois organes a été repointé **avant** le retrait.
+- **`recolte-discernement-verdicts` ouverte** — la récolte versée en
+  `atelier/rd/cahiers/` n'est pas un rapport à archiver : c'est une liste de travail
+  qui **n'attend que des verdicts**, lesquels ne sont jamais de la machine (Cmd 12).
+  L'entrée porte la mesure qui lui donne son urgence — `17 traditionnel` et `1
+  contre-traditionnel` inchangés depuis le 2026-09-10 pendant que l'assiette passait
+  à 59 fiches dont 42 `speculatif` : **la récolte grossit, elle ne se cueille pas**.
+  Elle nomme les rangs les plus mûrs (A1 kabbale, A2 Qâf, A3 verdicts d'un mot),
+  signale que la section E demande une **thèse** et non un verdict, et porte
+  l'anomalie de forme du §F.2 (deux fiches `type: discernement` sans bloc 🔍),
+  vérifiée ce jour et dont l'issue — rédiger le bloc ou changer le type — n'est pas
+  mienne.
+
+**Le motif de ces deux entrées est la consigne de Sidy** : « Je ne veux plus passer du
+temps à développer des fonctions qui finissent dans l'oubli. » Une proposition en
+attente de verdict et une liste de travail non cueillie sont exactement la forme de ce
+qui s'oublie ; la queue est le lieu où elles restent visibles. **Enregistrer qu'une
+chose attend un verdict n'est pas l'appliquer** (précédent `BIB-03`).
+
+- **Commit** : `dfae737`
+
 ## [2026-09-17] queue | Le visa du versement Lisān al-ʿArab entre au dispositif de rappel
 
 Ajout d'une quatrième entrée à `meta/projet-unifie/queue-idees.md` :

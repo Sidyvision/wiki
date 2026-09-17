@@ -1,13 +1,54 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-16
+updated: 2026-09-17
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-17] integration | Lisān al-ʿArab — fiche de source créée, référence de page corrigée
+
+Intégration du sas `_inbox/` sur visa de Sidy du 2026-09-17. Deux écritures doctrinales.
+
+- **[[doctrinal/sources/lisan-al-arab]] créée** — *Lisān al-ʿArab* d'Ibn Manẓūr,
+  édition دار صادر, 3ᵉ éd. 1414 h., 15 vol., حواشي اليازجي. Les deux témoins versés en
+  `raw/` y sont identifiés avec leurs empreintes : témoin A né-numérique (Šāmila
+  `book_id` 1687, 8 116 pages, 25,0 M caractères) et témoin B scan de la même
+  impression (archive.org, 8 197 p. PDF). Le texte seul ne se vérifie pas, le scan
+  seul ne se transcrit pas ; ensemble ils donnent un texte transcrivible **et**
+  vérifiable sur l'image.
+- **`status: traditionnel` — verdict de Sidy du 2026-09-17**, rendu sur question
+  expresse. La machine ne l'a pas déduit du genre de l'ouvrage (Cmd 12) ; le matériau
+  qui lui a été soumis est consigné en tête de fiche.
+- **Limite portée au Sceau** : un `to-source` unique. Cinq folios (ج1/100, ج3/500,
+  ج8/200, ج11/400, ج15/382) établissent la **coïncidence des paginations** PDF et
+  imprimée, et la page 382 du tome 15 se lit mot pour mot ; **les 8 116 pages ne sont
+  pas attestées une par une**. Le marqueur ne dit pas que la source manque, il dit
+  jusqu'où la vérification est allée.
+- **[[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] corrigée (Cmd 10)** — la
+  référence de l'article وحي passe de « tome 15, pp. 172-173, Islamweb » à **tome 15,
+  pp. 379-382** sur l'édition de référence. **Écart : 209 pages** — vraisemblablement
+  une autre pagination reprise sans être déclarée, non une coquille. La référence
+  d'origine est **conservée dans la note de correction**, non effacée.
+- **Un seul `to-source` levé sur trois.** Les quatre éléments de l'article وحي ont été
+  retrouvés sur l'image (ouverture fin ص379, « والوَحى: العَجَلةُ » fin ص381, citations
+  et *tawaḥḥah* à ص382). **Les deux autres marqueurs subsistent** : la glose de
+  *al-sāʿa* comme « à l'instant même », et les témoins numériques du *Shams
+  al-Maʿārif* — le versement du *Lisān* n'établit rien sur eux. `sources_count` passe
+  de 2 à 3.
+- **Signalement non tranché** : 1 520 occurrences de U+200C dans le témoin A, toutes
+  en tête de page, champ `texte`, aucune dans les notes. Artefact de la source, non de
+  l'extraction. Le texte est fidèle — c'est pourquoi les invisibles y sont. Rien n'est
+  engagé : ils ne mordront qu'à la première conversion vers `textes/`.
+
+Contrôles, sortie brute : `verifier-invariants.py` → rc=0, **0 erreur(s), 71
+avertissement(s)**, tous préexistants sur `doctrinal/autorites/rene-guenon.md`, **0**
+sur les fichiers de cette passe. Cmd 15 : **PROPRE — 0 violation non couverte**.
+
+- **Commit** : `dfae737`
+
 
 ## [2026-09-16] correctifs | Forme du Sceau — `aiman-attar.md` nommait `sources/body-types`
 
