@@ -2,7 +2,7 @@
 title: "Queue de tâches — idées en attente de déploiement aux agents"
 type: meta
 created: 2026-08-27
-updated: 2026-09-16
+updated: 2026-09-17
 ---
 
 # Queue de tâches
@@ -20,6 +20,50 @@ updated: 2026-09-16
 > de l'entrée.
 
 <!-- INSERTION: QUEUE -->
+## [2026-09-17] visa-versement-lisan-al-arab | non-assigné | en attente | normale
+
+**Description** : le versement du *Lisān al-ʿArab* dans `raw/lisan-al-arab/` (2026-09-16, sur ordre
+de Sidy — 392 Mo, 15 volumes, 8117 pages adressables, pagination conforme à l'imprimé) est
+**complet, provenancé et vérifié**. Son analyse est déposée au sas :
+`_inbox/2026-09-16_lisan-al-arab-edition-versee.md`, `statut: proposition au sas — non versé aux
+circuits`, accompagnée de `_inbox/2026-09-16_lisan-al-arab_extraire-shamela.py`. **Elle attend le
+visa de Sidy, et rien d'autre ne manque** (même forme que `BIB-03`). Tant que le visa n'est pas
+donné, **rien de ce qu'elle propose ne s'applique** — un document en attente ne s'applique pas.
+
+**Ce que le visa débloque, et qui ne doit surtout pas être engagé d'avance** :
+1. l'ouverture de **`BIB-05`** — index mécanique `racine → (volume, page)`, dont le motif est que le
+   *Lisān* se range **par dernière radicale** (arrangement d'al-Ṣiḥāḥ) : retrouver une racine à la
+   main dans 8 200 pages est le geste coûteux, et c'est lui, non le manque de matière, qui borne le
+   chantier lexical. Triptyque `intent`/`spec`/`plan` à viser **avant tout code** (Cmd 6) ;
+2. le traitement des **1 520 U+200C** du champ texte — le Cmd 15 refusera le fichier tant qu'ils
+   sont là, **à juste titre** ; deux voies sont proposées au sas, aucune n'est engagée ;
+3. le **signalement de pagination** porté par le sas sur
+   `doctrinal/symboles/formule-al-waha-al-ajal-al-saa.md` (cite le t. 15 pp. 172-173 ; le passage est
+   à pp. 379-382, écart de 209 pages). Le sas subordonne la correction à la vérification des quatre
+   passages **sur l'image, par Sidy lui-même** ;
+4. le déplacement du script d'extraction vers `atelier/rd/outillage/`.
+
+**À réconcilier au passage** : la pièce du sas chiffre la moisson Gloton à **97 racines** ; le TSV en
+porte **169** au 2026-09-16 (passe close le jour même). Le critère de mesure de `BIB-05` — combien de
+racines déjà moissonnées deviennent adressables — est donc à établir sur **169**, non 97. La pièce du
+sas n'a **pas** été modifiée : elle attend visa.
+
+**Point de vigilance sur la conservation** : la pièce est bien **suivie par git** (vérifié :
+`git ls-files _inbox/` la liste, elle n'est pas ignorée), mais `_inbox/` est par définition **vidé
+après chaque intégration** (§II du protocole racine). Si le sas est vidé avant que le visa soit donné,
+l'analyse ne subsistera que dans l'historique — et la procédure de reprise de
+`atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab.md` (§7), qui la désigne
+comme sa première étape, perdrait sa cible en clone frais. **Rien n'est déplacé d'office** : c'est un
+signalement, le geste appartient au verdict (Cmd 12).
+
+**Contexte** : fiche `atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab.md`,
+§4 ; annales de l'atelier, entrée `[2026-09-16] consignation` (commit `4852e98`).
+**Agent(s) concerné(s)** : `non-assigné`
+**Priorité** : normale
+**Statut** : en attente
+**Traité le** :
+**Résultat / lien** :
+
 ## [2026-09-16] statut-glossaire-unifie | non-assigné | en attente | normale
 
 **Description** : trancher le statut de `atelier/rd/bibliotheque/glossaire-unifie.md`. Mesuré le
