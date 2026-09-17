@@ -145,6 +145,18 @@ pas pour les pôles **DOC**, **OUT** et **INF**. Réserve Cmd 5 déjà inscrite 
 pôles n'ont pas été touchés** par les passes récentes : la cause relevée est formelle — les tableaux
 concernés ne portent pas le même nombre de colonnes, de sorte qu'un comptage mécanique uniforme les
 lit mal. Recompter et, le cas échéant, uniformiser les colonnes.
+
+**Ajout du 2026-09-17 (Cmd 10) — un cinquième statut sans colonne.** Le tableau
+par pôle ne porte **que quatre colonnes de statut** (`ouvert`, `en-cours`,
+`bloque`, `attente-verdict`). Or `BIB-05`, ouvert le 2026-09-16, porte
+**`recense`** : il n'est donc **compté dans aucune colonne**, et la ligne `BIB`
+reste inexacte d'une unité même après la clôture de `BIB-03` ce jour. La machine
+n'ajoute pas la colonne : la **forme** du tableau relève du verdict (Cmd 12), et
+c'est l'objet même de cette entrée. Deux issues possibles à trancher — ajouter
+une colonne `recense`, ou retirer `recense` du vocabulaire des statuts.
+Recomptage mécanique du 2026-09-17 après clôture de `BIB-03` : **62 lignes** en
+§1–§7 contre **60** déclarées ; `INS`, `CAS` et `PRO` tombent juste, `INF`,
+`OUT`, `BIB` et `DOC` divergent.
 **Contexte** : même fiche, §6.3.
 **Agent(s) concerné(s)** : `non-assigné`
 **Priorité** : basse
