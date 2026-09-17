@@ -13,6 +13,37 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-17] rectification | §0 : phrase cassée par ma propre ancre, et `recense` est hors vocabulaire
+
+Relecture de la passe `0eaccf4` : **deux défauts de mon fait**, corrigés au commit
+`6420c88` et inscrits plutôt que réparés en silence (Cmd 10).
+
+- **La phrase du §0 était cassée.** Mon ancre de remplacement avait **absorbé le mot
+  « depuis »**, laissant une parenthèse ouverte et un membre de phrase sans verbe. La
+  phrase est reprise entière. **Aucun de mes contrôles ne pouvait la voir** :
+  `verifier-invariants.py`, Cmd 15 et le recomptage mécanique sont **tous
+  structurels**. Une prose cassée passe au travers. C'est la relecture qui l'a vue —
+  le rappel vaut pour les passes suivantes.
+- **Le constat sur `recense` était sous-évalué.** Je l'avais présenté comme une
+  **colonne manquante** au tableau par pôle. Vérification faite au § *Comment lire ce
+  registre*, le vocabulaire déclaré des statuts n'admet que **quatre** valeurs :
+  `ouvert`, `en-cours`, `bloque`, `attente-verdict`. **`recense` n'y figure pas.**
+  `BIB-05` porte donc une **valeur hors vocabulaire** — la **même classe d'écart** que
+  `DOC-06`/`DOC-07`/`DOC-08`, close le 2026-09-13 — et elle est de mon fait
+  (`dfae737`).
+
+**La machine ne tranche pas (Cmd 12).** Élargir le vocabulaire à `recense`, ou ramener
+`BIB-05` à une valeur déclarée, est un verdict de Sidy. **`BIB-05` reste tel quel** ;
+les deux issues sont portées à la queue sous `recomptage-tableau-registre`. Le total
+des quatre colonnes ne peut pas le compter tant que ce n'est pas tranché.
+
+**Contrôles, rapportés bruts.** `verifier-invariants.py` : rc=0, **0 erreur(s),
+71 avertissement(s)**, tous préexistants sur `doctrinal/autorites/rene-guenon.md`,
+**zéro sur les fichiers de cette passe**. Cmd 15 : **PROPRE — 0 violation non
+couverte, 0 signalement hors Cmd 15**.
+
+- **Commit** : `6420c88`
+
 ## [2026-09-17] correction | `BIB-03` clos — pointeur mort du sas corrigé, ligne versée en §9
 
 Sur verdict de Sidy du 2026-09-17 : « corrige le pointeur mort de `BIB-03`, le chantier
