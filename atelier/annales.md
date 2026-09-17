@@ -9,6 +9,63 @@ updated: 2026-09-17
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+
+## [2026-09-17] cahier | Reprise à zéro du protocole : tentative annulée, constat déposé en R&D
+
+Passe **entièrement annulée** sur verdict de Sidy — « On annule toute cette session,
+je m'y prendrais autrement plus tard ». Ne subsiste d'elle que la fiche de cahier
+qui en consigne le motif et la matière, écrite sur sa demande expresse :
+`atelier/rd/cahiers/2026-09-17_reinitialisation-claude-md-hypothese-degradation.md`,
+commit `9688b28`. **Le dépôt est à l'état du commit `fea8360`.**
+
+- **Le constat à l'origine de la tentative** est celui de Sidy, cité verbatim dans la
+  fiche et décomposé en ses **trois propositions distinctes** : une dégradation
+  générale observée du modèle ; l'hypothèse de règles trop restrictives qui le
+  rendraient absurde ; l'hypothèse que cette absurdité **reflète** des contradictions
+  ou tensions insoupçonnées du protocole. Les deux dernières sont marquées
+  « peut-être » et le restent — la fiche ne conclut pas.
+- **Ce que la tentative avait fait** : archivage du protocole racine et des cinq
+  protocoles locaux, réduction de la racine à une carte structurelle, réduction des
+  locaux au technique, réparation par nom des rattachements des dix fiches de
+  `protocoles/`. Tout cela est **défait**.
+- **Défait sans rien détruire** (Cmd 10) : 17 fichiers suivis en `git stash`, entrée
+  nommée ; 16 fichiers créés **déplacés** hors dépôt vers
+  `/root/annule-session-2026-09-17/`, jamais effacés. Les deux gestes sont réversibles
+  et la décision de supprimer reste à Sidy.
+- **La matière mesurée est conservée** dans la fiche, faits seulement : volume du
+  protocole racine (780 lignes) ; étanchéité énoncée sur cinq circuits et contrôlée
+  sur deux, `ETANCHEITE_INTERDITE` ne portant que `doctrinal` et `hermeneutique` ;
+  garde P1/P2 qui fait payer le coût d'une règle avant que la règle existe ;
+  dix-neuf renvois par numéro de section que rien ne contrôle, dont plusieurs
+  pointaient après renumérotation vers une **autre** section existante ;
+  `atelier/rd/outillage/generer-cartes-protocole.py` rendant un succès (code 0) sur
+  un périmètre vide, deux de ses cinq extracteurs ne lisant rien tout en se
+  déclarant `source: CLAUDE.md` ; critères de `status:` sans aucun contrôle mécanique.
+- **L'invariant que je retiens** : `0 erreur(s), 71 avertissement(s)` avant la
+  session, après chaque opération, et après l'annulation totale. Retirer 780 lignes
+  de protocole **n'a déplacé aucun contrôle** — cette matière n'était tenue par aucun
+  moyen mécanique, seulement par la lecture qu'un modèle en faisait.
+
+**Ce qui reste ouvert, non traité.** `generer-cartes-protocole.py` n'est **pas
+réparé** : son diagnostic est dans la fiche, sa réparation était en cours d'examen
+quand la session a été annulée, et la voie à suivre pour les cartes de Commandements
+attendait un verdict qui n'a pas été rendu. Le chantier `OUT-03` reste `ouvert`, et
+ses deux fiches de spécification restent en `brouillon` — non touchées.
+
+**Écart déclaré (Cmd 12).** Rien n'a été mesuré du comportement du modèle lui-même :
+ni les contradictions rencontrées en session, ni les blocages, ni le coût du
+chargement intégral. Le constat de dégradation demeure une observation de Sidy, non
+un relevé instrumenté — c'est ce qui manque le plus au dossier.
+
+**Contrôles, rapportés bruts.** `verifier-invariants.py` après annulation et après
+écriture de la fiche : **0 erreur(s), 71 avertissement(s)**, ligne de base d'avant
+session, **zéro sur le fichier de cette passe**. `git status` ne montre plus que deux
+fichiers du monitoring, étrangers à la session. Cmd 15 au `pre-commit` : **PROPRE —
+0 violation non couverte**, avec un signalement non bloquant d'**exception caduque**
+préexistante (`citadelle-du-sham/source/library-full.json [U+200D]`), laissée telle.
+
+- **Commit** : `9688b28`
+
 ## [2026-09-17] verdict | `BIB-05` ramené à `ouvert` — le vocabulaire des statuts ne s'élargit pas
 
 Verdict de Sidy, rendu sur la question soumise la veille : « ramène `BIB-05` à
