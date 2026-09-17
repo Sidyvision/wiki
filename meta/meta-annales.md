@@ -13,6 +13,54 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-17] correction | `BIB-03` clos — pointeur mort du sas corrigé, ligne versée en §9
+
+Sur verdict de Sidy du 2026-09-17 : « corrige le pointeur mort de `BIB-03`, le chantier
+a été fermé il y a bien longtemps maintenant ». La consigne portait deux choses à la
+fois — une tâche, et **le verdict de clôture lui-même**, que Cmd 12 réserve à lui seul.
+
+- **La clôture ne date pas de ce jour.** Le versement a eu lieu le **2026-09-02** au
+  commit `d5a52d0` (« PRO-08 clos : `textes/` ouvert ») : les deux conversions OCR de
+  Tilak sont dans `textes/tilak-the-orion-1893/` et
+  `textes/tilak-the-arctic-home-in-the-vedas-1903/`, chacune portant son
+  `index-conversion.md`. Le 2026-09-17 est la date du **verdict qui constate** la
+  clôture, non celle du fait. Les deux dates sont consignées distinctement.
+- **Le pointeur mort était `_inbox/conversions/`** — chemin **jamais suivi par git**
+  (`git log --all` sur ce chemin revient vide) et vidé depuis. La mention d'origine est
+  **conservée dans la nouvelle ligne, non effacée** (Cmd 10). Les deux autres pointeurs
+  de la cellule ont été vérifiés résolvants, un seul était mort.
+- **Le « sortie brute de machine, non relue » est requalifié** : ce n'est pas un reste
+  de chantier ouvert, c'est une **propriété permanente de l'artefact**, déclarée par les
+  fiches `index-conversion.md` elles-mêmes. Rien ne restait donc à faire.
+- La ligne quitte §4 pour **§9 « Chantiers clos ou caducs »**, ID conservé, sur le
+  précédent de `PRO-08`, `INF-14`, `INF-15` et `INF-17`.
+
+**Deux défauts de la passe `dfae737` (la veille) sont corrigés et signalés, non tus.**
+`BIB-05` avait été inséré **dans §6 Process** au lieu de §4 Bibliothèque — la ligne est
+remise à son pôle, contenu inchangé ; et l'en-tête du §0 affirmait « toutes dans les
+quatre statuts déclarés », **faux depuis `BIB-05`** qui porte `recense`, cinquième
+statut. La phrase est amendée.
+
+**Les compteurs ne bougent que du seul déplacement** : §1–§7 **61 → 60**, §9 **10 → 11**,
+pôle `BIB` `attente-verdict` 2 → 1 (total 4 → 3), total général `attente-verdict`
+13 → 12 et 57 → 56.
+
+**Ce qui n'est pas corrigé, et pourquoi.** Le tableau par pôle **ne colonne pas
+`recense`** : `BIB-05` n'est compté nulle part. Ajouter une colonne déciderait de la
+**forme** du tableau, et cette forme est l'objet même du verdict en attente — la machine
+ne tranche pas (Cmd 12). De même l'écart global : recomptage mécanique du 2026-09-17
+après clôture, **62 lignes** réelles en §1–§7 contre **60** déclarées, `INS`, `CAS` et
+`PRO` tombant juste quand `INF`, `OUT`, `BIB` et `DOC` divergent. **Cet écart n'est pas
+touché** ; il attend sous `recomptage-tableau-registre`, où le signalement du statut sans
+colonne est ajouté ce jour.
+
+**Contrôles, rapportés bruts.** `verifier-invariants.py` : rc=0, **0 erreur(s),
+71 avertissement(s)**, tous préexistants sur `doctrinal/autorites/rene-guenon.md`
+(étanchéité inversée C5/C6), **zéro sur les deux fichiers de cette passe**.
+Cmd 15 : **PROPRE — 0 violation non couverte, 0 signalement hors Cmd 15**.
+
+- **Commit** : `0eaccf4`
+
 ## [2026-09-17] integration | Sas vidé — deux entrées de queue mouvementées
 
 Passe d'intégration du sas `_inbox/` (`dfae737`). Au circuit `meta/`, deux
