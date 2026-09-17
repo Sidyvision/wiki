@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-09-16
+updated: 2026-09-17
 
 ---
 
@@ -13,6 +13,42 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-17] queue | Le visa du versement Lisān al-ʿArab entre au dispositif de rappel
+
+Ajout d'une quatrième entrée à `meta/projet-unifie/queue-idees.md` :
+**`visa-versement-lisan-al-arab`**, `non-assigné`, `en attente`, priorité normale.
+
+**Motif de l'ajout, et il vaut d'être dit.** Les trois entrées déposées la veille
+(commit `4852e98`) couvraient le glossaire, le périmètre générateur/validateur et le
+recomptage du registre — mais **le point le plus conséquent de la session, le fait que la
+pièce du sas attend le visa de Sidy, ne vivait que dans un corps de fiche et une entrée
+d'annales**. C'est exactement la forme de ce qui finit dans l'oubli, et donc exactement ce
+que la consigne d'ouverture de cette section proscrit (*« Cette section sert de rappel de
+tâche à faire aussi bien pour moi que pour toi, fais en sorte que ça soit retenu »*).
+
+**Enregistrer qu'une proposition attend un verdict n'est pas l'implémenter** — précédent
+au dépôt : `BIB-03`, `attente-verdict`, « verdict de Sidy sur le versement — rien d'autre
+ne manque ». L'entrée nomme donc ce que le visa débloquerait, précisément **pour que rien
+n'en soit engagé d'avance** : `BIB-05` (index mécanique `racine → volume, page`, motivé
+par le rangement du *Lisān* **par dernière radicale**), le traitement des 1 520 U+200C, le
+signalement de pagination sur `doctrinal/symboles/formule-al-waha-al-ajal-al-saa.md`, et
+le déplacement du script d'extraction. **`BIB-05` n'est pas ouvert.**
+
+Deux points portés à l'entrée : l'écart **97 / 169** entre le chiffre de la moisson Gloton
+retenu par la pièce du sas et l'état réel du TSV — la pièce n'a **pas** été modifiée, elle
+attend visa ; et un **signalement de conservation** — la pièce est bien suivie par git
+(vérifié : `git ls-files _inbox/` la liste, elle n'est pas ignorée), mais `_inbox/` est par
+définition vidé après chaque intégration (§II), de sorte qu'un vidage antérieur au visa
+priverait de sa cible la procédure de reprise (§7 de la fiche de consignation). **Rien n'a
+été déplacé d'office** : le geste appartient au verdict (Cmd 12).
+
+**Contrôle, rapporté brut.** Hook `pre-commit`, `verifier-hygiene-unicode.py` sur le
+fichier stagé : `Cmd 15 : PROPRE — 0 violation non couverte. 0 signalement(s) hors
+Cmd 15.` (l'exception caduque sur `atelier/rd/citadelle-du-sham/source/library-full.json`
+est non bloquante et étrangère à cette passe).
+
+- **Commit** : 68a829f
+
 ## [2026-09-16] queue | Trois entrées déposées en queue-idées à l'issue de la consignation lexicale
 
 Dépôt de trois entrées dans `meta/projet-unifie/queue-idees.md`, sur consigne de Sidy
