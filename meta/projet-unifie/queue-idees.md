@@ -20,7 +20,33 @@ updated: 2026-09-17
 > de l'entrée.
 
 <!-- INSERTION: QUEUE -->
-## [2026-09-17] visa-versement-lisan-al-arab | non-assigné | en attente | normale
+
+## [2026-09-17] recolte-discernement-verdicts | non-assigné | en attente | normale
+
+La **récolte du Registre du Discernement** est versée en
+[[atelier/rd/cahiers/2026-09-10_recolte-discernement-etat-maturite]]. Ce n'est pas un
+rapport à archiver : c'est une **liste de travail classée par maturité formelle**, et
+elle n'attend qu'une chose — **des verdicts de Sidy**, que la machine ne rend jamais
+(Cmd 12).
+
+**Ce qui est mesuré, et qui donne l'urgence** : `17 traditionnel` et
+`1 contre-traditionnel` sont **inchangés depuis le 2026-09-10**, alors que l'assiette
+est passée de 58 à **59 fiches** dont **42 `speculatif`**. Aucun verdict de
+discernement n'a été rendu en une semaine : la récolte grossit, elle ne se cueille
+pas.
+
+**Les rangs les plus mûrs, tels que la pièce les classe** — A1, le dossier
+kabbalistique (quatre fiches, une séance) ; A2, le dossier Qâf du 2026-08-30 (trois
+fiches, une séance) ; A3, les verdicts d'un mot. La section E ne demande **pas** un
+verdict mais une **thèse** (deux fiches ouvertes sans conclusion) : ne pas la traiter
+comme les autres.
+
+**Anomalie de forme non corrigée, à trancher** (§F.2, vérifiée le 2026-09-17) :
+`2026-08-20_traite-emanation-gauche-isaac-ha-kohen.md` et
+`2026-08-20_etat-lieux-kabbale-depot.md` portent `type: discernement` mais **zéro**
+bloc 🔍, alors qu'il est impératif. Deux issues possibles, aucune n'est mienne :
+rédiger le bloc, ou changer le type.
+## [2026-09-17] visa-versement-lisan-al-arab | machine | traité | normale
 
 **Description** : le versement du *Lisān al-ʿArab* dans `raw/lisan-al-arab/` (2026-09-16, sur ordre
 de Sidy — 392 Mo, 15 volumes, 8117 pages adressables, pagination conforme à l'imprimé) est
@@ -47,6 +73,22 @@ donné, **rien de ce qu'elle propose ne s'applique** — un document en attente 
 porte **169** au 2026-09-16 (passe close le jour même). Le critère de mesure de `BIB-05` — combien de
 racines déjà moissonnées deviennent adressables — est donc à établir sur **169**, non 97. La pièce du
 sas n'a **pas** été modifiée : elle attend visa.
+
+**CLÔTURE DU 2026-09-17 — visa rendu, entrée traitée.** Sidy a visé le versement le
+2026-09-17. Les quatre points ci-dessus sont réglés ainsi : **(1)** `BIB-05` est
+**ouverte au registre en recensement seul** — aucun code, triptyque à rédiger et à
+viser ; **(2)** les 1 520 U+200C sont **laissés en place**, aucune des deux voies
+n'est engagée, la conversion vers `textes/` n'étant pas ouverte ; **(3)** la
+correction de pagination est **faite** (t. 15 pp. 379-382) et le `to-source` du seul
+article وحي levé — les deux autres marqueurs de la fiche subsistent, ils ne relèvent
+pas du *Lisān* ; **(4)** le script est versé en
+`atelier/rd/outillage/extraire-lisan-shamela.py`. S'y ajoute la fiche
+[[doctrinal/sources/lisan-al-arab]], `status: traditionnel` **sur verdict exprès de
+Sidy du 2026-09-17** — la machine ne l'a pas déduit. La réconciliation 97/169 est
+tranchée au profit de **169** (mesure au TSV), et inscrite comme telle à `BIB-05`.
+Le sas `_inbox/` a été vidé après intégration (§II, pas 8) : le signalement de
+conservation porté par cette entrée est **éteint**, la matière étant désormais dans
+les circuits.
 
 **Point de vigilance sur la conservation** : la pièce est bien **suivie par git** (vérifié :
 `git ls-files _inbox/` la liste, elle n'est pas ignorée), mais `_inbox/` est par définition **vidé

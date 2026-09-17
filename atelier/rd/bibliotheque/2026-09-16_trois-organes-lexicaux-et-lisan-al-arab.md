@@ -3,7 +3,7 @@ title: "Les trois organes lexicaux du dépôt, et le versement du Lisān al-ʿAr
 type: outillage
 tags: [bibliotheque, index-lexical, glossaire, grammaire, lisan-al-arab, jurjani, gloton, chantier]
 created: 2026-09-16
-updated: 2026-09-16
+updated: 2026-09-17
 sources:
   - "atelier/rd/outillage/index-lexical/index-lexical.md"
   - "atelier/rd/bibliotheque/glossaire-unifie.md"
@@ -123,6 +123,15 @@ versé aux circuits`, accompagnée de `_inbox/2026-09-16_lisan-al-arab_extraire-
 **C'est elle qui fait foi sur le Lisān**, non la présente fiche ; ce qui suit n'en est que
 le report utile au chantier lexical, et **rien de ce qu'elle propose n'est appliqué ici** :
 un document en attente de visa ne s'applique pas.
+
+> **Mise à jour du 2026-09-17 (Cmd 10).** Le visa est rendu. La pièce de sas a été
+> intégrée et le sas vidé : elle n'existe plus à l'adresse `_inbox/` citée ci-dessus.
+> Ce qu'elle portait vit désormais dans les circuits — la fiche de source
+> [[doctrinal/sources/lisan-al-arab]] (statut `traditionnel`, verdict de Sidy du
+> 2026-09-17), la ligne `BIB-05` au [[atelier/rd/registre-chantiers]], le script
+> `atelier/rd/outillage/extraire-lisan-shamela.py`, et la correction de page de
+> [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]]. Le paragraphe ci-dessus est
+> maintenu et non effacé : il dit d'où vient l'autorité de cette matière.
 
 Versé le **2026-09-16** sur ordre de Sidy, `raw/lisan-al-arab/`, **392 Mo, 37 fichiers**.
 `raw/` est hors git (`/raw/*` ignoré) : ce dossier n'entre dans aucun circuit ; la chaîne
@@ -258,7 +267,7 @@ rester hors de tout commit :
 `atelier/rd/infrastructure/monitoring-archive/2026-09-16_41dc3e7e492c.txt` et
 `..._ad3152b237bb.txt`. **Stager les chemins un par un.**
 
-**f0. Le sas d abord.** Lire `_inbox/2026-09-16_lisan-al-arab-edition-versee.md` : c est la piece qui fait foi sur le Lisan, et elle attend le visa de Sidy. Rien de ce qu elle propose (BIB-05, retrait des U+200C, correction de page, deplacement du script vers l outillage) ne s applique avant ce visa.
+**f0. Le visa est rendu (2026-09-17).** Cette etape est close : le sas a ete vide apres integration, il n y a plus rien a y lire. Ce que la piece proposait est applique et consigne — voir la mise a jour du 2026-09-17 au paragraphe 4 ci-dessus, et l entree d annales du meme jour. Les deux points restes hors visa, le retrait des 1 520 U+200C et la conversion vers `textes/`, ne sont toujours pas engages.
 
 **f. Si le Lisān doit être exploité.** Il n'y a **rien à ingérer** : le versement est
 complet, provenancé et vérifié. Le point d'entrée est `..._pages.tsv` (adressage

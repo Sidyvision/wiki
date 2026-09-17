@@ -5,9 +5,9 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [formule, adjuration, azima, khuddam, jinn, ilm-al-huruf, shams-al-maarif, lexique-arabe]
 created: 2026-09-13
-updated: 2026-09-13
-sources: ["[[doctrinal/sources/shams-al-maarif]]", "to-source"]
-sources_count: 2
+updated: 2026-09-17
+sources: ["[[doctrinal/sources/shams-al-maarif]]", "[[doctrinal/sources/lisan-al-arab]]", "to-source"]
+sources_count: 3
 cross_links: ["[[doctrinal/symboles/talisman-sihr]]", "[[doctrinal/symboles/shamharush]]", "[[doctrinal/sources/guenon-lettre-genty-1937-07-14]]", "[[doctrinal/symboles/ilm-al-huruf]]", "[[doctrinal/deviations/confusion-psychique-spirituel]]"]
 original: ["الوحا العجل الساعة"]
 ---
@@ -27,11 +27,27 @@ original: ["الوحا العجل الساعة"]
 > originales, point 7). La translittération *al-waḥā al-ʿajal al-sāʿa* est produite par
 > la machine. La vocalisation de *al-waḥā* suit le *Lisān* (« الْوَحَى »).
 
+> **Correction du 2026-09-17 (Cmd 10).** La référence du *Lisān* donnée à la création
+> de la fiche — « tome 15, **pp. 172-173**, texte consulté sur la bibliothèque
+> Islamweb le 2026-09-13 » — est **remplacée** par **tome 15, pp. 379-382**, sur
+> l'édition de référence désormais versée au dépôt ([[doctrinal/sources/lisan-al-arab]],
+> دار صادر, 3ᵉ éd. 1414 h.), texte **et** image. Écart : **209 pages**. Ce n'est
+> vraisemblablement pas une coquille mais une **autre pagination** — celle d'Islamweb
+> ou d'une autre édition — reprise sans être déclarée comme telle ; la référence
+> d'origine est conservée dans cette note, non effacée.
+>
+> **Le `to-source` levé est celui-là seul.** Sidy a rendu verdict le 2026-09-17 sur
+> les quatre éléments de l'article وحي, retrouvés aux pages ci-dessus. **Deux
+> marqueurs subsistent et ne sont pas touchés** : la glose de *al-sāʿa* comme « à
+> l'instant même » (§ « Le sens des mots »), qui ne relève pas du *Lisān* ; et les
+> témoins numériques du *Shams al-Maʿārif* (§ « Points de vigilance », point 5), qui
+> relèvent d'une tout autre source. Le versement du *Lisān* n'établit rien sur eux.
+
 ## Le sens des mots
 
-- **الوحا (*al-waḥā*)**. Le *Lisān al-ʿArab* d'Ibn Manẓūr, article وحي (tome 15,
-  pp. 172-173, texte consulté sur la bibliothèque Islamweb le 2026-09-13), en donne
-  l'emploi exact :
+- **الوحا (*al-waḥā*)**. Le *Lisān al-ʿArab* d'Ibn Manẓūr, article وحي (**tome 15, pp. 379-382**,
+  édition دار صادر, 3ᵉ éd. 1414 h. — voir [[doctrinal/sources/lisan-al-arab]]), en
+  donne l'emploi exact :
 
   > « وَالْوَحَى : الْعَجَلَةُ ، يَقُولُونَ : الْوَحَى الْوَحَى ! وَالْوَحَاءَ الْوَحَاءَ !
   > يَعْنِي الْبِدَارَ الْبِدَارَ ، وَالْوَحَاءَ الْوَحَاءَ يَعْنِي الْإِسْرَاعَ ، فَيَمُدُّونَهُمَا
@@ -41,8 +57,11 @@ original: ["الوحا العجل الساعة"]
   et il se prononce long ou bref. Le *Lisān* cite à l'appui le *Tahdhīb* (« الوحاء
   ممدود، السرعة »), le *Ṣiḥāḥ* (« يُمَدّ ويُقصر ») et un vers d'Abū al-Najm. Il donne
   aussi la forme verbale *tawaḥḥah* (« hâte-toi ») dans une parole rapportée : « وَإِنْ
-  كَانَتْ خَيْرًا فَتَوَحَّهْ ». Ces références sont relevées en ligne et restent à
-  vérifier sur une édition imprimée (`to-source`).
+  كَانَتْ خَيْرًا فَتَوَحَّهْ ». **Ces quatre éléments ont été retrouvés sur l'image de
+  l'édition imprimée** : ouverture de l'entrée à la fin de ص379, « والوَحى: العَجَلةُ »
+  à la fin de ص381, suite et citations (*Tahdhīb*, *Ṣiḥāḥ*, vers d'Abū al-Najm,
+  *tawaḥḥah*) à ص382. Le marqueur `to-source` de ce point est **levé** ; les deux
+  autres marqueurs de la fiche subsistent (voir la note de correction en tête).
 - **العجل (*al-ʿajal*)** et **الساعة (*al-sāʿa*)**. Ce sont des mots de la langue
   courante. Le *Lisān* définit précisément *al-waḥā* par *al-ʿajala* (العَجَلة). La glose
   de *al-sāʿa* comme « à l'instant même » dans cet emploi n'a pas été sourcée ici

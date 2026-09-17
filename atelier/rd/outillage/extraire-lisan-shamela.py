@@ -12,6 +12,13 @@ Sortie :
 Aucune correction du texte : extraction fidele, octet pour octet dans le champ
 `text` (les tabulations internes sont remplacees par un espace et les sauts de
 ligne par l'espace, pour tenir une ligne par page).
+
+Versionne ici le 2026-09-17 (chantier BIB-05). Copie fidele du script execute le
+2026-09-16 depuis raw/ (hors git) : il n'a pas ete refactorise, la fidelite a ce
+qui a produit l'artefact etant l'objet meme du versionnement.
+SIGNALEMENT : les chemins CSV et OUT sont codes en dur sur /tmp/lisan. Le script
+n'est donc pas rejouable tel quel sans reconstituer ce repertoire. Correction non
+faite ici (elle changerait le script par rapport a celui qui a produit raw/).
 """
 import csv, sys, os, hashlib, collections, re
 

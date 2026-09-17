@@ -1,11 +1,56 @@
 ---
 title: "Récolte du Registre du Discernement — état de maturité au 2026-09-10"
-type: note
-statut: proposition au sas — non versé aux circuits
-date: 2026-09-10
+type: experience
+tags: [discernement, recolte, maturite, releve, verdict-attendu]
+created: 2026-09-10
+updated: 2026-09-17
+sources: []
+links: []
 ---
 
 # Récolte du Registre du Discernement — état de maturité (2026-09-10)
+
+> **Versement du 2026-09-17.** Cette pièce a été rédigée au sas `_inbox/` le
+> **2026-09-10** et versée ici sans retouche de son corps, sur la consigne
+> « intègre les fiches de `_inbox/` ». Le `created:` porte la date de l'écriture,
+> non celle du versement ; le `updated:` porte celle du versement. Précédent de
+> destination : [[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]],
+> relevé de fiches doctrinales logé au même endroit.
+>
+> **Les fiches du registre sont nommées en littéral et non en wikilink.** Ce n'est
+> pas une négligence : un document *qui énumère* des fiches fait trébucher
+> `verifier-invariants.py` sur ses propres citations (45 faux C1 le 2026-08-18).
+> Le document parle *des* fiches, il ne pointe pas vers elles.
+
+## Avertissement de versement — ce qui a vieilli en sept jours (Cmd 10)
+
+Le corps ci-dessous est **maintenu tel qu'il a été écrit le 2026-09-10** ; les
+écarts mesurés ce jour sont portés ici, en tête, et non corrigés en silence.
+
+1. **L'assiette a bougé.** Le corps annonce **58 fiches instruites** dont **41
+   `speculatif`**. Mesuré le 2026-09-17 : **59 fiches**, dont **42 `speculatif`**.
+   Les chiffres du corps sont ceux de sa date et restent lisibles comme tels.
+
+2. **Le §F.1 est caduc.** Il relève une fiche
+   (`2026-08-11_trois-territoires-inacheve`) portant `status: adopte`, valeur hors
+   des cinq du Sceau. **C'est fait** : le commit `2a2796d` l'a ramenée à
+   `speculatif`, l'adoption étant portée par `verdict_date` — sur verdict de Sidy.
+   L'anomalie est close ; le constat de forme qui l'accompagnait (le vérificateur
+   ne rattrapait pas une valeur hors vocabulaire) n'est **pas** tranché pour autant.
+
+3. **Le §F.2 nomme un fichier sous une forme abrégée.** Il écrit
+   `2026-08-20_traite-emanation-gauche` ; le nom réel au disque est
+   `2026-08-20_traite-emanation-gauche-isaac-ha-kohen.md`. **Le constat lui-même
+   tient** : vérifié le 2026-09-17, cette fiche et
+   `2026-08-20_etat-lieux-kabbale-depot.md` rendent toutes deux **zéro** occurrence
+   du bloc 🔍.
+
+4. **Ce qui n'a pas bougé, et qui fait le prix de la pièce.** `17 traditionnel` et
+   `1 contre-traditionnel` sont **inchangés depuis le 2026-09-10**. Aucun verdict de
+   discernement n'a été rendu dans l'intervalle : **les sections A à E tiennent
+   entières**. Seule la marge a vieilli, non la récolte.
+
+-----
 
 > **Ce que la machine peut dire, et ce qu'elle ne dit pas.** « Fruit » a deux sens :
 > *mûr* (formellement complet, plus rien à instruire, n'attend que ton verdict) et
