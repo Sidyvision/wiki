@@ -55,7 +55,11 @@ Le contrôle **ne renomme rien** et ne propose aucun gagnant (Cmd 12).
 
 - **Deux fichiers de même basename dont aucun n'est cible d'un renvoi court** : le
   défaut est latent, pas actif. C'est la question ouverte de l'intent — refus sec ou
-  avertissement conditionnel —, **soumise à Sidy**, non tranchée ici.
+  avertissement conditionnel —, **soumise à Sidy**, non tranchée ici. **Chiffrée le
+  2026-09-18** (étape 1 du plan) : **17 collisions entre circuits existent déjà**, dont
+  12 sont la trace voulue de la migration du 2026-08-08 ; **aucune n'est visée par un
+  renvoi court**. Un refus sec échouerait donc 17 fois dès la première exécution, sur des
+  doublons voulus.
 - **Basename identique entre un circuit et `textes/` ou `protocoles/`** : ces deux
   dossiers ne sont cible d'aucun wikilink (§II). Périmètre à trancher : les exclure,
   ou les inclure pour prévenir une future ouverture. **Mesure à faire d'abord** : combien

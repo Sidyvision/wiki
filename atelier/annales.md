@@ -9,6 +9,28 @@ updated: 2026-09-18
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] outillage | Le contrôle du Cmd 15 jugeait une exception qu'il n'avait pas lue
+
+Troisième passe du jour, sur consigne « je valide l'ensemble, tu peux engager ».
+
+- **Le signal signalé la veille n'était pas celui que je croyais.** J'avais annoncé à
+  Sidy « une exception caduque, une ligne à retirer » : vérification faite, le fichier
+  porte **exactement ses 20 occurrences déclarées** — l'exception est valide, et la
+  retirer aurait détruit un verdict sur la foi d'un faux signal. Le défaut est dans
+  l'instrument, pas dans le registre.
+- **Cause** : `appliquer_exceptions` concluait « 0 occurrence observée → caduque » sans
+  vérifier que le fichier avait été **lu**. Le hook `pre-commit` ne passant que les
+  chemins indexés, toute exception portant sur un autre fichier était déclarée périmée —
+  **à chaque commit**. Famille `OUT-16`/`OUT-18` : un rapport vrai sur un périmètre faux.
+- **Correctif** : le périmètre réellement lu est transmis ; une exception dont le fichier
+  n'y est pas est **non jugée**, et dite telle. À périmètre complet, rien ne change.
+- **Épreuve par l'échec (§VII)** : `E12` ajoutée, en deux temps (hors périmètre → non
+  jugée ; dans le périmètre → honorée). **Vue refuser sur la version d'avant** dans une
+  copie jetable hors dépôt, verte après ; `E9` (caducité réelle) reste verte — le signal
+  n'est pas éteint, il est devenu vrai. Les douze épreuves passent.
+- **Registre des problèmes** : entrée `[2026-09-18]`.
+- **Commit** : voir ci-dessous
+
 ## [2026-09-18] verdicts | Exécution des verdicts de Sidy, point par point — catalogue, chantier OUT-20, et deux mesures qui renversent un signalement
 
 Seconde passe du jour, distincte de l'entrée `correctifs` ci-dessous : celle-ci exécute

@@ -29,6 +29,40 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] Une exception parfaitement à jour était déclarée périmée à chaque commit
+
+- **Symptôme** : à chaque `git commit`, le hook imprimait « **EXCEPTION(S) CADUQUE(S) — 1**,
+  non bloquant, le registre est à mettre à jour :
+  `atelier/rd/citadelle-du-sham/source/library-full.json` [U+200D] — aucune occurrence :
+  fichier nettoyé ou disparu ». Au `git push`, sur le périmètre complet, **aucune caducité**
+  et « 20 occurrence(s) honorée(s) sur 20 relevée(s) ».
+- **Diagnostic** (mesuré, pas supposé) : le fichier existe et porte **exactement ses 20
+  occurrences déclarées** — l'exception est valide. `appliquer_exceptions` concluait
+  `n == 0 → caduque` **sans regarder si le fichier avait été lu**. Or le hook `pre-commit`
+  ne passe que les chemins indexés : tout fichier hors de l'index rendait zéro. Même
+  famille qu'`OUT-16` et `OUT-18` — **un rapport vrai sur un périmètre faux**.
+- **Ce que j'avais dit la veille au soir, et qui était faux** : j'avais signalé à Sidy
+  « une ligne à retirer quand tu veux ». Retirer l'exception aurait **supprimé un verdict
+  valide** sur la foi d'un signal erroné — exactement le geste que le registre se donne
+  pour mission d'empêcher. La vérification du compte réel (20 = 20) a renversé le
+  diagnostic avant tout geste.
+- **Résolution** : `verifier-hygiene-unicode.py` reçoit le périmètre réellement lu ; une
+  exception dont le fichier n'y figure pas est **non jugée** (ni honorée, ni caduque) et
+  rapportée comme telle. Comportement inchangé à périmètre complet — `perimetre=None`
+  conserve l'ancien comportement.
+- **Épreuve par l'échec (§VII), en deux temps indissociables** : `E12` ajoutée à
+  `eprouver-hygiene-unicode.py` — (a) fichier hors périmètre → 0 caduque, 1 non jugée ;
+  (b) même registre, fichier dans le périmètre → 2 honorées. **Vue échouer sur la version
+  d'avant le correctif** (`caduques=1 non-jugées=0 → ❌ CADUCITÉ PRONONCÉE SANS LECTURE`,
+  exécutée sur une copie jetable hors dépôt), **verte après**. `E9`, qui éprouve la
+  caducité réelle, reste verte : le correctif n'a pas éteint le signal, il l'a rendu vrai.
+- **Compréhension tirée** : *un contrôle qui juge un objet qu'il n'a pas lu produit un
+  faux à cadence fixe — et un faux répété est pire qu'un manque, parce qu'il éteint la
+  lecture du signal vrai.* Le garde-fou n'était pas la caducité : c'était de savoir sur
+  quoi on l'a prononcée.
+- **Liens** : `OUT-16` (instrument du Cmd 15) ; [[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]].
+- **Statut** : `resolu`.
+
 ## [2026-09-18] Le compteur « lien mort » du graphe n'est pas un compte de fautes
 
 - **Symptôme** : les rapports Studio des 09-16 et 09-17 proposent, comme « meilleur

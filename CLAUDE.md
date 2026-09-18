@@ -314,10 +314,18 @@ du 2026-09-18 : **589 occurrences dans 156 fiches, 0 ambiguïté**. Elle ne tien
 une chose, et cette chose est vérifiable : **l'unicité du basename dans le dépôt**. Le
 jour où deux fichiers porteraient le même nom, un renvoi court changerait de cible
 **silencieusement**, dans une fiche que personne n'éditait. C'est donc l'unicité qui
-est gardée, non la forme : **garde mécanique B9** — deux fichiers de même basename =
-refus (chantier `OUT-20`, triptyque à viser avant écriture du code, épreuve par
-l'échec exigée §VII). Tant que B9 n'est pas en place, la règle vaut par la discipline
-du rédacteur, et l'écart est déclaré ici plutôt que comblé (Cmd 12).
+est gardée, non la forme : **garde mécanique B9** (chantier `OUT-20`, plan visé le
+2026-09-18, **code non écrit** — épreuve par l'échec exigée §VII avant toute confiance).
+**Ce que la mesure de l'étape 1 a établi le 2026-09-18, et qu'il faut lire avec la règle** :
+l'unicité du basename **n'est déjà plus vraie** — **17 collisions existent entre
+circuits**, dont 12 sont la trace voulue de la migration du 2026-08-08 (stubs
+`deprecated` conservés, Cmd 10) et 4 la paire `autorites/` ↔ `references/` d'une même
+personne. **Aucune n'est visée par un renvoi court**, c'est pourquoi les 589 renvois
+restent sans ambiguïté. La règle ne dit donc pas « les basenames sont uniques » : elle
+dit que **la forme courte n'est sûre que sur un basename unique**, et B9 devra distinguer
+le doublon voulu du doublon qui casse un renvoi. Tant qu'elle n'est pas en place, la
+règle vaut par la discipline du rédacteur, et l'écart est déclaré ici plutôt que comblé
+(Cmd 12).
 
 **Champ `original:` (transversal, ouvert le 2026-09-08, verdict Sidy).** Tout Sceau
 des cinq circuits admet un champ **facultatif** `original:`, liste YAML de chaînes

@@ -266,6 +266,48 @@ def main():
         echecs.append("E11 : le périmètre par défaut ne lit pas les fichiers "
                       "non suivis, ou déborde sur ce que git ignore")
 
+    # --- E12 : une exception dont le fichier n'est PAS lu n'est pas caduque ---
+    # Motif, 2026-09-18 : le hook `pre-commit` ne passe que les chemins indexés.
+    # Toute exception portant sur un autre fichier rendait zéro occurrence, et
+    # l'instrument la déclarait « caduque : fichier nettoyé ou disparu » — à
+    # chaque commit, sur un registre parfaitement à jour. C'est le défaut que
+    # ce registre se donne précisément pour mission d'éviter : un signal faux,
+    # répété, qu'on finit par ne plus lire.
+    #
+    # L'épreuve est en DEUX temps indissociables, sans quoi elle ne prouve rien :
+    #   (a) fichier HORS périmètre lu  → ni caduque, ni honorée : NON JUGÉE ;
+    #   (b) le même registre, fichier DANS le périmètre → honorée comme avant.
+    autre = tmp / "hors-perimetre.txt"
+    autre.write_text(SAIN, encoding="utf-8")          # sain, jamais lu en (a)
+    reg = tmp / "exc-hors-perimetre.yaml"
+    reg.write_text(
+        "exceptions:\n"
+        f"  - fichier: \"{cible.as_posix()}\"\n"
+        "    codepoint: \"U+200D\"\n"
+        "    occurrences: 2\n"
+        "    motif: \"epreuve E12\"\n"
+        "    fiche: \"epreuve\"\n", encoding="utf-8")
+
+    code_a, d_a = lancer([autre], exceptions=reg)
+    caduques_a = len(d_a["exceptions_caduques"]) if d_a else "?"
+    non_jugees_a = len(d_a.get("exceptions_hors_perimetre", [])) if d_a else "?"
+    ok_a = code_a == 0 and d_a is not None and caduques_a == 0 and non_jugees_a == 1
+
+    code_b, d_b = lancer([cible], exceptions=reg)
+    ok_b = (code_b == 0 and d_b is not None
+            and len(d_b["exceptions_caduques"]) == 0
+            and d_b["exceptions_honorees"] == 2)
+
+    ok = ok_a and ok_b
+    print(f"E12 PÉRIMÈTRE/EXC  (a) hors périmètre : caduques={caduques_a} "
+          f"non-jugées={non_jugees_a} (attendu 0 / 1) · (b) dans le périmètre : "
+          f"honorées={d_b['exceptions_honorees'] if d_b else '?'} (attendu 2)  "
+          f"{'✅ une exception n est jugée que sur ce qui a été lu' if ok else '❌ CADUCITÉ PRONONCÉE SANS LECTURE'}")
+    if not ok:
+        echecs.append("E12 : une exception dont le fichier n'a pas été lu est "
+                      "déclarée caduque — caducité prononcée sur un périmètre "
+                      "qui ne contenait pas le fichier")
+
     print()
     if echecs:
         print(f"ÉPREUVE ÉCHOUÉE — {len(echecs)} défaut(s) :")

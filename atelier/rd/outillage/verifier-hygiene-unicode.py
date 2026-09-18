@@ -140,7 +140,7 @@ def charger_exceptions(chemin):
     return list(d.get("exceptions") or []), str(chemin)
 
 
-def appliquer_exceptions(violations, exceptions):
+def appliquer_exceptions(violations, exceptions, perimetre=None):
     """Répartit les violations Cmd 15 entre bloquantes, honorées et excédents.
 
     Règle du garde-fou, et c'est tout l'enjeu : une exception couvre un compte
@@ -149,14 +149,25 @@ def appliquer_exceptions(violations, exceptions):
     contamination ultérieure du même fichier, ce qui serait une qualification
     implicite rendue sans être avouée.
 
-    Retourne (bloquantes, honorees, excedents, caduques).
+    Caducité et périmètre — défaut relevé le 2026-09-18. Zéro occurrence
+    observée ne veut dire « exception périmée » QUE si le fichier a
+    effectivement été lu. Sur un périmètre partiel — le cas de TOUS les appels
+    du hook `pre-commit`, qui ne passe que les chemins indexés —, un fichier
+    non lu rendait zéro, et son exception était déclarée caduque à chaque
+    commit : un rapport vrai sur un périmètre faux, la famille d'`OUT-16` et
+    d'`OUT-18`. Le registre le plus soigneusement tenu se serait mis à mentir
+    par la seule répétition du signal. `perimetre` (ensemble des chemins
+    réellement lus, relatifs à la racine) lève l'ambiguïté ; à None, le
+    comportement d'avant est conservé.
+
+    Retourne (bloquantes, honorees, excedents, caduques, hors_perimetre).
     """
     par_cle = {}
     for v in violations:
         cle = (v["fichier"], v["codepoint"].split()[0])
         par_cle.setdefault(cle, []).append(v)
 
-    bloquantes, honorees, excedents, caduques = [], [], [], []
+    bloquantes, honorees, excedents, caduques, hors_perimetre = [], [], [], [], []
     consommees = set()
 
     for i, exc in enumerate(exceptions):
@@ -166,6 +177,11 @@ def appliquer_exceptions(violations, exceptions):
         consommees.add(cle)
         n = len(observees)
         if n == 0:
+            if perimetre is not None and exc.get("fichier") not in perimetre:
+                hors_perimetre.append({**exc, "observe": None,
+                                       "raison": "fichier hors du périmètre lu — "
+                                                 "ni honorée ni caduque, non jugée"})
+                continue
             caduques.append({**exc, "observe": 0,
                              "raison": "aucune occurrence : fichier nettoyé ou disparu"})
             continue
@@ -182,7 +198,7 @@ def appliquer_exceptions(violations, exceptions):
         if cle not in consommees:
             bloquantes.extend(items)
 
-    return bloquantes, honorees, excedents, caduques
+    return bloquantes, honorees, excedents, caduques, hors_perimetre
 
 
 
@@ -297,6 +313,7 @@ def main():
 
     total = {cle: [] for cle, _, _, _ in CLASSES}
     lus = ignores = 0
+    perimetre_lu = set()
     for f in sorted(fichiers):
         if not f.is_file():
             continue
@@ -305,6 +322,7 @@ def main():
             ignores += 1
             continue
         lus += 1
+        perimetre_lu.add(chemin_affiche(f, racine))
         for cle in total:
             total[cle].extend(trouvailles[cle])
 
@@ -315,7 +333,8 @@ def main():
         exceptions, source_exc = charger_exceptions(chemin_exc)
 
     brut = list(total["cmd15"])
-    total["cmd15"], honorees, excedents, caduques = appliquer_exceptions(brut, exceptions)
+    (total["cmd15"], honorees, excedents, caduques,
+     hors_perimetre) = appliquer_exceptions(brut, exceptions, perimetre_lu)
 
     bloquants = sum(len(total[cle]) for cle, _, _, bloque in CLASSES if bloque)
     signales = sum(len(total[cle]) for cle, _, _, bloque in CLASSES if not bloque)
@@ -330,6 +349,7 @@ def main():
                           "exceptions_honorees": len(honorees),
                           "exceptions_excedents": len(excedents),
                           "exceptions_caduques": caduques,
+                          "exceptions_hors_perimetre": hors_perimetre,
                           "detail": total}, ensure_ascii=False, indent=2))
     else:
         libelle = {"git-commitable": "vue git commitable : suivis + non-suivis "
@@ -364,6 +384,9 @@ def main():
                   f"couvre un compte exact, jamais un fichier en bloc.")
             for it in excedents[:50]:
                 print(f"  {it['fichier']}:{it['ligne']}:{it['colonne']} — {it['codepoint']}")
+        if hors_perimetre and not args.json:
+            print(f"Exceptions non jugées : {len(hors_perimetre)} — leur fichier "
+                  f"est hors du périmètre lu (ni honorée, ni caduque).")
         if caduques:
             print(f"\nEXCEPTION(S) CADUQUE(S) — {len(caduques)}, non bloquant, "
                   f"le registre est à mettre à jour :")
