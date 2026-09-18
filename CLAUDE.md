@@ -305,6 +305,20 @@ Règle transversale, valable pour tout Sceau comportant `sources`/`cross_links`/
 (`"[[slug]]"`), liste vide = `[]`, jamais `[[a], [b]]` ni `[a, b]`. Fait sans
 source → `sources: ["to-source"]` + signalement (§VII, discipline des sources).
 
+**Forme du wikilink — la courte est admise, sous une condition mécanique (inscrit le
+2026-09-18, verdict Sidy).** Le renvoi s'écrit **en chemin complet**
+(`"[[doctrinal/symboles/barzakh]]"`) : c'est la forme sûre, et celle qu'on écrit quand
+on hésite. La forme **courte** (`"[[barzakh]]"`) est **admise**, parce qu'elle est
+déjà la convention majoritaire du dépôt et qu'elle se résout sans équivoque — mesure
+du 2026-09-18 : **589 occurrences dans 156 fiches, 0 ambiguïté**. Elle ne tient qu'à
+une chose, et cette chose est vérifiable : **l'unicité du basename dans le dépôt**. Le
+jour où deux fichiers porteraient le même nom, un renvoi court changerait de cible
+**silencieusement**, dans une fiche que personne n'éditait. C'est donc l'unicité qui
+est gardée, non la forme : **garde mécanique B9** — deux fichiers de même basename =
+refus (chantier `OUT-20`, triptyque à viser avant écriture du code, épreuve par
+l'échec exigée §VII). Tant que B9 n'est pas en place, la règle vaut par la discipline
+du rédacteur, et l'écart est déclaré ici plutôt que comblé (Cmd 12).
+
 **Champ `original:` (transversal, ouvert le 2026-09-08, verdict Sidy).** Tout Sceau
 des cinq circuits admet un champ **facultatif** `original:`, liste YAML de chaînes
 entre guillemets droits, **miroir exact de `sources:`** : il porte la ou les formes du

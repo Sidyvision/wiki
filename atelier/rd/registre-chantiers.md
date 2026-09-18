@@ -3,7 +3,7 @@ title: "Registre des chantiers — carte vivante des travaux ouverts du dépôt"
 type: registre
 tags: [atelier, rd, registre, chantiers, pilotage]
 created: 2026-09-01
-updated: 2026-09-17
+updated: 2026-09-18
 sources: []
 links:
   - "[[atelier/rd/index]]"
@@ -68,7 +68,7 @@ revue périodique est une décision engageante (Cmd 13) — elle est en §Points
 
 ## 0. Vue d'ensemble
 
-**60 lignes de chantier** — **toutes dans les quatre statuts déclarés** depuis
+**63 lignes de chantier** — **toutes dans les quatre statuts déclarés** depuis
 l'alignement du 2026-09-13, l'écart `recense` ayant été **clos le 2026-09-17 sur
 verdict de Sidy** (voir la note ci-dessous) —, plus
 **11** versés en §9 (clos ou caducs) et 6 lignes en §8
@@ -327,6 +327,16 @@ dans le nombre total, que se lit ce qui peut avancer aujourd'hui.
 Le `DOC-01` compte pour une ligne mais recouvre **37 fiches de discernement `speculatif`**
 en attente de verdict : elles ne sont ni listées ni hiérarchisées ici (Cmd 12), voir §7.
 
+> **Note de recomptage (2026-09-18).** `OUT-20` ouvert (verdict F de la passe
+> Studio/Publication du jour). Recompte **mécanique** des lignes §1–§7 **avant** ajout :
+> **62** — `ouvert` 35 / `bloque` 5 / `en-cours` 9 / `attente-verdict` 13. Le §0
+> déclarait **60** : l'écart de deux lignes est **antérieur à cette passe** et la note
+> du 2026-09-13 le constatait déjà (« 62 lignes en §1–§7 après cette passe, contre les
+> 60 désormais déclarées ») sans que le chiffre de tête ait suivi. Il n'est pas
+> reconstitué rétroactivement ici : le compte de tête est simplement remis sur la
+> mesure. **Après** ajout : **63 = `ouvert` 35 / `bloque` 5 / `en-cours` 9 /
+> `attente-verdict` 14.**
+
 ## 0 bis. Infrastructure — où lire l'état réel
 
 Ce registre **ne recopie aucune valeur** qu'un script calcule ou qu'une archive porte :
@@ -409,6 +419,7 @@ non dépouillées dans cette passe → §8.*
 | OUT-18 | **L'organe de vérification était réputé éprouvé en bloc, alors qu'une seule de ses entrées l'avait été** — l'outil MCP `carte_du_depot` construit ses arguments avec `--json` (`wiki_mcp_server.py` l. 246-248) que `carte-du-depot.py` n'a jamais accepté : l'outil ne peut pas fonctionner, quel que soit l'appel, quand `verifier_invariants` rend son JSON sans défaut | `ouvert` | éprouver **une par une** les entrées du serveur MCP (chacune appelée pour de vrai, avec son refus observé sur faute fabriquée, §VII) ; le correctif de `carte_du_depot` (retrait de `--json`) **appliqué le 2026-09-15** sur consigne de Sidy — refus reproduit avant (`unrecognized arguments: --json`, code 2), appel réel après (`ok`, code 0) ; état d'avant conservé hors dépôt, trace dans [[atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio]]. Reste l'épreuve de refus entrée par entrée — le serveur vit hors dépôt et n'est pas versionné | registre des problèmes, entrée `[2026-09-15]` | 2026-09-15 |
 
 | OUT-19 | **`infra_verif` ne sait pas vérifier une entrée `mcp_servers`** — l'affirmation « trois profils portent le serveur Ansari » (fiche `2026-09-15_integration-mcp-ansari`) n'est vérifiable qu'à la main, exactement le défaut que le champ `infra_verif` a été ouvert pour combler (§VII). Étendre `verifier-coherence-infrastructure.py` à une clé `mcp_servers` (profil → nom de serveur attendu dans `config.yaml`) | `ouvert` | triptyque à rédiger et viser (Cmd 6) ; aucun code avant visa ; épreuve par l'échec exigée (§VII) | rapport Studio du 2026-09-15, P5 (i) ; [[atelier/rd/infrastructure/2026-09-15_integration-mcp-ansari]] ; [[atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio]] | 2026-09-15 |
+| OUT-20 | **Le wikilink court n'est gardé par rien** — la forme `[[slug]]` est admise par le §IV racine depuis le verdict du 2026-09-18 et repose tout entière sur l'unicité du basename dans le dépôt, qu'aucun contrôle ne vérifie ; mesure du jour : **589 occurrences dans 156 fiches, 0 ambiguïté** — mais une collision future changerait la cible d'un renvoi **silencieusement**, dans une fiche que personne n'édite | `attente-verdict` | deux verdicts avant tout code (sévérité : refus sec ou avertissement conditionnel ; périmètre : `textes/` et `protocoles/` inclus ou non), puis écriture de **B9** et épreuve par l'échec (§VII) — triptyque rédigé, `plan.md` en `brouillon` | [[atelier/rd/outillage/out-20-unicite-des-basenames/intent]] ; [[atelier/rd/outillage/out-20-unicite-des-basenames/spec]] ; [[atelier/rd/outillage/out-20-unicite-des-basenames/plan]] | 2026-09-18 |
 
 ## 4. Bibliothèque (`BIB`)
 
