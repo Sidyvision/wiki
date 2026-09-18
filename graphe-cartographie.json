@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 242,
+  "avertissements": 240,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -287,7 +287,7 @@
     },
     {
       "id": "atelier/materiel/technics-su-8080",
-      "label": "Technics SU-8080 — ampli hi-fi vintage hérité",
+      "label": "Technics SU-8080 — ampli hi-fi vintage",
       "circuit": "atelier",
       "sous_dossier": "materiel",
       "type": "materiel",
@@ -298,7 +298,7 @@
         "vintage",
         "technics"
       ],
-      "updated": "2026-08-08",
+      "updated": "2026-09-18",
       "chemin": "atelier/materiel/technics-su-8080.md",
       "lacunes_to_source": 0
     },
@@ -586,7 +586,7 @@
         "ressource",
         "catalogue"
       ],
-      "updated": "2026-09-16",
+      "updated": "2026-09-18",
       "chemin": "atelier/rd/bibliotheque/catalogue-bibliotheque.md",
       "lacunes_to_source": 0
     },
@@ -4613,6 +4613,69 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/out-20-unicite-des-basenames/intent",
+      "label": "OUT-20 — unicité des basenames, garde du wikilink court : intention",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "chantier",
+        "intent",
+        "wikilink",
+        "controle"
+      ],
+      "updated": "2026-09-18",
+      "chemin": "atelier/rd/outillage/out-20-unicite-des-basenames/intent.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/out-20-unicite-des-basenames/plan",
+      "label": "OUT-20 — unicité des basenames, garde du wikilink court : plan",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "chantier",
+        "plan",
+        "wikilink",
+        "controle"
+      ],
+      "updated": "2026-09-18",
+      "chemin": "atelier/rd/outillage/out-20-unicite-des-basenames/plan.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/out-20-unicite-des-basenames/spec",
+      "label": "OUT-20 — unicité des basenames, garde du wikilink court : spécification",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "atelier",
+        "rd",
+        "outillage",
+        "chantier",
+        "spec",
+        "wikilink",
+        "controle"
+      ],
+      "updated": "2026-09-18",
+      "chemin": "atelier/rd/outillage/out-20-unicite-des-basenames/spec.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/outillage/robustesse-documents-persona-llm",
       "label": "Lecture défensive d'un document-persona par un LLM neuf — cas du dispositif Karūbī",
       "circuit": "atelier",
@@ -4793,7 +4856,7 @@
         "chantiers",
         "pilotage"
       ],
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "chemin": "atelier/rd/registre-chantiers.md",
       "lacunes_to_source": 0
     },
@@ -7739,7 +7802,7 @@
         "wilaya",
         "akbarien"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-18",
       "chemin": "doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam.md",
       "lacunes_to_source": 0
     },
@@ -7986,7 +8049,7 @@
         "nombre-28",
         "califat"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-18",
       "chemin": "doctrinal/sources/gilis-ordo-ab-chao.md",
       "lacunes_to_source": 0
     },
@@ -9521,7 +9584,7 @@
         "burckhardt",
         "doctrines-esoteriques"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-18",
       "chemin": "doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt.md",
       "lacunes_to_source": 0
     },
@@ -10360,7 +10423,7 @@
         "table-matieres",
         "symbolisme"
       ],
-      "updated": "2026-08-17",
+      "updated": "2026-09-18",
       "chemin": "doctrinal/sources/transcription-table-matieres-symboles-science-sacree.md",
       "lacunes_to_source": 0
     },
@@ -12828,6 +12891,42 @@
       ],
       "updated": "2026-07-05",
       "chemin": "label/marketing-communication/fanzine.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "label/marketing-communication/site-dans-labsolu",
+      "label": "Site — Dans l'Absolu (organe web)",
+      "circuit": "label",
+      "sous_dossier": "marketing-communication",
+      "type": "marketing-communication",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "dans-l-absolu",
+        "site",
+        "web",
+        "organe-public"
+      ],
+      "updated": "2026-09-18",
+      "chemin": "label/marketing-communication/site-dans-labsolu.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "label/production/album-01",
+      "label": "Album 01 — table normative des slugs",
+      "circuit": "label",
+      "sous_dossier": "production",
+      "type": "production",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "album-01",
+        "slugs",
+        "nomenclature",
+        "table-normative"
+      ],
+      "updated": "2026-09-18",
+      "chemin": "label/production/album-01.md",
       "lacunes_to_source": 0
     },
     {
@@ -16182,6 +16281,48 @@
     {
       "source": "atelier/rd/outillage/out-17-controles-file-et-renvois-skills/spec",
       "target": "atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-20-unicite-des-basenames/intent",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-20-unicite-des-basenames/intent",
+      "target": "atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-20-unicite-des-basenames/plan",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-20-unicite-des-basenames/plan",
+      "target": "atelier/rd/outillage/out-20-unicite-des-basenames/spec",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-20-unicite-des-basenames/spec",
+      "target": "atelier/rd/registre-chantiers",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/outillage/out-20-unicite-des-basenames/spec",
+      "target": "atelier/rd/outillage/out-20-unicite-des-basenames/intent",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -23216,6 +23357,13 @@
     },
     {
       "source": "doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt",
+      "target": "doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt",
       "target": "doctrinal/symboles/hadarat-khams",
       "champ": "cross_links",
       "nature": "lien",
@@ -27920,6 +28068,13 @@
     },
     {
       "source": "label/distribution/strategie-vinyle-300-depositaires",
+      "target": "label/production/album-01",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/distribution/strategie-vinyle-300-depositaires",
       "target": "label/distribution/doctrine-du-don",
       "champ": "links",
       "nature": "lien",
@@ -27941,6 +28096,13 @@
     },
     {
       "source": "label/marketing-communication/fanzine",
+      "target": "label/marketing-communication/site-dans-labsolu",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/marketing-communication/fanzine",
       "target": "label/distribution/merchandising",
       "champ": "liens",
       "nature": "lien",
@@ -27950,6 +28112,27 @@
       "source": "label/marketing-communication/fanzine",
       "target": "label/distribution/merchandising",
       "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/marketing-communication/site-dans-labsolu",
+      "target": "label/marketing-communication/fanzine",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/album-01",
+      "target": "label/distribution/strategie-vinyle-300-depositaires",
+      "champ": "liens",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "label/production/album-01",
+      "target": "label/production/album-personnel",
+      "champ": "liens",
       "nature": "lien",
       "assise": "etabli"
     },
