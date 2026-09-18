@@ -9,6 +9,41 @@ updated: 2026-09-18
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] outillage | Les quatre propositions d'instrument des rapports Studio, exécutées
+
+Consigne de Sidy : « revenons à l'outillage que proposait Studio, tu peux exécuter ».
+Les quatre points restés en attente depuis la passe du matin sont traités.
+
+- **B8 étendu à `status:`** (Studio 09-17). L'angle mort était exact : B8 ne portait que
+  sur `type:`, et `C7` ne regarde `status:` que dans `doctrinal/discernement/`, pour y
+  dire autre chose. Partout ailleurs, une valeur inventée passait — alors que `status:`
+  porte l'**autorité** de la fiche. **Éprouvé par l'échec** (§VII, copie jetable) : vert
+  sur sain → `status: to-source` fabriqué → **refus obtenu**, vocabulaire clos nommé →
+  retrait → vert. La valeur de l'épreuve est celle que Publication avait trouvée dans
+  `textes/` : dans le circuit, elle serait désormais bloquée.
+- **Le graphe publie sa décomposition** (Studio 09-16, P1a). Le compteur « lien mort »
+  agrège plusieurs régimes d'exclusion : il disait vrai en trompant, et la veille
+  refaisait le calcul **chaque matin, à la main**. Sur les 159 du jour : 52 URL, 29 hubs
+  exclus par construction, 24 `raw/`, 20 `textes/`, 15 chemins nus de `sources:`, 13
+  `meta/`, 2 chemins nommés — et **4 cibles réellement absentes**.
+- **`detecter-nouvelles-fiches-rd.sh` réécrit** (Studio 09-16, P3), deux défauts :
+  *(a)* le périmètre ignorait `.gitignore` — **424 fichiers vus pour 251 réels**, 173 de
+  bruit dont les licences de `.whisper-venv/` ; remède identique à `OUT-C2` : interroger
+  git, en vue suivis + non-suivis non-ignorés, car une fiche qui vient d'être écrite est
+  encore non suivie. *(b)* la lecture n'était pas idempotente — l'instantané avançait en
+  fin d'exécution et un second appel du jour rendait « aucune-nouvelle-fiche » ; il
+  n'avance plus qu'une fois par jour, tout appel ultérieur **rejoue**. Vérifié aux trois
+  temps.
+- **`verifier-renvois-skills.py`** (Studio 09-16, P4) — **le signalement n'est pas
+  reproductible** : `default` annonce 11 mentions et en imprime **11**. Mais le rapport
+  avait raison d'être troublé, et la cause a été trouvée : les lignes de détail
+  s'écrivaient **avant** la ligne de résumé de leur propre profil, de sorte qu'on les
+  rattachait au profil précédent — c'est ainsi qu'on en compte 8. L'en-tête précède
+  désormais son détail, chaque ligne porte son profil, et un garde-fou déclare
+  l'incohérence si compte et détail venaient à diverger.
+- **Ligne de base inchangée** : 0 erreur, 71 avertissements, avant et après.
+- **Commits** : 0bfce71, 1dfcf76
+
 ## [2026-09-18] outillage | B9 livré et éprouvé — le wikilink court a enfin sa garde
 
 Étapes 2 à 6 du plan `OUT-20`, exécutées le jour même que son visa.

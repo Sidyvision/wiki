@@ -29,6 +29,27 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] Un rapport dont la mise en page invite à mal l'additionner est un rapport faux
+
+- **Symptôme** : le rapport Studio du 2026-09-16 signalait que
+  `verifier-renvois-skills.py` « annonce 11 mentions manquantes pour le profil `default`
+  et n'en imprime que 8 », les trois lignes `scan-to-verified-corpus` n'apparaissant
+  « que dans le bloc agrégé ».
+- **Diagnostic** : **non reproductible en l'état** — 11 annoncées, 11 imprimées, compté
+  ce jour. Mais le signalement n'était pas une fabulation : les lignes de détail étaient
+  écrites **avant** la ligne de résumé de leur propre profil. Un lecteur qui descend la
+  sortie les rattache au profil imprimé **au-dessus** — et recompte faux, en bonne foi.
+  L'agent avait raison de sentir un écart ; il l'a attribué au compte, alors qu'il était
+  dans l'ordre d'impression.
+- **Résolution** : en-tête de profil avant son détail, nom du profil sur chaque ligne, et
+  garde-fou qui **déclare** l'incohérence si le compte et le détail divergeaient un jour.
+- **Compréhension tirée** : *un rapport juste dans ses nombres peut être faux dans sa
+  lecture.* Même famille qu'`OUT-16`/`OUT-18` (« rapport vrai sur un périmètre faux ») et
+  que la décomposition du compteur « lien mort » livrée le même jour : **l'instrument
+  doit rendre sa sortie inadditionnable de travers**, pas seulement exacte.
+- **Liens** : commit 1dfcf76 ; [[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]].
+- **Statut** : `resolu`.
+
 ## [2026-09-18] Une exception parfaitement à jour était déclarée périmée à chaque commit
 
 - **Symptôme** : à chaque `git commit`, le hook imprimait « **EXCEPTION(S) CADUQUE(S) — 1**,
