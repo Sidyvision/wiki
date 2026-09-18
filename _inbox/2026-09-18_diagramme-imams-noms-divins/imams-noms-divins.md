@@ -242,10 +242,126 @@ conditionné par la misère. Le **العالم المطلق** occupe l'axe.
 
 Ce relevé est **descriptif** : il constate une symétrie portée par la planche. Il ne
 vaut ni qualification de l'une des deux latéralités, ni rapprochement avec les autres
-latéralités droite/gauche du dépôt — lesquelles sont expressément déclarées **non
-superposables** (vigilance consignée aux annales du circuit
-doctrinal, entrée du 2026-08-04 : « trois latéralités droite/gauche non alignées
-— pingalā/iḍā, Imâms akbariens avec inversion, colonnes séphirothiques »).
+latéralités droite/gauche du dépôt, qu'aucun examen n'a superposées.
+
+> ⚠️ **Rectification de mon propre relevé (2026-09-18).** J'avais d'abord invoqué
+> ici la vigilance des annales du 2026-08-04 — « trois latéralités droite/gauche non
+> alignées : pingalā/iḍā, **Imâms akbariens avec inversion**, colonnes séphirothiques ».
+> **Elle ne porte pas sur cette planche.** Vérification faite sur les fiches qu'elle
+> vise : les « Imâms akbariens » y désignent le **ternaire suprême de la Khuṭba** —
+> *Qutb*, Imâm de droite, Imâm de gauche —, où Vâlsan note que « **l'Imâm de gauche
+> est plus élevé en degré** que l'Imâm de droite », d'où le mot *inversion*
+> ([[doctrinal/sources/valsan-investiture-cheikh-al-akbar]],
+> [[doctrinal/sources/ibn-arabi-fard-afrad-gilis]]). C'est une **autre structure**,
+> qui n'a de commun avec celle-ci que le mot *Imâm* : deux Imâms assistant un Pôle,
+> contre sept Imams des Noms. Les confondre serait l'erreur de catégorie la plus
+> facile à commettre ici, et je l'avais commise.
+
+## Rapprochement avec l'Arbre séphirothique — relevé, non instruit
+
+> 🔍 **Suggéré, jamais établi.** Tout lien structurel entre concepts de traditions
+> distinctes exige une fiche `discernement` explicite et un verdict de Sidy (**Cmd 3**).
+> Rien de ce qui suit n'en tient lieu : ce sont des **observations de forme** sur deux
+> figures que le dépôt possède, déposées pour qu'un examen puisse s'ouvrir s'il y a
+> lieu. État : ***kari-kumi***.
+
+**Ce qui motive le relevé** : à la demande de Sidy (2026-09-18), rapprochement cherché
+avec les **sentiers séphirothiques**, et nommément avec
+🔍 [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]]
+— discernement `speculatif`, dont (P1) seul est tranché.
+
+### 1. La planche est nativement une structure de stations et de voies
+
+Ce discernement repose tout entier sur une distinction : **les stations** (Sephiroth,
+*cakra*, degrés) et **les voies** (sentiers, *nâdîs*) — « ce qui relie, et non ce qui est
+relié ». Rapprocher voies avec voies y est dit un rapprochement **de même rang**.
+
+Or la planche porte cette distinction **dans son titre même** : *دوائر ورقائق* —
+**cercles** et **liens subtils**. Elle ne la laisse pas déduire : elle dessine treize
+cercles, trace chaque liaison, et **nomme chacune**. C'est, sur le versant islamique, une
+figure du même genre formel que l'Arbre.
+
+⚠️ **Et c'est là que le relevé doit s'arrêter net.** Le dépôt **ne documente pas les
+22 sentiers** : [[doctrinal/sources/kabbale-10-sefirot-structure]] le dit d'elle-même —
+« la structure complète (3 colonnes, 22 sentiers) n'est **PAS** détaillée dans les
+sources actuelles » —, et la tradition connaît plusieurs arrangements incompatibles du
+tracé, dont aucun n'est fixé ici. **Aucune mise en correspondance des voies n'est donc
+possible aujourd'hui**, ni même esquissable.
+
+### 2. Le comptage est un procédé écarté — et il faut le dire avant d'y penser
+
+La planche porte 23 intitulés de *raqīqa* relevés ; l'Arbre, 22 sentiers. **Ce
+rapprochement n'est pas fait ici, et il ne doit pas l'être.** Le dépôt a écarté la
+recherche de concordances chiffrées **par construction**
+(🔍 [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] — renvoi défensif), et
+le discernement de Tiferet rappelle expressément que c'est « **la pente naturelle de ce
+sujet, et celle qu'il ne faut pas prendre** ». Deux raisons s'y ajoutent, propres à ce
+cas : deux de mes 23 lectures sont **réservées**, et *رقائق الإمداد* est un **pluriel**
+couvrant plusieurs segments — le nombre 23 n'est donc pas même un nombre ferme.
+
+### 3. Ce qui, en revanche, se laisse relever : la latéralité qualitative
+
+| | Arbre séphirothique | Planche des Imams |
+|---|---|---|
+| **droite** | colonne de la **Miséricorde** (Ḥokhma, Ḥesed, Netzaḥ) | **سدنة الرضى**, les gardiens de l'**Agrément** |
+| **gauche** | colonne de la **Rigueur** (Bina, Gevurah/Din, Hod) | **سدنة الغضب**, les gardiens de la **Colère** |
+| **milieu** | colonne de l'**Équilibre** (Kether, Tiferet, Yesod, Malkhut) | le **cercle central**, qui porte des Noms des **deux** côtés |
+
+Les trois qualifications concordent, et la planche va plus loin que la juxtaposition :
+elle fait **se recouper** ses listes — **المنعم** figure à la fois au centre et à droite,
+**المذل** et **الضار** à la fois au centre et à gauche. Le cercle du milieu ne se tient
+pas entre les deux versants, il **participe des deux**. Et la liaison qui l'atteint porte
+un nom qui dit exactement cela : **رقيقة الجمع بين النفع والضرر**, *le lien subtil de la
+réunion du profit et du dommage*.
+
+C'est la fonction que l'Arbre attribue à sa colonne du milieu, et à **Tiferet** en son
+centre. La concordance est **qualitative et fonctionnelle**, non numérique — et c'est
+précisément ce qui la rend relevable sans tomber dans le procédé écarté du §2.
+
+### 4. Ce qui ne concorde pas, et qu'il faut poser avec la même netteté
+
+1. **Ce que portent les voies.** Côté kabbalistique, les 22 sentiers portent les **22
+   lettres**. Côté planche, les *raqāʾiq* portent des **أحكام** — des *jugements*,
+   des opérations : ordre, justice, spécification, profit, dommage. Le titre de la
+   planche le dit : *أحكام أئمة الأسماء*. Différence de **nature**, non d'arrangement.
+2. **Il n'y a pas de station centrale cardiaque sur l'axe.** L'axe de la planche est
+   occupé par الحي au sommet, le cercle central des *sadana*, puis العالم المطلق — et
+   entre eux, **rien que des *raqāʾiq***. Le 6ᵉ Imam, **الجواد**, n'est pas au milieu :
+   il est à droite. Chercher un « Tiferet » de la planche en comptant jusqu'à six
+   **ne donne rien** ; ce qui remplit la fonction médiane, c'est le cercle central des
+   *sadana*, qui ne porte aucun rang.
+3. **Le nombre de stations diffère** (13 cercles contre 10 Sephiroth) et, comme au §2,
+   ce n'est pas un argument — c'est un rappel que les découpages ne se superposent pas,
+   ce que [[doctrinal/sources/kabbale-10-sefirot-structure]] consigne déjà pour les
+   cinq Présences (« non-superposition des découpages, 10 ≠ 5 »).
+
+### 5. Une observation à traiter avec méfiance, parce qu'elle a déjà trompé une fois
+
+Le point 1 du §4 — les lettres sur les voies d'un côté, les jugements de l'autre — a la
+forme d'une **inversion du lettrique**. Or le discernement de Tiferet a posé une
+inversion de ce genre entre Kabbale et Tantra, puis l'a **retirée le jour même** : elle
+était « un artefact de mon propre découpage », non une donnée des sources. Le dépôt sait
+donc, par un précédent daté, que ce type d'observation est **le plus sujet à l'illusion
+de forme**.
+
+Elle est donc consignée **comme signalement, avec son avertissement attaché** — et une
+raison de plus de s'en méfier : l'autre structure islamique que le dépôt possède, les
+**28 degrés du *nafas al-raḥmān*** ([[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]),
+met les **lettres sur les degrés**, c'est-à-dire sur les **stations**. Deux figures
+islamiques, deux placements différents : de quoi interdire toute généralisation sur « le
+côté islamique ».
+
+### 6. Ce qu'il faudrait, et dans quel ordre
+
+1. **Fixer l'arrangement des 22 sentiers sur source** — chantier déjà ouvert au dépôt
+   (état des lieux du 2026-08-20), et préalable à tout le reste.
+2. **Établir le rattachement primaire de la planche** (`to-source`, ci-dessous) : sans
+   texte, un rapprochement porterait sur une pièce éditoriale, non sur une doctrine.
+3. **Alors seulement**, et si Sidy l'ouvre, instruire en fiche `discernement` la seule
+   proposition que le présent relevé dégage : *le cercle central des sadana et la
+   colonne du milieu remplissent une même fonction de réunion des deux versants*.
+   Proposition **testable et réfutable** — elle tombe si le rattachement primaire
+   donne à la planche une autre économie.
 
 ## Écart relevé avec la rédaction du 2026-06-20
 

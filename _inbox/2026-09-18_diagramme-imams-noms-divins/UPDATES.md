@@ -12,8 +12,8 @@
 | # | Pièce du sas | Cible proposée | Nature |
 |---|---|---|---|
 | 1 | `imams-noms-divins.md` | `doctrinal/symboles/imams-noms-divins.md` | **réécriture** d'une fiche existante (`created: 2026-06-20` préservé) |
-| 2 | `haqaiq-al-hadra-al-ilahiyya.jpg` | `doctrinal/symboles/assets-imams-noms-divins/` | **versement d'une pièce graphique** (287 Ko) — verdict demandé au §7 |
-| 3 | `gloton-figure-7-p97.jpg` | `doctrinal/symboles/assets-imams-noms-divins/` | **pièce graphique RETENUE, non versionnée** (1,0 Mo) — photographie fournie par Sidy le 2026-09-18, §2 bis et §7 bis |
+| 2 | `haqaiq-al-hadra-al-ilahiyya.jpg` | `doctrinal/symboles/assets-imams-noms-divins/` | ✅ **VERSÉE** (287 Ko) — verdict de Sidy du 2026-09-18 |
+| 3 | `gloton-figure-7-p97.jpg` | `doctrinal/symboles/assets-imams-noms-divins/` | ✅ **VERSÉE** (1,0 Mo) — photographie fournie par Sidy le 2026-09-18, §2 bis |
 | 4 | bloc du §6 ci-dessous | `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton.md` | **enrichissement, ajout seul** — une entrée dans « À transcrire ultérieurement » |
 
 Origine : consigne de Sidy du 2026-09-18 — « fais l'ingest de ce diagramme », avec deux
@@ -101,9 +101,14 @@ droite et المقسط/Répartiteur à gauche — ce rang concorde. En pied, ell
 la planche arabe met النار à gauche et الجنة à droite, la Figure 7 met **Le Jardin à
 gauche et Le Feu à droite**. Deux raisons interdisent d'en conclure quoi que ce soit :
 la Figure 7 **ne trace aucun segment**, de sorte que sa disposition peut n'être que
-typographique ; et les annales du 2026-08-04 ont **déjà** déclaré ces latéralités non
-superposables, « **Imâms akbariens avec inversion** » nommément. L'observation rejoint
-une vigilance ouverte, elle ne la referme pas.
+typographique ; et aucun examen du dépôt n'a superposé ces latéralités.
+
+⚠️ **Rectification (même jour, §2 ter).** J'avais invoqué à l'appui la vigilance des
+annales du 2026-08-04 (« Imâms akbariens avec inversion »). **Elle ne porte pas sur
+cette planche** — elle vise le ternaire de la Khuṭba, *Qutb* + Imâm de droite + Imâm de
+gauche, où Vâlsan note que l'Imâm de gauche est le plus élevé. Deux structures que seul
+le mot *Imâm* rapproche. La citation est retirée de la fiche et remplacée par cette
+distinction, qui vaut mieux que l'appui qu'elle prétendait donner.
 
 ## 3. Ce qui a été lu sur la planche, et comment
 
@@ -233,6 +238,70 @@ Deux gestes, tous deux en **ajout seul**, et `updated:` à remonter au 2026-09-1
 source et ne touche à aucune de ses transcriptions. La Figure 7 **ne lève pas** le
 `to-source` de la planche arabe (§7 c ci-dessous).
 
+## 6 bis. Rapprochement kabbalistique — ce que la recherche a rendu
+
+Consigne de Sidy (2026-09-18) : chercher une relation avec les **sentiers de la Kabbale**,
+« notamment ce que nous avions vu au sujet des sentiers de Tiferet ». La pièce visée
+existe : 🔍 [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]]
+(`speculatif`, **(P1) tranché le 2026-08-30** — sentiers séphirothiques et *nâdîs* sont
+deux projections complémentaires d'un même réseau, *kumiko* ; **(P2) non rendu**).
+
+Le relevé complet est porté à la fiche, section « Rapprochement avec l'Arbre
+séphirothique ». Résumé de ce qui s'y trouve, et surtout de ce qui **ne** s'y trouve pas.
+
+**Ce qui se relève (🔍, *kari-kumi*)** :
+
+1. **La planche est nativement une structure de stations et de voies** — *دوائر ورقائق*
+   dans son titre même —, c'est-à-dire du même genre formel que l'Arbre, sur le versant
+   où le discernement de Tiferet fait porter toute sa distinction.
+2. **La latéralité qualitative concorde sur ses trois termes** : droite = Miséricorde /
+   **سدنة الرضى** ; gauche = Rigueur / **سدنة الغضب** ; milieu = Équilibre / le cercle
+   central, qui porte des Noms **des deux** côtés (المنعم avec la droite, المذل et الضار
+   avec la gauche) et dont la liaison se nomme **رقيقة الجمع بين النفع والضرر**, *le lien
+   de la réunion du profit et du dommage*. C'est la fonction que l'Arbre donne à sa
+   colonne du milieu et à **Tiferet** en son centre.
+
+**Ce qui est refusé, et dit avant d'y penser** : la planche porte 23 intitulés relevés,
+l'Arbre 22 sentiers. **Le rapprochement n'est pas fait.** La recherche de concordances
+chiffrées est écartée **par construction** au dépôt, et le discernement de Tiferet
+nomme cette pente « celle qu'il ne faut pas prendre ». Deux raisons propres s'y ajoutent :
+deux de mes 23 lectures sont **réservées**, et *رقائق الإمداد* est un **pluriel** — 23
+n'est pas même un nombre ferme.
+
+**Ce qui ne concorde pas, posé avec la même netteté** : les sentiers portent des
+**lettres**, les *raqāʾiq* des **أحكام** (jugements) — différence de nature ; et **il n'y
+a pas de station centrale cardiaque sur l'axe** de la planche, le 6ᵉ Imam (**الجواد**)
+étant à droite et non au milieu. Chercher un « Tiferet » en comptant jusqu'à six ne
+donne rien.
+
+**Un signalement assorti de son avertissement** : que les voies portent des lettres d'un
+côté et des jugements de l'autre a la forme d'une **inversion du lettrique**. Le
+discernement de Tiferet a posé une inversion de ce genre, puis l'a **retirée le jour
+même** — « un artefact de mon propre découpage ». Le précédent est daté ; l'observation
+est donc consignée comme signalement, jamais comme appui. Et l'autre structure islamique
+du dépôt, les **28 degrés du *nafas al-raḥmān*** (même ouvrage de Gloton), met les
+lettres sur les **stations** : de quoi interdire toute généralisation sur « le côté
+islamique ».
+
+**Blocage de fond, inchangé** : le dépôt **ne documente pas les 22 sentiers** —
+[[doctrinal/sources/kabbale-10-sefirot-structure]] le dit d'elle-même — et la tradition
+en connaît plusieurs arrangements incompatibles. **Aucune mise en correspondance des
+voies n'est possible aujourd'hui.**
+
+**Une erreur de ma part, rectifiée en chemin** (§2 ter) : j'avais invoqué la vigilance
+des annales du 2026-08-04, « Imâms akbariens avec inversion », comme si elle portait sur
+cette planche. Elle vise le **ternaire de la Khuṭba** (*Qutb* + Imâm de droite + Imâm de
+gauche), une autre structure que seul le mot *Imâm* rapproche des sept Imams des Noms.
+La citation est retirée des deux pièces et remplacée par la distinction.
+
+**Ce que je ne fais pas** : ouvrir une fiche `discernement`. Un lien structurel entre
+traditions l'exige (Cmd 3), mais il exige aussi un verdict, et deux préalables manquent —
+l'arrangement des sentiers et le rattachement primaire de la planche. La proposition
+qu'un examen aurait à instruire est formulée en fin de section : *le cercle central des
+sadana et la colonne du milieu remplissent une même fonction de réunion des deux
+versants* — testable, et réfutable si le rattachement primaire donne à la planche une
+autre économie.
+
 ## 7. Trois verdicts demandés à Sidy
 
 **(a) Les deux pièces sont-elles versées au dépôt, et où ?** La règle de coupe est le
@@ -272,29 +341,30 @@ des sept Imams suffit à rattacher la planche, c'est un verdict qui lui revient 
 discipline des sources, point 2 : la levée du marqueur n'appartient jamais à la
 machine).
 
-## 7 bis. La photographie de la p. 97 n'est pas poussée — et pourquoi
+## 7 bis. Les deux pièces sont versées — verdict rendu
 
-**État exact** : `gloton-figure-7-p97.jpg` est présente dans le sas **sur le serveur**,
-non suivie par git, donc **absente du dépôt distant et d'Obsidian**. Les deux `.md` du
-lot, eux, sont poussés.
+**Verdict de Sidy, 2026-09-18** : « Tu peux verser aux assets doctrinal, pas raw. »
+Le §7 (a) est donc **tranché**, et exécuté : `doctrinal/symboles/assets-imams-noms-divins/`
+contient désormais `haqaiq-al-hadra-al-ilahiyya.jpg` (287 Ko) et
+`gloton-figure-7-p97.jpg` (1,0 Mo).
 
-**Motif** : la tentative de push de la pièce a été **refusée par le garde-fou du poste
-d'intégration**, au motif d'une publication hors de propos. La planche arabe (287 Ko,
-Ibn al-Arabi Foundation) était passée au commit précédent ; la photographie d'une **page
-d'un ouvrage sous droits** (Albouraq) ne passe pas. Le refus n'a pas été contourné : la
-pièce a été **retirée du commit**, non le contrôle désarmé.
+**Ce que le versement rend vrai** : les chemins relatifs cités en prose dans la fiche
+résolvent **une fois la fiche à sa place** (`doctrinal/symboles/`). Tant qu'elle attend
+au sas, les deux pièces sont en place et la fiche ne l'est pas — état transitoire, à
+refermer par le verdict (b).
 
-**Conséquence à connaître** : la fiche cite
-`assets-imams-noms-divins/gloton-figure-7-p97.jpg` en prose. Tant que le verdict du §7 (a)
-n'est pas rendu, **ce chemin ne résout pas** — la mise en regard reste intégralement
-lisible (elle est écrite, non déduite de l'image), mais sa pièce justificative manque au
-lecteur distant. C'est un **écart déclaré, non comblé** (Cmd 12).
+**Rappel du refus antérieur, pour mémoire et non comme obstacle** : une première
+tentative de pousser la photographie de la p. 97 avait été refusée par le garde-fou du
+poste d'intégration (publication d'une page d'ouvrage sous droits). Le refus n'avait pas
+été contourné — la pièce avait été retirée du commit et l'écart déclaré. **Le verdict de
+Sidy lève la question** : le dépôt est privé, l'usage est d'étude, et la décision
+appartenait à l'humain (Cmd 13), non à la machine.
 
-**Ce qui lèvera l'écart, au choix de Sidy** : autoriser le versement tel quel ; verser
-une version **recadrée sur la seule page et recompressée** (la prise de vue montre
-l'étagère, et 1,0 Mo est disproportionné pour un texte de cette lisibilité) ; ou ranger
-les **deux** pièces en `raw/assets/`, hors git — auquel cas le chemin cité dans la fiche
-doit être corrigé en conséquence à l'intégration.
+**Deux réserves de forme maintenues, sans effet bloquant** : la photographie de la p. 97
+pèse 1,0 Mo et montre l'environnement de la prise de vue (main, étagère). Elle est versée
+**telle que reçue** — recadrer ou recompresser une pièce reçue sans qu'on l'ait demandé
+serait altérer un document, et le gain de poids ne le justifie pas. Le recadrage reste
+disponible sur un mot de Sidy.
 
 ## 8. Signalement annexe (Cmd 9, non corrigé)
 
