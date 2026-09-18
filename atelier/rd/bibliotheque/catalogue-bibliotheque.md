@@ -3,7 +3,7 @@ title: "Catalogue de la bibliothèque physique de travail"
 type: ressource
 tags: [bibliotheque, lectures-suggerees, ressource, catalogue]
 created: 2026-06-28
-updated: 2026-09-16
+updated: 2026-09-18
 sources: []
 links: []
 ---
@@ -48,6 +48,7 @@ déviations modernes.*
 - *La Crise du monde moderne* (Gallimard) — diagnostic du Kali-Yuga.
 - *Formes traditionnelles et Cycles cosmiques* (Gallimard) — directement lié aux calculs cycliques de l'app.
 - *Orient et Occident* (1924) — **en possession, non converti** (recensé le 2026-09-05). Complément de *La Crise du monde moderne*, signalé par Sidy comme le plus instructif sur l'apologétique et sur l'alignement idéologique de ceux qui cherchent l'approbation des institutions modernes. Voir [[atelier/rd/cahiers/2026-09-05_critere-discernement-statut-academique]].
+- *Aperçus sur l'Ésotérisme islamique et le Taoïsme* (recueil posthume, Gallimard) — **en possession, converti au dépôt** (recensé le 2026-09-18, sur signalement du rapport Publication du 2026-09-17). Pièce au dépôt : `textes/apercus-sur-l-esoterisme-islamique-et-le-taoisme/` (14 fichiers convertis et versionnés ; originaux en `raw/`). Porte la recension de W. B. Seabrook, *Aventures en Arabie* (*É.T.* 1935) et le ch. V « Er-Rûh ». Attestation : œuvre intégrale de Guénon déclarée possédée (2026-07-28).
 - *Comptes Rendus* (Éditions Traditionnelles) — modèle méthodologique pour VIGILANCE.
 
 ### Gaston Georgel (disciple guénonien, doctrine des cycles appliquée à l'histoire)
@@ -83,6 +84,7 @@ déviations modernes.*
 - *Le Coran : Essai de traduction*, Maurice Gloton (Albouraq) — priorité pour l'extraction des racines sémantiques arabes.
 - **Maurice Gloton** — *Une approche du Coran par la grammaire et le lexique* — « 2500 versets traduits · Lexique coranique complet », avant-propos de **Mahmoud Azab** et **Pierre Lory** (Albouraq ; apparat établi sur cliché de couverture, 2026-08-30) — **Pages photographiées et transcrites** : **p. 412** (racines ر ف د / ر ف ر ف / **ر ف ع**, entrées 0578-0580 ; la racine de l'élévation compte 29 occurrences coraniques) et **p. 857** (« Classement des sourates, leur nom et le nombre de leurs versets » — pièce **documentaire et d'orientation**, §VII.1 : elle sert à savoir où chercher et à recouper des renvois, elle ne lève aucun `to-source`), 2026-08-30. Transcriptions versées à la fiche source du circuit doctrinal (consultation humaine, sens `atelier/rd/` → `doctrinal/` signalé).
 - **Al-Jurjânî** (trad. M. Gloton) — *Le Livre des Définitions* (Albouraq) — dictionnaire technique de référence pour valider les termes du Tasawwuf. **Pages photographiées et transcrites** : p. 134, p. 280-281 (2026-08-25) ; **p. 47 (déf. 0034-0036, les corps) et p. 441 (déf. 1652-1656, Royauté/Souveraineté), 2026-08-30** — ces deux dernières corroborent la place du Trône et du Piédestal dans la hiérarchie cosmologique akbarienne. Transcriptions versées à la fiche source du circuit doctrinal (consultation humaine, sens `atelier/rd/` → `doctrinal/` signalé). **2026-09-01 — corps des définitions** : les 54 clichés de `raw/Transcription Jurjani/` transcrits intégralement, soit 52 pages non contiguës (p. 41-42, 49, 68, 80, 99, 107-108, 111-112, 162, 178, 196, 217-218, 255, 261, 268, 270, 276-277, 298, 327, 331, 333, 361, 390, 392-395, 403-407, 414-415, 422-423, 426-427, 447-450, 453, 460, 492-493, plus les ouvertures des lettres Râʾ et Nûn), **205 définitions**, plus 15 définitions hors clichés (déf. 0561-0567, **page non indiquée par la source** ; déf. 1235-1242, **à partir de la p. 336** — provenance plus faible, à collationner). Total 220, de 0010 à 1864.
+- **Muhammad al-Jazûlî** — *Dalâ'il al-Khayrât wa Shawâriq al-Anwâr* — **édition arabe en possession** (recensée le 2026-09-18, sur signalement du rapport Publication du 2026-09-16). Compilation Rabita, comprenant également *Tuḥfat al-Labīb fī madḥ awṣāf al-Ḥabīb* (al-Hasan al-Maymūnī), le *Duʿāʾ al-Nāṣirī* (Muhammad ibn Nâsir al-Darʿî) et la *Ṣalāt al-Mashīshiyya* (ʿAbd al-Salām ibn Mashīsh). P. 42 vérifiée sur photographie de l'exemplaire (2026-07-14).
 
 ### Ibn ʿArabî et son école
 - *De la mort à la résurrection* (trad., introduction et annotation Maurice Gloton, Albouraq, coll. « Héritage Spirituel ») — CONFIRMÉ (2026-07-01). Texte primaire d'Ibn ʿArabî ; le diagramme de couverture présente la table des 28 degrés cosmologiques (lettres arabes × degrés de manifestation) — source primaire directe pour [[doctrinal/symboles/table-28-degres-nafas-rahman]].
@@ -113,6 +115,7 @@ déviations modernes.*
 - *Lettre au disciple* (*Ayyuhal Walad*)
 
 ### Études, filiations contemporaines, commentateurs occidentaux
+- **La Gnose** (revue ; numéro de décembre 1911 cité au dépôt) — **collection intégrale en volume, en possession** (recensée le 2026-09-18, sur signalement du rapport Publication du 2026-09-17) `#a-revoir` — années de parution, numéros et pagination à relever sur les volumes. Première entrée de **périodique** du catalogue. Y parut le *Tartîbut-Taçawwuf* d'Ibn ʿArabî traduit par **Abdul-Hâdî** (Ivan Aguéli) ; la suite du traité est récupérable sur la collection physique.
 - **Michel Vâlsan** (*Mustafâ ʿAbd al-ʿAzîz*) — *L'Islam et la fonction de Michel Vâlsan* (Science Sacrée) `#a-revoir` — régularité de la greffe du Tasawwuf en Occident.
 - **Charles-André Gilis** (*ʿAbd ar-Razzâq Yahyâ*) — *L'Arbre de Lumière* ; *Métaphysique de la Zakât* (coll. Le Turban Noir) ; *Les Sept étendards du Califat* (Paris, 1993) ; *La profanation d'un texte sacré*
 - **Charles-André Gilis** — *Ordo ab Chao — La Franc-Maçonnerie dans la lumière du Prophète* (Albouraq, ISBN 2-84161-222-8, 9 chapitres) — chap. VIII « La Disgrâce du Pharaon » (p. 99-105) : Pharaon/*fard*, nombre 28, 406=*Firʿawn* (Omission de recension initiale, ajouté 2026-07-10)
@@ -178,6 +181,7 @@ déviations modernes.*
 - **Céline** — *Voyage au bout de la nuit* / *Nord* (Folio)
 - **Edward Snowden** — *Mémoires vives*
 - **Dan Brown** — *Le Secret des Secrets*
+- **Louis Alexandre Olivier de Corancez** — *L'Histoire des Wahabis et la naissance du Royaume Saoudien* (Albouraq, coll. « Études » ; préface de Hamadi Redissi) `#a-revoir` — **en possession** (recensé le 2026-09-18, sur signalement du rapport Publication du 2026-09-17) ; table des matières et extraits transcrits par lecture de photographies (2026-08-09), **à recouper avec le texte imprimé**. Corancez fut consul de France à Alep puis à Bagdad au début du XIXe siècle : son texte est un témoignage contemporain direct, distinct de l'appareil critique éditorial moderne qui l'accompagne.
 
 ---
 
