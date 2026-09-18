@@ -9,6 +9,43 @@ updated: 2026-09-18
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] chantier | OUT-20, étape 1 : la mesure renverse la prémisse du chantier
+
+Visa de Sidy (« Je valide l'ensemble, tu peux engager ») pris pour ce qu'il est : le visa
+du `plan.md` d'`OUT-20` (Cmd 6). Son **étape 1 est exécutée** — mesurer avant d'écrire une
+ligne. Les étapes 3 à 6 restent suspendues aux deux verdicts de l'étape 2.
+
+- **Défaut de tenue, déclaré plutôt que masqué** : cette matière a été emportée par le
+  commit `1d1c1d1`, dont le message ne décrit que le correctif Cmd 15 — mes écritures
+  d'`OUT-20` étaient restées **indexées** quand j'ai commité l'autre lot. Le commit est
+  poussé : je ne réécris pas l'historique (Cmd 10), je le dis ici, et les deux entrées
+  d'annales le citent toutes deux.
+- **La prémisse du chantier est fausse, et c'est la mesure qui le montre.** Sur **1760
+  fichiers suivis, 1667 basenames distincts** : **17 collisions existent déjà entre
+  circuits**. La mesure du matin (« 589 renvois courts, 0 ambiguïté ») portait sur les
+  *renvois* et reste exacte ; elle ne disait rien des *fichiers*.
+- **Les 17, par classe** : **12** sont la trace voulue de la migration du 2026-08-08
+  (`atelier/projets/` garde le stub `deprecated` face à la fiche vivante de `rd/`,
+  Cmd 10) ; **4** sont la paire `doctrinal/autorites/` ↔ `doctrinal/references/` d'une
+  même personne (`al-afghani`, `muhammad-abduh`, `rashid-rida`, `curt-jaimungal`) ; **1**
+  est `album-personnel` (migration vers `label/`). **Aucune n'est visée par un renvoi
+  court** — d'où les 589 sans ambiguïté.
+- **Le seul cas vivant du risque vient d'ailleurs, et il est au dépôt aujourd'hui** :
+  `_inbox/2026-09-17_corbeau-en-reve/tariqa.md` double `doctrinal/symboles/tariqa.md`,
+  basename que **cinq fiches doctrinales** visent en forme courte. Le graphe exclut
+  `_inbox/` de ses nœuds, donc rien n'a cassé — mais la démonstration n'est plus
+  théorique : **un lot entrant peut doubler un basename visé par des renvois courts sans
+  que rien ne le signale.** `_inbox/` n'était pas au périmètre prévu du contrôle.
+- **Ce que la mesure impose aux deux verdicts** : un refus sec échouerait **17 fois dès
+  la première exécution**, sur des doublons voulus ; et inclure `textes/` ajouterait 15
+  collisions par construction (`index-conversion` × 10, `corps-du-texte` × 3, deux
+  dictionnaires découpés par lettre).
+- **`CLAUDE.md` §IV corrigé en conséquence** : la règle ne dit pas « les basenames sont
+  uniques » — elle dit que **la forme courte n'est sûre que sur un basename unique**, et
+  la mesure des 17 y est inscrite pour qu'on ne lise pas l'inverse. **B9 n'existe
+  toujours pas.**
+- **Commit** : 1d1c1d1 (mêlé au correctif Cmd 15, voir ci-dessus)
+
 ## [2026-09-18] outillage | Le contrôle du Cmd 15 jugeait une exception qu'il n'avait pas lue
 
 Troisième passe du jour, sur consigne « je valide l'ensemble, tu peux engager ».
