@@ -20,8 +20,9 @@ Paris), paru dans *Le Voile d'Isis* / *Études Traditionnelles*, **1935, pp. 42-
 Repris dans le recueil posthume *Aperçus sur l'Ésotérisme islamique et le Taoïsme*.
 
 Exemplaire en collection (Sidy possède l'œuvre intégrale de Guénon, confirmé
-2026-07-28). Le recueil est à ajouter à `atelier/rd/bibliotheque/catalogue-bibliotheque.md`
-(recension en attente de verdict, signalée le 2026-09-18).
+2026-07-28). Le recueil est recensé au catalogue de la bibliothèque physique
+(`atelier/rd/bibliotheque/catalogue-bibliotheque.md`, §I, verdict de Sidy du
+2026-09-18).
 
 > ⚠️ **Pagination `to-source`** — la référence *E.T.*, 1935, pp. 42-43 est celle de la
 > parution en revue. La pagination correspondante dans le recueil reste à relever sur
