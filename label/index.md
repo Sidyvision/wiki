@@ -3,7 +3,7 @@ title: "Index — Circuit Label (Dans l'Absolu)"
 type: index
 tags: [label, index, entreprise]
 created: 2026-07-05
-updated: 2026-09-15
+updated: 2026-09-18
 ---
 
 # Circuit Label — Index
@@ -41,6 +41,7 @@ Direction artistique, production, distribution, et communication du label.
 
 ### Œuvre
 - [[label/production/album-personnel|Album personnel — home studio et production]] (`en-cours`)
+- [[label/production/album-01|Album 01 — table normative des slugs]] (`idee`, vide à ce jour)
 
 ---
 
@@ -48,6 +49,7 @@ Direction artistique, production, distribution, et communication du label.
 
 ### Fanzine et présence publique
 - [[label/marketing-communication/fanzine|Fanzine *Dans l'Absolu* — organe public du label]] (publication)
+- [[label/marketing-communication/site-dans-labsolu|Site *Dans l'Absolu* — organe web]] (`idee`)
 
 ---
 
