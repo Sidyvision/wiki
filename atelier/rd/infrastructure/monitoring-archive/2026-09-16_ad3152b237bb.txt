@@ -1,0 +1,207 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+```
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-16 (run 09:00 UTC)
+Profil : publication
+Canal : #infrastructure
+```
+
+## §1 — FRONTMATTER CONFORMITY
+
+**Sortie brute de `verifier-invariants.py --racine /root/wiki`** (stdout intégral conservé : `/tmp/inv-2026-09-16.txt`, 77 lignes) :
+
+```
+1738 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+AVERTISSEMENTS :
+  [C6] doctrinal/symboles/cinq-noms-ame.md:62 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/symboles/fal-wa-tatayyur.md:26 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [… 68 lignes de même classe, intégral dans /tmp/inv-2026-09-16.txt …]
+  [C6] doctrinal/autorites/rene-guenon.md:49 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+
+0 erreur(s), 71 avertissement(s).
+```
+
+**Histogramme mécanique** : `26 × [C5]` + `45 × [C6]` = 71 · **0 `[C1]`**, **0 `[C7]`**, **0 erreur** · **38 fichiers distincts** (`traite-emanation-gauche-isaac-ha-kohen.md` 8, `rene-guenon.md` 6, `khatm.md` 4…). Classe unique, déjà tranchée (verdict Sidy 2026-09-10, `7bef4e1`) : pas de passage en erreur.
+
+**Delta vs veille du 2026-09-15** (rapport archivé `atelier/rd/infrastructure/monitoring-archive/2026-09-15_ad3152b237bb.txt`) :
+
+| | 09-14 | 09-15 | **09-16** | Δ 15→16 |
+|---|---|---|---|---|
+| fichiers .md contrôlés | 1535 | 1588 | **1738** | **+150** |
+| erreurs | 0 | 0 | **0** | 0 |
+| avertissements | 71 | 71 | **71** | **0** |
+| répartition | 26 C5 + 45 C6 | 26 C5 + 45 C6 | **26 C5 + 45 C6** | identique |
+| fichiers distincts | 38 | 38 | **38** | identique |
+
+Δ de périmètre entièrement expliqué : `git diff --name-status --diff-filter=A da2db39..HEAD` → **150 `.md` ajoutés** (79 commits depuis hier). **Attention : comparaison plus tout à fait à script constant** — `verifier-invariants.py` a reçu **+14 lignes** au commit `30c8c17` (09-15 20:39, contrôle **B8** : `type:` hors liste du Sceau). Le script a donc changé depuis le rapport d'hier, et **le total ne bouge pas** : B8 est muet sur l'état courant. Son refus a bien été vu (annales `atelier/annales.md:347`, épreuve en clone jetable : `type: etude-inventee` **refusé**) — l'épreuve des contrôles est satisfaite pour cette garde.
+
+### Couche sémantique (ce que le script ne voit pas)
+
+- **YAML invalide : 0** (parsing strict des 1739 `.md` suivis).
+- **`sources_count` vs `sources:` — 1 écart, NOUVEAU, hors doctrinal** : `textes/autres-ressources/sept-etendards-califat-transcription.md` — `sources_count: 1` (l. 10) sans **aucun** champ `sources:`. L'écart d'hier (`meta/journal/2026-06-18-tawakkul-transition.md`) est **CLOS** — voir §2, signalement A.
+- **Wikilinks de frontmatter : 2451 liens** (1860 en forme chemin, 591 en forme courte). **6 cibles non résolues** :
+  • `chatgpt-synthese-kamon-kouyate-2026-09-15` ×5 — **non-faute** : lot nominatif `raw/`, label de provenance qui ne résout pas par décision (`meta/CLAUDE.md`, « Lots nominatifs », point 3).
+  • **NOUVEAU** `meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md` ×2 — cible **absente**, citée par `atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16.md` et `canal-telegram-wendel-2026-08-21.md`.
+  • **NOUVEAU** `doctrinal/sources/body-types` ×1 — cible **absente**, citée par `doctrinal/autorites/aiman-attar.md` (la pièce existe en `raw/Body_Types_Book.pdf`).
+  • **NOUVEAU** `meta/2026-06-20_signature-kouyate` ×1 — cible **absente**, citée par `meta/genealogie/2026-06-20_oiseau-serpent-jumeau.md`.
+  • `label/production/album-01` ×1 (`label/distribution/strategie-vinyle-300-depositaires.md:20`) — **signalé le 09-15, non tranché** ; `label/CLAUDE.md:32` renvoie au même fichier absent.
+  • `label/marketing-communication/site-dans-labsolu` ×1 (`label/marketing-communication/fanzine.md:19`) — **signalé le 09-15, non tranché**.
+  Les 591 liens en forme courte se résolvent **tous** par basename (2 exceptions : le lot nominatif ci-dessus, `CLAUDE.md`).
+- **Étanchéité §VI — sens interdits : 0 partout.** `doctrinal/ → hermeneutique/` : 0 · `atelier/materiel|entretiens/ → doctrinal/` : 0 · `doctrinal/ → label/` : 0 · `label/|hermeneutique/ → meta/` : 0.
+  • `atelier/ → label/` : **69 wikilinks / 23 fichiers** (dont 36 dans l'artefact dérivé `atelier/rd/outillage/index-lexical/condense/*.md`, `type: artefact-derive`, et 6 dans `monitoring-archive/registre-traitement.md`). **Correction de méthode à porter au compte d'hier** : les 132 annoncés le 09-15 étaient gonflés par l'inclusion de `index-lexical.json` (artefact **non-`.md`**, hors périmètre du script) ; en `.md` seul, il y a **148** occurrences de `[[label/…]]` dans 41 fichiers, dont 69 depuis `atelier/`. Le fond du signalement (le script exempte `index.md`/`annales.md`, pas les artefacts dérivés ni les registres) reste valide.
+- **Faits personnels en circuit neutre — signalement d'hier CLOS, un report persistant.**
+  • **CLOS par `e8733c4`** (« RESTAURATION: §VI — données natales retirées des pages neutres (12 brouillons zodiacaux + README, discernement Fard)… — verdicts de Sidy sur le rapport Publication du 2026-09-15 ») : la chaîne `23 juin 1986` / `Bobigny` / `19h30` / `Placidus` **ne remonte plus nulle part** dans le dépôt ; ne subsiste que le mot « natal », dans la phrase même qui déclare le retrait (`atelier/rd/cahiers/brouillons-extension-zodiacale/README.md`, `01-ar-music-aries.md:18-19`).
+  • **REPORTÉ (3ᵉ jour, inchangé)** — `atelier/materiel/technics-su-8080.md:21` : « récupéré par Sidy auprès de sa famille ». Signalé le 09-14, non instruit.
+- **Hygiène Unicode (Cmd 15)** : **0** occurrence de U+200B/200C/200D/FEFF/200E/200F sur les 1739 `.md` suivis.
+- **Sans frontmatter** : 220 fichiers — dont **162 sous `textes/`** (cabinet de lecture, exempté B0 par ligne nommée), 10 sous `protocoles/` (même exemption), 33 prompts `meta/projet-unifie/hermes-prompts/`, 3 fiches de `meta/`, 1 `README.md`, 1 `CLAUDE.md`.
+- **Surface publication** : `grep -rn '^publication:'` → **0 occurrence** ; statuts `label/` : **6 `en-cours`, 3 `en-gestation`, 2 `idee`**. **File du mandat site-orchestration vide.**
+
+---
+
+## §2 — DOCUMENTARY INVESTIGATION
+
+**Sélection, et un fait de contexte décisif.** Le commit `051d30d` (« RESTAURATION: convention des sources — 60 fiches doctrinales de `sources: []` à `["to-source"]`… », verdicts de Sidy) a fermé le pool antérieur : **169 fiches éligibles le 09-15 → 111 aujourd'hui**. Les **50 `symbole` créées le 2026-06-20** — dont la tranche 26-50 d'hier — portent désormais `sources: ["to-source"]` (`sources_count: 1`) et **ne sont plus éligibles** : la tranche d'hier est close côté Sceau.
+Le pool courant est donc de **110 fiches `doctrinal/` presque exclusivement `type: source`** (114 `type: source` à `sources: []`, convention normale de ce type) + 1 fiche `textes/`.
+**Tranche du jour = positions 10-34 du pool courant**, soit les **25 premières fiches non encore couvertes** : les 9 fiches `source` nommées dans le rapport archivé du 2026-09-14 (awrad-ibn-arabi → hasbiyallah-rabbani) sont écartées comme déjà investiguées. Toutes créées du **2026-06-29 au 2026-07-14**.
+
+**1.** `doctrinal/sources/archeometre-saint-yves-papus-1911.md` — *L'Archéomètre* (Saint-Yves d'Alveydre, éd. Papus 1911), `type: source`, `contre-traditionnel`.
+→ raw/ : aucune pièce · biblio : **`catalogue-bibliotheque.md:159`** (notice de l'exemplaire physique) · doctrinal : `symboles/archeometre`, `sources/figure-archeometre-islamise-mahdi-rouge`.
+**Recommandation : source possédée et cataloguée ; cross_links résolus — rien à instruire.**
+
+**2.** `doctrinal/sources/barzakh-nur-lh.md` — *Rapports symboliques entre Nûr et Barzakh* (Luc de la Hilay, leporteurdesavoir.fr, 2011), `academique`.
+→ raw/ : aucune pièce (URL source citée) · biblio : `majma-al-bahrayn-hindouisme-soufisme.md:286` (« XVIII. La description des Intermondes (barzakh) »), `quatre-mondes-hindouisme-soufisme.md:109,206`, `catalogue-bibliotheque.md:101` · doctrinal : `symboles/barzakh`, 4 `discernement/…barzakh…`.
+**Recommandation : source secondaire web, non déposable ; correspondance biblio réelle (Shayegan). `cross_links` en forme courte (4) — voir signalement F.**
+
+**3.** `doctrinal/sources/figure-archeometre-islamise-mahdi-rouge.md` — *La figure de l'Archéomètre* (blog La fin des temps modernes), `academique`.
+→ raw/ : aucune pièce propre · biblio : `catalogue-bibliotheque.md:159,105` · doctrinal : `symboles/archeometre`, `sources/archeometre-saint-yves-papus-1911`, `sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`.
+**Recommandation : source candidate partielle — l'Archéomètre est au catalogue, l'article de blog ne l'est pas (le corps déclare `to-source`, ligne 67).**
+
+**4.** `doctrinal/sources/introduction-doctrines-esotiques-islam-burckhardt.md` — *Introduction aux doctrines ésotériques de l'Islam* ch. II, `traditionnel`.
+→ raw/ : aucune pièce · biblio : **`catalogue-bibliotheque.md:102`** · doctrinal : `autorites/titus-burckhardt`, `symboles/hadarat-khams`, `discernement/tension-hadarat-burckhardt-jurjani`, `discernement/2026-08-29_hadarat-quatre-etats-atma` **et la fiche sœur n°13**.
+**Recommandation : source possédée et cataloguée. Voir signalement C (fiches jumelles).**
+
+**5.** `doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge.md` — *Notre Manvantara (Graphiques)*, 2013.
+→ raw/ : **`raw/LA FIN DES TEMPS MODERNES ‘ILM AL-NUJŪM - ASTROLOGIQUE TRADITIONNELLE.pdf`** (corpus du blog) · biblio : `catalogue-bibliotheque.md:94`, `index-origine-polaire-tilak.md:447` · doctrinal : `symboles/manvantara`, `symboles/eschatologie`, 2 fiches sœurs du même blog.
+**Recommandation : source candidate — le corpus brut du blog est partiellement au dépôt ; la fiche ne nomme pas le PDF.**
+
+**6.** `doctrinal/sources/platon-oeuvres-completes-brisson-2011.md` — Platon, Œuvres complètes (Flammarion 2011), `traditionnel`.
+→ raw/ : aucune pièce · biblio : **`catalogue-bibliotheque.md:163`** ; `bibliographie-ihwan-al-safa.md:121,150,186,190`, `index-noms-ihwan-al-safa.md:31,171` (versant néoplatonicien) · doctrinal : `autorites/platon`, `symboles/atlantide`, `sources/guenon-atlantide-hyperboree`.
+**Recommandation : source possédée et cataloguée ; second passage par le corpus Ikhwān disponible.**
+
+**7.** `doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge.md` — axe équinoxial, zodiaque islamique (2017/2022).
+→ raw/ : aucune pièce propre · biblio : `catalogue-bibliotheque.md:101,105`, `index-origine-polaire-tilak.md:730` (`uttarâyana | équinoxial`), `introduction-ihwan-al-safa.md:62` · doctrinal : `symboles/manazil-al-qamar`, `discernement/2026-07-26_zodiaque-fonction-barzakh`, `sources/guenon-zodiaque-pythagoriciens`.
+**Recommandation : source candidate partielle (Burckhardt *Clés spirituelles de l'astrologie musulmane* pour le fond).**
+
+**8.** `doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge.md` — *ʿIlm al-Nujūm* (2024).
+→ raw/ : **le PDF du blog** (ci-dessus) · biblio : `catalogue-bibliotheque.md:101`, `table-ihwan-al-safa.md:73`, `symbolisme-du-dome-porte-du-ciel.md:77` · doctrinal : `sources/ilm-al-nujum-astrologie-traditionnelle`, `discernement/2026-06-20_astrologie-akbarienne-fard`.
+**Recommandation : source candidate — même remarque qu'en 5.**
+
+**9.** `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton.md` — Ibn ʿArabī, trad. Gloton (Albouraq).
+→ raw/ : **`raw/Une approche du Coran - Gloton`**, `.ocr-gloton` · biblio : `catalogue-bibliotheque.md:83,84,85,88` · doctrinal : `sources/gloton-approche-coran-grammaire-lexique`, `symboles/table-28-degres-nafas-rahman`, `discernement/2026-07-01_rafi-ad-darajat…`.
+**Recommandation : source possédée et cataloguée ; corpus Gloton présent en raw/ (3 pièces).**
+
+**10.** `doctrinal/sources/meftah-symbolisme-universel-chatons-albouraq.md` — Meftah, *Le Symbolisme Universel des Châtons des Sagesses*.
+→ raw/ : aucune pièce · biblio : `catalogue-bibliotheque.md:104-105` · doctrinal : **`sources/meftah-chatons-sagesses-transcription`** (fiche sœur de transcription), `symboles/nafas-rahmani`, `symboles/table-28-degres-nafas-rahman`.
+**Recommandation : source possédée et cataloguée ; paire source/transcription cohérente.**
+
+**11.** `doctrinal/sources/al-madrasah-al-hanbaliyyah.md` — institut ḥanbalite en ligne.
+→ raw/ : **aucune** · biblio : **aucune** · doctrinal : mentions de corps seulement (`autorites/abd-al-qadir-al-jilani`, `sources/mawlid-al-rasul`).
+**Recommandation : source absente en propre** — ressource web auto-déclarée ; pas de pièce au dépôt (état attendu, à confirmer comme tel).
+
+**12.** `doctrinal/sources/bukhari-5754-tiyara-fal.md` — Ṣaḥīḥ al-Bukhârî 5754 (*ṭiyara*/*faʾl*).
+→ raw/ : **aucune édition imprimée** · biblio : aucune occurrence pertinente · doctrinal : **`discernement/2026-06-20_triptyque-medine-jeu-de-piste`** (cross_link résolu), `symboles/fal-wa-tatayyur`.
+**Recommandation : source absente (clipping sunnah.com) ; le corps appelle explicitement une édition imprimée (l. 24) — voir signalement E.**
+
+**13.** `doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam.md` — Burckhardt (ouvrage entier).
+→ raw/ : aucune pièce · biblio : **`catalogue-bibliotheque.md:102`** — **l'omission que la fiche dénonçait est corrigée** (« il manquait au catalogue… à corriger », l. 25-26) · doctrinal : `autorites/titus-burckhardt`, `discernement/tension-hadarat-burckhardt-jurjani`.
+**Recommandation : source possédée ; l'écart de recension déclaré au corps est CLOS au catalogue. Voir signalement C.**
+
+**14.** `doctrinal/sources/gilis-ordo-ab-chao.md` — Gilis, *Ordo ab Chao*.
+→ raw/ : aucune pièce · biblio : **`catalogue-bibliotheque.md:118`** (référence vérifiée sur l'exemplaire physique) · doctrinal : `autorites/charles-andre-gilis`, `discernement/2026-06-20_astrologie-akbarienne-fard`, `discernement/2026-07-02_coudee-royale-convergence-28`.
+**Recommandation : source possédée et cataloguée ; transcription partielle déclarée — voir signalement E.**
+
+**15.** `doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05.md` — lettre du Caire, 5 nov. 1936.
+→ raw/ : **`raw/Le Caire, 14 juillet 1937 Correspondance avec Patrice Genty Index de l'œuvre de René Guénon.md`** (dossier de correspondances) · biblio : `catalogue-bibliotheque.md:62-63`, `bibliographie-porte-du-ciel.md:17` · doctrinal : `sources/guenon-lettre-genty-1937-07-14` (fiche sœur), `discernement/2026-06-20_visions-centre-nocturne`.
+**Recommandation : source candidate — le dépôt a déjà fiché une correspondance du même fonds ; `to-source` maintenu au corps (l. 23).**
+
+**16.** `doctrinal/sources/ibn-arabi-fard-afrad-gilis.md` — les *Afrād* via Gilis.
+→ raw/ : **`raw/Al Futuhat Al Makkiyya - maymaniya_p1.pdf`** · biblio : `catalogue-bibliotheque.md:117,119` (*Études complémentaires sur le Califat*) · doctrinal : `sources/malamatiyah-futuhat-ch23`, `sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot`, `sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan`.
+**Recommandation : source candidate forte — le scan des *Futūḥāt* (4 tomes) est au dépôt et une fiche le décrit déjà.**
+
+**17.** `doctrinal/sources/malamatiyah-futuhat-ch23.md` — Futūḥāt ch. 23, trad. Penot + annexes Guénon.
+→ raw/ : le scan maymaniyya · biblio : `catalogue-bibliotheque.md:89` (*Les Révélations de La Mecque*) · doctrinal : `symboles/malamatiyya`, `symboles/walaya`, `sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription`.
+**Recommandation : source possédée et cataloguée ; le texte est intégralement transcrit dans la fiche.**
+
+**18.** `doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription.md` — annexes (sommaire, index, lexique) Penot/Entrelacs 2009.
+→ raw/ : le scan maymaniyya · biblio : `catalogue-bibliotheque.md:89` · doctrinal : `autorites/ibn-arabi`, `sources/malamatiyah-futuhat-ch23`.
+**Recommandation : source possédée ; transcription faite d'après photographies de l'exemplaire (déclaré en note).**
+
+**19.** `doctrinal/sources/dalail-al-khayrat-jazuli.md` — *Dalâ'il al-Khayrât* (al-Jazūlī), édition arabe **possédée**.
+→ raw/ : **aucune pièce** · biblio : **aucune occurrence** — voir signalement D · doctrinal : `symboles/salawat`, `symboles/khatm`, `discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm`, `sources/ishrab-sharab`.
+**Recommandation : source possédée mais NON recensée au catalogue-bibliotheque.md — écart à la discipline des sources (§VII, « bibliothèque physique d'abord »).**
+
+**20.** `doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme.md` — Guénon, *Kundalinî-Yoga*.
+→ raw/ : **`raw/La-Puissance-Du-Serpent.md`** + **`raw/695841658-La-Puissance-Du-Serpent.pdf`** · biblio : `catalogue-bibliotheque.md:143` (Avalon), `disciplines-spirituelles-hindouisme-soufisme.md:113,128` · doctrinal : **`sources/avalon-serpent-power-nadis-reseau`**, `discernement/2026-08-29_sephiroth-chakras-sept-niveaux`.
+**Recommandation : source candidate forte — les deux pièces (Guénon et Avalon) sont au dépôt.**
+
+**21.** `doctrinal/sources/guenon-mysteres-lettre-nun.md` — *Les mystères de la lettre Nûn*.
+→ raw/ : **`raw/Symboles de la Science sacrée - René Guénon`** · biblio : `catalogue-bibliotheque.md:43` · doctrinal : `sources/transcription-table-matieres-symboles-science-sacree`, `sources/guenon-octogone`.
+**Recommandation : source possédée et lue ; `to-source` explicitement LEVÉ (l. 39).**
+
+**22.** `doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques.md` — *Quelques remarques sur la doctrine des cycles cosmiques*.
+→ raw/ : **`raw/Formes traditionnelles et Cycles cosmiques | René Guénon`** · biblio : `catalogue-bibliotheque.md:49,54,190` · doctrinal : `discernement/2026-07-02_mont-qaf-meru-topologie-apex`, `sources/guenon-atlantide-hyperboree`.
+**Recommandation : source possédée ; `to-source` LEVÉ le 2026-09-02 (l. 37).**
+
+**23.** `doctrinal/sources/guenon-zodiaque-pythagoriciens.md` — *Le symbolisme du Zodiaque chez les pythagoriciens*.
+→ raw/ : aucune pièce **par nom** (le chapitre XXXVI appartient au volume *Symboles de la Science sacrée*, présent au dépôt — appariement par contenu, non par nom de fichier) · biblio : `catalogue-bibliotheque.md:161`, `index-noms-ihwan-al-safa.md:188` · doctrinal : `discernement/2026-07-26_zodiaque-fonction-barzakh`, `sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge`.
+**Recommandation : source possédée (volume porteur au dépôt) ; `to-source` LEVÉ le 2026-08-30 (l. 38).**
+
+**24.** `doctrinal/sources/tilak-origine-polaire-tradition-vedique.md` — Tilak, *Origine polaire de la tradition védique*.
+→ raw/ : **`raw/Origine Polaire de la tradition Védique`** · biblio : `catalogue-bibliotheque.md:72,274,275`, **`index-origine-polaire-tilak.md`**, `sommaire-origine-polaire.md` · doctrinal : `sources/tilak-orion-antiquite-vedas-1893`, `sources/tilak-culture-aryenne-primitive-ch13`, `discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle`.
+**Recommandation : source candidate forte — pièce au dépôt, index et sommaire transcrits ; lien à `transcription-index-tilak` fait.**
+
+**25.** `doctrinal/sources/transcription-index-tilak-origine-polaire.md` — index transcrit (Tilak).
+→ raw/ : la pièce ci-dessus · biblio : **`index-origine-polaire-tilak.md`**, `catalogue-bibliotheque.md:275` · doctrinal : `sources/tilak-origine-polaire-tradition-vedique` (fiche sœur).
+**Recommandation : source possédée ; la transcription se lit dans la voie d'archivage prévue (l. 6).**
+
+```
+=== STATISTIQUES ===
+Fiches investiguées : 25 (positions 10-34 du pool courant de 111 ; 86 hors tranche)
+  — les 9 fiches `source` du rapport du 2026-09-14 écartées comme déjà couvertes
+Pool éligible : 169 (09-15) → 111 (09-16) : 73 fiches passées à sources: ["to-source"] (051d30d)
+  dont 50 `symbole` du 2026-06-20, soit l'intégralité de la tranche 26-50 d'hier
+Sources candidates identifiées :
+  - raw/ (pièce au dépôt) : 12 fiches
+  - atelier/rd/bibliotheque/ (catalogue, index, bibliographies) : 22 fiches
+  - doctrinal/ (cross_links résolus ou fiche sœur) : 24 fiches
+Sources absentes en propre : 3 (11 al-madrasah, 12 bukhari-5754, 19 dalail-al-khayrat)
+```
+
+=== SIGNALLEMENTS ===
+**A. Clôtures du rapport du 2026-09-15 (constat, aucun verdict de ma part).** Deux verdicts ont été appliqués le 15 au soir : `e8733c4` (données natales retirées des pages neutres — mon signalement D ; sources nommées pour `tawakkul-transition` — mon signalement C) et `051d30d` (convention des sources, 73 fiches à `to-source`). **Il subsiste 1 écart de la même famille** : `textes/autres-ressources/sept-etendards-califat-transcription.md` (`sources_count: 1`, aucun champ `sources:`).
+**B. 6 cibles de frontmatter non résolues** (§1) : 2 reportées du 09-15 (`label/production/album-01`, `label/marketing-communication/site-dans-labsolu`), 3 nouvelles (`meta/projet-unifie/15-architecture-discord-hermes-2026-08-07.md` ×2, `doctrinal/sources/body-types`, `meta/2026-06-20_signature-kouyate`), 1 non-faute déclarée (lot nominatif Kamon Kouyaté).
+**C. Fiches jumelles Burckhardt.** `doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt.md` (2026-06-29, ch. II) et `doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam.md` (ouvrage entier) portent le même ouvrage sous deux slugs, sans cross_link de l'une à l'autre : arbitrage Cmd 4/Cmd 10 à rendre (fusion, ou lien de subordination déclaré).
+**D. Œuvre possédée non cataloguée** : `Dalâ'il al-Khayrât` (al-Jazūlī) — la fiche atteste l'édition arabe possédée par Sidy ; `catalogue-bibliotheque.md` n'en porte **aucune** ligne.
+**E. Marqueur `to-source` déclaré au corps, absent du Sceau** — 6 fiches de la tranche : `gilis-ordo-ab-chao.md:27-28` (« le marqueur global `to-source` **du frontmatter** »), `bukhari-5754-tiyara-fal.md:24`, `burckhardt-introduction-doctrines-esoteriques-islam.md:26`, `guenon-lettre-coomaraswamy-1936-11-05.md:23`, `ibn-arabi-fard-afrad-gilis.md:27`, `tilak-origine-polaire-tradition-vedique.md:123` — toutes portent `sources: []`. L'écart est formel (le marqueur a un porteur désigné, §IV/§VII) ; il peut relever d'une convention propre aux `type: source` que je ne tranche pas.
+**F. `cross_links` en forme courte sans chemin** : `doctrinal/sources/barzakh-nur-lh.md` (`[[barzakh]]`, `[[hadarat-khams]]`, `[[al-insan-al-kamil]]`, `[[ibn-arabi]]`) — les 4 se résolvent par basename ; à aligner ou à entériner comme convention.
+**G. Report persistant** : `atelier/materiel/technics-su-8080.md:21` — fait personnel en circuit neutre, 3ᵉ jour.
+**H. Angle mort de classe** (re-mesuré) : les liens `atelier/ → label/` vivent dans l'artefact dérivé `index-lexical/condense/*.md` et dans `monitoring-archive/registre-traitement.md` ; le script exempte `index.md`/`annales.md`, pas ces deux-là. Aucune consignation au `registre-problemes.md`.
+
+=== CONCLUSION ===
+Le §1 est **stable pour la 3ᵉ journée consécutive** (0 erreur, 71 avertissements d'une seule classe déjà tranchée, périmètre +150 fiches en un jour) et deux signalements d'hier ont été fermés par verdict ; la priorité d'investigation se déplace du fonds `symbole` de juin, désormais marqué, vers le **fonds `type: source` de fin juin-début juillet**, dont 86 fiches restent hors tranche et où les pièces brutes (Gloton, *Futūḥāt* maymaniyya, *Symboles de la Science sacrée*, Puissance du Serpent, Tilak, Formes traditionnelles) sont majoritairement **déjà au dépôt**.
+
+**Suggestions soumises à validation** (Discord-Validation — **aucun fichier du dépôt modifié** ; scripts jetables en `/tmp` ; sortie brute du contrôle en `/tmp/inv-2026-09-16.txt`) :
+1. Trancher les **6 cibles de frontmatter non résolues** (créer, corriger le chemin, ou retirer le lien).
+2. Trancher les **deux fiches jumelles Burckhardt** (C).
+3. Recenser ou déclarer **`Dalâ'il al-Khayrât`** au `catalogue-bibliotheque.md` (D).
+4. Trancher la **forme du marqueur `to-source`** sur les `type: source` (E : corps vs `sources:`) et la **forme courte des `cross_links`** (F).
+5. Instruire le **report `technics-su-8080.md:21`** et le nouvel écart `sources_count` de `textes/` (A, G).
+6. Dire si l'exemption C3 doit être étendue aux **artefacts dérivés et registres** (H) — mesure corrigée cette fois en `.md` seul.
+
+Signé : **Publication (veille référencement & investigation)**
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").

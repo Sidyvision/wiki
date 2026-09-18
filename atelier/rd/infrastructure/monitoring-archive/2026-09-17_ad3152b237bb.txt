@@ -1,0 +1,169 @@
+Cronjob Response: veille-referencement-investigation-08
+(job_id: ad3152b237bb)
+-------------
+
+All measurements are in. Composing the report.
+
+``` 
+=== RAPPORT PUBLICATION — VEILLE RÉFÉRENCEMENT & INVESTIGATION ===
+Date : 2026-09-17 (run 09:00 UTC)
+Profil : publication
+Canal : #infrastructure
+```
+
+## §1 — FRONTMATTER CONFORMITY
+
+**Sortie brute de `verifier-invariants.py --racine /root/wiki`** (stdout, tête et queue) :
+
+```
+1744 fichier(s) .md contrôlé(s) — périmètre du dépôt (ce que `.gitignore` exclut n'est pas contrôlé).
+
+AVERTISSEMENTS :
+  [C6] doctrinal/symboles/cinq-noms-ame.md:62 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+  [C6] doctrinal/symboles/fal-wa-tatayyur.md:26 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] — sans le marqueur 🔍 …
+  [C6] doctrinal/symboles/golem.md:30 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] — …
+  [… 65 lignes de même classe, total 71 …]
+  [C6] doctrinal/autorites/rene-guenon.md:49 — étanchéité inversée : page `traditionnel` → discernement non tranché — [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] — sans le marqueur 🔍 qui signale l'exception (lien défensif/généalogique)
+
+0 erreur(s), 71 avertissement(s).
+```
+
+**Histogramme mécanique** : `26 × [C5]` + `45 × [C6]` = **71** · **0 `[C1]`**, **0 `[C7]`**, **0 erreur** · **38 fichiers distincts** (`traite-emanation-gauche-isaac-ha-kohen.md` 8, `rene-guenon.md` 6, `guenon-hermetisme-hermes-thoth.md` 4, `khatm.md` 4…). Classe unique déjà tranchée (verdict Sidy 2026-09-10, `7bef4e1`).
+
+**Delta vs veille du 2026-09-16** (rapport archivé `monitoring-archive/2026-09-16_ad3152b237bb.txt`) :
+
+| | 09-14 | 09-15 | 09-16 | **09-17** | Δ 16→17 |
+|---|---|---|---|---|---|
+| fichiers .md contrôlés | 1535 | 1588 | 1738 | **1744** | **+6** |
+| erreurs | 0 | 0 | 0 | **0** | 0 |
+| avertissements | 71 | 71 | 71 | **71** | **0** |
+| répartition | 26 C5 + 45 C6 | idem | idem | **26 C5 + 45 C6** | identique |
+| fichiers distincts | 38 | 38 | 38 | **38** | identique |
+
+`verifier-invariants.py` est **inchangé** depuis le 09-16 09:00 (`git log --since -- verifier-invariants.py` : vide) — la comparaison est donc à script constant, contrairement à hier. Le périmètre +6 est net (`--diff-filter=A` : 155 `.md` ajoutés depuis le repère `da2db39`, 34 commits depuis hier matin).
+
+### Couche sémantique (ce que le script ne voit pas)
+
+- **`tags:`/`sources:`/`cross_links:`/`links:` « nus » : 0 anomalie — correction de méthode.** La forme `champ:` suivi d'une liste en bloc indentée est **conforme** (YAML valide, liste non nulle). Mesure : sur les 5 circuits (hors `textes/`, `protocoles/`, `raw/`), **aucun** champ de liste n'est réellement nul. Un comptage naïf en donnait 660 la première fois ; le contrôle « la ligne suivante est-elle un item `- …` ? » les élimine tous. À porter au compte de la méthode, pas au dépôt.
+- **`sources_count` vs longueur réelle de `sources:` — 0 écart** sur le périmètre outillé. **MAIS l'écart d'hier est CLOS sans l'être** : hors périmètre du contrôle, `textes/autres-ressources/sept-etendards-califat-transcription.md` porte **`sources_count: 1` (l. 13) sans aucun champ `sources:`** — inchangé (signalement A, 2ᵉ jour).
+- **NOUVEAU — item de liste à chaîne vide (1 occurrence, dans la tranche du jour)** :
+  • `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace.md`, frontmatter **l. 11** : `cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", ""]` — **troisième item vide**. Seule occurrence du dépôt (contrôle sur les 5 circuits). Non vu par le script.
+- **Cibles de wikilink de frontmatter non résolues : 7 occurrences / 6 cibles** (hier : 11 / 6). **4 clôtures vérifiées** : `doctrinal/deviations/body-types.md` **créé** (cible `doctrinal/sources/body-types` close, annales doctrinal l. 53) · `meta/genealogie/2026-06-20_signature-kouyate` **chemin corrigé** (annales meta l. 236-242) · `meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07` **déplacé et citations réalignées**. **Restent** : `label/production/album-01` (`label/distribution/strategie-vinyle-300-depositaires.md`) et `label/marketing-communication/site-dans-labsolu` (`label/marketing-communication/fanzine.md`) — **3ᵉ jour** ; `chatgpt-synthese-kamon-kouyate-2026-09-15` ×5 — **non-faute** (label de provenance d'un lot nominatif, `meta/CLAUDE.md`, « Lots nominatifs » pt 3).
+- **Étanchéité §VI — sens interdits : 0.** `doctrinal/ → hermeneutique/` : 3 occurrences, **toutes dans `doctrinal/annales.md`** (l. 1556, 1783, 5214 — journal, exempté par nom par le script) · `doctrinal/ → label/` : 0 · `atelier/materiel|entretiens/ → doctrinal/` : 0 · `label/|hermeneutique/ → meta/` : 0 · `doctrinal/|atelier/ → meta/` : 0 (les 179 lignes `[[meta/…]]` sous `atelier/` vivent dans l'artefact dérivé `index-lexical/condense/*.md`, exempté par verdict 2026-09-15). `meta/ → autres circuits` est le **sens autorisé** (sensible → neutre).
+- **NOUVEAU — `status:` hors vocabulaire, 2 fichiers, hors circuit** : `textes/autres-ressources/isaghuji-cours01-introduction-transcription.md:4` et `textes/autres-ressources/sept-etendards-califat-transcription.md:4` portent **`status: to-source`**, valeur absente du vocabulaire clos du Sceau Recteur (`traditionnel | academique | profane | contre-traditionnel | speculatif`). Les deux fichiers portent par ailleurs un **Sceau complet** (`type: source`, `tradition_cadre`, `tags`, `sources_count`, `cross_links`) dans `textes/`, qui est **hors Sceau par décision** (§II) — voir signalement A′.
+- **Hygiène Unicode (Cmd 15)** : **0** occurrence de U+200B/200C/200D/FEFF/200E/200F.
+- **Sans frontmatter (hors `textes/` et `protocoles/`) : 47** fichiers (33 prompts `hermes-prompts/`, 5 `CLAUDE.md`, 2 `README.md`, 7 autres).
+- **Surface publication** : `grep -rn '^publication:'` → **0** ; statuts `label/` inchangés (6 `en-cours`, 3 `en-gestation`, 2 `idee`). **File du mandat site-orchestration vide** — rien à préparer, même constat que le 09-16.
+
+---
+
+## §2 — DOCUMENTARY INVESTIGATION
+
+**Sélection.** Pool éligible du jour : **110 fiches `doctrinal/`** à `sources_count: 0` (le 111ᵉ du décompte d'hier est la fiche de `textes/`), triées par `created`. Les positions 1-34 sont déjà couvertes (rapports du 09-14 et du 09-16) ; **tranche du jour = positions 35-59**, de `transcription-table-matieres-symboles-science-sacree` (2026-07-14) à `histoire-wahhabis-corancez-redissi` (2026-08-09). **86 fiches restent hors tranche.**
+
+**1.** `doctrinal/sources/transcription-table-matieres-symboles-science-sacree.md` — table des matières intégrale, *Symboles de la Science sacrée* (Guénon).
+→ raw/ : **`raw/Symboles de la Science sacrée - René Guénon/`** (96 fichiers) · biblio : `catalogue-bibliotheque.md:43` + **l. 272-273** (fiches de corpus) · doctrinal : 1 cross_link résolu (`symboles/ashhab`).
+**Recommandation : source possédée. La fiche existe — voir signalement B (pointeur de corps vers un slug inexistant).**
+
+**2.** `doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles.md` — *Les États multiples de l'être*, ch. XIII.
+→ raw/ : **`raw/Les états multiples de l'être/`** (20 fichiers) · biblio : `catalogue-bibliotheque.md:39` · doctrinal : 4 cross_links, **tous résolus** (`autorites/rene-guenon`, `autorites/ibn-arabi`, `discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire`, `symboles/table-28-degres-nafas-rahman`).
+**Recommandation : source possédée et cataloguée ; rien à instruire.**
+
+**3.** `…guenon-etats-multiples-ch4-fondement.md` → raw/ idem · biblio `:39` · doctrinal : 2 cross_links résolus (`symboles/wahdat-al-wujud`). **Recommandation : idem n° 2.**
+
+**4.** `…guenon-etats-multiples-ch9-hierarchie-facultes.md` → raw/ idem · biblio `:39` · doctrinal : 2 cross_links résolus. **Recommandation : idem n° 2.**
+
+**5.** `doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya.md` → raw/ : **`raw/L'Homme et son Devenir selon le Vêdânta | René Guénon/`** (27 fichiers) · biblio : `catalogue-bibliotheque.md:37`, `abreviations-hindouisme-soufisme.md:50`, `quatre-mondes-hindouisme-soufisme.md:44,242` · doctrinal : 3 cross_links résolus. **Recommandation : source possédée et cataloguée.**
+
+**6.** `…guenon-symbolisme-croix-ch11-13-representations-geometriques.md` → raw/ : **`raw/Le Symbolisme de la Croix/`** (31 fichiers) · biblio : `catalogue-bibliotheque.md:38` · doctrinal : 3 cross_links résolus. **Recommandation : source possédée et cataloguée.**
+
+**7.** `…guenon-symbolisme-croix-ch2-3-homme-universel.md` → raw/ idem · biblio `:38` ; second passage : `preface-introduction-porte-du-ciel.md:196,204,208` (vastu-purusha-mandala = Homme Universel), `abreviations-hindouisme-soufisme.md:30,48` (*al-Insân al-Kâmil*) · doctrinal : 4 cross_links résolus. **Recommandation : source possédée ; convergence biblio réelle.**
+
+**8.** `…guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference.md` → raw/ idem · biblio `:38` (+`catalogue-bibliotheque.md:32`, formulation instrument) · doctrinal : 2 cross_links résolus. **Recommandation : source possédée.**
+
+**9.** `…guenon-symbolisme-croix-ch4-directions-espace.md` → raw/ idem · biblio `:38` · doctrinal : 2 cross_links résolus — **mais item vide au cartouche, voir §1 et signalement C.** **Recommandation : source possédée ; forme du cartouche à corriger.**
+
+**10.** `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot.md` — Futūḥāt ch. 36, trad. Penot.
+→ raw/ : **`raw/Al Futuhat Al Makkiyya - maymaniya_p1.pdf`** (+ `p2`-`p4`) · biblio : `catalogue-bibliotheque.md:89` (*Les Révélations de la Mecque*, Penot, Entrelacs 2009) et **`:119`** (Gilis, *Études complémentaires sur le Califat* — extrait Fard/Afrâd) · doctrinal : 3 cross_links résolus. **Recommandation : source candidate forte — pièce au dépôt, édition cataloguée.**
+
+**11.** `doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi.md` — *Tartîbut-Taçawwuf*, trad. Abdul-Hâdî (Aguéli), ***La Gnose*, déc. 1911**.
+→ raw/ : **aucune** · biblio : **aucune ligne** — le catalogue porte la section Tasawwuf (`:77`) et al-Jurjānī (`:85`), mais **pas la revue *La Gnose***, alors que le corps atteste que Sidy en possède la collection intégrale · doctrinal : 4 cross_links résolus.
+**Recommandation : source candidate déclarée possédée, NON recensée au catalogue — même classe que le signalement D d'hier (*Dalâ'il al-Khayrât*).**
+
+**12.** `doctrinal/sources/nezami-pavillon-sept-princesses-barry.md` — *Haft Peykar*, trad. M. Barry.
+→ raw/ : aucune · biblio : **`catalogue-bibliotheque.md:146`** (entrée complète : traducteur, collection) · doctrinal : 2 cross_links résolus. **Recommandation : source possédée et cataloguée ; écart raw/ attendu (ouvrage non converti).**
+
+**13.** `doctrinal/sources/guenon-roi-du-monde-ch10.md` → raw/ : **`raw/Le Roi du Monde/`** (12 fichiers) · biblio : `catalogue-bibliotheque.md:41` · doctrinal : 3 cross_links résolus. **Recommandation : source possédée et cataloguée.**
+
+**14.** `doctrinal/sources/guenon-recension-seabrook-aventures-arabie.md` — recension Seabrook, *E.T.* 1935, reprise dans le recueil *Aperçus sur l'Ésotérisme islamique et le Taoïsme*.
+→ raw/ : **appariement par contenu** — le recueil est au dépôt (14 fichiers, dont **`raw/Aperçus sur l'Ésotérisme islamique et le Taoïsme/Comptes rendus de livres et de revues …md`**, qui porte la recension) · biblio : **aucune ligne** (le `:44` du catalogue est *Aperçus sur l'**Initiation*** — autre recueil) · doctrinal : 5 cross_links résolus.
+**Recommandation : source candidate forte, par contenu. Le corps demande une recension au catalogue sur un chemin mort — voir signalement D.**
+
+**15.** `doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation.md` → raw/ : **`raw/Le Règne de la Quantité/`** (44 fichiers) · biblio : `catalogue-bibliotheque.md:47` · doctrinal : **9 cross_links**, tous résolus (6 fiches `deviations/`). **Recommandation : source possédée et cataloguée ; nœud de maillage le plus dense de la tranche.**
+
+**16.** `doctrinal/sources/guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh.md` → raw/ : **`raw/Aperçus sur l'Ésotérisme islamique et le Taoïsme/`** (14 fichiers) · biblio : **0 occurrence** — le recueil est absent de la section Guénon du catalogue (`:35-49`) · doctrinal : 5 cross_links résolus. **Recommandation : source candidate forte ; recension manquante — voir signalement D.**
+
+**17.** `…guenon-homme-devenir-vedanta-ch1-7.md` → raw/ : 27 fichiers (n° 5) · biblio : `catalogue-bibliotheque.md:37` + `quatre-mondes-hindouisme-soufisme.md:242` · doctrinal : **8 cross_links résolus**. **Recommandation : source possédée.**
+
+**18.** `…guenon-homme-devenir-vedanta-ch15-21.md` → raw/ et biblio idem · doctrinal : **9 cross_links résolus** (dont `sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire`) · second passage : `quatre-mondes-hindouisme-soufisme.md:250,264`, `majma-al-bahrayn…:102`. **Recommandation : source possédée ; maillage validé.**
+
+**19.** `…guenon-homme-devenir-vedanta-ch8-22-26.md` → raw/ et biblio idem · doctrinal : **9 cross_links résolus** (koshas/vāyus). **Recommandation : source possédée.**
+
+**20.** `…guenon-homme-devenir-vedanta-ch9-14.md` → raw/ et biblio idem · doctrinal : 6 cross_links résolus ; second passage `disciplines-spirituelles-hindouisme-soufisme.md:149,198,369` (buddhi/manas). **Recommandation : source possédée.**
+
+**21.** `doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron.md` → raw/ : 12 fichiers · biblio `:41` · doctrinal : 2 cross_links résolus. **Recommandation : source possédée ; `to-source` de pagination déclaré au corps (l. 10-13), édition non relevée — permanence de la classe E d'hier.**
+
+**22.** `…guenon-roi-du-monde-ch4-trois-fonctions-supremes.md` → raw/ et biblio idem · doctrinal : 3 cross_links résolus (dont `discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara`). **Recommandation : source possédée ; pagination `to-source` au corps.**
+
+**23.** `…guenon-roi-du-monde-ch6-melki-tsedeq.md` → raw/ et biblio idem · doctrinal : 2 cross_links résolus. **Recommandation : source possédée ; pagination `to-source` au corps.**
+
+**24.** `doctrinal/sources/valsan-investiture-cheikh-al-akbar.md` — Vâlsan, *Études Traditionnelles* n° 311, 1953.
+→ raw/ : **aucune** · biblio : **`catalogue-bibliotheque.md:116`** (entrée Vâlsan, marquée **`#a-revoir`**, et la revue n'y est pas) · doctrinal : **7 cross_links résolus**. **Recommandation : source absente en propre** — le corps déclare lui-même la médiation Scribd et non-vérification sur original ; l'entrée catalogue reste `#a-revoir`.
+
+**25.** `doctrinal/sources/histoire-wahhabis-corancez-redissi.md` — Corancez, préf. Redissi (Albouraq).
+→ raw/ : **aucune** · biblio : **0 occurrence** de `corancez|wahhabis|redissi|saoudien` dans tout `atelier/rd/bibliotheque/` · doctrinal : 1 cross_link résolu (`discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion`).
+**Recommandation : ouvrage déclaré transcrit depuis photographies (possession attestée) mais NON recensé au catalogue — voir signalement D.**
+
+```
+=== STATISTIQUES ===
+Fiches investiguées : 25 (positions 35-59 du pool de 110 ; 86 hors tranche)
+Sources candidates identifiées :
+  - raw/ (pièce au dépôt)                       : 21 fiches
+  - atelier/rd/bibliotheque/ (catalogue, index) : 20 fiches (+1 partielle : `:116` marquée `#a-revoir`)
+  - doctrinal/ (cross_links, tous résolus)      : 25 fiches  — 0 cible non résolue sur 115 liens
+Sources absentes en propre                      : 3 (11 La Gnose, 24 Vâlsan, 25 Corancez)
+Recensions manquantes (possession déclarée, aucune ligne au catalogue) : 3 œuvres / 4 fiches
+  — *Aperçus sur l'Ésotérisme islamique et le Taoïsme* (14, 16) ; *La Gnose* 1911 (11) ; Corancez (25)
+```
+
+=== SIGNALLEMENTS ===
+
+**A. Écart `sources_count` de `textes/` — 2ᵉ jour, inchangé.** `textes/autres-ressources/sept-etendards-califat-transcription.md` : `sources_count: 1` (l. 13), **aucun champ `sources:`**. Hors périmètre du contrôle outillé et hors circuit — cause probable identifiée en **A′**.
+
+**A′. NOUVEAU — Sceau porté dans un non-circuit, avec `status:` hors vocabulaire (2 fichiers).** `textes/autres-ressources/sept-etendards-califat-transcription.md` et `textes/autres-ressources/isaghuji-cours01-introduction-transcription.md` portent un **cartouche complet** (`type`, `status`, `tradition_cadre`, `tags`, `sources_count`, `cross_links`) alors que `textes/` est **hors Sceau et cible d'aucun wikilink** (§II), et leur `status: to-source` (l. 4 des deux) est une valeur **absente du vocabulaire clos** du Sceau Recteur. Forme attendue pour une fiche de source : `doctrinal/sources/` (comme `transcription-table-matieres-symboles-science-sacree.md`). Aucun verdict rendu ici (Cmd 4/§II : arbitrage de placement).
+
+**B.** `doctrinal/sources/transcription-table-matieres-symboles-science-sacree.md:25-26` renvoie à **`doctrinal/sources/guenon-symboles-science-sacree.md` (« à créer si elle n'existe pas encore »)** — **ce slug n'existe pas**. Ce qui existe : `doctrinal/sources/manifeste-corpus-symboles-science-sacree.md`, `guenon-symboles-science-sacree-ch18-janus.md`, `-ch37-janus-solstices.md`. Pointeur de **corps**, donc invisible au contrôle P1 (qui ne voit que les pointeurs racine → `protocoles/`).
+
+**C. Item de liste vide — 1 occurrence, dans la tranche.** `doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace.md`, frontmatter **l. 11** : `…"[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", ""` — troisième item vide, seule occurrence des cinq circuits. Passe les 0 erreur du script.
+
+**D. Recensions manquantes — possession attestée, catalogue muet (3 œuvres / 4 fiches).** Le recueil ***Aperçus sur l'Ésotérisme islamique et le Taoïsme*** est **au dépôt** (`raw/Aperçus sur l'Ésotérisme islamique et le Taoïsme/`, 14 fichiers) et la section Guénon du catalogue (`:35-49`) **ne le porte pas**. `guenon-recension-seabrook-aventures-arabie.md:18-19` déclare explicitement : « Le recueil est à ajouter à **`meta/bibliotheque-physique.md`** — voir signalement dans `UPDATES.md` » — or `meta/bibliotheque-physique.md` est un **TOMBSTONE** depuis le 2026-08-22 (déplacé vers `atelier/rd/bibliotheque/catalogue-bibliotheque.md`). Même classe pour **`La Gnose` (1911)** (fiche n° 11) et **Corancez, *L'Histoire des Wahabis*** (fiche n° 25) : possession déclarée, **0 ligne** au catalogue.
+
+**E. `to-source` de pagination non levé, porté au corps** — tranche du jour : `guenon-roi-du-monde-ch3-shekinah-metatron` (l. 10-13), `-ch4-trois-fonctions-supremes`, `-ch6-melki-tsedeq`, `guenon-apercus-esoterisme-islamique-taoisme-ch5-er-ruh`, `valsan-investiture-cheikh-al-akbar` (l. 12-17) — tous à `sources: []`. **Permanence de la classe E d'hier** (corps vs porteur désigné `sources:`) : elle n'est plus propre à un fonds, elle est la convention des transcriptions Guénon. Question de forme à trancher en bloc.
+
+**F. Report persistant** : `atelier/materiel/technics-su-8080.md:21` — fait personnel en circuit neutre (§VI). **4ᵉ jour.**
+
+**G. Angle mort de classe, mesuré cette fois avec certitude** : `doctrinal/ → hermeneutique/` — 3 liens vivants, **tous dans `doctrinal/annales.md`** (l. 1556, 1783, 5214). Le script exempte `index.md`/`annales.md` par nom ; ces liens sont légitimes comme journal, mais l'exemption est ce qui les rend invisibles au rapport. Aucune consignation au `registre-problemes.md` (écriture réservée à Sidy ou à une session Claude Code — signalement seul).
+
+=== CONCLUSION ===
+§1 **stable pour la 4ᵉ journée consécutive** à script constant (0 erreur, 71 avertissements d'une seule classe déjà tranchée, 38 fichiers ; périmètre +6) — dont **4 clôtures de cibles non résolues vérifiées** —, et §2 achève l'exploration du fonds `type: source` de juillet : les pièces brutes y sont **massivement au dépôt** (21/25 fiches, dont toute la trilogie métaphysique Guénon et le scan maymaniyya) tandis que le point faible s'est déplacé du côté du **catalogue** — 3 œuvres possédées, déclarées ou au dépôt, y sont absentes, sur un renvoi qui pointe encore un fichier tombstoné ; **prochaine priorité : positions 60-84 du pool (fonds Guénon d'août, 2026-08-09 → 2026-08-14)**.
+
+**Suggestions soumises à validation** (Discord-Validation — **aucun fichier du dépôt modifié** ; scripts jetables en `/tmp`) :
+1. Trancher **A′** : les 2 cartouches de `textes/autres-ressources/` (porteur de Sceau dans un non-circuit, `status: to-source`) — déplacer vers `doctrinal/sources/`, ou dépouiller le cartouche.
+2. Instruire **D** : recenser les 3 œuvres au `catalogue-bibliotheque.md` (*Aperçus sur l'Ésotérisme islamique et le Taoïsme*, *La Gnose* 1911, Corancez) et purger le pointeur tombstoné (fiche n° 14, l. 18-19).
+3. Corriger ou entériner **C** (item vide, 1 occurrence) et **B** (slug `guenon-symboles-science-sacree` inexistant — nommer le porteur réel).
+4. Trancher **E** en bloc : forme du marqueur `to-source` sur les `type: source` (corps vs `sources:`).
+5. Trancher les **2 cibles persistantes** `label/` (`album-01`, `site-dans-labsolu`, 3ᵉ jour) et instruire le **report `technics-su-8080.md:21`** (4ᵉ jour).
+
+Signé : **Publication (veille référencement & investigation)**
+
+To stop or manage this job, send me a new message (e.g. "stop reminder veille-referencement-investigation-08").
