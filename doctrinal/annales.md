@@ -25,6 +25,15 @@ doctrinales, toutes deux de **forme**, aucune de substance. Le lot entier et ses
   l'Ésotérisme islamique et le Taoïsme*. Cette fiche est un **tombstone** depuis le
   2026-08-22 : le catalogue vit en `atelier/rd/bibliotheque/catalogue-bibliotheque.md`
   (consultation humaine, sans wikilink — §VI). Chemin corrigé.
+  **Rectification avant clôture** : la même phrase renvoyait aussi à « `UPDATES.md` »,
+  fichier de sas du lot de juillet, disparu au vidage du sas — corriger la moitié d'un
+  renvoi mort et laisser l'autre aurait reconduit le défaut signalé. La clause est
+  remplacée par la mention datée de la recension en attente.
+- **Divergence signalée, non corrigée (Cmd 12, vigilance documentaire)** :
+  `doctrinal/CLAUDE.md:153` nomme encore `meta/bibliotheque-physique.md` comme source de
+  « lectures suggérées », quand le §VII du protocole racine désigne
+  `atelier/rd/bibliotheque/catalogue-bibliotheque.md`. Un `CLAUDE.md` est protocole : la
+  divergence se rapporte, elle ne se corrige pas d'office.
 - **Ce qui n'est PAS fait, et revient à Sidy** : la recension elle-même. Trois œuvres sont
   déclarées possédées et absentes du catalogue — le recueil *Aperçus sur l'Ésotérisme
   islamique et le Taoïsme* (au dépôt, `raw/`, 14 fichiers), la revue *La Gnose* (1911) et
