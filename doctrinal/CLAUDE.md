@@ -168,7 +168,7 @@ impérativement ce bloc normalisé :
 >   - *Parenté hétérodoxe possible* : [[doctrinal/deviations/slug]] — nature du rapprochement.
 > **Examen formel** (cohérence logique/terminologique — jamais le principe) : …
 > **Conclusion** : attribuée par l'utilisateur ou par une autorité textuelle citée, jamais auto-décrétée par l'IA.
-> **Lectures suggérées** (champ ajouté 2026-06-28) : 1 à 3 lectures réellement rattachées à la généalogie de *cette* fiche (pages du wiki, `meta/bibliotheque-physique.md`, ou candidates à `raw/`).
+> **Lectures suggérées** (champ ajouté 2026-06-28 ; renvoi repointé le 2026-09-18, verdict Sidy) : 1 à 3 lectures réellement rattachées à la généalogie de *cette* fiche — pages du wiki, catalogue de la bibliothèque physique (`atelier/rd/bibliotheque/catalogue-bibliotheque.md`, **consultation humaine, sans wikilink** : `doctrinal/` ne lie jamais vers `atelier/`, §VI), ou candidates à `raw/`. L'ancien chemin `meta/bibliotheque-physique.md` est un **tombstone** depuis le 2026-08-22.
 
 Rappels : Commandement 12 (*upakarana*) — l'IA documente la généalogie et signale
 les tensions formelles ; elle ne tranche jamais la validité métaphysique. Une
