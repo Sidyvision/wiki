@@ -8,6 +8,103 @@ updated: 2026-09-18
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] archivage | Planche des Imams des Noms divins — fiche réécrite sur la planche, Figure 7 de Gloton mise en regard
+
+Intégration du sas `_inbox/2026-09-18_diagramme-imams-noms-divins/`, sur verdict de Sidy
+(« tu es aussi autorisé à réécrire sur les fiches précédentes »). **Une fiche réécrite,
+une enrichie en ajout seul, sas vidé.** Complète l'entrée du même jour qui ne portait que
+le versement des pièces graphiques.
+
+### La fiche réécrite, et ce qu'elle remplace
+
+**[[doctrinal/symboles/imams-noms-divins]]** — 23 → 442 lignes, `created: 2026-06-20`
+préservé (Cmd 8). La rédaction antérieure procédait d'un **commentaire de modèle
+conversationnel** sur la planche, non de la planche : réputée **reconstruction plausible
+et non source** (§VII, discipline des sources, point 3). Elle portait d'ailleurs ses
+propres réserves — `to-source`, tag `citations-a-verifier`, deux « citation non vérifiée ».
+La confrontation les **confirme et les précise**.
+
+**Six écarts**, les trois plus conséquents : (1) la planche porte **sept Imams numérotés**
+(الأول … السابع), non une pentarchie — **المحكم** et **المخصص** n'y sont pas les Noms
+d'un Imam supplémentaire mais les **titres fonctionnels** de *al-ʿĀlim* et *al-Murīd* ;
+(2) la « Sphère de Rigueur (al-ʿAdl, al-Ḥikma, al-Qudra) » **n'existe pas** — le cercle de
+gauche est **سدنة الغضب**, avec six autres Noms ; (3) tout le cinquième étage — trois
+mondes, **حضرة الجنة والإيمان** / **حضرة النار والكفر** — était absent, c'est-à-dire
+précisément la charnière eschatologique. Les deux formulations arabes citées entre
+guillemets par la rédaction antérieure **ne figurent pas sur la planche**.
+
+**Un écart de traduction, le plus instructif** : le titre porte **دوائر ورقائق**, rendu
+« cercles et **feuilles** ». **رقائق** est le pluriel de **رقيقة**, la liaison subtile,
+non de **ورقة**. La planche emploie ce mot une vingtaine de fois pour nommer chacun de
+ses segments — **c'est son terme technique propre**, et il manquait entièrement.
+
+### Ce que la fiche porte désormais
+
+Relevé de la planche **حقائق الحضرة الإلهيّة — دوائر ورقائق أحكام أئمة الأسماء الإلهية**
+(Ibn al-Arabi Foundation) : 5 étages, 7 Imams numérotés avec leurs titres fonctionnels,
+3 cercles de *sadana* (22 Noms, recoupements compris), 3 mondes, 2 Présences, **23
+intitulés de *raqāʾiq***. **Deux intitulés déclarés non levés** plutôt que complétés
+(§VII, langues originales, point 4) : `رقيقة إيجاد المعابر (?)` et `رقيقة الحكم (?)`.
+Champ **`original: ["أئمة الأسماء الإلهية"]`** ajouté, syntagme déclaré entier (point 7).
+
+**Mise en regard de la Figure 7 de Gloton (p. 97)**, photographiée par Sidy : mêmes sept
+Imams **un à un**, et **pas la même figure** — neuf Noms (Organisateur et Séparateur
+s'ajoutent, tous deux **sur l'axe**, là où la planche arabe n'inscrit que des *raqāʾiq*),
+aucun segment tracé, aucune *raqīqa*, aucun *sadana*, registre terminal distinct (anneau
+Intermonde/Barzakh, Ce bas monde, terre du Rassemblement, Jardin, Feu).
+
+**Relevé kabbalistique** (consigne de Sidy) — 🔍 *kari-kumi*, **aucune fiche
+`discernement` ouverte**, aucun verdict : la planche est nativement une structure de
+stations et de voies, et la latéralité qualitative concorde sur ses trois termes
+(droite/Miséricorde ↔ سدنة الرضى ; gauche/Rigueur ↔ سدنة الغضب ; milieu/Équilibre ↔ le
+cercle central, qui porte des Noms des deux côtés et dont la liaison se nomme **رقيقة
+الجمع بين النفع والضرر**). **Refusé** : le rapprochement 23 *raqāʾiq* / 22 sentiers.
+**Ne concorde pas** : les sentiers portent des lettres, les *raqāʾiq* des **أحكام** ; et
+l'axe ne porte aucune station cardiaque, le 6ᵉ Imam étant à droite.
+
+### La fiche source enrichie, en ajout seul
+
+**[[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]]** — point 4 d'« À
+transcrire ultérieurement » (la **série des figures**, dont le dépôt ne connaît que la
+septième ; la partie du livre dont relève la p. 97, le texte transcrit couvrant les
+pp. 35-48 ; et la **page arabe en regard**, seule à pouvoir donner la forme originale
+d'« Organisateur » et de « Séparateur ») et une entrée aux « Concepts liés ». Champ
+`sources:` **non touché**, `updated:` remonté.
+
+### Vérification structurelle — résultats bruts
+
+- `verifier-invariants.py` — **0 erreur, 77 avertissements**, identique à la base, et
+  **aucune ligne** sur les deux fiches. Les marqueurs 🔍 posés **sur la ligne** des deux
+  liens vers des discernements `speculatif` empêchent C6, comme prévu.
+- `valider-annotations.py` — 18 anomalies, 6 signalements, **aucun sur les deux fiches** :
+  elles ne portent aucune annotation, et le lot n'en a introduit aucune.
+- `carte-du-depot.py` — la fiche conserve son lien entrant (`index.md`), compte désormais
+  **7 liens sortants**, et n'est pas orpheline.
+- `generer-cartographie.py` — graphe régénéré, **aucune anomalie** sur les deux fiches.
+- Index lexical régénéré : 11895 termes distincts, 838 fiches, 860 textes.
+
+### Ce qui reste ouvert
+
+**Le `to-source` demeure** — verdict (c) non rendu, et il ne m'appartient pas (§VII,
+discipline des sources, point 2). La Figure 7 établit qu'un texte traduit par Gloton
+porte la même hiérarchie de sept Noms ; elle n'établit pas que la planche en procède.
+Restent également : la forme originale d'« Organisateur » et de « Séparateur », les
+autres figures de l'ouvrage, les deux *raqāʾiq* de lecture réservée, et — pour tout
+rapprochement kabbalistique — l'arrangement des **22 sentiers**, que le dépôt ne
+documente pas.
+
+### Note d'environnement, sans effet sur le dépôt
+
+Trois scripts d'outillage visent `/root/wiki` par défaut (le chemin du serveur). En
+session distante il faut leur passer la racine : `--racine` (index lexical, validateur),
+`--repo` (carte du dépôt), `--depot` (graphe). Sans quoi l'index refuse franchement —
+« source Jurjānī absente » — ce qui est le bon comportement, mais dont le motif réel est
+la racine, non la source.
+
+- **Commit** : 4d905a8
+
+---
+
 ## [2026-09-18] archivage | Planche des Imams des Noms divins — versement des deux pièces graphiques seules
 
 Écriture **partielle et volontairement bornée** : seules les **pièces graphiques** entrent
