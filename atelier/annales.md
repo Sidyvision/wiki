@@ -29,7 +29,7 @@ Troisième passe du jour, sur consigne « je valide l'ensemble, tu peux engager 
   copie jetable hors dépôt, verte après ; `E9` (caducité réelle) reste verte — le signal
   n'est pas éteint, il est devenu vrai. Les douze épreuves passent.
 - **Registre des problèmes** : entrée `[2026-09-18]`.
-- **Commit** : voir ci-dessous
+- **Commit** : 1d1c1d1
 
 ## [2026-09-18] verdicts | Exécution des verdicts de Sidy, point par point — catalogue, chantier OUT-20, et deux mesures qui renversent un signalement
 
