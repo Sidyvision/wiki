@@ -314,8 +314,11 @@ du 2026-09-18 : **589 occurrences dans 156 fiches, 0 ambiguïté**. Elle ne tien
 une chose, et cette chose est vérifiable : **l'unicité du basename dans le dépôt**. Le
 jour où deux fichiers porteraient le même nom, un renvoi court changerait de cible
 **silencieusement**, dans une fiche que personne n'éditait. C'est donc l'unicité qui
-est gardée, non la forme : **garde mécanique B9** (chantier `OUT-20`, plan visé le
-2026-09-18, **code non écrit** — épreuve par l'échec exigée §VII avant toute confiance).
+est gardée, non la forme : **garde mécanique B9** (chantier `OUT-20`, **livrée et
+éprouvée par l'échec le 2026-09-18**, §VII : vue refuser sur un homonyme fabriqué, y
+compris déposé dans le sas — où elle est le seul contrôle qui voie). B9 **ne refuse que
+si un renvoi court vise effectivement** le basename doublé : elle garde ce qui casse un
+lien, non ce qui déplaît à l'œil.
 **Ce que la mesure de l'étape 1 a établi le 2026-09-18, et qu'il faut lire avec la règle** :
 l'unicité du basename **n'est déjà plus vraie** — **17 collisions existent entre
 circuits**, dont 12 sont la trace voulue de la migration du 2026-08-08 (stubs

@@ -9,6 +9,38 @@ updated: 2026-09-18
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] outillage | B9 livré et éprouvé — le wikilink court a enfin sa garde
+
+Étapes 2 à 6 du plan `OUT-20`, exécutées le jour même que son visa.
+
+- **Les deux verdicts de Sidy, rendus sur la mesure** : refus **seulement** si un renvoi
+  court vise le basename doublé — un refus sec aurait échoué 17 fois dès la première
+  exécution, sur des doublons **voulus** (stubs `deprecated` du Cmd 10, paires
+  `autorites/`↔`references/`) ; périmètre = les cinq circuits **plus `_inbox/`**,
+  `textes/` et `protocoles/` dehors.
+- **Deux pièges mesurés avant d'écrire une ligne.** (1) B9 n'est pas un doublon de `C2` :
+  `C2` avertit sur un lien ambigu dans l'**index de résolution**, d'où `_inbox/` est
+  absent — or le sas est la porte par laquelle la collision entre ; `C2` regarde les
+  liens, B9 les fichiers. (2) `_inbox` figure dans `DOSSIERS_EXCLUS` : réutiliser
+  `hors_perimetre()` aurait **annulé le verdict par un détail d'implémentation**. B9 porte
+  son propre filtre, et le motif est écrit dans le code à l'endroit exact où l'on serait
+  tenté de « simplifier ».
+- **Épreuve par l'échec (§VII), quatre temps, en copie jetable hors dépôt vivant** : sain
+  → 0 erreur ; homonyme fabriqué **en circuit** → 31 erreurs, B9 **seul à nommer la
+  cause** (les 30 autres sont l'effet de bord de la résolution par slug) ; homonyme
+  fabriqué **dans le sas** → **exactement 1 erreur, B9 seul**, tous les autres contrôles
+  muets ; faute retirée → retour au vert. Le troisième temps est celui qui justifie le
+  chantier.
+- **Le dépôt vivant a refusé au premier passage** : `tariqa`, doublé par le lot du sas du
+  2026-09-17, visé en forme courte par cinq fiches. Des deux issues que le contrôle nomme,
+  la mécanique est appliquée — **8 occurrences dans 5 fiches** passent à
+  `[[doctrinal/symboles/tariqa]]`. **Le lot du sas n'est pas touché** : son intégration
+  est une passe à part entière, et B9 aura servi à la signaler **avant** qu'elle ait lieu.
+- **Ligne de base** : **0 erreur, 71 avertissements** — inchangée. La garde est en place
+  sans avoir rien coûté au dépôt.
+- **`OUT-20` passe à `resolu`** ; le §IV racine ne promet plus une garde qui n'existe pas.
+- **Commit** : 324a25a
+
 ## [2026-09-18] chantier | OUT-20, étape 1 : la mesure renverse la prémisse du chantier
 
 Visa de Sidy (« Je valide l'ensemble, tu peux engager ») pris pour ce qu'il est : le visa
