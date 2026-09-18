@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [contre-initiation, aqtab, septenaire, yezidis, druses, pole]
 created: 2026-07-28
-updated: 2026-09-09
+updated: 2026-09-18
 sources: []
 sources_count: 0
 cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/deviations/sept-tours-du-diable]]", "[[doctrinal/deviations/contre-initiation]]", "[[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]]", "[[doctrinal/symboles/walaya]]"]
@@ -20,7 +20,7 @@ Paris), paru dans *Le Voile d'Isis* / *Études Traditionnelles*, **1935, pp. 42-
 Repris dans le recueil posthume *Aperçus sur l'Ésotérisme islamique et le Taoïsme*.
 
 Exemplaire en collection (Sidy possède l'œuvre intégrale de Guénon, confirmé
-2026-07-28). Le recueil est à ajouter à `meta/bibliotheque-physique.md` — voir
+2026-07-28). Le recueil est à ajouter à `atelier/rd/bibliotheque/catalogue-bibliotheque.md` — voir
 signalement dans `UPDATES.md`.
 
 > ⚠️ **Pagination `to-source`** — la référence *E.T.*, 1935, pp. 42-43 est celle de la

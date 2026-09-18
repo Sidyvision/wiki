@@ -3,8 +3,8 @@ title: "Analyse technique : agents de recherche - perplexe vs cookbook"
 type: experience
 tags: ["agents", "research", "methodology", "soverainete"]
 created: 2026-08-28
-updated: 2026-08-28
-sources: ["[[atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity.md]]"]
+updated: 2026-09-18
+sources: ["[[atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity]]"]
 links: []
 ---
 

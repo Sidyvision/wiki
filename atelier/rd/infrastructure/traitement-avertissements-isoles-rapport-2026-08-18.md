@@ -3,12 +3,12 @@ title: "Traitement des 37 C4 + 12 C1 + 62 isolés — rapport monitoring 2026-08
 type: infrastructure
 tags: [rd, infrastructure, nettoyage, etanchéité, double-controle, validation-sidy]
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-09-18
 sources: ["rapport monitoring quotidien studio 2026-08-18"]
 links: [
   "[[atelier/rd/infrastructure/activation-salon-infrastructure-studio-2026-08-16]]",
   "[[atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17]]",
-  "[[atelier/rd/cahiers/registre-problemes.md]]"
+  "[[atelier/rd/cahiers/registre-problemes]]"
 ]
 infra_verif:
   profil: studio

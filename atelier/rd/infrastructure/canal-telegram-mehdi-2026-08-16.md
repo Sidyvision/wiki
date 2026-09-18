@@ -9,10 +9,10 @@ tags:
 - telegram
 - hermes
 created: 2026-08-16
-updated: 2026-09-16
+updated: 2026-09-18
 sources: []
 links:
-- '[[atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12.md]]'
+- '[[atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12]]'
 - '[[meta/transmissions/karubi-mehdi.md]]'
 - '[[meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07.md]]'
 - '[[meta/transmissions/registre-silsila.md]]'

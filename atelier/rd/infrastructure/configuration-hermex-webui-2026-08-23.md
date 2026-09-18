@@ -9,10 +9,10 @@ tags:
 - tailscale
 - hermes
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-09-18
 sources: []
 links:
-- '[[atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex.md]]'
+- '[[atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex]]'
 ---
 
 # Configuration Hermex (webui via Tailscale)

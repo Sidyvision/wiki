@@ -47,7 +47,7 @@ tranché** (§4).
 | Code | Point du rapport | Geste | Portée |
 |---|---|---|---|
 | **C** | Publication 09-17, signalement C | retrait de l'item vide `""` en queue de `cross_links` | 1 fiche `doctrinal/sources/` |
-| **L** | Studio 09-17 P3 (et 09-16 P1b) | normalisation des wikilinks écrits en forme `.md` vers une fiche **existante** — 17 occurrences, 10 fiches | `atelier/rd/` |
+| **L** | Studio 09-17 P3 (et 09-16 P1b) | normalisation des wikilinks de cartouche écrits en forme `.md` vers une fiche **existante** — 6 occurrences, 5 fiches (cf. rectification §3) | `atelier/rd/` |
 | **D′** | Publication 09-17, signalement D (moitié *pointeur*) | renvoi de corps vers `meta/bibliotheque-physique.md` (**tombstone** depuis le 2026-08-22) repointé sur `atelier/rd/bibliotheque/catalogue-bibliotheque.md` | 1 fiche `doctrinal/sources/` |
 | **A** | Studio 09-17 P5 | commit nommé des 4 archives de monitoring non suivies (09-16 ×2, 09-17 ×2), chemins stagés un par un | `monitoring-archive/` |
 | **J** | règle d'usage du registre | 4 entrées au registre de traitement + entrée au registre des problèmes + annales de circuit | `atelier/rd/`, `doctrinal/` |
@@ -66,9 +66,26 @@ Le rapport Studio annonce **48 « liens morts » dont la cible existe sur disque
 refaite ce jour (script de cartographie, `--verifier --rapport` en `/tmp`) décompose ces 48
 en **deux classes qui n'appellent pas le même geste** :
 
-- **17 occurrences réparables** (10 fiches) : le wikilink porte l'extension `.md` alors que
-  la cible est une fiche du dépôt indexée par son chemin sans extension. Forme fautive,
-  cible vivante : retrait de l'extension, rien d'autre.
+- **6 occurrences réparables** (5 fiches) : un **wikilink de cartouche** porte l'extension
+  `.md` alors que la cible est une fiche du dépôt indexée par son chemin sans extension.
+  Forme fautive, cible vivante : retrait de l'extension, rien d'autre.
+
+  **Rectification en cours d'exécution** (le contrat annonçait 17 sur la foi de la seule
+  sortie du graphe) : les 11 autres ne sont **pas** des wikilinks. Ce sont des **chemins
+  nus** portés par `sources:` — `atelier/rd/veille/cordis/methodes.md`,
+  `atelier/rd/bibliotheque/catalogue-bibliotheque.md`, etc. —, voisins dans la même liste
+  de `moisson-racines-gloton.tsv`, de `rapport-extraction.txt` et de chemins `raw/`. Un
+  chemin nu qui nomme un fichier porte légitimement son extension (convention du
+  2026-09-04) : leur retirer le `.md` serait une faute, pas une correction. Elles relèvent
+  du signalement P2 du même rapport — `sources:` lu comme un champ de liens — et sont
+  **laissées telles quelles**.
+
+  Sont également **écartées du geste**, et signalées au §4 : les 8 wikilinks `.md` dont la
+  cible est dans `meta/` (les normaliser rendrait résolvable un lien de circuit neutre vers
+  le Domaine Réservé — question d'étanchéité §VI, pas de forme), les 3 dont la cible est un
+  fichier **exclu par nom** (`CLAUDE.md`, `doctrinal/annales.md`, `atelier/rd/index.md` —
+  retirer l'extension n'y résout rien), et toutes les occurrences vivant dans un
+  `annales.md` (append-only : un journal ne se réécrit pas).
 - **30 occurrences non réparables — et qui ne sont pas des fautes** : elles visent
   `atelier/rd/index` (20), `atelier/rd/veille/index` (7), `doctrinal/index` (2),
   `atelier/rd/index.md` (1). Le générateur de cartographie **exclut par construction**
@@ -115,8 +132,23 @@ trois organes).
 ## 5. Contrôles
 
 - `verifier-invariants.py` **avant** : 1744 fichiers, 0 erreur, 71 avertissements.
-- `verifier-invariants.py` **après** : à reporter ci-dessous après exécution.
+- `verifier-invariants.py` **après** : 1745 fichiers, **0 erreur, 71 avertissements** —
+  identique, comme attendu : les 71 sont la classe C5/C6 tranchée le 2026-09-10, qu'aucun
+  geste de ce lot ne touche. Un compte inférieur aurait signalé une erreur de périmètre.
 - Cartographie `--verifier` **avant** : 252 avertissements (lien mort 167, isolée 80, lien 5).
-- Cartographie `--verifier` **après** : à reporter ci-dessous.
+- Cartographie `--verifier` **après** : **242** (lien mort **161**, isolée **77**, lien **4**).
+  Les 6 wikilinks normalisés retirent 6 liens morts ; 3 fiches cessent d'être « isolées »
+  (leurs renvois résolvent enfin) et le signalement `lien` de la même famille tombe.
+- Hygiène Unicode (Cmd 15) : PROPRE, 0 violation non couverte.
 
-<!-- RESULTATS -->
+## 6. Ce que cette passe apprend sur le compteur du graphe
+
+Le compteur « lien mort » du graphe **n'est pas un compte de fautes**. Sur les 167 du
+matin : 52 URL, 24 `raw/`, 20 `textes/`, 13 `meta/` (exclus par construction), **30 renvois
+vers un hub** (`index.md` est dans `FICHIERS_EXCLUS`, l. 134 du générateur — un renvoi vers
+`atelier/rd/index` sera compté mort tant que la règle tient), **11 chemins nus de
+`sources:`**, 9 cibles réellement absentes, et **6 fautes de forme** — celles que cette
+passe corrige. Un rapport qui annonce « 48 cibles existent sur disque » dit vrai et ne dit
+pas que 41 d'entre elles n'appellent aucun geste. C'est le sens de la proposition P1(a) du
+rapport Studio du 09-16 (que le script publie lui-même sa décomposition) : elle reste
+ouverte, comme chantier d'instrument et non comme correctif (§4).

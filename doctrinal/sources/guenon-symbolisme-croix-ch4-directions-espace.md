@@ -5,10 +5,10 @@ status: traditionnel
 tradition_cadre: "universel"
 tags: [guenon, symbolisme-croix, directions-espace, septenaire, qabbalah, sepher-ietsirah, axe-polaire, solsticial-equinoxial]
 created: 2026-07-16
-updated: 2026-09-09
+updated: 2026-09-18
 sources: []
 sources_count: 0
-cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]", ""]
+cross_links: ["[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]]"]
 ---
 
 # Guénon — Le Symbolisme de la Croix, ch. IV : Les directions de l'espace
