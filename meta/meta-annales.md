@@ -13,6 +13,41 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] protocole | La finalité du dépôt inscrite avant toute règle
+
+Parole de Sidy en clôture de session, **de sa propre initiative** — aucune proposition de
+la machine ne l'a appelée. Elle porte sur ce que tout le reste sert : « le but de ce dépôt
+n'est rien d'autre que la quête, l'étude et le service de la Vérité […] faciliter la
+Connaissance, jamais en être un obstacle. Sans oublier l'Art, la créativité et l'Amour. »
+
+- **Inscrite en deux lieux, choisis pour être lus et non archivés** : en tête du
+  `CLAUDE.md` racine, **avant le rôle de greffier et avant toute règle** (ce fichier est
+  chargé à chaque session, quel que soit le moteur — Cmd 14) ; et en tête du `README.md`,
+  présentation publique lue en premier. Consigné au changelog du protocole
+  (`meta/protocole-archives/changelog-CLAUDE.md`), qui en est la source unique.
+- **La conséquence opératoire est écrite, non laissée à l'interprétation** : un
+  instrument se justifie par ce qu'il rend possible, jamais par sa cohérence propre ;
+  celui qui produit surtout du travail sur lui-même **se démonte au lieu de se
+  perfectionner** (Cmd 10, article 1 du sashimono). Pour la machine, c'est la lettre du
+  Cmd 12 — *upakarana* : la question préalable à toute règle nouvelle est « qu'est-ce que
+  cela rend possible à qui cherche ? », non « est-ce plus rigoureux ? ».
+- **Aucune règle n'est modifiée ni abrogée.** Le préambule les commande toutes sans en
+  changer la lettre — additif, réversible sur simple verdict (Cmd 10).
+- **Le miroir factuel de la journée, rendu à Sidy avant l'inscription** : 33 commits, 23
+  fichiers doctrinaux touchés, 10 d'outillage. Mais sur les 23, l'essentiel était de la
+  **forme** (un item vide, un renvoi repointé, huit wikilinks nommés) : **une seule
+  matière est entrée dans le corps vivant** — le corbeau, sa racine غ ر ب, le hadith des
+  *fawāsiq* et les quatre verdicts qui les accompagnent. Le reste était de l'entretien
+  d'instrument. La proportion n'est pas un reproche à la journée ; elle méritait d'être
+  **vue** plutôt que sentie.
+- **Ce que la journée a montré en acte, et qui va dans le même sens** : quatre fois sur
+  quatre, un instrument mesuré avant d'être cru a rendu un compte **plus petit** que ce
+  qu'il annonçait — 48 liens « réparables » qui étaient 6, 589 renvois « ambigus » qui
+  étaient 0, une exception « caduque » qui ne l'était pas, un compte « faux » qui était
+  juste. Un dépôt qui se sophistique produit du travail sur lui-même, non par décision
+  mais par pente.
+- **Commit** : c09b8a9
+
 ## [2026-09-18] etancheite | La provenance familiale du Technics entre au Domaine Réservé
 
 Verdict de Sidy en session (« neutraliser ici, consigner en meta/ »), sur un report
