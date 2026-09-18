@@ -2,8 +2,8 @@
 title: "Index lexical — g"
 type: artefact-derive
 tags: [index-lexical, artefact-derive]
-created: 2026-09-15
-updated: 2026-09-15
+created: 2026-09-18
+updated: 2026-09-18
 sources: []
 links: []
 ---
@@ -12,58 +12,58 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `guenon` | Guenon, Guénon, guenon, guénon | — | — | annotation, table, tag, titre | **276 fiches** | LISEZ-MOI.md +409 | 2585 |
-| `grande` | GRANDE, Grande, grande | — | — | table, titre | **109 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +295 | 924 |
+| `guenon` | Guenon, Guénon, guenon, guénon | — | — | annotation, table, tag, titre | **278 fiches** | LISEZ-MOI.md +409 | 2591 |
+| `grande` | GRANDE, Grande, grande | — | — | table, titre | **111 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +295 | 928 |
+| `gauche` | Gauche, gauche | — | — | table, titre | **51 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +45 | 380 |
 | `gardien` | Gardien, gardien | — | — | table, tag, titre | **93 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-29.md +13 | 368 |
-| `gauche` | Gauche, gauche | — | — | table, titre | **48 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +45 | 357 |
-| `gens` | Gens, gens | — | — | titre | **33 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +121 | 343 |
-| `gizeh` | Gizeh, gizeh | — | — | annotation, table, tag, titre | **82 fiches** | — | 303 |
-| `gloton` | Gloton, gloton | — | — | annotation, table, tag, titre | **73 fiches** | corps-du-texte.md | 246 |
-| `git` | Git, git, gît | — | — | tag | **86 fiches** | LISEZ-MOI.md +8 | 227 |
-| `genealogie` | Généalogie, genealogie, généalogie | — | — | tag | **121 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +8 | 213 |
+| `gens` | Gens, gens | — | — | titre | **35 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-15.md +121 | 346 |
+| `gizeh` | Gizeh, gizeh | — | — | annotation, table, tag, titre | **86 fiches** | — | 308 |
+| `gloton` | Gloton, gloton | — | — | annotation, table, tag, titre | **79 fiches** | corps-du-texte.md | 283 |
+| `git` | Git, git, gît | — | — | tag | **108 fiches** | LISEZ-MOI.md +9 | 255 |
+| `genealogie` | Généalogie, genealogie, généalogie | — | — | tag | **124 fiches** | des-conditions-de-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +8 | 217 |
+| `gpu` | GPU | — | — | titre | **33 fiches** | — | 185 |
 | `guru` | GURU, Guru, guru | — | — | table, tag, titre | **11 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +22 | 184 |
-| `gpu` | GPU | — | — | titre | **31 fiches** | — | 176 |
-| `generation` | Génération, generation, génération | — | — | titre | **64 fiches** | 09-i.md +35 | 167 |
-| `geometrie` | Géométrie, geometrie, géométrie | — | — | definition, table, tag | **47 fiches** | influence-de-la-civilisation-islamique-en-occident-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +33 | 167 |
-| `ghazali` | GHAZALI, GHAZÀLI, GHAZÂLI, Ghazali (+7) | — | — | table, tag, titre, translit | **11 fiches** | LISEZ-MOI.md +12 | 163 |
-| `github` | GitHub, github | — | — | table, tag, titre | **43 fiches** | — | 148 |
+| `geometrie` | Géométrie, geometrie, géométrie | — | — | definition, table, tag | **49 fiches** | influence-de-la-civilisation-islamique-en-occident-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +33 | 169 |
+| `generation` | Génération, generation, génération | — | — | titre | **65 fiches** | 09-i.md +35 | 168 |
+| `ghazali` | GHAZALI, GHAZÀLI, GHAZÂLI, Ghazali (+7) | — | — | table, tag, titre, translit | **12 fiches** | LISEZ-MOI.md +12 | 164 |
+| `github` | GitHub, github | — | — | table, tag, titre | **44 fiches** | — | 149 |
 | `guide` | GUIDE, Guide, guide, guidé | — | — | table, titre | **35 fiches** | 00-front-matter.md +58 | 144 |
 | `guenonienne` | guenonienne, guénonienne | — | — | titre | **73 fiches** | sept-etendards-califat-transcription.md +1 | 143 |
+| `graphe` | Graphe, graphe | — | — | table, tag | **46 fiches** | LISEZ-MOI.md +4 | 138 |
 | `gem` | GEM, Gem, gem | — | — | titre | **36 fiches** | 03-c.md +11 | 128 |
-| `graphe` | Graphe, graphe | — | — | table, tag | **44 fiches** | LISEZ-MOI.md +4 | 123 |
 | `gateway` | Gateway, gateway | — | — | table, tag, titre | **33 fiches** | 10-j.md | 109 |
+| `global` | Global, global | — | — | table, titre | **54 fiches** | LISEZ-MOI.md +6 | 109 |
 | `graal` | GRAAL, Graal | — | — | table | [[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]] · [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] | noms-profanes-et-noms-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +25 | 106 |
 | `gunas` | Guṇas, gunas, guṇas | — | — | annotation, tag, titre, translit | **14 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +16 | 106 |
-| `global` | Global, global | — | — | titre | **51 fiches** | LISEZ-MOI.md +6 | 103 |
+| `generateur` | Générateur, generateur, générateur | — | — | table, tag, titre | **41 fiches** | la-puissance-du-serpent.md +2 | 105 |
 | `gloire` | Gloire, gloire | — | — | table | **14 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +27 | 98 |
+| `gout` | Goût, goût | — | — | table, titre | **25 fiches** | des-pretendus-pouvoirs-psychiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +22 | 97 |
 | `gilis` | Gilis, gilis | — | — | annotation, table, tag, titre | **25 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 96 |
-| `gout` | Goût, goût | — | — | table, titre | **23 fiches** | des-pretendus-pouvoirs-psychiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +22 | 95 |
-| `garantie` | Garantie, garantie | — | — | definition | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +21 | 92 |
-| `generateur` | Générateur, generateur, générateur | — | — | table, tag, titre | **36 fiches** | la-puissance-du-serpent.md +2 | 91 |
+| `garantie` | Garantie, garantie | — | — | definition | **40 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +21 | 94 |
 | `guna` | Guna, Guṇa, guna, guṇa | — | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · +2 | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +8 | 86 |
+| `gabarit` | GABARIT, Gabarit, gabarit | — | — | table, tag, titre | **41 fiches** | karubi-mehdi-navette-20260812.md +1 | 83 |
 | `genealogie des idees` | Généalogie des idées | — | — | definition | **72 fiches** | karubi-mehdi-navette-20260812.md | 82 |
-| `guardian` | Guardian, guardian | — | — | table | **17 fiches** | 03-c.md +21 | 80 |
-| `gabarit` | GABARIT, Gabarit, gabarit | — | — | table, tag, titre | **38 fiches** | karubi-mehdi-navette-20260812.md | 77 |
+| `guardian` | Guardian, guardian | — | — | table | **19 fiches** | 03-c.md +21 | 82 |
+| `glossaire` | Glossaire, glossaire | — | — | table, tag, titre | **29 fiches** | la-societe-theosophique-et-le-rosicrucianisme-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md | 81 |
+| `garde-fou` | Garde-fou, garde-fou | — | — | definition, table | **50 fiches** | index-conversion.md +1 | 79 |
 | `guardrails` | Guardrails, guardrails | — | — | table | **36 fiches** | — | 72 |
-| `garde-fou` | Garde-fou, garde-fou | — | — | definition, table | **46 fiches** | index-conversion.md | 68 |
-| `genere` | Génère, Généré, genere, génère (+1) | — | — | tag | **55 fiches** | karubi-mehdi-navette-20260812.md +3 | 68 |
-| `glossaire` | Glossaire, glossaire | — | — | tag, titre | **26 fiches** | la-societe-theosophique-et-le-rosicrucianisme-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md | 64 |
+| `genere` | Génère, Généré, genere, génère (+1) | — | — | tag | **56 fiches** | karubi-mehdi-navette-20260812.md +3 | 69 |
+| `grille` | Grille, grille | — | — | titre | **31 fiches** | corps-du-texte.md +1 | 64 |
 | `gouvernement` | Gouvernement, gouvernement | — | — | table | [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[atelier/rd/bibliotheque/table-ihwan-al-safa]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/sources/sefer-yetsira-ramban]] · [[doctrinal/sources/sefer-yetsira-ramban_source]] · +1 | la-revolte-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +26 | 62 |
-| `grille` | Grille, grille | — | — | titre | **29 fiches** | corps-du-texte.md +1 | 62 |
+| `grammaire` | GRAMMAIRE, Grammaire, grammaire | — | — | table, tag, titre | **22 fiches** | isaghuji-cours01-introduction-transcription.md +9 | 61 |
 | `geometriques` | géométriques | — | — | titre | **18 fiches** | influence-de-la-civilisation-islamique-en-occident-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +28 | 60 |
-| `grammaire` | GRAMMAIRE, Grammaire, grammaire | — | — | table, tag, titre | **21 fiches** | isaghuji-cours01-introduction-transcription.md +9 | 56 |
 | `golem` | Golem, golem | — | ✓ judaisme | table, tag, titre | **11 fiches** | — | 50 |
 | `gemeaux` | Gemeaux, Gémeaux, gémeaux | — | — | table | **22 fiches** | sefer-yetsira-ramban.md | 49 |
 | `genealogique` | Généalogique, généalogique | — | — | titre | **28 fiches** | corps-du-texte.md +1 | 45 |
 | `gilgul` | Gilgul, gilgul | — | ✓ kabbale | annotation, tag, titre | [[doctrinal/autorites/isaac-louria-arizal]] · [[doctrinal/deviations/reincarnation-vies-anterieures]] · [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · [[doctrinal/symboles/cinq-noms-ame]] · +3 | shaar-hagilgulim-gate-of-reincarnations.md | 43 |
-| `gravite` | Gravité, gravité | — | — | definition, table | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +11 | 33 |
+| `gravite` | Gravité, gravité | — | — | definition, table | **16 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +11 | 34 |
 | `gear` | Gear, gear | — | — | table, titre | **11 fiches** | arctic-ch05-the-vedic-dawns.md | 30 |
+| `glossaires` | Glossaires, glossaires | — | — | titre | **17 fiches** | — | 29 |
 | `glaciation` | glaciation | — | — | tag | [[doctrinal/sources/tilak-culture-aryenne-primitive-ch13]] | arctic-00-front-matter.md +7 | 28 |
-| `glossaires` | Glossaires, glossaires | — | — | titre | **16 fiches** | — | 28 |
 | `ghafla` | Ghafla, ghafla | — | ✓ islam | annotation, table, tag, titre | **9 fiches** | — | 26 |
 | `gayr` | ġayr | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 22 |
-| `gemini` | Gemini | — | — | definition | [[atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini]] · [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen]] · [[atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation]] · [[atelier/rd/infrastructure/incident-2026-09-03-omniroute-npm-interrompu-durcissement-ssh]] · +2 | 07-g.md +5 | 22 |
 | `governance` | Governance, governance | — | — | definition, table | **13 fiches** | — | 22 |
+| `gemini` | Gemini | — | — | definition | [[atelier/rd/cahiers/brouillons-extension-zodiacale/03-production-gemini]] · [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[atelier/rd/infrastructure/2026-08-26_migration-omniroute-quota-qwen]] · [[atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation]] · [[atelier/rd/infrastructure/incident-2026-09-03-omniroute-npm-interrompu-durcissement-ssh]] · +2 | 07-g.md +5 | 19 |
 | `greatest` | Greatest, greatest | — | — | table | [[doctrinal/autorites/ali-hussain]] · [[doctrinal/sources/awrad-ibn-arabi]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | 08-h.md +10 | 19 |
 | `gene` | Gêne, gêne, gêné | — | — | titre | [[doctrinal/discernement/2026-06-20_experience-lefke-materia-secunda]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/journal/conversation-chatgpt-2026-06-15]] · +2 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +8 | 18 |
 | `georgel` | GEORGEL, Georgel | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence]] · [[doctrinal/sources/fin-des-temps-modernes-manvantara-mahdi-rouge]] · [[doctrinal/symboles/manvantara]] · +1 | gaston-georgel-les-rythmes-dans-l-histoire-2e-ed-formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon.md +1 | 18 |
@@ -83,8 +83,9 @@ links: []
 | `ganga` | Ganga, Gangâ, Gangā, Gaṅgā | — | — | table, translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] | la-puissance-du-serpent.md +3 | 10 |
 | `grassmann` | Grassmann | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch05-the-vedic-dawns.md +3 | 9 |
 | `garageband` | GarageBand, Garageband | — | — | table | [[atelier/materiel/neve-1073spx]] · [[atelier/materiel/tascam-model-12]] · [[label/production/album-personnel]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 8 |
+| `gazali` | Gazali, Gazäli, Ġazālī | — | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] | osman-yahya-08-repertoire.md | 8 |
+| `gevurah` | Gevurah, gevurah | — | — | annotation, table, tag | [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/kabbale-10-sefirot-structure]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/symboles/imams-noms-divins]] · [[doctrinal/symboles/polarite-laterale-de-l-axe]] | — | 8 |
 | `gothique` | gothique | — | — | annotation, tag | [[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]] · [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/frankenstein/frankenstein]] · [[meta/protocole-archives/changelog-CLAUDE]] | chapitre-xiii-l-athanor-titus-burckartt.md +2 | 8 |
-| `gevurah` | Gevurah, gevurah | — | — | annotation, table, tag | [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/kabbale-10-sefirot-structure]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/symboles/polarite-laterale-de-l-axe]] | — | 7 |
 | `gotama` | Gotama | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-23.md +2 | 7 |
 | `graphify` | Graphify, graphify | — | — | table, tag, titre | [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]] · [[atelier/rd/outillage/spec-essai-graphify]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 7 |
 | `genoux` | Genoux, genoux | — | — | table | [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] · [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]] | la-puissance-du-serpent.md +1 | 6 |
@@ -137,8 +138,11 @@ links: []
 | `geometrie-metaphysique` | geometrie-metaphysique | — | — | tag | [[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]] | — | 0 |
 | `geometrie-sacree` | geometrie-sacree | — | — | tag | [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]] | — | 0 |
 | `geopolitique` | geopolitique | — | — | tag | [[doctrinal/discernement/2026-08-09_wahhabisme-effondrement-califat-grande-subversion]] | — | 0 |
+| `glossaire unifie — vide.` | Glossaire unifié — vide. | — | — | definition | [[atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab]] | — | 0 |
 | `gpt-4` | gpt-4 | — | — | tag | [[doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi]] · [[doctrinal/sources/alshammari-llm-ontologie-hadith-2026]] | — | 0 |
 | `gpu-cloud` | gpu-cloud | — | — | tag | **9 fiches** | — | 0 |
+| `gpu-loue` | gpu-loue | — | — | tag | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16]] | — | 0 |
+| `grammaire — partielle, et dormante cote gloton.` | Grammaire — partielle, et dormante côté Gloton. | — | — | definition | [[atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab]] | — | 0 |
 | `grand-mere-maternelle` | grand-mere-maternelle | — | — | tag | [[meta/genealogie/hawa-kante]] | — | 0 |
 | `grand-mere-paternelle` | grand-mere-paternelle | — | — | tag | [[meta/genealogie/fanta-nna-diabate]] | — | 0 |
 | `grand-pere-maternel` | grand-pere-maternel | — | — | tag | [[meta/genealogie/mamadou-doudou-sissoko]] | — | 0 |

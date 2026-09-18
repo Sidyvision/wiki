@@ -2,8 +2,8 @@
 title: "Index lexical — u"
 type: artefact-derive
 tags: [index-lexical, artefact-derive]
-created: 2026-09-15
-updated: 2026-09-15
+created: 2026-09-18
+updated: 2026-09-18
 sources: []
 links: []
 ---
@@ -12,32 +12,32 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `universel` | UNIVERSEL, Universel, universel | — | — | table, tag, titre | **151 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +158 | 827 |
-| `universelle` | Universelle, universelle | — | — | table, titre | **69 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +202 | 612 |
+| `universel` | UNIVERSEL, Universel, universel | — | — | table, tag, titre | **152 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +158 | 828 |
+| `universelle` | Universelle, universelle | — | — | table, titre | **70 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +202 | 613 |
 | `upanishad` | Upanishad, Upanishâd, upanishad | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · +3 | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +45 | 180 |
 | `utilisation` | Utilisation, utilisation | — | — | table | **56 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +5 | 156 |
-| `usul` | Usûl, Usül, Uṣūl, usul (+4) | — | ⚖ islam | annotation, table, tag, titre, translit | **14 fiches** | isaghuji-cours01-introduction-transcription.md +6 | 88 |
-| `unifie` | unifie, unifié | — | — | titre | **37 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +10 | 80 |
+| `usul` | Usûl, Usül, Uṣūl, usul (+4) | — | ⚖ islam | annotation, table, tag, titre, translit | **15 fiches** | isaghuji-cours01-introduction-transcription.md +6 | 89 |
+| `unifie` | unifie, unifié | — | — | titre | **38 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +10 | 82 |
 | `upanishads` | UPANISHADS, Upanishads | — | — | table | **11 fiches** | la-puissance-du-serpent.md +28 | 62 |
-| `ulum` | Ulûm, Ulüm, ulûm, ulüm (+4) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya]] · [[doctrinal/autorites/al-ghazali]] · [[doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +2 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +12 | 57 |
-| `unicode` | Unicode, unicode | — | — | table, tag | **28 fiches** | LISEZ-MOI.md | 55 |
+| `unicode` | Unicode, unicode | — | — | table, tag | **31 fiches** | LISEZ-MOI.md | 60 |
+| `ulum` | Ulûm, Ulüm, ulûm, ulüm (+4) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/incidents/2026-09-14_amortissement-constat-doctrinal-traduction-ihya]] · [[doctrinal/autorites/al-ghazali]] · [[doctrinal/references/muhammad-nasir-al-din-al-albani]] · [[doctrinal/sources/fazl-ul-karim-traduction-abregee-ihya]] · +2 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +12 | 58 |
 | `user` | USER, User, user | — | — | table | **19 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +5 | 55 |
-| `upakarana` | Upakarana, Upakaraṇa, upakarana | — | — | annotation, tag, titre, translit | **26 fiches** | — | 43 |
+| `upakarana` | Upakarana, Upakaraṇa, upakarana | — | — | annotation, tag, titre, translit | **27 fiches** | — | 44 |
 | `uqlat` | Uqlat, uqlat, ʿUqlat | — | — | titre, translit | **17 fiches** | osman-yahya-02-chapitre-01.md +2 | 43 |
 | `upaguru` | UPAGURU, upaguru | — | ⚖ universel | annotation, tag, titre | [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] · [[atelier/rd/cahiers/registre-problemes]] · [[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]] · [[doctrinal/sources/guenon-crise-monde-moderne-ch4-science-sacree-science-profane]] · [[doctrinal/sources/guenon-initiation-realisation-ch20-guru-upaguru]] · +2 | initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon-9.md +1 | 39 |
 | `utilisateur` | Utilisateur, utilisateur | — | — | tag | **21 fiches** | — | 34 |
+| `url` | URL, url | — | ⚖ islam | definition | **24 fiches** | — | 33 |
 | `unification` | Unification, unification | — | — | tag, titre | **11 fiches** | 03-c.md +10 | 29 |
-| `url` | URL, url | — | ⚖ islam | definition | **22 fiches** | — | 29 |
 | `ushas` | Ushas, ushas | — | — | table, tag | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · [[doctrinal/symboles/ushas-les-trente-aurores]] | arctic-ch05-the-vedic-dawns.md +5 | 26 |
 | `uzayr` | UZAYR, Uzayr, ʿUzayr | — | — | table, translit | [[atelier/rd/instrument/soumission-gem-reponse-gloton]] · [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]] · [[doctrinal/sources/mahdi-rouge-islam-signe-balance-I]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · +2 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 26 |
 | `upanisad` | Upanisad, Upaniṣad | — | — | table, translit | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/discernement/2026-07-26_adam-qadmon-insan-kamil-wang-vaishvanara]] · [[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]] · +3 | les-disciplines-spirituelles.md +1 | 23 |
 | `universal` | Universal, universal | — | — | titre | [[doctrinal/sources/universal-man-jili]] · [[label/production/album-personnel]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | 09-i.md +9 | 21 |
+| `umar` | Umar, ʿUmar | — | — | translit | **10 fiches** | isaghuji-cours01-introduction-transcription.md | 18 |
 | `upanisads` | Upanisads, Upaniṣads | — | — | table, translit | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/symboles/adityas-mois-du-soleil]] | iv.md +2 | 18 |
 | `updates` | UPDATES, Updates, updates | — | — | definition, table | **15 fiches** | — | 18 |
 | `uttarayana` | Uttarayana, Uttarâyana, uttarayana, uttarâyana (+1) | — | — | annotation, tag, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · [[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]] · [[doctrinal/symboles/devayana-pitriyana]] | luz-ou-le-sejour-d-immortalite-le-roi-du-monde-index-de-l-uvre-de-rene-guenon.md +4 | 15 |
 | `ubudiyya` | Ubüdiyya, ubudiyya, ubûdiyya, ubüdiyya (+2) | — | — | translit | [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 14 |
 | `ulama` | ULAMA, ulama, ulamâ, ʿulamâʾ (+1) | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/walaya-fath-adab]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +3 | 14 |
-| `umar` | Umar, ʿUmar | — | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]] · +2 | isaghuji-cours01-introduction-transcription.md | 12 |
 | `unesco` | UNESCO, Unesco | — | — | table | [[atelier/etudes-de-cas/xuankong-temple-suspendu]] · [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[meta/carte-du-depot]] · [[meta/genealogie/2026-09-15_balla-fasseke-kouyate-sosso-bala]] · [[meta/lot-synthese-kamon-kouyate-2026-09-15]] | LISEZ-MOI.md +2 | 12 |
 | `uranus` | Uranus | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/discernement/2026-06-20_astrologie-akbarienne-fard]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · [[doctrinal/symboles/ilm-al-nujum]] · [[meta/personnel/2026-06-20_theme-astrologique]] · +2 | la-question-des-mahatmas-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +1 | 12 |
 | `urasawa` | Urasawa | — | — | table, titre | [[atelier/rd/cahiers/rapport-studio-exploration-preliminaire]] · [[hermeneutique/20th-century-boys/20th-century-boys]] · [[hermeneutique/auteurs/naoki-urasawa]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · +1 | — | 12 |
@@ -54,7 +54,8 @@ links: []
 | `unani` | Unani | — | — | table | [[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]] · [[doctrinal/deviations/body-types]] · [[doctrinal/deviations/morphopsychologie]] · [[doctrinal/symboles/tibb-e-nabawi]] | — | 5 |
 | `uquba` | uqûba, ʿuqûba | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md | 5 |
 | `ustuqusat` | usṭuqusât, usṭuqusāt | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
-| `utman` | Utman, ʿUṯmân, ʿuṯmân | — | — | translit | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
+| `uthman` | Uthman, Uthmân, ʿUthmān | — | — | translit | [[doctrinal/autorites/muhammad-abul-huda-al-yaqoubi]] · [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]] | 22-v.md | 5 |
+| `utman` | Uṯmān, ʿUṯmân, ʿuṯmân | — | — | translit | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
 | `udeshyat` | Udeshyat | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch05-the-vedic-dawns.md | 4 |
 | `udyat` | Udyat | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch05-the-vedic-dawns.md | 4 |
 | `umra` | umra, ʿUmra, ʿumra, ʿumrâ | — | — | translit | [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md | 4 |
@@ -77,6 +78,7 @@ links: []
 | `un point a ne pas laisser filer` | Un point à ne pas laisser filer | — | — | definition | [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] | — | 1 |
 | `une divergence declaree` | Une divergence déclarée | — | — | definition | [[atelier/rd/outillage/2026-09-08_serveur-mcp-wiki]] | — | 1 |
 | `une seule divergence assumee` | Une seule divergence assumée | — | — | definition | [[atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise]] | — | 1 |
+| `uniquement dans la lecture de hafs` | uniquement dans la lecture de Ḥafṣ | — | ⚖ islam | definition | [[doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya]] | — | 1 |
 | `uqlat-al-mustawfiz` | uqlat-al-mustawfiz | — | — | annotation, tag | [[doctrinal/sources/fin-des-temps-modernes-equinoxes-zodiaque-mahdi-rouge]] | — | 1 |
 | `usage attendu` | Usage attendu | — | — | definition | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] | — | 1 |
 | `une limitation structurelle rapportee, non contournee` | Une limitation structurelle rapportée, non contournée | — | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 0 |

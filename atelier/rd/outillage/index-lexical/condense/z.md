@@ -2,8 +2,8 @@
 title: "Index lexical — z"
 type: artefact-derive
 tags: [index-lexical, artefact-derive]
-created: 2026-09-15
-updated: 2026-09-15
+created: 2026-09-18
+updated: 2026-09-18
 sources: []
 links: []
 ---
@@ -18,13 +18,14 @@ links: []
 | `zodiac` | Zodiac, zodiac | — | — | table | **31 fiches** | 10-j.md +12 | 99 |
 | `zosaku` | zosaku, zōsaku | — | — | annotation, tag, titre, translit | **37 fiches** | — | 68 |
 | `zahir` | Zâhir, Zähir, zahir, zâhir (+2) | — | — | tag, titre, translit | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 39 |
-| `zwj` | ZWJ | — | — | titre | **14 fiches** | — | 30 |
+| `zwj` | ZWJ | — | — | titre | **15 fiches** | — | 31 |
 | `zeus` | Zeus | — | — | table | [[atelier/rd/bibliotheque/index-noms-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · [[doctrinal/symboles/poseidon]] | la-grande-triade-index-de-l-uvre-de-rene-guenon-5.md +9 | 25 |
 | `zuhur` | Zuhur, zuhûr, zuhūr, ẓuhûr | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/sources/universal-man-jili]] | sept-etendards-califat-transcription.md +3 | 20 |
+| `zakat` | Zakât, zakat, zakât, zakāt | — | — | table, translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya]] · [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · +3 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 15 |
 | `zam` | zam, zaʿm | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-03-chapitre-02.md +5 | 14 |
+| `zephyr` | Zéphyr | — | ✓ hellenisme | titre | [[doctrinal/symboles/zephyr]] · [[meta/carte-du-depot]] | — | 14 |
 | `zaid` | Zaïd, zâʾid | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +2 | 13 |
 | `zimmer` | Zimmer | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-9.md +4 | 13 |
-| `zakat` | Zakât, zakat, zakât, zakāt | — | — | table, translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] · [[doctrinal/sources/koly-cherif-keita-djinns-aident-humains]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +2 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 12 |
 | `zay` | zay, zây, zāy | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/shams-al-maarif]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/ilm-al-huruf]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 12 |
 | `zaman` | zamân, zamān | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 11 |
 | `zuhal` | zuhal, zuḥal | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 10 |

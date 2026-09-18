@@ -2,8 +2,8 @@
 title: "Index lexical — i"
 type: artefact-derive
 tags: [index-lexical, artefact-derive]
-created: 2026-09-15
-updated: 2026-09-15
+created: 2026-09-18
+updated: 2026-09-18
 sources: []
 links: []
 ---
@@ -12,78 +12,80 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `index` | INDEX, Index, index | — | — | tag | **100 fiches** | LISEZ-MOI.md +416 | 1656 |
-| `ibn` | IBN, IBn, Ibn, ibn | — | — | titre | **182 fiches** | LISEZ-MOI.md +83 | 1483 |
+| `index` | INDEX, Index, index | — | — | tag | **105 fiches** | LISEZ-MOI.md +416 | 1678 |
+| `ibn` | IBN, IBn, Ibn, ibn | — | — | titre | **191 fiches** | LISEZ-MOI.md +83 | 1528 |
 | `initiatique` | INITIATIQUE, Initiatique, initiatique | — | — | table, titre | **75 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +180 | 846 |
-| `islamique` | Islamique, islamique | — | — | table, titre | **172 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +146 | 703 |
-| `indra` | Indra, indra | — | — | table, titre | **16 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-15.md +25 | 571 |
+| `islamique` | Islamique, islamique | — | — | table, titre | **174 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +146 | 707 |
+| `indra` | Indra, indra | — | — | table, titre | **16 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-15.md +25 | 570 |
 | `idees` | Idées, idées | — | — | titre | **93 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +171 | 518 |
-| `interpretation` | INTERPRETATION, INTERPRÉTATION, Interpretation, Interprétation (+2) | — | — | definition, table | **61 fiches** | LISEZ-MOI.md +157 | 472 |
-| `infrastructure` | INFRASTRUCTURE, Infrastructure, infrastructure | — | — | definition, table, tag, titre | **119 fiches** | — | 465 |
-| `identite` | IDENTITÉ, Identité, identite, identité | — | — | table, tag | **147 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +80 | 445 |
-| `introduction` | INTRODUCTION, Introduction, introduction | — | — | table, tag, titre | **58 fiches** | LISEZ-MOI.md +121 | 406 |
-| `islam` | ISLAM, Islam, Islâm, Isläm (+3) | — | — | table, titre, translit | **152 fiches** | 01-a.md +35 | 388 |
+| `infrastructure` | INFRASTRUCTURE, Infrastructure, infrastructure | — | — | definition, table, tag, titre | **124 fiches** | — | 482 |
+| `interpretation` | INTERPRETATION, INTERPRÉTATION, Interpretation, Interprétation (+2) | — | — | definition, table | **66 fiches** | LISEZ-MOI.md +157 | 477 |
+| `identite` | IDENTITÉ, Identité, identite, identité | — | — | table, tag | **150 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +80 | 455 |
+| `introduction` | INTRODUCTION, Introduction, introduction | — | — | table, tag, titre | **59 fiches** | LISEZ-MOI.md +121 | 408 |
+| `islam` | ISLAM, Islam, Islâm, Isläm (+3) | — | — | table, titre, translit | **154 fiches** | 01-a.md +35 | 392 |
 | `initiation` | INITIATION, Initiation, initiation | — | — | table, tag, titre | **46 fiches** | 08-h.md +116 | 363 |
-| `individuel` | Individuel, individuel | — | — | tag | **45 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +130 | 355 |
+| `individuel` | Individuel, individuel | — | — | tag | **47 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +130 | 357 |
 | `initiatiques` | INITIATIQUES, initiatiques | — | — | titre | **29 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +121 | 344 |
-| `intermediaire` | Intermédiaire, intermédiaire | — | — | titre | **95 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +80 | 324 |
+| `instrument` | INSTRUMENT, Instrument, instrument | — | — | definition, table, tag, titre | **138 fiches** | 03-c.md +49 | 328 |
+| `intermediaire` | Intermédiaire, intermédiaire | — | — | titre | **98 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +80 | 327 |
 | `influences` | INFLUENCES, Influences, influences, influencés | — | — | table, titre | **21 fiches** | 01-a.md +132 | 323 |
+| `image` | Image, image | — | — | table, titre | **85 fiches** | 05-e.md +129 | 317 |
 | `individuelle` | INDIVIDUELLE, individuelle | — | — | titre | **51 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +115 | 316 |
-| `image` | Image, image | — | — | table, titre | **83 fiches** | 05-e.md +129 | 314 |
-| `instrument` | INSTRUMENT, Instrument, instrument | — | — | definition, table, tag, titre | **133 fiches** | 03-c.md +49 | 312 |
-| `integration` | INTEGRATION, INTÉGRATION, Integration, Intégration (+2) | — | — | table, titre | **102 fiches** | 01-a.md +13 | 245 |
-| `identification` | Identification, identification | — | — | definition, table, titre | **65 fiches** | 01-a.md +68 | 232 |
+| `integration` | INTEGRATION, INTÉGRATION, Integration, Intégration (+2) | — | — | table, titre | **107 fiches** | 01-a.md +13 | 254 |
+| `identification` | Identification, identification | — | — | definition, table, titre | **69 fiches** | 01-a.md +68 | 238 |
+| `imam` | IMAM, Imam, Imàm, Imâm (+5) | — | — | translit | **28 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +28 | 195 |
 | `ilm` | Ilm, ilm, ʿIlm, ʿilm | — | — | titre, translit | **46 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +11 | 192 |
-| `idris` | Idris, Idrîs, Idrīs, idris | — | ✓ islam | annotation, table, tag, titre, translit | **38 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +6 | 186 |
-| `imam` | IMAM, Imam, Imàm, Imâm (+5) | — | — | translit | **24 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +28 | 181 |
-| `interdit` | INTERDIT, Interdit, interdit | — | — | definition | **89 fiches** | LISEZ-MOI.md +20 | 167 |
-| `investigation` | Investigation, investigation | — | — | definition, table, titre | **34 fiches** | 11-k.md +17 | 139 |
-| `incident` | Incident, incident | — | — | table, titre | **60 fiches** | 04-d.md +9 | 136 |
+| `idris` | Idris, Idrîs, Idrīs, idris | — | ✓ islam | annotation, table, tag, titre, translit | **40 fiches** | la-chirologie-dans-l-esoterisme-islamique-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +6 | 188 |
+| `interdit` | INTERDIT, Interdit, interdit | — | — | definition | **94 fiches** | LISEZ-MOI.md +20 | 171 |
+| `investigation` | Investigation, investigation | — | — | definition, table, titre | **34 fiches** | 11-k.md +17 | 142 |
+| `incident` | Incident, incident | — | — | table, titre | **62 fiches** | 04-d.md +9 | 141 |
 | `indian` | Indian | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/guenon-symbolisme-du-dome-et-dome-roue]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]] · [[doctrinal/sources/guenon-remarques-doctrine-cycles-cosmiques]] · +1 | 02-b.md +47 | 120 |
-| `ismail` | Ismail, Ismaïl, Ismâʿîl, Ismāʿīl (+1) | — | — | translit | [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/autorites/al-jazari]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/universal-man-jili]] · [[doctrinal/symboles/maqamat-meknes]] | 01-a.md +12 | 114 |
-| `ibn-arabi` | ibn-arabi | — | ✓ islam | annotation, tag | **85 fiches** | — | 112 |
-| `inities` | Initiés, initiés | — | — | titre | **16 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +46 | 107 |
-| `illusion` | Illusion, illusion | — | — | tag | **12 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +70 | 106 |
+| `ismail` | Ismail, Ismaïl, Ismâʿîl, Ismāʿīl (+1) | — | — | translit | [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/autorites/al-jazari]] · [[doctrinal/autorites/muhammad-abul-huda-al-yaqoubi]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/universal-man-jili]] · +1 | 01-a.md +12 | 115 |
+| `ibn-arabi` | ibn-arabi | — | ✓ islam | annotation, tag | **85 fiches** | — | 113 |
+| `illusion` | Illusion, illusion | — | — | tag | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +70 | 109 |
+| `inities` | Initiés, initiés | — | — | titre | **17 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +46 | 108 |
+| `interface` | Interface, interface | — | — | table, tag, titre | **59 fiches** | karubi-mehdi-navette-20260812.md +1 | 100 |
 | `inconditionne` | INCONDITIONNÉ, Inconditionné, inconditionne, inconditionné | — | — | tag | **17 fiches** | grands-mysteres-et-petits-mysteres-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +42 | 98 |
 | `individualite` | individualite, individualité | — | — | tag | [[doctrinal/deviations/antitradition-et-contre-tradition]] · [[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]] · [[doctrinal/sources/guenon-etats-multiples-ch9-hierarchie-facultes]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]] · [[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]] · +1 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-13.md +57 | 98 |
-| `interface` | Interface, interface | — | — | table, tag, titre | **57 fiches** | karubi-mehdi-navette-20260812.md +1 | 98 |
 | `irs` | IRS | — | — | titre | **10 fiches** | a-propos-de-conversions-initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon.md +25 | 92 |
 | `isa` | Isa, Isä, isa, Îsä (+2) | — | — | tag, translit | [[doctrinal/autorites/ibn-arabi]] · [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/transcription-anneau-28-lettres-figure4]] · [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]] · +3 | 00-front-matter.md +16 | 88 |
-| `ida` | Ida, Idâ, Iḍā, ida (+5) | — | — | tag, translit | **14 fiches** | la-puissance-du-serpent.md +5 | 85 |
+| `ida` | Ida, Idâ, Iḍā, ida (+5) | — | — | tag, translit | **15 fiches** | la-puissance-du-serpent.md +5 | 87 |
 | `ihwan` | Ihwan, Ihwān, Iḫwān | — | — | table, titre, translit | **11 fiches** | osman-yahya-08-repertoire.md | 81 |
 | `intelligence` | Intelligence, intelligence | — | — | table, titre | **19 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +39 | 81 |
+| `inventaire` | Inventaire, inventaire | — | — | tag, titre | **40 fiches** | karubi-mehdi-navette-20260812.md +3 | 81 |
 | `indefini` | INDÉFINI, indefini, indéfini | — | — | tag | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/sources/guenon-etats-multiples-ch3-10-11-12-distinction-des-etats]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]] · [[doctrinal/sources/guenon-symbolisme-croix-ch11-13-representations-geometriques]] · [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +46 | 80 |
-| `inventaire` | Inventaire, inventaire | — | — | tag, titre | **39 fiches** | karubi-mehdi-navette-20260812.md +3 | 80 |
 | `intellect` | Intellect, intellect | — | — | table, tag, titre | **34 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +12 | 79 |
 | `iod` | iod | — | — | tag, titre | **11 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +8 | 78 |
 | `isolation` | Isolation, isolation | — | — | table, tag, titre | **31 fiches** | 10-j.md +2 | 76 |
+| `invisibles` | Invisibles, invisibles | — | — | titre | **36 fiches** | LISEZ-MOI.md +9 | 73 |
 | `isaac` | Isaac | — | — | table, titre | **10 fiches** | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +5 | 63 |
-| `inference` | Inference, Inférence, inference, inférence | — | — | table, tag | **32 fiches** | arctic-ch01-prehistoric-times.md +9 | 60 |
+| `inference` | Inference, Inférence, inference, inférence | — | — | table, tag | **33 fiches** | arctic-ch01-prehistoric-times.md +9 | 61 |
 | `ila` | Ila, ila, ilâ, ilä (+4) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]] · +2 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +10 | 58 |
+| `islamic` | Islamic | — | — | table | **17 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +10 | 57 |
 | `invariants` | Invariants, invariants | — | — | table, tag, titre | **38 fiches** | — | 54 |
 | `imagination` | Imagination, imagination | — | — | tag | [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/sommaire-hindouisme-soufisme]] · [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · +3 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +31 | 53 |
-| `islamic` | Islamic | — | — | table | **14 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +10 | 53 |
 | `implementation` | Implémentation, implementation, implémentation | — | — | definition, tag | **28 fiches** | — | 50 |
 | `isoles` | Isolés, isolés | — | — | titre | **12 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-5.md +9 | 47 |
 | `izz` | Izz, izz, ʿIzz | — | — | titre, translit | [[doctrinal/autorites/titus-burckhardt]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | osman-yahya-05-chapitre-04.md +5 | 47 |
-| `impact` | Impact, impact | — | — | definition, table | **27 fiches** | 03-c.md +1 | 45 |
+| `illa` | illa, illâ, illā, ʿilla | — | — | titre, translit | **14 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 46 |
+| `impact` | Impact, impact | — | — | definition, table | **28 fiches** | 03-c.md +1 | 46 |
 | `ikhwan` | Ikhwan, Ikhwân, Ikhwān | — | — | table, translit | [[atelier/etudes-de-cas/zellige-grande-mosquee-paris]] · [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/registre-chantiers]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/ilm-al-awfaq]] · +2 | formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon-12.md +4 | 44 |
-| `illa` | illa, illâ, illā, ʿilla | — | — | translit | **12 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 44 |
+| `imams` | Imams, Imâms, imams | — | — | table, titre | **14 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 44 |
 | `imran` | Imran, Imrân, Imrän, Imrān (+3) | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/wazifa]] · [[doctrinal/symboles/habl-allah]] | osman-yahya-08-repertoire.md +2 | 43 |
+| `inscription` | Inscription, inscription | — | — | table, titre | **25 fiches** | 14-o.md +6 | 43 |
 | `inconvenients` | Inconvénients, inconvénients | — | — | definition | [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] · [[atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire]] · [[atelier/rd/outillage/investigation-isolation-memoire-hermes]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-6.md +30 | 42 |
 | `instructions` | Instructions, instructions | — | — | table, tag, titre | **12 fiches** | 09-i.md +16 | 42 |
 | `ishwara` | Ishwara, Îshwara, Īshwara | — | — | table, translit | [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/discernement/2026-08-04_qutb-manu-metatron-er-ruh-fonction-polaire-universelle]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch9-14]] · +2 | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-32.md +16 | 41 |
 | `insan` | Insân, Insān, insan, insân (+1) | — | — | table, translit | **13 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +3 | 40 |
-| `inscription` | Inscription, inscription | — | — | table, titre | **23 fiches** | 14-o.md +6 | 40 |
 | `installation` | Installation, installation | — | — | table, titre | **22 fiches** | osman-yahya-05-chapitre-04.md | 40 |
 | `ilaha` | ilaha, ilâha, ilâhâ, ilāha | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/sources/hasbiyallah-rabbani]] · [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +3 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 39 |
+| `ibrahim` | IbrahIm, Ibrahim, Ibrahîm, Ibrâhîm (+2) | — | — | table, titre, translit | **16 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +10 | 38 |
 | `illustrations` | ILLUSTRATIONS, Illustrations, illustrations | — | — | titre | **11 fiches** | LISEZ-MOI.md +19 | 38 |
-| `ibrahim` | IbrahIm, Ibrahim, Ibrahîm, Ibrâhîm (+2) | — | — | table, titre, translit | **15 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +10 | 37 |
 | `indrani` | Indrani, Indrâni | — | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-rig-veda]] | orion-ch07-ribhus-and-vrishakapi.md | 36 |
+| `intent` | Intent, intent | — | — | table, tag | **21 fiches** | 00-front-matter.md +7 | 34 |
 | `institution` | institution | — | — | tag | **10 fiches** | 03-c.md +17 | 33 |
+| `ihya` | Ihya, Ihyà, Ihyâ, Iḥyāʾ (+1) | — | — | table, tag, translit | **13 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +6 | 32 |
 | `instructeurs` | INSTRUCTEURS, Instructeurs, instructeurs | — | — | titre | [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +12 | 32 |
-| `intent` | Intent, intent | — | — | table, tag | **19 fiches** | 00-front-matter.md +7 | 32 |
-| `ihya` | Ihya, Ihyà, Ihyâ, Iḥyāʾ (+1) | — | — | tag, translit | **12 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +6 | 30 |
 | `iman` | Iman, Imân, Imän, iman (+4) | — | — | translit | **9 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +10 | 30 |
 | `inconvenient` | Inconvénient, inconvenient, inconvénient | — | — | definition | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[atelier/rd/infrastructure/synchro-obsidian-working-copy-github]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +23 | 30 |
 | `ihsan` | Ihsan, Iḥsân, Iḥsān, ihsân (+2) | — | — | translit | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 29 |
@@ -95,36 +97,36 @@ links: []
 | `immortalite` | Immortalité, immortalite, immortalité | — | — | annotation, tag | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/lost/jacob]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +12 | 25 |
 | `ilm-al-nujum` | ilm-al-nujum | — | ✓ islam | annotation, tag | **16 fiches** | — | 24 |
 | `inde` | INDE, Inde, indé | — | — | table | **10 fiches** | isaghuji-cours01-introduction-transcription.md +10 | 24 |
-| `imams` | Imams, Imâms, imams | — | — | table, titre | **11 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 23 |
+| `ibn-sirin` | ibn-sirin | — | ✓ islam | annotation, tag | **12 fiches** | — | 23 |
 | `istidad` | istidad, istiʿdâd, istiʿdād | — | ✓ islam | annotation, translit | **10 fiches** | — | 23 |
-| `ibn-sirin` | ibn-sirin | — | ✓ islam | annotation, tag | **11 fiches** | — | 21 |
 | `ilyas` | ILYÂS, Ilyas, Ilyâs, Ilyäs (+1) | — | — | table | [[doctrinal/autorites/ibn-arabi]] · [[doctrinal/autorites/idris]] · [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/sources/guenon-lettre-coomaraswamy-1936-11-05]] · [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi]] · +3 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 21 |
 | `instagram` | Instagram, instagram | — | — | table | **13 fiches** | — | 21 |
 | `ilahi` | Ilahi, ilahi, ilâhî, ilāhī | — | — | translit | [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] · [[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/mahdi-rouge-islam-signe-balance-II]] · +3 | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +5 | 20 |
+| `isqat` | isqât, isqâṭ, isqāṭ | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/cahiers/2026-09-10_recolte-discernement-etat-maturite]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · +3 | — | 20 |
 | `isthme` | Isthme, isthme | — | — | tag | **18 fiches** | — | 20 |
-| `ishrab` | Ishrab | — | — | titre | [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/symboles/al-fuqara]] · [[doctrinal/symboles/dhikr]] · [[doctrinal/symboles/sama]] · [[doctrinal/symboles/shawq]] · +3 | LISEZ-MOI.md +1 | 19 |
-| `isqat` | isqât, isqâṭ, isqāṭ | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +2 | — | 19 |
+| `ijaza` | ijâza, ijāza | — | — | translit | **15 fiches** | isaghuji-cours01-introduction-transcription.md +1 | 19 |
+| `intermonde` | Intermonde, intermonde | — | — | table | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/imams-noms-divins]] | koly-cherif-keita-djinns-aident-humains.md +2 | 19 |
 | `ibn-sina` | ibn-sina | — | — | annotation | **11 fiches** | — | 18 |
 | `isbn` | ISBN | — | — | table | **10 fiches** | 00-front-matter.md +1 | 18 |
 | `isha` | Isha, Ishâ, Ishā, isha | — | — | table, translit | [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · [[doctrinal/sources/wazifa]] · [[doctrinal/symboles/khatm-al-khawajakan]] | la-puissance-du-serpent.md +6 | 18 |
 | `isnad` | Isnād, isnad, isnâd, isnād | — | — | translit | **9 fiches** | — | 18 |
+| `ishrab` | Ishrab | — | — | titre | [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/symboles/al-fuqara]] · [[doctrinal/symboles/dhikr]] · [[doctrinal/symboles/sama]] · [[doctrinal/symboles/shawq]] · +3 | LISEZ-MOI.md +1 | 17 |
+| `ivan` | Ivan | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · +3 | arctic-00-front-matter.md +2 | 17 |
 | `implementations` | Implémentations, implementations, implémentations | — | — | tag, titre | **9 fiches** | — | 16 |
 | `interaction` | Interaction, interaction | — | — | definition, table | **13 fiches** | 16-s.md +1 | 16 |
 | `ishq` | Ishq, ishq, ʿIshq, ʿishq | — | — | titre, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/symboles/desir-theophanie]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +1 | les-disciplines-spirituelles.md +1 | 16 |
 | `istilah` | istilah, istilâh, iṣṭilâḥ, iṣṭilāḥ | — | ⚖ islam | annotation, tag, titre, translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 16 |
-| `ivan` | Ivan | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/discernement/2026-07-16_sept-poles-aqtab-malakut-planetaire]] · [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · [[meta/carte-doctrinal]] · +2 | arctic-00-front-matter.md +2 | 16 |
 | `ibur` | Ibur, ibur | — | ⚖ kabbale | annotation, table, tag | [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · [[doctrinal/symboles/gilgul]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | shaar-hagilgulim-gate-of-reincarnations.md | 15 |
 | `ittihad` | ittihad, ittihâd, ittiḥâd, ittiḥād | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +3 | 15 |
 | `ibad` | Ibad, Ibâd, Ibâḍ, Ibäd (+2) | — | — | translit | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +4 | 14 |
 | `idroid` | iDroid, idroid | — | — | annotation, tag, titre | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/bureau-tui-architecture]] · [[hermeneutique/metal-gear/idroid]] · [[hermeneutique/metal-gear/mother-base]] · [[meta/carte-du-depot-hermeneutique]] · +1 | — | 14 |
 | `incommensurabilite` | Incommensurabilité, incommensurabilite, incommensurabilité | — | — | annotation, tag, titre | [[atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session]] · [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[atelier/rd/instrument/spec-anneau-zodiacal]] · [[doctrinal/sources/guenon-symbolisme-croix-ch26-27-incommensurabilite-place-etat-humain]] · +2 | incommensurabilite-de-l-etre-total-et-de-l-individualite-le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon.md | 14 |
 | `ihtisar` | Ihtisar, ihtisar, ihtiṣâr, Îhtisar | — | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +1 | 13 |
-| `ijaza` | ijâza, ijāza | — | — | translit | **10 fiches** | isaghuji-cours01-introduction-transcription.md +1 | 13 |
 | `ironie` | Ironie, ironie | — | — | table | [[atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills]] · [[doctrinal/autorites/al-khwarizmi]] · [[doctrinal/sources/islam-and-artificial-intelligence]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-6.md +9 | 13 |
+| `irreducibility` | Irreducibility, irreducibility | — | — | table, titre | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] · [[meta/carte-du-depot]] | LISEZ-MOI.md +2 | 13 |
 | `ibadat` | ibâdat, ʿIbādāt, ʿibâdât, ʿibādāt | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/barzakh]] · +3 | sept-etendards-califat-transcription.md | 12 |
 | `inferni` | Inferni, inferni | — | — | table | [[doctrinal/sources/guenon-symboles-science-sacree-ch18-janus]] · [[doctrinal/sources/guenon-symboles-science-sacree-ch37-janus-solstices]] · [[doctrinal/symboles/devayana-pitriyana]] · [[doctrinal/symboles/janus-bifrons]] | rapprochements-maconniques-et-hermetiques-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md +5 | 12 |
 | `innee` | INNÉE, innée | — | — | titre | [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-initiation-realisation-ch22-sagesse-innee-sagesse-acquise]] · [[doctrinal/symboles/tabia]] · [[hermeneutique/hunter-x-hunter/nen-systeme]] · [[meta/carte-du-depot-doctrinal]] · +1 | sagesse-innee-et-sagesse-acquise-initiation-et-realisation-spirituelle-index-de-l-uvre-de-rene-guenon.md | 12 |
-| `irreducibility` | Irreducibility, irreducibility | — | — | titre | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/sources/jaimungal-consciousness-irreducibility-local-to-global]] | LISEZ-MOI.md +2 | 12 |
 | `irritation` | Irritation, irritation | — | — | table | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/nafs-qalb-irritation]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 05-e.md +6 | 12 |
 | `iesod` | Iesod | — | — | table | [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-3.md +2 | 11 |
 | `ijad` | Ijâd, ijâd, ijād, îjâd | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 11 |
@@ -134,16 +136,20 @@ links: []
 | `infrastructure hetzner` | Infrastructure Hetzner | — | — | definition | **9 fiches** | — | 10 |
 | `ishaq` | Ishaq, Ishâq, Ishäq, Isḥâq (+1) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/traditions/madhhab-maliki]] | jurjani-definitions.md +3 | 10 |
 | `istiara` | istiʿâra | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 10 |
+| `ibarat` | ibārat, ʿIbārat, ʿibârât | — | — | titre, translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/ibn-qutayba-tabir-al-ruya]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/corbeau-en-reve]] · +1 | — | 9 |
+| `ijtihad` | Ijtihād, ijtihâd, ijtihād | — | — | translit | [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +2 | munqidh-01-introduction-jabre.md | 9 |
 | `inutilisable` | inutilisable | — | — | definition | [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] · [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] · [[hermeneutique/death-stranding/death-stranding]] · [[meta/protocole-archives/changelog-CLAUDE]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +4 | 9 |
 | `ibada` | Ibada, ibâda, ʿibâda | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 8 |
 | `iban` | IBAN | — | — | table | [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/intent]] · [[atelier/rd/infrastructure/pro-08-textes-convertis-versionnes/plan]] · [[atelier/rd/registre-chantiers]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 8 |
 | `imam-malik` | imam-malik | — | — | annotation | [[atelier/rd/infrastructure/monitoring-archive/registre-traitement]] · [[doctrinal/traditions/madhhab-maliki]] | — | 8 |
 | `indi` | indi, ʿindî | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/malamatiyah-futuhat-ch23]] | osman-yahya-00-front-matter.md +4 | 8 |
+| `injectes` | injectés | — | — | titre | [[atelier/rd/incidents/2026-09-15_invisibles-injectes-par-la-couche-d-ecriture]] · [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[atelier/rd/infrastructure/incident-2026-08-23-memoire-persistante-hermes]] · [[atelier/rd/outillage/2026-08-23_inventaire-outillage-deterministe]] · [[meta/carte-du-depot]] | LISEZ-MOI.md +1 | 8 |
 | `inna` | Inna, Innā, inna, innâ | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/malamatiyah-futuhat-ch23]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] | sciences-traditionnelles-et-modernite-pdf-soufisme.md +1 | 8 |
 | `invitation expresse` | Invitation expresse | — | — | definition | [[meta/transmissions/karubi-mehdi]] · [[meta/transmissions/karubi-mikael]] · [[meta/transmissions/karubi-wendel]] · [[meta/transmissions/registre-silsila]] | karubi-mehdi-navette-20260812.md | 8 |
 | `iqama` | Iqāma, iqâma, iqāma | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/wazifa]] · [[doctrinal/symboles/khalwa]] | — | 8 |
 | `ishtadevata` | Ishtadevatâ, Ishtadevatā | — | — | table, translit | [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]] | la-puissance-du-serpent.md | 8 |
 | `isma` | Isma, Ismä, isma, ʿiṣma | — | — | translit | [[atelier/rd/bibliotheque/table-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | 13-m.md +1 | 8 |
+| `israfil` | Israfil, Isrâfîl, Isrāfīl | — | — | translit | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | 09-i.md +2 | 8 |
 | `itara` | Itara | — | — | table | [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | la-puissance-du-serpent.md +1 | 8 |
 | `iti'el` | Iti'el | — | — | table | [[doctrinal/discernement/2026-08-20_etat-lieux-kabbale-depot]] · [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen_source]] | traite-de-l-emanation-gauche-partie-1-kabbale-en-ligne.md +1 | 8 |
 | `izza` | izza, ʿizza | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +2 | 8 |
@@ -154,14 +160,16 @@ links: []
 | `iblis` | Iblis, Iblîs, Iblīs | — | — | translit | [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]] · [[doctrinal/sources/islam-and-artificial-intelligence]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | osman-yahya-08-repertoire.md | 7 |
 | `idafi` | iḍâfî, iḍāfī | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 7 |
 | `identitaire` | identitaire | — | — | titre | [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire]] · [[doctrinal/symboles/noblesse-spirituelle]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · +2 | — | 7 |
-| `ijtihad` | Ijtihad, ijtihâd, ijtihād | — | — | translit | [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · +1 | munqidh-01-introduction-jabre.md | 7 |
 | `ijtima` | ijtimâ, ijtimâʿ | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | la-resolution-des-oppositions-le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon.md | 7 |
 | `infrastructure-veille` | infrastructure-veille | — | — | tag, titre | [[atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis]] · [[atelier/rd/registre-chantiers]] · [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/09-principe]] · [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/infrastructure-veille]] | — | 7 |
+| `instrument de mesure` | Instrument de mesure | — | — | definition | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan]] · [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan]] · [[doctrinal/symboles/archeometre]] | munqidh-05-partie-3.md | 7 |
 | `iqtida` | iqtiḍâʾ, iqtiḍāʾ | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 7 |
 | `isara` | išâra, išāra | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 7 |
 | `islamofuturism` | Islamofuturism | — | — | table, titre | [[doctrinal/sources/elbenni-dreaming-ummah-islamofuturism-2025]] · [[hermeneutique/expression/2026-08-20_barzakh-onirique-interface-litteraire]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 7 |
+| `isma'il` | Ismā'īl | — | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] | munqidh-01-introduction-jabre.md +1 | 7 |
 | `itihasas` | Itihasas, Itihâsas | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +4 | 7 |
 | `ihasti` | ihâsti, ihāsti | — | — | translit | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_axe-du-monde-doctrine-transversale]] · [[doctrinal/discernement/2026-08-30_unification-axes-verticaux-traditions]] | la-puissance-du-serpent.md +1 | 6 |
+| `ijma` | Ijmā, ijmâʿ, ijmāʿ | — | — | translit | [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/references/muhammad-nasir-al-din-al-albani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 6 |
 | `ilmiyya` | Ilmiyya, ʿilmiyya | — | — | translit | [[doctrinal/discernement/tension-hadarat-burckhardt-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] | osman-yahya-08-repertoire.md | 6 |
 | `indisponibilite` | Indisponibilité, indisponibilité | — | — | titre | [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] · [[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] · [[meta/projet-unifie/archives/08-resultats-test-ornith-cas-doctrinal-2026-06-29]] | — | 6 |
 | `investigation-referentiels-stellaires-cycles` | investigation-referentiels-stellaires-cycles | — | — | titre | [[atelier/projets/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[atelier/rd/instrument/ins-15-situation-polaire/intent]] · [[meta/carte-atelier]] · [[meta/carte-du-depot-atelier]] · +1 | — | 6 |
@@ -178,12 +186,10 @@ links: []
 | `ibtal` | ibṭâl, ibṭāl | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
 | `ihtimal` | ihtimâl, iḥtimâl | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
 | `ijaz` | ijaz, iʿjâz, iʿjāz | — | ⚖ islam | annotation, tag, translit | [[doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] | — | 5 |
-| `ijma` | Ijma, ijmâʿ, ijmāʿ | — | — | translit | [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
 | `iklil` | Iklil, Iklîl, ʿIklīl | — | — | table, translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 5 |
 | `inbisat` | inbisâṭ, inbisāṭ | — | — | translit | [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | ascension-regard-soufisme-52-53-qabd-bast.md | 5 |
 | `indexation` | indexation | — | — | tag, titre | [[atelier/rd/cahiers/2026-09-09_etat-des-lieux-indexation-et-reprise]] · [[atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations]] · [[meta/carte-du-depot]] · [[meta/protocole-archives/CLAUDE-v3_2026-09-09]] · [[meta/protocole-archives/CLAUDE-v4_2026-09-09]] · +1 | — | 5 |
 | `instances actives` | Instances actives | — | — | definition | [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] · [[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]] · [[atelier/rd/infrastructure/synthese-deploiement-memoire]] · [[meta/projet-unifie/archives/rapport-rd-memoire-persistante]] | — | 5 |
-| `instrument de mesure` | Instrument de mesure | — | — | definition | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan]] · [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan]] · [[doctrinal/symboles/archeometre]] | munqidh-05-partie-3.md | 5 |
 | `irad` | iʿrâḍ, iʿrāḍ, îrâd | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 5 |
 | `iraniens` | Iraniens | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | le-roi-du-monde-index-de-l-uvre-de-rene-guenon-2.md | 5 |
 | `isaba` | iṣâba, iṣāba | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/fiqh]] | — | 5 |
@@ -195,14 +201,15 @@ links: []
 | `iyan` | Iyan, iyan, iyân, ʿiyân | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 5 |
 | `iada` | iʿâda | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
 | `ibadiyya` | Ibâdiyya, Ibâḍiyya, ʿibâḍiyya | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | jurjani-definitions.md | 4 |
-| `ibarat` | ibārat, ʿibârât | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
 | `ibtida` | ibtidâʾ | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
 | `idmar` | iḍmâr, iḍmār | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] | — | 4 |
 | `ifada` | ifâda, ifâḍa | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md | 4 |
 | `ii-iii` | II-III | — | — | table | [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 4 |
 | `ijara` | ijâra, ijāra | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/fiqh]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] | — | 4 |
+| `ijazat` | Ijāzāt, ijâzât, ijāzāt | — | — | translit | [[doctrinal/autorites/muhammad-abul-huda-al-yaqoubi]] · [[doctrinal/sources/al-madrasah-al-hanbaliyyah]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 4 |
 | `ikigai` | ikigai | — | — | tag | [[atelier/rd/cahiers/registre-problemes]] · [[meta/personnel/2026-06-20_ikigai]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 4 |
 | `ilhaq` | ilḥâq, ilḥāq | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/traditions/tasawwuf]] | — | 4 |
+| `iliade` | Iliade | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] · [[doctrinal/symboles/zephyr]] | le-pont-et-l-arc-en-ciel-symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon.md | 4 |
 | `immuabilite` | Immuabilité, immuabilite, immuabilité | — | — | tag | [[atelier/rd/incidents/2026-09-09_marques-de-direction-ocr-futuhat]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] · [[doctrinal/symboles/purusha]] · [[meta/projet-unifie/propositions/proposition-queue-taches-2026-08-27]] · [[meta/projet-unifie/propositions/proposition-textes-immuabilite-2026-09-15]] | — | 4 |
 | `imperissables` | Impérissables | — | — | table | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] | — | 4 |
 | `intiqal` | intiqal, intiqâl, intiqāl | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md | 4 |
@@ -216,12 +223,11 @@ links: []
 | `iwad` | ʿiwaḍ, ʿiwâḍ | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 4 |
 | `izalat` | izâlat, izālat | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/talaq]] | — | 4 |
 | `iara` | iʿâra, iʿāra | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/wahdat-al-wujud]] | — | 3 |
-| `ibaha` | Ibaha, Ibâha, ibâḥa | — | — | translit | [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | munqidh-07-partie-5.md | 3 |
+| `ibaha` | Ibâha, Ibāḥa, ibâḥa | — | — | translit | [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | munqidh-07-partie-5.md | 3 |
 | `idafa` | iḍâfa | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `idlal` | iḍlâl, iḍlāl | — | — | translit | [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]] | — | 3 |
 | `idn` | iḏn | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `ihtiyar` | ihtiyâr, iḥtiyār, iḫtiyār | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tasdiq]] · [[doctrinal/traditions/tasawwuf]] | — | 3 |
-| `iliade` | Iliade | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | le-pont-et-l-arc-en-ciel-symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon.md | 3 |
 | `illa-llah` | illâ-Llâh, illā-Llāh | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | sciences-traditionnelles-et-modernite-pdf-soufisme.md | 3 |
 | `imagemagick` | ImageMagick | — | — | table | [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan]] · [[atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec]] · [[atelier/rd/registre-chantiers]] | — | 3 |
 | `imtina` | imtinâ, imtinâʿ | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md | 3 |
@@ -255,7 +261,7 @@ links: []
 | `ihdirar` | ihdirâr, iḫḍirâr | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `ihtibas` | iḥtibās | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/symboles/khalwa]] | — | 2 |
 | `ihtilat` | ihtilât, iḫtilâṭ | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
-| `ijazat` | ijâzât, ijāzāt | — | — | translit | [[doctrinal/sources/al-madrasah-al-hanbaliyyah]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | — | 2 |
+| `ilal` | iʿlâl, ʿilal | — | — | translit | [[doctrinal/references/muhammad-nasir-al-din-al-albani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `imaman` | Imāmān, imâmân | — | — | translit | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `impact attendu` | Impact attendu | — | — | definition | [[atelier/rd/infrastructure/synthese-deploiement-memoire]] · [[meta/projet-unifie/archives/rapport-rd-memoire-persistante]] | — | 2 |
 | `impact immediat` | Impact immédiat | — | — | definition | [[atelier/rd/cahiers/bilan-2026-08-15-pont-agents]] · [[meta/projet-unifie/archives/rapport-rd-memoire-persistante]] | — | 2 |
@@ -271,6 +277,7 @@ links: []
 | `isaac-ha-kohen` | isaac-ha-kohen | — | — | annotation, tag | [[doctrinal/discernement/2026-08-20_traite-emanation-gauche-isaac-ha-kohen]] · [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] | — | 2 |
 | `isal` | îṣâl | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `islah` | islah, islāḥ | — | — | tag, translit | [[doctrinal/references/muhammad-abduh]] · [[meta/personnel/2026-06-20_bejjar-genealogie]] | osman-yahya-08-repertoire.md | 2 |
+| `islami` | Islâmî, islāmī | — | — | table, translit | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[doctrinal/autorites/said-ramadan-al-buti]] | — | 2 |
 | `istibsar` | istibṣâr | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `istigfar` | Istigfār, istiġfâr | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/khatm-al-khawajakan]] | — | 2 |
 | `istigraq` | istiġrâq | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
@@ -284,23 +291,29 @@ links: []
 | `itiqadiyya` | iʿtiqâdiyya | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 2 |
 | `ittiba` | ittibâʿ, ittibāʿ | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/traditions/tasawwuf]] | — | 2 |
 | `iyas` | iyâs, iyās | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/traditions/tasawwuf]] | — | 2 |
+| `ibn-manzur` | ibn-manzur | — | — | annotation, tag | [[doctrinal/sources/lisan-al-arab]] | — | 1 |
 | `identite-supreme` | identite-supreme | — | — | annotation, tag | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch8-22-26]] · [[doctrinal/sources/guenon-symbolisme-croix-ch2-3-homme-universel]] · [[doctrinal/symboles/atma]] | — | 1 |
+| `il achete` | Il achète | — | — | definition | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16]] | — | 1 |
+| `impact au depot` | Impact au dépôt | — | — | definition | [[atelier/rd/incidents/2026-09-15_invisibles-injectes-par-la-couche-d-ecriture]] | — | 1 |
 | `implication doctrinale capitale` | Implication doctrinale capitale | — | ⚖ universel | definition | [[doctrinal/sources/guenon-roi-du-monde-ch10]] | — | 1 |
 | `importance doctrinale` | Importance doctrinale | — | ⚖ kabbale | definition | [[doctrinal/sources/traite-emanation-gauche-isaac-ha-kohen]] | — | 1 |
 | `incertitude de lecture consignee` | Incertitude de lecture consignée | — | ⚖ islam | definition | [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] | — | 1 |
 | `incoherence structurelle a porter` | Incohérence structurelle à porter | — | — | definition | [[atelier/rd/cahiers/2026-09-05_releve-fiches-status-academique]] | — | 1 |
+| `index-lexical` | index-lexical | — | — | tag | [[atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab]] · [[atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation]] · [[atelier/rd/outillage/index-lexical/2026-09-16_gloton-adressage-15-racines]] · [[atelier/rd/outillage/index-lexical/2026-09-16_gloton-moisson-racines-journal]] · [[atelier/rd/registre-chantiers]] | — | 1 |
 | `inscription manifeste` | Inscription manifeste | — | ⚖ islam | definition | [[doctrinal/symboles/table-28-degres-nafas-rahman]] | — | 1 |
 | `integration cible` | Intégration cible | — | — | definition | [[meta/2026-07-27_correctif-etendu-invariants-depot]] | — | 1 |
 | `interet specifique pour le wiki` | Intérêt spécifique pour le wiki | — | ⚖ none | definition | [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] | — | 1 |
 | `interpretation erronee` | Interprétation erronée | — | — | definition | [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] | — | 1 |
 | `invariable-milieu` | invariable-milieu | — | — | annotation, tag | [[doctrinal/sources/guenon-symbolisme-croix-ch23-29-axe-vertical-centre-circonference]] | — | 1 |
 | `isolation cross-modele stricte` | Isolation cross-modèle stricte | — | — | definition | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] | — | 1 |
+| `ibn-qutayba` | ibn-qutayba | — | — | tag | [[doctrinal/sources/ibn-qutayba-tabir-al-ruya]] | — | 0 |
 | `idee-platonicienne` | idee-platonicienne | — | — | tag | [[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]] | — | 0 |
 | `ihwan-al-safa` | ihwan-al-safa | — | — | tag | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-notions-ihwan-al-safa]] · [[atelier/rd/bibliotheque/introduction-ihwan-al-safa]] · [[atelier/rd/bibliotheque/table-ihwan-al-safa]] | — | 0 |
 | `ikhwan-al-safa` | ikhwan-al-safa | — | — | tag | [[atelier/etudes-de-cas/zellige-grande-mosquee-paris]] | — | 0 |
 | `imam-droite-imam-gauche` | imam-droite-imam-gauche | — | — | tag | [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]] | — | 0 |
 | `incommensurabilite 28/12` | Incommensurabilité 28/12 | — | — | definition | [[atelier/rd/instrument/spec-anneau-zodiacal]] | — | 0 |
-| `index-lexical` | index-lexical | — | — | tag | [[atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation]] | — | 0 |
+| `index — vivant.` | Index — vivant. | — | — | definition | [[atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab]] | — | 0 |
+| `inf-16` | inf-16 | — | — | tag | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/runbook-rafale-entrainement-2026-09-16]] | — | 0 |
 | `influences-spirituelles` | influences-spirituelles | — | — | tag | [[doctrinal/sources/guenon-initiation-realisation-ch6-influences-spirituelles-egregores]] | — | 0 |
 | `infra-16` | infra-16 | — | — | tag | [[atelier/rd/veille/2026-09-15_soup-cli-post-entrainement-local]] | — | 0 |
 | `initiation-effective` | initiation-effective | — | — | tag | [[doctrinal/sources/guenon-initiation-realisation-ch5-21-24-rattachement-instructeurs]] | — | 0 |

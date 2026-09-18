@@ -2,8 +2,8 @@
 title: "Index lexical — hub du condensé éclaté"
 type: artefact-derive
 tags: [index-lexical, artefact-derive]
-created: 2026-09-15
-updated: 2026-09-15
+created: 2026-09-18
+updated: 2026-09-18
 sources: []
 links: []
 ---
@@ -15,7 +15,7 @@ links: []
 > frontière que les sections employaient déjà. L'index intégral
 > reste `index-lexical.json` (outil MCP `chercher_terme`).
 
-**Termes distincts : 11138 — occurrences : 702154 — fiches indexees : 809 — textes balayes : 759**
+**Termes distincts : 11895 — occurrences : 829783 — fiches indexees : 838 — textes balayes : 860**
 
 ## Tranches
 

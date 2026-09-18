@@ -2,8 +2,8 @@
 title: "Index lexical — x"
 type: artefact-derive
 tags: [index-lexical, artefact-derive]
-created: 2026-09-15
-updated: 2026-09-15
+created: 2026-09-18
+updated: 2026-09-18
 sources: []
 links: []
 ---
@@ -13,7 +13,7 @@ links: []
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
 | `xviii` | XVIII, xviii | — | — | table | **30 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +84 | 196 |
-| `xiii` | XIII, xiii | — | — | table | **42 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +55 | 170 |
+| `xiii` | XIII, xiii | — | — | table | **44 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +55 | 172 |
 | `xvii` | XVII, xvii | — | — | table | **24 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +54 | 114 |
 | `xxiv` | XXIV, xxiv | — | — | table | **19 fiches** | la-priere-et-l-incantation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +34 | 102 |
 | `xxiii` | XXIII, xxiii | — | — | table | **19 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +42 | 100 |
@@ -56,6 +56,7 @@ links: []
 | `xciii` | XCIII | — | — | table | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 3 |
 | `xciv` | XCIV | — | — | table | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 3 |
 | `xcix` | XCIX | — | — | table | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 3 |
+| `xuanzang` | Xuanzang, Xuánzàng | — | — | translit | [[doctrinal/sources/xi-you-ji-wu-chengen]] · [[hermeneutique/dragon-ball/dragon-ball]] | — | 3 |
 | `xixᵉ` | XIXᵉ | — | — | translit | [[doctrinal/discernement/2026-08-29_hadarat-quatre-etats-atma]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] | — | 2 |
-| `xiyouji` | Xiyouji, xiyouji | — | — | annotation, tag | [[hermeneutique/dragon-ball/dragon-ball]] | — | 2 |
+| `xiyouji` | Xiyouji, xiyouji | — | — | annotation, tag | [[doctrinal/sources/xi-you-ji-wu-chengen]] · [[hermeneutique/dragon-ball/dragon-ball]] | — | 2 |
 | `xixe-siecle` | xixe-siecle | — | — | tag | [[hermeneutique/auteurs/mary-shelley]] | — | 0 |

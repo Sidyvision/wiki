@@ -2,8 +2,8 @@
 title: "Index lexical — r"
 type: artefact-derive
 tags: [index-lexical, artefact-derive]
-created: 2026-09-15
-updated: 2026-09-15
+created: 2026-09-18
+updated: 2026-09-18
 sources: []
 links: []
 ---
@@ -12,128 +12,133 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `rapport` | RAPPORT, Rapport, rapport | — | — | definition, table, tag, titre | **228 fiches** | index-conversion.md +436 | 2461 |
-| `raison` | RAISON, Raison, Raïson, raison | — | — | definition, table, titre | **108 fiches** | LISEZ-MOI.md +422 | 1481 |
+| `rapport` | RAPPORT, Rapport, rapport | — | — | definition, table, tag, titre | **237 fiches** | LISEZ-MOI.md +438 | 2534 |
+| `raison` | RAISON, Raison, Raïson, raison | — | — | definition, table, titre | **114 fiches** | LISEZ-MOI.md +422 | 1491 |
 | `rene` | René | — | — | table, titre | **118 fiches** | LISEZ-MOI.md +411 | 1185 |
-| `role` | ROLE, Role, RÔLE, Rôle (+3) | — | — | definition, table | **158 fiches** | 00-front-matter.md +319 | 1110 |
-| `roman` | Roman, roman | — | — | annotation, tag | [[doctrinal/sources/gilis-ordo-ab-chao]] · [[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]] · [[hermeneutique/auteurs/mary-shelley]] · [[hermeneutique/dragon-ball/dragon-ball]] · [[hermeneutique/frankenstein/frankenstein]] · +2 | 00-front-matter.md +413 | 826 |
-| `realisation` | Realisation, RÉALISATION, Réalisation, realisation (+2) | — | — | table, titre | **75 fiches** | 11-k.md +215 | 805 |
-| `reference` | Reference, RÉFÉRENCE, Référence, reference (+2) | — | ⚖ islam | definition, table, tag, titre | **272 fiches** | LISEZ-MOI.md +64 | 733 |
-| `regle` | Règle, regle, règle, réglé | — | — | definition, table | **194 fiches** | LISEZ-MOI.md +46 | 626 |
-| `releve` | Relevé, Relève, releve, relevé (+2) | — | — | table, tag, titre | **225 fiches** | index-conversion.md +85 | 614 |
-| `registre` | Registre, Régistre, registre | — | — | definition, table, tag, titre | **171 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +5 | 540 |
-| `rendu` | RENDU, Rendu, rendu | — | — | definition, table, tag, titre | **127 fiches** | index-conversion.md +71 | 527 |
-| `rapprochement` | RAPPROCHEMENT, Rapprochement, rapprochement | — | — | titre | **180 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +112 | 526 |
+| `role` | ROLE, Role, RÔLE, Rôle (+3) | — | — | definition, table | **158 fiches** | 00-front-matter.md +319 | 1111 |
+| `roman` | Roman, roman | — | — | annotation, tag | **9 fiches** | LISEZ-MOI.md +414 | 835 |
+| `realisation` | Realisation, RÉALISATION, Réalisation, realisation (+2) | — | — | table, titre | **76 fiches** | 11-k.md +215 | 806 |
+| `reference` | Reference, RÉFÉRENCE, Référence, reference (+2) | — | ⚖ islam | definition, table, tag, titre | **288 fiches** | LISEZ-MOI.md +64 | 786 |
+| `releve` | Relevé, Relève, releve, relevé (+2) | — | — | table, tag, titre | **247 fiches** | LISEZ-MOI.md +87 | 683 |
+| `regle` | Règle, regle, règle, réglé (+1) | — | — | definition, table | **207 fiches** | LISEZ-MOI.md +47 | 679 |
+| `registre` | Registre, Régistre, registre | — | — | definition, table, tag, titre | **182 fiches** | organisations-initiatiques-et-societes-secretes-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +5 | 588 |
+| `rendu` | RENDU, Rendu, rendu | — | — | definition, table, tag, titre | **142 fiches** | index-conversion.md +71 | 558 |
+| `rapprochement` | RAPPROCHEMENT, Rapprochement, rapprochement | — | — | titre | **187 fiches** | la-naissance-de-l-avatara-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +112 | 543 |
 | `roi` | Roi, roi | — | — | titre | **70 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +115 | 523 |
-| `rapports` | RAPPORTS, Rapports, rapports | — | — | titre | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +209 | 493 |
-| `resultat` | RESULTAT, Résultat, résultat | — | — | definition, table | **129 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +123 | 418 |
-| `reve` | RÊVE, Rêve, reve, révé (+2) | — | — | table, tag, titre | **61 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +27 | 345 |
+| `rapports` | RAPPORTS, Rapports, rapports | — | — | titre | **40 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-18.md +209 | 502 |
+| `resultat` | RESULTAT, Résultat, résultat | — | — | definition, table | **135 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +124 | 433 |
+| `references` | References, Références, references, références (+1) | — | — | table, tag, titre | **118 fiches** | 10-j.md +58 | 353 |
+| `reve` | RÊVE, Rêve, reve, révé (+2) | `الغراب` | *arabe* | table, tag, titre | **64 fiches** | de-la-regularite-initiatique-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +27 | 350 |
+| `reponse` | RÉPONSE, Réponse, reponse, réponse | — | — | titre | **131 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-6.md +71 | 349 |
 | `rite` | RITE, Rite, rite | — | — | tag | **22 fiches** | 01-a.md +79 | 340 |
-| `references` | References, Références, references, références (+1) | — | — | table, tag, titre | **110 fiches** | 10-j.md +58 | 337 |
 | `regne` | Règne, règne, régné | — | — | table, titre | **52 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +148 | 336 |
-| `reponse` | RÉPONSE, Réponse, reponse, réponse | — | — | titre | **122 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-6.md +71 | 326 |
+| `rattachement` | RATTACHEMENT, Rattachement, rattachement | — | — | tag, titre | **87 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +62 | 323 |
 | `rig-veda` | RIG-VEDA, Rig-Veda, Rig-Véda, Rig-Vêda (+3) | — | — | table, tag, titre | **12 fiches** | fonctions-du-sacerdoce-et-de-la-royaute-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +26 | 317 |
-| `rattachement` | RATTACHEMENT, Rattachement, rattachement | — | — | tag, titre | **82 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +62 | 314 |
-| `regles` | RÈGLES, Règles, regles, règles (+2) | — | — | definition, table | **85 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +46 | 287 |
-| `relations` | Relations, relations | — | — | table, tag | **59 fiches** | 01-a.md +98 | 286 |
-| `resolution` | Résolution, resolution, résolution | — | — | definition | **77 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +10 | 280 |
-| `resume` | Resume, Résumé, resume, résume (+1) | — | — | definition | **72 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +43 | 272 |
-| `regard` | REGARD, Regard, regard | — | — | titre | **83 fiches** | 01-a.md +84 | 271 |
+| `regles` | RÈGLES, Règles, regles, règles (+2) | — | — | definition, table | **94 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +46 | 309 |
+| `relations` | Relations, relations | — | — | table, tag | **60 fiches** | 01-a.md +98 | 292 |
+| `regard` | REGARD, Regard, regard | — | — | titre | **86 fiches** | 01-a.md +84 | 287 |
+| `resolution` | Résolution, resolution, résolution | — | — | definition | **78 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +10 | 287 |
+| `resume` | Resume, Résumé, resume, résume (+1) | — | — | definition | **74 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +43 | 285 |
 | `roue` | ROUE, Roue, roue | — | — | table, tag, titre | **55 fiches** | sur-deux-devises-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +52 | 266 |
-| `resultats` | RÉSULTATS, Résultats, resultats, résultats | — | — | definition, tag, titre | **48 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +95 | 262 |
+| `resultats` | RÉSULTATS, Résultats, resultats, résultats | — | — | definition, tag, titre | **48 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +96 | 263 |
 | `reflet` | REFLET, Reflet, reflet | — | — | tag, titre | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-12.md +102 | 243 |
-| `risque` | Risque, risque, risqué | — | — | definition, table | **95 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +57 | 233 |
+| `risque` | Risque, risque, risqué | — | — | definition, table | **100 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +57 | 239 |
 | `rayon` | RAYON, Rayon, rayon | — | — | table, titre | **31 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +52 | 218 |
-| `remarques` | REMARQUES, Remarques, remarques, remarqués | — | — | table, titre | **16 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +79 | 204 |
+| `remarques` | REMARQUES, Remarques, remarques, remarqués | — | — | table, titre | **17 fiches** | a-propos-de-magie-ceremonielle-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +79 | 205 |
 | `rouge` | Rouge, rouge | — | — | table, titre | **59 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +27 | 198 |
-| `resurrection` | Resurrection, RÉSURRECTION, Résurrection, resurrection (+1) | — | — | table, tag, titre | **37 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +41 | 187 |
+| `resurrection` | Resurrection, RÉSURRECTION, Résurrection, resurrection (+1) | — | — | table, tag, titre | **39 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-17.md +41 | 190 |
+| `redaction` | RÉDACTION, Rédaction, redaction, rédaction | — | — | tag | **71 fiches** | doctrine-des-etats-multiples-en-christianisme-pdf-esoterisme-occidental.md +20 | 169 |
+| `reseau` | Réseau, reseau, réseau | — | — | table, tag, titre | **69 fiches** | karubi-mehdi-navette-20260812.md +5 | 162 |
 | `ram` | RAM, Ram, ram | — | — | titre | **36 fiches** | la-puissance-du-serpent.md +15 | 161 |
-| `redaction` | RÉDACTION, Rédaction, redaction, rédaction | — | — | tag | **66 fiches** | doctrine-des-etats-multiples-en-christianisme-pdf-esoterisme-occidental.md +20 | 161 |
-| `reseau` | Réseau, reseau, réseau | — | — | table, tag, titre | **64 fiches** | karubi-mehdi-navette-20260812.md +4 | 155 |
-| `rappel` | Rappel, rappel | — | — | definition, table | **89 fiches** | karubi-mehdi-navette-20260812.md +7 | 147 |
+| `reprise` | Reprise, reprise | — | — | tag, titre | **85 fiches** | sept-etendards-califat-transcription.md +5 | 161 |
+| `racines` | Racines, racines | — | — | titre | **27 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +33 | 155 |
+| `rappel` | Rappel, rappel | — | — | definition, table | **93 fiches** | karubi-mehdi-navette-20260812.md +7 | 151 |
 | `risala` | Risala, Risâla, Risäla, Risāla (+2) | — | — | translit | **11 fiches** | isaghuji-cours01-introduction-transcription.md +8 | 140 |
 | `rose-croix` | ROSE-CROIX, Rose-Croix, rose-croix | — | — | tag | [[doctrinal/sources/archeometre-saint-yves-papus-1911]] · [[doctrinal/symboles/archeometre]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +45 | 140 |
-| `reprise` | Reprise, reprise | — | — | tag, titre | **79 fiches** | sept-etendards-califat-transcription.md +5 | 138 |
+| `runpod` | RunPod, Runpod, runpod | — | — | table, tag, titre | **25 fiches** | — | 131 |
+| `royaume` | Royaume, royaume | — | — | table | **16 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +36 | 126 |
 | `rose` | Rose, rose | — | — | table, titre | [[doctrinal/sources/burckhardt-alchimie-ch13-athanor-transcription]] · [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/journal/conversation-claude-2026-06-15]] · +1 | 06-f.md +45 | 125 |
-| `royaume` | Royaume, royaume | — | — | table | **15 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +36 | 125 |
+| `retenu` | Retenu, retenu | — | ⚖ hindouisme | definition | **74 fiches** | la-puissance-du-serpent.md +10 | 123 |
 | `rotation` | Rotation, rotation | — | — | tag, titre | **38 fiches** | 18-u.md +29 | 119 |
-| `reincarnation` | Reincarnation, Réincarnation, reincarnation, réincarnation | — | — | tag, titre | **11 fiches** | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +34 | 117 |
+| `reincarnation` | Reincarnation, Réincarnation, reincarnation, réincarnation | — | — | tag, titre | **12 fiches** | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +34 | 118 |
 | `rajas` | Rajas, rajas, râjas | — | — | annotation, table, tag | **11 fiches** | nature-respective-des-brahmanes-et-des-kshatriyas-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +17 | 116 |
-| `retenu` | Retenu, retenu | — | ⚖ hindouisme | definition | **68 fiches** | la-puissance-du-serpent.md +10 | 112 |
-| `razi` | Razi, Razî, Râzi, Râzî (+4) | — | — | annotation, table, tag, translit | **11 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +3 | 108 |
-| `runpod` | RunPod, Runpod | — | — | table | **21 fiches** | — | 108 |
-| `raw` | RAW, raw, rawʿ | — | — | tag, titre, translit | **40 fiches** | 14-o.md +16 | 104 |
-| `registres` | REGISTRES, Registres, registres | — | — | table, tag, titre | **53 fiches** | les-quatre-mondes.md | 104 |
+| `registres` | REGISTRES, Registres, registres | — | — | table, tag, titre | **58 fiches** | les-quatre-mondes.md | 112 |
+| `razi` | Razi, Razî, Râzi, Râzî (+4) | — | — | annotation, table, tag, translit | **12 fiches** | ibn-arabi-epitre-concernant-les-degres-des-sciences-donnees-ulum-al-wahb-pdf-dieu-2.md +3 | 109 |
+| `reservee` | Réservée, réservée | — | ⚖ universel | definition | **55 fiches** | erreurs-diverses-concernant-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +16 | 102 |
+| `raw` | RAW, raw, rawʿ | — | — | tag, titre, translit | **39 fiches** | 14-o.md +16 | 100 |
 | `rudra` | Rudra, Rudrâ, rudra | — | — | table | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · +1 | la-puissance-du-serpent.md +8 | 100 |
+| `recteur` | Recteur, recteur | — | — | table | **50 fiches** | l-etat-de-sommeil-profond-ou-la-condition-de-prajna-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +1 | 99 |
 | `ring` | Ring, ring | — | — | table | [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/discernement/2026-06-20_mythe-personnel-unifie]] · [[doctrinal/discernement/2026-06-20_synthese-danger-dissolution-identitaire]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +2 | 03-c.md +16 | 98 |
 | `ressources` | Ressources, ressources | — | — | table, titre | **33 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-3.md +8 | 96 |
 | `royale` | ROYALE, Royale, royale | — | — | titre | **10 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-7.md +25 | 96 |
 | `representations` | REPRÉSENTATIONS, Representations, Représentations, representations (+1) | — | — | titre | **13 fiches** | 16-s.md +51 | 94 |
-| `recteur` | Recteur, recteur | — | — | table | **47 fiches** | l-etat-de-sommeil-profond-ou-la-condition-de-prajna-l-homme-et-son-devenir-selon-le-vedanta-index-de-l-uvre-de-rene-guenon.md +1 | 93 |
-| `reservee` | Réservée, réservée | — | ⚖ universel | definition | **49 fiches** | erreurs-diverses-concernant-l-initiation-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-2.md +16 | 93 |
 | `recherches` | RECHERCHES, Recherches, recherches, recherchés | — | — | table | **13 fiches** | noms-profanes-et-noms-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +52 | 92 |
-| `restriction` | Restriction, restriction | — | — | annotation, tag, titre | **16 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +47 | 90 |
+| `restriction` | Restriction, restriction | — | — | annotation, tag, titre | **17 fiches** | mythes-mysteres-et-symboles-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +47 | 91 |
+| `ruh` | Ruh, Rûh, Rüh, rûh (+4) | — | — | translit | **20 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +15 | 89 |
 | `revelations` | Revelations, RÉVÉLATIONS, Révélations, revelations (+1) | — | — | table, titre | **19 fiches** | 09-i.md +41 | 88 |
-| `ruh` | Ruh, Rûh, Rüh, rûh (+4) | — | — | translit | **19 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-4.md +15 | 88 |
 | `rationalisme` | RATIONALISME, Rationalisme, rationalisme | — | — | tag | [[doctrinal/deviations/deviation-et-subversion]] · [[doctrinal/sources/guenon-crise-monde-moderne-ch5-individualisme]] · [[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]] · [[meta/carte-du-depot]] · [[meta/journal/conversation-chatgpt-2026-06-15]] | noms-profanes-et-noms-initiatiques-apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon.md +24 | 86 |
-| `renversement` | RENVERSEMENT, Renversement, renversement | — | — | titre | **16 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +43 | 85 |
-| `route` | Route, route, routé | — | — | titre | **35 fiches** | 03-c.md +20 | 81 |
+| `renversement` | RENVERSEMENT, Renversement, renversement | — | — | titre | **17 fiches** | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-11.md +43 | 86 |
+| `route` | Route, route, routé | — | — | titre | **37 fiches** | 03-c.md +20 | 83 |
+| `recommandation` | RECOMMANDATION, Recommandation, recommandation | — | — | definition | **50 fiches** | debut-de-la-presidence-de-mme-besant-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +2 | 80 |
 | `ramban` | Ramban, ramban | — | — | annotation, table, tag, titre | **14 fiches** | sefer-yetsira-ramban.md | 79 |
-| `recommandation` | RECOMMANDATION, Recommandation, recommandation | — | — | definition | **48 fiches** | debut-de-la-presidence-de-mme-besant-le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon.md +2 | 75 |
+| `ressource` | Ressource, ressource | — | — | table, tag | **17 fiches** | le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon-18.md | 75 |
 | `rene-guenon` | rene-guenon | — | ✓ universel | annotation, tag | **61 fiches** | — | 73 |
-| `ressource` | Ressource, ressource | — | — | table, tag | **16 fiches** | le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon-18.md | 70 |
 | `rqst` | RQST | — | — | table | [[atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon]] · [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[atelier/rd/outillage/2026-08-13_tour-horizon-corpus-guenon-deblocages]] · [[doctrinal/sources/guenon-roi-du-monde-ch3-shekinah-metatron]] · [[meta/carte-doctrinal]] · +1 | de-l-antitradition-a-la-contre-tradition-le-regne-de-la-quantite-et-les-signes-des-temps-index-de-l-uvre-de-rene-guenon.md +26 | 64 |
+| `reversible` | Réversible, reversible, réversible | — | — | table, tag | **31 fiches** | le-centre-et-la-circonference-le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon.md | 63 |
 | `records` | Records, records | — | — | table | **9 fiches** | 06-f.md +20 | 61 |
-| `reversible` | Réversible, reversible, réversible | — | — | table, tag | **29 fiches** | le-centre-et-la-circonference-le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon.md | 59 |
 | `ribhus` | RIBHUS, Ribhus | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/symbolisme-du-dome-porte-du-ciel]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | le-symbolisme-du-dome-symboles-de-la-science-sacree-index-de-l-uvre-de-rene-guenon.md +8 | 56 |
-| `raf` | Raf, Rafʿ, raf, rafʿ | — | — | table, tag, titre, translit | **11 fiches** | sept-etendards-califat-transcription.md +2 | 54 |
+| `raf` | Raf, Rafʿ, raf, rafʿ | — | — | table, tag, titre, translit | **12 fiches** | sept-etendards-califat-transcription.md +2 | 55 |
+| `ramadan` | Ramadan, Ramadän, Ramaḍān, ramadân (+1) | — | — | table, titre, translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/autorites/said-ramadan-al-buti]] · [[doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya]] · [[doctrinal/references/muhammad-nasir-al-din-al-albani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +3 | 13-n.md +13 | 53 |
 | `rhys` | Rhys | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md +10 | 52 |
 | `rafi` | Rafi, Rafîʿ, Rafīʿ, rafi (+3) | — | — | annotation, table, tag, titre, translit | **16 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 49 |
 | `rupa` | Rupa, Rûpa, rûpa, rūpa | — | — | table, translit | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-hindouisme-nama-rupa-archetype-individu]] · +2 | la-puissance-du-serpent.md +9 | 48 |
 | `raja` | Raja, Râja, raja, rajâʾ (+2) | — | — | translit | [[atelier/rd/cahiers/2026-08-31_doctrine-contrainte-qabd-bast]] · [[doctrinal/discernement/2026-08-31_qabd-bast-et-upaguru-registre-initiatique]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | ascension-regard-soufisme-52-53-qabd-bast.md +6 | 44 |
-| `ramadan` | Ramadan, Ramadän, Ramaḍān, ramadân (+1) | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[meta/genealogie/samballa-kouyate]] · [[meta/personnel/2026-06-20_triptyque-animaux]] | 13-n.md +13 | 44 |
+| `regle d'immuabilite` | Règle d'immuabilité | — | — | definition | **13 fiches** | LISEZ-MOI.md +5 | 42 |
 | `research` | Research, research | — | — | tag | **10 fiches** | 01-a.md +13 | 42 |
-| `regle d'immuabilite` | Règle d'immuabilité | — | — | definition | **13 fiches** | LISEZ-MOI.md +4 | 40 |
-| `recurrent` | recurrent, récurrent | — | — | tag | **26 fiches** | — | 38 |
+| `recension` | Recension, recension | — | — | titre | **18 fiches** | LISEZ-MOI.md +4 | 39 |
+| `recurrent` | recurrent, récurrent | — | — | tag | **26 fiches** | — | 39 |
+| `runbook` | Runbook, runbook | — | — | table, tag, titre | **22 fiches** | — | 38 |
 | `retournement` | retournement | — | — | tag | [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/deviations/deviation-et-subversion]] · [[doctrinal/sources/guenon-initiation-realisation-ch30-esprit-corps-retournement]] · [[doctrinal/symboles/janus-bifrons]] · [[hermeneutique/metal-gear/big-boss]] · +2 | l-ecorce-et-le-noyau-el-qishr-wa-el-lobb-apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon.md +20 | 37 |
 | `rita` | Rita, rita | — | — | annotation, table, tag | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/sources/guenon-regne-quantite-avant-propos-ch3-mesure-manifestation]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-10.md +11 | 34 |
 | `rasa` | Rasa, Rasâ, rasa | — | — | table | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · +2 | la-puissance-du-serpent.md +10 | 32 |
 | `reminiscence` | Reminiscence, Réminiscence, reminiscence, réminiscence | — | — | table, tag | **10 fiches** | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-32.md +10 | 32 |
-| `recension` | Recension, recension | — | — | titre | **15 fiches** | LISEZ-MOI.md +3 | 31 |
 | `rijal` | rijal, rijâl, rijāl | — | ⚖ islam | tag, translit | **10 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 31 |
 | `robert` | Robert | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/autorites/michel-valsan]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | etudes-sur-l-hindouisme-index-de-l-uvre-de-rene-guenon-21.md +18 | 30 |
 | `revox` | Revox, revox | — | — | table, tag, titre | **13 fiches** | — | 29 |
 | `readme` | README | — | — | table | **16 fiches** | — | 28 |
+| `rida` | Rida, Riḍā, ridâ, riḍâ (+3) | — | — | table, titre, translit | **12 fiches** | — | 28 |
 | `russie` | Russie | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/references/al-afghani]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | les-usurpations-de-la-royaute-et-leurs-consequences-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +14 | 28 |
 | `rangha` | Rangha | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +4 | 27 |
+| `rafale` | rafale | — | — | titre | [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/devis-rafale-runpod-2026-09-16]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/plan]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/runbook-rafale-entrainement-2026-09-16]] · [[atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/spec]] · +3 | voyages-extra-terrestres-dans-differentes-traditions-l-esoterisme-de-dante-index-de-l-uvre-de-rene-guenon.md | 26 |
 | `rama` | RaMâ, Rama, Râma, rama | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[atelier/rd/bibliotheque/preface-introduction-porte-du-ciel]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md +8 | 25 |
+| `recolte` | Récolte, recolte, récolte | — | — | tag, titre | **10 fiches** | — | 25 |
 | `rough` | Rough, rough | — | — | table | [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/hermes-prompts/06-distribution/06-principe]] · [[meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution]] | 08-h.md +16 | 25 |
 | `rabbani` | Rabbani, rabbânî | — | — | table, titre | **13 fiches** | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md +1 | 24 |
 | `rasul` | Rasûl, Rasül, Rasūl, rasûl (+1) | — | — | translit | **9 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +6 | 24 |
 | `regularite` | RÉGULARITÉ, regularite, régularité | — | — | tag, titre | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[atelier/rd/outillage/2026-08-13_fiches-biographiques-confrontation-ai-irs]] · [[doctrinal/sources/guenon-apercus-initiation-ch5-8-regularite-transmission]] · [[doctrinal/sources/malamatiyah-futuhat-ch23]] · [[meta/carte-du-depot-doctrinal]] · +1 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-5.md +11 | 24 |
-| `runbook` | Runbook, runbook | — | — | tag, titre | **17 fiches** | — | 24 |
 | `reflection` | Reflection, reflection | — | — | table | [[doctrinal/discernement/2026-06-20_origine-jumeau-spirituel]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | 02-b.md +14 | 23 |
 | `routing` | Routing, routing | — | — | tag, titre | **10 fiches** | arctic-ch12-comparative-mythology.md +1 | 23 |
-| `rida` | Rida, Riḍā, ridâ, riḍâ (+3) | — | — | titre, translit | **10 fiches** | — | 22 |
+| `rassemblement` | Rassemblement, rassemblement | — | — | table | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/imams-noms-divins]] · [[doctrinal/symboles/table-28-degres-nafas-rahman]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +13 | 22 |
 | `ressources deployees` | Ressources déployées | — | — | definition | **10 fiches** | — | 21 |
+| `reste a faire` | Reste à faire | — | — | definition | **15 fiches** | munqidh-01-introduction-jabre.md | 21 |
 | `rejetee` | rejetée | — | — | definition | **9 fiches** | la-puissance-du-serpent.md +6 | 20 |
 | `rumi` | Rumi, Rûmi, Rûmî, Rümi (+1) | — | — | translit | **9 fiches** | sciences-traditionnelles-et-modernite-pdf-soufisme.md +1 | 20 |
 | `rust` | Rust, rust | — | — | table, tag | [[atelier/rd/outillage/2026-09-05_sampling-fonction-studio-cordis]] · [[atelier/rd/outillage/spec-ocr-scan-vers-markdown]] · [[atelier/rd/veille/2026-08-31_sentrux]] · [[atelier/rd/veille/cordis/implementations-github]] · [[atelier/rd/veille/registre]] | 03-c.md +3 | 20 |
 | `ramayana` | RamAyana, Ramayana, Râmâyana | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/quatre-mondes-hindouisme-soufisme]] | dependance-de-la-royaute-a-l-egard-du-sacerdoce-autorite-spirituelle-et-pouvoir-temporel-index-de-l-uvre-de-rene-guenon.md +10 | 19 |
 | `ratio` | Ratio, ratio | — | — | tag | [[atelier/etudes-de-cas/kojima-productions]] · [[atelier/etudes-de-cas/zellige-grande-mosquee-paris]] · [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] · [[doctrinal/etudes/2026-08-31_confrontation-anthropic-claude-guenon-nature-llms]] · +3 | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-9.md +7 | 19 |
 | `reasoning` | Reasoning, reasoning | — | — | table, titre | [[atelier/rd/cahiers/journal-optimisations]] · [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] · [[meta/projet-unifie/archives/11-resultats-qwen36-27b-2026-07-03]] · +2 | arctic-00-front-matter.md +4 | 18 |
-| `ruya` | ruʾya, ruʾyā, rûʾya | — | — | translit | [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/homme-pieux-en-reve]] · +2 | — | 18 |
+| `ruya` | ruʾya, ruʾyā, rûʾya | — | — | translit | [[doctrinal/discernement/2026-06-20_visions-centre-nocturne]] · [[doctrinal/sources/ibn-qutayba-tabir-al-ruya]] · [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · +3 | — | 18 |
 | `ruah` | Ruah, Ruaḥ, ruah | — | ⚖ kabbale | annotation, table, tag, titre, translit | [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · [[doctrinal/symboles/cinq-noms-ame]] · [[doctrinal/symboles/gilgul]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | shaar-hagilgulim-gate-of-reincarnations.md | 17 |
 | `ras` | RAS, Ras, ras, raʾs (+1) | — | — | translit | [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/fin-des-temps-modernes-ilm-al-nujum-bases-mahdi-rouge]] · [[doctrinal/sources/ilm-al-nujum-astrologie-traditionnelle]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +3 | 16 |
 | `resonances` | Résonances, resonances, résonances | — | — | tag | **13 fiches** | 16-s.md | 16 |
 | `rg-veda` | Ṛg-Veda | — | — | table, translit | [[doctrinal/sources/tilak-orion-antiquite-vedas-1893]] · [[doctrinal/symboles/adityas-mois-du-soleil]] · [[doctrinal/symboles/devayana-pitriyana]] · [[doctrinal/symboles/ushas-les-trente-aurores]] · [[meta/carte-du-depot]] | LISEZ-MOI.md | 16 |
 | `refroidissement` | Refroidissement, refroidissement | — | — | table, titre | [[atelier/etudes-de-cas/refroidissement-passif-traditionnel]] · [[atelier/rd/registre-chantiers]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 15 |
-| `reste a faire` | Reste à faire | — | — | definition | **12 fiches** | munqidh-01-introduction-jabre.md | 15 |
 | `risalatul-ahadiyah` | Risâlatul-Ahadiyah, risalatul-ahadiyah | — | — | annotation, tag | [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[atelier/rd/instrument/note-impact-instrument-socle-universel-2026-07-16]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch1-7]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch10-15-16-brahma-turiya]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-3.md +6 | 15 |
 | `roth` | Roth, roth | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | osman-yahya-08-repertoire.md +5 | 15 |
 | `referentiels` | Référentiels, référentiels | — | — | table, titre | **9 fiches** | — | 14 |
 | `rsis` | Ṛṣis, ṛṣis | — | — | table, translit | [[atelier/rd/instrument/2026-07-26_investigation-referentiels-stellaires-cycles]] · [[atelier/rd/instrument/ins-15-situation-polaire/intent]] · [[atelier/rd/instrument/ins-15-situation-polaire/spec]] · [[atelier/rd/outillage/2026-08-13_confrontation-discernement-corpus-guenon]] · [[doctrinal/discernement/2026-07-27_septenaire-transversal-balance-degre-soleil]] · +3 | — | 14 |
 | `rabbaniyya` | Rabbāniyya, rabbaniyya, rabbâniyya | — | — | table, titre, translit | [[doctrinal/discernement/2026-06-20_epreuve-tariqa-tarbiyya-rabbaniyya]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tarbiyya-rabbaniyya]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · +3 | — | 13 |
+| `raqaiq` | raqâʾiq, raqāʾiq | — | — | titre, translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/imams-noms-divins]] | — | 13 |
 | `referencement` | Référencement, référencement | — | — | titre | **9 fiches** | — | 13 |
 | `rebha` | Rebha | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/index-rig-veda]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch10-vedic-myths-the-matutinal-deities.md | 12 |
 | `reincarnations` | Reincarnations, Réincarnations, reincarnations, réincarnations | — | — | table, titre | [[doctrinal/autorites/haim-vital]] · [[doctrinal/autorites/isaac-louria-arizal]] · [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | shaar-hagilgulim-gate-of-reincarnations.md +2 | 12 |
@@ -148,9 +153,11 @@ links: []
 | `raphael` | Raphael, Raphaël | — | — | table, titre | [[doctrinal/autorites/raphael-afilalo]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · [[meta/projet-unifie/propositions/proposition-type-reference-2026-09-15]] · [[meta/projet-unifie/queue-idees]] | shaar-hagilgulim-gate-of-reincarnations.md +1 | 10 |
 | `rawda` | Rawda, Rawḍa | — | — | table, translit | [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] · [[doctrinal/symboles/priere-mosquee-prophete]] · [[doctrinal/symboles/rawda-sharif]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | osman-yahya-08-repertoire.md | 10 |
 | `rijrashva` | Rijrashva, Rijrâshva | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch10-vedic-myths-the-matutinal-deities.md | 10 |
+| `rabita` | Rabita, Rābiṭa, rābiṭa | — | — | translit | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] · [[doctrinal/sources/dalail-al-khayrat-jazuli]] · [[doctrinal/symboles/khatm-al-khawajakan]] · [[doctrinal/symboles/khatm]] · +1 | — | 9 |
 | `rahma` | Rahma, rahma, raḥma | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/universal-man-jili]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +2 | 9 |
+| `rashid` | Rashid, Rashīd | — | — | table, titre, translit | [[doctrinal/autorites/rashid-rida]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/references/muhammad-nasir-al-din-al-albani]] · [[doctrinal/references/rashid-rida]] · [[meta/carte-du-depot]] · +1 | — | 9 |
+| `rashid-rida` | rashid-rida | — | ✓ islam · *arabe* | annotation, tag | [[doctrinal/autorites/rashid-rida]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya]] · [[doctrinal/references/al-afghani]] · [[doctrinal/references/muhammad-abduh]] · +2 | — | 9 |
 | `retrospective` | retrospective, rétrospective | — | — | tag | [[atelier/etudes-de-cas/stones-throw]] · [[atelier/rd/cahiers/2026-08-20_compte-rendu-malentendu-gardien-reprise-session]] · [[atelier/rd/instrument/2026-08-30_figuration-de-l-incommensurable]] · [[doctrinal/discernement/2026-06-20_triptyque-medine-jeu-de-piste]] · [[label/marketing-communication/fanzine]] · +3 | — | 9 |
-| `rabita` | Rabita, Rābiṭa, rābiṭa | — | — | translit | [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] · [[doctrinal/sources/dalail-al-khayrat-jazuli]] · [[doctrinal/symboles/khatm-al-khawajakan]] · [[doctrinal/symboles/khatm]] · [[doctrinal/traditions/tasawwuf]] | — | 8 |
 | `ray` | Ray, ray, raʾy | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/fiqh]] | 00-front-matter.md +3 | 8 |
 | `repartition par circuit` | Répartition par circuit | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination]] · [[atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18]] · [[meta/carte-du-depot]] · [[meta/chantier-kamon-kouyate]] | — | 8 |
 | `ruhaniyya` | rûhaniyya, rûhâniyya, rûḥâniyya, rūḥāniyya | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/rawda-sharif]] | sept-etendards-califat-transcription.md | 8 |
@@ -160,10 +167,10 @@ links: []
 | `raga` | Raga, Râga, raga, rāga | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[label/production/album-personnel]] | la-puissance-du-serpent.md +1 | 6 |
 | `rahim` | Rahim, Rahîm, raḥim, raḥîm | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +1 | 6 |
 | `rahmani` | Rahmani, raḥmânî, raḥmānī | — | — | translit | [[atelier/rd/instrument/instrument-tradition-primordiale-architecture-v0.3]] · [[atelier/rd/outillage/spec-generateur-manifeste]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/nafas-rahmani]] · +1 | 02-b.md | 6 |
-| `rashid-rida` | rashid-rida | — | ✓ islam · *arabe* | annotation, tag | [[doctrinal/autorites/rashid-rida]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/references/al-afghani]] · [[doctrinal/references/muhammad-abduh]] · [[doctrinal/references/rashid-rida]] | — | 6 |
 | `re-deploiement` | Re-déploiement, re-déploiement | — | — | table | [[meta/carte-du-depot-meta]] · [[meta/carte-du-depot]] · [[meta/carte-meta]] · [[meta/projet-unifie/01-contexte-demarche-etat]] · [[meta/projet-unifie/archives/14-compte-rendu-redeploiement-qwen-2026-07-08]] · +1 | — | 6 |
 | `recursif` | récursif | — | — | titre | [[atelier/rd/cahiers/rapport-conjoint-studio-gardien-traitement-suggestions-2026-09-06]] · [[doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] · [[meta/carte-du-depot]] | LISEZ-MOI.md | 6 |
 | `recursion` | Recursion, recursion, récursion | — | — | tag | [[atelier/rd/outillage/spec-verifier-recursion-qaf]] · [[doctrinal/discernement/2026-09-04_structure-algorithmique-coran-nombre-principiel-ou-quantite]] · [[doctrinal/sources/sabri-ben-rommane-modele-recursif-muqattaat]] | corps-du-texte.md | 6 |
+| `redissi` | Redissi, redissi | — | — | annotation, table, tag, titre | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 6 |
 | `reduction charge mentale` | Réduction charge mentale | — | — | definition | [[atelier/rd/infrastructure/2026-08-23_memoire-persistante-deploiement]] · [[atelier/rd/infrastructure/synthese-deploiement-memoire]] · [[meta/projet-unifie/archives/rapport-rd-memoire-persistante]] | — | 6 |
 | `references-visuelles-astronomiques-phase` | references-visuelles-astronomiques-phase | — | — | titre | [[atelier/projets/references-visuelles-astronomiques-phase-5]] · [[atelier/rd/instrument/angles-de-l-espace]] · [[atelier/rd/instrument/references-visuelles-astronomiques-phase-5]] · [[meta/carte-atelier]] · [[meta/carte-du-depot-atelier]] · +1 | — | 6 |
 | `renversement-des-symboles` | renversement-des-symboles | — | — | annotation | [[doctrinal/deviations/deviation-et-subversion]] · [[doctrinal/sources/guenon-regne-quantite-ch28-40-contre-initiation]] · [[doctrinal/symboles/polarite-laterale-de-l-axe]] · [[hermeneutique/20th-century-boys/20th-century-boys]] | — | 6 |
@@ -171,12 +178,13 @@ links: []
 | `role et signe` | Rôle et signe | — | — | definition | [[meta/projet-unifie/choura/cycle-2026-08-31]] · [[meta/projet-unifie/choura/cycle-2026-09-01]] | — | 6 |
 | `rububiyya` | rubûbiyya, rubūbiyya | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] · [[doctrinal/symboles/wahdat-al-wujud]] | — | 6 |
 | `ruhani` | ruhâni, rûḥânî | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/tibb-ruhani]] | la-guerre-et-la-paix-le-symbolisme-de-la-croix-index-de-l-uvre-de-rene-guenon.md | 6 |
-| `rashid` | Rashid, Rashīd | — | — | titre, translit | [[doctrinal/autorites/rashid-rida]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/references/rashid-rida]] · [[meta/projet-unifie/propositions/proposition-type-reference-2026-09-15]] | — | 5 |
+| `raqiqa` | raqîqa, raqīqa | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/imams-noms-divins]] | — | 5 |
 | `ravana` | Ravana, Râvana | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-00-front-matter.md +1 | 5 |
-| `redissi` | Redissi, redissi | — | — | annotation, table, tag, titre | [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 5 |
+| `reformisme` | Réformisme, reformisme, réformisme | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/references/al-afghani]] · [[doctrinal/references/muhammad-abduh]] · [[doctrinal/references/muhammad-nasir-al-din-al-albani]] · [[doctrinal/references/rashid-rida]] · +2 | sciences-traditionnelles-et-modernite-pdf-soufisme.md | 5 |
 | `registre alchimique` | Registre alchimique | — | ⚖ universel | definition | [[atelier/rd/cahiers/proposition-phase3-agent-veille-infrastructure-2026-08-11]] · [[atelier/rd/cahiers/registre-problemes]] · [[doctrinal/discernement/2026-08-11_trois-territoires-inacheve-flux-speculatif-exploratoire]] | — | 5 |
 | `resultat mesure` | Résultat mesuré | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills]] · [[atelier/rd/infrastructure/2026-09-15_integration-mcp-ansari]] · [[atelier/rd/infrastructure/incident-2026-08-28-saturation-ram-indisponibilite]] | — | 5 |
 | `rhode` | Rhode | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md +1 | 5 |
+| `ridwan` | Ridwân, Ridwän, Riḍwan | — | — | translit | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | osman-yahya-06-chapitre-05.md +2 | 5 |
 | `rai` | Rai, rai, raʾî | — | — | translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | la-puissance-du-serpent.md | 4 |
 | `rationale` | Rationale, rationale | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/infrastructure/infrastructure-ssh-statu-quo]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/hermes-prompts/06-distribution/mandats/distribution]] | — | 4 |
 | `rawlins` | Rawlins | — | — | table | [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] | — | 4 |
@@ -189,9 +197,11 @@ links: []
 | `raji` | râjiʿ, râjî | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `rakiun` | Râkiûn, Rākiʿūn | — | — | translit | [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi]] · [[doctrinal/sources/razi-noms-divins-ch18-khafid-rafi]] | — | 3 |
 | `rappel du role et signe` | Rappel du rôle et signe | — | — | definition | [[meta/projet-unifie/choura/cycle-2026-09-01]] | — | 3 |
+| `rapporteur` | Rapporteur, rapporteur | — | — | table | [[doctrinal/sources/bukhari-5754-tiyara-fal]] · [[doctrinal/sources/hadith-fawasiq-cinq-nuisibles]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | — | 3 |
 | `rasavaha` | Rasavahâ, Rasavahā | — | — | translit | [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] | la-puissance-du-serpent.md | 3 |
 | `rayon-solaire` | rayon-solaire | — | — | annotation, tag | [[doctrinal/sources/guenon-homme-devenir-vedanta-ch15-21]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch20-artere-coronale-rayon-solaire]] · [[doctrinal/sources/guenon-homme-devenir-vedanta-ch21-artere-coronale-rayon-solaire]] | — | 3 |
 | `regles du lieu` | Règles du lieu | — | — | definition | [[atelier/rd/cahiers/proposition-extension-veille-rd-2026-08-18]] · [[meta/carte-du-depot-atelier]] · [[meta/carte-du-depot]] | — | 3 |
+| `reinitialisation` | Réinitialisation, réinitialisation | — | — | titre | [[atelier/rd/cahiers/2026-09-17_reinitialisation-claude-md-hypothese-degradation]] · [[meta/carte-du-depot]] | — | 3 |
 | `rhapsody` | Rhapsody | — | — | table | [[label/production/album-personnel]] · [[meta/projet-unifie/archives/triage-chatgpt-export]] | — | 3 |
 | `ribh` | ribḥ | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 3 |
 | `risque principal` | Risque principal | — | ⚖ universel | definition | [[atelier/rd/infrastructure/inf-14-hebergement-rendu-sidyvision/spec]] · [[doctrinal/discernement/2026-07-02_gizeh-pole-scientifique-antediluvien]] · [[doctrinal/discernement/2026-08-20_palais-saintete-hadarat-amorce-rapprochement]] | — | 3 |
@@ -206,6 +216,7 @@ links: []
 | `regle economique et fonctionnelle absolue` | Règle économique et fonctionnelle absolue | — | — | definition | [[meta/protocole-archives/CLAUDE-v2-monolithique_2026-08-12]] · [[meta/protocole-archives/changelog-CLAUDE]] | — | 2 |
 | `regle qui s'en degage` | Règle qui s'en dégage | — | — | definition | [[atelier/rd/cahiers/2026-09-09_rapport-session-indexation-html-annotations]] · [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]] | — | 2 |
 | `report format` | Report format | — | — | definition | [[meta/projet-unifie/hermes-prompts/08-publication-site/mandats/veille-referencement]] · [[meta/projet-unifie/hermes-prompts/09-studio-sound-engineer/mandats/infrastructure-veille]] | — | 2 |
+| `rifaiyya` | Rifāʿiyya | — | — | translit | [[doctrinal/references/rashid-rida]] · [[doctrinal/symboles/tariqa]] | — | 2 |
 | `rikudo` | rikudō | — | — | translit | [[doctrinal/discernement/2026-09-08_kamon-symbolisme-traditionnel-ou-convention-heraldique]] · [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique]] | — | 2 |
 | `roash` | Roash | — | — | table | [[doctrinal/discernement/2026-07-03_orientation-chronometre-guenon-spence]] · [[doctrinal/etudes/2026-07-02_donnees-geometriques-gizeh]] | — | 2 |
 | `rudra-datta` | Rudra-datta | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |
@@ -220,7 +231,6 @@ links: []
 | `rapprochement envisage` | Rapprochement envisagé | — | — | definition | [[hermeneutique/dragon-ball/dragon-ball]] | — | 1 |
 | `recommandation comparee` | Recommandation comparée | — | — | definition | [[atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole]] | — | 1 |
 | `recommandation utilisateur` | Recommandation utilisateur | — | — | definition | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] | — | 1 |
-| `reformisme` | reformisme, réformisme | — | — | tag | [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · [[doctrinal/references/al-afghani]] · [[doctrinal/references/muhammad-abduh]] · [[doctrinal/references/rashid-rida]] | sciences-traditionnelles-et-modernite-pdf-soufisme.md | 1 |
 | `refusal training cible` | Refusal training ciblé | — | — | definition | [[atelier/rd/infrastructure/2026-08-22_stealing-reasoning-traces-llm]] | — | 1 |
 | `regle de fond` | Règle de fond | — | — | definition | [[meta/projet-unifie/archives/15-architecture-discord-hermes-2026-08-07]] | — | 1 |
 | `regle retenue` | Règle retenue | — | — | definition | [[meta/projet-unifie/archives/14-compte-rendu-redeploiement-qwen-2026-07-08]] | — | 1 |
@@ -228,21 +238,24 @@ links: []
 | `relationship to outside capital` | Relationship to outside capital | — | — | definition | [[atelier/etudes-de-cas/kojima-productions]] | — | 1 |
 | `releve complet de la passe` | Relevé complet de la passe | — | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 1 |
 | `rendre les assertions inverifiables` | rendre les assertions invérifiables | — | ⚖ universel | definition | [[doctrinal/deviations/pseudo-initiation-et-syncretisme]] | — | 1 |
+| `repere structurel source` | Repère structurel sourcé | — | — | definition | [[atelier/rd/outillage/index-lexical/2026-09-16_gloton-adressage-15-racines]] | — | 1 |
 | `repertoire cree` | Répertoire créé | — | — | definition | [[atelier/rd/infrastructure/2026-08-23_profil-karubi-isolation-memoire]] | — | 1 |
 | `reserve capitale sur le septieme` | Réserve capitale sur le septième | — | ⚖ universel | definition | [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | — | 1 |
 | `reserve honnete` | Réserve honnête | — | — | definition | [[meta/2026-07-27_correctif-etendu-invariants-depot]] | — | 1 |
 | `resolution immediate` | Résolution immédiate | — | — | definition | [[atelier/rd/infrastructure/incident-2026-08-27-omniroute-eaddrinuse-daemonisation]] | — | 1 |
 | `resultats cles` | Résultats clés | — | — | definition | [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] | — | 1 |
+| `rien a corriger dans les fiches` | Rien à corriger dans les fiches | — | — | definition | [[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]] | — | 1 |
 | `rijal-allah` | rijal-allah | — | ⚖ islam | annotation, tag | [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]] | — | 1 |
 | `risalat-al-tawhid` | risalat-al-tawhid | — | — | annotation, tag | [[doctrinal/references/muhammad-abduh]] | — | 1 |
 | `risque de derive documente` | Risque de dérive documenté | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] | — | 1 |
-| `racines-arabes` | racines-arabes | — | — | tag | [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] | — | 0 |
+| `racines-arabes` | racines-arabes | — | — | tag | [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] · [[doctrinal/sources/lisan-al-arab]] | — | 0 |
 | `rafa` | rafa | — | — | tag | [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] | — | 0 |
 | `realignment (2026-08-24, verdict sidy)` | Realignment (2026-08-24, verdict Sidy) | — | — | definition | [[meta/projet-unifie/hermes-prompts/10-protocol-guardian/mandats/veille-protocole]] | — | 0 |
 | `realisation-descendante` | realisation-descendante | — | — | tag | [[doctrinal/autorites/michel-valsan]] | — | 0 |
 | `realisation-spirituelle` | realisation-spirituelle | — | — | tag | [[doctrinal/discernement/2026-08-30_chute-realisation-deux-aspects-de-qaf]] | — | 0 |
 | `recette correcte (validee le 2026-07-03)` | Recette correcte (validée le 2026-07-03) | — | — | definition | [[meta/projet-unifie/archives/11-resultats-qwen36-27b-2026-07-03]] | — | 0 |
 | `recommandation, soumise et non executee` | Recommandation, soumise et non exécutée | — | — | definition | [[atelier/rd/infrastructure/2026-09-15_file-attente-morte-ecritures-skills]] | — | 0 |
+| `rectification (2026-09-15, meme soiree)` | Rectification (2026-09-15, même soirée) | — | — | definition | [[atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio]] | — | 0 |
 | `references-visuelles` | references-visuelles | — | — | tag | [[atelier/rd/instrument/reference-visuelle-grande-mosquee-paris-dome-octogone]] · [[atelier/rd/instrument/references-visuelles-astronomiques-phase-5]] | — | 0 |
 | `reflet dans un miroir (correspondance speculaire inversee)` | reflet dans un miroir (correspondance spéculaire inversée) | — | ⚖ universel | definition | [[doctrinal/discernement/2026-06-11_llm-wiki-correction-doctrinale]] | — | 0 |
 | `reflexion-personnelle` | reflexion-personnelle | — | — | tag | [[meta/personnel/2026-06-20_desir-personnel]] | — | 0 |
@@ -260,6 +273,7 @@ links: []
 | `resolution 2` | Résolution 2 | — | — | definition | [[atelier/rd/cahiers/registre-problemes]] | — | 0 |
 | `resonance formelle avec le critere de transmission (§5)` | Résonance formelle avec le critère de transmission (§5) | — | ⚖ islam | definition | [[doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre]] | — | 0 |
 | `reste a documenter ( )` | Reste à documenter ( ) | — | ⚖ hellenisme | definition | [[doctrinal/autorites/platon]] | — | 0 |
+| `reste en attente, et c'est tout` | Reste en attente, et c'est tout | — | — | definition | [[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]] | — | 0 |
 | `resultat / lien` | Résultat / lien | — | — | definition | [[meta/projet-unifie/queue-idees]] | — | 0 |
 | `reversibilite (cmd 10)` | Réversibilité (Cmd 10) | — | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 0 |
 | `revise le 2026-07-07` | Révisé le 2026-07-07 | — | — | definition | [[meta/protocole-archives/changelog-CLAUDE]] | — | 0 |

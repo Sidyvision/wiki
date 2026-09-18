@@ -2,8 +2,8 @@
 title: "Index lexical — w"
 type: artefact-derive
 tags: [index-lexical, artefact-derive]
-created: 2026-09-15
-updated: 2026-09-15
+created: 2026-09-18
+updated: 2026-09-18
 sources: []
 links: []
 ---
@@ -12,22 +12,24 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
-| `wiki` | Wiki, wiki | — | — | table, titre | **131 fiches** | karubi-mehdi-navette-20260812.md | 413 |
+| `wiki` | Wiki, wiki | — | — | table, titre | **130 fiches** | karubi-mehdi-navette-20260812.md | 412 |
 | `working` | Working, working | — | — | table, titre | **21 fiches** | 06-f.md +32 | 127 |
+| `web` | Web, web | — | — | tag | **71 fiches** | LISEZ-MOI.md +3 | 126 |
+| `wikilink` | Wikilink, wikilink | — | — | tag | **55 fiches** | LISEZ-MOI.md +3 | 126 |
 | `walaya` | Waläya, Walāya, walaya, walâya (+1) | — | ✓ islam | annotation, table, tag, titre, translit | **45 fiches** | sept-etendards-califat-transcription.md +1 | 93 |
 | `waw` | Waw, Wâw, Wāw, waw (+2) | `و` | *arabe* | translit | **18 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +5 | 65 |
 | `west` | West, west | — | — | table | [[atelier/etudes-de-cas/stones-throw]] · [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | 07-g.md +28 | 62 |
 | `wendel` | Wendel, wendel | — | — | table, titre | **15 fiches** | — | 61 |
-| `wali` | Wali, Walî, Walï, Walī (+6) | — | — | annotation, tag, translit | **21 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +7 | 56 |
+| `wali` | Wali, Walî, Walï, Walī (+6) | — | — | annotation, tag, translit | **22 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +7 | 57 |
 | `wang` | WANG, Wang, wang | — | — | annotation, table, tag, titre | **18 fiches** | 13-n.md +7 | 56 |
 | `workflow` | Workflow, workflow | — | — | table, titre | **31 fiches** | — | 55 |
 | `wikipedia` | Wikipedia, Wikipédia | — | — | table | **11 fiches** | transcription-asr.md | 52 |
 | `webui` | WebUI, Webui, webui | — | — | table, titre | **18 fiches** | — | 49 |
+| `wikilinks` | wikilinks | — | — | tag, titre | **24 fiches** | — | 48 |
 | `walayat` | WALÂYAT, Walâyat, Walāyat, walayat (+2) | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/sommaire-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] | iv.md +1 | 43 |
 | `wahdat` | Wahdat, Waḥdat, wahdat, waḥdat | — | — | table, titre, translit | **15 fiches** | sept-etendards-califat-transcription.md +3 | 41 |
 | `wahdat-al-wujud` | wahdat-al-wujud | — | ✓ islam | annotation, tag | **19 fiches** | — | 41 |
 | `wird` | Wird, wird | — | — | table, titre | **12 fiches** | iv.md +3 | 41 |
-| `wikilinks` | wikilinks | — | — | tag, titre | **22 fiches** | — | 39 |
 | `wolf` | Wolf, wolf | — | — | table | [[atelier/etudes-de-cas/stones-throw]] · [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/choura/cycle-2026-08-30]] · [[meta/projet-unifie/hermes-prompts/01-ar-music-artistic-direction/01-principe]] | 00-front-matter.md +14 | 37 |
 | `wujud` | wujûd, wujūd | — | — | translit | **9 fiches** | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md +1 | 36 |
 | `wazifa` | Wazifa, Wazīfa, wazifa, wazīfa (+2) | — | ✓ islam | translit | **14 fiches** | — | 31 |
@@ -48,8 +50,8 @@ links: []
 | `wahidiyya` | wâhidiyya, wâḥidiyya, wāḥidiyya | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/symboles/al-insan-al-kamil]] · +1 | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 14 |
 | `weber` | Weber | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | 09-i.md +8 | 14 |
 | `webgl` | WebGL | — | — | table | **10 fiches** | — | 14 |
+| `wird-awrad` | wird-awrad | — | ✓ islam | tag | **12 fiches** | — | 14 |
 | `wafa` | Wafa, Wafä, wafâʾ, wafāʾ | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/traditions/tasawwuf]] | osman-yahya-08-repertoire.md +1 | 13 |
-| `wird-awrad` | wird-awrad | — | ✓ islam | tag | **11 fiches** | — | 13 |
 | `wad` | waʿd, waḍʿ | — | — | translit | [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | — | 12 |
 | `wadia` | Wadia, wadîʿa, wadīʿa, waḍîʿa | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/fiqh]] · [[meta/projet-unifie/propositions/proposition-pole-fiqh-2026-07-06]] | le-theosophisme-histoire-d-une-pseudo-religion-index-de-l-uvre-de-rene-guenon-4.md +1 | 12 |
 | `wajib` | wâjib, wājib | — | — | translit | [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/fiqh]] | sept-etendards-califat-transcription.md | 12 |
@@ -58,6 +60,7 @@ links: []
 | `woodroffe` | WOODROFFE, Woodroffe, woodroffe | — | — | annotation, tag | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] | la-puissance-du-serpent.md +1 | 10 |
 | `wahy` | Waḥy, wahy, waḥy | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | les-disciplines-spirituelles.md +1 | 9 |
 | `wasf` | Wasf, wasf, waṣf | — | — | translit | [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] | osman-yahya-08-repertoire.md +1 | 9 |
+| `windows` | Windows, windows | — | — | table | [[atelier/materiel/tascam-model-12]] · [[atelier/rd/audio/2026-09-16_plan-etage-mesure-et-banc-analogique]] · [[atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole]] · [[atelier/rd/veille/2026-09-16_landr-pont-entrant-partage-et-api]] | 04-d.md +1 | 9 |
 | `wusul` | wusûl, wuṣûl, wuṣūl | — | — | translit | [[doctrinal/sources/ghazali-munqidh-jabre-1959]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +3 | 8 |
 | `wahdaniyya` | wahdâniyya, waḥdâniyya, waḥdāniyya | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/meftah-chatons-sagesses-transcription]] · [[doctrinal/symboles/wahdat-al-wujud]] | meftah-symbolisme-universel-chaton-sagesses-transcription-v3.md | 7 |
 | `websocket` | WebSocket | — | — | table | [[atelier/rd/cahiers/registre-problemes]] · [[atelier/rd/incidents/2026-08-25_gardien-gateway-crash-boucle]] · [[atelier/rd/infrastructure/cartographie-routing-infrastructure]] · [[atelier/rd/infrastructure/configuration-hermex-webui-2026-08-23]] | — | 7 |
@@ -65,19 +68,20 @@ links: []
 | `wakil` | Wakîl, wakîl, wakīl | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[meta/journal/2026-06-18-entretien-integral]] | sept-etendards-califat-transcription.md | 6 |
 | `walayat-e` | walâyat-e, walāyat-e | — | — | translit | [[atelier/rd/bibliotheque/lumiere-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-29_mise-en-regard-majma-al-bahrayn-registres]] | iv.md | 6 |
 | `wara` | Wara, wara, waraʿ, warâ | — | — | translit | [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +3 | 6 |
-| `windows` | Windows, windows | — | — | table | [[atelier/materiel/tascam-model-12]] · [[atelier/rd/outillage/2026-08-15_piste-srs-assimilation-protocole]] | 04-d.md +1 | 6 |
 | `wa-l-jamaa` | wa-l-Jamāʿa, wa-l-jamāʿa | — | — | titre, translit | [[doctrinal/sources/ishrab-sharab]] · [[doctrinal/traditions/ahl-al-sunnah-wa-l-jamaa]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 5 |
+| `wahabis` | Wahabis | — | — | table | [[atelier/rd/bibliotheque/catalogue-bibliotheque]] · [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 5 |
 | `waqi` | wâqi, wâqiʿ | — | — | translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/sept-etendards-califat]] | sept-etendards-califat-transcription.md +1 | 5 |
 | `warith` | warîth, wârith, wārith | — | — | translit | [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] · [[doctrinal/sources/sept-etendards-califat]] · [[doctrinal/symboles/walaya]] | sept-etendards-califat-transcription.md | 5 |
 | `webassembly` | WebAssembly | — | — | table | [[atelier/rd/outillage/out-15-sampling-cordis/echantillon-B-sandbox-cordis-wasm]] · [[atelier/rd/veille/cordis/implementations-github]] | — | 5 |
+| `wa-l-sira` | wa-l-sīra | — | — | translit | [[doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya]] · [[doctrinal/references/muhammad-nasir-al-din-al-albani]] | — | 4 |
 | `wa-l-tatayyur` | wa-l-Taṭayyur | — | — | titre, translit | [[doctrinal/symboles/fal-wa-tatayyur]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 4 |
-| `wahabis` | Wahabis | — | — | table | [[doctrinal/sources/histoire-wahhabis-corancez-redissi]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 4 |
 | `wax poetics` | Wax Poetics | — | — | definition | [[label/marketing-communication/fanzine]] · [[label/production/equipe-agents-hermes]] · [[meta/projet-unifie/hermes-prompts/11-fanzine-editor/11-principe]] · [[meta/projet-unifie/hermes-prompts/11-fanzine-editor/mandats/fanzine-editor]] | — | 4 |
 | `wieland` | Wieland | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md +1 | 4 |
 | `walker` | Walker | — | — | table | [[hermeneutique/metal-gear/metal-gear]] · [[hermeneutique/metal-gear/mother-base]] | — | 3 |
 | `wallace` | Wallace | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch02-the-glacial-period.md | 3 |
 | `westergaard` | Westergaard | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch09-vedic-myths-the-captive-waters.md | 3 |
 | `wotan` | Wotan | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | formes-traditionnelles-et-cycles-cosmiques-index-de-l-uvre-de-rene-guenon-12.md | 3 |
+| `wukong` | Wukong, Wùkōng | — | — | translit | [[doctrinal/sources/xi-you-ji-wu-chengen]] · [[hermeneutique/dragon-ball/dragon-ball]] | — | 3 |
 | `wa-l-adam` | wa-l-ʿadam | — | — | translit | [[doctrinal/sources/universal-man-jili]] · [[doctrinal/symboles/barzakh]] | — | 2 |
 | `wa-l-akhirun` | wa-l-ākhirūn | — | — | translit | [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] · [[doctrinal/sources/dalail-al-khayrat-jazuli]] | — | 2 |
 | `wa-l-awail` | wa-l-Awāʾil | — | — | translit | [[doctrinal/autorites/abd-al-karim-al-jili]] · [[doctrinal/sources/universal-man-jili]] | — | 2 |

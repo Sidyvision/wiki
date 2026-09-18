@@ -12,8 +12,8 @@ links: []
 
 > **ARTEFACT DÉRIVÉ — NE JAMAIS ÉDITER À LA MAIN.**
 > Généré par `carte-du-depot.py` (script déterministe, stdlib seule, aucun LLM,
-> aucun réseau) le 2026-09-18 06:37 UTC, sur `/root/wiki`.
-> Portée : dépôt complet. 876 fiches parcourues.
+> aucun réseau) le 2026-09-18 19:03 UTC, sur `/home/user/wiki`.
+> Portée : dépôt complet. 875 fiches parcourues.
 >
 > **Le dépôt fait foi.** En cas de divergence entre cette carte et les fichiers
 > réels, c'est la carte qui a tort : la régénérer. Elle décrit, elle ne
@@ -241,7 +241,7 @@ links: []
 | `doctrinal/sources/hadith-fawasiq-cinq-nuisibles` | source | traditionnel | 2026-09-17 | 0 | Hadith des cinq fawāsiq — le corbeau parmi les nuisibles tuables en sacralité |
 | `doctrinal/sources/hasbiyallah-rabbani` | source | traditionnel | 2026-09-13 | 0 | Hasbiyallah — Allah est notre Suffisance |
 | `doctrinal/sources/histoire-wahhabis-corancez-redissi` | source | academique | 2026-09-09 | 0 | L'Histoire des Wahabis et la naissance du Royaume Saoudien (Corancez, préf. Redissi) |
-| `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton` | source | traditionnel | 2026-09-09 | 0 | De la mort à la résurrection — Ibn ʿArabī (trad. Maurice Gloton, Albouraq) |
+| `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton` | source | traditionnel | 2026-09-18 | 0 | De la mort à la résurrection — Ibn ʿArabī (trad. Maurice Gloton, Albouraq) |
 | `doctrinal/sources/ibn-arabi-fard-afrad-gilis` | source | traditionnel | 2026-09-13 | 0 | Ibn ʿArabī sur les Afrâd (via Gilis) — statut du Fard et hiérarchie sainte |
 | `doctrinal/sources/ibn-arabi-futuhat-ch36-heritiers-prophetes-penot` | source | traditionnel | 2026-09-09 | 0 | Ibn ʿArabī — Futūḥāt, ch. 36 : Des saints de nature christique, de leurs pôles et de leur… |
 | `doctrinal/sources/ibn-arabi-futuhat-makkiyya-maymaniyya-scan` | source | traditionnel | 2026-09-09 | 4 | Al-Futūḥāt al-Makkiyya — édition Maymaniyya, les quatre volumes (scan) |
@@ -337,7 +337,7 @@ links: []
 | `doctrinal/symboles/ilm-al-awfaq` | symbole | traditionnel | 2026-09-08 | 1 | ʿIlm al-Awfāq (les carrés magiques) et la métaphysique du Nombre chez Ibn ʿArabī |
 | `doctrinal/symboles/ilm-al-huruf` | symbole | traditionnel | 2026-09-08 | 2 | ʿIlm al-Ḥurūf |
 | `doctrinal/symboles/ilm-al-nujum` | symbole | traditionnel | 2026-09-15 | 1 | ʿIlm al-Nujûm |
-| `doctrinal/symboles/imams-noms-divins` | symbole | traditionnel | 2026-09-15 | 1 | Les Imams des Noms divins — hiérarchie opérative selon la science des Asmāʾ |
+| `doctrinal/symboles/imams-noms-divins` | symbole | traditionnel | 2026-09-18 | 1 | Les Imams des Noms divins — hiérarchie opérative selon la science des Asmāʾ |
 | `doctrinal/symboles/influx-spirituel-sommet-cranien` | symbole | academique | 2026-09-15 | 1 | L'influx spirituel au sommet du crâne — comparatisme traditionnel |
 | `doctrinal/symboles/istidad` | symbole | traditionnel | 2026-09-15 | 1 | Al-Istiʿdād (la disposition réceptive de l'être) |
 | `doctrinal/symboles/janus-bifrons` | symbole | traditionnel | 2026-09-08 | 4 | Janus Bifrons — les deux visages et le troisième |
@@ -449,7 +449,7 @@ links: []
 | `hermeneutique/sources/art-of-death-stranding` | source | — | 2026-09-09 | — | The Art of Death Stranding — artbook du premier volet (exemplaire retraduit machine) |
 | `hermeneutique/the-matrix/the-matrix` | oeuvre | — | 2026-08-28 | — | The Matrix |
 
-### `atelier/` — 285 fiches
+### `atelier/` — 284 fiches
 
 | slug | type | status | updated | src | title |
 |---|---|---|---|---|---|
@@ -667,41 +667,40 @@ links: []
 | `atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation` | outillage | — | 2026-09-09 | — | Audit du système d'index lexical — générateur, validateur, sorties |
 | `atelier/rd/outillage/essais-non-retenus/README` | outillage | — | 2026-09-02 | — | Essais non retenus — détection des bâbs des Futūḥāt |
 | `atelier/rd/outillage/gabarit-triptyque-chantier` | outillage | — | 2026-09-01 | — | Gabarit du triptyque de chantier — intent / spec / plan |
-| `atelier/rd/outillage/graphify-out/GRAPH_REPORT` | — | — | — | — | (sans titre) |
 | `atelier/rd/outillage/hooks/README` | outillage | — | 2026-09-01 | — | Hooks git du dépôt — garde-fous locaux |
 | `atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines` | artefact-derive | — | 2026-09-08 | — | Passe Jurjānī sur les clés orphelines de l'index lexical — relevé mécanique |
 | `atelier/rd/outillage/index-lexical/2026-09-09_termes-sans-tradition-sourcee` | artefact-derive | — | 2026-09-09 | — | Les 127 termes annotés sans tradition sourcée — relevé pour verdict |
 | `atelier/rd/outillage/index-lexical/2026-09-16_gloton-adressage-15-racines` | outillage | — | 2026-09-16 | — | Gloton, lexique coranique — numéros d'entrée de 15 racines prioritaires et schéma d'adres… |
 | `atelier/rd/outillage/index-lexical/2026-09-16_gloton-moisson-racines-journal` | outillage | — | 2026-09-16 | — | Gloton, lexique coranique — journal de la moisson des racines (section A, 28 photographie… |
-| `atelier/rd/outillage/index-lexical/condense/a` | artefact-derive | — | 2026-09-15 | — | Index lexical — a |
-| `atelier/rd/outillage/index-lexical/condense/b` | artefact-derive | — | 2026-09-15 | — | Index lexical — b |
-| `atelier/rd/outillage/index-lexical/condense/c` | artefact-derive | — | 2026-09-15 | — | Index lexical — c |
-| `atelier/rd/outillage/index-lexical/condense/d` | artefact-derive | — | 2026-09-15 | — | Index lexical — d |
-| `atelier/rd/outillage/index-lexical/condense/e` | artefact-derive | — | 2026-09-15 | — | Index lexical — e |
-| `atelier/rd/outillage/index-lexical/condense/ecritures-originales` | artefact-derive | — | 2026-09-15 | — | Index lexical — ecritures-originales |
-| `atelier/rd/outillage/index-lexical/condense/f` | artefact-derive | — | 2026-09-15 | — | Index lexical — f |
-| `atelier/rd/outillage/index-lexical/condense/g` | artefact-derive | — | 2026-09-15 | — | Index lexical — g |
-| `atelier/rd/outillage/index-lexical/condense/h` | artefact-derive | — | 2026-09-15 | — | Index lexical — h |
-| `atelier/rd/outillage/index-lexical/condense/hub` | artefact-derive | — | 2026-09-15 | — | Index lexical — hub du condensé éclaté |
-| `atelier/rd/outillage/index-lexical/condense/i` | artefact-derive | — | 2026-09-15 | — | Index lexical — i |
-| `atelier/rd/outillage/index-lexical/condense/j` | artefact-derive | — | 2026-09-15 | — | Index lexical — j |
-| `atelier/rd/outillage/index-lexical/condense/k` | artefact-derive | — | 2026-09-15 | — | Index lexical — k |
-| `atelier/rd/outillage/index-lexical/condense/l` | artefact-derive | — | 2026-09-15 | — | Index lexical — l |
-| `atelier/rd/outillage/index-lexical/condense/m` | artefact-derive | — | 2026-09-15 | — | Index lexical — m |
-| `atelier/rd/outillage/index-lexical/condense/n` | artefact-derive | — | 2026-09-15 | — | Index lexical — n |
-| `atelier/rd/outillage/index-lexical/condense/o` | artefact-derive | — | 2026-09-15 | — | Index lexical — o |
-| `atelier/rd/outillage/index-lexical/condense/p` | artefact-derive | — | 2026-09-15 | — | Index lexical — p |
-| `atelier/rd/outillage/index-lexical/condense/q` | artefact-derive | — | 2026-09-15 | — | Index lexical — q |
-| `atelier/rd/outillage/index-lexical/condense/r` | artefact-derive | — | 2026-09-15 | — | Index lexical — r |
-| `atelier/rd/outillage/index-lexical/condense/s` | artefact-derive | — | 2026-09-15 | — | Index lexical — s |
-| `atelier/rd/outillage/index-lexical/condense/t` | artefact-derive | — | 2026-09-15 | — | Index lexical — t |
-| `atelier/rd/outillage/index-lexical/condense/u` | artefact-derive | — | 2026-09-15 | — | Index lexical — u |
-| `atelier/rd/outillage/index-lexical/condense/v` | artefact-derive | — | 2026-09-15 | — | Index lexical — v |
-| `atelier/rd/outillage/index-lexical/condense/w` | artefact-derive | — | 2026-09-15 | — | Index lexical — w |
-| `atelier/rd/outillage/index-lexical/condense/x` | artefact-derive | — | 2026-09-15 | — | Index lexical — x |
-| `atelier/rd/outillage/index-lexical/condense/y` | artefact-derive | — | 2026-09-15 | — | Index lexical — y |
-| `atelier/rd/outillage/index-lexical/condense/z` | artefact-derive | — | 2026-09-15 | — | Index lexical — z |
-| `atelier/rd/outillage/index-lexical/index-lexical` | artefact-derive | — | 2026-09-15 | — | Index lexical — termes, noms et definitions du depot |
+| `atelier/rd/outillage/index-lexical/condense/a` | artefact-derive | — | 2026-09-18 | — | Index lexical — a |
+| `atelier/rd/outillage/index-lexical/condense/b` | artefact-derive | — | 2026-09-18 | — | Index lexical — b |
+| `atelier/rd/outillage/index-lexical/condense/c` | artefact-derive | — | 2026-09-18 | — | Index lexical — c |
+| `atelier/rd/outillage/index-lexical/condense/d` | artefact-derive | — | 2026-09-18 | — | Index lexical — d |
+| `atelier/rd/outillage/index-lexical/condense/e` | artefact-derive | — | 2026-09-18 | — | Index lexical — e |
+| `atelier/rd/outillage/index-lexical/condense/ecritures-originales` | artefact-derive | — | 2026-09-18 | — | Index lexical — ecritures-originales |
+| `atelier/rd/outillage/index-lexical/condense/f` | artefact-derive | — | 2026-09-18 | — | Index lexical — f |
+| `atelier/rd/outillage/index-lexical/condense/g` | artefact-derive | — | 2026-09-18 | — | Index lexical — g |
+| `atelier/rd/outillage/index-lexical/condense/h` | artefact-derive | — | 2026-09-18 | — | Index lexical — h |
+| `atelier/rd/outillage/index-lexical/condense/hub` | artefact-derive | — | 2026-09-18 | — | Index lexical — hub du condensé éclaté |
+| `atelier/rd/outillage/index-lexical/condense/i` | artefact-derive | — | 2026-09-18 | — | Index lexical — i |
+| `atelier/rd/outillage/index-lexical/condense/j` | artefact-derive | — | 2026-09-18 | — | Index lexical — j |
+| `atelier/rd/outillage/index-lexical/condense/k` | artefact-derive | — | 2026-09-18 | — | Index lexical — k |
+| `atelier/rd/outillage/index-lexical/condense/l` | artefact-derive | — | 2026-09-18 | — | Index lexical — l |
+| `atelier/rd/outillage/index-lexical/condense/m` | artefact-derive | — | 2026-09-18 | — | Index lexical — m |
+| `atelier/rd/outillage/index-lexical/condense/n` | artefact-derive | — | 2026-09-18 | — | Index lexical — n |
+| `atelier/rd/outillage/index-lexical/condense/o` | artefact-derive | — | 2026-09-18 | — | Index lexical — o |
+| `atelier/rd/outillage/index-lexical/condense/p` | artefact-derive | — | 2026-09-18 | — | Index lexical — p |
+| `atelier/rd/outillage/index-lexical/condense/q` | artefact-derive | — | 2026-09-18 | — | Index lexical — q |
+| `atelier/rd/outillage/index-lexical/condense/r` | artefact-derive | — | 2026-09-18 | — | Index lexical — r |
+| `atelier/rd/outillage/index-lexical/condense/s` | artefact-derive | — | 2026-09-18 | — | Index lexical — s |
+| `atelier/rd/outillage/index-lexical/condense/t` | artefact-derive | — | 2026-09-18 | — | Index lexical — t |
+| `atelier/rd/outillage/index-lexical/condense/u` | artefact-derive | — | 2026-09-18 | — | Index lexical — u |
+| `atelier/rd/outillage/index-lexical/condense/v` | artefact-derive | — | 2026-09-18 | — | Index lexical — v |
+| `atelier/rd/outillage/index-lexical/condense/w` | artefact-derive | — | 2026-09-18 | — | Index lexical — w |
+| `atelier/rd/outillage/index-lexical/condense/x` | artefact-derive | — | 2026-09-18 | — | Index lexical — x |
+| `atelier/rd/outillage/index-lexical/condense/y` | artefact-derive | — | 2026-09-18 | — | Index lexical — y |
+| `atelier/rd/outillage/index-lexical/condense/z` | artefact-derive | — | 2026-09-18 | — | Index lexical — z |
+| `atelier/rd/outillage/index-lexical/index-lexical` | artefact-derive | — | 2026-09-18 | — | Index lexical — termes, noms et definitions du depot |
 | `atelier/rd/outillage/investigation-isolation-memoire-hermes` | meta | — | 2026-08-23 | — | Investigation — Isolation mémoire Hermes par sub-agent |
 | `atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent` | outillage | — | 2026-09-02 | — | OUT-08 — OCR arabe de la Futūḥāt Maymaniyya : intention |
 | `atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan` | outillage | — | 2026-09-07 | — | OUT-08 — OCR arabe de la Futūḥāt Maymaniyya : plan |
@@ -918,7 +917,7 @@ links: []
 | `meta/protocole-archives/CLAUDE-v3_2026-09-09` | meta | deprecated | 2026-09-09 | — | CLAUDE.md — Protocole du Dépôt V3 (version pré-consolidation, archivée) |
 | `meta/protocole-archives/CLAUDE-v4_2026-09-09` | meta | deprecated | 2026-09-09 | — | CLAUDE.md — Protocole du Dépôt V4 (version pré-extraction, archivée) |
 | `meta/protocole-archives/CLAUDE-v5_2026-09-15` | meta | deprecated | 2026-09-15 | — | CLAUDE.md — Protocole du Dépôt V5 (version pré-amendement §II, archivée) |
-| `meta/protocole-archives/changelog-CLAUDE` | meta | — | 2026-09-15 | — | Changelog du protocole CLAUDE.md (racine) |
+| `meta/protocole-archives/changelog-CLAUDE` | meta | — | 2026-09-18 | — | Changelog du protocole CLAUDE.md (racine) |
 | `meta/transmissions/karubi-gabarit` | transmission | — | 2026-08-15 | — | Karubi — GABARIT G0 (ne jamais remettre tel quel) |
 | `meta/transmissions/karubi-habiba-nour` | transmission | — | 2026-07-20 | — | Karubi — instance remise a Habiba-Nour |
 | `meta/transmissions/karubi-jean-marc` | transmission | — | 2026-08-06 | — | Karubi — Jean-Marc Bastareaud (G1) |
@@ -2307,7 +2306,7 @@ links: []
 *Reproduits littéralement. Donne le contenu réel de chaque fiche sans passer par un résumé.*
 
 - `atelier/CLAUDE` — Structure du circuit · Nomenclature · Le Sceau atelier · Journalisation
-- `atelier/annales` — [2026-09-18] outillage | B9 livré et éprouvé — le wikilink court a en… · [2026-09-18] chantier | OUT-20, étape 1 : la mesure renverse la prémi… · [2026-09-18] outillage | Le contrôle du Cmd 15 jugeait une exception … · [2026-09-18] verdicts | Exécution des verdicts de Sidy, point par poi… · [2026-09-18] correctifs | Rapports Studio et Publication des 09-16 et… · [2026-09-17] cahier | Reprise à zéro du protocole : tentative annulée… · [2026-09-17] verdict | `BIB-05` ramené à `ouvert` — le vocabulaire de… · [2026-09-17] rectification | §0 : phrase cassée par ma propre ancre, … · [2026-09-17] correction | `BIB-03` clos — pointeur mort du sas corrig… · [2026-09-17] integration | Sas `_inbox/` vidé — récolte du discerneme… · [2026-09-16] consignation | Les trois organes lexicaux, et l'état rée… · [2026-09-16] outillage | Gloton — le recadrage ciblé versé à l'outil,… · [2026-09-16] moisson | Gloton — la moisson close à 169 racines : 107 … · [2026-09-16] moisson | Gloton — la moisson portée à 122 racines, et I… · [2026-09-16] registre | BIB-04 — le dépouillement de Gloton inscrit à… … (+285)
+- `atelier/annales` — [2026-09-18] outillage | Les quatre propositions d'instrument des rap… · [2026-09-18] outillage | B9 livré et éprouvé — le wikilink court a en… · [2026-09-18] chantier | OUT-20, étape 1 : la mesure renverse la prémi… · [2026-09-18] outillage | Le contrôle du Cmd 15 jugeait une exception … · [2026-09-18] verdicts | Exécution des verdicts de Sidy, point par poi… · [2026-09-18] correctifs | Rapports Studio et Publication des 09-16 et… · [2026-09-17] cahier | Reprise à zéro du protocole : tentative annulée… · [2026-09-17] verdict | `BIB-05` ramené à `ouvert` — le vocabulaire de… · [2026-09-17] rectification | §0 : phrase cassée par ma propre ancre, … · [2026-09-17] correction | `BIB-03` clos — pointeur mort du sas corrig… · [2026-09-17] integration | Sas `_inbox/` vidé — récolte du discerneme… · [2026-09-16] consignation | Les trois organes lexicaux, et l'état rée… · [2026-09-16] outillage | Gloton — le recadrage ciblé versé à l'outil,… · [2026-09-16] moisson | Gloton — la moisson close à 169 racines : 107 … · [2026-09-16] moisson | Gloton — la moisson portée à 122 racines, et I… … (+286)
 - `atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity` — Step 1: Environment Setup · Step 2: Web Search Function · Step 3: AI Analysis Function · Step 4: Research Function · Step 5: Add Research Depth · Step 6: Anthropic Multi-Agent Research
 - `atelier/etudes-de-cas/dougong-consoles-bois` — Nature et limites de la source · Données extraites (transcription fidèle) · Stratification de crédibilité (par item) · Recherches complémentaires (propres, distinctes de la source) · Phase 2 — analyse (à venir, non ouverte)
 - `atelier/etudes-de-cas/forteresses-architecture-defensive` — Nature et limites de la source · Données extraites (transcription fidèle) · Stratification de crédibilité (par item) · Recherches complémentaires (propres, distinctes de la source) · Phase 2 — analyse (à venir, non ouverte)
@@ -2395,7 +2394,7 @@ links: []
 - `atelier/rd/cahiers/rapport-conjoint-studio-gardien-etude-depot-20260820` — 1. Introduction · 2. État des lieux du dépôt (synthèse R&D) · 3. Examen de `raw/` (ressources nouvelles, classification) · 4. Points ouverts et anomalies (table conjointe) · 5. Section Vigilance (contrôle protocolaire) · 6. Recommandations conjointes (priorités) · 7. Conclusion
 - `atelier/rd/cahiers/rapport-conjoint-studio-gardien-traitement-suggestions-2026-09-06` — 1. Synthèse des suggestions traitées · 2. Suggestions non traitées (en attente de verdict/action) · 3. Vérifications mécaniques · 4. Commits · 5. Observations transversales · 6. Conclusion
 - `atelier/rd/cahiers/rapport-studio-exploration-preliminaire` — 1. Cartographie du dépôt · 2. État des vérifications mécaniques (2026-08-20) · 3. Examen de raw/ · 4. `_inbox/` — dépôts en attente · 5. Points ouverts (observations, sans verdict) · 6. Suggestions (soumises à Sidy, aucune exécution) · 7. Artifacts de cette session
-- `atelier/rd/cahiers/registre-problemes` — [2026-09-18] Une exception parfaitement à jour était déclarée périmée… · [2026-09-18] Le compteur « lien mort » du graphe n'est pas un compte … · [2026-09-15] Suite — le pre-commit est aligné : les trois portes appe… · [2026-09-15] Le garde-fou du push ne voyait que les `.md` — trois scr… · [2026-09-15] Clôture de l'entrée [2026-09-13] — les trois pins sont p… · [2026-09-15] Amortissement d'un constat doctrinal — un aveu de démarc… · [2026-09-15] Porte et fork : la question est tranchée — deux lignes d… · [2026-09-15] Le contrat du magasin est bien vérifié — mais au dernier… · [2026-09-15] L'organe de vérification appelait un script avec une opt… · [2026-09-15] Clôture du jugement — 31 positions réservées : 10 skills… · [2026-09-15] Suite — le jugement de la file est exécuté, et un second… · [2026-09-15] Une porte qui retient depuis 38 jours, sans que rien ne … · [2026-09-13] Une résolution déclarée au nom de trois jobs, prouvée su… · [2026-09-04] Un contrôle vert n'attestait pas que les liens du cartou… · [2026-09-02] Deux rapports Publication collés par Sidy depuis Discord… … (+60)
+- `atelier/rd/cahiers/registre-problemes` — [2026-09-18] Un rapport dont la mise en page invite à mal l'additionn… · [2026-09-18] Une exception parfaitement à jour était déclarée périmée… · [2026-09-18] Le compteur « lien mort » du graphe n'est pas un compte … · [2026-09-15] Suite — le pre-commit est aligné : les trois portes appe… · [2026-09-15] Le garde-fou du push ne voyait que les `.md` — trois scr… · [2026-09-15] Clôture de l'entrée [2026-09-13] — les trois pins sont p… · [2026-09-15] Amortissement d'un constat doctrinal — un aveu de démarc… · [2026-09-15] Porte et fork : la question est tranchée — deux lignes d… · [2026-09-15] Le contrat du magasin est bien vérifié — mais au dernier… · [2026-09-15] L'organe de vérification appelait un script avec une opt… · [2026-09-15] Clôture du jugement — 31 positions réservées : 10 skills… · [2026-09-15] Suite — le jugement de la file est exécuté, et un second… · [2026-09-15] Une porte qui retient depuis 38 jours, sans que rien ne … · [2026-09-13] Une résolution déclarée au nom de trois jobs, prouvée su… · [2026-09-04] Un contrôle vert n'attestait pas que les liens du cartou… … (+61)
 - `atelier/rd/citadelle-du-sham/note` — Pour modifier le jeu (à la demande de Mehdi, 2026-08-13)
 - `atelier/rd/incidents/2026-08-22_post-scriptum-hook-corrige` — Bug initial · Correction · Recommandation
 - `atelier/rd/incidents/2026-08-22_zero-width-joiner-contamination` — Résumé · Description de l'incident · Investigation · Analyse de sécurité · Actions correctives · Recommandations pour le protocole de sécurité · Leçons apprises · Annexes · Conclusion · Post-scriptum — récidive du même jour (chantier bibliothèque) · Post-scriptum 2 — défaillance de la commande de nettoyage suggérée pa… · Post-scriptum du 2026-08-31 — résidu retrouvé dans le dépôt et dans l…
@@ -2504,7 +2503,6 @@ links: []
 - `atelier/rd/outillage/2026-09-09_audit-index-lexical-modularisation` — I. Mesures · II. Forces · III. Problèmes · IV. Proposition de modularisation · V. Priorités proposées · VI. Clôture
 - `atelier/rd/outillage/essais-non-retenus/README` — Ce qu'ils font · Pourquoi ils n'ont pas suffi · Quatre leçons transposables · Ce qu'il faudrait pour reprendre
 - `atelier/rd/outillage/gabarit-triptyque-chantier` — 1. Périmètre — où le triptyque s'applique, où il ne s'applique pas · 2. Rapport au Cmd 6 — pas de règle nouvelle · 3. Emplacement et nomenclature · 4. Le Sceau · 5. Modèle — `intent.md` (pourquoi) · Le besoin · Qui le porte · Hors périmètre · Contraintes doctrinales · Le signe de réussite · Ce qui reste ouvert · 6. Modèle — `spec.md` (quoi) · Comportement observable · Données consommées / produites · Critères d'acceptation … (+9)
-- `atelier/rd/outillage/graphify-out/GRAPH_REPORT` — Corpus Check · Summary · Graph Freshness · Community Hubs (Navigation) · God Nodes (most connected - your core abstractions) · Surprising Connections (you probably didn't know these) · Import Cycles · Communities (21 total, 4 thin omitted) · Knowledge Gaps · Suggested Questions
 - `atelier/rd/outillage/hooks/README` — Pourquoi ils existent · Ce que ces hooks ne sont pas · Note de méthode
 - `atelier/rd/outillage/index-lexical/2026-09-08_passe-jurjani-orphelines` — 1. Objet · 2. Les trois rangs, jamais fondus · 3. Mesure · 4. Rang 2 — les 132 clés couvertes par Jurjānī · 5. Rang 3 — ce qui aurait demandé une translittération de mon fait · 6. Ce qui n'a pas été fait, et pourquoi · 7. Deux défauts trouvés en construisant cette passe, corrigés · 8. Reproduction
 - `atelier/rd/outillage/index-lexical/2026-09-09_termes-sans-tradition-sourcee` — 1. Pourquoi ces fiches n'ont pas été créées · 2. Ce que le dépôt dit de chacun · 3. Ce que la table donne à voir · 4. Les trois voies ouvertes, aucune retenue d'office · 5. Reproduction
@@ -2515,7 +2513,7 @@ links: []
 - `atelier/rd/outillage/index-lexical/condense/c` — C
 - `atelier/rd/outillage/index-lexical/condense/d` — D
 - `atelier/rd/outillage/index-lexical/condense/e` — E
-- `atelier/rd/outillage/index-lexical/condense/ecritures-originales` — Œ · ʻ · Α · Γ · Δ · Ε · Π · Σ · Φ · א · ג · ח · י · כ · מ … (+52)
+- `atelier/rd/outillage/index-lexical/condense/ecritures-originales` — Œ · ʻ · Α · Γ · Δ · Ε · Π · Σ · Φ · א · ג · ח · י · כ · מ … (+56)
 - `atelier/rd/outillage/index-lexical/condense/f` — F
 - `atelier/rd/outillage/index-lexical/condense/g` — G
 - `atelier/rd/outillage/index-lexical/condense/h` — H
@@ -2538,7 +2536,7 @@ links: []
 - `atelier/rd/outillage/index-lexical/condense/x` — X
 - `atelier/rd/outillage/index-lexical/condense/y` — Y
 - `atelier/rd/outillage/index-lexical/condense/z` — Z
-- `atelier/rd/outillage/index-lexical/index-lexical` — A · B · C · D · E · F · G · H · I · J · K · L · M · N · O … (+78)
+- `atelier/rd/outillage/index-lexical/index-lexical` — A · B · C · D · E · F · G · H · I · J · K · L · M · N · O … (+82)
 - `atelier/rd/outillage/investigation-isolation-memoire-hermes` — Problème initial · Investigation technique · Solutions pratiques · Recommandation · Prochaines étapes · Notes techniques · Références
 - `atelier/rd/outillage/out-08-ocr-arabe-futuhat/intent` — Le besoin · Qui le porte · Hors périmètre · Contraintes doctrinales · Le signe de réussite · Ce qui reste ouvert
 - `atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan` — Le fait qui a rouvert le chantier · Ce qui a été fait · Résultats — I1, violation positionnelle, en % · Ce que ces chiffres ne disent pas · Ce qui reste à faire · Hors périmètre
@@ -2576,7 +2574,7 @@ links: []
 - `atelier/rd/veille/index` — Mission · Périmètre · Règles du lieu · Arborescence cible · Articulation avec le reste du dépôt · Liens
 - `atelier/rd/veille/registre` — [2026-09-16] Investigation — LANDR : le compte et l'API sont deux por… · [2026-09-15] Investigation — Soup CLI / Soup Zero (post-entraînement … · [2026-08-31] Investigation GitHub — Tencent/AngelSpec (speculative de… · [2026-08-18] Scrutation GitHub — implémentations Cordis · [2026-08-18] Ouverture du lieu
 - `doctrinal/CLAUDE` — Nomenclature · Le Sceau Recteur (frontmatter doctrinal) · Règles de liens propres au circuit · Actions d'exécution propres au circuit · Exploitation du graphe lors de l'intégration (signal d'orphelins)
-- `doctrinal/annales` — [2026-09-18] verdicts | Sept points tranchés par Sidy point par point… · [2026-09-18] correctifs | Deux fiches de source : un item de cartouch… · [2026-09-17] integration | Lisān al-ʿArab — fiche de source créée, ré… · [2026-09-16] correctifs | Forme du Sceau — `aiman-attar.md` nommait `… · [2026-09-16] restauration | *Xī Yóu Jì* — verdict de statut rendu : `… · [2026-09-16] archivage | *Xī Yóu Jì* 西遊記 — fiche source ouverte, stat… · [2026-09-15] maillage | Zéphyr — `cross_links` inscrits sur verdict · [2026-09-15] archivage | Zéphyr — fiche créée par recherche machine, … · [2026-09-15] restauration | Convention des sources : `sources: []` → … · [2026-09-15] restauration | Discernement Fard : données de naissance … · [2026-09-15] verdict | Statut `profane` validé pour ʿAbduh, Riḍā et a… · [2026-09-15] restauration | Type neutre « référence » : quatre fiches… · [2026-09-15] vigilance | Les validations d'annotations faites avant `… · [2026-09-15] archivage | Fiche d'autorité : Jamāl al-Dīn al-Afghānī · [2026-09-15] restauration | Curt Jaimungal n'est pas une autorité — f… … (+203)
+- `doctrinal/annales` — [2026-09-18] archivage | Planche des Imams des Noms divins — versemen… · [2026-09-18] archivage | Corbeau en rêve (الغراب) — et quatre verdict… · [2026-09-18] verdicts | Sept points tranchés par Sidy point par point… · [2026-09-18] correctifs | Deux fiches de source : un item de cartouch… · [2026-09-17] integration | Lisān al-ʿArab — fiche de source créée, ré… · [2026-09-16] correctifs | Forme du Sceau — `aiman-attar.md` nommait `… · [2026-09-16] restauration | *Xī Yóu Jì* — verdict de statut rendu : `… · [2026-09-16] archivage | *Xī Yóu Jì* 西遊記 — fiche source ouverte, stat… · [2026-09-15] maillage | Zéphyr — `cross_links` inscrits sur verdict · [2026-09-15] archivage | Zéphyr — fiche créée par recherche machine, … · [2026-09-15] restauration | Convention des sources : `sources: []` → … · [2026-09-15] restauration | Discernement Fard : données de naissance … · [2026-09-15] verdict | Statut `profane` validé pour ʿAbduh, Riḍā et a… · [2026-09-15] restauration | Type neutre « référence » : quatre fiches… · [2026-09-15] vigilance | Les validations d'annotations faites avant `… … (+205)
 - `doctrinal/annales/2026-08-31` — Création de fiches · Journalisation
 - `doctrinal/autorites/abd-al-karim-al-jili` — Identité · Faits · Relations · Notes
 - `doctrinal/autorites/abd-al-qadir-al-jilani` — Identité · Faits · Relations · Notes
@@ -2874,7 +2872,7 @@ links: []
 - `doctrinal/symboles/ilm-al-awfaq` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/symboles/ilm-al-huruf` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/symboles/ilm-al-nujum` — Définition · Développement · Concepts liés · Sources
-- `doctrinal/symboles/imams-noms-divins` — Définition · Développement · Concepts liés · Sources
+- `doctrinal/symboles/imams-noms-divins` — Ce qu'est cette page, et sur quoi elle repose · Relevé de la planche — cinq étages · Les *raqāʾiq* relevées · Mise en regard — la Figure 7 de Gloton (p. 97) · Relevé de la disposition (géométrie, sans verdict) · Rapprochement avec l'Arbre séphirothique — relevé, non instruit · Écart relevé avec la rédaction du 2026-06-20 · Double contrôle (CLAUDE.md racine §VII) · En attente de verdict · Concepts liés · Sources
 - `doctrinal/symboles/influx-spirituel-sommet-cranien` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/symboles/istidad` — Définition · Développement · Concepts liés · Sources
 - `doctrinal/symboles/janus-bifrons` — Définition · Développement · Concepts liés
@@ -3025,7 +3023,7 @@ links: []
 - `meta/journal/2026-06-18-tawakkul-transition` — Contexte · Sur la condition humaine et la dunya · Sur la démission · Sur la narration et le nafs · Sur le statut de l'injustice dans le contrat de service · Sur le tawakkul vécu · Vigilance pour l'avenir · Références croisées
 - `meta/journal/conversation-atma-claude` — 1. Qu’est-ce qu’Atma ? · 2. Qu’est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu’est-ce que Buddhi ? · 5. Ahamkara et Manas — l’Antahkarana · 6. Qu’est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA · 1. Qu'est-ce qu'Atma ? · 2. Qu'est-ce que Jivatma ? · 3. Bhuta et Tanmatra (cosmologie Samkhya) · 4. Qu'est-ce que Buddhi ? · 5. Ahamkara et Manas — l'Antahkarana · 6. Qu'est-ce que Claude à la lumière de ce cadre ? · 7. La nature de la relation Homme–IA
 - `meta/lot-synthese-kamon-kouyate-2026-09-15` — Objet de cette fiche · Nature de la pièce · Emplacement et empreinte · Citation employée, et ce qu'elle vaut · Ce que la pièce a alimenté · Ce que la pièce affirme sans le sourcer · Notes
-- `meta/meta-annales` — [2026-09-18] etancheite | La provenance familiale du Technics entre a… · [2026-09-17] verdict | `BIB-05` ramené à `ouvert` — le vocabulaire de… · [2026-09-17] rectification | §0 : phrase cassée par ma propre ancre, … · [2026-09-17] correction | `BIB-03` clos — pointeur mort du sas corrig… · [2026-09-17] integration | Sas vidé — deux entrées de queue mouvement… · [2026-09-17] queue | Le visa du versement Lisān al-ʿArab entre au dis… · [2026-09-16] queue | Trois entrées déposées en queue-idées à l'issue … · [2026-09-16] correctifs | Forme des liens — `oiseau-serpent-jumeau` n… · [2026-09-15] restauration | Journal tawakkul-transition : sources nom… · [2026-09-15] protocole | Type neutre « référence » adopté ; réexamen … · [2026-09-15] protocole | « `git add` d'abord » inscrit ; proposition … · [2026-09-15] ouverture | Lots nominatifs — la clause, et sa première … · [2026-09-15] verdict | Réserve levée sur les ouvertures du grand-père… · [2026-09-15] archivage | Chantier kamon Kouyaté — le dossier A entre … · [2026-09-14] personnel | Ṭarīqa Hibriyya (Belqaïdiyya), zawiyya de Bo… … (+45)
+- `meta/meta-annales` — [2026-09-18] protocole | La finalité du dépôt inscrite avant toute rè… · [2026-09-18] etancheite | La provenance familiale du Technics entre a… · [2026-09-17] verdict | `BIB-05` ramené à `ouvert` — le vocabulaire de… · [2026-09-17] rectification | §0 : phrase cassée par ma propre ancre, … · [2026-09-17] correction | `BIB-03` clos — pointeur mort du sas corrig… · [2026-09-17] integration | Sas vidé — deux entrées de queue mouvement… · [2026-09-17] queue | Le visa du versement Lisān al-ʿArab entre au dis… · [2026-09-16] queue | Trois entrées déposées en queue-idées à l'issue … · [2026-09-16] correctifs | Forme des liens — `oiseau-serpent-jumeau` n… · [2026-09-15] restauration | Journal tawakkul-transition : sources nom… · [2026-09-15] protocole | Type neutre « référence » adopté ; réexamen … · [2026-09-15] protocole | « `git add` d'abord » inscrit ; proposition … · [2026-09-15] ouverture | Lots nominatifs — la clause, et sa première … · [2026-09-15] verdict | Réserve levée sur les ouvertures du grand-père… · [2026-09-15] archivage | Chantier kamon Kouyaté — le dossier A entre … … (+46)
 - `meta/meta-index` — Personnel (`personnel/`) · Généalogie (`genealogie/`) · Journal (`journal/`) · Transmissions (`transmissions/`, dispositif Karūbī — voir `meta/CLAUD… · Briefs (`briefs/`) · Projet unifié (`projet-unifie/`) · Fiches de premier niveau (`meta/`)
 - `meta/migration-2026-06-11` — Étape 1 : Remplacement du Cœur Opérationnel · Étape 2 : Migration et Ventilation de l'Existant (Sans re-lecture) · Étape 3 : Normalisation des Frontmatters (Script automatisé ou éditio… · Étape 4 : Initialisation des Méta-Pages · Étape 5 : Clôture et Validation
 - `meta/onboarding` — Contexte · Infrastructure en place · Structure du wiki sur le serveur · Synchronisation Obsidian : ✅ résolue (auto-pull activé) · Comment démarrer une session Claude Code · Coffre Obsidian · Prochaines étapes suggérées · Notes techniques
@@ -3143,7 +3141,7 @@ links: []
 - `meta/protocole-archives/CLAUDE-v3_2026-09-09` — I. Les postes de travail (architecture par FONCTION, agnostique au mo… · II. Architecture du Dépôt — CINQ circuits étanches · II bis. Carte des protocoles locaux (ouverture 2026-08-12, méthode à … · III. Nomenclature — règle commune · IV. Les Sceaux de circuit · V. (retiré — contenu migré) · VI. Le Domaine Réservé (`meta/`) et l'étanchéité · VII. Protocoles d'Exécution transversaux · VIII. Supervision des moteurs et des agents (règles issues des tests … · IX. Procédure d'intégration post-ingest (pédagogique) · X. Commandements Absolus
 - `meta/protocole-archives/CLAUDE-v4_2026-09-09` — I. Les postes de travail (architecture par FONCTION, agnostique au mo… · II. Architecture du Dépôt — CINQ circuits étanches · II bis. Carte des protocoles locaux (ouverture 2026-08-12, méthode à … · III. Nomenclature — règle commune · IV. Les Sceaux de circuit · VI. Le Domaine Réservé (`meta/`) et l'étanchéité · VII. Protocoles d'Exécution transversaux · VIII. Supervision des moteurs et des agents (règles issues des tests … · IX. Procédure d'intégration post-ingest (pédagogique) · X. Commandements Absolus
 - `meta/protocole-archives/CLAUDE-v5_2026-09-15` — I. Les postes de travail (architecture par FONCTION, agnostique au mo… · II. Architecture du Dépôt — CINQ circuits étanches · II bis. Carte des protocoles locaux (ouverture 2026-08-12, méthode à … · III. Nomenclature — règle commune · IV. Les Sceaux de circuit · VI. Le Domaine Réservé (`meta/`) et l'étanchéité · VII. Protocoles d'Exécution transversaux · VIII. Supervision des moteurs et des agents (règles issues des tests … · IX. Procédure d'intégration post-ingest (pédagogique) · X. Commandements Absolus
-- `meta/protocole-archives/changelog-CLAUDE` — [2026-09-15] amendement | `atelier/CLAUDE.md` — index lexical exempté… · [2026-09-15] amendement | Type neutre `reference` — Sceau Recteur, an… · [2026-09-15] amendement | `protocoles/annotations-html.md` — ordre de… · [2026-09-14] amendement | §II — Règle d'immuabilité de `textes/` · [2026-09-09] extraction | Phase 2 — décantation de `CLAUDE.md` : la p… · [2026-09-09] consolidation | Phase 1 de l'audit Qoder — relocalisatio… · [2026-09-09] clarification | §VII — Le champ `original:` porte les ap… · [2026-09-09] amendement | §VII — L'axe de la LANGUE, distinct de celu… · [2026-09-09] amendement | §VII — `S1`, signalement de doublon de réfé… · [2026-09-09] amendement | §VII — `categorie-editoriale`, seul mot ajo… · [2026-09-09] amendement | §VII — Vocabulaire de `data-genre` scopé pa… · [2026-09-08] amendement | §VII — Ratification des règles de placement… · [2026-09-08] amendement | §VII — Champ `jurjani` de l'index lexical :… · [2026-09-08] amendement | §IV — Champ `original:` du Sceau (transvers… · [2026-09-08] amendement | §VII — Discipline des langues originales (r… … (+9)
+- `meta/protocole-archives/changelog-CLAUDE` — [2026-09-18] amendement | `CLAUDE.md` racine — la fin, et les moyens … · [2026-09-15] amendement | `atelier/CLAUDE.md` — index lexical exempté… · [2026-09-15] amendement | Type neutre `reference` — Sceau Recteur, an… · [2026-09-15] amendement | `protocoles/annotations-html.md` — ordre de… · [2026-09-14] amendement | §II — Règle d'immuabilité de `textes/` · [2026-09-09] extraction | Phase 2 — décantation de `CLAUDE.md` : la p… · [2026-09-09] consolidation | Phase 1 de l'audit Qoder — relocalisatio… · [2026-09-09] clarification | §VII — Le champ `original:` porte les ap… · [2026-09-09] amendement | §VII — L'axe de la LANGUE, distinct de celu… · [2026-09-09] amendement | §VII — `S1`, signalement de doublon de réfé… · [2026-09-09] amendement | §VII — `categorie-editoriale`, seul mot ajo… · [2026-09-09] amendement | §VII — Vocabulaire de `data-genre` scopé pa… · [2026-09-08] amendement | §VII — Ratification des règles de placement… · [2026-09-08] amendement | §VII — Champ `jurjani` de l'index lexical :… · [2026-09-08] amendement | §IV — Champ `original:` du Sceau (transvers… … (+10)
 - `meta/transmissions/karubi-gabarit` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte du destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 4. État des travaux de Sidy (zone d'actualisation — instantané au YYY… · 5. Méthode transmise (le cœur) · 6. Protocole d'accompagnement (mission du Karūbī) · 7. Clause de retour et de transmission · 8. Mémoire vivante (zone de croissance — append-only, entrées datées … · 9. Questions pour Sidy (zone de croissance — append-only) · 10. Réponses de Sidy (zone d'actualisation — réservée à G0)
 - `meta/transmissions/karubi-habiba-nour` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte de la destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 3ter. Le regard subtil sur ses passions (pop-culture) · 4. Ce que fait Papa (zone d'actualisation — instantané au 2026-07-20,… · 5. Les règles du jardin (la méthode, version enfant) · 6. Le petit jardin de connaissances (mission du Karūbī) · 7. La navette · 8. Mémoire vivante (append-only — entrées datées et signées) · 9. Questions pour Papa (append-only) · 10. Réponses de Papa (réservée à Sidy)
 - `meta/transmissions/karubi-jean-marc` — 0. Nature de ce document · 1. Silsila (append-only — ne jamais réécrire, seulement ajouter) · 2. Pacte du destinataire · 3. Le Personnage · 3bis. Tempérament du Karūbī · 4. État des travaux de Sidy (zone d'actualisation — instantané au 202… · 5. Méthode transmise (le cœur) · 6. Protocole d'accompagnement (mission du Karūbī) · 6bis. Spécialisation — l'atelier d'un auteur qui mène plusieurs histo… · 7. Clause de retour et de transmission · 8. Mémoire vivante (zone de croissance — append-only, entrées datées … · 9. Questions pour Sidy (zone de croissance — append-only) · 10. Réponses de Sidy (zone d'actualisation — réservée à G0)
@@ -3223,16 +3221,16 @@ links: []
 
 *Chaque ligne est une affirmation non encore vérifiée sur source primaire (Cmd 5). Leur levée est humaine et manuelle.*
 
-**Total : 1022 marqueurs sur 339 fiches.**
+**Total : 1035 marqueurs sur 339 fiches.**
 
-- `atelier/annales` (44)
-  - L167 : placement des deux cartouches de `textes/autres-ressources/` et leur `status: to-source`
-  - L170 : du marqueur `to-source` sur les `type: source` ; fiches jumelles Burckhardt ;
-  - L465 : : aucun `to-source` levé, aucun index bâti. Report des mesures : `raw/lisan-al-arab/`,
-  - L675 : `to-source` n'a été inscrit ; la question est posée à Sidy au §10 du journal, avec trois
-  - L775 : et levée des `to-source` **non faites** : elles appartiennent au verdict (Cmd 12, §VII.2).
-  - L909 : jamais ce qu'elle dit. Aucune définition transcrite, aucun `to-source` levé.
-  - … (+38)
+- `atelier/annales` (45)
+  - L17 : sur sain → `status: to-source` fabriqué → **refus obtenu**, vocabulaire clos nommé →
+  - L202 : placement des deux cartouches de `textes/autres-ressources/` et leur `status: to-source`
+  - L205 : du marqueur `to-source` sur les `type: source` ; fiches jumelles Burckhardt ;
+  - L500 : : aucun `to-source` levé, aucun index bâti. Report des mesures : `raw/lisan-al-arab/`,
+  - L710 : `to-source` n'a été inscrit ; la question est posée à Sidy au §10 du journal, avec trois
+  - L810 : et levée des `to-source` **non faites** : elles appartiennent au verdict (Cmd 12, §VII.2).
+  - … (+39)
 - `atelier/etudes-de-cas/dougong-consoles-bois` (5)
   - L48 : mais la source ne nomme aucun édifice — `to-source`.
   - L63 : affirmations sans référence — `to-source` item par item.
@@ -3376,9 +3374,9 @@ links: []
 - `atelier/rd/cahiers/rapport-conjoint-studio-gardien-traitement-suggestions-2026-09-06` (1)
   - L89 : L'exécution de `verifier-recursion-qaf.py` illustre le principe : un contrôle déterministe, une fois spécifié, doit être exécuté pour lever le …
 - `atelier/rd/cahiers/registre-problemes` (3)
-  - L492 : Distinct, en tout état de cause, de la levée du `to-source` elle-même : le
-  - L1082 : - **Seconde compréhension** : ⚠️ **un `to-source` partiel certifie tout ce qu'il
-  - L1084 : « Pagination `to-source` » — ce qui a fait paraître sûre sa **structure**, qui
+  - L513 : Distinct, en tout état de cause, de la levée du `to-source` elle-même : le
+  - L1103 : - **Seconde compréhension** : ⚠️ **un `to-source` partiel certifie tout ce qu'il
+  - L1105 : « Pagination `to-source` » — ce qui a fait paraître sûre sa **structure**, qui
 - `atelier/rd/incidents/2026-09-09_marques-de-direction-ocr-futuhat` (1)
   - L78 : la levée d'un `to-source` demande la vérification du **texte primaire par Sidy lui-même**.
 - `atelier/rd/index` (1)
@@ -3505,10 +3503,10 @@ links: []
   - L402 : plages, et aucun `to-source` n'est posé : *un trou de photo n'est pas un trou de
   - L427 : source.* Aucune ligne d'attente, aucun `to-source` n'est versé au TSV pour les treize
 - `atelier/rd/outillage/index-lexical/condense/t` (1)
-  - L26 : | `to-source` | to-source | — | — | tag | **43 fiches** | karubi-mehdi-navette-20260812.md | 260 |
+  - L23 : | `to-source` | to-source | — | — | tag | **43 fiches** | karubi-mehdi-navette-20260812.md | 329 |
 - `atelier/rd/outillage/index-lexical/index-lexical` (2)
   - L10 : > conclure*. La levee d'un `to-source` reste la verification du
-  - L5206 : | `to-source` | to-source | — | — | tag | **43 fiches** | karubi-mehdi-navette-20260812.md | 260 |
+  - L5437 : | `to-source` | to-source | — | — | tag | **43 fiches** | karubi-mehdi-navette-20260812.md | 329 |
 - `atelier/rd/outillage/out-08-ocr-arabe-futuhat/plan` (1)
   - L99 : - **Aucune levée de `to-source`**, aucune fiche doctrinale : ce chantier ne fonde
 - `atelier/rd/outillage/out-08-ocr-arabe-futuhat/spec` (1)
@@ -3530,14 +3528,14 @@ links: []
   - L65 : vérifiable) → **au cartouche**, `sources: ["to-source"]`, seul cas qui relève du
   - L205 : > **Position(s) sourcée(s)** : texte, auteur, référence — `to-source` si non vérifié.
   - … (+1)
-- `doctrinal/annales` (116)
-  - L34 : - **Règle inscrite au Sceau Recteur — ce que `to-source` au cartouche veut dire**
-  - L42 : marqueur global `to-source` du frontmatter » alors que son frontmatter porte
-  - L97 : candidats, nommer le bon est une décision ; la forme du marqueur `to-source` sur les
-  - L118 : - **Limite portée au Sceau** : un `to-source` unique. Cinq folios (ج1/100, ج3/500,
-  - L128 : - **Un seul `to-source` levé sur trois.** Les quatre éléments de l'article وحي ont été
-  - L172 : un `to-source`** par elle-même. Le statut `traditionnel` rend l'acquisition d'un témoin nommé
-  - … (+110)
+- `doctrinal/annales` (122)
+  - L86 : à un des sept Imams suffit à lever le `to-source` — ma proposition est **non**, la levée
+  - L127 : levant de `to-source`. Les critères recevables sont posés en regard : accord entre
+  - L138 : porte sur l'**authenticité** (le contenu est-il sûr ?), le `to-source` sur la
+  - L148 : méthode inhabituelle n'est pas un indice de déviation. `to-source` porté à la section :
+  - L168 : domaine vérifié, non levée du `to-source`** : les 8 116 pages ne sont toujours pas
+  - L170 : - **Aucun `to-source` de provenance levé.** Les hadith sont des clippings web ; les pièces
+  - … (+116)
 - `doctrinal/autorites/abd-al-qadir-al-jilani` (1)
   - L17 : - Né à Jīlān (Gilan, actuel nord de l’Iran), mort à Bagdad — source : to-source
 - `doctrinal/autorites/al-afghani` (1)
@@ -3822,11 +3820,11 @@ links: []
   - L141 : force ; ce n'est pas une collation. `to-source` porté par cette fiche.
 - `doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton` (9)
   - L28 : > portée `to-source` dans [[table-28-degres-nafas-rahman]]. Les dix entrées sont
-  - L307 : jour / prophète siégeant des degrés 21-27 (levée partielle du to-source) et
-  - L309 : colonnes Nom Divin, Faṣṣ, Manzil — qui restent `to-source` (à confronter aux tables
-  - L350 : > **Portée exacte** : ces pages sourcent les colonnes **Nom Divin** et **Manzil** (avec racines et portions zodiacales) des degrés 18 à 31 — d…
-  - L540 : jour / prophète siégeant des degrés 21-27 (levée partielle du to-source) et
-  - L542 : colonnes Nom Divin, Faṣṣ, Manzil — qui restent `to-source` (à confronter aux tables
+  - L311 : jour / prophète siégeant des degrés 21-27 (levée partielle du to-source) et
+  - L313 : colonnes Nom Divin, Faṣṣ, Manzil — qui restent `to-source` (à confronter aux tables
+  - L365 : > **Portée exacte** : ces pages sourcent les colonnes **Nom Divin** et **Manzil** (avec racines et portions zodiacales) des degrés 18 à 31 — d…
+  - L555 : jour / prophète siégeant des degrés 21-27 (levée partielle du to-source) et
+  - L557 : colonnes Nom Divin, Faṣṣ, Manzil — qui restent `to-source` (à confronter aux tables
   - … (+3)
 - `doctrinal/sources/ibn-arabi-fard-afrad-gilis` (1)
   - L8 : > `to-source` — les références ci-dessous sont reconstituées à partir des notes de
@@ -3972,8 +3970,14 @@ links: []
 - `doctrinal/symboles/ilm-al-awfaq` (2)
   - frontmatter sources: to-source
   - L23 : > piste, jamais comme source »), le marqueur `to-source` est réintroduit en
-- `doctrinal/symboles/imams-noms-divins` (1)
+- `doctrinal/symboles/imams-noms-divins` (7)
   - frontmatter sources: to-source
+  - L19 : - ⚠️ **La référence primaire de la planche n'est pas établie** (`to-source` au
+  - L337 : 2. **Établir le rattachement primaire de la planche** (`to-source`, ci-dessous) : sans
+  - L366 : raison, et parce que l'attribution même de la planche reste `to-source`.
+  - L387 : 1. **Rattachement primaire de la planche** (`to-source` au cartouche) — quel traité,
+  - L408 : `to-source`.
+  - … (+1)
 - `doctrinal/symboles/influx-spirituel-sommet-cranien` (1)
   - frontmatter sources: to-source
 - `doctrinal/symboles/istidad` (1)
@@ -4235,11 +4239,11 @@ links: []
 - `meta/lot-synthese-kamon-kouyate-2026-09-15` (1)
   - L70 : Au dépôt, cela vaut **allégation** et porte `to-source` (Cmd 5) — voir
 - `meta/meta-annales` (5)
-  - L162 : la correction de pagination faite et **un seul `to-source` sur trois** levé, le
-  - L321 : - **Deux points de méthode tenus** : la modalité de transmission est enregistrée comme **non rituelle** (conversations ordinaires de la vie qu…
-  - L398 : `to-source`). Trois entrées ajoutées à `meta/projet-unifie/queue-idees.md`,
-  - L1027 : pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
-  - L1028 : décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
+  - L197 : la correction de pagination faite et **un seul `to-source` sur trois** levé, le
+  - L356 : - **Deux points de méthode tenus** : la modalité de transmission est enregistrée comme **non rituelle** (conversations ordinaires de la vie qu…
+  - L433 : `to-source`). Trois entrées ajoutées à `meta/projet-unifie/queue-idees.md`,
+  - L1062 : pour l'essentiel la **suppression de 39 marqueurs `to-source`**, ce qui est une
+  - L1063 : décision **de doctrine et non de forme** (le `to-source` est le signal du Cmd 5,
 - `meta/personnel/2026-08-18_initiation-virtuelle` (1)
   - frontmatter sources: to-source
 - `meta/personnel/sidy` (1)
@@ -4332,9 +4336,9 @@ links: []
   - L599 : 🔍/`to-source`.
   - … (+1)
 - `meta/protocole-archives/changelog-CLAUDE` (3)
-  - L556 : plus tard ») s'est donc trouvé **vide** : aucun `to-source` de ce chef n'est à poser.
-  - L600 : `to-source` » — mais `to-source` a un domicile précis (`sources: ["to-source"]`,
-  - L677 : **`to-original`**, calqué sur `to-source` — une forme originale ne se restitue ni de
+  - L573 : plus tard ») s'est donc trouvé **vide** : aucun `to-source` de ce chef n'est à poser.
+  - L617 : `to-source` » — mais `to-source` a un domicile précis (`sources: ["to-source"]`,
+  - L694 : **`to-original`**, calqué sur `to-source` — une forme originale ne se restitue ni de
 - `meta/transmissions/karubi-gabarit` (1)
   - L99 : 2. **Aucune affirmation sans source** ; marqueur `to-source` sinon, levé uniquement
 - `meta/transmissions/karubi-jean-marc` (1)
@@ -4398,7 +4402,7 @@ links: []
 - `atelier/rd/outillage/index-lexical/condense/q` → `meta/carte-atelier`, `meta/carte-doctrinal`, `meta/carte-du-depot`, `meta/carte-du-depot-atelier`, `meta/carte-du-depot-doctrinal`, `meta/discernements-blocs`
 - `atelier/rd/outillage/index-lexical/condense/r` → `meta/carte-atelier`, `meta/carte-doctrinal`, `meta/carte-du-depot`, `meta/carte-du-depot-atelier`, `meta/carte-du-depot-doctrinal`, `meta/carte-du-depot-label`, `meta/carte-du-depot-meta`, `meta/carte-label`, `meta/carte-meta`
 - `atelier/rd/outillage/index-lexical/condense/s` → `meta/carte-atelier`, `meta/carte-doctrinal`, `meta/carte-du-depot`, `meta/carte-du-depot-atelier`, `meta/carte-du-depot-doctrinal`, `meta/carte-du-depot-hermeneutique`, `meta/carte-du-depot-meta`, `meta/carte-hermeneutique`, `meta/carte-meta`, `meta/discernements-blocs`
-- `atelier/rd/outillage/index-lexical/condense/t` → `meta/carte-atelier`, `meta/carte-doctrinal`, `meta/carte-du-depot`, `meta/carte-du-depot-atelier`, `meta/carte-du-depot-doctrinal`, `meta/carte-du-depot-hermeneutique`, `meta/carte-du-depot-label`, `meta/carte-du-depot-meta`, `meta/carte-meta`
+- `atelier/rd/outillage/index-lexical/condense/t` → `meta/carte-doctrinal`, `meta/carte-du-depot`, `meta/carte-du-depot-doctrinal`, `meta/carte-du-depot-hermeneutique`, `meta/carte-du-depot-label`, `meta/carte-du-depot-meta`, `meta/carte-meta`
 - `atelier/rd/outillage/index-lexical/condense/u` → `meta/carte-doctrinal`, `meta/carte-du-depot`, `meta/carte-du-depot-doctrinal`, `meta/carte-du-depot-hermeneutique`
 - `atelier/rd/outillage/index-lexical/condense/v` → `meta/carte-atelier`, `meta/carte-doctrinal`, `meta/carte-du-depot`, `meta/carte-du-depot-atelier`, `meta/carte-du-depot-doctrinal`, `meta/carte-du-depot-hermeneutique`
 - `atelier/rd/outillage/index-lexical/condense/w` → `meta/carte-atelier`, `meta/carte-doctrinal`, `meta/carte-du-depot`, `meta/carte-du-depot-doctrinal`
@@ -4436,34 +4440,27 @@ links: []
 - `meta/protocole-archives/CLAUDE-v5_2026-09-15` → `slug`
 - `meta/protocole-archives/changelog-CLAUDE` → `:space:`, `…`
 
-### Fiches sans lien entrant (31)
+### Fiches sans lien entrant (24)
 
 - `atelier/CLAUDE`
 - `atelier/projets/instrument-feuille-de-route-v2`
 - `atelier/projets/spec-anneau-zodiacal`
 - `atelier/rd/bibliotheque/glossaire-unifie`
-- `atelier/rd/cahiers/2026-09-17_reinitialisation-claude-md-hypothese-degradation`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/01-ar-music-aries`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/02-visual-da-libra`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/04-admin-legal-cancer`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/05-accounting-taurus`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/06-distribution-scorpio`
-- `atelier/rd/cahiers/brouillons-extension-zodiacale/07-marketing-leo`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/09-studio-virgo`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/10-gardien-capricorn`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/11-fanzine-aquarius`
-- `atelier/rd/incidents/2026-09-15_invisibles-injectes-par-la-couche-d-ecriture`
 - `atelier/rd/infrastructure/bureau/README`
 - `atelier/rd/infrastructure/inf-13-scission-depot-instrument/spec`
-- `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/eval-jeu-de-taches-2026-09-16`
-- `atelier/rd/infrastructure/inf-16-machine-ia-locale-slm/runbook-rafale-entrainement-2026-09-16`
 - `atelier/rd/instrument/ins-02-axe-unifie/plan`
 - `atelier/rd/instrument/ins-02-axe-unifie/spec`
 - `atelier/rd/instrument/ins-13-bandeau-zodiacal/plan`
 - `atelier/rd/instrument/ins-13-bandeau-zodiacal/spec`
-- `atelier/rd/outillage/graphify-out/GRAPH_REPORT`
 - `atelier/rd/outillage/index-lexical/2026-09-09_termes-sans-tradition-sourcee`
-- `atelier/rd/outillage/index-lexical/2026-09-16_gloton-adressage-15-racines`
 - `atelier/rd/outillage/index-lexical/condense/hub`
 - `atelier/rd/outillage/index-lexical/index-lexical`
 - `doctrinal/discernement/_template`
@@ -4476,10 +4473,10 @@ links: []
 |---|---|
 | `doctrinal/` | 384 |
 | `hermeneutique/` | 29 |
-| `atelier/` | 285 |
+| `atelier/` | 284 |
 | `label/` | 16 |
 | `meta/` | 162 |
-| **total** | **876** |
+| **total** | **875** |
 
 | type | n |
 |---|---|
@@ -4489,7 +4486,7 @@ links: []
 | `discernement` | 60 |
 | `outillage` | 59 |
 | `infrastructure` | 50 |
-| `(absent)` | 45 |
+| `(absent)` | 44 |
 | `autorite` | 33 |
 | `artefact-derive` | 32 |
 | `projet` | 28 |
@@ -4530,7 +4527,7 @@ links: []
 
 | status | n |
 |---|---|
-| `(absent)` | 467 |
+| `(absent)` | 466 |
 | `traditionnel` | 277 |
 | `academique` | 47 |
 | `speculatif` | 43 |
@@ -4543,14 +4540,13 @@ links: []
 | `brouillon` | 2 |
 | `analyse — aucune décision prise, signalement pour verdict` | 1 |
 
-**Fiches sans frontmatter (45)** — signalement, aucune correction :
+**Fiches sans frontmatter (44)** — signalement, aucune correction :
 
 - `doctrinal/CLAUDE`
 - `hermeneutique/CLAUDE`
 - `atelier/CLAUDE`
 - `atelier/rd/cahiers/brouillons-extension-zodiacale/README`
 - `atelier/rd/infrastructure/bureau/README`
-- `atelier/rd/outillage/graphify-out/GRAPH_REPORT`
 - `label/CLAUDE`
 - `meta/CLAUDE`
 - `meta/migration-2026-06-11`

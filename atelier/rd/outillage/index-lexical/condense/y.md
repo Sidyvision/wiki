@@ -2,8 +2,8 @@
 title: "Index lexical — y"
 type: artefact-derive
 tags: [index-lexical, artefact-derive]
-created: 2026-09-15
-updated: 2026-09-15
+created: 2026-09-18
+updated: 2026-09-18
 sources: []
 links: []
 ---
@@ -12,9 +12,10 @@ links: []
 
 | terme | formes attestees | appariement | cadre / langue | roles | fiches | textes/ | occ. |
 |---|---|---|---|---|---|---|---|
+| `you` | You, Yóu, you | — | — | titre, translit | **23 fiches** | LISEZ-MOI.md +29 | 555 |
 | `yoga` | YOGA, Yoga, yoga | — | — | table, tag | **18 fiches** | chapitre-xiii-l-athanor-titus-burckartt.md +40 | 490 |
 | `yahya` | YAHYA, Yahya, Yahyà, Yahyâ (+3) | — | — | table, translit | **22 fiches** | karubi-mehdi-navette-20260812.md +16 | 290 |
-| `your` | Your, your | — | — | table, titre | **41 fiches** | LISEZ-MOI.md +21 | 254 |
+| `your` | Your, your | — | — | table, titre | **42 fiches** | LISEZ-MOI.md +21 | 254 |
 | `yogi` | YOGÎ, Yogi, Yogî, Yogï (+3) | — | — | table, translit | [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/guenon-etats-multiples-ch13-hierarchies-spirituelles]] · [[doctrinal/sources/guenon-kundalini-yoga-etudes-hindouisme]] · [[doctrinal/sources/transcription-table-matieres-homme-devenir-vedanta]] | apercus-sur-l-initiation-index-de-l-uvre-de-rene-guenon-16.md +19 | 193 |
 | `yusuf` | Yusuf, Yûsuf, Yüsuf, Yūsuf (+1) | — | — | table, titre, translit | **15 fiches** | 00-front-matter.md +10 | 99 |
 | `yuga` | Yuga, yuga | — | — | annotation, table, tag | **16 fiches** | la-puissance-du-serpent.md +7 | 94 |
@@ -23,10 +24,11 @@ links: []
 | `yunus` | Yunus, Yûnus, Yünus, Yūnus | — | — | translit | [[atelier/rd/instrument/soumission-gem-convergence-28]] · [[doctrinal/discernement/2026-06-20_matrices-artificielles-barzakh]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/symboles/manazil-al-qamar]] · [[meta/discernements-blocs]] | isaghuji-cours01-introduction-transcription.md +7 | 49 |
 | `yetsira` | Yetsira | — | — | table, titre | **12 fiches** | sefer-yetsira-ramban.md +1 | 41 |
 | `yajna` | Yajna, Yajnâ, yajna, yâjña | — | — | translit | [[atelier/rd/bibliotheque/glossaires-porte-du-ciel]] · [[atelier/rd/cahiers/journal-optimisations]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md +5 | 35 |
+| `yazid` | Yazid, Yazìd, Yazîd, Yazïd (+2) | — | — | translit | [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] · [[doctrinal/autorites/michel-valsan]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] · [[doctrinal/sources/kitab-tarifat-index-transcription]] · [[doctrinal/sources/revelations-mecque-penot-entrelacs-2009-annexes-transcription]] | abu-yazid-al-bistami-et-son-enseignement-pdf-coran.md +5 | 33 |
 | `yima` | Yima | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/tilak-origine-polaire-tradition-vedique]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch04-the-night-of-the-gods.md +2 | 32 |
 | `yahia` | Yahia | — | — | table, titre | **10 fiches** | LISEZ-MOI.md +2 | 23 |
 | `youtube` | YouTube, youtube | — | — | tag | [[atelier/materiel/tascam-model-12]] · [[atelier/rd/cahiers/2026-08-31_rapport-investigation-architecture-modulaire-agents]] · [[atelier/rd/veille/2026-08-31_tencent-angelspec-speculative-decoding]] · [[atelier/rd/veille/registre]] · [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia]] · +2 | LISEZ-MOI.md +3 | 18 |
-| `yesod` | Yesod, yesod | — | — | annotation, table, tag | [[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/kabbale-10-sefirot-structure]] · +1 | shaar-hagilgulim-gate-of-reincarnations.md | 14 |
+| `yesod` | Yesod, yesod | — | — | annotation, table, tag | [[atelier/rd/cahiers/2026-08-30_rapport-erreurs-session-hindouisme-soufisme]] · [[atelier/rd/instrument/2026-08-20_instruction-branche-kabbale-phase3]] · [[atelier/rd/instrument/2026-08-30_reseau-subtil-unification-axes-deux-echelles]] · [[doctrinal/discernement/2026-08-29_sephiroth-chakras-sept-niveaux]] · [[doctrinal/sources/kabbale-10-sefirot-structure]] · +2 | shaar-hagilgulim-gate-of-reincarnations.md | 15 |
 | `yezidis` | Yézidis, yezidis, yézidis | — | — | annotation, tag | [[doctrinal/deviations/sept-tours-du-diable]] · [[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]] | apercus-sur-l-esoterisme-islamique-et-le-taoisme-index-de-l-uvre-de-rene-guenon-7.md | 13 |
 | `yehida` | Yehida, Yeḥida, yehida | — | ⚖ kabbale | annotation, table, tag, titre, translit | [[doctrinal/sources/afilalo-shaar-hagilgulim-portes-reincarnations]] · [[doctrinal/symboles/cinq-noms-ame]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | shaar-hagilgulim-gate-of-reincarnations.md | 11 |
 | `yaqub` | Yaqub, Yaʿqūb | — | — | table, titre, translit | [[doctrinal/autorites/muhammad-al-akili]] · [[doctrinal/autorites/yaqub-chaudhary]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] · +2 | — | 9 |
@@ -35,6 +37,7 @@ links: []
 | `yamuna` | Yamuna, Yamunâ, Yamunā, Yamūnā | — | — | table, translit | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[atelier/rd/bibliotheque/majma-al-bahrayn-hindouisme-soufisme]] · [[doctrinal/sources/avalon-serpent-power-nadis-reseau]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | la-puissance-du-serpent.md | 7 |
 | `yogacud` | Yogacûd | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] | les-disciplines-spirituelles.md | 7 |
 | `yoji` | Yoji | — | — | table, titre | [[hermeneutique/auteurs/yoji-shinkawa]] · [[meta/carte-du-depot-hermeneutique]] · [[meta/carte-du-depot]] · [[meta/carte-hermeneutique]] | — | 7 |
+| `ya'qub` | Ya'qūb | — | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] | — | 5 |
 | `yasna` | YASNA, Yasna | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md +1 | 5 |
 | `yogas'up` | Yogas'Up | — | — | table | [[atelier/rd/bibliotheque/abreviations-hindouisme-soufisme]] · [[atelier/rd/bibliotheque/disciplines-spirituelles-hindouisme-soufisme]] | les-disciplines-spirituelles.md | 5 |
 | `yashts` | YASHTS, Yashts | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-99-general-index.md +1 | 4 |
@@ -43,7 +46,9 @@ links: []
 | `yunani` | Yūnānī | — | — | table, titre, translit | [[doctrinal/symboles/tibb-yunani]] · [[meta/carte-doctrinal]] · [[meta/carte-du-depot-doctrinal]] · [[meta/carte-du-depot]] | — | 4 |
 | `yarifuna` | yaʿrifūna | — | — | translit | [[doctrinal/discernement/2026-08-30_gens-de-al-araf-et-les-inities]] · [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[meta/briefs/2026-08-30_passation-claude-ai-vers-terminal]] | — | 3 |
 | `yayati` | Yayati, Yayâti | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | arctic-ch07-months-and-seasons.md | 3 |
+| `ya'qubi` | Ya'qūbī | — | — | translit | [[atelier/rd/bibliotheque/bibliographie-ihwan-al-safa]] · [[atelier/rd/bibliotheque/index-noms-ihwan-al-safa]] | — | 2 |
 | `yaghbituhu` | yaghbiṭuhu | — | — | translit | [[doctrinal/discernement/2026-07-14_sayyid-al-awwalin-wal-akhirin-khatm]] · [[doctrinal/sources/dalail-al-khayrat-jazuli]] | — | 2 |
+| `yaklasımlar` | Yaklaşımlar | — | — | translit | [[doctrinal/autorites/said-ramadan-al-buti]] · [[doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya]] | — | 2 |
 | `yarfau` | yarfaʿu | — | — | translit | [[doctrinal/discernement/2026-08-30_khafd-raf-couple-operatoire-des-degres]] · [[doctrinal/sources/gloton-approche-coran-grammaire-lexique]] | — | 2 |
 | `yasatas` | Yasatas | — | — | table | [[atelier/rd/bibliotheque/index-origine-polaire-tilak]] · [[doctrinal/sources/transcription-index-tilak-origine-polaire]] | — | 2 |
 | `yusriku` | yušrikû, yušrikū | — | — | translit | [[doctrinal/sources/kitab-al-tarifat-jurjani]] · [[doctrinal/sources/kitab-tarifat-corps-transcription]] | — | 2 |

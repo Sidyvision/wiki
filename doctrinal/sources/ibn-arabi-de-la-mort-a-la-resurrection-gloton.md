@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [ibn-arabi, gloton, nafas-rahmani, maratib-al-wujud, manazil-al-qamar, ilm-al-huruf, asma-al-husna, hadarat-khams, futuhât, albouraq]
 created: 2026-07-01
-updated: 2026-09-09
+updated: 2026-09-18
 sources: []
 sources_count: 0
 cross_links: ["[[table-28-degres-nafas-rahman]]", "[[nafas-rahmani]]", "[[manazil-al-qamar]]", "[[hadarat-khams]]", "[[ilm-al-huruf]]", "[[asma-al-husna]]", "[[al-insan-al-kamil]]", "[[barzakh]]", "[[eschatologie]]", "[[doctrinal/sources/osman-yahia-histoire-classification-1964]]"]
@@ -175,6 +175,10 @@ les directives d'inscription dans le wiki-manifest v0.2.1.
 - [[asma-al-husna]] — les Noms divins, un par degré
 - [[al-insan-al-kamil]] — degré 38, boucle de rétroaction
 - [[barzakh]] — degrés 19-20 comme Barzakh supérieur
+- [[doctrinal/symboles/imams-noms-divins]] — les sept Imams des Noms divins. La
+  **Figure 7** du présent ouvrage (p. 97) y est mise en regard d'une planche arabe de
+  l'Ibn al-Arabi Foundation : les deux portent la **même hiérarchie de sept Noms** et ne
+  sont **pas la même figure**.
 
 ## Transcription — chapitre 198, degrés 17 à 38 (pp. 38-41) et modes 39-50
 
@@ -330,6 +334,17 @@ d'une prochaine lecture (poste Claude.ai) :
    (Albouraq, 2006), **pp. 466-470** — autre traduction partielle du ch. 198.
 3. Les pages du **chapitre 198** portant les colonnes Nom Divin / Faṣṣ / Manzil des degrés 21-27
    (sources présumées : tables du ch. 198, Meftah ou édition primaire).
+4. La **série des figures de l'ouvrage**, dont le dépôt ne connaît aujourd'hui qu'un
+   membre. **Figure 7, p. 97** — « L'aspect de la présence des Noms divins, ce bas
+   monde, le monde ultime et l'Isthme (*barzakh*) » — photographiée par Sidy le
+   2026-09-18 et relevée en [[doctrinal/symboles/imams-noms-divins]], section « Mise en
+   regard ». Restent à relever sur l'exemplaire : **les figures 1 à 6 et au-delà**
+   (l'une d'elles correspond-elle à la planche arabe des Imams, qui n'est pas la
+   Figure 7 ?) ; **la partie du livre dont relève la p. 97**, le texte transcrit ici
+   couvrant les pp. 35-48 (ch. 198, sections 11-38) ; et **la page arabe en regard de
+   la Figure 7**, seule à pouvoir donner la forme originale des deux Noms
+   « Organisateur » et « Séparateur », qui n'ont pas de contrepartie sur la planche
+   arabe.
 
 ---
 
