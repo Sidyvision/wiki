@@ -1,13 +1,46 @@
 ---
 title: Annales du Secrétariat Doctrinal
 type: meta
-updated: 2026-09-17
+updated: 2026-09-18
 ---
 
 # Annales du Secrétariat Doctrinal
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] correctifs | Deux fiches de source : un item de cartouche vide, un renvoi vers une pierre tombale
+
+Passe de traitement des rapports Studio/Publication (consigne de Sidy en session :
+« exécute les correctifs des rapports Publication et Studio »). Deux écritures
+doctrinales, toutes deux de **forme**, aucune de substance. Le lot entier et ses motifs :
+`atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication.md`.
+
+- **[[doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace]]** — le troisième
+  item de `cross_links` était la chaîne vide `""` (l. 11). Retiré ; les deux wikilinks
+  réels conservés dans l'ordre. Seule occurrence des cinq circuits (signalement C du
+  rapport Publication du 09-17). Le contrôle passait au vert dessus : une liste bien
+  formée peut contenir un item qui ne désigne rien.
+- **[[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]]** — le corps
+  renvoyait à `meta/bibliotheque-physique.md` pour y porter le recueil *Aperçus sur
+  l'Ésotérisme islamique et le Taoïsme*. Cette fiche est un **tombstone** depuis le
+  2026-08-22 : le catalogue vit en `atelier/rd/bibliotheque/catalogue-bibliotheque.md`
+  (consultation humaine, sans wikilink — §VI). Chemin corrigé.
+- **Ce qui n'est PAS fait, et revient à Sidy** : la recension elle-même. Trois œuvres sont
+  déclarées possédées et absentes du catalogue — le recueil *Aperçus sur l'Ésotérisme
+  islamique et le Taoïsme* (au dépôt, `raw/`, 14 fichiers), la revue *La Gnose* (1911) et
+  Corancez, *L'Histoire des Wahabis* —, plus *Dalâ'il al-Khayrât* signalée le 09-16.
+  **Inscrire une possession au catalogue est une affirmation** (Cmd 5, Cmd 13), pas une
+  correction de forme.
+- **Restent en instruction, signalés non tranchés** : le pointeur de corps de
+  `transcription-table-matieres-symboles-science-sacree.md:25-26` vers le slug
+  `guenon-symboles-science-sacree`, **qui n'existe pas** — trois porteurs réels sont
+  candidats, nommer le bon est une décision ; la forme du marqueur `to-source` sur les
+  `type: source` (corps vs `sources:`), à trancher en bloc ; les deux fiches jumelles
+  Burckhardt ; les `cross_links` en forme courte de `barzakh-nur-lh.md`.
+- **Ligne de base inchangée** : 0 erreur, 71 avertissements (classe C5/C6 tranchée le
+  2026-09-10).
+- **Commit** : 983031c
+
 ## [2026-09-17] integration | Lisān al-ʿArab — fiche de source créée, référence de page corrigée
 
 Intégration du sas `_inbox/` sur visa de Sidy du 2026-09-17. Deux écritures doctrinales.

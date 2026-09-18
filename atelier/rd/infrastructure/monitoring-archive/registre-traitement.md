@@ -2,7 +2,7 @@
 title: "Registre de traitement des rapports quotidiens (Studio/Publication)"
 type: meta
 created: 2026-09-02
-updated: 2026-09-15
+updated: 2026-09-18
 tags: [atelier, rd, infrastructure, monitoring, registre]
 sources: []
 links:
@@ -74,6 +74,38 @@ datées du jour de la passe et renvoyant au même détail) :
 ```
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] traite | studio | 41dc3e7e492c | rapport du 2026-09-17
+
+**Rapport** : `monitoring-archive/2026-09-17_41dc3e7e492c.txt` (commité ce jour, `318d7f2`).
+**Traité par** : session Claude Code — consigne de Sidy en session : « exécute les correctifs des rapports Publication et Studio ». **Correctifs mécaniques exécutés, arbitrages reportés** (Cmd 12/13).
+**Résumé** : §1 stable (0 erreur, 71 avertissements C5/C6 déjà tranchés ; 656 nœuds, 2156 arêtes). **P3 exécuté pour sa part mécanique** : sur les « 48 liens morts dont la cible existe », la mesure refaite ne retient que **6 fautes de forme** (wikilinks de cartouche en `.md`), corrigées — 30 visent un hub exclu par construction (`FICHIERS_EXCLUS`, l. 134 du générateur), 11 sont des **chemins nus de `sources:`** (famille P2 : les convertir serait une régression), 1 vise `.tsv`. Liens morts 167 → **161**, avertissements du graphe 252 → **242**. **P5 exécuté** : les 4 archives non suivies commitées, chemins nommés un par un. **P1/P2 (`stash@{0}`) : rien touché** — le danger nommé est le réflexe de rangement. P4 (file, 4 inaptes) reste hors dépôt sur `OUT-17` ; les propositions d'instrument (décomposition publiée par le graphe, contrôle `status:` élargi, `detecter-nouvelles-fiches-rd.sh`, `verifier-renvois-skills.py`) sont des chantiers à triptyque, non des correctifs.
+**Détail** : [[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]] ; [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-09-18]`.
+**Commit** : `983031c` (correctifs), `318d7f2` (archives).
+
+## [2026-09-18] traite | publication | ad3152b237bb | rapport du 2026-09-17
+
+**Rapport** : `monitoring-archive/2026-09-17_ad3152b237bb.txt` (commité ce jour, `318d7f2`).
+**Traité par** : session Claude Code, même consigne que l'entrée ci-dessus.
+**Résumé** : §1 identique à Studio (0 / 71, 1744 fichiers). **Signalement C exécuté** : l'item de liste vide `""` de `guenon-symbolisme-croix-ch4-directions-espace.md:11` retiré — seule occurrence des cinq circuits. **Signalement D exécuté pour sa moitié pointeur seulement** : la recension Seabrook renvoyait à `meta/bibliotheque-physique.md`, **tombstone** depuis le 2026-08-22 ; repointée sur `atelier/rd/bibliotheque/catalogue-bibliotheque.md`. **La recension des 3 œuvres au catalogue n'est pas faite** : elle affirme une possession (verdict Sidy). **A/A′** (Sceau porté dans `textes/`, `status: to-source` hors vocabulaire), **B** (slug `guenon-symboles-science-sacree` inexistant, 3 porteurs candidats), **E** (forme du marqueur `to-source` en bloc), **F** (`technics-su-8080.md:21`, 4ᵉ jour) et les **2 cibles `label/`** : **en attente de verdict**, motifs nommés en fiche.
+**Détail** : [[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]] ; [[atelier/rd/cahiers/registre-problemes]], entrée `[2026-09-18]`.
+**Commit** : `983031c` (correctifs), `318d7f2` (archives).
+
+## [2026-09-18] traite | studio | 41dc3e7e492c | rapport du 2026-09-16
+
+**Rapport** : `monitoring-archive/2026-09-16_41dc3e7e492c.txt` (commité ce jour, `318d7f2`), lu dans la même passe que l'entrée du 09-17 ci-dessus.
+**Traité par** : session Claude Code, même consigne.
+**Résumé** : rapport relu pour ce que celui du 09-17 ne redit pas. **P1(b)** (normalisation des 15 liens en forme `.md`) est le même point que P3 du 09-17 : exécuté ce jour pour ses 6 occurrences réelles. **P1(a)** (que le script de cartographie publie sa propre décomposition) : **retenu comme chantier d'instrument**, non exécuté — une modification de l'outillage demande un triptyque et l'épreuve par l'échec (§VII). P3 (`detecter-nouvelles-fiches-rd.sh` : `find` qui ignore `.gitignore`, snapshot avancé en fin d'exécution) et P4 (`verifier-renvois-skills.py` : compte ≠ détail) : même classe, **signalés, non touchés**. P2 (budget de la file) et P5 (faits de dépôt : venvs exclus, disque, `_inbox/`) : sans action demandée ; `_inbox/` est vidé depuis `dfae737`.
+**Détail** : [[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]].
+**Commit** : `983031c` (correctifs), `318d7f2` (archives).
+
+## [2026-09-18] traite | publication | ad3152b237bb | rapport du 2026-09-16
+
+**Rapport** : `monitoring-archive/2026-09-16_ad3152b237bb.txt` (commité ce jour, `318d7f2`), même passe.
+**Traité par** : session Claude Code, même consigne.
+**Résumé** : quatre de ses signalements sont repris et actualisés par celui du 09-17 (A → A/A′, B → cibles non résolues, E, G). **Ce qu'il porte en propre reste ouvert** : **C** — fiches jumelles Burckhardt (`introduction-doctrines-esoteriques-islam-burckhardt` et `burckhardt-introduction-doctrines-esoteriques-islam`, même ouvrage, deux slugs, sans cross_link) : fusion ou subordination = arbitrage Cmd 4/Cmd 10 ; **D** — `Dalâ'il al-Khayrât` possédée, absente du catalogue : même classe que les 3 œuvres du 09-17, verdict de possession ; **F** — `cross_links` en forme courte sans chemin sur `barzakh-nur-lh.md` (les 4 se résolvent par basename) : aligner ou entériner une convention ; **H** — exemption C3 à étendre ou non aux artefacts dérivés et registres. **Aucun geste** : les quatre demandent une décision.
+**Détail** : [[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]].
+**Commit** : `983031c` (correctifs), `318d7f2` (archives).
+
 ## [2026-09-15] traite | studio | 41dc3e7e492c | rapport du 2026-09-15
 
 **Rapport** : `monitoring-archive/2026-09-15_41dc3e7e492c.txt` (commit `c5f3825`).

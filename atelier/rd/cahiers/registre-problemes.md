@@ -2,7 +2,7 @@
 title: "Registre des problèmes — pôle R&D (cahier append-only)"
 type: meta
 created: 2026-08-08
-updated: 2026-09-15
+updated: 2026-09-18
 tags: [atelier, rd, cahier, registre, laboratoire]
 sources: []
 links: []
@@ -29,6 +29,39 @@ de laboratoire, §V, règle 3 : « Un échec se consigne comme un succès »).
 consigné. Insertion en tête (la plus récente en haut), marqueur ci-dessous.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] Le compteur « lien mort » du graphe n'est pas un compte de fautes
+
+- **Symptôme** : les rapports Studio des 09-16 et 09-17 proposent, comme « meilleur
+  rapport effort/résultat », la réparation des liens morts dont la cible existe — 15
+  annoncés le 16, **48 sur 57** le 17, le compteur global passant de 160 à 167 sans que
+  rien ne se dégrade au dépôt (`verifier-invariants.py` : 0 erreur, 71 avertissements,
+  identiques quatre jours de suite).
+- **Diagnostic** (mesure refaite ce jour, script de cartographie `--verifier --rapport`,
+  sortie en `/tmp`) : les 167 se décomposent en 52 URL, 24 `raw/`, 20 `textes/`, 13
+  `meta/` — exclus par construction —, **30 renvois vers un hub** (`index.md`,
+  `annales.md`, `CLAUDE.md`, `README.md` sont dans `FICHIERS_EXCLUS`, l. 134 du
+  générateur : un renvoi vers `atelier/rd/index` sera compté mort tant que la règle
+  tient, et `verifier-invariants.py` ne dit rien puisque le fichier existe), **11 chemins
+  nus portés par `sources:`** (voisins de `.tsv`, `.txt` et de chemins `raw/` dans la même
+  liste — leur retirer l'extension serait une faute), 9 cibles réellement absentes, et
+  **6 fautes de forme** : des wikilinks de cartouche écrits `[[…md]]`.
+- **Résolution** : les 6 corrigés (`983031c`), le reste laissé tel quel avec son motif.
+  Liens morts 167 → **161**, avertissements du graphe 252 → **242** (3 fiches cessent
+  d'être « isolées », leurs renvois résolvant enfin). `verifier-invariants.py` : 0 erreur,
+  71 avertissements — inchangé, comme attendu.
+- **Compréhension tirée** : *un compteur qui agrège plusieurs régimes d'exclusion n'est pas
+  un compte de fautes, et un rapport qui le cite dit vrai sans dire ce qui appelle un
+  geste.* C'est la même famille que `OUT-16`/`OUT-18` (« rapport vrai sur un périmètre
+  faux ») et que le signalement P2 du rapport Studio du 09-17 (`sources:` lu comme un champ
+  de liens). Le remède n'est pas de corriger les fiches : c'est que **l'instrument publie
+  sa propre décomposition** — proposition P1(a) du rapport Studio du 09-16, qui reste
+  ouverte comme chantier d'outillage (triptyque + épreuve par l'échec, §VII).
+- **Liens** : [[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]] ;
+  [[atelier/rd/infrastructure/monitoring-archive/registre-traitement]], entrées `[2026-09-18]` ;
+  commits `983031c`, `318d7f2`.
+- **Statut** : `resolu` pour les 6 fautes de forme ; la publication de la décomposition par
+  l'instrument reste **`ouvert`**.
+
 
 ## [2026-09-15] Suite — le pre-commit est aligné : les trois portes appellent le même instrument
 

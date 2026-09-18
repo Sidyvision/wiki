@@ -1,7 +1,7 @@
 ---
 title: Annales de l'Atelier (Projets et Matériels)
 type: meta
-updated: 2026-09-17
+updated: 2026-09-18
 ---
 
 # Annales de l'Atelier
@@ -9,6 +9,46 @@ updated: 2026-09-17
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] correctifs | Rapports Studio et Publication des 09-16 et 09-17 : la part mécanique exécutée, les arbitrages nommés
+
+Consigne de Sidy en session : « exécute les correctifs des rapports Publication et
+Studio ». Quatre rapports étaient en attente, aucun ne portant d'entrée au registre de
+traitement. Fiche-contrat écrite **avant** la première écriture d'exécution :
+[[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]] (`28c8356`).
+
+- **Exécuté, côté `atelier/`** : **6 wikilinks de cartouche** écrits en forme `.md`
+  normalisés sur 5 fiches (`2026-08-28_analyse-perplexity-agent`, les deux
+  `canal-telegram-*`, `traitement-avertissements-isoles-rapport-2026-08-18`,
+  `configuration-hermex-webui-2026-08-23`) ; les **4 archives de monitoring** des 09-16
+  et 09-17 versées au dépôt, chemins stagés un par un.
+- **Rectifié en cours d'exécution** : le contrat annonçait 17 liens sur la foi de la seule
+  sortie du graphe. Les 11 autres ne sont **pas des wikilinks** — ce sont des chemins nus
+  de `sources:`, voisins de `.tsv`, `.txt` et de chemins `raw/` dans la même liste : leur
+  retirer le `.md` aurait été une faute. Le détail de la décomposition et sa leçon sont au
+  registre des problèmes, entrée `[2026-09-18]`.
+- **Écarté du geste, et pourquoi** : les 8 wikilinks `.md` visant `meta/` (les normaliser
+  rendrait résolvable un lien de circuit neutre vers le Domaine Réservé — question §VI,
+  pas question de forme) ; les 3 visant un fichier exclu par nom ; toutes les occurrences
+  vivant dans un `annales.md` (append-only).
+- **Contrôles** : `verifier-invariants.py` **0 erreur / 71 avertissements avant et après**
+  — les 71 sont la classe C5/C6 tranchée le 2026-09-10, qu'aucun geste ne touche ; un
+  compte inférieur aurait signalé une erreur de périmètre. Graphe : 252 → **242**
+  avertissements, liens morts 167 → **161**. Hygiène Unicode : PROPRE.
+- **Non exécuté, en attente de verdict** (motifs nommés au §4 de la fiche-contrat) :
+  placement des deux cartouches de `textes/autres-ressources/` et leur `status: to-source`
+  hors vocabulaire ; nomination du porteur réel du slug `guenon-symboles-science-sacree` ;
+  recension au catalogue des 3 œuvres possédées (+ `Dalâ'il al-Khayrât` du 09-16) ; forme
+  du marqueur `to-source` sur les `type: source` ; fiches jumelles Burckhardt ;
+  `cross_links` en forme courte ; `technics-su-8080.md:21` (4ᵉ jour) ; les deux cibles
+  `label/` ; extension de l'exemption C3 aux artefacts dérivés.
+- **Rien touché à `stash@{0}`** : le danger que nomme le rapport Studio est le réflexe de
+  rangement, pas un défaut technique.
+- **Chantiers d'instrument retenus, non ouverts** : décomposition publiée par le générateur
+  de cartographie, contrôle `status:` élargi (B8), `detecter-nouvelles-fiches-rd.sh`,
+  `verifier-renvois-skills.py` — triptyque et épreuve par l'échec (§VII).
+- **Registre de traitement** : quatre entrées `[2026-09-18]`, une par rapport.
+- **Commit** : 983031c
+
 
 ## [2026-09-17] cahier | Reprise à zéro du protocole : tentative annulée, constat déposé en R&D
 
