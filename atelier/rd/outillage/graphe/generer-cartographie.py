@@ -487,6 +487,52 @@ def construire_noeuds(fiches):
     return noeuds
 
 
+# Le compteur « lien mort » n'est pas un compte de fautes — et le dire est le
+# travail du script, pas celui de qui le lit.
+#
+# Ouvert le 2026-09-18 (proposition P1(a) du rapport Studio du 2026-09-16,
+# verdict de Sidy). Motif mesuré : sur 167 « liens morts » un matin, 6 seulement
+# étaient des fautes de forme réparables ; 52 étaient des URL dans des
+# wikilinks, 30 des renvois vers un hub exclu par construction
+# (`FICHIERS_EXCLUS`), 24 des chemins `raw/`, 20 `textes/`, 13 `meta/`, et 11
+# des chemins nus de `sources:` — qu'il aurait été FAUTIF de convertir. Le
+# rapport de veille recalculait cette décomposition chaque matin, à la main, et
+# un lecteur pressé lisait « 167 » comme une dette.
+#
+# Un compteur qui agrège plusieurs régimes d'exclusion doit publier sa propre
+# décomposition, sans quoi il dit vrai en trompant.
+def decomposer_liens_morts(journal):
+    """Classe les avertissements « lien mort » par la nature de leur cible."""
+    classes = defaultdict(int)
+    for categorie, message in journal.avertissements:
+        if categorie != "lien mort":
+            continue
+        debut = message.find("[[")
+        fin = message.find("]]", debut)
+        cible = message[debut + 2:fin] if debut != -1 and fin != -1 else ""
+        if cible.startswith(("http://", "https://")):
+            classes["url dans un wikilink"] += 1
+        elif cible.startswith("raw/"):
+            classes["raw/ (hors git)"] += 1
+        elif cible.startswith("textes/"):
+            classes["textes/ (hors régime de liens)"] += 1
+        elif cible.startswith("protocoles/"):
+            classes["protocoles/ (hors régime de liens)"] += 1
+        elif cible.startswith("meta/"):
+            classes["meta/ (hors manifeste par défaut)"] += 1
+        elif os.path.basename(cible) in {f[:-3] for f in FICHIERS_EXCLUS}:
+            classes["hub exclu par construction"] += 1
+        elif "/" in cible and not cible.endswith(tuple(f".{e}" for e in
+                                                      ("md", "txt", "tsv", "json",
+                                                       "yaml", "pdf", "html"))):
+            classes["cible nommée par chemin"] += 1
+        elif "." in os.path.basename(cible):
+            classes["chemin nu porté par `sources:`"] += 1
+        else:
+            classes["cible absente du dépôt"] += 1
+    return classes
+
+
 def rapport(noeuds, aretes, journal):
     par_circuit = defaultdict(int)
     for n in noeuds:
@@ -521,6 +567,14 @@ def rapport(noeuds, aretes, journal):
         for categorie in sorted(compte, key=lambda c: -compte[c]):
             lignes.append(f"      {categorie:<14} {compte[categorie]}")
         lignes.append("")
+        morts = decomposer_liens_morts(journal)
+        if morts:
+            total = sum(morts.values())
+            lignes.append(f"  Dont « lien mort » — {total}, décomposés (un compteur qui")
+            lignes.append("  agrège plusieurs régimes d'exclusion n'est pas un compte de fautes) :")
+            for classe in sorted(morts, key=lambda c: -morts[c]):
+                lignes.append(f"      {morts[classe]:>4}  {classe}")
+            lignes.append("")
 
     return "\n".join(lignes)
 

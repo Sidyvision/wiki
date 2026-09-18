@@ -520,6 +520,27 @@ def controler_frontmatter(chemin_rel, fm, rap):
             rap.erreur(chemin_rel, "B8",
                        f"`type: {t_}` hors de la liste du Sceau Recteur "
                        f"({', '.join(sorted(TYPES_DOCTRINAUX))})")
+    # B8b — valeur de `status:` hors du vocabulaire clos du Sceau Recteur.
+    #
+    # Ouvert le 2026-09-18 (proposition du rapport Studio du 2026-09-17, verdict
+    # de Sidy). L'angle mort était exact : B8 ne portait que sur `type:`, et
+    # `C7` ne regarde `status:` que dans `doctrinal/discernement/` — pour y dire
+    # une autre chose (l'étanchéité inversée devient indécidable). Partout
+    # ailleurs dans le circuit, une valeur inventée passait en silence, alors
+    # que `status:` est le champ qui porte l'autorité de la fiche : c'est lui
+    # qui décide si ce qu'elle dit est reçu comme traditionnel ou tenu pour
+    # profane. Le laisser libre revenait à laisser le Sceau se qualifier
+    # lui-même.
+    #
+    # Erreur et non avertissement, comme B8 sur `type:` : le vocabulaire est
+    # CLOS (§IV), il n'y a pas de lecture seconde d'une valeur hors liste.
+    if circ == "doctrinal" and not fichier_de_service and "status" in fm:
+        s_ = str(fm.get("status", "")).strip()
+        if s_ and s_ not in STATUTS_SCEAU:
+            rap.erreur(chemin_rel, "B8",
+                       f"`status: {s_}` hors du vocabulaire clos du Sceau Recteur "
+                       f"({', '.join(sorted(STATUTS_SCEAU))}) — ce champ porte "
+                       f"l'autorité de la fiche, il ne s'invente pas")
 
     # B2 — sources_count cohérent avec sources.
     if "sources_count" in fm and "sources" in fm:
@@ -558,6 +579,11 @@ def controler_frontmatter(chemin_rel, fm, rap):
 # --------------------------------------------------------------------------
 
 # Dossiers exclus en toutes circonstances, même hors dépôt git.
+STATUTS_SCEAU = {"traditionnel", "academique", "profane",
+                 "contre-traditionnel", "speculatif"}
+# Portée du contrôle côté source — cf. choix 1 ci-dessus.
+STATUTS_ORTHODOXES = {"traditionnel"}
+
 DOSSIERS_EXCLUS = {".git", "node_modules", "_inbox"}
 
 # --- B9 — unicité des basenames, garde de la forme courte (chantier OUT-20) ---
@@ -888,10 +914,6 @@ def controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap, refs_co
 # n'aura pas lieu : C5, C6 et C7 avertissent, et rien de plus. Un contributeur
 # qui voudrait les rendre bloquants irait contre un verdict rendu (Cmd 10).
 
-STATUTS_SCEAU = {"traditionnel", "academique", "profane",
-                 "contre-traditionnel", "speculatif"}
-# Portée du contrôle côté source — cf. choix 1 ci-dessus.
-STATUTS_ORTHODOXES = {"traditionnel"}
 MARQUEUR_SUGGERE = "\U0001F50D"          # 🔍
 DOSSIER_DISCERNEMENT = "doctrinal/discernement"
 
