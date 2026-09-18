@@ -107,6 +107,21 @@ def main():
         fiches = sorted(glob.glob(os.path.join(racine, '**', 'SKILL.md'), recursive=True))
         n_decl = n_ment = 0
         detail = []
+        # L'EN-TÊTE DU PROFIL PRÉCÈDE SON DÉTAIL, et chaque ligne de détail porte
+        # le nom du profil. Corrigé le 2026-09-18 (rapport Studio du 2026-09-16,
+        # P4 ; verdict de Sidy).
+        #
+        # Le rapport signalait « le profil `default` annonce 11 mentions et n'en
+        # imprime que 8 ». Vérification faite : **le compte et le détail
+        # coïncident** — 11 annoncées, 11 imprimées. Mais le rapport avait
+        # raison d'être troublé, et la cause est ici : les lignes de détail
+        # étaient écrites AVANT la ligne de résumé de leur propre profil. Un
+        # lecteur — humain ou agent — les rattachait donc au profil imprimé
+        # au-dessus, et retrouvait un compte faux en bonne foi.
+        #
+        # Un rapport dont la mise en page invite à mal l'additionner est un
+        # rapport faux, même quand tous ses nombres sont justes.
+        lignes_detail = []
         for f in fiches:
             d, m, declares = analyse_skill(f)
             nom = os.path.basename(os.path.dirname(f))
@@ -116,9 +131,10 @@ def main():
                 detail.append({'skill': nom, 'chemin': f, 'declares_manquants': d,
                                'mentions_manquantes': m, 'declares': len(declares)})
                 for p in d:
-                    lignes.append('    RENVOI MORT  %-34s %s' % (nom, p))
+                    lignes_detail.append('    [%s] RENVOI MORT  %-30s %s' % (profil, nom, p))
                 for p in m:
-                    lignes.append('    mention (non déclarée) %-22s %s' % (nom, p))
+                    lignes_detail.append('    [%s] mention (non déclarée) %-20s %s'
+                                         % (profil, nom, p))
         rapport['racines'].append({'profil': profil, 'racine': racine, 'skills': len(fiches),
                                    'declares_manquants': n_decl, 'mentions_manquantes': n_ment,
                                    'detail': detail})
@@ -127,6 +143,15 @@ def main():
         rapport['mentions_manquantes'] += n_ment
         lignes.append('%-10s %3d skill(s) examiné(s) | renvois morts %d | mentions manquantes %d'
                       % (profil, len(fiches), n_decl, n_ment))
+        lignes.extend(lignes_detail)
+        # Garde-fou : le compte annoncé et le nombre de lignes imprimées doivent
+        # coïncider. S'ils divergent, le rapport le DIT au lieu de laisser le
+        # lecteur le découvrir — c'est la leçon d'OUT-18 (un rapport vrai sur un
+        # périmètre faux se lit de travers en silence).
+        if len(lignes_detail) != n_decl + n_ment:
+            lignes.append('    ⚠ INCOHÉRENCE : %d ligne(s) de détail pour %d anomalie(s) '
+                          'comptée(s) — le compte et le détail ne coïncident pas'
+                          % (len(lignes_detail), n_decl + n_ment))
 
     if a.json:
         print(json.dumps(rapport, ensure_ascii=False, indent=1))

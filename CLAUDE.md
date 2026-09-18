@@ -325,10 +325,9 @@ circuits**, dont 12 sont la trace voulue de la migration du 2026-08-08 (stubs
 `deprecated` conservés, Cmd 10) et 4 la paire `autorites/` ↔ `references/` d'une même
 personne. **Aucune n'est visée par un renvoi court**, c'est pourquoi les 589 renvois
 restent sans ambiguïté. La règle ne dit donc pas « les basenames sont uniques » : elle
-dit que **la forme courte n'est sûre que sur un basename unique**, et B9 devra distinguer
-le doublon voulu du doublon qui casse un renvoi. Tant qu'elle n'est pas en place, la
-règle vaut par la discipline du rédacteur, et l'écart est déclaré ici plutôt que comblé
-(Cmd 12).
+dit que **la forme courte n'est sûre que sur un basename unique** — et c'est exactement
+la distinction que B9 fait, livrée le même jour : elle laisse passer le doublon voulu et
+refuse celui qui rend un renvoi équivoque.
 
 **Champ `original:` (transversal, ouvert le 2026-09-08, verdict Sidy).** Tout Sceau
 des cinq circuits admet un champ **facultatif** `original:`, liste YAML de chaînes
