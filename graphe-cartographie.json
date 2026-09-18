@@ -5604,6 +5604,28 @@
       "lacunes_to_source": 1
     },
     {
+      "id": "doctrinal/autorites/muhammad-abul-huda-al-yaqoubi",
+      "label": "Shaykh Muḥammad Abū l-Hudā al-Yaʿqūbī",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "shadhiliyya",
+        "tasawwuf",
+        "shaikh",
+        "muhaddith",
+        "damas",
+        "ijaza",
+        "ashari",
+        "neo-traditionalisme"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "doctrinal/autorites/muhammad-abul-huda-al-yaqoubi.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/autorites/muhammad-al-akili",
       "label": "Muhammad M. Al-Akili",
       "circuit": "doctrinal",
@@ -5727,6 +5749,28 @@
       "updated": "2026-09-15",
       "chemin": "doctrinal/autorites/rene-guenon.md",
       "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/autorites/said-ramadan-al-buti",
+      "label": "Shaykh Muḥammad Saʿīd Ramaḍān al-Būṭī (محمد سعيد رمضان البوطي)",
+      "circuit": "doctrinal",
+      "sous_dossier": "autorites",
+      "type": "autorite",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "shafii",
+        "ashari",
+        "naqshbandiyya",
+        "damas",
+        "usul-al-fiqh",
+        "fiqh-al-sira",
+        "anti-salafisme",
+        "la-madhhabiyya"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "doctrinal/autorites/said-ramadan-al-buti.md",
+      "lacunes_to_source": 1
     },
     {
       "id": "doctrinal/autorites/titus-burckhardt",
@@ -7453,6 +7497,31 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya",
+      "label": "Étude — Le débat al-Būṭī / al-Albānī : le lā-madhhabisme en question",
+      "circuit": "doctrinal",
+      "sous_dossier": "etudes",
+      "type": "etude",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "la-madhhabiyya",
+        "madhhab",
+        "taqlid",
+        "ijtihad",
+        "usul-al-fiqh",
+        "salafisme",
+        "reformisme",
+        "hadith",
+        "damas",
+        "naqshbandiyya",
+        "antagoniste"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya.md",
+      "lacunes_to_source": 1
+    },
+    {
       "id": "doctrinal/references/al-afghani",
       "label": "Jamāl al-Dīn al-Afghānī",
       "circuit": "doctrinal",
@@ -7519,6 +7588,28 @@
       ],
       "updated": "2026-09-15",
       "chemin": "doctrinal/references/muhammad-abduh.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "label": "Muḥammad Nāṣir al-Dīn al-Albānī",
+      "circuit": "doctrinal",
+      "sous_dossier": "references",
+      "type": "reference",
+      "status": "profane",
+      "tradition_cadre": "islam",
+      "tags": [
+        "reformisme",
+        "salafiyya",
+        "wahhabisme",
+        "anti-soufisme",
+        "anti-madhhab",
+        "takhrij",
+        "hadith",
+        "a-verifier"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "doctrinal/references/muhammad-nasir-al-din-al-albani.md",
       "lacunes_to_source": 1
     },
     {
@@ -9373,6 +9464,28 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "doctrinal/sources/hadith-fawasiq-cinq-nuisibles",
+      "label": "Hadith des cinq fawāsiq — le corbeau parmi les nuisibles tuables en sacralité",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "hadith",
+        "bukhari",
+        "muslim",
+        "ghurab",
+        "corbeau",
+        "fawasiq",
+        "clipping-web",
+        "a-verifier"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "doctrinal/sources/hadith-fawasiq-cinq-nuisibles.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "doctrinal/sources/hasbiyallah-rabbani",
       "label": "Hasbiyallah — Allah est notre Suffisance",
       "circuit": "doctrinal",
@@ -9526,6 +9639,26 @@
       ],
       "updated": "2026-09-13",
       "chemin": "doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "doctrinal/sources/ibn-qutayba-tabir-al-ruya",
+      "label": "ʿIbārat al-ruʾyā (تعبير الرؤيا) — Ibn Qutayba al-Dīnawarī",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "ibn-qutayba",
+        "oniromancie",
+        "taabir-al-ruya",
+        "corpus-arabe",
+        "temoin-primaire",
+        "collation"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "doctrinal/sources/ibn-qutayba-tabir-al-ruya.md",
       "lacunes_to_source": 0
     },
     {
@@ -9827,7 +9960,7 @@
         "edition-numerique",
         "provenance"
       ],
-      "updated": "2026-09-17",
+      "updated": "2026-09-18",
       "chemin": "doctrinal/sources/lisan-al-arab.md",
       "lacunes_to_source": 1
     },
@@ -10909,6 +11042,24 @@
       "updated": "2026-09-15",
       "chemin": "doctrinal/symboles/coeurs-subtils.md",
       "lacunes_to_source": 1
+    },
+    {
+      "id": "doctrinal/symboles/corbeau-en-reve",
+      "label": "Corbeau en rêve (الغراب)",
+      "circuit": "doctrinal",
+      "sous_dossier": "symboles",
+      "type": "symbole",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "oniromancie",
+        "taabir-al-ruya",
+        "lexique-arabe",
+        "citations-a-verifier"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "doctrinal/symboles/corbeau-en-reve.md",
+      "lacunes_to_source": 0
     },
     {
       "id": "doctrinal/symboles/desir-theophanie",
@@ -12253,9 +12404,10 @@
         "cheminement",
         "salikun",
         "stations",
-        "tariqa"
+        "tariqa",
+        "turuq"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-18",
       "chemin": "doctrinal/symboles/tariqa.md",
       "lacunes_to_source": 0
     },
@@ -17294,6 +17446,34 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/autorites/muhammad-abul-huda-al-yaqoubi",
+      "target": "doctrinal/sources/dalail-al-khayrat-jazuli",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/muhammad-abul-huda-al-yaqoubi",
+      "target": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/muhammad-abul-huda-al-yaqoubi",
+      "target": "doctrinal/sources/hadith-fawasiq-cinq-nuisibles",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/muhammad-abul-huda-al-yaqoubi",
+      "target": "doctrinal/symboles/tariqa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/autorites/muhammad-al-akili",
       "target": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
       "champ": "sources",
@@ -17583,6 +17763,41 @@
     {
       "source": "doctrinal/autorites/rene-guenon",
       "target": "doctrinal/discernement/2026-08-14_shams-al-maarif-awfaq-metaphysique-du-nombre",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/said-ramadan-al-buti",
+      "target": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/said-ramadan-al-buti",
+      "target": "doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/said-ramadan-al-buti",
+      "target": "doctrinal/autorites/muhammad-abul-huda-al-yaqoubi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/said-ramadan-al-buti",
+      "target": "doctrinal/traditions/naqshbandiyya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/autorites/said-ramadan-al-buti",
+      "target": "doctrinal/symboles/fiqh",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -21046,6 +21261,48 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya",
+      "target": "doctrinal/autorites/said-ramadan-al-buti",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya",
+      "target": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya",
+      "target": "doctrinal/symboles/fiqh",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya",
+      "target": "doctrinal/traditions/naqshbandiyya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya",
+      "target": "doctrinal/symboles/tariqa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya",
+      "target": "doctrinal/references/rashid-rida",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/references/al-afghani",
       "target": "doctrinal/references/muhammad-abduh",
       "champ": "cross_links",
@@ -21104,6 +21361,48 @@
     {
       "source": "doctrinal/references/muhammad-abduh",
       "target": "doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "target": "doctrinal/references/rashid-rida",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "target": "doctrinal/sources/hadith-fawasiq-cinq-nuisibles",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "target": "doctrinal/symboles/corbeau-en-reve",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "target": "doctrinal/autorites/muhammad-abul-huda-al-yaqoubi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "target": "doctrinal/autorites/said-ramadan-al-buti",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "target": "doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -23111,6 +23410,34 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/hadith-fawasiq-cinq-nuisibles",
+      "target": "doctrinal/symboles/corbeau-en-reve",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/hadith-fawasiq-cinq-nuisibles",
+      "target": "doctrinal/symboles/fal-wa-tatayyur",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/hadith-fawasiq-cinq-nuisibles",
+      "target": "doctrinal/sources/bukhari-5754-tiyara-fal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/hadith-fawasiq-cinq-nuisibles",
+      "target": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/hasbiyallah-rabbani",
       "target": "doctrinal/autorites/faraz-rabbani",
       "champ": "cross_links",
@@ -23309,6 +23636,41 @@
     {
       "source": "doctrinal/sources/ibn-arabi-tartib-tasawwuf-abdul-hadi",
       "target": "doctrinal/symboles/walaya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ibn-qutayba-tabir-al-ruya",
+      "target": "doctrinal/symboles/corbeau-en-reve",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ibn-qutayba-tabir-al-ruya",
+      "target": "doctrinal/symboles/taabir-al-ruya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ibn-qutayba-tabir-al-ruya",
+      "target": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ibn-qutayba-tabir-al-ruya",
+      "target": "doctrinal/sources/hadith-fawasiq-cinq-nuisibles",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/ibn-qutayba-tabir-al-ruya",
+      "target": "doctrinal/symboles/fal-wa-tatayyur",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
@@ -25330,6 +25692,83 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/sources/lisan-al-arab",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/sources/ibn-sirin-dictionary-of-dreams-al-akili",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/sources/hadith-fawasiq-cinq-nuisibles",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/sources/ibn-qutayba-tabir-al-ruya",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/symboles/taabir-al-ruya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/autorites/ibn-sirin",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/symboles/fal-wa-tatayyur",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/symboles/animaux-en-reve-comparatisme",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/sources/bukhari-5754-tiyara-fal",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/references/muhammad-nasir-al-din-al-albani",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/corbeau-en-reve",
+      "target": "doctrinal/autorites/muhammad-abul-huda-al-yaqoubi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/symboles/desir-theophanie",
       "target": "doctrinal/autorites/ibn-arabi",
       "champ": "cross_links",
@@ -27166,6 +27605,20 @@
     {
       "source": "doctrinal/symboles/tariqa",
       "target": "doctrinal/traditions/tijaniyya",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tariqa",
+      "target": "doctrinal/autorites/muhammad-abul-huda-al-yaqoubi",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/tariqa",
+      "target": "doctrinal/deviations/pseudo-initiation-et-syncretisme",
       "champ": "cross_links",
       "nature": "lien",
       "assise": "etabli"
