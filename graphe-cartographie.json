@@ -2,7 +2,7 @@
   "schema": "cartographie-1.1",
   "depot": "wiki",
   "meta_inclus": false,
-  "avertissements": 238,
+  "avertissements": 242,
   "nodes": [
     {
       "id": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
@@ -492,6 +492,28 @@
       ],
       "updated": "2026-09-16",
       "chemin": "atelier/rd/audio/2026-09-16_plan-etage-mesure-et-banc-analogique.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab",
+      "label": "Les trois organes lexicaux du dépôt, et le versement du Lisān al-ʿArab",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "bibliotheque",
+        "index-lexical",
+        "glossaire",
+        "grammaire",
+        "lisan-al-arab",
+        "jurjani",
+        "gloton",
+        "chantier"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "atelier/rd/bibliotheque/2026-09-16_trois-organes-lexicaux-et-lisan-al-arab.md",
       "lacunes_to_source": 0
     },
     {
@@ -1068,7 +1090,7 @@
         "methodology",
         "soverainete"
       ],
-      "updated": "2026-08-28",
+      "updated": "2026-09-18",
       "chemin": "atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent.md",
       "lacunes_to_source": 0
     },
@@ -1369,6 +1391,25 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/cahiers/2026-09-10_recolte-discernement-etat-maturite",
+      "label": "Récolte du Registre du Discernement — état de maturité au 2026-09-10",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "discernement",
+        "recolte",
+        "maturite",
+        "releve",
+        "verdict-attendu"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "atelier/rd/cahiers/2026-09-10_recolte-discernement-etat-maturite.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel",
       "label": "Étanchéité et matériau expérientiel — la contrainte de mise en forme (propositions)",
       "circuit": "atelier",
@@ -1388,6 +1429,27 @@
       ],
       "updated": "2026-09-13",
       "chemin": "atelier/rd/cahiers/2026-09-13_etancheite-materiau-experientiel.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/cahiers/2026-09-17_reinitialisation-claude-md-hypothese-degradation",
+      "label": "Réinitialisation du CLAUDE.md — hypothèse d'une dégradation par excès de contrainte",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "experience",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "cahier",
+        "protocole",
+        "claude-md",
+        "contrainte",
+        "degradation",
+        "annulation"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "atelier/rd/cahiers/2026-09-17_reinitialisation-claude-md-hypothese-degradation.md",
       "lacunes_to_source": 0
     },
     {
@@ -1747,7 +1809,7 @@
         "registre",
         "laboratoire"
       ],
-      "updated": "2026-09-15",
+      "updated": "2026-09-18",
       "chemin": "atelier/rd/cahiers/registre-problemes.md",
       "lacunes_to_source": 0
     },
@@ -2139,6 +2201,26 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication",
+      "label": "Correctifs des rapports Studio et Publication des 2026-09-16 et 2026-09-17 — fiche-contrat",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "infrastructure",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "rd",
+        "infrastructure",
+        "monitoring",
+        "hermes",
+        "correctifs",
+        "contrat"
+      ],
+      "updated": "2026-09-18",
+      "chemin": "atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12",
       "label": "Infrastructure — Accès serveur scopé pour Mehdi via Habib (Karūbī)",
       "circuit": "atelier",
@@ -2256,7 +2338,7 @@
         "telegram",
         "hermes"
       ],
-      "updated": "2026-09-16",
+      "updated": "2026-09-18",
       "chemin": "atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16.md",
       "lacunes_to_source": 0
     },
@@ -2276,7 +2358,7 @@
         "telegram",
         "hermes"
       ],
-      "updated": "2026-09-16",
+      "updated": "2026-09-18",
       "chemin": "atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21.md",
       "lacunes_to_source": 0
     },
@@ -2336,7 +2418,7 @@
         "tailscale",
         "hermes"
       ],
-      "updated": "2026-08-23",
+      "updated": "2026-09-18",
       "chemin": "atelier/rd/infrastructure/configuration-hermex-webui-2026-08-23.md",
       "lacunes_to_source": 0
     },
@@ -2813,7 +2895,7 @@
         "monitoring",
         "registre"
       ],
-      "updated": "2026-09-15",
+      "updated": "2026-09-18",
       "chemin": "atelier/rd/infrastructure/monitoring-archive/registre-traitement.md",
       "lacunes_to_source": 0
     },
@@ -2956,7 +3038,7 @@
         "double-controle",
         "validation-sidy"
       ],
-      "updated": "2026-08-18",
+      "updated": "2026-09-18",
       "chemin": "atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18.md",
       "lacunes_to_source": 0
     },
@@ -3839,6 +3921,47 @@
       "lacunes_to_source": 0
     },
     {
+      "id": "atelier/rd/outillage/index-lexical/2026-09-16_gloton-adressage-15-racines",
+      "label": "Gloton, lexique coranique — numéros d'entrée de 15 racines prioritaires et schéma d'adressage",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "gloton",
+        "lexique-coranique",
+        "releve",
+        "transcription-photo",
+        "orientation"
+      ],
+      "updated": "2026-09-16",
+      "chemin": "atelier/rd/outillage/index-lexical/2026-09-16_gloton-adressage-15-racines.md",
+      "lacunes_to_source": 0
+    },
+    {
+      "id": "atelier/rd/outillage/index-lexical/2026-09-16_gloton-moisson-racines-journal",
+      "label": "Gloton, lexique coranique — journal de la moisson des racines (section A, 28 photographies)",
+      "circuit": "atelier",
+      "sous_dossier": "rd",
+      "type": "outillage",
+      "status": null,
+      "tradition_cadre": null,
+      "tags": [
+        "index-lexical",
+        "gloton",
+        "lexique-coranique",
+        "moisson",
+        "transcription-photo",
+        "journal-de-passe",
+        "reprise"
+      ],
+      "updated": "2026-09-16",
+      "chemin": "atelier/rd/outillage/index-lexical/2026-09-16_gloton-moisson-racines-journal.md",
+      "lacunes_to_source": 0
+    },
+    {
       "id": "atelier/rd/outillage/index-lexical/condense/a",
       "label": "Index lexical — a",
       "circuit": "atelier",
@@ -4670,7 +4793,7 @@
         "chantiers",
         "pilotage"
       ],
-      "updated": "2026-09-15",
+      "updated": "2026-09-17",
       "chemin": "atelier/rd/registre-chantiers.md",
       "lacunes_to_source": 0
     },
@@ -8785,7 +8908,7 @@
         "druses",
         "pole"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-18",
       "chemin": "doctrinal/sources/guenon-recension-seabrook-aventures-arabie.md",
       "lacunes_to_source": 0
     },
@@ -9118,7 +9241,7 @@
         "axe-polaire",
         "solsticial-equinoxial"
       ],
-      "updated": "2026-09-09",
+      "updated": "2026-09-18",
       "chemin": "doctrinal/sources/guenon-symbolisme-croix-ch4-directions-espace.md",
       "lacunes_to_source": 0
     },
@@ -9622,6 +9745,27 @@
       ],
       "updated": "2026-09-13",
       "chemin": "doctrinal/sources/koly-cherif-keita-djinns-aident-humains.md",
+      "lacunes_to_source": 1
+    },
+    {
+      "id": "doctrinal/sources/lisan-al-arab",
+      "label": "Ibn Manẓūr — Lisān al-ʿArab (دار صادر, 3ᵉ éd. 1414 h., 15 vol.)",
+      "circuit": "doctrinal",
+      "sous_dossier": "sources",
+      "type": "source",
+      "status": "traditionnel",
+      "tradition_cadre": "islam",
+      "tags": [
+        "lexique-arabe",
+        "ibn-manzur",
+        "lisan-al-arab",
+        "dar-sadir",
+        "racines-arabes",
+        "edition-numerique",
+        "provenance"
+      ],
+      "updated": "2026-09-17",
+      "chemin": "doctrinal/sources/lisan-al-arab.md",
       "lacunes_to_source": 1
     },
     {
@@ -10888,7 +11032,7 @@
         "shams-al-maarif",
         "lexique-arabe"
       ],
-      "updated": "2026-09-13",
+      "updated": "2026-09-17",
       "chemin": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa.md",
       "lacunes_to_source": 1
     },
@@ -13537,6 +13681,13 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/cahiers/2026-08-28_analyse-perplexity-agent",
+      "target": "atelier/etudes-de-cas/2026-08-28_build-your-own-perplexity",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/cahiers/2026-08-28_compte-rendu-premiere-session-integration-qoder",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
@@ -14195,6 +14346,34 @@
       "assise": "etabli"
     },
     {
+      "source": "atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication",
+      "target": "atelier/rd/infrastructure/2026-09-15_execution-propositions-rapport-studio",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication",
+      "target": "atelier/rd/infrastructure/2026-09-13_correctifs-rapports-studio",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication",
+      "target": "atelier/rd/infrastructure/monitoring-archive/registre-traitement",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication",
+      "target": "atelier/rd/cahiers/registre-problemes",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12",
       "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
@@ -14232,6 +14411,27 @@
     {
       "source": "atelier/rd/infrastructure/bureau-tui-architecture",
       "target": "atelier/rd/infrastructure/infrastructure-architecture-global-2026-08-11",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16",
+      "target": "atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21",
+      "target": "atelier/rd/infrastructure/canal-telegram-mehdi-2026-08-16",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/canal-telegram-wendel-2026-08-21",
+      "target": "atelier/rd/infrastructure/acces-scope-mehdi-habib-2026-08-12",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -14337,6 +14537,13 @@
     {
       "source": "atelier/rd/infrastructure/claude-code-health-check-2026-08-11",
       "target": "atelier/rd/infrastructure/etat-serveur-hermes-2026-08-11",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/configuration-hermex-webui-2026-08-23",
+      "target": "atelier/rd/infrastructure/incident-2026-08-23-disfonctionnements-discord-hermex",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -14701,6 +14908,13 @@
     {
       "source": "atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18",
       "target": "atelier/rd/infrastructure/activation-monitoring-studio-cron-2026-08-17",
+      "champ": "links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "atelier/rd/infrastructure/traitement-avertissements-isoles-rapport-2026-08-18",
+      "target": "atelier/rd/cahiers/registre-problemes",
       "champ": "links",
       "nature": "lien",
       "assise": "etabli"
@@ -23477,6 +23691,20 @@
       "assise": "etabli"
     },
     {
+      "source": "doctrinal/sources/lisan-al-arab",
+      "target": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/sources/lisan-al-arab",
+      "target": "doctrinal/sources/gloton-approche-coran-grammaire-lexique",
+      "champ": "cross_links",
+      "nature": "lien",
+      "assise": "etabli"
+    },
+    {
       "source": "doctrinal/sources/mahdi-rouge-islam-signe-balance-I",
       "target": "doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton",
       "champ": "sources",
@@ -25194,6 +25422,13 @@
     {
       "source": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
       "target": "doctrinal/sources/shams-al-maarif",
+      "champ": "sources",
+      "nature": "source",
+      "assise": "etabli"
+    },
+    {
+      "source": "doctrinal/symboles/formule-al-waha-al-ajal-al-saa",
+      "target": "doctrinal/sources/lisan-al-arab",
       "champ": "sources",
       "nature": "source",
       "assise": "etabli"
