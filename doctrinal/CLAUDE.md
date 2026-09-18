@@ -35,7 +35,7 @@ status: traditionnel | academique | profane | contre-traditionnel | speculatif
 tradition_cadre: "islam"   # ou "hindouisme", "hellenisme", "universel", "none"
 tags: [metaphysique, cosmologie, symbolisme]
 created: YYYY-MM-DD
-updated: YYYY-MM-DD
+updated: 2026-09-18
 sources: ["[[slug-source]]"]   # liste de "[[slug]]" — traçabilité machine-lisible
 sources_count: 1               # entier = longueur de la liste ci-dessus
 cross_links: ["[[autre-slug]]"]
@@ -48,6 +48,24 @@ original: ["巴"]               # facultatif — écriture d'origine, ou ["to-or
   `[a, b]`.
 - Fait sans source → `sources: ["to-source"]` + signalement (levée du marqueur :
   discipline des sources, CLAUDE.md racine §VII).
+- **Ce que `to-source` au cartouche veut dire, et ce qu'il ne veut pas dire** (inscrit
+  le 2026-09-18, verdict Sidy — la règle est *constatée* dans l'usage du dépôt, non
+  instituée : 68 fiches `type: source` la suivaient déjà, 6 portaient l'autre forme).
+  `sources: ["to-source"]` déclare **une seule chose** : *la source de ce qui est
+  affirmé ici n'est pas établie*. Sur une fiche `type: source`, l'ouvrage transcrit
+  **est** la source — le cartouche ne peut donc pas déclarer son absence sans mentir.
+  Trois choses distinctes se disaient du même mot ; elles se séparent ainsi :
+  - **pagination non relevée** (l'ouvrage est possédé et lu, seul le numéro de page
+    manque) → **au corps**, sous son nom : « ⚠️ Pagination `to-source` — édition …, à
+    relever sur l'exemplaire ». Le cartouche reste `sources: []`.
+  - **transcription partielle** (seules certaines pages sont photographiées ou
+    transcrites) → **au corps**, en nommant ce qui manque, page par page ou chapitre
+    par chapitre. Le cartouche reste `sources: []`.
+  - **référence primaire non établie** (le texte cité n'est rattaché à aucune édition
+    vérifiable) → **au cartouche**, `sources: ["to-source"]`, seul cas qui relève du
+    §IV racine.
+  Conséquence de forme : **une fiche ne renvoie jamais à un marqueur de cartouche
+  qu'elle ne porte pas.** Ce qui se dit du corps se dit du corps.
 
 ### Définition des Statuts (`status`)
 

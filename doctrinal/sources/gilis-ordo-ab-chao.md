@@ -12,7 +12,7 @@ tags:
 - nombre-28
 - califat
 created: 2026-07-09
-updated: 2026-09-13
+updated: 2026-09-18
 sources: []
 sources_count: 0
 cross_links:
@@ -24,9 +24,11 @@ cross_links:
 
 > Fiche `source`. Référence bibliographique vérifiée sur l'exemplaire physique
 > (2026-07-09). Transcription partielle : seules les pages photographiées sont
-> `sourced` ci-dessous ; le reste du corps demeure `to-source`. Le marqueur global
-> `to-source` du frontmatter ne sera levé qu'après vérification intégrale par Sidy
-> (discipline des sources, CLAUDE.md §VII).
+> `sourced` ci-dessous ; le reste du corps demeure `to-source`. Ce marqueur de
+> **transcription partielle** vit au corps et non au cartouche (`doctrinal/CLAUDE.md`,
+> Sceau Recteur, verdict du 2026-09-18) : l'ouvrage est possédé, ce sont les pages non
+> photographiées qui manquent. Il ne sera levé qu'après vérification intégrale par Sidy
+> (discipline des sources, CLAUDE.md racine §VII).
 
 ## Référence bibliographique
 
