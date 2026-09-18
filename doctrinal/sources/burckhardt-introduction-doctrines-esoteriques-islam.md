@@ -11,7 +11,7 @@ tags:
 - wilaya
 - akbarien
 created: 2026-07-09
-updated: 2026-09-13
+updated: 2026-09-18
 sources: []
 sources_count: 0
 cross_links:
@@ -21,9 +21,14 @@ cross_links:
 
 # Burckhardt — *Introduction aux doctrines ésotériques de l'Islam*
 
-> Fiche `source`. Ouvrage confirmé en possession de Sidy (photos 2026-07-08) ; il
-> manquait au catalogue `meta/bibliotheque-physique.md` (omission de recension, à
-> corriger). Transcription des seules pages photographiées ; reste `to-source`.
+> Fiche `source`. Ouvrage confirmé en possession de Sidy (photos 2026-07-08) et
+> **recensé au catalogue de la bibliothèque physique**
+> (`atelier/rd/bibliotheque/catalogue-bibliotheque.md`, §II, ajouté le 2026-07-10 —
+> l'omission signalée ici est close). Transcription des seules pages photographiées ;
+> le reste de l'ouvrage n'est pas transcrit (marqueur de transcription partielle, porté
+> au corps : `doctrinal/CLAUDE.md`, Sceau Recteur). Cette fiche **reprend et remplace**
+> [[doctrinal/sources/introduction-doctrines-esoteriques-islam-burckhardt]] (ch. II
+> seul, dépréciée le 2026-07-10, conservée — Cmd 10).
 
 ## Référence bibliographique
 

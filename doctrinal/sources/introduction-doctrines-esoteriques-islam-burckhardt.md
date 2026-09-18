@@ -4,13 +4,13 @@ type: source
 status: traditionnel
 tradition_cadre: "islam"
 deprecated: true
-note: "Superseded by [[burckhardt-introduction-doctrines-esoteriques-islam]] (2026-07-10, intégration v2 avec transcription fidèle)"
+note: "Remplacée par [[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]] (2026-07-10, intégration v2 à transcription fidèle) — la subordination est portée en cross_links depuis le 2026-09-18, pour qu'elle soit lisible du graphe"
 tags: [soufisme, metaphysique, cosmologie, hadarat, burckhardt, doctrines-esoteriques]
 created: 2026-06-29
-updated: 2026-09-09
+updated: 2026-09-18
 sources: []
 sources_count: 0
-cross_links: ["[[hadarat-khams]]", "[[barzakh]]"]
+cross_links: ["[[doctrinal/sources/burckhardt-introduction-doctrines-esoteriques-islam]]", "[[doctrinal/symboles/hadarat-khams]]", "[[doctrinal/symboles/barzakh]]"]
 ---
 
 # Introduction aux doctrines ésotériques de l'Islam — ch. II
