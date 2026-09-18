@@ -1,15 +1,9 @@
 ---
 title: "Isaghuji d'al-Abharî — Cours 01 : Introduction au cours (Shaykh Ahmed El Azhary) — transcription"
-type: source
-status: to-source
-tradition_cadre: "islam"
-tags: [logique, mantiq, isaghuji, abhari, ahmed-el-azhary, tasawwuf, cours, transcription]
-created: 2026-08-11
-updated: 2026-08-11
 auteur: "Shaykh Ahmed El Azhary (enseignement oral, Le Caire, Égypte) — traduction et mise en forme françaises : Mehdi Bouzouida"
-editeur: "—"
-sources_count: 0
-cross_links: []
+statut: "transcription automatique (IA) d'une vidéo, restructurée et traduite ; quelques passages à l'audio dégradé ont été reconstitués de façon approximative et ne sont pas recoupés avec l'audio original. Reçu par le dispositif Karūbī (navette Mehdi Bouzouïda, retour du 2026-08-11). PDF source : raw/Isaghuji_Cours01_Introduction_Pedagogique-Mehdi.pdf"
+created: 2026-08-11
+updated: 2026-09-18
 ---
 
 # Isaghuji d'al-Abharî — Cours 01 : Introduction au cours — Transcription

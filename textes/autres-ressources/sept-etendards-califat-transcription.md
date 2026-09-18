@@ -1,17 +1,12 @@
 ---
 title: "Les Sept Étendards du Califat — Avant-propos, Table des matières et Index des termes arabes (transcription)"
-type: source
-status: to-source
-tradition_cadre: "islam"
-tags: [califat, gilis, ibn-arabi, guenon, transcription, index]
-created: 2026-07-09
-updated: 2026-07-09
 auteur: "Charles-André Gilis"
 editeur: "Éditions Traditionnelles, 11 Quai Saint-Michel, Paris Ve"
 depot_legal: "juin 1993"
 imprimeur: "Corlet Imprimeur S.A., 14110 Condé-sur-Noireau (France) — N° d'imprimeur 7942"
-sources_count: 1
-cross_links: ["[[doctrinal/autorites/charles-andre-gilis]]", "[[doctrinal/autorites/ibn-arabi]]", "[[doctrinal/autorites/rene-guenon]]", "[[doctrinal/autorites/michel-valsan]]"]
+statut: "transcription partielle — avant-propos (p. 7-8), table des matières (p. 319 sq.) et index des termes arabes (p. 313-318), d'après 8 photographies de l'exemplaire physique ; les chapitres I à XL n'ont pas été photographiés"
+created: 2026-07-09
+updated: 2026-09-18
 ---
 
 # Les Sept Étendards du Califat — Transcription (Avant-propos, Table des matières, Index des termes arabes)
