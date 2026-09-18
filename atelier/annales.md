@@ -9,6 +9,48 @@ updated: 2026-09-18
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] verdicts | Exécution des verdicts de Sidy, point par point — catalogue, chantier OUT-20, et deux mesures qui renversent un signalement
+
+Seconde passe du jour, distincte de l'entrée `correctifs` ci-dessous : celle-ci exécute
+les arbitrages que la première avait nommés et réservés. Fiche du lot :
+[[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]], §7.
+
+- **Catalogue de la bibliothèque — quatre œuvres recensées** (`5eb7d14`). *Aperçus sur
+  l'Ésotérisme islamique et le Taoïsme* (§I ; corpus vérifié en
+  `textes/apercus-sur-l-esoterisme-islamique-et-le-taoisme/`, 14 fichiers), *Dalâ'il
+  al-Khayrât* d'al-Jazûlî (§II), *La Gnose* — première entrée de **périodique** du
+  catalogue, `#a-revoir` (§II), Corancez, *L'Histoire des Wahabis*, `#a-revoir` (§V).
+  Chaque ligne porte la date de recension, le rapport qui l'a signalée et **l'origine de
+  l'attestation de possession** — jamais la seule foi du catalogue. Rien n'est affirmé de
+  la parution de *La Gnose* que la fiche n'atteste.
+- **`OUT-20` ouvert, triptyque rédigé, aucun code écrit** (`f6be17d`). Mesure : **589
+  wikilinks courts dans 156 fiches, 0 ambiguïté** — la forme courte n'était pas une
+  exception mais la convention majoritaire. Entérinée au §IV racine, avec la chose qui
+  est réellement gardée : **l'unicité du basename**, dont dépend toute la résolution. La
+  garde **B9 n'existe pas encore** : le `plan.md` est en `brouillon` et deux verdicts te
+  sont réservés avant qu'une ligne soit écrite — la **sévérité** (refus sec, ou
+  avertissement conditionné à l'existence d'un renvoi court) et le **périmètre**
+  (`textes/` et `protocoles/` inclus ou non). Tant qu'elle n'existe pas, la règle tient
+  par la discipline du rédacteur, et l'écart est déclaré (Cmd 12).
+- **§0 du registre des chantiers recompté par script** : **63 lignes** (`ouvert` 35 /
+  `bloque` 5 / `en-cours` 9 / `attente-verdict` 14). L'écart avec le « 60 » déclaré est
+  **antérieur à cette passe** — la note du 2026-09-13 le constatait déjà sans que le
+  chiffre de tête suive. Remis sur la mesure, non reconstitué rétroactivement.
+- **`OUT-02` reçoit le signalement H et sa mesure** (`6ea7ef7`). La question posée
+  — « faut-il étendre l'exemption C3 aux artefacts dérivés et aux registres ? » — l'était
+  à l'envers : `ETANCHEITE_INTERDITE` ne porte que `doctrinal` et `hermeneutique`, donc un
+  lien `atelier/ → meta/` **n'est contrôlé par rien**, exempté ou non. Sur 45 fiches
+  d'`atelier/` visant un circuit plus sensible : 29 artefacts dérivés (déjà exemptés le
+  2026-09-15), 1 registre, et **15 fiches rédigées ordinaires → `meta/`** — le vrai sujet,
+  invisible tant que le trou n'est pas bouché. L'ordre est inscrit : boucher d'abord,
+  exempter ensuite, sur pièces.
+- **Fait personnel sorti du circuit neutre** (`cbcfed8`) : `materiel/technics-su-8080.md`,
+  au corps **et** au titre ; le fait est versé au Domaine Réservé, non effacé (Cmd 10,
+  détail à `meta/meta-annales.md`). Ferme un report signalé quatre jours de suite.
+- **Contrôle** : `verifier-invariants.py` — **0 erreur, 71 avertissements**, inchangé à
+  chaque geste.
+- **Commits** : 5eb7d14, f6be17d, 6ea7ef7, cbcfed8
+
 ## [2026-09-18] correctifs | Rapports Studio et Publication des 09-16 et 09-17 : la part mécanique exécutée, les arbitrages nommés
 
 Consigne de Sidy en session : « exécute les correctifs des rapports Publication et

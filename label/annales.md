@@ -1,7 +1,7 @@
 ---
 title: Annales du Circuit Label
 type: meta
-updated: 2026-09-15
+updated: 2026-09-18
 ---
 
 # Annales du Circuit Label
@@ -9,6 +9,31 @@ updated: 2026-09-15
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] correctifs | Deux renvois morts du circuit reçoivent leur porteur — deux amorces qui n'affirment rien
+
+Seconde passe du jour (la première, côté atelier/doctrinal, a traité les rapports
+Studio/Publication ; celle-ci exécute les verdicts rendus par Sidy point par point).
+Consigne : « allons-y point par point », puis verdict « deux amorces qui n'affirment rien ».
+
+- **[[label/production/album-01]] créée** (`statut: idee`). Le protocole local en faisait
+  déjà la **table normative des slugs** — `label/CLAUDE.md`, §Nomenclature : « Table des
+  slugs de l'album 01 : figée dans `label/production/album-01.md` — toute fiche morceau
+  s'y conforme » — sans que le fichier existe. Renvoi mort relevé trois jours de suite
+  par la veille Publication (09-15 → 09-17).
+- **La table est vide, et la fiche le déclare comme un fait** : `musique/creation/` et
+  `musique/ingenierie/` sont l'un et l'autre vides (vérifié ce jour) — aucun morceau
+  n'est fiché, il n'y a rien à figer. **Aucun titre, aucun ordre, aucun slug n'est
+  inventé** : une tracklist est nommément un acte que le Cmd 13 réserve à l'humain.
+- **[[label/marketing-communication/site-dans-labsolu]] créée** (`statut: idee`), porteuse
+  du renvoi que [[label/marketing-communication/fanzine]] lui fait depuis sa rédaction.
+  Elle ne porte que le tranché : le nom *Dans l'Absolu* (confirmé le 2026-07-05) et la
+  place du site comme l'un des **trois organes d'une seule revue** (site, fanzine,
+  exposition). Tout le reste — architecture, régime de publication, calendrier — est
+  déclaré non tranché, et le sens unique `dépôt → manifeste → interface` rappelé d'avance.
+- **Recensées** à [[label/index.md]] (§ Œuvre et § Fanzine et présence publique).
+- **Contrôle** : `verifier-invariants.py` — 0 erreur, 71 avertissements, inchangé.
+- **Commit** : a4293c8
+
 ## [2026-09-15] vigilance | `label/index.md` — la description de l'établi suivait encore l'ancienne démarche
 
 - **Vigilance documentaire de clôture** (`protocoles/cloture-de-session.md`) : l'amendement de l'établi kamon du même jour avait **périmé** la notice que l'index du circuit portait sur lui — elle décrivait la méthode (quatre épreuves, six questions réservées) sans dire que le point de départ avait changé. Amont mis à jour, non laissé en silence.

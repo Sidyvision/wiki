@@ -1,7 +1,7 @@
 ---
 title: Annales du Domaine Réservé (meta/)
 type: meta
-updated: 2026-09-17
+updated: 2026-09-18
 
 ---
 
@@ -13,6 +13,31 @@ jamais se confondre avec les `annales.md` des quatre circuits — `meta/`
 reste le Domaine Réservé (§VI CLAUDE.md), pas un sixième circuit.
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] etancheite | La provenance familiale du Technics entre au Domaine Réservé
+
+Verdict de Sidy en session (« neutraliser ici, consigner en meta/ »), sur un report
+signalé **quatre jours de suite** par la veille Publication (09-14 → 09-17) :
+`atelier/materiel/technics-su-8080.md` portait un fait personnel en circuit neutre —
+« récupéré par Sidy auprès de sa famille » au corps (l. 21), et le mot « hérité » au
+`title:` comme au H1.
+
+- **[[meta/personnel/2026-09-18_provenance-materiel-studio]] créée** — reçoit le fait
+  sortant de la fiche neutre. Le §VI interdit qu'un fait personnel vive dans une page
+  neutre ; il n'exige pas qu'il disparaisse (Cmd 10). La fiche est ouverte pour recevoir
+  les **provenances suivantes**, et pointe vers la fiche technique — sens autorisé,
+  sensible → neutre.
+- **La fiche atelier garde tout ce qui sert au métier** : époque, appareil d'occasion,
+  section phono, usages détournés en production. Elle ne dit plus de qui il vient.
+- **Les deux porteurs ont été traités ensemble** : corriger la ligne sans le titre aurait
+  laissé la moitié du signalement debout — c'est la leçon du renvoi Seabrook du matin
+  même, où la moitié d'un renvoi mort avait d'abord survécu à sa réparation.
+- **Recensée** à [[meta/meta-index]], section `personnel/`.
+- **Mesure faite avant d'écrire** : `atelier/materiel/` (8 fiches) ne portait **aucun
+  autre** fait personnel de cette classe. `tascam-model-12.md:19` (« constat fait
+  directement par Sidy ») est une **attribution de source**, non un fait personnel —
+  laissée telle quelle.
+- **Commit** : cbcfed8
+
 ## [2026-09-17] verdict | `BIB-05` ramené à `ouvert` — le vocabulaire des statuts ne s'élargit pas
 
 Verdict de Sidy, rendu sur la question soumise la veille : « ramène `BIB-05` à

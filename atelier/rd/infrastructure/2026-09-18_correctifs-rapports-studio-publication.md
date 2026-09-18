@@ -152,3 +152,36 @@ passe corrige. Un rapport qui annonce « 48 cibles existent sur disque » dit vr
 pas que 41 d'entre elles n'appellent aucun geste. C'est le sens de la proposition P1(a) du
 rapport Studio du 09-16 (que le script publie lui-même sa décomposition) : elle reste
 ouverte, comme chantier d'instrument et non comme correctif (§4).
+
+
+-----
+
+## 7. Verdicts rendus le jour même — ce que le §4 a cessé d'être
+
+Le §4 ci-dessus dit ce qui, **au moment du contrat**, n'était pas exécutable sans
+arbitrage. Il n'est pas réécrit : c'est sa valeur que de dire ce qu'on s'était engagé à
+ne pas faire. Quelques heures plus tard, Sidy a demandé de reprendre la liste **point par
+point** et a tranché chaque ligne. Ce qui suit est le journal de cette seconde passe.
+
+| Point du §4 | Verdict de Sidy | Geste exécuté | Commit |
+|---|---|---|---|
+| **A/A′** — Sceau porté dans `textes/` | dépouiller le cartouche | champs de Sceau retirés des deux transcriptions, frontmatter descriptif conservé ; **`doctrinal/sources/sept-etendards-califat.md` existait déjà** avec le Sceau valide du même ouvrage — le cartouche de `textes/` en était une copie partielle | `ec2d2ab` |
+| **B** — slug `guenon-symboles-science-sacree` | nommer le manifeste | renvoi repointé sur `manifeste-corpus-symboles-science-sacree` (né le 2026-08-30, qui pointait déjà ici) ; lien devenu réciproque | `22a9d68` |
+| **D** — recension des œuvres possédées | les quatre | *Aperçus…* (§I), *Dalâ'il al-Khayrât* (§II), *La Gnose* `#a-revoir` (§II, première entrée de périodique), Corancez `#a-revoir` (§V) ; fiche Seabrook mise à jour en conséquence | `5eb7d14`, `bd6c0b3` |
+| **E** — forme du marqueur `to-source` | distinguer les sens, entériner le corps | règle inscrite au Sceau Recteur (`doctrinal/CLAUDE.md`) ; **68 fiches conformes en l'état, 0 touchée** ; `gilis-ordo-ab-chao` cessait d'invoquer un marqueur de cartouche inexistant | `b235cb4` |
+| **jumelles Burckhardt** | constater et rendre le lien lisible | l'arbitrage **datait du 2026-07-10** et vivait dans `deprecated:`/`note:` : porté en `cross_links`, aucune fusion, aucune suppression | `de651ba` |
+| **F** — `cross_links` en forme courte | entériner, et outiller le seul vrai risque | **589 occurrences, 156 fiches, 0 ambiguïté** ; forme admise au §IV racine, l'**unicité du basename** nommée comme la chose gardée ; chantier `OUT-20` ouvert, triptyque rédigé, **B9 non écrite** | `f6be17d` |
+| **F** — fait personnel `technics-su-8080` | neutraliser ici, consigner en `meta/` | titre **et** corps neutralisés ; fait versé en `meta/personnel/2026-09-18_provenance-materiel-studio.md` (Cmd 10) | `cbcfed8` |
+| **2 cibles `label/`** | deux amorces qui n'affirment rien | `album-01.md` déclare qu'elle est la table normative **et qu'elle est vide** (tracklist = Cmd 13) ; `site-dans-labsolu.md` ne porte que le nom tranché et la place du site | `a4293c8` |
+| **H** — exemption C3 | rattacher à `OUT-02`, ne rien exempter | mesure versée à `OUT-02` : sur 45 fiches, **15 sont des fiches rédigées → `meta/`**, le vrai sujet ; l'exemption aurait dispensé d'un contrôle inexistant | `6ea7ef7` |
+| **divergence `doctrinal/CLAUDE.md`** (signalée, hors §4) | repointer vers le catalogue R&D | le protocole local cessait d'envoyer vers un tombstone, et de faire consulter `meta/` à une fiche doctrinale | `8481f48` |
+
+**Reste en attente, et c'est tout** : les deux verdicts d'`OUT-20` (sévérité du contrôle
+B9, périmètre), qui conditionnent l'écriture de son code ; les propositions d'instrument
+du §4 (décomposition publiée par le graphe, contrôle `status:` élargi,
+`detecter-nouvelles-fiches-rd.sh`, `verifier-renvois-skills.py`) ; et `OUT-02`, dont
+l'ordre d'exécution est désormais inscrit.
+
+**Ligne de base, à chacun des dix gestes** : `verifier-invariants.py` — **0 erreur, 71
+avertissements**. Aucun geste de la journée n'a touché la classe C5/C6 tranchée le
+2026-09-10.

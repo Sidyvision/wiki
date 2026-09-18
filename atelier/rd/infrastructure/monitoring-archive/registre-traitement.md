@@ -74,6 +74,19 @@ datées du jour de la passe et renvoyant au même détail) :
 ```
 
 <!-- INSERTION: EN-TÊTE -->
+> **Note commune aux quatre entrées `[2026-09-18]` ci-dessous (ajoutée le soir même).**
+> Ces entrées ont été écrites **avant** que Sidy ne rende ses verdicts : elles listent en
+> « attente de verdict » des points qui ont été **tranchés et exécutés le jour même**, au
+> cours d'une seconde passe (« allons-y point par point »). Leur texte n'est pas réécrit —
+> il était vrai à l'heure où il a été écrit, et ce registre décrit ce qui a été vu au
+> moment où ça a été vu. Ce qui est clos depuis, et par quel commit :
+> **A/A′** `ec2d2ab` · **B** `22a9d68` · **D** `5eb7d14` (+ `bd6c0b3`) · **E** `b235cb4` ·
+> **jumelles Burckhardt** `de651ba` · **F forme courte** `f6be17d` (chantier `OUT-20`
+> ouvert, garde B9 **non écrite**) · **F technics** `cbcfed8` · **cibles `label/`**
+> `a4293c8` · **H** `6ea7ef7` (versé à `OUT-02`, aucune exemption écrite) · **divergence
+> `doctrinal/CLAUDE.md`** `8481f48`. Détail complet :
+> [[atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication]], §7.
+
 ## [2026-09-18] traite | studio | 41dc3e7e492c | rapport du 2026-09-17
 
 **Rapport** : `monitoring-archive/2026-09-17_41dc3e7e492c.txt` (commité ce jour, `318d7f2`).

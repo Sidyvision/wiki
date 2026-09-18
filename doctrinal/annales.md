@@ -8,6 +8,61 @@ updated: 2026-09-18
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] verdicts | Sept points tranchés par Sidy point par point — formes de cartouche, renvois, et une règle du Sceau
+
+Seconde passe du jour, distincte de celle du matin (qui traitait les rapports
+Studio/Publication et n'exécutait que le mécanique) : Sidy a demandé « allons-y point par
+point » et a rendu un verdict sur chaque arbitrage réservé. Le lot, ses motifs et ses
+mesures : `atelier/rd/infrastructure/2026-09-18_correctifs-rapports-studio-publication.md`,
+§7.
+
+- **`textes/` dépouillé de deux cartouches de Sceau** (`ec2d2ab`) — les transcriptions
+  *Sept Étendards* et *Isaghuji* portaient `type`, `status`, `tradition_cadre`, `tags`,
+  `sources_count`, `cross_links` dans un dossier qui **n'a pas de Sceau** (§II). Retirés ;
+  frontmatter descriptif conservé. **Ce que la mesure a montré** :
+  [[doctrinal/sources/sept-etendards-califat]] existe et porte le Sceau valide du même
+  ouvrage — le cartouche de `textes/` en était une copie partielle, d'où son
+  `sources_count: 1` sans `sources:`. Le texte reçu et ce qui s'en dit sont chacun à leur
+  place, sans duplication.
+- **[[doctrinal/sources/transcription-table-matieres-symboles-science-sacree]]** (`22a9d68`)
+  — la consigne de juillet « à verser dans `guenon-symboles-science-sacree.md`, fiche à
+  créer si elle n'existe pas encore » visait un slug qui n'a jamais existé. Elle n'était
+  pas seulement morte : **périmée par un événement postérieur**
+  ([[doctrinal/sources/manifeste-corpus-symboles-science-sacree]], né le 2026-08-30, fait
+  déjà le mappage des 75 chapitres et pointait déjà ici). Le lien est devenu réciproque.
+- **Quatre œuvres possédées recensées au catalogue** (`5eb7d14`, côté `atelier/rd/`) et
+  **[[doctrinal/sources/guenon-recension-seabrook-aventures-arabie]]** mise à jour
+  (`bd6c0b3`) : elle annonçait « recension en attente » — elle constate désormais qu'elle
+  est faite. Le renvoi de cette fiche avait déjà été repointé le matin (`983031c`) du
+  tombstone `meta/bibliotheque-physique.md` vers le catalogue R&D.
+- **Règle inscrite au Sceau Recteur — ce que `to-source` au cartouche veut dire**
+  (`b235cb4`). Mesure : sur 138 fiches `type: source`, **68 portent le marqueur au corps,
+  6 au cartouche** — la forme dominante était l'inverse de la lettre du §IV, et pour une
+  raison juste : sur une fiche `type: source`, l'ouvrage **est** la source. Trois sens se
+  disaient du même mot ; ils sont séparés : pagination non relevée et transcription
+  partielle **au corps** (cartouche à `sources: []`), référence primaire non établie
+  **au cartouche**. Règle **constatée**, non instituée : aucune des 68 fiches n'est
+  touchée (Cmd 11). Corollaire, et seul geste : `gilis-ordo-ab-chao.md` invoquait « le
+  marqueur global `to-source` du frontmatter » alors que son frontmatter porte
+  `sources: []` — une fiche ne renvoie jamais à un marqueur qu'elle ne porte pas.
+- **Jumelles Burckhardt** (`de651ba`) — le rapport demandait un arbitrage « fusion ou
+  subordination » ; **il avait été rendu le 2026-07-10** et vivait dans `deprecated: true`
+  et `note:`, deux champs que le graphe ne lit pas. Rien n'a été retranché : la
+  subordination passe en `cross_links` (chemin complet), la fiche vivante nomme son
+  antécédent déprécié (conservé, Cmd 10), et sa phrase « il manquait au catalogue
+  `meta/bibliotheque-physique.md`, à corriger » — **doublement périmée** (catalogue
+  déménagé le 2026-08-22, ouvrage recensé depuis le 2026-07-10) — est close.
+- **`doctrinal/CLAUDE.md` : le protocole local cesse d'envoyer vers une pierre tombale**
+  (`8481f48`). La ligne des « Lectures suggérées » nommait encore
+  `meta/bibliotheque-physique.md` : tombstone depuis le 2026-08-22, **et** renvoi d'une
+  fiche doctrinale vers `meta/` alors que le catalogue en est sorti pour redevenir
+  atteignable. Le local reprend la formulation en vigueur au §VII racine, consultation
+  humaine et sans wikilink comprise. Divergence signalée le matin même, close le soir.
+- **Contrôle** : `verifier-invariants.py` — **0 erreur, 71 avertissements** avant et après
+  chacun des sept gestes. Les 71 sont la classe C5/C6 tranchée le 2026-09-10 ; un compte
+  inférieur aurait signalé une erreur de périmètre.
+- **Commits** : ec2d2ab, 22a9d68, bd6c0b3, b235cb4, de651ba, 8481f48
+
 ## [2026-09-18] correctifs | Deux fiches de source : un item de cartouche vide, un renvoi vers une pierre tombale
 
 Passe de traitement des rapports Studio/Publication (consigne de Sidy en session :
