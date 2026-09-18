@@ -43,14 +43,15 @@ forme dans son écriture d'origine, prise sur la planche et non de mémoire.
   **sur un texte primaire, par Sidy lui-même** (CLAUDE.md racine §VII, discipline des
   sources, point 2), l'attribution de cette structure à
   [[doctrinal/autorites/ibn-arabi]] repose sur le seul intitulé de l'éditeur.
-- 🔍 **Piste déclarée, non vérifiée** — Sidy (2026-09-18) : Maurice Gloton donnerait
-  une traduction française de cette même planche dans *De la mort à la résurrection*
-  (Albouraq, coll. « Héritage Spirituel »). Vérification faite au dépôt le même jour :
-  la fiche [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] ne
-  porte **aucune trace** de cette planche — ni *raqīqa*, ni *sadana*, ni *Imam*, ni
-  aucun des sept Noms numérotés ; sa transcription couvre les pp. 35–49, consacrées
-  aux 28 degrés du *nafas al-raḥmān*. La collation reste donc **due**, et elle
-  appartient à l'exemplaire physique.
+- ✅ **Une figure apparentée existe chez Gloton, et elle n'est pas celle-ci.** Sidy a
+  produit le 2026-09-18 la photographie de la **Figure 7, p. 97** de *De la mort à la
+  résurrection* (Albouraq, coll. « Héritage Spirituel »), légendée « *L'aspect de la
+  présence des Noms divins, ce bas monde, le monde ultime et l'Isthme (barzakh)* ».
+  Cette figure porte la **même doctrine** et une ossature reconnaissable, mais ce
+  **n'est pas la traduction de la présente planche** : elle compte deux Noms de plus,
+  ignore les *raqāʾiq* et les *sadana*, et donne un registre terminal différent. La
+  mise en regard complète est en section propre ci-dessous. La photographie est versée
+  en regard de la page (`assets-imams-noms-divins/gloton-figure-7-p97.jpg`).
 
 ## Relevé de la planche — cinq étages
 
@@ -141,6 +142,96 @@ forme originale ne se restitue pas à l'estime (CLAUDE.md racine §VII, discipli
 langues originales, point 4). Elles se lèveront sur un tirage de meilleure résolution,
 ou sur la version française si la piste Gloton se confirme.
 
+## Mise en regard — la Figure 7 de Gloton (p. 97)
+
+Maurice Gloton donne, à la **p. 97** de *De la mort à la résurrection* (Albouraq, coll.
+« Héritage Spirituel »), une **Figure 7** légendée entre guillemets :
+
+> « L'aspect de la présence des Noms divins, ce bas monde, le monde ultime et l'Isthme
+> (*barzakh*). »
+
+**Ce n'est pas la traduction de la planche arabe ci-dessus.** Les deux figures portent
+la même doctrine et une ossature reconnaissable, mais elles diffèrent sur quatre points
+vérifiables, et la comparaison est faite ici sur les deux pièces, versées l'une et
+l'autre en regard de la page.
+
+### Ce que porte la Figure 7
+
+Trois circonstances de forme, à retenir avant toute lecture : la figure **ne trace aucun
+segment de liaison** entre ses cercles (là où la planche arabe dessine chaque liaison et
+la nomme) ; elle **ne porte aucun intitulé de *raqīqa*** ; elle **ne porte aucun cercle
+de *sadana***.
+
+- **Sur l'axe**, de haut en bas : **Vivant** → **Organisateur** → **Séparateur** →
+  l'anneau **Intermonde / Barzakh** entourant le disque **Ce bas monde** → **La terre
+  du Rassemblement**.
+- **Premier rang latéral** (même hauteur, de gauche à droite) : **Parlant**,
+  **Volontaire**, **Puissant**, **Savant**.
+- **Second rang latéral** (même hauteur) : **Répartiteur** (gauche), **Libéral** (droite).
+- **En pied** : **Le Jardin** (gauche), **Le Feu** (droite).
+
+L'anneau extérieur porte **deux fois le même nom** — *Intermonde* au-dessus, *Barzakh*
+en dessous : la traduction et le terme arabe désignent le même cercle, ils ne se
+superposent pas à deux étages distincts.
+
+### Concordance des Noms
+
+| Planche arabe | Ordre porté | Figure 7 (Gloton) |
+|---|---|---|
+| **الحي** | الأول (1ᵉʳ) | Vivant |
+| **العالم** | الثاني (2ᵉ) | Savant |
+| **المريد** | الثالث (3ᵉ) | Volontaire |
+| **القائل** | الرابع (4ᵉ) | Parlant |
+| **القادر** | الخامس (5ᵉ) | Puissant |
+| **الجواد** | السادس (6ᵉ) | Libéral |
+| **المقسط** | السابع (7ᵉ) | Répartiteur |
+| — | — | **Organisateur** — *sans contrepartie sur la planche arabe* |
+| — | — | **Séparateur** — *sans contrepartie sur la planche arabe* |
+
+Les sept Imams numérotés se retrouvent **un à un**. C'est le point d'appui de la mise
+en regard, et il est net : les deux figures parlent bien de la même hiérarchie.
+
+⚠️ **La forme originale d'*Organisateur* et de *Séparateur* n'est pas établie.** Elle
+ne se restitue ni de mémoire ni par conjecture sur le sens français (§VII, discipline
+des langues originales, point 4) : elle se prend sur la page arabe en regard dans
+l'ouvrage, ou sur le texte primaire. Les deux Noms occupent l'**axe** de la Figure 7,
+c'est-à-dire précisément la position que la planche arabe laisse vide — elle n'y
+inscrit que des *raqāʾiq*. Ce que cet écart signifie n'est **pas tranché ici** (Cmd 12).
+
+### Deux registres terminaux qui ne se recouvrent pas
+
+| | Planche arabe | Figure 7 (Gloton) |
+|---|---|---|
+| entre les Imams et les mondes | **دائرة السدنة** — trois cercles, 22 Noms | *absent* |
+| l'intermédiaire | *absent en tant que cercle* | anneau **Intermonde / Barzakh** |
+| le monde d'ici | العالم المطلق (sur l'axe) | **Ce bas monde** (disque central) |
+| les deux voies | العالم المقيد بالسعادة / العالم المقيد بالشقاوة | *absent* |
+| les deux demeures | حضرة الجنة والإيمان / حضرة النار والكفر | **Le Jardin** / **Le Feu** |
+| le rassemblement | *absent* | **La terre du Rassemblement** |
+
+### Une latéralité qui ne se superpose pas — relevé, non interprété
+
+Sur les deux figures, **الجواد / Libéral est à droite et المقسط / Répartiteur à
+gauche** : ce rang-là concorde. En pied, en revanche, les deux figures s'inversent —
+la planche arabe met **حضرة النار والكفر à gauche** et **حضرة الجنة والإيمان à
+droite** ; la Figure 7 met **Le Jardin à gauche** et **Le Feu à droite**.
+
+**Ce relevé ne conclut rien**, et deux raisons l'en empêchent. D'abord, la Figure 7 ne
+trace **aucun segment** : rien n'y rattache un Nom à une demeure, de sorte que sa
+disposition latérale peut n'être que typographique — y lire un croisement serait
+sur-interpréter un blanc. Ensuite, le dépôt a **déjà** consigné cette difficulté, et
+nommément : les annales du circuit doctrinal, entrée du 2026-08-04, déclarent
+non alignées « trois latéralités droite/gauche — pingalā/iḍā, **Imâms akbariens avec
+inversion**, colonnes séphirothiques ». La présente observation **rejoint une vigilance
+ouverte** ; elle ne la referme pas.
+
+### Ce que la mise en regard laisse ouvert
+
+L'ouvrage porte une **série numérotée de figures** — celle-ci est la septième — et le
+dépôt n'en transcrit aujourd'hui que les pp. 35–49. **Rien n'exclut qu'une autre figure
+du même ouvrage corresponde, elle, à la planche arabe.** La question se tranche en
+photographiant les autres figures, non en raisonnant.
+
 ## Relevé de la disposition (géométrie, sans verdict)
 
 La planche **latéralise** ses deux versants : le côté droit porte *al-Murīd* et
@@ -200,10 +291,17 @@ négatif.
 
 1. **Rattachement primaire de la planche** (`to-source` au cartouche) — quel traité,
    quel chapitre. Ne se lève que sur texte primaire, par Sidy.
-2. **Collation Gloton** — *De la mort à la résurrection*, exemplaire physique : la
-   traduction française de cette planche s'y trouve-t-elle, et à quelles pages ?
-3. **Deux *raqāʾiq* de lecture réservée** (voir tableau ci-dessus).
-4. **Statut du recoupement des trois listes de *sadana*** — la planche fait figurer
+2. **Forme originale d'*Organisateur* et de *Séparateur*** (Figure 7, p. 97) — à
+   prendre sur la page arabe en regard dans l'ouvrage, ou sur le texte primaire.
+   Jamais par conjecture sur le français.
+3. **Les autres figures de l'ouvrage** — la série en compte au moins sept, et le dépôt
+   n'en transcrit que les pp. 35–49. L'une d'elles correspond-elle à la planche arabe ?
+4. **Situation de la p. 97 dans l'ouvrage** — le texte traduit et transcrit au dépôt
+   couvre les pp. 35–48 (ch. 198, sections 11–38). De quelle partie du livre la p. 97
+   relève-t-elle ?
+5. **Deux *raqāʾiq* de lecture réservée** (voir tableau ci-dessus). La Figure 7 ne les
+   lève pas : elle ne porte aucun intitulé de *raqīqa*.
+6. **Statut du recoupement des trois listes de *sadana*** — la planche fait figurer
    المنعم, المذل et الضار dans deux cercles à la fois. Fait relevé, non interprété.
 
 ## Concepts liés
@@ -213,10 +311,17 @@ négatif.
   relève de ce registre.
 - [[doctrinal/autorites/ibn-arabi]] — attribution portée par l'éditeur de la planche,
   `to-source`.
-- [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] — piste de
-  collation déclarée par Sidy (2026-09-18), non vérifiée.
+- [[doctrinal/sources/ibn-arabi-de-la-mort-a-la-resurrection-gloton]] — Figure 7,
+  p. 97 : figure apparentée, mise en regard en section propre ci-dessus.
 
 ## Sources
 
-`to-source` — la planche ne porte aucune référence textuelle. Voir « En attente de
-verdict », point 1.
+`to-source` — la planche arabe ne porte aucune référence textuelle, et la Figure 7 de
+Gloton **ne la lève pas** : elle établit qu'un texte traduit par Gloton porte la même
+hiérarchie de Noms, non que la planche arabe en procède. Voir « En attente de verdict »,
+point 1.
+
+Pièces versées en regard de la page (citées en prose, cible d'aucun wikilink) :
+`assets-imams-noms-divins/haqaiq-al-hadra-al-ilahiyya.jpg` (la planche arabe, Ibn
+al-Arabi Foundation) et `assets-imams-noms-divins/gloton-figure-7-p97.jpg`
+(photographie de la Figure 7, p. 97, fournie par Sidy le 2026-09-18).
