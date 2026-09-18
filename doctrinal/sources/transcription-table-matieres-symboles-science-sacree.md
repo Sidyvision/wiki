@@ -10,7 +10,7 @@ tags:
 - table-matieres
 - symbolisme
 created: 2026-07-14
-updated: 2026-08-17
+updated: 2026-09-18
 sources: []
 sources_count: 0
 cross_links:
@@ -22,8 +22,9 @@ cross_links:
 > Transcrite depuis photographies de l'exemplaire physique de Sidy (2026-07-14).
 > Abréviations des revues d'origine : **Reg.** = *Regnabit* ; **V.I.** = *Le Voile
 > d'Isis* ; **É.T.** = *Études Traditionnelles* ; **C.d.S.** = *Cahiers du Sud*.
-> À verser dans `doctrinal/sources/guenon-symboles-science-sacree.md` (fiche source
-> à créer si elle n'existe pas encore) comme table de référence rapide.
+> Table de référence du corpus : le mappage des 75 chapitres vit en
+> [[doctrinal/sources/manifeste-corpus-symboles-science-sacree]] (créé le 2026-08-30,
+> qui renvoie ici en retour).
 
 ## LE SYMBOLISME TRADITIONNEL ET QUELQUES-UNES DE SES APPLICATIONS GÉNÉRALES
 
