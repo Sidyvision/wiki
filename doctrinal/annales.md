@@ -8,6 +8,92 @@ updated: 2026-09-18
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] archivage | Planche des Imams des Noms divins — versement des deux pièces graphiques seules
+
+Écriture **partielle et volontairement bornée** : seules les **pièces graphiques** entrent
+au circuit. La fiche demeure au sas `_inbox/2026-09-18_diagramme-imams-noms-divins/`,
+dans l'attente du verdict sur sa réécriture. Entrée rédigée après le commit, et ne
+décrivant que ce qui est exécuté (Cmd 9).
+
+### Ce qui est versé
+
+**`doctrinal/symboles/assets-imams-noms-divins/` créé** — verdict de Sidy du 2026-09-18
+(« verser aux assets doctrinal, pas raw »), sur les deux options que le sas lui
+présentait. Le dossier reçoit :
+
+- `haqaiq-al-hadra-al-ilahiyya.jpg` (287 Ko) — planche **حقائق الحضرة الإلهيّة — دوائر
+  ورقائق أحكام أئمة الأسماء الإلهية**, Ibn al-Arabi Foundation, transmise par Sidy ;
+- `gloton-figure-7-p97.jpg` (1,0 Mo) — photographie de la **Figure 7, p. 97** de
+  *De la mort à la résurrection* (trad. Gloton, Albouraq), prise par Sidy. Versée
+  **telle que reçue** : recadrer une pièce reçue sans qu'on l'ait demandé serait
+  l'altérer.
+
+Aucun `.md` n'est écrit dans un circuit. Le dossier d'assets est un **dossier de
+service** — aucun Sceau, hors régime de liens, cible d'aucun wikilink, cité en prose par
+chemin relatif (§II).
+
+### Ce que le sas porte, et qui attend
+
+Relevé intégral de la planche arabe (5 étages, **7 Imams numérotés**, 3 cercles de
+*sadana*, 3 mondes, 2 Présences, **23 intitulés de *raqāʾiq***, dont **deux déclarés non
+levés** plutôt que complétés) ; **six écarts** avec la rédaction du 2026-06-20, issue
+d'un commentaire de modèle conversationnel (§VII.3, non-source) ; **mise en regard** avec
+la Figure 7, qui porte les **sept mêmes Imams** et **n'est pas la même figure** (neuf
+Noms, aucune *raqīqa*, aucun *sadana*, registre terminal distinct) ; et un **relevé
+kabbalistique** demandé par Sidy.
+
+### Deux rectifications de mon propre travail, consignées
+
+1. **Conclusion trop rapide, corrigée par la pièce de Sidy.** Ayant établi que la
+   traduction de la planche n'était pas au dépôt, j'en avais conclu qu'elle se trouvait
+   ailleurs dans le même ouvrage. La Figure 7 montre autre chose : même doctrine,
+   figure différente.
+2. **Vigilance mal appliquée, retirée.** J'avais invoqué l'entrée du 2026-08-04 —
+   « trois latéralités droite/gauche non alignées : pingalā/iḍā, **Imâms akbariens avec
+   inversion**, colonnes séphirothiques » — comme si elle portait sur cette planche.
+   Vérification faite sur les fiches visées : les « Imâms akbariens » y sont le
+   **ternaire suprême de la Khuṭba** (*Qutb*, Imâm de droite, Imâm de gauche, ce dernier
+   plus élevé — d'où *inversion*), attesté chez
+   [[doctrinal/sources/valsan-investiture-cheikh-al-akbar]] et
+   [[doctrinal/sources/ibn-arabi-fard-afrad-gilis]]. **Autre structure**, que seul le mot
+   *Imâm* rapproche des sept Imams des Noms.
+
+### Relevé kabbalistique — 🔍 *kari-kumi*, aucun discernement ouvert
+
+Sur consigne de Sidy (« regarde aussi la relation avec les sentiers de la Kabbale,
+notamment les sentiers de Tiferet »). **Se relève** : la planche est **nativement** une
+structure de stations et de voies — *دوائر ورقائق* dans son titre —, du genre formel sur
+lequel repose 🔍 [[doctrinal/discernement/2026-08-30_nadis-du-coeur-sentiers-sephirothiques-tiferet]] ;
+et la **latéralité qualitative concorde sur ses trois termes** (droite/Miséricorde ↔
+سدنة الرضى ; gauche/Rigueur ↔ سدنة الغضب ; milieu/Équilibre ↔ le cercle central, qui
+porte des Noms des deux côtés et dont la liaison se nomme **رقيقة الجمع بين النفع
+والضرر**).
+
+**Est refusé** : le rapprochement 23 *raqāʾiq* / 22 sentiers — concordance chiffrée
+écartée par construction, et 23 n'est pas un nombre ferme. **Ne concorde pas** : les
+sentiers portent des **lettres**, les *raqāʾiq* des **أحكام** ; et l'axe de la planche ne
+porte aucune station cardiaque, le 6ᵉ Imam étant à droite. **Signalé avec son
+avertissement** : l'apparente « inversion du lettrique » est le type même d'observation
+que le discernement de Tiferet a posée puis **retirée le jour même** comme artefact de
+découpage. **Blocage inchangé** : le dépôt ne documente pas les 22 sentiers.
+
+### Vérification structurelle
+
+`verifier-invariants.py` — **0 erreur, 77 avertissements**, identique à la base avant le
+lot. Hygiène Unicode (Cmd 15) : 0 invisible, contrôle **éprouvé par l'échec** en bac à
+sable (`REFUS ZWSP x1` sur une faute fabriquée). Graphe **non régénéré** : aucune fiche
+`doctrinal/` créée ni modifiée — le déclencheur ne joue pas, et il jouera à l'intégration.
+
+### Verdicts en attente de Sidy
+
+(b) la réécriture de `doctrinal/symboles/imams-noms-divins.md` ; (c) si la concordance un
+à un des sept Imams suffit à lever le `to-source` — ma proposition est **non**, la levée
+ne m'appartenant pas (§VII, discipline des sources, point 2).
+
+- **Commit** : f8c5f84
+
+---
+
 ## [2026-09-18] archivage | Corbeau en rêve (الغراب) — et quatre verdicts de Sidy consignés séparément
 
 Intégration du sas `_inbox/2026-09-17_corbeau-en-reve/` selon son `UPDATES.md`, sur
