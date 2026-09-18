@@ -5,7 +5,7 @@ status: traditionnel
 tradition_cadre: "islam"
 tags: [lexique-arabe, ibn-manzur, lisan-al-arab, dar-sadir, racines-arabes, edition-numerique, provenance]
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-09-18
 sources: ["to-source"]
 sources_count: 1
 cross_links: ["[[doctrinal/symboles/formule-al-waha-al-ajal-al-saa]]", "[[doctrinal/sources/gloton-approche-coran-grammaire-lexique]]"]
@@ -59,22 +59,30 @@ texte transcrivible **et** vérifiable sur l'image de la page même.
 
 ## La vérification faite, et sa limite
 
-Sur **cinq folios**, dans quatre volumes, le folio imprimé lu sur l'image de la page
+Sur **sept folios**, dans quatre volumes, le folio imprimé lu sur l'image de la page
 PDF de même rang est **le même nombre** — décalage nul entre pagination PDF et
 pagination imprimée :
 
 | Volume | Page PDF | Folio imprimé lu |
 |---|---|---|
 | ج1 | 100 | ١٠٠ = 100 |
+| ج1 | 615 | ٦١٥ = 615 |
+| ج1 | 645 | ٦٤٥ = 645 |
 | ج3 | 500 | ٥٠٠ = 500 |
 | ج8 | 200 | ٢٠٠ = 200 |
 | ج11 | 400 | ٤٠٠ = 400 |
 | ج15 | 382 | ٣٨٢ = 382 |
 
+**Les deux folios du tome 1 ont été ajoutés le 2026-09-17**, à l'occasion du lot
+« corbeau en rêve » : le folio **645** porte le passage sur الغراب cité par
+[[doctrinal/symboles/corbeau-en-reve]] (l'oiseau noir, les proverbes, le hadith du
+changement de nom), et le **615** sert de contrôle de cohérence. Le domaine vérifié
+s'étend donc ; **le marqueur `to-source` n'est pas levé** pour autant.
+
 Et sur la page imprimée **382 du tome 15**, la colonne de droite de l'image et le
 texte extrait se lisent **mot pour mot**, sous le titre courant **و ح ي**.
 
-**La limite, et elle est portée au Sceau (`to-source`).** Cinq folios établissent la
+**La limite, et elle est portée au Sceau (`to-source`).** Sept folios établissent la
 **coïncidence des paginations** ; **les 8 116 pages ne sont pas attestées une par
 une**. Une référence prise au témoin A et non revue sur le témoin B reste une
 référence non vérifiée. C'est l'objet du marqueur unique porté par cette fiche : il

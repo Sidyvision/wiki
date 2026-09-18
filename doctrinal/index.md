@@ -1,7 +1,7 @@
 ---
 title: Le Catalogue Universel
 type: meta
-updated: 2026-09-16
+updated: 2026-09-18
 ---
 
 # Le Catalogue Universel
@@ -124,6 +124,7 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 - [[doctrinal/symboles/cheveux-blancs-en-reve|Cheveux ou poils blancs en rêve]]
 - [[doctrinal/symboles/elephant-en-reve|Éléphant en rêve]]
 - [[doctrinal/symboles/chat-en-reve|Chat en rêve]]
+- [[doctrinal/symboles/corbeau-en-reve|Corbeau en rêve (الغراب)]] — racine غ ر ب (l'éloignement) lue au *Lisān al-ʿArab* ; les deux jugements de l'oniromancie sont déjà des proverbes arabes ; hadith des cinq *fawāsiq*
 - [[doctrinal/symboles/homme-pieux-en-reve|Voir un homme pieux vivant en rêve]]
 - [[doctrinal/symboles/chaussure-en-reve|Chaussure (naʿl) en rêve]]
 - [[doctrinal/symboles/axe-corde-en-reve|Lier par la corde enroulée sur l'axe (motif onirique)]]
@@ -172,6 +173,8 @@ Catalogue organisé par Principes, puis par Formes traditionnelles et Autorités
 ## III. Les Autorités et Transmissions (`autorites/`)
 
 ### Maîtres et autorités traditionnels
+- [[doctrinal/autorites/muhammad-abul-huda-al-yaqoubi|Shaykh Muḥammad Abū l-Hudā al-Yaʿqūbī]] — **autorité authentique, verdict de Sidy du 2026-09-17** : tout travail se rattachant à sa personne, ou recommandé par lui, fait gage d'authenticité
+- [[doctrinal/autorites/said-ramadan-al-buti|Shaykh Muḥammad Saʿīd Ramaḍān al-Būṭī (1929-2013)]] — shāfiʿite, ashʿarite, naqshbandī ; imam des Omeyyades ; *al-Lā madhhabiyya* ; tué pendant sa leçon à la mosquée al-Īmān (2013)
 - [[doctrinal/autorites/rene-guenon|René Guénon (Cheikh ʿAbd al-Wāḥid Yaḥyā)]]
 - [[doctrinal/autorites/imam-malik|L'Imam Mālik b. Anas]]
 - [[doctrinal/autorites/ibn-arabi|Cheikh al-Akbar Ibn ʿArabī]]
@@ -217,6 +220,7 @@ ce qu'est la fiche, le statut porte le jugement.
 - [[doctrinal/references/al-afghani|Jamāl al-Dīn al-Afghānī (1838/39-1897)]] — maître de ʿAbduh, panislamisme, réponse à Renan (1883), revue *al-ʿUrwa al-Wuthqā* ; sources secondaires, textes `to-source` 
 - [[doctrinal/references/muhammad-abduh|Muhammad ʿAbduh (1849-1905, Grand Mufti d'Égypte)]] — concordisme (djinns lus comme microbes, *Tafsīr al-Manār*) ; sources secondaires, textes `to-source`
 - [[doctrinal/references/rashid-rida|Muhammad Rashīd Riḍā (1865-1935, revue *al-Manār*)]] — du modernisme au salafisme et au soutien du wahhābisme ; sources secondaires, textes `to-source`
+- [[doctrinal/references/muhammad-nasir-al-din-al-albani|Muḥammad Nāṣir al-Dīn al-Albānī (1914-1999)]] — critique du hadith salafī ; anti-madhhab et anti-taqlīd ; ses classements ont visé la matière même de ce dépôt ; **ses grades ne sont pas reçus** (verdict du 2026-09-17) ; adversaire d'al-Būṭī
 
 ---
 
@@ -246,6 +250,7 @@ ce qu'est la fiche, le statut porte le jugement.
 - [[doctrinal/etudes/2026-08-09_llm-ontologie-islamique-derive-kari-kumi|LLM et ontologie islamique automatisée — cas d'école de dérive kari-kumi]] — méthodologie du contrôle qualité vs. automatisation de correspondances
 - [[doctrinal/etudes/2026-08-30_base-terminologique-pole-usul-jurjani|Base terminologique du pôle Usûl — triade uṣūl / furūʿ / iṣṭilāḥ selon al-Jurjānī]] — fondement du pôle Usûl, définitions-têtes de Jurjānī (déf. 0156-0160, 0174-0175, 0739-0741, 0954)
 - [[doctrinal/etudes/2026-09-15_confrontation-jaimungal-theoriciens-assistes-ia|Confrontation — Curt Jaimungal et les théoriciens assistés par machine, au crible d'Orient et Occident]] — `academique` ; élément antagoniste volontaire. Diagnostic commun (prolifération théorique sans qualification), remède opposé (le spécialiste chez Jaimungal, le rattachement aux principes chez Guénon) ; six tests que le dépôt peut **échouer**. Vidéo source non localisée, `to-source`
+- [[doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya|Le débat al-Būṭī / al-Albānī — le lā-madhhabisme en question]] — **le dépôt se place du côté d'al-Būṭī (verdict du 2026-09-17)** ; différend sur l'accès aux textes, non querelle de personnes ; la thèse adverse exposée à sa force ; aucune œuvre des deux parties n'était au dépôt avant le versement du jour
 
 ### Japon — répertoire des kamon
 - [[doctrinal/etudes/2026-09-08_kamon-glossaire-systematique|Le kamon japonais — glossaire systématique : tracé, morphologie, répertoire des motifs et maisons]] — `academique`, **intégralement `to-source`** (aucun ouvrage japonais ni héraldique au dépôt, catalogue consulté, résultat nul). Le plus solide y est la **grammaire du tracé** (§ III) et la **morphologie des variantes** (§ IV), vérifiables par le tracé lui-même ; le plus fragile, les attributions de maisons (§ VI). Deux planches de construction géométrique générées par script (`assets-kamon/`) ; les motifs organiques ne sont **délibérément pas** figurés. Gizeh confronté sur quatre points, **négatif**
@@ -261,6 +266,8 @@ ce qu'est la fiche, le statut porte le jugement.
 - [[doctrinal/sources/al-madrasah-al-hanbaliyyah|Al-Madrasah Al-Hanbaliyyah (institut d'enseignement traditionnel ḥanbalite)]]
 - [[doctrinal/sources/awrad-ibn-arabi|Litanies of the Greatest Master (Awrād Ibn al-ʿArabī)]]
 - [[doctrinal/sources/alshammari-llm-ontologie-hadith-2026|Large Language Models for Automated Islamic Ontology Construction]] — Alshammari, Atwell, Alsalka (2026) ; GPT-4 + corpus Hadith LK (39k aḥādīth) → ontologie OWL ; cas de rupture méthodologique (Table 2, kari-kumi)
+- [[doctrinal/sources/hadith-fawasiq-cinq-nuisibles|Les cinq *fawāsiq* — le corbeau parmi les nuisibles tuables en état de sacralité]] — Bukhārī et Muslim, *muttafaq ʿalayh*, six occurrences, deux rapporteurs ; **aucun grade moderne n'y est reçu**
+- [[doctrinal/sources/ibn-qutayba-tabir-al-ruya|ʿIbārat al-ruʾyā (تعبير الرؤيا) — Ibn Qutayba al-Dīnawarī]] — témoin arabe du corpus oniromantique, collationné sur deux tirages pour le corbeau
 - [[doctrinal/sources/histoire-wahhabis-corancez-redissi|L'Histoire des Wahabis et la naissance du Royaume Saoudien]] — Corancez (consul de France, XIXe s.) avec préface Redissi ; transcription depuis photographies, `#a-revoir`
 - [[doctrinal/sources/jesus-and-enoch-in-ibn-arabi|Jesus and Enoch in the Barzakh of Ibn al-ʿArabī]]
 - [[doctrinal/sources/shams-al-maarif|Shams al-Maʿārif al-Kubrā (trad. française)]]
