@@ -1,5 +1,12 @@
 # Wiki
 
+> **Finalité.** Ce dépôt n'a d'autre but que **la quête, l'étude et le service de la
+> Vérité**. Tout ce qui s'y structure et s'y optimise sert une seule chose : **faciliter
+> la Connaissance, jamais en être un obstacle** — sans oublier **l'Art, la créativité et
+> l'Amour**. Les circuits, les Sceaux, les contrôles décrits ci-dessous sont des moyens ;
+> un moyen qui commence à se prendre pour une fin se démonte, il ne se perfectionne pas.
+> *(Parole de Sidy, 2026-09-18, inscrite en tête sur sa demande.)*
+
 Dépôt personnel de transmission, d'étude et de création — contenu Markdown
 structuré en cinq circuits étanches. Le protocole transversal vit dans
 [CLAUDE.md](CLAUDE.md) ; chaque circuit porte son `CLAUDE.md` local (Sceau,

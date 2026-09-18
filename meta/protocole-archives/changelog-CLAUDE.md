@@ -3,7 +3,7 @@ title: "Changelog du protocole CLAUDE.md (racine)"
 type: meta
 tags: [protocole, historique, changelog]
 created: 2026-08-28
-updated: 2026-09-15
+updated: 2026-09-18
 ---
 
 # Changelog du protocole `CLAUDE.md` (racine)
@@ -16,6 +16,23 @@ nouvelle révision du protocole y est consignée immédiatement après le marque
 ci-dessous (convention d'insertion, amendement 2026-07-27).
 
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] amendement | `CLAUDE.md` racine — la fin, et les moyens (préambule)
+
+**Parole de Sidy**, 2026-09-18, en clôture de session, sur sa propre initiative et non
+sur une proposition de la machine : le dépôt se sophistique, le moyen risque de se
+prendre pour une fin, et le but n'est « rien d'autre que la quête, l'étude et le service
+de la Vérité » — « faciliter la Connaissance, jamais en être un obstacle », « sans
+oublier l'Art, la créativité et l'Amour ». **Ce qui change** : un préambule court est
+inscrit **avant** le rôle de greffier et avant toute règle, citant la parole verbatim et
+en tirant la conséquence opératoire — un instrument se justifie par ce qu'il rend
+possible, jamais par sa cohérence propre ; celui qui produit surtout du travail sur
+lui-même se démonte au lieu de se perfectionner. Pour la machine, c'est la lettre du
+Cmd 12 (*upakarana*) : avant d'ajouter une règle ou un contrôle, la question est « qu'est-ce
+que cela rend possible à qui cherche ? », non « est-ce plus rigoureux ? ». **Même parole
+portée en tête du `README.md`** (présentation publique, lue en premier). **Aucune règle
+existante n'est modifiée ni abrogée** : le préambule les commande toutes sans en changer
+la lettre. **Additif**, sans archive de version. Réversible sur simple verdict (Cmd 10).
+
 ## [2026-09-15] amendement | `atelier/CLAUDE.md` — index lexical exempté du sens des liens (§VI)
 
 **Verdict de Sidy**, 2026-09-15, sur la suggestion 1 du rapport Publication du jour
