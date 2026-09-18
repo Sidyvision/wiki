@@ -1,12 +1,12 @@
 ---
-title: Technics SU-8080 — ampli hi-fi vintage hérité
+title: Technics SU-8080 — ampli hi-fi vintage
 type: materiel
 tags:
 - audio
 - vintage
 - technics
 created: 2026-06-20
-updated: 2026-08-08
+updated: 2026-09-18
 sources:
 - '[[chatgpt-export-2026-05-10]]'
 links:
@@ -14,11 +14,11 @@ links:
 - '[[atelier/materiel/tascam-model-12]]'
 ---
 
-# Technics SU-8080 — ampli hi-fi vintage hérité
+# Technics SU-8080 — ampli hi-fi vintage
 
 ## Nature de l'appareil
 
-Amplificateur intégré hi-fi haut de gamme des années 1970 (préampli + ampli de puissance), récupéré par Sidy auprès de sa famille, initialement destiné à un usage d'écoute domestique.
+Amplificateur intégré hi-fi haut de gamme des années 1970 (préampli + ampli de puissance), appareil d'occasion entré au studio, initialement destiné à un usage d'écoute domestique.
 
 ## Usages détournés envisagés (production audio)
 

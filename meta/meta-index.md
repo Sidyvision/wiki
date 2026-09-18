@@ -2,7 +2,7 @@
 title: "meta-index — hub du Domaine Réservé"
 type: meta
 created: 2026-08-09
-updated: 2026-09-15
+updated: 2026-09-18
 ---
 
 # meta-index — hub du Domaine Réservé (`meta/`)
@@ -39,6 +39,7 @@ updated: 2026-09-15
 - [[meta/personnel/2026-06-20_reve-urine|Rêve d'urine sur soi-même]]
 - [[meta/personnel/2026-06-20_taekwondo-hansu|Pratique du Taekwondo — poomsae Hansu (haut gradé)]]
 - [[meta/personnel/2026-06-20_temperament|Profil de tempérament personnel (Tibb)]]
+- [[meta/personnel/2026-09-18_provenance-materiel-studio|Provenance du matériel du studio — faits personnels sortis des fiches neutres]]
 - [[meta/personnel/2026-06-20_theme-astrologique|Thème astrologique personnel (astrologie occidentale)]]
 - [[meta/personnel/2026-06-20_triptyque-animaux|Triptyque onirique — rats, chiens, singes (11 avril 2025, post-khalwa)]]
 - [[meta/personnel/2026-08-18_initiation-virtuelle|Initiation virtuelle — définition personnelle de Sidy]]
