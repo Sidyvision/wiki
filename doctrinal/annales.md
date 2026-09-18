@@ -8,6 +8,96 @@ updated: 2026-09-18
 
 Journal chronologique inverse des opérations (la plus récente en haut). Append-only.
 <!-- INSERTION: EN-TÊTE -->
+## [2026-09-18] archivage | Corbeau en rêve (الغراب) — et quatre verdicts de Sidy consignés séparément
+
+Intégration du sas `_inbox/2026-09-17_corbeau-en-reve/` selon son `UPDATES.md`, sur
+consigne « intègre `_inbox/` ». **Sept fiches versées, une enrichie, deux mises à jour.**
+Le lot était daté du 2026-09-17 ; l'intégration a lieu ce jour.
+
+### Le motif, et ce que la source primaire y a ajouté
+
+**[[doctrinal/symboles/corbeau-en-reve]] créée** — le motif **n'existait pas au dépôt**
+(vérifié avant production : rien dans les 75 fiches de `symboles/`, rien dans les sept
+fiches de rêve de `meta/personnel/`). La fiche ne se contente pas du corpus oniromantique
+déjà présent : elle est instruite par le ***Lisān al-ʿArab*** versé en `raw/`, racine
+**غ ر ب**, `[ج1 ص638-648]`.
+
+Ce que le lexique apporte et que l'oniromancie seule ne portait pas : **le nom de l'oiseau
+est construit sur la racine de l'éloignement** (الغُرْبة l'exil, الغَريب l'étranger,
+غَرَبَت الشمس le coucher) ; et **les deux jugements que l'oniromancie porte sur lui sont
+déjà des proverbes arabes** — أَبْصَرُ مِنْ غُراب (le discernement) contre
+أَشْأَمُ مِنْ غُراب et أَفْسَقُ مِنْ غُراب (le mauvais augure, la corruption).
+
+**[[doctrinal/sources/hadith-fawasiq-cinq-nuisibles]] créée** : le hadith des cinq
+*fawāsiq*, où le corbeau est **premier nommé** — six occurrences chez al-Bukhārī et
+Muslim, deux rapporteurs, *muttafaq ʿalayh*. Le proverbe de la corruption citait donc un
+classement prophétique ; il ne l'inventait pas.
+
+**[[doctrinal/sources/ibn-qutayba-tabir-al-ruya]] créée** — témoin arabe du corpus
+oniromantique, collationné sur deux tirages pour le corbeau. C'est le **seul point du lot
+adossé à deux témoins**.
+
+### Les quatre verdicts, consignés un par un
+
+1. **Les grades d'al-Albānī ne sont pas reçus** (consigne du 2026-09-17). Aucune donnée
+   hadithique n'a été retirée : les grades cessent d'être une **autorité** et sont
+   désormais **nommés comme siens** — « `صحيح`, par al-Albānī — non reçu » —, aucun ne
+   levant de `to-source`. Les critères recevables sont posés en regard : accord entre
+   recueils, édition imprimée collationnée, rattachement à une autorité reconnue. Le
+   hadith des *fawāsiq* relevait du premier : il n'avait jamais eu besoin de lui.
+   [[doctrinal/references/muhammad-nasir-al-din-al-albani]] créée, `status: profane`.
+2. **al-Yaʿqūbī est une autorité authentique** — verdict, non proposition : le
+   `status: traditionnel` de [[doctrinal/autorites/muhammad-abul-huda-al-yaqoubi]] est
+   **donné**. Périmètre confirmé par Sidy : **toute recommandation de sa part** fait gage
+   d'authenticité — c'est le rattachement qui compte, non l'auteur. Point de jonction
+   trouvé en documentant la fiche : il a donné la traduction et l'introduction anglaises
+   des *Dalāʾil al-Khayrāt*, que le dépôt porte déjà
+   ([[doctrinal/sources/dalail-al-khayrat-jazuli]]). **Distinction tenue** : le verdict
+   porte sur l'**authenticité** (le contenu est-il sûr ?), le `to-source` sur la
+   **provenance** (le texte est-il au dépôt ?) — les deux étaient confondues dans le doute.
+3. **Il n'y a pas de cloisonnement entre voies authentiques.** Elles ne diffèrent que par
+   la **méthode pratique** (dhikr, awrād, rythme, conduite du *sālik*) ; l'enseignement
+   doctrinal est commun, exotérique comme ésotérique. **Correction d'une faute
+   d'application** : la première rédaction du lot appliquait aux ṭuruq les « cloisons
+   rituelles » du Cmd 3, qui vise les **traditions distinctes** — vérification faite,
+   aucun bloc 🌐 du dépôt ne portait entre voies. Conséquence inscrite à
+   [[doctrinal/symboles/tariqa]] : ce qui discerne une voie authentique d'une contrefaçon
+   **n'est pas la méthode** mais la transmission et la fidélité à la *sharīʿa* — une
+   méthode inhabituelle n'est pas un indice de déviation. `to-source` porté à la section :
+   le verdict est reçu, son ancrage textuel classique n'est pas au dépôt.
+4. **Le dépôt se place du côté d'al-Būṭī** dans le débat sur le lā-madhhabisme.
+   [[doctrinal/autorites/said-ramadan-al-buti]] créée (`status: traditionnel` donné) et
+   [[doctrinal/etudes/2026-09-17_debat-al-buti-al-albani-la-madhhabiyya]] créée. Ce que
+   l'étude établit : **ce n'est pas une querelle de personnes, c'est un différend sur
+   l'accès aux textes** ; la thèse d'al-Būṭī est que la science du hadith **n'est pas
+   autonome**, séparée du fiqh, de l'uṣūl et de l'histoire — ce qui est exactement le
+   fondement de la règle du point 1. Deux points de méthode tenus : l'issue de la joute
+   orale est disputée et **le dépôt ne s'y prononce pas** (il se prononce sur le fond, la
+   thèse adverse exposée à sa force) ; le terrain politique est **rapporté attribué, hors
+   du verdict**.
+
+### Ce que l'intégration a vérifié, et ce qu'elle n'a pas levé
+
+- **Collation de `tariqa.md` avant écriture**, comme le manifeste l'exigeait : le fichier
+  du sas est l'état courant **plus 43 lignes**, une seule ligne modifiée (`updated`),
+  **aucune suppression** — contrôlé ligne à ligne après écriture.
+- **[[doctrinal/sources/lisan-al-arab]]** : table des folios contrôlés portée de **5 à 7**
+  (folio 645, celui du passage cité ; 615 en contrôle de cohérence). **Extension du
+  domaine vérifié, non levée du `to-source`** : les 8 116 pages ne sont toujours pas
+  attestées une par une.
+- **Aucun `to-source` de provenance levé.** Les hadith sont des clippings web ; les pièces
+  du débat viennent d'**un seul fonds** (Internet Archive), une seule édition par ouvrage,
+  donc **aucune collation possible** là où le dépôt en veut deux ; aucune œuvre
+  d'al-Yaʿqūbī n'est au dépôt. Divergence déclarée et non corrigée : la page de titre de
+  la *Difāʿ* porte **مصطفى** là où l'auteur est nommé partout **محمد**.
+- **Le rêve personnel de Sidy n'est pas versé** — ce serait sa décision, non une
+  conséquence de ce lot. Le Coran 5:31 n'est cité que comme lecture du rédacteur, signalé.
+- **Contrôles** : sept cibles libres, aucune collision de basename introduite (**B9**,
+  livrée le jour même), tous les wikilinks des huit fiches résolvant **avant** le premier
+  `mv`. Après intégration : **0 erreur, 71 avertissements**. Carte du dépôt régénérée.
+- **Sas vidé.**
+- **Commit** : 0ee3159
+
 ## [2026-09-18] verdicts | Sept points tranchés par Sidy point par point — formes de cartouche, renvois, et une règle du Sceau
 
 Seconde passe du jour, distincte de celle du matin (qui traitait les rapports
