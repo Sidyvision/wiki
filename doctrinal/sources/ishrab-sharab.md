@@ -12,12 +12,12 @@ tags:
 - sabr
 - poesie
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-09-18
 sources: ["to-source"]
 sources_count: 1
 cross_links:
 - '[[tasawwuf]]'
-- '[[tariqa]]'
+- '[[doctrinal/symboles/tariqa]]'
 - '[[wird-awrad]]'
 - '[[awrad-ibn-arabi]]'
 - '[[dalail-al-khayrat-jazuli]]'
@@ -147,7 +147,7 @@ pas ; `cross_links` reste vide jusqu'au verdict de Sidy, après quoi le graphe e
 régénéré.
 
 - `[[tasawwuf]]` — cadre général.
-- `[[tariqa]]` — la Voie, dont le poème chante la condition d'entrée.
+- `[[doctrinal/symboles/tariqa]]` — la Voie, dont le poème chante la condition d'entrée.
 - `[[wird-awrad]]` — régime des litanies, registre voisin.
 - [[dhikr]] — le refrain *Allah Allah* comme support. **Fiche ouverte le 2026-09-14**, lien inscrit.
 - `[[doctrinal/sources/awrad-ibn-arabi]]`, `[[doctrinal/sources/dalail-al-khayrat-jazuli]]`,

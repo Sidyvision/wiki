@@ -11,7 +11,7 @@ tags:
 - dhakir
 - souffle
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-09-18
 sources: ["[[doctrinal/sources/qamus-language-of-the-future]]"]
 sources_count: 1
 cross_links:
@@ -19,7 +19,7 @@ cross_links:
 - '[[wird-awrad]]'
 - '[[sama]]'
 - '[[tasawwuf]]'
-- '[[tariqa]]'
+- '[[doctrinal/symboles/tariqa]]'
 - '[[ishrab-sharab]]'
 original: ["to-original"]
 ---

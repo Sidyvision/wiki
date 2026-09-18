@@ -560,6 +560,89 @@ def controler_frontmatter(chemin_rel, fm, rap):
 # Dossiers exclus en toutes circonstances, même hors dépôt git.
 DOSSIERS_EXCLUS = {".git", "node_modules", "_inbox"}
 
+# --- B9 — unicité des basenames, garde de la forme courte (chantier OUT-20) ---
+#
+# Verdicts de Sidy, 2026-09-18, rendus sur la mesure de l'étape 1 du plan :
+#   · SÉVÉRITÉ — refus **seulement** si un renvoi court vise effectivement le
+#     basename doublé. Un refus sec échouerait 17 fois dès la première exécution
+#     sur des doublons VOULUS : les stubs `deprecated` conservés au titre du
+#     Cmd 10 (migration du 2026-08-08) et les paires `autorites/`↔`references/`.
+#     Le contrôle garde ce qui casse un lien, non ce qui dérange l'œil.
+#   · PÉRIMÈTRE — les cinq circuits **plus `_inbox/`**, qui n'était pas prévu et
+#     qui a produit le seul cas vivant du risque (`tariqa`, 2026-09-17).
+#     `textes/` et `protocoles/` restent dehors : cibles d'aucun wikilink (§II),
+#     et `textes/` porte 15 collisions par construction (`index-conversion` ×10).
+#
+# B9 n'est PAS un doublon de C2. C2 avertit quand un lien court est ambigu DANS
+# L'INDEX DE RÉSOLUTION, d'où `_inbox/` est absent — le sas est précisément la
+# porte par laquelle la collision entre. B9 regarde les FICHIERS, C2 les liens.
+B9_DOSSIERS = ("doctrinal/", "atelier/", "label/", "hermeneutique/", "meta/", "_inbox/")
+
+# Homonymes par CONVENTION, cibles d'aucun renvoi court : la liste est close et
+# nommée ici, jamais devinée par motif.
+B9_EXEMPTS = {"index", "annales", "meta-index", "meta-annales", "CLAUDE",
+              "README", "LISEZ-MOI", "SKILL", "intent", "spec", "plan"}
+
+
+def collecter_collisions(racine, ignores, mode):
+    """Basenames portés par plus d'un fichier dans le périmètre B9.
+
+    Index SÉPARÉ de celui de la résolution (`par_slug`) : y verser `_inbox/`
+    ferait résoudre des wikilinks vers le sas, ce qui serait une faute. Ici on
+    ne résout rien — on compte des noms de fichiers.
+    """
+    def ignore_par_git(rel):
+        """`hors_perimetre` MOINS la clause `DOSSIERS_EXCLUS`.
+
+        `_inbox` figure dans `DOSSIERS_EXCLUS` — à juste titre pour tous les
+        autres contrôles : le sas n'est pas le dépôt, ses fiches ne portent pas
+        encore de Sceau et ne sont cibles d'aucun lien. Mais B9 le regarde **par
+        décision** (verdict du 2026-09-18), parce que c'est exactement par là
+        qu'une collision entre. Réutiliser `hors_perimetre` ici reviendrait à
+        annuler le verdict par un détail d'implémentation.
+        """
+        chemin = rel.replace(os.sep, "/")
+        return any(chemin == ig or chemin.startswith(ig + "/") for ig in ignores)
+
+    par_nom = {}
+    for base, dossiers, fichiers in os.walk(racine):
+        dossiers[:] = [
+            d for d in dossiers
+            if d not in {".git", "node_modules"}
+            and (mode != "git" or not ignore_par_git(
+                os.path.relpath(os.path.join(base, d), racine)))
+        ]
+        for nom in fichiers:
+            if not nom.endswith(".md"):
+                continue
+            rel = os.path.relpath(os.path.join(base, nom), racine).replace(os.sep, "/")
+            if not rel.startswith(B9_DOSSIERS):
+                continue
+            slug = nom[:-3]
+            if slug in B9_EXEMPTS:
+                continue
+            par_nom.setdefault(slug, []).append(rel)
+    return {k: sorted(v) for k, v in par_nom.items() if len(v) > 1}
+
+
+def controler_unicite_basenames(collisions, refs_courtes, rap):
+    """B9 — un renvoi court ne vise jamais un basename porté par deux fichiers.
+
+    Émet **une** ligne par basename fautif, portée par le dépôt et non par une
+    fiche : le défaut n'est pas dans la fiche qui renvoie, il est dans la paire
+    de fichiers qui rend son renvoi équivoque.
+    """
+    for slug in sorted(set(collisions) & set(refs_courtes)):
+        cibles = collisions[slug]
+        porteurs = sorted(refs_courtes[slug])
+        rap.erreur("<dépôt>", "B9",
+                   f"basename `{slug}` porté par {len(cibles)} fichiers — "
+                   f"{', '.join(cibles)} — et visé en forme courte [[{slug}]] "
+                   f"par {len(porteurs)} fiche(s) : {', '.join(porteurs[:5])}"
+                   f"{' …' if len(porteurs) > 5 else ''}. La forme courte n'est "
+                   f"sûre que sur un basename unique (CLAUDE.md §IV) : nommer "
+                   f"le chemin complet, ou lever la collision.")
+
 
 def perimetre_ignore(racine):
     """Ensemble des chemins relatifs que git tient pour hors dépôt.
@@ -647,7 +730,7 @@ def masquer_code(corps):
     return RE_SPAN_CODE.sub(" ", "\n".join(hors_bloc))
 
 
-def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
+def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap, refs_courtes=None):
     circ = circuit_de(chemin_rel)
     nom = os.path.basename(chemin_rel)
     # Les annales et index sont exempts du contrôle C3 bloquant (liens contextuels
@@ -664,6 +747,8 @@ def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
         # Ignorer les placeholders/exemples.
         if RE_LIEN_PLACEHOLDER.match(cible):
             continue
+        if refs_courtes is not None and "/" not in cible:
+            refs_courtes.setdefault(cible, set()).add(chemin_rel)
         # C1 — résolution.
         if cible not in par_chemin:
             candidats = par_slug.get(os.path.basename(cible), [])
@@ -705,7 +790,7 @@ def controler_liens(chemin_rel, corps, par_chemin, par_slug, rap):
 CHAMPS_LIENS_CARTOUCHE = ("sources", "cross_links", "links", "liens_doctrinal")
 
 
-def controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap):
+def controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap, refs_courtes=None):
     """C1/C2 appliqués aux wikilinks déclarés dans le frontmatter.
 
     Extension du 2026-09-04 (verdict Sidy), motivée par une épreuve §VII : la
@@ -742,6 +827,8 @@ def controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap):
                     cible = cible[:-3]
                 if RE_LIEN_PLACEHOLDER.match(cible):
                     continue
+                if refs_courtes is not None and "/" not in cible:
+                    refs_courtes.setdefault(cible, set()).add(chemin_rel)
                 if cible in par_chemin:
                     continue
                 candidats = par_slug.get(os.path.basename(cible), [])
@@ -995,6 +1082,8 @@ def main():
     rap = Rapport()
     ignores, mode = (set(), "aucun") if args.tout else perimetre_ignore(racine)
     par_chemin, par_slug = collecter_cibles(racine, ignores, mode)
+    collisions = collecter_collisions(racine, ignores, mode)
+    refs_courtes = {}
     non_tranches = indexer_discernements(racine, ignores, mode, rap)
     controles = 0
 
@@ -1023,8 +1112,10 @@ def main():
             fm, corps, n_fm = separer_frontmatter(texte)
             controler_frontmatter(chemin_rel, fm, rap)
             controler_original(chemin_rel, fm, corps, rap)
-            controler_liens(chemin_rel, corps, par_chemin, par_slug, rap)
-            controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap)
+            controler_liens(chemin_rel, corps, par_chemin, par_slug, rap,
+                            refs_courtes)
+            controler_liens_cartouche(chemin_rel, fm, par_chemin, par_slug, rap,
+                                      refs_courtes)
             controler_etancheite_inversee(chemin_rel, fm, corps, n_fm,
                                           par_chemin, par_slug, non_tranches, rap)
             if nom in NOMS_ANNALES:
@@ -1034,6 +1125,7 @@ def main():
             controles += 1
 
     controler_protocoles(racine, rap)
+    controler_unicite_basenames(collisions, refs_courtes, rap)
 
     # Le périmètre est déclaré, jamais silencieux : un lecteur doit savoir ce
     # que le script a regardé avant de lire ce qu'il a trouvé.

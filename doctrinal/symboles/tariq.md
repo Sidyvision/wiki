@@ -9,11 +9,11 @@ tags:
 - regle
 - tariq
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-09-18
 sources: ["[[doctrinal/sources/kitab-al-tarifat-jurjani]]"]
 sources_count: 1
 cross_links:
-- '[[tariqa]]'
+- '[[doctrinal/symboles/tariqa]]'
 - '[[tasawwuf]]'
 ---
 
@@ -31,7 +31,7 @@ Dans le langage des gens de réalisation spirituelle, ce terme s'applique aux pr
 
 ## Concepts liés
 
-- [[tariqa]] — la Voie en tant que démarche itinérante (déf. 0993, distincte de la présente).
+- [[doctrinal/symboles/tariqa]] — la Voie en tant que démarche itinérante (déf. 0993, distincte de la présente).
 - [[tasawwuf]] — le cadre général du chemin spirituel.
 
 ## Sources

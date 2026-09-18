@@ -13,10 +13,10 @@ links:
 
 # OUT-20 — unicité des basenames, garde du wikilink court : plan
 
-> **Statut** : `vise` — visa de Sidy en session, 2026-09-18 : « Je valide l'ensemble, tu
-> peux engager ». L'**étape 1 est exécutée** (mesure, ci-dessous) ; les étapes 3 à 6
-> restent suspendues aux deux verdicts de l'étape 2, qui n'ont pas été rendus. Aucune
-> ligne de code n'est écrite.
+> **Statut** : `vise` — visa de Sidy, 2026-09-18 : « Je valide l'ensemble, tu peux
+> engager ». **Les six étapes sont exécutées** le jour même : mesure (étape 1), deux
+> verdicts rendus sur cette mesure (étape 2), B9 écrit (3), éprouvé par l'échec (4),
+> organe MCP vérifié (5), journalisé (6).
 
 ## Étapes
 
@@ -120,3 +120,72 @@ elle-même — ni l'une ni l'autre n'est un défaut à corriger par ce chantier.
    refuserait aujourd'hui sur le seul `tariqa`, et pour une raison juste.
 2. **Périmètre** : inclure `textes/` ajouterait 15 collisions par construction ; c'est
    `_inbox/` — non prévu au périmètre initial — qui a produit le seul cas vivant.
+
+
+-----
+
+## Étapes 2 à 6 — exécutées le 2026-09-18
+
+### Étape 2 — les deux verdicts, rendus sur la mesure
+
+- **Sévérité** : « refus seulement si un renvoi court vise ». B9 ne refuse que lorsqu'un
+  basename doublé est **effectivement la cible** d'un renvoi court. Les 17 collisions
+  voulues restent muettes — le contrôle garde ce qui casse un lien, non ce qui déplaît à
+  l'œil.
+- **Périmètre** : « les cinq circuits **plus `_inbox/`** ». `textes/` et `protocoles/`
+  restent dehors (cibles d'aucun wikilink, §II ; et `textes/` porte 15 collisions par
+  construction).
+
+### Étape 3 — B9 écrit, et ce qu'il n'est pas
+
+Deux pièces, délibérément séparées : `collecter_collisions()` compte des **noms de
+fichiers** dans le périmètre B9 ; `controler_unicite_basenames()` croise ce compte avec
+les **renvois courts réellement écrits**, récoltés au passage par les deux contrôleurs de
+liens (corps et cartouche).
+
+**Deux pièges évités, l'un et l'autre mesurés :**
+
+1. **B9 n'est pas un doublon de `C2`.** `C2` avertit quand un lien court est ambigu *dans
+   l'index de résolution* — d'où `_inbox/` est absent. Or le sas est exactement la porte
+   par laquelle une collision entre. `C2` regarde les liens, B9 regarde les fichiers.
+2. **`_inbox/` figure dans `DOSSIERS_EXCLUS`**, et `hors_perimetre()` l'écarte pour tous
+   les autres contrôles — à juste titre : le sas n'est pas le dépôt. Réutiliser cette
+   fonction ici aurait **annulé le verdict par un détail d'implémentation** ; B9 porte
+   donc son propre filtre, qui reprend la clause git et laisse tomber la clause des
+   dossiers exclus. Le motif est écrit dans le code, à l'endroit où l'on serait tenté de
+   « simplifier ».
+
+B9 émet **une** ligne par basename fautif, portée par `<dépôt>` et non par une fiche : le
+défaut n'est pas dans la fiche qui renvoie, il est dans la paire de fichiers qui rend son
+renvoi équivoque.
+
+### Étape 4 — épreuve par l'échec (§VII), quatre temps, en copie jetable
+
+Bac à sable hors dépôt vivant (`git archive HEAD | tar -x`), **jamais le dépôt lui-même** :
+
+| Temps | État | Attendu | Obtenu |
+|---|---|---|---|
+| 1 | sain (collision du sas retirée) | 0 erreur | **0 erreur**, 77 avertissements ✅ |
+| 2 | homonyme fabriqué **dans un circuit** (`atelier/rd/barzakh.md`) | refus | **31 erreurs** — B9 tire, et il est **le seul à nommer la cause** ; les 30 autres (`C3`, `C1`) sont l'effet de bord de la résolution par slug ✅ |
+| 3 | homonyme fabriqué **dans le sas** (`_inbox/lot-epreuve/barzakh.md`) — *le cas visé par le verdict* | refus, et lui seul | **exactement 1 erreur**, B9 seul, les autres contrôles muets ✅ |
+| 4 | faute retirée | retour au vert | **0 erreur** ✅ |
+
+Le temps 3 est celui qui justifie le chantier : quand la collision naît dans le sas, **B9
+est le seul contrôle du dépôt qui la voit**.
+
+### Étape 5 — le dépôt vivant, et le remède appliqué
+
+Au premier passage sur le dépôt vivant : **1 erreur** — `tariqa`, porté par
+`doctrinal/symboles/tariqa.md` et par le lot du sas du 2026-09-17, et visé en forme courte
+par cinq fiches. Le contrôle nomme lui-même les deux issues (« nommer le chemin complet,
+ou lever la collision ») : la première est mécanique et n'engage rien, elle est appliquée
+— **8 occurrences dans 5 fiches** passent à `[[doctrinal/symboles/tariqa]]`. Le lot du sas
+reste intact : son intégration est une passe à part entière, et B9 a précisément servi à
+la signaler **avant** qu'elle ait lieu.
+
+**Ligne de base après** : `0 erreur, 71 avertissements` — inchangée. B9 est en place et
+vert, sans avoir rien coûté au dépôt.
+
+### Étape 6 — journalisation
+
+`atelier/annales.md`, ligne `OUT-20` du registre des chantiers, et cette fiche.

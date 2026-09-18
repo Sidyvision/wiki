@@ -11,13 +11,13 @@ tags:
 - murshid
 - adab
 created: 2026-09-14
-updated: 2026-09-14
+updated: 2026-09-18
 sources: ["[[doctrinal/sources/qamus-language-of-the-future]]"]
 sources_count: 1
 cross_links:
 - '[[doctrinal/sources/qamus-language-of-the-future]]'
 - '[[tasawwuf]]'
-- '[[tariqa]]'
+- '[[doctrinal/symboles/tariqa]]'
 - '[[ishrab-sharab]]'
 original: ["to-original"]
 ---
